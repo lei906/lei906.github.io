@@ -1,0 +1,3526 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t1-b3",
+  "sources": [
+    {
+      "title": "一元三次方程怎么快速因式分解？",
+      "url": "https://www.zhihu.com/answer/13227011",
+      "summary": "以三次方程为例，通过候选根试验寻找分解；原文关于系数因子比的说法缺少有理根适用条件。"
+    },
+    {
+      "title": "iTunes Store 美国区账号里面还有 10.23 美元，怎样搭配买软件才能把剩下的余额完全花光？",
+      "url": "https://www.zhihu.com/answer/18482952",
+      "summary": "把花光余额建成非负整数方程，通过界限和小数部分逐步求解，并说明税率及精确花光的限制；仅按文中给定价格研究，不当作现时购买建议。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/31320348",
+      "summary": "正文围绕“方程”给出说明、例证或方法。"
+    },
+    {
+      "title": "方程 x³+y³+z³=33 是否存在整数解？",
+      "url": "https://www.zhihu.com/answer/31702833",
+      "summary": "正文围绕“方程”给出说明、例证或方法。"
+    },
+    {
+      "title": "有人认为小学生的算术方法比方程更锻炼思维，怎么说服他？",
+      "url": "https://www.zhihu.com/answer/32437645",
+      "summary": "通过列一元、二元方程对比算术解法与方程解法。"
+    },
+    {
+      "title": "有人认为小学生的算术方法比方程更锻炼思维，怎么说服他？",
+      "url": "https://www.zhihu.com/answer/32441030",
+      "summary": "说明方程可将求解过程抽象化，以处理更复杂的问题。"
+    },
+    {
+      "title": "最大的一个不能表示为若干个13与17的和的自然数是多少？",
+      "url": "https://www.zhihu.com/answer/40557860",
+      "summary": "正文将问题形式化为正整数线性组合的最大不可表示数。"
+    },
+    {
+      "title": "10L 瓶装水通过一个7L 瓶和3L 瓶平分成两瓶5L 水，有什么数学方法计算此类问题？",
+      "url": "https://www.zhihu.com/answer/42259818",
+      "summary": "正文将倒水问题化为一次不定方程。"
+    },
+    {
+      "title": "数学上有哪些丑陋的公式？",
+      "url": "https://www.zhihu.com/answer/46194055",
+      "summary": "正文展示一元四次方程及其求根公式。"
+    },
+    {
+      "title": "Hough变换,同一条直线上的点对应的(r,θ)都是相同的，怎么理解？",
+      "url": "https://www.zhihu.com/answer/82100453",
+      "summary": "正文围绕直线方程在普通坐标与参数空间中的表示展开。"
+    },
+    {
+      "title": "在高中的学习中，有哪一瞬间你觉得自己真正懂了一个对高考卷解题有大用的东西？",
+      "url": "https://www.zhihu.com/answer/83472732",
+      "summary": "正文讨论通过试根法求一元三次方程的根。"
+    },
+    {
+      "title": "隐函数和方程有什么区别？",
+      "url": "https://www.zhihu.com/answer/84864282",
+      "summary": "正文把方程定义为变量间的关系等式，并比较隐函数。"
+    },
+    {
+      "title": "尺规作图对数学研究的意义是什么？",
+      "url": "https://www.zhihu.com/answer/85028559",
+      "summary": "正文把三等分角等问题化为方程根的可作性。"
+    },
+    {
+      "title": "数学中有哪些看起来很不可思议的知识？",
+      "url": "https://www.zhihu.com/answer/91008514",
+      "summary": "正文利用连分式和嵌套根式的周期结构建立多项式方程并分析其实根。"
+    },
+    {
+      "title": "虚数是负数的平方根，为什么是在三次方程中才出现的呢？",
+      "url": "https://www.zhihu.com/answer/93926475",
+      "summary": "正文围绕二次、三次方程的解与求根公式展开。"
+    },
+    {
+      "title": "如何通俗地理解内部收益率（IRR）？",
+      "url": "https://www.zhihu.com/answer/94781631",
+      "summary": "正文把 NPV=0 作为未知折现率方程并用试算求近似解。"
+    },
+    {
+      "title": "如何引导不喜欢方程的表弟学习使用方程？方程思想到底是什么？",
+      "url": "https://www.zhihu.com/answer/107593194",
+      "summary": "正文解释列方程就是把自然语言中的数量关系翻译成数学语言。"
+    },
+    {
+      "title": "上大学学了高等数学之后看高中的数学题是一种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/110712103",
+      "summary": "正文围绕三次、四次方程的求根展开，具体说明试有理根后如何分解方程。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/115983401",
+      "summary": "正文给出旋转前后都成立的分式方程及其对应解。"
+    },
+    {
+      "title": "什么才是代数？",
+      "url": "https://www.zhihu.com/answer/122295995",
+      "summary": "正文从还原、对消和求根公式讲解代数学最初以解方程为研究对象。"
+    },
+    {
+      "title": "小时候你有过哪些独自的大发现？",
+      "url": "https://www.zhihu.com/answer/125279387",
+      "summary": "正文把尺规作图问题转化为求解代数方程，并举五边形和十七边形实例。"
+    },
+    {
+      "title": "关于 C++ 编程的一道题，有哪些解决思路？",
+      "url": "https://www.zhihu.com/answer/125696132",
+      "summary": "正文利用一元二次方程两根关系改写求根算法。"
+    },
+    {
+      "title": "请问“n次方和”与“n次方差”公式是如何推导证明得来的呢？",
+      "url": "https://www.zhihu.com/answer/127484125",
+      "summary": "正文利用多项式方程的根判断一次因式是否存在。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/128638165",
+      "summary": "正文围绕一般五次方程的正规化和函数表示求解展开完整推导。"
+    },
+    {
+      "title": "表情图上的一道题，求解？",
+      "url": "https://www.zhihu.com/answer/129222260",
+      "summary": "正文把三角恒等式化为代数方程，并用韦达定理求全部根之和。"
+    },
+    {
+      "title": "怎么向小学三年级的孩子说明 x=x+1 无解（无穷不算解）？",
+      "url": "https://www.zhihu.com/answer/130122577",
+      "summary": "正文从定义域出发说明方程x=x+1在实数系无解，并讨论扩充数系后解的变化。"
+    },
+    {
+      "title": "没有阿拉伯数字、拉丁字母和希腊字母，古代中国的数学是什么样的情况？",
+      "url": "https://www.zhihu.com/answer/131196817",
+      "summary": "正文以《数书九章》实例解释传统高次方程的系数排列与术语。"
+    },
+    {
+      "title": "有人认为小学生的算术方法比方程更锻炼思维，怎么说服他？",
+      "url": "https://www.zhihu.com/answer/136213547",
+      "summary": "正文从小学算术题出发说明方程建模、消元和一般求解流程，实质讲解方程方法。"
+    },
+    {
+      "title": "x^y=y^x的有理数解问题？",
+      "url": "https://www.zhihu.com/answer/143370152",
+      "summary": "正文完整求解x^y=y^x的有理数方程并排除其余情况。"
+    },
+    {
+      "title": "如何通俗易懂地讲解牛顿迭代法求开方（数值分析）？",
+      "url": "https://www.zhihu.com/answer/146104283",
+      "summary": "正文把开方与多项式问题转化为方程零点的数值求解。"
+    },
+    {
+      "title": "牛顿法怎么理解？还有什么其他方法进行高次方程的数值求解？",
+      "url": "https://www.zhihu.com/answer/146948429",
+      "summary": "正文围绕高次方程实根的上下界、区间与数值解展开。"
+    },
+    {
+      "title": "有哪些大局已定，却又被极限反杀的操作？",
+      "url": "https://www.zhihu.com/answer/184872092",
+      "summary": "正文围绕一元三次方程的求根方法、方程形式与历史竞赛展开。"
+    },
+    {
+      "title": "一元三次方程怎么快速因式分解？",
+      "url": "https://www.zhihu.com/answer/224154294",
+      "summary": "正文由因式分解求出一元三次方程的根。"
+    },
+    {
+      "title": "如何理解隐函数的定义？",
+      "url": "https://www.zhihu.com/answer/231025347",
+      "summary": "正文说明隐函数可由含两个变量的方程给出。"
+    },
+    {
+      "title": "大家有没有小时候的一些猜想结果有的科学家和你想的一样，而且去证实？或者谈谈你们小时候的猜想！？",
+      "url": "https://www.zhihu.com/answer/237429446",
+      "summary": "正文把固定点写为余弦方程的实根。"
+    },
+    {
+      "title": "方程 cos(x) = x 的唯一实数解是不是超越数？",
+      "url": "https://www.zhihu.com/answer/255089763",
+      "summary": "正文围绕 cos(x)=x 方程的解与迭代展开论证。"
+    },
+    {
+      "title": "求韦达定理的表达式？",
+      "url": "https://www.zhihu.com/answer/260265350",
+      "summary": "正文给出一元二次方程的韦达定理并由求根公式说明根与系数关系。"
+    },
+    {
+      "title": "一元三次方程如何巧解？",
+      "url": "https://www.zhihu.com/answer/260472734",
+      "summary": "正文逐例推导有理根的分子分母约束并据此解一元三次方程。"
+    },
+    {
+      "title": "sin115°怎么算？",
+      "url": "https://www.zhihu.com/answer/261055488",
+      "summary": "正文进一步系统说明一元三次方程判别式与 Cardano 求根公式。"
+    },
+    {
+      "title": "什么才是代数？",
+      "url": "https://www.zhihu.com/answer/297951414",
+      "summary": "正文把早期代数概括为方程及方程组的研究。"
+    },
+    {
+      "title": "2^x+x=6, 求x？",
+      "url": "https://www.zhihu.com/answer/314755066",
+      "summary": "正文利用 Lambert W 函数变形并求解给定方程。"
+    },
+    {
+      "title": "有哪些数学系鄙视物理系的经典桥段？",
+      "url": "https://www.zhihu.com/answer/351263236",
+      "summary": "正文完整求解一个实函数方程。"
+    },
+    {
+      "title": "多元复合函数求导 与 隐函数求导法则之间的关系？",
+      "url": "https://www.zhihu.com/answer/371050399",
+      "summary": "正文说明隐函数通常由方程或方程组给出。"
+    },
+    {
+      "title": "整度数角中，是不是只有 3° 整数倍的角度可以用尺规作图画出来？",
+      "url": "https://www.zhihu.com/answer/376066126",
+      "summary": "正文把三角函数值化为二次或三次方程求根问题。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/380254949",
+      "summary": "正文围绕把多项式方程改写后迭代求数值解展开。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/490420784",
+      "summary": "正文讲解一元二次方程根与系数关系。"
+    },
+    {
+      "title": "如果两个数相加、相乘都是整数，那么这两个数是否都是整数？",
+      "url": "https://www.zhihu.com/answer/529192120",
+      "summary": "用韦达定理把两数的和与积转化为二次方程的系数。"
+    },
+    {
+      "title": "为什么编程语言中没有未知数？",
+      "url": "https://www.zhihu.com/answer/533090497",
+      "summary": "正文用 MATLAB 与 SymPy 展示方程和方程组的符号求解。"
+    },
+    {
+      "title": "怎么理解虚数和复数？",
+      "url": "https://www.zhihu.com/answer/540068578",
+      "summary": "正文通过三次方程必须经过虚数才能得到实根的历史说明复数价值。"
+    },
+    {
+      "title": "为何中学阶段不系统讲授一元三次四次方程？总感觉高中数学的很多内容在初中数学上没有根基，完全是空降的？",
+      "url": "https://www.zhihu.com/answer/566383860",
+      "summary": "比较二次方程与三次、四次方程公式的复杂度和数值求解用途。"
+    },
+    {
+      "title": "古希腊数学家在没有坐标系、函数等工具的情况下是怎么研究圆锥曲线的？近代又是怎么确定圆锥曲线的表达式？",
+      "url": "https://www.zhihu.com/answer/567914208",
+      "summary": "说明近代如何用坐标表达统一刻画圆锥曲线。"
+    },
+    {
+      "title": "虚数 i 是真实存在的吗？还是被人们创造出的数学工具？",
+      "url": "https://www.zhihu.com/answer/578617551",
+      "summary": "正文用三次方程求根展示虚数的必要性。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/578969759",
+      "summary": "正文通过方程变形分析增根与根域。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/578976070",
+      "summary": "正文定位方程变形中引入增根的步骤。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/578981549",
+      "summary": "正文指出所谓矛盾实际只说明该二次方程在实数域无解。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/579961762",
+      "summary": "正文用更简单方程展示乘因子引入增根。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/580439803",
+      "summary": "区分方程变形的充分关系与等价关系，定位增根来源。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/580598439",
+      "summary": "用另一个方程复制同样的错误变形，反例说明该操作会伪造解。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/580664021",
+      "summary": "说明非等价变形会把方程的额外根带入推导。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/581101465",
+      "summary": "逐步比较原方程和变形后方程的根，说明出现增根。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/581306340",
+      "summary": "通过检验各步方程的解集指出非等价变形。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/583692401",
+      "summary": "直接指出原方程在实数域没有根，因而不能把后续形式当作有效实数解。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/583808077",
+      "summary": "借代数基本定理分析二次方程的根并指出推导不等价。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/584419165",
+      "summary": "通过分母限制和解集比较说明变形产生增根。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/585343062",
+      "summary": "指出原方程在实数域无解，并分析后续推理的域限制。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/587601836",
+      "summary": "通过构造 g(x)=(x-1)f(x) 追问根能否反推，直指乘上因子会引入额外根。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/587659637",
+      "summary": "说明假设实根会导出矛盾，因此原方程在实数中无解。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/588817836",
+      "summary": "正文从方程次数与解的个数解释增根错误。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/590243647",
+      "summary": "正文解释相减后的方程不能反推出原方程组。"
+    },
+    {
+      "title": "方程 x³+y³+z³=33 是否存在整数解？",
+      "url": "https://www.zhihu.com/answer/617955040",
+      "summary": "正文讨论三立方和方程 33 的整数解。"
+    },
+    {
+      "title": "请问一下，这是一道高中数学的压轴题的我的做法，这种做法是否严谨，是否会被扣分？",
+      "url": "https://www.zhihu.com/answer/618593683",
+      "summary": "正文用多种方法求含参数方程的唯一零点条件。"
+    },
+    {
+      "title": "方程 x³+y³+z³=33 是否存在整数解？",
+      "url": "https://www.zhihu.com/answer/619046945",
+      "summary": "正文直接给出三立方和方程 33 的整数解。"
+    },
+    {
+      "title": "方程 x³+y³+z³=33 是否存在整数解？",
+      "url": "https://www.zhihu.com/answer/619380293",
+      "summary": "正文讨论三立方和丢番图方程。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/632519342",
+      "summary": "通过变量代换和根式构造推导一元三次方程通解。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/637597756",
+      "summary": "逐步分析方程变形为何引入额外根。"
+    },
+    {
+      "title": "为什么会有 i 这一虚数？可以求出 i 的值吗？",
+      "url": "https://www.zhihu.com/answer/664569501",
+      "summary": "把 i 定义为多项式方程 x²+1=0 的根。"
+    },
+    {
+      "title": "高中数学有没有什么比较牛 X 的公式？",
+      "url": "https://www.zhihu.com/answer/678395503",
+      "summary": "说明求根公式如何解二次方程并服务常微分方程特征方程。"
+    },
+    {
+      "title": "吴文俊院士于2017年5月7日去世，如何评价他的数学贡献？",
+      "url": "https://www.zhihu.com/answer/682647692",
+      "summary": "从中国消元传统到吴方法解释多元代数方程组求解。"
+    },
+    {
+      "title": "如何求所有三边长均为整数，有且仅有一个内角为 60 度的三角形(通解)？",
+      "url": "https://www.zhihu.com/answer/742326851",
+      "summary": "围绕二次方程的有理解进行参数化。"
+    },
+    {
+      "title": "已知 20÷2X=5，X 到底应该等于多少？",
+      "url": "https://www.zhihu.com/answer/744699203",
+      "summary": "围绕一元方程的表达和求解。"
+    },
+    {
+      "title": "做过最气的题是什么题？",
+      "url": "https://www.zhihu.com/answer/745071924",
+      "summary": "把火柴变化问题组织为不定算式求解。"
+    },
+    {
+      "title": "如何证明 Aczel 不等式？",
+      "url": "https://www.zhihu.com/answer/749521415",
+      "summary": "构造二次多项式并由零点判别式证明不等式。"
+    },
+    {
+      "title": "已知 20÷2X=5，X 到底应该等于多少？",
+      "url": "https://www.zhihu.com/answer/749970421",
+      "summary": "完成一元方程的求解。"
+    },
+    {
+      "title": "已知 20÷2X=5，X 到底应该等于多少？",
+      "url": "https://www.zhihu.com/answer/750012468",
+      "summary": "按整体除法约定求解方程。"
+    },
+    {
+      "title": "高中阶段，如何巧解一元三次方程？",
+      "url": "https://www.zhihu.com/answer/761927874",
+      "summary": "把三次方程逐步化为二次方程与开立方。"
+    },
+    {
+      "title": "虚数是负数的平方根，为什么是在三次方程中才出现的呢？",
+      "url": "https://www.zhihu.com/answer/762043553",
+      "summary": "推导卡尔达诺三次方程求根过程。"
+    },
+    {
+      "title": "虚数是负数的平方根，为什么是在三次方程中才出现的呢？",
+      "url": "https://www.zhihu.com/answer/762955244",
+      "summary": "从图像交点和公式讨论一元三次方程的根。"
+    },
+    {
+      "title": "一元四次方程怎么解？",
+      "url": "https://www.zhihu.com/answer/765865198",
+      "summary": "把四次方程化为三次和二次方程求解。"
+    },
+    {
+      "title": "为何中学阶段不系统讲授一元三次四次方程？总感觉高中数学的很多内容在初中数学上没有根基，完全是空降的？",
+      "url": "https://www.zhihu.com/answer/766172272",
+      "summary": "正文解释三次、四次方程如何通过初等代数技巧化为低次方程。"
+    },
+    {
+      "title": "钢结构里，根号下 f_y 除以 235 是怎么来的？",
+      "url": "https://www.zhihu.com/answer/766903645",
+      "summary": "通过代入和变形解出长细比表达式。"
+    },
+    {
+      "title": "为何从一元五次方程开始就没有由有限次加、减、乘、除、开方运算构成的求根公式了？",
+      "url": "https://www.zhihu.com/answer/777776655",
+      "summary": "正文先严格定义具体多项式方程“有根式解”的含义，再展开一般方程与具体方程的差别。"
+    },
+    {
+      "title": "如何简要解释为什么五次多项式方程没有根式解？",
+      "url": "https://www.zhihu.com/answer/778207648",
+      "summary": "明确方程根式解的定义。"
+    },
+    {
+      "title": "如果对任意实数，有f(x+y)=f(x)+f(y)，能求出函数f(x)吗？",
+      "url": "https://www.zhihu.com/answer/800831900",
+      "summary": "正文系统分析柯西加法函数方程在连续、有界、单调等条件下的解。"
+    },
+    {
+      "title": "如果对任意实数，有f(x+y)=f(x)+f(y)，能求出函数f(x)吗？",
+      "url": "https://www.zhihu.com/answer/801835943",
+      "summary": "正文证明柯西加法方程的病态解图像稠密，并用 Hamel 基构造全部加性解。"
+    },
+    {
+      "title": "有没有哪些数学题的某一步处理堪称神来之笔？",
+      "url": "https://www.zhihu.com/answer/809812254",
+      "summary": "正文完整推导一元三次方程通过换元与二次方程求根的过程。"
+    },
+    {
+      "title": "如果对任意实数，有f(x+y)=f(x)+f(y)，能求出函数f(x)吗？",
+      "url": "https://www.zhihu.com/answer/819112429",
+      "summary": "正文逐步求解柯西加法函数方程，并用连续性把有理数结论推广到所有实数。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/831459998",
+      "summary": "围绕高次方程的可解性陈述贡献。"
+    },
+    {
+      "title": "数学上有比欧拉公式还美的公式吗？",
+      "url": "https://www.zhihu.com/answer/831790545",
+      "summary": "正文结合韦达定理说明如何不解高次方程而求对称多项式的值，并给出具体例子。"
+    },
+    {
+      "title": "如何解该一元四次方程？",
+      "url": "https://www.zhihu.com/answer/850385987",
+      "summary": "完整推导 Ferrari 四次方程解法。"
+    },
+    {
+      "title": "方程 cosx＝x 的实数解是无理数吗？",
+      "url": "https://www.zhihu.com/answer/861847883",
+      "summary": "围绕余弦不动点方程的根展开。"
+    },
+    {
+      "title": "方程 x³+y³+z³=33 是否存在整数解？",
+      "url": "https://www.zhihu.com/answer/864595767",
+      "summary": "围绕三元三次方程给出并验证解。"
+    },
+    {
+      "title": "如何解一元三次方程？",
+      "url": "https://www.zhihu.com/answer/892976341",
+      "summary": "核心是 Cardano 三次方程解法。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/901076655",
+      "summary": "正文抽象原方程并说明非法变形强迫 x=1，解释由方程推出 3=0 的错误。"
+    },
+    {
+      "title": "三次方程怎么求解？",
+      "url": "https://www.zhihu.com/answer/914947188",
+      "summary": "正文完整给出一般三次方程的化简、求根公式和三实根情形。"
+    },
+    {
+      "title": "如何解二元二次方程组（一般情况）?",
+      "url": "https://www.zhihu.com/answer/917419019",
+      "summary": "正文讲解一般二元二次方程组的求解策略。"
+    },
+    {
+      "title": "如何看待《华裔教授发现二次方程「极简」解法：丢掉公式，全球教科书可能都要改了》？",
+      "url": "https://www.zhihu.com/answer/926368781",
+      "summary": "正文比较二次、三次和四次方程中引入中间变量的求解策略。"
+    },
+    {
+      "title": "如何看待《华裔教授发现二次方程「极简」解法：丢掉公式，全球教科书可能都要改了》？",
+      "url": "https://www.zhihu.com/answer/929752435",
+      "summary": "正文实质比较一元二次方程的配方法、求根技巧与公式背后的原理。"
+    },
+    {
+      "title": "如何看待《华裔教授发现二次方程「极简」解法：丢掉公式，全球教科书可能都要改了》？",
+      "url": "https://www.zhihu.com/answer/929816854",
+      "summary": "正文从两根和与积完整推导一元二次方程求根公式。"
+    },
+    {
+      "title": "如何看待《华裔教授发现二次方程「极简」解法：丢掉公式，全球教科书可能都要改了》？",
+      "url": "https://www.zhihu.com/answer/929870748",
+      "summary": "正文通过根的和、积与差推导二次方程两根的表达式。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/936301585",
+      "summary": "正文先试根、再作多项式除法并继续求二次方程根，完整求解多项式方程。"
+    },
+    {
+      "title": "怎样用 MATLAB 2019 解方程？",
+      "url": "https://www.zhihu.com/answer/937256480",
+      "summary": "正文说明 MATLAB 中声明变量、建立方程并用 solve 求二次方程根。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/940514213",
+      "summary": "正文将三次方程因式分解，并明确写出一个实根和两个复根。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/942048266",
+      "summary": "正文通过因式分解和试根求解给定多项式方程。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/942865035",
+      "summary": "正文把原式化为多项式方程并通过试根与因式分解求解。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/942965570",
+      "summary": "正文以因式分解和整数根检验求解三次方程。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/944531951",
+      "summary": "正文围绕给定三次方程的实根求解展开。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/945089514",
+      "summary": "正文通过移项、提取公因式和试根求解多项式方程。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/945433460",
+      "summary": "正文构造函数并求出原方程的数值根。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/953162910",
+      "summary": "正文将方程整理、因式分解并筛选实数解。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/969033134",
+      "summary": "正文试出整数根后因式分解求解一元三次方程。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/975366473",
+      "summary": "正文求出三次方程的全部复根并用代数基本定理确认完备性。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/975720633",
+      "summary": "正文通过因式分解直接求出方程的实数解。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/980094647",
+      "summary": "正文推导 Cardano 三次方程公式并求出给定方程的三根。"
+    },
+    {
+      "title": "数学思维在生活中有多大用处？",
+      "url": "https://www.zhihu.com/answer/982796547",
+      "summary": "正文专门解释把现实问题翻译为数学语言、列方程并求解的通用意义。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/1017409324",
+      "summary": "正文分析联立方程相减后丢失原方程信息的问题。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/1019000861",
+      "summary": "正文辨析方程所在数域及错误代数变形。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1025689154",
+      "summary": "正文通过因式分解近似求解一元三次方程。"
+    },
+    {
+      "title": "为什么二次方程当判别式 Δ＝0，要说「有两个相等的实数根」，而不说「有一个实数根」？",
+      "url": "https://www.zhihu.com/answer/1039547150",
+      "summary": "正文由二次方程的因式形式推导判别式和求根公式。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1057030938",
+      "summary": "正文围绕一个正整数方程给出具体求解思路。"
+    },
+    {
+      "title": "你遇到的最难的一个数学题是什么？",
+      "url": "https://www.zhihu.com/answer/1065979279",
+      "summary": "正文围绕整数方程完整讲解韦达跳跃的解题结构。"
+    },
+    {
+      "title": "怎样求空间中直线绕轴旋转的方程？",
+      "url": "https://www.zhihu.com/answer/1073203779",
+      "summary": "正文消去母线上点的参数，得到旋转曲面的三元方程。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1079982799",
+      "summary": "正文完整求解给定三次方程并讨论一般多项式方程。"
+    },
+    {
+      "title": "负8的立方根是什么?",
+      "url": "https://www.zhihu.com/answer/1091449062",
+      "summary": "正文进一步讨论一般一元三次方程及根的情形。"
+    },
+    {
+      "title": "高中许多导数计算需要用到因式分解，而大多答案都一笔带过，只给结果，请问应该用怎么样的思路去看待？",
+      "url": "https://www.zhihu.com/answer/1112998238",
+      "summary": "正文围绕高次方程求解比较猜根、求根公式和换元法。"
+    },
+    {
+      "title": "高中阶段如何求 f(x)＝sinx＋2cosx＋sinxcosx 的值域？",
+      "url": "https://www.zhihu.com/answer/1114131338",
+      "summary": "正文把值域问题归结为高次代数方程。"
+    },
+    {
+      "title": "定义函数f(x)是函数g(t)＝sin(t)＋sin(x·t)的最大值，可以算出f(x)的解析式吗？",
+      "url": "https://www.zhihu.com/answer/1114193035",
+      "summary": "正文将求极值条件化为高次代数方程。"
+    },
+    {
+      "title": "共轭复根怎么求?",
+      "url": "https://www.zhihu.com/answer/1249465459",
+      "summary": "正文用判别式和求根公式求一元二次方程的一对复根。"
+    },
+    {
+      "title": "请问如何通过ln x＋x^2*e^x＝0推出ln x＝-x，最好用高中知识？",
+      "url": "https://www.zhihu.com/answer/1267786532",
+      "summary": "正文通过对数同构和单调函数把原方程化为 ln x=-x。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1293229923",
+      "summary": "正文将原式作为方程并分析实数解与复解。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1295478542",
+      "summary": "正文求出方程的全部实数解和复解。"
+    },
+    {
+      "title": "什么条件下会导致所列方程为恒等式？",
+      "url": "https://www.zhihu.com/answer/1338308484",
+      "summary": "正文以等式 mgh 和动能公式讨论恒等式条件。"
+    },
+    {
+      "title": "农民出身的我遇到了一个数学问题，有没有大师解答一下怎么做?",
+      "url": "https://www.zhihu.com/answer/1368954213",
+      "summary": "正文分析分式在分母为零时不能直接约分。"
+    },
+    {
+      "title": "倘若在一次浩劫中，所有科学知识都被摧毁，每门学科只能留存一句话，你认为你所在的领域会留下什么话呢？",
+      "url": "https://www.zhihu.com/answer/1395134112",
+      "summary": "正文把设未知数、列方程与解方程作为核心思路。"
+    },
+    {
+      "title": "为什么学霸不喜欢给学渣讲题？",
+      "url": "https://www.zhihu.com/answer/1396958951",
+      "summary": "正文通过因式分解求解一元二次方程。"
+    },
+    {
+      "title": "二次函数根的判别式怎么来的？",
+      "url": "https://www.zhihu.com/answer/1425359030",
+      "summary": "正文解释一元二次方程判别式和根的性质。"
+    },
+    {
+      "title": "看到了一个imo试题，自己瞎做了一下午解出来了（本人乡下学渣，没接触过竞赛），大佬们看看我做的对吗？",
+      "url": "https://www.zhihu.com/answer/1456012412",
+      "summary": "正文用韦达定理和一元二次方程根的性质解题。"
+    },
+    {
+      "title": "不懂就问，这题的第一问怎么解？",
+      "url": "https://www.zhihu.com/answer/1459437852",
+      "summary": "正文把递推化为一元二次方程并求参数。"
+    },
+    {
+      "title": "花一整夜的时间解一个方程是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/1466157126",
+      "summary": "正文从代数方程推广到函数方程。"
+    },
+    {
+      "title": "如果引进新的运算，一元五次方程会不会有通用的求根公式？",
+      "url": "https://www.zhihu.com/answer/1494606511",
+      "summary": "正文直接给出与「方程」相关的解释、推导或应用。"
+    },
+    {
+      "title": "方程 x²－5x＋6＝0 的解就只有 2 和 3 吗？",
+      "url": "https://www.zhihu.com/answer/1573048668",
+      "summary": "正文在高维数系统中研究二次方程的根数并给出四个解。"
+    },
+    {
+      "title": "方程 cos(x＋y)＝x²＋y² 的图形是椭圆吗？",
+      "url": "https://www.zhihu.com/answer/1590964601",
+      "summary": "正文直接讨论或应用该叶节点主题（方程）。"
+    },
+    {
+      "title": "方程 cos(x＋y)＝x²＋y² 的图形是椭圆吗？",
+      "url": "https://www.zhihu.com/answer/1612761825",
+      "summary": "正文直接讨论或应用该叶节点主题（方程）。"
+    },
+    {
+      "title": "x^5＋ax^4＋bx^3＋c＝0，证明不能有五个不同的实根，怎么证明，谢谢各位？",
+      "url": "https://www.zhihu.com/answer/1623902069",
+      "summary": "正文围绕五次方程的根与 Vieta 关系作证明。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/1632201571",
+      "summary": "正文分析两边乘多项式引入增根而改变方程解集。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/1634723659",
+      "summary": "正文指出该推导把另一个方程的解错误代入原方程，核心是方程与推理前提。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/1641482771",
+      "summary": "正文通过配方说明原方程无实根，揭示错误推导来自虚假前提。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/1647278271",
+      "summary": "正文通过配方与乘同因子产生的增根解释错误推导。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/1667543182",
+      "summary": "正文分析方程变形中充分必要条件与增根问题。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/1675490386",
+      "summary": "正文用一元一次方程说明直觉与精确求解的区别。"
+    },
+    {
+      "title": "方程 x²－5x＋6＝0 的解就只有 2 和 3 吗？",
+      "url": "https://www.zhihu.com/answer/1677679476",
+      "summary": "正文说明代数方程在复数域中的根数。"
+    },
+    {
+      "title": "如何解方程 sin(cos(x))=x？",
+      "url": "https://www.zhihu.com/answer/1681464844",
+      "summary": "正文将原超越方程改写为等价方程，并据此构造迭代过程求根。"
+    },
+    {
+      "title": "应该怎么理解隐函数定理？",
+      "url": "https://www.zhihu.com/answer/1682126197",
+      "summary": "正文围绕隐式方程何时确定函数关系展开。"
+    },
+    {
+      "title": "有没有两个不相等的数 a 和 b，满足 a 的 b 次幂等于 b 的 a 次幂？",
+      "url": "https://www.zhihu.com/answer/1682745558",
+      "summary": "正文研究幂等式对应的方程与解。"
+    },
+    {
+      "title": "关于函数 f(x)＝x－lnx－m 的零点问题，无法用极值点偏移解决，如何处理？",
+      "url": "https://www.zhihu.com/answer/1688481412",
+      "summary": "正文围绕函数零点与参数关系构造不等式。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1689668731",
+      "summary": "正文把一元三次方程化到可因式分解的形式，求出实根并讨论判别式。"
+    },
+    {
+      "title": "一元二次方程的求根公式是怎么得出的？",
+      "url": "https://www.zhihu.com/answer/1693934250",
+      "summary": "正文从代数基本定理、韦达定理和预解式推导求根公式。"
+    },
+    {
+      "title": "如何理解线性方程组中的「线性」二字？",
+      "url": "https://www.zhihu.com/answer/1695899582",
+      "summary": "正文澄清线性方程术语并为矩阵运算建立概念背景。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1695964574",
+      "summary": "正文围绕该一元三次方程给出完整求整数解的思考过程和答案。"
+    },
+    {
+      "title": "你见过什么复杂到让你目瞪口呆的公式？",
+      "url": "https://www.zhihu.com/answer/1701301140",
+      "summary": "正文讨论方程 x=cos x 的解析解。"
+    },
+    {
+      "title": "方程 cosx＝x 是否有解析解？",
+      "url": "https://www.zhihu.com/answer/1703037831",
+      "summary": "正文讨论方程 cos x=x 的复分析与解析解。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1718669125",
+      "summary": "正文用有理根定理求方程根并完成因式分解。"
+    },
+    {
+      "title": "如何证明方程 x³＋y³＝2020 没有整数解？",
+      "url": "https://www.zhihu.com/answer/1757061342",
+      "summary": "正文通过因式分解和有限分类证明三次方程无整数解。"
+    },
+    {
+      "title": "哪些数学命题可以用复数优雅地证明？",
+      "url": "https://www.zhihu.com/answer/1764445317",
+      "summary": "正文用刘维尔定理反证复系数多项式方程必有根。"
+    },
+    {
+      "title": "你见过什么复杂到让你目瞪口呆的公式？",
+      "url": "https://www.zhihu.com/answer/1780088263",
+      "summary": "正文完整推导一般四次方程的根式求根公式。"
+    },
+    {
+      "title": "这道题可以有人用手（笔加纸）算出来吗?",
+      "url": "https://www.zhihu.com/answer/1820183914",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "微分的特征方程和特征根到底是什么，怎么算？",
+      "url": "https://www.zhihu.com/answer/1834387233",
+      "summary": "正文通过代入指数解导出一元二次方程，并明确给出其特征方程和特征根。"
+    },
+    {
+      "title": "如何证明方程 x³＋y³＝2020 没有整数解？",
+      "url": "https://www.zhihu.com/answer/1844152748",
+      "summary": "正文研究三元整数方程族的可解条件与整数解。"
+    },
+    {
+      "title": "数学里面，「等于」和「恒等」有什么区别？",
+      "url": "https://www.zhihu.com/answer/1856957592",
+      "summary": "正文用方程例子区分条件成立与恒成立的等式。"
+    },
+    {
+      "title": "虚数还能再开根号吗？",
+      "url": "https://www.zhihu.com/answer/1864747347",
+      "summary": "正文把复数开方转化为二元方程求解。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/1873040449",
+      "summary": "正文把发现的数列恒等式归结为公式变换。"
+    },
+    {
+      "title": "不等式 x²＋4x＋7＞0 怎样解？",
+      "url": "https://www.zhihu.com/answer/1884245411",
+      "summary": "正文通过二次方程根和判别式确定不等式边界。"
+    },
+    {
+      "title": "如何看待这位知友提出的这个声称只有他能解的问题？",
+      "url": "https://www.zhihu.com/answer/1895402219",
+      "summary": "正文系统求解线性丢番图方程及其通解。"
+    },
+    {
+      "title": "中国古代的数学水平到底怎么样？",
+      "url": "https://www.zhihu.com/answer/1904247471",
+      "summary": "正文介绍九章算术的方程术和天元术等列方程方法。"
+    },
+    {
+      "title": "请问怎么求三元一次方程 198x＋252y＋924z＝12 的整数解？",
+      "url": "https://www.zhihu.com/answer/1938131252",
+      "summary": "正文直接讨论并支撑「方程」相关内容。"
+    },
+    {
+      "title": "如何看待西安一清华博士接亲被要求现场写代码？如果以你的专业来猜测，会被要求完成什么任务？",
+      "url": "https://www.zhihu.com/answer/1954034386",
+      "summary": "正文给出三维爱心曲面的隐式方程并据此绘图。"
+    },
+    {
+      "title": "为什么方程 x³－1＝0 的解不是 x＝1，且 x 是 3 重根？",
+      "url": "https://www.zhihu.com/answer/1980162592",
+      "summary": "正文用因式分解求三次方程并解释重根。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1995344641",
+      "summary": "正文系统演示三次方程的求解和因式分解。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/2009289329",
+      "summary": "正文以错误假设讨论方程推出矛盾时的逻辑问题。"
+    },
+    {
+      "title": "方程 2^x＝x^2 应该怎么解？",
+      "url": "https://www.zhihu.com/answer/2017826158",
+      "summary": "正文用 Lambert W 函数求解指数方程 2^x=x^2。"
+    },
+    {
+      "title": "如何解方程 cos(cos(cos(cosx)))＝sin(sin(sin(sinx)))？",
+      "url": "https://www.zhihu.com/answer/2018813735",
+      "summary": "正文判断该三角方程不存在实数解。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/2034303228",
+      "summary": "正文用对数变换与函数单调性求解指数方程。"
+    },
+    {
+      "title": "哪个整系数多项式方程的根是 √2 + √3 + √5，如何得到这个方程？",
+      "url": "https://www.zhihu.com/answer/2035327036",
+      "summary": "正文逐次由平方根构造整系数方程。"
+    },
+    {
+      "title": "怎样解(1+i)²-1=8%这个式子?",
+      "url": "https://www.zhihu.com/answer/2035607082",
+      "summary": "正文把问题化为关于复变量的一元二次方程。"
+    },
+    {
+      "title": "三根表针，两两互为 120° 是几点？",
+      "url": "https://www.zhihu.com/answer/2038230604",
+      "summary": "正文用方程与穷举分析三针夹角。"
+    },
+    {
+      "title": "三根表针，两两互为 120° 是几点？",
+      "url": "https://www.zhihu.com/answer/2045064241",
+      "summary": "正文建立三指针运动方程并分析 120 度条件。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/2051080782",
+      "summary": "正文把指数方程化为关于实部和虚部的方程组。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/2056024223",
+      "summary": "正文通过对数变换求指数方程。"
+    },
+    {
+      "title": "是否有六个不同的正整数a,b,c,d,e,f  使a+b+c=d+e+f 且 abc=def呢？",
+      "url": "https://www.zhihu.com/answer/2076943774",
+      "summary": "正文通过简化约束方程构造满足条件的整数解。"
+    },
+    {
+      "title": "你遇到的最难的一个数学题是什么？",
+      "url": "https://www.zhihu.com/answer/2109547309",
+      "summary": "正文围绕整数解的三次丢番图方程及其求解。"
+    },
+    {
+      "title": "有哪些千年以上时间才解决的数学问题?",
+      "url": "https://www.zhihu.com/answer/2122359080",
+      "summary": "正文从丢番图方程的历史和求解目标展开，并以群牛问题、可判定性和费马大定理补充说明。"
+    },
+    {
+      "title": "有哪些千年以上时间才解决的数学问题?",
+      "url": "https://www.zhihu.com/answer/2124886503",
+      "summary": "正文讨论丢番图数组满足的整数与有理数方程。"
+    },
+    {
+      "title": "数学史上你认为最丑陋的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2138727652",
+      "summary": "正文完整展示一元四次方程的一般求根公式。"
+    },
+    {
+      "title": "1，2，4，8，16，30是什么规律？",
+      "url": "https://www.zhihu.com/answer/2140592742",
+      "summary": "正文把数列规律转化为多项式方程并讨论不同第六项对应的通项。"
+    },
+    {
+      "title": "有哪些虽然正确但却没啥用的公式？",
+      "url": "https://www.zhihu.com/answer/2147208776",
+      "summary": "正文展示一元四次方程的复杂求根公式。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/2167334977",
+      "summary": "正文分析错误代入等价式导致的方程变形错误。"
+    },
+    {
+      "title": "能分享一道如果“注意不到”就出不来的数学题吗？",
+      "url": "https://www.zhihu.com/answer/2170008570",
+      "summary": "正文讨论一个有理数的立方和表示恒等式。"
+    },
+    {
+      "title": "能分享一道如果“注意不到”就出不来的数学题吗？",
+      "url": "https://www.zhihu.com/answer/2175798287",
+      "summary": "正文把等幂和问题表述为多元高次不定方程组。"
+    },
+    {
+      "title": "能分享一道如果“注意不到”就出不来的数学题吗？",
+      "url": "https://www.zhihu.com/answer/2182047003",
+      "summary": "正文给出一个分式等式对应的高次丢番图方程整数解构造。"
+    },
+    {
+      "title": "能分享一道如果“注意不到”就出不来的数学题吗？",
+      "url": "https://www.zhihu.com/answer/2183767772",
+      "summary": "正文通过因式分解直接求出一元二次方程的两个根。"
+    },
+    {
+      "title": "有哪些很难的数学题，答案是 629，宿舍当门牌用？",
+      "url": "https://www.zhihu.com/answer/2183970834",
+      "summary": "正文集中给出多组高次等幂和与三角函数不定方程题目及求解来源。"
+    },
+    {
+      "title": "有哪些很难的数学题，答案是 629，宿舍当门牌用？",
+      "url": "https://www.zhihu.com/answer/2220078137",
+      "summary": "正文通过三次方程因式分解求出满足范围的正整数解。"
+    },
+    {
+      "title": "这样的数学meme可以量产吗?",
+      "url": "https://www.zhihu.com/answer/2227166779",
+      "summary": "正文构造并求解用于生成梗图的方程组。"
+    },
+    {
+      "title": "现在数学发展到能给任意数列找通项公式了吗？",
+      "url": "https://www.zhihu.com/answer/2242786671",
+      "summary": "正文以函数取值和方程构造周期数列的通项公式。"
+    },
+    {
+      "title": "看到了一个imo试题，自己瞎做了一下午解出来了（本人乡下学渣，没接触过竞赛），大佬们看看我做的对吗？",
+      "url": "https://www.zhihu.com/answer/2244921639",
+      "summary": "证明把原问题转化为正整数不定方程。"
+    },
+    {
+      "title": "大家知道的最长（复杂）的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2250440444",
+      "summary": "正文用预解式和系数条件讨论五次方程能否求解。"
+    },
+    {
+      "title": "高中毕业半年了，还是不会解方程。刚刚还去抖音搜了一下解方程，看了几个视频还是学不会？是不是脑子有问题？",
+      "url": "https://www.zhihu.com/answer/2253528439",
+      "summary": "正文系统讨论一元一次到高次方程的解法及超越方程。"
+    },
+    {
+      "title": "请列出一个最难相信但确实有根式解的一元五次方程？",
+      "url": "https://www.zhihu.com/answer/2253853548",
+      "summary": "正文给出多个一元五次方程及其根式表达式。"
+    },
+    {
+      "title": "3³+4³+5³=6³，只是个巧合吗?",
+      "url": "https://www.zhihu.com/answer/2270814119",
+      "summary": "正文围绕连续立方和等于立方数这一恒等式展开。"
+    },
+    {
+      "title": "3³+4³+5³=6³，只是个巧合吗?",
+      "url": "https://www.zhihu.com/answer/2273767940",
+      "summary": "正文围绕该立方和恒等式构造更一般的方程与恒等式。"
+    },
+    {
+      "title": "不查表，如何求 sin36 度？",
+      "url": "https://www.zhihu.com/answer/2273993732",
+      "summary": "正文由三角函数关系得到关于 cos36° 的方程并求解。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/2283718932",
+      "summary": "正文用对方程两边乘以零的非法操作说明推导错误。"
+    },
+    {
+      "title": "在学生时期独立地探索出自己的数学发现，是什么体验？",
+      "url": "https://www.zhihu.com/answer/2285846212",
+      "summary": "正文从三次方程因式分解得到根与系数关系并推广韦达定理。"
+    },
+    {
+      "title": "3³+4³+5³=6³，只是个巧合吗?",
+      "url": "https://www.zhihu.com/answer/2290604472",
+      "summary": "正文把立方和恒等式转化为多项式方程并求整数解。"
+    },
+    {
+      "title": "3³+4³+5³=6³，只是个巧合吗?",
+      "url": "https://www.zhihu.com/answer/2290642127",
+      "summary": "正文通过方程两边整体缩放说明这些等式并非孤立巧合。"
+    },
+    {
+      "title": "3³+4³+5³=6³，只是个巧合吗?",
+      "url": "https://www.zhihu.com/answer/2290925637",
+      "summary": "正文给出立方和方程的参数解并讨论相关整数方程。"
+    },
+    {
+      "title": "3³+4³+5³=6³，只是个巧合吗?",
+      "url": "https://www.zhihu.com/answer/2290933721",
+      "summary": "正文把连续整数立方和关系化为多项式方程求解。"
+    },
+    {
+      "title": "3³+4³+5³=6³，只是个巧合吗?",
+      "url": "https://www.zhihu.com/answer/2291256498",
+      "summary": "正文把原式逐层推广为丢番图方程并讨论整数解。"
+    },
+    {
+      "title": "明朝相对元朝的倒退有哪些？",
+      "url": "https://www.zhihu.com/answer/2292765732",
+      "summary": "正文介绍一元高次方程数值解法的历史材料。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/2293584839",
+      "summary": "正文完整求解指数方程并证明解唯一。"
+    },
+    {
+      "title": "√8-√2=√2，这是怎么得出来的？",
+      "url": "https://www.zhihu.com/answer/2299111302",
+      "summary": "正文从根式等式出发，逐步变形证明目标结论。"
+    },
+    {
+      "title": "为什么方程 x³－1＝0 的解不是 x＝1，且 x 是 3 重根？",
+      "url": "https://www.zhihu.com/answer/2303694526",
+      "summary": "正文解释方程的解与多项式按重数计算的根为何不同。"
+    },
+    {
+      "title": "高斯的博士论文是不是太简单了？",
+      "url": "https://www.zhihu.com/answer/2303905031",
+      "summary": "正文比较根式求解高次方程与证明解存在性的思路。"
+    },
+    {
+      "title": "如何证明e^x/x=a(a>e)的两根之和大于2，请用高中数学知识谢谢？",
+      "url": "https://www.zhihu.com/answer/2304245404",
+      "summary": "正文把原方程问题化为两根关系并给出加强命题。"
+    },
+    {
+      "title": "高斯作出正 17 边形的依据是什么？",
+      "url": "https://www.zhihu.com/answer/2311203733",
+      "summary": "正文把正多边形作图转化为分圆方程及其根的计算。"
+    },
+    {
+      "title": "y=x^3为什么是单射?",
+      "url": "https://www.zhihu.com/answer/2315418423",
+      "summary": "正文把单射证明转化为三次方程 a³=b³ 的因式分解。"
+    },
+    {
+      "title": "有哪些看起来很简单但做起来很难的数学题？",
+      "url": "https://www.zhihu.com/answer/2333875687",
+      "summary": "正文给出一个分式方程的最小正整数解。"
+    },
+    {
+      "title": "为什么农历误差如此之大，能闰一个月？",
+      "url": "https://www.zhihu.com/answer/2339567951",
+      "summary": "正文把历法周期设为含两个未知量的方程。"
+    },
+    {
+      "title": "高中数学解析几何圆锥曲线大题真的是硬解就能解出吗？",
+      "url": "https://www.zhihu.com/answer/2339720456",
+      "summary": "正文把直线与圆锥曲线联立后的根关系作为解题核心。"
+    },
+    {
+      "title": "有哪些看起来很简单但做起来很难的数学题？",
+      "url": "https://www.zhihu.com/answer/2343313527",
+      "summary": "正文把难题转化为带整数约束的方程系统。"
+    },
+    {
+      "title": "花一整夜的时间解一个方程是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/2398154809",
+      "summary": "正文逐项讨论多个高次方程及其求解耗时。"
+    },
+    {
+      "title": "是否存在一个比复数更大的数域，使得任意五次方程都有根式解？",
+      "url": "https://www.zhihu.com/answer/2409988489",
+      "summary": "正文直接讨论五次方程的解能否通过四则运算与根式表示。"
+    },
+    {
+      "title": "求问这道高中数学题怎么做?",
+      "url": "https://www.zhihu.com/answer/2410687841",
+      "summary": "正文设直线方程并联立条件求出定点。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/2412299478",
+      "summary": "正文把原问题化为一元方程并继续求复数解。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/2432699467",
+      "summary": "正文求解指数方程并给出唯一实根。"
+    },
+    {
+      "title": "一元三次方程的求根公式，用三角函数（或虚指数）表示会不会更加简单一些？",
+      "url": "https://www.zhihu.com/answer/2434082511",
+      "summary": "正文系统推导一元三次方程的三角解法与实根条件。"
+    },
+    {
+      "title": "数学中有哪些看上去很合理的伪证？",
+      "url": "https://www.zhihu.com/answer/2441382151",
+      "summary": "正文围绕连续分式方程给出看似简洁的求根过程，再分析该方程实际不只有一个实根。"
+    },
+    {
+      "title": "诸如 {1，1，1，3，5，9，17，···} 三个数相加，即斐波那契数列的变式，存在通项公式吗？",
+      "url": "https://www.zhihu.com/answer/2449363025",
+      "summary": "正文以特征方程的三个根表示递推数列通项。"
+    },
+    {
+      "title": "在小学「x＝3是方程吗？」这个概念的辨析有必要吗？",
+      "url": "https://www.zhihu.com/answer/2453375172",
+      "summary": "正文直接辨析 x=3 是否属于方程，并讨论方程概念。"
+    },
+    {
+      "title": "能分享一道如果“注意不到”就出不来的数学题吗？",
+      "url": "https://www.zhihu.com/answer/2461348817",
+      "summary": "正文围绕任意有理数分解为若干有理数立方和的方程展开。"
+    },
+    {
+      "title": "一元三次方程的求根公式，用三角函数（或虚指数）表示会不会更加简单一些？",
+      "url": "https://www.zhihu.com/answer/2473011219",
+      "summary": "正文通过线性变换把一般三次方程化为三倍角恒等式对应的特殊方程。"
+    },
+    {
+      "title": "如何用三角函数和双曲函数解一元三次方程？",
+      "url": "https://www.zhihu.com/answer/2473277139",
+      "summary": "正文完整推导用三倍角公式求解一元三次方程的方法。"
+    },
+    {
+      "title": "人们在没有计算机的帮助下是如何计算根号3？",
+      "url": "https://www.zhihu.com/answer/2473930066",
+      "summary": "正文用列方程和逐步逼近说明手工开平方的方法。"
+    },
+    {
+      "title": "如何求解五次方程 x^5 + 20x + 32 = 0，要精确的根式解？",
+      "url": "https://www.zhihu.com/answer/2474204869",
+      "summary": "正文给出了具体一元五次方程的根式解。"
+    },
+    {
+      "title": "请列出一个最难相信但确实有根式解的一元五次方程？",
+      "url": "https://www.zhihu.com/answer/2474374816",
+      "summary": "正文分类列举多组一元五次方程及其根式解结构。"
+    },
+    {
+      "title": "人们在没有计算机的帮助下是如何计算根号3？",
+      "url": "https://www.zhihu.com/answer/2475591489",
+      "summary": "正文用方程的正根问题描述平方根的计算。"
+    },
+    {
+      "title": "人们在没有计算机的帮助下是如何计算根号3？",
+      "url": "https://www.zhihu.com/answer/2475650705",
+      "summary": "正文把平方根计算转化为方程的正根问题。"
+    },
+    {
+      "title": "数学史上你认为最丑陋的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2475732494",
+      "summary": "正文讨论一般五次方程及其根式解判据。"
+    },
+    {
+      "title": "一元四次方程怎么变成四元一次方程组？",
+      "url": "https://www.zhihu.com/answer/2477619799",
+      "summary": "正文从二次方程扩展到三次、四次和五次方程，讨论各次方程的求解结构。"
+    },
+    {
+      "title": "一元三次方程的根为什么是两个三次根号相加的形式？它的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2478116419",
+      "summary": "正文围绕三次方程的根式和根的结构展开。"
+    },
+    {
+      "title": "是否存在一个比复数更大的数域，使得任意五次方程都有根式解？",
+      "url": "https://www.zhihu.com/answer/2478686161",
+      "summary": "正文展开四元数系数方程并讨论其求根。"
+    },
+    {
+      "title": "如何证明方程 x³＋y³＝1145141919810 没有整数解？",
+      "url": "https://www.zhihu.com/answer/2480465311",
+      "summary": "通过分解常数、引入 u=x+y 与 v 的代换并枚举因子，判断整系数方程无整数解。"
+    },
+    {
+      "title": "如何证明方程 x³＋y³＝1145141919810 没有整数解？",
+      "url": "https://www.zhihu.com/answer/2480613230",
+      "summary": "讨论 x³+y³=k 的整数解，并用椭圆曲线上的有理解判定原方程。"
+    },
+    {
+      "title": "方程x^y=xy的正整数解有哪些?",
+      "url": "https://www.zhihu.com/answer/2480831845",
+      "summary": "通过有理数代换与整除关系，完整求解指数方程 x^y=xy 的正整数解。"
+    },
+    {
+      "title": "方程的复数根一般如何求呢？",
+      "url": "https://www.zhihu.com/answer/2482761609",
+      "summary": "给出 DeMoivre 型五次方程的一般形式、参数代入方法与求根表达式。"
+    },
+    {
+      "title": "1/a² + 1/b² = 1/c² + 1/d² 是否有解？",
+      "url": "https://www.zhihu.com/answer/2484869683",
+      "summary": "正文给出倒数平方和不定方程的一族参数解并验证等式。"
+    },
+    {
+      "title": "怎么求出不定方程 28x + 30y + 31z = 365 的正整数解（最好不用试根法）？",
+      "url": "https://www.zhihu.com/answer/2484892759",
+      "summary": "正文讨论多元线性不定方程（Frobenius 方程）及其整数解。"
+    },
+    {
+      "title": "1/a² + 1/b² = 1/c² + 1/d² 是否有解？",
+      "url": "https://www.zhihu.com/answer/2485275142",
+      "summary": "由平方和恒等式构造倒数平方和方程的参数化解，并说明存在无穷多组解。"
+    },
+    {
+      "title": "1/a² + 1/b² = 1/c² + 1/d² 是否有解？",
+      "url": "https://www.zhihu.com/answer/2485435404",
+      "summary": "把倒数平方和方程化为平方差方程，再通过整数因式分解构造一组正整数解。"
+    },
+    {
+      "title": "请问，是否存在一个非常值函数，使得f(x)=f(3x+2)?",
+      "url": "https://www.zhihu.com/answer/2487628270",
+      "summary": "求解函数方程 f(x)=f(3x+2)，通过变量替换构造满足条件的非平凡函数。"
+    },
+    {
+      "title": "为什么方程 8x³ - 4x² - 4x + 1 = 0 的一个解是 cos (π/7)？",
+      "url": "https://www.zhihu.com/answer/2508136700",
+      "summary": "正文从三角恒等式得到方程，约去已知根后化为三次方程并求其余根。"
+    },
+    {
+      "title": "是否存在一个棱长、面对角线和体对角线都是整数的长方体？",
+      "url": "https://www.zhihu.com/answer/2512348087",
+      "summary": "把完全有理长方体问题转化为丢番图方程组，并讨论半完全有理长方体的解族。"
+    },
+    {
+      "title": "是否存在一个棱长、面对角线和体对角线都是整数的长方体？",
+      "url": "https://www.zhihu.com/answer/2512799893",
+      "summary": "把完美立方体问题归结为寻找满足多条平方和条件的欧拉砖数组。"
+    },
+    {
+      "title": "如何根式求解 cos(π/7)？",
+      "url": "https://www.zhihu.com/answer/2518034513",
+      "summary": "围绕三次方程的解与根式表达展开推导。"
+    },
+    {
+      "title": "如何求解 xⁿ - 1 = 0，并将方程的根用根式表示？",
+      "url": "https://www.zhihu.com/answer/2527594190",
+      "summary": "讨论单位根方程及其根式表示。"
+    },
+    {
+      "title": "人们在没有计算机的帮助下是如何计算根号3？",
+      "url": "https://www.zhihu.com/answer/2539591179",
+      "summary": "把开方术解释为方程求根，并联系一元二次方程数值解。"
+    },
+    {
+      "title": "如何评价CVPR 2022的best paper？",
+      "url": "https://www.zhihu.com/answer/2540238487",
+      "summary": "把 5pt 问题化为十个方程九个未知量的方程组求解。"
+    },
+    {
+      "title": "在小学「x＝3是方程吗？」这个概念的辨析有必要吗？",
+      "url": "https://www.zhihu.com/answer/2542563419",
+      "summary": "从约束条件、变量取值与解集角度辨析“x=3 是不是方程”。"
+    },
+    {
+      "title": "在小学「x＝3是方程吗？」这个概念的辨析有必要吗？",
+      "url": "https://www.zhihu.com/answer/2543842494",
+      "summary": "从等号与不等号的区别判断 x=3 属于方程。"
+    },
+    {
+      "title": "函数方程 f(xy)=f(x)+f(y) 的严格解是什么？解是否唯一？",
+      "url": "https://www.zhihu.com/answer/2545571235",
+      "summary": "通过换元把 f(xy)=f(x)+f(y) 化为可解的加法型函数方程。"
+    },
+    {
+      "title": "目前 x³＋y³＋z³＝42（x、y、z 均为整数）是怎么求解的？",
+      "url": "https://www.zhihu.com/answer/2565682154",
+      "summary": "正文围绕整数方程 x^3+y^3+z^3=k，说明利用因子穷举并求解二次方程的方法。"
+    },
+    {
+      "title": "已知x^2-4xy+5y^2=1求x^2+y^2的最值，除了用拉格朗日乘数法，还有其他吗？高中生的？",
+      "url": "https://www.zhihu.com/answer/2566474821",
+      "summary": "正文构造含参数 θ 的齐次二次方程，并用判别式非负求原式的最值条件。"
+    },
+    {
+      "title": "f(2x-f(x))恒等于g(2x-g(x)),为什么f(x)=g(x)？",
+      "url": "https://www.zhihu.com/answer/2566881562",
+      "summary": "围绕函数方程 f(2x-f(x))=x 展开变形，并利用迭代序列证明方程的解只能是恒等函数。"
+    },
+    {
+      "title": "为什么小学要在没学二元一次方程的情况下先学鼠牛虎兔龙蛇马羊猴鸡狗猪同笼问题？",
+      "url": "https://www.zhihu.com/answer/2585292343",
+      "summary": "借鸡兔同笼说明方程相比算术技巧更具一般性，并按步骤建立方程求解。"
+    },
+    {
+      "title": "你在什么时候会有「古人连这个都知道」的感觉？",
+      "url": "https://www.zhihu.com/answer/2595228193",
+      "summary": "把阿基米德群牛问题翻译成多组未知量的线性方程组，并讨论平方数与三角数附加条件。"
+    },
+    {
+      "title": "如何激怒一位数学爱好者？",
+      "url": "https://www.zhihu.com/answer/2601327876",
+      "summary": "讨论一元三次、四次方程求根公式的复杂度，以及影视中背公式解方程的失真。"
+    },
+    {
+      "title": "在小学「x＝3是方程吗？」这个概念的辨析有必要吗？",
+      "url": "https://www.zhihu.com/answer/2625926471",
+      "summary": "从方程必须含未知数的定义判断 x=3 是否属于方程。"
+    },
+    {
+      "title": "如何解方程sinx=2？",
+      "url": "https://www.zhihu.com/answer/2640896208",
+      "summary": "通过换元把三角方程化为一元二次方程并求解。"
+    },
+    {
+      "title": "抖音的平均文化程度到底怎么样？",
+      "url": "https://www.zhihu.com/answer/2641633567",
+      "summary": "以三次方程求根为例讨论虚根与实根的区别。"
+    },
+    {
+      "title": "a，b为自然数，b²-a³＝2089  的解是否有限?",
+      "url": "https://www.zhihu.com/answer/2648124170",
+      "summary": "用椭圆曲线方程整点定理判断二元丢番图方程解的有限性。"
+    },
+    {
+      "title": "x+y+z=2，x²+y²+z²=2，如何用高中方法求 xyz 最值？",
+      "url": "https://www.zhihu.com/answer/2648478968",
+      "summary": "在 x+y+z 与 x²+y²+z² 约束下求解 xyz 的最值。"
+    },
+    {
+      "title": "为什么2sin(54°)-1恰巧是黄金比例？",
+      "url": "https://www.zhihu.com/answer/2662889796",
+      "summary": "把三角计算化为关于 sin²a 的一元二次方程并求解。"
+    },
+    {
+      "title": "x⁴+y⁴+z⁴=w⁴有正整数解吗？",
+      "url": "https://www.zhihu.com/answer/2675304317",
+      "summary": "正文具体讨论高次幂方程及多组正整数解，说明欧拉猜想对应的方程命题并不成立。"
+    },
+    {
+      "title": "椭圆外一动点向椭圆作两条切线，请问使得两切线夹角为定值，动点的运动轨迹是什么？",
+      "url": "https://www.zhihu.com/answer/2728010131",
+      "summary": "正文把切点参数代入后构造关于正弦或余弦的一元二次方程，再解出两组根并继续消元。"
+    },
+    {
+      "title": "5%的溶液和2%的溶液，配制成10%的溶液，各需要多少ml？",
+      "url": "https://www.zhihu.com/answer/2738560470",
+      "summary": "正文把混合浓度关系改写为求解未知体积的方程，并讨论所得解的含义。"
+    },
+    {
+      "title": "游戏《游戏王》有什么好玩的陷阱卡？",
+      "url": "https://www.zhihu.com/answer/2754440586",
+      "summary": "正文把卡牌效果解释为设定 k、x、b 后求解 y=kx+b 的整数线性方程，并说明解存在时执行效果。"
+    },
+    {
+      "title": "如何证明这两个方程同解？",
+      "url": "https://www.zhihu.com/answer/2759724068",
+      "summary": "正文利用两方程均有唯一根，先设第一个方程的根为 θ，再通过指数变换代入并证明它满足第二个方程。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2765356235",
+      "summary": "正文列举多个Pell方程及其最小正整数解，并展示解可以大到十万位数量级这一方程性质。"
+    },
+    {
+      "title": "求解方程时，人们为什么不接受无解情况，而为方程有意义而发明一些如虚数等新的数的概念？",
+      "url": "https://www.zhihu.com/answer/2766985282",
+      "summary": "正文用 Cardano 公式具体求解三次方程，并讨论平方根中出现负数所造成的障碍。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2770184822",
+      "summary": "正文给出一个三元分式方程，并用一组极大规模的正整数取值具体展示该方程存在解。"
+    },
+    {
+      "title": "如何确定 Vasile 不等式的取等条件？",
+      "url": "https://www.zhihu.com/answer/2772558727",
+      "summary": "正文为确定不等式取等条件而求解三次方程，并逐一找出它的根。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2772738612",
+      "summary": "正文系统求解柯西函数方程，并讨论连续解与非连续的病态解。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/2774911689",
+      "summary": "正文通过比较原方程与升次后方程的根，解释错误变换为何产生增根。"
+    },
+    {
+      "title": "中国古代数学书中为了研究有没有发明过什么特殊的符号用来做深层次的计算、证明或定理表示？",
+      "url": "https://www.zhihu.com/answer/2779163379",
+      "summary": "正文说明四元术先以天地人物表示未知数并建立方程式，再用顺序消元求解，展开了古代方程方法。"
+    },
+    {
+      "title": "在小学「x＝3是方程吗？」这个概念的辨析有必要吗？",
+      "url": "https://www.zhihu.com/answer/2792498112",
+      "summary": "正文通过比较 x=3 与 3=3，讨论未知量 x 在方程中的角色，属于方程概念的辨析。"
+    },
+    {
+      "title": "椭圆的一般式方程是怎样的？",
+      "url": "https://www.zhihu.com/answer/2795035916",
+      "summary": "正文给出圆锥曲线以及椭圆的二元二次一般方程，并说明如何化为椭圆标准方程。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2797446684",
+      "summary": "正文围绕三次不定方程 x^3+y^3+z^3=w^3 的正整数解展开并验证其成立。"
+    },
+    {
+      "title": "是否存在一个无理数x，使得x^x为有理数?",
+      "url": "https://www.zhihu.com/answer/2797481159",
+      "summary": "正文借助方程 x^x=2 在区间 (1,2) 内有解来提出关于无理数底数的猜想。"
+    },
+    {
+      "title": "如何求函数 f(x) = sinx + sin2x + sin3x 的值域？",
+      "url": "https://www.zhihu.com/answer/2814067965",
+      "summary": "正文通过换元把极值条件转化为三次方程，并用盛金公式求出三个根。"
+    },
+    {
+      "title": "-1的开方早就该是NaN的，为啥除数为0就不作为又一种虚数的定义？",
+      "url": "https://www.zhihu.com/answer/2826814092",
+      "summary": "正文通过判别式完整分类三次方程的实根数量，并进一步给出三次方程的求根公式。"
+    },
+    {
+      "title": "各位知乎大神，求求帮我做下这道数列题?",
+      "url": "https://www.zhihu.com/answer/2850531945",
+      "summary": "正文把递推式的两个相邻项视为同一二次方程的两根，并用韦达定理建立关系。"
+    },
+    {
+      "title": "为什么中学数学中无解的方程会算出答案？",
+      "url": "https://www.zhihu.com/answer/2922142292",
+      "summary": "正文以解方程增根为例说明等式变形可能仅充分非必要，不可逆步骤会产生增根，实质讨论方程变形与解的关系。"
+    },
+    {
+      "title": "为什么 sin15°=sin45°-sin30° 是错误的？",
+      "url": "https://www.zhihu.com/answer/2923037762",
+      "summary": "正文把偶然成立的情况化为带有角度约束的三角方程，并求出非平凡解族。"
+    },
+    {
+      "title": "能分享一道如果“注意不到”就出不来的数学题吗？",
+      "url": "https://www.zhihu.com/answer/2927426499",
+      "summary": "正文用三整数立方的显式恒等式回答 33 和 42 的三立方和表示问题，属于三次方程的具体求解。"
+    },
+    {
+      "title": "已知x²+y²－xy=3,如何求x+y的最小值和最大值？",
+      "url": "https://www.zhihu.com/answer/2931452038",
+      "summary": "正文把 x+y=s 代回条件并构造关于 x、y 的二次齐次方程，利用方程有实解的条件求解。"
+    },
+    {
+      "title": "不定方程x^3+y^3+z^3=r^3有正整数解（3,4,5,6），除此之外是否还有另外的正整数解？",
+      "url": "https://www.zhihu.com/answer/2948232266",
+      "summary": "正文以三变量三次方程的解集为核心，给出参数形式和大量满足关系的具体解。"
+    },
+    {
+      "title": "不定方程x^3+y^3+z^3=r^3有正整数解（3,4,5,6），除此之外是否还有另外的正整数解？",
+      "url": "https://www.zhihu.com/answer/2949649925",
+      "summary": "正文围绕三次不定方程及其等价方程，梳理有理数解、整数解、通解和参数解。"
+    },
+    {
+      "title": "数学中你可以“注意到”什么地步?",
+      "url": "https://www.zhihu.com/answer/2972458032",
+      "summary": "正文构造与整数解相关联的二次方程，由另一整数根及最小性导出矛盾。"
+    },
+    {
+      "title": "有四个小朋友，他们的年龄是四个连续的自然数，将他们的年龄数相乘积是11880，年龄最小的小盆友，几岁?",
+      "url": "https://www.zhihu.com/answer/2998796725",
+      "summary": "正文设年龄为未知数并列出四个连续自然数乘积等于 11880 的方程。"
+    },
+    {
+      "title": "数学好的人去搞生物是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/3001147607",
+      "summary": "正文通过求解不动点方程并对复合映射的多项式方程因式分解，得到周期二点及其参数条件。"
+    },
+    {
+      "title": "数学里有哪些精彩的伪证？",
+      "url": "https://www.zhihu.com/answer/3001343567",
+      "summary": "正文围绕二次方程的除法、移项与代入变形，逐步追踪伪证中增根被引入的位置及其原因。"
+    },
+    {
+      "title": "请问这个方程图像有什么性质？",
+      "url": "https://www.zhihu.com/answer/3007849626",
+      "summary": "正文研究含参数 a 的 tan(xy)=a 隐式方程及更复杂方程族的曲线形态，展开方程与曲线之间的关系。"
+    },
+    {
+      "title": "如果A+B=90，A÷B=17，AB各多少?",
+      "url": "https://www.zhihu.com/answer/3031260197",
+      "summary": "正文把比例条件改写为方程，再代入另一方程并解出变量 A 和 B。"
+    },
+    {
+      "title": "如果A+B=90，A÷B=17，AB各多少?",
+      "url": "https://www.zhihu.com/answer/3034987328",
+      "summary": "正文先把除法等式化为 A=17B，再代入 A+B=90 得到 18B=90，完整演示了二元线性方程的代入消元解法。"
+    },
+    {
+      "title": "如何评价三角形有四万多个心的事实？",
+      "url": "https://www.zhihu.com/answer/3055891709",
+      "summary": "正文用一元二次方程系数可变、方程无穷多作对照，说明掌握统一求根公式即可处理这一类方程。"
+    },
+    {
+      "title": "如果A+B=90，A÷B=17，AB各多少?",
+      "url": "https://www.zhihu.com/answer/3116021289",
+      "summary": "正文把 A/B=17 化为 A=17B，代入 A+B=90，解得 B=5、A=85，展示了一元一次方程的代入消元。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/3129789541",
+      "summary": "正文把原方程等价变形为复指数方程，并据此求得实数解及一族复数解。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/3133983206",
+      "summary": "正文把 e^x=x^e 逐步变形为 ue^u=-1/e，并利用朗伯 W 函数的主分支和负分支求出方程解 x=e。"
+    },
+    {
+      "title": "牛顿是真实存在的还是西方伪造的?",
+      "url": "https://www.zhihu.com/answer/3137844339",
+      "summary": "正文把古书中的长方形条件转述为一元二次方程，并给出 x=375 与 y=x-12000/x 的解关系。"
+    },
+    {
+      "title": "已知:a^2+b^2=1，求(a+1)(b+2)最大值？",
+      "url": "https://www.zhihu.com/answer/3168691934",
+      "summary": "正文将驻点条件化为三次方程，并代入三次方程求根公式求解。"
+    },
+    {
+      "title": "存在“过时的、陈旧的数学内容”吗？",
+      "url": "https://www.zhihu.com/answer/3170580147",
+      "summary": "正文按历史线索讲述二次、三次、四次和五次多项式方程的研究与求解，实质展开方程问题的发展。"
+    },
+    {
+      "title": "如何看待高中生提出一元十次方程求根公式？",
+      "url": "https://www.zhihu.com/answer/3179359534",
+      "summary": "正文具体说明高次方程求解中的变量变换、降次化简及超几何函数求根步骤，实质讨论了方程求解。"
+    },
+    {
+      "title": "a^2+b^2=1，求a+1/(b+2)的值域？",
+      "url": "https://www.zhihu.com/answer/3184176437",
+      "summary": "正文把三角函数分式的值域问题化为高次方程，并分类讨论其根式可解性。"
+    },
+    {
+      "title": "N个相同的球，放入M个相同的盒子中（n大于m），允许有盒子为空，请问有多少种方法？不允许盒子为空呢？",
+      "url": "https://www.zhihu.com/answer/3185502845",
+      "summary": "正文把球盒分拆等价为带非负整数与单调约束的方程解计数。"
+    },
+    {
+      "title": "交换律、结合律、分配律的本质是什么？",
+      "url": "https://www.zhihu.com/answer/3205321336",
+      "summary": "正文讨论方程中已知量与未知量的关系，并用逆元素把 BA=C 化为 B=Ca，解释移项解除未知量的过程。"
+    },
+    {
+      "title": "古代中国数学，目前研究生的什么专业会研究它们？",
+      "url": "https://www.zhihu.com/answer/3241967769",
+      "summary": "正文说明王孝通用高次方程解决《缉古算经》问题及其数值求解对宋元方程术的影响。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/3253187202",
+      "summary": "正文通过实部、虚部分离得到关于 x、y 的方程组，再以两组方程对应曲线的交点确定原方程的解。"
+    },
+    {
+      "title": "求问怎么用曲线系做?",
+      "url": "https://www.zhihu.com/answer/3258674621",
+      "summary": "正文系统说明曲线与方程的一一对应，并由此讨论曲线族与交点。"
+    },
+    {
+      "title": "怎么判断一个孩子有没有数学天赋？",
+      "url": "https://www.zhihu.com/answer/3261610988",
+      "summary": "正文随后以时针、分针角速度建立方程，并通过参数取值范围求出一天内构成直角的次数。"
+    },
+    {
+      "title": "是否有sin(π/7)的精确值？",
+      "url": "https://www.zhihu.com/answer/3265631035",
+      "summary": "正文通过排除另一因式，把精确值问题转化为求解给定三次方程的零点。"
+    },
+    {
+      "title": "《陶哲轩教你学数学》这本书值得看吗？",
+      "url": "https://www.zhihu.com/answer/3275003265",
+      "summary": "正文先建立边长、面积和角之间的多个方程，再把目标化为二次方程并求根。"
+    },
+    {
+      "title": "如何解方程 x = 1 + sinx？",
+      "url": "https://www.zhihu.com/answer/3280485474",
+      "summary": "正文通过导数判断函数单调性，并结合连续性与值域证明原方程有唯一实根。"
+    },
+    {
+      "title": "如何解方程 x = 1 + sinx？",
+      "url": "https://www.zhihu.com/answer/3281424236",
+      "summary": "正文通过三角换元把原方程转化为关于余弦的等式，以求数值近似解。"
+    },
+    {
+      "title": "范盛金的三次方程求根公式是真的吗？",
+      "url": "https://www.zhihu.com/answer/3286128308",
+      "summary": "正文围绕三次方程讲解消去二次项、因式分解、构造辅助量并最终得到求根公式的完整过程。"
+    },
+    {
+      "title": "数学史上你认为最丑陋的公式是什么？",
+      "url": "https://www.zhihu.com/answer/3288185143",
+      "summary": "正文完整推演三次方程求根公式，并把四次方程降为三次方程与两个二次方程来求解。"
+    },
+    {
+      "title": "请问A+B+C=A×B×C，A、B、C各等于几？",
+      "url": "https://www.zhihu.com/answer/3299100277",
+      "summary": "正文讨论方程A+B+C=A×B×C的实数解构造，并补充了含零和负数的解族。"
+    },
+    {
+      "title": "x⁷=1的根式解都是什么（包括复数解）?",
+      "url": "https://www.zhihu.com/answer/3324507956",
+      "summary": "正文围绕该六次方程作换元、三次方程变换并反解出原方程的解。"
+    },
+    {
+      "title": "怎样才能让|x|＝-1有解，难道要引进新的数吗？",
+      "url": "https://www.zhihu.com/answer/3346166241",
+      "summary": "正文依据绝对值或模长必须非负的定义，说明所给方程无解，并讨论破坏该定义来强行造解为何不可取。"
+    },
+    {
+      "title": "实数x,y满足x^2+2·x·y-3·y^2＝4，求：2·x^2-y^2的最小值？",
+      "url": "https://www.zhihu.com/answer/3352376827",
+      "summary": "正文引入参数 z，把约束和所求式合并成关于 x、y 的二次齐次方程并继续求解。"
+    },
+    {
+      "title": "若m≠n，则m个连续整数的积可能等于n个连续整数的积吗？",
+      "url": "https://www.zhihu.com/answer/3363579149",
+      "summary": "正文把连续整数乘积相等问题化为带阶乘比和排除条件约束的丢番图方程，并讨论其解。"
+    },
+    {
+      "title": "请问解方程 2k⁴+9k³-9k+2=0 时，如何想到换元令 u=k-1/k？",
+      "url": "https://www.zhihu.com/answer/3379092730",
+      "summary": "正文通过除以k²并换元u=k-1/k，把倒数对称的四次方程化为二次方程，具体讲解了一类代数方程的解法。"
+    },
+    {
+      "title": "请问解方程 2k⁴+9k³-9k+2=0 时，如何想到换元令 u=k-1/k？",
+      "url": "https://www.zhihu.com/answer/3380518541",
+      "summary": "正文用代换 t 到 x 加减 x 的倒数将对称高次方程降至三次方程，具体讲解高次方程换元技巧。"
+    },
+    {
+      "title": "你遇到的最难的一个数学题是什么？",
+      "url": "https://www.zhihu.com/answer/3388055407",
+      "summary": "正文写出二次方程并利用韦达定理联系两根之和、两根之积与系数，以推进整除问题的证明。"
+    },
+    {
+      "title": "如果你的超能力是能让数值+1，你能做出什么事？",
+      "url": "https://www.zhihu.com/answer/3396241373",
+      "summary": "正文利用任意复数变量的代数变形，先乘 x/(y-x) 再加一，具体展示如何把 x 化为目标数 y。"
+    },
+    {
+      "title": "请问解方程 2k⁴+9k³-9k+2=0 时，如何想到换元令 u=k-1/k？",
+      "url": "https://www.zhihu.com/answer/3406653536",
+      "summary": "正文给出以 k±1/k 换元处理系数对称方程的关键判据与具体方法。"
+    },
+    {
+      "title": "x³-3x+1=0的精确解是什么？",
+      "url": "https://www.zhihu.com/answer/3408435788",
+      "summary": "正文由单位根筛选出三个不同取值，给出方程 x^3-3x+1=0 的精确解集合。"
+    },
+    {
+      "title": "x³-3x+1=0的精确解是什么？",
+      "url": "https://www.zhihu.com/answer/3413425191",
+      "summary": "正文完整求出三次方程 x^3-3x+1=0 的三个精确根，并给出回代后的解集。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/3423155152",
+      "summary": "正文说明非恒等式的三次方程至多有三个根，并以代入更多取值来排除这种可能。"
+    },
+    {
+      "title": "你做过答案最逆天的一道题是哪一道？",
+      "url": "https://www.zhihu.com/answer/3423680391",
+      "summary": "正文逐步变形并求解实数域中的九次方程，还讨论如何把根式写成单层根号形式。"
+    },
+    {
+      "title": "一题多解的本质是什么？",
+      "url": "https://www.zhihu.com/answer/3437093128",
+      "summary": "正文把最值问题化为关于 a 的一元二次方程，并由判别式非负确定参数范围。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/3458571445",
+      "summary": "正文围绕 eˣ=xᵉ 先找到 e，再检查 0、1、3 处两边大小，尝试说明方程解的情况。"
+    },
+    {
+      "title": "为什么Δ=0的二次方程要说自己有“两个相等的根”?",
+      "url": "https://www.zhihu.com/answer/3462061288",
+      "summary": "正文陈述代数基本定理，并用重根按重数计数说明 n 次方程恰有 n 个复根这一约定。"
+    },
+    {
+      "title": "反函数、隐函数和微分方程的关系是怎样的，为什么说隐函数定理是微分学中最重要的定理？",
+      "url": "https://www.zhihu.com/answer/3471290431",
+      "summary": "正文以二次方程为例，说明方程如何把根隐藏为系数所决定的变量关系。"
+    },
+    {
+      "title": "这道高中数学压轴题怎么优雅的解决?",
+      "url": "https://www.zhihu.com/answer/3480509764",
+      "summary": "正文把题目转化为求方程 g(x)=1/2 的实根，并进一步证明根的存在性与唯一性。"
+    },
+    {
+      "title": "有没有分数边形，例如正3.5边形？",
+      "url": "https://www.zhihu.com/answer/3487329046",
+      "summary": "正文用一个含边数和内切圆半径的方程表示正多边形，并通过改写参数研究其解析延拓。"
+    },
+    {
+      "title": "12k²+8kt+t²+2t-3=0怎么因式分解？？",
+      "url": "https://www.zhihu.com/answer/3488915449",
+      "summary": "正文利用二次方程求根公式和判别式求出k的两个根，以处理原方程。"
+    },
+    {
+      "title": "参加数学建模用 MATLAB，还是 Python？",
+      "url": "https://www.zhihu.com/answer/3514130127",
+      "summary": "正文以含 x、y 的二次方程为例，演示用 MATLAB 符号计算求方程的解。"
+    },
+    {
+      "title": "○÷25=○-864，○代表同一个数，○是多少？",
+      "url": "https://www.zhihu.com/answer/3528533129",
+      "summary": "正文设未知数后依次去分母、移项和合并同类项，完整求解一元一次方程。"
+    },
+    {
+      "title": "怎么求出不定方程 28x + 30y + 31z = 365 的正整数解（最好不用试根法）？",
+      "url": "https://www.zhihu.com/answer/3535928111",
+      "summary": "正文代换 z=12-x-y 后化简方程，再枚举求出原不定方程的正整数解。"
+    },
+    {
+      "title": "为何从一元五次方程开始就没有由有限次加、减、乘、除、开方运算构成的求根公式了？",
+      "url": "https://www.zhihu.com/answer/3540898636",
+      "summary": "正文以一元三次方程为例，通过预解式和韦达定理把求根问题降为一元二次方程问题，并讨论一般 n 次方程的根式可解性。"
+    },
+    {
+      "title": "若x^2+3x+11为完全平方数，求正整数x？",
+      "url": "https://www.zhihu.com/answer/3545526953",
+      "summary": "正文把原式设为平方数，通过代换转化为整数方程并分解因式，再分类取值求出正整数 x。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/3549190600",
+      "summary": "正文实际求解一个含四次项和根号右端的一元方程，并考察所得解与数值 1 的关系。"
+    },
+    {
+      "title": "上海中学2024自主招生面试题，如何用二元二次方程组表达「春草明年绿，王孙归不归」的意境？",
+      "url": "https://www.zhihu.com/answer/3549209746",
+      "summary": "正文逐项解释二元方程中 x+y=1 的符号含义，并说明方程如何表达两人今年欢聚。"
+    },
+    {
+      "title": "有没有人告诉我对数到底是怎样简化运算的?",
+      "url": "https://www.zhihu.com/answer/3553403912",
+      "summary": "正文以 a^x=b 为例，通过对两边取对数得到指数方程的解。"
+    },
+    {
+      "title": "如何建立一套完整的高中数学体系?",
+      "url": "https://www.zhihu.com/answer/3553921505",
+      "summary": "正文用分式变形举例，说明方程变换若丢失限制条件会产生增根，需要等价变换或检验。"
+    },
+    {
+      "title": "怎么求出不定方程 28x + 30y + 31z = 365 的正整数解（最好不用试根法）？",
+      "url": "https://www.zhihu.com/answer/3570140052",
+      "summary": "正文把一年 365 天与每月 28、30 或 31 天对应，据此构造不定方程的一组正整数特解 1、4、7。"
+    },
+    {
+      "title": "有哪些看起来简洁却很难的数学题？",
+      "url": "https://www.zhihu.com/answer/3573428793",
+      "summary": "正文把 x²+y²=z² 视为三元二次方程，讨论整数解，并进一步比较更高次方程的解。"
+    },
+    {
+      "title": "初一的数学难不难?",
+      "url": "https://www.zhihu.com/answer/3574902877",
+      "summary": "正文将一元一次方程解释为一维空间中的线性映射并要求通过逆变换求未知量。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/3575072276",
+      "summary": "正文通过指数不等式比较方程两边并论证实数解只能是 e。"
+    },
+    {
+      "title": "如果A+B=90，A÷B=17，AB各多少?",
+      "url": "https://www.zhihu.com/answer/3592650206",
+      "summary": "正文从 A+B=90 与 A÷B=17 两个方程出发，通过等价变形建立求解关系。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/3598411613",
+      "summary": "正文把幂指方程化为复指数与对数方程，并分别证明解至多和至少有可数无穷多个，核心是求解该方程。"
+    },
+    {
+      "title": "x⁰+x¹+x²+x³+x⁴=0的解，如何计算？",
+      "url": "https://www.zhihu.com/answer/3598556712",
+      "summary": "正文通过求方程 x^5-1=0 的五个复根并排除 1，得到目标方程的全部解。"
+    },
+    {
+      "title": "已知a=ab+c，b=bc+a，c=ca+b，a、b、c互不相等，求a+b+c？",
+      "url": "https://www.zhihu.com/answer/3621792711",
+      "summary": "正文联立三个代数方程，通过相加和相乘后的恒等变形求出未知变量之和。"
+    },
+    {
+      "title": "如何看待阿里通义千问团队发布Qwen2.5 MATH，效果怎么样，这是中国的草莓吗？",
+      "url": "https://www.zhihu.com/answer/3630603271",
+      "summary": "正文把车流应用题转化为含未知距离 x 的方程，并通过求解得到题目的距离。"
+    },
+    {
+      "title": "为什么我觉得现在的教材比几十年前的教材好，根本没有所谓的防自学机制？",
+      "url": "https://www.zhihu.com/answer/3630982427",
+      "summary": "正文说明处理含两个根号的方程时可采用移项后平方，并讨论另一种有理化构造方法。"
+    },
+    {
+      "title": "我发现一个定理，这个定理叫什么名字？",
+      "url": "https://www.zhihu.com/answer/3834018260",
+      "summary": "正文围绕多项式方程 f_n(x)=0 的根展开，并证明它不可能有负根。"
+    },
+    {
+      "title": "为什么高中数学不学解三次或四次方程？",
+      "url": "https://www.zhihu.com/answer/4623031312",
+      "summary": "正文依次列出一元一到四次方程的求根公式，并比较这些公式是否适合不同阶段的学生学习。"
+    },
+    {
+      "title": "游标卡尺是王莽发明的吗？当时的社会需要用它吗？",
+      "url": "https://www.zhihu.com/answer/4935241510",
+      "summary": "正文建立关于n和m的方程，并解出读数x=0.1n，借此说明游标卡尺如何提高测量精度。"
+    },
+    {
+      "title": "小学学奥数，初高中可以降维碾压其他人吗？",
+      "url": "https://www.zhihu.com/answer/12460839913",
+      "summary": "正文把鸡兔同笼问题转化为二元一次方程组，并展示代入消元求解。"
+    },
+    {
+      "title": "谁能把虚数描述下？",
+      "url": "https://www.zhihu.com/answer/15025703098",
+      "summary": "正文通过换元消去三次项并把一般一元三次方程化为标准形式，进而推导卡尔丹求根公式。"
+    },
+    {
+      "title": "让小学生使用代数思想去思考问题是利大于弊还是弊大于利？",
+      "url": "https://www.zhihu.com/answer/22550610291",
+      "summary": "正文具体讨论一元一次方程由题意列式和求解规则，对应方程这一叶节点。"
+    },
+    {
+      "title": "是否存在这样的数，a+b=ab（ a不等于b不等于0）?",
+      "url": "https://www.zhihu.com/answer/25837642736",
+      "summary": "正文把原方程等价变形为乘积形式，解出一个变量关于另一个变量的表达式，并说明方程有无穷多组解。"
+    },
+    {
+      "title": "1*2+3*4+5*6+...+(n-1)*n=  怎么算啊?",
+      "url": "https://www.zhihu.com/answer/26505463564",
+      "summary": "正文代入四个具体和值建立四个方程，再联立解出待定的多项式系数。"
+    },
+    {
+      "title": "小孩总是无脑地设未知数和机械无脑地使用方程的毒已很深，需要禁止孩子不许他设未知数和列方程来纠正吗？",
+      "url": "https://www.zhihu.com/answer/26938740810",
+      "summary": "正文讨论设未知数、列方程如何把具体关系抽象为形式语言，并解释方程作为建模工具的用途。"
+    },
+    {
+      "title": "是否存在这样的数，a+b=ab（ a不等于b不等于0）?",
+      "url": "https://www.zhihu.com/answer/28108566562",
+      "summary": "正文引入参数 k 并代入原等式，通过代数变形解出 a=k+1、b=(k+1)/k，得到方程的一组参数化解。"
+    },
+    {
+      "title": "如何评价丘成桐说鸡兔同笼问题，小学生不要用繁琐的《九章算术》解法，就用方程，干脆简单？",
+      "url": "https://www.zhihu.com/answer/33258324121",
+      "summary": "正文把鸡兔同笼的数量关系写成两个方程，并通过代入与移项得到兔和鸡的数量。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/37149843505",
+      "summary": "正文围绕含有倒数项的高次方程展开，说明通分后得到四次方程，并实际探求该方程的数值根。"
+    },
+    {
+      "title": "是否存在这样的数，a+b=ab（ a不等于b不等于0）?",
+      "url": "https://www.zhihu.com/answer/38694681148",
+      "summary": "正文通过变形把 a+b=ab 化成含参数方程，并由此给出原方程的解，属于方程求解与参数分析。"
+    },
+    {
+      "title": "是否可以由 aᵃ=bᵇ 推出 a=b？为什么？",
+      "url": "https://www.zhihu.com/answer/39233342085",
+      "summary": "正文按参数范围讨论 a^a=b^b 的解是否存在及是否只有 a=b，实质分析了一类方程及其解集。"
+    },
+    {
+      "title": "有哪些看起来简洁却很难的数学题？",
+      "url": "https://www.zhihu.com/answer/43812536093",
+      "summary": "正文把原问题化为关于 m 的二次方程，并用韦达定理分析两根之间的关系。"
+    },
+    {
+      "title": "数学里有哪些精彩的伪证？",
+      "url": "https://www.zhihu.com/answer/44072795676",
+      "summary": "正文围绕含绝对值和参数 a 的方程，分析拆绝对值后各二次方程的实根个数。"
+    },
+    {
+      "title": "x+y+z=2，x²+y²+z²=2，如何用高中方法求 xyz 最值？",
+      "url": "https://www.zhihu.com/answer/46260469625",
+      "summary": "正文联立约束条件与偏导方程，并通过三种情况分类讨论求得候选点。"
+    },
+    {
+      "title": "如何不用导数求 t^5/(t-1), t>0的最小值?",
+      "url": "https://www.zhihu.com/answer/54653054389",
+      "summary": "正文通过比较两个函数值、消去差因子并代入重根条件建立方程，求出极值点。"
+    },
+    {
+      "title": "a/b+b/c+c/a=73是否存在正整数解？",
+      "url": "https://www.zhihu.com/answer/55574012846",
+      "summary": "正文连续变形原分式方程，并讨论三次齐次方程及其整数解之间的一一转化。"
+    },
+    {
+      "title": "做过最气的题是什么题？",
+      "url": "https://www.zhihu.com/answer/58847591976",
+      "summary": "正文展示多项式方程题，并讨论利用整体代换及 x³=1 的关系求高次幂。"
+    },
+    {
+      "title": "a/(b+c)+b/(a+c)+c/(a+b)=6 a b c是正整数 求 a b c？",
+      "url": "https://www.zhihu.com/answer/60781144321",
+      "summary": "正文把分式方程化为三元齐次多项式，再利用两个变量之比改写为仿射方程求解。"
+    },
+    {
+      "title": "有哪些题目看着简单，但实际上做起来非常「折磨人」？",
+      "url": "https://www.zhihu.com/answer/64453159302",
+      "summary": "正文把四点坐标代入椭圆方程求参数，并继续建立、联立和化简直线方程，实际围绕方程求解展开。"
+    },
+    {
+      "title": "是否存在这样的数，a+b=ab（ a不等于b不等于0）?",
+      "url": "https://www.zhihu.com/answer/66892213192",
+      "summary": "正文通过移项和因式分解把原方程化为乘积方程，再由该式构造出满足条件的a、b。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/72171721635",
+      "summary": "正文用两条抛物线方程及其交点坐标来解释立方倍积问题的求解。"
+    },
+    {
+      "title": "怎样看出一个人有数学天赋？",
+      "url": "https://www.zhihu.com/answer/72173820223",
+      "summary": "正文用两条抛物线方程及其交点坐标来解释立方倍积问题的求解。"
+    },
+    {
+      "title": "有哪些千年以上时间才解决的数学问题?",
+      "url": "https://www.zhihu.com/answer/72174972387",
+      "summary": "正文用两条抛物线方程及其交点坐标来解释立方倍积问题的求解。"
+    },
+    {
+      "title": "圆锥曲线有没有统一的方程？",
+      "url": "https://www.zhihu.com/answer/72180357399",
+      "summary": "正文展示圆锥曲线的统一二元二次方程并说明其涵盖各种圆锥曲线。"
+    },
+    {
+      "title": "这道小学三年级的数学题不许用方程全年级无人能做得出来，为什么这么难，连老师都被难倒了？",
+      "url": "https://www.zhihu.com/answer/77224822676",
+      "summary": "正文把油桶数量关系设为含未知数的方程，并通过移项统一求解同类小学算术题。"
+    },
+    {
+      "title": "是否可以由 aᵃ=bᵇ 推出 a=b？为什么？",
+      "url": "https://www.zhihu.com/answer/81062183321",
+      "summary": "正文围绕 a^a=b^b 讨论何时能推出 a=b，并给出成立区间和最小值点。"
+    },
+    {
+      "title": "平面上有到(1,0),(1,1),(0,1),(0,0)四个点距离均为有理数的的点吗？",
+      "url": "https://www.zhihu.com/answer/87559300713",
+      "summary": "正文把几何存在问题化为含 a、b、c、s 的方程，并据此说明三点情形的整数解构造。"
+    },
+    {
+      "title": "是否存在这样的数，a+b=ab（ a不等于b不等于0）?",
+      "url": "https://www.zhihu.com/answer/90234257480",
+      "summary": "正文通过同除ab把原等式化为倒数关系，并据此说明存在无穷多组解。"
+    },
+    {
+      "title": "○÷25=○-864，○代表同一个数，○是多少？",
+      "url": "https://www.zhihu.com/answer/95068033861",
+      "summary": "正文把同一个未知数代入方程，并通过对两边作变换求出该方程的解。"
+    },
+    {
+      "title": "○÷25=○-864，○代表同一个数，○是多少？",
+      "url": "https://www.zhihu.com/answer/95305883958",
+      "summary": "正文用一个未知总量建立并解释等量关系，实质是在求解圆圈所代表的一元方程。"
+    },
+    {
+      "title": "○÷25=○-864，○代表同一个数，○是多少？",
+      "url": "https://www.zhihu.com/answer/95820458941",
+      "summary": "正文把圆圈设为x，移项构造一元方程并求其根，具体展示方程建模与求解。"
+    },
+    {
+      "title": "○÷25=○-864，○代表同一个数，○是多少？",
+      "url": "https://www.zhihu.com/answer/95849240586",
+      "summary": "正文把圆圈设为未知量，改写原等式并说明线性方程经牛顿迭代求得精确解 900。"
+    },
+    {
+      "title": "○÷25=○-864，○代表同一个数，○是多少？",
+      "url": "https://www.zhihu.com/answer/95917182156",
+      "summary": "正文把候选值代回原方程并验证两边都等于 36，是在检验方程的解。"
+    },
+    {
+      "title": "○÷25=○-864，○代表同一个数，○是多少？",
+      "url": "https://www.zhihu.com/answer/96088745661",
+      "summary": "正文把圆圈设为未知量并改写成自洽方程，通过初值迭代逼近方程的解。"
+    },
+    {
+      "title": "○÷25=○-864，○代表同一个数，○是多少？",
+      "url": "https://www.zhihu.com/answer/96920708540",
+      "summary": "正文求解并把候选值代回原等式验证，具体展示了方程解的含义。"
+    },
+    {
+      "title": "○÷25=○-864，○代表同一个数，○是多少？",
+      "url": "https://www.zhihu.com/answer/97585875575",
+      "summary": "正文通过逐个代入候选值并比较等式两边，求出并验证方程的解。"
+    },
+    {
+      "title": "○÷25=○-864，○代表同一个数，○是多少？",
+      "url": "https://www.zhihu.com/answer/97729858160",
+      "summary": "笑话情节中包含去分母、移项和合并同类项，并最终得到未知数 900 的方程求解过程。"
+    },
+    {
+      "title": "方程 cosx＝x 是否有解析解？",
+      "url": "https://www.zhihu.com/answer/100003716215",
+      "summary": "正文围绕方程cos x=x构造恒等变形，并逐步求出使方程成立的解析表达式。"
+    },
+    {
+      "title": "○÷25=○-864，○代表同一个数，○是多少？",
+      "url": "https://www.zhihu.com/answer/100364124640",
+      "summary": "正文把算术题写成含未知函数的方程，并通过频域对比系数得到未知量。"
+    },
+    {
+      "title": "x⁷=1的根式解都是什么（包括复数解）?",
+      "url": "https://www.zhihu.com/answer/115343594462",
+      "summary": "正文给出七次方程除平凡解外的六个根，并写出由预解式构造解的公式。"
+    },
+    {
+      "title": "已知x²+y²－xy=3,如何求x+y的最小值和最大值？",
+      "url": "https://www.zhihu.com/answer/123000513611",
+      "summary": "正文多次把给定约束改写为方程并求解根或参数范围，以确定目标式的最值。"
+    },
+    {
+      "title": "如何看待圆锥曲线齐次化?",
+      "url": "https://www.zhihu.com/answer/123888511391",
+      "summary": "正文以构造关于斜率变量的一元二次方程为核心，借助韦达定理转化并求解方程关系。"
+    },
+    {
+      "title": "为什么网上基本没有关于 n 元 n 方程的研究？",
+      "url": "https://www.zhihu.com/answer/125927501874",
+      "summary": "正文从一元一次、一元二次方程过渡到二元二次方程组，通过根式复杂度说明多变量方程求解的困难。"
+    },
+    {
+      "title": "求所有的素数p，使得p^2-p+1为立方数?",
+      "url": "https://www.zhihu.com/answer/1890477564759365208",
+      "summary": "正文把数论条件整理为关于 n 的二次方程，并用判别式必须为平方数完成求解。"
+    },
+    {
+      "title": "6x^2+5xy-6y^2+5y-x-1因式分解，谁能解答一下？",
+      "url": "https://www.zhihu.com/answer/1890756734810830690",
+      "summary": "正文把多项式视作关于 x 的二次方程，用求根公式得到两个根后分解。"
+    },
+    {
+      "title": "已知 a+b+c=0，abc=1，如何证明 MAX{a，b，c}≥³√4？",
+      "url": "https://www.zhihu.com/answer/1892009611118237260",
+      "summary": "正文把 b、c 构造为二次方程的根，并利用根与系数关系把原条件转化为方程问题。"
+    },
+    {
+      "title": "f(a＋b) = f(a) + f(b) 一定说明 f(x) 是一次函数吗？",
+      "url": "https://www.zhihu.com/answer/1892699701968605469",
+      "summary": "正文围绕加性函数方程系统推导零值、奇性、整数倍和有理性等性质，并比较附加连续条件的结论。"
+    },
+    {
+      "title": "为什么网上基本没有关于 n 元 n 方程的研究？",
+      "url": "https://www.zhihu.com/answer/1896700049133626559",
+      "summary": "正文围绕一元五次方程能否用根式求解展开，并回顾二次至四次方程求根公式的发展。"
+    },
+    {
+      "title": "如何看待高中生提出一元十次方程求根公式？",
+      "url": "https://www.zhihu.com/answer/1896700055940982263",
+      "summary": "正文围绕一元五次方程能否用根式求解展开，并回顾二次至四次方程求根公式的发展。"
+    },
+    {
+      "title": "虚数的意义到底是为什么存在的？",
+      "url": "https://www.zhihu.com/answer/1897317234466070795",
+      "summary": "正文从三次方程的实数根出发，代入求根公式并解释根式中出现复数的情况。"
+    },
+    {
+      "title": "已知x和y是正数，x²+y²-xy=4,如果不用y=t-2x换元，如何求2x+y的最大值？",
+      "url": "https://www.zhihu.com/answer/1899484963969143824",
+      "summary": "正文把齐次约束转化为关于 x、y 的二次方程，并讨论其实数解存在的条件。"
+    },
+    {
+      "title": "○÷25=○-864，○代表同一个数，○是多少？",
+      "url": "https://www.zhihu.com/answer/1900288493734830921",
+      "summary": "正文通过逐一代入同一未知数的取值核对等式两边，展示了求一元方程解的过程。"
+    },
+    {
+      "title": "正数开平方取大于零的平方根，那负数开平方取哪个虚数?",
+      "url": "https://www.zhihu.com/answer/1900548681440157740",
+      "summary": "正文用实系数一元二次及 n 次方程的根说明复根成共轭对出现。"
+    },
+    {
+      "title": "有哪些并不是很离谱的数学伪证，但是得到的结论却是一眼假的？",
+      "url": "https://www.zhihu.com/answer/1903571259041775776",
+      "summary": "正文追踪三次方程中的代入和相减操作，指出等价变形暗含乘以 x-1，进而引入了原方程没有的根。"
+    },
+    {
+      "title": "这个式子可能是一个正整数的平方吗？",
+      "url": "https://www.zhihu.com/answer/1903799716933764771",
+      "summary": "正文把平方性问题改写为立方和形式的整数方程，并通过连续等价变形讨论解的限制。"
+    },
+    {
+      "title": "哪些书让你重新认识了数学？",
+      "url": "https://www.zhihu.com/answer/1909153204970710982",
+      "summary": "把开立方转化为建立并逐步修正关于待定增量的方程。"
+    },
+    {
+      "title": "人类是否无法想象出没见过的东西？",
+      "url": "https://www.zhihu.com/answer/1909221919808554373",
+      "summary": "从含三个变量的方程出发猜测其对应几何图形，讨论方程的几何解释。"
+    },
+    {
+      "title": "在直角坐标系中，存不存在五个整数坐标点都在一个椭圆上？",
+      "url": "https://www.zhihu.com/answer/1916071048203466589",
+      "summary": "正文给出一个含 x、y 的二次方程，并列出满足该方程的具体整数坐标点。"
+    },
+    {
+      "title": "是否可以由 aᵃ=bᵇ 推出 a=b？为什么？",
+      "url": "https://www.zhihu.com/answer/1917214068504260881",
+      "summary": "正文把 a 与 b 写成由正整数 n 参数化的表达式，用参数族刻画等式 a^a=b^b 的解。"
+    },
+    {
+      "title": "函数方程f(x)+f(x+1)+f(x+2)=0如何求解f(x)?",
+      "url": "https://www.zhihu.com/answer/1917529858210269061",
+      "summary": "正文处理以未知函数为对象的函数方程，先推导其周期再刻画全部解。"
+    },
+    {
+      "title": "如何解函数方程 2f(x)＋f(2x)＝x？",
+      "url": "https://www.zhihu.com/answer/1918108761165395034",
+      "summary": "正文围绕具体函数方程作换元和变形，化归为较简单的齐次函数方程后求解。"
+    },
+    {
+      "title": "x^2 + y^2 = e^[Cos(x^2 + y^2)]，这个方程是圆吗？",
+      "url": "https://www.zhihu.com/answer/1920202692061553523",
+      "summary": "正文通过令 u=x²+y² 代换原方程，并按正实数解的个数判断图像是原点、圆还是同心圆。"
+    },
+    {
+      "title": "x^2 + y^2 = e^[Cos(x^2 + y^2)]，这个方程是圆吗？",
+      "url": "https://www.zhihu.com/answer/1920206951188510346",
+      "summary": "正文设方程的一个根为 r_1，并据此写出 x²+y²=r_1² 的圆方程。"
+    },
+    {
+      "title": "a^b=b^a，a>b>0，如何证明ab>e^2？",
+      "url": "https://www.zhihu.com/answer/1920631459061958291",
+      "summary": "正文把指数方程 a^b=b^a 转化为同一函数值对应的两个实根，并围绕根的关系完成证明。"
+    },
+    {
+      "title": "○÷25=○-864，○代表同一个数，○是多少？",
+      "url": "https://www.zhihu.com/answer/1920921535444657885",
+      "summary": "正文通过两边同乘、展开、移项和同除逐步求解一元一次方程。"
+    },
+    {
+      "title": "如何得到 sin(x) 绕原点旋转 45 度的函数表达式？",
+      "url": "https://www.zhihu.com/answer/1921230651560007387",
+      "summary": "正文把旋转后的关系化为含正弦项的方程，并通过解 Kepler 方程消去辅助变量而得到 y 的表达式。"
+    },
+    {
+      "title": "方程 x=x+2 这么解为什么有错？",
+      "url": "https://www.zhihu.com/answer/1921262336997564794",
+      "summary": "正文通过平方差分解说明方程两边平方会混入反向关系，从而产生不满足原方程的增根。"
+    },
+    {
+      "title": "方程 x=x+2 这么解为什么有错？",
+      "url": "https://www.zhihu.com/answer/1921295881262588631",
+      "summary": "正文解释提高方程次数会改变解的个数，并说明新多出的根需要代回原方程排除。"
+    },
+    {
+      "title": "如何解函数方程 f(x)+f(ln(x))=0?",
+      "url": "https://www.zhihu.com/answer/1921359167739892280",
+      "summary": "正文围绕函数方程 f(x)+f(ln x)=0 作变形，推导出 f(x)=f(ln(ln x)) 并研究其解。"
+    },
+    {
+      "title": "方程 x=x+2 这么解为什么有错？",
+      "url": "https://www.zhihu.com/answer/1921394536795570510",
+      "summary": "正文以必要条件与充分条件解释方程变形可能扩大解集，并说明必须把候选解代回原方程检验。"
+    },
+    {
+      "title": "哪位大佬帮帮我，找出以下方程的所有整数解？x^3+y^3+z^3＝9xyz？",
+      "url": "https://www.zhihu.com/answer/1922355461929283746",
+      "summary": "正文围绕三元三次齐次方程的整数解展开，介绍历史结论、古典解法与现代求解路线。"
+    },
+    {
+      "title": "如果f(f(x))=1/x，f(x)可以为什么？",
+      "url": "https://www.zhihu.com/answer/1922620223766390571",
+      "summary": "正文把 x=1、f(1) 代入函数方程，逐步推出端点取值为正负一，围绕方程约束求解。"
+    },
+    {
+      "title": "x³-6x-6=0，求x=?",
+      "url": "https://www.zhihu.com/answer/1922754262632493931",
+      "summary": "正文依次求三次方程的一个实数根，再用多项式除法得到其余根。"
+    },
+    {
+      "title": "f(f(x))=x^2+x，如何求 f(x)？",
+      "url": "https://www.zhihu.com/answer/1923125038422431386",
+      "summary": "正文围绕函数方程 f(f(x))=x^2+x 求解，先求迭代函数的唯一不动点，再据此推出原函数的不动点。"
+    },
+    {
+      "title": "0.99的循环＝1是诡辩吗?",
+      "url": "https://www.zhihu.com/answer/1923776785482507061",
+      "summary": "正文把循环小数设为未知数，通过移项与消元解出一元一次方程。"
+    },
+    {
+      "title": "怎样构造函数f(x)使之满足f(x)+f(1/x)==1?",
+      "url": "https://www.zhihu.com/answer/1923869419202904491",
+      "summary": "正文完整求解函数方程，并用任意奇函数刻画正、负半轴上的所有解。"
+    },
+    {
+      "title": "如何解函数方程f(x)+3f(x²-x)=x？",
+      "url": "https://www.zhihu.com/answer/1924069958830261866",
+      "summary": "正文先由函数方程代入特殊值求出若干函数值，再继续求解该函数方程。"
+    },
+    {
+      "title": "如何解方程 x = 1 + sinx？",
+      "url": "https://www.zhihu.com/answer/1924199182870226676",
+      "summary": "正文把原方程改写为不动点迭代，并讨论用压缩映射条件判断迭代的方程求解过程。"
+    },
+    {
+      "title": "如果 f(f(x))＝e^x，那么 f(x) 的解析式是什么？",
+      "url": "https://www.zhihu.com/answer/1924384208786269343",
+      "summary": "正文把函数迭代问题转化为 Abel 方程，并构造满足 f(f(x))=e^x 的函数方程解。"
+    },
+    {
+      "title": "如何解函数方程f(f(x))=ln(x)??",
+      "url": "https://www.zhihu.com/answer/1924442720971231452",
+      "summary": "正文围绕 f(f(x))=ln x 的函数方程构造半次迭代解，并代回原方程验证。"
+    },
+    {
+      "title": "复变方程求解 sinz+cosz=2?",
+      "url": "https://www.zhihu.com/answer/1925672479579416081",
+      "summary": "正文通过代换把原三角方程化为关于复指数的二次方程，再用求根公式继续求解。"
+    },
+    {
+      "title": "f(x+f(x))=f(x)+1 且 f 平滑, 如何求出所有满足条件的函数 f?",
+      "url": "https://www.zhihu.com/answer/1925716080913020481",
+      "summary": "正文围绕给定函数方程，通过代换和反函数表达逐步求出满足条件的函数。"
+    },
+    {
+      "title": "是否可以构造一种连续函数 f 使得 f(f(x))＝ax²＋bx＋c?",
+      "url": "https://www.zhihu.com/answer/1925966892469843868",
+      "summary": "正文讨论连续函数满足 f(f(x))=ax^2+bx+c 这一函数方程，并分类给出实数域解存在的条件。"
+    },
+    {
+      "title": "数学里有哪些精彩的伪证？",
+      "url": "https://www.zhihu.com/answer/1926371132510040880",
+      "summary": "正文展示对方程作移项、添加同式、因式分解和代入的操作，构成一个错误的方程求解过程。"
+    },
+    {
+      "title": "存在一个函数使f(f(x))=x²吗？",
+      "url": "https://www.zhihu.com/answer/1926816658074346490",
+      "summary": "正文求解 f(f(x))=x^2 这一函数方程，并推广到参数 a 与平移后的二次函数方程。"
+    },
+    {
+      "title": "超几何函数是如何解出五次方程x⁵-x-a=0的五个根的？",
+      "url": "https://www.zhihu.com/answer/1926952926108188757",
+      "summary": "正文用 Lagrange 反演定理求方程 y^n-y+t=0 的根，再由逆代换得到原多项式方程的根。"
+    },
+    {
+      "title": "一般的一元六次方程的双变量超几何函数的解法是什么?",
+      "url": "https://www.zhihu.com/answer/1927092578458793384",
+      "summary": "正文围绕一般六次方程的降阶、根邻域展开和超几何级数表示展开求解讨论。"
+    },
+    {
+      "title": "是否存在 R 上的函数 f(x)，满足 f(f(x))＝sinx？",
+      "url": "https://www.zhihu.com/answer/1928943211973420215",
+      "summary": "正文围绕 f(f(x))=sin x 的函数方程，讨论 Abel 共轭失效、级数系数求解与全局延拓。"
+    },
+    {
+      "title": "哈密顿四元数是如何开平方的？",
+      "url": "https://www.zhihu.com/answer/1929330402138493580",
+      "summary": "正文分情形求解四元数方程 X²=Q，并说明不同被开方数对应的解集结构。"
+    },
+    {
+      "title": "已知f(x-y)+f(x+y)=f(x)f(y)求f(x)?",
+      "url": "https://www.zhihu.com/answer/1930084661142488394",
+      "summary": "正文求解给定函数方程，并通过代入特殊值求非平凡解所满足的约束。"
+    },
+    {
+      "title": "为什么要消去二次项才能解一元三次方程？",
+      "url": "https://www.zhihu.com/answer/1934019614859330183",
+      "summary": "正文把一元三次方程消去二次项解释为平移校准，并围绕根的转换和三次方程求解展开讨论。"
+    },
+    {
+      "title": "方程 x=x+2 这么解为什么有错？",
+      "url": "https://www.zhihu.com/answer/1945052267549008628",
+      "summary": "正文解释方程变形可能改变解集并产生增根，强调验根与同解变形的重要性。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/1949056205461885693",
+      "summary": "正文把原式化为可求根的方程，并通过定义域和极值分析证明实数域中只有 e 一个解。"
+    },
+    {
+      "title": "是否存在这样的数，a+b=ab（ a不等于b不等于0）?",
+      "url": "https://www.zhihu.com/answer/1952631352093545245",
+      "summary": "正文从给定方程出发，利用换元和参数化求出一族满足条件的解。"
+    },
+    {
+      "title": "是否存在这样的数，a+b=ab（ a不等于b不等于0）?",
+      "url": "https://www.zhihu.com/answer/1952874402581554529",
+      "summary": "正文围绕二元方程 a+b=ab 的非零不同数解，连续构造并验算多组具体数值解。"
+    },
+    {
+      "title": "如何解方程sinx=2？",
+      "url": "https://www.zhihu.com/answer/1965025709824152720",
+      "summary": "正文完整演算复数域方程 sin(x)=2，并给出全部解的方程求解过程。"
+    },
+    {
+      "title": "72 岁送垃圾老人痴迷数学，希望将一生研究手稿传承，如何客观评估老人的研究成果？如何看待他这份精神？",
+      "url": "https://www.zhihu.com/answer/1970178698499068264",
+      "summary": "正文具体拆解这个代数等式及分母、负数和整数取值等前提，说明该“新定理”并未给出完整成立的方程条件。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1972048422140874766",
+      "summary": "正文以整数假设和试数方法求解方程 a²+a³=392，并验证所得根。"
+    },
+    {
+      "title": "如何证明/证伪 方程 x^5-px+q=0 至多只有两个整数解(p和q是正整数)？",
+      "url": "https://www.zhihu.com/answer/1973171684006704460",
+      "summary": "正文围绕五次方程整数解的个数展开，并通过代数论证排除三个整数根。"
+    },
+    {
+      "title": "是否可以由 aᵃ=bᵇ 推出 a=b？为什么？",
+      "url": "https://www.zhihu.com/answer/1981798811786565614",
+      "summary": "正文构造一组不同取值的表达式作为反例，用来说明由 a^a=b^b 不能一般地推出 a=b。"
+    },
+    {
+      "title": "如何看待实系数一元三次方程必有一实根？",
+      "url": "https://www.zhihu.com/answer/1983262114400453119",
+      "summary": "正文将实系数三次方程化为首一三次多项式，利用两端变号与推广零点定理证明方程至少有一个实根。"
+    },
+    {
+      "title": "如何看待短视频平台有人声称「微积分是中国发明的」?",
+      "url": "https://www.zhihu.com/answer/1986498026102101484",
+      "summary": "正文说明古代方程术按事物数目列式并求解多元一次方程组。"
+    },
+    {
+      "title": "x+y=4和y=4-x 为什么一个是方程，一个是函数？",
+      "url": "https://www.zhihu.com/answer/1990003117647999401",
+      "summary": "正文从定义、目标和变量地位等角度解释方程，并以 x+y=4 的解集和求解方法为例展开。"
+    },
+    {
+      "title": "如何求如下函数的最大值？",
+      "url": "https://www.zhihu.com/answer/1993972790991270324",
+      "summary": "正文把最大值满足的等式转化为含重根的三次方程，再联立系数条件求解。"
+    },
+    {
+      "title": "为什么A4纸被设计成210mm乘297mm？",
+      "url": "https://www.zhihu.com/answer/1997306354797400861",
+      "summary": "正文把等比例条件写成方程，并通过解方程得到 A 系列纸张尺寸。"
+    },
+    {
+      "title": "小明要算账，但是计算器上的+和×坏了，要计算50×36怎么办？",
+      "url": "https://www.zhihu.com/answer/1998870872581247293",
+      "summary": "正文建立含两个未知数的线性方程组，并通过求解得到所需的和与差。"
+    },
+    {
+      "title": "已知f(x-y)+f(x+y)=f(x)f(y)求f(x)?",
+      "url": "https://www.zhihu.com/answer/2006486041788424598",
+      "summary": "正文以特殊值和可微假设求解给定函数方程，并分类得到平凡解与非平凡解。"
+    },
+    {
+      "title": "一共有24瓶汽水，每4个空瓶可以换1瓶汽水，最终能喝到几瓶？",
+      "url": "https://www.zhihu.com/answer/2008664242161729661",
+      "summary": "正文引入变量 x、y 并利用等式 4x=y 与 y-x=3x 建立并求解空瓶换汽水问题。"
+    },
+    {
+      "title": "有没有创新一些的圆锥曲线大题？",
+      "url": "https://www.zhihu.com/answer/2009295997218603380",
+      "summary": "正文通过坐标代换推导一般二次曲线反演像的方程，并具体化简椭圆和双曲线的方程。"
+    },
+    {
+      "title": "牛顿在数学方面有多牛？",
+      "url": "https://www.zhihu.com/answer/2014734331533338607",
+      "summary": "正文以高次非线性方程为例，说明没有精确根式解时如何用迭代方法求近似解。"
+    },
+    {
+      "title": "学了这么多年的数学，有哪一个公式或者几何定理你印象最深刻？或者是最震撼你的公式？",
+      "url": "https://www.zhihu.com/answer/2016243579023025163",
+      "summary": "正文从和差化积恒等式构造函数方程，并加入处处可微条件来讨论求解。"
+    },
+    {
+      "title": "请问有哪些数学定理，一看名字就知道很滑稽好玩？",
+      "url": "https://www.zhihu.com/answer/2018782250943133650",
+      "summary": "正文针对该指数方程，用 n 进制表示逐项讨论指数相等与不等的情形。"
+    },
+    {
+      "title": "A×A＋A=272，求A，有没有简单的方法，适合三年级小朋友的思维方式？",
+      "url": "https://www.zhihu.com/answer/2019051594646320695",
+      "summary": "正文通过配方求解原方程，并给出两个互异实根的完整计算。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/2023492927855306472",
+      "summary": "正文把费马方程推广为含正指数 p、q、r 的广义费马方程，并按指数关系讨论解的个数。"
+    },
+    {
+      "title": "√x+√y=1的图像是抛物线的一部分吗？",
+      "url": "https://www.zhihu.com/answer/2024502009840117143",
+      "summary": "正文通过平方和代数变形把根式约束方程化成可识别形状。"
+    },
+    {
+      "title": "既然x+2＝3的解是x＝1，那为啥两边求导的结果不同？",
+      "url": "https://www.zhihu.com/answer/2025168521533962043",
+      "summary": "正文区分方程与恒等式，说明该式只在特定的 x 值处成立并由此解释两侧不能直接求导。"
+    },
+    {
+      "title": "既然x+2＝3的解是x＝1，那为啥两边求导的结果不同？",
+      "url": "https://www.zhihu.com/answer/2025573677895272136",
+      "summary": "正文先得到 x 恒等于常数，再结合原方程条件确定其解为 x 恒等于 1。"
+    },
+    {
+      "title": "既然x+2＝3的解是x＝1，那为啥两边求导的结果不同？",
+      "url": "https://www.zhihu.com/answer/2027762770632800095",
+      "summary": "正文区分方程中的条件等号，并说明它只在特定变量取值下成立。"
+    },
+    {
+      "title": "既然x+2＝3的解是x＝1，那为啥两边求导的结果不同？",
+      "url": "https://www.zhihu.com/answer/2028227818316738611",
+      "summary": "正文以 x+2=3 等例子解释方程是只对特定未知数取值成立的等式条件。"
+    },
+    {
+      "title": "A×A＋A=272，求A，有没有简单的方法，适合三年级小朋友的思维方式？",
+      "url": "https://www.zhihu.com/answer/2030017328847529071",
+      "summary": "正文围绕方程 A×A+A=272 建立末位约束与大小范围，逐步确定 A 的取值。"
+    },
+    {
+      "title": "既然x+2＝3的解是x＝1，那为啥两边求导的结果不同？",
+      "url": "https://www.zhihu.com/answer/2030131310027617148",
+      "summary": "正文区分方程与恒等式，指出方程的解集是单点而恒等式的解集是区间或全空间。"
+    },
+    {
+      "title": "有哪些算法惊艳到了你？",
+      "url": "https://www.zhihu.com/answer/2035994820796265138",
+      "summary": "正文把求平方根转化为方程 x²−n=0 的零点问题。"
+    },
+    {
+      "title": "是否存在这样的数，a+b=ab（ a不等于b不等于0）?",
+      "url": "https://www.zhihu.com/answer/2039679447197032989",
+      "summary": "正文通过连续移项和因式分解把二元等式解成参数关系，说明方程存在无穷多组解。"
+    },
+    {
+      "title": "为什么尺规不能三等分一个任意角？",
+      "url": "https://www.zhihu.com/answer/2041452136530173986",
+      "summary": "正文把三等分角转化为求解关于 cos(θ/3) 的三次方程，并用其不可约性判断可作性。"
+    },
+    {
+      "title": "如何评价数学家德利涅说，如果数学用技巧，说明人类没有真正理解?",
+      "url": "https://www.zhihu.com/answer/2041723641184899946",
+      "summary": "正文具体研究三元三次丢番图方程的有理数解和整数解，并给出由旧解构造新解的过程。"
+    },
+    {
+      "title": "将五块砖头叠起来，最多能超出桌面边缘多远？",
+      "url": "https://www.zhihu.com/answer/2043028107054028119",
+      "summary": "正文把六块砖的最优伸出距离表示为该四次方程的最小实数根，并继续用多项式方程给出更高阶情形。"
+    },
+    {
+      "title": "将五块砖头叠起来，最多能超出桌面边缘多远？",
+      "url": "https://www.zhihu.com/answer/2043037100929463004",
+      "summary": "正文通过联立并移项求解含未知量的方程，逐步得到伸出距离关于分配参数的表达式。"
+    },
+    {
+      "title": "我们在数学中为什么要引入复数？",
+      "url": "https://www.zhihu.com/answer/2052736816206423099",
+      "summary": "正文用若干无解方程解释从自然数到实数、复数的数系扩张。"
+    },
+    {
+      "title": "数学天才会不会遇到让自己CPU干冒烟的数学题？",
+      "url": "https://www.zhihu.com/answer/2060720352301412984",
+      "summary": "正文把整数整除问题改写为关于 A 的二次方程，并利用根与系数的关系分析整数解。"
+    },
+    {
+      "title": "已知f(x+y)=f(x)g(y)+g(x)f(y)……能推出f(x),g(x)是三角函数吗？",
+      "url": "https://www.zhihu.com/answer/2062217629490852408",
+      "summary": "正文系统讨论函数方程在无正则性、连续性、可测性和可微等条件下的求解与分类。"
+    },
+    {
+      "title": "为何有传言宣传明朝数学相对于宋元会出现所谓的严重的倒退？",
+      "url": "https://www.zhihu.com/answer/2063974639349634813",
+      "summary": "正文具体记述了作为高次方程解法的天元术及其失传情况，对应方程分支。"
+    },
+    {
+      "title": "如何证明不存在定义域为R的函数f(x)，使得f(f(x))=x²-2？",
+      "url": "https://www.zhihu.com/answer/2065913670090203579",
+      "summary": "正文把原函数方程化归为二次函数 P_d 的迭代平方根方程，并按参数范围讨论解的存在性。"
+    },
+    {
+      "title": "一道小学数学题难住三名医学博士，现在的小学数学试题到底有多难？如何评价这一难度设计？",
+      "url": "https://www.zhihu.com/answer/2066458893195256294",
+      "summary": "正文把相遇和乙到顶时的位置条件转化为含未知量 S 的分段行程方程，并逐步求解。"
+    },
+    {
+      "title": "假定中国一直处于一个封闭的状态，没有西方的干扰。会依靠自身发展出像西方一样物理，化学，知识体系吗？",
+      "url": "https://www.zhihu.com/answer/2066642514224977600",
+      "summary": "正文解释天元术通过设置未知量进行代数演算，并结合高次方程与算筹表示讨论其求解和传播。"
+    },
+    {
+      "title": "为何有传言宣传明朝数学相对于宋元会出现所谓的严重的倒退？",
+      "url": "https://www.zhihu.com/answer/2066795343426099156",
+      "summary": "正文列举天元术建立的一次至六次方程，并说明高次方程的展开、消元与数值求解方法。"
+    },
+    {
+      "title": "有哪些看起来简洁却很难的数学题？",
+      "url": "https://www.zhihu.com/answer/2070791369594083052",
+      "summary": "正文把整除条件改写成一元二次方程，并利用两根关系构造新的整数解。"
+    },
+    {
+      "title": "是否所有正数都可以被表示为 x^2+[x]^2+{x}^2？",
+      "url": "https://www.zhihu.com/answer/2071270020940878341",
+      "summary": "正文研究给定正数能否写成关于x的平方和方程，并完整求出可表示范围与例外整数。"
+    },
+    {
+      "title": "见到了一个很有数学才华的小孩",
+      "url": "https://zhuanlan.zhihu.com/p/23046662",
+      "summary": "正文通过配方法推导一元二次方程求根公式，并说明其解方程过程。"
+    },
+    {
+      "title": "从解方程(组)到Vinogradov均值定理",
+      "url": "https://zhuanlan.zhihu.com/p/24514358",
+      "summary": "正文从一元和多元方程的解数出发，引入高度并比较不定方程组的解数量级。"
+    },
+    {
+      "title": "三次函数的一些问题",
+      "url": "https://zhuanlan.zhihu.com/p/25059644",
+      "summary": "正文按判别式和两个极值点函数值的符号，分类讨论三次方程有一个、两个或三个实根。"
+    },
+    {
+      "title": "Lambert W函数简介",
+      "url": "https://zhuanlan.zhihu.com/p/25062265",
+      "summary": "正文说明 Lambert W 可用于求解含指数、对数的超越方程，并完整计算一个不等式参数的例题。"
+    },
+    {
+      "title": "高考数学压轴题·【函数与不等式】篇（3）",
+      "url": "https://zhuanlan.zhihu.com/p/25117711",
+      "summary": "正文用参变量分离和函数极值讨论方程根的个数，并给出不同参数区间的解数。"
+    },
+    {
+      "title": "三角形与一元三次方程",
+      "url": "https://zhuanlan.zhihu.com/p/26001016",
+      "summary": "正文构造以三角形内角为目标根的一元三次方程，并用韦达定理整理根与系数之间的关系。"
+    },
+    {
+      "title": "比宫斗剧还精彩，中世纪的数学家们为解方程上演狗血剧",
+      "url": "https://zhuanlan.zhihu.com/p/26251341",
+      "summary": "正文以二次、三次和四次方程为中心，叙述数学家寻找并传播一元高次方程解法的历史。"
+    },
+    {
+      "title": "复几何的故事（1）复数的史前史",
+      "url": "https://zhuanlan.zhihu.com/p/27544279",
+      "summary": "正文从二次方程求根公式讲到三次方程降次和 Cardano 公式，展示方程求解的发展。"
+    },
+    {
+      "title": "fx-991CN X方程（组）求解功能的使用",
+      "url": "https://zhuanlan.zhihu.com/p/28795401",
+      "summary": "正文具体讲解一元多项式方程和多元方程组的计算器求解方式，对应方程这一主题。"
+    },
+    {
+      "title": "正多面体一共有多少种？？——大阪大学2010年高考第三题（理科）",
+      "url": "https://zhuanlan.zhihu.com/p/29039370",
+      "summary": "正文由欧拉公式推出含三个整数变量的方程，并通过因式分解和分类枚举求出全部正整数解。"
+    },
+    {
+      "title": "数学天才拉马努金的“有趣”的数——一桥大学2009年高考第一题（文科）",
+      "url": "https://zhuanlan.zhihu.com/p/29249591",
+      "summary": "正文围绕整数立方和方程进行移项、因式分解、取值范围估计和方程组求解。"
+    },
+    {
+      "title": "如何求一元三次方程",
+      "url": "https://zhuanlan.zhihu.com/p/31151158",
+      "summary": "正文完整推导一元三次方程的化简、求根公式和判别式分类。"
+    },
+    {
+      "title": "五次方程微分方程解法",
+      "url": "https://zhuanlan.zhihu.com/p/32404214",
+      "summary": "正文以五次方程求根为核心，展示从布林杰拉德正规式到微分方程再回到代数根的求解过程。"
+    },
+    {
+      "title": "【解析几何】谈谈解析：方程的处理",
+      "url": "https://zhuanlan.zhihu.com/p/33809995",
+      "summary": "正文具体演示方程加减、消元与配凑，以处理椭圆和动点轨迹问题。"
+    },
+    {
+      "title": "Pell方程",
+      "url": "https://zhuanlan.zhihu.com/p/33839152",
+      "summary": "正文定义Pell方程x^2-Ny^2=1，并解释其自然数解以及判别非平方系数。"
+    },
+    {
+      "title": "史上最贱的数学题",
+      "url": "https://zhuanlan.zhihu.com/p/33853851",
+      "summary": "正文围绕一个三次丢番图方程展开，讨论整数解、齐次化、降维及多项式变形后的求解等价性。"
+    },
+    {
+      "title": "二次方程, 3次方程, 4次方程的解法",
+      "url": "https://zhuanlan.zhihu.com/p/33955535",
+      "summary": "正文从一元二次方程出发，推导卡尔达诺公式和费拉里方法以求解三、四次方程。"
+    },
+    {
+      "title": "高考数学：化简运算会影响你的解题思路",
+      "url": "https://zhuanlan.zhihu.com/p/34401874",
+      "summary": "正文以方程两侧同乘同除非零数为原则，说明复杂代数式化简和消去同类项时需保持方程等价。"
+    },
+    {
+      "title": "求轨迹方程的常见方法，6种方法和3个注意事项",
+      "url": "https://zhuanlan.zhihu.com/p/34916366",
+      "summary": "正文把轨迹问题表述为动点坐标满足的方程，并总结多种求方程的方法。"
+    },
+    {
+      "title": "用python解决高数所有计算题--sympy求解极限、积分、微分、二元一次方程等",
+      "url": "https://zhuanlan.zhihu.com/p/35150541",
+      "summary": "正文给出三元一次方程组及其符号求解代码，并得到各未知量的解。"
+    },
+    {
+      "title": "x = cos x 的解析形式",
+      "url": "https://zhuanlan.zhihu.com/p/36297534",
+      "summary": "正文把不断按计算器余弦键的过程化为方程 x=cos x，并讨论该方程的解析解。"
+    },
+    {
+      "title": "顿悟-考研线性代数，概念，题型",
+      "url": "https://zhuanlan.zhihu.com/p/36330019",
+      "summary": "正文从一次关系和直线图像解释线性方程，并说明线性关系与线性方程的含义。"
+    },
+    {
+      "title": "考前写点“有用”的东西",
+      "url": "https://zhuanlan.zhihu.com/p/37771737",
+      "summary": "正文把零点个数讨论转化为方程根的分析，并通过单调性和极限趋势判断函数零点数目。"
+    },
+    {
+      "title": "（大四）MATLAB笔记（1）基础",
+      "url": "https://zhuanlan.zhihu.com/p/36855935",
+      "summary": "正文用roots、solve和fzero求解二次方程根及零点，实际展开方程求解方法。"
+    },
+    {
+      "title": "用中值定理秒杀2018全国卷导数题",
+      "url": "https://zhuanlan.zhihu.com/p/37978562",
+      "summary": "正文把极值点转化为二次方程的根，并利用根的关系推进证明。"
+    },
+    {
+      "title": "一元二次方程是毫无用处吗？Part I",
+      "url": "https://zhuanlan.zhihu.com/p/38717940",
+      "summary": "正文从配方法推导一元二次方程的求根公式，并讨论其两个解及面积、纸张比例等实际方程。"
+    },
+    {
+      "title": "牛顿法和拟牛顿法",
+      "url": "https://zhuanlan.zhihu.com/p/46536960",
+      "summary": "正文通过线性近似方程 f(x)=0 得到牛顿迭代式，说明其求根思想。"
+    },
+    {
+      "title": "数学技巧||一元三次方程求解，十字交叉法解一元三次方程——个人高中偶然发现的一个数学技巧",
+      "url": "https://zhuanlan.zhihu.com/p/50533927",
+      "summary": "正文围绕一元三次方程，说明通过猜整数或分数或因式根、十字分解和长除法降次以求出方程的解。"
+    },
+    {
+      "title": "【导数4】导数之零点问题",
+      "url": "https://zhuanlan.zhihu.com/p/52975004",
+      "summary": "正文把函数零点问题解释为方程有几个根、根的个数问题，具体对应方程概念。"
+    },
+    {
+      "title": "一元三次方程的一般解法",
+      "url": "https://zhuanlan.zhihu.com/p/53049047",
+      "summary": "正文给出一般一元三次方程，并通过变量替换将其化为一元三次方程的简化形式。"
+    },
+    {
+      "title": "【导数压轴题】消元方法的几道例题",
+      "url": "https://zhuanlan.zhihu.com/p/54561509",
+      "summary": "正文围绕含参数对数方程的两个零点作变量代换并研究零点满足的方程关系。"
+    },
+    {
+      "title": "数论挖坟篇：Gauss取整函数",
+      "url": "https://zhuanlan.zhihu.com/p/56459078",
+      "summary": "正文专门列出一节，求解含地板函数的一次、二次和三次方程，并通过整数性条件筛选解。"
+    },
+    {
+      "title": "如何求解二次到四次方程？",
+      "url": "https://zhuanlan.zhihu.com/p/58294653",
+      "summary": "正文从韦达定理和求根公式出发，讨论二次、三次及四次方程，并通过代换和降次求根，实质展开方程求解。"
+    },
+    {
+      "title": "高中数学秒杀技巧：不等式暴力方法求最值：神奇设k法-图文教程",
+      "url": "https://zhuanlan.zhihu.com/p/58410796",
+      "summary": "正文把最值问题代入整理为一元二次方程，并以方程有解、判别式非负作为求最值的判定条件。"
+    },
+    {
+      "title": "“数学大厦轰然倒塌”后的反省——以电压稳定基础分析为例",
+      "url": "https://zhuanlan.zhihu.com/p/59485177",
+      "summary": "正文通过多次方程变形详细说明代入和平方可能扩大解集而产生增根，强调求解过程必须审查变形是否与原方程等价。"
+    },
+    {
+      "title": "数量关系何处寻？题中散布满天星",
+      "url": "https://zhuanlan.zhihu.com/p/59560272",
+      "summary": "正文把机票折扣与固定费用关系转化为一元方程，并解出全价机票。"
+    },
+    {
+      "title": "【导数压轴题】Lambert W函数与隐零点",
+      "url": "https://zhuanlan.zhihu.com/p/60979387",
+      "summary": "正文通过变形指数对数方程并借助 Lambert W 函数表示方程的根。"
+    },
+    {
+      "title": "三次方程因式分解的一点小技巧",
+      "url": "https://zhuanlan.zhihu.com/p/61517265",
+      "summary": "正文把待解问题转化为多项式方程，利用猜根、验根和多项式除法求出根并完成求解。"
+    },
+    {
+      "title": "【045】cos20°是有理数还是无理数？",
+      "url": "https://zhuanlan.zhihu.com/p/61564037",
+      "summary": "正文把三角值问题化为三次方程，并分别用同余和函数零点方法判断整数解。"
+    },
+    {
+      "title": "在matlab中使用牛顿法求解非线性方程组",
+      "url": "https://zhuanlan.zhihu.com/p/63103354",
+      "summary": "正文以一组含 sin 与 cos 的非线性方程为例推导迭代式并验证数值解。"
+    },
+    {
+      "title": "数学的逻辑大厦轰然倒塌？",
+      "url": "https://zhuanlan.zhihu.com/p/64126683",
+      "summary": "正文围绕一元二次方程变形求解，并展示错误推理产生伪根的过程。"
+    },
+    {
+      "title": "【国际数学竞赛】余数定理(Polynomial Remainder Theorem)",
+      "url": "https://zhuanlan.zhihu.com/p/64252377",
+      "summary": "正文把多项式零点、方程根和因式三种表述联系起来，并说明其等价条件。"
+    },
+    {
+      "title": "【国际数学竞赛】高次方程求根",
+      "url": "https://zhuanlan.zhihu.com/p/64354689",
+      "summary": "正文按试根法找到根后分解多项式，再继续降次直至求出原方程的全部解。"
+    },
+    {
+      "title": "【国际数学竞赛】高次韦达定理(Vieta's Theorem)",
+      "url": "https://zhuanlan.zhihu.com/p/64762900",
+      "summary": "正文以代数基本定理确定一元n次方程的根数，并以韦达关系研究高次方程的根。"
+    },
+    {
+      "title": "【国际数学竞赛】丢番图方程怎么解？",
+      "url": "https://zhuanlan.zhihu.com/p/67321401",
+      "summary": "正文定义整系数丢番图方程并围绕整数解展开求解，属于方程这一分支。"
+    },
+    {
+      "title": "拉格朗日配方法",
+      "url": "https://zhuanlan.zhihu.com/p/69056644",
+      "summary": "正文分别用判别式和配方把方程化为平方和为零，从而求出实数解。"
+    },
+    {
+      "title": "几种有理分式分解的方法",
+      "url": "https://zhuanlan.zhihu.com/p/69471608",
+      "summary": "正文通过通分比较系数建立待定系数方程并求解，据此完成各部分分式系数的确定。"
+    },
+    {
+      "title": "史上最强方程，为求解42=33，超级计算机都顶不住了",
+      "url": "https://zhuanlan.zhihu.com/p/70817478",
+      "summary": "正文围绕三元三次丢番图方程 K=x³+y³+z³ 的整数解，说明方程有无解及算法变换。"
+    },
+    {
+      "title": "一般实系数三次方程的求根公式———卡尔丹公式的推导",
+      "url": "https://zhuanlan.zhihu.com/p/71014482",
+      "summary": "正文完整推导一般实系数三次方程经变量代换得到卡尔丹公式的过程。"
+    },
+    {
+      "title": "小学数学1-6年级公式，给孩子们收藏起来吧",
+      "url": "https://zhuanlan.zhihu.com/p/72472422",
+      "summary": "正文用含未知数的等式定义方程式，并进一步介绍一元一次方程。"
+    },
+    {
+      "title": "为什么一元n次代数方程必有n个根？",
+      "url": "https://zhuanlan.zhihu.com/p/73764750",
+      "summary": "正文围绕复系数一元 n 次方程是否存在根、有多少根及重根问题展开完整讨论。"
+    },
+    {
+      "title": "如何解三次方程？|解方程系列1",
+      "url": "https://zhuanlan.zhihu.com/p/74839079",
+      "summary": "正文以三次方程为例介绍有理根检验、降次和卡尔达诺求解过程，实际展开了方程求解。"
+    },
+    {
+      "title": "2019IMO第一题",
+      "url": "https://zhuanlan.zhihu.com/p/75547166",
+      "summary": "正文围绕整数域上的函数方程，通过代换、消元和待定系数求出全部解。"
+    },
+    {
+      "title": "如何解四次方程？|解方程系列2",
+      "url": "https://zhuanlan.zhihu.com/p/75497955",
+      "summary": "正文系统推导一般四次方程的降次、配方和求根过程，并给出完整根公式。"
+    },
+    {
+      "title": "虚数是负数的平方根，为什么在三次方程中才出现的呢？|高中篇3",
+      "url": "https://zhuanlan.zhihu.com/p/76605791",
+      "summary": "正文通过消去二次项和引入辅助变量系统给出三次方程的求解过程。"
+    },
+    {
+      "title": "为何中学不讲一元三次四次方程的求解？|解方程系列3",
+      "url": "https://zhuanlan.zhihu.com/p/76976510",
+      "summary": "正文把二次方程配方并讨论三次、四次方程如何转化为低次方程求解。"
+    },
+    {
+      "title": "五次及以上方程不可解，到底什么意思？|解方程系列4",
+      "url": "https://zhuanlan.zhihu.com/p/77243138",
+      "summary": "正文明确多项式方程有根式解是指根可由系数经有限次四则运算和开方表示。"
+    },
+    {
+      "title": "瞎扯伽罗华群论思想",
+      "url": "https://zhuanlan.zhihu.com/p/78506062",
+      "summary": "正文从一次至四次方程的求根过程出发，解释五次以上一般方程为何不能由根式公式求解。"
+    },
+    {
+      "title": "f(f(x))=x的连续解和可导解",
+      "url": "https://zhuanlan.zhihu.com/p/78579190",
+      "summary": "正文围绕函数方程 f(f(x))=x，分别给出连续解和可导解的完整分类结论。"
+    },
+    {
+      "title": "初学讲义之高中数学五：二次函数",
+      "url": "https://zhuanlan.zhihu.com/p/80373882",
+      "summary": "正文详细讲解一元二次方程的因式分解、配方、求根公式和判别式。"
+    },
+    {
+      "title": "如何在5分钟之内解决IMO 2019 day 1的第一题？",
+      "url": "https://zhuanlan.zhihu.com/p/82480781",
+      "summary": "正文通过多组代换、比较系数和回代验证完整求解一个整数函数方程。"
+    },
+    {
+      "title": "关于直线与圆，你想知道的一切，吧（二）",
+      "url": "https://zhuanlan.zhihu.com/p/82738079",
+      "summary": "正文给出圆的标准方程和一般方程，并用待定系数法求方程，对应方程。"
+    },
+    {
+      "title": "数学软件找不到这个方程的所有解，但是你可以！",
+      "url": "https://zhuanlan.zhihu.com/p/82774614",
+      "summary": "正文通过底数为 1、指数为 0、底数为 -1 且指数为偶数三类情况完整求解含未知数的指数方程。"
+    },
+    {
+      "title": "一个函数方程问题",
+      "url": "https://zhuanlan.zhihu.com/p/89982205",
+      "summary": "正文通过把 x 换为 x/3 并反复迭代，求解给定的函数方程。"
+    },
+    {
+      "title": "【圆锥曲线】二次曲线系及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/91171106",
+      "summary": "正文构造并证明二次曲线系方程确实表示过给定四点的全部二次曲线。"
+    },
+    {
+      "title": "张寿武：数学中的无解之解",
+      "url": "https://zhuanlan.zhihu.com/p/92587715",
+      "summary": "正文回顾一次、二次、三次方程的求解史，并具体展示三次方程通过展开式化为可解方程组的方法。"
+    },
+    {
+      "title": "还对四维空间一脸茫然？是时候彻底理解这个概念了",
+      "url": "https://zhuanlan.zhihu.com/p/93779761",
+      "summary": "正文解释方程表示若干参数之间的关系，并用圆的方程说明这一含义。"
+    },
+    {
+      "title": "说点Cornernet/Centernet代码里面GT heatmap里面如何应用高斯散射核",
+      "url": "https://zhuanlan.zhihu.com/p/96856635",
+      "summary": "正文把检测框重叠阈值条件整理为一元二次方程，并用判别式求出三种情形的临界半径。"
+    },
+    {
+      "title": "一元二次方程的一种不同解法",
+      "url": "https://zhuanlan.zhihu.com/p/97282588",
+      "summary": "正文提出并演示无需记忆求根公式的一元二次方程解法，最后还推导出标准求根公式。"
+    },
+    {
+      "title": "一元四次方程的解法",
+      "url": "https://zhuanlan.zhihu.com/p/98570952",
+      "summary": "正文通过配方、引入参数和伴随方程把一元四次方程化为两个一元二次方程。"
+    },
+    {
+      "title": "如何解x^2=2^x",
+      "url": "https://zhuanlan.zhihu.com/p/98752086",
+      "summary": "对方程两边取对数并借助 Lambert W 函数，分正负情形求出含指数与幂的方程解析解。"
+    },
+    {
+      "title": "曲线系方程教程",
+      "url": "https://zhuanlan.zhihu.com/p/103876294",
+      "summary": "正文讲解用参数 λ 构造直线系、圆系和二次曲线系方程，并代入条件求参数。"
+    },
+    {
+      "title": "一元高次方程寻根记杂谈",
+      "url": "https://zhuanlan.zhihu.com/p/104832975",
+      "summary": "正文系统推导三次、四次方程的求根公式与判别式，并讨论特殊五次方程的根式解。"
+    },
+    {
+      "title": "四圆相切与笛卡尔定理（下篇）",
+      "url": "https://zhuanlan.zhihu.com/p/106874090",
+      "summary": "正文把笛卡尔定理整理为关于未知圆曲率的一元二次方程，并借助求根研究新的相切圆。"
+    },
+    {
+      "title": "一道比较有趣的函数方程题",
+      "url": "https://zhuanlan.zhihu.com/p/108807934",
+      "summary": "正文通过多次代换和恒等变形求解一个实数域上的函数方程，并证明唯一解为 f(x)=x。"
+    },
+    {
+      "title": "二项式定理，你真的理解了吗？",
+      "url": "https://zhuanlan.zhihu.com/p/110598554",
+      "summary": "正文借助二元一次方程组确定各类项的数量，并举出具体方程组的求解过程。"
+    },
+    {
+      "title": "【学习小结】高中数学——复数",
+      "url": "https://zhuanlan.zhihu.com/p/110840104",
+      "summary": "正文具体求解形如 z 的 n 次幂等于复数的方程，并讨论复指数方程的通解。"
+    },
+    {
+      "title": "高中圆锥曲线解题技巧之非对称韦达式(一)",
+      "url": "https://zhuanlan.zhihu.com/p/111221292",
+      "summary": "正文说明圆锥曲线问题中非对称韦达式无法直接化简时，可将两根积改写为两根和来处理。"
+    },
+    {
+      "title": "高中数学解题思想以及方法",
+      "url": "https://zhuanlan.zhihu.com/p/112030280",
+      "summary": "正文把待定系数问题转化为方程或方程组，并专门阐述函数与方程思想。"
+    },
+    {
+      "title": "快速求解方程的根——二分法与牛顿迭代法",
+      "url": "https://zhuanlan.zhihu.com/p/112845185",
+      "summary": "正文讨论连续函数异号时方程存在零点并用迭代方法求该解。"
+    },
+    {
+      "title": "如果加法变成【乘法】 , 那么什么能变成【加法】 ? ——记一则函数方程",
+      "url": "https://zhuanlan.zhihu.com/p/113990049",
+      "summary": "正文通过交换律、结合律和分配律导出一系列函数方程，并求出对应的 min 与 max 两种运算。"
+    },
+    {
+      "title": "【解析几何】定点定值问题中的因式分解",
+      "url": "https://zhuanlan.zhihu.com/p/120415505",
+      "summary": "正文联立直线与椭圆后建立关于参数 m 的二次方程，求解并排除增根以确定直线定点。"
+    },
+    {
+      "title": "高中导数解题技巧之“找特殊点”(二)",
+      "url": "https://zhuanlan.zhihu.com/p/125205484",
+      "summary": "正文通过函数最小值和区间端点符号寻找两个零点，并论证零点存在的必要与充分条件。"
+    },
+    {
+      "title": "一元三次方程的求根公式",
+      "url": "https://zhuanlan.zhihu.com/p/137077558",
+      "summary": "正文系统推导实系数一元三次方程的根、判别式与不同求根方法。"
+    },
+    {
+      "title": "对称多项式基本定理",
+      "url": "https://zhuanlan.zhihu.com/p/141923148",
+      "summary": "正文把多项式分解、基本对称多项式与根和系数的关系联系起来，并给出韦达定理。"
+    },
+    {
+      "title": "取点问题：手把手教你找零点（01）",
+      "url": "https://zhuanlan.zhihu.com/p/146511720",
+      "summary": "正文说明如何借助连续性、单调性和端点异号证明函数在区间内存在唯一零点。"
+    },
+    {
+      "title": "代数学发展的4个阶段：算术、初等代数、高等代数、抽象代数",
+      "url": "https://zhuanlan.zhihu.com/p/149807328",
+      "summary": "正文说明初等代数以列方程、代数式运算和求解各类方程为中心。"
+    },
+    {
+      "title": "柯西方程与柯西方法",
+      "url": "https://zhuanlan.zhihu.com/p/80543711",
+      "summary": "正文系统求解加性、指数型、对数型和乘性柯西函数方程，并讨论连续、单调或有界条件对解的限制。"
+    },
+    {
+      "title": "裴蜀定理证明",
+      "url": "https://zhuanlan.zhihu.com/p/155721651",
+      "summary": "正文讨论不定方程 ax+by=m 的整数解条件，并围绕最小正线性组合证明裴蜀定理。"
+    },
+    {
+      "title": "参数方程漫谈",
+      "url": "https://zhuanlan.zhihu.com/p/161286380",
+      "summary": "正文围绕同一曲线可选取不同参数来构造多种方程，并对法线式和点向式作比较。"
+    },
+    {
+      "title": "笛卡尔符号法则(Descartes' Rule of Signs)",
+      "url": "https://zhuanlan.zhihu.com/p/161577971",
+      "summary": "正文把符号法则用于实系数多项式方程，并用根与系数关系证明正根的奇偶性。"
+    },
+    {
+      "title": "圆锥曲线关于斜率的参数方程",
+      "url": "https://zhuanlan.zhihu.com/p/165384182",
+      "summary": "正文联立椭圆方程、过定点直线方程和定点约束，结合韦达定理求动点坐标。"
+    },
+    {
+      "title": "高次方程的韦达定理",
+      "url": "https://zhuanlan.zhihu.com/p/165655965",
+      "summary": "正文围绕高次方程的根的和、根的乘积及根的平方和展开方程求解与关系应用。"
+    },
+    {
+      "title": "两个多项式的结式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/165459547",
+      "summary": "正文利用结式消去一个变量，把二元高次方程组化为一元方程后求解。"
+    },
+    {
+      "title": "【国际数学竞赛】函数方程的一般解法(Functional Equations)",
+      "url": "https://zhuanlan.zhihu.com/p/165387939",
+      "summary": "正文围绕含未知函数的方程，讲解代换、消元和赋值等求解方法。"
+    },
+    {
+      "title": "多项式因式分解的方法",
+      "url": "https://zhuanlan.zhihu.com/p/169519012",
+      "summary": "正文以一元方程为例，通过求根和因式分解说明解方程的方法。"
+    },
+    {
+      "title": "斯图姆定理(Sturm's Theorem)",
+      "url": "https://zhuanlan.zhihu.com/p/164729380",
+      "summary": "正文把多项式方程在给定区间内的不同实根个数归结为斯图姆序列符号变号次数之差。"
+    },
+    {
+      "title": "关于二次、三次、四次方程求解方法讨论",
+      "url": "https://zhuanlan.zhihu.com/p/171549688",
+      "summary": "正文系统讲解一元二次、三次和四次方程的配方、降次与求根方法。"
+    },
+    {
+      "title": "珠算真的能开方吗？（中国古代开方术集锦）",
+      "url": "https://zhuanlan.zhihu.com/p/205700682",
+      "summary": "正文把开方术推广为正负开方术，通过减根和扩根迭代逼近高次方程的根。"
+    },
+    {
+      "title": "【WWWork】当你在看本子时无意间看到一道数学题",
+      "url": "https://zhuanlan.zhihu.com/p/235466394",
+      "summary": "正文通过换元 t=x+1/x 将原四次方程化为二次方程，再回代分别求根。"
+    },
+    {
+      "title": "牛顿迭代法",
+      "url": "https://zhuanlan.zhihu.com/p/240077462",
+      "summary": "正文讨论方程无求根公式时如何求近似根，并改写方程寻找零点。"
+    },
+    {
+      "title": "第7章 非线性方程与方程组的数值解法（基于MATLAB）",
+      "url": "https://zhuanlan.zhihu.com/p/238003691",
+      "summary": "正文从代数方程次数与根的数量讲起，说明高次方程及超越方程的求根问题。"
+    },
+    {
+      "title": "萌新也看得懂的三次方程解法和思路",
+      "url": "https://zhuanlan.zhihu.com/p/260834565",
+      "summary": "正文完整推导一元三次方程的降次、预解式和求根过程。"
+    },
+    {
+      "title": "【高考数学】9.31 两根之差速算求弦长",
+      "url": "https://zhuanlan.zhihu.com/p/191416966",
+      "summary": "正文给出二次方程两根之差与判别式的关系，并用该结论速算交点横坐标之差。"
+    },
+    {
+      "title": "数学之美：牛顿-拉夫逊迭代法原理及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/266566509",
+      "summary": "正文以非线性方程求根为目标，给出牛顿迭代的公式、停止条件与实例求解。"
+    },
+    {
+      "title": "论如何优雅地解决齐次化问题",
+      "url": "https://zhuanlan.zhihu.com/p/161840496",
+      "summary": "正文把目标比值设为 m，构造关于 t 的二次方程并用判别式非负求 m 的取值范围。"
+    },
+    {
+      "title": "5-3 求根公式和韦达定理",
+      "url": "https://zhuanlan.zhihu.com/p/333943829",
+      "summary": "正文推导一元二次方程求根公式、判别式和两根式，并讲解韦达定理及其逆定理。"
+    },
+    {
+      "title": "一道无理方程题",
+      "url": "https://zhuanlan.zhihu.com/p/337812609",
+      "summary": "正文通过换元把含立方根的无理方程化为代数方程，并求出全部实根。"
+    },
+    {
+      "title": "数学技巧||一元三次方程求解，大除法解一元三次方程！",
+      "url": "https://zhuanlan.zhihu.com/p/338340227",
+      "summary": "正文以试出一个整数根后做多项式长除法为主线，介绍一元三次及更高次方程的降次求解方法。"
+    },
+    {
+      "title": "数学软件解不了的方程",
+      "url": "https://zhuanlan.zhihu.com/p/342705763",
+      "summary": "正文围绕特定方程证明根的存在性与唯一性，并构造收敛迭代数列，实质讨论方程求解。"
+    },
+    {
+      "title": "计算机搞定44年几何难题，原来这2个人25年前猜对了",
+      "url": "https://zhuanlan.zhihu.com/p/349815096",
+      "summary": "正文围绕六元多项式方程的全部解，讲解原方程的拆分、求解和完整搜索。"
+    },
+    {
+      "title": "著名的丢番图方程，最有趣的“世界难题”，从古研究至今",
+      "url": "https://zhuanlan.zhihu.com/p/354425450",
+      "summary": "正文由此给出丢番图方程的定义，并通过线性丢番图方程说明整数解与最大公约数的关系。"
+    },
+    {
+      "title": "多元函数微分法及其应用 第五节 隐函数的求导公式",
+      "url": "https://zhuanlan.zhihu.com/p/361759163",
+      "summary": "正文讨论方程 F(x,y)=0 和二元方程组在局部确定隐函数的存在条件与导数。"
+    },
+    {
+      "title": "inversioner版高中数学课本(2)——第三章：复数",
+      "url": "https://zhuanlan.zhihu.com/p/361653318",
+      "summary": "正文讨论复系数一元二次方程、高次多项式方程、单位根和五次以上方程无一般根式解。"
+    },
+    {
+      "title": "用 Python 做数学建模",
+      "url": "https://zhuanlan.zhihu.com/p/362092403",
+      "summary": "正文具体使用 sympy.solve 求多项式零点及非线性方程组，并讨论符号解与数值近似。"
+    },
+    {
+      "title": "解一元二次方程十字相乘法专项练习题",
+      "url": "https://zhuanlan.zhihu.com/p/365991404",
+      "summary": "正文给出用十字相乘法分解因式并求解一元二次方程的口诀，属于方程求解方法。"
+    },
+    {
+      "title": "佩尔（Pell）方程",
+      "url": "https://zhuanlan.zhihu.com/p/365860557",
+      "summary": "正文定义Pell不定方程，并讨论平凡情形、基本解以及I型、II型和广义方程的解。"
+    },
+    {
+      "title": "初中数学-一元二次方程求根公式推导过程",
+      "url": "https://zhuanlan.zhihu.com/p/366990945",
+      "summary": "正文逐步配方并开方，完整推导一元二次方程的求根公式。"
+    },
+    {
+      "title": "你真的会解方程吗？",
+      "url": "https://zhuanlan.zhihu.com/p/371512575",
+      "summary": "正文从二次、三次、四次方程的通解出发，讨论一般五次方程是否存在根式解。"
+    },
+    {
+      "title": "伽罗瓦理论概述（四、一元高次方程的解法本质）",
+      "url": "https://zhuanlan.zhihu.com/p/376242058",
+      "summary": "正文从二次、三次到四次方程的系统求解回顾出发，讨论高次代数方程的降次与求根。"
+    },
+    {
+      "title": "一道语言学/数学题",
+      "url": "https://zhuanlan.zhihu.com/p/380649158",
+      "summary": "正文把词语数字转化为代数等式，通过等式关系和有限枚举求出未知数值并回答题目。"
+    },
+    {
+      "title": "【数学之美】sin(π/257)的精确值是怎么求的？",
+      "url": "https://zhuanlan.zhihu.com/p/384287969",
+      "summary": "正文不断构造二次方程并利用韦达定理求根，最终得到正弦值的嵌套根式表达。"
+    },
+    {
+      "title": "《魔法少女小圆》中的数学题",
+      "url": "https://zhuanlan.zhihu.com/p/403490847",
+      "summary": "正文将整数方程因式分解为两项乘积等于 -1，再枚举因子求出全部整数解。"
+    },
+    {
+      "title": "2021南开大学数学伯苓班选拔考试题及参考解答",
+      "url": "https://zhuanlan.zhihu.com/p/407527624",
+      "summary": "正文讨论含参数根式方程的求解，并强调按参数分类讨论。"
+    },
+    {
+      "title": "从一元二次方程到群论(1)：一元二次方程",
+      "url": "https://zhuanlan.zhihu.com/p/412201833",
+      "summary": "正文详细演示一元二次方程的配方过程、求根公式和应用实例。"
+    },
+    {
+      "title": "从一元二次方程到群论(3)：一元三次方程的判别式",
+      "url": "https://zhuanlan.zhihu.com/p/413348034",
+      "summary": "正文通过三次方程的判别式判断实根个数，并讨论缺项形式下的求解。"
+    },
+    {
+      "title": "从一元二次方程到群论(8)：拉格朗日的贡献",
+      "url": "https://zhuanlan.zhihu.com/p/416000760",
+      "summary": "正文以韦达定理和判别式讨论多项式方程的根、重根及根式求解，并推导三次方程的判别式。"
+    },
+    {
+      "title": "解方程有什么难的？",
+      "url": "https://zhuanlan.zhihu.com/p/426555310",
+      "summary": "正文通过求解 x^n-1=0 并讨论其复数根来展开方程求解。"
+    },
+    {
+      "title": "数学分析中的有趣问题（1）",
+      "url": "https://zhuanlan.zhihu.com/p/430567574",
+      "summary": "正文研究函数方程 f(f(x))=kx^{2025} 存在连续解的参数条件，并分析求解思路。"
+    },
+    {
+      "title": "反设直线一定简单吗？",
+      "url": "https://zhuanlan.zhihu.com/p/433455902",
+      "summary": "正文把直线与椭圆方程联立消元，并由所得二次方程的两根关系和韦达定理完成证明。"
+    },
+    {
+      "title": "五次方程也有求根公式？",
+      "url": "https://zhuanlan.zhihu.com/p/434045872",
+      "summary": "正文给出有理系数五次方程的判定与根式求解步骤，并通过消去四次项、重排根和数值计算完整求解实例。"
+    },
+    {
+      "title": "matlab拯救高数",
+      "url": "https://zhuanlan.zhihu.com/p/439775517",
+      "summary": "正文以单变量、多变量、带参数方程和不等式为例演示方程与不等式组的求解。"
+    },
+    {
+      "title": "等幂和问题(5)—— 3³+4³+5³=6³ 绝非巧合！",
+      "url": "https://zhuanlan.zhihu.com/p/445420768",
+      "summary": "正文把三角数平方差等于立方数的问题转化为求不定方程整数解，并据此开展计算与推导。"
+    },
+    {
+      "title": "五次代数方程不可解证明概述，号称高中生也能看懂~~~",
+      "url": "https://zhuanlan.zhihu.com/p/451373884",
+      "summary": "正文从一次、二次方程引入数域扩张，说明多项式根与扩域、分裂域及根式求解之间的关系。"
+    },
+    {
+      "title": "一道网红导数题的命制背景与解法探究",
+      "url": "https://zhuanlan.zhihu.com/p/453748970",
+      "summary": "正文围绕方程 e^x-x=a 的两个根构造逼近命题，并研究根的和与平方和关系。"
+    },
+    {
+      "title": "一类极值点偏移题的背景与解析",
+      "url": "https://zhuanlan.zhihu.com/p/454038829",
+      "summary": "正文把极值点偏移问题转化为方程根的估计，并比较不同拟合方程给出的根表达式。"
+    },
+    {
+      "title": "潜藏的椭圆：斜率之积或和为定值时直线所过定点的轨迹",
+      "url": "https://zhuanlan.zhihu.com/p/452879862",
+      "summary": "正文建立轨迹参数满足的一元三次方程，并用判别式分类根的情况以求解参数。"
+    },
+    {
+      "title": "指数函数和对数函数交点问题与极值点偏移",
+      "url": "https://zhuanlan.zhihu.com/p/465430066",
+      "summary": "正文把指数函数与对数函数的图像交点转化为指数方程，并研究其根的个数和关系。"
+    },
+    {
+      "title": "强袭圆锥曲线斜率之比——从多维度解析几何模型",
+      "url": "https://zhuanlan.zhihu.com/p/475761783",
+      "summary": "正文反复建立直线与圆锥曲线的二次方程并借助系数关系和韦达定理求解。"
+    },
+    {
+      "title": "小学到初三的全部数学公式（给孩子留好）",
+      "url": "https://zhuanlan.zhihu.com/p/475987577",
+      "summary": "正文给出一元一次方程的定义，并归纳移项、合并同类项和系数化为一的解法。"
+    },
+    {
+      "title": "湖北高三四月调考标答简直是对考生的冒犯！！！",
+      "url": "https://zhuanlan.zhihu.com/p/501560002",
+      "summary": "正文把过定点的直线方程与椭圆联立为二次方程，再由判别式计算弦长。"
+    },
+    {
+      "title": "五次方程 x^5+px+q 根式求解",
+      "url": "https://zhuanlan.zhihu.com/p/108460142",
+      "summary": "正文给出特定缺项五次方程的伪根计算、真根组合及代数验证方法。"
+    },
+    {
+      "title": "公考数量基础（数量高频考点常见类型汇总）",
+      "url": "https://zhuanlan.zhihu.com/p/519388949",
+      "summary": "正文以鸡兔同笼和年龄问题为例，展示设未知量、列一元或二元方程并求解的完整过程。"
+    },
+    {
+      "title": "一个关于圆锥曲线定点定值的神奇方法：配凑法",
+      "url": "https://zhuanlan.zhihu.com/p/521025768",
+      "summary": "正文把直线与圆锥曲线方程联立，利用所得二次方程的根与系数关系构造关系式并求定点、定值。"
+    },
+    {
+      "title": "【强基数学笔记】代数变形",
+      "url": "https://zhuanlan.zhihu.com/p/527670052",
+      "summary": "正文通过因式分解和配方处理整数解与多变量方程，具体求解其中的取值范围。"
+    },
+    {
+      "title": "无伤速通高中数学之不等式（三）：浅谈万能公式在三角函数类极值中的应用以及判别式法求极值",
+      "url": "https://zhuanlan.zhihu.com/p/531029169",
+      "summary": "正文把目标值视为参数构造二次方程，再用判别式存在条件求解值域。"
+    },
+    {
+      "title": "三次方程的不堪过往",
+      "url": "https://zhuanlan.zhihu.com/p/538015336",
+      "summary": "围绕二次、三次及四次方程的求解公式和代数变换展开历史叙述。"
+    },
+    {
+      "title": "圆锥曲线配凑法：关于可操作性的补充",
+      "url": "https://zhuanlan.zhihu.com/p/538935393",
+      "summary": "正文把几何条件化为椭圆与直线联立方程，并通过变量代换和韦达定理求目标关系。"
+    },
+    {
+      "title": "【升级の高中数学｜导数】一种神奇的函数零点和逼近方法",
+      "url": "https://zhuanlan.zhihu.com/p/540384985",
+      "summary": "正文研究两个方程根的关系，并通过辅助函数方程估计原方程两根之和。"
+    },
+    {
+      "title": "强袭斜率和积一般形式——定值定点及其轨迹方程",
+      "url": "https://zhuanlan.zhihu.com/p/541273655",
+      "summary": "正文把新坐标中的定点坐标代回并整理出点的轨迹方程，还讨论二次曲线中心、渐近线及共轭曲线。"
+    },
+    {
+      "title": "拉格朗日预解式",
+      "url": "https://zhuanlan.zhihu.com/p/582315546",
+      "summary": "正文由原方程的根构造预解方程，并用拉格朗日预解式推导二次、三次方程的求根过程。"
+    },
+    {
+      "title": "任意点到椭圆的最值距离——是亨公式",
+      "url": "https://zhuanlan.zhihu.com/p/584418043",
+      "summary": "正文把最值点条件化为一元三次方程，并讨论负实根的求根公式及最值点坐标。"
+    },
+    {
+      "title": "一元三次方程求根公式、推导过程和相关疑问",
+      "url": "https://zhuanlan.zhihu.com/p/547383870",
+      "summary": "正文完整推导一元三次方程的求根公式，并用判别式讨论实数根的个数。"
+    },
+    {
+      "title": "高中圆锥曲线大题妙招（二）—— 非对称韦达",
+      "url": "https://zhuanlan.zhihu.com/p/592526042",
+      "summary": "正文先给出一元二次方程及其韦达关系，再用联立所得的二次方程处理非对称结构。"
+    },
+    {
+      "title": "曲线系方程杀器，没有对比就没有伤害！",
+      "url": "https://zhuanlan.zhihu.com/p/592122177",
+      "summary": "正文把抛物线交点问题写成直线与椭圆方程，并引入含参数的曲线系方程处理交点关系。"
+    },
+    {
+      "title": "圆锥曲线192条结论(2)——配极篇（切线）",
+      "url": "https://zhuanlan.zhihu.com/p/587998805",
+      "summary": "正文把切线设成直线方程并与圆锥曲线方程联立，由判别式为零确定切线关系。"
+    },
+    {
+      "title": "【解析几何】利用圆锥曲线尺规作图正七边形",
+      "url": "https://zhuanlan.zhihu.com/p/597924635",
+      "summary": "正文把圆椭圆交点条件化为关于横坐标的方程，并指定其四个根来比较系数求解。"
+    },
+    {
+      "title": "2023 ~ 2025 年南京大学计算机拔尖班二次选拔考试（数学部分）",
+      "url": "https://zhuanlan.zhihu.com/p/654734288",
+      "summary": "正文围绕函数方程逐项代换、分解因式并求出所有满足条件的函数。"
+    },
+    {
+      "title": "应用伽罗瓦理论解代数方程",
+      "url": "https://zhuanlan.zhihu.com/p/660262734",
+      "summary": "正文从具体二次、三次和四次方程出发，逐步构造代数关系并求得这些方程的根。"
+    },
+    {
+      "title": "从数数开始的数学学习指南",
+      "url": "https://zhuanlan.zhihu.com/p/678367275",
+      "summary": "正文从鸡兔同笼的穷举和链表运算引出含有未知数的等式，并说明方程表达变量关系的基本思想。"
+    },
+    {
+      "title": "【注意力涣散】找规律 任意答案 通项的7个逆天方法（初中可看，有新想法会更新）",
+      "url": "https://zhuanlan.zhihu.com/p/682200542",
+      "summary": "正文把数列项转为坐标并建立方程组，通过求解系数得到通项式。"
+    },
+    {
+      "title": "f(f(n))=3n，一道经典的上海某年春考难题",
+      "url": "https://zhuanlan.zhihu.com/p/683278770",
+      "summary": "正文求解给定的函数方程，利用单调性和代数变换确定函数值并导出分段通项。"
+    },
+    {
+      "title": "极值点偏移中的函数构造",
+      "url": "https://zhuanlan.zhihu.com/p/684983807",
+      "summary": "正文围绕含参函数有两个零点时的根关系和待证不等式展开，属于含参方程与零点问题。"
+    },
+    {
+      "title": "《我的世界》中一组原木最多可以做多少个火把？（通解）",
+      "url": "https://zhuanlan.zhihu.com/p/692435050",
+      "summary": "正文用多个线性等式表示物料守恒与木棍、木炭的配对关系。"
+    },
+    {
+      "title": "关于一道十分需要“注意力”的数学问题",
+      "url": "https://zhuanlan.zhihu.com/p/704727769",
+      "summary": "正文求解三次单位根方程，并比较其在实数域和复数域中的不同解。"
+    },
+    {
+      "title": "初高衔接之三角函数",
+      "url": "https://zhuanlan.zhihu.com/p/709979204",
+      "summary": "正文把含根式与三角函数的方程转化为几何关系和二次方程求解。"
+    },
+    {
+      "title": "【三角函数】关于某类三角恒等变换问题的思考",
+      "url": "https://zhuanlan.zhihu.com/p/712852064",
+      "summary": "正文把待求的单位根和设为方程的两根，通过韦达定理联立根与系数关系求三角函数值。"
+    },
+    {
+      "title": "【圆锥曲线】变换主元：一种解题的新思路",
+      "url": "https://zhuanlan.zhihu.com/p/823334033",
+      "summary": "正文反复把几何条件整理成同一主元的一元二次方程，再用根与系数关系求定点或定值。"
+    },
+    {
+      "title": "【圆锥曲线】一些高级技巧的总结——前篇",
+      "url": "https://zhuanlan.zhihu.com/p/2140682546",
+      "summary": "正文用二元二次方程统一表示圆锥曲线和退化直线型，并构造方程的线性组合形成曲线系。"
+    },
+    {
+      "title": "数学三大核心领域：代数、几何、分析及其主要分支学科相关历史发展（数学人必藏）",
+      "url": "https://zhuanlan.zhihu.com/p/17219637421",
+      "summary": "正文沿方程求根的历史展开，讲到高次方程、代数基本定理以及根式解的条件。"
+    },
+    {
+      "title": "【碎碎念】一个换元的奇淫巧技",
+      "url": "https://zhuanlan.zhihu.com/p/30306384736",
+      "summary": "正文针对一般奇次多项式方程推导换元条件，并用多个高次方程实例说明如何降低求解难度，实质展开了一类方程的解法。"
+    },
+    {
+      "title": "B.1(克罗内克定理)高中生能懂，绕开群论证明高次方程无根式解(及一个例子)",
+      "url": "https://zhuanlan.zhihu.com/p/29537121160",
+      "summary": "正文回顾一至四次方程的根式解法，并把高次方程是否存在通用根式解作为核心问题展开。"
+    },
+    {
+      "title": "特征根，不动点，三次方程——你的老师可能讲错了",
+      "url": "https://zhuanlan.zhihu.com/p/32078478027",
+      "summary": "正文通过三角换元和三倍角公式给出三实根三次方程的根式表达与判别条件。"
+    },
+    {
+      "title": "考验基本功的一道好题——2025届南昌二模导数压轴",
+      "url": "https://zhuanlan.zhihu.com/p/1894022251839467743",
+      "summary": "正文把零点个数问题转化为求解 f(x)=0 的实根数目，并分区讨论方程根的个数。"
+    },
+    {
+      "title": "一道关于佩尔方程的圆锥曲线题——2025第一次四省联考（天一大联考）T19",
+      "url": "https://zhuanlan.zhihu.com/p/1898527498658100243",
+      "summary": "正文识别出双曲线格点满足佩尔方程，并用基本解生成全部正整数解。"
+    },
+    {
+      "title": "作出一些超越方程解析解的方法",
+      "url": "https://zhuanlan.zhihu.com/p/1902292647676220090",
+      "summary": "正文研究一元超越方程和高次代数方程的零点问题，并构造其解析根公式。"
+    },
+    {
+      "title": "非对称韦达定理——眼睛喵喵法",
+      "url": "https://zhuanlan.zhihu.com/p/1928243441801859860",
+      "summary": "正文利用一元二次方程根的和与积，把非对称分式化为对称量并逐题求值。"
+    },
+    {
+      "title": "[圆锥曲线]曲线系——筛选思想与基底思想",
+      "url": "https://zhuanlan.zhihu.com/p/1933138931517486985",
+      "summary": "正文以含参数的直线系和二次曲线系方程表示具有共同交点或同过四点的曲线族。"
+    },
+    {
+      "title": "中国数学的落后真的要怪明朝吗？",
+      "url": "https://zhuanlan.zhihu.com/p/1988162328261313331",
+      "summary": "正文介绍王文素对一元高次方程数值解法的研究及具体方程求解方法。"
+    },
+    {
+      "title": "解个方程而已，为什么会逼得数学家决斗、吐血、临终前夜狂写遗书？",
+      "url": "https://zhuanlan.zhihu.com/p/2064127876719497928",
+      "summary": "正文以五次方程的根式解问题切入，系统讲述一元方程求解的发展。"
+    }
+  ]
+}

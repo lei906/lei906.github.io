@@ -1,0 +1,671 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l6-t1-b2",
+  "sources": [
+    {
+      "title": "如何理解亚历山大·格罗滕迪克？",
+      "url": "https://www.zhihu.com/answer/33094038",
+      "summary": "解释概形作为推广代数簇的几何对象。"
+    },
+    {
+      "title": "2015 年你在科研上有哪些值得分享的进展和感悟？",
+      "url": "https://www.zhihu.com/answer/80968388",
+      "summary": "正文围绕复代数簇及其双有理自同构展开。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/95487189",
+      "summary": "正文把消去问题表述为仿射代数簇的乘积同构问题。"
+    },
+    {
+      "title": "怎么理解代数几何概念 motive？",
+      "url": "https://www.zhihu.com/answer/105460719",
+      "summary": "正文反复以代数簇及其不同上同调实现说明 motive 的动机。"
+    },
+    {
+      "title": "代数几何是什么样的几何？",
+      "url": "https://www.zhihu.com/answer/120644599",
+      "summary": "正文说明多元高次代数方程组的解会形成连续几何图形，即代数簇的基本动机。"
+    },
+    {
+      "title": "代数几何方法在组合中有哪些应用？",
+      "url": "https://www.zhihu.com/answer/126902200",
+      "summary": "正文说明整点多胞形如何对应一个环面代数簇及其 ample 线丛。"
+    },
+    {
+      "title": "如何理解代数几何中的 stacks 概念？",
+      "url": "https://www.zhihu.com/answer/128709342",
+      "summary": "正文说明代数簇的 étale 局部概念与上同调计算。"
+    },
+    {
+      "title": "你研究的数学领域有哪些重要但不出名的猜想？",
+      "url": "https://www.zhihu.com/answer/129709688",
+      "summary": "正文多次以复代数簇、自映射和子簇为对象陈述代数动力系统猜想，属于代数簇的实际研究语境。"
+    },
+    {
+      "title": "解析数论前景怎么样？",
+      "url": "https://www.zhihu.com/answer/135036703",
+      "summary": "正文专节讨论射影空间代数簇的算术性质与有理点问题。"
+    },
+    {
+      "title": "代数几何应该怎样学？",
+      "url": "https://www.zhihu.com/answer/136254585",
+      "summary": "正文强调从具体代数簇、blow up、toric variety 等例子理解代数几何。"
+    },
+    {
+      "title": "什么是Minimal model program，森重文的工作与之有什么关联？",
+      "url": "https://www.zhihu.com/answer/141165552",
+      "summary": "正文以复杂代数簇的简化说明极小模型的目标。"
+    },
+    {
+      "title": "代数几何应该怎样学？",
+      "url": "https://www.zhihu.com/answer/167317953",
+      "summary": "正文说明课程关注的概形与态射如何接近代数簇之间的射影态射。"
+    },
+    {
+      "title": "复几何的前景如何？",
+      "url": "https://www.zhihu.com/answer/173707200",
+      "summary": "正文以代数簇的有理点、双曲性和模空间说明代数簇相关问题。"
+    },
+    {
+      "title": "代数几何和数论的关系？",
+      "url": "https://www.zhihu.com/answer/182986166",
+      "summary": "正文以有限域上的代数簇点数和有理点计数说明代数簇的数论用途。"
+    },
+    {
+      "title": "如何直观理解辛几何？",
+      "url": "https://www.zhihu.com/answer/184478705",
+      "summary": "正文用 toric variety 与辛 toric manifold 的平行理论说明代数簇的几何角色。"
+    },
+    {
+      "title": "请问代数分析是什么样的领域？在几何学方面有什么应用嘛？",
+      "url": "https://www.zhihu.com/answer/185287102",
+      "summary": "正文说明交叉同调如何把光滑代数簇结论推广到奇异代数簇。"
+    },
+    {
+      "title": "学习数学一定要用抽象的思维去学吗？",
+      "url": "https://www.zhihu.com/answer/267504362",
+      "summary": "正文把射影代数簇作为具体而复杂的代数几何例子。"
+    },
+    {
+      "title": "获得 2018 科学突破奖的 C. Hacon 和 J. McKernan 的主要工作和成就是什么？",
+      "url": "https://www.zhihu.com/answer/271657967",
+      "summary": "正文从多项式零点定义仿射代数簇并说明一般簇的拼接。"
+    },
+    {
+      "title": "有哪些数学问题在高维和低维上情况比较简单，唯独在中间某个维数上很复杂？",
+      "url": "https://www.zhihu.com/answer/291942609",
+      "summary": "正文以费马三次超曲面为对象，系统讨论不同维数的有理点计数。"
+    },
+    {
+      "title": "曲线（代数簇）上有理点的个数是否有限，是否在曲线上稠密？",
+      "url": "https://www.zhihu.com/answer/308629443",
+      "summary": "正文按一般型、有理连通型等分类讨论簇上有理点稠密性。"
+    },
+    {
+      "title": "本科生想要了解射影几何有什么书或者资料推荐吗？",
+      "url": "https://www.zhihu.com/answer/315193660",
+      "summary": "正文说明射影代数簇在代数几何中的位置。"
+    },
+    {
+      "title": "如何理解perverse sheaves?有哪些motivation?有什么好的reference?",
+      "url": "https://www.zhihu.com/answer/319494987",
+      "summary": "正文用复代数簇说明奇异空间上的 Riemann－Hilbert 对应。"
+    },
+    {
+      "title": "如何画心形函数？",
+      "url": "https://www.zhihu.com/answer/321708066",
+      "summary": "正文把心形图形作为代数曲面讨论。"
+    },
+    {
+      "title": "Representation Theory(表示论)与Algebraic Geometry(代数几何)在(理论，但不仅限理论)物理上有什么联合应用?",
+      "url": "https://www.zhihu.com/answer/329213093",
+      "summary": "正文把 Higgs 分支模空间定义为代数簇。"
+    },
+    {
+      "title": "导出范畴如何决定代数簇的结构，类型？",
+      "url": "https://www.zhihu.com/answer/333423706",
+      "summary": "正文比较Fano、一般型和Calabi-Yau代数簇的导出范畴性质。"
+    },
+    {
+      "title": "为什么说 Nevanlinna 的值分布理论是复变函数的巅峰？",
+      "url": "https://www.zhihu.com/answer/336575053",
+      "summary": "正文以 Green-Griffiths 定理和一般型代数簇上的猜想实质讨论全纯曲线退化。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/338917813",
+      "summary": "正文以光滑射影代数簇和有理曲线为对象定义模空间。"
+    },
+    {
+      "title": "有哪些在你的数学领域里很有用的技巧？",
+      "url": "https://www.zhihu.com/answer/451268509",
+      "summary": "正文讨论射影簇、除子与仿射簇的几何不变量。"
+    },
+    {
+      "title": "学习古典代数几何还有意义吗？",
+      "url": "https://www.zhihu.com/answer/487192417",
+      "summary": "正文说明代数簇的几何与拓扑仍是古典代数几何核心。"
+    },
+    {
+      "title": "除了黎曼猜想，数学界还有哪些至今尚未得到证实的猜想？",
+      "url": "https://www.zhihu.com/answer/502773062",
+      "summary": "定义有限域上的正则射影代数簇及其 ζ 函数，并讨论计数点数。"
+    },
+    {
+      "title": "复几何和代数几何有什么关系？",
+      "url": "https://www.zhihu.com/answer/512285000",
+      "summary": "通过代数簇、复解析簇及仿射代数簇的例子解释研究对象的差异。"
+    },
+    {
+      "title": "John Tate 的研究方向，对数学的贡献和对后世数学的影响？",
+      "url": "https://www.zhihu.com/answer/519685628",
+      "summary": "Tate 猜想的对象是 K 上的 proper smooth 代数簇及其上同调。"
+    },
+    {
+      "title": "何为分析方法、代数方法、几何方法、拓扑方法？",
+      "url": "https://www.zhihu.com/answer/637857499",
+      "summary": "把射影平面曲线及其分式函数作为代数方法的研究对象。"
+    },
+    {
+      "title": "自学交换代数（atiyah），却无能力自己证明书中的很多定理，是否表明完全不具备继续学习数学的潜力？",
+      "url": "https://www.zhihu.com/answer/639122471",
+      "summary": "从仿射簇与坐标环的范畴等价解释代数簇。"
+    },
+    {
+      "title": "数学本科生学一门课（比如代数几何2）到一半时失去动机不感兴趣了，应该如何决定是继续肝还是放弃掉学别的？",
+      "url": "https://www.zhihu.com/answer/645273365",
+      "summary": "说明有限域上代数簇与 zeta 函数的研究对象。"
+    },
+    {
+      "title": "代数几何一开始研究多项式公共零点的动机是什么？",
+      "url": "https://www.zhihu.com/answer/665391257",
+      "summary": "把多项式方程组的零点集合解释为代数簇。"
+    },
+    {
+      "title": "Crystalline cohomology （晶体上同调）带了哪些算术信息？",
+      "url": "https://www.zhihu.com/answer/668847314",
+      "summary": "从有限域上多项式零点计数定义代数簇及其点数。"
+    },
+    {
+      "title": "数学家志村五郎于 2019 年 5 月 3 日逝世，如何评价他一生的经历与贡献?",
+      "url": "https://www.zhihu.com/answer/672045267",
+      "summary": "介绍志村簇及其在算术几何中的位置。"
+    },
+    {
+      "title": "如何看待许晨阳加盟麻省理工学院数学系?",
+      "url": "https://www.zhihu.com/answer/1040705049",
+      "summary": "正文用直线、圆和球面解释代数簇并讨论其变换。"
+    },
+    {
+      "title": "如何看待全民代数几何的现象？",
+      "url": "https://www.zhihu.com/answer/1543342297",
+      "summary": "正文直接讨论代数簇，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "皮克定理有哪些证明？",
+      "url": "https://www.zhihu.com/answer/1833953343",
+      "summary": "正文把整点多边形实现为环面簇中的多面体并完成几何论证。"
+    },
+    {
+      "title": "如何理解「有限几何」？",
+      "url": "https://www.zhihu.com/answer/1878921335",
+      "summary": "正文把有限域上多项式的公共零点定义为代数簇。"
+    },
+    {
+      "title": "数学界为何走向抽象？",
+      "url": "https://www.zhihu.com/answer/1945780164",
+      "summary": "正文用模空间研究代数簇的恢复问题。"
+    },
+    {
+      "title": "请问代数曲线里面的除子（divisor）是源于什么而提出来的？",
+      "url": "https://www.zhihu.com/answer/1959546743",
+      "summary": "正文用代数曲线上的点和线丛定义除子。"
+    },
+    {
+      "title": "用人话来解释下模空间是啥？",
+      "url": "https://www.zhihu.com/answer/2035461160",
+      "summary": "正文把模空间解释为带几何结构的分类空间。"
+    },
+    {
+      "title": "用人话来解释下模空间是啥？",
+      "url": "https://www.zhihu.com/answer/2061981834",
+      "summary": "正文以辛流形与黎曼面解释模空间。"
+    },
+    {
+      "title": "2022世界数学家大会报告名单公布，能介绍一小时报告的主要工作吗？",
+      "url": "https://www.zhihu.com/answer/2090597007",
+      "summary": "正文讨论代数簇的双有理分类与有理性猜想。"
+    },
+    {
+      "title": "平面上两条 n 次曲线相交，交点的最大个数是否为 n²？",
+      "url": "https://www.zhihu.com/answer/2157832229",
+      "summary": "正文把曲线交点问题化为二元多项式和结式。"
+    },
+    {
+      "title": "数学的旨趣是什么？数学到底在干什么？",
+      "url": "https://www.zhihu.com/answer/2162172555",
+      "summary": "正文讨论代数簇与概形的分类目标。"
+    },
+    {
+      "title": "从古典的解析几何到现代的代数几何，研究的问题都有些什么变化？又有哪些共同的问题？",
+      "url": "https://www.zhihu.com/answer/2246909271",
+      "summary": "正文以代数曲线上的 Mordell 猜想作为代数几何问题实例。"
+    },
+    {
+      "title": "2021 年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/2288530127",
+      "summary": "正文具体说明代数曲线和代数几何中的仿射簇、射影簇及相关经典结论。"
+    },
+    {
+      "title": "几何方面有类似卓里奇、科斯特利金之类的“入门级厚书”吗?",
+      "url": "https://www.zhihu.com/answer/2314785583",
+      "summary": "正文说明代数簇是代数几何的基本研究对象。"
+    },
+    {
+      "title": "对于当今数学来说，「几何」到底是什么？",
+      "url": "https://www.zhihu.com/answer/2337270351",
+      "summary": "正文把有限域代数簇列为现代几何研究的抽象对象。"
+    },
+    {
+      "title": "如何看待全民代数几何的现象？",
+      "url": "https://www.zhihu.com/answer/2457537299",
+      "summary": "正文具体定义 toric variety，并用锥和 fan 说明代数簇的组合构造。"
+    },
+    {
+      "title": "以后想学代数几何这个方向，本科期间应该如何准备？",
+      "url": "https://www.zhihu.com/answer/2722280206",
+      "summary": "正文说明代数簇能够为概形理论提供例子与几何直观，并强调不应跳过代数簇。"
+    },
+    {
+      "title": "为什么岳不群不把紫霞神功复印个百八十份让华山派人人练起来？",
+      "url": "https://www.zhihu.com/answer/2733862886",
+      "summary": "正文具体解释代数簇是代数方程所确定点的轨迹，并以代数曲线和代数曲面举例。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2764601721",
+      "summary": "正文把多项式方程所确定的平面、双曲面和四次曲面作为研究对象，对应代数簇的零集观点。"
+    },
+    {
+      "title": "代数几何和解析几何是什么关系？",
+      "url": "https://www.zhihu.com/answer/2883548392",
+      "summary": "正文把代数簇定义为仿射或射影空间中由多项式方程定义的子集，并说明其局部模型。"
+    },
+    {
+      "title": "有什么数学定理一般人都觉得是常识，但严谨证明起来却挺费力的？",
+      "url": "https://www.zhihu.com/answer/2928791328",
+      "summary": "正文定义仿射代数集、代数集对应的理想和根理想，并说明 Z 与 I 的对应关系。"
+    },
+    {
+      "title": "代数几何有哪些看似简单的世界难题？",
+      "url": "https://www.zhihu.com/answer/2928979329",
+      "summary": "正文以不可约代数簇及其奇点集合为对象，陈述奇点解消的形式定义和已有结果。"
+    },
+    {
+      "title": "代数几何应该怎样学？",
+      "url": "https://www.zhihu.com/answer/2937626356",
+      "summary": "正文说明仿射簇的坐标环与代数曲线、奇异点解消和交换代数之间的联系，并讨论射影簇及复代数簇。"
+    },
+    {
+      "title": "数论问题困难性的根源是什么？",
+      "url": "https://www.zhihu.com/answer/2939196377",
+      "summary": "正文讨论实、复代数簇的差异，并以小平维数分类一般型曲面和特殊曲面为例说明复代数簇的研究。"
+    },
+    {
+      "title": "Weil猜想和Riemann猜想有什么联系？关于这方面的最新进展是什么？",
+      "url": "https://www.zhihu.com/answer/3108737906",
+      "summary": "正文以有限域上的光滑射影代数簇为对象，给出其 zeta 函数及 Weil 猜想的四条内容。"
+    },
+    {
+      "title": "如何成为一个数学家？",
+      "url": "https://www.zhihu.com/answer/3123945798",
+      "summary": "正文定义代数簇，并说明如何从图或拟阵构造代数簇来研究其性质。"
+    },
+    {
+      "title": "双有理几何的动机是什么？双有理几何在其他数学分支有什么用处？学习双有理几何的顺序是什么？",
+      "url": "https://www.zhihu.com/answer/3144403303",
+      "summary": "正文以稠密开集同构和函数域相同定义代数簇的双有理等价，并据此讨论代数簇分类。"
+    },
+    {
+      "title": "如何向刚修完复变与拓扑课程的本科生科普Riemann-Roch定理的重要意义？",
+      "url": "https://www.zhihu.com/answer/3206988307",
+      "summary": "正文把 w^2-z 在 \\mathbb{C}^2 中的零点曲线称为仿射代数曲线，并讨论其射影紧化。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/3235689936",
+      "summary": "正文以代数方程的公共零点集合界定远阿贝尔几何的研究对象，形成了对代数簇核心对象的实质说明。"
+    },
+    {
+      "title": "如何证明a^3+b^3+c^3-3abc＝1的解有无穷多组（a,b,c为有理数）？",
+      "url": "https://www.zhihu.com/answer/3235847093",
+      "summary": "正文把方程定义为射影代数簇，并具体讨论其奇点、交点结构及有理点稠密性。"
+    },
+    {
+      "title": "能简单介绍一下数学家周炜良吗？",
+      "url": "https://www.zhihu.com/answer/3249180723",
+      "summary": "正文明确代数簇作为多元方程组解集合的定义，并讨论周型、周坐标在代数簇研究中的作用。"
+    },
+    {
+      "title": "求问怎么用曲线系做?",
+      "url": "https://www.zhihu.com/answer/3258674621",
+      "summary": "正文把若干多项式的公共零点定义为代数集，体现以多项式零点集研究代数簇的思路。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3318059185",
+      "summary": "正文围绕代数闭域上的光滑射影簇陈述 Hartshorne 猜想，并讨论 Fano 簇、有理曲线和极小有理切线簇。"
+    },
+    {
+      "title": "对于当今数学来说，「几何」到底是什么？",
+      "url": "https://www.zhihu.com/answer/3339715086",
+      "summary": "正文定义代数簇为代数方程的零点集，并说明超曲面可作为子代数簇，实质介绍代数簇。"
+    },
+    {
+      "title": "什么是「Hodge 理论」？",
+      "url": "https://www.zhihu.com/answer/3403065869",
+      "summary": "正文具体说明固定实流形上的不同代数簇结构会决定上同调向量空间中的Hodge结构。"
+    },
+    {
+      "title": "能说一本或几本在你在学数学路上对你影响最大的一本书吗？",
+      "url": "https://www.zhihu.com/answer/3417998960",
+      "summary": "正文具体指出该书以 Nullstellensatz 建立仿射代数簇与坐标环之间的基本对应。"
+    },
+    {
+      "title": "双有理几何的动机是什么？双有理几何在其他数学分支有什么用处？学习双有理几何的顺序是什么？",
+      "url": "https://www.zhihu.com/answer/3428336822",
+      "summary": "正文明确以代数簇的双有理分类为出发点，并讨论相交数、重数与奇点消解等代数簇性质。"
+    },
+    {
+      "title": "「代数几何」是一门什么样的学科，经历了怎样的发展，与其他数学分支的关系是怎样的？",
+      "url": "https://www.zhihu.com/answer/3496557878",
+      "summary": "正文给出射影代数簇的定义，并讨论子代数簇的相交数及相关构造。"
+    },
+    {
+      "title": "几何分析和代数几何中有哪些“紧化”的方法？不同的紧化方法之间有何联系？",
+      "url": "https://www.zhihu.com/answer/3496700217",
+      "summary": "正文以曲线、一般型代数簇等为例，讲解如何加入退化对象来紧化其模空间。"
+    },
+    {
+      "title": "如何确定K3曲面的betti数和hodge数?",
+      "url": "https://www.zhihu.com/answer/3509134268",
+      "summary": "正文把 K3 曲面表示成射影空间中的四次超曲面 X_n 的零点轨迹，具体构造了射影代数簇。"
+    },
+    {
+      "title": "数学界有什么open problem是通过绝妙思想证明的?",
+      "url": "https://www.zhihu.com/answer/3627113442",
+      "summary": "正文以多项式组的公共零点集表示代数集，并利用代数集与根理想的一一对应把映射条件代数化。"
+    },
+    {
+      "title": "如何理解交换代数中的 flatness？",
+      "url": "https://www.zhihu.com/answer/4218099841",
+      "summary": "正文把平坦模推广为代数簇之间的平坦态射，并用纤维维数判断具体簇映射是否平坦。"
+    },
+    {
+      "title": "群作用到底厉害在哪里？",
+      "url": "https://www.zhihu.com/answer/31432738493",
+      "summary": "正文讨论代数曲线的交、代数簇纤维积及其预期维数，并用高维反例说明额外维数。"
+    },
+    {
+      "title": "两个相离的圆相加会得到什么？这个新圆会有什么性质？",
+      "url": "https://www.zhihu.com/answer/38244180221",
+      "summary": "正文用三元齐次 d 次多项式的零点定义射影平面中的代数曲线，并以曲线族构造 pencil。"
+    },
+    {
+      "title": "引入概形（scheme）有什么用？",
+      "url": "https://www.zhihu.com/answer/44842720385",
+      "summary": "正文通过具体多项式方程在不同域上的解集，解释代数簇对系数域和解集信息的依赖。"
+    },
+    {
+      "title": "如何评价Weil的数学工作以及具有他风格的代数几何？",
+      "url": "https://www.zhihu.com/answer/1899263557658453585",
+      "summary": "正文说明研究有限域上曲线与黎曼猜想时，以曲面、阿贝尔簇等更高维代数簇作为核心对象。"
+    },
+    {
+      "title": "哪个方向是当前数学界最热门的方向？",
+      "url": "https://www.zhihu.com/answer/1945803419437757895",
+      "summary": "正文明确用多项式方程的零点集合说明代数簇，并以圆和方程为例展开。"
+    },
+    {
+      "title": "自然界有哪些运动轨迹是三次曲线，或更高次的代数曲线？",
+      "url": "https://www.zhihu.com/answer/1958979775386326883",
+      "summary": "正文以多项式零点集定义平面代数曲线，并给出四次的 Gerono 双纽线和奇异三次代数曲线实例。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/1968730414249117411",
+      "summary": "正文用多项式环、理想及商环描述代数簇上的函数，并讨论簇间映射的拉回。"
+    },
+    {
+      "title": "代数几何是什么样的几何？",
+      "url": "https://www.zhihu.com/answer/1980229808970547927",
+      "summary": "正文讨论仿射、射影代数簇上的正则函数、凝聚层及 GAGA 对应，并以代数簇为主要对象。"
+    },
+    {
+      "title": "什么是「Hodge 理论」？",
+      "url": "https://www.zhihu.com/answer/1981620692215674763",
+      "summary": "正文以紧致光滑代数簇及其上同调的Hodge结构为对象，讨论周期、模叠和Torelli映射。"
+    },
+    {
+      "title": "2025年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/1984130953640187149",
+      "summary": "正文具体描述志村簇的模 p 纤维、超奇异区域、维数及上同调集中条件。"
+    },
+    {
+      "title": "微分几何的方法可以解决哪些代数几何问题?",
+      "url": "https://www.zhihu.com/answer/1984471506839943124",
+      "summary": "正文把核心问题表述为若干代数簇的相交数，并讨论一般系数下公共零点个数的计算。"
+    },
+    {
+      "title": "2025年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/1987205129812849160",
+      "summary": "正文以 Fano 簇和三次五维簇为例，讨论例外集合、Kuznetsov 分支及其几何信息。"
+    },
+    {
+      "title": "如何理解似然函数?",
+      "url": "https://www.zhihu.com/answer/1987683635017574319",
+      "summary": "正文将参数化统计模型表述为代数簇，并解释有理参数化及行列式簇的约束。"
+    },
+    {
+      "title": "grassmann流形是微分流形么，如何证明？",
+      "url": "https://www.zhihu.com/answer/2013764194714001541",
+      "summary": "正文说明Plucker嵌入把复Grassmann流形实现为射影空间中的代数簇。"
+    },
+    {
+      "title": "代数几何挂科该如何复习?",
+      "url": "https://www.zhihu.com/answer/2022834647126557805",
+      "summary": "正文把 P^2 中直线 C 的结构层截面解释为代数簇的齐次坐标环。"
+    },
+    {
+      "title": "为什么人类使用的坐标系都同胚于 R^n，能否使用不同胚于 R^n 的坐标系？",
+      "url": "https://www.zhihu.com/answer/2033667054339880223",
+      "summary": "正文用多项式定义仿射代数簇，并以其坐标环和正则函数说明空间与函数代数的对应。"
+    },
+    {
+      "title": "用平面去截曲面z^3=x^3+y^3，能否截出所有三次曲线？",
+      "url": "https://www.zhihu.com/answer/2047439743546348213",
+      "summary": "正文把二次曲线写成齐次多项式零点集，并用矩阵合同分类与奇异条件研究射影代数簇。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062613987456463172",
+      "summary": "正文把线性型与二次型相乘得到的三次型嵌入射影空间，并以射影空间、仿射空间和分歧除子解释构造。"
+    },
+    {
+      "title": "怎么评价希尔伯特在1900年提出的23个问题？",
+      "url": "https://www.zhihu.com/answer/2063650270924497206",
+      "summary": "正文用线性方程、平方项和更高次多项式对应的曲线说明 Hilbert 第 16 问所研究的多项式零点曲线。"
+    },
+    {
+      "title": "「四位菲尔兹奖主有三位会说中文」，如何看待菲奖得主约翰·帕登（白杰文）的汉语水平？你对他还有哪些了解？",
+      "url": "https://www.zhihu.com/answer/2063980346568348657",
+      "summary": "正文以光滑复射影三维簇及其有效曲线类为对象定义曲线计数不变量，对应代数簇分支。"
+    },
+    {
+      "title": "雅各布·齐默尔曼获得 2026菲尔兹奖，你对他的成果有哪些了解？",
+      "url": "https://www.zhihu.com/answer/2064018712659866946",
+      "summary": "正文在定理表述中明确使用代数子簇及其与一致化映射图像的交集和不可约分支。"
+    },
+    {
+      "title": "关于”代数几何“方向的一些简单介绍",
+      "url": "https://zhuanlan.zhihu.com/p/19719683",
+      "summary": "正文从公共零点集、齐次多项式和同构关系解释代数簇的基本结构。"
+    },
+    {
+      "title": "一些计算有限域上方程解个数的例子",
+      "url": "https://zhuanlan.zhihu.com/p/27166806",
+      "summary": "正文考察二次曲线、光滑三次射影曲面与 K3 曲面等代数簇在有限域上的有理点个数。"
+    },
+    {
+      "title": "6维欧几里得空间",
+      "url": "https://zhuanlan.zhihu.com/p/27346884",
+      "summary": "正文以 C^4 中的仿射超曲面方程定义 Koras-Russell 三次代数簇，并比较其与 C^3 的结构。"
+    },
+    {
+      "title": "抽象代数|笔记整理（8）——序，代数几何引入，模",
+      "url": "https://zhuanlan.zhihu.com/p/31909442",
+      "summary": "正文以点和直线作为多项式方程组零点集的例子，定义并解释代数簇。"
+    },
+    {
+      "title": "概形是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/32523602",
+      "summary": "正文定义代数簇为多项式组的公共零点集，并讨论其坐标环与态射。"
+    },
+    {
+      "title": "射影概形",
+      "url": "https://zhuanlan.zhihu.com/p/32702584",
+      "summary": "正文用齐次多项式的公共零点定义射影簇，并讨论齐次化与仿射簇的射影闭包。"
+    },
+    {
+      "title": "韦依猜想",
+      "url": "https://zhuanlan.zhihu.com/p/36801489",
+      "summary": "正文以射影非奇异代数簇上的 Zeta 函数为核心对象，并讨论其有理性、函数方程和黎曼型零点性质。"
+    },
+    {
+      "title": "Affine line相关的辛几何",
+      "url": "https://zhuanlan.zhihu.com/p/43725146",
+      "summary": "正文具体区分射影簇的ruled、uniruled和rationally connected等性质。"
+    },
+    {
+      "title": "读物：仿佛来自虚空——Grothendieck的故事（上）",
+      "url": "https://zhuanlan.zhihu.com/p/61406975",
+      "summary": "正文说明概型把不同特征下的代数簇统一起来，使一个代数簇的各个化身可在同一方法下研究。"
+    },
+    {
+      "title": "读物：仿佛来自虚空——Grothendieck的故事（下）",
+      "url": "https://zhuanlan.zhihu.com/p/61409418",
+      "summary": "正文说明有限域上代数簇的 zeta 函数满足有理性和函数方程，并讨论其与拓扑量的联系。"
+    },
+    {
+      "title": "代数簇的德拉姆上同调",
+      "url": "https://zhuanlan.zhihu.com/p/66494336",
+      "summary": "正文先定义有限生成代数对应的仿射代数簇，再解释其为多项式的公共零点集。"
+    },
+    {
+      "title": "代数几何在极值组合中的应用——随机代数构造",
+      "url": "https://zhuanlan.zhihu.com/p/130507593",
+      "summary": "正文把若干多项式的公共零点集作为核心对象，并用Lang-Weil界控制其大小。"
+    },
+    {
+      "title": "菲尔兹奖得主——Caucher Birkar",
+      "url": "https://zhuanlan.zhihu.com/p/148530858",
+      "summary": "正文明确以代数簇指代多项式方程组的解，并讨论按双有理等价对代数簇分类。"
+    },
+    {
+      "title": "代数几何简史",
+      "url": "https://zhuanlan.zhihu.com/p/148865387",
+      "summary": "正文讨论代数簇在仿射空间和射影空间中的方程表示，以及维数和参数化等研究对象。"
+    },
+    {
+      "title": "Algebraic Geometry: The Roots of Scheme I",
+      "url": "https://zhuanlan.zhihu.com/p/330793163",
+      "summary": "正文比较 Cartier、Serre 等人对 algebraic variety 的不同定义。"
+    },
+    {
+      "title": "什么是热带几何？",
+      "url": "https://zhuanlan.zhihu.com/p/339673397",
+      "summary": "正文用热带超平面和赋值映射的闭包具体说明代数簇的热带化，以及零点集的多面体链结构。"
+    },
+    {
+      "title": "最难理解的世界数学难题——霍奇猜想，拓扑学上空的一朵乌云",
+      "url": "https://zhuanlan.zhihu.com/p/371834249",
+      "summary": "正文给出光滑代数簇作为多项式零集的定义，并讨论其中的子簇和代数代表。"
+    },
+    {
+      "title": "复代数几何：affine scheme（已废弃）",
+      "url": "https://zhuanlan.zhihu.com/p/460852306",
+      "summary": "正文回顾代数簇作为多变量多项式公共零集的经典定义，并与现代概形语言比较。"
+    },
+    {
+      "title": "希尔伯特零点定理——几何与代数的关系（一）",
+      "url": "https://zhuanlan.zhihu.com/p/473462113",
+      "summary": "正文定义仿射簇、不可约成分和诺特拓扑空间，并证明不可约代数集对应素理想。"
+    },
+    {
+      "title": "一道代数习题：关于投射模,平坦模,矢量丛的等价性",
+      "url": "https://zhuanlan.zhihu.com/p/482269947",
+      "summary": "正文定义由理想零点集给出的仿射簇，进一步说明坐标环及其与有限生成约化代数之间的对应。"
+    },
+    {
+      "title": "赢代数几何学（Graduate Texts in Winnology 52）",
+      "url": "https://zhuanlan.zhihu.com/p/499947928",
+      "summary": "正文定义多项式零点集和消去多项式理想，并用两种参数化代数集比较其维度。"
+    },
+    {
+      "title": "希尔伯特零点定理——几何与代数的关系",
+      "url": "https://zhuanlan.zhihu.com/p/504197523",
+      "summary": "正文定义仿射簇和不可约成分，并证明诺特代数集可唯一分解为有限个不可约闭集。"
+    },
+    {
+      "title": "Functorial Algebraic Geometry",
+      "url": "https://zhuanlan.zhihu.com/p/523080680",
+      "summary": "正文解释 Hilbert 零点定理如何把仿射代数簇与既约理想对应起来，并推广到范畴等价。"
+    },
+    {
+      "title": "有限域上代数簇的Riemann猜想：Deligne的证明",
+      "url": "https://zhuanlan.zhihu.com/p/555728644",
+      "summary": "正文以有限域上的非奇异超曲面和单参数超曲面族为具体代数簇展开证明。"
+    },
+    {
+      "title": "环簇与组合：用代数几何证明组合学Pick公式",
+      "url": "https://zhuanlan.zhihu.com/p/642475522",
+      "summary": "正文围绕轨道闭包及其仿射开子簇构造分层，并讨论这些代数簇的奇点、同调与 Betti 数。"
+    },
+    {
+      "title": "最反直觉的世界数学难题——霍奇猜想，汇集了最抽象的数学概念",
+      "url": "https://zhuanlan.zhihu.com/p/674901101",
+      "summary": "正文用有限方程组解的公共部分定义代数簇，并说明其与非奇异、射影等性质的关系。"
+    },
+    {
+      "title": "代数几何笔记(1)：从解析几何到代数簇",
+      "url": "https://zhuanlan.zhihu.com/p/643879787",
+      "summary": "正文定义不可约仿射代数集为仿射代数簇，并证明其与素理想一一对应。"
+    },
+    {
+      "title": "Motives：Grothendieck 的梦想",
+      "url": "https://zhuanlan.zhihu.com/p/681501229",
+      "summary": "正文把非异射影代数簇作为主要研究对象，并讨论其上由多项式定义的几何结构与上同调。"
+    },
+    {
+      "title": "科普：猫也能看懂的代数几何——Fermat 四次曲面",
+      "url": "https://zhuanlan.zhihu.com/p/2017385512927782057",
+      "summary": "正文从多元多项式零点集出发定义曲线、曲面及 Fermat 代数簇。"
+    },
+    {
+      "title": "代数几何学与弦理论",
+      "url": "https://zhuanlan.zhihu.com/p/2050307410531825145",
+      "summary": "正文把多项式方程的解集作为代数簇式几何对象，用它解释积分多值性的来源。"
+    },
+    {
+      "title": "科普：猫也能注意到 —— Γ函数的秘密花园",
+      "url": "https://zhuanlan.zhihu.com/p/2051672162260497844",
+      "summary": "正文把 Gamma 商化为 Fermat 代数曲线上的周期，并用曲线对称性解释判别法。"
+    },
+    {
+      "title": "2026菲尔兹奖预测——韩媒东亚科学（Donga Science）预测2026四位菲尔兹奖得主杰克・索恩、雅各布・齐默尔曼、王虹、邓煜",
+      "url": "https://zhuanlan.zhihu.com/p/2056717381280577078",
+      "summary": "正文用多项式方程解集解释代数簇，并据此说明志村簇这一特殊代数簇。"
+    }
+  ]
+}

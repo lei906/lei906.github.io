@@ -1,0 +1,3151 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l6-t4-b1",
+  "sources": [
+    {
+      "title": "请形象地说明Matrix is close to singular是怎样的？",
+      "url": "https://www.zhihu.com/answer/16568267",
+      "summary": "用强压缩后求逆会放大测量和存储误差来解释近奇异矩阵的数值不稳定性。"
+    },
+    {
+      "title": "研究数值分析的真正用途是什么？从长远来说，有必要研究数值分析吗？",
+      "url": "https://www.zhihu.com/answer/26238507",
+      "summary": "正文围绕“数值分析”给出直接说明。"
+    },
+    {
+      "title": "数值分析这门课程有什么好点的书？",
+      "url": "https://www.zhihu.com/answer/33683414",
+      "summary": "正文针对数值分析给出具体教材选择与特点。"
+    },
+    {
+      "title": "计算数学在数学界是什么样的地位？",
+      "url": "https://www.zhihu.com/answer/34899173",
+      "summary": "正文说明数值计算在偏微分方程求解中的作用。"
+    },
+    {
+      "title": "计算数学在数学界是什么样的地位？",
+      "url": "https://www.zhihu.com/answer/34973905",
+      "summary": "正文论述计算数学、数值模拟及其理论和应用作用。"
+    },
+    {
+      "title": "FDM、FVM、FEM之间到底有没有联系？",
+      "url": "https://www.zhihu.com/answer/35153925",
+      "summary": "正文区分有限差分、有限体积和有限元等数值方法。"
+    },
+    {
+      "title": "Photoshop 中有时要提高或降低图像分辨率，会遇到两次立方，这种算法是怎么回事？",
+      "url": "https://www.zhihu.com/answer/38113729",
+      "summary": "正文解释图像缩放的线性与立方插值及其平滑效果，属于数值计算方法。"
+    },
+    {
+      "title": "不同领域的圣经级书籍有哪些？",
+      "url": "https://www.zhihu.com/answer/42094999",
+      "summary": "正文推荐数值分析著作。"
+    },
+    {
+      "title": "为什么数值分析这么难？",
+      "url": "https://www.zhihu.com/answer/43444714",
+      "summary": "正文概括数值分析的数值代数、逼近及微分方程数值解内容。"
+    },
+    {
+      "title": "有限元方法的核心思想是什么？",
+      "url": "https://www.zhihu.com/answer/43989189",
+      "summary": "正文将有限元定位为近似数值方法，并说明精度和计算量权衡。"
+    },
+    {
+      "title": "哪些看上去很先进的事物其实早就发明了？",
+      "url": "https://www.zhihu.com/answer/44063508",
+      "summary": "正文解释快速平方根倒数程序所用的牛顿迭代数值方法。"
+    },
+    {
+      "title": "double 类型的数是不是不能精确赋值？",
+      "url": "https://www.zhihu.com/answer/53225243",
+      "summary": "正文解释二进制浮点表示、舍入与数值误差控制。"
+    },
+    {
+      "title": "什么是欧拉方法（Euler's method）?",
+      "url": "https://www.zhihu.com/answer/59795609",
+      "summary": "正文说明欧拉法以折线逼近曲线，是数值分析方法。"
+    },
+    {
+      "title": "金融衍生品定价有哪些基本方法？",
+      "url": "https://www.zhihu.com/answer/65331841",
+      "summary": "正文对比 PDE、树与模拟等金融定价数值方法。"
+    },
+    {
+      "title": "使用 epsilon 比较浮点数是否不够科学？",
+      "url": "https://www.zhihu.com/answer/71040828",
+      "summary": "正文明确介绍数值分析中的误差上界与收敛阶。"
+    },
+    {
+      "title": "CFD 中经常出现的格式几阶精度，这个精度是怎么衡量的？",
+      "url": "https://www.zhihu.com/answer/72751296",
+      "summary": "正文系统解释数值格式的误差、范数与收敛阶计算。"
+    },
+    {
+      "title": "你见过哪些令你瞠目结舌的C/C++代码技巧？",
+      "url": "https://www.zhihu.com/answer/73323805",
+      "summary": "正文介绍快速平方根倒数的数值近似算法与初值优化。"
+    },
+    {
+      "title": "如何使用Krylov方法求解矩阵的运算尤其是逆？",
+      "url": "https://www.zhihu.com/answer/73365393",
+      "summary": "正文解释牺牲精度换速度的矩阵数值算法。"
+    },
+    {
+      "title": "数值分析在现实中有哪些应用？",
+      "url": "https://www.zhihu.com/answer/73426445",
+      "summary": "正文系统解释数值分析的目标、算法思想和现实应用。"
+    },
+    {
+      "title": "有限元分析时是网格画的越细越精确吗？",
+      "url": "https://www.zhihu.com/answer/86823694",
+      "summary": "正文从一致性、稳定性、收敛性及数值误差解释网格精度。"
+    },
+    {
+      "title": "如何用简单的例子解释什么是 Generalized Method of Moments (GMM)？",
+      "url": "https://www.zhihu.com/answer/92940470",
+      "summary": "正文指出 GMM 实际求解一般使用数值方法。"
+    },
+    {
+      "title": "用 Agent-based 方法研究宏观经济学的困难与前景？",
+      "url": "https://www.zhihu.com/answer/96893694",
+      "summary": "正文用格点搜索解释数值计算中的维数灾难。"
+    },
+    {
+      "title": "0x5f3759df这个快速开方中的常数的数学依据是什么？",
+      "url": "https://www.zhihu.com/answer/101612271",
+      "summary": "正文以牛顿迭代和初值选择解释快速平方根算法的数值逼近。"
+    },
+    {
+      "title": "不用Matlab MPC工具箱怎么编写MPC？",
+      "url": "https://www.zhihu.com/answer/118645471",
+      "summary": "正文介绍矩阵指数、数值积分与多重打靶等数值离散和求解步骤。"
+    },
+    {
+      "title": "分布的相似度（距离）用什么模型比较好？",
+      "url": "https://www.zhihu.com/answer/118705625",
+      "summary": "正文比较精确和近似 Wasserstein 算法的复杂度与数值计算代价。"
+    },
+    {
+      "title": "金融工程还有哪些值得研究的领域或思路？",
+      "url": "https://www.zhihu.com/answer/119789564",
+      "summary": "正文专节讨论金融模型离散化、误差分析、数值积分与计算性能。"
+    },
+    {
+      "title": "量子蒙卡SSE算法是什么？",
+      "url": "https://www.zhihu.com/answer/119873786",
+      "summary": "正文比较严格对角化、DMRG、张量网络和蒙特卡洛等量子多体数值方法。"
+    },
+    {
+      "title": "现代数学上有哪些难题，解决后可以立刻推动人类文明飞跃？",
+      "url": "https://www.zhihu.com/answer/120157165",
+      "summary": "正文对比解析解与计算机反复逼近得到数值解的代价。"
+    },
+    {
+      "title": "这个求指数函数exp()的快速近似方法的原理是什么?",
+      "url": "https://www.zhihu.com/answer/123794632",
+      "summary": "全文围绕浮点指数函数的快速近似、误差常数与可推广的数值计算方法展开。"
+    },
+    {
+      "title": "为什么数值分析这么难？",
+      "url": "https://www.zhihu.com/answer/125643486",
+      "summary": "正文讨论数值分析的传统数值解法、算法原理及实践应用。"
+    },
+    {
+      "title": "关于 C++ 编程的一道题，有哪些解决思路？",
+      "url": "https://www.zhihu.com/answer/125696132",
+      "summary": "正文详细分析浮点数求二次方程根时的溢出、消减误差和稳定算法。"
+    },
+    {
+      "title": "有哪些看起来很高端的技术其实原理很暴力很初级？",
+      "url": "https://www.zhihu.com/answer/129594933",
+      "summary": "正文系统分解数值近似的绘图、裁剪、仪器和材料误差，估计相对误差上界及有效精度。"
+    },
+    {
+      "title": "科学为何有那么多近似计算？这样是不是和科学的严谨性相违背？",
+      "url": "https://www.zhihu.com/answer/130670413",
+      "summary": "正文明确指出近似计算的严谨性依赖误差分析、估计与控制，概括数值分析的基本原则。"
+    },
+    {
+      "title": "相机位姿求解问题？",
+      "url": "https://www.zhihu.com/answer/132005467",
+      "summary": "正文讨论噪声、闭式解、伪逆、SVD、最小二乘和迭代方法，是数值求解的完整应用。"
+    },
+    {
+      "title": "三体问题无解，可能的误差来自于哪里？",
+      "url": "https://www.zhihu.com/answer/135092098",
+      "summary": "正文比较不同计算器、等价表达式和积分步长造成的数值误差，属于数值分析案例。"
+    },
+    {
+      "title": "在英雄联盟中为什么要分上单，中单，打野，ADC和辅助这些角色？能证明这种阵容比其他阵容更有效吗？",
+      "url": "https://www.zhihu.com/answer/138396510",
+      "summary": "正文使用系统动力学软件对所建方程进行数值仿真。"
+    },
+    {
+      "title": "如果汽车转弯时方向盘打死，汽车的运动轨迹是一个圆，那么汽车转弯的同时慢慢回正方向盘，运动轨迹是怎样的？",
+      "url": "https://www.zhihu.com/answer/141408834",
+      "summary": "正文把总时长离散成多个时间步并数值模拟车辆轨迹。"
+    },
+    {
+      "title": "牛顿插值的几何解释是怎么样的？",
+      "url": "https://www.zhihu.com/answer/141973314",
+      "summary": "正文定义插值并完整推导牛顿差商插值，属于数值分析方法。"
+    },
+    {
+      "title": "如何通俗易懂地讲解牛顿迭代法求开方（数值分析）？",
+      "url": "https://www.zhihu.com/answer/146104283",
+      "summary": "正文完整推导牛顿迭代这一数值求根算法，并分析初值、收敛和多根问题。"
+    },
+    {
+      "title": "牛顿法怎么理解？还有什么其他方法进行高次方程的数值求解？",
+      "url": "https://www.zhihu.com/answer/146948429",
+      "summary": "正文详细介绍牛顿法局限、级联求根、二分搜索与误差有限的数值求根流程。"
+    },
+    {
+      "title": "wasserstein 距离的问题?",
+      "url": "https://www.zhihu.com/answer/147394973",
+      "summary": "正文说明任意分布的离散近似及实际计算依赖离散化的数值方法。"
+    },
+    {
+      "title": "龙格现象产生的原因？",
+      "url": "https://www.zhihu.com/answer/149497977",
+      "summary": "正文推导多项式插值误差、复平面围道与 Chebyshev 节点收敛性，属于数值分析。"
+    },
+    {
+      "title": "那些打破圆周率小数位计算的记录是怎么判断计算得正不正确的？",
+      "url": "https://www.zhihu.com/answer/150873781",
+      "summary": "正文讨论圆周率大规模计算、随机验算、快速幂模和分布式计算，属于数值计算。"
+    },
+    {
+      "title": "是否存在一个三角形，其重心、垂心和内心所连成的三角形与原三角形相似？",
+      "url": "https://www.zhihu.com/answer/153605672",
+      "summary": "正文用数值迭代和误差范数搜索满足中心三角形相似条件的解。"
+    },
+    {
+      "title": "微分方程数值方法和偏微分方程有什么区别吗？",
+      "url": "https://www.zhihu.com/answer/154630733",
+      "summary": "正文系统比较 ODE 与 PDE 数值解的相容性、稳定性、收敛性和主要离散方法。"
+    },
+    {
+      "title": "计算数学专业，想问一下目前计算数学哪个比较热门？",
+      "url": "https://www.zhihu.com/answer/155732379",
+      "summary": "正文概述传统数值分析、矩阵计算、收敛分析和计算数学就业方向。"
+    },
+    {
+      "title": "在数学的学习过程中，为什么老师们普遍排斥学生们使用自动化的计算方法？",
+      "url": "https://www.zhihu.com/answer/157197306",
+      "summary": "正文以计算软件求解高阶复数线性问题，讨论科学计算和数值实践。"
+    },
+    {
+      "title": "拟合与插值的区别？",
+      "url": "https://www.zhihu.com/answer/168086445",
+      "summary": "正文系统比较插值与拟合并介绍拉格朗日、牛顿、Hermite 和分段插值。"
+    },
+    {
+      "title": "CFD 模拟软件有哪些？",
+      "url": "https://www.zhihu.com/answer/173993606",
+      "summary": "正文比较多相流数值求解器中的有限体积、有限差分、网格和精度方法。"
+    },
+    {
+      "title": "为什么tan 90°拿计算器算出来是1.63312394e16？",
+      "url": "https://www.zhihu.com/answer/177274601",
+      "summary": "正文从浮点算法、查表、泰勒近似和截断误差解释计算器结果。"
+    },
+    {
+      "title": "常微分方程的通解包含所有的解吗？",
+      "url": "https://www.zhihu.com/answer/209194337",
+      "summary": "正文用欧拉折线说明微分方程的数值近似及步长误差。"
+    },
+    {
+      "title": "为什么理工科更看重“闭合解”和“解析解”，其次考虑给出“迭代格式”的“数值解”？",
+      "url": "https://www.zhihu.com/answer/212617879",
+      "summary": "正文比较解析解、迭代格式和数值计算的精度与效率。"
+    },
+    {
+      "title": "有哪些让人相见恨晚的 MATLAB 命令？",
+      "url": "https://www.zhihu.com/answer/228257822",
+      "summary": "正文解释 Chebfun 以等距点或切比雪夫点作函数数值逼近。"
+    },
+    {
+      "title": "为什么有人说《暗黑破坏神 3》中的随机是「伪随机」？",
+      "url": "https://www.zhihu.com/answer/233788603",
+      "summary": "正文用中值逼近数值求取PRD参数。"
+    },
+    {
+      "title": "我发现了一个关于级数的公式，但是由于我只是一个高中生，水平有限，我不清楚它所带来的意义有多大，求解答？",
+      "url": "https://www.zhihu.com/answer/234792462",
+      "summary": "正文指出欧拉–麦克劳林公式可数值计算定积分。"
+    },
+    {
+      "title": "大家有没有小时候的一些猜想结果有的科学家和你想的一样，而且去证实？或者谈谈你们小时候的猜想！？",
+      "url": "https://www.zhihu.com/answer/237429446",
+      "summary": "正文把反复按余弦键解释为数值迭代法。"
+    },
+    {
+      "title": "谁能用一句话解释清楚三次样条插值方法？查了原理，还是蒙圈！",
+      "url": "https://www.zhihu.com/answer/244310086",
+      "summary": "正文解释三次样条插值的分段三次函数和二阶导连续条件。"
+    },
+    {
+      "title": "中国真的在文化、数学上都曾经领先世界几百年吗？",
+      "url": "https://www.zhihu.com/answer/244966256",
+      "summary": "正文解释插值法由离散观测数据近似函数并预测数据的数值思想。"
+    },
+    {
+      "title": "Computational mathematics（计算数学）是一个怎样的专业？",
+      "url": "https://www.zhihu.com/answer/249458474",
+      "summary": "正文把计算数学定义为研究各类问题数值解的学科。"
+    },
+    {
+      "title": "写大规模三维并行计算流体力学(CFD)求解器时，有什么经验和心得？",
+      "url": "https://www.zhihu.com/answer/256628270",
+      "summary": "正文从离散格式、误差、求解器和复杂度讲解 CFD 数值计算。"
+    },
+    {
+      "title": "如何學習好數值分析（numerical analysis）？",
+      "url": "https://www.zhihu.com/answer/258392138",
+      "summary": "正文从误差、稳定性、复杂度与工程选择系统讲解数值分析。"
+    },
+    {
+      "title": "如何直观地理解拉格朗日插值法？",
+      "url": "https://www.zhihu.com/answer/262507694",
+      "summary": "正文从数据点拟合需求推导 Lagrange 多项式插值法。"
+    },
+    {
+      "title": "如何直观地理解拉格朗日插值法？",
+      "url": "https://www.zhihu.com/answer/262566123",
+      "summary": "正文以 0/1 开关直观推导 Lagrange 插值基函数。"
+    },
+    {
+      "title": "你见过哪些极品论文？",
+      "url": "https://www.zhihu.com/answer/263455162",
+      "summary": "正文指出所谓新模型实为数值积分中的梯形法。"
+    },
+    {
+      "title": "学习计算机图形学要具备什么样的数学基础？",
+      "url": "https://www.zhihu.com/answer/270832148",
+      "summary": "正文比较直接消元的取整误差与迭代法的逐步修正，并列举雅可比和高斯-赛德尔方法。"
+    },
+    {
+      "title": "流体力学中的JFNK方法是怎么一回事？",
+      "url": "https://www.zhihu.com/answer/271588881",
+      "summary": "正文完整推导 Jacobian-free Newton-Krylov 数值算法。"
+    },
+    {
+      "title": "有哪些「大众默认专家搞懂了，实际上没人能解释清楚」的例子？",
+      "url": "https://www.zhihu.com/answer/274645822",
+      "summary": "正文说明方程缺乏解析解，需要计算机求数值解。"
+    },
+    {
+      "title": "怎样利用 MATLAB 求一维含时薛定谔方程的数值解？",
+      "url": "https://www.zhihu.com/answer/278044905",
+      "summary": "正文用有限差分、矩阵指数和离散时间步数值求解薛定谔方程。"
+    },
+    {
+      "title": "为什么很少人用FFT加速CNN卷积层的运算？",
+      "url": "https://www.zhihu.com/answer/280445640",
+      "summary": "正文明确分析数值精度对实际计算的影响。"
+    },
+    {
+      "title": "曼德勃罗集的面积能算吗？Julia 集（内部）呢？",
+      "url": "https://www.zhihu.com/answer/292196908",
+      "summary": "正文比较级数算法、蒙特卡罗与自适应数格子的数值效率。"
+    },
+    {
+      "title": "如何评价冯康在计算数学领域的地位？",
+      "url": "https://www.zhihu.com/answer/308554434",
+      "summary": "正文评价冯康在计算数学、数值计算与工程应用中的贡献。"
+    },
+    {
+      "title": "中国古代数学有什么成就？",
+      "url": "https://www.zhihu.com/answer/311168238",
+      "summary": "正文展开内插法作为数值逼近方法，并说明其后如何发展出不等间距与三次内插。"
+    },
+    {
+      "title": "牛顿插值的几何解释是怎么样的？",
+      "url": "https://www.zhihu.com/answer/323100067",
+      "summary": "正文系统比较线性、多项式、样条和 Hermite 插值，并以余项分析数值误差。"
+    },
+    {
+      "title": "圆周率 π 在实际工程领域最多用到了多少位？",
+      "url": "https://www.zhihu.com/answer/326863751",
+      "summary": "正文说明数值计算中必须根据精度代入圆周率近似值。"
+    },
+    {
+      "title": "机器视觉的相机标定到底是什么？",
+      "url": "https://www.zhihu.com/answer/335573627",
+      "summary": "正文详细推导SVD、最小二乘及LM迭代等数值求解方法。"
+    },
+    {
+      "title": "什么是密度矩阵重整化群？",
+      "url": "https://www.zhihu.com/answer/353380088",
+      "summary": "正文系统比较数值重整化、蒙特卡洛与 DMRG 数值方法。"
+    },
+    {
+      "title": "如何计算可逆矩阵的逆矩阵？",
+      "url": "https://www.zhihu.com/answer/359381546",
+      "summary": "正文比较高斯消元、LU、SVD、QR 的机器计算特点。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/380254949",
+      "summary": "正文讨论数值迭代最终收敛到方程解。"
+    },
+    {
+      "title": "线性代数有什么用？学习线性代数的意义在哪？",
+      "url": "https://www.zhihu.com/answer/381641345",
+      "summary": "正文具体讨论矩阵实现的计算效率、最小二乘稳定性与QR分解。"
+    },
+    {
+      "title": "一个边长为10的正方形内最多可放入多少个直径为 1 的圆？",
+      "url": "https://www.zhihu.com/answer/401858575",
+      "summary": "正文以数值算法和势能迭代求圆堆积近似最优解。"
+    },
+    {
+      "title": "一个边长为10的正方形内最多可放入多少个直径为 1 的圆？",
+      "url": "https://www.zhihu.com/answer/403255694",
+      "summary": "正文讲解圆堆积的数值迭代、局部解和算法验证。"
+    },
+    {
+      "title": "如何自己编程实现流体数值模拟？",
+      "url": "https://www.zhihu.com/answer/418053694",
+      "summary": "正文细述有限差分、交错网格、线性求解器及多重网格。"
+    },
+    {
+      "title": "读应用数学 PhD 是一种什么样的体验？",
+      "url": "https://www.zhihu.com/answer/495492804",
+      "summary": "正文介绍计算数学中的数值分析研究内容。"
+    },
+    {
+      "title": "如何评价线性代数的几个理解层次？",
+      "url": "https://www.zhihu.com/answer/500851741",
+      "summary": "正文说明大规模矩阵数值求解属于数值分析研究。"
+    },
+    {
+      "title": "有限差分法和有限体积法的区别？",
+      "url": "https://www.zhihu.com/answer/531346316",
+      "summary": "系统比较有限差分与有限体积离散微分方程的构造、精度和网格适用性。"
+    },
+    {
+      "title": "「数理化生」四个学科间有哪些联系？",
+      "url": "https://www.zhihu.com/answer/536436458",
+      "summary": "正文明确说明复杂分子模型需要数值分析与模拟。"
+    },
+    {
+      "title": "数理背景不强，如何有效的自学科学计算（计算经济学）？",
+      "url": "https://www.zhihu.com/answer/539621776",
+      "summary": "全文围绕计算经济学中的扰动、投影、迭代等数值方法和资料展开。"
+    },
+    {
+      "title": "如何通俗易懂地讲解牛顿迭代法求开方（数值分析）？",
+      "url": "https://www.zhihu.com/answer/543620219",
+      "summary": "正文以长方形逐步变正方形解释平方根数值迭代。"
+    },
+    {
+      "title": "有哪些令人拍案叫绝的算法？",
+      "url": "https://www.zhihu.com/answer/547990689",
+      "summary": "正文关注数值精度、浮点表示、区间缩减和 Horner 算法。"
+    },
+    {
+      "title": "这个荔枝弯曲的形状是否有曲线方程？",
+      "url": "https://www.zhihu.com/answer/555451879",
+      "summary": "用打靶法和 Mathematica 数值求解梁的非线性边值问题。"
+    },
+    {
+      "title": "椭圆外一点到这个椭圆最大距离怎么求解？我得到一个四次方程，但是好像做不下去了…有简便的解法吗？",
+      "url": "https://www.zhihu.com/answer/562955426",
+      "summary": "正文比较迭代、摄动和代数分解等数值求根方法。"
+    },
+    {
+      "title": "如何通俗易懂地讲解牛顿迭代法求开方（数值分析）？",
+      "url": "https://www.zhihu.com/answer/564405611",
+      "summary": "从切线求根构造牛顿迭代，并讨论局部收敛和误差。"
+    },
+    {
+      "title": "机器学习或者深度学习能替代有限元么？",
+      "url": "https://www.zhihu.com/answer/575686388",
+      "summary": "正文强调有限差分等传统数值计算。"
+    },
+    {
+      "title": "√3 大约是多少？该如何计算？",
+      "url": "https://www.zhihu.com/answer/585843958",
+      "summary": "构造迭代公式数值逼近根号三并讨论误差。"
+    },
+    {
+      "title": "微积分能解决哪些在生活中遇到的实际问题？",
+      "url": "https://www.zhihu.com/answer/587108070",
+      "summary": "介绍把连续方程离散化为差分格式进行数值模拟。"
+    },
+    {
+      "title": "√3 大约是多少？该如何计算？",
+      "url": "https://www.zhihu.com/answer/592105391",
+      "summary": "正文用固定点迭代、Newton 法和收敛阶计算根号 3。"
+    },
+    {
+      "title": "刚从事CAE有限元，老板跟我说单元中间节点上的应力结果不读，边界条件处的应力不读，想问一下为什么？",
+      "url": "https://www.zhihu.com/answer/601595059",
+      "summary": "正文讨论数值外推、网格加密与结果精度。"
+    },
+    {
+      "title": "目前求 π 的算法中哪种收敛最快？",
+      "url": "https://www.zhihu.com/answer/601728029",
+      "summary": "正文讨论数值迭代算法的收敛阶。"
+    },
+    {
+      "title": "PDE(基础方向、流体)和CFD(计算方向)该选哪个？",
+      "url": "https://www.zhihu.com/answer/602048951",
+      "summary": "正文讨论计算格式的稳定性、收敛性和工程实现。"
+    },
+    {
+      "title": "计算器会算错吗？",
+      "url": "https://www.zhihu.com/answer/605554886",
+      "summary": "正文解释计算器截断与数值微分造成的数值误差。"
+    },
+    {
+      "title": "如果炸弹每秒钟爆炸概率提高一点，从数学期望上来看最有可能在哪一秒爆炸？",
+      "url": "https://www.zhihu.com/answer/611822195",
+      "summary": "正文给出数值积分等数值求解方法。"
+    },
+    {
+      "title": "√3 大约是多少？该如何计算？",
+      "url": "https://www.zhihu.com/answer/618401783",
+      "summary": "正文分析迭代近似的数值误差收敛。"
+    },
+    {
+      "title": "运筹学（最优化理论）如何入门？",
+      "url": "https://www.zhihu.com/answer/618437135",
+      "summary": "正文说明数值优化方法和收敛性。"
+    },
+    {
+      "title": "方程 x³+y³+z³=33 是否存在整数解？",
+      "url": "https://www.zhihu.com/answer/619380293",
+      "summary": "正文解释格基规约如何提高数值搜索效率。"
+    },
+    {
+      "title": "请问数值分析，数值计算方法，最优化计算方法这三门课有什么区别？",
+      "url": "https://www.zhihu.com/answer/626338485",
+      "summary": "区分数值代数、数值分析、微分方程数值解与优化算法。"
+    },
+    {
+      "title": "在地球上挖一条何种走向的隧道能使小球仅受引力作用不接触隧道壁从一端运动到另一端？",
+      "url": "https://www.zhihu.com/answer/636520980",
+      "summary": "比较欧拉中点和四阶 Runge-Kutta 的精度与长时误差。"
+    },
+    {
+      "title": "遇到一个具体的六轴机械臂，对其时间最优轨迹规划算法进行设计需要考虑哪些问题？",
+      "url": "https://www.zhihu.com/answer/651720444",
+      "summary": "比较数值积分与凸优化两类数值求解方法。"
+    },
+    {
+      "title": "知道了三维bulk的紧束缚哈密顿量，如何计算slab的哈密顿量进而得到surface state？",
+      "url": "https://www.zhihu.com/answer/672859372",
+      "summary": "用递归格林函数数值计算半无限体系表面态。"
+    },
+    {
+      "title": "请问卡西欧991计算器怎么计算高斯赛德尔迭代式？",
+      "url": "https://www.zhihu.com/answer/688893148",
+      "summary": "在计算器上实现 Gauss–Seidel 数值迭代求解。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/694095790",
+      "summary": "推导高斯求积节点、权重与多项式精确度。"
+    },
+    {
+      "title": "解微分方程为什么会出现个 e？",
+      "url": "https://www.zhihu.com/answer/706433889",
+      "summary": "正文以差分近似和取极限构成完整的数值分析推导。"
+    },
+    {
+      "title": "你身边有哪些神人？",
+      "url": "https://www.zhihu.com/answer/712722001",
+      "summary": "叙述傅里叶提出数值分析并求多项式根。"
+    },
+    {
+      "title": "为什么 MATLAB 的矩阵运算能力强？",
+      "url": "https://www.zhihu.com/answer/726369589",
+      "summary": "说明偏微分方程数值求解需转化为稀疏矩阵计算。"
+    },
+    {
+      "title": "拉马努金是怎么发现那些壮观的公式的？",
+      "url": "https://www.zhihu.com/answer/727813608",
+      "summary": "比较数值计算精度和收敛速度。"
+    },
+    {
+      "title": "一竖直旋转圆柱上连接一均质柔软有限长绳，稳定时绳是什么形状？",
+      "url": "https://www.zhihu.com/answer/732611277",
+      "summary": "使用数值方法求解难以解析处理的方程。"
+    },
+    {
+      "title": "为什么国内做偏微分方程（PDE）的人这么多，而且招学生非常快？",
+      "url": "https://www.zhihu.com/answer/741482476",
+      "summary": "从数值方法的新意、稳定性和收敛阶等方面描述偏微分方程数值研究。"
+    },
+    {
+      "title": "如何估计 ln2 的近似值？",
+      "url": "https://www.zhihu.com/answer/767974175",
+      "summary": "正文以牛顿迭代和数值近似逐步计算对数值。"
+    },
+    {
+      "title": "世界上是不是不存在完美的圆？",
+      "url": "https://www.zhihu.com/answer/777686479",
+      "summary": "以迭代公式和程序说明数值计算。"
+    },
+    {
+      "title": "手机计算器是如何较快算出 4500! 的值的？",
+      "url": "https://www.zhihu.com/answer/778032424",
+      "summary": "以Lanczos近似解释计算器快速计算阶乘。"
+    },
+    {
+      "title": "如何求解微分方程 y\"+（y'）²-y＝0？",
+      "url": "https://www.zhihu.com/answer/778374174",
+      "summary": "用数值微分方程工具求近似解并作图。"
+    },
+    {
+      "title": "圆周率已被算到31.4万亿位，科学家如此执着，到底为了什么？",
+      "url": "https://www.zhihu.com/answer/793112110",
+      "summary": "介绍圆周率算法、并行计算与数值验证。"
+    },
+    {
+      "title": "如何解决abaqus分析不收敛的问题？",
+      "url": "https://www.zhihu.com/answer/821216752",
+      "summary": "说明隐式求解器通过迭代与误差阈值判断收敛。"
+    },
+    {
+      "title": "如何评价2019年全国大学生数学建模竞赛？",
+      "url": "https://www.zhihu.com/answer/821917386",
+      "summary": "用数值迭代寻求模型稳定解。"
+    },
+    {
+      "title": "如何评价2019年全国大学生数学建模竞赛？",
+      "url": "https://www.zhihu.com/answer/825366828",
+      "summary": "通过步长与误差讨论模拟精度和稳定。"
+    },
+    {
+      "title": "分子动力学模拟是化学吗？",
+      "url": "https://www.zhihu.com/answer/834762147",
+      "summary": "正文从分子动力学程序与时间步公式解释速度、坐标的数值积分更新。"
+    },
+    {
+      "title": "CFD高精度格式的分类方法？",
+      "url": "https://www.zhihu.com/answer/845526126",
+      "summary": "系统比较高阶数值格式、稳定性、误差与收敛。"
+    },
+    {
+      "title": "补零、频谱泄露、栅栏效应的关系？",
+      "url": "https://www.zhihu.com/answer/851575158",
+      "summary": "讨论离散采样点数、补零和数值分辨率。"
+    },
+    {
+      "title": "方程 x³+y³+z³=33 是否存在整数解？",
+      "url": "https://www.zhihu.com/answer/864595767",
+      "summary": "解释大整数浮点精度导致的验算误差。"
+    },
+    {
+      "title": "C 语言中如何尽量简单地用 while 语句求 1 到 10 的阶乘？",
+      "url": "https://www.zhihu.com/answer/879015449",
+      "summary": "用 Stirling 公式与程序近似计算大阶乘。"
+    },
+    {
+      "title": "有没有用Matlab写出的有趣的代码？",
+      "url": "https://www.zhihu.com/answer/887847441",
+      "summary": "用 MATLAB 数值运算处理量纲模型与观测数据。"
+    },
+    {
+      "title": "计算数学对纯数学能力要求大概到什么程度?",
+      "url": "https://www.zhihu.com/answer/897339817",
+      "summary": "正文系统介绍数值线性代数、偏微分方程数值解、有限元与收敛分析等计算数学方向。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/936301585",
+      "summary": "正文解释二分法搜索数值根，并给出实现任意多项式数值求根的程序。"
+    },
+    {
+      "title": "定积分的近似计算中抛物线法怎么理解？",
+      "url": "https://www.zhihu.com/answer/936983311",
+      "summary": "正文比较矩形、梯形和抛物线数值积分，并推导近似计算步骤。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/944531951",
+      "summary": "正文用固定点迭代把方程转化为可数值逼近的迭代式。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/945433460",
+      "summary": "正文用 Newton 迭代法数值求解给定三次方程。"
+    },
+    {
+      "title": "怎样徒手开三次根号、四次根号？",
+      "url": "https://www.zhihu.com/answer/947272443",
+      "summary": "正文给出手算三次根、四次根乃至 n 次根的逐位逼近算法。"
+    },
+    {
+      "title": "一个数的0.5次方怎么算？",
+      "url": "https://www.zhihu.com/answer/950553602",
+      "summary": "正文给出迭代公式计算平方根，并说明逐位手算近似过程。"
+    },
+    {
+      "title": "一句话的信息量能大到什么程度？",
+      "url": "https://www.zhihu.com/answer/958002142",
+      "summary": "正文实质推导有限差分格式及其离散计算过程。"
+    },
+    {
+      "title": "一个数的0.5次方怎么算？",
+      "url": "https://www.zhihu.com/answer/974068613",
+      "summary": "正文用一次牛顿迭代近似计算平方根并检验误差。"
+    },
+    {
+      "title": "数列 0, 1, 0, -1, 0, 1, 0, -1... 的通项公式是多少呢？",
+      "url": "https://www.zhihu.com/answer/1021282273",
+      "summary": "正文直接构造并写出插值多项式，属于数值分析内容。"
+    },
+    {
+      "title": "如何直观理解矩阵和线性代数？",
+      "url": "https://www.zhihu.com/answer/1023650088",
+      "summary": "正文持续讨论工程计算中的数值分析观点。"
+    },
+    {
+      "title": "为什么随便在计算器上按个数，然后多次按 cos 键，结果总是趋近于 0.73几？",
+      "url": "https://www.zhihu.com/answer/1025050998",
+      "summary": "正文把计算器反复按键解释为数值求根算法。"
+    },
+    {
+      "title": "除了π，e，0.618，还有没有其他一些有特殊意义的数？",
+      "url": "https://www.zhihu.com/answer/1161680627",
+      "summary": "正文比较定点迭代与Newton法的收敛速度和误差。"
+    },
+    {
+      "title": "一个初中物理题目让我纠结了十年，是我错了吗？",
+      "url": "https://www.zhihu.com/answer/1197977197",
+      "summary": "正文给出数值求解代码、相图与周期积分。"
+    },
+    {
+      "title": "在B-spline中，如何理解knot和breakpoint？彼此之间联系和区别是什么？",
+      "url": "https://www.zhihu.com/answer/1216384445",
+      "summary": "正文系统讲解 B 样条节点、基函数和数值表示。"
+    },
+    {
+      "title": "1stopt软件到底性能怎样？",
+      "url": "https://www.zhihu.com/answer/1280109817",
+      "summary": "正文讨论非线性拟合、微分方程拟合和优化求解的数值性能。"
+    },
+    {
+      "title": "什么是有限元?",
+      "url": "https://www.zhihu.com/answer/1298462011",
+      "summary": "正文把有限元法定位为数值近似方法。"
+    },
+    {
+      "title": "如何评价国产软件 TRUFFER（可替代 MATLAB）？",
+      "url": "https://www.zhihu.com/answer/1301118167",
+      "summary": "正文从矩阵和数值算法角度评价软件实现。"
+    },
+    {
+      "title": "计算数学和偏微分方程数值方法方面的书，请问有推荐的吗？",
+      "url": "https://www.zhihu.com/answer/1310534412",
+      "summary": "正文直接讲解“数值分析”相关内容。"
+    },
+    {
+      "title": "什么是欧拉方法（Euler's method）?",
+      "url": "https://www.zhihu.com/answer/1336544086",
+      "summary": "正文具体比较显式、隐式和半隐式欧拉数值方法。"
+    },
+    {
+      "title": "如何从零开始准备大学生数学建模比赛？",
+      "url": "https://www.zhihu.com/answer/1364048610",
+      "summary": "正文展示数值求解微分方程和参数搜索的计算流程。"
+    },
+    {
+      "title": "为什么要引入矩阵这个数学工具？它能简化哪些不用矩阵会复杂的问题？",
+      "url": "https://www.zhihu.com/answer/1409269443",
+      "summary": "正文从矩阵表示、圆周率计算、偏微分方程数值化和线性方程组说明矩阵的作用。"
+    },
+    {
+      "title": "三体运动的微分方程组是如何列的？既然它没解析解，能否写一下计算过程？",
+      "url": "https://www.zhihu.com/answer/1447443716",
+      "summary": "正文直接讲解或推导“数值分析”相关内容。"
+    },
+    {
+      "title": "请问如何有效学习数值分析，本人计算机专业可是数学基础有点差（如何解决基础差的问题)？",
+      "url": "https://www.zhihu.com/answer/1449366350",
+      "summary": "正文直接讲解或推导“数值分析”相关内容。"
+    },
+    {
+      "title": "如何比较 π－2 与 lnπ 的大小？",
+      "url": "https://www.zhihu.com/answer/1514271412",
+      "summary": "正文用牛顿迭代法求方程零点。"
+    },
+    {
+      "title": "如果中国重新开发像MATLAB、solidworks这样的软件大概需要多久？",
+      "url": "https://www.zhihu.com/answer/1537645205",
+      "summary": "正文直接讨论数值分析，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "当 A 可逆，为什么 X*A＝B 不可以直接按 X＝B*inv(A) 算？",
+      "url": "https://www.zhihu.com/answer/1572410012",
+      "summary": "正文用条件数、前向误差和后向稳定性分析直接求逆的数值风险。"
+    },
+    {
+      "title": "这道题 最堪称“绝妙”的解法是什么?",
+      "url": "https://www.zhihu.com/answer/1584483670",
+      "summary": "正文使用数值积分公式与高阶余项估计证明不等式。"
+    },
+    {
+      "title": "如何将PDE数值解的知识应用于衍生品定价？",
+      "url": "https://www.zhihu.com/answer/1602377856",
+      "summary": "正文直接讨论或应用该叶节点主题（数值）。"
+    },
+    {
+      "title": "ArcGIS的插值方法有哪些区别，分别适合哪些情况？",
+      "url": "https://www.zhihu.com/answer/1609417217",
+      "summary": "正文直接讨论或应用该叶节点主题（插值）。"
+    },
+    {
+      "title": "有哪些值得推荐的《数值分析》（数值计算方法）教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1617432867",
+      "summary": "正文系统推荐数值分析和矩阵计算教材。"
+    },
+    {
+      "title": "不可压缩流动CFD中是否有高阶近似方法的应用需求？",
+      "url": "https://www.zhihu.com/answer/1659436899",
+      "summary": "正文分析不可压高阶格式、伪时间步与迭代求解。"
+    },
+    {
+      "title": "三体问题不可解，那清理三体星的文明是怎么打中的？",
+      "url": "https://www.zhihu.com/answer/1682388129",
+      "summary": "正文说明无解析解时可用数值方法得到近似解，并讨论收敛性与误差。"
+    },
+    {
+      "title": "两周速成参加数学建模可行吗？",
+      "url": "https://www.zhihu.com/answer/1690789673",
+      "summary": "正文建议学习欧拉法、龙格—库塔等数值方法。"
+    },
+    {
+      "title": "中科院监审局道德委侯兴宇处长发文称「重复实验在生命科学中并不一定可靠」，你认同吗？",
+      "url": "https://www.zhihu.com/answer/1697665403",
+      "summary": "正文说明简单数值积分方法早已存在。"
+    },
+    {
+      "title": "参加数学建模用 MATLAB，还是 Python？",
+      "url": "https://www.zhihu.com/answer/1745156178",
+      "summary": "正文直接讨论或推导「数值分析」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "多个根号内含二次项的式子如何求值？也就是双根式？为什么计算器无法求解？",
+      "url": "https://www.zhihu.com/answer/1762709528",
+      "summary": "正文分析牛顿迭代法、初始值和收敛速度。"
+    },
+    {
+      "title": "如何看待中国科学院院士不建议普通孩子学奥数？",
+      "url": "https://www.zhihu.com/answer/1763644952",
+      "summary": "正文介绍数值计算、误差和非线性优化的研究特点。"
+    },
+    {
+      "title": "计算器为什么能算？",
+      "url": "https://www.zhihu.com/answer/1769699917",
+      "summary": "正文解释计算器如何用牛顿迭代和数值方法求函数值。"
+    },
+    {
+      "title": "有限元分析时是网格画的越细越精确吗？",
+      "url": "https://www.zhihu.com/answer/1811586732",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "圆周率已被算到31.4万亿位，科学家如此执着，到底为了什么？",
+      "url": "https://www.zhihu.com/answer/1815581928",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "opencv如何精准定位十字？",
+      "url": "https://www.zhihu.com/answer/1818915715",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "有限元方法的核心思想是什么？",
+      "url": "https://www.zhihu.com/answer/1860464338",
+      "summary": "正文说明有限元离散后归结为优化与数值求解。"
+    },
+    {
+      "title": "2021年5月14日，著名数学家王元院士去世，他对中国数学界有哪些贡献？",
+      "url": "https://www.zhihu.com/answer/1887393940",
+      "summary": "正文讨论高维积分的数值近似、误差估计和计算复杂度。"
+    },
+    {
+      "title": "帕德近似如何操作？",
+      "url": "https://www.zhihu.com/answer/1948539534",
+      "summary": "正文说明帕德近似是计算量较大的数值近似方法。"
+    },
+    {
+      "title": "如何看待西安一清华博士接亲被要求现场写代码？如果以你的专业来猜测，会被要求完成什么任务？",
+      "url": "https://www.zhihu.com/answer/1954034386",
+      "summary": "正文展示用数值网格、等值面和多语言代码绘制方程曲面。"
+    },
+    {
+      "title": "83，63，90，70，100，是什么规律？",
+      "url": "https://www.zhihu.com/answer/1976473020",
+      "summary": "正文以插值多项式演示数值近似和误差。"
+    },
+    {
+      "title": "83，63，90，70，100，是什么规律？",
+      "url": "https://www.zhihu.com/answer/1984935874",
+      "summary": "正文用插值型函数证明有限数列规律并不唯一。"
+    },
+    {
+      "title": "如何通俗易懂讲微扰法？",
+      "url": "https://www.zhihu.com/answer/1996789115",
+      "summary": "正文解释微扰法作为逐阶数值近似方法。"
+    },
+    {
+      "title": "(15-15)²是等于0吗？",
+      "url": "https://www.zhihu.com/answer/2029635731",
+      "summary": "正文系统展示牛顿迭代的数值逼近过程。"
+    },
+    {
+      "title": "目前最优控制问题有哪些数值算法？",
+      "url": "https://www.zhihu.com/answer/2029767202",
+      "summary": "正文比较打靶法、配点法和数值优化算法。"
+    },
+    {
+      "title": "MATLAB 到底有多厉害？",
+      "url": "https://www.zhihu.com/answer/2034502427",
+      "summary": "正文展示矩阵离散化和数值求解流程。"
+    },
+    {
+      "title": "AI模型量化后速度为什么变慢了？",
+      "url": "https://www.zhihu.com/answer/2082813267",
+      "summary": "正文量化分析数值表示、浮点与定点计算带来的精度和性能权衡。"
+    },
+    {
+      "title": "请问什么数值方法可以解这个四阶的偏微分方程？",
+      "url": "https://www.zhihu.com/answer/2089058091",
+      "summary": "正文用有限差分与有限元进行离散数值求解。"
+    },
+    {
+      "title": "如何看待O(n log n)时间的整数乘法算法?",
+      "url": "https://www.zhihu.com/answer/2090121894",
+      "summary": "正文分析近似、插值和复杂度，属于数值算法设计。"
+    },
+    {
+      "title": "如何解方程 x = 1 + sinx？",
+      "url": "https://www.zhihu.com/answer/2094224483",
+      "summary": "正文用不动点迭代数值求解方程。"
+    },
+    {
+      "title": "请问什么数值方法可以解这个四阶的偏微分方程？",
+      "url": "https://www.zhihu.com/answer/2102222873",
+      "summary": "正文比较PINN与差分、有限元等数值方法。"
+    },
+    {
+      "title": "如果我能无条件解出任何微分方程解析解，会发生什么？",
+      "url": "https://www.zhihu.com/answer/2184780569",
+      "summary": "正文以数值稳定性、病态问题与自动微分说明计算数学中的实际取舍。"
+    },
+    {
+      "title": "如果我有一块《我的世界》中的钻石块，那它将值多少钱？",
+      "url": "https://www.zhihu.com/answer/2242235269",
+      "summary": "正文使用 MATLAB 数值拟合并讨论拟合效果。"
+    },
+    {
+      "title": "这个极限要如何计算？",
+      "url": "https://www.zhihu.com/answer/2252840983",
+      "summary": "正文讨论高精度数值计算在工程中的实际精度需求。"
+    },
+    {
+      "title": "初学matlab需要什么基础吗？",
+      "url": "https://www.zhihu.com/answer/2253675127",
+      "summary": "正文以 MATLAB 示范数值计算、拟合与绘图。"
+    },
+    {
+      "title": "为什么这个函数看起来很平滑，但它的导函数却这么曲折？",
+      "url": "https://www.zhihu.com/answer/2295055599",
+      "summary": "正文解释浮点数的表示误差与数值稳定性。"
+    },
+    {
+      "title": "如何使用 GPU 加速计算流体力学（CFD）？",
+      "url": "https://www.zhihu.com/answer/2295577028",
+      "summary": "正文系统梳理CFD的离散化、数值算法和误差问题。"
+    },
+    {
+      "title": "求欧拉方程（流体动力学）最基本得原理及介绍？",
+      "url": "https://www.zhihu.com/answer/2295587326",
+      "summary": "正文展示有限体积离散、数值通量和数值精度。"
+    },
+    {
+      "title": "FPGA怎么实现除法器？",
+      "url": "https://www.zhihu.com/answer/2299492659",
+      "summary": "正文以牛顿迭代法实现平方根倒数并讨论近似精度。"
+    },
+    {
+      "title": "球面如何均布49个点？",
+      "url": "https://www.zhihu.com/answer/2346304495",
+      "summary": "正文将球面均布与数值分析和逼近论直接联系。"
+    },
+    {
+      "title": "根号 2 是无理数，每位小数都是 0~9 之间的数，为什么相乘之后全是 0？",
+      "url": "https://www.zhihu.com/answer/2347562550",
+      "summary": "正文用牛顿迭代说明平方根计算与收敛。"
+    },
+    {
+      "title": "abaqus中显式和隐式的区别？",
+      "url": "https://www.zhihu.com/answer/2350364704",
+      "summary": "正文讨论数值稳定性、时间步长与误差。"
+    },
+    {
+      "title": "你见过最美的 MATLAB 绘图是什么？",
+      "url": "https://www.zhihu.com/answer/2350660517",
+      "summary": "正文以 MATLAB 为例展示数值计算。"
+    },
+    {
+      "title": "计算机是如何计算逆矩阵的？",
+      "url": "https://www.zhihu.com/answer/2370636791",
+      "summary": "正文系统介绍矩阵求逆的数值算法、稳定性和复杂度取舍。"
+    },
+    {
+      "title": "计算数学在数学界是什么样的地位？",
+      "url": "https://www.zhihu.com/answer/2391077348",
+      "summary": "正文讨论计算数学的构造性、可计算性和算法效率，属于数值与计算数学的范围。"
+    },
+    {
+      "title": "大一如何准备数学建模?",
+      "url": "https://www.zhihu.com/answer/2396441402",
+      "summary": "正文建议提前学习数值分析以应对建模中的数值求解。"
+    },
+    {
+      "title": "不规则四边形内如何获得面积最大的椭圆？",
+      "url": "https://www.zhihu.com/answer/2400674075",
+      "summary": "正文把非线性方程组的数值求根用于椭圆的几何参数计算。"
+    },
+    {
+      "title": "matlab如何用特定的函数进行拟合？",
+      "url": "https://www.zhihu.com/answer/2407307474",
+      "summary": "正文以 MATLAB 示例讲解线性、多项式和非线性数据拟合的数值实现。"
+    },
+    {
+      "title": "如何用数学知识解答「在进行社区大规模核酸检测时，分成几人一组进行混检效率最高」？",
+      "url": "https://www.zhihu.com/answer/2411517075",
+      "summary": "正文用梯度下降和 Newton 迭代数值求解最优分组。"
+    },
+    {
+      "title": "《最强大脑》节目中周玮的强大计算能力怎么解释？",
+      "url": "https://www.zhihu.com/answer/2424597921",
+      "summary": "正文用误差位数与迭代计算量分析牛顿法开方，属于数值分析与数值算法讨论。"
+    },
+    {
+      "title": "请问各位大佬这种积分估计的出题原理背景是什么？",
+      "url": "https://www.zhihu.com/answer/2441597800",
+      "summary": "正文系统讨论多项式插值的待定系数、Newton 与 Hermite 构造及误差估计。"
+    },
+    {
+      "title": "自动微分法（Automatic differentiation）是如何用C++实现的？",
+      "url": "https://www.zhihu.com/answer/2446699680",
+      "summary": "正文比较数值差分与对偶数自动微分，并实现高斯牛顿数值优化。"
+    },
+    {
+      "title": "pytorch 模型 如何加速推理?",
+      "url": "https://www.zhihu.com/answer/2453887460",
+      "summary": "正文讨论int8与float32模型的数值误差和量化精度。"
+    },
+    {
+      "title": "当物块与接触面的摩擦因数恒定已知时，最速降线还会是摆线吗？",
+      "url": "https://www.zhihu.com/answer/2470342979",
+      "summary": "正文把打靶法与 Newton-Raphson 迭代结合进行数值求解。"
+    },
+    {
+      "title": "人们在没有计算机的帮助下是如何计算根号3？",
+      "url": "https://www.zhihu.com/answer/2474241028",
+      "summary": "正文介绍不用计算器手工开平方的递推竖式算法。"
+    },
+    {
+      "title": "人们在没有计算机的帮助下是如何计算根号3？",
+      "url": "https://www.zhihu.com/answer/2474938876",
+      "summary": "正文通过反复平方构造有理近似，并明确识别为不动点迭代。"
+    },
+    {
+      "title": "人们在没有计算机的帮助下是如何计算根号3？",
+      "url": "https://www.zhihu.com/answer/2475591489",
+      "summary": "正文系统比较佩尔方程、牛顿法、逐位计算和级数展开等数值求根方法。"
+    },
+    {
+      "title": "人们在没有计算机的帮助下是如何计算根号3？",
+      "url": "https://www.zhihu.com/answer/2475650705",
+      "summary": "正文把巴比伦法解释为数值迭代求平方根。"
+    },
+    {
+      "title": "人们在没有计算机的帮助下是如何计算根号3？",
+      "url": "https://www.zhihu.com/answer/2477402641",
+      "summary": "介绍一种手算平方根的三阶迭代算法，并分析每轮迭代的精度提升。"
+    },
+    {
+      "title": "人们在没有计算机的帮助下是如何计算根号3？",
+      "url": "https://www.zhihu.com/answer/2478719190",
+      "summary": "正文集中介绍牛顿迭代等数值逼近方法。"
+    },
+    {
+      "title": "人们在没有计算机的帮助下是如何计算根号3？",
+      "url": "https://www.zhihu.com/answer/2480869366",
+      "summary": "用逐位试算和平方比较手工逼近根号 3，并说明可继续提高精度。"
+    },
+    {
+      "title": "韦东奕称「帮博士团队解决数学问题是假新闻」，谣言始作俑者道歉，如何看待类似的「造神」现象？",
+      "url": "https://www.zhihu.com/answer/2483940080",
+      "summary": "正文指出难以解析求解的微分方程通常依赖数值方法。"
+    },
+    {
+      "title": "时钟指针针尖能构成正三角形吗？",
+      "url": "https://www.zhihu.com/answer/2484521328",
+      "summary": "正文最终用数值求解得到满足条件的表针位置。"
+    },
+    {
+      "title": "有限元方法的核心思想是什么？",
+      "url": "https://www.zhihu.com/answer/2484948465",
+      "summary": "正文系统梳理数值分析的主要模块与近似计算方法。"
+    },
+    {
+      "title": "人们在没有计算机的帮助下是如何计算根号3？",
+      "url": "https://www.zhihu.com/answer/2487344988",
+      "summary": "用牛顿迭代法从猜测值出发反复求平均，逐步逼近根号 3。"
+    },
+    {
+      "title": "未来，AI 会以何种形式颠覆数学界？",
+      "url": "https://www.zhihu.com/answer/2492774269",
+      "summary": "正文以迭代和大规模计算说明算法的数值求解价值。"
+    },
+    {
+      "title": "花一整夜的时间解一个方程是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/2495940785",
+      "summary": "正文使用 SciPy 对微分方程进行数值积分并比较计算结果。"
+    },
+    {
+      "title": "自动求导和微分形式有什么联系吗？",
+      "url": "https://www.zhihu.com/answer/2496470277",
+      "summary": "正文系统比较数值微分、符号微分与自动微分的数值方法。"
+    },
+    {
+      "title": "把肉拿出去晒的时候想到的，一根钢丝，两端是固定绞支座。肉如何挂才能使钢丝在极限承载力之下挂更多的肉？",
+      "url": "https://www.zhihu.com/answer/2506684480",
+      "summary": "正文把绳长约束化为单变量方程，并用牛顿迭代数值求最低点张力。"
+    },
+    {
+      "title": "如何求解滑块在带摩擦的圆弧面上的运动？",
+      "url": "https://www.zhihu.com/answer/2513856031",
+      "summary": "介绍带摩擦曲面运动的数值求解流程，并用数值解与理论解对比验证。"
+    },
+    {
+      "title": "研究数值分析的真正用途是什么？从长远来说，有必要研究数值分析吗？",
+      "url": "https://www.zhihu.com/answer/2529866062",
+      "summary": "以误差传播和 Jordan 分解为例，说明数值稳定性和数值分析的实际意义。"
+    },
+    {
+      "title": "如何评价CVPR 2022的best paper？",
+      "url": "https://www.zhihu.com/answer/2540238487",
+      "summary": "介绍同伦延拓、牛顿法与多项式方程组数值求解。"
+    },
+    {
+      "title": "如何数值计算量子多体系统的纠缠熵（或约化密度矩阵）？",
+      "url": "https://www.zhihu.com/answer/2546293335",
+      "summary": "给出用 reshape、矩阵乘法与 eigh 数值计算纠缠熵的代码。"
+    },
+    {
+      "title": "如何评价CVPR 2022的best paper？",
+      "url": "https://www.zhihu.com/answer/2586441878",
+      "summary": "详细解释同伦连续法如何用牛顿迭代沿解曲线数值跟踪多项式方程组的根。"
+    },
+    {
+      "title": "如何自己编程实现流体数值模拟？",
+      "url": "https://www.zhihu.com/answer/2595608868",
+      "summary": "讲解有限体积法的空间离散、时间离散与高斯定理转换等数值方法。"
+    },
+    {
+      "title": "准（计算）数学直博生要为研究生阶段做哪些准备？",
+      "url": "https://www.zhihu.com/answer/2608233530",
+      "summary": "回顾 DG、WENO、限制器等数值格式的实现、调试与收敛问题。"
+    },
+    {
+      "title": "计算流体力学(CFD)的前景怎么样？",
+      "url": "https://www.zhihu.com/answer/2625299723",
+      "summary": "分析 DG 数值格式的相容性、稳定性、谱半径与收敛性。"
+    },
+    {
+      "title": "日后想学金融工程，数值分析和随机过程更推荐上哪一门课呢？",
+      "url": "https://www.zhihu.com/answer/2658739468",
+      "summary": "比较量化金融中的课程选择，强调数值分析在 PDE、SDE、参数拟合与模拟中的基础作用。"
+    },
+    {
+      "title": "计算机图形学中物理模拟和渲染是距离较远的方向还是互相交织？",
+      "url": "https://www.zhihu.com/answer/2661288688",
+      "summary": "把图形学渲染与物理模拟统一为数值积分问题，并比较不同积分方法。"
+    },
+    {
+      "title": "对于金融工程和金融数学，数值计算更有用，还是泛函分析更有用？",
+      "url": "https://www.zhihu.com/answer/2661365044",
+      "summary": "强调数值计算在衍生品定价与金融工程实现中的实用价值。"
+    },
+    {
+      "title": "2022数学建模国赛ABCDE题怎么分析?",
+      "url": "https://www.zhihu.com/answer/2674633717",
+      "summary": "正文比较显式、隐式与 Crank-Nicolson 差分格式，并具体讨论数值求解中的精度、稳定性和收敛性。"
+    },
+    {
+      "title": "c++中，假如long double精度还不够，有什么办法？",
+      "url": "https://www.zhihu.com/answer/2717966249",
+      "summary": "正文比较双精度、高精度数学库和重新推导公式带来的误差，讨论数值计算中的精度来源。"
+    },
+    {
+      "title": "如何看待陈平称「MATLAB 为低能的客户提供方便的程序集成」？",
+      "url": "https://www.zhihu.com/answer/2723433505",
+      "summary": "正文讨论数值算法的近似误差、收敛性、收敛速度和稀疏矩阵求解，强调计算数学中结果可靠性的分析。"
+    },
+    {
+      "title": "如何通俗地解释泰勒公式？",
+      "url": "https://www.zhihu.com/answer/2785809587",
+      "summary": "正文以泰勒展开推导一阶和二阶导数差分格式，展示了数值分析中的有限差分构造方法。"
+    },
+    {
+      "title": "这个求 sin 的代码，感觉无懈可击啊，为什么会不对呢？",
+      "url": "https://www.zhihu.com/answer/2787636447",
+      "summary": "正文指出大数项相减造成严重抵消、双精度舍入不足，并提出周期归约和 CORDIC 等数值稳定计算策略。"
+    },
+    {
+      "title": "这个求 sin 的代码，感觉无懈可击啊，为什么会不对呢？",
+      "url": "https://www.zhihu.com/answer/2788977012",
+      "summary": "正文由 IEEE 754 双精度的阶码与尾数解释有限精度和巨大项相消，分析泰勒级数计算的数值稳定性。"
+    },
+    {
+      "title": "应用数学的研究领域有哪些？",
+      "url": "https://www.zhihu.com/answer/2808858299",
+      "summary": "正文介绍数值分析中的近似计算、收敛速度、误差和完整性，以及线性代数与微分方程的数值求解。"
+    },
+    {
+      "title": "有人能深入浅出的讲讲FFT吗？",
+      "url": "https://www.zhihu.com/answer/2885342104",
+      "summary": "正文分析 DFT 的平方复杂度，并说明递归蝶形运算如何将 FFT 复杂度降至对数线性。"
+    },
+    {
+      "title": "你的知乎为什么叫现在这个名字？",
+      "url": "https://www.zhihu.com/answer/2901320310",
+      "summary": "正文以余弦不动点迭代为例解释数值分析中的迭代收敛、蛛网图和全局收敛。"
+    },
+    {
+      "title": "请问这个方程图像有什么性质？",
+      "url": "https://www.zhihu.com/answer/3007849626",
+      "summary": "正文推测并解释 GrafEq 逐级提高精度、检查小方块是否含解的隐函数绘图算法，属于数值近似方法。"
+    },
+    {
+      "title": "微分方程没有解析解可以说明人类数学体系有缺陷吗？",
+      "url": "https://www.zhihu.com/answer/3076651896",
+      "summary": "正文说明微分方程可借助数值方法求出满足精度要求的近似解，属于数值分析的核心作用。"
+    },
+    {
+      "title": "数值pde与深度学习结合是未来发展方向吗？",
+      "url": "https://www.zhihu.com/answer/3079219074",
+      "summary": "正文比较方程离散求解与统计学习近似，讨论稳定性、精度、收敛性和误差界限等数值分析问题。"
+    },
+    {
+      "title": "被嘲「学术媛」，牛津数学女博士回应称「我选择去战斗」，如何看待此事？抵制网暴我们能做哪些努力？",
+      "url": "https://www.zhihu.com/answer/3109575891",
+      "summary": "正文讨论 Vandermonde 矩阵的病态性，并介绍离散正交基、随机采样和加权方法改善多元函数数值逼近。"
+    },
+    {
+      "title": "增量式pid和位置式pid相比各有什么优缺点？",
+      "url": "https://www.zhihu.com/answer/3149057904",
+      "summary": "正文用一阶向后差分和累积后向欧拉法离散化 PID 的微分、积分项，并推导位置式与增量式公式的等价关系。"
+    },
+    {
+      "title": "关于数值计算方面有什么好书值得推荐？",
+      "url": "https://www.zhihu.com/answer/3150263241",
+      "summary": "正文给出数值分析的定义、目标与典型应用，并概括误差、收敛和近似算法等核心内容。"
+    },
+    {
+      "title": "0.1 + 0.2为什么不等于0.3？",
+      "url": "https://www.zhihu.com/answer/3158276771",
+      "summary": "正文解释 double 的有限精度、舍入规则和 0.1+0.2 的误差，属于浮点数数值误差分析。"
+    },
+    {
+      "title": "矩阵论什么好的书籍推荐？",
+      "url": "https://www.zhihu.com/answer/3161053236",
+      "summary": "正文介绍求解线性系统、最小二乘和特征值问题的算法，并讨论准确性、稳定性和计算成本。"
+    },
+    {
+      "title": "多段一元三次方程的拟合问题是否有解法？",
+      "url": "https://www.zhihu.com/answer/3167801522",
+      "summary": "正文围绕最小二乘拟合、阈值切分和矩阵求系数讲解分段三次曲线逼近算法，属于数值分析。"
+    },
+    {
+      "title": "计算流体力学中有限差分法、有限体积法和有限元法的区别是什么？",
+      "url": "https://www.zhihu.com/answer/3207824803",
+      "summary": "正文比较有限差分、有限体积和有限元三种数值离散方法，并具体推导网格点上的差分公式，属于数值分析。"
+    },
+    {
+      "title": "哈密顿力学的辛几何算法，在现今结构计算当中的应用程度如何？",
+      "url": "https://www.zhihu.com/answer/3234934361",
+      "summary": "正文解释保辛隐式龙格库塔法的结构条件、计算效率及长时间仿真的数值耗散表现。"
+    },
+    {
+      "title": "为什么sin(x²＋y²)＝0.5的图像这么丑陋?",
+      "url": "https://www.zhihu.com/answer/3243289427",
+      "summary": "正文用浮点数有限精度导致的错误零值判断解释隐函数绘图中的数值误差与破碎现象。"
+    },
+    {
+      "title": "为什么sin(x²＋y²)＝0.5的图像这么丑陋?",
+      "url": "https://www.zhihu.com/answer/3243784906",
+      "summary": "正文说明准确绘图需按像素区间判断隐函数是否有解，并考虑浮点误差与区间代数。"
+    },
+    {
+      "title": "90000＊90000大小的矩阵求逆，有没有什么好的解决办法？matlab算的实在太慢。？",
+      "url": "https://www.zhihu.com/answer/3257886548",
+      "summary": "正文围绕九万阶大矩阵的存储与并行计算，讨论 LU 分解求逆和分块计算的数值实现。"
+    },
+    {
+      "title": "计算机无法精确计算浮点数，那么科学家又是如何使用计算机并规避这个问题的？",
+      "url": "https://www.zhihu.com/answer/3270798056",
+      "summary": "正文具体讲解区间运算如何界定浮点计算结果及其有效数字，并给出实现示例。"
+    },
+    {
+      "title": "计算机无法精确计算浮点数，那么科学家又是如何使用计算机并规避这个问题的？",
+      "url": "https://www.zhihu.com/answer/3273981146",
+      "summary": "正文讨论浮点与定点计算的有效数字、精度衰减和误差传播，并以符号计算说明消减数值误差的办法。"
+    },
+    {
+      "title": "如何理解扩散模型中的SDE？",
+      "url": "https://www.zhihu.com/answer/3315930820",
+      "summary": "正文将反向 SDE 离散化为有限时间步，并比较 Euler–Maruyama、Milstein 等数值求解方法。"
+    },
+    {
+      "title": "计算机无法精确计算浮点数，那么科学家又是如何使用计算机并规避这个问题的？",
+      "url": "https://www.zhihu.com/answer/3317860841",
+      "summary": "正文通过多边形重心坐标的数值溢出案例，分析双精度浮点数的精度损失并用平移原点改善算法稳定性。"
+    },
+    {
+      "title": "偏微分方程如何理解？",
+      "url": "https://www.zhihu.com/answer/3332220243",
+      "summary": "正文比较有限差分、有限元和谱方法等数值途径，说明数值分析在近似求解偏微分方程中的角色。"
+    },
+    {
+      "title": "如何直白通俗地理解PID控制算法？",
+      "url": "https://www.zhihu.com/answer/3351120998",
+      "summary": "正文用有限采样和差分近似连续 PID 的积分与微分项，并说明采样越细越接近连续控制过程。"
+    },
+    {
+      "title": "文件体积达到 1 GB 甚至 1 TB 的图片会呈现何种内容？",
+      "url": "https://www.zhihu.com/answer/3359725055",
+      "summary": "正文给出 Aberth-Ehrlich 迭代表达式和停止误差，用数值迭代同时逼近多项式的全部复根。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/3454489594",
+      "summary": "正文给出试探初值、残差除以两倍初值、更新后重复迭代的平方根近似步骤，并联系到牛顿迭代。"
+    },
+    {
+      "title": "世界上收敛最快的计算 π 的公式是什么？",
+      "url": "https://www.zhihu.com/answer/3456059490",
+      "summary": "正文具体分析高精度数值计算中的乘法、开根、Newton 迭代、AGM 和折半求和。"
+    },
+    {
+      "title": "流体力学前沿都在研究什么内容？",
+      "url": "https://www.zhihu.com/answer/3456758233",
+      "summary": "正文比较有理近似、AAA 算法与有限元等数值方法，分析精度、收敛效率和实现。"
+    },
+    {
+      "title": "如何理解丘成桐“中国数学水平不如美国1940年代”?",
+      "url": "https://www.zhihu.com/answer/3495473959",
+      "summary": "正文以核武器设计与模拟为例说明数值计算工作，并交代其对数字计算机实际应用的推动。"
+    },
+    {
+      "title": "谁能通俗的解释一下为什么有人怀疑姜萍?",
+      "url": "https://www.zhihu.com/answer/3544206498",
+      "summary": "正文明确把数值分析概括为用计算算法求复杂问题近似解，并列举函数求值、回归和插值等方法。"
+    },
+    {
+      "title": "涟水县教体局回应「姜萍在学校月考成绩 83 分截图属实、预赛使用电脑是借的」，还有哪些内容值得关注？",
+      "url": "https://www.zhihu.com/answer/3544517235",
+      "summary": "正文明确把数值分析概括为用计算算法求复杂问题近似解，并列举函数求值、回归和插值等方法。"
+    },
+    {
+      "title": "如果A+B=90，A÷B=17，AB各多少?",
+      "url": "https://www.zhihu.com/answer/3592650206",
+      "summary": "正文构造不动点迭代式，设置初值、容差和最大迭代次数，用数值迭代逼近方程组的解。"
+    },
+    {
+      "title": "人们在没有计算机的帮助下是如何计算根号3？",
+      "url": "https://www.zhihu.com/answer/3596850813",
+      "summary": "正文用平方后忽略二阶小项的方法线性化并反复迭代，逐步提高根号 2 和根号 3 的近似精度，属于数值近似分析。"
+    },
+    {
+      "title": "我是物理系学生，但是我接受不了各种数学近似，怎么办？",
+      "url": "https://www.zhihu.com/answer/16420448826",
+      "summary": "正文用代入数值比较被舍去项与主项的数量级来解释小量近似的可信度，体现了数值误差估计的基本思路。"
+    },
+    {
+      "title": "为什么ch²（x）-sh²（x）画出来不等于1？",
+      "url": "https://www.zhihu.com/answer/19116383798",
+      "summary": "正文分析相近数相减导致的相对误差放大，并以双精度浮点数和二次方程求根说明数值稳定性。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/37149843505",
+      "summary": "正文把方程整理成 d=F(d) 的迭代形式，再反复代入上一次结果逼近根，具体展示了数值分析中的不动点迭代。"
+    },
+    {
+      "title": "MATLAB在逐渐被Python淘汰吗？",
+      "url": "https://www.zhihu.com/answer/40529040446",
+      "summary": "正文通过插值、拟合、方程数值解等实验展开数值分析方法的实际操作与误差认识。"
+    },
+    {
+      "title": "【凝聚态物理】能不能系统地讲一讲精确对角化？",
+      "url": "https://www.zhihu.com/answer/51701840082",
+      "summary": "正文完整说明以Slater行列式构造希尔伯特空间、计算矩阵元并用稀疏矩阵与对角化求数值能谱的算法。"
+    },
+    {
+      "title": "这种矩阵可逆吗？",
+      "url": "https://www.zhihu.com/answer/95327602872",
+      "summary": "正文从数值分析角度解释病态矩阵和条件数，并讨论线性方程组求解对误差的敏感性。"
+    },
+    {
+      "title": "○÷25=○-864，○代表同一个数，○是多少？",
+      "url": "https://www.zhihu.com/answer/95820458941",
+      "summary": "正文以牛顿迭代公式和逐轮数值更新求方程根，属于数值分析中的迭代求解方法。"
+    },
+    {
+      "title": "○÷25=○-864，○代表同一个数，○是多少？",
+      "url": "https://www.zhihu.com/answer/95849240586",
+      "summary": "正文给出牛顿迭代公式，代入线性函数的导数和初值并计算一次迭代后的数值解。"
+    },
+    {
+      "title": "○÷25=○-864，○代表同一个数，○是多少？",
+      "url": "https://www.zhihu.com/answer/96088745661",
+      "summary": "正文逐次计算自洽迭代值，并用数值收敛判据判断结果已收敛到 900。"
+    },
+    {
+      "title": "怎么向 5 岁孩子解释水滴落在水面的涟漪？",
+      "url": "https://www.zhihu.com/answer/96350960019",
+      "summary": "正文系统展示中心差分、二维网格离散化和 Python 时间步进，属于数值分析中的有限差分方法。"
+    },
+    {
+      "title": "硬件上浮点数的超越函数指令是如何实现的？",
+      "url": "https://www.zhihu.com/answer/110445058033",
+      "summary": "正文说明浮点除法和平方根如何用 Newton 迭代、并行乘法和预估校正逼近标准结果，属于数值分析算法。"
+    },
+    {
+      "title": "为什么神经网络可以解偏微分方程，是什么原理？",
+      "url": "https://www.zhihu.com/answer/1889286733096538790",
+      "summary": "正文系统比较配点法、子域法和伽辽金法等数值方法，并以残差最小化说明PDE的数值近似。"
+    },
+    {
+      "title": "有哪些算法一开始像在瞎搞，实际上却蕴含着更深层的逻辑？",
+      "url": "https://www.zhihu.com/answer/1891280618052092785",
+      "summary": "正文讨论超越函数实现的浮点精度、范围约化和末位误差，属于数值分析中的函数近似与误差分析。"
+    },
+    {
+      "title": "哪些书让你重新认识了数学？",
+      "url": "https://www.zhihu.com/answer/1909153204970710982",
+      "summary": "通过反复修正初值并舍去高阶小量，展示迭代开立方的数值计算方法。"
+    },
+    {
+      "title": "有限元的未来是什么样的？",
+      "url": "https://www.zhihu.com/answer/1915075294655678100",
+      "summary": "正文讲解变分问题的唯一性条件、稳定性与准最优误差估计，并比较网格和离散方法的数值表现。"
+    },
+    {
+      "title": "为什么初中高中不偷偷教克拉默法则?",
+      "url": "https://www.zhihu.com/answer/1915100328136782203",
+      "summary": "正文以矩阵规模、条件数和主元策略说明数值求解线性方程的稳定性与实际算法选择。"
+    },
+    {
+      "title": "计算庞大的数字时，怎么证明计算机没算错？",
+      "url": "https://www.zhihu.com/answer/1928826058226009568",
+      "summary": "正文比较不同算法和软硬件实现的独立计算结果，强调数值计算需要通过交叉校验保证正确性。"
+    },
+    {
+      "title": "如何通俗地理解解析解和数值解？",
+      "url": "https://www.zhihu.com/answer/1928890330276663444",
+      "summary": "正文从解的形式和可取值位置区分解析解与数值解，并说明数值方法通过重新列式执行算术求解。"
+    },
+    {
+      "title": "计算方法解微分方程的一种方法为谱方法，哪位牛哥可以通俗的讲解一下原理，思路和方法？",
+      "url": "https://www.zhihu.com/answer/1928908173483434044",
+      "summary": "正文比较有限差分、有限元和谱方法的精度与收敛速度，并说明谱配点法先全局插值再计算插值函数导数。"
+    },
+    {
+      "title": "计算方法解微分方程的一种方法为谱方法，哪位牛哥可以通俗的讲解一下原理，思路和方法？",
+      "url": "https://www.zhihu.com/answer/1929536321979938047",
+      "summary": "正文以函数逼近和弱形式离散介绍谱方法，并讨论条件数与收敛速度。"
+    },
+    {
+      "title": "哪个方向是当前数学界最热门的方向？",
+      "url": "https://www.zhihu.com/answer/1945803419437757895",
+      "summary": "正文具体说明用数值方法近似分析动力系统，并列举工程计算、气候模拟和流体力学等应用。"
+    },
+    {
+      "title": "复杂系统的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1945882749807341603",
+      "summary": "正文使用数值迭代、网格分类和可视化实验分析吸引子、吸引域及分岔。"
+    },
+    {
+      "title": "理论计算机科学（TCS）能否反哺纯数学？",
+      "url": "https://www.zhihu.com/answer/1949070284117225953",
+      "summary": "正文详细介绍以低精度数值匹配、哈希搜索、精度提升和梯度下降生成数学公式的计算方法。"
+    },
+    {
+      "title": "什么是「龙格—库塔方法」？",
+      "url": "https://www.zhihu.com/answer/1952429262616368347",
+      "summary": "正文系统讲解常微分方程的离散化、欧拉法、龙格－库塔法及其他数值解法的精度和适用场景。"
+    },
+    {
+      "title": "开普勒那个时代没有微积分，他是怎么算天体运行的？",
+      "url": "https://www.zhihu.com/answer/1955988391146553496",
+      "summary": "正文具体说明开普勒用插值、假位法和二分法求开普勒方程的根，并讨论纸笔条件下的数值收敛。"
+    },
+    {
+      "title": "学完了线性代数，有进阶的书籍推荐吗？",
+      "url": "https://www.zhihu.com/answer/1958229061378741428",
+      "summary": "正文具体讨论稀疏矩阵、病态矩阵、浮点舍入误差、条件数和迭代解法等数值线性分析问题。"
+    },
+    {
+      "title": "你曾经看过哪些精彩的数学书？",
+      "url": "https://www.zhihu.com/answer/1964239856583574623",
+      "summary": "正文利用二项展开、舍弃高阶小量和逐次修正给出三次方根的迭代近似方法。"
+    },
+    {
+      "title": "如何评价图灵社区出版的《斯特朗线性代数》中文版？",
+      "url": "https://www.zhihu.com/answer/1982768709513797888",
+      "summary": "正文专列数值方法与稳定性层，讨论正交性、条件数和迭代法对大型线性系统计算的影响。"
+    },
+    {
+      "title": "如何评价顾险峰教授的计算共形几何？",
+      "url": "https://www.zhihu.com/answer/1984912210032628159",
+      "summary": "正文把连续几何推广为离散数值算法，具体讨论关联矩阵、稀疏矩阵和数值线性代数等数值分析工具。"
+    },
+    {
+      "title": "有哪些算法惊艳到了你？",
+      "url": "https://www.zhihu.com/answer/1991111980250056368",
+      "summary": "正文围绕隐函数 f(x,y)=0 的可靠绘制，展开区间算术、四叉树细分和数值排除方法。"
+    },
+    {
+      "title": "这种矩阵可逆吗？",
+      "url": "https://www.zhihu.com/answer/2003576599719716790",
+      "summary": "正文以浮点数精度、接近平行的直线和数值失稳解释为何理论上可逆的矩阵在计算机中几乎不可逆。"
+    },
+    {
+      "title": "如何寻找到一个最小的正整数n，使得n^2+7能够连续除以2二十次后，依然是正整数？",
+      "url": "https://www.zhihu.com/answer/2006786963668235840",
+      "summary": "正文推导 p 进牛顿迭代、精度翻倍、迭代步数与位复杂度，并给出算法实现。"
+    },
+    {
+      "title": "计算流体力学中有限差分法、有限体积法和有限元法的区别是什么？",
+      "url": "https://www.zhihu.com/answer/2014732718244651444",
+      "summary": "正文系统讲解有限差分格式、截断误差和收敛估计，属于偏微分方程的数值分析。"
+    },
+    {
+      "title": "牛顿在数学方面有多牛？",
+      "url": "https://www.zhihu.com/answer/2014734331533338607",
+      "summary": "正文具体推导牛顿迭代公式、用于求平方根的迭代序列和二次收敛误差关系。"
+    },
+    {
+      "title": "矩阵方程 AX+XB=C 的解怎么表达？",
+      "url": "https://www.zhihu.com/answer/2018436999774753825",
+      "summary": "正文比较矩阵方程的直接求解、三角分解和共轭梯度等数值算法及其复杂度。"
+    },
+    {
+      "title": "有哪些算法惊艳到了你？",
+      "url": "https://www.zhihu.com/answer/2035994820796265138",
+      "summary": "正文系统推导牛顿迭代公式、误差递推和二次收敛等数值方法。"
+    },
+    {
+      "title": "线性代数中有很多矩阵分解方法，如何理解它们的区别和联系？",
+      "url": "https://www.zhihu.com/answer/2053889993135880133",
+      "summary": "正文比较 LU、QR、Cholesky、LDLT 和 SVD 的数值稳定性、复杂度、稀疏结构及工程选型。"
+    },
+    {
+      "title": "计算庞大的数字时，怎么证明计算机没算错？",
+      "url": "https://www.zhihu.com/answer/2062615081511293568",
+      "summary": "正文讨论高精度数值算法、计算资源和独立 BBP 公式验算，属于数值计算方法的实际展开。"
+    },
+    {
+      "title": "如何评价北京协和医院住院医用AI解决了困扰数学界的难题Crouzeix猜想？",
+      "url": "https://www.zhihu.com/answer/2071663319031796181",
+      "summary": "正文说明该估计对矩阵函数、GMRES 和 Krylov 子空间等数值线性代数与数值分析问题的意义。"
+    },
+    {
+      "title": "如何评价北京协和医院住院医用AI解决了困扰数学界的难题Crouzeix猜想？",
+      "url": "https://www.zhihu.com/answer/2071729538082551723",
+      "summary": "正文具体比较矩阵多项式范数与数值域上最大模的计算成本，说明该估计在数值分析中的用途。"
+    },
+    {
+      "title": "如何评价北京协和医院住院医用AI解决了困扰数学界的难题Crouzeix猜想？",
+      "url": "https://www.zhihu.com/answer/2071939635232745128",
+      "summary": "正文把该范数估计用于约束非正规矩阵的函数行为，并将其置于数值线性代数研究脉络中。"
+    },
+    {
+      "title": "低差异序列（一）- 常见序列的定义及性质",
+      "url": "https://zhuanlan.zhihu.com/p/20197323",
+      "summary": "正文定义差异度并系统构造、比较多种低差异序列，属于准蒙特卡洛数值积分中的采样算法。"
+    },
+    {
+      "title": "如何将连续域的控制器进行离散化实现",
+      "url": "https://zhuanlan.zhihu.com/p/20927674",
+      "summary": "正文比较前向欧拉与 Tustin 离散化，并以数值算法近似连续控制器中的微分和积分。"
+    },
+    {
+      "title": "期权定价的常用数值方法",
+      "url": "https://zhuanlan.zhihu.com/p/21903917",
+      "summary": "正文具体说明用网格、差分近似偏导数将 PDE 转成代数问题，并讨论显隐格式的稳定性、复杂度与精度。"
+    },
+    {
+      "title": "变分法近似解法 Part 3.---Weak Form Galerkin",
+      "url": "https://zhuanlan.zhihu.com/p/22603421",
+      "summary": "正文以多项式近似和待定系数构造微分方程的数值解，属于数值近似方法。"
+    },
+    {
+      "title": "漫谈Simulink: 隐式和显式的Solver",
+      "url": "https://zhuanlan.zhihu.com/p/23232577",
+      "summary": "正文比较显式前向与隐式后向离散，分析数值稳定性、步长和 Jacobian 的计算代价。"
+    },
+    {
+      "title": "0.04毫米的真实",
+      "url": "https://zhuanlan.zhihu.com/p/23471245",
+      "summary": "正文用欧拉积分和牛顿迭代不断逼近非线性系统解，具体讨论了数值迭代方法。"
+    },
+    {
+      "title": "帮你快速入门MATLAB",
+      "url": "https://zhuanlan.zhihu.com/p/24231719",
+      "summary": "正文以 MATLAB 示例讲解数值与符号微分、积分、求根及常微分方程等数值分析计算。"
+    },
+    {
+      "title": "浅谈张量分解（三）：如何对稀疏矩阵进行奇异值分解？",
+      "url": "https://zhuanlan.zhihu.com/p/25512080",
+      "summary": "正文给出迭代截断 SVD 填补缺失元素的数值算法，并用 RMSE 比较不同初始化方法。"
+    },
+    {
+      "title": "用数学编辑3D模型（三）- Subspace Mesh Deformation",
+      "url": "https://zhuanlan.zhihu.com/p/26153181",
+      "summary": "正文具体讨论降维求解的数值稳定性、收敛速度和线性方程组迭代。"
+    },
+    {
+      "title": "微积分的历史（五），发展之泰勒公式（上）",
+      "url": "https://zhuanlan.zhihu.com/p/27348707",
+      "summary": "正文从数值插值问题出发，比较线性与多项式插值并重点构造牛顿插值公式。"
+    },
+    {
+      "title": "Python SciPy库——拟合与插值",
+      "url": "https://zhuanlan.zhihu.com/p/28149195",
+      "summary": "正文用 SciPy 最小二乘和多种插值方法进行数值拟合与函数逼近。"
+    },
+    {
+      "title": "预篇：双纽线积分的数值计算及Euler的发现",
+      "url": "https://zhuanlan.zhihu.com/p/28280560",
+      "summary": "正文具体介绍幂级数求和、收敛加速和数值精度等数值分析方法。"
+    },
+    {
+      "title": "[ICML] Understanding Black-box Predictions via Influence Functions",
+      "url": "https://zhuanlan.zhihu.com/p/28520049",
+      "summary": "正文分析Hessian逆的数值计算代价，并用共轭梯度和随机估计近似求解。"
+    },
+    {
+      "title": "一种随机微分方程数值模拟的另类方法",
+      "url": "https://zhuanlan.zhihu.com/p/28628912",
+      "summary": "正文比较Euler、Milstein与弱近似方法的时间离散、收敛稳定性和计算效率。"
+    },
+    {
+      "title": "fx-991CN X方程（组）求解功能的使用",
+      "url": "https://zhuanlan.zhihu.com/p/28795401",
+      "summary": "正文解释牛顿切线法的初值、迭代和近似解性质，属于数值分析中的方程求根。"
+    },
+    {
+      "title": "共轭梯度法",
+      "url": "https://zhuanlan.zhihu.com/p/28623599",
+      "summary": "正文给出由梯度和前一方向生成新共轭方向的数值迭代算法。"
+    },
+    {
+      "title": "【翻译搬运】SciPy-Python科学算法库",
+      "url": "https://zhuanlan.zhihu.com/p/30011154",
+      "summary": "正文综述并演示 SciPy 的特殊函数、数值积分、优化、插值和数值线性代数等科学计算方法。"
+    },
+    {
+      "title": "雅可比迭代",
+      "url": "https://zhuanlan.zhihu.com/p/30965284",
+      "summary": "正文给出 Jacobi 迭代的 MATLAB 实现、误差容限、停止条件和数值示例。"
+    },
+    {
+      "title": "超松弛迭代法（SOR）",
+      "url": "https://zhuanlan.zhihu.com/p/31066592",
+      "summary": "正文以收敛性分析和迭代公式讲解超松弛迭代法，属于数值分析中的迭代求解方法。"
+    },
+    {
+      "title": "龙贝格算法",
+      "url": "https://zhuanlan.zhihu.com/p/31705278",
+      "summary": "正文给出龙贝格递推公式、逐次分半计算步骤和精度终止条件，属于数值分析算法。"
+    },
+    {
+      "title": "使用计算器实现反常积分的计算",
+      "url": "https://zhuanlan.zhihu.com/p/32284274",
+      "summary": "正文解释计算器定积分依赖数值方法，并讨论截断无穷限与处理奇点导致的数值误差。"
+    },
+    {
+      "title": "开发者必读：计算机科学中的线性代数",
+      "url": "https://zhuanlan.zhihu.com/p/32431633",
+      "summary": "正文概览随机矩阵乘法、随机最小二乘和低秩近似等大规模数值线性代数算法。"
+    },
+    {
+      "title": "给大家看点好玩的，用Python画牛顿分形",
+      "url": "https://zhuanlan.zhihu.com/p/32703267",
+      "summary": "正文给出牛顿迭代公式、收敛条件、误差阈值和最大迭代次数，并用程序绘制牛顿分形。"
+    },
+    {
+      "title": "（大四）有限单元法(FEM)最后总结",
+      "url": "https://zhuanlan.zhihu.com/p/33965113",
+      "summary": "正文说明有限元积分采用高斯数值积分，并讨论积分精度与离散近似。"
+    },
+    {
+      "title": "四阶龙格库塔法",
+      "url": "https://zhuanlan.zhihu.com/p/34261490",
+      "summary": "正文给出四阶龙格库塔法的迭代公式、方程组形式和程序实现，讨论其数值求解效果。"
+    },
+    {
+      "title": "黑盒函数的探索",
+      "url": "https://zhuanlan.zhihu.com/p/36230460",
+      "summary": "正文系统介绍二分法、牛顿法、割线法、函数逼近和启发式优化等数值计算方法。"
+    },
+    {
+      "title": "计算流体力学——从原理到代码（四）：有限体积法与Godunov Scheme 初步",
+      "url": "https://zhuanlan.zhihu.com/p/36781801",
+      "summary": "正文定义单元平均、界面数值通量和时间更新，具体介绍有限体积法与 Godunov 格式。"
+    },
+    {
+      "title": "加速度计 椭球校准 （最小二乘法 椭球拟合）",
+      "url": "https://zhuanlan.zhihu.com/p/37265316",
+      "summary": "正文以最小二乘法拟合椭球并通过数值计算恢复校准参数，实质讲解了一个数值分析算法。"
+    },
+    {
+      "title": "低成本的手工开方",
+      "url": "https://zhuanlan.zhihu.com/p/37418172",
+      "summary": "正文比较二分法、泰勒展开与所给迭代放缩法，围绕计算成本、收敛精度和可实现性讨论数值逼近。"
+    },
+    {
+      "title": "分形分析软件FracLab计算Box-counting分形维数",
+      "url": "https://zhuanlan.zhihu.com/p/37419809",
+      "summary": "正文具体说明通过不同尺度盒子的计数及幂律拟合估计分形维数，并核对其与谢尔宾斯基三角形的理论值。"
+    },
+    {
+      "title": "稀疏矩阵的主要存储格式",
+      "url": "https://zhuanlan.zhihu.com/p/37525925",
+      "summary": "正文从大型矩阵的存储成本和矩阵向量乘法出发，解释稀疏格式为何能改善数值计算效率。"
+    },
+    {
+      "title": "BP神经网络：最快速的理解（二）",
+      "url": "https://zhuanlan.zhihu.com/p/40623863",
+      "summary": "正文明确指出高维或复杂目标函数的最小值问题由数值分析研究，并介绍梯度下降求解思路。"
+    },
+    {
+      "title": "[优化] Gauss-Newton非线性最小二乘算法",
+      "url": "https://zhuanlan.zhihu.com/p/42383070",
+      "summary": "正文把高斯-牛顿法实现为带初值、迭代增量、终止阈值和最大步数的数值算法。"
+    },
+    {
+      "title": "助力国赛 | 第4弹 灰色预测",
+      "url": "https://zhuanlan.zhihu.com/p/42718637",
+      "summary": "正文将微分方程解离散后还原原序列，并用残差、相对误差和方差比检验近似模型。"
+    },
+    {
+      "title": "23、奇异值分解svd",
+      "url": "https://zhuanlan.zhihu.com/p/43578482",
+      "summary": "正文讨论奇异值大小引起的舍入误差，并说明可用非零奇异值估计矩阵有效秩。"
+    },
+    {
+      "title": "轨迹规划之位置插补",
+      "url": "https://zhuanlan.zhihu.com/p/45155523",
+      "summary": "正文讲解样条插值、Bézier/B 样条关系以及 Cox-deBoor 基函数递推与 B 样条曲线构造，属于数值分析中的曲线拟合方法。"
+    },
+    {
+      "title": "数值分析学习笔记（二）",
+      "url": "https://zhuanlan.zhihu.com/p/46068200",
+      "summary": "正文系统介绍二分法、不动点迭代、Newton-Raphson、割线法、试位法和 Muller 法等数值求根方法。"
+    },
+    {
+      "title": "数值分析学习笔记（三）",
+      "url": "https://zhuanlan.zhihu.com/p/47282502",
+      "summary": "正文系统讲解 Lagrange、Newton、Hermite 和三次样条插值及其误差估计。"
+    },
+    {
+      "title": "深入了解PCA",
+      "url": "https://zhuanlan.zhihu.com/p/47858230",
+      "summary": "正文具体讨论随机化SVD的投影近似、幂迭代和QR正交化实现，属于数值计算内容。"
+    },
+    {
+      "title": "数值分析学习笔记（四）",
+      "url": "https://zhuanlan.zhihu.com/p/49917447",
+      "summary": "正文系统介绍数值微分、数值积分、复化公式、Romberg方法和Gauss求积。"
+    },
+    {
+      "title": "关于“用 C 语言画光（一）：基础” 难点解析",
+      "url": "https://zhuanlan.zhihu.com/p/50213516",
+      "summary": "正文用固定步长、距离场、误差阈值和迭代射线推进近似计算光照，体现了数值求解方法。"
+    },
+    {
+      "title": "简单粗暴：B-样条曲线入门",
+      "url": "https://zhuanlan.zhihu.com/p/50626506",
+      "summary": "正文从插值、控制点、节点表和基函数递归讲到 B 样条曲线公式，属于数值插值与曲线逼近方法。"
+    },
+    {
+      "title": "从图片中提取曲线坐标数据",
+      "url": "https://zhuanlan.zhihu.com/p/52112012",
+      "summary": "正文给出从图像像素坐标定标、异常散点到均值滤波和多项式拟合的数值处理流程。"
+    },
+    {
+      "title": "Quantitative Macroeconomics(Quant Macro)资源分享",
+      "url": "https://zhuanlan.zhihu.com/p/52163578",
+      "summary": "正文比较宏观模型数值求解中的网格精度、计算成本、VFI、Euler方程迭代和投影等计算方法。"
+    },
+    {
+      "title": "数值分析学习笔记（七）",
+      "url": "https://zhuanlan.zhihu.com/p/52439947",
+      "summary": "正文从 Euler、Runge-Kutta、改进 Euler、Adams 和自适应步长等方法展开数值分析。"
+    },
+    {
+      "title": "数值积分漫谈",
+      "url": "https://zhuanlan.zhihu.com/p/53492083",
+      "summary": "正文系统介绍 Newton-Cotes、复合 Simpson、自适应 Simpson 和 Simpson 3/8 规则等数值积分算法。"
+    },
+    {
+      "title": "控制算法原理及实现之PID（以飞控为例）",
+      "url": "https://zhuanlan.zhihu.com/p/54455075",
+      "summary": "正文讨论差分变换、零阶保持器和 Tustin 变换等连续系统离散化方法。"
+    },
+    {
+      "title": "为什么无法直接求解Rendering Equation",
+      "url": "https://zhuanlan.zhihu.com/p/56443239",
+      "summary": "正文说明无法直接获得解析解时，需要通过逐项计算 Neumann 级数来近似数值结果。"
+    },
+    {
+      "title": "[PnP]PnP问题之EPnP解法",
+      "url": "https://zhuanlan.zhihu.com/p/59070440",
+      "summary": "正文完整推导EPnP的数值求解流程，并分析其线性时间复杂度与数值稳定性策略。"
+    },
+    {
+      "title": "卡尔曼滤波（1）--递归最小二乘（RLS）推导过程",
+      "url": "https://zhuanlan.zhihu.com/p/59532437",
+      "summary": "正文给出递推最小二乘的初始化、增益、状态与协方差更新步骤，属于数值迭代估计方法。"
+    },
+    {
+      "title": "自动微分(Automatic Differentiation)",
+      "url": "https://zhuanlan.zhihu.com/p/61103504",
+      "summary": "正文分析数值微分中的截断误差与舍入误差，并据误差阶比较差分格式的精度。"
+    },
+    {
+      "title": "三次样条（cubic spline）插值",
+      "url": "https://zhuanlan.zhihu.com/p/62860859",
+      "summary": "正文完整讲解三次样条插值的构造条件、边界类型、系数推导和数值求解流程。"
+    },
+    {
+      "title": "在matlab中使用牛顿法求解非线性方程组",
+      "url": "https://zhuanlan.zhihu.com/p/63103354",
+      "summary": "正文给出牛顿迭代、收敛判据和 MATLAB 实现，完整讨论非线性方程组的数值解法。"
+    },
+    {
+      "title": "矩阵乘积态简介",
+      "url": "https://zhuanlan.zhihu.com/p/64423929",
+      "summary": "正文通过保留有限奇异值来近似压缩矩阵乘积态，并分析算法所需存储量的数量级。"
+    },
+    {
+      "title": "MATLAB: 你不知道的12个基础知识",
+      "url": "https://zhuanlan.zhihu.com/p/64455323",
+      "summary": "正文具体解释浮点数的有限精度与舍入误差，并给出阈值和 eps 等数值比较方法。"
+    },
+    {
+      "title": "理解插值法（拉格朗日、牛顿插值法）",
+      "url": "https://zhuanlan.zhihu.com/p/64855561",
+      "summary": "正文介绍拉格朗日插值与牛顿插值，比较计算量、承袭性和误差余项，属于数值分析中的插值方法。"
+    },
+    {
+      "title": "微分方程数值解法|专题（1）——常微分方程的有限差分方法",
+      "url": "https://zhuanlan.zhihu.com/p/65179097",
+      "summary": "正文按步长离散初值问题，系统比较向前 Euler、梯形法、Runge-Kutta 与绝对稳定区。"
+    },
+    {
+      "title": "微分方程数值解法|专题（2）——偏微分方程的有限差分方法",
+      "url": "https://zhuanlan.zhihu.com/p/65247362",
+      "summary": "正文系统讲解偏微分方程的有限差分离散、截断误差和稳定性分析。"
+    },
+    {
+      "title": "05 -- 常见单元的形函数和坐标变换",
+      "url": "https://zhuanlan.zhihu.com/p/67454027",
+      "summary": "正文讨论复杂单元刚度矩阵难以显式求解而需依靠数值积分，属于数值分析。"
+    },
+    {
+      "title": "关于计算Berry phase的一些细节",
+      "url": "https://zhuanlan.zhihu.com/p/67615482",
+      "summary": "正文给出 Gauge free 离散公式，并讨论格点演化、相位规范与并行输运的数值实现。"
+    },
+    {
+      "title": "CFD: FDM，数值耗散(dissipation)和数值色散(dispersion)随笔",
+      "url": "https://zhuanlan.zhihu.com/p/71219134",
+      "summary": "正文推导修正方程并识别偶数阶与奇数阶误差项对应的数值耗散和色散。"
+    },
+    {
+      "title": "（三十六）通俗易懂理解——ROI Align的基本原理及rpn与rcnn head锚框标签制作",
+      "url": "https://zhuanlan.zhihu.com/p/73113289",
+      "summary": "正文通过坐标映射和四个邻点加权公式说明图像缩放及特征采样中的双线性插值。"
+    },
+    {
+      "title": "数学领域分类",
+      "url": "https://zhuanlan.zhihu.com/p/74481149",
+      "summary": "正文说明数值分析研究可执行的计算方法，并把舍入误差等计算误差纳为其研究对象。"
+    },
+    {
+      "title": "MATLAB中数据插值和数据拟合的用法",
+      "url": "https://zhuanlan.zhihu.com/p/73931917",
+      "summary": "正文介绍一维和二维数据插值算法、适用差异及 MATLAB 数值实现。"
+    },
+    {
+      "title": "函数型数据分析第一步",
+      "url": "https://zhuanlan.zhihu.com/p/77104728",
+      "summary": "正文讲解函数型数据的基函数展开及用低维系数逼近光滑曲线。"
+    },
+    {
+      "title": "不同插值方法的比较及Python实现",
+      "url": "https://zhuanlan.zhihu.com/p/63763725",
+      "summary": "正文比较多项式与分段插值方法的数值表现及适用场景。"
+    },
+    {
+      "title": "[转载]最全数学各个分支简介",
+      "url": "https://zhuanlan.zhihu.com/p/78185955",
+      "summary": "正文介绍数值分析中的迭代、插值、误差分析及微分方程数值解法。"
+    },
+    {
+      "title": "有限元入门 Part 1.",
+      "url": "https://zhuanlan.zhihu.com/p/36792913",
+      "summary": "正文说明解析解通常不可得，并系统发展基于弱形式和离散近似的偏微分方程数值解法。"
+    },
+    {
+      "title": "【转】数学体系主要分支",
+      "url": "https://zhuanlan.zhihu.com/p/80717901",
+      "summary": "正文说明计算数学（数值分析）的迭代、逼近、误差、线性系统与微分方程数值解法。"
+    },
+    {
+      "title": "数据平滑方法的原理和应用",
+      "url": "https://zhuanlan.zhihu.com/p/78848809",
+      "summary": "正文推导滑动平均、指数滑动平均和 Savitzky-Golay 滤波的数值平滑步骤，属于数值近似与分析方法。"
+    },
+    {
+      "title": "用Python数值求解偏微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/81488678",
+      "summary": "正文用有限差分、改进欧拉法和网格递推近似求解常微分与偏微分方程。"
+    },
+    {
+      "title": "[数值计算] 数据拟合——非线性最小二乘法",
+      "url": "https://zhuanlan.zhihu.com/p/83320557",
+      "summary": "正文比较牛顿法、高斯牛顿法和 Levenberg-Marquardt 法的迭代公式，讨论数值求解的收敛稳定性。"
+    },
+    {
+      "title": "[数值计算] LU分解、LUP分解、Cholesky分解",
+      "url": "https://zhuanlan.zhihu.com/p/84210687",
+      "summary": "正文分析浮点消元的稳定性、部分主元置换、误差界和分解复杂度，属于数值分析内容。"
+    },
+    {
+      "title": "[数值计算] QR分解",
+      "url": "https://zhuanlan.zhihu.com/p/84415000",
+      "summary": "正文比较正规方程与 QR 方法的条件数，并讨论 Gram-Schmidt、Householder 和 Givens 等数值算法。"
+    },
+    {
+      "title": "非线性优化方法的总结——approximation",
+      "url": "https://zhuanlan.zhihu.com/p/85423364",
+      "summary": "正文以泰勒近似和迭代点列为主线，比较不同数值优化算法的构造与适用场景。"
+    },
+    {
+      "title": "技术分享 | 计算机与机器视觉中的高精度相机标定 (下)",
+      "url": "https://zhuanlan.zhihu.com/p/90640999",
+      "summary": "正文讨论非线性最小二乘的局部最优、初值选择和导数计算等数值分析问题。"
+    },
+    {
+      "title": "矩阵的条件数",
+      "url": "https://zhuanlan.zhihu.com/p/91393594",
+      "summary": "正文从矩阵范数、噪声传播和奇异值出发解释条件数及其数值稳定性意义。"
+    },
+    {
+      "title": "非线性优化（一）：优化方法",
+      "url": "https://zhuanlan.zhihu.com/p/94589862",
+      "summary": "正文详细讨论最速下降、牛顿法、高斯-牛顿法、LM法和狗腿法的数值迭代与收敛。"
+    },
+    {
+      "title": "有限元简单科普之——高斯积分点的应用",
+      "url": "https://zhuanlan.zhihu.com/p/95451737",
+      "summary": "正文具体讲解高斯积分的节点、权重、代数精度，以及二维和三维单元的数值求积配置。"
+    },
+    {
+      "title": "有限元简单科普之——优化的牛顿法",
+      "url": "https://zhuanlan.zhihu.com/p/97084376",
+      "summary": "正文具体讲解牛顿迭代的切线构造、收敛速度、误差和修正牛顿法，属于数值分析内容。"
+    },
+    {
+      "title": "常见的插值和拟合方法",
+      "url": "https://zhuanlan.zhihu.com/p/98431641",
+      "summary": "正文比较插值与拟合，并讲解拉格朗日、牛顿、Hermite等数值插值方法。"
+    },
+    {
+      "title": "物理中的数值方法之——Lanczos方法(1)",
+      "url": "https://zhuanlan.zhihu.com/p/98112958",
+      "summary": "正文介绍 Lanczos 迭代、Krylov 子空间、三对角化、收敛判据及数值稳定性等数值计算方法。"
+    },
+    {
+      "title": "最小二乘法（附MATLAB代码）",
+      "url": "https://zhuanlan.zhihu.com/p/99924603",
+      "summary": "正文以MATLAB的polyfit和polyval实现数值多项式拟合，并讨论拟合阶数约束。"
+    },
+    {
+      "title": "四元数微分方程的推导和解算实现",
+      "url": "https://zhuanlan.zhihu.com/p/103623879",
+      "summary": "正文比较四元数微分方程的欧拉、中值与 Runge-Kutta 数值解法，并给出四阶 Runge-Kutta 实现。"
+    },
+    {
+      "title": "反问题的数学和物理诠释",
+      "url": "https://zhuanlan.zhihu.com/p/105755407",
+      "summary": "正文具体介绍有限差分、SVD截断、Tikhonov正则化、Landweber迭代和离散化等反问题数值正则化方法。"
+    },
+    {
+      "title": "VIO中的IMU数值积分与IMU预积分",
+      "url": "https://zhuanlan.zhihu.com/p/107032156",
+      "summary": "正文系统比较欧拉法、中点法和 RK4 的构造与精度，并说明数值积分误差。"
+    },
+    {
+      "title": "不用计算器怎么开平方？徒手也可以",
+      "url": "https://zhuanlan.zhihu.com/p/107063337",
+      "summary": "正文完整讲解逐位计算平方根的数值算法，并通过重复迭代提高近似结果的精度。"
+    },
+    {
+      "title": "MATLAB的插值与拟合",
+      "url": "https://zhuanlan.zhihu.com/p/107274659",
+      "summary": "正文具体讲解分段线性插值、三次样条插值、拉格朗日插值和多项式拟合的数值计算方法及实现。"
+    },
+    {
+      "title": "泊松表面重建详解",
+      "url": "https://zhuanlan.zhihu.com/p/107653198",
+      "summary": "正文讨论稀疏矩阵求解，并用多重网格与Gauss-Seidel松弛加速数值计算。"
+    },
+    {
+      "title": "数值求导和自动求导",
+      "url": "https://zhuanlan.zhihu.com/p/109755675",
+      "summary": "正文分析前向与中心差分的截断误差和浮点舍入误差，并讨论稀疏雅可比的计算。"
+    },
+    {
+      "title": "Python数值计算——Scipy库的应用",
+      "url": "https://zhuanlan.zhihu.com/p/110877796",
+      "summary": "正文以非线性方程、拟合、线性系统和微分方程的数值求解演示 Scipy 数值计算方法。"
+    },
+    {
+      "title": "Python数值计算----------二维波动方程有限差分解",
+      "url": "https://zhuanlan.zhihu.com/p/111640958",
+      "summary": "正文推导三点差分格式和稳定性条件，并提供二维波动方程的数值实现。"
+    },
+    {
+      "title": "grid_sample()函数及双线性采样",
+      "url": "https://zhuanlan.zhihu.com/p/112030273",
+      "summary": "正文从浮点网格采样出发，推导双线性插值在两个方向上的加权公式，并给出四邻点插值的数值计算过程。"
+    },
+    {
+      "title": "Cholesky分解",
+      "url": "https://zhuanlan.zhihu.com/p/112091443",
+      "summary": "正文比较 Cholesky 与 LU 分解的效率和数值稳定性，并给出数值计算示例。"
+    },
+    {
+      "title": "QR分解",
+      "url": "https://zhuanlan.zhihu.com/p/112327923",
+      "summary": "正文比较 Gram-Schmidt 与 Householder 方法的数值稳定性，并说明 QR 的数值计算过程。"
+    },
+    {
+      "title": "快速求解方程的根——二分法与牛顿迭代法",
+      "url": "https://zhuanlan.zhihu.com/p/112845185",
+      "summary": "正文系统比较二分法与牛顿法这两类数值求根迭代方法。"
+    },
+    {
+      "title": "迭代法解线性方程组、Jaboci迭代法、Gauss–Seidel迭代法、松弛法",
+      "url": "https://zhuanlan.zhihu.com/p/114170288",
+      "summary": "正文介绍大型稀疏线性方程组的多种迭代数值解法、收敛条件与计算格式。"
+    },
+    {
+      "title": "最小二乘问题的四种解法——牛顿法，梯度下降法，高斯牛顿法和列文伯格-马夸特法的区别和联系",
+      "url": "https://zhuanlan.zhihu.com/p/113946848",
+      "summary": "正文讨论迭代优化流程、雅可比与海塞矩阵以及各算法的收敛和稳定性。"
+    },
+    {
+      "title": "PDE有限差分方法(1)——全显格式与全隐格式",
+      "url": "https://zhuanlan.zhihu.com/p/114298630",
+      "summary": "正文用时间前差与空间二阶中心差分离散偏微分方程，并比较显式、隐式格式及追赶法求解的计算流程。"
+    },
+    {
+      "title": "低秩稀疏矩阵恢复算法整理与仿真",
+      "url": "https://zhuanlan.zhihu.com/p/114693135",
+      "summary": "正文详细给出交替方向法的增广拉格朗日迭代、阈值算子以及MATLAB数值仿真。"
+    },
+    {
+      "title": "数值优化|笔记整理（1）——引入，线搜索：步长选取条件",
+      "url": "https://zhuanlan.zhihu.com/p/118443321",
+      "summary": "正文讨论数值迭代、收敛速度，以及线搜索步长对全局收敛性的影响。"
+    },
+    {
+      "title": "数值优化|笔记整理（2）——线搜索：步长选取条件的收敛性",
+      "url": "https://zhuanlan.zhihu.com/p/121001066",
+      "summary": "正文用 Byrd-Nocedal 条件、Zoutendijk 条件和梯度界证明线搜索数值算法的全局及局部收敛性。"
+    },
+    {
+      "title": "Python曲线拟合详解",
+      "url": "https://zhuanlan.zhihu.com/p/122702657",
+      "summary": "正文把拟合系数问题化为矩阵最小二乘问题，并演示数值求解与可视化。"
+    },
+    {
+      "title": "非线性最小二乘",
+      "url": "https://zhuanlan.zhihu.com/p/124934931",
+      "summary": "正文具体讲解高斯-牛顿法和列文伯格-马夸尔特法等数值最优化迭代。"
+    },
+    {
+      "title": "数值常微分方程-欧拉法与龙格-库塔法",
+      "url": "https://zhuanlan.zhihu.com/p/131303043",
+      "summary": "正文分析两种方法的局部截断误差、整体误差和稳定性，并比较数值解与精确解。"
+    },
+    {
+      "title": "基于Matlab的【曲柄滑块机构】运动学分析和Gif动画制作(附带源码)",
+      "url": "https://zhuanlan.zhihu.com/p/133205797",
+      "summary": "正文采用中心差分公式近似计算加速度，并用泰勒理论说明这种数值方法的精度。"
+    },
+    {
+      "title": "MN2：谈谈算术几何平均数",
+      "url": "https://zhuanlan.zhihu.com/p/130428825",
+      "summary": "正文将算术几何平均数的迭代解释为高斯—勒让德数值算法，并说明其二阶收敛和迭代逼近效果。"
+    },
+    {
+      "title": "偏微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/134189701",
+      "summary": "正文用一维和二维差分近似二阶导数，并构造对应线性系统，具体展示偏微分方程的数值离散方法。"
+    },
+    {
+      "title": "基于Matlab的【偏置曲柄滑块机构】运动学分析和Gif动画制作(附带源码)",
+      "url": "https://zhuanlan.zhihu.com/p/134148694",
+      "summary": "正文用中心差分近似加速度，并说明其比单侧差商精度高，属于数值微分方法。"
+    },
+    {
+      "title": "C语言系列之FFT算法实现",
+      "url": "https://zhuanlan.zhihu.com/p/135259438",
+      "summary": "正文比较DFT与FFT的计算复杂度，并给出按时间抽取、蝶形运算和数值验证，属于数值计算算法分析。"
+    },
+    {
+      "title": "数值计算方法 第四章 多项式插值（1）",
+      "url": "https://zhuanlan.zhihu.com/p/131493410",
+      "summary": "正文围绕插值多项式的存在唯一性、误差估计、差商、差分和分段插值展开，属于数值分析与函数逼近。"
+    },
+    {
+      "title": "Code and Finance 4 期权定价之有限差分法",
+      "url": "https://zhuanlan.zhihu.com/p/136027192",
+      "summary": "正文用网格剖分和有限差分将 Black-Scholes 型 PDE 离散为矩阵迭代，并计算看涨、看跌期权价格。"
+    },
+    {
+      "title": "有限差分法（1）—构造差分格式及稳定性分析",
+      "url": "https://zhuanlan.zhihu.com/p/136269281",
+      "summary": "正文系统讲解有限差分格式的构造、精度分析和稳定性判定，属于数值分析。"
+    },
+    {
+      "title": "CFD理论基础——显格式和隐格式",
+      "url": "https://zhuanlan.zhihu.com/p/136564204",
+      "summary": "正文以热传导方程为对象，讲解显式与隐式有限差分格式及其求解和稳定性差异。"
+    },
+    {
+      "title": "直观理解！你一定要读一下的“矩阵和线性代数入门”",
+      "url": "https://zhuanlan.zhihu.com/p/137112358",
+      "summary": "正文比较Gauss消去、列主元Gauss消去等直接解法，讨论浮点误差、条件数和矩阵分解的计算量。"
+    },
+    {
+      "title": "方程求根-二分法、牛顿法、割线法（Python）",
+      "url": "https://zhuanlan.zhihu.com/p/136823356",
+      "summary": "正文系统比较二分法、牛顿法和割线法的数值求根原理、迭代过程与收敛表现。"
+    },
+    {
+      "title": "龙格现象(Runge Phenomenon)",
+      "url": "https://zhuanlan.zhihu.com/p/138747068",
+      "summary": "正文从数值插值角度解释龙格现象、误差来源以及切比雪夫节点为何能改善插值。"
+    },
+    {
+      "title": "一个模型预测控制（MPC）的简单实现",
+      "url": "https://zhuanlan.zhihu.com/p/141871796",
+      "summary": "正文用前向欧拉法离散连续状态方程，并据此递推未来系统状态。"
+    },
+    {
+      "title": "初识切比雪夫多项式",
+      "url": "https://zhuanlan.zhihu.com/p/141957872",
+      "summary": "正文利用切比雪夫零点选择插值结点，降低 Lagrange 插值误差界并缓解 Runge 现象。"
+    },
+    {
+      "title": "专栏 | 显式和隐式的区别",
+      "url": "https://zhuanlan.zhihu.com/p/142790420",
+      "summary": "正文比较有限元计算中的显式与隐式求解，并用前向欧拉、后向欧拉的递推式分析步长稳定性和发散，属于数值分析。"
+    },
+    {
+      "title": "深入理解B样条曲线（上）",
+      "url": "https://zhuanlan.zhihu.com/p/144042470",
+      "summary": "正文从控制点、节点与基函数递推讲解 B 样条曲线构造，并计算均匀二次样条，属于数值分析中的曲线逼近。"
+    },
+    {
+      "title": "计算流体力学 | 差分方法",
+      "url": "https://zhuanlan.zhihu.com/p/144718181",
+      "summary": "正文系统讲解有限差分离散、截断误差、修正方程、稳定性分析和差分格式分辨率。"
+    },
+    {
+      "title": "数值计算方法 第六章 数值积分和数值微分",
+      "url": "https://zhuanlan.zhihu.com/p/142583935",
+      "summary": "正文系统介绍数值微分、插值型求导、牛顿-科特斯、复化和高斯求积及其误差分析。"
+    },
+    {
+      "title": "比泰勒展开更牛的函数近似？？！!",
+      "url": "https://zhuanlan.zhihu.com/p/146365699",
+      "summary": "正文以积分平方误差最小化为准则，计算 sin(x) 的五次多项式逼近并与泰勒近似比较。"
+    },
+    {
+      "title": "有限差分法（3）——差分格式",
+      "url": "https://zhuanlan.zhihu.com/p/146122878",
+      "summary": "正文系统介绍迎风、Lax-Wendroff、MacCormack 等有限差分格式及其显隐式分类。"
+    },
+    {
+      "title": "消灭烦人的IEEE754困惑--知识梳理",
+      "url": "https://zhuanlan.zhihu.com/p/146173358",
+      "summary": "正文系统解释 IEEE 754 浮点表示、舍入规则、加法和乘法流程，以及由此产生的数值误差。"
+    },
+    {
+      "title": "用MatCont分析非线性动力学方程组（一）",
+      "url": "https://zhuanlan.zhihu.com/p/148825090",
+      "summary": "正文通过 ode45 数值积分和参数继续计算，演示微分方程模型的数值分析流程。"
+    },
+    {
+      "title": "数值分析笔记整理（2）——插值方法",
+      "url": "https://zhuanlan.zhihu.com/p/148623774",
+      "summary": "正文从误差、算法步骤和计算代价讨论插值这一数值逼近问题，并比较三种插值算法。"
+    },
+    {
+      "title": "PDE有限差分方法(10)——边界条件离散方法",
+      "url": "https://zhuanlan.zhihu.com/p/149680131",
+      "summary": "正文系统构造单侧差分、虚拟点和半网格等有限差分边界格式，并分析相容性与稳定性。"
+    },
+    {
+      "title": "格子玻尔兹曼方法（Lattice Boltzmann Method）的简单应用-顶盖驱动流",
+      "url": "https://zhuanlan.zhihu.com/p/150569936",
+      "summary": "正文把流体速度空间和真实空间离散化，逐步执行碰撞、迁移和边界更新，给出格子玻尔兹曼数值迭代方法。"
+    },
+    {
+      "title": "混沌理论先驱李天岩去世，最早严格定义“混沌”，提出“周期三即混沌”",
+      "url": "https://zhuanlan.zhihu.com/p/150836179",
+      "summary": "正文介绍用微分拓扑连续映射计算布劳威尔不动点的数值算法及高维计算结果，故对应数值分析。"
+    },
+    {
+      "title": "使用fx-991CN X的CALC功能进行连续计算",
+      "url": "https://zhuanlan.zhihu.com/p/150881514",
+      "summary": "正文实现高斯-赛德尔迭代，利用相邻两次迭代之差判断收敛并求得方程组近似解，故对应数值分析。"
+    },
+    {
+      "title": "科学计算第三讲（Hermite插值、龙格现象、分段插值、样条插值）",
+      "url": "https://zhuanlan.zhihu.com/p/151340360",
+      "summary": "正文围绕 Hermite、分段和样条插值讨论构造、误差估计及数值逼近的稳定性。"
+    },
+    {
+      "title": "数值计算中的分析方法",
+      "url": "https://zhuanlan.zhihu.com/p/152143042",
+      "summary": "正文围绕数值积分讨论一致性、稳定性、刚性问题和冯诺依曼分析，并比较显式与隐式求解方法。"
+    },
+    {
+      "title": "最小推荐系统: SimRank快速近似计算",
+      "url": "https://zhuanlan.zhihu.com/p/153334991",
+      "summary": "正文用截断级数、误差界和 GMRES 迭代构造数值近似，并分析复杂度与内存开销。"
+    },
+    {
+      "title": "伽辽金法 (Galerkin method)介绍",
+      "url": "https://zhuanlan.zhihu.com/p/161372939",
+      "summary": "正文把伽辽金法描述为将微分方程化为有限维线性系统的数值方法，并给出离散矩阵方程与误差估计。"
+    },
+    {
+      "title": "数值优化|笔记整理（8）——带约束优化：引入，梯度投影法",
+      "url": "https://zhuanlan.zhihu.com/p/161390629",
+      "summary": "正文给出梯度投影的 Armijo 步长、步长存在性、收敛定理和标准化投影数值算法。"
+    },
+    {
+      "title": "Python实现自动微分(Automatic Differentiation)",
+      "url": "https://zhuanlan.zhihu.com/p/161635270",
+      "summary": "正文讨论数值微分的差商近似、舍入误差、截断误差，并给出自动微分的程序实现。"
+    },
+    {
+      "title": "浅谈用Matlab求解微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/162296418",
+      "summary": "正文介绍Runge-Kutta法与ode45、ode23等数值求解器，并给出数值解示例。"
+    },
+    {
+      "title": "数值优化|笔记整理（9）——非线性规划的极值性质，KKT条件",
+      "url": "https://zhuanlan.zhihu.com/p/163527928",
+      "summary": "正文使用切锥、线性化可行方向、KKT 条件和二阶条件构建数值优化的理论分析框架。"
+    },
+    {
+      "title": "大规模线性方程组求解简史（上）",
+      "url": "https://zhuanlan.zhihu.com/p/163593656",
+      "summary": "正文讨论 Jacobi、Gauss-Seidel 和梯度下降迭代的构造、误差传播及收敛性，属于数值分析。"
+    },
+    {
+      "title": "数学建模笔记——插值拟合模型(一)",
+      "url": "https://zhuanlan.zhihu.com/p/163801915",
+      "summary": "正文系统介绍插值的用途、分段线性插值、三次 Hermite 插值和三次样条插值。"
+    },
+    {
+      "title": "数值偏微分方程-差分法（Python）",
+      "url": "https://zhuanlan.zhihu.com/p/164627678",
+      "summary": "正文具体介绍有限差分法、网格离散、有限差商近似和数值求解流程。"
+    },
+    {
+      "title": "数值积分常用方法",
+      "url": "https://zhuanlan.zhihu.com/p/166272592",
+      "summary": "正文系统讲解数值积分的机械求积、代数精度、Newton-Cotes、复合求积、Romberg 和自适应算法。"
+    },
+    {
+      "title": "蒙特·卡罗（Monte Carlo）法求定积分",
+      "url": "https://zhuanlan.zhihu.com/p/172150564",
+      "summary": "正文比较随机模拟结果与解析真值，并讨论样本量和被积函数对数值误差的影响。"
+    },
+    {
+      "title": "格子玻尔兹曼方法（LBM）学习：等温不可压缩流体流动问题（附MATLAB代码）",
+      "url": "https://zhuanlan.zhihu.com/p/172591068",
+      "summary": "正文用格子离散、迁移民移和数值参数匹配说明 LBM 的计算流程，并给出 MATLAB 实现。"
+    },
+    {
+      "title": "分子动力学入门（10分钟版）",
+      "url": "https://zhuanlan.zhihu.com/p/180123374",
+      "summary": "正文推导并比较原始Verlet、Velocity Verlet和Leapfrog三种离散时间数值积分算法。"
+    },
+    {
+      "title": "MATLAB求解微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/181650727",
+      "summary": "正文用 ode45 等求解常微分方程初值问题，讨论标准型、相对与绝对误差以及刚性问题。"
+    },
+    {
+      "title": "数值优化|笔记整理（C）——二次规划（下）：内点法；现代优化：罚项法，ALM，ADMM；习题课",
+      "url": "https://zhuanlan.zhihu.com/p/181718998",
+      "summary": "正文把 Cholesky 分解和正定性判断作为数值分析问题，给出分解结果并讨论趋于奇异时的数值表现。"
+    },
+    {
+      "title": "一款好用且免费的曲线拟合工具CurveFitter",
+      "url": "https://zhuanlan.zhihu.com/p/195195051",
+      "summary": "正文说明曲线拟合是数值方法，并概述选择模型、数值求解参数及检查拟合误差的流程。"
+    },
+    {
+      "title": "2≠4",
+      "url": "https://zhuanlan.zhihu.com/p/179279978",
+      "summary": "正文用蛛网图研究 a^x 的不动点迭代，并给出导数绝对值等于 1 的稳定性临界条件。"
+    },
+    {
+      "title": "珠算真的能开方吗？（中国古代开方术集锦）",
+      "url": "https://zhuanlan.zhihu.com/p/205700682",
+      "summary": "正文比较传统开方、迭代近似、牛顿法和多项式求值算法的计算过程。"
+    },
+    {
+      "title": "利用MATLABpdetool解偏微分方程——以数学建模2018A题为例",
+      "url": "https://zhuanlan.zhihu.com/p/194162724",
+      "summary": "正文以 PDE Modeler 对偏微分方程作网格离散和数值求解，并将数值温度与给定数据作误差分析。"
+    },
+    {
+      "title": "说说牛顿迭代 -- 方法篇",
+      "url": "https://zhuanlan.zhihu.com/p/218676280",
+      "summary": "正文从一阶逼近推导牛顿迭代公式，并讨论其收敛条件和多元求根形式，属于数值分析中的非线性方程求根方法。"
+    },
+    {
+      "title": "打靶法(shooting method)求两点边值问题(TPBVP)",
+      "url": "https://zhuanlan.zhihu.com/p/219837338",
+      "summary": "正文把打靶法、欧拉离散和牛顿迭代结合成完整数值算法，并计算实例验证近似解。"
+    },
+    {
+      "title": "薄板样条插值(Thin Plate Spline)",
+      "url": "https://zhuanlan.zhihu.com/p/227857813",
+      "summary": "正文围绕二维薄板样条插值，给出拟合误差、弯曲能量和闭式插值函数等数值计算方法。"
+    },
+    {
+      "title": "第6章 解线性方程组的迭代法(基于MATLAB)",
+      "url": "https://zhuanlan.zhihu.com/p/228603531",
+      "summary": "正文推导多种线性方程组数值迭代算法，讨论收敛条件、误差与计算效率并给出 MATLAB 实现。"
+    },
+    {
+      "title": "牛顿迭代法",
+      "url": "https://zhuanlan.zhihu.com/p/240077462",
+      "summary": "正文定义Newton迭代公式，并说明其切线几何迭代和平方根数值实现。"
+    },
+    {
+      "title": "第7章 非线性方程与方程组的数值解法（基于MATLAB）",
+      "url": "https://zhuanlan.zhihu.com/p/238003691",
+      "summary": "正文系统介绍二分法、不动点迭代、Newton法与弦截法求解非线性方程及方程组。"
+    },
+    {
+      "title": "利用matlab求解偏微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/225886001",
+      "summary": "正文用时间与空间差商把热传导方程化为显式和隐式递推公式，并讨论稳定性。"
+    },
+    {
+      "title": "凸优化|笔记整理（7）——对偶性延伸：对偶范数，共轭函数，双对偶；再看牛顿法",
+      "url": "https://zhuanlan.zhihu.com/p/260819137",
+      "summary": "正文给出牛顿法的二阶更新、回溯步长和收敛速度分析，属于数值迭代方法。"
+    },
+    {
+      "title": "蒙特卡洛法高维数值积分： Vegas",
+      "url": "https://zhuanlan.zhihu.com/p/264315872",
+      "summary": "正文比较高维积分的传统数值方法，分析维数灾难并介绍自适应数值积分策略。"
+    },
+    {
+      "title": "用 python 学哈密顿力学 (1)",
+      "url": "https://zhuanlan.zhihu.com/p/265946306",
+      "summary": "正文比较 odeint、显式欧拉与辛欧拉格式，讨论数值误差累积和长时稳定性。"
+    },
+    {
+      "title": "机器人轨迹规划：三次样条曲线（matlab）",
+      "url": "https://zhuanlan.zhihu.com/p/266309673",
+      "summary": "正文以分段三次多项式构造插值样条，并给出系数计算和数值稳定性处理方法。"
+    },
+    {
+      "title": "数学之美：牛顿-拉夫逊迭代法原理及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/266566509",
+      "summary": "正文讨论数值求根的迭代实现、误差容限、最大迭代次数及潜在失效情形。"
+    },
+    {
+      "title": "插值算法",
+      "url": "https://zhuanlan.zhihu.com/p/266951945",
+      "summary": "正文围绕最近邻、单线性和双线性插值推导图像缩放中的未知像素估计，属于数值分析中的插值方法。"
+    },
+    {
+      "title": "利用硬件加速大规模科学计算 | 从MATLAB到C/C++代码",
+      "url": "https://zhuanlan.zhihu.com/p/274629622",
+      "summary": "正文围绕 BLAS、LAPACK 和 CUDA 等数值计算库，讨论矩阵运算与分解的计算实现和加速。"
+    },
+    {
+      "title": "一篇文章入门大规模线性方程组求解",
+      "url": "https://zhuanlan.zhihu.com/p/275616283",
+      "summary": "正文还比较直接分解与迭代方法，并讨论规模、条件数、稳定性和并行化等数值分析问题。"
+    },
+    {
+      "title": "矩阵与数值计算（2）——矩阵三角分解LU、PALU、Cholesky三角分解、QR分解",
+      "url": "https://zhuanlan.zhihu.com/p/279323822",
+      "summary": "正文从算法复杂度、主元误差、条件数和数值稳定性讨论矩阵分解，属于数值分析中的数值线性代数内容。"
+    },
+    {
+      "title": "解线性方程组的迭代法",
+      "url": "https://zhuanlan.zhihu.com/p/281927651",
+      "summary": "正文系统介绍大型稀疏线性方程组的迭代求解、收敛性及误差控制。"
+    },
+    {
+      "title": "用python实现简单的有限元方法（一）",
+      "url": "https://zhuanlan.zhihu.com/p/264901969",
+      "summary": "正文比较有限差分离散微分算子与有限元展开基函数逼近待求函数的数值分析思路。"
+    },
+    {
+      "title": "矩阵与数值计算（11）——共轭梯度法",
+      "url": "https://zhuanlan.zhihu.com/p/305670306",
+      "summary": "正文讨论大型稀疏线性方程组的迭代求解、收敛速度及数值稳定性，属于数值分析。"
+    },
+    {
+      "title": "【3.7】线性代数应用：图和矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/186266784",
+      "summary": "正文用前向、后向和二阶差分离散化微分方程，并组装矩阵方程进行数值求解。"
+    },
+    {
+      "title": "矩阵与数值计算（12）——Lagrange插值、Newton插值、Hermite插值",
+      "url": "https://zhuanlan.zhihu.com/p/317097371",
+      "summary": "正文把插值定位为数值分析中的函数近似方法，并介绍Lagrange、Newton和Hermite插值。"
+    },
+    {
+      "title": "状态空间方程的离散化",
+      "url": "https://zhuanlan.zhihu.com/p/326930724",
+      "summary": "正文比较并推导前向欧拉和零阶保持两种数值离散化方法，且讨论精确度和稳定性。"
+    },
+    {
+      "title": "数值分析知识点总结（一）",
+      "url": "https://zhuanlan.zhihu.com/p/330023679",
+      "summary": "正文系统总结绝对误差、相对误差、误差传播、算法稳定性及插值多项式等数值分析基础。"
+    },
+    {
+      "title": "数值分析知识点总结（二）",
+      "url": "https://zhuanlan.zhihu.com/p/330320094",
+      "summary": "正文讲解函数平方逼近、正交多项式与最小二乘拟合，并讨论病态系数矩阵等数值计算问题。"
+    },
+    {
+      "title": "数值分析知识点总结（三）",
+      "url": "https://zhuanlan.zhihu.com/p/334509404",
+      "summary": "正文系统讲解代数精度、Newton-Cotes、复化求积和 Gauss 求积等数值分析方法。"
+    },
+    {
+      "title": "数值分析知识点总结（四）",
+      "url": "https://zhuanlan.zhihu.com/p/335080432",
+      "summary": "正文系统讲解常微分方程初值问题的离散化、数值格式、截断误差和稳定性。"
+    },
+    {
+      "title": "多重网格法 (Multigrid Method) 简述和示例",
+      "url": "https://zhuanlan.zhihu.com/p/337970166",
+      "summary": "正文讲解多重网格的粗细网格转换、限制与延拓步骤，并以边界值问题比较其与 Gauss-Seidel 的收敛效率。"
+    },
+    {
+      "title": "ABAQUS用户子程序UMAT不正经教程（四）：一个完整的迭代求解过程",
+      "url": "https://zhuanlan.zhihu.com/p/338500414",
+      "summary": "正文以荷载位移路径为例展示切线迭代、误差比较与收敛过程，属于数值求解分析。"
+    },
+    {
+      "title": "ABAQUS用户子程序UMAT不正经教程（六）：应力的数值积分方法",
+      "url": "https://zhuanlan.zhihu.com/p/341634133",
+      "summary": "正文系统说明应力积分中的 Newton-Cotes 与高斯数值积分及其积分点加权求和方法。"
+    },
+    {
+      "title": "MATLAB | 一维薛定谔方程的数值解及势场中波包的演化",
+      "url": "https://zhuanlan.zhihu.com/p/343847938",
+      "summary": "正文将时间演化离散化，使用时间和空间差分构造递推，并讨论边界处理及数值迭代结果。"
+    },
+    {
+      "title": "数值分析例题分析（一）",
+      "url": "https://zhuanlan.zhihu.com/p/346542377",
+      "summary": "正文通过多道例题讲解误差传播、算法稳定性、插值余项及数值插值方法，属于数值分析。"
+    },
+    {
+      "title": "时间序列分析 | 动态模态分解",
+      "url": "https://zhuanlan.zhihu.com/p/348645464",
+      "summary": "正文用截断奇异值分解、低秩近似和伪逆构造可预测的数值算法。"
+    },
+    {
+      "title": "非线性回归中的Levenberg-Marquardt算法理论和代码实现",
+      "url": "https://zhuanlan.zhihu.com/p/349953779",
+      "summary": "正文讨论Levenberg-Marquardt算法的迭代数值实现，并与SciPy实现进行比较。"
+    },
+    {
+      "title": "期权定价PDE的稳定性分析",
+      "url": "https://zhuanlan.zhihu.com/p/350589820",
+      "summary": "正文对偏微分方程作时间和空间差分，比较显式、隐式格式并分析各自的计算方式与稳定性条件。"
+    },
+    {
+      "title": "显示和隐式有限差分法的区别",
+      "url": "https://zhuanlan.zhihu.com/p/351071478",
+      "summary": "正文比较显式与隐式有限差分法的离散方式、递推过程和稳定性风险，属于数值分析。"
+    },
+    {
+      "title": "什么是有限元(FEM)",
+      "url": "https://zhuanlan.zhihu.com/p/350368062",
+      "summary": "正文详细给出有限元数值流程，包括弱形式、网格离散、单元积分、矩阵组装和边界条件处理。"
+    },
+    {
+      "title": "随机微分方程的模拟（一）",
+      "url": "https://zhuanlan.zhihu.com/p/354688060",
+      "summary": "正文定义强、弱收敛阶，分析 Euler 与 Milstein 方法的数值误差和收敛速度。"
+    },
+    {
+      "title": "打破线性方程求解速度极限，IOI金牌得主、华人学者新算法获顶会SODA 2021最佳论文奖",
+      "url": "https://zhuanlan.zhihu.com/p/355722960",
+      "summary": "正文具体介绍稀疏线性系统的迭代求解算法，并比较其与矩阵乘法方法的计算复杂度。"
+    },
+    {
+      "title": "深度学习求解偏微分方程系列一：Deep Galerkin Method",
+      "url": "https://zhuanlan.zhihu.com/p/359328643",
+      "summary": "正文比较有限差分、有限元、蒙特卡洛和神经网络等数值求解路线，并讨论高维计算代价。"
+    },
+    {
+      "title": "矩阵奇异性和矩阵‘病态’问题详细描述",
+      "url": "https://zhuanlan.zhihu.com/p/360222065",
+      "summary": "正文从观测误差、舍入误差、条件数和正则化讨论数值计算的稳定性与精度。"
+    },
+    {
+      "title": "【硬件算法笔记22】CORDIC算法",
+      "url": "https://zhuanlan.zhihu.com/p/359610075",
+      "summary": "正文完整讲解 CORDIC 通过移位、加法和查表迭代计算三角函数、反三角函数、指数与对数，并分析伸缩因子、模式、收敛性及硬件实现，属于数值分析中的数值逼近与算法。"
+    },
+    {
+      "title": "第五章 连分式的基本理论",
+      "url": "https://zhuanlan.zhihu.com/p/357077552",
+      "summary": "正文讲解把无理数和函数展开成连分式、按精度截断有理逼近，以及收敛和等价变换，属于数值逼近方法。"
+    },
+    {
+      "title": "用一个简单的例子学会代数多重网格（AMG）算法",
+      "url": "https://zhuanlan.zhihu.com/p/363736212",
+      "summary": "正文通过 Jacobi 迭代、残差、限制、粗网格求解和延拓说明代数多重网格的数值求解流程。"
+    },
+    {
+      "title": "矩阵的LU分解",
+      "url": "https://zhuanlan.zhihu.com/p/363948873",
+      "summary": "正文从运算量和回代过程说明数值线性代数中 LU 分解相较直接求逆的优势。"
+    },
+    {
+      "title": "MATLAB学习笔记（台大郭彦甫YouTube学习视频+硬件光阴simulink教学，不断更）",
+      "url": "https://zhuanlan.zhihu.com/p/361720757",
+      "summary": "正文介绍 LU 高斯消元和 QR 正交三角分解，并说明分解矩阵的维数与计算方法。"
+    },
+    {
+      "title": "Matlab学习笔记（6.2）线性方程组求解",
+      "url": "https://zhuanlan.zhihu.com/p/366658203",
+      "summary": "正文比较直接法与迭代法的数值实现，给出迭代公式、收敛条件和大型稀疏方程组适用性。"
+    },
+    {
+      "title": "有限体积法（13）离散化过程",
+      "url": "https://zhuanlan.zhihu.com/p/367445221",
+      "summary": "正文把守恒型偏微分方程经体积分、高斯求积和通量线性化离散为代数方程，是数值离散方法的完整教学。"
+    },
+    {
+      "title": "数值分析(5)：插值法",
+      "url": "https://zhuanlan.zhihu.com/p/368045270",
+      "summary": "正文从插值条件出发构造拉格朗日基函数和插值多项式，并讨论误差余项，属于数值分析中的插值方法。"
+    },
+    {
+      "title": "数值分析(6)：分段低次插值和三次样条插值",
+      "url": "https://zhuanlan.zhihu.com/p/368911657",
+      "summary": "正文比较分段线性、分段三次 Hermite 和三次样条插值，并讨论待定系数、三弯矩法与插值余项。"
+    },
+    {
+      "title": "【游戏流体力学基础及Unity代码（十五）】线性有限元及弹性物体模拟",
+      "url": "https://zhuanlan.zhihu.com/p/369505527",
+      "summary": "正文比较梯形、Simpson、高斯与蒙特卡洛积分，并讨论节点权重、精度和程序实现。"
+    },
+    {
+      "title": "贝塞尔曲线与B样条",
+      "url": "https://zhuanlan.zhihu.com/p/369753167",
+      "summary": "正文从数值逼近和拟合角度比较贝塞尔方法与 B 样条，并给出曲线曲面生成算法。"
+    },
+    {
+      "title": "深度学习求解偏微分方程系列二：Weak Adversarial Networks",
+      "url": "https://zhuanlan.zhihu.com/p/370346518",
+      "summary": "正文讲解以神经网络逼近偏微分方程解的数值求解流程，并与强解方法比较误差。"
+    },
+    {
+      "title": "计算流体力学（迎风、Lax-Wendroff、TVD、WENO+Runge-Kutta）",
+      "url": "https://zhuanlan.zhihu.com/p/374410332",
+      "summary": "正文比较迎风、Lax-Wendroff、TVD和WENO离散格式，分析截断误差、稳定性与数值扩散。"
+    },
+    {
+      "title": "数值分析(10)：数值积分之Gauss型求积公式",
+      "url": "https://zhuanlan.zhihu.com/p/376594584",
+      "summary": "正文系统讲解 Gauss 型求积公式的代数精度、节点性质、构造、余项及稳定性。"
+    },
+    {
+      "title": "线性代数 | Sylvester方程",
+      "url": "https://zhuanlan.zhihu.com/p/37965266",
+      "summary": "正文比较向量化解析解的复杂度和 Bartels-Stewart 算法，并用数值库求解具体矩阵方程实例。"
+    },
+    {
+      "title": "数值分析(11)：常微分方程的数值解法之Euler法",
+      "url": "https://zhuanlan.zhihu.com/p/376910421",
+      "summary": "正文系统讲解 Euler 法的构造、迭代求解、预估校正与截断误差分析，属于数值分析。"
+    },
+    {
+      "title": "悬链线问题的数值解",
+      "url": "https://zhuanlan.zhihu.com/p/377559711",
+      "summary": "正文用牛顿迭代和雅可比矩阵数值求解乘子约束方程，并讨论初值与不收敛问题。"
+    },
+    {
+      "title": "非线性微分方程的近似解析求解——摄动法",
+      "url": "https://zhuanlan.zhihu.com/p/377732510",
+      "summary": "正文给出四阶龙格-库塔迭代公式，并用它和边界值数值求解验证摄动近似解。"
+    },
+    {
+      "title": "数值分析(12)：Rung-Kutta法及单步法的收敛性和稳定性分析",
+      "url": "https://zhuanlan.zhihu.com/p/378479776",
+      "summary": "正文讲解 Euler 与 Runge-Kutta 单步法的构造、收敛性、相容性和绝对稳定性，属于数值分析。"
+    },
+    {
+      "title": "应用数学新时代的曙光",
+      "url": "https://zhuanlan.zhihu.com/p/380554963",
+      "summary": "正文回顾数值算法在流体力学、数值线性代数和高维科学计算中的发展及作用。"
+    },
+    {
+      "title": "一文弄懂LU分解、Cholesky分解和LDL分解",
+      "url": "https://zhuanlan.zhihu.com/p/382168378",
+      "summary": "正文以逐列行变换给出LU和LDL转置分解的具体算法，并比较两者的计算量。"
+    },
+    {
+      "title": "高斯消去法—matlab求解线性方程组（直接法）",
+      "url": "https://zhuanlan.zhihu.com/p/382936806",
+      "summary": "正文讨论高斯消元的数值实现、主元为零的风险以及舍入误差放大问题。"
+    },
+    {
+      "title": "CORDIC算法原理详解",
+      "url": "https://zhuanlan.zhihu.com/p/384524393",
+      "summary": "正文系统推导 CORDIC 的数值算法，以加减和移位迭代逼近三角函数值。"
+    },
+    {
+      "title": "线性方程组-直接法 1：Gauss消去与LU分解",
+      "url": "https://zhuanlan.zhihu.com/p/386954541",
+      "summary": "正文分析主元为零或过小造成的数值不稳定，并引入列主元高斯消去与带置换的 LU 分解。"
+    },
+    {
+      "title": "0. 渲染一个施瓦西黑洞及其平面吸积盘",
+      "url": "https://zhuanlan.zhihu.com/p/389402727",
+      "summary": "正文用求根、双线性插值和换元降低误差，并定量分析采样与插值的数值误差。"
+    },
+    {
+      "title": "线性方程组-迭代法 2：Jacobi迭代和Gauss-Seidel迭代",
+      "url": "https://zhuanlan.zhihu.com/p/389389672",
+      "summary": "正文分析两种数值迭代法的收敛条件、谱半径判据和稀疏矩阵计算复杂度。"
+    },
+    {
+      "title": "最小二乘拟合平面(python/C++版)",
+      "url": "https://zhuanlan.zhihu.com/p/390294059",
+      "summary": "正文给出基于 SVD 的平面拟合数值方法、推导过程以及 Python 和 C++ 实现。"
+    },
+    {
+      "title": "数值分析：数值积分（蒙特卡洛积分）",
+      "url": "https://zhuanlan.zhihu.com/p/365624460",
+      "summary": "正文以多元函数积分为问题背景，系统讲解蒙特卡洛数值积分、误差分析和采样算法。"
+    },
+    {
+      "title": "Implicit Normalizing Flows",
+      "url": "https://zhuanlan.zhihu.com/p/391827018",
+      "summary": "正文把隐式流的前向计算化为函数零点问题，并用 quasi-Newton 迭代数值求解。"
+    },
+    {
+      "title": "MATLAB | 定态薛定谔方程的数值解——以一维谐振子为例",
+      "url": "https://zhuanlan.zhihu.com/p/393374195",
+      "summary": "正文用有限差分把微分方程离散，讨论步长、截断区间和数值精度。"
+    },
+    {
+      "title": "Lanczos 算法 & Arnoldi 算法 简述",
+      "url": "https://zhuanlan.zhihu.com/p/393679251",
+      "summary": "正文给出 Krylov 子空间投影、正交化和三对角化的完整迭代算法，并讨论收敛、数值稳定性与计算加速。"
+    },
+    {
+      "title": "拉格朗日插值公式的推导及应用——范德蒙德方阵的逆矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/397342283",
+      "summary": "正文围绕拉格朗日插值这一数值逼近方法，给出公式推导、唯一性证明和矩阵求逆应用。"
+    },
+    {
+      "title": "Python：SIMPLE法求解CFD中的方腔流示例",
+      "url": "https://zhuanlan.zhihu.com/p/401585175",
+      "summary": "正文采用交错网格、有限差分、预测校正和线性方程求解实现数值计算。"
+    },
+    {
+      "title": "详细剖析 AMD FSR 算法",
+      "url": "https://zhuanlan.zhihu.com/p/401030221",
+      "summary": "正文具体分析图像上采样的加权平均、Lanczos2 多项式拟合、双线性插值和拉普拉斯滤波与梯度计算。"
+    },
+    {
+      "title": "Python: 显式有限差分求解一维对流方程",
+      "url": "https://zhuanlan.zhihu.com/p/403593394",
+      "summary": "正文推导迎风、蛙跳、Lax-Friedrichs、Lax-Wendroff 和 Beam-Warming 格式，并比较精度与稳定条件。"
+    },
+    {
+      "title": "深入理解数值计算网格(全篇)",
+      "url": "https://zhuanlan.zhihu.com/p/406330197",
+      "summary": "正文系统讲解数值仿真中的网格类型、生成算法、质量评价与自适应加密，属于数值分析方法的应用。"
+    },
+    {
+      "title": "Welford算法小记",
+      "url": "https://zhuanlan.zhihu.com/p/408474710",
+      "summary": "正文从舍入误差和数值稳定性出发改进方差的在线计算算法。"
+    },
+    {
+      "title": "微分方程数值求解——有限差分法",
+      "url": "https://zhuanlan.zhihu.com/p/411798670",
+      "summary": "正文系统讲解有限差分法把微分项离散为代数方程的原理、公式、误差和实例。"
+    },
+    {
+      "title": "从零开始几何处理：函数拟合",
+      "url": "https://zhuanlan.zhihu.com/p/412459069",
+      "summary": "正文讨论插值系数矩阵的病态、条件数与数值稳定性，并比较多项式基和替代函数空间。"
+    },
+    {
+      "title": "有限元分析：非线性分析求解算法——牛顿迭代法",
+      "url": "https://zhuanlan.zhihu.com/p/417412391",
+      "summary": "正文给出 Newton-Raphson、修正牛顿法、下山法及显式欧拉迭代等数值计算方法的公式和收敛讨论。"
+    },
+    {
+      "title": "UE4中的阻尼弹簧平滑",
+      "url": "https://zhuanlan.zhihu.com/p/412291354",
+      "summary": "正文用显式与隐式欧拉法离散阻尼弹簧方程，分析大步长下的稳定性并比较数值实现。"
+    },
+    {
+      "title": "欧拉法(Euler)求解常微分方程的Matlab程序及案例",
+      "url": "https://zhuanlan.zhihu.com/p/422074759",
+      "summary": "正文比较显式、隐式、两步和改进欧拉法的公式、误差阶与稳定性，并用算例验证数值结果。"
+    },
+    {
+      "title": "​数学是所有科学的女王，如果你打算放弃数学，请先看看这篇文章",
+      "url": "https://zhuanlan.zhihu.com/p/427412971",
+      "summary": "正文介绍牛顿法、欧拉方法、有限元与高斯消元等数值方法，并讨论精度、效率和稳定性。"
+    },
+    {
+      "title": "四阶龙格库塔法(Runge-Kutta)求解常微分方程的Matlab程序及案例",
+      "url": "https://zhuanlan.zhihu.com/p/427409568",
+      "summary": "正文给出四阶龙格库塔法的分段逼近、递推公式和误差阶，并通过数值案例说明其精度。"
+    },
+    {
+      "title": "物理模拟-流体：Smoothed Particle Hydrodynamics（一）",
+      "url": "https://zhuanlan.zhihu.com/p/426566636",
+      "summary": "正文具体推导核函数积分和微分算子的离散化，并介绍邻居搜索与迭代求解流程。"
+    },
+    {
+      "title": "收下吧！这是我最后的稀疏矩阵求解了！",
+      "url": "https://zhuanlan.zhihu.com/p/429734948",
+      "summary": "正文从投影观点系统讲解 Krylov 子空间迭代、Arnoldi 正交化和 Lanczos 过程，属于数值分析。"
+    },
+    {
+      "title": "再见了，所有的稀疏矩阵。",
+      "url": "https://zhuanlan.zhihu.com/p/432426697",
+      "summary": "正文具体讲解稀疏矩阵求解中的 Arnordi 基、Givens 变换、QR 分解和迭代存储复杂度。"
+    },
+    {
+      "title": "常(偏)微分方程的数值求解（欧拉法、改进欧拉法、龙格-库塔法、亚当姆斯法）",
+      "url": "https://zhuanlan.zhihu.com/p/435769998",
+      "summary": "正文以离散网格上的近似值求解微分方程，比较欧拉法、龙格-库塔法和 Adams 法的精度、阶与计算量。"
+    },
+    {
+      "title": "稀疏线性方程组求解器与随机矩阵理论",
+      "url": "https://zhuanlan.zhihu.com/p/438321454",
+      "summary": "正文分析稀疏线性方程组的数值求解、预条件、误差界与算法复杂度。"
+    },
+    {
+      "title": "常微分方程的MATLAB求解",
+      "url": "https://zhuanlan.zhihu.com/p/438752297",
+      "summary": "正文介绍 ode45、ode23、ode15s 等数值求解器，并演示欧拉法和高阶方程降阶求近似解。"
+    },
+    {
+      "title": "研0纪实：一维间断Galerkin方法(DG)",
+      "url": "https://zhuanlan.zhihu.com/p/439772431",
+      "summary": "正文讨论空间离散、时间推进、稳定性与收敛阶，并通过网格加密和误差阶测试验证数值格式。"
+    },
+    {
+      "title": "常微分方程的MATLAB求解——手写龙格-库塔法（R-K法）模板、一般步骤",
+      "url": "https://zhuanlan.zhihu.com/p/440555255",
+      "summary": "正文完整给出欧拉法、改进欧拉法和四阶龙格－库塔法的迭代公式、模板及算例。"
+    },
+    {
+      "title": "用 numpy 实现一个简单的 Rayleigh-Bénard 对流模式吧！",
+      "url": "https://zhuanlan.zhihu.com/p/441884153",
+      "summary": "正文具体构造有限差分算子，并用超松弛迭代求解 Poisson 方程及推进时间积分。"
+    },
+    {
+      "title": "机械臂学习(19)－贝塞尔曲线",
+      "url": "https://zhuanlan.zhihu.com/p/442527216",
+      "summary": "正文以离散数据点的光滑连接为主线，讲解插值、贝塞尔曲线基函数和 De Casteljau 算法，属于数值分析中的曲线插值方法。"
+    },
+    {
+      "title": "GAMES103笔记 Lecture5 基于物理的布料模拟（Physics-based Cloth Simulation）",
+      "url": "https://zhuanlan.zhihu.com/p/441088912",
+      "summary": "正文比较显式和隐式欧拉法，分析时间步长与刚度导致的数值不稳定，并给出牛顿迭代求解。"
+    },
+    {
+      "title": "谈谈自动微分",
+      "url": "https://zhuanlan.zhihu.com/p/451134915",
+      "summary": "正文比较数值微分、符号微分和自动微分，并分析截断误差、舍入误差与计算存储代价。"
+    },
+    {
+      "title": "一.因子图优化学习---董靖博士在深蓝学院的公开课学习（1）",
+      "url": "https://zhuanlan.zhihu.com/p/451555685",
+      "summary": "正文比较 QR 与 Cholesky 的速度和数值稳定性，并讨论增量分解与重排序等数值计算问题。"
+    },
+    {
+      "title": "什么是龙格库塔？常微分方程的数值解法",
+      "url": "https://zhuanlan.zhihu.com/p/452525470",
+      "summary": "正文比较不同数值积分格式的精度，并给出 R-K3、R-K4 的构造和数值实现。"
+    },
+    {
+      "title": "机器人的运动学解——逆向运动学解",
+      "url": "https://zhuanlan.zhihu.com/p/450749372",
+      "summary": "正文具体介绍欧拉离散、Newton-Raphson、奇异值分解和阻尼最小二乘等数值求解及稳定性问题。"
+    },
+    {
+      "title": "《数值分析》第6章 解线性方程组的迭代法",
+      "url": "https://zhuanlan.zhihu.com/p/458562665",
+      "summary": "正文讨论大型稀疏线性系统的迭代求解、误差迭代和谱半径收敛判据，属于数值分析。"
+    },
+    {
+      "title": "【QP Solver】OSQP原理",
+      "url": "https://zhuanlan.zhihu.com/p/463234528",
+      "summary": "正文比较直接分解与迭代间接求解线性系统的方法，并讨论 relaxation 和数值精度抛光。"
+    },
+    {
+      "title": "数值分析 - 第二章 - 函数逼近 （1） - 最佳平方逼近",
+      "url": "https://zhuanlan.zhihu.com/p/472539436",
+      "summary": "正文以最佳平方逼近为主线，给出数值分析中的函数逼近误差、计算方法和算例。"
+    },
+    {
+      "title": "Matlab快速入门（十）求解偏微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/474291803",
+      "summary": "正文详细说明有限差分法如何网格离散、用差商代替导数并构造数值格式。"
+    },
+    {
+      "title": "大规模稀疏线性方程组求解",
+      "url": "https://zhuanlan.zhihu.com/p/479913328",
+      "summary": "正文具体介绍 COO、CSR、CSC 等稀疏存储格式以及大规模稀疏系统的数值求解。"
+    },
+    {
+      "title": "手动开根号（长除法）",
+      "url": "https://zhuanlan.zhihu.com/p/482889005",
+      "summary": "正文用逐位试商、相减并追加零的迭代步骤给出平方根数值逼近方法，属于数值计算。"
+    },
+    {
+      "title": "Delaunay三角剖分",
+      "url": "https://zhuanlan.zhihu.com/p/497138836",
+      "summary": "正文以狄利克雷能量最小化定义 Delaunay 三角剖分，并讨论网格质量与数值离散误差。"
+    },
+    {
+      "title": "曲线杂谈（三）：青出于蓝的B-Spline和NURBS",
+      "url": "https://zhuanlan.zhihu.com/p/500426271",
+      "summary": "正文系统介绍 B 样条与 NURBS 的节点向量、基函数、逼近曲线公式及数值实现。"
+    },
+    {
+      "title": "动力学模态分解 (Dynamic Mode Decomposition, DMD) 学习",
+      "url": "https://zhuanlan.zhihu.com/p/501969800",
+      "summary": "正文把 DMD 作为基于快照数据的矩阵低秩近似方法，并完整给出数值计算流程。"
+    },
+    {
+      "title": "研0纪实：ENO/WENO重构",
+      "url": "https://zhuanlan.zhihu.com/p/508154960",
+      "summary": "正文系统推导 ENO/WENO 重构、数值通量和时间离散格式，并通过截断误差与数值实验讨论精度。"
+    },
+    {
+      "title": "计算流体力学：有限差分法(FDM)、有限元法(FEM)和有限体积法(FVM)思想概述",
+      "url": "https://zhuanlan.zhihu.com/p/516229051",
+      "summary": "正文比较三种偏微分方程离散方法的近似思想、网格计算与程序实现，属于数值分析。"
+    },
+    {
+      "title": "【自动微分原理】一文看懂AD原理",
+      "url": "https://zhuanlan.zhihu.com/p/518198564",
+      "summary": "正文具体比较前向、后向和中心差商，分析截断误差、舍入误差及其对数值微分精度的影响。"
+    },
+    {
+      "title": "一文看懂有限元中的高斯积分(Gaussian Quadrature)",
+      "url": "https://zhuanlan.zhihu.com/p/521630645",
+      "summary": "正文从数值积分定义出发，解释求积点、权重和误差精度，属于数值分析方法的实质讲解。"
+    },
+    {
+      "title": "数值分析期末复习笔记（附电子版）",
+      "url": "https://zhuanlan.zhihu.com/p/538881498",
+      "summary": "正文系统归纳误差分析、插值、函数逼近、数值积分和牛顿迭代等数值分析内容，属于数值方法的复习展开。"
+    },
+    {
+      "title": "伽辽金法学习（Galerkin）一",
+      "url": "https://zhuanlan.zhihu.com/p/543086700",
+      "summary": "正文以一维杆和二维薄板为例讲解伽辽金加权残差法，展示了构造数值近似解的一般流程。"
+    },
+    {
+      "title": "Neural ODE，这个世界终究是连续的",
+      "url": "https://zhuanlan.zhihu.com/p/554790455",
+      "summary": "正文介绍 Euler、Runge-Kutta 等常微分方程数值求解方法及其在连续网络中的应用。"
+    },
+    {
+      "title": "格子Boltzmann法（LBM）——圆柱绕流 应用（附Matlab代码）",
+      "url": "https://zhuanlan.zhihu.com/p/559068641",
+      "summary": "正文把流体离散到格子，介绍碰撞、迁移、宏观量更新和迭代收敛的格子玻尔兹曼数值方法。"
+    },
+    {
+      "title": "GMRES算法",
+      "url": "https://zhuanlan.zhihu.com/p/567939767",
+      "summary": "正文具体给出 GMRES 的迭代步骤、Arnoldi 正交化、线性最小二乘及提前中断判据，属于数值分析中的迭代线性求解方法。"
+    },
+    {
+      "title": "理解贝塞尔曲线",
+      "url": "https://zhuanlan.zhihu.com/p/576515173",
+      "summary": "正文讨论贝塞尔曲线反求参数的数值方法，说明二分逼近的误差控制以及牛顿迭代不收敛时回退二分的策略。"
+    },
+    {
+      "title": "Python解薛定谔方程（一维谐振子为例）",
+      "url": "https://zhuanlan.zhihu.com/p/578421135",
+      "summary": "正文用差分、打靶、矩阵本征问题和 Crank-Nicolson 方法数值求解薛定谔方程。"
+    },
+    {
+      "title": "华人数学家死磕欧拉方程10年，用计算机找到了让它失效的“奇点”",
+      "url": "https://zhuanlan.zhihu.com/p/584258367",
+      "summary": "正文介绍用数值计算模拟自相似解、控制精度和跟踪误差，以辅助证明奇点存在。"
+    },
+    {
+      "title": "MATLAB手搓有限元代码",
+      "url": "https://zhuanlan.zhihu.com/p/592671493",
+      "summary": "正文展示数值求解结果，并以相对误差和收敛效果检验有限元近似质量。"
+    },
+    {
+      "title": "有限元方法（FEM）学习笔记（4）",
+      "url": "https://zhuanlan.zhihu.com/p/593504667",
+      "summary": "正文分析网格角度和单元形状对插值误差、刚度矩阵条件数及数值稳定性的影响。"
+    },
+    {
+      "title": "矩阵指数exp(A)的19种计算方法",
+      "url": "https://zhuanlan.zhihu.com/p/610887072",
+      "summary": "正文系统介绍帕德近似、切比雪夫逼近、ODE 数值解等矩阵指数的数值计算方法。"
+    },
+    {
+      "title": "微分方程数值求解——有限差分法",
+      "url": "https://zhuanlan.zhihu.com/p/623534485",
+      "summary": "正文介绍有限差分法原理、差分公式、误差阶和网格离散，并用代码验证数值解。"
+    },
+    {
+      "title": "三次样条插值法（Cubic Spline）",
+      "url": "https://zhuanlan.zhihu.com/p/628508199",
+      "summary": "正文完整讲解三次样条的分段三次多项式构造、拼接光滑条件、系数方程及代码实现，属于数值分析中的插值逼近方法。"
+    },
+    {
+      "title": "【最优控制】最优控制的数值解法",
+      "url": "https://zhuanlan.zhihu.com/p/634738565",
+      "summary": "正文比较一阶欧拉、改进欧拉、四阶龙格库塔和配点法在数值求轨迹中的误差与实现。"
+    },
+    {
+      "title": "【UnityShader】 有向距离场（SDF）（13）",
+      "url": "https://zhuanlan.zhihu.com/p/633589464",
+      "summary": "正文把连续距离场离散到网格角点，并用双线性插值近似任意点数值。"
+    },
+    {
+      "title": "一心二用的Online Softmax",
+      "url": "https://zhuanlan.zhihu.com/p/638788074",
+      "summary": "正文围绕指数运算的数值溢出与精度下降，介绍 safe softmax 和单遍 online 更新算法。"
+    },
+    {
+      "title": "笔记：数值计算陈数与Z2拓扑不变量方法",
+      "url": "https://zhuanlan.zhihu.com/p/641807526",
+      "summary": "正文比较有限差分、Vanderbilt 方法和 Wilson loop 方法，重点处理数值相位、简并和网格离散问题。"
+    },
+    {
+      "title": "计算数学研究生的入门编程-科学计算导引",
+      "url": "https://zhuanlan.zhihu.com/p/641120589",
+      "summary": "正文系统讲解差分格式、Jacobi 与 Gauss 迭代、matrix-free 实现及含大致误差处理的数值求解流程。"
+    },
+    {
+      "title": "Krylov算法入门",
+      "url": "https://zhuanlan.zhihu.com/p/644117637",
+      "summary": "正文针对大型稀疏矩阵讲解迭代子空间、误差控制、重启和预条件等数值求解策略。"
+    },
+    {
+      "title": "手撕根号（不记公式，考场可用）",
+      "url": "https://zhuanlan.zhihu.com/p/649216217",
+      "summary": "正文给出可手算的平方根近似算法，并通过提高展开次数分析近似误差。"
+    },
+    {
+      "title": "LLM 量化技术小结",
+      "url": "https://zhuanlan.zhihu.com/p/651874446",
+      "summary": "正文解释定点数表示、反量化以及截断误差和舍入误差之间的数值精度权衡。"
+    },
+    {
+      "title": "数学新发现(5): 椭圆周长的新公式",
+      "url": "https://zhuanlan.zhihu.com/p/645240508",
+      "summary": "正文比较多个椭圆周长近似公式，分析渐近误差阶，并用数值积分和曲线拟合提高近似精度。"
+    },
+    {
+      "title": "DiffusionModel-基于SDE的score based model原理与推导",
+      "url": "https://zhuanlan.zhihu.com/p/670791318",
+      "summary": "正文具体介绍 Euler-Maruyama、Milstein 和随机 Runge-Kutta 等数值求解方法。"
+    },
+    {
+      "title": "02 保姆级理解 B-Spline",
+      "url": "https://zhuanlan.zhihu.com/p/672199076",
+      "summary": "正文围绕B样条曲线的分段表示、凸包性质、节点配置和数值递推展开，属于曲线逼近与数值分析。"
+    },
+    {
+      "title": "小鹏轨迹规划方案：Optimal Vehicle Trajectory Planning for Static Obstacle Avoidance using Nonlinear Opt",
+      "url": "https://zhuanlan.zhihu.com/p/681311263",
+      "summary": "正文对无闭解的轨迹积分采用Gaussian-Legendre数值求积，并讨论离散阶数与精度取舍。"
+    },
+    {
+      "title": "LLM(25)：从控制系统到语言模型 —— Mamba 的前世今生",
+      "url": "https://zhuanlan.zhihu.com/p/680833040",
+      "summary": "正文推导状态微分方程的三种数值离散方法，并比较其稳定性、精度和计算形式。"
+    },
+    {
+      "title": "量化那些事之FP8与LLM-FP4",
+      "url": "https://zhuanlan.zhihu.com/p/683215538",
+      "summary": "正文比较 FP8、INT8 和 FP4 的数值表示、量化网格、偏移量搜索及量化误差，属于数值精度与误差分析。"
+    },
+    {
+      "title": "MATLAB算法 | 龙格库塔算法",
+      "url": "https://zhuanlan.zhihu.com/p/684844677",
+      "summary": "正文用 Runge-Kutta 四级加权方法构造数值搜索步长，并通过基准函数比较收敛速度和误差。"
+    },
+    {
+      "title": "ICLR 2024 | 高斯过程求解 高频+混合尺度 PDE",
+      "url": "https://zhuanlan.zhihu.com/p/702160584",
+      "summary": "正文比较传统数值求解器、谱方法和机器学习求解器在精度、维度和复杂度上的表现。"
+    },
+    {
+      "title": "一种AL-iLQR的框架实现和应用",
+      "url": "https://zhuanlan.zhihu.com/p/703259867",
+      "summary": "正文用十阶高斯-勒让德求积近似积分，并比较数值结果与解析结果来讨论计算误差。"
+    },
+    {
+      "title": "抛开姜萍事件的真假，让我们谈谈数学原本的样子",
+      "url": "https://zhuanlan.zhihu.com/p/705599967",
+      "summary": "正文把数值分析概括为用计算算法近似求解复杂问题，并列举函数求值、回归分析、微分方程和插值法等典型手段。"
+    },
+    {
+      "title": "一个让人惊艳的算法——CORDIC算法介绍",
+      "url": "https://zhuanlan.zhihu.com/p/717126119",
+      "summary": "正文用移位和加减逼近实现角度与三角函数计算，讨论数值算法的效率与收敛。"
+    },
+    {
+      "title": "低秩近似之路（一）：伪逆",
+      "url": "https://zhuanlan.zhihu.com/p/790279779",
+      "summary": "正文讨论直接正则化求伪逆的数值不稳定，并改用谱分解构造稳定算法。"
+    },
+    {
+      "title": "四阶龙格库塔法（Runge-Kutta）的直观解释",
+      "url": "https://zhuanlan.zhihu.com/p/795048670",
+      "summary": "正文给出四阶龙格库塔的四次斜率采样与加权更新公式，并讨论截断误差和计算量。"
+    },
+    {
+      "title": "DMRG 的原理",
+      "url": "https://zhuanlan.zhihu.com/p/1920278979",
+      "summary": "正文讲解如何选择较小希尔伯特子空间并通过反复截断来降低严格对角化的数值计算复杂度。"
+    },
+    {
+      "title": "通俗易懂的Flow Matching原理解读（附核心公式推导和源代码）",
+      "url": "https://zhuanlan.zhihu.com/p/4116861550",
+      "summary": "正文讨论常微分方程初值问题的离散化和数值积分求解方法。"
+    },
+    {
+      "title": "t-J模型的重整化平均场自洽方程的求解（附Julia代码）",
+      "url": "https://zhuanlan.zhihu.com/p/10019378792",
+      "summary": "正文用反复代入并检查误差收敛的不动点迭代数值求解耦合自洽方程，并给出实现代码。"
+    },
+    {
+      "title": "生成扩散模型漫谈（二十七）：将步长作为条件输入",
+      "url": "https://zhuanlan.zhihu.com/p/14614652709",
+      "summary": "文中讨论 ODE 的欧拉数值近似、步长误差和采样步数，属于数值方法的分析。"
+    },
+    {
+      "title": "最优控制求解器（1）",
+      "url": "https://zhuanlan.zhihu.com/p/14591598720",
+      "summary": "文中比较 collocation、single shooting 和 multiple shooting 等离散化转录方式及其数值稳定性。"
+    },
+    {
+      "title": "Conditional Flow Matching (1): 常微分方程ODE、欧拉方法和Neural ODE",
+      "url": "https://zhuanlan.zhihu.com/p/19524967216",
+      "summary": "正文将 ODE 解化为数值积分，推导 Euler 方法并用导数与泰勒误差说明离散近似。"
+    },
+    {
+      "title": "增广拉格朗日 iLQR 轨迹优化",
+      "url": "https://zhuanlan.zhihu.com/p/20849151745",
+      "summary": "正文讨论病态 Hessian、正则化、Cholesky 与 QR 分解及平方根反向传递的数值稳定性。"
+    },
+    {
+      "title": "【万字】在Python当中绘制原子轨道",
+      "url": "https://zhuanlan.zhihu.com/p/1889521938914853892",
+      "summary": "正文用离散网格、阈值等值面和 marching cubes 数值提取原子轨道的截面与三维形状。"
+    },
+    {
+      "title": "矩阵的有效秩（Effective Rank）",
+      "url": "https://zhuanlan.zhihu.com/p/1899586138747937721",
+      "summary": "正文针对数值计算中近零奇异值的处理，给出有效秩的定义并比较计算复杂度。"
+    },
+    {
+      "title": "使用Mathematica演示量子力学",
+      "url": "https://zhuanlan.zhihu.com/p/1899834824035921926",
+      "summary": "正文使用有限元离散和 NDEigensystem、NDSolveValue 对微分方程作数值求解。"
+    },
+    {
+      "title": "1ᵏ+2ᵏ+ ⋯ + nᵏ = ?",
+      "url": "https://zhuanlan.zhihu.com/p/1913181262887252926",
+      "summary": "正文以欧拉-麦克劳林数值积分求和方法推导自然数幂和的显式多项式公式。"
+    },
+    {
+      "title": "Approximation theory 近似理论",
+      "url": "https://zhuanlan.zhihu.com/p/1914344801593194049",
+      "summary": "正文介绍 Remez 迭代算法及有理 Remez，并讨论数值实现中的精度与误差控制。"
+    },
+    {
+      "title": "二维世界真的存在元素周期表吗",
+      "url": "https://zhuanlan.zhihu.com/p/2004224014701311652",
+      "summary": "正文采用有限差分离散径向方程，并截断无穷区间进行数值本征值计算。"
+    },
+    {
+      "title": "记一个简单的问题：两个相邻单位立方体之间的吸引力",
+      "url": "https://zhuanlan.zhihu.com/p/2006664558891271770",
+      "summary": "正文讨论高精度数值积分困难，并借助 Gauss 求积、误差与相似律关系校验结果。"
+    },
+    {
+      "title": "矩阵函数近似中的暴力美学",
+      "url": "https://zhuanlan.zhihu.com/p/2061851180347691815",
+      "summary": "正文系统讨论矩阵函数的多项式迭代逼近、误差比较和数值稳定性，属于数值分析方法。"
+    }
+  ]
+}

@@ -1,0 +1,1211 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l5-t4-b4",
+  "sources": [
+    {
+      "title": "除纳什均衡以外，约翰·纳什（John Nash）在数学及其它领域还有哪些贡献？",
+      "url": "https://www.zhihu.com/answer/49066277",
+      "summary": "正文展开黎曼流形等距嵌入问题。"
+    },
+    {
+      "title": "请问庞加莱猜想为什么看上去容易理解，却这么难证明？",
+      "url": "https://www.zhihu.com/answer/71264483",
+      "summary": "正文直接说明黎曼引进流形和度量并创立黎曼几何。"
+    },
+    {
+      "title": "怎么用清晰的具象的语言来描述黎曼度量的意义与定义？",
+      "url": "https://www.zhihu.com/answer/74698560",
+      "summary": "正文定义黎曼度量并解释其测量曲线长度的意义。"
+    },
+    {
+      "title": "蚂蚁绕北回归线一圈转了多少度？",
+      "url": "https://www.zhihu.com/answer/76920509",
+      "summary": "正文从曲面内蕴性质和平面、球面的差异引出黎曼几何。"
+    },
+    {
+      "title": "请推荐黎曼几何的教材?",
+      "url": "https://www.zhihu.com/answer/82924612",
+      "summary": "正文具体建议如何选择黎曼几何入门书。"
+    },
+    {
+      "title": "怎么用大众都懂的语言解释黎曼空间？",
+      "url": "https://www.zhihu.com/answer/83465328",
+      "summary": "正文从曲线、曲面和度量直观解释黎曼空间与黎曼几何。"
+    },
+    {
+      "title": "数学或者自然科学中有哪些理论技巧一经提出就大大化简了过去某些问题很困难繁琐的解答？",
+      "url": "https://www.zhihu.com/answer/87247881",
+      "summary": "正文围绕黎曼流形等距嵌入问题、度量与 Nash 证明展开。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/87310616",
+      "summary": "正文介绍紧黎曼流形闭测地线定理及其 Morse 理论背景。"
+    },
+    {
+      "title": "闵科夫斯基空间、罗氏几何、黎曼几何这三者的联系、区别分别是什么？",
+      "url": "https://www.zhihu.com/answer/89099076",
+      "summary": "正文解释黎曼几何、度规和弯曲空间中的长度。"
+    },
+    {
+      "title": "费雪信息 (Fisher information) 的直观意义是什么？",
+      "url": "https://www.zhihu.com/answer/93809082",
+      "summary": "正文将 Fisher 信息解释为黎曼度量，属于信息几何中的黎曼几何。"
+    },
+    {
+      "title": "Clifford 代数是什么, 它和 Dirac 算子有什么关系?",
+      "url": "https://www.zhihu.com/answer/96172330",
+      "summary": "正文在可定向黎曼流形上加入 Spin 结构，并讨论切空间上的二次型。"
+    },
+    {
+      "title": "现代几何的方法在概率论研究上有什么应用？",
+      "url": "https://www.zhihu.com/answer/99514172",
+      "summary": "正文具体说明 Fisher 信息作为黎曼度量以及测地距离的概率解释。"
+    },
+    {
+      "title": "解析几何能不能解决所有的几何问题？",
+      "url": "https://www.zhihu.com/answer/100711852",
+      "summary": "正文以 Nash 嵌入定理解释黎曼几何与高维解析几何的关系。"
+    },
+    {
+      "title": "数学上有哪些丑陋的公式？",
+      "url": "https://www.zhihu.com/answer/112942821",
+      "summary": "正文使用黎曼曲率张量和Christoffel符号表达曲面几何结构。"
+    },
+    {
+      "title": "欧几里德的第五公设可靠吗？",
+      "url": "https://www.zhihu.com/answer/113804677",
+      "summary": "正文说明黎曼几何的公设、球面模型及其物理应用。"
+    },
+    {
+      "title": "微分几何中的克氏符是什么东西？有什么现实直观例子没有？",
+      "url": "https://www.zhihu.com/answer/114256162",
+      "summary": "正文在无挠 Riemann 空间中推导局部惯性系与平坦性。"
+    },
+    {
+      "title": "代数几何在弦论中有什么作用？",
+      "url": "https://www.zhihu.com/answer/125140415",
+      "summary": "正文在黎曼面度量与 Teichmuller 空间上构造体积形式。"
+    },
+    {
+      "title": "数学硕士/博士研究生阶段有哪些定理/论文/理论让你为之振奋？",
+      "url": "https://www.zhihu.com/answer/125188257",
+      "summary": "正文讨论黎曼几何中非负截面曲率度量的分类实例。"
+    },
+    {
+      "title": "数学硕士/博士研究生阶段有哪些定理/论文/理论让你为之振奋？",
+      "url": "https://www.zhihu.com/answer/125686418",
+      "summary": "正文从黎曼度量的共形类和常标量曲率陈述 Yamabe 问题。"
+    },
+    {
+      "title": "什么是 bochner 技巧？",
+      "url": "https://www.zhihu.com/answer/130901493",
+      "summary": "正文在黎曼流形上以Bochner公式、Ricci曲率和调和形式展示黎曼几何估计。"
+    },
+    {
+      "title": "Kahler几何的发展历程及其背景意义是什么",
+      "url": "https://www.zhihu.com/answer/130913936",
+      "summary": "正文专门讨论Kähler–Einstein度量、高维复流形与曲率等黎曼几何结构。"
+    },
+    {
+      "title": "在学习数学的过程中，如何避免只是习惯了知识而不是理解了知识？",
+      "url": "https://www.zhihu.com/answer/132206402",
+      "summary": "正文以截面曲率、Ricci曲率和数量曲率说明黎曼几何中曲率概念的进阶。"
+    },
+    {
+      "title": "Kenji Fukaya在数学上的主要贡献在哪里？成果和田刚李骏他们相比怎么样？",
+      "url": "https://www.zhihu.com/answer/134482922",
+      "summary": "正文陈述 Fukaya 的黎曼几何纤维化定理及流形塌缩条件。"
+    },
+    {
+      "title": "求推荐黎曼几何，复几何，黎曼曲面经典书。？",
+      "url": "https://www.zhihu.com/answer/139930200",
+      "summary": "正文讨论 Riemann 几何在复几何和几何分析中的基础地位。"
+    },
+    {
+      "title": "什么叫内蕴几何？",
+      "url": "https://www.zhihu.com/answer/144677695",
+      "summary": "正文在黎曼流形框架下讨论曲率积分与整体几何不变量。"
+    },
+    {
+      "title": "现代数学的目的是什么？",
+      "url": "https://www.zhihu.com/answer/147349630",
+      "summary": "正文说明黎曼度量、曲率及爱因斯坦场方程如何把黎曼几何用于广义相对论。"
+    },
+    {
+      "title": "怎么做才能把圆周率改成 3.15？改完以后世界会是啥样？",
+      "url": "https://www.zhihu.com/answer/147799498",
+      "summary": "正文写出黎曼度量形式并说明一般黎曼空间中圆周长与直径之比可能不是常数。"
+    },
+    {
+      "title": "数学本科生能做哪些研究？",
+      "url": "https://www.zhihu.com/answer/151653033",
+      "summary": "正文提出圆柱上非负曲率黎曼度量的具体研究问题并讨论可用定理。"
+    },
+    {
+      "title": "有哪些在你的数学领域里很有用的技巧？",
+      "url": "https://www.zhihu.com/answer/164754108",
+      "summary": "正文明确以黎曼几何为背景解释正曲率流形的研究技巧。"
+    },
+    {
+      "title": "有哪些名字逗比的科学定理？",
+      "url": "https://www.zhihu.com/answer/166525485",
+      "summary": "正文说明黎曼几何是内蕴几何向高维的推广。"
+    },
+    {
+      "title": "你所在的领域里，有哪些堪称开山之作的论文？",
+      "url": "https://www.zhihu.com/answer/174090702",
+      "summary": "正文从黎曼原始论文到20世纪发展说明黎曼几何的基本观念。"
+    },
+    {
+      "title": "有哪些值得数学系本科生一读的经典数学论文？",
+      "url": "https://www.zhihu.com/answer/186208588",
+      "summary": "正文介绍黎曼几何中四维单连通紧正曲率流形的分类结果及其证明背景。"
+    },
+    {
+      "title": "请问庞加莱猜想为什么看上去容易理解，却这么难证明？",
+      "url": "https://www.zhihu.com/answer/198011278",
+      "summary": "正文明确指出理解该证明需要黎曼几何与度量几何。"
+    },
+    {
+      "title": "什么是 Finsler Geometry？它与 Riemann 几何有什么关系？",
+      "url": "https://www.zhihu.com/answer/204093693",
+      "summary": "正文从度量曲线长度的方式说明 Finsler 几何是黎曼几何的推广。"
+    },
+    {
+      "title": "什么是 spin geometry？",
+      "url": "https://www.zhihu.com/answer/211864145",
+      "summary": "正文实质讨论黎曼流形上的旋量丛和调和旋量。"
+    },
+    {
+      "title": "如果数学证明的逻辑是环环相扣的，为什么推到某一步一般人就跟不上了呢？",
+      "url": "https://www.zhihu.com/answer/232121274",
+      "summary": "正文以Bonnet–Myers定理为例说明黎曼几何结论及其所需基础。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/238120745",
+      "summary": "正文用指数映射和 Hadamard 定理分析完备单连黎曼流形。"
+    },
+    {
+      "title": "你所在的科研领域有哪些做不动的问题？",
+      "url": "https://www.zhihu.com/answer/251180563",
+      "summary": "正文讨论正曲率黎曼流形的分类和多项未解问题。"
+    },
+    {
+      "title": "想学好黎曼几何和微分几何要在哪方面打下坚实的基础呢？",
+      "url": "https://www.zhihu.com/answer/264750189",
+      "summary": "正文说明黎曼几何是曲面论的高维推广及其前置知识。"
+    },
+    {
+      "title": "微分流形之类的听起来很高端的数学分支有实用价值吗？",
+      "url": "https://www.zhihu.com/answer/265650390",
+      "summary": "正文明确把黎曼几何用于广义相对论和卫星导航误差修正。"
+    },
+    {
+      "title": "有哪些美丽或神奇的理科公式？",
+      "url": "https://www.zhihu.com/answer/267813453",
+      "summary": "正文以球面、伪球面和彭加莱平面的测地线展示非欧几何。"
+    },
+    {
+      "title": "如何通俗易懂地解释外微分？",
+      "url": "https://www.zhihu.com/answer/277640953",
+      "summary": "正文在黎曼流形和内积结构下解释梯度与全微分的对偶。"
+    },
+    {
+      "title": "数学中的灵魂猜想和灵魂定理是什么意思？",
+      "url": "https://www.zhihu.com/answer/281306208",
+      "summary": "正文在黎曼几何框架下讨论黎曼浸没。"
+    },
+    {
+      "title": "如何评价Gromov在数学领域的成就？",
+      "url": "https://www.zhihu.com/answer/296607509",
+      "summary": "正文说明格罗莫夫对黎曼流形收敛性与整体黎曼几何的贡献。"
+    },
+    {
+      "title": "为什么要研究非交换几何？",
+      "url": "https://www.zhihu.com/answer/313665967",
+      "summary": "正文定义黎曼自旋流形、Dirac 算符和谱三元组，并说明非交换几何如何推广这一结构。"
+    },
+    {
+      "title": "如何理解 natural gradient descent?",
+      "url": "https://www.zhihu.com/answer/314354512",
+      "summary": "正文把 Fisher 信息矩阵解释为统计流形上的黎曼度量。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/342000763",
+      "summary": "正文明确以黎曼流形、等距作用及曲率为研究对象。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/343993660",
+      "summary": "正文研究有限体积非紧双曲流形单位切丛上的测地流。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/378454878",
+      "summary": "正文具体陈述完备单连通黎曼流形在非正截面曲率下的几何结论。"
+    },
+    {
+      "title": "请问你觉得大学本科选择纯数是怎样一种体验？能学到什么和有什么用处？",
+      "url": "https://www.zhihu.com/answer/456506270",
+      "summary": "正文陈述Synge定理并解释其在黎曼几何中的位置。"
+    },
+    {
+      "title": "熟悉现代几何学是怎样一种体验？",
+      "url": "https://www.zhihu.com/answer/469240129",
+      "summary": "正文围绕黎曼流形上的截面曲率与度量形变展开。"
+    },
+    {
+      "title": "学习古典微分几何还有意义吗？",
+      "url": "https://www.zhihu.com/answer/473181084",
+      "summary": "正文解释黎曼曲面作为二维黎曼流形的地位。"
+    },
+    {
+      "title": "什么是 Finsler Geometry？它与 Riemann 几何有什么关系？",
+      "url": "https://www.zhihu.com/answer/490650206",
+      "summary": "正文说明 Riemann 度量对应的测地流具有额外对称性。"
+    },
+    {
+      "title": "除了黎曼猜想，数学界还有哪些至今尚未得到证实的猜想？",
+      "url": "https://www.zhihu.com/answer/495957629",
+      "summary": "正文介绍黎曼几何中的Bott猜想。"
+    },
+    {
+      "title": "为什么黎曼猜想是当今数学界最重要、最期待解决的数学难题？",
+      "url": "https://www.zhihu.com/answer/496661111",
+      "summary": "正文从度量和空间曲率介绍黎曼几何。"
+    },
+    {
+      "title": "圆环可以展成直线，球面为什么就不能展成平面？",
+      "url": "https://www.zhihu.com/answer/497028380",
+      "summary": "正文用度量张量与高斯绝妙定理讨论曲面展开。"
+    },
+    {
+      "title": "请问拉普拉斯算子如何进行坐标变换？",
+      "url": "https://www.zhihu.com/answer/512611611",
+      "summary": "正文从线元写出度规及其逆，再给出一般坐标下的 Laplace–Beltrami 形式。"
+    },
+    {
+      "title": "请问拉普拉斯算子如何进行坐标变换？",
+      "url": "https://www.zhihu.com/answer/515014730",
+      "summary": "正文以度规、协变微分、黎曼联络与测地线推导 Laplace–Beltrami 算子。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/517710949",
+      "summary": "全文以 Nash 嵌入和低正则黎曼度量为例讨论黎曼几何现象。"
+    },
+    {
+      "title": "如何自学黎曼几何?",
+      "url": "https://www.zhihu.com/answer/531074789",
+      "summary": "介绍黎曼几何中的流形、联络、测地线和曲率等核心内容。"
+    },
+    {
+      "title": "数学系本科生应如何把握好学习的深度和广度？",
+      "url": "https://www.zhihu.com/answer/538394568",
+      "summary": "正文说明参与微分几何研究与交流必须掌握黎曼几何。"
+    },
+    {
+      "title": "黎曼几何与微分几何是什么关系？",
+      "url": "https://www.zhihu.com/answer/538401629",
+      "summary": "正文用椭球、平坦和负曲率几何界定黎曼几何。"
+    },
+    {
+      "title": "现代数学的潮流是什么？",
+      "url": "https://www.zhihu.com/answer/550449674",
+      "summary": "介绍 Gromov-Hausdorff 距离、Ricci 空间和流形模空间的研究链条。"
+    },
+    {
+      "title": "2010 年以来，人类数学在概念上有哪些突破？",
+      "url": "https://www.zhihu.com/answer/568268234",
+      "summary": "在黎曼流形上讨论极小超曲面的存在与计数。"
+    },
+    {
+      "title": "博士即将毕业或已经毕业的你，做出了哪些科研贡献？",
+      "url": "https://www.zhihu.com/answer/578933011",
+      "summary": "正文陈述带正截面曲率的闭黎曼流形结论。"
+    },
+    {
+      "title": "如何看待 Schoen 和 Yau 关于高维正质量定理的证明？",
+      "url": "https://www.zhihu.com/answer/580593456",
+      "summary": "介绍高维正质量定理在黎曼几何中的证明背景。"
+    },
+    {
+      "title": "几何（微分几何以上）与代数（抽象代数以上）在计算机、经济、金融上有什么应用？",
+      "url": "https://www.zhihu.com/answer/708304355",
+      "summary": "说明用黎曼几何描述统计模型。"
+    },
+    {
+      "title": "数学永远领先这个世界 200 年，这句话对吗？",
+      "url": "https://www.zhihu.com/answer/710859021",
+      "summary": "说明黎曼几何对广义相对论的支撑。"
+    },
+    {
+      "title": "微分几何在统计或者理论的计量经济学中有什么应用？",
+      "url": "https://www.zhihu.com/answer/749097542",
+      "summary": "正文展开黎曼度量、对偶联络、曲率与广义勾股定理。"
+    },
+    {
+      "title": "如何简明地解释曲率（curvature）？",
+      "url": "https://www.zhihu.com/answer/751706539",
+      "summary": "说明黎曼几何中曲率由张量刻画。"
+    },
+    {
+      "title": "orbifold和groupoid有没有人了解？",
+      "url": "https://www.zhihu.com/answer/752357005",
+      "summary": "讨论 Riemannian orbifold 的局部几何。"
+    },
+    {
+      "title": "顶级数学家有多。。。。。？",
+      "url": "https://www.zhihu.com/answer/823837662",
+      "summary": "正文具体说明黎曼关于几何基础的就职演讲及黎曼几何的起点。"
+    },
+    {
+      "title": "怎么理解 dx⊗dy？",
+      "url": "https://www.zhihu.com/answer/980433572",
+      "summary": "正文给出黎曼度量诱导的标准体积形式。"
+    },
+    {
+      "title": "传统的黎曼几何还有什么方向可以做？",
+      "url": "https://www.zhihu.com/answer/1022368850",
+      "summary": "正文介绍黎曼流形、测地线及保距映射研究问题。"
+    },
+    {
+      "title": "复杂的物理公式，科学家是怎么记忆的？",
+      "url": "https://www.zhihu.com/answer/1095925086",
+      "summary": "正文以度规推导球坐标下拉普拉斯算子，实质使用黎曼几何结构。"
+    },
+    {
+      "title": "怎样理解广义相对论中的张量有关的这套符号体系？",
+      "url": "https://www.zhihu.com/answer/1167706914",
+      "summary": "正文在流形上定义黎曼度量并解释其坐标表达。"
+    },
+    {
+      "title": "黎曼流形上的距离公式是否存在？",
+      "url": "https://www.zhihu.com/answer/1207065575",
+      "summary": "正文解释黎曼距离与测地线。"
+    },
+    {
+      "title": "高斯到底有多厉害？",
+      "url": "https://www.zhihu.com/answer/1220662894",
+      "summary": "正文把高斯曲面理论联系到黎曼几何。"
+    },
+    {
+      "title": "信息几何（Information Geometry）这个方向前景如何？",
+      "url": "https://www.zhihu.com/answer/1220767968",
+      "summary": "正文用 Fisher 信息构造黎曼流形。"
+    },
+    {
+      "title": "可以留下一个优美的不等式吗？",
+      "url": "https://www.zhihu.com/answer/1221677821",
+      "summary": "正文在黎曼流形上讨论调和函数积分加倍不等式。"
+    },
+    {
+      "title": "如何理解凯林矢量场（Killing vector field）？",
+      "url": "https://www.zhihu.com/answer/1363718557",
+      "summary": "正文从度规不变和等度规变换解释 Killing 矢量场。"
+    },
+    {
+      "title": "有什么数学定理一般人都觉得是常识，但严谨证明起来却挺费力的？",
+      "url": "https://www.zhihu.com/answer/1379412272",
+      "summary": "正文介绍黎曼度量和规范化 Ricci 流作为证明工具。"
+    },
+    {
+      "title": "二维空间有四色定理，那三维空间中存在 n 色定理吗？如果有，那么是几色定理？",
+      "url": "https://www.zhihu.com/answer/1409458957",
+      "summary": "正文讨论四色定理、曲面染色、拓扑结构与黎曼曲率。"
+    },
+    {
+      "title": "微分几何怎么这么难啊？",
+      "url": "https://www.zhihu.com/answer/1666967436",
+      "summary": "正文说明黎曼几何与古典微分几何的关系。"
+    },
+    {
+      "title": "微分几何怎么这么难啊？",
+      "url": "https://www.zhihu.com/answer/1673401001",
+      "summary": "正文概述黎曼几何的流形、张量、联络与曲率内容。"
+    },
+    {
+      "title": "有哪些值得推荐的《微分几何》教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1685604787",
+      "summary": "正文专门比较黎曼几何教材及学习特点。"
+    },
+    {
+      "title": "可以留下一个优美的不等式吗？",
+      "url": "https://www.zhihu.com/answer/1713696520",
+      "summary": "正文把 Fenchel 不等式与 Wirtinger、Poincaré 不等式联系起来。"
+    },
+    {
+      "title": "微分几何怎么这么难啊？",
+      "url": "https://www.zhihu.com/answer/1742443032",
+      "summary": "正文直接讨论或推导「黎曼几何」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "预计研究方向为非线性分析与辛几何，刚自学完一遍微分流形，该怎么选择适合自学的黎曼几何教材？",
+      "url": "https://www.zhihu.com/answer/1764258277",
+      "summary": "正文比较黎曼几何教材并说明其与辛几何的关系。"
+    },
+    {
+      "title": "洛伦兹变换为什么是线性的，如何推导出它是线性的？",
+      "url": "https://www.zhihu.com/answer/1889380524",
+      "summary": "正文把 Lorentz 群定义为 Minkowski 时空的保度规线性变换群。"
+    },
+    {
+      "title": "复几何和双曲几何有什么联系？",
+      "url": "https://www.zhihu.com/answer/2143337303",
+      "summary": "正文从双曲曲面结构、Teichmüller 空间和度量解释复几何与双曲几何的联系。"
+    },
+    {
+      "title": "对于当今数学来说，「几何」到底是什么？",
+      "url": "https://www.zhihu.com/answer/2500014252",
+      "summary": "正文说明黎曼几何是在几何结构上附加黎曼度量。"
+    },
+    {
+      "title": "学微分几何前要有什么数学知识做铺垫？",
+      "url": "https://www.zhihu.com/answer/2500019928",
+      "summary": "正文给出黎曼几何及后续曲率、流形分析的进阶书单。"
+    },
+    {
+      "title": "花一整夜的时间解一个方程是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/2528943608",
+      "summary": "从轴对称时空度规和真空 Einstein 场方程出发，推导 Kerr 解。"
+    },
+    {
+      "title": "柯西黎曼条件的本质以及几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/2540945033",
+      "summary": "讨论 Poincaré 上半平面与圆盘上的双曲度量及紧黎曼面的双曲结构。"
+    },
+    {
+      "title": "广义相对论场方程看上去很简洁，但是实际上这个方程到底有多复杂？",
+      "url": "https://www.zhihu.com/answer/2571031046",
+      "summary": "解释黎曼几何中度规与曲率如何构成爱因斯坦场方程。"
+    },
+    {
+      "title": "黎曼有多厉害？",
+      "url": "https://www.zhihu.com/answer/2746074074",
+      "summary": "正文说明邻近点距离的度量公式如何确定黎曼空间，并讨论其曲率与相对论意义。"
+    },
+    {
+      "title": "同时对微分几何和代数数论感兴趣怎么办？",
+      "url": "https://www.zhihu.com/answer/2764805490",
+      "summary": "正文以对称空间的算术商构造有限体积局部对称空间，具体联系黎曼几何对象与半单李群。"
+    },
+    {
+      "title": "费雪信息 (Fisher information) 的直观意义是什么？",
+      "url": "https://www.zhihu.com/answer/2790650884",
+      "summary": "正文说明Fisher信息矩阵可定义统计流形上的黎曼度量，从而构建黎曼流形。"
+    },
+    {
+      "title": "2022年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/2793325439",
+      "summary": "正文解释带标记长度谱相同的负曲率黎曼度量应等距，并概述其几何群论推广。"
+    },
+    {
+      "title": "你自己做出的第一个发表的纯数研究结果的研究过程如何？",
+      "url": "https://www.zhihu.com/answer/2820876936",
+      "summary": "正文利用流形度量、覆盖映射和局部等距构造基本群作用下的基本域。"
+    },
+    {
+      "title": "微分几何中为什么定义指数映射？",
+      "url": "https://www.zhihu.com/answer/2834638998",
+      "summary": "正文说明黎曼度量可诱导标准联络，从而在黎曼流形上得到自然的测地指数映射。"
+    },
+    {
+      "title": "泛函分析与微分几何有什么关系？",
+      "url": "https://www.zhihu.com/answer/2841106060",
+      "summary": "正文以无穷维黎曼流形刻画概率空间，并据此联系 Wasserstein 梯度流与加速方法。"
+    },
+    {
+      "title": "研究一些几何结构的模空间是为了得到什么呢？",
+      "url": "https://www.zhihu.com/answer/3016416962",
+      "summary": "正文讨论双曲流形、双曲度量及Mostow刚性定理对模空间存在性的限制。"
+    },
+    {
+      "title": "想学好黎曼几何和微分几何要在哪方面打下坚实的基础呢？",
+      "url": "https://www.zhihu.com/answer/3035947368",
+      "summary": "正文明确用余切丛定义切丛上的正定二阶形式作为黎曼度量，并继续讨论测地线和 Jacobi 场等黎曼几何对象。"
+    },
+    {
+      "title": "为什么我觉得微分几何是伪几何，本质上是代数和分析？",
+      "url": "https://www.zhihu.com/answer/3048187425",
+      "summary": "正文以最大直径定理及其证明思路实质讨论黎曼几何中的整体性质。"
+    },
+    {
+      "title": "现代的数学研究抽象到了哪种地步？",
+      "url": "https://www.zhihu.com/answer/3063198777",
+      "summary": "正文概述封闭三维几何体在正曲率和单连通条件下的球面形变结论，属于黎曼几何中的曲率与几何形变问题。"
+    },
+    {
+      "title": "你最喜欢的数学定理是什么？",
+      "url": "https://www.zhihu.com/answer/3092405692",
+      "summary": "正文以 SU(3)/T^2 的齐次黎曼度量和正曲率结构为例，具体说明了该流形上的黎曼几何。"
+    },
+    {
+      "title": "为什么勾股定理可以说明空间是平直的？",
+      "url": "https://www.zhihu.com/answer/3118965952",
+      "summary": "正文在带度量函数的黎曼流形上定义测地直角，并借助线元与曲率张量讨论其平直性。"
+    },
+    {
+      "title": "李导数与协变导数有什么联系？",
+      "url": "https://www.zhihu.com/answer/3120054519",
+      "summary": "正文由度规相容和无挠条件得到 Levi-Civita 联络，并说明它可在黎曼流形上定义平行移动。"
+    },
+    {
+      "title": "如何评价丘成桐？",
+      "url": "https://www.zhihu.com/answer/3146819262",
+      "summary": "正文以调和映照专著中的拉普拉斯算子特征值估计为例，说明其黎曼几何研究内容。"
+    },
+    {
+      "title": "从古典微分几何发展到现代微分几何的过程是怎样的？（数学思想、历史等方面）?为何引入现代微分几何？",
+      "url": "https://www.zhihu.com/answer/3284565222",
+      "summary": "正文说明黎曼几何在微分流形上研究黎曼曲率的局部和整体性质，并叙述高斯、黎曼及后续发展的脉络。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3310565030",
+      "summary": "正文讨论非正曲率流形上的 sharp 等周不等式及 Cheeger 常数下界，属于黎曼几何研究内容。"
+    },
+    {
+      "title": "构造微分流形这个概念的动机是什么？",
+      "url": "https://www.zhihu.com/answer/3357185353",
+      "summary": "正文讲述黎曼如何把高斯关于曲面度量的思想推广到高维抽象空间，形成黎曼几何的研究基础。"
+    },
+    {
+      "title": "学习辛几何（symplectic geometry）需要哪些数学基础?",
+      "url": "https://www.zhihu.com/answer/3387245957",
+      "summary": "正文列出联络、指数映射、平行移动和曲率等黎曼几何知识，并说明它们在辛几何中的具体用途。"
+    },
+    {
+      "title": "从Riemann curvature构造Ricci curvature的目的、动机是什么 ?",
+      "url": "https://www.zhihu.com/answer/3422937539",
+      "summary": "正文用度规、平行输运和等距映射陈述 Cartan 定理，说明黎曼曲率张量对黎曼流形度规的刻画。"
+    },
+    {
+      "title": "微分几何（Differential Geometry）在工程领域有什么应用？",
+      "url": "https://www.zhihu.com/answer/3441590468",
+      "summary": "正文明确从黎曼几何角度讨论曲面度量、调和形式、Gauss曲率与常曲率单值化。"
+    },
+    {
+      "title": "为什么拉格朗日子流形在辛几何中如此重要?",
+      "url": "https://www.zhihu.com/answer/3944331321",
+      "summary": "正文用测地线与沿其Jacobi场全体构造辛结构，并以共轭点和测地凸流形为例说明，实质展开黎曼几何内容。"
+    },
+    {
+      "title": "数学家Richard Hamilton去世了，如何评价他的学术贡献？",
+      "url": "https://www.zhihu.com/answer/4180962574",
+      "summary": "正文具体说明黎曼度量随时间的演化方程，并讨论里奇曲率从初始度量出发的演化。"
+    },
+    {
+      "title": "绝大多数的数学难题在生活中是用不上的，为什么人们还在不断地探索和求解？",
+      "url": "https://www.zhihu.com/answer/4587948425",
+      "summary": "正文说明黎曼几何研究带黎曼度量的光滑流形，并介绍其在广义相对论中的关键作用。"
+    },
+    {
+      "title": "流形为什么那么重要?",
+      "url": "https://www.zhihu.com/answer/14003077962",
+      "summary": "正文以 Fisher 信息矩阵定义统计流形上的黎曼度量，说明该度量如何生成黎曼流形。"
+    },
+    {
+      "title": "用人话来解释下模空间是啥？",
+      "url": "https://www.zhihu.com/answer/88530154893",
+      "summary": "正文明确以流形上的全体黎曼度量组成空间，并研究度量在微分同胚拉回作用下的等价类。"
+    },
+    {
+      "title": "非凸优化（Non-convex optimization）领域有什么起到基石作用，极其重要的论文呢？",
+      "url": "https://www.zhihu.com/answer/113085202686",
+      "summary": "正文用测地线、黎曼度量和最短路径展开黎曼几何的基本观点，并用其定义测地凸性。"
+    },
+    {
+      "title": "微分流形、微分拓扑、黎曼几何、代数拓扑的关系是什么，学习顺序如何？",
+      "url": "https://www.zhihu.com/answer/127223192168",
+      "summary": "正文明确解释黎曼几何研究带有度量与联络结构的特殊微分流形的几何性质。"
+    },
+    {
+      "title": "在数学学习中，你遇到过哪些有趣的同构？",
+      "url": "https://www.zhihu.com/answer/1891929981900276784",
+      "summary": "正文借助黎曼度量、指标升降和 Hodge 星算子，把梯度、散度与旋度推广到黎曼流形。"
+    },
+    {
+      "title": "如何看待陶哲轩等数学家大力推动的 AI 数学证明?",
+      "url": "https://www.zhihu.com/answer/1892225934372872275",
+      "summary": "正文借助 Synge 定理、基本群和正截面曲率度量分析紧致李群及相关商空间。"
+    },
+    {
+      "title": "有哪些数学理论最初被认为「毫无用处」，却在某个领域意外成为关键技术支柱？",
+      "url": "https://www.zhihu.com/answer/1892961043967350755",
+      "summary": "正文说明黎曼在既有几何思想基础上发展出黎曼几何，并指出其曲面模型。"
+    },
+    {
+      "title": "函数在某点的「梯度」和「微分」有什么不同？",
+      "url": "https://www.zhihu.com/answer/1893361872088068410",
+      "summary": "正文说明黎曼度量如何借助切空间内积定义流形上的梯度，具体展开了黎曼几何的基本结构。"
+    },
+    {
+      "title": "代数拓扑和黎曼几何有什么联系吗?",
+      "url": "https://www.zhihu.com/answer/1899722174597694743",
+      "summary": "正文围绕黎曼流形的截曲率、Jacobi 场和指数映射讨论曲率条件对几何与拓扑的控制。"
+    },
+    {
+      "title": "和乐群(Holonomy group)的重要性是什么？",
+      "url": "https://www.zhihu.com/answer/1907424208075612836",
+      "summary": "正文在紧可定向黎曼流形和Levi-Civita联络的框架下讨论和乐、曲率与度量。"
+    },
+    {
+      "title": "请问有什么悬而未决几十年最终被证伪的数学猜想吗？",
+      "url": "https://www.zhihu.com/answer/1946501379645474473",
+      "summary": "正文围绕非负 Ricci 曲率完备黎曼流形陈述 Milnor 猜想，并概述其低维结果和七维反例。"
+    },
+    {
+      "title": "如何理解凯林矢量场（Killing vector field）？",
+      "url": "https://www.zhihu.com/answer/1947723456461402129",
+      "summary": "正文从伪黎曼流形的度规张量出发，把 Killing 向量定义为保持度规的等度规生成元。"
+    },
+    {
+      "title": "如何从信息几何的视角去理解概率分布？",
+      "url": "https://www.zhihu.com/answer/1952547909821236134",
+      "summary": "正文以 Fisher 信息矩阵作为统计流形的黎曼度量，并据此定义距离、测地线和曲率。"
+    },
+    {
+      "title": "为什么志村五郎与威廉·瑟斯顿说数学竞赛中有些问题人为编造的味道太浓,不是实际数学研究中会碰到的问题?",
+      "url": "https://www.zhihu.com/answer/1982162517888352866",
+      "summary": "正文解释瑟斯顿双曲化定理中三维流形可赋予双曲几何结构及相应黎曼度量，实质涉及黎曼几何。"
+    },
+    {
+      "title": "如何理解微分几何中各种各样的“可积性”条件（Integrability）？",
+      "url": "https://www.zhihu.com/answer/1997870772195190272",
+      "summary": "正文把黎曼结构表述为 O(n)-structure，并用曲率和标准欧氏坐标讨论其可积情形。"
+    },
+    {
+      "title": "你所知道的最优美的几何定理是什么？",
+      "url": "https://www.zhihu.com/answer/2015578158791947661",
+      "summary": "正文在黎曼流形上计算长度泛函二阶变分，并联系平行移动、曲率张量和万有覆盖空间。"
+    },
+    {
+      "title": "你所知道的最优美的几何定理是什么？",
+      "url": "https://www.zhihu.com/answer/2016612690127241876",
+      "summary": "正文以黎曼流形的Laplace谱、等谱曲面和是否等距同构为核心，介绍听音辨鼓问题。"
+    },
+    {
+      "title": "初学一门数学课时有没有这样的体验:自己随口问了一个很自然的问题, 但后来发现其实很难甚至是公开的？",
+      "url": "https://www.zhihu.com/answer/2017141981504099209",
+      "summary": "正文介绍紧流形上一般黎曼度量在光滑拓扑中构成 residual set 的局部等距不存在性结果。"
+    },
+    {
+      "title": "什么是瞬子 (Instanton)？",
+      "url": "https://www.zhihu.com/answer/2027508805269820621",
+      "summary": "正文在紧黎曼流形、Hermitian向量丛和联络的框架中定义并研究瞬子。"
+    },
+    {
+      "title": "李导数与协变导数有什么联系？",
+      "url": "https://www.zhihu.com/answer/2033655109691913882",
+      "summary": "正文说明黎曼度量、Levi-Civita 联络的度量相容与无挠条件，并证明其存在唯一性。"
+    },
+    {
+      "title": "在微分几何中, 什么是 holonomy？如何用holonomy 思考几何问题?",
+      "url": "https://www.zhihu.com/answer/2038036518619575358",
+      "summary": "正文在黎曼流形、黎曼度量和 Levi-Civita 联络的框架下展开平行移动与和乐理论。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/2039084650606376540",
+      "summary": "正文把内蕴曲率思想推广到黎曼几何，说明只靠流形上的度量研究曲率、测地线和体积。"
+    },
+    {
+      "title": "为什么人类使用的坐标系都同胚于 R^n，能否使用不同胚于 R^n 的坐标系？",
+      "url": "https://www.zhihu.com/answer/2042759458456129719",
+      "summary": "正文以三维双曲流形上的 Levi-Civita 联络和 Hitchin 方程说明黎曼几何量如何编码几何结构。"
+    },
+    {
+      "title": "数学上多有天赋才能轻松破解黎曼猜想等数学猜想？",
+      "url": "https://www.zhihu.com/answer/2071044523543861120",
+      "summary": "正文以四维球面是否存在负爱因斯坦常数度量为例，说明实黎曼几何中的具体未解问题及计算困难。"
+    },
+    {
+      "title": "可以用人工智能去解决一些人类还未解决的数学难题吗？",
+      "url": "https://www.zhihu.com/answer/2074429048139276576",
+      "summary": "正文提出一个关于连通黎曼流形是否存在的具体研究问题，并列出其曲率条件。"
+    },
+    {
+      "title": "Zero谈数学——黎曼几何（1）",
+      "url": "https://zhuanlan.zhihu.com/p/19879691",
+      "summary": "正文解释流形上的黎曼度量如何规定切向量长度，并据此讨论空间的弯曲与最短路径。"
+    },
+    {
+      "title": "Zero谈数学——黎曼几何（2）",
+      "url": "https://zhuanlan.zhihu.com/p/19880460",
+      "summary": "正文用黎曼度量测量切向量并积分得到曲线长度，再把测地线刻画为曲线长度泛函的极值点。"
+    },
+    {
+      "title": "数学有多美？看看这位法国奇男子怎么说",
+      "url": "https://zhuanlan.zhihu.com/p/20518450",
+      "summary": "正文介绍黎曼流形理论如何为广义相对论提供时空几何框架。"
+    },
+    {
+      "title": "丘成桐谈几何：从黎曼、爱因斯坦到弦论",
+      "url": "https://zhuanlan.zhihu.com/p/20528427",
+      "summary": "正文系统讲述黎曼几何的创立、核心概念及其对广义相对论的基础作用。"
+    },
+    {
+      "title": "2.9* 微积分的进化（9）——进化仍在继续",
+      "url": "https://zhuanlan.zhihu.com/p/20826548",
+      "summary": "正文以紧黎曼流形上的 Hodge 分解说明 de Rham 上同调群与调和形式的关系。"
+    },
+    {
+      "title": "当代微分几何研究中的一些“热门”话题",
+      "url": "https://zhuanlan.zhihu.com/p/21664265",
+      "summary": "正文以正截面曲率和 Einstein 度量等问题说明黎曼几何的研究内容。"
+    },
+    {
+      "title": "几何中的“内蕴”与“外蕴”之辨",
+      "url": "https://zhuanlan.zhihu.com/p/22096868",
+      "summary": "正文说明球面标准度量可以独立于三维欧氏空间定义，并可由度量定义测地线、距离和曲率，体现黎曼几何观点。"
+    },
+    {
+      "title": "nash嵌入定理",
+      "url": "https://zhuanlan.zhihu.com/p/22648671",
+      "summary": "正文以黎曼度量和等距嵌入为核心陈述 Nash 嵌入定理，并展开基于度量方程的证明。"
+    },
+    {
+      "title": "诺特定理",
+      "url": "https://zhuanlan.zhihu.com/p/23047259",
+      "summary": "正文在允许弯曲底流形、拉格朗日密度依赖度规的框架下讨论时空对称守恒流。"
+    },
+    {
+      "title": "代数数论(十四):素数、测地线、扭结",
+      "url": "https://zhuanlan.zhihu.com/p/24912510",
+      "summary": "正文定义上半平面的双曲度量、测地线及常负曲率曲面，作为素数类比的黎曼几何背景。"
+    },
+    {
+      "title": "对称群与正曲率—Karsten Grove's symmetry program",
+      "url": "https://zhuanlan.zhihu.com/p/25510075",
+      "summary": "正文围绕黎曼流形的正截面曲率、等距群对称性和拓扑分类介绍对称性纲领中的系列定理。"
+    },
+    {
+      "title": "光滑流形上的度规和联络",
+      "url": "https://zhuanlan.zhihu.com/p/25602004",
+      "summary": "正文给出度量兼容且无挠的 Levi-Civita 联络及其 Christoffel 符号公式，属于黎曼几何的基本结构。"
+    },
+    {
+      "title": "关于黎曼几何与李群拓扑的一些杂记",
+      "url": "https://zhuanlan.zhihu.com/p/27111431",
+      "summary": "正文研究紧黎曼流形上的 Killing 场、测地线、整体距离与等距变换，并讲解 Myers-Steenrod 定理。"
+    },
+    {
+      "title": "6维正曲率流形",
+      "url": "https://zhuanlan.zhihu.com/p/27263205",
+      "summary": "正文围绕单连通六维紧黎曼流形的分类问题，讨论正截面曲率、对称群作用及轨道空间方法。"
+    },
+    {
+      "title": "双曲空间上的群作用与动力系统",
+      "url": "https://zhuanlan.zhihu.com/p/28186692",
+      "summary": "正文给出Poincaré圆盘和上半平面的黎曼度量，并由度量确定测地线。"
+    },
+    {
+      "title": "紧黎曼面的自同构群",
+      "url": "https://zhuanlan.zhihu.com/p/28598072",
+      "summary": "正文用负常曲率黎曼度量、Gauss-Bonnet公式和双曲三角形刻画紧黎曼面的几何。"
+    },
+    {
+      "title": "领域自适应（domain adaption）--学习一个不变的希尔伯特空间（CVPR 2017）",
+      "url": "https://zhuanlan.zhihu.com/p/28693982",
+      "summary": "正文在黎曼流形上定义梯度、回缩和共轭梯度迭代，以求解带流形约束的非凸优化问题。"
+    },
+    {
+      "title": "数学简史：现代数学的五大应用",
+      "url": "https://zhuanlan.zhihu.com/p/30486512",
+      "summary": "正文说明黎曼几何和度量张量如何为广义相对论提供数学框架。"
+    },
+    {
+      "title": "笔记：初等微几（曲线论、曲面论、第一、二基本型）",
+      "url": "https://zhuanlan.zhihu.com/p/30538009",
+      "summary": "正文用第一基本量定义曲面度量，并由 Riemann 度量导出 Christoffel 记号与测地线方程。"
+    },
+    {
+      "title": "非正曲率空间上的几个问题",
+      "url": "https://zhuanlan.zhihu.com/p/32897097",
+      "summary": "正文以黎曼流形、黎曼万有覆盖和Margulis函数为对象展开多个黎曼几何问题。"
+    },
+    {
+      "title": "关于Katok猜想",
+      "url": "https://zhuanlan.zhihu.com/p/36697234",
+      "summary": "正文讨论非正曲率黎曼流形的曲率张量、万有覆盖和李群描述，并结合测地流解释几何条件。"
+    },
+    {
+      "title": "如何用Mathematica做张量计算",
+      "url": "https://zhuanlan.zhihu.com/p/37451449",
+      "summary": "正文以施瓦西度规为具体例子，说明从度规及联络计算曲率张量的黎曼几何流程。"
+    },
+    {
+      "title": "（转载）流形学习（manifold learning）综述",
+      "url": "https://zhuanlan.zhihu.com/p/44066392",
+      "summary": "正文以黎曼流形上的测地线、切空间和法坐标解释Isomap及S-Logmaps的几何原理。"
+    },
+    {
+      "title": "（转载）黎曼几何的发轫-浅谈高斯绝妙定理",
+      "url": "https://zhuanlan.zhihu.com/p/44068392",
+      "summary": "正文以第一基本形式引入黎曼度量，并用内蕴度量说明黎曼几何的出发点。"
+    },
+    {
+      "title": "几个微分几何小“猜想”",
+      "url": "https://zhuanlan.zhihu.com/p/53670302",
+      "summary": "正文以完备黎曼度量、高斯曲率和平坦性为研究对象，并联系 Cheeger-Gromoll 分裂定理。"
+    },
+    {
+      "title": "Morse理论",
+      "url": "https://zhuanlan.zhihu.com/p/57502165",
+      "summary": "正文在Riemannian流形上讨论能量泛函、Jacobi场、共轭点和Morse指标。"
+    },
+    {
+      "title": "非正曲率流形的Gromov模",
+      "url": "https://zhuanlan.zhihu.com/p/63682670",
+      "summary": "正文使用测地线、平行 Jacobi 场、单位球丛和极大熵测度定义并研究流形的秩。"
+    },
+    {
+      "title": "[论文笔记]Poincaré Embeddings & Hierarchical Represent",
+      "url": "https://zhuanlan.zhihu.com/p/68104722",
+      "summary": "正文围绕 Poincaré ball 的黎曼度量、距离函数和黎曼梯度展开，实质介绍双曲空间中的黎曼几何计算。"
+    },
+    {
+      "title": "[转载]现代数学 | 清华学霸带你理清现代数学脉络",
+      "url": "https://zhuanlan.zhihu.com/p/79523248",
+      "summary": "正文介绍黎曼以微分流形和局部坐标研究弯曲空间，并说明其对相对论的作用。"
+    },
+    {
+      "title": "黎曼几何与流形学习",
+      "url": "https://zhuanlan.zhihu.com/p/81945115",
+      "summary": "正文具体说明黎曼流形在每点切空间上定义内积，并由此定义弧长、角度、体积和曲率。"
+    },
+    {
+      "title": "【转载】微分几何经典论文",
+      "url": "https://zhuanlan.zhihu.com/p/99320860",
+      "summary": "正文介绍完备 Riemann 流形上的梯度估计、Schwarz 引理和曲率有界条件下的调和函数结论。"
+    },
+    {
+      "title": "如何在黎曼流形上避开鞍点？本文带你了解优化背后的数学知识",
+      "url": "https://zhuanlan.zhihu.com/p/108179558",
+      "summary": "正文以黎曼度量定义切空间内积、曲线长度和距离，并在黎曼流形上建立梯度下降算法。"
+    },
+    {
+      "title": "1. 重要的基本概念：度规",
+      "url": "https://zhuanlan.zhihu.com/p/143549422",
+      "summary": "正文讨论正定度规赋予流形的长度和角度，并明确给出黎曼空间及洛伦兹度规的定义。"
+    },
+    {
+      "title": "流形优化方法求解约束问题",
+      "url": "https://zhuanlan.zhihu.com/p/153115983",
+      "summary": "正文定义黎曼流形上的梯度、切空间和收缩算子，并据此构造黎曼梯度与共轭梯度方法。"
+    },
+    {
+      "title": "Levi-Civita 联络",
+      "url": "https://zhuanlan.zhihu.com/p/166194699",
+      "summary": "正文由度规张量计算联络系数，并讨论适配度规及协变导数为零的保度规性质。"
+    },
+    {
+      "title": "双曲几何三角公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/231618926",
+      "summary": "正文在庞加莱半平面黎曼度规下计算联络、测地线和距离公式。"
+    },
+    {
+      "title": "什么是黎曼几何？",
+      "url": "https://zhuanlan.zhihu.com/p/266763453",
+      "summary": "正文用正定对称的二阶协变光滑张量场定义黎曼度量和黎曼流形，并给出曲线长度公式。"
+    },
+    {
+      "title": "𝑬𝒊𝒏𝒔𝒕𝒆𝒊𝒏 𝑭𝒊𝒆𝒍𝒅 𝑬𝒒𝒖𝒂𝒕𝒊𝒐𝒏'𝒔 𝑫𝒆𝒓𝒊𝒗𝒂𝒕𝒊𝒐𝒏",
+      "url": "https://zhuanlan.zhihu.com/p/270935069",
+      "summary": "正文从黎曼曲率张量推出比安基恒等式，并通过缩并构造爱因斯坦张量。"
+    },
+    {
+      "title": "𝑷𝒓𝒆𝒄𝒆𝒔𝒔𝒊𝒐𝒏 𝒐𝒇 𝒕𝒉𝒆 𝒑𝒆𝒓𝒊𝒉𝒆𝒍𝒊𝒐𝒏 𝒐𝒇 𝑴𝒆𝒓𝒄𝒖𝒓𝒚'𝒔 𝒐𝒓𝒃𝒊𝒕",
+      "url": "https://zhuanlan.zhihu.com/p/321848761",
+      "summary": "正文选择 Schwarzschild 度规描述时空，并由此导出水星轨道的相对论修正。"
+    },
+    {
+      "title": "曲率讲义",
+      "url": "https://zhuanlan.zhihu.com/p/329990880",
+      "summary": "正文在黎曼流形上讨论截面曲率、Ricci 曲率、数量曲率和爱因斯坦流形。"
+    },
+    {
+      "title": "超对称世界里的小猪会梦见Morse理论吗？",
+      "url": "https://zhuanlan.zhihu.com/p/343088848",
+      "summary": "正文在带黎曼度规的流形上使用联络、曲率张量与 Hessian，并由临界点指标推出 Morse 不等式。"
+    },
+    {
+      "title": "图形直观的广义相对论用黎曼几何曲率算法",
+      "url": "https://zhuanlan.zhihu.com/p/351900541",
+      "summary": "正文以基矢的协变平移和协变导数为主线解释黎曼曲率分量，并说明其坐标变换不变性。"
+    },
+    {
+      "title": "羞怯的数学家黎曼，有着太阳一样辉耀的心",
+      "url": "https://zhuanlan.zhihu.com/p/357004964",
+      "summary": "正文介绍黎曼度量和黎曼几何的建立及其对广义相对论的数学意义。"
+    },
+    {
+      "title": "Gauss-Bonnet 定理",
+      "url": "https://zhuanlan.zhihu.com/p/363694199",
+      "summary": "正文用正交标架、联络形式和结构方程证明二维黎曼流形上的 Gauss-Bonnet 定理。"
+    },
+    {
+      "title": "一些微分几何的初步知识",
+      "url": "https://zhuanlan.zhihu.com/p/364967796",
+      "summary": "正文使用度规张量、黎曼联络和黎曼曲率张量研究曲面的相容条件与内蕴弯曲。"
+    },
+    {
+      "title": "广义相对论学习笔记——曲率与度规篇",
+      "url": "https://zhuanlan.zhihu.com/p/369560775",
+      "summary": "正文把一般度规描述的弯曲时空称为黎曼时空，并用度量、测地线和曲率讲解黎曼几何。"
+    },
+    {
+      "title": "协变微分&Lie导数&外微分",
+      "url": "https://zhuanlan.zhihu.com/p/375559343",
+      "summary": "正文用度规兼容平移确定唯一协变导数并推导Christoffel符号，属于黎曼几何的核心结构。"
+    },
+    {
+      "title": "深度科普 | 用几何视角学相对论(17): 度规张量(上)",
+      "url": "https://zhuanlan.zhihu.com/p/360746794",
+      "summary": "正文把度规张量解释为空间几何与内积结构，并构造平直时空的闵可夫斯基度规。"
+    },
+    {
+      "title": "[论文精读] SIGGRAPH 2020: 基于常曲率度量的曲面间几何映射",
+      "url": "https://zhuanlan.zhihu.com/p/406068846",
+      "summary": "正文用常曲率黎曼度量、测地线、Gauss-Bonnet 定理和双曲模型构造曲面间映射。"
+    },
+    {
+      "title": "微分几何复习",
+      "url": "https://zhuanlan.zhihu.com/p/452385504",
+      "summary": "正文讨论第一基本形式决定的度量、Gauss方程、曲率张量和内蕴几何，体现黎曼曲面度量的核心观点。"
+    },
+    {
+      "title": "Mathematica 程序包 OGRe 广义相对论计算 汉化帮助文档",
+      "url": "https://zhuanlan.zhihu.com/p/476655667",
+      "summary": "正文在黎曼度规背景下定义度规张量，并调用函数计算 Riemann 张量及其相关曲率量。"
+    },
+    {
+      "title": "Gauss绝妙定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/481441120",
+      "summary": "正文通过 Christoffel 符号和 Riemann 曲率张量联系第二基本形式，从而证明曲率的内蕴性。"
+    },
+    {
+      "title": "[广义相对论笔记]（一）微分流形、张量、度规",
+      "url": "https://zhuanlan.zhihu.com/p/483403529",
+      "summary": "正文由正定或洛伦兹度规区分广义黎曼空间与伪黎曼时空，并讨论度规决定长度和几何量。"
+    },
+    {
+      "title": "[广义相对论笔记]（二）克氏符、协变微分",
+      "url": "https://zhuanlan.zhihu.com/p/486959438",
+      "summary": "正文利用度规相容性，并由度规分量及其偏导构造克氏符。"
+    },
+    {
+      "title": "数学基础 | 直观理解黎曼几何(上): \"甜甜圈\"上的拉梅系数与度规张量",
+      "url": "https://zhuanlan.zhihu.com/p/492700945",
+      "summary": "正文从拉梅系数推出环形曲面的线元、体积元和度规张量，并解释度规的度量意义。"
+    },
+    {
+      "title": "数学基础 | 直观理解黎曼几何(中): \"甜甜圈\"上的平行移动与联络系数",
+      "url": "https://zhuanlan.zhihu.com/p/494423269",
+      "summary": "正文用 Levi-Civita 平移保持与测地线夹角不变，定义黎曼几何中的联络系数和平行移动。"
+    },
+    {
+      "title": "数学基础 | 直观理解黎曼几何(下): \"甜甜圈\"上的曲率张量与Ricci张量",
+      "url": "https://zhuanlan.zhihu.com/p/494603770",
+      "summary": "正文围绕曲率张量与 Ricci 张量计算环形曲面曲率，并联系黎曼几何中的体积偏离。"
+    },
+    {
+      "title": "用变分原理推导测地线方程",
+      "url": "https://zhuanlan.zhihu.com/p/500798248",
+      "summary": "正文用度规及其导数定义联络系数，并据此写出黎曼几何中的测地线方程。"
+    },
+    {
+      "title": "外尔张量(Weyl tensor)",
+      "url": "https://zhuanlan.zhihu.com/p/544954863",
+      "summary": "正文以度规、黎曼张量、里奇张量和里奇标量展开外尔张量的构造与缩并计算。"
+    },
+    {
+      "title": "四、自然梯度法 Natural Gradient",
+      "url": "https://zhuanlan.zhihu.com/p/546885304",
+      "summary": "正文以度规张量描述参数空间的黎曼结构，并用逆度规修正普通梯度。"
+    },
+    {
+      "title": "黎曼的几何基础，让数学领先物理100年，维度是人类最大的障碍",
+      "url": "https://zhuanlan.zhihu.com/p/581949832",
+      "summary": "正文从任意维空间、度规张量和曲率说明黎曼几何的核心对象。"
+    },
+    {
+      "title": "计算共形几何-微分几何",
+      "url": "https://zhuanlan.zhihu.com/p/582999071",
+      "summary": "正文说明黎曼度量在每点切空间定义内积，并由此计算长度、角度和面积。"
+    },
+    {
+      "title": "人类真正的“可怕”之处或许是，发展出了“超验”的非欧几何",
+      "url": "https://zhuanlan.zhihu.com/p/591629768",
+      "summary": "正文介绍带度量、测地线和内蕴曲率的黎曼几何框架，并说明其在广义相对论中的应用。"
+    },
+    {
+      "title": "彭家贵、陈卿《微分几何》|第5章：曲面的内蕴几何学（习题解答）",
+      "url": "https://zhuanlan.zhihu.com/p/593479408",
+      "summary": "正文用 Riemann 度量、协变微分、平行移动和测地线研究曲面的内蕴几何。"
+    },
+    {
+      "title": "彭家贵、陈卿《微分几何》|第4章：标架与曲面论基本定理（习题解答）",
+      "url": "https://zhuanlan.zhihu.com/p/594254995",
+      "summary": "正文以度量、基本形式、联络和曲率方程研究参数曲面及其局部几何结构。"
+    },
+    {
+      "title": "物理学用微分几何简表",
+      "url": "https://zhuanlan.zhihu.com/p/594867230",
+      "summary": "正文讲解 Riemann 度规、测地线、Levi-Civita 联络及曲率对拓扑的限制。"
+    },
+    {
+      "title": "弯曲流形上向量的平行移动",
+      "url": "https://zhuanlan.zhihu.com/p/595424676",
+      "summary": "正文利用上半平面度规和联络系数求测地线、求解平行移动方程并验证长度保持。"
+    },
+    {
+      "title": "数学史上最伟大的演讲——黎曼的几何基础假设，几乎没有人能理解",
+      "url": "https://zhuanlan.zhihu.com/p/602421772",
+      "summary": "正文介绍黎曼在几何基础演讲中建立高维弯曲空间框架，并说明它成为黎曼几何的基石。"
+    },
+    {
+      "title": "庞加莱球模型",
+      "url": "https://zhuanlan.zhihu.com/p/614596716",
+      "summary": "正文讨论固定曲率黎曼流形中的黎曼梯度、指数映射以及沿优化路径的平行移动。"
+    },
+    {
+      "title": "一篇到位：写给物理学生的(外)微分形式",
+      "url": "https://zhuanlan.zhihu.com/p/629258713",
+      "summary": "正文由曲线坐标的切映射构造度量张量，并讨论黎曼度量、正交坐标和体积形式。"
+    },
+    {
+      "title": "一文入门微分几何（物理人版）",
+      "url": "https://zhuanlan.zhihu.com/p/629852598",
+      "summary": "以内积和度规张量定义黎曼及伪黎曼流形，并讨论度规相容联络。"
+    },
+    {
+      "title": "C.R.Rao：统计学的一百年",
+      "url": "https://zhuanlan.zhihu.com/p/632291879",
+      "summary": "正文以黎曼流形和黎曼度量张量解释概率模型的距离，展开信息几何的黎曼几何基础。"
+    },
+    {
+      "title": "【Proof-Trivial】数学史大纲 —— 丘成桐",
+      "url": "https://zhuanlan.zhihu.com/p/667472774",
+      "summary": "正文梳理黎曼几何的创立与发展，并说明它为广义相对论提供了关键数学工具。"
+    },
+    {
+      "title": "【读书笔记】黎曼流形优化及其应用 - 几何基础与理论方法",
+      "url": "https://zhuanlan.zhihu.com/p/669363301",
+      "summary": "正文讲解黎曼度量、黎曼梯度、测地线和黎曼 Hessian 等黎曼几何核心结构。"
+    },
+    {
+      "title": "庆祝弗拉基米尔·安东诺维奇·卓里奇八十华诞（含译者注释，特别是关于苏联研究生学制、学位的介绍）",
+      "url": "https://zhuanlan.zhihu.com/p/676821692",
+      "summary": "正文具体陈述黎曼流形的等周不等式，并说明等周函数随黎曼度量及共形类型变化。"
+    },
+    {
+      "title": "微分几何复习&整理",
+      "url": "https://zhuanlan.zhihu.com/p/669239881",
+      "summary": "正文由第一基本形、内蕴量与 Gauss 绝妙定理引出 Riemann 几何。"
+    },
+    {
+      "title": "微分几何在工业软件中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/686045801",
+      "summary": "正文给出黎曼度量、共形变换与 Yamabe 方程，并解释离散 Ricci 流构造度量。"
+    },
+    {
+      "title": "曲率，一个高度抽象的概念，真正理解它需要非常深厚的数学背景",
+      "url": "https://zhuanlan.zhihu.com/p/688163333",
+      "summary": "正文说明黎曼曲率张量是黎曼几何中刻画偏离欧几里得几何的核心对象。"
+    },
+    {
+      "title": "组合Ricci流基础",
+      "url": "https://zhuanlan.zhihu.com/p/688555543",
+      "summary": "正文将光滑黎曼流形上的 Ricci 流与曲面三角剖分上的组合 Ricci 流进行系统类比。"
+    },
+    {
+      "title": "黎曼几何简介",
+      "url": "https://zhuanlan.zhihu.com/p/694274425",
+      "summary": "正文围绕黎曼流形上的长度、角度、测地线和曲率解释黎曼几何的基本思想。"
+    },
+    {
+      "title": "黎曼几何(1):黎曼度量",
+      "url": "https://zhuanlan.zhihu.com/p/701769327",
+      "summary": "正文定义黎曼度量与黎曼流形，并展开距离、体积元素及梯度、散度和 Laplace 算子。"
+    },
+    {
+      "title": "曲面、联络与傅科摆：一个有趣的例子",
+      "url": "https://zhuanlan.zhihu.com/p/709991879",
+      "summary": "正文利用度规相容与无挠条件构造Levi-Civita联络，并讨论曲面内禀几何与高维度规。"
+    },
+    {
+      "title": "深入浅出理解黎曼流形上的活动标架法——1：活动标架法的演进",
+      "url": "https://zhuanlan.zhihu.com/p/712576964",
+      "summary": "正文围绕黎曼联络、度量相容和无挠条件讲解黎曼流形上的结构方程。"
+    },
+    {
+      "title": "聊点学术",
+      "url": "https://zhuanlan.zhihu.com/p/9417887347",
+      "summary": "正文明确提出关于三维球面任意黎曼度量下闭测地线长度与体积的猜想并讨论相关情形。"
+    },
+    {
+      "title": "基于flow的生成模型的前世今生",
+      "url": "https://zhuanlan.zhihu.com/p/10764455963",
+      "summary": "正文在流形数据上引入黎曼度量和测地线，并用度量代价学习贴近数据分布的概率路径。"
+    },
+    {
+      "title": "几何：曲率与流形性质的关联，与拓扑、分析的交叉",
+      "url": "https://zhuanlan.zhihu.com/p/27671093467",
+      "summary": "正文围绕黎曼度量、Ricci 曲率和 Ricci flow 解释流形度量演化及其几何信息。"
+    },
+    {
+      "title": "引力存在吗？",
+      "url": "https://zhuanlan.zhihu.com/p/11288467015",
+      "summary": "正文从流形、度规张量、联络、测地线和曲率出发，系统介绍广义相对论使用的黎曼几何。"
+    },
+    {
+      "title": "通俗理解什么是李导数",
+      "url": "https://zhuanlan.zhihu.com/p/1892923128876875952",
+      "summary": "正文以度规张量、适配坐标、Killing 矢量场和测地线守恒量说明李导数如何刻画黎曼几何中的对称性。"
+    },
+    {
+      "title": "【数学】黎曼几何浅解",
+      "url": "https://zhuanlan.zhihu.com/p/1924188443510046928",
+      "summary": "正文以切空间内积定义黎曼度量，并继续解释 Levi-Civita 联络、测地线和局部最短性。"
+    },
+    {
+      "title": "通俗理解什么是协变导数",
+      "url": "https://zhuanlan.zhihu.com/p/1935091361129956515",
+      "summary": "正文讨论仿射联络、度规相容、Levi-Civita 联络与 Christoffel 符号，并以测地线解释黎曼几何中的核心关系。"
+    },
+    {
+      "title": "一个超越时代的思想家——黎曼",
+      "url": "https://zhuanlan.zhihu.com/p/1951726342245703914",
+      "summary": "正文介绍黎曼创立黎曼几何及其后来成为广义相对论语言的历史影响。"
+    },
+    {
+      "title": "速通古典微分几何",
+      "url": "https://zhuanlan.zhihu.com/p/1970133150110823312",
+      "summary": "正文在紧 Riemann 流形上陈述并证明 Gauss-Bonnet 定理，讨论内蕴高斯曲率与边界测地曲率。"
+    },
+    {
+      "title": "非平衡稳态系统有效力的分解本质上是Hodge 分解",
+      "url": "https://zhuanlan.zhihu.com/p/1978438021671035746",
+      "summary": "正文以带度量流形、体积形式和调和形式为框架讨论黎曼流形上的 Hodge 分解。"
+    },
+    {
+      "title": "James Arthur：迹公式极简简史",
+      "url": "https://zhuanlan.zhihu.com/p/1978776508899283826",
+      "summary": "正文给模曲面配置双曲度量和双曲拉普拉斯算子，并用其谱分解陈述 Selberg 迹公式。"
+    },
+    {
+      "title": "黎曼几何往年题选做",
+      "url": "https://zhuanlan.zhihu.com/p/1983300852300149819",
+      "summary": "正文以完备黎曼流形为统一对象，证明测地线、曲率与基本群相关命题。"
+    },
+    {
+      "title": "气吞万里如虎：回顾十九世纪的数学英豪们",
+      "url": "https://zhuanlan.zhihu.com/p/2033553726032565423",
+      "summary": "正文说明由流形上的度量决定长度、角度、体积与曲率，从而形成黎曼几何。"
+    }
+  ]
+}

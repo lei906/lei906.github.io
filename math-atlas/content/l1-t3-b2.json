@@ -1,0 +1,2586 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l1-t3-b2",
+  "sources": [
+    {
+      "title": "数学系哪门课最难学？",
+      "url": "https://www.zhihu.com/answer/13390298",
+      "summary": "用谐音顺口溜调侃数学相关课程的学习难度；未讲解实分析、泛函分析或随机过程的知识。"
+    },
+    {
+      "title": "计算机领域有哪些经典的典故或笑话？",
+      "url": "https://www.zhihu.com/answer/14248030",
+      "summary": "以自指句式呈现递归梗，适合作趣味阅读；没有给出递归或递推的定义、方法。"
+    },
+    {
+      "title": "为什么很多人提问会带一句“这是什么心态”，我觉得这样的问题很不好，这些人都是什么样的心态啊？",
+      "url": "https://www.zhihu.com/answer/14542483",
+      "summary": "全文用递归式自指回应问题，是递归梗而非递推或算法知识讲解。"
+    },
+    {
+      "title": "用一句话证明你是学数学的？",
+      "url": "https://www.zhihu.com/answer/14556274",
+      "summary": "用 obviously 调侃数学论述中省略解释的习惯，是数学学习语境中的梗。"
+    },
+    {
+      "title": "哪些书名让你拍案叫绝？",
+      "url": "https://www.zhihu.com/answer/15024123",
+      "summary": "以性、犯罪与泛函分析并列的书名制造趣味，属于数学书名梗，没有展开泛函分析知识或阅读评价。"
+    },
+    {
+      "title": "什么是递归？",
+      "url": "https://www.zhihu.com/answer/16939895",
+      "summary": "用自指句式呈现递归梗，没有给出递归算法或递推关系的教学内容。"
+    },
+    {
+      "title": "你见过哪些绝妙的双关？",
+      "url": "https://www.zhihu.com/answer/53319421",
+      "summary": "正文以实变、泛函、随机过程等词的谐音构成数学梗。"
+    },
+    {
+      "title": "历史上有哪些有名的「洗脑名句」？",
+      "url": "https://www.zhihu.com/answer/76532566",
+      "summary": "正文是一句广为流传的三角函数象限口诀。"
+    },
+    {
+      "title": "数学的基础性的内容有哪些？",
+      "url": "https://www.zhihu.com/answer/77232073",
+      "summary": "正文仿照创世叙事串联集合、公理、数系和测度概念，属于数学梗。"
+    },
+    {
+      "title": "预知未来一秒有什么用？",
+      "url": "https://www.zhihu.com/answer/80191561",
+      "summary": "正文用指数加倍构造荒诞的“预知未来”数学梗。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/80493487",
+      "summary": "正文用数学课程名称声调写成三行情书，属于数学文字梗。"
+    },
+    {
+      "title": "无法理解高等数学怎么办？",
+      "url": "https://www.zhihu.com/answer/81505208",
+      "summary": "正文是一句借恋爱调侃高等数学难度的数学梗。"
+    },
+    {
+      "title": "有多少个数学家叫 Kolmogorov ?",
+      "url": "https://www.zhihu.com/answer/82276504",
+      "summary": "正文以“高斯是否是数学家头衔”构成一句数学梗。"
+    },
+    {
+      "title": "数学领域有哪些经典的笑话？",
+      "url": "https://www.zhihu.com/answer/82287272",
+      "summary": "正文是一句用余对象和自由函子术语改写的英文数学双关。"
+    },
+    {
+      "title": "作为数学博士研究生，以什么频率发文章才有在学术界生存的能力/潜力？",
+      "url": "https://www.zhihu.com/answer/82935859",
+      "summary": "正文用 L 无穷模和 L2 模双关数学界生存能力。"
+    },
+    {
+      "title": "为什么杨幂如此受欢迎？",
+      "url": "https://www.zhihu.com/answer/84800257",
+      "summary": "正文以“杨幂”谐音 Yang-Mills 并落到流形，属于数学梗。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/85786645",
+      "summary": "正文仿写费马边注，以无线键盘没电为由不写黎曼猜想证明。"
+    },
+    {
+      "title": "为什么fx少了一个人之后一直在强调4个人的概念，少女时代却没有强调八个人？",
+      "url": "https://www.zhihu.com/answer/92502237",
+      "summary": "正文把偶像团体人数问题用“函数需要声明变量”作数学双关。"
+    },
+    {
+      "title": "你读过的最优美或者最有哲理的句子？",
+      "url": "https://www.zhihu.com/answer/96179632",
+      "summary": "正文是一句广为流传的三角函数象限口诀，属于数学梗。"
+    },
+    {
+      "title": "你觉得费马到底会不会证明费马大定理？",
+      "url": "https://www.zhihu.com/answer/98329972",
+      "summary": "正文仿照费马页边空白轶事，用答案长度限制制造数学梗。"
+    },
+    {
+      "title": "有没有不落俗套的情侣网名?",
+      "url": "https://www.zhihu.com/answer/99062333",
+      "summary": "正文用 sin、cos、tan、cot 设计情侣网名，是三角函数数学梗。"
+    },
+    {
+      "title": "你见过哪些绝妙的双关？",
+      "url": "https://www.zhihu.com/answer/101537740",
+      "summary": "华罗庚对联以人名、战国三强和《九章算术》构成数学双关。"
+    },
+    {
+      "title": "怎样写一段以数学/物理公式名称为主的贯口？",
+      "url": "https://www.zhihu.com/answer/103363640",
+      "summary": "正文把费马、欧拉、ζ 函数和统计名词编成贯口与押韵数学梗。"
+    },
+    {
+      "title": "牛顿到底有多牛？",
+      "url": "https://www.zhihu.com/answer/110357176",
+      "summary": "正文以牛顿从初中到博士一直出现在教材和考试中构成数学梗。"
+    },
+    {
+      "title": "有什么好玩的数学梗？",
+      "url": "https://www.zhihu.com/answer/114793359",
+      "summary": "正文以 pole 与 residue 的双关构成经典数学梗。"
+    },
+    {
+      "title": "有没有双重否定不是肯定的情况？",
+      "url": "https://www.zhihu.com/answer/115121368",
+      "summary": "正文用无理数、虚数、可数性等错位否定构成数学抖机灵。"
+    },
+    {
+      "title": "老师上课用地方话讲是怎样的一种体验？",
+      "url": "https://www.zhihu.com/answer/115506990",
+      "summary": "正文以地方话读边角边等全等判定制造谐音数学梗。"
+    },
+    {
+      "title": "中国有哪些描写随机过程的古诗词？",
+      "url": "https://www.zhihu.com/answer/120158793",
+      "summary": "正文把古诗逐句套用概率空间、随机游走等术语，属于数学梗。"
+    },
+    {
+      "title": "中国有哪些描写随机过程的古诗词？",
+      "url": "https://www.zhihu.com/answer/120164779",
+      "summary": "正文以古诗情境对应泊松过程、随机游走和马尔可夫性质，整体是数学梗。"
+    },
+    {
+      "title": "你给姑娘写过怎样的情诗？",
+      "url": "https://www.zhihu.com/answer/122888116",
+      "summary": "正文用高斯分布、极限、收敛、函数等术语写成情诗，属于数学梗。"
+    },
+    {
+      "title": "怎样定义一种运算来构造一个qq 群？",
+      "url": "https://www.zhihu.com/answer/123479480",
+      "summary": "正文利用“QQ群”与quasi-quantum group同音展开数学梗。"
+    },
+    {
+      "title": "如何用数学卖个萌？",
+      "url": "https://www.zhihu.com/answer/126149977",
+      "summary": "正文用微积分符号颜文字和 pizza、box 体积拼字制造数学双关梗。"
+    },
+    {
+      "title": "有哪些让你忍俊不禁的冷知识？",
+      "url": "https://www.zhihu.com/answer/126697994",
+      "summary": "正文以微积分、线性代数、高等数学的汉语声调组合制造数学语言梗。"
+    },
+    {
+      "title": "有哪些学术性强的笑话/段子？",
+      "url": "https://www.zhihu.com/answer/126698085",
+      "summary": "正文以数学课程名称的汉语声调规律构成简短数学梗。"
+    },
+    {
+      "title": "有哪些令你读过一次就不会忘的话？",
+      "url": "https://www.zhihu.com/answer/127021302",
+      "summary": "正文是一句用于记忆三角函数符号的经典数学口诀梗。"
+    },
+    {
+      "title": "用数学知识写出的小说是怎样的？",
+      "url": "https://www.zhihu.com/answer/129979885",
+      "summary": "正文把集合、公理、群、环、域和整数扩张改写为创世故事，核心形态是连续数学梗。"
+    },
+    {
+      "title": "用数学知识写出的小说是怎样的？",
+      "url": "https://www.zhihu.com/answer/130066969",
+      "summary": "全文将阿贝尔、高次方程与圣经人物故事结合成数学寓言，同时穿插严肃解释。"
+    },
+    {
+      "title": "你见过最独特的情侣头像是怎样的？",
+      "url": "https://www.zhihu.com/answer/131767260",
+      "summary": "正文把互为傅里叶变换的函数制作成情侣头像并用“你的频域是我”形成数学梗。"
+    },
+    {
+      "title": "这是什么东西？作何解释？各位大神求帮忙。",
+      "url": "https://www.zhihu.com/answer/134882378",
+      "summary": "正文用英文谐音把数学符号串读成“I ate some pie”，属于数学梗。"
+    },
+    {
+      "title": "有没有什么特淫荡的词语其实挺正经的？",
+      "url": "https://www.zhihu.com/answer/140977318",
+      "summary": "正文围绕夹逼定理别称制造数学梗。"
+    },
+    {
+      "title": "黑种人是如何看待「欧皇」「非酋」这些网络用语的？",
+      "url": "https://www.zhihu.com/answer/141121972",
+      "summary": "正文以非欧几何对“平行”说法的反应构成一句数学梗。"
+    },
+    {
+      "title": "如何评价Ed Sheeran？",
+      "url": "https://www.zhihu.com/answer/143287786",
+      "summary": "正文以“四则运算推广大使”评价艺人，属于数学梗。"
+    },
+    {
+      "title": "你上过哪些比微积分难的课？",
+      "url": "https://www.zhihu.com/answer/144822238",
+      "summary": "正文用数学课程与术语的谐音连续造梗，属于数学概念驱动的文字梗。"
+    },
+    {
+      "title": "B 格最高的的数学或物理学公式是什么？",
+      "url": "https://www.zhihu.com/answer/145225835",
+      "summary": "正文以 B 格趋于无穷的极限式制造数学双关梗。"
+    },
+    {
+      "title": "B 格最高的的数学或物理学公式是什么？",
+      "url": "https://www.zhihu.com/answer/145366335",
+      "summary": "正文以高深公式和“装逼”话术形成数学公式梗，未实质讲解公式理论。"
+    },
+    {
+      "title": "哪两样东西是名字极其相似但完全不相关的？",
+      "url": "https://www.zhihu.com/answer/145856614",
+      "summary": "正文连续对比同名不同义的数学、物理概念，形成术语错位梗。"
+    },
+    {
+      "title": "数学上有哪些有趣的表情包？",
+      "url": "https://www.zhihu.com/answer/145973278",
+      "summary": "正文用二次型记号的读音制造简短数学谐音梗。"
+    },
+    {
+      "title": "职业与业余的差距有多大？",
+      "url": "https://www.zhihu.com/answer/146158450",
+      "summary": "正文用卖菜算术与微积分对比制造职业、业余差距的数学梗。"
+    },
+    {
+      "title": "B 格最高的的数学或物理学公式是什么？",
+      "url": "https://www.zhihu.com/answer/146168384",
+      "summary": "正文解释 bra 与 ket 拼成 bracket 的狄拉克括号文字梗。"
+    },
+    {
+      "title": "教科书上有哪些令你触动的话？",
+      "url": "https://www.zhihu.com/answer/146218602",
+      "summary": "正文把数学书中常见的“注意到”措辞作为读者才能理解的教材梗。"
+    },
+    {
+      "title": "用 20 个字符（公式里的分式横线括号都算）所能表达的最大的非无穷数是什么？",
+      "url": "https://www.zhihu.com/answer/146668323",
+      "summary": "正文用“重新定义运算符”规避最大数问题，构成数学定义梗。"
+    },
+    {
+      "title": "你遇到过哪些奇葩的变量名？",
+      "url": "https://www.zhihu.com/answer/146860824",
+      "summary": "正文把“分子”误译成 molecule 作为变量名，形成数学与英语双关梗。"
+    },
+    {
+      "title": "怎么做才能把圆周率改成 3.15？改完以后世界会是啥样？",
+      "url": "https://www.zhihu.com/answer/148413154",
+      "summary": "正文通过故意重排数字顺序制造圆周率变成 3.15 的数学梗。"
+    },
+    {
+      "title": "如果 f(8)=56, f(7)=42, f(6)=30, f(5)=20, 那么 f(3)=?",
+      "url": "https://www.zhihu.com/answer/151738451",
+      "summary": "正文解释贴吧用拉格朗日插值回应无依据找规律题的“9527”梗及其来历。"
+    },
+    {
+      "title": "你知道的最冷的冷知识是什么？",
+      "url": "https://www.zhihu.com/answer/169139127",
+      "summary": "正文把零次幂和阶乘拼成故意取巧的 24 点数学梗。"
+    },
+    {
+      "title": "以「Q.E.D」收尾证明语段，是什么梗？",
+      "url": "https://www.zhihu.com/answer/221161157",
+      "summary": "正文解释 Q.E.D. 的证明用法以及衍生戏称。"
+    },
+    {
+      "title": "是数学难，还是物理难？",
+      "url": "https://www.zhihu.com/answer/223687883",
+      "summary": "正文用夸张类比和数学化话术构成一则数学学科梗。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/238135452",
+      "summary": "正文用分部积分写成数学圈式的诙谐口诀。"
+    },
+    {
+      "title": "如何评价 2017 数学建模国赛？",
+      "url": "https://www.zhihu.com/answer/238266303",
+      "summary": "正文用学科名的谐音改写数学建模经历，属于数学梗。"
+    },
+    {
+      "title": "中国真的在文化、数学上都曾经领先世界几百年吗？",
+      "url": "https://www.zhihu.com/answer/245561584",
+      "summary": "正文用一次、二次函数的系数写成谐音数学梗。"
+    },
+    {
+      "title": "陶哲轩真的很水吗？",
+      "url": "https://www.zhihu.com/answer/248274402",
+      "summary": "正文以反讽方式把陶哲轩的奖项和竞赛成绩写成数学圈梗。"
+    },
+    {
+      "title": "你会如何计算98×1234+8766×99?",
+      "url": "https://www.zhihu.com/answer/248991744",
+      "summary": "正文以冯诺依曼直接心算却未利用规律构成数学梗。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/261755853",
+      "summary": "正文明确说明所转载的“圆周率等于4”内容是流行钓鱼梗并加以批判。"
+    },
+    {
+      "title": "学数学/从事数学研究的你，有过的最中二的想法是什么？",
+      "url": "https://www.zhihu.com/answer/263821059",
+      "summary": "正文围绕把大量数学概念都冠以自己名字构造数学梗。"
+    },
+    {
+      "title": "如何有格调地输出「Hello, World!」？",
+      "url": "https://www.zhihu.com/answer/264844885",
+      "summary": "正文用插值、自指函数与圆周率语言花式输出 Hello World，属于数学编程梗。"
+    },
+    {
+      "title": "有哪些高级笑话只有具备了一定的专业知识才能听懂？",
+      "url": "https://www.zhihu.com/answer/268294371",
+      "summary": "正文用拉格朗日相关术语制造谐音数学梗。"
+    },
+    {
+      "title": "有哪些降维拯救的例子？",
+      "url": "https://www.zhihu.com/answer/283805688",
+      "summary": "正文用司马光砸缸把三维物体变成二维碎片，构成“降维”的数学梗。"
+    },
+    {
+      "title": "西方古代历史是否可能属于伪造？",
+      "url": "https://www.zhihu.com/answer/285291842",
+      "summary": "正文模仿数字拆分和 Q.E.D. 形式炮制伪证明，构成数学梗。"
+    },
+    {
+      "title": "有哪些文艺简短的新年祝福?",
+      "url": "https://www.zhihu.com/answer/286840551",
+      "summary": "正文把不等式、几何中心、导数与极限编成新年祝福，构成连续的数学梗。"
+    },
+    {
+      "title": "你见过（或写过）的最生草的野兽先辈（或其他银梦相关）论证是什么？",
+      "url": "https://www.zhihu.com/answer/293025950",
+      "summary": "正文围绕网络文化数字制作大规模算式梗，属于数学网络迷因。"
+    },
+    {
+      "title": "在数学中还有没有像外婆切线（外公切线）、变态数（正常数）、萝莉分布（正态分布）这样的梗？",
+      "url": "https://www.zhihu.com/answer/299509277",
+      "summary": "正文集中罗列谐音、错别字式数学梗。"
+    },
+    {
+      "title": "高斯到底干了什么？为什么这么多算法里有他？",
+      "url": "https://www.zhihu.com/answer/300635088",
+      "summary": "正文是围绕高斯及数学定理的夸张段子合集。"
+    },
+    {
+      "title": "高斯到底干了什么？为什么这么多算法里有他？",
+      "url": "https://www.zhihu.com/answer/300770898",
+      "summary": "正文以创世纪文体恶搞高斯及其数学贡献。"
+    },
+    {
+      "title": "高斯到底干了什么？为什么这么多算法里有他？",
+      "url": "https://www.zhihu.com/answer/301991862",
+      "summary": "正文以夸张语气把高斯、欧拉、牛顿称作支配数学的天王。"
+    },
+    {
+      "title": "如何计算一只鸡的表面积？",
+      "url": "https://www.zhihu.com/answer/303543245",
+      "summary": "正文用鸡同胚于甜甜圈与分形羽毛构成拓扑梗。"
+    },
+    {
+      "title": "你在生活中用过最高端的数学知识是什么？",
+      "url": "https://www.zhihu.com/answer/308893749",
+      "summary": "正文围绕多个“懵逼”表情包逐一解释其数学出处，属于数学迷因。"
+    },
+    {
+      "title": "至今为止你看的什么书让你震撼最大？",
+      "url": "https://www.zhihu.com/answer/314567746",
+      "summary": "正文以谐音和学科名称组合构成数学梗。"
+    },
+    {
+      "title": "有哪些只有数学专业领域的人才懂的笑话？",
+      "url": "https://www.zhihu.com/answer/316316553",
+      "summary": "正文是一篇持续使用多项式、矩阵、极限和积分双关语的数学文字梗。"
+    },
+    {
+      "title": "怎样写对高中数学老师的新年祝福？",
+      "url": "https://www.zhihu.com/answer/319629799",
+      "summary": "正文用不等式、导数、极限等术语连续构成新年祝福双关。"
+    },
+    {
+      "title": "数学领域有哪些经典的笑话？",
+      "url": "https://www.zhihu.com/answer/323439208",
+      "summary": "正文以满射、内射术语制造数学谐音梗。"
+    },
+    {
+      "title": "有哪些只有数学专业领域的人才懂的笑话？",
+      "url": "https://www.zhihu.com/answer/326619562",
+      "summary": "正文以“交换群”搜索结果制造数学术语梗。"
+    },
+    {
+      "title": "如何做出 2π 分熟的牛排？",
+      "url": "https://www.zhihu.com/answer/327343843",
+      "summary": "正文用中间值定理构造“2π 分熟”数学梗。"
+    },
+    {
+      "title": "你知道哪些反常识的知识？",
+      "url": "https://www.zhihu.com/answer/327816885",
+      "summary": "正文用 pizza 体积公式构造数学文字梗。"
+    },
+    {
+      "title": "有哪些看起来很简单但做起来很难的数学题？",
+      "url": "https://www.zhihu.com/answer/331036516",
+      "summary": "正文以素数只能乘不能加的夸张说法构成数学梗。"
+    },
+    {
+      "title": "如何了解一个数学家或者数学大神眼中的世界？",
+      "url": "https://www.zhihu.com/answer/345628592",
+      "summary": "正文明确把数学梗作为学习与交流内容。"
+    },
+    {
+      "title": "如何了解一个数学家或者数学大神眼中的世界？",
+      "url": "https://www.zhihu.com/answer/345715856",
+      "summary": "正文把烤土豆片“串”联想到穿孔复平面上对数函数的解析延拓，构成复分析梗。"
+    },
+    {
+      "title": "法国平常人的数学怎么样？",
+      "url": "https://www.zhihu.com/answer/349122804",
+      "summary": "正文以法语数字表达制造数学文化梗。"
+    },
+    {
+      "title": "有哪些数学系鄙视物理系的经典桥段？",
+      "url": "https://www.zhihu.com/answer/349780450",
+      "summary": "正文以数学家与物理学家的差异制造学科段子。"
+    },
+    {
+      "title": "有哪些有趣或者很出名的民科理论？",
+      "url": "https://www.zhihu.com/answer/375963578",
+      "summary": "正文是一篇以圆周率等于四为核心的长篇数学讽刺梗。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/379185732",
+      "summary": "正文以看证明前中后的反应构成数学梗。"
+    },
+    {
+      "title": "何猷君的数学水平有多强？",
+      "url": "https://www.zhihu.com/answer/397137547",
+      "summary": "正文以虚构竞赛资历夸张讽刺人物吹捧，是完整数学梗。"
+    },
+    {
+      "title": "有哪些高中生才懂的梗？",
+      "url": "https://www.zhihu.com/answer/413325344",
+      "summary": "正文把古文句子续接多类函数名称，构成完整数学文字梗。"
+    },
+    {
+      "title": "如何用十分中二的方式解数学题？",
+      "url": "https://www.zhihu.com/answer/425184376",
+      "summary": "正文借用费马页边批注的经典表述构成数学梗。"
+    },
+    {
+      "title": "如何用十分中二的方式解数学题？",
+      "url": "https://www.zhihu.com/answer/429020560",
+      "summary": "正文把双曲线求参数的普通解答改写成中二式数学梗。"
+    },
+    {
+      "title": "哪些专业名词翻译得特别烂？",
+      "url": "https://www.zhihu.com/answer/431961566",
+      "summary": "正文利用“夹逼定理”名称的双关构成完整数学梗。"
+    },
+    {
+      "title": "如何看待 9 月 24 日 Michael Atiyah 在海德堡获奖者论坛上对黎曼猜想的现场宣讲？",
+      "url": "https://www.zhihu.com/answer/497477072",
+      "summary": "正文以省略黎曼猜想证明细节制造数学梗。"
+    },
+    {
+      "title": "如果黎曼猜想被证明出来了，会对世界产生怎么样的影响？",
+      "url": "https://www.zhihu.com/answer/497500355",
+      "summary": "正文用分类讨论的证明模板制造数学梗。"
+    },
+    {
+      "title": "被高数虐是一种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/514463887",
+      "summary": "正文用“很明显、易得、易证”的答案措辞吐槽高数学习，属于数学梗。"
+    },
+    {
+      "title": "有哪些数学上的定理让你感觉「这不显然吗，这还用证明」？",
+      "url": "https://www.zhihu.com/answer/519259010",
+      "summary": "一句话用“这也能证、这也要证”概括数学证明题的反差，属于数学梗。"
+    },
+    {
+      "title": "如何用数学解释爱情？",
+      "url": "https://www.zhihu.com/answer/523536285",
+      "summary": "用公式画出爱心并以参数大小制造情话梗，是数学梗图式表达。"
+    },
+    {
+      "title": "lim me→∞=you什么意思？",
+      "url": "https://www.zhihu.com/answer/526443600",
+      "summary": "把极限符号改写成情话，是以数学记号表达爱情的网络梗。"
+    },
+    {
+      "title": "中国的高中数学教育有哪些内容讲得太多或太少？",
+      "url": "https://www.zhihu.com/answer/526481665",
+      "summary": "用故意含糊和跳步的微积分课堂对白讽刺课程内容，属于数学段子。"
+    },
+    {
+      "title": "数学怎么跟浪漫联系起来？",
+      "url": "https://www.zhihu.com/answer/533339181",
+      "summary": "正文把极限运算与爱情作双关类比，属于数学课堂梗。"
+    },
+    {
+      "title": "参加东北大学高数期中考试是一种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/536678419",
+      "summary": "正文以改写童话的方式夸张高数期中考试，属于数学段子。"
+    },
+    {
+      "title": "语文考试可以写负能量作文吗？",
+      "url": "https://www.zhihu.com/answer/551878823",
+      "summary": "把射线、渐近线、定义域和周期函数等概念连续转写成人生隐喻，构成完整数学梗文。"
+    },
+    {
+      "title": "如何看待六学家存在之意义？",
+      "url": "https://www.zhihu.com/answer/555615988",
+      "summary": "用公理、集合、随机变量、积分和泰勒展开仿写网络流行梗。"
+    },
+    {
+      "title": "如何看待高中生声称证明哥德巴赫猜想？",
+      "url": "https://www.zhihu.com/answer/561088726",
+      "summary": "正文虚构谐音定律与算法，戏仿民科式哥德巴赫证明，形成网络数学梗。"
+    },
+    {
+      "title": "如何看待高中生声称证明哥德巴赫猜想？",
+      "url": "https://www.zhihu.com/answer/562795672",
+      "summary": "正文把数学建模戏称为科学女王腿毛上的挂件，并用“两开花”调侃事件，属于数学梗。"
+    },
+    {
+      "title": "如何评价知乎用户 @证明 的哥德巴赫猜想证明？",
+      "url": "https://www.zhihu.com/answer/563796965",
+      "summary": "正文把“歌德巴赫”拆成歌德与巴赫两位德国名人的姓名并套用“两开花”，形成数学谐音梗。"
+    },
+    {
+      "title": "如何看待南京航空航天大学副教授张明宝证明黎曼猜想？",
+      "url": "https://www.zhihu.com/answer/564624693",
+      "summary": "正文借“高手在民间”和“两开花”话术戏仿宣称证明所有猜想的民科叙事，属于数学网络梗。"
+    },
+    {
+      "title": "如果让一个大学数学系的顶尖学霸去解一道高中极其困难的数学题，他还能解出来吗？",
+      "url": "https://www.zhihu.com/answer/566897309",
+      "summary": "正文把普通汉字重新组为分析、Noether 环、Sylow 子群等数学术语，构成数学专业语境下的文字梗。"
+    },
+    {
+      "title": "如何评价 B 站 UP 主「电影爆博士」对《流浪地球》的态度？",
+      "url": "https://www.zhihu.com/answer/590126914",
+      "summary": "正文用诗句谐音构成数学梗。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/593763308",
+      "summary": "正文用 ACGN 四字母展开代数、组合、几何与数论的数学梗。"
+    },
+    {
+      "title": "有哪些《阴阳师》玩家才懂的梗？",
+      "url": "https://www.zhihu.com/answer/599309440",
+      "summary": "正文用游戏资源兑换式制造玩家可理解的数学梗。"
+    },
+    {
+      "title": "用抽象话讲高数是怎样的场面？",
+      "url": "https://www.zhihu.com/answer/671194197",
+      "summary": "用线性代数课程中高度抽象的符号堆叠构成数学梗图式吐槽。"
+    },
+    {
+      "title": "如果你穿越了，怎么让后世知道你穿越了呢？",
+      "url": "https://www.zhihu.com/answer/675044791",
+      "summary": "只用三角函数口诀回应穿越问题，构成数学梗。"
+    },
+    {
+      "title": "如果你穿越了，怎么让后世知道你穿越了呢？",
+      "url": "https://www.zhihu.com/answer/688310399",
+      "summary": "用经典三角函数口诀表达数学梗。"
+    },
+    {
+      "title": "对于 2019 高考数学你有什么想说的?",
+      "url": "https://www.zhihu.com/answer/708007462",
+      "summary": "仿照游戏主播话术改写高考数学答题过程构成梗文。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/710991699",
+      "summary": "全文以数学分析教材体例构成系统性的数学梗。"
+    },
+    {
+      "title": "数学领域有哪些经典的笑话？",
+      "url": "https://www.zhihu.com/answer/725868050",
+      "summary": "汇集数学圈内梗与 Meme。"
+    },
+    {
+      "title": "要是张三丰碰到了金轮，练了龙象波若功会怎样？",
+      "url": "https://www.zhihu.com/answer/744105479",
+      "summary": "用武侠人物绘制函数图像构成数学梗。"
+    },
+    {
+      "title": "为什么有些数学系学生会瞧不起 CS（计算机）系学生？",
+      "url": "https://www.zhihu.com/answer/796824973",
+      "summary": "后半段以数学专业鄙视链的夸张递降构成流行数学梗。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/797380972",
+      "summary": "正文只有一句以人与狗作夸张类比的数学圈流行梗。"
+    },
+    {
+      "title": "上联「随机过程随机过」如何对下联？",
+      "url": "https://www.zhihu.com/answer/798386576",
+      "summary": "用课程名称谐音串成数学专业对联与梗。"
+    },
+    {
+      "title": "如果出现了比十进制更适合人类的进制，数学是否会出现一次革命？",
+      "url": "https://www.zhihu.com/answer/809096065",
+      "summary": "正文把人类十进制与程序员二进制拟人化为两个物种，构成明确数学梗。"
+    },
+    {
+      "title": "如何激怒一位数学爱好者？",
+      "url": "https://www.zhihu.com/answer/813827139",
+      "summary": "正文用把 e、π 都近似成 3 的错误等式制造激怒数学爱好者的数学梗。"
+    },
+    {
+      "title": "任何自然数都能用包含「1、1、4、5、1、4」这 6 个数字的式子表示吗？",
+      "url": "https://www.zhihu.com/answer/818648028",
+      "summary": "正文把数字 114514 的表达戏称为田所浩二猜想和数学皇冠，属于明确的网络数学梗。"
+    },
+    {
+      "title": "142857 是人类数学的巧合吗？",
+      "url": "https://www.zhihu.com/answer/843204285",
+      "summary": "正文用网络数字梗拼出 142857，属于明确的数学梗。"
+    },
+    {
+      "title": "为什么翻开高数课本会感到窒息？",
+      "url": "https://www.zhihu.com/answer/857100449",
+      "summary": "全文以数学名词谐音编成长篇段子，属于数学梗内容。"
+    },
+    {
+      "title": "为什么有的人喜欢半英文半中文讲话？",
+      "url": "https://www.zhihu.com/answer/873746754",
+      "summary": "正文用一串夸张的数学术语中译名制造“招式名”般的幽默，属于数学梗。"
+    },
+    {
+      "title": "虎是什么单位？1 虎等于多少？",
+      "url": "https://www.zhihu.com/answer/875189246",
+      "summary": "正文把游戏伤害值戏拟成“厂、虎、鲟”度量单位并进行换算，构成数学梗。"
+    },
+    {
+      "title": "有没有哪些关于数学建模的梗？",
+      "url": "https://www.zhihu.com/answer/903064209",
+      "summary": "正文用三种团队分工结局戏仿数学建模竞赛，构成数学建模梗。"
+    },
+    {
+      "title": "你见过或做过哪些令人拍案叫绝的数字论证?",
+      "url": "https://www.zhihu.com/answer/921050516",
+      "summary": "正文用算式拼接网络数字梗，整体属于数学梗而非知识讲解。"
+    },
+    {
+      "title": "你见过的最丑的函数曲线图形是什么？",
+      "url": "https://www.zhihu.com/answer/922061950",
+      "summary": "正文以函数曲面绘制身体形状制造玩笑，整体是数学梗。"
+    },
+    {
+      "title": "如何用你所在的领域专业知识证明人类的本质是「套娃」？",
+      "url": "https://www.zhihu.com/answer/932231171",
+      "summary": "正文用自指句式呈现经典的递归程序员梗。"
+    },
+    {
+      "title": "一句话的信息量能大到什么程度？",
+      "url": "https://www.zhihu.com/answer/954681912",
+      "summary": "正文借用费马页边空白的名句制造数学圈内梗。"
+    },
+    {
+      "title": "数学界还有人还记得华罗庚学派吗？",
+      "url": "https://www.zhihu.com/answer/985706747",
+      "summary": "正文以华罗庚弟子与矩阵“打洞法”的双关构成数学梗，并解释梗的技术出处。"
+    },
+    {
+      "title": "在《王者荣耀》如何起一个个性的名字？",
+      "url": "https://www.zhihu.com/answer/999306051",
+      "summary": "正文以数学课程和对象名称组织成趣味梗。"
+    },
+    {
+      "title": "数学系的学生能硬核到什么程度？",
+      "url": "https://www.zhihu.com/answer/1014410753",
+      "summary": "正文以数学理论学习压力制作并解释表情梗。"
+    },
+    {
+      "title": "如何高贵冷艳地写数学分析证明题？",
+      "url": "https://www.zhihu.com/answer/1042744614",
+      "summary": "正文汇编证明中替代 trivially 的大量数学梗。"
+    },
+    {
+      "title": "数学系的学生能硬核到什么程度？",
+      "url": "https://www.zhihu.com/answer/1057388684",
+      "summary": "正文集中使用数学证明套话构成数学梗。"
+    },
+    {
+      "title": "蓝桥杯需要学会多深的算法才能得奖？",
+      "url": "https://www.zhihu.com/answer/1061297483",
+      "summary": "正文以竞赛算法刻板印象构成程序竞赛数学梗。"
+    },
+    {
+      "title": "能否把数学竞赛变得更有观赏性？",
+      "url": "https://www.zhihu.com/answer/1063049935",
+      "summary": "正文用斗地主解说句式连续改写数学术语，属于数学梗。"
+    },
+    {
+      "title": "各位竞赛生在学习竞赛时对其他科目的竞赛生有什么奇怪的误解？",
+      "url": "https://www.zhihu.com/answer/1117086056",
+      "summary": "正文用不同竞赛语境中的术语歧义制造数学梗。"
+    },
+    {
+      "title": "998244353 这个数字有什么特殊的性质？",
+      "url": "https://www.zhihu.com/answer/1135674104",
+      "summary": "整篇用网络数字梗和刻意拼式构成数学梗。"
+    },
+    {
+      "title": "数学领域有哪些经典的笑话？",
+      "url": "https://www.zhihu.com/answer/1153101156",
+      "summary": "正文以荒谬论文和民科证明形成数学社区梗。"
+    },
+    {
+      "title": "如何对 0，0，0，0 进行运算得到 24？",
+      "url": "https://www.zhihu.com/answer/1161853098",
+      "summary": "正文用一行包含十个数字字符的Python表达式制造数学梗。"
+    },
+    {
+      "title": "只用1、2、3、4、5、6、7、8、9和0写出一个数字，每个数只用一次，能写出最大的数是多少？",
+      "url": "https://www.zhihu.com/answer/1167377367",
+      "summary": "正文用把数字相加等于无穷构成简短数学梗。"
+    },
+    {
+      "title": "可以留下一个优美的不等式吗？",
+      "url": "https://www.zhihu.com/answer/1182123303",
+      "summary": "正文用流行梗改写不等式名称，属于数学梗。"
+    },
+    {
+      "title": "如何看待 4 月 28 日美国新冠病毒肺炎确诊人数超过 100 万？对美国会带来哪些影响？",
+      "url": "https://www.zhihu.com/answer/1185053179",
+      "summary": "正文用疫情数字和双关创造虚构计数单位，属于数学梗。"
+    },
+    {
+      "title": "如何看待 4 月 28 日美国新冠病毒肺炎确诊人数超过 100 万？对美国会带来哪些影响？",
+      "url": "https://www.zhihu.com/answer/1185915780",
+      "summary": "正文借疫情数字做指数增长的讽刺梗。"
+    },
+    {
+      "title": "男生发晚安用拼音「wanan」是什么意思？",
+      "url": "https://www.zhihu.com/answer/1193690826",
+      "summary": "正文把拼音、公式和转置符号拼成娱乐性数学梗。"
+    },
+    {
+      "title": "男生发晚安用拼音「wanan」是什么意思？",
+      "url": "https://www.zhihu.com/answer/1195913209",
+      "summary": "正文用虚构多层密码演算解读晚安，属于数学梗。"
+    },
+    {
+      "title": "什么是a站、b站、c站、d站、e站、f站、g站、h站、i站、j站、k站、l站、m站、n站…z站？",
+      "url": "https://www.zhihu.com/answer/1207084251",
+      "summary": "正文用字母与数学网站、单位名称制造梗。"
+    },
+    {
+      "title": "1米*1米*1米*1米*1米等于什么？",
+      "url": "https://www.zhihu.com/answer/1213589381",
+      "summary": "正文用单位乘法和谐音制造数学梗。"
+    },
+    {
+      "title": "情人节女生给我发了个561什么意思？",
+      "url": "https://www.zhihu.com/answer/1215504455",
+      "summary": "正文围绕561做质因数分解和谐音数学梗。"
+    },
+    {
+      "title": "为什么「Mr. King」的汉语翻译不是王先生，而是金先生？",
+      "url": "https://www.zhihu.com/answer/1252562766",
+      "summary": "正文以“姓向量场”的双关构成数学术语梗。"
+    },
+    {
+      "title": "对于 3 和 4 之间的整数 “bleem”，你怎么看？",
+      "url": "https://www.zhihu.com/answer/1258156836",
+      "summary": "正文以“Bleem”和皮亚诺公理构造数学梗。"
+    },
+    {
+      "title": "MIT 学者算出 π=3.115，是 π 的值变了吗？",
+      "url": "https://www.zhihu.com/answer/1262382178",
+      "summary": "正文用网络小编口吻调侃 π=3.115 的标题党梗。"
+    },
+    {
+      "title": "既然10/3等于3.3333除不尽，那为什么一根10米的绳子却能分成三等份？",
+      "url": "https://www.zhihu.com/answer/1295510394",
+      "summary": "正文用自定义“米米”单位制造数学梗。"
+    },
+    {
+      "title": "既然10/3等于3.3333除不尽，那为什么一根10米的绳子却能分成三等份？",
+      "url": "https://www.zhihu.com/answer/1303431210",
+      "summary": "正文以长度单位换算制造三等分梗。"
+    },
+    {
+      "title": "我国数学教材中的「勾股定理」是否应该改成「毕达哥拉斯定理（Pythagoras theorem）」？",
+      "url": "https://www.zhihu.com/answer/1330139177",
+      "summary": "正文用混合命名和简称构造数学名称梗。"
+    },
+    {
+      "title": "我国数学教材中的「勾股定理」是否应该改成「毕达哥拉斯定理（Pythagoras theorem）」？",
+      "url": "https://www.zhihu.com/answer/1343434083",
+      "summary": "正文围绕勾股定理的改名提出荒诞命名梗。"
+    },
+    {
+      "title": "怎么看待部分网友们对《生活在树上》这篇高考满分作文持否定态度?",
+      "url": "https://www.zhihu.com/answer/1382875559",
+      "summary": "正文以计算机和数学名词戏仿高考作文，构成数学梗。"
+    },
+    {
+      "title": "如何评价浙江省2020年高考作文满分范文《生活在树上》？",
+      "url": "https://www.zhihu.com/answer/1384317751",
+      "summary": "正文把大量数学名词嵌入作文体制造数学梗。"
+    },
+    {
+      "title": "如何评价浙江省2020年高考作文满分范文《生活在树上》？",
+      "url": "https://www.zhihu.com/answer/1403050325",
+      "summary": "正文用计算机科学和数学名词戏仿作文，构成数学梗。"
+    },
+    {
+      "title": "如何看待武汉提倡推行N-1点餐模式？",
+      "url": "https://www.zhihu.com/answer/1404245063",
+      "summary": "正文用公式梗回应点餐人数限制。"
+    },
+    {
+      "title": "最先进的语言应该是什么样的？",
+      "url": "https://www.zhihu.com/answer/1412738876",
+      "summary": "正文以公式符号制造数学语言梗。"
+    },
+    {
+      "title": "学完泛函分析可以做哪些事情？",
+      "url": "https://www.zhihu.com/answer/1425303463",
+      "summary": "正文用连续函数与多项式空间制造泛函分析梗。"
+    },
+    {
+      "title": "如何在十分钟之内学完数学物理方法？",
+      "url": "https://www.zhihu.com/answer/1426644904",
+      "summary": "正文以课程时间安排制造数学物理方法学习梗。"
+    },
+    {
+      "title": "大家为什么会讨厌缩写？",
+      "url": "https://www.zhihu.com/answer/1432094827",
+      "summary": "正文以缩写影响交流制造数学梗。"
+    },
+    {
+      "title": "我喜欢的女生的QQ好友验证问题是8730579，是什么意思？",
+      "url": "https://www.zhihu.com/answer/1445822130",
+      "summary": "正文直接讲解或推导“数学梗”相关内容。"
+    },
+    {
+      "title": "当你拥有一块魔镜，你最想问的是什么问题？",
+      "url": "https://www.zhihu.com/answer/1447093159",
+      "summary": "正文直接讲解或推导“数学梗”相关内容。"
+    },
+    {
+      "title": "网传清华大学电子系2020春 《概率论与随机过程1》 几乎高达30%的挂科情况，反映出什么现象？",
+      "url": "https://www.zhihu.com/answer/1457160857",
+      "summary": "正文用课程名称和谐音编成数学学习梗。"
+    },
+    {
+      "title": "这张算数入门图（一只兔子加一只兔子）里的题在算什么？",
+      "url": "https://www.zhihu.com/answer/1461523027",
+      "summary": "正文解释算术入门图的编程教材梗。"
+    },
+    {
+      "title": "如何激怒一位数学爱好者？",
+      "url": "https://www.zhihu.com/answer/1467985658",
+      "summary": "正文列举数学系日常中的典型刻板印象和梗。"
+    },
+    {
+      "title": "如果让过去的顶级数学家参加IMO，会是什么成绩？",
+      "url": "https://www.zhihu.com/answer/1568575913",
+      "summary": "正文以多位著名人物参加完全不对口比赛的类比制造数学圈梗。"
+    },
+    {
+      "title": "如果让过去的顶级数学家参加IMO，会是什么成绩？",
+      "url": "https://www.zhihu.com/answer/1569488436",
+      "summary": "正文借欧拉、高斯能否参加现代竞赛制造数学圈梗。"
+    },
+    {
+      "title": "高中生计算还在列竖式正常吗？",
+      "url": "https://www.zhihu.com/answer/1573270789",
+      "summary": "正文用查表、心算 FFT 和 CPU 扩展等夸张说法调侃竖式计算。"
+    },
+    {
+      "title": "你见过最恶心的函数是什么？",
+      "url": "https://www.zhihu.com/answer/1575872722",
+      "summary": "正文把编程中难维护的函数与数学函数词义混用成一句数学圈笑话。"
+    },
+    {
+      "title": "如果让过去的顶级数学家参加IMO，会是什么成绩？",
+      "url": "https://www.zhihu.com/answer/1578637200",
+      "summary": "正文用顶级数学家与研究竞赛题的错配制造数学圈梗。"
+    },
+    {
+      "title": "为什么数学上一些显而易见的事情数学家们也要编个定理出来？",
+      "url": "https://www.zhihu.com/answer/1581782591",
+      "summary": "正文用显而易见的 15 与巨大等差数列求和制造数学梗。"
+    },
+    {
+      "title": "使用微积分能否计算出一个玉米棒上玉米粒的个数？（看问题描述，被怼怕了）?",
+      "url": "https://www.zhihu.com/answer/1588626090",
+      "summary": "正文直接讨论或应用该叶节点主题（名词党）。"
+    },
+    {
+      "title": "高数为什么不能好好说话？",
+      "url": "https://www.zhihu.com/answer/1609573888",
+      "summary": "正文直接讨论或应用该叶节点主题（反例）。"
+    },
+    {
+      "title": "有哪些只有数学专业领域的人才懂的笑话？",
+      "url": "https://www.zhihu.com/answer/1676323214",
+      "summary": "正文用五行汉字矩阵乘法制造数学梗。"
+    },
+    {
+      "title": "数学系的学生能硬核到什么程度？",
+      "url": "https://www.zhihu.com/answer/1677667532",
+      "summary": "正文用夸张分类制造数学系梗。"
+    },
+    {
+      "title": "如何用几句话证明你是一个地道的中国人？",
+      "url": "https://www.zhihu.com/answer/1700205853",
+      "summary": "正文以常用三角诱导公式口诀形成数学梗。"
+    },
+    {
+      "title": "大家如何理解这张数学/物理梗图？",
+      "url": "https://www.zhihu.com/answer/1704705838",
+      "summary": "正文直接解释数学与物理梗图中的偏导交换关系。"
+    },
+    {
+      "title": "大家如何理解这张数学/物理梗图？",
+      "url": "https://www.zhihu.com/answer/1704731900",
+      "summary": "正文以公式角色拟人化解释一个数学梗图。"
+    },
+    {
+      "title": "很多老师都用1.01的365次方和0.99的365次方论证要坚持每天进步，可这个模型跟实际相符吗?",
+      "url": "https://www.zhihu.com/answer/1782433646",
+      "summary": "正文把复指数运算写成分层式数学梗，核心是幽默而非系统讲解。"
+    },
+    {
+      "title": "有哪些百度贴吧被鸠占鹊巢？",
+      "url": "https://www.zhihu.com/answer/1804226462",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "为什么说欧拉公式很「神」？",
+      "url": "https://www.zhihu.com/answer/1809537079",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "《爱丽丝梦游仙境》影射了什么？",
+      "url": "https://www.zhihu.com/answer/1843550201",
+      "summary": "正文系统解释原著中的逻辑、进制、负数、四元数等数学梗。"
+    },
+    {
+      "title": "男生在读大学期间真的需要女朋友吗？",
+      "url": "https://www.zhihu.com/answer/1843953582",
+      "summary": "正文把恋爱问题戏仿成公理体系，构成数学梗。"
+    },
+    {
+      "title": "如何一句话激怒数竞党？",
+      "url": "https://www.zhihu.com/answer/1849609210",
+      "summary": "正文以家长和升学问话构成数学竞赛场景的讽刺梗。"
+    },
+    {
+      "title": "如何一句话激怒数竞党？",
+      "url": "https://www.zhihu.com/answer/1851006410",
+      "summary": "正文以数学与物理的互相轻视构成学科梗。"
+    },
+    {
+      "title": "如何一句话激怒数竞党？",
+      "url": "https://www.zhihu.com/answer/1851594540",
+      "summary": "正文用竞赛刻板印象构成数学梗。"
+    },
+    {
+      "title": "如何一句话激怒数竞党？",
+      "url": "https://www.zhihu.com/answer/1854412731",
+      "summary": "正文用信息学竞赛和数学竞赛术语互相调侃，构成学科梗。"
+    },
+    {
+      "title": "计算机学术界是不是喜欢发明一些没什么用的概念?",
+      "url": "https://www.zhihu.com/answer/1868440375",
+      "summary": "正文用加法交换律和阿贝尔群构成关于抽象概念的数学梗。"
+    },
+    {
+      "title": "如何一句话激怒数竞党？",
+      "url": "https://www.zhihu.com/answer/1872564643",
+      "summary": "正文用等式回代制造面向数学竞赛学生的梗。"
+    },
+    {
+      "title": "你见过哪些有意思的不等式？",
+      "url": "https://www.zhihu.com/answer/1877414625",
+      "summary": "正文以网络流行语境中的“不等式”制造数学梗。"
+    },
+    {
+      "title": "怎么找一个数学系的妹子当女朋友？",
+      "url": "https://www.zhihu.com/answer/1886759263",
+      "summary": "正文用一长串高阶数学课程名称制造“找数学系女友”的梗。"
+    },
+    {
+      "title": "如何在数学试卷上调戏阅卷人？",
+      "url": "https://www.zhihu.com/answer/1888119830",
+      "summary": "正文用考试作答与阅卷人互动制造数学考试梗。"
+    },
+    {
+      "title": "你从你身上能数出多少个天下第一？",
+      "url": "https://www.zhihu.com/answer/1914202316",
+      "summary": "正文用不断精确的时间点构造无限多个“天下第一”梗。"
+    },
+    {
+      "title": "有哪些具有特殊性质的数字？",
+      "url": "https://www.zhihu.com/answer/1976571683",
+      "summary": "正文是网络数字梗，不涉及数学概念解释。"
+    },
+    {
+      "title": "83，63，90，70，100，是什么规律？",
+      "url": "https://www.zhihu.com/answer/1976594711",
+      "summary": "正文的核心效果是114514数字梗。"
+    },
+    {
+      "title": "质数在生活中有什么用？",
+      "url": "https://www.zhihu.com/answer/1981128258",
+      "summary": "正文把素数知识包装成日常数学梗。"
+    },
+    {
+      "title": "83，63，90，70，100，是什么规律？",
+      "url": "https://www.zhihu.com/answer/1983091775",
+      "summary": "正文保留明显的网络数字梗表达。"
+    },
+    {
+      "title": "114514的多少次方，中间包含着1919810呢？",
+      "url": "https://www.zhihu.com/answer/1985830298",
+      "summary": "正文用大整数幂中包含特定数字串制造数学梗。"
+    },
+    {
+      "title": "114514的多少次方，中间包含着1919810呢？",
+      "url": "https://www.zhihu.com/answer/1990140963",
+      "summary": "正文延续114514相关网络数字梗。"
+    },
+    {
+      "title": "114514的多少次方，中间包含着1919810呢？",
+      "url": "https://www.zhihu.com/answer/1990227306",
+      "summary": "正文围绕特殊数字幂的网络梗作答。"
+    },
+    {
+      "title": "2  2  3  5.5  12  下一个数是多少？",
+      "url": "https://www.zhihu.com/answer/2001402004",
+      "summary": "正文用114514和1919810制造数字梗。"
+    },
+    {
+      "title": "有哪些数竞党才懂的梗？",
+      "url": "https://www.zhihu.com/answer/2002071646",
+      "summary": "正文以竞赛书目名称作为数竞生梗。"
+    },
+    {
+      "title": "如果答案是1，那么问题可以有多难?",
+      "url": "https://www.zhihu.com/answer/2030249749",
+      "summary": "正文用任意难题减去答案偏差制造统一答案为 1 的数学梗。"
+    },
+    {
+      "title": "这个偷走β的数学迷语是什么意思？",
+      "url": "https://www.zhihu.com/answer/2091216448",
+      "summary": "正文用模运算把字母谜语解释成数学梗。"
+    },
+    {
+      "title": "如何激怒一位数学爱好者？",
+      "url": "https://www.zhihu.com/answer/2106571533",
+      "summary": "正文用一组数字、逻辑和生活梗制造数学梗。"
+    },
+    {
+      "title": "有哪些虽然正确但却没啥用的公式？",
+      "url": "https://www.zhihu.com/answer/2153994246",
+      "summary": "正文以无实际用途的对称公式构成数学梗。"
+    },
+    {
+      "title": "用5，5，5，7四个数字怎么算24点？",
+      "url": "https://www.zhihu.com/answer/2154112109",
+      "summary": "正文用复杂积分与特殊函数包装 24 点题目，属于数学梗。"
+    },
+    {
+      "title": "用5，5，5，7四个数字怎么算24点？",
+      "url": "https://www.zhihu.com/answer/2154282850",
+      "summary": "正文用随意定义函数的方式取巧回答 24 点，属于数学梗。"
+    },
+    {
+      "title": "用5，5，5，7四个数字怎么算24点？",
+      "url": "https://www.zhihu.com/answer/2154387982",
+      "summary": "正文用求导与阶乘的取巧方法回答 24 点，属于数学梗。"
+    },
+    {
+      "title": "用5，5，5，7四个数字怎么算24点？",
+      "url": "https://www.zhihu.com/answer/2154408087",
+      "summary": "正文用位移等非标准运算构造 24 点答案，属于数学梗。"
+    },
+    {
+      "title": "用5，5，5，7四个数字怎么算24点？",
+      "url": "https://www.zhihu.com/answer/2154531960",
+      "summary": "正文用求导、零阶乘构造 24 点，属于数学梗。"
+    },
+    {
+      "title": "用5，5，5，7四个数字怎么算24点？",
+      "url": "https://www.zhihu.com/answer/2155399590",
+      "summary": "正文用求导和阶乘构造 24 点，属于数学梗。"
+    },
+    {
+      "title": "数学领域做不同分支的是否隔行如隔山？",
+      "url": "https://www.zhihu.com/answer/2163810106",
+      "summary": "正文以不同数学分支术语隔阂写成数学梗。"
+    },
+    {
+      "title": "如何客观地评价中国应试教育?",
+      "url": "https://www.zhihu.com/answer/2164417805",
+      "summary": "正文以背诵三角函数口诀讽刺应试教育。"
+    },
+    {
+      "title": "为什么大家都很否定中文编程？",
+      "url": "https://www.zhihu.com/answer/2164995194",
+      "summary": "正文用语言与数学的双关构成梗。"
+    },
+    {
+      "title": "能不能出一道很难的数学题，答案是 235，宿舍当门牌用？",
+      "url": "https://www.zhihu.com/answer/2188755329",
+      "summary": "正文用数字拼凑和算术恒等式制造趣味数学梗。"
+    },
+    {
+      "title": "有一个懂代数几何的女朋友是一种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/2201127972",
+      "summary": "全文是借代数几何术语构造的数学段子。"
+    },
+    {
+      "title": "高中真的有现在网友说的那么美好吗？",
+      "url": "https://www.zhihu.com/answer/2202542748",
+      "summary": "正文把中学多学科知识串成夸张的段子，核心是数学梗。"
+    },
+    {
+      "title": "这样的数学meme可以量产吗?",
+      "url": "https://www.zhihu.com/answer/2227166779",
+      "summary": "正文用方程组解释数学梗的生成方式。"
+    },
+    {
+      "title": "大家知道的最长（复杂）的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2244273869",
+      "summary": "正文用人物轮廓参数曲线制造数学梗。"
+    },
+    {
+      "title": "目前数学的符号体系有多混乱？",
+      "url": "https://www.zhihu.com/answer/2247186387",
+      "summary": "正文用改换记号的说法构成微分几何数学梗。"
+    },
+    {
+      "title": "目前数学的符号体系有多混乱？",
+      "url": "https://www.zhihu.com/answer/2252546480",
+      "summary": "正文把圆周率、投影、同伦群等共用符号写成数学梗。"
+    },
+    {
+      "title": "高中毕业半年了，还是不会解方程。刚刚还去抖音搜了一下解方程，看了几个视频还是学不会？是不是脑子有问题？",
+      "url": "https://www.zhihu.com/answer/2253528439",
+      "summary": "正文以贴吧民科和“推翻数学大厦”等梗展开数学幽默。"
+    },
+    {
+      "title": "能否出一道数学题，涵盖高中所有知识点?",
+      "url": "https://www.zhihu.com/answer/2258005899",
+      "summary": "正文把所有高中数学知识点串成一道刻意夸张的综合性趣味题。"
+    },
+    {
+      "title": "目前数学的符号体系有多混乱？",
+      "url": "https://www.zhihu.com/answer/2262778853",
+      "summary": "正文用学科符号混乱制造数学梗。"
+    },
+    {
+      "title": "我今年 14 岁，想了一个数学思路，把数学各领域的联系写出来了，这个思路有什么问题吗？",
+      "url": "https://www.zhihu.com/answer/2286296354",
+      "summary": "正文以夸张附会的方式把一张示意图解释成数学梗。"
+    },
+    {
+      "title": "为什么汉字“凸”是凹多边形，“凹”还是凹多边形，造字的人连基本的数学常识都没有？",
+      "url": "https://www.zhihu.com/answer/2286816266",
+      "summary": "正文从凹凸字形与多边形命名制造并解释数学梗。"
+    },
+    {
+      "title": "你见过最让你无语的cos是怎样的？",
+      "url": "https://www.zhihu.com/answer/2287282963",
+      "summary": "正文利用 cosine 的缩写 cos 制造角色扮演双关梗。"
+    },
+    {
+      "title": "如何评价《雄狮少年》的剧情？",
+      "url": "https://www.zhihu.com/answer/2288529774",
+      "summary": "正文用荒诞剧情调侃与数学研究有关的叙事。"
+    },
+    {
+      "title": "数列 2，4，6，7，8…… 后面的数字是什么？",
+      "url": "https://www.zhihu.com/answer/2291235867",
+      "summary": "正文本身以多组离谱通项和数列下一项构成数学梗。"
+    },
+    {
+      "title": "数列 2，4，6，7，8…… 后面的数字是什么？",
+      "url": "https://www.zhihu.com/answer/2293310925",
+      "summary": "正文以三岁儿童和任意下一项构成数学梗。"
+    },
+    {
+      "title": "数列 2，4，6，7，8…… 后面的数字是什么？",
+      "url": "https://www.zhihu.com/answer/2293424258",
+      "summary": "正文以恶搞证明和固定梗数字制造数学梗。"
+    },
+    {
+      "title": "数列 2，4，6，7，8…… 后面的数字是什么？",
+      "url": "https://www.zhihu.com/answer/2293559668",
+      "summary": "正文直接以任意下一项梗回应数列题。"
+    },
+    {
+      "title": "0! = 1，1! = 1，怎么解释 1 ≠ 0？",
+      "url": "https://www.zhihu.com/answer/2294070687",
+      "summary": "正文用零乘任意数为零制造数学梗。"
+    },
+    {
+      "title": "√8-√2=√2，这是怎么得出来的？",
+      "url": "https://www.zhihu.com/answer/2295401675",
+      "summary": "正文以数学系与物理系的反应制造根式化简梗。"
+    },
+    {
+      "title": "有什么数学名词可以作为人名吗？",
+      "url": "https://www.zhihu.com/answer/2311963131",
+      "summary": "正文把李群、李代数、黎曼流形和分布等数学名词当作人名谐音梗。"
+    },
+    {
+      "title": "王中林院士书面回应学界对 「拓展麦克斯韦方程组」 的质疑，有哪些值得关注的信息？",
+      "url": "https://www.zhihu.com/answer/2314809478",
+      "summary": "正文用“上取整函数”解释近似说法的荒诞，构成数学梗。"
+    },
+    {
+      "title": "有什么数学名词可以作为人名吗？",
+      "url": "https://www.zhihu.com/answer/2316987137",
+      "summary": "正文把数学术语组合成人名，属于数学词语梗。"
+    },
+    {
+      "title": "有什么数学名词可以作为人名吗？",
+      "url": "https://www.zhihu.com/answer/2317011107",
+      "summary": "正文用数学术语与姓氏构造人名梗。"
+    },
+    {
+      "title": "如何用各学科专业知识拜年？",
+      "url": "https://www.zhihu.com/answer/2321463849",
+      "summary": "正文用形式语义表达式包装新年祝福，属于数学梗。"
+    },
+    {
+      "title": "如何用各学科专业知识拜年？",
+      "url": "https://www.zhihu.com/answer/2327448708",
+      "summary": "正文用导数、积分、极限和拉格朗日等术语创作数学祝福梗。"
+    },
+    {
+      "title": "数列 {1, 1, 4, 5, 1, …} 的下一位是什么？",
+      "url": "https://www.zhihu.com/answer/2327978371",
+      "summary": "正文借用数学家轶事叙述网络数列梗，没有实质数学推导。"
+    },
+    {
+      "title": "如何用各学科专业知识拜年？",
+      "url": "https://www.zhihu.com/answer/2329173617",
+      "summary": "正文用特殊函数与积分构造新年祝福数学梗。"
+    },
+    {
+      "title": "数列 {1, 1, 4, 5, 1, …} 的下一位是什么？",
+      "url": "https://www.zhihu.com/answer/2334260768",
+      "summary": "正文用数列检索结果制造数学梗，并未给出可复用的数列规律。"
+    },
+    {
+      "title": "所有线性空间都是同态的吗？",
+      "url": "https://www.zhihu.com/answer/2343426352",
+      "summary": "正文用“同构”一词的双重含义构成数学梗。"
+    },
+    {
+      "title": "如何评价一些数学大佬在推导过程中的「我们不难发现…」、「显然有…」、「易得…」等语言?",
+      "url": "https://www.zhihu.com/answer/2348885951",
+      "summary": "正文用哈代轶事呈现数学推导中的显然梗。"
+    },
+    {
+      "title": "如何评价一些数学大佬在推导过程中的「我们不难发现…」、「显然有…」、「易得…」等语言?",
+      "url": "https://www.zhihu.com/answer/2349127960",
+      "summary": "正文把显然式证明作为数学梗进行拆解。"
+    },
+    {
+      "title": "如何评价一些数学大佬在推导过程中的「我们不难发现…」、「显然有…」、「易得…」等语言?",
+      "url": "https://www.zhihu.com/answer/2358190903",
+      "summary": "正文用助教把证明步骤标成显然却当场卡住的经历构成数学段子。"
+    },
+    {
+      "title": "数学系和物理系学生有什么差别？",
+      "url": "https://www.zhihu.com/answer/2359767119",
+      "summary": "正文用数学系与物理系处理积分和函数定义的差异构成数学梗。"
+    },
+    {
+      "title": "怎么理解齐泽克所说的女人不存在？",
+      "url": "https://www.zhihu.com/answer/2377551714",
+      "summary": "正文故意堆叠哲学和数学术语形成学术黑话式的数学梗。"
+    },
+    {
+      "title": "感兴趣的男生是数学系的怎么聊?",
+      "url": "https://www.zhihu.com/answer/2387476443",
+      "summary": "正文把这些数学命题编成与数学系学生搭话的玩笑式话题，属于数学梗。"
+    },
+    {
+      "title": "感兴趣的男生是数学系的怎么聊?",
+      "url": "https://www.zhihu.com/answer/2404914255",
+      "summary": "正文用拓扑概念设计数学系社交梗。"
+    },
+    {
+      "title": "你见过哪些绝妙的翻译？",
+      "url": "https://www.zhihu.com/answer/2419010014",
+      "summary": "正文用数学术语 inequality 的谐音翻译制造数学梗。"
+    },
+    {
+      "title": "如何看待三鹿奶粉董事长田文华即将出狱？",
+      "url": "https://www.zhihu.com/answer/2423659131",
+      "summary": "正文用“三大公式”和荒谬等式制造政治讽刺类数学梗。"
+    },
+    {
+      "title": "有哪些关于高数的表情包？",
+      "url": "https://www.zhihu.com/answer/2424241806",
+      "summary": "正文解释高数表情包文化并用数学题制造表白、666 和“不存在”等梗。"
+    },
+    {
+      "title": "能分享一道如果“注意不到”就出不来的数学题吗？",
+      "url": "https://www.zhihu.com/answer/2448146368",
+      "summary": "正文的包袱是故意隐藏两个素数因子的数学梗。"
+    },
+    {
+      "title": "33 岁远洋船员带15个G数学题出海，报名全球数学竞赛丰富船上时光，数学能给普通人带来哪些乐趣？",
+      "url": "https://www.zhihu.com/answer/2500712260",
+      "summary": "正文列举多个数学名词谐音梗与段子。"
+    },
+    {
+      "title": "有人说数学天才「能看到函数的函数的函数」，这是怎样一种体验？",
+      "url": "https://www.zhihu.com/answer/2535976625",
+      "summary": "用层层嵌套的排比调侃“函数的函数的函数”，最后落到范畴记号，是数学梗。"
+    },
+    {
+      "title": "教科书上有哪些令你触动的话？",
+      "url": "https://www.zhihu.com/answer/2537146026",
+      "summary": "用一句对教科书措辞的调侃构成线性代数相关的数学梗。"
+    },
+    {
+      "title": "在数学系是一种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/2540461341",
+      "summary": "把有限覆盖定理改写成数学系学习处境的谐音梗。"
+    },
+    {
+      "title": "如何看待知乎上的“赢学“？",
+      "url": "https://www.zhihu.com/answer/2567410702",
+      "summary": "以伪造学科术语、伪学术引用和夸张模型构成数学与科学论文风格的网络梗。"
+    },
+    {
+      "title": "有哪些数学专业表情包?",
+      "url": "https://www.zhihu.com/answer/2567500903",
+      "summary": "用可计算的极限、积分和行列式题目包装成数学表情包与数字梗。"
+    },
+    {
+      "title": "有哪些看了想复制的疯批文学？",
+      "url": "https://www.zhihu.com/answer/2582123180",
+      "summary": "用一连串虚构的 Unicode 大小关系符号与全序集注释制造数学文字梗。"
+    },
+    {
+      "title": "如何激怒一位数学爱好者？",
+      "url": "https://www.zhihu.com/answer/2609968249",
+      "summary": "用 π² 与重力加速度近似相等作数学物理梗。"
+    },
+    {
+      "title": "网友发现地图可显示台湾省每个街道，「精确到街道红绿灯」，如何看待这件事？",
+      "url": "https://www.zhihu.com/answer/2611199993",
+      "summary": "借“计算器精确到个位”的新闻写出 1+2=3 的数学梗。"
+    },
+    {
+      "title": "你最(不)想成为什么函数？",
+      "url": "https://www.zhihu.com/answer/2617048424",
+      "summary": "用函数 y=0 与“归于常数”作数学双关梗。"
+    },
+    {
+      "title": "骨龄14多，身高170，打生长激素，经常拉伸吊杠。180是梦吗？",
+      "url": "https://www.zhihu.com/answer/2618107347",
+      "summary": "用“求导预测身高”的夸张说法作数学梗。"
+    },
+    {
+      "title": "为什么我用lstm，svm，ann来预测股价，效果都非常好？",
+      "url": "https://www.zhihu.com/answer/2620432354",
+      "summary": "用导数提前拿到下一时刻数据的夸张公式讽刺股价预测模型。"
+    },
+    {
+      "title": "抖音的平均文化程度到底怎么样？",
+      "url": "https://www.zhihu.com/answer/2621106888",
+      "summary": "围绕“数正方体”的短视频题目形成数学梗。"
+    },
+    {
+      "title": "如何评价陈平和他的眉山论剑？",
+      "url": "https://www.zhihu.com/answer/2636755701",
+      "summary": "围绕“陈平不等式”的购买力比较形成数学不等式梗。"
+    },
+    {
+      "title": "如何激怒一位数学爱好者？",
+      "url": "https://www.zhihu.com/answer/2638036260",
+      "summary": "把 1,2,4,8,16 的下一个数强行插值成 31，形成数列数学梗。"
+    },
+    {
+      "title": "我的寝室号是520，请问如何用下北泽常数、e、π来表示？",
+      "url": "https://www.zhihu.com/answer/2640228248",
+      "summary": "用“下北泽常数”与复杂取整表达式作数学梗。"
+    },
+    {
+      "title": "北京首套房贷利率由此前的 5% 降至 4.85%，这意味着什么？会对市场产生哪些影响？",
+      "url": "https://www.zhihu.com/answer/2640668189",
+      "summary": "用错误累计利息与夸张买房数量讽刺统计口径，形成数学梗。"
+    },
+    {
+      "title": "我证明了哥德巴赫猜想，大家怎么看（我就是民科一枚，以后不能再对民科那么绝对了！）？",
+      "url": "https://www.zhihu.com/answer/2671296101",
+      "summary": "正文用反讽方式收录并点评多版哥德巴赫猜想民科证明，构成数学社区梗。"
+    },
+    {
+      "title": "应不应该让医生“货到付款”？",
+      "url": "https://www.zhihu.com/answer/2735181004",
+      "summary": "正文把学过高等数学与证明哥德巴赫猜想强行连接，形成一个数学能力反差梗。"
+    },
+    {
+      "title": "我是高数，学生在即，很多中考沉迷我。但还有一些冥顽不化的学生沉迷死对头古埃及和两河流域历史，怎么办？",
+      "url": "https://www.zhihu.com/answer/2735852768",
+      "summary": "正文把“两河流域”谐音联想为域，并把“流”附会为流形，构成借数学术语编排的梗。"
+    },
+    {
+      "title": "数学学到博士是一种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/2738693959",
+      "summary": "正文把真子集、可测和测度等数学术语嵌入导师与学生的关系，构成集合论与测度论双关梗。"
+    },
+    {
+      "title": "你知道 OI 中的哪些梗？",
+      "url": "https://www.zhihu.com/answer/2745290104",
+      "summary": "正文把算法竞赛常用模数的变体和荒谬的取模选择并列为数学竞赛梗。"
+    },
+    {
+      "title": "数学家张益唐攻克 Landau-Siegel 零点猜想相关论文发布，如何评价这一研究的成果及意义？",
+      "url": "https://www.zhihu.com/answer/2745919300",
+      "summary": "正文把论文下界的负幂次与发表年份相联，构造了通过穿越时间降低指数数值的数学梗。"
+    },
+    {
+      "title": "假设同时录取到了沈逸、陈平、张维为的研究生，你们选谁当导师？",
+      "url": "https://www.zhihu.com/answer/2746034905",
+      "summary": "正文戏仿论文标题和学科术语，堆叠“陈平不等式”“赢空间”“赢量子论”等名称，构成围绕数学与学术话语的梗。"
+    },
+    {
+      "title": "你见过哪些极品论文？",
+      "url": "https://www.zhihu.com/answer/2752098211",
+      "summary": "正文以“芥末表”的伪定义、定理和证明结构模仿数学论文，并借哥德尔第二不完备定理等术语构成数学论文梗。"
+    },
+    {
+      "title": "数学家张益唐攻克 Landau-Siegel 零点猜想相关论文发布，如何评价这一研究的成果及意义？",
+      "url": "https://www.zhihu.com/answer/2753842317",
+      "summary": "正文先铺设论文估计与 Mellin 变换的审读语境，最后用 cannot 的拆写错误制造数学论文校对梗。"
+    },
+    {
+      "title": "如何评价bilibili重点审查“烧鸡”、“吴涛鸿儒”等低俗表达？",
+      "url": "https://www.zhihu.com/answer/2787358240",
+      "summary": "正文把高中数学老师反复强调设式与求导的课堂口头语改成带消音词的段子，构成数学课堂梗。"
+    },
+    {
+      "title": "给高斯一个小时，他能否破解三阶魔方？",
+      "url": "https://www.zhihu.com/answer/2789049978",
+      "summary": "正文用费马页边空白的典故层层调侃魔方步数问题，构成一则数学梗。"
+    },
+    {
+      "title": "给高斯一个小时，他能否破解三阶魔方？",
+      "url": "https://www.zhihu.com/answer/2789684624",
+      "summary": "正文以同心圆交点构造一套荒诞的魔方平面几何解法，构成数学梗。"
+    },
+    {
+      "title": "蔡徐坤和葛立恒数哪个大?",
+      "url": "https://www.zhihu.com/answer/2791081377",
+      "summary": "正文明确把蔡徐坤下蛋和字母套娃写成数学梗，用夸张递推制造与葛立恒数比较的笑点。"
+    },
+    {
+      "title": "小学数学为什么不从集合论学起？",
+      "url": "https://www.zhihu.com/answer/2803270957",
+      "summary": "正文以不断抬高数学基础的排比玩笑，调侃从 ZFC 到高阶范畴论和 Topos 的课程设想，构成数学梗。"
+    },
+    {
+      "title": "蔡徐坤和葛立恒数哪个大?",
+      "url": "https://www.zhihu.com/answer/2814805843",
+      "summary": "正文以拆字、伪造分式和“自然对数”双关对葛立恒数开玩笑，属于数学梗而非数学讲解。"
+    },
+    {
+      "title": "爱因斯坦和牛顿是否被严重高估了？",
+      "url": "https://www.zhihu.com/answer/2825558655",
+      "summary": "正文用牛顿、莱布尼茨、阿贝尔和伽罗华等人物互相调侃的拟人对话制造数学与科学史圈梗，内容功能是数学梗而非数学史讲解。"
+    },
+    {
+      "title": "薛定谔方程为啥不化简呢？",
+      "url": "https://www.zhihu.com/answer/2827399204",
+      "summary": "正文以把导数记号当作分数并约去 d 的错误操作为梗，推演出所有实数都等于 1 的荒诞结论。"
+    },
+    {
+      "title": "怎么感觉双减之后越来越累了？",
+      "url": "https://www.zhihu.com/answer/2838026021",
+      "summary": "正文把“双减”中的两个减号解释成一个加号，用符号运算构成政策语双关梗。"
+    },
+    {
+      "title": "历史上所有尝试碰瓷葛立恒数的数中，大于1的数乘积有没有葛立恒数大？",
+      "url": "https://www.zhihu.com/answer/2877510134",
+      "summary": "正文用反复自乘并声称最终超过葛立恒数的伪证明，构成围绕大数比较的数学梗。"
+    },
+    {
+      "title": "这个比葛立恒数大吧？",
+      "url": "https://www.zhihu.com/answer/2919698002",
+      "summary": "正文用“葛立恒数话题第一定律”和“葛门”自嘲构造大数的讨论方式，构成围绕大数的数学社区梗。"
+    },
+    {
+      "title": "为什么李代数和代数数论都被称作“虚张声势的线性代数”?",
+      "url": "https://www.zhihu.com/answer/2922161734",
+      "summary": "正文追溯“虚张声势的线性代数”这一说法由玩笑到流传的语境，并用它消解对新抽象框架的畏难情绪，属于数学社区梗。"
+    },
+    {
+      "title": "如何评价 Maki's Lab 的数学分析讲义？",
+      "url": "https://www.zhihu.com/answer/2928944682",
+      "summary": "正文用“UFD=noether”等伪造定理和夸张推论讽刺相关数学讲义，属于数学社区梗。"
+    },
+    {
+      "title": "你们刚刚都复制了什么内容？",
+      "url": "https://www.zhihu.com/answer/2929949864",
+      "summary": "正文以逐渐崩坏、重复刷屏的复制文案表现学习高数和积分的痛苦，属于数学学习梗。"
+    },
+    {
+      "title": "我说的这个数可以疯狂秒杀葛立恒数吧？",
+      "url": "https://www.zhihu.com/answer/2931476539",
+      "summary": "正文用分段时间不断减半的细菌分裂设想戏谑性声称两秒超过葛立恒数，构成数学社区梗。"
+    },
+    {
+      "title": "勾股定理说a的平方加b的平方等于c的平方，难道1的平方加2的平方就等于3的平方了吗？",
+      "url": "https://www.zhihu.com/answer/2931851632",
+      "summary": "正文故意把勾股关系写成明显错误的等式并配以调侃语气，构成数学梗。"
+    },
+    {
+      "title": "从 1 开始每秒倍增一次，需要多久能追得上葛立恒数？",
+      "url": "https://www.zhihu.com/answer/2934350399",
+      "summary": "正文用倍增间隔不断缩短的设想戏谑声称两秒追上葛立恒数，构成围绕超大数规模的数学梗。"
+    },
+    {
+      "title": "勾股定理说a的平方加b的平方等于c的平方，难道1的平方加2的平方就等于3的平方了吗？",
+      "url": "https://www.zhihu.com/answer/2934568425",
+      "summary": "正文把勾股定理、直角三角形和根号二改写为游戏式荒诞叙事，属于数学主题的网络梗。"
+    },
+    {
+      "title": "小学数学为什么不从集合论学起？",
+      "url": "https://www.zhihu.com/answer/2963114140",
+      "summary": "正文整篇以小学日记和高级集合论术语的错位制造数学梗，并明确说明其抖机灵性质。"
+    },
+    {
+      "title": "数学专业的人能分享一个学数学的时候快乐的瞬间吗？",
+      "url": "https://www.zhihu.com/answer/2967532160",
+      "summary": "正文以“所有函数都是线性的”等夸张说法和群聊截图收集数学梗，属于数学梗分享。"
+    },
+    {
+      "title": "有个数字第一秒变成1，第二秒变成4，第三秒变成6，第四秒变成13，过一千秒能超过TREE(3)吗？",
+      "url": "https://www.zhihu.com/answer/2972979975",
+      "summary": "正文用四个数据点强行拟合四次多项式并得出 114514，是借序列外推和巨大数构造反差的数学梗。"
+    },
+    {
+      "title": "为什么 sin15°=sin45°-sin30° 是错误的？",
+      "url": "https://www.zhihu.com/answer/2972985083",
+      "summary": "正文故意把 sin 当作可乘因子并滥用分配律来“证明”错误的三角恒等式，属于数学梗式反例笑料。"
+    },
+    {
+      "title": "数学专业的人能分享一个学数学的时候快乐的瞬间吗？",
+      "url": "https://www.zhihu.com/answer/2973535981",
+      "summary": "正文模仿代数几何的 local 性质，把局部性、开集和稠密性套用到文章可读性上构造数学梗。"
+    },
+    {
+      "title": "数学系的学生能硬核到什么程度？",
+      "url": "https://www.zhihu.com/answer/2975887996",
+      "summary": "正文用高速运动补足睡眠时间的设定构成一个数学物理梗。"
+    },
+    {
+      "title": "11^4^5^14^19^19^8^10和葛立恒数哪个大？",
+      "url": "https://www.zhihu.com/answer/2977405632",
+      "summary": "正文用数字梗和故意错误的大小判断回答巨大数比较问题，构成数学梗。"
+    },
+    {
+      "title": "11^4^5^14^19^19^8^10和葛立恒数哪个大？",
+      "url": "https://www.zhihu.com/answer/2978398139",
+      "summary": "正文直接把格雷厄姆数与巨大幂塔作显然大小断言并加入调侃语气，构成数学梗。"
+    },
+    {
+      "title": "怎么判断一个孩子有没有数学天赋？",
+      "url": "https://www.zhihu.com/answer/3016430756",
+      "summary": "正文以夸张列举数学分支和著名对象的方式构成数学天赋梗。"
+    },
+    {
+      "title": "数学的泛函分析应该怎么学？",
+      "url": "https://www.zhihu.com/answer/3019042987",
+      "summary": "正文把泛函分析写成以赋范线性空间、连续线性算子和 Riesz 表示定理为元素的游戏文案，核心是数学术语玩梗。"
+    },
+    {
+      "title": "开口纤维丛，闭口上同调是什么意思？",
+      "url": "https://www.zhihu.com/answer/3019597094",
+      "summary": "正文以“开口……闭口……”的措辞调侃数学圈黑话已经转向游戏话题，核心是数学术语与数院日常玩梗。"
+    },
+    {
+      "title": "陌生人，你敢现在把你复制到剪贴板的东西粘贴出来吗？",
+      "url": "https://www.zhihu.com/answer/3085389105",
+      "summary": "正文借用宗教式排比和重复口号，把极限、求和、积分及洛必达法则改写成一则荒诞的数学梗。"
+    },
+    {
+      "title": "如何追求数学系男生？",
+      "url": "https://www.zhihu.com/answer/3101565354",
+      "summary": "正文把不可交换、收敛、流形和积分等数学术语套入择偶类型，构成数学梗。"
+    },
+    {
+      "title": "9是个位数里最大的数字，99是十位数里最大的数字，那么以此类推，世界上最大的数字就是奇数，有没有问题？",
+      "url": "https://www.zhihu.com/answer/3108257554",
+      "summary": "正文把“最大的个位数”与无限小数及其奇偶性拼成一个荒诞结论，属于数学梗式调侃。"
+    },
+    {
+      "title": "我好像发现了一个数学定理 ，请大家看看这玩意有用吗？",
+      "url": "https://www.zhihu.com/answer/3111623280",
+      "summary": "正文用网络梗数构造一个化简后显然成立的伪定理并反问其用途，属于数学梗式调侃。"
+    },
+    {
+      "title": "直视克苏鲁中邪神后的疯狂到底是指什么？",
+      "url": "https://www.zhihu.com/answer/3112688119",
+      "summary": "正文把克苏鲁调查员的反应与学习高等数学、数学分析的反应逐条对应，以“高等数学＝邪神”作数学梗式调侃。"
+    },
+    {
+      "title": "为什么知乎上优秀的数学答主的头像大都是二次元动漫美女头像呢？",
+      "url": "https://www.zhihu.com/answer/3154053363",
+      "summary": "正文利用 A、C、G、N 对应代数、组合、几何、数论的缩写巧合构造数学梗并解释其来源。"
+    },
+    {
+      "title": "高斯以前的人怎样计算1+2+…+100？",
+      "url": "https://www.zhihu.com/answer/3157775320",
+      "summary": "正文用“先算所有自然数的和再逐一减去”这一反常算法讲高斯求和的数学梗。"
+    },
+    {
+      "title": "「大数学」是否已成为「大序数学」？",
+      "url": "https://www.zhihu.com/answer/3158721139",
+      "summary": "正文以修仙叙事和网络梗串联序数、对角化、反射及内模型等大数学话题。"
+    },
+    {
+      "title": "现在的初中生都在想什么？",
+      "url": "https://www.zhihu.com/answer/3160112579",
+      "summary": "正文用混合物理、化学知识点的打油诗，借二次函数和三角函数等术语制造中学数学梗。"
+    },
+    {
+      "title": "柯洁和战鹰哪个强?",
+      "url": "https://www.zhihu.com/answer/3160435818",
+      "summary": "正文套用不等式、引理和证明等数学术语调侃围棋棋手实力比较，构成战鹰不等式网络梗。"
+    },
+    {
+      "title": "我14岁的女儿最近总是给我推荐TNT，TNT是什么？",
+      "url": "https://www.zhihu.com/answer/3161227245",
+      "summary": "正文把女儿所说的 TNT 改读为算法竞赛术语 NTT，并用 AKIOI 收尾，构成一则信息学竞赛梗。"
+    },
+    {
+      "title": "考验一下网友文笔，可以用「至少有那么一秒」造句吗？",
+      "url": "https://www.zhihu.com/answer/3198343129",
+      "summary": "正文借缩小模型与压缩映射定理构造海拔相同的巧合句子，核心是围绕数学定理设计的文字梗。"
+    },
+    {
+      "title": "考验一下知友的文笔，可以用理科知识点造句吗？",
+      "url": "https://www.zhihu.com/answer/3204421859",
+      "summary": "正文把闭区间、一致连续、完备性、开覆盖定理等数学对象拟人化并串成荒诞叙事，属于数学梗创作。"
+    },
+    {
+      "title": "泰勒·斯威夫特（霉霉）是否已加入了光明会?",
+      "url": "https://www.zhihu.com/answer/3205050280",
+      "summary": "正文把三角形、勾股定理和几何学串联进“加入光明会”的荒诞联想，构成数学梗。"
+    },
+    {
+      "title": "如何用sin x、ln(x+1)、eˣ、dy/dx造句？",
+      "url": "https://www.zhihu.com/answer/3205500369",
+      "summary": "正文把等价无穷小、极限、泰勒展开、洛必达法则和求导拟人成连续情节，构成数学梗。"
+    },
+    {
+      "title": "如何用sin x、ln(x+1)、eˣ、dy/dx造句？",
+      "url": "https://www.zhihu.com/answer/3205662849",
+      "summary": "正文用“能导能积”和“性质十分优良”把函数的可导、可积性质拟人化，构成数学梗。"
+    },
+    {
+      "title": "如何用sin x、ln(x+1)、eˣ、dy/dx造句？",
+      "url": "https://www.zhihu.com/answer/3206403501",
+      "summary": "正文把 sin x 的反函数、定义域和值域等概念拟人化串成故事，核心是数学梗而非系统讲授。"
+    },
+    {
+      "title": "如何用sin x、ln(x+1)、eˣ、dy/dx造句？",
+      "url": "https://www.zhihu.com/answer/3206849791",
+      "summary": "正文把 e^x、求导、极限、泰勒展开和无穷小等概念拟人化为抓捕故事，属于数学梗。"
+    },
+    {
+      "title": "如果你有在任意地方插入一个“0”那超能力，你想怎么使用？",
+      "url": "https://www.zhihu.com/answer/3225315988",
+      "summary": "正文围绕在箭头记数中插入 0 来制造巨大数展开夸张玩笑，属于数学梗。"
+    },
+    {
+      "title": "考验一下知友的文笔，可以用理科知识点造句吗？",
+      "url": "https://www.zhihu.com/answer/3226982477",
+      "summary": "正文把波函数、傅里叶变换、积分和线性算符人格化为一段情节，构成数学与理科术语的梗。"
+    },
+    {
+      "title": "女朋友实行减分制，目前只有一分了，怎么办？",
+      "url": "https://www.zhihu.com/answer/3234935106",
+      "summary": "正文用每日减半、永远减不完的数学联想构成情感话题中的数学梗。"
+    },
+    {
+      "title": "假如你全身刀枪不入，但必须选一个5cmx5cm的身体区域一旦受伤就会直接死亡，你会选哪里？",
+      "url": "https://www.zhihu.com/answer/3235387794",
+      "summary": "正文利用面积与体积的量纲差异和点集变形构造了一句几何式脑筋急转弯。"
+    },
+    {
+      "title": "数学专业女生怎么追?",
+      "url": "https://www.zhihu.com/answer/3239691868",
+      "summary": "正文用两个极坐标方程作为“土味魔法”构成数学主题的恋爱梗，并未展开极坐标概念本身。"
+    },
+    {
+      "title": "为什么大家都说高数难，而我觉得高数好像挺简单的啊？",
+      "url": "https://www.zhihu.com/answer/3243419435",
+      "summary": "正文用高中数学写证明之难与大学高数反复使用洛必达法则的夸张对白，构成高等数学学习梗。"
+    },
+    {
+      "title": "看很多人都在说陈平不等式，这到底是个什么东西？",
+      "url": "https://www.zhihu.com/answer/3249808856",
+      "summary": "正文把金额符号组成的不等式称作“定理”并记录多个戏称，是一则以不等式为载体的数学梗。"
+    },
+    {
+      "title": "数学中你可以“注意到”什么地步?",
+      "url": "https://www.zhihu.com/answer/3250412046",
+      "summary": "正文用十六进制和八进制记号之间的醒目等式配以“数学之美”，构成进制相关的数学梗。"
+    },
+    {
+      "title": "如何激怒一位数学爱好者？",
+      "url": "https://www.zhihu.com/answer/3251278955",
+      "summary": "正文借“0 是否为自然数”的约定争议描写数学圈反应，是一则与自然数定义有关的数学梗。"
+    },
+    {
+      "title": "0~50哪个数字最容易被忽视？",
+      "url": "https://www.zhihu.com/answer/3267811191",
+      "summary": "正文把0到50依次写成由114514数字片段和四则运算拼出的表达式，是在玩114514数学梗。"
+    },
+    {
+      "title": "e，π，γ，φ怎么算二十四点？",
+      "url": "https://www.zhihu.com/answer/3269850123",
+      "summary": "正文用 e、π、γ、φ 的组合值和取整构造 24，形成二十四点数学梗。"
+    },
+    {
+      "title": "e，π，γ，φ怎么算二十四点？",
+      "url": "https://www.zhihu.com/answer/3270296960",
+      "summary": "正文用大量取整恒等式和特殊常数拼出 24，属于二十四点的数学梗。"
+    },
+    {
+      "title": "如何评价抖音看不腻的妞？",
+      "url": "https://www.zhihu.com/answer/3271081450",
+      "summary": "正文借用“唐妞不等式”制造夸张的数学梗，而非讲解真正的不等式。"
+    },
+    {
+      "title": "怎么判断一个孩子有没有数学天赋？",
+      "url": "https://www.zhihu.com/answer/3271151679",
+      "summary": "正文用自然数的几种回答及其思考程度来调侃数学天赋，构成一则自然数与数学天赋相关的数学梗。"
+    },
+    {
+      "title": "如何证明8的n次方减1一定是7的整数倍数?",
+      "url": "https://www.zhihu.com/answer/3271291591",
+      "summary": "正文把十进制重复数字的整除现象类比到八进制来回应八的幂减一问题，以趣味观察构成数学梗。"
+    },
+    {
+      "title": "e，π，γ，φ怎么算二十四点？",
+      "url": "https://www.zhihu.com/answer/3271746190",
+      "summary": "正文借导数阶乘、零阶乘和 4!=24 抛出一道二十四点式并自嘲其为非平凡解，形成数学梗。"
+    },
+    {
+      "title": "女朋友网名叫半夏，我应该叫什么？",
+      "url": "https://www.zhihu.com/answer/3301362785",
+      "summary": "正文把“半”写成 0.5 并对 summer 的字母逐一作半值替换，最后得到 cinema，构成字母运算式数学梗。"
+    },
+    {
+      "title": "你们敢不敢把刚刚复制粘贴的东西发出来？",
+      "url": "https://www.zhihu.com/answer/3316538591",
+      "summary": "正文把偏微分小测的压力转化为对柯西、傅里叶等数学家接连“去世”的夸张调侃，构成本科数学梗。"
+    },
+    {
+      "title": "如果一道数学题答案是1，答题写0.9循环对吗？",
+      "url": "https://www.zhihu.com/answer/3322106583",
+      "summary": "正文用虚构的“下北泽第一定理”和荒诞算式回应0.9循环问题，构成数学社区梗。"
+    },
+    {
+      "title": "如何优雅地证明sin114514°=sin5201314°?",
+      "url": "https://www.zhihu.com/answer/3322143316",
+      "summary": "正文把几组数字通过拼接和算式都凑成520，并据此调侃三角函数的相等关系，属于数学数字梗。"
+    },
+    {
+      "title": "数学系教授说数学差是爱因斯坦的硬伤，真的如此吗？",
+      "url": "https://www.zhihu.com/answer/3322951193",
+      "summary": "正文用名人自谦的夸张对照调侃希尔伯特评价爱因斯坦数学，属于数学家相关的网络梗。"
+    },
+    {
+      "title": "你认为哪一个数字最美丽动人，为什么？",
+      "url": "https://www.zhihu.com/answer/3327467656",
+      "summary": "正文借《生活大爆炸》中 Sheldon 讨论最棒数字的桥段介绍 73 的数学彩蛋，属于数学梗。"
+    },
+    {
+      "title": "为什么知乎上优秀的数学答主的头像大都是二次元动漫美女头像呢？",
+      "url": "https://www.zhihu.com/answer/3327737206",
+      "summary": "正文用不可微、无穷维、奇点和离散对象与二维动漫人物作反差，构成围绕数学对象性质的梗。"
+    },
+    {
+      "title": "为什么知乎上优秀的数学答主的头像大都是二次元动漫美女头像呢？",
+      "url": "https://www.zhihu.com/answer/3327977911",
+      "summary": "正文借二维复结构能产生优美结果的双关梗，把复几何术语与二维动漫头像联系起来。"
+    },
+    {
+      "title": "tan（葛立恒数）和葛立恒数哪个大？",
+      "url": "https://www.zhihu.com/answer/3328126339",
+      "summary": "正文利用角度制记号把 tan 与葛立恒数组合成诙谐回答，属于三角函数与大数的数学梗。"
+    },
+    {
+      "title": "一辈子没有学过微积分会不会遗憾？",
+      "url": "https://www.zhihu.com/answer/3329014701",
+      "summary": "正文用连等式把数学方向串成一条夸张鄙视链，以数学圈刻板印象构成梗。"
+    },
+    {
+      "title": "你们敢不敢把刚刚复制粘贴的东西发出来？",
+      "url": "https://www.zhihu.com/answer/3337145000",
+      "summary": "正文用傅里叶变换、贝塞尔方程和仿真等术语拼接成一段网络段子，属于数学与理工语境的梗。"
+    },
+    {
+      "title": "你最(不)想成为什么函数？",
+      "url": "https://www.zhihu.com/answer/3337544957",
+      "summary": "正文借倒数函数及其导数的双关语构成一句数学梗，核心是函数类玩笑。"
+    },
+    {
+      "title": "晚上好陌生人。可以看看你们粘贴板上最近一次复制了什么吗?",
+      "url": "https://www.zhihu.com/answer/3341027450",
+      "summary": "正文以“开导”“积分回去”的双关语串联求导与积分公式，构成数学玩笑。"
+    },
+    {
+      "title": "数学上能不能禁止用“显然”？",
+      "url": "https://www.zhihu.com/answer/3350281383",
+      "summary": "正文以不同数学家说“显然”时难度差异作为数学圈梗，展开了一段数学文化笑谈。"
+    },
+    {
+      "title": "你们敢不敢把刚刚复制粘贴的东西发出来？",
+      "url": "https://www.zhihu.com/answer/3377137478",
+      "summary": "正文把泰勒展开、二阶导、定积分、线代和二次型等术语串成双关语，核心是数学梗。"
+    },
+    {
+      "title": "为什么有i人、有e人，没有π人？",
+      "url": "https://www.zhihu.com/answer/3390888851",
+      "summary": "正文把 i、e、π 与 MBTI 称谓拼成方程并解出“π人”，是以欧拉公式构造的数学梗。"
+    },
+    {
+      "title": "亲戚问四年本科数学学了什么，我该怎么回答？",
+      "url": "https://www.zhihu.com/answer/3393461020",
+      "summary": "正文以“群里发电”和“乐yau”等数学圈谐音、人名梗回应本科数学学到了什么。"
+    },
+    {
+      "title": "数学领域真的只对少部分天才开放吗？",
+      "url": "https://www.zhihu.com/answer/3397608215",
+      "summary": "正文按年级递进编排数学各分支的学科鄙视链，以夸张层级和措辞构成数学圈梗。"
+    },
+    {
+      "title": "积分不就是找反导数吗，为什么还有稀奇古怪的积分技巧？",
+      "url": "https://www.zhihu.com/answer/3397664997",
+      "summary": "正文仿照原问句，以质因数分解和巨型整数分解挑战进行夸张反问，属于数学梗。"
+    },
+    {
+      "title": "你们敢不敢把刚刚复制粘贴的东西发出来？",
+      "url": "https://www.zhihu.com/answer/3406394762",
+      "summary": "正文把三角函数、反函数值域和指数函数性质编排成数学角色故事，属于数学梗。"
+    },
+    {
+      "title": "如何用2，16，浓，2，2，5，8造句?",
+      "url": "https://www.zhihu.com/answer/3407096445",
+      "summary": "正文用给定数字拼出一条完整算术恒等式，属于以算式构造和数字梗为核心的趣味内容。"
+    },
+    {
+      "title": "数学领域真的只对少部分天才开放吗？",
+      "url": "https://www.zhihu.com/answer/3427107779",
+      "summary": "正文把数学学习路径和天赋差异戏仿成修仙小说中的功法与斗帝境界，构成明确的数学圈梗。"
+    },
+    {
+      "title": "怎么判断一个孩子有没有数学天赋？",
+      "url": "https://www.zhihu.com/answer/3428823922",
+      "summary": "正文以数学各分支的刻板印象和术语反差连续构造数学笑话，咖啡杯与甜甜圈一段是典型的拓扑梗。"
+    },
+    {
+      "title": "你能用徒手画出一个多么极致的圆？",
+      "url": "https://www.zhihu.com/answer/3430495366",
+      "summary": "正文用 L∞ 范数下圆周率等于 4 的说法构成数学梗。"
+    },
+    {
+      "title": "如何使用形如“XXXXX，我们喜欢你”的格式造句？",
+      "url": "https://www.zhihu.com/answer/3430821718",
+      "summary": "正文把数学分析和高等代数的课程及知识点套入流行歌词句式，形成数学课程梗。"
+    },
+    {
+      "title": "你们敢不敢把刚复制的内容粘贴发出来？",
+      "url": "https://www.zhihu.com/answer/3433733522",
+      "summary": "正文把初等函数拟人化并演绎求反函数的过程，形成数学函数梗。"
+    },
+    {
+      "title": "如何证明4＞π＞3?",
+      "url": "https://www.zhihu.com/answer/3435956446",
+      "summary": "正文用荒诞的“瞪眼法”给出错误的大小关系，构成围绕圆周率与不等式证明的数学梗。"
+    },
+    {
+      "title": "1!×2!×3!×……×10000000000000000! 和葛立恒数哪个大？",
+      "url": "https://www.zhihu.com/answer/3447125159",
+      "summary": "正文虚构带有 Graham 名称的“定律”，以数字越多反而越小的反差回应大数比较问题，构成数学梗。"
+    },
+    {
+      "title": "如何理解 π⁴+π⁵≈e⁶？",
+      "url": "https://www.zhihu.com/answer/3447824660",
+      "summary": "正文借用 114514 与 1919810 的网络数字梗，把极大误差反称为极小误差，构成数学式玩笑。"
+    },
+    {
+      "title": "如何理解 π⁴+π⁵≈e⁶？",
+      "url": "https://www.zhihu.com/answer/3448137323",
+      "summary": "正文用 π²≈g、π≈√10 的宽松近似制造数值巧合梗，没有展开圆周率或近似的数学原理。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/3448279124",
+      "summary": "正文以葛立恒数、TREE(3) 等网络热议大数和“随机取数几乎必更大”的夸张说法构成数学梗。"
+    },
+    {
+      "title": "为何科比出手多叫消化球权，詹宁斯等被叫刷分？",
+      "url": "https://www.zhihu.com/answer/3472108019",
+      "summary": "正文反复套用篮球术语改写高斯与黎曼假设的竞赛分工，形成以数学命题为素材的段子。"
+    },
+    {
+      "title": "你们见过最雷的同人文是怎么样的？",
+      "url": "https://www.zhihu.com/answer/3474829133",
+      "summary": "正文把cos、sin等三角函数名当作同人角色，以函数符号间的复杂关系制造数学术语梗。"
+    },
+    {
+      "title": "如何在数学试卷上调戏阅卷人？",
+      "url": "https://www.zhihu.com/answer/3474857384",
+      "summary": "正文利用“收敛”与“发散”这对相反术语在书写上被写得一样，构成数学考试术语梗。"
+    },
+    {
+      "title": "数学领域有哪些经典的笑话？",
+      "url": "https://www.zhihu.com/answer/3474879018",
+      "summary": "正文故意拆分《实变函数论》书名制造误买数论书的双关，构成数学书名梗。"
+    },
+    {
+      "title": "怎么看待数学界天才崇拜这种文化？",
+      "url": "https://www.zhihu.com/answer/3480653640",
+      "summary": "正文用众数学家追问公式来历与拉马努金以直觉作答的反差构造数学圈梗。"
+    },
+    {
+      "title": "目前数学的符号体系有多混乱？",
+      "url": "https://www.zhihu.com/answer/3481933826",
+      "summary": "正文以不同物理课程采用四套微积分符号的经历，构成关于数学符号混用的吐槽梗。"
+    },
+    {
+      "title": "如何用1、0、0、8、6算24点？",
+      "url": "https://www.zhihu.com/answer/3482387959",
+      "summary": "正文用五元函数直接指定结果为 24 的取巧回答戏仿 24 点解法，构成数学梗而非实质求解方法。"
+    },
+    {
+      "title": "洛必达法则为何成为禁术？",
+      "url": "https://www.zhihu.com/answer/3490269047",
+      "summary": "正文以高考导数题和“洛必达禁术”为设定展开完整的战斗式数学梗故事。"
+    },
+    {
+      "title": "如何评价王婆说媒武汉行？",
+      "url": "https://www.zhihu.com/answer/3498352472",
+      "summary": "正文用离群值、抽样误差和修改先验串成关于重复抽样与贝叶斯方法的数学梗。"
+    },
+    {
+      "title": "3，5，10，40（）找规律后面应该填什么?",
+      "url": "https://www.zhihu.com/answer/3501978440",
+      "summary": "正文借拉格朗日插值可拟合任意有限数据的特点，用 114514 玩梗调侃找规律题。"
+    },
+    {
+      "title": "怎么才能让人觉得我看起来像学过代数几何？",
+      "url": "https://www.zhihu.com/answer/3506370723",
+      "summary": "正文用罗列术语、会议提问和游戏类比构成关于 p 进几何的数学圈玩梗。"
+    },
+    {
+      "title": "庞加莱猜想是瑟斯顿，丘成桐，汉密尔顿，佩雷尔曼，曹怀东，朱熹平一起证明的，为啥千禧奖只颁给佩雷尔曼？",
+      "url": "https://www.zhihu.com/answer/3514331326",
+      "summary": "正文套用创世叙事，把同伦胞腔、手术论、庞加莱猜想和配边等术语改写成数学梗。"
+    },
+    {
+      "title": "张起灵和吴邪之间究竟是什么感情？",
+      "url": "https://www.zhihu.com/answer/3514602603",
+      "summary": "正文把人物关系比作铁三角并分配 90°直角，借角度和直线概念制造数学梗。"
+    },
+    {
+      "title": "有哪些有趣的围棋梗？",
+      "url": "https://www.zhihu.com/answer/3518938209",
+      "summary": "正文用数学家输棋后的妙语构成数学身份梗。"
+    },
+    {
+      "title": "数学中你可以“注意到”什么地步?",
+      "url": "https://www.zhihu.com/answer/3525186450",
+      "summary": "正文用具有网络谐音的数字构造正弦相等式作为数学梗，但没有解释周期性或其他原理。"
+    },
+    {
+      "title": "17岁中专女生超越一众名校生，全球排名 12 闯入 2024 阿里全球数赛决赛，如何评价她的数学水平？",
+      "url": "https://www.zhihu.com/answer/3529585504",
+      "summary": "正文用“数学不会就是不会”的流行说法构成关于数学学习难度的数学梗。"
+    },
+    {
+      "title": "如何激怒一位数学爱好者？",
+      "url": "https://www.zhihu.com/answer/3532878118",
+      "summary": "正文把若干故意写错的数学等式排成一组，以这种符号玩笑表现数学爱好者被激怒的场景，属于数学梗。"
+    },
+    {
+      "title": "如何看待姜萍火后Evans的偏微分方程销量爆增？",
+      "url": "https://www.zhihu.com/answer/3534599533",
+      "summary": "正文把偏微分方程、高等数学、数学分析和高等代数教材打包称作“姜萍在用同款书”，核心是数学教材圈的书名梗。"
+    },
+    {
+      "title": "如何评价姜萍事件？",
+      "url": "https://www.zhihu.com/answer/3537810149",
+      "summary": "正文把抓人叙事与 gamma 函数、偏微分方程教材、求和符号等数学对象拼贴成网络段子。"
+    },
+    {
+      "title": "在姜萍事件中有哪些名梗？",
+      "url": "https://www.zhihu.com/answer/3537819620",
+      "summary": "正文围绕虚构的 Jumping 恒等式和宗教等式制造数学网络梗。"
+    },
+    {
+      "title": "为什么姜萍被抖音微博小红书用户追捧，被知乎贴吧b站用户质疑？",
+      "url": "https://www.zhihu.com/answer/3537866285",
+      "summary": "正文把虚构的姜萍恒等式与其他网络流行说法并列成社交平台上的数学梗。"
+    },
+    {
+      "title": "姜萍事件能否说明大众对数学没有基本的认识？",
+      "url": "https://www.zhihu.com/answer/3538898839",
+      "summary": "正文借武侠对话把数学课程按武学进阶编排，并以夸张年限调侃学习门槛，属于数学梗。"
+    },
+    {
+      "title": "如何激怒一位数学爱好者？",
+      "url": "https://www.zhihu.com/answer/3539797813",
+      "summary": "正文把求和、指数和等式写成三条荒谬的“数学定理”，以错误符号规则构成数学梗。"
+    },
+    {
+      "title": "如何看待姜萍把「ƶ̇=b」抄写成了「主=6」 ？",
+      "url": "https://www.zhihu.com/answer/3539838624",
+      "summary": "正文复述“二分求和”“姜指变换”和“上帝公式”等故意写错的数学等式，以符号玩笑构成数学梗。"
+    },
+    {
+      "title": "如何看待姜萍把「ƶ̇=b」抄写成了「主=6」 ？",
+      "url": "https://www.zhihu.com/answer/3539841149",
+      "summary": "正文借莱布尼茨与牛顿导数记号的差异开玩笑，调侃 dz 不容易被误抄，属于围绕导数记号理解差异的数学梗。"
+    },
+    {
+      "title": "如何看待姜萍把「ƶ̇=b」抄写成了「主=6」 ？",
+      "url": "https://www.zhihu.com/answer/3539848122",
+      "summary": "正文把明显错误的数值比较包装成“不等式”“等式”和“恒大于式”，以伪数学公式构成数学梗。"
+    },
+    {
+      "title": "姜萍和雷绍武，谁的数学能力更胜一筹？",
+      "url": "https://www.zhihu.com/answer/3540008772",
+      "summary": "正文用“相似等价定律”“Jumping氏方程组”和一串故意错误的推导，将竞赛争议包装成伪数学体系，属于围绕符号与公式玩笑展开的数学梗。"
+    },
+    {
+      "title": "为什么姜萍事件这么多天一直没反转成功？",
+      "url": "https://www.zhihu.com/answer/3540021222",
+      "summary": "正文复述“二分求和：∑=/2”“姜指变换：a^b=ab”“上帝公式：主=6”等故意写错的等式，构成围绕竞赛争议的数学梗。"
+    },
+    {
+      "title": "正无穷的一半等于多少？",
+      "url": "https://www.zhihu.com/answer/3541555082",
+      "summary": "正文以黎曼 ζ 函数解析延拓为引子，用任意拆分和虚构 Jumping 主定理构造正无穷除以二的伪推导，属于围绕数学等式展开的数学梗。"
+    },
+    {
+      "title": "正无穷的一半等于多少？",
+      "url": "https://www.zhihu.com/answer/3541624445",
+      "summary": "正文把 k² 和无穷项当作可同时消去的符号，并由此推出“Jumping 等式”，构成故意违反无穷级数规则的数学梗。"
+    },
+    {
+      "title": "如果给你一次“乘十”的机会，可以把任何事情翻十倍，你会如何使用这张“乘十卡”？",
+      "url": "https://www.zhihu.com/answer/3543217302",
+      "summary": "正文用底数为 10 的对数把 1 换成 10 后构造出把任意数变成目标数的玩笑，属于对数符号和“乘十”设定结合的数学梗。"
+    },
+    {
+      "title": "谁能通俗的解释一下为什么有人怀疑姜萍?",
+      "url": "https://www.zhihu.com/answer/3543562290",
+      "summary": "正文借用创世叙事，把指数、无穷、圆周率、积分和求和等数学符号改写成宗教式段子，属于数学梗。"
+    },
+    {
+      "title": "姜萍事件能否说明大众对数学没有基本的认识？",
+      "url": "https://www.zhihu.com/answer/3544602328",
+      "summary": "正文用西格玛与“∞/2”外形相似制造数学符号梗，内容核心就是这个视觉联想。"
+    },
+    {
+      "title": "你们见过最雷的同人文是怎么样的？",
+      "url": "https://www.zhihu.com/answer/3546981847",
+      "summary": "正文将反比例函数、一次函数与坐标轴拟人化并编成荒诞爱情故事，是完整的函数主题数学梗。"
+    },
+    {
+      "title": "如何看待网络上针对姜萍的恶搞图片?",
+      "url": "https://www.zhihu.com/answer/3548648896",
+      "summary": "正文用 main、man 等谐音替换进行伪代数推导，是以数学证明格式构造的文字数学梗。"
+    },
+    {
+      "title": "上海中学2024自主招生面试题，如何用二元二次方程组表达「春草明年绿，王孙归不归」的意境？",
+      "url": "https://www.zhihu.com/answer/3549209746",
+      "summary": "正文把诗句和友情关系强行对应到含平方项的二元情境，并以解中 0 和 1 的双关收束，是完整的数学化玩梗。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/3549447543",
+      "summary": "正文用“jumping定理”和中文字面对仗构造伪证明，属于以不等式推导形式包装的数学梗。"
+    },
+    {
+      "title": "姜萍和雷绍武，谁的数学能力更胜一筹？",
+      "url": "https://www.zhihu.com/answer/3549883920",
+      "summary": "正文借费马大定理和虚构的 Jumping 法则构造荒诞证明，是以数学符号伪装的数学梗。"
+    },
+    {
+      "title": "1，3，3，5，5，5，7，7，7，7... 的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/3552514210",
+      "summary": "正文借拉格朗日插值可拟合任意有限数据的特点，开玩笑说可以把任意指定的数列为下一项，形成数列插值数学梗。"
+    },
+    {
+      "title": "谁能通俗的解释一下为什么有人怀疑姜萍?",
+      "url": "https://www.zhihu.com/answer/3571431703",
+      "summary": "正文用 1+2i=1+21=22 的伪运算把复数硬改成实数，构成以复数记号为包袱的数学梗。"
+    },
+    {
+      "title": "为什么都喜欢碰瓷葛立恒数而 TREE(3) 无人问津？",
+      "url": "https://www.zhihu.com/answer/3594748856",
+      "summary": "正文用葛立恒数从64逐层回退到高德纳箭头、而TREE(3)换成2后即消失的对比，调侃两种大数记号的入门难度，构成数学梗。"
+    },
+    {
+      "title": "王楚钦和樊振东谁的实力更强？",
+      "url": "https://www.zhihu.com/answer/3607952936",
+      "summary": "正文把数值不等式“32＞1”强行套到“32强”和“1强”的赛事名次上，形成数学梗。"
+    },
+    {
+      "title": "你见过最有趣的数学笑话是什么？",
+      "url": "https://www.zhihu.com/answer/3626719711",
+      "summary": "正文用无下限且不收敛的积分作双关，并借卷积恒等式玩“卷了也白卷”的公式梗。"
+    },
+    {
+      "title": "小红书里真的全是「有钱人」吗？",
+      "url": "https://www.zhihu.com/answer/3629999139",
+      "summary": "正文把两位“牛津数学系第一”称为“共轭第一”，构成具体的数学名词双关梗。"
+    },
+    {
+      "title": "如果伽罗瓦穿越到现今的北大数院，会被竞赛大神碾压吗？",
+      "url": "https://www.zhihu.com/answer/3712384543",
+      "summary": "正文借伽罗瓦穿越到数学系研究生身上的荒诞设想制造数学圈玩笑，属于数学梗。"
+    },
+    {
+      "title": "3，5，10，40（）找规律后面应该填什么?",
+      "url": "https://www.zhihu.com/answer/3723267367",
+      "summary": "正文先给出常规前四项，再用网络数字梗强行延续数列，构成关于找规律题的数学梗。"
+    },
+    {
+      "title": "小孩考了导数第一，你会怎么做？",
+      "url": "https://www.zhihu.com/answer/3955375570",
+      "summary": "正文把“导数第一”拆成多个关于导数、倒数与函数取值的双关解释，属于数学梗。"
+    },
+    {
+      "title": "姜萍有没有可能是真有实力？",
+      "url": "https://www.zhihu.com/answer/5005348342",
+      "summary": "正文以连续荒诞的“姜萍”能力清单串联随机过程、无穷级数、哥德尔等数学梗。"
+    },
+    {
+      "title": "高一开学，同学在讨论偏导函数、四阶导数，我该怎么办？",
+      "url": "https://www.zhihu.com/answer/6754341110",
+      "summary": "正文以教八阶导数去碾压同学的夸张口吻构成数学梗。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/8173429469",
+      "summary": "正文借拉马努金和 51、17 等数论事实制造反差吐槽，构成数学相关的网络梗。"
+    },
+    {
+      "title": "怎么看待数学界天才崇拜这种文化？",
+      "url": "https://www.zhihu.com/answer/8243609831",
+      "summary": "正文用“怀疑天赋便无需再怀疑”的反转短句调侃数学天赋话题，构成数学梗。"
+    },
+    {
+      "title": "为什么那么多知友喜欢比较葛立恒数？",
+      "url": "https://www.zhihu.com/answer/11320258015",
+      "summary": "正文用拟人化叙事把葛立恒数、TREE(3)、SCG 和忙碌海狸数编排成大数比较梗，没有展开大数构造。"
+    },
+    {
+      "title": "你见过最让你无语的cos是怎样的？",
+      "url": "https://www.zhihu.com/answer/11367633406",
+      "summary": "正文借 cos 与 cosplay 的双关给出数学式谐音梗，没有求解方程或讲解余弦函数。"
+    },
+    {
+      "title": "小朋友二年级数学作业问一个月有多少天，答21、28、29、30或31天，错了吗？",
+      "url": "https://www.zhihu.com/answer/17062793357",
+      "summary": "正文借 1+1 写成 2 或 10 的反问讽刺对数的表示方式缺乏理解，构成数学梗。"
+    },
+    {
+      "title": "用 i   i   i   i 四个数字如何算 24 点？",
+      "url": "https://www.zhihu.com/answer/18099314877",
+      "summary": "正文围绕四个虚数凑出 24 点，利用模、阶乘和积分的特殊构造制造数学梗。"
+    },
+    {
+      "title": "难道中国的大学教材真的不能编得好？",
+      "url": "https://www.zhihu.com/answer/18427411585",
+      "summary": "正文把平方差公式改称虚构的“劳兹布董恒等式”，用伪术语和繁复伪证明讽刺教材写法，构成数学教材梗。"
+    },
+    {
+      "title": "你们敢不敢把刚刚复制粘贴的东西发出来？",
+      "url": "https://www.zhihu.com/answer/18622112125",
+      "summary": "正文在“解析几何，学一下”后接大量重复、失控字符和“圆锥曲线好痛苦”的呼喊，以学习崩溃的拼贴文字构成数学梗。"
+    },
+    {
+      "title": "葛立恒数每秒减少自身一倍，减到0的时间依然是很大的一个数字吗？",
+      "url": "https://www.zhihu.com/answer/20578271293",
+      "summary": "正文以葛立恒数减半与1减到0作对比制造反直觉文字梗，属于数学梗，未展开葛立恒数或无穷过程的实质数学内容。"
+    },
+    {
+      "title": "对G(x)求导多少次可以得到常数?",
+      "url": "https://www.zhihu.com/answer/20584370704",
+      "summary": "正文用幂函数求导得到常数与要求继续求 e^x 高阶导数构成调侃，属于数学梗，未实质讲解求导规则。"
+    },
+    {
+      "title": "姜萍有概率是被诬陷的吗?",
+      "url": "https://www.zhihu.com/answer/23502007737",
+      "summary": "用“人被逼急了什么都做得出来”与“数学题不行”的转折构造数学学习相关的文字梗。"
+    },
+    {
+      "title": "sin²x+cos²x=1，两边开根号是不是 sinx+cosx=1?",
+      "url": "https://www.zhihu.com/answer/23515288641",
+      "summary": "通过只带入 90° 和 0° 两个特殊值的错误验证来调侃开根号化简，构成三角函数恒等式相关的数学梗。"
+    },
+    {
+      "title": "如何用一句话证明你不是数学系的？",
+      "url": "https://www.zhihu.com/answer/27622644189",
+      "summary": "正文以伪造的“推翻拓展黎曼猜想”宣言作为钓鱼梗，制造非数学系身份的反差。"
+    },
+    {
+      "title": "为什么用书写证明姜萍数学不行 ?",
+      "url": "https://www.zhihu.com/answer/27711212211",
+      "summary": "正文围绕 Δ 的几种读音和误读成三角形展开数学符号梗。"
+    },
+    {
+      "title": "如何看待我家人不承认3月14日是π节，还让我不要相信网上说的π节？",
+      "url": "https://www.zhihu.com/answer/36616115342",
+      "summary": "正文借 π 与 e 的日期谐音和“节日不平等”构造数学梗，核心是趣味性表达。"
+    },
+    {
+      "title": "114510，114511，114512，114513，（）找规律后面应该填什么?",
+      "url": "https://www.zhihu.com/answer/40218633537",
+      "summary": "正文借拉格朗日插值可为有限数据构造多项式这一点，把找规律题一律填固定数写成戏谑答案，核心是数学梗。"
+    },
+    {
+      "title": "可以讲一个理科笑话或来点理科梗图吗？",
+      "url": "https://www.zhihu.com/answer/40505640721",
+      "summary": "正文把高等代数、抽象代数、微积分等数学课程和概念谐音成树、河、城等意象，构成数学梗。"
+    },
+    {
+      "title": "如何证明2π+e>9?",
+      "url": "https://www.zhihu.com/answer/45544639195",
+      "summary": "正文在数值不等式证明中塞入含网络梗数 m=114514 的超长级数公式并直接写“证毕”，属于数学梗式恶搞。"
+    },
+    {
+      "title": "如何评价B站热门视频《鏖战百万蟑螂大军（非虚数）》？",
+      "url": "https://www.zhihu.com/answer/50450678080",
+      "summary": "正文借视频标题里的“非虚数”与“实数”的反差制造数学术语梗。"
+    },
+    {
+      "title": "丘成桐被誉为数学皇帝，高斯被誉为数学王子，这两谁更牛？",
+      "url": "https://www.zhihu.com/answer/53667210458",
+      "summary": "正文模仿递推证明和无穷计数的格式，把数学家称号之争写成“Yau Yau 领先”的数学梗。"
+    },
+    {
+      "title": "21 世纪已过去四分之一，你认为本世纪最重要的科学突破有哪些？",
+      "url": "https://www.zhihu.com/answer/65784025087",
+      "summary": "正文把网络流行语和伪等式包装成“不等式”“恒等式”等公式梗，属于数学相关的网络玩梗内容。"
+    },
+    {
+      "title": "质疑姜萍的人都很懂数学吗？",
+      "url": "https://www.zhihu.com/answer/68465588917",
+      "summary": "正文用未给出的式子和字母的多种含义组织成课堂问答，核心是数学符号歧义梗。"
+    },
+    {
+      "title": "为什么仅有的五个例外李群竟会隐藏在一句儿歌里？",
+      "url": "https://www.zhihu.com/answer/73839928636",
+      "summary": "正文用伪公理、读音平仄和模 7 谐音玩笑演绎例外李群的阶数，属于数学梗。"
+    },
+    {
+      "title": "如何用一句话证明你不是数学系的？",
+      "url": "https://www.zhihu.com/answer/74985283672",
+      "summary": "正文以忽略零不能作除数而推出 1=2 的经典错误链条构成数学梗。"
+    },
+    {
+      "title": "我这个数有没有超过葛立恒数？",
+      "url": "https://www.zhihu.com/answer/75250260931",
+      "summary": "正文用任何数都等于 114514 的荒诞说法回应大数比较，属于数学梗而没有展开葛立恒数。"
+    },
+    {
+      "title": "老师是如何一眼看出学生的作业是在抄答案？",
+      "url": "https://www.zhihu.com/answer/76159444694",
+      "summary": "正文用“主＝6”的文字版和“谢惠民的数学方面”的语音版呈现辨识抄答案场景的数学梗。"
+    },
+    {
+      "title": "我这个数有葛立恒数的大吗？",
+      "url": "https://www.zhihu.com/answer/83596097866",
+      "summary": "正文以葛立恒数、TREE(3) 及其他大数为主角创作办公室对话梗，内容形式对应数学梗。"
+    },
+    {
+      "title": "可以看到你粘贴板上的内容吗？",
+      "url": "https://www.zhihu.com/answer/84948596781",
+      "summary": "正文用“开导、积回去、设”的谐音和微积分术语串成一个数学梗。"
+    },
+    {
+      "title": "语文是在考服从性吗？",
+      "url": "https://www.zhihu.com/answer/107726310740",
+      "summary": "正文把 Mathematics 拆成 mathema 与 tics 并曲解为“学问与规矩”，构成一则围绕数学的文字梗。"
+    },
+    {
+      "title": "请问 coser 们觉得玩 cos 的意义在哪里？",
+      "url": "https://www.zhihu.com/answer/131226502801",
+      "summary": "正文借 sin、tan、cot 等名称和上下关系写成双关语，属于数学梗。"
+    },
+    {
+      "title": "有哪些让数学人和物理人都沉默的言论？比如「开水是 100 度，所以开水是钝角」，除此之外还有哪些？",
+      "url": "https://www.zhihu.com/answer/1891616447085663003",
+      "summary": "正文把圆面积公式中的半径 R 与理想气体常数 R 混为一谈，并由此编出常数结论，核心是数学符号双关梗。"
+    },
+    {
+      "title": "有哪些让数学人和物理人都沉默的言论？比如「开水是 100 度，所以开水是钝角」，除此之外还有哪些？",
+      "url": "https://www.zhihu.com/answer/1891779270377971839",
+      "summary": "正文利用面积与作用量共用符号 S、长度与拉格朗日量共用符号 L 的双关制造数学梗。"
+    },
+    {
+      "title": "有哪些让数学人和物理人都沉默的言论？比如「开水是 100 度，所以开水是钝角」，除此之外还有哪些？",
+      "url": "https://www.zhihu.com/answer/1891806098727625782",
+      "summary": "正文把半径和厚度故意记作 z、a，使圆柱体积近似写成 pizza 的拼写，构成数学符号梗。"
+    },
+    {
+      "title": "有哪些让数学人和生物人都沉默的言论？",
+      "url": "https://www.zhihu.com/answer/1895179734251439033",
+      "summary": "正文把 DNA 四种碱基与数学学科首字母强行对应，以谐音和配对规则制造数学梗。"
+    },
+    {
+      "title": "是不是中国学校不教逻辑学？有哪些佐证或驳证？如何看待这个现象或观点？",
+      "url": "https://www.zhihu.com/answer/1895476161255045025",
+      "summary": "正文以夸张对比和伪因果把欧氏几何、黎曼几何、坐标与张量分析串成数学梗。"
+    },
+    {
+      "title": "高一开学，同学在讨论偏导函数、四阶导数，我该怎么办？",
+      "url": "https://www.zhihu.com/answer/1896503747124916332",
+      "summary": "正文借 e^x 任意阶导数仍为自身的性质构造数学梗，回应同学讨论高阶导数时的处境。"
+    },
+    {
+      "title": "假如你穿进一个以数学为尊的世界，会发生什么？",
+      "url": "https://www.zhihu.com/answer/1899757155457953916",
+      "summary": "正文以保送、名校邀请和国家安排对象等夸张奖励虚构“数学为尊”的世界，属于数学题材的网络梗。"
+    },
+    {
+      "title": "有没有一件旧物是你一直保留着的？可以说说背后的原因吗？",
+      "url": "https://www.zhihu.com/answer/1902406842883248181",
+      "summary": "用 cos、sin 两个函数的正交性和相遇相离构成数学梗。"
+    },
+    {
+      "title": "某种程度上来讲，g与π²是不是非常地接近？",
+      "url": "https://www.zhihu.com/answer/1903533514214843352",
+      "summary": "正文用工程近似 g=π²=10、e=π=3 讲常被引用的数学估算梗。"
+    },
+    {
+      "title": "你们敢不敢把刚刚复制的东西粘贴发出来？",
+      "url": "https://www.zhihu.com/answer/1904317865139631001",
+      "summary": "正文把 sinx、arcsin、定义域、值域与单调性编成拟人化故事，构成一则数学梗。"
+    },
+    {
+      "title": "目前数学的符号体系有多混乱？",
+      "url": "https://www.zhihu.com/answer/1909966711765055383",
+      "summary": "正文把常用数学符号拟人化并排成接龙式网络段子，以符号惯例和公式语境制造数学梗。"
+    },
+    {
+      "title": "葛立恒数年的时间，鸡能吃完米吗？狗能舔完面吗？火能烧断锁吗？",
+      "url": "https://www.zhihu.com/answer/1911354643931469216",
+      "summary": "正文用“葛立恒第一定律”和数学叠罗汉的夸张比较制造大数梗，属于数学网络梗，但并未解释葛立恒数的构造。"
+    },
+    {
+      "title": "如何看待北大「韦东奕」突然开号，本人出镜，发 4 秒视频半小时涨粉 17 万？「韦东奕」到底有多强？",
+      "url": "https://www.zhihu.com/answer/1914381170411541840",
+      "summary": "正文用数学博主与韦东奕的反差和 yau 梗展开数学圈网络调侃，属于数学梗。"
+    },
+    {
+      "title": "如何看待北大「韦东奕」突然开号，本人出镜，发 4 秒视频半小时涨粉 17 万？「韦东奕」到底有多强？",
+      "url": "https://www.zhihu.com/answer/1915119850612846688",
+      "summary": "正文把“常熟阿诺”的流行梗直接移植到数学界，构成一则数学社区网络梗，但未讲解数学知识。"
+    },
+    {
+      "title": "有些地方避讳 4 这个数字，为啥不把 4 改成 8sin30° 或 8sin(π/6) 呢？",
+      "url": "https://www.zhihu.com/answer/1935397944271550437",
+      "summary": "正文利用只懂正弦的人与避讳数字四的人无法同时成立来构成一个数学梗。"
+    },
+    {
+      "title": "给你6000亿，前提是你必须在100分钟内写出100个f（100）＝100的函数表达式，你愿意吗？",
+      "url": "https://www.zhihu.com/answer/1942526826124644696",
+      "summary": "正文连续列出大量满足 f(100)=100 的函数式后索要奖励，是借助函数定义规则展开的数学梗。"
+    },
+    {
+      "title": "方程 x=x+2 这么解为什么有错？",
+      "url": "https://www.zhihu.com/answer/1945052267549008628",
+      "summary": "正文以错误解法推导出平行线在无穷远处相交和三角形内角和大于一百八十度，形成数学梗。"
+    },
+    {
+      "title": "如何使用\"丰\"、\"川\"、\"祥\"、\"子\"计算24点？",
+      "url": "https://www.zhihu.com/answer/1962662285014209306",
+      "summary": "正文为汉字24点定义拼接、解读、联想和执行等操作，并用一串梗式联想算出24。"
+    },
+    {
+      "title": "114510，114511，114512，114513，（）找规律后面应该填什么?",
+      "url": "https://www.zhihu.com/answer/1963273908452034007",
+      "summary": "正文用刻意构造的多项式把给定数列续成网络数字梗中的下一项，形成反套路的找规律数学梗。"
+    },
+    {
+      "title": "如果高中生能证明出黎曼猜想，会被清华北大数学系保送吗？",
+      "url": "https://www.zhihu.com/answer/1963375035457738192",
+      "summary": "正文把数学家、高校师生和普通人的数学能力套进修仙等级体系，形成完整的数学圈层级梗。"
+    },
+    {
+      "title": "114510，114511，114512，114513，（）找规律后面应该填什么?",
+      "url": "https://www.zhihu.com/answer/1963745520573986312",
+      "summary": "正文把拉格朗日插值、遗忘证明过程和数字梗答案 114514 组合成一则数学梗，没有展开插值方法。"
+    },
+    {
+      "title": "请问有哪些数学定理，一看名字就知道很滑稽好玩？",
+      "url": "https://www.zhihu.com/answer/1964076267201618635",
+      "summary": "正文用避孕套定理和手套问题给出一则数学梗，只提出问题设定而未展开计数公式或证明。"
+    },
+    {
+      "title": "假设古往今来的数学家们都在知乎上，会产生什么问题和回答？",
+      "url": "https://www.zhihu.com/answer/1976390053417735470",
+      "summary": "正文借费马页边空白、牛顿封号等数学家历史梗展开趣味问答。"
+    },
+    {
+      "title": "有哪些“真懂和真不懂的都是A,半懂不懂的才是B”的例子？",
+      "url": "https://www.zhihu.com/answer/1985407315109757097",
+      "summary": "正文用导数记号的理解差异构成数学梗，而不是展开讲解求导方法。"
+    },
+    {
+      "title": "问一个数学问题，6个鸡蛋，打碎了两个，煮了两个，吃了两个，还剩几个？",
+      "url": "https://www.zhihu.com/answer/1989377158943109787",
+      "summary": "正文把鸡蛋题目中七处双重语义转化为二选一的解释组合，并用 2 的 7 次方估算答错比例，构成数学文字游戏梗。"
+    },
+    {
+      "title": "数学家佩雷尔曼水平在数学史上怎样？",
+      "url": "https://www.zhihu.com/answer/1991168767871453174",
+      "summary": "正文用同一评价模板戏仿佩雷尔曼、张益唐和怀尔斯的著名证明，构成数学梗而非证明讲解。"
+    },
+    {
+      "title": "葛立恒数有我头发多吗？",
+      "url": "https://www.zhihu.com/answer/1991260740271747471",
+      "summary": "正文借“葛立恒数/数头发”的谐音和反差构成数学梗，但没有介绍大数。"
+    },
+    {
+      "title": "如何用一句话证明你是数学系的？",
+      "url": "https://www.zhihu.com/answer/1992008015717617756",
+      "summary": "正文用三角形内角和的预期答案与高斯曲率积分形成数学系内部梗，属于数学梗而非概念讲解。"
+    },
+    {
+      "title": "数学上有没有“除了一个特例，其他所有情况都成立”的定理？",
+      "url": "https://www.zhihu.com/answer/1996157997987160417",
+      "summary": "正文用“除一个特例外其余均不满足”的句式包装同义反复，构成围绕特例命题的数学梗。"
+    },
+    {
+      "title": "韦神在当世数学家里排第几？",
+      "url": "https://www.zhihu.com/answer/2003591642586828921",
+      "summary": "正文用党委书记、姜女士和韦神的荒诞排序讽刺数学家公众评价，属于数学圈网络梗。"
+    },
+    {
+      "title": "有哪些只有数学专业领域的人才懂的笑话？",
+      "url": "https://www.zhihu.com/answer/2012127749909803943",
+      "summary": "正文把课程名称中的数学“群”和聊天群双关，构成数学梗。"
+    },
+    {
+      "title": "请问有哪些数学定理，一看名字就知道很滑稽好玩？",
+      "url": "https://www.zhihu.com/answer/2018782250943133650",
+      "summary": "正文通过故意调换费马大定理的名称并自造短证明制造数学梗。"
+    },
+    {
+      "title": "拉马努金是怎么发现那些壮观的公式的？",
+      "url": "https://www.zhihu.com/answer/2048133347084333309",
+      "summary": "正文以拉马努金是GPT Pro的夸张设定组织其公式、分拆函数和无证明风格，属于数学人物题材的网络梗。"
+    },
+    {
+      "title": "厉害的民科有多厉害？",
+      "url": "https://www.zhihu.com/answer/2050939627691947180",
+      "summary": "正文用数学家轶事和戏仿证明写法的《西江月》制造数学梗，核心是数学圈幽默表达。"
+    },
+    {
+      "title": "知友发现 2026 菲尔兹奖名单泄露，王虹、邓煜疑似双双获奖，如何看待这一信息？",
+      "url": "https://www.zhihu.com/answer/2061910438670083492",
+      "summary": "正文以菲尔兹奖、中国数学界和竞赛为素材编排讽刺歌词，属于数学圈内部梗。"
+    },
+    {
+      "title": "存在先有简称后有全称的词吗？",
+      "url": "https://www.zhihu.com/answer/2067633396994553642",
+      "summary": "正文逐年列举美国数学奥林匹克集训队赛事 ELMO 不断更换全称的缩写游戏，构成围绕数学竞赛文化的数学梗。"
+    },
+    {
+      "title": "为什么王虹冲刺菲尔兹奖一事，网上却充斥大量带有恶意的评价？",
+      "url": "https://www.zhihu.com/answer/2070878495241146664",
+      "summary": "正文以菲尔兹奖采访和挂谷猜想为题进行戏仿角色扮演，构成一则数学社区梗。"
+    },
+    {
+      "title": "可不可以莫名其妙地教我一个知识?",
+      "url": "https://www.zhihu.com/answer/2074887572476765773",
+      "summary": "正文围绕“显然”“注意到”等证明套话写成数学梗，并用《西江月·证明》和转译示例制造幽默效果。"
+    },
+    {
+      "title": "野兽先辈圆周率说",
+      "url": "https://zhuanlan.zhihu.com/p/34063708",
+      "summary": "正文用圆周率数字位置和伪等式构成整篇数学梗，核心是玩梗而非系统讲解圆周率。"
+    },
+    {
+      "title": "一些数学家的趣事（黑历史）",
+      "url": "https://zhuanlan.zhihu.com/p/64543331",
+      "summary": "正文以数学家的双关语和轶事为主要内容，并用 Langlands car 的两重含义说明数学圈的笑点。"
+    },
+    {
+      "title": "民科：数学的大厦已轰然倒塌！",
+      "url": "https://zhuanlan.zhihu.com/p/117640995",
+      "summary": "正文以故意错误的代数步骤推出3=0并加以调侃，是围绕民科证明流传的数学梗。"
+    },
+    {
+      "title": "数学系和物理系的同学们",
+      "url": "https://zhuanlan.zhihu.com/p/168716848",
+      "summary": "正文用连续的反差段子调侃数学证明与物理近似，属于数学梗内容。"
+    },
+    {
+      "title": "陈平不等式(Chen's Inequality)的简单证明及其在一般条件下的推广",
+      "url": "https://zhuanlan.zhihu.com/p/422812261",
+      "summary": "正文以挣花比、汇率和伪公理构造所谓陈平不等式的证明，属于对数学式论证进行戏仿的数学梗。"
+    },
+    {
+      "title": "微积分规则怪谈",
+      "url": "https://zhuanlan.zhihu.com/p/455649692",
+      "summary": "正文以“规则怪谈”形式把积分、极限和三角函数术语改写成连续编号的幽默桥段，核心是微积分数学梗。"
+    },
+    {
+      "title": "赢函数的离散思考——赢差分与有限赢",
+      "url": "https://zhuanlan.zhihu.com/p/470512696",
+      "summary": "正文以虚构的赢函数、赢导数和有限赢理论进行数学式戏仿，属于围绕数学概念展开的梗文。"
+    },
+    {
+      "title": "赢系统与陈平稳赢性（Winning System & Champion Stability）",
+      "url": "https://zhuanlan.zhihu.com/p/476479094",
+      "summary": "正文以“赢学”“稳赢”和“赢麻”等网络话语包装动力系统分析，属于数学梗。"
+    },
+    {
+      "title": "代数赢学2 (Algebraic Winnology II)",
+      "url": "https://zhuanlan.zhihu.com/p/506723218",
+      "summary": "正文以“预赢层”“赢同调”和 Champion 不等式等双关命名系统戏仿层与同调理论，构成数学梗式科普。"
+    },
+    {
+      "title": "《高等数学表情包全解全析》",
+      "url": "https://zhuanlan.zhihu.com/p/539848700",
+      "summary": "正文以高等数学题目对应网络流行语的模式集中解释了多则高数表情包。"
+    },
+    {
+      "title": "【原创段子】数学家眼中的工程师笑话&工程师眼中的数学家笑话",
+      "url": "https://zhuanlan.zhihu.com/p/553704926",
+      "summary": "正文用周期函数分解、处处不连续函数等数学结论构造跨学科认知差异梗。"
+    },
+    {
+      "title": "Jumping's恒等式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/705414839",
+      "summary": "正文以伪造的求和恒等式和荒诞证明玩“姜萍/主=6”数学梗，属于数学梗内容。"
+    }
+  ]
+}

@@ -1,0 +1,1466 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l5-t5-b5",
+  "sources": [
+    {
+      "title": "如何广义地理解「所有自然数之和」？",
+      "url": "https://www.zhihu.com/answer/21590050",
+      "summary": "正文以 ζ 函数的解析延拓解释自然数求和，并明确给出 ζ(-1)=-1/12，支持 ζ 函数的解析延拓主题。"
+    },
+    {
+      "title": "如何广义地理解「所有自然数之和」？",
+      "url": "https://www.zhihu.com/answer/21642158",
+      "summary": "正文围绕「如何广义地理解「所有自然数之和」？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/32095709",
+      "summary": "将巴塞尔问题表述为黎曼 ζ 函数在 2 处的求值。"
+    },
+    {
+      "title": "有多少以欧拉（Euler）命名的定理或者公式？",
+      "url": "https://www.zhihu.com/answer/45936611",
+      "summary": "正文说明欧拉乘积把黎曼Zeta函数与数论联系起来。"
+    },
+    {
+      "title": "Beta 函数和 Gamma 函数有什么用？",
+      "url": "https://www.zhihu.com/answer/51863214",
+      "summary": "正文说明 Gamma 函数给出黎曼 ζ 函数的积分表示。"
+    },
+    {
+      "title": "数论中的 Tate thesis 大致的作用是什么？",
+      "url": "https://www.zhihu.com/answer/59536853",
+      "summary": "正文以 Tate thesis 讨论黎曼 ζ 函数、函数方程与其统一证明。"
+    },
+    {
+      "title": "有哪些美丽或神奇的理科公式？",
+      "url": "https://www.zhihu.com/answer/59963967",
+      "summary": "正文给出黎曼 ζ 函数的级数和 Euler 乘积表示。"
+    },
+    {
+      "title": "数学中有哪些看起来很不可思议的知识？",
+      "url": "https://www.zhihu.com/answer/67929000",
+      "summary": "正文定义并讨论黎曼 ζ 函数的特殊值。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/75562143",
+      "summary": "正文用黎曼 ζ 函数的延拓正则化无穷连乘积。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/84995427",
+      "summary": "正文介绍黎曼 ζ 函数的普适性定理。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/94285941",
+      "summary": "正文由偶次幂级数推广给出黎曼 zeta 函数的级数定义。"
+    },
+    {
+      "title": "蒋春暄对「费马大定理」的证明是否正确？",
+      "url": "https://www.zhihu.com/answer/97963042",
+      "summary": "正文指出黎曼 ζ 函数定义与收敛域错误。"
+    },
+    {
+      "title": "黎曼猜想和哥德巴赫猜想有什么联系？",
+      "url": "https://www.zhihu.com/answer/113863896",
+      "summary": "正文从解析延拓、函数方程和零点详细讲解黎曼 ζ 函数。"
+    },
+    {
+      "title": "\\int_0^\\infty (x^4*e^x)/((e^x-1)^2)dx 这个积分如何计算？",
+      "url": "https://www.zhihu.com/answer/120078675",
+      "summary": "正文利用 Hurwitz zeta 与黎曼 zeta 的关系计算积分。"
+    },
+    {
+      "title": "解析数论前景怎么样？",
+      "url": "https://www.zhihu.com/answer/135036703",
+      "summary": "正文说明解析数论以黎曼 ζ 函数等素数问题著称，且讨论自守 L 函数方向。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/177805667",
+      "summary": "正文用二重积分完整证明黎曼ζ函数在2处取值为圆周率平方除以六。"
+    },
+    {
+      "title": "「所有正整数之和是负十二分之一」在数学上是没有矛盾的吗？",
+      "url": "https://www.zhihu.com/answer/249714274",
+      "summary": "正文说明 -1/12 来自 ζ 函数解析延拓而非通常求和。"
+    },
+    {
+      "title": "你所在的科研领域有哪些做不动的问题？",
+      "url": "https://www.zhihu.com/answer/251019033",
+      "summary": "正文定义黎曼 ζ 函数零点并说明其与素数分布研究的关系。"
+    },
+    {
+      "title": "对于任取的1<=i,j<=n，gcd(i,j)的数学期望是多少？",
+      "url": "https://www.zhihu.com/answer/257798727",
+      "summary": "正文通过 ζ(2) 的倒数得到互素概率。"
+    },
+    {
+      "title": "有哪些篇幅很短却意义重大的论文？",
+      "url": "https://www.zhihu.com/answer/271042354",
+      "summary": "正文说明黎曼 ζ 函数是该论文与猜想的核心对象。"
+    },
+    {
+      "title": "请问代数数论领域的前景怎样？",
+      "url": "https://www.zhihu.com/answer/317451928",
+      "summary": "正文说明黎曼 zeta 函数向 L 函数推广及其几何联系。"
+    },
+    {
+      "title": "伽马函数的这些极值，有什么特殊的地方？",
+      "url": "https://www.zhihu.com/answer/324374803",
+      "summary": "正文围绕伽马函数与 ζ 函数的关系和零点展开。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/379042338",
+      "summary": "正文讲解数域zeta函数在一点的留数公式。"
+    },
+    {
+      "title": "所有质数的总和正好等于所有数字的总和吗？",
+      "url": "https://www.zhihu.com/answer/440926195",
+      "summary": "正文用zeta函数解析延拓说明正规化正整数和。"
+    },
+    {
+      "title": "全体自然数的发散级数和等于负十二分之一代表了什么？隐藏了一个天大的秘密吗？",
+      "url": "https://www.zhihu.com/answer/471582735",
+      "summary": "正文用黎曼ζ函数解析延拓解释负十二分之一。"
+    },
+    {
+      "title": "全体自然数的发散级数和等于负十二分之一代表了什么？隐藏了一个天大的秘密吗？",
+      "url": "https://www.zhihu.com/answer/472665710",
+      "summary": "正文解释黎曼ζ函数在解析延拓后的取值。"
+    },
+    {
+      "title": "数学中有哪些表面没有关系但是内在有深刻联系的问题？",
+      "url": "https://www.zhihu.com/answer/485527425",
+      "summary": "正文从黎曼 ζ 函数及其零点引出一般 L 函数。"
+    },
+    {
+      "title": "如何看待黎曼猜想疑似被Michael Atiyah证明？",
+      "url": "https://www.zhihu.com/answer/495513637",
+      "summary": "正文介绍黎曼ζ函数及其非平凡零点。"
+    },
+    {
+      "title": "如何看待Michael Atiyah爵士疑似证明黎曼猜想，并将在9月24日宣讲？",
+      "url": "https://www.zhihu.com/answer/495590518",
+      "summary": "正文介绍ζ函数、解析延拓及其零点。"
+    },
+    {
+      "title": "如何看待菲尔兹和阿贝尔奖双料得主 Michael Atiyah 宣称自己证明了黎曼猜想？",
+      "url": "https://www.zhihu.com/answer/495633570",
+      "summary": "正文介绍ζ函数与非平凡零点。"
+    },
+    {
+      "title": "如何看待菲尔兹和阿贝尔奖双料得主 Michael Atiyah 宣称自己证明了黎曼猜想？",
+      "url": "https://www.zhihu.com/answer/495669169",
+      "summary": "正文介绍黎曼ζ函数、收敛与解析延拓。"
+    },
+    {
+      "title": "如果黎曼猜想被证明出来了，会对世界产生怎么样的影响？",
+      "url": "https://www.zhihu.com/answer/497125021",
+      "summary": "正文介绍ζ函数及其非平凡零点。"
+    },
+    {
+      "title": "如何看待菲尔兹和阿贝尔奖双料得主 Michael Atiyah 宣称自己证明了黎曼猜想？",
+      "url": "https://www.zhihu.com/answer/497389283",
+      "summary": "正文讨论该证明与ζ函数性质之间的缺失联系。"
+    },
+    {
+      "title": "如何看待 9 月 24 日 Michael Atiyah 在海德堡获奖者论坛上对黎曼猜想的现场宣讲？",
+      "url": "https://www.zhihu.com/answer/497695658",
+      "summary": "正文围绕ζ函数与Todd函数复述证明方案。"
+    },
+    {
+      "title": "如何看待菲尔兹和阿贝尔奖双料得主 Michael Atiyah 宣称自己证明了黎曼猜想？",
+      "url": "https://www.zhihu.com/answer/498152954",
+      "summary": "正文强调证明应使用ζ函数与素数结构。"
+    },
+    {
+      "title": "如何看待菲尔兹和阿贝尔奖双料得主 Michael Atiyah 宣称自己证明了黎曼猜想？",
+      "url": "https://www.zhihu.com/answer/499100100",
+      "summary": "正文科普ζ函数、解析延拓和平凡零点。"
+    },
+    {
+      "title": "除了黎曼猜想，数学界还有哪些至今尚未得到证实的猜想？",
+      "url": "https://www.zhihu.com/answer/502773062",
+      "summary": "从 Dedekind ζ 函数、曲线 ζ 函数到有限域上代数簇的 ζ 函数，解释其数论与几何含义。"
+    },
+    {
+      "title": "解析延拓怎么理解？",
+      "url": "https://www.zhihu.com/answer/533712258",
+      "summary": "正文用 ζ 函数说明解析延拓与原级数定义域的区别。"
+    },
+    {
+      "title": "如何求证：无穷级数∑1/i²=π²/6，求方法？",
+      "url": "https://www.zhihu.com/answer/557721554",
+      "summary": "以黎曼 zeta 函数表达 Basel 问题并证明 ζ(2) 的取值。"
+    },
+    {
+      "title": "如何看待高中生声称证明哥德巴赫猜想？",
+      "url": "https://www.zhihu.com/answer/561374930",
+      "summary": "正文介绍 ζ 函数的解析延拓、零点和函数方程语境。"
+    },
+    {
+      "title": "如何看待南京航空航天大学副教授张明宝证明黎曼猜想？",
+      "url": "https://www.zhihu.com/answer/574215983",
+      "summary": "正文指出论文对 ζ 函数定义域与解析延拓的误解。"
+    },
+    {
+      "title": "黎曼猜想（Riemann hypothesis）是什么？有什么用？",
+      "url": "https://www.zhihu.com/answer/638869523",
+      "summary": "定义 zeta 函数、平凡零点和非平凡零点。"
+    },
+    {
+      "title": "最难的数学有多难？",
+      "url": "https://www.zhihu.com/answer/719641887",
+      "summary": "展开定义ζ函数、欧拉乘积与零点问题。"
+    },
+    {
+      "title": "全体自然数的发散级数和等于负十二分之一代表了什么？隐藏了一个天大的秘密吗？",
+      "url": "https://www.zhihu.com/answer/735964889",
+      "summary": "说明-1/12来自ζ函数解析延拓而非普通求和。"
+    },
+    {
+      "title": "所有质数的倒数的平方和的精确值是多少？",
+      "url": "https://www.zhihu.com/answer/770786941",
+      "summary": "以素数ζ函数求质数倒数平方和。"
+    },
+    {
+      "title": "如何反驳数学虚构主义？",
+      "url": "https://www.zhihu.com/answer/781709160",
+      "summary": "用黎曼ζ函数解析延拓作为哲学讨论实例。"
+    },
+    {
+      "title": "数论中的 Tate thesis 大致的作用是什么？",
+      "url": "https://www.zhihu.com/answer/783581645",
+      "summary": "证明完备 L 函数的延拓与函数方程。"
+    },
+    {
+      "title": "所有质数的倒数的平方和的精确值是多少？",
+      "url": "https://www.zhihu.com/answer/794913053",
+      "summary": "推导 prime zeta 与 Riemann zeta 的关系。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/797282327",
+      "summary": "正文给出黎曼 ζ 函数在 Re(s)=1 上无零点的证明梗概。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/883333794",
+      "summary": "围绕 zeta(2) 的 Basel 问题给出证明。"
+    },
+    {
+      "title": "有哪些分析的恒等式有很深刻的数学背景？",
+      "url": "https://www.zhihu.com/answer/890396655",
+      "summary": "说明该公式如何证明 Riemann zeta 的解析延拓和函数方程。"
+    },
+    {
+      "title": "如果打算证明黎曼猜想，请问从大一开始应该做什么数学基础准备？",
+      "url": "https://www.zhihu.com/answer/966276063",
+      "summary": "正文详细推导 ζ 函数、欧拉乘积及其与素数计数的联系。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/999235145",
+      "summary": "正文用Hurwitz zeta与Riemann zeta表达高阶调和和。"
+    },
+    {
+      "title": "如何对 0，0，0，0 进行运算得到 24？",
+      "url": "https://www.zhihu.com/answer/1119171900",
+      "summary": "正文给出黎曼 ζ 函数及取值示例。"
+    },
+    {
+      "title": "「所有正整数之和是负十二分之一」在数学上是没有矛盾的吗？",
+      "url": "https://www.zhihu.com/answer/1241108265",
+      "summary": "正文通过解析延拓和函数方程解释 Zeta 函数的值。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/1300515034",
+      "summary": "正文讨论黎曼 zeta 函数在偶数点的值。"
+    },
+    {
+      "title": "请问你见过的最强的公式是什么？",
+      "url": "https://www.zhihu.com/answer/1304026054",
+      "summary": "正文系统列举 zeta 函数与级数公式。"
+    },
+    {
+      "title": "请问你见过的最强的公式是什么？",
+      "url": "https://www.zhihu.com/answer/1306170291",
+      "summary": "正文列出 zeta 函数的欧拉乘积。"
+    },
+    {
+      "title": "从 0 加到 1 等于 +∞ 吗？",
+      "url": "https://www.zhihu.com/answer/1340903819",
+      "summary": "正文把调和级数识别为黎曼 ζ 函数在 s=1 时的情形。"
+    },
+    {
+      "title": "圆周率pi比较著名的无穷级数公式有哪些？",
+      "url": "https://www.zhihu.com/answer/1408386834",
+      "summary": "正文用黎曼 ζ 函数与 Dirichlet β 函数概括圆周率级数。"
+    },
+    {
+      "title": "黎曼zeta函数的解析延拓怎么推导？",
+      "url": "https://www.zhihu.com/answer/1472527996",
+      "summary": "正文系统推导黎曼 ζ 函数的解析延拓。"
+    },
+    {
+      "title": "你见过哪些让人眼前一亮的数学题？",
+      "url": "https://www.zhihu.com/answer/1491693346",
+      "summary": "正文直接给出与「黎曼 ζ 函数」相关的解释、推导或应用。"
+    },
+    {
+      "title": "如何广义地理解「所有自然数之和」？",
+      "url": "https://www.zhihu.com/answer/1555676931",
+      "summary": "正文从黎曼 ζ 函数解析延拓解释所有自然数之和的通常赋值。"
+    },
+    {
+      "title": "你见过最有趣的级数是哪一个？",
+      "url": "https://www.zhihu.com/answer/1576717098",
+      "summary": "正文围绕黎曼 ζ 函数在 2 处的特殊值展开证明。"
+    },
+    {
+      "title": "你见过哪些让你觉得「这都能行？！」的数学证明？",
+      "url": "https://www.zhihu.com/answer/1579079288",
+      "summary": "正文通过 Euler 乘积联系黎曼 ζ 函数与素数计数。"
+    },
+    {
+      "title": "什么是 Γ 函数？它是从什么地方导出来的？如何理解 Γ 函数？",
+      "url": "https://www.zhihu.com/answer/1648093725",
+      "summary": "正文把 Gamma 视作局部 Riemann Zeta 因子。"
+    },
+    {
+      "title": "阿贝尔变换强大在哪里？",
+      "url": "https://www.zhihu.com/answer/1651254751",
+      "summary": "正文把分部求和用于素数计数与 zeta 函数。"
+    },
+    {
+      "title": "黎曼 ζ 函数为什么要那么解析延拓？",
+      "url": "https://www.zhihu.com/answer/1672304114",
+      "summary": "正文讨论黎曼Zeta函数及其解析延拓。"
+    },
+    {
+      "title": "有什么很牛逼的无理数？",
+      "url": "https://www.zhihu.com/answer/1686540464",
+      "summary": "正文用黎曼 ζ 函数定义 Apéry 常数。"
+    },
+    {
+      "title": "有哪些漂亮的无穷乘积公式？",
+      "url": "https://www.zhihu.com/answer/1689427743",
+      "summary": "正文首项明确给出黎曼 ζ 函数与素数乘积之间的欧拉乘积公式。"
+    },
+    {
+      "title": "你见过什么复杂到让你目瞪口呆的公式？",
+      "url": "https://www.zhihu.com/answer/1696662356",
+      "summary": "正文给出黎曼 ζ 函数非平凡零点计数公式。"
+    },
+    {
+      "title": "为什么自然数的和等于 -1/12？",
+      "url": "https://www.zhihu.com/answer/1749521577",
+      "summary": "正文直接讨论或推导「黎曼 ζ 函数」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "欧拉到底有多厉害？",
+      "url": "https://www.zhihu.com/answer/1803245813",
+      "summary": "正文引入黎曼 ζ 函数，给出其定义、特殊值、伯努利数、函数方程和欧拉积，构成实质性展开。"
+    },
+    {
+      "title": "如何评价数学家黎曼的成就与历史地位？",
+      "url": "https://www.zhihu.com/answer/1815625048",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "如何评价数学家黎曼的成就与历史地位？",
+      "url": "https://www.zhihu.com/answer/1815912683",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/1819016091",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "能否求出全体正整数的「积」？",
+      "url": "https://www.zhihu.com/answer/1833217888",
+      "summary": "正文通过黎曼 zeta 函数的解析延拓定义全体正整数乘积。"
+    },
+    {
+      "title": "为什么自然数的和等于 -1/12？",
+      "url": "https://www.zhihu.com/answer/1835119655",
+      "summary": "正文通过黎曼 zeta 函数的解析延拓解释自然数和的 -1/12 赋值。"
+    },
+    {
+      "title": "为什么有那么多人认为全体自然数之和等于-1/12，且振振有词？",
+      "url": "https://www.zhihu.com/answer/1868445739",
+      "summary": "正文以 zeta 函数解析延拓解释 -1/12 结论。"
+    },
+    {
+      "title": "为什么有那么多人认为全体自然数之和等于-1/12，且振振有词？",
+      "url": "https://www.zhihu.com/answer/1868874682",
+      "summary": "正文说明 1+2+... 的 -1/12 来自黎曼 zeta 与阿贝尔平均等扩展求和法。"
+    },
+    {
+      "title": "如何理解「有限几何」？",
+      "url": "https://www.zhihu.com/answer/1878921335",
+      "summary": "正文解释有限域代数簇 zeta 函数、Weil 猜想及与黎曼 zeta 的类比。"
+    },
+    {
+      "title": "为什么这个级数会如此接近整数?",
+      "url": "https://www.zhihu.com/answer/1888929209",
+      "summary": "正文用 Riemann zeta 在负整数的值与 Bernoulli 数推出近似公式。"
+    },
+    {
+      "title": "为什么这个级数会如此接近整数?",
+      "url": "https://www.zhihu.com/answer/1889411059",
+      "summary": "正文把级数与 Eisenstein 级数、模形式及 zeta 的函数方程相联系。"
+    },
+    {
+      "title": "为什么黎曼猜想是当今数学界最重要、最期待解决的数学难题？",
+      "url": "https://www.zhihu.com/answer/1894897469",
+      "summary": "正文定义欧拉乘积和黎曼 zeta 函数，并解释其与素数分布的关联。"
+    },
+    {
+      "title": "0到1之间所有有理数之和 ，和1到2之间的有理数之和，哪个大？",
+      "url": "https://www.zhihu.com/answer/1905361949",
+      "summary": "正文用黎曼 zeta 函数的解析延拓处理形式发散级数。"
+    },
+    {
+      "title": "请问你见过的最强的公式是什么？",
+      "url": "https://www.zhihu.com/answer/1917743616",
+      "summary": "正文直接讨论并支撑「黎曼 ζ 函数」相关内容。"
+    },
+    {
+      "title": "哪里找一些有难度的定积分题？",
+      "url": "https://www.zhihu.com/answer/1946061214",
+      "summary": "正文包含黎曼 zeta 函数的 Euler 乘积和积分表示问题。"
+    },
+    {
+      "title": "怎么说明质数有无限个？",
+      "url": "https://www.zhihu.com/answer/2019322231",
+      "summary": "正文用黎曼 ζ 函数的欧拉乘积证明素数无穷。"
+    },
+    {
+      "title": "除了 π、e 等这些常数，还有哪些伟大的常数？他们的意义都是什么？为什么都是无理数呢？",
+      "url": "https://www.zhihu.com/answer/2117818262",
+      "summary": "正文大量使用Riemann zeta函数及其特殊值表达常数。"
+    },
+    {
+      "title": "能否以高等背景出一道高中数学题？",
+      "url": "https://www.zhihu.com/answer/2214244365",
+      "summary": "正文说明高中题目可通向 zeta 函数对数导估计与大筛法。"
+    },
+    {
+      "title": "你遇到过的最难的积分题目是什么？",
+      "url": "https://www.zhihu.com/answer/2214425662",
+      "summary": "正文把自然数幂次倒数和推广到黎曼 zeta 函数并讨论整数点。"
+    },
+    {
+      "title": "如何看待 arXiv2111.02792 对黎曼猜想的证明？",
+      "url": "https://www.zhihu.com/answer/2218364087",
+      "summary": "正文讨论黎曼 zeta 函数、广义 zeta 函数、解析延拓与函数方程。"
+    },
+    {
+      "title": "数学史上你认为最美的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2261841775",
+      "summary": "正文直接讨论 zeta 函数的非平凡零点及其对素数计数的贡献。"
+    },
+    {
+      "title": "全体质数的倒数和是发散的还是收敛的？如果收敛，收敛到多少？（多重问题预警）?",
+      "url": "https://www.zhihu.com/answer/2281895181",
+      "summary": "正文通过欧拉乘积和莫比乌斯反演联系黎曼 ζ 函数。"
+    },
+    {
+      "title": "为何数学里常有很奇葩甚至毁三观的公式结论？",
+      "url": "https://www.zhihu.com/answer/2303341749",
+      "summary": "正文解释全体自然数和为负十二分之一来自 zeta 函数解析延拓。"
+    },
+    {
+      "title": "怎么证明e的平方是无理数？",
+      "url": "https://www.zhihu.com/answer/2314501386",
+      "summary": "正文以 ζ(3) 的无理性证明作为级数展开方法的例子。"
+    },
+    {
+      "title": "数学中有哪些看起来很不可思议的知识？",
+      "url": "https://www.zhihu.com/answer/2319728439",
+      "summary": "正文以黎曼函数讨论无穷级数与解析延拓。"
+    },
+    {
+      "title": "下面关于欧拉常数的13个公式怎么证明?",
+      "url": "https://www.zhihu.com/answer/2455822596",
+      "summary": "正文专节定义黎曼 Zeta 函数，并由其极限表达式得到欧拉常数。"
+    },
+    {
+      "title": "你遇到过的最难的积分题目是什么？",
+      "url": "https://www.zhihu.com/answer/2465711275",
+      "summary": "正文的被积表达式直接使用黎曼 zeta 函数。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/2537323776",
+      "summary": "围绕黎曼 ζ 函数在 2 处的取值给出十余种证明。"
+    },
+    {
+      "title": "复变函数中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2611158145",
+      "summary": "讨论解析延拓唯一性以及 Riemann zeta 函数与现代数学的联系。"
+    },
+    {
+      "title": "什么是「黎曼猜想」？",
+      "url": "https://www.zhihu.com/answer/2700847706",
+      "summary": "正文从欧拉乘积讲到 zeta 函数、解析延拓、临界带和非平凡零点。"
+    },
+    {
+      "title": "哪个瞬间让你觉得数学充满魅力？",
+      "url": "https://www.zhihu.com/answer/2706261237",
+      "summary": "正文给出 Riemann Zeta 函数的级数定义，并说明其零点出现在素数计数函数的显式表达式中。"
+    },
+    {
+      "title": "黎曼猜想（Riemann hypothesis）是什么？有什么用？",
+      "url": "https://www.zhihu.com/answer/2718643871",
+      "summary": "正文围绕黎曼ζ函数及其非平凡零点展开，说明零点分布如何决定素数分布的细致规律。"
+    },
+    {
+      "title": "朗道西格尔猜想和黎曼猜想之间有什么关系？",
+      "url": "https://www.zhihu.com/answer/2721032280",
+      "summary": "正文把 zeta 函数视为平凡特征对应的 L 函数，并据此给出广义黎曼猜想。"
+    },
+    {
+      "title": "黎曼有多厉害？",
+      "url": "https://www.zhihu.com/answer/2746074074",
+      "summary": "正文说明黎曼研究素数计数时引入以复数为变量的无穷级数，并称其为黎曼zeta函数。"
+    },
+    {
+      "title": "怎样算出黎曼猜想的第1个非平凡零点？",
+      "url": "https://www.zhihu.com/answer/2835580698",
+      "summary": "正文系统推导 zeta 函数在临界区域的部分和近似，并用它研究非平凡零点。"
+    },
+    {
+      "title": "为什么全体自然数平方的倒数和等于π^2/6？",
+      "url": "https://www.zhihu.com/answer/3034042502",
+      "summary": "正文给出全体自然数平方倒数和等于π²/6的构造性证明，这正是黎曼ζ函数在2处的取值。"
+    },
+    {
+      "title": "Weil猜想和Riemann猜想有什么联系？关于这方面的最新进展是什么？",
+      "url": "https://www.zhihu.com/answer/3108737906",
+      "summary": "正文指出整数概形的算术 zeta 函数就是 Riemann zeta 函数，并据此说明借助 Weil 猜想证明 Riemann 猜想的设想。"
+    },
+    {
+      "title": "1+√2+√3+…+√n 的整数部分是什么?",
+      "url": "https://www.zhihu.com/answer/3171892599",
+      "summary": "正文给出平方根和向下取整公式，并用黎曼 zeta 函数在 -1/2 处的特殊值及精细展开控制取整误差。"
+    },
+    {
+      "title": "如何评价法国数学家André Weil？",
+      "url": "https://www.zhihu.com/answer/3185787572",
+      "summary": "正文讨论数域与有限域函数域中的 zeta 函数及相应黎曼猜想。"
+    },
+    {
+      "title": "请问这个可能困难的积分?",
+      "url": "https://www.zhihu.com/answer/3268860513",
+      "summary": "正文将积分结果表示为 ζ、β 和 η 函数的组合，并代入 n=1 得到含 ζ(4) 的具体值。"
+    },
+    {
+      "title": "数论与初等数论中有哪些重要，优雅，或是深刻的定理？",
+      "url": "https://www.zhihu.com/answer/3353570326",
+      "summary": "正文定义 Dedekind ζ 函数及其特征分解，并通过它与 Riemann ζ 函数的商关系计表示数。"
+    },
+    {
+      "title": "欧拉导出过哪些名气不大但精妙的定理？",
+      "url": "https://www.zhihu.com/answer/3438861986",
+      "summary": "正文给出黎曼 ζ 函数的级数定义及 ζ(2) 的巴塞尔问题取值，并讨论其证明历史。"
+    },
+    {
+      "title": "知乎上为什么有这么多学特殊函数论的大佬？",
+      "url": "https://www.zhihu.com/answer/3530831898",
+      "summary": "正文给出 ζ 函数与 Gamma 函数的积分表示，并据此解释巴塞尔级数及其交错版本的取值。"
+    },
+    {
+      "title": "如何证明π⁵>306?",
+      "url": "https://www.zhihu.com/answer/3546186214",
+      "summary": "正文使用黎曼 ζ 函数在 10 处的特殊值公式，将 ζ(10) 与 π 的幂联系起来并据此估计。"
+    },
+    {
+      "title": "黎曼论文里的这个积分是怎么求的？ 不用围道积分又怎么得到这个结果的？",
+      "url": "https://www.zhihu.com/answer/3592289911",
+      "summary": "正文从ζ函数的原始级数出发，利用伽马积分和围道积分推导其解析延拓及函数方程。"
+    },
+    {
+      "title": "如何证明级数：∑_1^∞(n/(e^(2πn)-1))=1/24-1/(8π）？",
+      "url": "https://www.zhihu.com/answer/3611975355",
+      "summary": "正文具体讨论黎曼Zeta解析延拓在交换求和时的误用，并用一个三角级数举例说明风险。"
+    },
+    {
+      "title": "如何证明级数：∑_1^∞(n/(e^(2πn)-1))=1/24-1/(8π）？",
+      "url": "https://www.zhihu.com/answer/3615712858",
+      "summary": "正文把Eisenstein级数化简到ζ(4r+2)，再借Riemann zeta在偶数处的取值得到Bernoulli数公式。"
+    },
+    {
+      "title": "这个级数咋用留数定理推导。?",
+      "url": "https://www.zhihu.com/answer/3616596257",
+      "summary": "正文利用 zeta 函数在负偶数处为零削减留数展开，并给出含 zeta 值的级数分解公式。"
+    },
+    {
+      "title": "所有质数的倒数之和是发散还是收敛的？",
+      "url": "https://www.zhihu.com/answer/5177617983",
+      "summary": "正文推导并解释黎曼 ζ 函数的欧拉素数无穷乘积形式及其与素数分布的联系。"
+    },
+    {
+      "title": "你是如何理解著名的无限多个自然数之和等于负十二分之一的？",
+      "url": "https://www.zhihu.com/answer/32692465737",
+      "summary": "正文给出 zeta 函数在半平面上的级数定义、解析延拓和 ζ(-1) 的取值。"
+    },
+    {
+      "title": "如何用全体正整数算 24 ？",
+      "url": "https://www.zhihu.com/answer/51587796682",
+      "summary": "正文利用黎曼 ζ 函数的解析延拓和 ζ(-1) 的值处理发散级数并代入算式求值。"
+    },
+    {
+      "title": "如何优雅的证明 π⁴ > 97？",
+      "url": "https://www.zhihu.com/answer/59437757097",
+      "summary": "正文由巴塞尔问题扩展到 ζ 函数，并利用 ζ(4) 的取值完成估计。"
+    },
+    {
+      "title": "在下22岁打算毕生献身于攻克黎曼猜想，可以给我一句忠告吗？",
+      "url": "https://www.zhihu.com/answer/72447277141",
+      "summary": "正文介绍黎曼 ζ 函数的积分表示、完备化及相关零点问题。"
+    },
+    {
+      "title": "如何看待论文“1, ζ(2), L(2, χ_{−3})线性无关”?",
+      "url": "https://www.zhihu.com/answer/76615929449",
+      "summary": "正文以 ζ(2)、ζ(3)、ζ(5) 的具体无理性问题说明黎曼 ζ 函数特殊值的数论性质。"
+    },
+    {
+      "title": "如何看待论文“1, ζ(2), L(2, χ_{−3})线性无关”?",
+      "url": "https://www.zhihu.com/answer/77031821785",
+      "summary": "正文定义 Riemann zeta 函数，并以巴塞尔问题及 ζ(2n) 公式说明其特殊值。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/98731272663",
+      "summary": "正文给出黎曼ζ函数的级数定义，用于介绍黎曼猜想。"
+    },
+    {
+      "title": "黎曼猜想（Riemann hypothesis）是什么？有什么用？",
+      "url": "https://www.zhihu.com/answer/1888695022947365849",
+      "summary": "正文介绍黎曼 ζ 函数的级数表达式及它在复平面上的解析延拓，并围绕其零点解释黎曼猜想。"
+    },
+    {
+      "title": "如果黎曼猜想被证明出来了，会对世界产生怎么样的影响？",
+      "url": "https://www.zhihu.com/answer/1888706537637246370",
+      "summary": "正文介绍黎曼 ζ 函数的级数表达式及它在复平面上的解析延拓，并围绕其零点解释黎曼猜想。"
+    },
+    {
+      "title": "黎曼猜想为什么难以解决？",
+      "url": "https://www.zhihu.com/answer/1898039448656114848",
+      "summary": "正文从级数表达式和解析延拓说明黎曼 ζ 函数及其非平凡零点。"
+    },
+    {
+      "title": "如何评价Weil的数学工作以及具有他风格的代数几何？",
+      "url": "https://www.zhihu.com/answer/1899263557658453585",
+      "summary": "正文解释数域与函数域共享 zeta 函数及黎曼猜想的类比，并联系 Weil 猜想的后续解决。"
+    },
+    {
+      "title": "数学里有哪些精彩的伪证？",
+      "url": "https://www.zhihu.com/answer/1914578370081030584",
+      "summary": "正文区分全体自然数的普通级数与黎曼 zeta 函数解析延拓后的值，说明有限值不能解释为通常意义下的自然数总和。"
+    },
+    {
+      "title": "如何优雅地证明π²²<86556004192？",
+      "url": "https://www.zhihu.com/answer/1917620140528337168",
+      "summary": "正文从黎曼 ζ 函数的偶数值公式出发，代入 n=11 并利用伯努利数表示 π²²。"
+    },
+    {
+      "title": "黎曼猜想为什么难以解决？",
+      "url": "https://www.zhihu.com/answer/1930405760799576266",
+      "summary": "正文给出黎曼 ζ 函数的级数与欧拉乘积定义，并讨论解析延拓、函数方程和零点分布。"
+    },
+    {
+      "title": "为什么伽马函数Γ（x）表示(x-1)!而非x的阶乘，数学家这样定义有何好处？",
+      "url": "https://www.zhihu.com/answer/1930886320739295469",
+      "summary": "正文说明伽马函数在黎曼 ζ 函数与 Dirichlet L 函数函数方程中的作用。"
+    },
+    {
+      "title": "如果证明黎曼猜想能让我在数学界达到什么地位？",
+      "url": "https://www.zhihu.com/answer/1931993380746925526",
+      "summary": "正文具体讨论黎曼函数在临界带内的无零点区域及其向临界线推进与黎曼猜想的距离。"
+    },
+    {
+      "title": "数论问题困难性的根源是什么？",
+      "url": "https://www.zhihu.com/answer/1933128964911654627",
+      "summary": "正文展开黎曼 Zeta 函数的欧拉乘积，并说明其零点与素数分布及黎曼猜想的联系。"
+    },
+    {
+      "title": "黎曼猜想目前有哪些弱一些的结果？",
+      "url": "https://www.zhihu.com/answer/1933577388152844505",
+      "summary": "正文讨论黎曼 ζ 函数在临界线上的增长界、矩估计及其与黎曼猜想的联系。"
+    },
+    {
+      "title": "黎曼猜想目前有哪些弱一些的结果？",
+      "url": "https://www.zhihu.com/answer/1934295529556259468",
+      "summary": "正文围绕黎曼 ζ 函数临界线上的矩展开 Mollifier 方法和零点比例估计。"
+    },
+    {
+      "title": "黎曼猜想为什么难以解决？",
+      "url": "https://www.zhihu.com/answer/1952892319490639676",
+      "summary": "正文从欧拉乘积与 Dirichlet 级数定义 ζ 函数，展开解析延拓、函数方程和零点研究。"
+    },
+    {
+      "title": "数论的theta函数是怎么构造出来的？",
+      "url": "https://www.zhihu.com/answer/1955110796972499614",
+      "summary": "正文明确给出 Riemann ζ 函数满足的函数方程，说明 theta 恒等式与 ζ 函数之间的联系。"
+    },
+    {
+      "title": "数学上最绝妙的证明是什么?",
+      "url": "https://www.zhihu.com/answer/1957037733760436042",
+      "summary": "正文定义黎曼ζ函数，推导欧拉素数乘积公式，并以s=2和巴塞尔问题说明其数论意义。"
+    },
+    {
+      "title": "数学中有哪些有趣的构造性证明？",
+      "url": "https://www.zhihu.com/answer/1957090013230658850",
+      "summary": "正文通过ε级数恒等式的变换与求导推导黎曼ζ函数在2处的值，从而解决巴塞尔问题。"
+    },
+    {
+      "title": "超越数论近来的发展如何？",
+      "url": "https://www.zhihu.com/answer/1958335126061709263",
+      "summary": "正文给出黎曼zeta函数的欧拉乘积、函数方程、特殊值、解析延拓及黎曼假设相关内容。"
+    },
+    {
+      "title": "怎么用围道积分计算图中的积分？",
+      "url": "https://www.zhihu.com/answer/1965120150677226692",
+      "summary": "正文以巴塞尔问题为目标计算积分，并明确得到黎曼 ζ 函数在 2 处的值。"
+    },
+    {
+      "title": "素数分布欧拉用一维去思考，黎曼用二维去思考，有没有数学家在三维，甚至更高维度去思考素数分布的规律？",
+      "url": "https://www.zhihu.com/answer/1967587213496817583",
+      "summary": "正文说明黎曼 Zeta 函数背后的乘法群及零点分布与素数理解的关联。"
+    },
+    {
+      "title": "如何看待张益唐教授在2025年11月在公开场合确认朗道西格尔猜想被攻破？",
+      "url": "https://www.zhihu.com/answer/1969081001314612842",
+      "summary": "正文用素数构成音符的比喻说明黎曼 Zeta 函数及其零点与素数分布的关联。"
+    },
+    {
+      "title": "正弦函数倍角公式、勒让德倍乘公式、伯努利倍元公式，为何它们长得如此相像，这是否意味着有某种底层联系？",
+      "url": "https://www.zhihu.com/answer/1978124712610637012",
+      "summary": "正文讨论 Hurwitz ζ 的极点结构、ζ 正则化以及由其构造伽马函数和其他特殊函数的方法。"
+    },
+    {
+      "title": "怎样算出黎曼猜想的第1个非平凡零点？",
+      "url": "https://www.zhihu.com/answer/1983504849564894638",
+      "summary": "正文完整翻译并推导黎曼-西格尔公式、Zeta 函数积分表示及其零点估计。"
+    },
+    {
+      "title": "正弦函数倍角公式、勒让德倍乘公式、伯努利倍元公式，为何它们长得如此相像，这是否意味着有某种底层联系？",
+      "url": "https://www.zhihu.com/answer/1985151377182318853",
+      "summary": "正文用赫尔维茨ζ函数的特征基及其倍元关系统一解释Bernoulli、Legendre和正弦倍角公式。"
+    },
+    {
+      "title": "在下22岁打算毕生献身于攻克黎曼猜想，可以给我一句忠告吗？",
+      "url": "https://www.zhihu.com/answer/1991131793009685020",
+      "summary": "正文具体提到用厄米算子的谱对应 Zeta 函数零点，是希尔伯特-波利亚思路。"
+    },
+    {
+      "title": "黎曼猜想为什么难以解决？",
+      "url": "https://www.zhihu.com/answer/1991726147512316011",
+      "summary": "正文写出 Zeta 函数的级数定义与欧拉乘积，并讨论解析延拓及非平凡零点与素数分布的关系。"
+    },
+    {
+      "title": "感觉复变函数没有动力深入研究下去了怎么办？",
+      "url": "https://www.zhihu.com/answer/1996639663507645502",
+      "summary": "正文从欧拉乘积讲起，具体说明黎曼 ζ 函数的解析延拓、函数方程、零点及显式公式。"
+    },
+    {
+      "title": "通过计算得到「所有自然数之和为-1/12」，如何理解？",
+      "url": "https://www.zhihu.com/answer/2006520745837228170",
+      "summary": "正文用黎曼 ζ 函数的定义与解析延拓定义 ζ(-1)，并解释 -1/12 的来源。"
+    },
+    {
+      "title": "网友称引导豆包完整证明了黎曼猜想，这个证明思路可信度如何？",
+      "url": "https://www.zhihu.com/answer/2006614587148096572",
+      "summary": "正文引用 ζ 函数函数方程，并讨论其零点、留数与谱函数之间的错误推导。"
+    },
+    {
+      "title": "网友称引导豆包完整证明了黎曼猜想，这个证明思路可信度如何？",
+      "url": "https://www.zhihu.com/answer/2007623254848845820",
+      "summary": "正文用黎曼 Zeta 函数的非平凡零点及首个零点的数值关系检验所谓证明中的映射。"
+    },
+    {
+      "title": "如何看待论文“1, ζ(2), L(2, χ_{−3})线性无关”?",
+      "url": "https://www.zhihu.com/answer/2034720550946346847",
+      "summary": "正文具体说明 ζ(2) 的积分表示、无理性以及 ζ(3)、ζ(5) 的已知或未知无理性状态。"
+    },
+    {
+      "title": "黎曼猜想为什么难以解决？",
+      "url": "https://www.zhihu.com/answer/2048505950164759190",
+      "summary": "正文用黎曼 zeta 函数的非平凡零点位置刻画黎曼猜想，并联系素数误差项。"
+    },
+    {
+      "title": "黎曼猜想为什么难以解决？",
+      "url": "https://www.zhihu.com/answer/2048802364035950416",
+      "summary": "正文系统介绍 zeta 级数、Euler 乘积、解析延拓、零点计数及函数方程。"
+    },
+    {
+      "title": "（sinln1+sinln2+...+sinlnn）/n极限存在吗?",
+      "url": "https://www.zhihu.com/answer/2048873579857630866",
+      "summary": "正文把幂和联系到黎曼 zeta 函数，并通过解析延拓后的极点与留数得到主项。"
+    },
+    {
+      "title": "数学中有哪些有趣的构造性证明？",
+      "url": "https://www.zhihu.com/answer/2054463726099624172",
+      "summary": "正文围绕黎曼 ζ 函数在 3 处的取值 ζ(3)，给出其整数逼近序列和严格余项估计。"
+    },
+    {
+      "title": "为什么我们默认发散级数求和无意义？",
+      "url": "https://www.zhihu.com/answer/2057217178525495621",
+      "summary": "正文定义黎曼 ζ 函数并把 1+2+3+… 的 -1/12 解释为解析延拓后的 ζ(-1)，而非普通级数和。"
+    },
+    {
+      "title": "如何评价 Anthropic 宣布将黎曼猜想的已知下界从 41.6% 提高到了 67.2%？",
+      "url": "https://www.zhihu.com/answer/2070388337890931893",
+      "summary": "正文给出黎曼 ζ 函数级数、零点与素数分布之间的联系，实质介绍该函数的研究主题。"
+    },
+    {
+      "title": "如何评价 Anthropic 宣布将黎曼猜想的已知下界从 41.6% 提高到了 67.2%？",
+      "url": "https://www.zhihu.com/answer/2070453556918984932",
+      "summary": "正文专门使用 Riemann ζ 函数的非平凡零点、显式公式和零点计数构造相关估计。"
+    },
+    {
+      "title": "Claude证明黎曼猜想取得了重大突破，这个事件有什么开创性意义？",
+      "url": "https://www.zhihu.com/answer/2070463162789393313",
+      "summary": "正文介绍 Riemann ζ 函数的零点、临界带和临界线，并解释零点比例研究。"
+    },
+    {
+      "title": "如何评价 Anthropic 宣布将黎曼猜想的已知下界从 41.6% 提高到了 67.2%？",
+      "url": "https://www.zhihu.com/answer/2070475988337743099",
+      "summary": "正文以 Riemann ζ 函数零点的配对相关、显式公式和重数作为解析数论输入。"
+    },
+    {
+      "title": "如何评价 Anthropic 宣布将黎曼猜想的已知下界从 41.6% 提高到了 67.2%？",
+      "url": "https://www.zhihu.com/answer/2070492697517888417",
+      "summary": "正文围绕 Riemann ζ 函数的非平凡零点计数及临界线零点比例解释证明框架。"
+    },
+    {
+      "title": "Claude证明黎曼猜想取得了重大突破，这个事件有什么开创性意义？",
+      "url": "https://www.zhihu.com/answer/2070494489916052357",
+      "summary": "正文介绍 Riemann ζ 函数的解析延拓、平凡与非平凡零点及临界带。"
+    },
+    {
+      "title": "Claude证明黎曼猜想取得了重大突破，这个事件有什么开创性意义？",
+      "url": "https://www.zhihu.com/answer/2070672039006975164",
+      "summary": "正文围绕黎曼 ζ 函数的非平凡零点、临界线与零点比例展开实质说明。"
+    },
+    {
+      "title": "Sarnak的Möbius Disjointness猜想",
+      "url": "https://zhuanlan.zhihu.com/p/22974087",
+      "summary": "正文给出Möbius函数与Riemann zeta函数的倒数和关系，并讨论黎曼猜想对部分和的改进。"
+    },
+    {
+      "title": "从巴塞尔问题到黎曼\\zeta函数（完结篇）：黎曼猜想：黎曼的开拓与他留给后人的挑战",
+      "url": "https://zhuanlan.zhihu.com/p/24169303",
+      "summary": "正文系统讨论黎曼 ζ 函数的解析延拓、函数方程、零点及它与素数分布的联系。"
+    },
+    {
+      "title": "代数数论（4.4）：Tate's thesis",
+      "url": "https://zhuanlan.zhihu.com/p/24309233",
+      "summary": "正文比较黎曼 ζ、Dirichlet L 和 Dedekind ζ 函数的延拓、函数方程与极点留数。"
+    },
+    {
+      "title": "代数数论：总集篇",
+      "url": "https://zhuanlan.zhihu.com/p/24312945",
+      "summary": "正文详细回顾黎曼 ζ 与 Dedekind ζ 函数的解析延拓、函数方程和极点留数。"
+    },
+    {
+      "title": "[水]\"大一统\"级数",
+      "url": "https://zhuanlan.zhihu.com/p/25059661",
+      "summary": "正文围绕黎曼 ζ 函数的泛函方程求导并代入特殊值，联系 Gamma 函数与 Glaisher 常数。"
+    },
+    {
+      "title": "黎曼猜想，及其解释（上）",
+      "url": "https://zhuanlan.zhihu.com/p/25055731",
+      "summary": "正文定义 zeta 函数、讨论收敛性并推导欧拉乘积公式。"
+    },
+    {
+      "title": "黎曼猜想，及其解释（下）",
+      "url": "https://zhuanlan.zhihu.com/p/25222934",
+      "summary": "正文深入讨论黎曼 zeta 函数、解析延拓、函数方程与零点。"
+    },
+    {
+      "title": "关于子群计数的一些杂记",
+      "url": "https://zhuanlan.zhihu.com/p/27114598",
+      "summary": "正文定义子群 zeta 函数，讨论其 Euler 乘积、解析延拓，并明确联系 Riemann zeta 函数。"
+    },
+    {
+      "title": "代数数论(一):解方程",
+      "url": "https://zhuanlan.zhihu.com/p/27181671",
+      "summary": "正文定义 Riemann zeta 函数、解析延拓其亚纯性，并讨论 Euler 乘积及由 Poisson 求和得到的函数方程。"
+    },
+    {
+      "title": "从巴塞尔问题到黎曼\\zeta函数",
+      "url": "https://zhuanlan.zhihu.com/p/27342701",
+      "summary": "正文系统讨论黎曼 ζ 函数的整数取值、欧拉乘积、解析延拓、函数方程和零点。"
+    },
+    {
+      "title": "从求导13次说起 ~",
+      "url": "https://zhuanlan.zhihu.com/p/33355136",
+      "summary": "正文在 Ramanujan 型级数求和中代入黎曼 ζ 函数在 14 处的特殊值，从而完成公式证明。"
+    },
+    {
+      "title": "为什么全体自然数的和是负十二分之一？",
+      "url": "https://zhuanlan.zhihu.com/p/35397224",
+      "summary": "正文从黎曼 ζ 函数的 Dirichlet 级数出发，利用 Mellin 变换和函数方程完成解析延拓并求 ζ(-1)。"
+    },
+    {
+      "title": "从调和级数到 Riemann Zeta 函数",
+      "url": "https://zhuanlan.zhihu.com/p/35938733",
+      "summary": "正文从调和级数出发定义黎曼 ζ 函数，并讨论其收敛范围和若干特殊值。"
+    },
+    {
+      "title": "Riemann Zeta 函数（二）",
+      "url": "https://zhuanlan.zhihu.com/p/36694850",
+      "summary": "正文给出 Riemann ζ 函数的级数定义，推导其到正实部半平面的解析延拓，并研究零点区域。"
+    },
+    {
+      "title": "韦依猜想（总）",
+      "url": "https://zhuanlan.zhihu.com/p/37335129",
+      "summary": "正文从黎曼Zeta函数、Euler积和Dedekind Zeta出发，定义概形Zeta函数并讨论函数方程。"
+    },
+    {
+      "title": "韦依猜想",
+      "url": "https://zhuanlan.zhihu.com/p/37341356",
+      "summary": "正文完整定义黎曼Zeta函数和概形Zeta函数，讨论解析延拓、函数方程及Euler积。"
+    },
+    {
+      "title": "全体自然数的和等于 -1/12 | 混乱博物馆",
+      "url": "https://zhuanlan.zhihu.com/p/37896373",
+      "summary": "正文把自然数之和编码为ζ函数并借助解析延拓在s=-1处得到-1/12。"
+    },
+    {
+      "title": "初等数论学习笔记（六）（终）",
+      "url": "https://zhuanlan.zhihu.com/p/42084776",
+      "summary": "正文定义黎曼 ζ 函数，证明欧拉乘积恒等式，并讨论延拓及其与数论函数的关系。"
+    },
+    {
+      "title": "黎曼Zeta函数~静待花开",
+      "url": "https://zhuanlan.zhihu.com/p/45058224",
+      "summary": "正文讨论黎曼 zeta 函数的定义、Euler 乘积、解析性质和导数，核心正是黎曼 zeta 函数。"
+    },
+    {
+      "title": "黎曼假设说的是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/45078785",
+      "summary": "正文用四句话概括并展开解释黎曼 zeta 函数的级数定义、解析延拓、亚纯性和零点。"
+    },
+    {
+      "title": "黎曼猜想到底说了什么？",
+      "url": "https://zhuanlan.zhihu.com/p/45192071",
+      "summary": "正文解释黎曼ζ函数的级数形式、收敛范围、解析延拓及其零点。"
+    },
+    {
+      "title": "黎曼猜想为何这样难证？幻想的证明思路以及Atiyah论文",
+      "url": "https://zhuanlan.zhihu.com/p/29208150",
+      "summary": "正文比较 Riemann zeta 的函数方程、解析延拓和 Dirichlet 级数，用来说明其零点猜想为何难以推出。"
+    },
+    {
+      "title": "数学大地震：一个半世纪悬而未决黎曼猜想被证明？它到底说了啥",
+      "url": "https://zhuanlan.zhihu.com/p/45242261",
+      "summary": "正文讲解黎曼 zeta 函数向复数域的推广、非平凡零点以及它与素数分布的联系。"
+    },
+    {
+      "title": "黎曼猜想跟素数分布有怎样的联系",
+      "url": "https://zhuanlan.zhihu.com/p/45240901",
+      "summary": "正文具体讲解黎曼 zeta 函数的平凡零点、非平凡零点及其临界带分布。"
+    },
+    {
+      "title": "黎曼猜想未被完全证明！英国数学“教父”刚刚公开证明过程",
+      "url": "https://zhuanlan.zhihu.com/p/45244854",
+      "summary": "正文指出素数分布规律藏在黎曼 ζ 函数的零点中，并交代了该函数与素数研究的联系。"
+    },
+    {
+      "title": "一页PPT证明黎曼猜想？MichaelAtiyah演讲炸了锅",
+      "url": "https://zhuanlan.zhihu.com/p/45249464",
+      "summary": "正文介绍黎曼 ζ 函数及其非平凡零点分布与素数规律之间的关系。"
+    },
+    {
+      "title": "在黎曼猜想上，前赴后继倒下了多少数学家？",
+      "url": "https://zhuanlan.zhihu.com/p/45387976",
+      "summary": "正文给出黎曼 ζ 函数的级数形式，并解释其非平凡零点对素数分布的作用。"
+    },
+    {
+      "title": "宝刀未老还是英雄迟暮？89岁的阿蒂亚到底有没有成功证明黎曼猜想？",
+      "url": "https://zhuanlan.zhihu.com/p/45424590",
+      "summary": "正文解释黎曼 ζ 函数的非平凡零点、临界区域和临界线，以及它们与素数分布的关联。"
+    },
+    {
+      "title": "【直观详解】通俗易懂了解什么是黎曼猜想",
+      "url": "https://zhuanlan.zhihu.com/p/45886528",
+      "summary": "正文定义黎曼 ζ 函数并讨论其解析延拓和零点。"
+    },
+    {
+      "title": "理解黎曼猜想（一）背景 | 袁岚峰",
+      "url": "https://zhuanlan.zhihu.com/p/47346148",
+      "summary": "正文证明欧拉乘积公式，并把自然数求和定义的级数命名为黎曼ζ函数。"
+    },
+    {
+      "title": "听说每出现一个数学公式，就有一半观众被劝退？ | 科技袁人",
+      "url": "https://zhuanlan.zhihu.com/p/47766149",
+      "summary": "正文证明欧拉乘积公式，并把自然数求和一侧定义和解释为黎曼 ζ 函数。"
+    },
+    {
+      "title": "理解黎曼猜想（二）两个自然数互质的概率是多少？ | 袁岚峰",
+      "url": "https://zhuanlan.zhihu.com/p/47978393",
+      "summary": "正文从欧拉乘积公式和自然数幂级数定义ζ函数，并讨论其取值和解析延拓前的收敛范围。"
+    },
+    {
+      "title": "理解黎曼猜想（三）你真的相信全体自然数的和等于-1/12吗？ | 袁岚峰",
+      "url": "https://zhuanlan.zhihu.com/p/48750070",
+      "summary": "围绕欧拉 ζ 函数解析延拓为黎曼 ζ 函数，并解释 ζ(-1) 的形式和取值。"
+    },
+    {
+      "title": "你真的相信全体自然数的和等于-1/12吗？ | 科技袁人",
+      "url": "https://zhuanlan.zhihu.com/p/49225732",
+      "summary": "正文说明该说法实际来自黎曼ζ函数的解析延拓及ζ(-1)的取值。"
+    },
+    {
+      "title": "理解黎曼猜想（四）得救之道，就在其中 | 袁岚峰",
+      "url": "https://zhuanlan.zhihu.com/p/49454034",
+      "summary": "正文具体介绍黎曼ζ函数的级数、解析延拓、函数方程与临界带结构。"
+    },
+    {
+      "title": "所有自然数之和为-1/12?",
+      "url": "https://zhuanlan.zhihu.com/p/53035824",
+      "summary": "正文以拉马努金求和和解析延拓解释自然数级数与黎曼 ζ 函数赋值之间的关系。"
+    },
+    {
+      "title": "我读书少，欧拉大师你别骗我！全体自然数的和到底是多少？",
+      "url": "https://zhuanlan.zhihu.com/p/55519790",
+      "summary": "正文给出欧拉乘积与黎曼 ζ 函数的关系，并说明 ζ(2)、ζ(1) 和 ζ(-1) 的特例。"
+    },
+    {
+      "title": "Dirichlet 定理",
+      "url": "https://zhuanlan.zhihu.com/p/57379991",
+      "summary": "正文利用 zeta 函数在 s=1 的极点说明相关素数倒数和发散，并比较平凡特征的 L 函数与 zeta 函数。"
+    },
+    {
+      "title": "素数定理",
+      "url": "https://zhuanlan.zhihu.com/p/57792861",
+      "summary": "正文详细讨论Riemann ζ函数的解析延拓、函数方程、无零点区域及其在素数定理证明中的作用。"
+    },
+    {
+      "title": "平均律制与黎曼 ζ 函数",
+      "url": "https://zhuanlan.zhihu.com/p/57552517",
+      "summary": "正文推导平均律优劣指标时引入黎曼 ζ 函数，并利用其模的平方分析不同音律。"
+    },
+    {
+      "title": "欧拉乘积公式及证明",
+      "url": "https://zhuanlan.zhihu.com/p/58832513",
+      "summary": "正文定义黎曼 ζ 函数，陈述并证明其与素数欧拉乘积相等的关系。"
+    },
+    {
+      "title": "复变函数学习笔记(5)——证素数定理",
+      "url": "https://zhuanlan.zhihu.com/p/61610590",
+      "summary": "正文定义黎曼ζ函数，并利用欧拉乘积、无零点区域和积分表示推进素数定理证明。"
+    },
+    {
+      "title": "复变函数学习笔记(9)——Riemann-zeta函数",
+      "url": "https://zhuanlan.zhihu.com/p/64549834",
+      "summary": "正文从定义出发系统讨论 Riemann ζ 函数的解析性、亚纯延拓、极点、估计和 Dirichlet 级数性质。"
+    },
+    {
+      "title": "又又又有人证明了黎曼猜想？老树发新枝——黎曼猜想的新进展",
+      "url": "https://zhuanlan.zhihu.com/p/67884389",
+      "summary": "正文定义黎曼 zeta 函数的零点、非平凡零点及临界线，并围绕其零点分布讨论等价命题。"
+    },
+    {
+      "title": "黎曼猜想在 2019 年的新进展：Jensen-Polya (Hyperbolicity) 道路",
+      "url": "https://zhuanlan.zhihu.com/p/80647398",
+      "summary": "正文把研究主定理表述为 zeta 满足双曲性条件，并梳理从模形式与截断论证到 zeta 的证明链。"
+    },
+    {
+      "title": "zeta函数的奇数值(一）",
+      "url": "https://zhuanlan.zhihu.com/p/83406898",
+      "summary": "正文从黎曼 ζ 函数的定义出发，讨论其偶数值公式、奇数值的无理性及证明方法。"
+    },
+    {
+      "title": "一道习题：证明素数定理",
+      "url": "https://zhuanlan.zhihu.com/p/85293383",
+      "summary": "正文详细定义并研究黎曼 ζ 函数的欧拉乘积、解析延拓和函数方程。"
+    },
+    {
+      "title": "黎曼猜想漫谈",
+      "url": "https://zhuanlan.zhihu.com/p/105537122",
+      "summary": "正文给出黎曼 ζ 函数的级数定义，并区分其平凡零点与非平凡零点。"
+    },
+    {
+      "title": "Gamma函数的那些事（3）——Gamma函数的应用",
+      "url": "https://zhuanlan.zhihu.com/p/114595109",
+      "summary": "正文推导黎曼 ζ 函数的 Gamma 积分表示、解析延拓、函数方程以及平凡零点。"
+    },
+    {
+      "title": "那些你可能不知道的积分方法——常见的积分表达式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/120857000",
+      "summary": "正文给出 Riemann 与 Hurwitz Zeta 函数的定义、Gamma 积分表示，并据此推导相关级数。"
+    },
+    {
+      "title": "复变函数学习笔记(6)",
+      "url": "https://zhuanlan.zhihu.com/p/129354208",
+      "summary": "正文以Weierstrass控制判别法证明Riemann zeta级数在半平面内闭一致收敛，从而得到其全纯性。"
+    },
+    {
+      "title": "音乐和数论(II)：格点和黎曼ζ函数",
+      "url": "https://zhuanlan.zhihu.com/p/132503419",
+      "summary": "正文把最佳平均律问题转化为黎曼ζ函数在临界线附近取值的选择，并依据其振荡细节寻找极值点。"
+    },
+    {
+      "title": "欧拉关于巴塞尔问题证明的严格化",
+      "url": "https://zhuanlan.zhihu.com/p/133951176",
+      "summary": "正文从 ζ(2) 推广到 ζ(2n)，给出黎曼 ζ 函数在正偶数处的伯努利数公式。"
+    },
+    {
+      "title": "数学分析的艺术——Zeta函数的洛朗展开式与斯蒂尔吉斯（Stieltjes）常数",
+      "url": "https://zhuanlan.zhihu.com/p/136328750",
+      "summary": "正文从黎曼 zeta 函数的级数定义出发，推导其在 s=1 处的洛朗展开和斯蒂尔吉斯常数。"
+    },
+    {
+      "title": "初三党搞积日常（2）——从复变角度解决巴塞尔问题（The Basel Problem）",
+      "url": "https://zhuanlan.zhihu.com/p/143842181",
+      "summary": "正文把巴塞尔问题表述为黎曼 zeta 函数在 s=2 处的取值。"
+    },
+    {
+      "title": "你绝对从未见过的有关黎曼ζ函数的一堆可爱级数",
+      "url": "https://zhuanlan.zhihu.com/p/144278965",
+      "summary": "正文从黎曼 ζ 函数的级数定义出发，推导其正偶数取值及大量相关级数。"
+    },
+    {
+      "title": "从正切到Zeta——伯努利数的高级应用",
+      "url": "https://zhuanlan.zhihu.com/p/142293931",
+      "summary": "正文建立伯努利数与黎曼 Zeta 函数偶数值的关系，并用它给出巴塞尔问题的求法。"
+    },
+    {
+      "title": "黎曼ζ函数、狄利克雷β函数：ζ（2n）与β（2n+1）的另一种巧妙求法",
+      "url": "https://zhuanlan.zhihu.com/p/146930843",
+      "summary": "正文定义黎曼 ζ 函数，并通过无穷乘积、留数和伯努利数推导其在正偶数处的通项公式。"
+    },
+    {
+      "title": "一类有趣的三角级数",
+      "url": "https://zhuanlan.zhihu.com/p/149819969",
+      "summary": "正文以黎曼ζ函数的偶数值构造三角级数的通项公式，并给出多个具体求和结果。"
+    },
+    {
+      "title": "读懂黎曼猜想（1）——莫比乌斯反演",
+      "url": "https://zhuanlan.zhihu.com/p/151302308",
+      "summary": "正文从黎曼 Zeta 函数的级数与欧拉乘积展开，推导其倒数的狄利克雷级数表达式。"
+    },
+    {
+      "title": "读懂黎曼猜想（2）——Mellin变换、素数计数函数、与欧拉乘积",
+      "url": "https://zhuanlan.zhihu.com/p/151753864",
+      "summary": "正文推导 Zeta 函数的欧拉乘积，并通过对数与梅林变换联系 Zeta 函数和带权素数计数函数。"
+    },
+    {
+      "title": "Zeta函数的又一个积分表达式——阿贝尔变换的推导与应用",
+      "url": "https://zhuanlan.zhihu.com/p/159608108",
+      "summary": "正文由调和级数极限和取整函数推导黎曼Zeta函数的积分表达式，并联系欧拉常数。"
+    },
+    {
+      "title": "读懂黎曼猜想（3）——平凡零点、非平凡零点与黎曼猜想",
+      "url": "https://zhuanlan.zhihu.com/p/159602913",
+      "summary": "正文利用函数方程和解析延拓完整讨论黎曼 Zeta 函数的定义域、平凡零点与非平凡零点。"
+    },
+    {
+      "title": "当数论遇上分析——拉马努金和与欧拉函数的故事",
+      "url": "https://zhuanlan.zhihu.com/p/166530236",
+      "summary": "正文引入 Riemann zeta 函数的级数定义，并通过 Möbius 级数得到其倒数关系。"
+    },
+    {
+      "title": "复变函数学习笔记(番外)：素数定理",
+      "url": "https://zhuanlan.zhihu.com/p/184999477",
+      "summary": "正文定义 Riemann ζ 函数，证明其全纯延拓、无零点区域及对数导数与 von Mangoldt 函数的联系。"
+    },
+    {
+      "title": "Poisson 求和公式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/194350105",
+      "summary": "正文系统定义并解析延拓 Riemann Zeta 函数，证明其极点和零点性质并给出特殊值公式。"
+    },
+    {
+      "title": "当数论遇上分析（2）——向下取整与渐近展开",
+      "url": "https://zhuanlan.zhihu.com/p/222714937",
+      "summary": "正文定义黎曼 ζ 函数及其 Hurwitz 推广，并由积分表达式推导部分和渐近展开。"
+    },
+    {
+      "title": "读懂黎曼猜想（4）——素数定理",
+      "url": "https://zhuanlan.zhihu.com/p/245863421",
+      "summary": "正文通过佩龙公式和对数导数把切比雪夫函数表示为黎曼 zeta 函数及非平凡零点相关积分。"
+    },
+    {
+      "title": "等差数列里的Dirichlet定理",
+      "url": "https://zhuanlan.zhihu.com/p/258779664",
+      "summary": "正文回顾黎曼 zeta 函数的 theta 函数表示、Mellin 变换、解析延拓和函数方程。"
+    },
+    {
+      "title": "数学思维之旅-从等差数列到黎曼函数",
+      "url": "https://zhuanlan.zhihu.com/p/266330005",
+      "summary": "正文定义并延拓黎曼 ζ 函数，计算负参数处的值及其与伯努利数的关系。"
+    },
+    {
+      "title": "读懂黎曼猜想（5）——精确公式和素数计数函数的渐近展开",
+      "url": "https://zhuanlan.zhihu.com/p/336672384",
+      "summary": "正文围绕黎曼 zeta 函数的对数导数、非平凡零点及其精确展开式展开推导。"
+    },
+    {
+      "title": "当数论遇上分析（6）——Mertens定理与素数定理",
+      "url": "https://zhuanlan.zhihu.com/p/338578631",
+      "summary": "正文给出 zeta 函数欧拉乘积、在 1 附近的 Laurent 展开，并将其用于推导 Mertens 常数表达式。"
+    },
+    {
+      "title": "全体素数的倒数和",
+      "url": "https://zhuanlan.zhihu.com/p/347917080",
+      "summary": "正文给出黎曼ζ函数的欧拉乘积公式并利用算术基本定理完成双向不等式证明。"
+    },
+    {
+      "title": "一文搞懂黎曼假设，解析数论的里程碑，质数理论的珠穆朗玛",
+      "url": "https://zhuanlan.zhihu.com/p/349349332",
+      "summary": "正文具体介绍黎曼ζ函数的级数、解析延拓、函数方程以及平凡零点与非平凡零点。"
+    },
+    {
+      "title": "读懂黎曼猜想（6）——非平凡零点的分布",
+      "url": "https://zhuanlan.zhihu.com/p/163513405",
+      "summary": "正文具体分析黎曼 ζ 函数的对称性、函数方程、临界带以及非平凡零点的计数。"
+    },
+    {
+      "title": "羞怯的数学家黎曼，有着太阳一样辉耀的心",
+      "url": "https://zhuanlan.zhihu.com/p/357004964",
+      "summary": "正文介绍以欧拉无穷乘积展开的黎曼 ζ 函数及其平凡零点。"
+    },
+    {
+      "title": "抽屉原理的妙用——Dirichlet逼近定理和Zeta函数的零点间距",
+      "url": "https://zhuanlan.zhihu.com/p/367101494",
+      "summary": "正文围绕 Zeta 函数非平凡零点的纵坐标证明零点间距引理，并讨论其对精确公式的作用。"
+    },
+    {
+      "title": "特殊函数入门指南(番外篇)——伽马函数之搞积学",
+      "url": "https://zhuanlan.zhihu.com/p/366676781",
+      "summary": "正文给出黎曼 ζ 函数级数定义、积分表示、ζ(2) 等取值及与 Euler 函数相关的积分结论。"
+    },
+    {
+      "title": "读懂黎曼猜想（-1）——临界线初探之Hardy定理",
+      "url": "https://zhuanlan.zhihu.com/p/370471898",
+      "summary": "正文通过Xi函数、Mellin变换和zeta函数的关系研究临界线零点并完成Hardy定理证明。"
+    },
+    {
+      "title": "数学的艺术 (3) —— 黎曼ζ函数",
+      "url": "https://zhuanlan.zhihu.com/p/380148151",
+      "summary": "正文系统讨论黎曼 ζ 函数的洛朗展开、函数方程、对数导数与非平凡零点倒数和。"
+    },
+    {
+      "title": "冰河の高难度积分练习题解答",
+      "url": "https://zhuanlan.zhihu.com/p/388378336",
+      "summary": "正文给出黎曼 ζ 函数的级数定义，并在多个积分的闭式结果中反复使用 ζ(2) 和 ζ(3)。"
+    },
+    {
+      "title": "对数积分-weight 1~5",
+      "url": "https://zhuanlan.zhihu.com/p/396955692",
+      "summary": "正文明确提出并反复使用黎曼 ζ 函数及其特殊值来计算积分和欧拉和。"
+    },
+    {
+      "title": "读懂黎曼猜想（11【完结篇】）——等差数列素数定理的余项（Siegel-Walfisz定理）",
+      "url": "https://zhuanlan.zhihu.com/p/412127981",
+      "summary": "正文利用 zeta 函数的极点、解析延拓和增长估计研究辅助 Dirichlet 级数。"
+    },
+    {
+      "title": "世界上最美丽的函数——γ函数，一颗数学皇冠上的明珠，可以回答分数阶乘的问题",
+      "url": "https://zhuanlan.zhihu.com/p/427673303",
+      "summary": "正文通过积分换元和级数求和推导伽马函数与黎曼 ζ 函数的关系，并讨论其函数方程。"
+    },
+    {
+      "title": "浅谈伯努利数(Bernoulli Numbers)",
+      "url": "https://zhuanlan.zhihu.com/p/440085006",
+      "summary": "正文给出黎曼 zeta 函数定义与欧拉乘积，并利用伯努利数和余切展开推导 ζ(2k) 的闭式公式。"
+    },
+    {
+      "title": "用最简单的方式解释黎曼猜想（二），黎曼ζ函数，素数之门的金钥匙",
+      "url": "https://zhuanlan.zhihu.com/p/448772977",
+      "summary": "正文围绕黎曼 ζ 函数的级数定义、取值区域和欧拉乘积展开，说明它是研究素数分布的核心对象。"
+    },
+    {
+      "title": "数学的艺术 —— ζ(3)的计算",
+      "url": "https://zhuanlan.zhihu.com/p/450905148",
+      "summary": "正文从 ζ 函数的级数定义出发推出其 Γ 函数积分表示，并继续计算 ζ(3) 的特殊值。"
+    },
+    {
+      "title": "一个高级的随处可见的数列——伯努利数",
+      "url": "https://zhuanlan.zhihu.com/p/464909086",
+      "summary": "正文用三角函数的级数展开证明贝努利数与黎曼 ζ 函数在正偶数处的取值公式。"
+    },
+    {
+      "title": "对数积分(Weight 3-5)",
+      "url": "https://zhuanlan.zhihu.com/p/468453116",
+      "summary": "正文把大量对数积分化归为ζ(3)、ζ(5)等Riemann zeta特殊值，并给出相应恒等式与计算结果。"
+    },
+    {
+      "title": "基于Riemann-Lebesgue引理的素数定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/467818650",
+      "summary": "正文展开黎曼 ζ 函数的欧拉乘积、解析延拓、无零点区域、增长估计及围道积分应用。"
+    },
+    {
+      "title": "数学的艺术 —— |sinx|的奇妙积分",
+      "url": "https://zhuanlan.zhihu.com/p/488429552",
+      "summary": "正文从欧拉-麦克劳林求和推导调和级数渐近式，并引用 ζ 函数函数方程化简余项。"
+    },
+    {
+      "title": "《特殊函数概论》Chapter 3习题解答",
+      "url": "https://zhuanlan.zhihu.com/p/501796465",
+      "summary": "正文具体推导黎曼 ζ 函数的欧拉乘积、倒数与 μ 函数级数、平方与除数函数级数以及对数导数恒等式。"
+    },
+    {
+      "title": "关于 SL(2, Z) 的模形式",
+      "url": "https://zhuanlan.zhihu.com/p/506841837",
+      "summary": "正文由 Bernoulli 数与 Fourier 展开推导 Riemann zeta 函数在正偶数处的 Euler 公式和具体取值。"
+    },
+    {
+      "title": "Weil猜想(0)：方程的解和有限域上的Riemann猜想",
+      "url": "https://zhuanlan.zhihu.com/p/532320893",
+      "summary": "正文给出 Riemann zeta 函数的级数定义、Euler 乘积、极点、零点与函数方程。"
+    },
+    {
+      "title": "15个数论难题，解决任意一个都能让你称为顶级大佬 | 哆嗒数学网",
+      "url": "https://zhuanlan.zhihu.com/p/557589168",
+      "summary": "正文具体说明黎曼ζ函数在正偶数与正奇数处取值性质这一相关难题。"
+    },
+    {
+      "title": "黎曼猜想要被张益唐证明了吗？",
+      "url": "https://zhuanlan.zhihu.com/p/577574719",
+      "summary": "正文说明黎曼 ζ 函数零点无穷多，并提到前十万亿个零点的计算，具体涉及 zeta 函数。"
+    },
+    {
+      "title": "67岁的张益唐将迎来人生第二次学术大突破吗？",
+      "url": "https://zhuanlan.zhihu.com/p/580874012",
+      "summary": "正文介绍欧拉ζ函数的解析延拓、黎曼ζ函数的平凡和非平凡零点及其与素数频率的关系。"
+    },
+    {
+      "title": "Siegel零点与等差数列上的素数分布",
+      "url": "https://zhuanlan.zhihu.com/p/582900416",
+      "summary": "正文解释 zeta 函数无零点区域如何控制素数定理误差，并讨论黎曼猜想带来的误差改进。"
+    },
+    {
+      "title": "素数定理的证明（友好型，已完结）",
+      "url": "https://zhuanlan.zhihu.com/p/631308191",
+      "summary": "正文定义并研究黎曼 ζ 函数，证明欧拉乘积、解析延拓及 Re(s)=1 上无零点等性质。"
+    },
+    {
+      "title": "证明黎曼猜想的新几何，把数学之美展现得淋漓尽致，成就数学之梦",
+      "url": "https://zhuanlan.zhihu.com/p/640275502",
+      "summary": "正文具体介绍黎曼 ζ 函数的复变量定义、平凡零点、非平凡零点和临界带。"
+    },
+    {
+      "title": "这才是真正最顶尖的数学—L函数与朗兰兹计划，黎曼ζ函数只是其最简单的示例",
+      "url": "https://zhuanlan.zhihu.com/p/650279358",
+      "summary": "正文以黎曼ζ函数作为最简单的L函数来引入一般L函数及其核心性质。"
+    },
+    {
+      "title": "【Proof-Trivial】 代数几何与统计机器学习理论 (Algebraic Geometry and Statistical Learning Theory) 导读",
+      "url": "https://zhuanlan.zhihu.com/p/661785425",
+      "summary": "正文用 Zeta 函数积分、最大极点和阶数刻画贝叶斯边际似然的渐近展开。"
+    },
+    {
+      "title": "黎曼猜想到底被证明了吗（指的是严谨的，并且发表在正规的科学期刊上的论文）？ 如果没有被证明，它们的证明已经到了哪一进度？",
+      "url": "https://zhuanlan.zhihu.com/p/667180576",
+      "summary": "正文给出黎曼 zeta 函数的级数表达、解析延拓、xi 函数和临界线零点表述。"
+    },
+    {
+      "title": "【Proof-Trivial】数学史大纲 —— 丘成桐",
+      "url": "https://zhuanlan.zhihu.com/p/667472774",
+      "summary": "正文讨论黎曼 zeta 函数的定义、解析延拓及其在素数定理和算子谱研究中的作用。"
+    },
+    {
+      "title": "黎曼ζ函数特殊值ζ(3)的无理性的一个证明",
+      "url": "https://zhuanlan.zhihu.com/p/662476713",
+      "summary": "正文从黎曼 zeta 函数的级数定义、收敛域和解析延拓出发，讨论其特殊值及 ζ(3) 的无理性。"
+    },
+    {
+      "title": "这才是真正最顶尖的数学—L函数，黎曼ζ函数只是其最简单的示例",
+      "url": "https://zhuanlan.zhihu.com/p/672704574",
+      "summary": "正文以黎曼ζ函数作为最简单的L函数入口，解释L函数和狄利克雷系数。"
+    },
+    {
+      "title": "Motives：Grothendieck 的梦想",
+      "url": "https://zhuanlan.zhihu.com/p/681501229",
+      "summary": "正文从有限域上簇的 Zeta 函数过渡到 Riemann Zeta 函数，并讨论其与 Motive 的 L 函数的关系。"
+    },
+    {
+      "title": "数学的艺术 —— 拉马努金定理",
+      "url": "https://zhuanlan.zhihu.com/p/682014103",
+      "summary": "正文利用梅林变换把黎曼 Zeta 函数展开，并推导 Zeta 特殊值与伯努利数的关系。"
+    },
+    {
+      "title": "常用特殊函数总结 及其部分性质",
+      "url": "https://zhuanlan.zhihu.com/p/698350651",
+      "summary": "正文实质介绍黎曼 ζ 函数的级数、积分与解析延拓形式、平凡零点，并陈述黎曼猜想的临界线内容。"
+    },
+    {
+      "title": "黎曼猜想获显著突破，陶哲轩：方法巧妙且意想不到！36岁菲尔兹奖得主新成果",
+      "url": "https://zhuanlan.zhihu.com/p/701756208",
+      "summary": "正文把黎曼 zeta 函数表示为狄利克雷级数，并讨论其非平凡零点的分布。"
+    },
+    {
+      "title": "Iwaniec: 解析数论介绍",
+      "url": "https://zhuanlan.zhihu.com/p/703676514",
+      "summary": "正文具体讨论黎曼ζ函数、L函数、零点估计及其在素数分布研究中的作用。"
+    },
+    {
+      "title": "数学的艺术 ——— 双伽马函数",
+      "url": "https://zhuanlan.zhihu.com/p/709009571",
+      "summary": "正文把双伽马函数的级数展开写成黎曼 ζ 函数在正整数处的取值之和。"
+    },
+    {
+      "title": "一枚「弃子」打破80年黎曼猜想纪录！菲尔兹奖得主MIT大拿联手，陶哲轩转赞",
+      "url": "https://zhuanlan.zhihu.com/p/709113867",
+      "summary": "正文解释黎曼 ζ 函数的级数形式、复平面延拓、零点位置以及它与黎曼猜想的关系。"
+    },
+    {
+      "title": "等幂求和（终）：欧拉-麦克劳林公式",
+      "url": "https://zhuanlan.zhihu.com/p/713911123",
+      "summary": "正文定义黎曼zeta函数，用欧拉-麦克劳林公式导出其展开式并讨论解析延拓。"
+    },
+    {
+      "title": "数学的艺术 —— 偶级数分解定理",
+      "url": "https://zhuanlan.zhihu.com/p/718022007",
+      "summary": "正文把平方倒数和识别为黎曼 ζ 函数在 2 处的取值，并用伯努利数求出 π²/6。"
+    },
+    {
+      "title": "数学的艺术 —— 梅林变换与Meijer-G函数",
+      "url": "https://zhuanlan.zhihu.com/p/32591195409",
+      "summary": "正文把离散求和写成含广义黎曼ζ函数的积分，并利用函数方程、极点和留数计算级数。"
+    },
+    {
+      "title": "数学的艺术 —— 伽马函数 II",
+      "url": "https://zhuanlan.zhihu.com/p/1895148455267129315",
+      "summary": "正文讲解黎曼 ζ 函数的解析延拓、函数方程、欧拉乘积及其与伽马函数的关系。"
+    },
+    {
+      "title": "读懂黎曼猜想（-6）——0.001%的零点满足黎曼猜想",
+      "url": "https://zhuanlan.zhihu.com/p/1922403706147694354",
+      "summary": "正文围绕黎曼 ζ 函数非平凡零点的临界线分布展开 Selberg 定理及其证明。"
+    },
+    {
+      "title": "拉马努金笔记1.1拉马努金主定理",
+      "url": "https://zhuanlan.zhihu.com/p/1993686279716611108",
+      "summary": "文章给出伯努利多项式与赫尔维茨 ζ 函数的关系，并据此导出涉及 ζ 函数的积分表达式。"
+    },
+    {
+      "title": "一定只能裂项嘛？（1）",
+      "url": "https://zhuanlan.zhihu.com/p/2002129520283653589",
+      "summary": "正文给出黎曼 zeta 函数的增长界，并用它估计移动积分路径后的竖线积分。"
+    },
+    {
+      "title": "盘点数学里的各种反演",
+      "url": "https://zhuanlan.zhihu.com/p/2041288151956723472",
+      "summary": "正文利用黎曼 ζ 函数的狄利克雷级数和欧拉乘积求其倒数，从而得到莫比乌斯函数。"
+    },
+    {
+      "title": "随机矩阵论与ζ(s)",
+      "url": "https://zhuanlan.zhihu.com/p/2070482876609606956",
+      "summary": "正文从级数与Euler乘积定义ζ函数，并讨论解析延拓、零点和值分布。"
+    }
+  ]
+}

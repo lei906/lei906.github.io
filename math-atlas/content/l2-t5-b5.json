@@ -1,0 +1,2366 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l2-t5-b5",
+  "sources": [
+    {
+      "title": "有名的悖论有哪些？",
+      "url": "https://www.zhihu.com/answer/14064661",
+      "summary": "从集合是否包含自身引出罗素悖论，并用理发师故事辅助说明；这是对朴素集合构造的讨论，不能直接用于现代公理集合论。"
+    },
+    {
+      "title": "有名的悖论有哪些？",
+      "url": "https://www.zhihu.com/answer/14409250",
+      "summary": "展开罗素悖论中集合是否包含自身的矛盾，展示朴素集合构造的限制；文中其他悖论解释不等于严格定理陈述。"
+    },
+    {
+      "title": "直线是由点组成的吗？那不是说无限个零相加大于零？",
+      "url": "https://www.zhihu.com/answer/32767436",
+      "summary": "从集合势和一一对应开始解释可数与不可数。"
+    },
+    {
+      "title": "是否只有两个圈和三个圈的维恩图？",
+      "url": "https://www.zhihu.com/answer/35294322",
+      "summary": "正文以维恩图说明集合的包含关系与区域划分。"
+    },
+    {
+      "title": "有哪些看似荒谬，其实很科学的理论？",
+      "url": "https://www.zhihu.com/answer/35976071",
+      "summary": "正文将等势解释为集合之间存在一一映射。"
+    },
+    {
+      "title": "为什么有些数学家不能接受良序定理？",
+      "url": "https://www.zhihu.com/answer/38071887",
+      "summary": "正文讨论良序定理、选择公理与任意集合的良序，属于集合论内容。"
+    },
+    {
+      "title": "为什么说罗素悖论对数学是一次严重的危机？到底对数学产生了怎样的影响？",
+      "url": "https://www.zhihu.com/answer/40887495",
+      "summary": "正文说明集合论与数学基础的关系。"
+    },
+    {
+      "title": "阿列夫零是什么？",
+      "url": "https://www.zhihu.com/answer/40967509",
+      "summary": "正文以集合势与基数引入阿列夫零。"
+    },
+    {
+      "title": "数学在被定义之前存在吗？",
+      "url": "https://www.zhihu.com/answer/41919654",
+      "summary": "正文说明公理化集合论在罗素悖论后的作用。"
+    },
+    {
+      "title": "集合论和一阶逻辑的关系是什么？",
+      "url": "https://www.zhihu.com/answer/42779583",
+      "summary": "正文解释集合论与一阶逻辑的关系。"
+    },
+    {
+      "title": "区间[-1,1]上的数多，还是区间[-10,10]上的数多？",
+      "url": "https://www.zhihu.com/answer/45676378",
+      "summary": "正文以x映射到10x建立双射，说明两个实数区间等势。"
+    },
+    {
+      "title": "布尔代数是怎么出现的？",
+      "url": "https://www.zhihu.com/answer/46098393",
+      "summary": "正文以集合、子集、并交补的定义建立布尔代数。"
+    },
+    {
+      "title": "哪些数学定理在直觉上是对的，但证明起来很困难？",
+      "url": "https://www.zhihu.com/answer/46466999",
+      "summary": "正文陈述两个集合各自可嵌入时基数相等的Schröder–Bernstein定理。"
+    },
+    {
+      "title": "如果数学规律被改变，世界将会变成什么样子？",
+      "url": "https://www.zhihu.com/answer/46619389",
+      "summary": "正文逐条介绍ZF集合论公理及集合构造。"
+    },
+    {
+      "title": "如何理解「异或」的含义？",
+      "url": "https://www.zhihu.com/answer/50728074",
+      "summary": "正文以维恩图和集合交集解释异或排除共存情形。"
+    },
+    {
+      "title": "在学习数学时，怎么理解数学上的“定义”?",
+      "url": "https://www.zhihu.com/answer/58782438",
+      "summary": "正文以集合为数学对象的定义源头，说明集合与其他对象的关系。"
+    },
+    {
+      "title": "如何解释「有限」、「可数」、「不可数」与「无限」？",
+      "url": "https://www.zhihu.com/answer/65485772",
+      "summary": "正文用有限集、可数无穷集和不可数集系统讲解集合的可数性。"
+    },
+    {
+      "title": "请问公理集合论是如何解决罗素悖论的？",
+      "url": "https://www.zhihu.com/answer/66207453",
+      "summary": "正文解释 ZFC 中集合分离公理限制集合的构造。"
+    },
+    {
+      "title": "请问σ-代数（sigma-algebra）的含义是什么，能否举例说明？",
+      "url": "https://www.zhihu.com/answer/67860525",
+      "summary": "正文严格定义事件集合及其集合运算封闭性。"
+    },
+    {
+      "title": "任意无限集必包含一个可列子集 怎么证明？",
+      "url": "https://www.zhihu.com/answer/73349009",
+      "summary": "正文在集合语境中证明无限集包含可数子集。"
+    },
+    {
+      "title": "离散数学讲些什么内容？在计算机科学有什么应用？该怎么学好？",
+      "url": "https://www.zhihu.com/answer/75581269",
+      "summary": "正文把集合论列为离散数学的基础内容。"
+    },
+    {
+      "title": "存在绝对正确的道理吗？",
+      "url": "https://www.zhihu.com/answer/81532692",
+      "summary": "正文用集合及子集构造讨论绝对正确命题的存在性。"
+    },
+    {
+      "title": "被理发师忽悠是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/87557406",
+      "summary": "正文用理发师悖论解释罗素悖论和集合自指矛盾。"
+    },
+    {
+      "title": "有哪些原本就是本行业翘楚，而后转战其他领域依旧生猛得一塌糊涂的例子？",
+      "url": "https://www.zhihu.com/answer/91917349",
+      "summary": "正文用理发师悖论解释罗素悖论及集合论困境。"
+    },
+    {
+      "title": "如何简单清晰地解释哥德尔不完备定理？",
+      "url": "https://www.zhihu.com/answer/93985761",
+      "summary": "正文用正则公理和罗素悖论澄清朴素集合论自指问题。"
+    },
+    {
+      "title": "数学中关于集合、空间、数域概念的关系？",
+      "url": "https://www.zhihu.com/answer/94981893",
+      "summary": "正文从对象与部分、作用与语义的关系系统解释集合的形式作用。"
+    },
+    {
+      "title": "「区间 [0,1] 的实数个数等于整个实数集合的实数个数」这句话如何理解？",
+      "url": "https://www.zhihu.com/answer/97994013",
+      "summary": "正文比较区间、整数集合与实数集合的元素个数。"
+    },
+    {
+      "title": "抽象代数教育可以在初高中引入吗？",
+      "url": "https://www.zhihu.com/answer/99209982",
+      "summary": "正文解释抽象代数依赖集合及结构化集合，并说明中学生对抽象集合概念的实际掌握状况。"
+    },
+    {
+      "title": "集合的极限怎么定义的？集合的度量又是什么？",
+      "url": "https://www.zhihu.com/answer/100566126",
+      "summary": "正文通过集合列的上下极限、核心成员和备选成员解释集合极限。"
+    },
+    {
+      "title": "直线和圆上的点，哪个更多？",
+      "url": "https://www.zhihu.com/answer/101450394",
+      "summary": "正文用集合间一一映射和等势比较圆、直线、自然数与实数集合。"
+    },
+    {
+      "title": "选择公理到底是什么?",
+      "url": "https://www.zhihu.com/answer/102442755",
+      "summary": "正文以集合族、并集和从每个非空集合取元素解释公理。"
+    },
+    {
+      "title": "真正的科学家会如何面对终极的三观颠覆？",
+      "url": "https://www.zhihu.com/answer/103501615",
+      "summary": "正文以康托尔集合论和罗素悖论解释第三次数学危机。"
+    },
+    {
+      "title": "如何评价 Knuth 的《研究之美》 以及高博对此书的翻译？",
+      "url": "https://www.zhihu.com/answer/106828602",
+      "summary": "正文说明《研究之美》怎样从集合构造数并以集合运算定义算术。"
+    },
+    {
+      "title": "戴德金对实数构造提出的分划的真实意义是什么？为何对有理数系存在有理分划和无理分划？",
+      "url": "https://www.zhihu.com/answer/108383567",
+      "summary": "正文用两个有理数集合 A、B 的分割构造实数，实质使用集合结构。"
+    },
+    {
+      "title": "有没有双重否定不是肯定的情况？",
+      "url": "https://www.zhihu.com/answer/115121368",
+      "summary": "正文用全集不同导致两次补集不回到原集合解释双重否定。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/116474414",
+      "summary": "正文把类型定义为可接受值的集合，并定义和与笛卡尔积。"
+    },
+    {
+      "title": "无限不循环（如 π、e）的存在是否也一定程度解释了世界的特性？",
+      "url": "https://www.zhihu.com/answer/116798251",
+      "summary": "正文从整数、分数到代数方程的有限符号表示构造集合，并用可数性得出表示能力边界。"
+    },
+    {
+      "title": "按照无限猴子定律，是不是圆周率中就包含了描述整个宇宙信息？",
+      "url": "https://www.zhihu.com/answer/117083980",
+      "summary": "正文以集合论基数区分整数集合和一元函数集合。"
+    },
+    {
+      "title": "哪些数学定理在直觉上是对的，但证明起来很困难？",
+      "url": "https://www.zhihu.com/answer/117414559",
+      "summary": "正文定义集合等势、单射、满射与双射，并以集合间映射讨论基数。"
+    },
+    {
+      "title": "如何让一个 5 岁小孩听懂什么是选择公理？",
+      "url": "https://www.zhihu.com/answer/118011956",
+      "summary": "正文定义集族、非空集合和选择函数，并用集合语言解释公理。"
+    },
+    {
+      "title": "小时候想到的一个数学问题，现在还没有想明白，可能以后会越来越不明白，有哪位大牛可以帮我解答吗？",
+      "url": "https://www.zhihu.com/answer/121264374",
+      "summary": "正文用状态全集的划分、子集与知识算子建立共同知识模型。"
+    },
+    {
+      "title": "如何直观地理解群论？",
+      "url": "https://www.zhihu.com/answer/127659716",
+      "summary": "正文先解释集合、对象与运算，再说明群是一种特殊的集合加运算结构。"
+    },
+    {
+      "title": "据说罗素悖论有解，如何解？",
+      "url": "https://www.zhihu.com/answer/133390930",
+      "summary": "正文从素朴集合的概括规则出发解释罗素悖论，并比较公理集合论的处理。"
+    },
+    {
+      "title": "为什么会产生悖论？",
+      "url": "https://www.zhihu.com/answer/133768293",
+      "summary": "正文用罗素悖论解释素朴集合论概括原则的失败与集合定义问题。"
+    },
+    {
+      "title": "两个实数之间有无穷多个数，那么一个实数旁边难道不是像一串珠子一样紧挨着另一个数字吗？",
+      "url": "https://www.zhihu.com/answer/136019026",
+      "summary": "正文用映射、等势、可数性与实数连续统解释自然数集和实数集的差异。"
+    },
+    {
+      "title": "∞+1和∞谁大？",
+      "url": "https://www.zhihu.com/answer/136649180",
+      "summary": "正文用集合基数、无交并和一一点紧化解释不同论域中的无穷。"
+    },
+    {
+      "title": "如何理解那些比不可达基数更大的基数？",
+      "url": "https://www.zhihu.com/answer/137092155",
+      "summary": "正文在集合论层级、超滤、内模型和初等嵌入框架中研究大基数。"
+    },
+    {
+      "title": "一阶逻辑和高阶逻辑的区别，能不能具象一点说明？",
+      "url": "https://www.zhihu.com/answer/151477106",
+      "summary": "正文用集合论语言解释一阶量化个体、二阶量化个体集合及更高阶集合。"
+    },
+    {
+      "title": "哪些看似毫不相干的事物具有相同的数学原理？",
+      "url": "https://www.zhihu.com/answer/156815014",
+      "summary": "正文以罗素悖论、实数与有理数势及康托对角线方法讨论集合。"
+    },
+    {
+      "title": "∞+1和∞谁大？",
+      "url": "https://www.zhihu.com/answer/176274619",
+      "summary": "正文用单射、双射和等势比较无限集合元素多少。"
+    },
+    {
+      "title": "为什么说罗素悖论对数学是一次严重的危机？到底对数学产生了怎样的影响？",
+      "url": "https://www.zhihu.com/answer/189091114",
+      "summary": "正文以罗素悖论说明朴素集合定义如何产生自指矛盾。"
+    },
+    {
+      "title": "标记 n 维空间中任意一个点/向量一定要用 n 个坐标吗？",
+      "url": "https://www.zhihu.com/answer/195220199",
+      "summary": "正文用基数与一一映射讨论不同维欧氏空间点集的势。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/206890795",
+      "summary": "正文用空集合族的并与交解释集合运算中的虚真论断。"
+    },
+    {
+      "title": "给一只猴子26个英文字母还有无限的时间,它总有一天能拼出一本莎士比亚全集吗？",
+      "url": "https://www.zhihu.com/answer/211313114",
+      "summary": "正文通过正整数集与平方数集的一一对应讲集合等势。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/231361053",
+      "summary": "正文用映射和势比较正整数集与偶数集。"
+    },
+    {
+      "title": "你听过哪些反智的鸡汤？",
+      "url": "https://www.zhihu.com/answer/231777603",
+      "summary": "正文构造康托尔集并说明其测度与维数。"
+    },
+    {
+      "title": "怎么评价不可知论？",
+      "url": "https://www.zhihu.com/answer/235729926",
+      "summary": "正文以ZFC和罗素悖论说明集合论公理化。"
+    },
+    {
+      "title": "如果存在一个理论上无法证明，但在应用中从未被证伪的公式或理论。数学上能不能把它当公理？",
+      "url": "https://www.zhihu.com/answer/245162465",
+      "summary": "正文用集合间双射解释无穷集合的基数比较。"
+    },
+    {
+      "title": "A＝B一定能推出B＝A吗？",
+      "url": "https://www.zhihu.com/answer/248951431",
+      "summary": "正文在集合上定义等价关系并解释自反、对称和传递性质。"
+    },
+    {
+      "title": "可测集多还是不可测集多？ 即一维，直到n维的欧氏空间中，可测集类和不可测集类是否等势？",
+      "url": "https://www.zhihu.com/answer/250126635",
+      "summary": "正文通过子集族的基数证明两类集合都是 2^c。"
+    },
+    {
+      "title": "关于定义无穷大的问题？",
+      "url": "https://www.zhihu.com/answer/267011961",
+      "summary": "正文解释无穷基数、无穷序数及其不同的算术规则。"
+    },
+    {
+      "title": "有哪些悖论一下子就吸引了你？",
+      "url": "https://www.zhihu.com/answer/267760556",
+      "summary": "正文说明一一对应与等势思想，并联系集合论的发展。"
+    },
+    {
+      "title": "有哪些悖论一下子就吸引了你？",
+      "url": "https://www.zhihu.com/answer/270108286",
+      "summary": "正文用理发师悖论解释集合自指问题及集合论危机。"
+    },
+    {
+      "title": "模糊数学理论的争议？",
+      "url": "https://www.zhihu.com/answer/270980750",
+      "summary": "正文对比经典集合与模糊集合中元素的二值及连续隶属状态。"
+    },
+    {
+      "title": "有哪些「大众默认专家搞懂了，实际上没人能解释清楚」的例子？",
+      "url": "https://www.zhihu.com/answer/274171087",
+      "summary": "正文从罗素悖论和 ZFC 公理说明集合概念的严格化。"
+    },
+    {
+      "title": "从空集可以构造出所有的数学对象吗？",
+      "url": "https://www.zhihu.com/answer/288325486",
+      "summary": "正文从一阶语言、公理与构造规则说明集合论中的对象。"
+    },
+    {
+      "title": "数学中为什么要定义各种空间？",
+      "url": "https://www.zhihu.com/answer/301410236",
+      "summary": "正文用“集合加结构”解释现代数学空间的抽象定义。"
+    },
+    {
+      "title": "罗素的数学成就有哪些？",
+      "url": "https://www.zhihu.com/answer/301806056",
+      "summary": "正文以罗素悖论解释朴素集合论转向公理集合论的原因。"
+    },
+    {
+      "title": "陪域跟值域的区别？",
+      "url": "https://www.zhihu.com/answer/310555281",
+      "summary": "正文把值域和陪域都严格定义为集合并讨论包含关系。"
+    },
+    {
+      "title": "有没有能让卡西欧科学计算器计算时间最长的式子？",
+      "url": "https://www.zhihu.com/answer/311466493",
+      "summary": "正文以计算器可输入表达式构成有限集，从而证明计算时间一定取得最大值。"
+    },
+    {
+      "title": "如何构造一个 0.999…≠1 的「系统」？",
+      "url": "https://www.zhihu.com/answer/313254028",
+      "summary": "正文用左右集合和戴德金分割递归构造数。"
+    },
+    {
+      "title": "你知道哪些反常识的知识？",
+      "url": "https://www.zhihu.com/answer/318961254",
+      "summary": "正文用集合元素一一对应解释集合等势。"
+    },
+    {
+      "title": "范畴论能作为数学的基础吗？",
+      "url": "https://www.zhihu.com/answer/319331215",
+      "summary": "正文比较集合论、范畴论和类型论作为数学基础的差异。"
+    },
+    {
+      "title": "连续统假设对要证明它的数学家有啥意义？",
+      "url": "https://www.zhihu.com/answer/324956900",
+      "summary": "正文从集合论宇宙讨论连续统假设。"
+    },
+    {
+      "title": "能否通过穷举文字排列得到超过时代的科技？更进一步是否可以与未来人类对话？",
+      "url": "https://www.zhihu.com/answer/326849387",
+      "summary": "正文用集合及其约束形式化描述映射。"
+    },
+    {
+      "title": "事件域和样本空间有什么区别？",
+      "url": "https://www.zhihu.com/answer/342356986",
+      "summary": "正文用幂集与子集关系定义样本空间和事件域。"
+    },
+    {
+      "title": "连续统是什么意思？如何理解连续统与实数的关系？",
+      "url": "https://www.zhihu.com/answer/357562631",
+      "summary": "正文把连续统定义为具有次序、稠密与完备性质的集合。"
+    },
+    {
+      "title": "数理逻辑的技术性成果对哲学问题有什么影响？",
+      "url": "https://www.zhihu.com/answer/372070934",
+      "summary": "正文以幂集、基数与集合映射系统推导 Cantor 定理的哲学应用。"
+    },
+    {
+      "title": "自然数到底是否包括「0」？",
+      "url": "https://www.zhihu.com/answer/391452712",
+      "summary": "正文用Zermelo与冯诺依曼集合构造自然数。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/393538170",
+      "summary": "正文用集合嵌套表示树并讲解序数与自然数集合。"
+    },
+    {
+      "title": "如何通俗地介绍一下全部三次数学危机？",
+      "url": "https://www.zhihu.com/answer/401393252",
+      "summary": "正文通过罗素悖论说明朴素集合论的危机。"
+    },
+    {
+      "title": "如何证明一个数学命题的不可证性？",
+      "url": "https://www.zhihu.com/answer/403142684",
+      "summary": "正文讨论集合论模型、内模型和力迫扩张。"
+    },
+    {
+      "title": "葛立恒数、Tree(3)、不可达基数、大基数、阿列夫零、阿列夫1分别是什么？",
+      "url": "https://www.zhihu.com/answer/404164610",
+      "summary": "正文用双射、单射、基数与大基数公理讲解集合大小。"
+    },
+    {
+      "title": "「无理数都是开方开不尽的数」这句话正确吗？",
+      "url": "https://www.zhihu.com/answer/407439111",
+      "summary": "正文把争议形式化为两个集合的包含关系。"
+    },
+    {
+      "title": "如何理解条件概率？",
+      "url": "https://www.zhihu.com/answer/410847522",
+      "summary": "正文用集合语言定义样本空间和事件。"
+    },
+    {
+      "title": "分析中的无穷和集合论中的无穷有关系吗？",
+      "url": "https://www.zhihu.com/answer/452062392",
+      "summary": "正文以等势和无穷公理刻画无穷集合。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/459031910",
+      "summary": "正文介绍可数集、不可数集、幂集与连续统假设。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/459310814",
+      "summary": "正文通过一一映射解释无穷集合的等势，并引出选择公理相关结果。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/459931181",
+      "summary": "正文讨论集合势、幂集与连续统假设。"
+    },
+    {
+      "title": "既然点没有长度，为什么线段就有长度？",
+      "url": "https://www.zhihu.com/answer/470221844",
+      "summary": "正文从不可数点集解释线段作为集合的大小。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/472397585",
+      "summary": "正文通过双射和势系统解释无限集合的大小。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/474798837",
+      "summary": "正文通过基数、双射和真子集解释无限集合的势。"
+    },
+    {
+      "title": "以数学史的观点来看，集合论是如何成为数学基础的？",
+      "url": "https://www.zhihu.com/answer/483086345",
+      "summary": "正文从康托对角线法、公理集合论到数学基础讲解集合论史。"
+    },
+    {
+      "title": "全序关系和偏序关系的区别是什么？",
+      "url": "https://www.zhihu.com/answer/500886873",
+      "summary": "正文用集合包含与整数整除解释偏序关系。"
+    },
+    {
+      "title": "选择公理到底是什么?",
+      "url": "https://www.zhihu.com/answer/504153906",
+      "summary": "围绕从无穷多个非空集合各取一个元素并组成新集合，说明集族和选择函数。"
+    },
+    {
+      "title": "写一个你认为尽可能大的数？",
+      "url": "https://www.zhihu.com/answer/504191763",
+      "summary": "介绍 ZFC、构造层级 V 与 L(A)、初等嵌入和大基数等集合论结构。"
+    },
+    {
+      "title": "等价关系的自反性、对称性、传递性分别有什么作用？",
+      "url": "https://www.zhihu.com/answer/515319509",
+      "summary": "正文把等价关系定义为笛卡尔积的子集，并解释自反、对称、传递三个集合论条件。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/516414276",
+      "summary": "正文讨论正整数集的分划以及自然数、整数、有理数等集合的基数。"
+    },
+    {
+      "title": "两个有理数之间必然存在一个无理数，两个无理数之间必然存在一个有理数，但是为何无理数多于有理数？",
+      "url": "https://www.zhihu.com/answer/526734251",
+      "summary": "指出比较两类无限集合的多少需要集合论中的特殊计数方法。"
+    },
+    {
+      "title": "如何构造 [0,1] * [0,1] 到 [0,1] 的双射 ?",
+      "url": "https://www.zhihu.com/answer/528691119",
+      "summary": "通过拆分小数位构造单位正方形与单位区间之间的一一对应。"
+    },
+    {
+      "title": "历史上有哪些如神一般存在的人物？",
+      "url": "https://www.zhihu.com/answer/533591482",
+      "summary": "正文说明冯诺依曼公理体系经完善形成 NBG 集合论系统。"
+    },
+    {
+      "title": "类型（Types）和集合（Sets）二者之间有何区别？",
+      "url": "https://www.zhihu.com/answer/538107513",
+      "summary": "全文从对象、成员与模型角度比较集合论和类型论。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/543972297",
+      "summary": "正文给出集合列的上极限与下极限定义。"
+    },
+    {
+      "title": "有哪些让人眼前一亮的函数？",
+      "url": "https://www.zhihu.com/answer/571974023",
+      "summary": "正文用阿列夫数介绍集合基数与超限基数。"
+    },
+    {
+      "title": "如果时间无限的话，能不能写完 [0, 1] 之间的所有实数？",
+      "url": "https://www.zhihu.com/answer/576688788",
+      "summary": "正文用闭区间套说明无法枚举区间内全部实数。"
+    },
+    {
+      "title": "什么叫不可计算数？",
+      "url": "https://www.zhihu.com/answer/578640632",
+      "summary": "正文从集合基数比较可计算数与实数。"
+    },
+    {
+      "title": "如果时间无限的话，能不能写完 [0, 1] 之间的所有实数？",
+      "url": "https://www.zhihu.com/answer/579258039",
+      "summary": "正文从可列性与实数不可数性讨论枚举问题。"
+    },
+    {
+      "title": "你所在数学领域的 big picture 是什么？",
+      "url": "https://www.zhihu.com/answer/588089111",
+      "summary": "以集合论宇宙和 HOD 说明现代集合论研究的整体图景。"
+    },
+    {
+      "title": "数学为什么能由那几条公理推导出这么多的公式？",
+      "url": "https://www.zhihu.com/answer/592743164",
+      "summary": "正文说明集合论作为现代数学基础的形成。"
+    },
+    {
+      "title": "除 0 与 1 外，是否存在无限求平方根仍为有理数的数？",
+      "url": "https://www.zhihu.com/answer/595909042",
+      "summary": "正文从 ZFC 模型讨论自然数集合与非标准模型。"
+    },
+    {
+      "title": "为什么测度论要建立在σ-代数上？",
+      "url": "https://www.zhihu.com/answer/636709769",
+      "summary": "说明不可数集的全部子集不能同时满足测度公理，因此选择子集族。"
+    },
+    {
+      "title": "你所在的科研领域有哪些做不动的问题？",
+      "url": "https://www.zhihu.com/answer/637204692",
+      "summary": "定义集合的和集与积集，并比较不同结构下集合增长。"
+    },
+    {
+      "title": "绝对无限和不可达基数有什么关系？",
+      "url": "https://www.zhihu.com/answer/645896289",
+      "summary": "以真类、全集与幂集讨论不同集合论宇宙。"
+    },
+    {
+      "title": "R^n与R^m作为abel加法群是同构的吗？(m≠n)？",
+      "url": "https://www.zhihu.com/answer/675202342",
+      "summary": "通过基的势与双射比较不同维实空间。"
+    },
+    {
+      "title": "如果有一台真理机器只能回答是或不是，能对人类社会作多大贡献？",
+      "url": "https://www.zhihu.com/answer/688078758",
+      "summary": "借理发师悖论与自指说明朴素集合论的矛盾。"
+    },
+    {
+      "title": "数学上为何要定义笛卡尔乘积？用来解决哪些问题？",
+      "url": "https://www.zhihu.com/answer/690763446",
+      "summary": "从笛卡尔积定义关系及映射的集合基础。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/705200215",
+      "summary": "定义二元关系、等价关系与集合划分。"
+    },
+    {
+      "title": "最难的数学有多难？",
+      "url": "https://www.zhihu.com/answer/719641887",
+      "summary": "正文以集合论基数与连续统假设说明困难问题。"
+    },
+    {
+      "title": "学习集合论有什么中文教材推荐？",
+      "url": "https://www.zhihu.com/answer/737063603",
+      "summary": "正文说明集合论学习对象与层次。"
+    },
+    {
+      "title": "怎么理解拟阵（matroid）？",
+      "url": "https://www.zhihu.com/answer/740466359",
+      "summary": "以有限集合及其独立子集族给出拟阵定义。"
+    },
+    {
+      "title": "做过最气的题是什么题？",
+      "url": "https://www.zhihu.com/answer/745071924",
+      "summary": "用集合表示每个数字的可变状态。"
+    },
+    {
+      "title": "如何证明无理数的个数比有理数多？",
+      "url": "https://www.zhihu.com/answer/745584062",
+      "summary": "全文以集合的势和可数性比较大小。"
+    },
+    {
+      "title": "随手画线段，其长度最有可能是有理数还是无理数？",
+      "url": "https://www.zhihu.com/answer/746328067",
+      "summary": "正文用二进制表示和幂集比较有理数与实数的基数。"
+    },
+    {
+      "title": "-2π 是负数还是无理数？",
+      "url": "https://www.zhihu.com/answer/748484080",
+      "summary": "用集合交集说明数的多重分类。"
+    },
+    {
+      "title": "单射双射与满射的定义区别？",
+      "url": "https://www.zhihu.com/answer/757334355",
+      "summary": "以原象集、象集及笛卡尔积表述映射。"
+    },
+    {
+      "title": "有人说「骰子掷一次掷出6的概率为50%，因为只有是6、不是6两种事件」，请问如何反驳？",
+      "url": "https://www.zhihu.com/answer/760028798",
+      "summary": "用集合及其子集区分样本与事件。"
+    },
+    {
+      "title": "数理逻辑和集合论哪个更基本 ？",
+      "url": "https://www.zhihu.com/answer/760102788",
+      "summary": "讨论集合论作为数学基础的位置。"
+    },
+    {
+      "title": "怎么判断一个优化问题是凸优化还是非凸优化？",
+      "url": "https://www.zhihu.com/answer/762727073",
+      "summary": "利用下水平集和凸集交集证明可行域为凸集。"
+    },
+    {
+      "title": "一道奥林匹克数学竞赛题，如何解答？",
+      "url": "https://www.zhihu.com/answer/765727940",
+      "summary": "反复使用集合、子集与并集描述询问。"
+    },
+    {
+      "title": "有哪些数学定理的推出过程是值得细细品味的？",
+      "url": "https://www.zhihu.com/answer/775533428",
+      "summary": "以集合与幂集完整陈述康托定理。"
+    },
+    {
+      "title": "如何激怒一位数学爱好者？",
+      "url": "https://www.zhihu.com/answer/779204340",
+      "summary": "通过双射比较两个无限集合的势。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/786980012",
+      "summary": "用迭代轨道集合的交并关系构造函数。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/790533452",
+      "summary": "用实数集、复数集和轨道集合分类讨论。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/791442453",
+      "summary": "研究标准数列之间的集合交集与映射。"
+    },
+    {
+      "title": "数学这门学科有多有趣？",
+      "url": "https://www.zhihu.com/answer/793899681",
+      "summary": "以偶数和整数等势解释集合基数。"
+    },
+    {
+      "title": "能否以通俗的语言解释borel集？",
+      "url": "https://www.zhihu.com/answer/826902516",
+      "summary": "通过补、有限并和可数并封闭刻画集合族。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/842608307",
+      "summary": "正文以线段点集的一一对应说明无限集合基数的反直觉性质。"
+    },
+    {
+      "title": "整数多还是偶数多？",
+      "url": "https://www.zhihu.com/answer/846063521",
+      "summary": "用双射和等势比较无限集合基数。"
+    },
+    {
+      "title": "数理逻辑“四论”的研究成果能给科学哲学/物理学哲学哪些帮助和启示？",
+      "url": "https://www.zhihu.com/answer/848039411",
+      "summary": "比较集合论与其他基础体系。"
+    },
+    {
+      "title": "sin n 的值集是 (-1, 1) 吗？",
+      "url": "https://www.zhihu.com/answer/851863901",
+      "summary": "区分可数集合、区间和稠密集。"
+    },
+    {
+      "title": "如果存在一个函数，代入有理数后得到无理数，代入无理数后得到有理数，那么这个函数是否一定不连续？",
+      "url": "https://www.zhihu.com/answer/855953273",
+      "summary": "用可数集、连通集与区间基数证明。"
+    },
+    {
+      "title": "能否用通俗易懂的语言介绍一下戴德金分割？",
+      "url": "https://www.zhihu.com/answer/859252046",
+      "summary": "用两个集合的序关系构造实数。"
+    },
+    {
+      "title": "错在哪里啊这个?",
+      "url": "https://www.zhihu.com/answer/859754181",
+      "summary": "用集合形式刻画函数定义域。"
+    },
+    {
+      "title": "有哪些悖论一下子就吸引了你？",
+      "url": "https://www.zhihu.com/answer/864943391",
+      "summary": "完整解释罗素悖论对朴素集合论的冲击。"
+    },
+    {
+      "title": "哲学求助！为什么我对于「世界上不存在任何永恒不变的真理」，最后会推出结果：世界上存在绝对真理？",
+      "url": "https://www.zhihu.com/answer/868936946",
+      "summary": "正文从自指集合的定义问题解释罗素悖论，实质讨论集合论基础。"
+    },
+    {
+      "title": "阿列夫零是所有自然数的总数，阿列夫一是实数的总数，阿列夫二是曲线的总数，那阿列夫三是什么的总数？",
+      "url": "https://www.zhihu.com/answer/868987106",
+      "summary": "正文通过实数集、幂集与基数运算解释集合的势。"
+    },
+    {
+      "title": "集合论中的每一条公理背后的动机是什么，少了其中一条会有什么后果?",
+      "url": "https://www.zhihu.com/answer/897970192",
+      "summary": "正文以集合论为基础，具体解释外延、子集、无序对、并集、幂集等集合构造。"
+    },
+    {
+      "title": "⊆  ⫋  ⊊  ⊄  ⊂分别是什么意思？",
+      "url": "https://www.zhihu.com/answer/901638051",
+      "summary": "正文逐一解释子集、真子集、包含与不包含符号的集合论含义。"
+    },
+    {
+      "title": "如何用你所在的领域专业知识证明人类的本质是「套娃」？",
+      "url": "https://www.zhihu.com/answer/942635005",
+      "summary": "正文用自然数集合及幂集构造解释集合论中的无穷序数。"
+    },
+    {
+      "title": "从1到1亿有一亿个整数，是否有可能存在一个整数，从来没有人读过它?",
+      "url": "https://www.zhihu.com/answer/946639925",
+      "summary": "正文用可数集与不可数集的基数差异论证未被命名数字的存在。"
+    },
+    {
+      "title": "数学思维在生活中有多大用处？",
+      "url": "https://www.zhihu.com/answer/982796547",
+      "summary": "正文解释集合划分、包含关系与容斥原理并用于现实分类。"
+    },
+    {
+      "title": "如何证明代数数是可列集？",
+      "url": "https://www.zhihu.com/answer/984053997",
+      "summary": "正文用集合的可数并证明整系数多项式与代数数集合可数。"
+    },
+    {
+      "title": "0.99999....8 是无理数还是有理数？",
+      "url": "https://www.zhihu.com/answer/988795569",
+      "summary": "正文围绕集合表示中省略号的一意性讨论定义的严谨性。"
+    },
+    {
+      "title": "你知道哪些反常识的知识？",
+      "url": "https://www.zhihu.com/answer/996799957",
+      "summary": "正文实质讨论集合论、罗素悖论及ZF修补。"
+    },
+    {
+      "title": "「有些动物是猫，有些猫是黄色的，所以有些动物是黄色的」这个三段论有没有问题？",
+      "url": "https://www.zhihu.com/answer/998851581",
+      "summary": "正文借集合图辨析三段论中存在命题的包含关系。"
+    },
+    {
+      "title": "正整数和正整数中的偶数哪个多（如何证明）？",
+      "url": "https://www.zhihu.com/answer/1011261681",
+      "summary": "正文以子集、等价类和一一对应研究集合大小。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/1057509062",
+      "summary": "正文用集合的势、可数与不可数解释不同无穷集合的大小。"
+    },
+    {
+      "title": "为什么不是所有函数都能用解析式表达？",
+      "url": "https://www.zhihu.com/answer/1119577293",
+      "summary": "正文由集合的可数性讨论可表示对象的规模。"
+    },
+    {
+      "title": "谁能用高中生听得懂的语言解释一下罗素悖论是什么？",
+      "url": "https://www.zhihu.com/answer/1127835781",
+      "summary": "正文用集合自包含构造并解释罗素悖论。"
+    },
+    {
+      "title": "现在的数学都在研究什么？有哪些前沿领域与研究？",
+      "url": "https://www.zhihu.com/answer/1154901698",
+      "summary": "正文从集合、关系、函数和等价解释集合论的基础地位。"
+    },
+    {
+      "title": "康托尔的「一一对应即相等」的无穷多比较法，高斯会认同吗？",
+      "url": "https://www.zhihu.com/answer/1192913083",
+      "summary": "正文说明集合论如何支撑现代分析、拓扑和概率理论。"
+    },
+    {
+      "title": "上帝悖论是否有解？",
+      "url": "https://www.zhihu.com/answer/1269773647",
+      "summary": "正文用集合包含自身及全部子集刻画全知全能悖论。"
+    },
+    {
+      "title": "多集合容斥极值公式如何理解或者推导？",
+      "url": "https://www.zhihu.com/answer/1280961060",
+      "summary": "正文用宿舍模型和交集状态解释多集合容斥极值。"
+    },
+    {
+      "title": "康托尔著名的对角线证明？",
+      "url": "https://www.zhihu.com/answer/1360871894",
+      "summary": "正文解释实数构造、集合公理与数学哲学立场。"
+    },
+    {
+      "title": "数理逻辑中集合论、模型论、证明论、可计算性理论这四大领域的内在理论联系是什么？",
+      "url": "https://www.zhihu.com/answer/1370365745",
+      "summary": "正文用集合论表述模型满足关系和形式系统。"
+    },
+    {
+      "title": "所有整数都能用20个以内的汉字表达出来吗？",
+      "url": "https://www.zhihu.com/answer/1432268608",
+      "summary": "正文分析 Berry 悖论中“可表达整数”集合定义不合法。"
+    },
+    {
+      "title": "所有整数都能用20个以内的汉字表达出来吗？",
+      "url": "https://www.zhihu.com/answer/1432542864",
+      "summary": "正文用集合与可定义性讨论 Berry 悖论。"
+    },
+    {
+      "title": "哪些数学定理在直觉上是对的，但证明起来很困难？",
+      "url": "https://www.zhihu.com/answer/1468951521",
+      "summary": "正文用集合间的单射和双射陈述 Schröder-Bernstein 定理。"
+    },
+    {
+      "title": "所有整数都能用20个以内的汉字表达出来吗？",
+      "url": "https://www.zhihu.com/answer/1472287884",
+      "summary": "正文用有限集与可数无穷集的基数解释一一映射。"
+    },
+    {
+      "title": "在微积分教材一开始直接引入 epsilon-delta 语言是否有利？",
+      "url": "https://www.zhihu.com/answer/1495747452",
+      "summary": "正文直接给出与「集合」相关的解释、推导或应用。"
+    },
+    {
+      "title": "「罗素悖论」的提出给数学界带来何种影响，如何通俗地理解这一悖论？",
+      "url": "https://www.zhihu.com/answer/1583370578",
+      "summary": "正文从无限制概括公理和自指集合解释罗素悖论。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/1648160560",
+      "summary": "正文比较阿贝尔群子集的和集与差集大小。"
+    },
+    {
+      "title": "数学中有哪些看起来很不可思议的知识？",
+      "url": "https://www.zhihu.com/answer/1707244694",
+      "summary": "正文用实数集的分拆解释集合势的反直觉性质。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/1709021846",
+      "summary": "正文用序数和良序结构证明古德斯坦数列最终归零。"
+    },
+    {
+      "title": "为什么中国人数学这么牛，却几乎没有中国人发现的数学定理？",
+      "url": "https://www.zhihu.com/answer/1720809154",
+      "summary": "正文介绍 Erdős-Ko-Rado 定理及其集合族结论。"
+    },
+    {
+      "title": "数学最基础的知识是什么？",
+      "url": "https://www.zhihu.com/answer/1743031818",
+      "summary": "正文直接讨论或推导「集合」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "数学界有哪些通俗易懂的 open problem？",
+      "url": "https://www.zhihu.com/answer/1785005913",
+      "summary": "正文用满射、单射和选择公理解释集合论开问题。"
+    },
+    {
+      "title": "谁能通俗易懂地解释德·摩根律？",
+      "url": "https://www.zhihu.com/answer/1824680180",
+      "summary": "正文用集合补集、交集和并集解释德摩根定律，并给出 Venn 图直观。"
+    },
+    {
+      "title": "自然数不是属于整数吗？为什么两者还一样多？",
+      "url": "https://www.zhihu.com/answer/1850166171",
+      "summary": "正文以康托尔集合论解释无穷集合的大小。"
+    },
+    {
+      "title": "数学为什么需要证明一些看起来非常直观、明显的东西（比如定理）？",
+      "url": "https://www.zhihu.com/answer/1964930685",
+      "summary": "正文列举分球悖论、选择公理和无穷集合反直觉现象。"
+    },
+    {
+      "title": "陶哲轩实分析公理3.9(正则公理)该怎么理解？",
+      "url": "https://www.zhihu.com/answer/2031796680",
+      "summary": "正文从概括公理和罗素悖论讨论集合公理。"
+    },
+    {
+      "title": "如何评价b站的“一数公益”？",
+      "url": "https://www.zhihu.com/answer/2081606072",
+      "summary": "正文详细讨论集合相等与子集包含关系的证明逻辑。"
+    },
+    {
+      "title": "如何向高一学生解释向量的意义？",
+      "url": "https://www.zhihu.com/answer/2082627593",
+      "summary": "正文先介绍集合上的等价关系与等价类，再用于向量定义。"
+    },
+    {
+      "title": "是否存在函数使得从（0,1）映射到[0,1] ,且是双方单值？",
+      "url": "https://www.zhihu.com/answer/2235249790",
+      "summary": "正文构造集合与分段映射，证明开区间到闭区间的双射。"
+    },
+    {
+      "title": "请问能否列举所有的Borel集？",
+      "url": "https://www.zhihu.com/answer/2236049551",
+      "summary": "正文用集合运算和序数解释 Borel 集虽然不可数但可分层构造。"
+    },
+    {
+      "title": "整数和偶数真的是「一样多」的吗？（我知道康托尔那套，但这个表述真的正确吗？）？",
+      "url": "https://www.zhihu.com/answer/2253288882",
+      "summary": "正文以集合论的一一对应解释无限集合的大小。"
+    },
+    {
+      "title": "有没有真正意义上的科幻小说?",
+      "url": "https://www.zhihu.com/answer/2265911937",
+      "summary": "正文从空集递归构造超现实数的自然数部分。"
+    },
+    {
+      "title": "√8-√2=√2，这是怎么得出来的？",
+      "url": "https://www.zhihu.com/answer/2269542061",
+      "summary": "正文以集合外延公理说明集合相等只由元素决定。"
+    },
+    {
+      "title": "以数学史的观点来看，集合论是如何成为数学基础的？",
+      "url": "https://www.zhihu.com/answer/2298427226",
+      "summary": "正文说明集合论如何把实数、实数集和函数概念严格化。"
+    },
+    {
+      "title": "以数学史的观点来看，集合论是如何成为数学基础的？",
+      "url": "https://www.zhihu.com/answer/2302680422",
+      "summary": "正文从数理逻辑史解释集合论如何成为数学基础。"
+    },
+    {
+      "title": "什么是描述集合论（descriptive set theory）？",
+      "url": "https://www.zhihu.com/answer/2305826783",
+      "summary": "正文从实数集、补集和连续像定义投影集。"
+    },
+    {
+      "title": "选择公理一直是一个争议点，我发现很多教科书的证明都默认选择公理成立，这是否有问题？",
+      "url": "https://www.zhihu.com/answer/2333285369",
+      "summary": "正文比较不同集合论公理体系。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/2364343365",
+      "summary": "正文讨论可构造宇宙中实数集合的基数结论。"
+    },
+    {
+      "title": "小学数学为什么不从集合论学起？",
+      "url": "https://www.zhihu.com/answer/2396541740",
+      "summary": "正文用小学数学内容说明集合与子集概念，并进一步比较朴素集合论和公理集合论。"
+    },
+    {
+      "title": "是否存在‘第四人称’？",
+      "url": "https://www.zhihu.com/answer/2442566030",
+      "summary": "正文用集合与谓词构造第四人称集合，并据此讨论其为空集。"
+    },
+    {
+      "title": "4≤5，这个不等式是否正确？",
+      "url": "https://www.zhihu.com/answer/2445869416",
+      "summary": "正文通过冯·诺依曼自然数及集合包含关系解释不等号。"
+    },
+    {
+      "title": "有哪些悖论一下子就吸引了你？",
+      "url": "https://www.zhihu.com/answer/2454804312",
+      "summary": "正文通过罗素悖论说明朴素集合论所暴露的基础问题。"
+    },
+    {
+      "title": "如何证明四个及以上集合的维恩图用圆形无法表示出？",
+      "url": "https://www.zhihu.com/answer/2468139474",
+      "summary": "正文从元素属于集合的不同情况讨论集合关系。"
+    },
+    {
+      "title": "如何直观理解集合的极限limsup/liminf?",
+      "url": "https://www.zhihu.com/answer/2479724086",
+      "summary": "正文从集合、事件和集合序列出发，逐步定义上下极限及最终发生的事件。"
+    },
+    {
+      "title": "如何直观理解集合的极限limsup/liminf?",
+      "url": "https://www.zhihu.com/answer/2481519903",
+      "summary": "从集合列的交并结构解释上极限与下极限，并给出具体集合列例子。"
+    },
+    {
+      "title": "「无限」这个概念真的能被人理解吗？",
+      "url": "https://www.zhihu.com/answer/2509619032",
+      "summary": "正文用空集、并集、幂集和基数的一一对应描述有限集与无限集。"
+    },
+    {
+      "title": "数学对象和物理对象的区别在哪里？",
+      "url": "https://www.zhihu.com/answer/2539956759",
+      "summary": "解释公理集合论中集合元素仍是集合、数学对象化为集合关系。"
+    },
+    {
+      "title": "如何证明区间［a,b］上的连续函数全体组成的集合，其基数为c？",
+      "url": "https://www.zhihu.com/answer/2539974785",
+      "summary": "构造双射与子集比较连续函数集合的基数。"
+    },
+    {
+      "title": "在小学「x＝3是方程吗？」这个概念的辨析有必要吗？",
+      "url": "https://www.zhihu.com/answer/2542563419",
+      "summary": "用集合、子集与映射解释解方程及解集的含义。"
+    },
+    {
+      "title": "是否存在从 (0,1) 到 [0,1] 的连续双射？",
+      "url": "https://www.zhihu.com/answer/2555799041",
+      "summary": "正文以有理数集合的可数性和子集关系为基础，说明如何安排开区间中的点来构造双射。"
+    },
+    {
+      "title": "如果两个集合的幂集等势，那么这两个集合等势吗？",
+      "url": "https://www.zhihu.com/answer/2589706187",
+      "summary": "讨论幂集等势与集合等势的关系，并说明该命题在 ZFC 中不可判定。"
+    },
+    {
+      "title": "小学数学为什么不从集合论学起？",
+      "url": "https://www.zhihu.com/answer/2589904039",
+      "summary": "介绍小学低年级以圈选、连线等图形活动隐式引入集合思想的教材案例。"
+    },
+    {
+      "title": "如何真正从本质上理解数学?",
+      "url": "https://www.zhihu.com/answer/2600766030",
+      "summary": "用圆圈划分范围说明集合、交集与并集的直观含义。"
+    },
+    {
+      "title": "什么是真正的数学思维？",
+      "url": "https://www.zhihu.com/answer/2609755669",
+      "summary": "用交集、并集和范围划分说明集合思维，并指出集合论的基础地位。"
+    },
+    {
+      "title": "是否存在函数使得从（0,1）映射到[0,1] ,且是双方单值？",
+      "url": "https://www.zhihu.com/answer/2616379214",
+      "summary": "用有限集、可数集与不可数集解释区间基数，并构造双射。"
+    },
+    {
+      "title": "ZFC能唯一地确定实数吗？",
+      "url": "https://www.zhihu.com/answer/2619450708",
+      "summary": "说明 ZFC 集合论作为数学基础如何承载实数与几何对象。"
+    },
+    {
+      "title": "引发第三次数学危机的「罗素悖论」，真的那么可怕吗？为此建立「公理集合论」是否小题大做？",
+      "url": "https://www.zhihu.com/answer/2624231604",
+      "summary": "梳理罗素悖论、朴素概括公理与 ZFC 集合论的发展关系。"
+    },
+    {
+      "title": "我们为何相信ZFC是一致的，有哪些证据在支撑这种信念呢？",
+      "url": "https://www.zhihu.com/answer/2625946902",
+      "summary": "讨论集合论公理选择、模型与大基数公理的一致性层级。"
+    },
+    {
+      "title": "有没有一本从集合论出发讲到高等代数的书？",
+      "url": "https://www.zhihu.com/answer/2640102874",
+      "summary": "说明第一卷从朴素集合论讲到公理集合论。"
+    },
+    {
+      "title": "康托尔出于什么目的，或说为解决什么问题而创立的集合论？",
+      "url": "https://www.zhihu.com/answer/2647287657",
+      "summary": "讲述康托如何从三角级数唯一性问题发展出集合论、超限序数与集合结构。"
+    },
+    {
+      "title": "“加法群R同构于R^2”，这个结论是否依赖选择公理？",
+      "url": "https://www.zhihu.com/answer/2647347133",
+      "summary": "用 Solovay 模型、决定性公理等集合论模型分析选择公理的影响。"
+    },
+    {
+      "title": "理发师悖论怎么破？",
+      "url": "https://www.zhihu.com/answer/2686232059",
+      "summary": "正文系统介绍集合、映射、满射和幂集，并用康托定理讨论集合与其子集集之间的关系。"
+    },
+    {
+      "title": "把[0，1]这个区间里的所有实数相加，得出的结果是无穷大吗？",
+      "url": "https://www.zhihu.com/answer/2692186981",
+      "summary": "正文用双射定义等势，并进一步定义有限集、可数无穷集和不可数集。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2694617227",
+      "summary": "正文用开区间之间的双射构造说明对不可数实数集逐项求和会因配对方式不同而失去确定结果。"
+    },
+    {
+      "title": "作为数学专业的学生，怎么了解哲学上各种“主义”导致的数学哲学观和数学基础的不同理解？",
+      "url": "https://www.zhihu.com/answer/2713100051",
+      "summary": "以集合论为例说明数学理论如何被翻译进统一的基础语言。"
+    },
+    {
+      "title": "小学数学为什么不从集合论学起？",
+      "url": "https://www.zhihu.com/answer/2721773538",
+      "summary": "正文从集合元素、子集等基础概念出发，系统介绍 ZFC 公理化集合论。"
+    },
+    {
+      "title": "现实中是否存在概率为零的事件？",
+      "url": "https://www.zhihu.com/answer/2737878490",
+      "summary": "正文用集合、子集和事件域具体说明样本空间及各随机事件之间的关系。"
+    },
+    {
+      "title": "整数和偶数真的是「一样多」的吗？（我知道康托尔那套，但这个表述真的正确吗？）？",
+      "url": "https://www.zhihu.com/answer/2740435823",
+      "summary": "正文用整数集与偶数集的对应说明集合等势，并比较有限集合与无限集合中集合大小的含义。"
+    },
+    {
+      "title": "Skolem定理和实数的不可数性冲突吗？",
+      "url": "https://www.zhihu.com/answer/2745283256",
+      "summary": "正文用可数结构、子集、幂集和枚举讨论康托对角线方法适用的集合范围。"
+    },
+    {
+      "title": "你见过最有趣的数学笑话是什么？",
+      "url": "https://www.zhihu.com/answer/2746455833",
+      "summary": "正文把有穷计数和无穷基数比较落到康托尔集合论，涉及无穷集合及其大小比较。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2764795567",
+      "summary": "正文通过构造属于自身和不属于自身的集合，完整展开罗素悖论，实质讨论集合的自指构造及其矛盾。"
+    },
+    {
+      "title": "Rayo(64)是否比葛立恒数大？",
+      "url": "https://www.zhihu.com/answer/2768827914",
+      "summary": "正文用空集、元素属于关系和冯·诺依曼自然数构造具体解释集合及其成员关系。"
+    },
+    {
+      "title": "怎么证明任何一个可数集合，总能找出不可数个子集，使得从中任取两个集合，其中一个都是另一个的真子集？",
+      "url": "https://www.zhihu.com/answer/2769794737",
+      "summary": "正文明确构造可数集的子集族，并验证族中任意两个集合都按包含关系形成真子集链。"
+    },
+    {
+      "title": "为什么在数轴上随便取一个点，（几乎）一定取到的是无理数？",
+      "url": "https://www.zhihu.com/answer/2774116089",
+      "summary": "正文以双射定义集合等势和基数，并用这些集合概念比较不同的无穷集合。"
+    },
+    {
+      "title": "「不是所有牛奶都叫特仑苏」的逆否命题是什么？",
+      "url": "https://www.zhihu.com/answer/2781955059",
+      "summary": "正文先把自然语言论域定义为牛奶集合，再在该集合上说明谓词和量词的等价改写。"
+    },
+    {
+      "title": "掌握什么思想会让你的数学水平有质的飞跃?",
+      "url": "https://www.zhihu.com/answer/2783097418",
+      "summary": "正文把集合、划分与现实中的归类和比较交集、并集、差集相对应，展开集合的基础直观。"
+    },
+    {
+      "title": "能否找出一个从(0，1)到[0，1]的一一映射？",
+      "url": "https://www.zhihu.com/answer/2789477771",
+      "summary": "正文利用可数集合之间可以建立一一映射，说明端点有无并不妨碍构造双射。"
+    },
+    {
+      "title": "能否找出一个从(0，1)到[0，1]的一一映射？",
+      "url": "https://www.zhihu.com/answer/2796246528",
+      "summary": "正文直接讨论从(0,1)到[0,1]的一一映射，并用Baire纲定理说明连续一一映射不存在，属于集合间双射关系。"
+    },
+    {
+      "title": "为什么数学里没有大统一论的提法呢？",
+      "url": "https://www.zhihu.com/answer/2801805204",
+      "summary": "正文具体比较包含选择公理的 ZFC 与否定选择公理的 ZF 这两类集合论。"
+    },
+    {
+      "title": "有哪些看起来很简单但做起来很难的数学题？",
+      "url": "https://www.zhihu.com/answer/2807967020",
+      "summary": "正文讨论集合的基数大小与幂集基数大小之间的关系。"
+    },
+    {
+      "title": "实直线 (real line) 就是实数集 ℝ 吗？",
+      "url": "https://www.zhihu.com/answer/2869031618",
+      "summary": "正文用集合、线序集和保序双射说明实数集合与数轴点集之间的一一对应。"
+    },
+    {
+      "title": "能否构造一个无法知道收敛与否的数列？",
+      "url": "https://www.zhihu.com/answer/2878064538",
+      "summary": "正文定义双射全体 B(S,T)，并依据并集、幂集和分离公理验证所构造的二元关系是集合。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/2881769915",
+      "summary": "正文用函数和一一对应定义集合大小，并以自然数、偶数和有理数之间的映射具体说明集合关系。"
+    },
+    {
+      "title": "如果黑客拥有一台算力无限的主机，他能做什么？",
+      "url": "https://www.zhihu.com/answer/2888795837",
+      "summary": "正文用实数无穷子集、自然数集、双射与幂集表述连续统假设，实质讨论了集合之间的关系。"
+    },
+    {
+      "title": "为什么说科学是可被证伪的？",
+      "url": "https://www.zhihu.com/answer/2903280425",
+      "summary": "正文用空集成员关系及其蕴含式具体解释空真命题，说明空集在逻辑推理中的性质。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2911486965",
+      "summary": "正文围绕集合拆分、等价关系、单射和满射展开，利用集合间映射比较基数并讨论拆分原理。"
+    },
+    {
+      "title": "有没有学数学的大佬给我讲一些非常牛逼的东西，震撼一下我这个非数学系的大学生？",
+      "url": "https://www.zhihu.com/answer/2922842290",
+      "summary": "正文用空集和后继构造所有自然数，并通过并集与序数运算说明自然数集合的生成。"
+    },
+    {
+      "title": "为什么ω^ω依然是阿列夫零，而2^阿列夫零却是阿列夫一？",
+      "url": "https://www.zhihu.com/answer/2927977928",
+      "summary": "正文围绕函数集合、支撑和真子集讨论基数，并用素数幂编码证明子集可数。"
+    },
+    {
+      "title": "数学学科是否存在过因数学界前沿研究进展而改变基础数学教育方式或思维的例子？",
+      "url": "https://www.zhihu.com/answer/2961389278",
+      "summary": "正文叙述集合论成为数学基础并进入中学教材的现代数学教育史。"
+    },
+    {
+      "title": "小学数学为什么不从集合论学起？",
+      "url": "https://www.zhihu.com/answer/2963114140",
+      "summary": "正文具体介绍冯诺伊曼序数、策梅洛序数、stationary 子集、Suslin 树等集合论对象。"
+    },
+    {
+      "title": "有哪些数学上的定理让你感觉「这不显然吗，这还用证明」？",
+      "url": "https://www.zhihu.com/answer/2991444239",
+      "summary": "正文从集合基数、对等和子集关系出发，完整讲解并证明了 Cantor-Bernstein 定理。"
+    },
+    {
+      "title": "现代的数学研究抽象到了哪种地步？",
+      "url": "https://www.zhihu.com/answer/2992635383",
+      "summary": "正文从朴素集合并交补讲到公理集合论的幂集层级，解释集合与其元素关系如何被抽象。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/3010196562",
+      "summary": "正文从两个集合的计数推广到多个集合的交并关系，并给出一般容斥公式。"
+    },
+    {
+      "title": "如何评价未明子开始学习/教授数理逻辑与集合论相关内容？",
+      "url": "https://www.zhihu.com/answer/3042178065",
+      "summary": "正文具体介绍公理集合论的核心学习内容，包括集合论公理、序数、基数及超限方法。"
+    },
+    {
+      "title": "现在就死和绝对永生，你选哪个？",
+      "url": "https://www.zhihu.com/answer/3133529342",
+      "summary": "正文把 ω 定义为全体自然数构成的集合，并继续用集合论中的序数、基数和集合层级说明其构造。"
+    },
+    {
+      "title": "是否存在两个周期函数f(x)和g(x)，使得它们的和f(x)+g(x)≡x？",
+      "url": "https://www.zhihu.com/answer/3136608009",
+      "summary": "正文定义模 m+n√2 的等价关系，并说明由此得到的等价类两两不交且并集为全体实数。"
+    },
+    {
+      "title": "为什么做成一件事那么难，破坏一件事却很简单，什么哲学原理？",
+      "url": "https://www.zhihu.com/answer/3158296536",
+      "summary": "正文用交集表示多个必要条件同时成立、用并集表示任一条件被破坏，以集合运算表达逻辑关系。"
+    },
+    {
+      "title": "命题「任何一个自然数都可以用二十个以内汉字描述出来」的错误在哪？",
+      "url": "https://www.zhihu.com/answer/3160765024",
+      "summary": "正文明确构造有限描述集合 A 与自然数集合 N，并用单射和满射比较两个集合。"
+    },
+    {
+      "title": "所有 ℕ 到 ℕ 的双射构成的集合可列吗？",
+      "url": "https://www.zhihu.com/answer/3180658770",
+      "summary": "正文通过构造到实数集的满射来证明自然数自同构集合不可列，实质讨论了该集合的基数。"
+    },
+    {
+      "title": "一个点体积为零，两个点体积也为零，那到底要多少个点体积才不为零？",
+      "url": "https://www.zhihu.com/answer/3185454508",
+      "summary": "正文通过一一映射定义集合对等，并由此讨论集合的势。"
+    },
+    {
+      "title": "什么是 surreal number？",
+      "url": "https://www.zhihu.com/answer/3204209383",
+      "summary": "正文用左、右两个已构造数的集合定义新的超现实数，并递归展开创数过程，实质使用了集合构造。"
+    },
+    {
+      "title": "如何从逻辑学解释“因为我国的大学遍布全中国，清华大学是我国的大学，所以清华大学遍布全中国”是错的？",
+      "url": "https://www.zhihu.com/answer/3236485345",
+      "summary": "正文用子集包含关系的传递性说明三段论，并进一步分析全称量词、存在量词和集合成员关系的替换有效性。"
+    },
+    {
+      "title": "老师曾跟我说过，当Ø在大括号里时，Ø是作为一个元素的，那么在什么情况下Ø会作为元素出现呢？",
+      "url": "https://www.zhihu.com/answer/3240838976",
+      "summary": "正文围绕集合元素与属于关系展开，区分对象本身和对象作为某个集合元素出现的情形。"
+    },
+    {
+      "title": "我对无穷的理解那些是不严谨的，而哪些又是错的呢？",
+      "url": "https://www.zhihu.com/answer/3273403741",
+      "summary": "正文用有限基数与无穷基数说明集合论关注集合中元素的数量。"
+    },
+    {
+      "title": "不可测集的构造是怎么想到的?",
+      "url": "https://www.zhihu.com/answer/3276037526",
+      "summary": "正文在实数集上定义等价关系，并利用互不相交的等价类完成集合选择与覆盖论证。"
+    },
+    {
+      "title": "如何构造 ℝ 到 ℝ / ℚ （商集）的双射？",
+      "url": "https://www.zhihu.com/answer/3279865400",
+      "summary": "正文用模有理数等价的等价类定义实数商集，并讨论该商集与实数之间的双射构造。"
+    },
+    {
+      "title": "为什么{ⅹ|x²＝-5}是空集?",
+      "url": "https://www.zhihu.com/answer/3282573354",
+      "summary": "正文从集合描述式的合法性出发，讨论集合、类以及空集的表示与判定。"
+    },
+    {
+      "title": "关于ZFC公理体系和现有数学体系的兼容性问题？",
+      "url": "https://www.zhihu.com/answer/3305088412",
+      "summary": "正文具体说明用集合忠实表示其他数学对象，并讨论子集链与嵌入的集合论处理。"
+    },
+    {
+      "title": "{x|x=x}是一个集合吗？",
+      "url": "https://www.zhihu.com/answer/3389757573",
+      "summary": "正文讨论包含一切对象的收集在 ZF/ZFC 中是否为集合，以及在 NBG 中的真类地位，实质展开集合概念。"
+    },
+    {
+      "title": "贝叶斯定理厉害在哪里？",
+      "url": "https://www.zhihu.com/answer/3410246029",
+      "summary": "正文把样本空间定义为全体样本点组成的集合、事件定义为子集，并用骰子结果说明集合式概率模型。"
+    },
+    {
+      "title": "如何看待数理逻辑当中的\"集合\"?",
+      "url": "https://www.zhihu.com/answer/3434855840",
+      "summary": "正文讨论数理逻辑形式系统的定义如何借助元语言中的集合论，并最终嵌入 ZFC 公理集合论。"
+    },
+    {
+      "title": "全体集合为什么不构成集合？",
+      "url": "https://www.zhihu.com/answer/3469356566",
+      "summary": "正文解释全体集合的对象不能构成集合，而应视为真类，并说明普通集合与真类的区别。"
+    },
+    {
+      "title": "最坑爹的题目你见过多少?",
+      "url": "https://www.zhihu.com/answer/3487036165",
+      "summary": "正文用集合 U、A、B、G 及其并集、交集、补集和空集说明理发师悖论的推理过程。"
+    },
+    {
+      "title": "生活即教育，你在生活中学到了什么？",
+      "url": "https://www.zhihu.com/answer/3506832312",
+      "summary": "正文用分类袋解释元素归属、包含、并集、交集和补集，并讨论集合运算的数量关系。"
+    },
+    {
+      "title": "如何理解“实数集的基数用阿列夫 1 表示”这种误用现象的广泛出现？",
+      "url": "https://www.zhihu.com/answer/3537094084",
+      "summary": "正文围绕集合幂与集合势的记号展开，讨论不同历史阶段对集合幂对象的理解及其更新。"
+    },
+    {
+      "title": "如何评价陶哲轩的实分析II?",
+      "url": "https://www.zhihu.com/answer/3557142155",
+      "summary": "正文以万有分类公理简化集合论基础并引出罗素悖论，具体讨论集合论公理的作用与限制。"
+    },
+    {
+      "title": "无限集必有可列子集，老师的证明对吗？",
+      "url": "https://www.zhihu.com/answer/3568459851",
+      "summary": "正文讨论无限集、子集、单射以及可数子集所能附加的结构，实质涉及集合大小。"
+    },
+    {
+      "title": "为什么Cantor-Bernstein定理的那个不用选择公理的证明可以做到“经典永流传”？",
+      "url": "https://www.zhihu.com/answer/3574747803",
+      "summary": "正文利用集合的包含关系、差集和交并运算把两个集合拆成互不相交的部分。"
+    },
+    {
+      "title": "为什么有的人怎么努力也学不好高中数学？",
+      "url": "https://www.zhihu.com/answer/3585538740",
+      "summary": "正文用装东西的袋子解释集合的归属、包含、并集、交集和补集等基本操作。"
+    },
+    {
+      "title": "为什么一些看上去初等的数学问题，几百年没被找到初等解法，本质原因是什么？",
+      "url": "https://www.zhihu.com/answer/3592564672",
+      "summary": "正文说明公式和推理过程可编码为自然数的子集，并据此讨论可定义性与集合论作为数学基础的作用。"
+    },
+    {
+      "title": "目前挑战葛立恒数的有赢的吗？",
+      "url": "https://www.zhihu.com/answer/3599798888",
+      "summary": "正文基于集合的子集族、交集和补集等操作，具体定义滤、超滤、主滤以及 κ 完全非主超滤。"
+    },
+    {
+      "title": "直积、直和、笛卡尔积、张量积的区别是什么，在科普书上看到的，求一个直观的通俗解释？",
+      "url": "https://www.zhihu.com/answer/3627193575",
+      "summary": "正文用上下衣搭配直观解释笛卡尔积，并给出由所有有序对构成的集合定义。"
+    },
+    {
+      "title": "如何看待求真书院初中生在拓扑伽罗瓦理论课上不知道什么是空集？",
+      "url": "https://www.zhihu.com/answer/44260549765",
+      "summary": "正文用课堂对话说明空集是没有元素的集合，并讨论空集存在及其作为数学起点的问题。"
+    },
+    {
+      "title": "最近网上吵0.9999999……的循环等于1你赞成吗？",
+      "url": "https://www.zhihu.com/answer/44438761886",
+      "summary": "正文从 ZFC 外延公理、笛卡尔积、映射和等价类出发，用集合构造整数、有理数与实数。"
+    },
+    {
+      "title": "如何看待求真书院初中生在拓扑伽罗瓦理论课上不知道什么是空集？",
+      "url": "https://www.zhihu.com/answer/45985838549",
+      "summary": "正文从集合、空集和“集合的集合”解释初学集合语言时的对象层级转换。"
+    },
+    {
+      "title": "总感觉数学地基无法真正“稳固”，诸位有什么看法吗？",
+      "url": "https://www.zhihu.com/answer/57483322719",
+      "summary": "正文比较由有限集合构成的集合论宇宙与包含无穷集合的宇宙，讨论集合论公理系统的对象范围。"
+    },
+    {
+      "title": "既然加法是基于群论的，为什么小学不先学群论？",
+      "url": "https://www.zhihu.com/answer/89480350114",
+      "summary": "正文用有限集、等势、无交并和一一映射讨论集合及自然数基数的实现。"
+    },
+    {
+      "title": "数学的本质是什么？",
+      "url": "https://www.zhihu.com/answer/92822220719",
+      "summary": "正文先给出集合的确定性、互异性定义，再用零食和宠物等例子解释集合的构成。"
+    },
+    {
+      "title": "数学的本质究竟是什么？",
+      "url": "https://www.zhihu.com/answer/92835475393",
+      "summary": "正文给出集合定义，并具体解释并集、交集和补集三种集合运算。"
+    },
+    {
+      "title": "数学的本质是什么?",
+      "url": "https://www.zhihu.com/answer/92843230048",
+      "summary": "正文给出集合的定义，并用购物篮、并集、交集和补集具体展开集合及集合运算。"
+    },
+    {
+      "title": "数学本质是什么？",
+      "url": "https://www.zhihu.com/answer/101070015270",
+      "summary": "正文定义集合与元素，并继续说明子集、交集、并集等基本关系。"
+    },
+    {
+      "title": "在不使用任何数字的情况下，如何表达数字 100？",
+      "url": "https://www.zhihu.com/answer/102670664417",
+      "summary": "正文用空集和集合的后继构造表示数字，并讨论这种集合论定义的表达长度。"
+    },
+    {
+      "title": "为什么某些数学家可以接受反直觉但不接受反逻辑？",
+      "url": "https://www.zhihu.com/answer/120233951741",
+      "summary": "正文用不属于自身的集合构造罗素悖论，并说明朴素集合定义引发的自指矛盾。"
+    },
+    {
+      "title": "关于ZFC公理体系和现有数学体系的兼容性问题？",
+      "url": "https://www.zhihu.com/answer/1890128256960790820",
+      "summary": "正文解释用特定集合表示自然数等对象，并强调表示方式不唯一，核心是集合论中的表示与同构。"
+    },
+    {
+      "title": "在数理逻辑（或是集合论）中有哪些伪证过程一般人看上去很合理，但实际上是不正确的？",
+      "url": "https://www.zhihu.com/answer/1893318485607679219",
+      "summary": "正文从集合族、元素选择、并集与分离公理出发构造选择公理的伪证。"
+    },
+    {
+      "title": "拉康的精神分析学派真的懂拓扑学嘛？",
+      "url": "https://www.zhihu.com/answer/1903793397090719121",
+      "summary": "正文围绕空集及对象装入集合、符号化抽象的过程，讨论集合论描述所忽略的对象差异。"
+    },
+    {
+      "title": "为什么有很多“不可能三角”，却很少听人说到“不可能四角”或者“不可能五角”？",
+      "url": "https://www.zhihu.com/answer/1921000564835201712",
+      "summary": "正文讨论三元与四元韦恩图能否表示各元素的交，具体涉及集合交集及韦恩图表达。"
+    },
+    {
+      "title": "如果一个集合里面的元素是：0.9，0.99，0.999……每一项都多一个9，那么这个集合是否包含1？",
+      "url": "https://www.zhihu.com/answer/1923340969346052917",
+      "summary": "正文明确构造集合 S 及其通项式，并判断给定数是否属于该集合。"
+    },
+    {
+      "title": "一个由无穷多个9组成的数（……99999）乘以10再减去自身，结果等于-9，这是否证明了它等于-1？",
+      "url": "https://www.zhihu.com/answer/1945581586276942900",
+      "summary": "正文系统介绍集合、直积、二元关系、映射和单射，并以此为基础定义数系。"
+    },
+    {
+      "title": "有哪些经典的数学悖论？",
+      "url": "https://www.zhihu.com/answer/1945834303654168393",
+      "summary": "正文通过伽利略、康托尔和希尔伯特旅馆讨论集合、双射与无限集合基数。"
+    },
+    {
+      "title": "如何理解那些比不可达基数更大的基数？",
+      "url": "https://www.zhihu.com/answer/1948821937120875817",
+      "summary": "正文用集合宇宙分层 V_kappa、幂集和模型关系说明不可达基数为何能给出 ZFC 的内模型。"
+    },
+    {
+      "title": "数学上有没有必要引入“单向推出”,“不大于号”,“不小于号”等符号？",
+      "url": "https://www.zhihu.com/answer/1950642530141082463",
+      "summary": "正文用集合幂集和包含关系说明偏序中的可比与不可比元素。"
+    },
+    {
+      "title": "一个人的知识是否能超过全人类知识的百分之一？",
+      "url": "https://www.zhihu.com/answer/1966760713025454962",
+      "summary": "正文用集合、并集扩展和可数性讨论隐性知识能否被枚举，展开了集合运算相关论证。"
+    },
+    {
+      "title": "数学是如何与物理（现实世界）发生联系的呢?",
+      "url": "https://www.zhihu.com/answer/1968780245520847904",
+      "summary": "正文给出用空集和集合构造自然数的例子，说明集合运算可生成数学对象。"
+    },
+    {
+      "title": "质数和自然数哪个多？",
+      "url": "https://www.zhihu.com/answer/1996389909141943957",
+      "summary": "正文列出自然数集和质数集，并讨论一一映射、双射与集合数量之间的关系。"
+    },
+    {
+      "title": "一共有24瓶汽水，每4个空瓶可以换1瓶汽水，最终能喝到几瓶？",
+      "url": "https://www.zhihu.com/answer/2006733482265703319",
+      "summary": "正文利用借瓶编号集合与 4x 空瓶编号集合之间的等势关系建立一一对应，从而安排全部归还。"
+    },
+    {
+      "title": "中国学校教不教逻辑学？为什么？",
+      "url": "https://www.zhihu.com/answer/2017220510069567882",
+      "summary": "正文用集合包含关系解释原命题及其逆否命题，并说明两者的等价性。"
+    },
+    {
+      "title": "我创作的函数，别人都骂我，并且说这简直就是瞎想，我该怎么办？",
+      "url": "https://www.zhihu.com/answer/2026878818577655805",
+      "summary": "正文通过无限集与有限集差集的基数关系，说明无穷集合的阿列夫算术。"
+    },
+    {
+      "title": "数学上最绝妙的证明是什么?",
+      "url": "https://www.zhihu.com/answer/2028025876021875444",
+      "summary": "正文用一一对应与等势解释集合元素数量的比较标准。"
+    },
+    {
+      "title": "有名的悖论有哪些？",
+      "url": "https://www.zhihu.com/answer/2033081793897870805",
+      "summary": "正文通过构造由所有不自含集合组成的 R，具体讲解朴素集合论中的罗素悖论。"
+    },
+    {
+      "title": "你见过最优雅的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/2038540852784538904",
+      "summary": "正文以一一对应、幂集和基数层级实质介绍集合论及集合大小的比较。"
+    },
+    {
+      "title": "如何评价 2026 高考数学试卷？今年题目难度如何？有哪些变化？",
+      "url": "https://www.zhihu.com/answer/2047010295722332937",
+      "summary": "正文定义并计算 D(x0) 集合，反复通过集合包含关系完成多个情形的证明，实质涉及集合。"
+    },
+    {
+      "title": "学习数学，意义何在？",
+      "url": "https://www.zhihu.com/answer/2052474666397312224",
+      "summary": "正文把组合搜索条件解释为多个属性集合取交集，具体说明集合关系的应用。"
+    },
+    {
+      "title": "生活在Minecraft的世界中的人，会发现圆周率π吗？",
+      "url": "https://www.zhihu.com/answer/2060583326285672988",
+      "summary": "正文用显式双射说明整数集与有理数集等势，实质讨论了集合的基数关系。"
+    },
+    {
+      "title": "有哪些悖论一下子就吸引了你？",
+      "url": "https://www.zhihu.com/answer/2062617980631093670",
+      "summary": "正文从谷堆悖论引出模糊集合，以 0 到 1 的隶属度重新定义元素属于集合的程度。"
+    },
+    {
+      "title": "如何证明「你浪费了每人一分钟，四十个人就是一节课」的逻辑？",
+      "url": "https://www.zhihu.com/answer/2070534959228514380",
+      "summary": "正文用区间内点的不可数无穷基数来讨论集合的势，并借此构造一步推理。"
+    },
+    {
+      "title": "数学悖论的根本原因已找到！最新研究证明经典自然数集、实数集不是已完成集合，如何评价这个重大数学事件？",
+      "url": "https://www.zhihu.com/answer/2074480783939716282",
+      "summary": "正文用可计算二进制序列集合 C 说明集合的存在不以其元素可被某个程序完整枚举为条件。"
+    },
+    {
+      "title": "由罗素悖论说开去",
+      "url": "https://zhuanlan.zhihu.com/p/19844960",
+      "summary": "正文从罗素悖论说明朴素集合论的问题，并由分离公理推出所有集合的全体不是集合。"
+    },
+    {
+      "title": "为什么没有所有集合的集合",
+      "url": "https://zhuanlan.zhihu.com/p/19917045",
+      "summary": "正文用分类公理构造集合 B，并证明任何集合 A 都遗漏某个集合，从而说明全集不存在。"
+    },
+    {
+      "title": "康托对角线论证法的滥用",
+      "url": "https://zhuanlan.zhihu.com/p/20197130",
+      "summary": "正文围绕实数集、零一无穷序列集合和幂集的不可数性讨论康托对角线论证的适用范围。"
+    },
+    {
+      "title": "1.1 巴拿赫-塔斯基悖论【Banach–Tarski paradox】（1）—— 不同的无穷",
+      "url": "https://zhuanlan.zhihu.com/p/20264980",
+      "summary": "正文以集合间的一一对应定义等势，并讨论集合、幂集和基数之间的关系。"
+    },
+    {
+      "title": "1.2 巴拿赫-塔斯基悖论【Banach–Tarski paradox】（2）—— 奇怪的集合",
+      "url": "https://zhuanlan.zhihu.com/p/20279312",
+      "summary": "正文构造两两差不为有理数的极大集合，并通过其有理平移的并集研究测度。"
+    },
+    {
+      "title": "『一道很难的智力题』解法",
+      "url": "https://zhuanlan.zhihu.com/p/21252036",
+      "summary": "正文把参与者划分为集合 S，并利用集合的交、并和差等运算设计共识协议。"
+    },
+    {
+      "title": "革命与集合极限",
+      "url": "https://zhuanlan.zhihu.com/p/23495654",
+      "summary": "正文用参加的集序列解释集合上极限与下极限，并通过并交结构筛选反复出现的元素。"
+    },
+    {
+      "title": "一名工科生眼中的数学分析（上）",
+      "url": "https://zhuanlan.zhihu.com/p/24636107",
+      "summary": "正文把集合列为数学分析的核心研究对象，并说明元素结构、可数性、有界性和完备性等集合性质。"
+    },
+    {
+      "title": "拿了诺贝尔文学奖的数学家，连毛主席都帮他打过工",
+      "url": "https://zhuanlan.zhihu.com/p/24671116",
+      "summary": "正文介绍康托尔集合论作为数学基础，并用理发师情境完整解释罗素悖论的自指矛盾。"
+    },
+    {
+      "title": "关系代数的基本运算",
+      "url": "https://zhuanlan.zhihu.com/p/25341286",
+      "summary": "正文把关系定义为元组集合，并以集合运算定义并、差、笛卡尔积、选择和投影等关系运算。"
+    },
+    {
+      "title": "中学篇 No. 4：集合与映射",
+      "url": "https://zhuanlan.zhihu.com/p/26621583",
+      "summary": "正文给出集合与元素的定义、记法和空集示例，并说明集合的互异性、确定性及常见集合运算。"
+    },
+    {
+      "title": "中学篇 No. 6：无穷的困惑",
+      "url": "https://zhuanlan.zhihu.com/p/26659368",
+      "summary": "正文用集合A与集合B之间的单射、满射和一一映射说明集合元素多少的比较方法。"
+    },
+    {
+      "title": "中学篇 No. 10：颠覆想象的证明",
+      "url": "https://zhuanlan.zhihu.com/p/26725385",
+      "summary": "正文以集合之间的一一映射定义等势，并用补集、幂集和基数讨论集合大小。"
+    },
+    {
+      "title": "集合的基本概念及公理化集合论",
+      "url": "https://zhuanlan.zhihu.com/p/27464723",
+      "summary": "正文定义集合元素与相等，并系统展开交、并、补、子集和幂集等基本集合概念。"
+    },
+    {
+      "title": "13、只缘身在此山中",
+      "url": "https://zhuanlan.zhihu.com/p/28537185",
+      "summary": "正文从元素和集合的关系讲到集合包含自身的问题，并用罗素悖论说明朴素集合定义的矛盾。"
+    },
+    {
+      "title": "抽象代数|笔记整理（2）——同构，划分，陪集",
+      "url": "https://zhuanlan.zhihu.com/p/30496016",
+      "summary": "正文详述集合上的等价关系、等价类与划分，并证明二者相互对应。"
+    },
+    {
+      "title": "拓扑学|笔记整理（1）——集合，函数，关系",
+      "url": "https://zhuanlan.zhihu.com/p/33143298",
+      "summary": "正文系统复习集合运算、空集、子集、幂集、笛卡尔积以及集合族的并与交。"
+    },
+    {
+      "title": "拓扑学|笔记整理（2）——数域系统，笛卡尔积，有限集",
+      "url": "https://zhuanlan.zhihu.com/p/33249330",
+      "summary": "正文从集合上的次序关系、笛卡尔积、双射和势出发讨论集合及相关性质。"
+    },
+    {
+      "title": "拓扑学|笔记整理（3）——无限集，可列集，选择公理，良序集",
+      "url": "https://zhuanlan.zhihu.com/p/33311995",
+      "summary": "正文系统定义无限集、可列集和不可列集，并讨论子集、并集、直积及幂集的集合性质。"
+    },
+    {
+      "title": "格论学习笔记1：基础概念",
+      "url": "https://zhuanlan.zhihu.com/p/33974333",
+      "summary": "正文从集合上的偏序、上下界定义格和完全格，并讨论闭包系统等集合结构。"
+    },
+    {
+      "title": "不能证明也无法否定的“连续统假说”——集合的势（三）",
+      "url": "https://zhuanlan.zhihu.com/p/34097692",
+      "summary": "正文通过集合、幂集和函数构造讲解基数关系，并证明幂集基数严格大于原集合。"
+    },
+    {
+      "title": "理发师悖论真正的矛盾是什么",
+      "url": "https://zhuanlan.zhihu.com/p/34440794",
+      "summary": "正文围绕罗素构造的自指集合 S 展开归属判断，解释朴素集合论中的矛盾。"
+    },
+    {
+      "title": "实分析Ⅱ|笔记整理（1）——集合论补充，相关应用习题举例（1）",
+      "url": "https://zhuanlan.zhihu.com/p/34191290",
+      "summary": "正文系统讲解集合的并与交、集合列上下极限及有限集合运算。"
+    },
+    {
+      "title": "实分析Ⅱ|笔记整理（2）——开集，闭集等集合性质深化",
+      "url": "https://zhuanlan.zhihu.com/p/34893497",
+      "summary": "正文以极限点、导集和闭包定义闭集，并讨论集合的有限并、交及稠密性等性质。"
+    },
+    {
+      "title": "一文介绍机器学习中基本的数学符号",
+      "url": "https://zhuanlan.zhihu.com/p/35488953",
+      "summary": "正文定义集合为互不相同元素的整体，并说明属于、并集和交集等集合关系。"
+    },
+    {
+      "title": "1.1 Ring和Algebra",
+      "url": "https://zhuanlan.zhihu.com/p/35796249",
+      "summary": "正文从子集、幂集和集族出发，系统讨论集合列以及并、交、补等集合运算。"
+    },
+    {
+      "title": "医学影像分割常用评价标准",
+      "url": "https://zhuanlan.zhihu.com/p/37254426",
+      "summary": "正文用集合 A、B 的交、并、差与基数定义 Dice、Jaccard、过分割率和欠分割率等评价量。"
+    },
+    {
+      "title": "集合的含义及其表示",
+      "url": "https://zhuanlan.zhihu.com/p/38421496",
+      "summary": "正文系统定义集合、元素、集合三性、有限集与无限集及列举法、描述法和图示法。"
+    },
+    {
+      "title": "数学分析笔记（一）——预备知识",
+      "url": "https://zhuanlan.zhihu.com/p/38392100",
+      "summary": "正文从朴素集合论、罗素悖论讲到集合的包含、并交差和笛卡尔积，具体展开集合的基本概念与运算。"
+    },
+    {
+      "title": "实变函数笔记 第一章 集合",
+      "url": "https://zhuanlan.zhihu.com/p/39791883",
+      "summary": "正文从集合的并、交、差、余集及德摩根公式展开集合运算，奠定实变函数所需的集合语言。"
+    },
+    {
+      "title": "集合间的基本关系",
+      "url": "https://zhuanlan.zhihu.com/p/39797834",
+      "summary": "正文讲解子集、真子集、集合相等、空集、全集、补集及其基本关系。"
+    },
+    {
+      "title": "1.1 二元运算、等价关系和分划、同余关系",
+      "url": "https://zhuanlan.zhihu.com/p/41136425",
+      "summary": "正文把关系解释为笛卡尔积的子集，并证明等价关系与集合分划一一对应。"
+    },
+    {
+      "title": "实变函数笔记 第三章 测度论",
+      "url": "https://zhuanlan.zhihu.com/p/41378421",
+      "summary": "正文讨论集合族、集合运算封闭性、可数并交与补集，并把可测性刻画面向任意点集。"
+    },
+    {
+      "title": "无穷与对应——集合的基数",
+      "url": "https://zhuanlan.zhihu.com/p/41441641",
+      "summary": "正文用双射和单射定义集合元素个数的比较，并以自然数、偶数和有理数构造具体对应。"
+    },
+    {
+      "title": "概率论学习笔记（一）",
+      "url": "https://zhuanlan.zhihu.com/p/42859784",
+      "summary": "正文把样本空间和事件定义为集合，并系统使用交、并、补及德摩根律进行事件运算。"
+    },
+    {
+      "title": "集合的上界与上确界及上确界的性质",
+      "url": "https://zhuanlan.zhihu.com/p/45002244",
+      "summary": "正文以实数的非空子集和集合 A+B 为载体，证明上确界对集合加法可加。"
+    },
+    {
+      "title": "理解贝叶斯定理",
+      "url": "https://zhuanlan.zhihu.com/p/45432367",
+      "summary": "正文用样本空间及其事件子集解释概率，并通过条件缩小样本空间说明条件概率。"
+    },
+    {
+      "title": "选择公理的初步理解",
+      "url": "https://zhuanlan.zhihu.com/p/46036804",
+      "summary": "正文用集族、非空集合、最小元、等价类和划分等基本集合概念展开选择公理的讨论。"
+    },
+    {
+      "title": "有理数、无理数、代数数与超越数",
+      "url": "https://zhuanlan.zhihu.com/p/46072609",
+      "summary": "正文用可数集、不可数集和一一对应比较代数数与实数集合的大小。"
+    },
+    {
+      "title": "集合的势与可数集",
+      "url": "https://zhuanlan.zhihu.com/p/47209338",
+      "summary": "正文以双射定义集合对等和基数，用它比较有限集与无限集的元素多少。"
+    },
+    {
+      "title": "近世代数笔记整理（一）",
+      "url": "https://zhuanlan.zhihu.com/p/47079685",
+      "summary": "正文定义笛卡尔积和二元关系，并以集合构造引出罗素悖论。"
+    },
+    {
+      "title": "判断两集合等势的很好用的办法——施罗德-伯恩斯坦定理",
+      "url": "https://zhuanlan.zhihu.com/p/40943561",
+      "summary": "正文讨论无限集合的势，并证明集合间双向单射蕴含等势的施罗德－伯恩斯坦定理。"
+    },
+    {
+      "title": "概率论笔记4 -- 事件关系及其运算",
+      "url": "https://zhuanlan.zhihu.com/p/50365900",
+      "summary": "正文系统整理事件的交、并、差、补、分配律和对偶律，并用韦恩图与集合等式化简事件关系。"
+    },
+    {
+      "title": "很多人都不知道自动化与机器学习的区别",
+      "url": "https://zhuanlan.zhihu.com/p/51000246",
+      "summary": "正文用树叶等实例解释集合表示一类对象以及元素属于集合的思想。"
+    },
+    {
+      "title": "集合序列的极限",
+      "url": "https://zhuanlan.zhihu.com/p/51955647",
+      "summary": "正文给出集合序列上下极限的并与交定义，并用元素属于无限多个或除有限多个外全部集合的表述解释集合运算。"
+    },
+    {
+      "title": "【薛饿】这群酒店客人中出了幽灵",
+      "url": "https://zhuanlan.zhihu.com/p/53460214",
+      "summary": "正文用一一对应、编号和基数比较自然数、整数、有理数与实数等集合，系统说明集合大小。"
+    },
+    {
+      "title": "公理化集合论简介（一）",
+      "url": "https://zhuanlan.zhihu.com/p/54379924",
+      "summary": "正文把集合作为集合论元概念，说明元素归属以及集合论讨论对象的基本语言。"
+    },
+    {
+      "title": "公理化集合论简介（二）",
+      "url": "https://zhuanlan.zhihu.com/p/54669874",
+      "summary": "正文定义子集并讨论空集、类和配对集合等集合论对象及其关系。"
+    },
+    {
+      "title": "搞懂Cantor（康托）集",
+      "url": "https://zhuanlan.zhihu.com/p/54711962",
+      "summary": "正文逐步构造Cantor三分集，并用补集与三进制刻画说明其集合结构。"
+    },
+    {
+      "title": "离散数学——二元关系【学习笔记】",
+      "url": "https://zhuanlan.zhihu.com/p/57478122",
+      "summary": "正文定义序偶与笛卡尔积，并把从 A 到 B 的二元关系表示为笛卡尔积的子集，实质讲解集合上的关系构造。"
+    },
+    {
+      "title": "罗素悖论：这就是为什么数学不能拥有一个“所有事物”的集合",
+      "url": "https://zhuanlan.zhihu.com/p/60177203",
+      "summary": "正文从集合是事物的聚集出发，讨论集合与集合之间的成员关系以及罗素悖论，实质讲解集合概念。"
+    },
+    {
+      "title": "1.1 一些数学的符号跟定义",
+      "url": "https://zhuanlan.zhihu.com/p/38110345",
+      "summary": "正文列出补集、差集、对称差、指数集和不相交集合系等集合运算与定义。"
+    },
+    {
+      "title": "《离散数学》学习记录 - 集合论",
+      "url": "https://zhuanlan.zhihu.com/p/61290200",
+      "summary": "正文从笛卡儿积和二元关系讲到等价类、商集与划分，系统展开集合运算和关系结构。"
+    },
+    {
+      "title": "周志华老师《机器学习》假设空间和版本空间概念辨析",
+      "url": "https://zhuanlan.zhihu.com/p/63186122",
+      "summary": "正文把假设空间、属性空间和版本空间都解释为集合，并讨论由映射构成集合的大小。"
+    },
+    {
+      "title": "函数、概率、信息的基础串讲",
+      "url": "https://zhuanlan.zhihu.com/p/69889316",
+      "summary": "正文先定义集合、元素和子集，再用样本空间、事件及其包含关系具体解释集合的构成。"
+    },
+    {
+      "title": "结构主义（2）：集合论数学基础与范畴论数学基础的对比",
+      "url": "https://zhuanlan.zhihu.com/p/32565370",
+      "summary": "正文讨论集合作为统一编码数学对象的基础，并比较良基集合与抽象集合的观念。"
+    },
+    {
+      "title": "高中数学必修一，集合知识概念运算归纳总结",
+      "url": "https://zhuanlan.zhihu.com/p/73853893",
+      "summary": "正文系统讲解集合的定义、确定性互异性无序性、表示方法、集合关系及并交补等运算。"
+    },
+    {
+      "title": "【转载】数学史的三次数学危机",
+      "url": "https://zhuanlan.zhihu.com/p/76686950",
+      "summary": "正文以罗素悖论说明集合论基础中的矛盾及其对数学确定性的冲击。"
+    },
+    {
+      "title": "赫尔婚姻（Hall's Marriage）定理",
+      "url": "https://zhuanlan.zhihu.com/p/77563002",
+      "summary": "正文用集合族、子集并集和基数不等式精确表述 Hall 定理的匹配条件。"
+    },
+    {
+      "title": "关系与等价关系（自反性，对称性，传递性）",
+      "url": "https://zhuanlan.zhihu.com/p/82707182",
+      "summary": "正文从笛卡尔积、有序偶和子集定义关系，并讨论逆关系、复合与等价类，对应集合。"
+    },
+    {
+      "title": "初学讲义之高中数学二十二：概率论初步",
+      "url": "https://zhuanlan.zhihu.com/p/91610421",
+      "summary": "正文用基本元素、空集、全集、包含、并和交系统解释事件与集合的对应关系。"
+    },
+    {
+      "title": "写给中学生的一点集合论：ZFC公理体系（1）",
+      "url": "https://zhuanlan.zhihu.com/p/90761830",
+      "summary": "正文从集合、成员关系和子集等基本概念出发，比较朴素集合论与公理化集合论。"
+    },
+    {
+      "title": "可测集",
+      "url": "https://zhuanlan.zhihu.com/p/93520278",
+      "summary": "正文从元素、全集、子集和集合运算出发搭建区间与可测集概念。"
+    },
+    {
+      "title": "1+1=2？",
+      "url": "https://zhuanlan.zhihu.com/p/91153185",
+      "summary": "正文从集合、空集和集合间映射出发，用一一对应与唯一映射解释代表和万有性质。"
+    },
+    {
+      "title": "实变函数论基本脉络",
+      "url": "https://zhuanlan.zhihu.com/p/94662972",
+      "summary": "正文从集合运算、集合的势和集合序列上下限开始梳理实变函数论。"
+    },
+    {
+      "title": "用 Python 来研究数学 --- SymPy 符号工具包介绍",
+      "url": "https://zhuanlan.zhihu.com/p/96738286",
+      "summary": "正文具体讲解区间的边界与内部，以及集合的交、并、差和补集运算。"
+    },
+    {
+      "title": "映射是什么？函数是什么？映射与函数的关系？",
+      "url": "https://zhuanlan.zhihu.com/p/106667070",
+      "summary": "正文说明集合是满足特定性质的对象的总体，并以数集、狗与狗窝为例解释映射的定义域和对应关系。"
+    },
+    {
+      "title": "集合列的上下极限",
+      "url": "https://zhuanlan.zhihu.com/p/110321001",
+      "summary": "正文用集合列的并、交和单调升列解释上极限与下极限，并推导下极限的等价形式。"
+    },
+    {
+      "title": "集合论（一）——集合的定义与包含",
+      "url": "https://zhuanlan.zhihu.com/p/102397463",
+      "summary": "正文从集合与元素的定义出发，系统讲解子集、集合相等、直积和幂集，并给出相关性质与证明。"
+    },
+    {
+      "title": "集合论（二）——集合的并、交、补运算",
+      "url": "https://zhuanlan.zhihu.com/p/111130966",
+      "summary": "正文系统讲解集合的并、交、差、补和对称差运算，并证明分配律及 De Morgan 公式等集合恒等式。"
+    },
+    {
+      "title": "数学发展的4个阶段：萌芽、初等、高等、现代",
+      "url": "https://zhuanlan.zhihu.com/p/112050038",
+      "summary": "正文讨论康托尔集合论对现代纯数学的基础作用，并以代数、序和拓扑结构概述集合元素上的结构研究。"
+    },
+    {
+      "title": "测度论整理（一）",
+      "url": "https://zhuanlan.zhihu.com/p/111996698",
+      "summary": "正文定义集合系并比较π系、半环、环、域和σ域，还讨论集合的差、并及生成结构。"
+    },
+    {
+      "title": "数学分析笔记（rudin）",
+      "url": "https://zhuanlan.zhihu.com/p/112841533",
+      "summary": "正文定义集合并集等基本集合运算，属于集合这一叶节点。"
+    },
+    {
+      "title": "数学史上的三次危机",
+      "url": "https://zhuanlan.zhihu.com/p/106452977",
+      "summary": "正文解释罗素悖论中自指集合导致的矛盾，并讨论集合论基础的危机。"
+    },
+    {
+      "title": "数学史上最重要的4大数学思想",
+      "url": "https://zhuanlan.zhihu.com/p/120243982",
+      "summary": "正文用元素是否属于集合的康托尔集合论与模糊集合对比，具体说明集合归属关系及其模糊化。"
+    },
+    {
+      "title": "集合中的上极限与下极限",
+      "url": "https://zhuanlan.zhihu.com/p/116829467",
+      "summary": "正文用无穷并交定义集合序列的上极限与下极限，并通过集合序列实例区分二者。"
+    },
+    {
+      "title": "工具类|常见的距离算法和相似度计算方法",
+      "url": "https://zhuanlan.zhihu.com/p/138107999",
+      "summary": "正文以交集与并集定义 Jaccard 相似系数，说明其用于集合相似性度量。"
+    },
+    {
+      "title": "高一 | 数学 “集合”知识点总结及归纳~",
+      "url": "https://zhuanlan.zhihu.com/p/142041767",
+      "summary": "正文系统讲解集合的含义、元素特性、表示法以及交并补和子集等基本运算。"
+    },
+    {
+      "title": "数据库期末总结笔记（ 零基础 ）",
+      "url": "https://zhuanlan.zhihu.com/p/148255482",
+      "summary": "正文在关系代数中具体解释并集、交集、差集和笛卡尔积等集合运算。"
+    },
+    {
+      "title": "公务员考试数量关系专题四：容斥原理",
+      "url": "https://zhuanlan.zhihu.com/p/148248923",
+      "summary": "正文用集合的并、交及补集关系解释三个集合的容斥等式。"
+    },
+    {
+      "title": "离散数学完全自学指南",
+      "url": "https://zhuanlan.zhihu.com/p/149468789",
+      "summary": "正文系统讲解集合元素关系、幂集、交并补、对称差和集合恒等式。"
+    },
+    {
+      "title": "《Linear Algebra Done Right》线性代数复习及部分习题解答（1.A）",
+      "url": "https://zhuanlan.zhihu.com/p/152079929",
+      "summary": "正文通过有序列表与集合的相等规则和重复性差异，具体说明集合的无序、去重性质。"
+    },
+    {
+      "title": "数学建模笔记——评价类模型之模糊综合评价",
+      "url": "https://zhuanlan.zhihu.com/p/160846498",
+      "summary": "正文从经典集合的确定性出发，引入模糊集合及元素隶属程度的概念。"
+    },
+    {
+      "title": "【抽象代数】0. 预备知识与专栏目录",
+      "url": "https://zhuanlan.zhihu.com/p/162709824",
+      "summary": "正文讲解笛卡尔积、二元关系、等价关系及其分类，并概述公理化集合论的基础内容。"
+    },
+    {
+      "title": "模糊数学笔记：一、模糊集及其运算性质",
+      "url": "https://zhuanlan.zhihu.com/p/188669774",
+      "summary": "正文把经典集合的 0-1 特征函数推广为模糊集的隶属函数，并系统讲解模糊集的表示、包含、并交补及运算性质。"
+    },
+    {
+      "title": "定性比较分析(QCA)学习经验与指南",
+      "url": "https://zhuanlan.zhihu.com/p/220199092",
+      "summary": "正文把 QCA 定义为基于布尔代数的集合论方法，并用前因条件与结果的充分、必要子集关系解释其分析框架。"
+    },
+    {
+      "title": "【国际数学】数学基本符号介绍",
+      "url": "https://zhuanlan.zhihu.com/p/254963486",
+      "summary": "正文解释元素属于、子集、并集、交集和集合描述法，并给出整数集与有理数集的包含关系。"
+    },
+    {
+      "title": "实分析学习笔记(0)",
+      "url": "https://zhuanlan.zhihu.com/p/260838198",
+      "summary": "正文从关系、等价类、势和可数性出发系统介绍集合论基础。"
+    },
+    {
+      "title": "简单介绍笛卡尔积",
+      "url": "https://zhuanlan.zhihu.com/p/265909030",
+      "summary": "正文从集合的序偶出发定义笛卡尔积，并用身高体重和函数图像说明其元素构成。"
+    },
+    {
+      "title": "我的数分笔记（一）",
+      "url": "https://zhuanlan.zhihu.com/p/268037222",
+      "summary": "正文讲解集合的表示与并交补运算，证明分配律和对偶律，并定义可列集与笛卡尔积。"
+    },
+    {
+      "title": "inversioner版高中数学课本(1)",
+      "url": "https://zhuanlan.zhihu.com/p/268526854",
+      "summary": "正文从元素与集合的定义出发，完整讲解子集、集合运算、韦恩图和容斥原理。"
+    },
+    {
+      "title": "每个人都看得懂的映射（单射、满射、双射）",
+      "url": "https://zhuanlan.zhihu.com/p/279716246",
+      "summary": "正文以两个集合之间的对应关系定义映射，并据此解释单射、满射和双射。"
+    },
+    {
+      "title": "大数数学入门-Part06-序数",
+      "url": "https://zhuanlan.zhihu.com/p/295674553",
+      "summary": "正文用空集和后继运算定义自然数，并进一步以集合构造序数、极限序数及其运算。"
+    },
+    {
+      "title": "研究方法｜【定性比较分析QCA】方法简介+研究思路+实际运用",
+      "url": "https://zhuanlan.zhihu.com/p/311838821",
+      "summary": "正文用确定集、模糊集、多值集和成员身份度说明条件与结果的集合包含关系，并依据集合逻辑判断充分必要条件。"
+    },
+    {
+      "title": "离散数学基础笔记-集合与关系",
+      "url": "https://zhuanlan.zhihu.com/p/316293561",
+      "summary": "正文系统定义集合、元素、子集以及并交补和笛卡尔积等集合运算。"
+    },
+    {
+      "title": "机器学习中“距离与相似度”计算汇总",
+      "url": "https://zhuanlan.zhihu.com/p/336946131",
+      "summary": "正文用集合的交集与并集定义杰卡德相似度和距离，并说明集合运算的实现。"
+    },
+    {
+      "title": "概率论-1.随机事件与样本空间",
+      "url": "https://zhuanlan.zhihu.com/p/338141202",
+      "summary": "正文用集合表示样本空间和随机事件，并借助集合包含、交、并和互斥关系定义事件运算。"
+    },
+    {
+      "title": "万万不可回避映射概念",
+      "url": "https://zhuanlan.zhihu.com/p/342371648",
+      "summary": "正文以幂集、交并补运算说明集合与映射的关系，展开集合及其运算的抽象理解。"
+    },
+    {
+      "title": "第一次就能看懂的勒贝格（Lebesgue）积分（一）",
+      "url": "https://zhuanlan.zhihu.com/p/343599708",
+      "summary": "正文系统复习并集、交集、差集、补集、映射、单射和满射，并讨论集合的可数性。"
+    },
+    {
+      "title": "（一）模态逻辑 Modal Logic 初步",
+      "url": "https://zhuanlan.zhihu.com/p/344930351",
+      "summary": "正文借助集合之间的双射解释可数无穷集合。"
+    },
+    {
+      "title": "公理集合论基础（上）：空集和罗素悖论",
+      "url": "https://zhuanlan.zhihu.com/p/346371552",
+      "summary": "正文解释集合论的公理化，并讨论集合、空集以及集合相等的基本含义。"
+    },
+    {
+      "title": "机器学习中的数学符号",
+      "url": "https://zhuanlan.zhihu.com/p/348290670",
+      "summary": "正文解释集合成员符号，并逐一介绍实数集、有理数集、整数集、自然数集和复数集。"
+    },
+    {
+      "title": "定性比较分析（QCA）的集合关系：超集与子集、必要与充分、一致性与覆盖度",
+      "url": "https://zhuanlan.zhihu.com/p/347944849",
+      "summary": "正文从集合元素与包含关系出发，定义了子集并进一步讨论必要、充分、一致性和覆盖度。"
+    },
+    {
+      "title": "数到无穷大之后——无穷序数简介",
+      "url": "https://zhuanlan.zhihu.com/p/348673044",
+      "summary": "正文用空集、包含关系和良序集构造自然数及omega等序数，实质讨论集合结构。"
+    },
+    {
+      "title": "数学知识学习之——商空间(Quotient Spaces)",
+      "url": "https://zhuanlan.zhihu.com/p/350169265",
+      "summary": "正文用等价关系划分向量，并以所有等价类构成商空间这一集合。"
+    },
+    {
+      "title": "定性比较分析(QCA)操作指南——Pappas和Woodside(2021)一文的翻译",
+      "url": "https://zhuanlan.zhihu.com/p/350505003",
+      "summary": "正文具体解释模糊集的隶属度、集合内外的界定、0.5交叉点以及集合关系，并据此构造真值表。"
+    },
+    {
+      "title": "距离相似度计算总结（欧式距离、余弦相似度、杰卡德、互信息等18种）",
+      "url": "https://zhuanlan.zhihu.com/p/354289511",
+      "summary": "正文把二值样本视为集合，用交集与并集定义 Jaccard 系数和 Jaccard 距离。"
+    },
+    {
+      "title": "统计距离（STATISTICAL DISTANCE）",
+      "url": "https://zhuanlan.zhihu.com/p/358895758",
+      "summary": "正文从集合出发定义多重集合，并展开重数、子集、交并和差等集合运算。"
+    },
+    {
+      "title": "实变函数第01讲（绪论：完备化史，勒贝格积分思想；集合：交并补，序列极限）",
+      "url": "https://zhuanlan.zhihu.com/p/359935002",
+      "summary": "正文详细讲解集合族的定义、集合交并补运算以及集合序列的极限。"
+    },
+    {
+      "title": "集合的基本运算",
+      "url": "https://zhuanlan.zhihu.com/p/364688466",
+      "summary": "正文系统定义集合的交、并、差、补，说明运算律并通过元素归属推导德摩根定律。"
+    },
+    {
+      "title": "从零开始到阿列夫数",
+      "url": "https://zhuanlan.zhihu.com/p/367528351",
+      "summary": "正文从空集出发，通过封装规则构造集合、有限序数和自然数。"
+    },
+    {
+      "title": "【高考数学】1.2 子集个数公式的妙用",
+      "url": "https://zhuanlan.zhihu.com/p/370884099",
+      "summary": "正文通过选择剩余元素构造中间集合，系统讲解满足包含关系的子集个数公式及其排除端点情形。"
+    },
+    {
+      "title": "有理数和整数一样多？——从等势到连续统假设",
+      "url": "https://zhuanlan.zhihu.com/p/378368843",
+      "summary": "正文以双射、单射定义集合等势和集合势的大小关系，并据此研究集合基数。"
+    },
+    {
+      "title": "离散数学笔记（4.7）等价关系",
+      "url": "https://zhuanlan.zhihu.com/p/381528728",
+      "summary": "正文用集合上的二元关系定义等价关系与等价类，并证明等价关系与集合划分、商集之间的一一对应。"
+    },
+    {
+      "title": "实分析笔记（一）：集合&测度",
+      "url": "https://zhuanlan.zhihu.com/p/396683902",
+      "summary": "正文从集合列极限、势与可数性开始，讲解了集合运算和基数关系。"
+    },
+    {
+      "title": "民科吧见闻录11(Part Q)——郭德胜的数学笑话合集",
+      "url": "https://zhuanlan.zhihu.com/p/399863544",
+      "summary": "正文给出朴素集合定义，并据集合包含关系解释小数集、整数集与实数集的联系。"
+    },
+    {
+      "title": "一文搞懂什么是模糊逻辑【附应用举例】",
+      "url": "https://zhuanlan.zhihu.com/p/404174217",
+      "summary": "正文定义模糊集合和隶属度函数，并讲解模糊集合表示、包含运算及与经典集合的区别。"
+    },
+    {
+      "title": "小白数学分析｜5. 究竟什么是等价关系、等价类 (equivalence relationship, equivalence class)?",
+      "url": "https://zhuanlan.zhihu.com/p/405743465",
+      "summary": "正文定义集合上的关系、等价关系及其三条性质，并讲解如何用等价关系把集合划分为等价类。"
+    },
+    {
+      "title": "实分析(Advanced)1",
+      "url": "https://zhuanlan.zhihu.com/p/417273824",
+      "summary": "正文从集合族及其对补集、并集的封闭性出发，并讨论笛卡尔积、投影和集合交并运算。"
+    },
+    {
+      "title": "卓里奇《数学分析》习题（第一、二、三章）",
+      "url": "https://zhuanlan.zhihu.com/p/438175318",
+      "summary": "正文讨论映射、乘积投影的原象、等价关系和商集，并证明层构成集合的划分。"
+    },
+    {
+      "title": "聊一聊QCA中的几种覆盖度(coverage)",
+      "url": "https://zhuanlan.zhihu.com/p/442576610",
+      "summary": "正文用集合包含关系、交集和并集具体解释原始覆盖度、净覆盖度及整体解覆盖度。"
+    },
+    {
+      "title": "近世代数知识框架（期末总复习）持续更新",
+      "url": "https://zhuanlan.zhihu.com/p/454558040",
+      "summary": "正文用集合的等价关系和分类定理说明集合划分的基本结构。"
+    },
+    {
+      "title": "集合列（集列）的上下极限",
+      "url": "https://zhuanlan.zhihu.com/p/464063028",
+      "summary": "正文定义集合序列、单调集列以及通过集合交并构造的上极限和下极限。"
+    },
+    {
+      "title": "分类，等价关系，等价类，商集",
+      "url": "https://zhuanlan.zhihu.com/p/467890911",
+      "summary": "正文从集合的划分、等价类和商集入手，完整解释集合如何按等价关系分成互不相交的非空子集。"
+    },
+    {
+      "title": "点集拓扑（1）：预备知识",
+      "url": "https://zhuanlan.zhihu.com/p/472923654",
+      "summary": "正文从集合上的等价关系出发，证明等价类构成划分并介绍商集。"
+    },
+    {
+      "title": "点集拓扑（2）：ZF公理系统",
+      "url": "https://zhuanlan.zhihu.com/p/475500582",
+      "summary": "正文从集合与属于关系出发，定义交集、差、幂集、笛卡尔积等集合运算。"
+    },
+    {
+      "title": "逻辑学入门（上）-演绎逻辑",
+      "url": "https://zhuanlan.zhihu.com/p/495493685",
+      "summary": "正文用集合外延、包含关系、文恩图及集合运算解释谓词与命题逻辑之间的关系。"
+    },
+    {
+      "title": "定性比较分析（QCA）常见问题汇总",
+      "url": "https://zhuanlan.zhihu.com/p/509403980",
+      "summary": "正文以 QCA 校准为例说明如何把变量定义为集合，并讨论案例对集合的隶属关系。"
+    },
+    {
+      "title": "无穷小与高阶无穷小的解读——函数与函数族",
+      "url": "https://zhuanlan.zhihu.com/p/516545395",
+      "summary": "正文把高阶无穷小视为函数族，并用元素属于集合及集合包含关系解释小 o 记号。"
+    },
+    {
+      "title": "什么是自然数——皮亚诺公理的理解",
+      "url": "https://zhuanlan.zhihu.com/p/519381654",
+      "summary": "正文用集合、子集和元素关系定义自然数结构，并展示用空集及并集构造自然数的集合模型。"
+    },
+    {
+      "title": "实变函数期末复习（详细知识点总结&定理证明&课后习题）",
+      "url": "https://zhuanlan.zhihu.com/p/530210723",
+      "summary": "正文复习集合运算、映射、对等、基数以及可数和不可数集合。"
+    },
+    {
+      "title": "离散数学期末复习知识点总结",
+      "url": "https://zhuanlan.zhihu.com/p/533801720",
+      "summary": "正文讲解集合运算、集合相等、笛卡尔积、关系及其闭包等集合论基础。"
+    },
+    {
+      "title": "一切复杂都来源于简单的叠加（3）康托尔集",
+      "url": "https://zhuanlan.zhihu.com/p/549408597",
+      "summary": "正文通过自然数子集与幂集建立一一对应，用集合论语言解释康托尔集的势。"
+    },
+    {
+      "title": "Note：张量积、直积、直和、Cartesian积与Kronecker积的区别与联系【物理向】",
+      "url": "https://zhuanlan.zhihu.com/p/556129070",
+      "summary": "正文以集合 A、B 的全部有序对定义 Cartesian 积，并进一步推广到有限多个集合的 n 元组。"
+    },
+    {
+      "title": "fsQCA方法分享—从概念入门",
+      "url": "https://zhuanlan.zhihu.com/p/566013247",
+      "summary": "正文从清晰集推广到模糊集，解释隶属分数、并与交并运算及子集关系。"
+    },
+    {
+      "title": "三只小猪学集合论",
+      "url": "https://zhuanlan.zhihu.com/p/573604998",
+      "summary": "正文以概括公理构造集合 R，并借此说明朴素集合论产生罗素悖论。"
+    },
+    {
+      "title": "A Probability Path (二) 闭集，sigma代数和博雷尔集",
+      "url": "https://zhuanlan.zhihu.com/p/587467855",
+      "summary": "正文从集合列、并交补和可数运算出发，具体定义半代数、代数与 σ 代数。"
+    },
+    {
+      "title": "白天打工，晚上科研，谷歌大脑研究科学家破解了困扰数学界几十年的猜想",
+      "url": "https://zhuanlan.zhihu.com/p/596497027",
+      "summary": "正文定义集合并集、并封闭集族及 Frankl 猜想中的集合出现频率。"
+    },
+    {
+      "title": "两位数学家证明了p=t，实现了数学上的一个突破，它到底是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/615633735",
+      "summary": "正文以自然数集及其集合族为例解释集合、可数与不可数以及集合族的大小和包含关系。"
+    },
+    {
+      "title": "评价类算法——模糊综合评价法(附matlab代码)",
+      "url": "https://zhuanlan.zhihu.com/p/627815076",
+      "summary": "正文用因素集、评语集和隶属度定义模糊评价对象，并说明隶属度可表达集合成员的模糊程度。"
+    },
+    {
+      "title": "良序集与选择公理",
+      "url": "https://zhuanlan.zhihu.com/p/633029774",
+      "summary": "正文从集合上的严格全序、良序和序理想出发研究一般集合的序结构。"
+    },
+    {
+      "title": "离散数学重点整理",
+      "url": "https://zhuanlan.zhihu.com/p/639464918",
+      "summary": "正文系统整理集合运算、幂集和基本恒等式，并进一步讨论关系与划分。"
+    },
+    {
+      "title": "无孔不入：数学中的稠密",
+      "url": "https://zhuanlan.zhihu.com/p/659374891",
+      "summary": "正文从子集在父集合中的分布出发，给出稠密子集的度量和序列刻画，并讨论无处稠密集。"
+    },
+    {
+      "title": "直观理解集合列的极限",
+      "url": "https://zhuanlan.zhihu.com/p/669720410",
+      "summary": "正文以包含关系、并集和交集解释集合列的上确界与下确界，实际展开了集合及其运算。"
+    },
+    {
+      "title": "类型论（type theory）学习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/679483353",
+      "summary": "正文从 ZFC 公理出发构造空集、子集、幂集、笛卡尔积和自然数集，具体说明集合的基本运算与构造。"
+    },
+    {
+      "title": "为何会有高等概率论？  —— 从初等概率论到高等概率论",
+      "url": "https://zhuanlan.zhihu.com/p/681190554",
+      "summary": "正文将事件解释为样本空间的子集，并进一步用由这些子集构成的σ代数刻画事件集合。"
+    },
+    {
+      "title": "深刻理解线性代数的本质--线性空间的积与商",
+      "url": "https://zhuanlan.zhihu.com/p/681060611",
+      "summary": "正文从集合分类和等价类出发构造商空间，并说明商空间加法为何良定义及其向量空间结构。"
+    },
+    {
+      "title": "数可以做除法，图竟然也可以？",
+      "url": "https://zhuanlan.zhihu.com/p/690033067",
+      "summary": "正文从课桌分排引入等价关系、等价类和划分，并据此构造商空间。"
+    },
+    {
+      "title": "Andre Weil数学故事集",
+      "url": "https://zhuanlan.zhihu.com/p/700352107",
+      "summary": "正文介绍了空集符号 Ø 进入集合论及 Bourbaki 教材的历史，并说明它表示空集。"
+    },
+    {
+      "title": "人生苦短，何不数学",
+      "url": "https://zhuanlan.zhihu.com/p/701670024",
+      "summary": "正文说明集合论如何作为实数、有理数、整数和自然数构造的基础。"
+    },
+    {
+      "title": "范畴论，最高级的数学抽象，数学家武器库中最强大的武器",
+      "url": "https://zhuanlan.zhihu.com/p/704508176",
+      "summary": "正文用集合及集合间函数解释组合关系，为范畴中对象和箭头的抽象提供具体模型。"
+    },
+    {
+      "title": "从ω到不可达基数再到宇宙V",
+      "url": "https://zhuanlan.zhihu.com/p/741124995",
+      "summary": "正文以集合、幂集、势和传递模型构造冯诺依曼宇宙及各类大基数，展开集合论对象。"
+    },
+    {
+      "title": "从集合论到类型论",
+      "url": "https://zhuanlan.zhihu.com/p/5431819788",
+      "summary": "正文用成员关系、外延性、幂集和子集具体比较ZFC与ETCS中的集合概念。"
+    },
+    {
+      "title": "豪斯多夫、尼采与集合论",
+      "url": "https://zhuanlan.zhihu.com/p/32265010172",
+      "summary": "正文把轮回问题转化为集合与特征函数问题，并用集合论给出解答。"
+    },
+    {
+      "title": "一道丘赛题",
+      "url": "https://zhuanlan.zhihu.com/p/1899125796678903164",
+      "summary": "正文构造素数集合的子集族、Frechet 滤子和非主超滤，并使用有限交性质与集合运算完成论证。"
+    },
+    {
+      "title": "数学史上最炸裂的命题之一：连续统假设，挑战整个数学体系的根基",
+      "url": "https://zhuanlan.zhihu.com/p/1899667058691647091",
+      "summary": "正文以自然数集和实数集的基数说明集合大小，并由此陈述连续统假设。"
+    },
+    {
+      "title": "与(伪)燃烧数的最终决战！详细阐述背后原理(上)",
+      "url": "https://zhuanlan.zhihu.com/p/1897263349986726061",
+      "summary": "正文以集合的可数性、子集、良序和序型研究燃烧数集合的结构。"
+    },
+    {
+      "title": "抽象代数（一）：抽象代数有多抽象？",
+      "url": "https://zhuanlan.zhihu.com/p/1901961789706568090",
+      "summary": "正文实际讲解了集合上的关系、等价类、商集以及运算作用于集合的封闭性。"
+    },
+    {
+      "title": "集合论描述的故事",
+      "url": "https://zhuanlan.zhihu.com/p/1954886302802634308",
+      "summary": "正文从元素、子集和集合运算讲到关系、映射及幂集，系统展开集合论基础。"
+    },
+    {
+      "title": "气吞万里如虎：回顾十九世纪的数学英豪们",
+      "url": "https://zhuanlan.zhihu.com/p/2033553726032565423",
+      "summary": "正文比较这些可数集合与实数集合，并由此说明集合论中的无穷大小关系。"
+    }
+  ]
+}

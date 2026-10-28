@@ -1,0 +1,2396 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l5-t3-b1",
+  "sources": [
+    {
+      "title": "概率为 0 的事件，必然不能发生吗？概率为 1 的事件，必然能发生吗？",
+      "url": "https://www.zhihu.com/answer/14335464",
+      "summary": "以单位正方形上的面积测度解释零概率与不可能事件的区别，以及概率为一与必然事件的区别，需理解为连续均匀取点的模型。"
+    },
+    {
+      "title": "0 到 2 的点是否比 0 到 1 的点多？如果一样多为什么 2 比 1 大？",
+      "url": "https://www.zhihu.com/answer/15373955",
+      "summary": "比较勒贝格测度、计数测度与集合基数，说明等势区间可以长度不同。实数势等于 ℵ1 在原文标注 CH，应保留连续统假设条件。"
+    },
+    {
+      "title": "有哪些数学知识与人们的生活常识不符？",
+      "url": "https://www.zhihu.com/answer/16272377",
+      "summary": "通过区间均匀取点说明零概率不等于不可能、概率1不等于逻辑必然；伯特兰悖论反映取样模型未明确，并不是随机性无法严谨定义。"
+    },
+    {
+      "title": "数学对计算机专业重要吗？",
+      "url": "https://www.zhihu.com/answer/17951851",
+      "summary": "具体说明测度表述统一离散求和与连续积分的作用，并提到计数测度、勒贝格测度及更一般积分。"
+    },
+    {
+      "title": "有哪些反直觉的数学现象？",
+      "url": "https://www.zhihu.com/answer/25969034",
+      "summary": "正文围绕“测度”给出直接说明。"
+    },
+    {
+      "title": "为什么定积分可以求面积？",
+      "url": "https://www.zhihu.com/answer/27219339",
+      "summary": "正文围绕“测度”给出说明、例证或方法。"
+    },
+    {
+      "title": "度量空间 (metric space) 与测度空间 (measure space) 的关系？",
+      "url": "https://www.zhihu.com/answer/30660465",
+      "summary": "正文围绕“测度”给出说明、例证或方法。"
+    },
+    {
+      "title": "直线是由点组成的吗？那不是说无限个零相加大于零？",
+      "url": "https://www.zhihu.com/answer/32767436",
+      "summary": "从长度、面积和体积解释测度及可数可加性。"
+    },
+    {
+      "title": "如何理解巴那赫－塔斯基悖论（Banach-Tarski paradox）？",
+      "url": "https://www.zhihu.com/answer/37153805",
+      "summary": "正文以勒贝格可测集及旋转平移不变性解释巴拿赫－塔斯基悖论。"
+    },
+    {
+      "title": "Riemann 积分与 Lebesgue 积分的联系与差异分别是什么？",
+      "url": "https://www.zhihu.com/answer/41787000",
+      "summary": "正文以测度说明勒贝格积分的单调逼近。"
+    },
+    {
+      "title": "Riemann 积分与 Lebesgue 积分的联系与差异分别是什么？",
+      "url": "https://www.zhihu.com/answer/41912293",
+      "summary": "正文定义可测集合上的简单函数。"
+    },
+    {
+      "title": "请问研究生阶段的随机过程非常难吗 我想上随机的phd ？",
+      "url": "https://www.zhihu.com/answer/42267433",
+      "summary": "正文说明随机过程与测度论。"
+    },
+    {
+      "title": "概率为 0 的事件，必然不能发生吗？概率为 1 的事件，必然能发生吗？",
+      "url": "https://www.zhihu.com/answer/42576188",
+      "summary": "正文以零测集说明零概率事件。"
+    },
+    {
+      "title": "是否有方法产生(-∞,+∞)的随机数？",
+      "url": "https://www.zhihu.com/answer/44453009",
+      "summary": "正文以概率测度弱收敛与最大熵分布讨论无界区间采样。"
+    },
+    {
+      "title": "概率论和实变函数（测度论）有什么联系？",
+      "url": "https://www.zhihu.com/answer/45666000",
+      "summary": "正文说明测度论为连续条件概率、样本路径和极限定理提供严格基础。"
+    },
+    {
+      "title": "哪些数学定理在直觉上是对的，但证明起来很困难？",
+      "url": "https://www.zhihu.com/answer/46436812",
+      "summary": "正文讨论曲线曲面长度面积的严格定义及一般对象的测度问题。"
+    },
+    {
+      "title": "哪些数学定理在直觉上是对的，但证明起来很困难？",
+      "url": "https://www.zhihu.com/answer/46477066",
+      "summary": "正文将普拉托问题置于几何测度论，并讨论曲面面积与收敛。"
+    },
+    {
+      "title": "比较高深的数学在经济学有哪些运用相当漂亮？",
+      "url": "https://www.zhihu.com/answer/50358309",
+      "summary": "正文说明大经济体中可测偏好与测度论的作用。"
+    },
+    {
+      "title": "实分析学得太难失去信心和兴趣了怎么办？",
+      "url": "https://www.zhihu.com/answer/50589761",
+      "summary": "正文列举可测函数和收敛定理等实分析测度论基础。"
+    },
+    {
+      "title": "数学中的概率是不是伪科学？",
+      "url": "https://www.zhihu.com/answer/54083498",
+      "summary": "正文指出现代概率论以测度论为数学基础并定义概率空间。"
+    },
+    {
+      "title": "一个数介于 2 和 3 之间，那么它为无理数和有理数的概率分别为多少？",
+      "url": "https://www.zhihu.com/answer/56252469",
+      "summary": "正文以有理数集测度为零解释区间内随机取数时有理数概率为零。"
+    },
+    {
+      "title": "Borel 集的作用？意义？它为什么重要？",
+      "url": "https://www.zhihu.com/answer/57679707",
+      "summary": "正文由外测度、可测集和 sigma 代数构造 Borel 集。"
+    },
+    {
+      "title": "如何用通俗的语言解释等价鞅测度？还有期权定价时为什么要进行测度变换？",
+      "url": "https://www.zhihu.com/answer/60189281",
+      "summary": "正文定义测度为概率的广义说法，并用于期权定价的测度变换。"
+    },
+    {
+      "title": "请问σ-代数（sigma-algebra）的含义是什么，能否举例说明？",
+      "url": "https://www.zhihu.com/answer/67860525",
+      "summary": "正文解释概率测度及其在概率空间中的作用。"
+    },
+    {
+      "title": "怎样理解概率空间这个概念和概率空间的三要素（Ω，F，P）？",
+      "url": "https://www.zhihu.com/answer/67964978",
+      "summary": "正文定义概率测度并说明其可列可加性质。"
+    },
+    {
+      "title": "n阶方阵中可逆矩阵和不可逆矩阵哪个多？",
+      "url": "https://www.zhihu.com/answer/69699887",
+      "summary": "正文从测度论角度说明不可逆矩阵为零测集。"
+    },
+    {
+      "title": "n阶方阵中可逆矩阵和不可逆矩阵哪个多？",
+      "url": "https://www.zhihu.com/answer/70126012",
+      "summary": "正文说明不可逆矩阵集合的测度为零。"
+    },
+    {
+      "title": "如何判断一个函数是否黎曼可积以及是否有原函数？",
+      "url": "https://www.zhihu.com/answer/70303435",
+      "summary": "正文以零测集和勒贝格测度表述可积性条件。"
+    },
+    {
+      "title": "如何解释「庞加莱回归」的概念，让一个大学理科水平的人能听懂？",
+      "url": "https://www.zhihu.com/answer/78425273",
+      "summary": "正文用保测度性证明庞加莱回归的核心结论。"
+    },
+    {
+      "title": "如何能自学学好实变函数?",
+      "url": "https://www.zhihu.com/answer/80652060",
+      "summary": "正文明确提到勒贝格测度。"
+    },
+    {
+      "title": "大偏差技术是什么？",
+      "url": "https://www.zhihu.com/answer/82408466",
+      "summary": "正文在概率测度空间和经验测度上陈述高层大偏差原理。"
+    },
+    {
+      "title": "请教如何证明同等体积时球体表面积最小？",
+      "url": "https://www.zhihu.com/answer/84418901",
+      "summary": "正文说明用 Hausdorff 测度定义曲面面积并证明等周不等式。"
+    },
+    {
+      "title": "概率是什么？Sigma algebra, Borel field 是什么意思，意义何在？",
+      "url": "https://www.zhihu.com/answer/89942312",
+      "summary": "正文从可测集、σ-代数和测度空间解释概率论的测度基础。"
+    },
+    {
+      "title": "集合的极限怎么定义的？集合的度量又是什么？",
+      "url": "https://www.zhihu.com/answer/100566126",
+      "summary": "正文说明集合度量属于测度论，并概述可测集合与可测函数的研究对象。"
+    },
+    {
+      "title": "学习经济学应该掌握哪些数学工具或是学习哪些数学理论？",
+      "url": "https://www.zhihu.com/answer/103761653",
+      "summary": "实分析部分从 sigma 代数到测度并说明其在概率和经济学中的用途。"
+    },
+    {
+      "title": "数学学习或研究中，你见过哪些有意思的反例？",
+      "url": "https://www.zhihu.com/answer/113744031",
+      "summary": "正文定义 Kakeya 集并证明其测度可以为零或任意小。"
+    },
+    {
+      "title": "如何从维度和物理意义等角度分别理解定积分、曲线曲面积分、重积分？",
+      "url": "https://www.zhihu.com/answer/119280431",
+      "summary": "正文指出严谨统一不同积分需要测度，并说明每种积分对应一种测度。"
+    },
+    {
+      "title": "实变、泛函、抽代、拓扑，哪几门对于非纯数专业更加有用？",
+      "url": "https://www.zhihu.com/answer/120597047",
+      "summary": "正文说明测度论是概率论基础，控制收敛定理用于概率推导。"
+    },
+    {
+      "title": "你遇过哪些概率极小的事？",
+      "url": "https://www.zhihu.com/answer/120861364",
+      "summary": "正文用连续样本空间中单点概率为0但仍可能发生的例子引出测度论。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/123023365",
+      "summary": "正文用Banach－Tarski悖论解释为何并非所有集合可测，并说明不同测度的适用范围。"
+    },
+    {
+      "title": "如何直观地理解衍生定价中用到的Change of Measure(测度变换)？",
+      "url": "https://www.zhihu.com/answer/124431493",
+      "summary": "正文定义市场测度和风险中性测度，并说明用 Radon-Nikodym 导数连接概率测度。"
+    },
+    {
+      "title": "金融衍生品定价有哪些基本方法？",
+      "url": "https://www.zhihu.com/answer/124841153",
+      "summary": "正文展开真实测度到风险中性测度的变换、鞅定价和不同计价单位的应用。"
+    },
+    {
+      "title": "如何用数学方法推翻阿基里斯追不上乌龟悖论？",
+      "url": "https://www.zhihu.com/answer/124899568",
+      "summary": "正文区分集合等势与测度大小，并举出零测集。"
+    },
+    {
+      "title": "所有的正数相乘等于几呢？",
+      "url": "https://www.zhihu.com/answer/125051445",
+      "summary": "正文以倒数变换和对数测度说明等势集合仍可能有不同测度。"
+    },
+    {
+      "title": "有多少个数学家叫 Kolmogorov ?",
+      "url": "https://www.zhihu.com/answer/125429727",
+      "summary": "正文具体写出概率测度空间，将事件、概率和随机变量分别解释为可测集、测度与可测函数。"
+    },
+    {
+      "title": "Kolmogorov（柯尔莫哥洛夫）至少让实用概率论停滞了三四十年，试评价这一观点？",
+      "url": "https://www.zhihu.com/answer/125456642",
+      "summary": "正文解释测度论如何使概率空间、连续随机变量和积分获得统一严格框架。"
+    },
+    {
+      "title": "Kolmogorov（柯尔莫哥洛夫）至少让实用概率论停滞了三四十年，试评价这一观点？",
+      "url": "https://www.zhihu.com/answer/125527745",
+      "summary": "正文写出概率测度空间及测度积分，把事件、随机变量和期望统一到测度论框架。"
+    },
+    {
+      "title": "怎么学习几何测度论？",
+      "url": "https://www.zhihu.com/answer/126704548",
+      "summary": "正文解释几何测度论用于极小曲面正则性、奇点估计和形状刻画。"
+    },
+    {
+      "title": "如何通俗易懂地解答双信封悖论？",
+      "url": "https://www.zhihu.com/answer/128285497",
+      "summary": "正文用勒贝格测度与计数测度均为无穷说明无穷集合上不能定义均匀分布。"
+    },
+    {
+      "title": "如何通俗易懂地解答双信封悖论？",
+      "url": "https://www.zhihu.com/answer/128390540",
+      "summary": "正文用可列可加性证明自然数集与正实数区间上不存在均匀概率分布。"
+    },
+    {
+      "title": "离散型随机变量有没有概率密度？",
+      "url": "https://www.zhihu.com/answer/132007645",
+      "summary": "正文用零测集、支配测度和对不同测度的积分解释概率密度，实际应用测度论。"
+    },
+    {
+      "title": "如何理解实变函数中的叶果洛夫定理？",
+      "url": "https://www.zhihu.com/answer/134836217",
+      "summary": "正文用零测集、有限 Borel 测度和可测函数说明 Egorov 定理的测度论应用。"
+    },
+    {
+      "title": "如何理解那些比不可达基数更大的基数？",
+      "url": "https://www.zhihu.com/answer/137092155",
+      "summary": "正文把超滤视为二值测度，说明它如何区分基数子集的大小。"
+    },
+    {
+      "title": "老师叫我们看书距离要一尺，可是 33.333... 厘米无限循环，怎么能刚好一尺？",
+      "url": "https://www.zhihu.com/answer/139818064",
+      "summary": "正文用单点集测度为零解释精确距离事件的概率。"
+    },
+    {
+      "title": "假设一个台球有无限动力，最终是不是一定会进袋？",
+      "url": "https://www.zhihu.com/answer/144198635",
+      "summary": "正文用有理数为零测集说明不进洞方向的概率为零。"
+    },
+    {
+      "title": "几何测度论的最重要观点是什么？",
+      "url": "https://www.zhihu.com/answer/146431424",
+      "summary": "正文以 current 和广义函数说明几何测度论如何把分析推广到含奇点的几何对象。"
+    },
+    {
+      "title": "wasserstein 距离的问题?",
+      "url": "https://www.zhihu.com/answer/147394973",
+      "summary": "正文以概率测度和 delta 测度定义分布间距离并讨论其几何结构。"
+    },
+    {
+      "title": "费曼路径积分的数学严格化有哪些困难和进展?",
+      "url": "https://www.zhihu.com/answer/148016526",
+      "summary": "正文讨论无限维空间中概率测度、柱集、外测度与复值测度的构造困难。"
+    },
+    {
+      "title": "如何正面证明［0，1］上无理数的测度等于1？",
+      "url": "https://www.zhihu.com/answer/149231657",
+      "summary": "正文从外测度覆盖定义出发，完整证明无理数集合的勒贝格测度为 1。"
+    },
+    {
+      "title": "数学系本科生如何学好实变函数与泛函分析？",
+      "url": "https://www.zhihu.com/answer/151499682",
+      "summary": "正文解释勒贝格测度是区间长度的推广，并给出实变学习重点。"
+    },
+    {
+      "title": "数学系本科生如何学好实变函数与泛函分析？",
+      "url": "https://www.zhihu.com/answer/151550619",
+      "summary": "正文围绕测度空间、可测集、Radon测度及测度分解组织实变函数内容。"
+    },
+    {
+      "title": "实变函数有什么用？",
+      "url": "https://www.zhihu.com/answer/160480195",
+      "summary": "正文说明测度论在积分与概率公理化中的基础地位。"
+    },
+    {
+      "title": "密度矩阵的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/174223353",
+      "summary": "正文用态空间上的概率测度定义混合态和密度算符。"
+    },
+    {
+      "title": "动力系统和数论之间有什么超常的关系？",
+      "url": "https://www.zhihu.com/answer/175818881",
+      "summary": "正文介绍不变遍历测度与测度分类如何用于数论猜想。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/178159930",
+      "summary": "正文解释基于测度语言的概率如何从可测事件组织证明。"
+    },
+    {
+      "title": "几何测度论的最重要观点是什么？",
+      "url": "https://www.zhihu.com/answer/184532477",
+      "summary": "正文解释几何测度论把几何对象抽象为测度，以获得极限存在性和正则性。"
+    },
+    {
+      "title": "学习实分析什么教材比较好用，各有什么优劣？",
+      "url": "https://www.zhihu.com/answer/191186945",
+      "summary": "正文解释从欧氏空间勒贝格测度到抽象测度、乘积测度和符号测度的教材安排。"
+    },
+    {
+      "title": "概率论中最让你难忘的定理是什么？",
+      "url": "https://www.zhihu.com/answer/197143989",
+      "summary": "正文明确在参数空间上引入测度以表示联合分布。"
+    },
+    {
+      "title": "对Maryam Mirzakhani的工作很感兴趣，有没有人能简单的谈一谈她的工作？",
+      "url": "https://www.zhihu.com/answer/199652695",
+      "summary": "正文构造缩放测度研究曲线轨道在测度层面的极限分布。"
+    },
+    {
+      "title": "你所在数学领域的 big picture 是什么？",
+      "url": "https://www.zhihu.com/answer/201081140",
+      "summary": "正文多处讨论群作用下不变测度、遍历概率测度与测度刚性。"
+    },
+    {
+      "title": "从泛函分析入手作为数学系的学习路径是否可行？",
+      "url": "https://www.zhihu.com/answer/207688035",
+      "summary": "正文解释实分析中的测度论不能被泛函分析覆盖。"
+    },
+    {
+      "title": "数学硕士/博士研究生阶段有哪些定理/论文/理论让你为之振奋？",
+      "url": "https://www.zhihu.com/answer/210353510",
+      "summary": "正文解释 Bourgain 用不变测度讨论低正则初值的良定义性。"
+    },
+    {
+      "title": "Lebesgue可测与Borel可测？",
+      "url": "https://www.zhihu.com/answer/222883317",
+      "summary": "正文辨析 Borel 测度与 Lebesgue 测度的定义域、完备化和正则性。"
+    },
+    {
+      "title": "概率（Probability）的本质是什么？",
+      "url": "https://www.zhihu.com/answer/224941068",
+      "summary": "正文从公理化角度把概率解释为事件上的特殊测度。"
+    },
+    {
+      "title": "概率（Probability）的本质是什么？",
+      "url": "https://www.zhihu.com/answer/224987980",
+      "summary": "正文从外测度、可测集和可数可加性系统定义测度空间。"
+    },
+    {
+      "title": "做数学不同方向的人各有什么特点？",
+      "url": "https://www.zhihu.com/answer/231575510",
+      "summary": "正文从测度空间定义概率空间。"
+    },
+    {
+      "title": "如何评价 Stein 的分析系列（数学）？",
+      "url": "https://www.zhihu.com/answer/234434292",
+      "summary": "正文比较欧氏空间测度与抽象测度的构造。"
+    },
+    {
+      "title": "Borel 集的作用？意义？它为什么重要？",
+      "url": "https://www.zhihu.com/answer/238785019",
+      "summary": "正文从可测性解释 Borel σ-代数及其概率测度意义。"
+    },
+    {
+      "title": "如何构造一个严格单调上升的且导函数几乎处处为零的，不妨考虑在 [0，1] 上？",
+      "url": "https://www.zhihu.com/answer/243860499",
+      "summary": "正文构造零测集并在其补集上证明导数为零。"
+    },
+    {
+      "title": "Fourier变换和算子谱理论之间有没有直接的数学关系？",
+      "url": "https://www.zhihu.com/answer/250058631",
+      "summary": "正文以 Radon 测度和可测重数函数构造谱表示。"
+    },
+    {
+      "title": "可测集多还是不可测集多？ 即一维，直到n维的欧氏空间中，可测集类和不可测集类是否等势？",
+      "url": "https://www.zhihu.com/answer/250126635",
+      "summary": "正文用 Cantor 集和零测集比较可测集与不可测集的基数。"
+    },
+    {
+      "title": "积分与级数的联系有哪些？",
+      "url": "https://www.zhihu.com/answer/251065232",
+      "summary": "正文从一般测度空间与可测函数阐述积分理论。"
+    },
+    {
+      "title": "为什么测度论要建立在σ-代数上？",
+      "url": "https://www.zhihu.com/answer/259982491",
+      "summary": "正文从半环、外测度与 Carathéodory 延拓系统解释测度构造。"
+    },
+    {
+      "title": "能不能不用选择公理构造一个不可测集合？",
+      "url": "https://www.zhihu.com/answer/268803041",
+      "summary": "正文说明不可测集合依赖选择公理，并介绍所有实数子集可测的模型。"
+    },
+    {
+      "title": "复变函数、实分析、复分析、数学分析是什么关系？",
+      "url": "https://www.zhihu.com/answer/268908475",
+      "summary": "正文明确说明实分析主要研究测度与积分。"
+    },
+    {
+      "title": "复变函数、实分析、复分析、数学分析是什么关系？",
+      "url": "https://www.zhihu.com/answer/269355183",
+      "summary": "正文指出实变函数论研究更宽泛条件下的测度与积分。"
+    },
+    {
+      "title": "几乎处处收敛和依测度收敛的区别是什么呢？",
+      "url": "https://www.zhihu.com/answer/269452870",
+      "summary": "正文在测度空间中比较几乎处处收敛与依测度收敛并给出反例。"
+    },
+    {
+      "title": "以测度为基础的高等概率论和普通的概率论到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/278904450",
+      "summary": "正文解释测度论使概率论中的若干陈述获得严格定义。"
+    },
+    {
+      "title": "你研究的数学领域有哪些重要但不出名的猜想？",
+      "url": "https://www.zhihu.com/answer/284550438",
+      "summary": "正文在勒贝格测度框架下讨论丢番图逼近的几乎处处性质。"
+    },
+    {
+      "title": "在本科数学阶段你学过最有趣的一门数学课是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/286508857",
+      "summary": "正文详细解释 Radon、Hausdorff 测度及测度意义下的局部性质。"
+    },
+    {
+      "title": "为什么矩形面积等于长乘宽？",
+      "url": "https://www.zhihu.com/answer/286800909",
+      "summary": "正文把面积公式归因于测度的可加性。"
+    },
+    {
+      "title": "为什么矩形面积等于长乘宽？",
+      "url": "https://www.zhihu.com/answer/286950965",
+      "summary": "正文详细说明面积测度的旋转、平移、齐次性和可加性。"
+    },
+    {
+      "title": "为什么矩形面积等于长乘宽？",
+      "url": "https://www.zhihu.com/answer/286954136",
+      "summary": "正文用测度可加性和不变性解释面积函数。"
+    },
+    {
+      "title": "利用微分法计算定积分的结果是真实值吗?",
+      "url": "https://www.zhihu.com/answer/287269644",
+      "summary": "正文以不连续点可用总长度任意小的区间覆盖来刻画零测集，并给出黎曼可积条件。"
+    },
+    {
+      "title": "为什么，概率论与测度论的分水岭是引入条件概率与独立性这两个概念？",
+      "url": "https://www.zhihu.com/answer/291115857",
+      "summary": "正文解释测度论是刻画概率的工具而不是条件概率与独立性的来源。"
+    },
+    {
+      "title": "为什么，概率论与测度论的分水岭是引入条件概率与独立性这两个概念？",
+      "url": "https://www.zhihu.com/answer/291882257",
+      "summary": "正文说明测度论公理化概率以及可测性在概率中的核心地位。"
+    },
+    {
+      "title": "路径积分、重整化在数学上目前并没有严格的定义，为什么在物理学中却相当有效？",
+      "url": "https://www.zhihu.com/answer/310732261",
+      "summary": "正文说明傅里叶理论严格化推动测度论建立。"
+    },
+    {
+      "title": "路径积分、重整化在数学上目前并没有严格的定义，为什么在物理学中却相当有效？",
+      "url": "https://www.zhihu.com/answer/310932293",
+      "summary": "正文指出路径积分的核心困难是无穷维道路空间上的测度。"
+    },
+    {
+      "title": "为什么随机变量的分布函数要右连续？",
+      "url": "https://www.zhihu.com/answer/347684427",
+      "summary": "正文用可测集条件说明概率测度的定义域。"
+    },
+    {
+      "title": "有哪些数学系鄙视物理系的经典桥段？",
+      "url": "https://www.zhihu.com/answer/351149957",
+      "summary": "正文用可数稠密集的勒贝格测度解释笑点。"
+    },
+    {
+      "title": "对网上盛传的帝国理工金融数学 PhD 易聪所列的书单，有何看法与建议？",
+      "url": "https://www.zhihu.com/answer/360318418",
+      "summary": "正文实质解释风险中性 Q 测度与现实 P 测度。"
+    },
+    {
+      "title": "读 Evans 的 PDE 前需要哪些预备知识？",
+      "url": "https://www.zhihu.com/answer/364232063",
+      "summary": "正文讨论 Bochner 积分与强可测性。"
+    },
+    {
+      "title": "能否不引入物理学概念，仅从数学角度介绍一下费曼的路径积分？",
+      "url": "https://www.zhihu.com/answer/368826483",
+      "summary": "正文具体构造 Wiener 测度与高斯测度，并讨论其在路径积分上的适用范围。"
+    },
+    {
+      "title": "一个可积函数乘以一个可积函数是否还是可积函数？",
+      "url": "https://www.zhihu.com/answer/375829838",
+      "summary": "正文讨论一般测度空间上的可积与可测条件。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/393203505",
+      "summary": "正文定义测度绝对连续与Radon-Nikodym导数。"
+    },
+    {
+      "title": "几乎处处收敛和依测度收敛的区别是什么呢？",
+      "url": "https://www.zhihu.com/answer/414187343",
+      "summary": "正文比较几乎处处收敛与依测度收敛，并讨论反例。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/459047304",
+      "summary": "正文以有理点稠密但测度为零说明勒贝格测度。"
+    },
+    {
+      "title": "概率论是纯数学吗？",
+      "url": "https://www.zhihu.com/answer/466787333",
+      "summary": "正文解释概率论的测度公理化基础及课程依赖。"
+    },
+    {
+      "title": "既然点没有长度，为什么线段就有长度？",
+      "url": "https://www.zhihu.com/answer/470221844",
+      "summary": "正文用测度论解释点测度为零而线段长度非零。"
+    },
+    {
+      "title": "概率密度函数在某一点的值有什么意义？",
+      "url": "https://www.zhihu.com/answer/470419391",
+      "summary": "正文把概率解释为一种定义在集合上的测度。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/472397585",
+      "summary": "正文解释Lebesgue测度与不可测集合。"
+    },
+    {
+      "title": "测度是什么？",
+      "url": "https://www.zhihu.com/answer/486423193",
+      "summary": "正文给出测度把集合映到非负实数的直观定义。"
+    },
+    {
+      "title": "概率为 0 的事件，必然不能发生吗？概率为 1 的事件，必然能发生吗？",
+      "url": "https://www.zhihu.com/answer/490288095",
+      "summary": "正文用单点集合的面积为零解释零测度事件。"
+    },
+    {
+      "title": "大一新生在读，学习高等数学觉得十分不严谨，有没有必要学习数学分析？",
+      "url": "https://www.zhihu.com/answer/506499934",
+      "summary": "说明实分析以测度、集合论等为基础，并以概率论中的测度化处理为例。"
+    },
+    {
+      "title": "若尔当测度和勒贝格测度什么区别？",
+      "url": "https://www.zhihu.com/answer/508112440",
+      "summary": "比较 Jordan 测度的有限可加性与 Lebesgue 测度的可数可加性，并给出可测集反例。"
+    },
+    {
+      "title": "请问如何理解随机变量的定义？",
+      "url": "https://www.zhihu.com/answer/518143024",
+      "summary": "通过 Borel 集、可测性和原概率空间解释为何随机变量必须可测。"
+    },
+    {
+      "title": "请问filippov解大概是什么意思？是怎么定义的？有什么作用？",
+      "url": "https://www.zhihu.com/answer/532993703",
+      "summary": "正文借零测集、邻域与勒贝格测度定义 Filippov 集值映射。"
+    },
+    {
+      "title": "随手画线段，其长度最有可能是有理数还是无理数？",
+      "url": "https://www.zhihu.com/answer/555149990",
+      "summary": "用可数覆盖总长度任意小的构造说明有理数集合测度为零。"
+    },
+    {
+      "title": "群论在数学分析中的应用？",
+      "url": "https://www.zhihu.com/answer/571960670",
+      "summary": "正文说明群上积分以 Haar 测度为基础。"
+    },
+    {
+      "title": "测度论和泛函分析有什么关系？",
+      "url": "https://www.zhihu.com/answer/575518800",
+      "summary": "正文从可测函数与积分说明测度论的分析内容。"
+    },
+    {
+      "title": "数学系哪门课最难学？",
+      "url": "https://www.zhihu.com/answer/595317910",
+      "summary": "正文说明测度论使概率课程难度发生跃迁。"
+    },
+    {
+      "title": "为什么矩形面积等于长乘宽？",
+      "url": "https://www.zhihu.com/answer/604839913",
+      "summary": "正文说明 Lebesgue 测度对面积概念的推广。"
+    },
+    {
+      "title": "你构造过的或见过的最大的零测集是什么？这个集合在哪些领域被应用了？",
+      "url": "https://www.zhihu.com/answer/612292128",
+      "summary": "正文讨论零测度但满 Hausdorff 维数的集合。"
+    },
+    {
+      "title": "为什么测度论要建立在σ-代数上？",
+      "url": "https://www.zhihu.com/answer/636709769",
+      "summary": "从长度、面积、体积和概率统一说明测度给集合赋值。"
+    },
+    {
+      "title": "Dirichlet Processes 是一个什么样的随机过程？",
+      "url": "https://www.zhihu.com/answer/661424720",
+      "summary": "使用概率测度描述随机过程和取样。"
+    },
+    {
+      "title": "几乎处处可微函数复合可微函数是否几乎处处可微？",
+      "url": "https://www.zhihu.com/answer/680241332",
+      "summary": "用胖 Cantor 集、零测集和特征函数完成构造。"
+    },
+    {
+      "title": "没有测度论基础，可以学随机过程吗？",
+      "url": "https://www.zhihu.com/answer/696253864",
+      "summary": "说明连续时间过程严格构造依赖测度论。"
+    },
+    {
+      "title": "没有测度论基础，可以学随机过程吗？",
+      "url": "https://www.zhihu.com/answer/700644268",
+      "summary": "说明哪些随机过程课程需要或不需要测度论。"
+    },
+    {
+      "title": "什么是黎曼积分和勒贝格积分？两者区别是什么？",
+      "url": "https://www.zhihu.com/answer/713707143",
+      "summary": "以面积公理解释测度论作为积分基础。"
+    },
+    {
+      "title": "在数学系是一种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/717426450",
+      "summary": "说明实变函数课程以测度论为核心。"
+    },
+    {
+      "title": "数学专业的实变函数为什么这么难？",
+      "url": "https://www.zhihu.com/answer/723049614",
+      "summary": "从集合长度与可测性介绍测度论。"
+    },
+    {
+      "title": "测度论和泛函分析有什么关系？",
+      "url": "https://www.zhihu.com/answer/723184756",
+      "summary": "说明测度论用于描述无限且连续的直积分分解。"
+    },
+    {
+      "title": "怎样评价数学家 Yakov G. Sinai 的数学工作？",
+      "url": "https://www.zhihu.com/answer/729708447",
+      "summary": "说明遍历论中的测度保持结构。"
+    },
+    {
+      "title": "数学专业的实变函数为什么这么难？",
+      "url": "https://www.zhihu.com/answer/732923234",
+      "summary": "说明测度论是实变函数的核心部分。"
+    },
+    {
+      "title": "实分析学得太难失去信心和兴趣了怎么办？",
+      "url": "https://www.zhihu.com/answer/736852499",
+      "summary": "明确描述测度论中的可测集逼近学习。"
+    },
+    {
+      "title": "π 的数字排列中能否找到 e 的数字排列？",
+      "url": "https://www.zhihu.com/answer/743398796",
+      "summary": "明确用零测集描述有理数。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/745610357",
+      "summary": "以贝特朗悖论说明不同测度导致不同概率。"
+    },
+    {
+      "title": "随手画线段，其长度最有可能是有理数还是无理数？",
+      "url": "https://www.zhihu.com/answer/746328067",
+      "summary": "正文以概率的可数可加性和单点概率为零证明有理数集概率为零。"
+    },
+    {
+      "title": "是否存在体积无限但表面积有限的图形？",
+      "url": "https://www.zhihu.com/answer/749137419",
+      "summary": "用测度单调性判断有限表面积与无限体积。"
+    },
+    {
+      "title": "什么是黎曼积分和勒贝格积分？两者区别是什么？",
+      "url": "https://www.zhihu.com/answer/754899738",
+      "summary": "说明勒贝格积分以测度为基础。"
+    },
+    {
+      "title": "有哪些数学定理的推出过程是值得细细品味的？",
+      "url": "https://www.zhihu.com/answer/784233180",
+      "summary": "说明现代概率论建立在测度论框架上。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/810528837",
+      "summary": "正文讨论解析集投影的 Lebesgue 可测性在 ZFC 中的不可判定问题。"
+    },
+    {
+      "title": "什么样的女生会让男生不喜欢？",
+      "url": "https://www.zhihu.com/answer/817753025",
+      "summary": "正文定义几乎处处收敛与依测度收敛，并在 Lebesgue 测度空间中构造反例。"
+    },
+    {
+      "title": "能否以通俗的语言解释borel集？",
+      "url": "https://www.zhihu.com/answer/826902516",
+      "summary": "从 sigma 代数定义并构造 Borel 可测集合。"
+    },
+    {
+      "title": "学随机分析需要把实分析和泛函学的很深吗?",
+      "url": "https://www.zhihu.com/answer/827088113",
+      "summary": "说明测度论是现代分析与概率的基础。"
+    },
+    {
+      "title": "2020 年科学突破奖 Alex Eskin 主要工作和成就是什么？",
+      "url": "https://www.zhihu.com/answer/827395153",
+      "summary": "以不变测度和 Lebesgue 测度表述刚性结果。"
+    },
+    {
+      "title": "会不会出现第四次数学危机？",
+      "url": "https://www.zhihu.com/answer/865790551",
+      "summary": "讨论失去选择公理对测度论的影响。"
+    },
+    {
+      "title": "如何理解测度这个概念？",
+      "url": "https://www.zhihu.com/answer/921149219",
+      "summary": "正文从长度和概率出发完整定义测度、内外测度与可测集。"
+    },
+    {
+      "title": "不定积分中dx和定积分的含义是什么？",
+      "url": "https://www.zhihu.com/answer/943637065",
+      "summary": "正文从长度测度推广到一般测度，并讨论 Radon-Nikodym 导数。"
+    },
+    {
+      "title": "实变函数中的测度理论有没有不完善的地方？",
+      "url": "https://www.zhihu.com/answer/961131030",
+      "summary": "正文讨论 Borel 集、可测集和投射集的测度论问题。"
+    },
+    {
+      "title": "一个数介于 2 和 3 之间，那么它为无理数和有理数的概率分别为多少？",
+      "url": "https://www.zhihu.com/answer/966207511",
+      "summary": "正文以任意小区间覆盖可列点集，实质运用长度测度论证。"
+    },
+    {
+      "title": "测度论微分形式有何关联？",
+      "url": "https://www.zhihu.com/answer/977182481",
+      "summary": "正文讨论拓扑空间、流形与李群上测度的存在和构造。"
+    },
+    {
+      "title": "能否介绍一下2020年Abel奖得主Furstenberg和Margulis的一些工作？",
+      "url": "https://www.zhihu.com/answer/1088272859",
+      "summary": "正文实质介绍遍历测度、勒贝格测度及测度刚性结果。"
+    },
+    {
+      "title": "什么是「测度论」？",
+      "url": "https://www.zhihu.com/answer/1135223893",
+      "summary": "正文从面积抽象出测度、可加性与不同测度的直观。"
+    },
+    {
+      "title": "零测集的子集是否可测？",
+      "url": "https://www.zhihu.com/answer/1137597813",
+      "summary": "正文用 Lebesgue 外测度、Borel 集与完全测度空间证明并辨析命题。"
+    },
+    {
+      "title": "为什么计算圆的周长与面积、球的表面积与体积，使用的都是 π，而不是三个不同的数？是偶然还是必然？",
+      "url": "https://www.zhihu.com/answer/1168599460",
+      "summary": "正文以多重积分定义n维球体的测度和体积。"
+    },
+    {
+      "title": "黎曼函数的积分是零，但是就其大致图像看来并不等于零，这是为什么？",
+      "url": "https://www.zhihu.com/answer/1189235054",
+      "summary": "正文用测度为零和几乎处处概念比较两个函数。"
+    },
+    {
+      "title": "学随机分析需要把实分析和泛函学的很深吗?",
+      "url": "https://www.zhihu.com/answer/1369352329",
+      "summary": "正文强调深入研究随机分析需要测度论基础。"
+    },
+    {
+      "title": "二十世纪以来最牛的数学家（Grothendieck这种级别的）都有谁，你最崇拜谁，为什么？",
+      "url": "https://www.zhihu.com/answer/1441996608",
+      "summary": "正文直接讲解或推导“测度”相关内容。"
+    },
+    {
+      "title": "数学分析、实分析为什么都有「分析」两个字。与实变函数和不带「分析」两个字的数学有什么不同？",
+      "url": "https://www.zhihu.com/answer/1475552617",
+      "summary": "正文直接给出与「测度」相关的解释、推导或应用。"
+    },
+    {
+      "title": "金融随机分析中，为什么能用sigma代数表示信息？",
+      "url": "https://www.zhihu.com/answer/1489929565",
+      "summary": "正文直接给出与「测度」相关的解释、推导或应用。"
+    },
+    {
+      "title": "概率论的重要基础之一是测度论，为了扎实地学懂概率论，是否有必要在学了初等概率论后再回头把测度论学懂?",
+      "url": "https://www.zhihu.com/answer/1490273747",
+      "summary": "正文直接给出与「测度」相关的解释、推导或应用。"
+    },
+    {
+      "title": "洗澡的时候突然论证出了1等于0，2等于0，所有数等于0，这个论证哪里错了呢？",
+      "url": "https://www.zhihu.com/answer/1496288165",
+      "summary": "正文直接给出与「测度」相关的解释、推导或应用。"
+    },
+    {
+      "title": "洗澡的时候突然论证出了1等于0，2等于0，所有数等于0，这个论证哪里错了呢？",
+      "url": "https://www.zhihu.com/answer/1497209911",
+      "summary": "正文直接给出与「测度」相关的解释、推导或应用。"
+    },
+    {
+      "title": "微积分之后，现代数学有哪些新的革命性工具？近年来物理理论没有突破，是不是微积分不够用了？",
+      "url": "https://www.zhihu.com/answer/1515171941",
+      "summary": "正文说明实分析发展出测度论并成为现代概率论基础。"
+    },
+    {
+      "title": "洗澡的时候突然论证出了1等于0，2等于0，所有数等于0，这个论证哪里错了呢？",
+      "url": "https://www.zhihu.com/answer/1519967008",
+      "summary": "正文从可数可加性与不可数并集解释原题的测度错误。"
+    },
+    {
+      "title": "请问σ-代数（sigma-algebra）的含义是什么，能否举例说明？",
+      "url": "https://www.zhihu.com/answer/1536071175",
+      "summary": "正文直接讨论测度，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "既然两个分数理论上来说可以无限接近，那么为什么还会出现无理数？",
+      "url": "https://www.zhihu.com/answer/1551413975",
+      "summary": "正文用 Lebesgue 测度证明有理数集是零测集。"
+    },
+    {
+      "title": "能不能直观地介绍一下随机过程中“过程”“停时”“可预测性”“适应过程”等词汇的含义？",
+      "url": "https://www.zhihu.com/answer/1580739507",
+      "summary": "正文在可测空间和概率空间上定义停时等随机过程概念。"
+    },
+    {
+      "title": "割圆术就算割了∞次，它和真实面积也相差很小一部分，怎么就说它就可以等于真实面积？",
+      "url": "https://www.zhihu.com/answer/1619056480",
+      "summary": "正文从测度定义面积并讨论可测集。"
+    },
+    {
+      "title": "割圆术就算割了∞次，它和真实面积也相差很小一部分，怎么就说它就可以等于真实面积？",
+      "url": "https://www.zhihu.com/answer/1619446958",
+      "summary": "正文用测度和勒贝格积分严格定义平面面积。"
+    },
+    {
+      "title": "你最满意自己的科研成果是什么？",
+      "url": "https://www.zhihu.com/answer/1621502988",
+      "summary": "正文用 Haar 测度定义局部紧群中集合的大小。"
+    },
+    {
+      "title": "几何测度论的最重要观点是什么？",
+      "url": "https://www.zhihu.com/answer/1656844325",
+      "summary": "正文用测度意义下的极限对象讨论 current 与 varifold。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/1672517153",
+      "summary": "正文从有理数零测集引出测度概念。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/1715884520",
+      "summary": "正文用 Vitali 覆盖定理说明圆片覆盖正方形的测度结论。"
+    },
+    {
+      "title": "什么是控制收敛定理？",
+      "url": "https://www.zhihu.com/answer/1745907542",
+      "summary": "正文直接讨论或推导「测度」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "哪些数学命题曾经长期被误认为是正确的，但之后被严格证明是错的？",
+      "url": "https://www.zhihu.com/answer/1782182373",
+      "summary": "正文以 Borel 集投影为例说明测度论中的历史错误。"
+    },
+    {
+      "title": "如何看待全国高中数学教材的内容调整？",
+      "url": "https://www.zhihu.com/answer/1785586737",
+      "summary": "正文用勒贝格测度解释几何概型和概率公理化。"
+    },
+    {
+      "title": "DNN只要隐藏层节点足够多，就可以以任意精读逼近任意函数，谁能给个证明吗?",
+      "url": "https://www.zhihu.com/answer/1792857372",
+      "summary": "正文用 Borel 可测集和 Lebesgue 测度限定逼近定理。"
+    },
+    {
+      "title": "有哪些值得推荐的《概率论与数理统计》教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1810551098",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "有什么专业的难度是被严重低估的？",
+      "url": "https://www.zhihu.com/answer/1814838943",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "可否举一个Lebesgue可测的非borel集？",
+      "url": "https://www.zhihu.com/answer/1834802468",
+      "summary": "正文用 Cantor 函数、不可测集和选择公理构造 Lebesgue 可测非 Borel 集。"
+    },
+    {
+      "title": "以测度为基础的高等概率论和普通的概率论到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/1836136165",
+      "summary": "正文用可测空间、概率测度和算子理论说明高等概率论的必要性。"
+    },
+    {
+      "title": "以测度为基础的高等概率论和普通的概率论到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/1841233911",
+      "summary": "正文用几乎处处收敛和 epsilon-delta 说明测度论在随机过程中的作用。"
+    },
+    {
+      "title": "有哪些适合物理、力学专业学习的实分析、泛函分析、PDE等方向数学书或讲义？",
+      "url": "https://www.zhihu.com/answer/1878415387",
+      "summary": "正文明确列出教材涵盖勒贝格测度与积分。"
+    },
+    {
+      "title": "复变函数、实分析、复分析、数学分析是什么关系？",
+      "url": "https://www.zhihu.com/answer/1880296129",
+      "summary": "正文以勒贝格积分和可测空间说明实分析到测度论的推广。"
+    },
+    {
+      "title": "自学《陶哲轩实分析》的难度？",
+      "url": "https://www.zhihu.com/answer/1889563667",
+      "summary": "正文把勒贝格理论与测度、积分等现代分析内容相连。"
+    },
+    {
+      "title": "如何评价数学家、现代概率论的创始人柯尔莫哥洛夫？",
+      "url": "https://www.zhihu.com/answer/1950400804",
+      "summary": "正文完整介绍柯尔莫哥洛夫用测度论公理化概率。"
+    },
+    {
+      "title": "在学生时期独立地探索出自己的数学发现，是什么体验？",
+      "url": "https://www.zhihu.com/answer/1951340603",
+      "summary": "正文用区间覆盖和长度说明测度为 0 的集合。"
+    },
+    {
+      "title": "数学专业的实变函数为什么这么难？",
+      "url": "https://www.zhihu.com/answer/2043188368",
+      "summary": "正文指出抽象测度是实变函数的核心难点。"
+    },
+    {
+      "title": "在区间[0，1]内随机等可能取一个实数，为什么取到有理数的概率为0，无理数的概率为1？",
+      "url": "https://www.zhihu.com/answer/2091562579",
+      "summary": "正文用概率空间、可测集和 Lebesgue 测度解释概率。"
+    },
+    {
+      "title": "既然勒贝格积分是黎曼积分的改进，那为什么还要学黎曼积分？淘汰黎曼积分，直接学勒贝格积分不好吗？",
+      "url": "https://www.zhihu.com/answer/2106941164",
+      "summary": "正文把勒贝格积分概括为通过测度分割函数值域。"
+    },
+    {
+      "title": "卓里奇的《数学分析》怎么样？",
+      "url": "https://www.zhihu.com/answer/2116337721",
+      "summary": "正文讨论教材把测度和积分思想用于重积分的铺垫。"
+    },
+    {
+      "title": "如何评价数学家、现代概率论的创始人柯尔莫哥洛夫？",
+      "url": "https://www.zhihu.com/answer/2146996321",
+      "summary": "正文介绍 Kolmogorov 用集合、σ-代数和测度公理建立现代概率论。"
+    },
+    {
+      "title": "学习实变函数是一种什么体验？",
+      "url": "https://www.zhihu.com/answer/2161118596",
+      "summary": "正文解释测度、σ-代数与可测空间。"
+    },
+    {
+      "title": "如何证明一个无理数的整数倍数的小数部分在（0，1）上均匀分布？",
+      "url": "https://www.zhihu.com/answer/2165987146",
+      "summary": "正文在概率测度空间中解释唯一遍历与无理旋转。"
+    },
+    {
+      "title": "为什么概率的公理化基础选择了测度论？",
+      "url": "https://www.zhihu.com/answer/2187607255",
+      "summary": "正文回顾 Kolmogorov 将概率论建立在测度论基础上的公理化历史。"
+    },
+    {
+      "title": "为什么概率为零的事件也有可能发生？",
+      "url": "https://www.zhihu.com/answer/2202073462",
+      "summary": "正文以事件域、单点集的测度和可列可加性解释零概率事件。"
+    },
+    {
+      "title": "是否存在在R上严格递增且处处不连续的函数？",
+      "url": "https://www.zhihu.com/answer/2235483577",
+      "summary": "正文用可列集为零测集说明单调函数的间断点集测度性质。"
+    },
+    {
+      "title": "请问能否列举所有的Borel集？",
+      "url": "https://www.zhihu.com/answer/2236049551",
+      "summary": "正文以序数和可数次补、并操作描述 Borel 集与 sigma 代数的构造。"
+    },
+    {
+      "title": "求推荐一本测度论的书?",
+      "url": "https://www.zhihu.com/answer/2250404284",
+      "summary": "正文区分概率论所需测度论与实分析测度论的学习方向。"
+    },
+    {
+      "title": "wasserstein 距离的问题?",
+      "url": "https://www.zhihu.com/answer/2255846005",
+      "summary": "正文在 Polish 空间和 Borel 概率测度框架下定义最优传输。"
+    },
+    {
+      "title": "半径为 2 的圆，其周长和面积相等吗？",
+      "url": "https://www.zhihu.com/answer/2269903605",
+      "summary": "正文以 Lebesgue 测度定义面积，并进一步讨论长度与面积的量纲结构。"
+    },
+    {
+      "title": "有哪些值得推荐的《概率论与数理统计》教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/2280460710",
+      "summary": "正文解释测度空间、可测函数与积分如何支撑严格概率论。"
+    },
+    {
+      "title": "以测度为基础的高等概率论和普通的概率论到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/2288493729",
+      "summary": "正文以滤链、条件期望和等价测度说明测度论对概率论的严格化作用。"
+    },
+    {
+      "title": "在本科数学阶段你学过最有趣的一门数学课是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2289778826",
+      "summary": "正文以概率测度、测度熵和拓扑熵介绍遍历论。"
+    },
+    {
+      "title": "如何证明圆周率中存在所有的 4 位数密码？",
+      "url": "https://www.zhihu.com/answer/2296838769",
+      "summary": "正文指出 normal number 的频率定义依赖极限和测度。"
+    },
+    {
+      "title": "什么是描述集合论（descriptive set theory）？",
+      "url": "https://www.zhihu.com/answer/2305826783",
+      "summary": "正文说明 Borel 可测集概念是现代测度论的基础。"
+    },
+    {
+      "title": "为啥我觉得测度论干巴巴的好无聊啊？",
+      "url": "https://www.zhihu.com/answer/2307412375",
+      "summary": "正文解释测度论的概念动机、Cantor集和非欧式空间依赖。"
+    },
+    {
+      "title": "为啥我觉得测度论干巴巴的好无聊啊？",
+      "url": "https://www.zhihu.com/answer/2309987651",
+      "summary": "正文从病态函数和抽象空间积分的问题解释引入测度的动机。"
+    },
+    {
+      "title": "面试中老师问Riemann积分与Lebesgue积分有何联系与区别，他们最想听到的是什么样的回答呢？",
+      "url": "https://www.zhihu.com/answer/2395930449",
+      "summary": "正文说明勒贝格积分从分割值域出发并引出测度理论。"
+    },
+    {
+      "title": "统计学专业很需要数学天赋吗？",
+      "url": "https://www.zhihu.com/answer/2398000925",
+      "summary": "正文以测度描述统计对象和集合的大小。"
+    },
+    {
+      "title": "什么是最优传输理论?",
+      "url": "https://www.zhihu.com/answer/2413879235",
+      "summary": "正文把最优传输的两个分布表述为 measure，并围绕其搬运代价展开。"
+    },
+    {
+      "title": "有哪些概率论和数理统计的深入教材可以推荐？",
+      "url": "https://www.zhihu.com/answer/2450943828",
+      "summary": "正文专门推荐测度论教材，并讨论乘积测度、胎紧性等内容。"
+    },
+    {
+      "title": "如何直观理解集合的极限limsup/liminf?",
+      "url": "https://www.zhihu.com/answer/2479724086",
+      "summary": "正文以测度、可数次可加性和概率极限事件解释 Borel-Cantelli 引理及几乎必然收敛。"
+    },
+    {
+      "title": "测度论（measure theory）和实变函数是什么关系？",
+      "url": "https://www.zhihu.com/answer/2512328500",
+      "summary": "从测度的定义出发，讲解半环、外测度与 Caratheodory 条件，并说明测度扩张到 σ-代数的过程。"
+    },
+    {
+      "title": "请问Big rudin里这道单调函数几乎处处可微题如何证明?",
+      "url": "https://www.zhihu.com/answer/2537605219",
+      "summary": "用外测度、可测集与测度为零的集合完成可微性证明。"
+    },
+    {
+      "title": "数学的泛函分析应该怎么学？",
+      "url": "https://www.zhihu.com/answer/2543332652",
+      "summary": "给出外测度、可测集、可测函数与零测集的定义和性质。"
+    },
+    {
+      "title": "你学习数学各个分支/某组课程/某门课程的动机是什么？",
+      "url": "https://www.zhihu.com/answer/2681238046",
+      "summary": "正文具体说明证明该 PCA 集不可测与缺少 Baire 性质时，需要用到测度、纲、Fubini 定理和 Ulam-Kuratowski 定理。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2695483892",
+      "summary": "正文从测度空间、sigma 代数和非负测度出发定义积分，并具体使用计数测度。"
+    },
+    {
+      "title": "请大神比较一下folland的实分析和rudin的实分析与复分析中的实分析部分？",
+      "url": "https://www.zhihu.com/answer/2701818970",
+      "summary": "正文比较两书从可测空间、测度和可测函数出发建立测度论的方式。"
+    },
+    {
+      "title": "以测度为基础的高等概率论和普通的概率论到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/2773069030",
+      "summary": "正文以可测空间和 Borel 集下的可测原像界定随机变量，说明测度论为高等概率论提供基础。"
+    },
+    {
+      "title": "E(Y|X)这个符号的含义究竟是什么？",
+      "url": "https://www.zhihu.com/answer/2790824428",
+      "summary": "正文在概率测度空间上引入 sigma 域和 Radon-Nikodym 定理来定义一般条件期望。"
+    },
+    {
+      "title": "如何理解概率测度？",
+      "url": "https://www.zhihu.com/answer/2791937366",
+      "summary": "正文给出测度的形式定义与可数可加性，并说明其非负、单调等基本性质。"
+    },
+    {
+      "title": "群和群表示在概率统计中有什么应用？",
+      "url": "https://www.zhihu.com/answer/2792878243",
+      "summary": "正文在整数划分上定义 Schur 概率测度，并给出其显式概率质量公式。"
+    },
+    {
+      "title": "朝地上随意扔一根周长 1 米的环形软绳，绳子包围的面积平均多大？",
+      "url": "https://www.zhihu.com/answer/2808141645",
+      "summary": "正文讨论无穷维球面上通常测度为零，说明计算面积期望需要另行选择测度。"
+    },
+    {
+      "title": "你见过有哪些违背直觉的数理化问题？",
+      "url": "https://www.zhihu.com/answer/2824728291",
+      "summary": "正文从测度论区分零概率事件与空事件，说明概率为零的集合仍可能非空。"
+    },
+    {
+      "title": "Borel 集的作用？意义？它为什么重要？",
+      "url": "https://www.zhihu.com/answer/2833043788",
+      "summary": "正文以可数并、交、补等操作解释 Borel 集及其可测集合来源，实质讨论了测度论的基础对象。"
+    },
+    {
+      "title": "概率论的核心逻辑有哪些？",
+      "url": "https://www.zhihu.com/answer/2860203719",
+      "summary": "正文主张概率论从概率测度出发，以测度论重建古典概率的严格基础。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2911486965",
+      "summary": "正文引入勒贝格可测性、不可测集与有理不变集的零一律，并利用测度论证推出矛盾。"
+    },
+    {
+      "title": "为啥我觉得测度论干巴巴的好无聊啊？",
+      "url": "https://www.zhihu.com/answer/3003946879",
+      "summary": "正文说明弱收敛使可测函数空间与勒贝格测度自然出现，具体展示测度论在代数分析中的应用。"
+    },
+    {
+      "title": "作为数学系的同学们，你们怎么学习实变函数?",
+      "url": "https://www.zhihu.com/answer/3015897531",
+      "summary": "正文明确区分n维空间内容与一般测度论，并讨论抽象测度上的定理框架。"
+    },
+    {
+      "title": "如何理解测度这个概念？",
+      "url": "https://www.zhihu.com/answer/3022538115",
+      "summary": "正文定义 sigma 代数、可测空间、测度的非负性与可数可加性，并举例计数测度和勒贝格测度。"
+    },
+    {
+      "title": "既然有了复变函数为什么还要学实变函数？",
+      "url": "https://www.zhihu.com/answer/3023520794",
+      "summary": "正文明确指出实分析主要研究测度与积分，并以此区别于复分析。"
+    },
+    {
+      "title": "为什么圆不存在却能得到圆周率？",
+      "url": "https://www.zhihu.com/answer/3098209016",
+      "summary": "正文用不满足命题的部分测度为零解释几乎处处，并据此说明理想几何模型的近似成立方式。"
+    },
+    {
+      "title": "作为数学系的同学们，你们怎么学习实变函数?",
+      "url": "https://www.zhihu.com/answer/3100591551",
+      "summary": "正文具体讨论外测度、测度扩张、单调类定理和乘积测度的构造。"
+    },
+    {
+      "title": "从分析角度讲，域的意义是什么？为什么要从有理数域扩充至实数域？",
+      "url": "https://www.zhihu.com/answer/3142641480",
+      "summary": "正文指出积分依赖 σ-algebra 而不依赖域，说明测度结构在积分中的基础作用。"
+    },
+    {
+      "title": "一个点体积为零，两个点体积也为零，那到底要多少个点体积才不为零？",
+      "url": "https://www.zhihu.com/answer/3185454508",
+      "summary": "正文以点、线段和多面体的长度、面积、体积说明集合的量度，并明确将其归入测度论。"
+    },
+    {
+      "title": "Lebesgue不可测集存在性依赖于选择公理吗？",
+      "url": "https://www.zhihu.com/answer/3220287080",
+      "summary": "正文具体说明仅靠 ZF 不能证明不可测集存在，并列举多种足以推出不可测集的额外假设，展开讨论了勒贝格不可测集。"
+    },
+    {
+      "title": "非数学专业想自学数学，大佬们有什么建议吗？",
+      "url": "https://www.zhihu.com/answer/3238127500",
+      "summary": "正文解释勒贝格测度如何在可数集、不可数集等情形下刻画长度，并讨论外测度及 Carathéodory 条件构造测度。"
+    },
+    {
+      "title": "我对无穷的理解那些是不严谨的，而哪些又是错的呢？",
+      "url": "https://www.zhihu.com/answer/3273403741",
+      "summary": "正文把测度解释为带结构集合上的长度、面积或高维体积，并明确其不同于集合计数。"
+    },
+    {
+      "title": "不可测集的构造是怎么想到的?",
+      "url": "https://www.zhihu.com/answer/3276037526",
+      "summary": "正文从平移不变性和可数可加性出发推导零测集覆盖正测度集的矛盾，核心是测度概念。"
+    },
+    {
+      "title": "如何构造 ℝ 到 ℝ / ℚ （商集）的双射？",
+      "url": "https://www.zhihu.com/answer/3279865400",
+      "summary": "正文讨论可测集、零测集、有理不变集的零一律及不可测集的存在性，核心涉及勒贝格测度概念。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/3327500085",
+      "summary": "正文围绕勒贝格可测染色、正测度集合和测度 0 或 1 的推论展开测度论证。"
+    },
+    {
+      "title": "为什么数学教材不能“多说几句”？",
+      "url": "https://www.zhihu.com/answer/3340745940",
+      "summary": "正文以 Vitali 集和 Banach-Tarski 悖论说明不能对所有集合定义测度，并由此引入 sigma-代数。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/3359773144",
+      "summary": "正文以可数集的测度为零讨论飞镖落点，并通过 Fubini 定理说明相关集合不可测的矛盾。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/3393316415",
+      "summary": "正文以不可测集、巴拿赫－塔斯基分球和勒贝格可测性具体讨论集合的测度问题。"
+    },
+    {
+      "title": "2024 年阿贝尔奖授予解释随机性的数学家 Michel Talagrand，这项研究有哪些意义？",
+      "url": "https://www.zhihu.com/answer/3441853404",
+      "summary": "正文详细定义布尔立方体上的p-biased测度，并用它研究边等周与测度集中现象。"
+    },
+    {
+      "title": "既然有了复变函数为什么还要学实变函数？",
+      "url": "https://www.zhihu.com/answer/3451429990",
+      "summary": "正文用零测集、正测集和不可测集说明测度的基本区分，并以Vitali集和分球悖论作为非可测现象的例子。"
+    },
+    {
+      "title": "你在教材中看到过最长的证明是什么？",
+      "url": "https://www.zhihu.com/answer/3500468785",
+      "summary": "正文在 Carleson 引理中用围道弧长构造测度，并给出该 Carleson 测度的增长估计。"
+    },
+    {
+      "title": "如何称量一个鱼塘的液体重量？",
+      "url": "https://www.zhihu.com/answer/3525146568",
+      "summary": "正文定义区间体积和外测度，并通过可列可加性引出可测集及其测度，实质展开测度论基础。"
+    },
+    {
+      "title": "集合论中有没有经典的“大炮打蚊子”的证明？",
+      "url": "https://www.zhihu.com/answer/3545735516",
+      "summary": "证明围绕 Borel 集、零测集等价类和正外测度展开，实际使用了测度论中的可测性与外测度概念。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/3580391862",
+      "summary": "正文通过 Lebesgue 测度与计数测度的对比说明可和族的积分解释，实质讨论测度选择。"
+    },
+    {
+      "title": "为什么rudin实分析里有很多泛函分析的东西?",
+      "url": "https://www.zhihu.com/answer/3616520032",
+      "summary": "正文定义并讨论 Radon 测度和谱测度，说明测度论如何与连续函数空间及算子积分相连接。"
+    },
+    {
+      "title": "面试中老师问Riemann积分与Lebesgue积分有何联系与区别，他们最想听到的是什么样的回答呢？",
+      "url": "https://www.zhihu.com/answer/3618044204",
+      "summary": "正文通过比较按定义域分割与按值域原像测度求和，说明 Lebesgue 积分建立在测度论之上。"
+    },
+    {
+      "title": "面试中老师问Riemann积分与Lebesgue积分有何联系与区别，他们最想听到的是什么样的回答呢？",
+      "url": "https://www.zhihu.com/answer/3620184843",
+      "summary": "正文用有限的 Jordan 覆盖和可数 Lebesgue 覆盖定义两种测度，并以其可加性区分积分所依赖的测度结构。"
+    },
+    {
+      "title": "可以简明扼要地讲解一下测度论及其意义吗?",
+      "url": "https://www.zhihu.com/answer/4227597836",
+      "summary": "正文从黎曼积分的不完备性出发，具体定义外测度、可测集并说明测度的严格意义。"
+    },
+    {
+      "title": "我想要未来进行随机分析的相关研究，能否给我一个学习路线 比如需要哪些知识以及参考书?",
+      "url": "https://www.zhihu.com/answer/7252502934",
+      "summary": "正文区分R^n上的勒贝格积分与抽象可测空间上的测度、积分，并据此推荐测度论教材。"
+    },
+    {
+      "title": "最优传输怎么入门？",
+      "url": "https://www.zhihu.com/answer/33157209271",
+      "summary": "正文把质量分布写成测度空间，解释总质量、推前测度及 Monge 映射的保测度条件。"
+    },
+    {
+      "title": "2024你的数学研究和学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/46772557984",
+      "summary": "正文给出可测空间、概率测度、Radon-Nikodym导数及测度变换，并用指数鞅构造新的概率测度。"
+    },
+    {
+      "title": "卓里奇的《数学分析》怎么样？",
+      "url": "https://www.zhihu.com/answer/79061406796",
+      "summary": "正文比较 Jordan 测度、Lebesgue 测度和抽象测度空间，并讨论测度理论对积分证明的作用。"
+    },
+    {
+      "title": "数学本质是什么？",
+      "url": "https://www.zhihu.com/answer/101070015270",
+      "summary": "正文从测量活动引出集合测度，并说明非负性和可加性。"
+    },
+    {
+      "title": "如何看待王虹和 Joshua Zahl 在 arXiv 发布对三维挂谷（Kakeya）猜想的证明？",
+      "url": "https://www.zhihu.com/answer/110828727591",
+      "summary": "正文以零测集、Hausdorff 维数和 Minkowski 维数刻画 Kakeya 集，具体涉及测度概念。"
+    },
+    {
+      "title": "为什么国内数学系对数理逻辑的训练这么不重视？",
+      "url": "https://www.zhihu.com/answer/112248360213",
+      "summary": "正文讨论 Lebesgue 零测集理想的完备性、强零测集和定义在全实数集上且可数可加的抽象测度问题。"
+    },
+    {
+      "title": "如何看待王虹和 Joshua Zahl 在 arXiv 发布对三维挂谷（Kakeya）猜想的证明？",
+      "url": "https://www.zhihu.com/answer/114871373197",
+      "summary": "正文用勒贝格测度界定零面积的贝西科维奇集，并据此展开其维数问题。"
+    },
+    {
+      "title": "如何看待王虹和 Joshua Zahl 在 arXiv 发布对三维挂谷（Kakeya）猜想的证明？",
+      "url": "https://www.zhihu.com/answer/115027464174",
+      "summary": "正文以Besicovitch集的测度与Hausdorff、Minkowski维数关系表述挂谷猜想。"
+    },
+    {
+      "title": "如何看待王虹和 Joshua Zahl 在 arXiv 发布对三维挂谷（Kakeya）猜想的证明？",
+      "url": "https://www.zhihu.com/answer/115989961013",
+      "summary": "正文讨论挂谷集的测度性质、零测集和Hausdorff维数，比较不同维数下集合的覆盖与体积估计。"
+    },
+    {
+      "title": "为何面积可以微积分，周长就不行？",
+      "url": "https://www.zhihu.com/answer/1898743046947988426",
+      "summary": "正文明确用高维空间中的低维测度为零来解释周长或曲面面积逼近失败。"
+    },
+    {
+      "title": "数学中有哪些问题放到更大的空间/对象里解决起来变简单的例子？",
+      "url": "https://www.zhihu.com/answer/1899774061652968375",
+      "summary": "正文引入以 e^{-φ}dV 为权重的加权测度，并利用其正下界完成 Hörmander L² 估计。"
+    },
+    {
+      "title": "上海高考作文题「专转传」有哪些有意思的梗？",
+      "url": "https://www.zhihu.com/answer/1915507850979054168",
+      "summary": "正文用零测集之外有界及本质上确界来定义 L∞ 空间，属于测度意义下的函数空间讨论。"
+    },
+    {
+      "title": "明明复变函数更加的复杂且自由度更加的高，为何它比实变函数更易学？",
+      "url": "https://www.zhihu.com/answer/1916182336845886847",
+      "summary": "正文把 Lebesgue 测度的可数可加性、平移不变性及完备测度空间列为实分析基础。"
+    },
+    {
+      "title": "挂谷猜想有多重要？为什么破解它的王虹有望获得菲尔兹奖？",
+      "url": "https://www.zhihu.com/answer/1919426363099677809",
+      "summary": "正文解释测度对长度、面积和体积的推广，并用勒贝格零测集说明贝西科维奇集的测度意义。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/1935371099161474041",
+      "summary": "正文构造 Lebesgue 测度为 1 的可测集，使其在与叶状结构每层曲线的交集至多一点的矛盾中体现测度概念。"
+    },
+    {
+      "title": "数学史上有哪些数字或规模很大的反例？",
+      "url": "https://www.zhihu.com/answer/1939678539768129481",
+      "summary": "正文定义 Hausdorff 测度与维度，并用科赫曲线、康托尔集和皮亚诺曲线计算分形维数。"
+    },
+    {
+      "title": "什么是黎曼积分和勒贝格积分？两者区别是什么？",
+      "url": "https://www.zhihu.com/answer/1940805513009948450",
+      "summary": "正文先定义测度空间、可测集与简单函数，再据此构造勒贝格积分并说明测度零集的作用。"
+    },
+    {
+      "title": "有什么书完整的以测度论角度重述了概率论？",
+      "url": "https://www.zhihu.com/answer/1943292320951795997",
+      "summary": "正文用样本空间、概率测度和可测映射的推前说明如何构造复杂数据的概率测度，实质讨论测度论概率框架。"
+    },
+    {
+      "title": "如何理解法图（Fatou）引理？",
+      "url": "https://www.zhihu.com/answer/1944366480364896413",
+      "summary": "正文在测度论框架下陈述法图引理，并讨论非负可测函数序列与积分的关系。"
+    },
+    {
+      "title": "谁可以罗列一下无限维空间具有哪些不同于有限维空间的性质？究竟是什么造成了这些差别?",
+      "url": "https://www.zhihu.com/answer/1945535588783587827",
+      "summary": "正文讨论无限维空间上平移不变测度与哈尔测度无法兼得，并联系勒贝格积分推广的困难。"
+    },
+    {
+      "title": "有哪些经典的数学悖论？",
+      "url": "https://www.zhihu.com/answer/1945834303654168393",
+      "summary": "正文以巴拿赫-塔斯基悖论和维塔利集合说明勒贝格测度与不可测集。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/1953866858785646334",
+      "summary": "正文用长度、面积、体积和长方体测度解释测度理论，并据此定义曲线与曲面上的积分。"
+    },
+    {
+      "title": "格罗滕迪克没有受过正统的数学教育，他的数学知识是从哪来的？",
+      "url": "https://www.zhihu.com/answer/1962150025749561539",
+      "summary": "正文回顾格罗滕迪克独立重新发现勒贝格测度的经历，并说明其构成测度论的重要基础。"
+    },
+    {
+      "title": "连续和可积的区别是什么?",
+      "url": "https://www.zhihu.com/answer/1962236829056107736",
+      "summary": "正文从测度空间、sigma 代数和非负测度出发，讨论函数可测性与积分是否存在。"
+    },
+    {
+      "title": "数学这个专业难度高吗?",
+      "url": "https://www.zhihu.com/answer/1971200106561790857",
+      "summary": "正文从面积推广到一般测度，讨论不可测集以及用测度处理反直觉集合的实分析问题。"
+    },
+    {
+      "title": "数学专业是不是最难学的？",
+      "url": "https://www.zhihu.com/answer/1971200260886987942",
+      "summary": "正文从面积推广到一般测度，讨论不可测集以及用测度处理反直觉集合的实分析问题。"
+    },
+    {
+      "title": "为何面积可以微积分，周长就不行？",
+      "url": "https://www.zhihu.com/answer/1978859190412912001",
+      "summary": "正文介绍勒贝格测度与豪斯多夫测度，并以覆盖而非固定切分形状定义长度和面积。"
+    },
+    {
+      "title": "为什么极限的 ε-N 和 ε-δ 语言具有划时代的意义？",
+      "url": "https://www.zhihu.com/answer/1985299194358039796",
+      "summary": "正文以集合覆盖和允许超额 ε 的构造解释外测度如何由逼近定义。"
+    },
+    {
+      "title": "如何理解vitali覆盖？（维塔利覆盖）?",
+      "url": "https://www.zhihu.com/answer/2010042007108723875",
+      "summary": "正文具体说明覆盖论证如何把坏集合拆成可控制球或立方体并控制其测度。"
+    },
+    {
+      "title": "如何理解测度这个概念？",
+      "url": "https://www.zhihu.com/answer/2010115597673968252",
+      "summary": "正文从集合赋值出发系统讲解测度、可加性和不同空间中的测度升级。"
+    },
+    {
+      "title": "如何理解坎托罗维奇最优传输理论本质是无穷维的线性规划问题?",
+      "url": "https://www.zhihu.com/answer/2011816795095446936",
+      "summary": "正文用概率测度替代点决策变量，并讨论测度空间中的近端更新，实质涉及测度概念。"
+    },
+    {
+      "title": "为什么国内多数大学概率论课程不从测度论讲起？",
+      "url": "https://www.zhihu.com/answer/2018209004631933706",
+      "summary": "正文具体解释测度论在随机过程、路径空间和连续时间概率问题中的作用及必要性。"
+    },
+    {
+      "title": "以测度为基础的高等概率论和普通的概率论到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/2019834726597281108",
+      "summary": "正文从集合大小的抽象度量出发说明测度，并指出概率是总测度为 1 的特殊测度。"
+    },
+    {
+      "title": "以测度为基础的高等概率论和普通的概率论到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/2020110521634943399",
+      "summary": "正文从无限集合和连续空间中的大小定义出发，说明概率是总测度为 1 的特殊测度。"
+    },
+    {
+      "title": "概率论的核心逻辑有哪些？",
+      "url": "https://www.zhihu.com/answer/2021274237265085685",
+      "summary": "正文以σ代数、可数可加性和Radon-Nikodym定理说明测度论在概率论中的基础作用。"
+    },
+    {
+      "title": "如果让你讲泛函分析，你会怎么讲？",
+      "url": "https://www.zhihu.com/answer/2022603580406859391",
+      "summary": "正文把泛函积分与无穷维测度联系起来，并进一步举例讨论 Wiener 测度及其在随机分析中的作用。"
+    },
+    {
+      "title": "为什么矩形面积等于长乘宽？",
+      "url": "https://www.zhihu.com/answer/2032448833255371570",
+      "summary": "正文从面积推广到测度，具体讨论约当测度、勒贝格测度及其可加性和适用边界。"
+    },
+    {
+      "title": "测度论和泛函分析有什么关系？",
+      "url": "https://www.zhihu.com/answer/2032888788322612002",
+      "summary": "正文解释可测集、测度的可数可加性、零测集与收敛性质，并讨论其一般构造。"
+    },
+    {
+      "title": "把[0，1]这个区间里的所有实数相加，得出的结果是无穷大吗？",
+      "url": "https://www.zhihu.com/answer/2034276129486403002",
+      "summary": "正文比较勒贝格测度、计数测度和 Dirac 测度，说明测度选择如何改变不可数集合的积分结果。"
+    },
+    {
+      "title": "什么是随机过程？",
+      "url": "https://www.zhihu.com/answer/2034431229982921160",
+      "summary": "正文从复杂集合的大小出发，系统解释 Borel 测度、σ-代数、零测集完备化及 Lebesgue 测度。"
+    },
+    {
+      "title": "什么是随机过程？",
+      "url": "https://www.zhihu.com/answer/2035711496362144543",
+      "summary": "正文介绍概率空间、Sigma代数与可测函数在测度论公理化中的作用。"
+    },
+    {
+      "title": "俄罗斯的数学教育为什么那么强大？",
+      "url": "https://www.zhihu.com/answer/2036377147053446743",
+      "summary": "正文说明柯尔莫哥洛夫以测度论公理化概率论，实质涉及测度基础。"
+    },
+    {
+      "title": "如何理解条件期望？",
+      "url": "https://www.zhihu.com/answer/2037304093081872064",
+      "summary": "正文以 σ-代数刻画可分辨信息，并用局部积分等式和 Radon-Nikodym 定理定义条件期望。"
+    },
+    {
+      "title": "什么是「测度论」？",
+      "url": "https://www.zhihu.com/answer/2039834426566259953",
+      "summary": "正文从区间长度、可数可加性、外测度、Vitali 集和 σ-代数系统解释测度的定义与构造。"
+    },
+    {
+      "title": "随机选取两个整数相除，结果为无理数的概率有多大？",
+      "url": "https://www.zhihu.com/answer/2049500260620317631",
+      "summary": "正文用非主超滤子构造自然数集上的有限可加二值概率测度，并讨论其可测性。"
+    },
+    {
+      "title": "概率（Probability）的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2051224003885393649",
+      "summary": "正文通过样本空间、σ-代数与概率测度介绍测度论框架，并解释连续情形为何不能把所有子集都当作事件。"
+    },
+    {
+      "title": "概率（Probability）的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2052625091071047667",
+      "summary": "正文给出测度作为长度、面积和体积推广的可列可加定义。"
+    },
+    {
+      "title": "为何没有清北的学生反驳李新野《毒狗》？",
+      "url": "https://www.zhihu.com/answer/2054352051866542761",
+      "summary": "正文解释几乎处处成立与零测集，并说明测度论如何忽略仅在零测集上失败的例外。"
+    },
+    {
+      "title": "如何看待丘成桐撰文贺王虹、邓煜获奖，期待求真书院这些优秀的年轻人能以王虹和邓煜为榜样？",
+      "url": "https://www.zhihu.com/answer/2063985491293296173",
+      "summary": "正文解释挂谷集合中朝向所有方向的单位线段所占区域，并指出这类区域的面积可以任意小，直接讨论了几何区域的极小覆盖与测度现象。"
+    },
+    {
+      "title": "挂谷猜想有多重要？为什么破解它的王虹有望获得菲尔兹奖？",
+      "url": "https://www.zhihu.com/answer/2065136388983600487",
+      "summary": "正文用体积和维度两把尺子说明零测集仍可有高维结构，实质讨论了挂谷集的测度性质。"
+    },
+    {
+      "title": "如何证明「你浪费了每人一分钟，四十个人就是一节课」的逻辑？",
+      "url": "https://www.zhihu.com/answer/2070534959228514380",
+      "summary": "正文明确指出点集基数与区间长度不是同一度量，实质区分了基数与测度。"
+    },
+    {
+      "title": "复分析和实分析有什么不同？",
+      "url": "https://www.zhihu.com/answer/2072088893395046764",
+      "summary": "正文说明勒贝格测度从实直线推广到高维和一般测度空间，并讨论集合病态性带来的测度难点。"
+    },
+    {
+      "title": "1.2 巴拿赫-塔斯基悖论【Banach–Tarski paradox】（2）—— 奇怪的集合",
+      "url": "https://zhuanlan.zhihu.com/p/20279312",
+      "summary": "正文从面积覆盖引出勒贝格外测度，讨论可测性、可数可加性以及不可测集合的存在。"
+    },
+    {
+      "title": "2.2 微积分的进化（2）——论吃汉堡的正确姿势",
+      "url": "https://zhuanlan.zhihu.com/p/20465767",
+      "summary": "正文从划分集合的“长度”出发，回顾勒贝格测度、零测集与不可测集，说明可测性的必要性。"
+    },
+    {
+      "title": "2.4 微积分的进化（4）——死道友不死贫道",
+      "url": "https://zhuanlan.zhihu.com/p/20560536",
+      "summary": "正文定义外测度、可测集、Borel 集与 Radon 测度，并以 Dirac 测度作为典型例子。"
+    },
+    {
+      "title": "2.5 微积分的进化（5）——一维光滑函数的超进化",
+      "url": "https://zhuanlan.zhihu.com/p/20588696",
+      "summary": "正文用集合 E 的测度很小时积分也小来证明绝对连续函数的变差控制，具体使用测度论证。"
+    },
+    {
+      "title": "2.7* 微积分的进化（7）——从牛顿到庞加莱",
+      "url": "https://zhuanlan.zhihu.com/p/20704015",
+      "summary": "正文用区间并集的测度控制函数变差，并借一般度量测度空间解释积分的连续性。"
+    },
+    {
+      "title": "构造量子场论",
+      "url": "https://zhuanlan.zhihu.com/p/21721035",
+      "summary": "正文以 Wiener 测度和 Bochner-Minlos 定理把构造量子场论归约为在 Schwartz 分布空间上构造概率测度。"
+    },
+    {
+      "title": "概率论与随机过程相关书籍点评（下）",
+      "url": "https://zhuanlan.zhihu.com/p/23439618",
+      "summary": "正文说明测度论在抽象空间上定义测度和积分，并强调它是现代概率论的理论基础。"
+    },
+    {
+      "title": "【测度论】概率论与测度论之间联系的通俗解释(一)",
+      "url": "https://zhuanlan.zhihu.com/p/23629928",
+      "summary": "正文通过集合系、sigma-代数和测度构造可测空间与测度空间，解释概率论中的测度结构。"
+    },
+    {
+      "title": "测度论观点下的初等概率论与随机过程",
+      "url": "https://zhuanlan.zhihu.com/p/23670513",
+      "summary": "正文从测度空间与可测映射出发，说明随机变量在实数 Borel 集上诱导概率测度。"
+    },
+    {
+      "title": "浅谈条件期望",
+      "url": "https://zhuanlan.zhihu.com/p/23670286",
+      "summary": "正文在可测空间和子 sigma 域上定义条件期望，并用测度绝对连续、Radon-Nikodym 导数证明存在性。"
+    },
+    {
+      "title": "Wigner随机矩阵的Semicircle law和Stieltjes transform",
+      "url": "https://zhuanlan.zhihu.com/p/23819418",
+      "summary": "正文把半圆律表述为随机经验测度的弱收敛，并借助 Stieltjes 变换将测度收敛转化为函数收敛。"
+    },
+    {
+      "title": "测度论（一）",
+      "url": "https://zhuanlan.zhihu.com/p/23977693",
+      "summary": "正文定义可测空间、测度和测度空间，并讨论有限测度、零集与完全化。"
+    },
+    {
+      "title": "代数数论（4.4）：Tate's thesis",
+      "url": "https://zhuanlan.zhihu.com/p/24309233",
+      "summary": "正文把乘法群上的 Haar 测度用于局部 ζ 函数积分并讨论其平移不变性。"
+    },
+    {
+      "title": "令人拍案叫绝的Wasserstein GAN",
+      "url": "https://zhuanlan.zhihu.com/p/25071913",
+      "summary": "正文解释测度是长度、面积和体积的推广，并用测度为零讨论高低维支撑集的重叠。"
+    },
+    {
+      "title": "测度论（二）",
+      "url": "https://zhuanlan.zhihu.com/p/24147520",
+      "summary": "正文在测度空间中讨论测度连续性、可测函数序列的多种收敛及积分收敛定理。"
+    },
+    {
+      "title": "球面上的均匀分布：采样与格点",
+      "url": "https://zhuanlan.zhihu.com/p/26052376",
+      "summary": "正文以可测空间、区域面积或体积说明如何由黎曼度量在流形上诱导测度并定义概率。"
+    },
+    {
+      "title": "Wasserstein metric的通俗解释",
+      "url": "https://zhuanlan.zhihu.com/p/26988777",
+      "summary": "正文把归一化后的供给、需求解释为概率测度，并进一步过渡到连续测度上的最优运输。"
+    },
+    {
+      "title": "一些简单的小结论",
+      "url": "https://zhuanlan.zhihu.com/p/27081423",
+      "summary": "正文陈述局部紧拓扑群上左不变 Haar 测度的存在性，并用测度可数可加性证明不可数覆盖结论。"
+    },
+    {
+      "title": "一些和数学分析有些关系的杂记",
+      "url": "https://zhuanlan.zhihu.com/p/27156295",
+      "summary": "正文引入 Lebesgue 外测度、外正则性和 Vitali 覆盖，讨论开集对可测集的逼近。"
+    },
+    {
+      "title": "Black-Schole公式中N(d1)到底有什么意义",
+      "url": "https://zhuanlan.zhihu.com/p/27918823",
+      "summary": "正文通过 numeraire 改变概率测度，并用 Girsanov 定理联系风险中性测度和标的测度。"
+    },
+    {
+      "title": "重积分换元公式与面积公式",
+      "url": "https://zhuanlan.zhihu.com/p/27494078",
+      "summary": "正文用集合测度和 Hausdorff 测度严格表达像集体积与面积公式。"
+    },
+    {
+      "title": "转载：可测空间、测度空间及σ-代数",
+      "url": "https://zhuanlan.zhihu.com/p/29419263",
+      "summary": "正文区分可测空间与测度空间，并以区间长度和勒贝格测度说明测度定义在可测集族上。"
+    },
+    {
+      "title": "以测度为基础的概率基本概念与结论",
+      "url": "https://zhuanlan.zhihu.com/p/32334499",
+      "summary": "正文用样本空间、事件 sigma 代数和概率测度定义概率空间，并解释可测性在概率中的核心作用。"
+    },
+    {
+      "title": "实分析|笔记整理（1）——概念引入，外测度",
+      "url": "https://zhuanlan.zhihu.com/p/31982152",
+      "summary": "正文定义外测度，并用覆盖、逼近和次可加性等性质说明测度的基本构造。"
+    },
+    {
+      "title": "实分析|笔记整理（2）——勒贝格测度及相关举例",
+      "url": "https://zhuanlan.zhihu.com/p/33180264",
+      "summary": "正文定义勒贝格可测集与勒贝格测度，并证明其可数并、补集和可加性等性质。"
+    },
+    {
+      "title": "实分析|笔记整理（3）——可测函数",
+      "url": "https://zhuanlan.zhihu.com/p/33350896",
+      "summary": "正文定义 sigma 代数、Borel 集、零测集和可测函数，讨论可测集的开闭逼近及几乎处处相等，属于测度理论。"
+    },
+    {
+      "title": "对概率论学习的一点感悟",
+      "url": "https://zhuanlan.zhihu.com/p/33690385",
+      "summary": "正文通过概率测度、σ-代数和可测空间解释概率空间，并指出概率是定义在事件集上的测度。"
+    },
+    {
+      "title": "实分析|笔记整理（6）——富比尼定理",
+      "url": "https://zhuanlan.zhihu.com/p/33761437",
+      "summary": "正文通过零测集、可测集、切片与特征函数证明富比尼定理的测度论部分。"
+    },
+    {
+      "title": "实分析|笔记整理（9）——函数可微性（2）",
+      "url": "https://zhuanlan.zhihu.com/p/33879863",
+      "summary": "正文在多处使用有限测度集合、Vitali覆盖及测度估计证明几乎处处结论，实质展开测度性质。"
+    },
+    {
+      "title": "《实变函数论与泛函分析(上册)》夏道行版可能的错误",
+      "url": "https://zhuanlan.zhihu.com/p/35747763",
+      "summary": "正文多处辨析外测度、正负集、强全连续以及测度与外侧度的记号。"
+    },
+    {
+      "title": "1.1 Ring和Algebra",
+      "url": "https://zhuanlan.zhihu.com/p/35796249",
+      "summary": "正文系统定义环、代数、σ环和σ代数，并证明这些可测集基础结构的性质。"
+    },
+    {
+      "title": "1.2 测度 &外测度 &测度的完备化",
+      "url": "https://zhuanlan.zhihu.com/p/35850693",
+      "summary": "正文从 σ 代数上的可数可加集函数定义测度，并推导单调性、次可加性与完备化等性质。"
+    },
+    {
+      "title": "2.1 可测函数的定义",
+      "url": "https://zhuanlan.zhihu.com/p/36844540",
+      "summary": "正文定义测度空间和测度子空间，并验证可测集的 σ 代数结构与测度的可数可加性。"
+    },
+    {
+      "title": "可测空间，测度空间以及完全测度空间概念辨析",
+      "url": "https://zhuanlan.zhihu.com/p/36975685",
+      "summary": "正文辨析可测空间、测度空间和完全测度空间，解释测度、零集子集及几乎处处的含义。"
+    },
+    {
+      "title": "2.3 Egoroff定理和Lusin定理",
+      "url": "https://zhuanlan.zhihu.com/p/36952467",
+      "summary": "正文以可测函数序列、有限测度空间和剔除小测度集构造定理证明，属于测度论内容。"
+    },
+    {
+      "title": "2.4 依测度收敛（Converge in measure）",
+      "url": "https://zhuanlan.zhihu.com/p/37034124",
+      "summary": "正文在测度空间中定义依测度柯西序列，并证明其与依测度收敛等价。"
+    },
+    {
+      "title": "3.6 控制收敛定理 &单调收敛定理 &法图引理",
+      "url": "https://zhuanlan.zhihu.com/p/37364245",
+      "summary": "正文在测度空间中把积分区域分解为可数个有限测度部分，并用测度的连续性估计积分。"
+    },
+    {
+      "title": "量子力学杂谈——Radon-Nikodym导数",
+      "url": "https://zhuanlan.zhihu.com/p/37379997",
+      "summary": "正文定义测度的绝对连续、相互奇异和勒贝格分解，并用这些性质刻画 Radon-Nikodym 导数。"
+    },
+    {
+      "title": "3.8 Radon-Nikodym 定理",
+      "url": "https://zhuanlan.zhihu.com/p/37493234",
+      "summary": "正文在测度空间上定义带号测度及其绝对连续关系，并证明两种绝对连续定义的等价性，属于测度理论。"
+    },
+    {
+      "title": "KL散度理解",
+      "url": "https://zhuanlan.zhihu.com/p/39682125",
+      "summary": "正文最后利用测度、绝对连续性和 Radon–Nikodym 定理给出 KL 散度的测度论定义。"
+    },
+    {
+      "title": "实变函数笔记 第三章 测度论",
+      "url": "https://zhuanlan.zhihu.com/p/41378421",
+      "summary": "正文定义勒贝格外测度和卡拉泰奥多里可测条件，并系统证明可测集的基本运算性质。"
+    },
+    {
+      "title": "概率论学习笔记（一）",
+      "url": "https://zhuanlan.zhihu.com/p/42859784",
+      "summary": "正文建立事件域和可测空间，并以非负性、完全性和可列可加性定义概率测度。"
+    },
+    {
+      "title": "实变函数笔记 第四章 可测函数",
+      "url": "https://zhuanlan.zhihu.com/p/42874522",
+      "summary": "正文围绕可测集、零测集和可列并封闭性讨论测度与可测函数，并证明叶果洛夫定理。"
+    },
+    {
+      "title": "概率论学习笔记（二）",
+      "url": "https://zhuanlan.zhihu.com/p/42950143",
+      "summary": "正文在可测空间上借助 Borel 域和 Borel 可测函数定义随机变量，属于测度论框架。"
+    },
+    {
+      "title": "选择公理的初步理解",
+      "url": "https://zhuanlan.zhihu.com/p/46036804",
+      "summary": "正文构造 Lebesgue 不可测集，并利用可测性、平移后的集合覆盖和测度不等式推出矛盾。"
+    },
+    {
+      "title": "整数上的均匀分布",
+      "url": "https://zhuanlan.zhihu.com/p/46939142",
+      "summary": "正文把具有平移不变性和有限可加性的概率对象作为测度展开讨论，并说明其构造依赖选择公理。"
+    },
+    {
+      "title": "MP38：泛函分析与量子力学",
+      "url": "https://zhuanlan.zhihu.com/p/46403590",
+      "summary": "正文从零测集和几乎处处相等出发定义 Lp 空间，实质展开了测度论中的基本概念。"
+    },
+    {
+      "title": "从Lebesgue外测度到Lebesgue测度",
+      "url": "https://zhuanlan.zhihu.com/p/47944282",
+      "summary": "正文从覆盖式外测度出发，用 Carathéodory 条件定义勒贝格可测集并推导测度性质。"
+    },
+    {
+      "title": "从Riemann积分到Lebesgue积分",
+      "url": "https://zhuanlan.zhihu.com/p/49262150",
+      "summary": "正文从区间长度的推广、非负性、可加性和平移不变性引出勒贝格测度。"
+    },
+    {
+      "title": "1维上的Malliavin分析初步",
+      "url": "https://zhuanlan.zhihu.com/p/49269815",
+      "summary": "正文以一维高斯测度及其积分定义概率空间，并以多项式稠密性展开后续分析。"
+    },
+    {
+      "title": "条件期望的初步理解",
+      "url": "https://zhuanlan.zhihu.com/p/50757083",
+      "summary": "正文在概率空间和子sigma代数上定义条件期望，并用绝对连续与Radon–Nikodym定理说明其存在性。"
+    },
+    {
+      "title": "谈谈奇妙的巴拿赫-塔斯基分球悖论",
+      "url": "https://zhuanlan.zhihu.com/p/52154376",
+      "summary": "正文定义勒贝格外测度与可测性，并用单位圆点集解释分球中体积看似加倍的原因。"
+    },
+    {
+      "title": "搞懂Cantor（康托）集",
+      "url": "https://zhuanlan.zhihu.com/p/54711962",
+      "summary": "正文定义Lebesgue测度，并通过剩余区间总长度趋于零证明Cantor集的测度为零。"
+    },
+    {
+      "title": "概率论复习笔记(3)——概率的公理化定义",
+      "url": "https://zhuanlan.zhihu.com/p/61729415",
+      "summary": "正文定义σ代数、Borel集族和可列可加概率，并从测度论角度证明概率的基本性质。"
+    },
+    {
+      "title": "7.4 Lebesgue 控制收敛定理",
+      "url": "https://zhuanlan.zhihu.com/p/64626170",
+      "summary": "正文用可测函数、零测集和几乎处处收敛刻画控制收敛定理可放宽的测度条件。"
+    },
+    {
+      "title": "11.3 Fubini-Tonelli 定理",
+      "url": "https://zhuanlan.zhihu.com/p/67721176",
+      "summary": "正文在 sigma 有限测度空间上讨论乘积测度、联合可测性及乘积空间的完备化。"
+    },
+    {
+      "title": "期权定价基础之一:测度变换",
+      "url": "https://zhuanlan.zhihu.com/p/73725169",
+      "summary": "正文从长度直观引入测度、零测集和可测集，并说明测度是概率论的基础。"
+    },
+    {
+      "title": "新证明解决了如何求无理数的近似值",
+      "url": "https://zhuanlan.zhihu.com/p/78636778",
+      "summary": "正文用测度衡量近似区间覆盖的无理数集合比例，并据此把猜想转化为测度和的收敛判定。"
+    },
+    {
+      "title": "概率论笔记(10)——条件期望",
+      "url": "https://zhuanlan.zhihu.com/p/79050943",
+      "summary": "正文在概率测度空间和 sigma 代数框架下讨论条件期望的存在性，并引用 Radon-Nikodym 定理。"
+    },
+    {
+      "title": "测度与概率—绪论及1.1节 集类与sigma域",
+      "url": "https://zhuanlan.zhihu.com/p/83347158",
+      "summary": "正文以事件域、σ 域和概率测度建立测度论视角下的概率空间。"
+    },
+    {
+      "title": "测度与概率—1.2节 单调类定理(集合形式)",
+      "url": "https://zhuanlan.zhihu.com/p/86155988",
+      "summary": "正文完整证明集合形式的单调类定理及其 λ 类版本，讨论测度论所需的可列运算结构。"
+    },
+    {
+      "title": "概率论从入门到放弃（一）——概率空间和随机变量",
+      "url": "https://zhuanlan.zhihu.com/p/38113911",
+      "summary": "正文通过sigma域及概率测度的规范性、可列可加性公理定义概率空间，属于测度论基础。"
+    },
+    {
+      "title": "可测集",
+      "url": "https://zhuanlan.zhihu.com/p/93520278",
+      "summary": "正文介绍 σ-代数和测度的非负性、空集零测度及可数可加性定义。"
+    },
+    {
+      "title": "积分与极限互换顺序的问题",
+      "url": "https://zhuanlan.zhihu.com/p/94510465",
+      "summary": "正文以可测集上的可测函数列及可积性为基本对象陈述收敛定理。"
+    },
+    {
+      "title": "你也能懂的微积分",
+      "url": "https://zhuanlan.zhihu.com/p/94592123",
+      "summary": "正文说明勒贝格测度如何扩展长度和面积概念，并用来确定函数的可积性。"
+    },
+    {
+      "title": "实变函数论基本脉络",
+      "url": "https://zhuanlan.zhihu.com/p/94662972",
+      "summary": "正文系统解释勒贝格外测度、可测集与Carathéodory可测条件。"
+    },
+    {
+      "title": "测度论与动态规划（1）",
+      "url": "https://zhuanlan.zhihu.com/p/103053617",
+      "summary": "正文以测度论和泛函分析框架讨论随机 Bellman 方程，并使用概率测度与 Lebesgue 积分描述转移。"
+    },
+    {
+      "title": "从点列收敛问题看泛函分析的内容",
+      "url": "https://zhuanlan.zhihu.com/p/104003128",
+      "summary": "正文讨论有限测度下以测度收敛，并构造积分距离说明它与度量收敛的关系。"
+    },
+    {
+      "title": "测度论整理（一）",
+      "url": "https://zhuanlan.zhihu.com/p/111996698",
+      "summary": "正文从概率测度与概率空间引入测度，讨论集合系生成的σ域和Borel域，为建立测度准备可测空间。"
+    },
+    {
+      "title": "测度论整理（二）",
+      "url": "https://zhuanlan.zhihu.com/p/113345748",
+      "summary": "正文定义非负集函数、测度与外测度，并讨论测度扩张到 sigma 域上的结构。"
+    },
+    {
+      "title": "Malliavin 分析（一）",
+      "url": "https://zhuanlan.zhihu.com/p/110868603",
+      "summary": "正文从无穷维空间不存在平移不变测度入手，定义 Gauss 测度、平移拟不变性及相应 Radon 导数。"
+    },
+    {
+      "title": "【数学分析】从阶梯函数重新认识数列",
+      "url": "https://zhuanlan.zhihu.com/p/117928412",
+      "summary": "正文给出零测集与几乎处处的定义，并用区间覆盖和 ε 说明阶梯函数的不连续点集是零测集。"
+    },
+    {
+      "title": "康托集相关问题整理",
+      "url": "https://zhuanlan.zhihu.com/p/129291583",
+      "summary": "正文讨论康托集的 Lebesgue 测度，给出三分集测度为零及参数化胖康托集测度为 1-a 的结果。"
+    },
+    {
+      "title": "度量丢番图逼近1: 从Khintchine到Duffin-Schaeffer",
+      "url": "https://zhuanlan.zhihu.com/p/136552414",
+      "summary": "正文借助 Lebesgue 测度、上极限集和 Borel-Cantelli 引理研究逼近性质成立的集合大小。"
+    },
+    {
+      "title": "《经济动态的递归方法》解读（3）：测度、积分与随机递归模型",
+      "url": "https://zhuanlan.zhihu.com/p/196256522",
+      "summary": "正文从概率空间抽象出 sigma 代数和概率测度，并定义及举例说明测度的可列可加性。"
+    },
+    {
+      "title": "实分析学习笔记(1)",
+      "url": "https://zhuanlan.zhihu.com/p/261361018",
+      "summary": "正文给出 Lebesgue 外测度的定义，并证明区间测度、可数可加性及相关测度定理。"
+    },
+    {
+      "title": "Black-Scholes 模型学习框架",
+      "url": "https://zhuanlan.zhihu.com/p/265727886",
+      "summary": "正文定义测度等价与 Radon-Nikodym 导数，并用 Girsanov 定理构造风险中性测度。"
+    },
+    {
+      "title": "随机过程|笔记整理（3）——无限状态的平稳测度，返回时间，访问频率：几个定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/337130907",
+      "summary": "正文定义平稳测度，并讨论状态无限时测度未必能归一化为平稳分布。"
+    },
+    {
+      "title": "概率论-1.随机事件与样本空间",
+      "url": "https://zhuanlan.zhihu.com/p/338141202",
+      "summary": "正文以线段长度类比集合到实数的映射，并用非负性、规范性和可列可加性说明概率测度。"
+    },
+    {
+      "title": "随机微积分(3) 随机过程Stochastic Process、滤流Filtration",
+      "url": "https://zhuanlan.zhihu.com/p/345656686",
+      "summary": "正文构造柱集、生成 sigma 代数，并利用测度扩张定理建立随机过程的诱导概率测度。"
+    },
+    {
+      "title": "一个Brunn-Minkowski不等式",
+      "url": "https://zhuanlan.zhihu.com/p/347098927",
+      "summary": "正文以勒贝格测度和哈尔测度陈述Brunn-Minkowski不等式及其群上推广。"
+    },
+    {
+      "title": "应用随机过程|第1章 概率论与随机过程的基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/347239352",
+      "summary": "正文引入σ域、可测空间和概率测度，完整给出概率空间的测度论定义。"
+    },
+    {
+      "title": "第一次就能看懂的勒贝格（Lebesgue）积分（二）：芝诺悖论",
+      "url": "https://zhuanlan.zhihu.com/p/346738745",
+      "summary": "正文从点集长度和可数可加性出发讨论勒贝格测度的定义约束及不可测集的必要性。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / SU(2) 的全体不可约表示与李群上的积分",
+      "url": "https://zhuanlan.zhihu.com/p/342592239",
+      "summary": "正文引入哈尔测度，把紧李群上的求和改写为满足左右作用不变性的积分。"
+    },
+    {
+      "title": "第一次就能看懂的勒贝格（Lebesgue）积分（三）",
+      "url": "https://zhuanlan.zhihu.com/p/349576875",
+      "summary": "正文从区间长度和开覆盖出发定义勒贝格外测度、可测集及可数可加性。"
+    },
+    {
+      "title": "鞅停止定理/可选抽样定理（Optional stopping theorem）的严格证明与期权定价",
+      "url": "https://zhuanlan.zhihu.com/p/350951735",
+      "summary": "正文用概率空间、sigma代数、概率测度和条件期望建立鞅停止定理的测度论基础。"
+    },
+    {
+      "title": "茆诗松《高等数理统计》课后习题解答(1)第1章·基本概念·1-20题",
+      "url": "https://zhuanlan.zhihu.com/p/109757832",
+      "summary": "正文构造随机统计结构上的测度，并验证其非负性、可列可加性和 sigma 有限性。"
+    },
+    {
+      "title": "实变函数要点总结(复试必背)",
+      "url": "https://zhuanlan.zhihu.com/p/355789338",
+      "summary": "正文复习外测度与测度概念，并说明开集、闭集、Borel集和Cantor集等集合的可测性或零测性。"
+    },
+    {
+      "title": "第一次就能看懂的勒贝格（Lebesgue）积分（五）——积分的定义",
+      "url": "https://zhuanlan.zhihu.com/p/349758334",
+      "summary": "正文以勒贝格测度定义示性函数的积分和简单函数，并讨论可测集及其连续性。"
+    },
+    {
+      "title": "简单情况下的Siegel-Weil公式",
+      "url": "https://zhuanlan.zhihu.com/p/362772812",
+      "summary": "正文使用Haar测度、Tamagawa测度、轨道积分和纤维分解构造证明中的积分测度。"
+    },
+    {
+      "title": "实变函数第10讲（测度：代数与σ代数，Borel σ代数，集合论测试题）",
+      "url": "https://zhuanlan.zhihu.com/p/364129544",
+      "summary": "正文从外测度的可加性出发定义代数和σ代数，并讨论生成σ代数、Borel集及其可测性。"
+    },
+    {
+      "title": "essential supremum (本质上确界, ess sup)",
+      "url": "https://zhuanlan.zhihu.com/p/367472127",
+      "summary": "正文用测度为零的离散点解释 sup 与 ess sup 的差别，并说明后者忽略零测集。"
+    },
+    {
+      "title": "实变函数第14讲（可测函数：Egoroff定理证明，依测度收敛）",
+      "url": "https://zhuanlan.zhihu.com/p/369536281",
+      "summary": "正文在有限测度集上估计例外点集的测度，并利用测度次可加性证明可任意小。"
+    },
+    {
+      "title": "实变函数第15讲（可测函数：几乎处处收敛与测度收敛，依测度基本列，Riesz定理与Lusin定理）",
+      "url": "https://zhuanlan.zhihu.com/p/369665174",
+      "summary": "正文使用集合测度及其可数可加性，证明几乎处处收敛与依测度收敛的关系。"
+    },
+    {
+      "title": "从Riesz表示定理证明Radon-Nikodym定理",
+      "url": "https://zhuanlan.zhihu.com/p/370530096",
+      "summary": "正文讲解有限测度之间的 Radon-Nikodym 导数以及绝对连续条件下的存在唯一性。"
+    },
+    {
+      "title": "流形上的均匀采样(一)——理论",
+      "url": "https://zhuanlan.zhihu.com/p/376386495",
+      "summary": "正文以长度、面积和体积的统一定义说明流形上的测度及均匀分布。"
+    },
+    {
+      "title": "一般群上的Cauchy-Davenport定理",
+      "url": "https://zhuanlan.zhihu.com/p/378751518",
+      "summary": "正文用 Haar 测度衡量集合大小，讨论局部紧群、紧集和模函数下的测度不等式。"
+    },
+    {
+      "title": "【概率论】随机变量的收敛模式",
+      "url": "https://zhuanlan.zhihu.com/p/391331203",
+      "summary": "正文把概率解释为可测空间上的测度，并以零测集和依测度收敛刻画概率收敛模式。"
+    },
+    {
+      "title": "Fourier变换(1)：Haar测度",
+      "url": "https://zhuanlan.zhihu.com/p/395026185",
+      "summary": "正文定义 Haar 测度并证明其存在性和在常数倍意义下的唯一性。"
+    },
+    {
+      "title": "实分析笔记（一）：集合&测度",
+      "url": "https://zhuanlan.zhihu.com/p/396683902",
+      "summary": "正文定义测度、零测集和完备测度空间，并证明有限可加、次可加及极限性质。"
+    },
+    {
+      "title": "实分析笔记（四）：有界变差&绝对连续",
+      "url": "https://zhuanlan.zhihu.com/p/397044812",
+      "summary": "正文反复使用零测集和几乎处处可导等测度论概念刻画有界变差函数。"
+    },
+    {
+      "title": "实分析笔记（五）：概率论基础",
+      "url": "https://zhuanlan.zhihu.com/p/397058725",
+      "summary": "正文用样本空间、sigma 域和全测度为一定义概率空间，并联系古典概型与几何概型。"
+    },
+    {
+      "title": "实分析(Advanced)1",
+      "url": "https://zhuanlan.zhihu.com/p/417273824",
+      "summary": "正文从补集和可数并封闭定义 σ 代数，并继续讨论生成 σ 代数、Borel 集与测度论中的基本族。"
+    },
+    {
+      "title": "【实变函数1】实变函数是在干甚么事情？",
+      "url": "https://zhuanlan.zhihu.com/p/422538398",
+      "summary": "正文从集合长度出发讨论测度的空集、可数可加和线段长度约束，并说明勒贝格测度的构造动机。"
+    },
+    {
+      "title": "实数上的良序是一个病态集合",
+      "url": "https://zhuanlan.zhihu.com/p/437119954",
+      "summary": "正文以零测性、Fubini 定理和正测度矛盾证明实数良序不可测。"
+    },
+    {
+      "title": "NeurIPS 2021 | CyGen：基于概率论理论的生成式建模新模式",
+      "url": "https://zhuanlan.zhihu.com/p/438148316",
+      "summary": "正文用测度论讨论条件密度、绝对连续以及条件分布决定联合分布的存在性与唯一性。"
+    },
+    {
+      "title": "以范畴论窥高等数学",
+      "url": "https://zhuanlan.zhihu.com/p/443804053",
+      "summary": "正文进一步在测度空间上构造范畴，用全测度常值函数对应 Lebesgue 积分。"
+    },
+    {
+      "title": "实分析习题整理（第一章 测度论）",
+      "url": "https://zhuanlan.zhihu.com/p/470244840",
+      "summary": "正文大量讨论勒贝格外测度、可测性、零测集、测度平移伸缩不变性以及不可测集，属于测度论。"
+    },
+    {
+      "title": "（全网独家发布）傅里叶级数（一）——正交性与完备性（全网首篇证明完备性）的证明、傅里叶变换的直观解释以及相关结论在广义积分甚至勒贝积分下的若干深入补充讨论",
+      "url": "https://zhuanlan.zhihu.com/p/472769406",
+      "summary": "正文以可数开覆盖说明有理数集测度为零，并在勒贝格积分意义下处理测度问题。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】2.5 共轭空间·弱收敛·自反空间（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/477087888",
+      "summary": "正文通过 Riesz 表示定理把连续函数空间上的泛函表示为对 Baire 测度的积分。"
+    },
+    {
+      "title": "麻度论简介：赢计量的可润性与偷着乐技术及应用 (Winsure Theory)",
+      "url": "https://zhuanlan.zhihu.com/p/501727041",
+      "summary": "正文用内外测度的相等定义集合的 Jordan 可测性，并讨论集合的测度。"
+    },
+    {
+      "title": "Luzin定理：重温与升华",
+      "url": "https://zhuanlan.zhihu.com/p/502936783",
+      "summary": "正文以 Lebesgue 可测集、外测度、零测集和测度逼近为核心证明 Luzin 定理。"
+    },
+    {
+      "title": "Egoroff定理：重温与升华",
+      "url": "https://zhuanlan.zhihu.com/p/503514372",
+      "summary": "正文用测度控制被舍弃定义域的大小，这是 Egoroff 定理证明的核心构造。"
+    },
+    {
+      "title": "Banach–Zaretsky定理|①Luzin (N)-性质与增长引理",
+      "url": "https://zhuanlan.zhihu.com/p/516721880",
+      "summary": "正文深入讨论零测集、可测集、外测度及 Luzin N-性质，并用测度关系完成绝对连续性的判别。"
+    },
+    {
+      "title": "Lebesgue-Radon-Nikodym定理",
+      "url": "https://zhuanlan.zhihu.com/p/526492250",
+      "summary": "正文系统定义测度的奇异与绝对连续关系，并借测度分解证明Lebesgue-Radon-Nikodym定理。"
+    },
+    {
+      "title": "实变函数期末复习（详细知识点总结&定理证明&课后习题）",
+      "url": "https://zhuanlan.zhihu.com/p/530210723",
+      "summary": "正文概括外测度、可测集、卡氏条件及可测集类的运算性质。"
+    },
+    {
+      "title": "测度的扩张|半代数→代数→σ-代数→完备σ-代数",
+      "url": "https://zhuanlan.zhihu.com/p/534091439",
+      "summary": "正文完整讲解测度从半代数、代数、σ-代数到完备 σ-代数的扩张过程及所需条件。"
+    },
+    {
+      "title": "Kolmogorov 0-1律",
+      "url": "https://zhuanlan.zhihu.com/p/537259427",
+      "summary": "通过尾部事件的σ-代数、集合逼近和概率测度解释0-1律中的测度结构。"
+    },
+    {
+      "title": "一切复杂都来源于简单的叠加（3）康托尔集",
+      "url": "https://zhuanlan.zhihu.com/p/549408597",
+      "summary": "正文从各阶线段总长度的极限推出康托尔集的勒贝格测度为零，具体展开了测度概念。"
+    },
+    {
+      "title": "宇宙会重现吗？——聊聊庞加莱回归",
+      "url": "https://zhuanlan.zhihu.com/p/556400035",
+      "summary": "正文给出庞加莱回归定理的测度论表述，并用可列可加性和零测集完成回返结论的证明。"
+    },
+    {
+      "title": "Steinhaus定理的证明，推广，和应用（丘赛分析第三题）",
+      "url": "https://zhuanlan.zhihu.com/p/557287800",
+      "summary": "正文围绕勒贝格可测集、测度的平移不变性与密度性质展开并证明 Steinhaus 定理。"
+    },
+    {
+      "title": "Rudin工具箱|半连续函数",
+      "url": "https://zhuanlan.zhihu.com/p/585016297",
+      "summary": "正文讨论局部紧 Hausdorff 空间上的测度、有限测度集的正则性及开集与紧集逼近。"
+    },
+    {
+      "title": "Rudin工具箱|极分解技巧",
+      "url": "https://zhuanlan.zhihu.com/p/585179360",
+      "summary": "正文讨论复测度关于全变差测度的极分解，并用它推导 Hahn 分解与正负变差。"
+    },
+    {
+      "title": "A Probability Path (二) 闭集，sigma代数和博雷尔集",
+      "url": "https://zhuanlan.zhihu.com/p/587467855",
+      "summary": "正文构造 σ 代数与可测空间，说明其目的正是为集合赋予概率或测度。"
+    },
+    {
+      "title": "【Proof-Trivial】实变函数-何苦要学实变函数？",
+      "url": "https://zhuanlan.zhihu.com/p/591026414",
+      "summary": "正文说明为一般点集推广长度而引入可测集与勒贝格测度，并概述其可加性结构。"
+    },
+    {
+      "title": "在实变函数视角下看初等概率论",
+      "url": "https://zhuanlan.zhihu.com/p/595040708",
+      "summary": "正文从环、σ 环、外测度和 Carathéodory 条件说明概率测度的建立与延拓。"
+    },
+    {
+      "title": "什么是测度——一些常见的测度",
+      "url": "https://zhuanlan.zhihu.com/p/615270645",
+      "summary": "正文从σ-代数和可数可加性定义测度，并系统介绍计数、勒贝格、高斯和豪斯多夫等测度。"
+    },
+    {
+      "title": "什么是测度——一些常见的测度",
+      "url": "https://zhuanlan.zhihu.com/p/615551251",
+      "summary": "正文从σ-代数和可数可加性定义测度，并系统介绍计数、勒贝格、高斯和豪斯多夫等测度。"
+    },
+    {
+      "title": "勒贝格测度到底是怎么定义出来的？",
+      "url": "https://zhuanlan.zhihu.com/p/615293119",
+      "summary": "正文从开矩体测度、可列覆盖及覆盖总测度下确界出发，完整解释勒贝格外测度的定义与思路。"
+    },
+    {
+      "title": "Riemann积分整理",
+      "url": "https://zhuanlan.zhihu.com/p/619534704",
+      "summary": "正文引入外测度、零测集和几乎处处等测度论概念，并用其表述Lebesgue准则。"
+    },
+    {
+      "title": "四川大学实变与复变期末考试题解答",
+      "url": "https://zhuanlan.zhihu.com/p/635839581",
+      "summary": "正文通过集合测度、零测集和测度连续性论证函数值所成集合的大小。"
+    },
+    {
+      "title": "概率论学习中的难点",
+      "url": "https://zhuanlan.zhihu.com/p/636114414",
+      "summary": "正文用可数可加性定义符号测度，并讨论概率测度构成的凸集。"
+    },
+    {
+      "title": "选择公理的若干应用",
+      "url": "https://zhuanlan.zhihu.com/p/637068404",
+      "summary": "正文讨论 Lebesgue 测度的性质并构造 Vitali 集证明存在不可测集。"
+    },
+    {
+      "title": "【实变函数】 几乎处处收敛，依测度收敛，近一致收敛关系详细解答",
+      "url": "https://zhuanlan.zhihu.com/p/643187580",
+      "summary": "正文以Lebesgue测度定义依测度收敛，并围绕可测集测度和零测集证明多种收敛关系。"
+    },
+    {
+      "title": "测度的延拓（ver. 概率论）",
+      "url": "https://zhuanlan.zhihu.com/p/658169329",
+      "summary": "正文解释从环上的预测度延拓到最小 σ-代数的意义，并讨论延拓的存在性与唯一性。"
+    },
+    {
+      "title": "无孔不入：数学中的稠密",
+      "url": "https://zhuanlan.zhihu.com/p/659374891",
+      "summary": "正文用康托集和 Smith-Volterra-Cantor 集比较无处稠密性与测度，说明正测度集合仍可无处稠密。"
+    },
+    {
+      "title": "《实变函数初步》第三章 测度论",
+      "url": "https://zhuanlan.zhihu.com/p/659589589",
+      "summary": "正文从长度公理出发定义 Lebesgue 外测度，并系统讨论可测集、可数可加性和 Borel 集。"
+    },
+    {
+      "title": "《实变函数初步》第四章 可测函数",
+      "url": "https://zhuanlan.zhihu.com/p/660867456",
+      "summary": "正文从可测集和原像的可测性出发定义可测函数，并系统使用限制在可测集上的测度。"
+    },
+    {
+      "title": "【Proof-Trivial】最优传输与信息几何 (Optimal Transport & Information Geometry)  更新中...",
+      "url": "https://zhuanlan.zhihu.com/p/663591093",
+      "summary": "正文把概率分布作为测度，讨论支持集、绝对连续性及 Radon–Nikodym 导数对相对熵定义的限制。"
+    },
+    {
+      "title": "华人攻破上世纪数学难题：求一张白纸上的所有线条上共有多少灰尘｜普林斯顿&纽大",
+      "url": "https://zhuanlan.zhihu.com/p/665149846",
+      "summary": "正文以科赫曲线为例说明非整数豪斯多夫维数如何度量分形集合的大小。"
+    },
+    {
+      "title": "巴拿赫 - 塔斯基分球“悖论”的证明",
+      "url": "https://zhuanlan.zhihu.com/p/675480111",
+      "summary": "正文利用勒贝格测度的平移不变性和可数可加性证明维塔利集合不可测。"
+    },
+    {
+      "title": "分析学概论",
+      "url": "https://zhuanlan.zhihu.com/p/677152460",
+      "summary": "正文定义 Lebesgue 外测度，讨论区间长度、平移不变性和次可数可加性，并继续引入可测集与测度。"
+    },
+    {
+      "title": "为何会有高等概率论？  —— 从初等概率论到高等概率论",
+      "url": "https://zhuanlan.zhihu.com/p/681190554",
+      "summary": "正文从长度、面积和体积的共同性质抽象出测度，并给出测度与测度空间的定义。"
+    },
+    {
+      "title": "实变函数速通",
+      "url": "https://zhuanlan.zhihu.com/p/682369007",
+      "summary": "正文用开集覆盖定义 Lebesgue 外测度，并引入可测集、Borel 集和测度空间。"
+    },
+    {
+      "title": "6大数学分支，织就一张纠缠的思想网，成为人类最强大的创造",
+      "url": "https://zhuanlan.zhihu.com/p/683784425",
+      "summary": "正文定义测度论如何度量一般集合的大小或体积，并说明其是概率论和更一般积分理论的基础。"
+    },
+    {
+      "title": "实变函数笔记（Cantor集）",
+      "url": "https://zhuanlan.zhihu.com/p/685945666",
+      "summary": "正文计算 Cantor 集的 Lebesgue 测度为零，并进一步讨论连续延拓像集的正测度。"
+    },
+    {
+      "title": "MIT牛人解说数学体系（转载）",
+      "url": "https://zhuanlan.zhihu.com/p/688530839",
+      "summary": "正文把测度理论作为实分析和现代概率论的基础，说明外测度与点集大小的关系。"
+    },
+    {
+      "title": "备课随感",
+      "url": "https://zhuanlan.zhihu.com/p/695921774",
+      "summary": "正文以一般测度空间中的 Radon-Nikodym 导数和符号测度解释 L^p 对偶定理的推广。"
+    },
+    {
+      "title": "黎曼几何(1):黎曼度量",
+      "url": "https://zhuanlan.zhihu.com/p/701769327",
+      "summary": "正文定义黎曼体积元素和积分，并由正线性泛函构造流形上的 Radon 测度。"
+    },
+    {
+      "title": "沃尔泰拉函数（Volterra's function）",
+      "url": "https://zhuanlan.zhihu.com/p/703564487",
+      "summary": "正文计算康托尔式递归挖孔后剩余集合的勒贝格测度，并用它分析导函数不可积。"
+    },
+    {
+      "title": "测度论简介：通往异世界的大门",
+      "url": "https://zhuanlan.zhihu.com/p/716229278",
+      "summary": "正文以长度精确化为线索，系统讲解测度、可测集、可数可加性和勒贝格测度。"
+    },
+    {
+      "title": "什么是测度——一些常见的测度",
+      "url": "https://zhuanlan.zhihu.com/p/670589989",
+      "summary": "正文给出测度空间、可数可加性及多种常见测度的定义，核心是在讲解测度概念。"
+    },
+    {
+      "title": "底层码农视角下的最优传输（1）",
+      "url": "https://zhuanlan.zhihu.com/p/3137537490",
+      "summary": "正文系统给出有限带符号测度、概率测度、弱收敛及 Riesz 表示定理。"
+    },
+    {
+      "title": "数学的艺术 —— JK 定理",
+      "url": "https://zhuanlan.zhihu.com/p/2799763073",
+      "summary": "正文用勒贝格测度给出椭球体积，并通过测度的方向导数定义和估计凸体表面积。"
+    },
+    {
+      "title": "最优传输笔记（一）：基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/7278724751",
+      "summary": "正文用测度空间衡量集合的质量，并说明总质量以及测度前推在最优传输中的含义。"
+    },
+    {
+      "title": "美国数学月刊上的一个实分析问题",
+      "url": "https://zhuanlan.zhihu.com/p/20256288785",
+      "summary": "正文以 Lebesgue 测度衡量各层集合，并通过测度的单调性与可加性控制尾并集。"
+    },
+    {
+      "title": "90后北大校友破解挂谷猜想，陶哲轩激动转发！网友：预定菲尔兹奖",
+      "url": "https://zhuanlan.zhihu.com/p/27029804812",
+      "summary": "正文定义Minkowski与Hausdorff维度，并用覆盖、体积下界和Frostman测度违例说明三维Kakeya集证明，属于测度相关内容。"
+    },
+    {
+      "title": "华人女数学家提前锁定菲尔兹奖？王虹127页破解几何世纪难题，陶哲轩盛赞",
+      "url": "https://zhuanlan.zhihu.com/p/27016791257",
+      "summary": "正文围绕Kakeya集的Minkowski与Hausdorff维数展开，并概述尺度归纳、体积估计和Frostman测度论证。"
+    },
+    {
+      "title": "关于王虹与挂谷（Kankeya)猜想",
+      "url": "https://zhuanlan.zhihu.com/p/27053605834",
+      "summary": "正文整理了挂谷猜想的Hausdorff维数结论及其与测度、几何分析相关研究的进展。"
+    },
+    {
+      "title": "挂谷猜想有多重要？为什么破解它的王虹有望获得菲尔兹奖？",
+      "url": "https://zhuanlan.zhihu.com/p/30188635010",
+      "summary": "正文解释挂谷集、贝西科维奇集及其豪斯道夫与闵可夫斯基维数，属于几何测度与分形维度的讨论。"
+    },
+    {
+      "title": "Fubini的梦魇：一个奇异的例子",
+      "url": "https://zhuanlan.zhihu.com/p/1893436626006425964",
+      "summary": "正文构造一个可测子集并证明其 Lebesgue 测度为 1，围绕测度、可测性及叶状分解的反常性质展开。"
+    },
+    {
+      "title": "二维情形Kakeya猜想的证明",
+      "url": "https://zhuanlan.zhihu.com/p/1922379021200626040",
+      "summary": "正文回顾Lebesgue测度与Hausdorff测度、Hausdorff维数，并以覆盖球测度给出维数下界。"
+    },
+    {
+      "title": "“数学分析”的7个段位，从极限到谱理论：这条路，既艰难又美丽",
+      "url": "https://zhuanlan.zhihu.com/p/1951136401660805620",
+      "summary": "正文讨论实数集测度的可加性、不可测集构造以及可测子集的限制规则。"
+    },
+    {
+      "title": "取整函数的多项式",
+      "url": "https://zhuanlan.zhihu.com/p/1962542885497974791",
+      "summary": "正文证明变换不保持勒贝格测度，并据此判定相应序列不可能模1均匀分布。"
+    },
+    {
+      "title": "随机场论中的 Kac-Rice 公式简介",
+      "url": "https://zhuanlan.zhihu.com/p/1986765772161324393",
+      "summary": "正文定义 Lebesgue 测度与 Hausdorff 测度，并用它们表述面积公式和余面积公式。"
+    },
+    {
+      "title": "[实变函数，实分析] C^1微分同胚下的n维Lebesgue积分换元公式",
+      "url": "https://zhuanlan.zhihu.com/p/2013730682275395465",
+      "summary": "正文用立方体覆盖、开集逼近及测度连续性证明像集的测度与 Jacobi 行列式积分的关系。"
+    },
+    {
+      "title": "为什么概率论教材里的数学期望要写成 ∫ X(ω) dP(ω)？直接用 ∫ x f(x) dx 不行吗？",
+      "url": "https://zhuanlan.zhihu.com/p/2035078598298703072",
+      "summary": "正文把函数值域原像集合的大小称为测度，并用它定义简单函数的积分。"
+    },
+    {
+      "title": "唱唱反调：中国女数学家王虹解决的三维挂谷问题，其实解决了一个寂寞",
+      "url": "https://zhuanlan.zhihu.com/p/2064831368429938302",
+      "summary": "正文通过零体积、豪斯多夫维数及集合维数解释挂谷集合的测度与维数关系。"
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l6-t1-b3",
+  "sources": [
+    {
+      "title": "如何理解亚历山大·格罗滕迪克？",
+      "url": "https://www.zhihu.com/answer/33094038",
+      "summary": "直接定义概形并说明其保留定义点集的多项式信息。"
+    },
+    {
+      "title": "如何理解代数几何中的 stacks 概念？",
+      "url": "https://www.zhihu.com/answer/128709342",
+      "summary": "正文解释概形由仿射谱局部粘合，并在函子范畴中刻画概形。"
+    },
+    {
+      "title": "流形的概念可以不依赖欧氏空间来定义吗？",
+      "url": "https://www.zhihu.com/answer/133302277",
+      "summary": "正文类比仿射概形，从光滑函数环反范畴构造 smooth loci 并讨论粘合。"
+    },
+    {
+      "title": "代数几何应该怎样学？",
+      "url": "https://www.zhihu.com/answer/136254585",
+      "summary": "正文讨论何时学习 scheme theory，并以 Spec、Proj 作为基本概形语言的例子。"
+    },
+    {
+      "title": "谁来帮忙细细总结一下 20 世纪几何学的发展进程？",
+      "url": "https://www.zhihu.com/answer/162218230",
+      "summary": "正文说明 Grothendieck 如何以概形重构代数几何基础并连通不同基域。"
+    },
+    {
+      "title": "代数几何应该怎样学？",
+      "url": "https://www.zhihu.com/answer/167317953",
+      "summary": "正文解释素谱通过层构造仿射概形以及概形的拓扑、态射和上同调。"
+    },
+    {
+      "title": "为何说 K-理论是一种「上同调理论」？",
+      "url": "https://www.zhihu.com/answer/171497823",
+      "summary": "正文以概形、概形上的层与向量丛分类为对象，持续实质使用概形语言。"
+    },
+    {
+      "title": "学习数学一定要用抽象的思维去学吗？",
+      "url": "https://www.zhihu.com/answer/267504362",
+      "summary": "正文解释 stack 是 scheme 的进一步推广，体现概形的一般性。"
+    },
+    {
+      "title": "代数几何是不是被神化了？",
+      "url": "https://www.zhihu.com/answer/299020008",
+      "summary": "正文说明概型理论如何让代数几何吸收拓扑、同调代数与数论。"
+    },
+    {
+      "title": "仍然在世的伟大数学家有哪些？",
+      "url": "https://www.zhihu.com/answer/302930152",
+      "summary": "正文说明其技术是概型理论在数论中的重要应用。"
+    },
+    {
+      "title": "你所在的科研领域有哪些做不动的问题？",
+      "url": "https://www.zhihu.com/answer/303948858",
+      "summary": "正文讨论奇异概形上的两个导出范畴及其对偶条件。"
+    },
+    {
+      "title": "代数几何是不是被神化了？",
+      "url": "https://www.zhihu.com/answer/326794126",
+      "summary": "正文明确区分射影概形与 Kähler 流形的证明对象。"
+    },
+    {
+      "title": "什么是晶体上同调论？",
+      "url": "https://www.zhihu.com/answer/344549913",
+      "summary": "正文以基概形上的概形和态射表述构造。"
+    },
+    {
+      "title": "请问什么是p-adic geometry？",
+      "url": "https://www.zhihu.com/answer/377111582",
+      "summary": "正文解释形式概形作为代数对象取极限的产物。"
+    },
+    {
+      "title": "如何证明椭圆是封闭图形？",
+      "url": "https://www.zhihu.com/answer/449269175",
+      "summary": "正文从概形的étale上同调恢复实点信息。"
+    },
+    {
+      "title": "自学交换代数（atiyah），却无能力自己证明书中的很多定理，是否表明完全不具备继续学习数学的潜力？",
+      "url": "https://www.zhihu.com/answer/639122471",
+      "summary": "由 Spec 与结构层说明仿射概形的构造。"
+    },
+    {
+      "title": "数学本科生学一门课（比如代数几何2）到一半时失去动机不感兴趣了，应该如何决定是继续肝还是放弃掉学别的？",
+      "url": "https://www.zhihu.com/answer/645273365",
+      "summary": "介绍 Zariski 拓扑、étale 拓扑与概形技术的关系。"
+    },
+    {
+      "title": "如何上手 Lurie 的 SAG（Spectral Algebraic Geometry）？",
+      "url": "https://www.zhihu.com/answer/665860277",
+      "summary": "说明掌握 scheme、sheaf 与 stack 后再进入谱代数几何。"
+    },
+    {
+      "title": "一个合格的代数几何科班出身的学者，通常都接受过哪些训练？有哪些基本素养？",
+      "url": "https://www.zhihu.com/answer/668862087",
+      "summary": "把概形语言列为代数几何学习核心。"
+    },
+    {
+      "title": "如何理解代数几何中的 stacks 概念？",
+      "url": "https://www.zhihu.com/answer/1247694083",
+      "summary": "正文明确讨论概形及作为概形推广的 stack。"
+    },
+    {
+      "title": "如何评价菲尔兹奖得主 Vladimir Voevodsky？",
+      "url": "https://www.zhihu.com/answer/1403609386",
+      "summary": "正文讨论概形、代数簇和动机上同调。"
+    },
+    {
+      "title": "如何理解向量丛，层，概形的截面？",
+      "url": "https://www.zhihu.com/answer/1515550305",
+      "summary": "正文以概形、层和截面为具体例子解释抽象几何对象。"
+    },
+    {
+      "title": "如何看待全民代数几何的现象？",
+      "url": "https://www.zhihu.com/answer/1543342297",
+      "summary": "正文直接讨论概形，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "如何评价Weil的数学工作以及具有他风格的代数几何？",
+      "url": "https://www.zhihu.com/answer/1589267288",
+      "summary": "正文直接讨论或应用该叶节点主题（scheme）。"
+    },
+    {
+      "title": "抽象代数、同调代数、交换代数、代数拓扑有什么关系？",
+      "url": "https://www.zhihu.com/answer/1645299517",
+      "summary": "正文说明交换代数与概形理论的联系。"
+    },
+    {
+      "title": "Grothendieck 时代的代数几何与在这之前的古典代数几何之间最大的区别是否就是范畴论的引入？",
+      "url": "https://www.zhihu.com/answer/2207042047",
+      "summary": "正文直接讨论概型、仿射概型、层及其上同调。"
+    },
+    {
+      "title": "代数拓扑和代数几何有什么区别与联系吗？",
+      "url": "https://www.zhihu.com/answer/2450469229",
+      "summary": "正文讨论概型的底空间与结构层，并解释其拓扑上的限制。"
+    },
+    {
+      "title": "北大数学直博复试具体是一个什么形式？求知情的同学提供信息，谢谢！",
+      "url": "https://www.zhihu.com/answer/2466894505",
+      "summary": "正文提出诺特整概形、双有理紧合平坦态射的概形问题。"
+    },
+    {
+      "title": "对于当今数学来说，「几何」到底是什么？",
+      "url": "https://www.zhihu.com/answer/2500014252",
+      "summary": "正文用仿射概形作为代数几何的局部模型。"
+    },
+    {
+      "title": "对于当今数学来说，「几何」到底是什么？",
+      "url": "https://www.zhihu.com/answer/2518362574",
+      "summary": "引用 Serre 仿射判别说明概型的仿射性质。"
+    },
+    {
+      "title": "如何理解棱镜上同调（prismatic cohomology)？",
+      "url": "https://www.zhihu.com/answer/2524549119",
+      "summary": "用 δ-环、理想与完备化给出棱镜与形式概型的技术框架。"
+    },
+    {
+      "title": "如何理解微分几何中的『联络』?",
+      "url": "https://www.zhihu.com/answer/2699085567",
+      "summary": "正文从环与模的对偶过渡到仿射概形，并说明概型上的下降数据即联络。"
+    },
+    {
+      "title": "以后想学代数几何这个方向，本科期间应该如何准备？",
+      "url": "https://www.zhihu.com/answer/2722280206",
+      "summary": "正文讨论概形学习的前提，主张先掌握代数簇和交换代数再进入概形。"
+    },
+    {
+      "title": "若要学习Motivic Homotopy，代数几何需要学到什么程度？",
+      "url": "https://www.zhihu.com/answer/2858171809",
+      "summary": "正文把 scheme 理论列为必要基础，并说明应掌握函子观点及多类态射性质。"
+    },
+    {
+      "title": "数学专业的学生的毕业论文是怎样的？",
+      "url": "https://www.zhihu.com/answer/2961122555",
+      "summary": "正文以 derived stack 和 derived scheme 为对象说明导出几何对概型框架的推广。"
+    },
+    {
+      "title": "只关心实数域或复数域上的代数几何是否有必要学GTM52？有更合适的教材选择吗？",
+      "url": "https://www.zhihu.com/answer/3017547933",
+      "summary": "正文说明概型视角会给代数几何中的每个既约闭子簇引入泛点，并据此简化证明。"
+    },
+    {
+      "title": "为什么我感觉代数几何是伪几何，本质上是代数？",
+      "url": "https://www.zhihu.com/answer/3047417910",
+      "summary": "正文以仿射概形粘贴定义概型，并说明仿射概型与交换代数的对应关系。"
+    },
+    {
+      "title": "Weil猜想和Riemann猜想有什么联系？关于这方面的最新进展是什么？",
+      "url": "https://www.zhihu.com/answer/3108737906",
+      "summary": "正文把整数概形视为一元域上的曲线，并讨论这一概形观点与 Riemann 猜想的联系。"
+    },
+    {
+      "title": "请问代数几何中的层论大致讲的什么？",
+      "url": "https://www.zhihu.com/answer/3134936270",
+      "summary": "正文以 Spec A 上的局部化函数及函数局部呈多项式的条件，具体说明概形上的层化函数。"
+    },
+    {
+      "title": "引入概形（scheme）有什么用？",
+      "url": "https://www.zhihu.com/answer/3190922870",
+      "summary": "正文用 Hom(R,S) 和 S 的取值解释仿射概形与概形，说明概形如何把交换环纳入几何空间。"
+    },
+    {
+      "title": "泰勒展开为什么能从一点推整个函数?",
+      "url": "https://www.zhihu.com/answer/3300528556",
+      "summary": "正文把泰勒展开的判定推广到局部赋环空间，并以局部Noetherian概形的茎说明克鲁尔相交定理的应用。"
+    },
+    {
+      "title": "现代数学和理论物理已经发展到怎样一个令人震惊的水平了？",
+      "url": "https://www.zhihu.com/answer/3336039040",
+      "summary": "正文展开函子式观点、Gabriel-Rosenberg 重构定理及赋环空间构造，具体讨论概形语言的抽象与推广。"
+    },
+    {
+      "title": "如何理解交换代数中的 flatness？",
+      "url": "https://www.zhihu.com/answer/4175361377",
+      "summary": "正文用素理想、坐标环和态射解释 Spec A，并把它作为代数簇的概形式推广来讨论 flatness。"
+    },
+    {
+      "title": "引入概形（scheme）有什么用？",
+      "url": "https://www.zhihu.com/answer/44842720385",
+      "summary": "正文以点函子和 Spec 构造说明概形如何统一记录有限域上的所有可能解集。"
+    },
+    {
+      "title": "2024你的数学研究和学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/69353173582",
+      "summary": "正文具体解释 affine scheme 如何由交换环和 sheaf 粘成概形，并讨论其构造与学习路径。"
+    },
+    {
+      "title": "是不是所有数学都可以用几何表达？",
+      "url": "https://www.zhihu.com/answer/99846614154",
+      "summary": "正文列出交换环与仿射概形的对偶，并用素谱、拟凝聚层和导出范畴说明概形的代数研究方式。"
+    },
+    {
+      "title": "数学中有哪些表面没有关系但是内在有深刻联系的问题？",
+      "url": "https://www.zhihu.com/answer/114344801381",
+      "summary": "正文把整数环 Z 对应的仿射概形 Spec Z 与假想的一元域 F_1 作比较，并涉及 Lambda-环代数几何构造。"
+    },
+    {
+      "title": "在数学学习中，你遇到过哪些有趣的同构？",
+      "url": "https://www.zhihu.com/answer/1906766976250012358",
+      "summary": "正文讨论准分离概形、拟凝聚层范畴及其等价如何重构概形，具体介绍 Gabriel-Rosenberg 重构定理。"
+    },
+    {
+      "title": "Representation Theory(表示论)与Algebraic Geometry(代数几何)在(理论，但不仅限理论)物理上有什么联合应用?",
+      "url": "https://www.zhihu.com/answer/1916647314275148744",
+      "summary": "正文解释表示参数化空间、表示概型、GIT 商得到的特征概型，以及高阶版本在强 Macdonald 猜想中的作用。"
+    },
+    {
+      "title": "现在还在世的数学家有跟格罗滕迪克一级别的吗？",
+      "url": "https://www.zhihu.com/answer/1916941919449256076",
+      "summary": "正文用函数零点形成的谱结构解释空间，体现了以概型观点取代点的集合的几何视角。"
+    },
+    {
+      "title": "为什么伽罗瓦 19 岁就发明的群论，绝大多数那个专业的研究生终其一生都学不会？",
+      "url": "https://www.zhihu.com/answer/1923314360878629688",
+      "summary": "正文介绍概形、étale 拓扑和 étale 基本群，用代数几何框架重述有限覆叠与伽罗瓦群的对应。"
+    },
+    {
+      "title": "世界历史上有哪些「很牛的人物被更牛的人物按在地上摩擦」的事迹？",
+      "url": "https://www.zhihu.com/answer/1935382257264211885",
+      "summary": "正文说明概形为原先缺乏严格基础的代数几何提供统一基础，并介绍其历史影响。"
+    },
+    {
+      "title": "如何看待 Grothendieck 思考数学问题不依赖具体例子？",
+      "url": "https://www.zhihu.com/answer/1946801152848007242",
+      "summary": "正文说明基于概形语言的上同调理论如何用于Weil猜想，并成为后续数论定理的工具。"
+    },
+    {
+      "title": "如何模仿佛经体翻译腔？",
+      "url": "https://www.zhihu.com/answer/2003882583390455481",
+      "summary": "正文以仿射概形为多项式方程解集，并围绕同构、层与平展下降展开戏仿，实质涉及概形及其几何对象。"
+    },
+    {
+      "title": "代数几何挂科该如何复习?",
+      "url": "https://www.zhihu.com/answer/2022834647126557805",
+      "summary": "正文把直线 C 作为子概形，并以结构层正合列解释其凝聚层与商模。"
+    },
+    {
+      "title": "伽罗瓦理论究竟讲了什么？为什么其中用到了群论的知识？",
+      "url": "https://www.zhihu.com/answer/2031355298905069104",
+      "summary": "正文介绍格罗滕迪克用概型重构代数几何，并说明概型由环的代数结构决定。"
+    },
+    {
+      "title": "为什么人类使用的坐标系都同胚于 R^n，能否使用不同胚于 R^n 的坐标系？",
+      "url": "https://www.zhihu.com/answer/2033667054339880223",
+      "summary": "正文进一步以环的素谱、结构层和幂零元解释概形及其局部模型。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/2036366427746201759",
+      "summary": "正文说明格罗滕迪克以概形替换传统几何对象，并借此重构研究韦伊猜想的框架。"
+    },
+    {
+      "title": "代数几何应该怎样学？",
+      "url": "https://www.zhihu.com/answer/2047325129584160776",
+      "summary": "正文用 reduced 与 nonreduced scheme 说明概形不能只看底层点集，而要看结构层，实质解释概形。"
+    },
+    {
+      "title": "代数几何应该怎样学？",
+      "url": "https://www.zhihu.com/answer/2049207504463193935",
+      "summary": "正文指出讲义定义概型，并以凝聚层和谱序列进行计算演示。"
+    },
+    {
+      "title": "请问“环的理想”这个概念的来源或者说是怎么想出来的？",
+      "url": "https://www.zhihu.com/answer/2051807067355324554",
+      "summary": "正文解释 Spec 把素理想视为点，并区分闭点与曲线、曲面等对象的一般点。"
+    },
+    {
+      "title": "关于”代数几何“方向的一些简单介绍",
+      "url": "https://zhuanlan.zhihu.com/p/19719683",
+      "summary": "正文说明概型理论如何建立内蕴的代数簇概念并衔接交换代数与代数几何。"
+    },
+    {
+      "title": "关于模与环的一些笔记",
+      "url": "https://zhuanlan.zhihu.com/p/27061644",
+      "summary": "正文分析有限生成 Z 代数的素理想与极大理想，并从 Spec 构造有限型概形及算术 ζ 函数。"
+    },
+    {
+      "title": "概形是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/32523602",
+      "summary": "正文用素谱、Zariski 拓扑和结构层说明概形及仿射概形的构造。"
+    },
+    {
+      "title": "射影概形",
+      "url": "https://zhuanlan.zhihu.com/p/32702584",
+      "summary": "正文通过仿射坐标卡粘合定义射影空间，并用 Proj 构造分次环对应的射影概形。"
+    },
+    {
+      "title": "Riemann-Roch定理",
+      "url": "https://zhuanlan.zhihu.com/p/32779462",
+      "summary": "正文以诺特整概形和正规概形为框架定义除子、局部环与赋值。"
+    },
+    {
+      "title": "Kunneth公式",
+      "url": "https://zhuanlan.zhihu.com/p/32996799",
+      "summary": "正文单独给出概形乘积上相干层上同调的 Kunneth 公式，并说明由 Cech 复形证明的思路。"
+    },
+    {
+      "title": "p-可除群的一些基本性质(I):起源",
+      "url": "https://zhuanlan.zhihu.com/p/34416038",
+      "summary": "正文从 Abel 簇的 p 阶扭点构造有限群概形，并在概形框架下研究 p 可除群的形变。"
+    },
+    {
+      "title": "复几何：某些线丛",
+      "url": "https://zhuanlan.zhihu.com/p/35980347",
+      "summary": "正文在分次环的 Proj 构造和局部化上说明扭层 O_X(l) 的模层结构。"
+    },
+    {
+      "title": "我所理解的Grothendieck拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/59654056",
+      "summary": "正文从素理想、曲线与闭包讲起，解释概形的拓扑结构为何需要保留非闭点，实质讨论概形。"
+    },
+    {
+      "title": "读物：仿佛来自虚空——Grothendieck的故事（上）",
+      "url": "https://zhuanlan.zhihu.com/p/61406975",
+      "summary": "正文明确说明概型是代数簇的推广，并解释它如何统一不同特征下的几何对象。"
+    },
+    {
+      "title": "从代数几何到导出代数几何：复形的几何",
+      "url": "https://zhuanlan.zhihu.com/p/86655844",
+      "summary": "正文回顾概形上层与截面函子的非正合性，并定义仿射导出概形范畴。"
+    },
+    {
+      "title": "从代数几何到导出代数几何：形变与逼近",
+      "url": "https://zhuanlan.zhihu.com/p/86894415",
+      "summary": "正文给出导出概形及导出概形态射的定义，并讨论其截断、结构层和单纯预解式。"
+    },
+    {
+      "title": "代数几何简史",
+      "url": "https://zhuanlan.zhihu.com/p/148865387",
+      "summary": "正文介绍 Grothendieck 的概形理论，说明仿射概形、素理想、粘接和相对态射等思想。"
+    },
+    {
+      "title": "Homological Algebra and Commutative Algebra",
+      "url": "https://zhuanlan.zhihu.com/p/268175784",
+      "summary": "正文用局部环、素理想和 Spec 解释概形，并通过层与概形范畴讨论下降理论。"
+    },
+    {
+      "title": "Algebraic Geometry: The Roots of Scheme I",
+      "url": "https://zhuanlan.zhihu.com/p/330793163",
+      "summary": "正文具体解释仿射概形的结构层定义以及一般概形的粘合构造。"
+    },
+    {
+      "title": "什么是热带几何？",
+      "url": "https://zhuanlan.zhihu.com/p/339673397",
+      "summary": "正文通过赋值环上的概型和中心纤维的约化，解释代数退化如何对应家族曲线的扩展。"
+    },
+    {
+      "title": "Etale Theory I: Etale Cohomology An Introduction",
+      "url": "https://zhuanlan.zhihu.com/p/364923718",
+      "summary": "正文以仿射概形及其拟凝聚模的上同调为例，并讨论 scheme 上的 etale morphism 与茎、纤维积。"
+    },
+    {
+      "title": "Non-abelian Cohomology I: Torsors",
+      "url": "https://zhuanlan.zhihu.com/p/386412772",
+      "summary": "正文在 fppf 拓扑下讨论群概型、主齐性空间及其与群层 torsor 的等价。"
+    },
+    {
+      "title": "复代数几何：affine scheme（已废弃）",
+      "url": "https://zhuanlan.zhihu.com/p/460852306",
+      "summary": "正文给出仿射概形的完整构造：以素理想谱为空间、Zariski 拓扑为拓扑、结构层为几何结构。"
+    },
+    {
+      "title": "什么是模形式（草稿流简述）",
+      "url": "https://zhuanlan.zhihu.com/p/461315486",
+      "summary": "正文把椭圆曲线推广到环上概形，并定义带有主同余结构的椭圆曲线范畴。"
+    },
+    {
+      "title": "一道代数习题：关于投射模,平坦模,矢量丛的等价性",
+      "url": "https://zhuanlan.zhihu.com/p/482269947",
+      "summary": "正文构造素谱上的 Zariski 拓扑与结构层，并以仿射概形的整体截面重建原环，实质讲解仿射概形。"
+    },
+    {
+      "title": "解析几何初步：导论",
+      "url": "https://zhuanlan.zhihu.com/p/518774618",
+      "summary": "正文以多项式环、局部化和粘合构造说明概形，并讨论概形理论如何对应到解析空间。"
+    },
+    {
+      "title": "Functorial Algebraic Geometry",
+      "url": "https://zhuanlan.zhihu.com/p/523080680",
+      "summary": "正文由素谱、Zariski 拓扑和结构层定义仿射概形，再经粘合得到一般概形。"
+    },
+    {
+      "title": "Weil猜想(0)：方程的解和有限域上的Riemann猜想",
+      "url": "https://zhuanlan.zhihu.com/p/532320893",
+      "summary": "正文在射影光滑概形上陈述 Weil 猜想，并讨论 zeta 函数的有理性、函数方程与 Riemann 假设。"
+    },
+    {
+      "title": "从向量丛到凝聚层",
+      "url": "https://zhuanlan.zhihu.com/p/542672282",
+      "summary": "正文在概形上定义局部自由层，并比较凝聚层的茎、纤维及模张量结构。"
+    },
+    {
+      "title": "曲线模空间小品1——模空间和叠的产生以及曲线模空间代数理论建立的艰苦历史（引言）",
+      "url": "https://zhuanlan.zhihu.com/p/651462307",
+      "summary": "正文把概形理论、Hilbert概形与模函子作为曲线模空间构造的基础。"
+    },
+    {
+      "title": "从代数几何视角看马克思主义哲学--物质与意识",
+      "url": "https://zhuanlan.zhihu.com/p/675626965",
+      "summary": "正文明确把局部环化空间系统化为概形，并以拓扑空间与 structure sheaf 解释其结构。"
+    },
+    {
+      "title": "一些中山引理(Nakayama引理)应用的例子",
+      "url": "https://zhuanlan.zhihu.com/p/1490299093",
+      "summary": "正文把切向量场的例子翻译到局部诺特概形与凝聚层上，并说明局部生成元如何延拓为开邻域上的生成元。"
+    },
+    {
+      "title": "模空间的动机",
+      "url": "https://zhuanlan.zhihu.com/p/1940029128276445092",
+      "summary": "正文在概形及其态射的框架下构造模函子和泛族，并讨论表示该函子的概形。"
+    },
+    {
+      "title": "为什么代数几何和交换代数“实质内容一样”，却因几何语言成了两个难度完全不同的学科？",
+      "url": "https://zhuanlan.zhihu.com/p/1975554696556090609",
+      "summary": "正文说明 Spec(A) 与概形语言是代数几何几何化的核心，并解释其带来全局结构和对象扩张。"
+    },
+    {
+      "title": "关于微分流形（？）其实是关于代数几何。",
+      "url": "https://zhuanlan.zhihu.com/p/2011854180332110938",
+      "summary": "正文比较流形结构层与概形结构层，并说明 C∞ 茎非诺特等差异。"
+    },
+    {
+      "title": "为什么我认为AI无法取代数学家？",
+      "url": "https://zhuanlan.zhihu.com/p/2067912369746063605",
+      "summary": "正文解释 scheme 如何把整数、多项式、代数簇、有限域几何和参数族纳入统一框架，体现概形语言的代数几何意义。"
+    }
+  ]
+}

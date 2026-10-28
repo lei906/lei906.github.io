@@ -1,0 +1,2051 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l6-t1-b1",
+  "sources": [
+    {
+      "title": "如何理解亚历山大·格罗滕迪克？",
+      "url": "https://www.zhihu.com/answer/33094038",
+      "summary": "综述格罗滕迪克对代数几何语言与方法的影响。"
+    },
+    {
+      "title": "数学界（物理界？）的烟花不堪剪是谁?",
+      "url": "https://www.zhihu.com/answer/40337644",
+      "summary": "正文给出代数几何的基础与不同入门取向。"
+    },
+    {
+      "title": "大学数学系学什么？",
+      "url": "https://www.zhihu.com/answer/41666311",
+      "summary": "正文通过复代数簇、复流形和全纯变换的刚性解释代数几何的研究特点。"
+    },
+    {
+      "title": "学习代数几何需要怎样的基础？",
+      "url": "https://www.zhihu.com/answer/41994440",
+      "summary": "正文给出代数几何的理论基础。"
+    },
+    {
+      "title": "如果对机器学习仅是以应用为目的的话，到底需要多少数学…，比如说微分流形，代数拓扑，泛函之类的需要懂吗？",
+      "url": "https://www.zhihu.com/answer/44265538",
+      "summary": "正文以低秩稀疏矩阵分解介绍代数几何与机器学习的联系。"
+    },
+    {
+      "title": "代数几何的入门教材哪一本比较好？（研究生一年级）",
+      "url": "https://www.zhihu.com/answer/45361036",
+      "summary": "正文按自学顺序推荐代数几何入门教材并说明前置基础。"
+    },
+    {
+      "title": "Lurie 的 derived algebraic geometry 有多重要？",
+      "url": "https://www.zhihu.com/answer/45419470",
+      "summary": "正文从椭圆曲线和ring spectrum说明导出代数几何的基本想法。"
+    },
+    {
+      "title": "2015 年你在科研上有哪些值得分享的进展和感悟？",
+      "url": "https://www.zhihu.com/answer/80968388",
+      "summary": "正文介绍用新方法研究代数簇双有理自同构群的工作。"
+    },
+    {
+      "title": "数学或者自然科学中有哪些理论技巧一经提出就大大化简了过去某些问题很困难繁琐的解答？",
+      "url": "https://www.zhihu.com/answer/87265618",
+      "summary": "正文介绍层、凝聚层并说明它们成为现代代数几何基础。"
+    },
+    {
+      "title": "代数几何是否对 PDE 的研究有启发？",
+      "url": "https://www.zhihu.com/answer/91919912",
+      "summary": "全文以稳定向量丛说明代数几何对 PDE 和几何分析的启发。"
+    },
+    {
+      "title": "物理系学生怎样入门代数几何？",
+      "url": "https://www.zhihu.com/answer/103300644",
+      "summary": "正文主线是物理系学生为学习解析或 Grothendieck 代数几何补齐先修。"
+    },
+    {
+      "title": "怎么理解代数几何概念 motive？",
+      "url": "https://www.zhihu.com/answer/105460719",
+      "summary": "正文从多种上同调的共同根源解释 motive，是代数几何中的核心抽象。"
+    },
+    {
+      "title": "代数几何是什么样的几何？",
+      "url": "https://www.zhihu.com/answer/120644599",
+      "summary": "正文从解析几何、射影几何和高次方程组的解集说明代数几何的历史来源与研究对象。"
+    },
+    {
+      "title": "是不是所有 2×2 博弈中，有两个纯策略纳什均衡就一定有一个混合策略纳什均衡？",
+      "url": "https://www.zhihu.com/answer/121551437",
+      "summary": "正文把纳什均衡条件组织为代数曲线，并用解析延长和边界交点完成证明。"
+    },
+    {
+      "title": "为何中学阶段不系统讲授一元三次四次方程？总感觉高中数学的很多内容在初中数学上没有根基，完全是空降的？",
+      "url": "https://www.zhihu.com/answer/124423540",
+      "summary": "正文说明从高次代数曲线、曲面到复代数曲面的研究会进入代数几何。"
+    },
+    {
+      "title": "学代数是否应该把自己“洗脑”了学？",
+      "url": "https://www.zhihu.com/answer/125043647",
+      "summary": "正文用概形、étale 拓扑、Noether 标准化等例子实质讨论代数几何学习。"
+    },
+    {
+      "title": "代数几何在弦论中有什么作用？",
+      "url": "https://www.zhihu.com/answer/125140415",
+      "summary": "正文从模空间、线丛和 Mumford 同构说明代数几何在弦论中的具体作用。"
+    },
+    {
+      "title": "普通人对于现代数学各个分支的理解难度，从高到低排名是怎样的？",
+      "url": "https://www.zhihu.com/answer/126479989",
+      "summary": "正文解释代数几何难在庞大的语言体系、定义机制与具体例子之间的落差。"
+    },
+    {
+      "title": "代数几何方法在组合中有哪些应用？",
+      "url": "https://www.zhihu.com/answer/126902200",
+      "summary": "正文给出用环面簇和线丛的 Hilbert 多项式证明组合计数结论的代数几何应用。"
+    },
+    {
+      "title": "如何理解代数几何中的 stacks 概念？",
+      "url": "https://www.zhihu.com/answer/128709342",
+      "summary": "正文从局部化、函子观点、代数空间和 stack 系统讲解现代代数几何对象。"
+    },
+    {
+      "title": "代数几何的几何直观？",
+      "url": "https://www.zhihu.com/answer/130480097",
+      "summary": "正文区分经典与格洛腾迪克式代数几何直观，并以圆锥曲线、上同调和抽象结构说明两种研究方式。"
+    },
+    {
+      "title": "Kahler几何的发展历程及其背景意义是什么",
+      "url": "https://www.zhihu.com/answer/130913936",
+      "summary": "正文阐明Hodge流形与代数流形、Hodge猜想及代数曲线之间的联系，属于代数几何应用。"
+    },
+    {
+      "title": "几何学（代数几何、微分几何、复几何、辛几何）最核心的问题是什么？",
+      "url": "https://www.zhihu.com/answer/131280169",
+      "summary": "正文讨论代数几何的整体理论、MMP及复几何为代数几何提供的超越方法。"
+    },
+    {
+      "title": "Tropical geometry、mirror symmetry 是研究什么？",
+      "url": "https://www.zhihu.com/answer/133612464",
+      "summary": "正文说明 Gross–Siebert 方案如何用代数几何与组合数据从 Calabi–Yau 构造镜像。"
+    },
+    {
+      "title": "homological mirror symmetry是研究什么的？",
+      "url": "https://www.zhihu.com/answer/134083187",
+      "summary": "正文说明镜像对称如何把辛几何对象分类转化为凝聚层等代数几何对象分类。"
+    },
+    {
+      "title": "代数几何应该怎样学？",
+      "url": "https://www.zhihu.com/answer/136254585",
+      "summary": "正文按几何、数论、拓扑等不同目标给出代数几何学习方法，并解释代数簇、概形与具体例子的关系。"
+    },
+    {
+      "title": "求推荐黎曼几何，复几何，黎曼曲面经典书。？",
+      "url": "https://www.zhihu.com/answer/139930200",
+      "summary": "正文讨论复代数几何对象间的双有理映射。"
+    },
+    {
+      "title": "什么是Minimal model program，森重文的工作与之有什么关联？",
+      "url": "https://www.zhihu.com/answer/141165552",
+      "summary": "正文解释极小模型纲领是代数几何中的双有理分类框架。"
+    },
+    {
+      "title": "谁来帮忙细细总结一下 20 世纪几何学的发展进程？",
+      "url": "https://www.zhihu.com/answer/162218230",
+      "summary": "正文梳理 20 世纪代数几何从直觉方法到严格代数语言的演化。"
+    },
+    {
+      "title": "代数几何应该怎样学？",
+      "url": "https://www.zhihu.com/answer/167317953",
+      "summary": "正文按交换代数、曲线、概形和上同调安排代数几何学习顺序。"
+    },
+    {
+      "title": "你最钦佩的数学天才是谁？",
+      "url": "https://www.zhihu.com/answer/170486167",
+      "summary": "正文指出 Grothendieck 对代数几何语言和学科结构的全面革新。"
+    },
+    {
+      "title": "为何说 K-理论是一种「上同调理论」？",
+      "url": "https://www.zhihu.com/answer/171497823",
+      "summary": "正文讲解motivc语言如何把代数几何问题转入同伦论并构造代数K理论。"
+    },
+    {
+      "title": "复几何的前景如何？",
+      "url": "https://www.zhihu.com/answer/173707200",
+      "summary": "正文多处解释复几何与复代数几何、层和形变理论的交汇。"
+    },
+    {
+      "title": "到今天为止，数学都有那些分支？它们的联系又是什么？",
+      "url": "https://www.zhihu.com/answer/177087417",
+      "summary": "正文解释代数几何同时从多项式代数结构及其解集的几何性质研究对象。"
+    },
+    {
+      "title": "如何看待Hironaka声称证明了正特征下的代数簇奇点解消？",
+      "url": "https://www.zhihu.com/answer/177531910",
+      "summary": "正文解释正特征奇点解消为何是代数几何中的核心公开问题。"
+    },
+    {
+      "title": "如何看待Hironaka声称证明了正特征下的代数簇奇点解消？",
+      "url": "https://www.zhihu.com/answer/178080535",
+      "summary": "正文从代数几何史和引用影响讨论正特征奇点解消的重要性。"
+    },
+    {
+      "title": "为什么Hodge conjecture很重要（为了解决它，不惜重赏100W刀）?",
+      "url": "https://www.zhihu.com/answer/179448560",
+      "summary": "正文从射影簇的上同调、代数循环与解析循环解释霍奇猜想的代数几何意义。"
+    },
+    {
+      "title": "代数几何和数论的关系？",
+      "url": "https://www.zhihu.com/answer/182986166",
+      "summary": "正文解释数论中的多项式方程如何转化为代数几何中的簇与有理点问题。"
+    },
+    {
+      "title": "如何直观理解辛几何？",
+      "url": "https://www.zhihu.com/answer/184478705",
+      "summary": "正文多处比较辛几何与代数几何，并用代数几何退化技术提取组合数据。"
+    },
+    {
+      "title": "代数几何是否对 PDE 的研究有启发？",
+      "url": "https://www.zhihu.com/answer/185732342",
+      "summary": "正文系统解释代数几何中的稳定性、GIT 商与偏微分方程解模空间之间的对应。"
+    },
+    {
+      "title": "你所在数学领域的 big picture 是什么？",
+      "url": "https://www.zhihu.com/answer/190177707",
+      "summary": "正文还以K理论、计数曲线、镜面对称和算术几何展开代数几何及其跨领域联系。"
+    },
+    {
+      "title": "你所在数学领域的 big picture 是什么？",
+      "url": "https://www.zhihu.com/answer/190309098",
+      "summary": "正文通过仿射 Calabi-Yau 簇、坐标环和凝聚层导出范畴连接代数几何。"
+    },
+    {
+      "title": "如何看待许晨阳加盟麻省理工学院数学系?",
+      "url": "https://www.zhihu.com/answer/238092623",
+      "summary": "正文说明用纯代数几何方法构造 Fano 簇模空间的工作。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/241287515",
+      "summary": "正文说明镜像对称另一侧的代数几何表述。"
+    },
+    {
+      "title": "你所在领域哪些是学术巨擘开创领域或解决问题带来一系列工作？",
+      "url": "https://www.zhihu.com/answer/250463571",
+      "summary": "正文从黎曼曲面、双有理不变量和 Riemann-Roch 定理解释代数几何发展。"
+    },
+    {
+      "title": "学习数学一定要用抽象的思维去学吗？",
+      "url": "https://www.zhihu.com/answer/267504362",
+      "summary": "正文用射影空间、层和概形说明代数几何中的抽象层次。"
+    },
+    {
+      "title": "获得 2018 科学突破奖的 C. Hacon 和 J. McKernan 的主要工作和成就是什么？",
+      "url": "https://www.zhihu.com/answer/271657967",
+      "summary": "正文系统介绍双有理几何与最小模型纲领的代数几何背景。"
+    },
+    {
+      "title": "如何评价恽之玮，张伟获 New Horizons 奖？",
+      "url": "https://www.zhihu.com/answer/273796981",
+      "summary": "正文说明获奖工作为 L 函数泰勒系数赋予代数几何解释。"
+    },
+    {
+      "title": "有哪些数学问题在高维和低维上情况比较简单，唯独在中间某个维数上很复杂？",
+      "url": "https://www.zhihu.com/answer/291942609",
+      "summary": "正文比较代数、几何与圆法研究三次簇有理点的适用维数。"
+    },
+    {
+      "title": "代数几何是不是被神化了？",
+      "url": "https://www.zhihu.com/answer/294039831",
+      "summary": "正文实质讨论代数几何与拓扑、数论、辛几何和表示论的联系。"
+    },
+    {
+      "title": "你所在的领域（数学和或物理）有哪些令你觉得新颖理论或工具？",
+      "url": "https://www.zhihu.com/answer/295271500",
+      "summary": "正文说明通过对象模空间上的代数几何把非交换几何翻译为交换几何。"
+    },
+    {
+      "title": "如何评价 StrongArt 在 B 站讲解的代数几何？水平怎么样？",
+      "url": "https://www.zhihu.com/answer/295756691",
+      "summary": "正文从术语、定义和思维语言角度评价代数几何讲解质量。"
+    },
+    {
+      "title": "代数几何是不是被神化了？",
+      "url": "https://www.zhihu.com/answer/299020008",
+      "summary": "正文回顾 Grothendieck 时代代数几何的概念、技巧与学科影响。"
+    },
+    {
+      "title": "你所在的科研领域有哪些做不动的问题？",
+      "url": "https://www.zhihu.com/answer/303948858",
+      "summary": "正文提出并具体展开仿射簇、Calabi-Yau 与镜像对称中的多个研究问题。"
+    },
+    {
+      "title": "导出非交换代数几何是做什么？",
+      "url": "https://www.zhihu.com/answer/306831018",
+      "summary": "正文以概型、Calabi–Yau簇和坐标环说明非交换代数几何如何替代经典几何对象。"
+    },
+    {
+      "title": "曲线（代数簇）上有理点的个数是否有限，是否在曲线上稠密？",
+      "url": "https://www.zhihu.com/answer/308629443",
+      "summary": "正文以数域上的丢番图几何讨论代数簇有理点。"
+    },
+    {
+      "title": "本科生想要了解射影几何有什么书或者资料推荐吗？",
+      "url": "https://www.zhihu.com/answer/315193660",
+      "summary": "正文解释现代代数几何入门所需的交换代数和同调代数背景。"
+    },
+    {
+      "title": "为什么要研究非交换几何？",
+      "url": "https://www.zhihu.com/answer/315760674",
+      "summary": "正文解释以范畴和代数替代几何对象的非交换代数几何思想。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/317303354",
+      "summary": "正文以相切圆锥曲线计数问题介绍代数几何中的交叉理论。"
+    },
+    {
+      "title": "是否存在三边都为有理数的三角形，其面积为 1？",
+      "url": "https://www.zhihu.com/answer/317341686",
+      "summary": "正文从射影化 K3 曲面和自同构解释问题的代数几何背景。"
+    },
+    {
+      "title": "请问代数数论领域的前景怎样？",
+      "url": "https://www.zhihu.com/answer/317451928",
+      "summary": "正文解释代数几何如何改变现代数论的研究范式。"
+    },
+    {
+      "title": "如何理解庞加莱对偶（Poincare Duality）?",
+      "url": "https://www.zhihu.com/answer/321148551",
+      "summary": "正文从镜像对称、Calabi－Yau 簇和 Serre 对偶联系代数几何。"
+    },
+    {
+      "title": "代数几何是不是被神化了？",
+      "url": "https://www.zhihu.com/answer/326794126",
+      "summary": "正文以特征零约化到正特征说明代数几何证明方法。"
+    },
+    {
+      "title": "Representation Theory(表示论)与Algebraic Geometry(代数几何)在(理论，但不仅限理论)物理上有什么联合应用?",
+      "url": "https://www.zhihu.com/answer/329213093",
+      "summary": "正文说明相关研究与代数几何的联合方向。"
+    },
+    {
+      "title": "现代代数学都在做些什么？有哪些主要的研究方向？",
+      "url": "https://www.zhihu.com/answer/332180411",
+      "summary": "正文说明现代代数学研究以代数几何为主要方向。"
+    },
+    {
+      "title": "为什么现在的人很轻松就能掌握几百几千年前顶尖数学家才能掌握的知识？",
+      "url": "https://www.zhihu.com/answer/333067889",
+      "summary": "正文以模的局部化与层语言为例解释代数几何对代数的几何化。"
+    },
+    {
+      "title": "导出范畴如何决定代数簇的结构，类型？",
+      "url": "https://www.zhihu.com/answer/333423706",
+      "summary": "正文从导出范畴出发系统讨论代数几何中的重构问题。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/338917813",
+      "summary": "正文用有理曲线、模空间和Gromov-Witten不变量处理枚举代数几何问题。"
+    },
+    {
+      "title": "什么是晶体上同调论？",
+      "url": "https://www.zhihu.com/answer/344549913",
+      "summary": "正文在代数几何框架下讨论晶体上同调构造。"
+    },
+    {
+      "title": "请问什么是p-adic geometry？",
+      "url": "https://www.zhihu.com/answer/377111582",
+      "summary": "正文介绍刚性解析几何等非阿基米德解析几何的发展。"
+    },
+    {
+      "title": "数学硕士/博士研究生阶段有哪些定理/论文/理论让你为之振奋？",
+      "url": "https://www.zhihu.com/answer/402194253",
+      "summary": "正文把Perfectoid构造解释为向更高维代数和空间推广的代数几何理论。"
+    },
+    {
+      "title": "什么限制了你的论文天花板?",
+      "url": "https://www.zhihu.com/answer/415405230",
+      "summary": "正文讨论代数几何奇点与 exceptional divisor 的组合信息。"
+    },
+    {
+      "title": "如何证明椭圆是封闭图形？",
+      "url": "https://www.zhihu.com/answer/449269175",
+      "summary": "正文讨论实代数曲线的连通分支和上同调不变量。"
+    },
+    {
+      "title": "数论的学习顺序？",
+      "url": "https://www.zhihu.com/answer/449936886",
+      "summary": "正文解释代数几何的建立动机与数论应用。"
+    },
+    {
+      "title": "如何评价 2018 年菲尔兹奖（Fields medal 2018）结果与四位得主的工作？",
+      "url": "https://www.zhihu.com/answer/458776271",
+      "summary": "正文说明获奖者在双有理代数几何中的具体成果。"
+    },
+    {
+      "title": "学习古典微分几何还有意义吗？",
+      "url": "https://www.zhihu.com/answer/473181084",
+      "summary": "正文说明黎曼面作为光滑代数簇和代数几何基本对象。"
+    },
+    {
+      "title": "数学中有哪些表面没有关系但是内在有深刻联系的问题？",
+      "url": "https://www.zhihu.com/answer/485527425",
+      "summary": "正文从数论与代数几何解释 Motivic L 函数。"
+    },
+    {
+      "title": "北大数学系田刚的学问到底怎么样？",
+      "url": "https://www.zhihu.com/answer/485661331",
+      "summary": "正文将乘子理想层与代数几何应用联系起来。"
+    },
+    {
+      "title": "学习古典代数几何还有意义吗？",
+      "url": "https://www.zhihu.com/answer/487192417",
+      "summary": "正文系统解释古典代数几何仍有独立研究价值。"
+    },
+    {
+      "title": "hormander的L^2 方法在辛几何中的发展？",
+      "url": "https://www.zhihu.com/answer/487767585",
+      "summary": "正文比较代数几何与复几何对象和方法。"
+    },
+    {
+      "title": "除了黎曼猜想，数学界还有哪些至今尚未得到证实的猜想？",
+      "url": "https://www.zhihu.com/answer/502773062",
+      "summary": "以有限域上的曲线、坐标环、射影代数簇和上同调说明代数几何在 Weil 猜想中的作用。"
+    },
+    {
+      "title": "数学中有哪些表面没有关系但是内在有深刻联系的问题？",
+      "url": "https://www.zhihu.com/answer/503973729",
+      "summary": "解释 Ramanujan 猜想的证明如何依赖 Weil 猜想、l-adic 表示和 étale 上同调等代数几何工具。"
+    },
+    {
+      "title": "在几何的学习中如何调整对细节的关注程度？",
+      "url": "https://www.zhihu.com/answer/506681399",
+      "summary": "说明镜像对称 B-side 的 coherent sheaves、奇点范畴等代数几何对象及其计算。"
+    },
+    {
+      "title": "在几何的学习中如何调整对细节的关注程度？",
+      "url": "https://www.zhihu.com/answer/506729166",
+      "summary": "比较代数几何计算与辛几何构造，并说明闭弦镜像对称中的代数几何方法。"
+    },
+    {
+      "title": "复几何和代数几何有什么关系？",
+      "url": "https://www.zhihu.com/answer/512285000",
+      "summary": "正文比较复代数几何与复几何，并讨论 GAGA、Hodge 理论及解析工具的作用。"
+    },
+    {
+      "title": "数学家 Donaldson 是否过誉了？以下评价是否合理？",
+      "url": "https://www.zhihu.com/answer/543367632",
+      "summary": "正文讨论代数几何性质在凯勒几何证明中的作用。"
+    },
+    {
+      "title": "2010 年以来，人类数学在概念上有哪些突破？",
+      "url": "https://www.zhihu.com/answer/549924598",
+      "summary": "正文介绍把代数几何中的 Chow 环与 Hodge 结构用于拟阵。"
+    },
+    {
+      "title": "现代数学和理论物理已经发展到怎样一个令人震惊的水平了？",
+      "url": "https://www.zhihu.com/answer/550317348",
+      "summary": "给出经典与现代代数几何的研究对象和结合方式。"
+    },
+    {
+      "title": "现代数学和理论物理已经发展到怎样一个令人震惊的水平了？",
+      "url": "https://www.zhihu.com/answer/557561146",
+      "summary": "介绍代数几何中的双有理几何、极小模型纲领和代数簇研究成果。"
+    },
+    {
+      "title": "数学中的形变理论是什么？",
+      "url": "https://www.zhihu.com/answer/566090711",
+      "summary": "从代数簇与模空间说明代数几何中的形变理论。"
+    },
+    {
+      "title": "数学中的形变理论是什么？",
+      "url": "https://www.zhihu.com/answer/573210561",
+      "summary": "正文比较代数几何与更一般的形变理论。"
+    },
+    {
+      "title": "哪些看似毫不相干的事物具有相同的数学原理？",
+      "url": "https://www.zhihu.com/answer/594546845",
+      "summary": "正文讨论有限域代数簇、Frobenius 与迹公式的应用。"
+    },
+    {
+      "title": "什么是Arakelov几何？",
+      "url": "https://www.zhihu.com/answer/620284245",
+      "summary": "说明把算术对象复化为概形后可借助复代数几何不变量研究。"
+    },
+    {
+      "title": "如何理解Atiyah-Bott localization?",
+      "url": "https://www.zhihu.com/answer/629057682",
+      "summary": "说明局部化公式可推广到概形、Chow 环和虚基本类。"
+    },
+    {
+      "title": "自学交换代数（atiyah），却无能力自己证明书中的很多定理，是否表明完全不具备继续学习数学的潜力？",
+      "url": "https://www.zhihu.com/answer/639122471",
+      "summary": "说明交换代数如何通过坐标环与局部环化空间服务代数几何。"
+    },
+    {
+      "title": "数学本科生学一门课（比如代数几何2）到一半时失去动机不感兴趣了，应该如何决定是继续肝还是放弃掉学别的？",
+      "url": "https://www.zhihu.com/answer/645273365",
+      "summary": "从 Weil 猜想的上同调方案解释现代代数几何的动机。"
+    },
+    {
+      "title": "一个合格的代数几何科班出身的学者，通常都接受过哪些训练？有哪些基本素养？",
+      "url": "https://www.zhihu.com/answer/661244188",
+      "summary": "解释代数几何研究所需的整体知识结构。"
+    },
+    {
+      "title": "代数几何一开始研究多项式公共零点的动机是什么？",
+      "url": "https://www.zhihu.com/answer/665391257",
+      "summary": "说明用代数方法研究多项式公共零点的基本动机。"
+    },
+    {
+      "title": "一个合格的代数几何科班出身的学者，通常都接受过哪些训练？有哪些基本素养？",
+      "url": "https://www.zhihu.com/answer/668862087",
+      "summary": "围绕代数几何的基础对象和研究方法组织学习。"
+    },
+    {
+      "title": "综合微分几何（Synthetic Differential Geometry）有什么用处？",
+      "url": "https://www.zhihu.com/answer/695297525",
+      "summary": "比较代数几何与微分几何处理模空间的方法。"
+    },
+    {
+      "title": "什么是 Simpson correspondence？我们为什么还要研究 p-adic 版本的？",
+      "url": "https://www.zhihu.com/answer/718933797",
+      "summary": "讨论向量丛与Higgs丛模空间的几何结构。"
+    },
+    {
+      "title": "纯代数方向和代数几何方向研究的是什么？",
+      "url": "https://www.zhihu.com/answer/778281405",
+      "summary": "正文以研究对象与空间观念界定代数几何。"
+    },
+    {
+      "title": "代数几何在现代物理学中有什么应用?",
+      "url": "https://www.zhihu.com/answer/953033612",
+      "summary": "正文从 Calabi-Yau 流形、镜像对称和可积系统说明代数几何在现代物理中的用途。"
+    },
+    {
+      "title": "为什么数学中的代数和分析没有代数与几何、分析与几何结合得那么紧密？",
+      "url": "https://www.zhihu.com/answer/997789611",
+      "summary": "正文解释代数几何研究的函数类型、对象与相邻学科边界。"
+    },
+    {
+      "title": "代数与几何的关系就像本质与现象的关系那样吗？",
+      "url": "https://www.zhihu.com/answer/1016176412",
+      "summary": "正文讨论代数几何对象及代数运算与几何空间的自然联系。"
+    },
+    {
+      "title": "如何看待许晨阳加盟麻省理工学院数学系?",
+      "url": "https://www.zhihu.com/answer/1040705049",
+      "summary": "正文长篇介绍许晨阳的代数几何研究及双有理几何成果。"
+    },
+    {
+      "title": "为什么现在数学系普遍不学椭圆函数、超几何函数等特殊函数？",
+      "url": "https://www.zhihu.com/answer/1140214590",
+      "summary": "正文实质说明椭圆函数与代数几何的相互支撑关系。"
+    },
+    {
+      "title": "如何看待京都大学的望月新一教授证明「ABC 猜想」，发表在其主编的期刊上？",
+      "url": "https://www.zhihu.com/answer/1145938649",
+      "summary": "正文介绍F1几何与算术几何证明ABC猜想的设想。"
+    },
+    {
+      "title": "如何理解代数几何中的 stacks 概念？",
+      "url": "https://www.zhihu.com/answer/1247694083",
+      "summary": "正文以代数几何中的概形、代数空间和 stack 解释延拓与模空间。"
+    },
+    {
+      "title": "代数拓扑跟数论与算术几何有什么关系？",
+      "url": "https://www.zhihu.com/answer/1268150669",
+      "summary": "正文比较代数几何中的概形范畴与代数拓扑构造分类空间的方法。"
+    },
+    {
+      "title": "如何评价Hartshorne所著教材Residues and duality？",
+      "url": "https://www.zhihu.com/answer/1306790244",
+      "summary": "正文直接讲解“代数几何”相关内容。"
+    },
+    {
+      "title": "学习代数几何前，为何要先学范畴论？",
+      "url": "https://www.zhihu.com/answer/1324818131",
+      "summary": "正文直接讲解“代数几何”相关内容。"
+    },
+    {
+      "title": "研究方向里，代数、几何分析、数论与代数几何这几个有什么关系？哪个最难？",
+      "url": "https://www.zhihu.com/answer/1366003358",
+      "summary": "正文列出代数几何和算术代数几何的研究前置与内容。"
+    },
+    {
+      "title": "目标微分几何的本科生是否有必要学习抽象代数几何？",
+      "url": "https://www.zhihu.com/answer/1412823508",
+      "summary": "正文比较代数几何、微分几何与代数拓扑的学习关系。"
+    },
+    {
+      "title": "斎藤的Mixed Hodge Module具体好用在哪一方面？",
+      "url": "https://www.zhihu.com/answer/1505155046",
+      "summary": "正文以代数簇上同调、Hodge结构和混合Hodge模介绍代数几何高级对象。"
+    },
+    {
+      "title": "如何看待全民代数几何的现象？",
+      "url": "https://www.zhihu.com/answer/1544140909",
+      "summary": "正文直接讨论代数几何，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "如何看待全民代数几何的现象？",
+      "url": "https://www.zhihu.com/answer/1544582676",
+      "summary": "正文直接讨论代数几何，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "如何看待全民代数几何的现象？",
+      "url": "https://www.zhihu.com/answer/1544604391",
+      "summary": "正文直接讨论代数几何，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "如何看待全民代数几何的现象？",
+      "url": "https://www.zhihu.com/answer/1545272910",
+      "summary": "正文总述代数几何的范围及其在数学各领域的渗透。"
+    },
+    {
+      "title": "如何看待全民代数几何的现象？",
+      "url": "https://www.zhihu.com/answer/1545552624",
+      "summary": "正文建议从具体几何例子理解代数几何。"
+    },
+    {
+      "title": "代数几何读完 GTM52 后，该读什么？",
+      "url": "https://www.zhihu.com/answer/1562597344",
+      "summary": "正文围绕 GTM52 之后的代数几何阅读方向展开。"
+    },
+    {
+      "title": "什么是「Hodge 理论」？",
+      "url": "https://www.zhihu.com/answer/1563368083",
+      "summary": "正文讨论 Hodge 理论与代数几何中的 Hodge 猜想。"
+    },
+    {
+      "title": "如何评价Weil的数学工作以及具有他风格的代数几何？",
+      "url": "https://www.zhihu.com/answer/1589267288",
+      "summary": "正文直接讨论或应用该叶节点主题（代数几何）。"
+    },
+    {
+      "title": "初学交换代数，为什么要引入 Zariski 拓扑？",
+      "url": "https://www.zhihu.com/answer/1612353062",
+      "summary": "正文直接讨论或应用该叶节点主题（代数几何）。"
+    },
+    {
+      "title": "如何评价这个人自称初一自学高等数学并秀优越?",
+      "url": "https://www.zhihu.com/answer/1690354415",
+      "summary": "正文用 Riemann 曲面、射影嵌入和代数曲线展示代数几何。"
+    },
+    {
+      "title": "皮克定理有哪些证明？",
+      "url": "https://www.zhihu.com/answer/1833953343",
+      "summary": "正文用环面簇、线丛与 Riemann-Roch 定理解释皮克定理。"
+    },
+    {
+      "title": "复几何和辛几何有什么好的给外行人看的综述?",
+      "url": "https://www.zhihu.com/answer/1839730973",
+      "summary": "正文介绍复几何与代数几何、现代几何结构的联系。"
+    },
+    {
+      "title": "能否通俗地介绍一下意象/拓扑斯 (topos) 这个概念？",
+      "url": "https://www.zhihu.com/answer/1847643507",
+      "summary": "正文说明 Grothendieck topos 与代数几何和层论的渊源。"
+    },
+    {
+      "title": "求证：关于菲尔兹奖得主舒尔茨的这个非常特殊的说法，是否属实？",
+      "url": "https://www.zhihu.com/answer/1868396017",
+      "summary": "正文以代数几何和讨论班环境说明高阶数学研究的学习条件。"
+    },
+    {
+      "title": "如何客观评价丘成桐老师的学术贡献呢？",
+      "url": "https://www.zhihu.com/answer/1905967290",
+      "summary": "正文列举几何分析解决代数几何问题的成果。"
+    },
+    {
+      "title": "数学界为何走向抽象？",
+      "url": "https://www.zhihu.com/answer/1945780164",
+      "summary": "正文以 Torelli 问题和 Fano 三维簇讨论代数几何。"
+    },
+    {
+      "title": "请问代数曲线里面的除子（divisor）是源于什么而提出来的？",
+      "url": "https://www.zhihu.com/answer/1959413355",
+      "summary": "正文从余维对象、除子类群和线丛解释代数曲线中的除子。"
+    },
+    {
+      "title": "请问代数曲线里面的除子（divisor）是源于什么而提出来的？",
+      "url": "https://www.zhihu.com/answer/1959546743",
+      "summary": "正文从黎曼面、线丛和 Picard 群解释除子的代数几何来源。"
+    },
+    {
+      "title": "数学本科生能做哪些研究？",
+      "url": "https://www.zhihu.com/answer/1970311338",
+      "summary": "正文给出代数几何中的 Fano 三维簇 Torelli 问题。"
+    },
+    {
+      "title": "如何确定K3曲面的betti数和hodge数?",
+      "url": "https://www.zhihu.com/answer/2025280891",
+      "summary": "正文在复代数曲面的 Hodge 理论中计算 K3 不变量。"
+    },
+    {
+      "title": "能不能从数学各个分支的例子谈谈层（sheaf）为什么重要？",
+      "url": "https://www.zhihu.com/answer/2081387907",
+      "summary": "正文解释层论在代数几何中的动机与应用。"
+    },
+    {
+      "title": "2022世界数学家大会报告名单公布，能介绍一小时报告的主要工作吗？",
+      "url": "https://www.zhihu.com/answer/2090597007",
+      "summary": "正文介绍 Fano 簇的导出范畴、双有理几何与模空间。"
+    },
+    {
+      "title": "代数几何的入门教材哪一本比较好？（研究生一年级）",
+      "url": "https://www.zhihu.com/answer/2102174555",
+      "summary": "正文按抽象工具、概型和上同调等主题介绍代数几何研究生读物。"
+    },
+    {
+      "title": "如何看待法国著名数学家、2002 年菲尔兹奖得主 Laurent Lafforgue 宣布加入华为？",
+      "url": "https://www.zhihu.com/answer/2141628084",
+      "summary": "正文解释 Fields 奖成果与数论、代数几何的交叉研究。"
+    },
+    {
+      "title": "平面上两条 n 次曲线相交，交点的最大个数是否为 n²？",
+      "url": "https://www.zhihu.com/answer/2157832229",
+      "summary": "正文用代数几何中的贝祖定理解释曲线交点计数。"
+    },
+    {
+      "title": "有一个懂代数几何的女朋友是一种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/2201127972",
+      "summary": "正文以代数几何与女朋友作梗，并实际使用短正合列和分裂引理。"
+    },
+    {
+      "title": "Grothendieck 时代的代数几何与在这之前的古典代数几何之间最大的区别是否就是范畴论的引入？",
+      "url": "https://www.zhihu.com/answer/2207042047",
+      "summary": "正文比较古典代数几何与 Grothendieck 代数几何，并解释概型与可表函子。"
+    },
+    {
+      "title": "几何与拓扑方向需要学习代数几何吗?",
+      "url": "https://www.zhihu.com/answer/2216263497",
+      "summary": "正文讨论几何拓扑方向是否需要学习代数几何及交叉领域动机。"
+    },
+    {
+      "title": "几何与拓扑方向需要学习代数几何吗?",
+      "url": "https://www.zhihu.com/answer/2216864480",
+      "summary": "正文讨论几何拓扑方向是否需要学习抽象代数几何与复几何。"
+    },
+    {
+      "title": "我把游戏删了，空出的时间干啥好？",
+      "url": "https://www.zhihu.com/answer/2220255425",
+      "summary": "正文以 Stacks project 为主线规划代数几何学习。"
+    },
+    {
+      "title": "怀尔斯证明费马大定理的论文主要突破了当时的哪些技术难点？",
+      "url": "https://www.zhihu.com/answer/2241093380",
+      "summary": "正文明确列出代数几何工具。"
+    },
+    {
+      "title": "从古典的解析几何到现代的代数几何，研究的问题都有些什么变化？又有哪些共同的问题？",
+      "url": "https://www.zhihu.com/answer/2246909271",
+      "summary": "正文直接讨论现代代数几何的研究对象和工具。"
+    },
+    {
+      "title": "如何看待法国著名数学家、2002 年菲尔兹奖得主 Laurent Lafforgue 宣布加入华为？",
+      "url": "https://www.zhihu.com/answer/2260496594",
+      "summary": "正文直接说明拉福格在数论与代数几何方向的贡献。"
+    },
+    {
+      "title": "菲尔兹数学奖的无国籍获奖者是谁？",
+      "url": "https://www.zhihu.com/answer/2314915381",
+      "summary": "正文介绍格罗滕迪克的 EGA/SGA 体系对代数几何的推动作用。"
+    },
+    {
+      "title": "如何评价Deligne？",
+      "url": "https://www.zhihu.com/answer/2315418202",
+      "summary": "正文评价格罗滕迪克代数几何体系及 Deligne 对 Weil 猜想的解决。"
+    },
+    {
+      "title": "代数几何在数学以外的领域有哪些应用？",
+      "url": "https://www.zhihu.com/answer/2329382094",
+      "summary": "正文介绍实代数几何、正次数多项式与实数域上的代数几何结论。"
+    },
+    {
+      "title": "如何评价 2022 年沃尔夫数学奖得主乔治·卢斯蒂格（George Lusztig）的数学贡献？",
+      "url": "https://www.zhihu.com/answer/2341057206",
+      "summary": "正文说明表示论突破依赖代数几何与平展上同调。"
+    },
+    {
+      "title": "北京国际数学研究中心教授谢俊逸和袁新意解决几何 Bogomolov 猜想难题，如何理解这一工作？",
+      "url": "https://www.zhihu.com/answer/2421397075",
+      "summary": "正文给出 Manin–Mumford 猜想的曲线、Jacobian 与挠点表述，属于代数几何背景。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/2441733140",
+      "summary": "正文讨论 formality 定理在代数几何中的应用。"
+    },
+    {
+      "title": "代数拓扑和代数几何有什么区别与联系吗？",
+      "url": "https://www.zhihu.com/answer/2450469229",
+      "summary": "正文明确界定代数几何的研究对象，并讨论其与代数拓扑的方法联系。"
+    },
+    {
+      "title": "如何看待全民代数几何的现象？",
+      "url": "https://www.zhihu.com/answer/2457537299",
+      "summary": "正文用辛几何、Gromov-Witten 不变量等例子说明代数几何与几何拓扑的交叉。"
+    },
+    {
+      "title": "北大数学直博复试具体是一个什么形式？求知情的同学提供信息，谢谢！",
+      "url": "https://www.zhihu.com/answer/2466894505",
+      "summary": "正文提出仿射平面曲线 Picard 群的代数几何问题。"
+    },
+    {
+      "title": "你所读的（基础）数学方向，有哪些不错的讲义/Notes/Polycopiés/Skript？",
+      "url": "https://www.zhihu.com/answer/2484509893",
+      "summary": "正文讨论代数几何语言与方法在 conformal blocks 研究中的作用。"
+    },
+    {
+      "title": "仍然在世的伟大数学家有哪些？",
+      "url": "https://www.zhihu.com/answer/2499504355",
+      "summary": "正文介绍谱代数几何及导出代数几何方向的构造与成果。"
+    },
+    {
+      "title": "对于当今数学来说，「几何」到底是什么？",
+      "url": "https://www.zhihu.com/answer/2500014252",
+      "summary": "正文从环空间视角定义代数几何并讨论其态射。"
+    },
+    {
+      "title": "对于当今数学来说，「几何」到底是什么？",
+      "url": "https://www.zhihu.com/answer/2518362574",
+      "summary": "以合法函数由代数运算定义来界定代数几何。"
+    },
+    {
+      "title": "如何理解棱镜上同调（prismatic cohomology)？",
+      "url": "https://www.zhihu.com/answer/2524549119",
+      "summary": "介绍代数几何中统一多种上同调理论的棱镜上同调。"
+    },
+    {
+      "title": "什么是霍奇猜想，它的证明会给数学带来什么发展？",
+      "url": "https://www.zhihu.com/answer/2526779745",
+      "summary": "用多项式解集解释代数几何，并说明霍奇猜想连接代数几何与拓扑。"
+    },
+    {
+      "title": "韩裔许埈珥、乌克兰维娅佐夫斯卡等四位数学家获得 2022 菲尔兹奖，他们在各自领域做出了怎样的贡献？",
+      "url": "https://www.zhihu.com/answer/2559985231",
+      "summary": "说明组合霍奇理论连接拟阵、Coxeter 群、多面体与代数几何。"
+    },
+    {
+      "title": "能不能从数学各个分支的例子谈谈层（sheaf）为什么重要？",
+      "url": "https://www.zhihu.com/answer/2568152044",
+      "summary": "以黎曼面上的亚纯函数和多复变 Cousin 问题说明层论在复几何中的作用。"
+    },
+    {
+      "title": "能不能从数学各个分支的例子谈谈层（sheaf）为什么重要？",
+      "url": "https://www.zhihu.com/answer/2568405182",
+      "summary": "把微分方程推广为代数簇上的 D 模，并联系可构造层与 Riemann-Hilbert 对应。"
+    },
+    {
+      "title": "Teichmüller理论在研究什么?有哪些应用?",
+      "url": "https://www.zhihu.com/answer/2579088542",
+      "summary": "讨论 Riemann 面模空间、Euler 示性数与 Kontsevich 模型中的代数几何对象。"
+    },
+    {
+      "title": "现代科学中有哪些经典理论是中国人提出来的？",
+      "url": "https://www.zhihu.com/answer/2592543021",
+      "summary": "梳理丘成桐、陈省身、曾炯、周炜良等在代数几何与相关领域的贡献。"
+    },
+    {
+      "title": "做数学不同方向的人各有什么特点？",
+      "url": "https://www.zhihu.com/answer/2596415926",
+      "summary": "从代数几何视角把 U(1) 看成由实多项式方程 x^2+y^2=1 定义的代数簇。"
+    },
+    {
+      "title": "有哪些数学书可以被称为「神作」？",
+      "url": "https://www.zhihu.com/answer/2630454530",
+      "summary": "介绍该书如何从 EGA-SGA 体系中提炼代数几何核心内容。"
+    },
+    {
+      "title": "代数几何和微分几何哪个更难？",
+      "url": "https://www.zhihu.com/answer/2639569257",
+      "summary": "讨论代数几何的学习难度、范围及与范畴论、上同调的依赖关系。"
+    },
+    {
+      "title": "请问数学上有哪些令人赞叹的，简洁的名言或者结论？",
+      "url": "https://www.zhihu.com/answer/2684105711",
+      "summary": "正文以亏格分类光滑代数曲线，并用 Mordell-Faltings 与 Siegel 定理说明几何不变量如何约束有理点和整点。"
+    },
+    {
+      "title": "我们为何相信ZFC是一致的，有哪些证据在支撑这种信念呢？",
+      "url": "https://www.zhihu.com/answer/2687648955",
+      "summary": "正文给出 Hilbert 实零点定理中非负多项式写成平方和商的核心陈述，并说明它在实代数几何中的地位。"
+    },
+    {
+      "title": "如何理解微分几何中的『联络』?",
+      "url": "https://www.zhihu.com/answer/2699085567",
+      "summary": "正文将主丛水平空间的和联络类比推广到模与概型上的下降数据。"
+    },
+    {
+      "title": "为什么岳不群不把紫霞神功复印个百八十份让华山派人人练起来？",
+      "url": "https://www.zhihu.com/answer/2733862886",
+      "summary": "正文界定代数几何是把抽象代数特别是交换代数与几何结合起来的数学分支。"
+    },
+    {
+      "title": "代数几何和数论的关系？",
+      "url": "https://www.zhihu.com/answer/2747741644",
+      "summary": "正文具体讨论数论对代数几何工具的依赖，并把算术几何界定为绝对有限生成域上的代数几何。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2764601721",
+      "summary": "正文以三次曲面上的 27 条直线和四次曲面族中的直线为主要例子，展开代数几何的典型问题。"
+    },
+    {
+      "title": "以后想学代数几何这个方向，本科期间应该如何准备？",
+      "url": "https://www.zhihu.com/answer/2791870259",
+      "summary": "正文围绕阿贝尔簇、Noether条件、一般Grothendieck拓扑上的上同调等内容讨论代数几何方向的深入学习。"
+    },
+    {
+      "title": "以后想学代数几何这个方向，本科期间应该如何准备？",
+      "url": "https://www.zhihu.com/answer/2792101918",
+      "summary": "正文按抽代数、拓扑、流形、交换代数、同调代数和层论等基础，系统说明代数几何的本科准备内容。"
+    },
+    {
+      "title": "2022年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/2798924955",
+      "summary": "正文具体概述曲线模空间的光滑 DM-stack 构造、紧化、Picard 群、ample cone 与 Kodaira 维数等代数几何内容。"
+    },
+    {
+      "title": "「一度辍学的数学差生」韩裔数学家许埈珥获得 2022 年菲尔兹奖，这带来哪些启示？",
+      "url": "https://www.zhihu.com/answer/2809800846",
+      "summary": "正文说明许埈珥把奇点、复平面排列等代数几何工具用于图着色多项式研究，并建立代数几何与组合学的联系。"
+    },
+    {
+      "title": "如何向刚修完复变与拓扑课程的本科生科普Riemann-Roch定理的重要意义？",
+      "url": "https://www.zhihu.com/answer/2833113957",
+      "summary": "正文介绍除子、线性等价、可逆层和 Serre 对偶，并用层上同调解释 Riemann-Roch 定理。"
+    },
+    {
+      "title": "数学家尤里·曼宁(Yuri Manin)去世,如何评价他对数学做出的贡献?",
+      "url": "https://www.zhihu.com/answer/2843271582",
+      "summary": "正文具体定义光滑态射上局部系统的 Gauss-Manin 联络，并构造 de Rham 上同调层的可积联络。"
+    },
+    {
+      "title": "若要学习Motivic Homotopy，代数几何需要学到什么程度？",
+      "url": "https://www.zhihu.com/answer/2858171809",
+      "summary": "正文具体列出学习 motivic homotopy 所需代数几何内容，包括 Grothendieck 拓扑、态射、交论和 Blow-up。"
+    },
+    {
+      "title": "如何理解代数几何中的 stacks 概念？",
+      "url": "https://www.zhihu.com/answer/2859019074",
+      "summary": "正文以模空间和 GIT 为动机，讨论代数几何中 stack 的定义、下降条件及其同伦解释。"
+    },
+    {
+      "title": "代数几何和解析几何是什么关系？",
+      "url": "https://www.zhihu.com/answer/2883548392",
+      "summary": "正文以 GAGA 定理为核心，说明光滑复射影簇上的代数与解析矢量丛对应，并讨论代数几何与解析几何的关系。"
+    },
+    {
+      "title": "有什么数学定理一般人都觉得是常识，但严谨证明起来却挺费力的？",
+      "url": "https://www.zhihu.com/answer/2928791328",
+      "summary": "正文以仿射空间中的多项式零点集和理想为对象，介绍希尔伯特零点定理及代数与几何的对应。"
+    },
+    {
+      "title": "代数几何有哪些看似简单的世界难题？",
+      "url": "https://www.zhihu.com/answer/2929103959",
+      "summary": "正文正式陈述代数几何中的 Jacobian 猜想，并说明其与多变量密码系统的联系。"
+    },
+    {
+      "title": "代数几何应该怎样学？",
+      "url": "https://www.zhihu.com/answer/2937626356",
+      "summary": "正文以不定方程、代数曲线、代数曲面、模空间和双有理分类等具体主题梳理代数几何的研究与应用脉络。"
+    },
+    {
+      "title": "数论问题困难性的根源是什么？",
+      "url": "https://www.zhihu.com/answer/2939196377",
+      "summary": "正文以不定方程的求解史为主线，说明射影簇、双有理变换、模空间和同调等代数几何工具为何构成数论困难的主要来源。"
+    },
+    {
+      "title": "数学专业的学生的毕业论文是怎样的？",
+      "url": "https://www.zhihu.com/answer/2961122555",
+      "summary": "正文围绕导出代数几何中的 derived stack、derived moduli functor 与导出相交展开。"
+    },
+    {
+      "title": "数学中最著名的曲线和曲面分别是什么？",
+      "url": "https://www.zhihu.com/answer/2961227001",
+      "summary": "正文把 Weierstrass 曲线写成射影坐标方程，并讨论无穷远点和其他射影曲线形式。"
+    },
+    {
+      "title": "二十世纪到现在，数学有什么重要的成果？谁给科普一下?",
+      "url": "https://www.zhihu.com/answer/2981286833",
+      "summary": "正文概述代数几何从代数曲线、代数曲面到高维代数簇的转变，并说明概形理论、Hodge 方法和模空间理论带来的发展。"
+    },
+    {
+      "title": "研究一些几何结构的模空间是为了得到什么呢？",
+      "url": "https://www.zhihu.com/answer/2982844184",
+      "summary": "正文围绕代数几何中的模空间、稳定对象和曲线计数展开，并具体推导 Donaldson-Thomas、Gromov-Witten 等枚举不变量。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/3002050067",
+      "summary": "正文说明课题在模空间和 Hilbert 概形等几何对象上进行构造，并明确以代数几何方法研究表示论。"
+    },
+    {
+      "title": "只关心实数域或复数域上的代数几何是否有必要学GTM52？有更合适的教材选择吗？",
+      "url": "https://www.zhihu.com/answer/3017547933",
+      "summary": "正文以直纹面、复 Fano 簇和有理曲线为例，说明复代数几何为何仍需使用非代数闭域及特征 p 域的方法。"
+    },
+    {
+      "title": "为什么我感觉代数几何是伪几何，本质上是代数？",
+      "url": "https://www.zhihu.com/answer/3047417910",
+      "summary": "正文围绕代数几何是否只是代数这一疑问，具体比较其几何对象、拓扑性质及与微分几何的对应，论证代数几何具有真实的几何内容。"
+    },
+    {
+      "title": "Weil猜想和Riemann猜想有什么联系？关于这方面的最新进展是什么？",
+      "url": "https://www.zhihu.com/answer/3108737906",
+      "summary": "正文系统陈述有限域代数簇 zeta 函数的有理性、函数方程、Riemann 假设和 Betti 数，属于代数几何中的 Weil 猜想。"
+    },
+    {
+      "title": "为什么要研究平展上同调？平展上同调有哪些应用？",
+      "url": "https://www.zhihu.com/answer/3117782394",
+      "summary": "正文从 Zariski 拓扑对层上同调的限制出发，解释为何在代数簇上需要平展上同调这一代数几何工具。"
+    },
+    {
+      "title": "为什么要研究平展上同调？平展上同调有哪些应用？",
+      "url": "https://www.zhihu.com/answer/3119759427",
+      "summary": "正文以光滑代数簇、Zariski 拓扑和 pro 平展覆盖解释平展上同调在代数几何中的作用。"
+    },
+    {
+      "title": "抽象代数、同调代数、交换代数、代数拓扑有什么关系？",
+      "url": "https://www.zhihu.com/answer/3127810932",
+      "summary": "正文以多项式的零点集和其函数环为桥梁，说明了交换代数与代数几何的联系。"
+    },
+    {
+      "title": "请问代数几何中的层论大致讲的什么？",
+      "url": "https://www.zhihu.com/answer/3134936270",
+      "summary": "正文明确以代数簇或概形上的多项式函数作为层论在代数几何中的研究对象。"
+    },
+    {
+      "title": "双有理几何的动机是什么？双有理几何在其他数学分支有什么用处？学习双有理几何的顺序是什么？",
+      "url": "https://www.zhihu.com/answer/3144403303",
+      "summary": "正文以双有理几何分类复射影代数簇为核心，并讨论曲面与三维极小模型纲领。"
+    },
+    {
+      "title": "如何评价法国数学家André Weil？",
+      "url": "https://www.zhihu.com/answer/3185787572",
+      "summary": "正文具体说明 Weil 为处理有限域曲线问题而重建代数几何基础，并以相交理论替代缺失的同调工具。"
+    },
+    {
+      "title": "如何向刚修完复变与拓扑课程的本科生科普Riemann-Roch定理的重要意义？",
+      "url": "https://www.zhihu.com/answer/3206988307",
+      "summary": "正文以 Riemann-Roch 为主线，从复分析和黎曼曲面讲到除子、层上同调及现代定理形式，属于代数几何的核心内容。"
+    },
+    {
+      "title": "有哪些值得数学系本科生一读的经典数学论文？",
+      "url": "https://www.zhihu.com/answer/3230336449",
+      "summary": "正文具体评述 Serre 的凝聚层论文及其对代数簇、结构环层和上同调理论的影响。"
+    },
+    {
+      "title": "如何证明a^3+b^3+c^3-3abc＝1的解有无穷多组（a,b,c为有理数）？",
+      "url": "https://www.zhihu.com/answer/3235847093",
+      "summary": "正文用齐次化、射影平面与三次曲面相交的方法求原方程的有理数解，并在随后完成参数化。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/3236479951",
+      "summary": "正文解释 Zariski 切空间由局部环极大理想及其平方的商空间对偶定义，并讨论切向量与函数求导的关系。"
+    },
+    {
+      "title": "留数定理的本质是什么？",
+      "url": "https://www.zhihu.com/answer/3237514248",
+      "summary": "正文在完备非奇异曲线上定义留数并与复分析留数比较，实质讨论了代数几何中的留数构造和留数定理。"
+    },
+    {
+      "title": "如何上手 Lurie 的 SAG（Spectral Algebraic Geometry）？",
+      "url": "https://www.zhihu.com/answer/3241760637",
+      "summary": "正文把谱代数几何解释为同伦论观点下代数几何的一种模型，并展开其学科定位与理论联系。"
+    },
+    {
+      "title": "能简单介绍一下数学家周炜良吗？",
+      "url": "https://www.zhihu.com/answer/3249180723",
+      "summary": "正文系统介绍周炜良在代数几何中的周型、周坐标、周环及相关理论贡献。"
+    },
+    {
+      "title": "求问怎么用曲线系做?",
+      "url": "https://www.zhihu.com/answer/3258674621",
+      "summary": "正文明确阐述代数几何以代数方程与几何对象的一一转换作为基本思想。"
+    },
+    {
+      "title": "如何评价 Alexander Grothendieck 的一生？",
+      "url": "https://www.zhihu.com/answer/3268890557",
+      "summary": "正文介绍格罗滕迪克在代数几何中的奠基性工作，并说明该领域对更一般结构的提升以及它同数论、拓扑学和分析学的联系。"
+    },
+    {
+      "title": "作为微分几何的gauge theory(规范理论)主要在研究什么? 以及如何入门该领域的学习?",
+      "url": "https://www.zhihu.com/answer/3298116383",
+      "summary": "正文在 Higgs 丛方向具体说明基本群表示、调和映照与 Kahler 流形之间的非阿贝尔 Hodge 对应。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3308888246",
+      "summary": "正文用光滑曲线态射的分歧点求和公式说明态射次数，并与代数数论的素理想分解公式作统一。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3309266203",
+      "summary": "正文具体讨论 Springer resolution 的量子上同调、twist 后的环同构及 flag variety 量子上同调 presentation，属于代数几何研究内容。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3318059185",
+      "summary": "正文具体总结相交理论、模空间构造与 Schubert 计数技巧，并以代数几何作为全年学习和研究的核心主线。"
+    },
+    {
+      "title": "现代数学和理论物理已经发展到怎样一个令人震惊的水平了？",
+      "url": "https://www.zhihu.com/answer/3336039040",
+      "summary": "正文以非交换代数几何为例介绍现代几何如何脱离传统可视空间，核心是在讲解代数几何的现代观点。"
+    },
+    {
+      "title": "对于当今数学来说，「几何」到底是什么？",
+      "url": "https://www.zhihu.com/answer/3338876413",
+      "summary": "正文说明代数几何在数论和表示论中用于计算维数、连通性、光滑性及上同调等量，并以费马大定理证明为例。"
+    },
+    {
+      "title": "对于当今数学来说，「几何」到底是什么？",
+      "url": "https://www.zhihu.com/answer/3339715086",
+      "summary": "正文区分代数几何学家关心的对象，并用仿射概形、层等例子说明其代数化视角。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3344691727",
+      "summary": "正文具体陈述极化 K3 曲面上稳定向量丛诱导线性系和态射的定理，并联系 Grassmann 簇的截面描述。"
+    },
+    {
+      "title": "丘成桐在数学研究中的成就有什么？",
+      "url": "https://www.zhihu.com/answer/3348086391",
+      "summary": "正文说明卡拉比猜想涉及凯勒－爱因斯坦度量存在性，并进一步介绍卡拉比－丘流形的意义，属于代数几何相关成果。"
+    },
+    {
+      "title": "想请问平坦模、投射模这些的几何意义是什么，感觉atiyah这本书的定义有些干巴巴的.......？",
+      "url": "https://www.zhihu.com/answer/3359558561",
+      "summary": "正文从向量丛和函数族解释平坦模与投射模的几何意义，并讨论平坦性在代数几何中的基变换作用。"
+    },
+    {
+      "title": "什么是「Hodge 理论」？",
+      "url": "https://www.zhihu.com/answer/3403065869",
+      "summary": "正文以椭圆曲线和代数簇的模空间为例，说明Hodge理论如何把代数几何对象转化为线性代数结构。"
+    },
+    {
+      "title": "能说一本或几本在你在学数学路上对你影响最大的一本书吗？",
+      "url": "https://www.zhihu.com/answer/3417998960",
+      "summary": "正文说明前两章为代数几何准备最低限度的交换代数基础，并据此衔接 Hartshorne 等后续教材。"
+    },
+    {
+      "title": "有哪些观赏性很高的几何图形？",
+      "url": "https://www.zhihu.com/answer/3424488145",
+      "summary": "正文以三次代数曲面的实直线数量和方程为例，介绍古典代数几何中的代数曲面。"
+    },
+    {
+      "title": "双有理几何的动机是什么？双有理几何在其他数学分支有什么用处？学习双有理几何的顺序是什么？",
+      "url": "https://www.zhihu.com/answer/3428336822",
+      "summary": "正文围绕双有理几何的分类价值、双有理不变量和奇点研究展开，实质介绍代数几何中的核心观念。"
+    },
+    {
+      "title": "如何评价数学家黎曼的成就与历史地位？",
+      "url": "https://www.zhihu.com/answer/3445905383",
+      "summary": "正文深入讲解黎曼面与代数曲线的等价、有理函数域、双有理分类、除子和黎曼-罗赫定理，构成实质性的代数几何讨论。"
+    },
+    {
+      "title": "纯数学哪个方向科研门槛不输代数几何？",
+      "url": "https://www.zhihu.com/answer/3466120338",
+      "summary": "正文具体讨论计算代数几何以 Groebner 基为核心，并说明其复杂度瓶颈如何限制相交数、维数和不可约分支等计算。"
+    },
+    {
+      "title": "「代数几何」是一门什么样的学科，经历了怎样的发展，与其他数学分支的关系是怎样的？",
+      "url": "https://www.zhihu.com/answer/3496557878",
+      "summary": "正文以希尔伯特第15问题和舒伯特演算为线索，系统讲述代数几何从计数几何与相交理论发展而来的历史。"
+    },
+    {
+      "title": "几何分析和代数几何中有哪些“紧化”的方法？不同的紧化方法之间有何联系？",
+      "url": "https://www.zhihu.com/answer/3496700217",
+      "summary": "正文具体介绍模空间与代数叠的构造，并讨论代数几何中曲线及一般簇模空间的紧化。"
+    },
+    {
+      "title": "全球有那么多已tenure的数学家，为什么没人去验证望月的ABC？",
+      "url": "https://www.zhihu.com/answer/3506699255",
+      "summary": "正文在 Diophantine Inequalities 定理中讨论数域上的光滑射影曲线、除子、典范层与正规高度，属于代数几何框架下的具体论证。"
+    },
+    {
+      "title": "如何确定K3曲面的betti数和hodge数?",
+      "url": "https://www.zhihu.com/answer/3509134268",
+      "summary": "正文利用线丛、法丛与 Adjunction formula 计算 X_n 的拓扑，属于代数几何中的射影曲面与向量丛方法。"
+    },
+    {
+      "title": "如何评价 2024 年阿里全球数学竞赛决赛试题？难度怎么样？",
+      "url": "https://www.zhihu.com/answer/3539140392",
+      "summary": "正文把有限射影代数集的上界问题识别为弱 Bézout 定理，并讨论完全交以外的情形和按维数归纳的处理。"
+    },
+    {
+      "title": "如何评价 2024 年阿里全球数学竞赛决赛试题？难度怎么样？",
+      "url": "https://www.zhihu.com/answer/3539371096",
+      "summary": "正文在射影空间问题中使用相交理论、不可约分支和完全交来推广 Bezout 型上界。"
+    },
+    {
+      "title": "如何评价俄罗斯数学家诺维科夫？",
+      "url": "https://www.zhihu.com/answer/3540254150",
+      "summary": "正文说明 KdV 周期性孤立子的谱构成黎曼曲面，并明确由此建立与代数几何的联系。"
+    },
+    {
+      "title": "有没有一本书，讲述了数学的整个起源发展史？",
+      "url": "https://www.zhihu.com/answer/3550262865",
+      "summary": "正文把多项式方程组的零点集解释为簇，并展开代数几何的分类、概型和奇点等主题。"
+    },
+    {
+      "title": "日本数学水平怎么样？",
+      "url": "https://www.zhihu.com/answer/3575298957",
+      "summary": "正文以奇点消解和代数簇双有理分类说明代数几何中的中心问题与理论作用。"
+    },
+    {
+      "title": "能介绍一下解析叠(Analytic Stacks)吗？它与实langlands有什么联系呢？",
+      "url": "https://www.zhihu.com/answer/3592978697",
+      "summary": "正文以概形、素谱、模与层等代数几何概念为蓝本，类比构造解析环和解析叠。"
+    },
+    {
+      "title": "数学界有什么open problem是通过绝妙思想证明的?",
+      "url": "https://www.zhihu.com/answer/3627113442",
+      "summary": "正文借助 Hilbert 零点定理在代数理想和几何零点集之间转换，完整概述 Ax–Grothendieck 定理的代数几何证明。"
+    },
+    {
+      "title": "grothendieck的工作还有哪些人在做?",
+      "url": "https://www.zhihu.com/answer/4943184578",
+      "summary": "正文说明格罗滕迪克的代数几何工作延伸到算术几何、棱镜上同调和凝聚态数学等方向。"
+    },
+    {
+      "title": "群作用到底厉害在哪里？",
+      "url": "https://www.zhihu.com/answer/31432738493",
+      "summary": "正文在代数几何语境中用 Kleiman-Bertini 定理控制相交维数，并联系 Gromov-Witten 不变量。"
+    },
+    {
+      "title": "孔采维奇的数学工作对现代数学产生了哪些影响?",
+      "url": "https://www.zhihu.com/answer/35417456463",
+      "summary": "正文具体说明威滕猜想研究代数曲线模空间上的交数，并概述孔采维奇的代数几何证明思路。"
+    },
+    {
+      "title": "基础数学（即纯数学）中，解决最为困难的猜想是哪一个？（是难度最大，并不是名气和重要性）？",
+      "url": "https://www.zhihu.com/answer/35812998902",
+      "summary": "正文讨论 Hodge 猜想的困难程度，比较其简单情形、低维情形和 Kähler 推广的反例，属于代数几何重大猜想的实质讨论。"
+    },
+    {
+      "title": "什么是“凝聚态数学”，为什么叫“凝聚态”？",
+      "url": "https://www.zhihu.com/answer/36456834486",
+      "summary": "正文从用代数几何方法重构解析几何的动机出发，介绍凝聚态数学所针对的模型问题。"
+    },
+    {
+      "title": "两个相离的圆相加会得到什么？这个新圆会有什么性质？",
+      "url": "https://www.zhihu.com/answer/38244180221",
+      "summary": "正文引入 Lefschetz pencil，用它描述代数曲线的单参数形变并联系 Weil 猜想的证明。"
+    },
+    {
+      "title": "引入概形（scheme）有什么用？",
+      "url": "https://www.zhihu.com/answer/44842720385",
+      "summary": "正文从多项式方程解集入手，说明代数几何研究解集及其在不同环和域上的变化。"
+    },
+    {
+      "title": "2024你的数学研究和学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/46015880075",
+      "summary": "正文总结代数组合与计数几何研究，说明如何把代数几何或表示论问题转化为代数与组合问题，并具体谈到 Grassmannian 上 Schubert cells 的 Pieri 规则。"
+    },
+    {
+      "title": "如果不承认选择公理，现在的代数几何(Algebraic Geometry)会变成什么样子？",
+      "url": "https://www.zhihu.com/answer/46277010618",
+      "summary": "正文比较 ind-Noetherian、pro-Noetherian 与连续函数环等非 Noetherian 空间，讨论哪些对象能在代数几何中产生有价值的结构。"
+    },
+    {
+      "title": "什么是「Nonabelian Hodge theory」?",
+      "url": "https://www.zhihu.com/answer/47204403805",
+      "summary": "正文以稳定全纯向量丛和 GIT 商为核心，讨论稳定、半稳定、模空间及几何不变量理论。"
+    },
+    {
+      "title": "为什么Mumford要引入stable bundle？如何理解stable bundle？",
+      "url": "https://www.zhihu.com/answer/62183617903",
+      "summary": "正文定义斜率稳定性并证明稳定丛之间的态射为同构，进而说明稳定对象商空间具有光滑复流形结构。"
+    },
+    {
+      "title": "2024你的数学研究和学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/69353173582",
+      "summary": "正文讨论代数曲面、相交论、模层和双有理几何等代数几何内容。"
+    },
+    {
+      "title": "北大数学家袁新意论文登数学顶刊，统一了算术与几何 Bogomolov 猜想，有哪些意义？影响有多大？",
+      "url": "https://www.zhihu.com/answer/69367299949",
+      "summary": "正文把丢番图方程转化为代数曲线的有理点问题，并围绕曲线亏格与有理点结构展开算术几何介绍。"
+    },
+    {
+      "title": "为什么要研究平展上同调？平展上同调有哪些应用？",
+      "url": "https://www.zhihu.com/answer/73238154502",
+      "summary": "正文说明德利涅借助平展上同调和韦伊猜想建立与拉马努金猜想的联系，是代数几何方法的实质应用。"
+    },
+    {
+      "title": "代数几何是否对 PDE 的研究有启发？",
+      "url": "https://www.zhihu.com/answer/78790765545",
+      "summary": "正文讨论 D-module、代数分析和奇点消解如何为 PDE 与整体分析提供方法。"
+    },
+    {
+      "title": "是不是所有数学都可以用几何表达？",
+      "url": "https://www.zhihu.com/answer/99846614154",
+      "summary": "正文以非交换几何为例说明如何借代数-几何对偶，把交换或非交换代数对象理解为相应几何空间。"
+    },
+    {
+      "title": "是否存在一种框架来统一代数几何与微分几何？",
+      "url": "https://www.zhihu.com/answer/102755497208",
+      "summary": "正文讨论代数几何如何研究代数微分方程，以及它与微分几何在非线性方程上的研究对象差异。"
+    },
+    {
+      "title": "Inventiones mathematicae上都发表过哪些经典论文?",
+      "url": "https://www.zhihu.com/answer/109898168527",
+      "summary": "正文概述 Voisin 用复环面和 blow-up/blow-down 构造复代数几何反例，解决小平猜想。"
+    },
+    {
+      "title": "数学中有哪些表面没有关系但是内在有深刻联系的问题？",
+      "url": "https://www.zhihu.com/answer/114344801381",
+      "summary": "正文把一元域扩展至抽象和算术代数几何，并讨论 Soulé、Borger 等人的构造路径。"
+    },
+    {
+      "title": "代数拓扑和代数几何有什么区别与联系吗？",
+      "url": "https://www.zhihu.com/answer/118242241797",
+      "summary": "正文以复代数簇的拓扑研究为主题，并讨论 Lefschetz 超平面定理及复代数几何中的应用。"
+    },
+    {
+      "title": "你见过的最美数学公式是什么？",
+      "url": "https://www.zhihu.com/answer/120275915696",
+      "summary": "正文围绕代数与几何之间的对偶性解释非交换空间及其代数不变量，并以 Spec 和整体截面为典型例子。"
+    },
+    {
+      "title": "为什么（x+a）/（x^2+bx+c）的三个拐点总是共线？",
+      "url": "https://www.zhihu.com/answer/128102162485",
+      "summary": "正文以三次曲线的拐点与连线交点关系为核心，说明这一古典代数几何结论及其证明思路。"
+    },
+    {
+      "title": "如何评价Weil的数学工作以及具有他风格的代数几何？",
+      "url": "https://www.zhihu.com/answer/1899263557658453585",
+      "summary": "正文详述 Weil 重写代数几何基础、建立相交理论并由此提出 Weil 猜想的数学工作。"
+    },
+    {
+      "title": "如何看待周忠鹏应用 IUT 理论解决广义费马大定理的相关工作？",
+      "url": "https://www.zhihu.com/answer/1901009266028053363",
+      "summary": "正文围绕数域上的椭圆曲线、Hodge-Arakelov 理论和 Anabelian 几何解释 IUT 的对象与方法，属于算术代数几何讨论。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/1901415703317295884",
+      "summary": "正文用模曲线、概形和层上同调构造模形式空间，并以代数几何语言展开形变理论。"
+    },
+    {
+      "title": "在数学学习中，你遇到过哪些有趣的同构？",
+      "url": "https://www.zhihu.com/answer/1906766976250012358",
+      "summary": "正文以非交换代数几何为主题，介绍范畴谱、结构层以及由导出范畴重构代数簇等代数几何内容。"
+    },
+    {
+      "title": "计算机学科用到的数学是否十分浅显，不涉及到高深的数学理论，比如抽象代数，代数拓扑，代数几何等?",
+      "url": "https://www.zhihu.com/answer/1911166654471190495",
+      "summary": "正文具体指出代数几何在高端算法、密码学、符号计算及计算几何中的应用。"
+    },
+    {
+      "title": "如何评价 2025 高考上海卷作文题「专-转-传」？你认为由专到传，必定要经过转吗？",
+      "url": "https://www.zhihu.com/answer/1914803213380608926",
+      "summary": "正文以阿贝尔簇、p 可除群和形变函子组织算术几何对象，并写出阿贝尔簇形变函子的表示关系。"
+    },
+    {
+      "title": "特征簇(character variety)为什么重要？",
+      "url": "https://www.zhihu.com/answer/1916442663818879034",
+      "summary": "正文介绍特征簇的代数几何紧化、GIT 商以及半稳定 Higgs 丛模空间等代数几何观点。"
+    },
+    {
+      "title": "Representation Theory(表示论)与Algebraic Geometry(代数几何)在(理论，但不仅限理论)物理上有什么联合应用?",
+      "url": "https://www.zhihu.com/answer/1916647314275148744",
+      "summary": "正文说明经典代数几何不足以处理相关奇点，并引入导出表示概型和导出特征概型来组织高阶信息。"
+    },
+    {
+      "title": "数论问题困难性的根源是什么？",
+      "url": "https://www.zhihu.com/answer/1933128964911654627",
+      "summary": "正文把方程转化为坐标环与函数域，通过代数曲线的整体结构研究有理数解。"
+    },
+    {
+      "title": "为什么经典代数几何里面很多研究Projective Space而不是Affine Space？",
+      "url": "https://www.zhihu.com/answer/1934786553634325268",
+      "summary": "正文从射影簇与仿射空间的关系出发，介绍经典代数几何为何偏重射影对象。"
+    },
+    {
+      "title": "大家认为纯数学里最美丽漂亮的领域是哪个(如果只能选一个的话)？",
+      "url": "https://www.zhihu.com/answer/1938896914239169310",
+      "summary": "正文比较算术几何与代数几何，并通过有限域上曲线所在的参数空间和判别式轨迹展开几何对象分析。"
+    },
+    {
+      "title": "如何向刚修完复变与拓扑课程的本科生科普Riemann-Roch定理的重要意义？",
+      "url": "https://www.zhihu.com/answer/1940752315394003780",
+      "summary": "正文系统讲解黎曼-罗赫定理中除子、典范类与函数空间维数的关系，属于代数几何的核心理论。"
+    },
+    {
+      "title": "哪个方向是当前数学界最热门的方向？",
+      "url": "https://www.zhihu.com/answer/1945803419437757895",
+      "summary": "正文介绍代数几何的研究对象、方法、跨领域联系、现代发展与应用。"
+    },
+    {
+      "title": "如何看待 Grothendieck 思考数学问题不依赖具体例子？",
+      "url": "https://www.zhihu.com/answer/1946801152848007242",
+      "summary": "正文以Weil猜想为动机，梳理Grothendieck结合代数几何、拓扑和发展概形理论的过程。"
+    },
+    {
+      "title": "哪个方向是当前数学界最热门的方向？",
+      "url": "https://www.zhihu.com/answer/1946884968501452960",
+      "summary": "正文说明代数几何已成为数论、辛几何、镜像对称和理论物理等多方向共享的基础语言。"
+    },
+    {
+      "title": "目前动力系统中还没有被解决的问题有哪些?",
+      "url": "https://www.zhihu.com/answer/1953802849168363654",
+      "summary": "正文围绕 Abelian variety 的有理点、射影空间和齐次代数映射讨论算术几何猜想。"
+    },
+    {
+      "title": "用人话来解释下模空间是啥？",
+      "url": "https://www.zhihu.com/answer/1958172571670411017",
+      "summary": "正文以代数曲线、向量丛等对象及其等价类构造几何分类空间，属于代数几何中的模空间框架。"
+    },
+    {
+      "title": "超越数论近来的发展如何？",
+      "url": "https://www.zhihu.com/answer/1958335126061709263",
+      "summary": "正文用光滑代数簇、除子、代数微分形式与同调链定义周期，并深入讨论动机等代数几何结构。"
+    },
+    {
+      "title": "要看懂杨-米尔斯场的理论，数学得学到什么程度？",
+      "url": "https://www.zhihu.com/answer/1965379792602920388",
+      "summary": "正文以全纯向量丛、稳定性与 Hitchin-Kobayashi 对应解释 Yang-Mills 方程的代数几何条件。"
+    },
+    {
+      "title": "2025ICCM数学奖揭晓，王虹、袁新意、邓煜获金奖，他们对数学有哪些贡献？有望拿2026菲尔兹奖吗？",
+      "url": "https://www.zhihu.com/answer/1966505084390212221",
+      "summary": "正文以准射影曲线族、可容许典范丛和几何化 Bogomolov 猜想说明代数几何中的具体研究对象。"
+    },
+    {
+      "title": "如何理解亚历山大·格罗滕迪克？",
+      "url": "https://www.zhihu.com/answer/1972175090520139757",
+      "summary": "正文以叠、平坦下降和平展上同调等具体对象说明代数几何中抽象工具所服务的问题。"
+    },
+    {
+      "title": "如何证明/证伪 方程 x^5-px+q=0 至多只有两个整数解(p和q是正整数)？",
+      "url": "https://www.zhihu.com/answer/1973171684006704460",
+      "summary": "正文用算术几何、分歧覆盖和模空间曲线处理稀疏多项式问题。"
+    },
+    {
+      "title": "代数几何是什么样的几何？",
+      "url": "https://www.zhihu.com/answer/1980229808970547927",
+      "summary": "正文从函数刚性、向量丛、层上同调和 Zariski 拓扑系统解释代数几何的研究对象与几何特征。"
+    },
+    {
+      "title": "什么是「Hodge 理论」？",
+      "url": "https://www.zhihu.com/answer/1981620692215674763",
+      "summary": "正文围绕代数曲线和代数簇的模空间、周期映射及Torelli问题展开，系统介绍Hodge理论中的代数几何分类观点。"
+    },
+    {
+      "title": "2025年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/1984130953640187149",
+      "summary": "正文讨论 Chow 群、高阶 Chow 群、cycle class map 及其代数几何构造。"
+    },
+    {
+      "title": "微分几何的方法可以解决哪些代数几何问题?",
+      "url": "https://www.zhihu.com/answer/1984471506839943124",
+      "summary": "正文以洛朗多项式公共零点个数问题为例，展示用辛几何和相交数方法解决古典代数几何问题。"
+    },
+    {
+      "title": "如何硬刚黎曼曲面?",
+      "url": "https://www.zhihu.com/answer/1986215476683104997",
+      "summary": "正文以除子、线丛和 Riemann-Roch 定理串联紧黎曼面的代数几何方法。"
+    },
+    {
+      "title": "如何看待 Grothendieck 思考数学问题不依赖具体例子？",
+      "url": "https://www.zhihu.com/answer/1992641799131518659",
+      "summary": "正文以Weil猜想为主线，讨论多项式方程、有限域解和代数簇的算术几何联系。"
+    },
+    {
+      "title": "为什么线性代数里只讨论到二次型，没有三次型，四次型，甚至 n 次型？",
+      "url": "https://www.zhihu.com/answer/1993847611866767813",
+      "summary": "正文以超曲面分类和双有理等价说明高次型问题进入代数几何，并解释其复杂度。"
+    },
+    {
+      "title": "北大数学系田刚的学问到底怎么样？",
+      "url": "https://www.zhihu.com/answer/2000712253268313150",
+      "summary": "正文概括代数几何中 Hodge 结构退化延拓、模空间边界以及周期映射等具体研究问题。"
+    },
+    {
+      "title": "日本数学家望月新一证明了ABC猜想，你有什么想法呢？",
+      "url": "https://www.zhihu.com/answer/2007077452221022548",
+      "summary": "正文讨论射影直线、除子、曲线、模叠及其约化关系，实质使用代数几何语言分析证明框架。"
+    },
+    {
+      "title": "农历马年到了，有哪些和「马」有关的数学问题？",
+      "url": "https://www.zhihu.com/answer/2009778890948747361",
+      "summary": "正文以模曲线的亏格解释同余式构造何时失效，并讨论奇异模和算术簇上的代数循环。"
+    },
+    {
+      "title": "此不定积分是否有简捷做法？",
+      "url": "https://www.zhihu.com/answer/2010850350744229311",
+      "summary": "正文从代数曲线 y^2=Q4(x) 的亏格、Abel 积分和雅可比簇视角解释初等积分判定。"
+    },
+    {
+      "title": "2026 阿贝尔奖颁给德国数学家法尔廷斯，他对数学有哪些重大贡献？",
+      "url": "https://www.zhihu.com/answer/2018587325261689463",
+      "summary": "正文以莫德尔猜想和算术概型为中心，说明法尔廷斯对算术代数几何的奠基性贡献。"
+    },
+    {
+      "title": "日本著名数学家、菲尔兹奖得主広中平祐逝世，如何理解他的研究和贡献？",
+      "url": "https://www.zhihu.com/answer/2019028891352745407",
+      "summary": "正文系统说明奇点解消在20世纪代数几何中的地位，以及它对双有理几何等方向的推动。"
+    },
+    {
+      "title": "代数几何挂科该如何复习?",
+      "url": "https://www.zhihu.com/answer/2022834647126557805",
+      "summary": "正文以 P^1 上的摩天大楼层为例，计算其推前分次模，具体展开代数几何中层的构造。"
+    },
+    {
+      "title": "2026 阿贝尔奖颁给德国数学家法尔廷斯，他对数学有哪些重大贡献？",
+      "url": "https://www.zhihu.com/answer/2029570863251353605",
+      "summary": "正文具体介绍莫德尔猜想及法尔廷斯如何以代数几何和算术几何研究丢番图方程的有理解。"
+    },
+    {
+      "title": "为什么人类使用的坐标系都同胚于 R^n，能否使用不同胚于 R^n 的坐标系？",
+      "url": "https://www.zhihu.com/answer/2033667054339880223",
+      "summary": "正文由坐标环、正则映射的反向同态以及仿射代数簇展开代数几何的基本观点。"
+    },
+    {
+      "title": "如何看待论文“1, ζ(2), L(2, χ_{−3})线性无关”?",
+      "url": "https://www.zhihu.com/answer/2034720550946346847",
+      "summary": "正文用代数闭链、代数微分形式和周期关系解释该数论结果背后的 Hodge 与 Tate 型代数几何思想。"
+    },
+    {
+      "title": "为什么这么多数学研究者乐意于研究代数几何？",
+      "url": "https://www.zhihu.com/answer/2035709210361644075",
+      "summary": "正文解释代数几何把高维几何对象转化为层、上同调等代数结构来研究。"
+    },
+    {
+      "title": "为什么人类使用的坐标系都同胚于 R^n，能否使用不同胚于 R^n 的坐标系？",
+      "url": "https://www.zhihu.com/answer/2041567299518322167",
+      "summary": "正文把几何对象对应到函数代数和坐标环，并用环、理想、层等结构解释代数几何视角。"
+    },
+    {
+      "title": "拓扑学的动机和核心是什么？",
+      "url": "https://www.zhihu.com/answer/2043672379755386267",
+      "summary": "正文说明代数几何用 Zariski 拓扑把多项式零点集变成几何对象，并联系理想、层与局部粘合。"
+    },
+    {
+      "title": "代数几何应该怎样学？",
+      "url": "https://www.zhihu.com/answer/2047325129584160776",
+      "summary": "正文系统说明从交换代数、经典簇到概形的代数几何学习依赖，并强调用函数环而非点集理解几何对象。"
+    },
+    {
+      "title": "代数几何应该怎样学？",
+      "url": "https://www.zhihu.com/answer/2049207504463193935",
+      "summary": "正文概述代数几何讲义从射影空间、代数方程到交换代数和 Zariski 拓扑展开的学习内容。"
+    },
+    {
+      "title": "数学中，有哪些常数被发现时被认为是超越数，结果被证实是个代数数，只不过它所满足的极小多项式的次数很高？",
+      "url": "https://www.zhihu.com/answer/2051739116853803007",
+      "summary": "正文把 Gamma 特殊值转化为代数曲线上的周期，并具体讨论 Fermat 曲线、循环覆盖、微分与 Hodge 分解。"
+    },
+    {
+      "title": "请问“环的理想”这个概念的来源或者说是怎么想出来的？",
+      "url": "https://www.zhihu.com/answer/2051807067355324554",
+      "summary": "正文把理想、方程组、零点集与商环联系起来，具体讲述代数几何的基本桥梁。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062544960491099389",
+      "summary": "正文把猜想置于代数几何语境，讨论有限 étale 态射、覆盖与局部可逆到整体可逆的关系。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062555470427060136",
+      "summary": "正文在仿射代数几何框架下讨论 étale 多项式自映射、代数自同构及其局部与整体性质。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062613987456463172",
+      "summary": "正文以雅可比猜想为核心，讨论其历史、已知情形、反例和几何构造，明确展开代数几何问题。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062638081300337027",
+      "summary": "正文围绕雅可比猜想反例及其与 Dixmier 猜想的关系，给出相关代数几何对象的反例构造。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062689575080816969",
+      "summary": "正文解释二维有理变换的 sigma 过程、blow-up、无穷远例外曲线及三次覆盖，讨论雅可比猜想相关代数几何机制。"
+    },
+    {
+      "title": "如何评价雅可比猜想被提出了一个看似并不十分复杂的反例？",
+      "url": "https://www.zhihu.com/answer/2062826211135565879",
+      "summary": "正文说明雅可比猜想关于多项式映射的局部可逆条件与全局多项式逆之间的代数几何问题。"
+    },
+    {
+      "title": "如何评价雅可比猜想被提出了一个看似并不十分复杂的反例？",
+      "url": "https://www.zhihu.com/answer/2062878910656812667",
+      "summary": "正文以代数几何中的 Jacobian 反例为中心，追索从二维有理映射到三维多项式映射的构造思路。"
+    },
+    {
+      "title": "邓煜、王虹两位青年数学家获得 2026 年菲尔兹奖，如何理解他们获奖的意义和价值？",
+      "url": "https://www.zhihu.com/answer/2063220627004191335",
+      "summary": "正文围绕 C^n 上的多项式映射、雅可比矩阵与雅可比猜想定义展开，属于代数几何中的多项式映射问题。"
+    },
+    {
+      "title": "如何评价今年王虹、邓煜可能同时创纪录拿到菲尔兹奖？",
+      "url": "https://www.zhihu.com/answer/2063597613107221965",
+      "summary": "正文以 Calabi–丘流形的深谷范畴与凝聚层导出范畴之间的等价来阐述同调镜像猜想，具体连接辛几何与复代数几何。"
+    },
+    {
+      "title": "邓煜、王虹两位青年数学家获得 2026 年菲尔兹奖，如何理解他们获奖的意义和价值？",
+      "url": "https://www.zhihu.com/answer/2063737858645554140",
+      "summary": "正文说明其结合解析数论、模型论与算术几何方法研究阿贝尔簇模空间和特殊点分布。"
+    },
+    {
+      "title": "「四位菲尔兹奖主有三位会说中文」，如何看待菲奖得主约翰·帕登（白杰文）的汉语水平？你对他还有哪些了解？",
+      "url": "https://www.zhihu.com/answer/2063980346568348657",
+      "summary": "正文具体介绍代数几何中通过不同模空间和曲线计数理论描述同一批曲线的联系。"
+    },
+    {
+      "title": "如何看待新晋菲尔兹奖得主 Jacob Tsimerman 颁奖当天宣布加入OpenAI？",
+      "url": "https://www.zhihu.com/answer/2064000029166249378",
+      "summary": "正文具体介绍安德烈-奥尔特猜想如何通过高维几何空间中特殊算术点的分布，揭示算术与几何之间的深层联系。"
+    },
+    {
+      "title": "雅各布·齐默尔曼获得 2026菲尔兹奖，你对他的成果有哪些了解？",
+      "url": "https://www.zhihu.com/answer/2064018712659866946",
+      "summary": "正文介绍极小有理切线簇理论、代数几何猜想以及志村簇上的定理成果，属于代数几何内容。"
+    },
+    {
+      "title": "如何看待Levent Alpoge发布的S^6的复结构构造的论文？",
+      "url": "https://www.zhihu.com/answer/2075157549691815102",
+      "summary": "正文概述用复环面族、logarithmic transform、toric degeneration 和 dP6 粘合构造紧复三维流形的代数几何方法。"
+    },
+    {
+      "title": "如何看待Levent Alpoge发布的S^6的复结构构造的论文？",
+      "url": "https://www.zhihu.com/answer/2075192663998047772",
+      "summary": "正文详细使用 toric variety、扇、blowup、反典范除子和线束等代数几何对象构造并分析复三维流形。"
+    },
+    {
+      "title": "如何看待Levent Alpoge发布的S^6的复结构构造的论文？",
+      "url": "https://www.zhihu.com/answer/2075222407741190758",
+      "summary": "正文讨论紧复流形的代数维数、亚纯映射和线丛上同调，属于代数几何与复几何的交叉论证。"
+    },
+    {
+      "title": "关于”代数几何“方向的一些简单介绍",
+      "url": "https://zhuanlan.zhihu.com/p/19719683",
+      "summary": "正文介绍代数几何的分类目标、研究对象、研究方法及主要应用。"
+    },
+    {
+      "title": "微小的代数几何remark I:(Locally) Ringed Space",
+      "url": "https://zhuanlan.zhihu.com/p/23949428",
+      "summary": "正文从流形和坐标函数出发，引入环化空间、局部环与仿射概形，说明代数几何中的结构层观点。"
+    },
+    {
+      "title": "我喜欢的一些简洁明快的证明",
+      "url": "https://zhuanlan.zhihu.com/p/24546623",
+      "summary": "正文用射影空间、Grassmann 簇和维数论证三次曲面上的二十七条直线。"
+    },
+    {
+      "title": "本科Senior thesis的中文摘要",
+      "url": "https://zhuanlan.zhihu.com/p/27168096",
+      "summary": "正文讨论 Kähler 流形、全纯向量丛稳定性及 DUY 定理，并延伸到 Higgs 丛与代数曲面的代数几何问题。"
+    },
+    {
+      "title": "抽象代数|笔记整理（8）——序，代数几何引入，模",
+      "url": "https://zhuanlan.zhihu.com/p/31909442",
+      "summary": "正文随后系统给出代数簇和 Hilbert 定理，讨论多项式零点集与极大理想的对应关系。"
+    },
+    {
+      "title": "概形是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/32523602",
+      "summary": "正文从代数簇与坐标环的对应讲到仿射概形，系统介绍代数几何的视角。"
+    },
+    {
+      "title": "射影概形",
+      "url": "https://zhuanlan.zhihu.com/p/32702584",
+      "summary": "正文从射影空间、射影簇和闭包讲到射影概形、凝聚层、上同调与 Serre 对偶。"
+    },
+    {
+      "title": "Riemann-Roch定理",
+      "url": "https://zhuanlan.zhihu.com/p/32779462",
+      "summary": "正文系统讲解 Weil 除子、Cartier 除子、可逆层以及代数曲线的 Riemann-Roch 定理。"
+    },
+    {
+      "title": "史上最贱的数学题",
+      "url": "https://zhuanlan.zhihu.com/p/33853851",
+      "summary": "正文通过齐次降维把方程化为射影曲线，并实际使用双有理等价变换，展开代数几何对象与方法。"
+    },
+    {
+      "title": "复几何：某些线丛",
+      "url": "https://zhuanlan.zhihu.com/p/35980347",
+      "summary": "正文以复射影空间上的线丛为例计算转移函数、典范丛和 Hermitian 度量，属于代数几何内容。"
+    },
+    {
+      "title": "韦依猜想",
+      "url": "https://zhuanlan.zhihu.com/p/36801489",
+      "summary": "正文陈述有限域上射影簇的 Zeta 函数与 Weil 猜想，并说明其对代数几何和拓扑联系的意义。"
+    },
+    {
+      "title": "Motive——Grothendieck的梦想",
+      "url": "https://zhuanlan.zhihu.com/p/36847569",
+      "summary": "正文围绕光滑射影簇、代数闭链和万有上同调构造 Motive，系统讨论代数几何中的同调理论。"
+    },
+    {
+      "title": "André Weil(安德列.韦依)的一生（下）",
+      "url": "https://zhuanlan.zhihu.com/p/36915115",
+      "summary": "正文回顾 Zariski 与 Weil 改造代数几何的历程，并说明 Weil 的专著建立了抽象代数几何。"
+    },
+    {
+      "title": "韦依猜想（总）",
+      "url": "https://zhuanlan.zhihu.com/p/37335129",
+      "summary": "正文以有限域代数簇的Zeta函数和点计数为主线，系统讲解韦依猜想及其代数几何意义。"
+    },
+    {
+      "title": "韦依猜想",
+      "url": "https://zhuanlan.zhihu.com/p/37341356",
+      "summary": "正文围绕有限域光滑射影簇的Zeta函数和点计数讲解韦依猜想及其代数几何背景。"
+    },
+    {
+      "title": "Kaledin-Lehn猜想",
+      "url": "https://zhuanlan.zhihu.com/p/38145268",
+      "summary": "正文在射影 K3 曲面及其相干层上陈述 Kaledin-Lehn 猜想，并讨论 Budur-Zhang 的代数几何证明。"
+    },
+    {
+      "title": "史上最贱的数学题：虽然这题看似简单 但你很可能解不来",
+      "url": "https://zhuanlan.zhihu.com/p/39715835",
+      "summary": "正文通过投影曲线、双有理等价和椭圆曲线点加法说明代数几何方法如何连接两个方程的有理解。"
+    },
+    {
+      "title": "请不要责备柳智宇，也许他是无辜的",
+      "url": "https://zhuanlan.zhihu.com/p/41950866",
+      "summary": "正文以舒尔茨获奖工作为例，说明算术代数几何将数论技巧与现代空间几何结合。"
+    },
+    {
+      "title": "Affine line相关的辛几何",
+      "url": "https://zhuanlan.zhihu.com/p/43725146",
+      "summary": "正文从代数簇中的有理曲线及ruled、uniruled等性质出发讨论代数几何。"
+    },
+    {
+      "title": "史上最贱的数学题 | Alon Amit",
+      "url": "https://zhuanlan.zhihu.com/p/59072397",
+      "summary": "正文通过投影曲线、双有理等价和椭圆曲线点加法说明代数几何方法如何连接两个方程的有理解。"
+    },
+    {
+      "title": "读物：游里工夫独造微一一小平邦彦传",
+      "url": "https://zhuanlan.zhihu.com/p/60392333",
+      "summary": "正文回顾小平邦彦在代数几何与复流形理论中的代表性成果和研究历程。"
+    },
+    {
+      "title": "读物：代数圈的标准猜想",
+      "url": "https://zhuanlan.zhihu.com/p/60802251",
+      "summary": "正文讨论代数圈上的标准猜想、Weil 上同调及对角线分解，实质属于代数几何。"
+    },
+    {
+      "title": "读物：仿佛来自虚空——Grothendieck的故事（上）",
+      "url": "https://zhuanlan.zhihu.com/p/61406975",
+      "summary": "正文概述格洛腾迪克以概型、上同调和范畴语言改造代数几何及其后续影响。"
+    },
+    {
+      "title": "读物：仿佛来自虚空——Grothendieck的故事（下）",
+      "url": "https://zhuanlan.zhihu.com/p/61409418",
+      "summary": "正文回顾韦依猜想、标准猜想及其证明如何推动代数几何在格洛腾迪克之后的转向与发展。"
+    },
+    {
+      "title": "代数簇的德拉姆上同调",
+      "url": "https://zhuanlan.zhihu.com/p/66494336",
+      "summary": "正文以仿射代数簇为对象构建代数德拉姆复形，并讨论其与解析流形上同调的关系。"
+    },
+    {
+      "title": "Classical Hodge vs p-adic Hodge",
+      "url": "https://zhuanlan.zhihu.com/p/71110346",
+      "summary": "正文以光滑射影代数簇的 Hodge 分解为起点，比较经典 Hodge 理论与 p-adic Hodge 理论。"
+    },
+    {
+      "title": "从代数几何到导出代数几何：复形的几何",
+      "url": "https://zhuanlan.zhihu.com/p/86655844",
+      "summary": "正文从代数几何中的层、上链复形和导出函子出发，解释导出代数几何的研究动机与结构。"
+    },
+    {
+      "title": "从代数几何到导出代数几何：形变与逼近",
+      "url": "https://zhuanlan.zhihu.com/p/86894415",
+      "summary": "正文系统比较经典代数几何与导出代数几何，并说明以后者用光滑对象逼近一般概形的理论动机。"
+    },
+    {
+      "title": "MP129：从微分几何到代数几何(1)：函数层",
+      "url": "https://zhuanlan.zhihu.com/p/47077723",
+      "summary": "正文以流形上的函数层、粘合和概形类比为主线，讲解从微分几何通向代数几何的结构框架。"
+    },
+    {
+      "title": "【转载】微分几何经典论文",
+      "url": "https://zhuanlan.zhihu.com/p/99320860",
+      "summary": "正文讨论代数层与解析层的联系、Hodge 理论、代数簇上的周期映射及向量丛模空间等代数几何主题。"
+    },
+    {
+      "title": "繁星客栈拾遗（十五年前的数学和八卦帖）",
+      "url": "https://zhuanlan.zhihu.com/p/107392381",
+      "summary": "正文介绍三次曲面上的 27 条直线计数、Gromov-Witten 不变量、模空间与 Donaldson-Thomas 理论。"
+    },
+    {
+      "title": "代数几何在极值组合中的应用——随机代数构造",
+      "url": "https://zhuanlan.zhihu.com/p/130507593",
+      "summary": "正文以有限域上的代数构造和Lang-Weil界研究Turan型极值图论问题。"
+    },
+    {
+      "title": "菲尔兹奖得主——Caucher Birkar",
+      "url": "https://zhuanlan.zhihu.com/p/148530858",
+      "summary": "正文从代数簇、双有理分类和极小模型纲领出发介绍代数几何的研究对象与方法。"
+    },
+    {
+      "title": "代数几何简史",
+      "url": "https://zhuanlan.zhihu.com/p/148865387",
+      "summary": "正文以多项式方程组的解为主线，梳理代数几何从古典曲线研究到现代理论的发展。"
+    },
+    {
+      "title": "近代数学13个学派",
+      "url": "https://zhuanlan.zhihu.com/p/149803663",
+      "summary": "正文具体叙述意大利学派对双有理变换、线性系和代数曲面分类等代数几何工作的推进。"
+    },
+    {
+      "title": "Algebraic Geometry: The Roots of Scheme I",
+      "url": "https://zhuanlan.zhihu.com/p/330793163",
+      "summary": "正文从 variety 到 scheme 系统梳理代数几何对象及其一般化过程。"
+    },
+    {
+      "title": "什么是热带几何？",
+      "url": "https://zhuanlan.zhihu.com/p/339673397",
+      "summary": "正文从热带多项式的零点集、赋值热化到退化理论，系统介绍热带几何如何把代数几何问题转化为多面体组合问题。"
+    },
+    {
+      "title": "什么是完美胚空间（perfectoid space）？",
+      "url": "https://zhuanlan.zhihu.com/p/340038681",
+      "summary": "正文围绕完美胚空间的定义、倾斜对应及其在算术代数几何中的应用展开。"
+    },
+    {
+      "title": "抽象代数教学体系的探索 II",
+      "url": "https://zhuanlan.zhihu.com/p/348275589",
+      "summary": "正文建立代数集与根理想的一一对应，并用这一对应说明代数与几何之间的桥梁。"
+    },
+    {
+      "title": "没解决这个7次方程问题，为何这三个数学家却很开心",
+      "url": "https://zhuanlan.zhihu.com/p/350941552",
+      "summary": "正文具体说明多项式曲线、三次曲面及其27条直线如何用于研究高次方程的解析度。"
+    },
+    {
+      "title": "Etale Theory I: Etale Cohomology An Introduction",
+      "url": "https://zhuanlan.zhihu.com/p/364923718",
+      "summary": "正文围绕 etale cohomology 的起源、etale 态射、site 与 topos 展开，属于代数几何中的上同调理论。"
+    },
+    {
+      "title": "最难理解的世界数学难题——霍奇猜想，拓扑学上空的一朵乌云",
+      "url": "https://zhuanlan.zhihu.com/p/371834249",
+      "summary": "正文从多项式零集和代数运算的对应出发，介绍代数几何并陈述霍奇猜想。"
+    },
+    {
+      "title": "热带几何的邀请",
+      "url": "https://zhuanlan.zhihu.com/p/400751113",
+      "summary": "正文定义热带加法与乘法，并以热带多项式零点集、Newton 多胞形对偶细分和变形虫解释热带代数几何。"
+    },
+    {
+      "title": "复代数几何：affine scheme（已废弃）",
+      "url": "https://zhuanlan.zhihu.com/p/460852306",
+      "summary": "正文以交换代数定义几何结构为主线，系统介绍几何空间、层和仿射概形的构造。"
+    },
+    {
+      "title": "代数曲线|平面二次曲线的分类",
+      "url": "https://zhuanlan.zhihu.com/p/460910532",
+      "summary": "正文以仿射平面中的二次曲线为对象，并借助等价变换讨论代数曲线的分类。"
+    },
+    {
+      "title": "什么是模形式（草稿流简述）",
+      "url": "https://zhuanlan.zhihu.com/p/461315486",
+      "summary": "正文用概形、平展位形、平展上同调和射影簇计数组织椭圆曲线与模形式理论。"
+    },
+    {
+      "title": "翻译|代数几何的历史演进（施工中）",
+      "url": "https://zhuanlan.zhihu.com/p/460755990",
+      "summary": "正文按主题和时期梳理代数几何从圆锥曲线、消元到交换代数与现代概型的发展。"
+    },
+    {
+      "title": "希尔伯特零点定理——几何与代数的关系（一）",
+      "url": "https://zhuanlan.zhihu.com/p/473462113",
+      "summary": "正文以零点集与理想的对应为主线，介绍 Zariski 拓扑、诺特环及弱和强 Hilbert 零点定理。"
+    },
+    {
+      "title": "一道代数习题：关于投射模,平坦模,矢量丛的等价性",
+      "url": "https://zhuanlan.zhihu.com/p/482269947",
+      "summary": "正文以有限生成投射模和有限展示平坦模的等价性刻画仿射概形上的矢量丛，系统展开代数几何中的模与几何对象对应。"
+    },
+    {
+      "title": "赢代数几何学（Graduate Texts in Winnology 52）",
+      "url": "https://zhuanlan.zhihu.com/p/499947928",
+      "summary": "正文借助仿射空间的零点集、坐标环和 Zariski 闭包说明代数几何的基本对应。"
+    },
+    {
+      "title": "希尔伯特零点定理——几何与代数的关系",
+      "url": "https://zhuanlan.zhihu.com/p/504197523",
+      "summary": "正文系统介绍零点定理及其在仿射与射影空间中的形式，说明代数集与理想之间的对应构成代数几何基础。"
+    },
+    {
+      "title": "望月新一在Inter-universal Teichmüller Theory I中做了什么",
+      "url": "https://zhuanlan.zhihu.com/p/512703577",
+      "summary": "正文围绕概形替代、Frobenioid、基本群和算术几何对应关系，展开IUT理论的代数几何构造。"
+    },
+    {
+      "title": "解析几何初步：导论",
+      "url": "https://zhuanlan.zhihu.com/p/518774618",
+      "summary": "正文比较解析几何与代数几何的语言、对象和构造方式，说明如何把解析理论纳入代数几何框架。"
+    },
+    {
+      "title": "Functorial Algebraic Geometry",
+      "url": "https://zhuanlan.zhihu.com/p/523080680",
+      "summary": "正文从多项式零点集出发，系统介绍代数几何中的簇、概形以及函子化基础。"
+    },
+    {
+      "title": "形变理论漫谈",
+      "url": "https://zhuanlan.zhihu.com/p/523108260",
+      "summary": "正文围绕代数几何中的 Hilbert scheme、形变函子和模空间局部结构展开形变理论。"
+    },
+    {
+      "title": "Weil猜想(0)：方程的解和有限域上的Riemann猜想",
+      "url": "https://zhuanlan.zhihu.com/p/532320893",
+      "summary": "正文把有限域上的多项式方程视为概形或几何体，并借助代数几何与上同调研究其点数。"
+    },
+    {
+      "title": "大学听不懂数学课，但他奋起直追，拿下菲尔兹奖",
+      "url": "https://zhuanlan.zhihu.com/p/539214972",
+      "summary": "正文明确解释代数几何是以代数工具研究并证明几何猜想，并把它作为许俊转攻数学的背景。"
+    },
+    {
+      "title": "解析几何初步：完美胚理论（施工中）",
+      "url": "https://zhuanlan.zhihu.com/p/540706197",
+      "summary": "正文用结构层和赋环对象解释几何对象，并进一步以 Spec(R) 上的拟凝聚层为例，连接代数几何语言。"
+    },
+    {
+      "title": "从向量丛到凝聚层",
+      "url": "https://zhuanlan.zhihu.com/p/542672282",
+      "summary": "正文从流形上的向量丛过渡到局部自由层与凝聚层，讨论其几何和代数对应关系。"
+    },
+    {
+      "title": "德利涅：对关键想法的直觉",
+      "url": "https://zhuanlan.zhihu.com/p/546369570",
+      "summary": "正文回顾代数几何从旧式结果到抽象基础的建立，并说明格罗滕迪克与德利涅的核心贡献。"
+    },
+    {
+      "title": "有限域上代数簇的Riemann猜想：Deligne的证明",
+      "url": "https://zhuanlan.zhihu.com/p/555728644",
+      "summary": "正文以代数几何基础和上同调工具为主线，解释Deligne证明所需的几何理论发展。"
+    },
+    {
+      "title": "算术拓扑的初步理论",
+      "url": "https://zhuanlan.zhihu.com/p/563347112",
+      "summary": "正文围绕算术概形、平展上同调和紧化展开算术几何讨论，并以谱和素理想建立算术对象与拓扑对象之间的类比。"
+    },
+    {
+      "title": "环簇与组合：用代数几何证明组合学Pick公式",
+      "url": "https://zhuanlan.zhihu.com/p/642475522",
+      "summary": "正文以周炜良群、相交理论和 Hirzebruch-Riemann-Roch 定理研究环簇，并用代数几何方法推出组合学结论。"
+    },
+    {
+      "title": "从伽罗瓦理论到代数基本群——谈谈伽罗瓦范畴",
+      "url": "https://zhuanlan.zhihu.com/p/650751371",
+      "summary": "正文将Galois范畴用于scheme上的有限étale覆叠，从而定义代数基本群。"
+    },
+    {
+      "title": "曲线模空间小品1——模空间和叠的产生以及曲线模空间代数理论建立的艰苦历史（引言）",
+      "url": "https://zhuanlan.zhihu.com/p/651462307",
+      "summary": "正文以模空间如何分类代数几何对象为总题，介绍其构造方法和发展历史。"
+    },
+    {
+      "title": "【Proof-Trivial】 代数几何与统计机器学习理论 (Algebraic Geometry and Statistical Learning Theory) 导读",
+      "url": "https://zhuanlan.zhihu.com/p/661785425",
+      "summary": "正文以奇点消解、对数规范阈值等代数几何工具构建奇异统计学习理论。"
+    },
+    {
+      "title": "非代数几何学家怎么看代数几何",
+      "url": "https://zhuanlan.zhihu.com/p/672955715",
+      "summary": "正文从对称性、函子性和截断模型说明代数结构如何进入代数几何，并讨论其应用与学科地位。"
+    },
+    {
+      "title": "最反直觉的世界数学难题——霍奇猜想，汇集了最抽象的数学概念",
+      "url": "https://zhuanlan.zhihu.com/p/674901101",
+      "summary": "正文从坐标化、代数方程到代数簇和调和形式，系统介绍霍奇猜想所属的代数几何背景。"
+    },
+    {
+      "title": "代数几何笔记(1)：从解析几何到代数簇",
+      "url": "https://zhuanlan.zhihu.com/p/643879787",
+      "summary": "正文从解析几何的零点集出发，建立代数集合、理想和代数簇之间的基本对应。"
+    },
+    {
+      "title": "Motives：Grothendieck 的梦想",
+      "url": "https://zhuanlan.zhihu.com/p/681501229",
+      "summary": "正文以代数簇的上同调、代数链和 Motive 范畴为主线，系统展开代数几何中的核心构造。"
+    },
+    {
+      "title": "80年来几乎没有进展的数学问题，解决方案竟是让它变得更复杂",
+      "url": "https://zhuanlan.zhihu.com/p/694474122",
+      "summary": "正文具体解释新证明借助升维代数曲面和行列式方法控制整数距离点集的结构。"
+    },
+    {
+      "title": "Calabi-Yau 4-fold的DT古典理论的奠基",
+      "url": "https://zhuanlan.zhihu.com/p/706470086",
+      "summary": "正文系统整理 Calabi-Yau 4-fold 上稳定层模空间、导出几何、虚拟基本类及虚拟拉回等代数几何理论。"
+    },
+    {
+      "title": "数学界常见名词介绍（只介绍纯数学）",
+      "url": "https://zhuanlan.zhihu.com/p/826323323",
+      "summary": "正文用多元多项式定义的几何图形解释代数几何，并进一步说明抽象代数几何建立在交换环与零点定理之上。"
+    },
+    {
+      "title": "Qwen 类O1模型 QwQ 野生评测",
+      "url": "https://zhuanlan.zhihu.com/p/9493513804",
+      "summary": "正文把有限域上的齐次四次方程解释为射影平面曲线，并讨论有理点计数。"
+    },
+    {
+      "title": "数学领域为什么日本领先我们这么多",
+      "url": "https://zhuanlan.zhihu.com/p/13794355885",
+      "summary": "正文介绍小平邦彦在复曲面结构变形和消灭定理上的工作，并说明其推动了代数几何发展。"
+    },
+    {
+      "title": "跟平展爆了: 最神人的S^1同伦群算法",
+      "url": "https://zhuanlan.zhihu.com/p/20497594639",
+      "summary": "正文把复乘法群看作仿射代数曲线，并在射影紧化上使用平展上同调和比较定理。"
+    },
+    {
+      "title": "浅说椭圆曲线",
+      "url": "https://zhuanlan.zhihu.com/p/30710954998",
+      "summary": "正文利用贝祖定理、夏莱定理和凯莱-巴卡洛克性质讨论椭圆曲线与直线、圆锥曲线的交点。"
+    },
+    {
+      "title": "格罗滕迪克：重构代数几何的巨星，告别学术遁入山林的隐士",
+      "url": "https://zhuanlan.zhihu.com/p/1890353086402364020",
+      "summary": "正文以 EGA 和概形理论为主线，叙述格罗滕迪克重构代数几何基础及其后续影响。"
+    },
+    {
+      "title": "Laurent Lafforgue 采访回顾",
+      "url": "https://zhuanlan.zhihu.com/p/1921177546038440105",
+      "summary": "正文讲解模空间、概形、平展意象和层上同调等代数几何工具，以及它们在朗兰兹纲领中的应用。"
+    },
+    {
+      "title": "模空间的动机",
+      "url": "https://zhuanlan.zhihu.com/p/1940029128276445092",
+      "summary": "正文从代数几何中的对象分类出发，定义粗模空间和细模空间。"
+    },
+    {
+      "title": "为什么代数几何和交换代数“实质内容一样”，却因几何语言成了两个难度完全不同的学科？",
+      "url": "https://zhuanlan.zhihu.com/p/1975554696556090609",
+      "summary": "正文围绕代数几何如何把交换代数的环、理想和局部化转译为空间、奇点、态射等几何对象展开。"
+    },
+    {
+      "title": "关于微分流形（？）其实是关于代数几何。",
+      "url": "https://zhuanlan.zhihu.com/p/2011854180332110938",
+      "summary": "正文以层论为桥梁，将微分流形和代数几何中的局部赋环空间与上同调对应起来。"
+    },
+    {
+      "title": "科普：猫也能看懂的代数几何——Fermat 四次曲面",
+      "url": "https://zhuanlan.zhihu.com/p/2017385512927782057",
+      "summary": "正文以 Fermat 四次曲面为主线，展开多项式零点、射影化和相交等代数几何内容。"
+    },
+    {
+      "title": "代数几何学与弦理论",
+      "url": "https://zhuanlan.zhihu.com/p/2050307410531825145",
+      "summary": "正文以代数方程定义的几何对象为主线概述代数几何的研究方法与历史来源。"
+    },
+    {
+      "title": "Fable 5 找到雅可比猜想的反例背后：我们关心的七个问题",
+      "url": "https://zhuanlan.zhihu.com/p/2063656703304921759",
+      "summary": "正文用覆盖、分歧轨迹、判别式超曲面和非逆紧性解释反例背后的代数几何结构。"
+    }
+  ]
+}

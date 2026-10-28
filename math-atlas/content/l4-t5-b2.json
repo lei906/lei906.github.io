@@ -1,0 +1,406 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l4-t5-b2",
+  "sources": [
+    {
+      "title": "大数定律具体是个什么概念？",
+      "url": "https://www.zhihu.com/answer/13337227",
+      "summary": "对比中心极限定理与大数定律，并提及独立同分布和二项分布情形；原文正态极限的说法遗漏中心化、标准化及必要条件。"
+    },
+    {
+      "title": "怎样理解和区分中心极限定理与大数定律？",
+      "url": "https://www.zhihu.com/answer/32711413",
+      "summary": "从极限下的正态分布解释中心极限定理。"
+    },
+    {
+      "title": "怎样理解和区分中心极限定理与大数定律？",
+      "url": "https://www.zhihu.com/answer/34376453",
+      "summary": "正文说明中心极限定理描述一阶波动与正态近似。"
+    },
+    {
+      "title": "怎样理解和区分中心极限定理与大数定律？",
+      "url": "https://www.zhihu.com/answer/35058403",
+      "summary": "正文说明中心极限定理的收敛速率与归一化。"
+    },
+    {
+      "title": "数学中有哪些看起来很不可思议的知识？",
+      "url": "https://www.zhihu.com/answer/81787241",
+      "summary": "正文从独立同分布条件解释均值趋近正态分布的边界结论。"
+    },
+    {
+      "title": "大偏差技术是什么？",
+      "url": "https://www.zhihu.com/answer/82408466",
+      "summary": "正文以大偏差函数零点附近展开说明中心极限定理。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/115244073",
+      "summary": "正文说明大量独立同分布随机变量的和近似正态分布。"
+    },
+    {
+      "title": "为什么我觉得大数定理和中心极限定理是矛盾的？",
+      "url": "https://www.zhihu.com/answer/155031090",
+      "summary": "正文详细解释中心极限定理的矩条件、标准化和正态极限。"
+    },
+    {
+      "title": "有哪些最终被大众认可、并成为主流的错误翻译？",
+      "url": "https://www.zhihu.com/answer/157288987",
+      "summary": "正文用样本均值趋近正态分布通俗说明中心极限定理。"
+    },
+    {
+      "title": "概率论中最让你难忘的定理是什么？",
+      "url": "https://www.zhihu.com/answer/195682440",
+      "summary": "正文给出中心极限定理的含义、定义和正态近似应用。"
+    },
+    {
+      "title": "什么是统计学思维？",
+      "url": "https://www.zhihu.com/answer/226062437",
+      "summary": "正文把中心极限定理列为应对随机世界的重要法则。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/238687141",
+      "summary": "正文说明中心极限定理是相应函数型极限定理的一维投影。"
+    },
+    {
+      "title": "怎样理解和区分中心极限定理与大数定律？",
+      "url": "https://www.zhihu.com/answer/250046834",
+      "summary": "正文系统解释样本均值分布趋于正态的中心极限定理。"
+    },
+    {
+      "title": "如何通俗地解释「置信区间」和「置信水平」？",
+      "url": "https://www.zhihu.com/answer/251576717",
+      "summary": "正文依据中心极限定理说明样本均值的正态分布。"
+    },
+    {
+      "title": "为什么，概率论与测度论的分水岭是引入条件概率与独立性这两个概念？",
+      "url": "https://www.zhihu.com/answer/291115857",
+      "summary": "正文说明失去独立性后中心极限定理只表现为弱收敛。"
+    },
+    {
+      "title": "怎样理解和区分中心极限定理与大数定律？",
+      "url": "https://www.zhihu.com/answer/306763552",
+      "summary": "正文解释中心极限定理给出的样本均值渐近正态分布。"
+    },
+    {
+      "title": "最小二乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/411760828",
+      "summary": "正文用中心极限定理解释多重独立误差为何近似正态。"
+    },
+    {
+      "title": "关于凯丽公式的问题？",
+      "url": "https://www.zhihu.com/answer/421327203",
+      "summary": "正文用独立随机变量之和趋近正态分布解释中心极限定理。"
+    },
+    {
+      "title": "金融计算收益率的时候为什么大部分用对数收益率 (Log Return) 而不是用算数收益率？",
+      "url": "https://www.zhihu.com/answer/431786548",
+      "summary": "正文用中心极限定理解释多期对数收益之和的分布。"
+    },
+    {
+      "title": "有哪些统计学专业反直觉的知识？",
+      "url": "https://www.zhihu.com/answer/856663454",
+      "summary": "正文明确用中心极限定理的推广解释高维结论为何适用于更一般的分布。"
+    },
+    {
+      "title": "大数定律具体是个什么概念？",
+      "url": "https://www.zhihu.com/answer/876481176",
+      "summary": "正文推导 Levi-Lindeberg 与 De Moivre-Laplace 中心极限定理及正态近似。"
+    },
+    {
+      "title": "为什么我觉得大数定理和中心极限定理是矛盾的？",
+      "url": "https://www.zhihu.com/answer/899900047",
+      "summary": "正文比较中心极限定理的根号 n 尺度与重对数律、强大数律尺度。"
+    },
+    {
+      "title": "中心极限定理存在严格的证明吗？",
+      "url": "https://www.zhihu.com/answer/1375064657",
+      "summary": "正文通过特征函数的极限得到标准正态分布。"
+    },
+    {
+      "title": "泊松分布的现实意义是什么，为什么现实生活多数服从于泊松分布？",
+      "url": "https://www.zhihu.com/answer/2248839974",
+      "summary": "正文对比泊松收敛与中心极限定理的极限机制。"
+    },
+    {
+      "title": "如何理解三大抽样分布?",
+      "url": "https://www.zhihu.com/answer/2436398486",
+      "summary": "正文给出中心极限定理的完整概率结论。"
+    },
+    {
+      "title": "什么是方差齐性检验（说人话）？做两独立样本T检验为什么要先做方差齐性检验？",
+      "url": "https://www.zhihu.com/answer/2483800816",
+      "summary": "正文利用中心极限定理描述样本均值的抽样分布。"
+    },
+    {
+      "title": "为什么大量独立同分布的变量和的极限刚好符合正态分布？",
+      "url": "https://www.zhihu.com/answer/2495020355",
+      "summary": "正文解释中心极限定理为何指向正态分布，并说明稳定分布这一更一般框架。"
+    },
+    {
+      "title": "泊松分布的现实意义是什么，为什么现实生活多数服从于泊松分布？",
+      "url": "https://www.zhihu.com/answer/2523299127",
+      "summary": "用高尔顿板说明中心极限定理导致正态分布。"
+    },
+    {
+      "title": "群和群表示在概率统计中有什么应用？",
+      "url": "https://www.zhihu.com/answer/2792878243",
+      "summary": "正文通过取最大路径和而非普通求和，说明该模型不落入高斯中心极限定理普适类。"
+    },
+    {
+      "title": "如何系统地讲述统计学的发展历史?",
+      "url": "https://www.zhihu.com/answer/2865870844",
+      "summary": "正文从二项概率逼近推导正态积分极限，并说明中心极限定理构成大样本方法的基础。"
+    },
+    {
+      "title": "如何理解中心极限定理？",
+      "url": "https://www.zhihu.com/answer/3135590699",
+      "summary": "正文将中心极限定理置于零矩条件与高阶不动点分布的推广框架中，明确指出它是二阶情形的特例。"
+    },
+    {
+      "title": "最大似然估计法有没有严格证明过程?",
+      "url": "https://www.zhihu.com/answer/3351204464",
+      "summary": "正文给出极大似然估计的渐近正态性与 Fisher 信息方差，说明大样本下估计量的极限分布。"
+    },
+    {
+      "title": "统计学家为什么总喜欢证明大样本定理？",
+      "url": "https://www.zhihu.com/answer/3466889847",
+      "summary": "正文比较大样本渐近结果与非渐近结果，并具体讨论中心极限定理在收敛速率和最优常数上的信息优势。"
+    },
+    {
+      "title": "为什么概率论越往现代发展感觉越让人感到迷惑？",
+      "url": "https://www.zhihu.com/answer/23893716480",
+      "summary": "正文以 Stein 方法证明 Berry-Esseen 型收敛界，并讨论中心极限定理及其收敛速率。"
+    },
+    {
+      "title": "正态分布是最自然的，但为什么人类社会中会出现「赢家通吃」现象呢？",
+      "url": "https://www.zhihu.com/answer/125111767601",
+      "summary": "正文明确陈述中心极限定理，并说明大量独立同分布变量之和趋近正态分布。"
+    },
+    {
+      "title": "正态分布是最自然的，但为什么人类社会中会出现「赢家通吃」现象呢？",
+      "url": "https://www.zhihu.com/answer/125264770570",
+      "summary": "正文以一个亿个独立 0-1 随机变量求和为例，展示大量独立变量之和趋近正态分布。"
+    },
+    {
+      "title": "为啥正态分布普遍存在？",
+      "url": "https://www.zhihu.com/answer/1967412732912436379",
+      "summary": "正文借助特征函数展开、特征函数唯一性和极限步骤完成中心极限定理的较完整证明。"
+    },
+    {
+      "title": "the delta method 是干什么的？",
+      "url": "https://www.zhihu.com/answer/1975264119998394908",
+      "summary": "正文写出独立同分布随机变量样本均值的经典中心极限定理，并在后文证明中反复调用其渐近正态结论。"
+    },
+    {
+      "title": "概率论理论是否不可证伪的？",
+      "url": "https://www.zhihu.com/answer/1985863026843344950",
+      "summary": "正文利用大量独立投掷时二项分布趋近正态分布的性质计算观测偏差。"
+    },
+    {
+      "title": "2025年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/1989020733054161279",
+      "summary": "正文具体陈述 Selberg 中心极限定理，并借矩收敛讨论极限分布，对应中心极限定理这一主题。"
+    },
+    {
+      "title": "为什么我国的概率与统计学教科书里不怎么讲幂律分布？",
+      "url": "https://www.zhihu.com/answer/1989072238893346992",
+      "summary": "正文陈述中心极限定理的内容，并进一步说明其依赖独立随机变量相加这一前提。"
+    },
+    {
+      "title": "波动率、隐含波动率到底是什么?",
+      "url": "https://www.zhihu.com/answer/2019579059529610161",
+      "summary": "正文应用中心极限定理说明大量实验结果之和趋于正态分布，并据均值和方差确定参数。"
+    },
+    {
+      "title": "为什么概率论越往现代发展感觉越让人感到迷惑？",
+      "url": "https://www.zhihu.com/answer/2074578839288668248",
+      "summary": "正文解释样本均值稳定后的剩余波动如何经标准化趋于 Gaussian，实质概括了中心极限定理。"
+    },
+    {
+      "title": "高斯与黑天鹅",
+      "url": "https://zhuanlan.zhihu.com/p/22541620",
+      "summary": "正文说明大量随机因素相加后的波动相对均值缩小，并呈现越来越集中的高斯曲线。"
+    },
+    {
+      "title": "测度论（二）",
+      "url": "https://zhuanlan.zhihu.com/p/24147520",
+      "summary": "正文用特征函数研究极限分布，并完整陈述独立同分布情形的中心极限定理。"
+    },
+    {
+      "title": "统计学笔记|数理统计知识点概要（1）",
+      "url": "https://zhuanlan.zhihu.com/p/29068570",
+      "summary": "正文给出独立同分布中心极限定理及棣莫弗-拉普拉斯定理，说明标准化和的极限分布是标准正态分布。"
+    },
+    {
+      "title": "正态分布的前世今生(一)——从高斯说起",
+      "url": "https://zhuanlan.zhihu.com/p/32339931",
+      "summary": "正文说明棣莫弗和拉普拉斯用二项分布逼近得到正态密度，并给出棣莫弗-拉普拉斯中心极限定理。"
+    },
+    {
+      "title": "从一篇ICLR'2017被拒论文谈起：行走在GAN的Latent Space",
+      "url": "https://zhuanlan.zhihu.com/p/32135185",
+      "summary": "正文把高维向量长度的平方写成独立随机变量平方和，再借中心极限定理得到近似正态分布。"
+    },
+    {
+      "title": "计量经济学证明常需要用的一些定理",
+      "url": "https://zhuanlan.zhihu.com/p/35756859",
+      "summary": "正文说明标准化样本均值依分布收敛到标准正态分布，即中心极限定理。"
+    },
+    {
+      "title": "大数定律和中心极限定理的区别和联系",
+      "url": "https://zhuanlan.zhihu.com/p/36259056",
+      "summary": "正文指出中心极限定理研究独立随机变量之和在样本量趋于无穷时的正态极限分布。"
+    },
+    {
+      "title": "概率论与统计学：离散型和连续型随机变量的概率分布",
+      "url": "https://zhuanlan.zhihu.com/p/38224194",
+      "summary": "正文说明独立同分布随机变量的样本均值在大样本下趋于正态分布，并以此解释二项分布的正态近似。"
+    },
+    {
+      "title": "凯利公式，从赌场到量化投资",
+      "url": "https://zhuanlan.zhihu.com/p/38279377",
+      "summary": "正文把多期独立对数收益率之和应用中心极限定理，解释其分布趋于正态。"
+    },
+    {
+      "title": "深入浅出正态分布，大数定律，中心极限定理",
+      "url": "https://zhuanlan.zhihu.com/p/40813565",
+      "summary": "正文用标准化和的分布收敛解释独立同分布变量为何趋向正态分布，并比较大数定律与中心极限定理。"
+    },
+    {
+      "title": "什么是中心极限定理？这里有一份可视化解释",
+      "url": "https://zhuanlan.zhihu.com/p/46963974",
+      "summary": "正文明确陈述独立随机变量均值的标准化和依分布收敛结论，并解释中心极限定理的统计意义。"
+    },
+    {
+      "title": "如何理解正态分布作为二项分布和泊松分布的近似？",
+      "url": "https://zhuanlan.zhihu.com/p/49186560",
+      "summary": "正文说明二项分布在试验次数增大时趋于均值为 np、方差为 npq 的正态分布，并讨论泊松大参数情形。"
+    },
+    {
+      "title": "概率论复习笔记(5)——Chebyshev不等式",
+      "url": "https://zhuanlan.zhihu.com/p/69525106",
+      "summary": "正文给出 Lindberg-Feller 与 Lyapunov 中心极限定理，讨论标准化随机变量和趋于标准正态分布。"
+    },
+    {
+      "title": "概率论复习笔记(8)——特征函数与Lindberg-Lévy中心极限定理",
+      "url": "https://zhuanlan.zhihu.com/p/69862244",
+      "summary": "正文完整陈述并利用特征函数证明独立同分布随机变量标准化和的 Lindberg-Lévy 中心极限定理。"
+    },
+    {
+      "title": "辉煌的中心极限定理",
+      "url": "https://zhuanlan.zhihu.com/p/85233692",
+      "summary": "正文以特征函数乘积、泰勒展开和极限完整完成中心极限定理的证明。"
+    },
+    {
+      "title": "深入浅出|中心极限定理（Central Limit Theorem）及证明",
+      "url": "https://zhuanlan.zhihu.com/p/93738110",
+      "summary": "正文用特征函数和唯一性定理给出中心极限定理的完整证明。"
+    },
+    {
+      "title": "汇总篇：切比雪夫不等式，依概率收敛，大数定律，中心极限定理",
+      "url": "https://zhuanlan.zhihu.com/p/94242856",
+      "summary": "正文陈述列维-林德伯格中心极限定理，并说明标准化样本均值趋于标准正态分布。"
+    },
+    {
+      "title": "大数定律与中心极限定理",
+      "url": "https://zhuanlan.zhihu.com/p/94140620",
+      "summary": "正文陈述林德伯格-莱维等中心极限定理，并用于计算正态近似和样本量。"
+    },
+    {
+      "title": "对二八定律和财富分配的再思考",
+      "url": "https://zhuanlan.zhihu.com/p/137094832",
+      "summary": "正文说明独立随机增长因子的对数求和如何借中心极限定理趋于正态。"
+    },
+    {
+      "title": "PR Sampling Ⅰ: 蒙特卡洛采样、重要性采样及python实现",
+      "url": "https://zhuanlan.zhihu.com/p/150693309",
+      "summary": "正文说明蒙特卡洛估计量的渐近正态性，并据此讨论方差和置信区间。"
+    },
+    {
+      "title": "自助法（Bootstrap）的介绍及其理论基础",
+      "url": "https://zhuanlan.zhihu.com/p/163849663",
+      "summary": "正文在证明自助法有效性时引用 Berry-Esseen 定理，讨论样本均值的正态近似误差。"
+    },
+    {
+      "title": "概率论——大数定律与中心极限定理",
+      "url": "https://zhuanlan.zhihu.com/p/259280292",
+      "summary": "正文给出独立同分布和二项分布等中心极限定理，并说明标准化后的正态极限。"
+    },
+    {
+      "title": "概率论(6) 渐进分析 Asymptotic Analysis",
+      "url": "https://zhuanlan.zhihu.com/p/265518049",
+      "summary": "正文推导标准化样本均值依分布收敛到标准正态，并进一步证明 t 统计量和样本方差的收敛速度。"
+    },
+    {
+      "title": "【伪科普向】万物趋向于正态分布——玩坏中心极限定理（内有大量动图）",
+      "url": "https://zhuanlan.zhihu.com/p/337186163",
+      "summary": "正文给出独立同分布随机变量平均值趋于正态分布的中心极限定理，并进一步写出标准化和的定量版本。"
+    },
+    {
+      "title": "统计学(2)|AB测试—理论基础",
+      "url": "https://zhuanlan.zhihu.com/p/338251198",
+      "summary": "正文展开中心极限定理，并据此推导样本均值的正态渐近分布及其在均值差异检验中的应用。"
+    },
+    {
+      "title": "中心极限定理，到底是个什么鬼？",
+      "url": "https://zhuanlan.zhihu.com/p/349480793",
+      "summary": "正文用样本量增大时样本均值分布趋近正态曲线解释中心极限定理的极限行为。"
+    },
+    {
+      "title": "统计学最重要的2大定理与3种收敛的关系",
+      "url": "https://zhuanlan.zhihu.com/p/357320540",
+      "summary": "正文具体说明样本均值随样本量增大而服从正态分布，并以依分布收敛刻画中心极限定理。"
+    },
+    {
+      "title": "Fisher信息量的直观理解与MLE的渐近正态性",
+      "url": "https://zhuanlan.zhihu.com/p/376717849",
+      "summary": "正文证明极大似然估计的渐近正态性，并在泰勒展开后利用中心极限定理确定估计量的极限分布。"
+    },
+    {
+      "title": "【概率论】中心极限定理：无处不在的正态分布",
+      "url": "https://zhuanlan.zhihu.com/p/391981175",
+      "summary": "正文进一步给出 Lindeberg、有界控制和 Lyapunov 等独立不同分布条件下的中心极限定理及其充分条件。"
+    },
+    {
+      "title": "量化研究员面试圣经刷题笔记6-2.6 概率、随机微积分|150 Most Frequently Asked Questions on Quant Interviews",
+      "url": "https://zhuanlan.zhihu.com/p/396919954",
+      "summary": "正文解释样本均值趋向正态分布，并讨论标准误差及中心极限定理在统计推断中的应用。"
+    },
+    {
+      "title": "傅里叶变换的几个应用",
+      "url": "https://zhuanlan.zhihu.com/p/399012702",
+      "summary": "正文用特征函数展开和傅里叶逆变换完整证明独立同分布随机变量标准化和的中心极限定理。"
+    },
+    {
+      "title": "保研面试/考研复试概率论与数理统计问题整理",
+      "url": "https://zhuanlan.zhihu.com/p/421160574",
+      "summary": "正文说明大量独立同分布随机变量的均值近似服从正态分布，并比较大数定律与中心极限定理。"
+    },
+    {
+      "title": "概率论与随机过程8——特征函数，矩母函数与母函数",
+      "url": "https://zhuanlan.zhihu.com/p/437777250",
+      "summary": "正文单列一节陈述并证明独立同分布情形的 Lindeberg-Lévy 中心极限定理。"
+    },
+    {
+      "title": "中心极限定理——概率论中最重要的结论之一",
+      "url": "https://zhuanlan.zhihu.com/p/545895865",
+      "summary": "正文证明经典、林德伯格、李雅普诺夫及多维中心极限定理，并比较各自条件。"
+    },
+    {
+      "title": "北理工《随机过程》课程复习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/612648878",
+      "summary": "正文陈述中心极限定理，并用二项分布的正态近似例题具体计算连续修正概率。"
+    },
+    {
+      "title": "czy智斗概率论（1）",
+      "url": "https://zhuanlan.zhihu.com/p/682180148",
+      "summary": "正文通过特征函数、列维连续性定理及 Lindeberg-Feller 条件推导独立同分布随机变量和的标准正态极限。"
+    },
+    {
+      "title": "统计学的基石之一——中心极限定理，竟然可以用泰勒定理来证明",
+      "url": "https://zhuanlan.zhihu.com/p/707767424",
+      "summary": "正文用矩生成函数和泰勒余项证明独立同分布样本均值的中心极限定理。"
+    }
+  ]
+}

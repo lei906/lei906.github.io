@@ -1,0 +1,681 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t2-b1",
+  "sources": [
+    {
+      "title": "多元函数的图像怎么表示？",
+      "url": "https://www.zhihu.com/answer/53139103",
+      "summary": "正文说明三元函数图像可用颜色和点大小表达函数值。"
+    },
+    {
+      "title": "有哪些数学函数在数学软件上作出的图像非常美丽？",
+      "url": "https://www.zhihu.com/answer/58909424",
+      "summary": "正文讨论图形如何由方程表示，直接围绕函数图像。"
+    },
+    {
+      "title": "y=x^x 的图像大概是什么样的？",
+      "url": "https://www.zhihu.com/answer/90234961",
+      "summary": "正文绘制 x^x 在实数及复数域上的三维图像并解释各轴含义。"
+    },
+    {
+      "title": "你见过的最丑的函数曲线图形是什么？",
+      "url": "https://www.zhihu.com/answer/93437834",
+      "summary": "正文展示人物轮廓函数及其曲线图像，主题是特殊函数图像。"
+    },
+    {
+      "title": "如何通俗地理解内部收益率（IRR）？",
+      "url": "https://www.zhihu.com/answer/94781631",
+      "summary": "正文画出折现率与 NPV 关系图并从图上解释交点。"
+    },
+    {
+      "title": "数学史上你认为最美的公式是什么？",
+      "url": "https://www.zhihu.com/answer/95907331",
+      "summary": "正文给出毛雷尔玫瑰的参数公式并展示参数变化产生的图像。"
+    },
+    {
+      "title": "有哪些比较魔性的函数图象？",
+      "url": "https://www.zhihu.com/answer/99218050",
+      "summary": "正文展示迭代方程在不同参数下生成的函数图像。"
+    },
+    {
+      "title": "有哪些比较魔性的函数图象？",
+      "url": "https://www.zhihu.com/answer/99498316",
+      "summary": "正文连续放大不同区间展示该函数在零点附近的图像。"
+    },
+    {
+      "title": "有哪些比较魔性的函数图象？",
+      "url": "https://www.zhihu.com/answer/99983326",
+      "summary": "正文给出 Tupper 自指公式并展示如何绘制与公式自身相同的图像。"
+    },
+    {
+      "title": "有哪些比较魔性的函数图象？",
+      "url": "https://www.zhihu.com/answer/101136177",
+      "summary": "正文介绍燃烧巨轮分形的迭代图像、放大结构和自相似性。"
+    },
+    {
+      "title": "一个高中数学问题，为什么导数大于等于0是单调递增，＞0可以理解但为什么等于0也是。≤0减，但等于0呢？",
+      "url": "https://www.zhihu.com/answer/108149124",
+      "summary": "正文借多幅函数图像直观区分导数为零的孤立点与零区间。"
+    },
+    {
+      "title": "如何证明当n趋于无穷时√(2+√(2+...+√2))（n个根号）趋于2？",
+      "url": "https://www.zhihu.com/answer/120764594",
+      "summary": "正文把嵌套根式数列放到函数图像上观察其迭代位置。"
+    },
+    {
+      "title": "底数为负数的指数函数的图像是什么样的？",
+      "url": "https://www.zhihu.com/answer/144645015",
+      "summary": "正文说明复值对数和负底数指数的三维图像及其截面。"
+    },
+    {
+      "title": "有哪些让人眼前一亮的函数？",
+      "url": "https://www.zhihu.com/answer/193374365",
+      "summary": "正文通过绘制函数图像、调整参数和交换横纵坐标展示公式的几何效果。"
+    },
+    {
+      "title": "为什么将 x²＋y²＝1 中 x 和 y 的指数换成大偶数，其图像会接近一个正方形？",
+      "url": "https://www.zhihu.com/answer/212437869",
+      "summary": "正文从方程随参数变化的图形收敛解释曲线形状。"
+    },
+    {
+      "title": "为什么将 x²＋y²＝1 中 x 和 y 的指数换成大偶数，其图像会接近一个正方形？",
+      "url": "https://www.zhihu.com/answer/216166438",
+      "summary": "正文用二阶导数和对称性解释曲线各部分趋平。"
+    },
+    {
+      "title": "如何用c语言画函数？",
+      "url": "https://www.zhihu.com/answer/483568196",
+      "summary": "正文用 C 代码把函数采样并绘制为图像。"
+    },
+    {
+      "title": "请问一下，这是一道高中数学的压轴题的我的做法，这种做法是否严谨，是否会被扣分？",
+      "url": "https://www.zhihu.com/answer/618593683",
+      "summary": "正文利用函数图像和直线交点判断零点。"
+    },
+    {
+      "title": "一次函数有多难？",
+      "url": "https://www.zhihu.com/answer/636865536",
+      "summary": "逐点描出一次函数图像并解释其直线形状。"
+    },
+    {
+      "title": "如何理解斜率场（slope fields）这个概念？",
+      "url": "https://www.zhihu.com/answer/668971849",
+      "summary": "通过读取斜率场图像判断对应函数。"
+    },
+    {
+      "title": "为什么二次函数横向平移是左加右减呢？",
+      "url": "https://www.zhihu.com/answer/686074919",
+      "summary": "追踪图像上点的坐标变化推导平移后的函数表达式。"
+    },
+    {
+      "title": "为什么 sin(x²)+sin(y²)=1 的图像这么复杂？",
+      "url": "https://www.zhihu.com/answer/692389802",
+      "summary": "通过二维、三维图形读取函数截面和等值线。"
+    },
+    {
+      "title": "为什么 sin(x²)+sin(y²)=1 的图像这么复杂？",
+      "url": "https://www.zhihu.com/answer/714716761",
+      "summary": "通过逐步替换自变量观察函数图像变形。"
+    },
+    {
+      "title": "高中数学函数学不懂怎么办？",
+      "url": "https://www.zhihu.com/answer/761402055",
+      "summary": "建议结合函数图像理解性质和变换。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/771960961",
+      "summary": "从不同次数函数图像的形状展开讨论。"
+    },
+    {
+      "title": "仅就作图而言，Python 和 MATLAB 有可比性吗？",
+      "url": "https://www.zhihu.com/answer/778007590",
+      "summary": "用Python和MATLAB实际绘制函数图像。"
+    },
+    {
+      "title": "求学霸告我二次函数怎么才能学好？",
+      "url": "https://www.zhihu.com/answer/928851867",
+      "summary": "正文围绕抛物线图像的交点、解析式、对称轴及相关几何问题展开。"
+    },
+    {
+      "title": "y＝x^x 的函数图像长什么样？",
+      "url": "https://www.zhihu.com/answer/1126462182",
+      "summary": "正文从图像讨论定义域、连续性、单调性与极小值。"
+    },
+    {
+      "title": "y＝x^x 的函数图像长什么样？",
+      "url": "https://www.zhihu.com/answer/1126693730",
+      "summary": "正文分析正负半轴上的取值、连续性与图像画法。"
+    },
+    {
+      "title": "y＝x^x 的函数图像长什么样？",
+      "url": "https://www.zhihu.com/answer/1164504233",
+      "summary": "正文讨论x的x次方在实数和复数域的图像绘制。"
+    },
+    {
+      "title": "y＝x^x 的函数图像长什么样？",
+      "url": "https://www.zhihu.com/answer/1217591050",
+      "summary": "正文讨论实变量复值函数的图像表示。"
+    },
+    {
+      "title": "y＝x^x 的函数图像长什么样？",
+      "url": "https://www.zhihu.com/answer/1218284181",
+      "summary": "正文讨论函数图像、采样点与可绘制性。"
+    },
+    {
+      "title": "y＝x^x 的函数图像长什么样？",
+      "url": "https://www.zhihu.com/answer/1224030713",
+      "summary": "正文分析 x^x 及幂塔函数的图像与单调性。"
+    },
+    {
+      "title": "如何在4天之内搞定一次函数？",
+      "url": "https://www.zhihu.com/answer/1309322829",
+      "summary": "正文直接讲解“图像怎么看”相关内容。"
+    },
+    {
+      "title": "这个间断点到底怎么找出来的啊?",
+      "url": "https://www.zhihu.com/answer/1417422108",
+      "summary": "正文分类间断点来源并给出判断步骤。"
+    },
+    {
+      "title": "函数 y＝ax＋b√x（b≠0）的图像是抛物线的一部分吗？怎么证明？",
+      "url": "https://www.zhihu.com/answer/1421813121",
+      "summary": "正文用二次曲线分类判断函数图像是否为抛物线的一部分。"
+    },
+    {
+      "title": "什么叫第一类间断点?",
+      "url": "https://www.zhihu.com/answer/1430550526",
+      "summary": "正文按左右极限分类第一类和第二类间断点。"
+    },
+    {
+      "title": "为什么二次函数横向平移是左加右减呢？",
+      "url": "https://www.zhihu.com/answer/1680249574",
+      "summary": "正文用换元解释函数图像左右、上下平移。"
+    },
+    {
+      "title": "不等式 x²＋4x＋7＞0 怎样解？",
+      "url": "https://www.zhihu.com/answer/1884245411",
+      "summary": "正文结合抛物线开口和零点解释不等式的图像解法。"
+    },
+    {
+      "title": "是否对于函数y=e^x上任意三点构成的三角形都是钝角三角形？若正确，请予以证明；若错误，请说明理由？",
+      "url": "https://www.zhihu.com/answer/1964416296",
+      "summary": "正文用单调函数图像和向量点积研究三点关系。"
+    },
+    {
+      "title": "y＝x^x 的函数图像长什么样？",
+      "url": "https://www.zhihu.com/answer/2019499405",
+      "summary": "正文研究迭代函数的图像、分叉与收敛区间。"
+    },
+    {
+      "title": "y = sin(tan(x)) 的函数图像为什么如此奇怪？",
+      "url": "https://www.zhihu.com/answer/2040942164",
+      "summary": "正文讨论函数图像在振荡点附近的结构。"
+    },
+    {
+      "title": "有哪些有意思的题目看起来是几何问题，其实是函数问题的呢？",
+      "url": "https://www.zhihu.com/answer/2142213123",
+      "summary": "正文把一个图形问题转化为半径之间的函数关系求解。"
+    },
+    {
+      "title": "为什么二次函数横向平移是左加右减呢？",
+      "url": "https://www.zhihu.com/answer/2370737628",
+      "summary": "正文从点与曲线图像解释函数横向平移的左右加减规则。"
+    },
+    {
+      "title": "怎么记基本初等函数的图像、定义域和值域？",
+      "url": "https://www.zhihu.com/answer/2373786813",
+      "summary": "正文系统整理初等函数图像的画法与性质。"
+    },
+    {
+      "title": "如何证明一次函数的图像不能同时经过四个象限?",
+      "url": "https://www.zhihu.com/answer/2497619846",
+      "summary": "正文通过一次函数图像经过象限的情况判断直线斜率。"
+    },
+    {
+      "title": "sincosx和cossinx的图像是怎样的?",
+      "url": "https://www.zhihu.com/answer/2674259717",
+      "summary": "正文借助余弦曲线与单位圆上的点逐段解释复合三角函数图像的纵坐标和走势。"
+    },
+    {
+      "title": "没有计算机的古代数学家知道抛物线双曲线具体长什么样吗？",
+      "url": "https://www.zhihu.com/answer/2693010309",
+      "summary": "正文解释图像只能近似展示曲线，并说明计算机作图本质上仍是描点作图。"
+    },
+    {
+      "title": "没有计算机的古代数学家知道抛物线双曲线具体长什么样吗？",
+      "url": "https://www.zhihu.com/answer/2718189298",
+      "summary": "正文说明函数曲线可以通过有限采样点近似呈现变化趋势，并讨论绘图精度与示意作用。"
+    },
+    {
+      "title": "5%的溶液和2%的溶液，配制成10%的溶液，各需要多少ml？",
+      "url": "https://www.zhihu.com/answer/2738560470",
+      "summary": "正文根据体积与浓度的关系式说明对应图像是双曲线，并结合定义域解释有意义的曲线部分。"
+    },
+    {
+      "title": "函数 y=x² 的图像绕原点顺时针旋转 45° 后，对应的表达式是什么？",
+      "url": "https://www.zhihu.com/answer/2834039515",
+      "summary": "正文从交错方格和直线族包络中辨认出抛物线，并通过分段、写成函数和平移得到完整图像。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2848649557",
+      "summary": "正文从椭圆方程出发，通过观察曲线图像并逐步修改方程来说明爱心曲线及其碎裂形态。"
+    },
+    {
+      "title": "y＝ln（x+1）/2（e^x-1）？",
+      "url": "https://www.zhihu.com/answer/2855478643",
+      "summary": "正文先画出两个函数的图像，再通过形状、对称中心与渐近线判断它们是否构成双曲线。"
+    },
+    {
+      "title": "有哪些看起来很简单但做起来很难的数学题？",
+      "url": "https://www.zhihu.com/answer/2912411355",
+      "summary": "正文逐段画出递归函数图像，依据斜率、突变点和分段套嵌结构解释函数在各区间上的形态。"
+    },
+    {
+      "title": "做过最气的题是什么题？",
+      "url": "https://www.zhihu.com/answer/2981697046",
+      "summary": "正文通过分段函数图像的“最低谷”解释最小值，展示了如何从图像读取函数的最值。"
+    },
+    {
+      "title": "有哪些密集恐惧症的人看了会头皮发麻的图片？",
+      "url": "https://www.zhihu.com/answer/2997477682",
+      "summary": "正文通过燃烧数函数的自指定义说明其图像产生层层压缩的无穷小波峰，属于对特殊函数图像的解读。"
+    },
+    {
+      "title": "请问这个方程图像有什么性质？",
+      "url": "https://www.zhihu.com/answer/3007849626",
+      "summary": "正文结合图像说明曲线在靠近 y 轴处密集、弯折点可连成纵向曲线等规律，实质讨论如何观察函数图像。"
+    },
+    {
+      "title": "为什么有的人永远都学不好数学？",
+      "url": "https://www.zhihu.com/answer/3039770655",
+      "summary": "正文通过原函数和近似函数图像的贴合程度解释泰勒近似的误差变化。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/3152700467",
+      "summary": "正文通过对比抛物线图像、导函数直线和间距变化，说明如何从图像分析两个函数之间的相对关系。"
+    },
+    {
+      "title": "有什么比较好的数学作图工具（除了几何画板）？",
+      "url": "https://www.zhihu.com/answer/3192852910",
+      "summary": "正文通过函数作图和不等式验证案例，说明如何借助图像观察函数的奇偶性、对称性、周期、单调性和零点。"
+    },
+    {
+      "title": "为什么sin(x²＋y²)＝0.5的图像这么丑陋?",
+      "url": "https://www.zhihu.com/answer/3231848533",
+      "summary": "正文指出图像显示过于密集会造成观察错误，并给出补齐圆形结构、先看局部来辨认函数图像的读图方法。"
+    },
+    {
+      "title": "为什么sin(x²＋y²)＝0.5的图像这么丑陋?",
+      "url": "https://www.zhihu.com/answer/3243289427",
+      "summary": "正文通过找出各层半径并分步画圆来解释原隐函数图像的外观和间隔变化。"
+    },
+    {
+      "title": "根号下0+ 根号下0+根号下0+根号下0+..............（加到山无陵天地合） 等于多少？",
+      "url": "https://www.zhihu.com/answer/3243345388",
+      "summary": "正文逐段解释如何读蛛网图中函数曲线、恒等直线和迭代轨迹，以判断迭代序列的去向。"
+    },
+    {
+      "title": "为什么sin(x²＋y²)＝0.5的图像这么丑陋?",
+      "url": "https://www.zhihu.com/answer/3243784906",
+      "summary": "正文解释所见图案并非函数本身，而是绘图软件对精细隐函数采样失真造成的图像。"
+    },
+    {
+      "title": "实分析，复分析，数学分析，实变函数，复变函数的关系是什么？",
+      "url": "https://www.zhihu.com/answer/3417262490",
+      "summary": "正文把复变函数拆成两个实值函数，并通过点阵、网格和曲线变换展示函数图像。"
+    },
+    {
+      "title": "如何用一个函数画出最有意思的图形？",
+      "url": "https://www.zhihu.com/answer/3429618268",
+      "summary": "正文解释塔珀自指公式如何按坐标把常数解码成二维黑白图像，并给出绘制代码。"
+    },
+    {
+      "title": "你们见过最雷的同人文是怎么样的？",
+      "url": "https://www.zhihu.com/answer/3546981847",
+      "summary": "正文借用反比例函数曲线无限接近坐标轴而不相交的图像特征推动情节，实际呈现了函数图像的渐近行为。"
+    },
+    {
+      "title": "上海中学2024自主招生面试题，如何用二元二次方程组表达「春草明年绿，王孙归不归」的意境？",
+      "url": "https://www.zhihu.com/answer/3547000474",
+      "summary": "正文具体解释两曲线在定义域内的接近、随 X 增大而远离以及后段相交的图像变化。"
+    },
+    {
+      "title": "人的大脑会不会出现「过拟合」病?",
+      "url": "https://www.zhihu.com/answer/3583322989",
+      "summary": "正文通过比较两函数图像的渐近方向和增长速度，说明如何从图像辨认函数特征。"
+    },
+    {
+      "title": "高中阶段自己独立思考硬刚写出来的题和直接看答案，二者效果上有什么区别?",
+      "url": "https://www.zhihu.com/answer/3614657936",
+      "summary": "正文示范从函数式的系数、常数项、单调性和值域读出图像的大致形态，具体讲解如何看函数图像。"
+    },
+    {
+      "title": "是否可以由 aᵃ=bᵇ 推出 a=b？为什么？",
+      "url": "https://www.zhihu.com/answer/39233342085",
+      "summary": "正文借助坐标平面中的直线和弧线解释解的分布，并说明水平线与函数图像的交点如何对应不同解。"
+    },
+    {
+      "title": "是否可以由 aᵃ=bᵇ 推出 a=b？为什么？",
+      "url": "https://www.zhihu.com/answer/81062183321",
+      "summary": "正文借助 y=x^x 的函数图象和曲线分段，解释哪一区间不单调以及何时不能由函数值相等推出自变量相等。"
+    },
+    {
+      "title": "一个人能无聊到什么程度？",
+      "url": "https://www.zhihu.com/answer/116316773850",
+      "summary": "正文根据裤腰被重力压出的形状识别曲线，解释其近似为悬链线而非抛物线，并实际绘制函数曲线。"
+    },
+    {
+      "title": "中学数学题的「隐藏 BOSS」，你在哪些题里窥见了大学数学的影子？",
+      "url": "https://www.zhihu.com/answer/124494514877",
+      "summary": "正文通过二次函数的顶点、零点和图像草图确定曲边区域，并比较三角形上界与下界。"
+    },
+    {
+      "title": "为什么f(x)=xˣ函数图像没有<0的部分？",
+      "url": "https://www.zhihu.com/answer/130299685276",
+      "summary": "正文解释如何用三维曲线以及实部、虚部分平面图观察多值函数图像。"
+    },
+    {
+      "title": "有没有人知道sinx+sin2x+...+sinnx图像的这段曲线的解析式？",
+      "url": "https://www.zhihu.com/answer/1929665119060722505",
+      "summary": "正文通过快速振荡项的最大最小值解释总和函数的局部极值及上下包络图像。"
+    },
+    {
+      "title": "是否可以由 aᵃ=bᵇ 推出 a=b？为什么？",
+      "url": "https://www.zhihu.com/answer/2015197141660889489",
+      "summary": "正文通过绘制 f(x)=x^x 的图像判断其单调性，并用图像说明方程在 0 到 1 之间可有多个解。"
+    },
+    {
+      "title": "曲线y=eˣ上是否存在四点共圆？",
+      "url": "https://www.zhihu.com/answer/2030042885224149845",
+      "summary": "正文根据导数的符号区间读出函数的 W 形图像，并利用图像与水平线的交点判断解的个数。"
+    },
+    {
+      "title": "如何为五行建立一个数学公式模型？",
+      "url": "https://www.zhihu.com/answer/2044826072919847997",
+      "summary": "正文结合坐标轴、象限符号、区间和极值点来解读正弦函数图像。"
+    },
+    {
+      "title": "R语言的一个小范例：数值模拟和绘图",
+      "url": "https://zhuanlan.zhihu.com/p/19771014",
+      "summary": "正文以采样绘图展示 beta 随 alpha 先增后减，并定位图中最大值所对应的 alpha。"
+    },
+    {
+      "title": "三次函数的一些问题",
+      "url": "https://zhuanlan.zhihu.com/p/25059644",
+      "summary": "正文通过导函数符号解释三次函数图像的单调增减和从左下到右上的整体走势。"
+    },
+    {
+      "title": "【幂函数】- 图解高中数学",
+      "url": "https://zhuanlan.zhihu.com/p/26253919",
+      "summary": "正文按整数和分数指数分类观察幂函数图像，总结单调性、过点与所在象限等作图规律。"
+    },
+    {
+      "title": "中学篇 No. 2：数学是什么",
+      "url": "https://zhuanlan.zhihu.com/p/26615290",
+      "summary": "正文具体说明正弦函数图像的水平平移，以及将 x 轴下方部分关于 x 轴翻折的作图方法。"
+    },
+    {
+      "title": "三角函数图像变换（易错点，非难点）",
+      "url": "https://zhuanlan.zhihu.com/p/28165334",
+      "summary": "正文通过伸缩、平移和五点法说明如何由正弦图像读出并作出变换后的函数图像。"
+    },
+    {
+      "title": "画出图像之后……会出现什么呢喵？——秋田大学1986年高考题",
+      "url": "https://zhuanlan.zhihu.com/p/29252397",
+      "summary": "正文通过逐段作图并由图像整体识别图案，练习函数图像与解析式之间的对应。"
+    },
+    {
+      "title": "高中数学之函数图像（1）",
+      "url": "https://zhuanlan.zhihu.com/p/29623745",
+      "summary": "正文系统讲解平移、对称、横轴伸缩以及用单调性和极值辅助绘制函数图像。"
+    },
+    {
+      "title": "【解析几何】谈谈反比例函数与双曲线",
+      "url": "https://zhuanlan.zhihu.com/p/33554431",
+      "summary": "正文把反比例函数图像解释为等轴双曲线，并用旋转变换说明其标准图形。"
+    },
+    {
+      "title": "常见函数单调性及函数单调性的定理",
+      "url": "https://zhuanlan.zhihu.com/p/34828330",
+      "summary": "正文按函数类型给出增区间和减区间，说明如何由函数表达式判断图像趋势。"
+    },
+    {
+      "title": "给中学生的科普：二次曲线的分类",
+      "url": "https://zhuanlan.zhihu.com/p/36508439",
+      "summary": "正文根据二元二次方程系数的符号和判别式判断图像是椭圆、双曲线、抛物线或退化情形。"
+    },
+    {
+      "title": "多元变量微积分-第六讲-多元函数等值面图、偏导数",
+      "url": "https://zhuanlan.zhihu.com/p/40520573",
+      "summary": "正文解释等高线与等值面图的画法，并以线条疏密判断坡度，说明如何阅读函数图像。"
+    },
+    {
+      "title": "向量场的介绍",
+      "url": "https://zhuanlan.zhihu.com/p/46362611",
+      "summary": "正文通过二维向量场图解释箭头长度、方向、颜色和分量如何反映函数变化。"
+    },
+    {
+      "title": "高考数学二级结论——函数与导数部分",
+      "url": "https://zhuanlan.zhihu.com/p/51584482",
+      "summary": "正文逐一说明 x 与指数、对数组合所得函数图像的定义域、单调性和整体趋势。"
+    },
+    {
+      "title": "呆哥数学不等式——一元二次不等式核心求法1【1】",
+      "url": "https://zhuanlan.zhihu.com/p/52368725",
+      "summary": "正文把不等式大小关系解释为两个函数图像的上下位置，并用抛物线开口和交点读出解集。"
+    },
+    {
+      "title": "呆哥数学三角函数——Asin(wx+φ)的图像与性质1【5】",
+      "url": "https://zhuanlan.zhihu.com/p/53157722",
+      "summary": "正文回顾函数图像的左右平移和横纵伸缩规则，并据此解释正弦型函数图像如何变换。"
+    },
+    {
+      "title": "呆哥数学三角函数——Asin(wx+φ)的图像与性质2【6】",
+      "url": "https://zhuanlan.zhihu.com/p/53158824",
+      "summary": "正文从图像读取振幅和四分之一周期，再代入峰值点确定正弦型函数的解析式。"
+    },
+    {
+      "title": "MIT—微分方程笔记01 图解法",
+      "url": "https://zhuanlan.zhihu.com/p/53848566",
+      "summary": "正文具体讲解如何从坐标平面上的方向场读取斜率，并沿线素识别满足微分方程的积分曲线。"
+    },
+    {
+      "title": "高中数学：轻松秒杀三角函数图像平移变换最难题型，颠覆传统解题思维！",
+      "url": "https://zhuanlan.zhihu.com/p/54180956",
+      "summary": "正文用特征点位置和数轴说明三角函数图像左右平移多少单位。"
+    },
+    {
+      "title": "呆哥数学函数合集——函数的性质  干货 ！知识要点【3】",
+      "url": "https://zhuanlan.zhihu.com/p/54756510",
+      "summary": "正文直接把函数图像的上升和下降区间对应单调递增与递减，讲解如何从图像判断函数性质。"
+    },
+    {
+      "title": "呆哥数学函数合集——函数的图形变换来啦【4】",
+      "url": "https://zhuanlan.zhihu.com/p/54756923",
+      "summary": "正文系统讲解函数图像的平移、伸缩、翻转与对称变换，并据此分析和绘制函数图像。"
+    },
+    {
+      "title": "你知道为了测博尔特的速度，我们有多努力嘛？",
+      "url": "https://zhuanlan.zhihu.com/p/61845929",
+      "summary": "正文通过距离-时间折线的斜率和弯曲程度解释速度大小、加速与匀速阶段，具体讲解如何阅读函数图像。"
+    },
+    {
+      "title": "高考考纲与考向分析——三角函数的图像与性质",
+      "url": "https://zhuanlan.zhihu.com/p/63718257",
+      "summary": "正文通过平移、伸缩、五点和解析式参数说明如何识读并绘制三角函数图象。"
+    },
+    {
+      "title": "初中数学--函数平移为什么是左加右减，上加下减",
+      "url": "https://zhuanlan.zhihu.com/p/70032029",
+      "summary": "正文从二次函数图像的顶点和整体移动解释平移后解析式的变化，说明如何从图像和方程读取函数变化。"
+    },
+    {
+      "title": "函数奇偶性的常用结论",
+      "url": "https://zhuanlan.zhihu.com/p/75431514",
+      "summary": "正文说明奇函数在关于原点对称区间上的单调性一致，属于对函数图像与单调关系的解读。"
+    },
+    {
+      "title": "初学讲义之高中数学三：函数初步",
+      "url": "https://zhuanlan.zhihu.com/p/79609550",
+      "summary": "正文说明如何把定义域与值域中的对应数值画成函数图像，并讨论图像的直观判断作用及局限。"
+    },
+    {
+      "title": "初学讲义之高中数学五：二次函数",
+      "url": "https://zhuanlan.zhihu.com/p/80373882",
+      "summary": "正文通过开口、单调性、平移和坐标轴交点具体说明如何阅读二次函数图像。"
+    },
+    {
+      "title": "初学讲义之高中数学九：正弦函数",
+      "url": "https://zhuanlan.zhihu.com/p/81780967",
+      "summary": "正文从单位圆取点绘制正弦曲线，并由图像读取定义域、值域、单调区间及纵向拉伸和平移。"
+    },
+    {
+      "title": "指数对数幂函数，基础有问题就看这篇！",
+      "url": "https://zhuanlan.zhihu.com/p/91875580",
+      "summary": "正文用底数变化说明指数、对数与幂函数图像的升降、分布和作图方法。"
+    },
+    {
+      "title": "高数.渐近线求法.断点分类与理解",
+      "url": "https://zhuanlan.zhihu.com/p/101999432",
+      "summary": "正文从函数图像与直线的接近关系解释三类渐近线，并结合断点分类讨论图像行为。"
+    },
+    {
+      "title": "临界点、驻点、拐点、鞍点、顶点（曲线）",
+      "url": "https://zhuanlan.zhihu.com/p/117224925",
+      "summary": "正文结合函数图像解释拐点表示凹凸性改变，并用正弦曲线和三次函数举例。"
+    },
+    {
+      "title": "三角函数的图像与性质",
+      "url": "https://zhuanlan.zhihu.com/p/129703202",
+      "summary": "正文利用函数图像和单位圆说明三角函数值域、最值及单调性的读图方法。"
+    },
+    {
+      "title": "浅谈|f(x)|最大值的最小值问题－－切比雪夫最佳逼近直线在高考中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/130443282",
+      "summary": "正文借助函数图像的动态平移读出区间最值取得最小值的条件。"
+    },
+    {
+      "title": "一元三次方程的求根公式",
+      "url": "https://zhuanlan.zhihu.com/p/137077558",
+      "summary": "正文通过三次函数的转折点、单调性和与横轴交点解释根的数量及图像形态。"
+    },
+    {
+      "title": "如何学习初中函数（理解篇）",
+      "url": "https://zhuanlan.zhihu.com/p/145968428",
+      "summary": "正文把函数图像理解为直角坐标系中有规律的点集及其连成的曲线。"
+    },
+    {
+      "title": "对勾函数、飘带函数",
+      "url": "https://zhuanlan.zhihu.com/p/147659121",
+      "summary": "正文结合函数图像说明渐近线、极值点、单调性和奇偶性等可由图像读取的性质。"
+    },
+    {
+      "title": "GeoGebra对导数放缩中感觉的培养",
+      "url": "https://zhuanlan.zhihu.com/p/161286530",
+      "summary": "正文说明可用软件绘图判断放缩是否到位并辅助分析函数关系。"
+    },
+    {
+      "title": "如果看了此文你还不懂傅里叶变换，那就过来掐死我吧",
+      "url": "https://zhuanlan.zhihu.com/p/221913939",
+      "summary": "正文通过频谱、相位谱图示解释如何从振幅和相位读取频域信息。"
+    },
+    {
+      "title": "基本初等函数第一篇——幂函数",
+      "url": "https://zhuanlan.zhihu.com/p/242880083",
+      "summary": "正文按指数的三个区间说明幂函数图像的递增快慢，并结合第一象限图形识图。"
+    },
+    {
+      "title": "数学分析Mathematical Analysis笔记整理 第五章 微分中值定理及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/309342056",
+      "summary": "正文用一阶、二阶导数讨论单调性、极值、凹凸性和渐近线，并据此给出函数作图步骤。"
+    },
+    {
+      "title": "函数性质之------对称性！！！",
+      "url": "https://zhuanlan.zhihu.com/p/326934998",
+      "summary": "正文具体说明如何利用对称性由一侧图像补全另一侧，属于函数图像识读与作图方法。"
+    },
+    {
+      "title": "函数的性质之------周期性！！！",
+      "url": "https://zhuanlan.zhihu.com/p/328963616",
+      "summary": "正文从函数图像上相隔一个周期的两点纵坐标相等出发，解释图像重复出现，说明如何从图像理解周期函数。"
+    },
+    {
+      "title": "高中数学常见的九大奇函数和偶函数类型，你真的掌握了吗？",
+      "url": "https://zhuanlan.zhihu.com/p/342824545",
+      "summary": "正文通过原点对称和纵轴对称来解释奇偶函数，并据此识别和判断常见函数图象。"
+    },
+    {
+      "title": "MATLAB画图技巧与实例（二十）：等高线图contour和contourf函数",
+      "url": "https://zhuanlan.zhihu.com/p/359626420",
+      "summary": "正文说明等高线如何用 x-y 平面上的曲线和颜色表示高度，并通过峰谷颜色解释图形含义。"
+    },
+    {
+      "title": "MATLAB画图技巧与实例（二十二）：三维等高线图contourslice切片函数",
+      "url": "https://zhuanlan.zhihu.com/p/360092746",
+      "summary": "正文通过三维体数据坐标和固定切片平面展示函数值的空间分布，说明如何读取高维数据的图像。"
+    },
+    {
+      "title": "已知f(x), 如何画1/f(x)图像？",
+      "url": "https://zhuanlan.zhihu.com/p/378063665",
+      "summary": "正文系统说明由 f(x) 的零点、渐近线、符号和增减性分析并绘制 1/f(x) 图像的方法。"
+    },
+    {
+      "title": "Matlab入门笔记（上）基础语法",
+      "url": "https://zhuanlan.zhihu.com/p/379879386",
+      "summary": "正文以 plot、figure、subplot 和坐标设置讲解如何把函数数据绘制成图像。"
+    },
+    {
+      "title": "把双曲线仿射成反比例函数和对勾函数（自研）",
+      "url": "https://zhuanlan.zhihu.com/p/380355158",
+      "summary": "正文研究双曲线经过旋转、反射后与反比例函数和对勾函数图像之间的关系。"
+    },
+    {
+      "title": "函数对称性、奇偶性、周期性技巧结论38条及综合应用",
+      "url": "https://zhuanlan.zhihu.com/p/402342417",
+      "summary": "正文把抽象函数的关系式翻译成对称轴、对称中心和周期等图像特征，并据此识图解题。"
+    },
+    {
+      "title": "高中数学导数 常见组合函数的图像总结及应用",
+      "url": "https://zhuanlan.zhihu.com/p/492073994",
+      "summary": "正文按凹凸区间、极值和渐近线系统分析组合函数的图像形状。"
+    },
+    {
+      "title": "解读文献里的那些图——误差棒",
+      "url": "https://zhuanlan.zhihu.com/p/516136114",
+      "summary": "正文具体说明如何读取误差棒的长度，并据此判断数据离散程度、变异性和可重复性。"
+    },
+    {
+      "title": "【升级の高中数学｜导数】一种神奇的函数零点和逼近方法",
+      "url": "https://zhuanlan.zhihu.com/p/540384985",
+      "summary": "正文用两条函数曲线与水平线的交点位置解释零点之和的大小关系。"
+    },
+    {
+      "title": "数学的艺术 —— Geogebra 简易教程",
+      "url": "https://zhuanlan.zhihu.com/p/710005787",
+      "summary": "正文演示如何用 Geogebra 绘制函数、限定定义域并通过滑块观察图像。"
+    },
+    {
+      "title": "深入浅出数学系列 | 数列（1）：等差等比数列基础",
+      "url": "https://zhuanlan.zhihu.com/p/1695300628",
+      "summary": "正文通过反比例函数图像的渐近线和正负号变化确定数列大小条件，读图得到参数范围。"
+    },
+    {
+      "title": "深入浅出数学系列 | 数列（3）：数列递推",
+      "url": "https://zhuanlan.zhihu.com/p/2690613176",
+      "summary": "正文借助函数图像与不动点解释蛛网模型，并用图像判断递推数列的单调性和取值范围。"
+    },
+    {
+      "title": "2025武汉四调第11题，背后原理是曲线旋转！彻底讲明白",
+      "url": "https://zhuanlan.zhihu.com/p/1895919027764844156",
+      "summary": "正文通过联立方程并比较函数图象与直线的交点来分析方程解的个数。"
+    },
+    {
+      "title": "13613 sin(x) * sin(πx) 的图像上，为什么会形成「飘带」？",
+      "url": "https://zhuanlan.zhihu.com/p/1935591670113632397",
+      "summary": "正文结合函数图像上的极值点、包络和尺度变化解释飘带如何从图像中形成。"
+    }
+  ]
+}

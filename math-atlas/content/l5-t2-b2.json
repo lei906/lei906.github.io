@@ -1,0 +1,841 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l5-t2-b2",
+  "sources": [
+    {
+      "title": "数学的魅力是什么？",
+      "url": "https://www.zhihu.com/answer/27538301",
+      "summary": "正文围绕“同胚”给出说明、例证或方法。"
+    },
+    {
+      "title": "大学数学系学什么？",
+      "url": "https://www.zhihu.com/answer/41666311",
+      "summary": "正文将拓扑的“软”性质具体界定为在同胚、微分同胚或同伦变换下保持不变，直接展开了同胚在拓扑研究中的作用。"
+    },
+    {
+      "title": "几何拓扑（geometric topology）这个数学分支，主要包含哪些内容？",
+      "url": "https://www.zhihu.com/answer/42867573",
+      "summary": "正文将流形的同胚型与微分同胚型分类明确列为几何拓扑的核心目标。"
+    },
+    {
+      "title": "哪些数学定理在直觉上是对的，但证明起来很困难？",
+      "url": "https://www.zhihu.com/answer/46511881",
+      "summary": "正文直接使用同胚及同胚像说明Jordan曲线定理。"
+    },
+    {
+      "title": "数学上还有哪些类似 0.99999…=1 这样有点不符合初学者常识的有趣的事实？",
+      "url": "https://www.zhihu.com/answer/70677255",
+      "summary": "正文举例说明同胚与拓扑等价。"
+    },
+    {
+      "title": "世界上最短的数学论文研究的是什么？",
+      "url": "https://www.zhihu.com/answer/105265138",
+      "summary": "正文用连续捏橡皮泥解释同胚，并对比微分同胚。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/115078072",
+      "summary": "正文说明特殊正交群与实射影空间之间存在同胚。"
+    },
+    {
+      "title": "同伦等价（homotopy equivalent）与同胚（homeomorphic）区别是什么？",
+      "url": "https://www.zhihu.com/answer/120440899",
+      "summary": "正文把同胚解释为保持全部拓扑结构的重命名而非关键性的形变。"
+    },
+    {
+      "title": "如何理解拓扑同胚但微分不同胚？",
+      "url": "https://www.zhihu.com/answer/129913420",
+      "summary": "正文解释拓扑同胚而微分结构不相容的含义，并以二维环面的不同复结构和不变量作论证。"
+    },
+    {
+      "title": "对于拓扑的了解？",
+      "url": "https://www.zhihu.com/answer/144478672",
+      "summary": "正文用闭曲面亏格解释同胚与拓扑分类。"
+    },
+    {
+      "title": "何为分析方法、代数方法、几何方法、拓扑方法？",
+      "url": "https://www.zhihu.com/answer/194031701",
+      "summary": "正文用保向同胚与共形映射定义标记黎曼曲面的等价关系。"
+    },
+    {
+      "title": "标记 n 维空间中任意一个点/向量一定要用 n 个坐标吗？",
+      "url": "https://www.zhihu.com/answer/195220199",
+      "summary": "正文把维数问题转化为不同欧氏空间之间是否存在同胚，并用区域不变性回答。"
+    },
+    {
+      "title": "你所在数学领域的 big picture 是什么？",
+      "url": "https://www.zhihu.com/answer/201081140",
+      "summary": "正文用光滑同胚和微分同胚共轭定义流形上作用的代数刚性。"
+    },
+    {
+      "title": "拓扑学究竟是一种什么样的学科？",
+      "url": "https://www.zhihu.com/answer/229676485",
+      "summary": "正文用咖啡杯与面包圈的连续变形解释同胚及其不变量。"
+    },
+    {
+      "title": "希尔伯特曲线真的遍历了区间中的所有点了吗？",
+      "url": "https://www.zhihu.com/answer/242252736",
+      "summary": "正文辨析连续满射不意味着线段与平面区域同胚。"
+    },
+    {
+      "title": "如何学习点集拓扑学？",
+      "url": "https://www.zhihu.com/answer/275849454",
+      "summary": "正文以不同维欧氏空间不同胚为例说明拓扑区分。"
+    },
+    {
+      "title": "能够在几分钟的时间内向普通本科生解释清楚最前沿的理科科研工作（偏理论）吗？",
+      "url": "https://www.zhihu.com/answer/315184393",
+      "summary": "正文通过挖去零测集后与欧氏空间同胚说明拓扑结构。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/378454878",
+      "summary": "正文由区域不变性定理说明连续单射保持开集，并给出不同维欧氏空间不同胚的结论。"
+    },
+    {
+      "title": "R^2 与 C 的区别在哪里？为什么有数学家认为复数用 a+bi 表示不好？",
+      "url": "https://www.zhihu.com/answer/414599247",
+      "summary": "正文明确说明 R² 与 C 作为拓扑空间存在同胚。"
+    },
+    {
+      "title": "为什么拓扑空间之间连续一一映射的逆映射可以不连续？",
+      "url": "https://www.zhihu.com/answer/508969966",
+      "summary": "说明连续双射成为同胚所需的逆映射连续条件，并给出紧到 Hausdorff 空间的充分条件。"
+    },
+    {
+      "title": "欧氏空间到自身的局部同胚、连续、满映射，是否一定是单射？",
+      "url": "https://www.zhihu.com/answer/642392543",
+      "summary": "用多项式映射反例说明局部同胚且满不必单射。"
+    },
+    {
+      "title": "欧氏空间到自身的局部同胚、连续、满映射，是否一定是单射？",
+      "url": "https://www.zhihu.com/answer/642564425",
+      "summary": "构造整函数局部同胚、满射但非单射的反例。"
+    },
+    {
+      "title": "庞加莱猜想的意义是什么？它的证明给数学带来了什么样的发展？",
+      "url": "https://www.zhihu.com/answer/651729219",
+      "summary": "用球面与甜甜圈的连续形变直观解释同胚。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/655761957",
+      "summary": "讨论连续变形下保持不变的拓扑性质。"
+    },
+    {
+      "title": "克莱因瓶的方程是什么？",
+      "url": "https://www.zhihu.com/answer/692930998",
+      "summary": "说明其是同胚意义下的曲面类型。"
+    },
+    {
+      "title": "是否存在体积无限但表面积有限的图形？",
+      "url": "https://www.zhihu.com/answer/731914509",
+      "summary": "用同胚关系比较不同曲面构造。"
+    },
+    {
+      "title": "orbifold和groupoid有没有人了解？",
+      "url": "https://www.zhihu.com/answer/752357005",
+      "summary": "用局部同胚刻画拓扑 orbifold。"
+    },
+    {
+      "title": "数学中有什么难以置信的结论？",
+      "url": "https://www.zhihu.com/answer/758519291",
+      "summary": "用同胚与微分同胚区分拓扑和光滑结构。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/831893325",
+      "summary": "通过球面与环面橡皮带例子解释同胚。"
+    },
+    {
+      "title": "如何将虫蛀的双苹果变成甜甜圈？",
+      "url": "https://www.zhihu.com/answer/839584950",
+      "summary": "正文以亏格和连续形变解释双苹果与甜甜圈之间的拓扑同胚。"
+    },
+    {
+      "title": "有哪些很容易让普通人误解的学术名词？",
+      "url": "https://www.zhihu.com/answer/976698381",
+      "summary": "正文定义连续映射、同胚映射及拓扑空间的同胚等价。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/1046164475",
+      "summary": "正文以同胚结论表述庞加莱猜想。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/1189284321",
+      "summary": "正文用球、方块与甜甜圈解释同胚。"
+    },
+    {
+      "title": "如何看待 William Thurston 在低维拓扑上的贡献？",
+      "url": "https://www.zhihu.com/answer/1208121760",
+      "summary": "正文讨论流形同胚与几何结构。"
+    },
+    {
+      "title": "如何理解微分同胚的概念？",
+      "url": "https://www.zhihu.com/answer/1370759669",
+      "summary": "正文以连续可逆映射解释同胚，再推广到微分同胚。"
+    },
+    {
+      "title": "有什么数学定理一般人都觉得是常识，但严谨证明起来却挺费力的？",
+      "url": "https://www.zhihu.com/answer/1379412272",
+      "summary": "正文解释庞加莱猜想中的三维流形与同胚。"
+    },
+    {
+      "title": "怎么用拓扑结构来刻画实数集？",
+      "url": "https://www.zhihu.com/answer/1813580635",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "拓扑学中有哪些只对低维成立的定理？",
+      "url": "https://www.zhihu.com/answer/2116986848",
+      "summary": "正文用若尔当曲线与圆周同胚解释一维三角剖分。"
+    },
+    {
+      "title": "皮克定理有哪些证明？",
+      "url": "https://www.zhihu.com/answer/2300155166",
+      "summary": "正文把粘接后的平行四边形描述为同胚于圆环面的曲面。"
+    },
+    {
+      "title": "拓扑学究竟是一种什么样的学科？",
+      "url": "https://www.zhihu.com/answer/2412443287",
+      "summary": "正文把同胚列为点集拓扑提供的基础拓扑概念。"
+    },
+    {
+      "title": "拓扑学究竟是一种什么样的学科？",
+      "url": "https://www.zhihu.com/answer/2412711320",
+      "summary": "正文给出同胚定义，并以正方形、线段、甜甜圈和咖啡杯说明拓扑等价。"
+    },
+    {
+      "title": "用最通俗的语言解释一下庞加莱猜想？",
+      "url": "https://www.zhihu.com/answer/2422557165",
+      "summary": "正文用同胚关系表述庞加莱猜想的拓扑内容。"
+    },
+    {
+      "title": "拓扑领域有哪些美妙的工作？",
+      "url": "https://www.zhihu.com/answer/2424523286",
+      "summary": "正文用同胚但不微分同胚解释 Milnor 怪球。"
+    },
+    {
+      "title": "复变函数中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2446906320",
+      "summary": "正文由黎曼映射定理推出任意两个单连通开集双全纯同构，并明确讨论同胚。"
+    },
+    {
+      "title": "复变函数中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2449436421",
+      "summary": "正文直接用同胚说明复椭圆曲线的拓扑形状。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/2573890860",
+      "summary": "说明 Baire 空间在所述拓扑下与无理数集同胚，并据此研究集合的拓扑性质。"
+    },
+    {
+      "title": "你见过最有趣的数学笑话是什么？",
+      "url": "https://www.zhihu.com/answer/2647240341",
+      "summary": "用 homeomorphic 与 homie 的谐音作同胚数学笑话。"
+    },
+    {
+      "title": "为什么裤子前后穿反了不能通过“把裤腰旋转180度”的方式调整（而裙子可以）？",
+      "url": "https://www.zhihu.com/answer/2661776541",
+      "summary": "将裤管边界与圆周同胚，并区分同胚、同伦与同调的推出关系。"
+    },
+    {
+      "title": "为什么裤子前后穿反了不能通过“把裤腰旋转180度”的方式调整（而裙子可以）？",
+      "url": "https://www.zhihu.com/answer/2746584583",
+      "summary": "正文利用裤子与挖孔球面的同胚关系，把旋转问题转化为球面上的不动点问题。"
+    },
+    {
+      "title": "一个矩形自转一圈是一个圆柱，一个立方体在四维空间自转一圈得到的是什么？",
+      "url": "https://www.zhihu.com/answer/2844906113",
+      "summary": "正文先指出立方体与实心三维球体同胚，再通过切开和粘贴圆盘、球面来解释不同拓扑表示的等价性。"
+    },
+    {
+      "title": "同调代数到底是在做什么？",
+      "url": "https://www.zhihu.com/answer/2983096168",
+      "summary": "正文以橡皮变形仍不能把球面变成环面说明拓扑变换和同胚的区别，并讨论不同胚的整体不变量。"
+    },
+    {
+      "title": "谁创立了代数拓扑学？",
+      "url": "https://www.zhihu.com/answer/3013326011",
+      "summary": "正文以拉伸和挤压下的拓扑等价定义同胚，并联系球面、环面与拓扑分类。"
+    },
+    {
+      "title": "你最喜欢的数学定理是什么？",
+      "url": "https://www.zhihu.com/answer/3031969222",
+      "summary": "正文陈述黎曼映射定理，并指出复平面单连通真开子集都与单位圆盘双全纯同构，由此说明二维欧氏平面的单连通开子集彼此同胚。"
+    },
+    {
+      "title": "为什么我觉得微分几何是伪几何，本质上是代数和分析？",
+      "url": "https://www.zhihu.com/answer/3048187425",
+      "summary": "正文说明曲率与直径条件可推出流形同胚于球面，实质涉及同胚这一拓扑性质。"
+    },
+    {
+      "title": "请问学习路线吗？低维拓扑有什么?",
+      "url": "https://www.zhihu.com/answer/3096446295",
+      "summary": "正文以 Freedman 分类定理说明四维流形按其同胚类与相交形式分类。"
+    },
+    {
+      "title": "微分流形中定义浸入(immersion)的初衷是什么？有什么直观的几何含义吗？",
+      "url": "https://www.zhihu.com/answer/3098613552",
+      "summary": "正文用同胚刻画嵌入，并通过圆周与无穷符号的浸入例子说明浸入不必同胚。"
+    },
+    {
+      "title": "怎么判断自己正在使用的是Ni还是Ne？",
+      "url": "https://www.zhihu.com/answer/3113758029",
+      "summary": "正文用带把杯子和甜甜圈可互相连续变换的经典例子说明什么是同胚。"
+    },
+    {
+      "title": "如图，如果向量可以是弯的？",
+      "url": "https://www.zhihu.com/answer/3255262295",
+      "summary": "正文明确给出连续映射及其连续逆映射定义同胚，并借洞的不变性说明如何区分不同胚空间。"
+    },
+    {
+      "title": "什么样的拓扑空间中任何一个自身到自身的连续映射必有不动点？",
+      "url": "https://www.zhihu.com/answer/3300444210",
+      "summary": "正文说明不动点性质在拓扑同胚下保持不变，并给出同胚空间间的传递关系。"
+    },
+    {
+      "title": "欧拉导出过哪些名气不大但精妙的定理？",
+      "url": "https://www.zhihu.com/answer/3432676244",
+      "summary": "正文把正多面体同胚映射到球面，再利用球面面积关系推出欧拉多面体公式。"
+    },
+    {
+      "title": "微分几何（Differential Geometry）在工程领域有什么应用？",
+      "url": "https://www.zhihu.com/answer/3441590468",
+      "summary": "正文给出曲面拓扑同胚的定义，并系统讨论可定向性、亏格和边界数等同胚不变量。"
+    },
+    {
+      "title": "如何评价《从微分观点看拓扑》这本书？",
+      "url": "https://www.zhihu.com/answer/3464067906",
+      "summary": "正文用隐函数定理说明正则值附近的光滑映射局部为同胚。"
+    },
+    {
+      "title": "stable diffusion 3 发布，有哪些亮点值得关注？",
+      "url": "https://www.zhihu.com/answer/3531356274",
+      "summary": "正文通过同胚映射保持拓扑结构来说明拓扑变换的核心性质。"
+    },
+    {
+      "title": "为什么Langlands纲领的地位如此之高？",
+      "url": "https://www.zhihu.com/answer/3616303752",
+      "summary": "正文以咖啡杯和甜甜圈都只有一个洞为例，说明连续形变下的同胚关系及其洞的结构。"
+    },
+    {
+      "title": "Jordan曲线定理为何不平凡？",
+      "url": "https://www.zhihu.com/answer/3621144892",
+      "summary": "正文用 Jordan 曲线内部闭包与圆盘同胚的 Schönflies 定理说明平面分割的拓扑刚性。"
+    },
+    {
+      "title": "群论和拓扑学有什么关系？",
+      "url": "https://www.zhihu.com/answer/16159633138",
+      "summary": "正文定义同胚为双向连续且保持开集性质的双射，并证明紧致空间到Hausdorff空间的连续双射必为同胚。"
+    },
+    {
+      "title": "什么是“凝聚态数学”，为什么叫“凝聚态”？",
+      "url": "https://www.zhihu.com/answer/36456834486",
+      "summary": "正文用同一集合上粗细不同拓扑间的恒等映射说明双射连续映射未必是拓扑同构。"
+    },
+    {
+      "title": "拓扑学有什么好玩的例子吗？",
+      "url": "https://www.zhihu.com/answer/42660900843",
+      "summary": "正文以亚历山大角球与标准球同胚、但补空间不同为例，说明同胚关系及其拓扑后果。"
+    },
+    {
+      "title": "复活哪吒为什么要用藕？",
+      "url": "https://www.zhihu.com/answer/95990722311",
+      "summary": "正文明确给出同胚的连续变形定义，并用弯曲甜甜圈成茶杯说明两形同胚。"
+    },
+    {
+      "title": "为什么国内数学系对数理逻辑的训练这么不重视？",
+      "url": "https://www.zhihu.com/answer/112248360213",
+      "summary": "正文比较实数序拓扑的刻画并陈述 Suslin 问题，讨论满足相应条件的全序集是否必然与 R 同胚。"
+    },
+    {
+      "title": "数学中的美体现在哪里?",
+      "url": "https://www.zhihu.com/answer/125898814310",
+      "summary": "正文用连续变形、拓扑不变量和甜甜圈与咖啡杯的例子解释同胚所保持的结构。"
+    },
+    {
+      "title": "群论和拓扑学有什么关系？",
+      "url": "https://www.zhihu.com/answer/129992063047",
+      "summary": "正文借助连续同构与 Pettis 定理的开映射性质，推出两个拓扑群之间的恒等映射是同胚。"
+    },
+    {
+      "title": "拓扑学的思想能帮助我们理解哪些日常现象？",
+      "url": "https://www.zhihu.com/answer/130067647109",
+      "summary": "正文以 SO(2) 同胚于圆周、SO(3) 同胚于 RP^3 说明旋转空间的拓扑结构。"
+    },
+    {
+      "title": "群论和拓扑学有什么关系？",
+      "url": "https://www.zhihu.com/answer/130098740059",
+      "summary": "正文定义同胚并比较其与同伦等价，证明同胚空间的基本群同构。"
+    },
+    {
+      "title": "某平台多位科学博主与 AI 共创「数学日专题科普视频」，这类用 AI 做的科普可能有哪些风险或问题？",
+      "url": "https://www.zhihu.com/answer/1889095947964888818",
+      "summary": "正文明确给出同胚的连续双射定义，并用咖啡杯和甜甜圈说明拓扑等价。"
+    },
+    {
+      "title": "在数学学习中，你遇到过哪些有趣的同构？",
+      "url": "https://www.zhihu.com/answer/1892202134084224767",
+      "summary": "正文完整证明 Brouwer 的 Cantor 空间唯一性定理，核心结论是两个满足条件的空间同胚。"
+    },
+    {
+      "title": "Homology 和 Homotopy 能在多大程度上完全决定一个流形的拓扑？",
+      "url": "https://www.zhihu.com/answer/1923720723953849406",
+      "summary": "正文通过怀特海德流形说明同伦等价不能推出同胚。"
+    },
+    {
+      "title": "为何三维旋转只有三个自由度却用四元数来表示？",
+      "url": "https://www.zhihu.com/answer/1964979161820008826",
+      "summary": "正文说明 SO(3) 同胚于实射影空间 RP³，并用这一拓扑等价解释三参数全局表示为何必然出现奇点。"
+    },
+    {
+      "title": "为什么人类使用的坐标系都同胚于 R^n，能否使用不同胚于 R^n 的坐标系？",
+      "url": "https://www.zhihu.com/answer/2033667054339880223",
+      "summary": "正文详细解释坐标图为何要求连续双射且逆连续，并区分同胚与单纯的一一编号。"
+    },
+    {
+      "title": "请问庞加莱猜想为什么看上去容易理解，却这么难证明？",
+      "url": "https://www.zhihu.com/answer/2035733442231542123",
+      "summary": "正文给出同胚的连续变形直觉，并把它作为庞加莱猜想的等价判断。"
+    },
+    {
+      "title": "为什么人类使用的坐标系都同胚于 R^n，能否使用不同胚于 R^n 的坐标系？",
+      "url": "https://www.zhihu.com/answer/2041567299518322167",
+      "summary": "正文区分嵌入与局部同胚，并以连续过渡映射说明拓扑流形和光滑流形的等价关系。"
+    },
+    {
+      "title": "什么是死结",
+      "url": "https://zhuanlan.zhihu.com/p/19670768",
+      "summary": "正文用连续双射及其逆连续的同胚映射定义嵌入，并以空间同胚的连续变化说明结的等价变形。"
+    },
+    {
+      "title": "Zero谈数学——聊聊\u0010拓扑（1）",
+      "url": "https://zhuanlan.zhihu.com/p/19940774",
+      "summary": "正文以烟斗和甜甜圈的连续变形解释同胚，并说明拓扑分类把同胚对象视为相同。"
+    },
+    {
+      "title": "Zero谈数学——聊聊\u0010拓扑（2）",
+      "url": "https://zhuanlan.zhihu.com/p/20090763",
+      "summary": "正文用连续的一一映射及其连续逆映射定义同胚，并解释同胚空间在拓扑上可视为相同对象。"
+    },
+    {
+      "title": "Zero谈数学——聊聊\u0010拓扑（3）",
+      "url": "https://zhuanlan.zhihu.com/p/20090843",
+      "summary": "正文以亏格和二维闭曲面分类定理说明何时存在同胚映射、何时必定不同胚。"
+    },
+    {
+      "title": "1.拓扑的引入",
+      "url": "https://zhuanlan.zhihu.com/p/20752295",
+      "summary": "正文把保持集合一一对应并保持开集结构的映射定义为同胚，并讨论圆与线段的拓扑等价。"
+    },
+    {
+      "title": "点集拓扑学复习阶段性总结",
+      "url": "https://zhuanlan.zhihu.com/p/22296366",
+      "summary": "正文讨论商拓扑定理如何把连续双射的同胚验证化归为较直接的条件。"
+    },
+    {
+      "title": "微分流形（一）",
+      "url": "https://zhuanlan.zhihu.com/p/22977034",
+      "summary": "正文定义微分同胚，并明确比较其与连续同胚的条件差异。"
+    },
+    {
+      "title": "代数拓扑（一）",
+      "url": "https://zhuanlan.zhihu.com/p/23221460",
+      "summary": "正文说明同胚保持基本群结构，并讨论拓扑空间的同胚分类。"
+    },
+    {
+      "title": "他横扫数学大奖却不屑一顾，把自己活成了数学界的谜",
+      "url": "https://zhuanlan.zhihu.com/p/23625254",
+      "summary": "正文给出庞加莱猜想中的同胚判据，并解释没有破洞的三维物体与三维球面的拓扑等价关系。"
+    },
+    {
+      "title": "关于光滑映射的一些杂记",
+      "url": "https://zhuanlan.zhihu.com/p/26981969",
+      "summary": "正文由复叠映射和单连通性推出光滑映射为同胚，并讨论逆映射的光滑性。"
+    },
+    {
+      "title": "从拓扑空间到微分流形（二）",
+      "url": "https://zhuanlan.zhihu.com/p/28719868",
+      "summary": "正文定义双射且双向连续的同胚映射，并证明连续映射的逆未必连续作为反例。"
+    },
+    {
+      "title": "拓扑数据分析－持续同调（一）",
+      "url": "https://zhuanlan.zhihu.com/p/31734839",
+      "summary": "正文定义双射、连续且逆连续的空间等价关系，并用矩形连续变为圆形说明拓扑等价。"
+    },
+    {
+      "title": "这门学问好厉害，竟然气死一坨橡皮泥",
+      "url": "https://zhuanlan.zhihu.com/p/32463544",
+      "summary": "正文用多个连续变形实例解释同胚即拓扑等价，并强调不能撕裂或分离原对象。"
+    },
+    {
+      "title": "数学各个研究方向简介",
+      "url": "https://zhuanlan.zhihu.com/p/32950646",
+      "summary": "正文用不撕裂、不割破的连续变形解释拓扑等价，并以球面与环面不可互变说明同胚式分类。"
+    },
+    {
+      "title": "拓扑学|笔记整理（6）——连续函数，积拓扑（续）",
+      "url": "https://zhuanlan.zhihu.com/p/33789792",
+      "summary": "正文定义同胚为连续双射且逆映射连续，并讨论其保持开集和拓扑结构的作用。"
+    },
+    {
+      "title": "拓扑学Ⅱ|笔记整理（2）——乘积空间，拓扑基，分离公理",
+      "url": "https://zhuanlan.zhihu.com/p/35050567",
+      "summary": "正文给出同胚映射的定义，并由乘积空间中的投射说明嵌入映射与同胚。"
+    },
+    {
+      "title": "拓扑学Ⅱ|笔记整理（3）——可数公理，Urysohn可度量化定理",
+      "url": "https://zhuanlan.zhihu.com/p/35125375",
+      "summary": "正文用同胚与嵌入刻画可度量化，并证明构造映射及其逆映射连续。"
+    },
+    {
+      "title": "语言背后的代数学（七）：数学结构",
+      "url": "https://zhuanlan.zhihu.com/p/35196235",
+      "summary": "正文给出同胚映射需连续双射且逆映射也连续的定义，并强调逆映射连续性不可省略。"
+    },
+    {
+      "title": "拓扑学Ⅱ|笔记整理（5）——部分习题答案解析(1)",
+      "url": "https://zhuanlan.zhihu.com/p/36029065",
+      "summary": "正文通过单射、连续性及逆映射连续性证明映射为嵌入，具体使用了同胚的判定条件。"
+    },
+    {
+      "title": "多复变第一课-Poincare定理",
+      "url": "https://zhuanlan.zhihu.com/p/36387577",
+      "summary": "正文的主线是证明单位多圆柱和单位球在 n 大于等于 2 时虽然拓扑同胚，却不全纯同胚。"
+    },
+    {
+      "title": "拓扑学Ⅱ|笔记整理（6）——商空间，闭曲面，代数拓扑起步",
+      "url": "https://zhuanlan.zhihu.com/p/36722787",
+      "summary": "正文证明商映射诱导的映射为同胚，并以圆盘边界粘合到球面为例说明拓扑等价。"
+    },
+    {
+      "title": "非线性泛函分析导论（二）：变分问题的拓扑结构",
+      "url": "https://zhuanlan.zhihu.com/p/37695456",
+      "summary": "正文利用临界值之间水平集的同胚性说明临界点会使拓扑结构改变。"
+    },
+    {
+      "title": "拓扑学Ⅱ|笔记整理（7）——基本群",
+      "url": "https://zhuanlan.zhihu.com/p/37070641",
+      "summary": "正文说明连续映射诱导基本群同态，并证明同胚诱导基本群同构。"
+    },
+    {
+      "title": "MP6：几何与物理I：微分流形上的分析力学",
+      "url": "https://zhuanlan.zhihu.com/p/44008969",
+      "summary": "正文定义同胚映射，并用连续双射及其逆映射解释空间的拓扑等价。"
+    },
+    {
+      "title": "区域不变定理",
+      "url": "https://zhuanlan.zhihu.com/p/46090354",
+      "summary": "正文以连续双射的逆是否连续为问题，并用区域不变定理解释这类映射的同胚性质。"
+    },
+    {
+      "title": "Hopf纤维化简述",
+      "url": "https://zhuanlan.zhihu.com/p/49203161",
+      "summary": "正文说明圆群轨道均同胚于 S1，且这些轨道的空间与 S2 同胚，用同胚刻画纤维分解。"
+    },
+    {
+      "title": "MP67：典型群(1)：拓扑性质",
+      "url": "https://zhuanlan.zhihu.com/p/51199404",
+      "summary": "正文解释三维旋转与射影空间的对径点等价构造，建立 SO(3) 与射影空间的拓扑等价关系。"
+    },
+    {
+      "title": "MP69：典型群(3)：三维空间的旋转，Pauli矩阵、四元数、SO(3)~RP3、SU(2)~S3",
+      "url": "https://zhuanlan.zhihu.com/p/51684298",
+      "summary": "正文用旋转轴对径点等价和球面商空间解释 SO(3) 与 RP3 的拓扑等价。"
+    },
+    {
+      "title": "从度量空间到拓扑空间",
+      "url": "https://zhuanlan.zhihu.com/p/54516805",
+      "summary": "正文定义连续双射且逆映射连续的映射为同胚，并用立方体壳与球壳构造同胚例子。"
+    },
+    {
+      "title": "微分几何（一）",
+      "url": "https://zhuanlan.zhihu.com/p/59433518",
+      "summary": "正文用与欧式开集同胚的坐标卡定义流形，并举例说明同胚关系。"
+    },
+    {
+      "title": "光滑流形初步(1)——一些概念和例子",
+      "url": "https://zhuanlan.zhihu.com/p/73717366",
+      "summary": "正文以开邻域到欧氏空间开集的同胚作为局部坐标条件，并在定义微分同胚时继续讨论同胚与光滑性。"
+    },
+    {
+      "title": "紧致空间与单点紧化",
+      "url": "https://zhuanlan.zhihu.com/p/77235997",
+      "summary": "正文提出并证明开区间单点紧化后同胚于圆周等拓扑同胚结论。"
+    },
+    {
+      "title": "浅谈拓扑（二）",
+      "url": "https://zhuanlan.zhihu.com/p/93036920",
+      "summary": "正文给出同胚的连续双射及逆连续条件，并通过开区间和球极映射等例子解释同胚。"
+    },
+    {
+      "title": "复分析学习笔记 - 共形映射",
+      "url": "https://zhuanlan.zhihu.com/p/95612427",
+      "summary": "正文通过连续双射、逆映射和保角性定义共形映射，并讨论其拓扑与单叶性质。"
+    },
+    {
+      "title": "常微分方程学习笔记(9)",
+      "url": "https://zhuanlan.zhihu.com/p/105161670",
+      "summary": "正文用拓扑同胚定义轨道拓扑等价，并据此讨论扰动下动力系统的结构稳定性。"
+    },
+    {
+      "title": "康托集相关问题整理",
+      "url": "https://zhuanlan.zhihu.com/p/129291583",
+      "summary": "正文用三进制展开构造康托集与二值序列积空间之间的同胚，并据此讨论康托空间的刻画。"
+    },
+    {
+      "title": "流形 (Manifolds) -- (6) 拓扑和拓扑流形",
+      "url": "https://zhuanlan.zhihu.com/p/144700635",
+      "summary": "正文定义连续的一一映射且逆映射也连续为同胚，并在流形坐标卡中使用这一概念。"
+    },
+    {
+      "title": "闭曲面的分类及曲面的三角剖分",
+      "url": "https://zhuanlan.zhihu.com/p/147532659",
+      "summary": "正文用商空间与闭曲面的同胚关系定义多边形表示，并据此归纳闭曲面的标准表示。"
+    },
+    {
+      "title": "微分拓扑（一）",
+      "url": "https://zhuanlan.zhihu.com/p/83480241",
+      "summary": "正文用同胚定义流形的嵌入，并以微分同胚说明嵌入像与原流形拓扑一致。"
+    },
+    {
+      "title": "复变函数学习笔记(12)",
+      "url": "https://zhuanlan.zhihu.com/p/180354103",
+      "summary": "正文证明圆环边界可连续延拓，并利用闭圆环之间的同胚映射分类双全纯等价的圆环。"
+    },
+    {
+      "title": "硬核科普：什么是拓扑？",
+      "url": "https://zhuanlan.zhihu.com/p/214200642",
+      "summary": "正文用不打洞、不粘合两点的连续变形定义同胚，并据此说明球体、椭球体和咖啡杯的拓扑等价。"
+    },
+    {
+      "title": "引入：椭圆积分与椭圆函数(1)",
+      "url": "https://zhuanlan.zhihu.com/p/222036080",
+      "summary": "正文通过对边粘合构造基本区域，并说明其拓扑同胚于环面。"
+    },
+    {
+      "title": "The Baire space (Logician's reals)上的拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/274275990",
+      "summary": "正文构造拓扑空间之间的双射并证明基本开集相互对应，从而证明与无理数集同胚。"
+    },
+    {
+      "title": "微分拓扑—微分流形的基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/276574445",
+      "summary": "正文用连续形变而不撕破或相交来说明两个图形同胚，并以此区分拓扑结构。"
+    },
+    {
+      "title": "分析和代数学原理(20)：Poincaré对偶",
+      "url": "https://zhuanlan.zhihu.com/p/270772261",
+      "summary": "正文利用上同调证明不同维数的非空拓扑流形不能同胚。"
+    },
+    {
+      "title": "微分拓扑—数学中一些重要的流形",
+      "url": "https://zhuanlan.zhihu.com/p/278796215",
+      "summary": "正文反复通过商空间之间的显式映射证明投影空间、Stiefel 流形与 Grassmann 流形的同胚关系。"
+    },
+    {
+      "title": "微分拓扑—流形的嵌入（Whitney嵌入定理）",
+      "url": "https://zhuanlan.zhihu.com/p/307638821",
+      "summary": "正文借助反函数定理说明浸入的局部同胚性，并区分局部同胚与全局嵌入所需的诱导拓扑条件。"
+    },
+    {
+      "title": "复变随记（八） Riemann映射定理 简要",
+      "url": "https://zhuanlan.zhihu.com/p/347521371",
+      "summary": "正文以区域到单位圆盘的解析同胚和共形映射为主线，概述并证明 Riemann 映射定理。"
+    },
+    {
+      "title": "复分析小结（十一）",
+      "url": "https://zhuanlan.zhihu.com/p/351533568",
+      "summary": "正文证明共形映射可延拓到闭包并利用紧集间连续双射得到同胚，具体展开了同胚结论。"
+    },
+    {
+      "title": "拓扑学(1)",
+      "url": "https://zhuanlan.zhihu.com/p/366145856",
+      "summary": "正文定义同胚与嵌入，并说明同胚不变量及凸多边形内部同胚的例子。"
+    },
+    {
+      "title": "拓扑学(2)",
+      "url": "https://zhuanlan.zhihu.com/p/369819124",
+      "summary": "正文用紧致性、Hausdorff 性与商映射证明粘接所得空间和环面同胚。"
+    },
+    {
+      "title": "【群论入门】(8) 同态",
+      "url": "https://zhuanlan.zhihu.com/p/379782437",
+      "summary": "正文用连续形变、欧拉示性数和亏格解释拓扑空间何时等价，对应同胚概念。"
+    },
+    {
+      "title": "点集拓扑学｜9. 同胚",
+      "url": "https://zhuanlan.zhihu.com/p/388092299",
+      "summary": "正文系统定义同胚映射与同胚关系，证明等价性并给出多个同胚及非同胚例子。"
+    },
+    {
+      "title": "三角剖分：可以像切西瓜一样切流形吗？",
+      "url": "https://zhuanlan.zhihu.com/p/389102515",
+      "summary": "正文反复使用局部同胚、空间自同胚和商空间同胚来简化闭曲面并构造剖分。"
+    },
+    {
+      "title": "拓扑学(3)",
+      "url": "https://zhuanlan.zhihu.com/p/391068265",
+      "summary": "正文证明同胚诱导基本群同构，并用基本群区分平环与圆盘。"
+    },
+    {
+      "title": "你读的是数学还是神学？",
+      "url": "https://zhuanlan.zhihu.com/p/405978662",
+      "summary": "正文给出同胚的连续双射定义，并据此讨论欧氏空间与球面之间为何不能通过同胚等同。"
+    },
+    {
+      "title": "[论文精读] SIGGRAPH 2020: 基于常曲率度量的曲面间几何映射",
+      "url": "https://zhuanlan.zhihu.com/p/406068846",
+      "summary": "正文把连续双射的曲面映射定义为同胚，并以双射和连续性作为构造几何映射的前提。"
+    },
+    {
+      "title": "纳什均衡的存在性证明",
+      "url": "https://zhuanlan.zhihu.com/p/378846601",
+      "summary": "正文定义同胚，说明单纯形乘积与标准单纯形同胚，并据 Brouwer 不动点定理完成存在性证明。"
+    },
+    {
+      "title": "描述集合论中一些漂亮的结论",
+      "url": "https://zhuanlan.zhihu.com/p/453021477",
+      "summary": "正文用同胚意义下的唯一性刻画 Cantor 空间，并在后续定理中讨论连续像与子空间之间的同胚关系。"
+    },
+    {
+      "title": "脱离欧氏空间，在双曲空间中做NLP",
+      "url": "https://zhuanlan.zhihu.com/p/423377762",
+      "summary": "正文给出同胚映射的双射与连续逆映射条件，并说明其保持拓扑性质。"
+    },
+    {
+      "title": "纳什均衡的存在性证明",
+      "url": "https://zhuanlan.zhihu.com/p/454822666",
+      "summary": "正文利用同胚把一般凸紧集上的不动点问题化归到标准单纯形。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】1.5 凸集与不动点（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/460462916",
+      "summary": "正文说明有限维紧凸集同胚于某个欧氏单位球，并用这一同胚关系理解范数等价。"
+    },
+    {
+      "title": "将图嵌入曲面",
+      "url": "https://zhuanlan.zhihu.com/p/460458206",
+      "summary": "正文用同胚意义下的闭曲面分类引入球面和环面，并据此讨论图嵌入。"
+    },
+    {
+      "title": "纽结：化学元素关我什么事？",
+      "url": "https://zhuanlan.zhihu.com/p/494007144",
+      "summary": "正文用连续双射及其连续逆映射定义纽结与圆周的同胚关系。"
+    },
+    {
+      "title": "纽结的故事3：三维流形",
+      "url": "https://zhuanlan.zhihu.com/p/502478281",
+      "summary": "正文通过构造空间之间的同胚来比较三维流形的粘贴模型。"
+    },
+    {
+      "title": "蕴藏在大脑里的美丽几何——神经流形浅入门（上）基本概念与兴起历程",
+      "url": "https://zhuanlan.zhihu.com/p/547556485",
+      "summary": "正文用胶泥平面连续变形解释同胚，并区分同胚允许的形变与打洞等拓扑差异。"
+    },
+    {
+      "title": "拓扑学基础与Gauss-Bonnet定理最速传说",
+      "url": "https://zhuanlan.zhihu.com/p/551634049",
+      "summary": "正文定义同胚并解释连续双射及其逆映射所表达的拓扑等价关系。"
+    },
+    {
+      "title": "拓扑学入门10——连通性",
+      "url": "https://zhuanlan.zhihu.com/p/551016158",
+      "summary": "正文用删点后连通分支数目的变化证明若干拓扑空间不同胚。"
+    },
+    {
+      "title": "黎曼曲面（1）  基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/554710707",
+      "summary": "正文通过开集到复平面区域的同胚构造曲面坐标卡，并分析坐标变换。"
+    },
+    {
+      "title": "流形学习（Manifold Learning）",
+      "url": "https://zhuanlan.zhihu.com/p/566088096",
+      "summary": "正文用局部同胚说明流形每一点的邻域都可赋予欧式空间性质。"
+    },
+    {
+      "title": "同调",
+      "url": "https://zhuanlan.zhihu.com/p/569823213",
+      "summary": "正文把可通过延展和弯曲互相转化的图形定义为同胚，并说明同胚对象在拓扑上视为同一类。"
+    },
+    {
+      "title": "为什么双曲几何非常重要？几乎所有的东西都是双曲的",
+      "url": "https://zhuanlan.zhihu.com/p/635483476",
+      "summary": "正文定义同胚映射并以连续变形解释两个拓扑空间何时同胚。"
+    },
+    {
+      "title": "试题解析 | 浙江大学2022~2023学年度春夏学期点集拓扑期末考试",
+      "url": "https://zhuanlan.zhihu.com/p/640235351",
+      "summary": "正文以嵌入的定义和连续双射的构造讨论空间同胚，并说明球面与扩充复平面的同胚关系。"
+    },
+    {
+      "title": "深入浅出的《拓扑学和张量分析》期末考试再也不用愁！",
+      "url": "https://zhuanlan.zhihu.com/p/651490954",
+      "summary": "正文定义连续双射且逆连续的拓扑同构，并解释为忽略度量形变的等价关系。"
+    },
+    {
+      "title": "给宝宝看的《基础拓扑学讲义》（尤承业）笔记与思考",
+      "url": "https://zhuanlan.zhihu.com/p/645110618",
+      "summary": "正文定义同胚映射并列举开区间、欧氏空间和凸多边形等例子。"
+    },
+    {
+      "title": "纽结理论和琼斯多项式",
+      "url": "https://zhuanlan.zhihu.com/p/662505840",
+      "summary": "正文说明纽结变形过程中每一时刻的映射须为连续双射，并把同胚解释为拓扑等价。"
+    },
+    {
+      "title": "[Simon 2023] 40 附录：一些基本的数学 40.1 流形",
+      "url": "https://zhuanlan.zhihu.com/p/662978056",
+      "summary": "正文在讨论流形拓扑分类时明确解释了同胚及其连续双射条件。"
+    },
+    {
+      "title": "庆祝弗拉基米尔·安东诺维奇·卓里奇八十华诞（含译者注释，特别是关于苏联研究生学制、学位的介绍）",
+      "url": "https://zhuanlan.zhihu.com/p/676821692",
+      "summary": "正文介绍卓里奇证明的高维拟共形映射全局同胚定理，并用局部可逆蕴含全局可逆解释其结论。"
+    },
+    {
+      "title": "龙年吃太饱 | 为什么天上的龙飞来飞去，但从来不会给自己打结？",
+      "url": "https://zhuanlan.zhihu.com/p/682000215",
+      "summary": "正文说明连续形变且不撕裂、不粘合时两个图形拓扑同胚。"
+    },
+    {
+      "title": "顺滑地进入拓扑物理-同调代数篇 (Ep.1)",
+      "url": "https://zhuanlan.zhihu.com/p/683291688",
+      "summary": "正文严格定义同胚，并以其解释拓扑等价和拓扑不变量的意义。"
+    },
+    {
+      "title": "实变函数笔记（Cantor集）",
+      "url": "https://zhuanlan.zhihu.com/p/685945666",
+      "summary": "正文构造连续严格单调的 Cantor 函数延拓，并说明对应映射是区间上的同胚。"
+    },
+    {
+      "title": "现代数学基础-G1-古典微分几何",
+      "url": "https://zhuanlan.zhihu.com/p/702328665",
+      "summary": "正文在曲面参数化定义中明确解释同胚为连续双射，并用它约束合法坐标卡。"
+    },
+    {
+      "title": "纽结理论（1）：纽结与链环",
+      "url": "https://zhuanlan.zhihu.com/p/709813628",
+      "summary": "正文用与圆周同胚描述简单闭曲线，并据连续变形定义纽结同痕。"
+    },
+    {
+      "title": "一起做手工",
+      "url": "https://zhuanlan.zhihu.com/p/1932207384408875363",
+      "summary": "正文以环面自同胚和 GL(2,Z) 变换构造流形粘合等价，并把粘贴参数化为棱镜空间。"
+    },
+    {
+      "title": "高中生也能懂的Gauss-Bonnet定理证明",
+      "url": "https://zhuanlan.zhihu.com/p/1956810053525939632",
+      "summary": "正文借助同胚曲面的三角剖分定义欧拉示性数，并说明其与曲面拓扑选取无关。"
+    },
+    {
+      "title": "两位研究者彼得・舒尔茨（Peter Scholze）与达斯汀・克劳森（Dustin Clausen）正从底层重建数学大厦——译自量子杂志Quanta Magazine",
+      "url": "https://zhuanlan.zhihu.com/p/2041461229869324085",
+      "summary": "正文以连续形变而不撕裂刻画拓扑等价，对应同胚的直观含义。"
+    }
+  ]
+}

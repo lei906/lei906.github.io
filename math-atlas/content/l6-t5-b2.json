@@ -1,0 +1,1216 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l6-t5-b2",
+  "sources": [
+    {
+      "title": "压缩文件为什么不能一层层压缩自身？",
+      "url": "https://www.zhihu.com/answer/14333507",
+      "summary": "用信息熵与冗余解释重复压缩受限的直觉；将熵直接视作单个文件数据量下限是简化说法，需区分信源平均编码长度与具体文件。"
+    },
+    {
+      "title": "香农的信息论究竟牛在哪里？",
+      "url": "https://www.zhihu.com/answer/35250996",
+      "summary": "正文解释香农熵是概率分布到实数的映射，并讨论相对熵。"
+    },
+    {
+      "title": "信息熵极低的文字会是什么样子？信息熵极高的文字又是什么样子？",
+      "url": "https://www.zhihu.com/answer/36521082",
+      "summary": "正文定义信息熵并以符号概率与冗余讨论其大小。"
+    },
+    {
+      "title": "信息熵极低的文字会是什么样子？信息熵极高的文字又是什么样子？",
+      "url": "https://www.zhihu.com/answer/36553193",
+      "summary": "正文以信息熵公式说明符号数与出现概率对熵的影响。"
+    },
+    {
+      "title": "不觉得最大熵原理很奇怪吗？",
+      "url": "https://www.zhihu.com/answer/38182071",
+      "summary": "正文用最大熵原则解释信息不足时应保留不确定性而不额外假设。"
+    },
+    {
+      "title": "KL散度不对称。如果分布P和Q，KL(P||Q)很大而KL(Q||P)很小表示什么现象？",
+      "url": "https://www.zhihu.com/answer/39788444",
+      "summary": "正文从 KL 散度定义解释其不对称性及与概率密度重叠的关系。"
+    },
+    {
+      "title": "是否有方法产生(-∞,+∞)的随机数？",
+      "url": "https://www.zhihu.com/answer/44453009",
+      "summary": "正文用最大信息熵刻画受约束下的均匀与正态分布。"
+    },
+    {
+      "title": "哪些高端大气的数学定理可以简洁地证明高中数学压轴题和大轴题？",
+      "url": "https://www.zhihu.com/answer/47639362",
+      "summary": "正文将题目重述为正数的信息熵极值。"
+    },
+    {
+      "title": "信息熵是什么？",
+      "url": "https://www.zhihu.com/answer/49929786",
+      "summary": "正文从不确定性、概率和信息量推导信息熵定义。"
+    },
+    {
+      "title": "为什么香农要将信息熵公式要定义成 -Σp·log₂(p) 或 -∫p·log₂(p)dp？",
+      "url": "https://www.zhihu.com/answer/60262151",
+      "summary": "正文说明香农信息熵由规范化、连续性和组合法则公理化确定。"
+    },
+    {
+      "title": "为什么香农要将信息熵公式要定义成 -Σp·log₂(p) 或 -∫p·log₂(p)dp？",
+      "url": "https://www.zhihu.com/answer/64816509",
+      "summary": "正文从概率与可加性推导信息熵的对数形式。"
+    },
+    {
+      "title": "信息增益到底怎么理解呢？",
+      "url": "https://www.zhihu.com/answer/67014456",
+      "summary": "正文定义信息增益为熵与条件熵之差。"
+    },
+    {
+      "title": "为什么 LR 模型要使用 sigmoid 函数，背后的数学原理是什么？",
+      "url": "https://www.zhihu.com/answer/67193153",
+      "summary": "正文定义熵为概率分布所含的不确定度。"
+    },
+    {
+      "title": "如何向一个没学过大学物理的人解释玻尔兹曼熵？",
+      "url": "https://www.zhihu.com/answer/67634826",
+      "summary": "正文从信息量可加性推导玻尔兹曼熵的形式。"
+    },
+    {
+      "title": "如何理解“方差越大信息量就越多”？",
+      "url": "https://www.zhihu.com/answer/72112680",
+      "summary": "正文给出信息熵定义并解释其衡量不确定度。"
+    },
+    {
+      "title": "大偏差技术是什么？",
+      "url": "https://www.zhihu.com/answer/73023896",
+      "summary": "正文推导大偏差率函数并说明其与熵的联系。"
+    },
+    {
+      "title": "如何快速判断目标函数的凸性？",
+      "url": "https://www.zhihu.com/answer/118400738",
+      "summary": "正文证明熵关于概率密度的凹性，并用于互信息的凹性推导。"
+    },
+    {
+      "title": "信息熵是什么？",
+      "url": "https://www.zhihu.com/answer/124805730",
+      "summary": "正文从概率与编码长度推导熵，并解释其为平均不确定度。"
+    },
+    {
+      "title": "13个乒乓球，有一个和其他的质量不同，如何用天平称三次称出来？",
+      "url": "https://www.zhihu.com/answer/152818591",
+      "summary": "正文用三种称量结果的概率定义平均信息增量，并以最大化该量设计每一步。"
+    },
+    {
+      "title": "利用无理数压缩数据是否可行？",
+      "url": "https://www.zhihu.com/answer/156581226",
+      "summary": "正文以数据的有序与无序交换解释压缩中的熵。"
+    },
+    {
+      "title": "利用无理数压缩数据是否可行？",
+      "url": "https://www.zhihu.com/answer/156608142",
+      "summary": "正文给出条件熵作为已知侧信息时的最小传输信息量。"
+    },
+    {
+      "title": "为什么香农要将信息熵公式要定义成 -Σp·log₂(p) 或 -∫p·log₂(p)dp？",
+      "url": "https://www.zhihu.com/answer/180789640",
+      "summary": "正文用等概率事件的最优二进制编码解释香农熵与比特数的关系。"
+    },
+    {
+      "title": "如何通俗的解释交叉熵与相对熵？",
+      "url": "https://www.zhihu.com/answer/195901726",
+      "summary": "正文解释熵衡量系统不确定性并给出其概率加权公式。"
+    },
+    {
+      "title": "你对贝叶斯统计都有怎样的理解？",
+      "url": "https://www.zhihu.com/answer/212678180",
+      "summary": "正文用最大熵原理说明贝叶斯分布与指数族分布的构造。"
+    },
+    {
+      "title": "如何才能看得懂变分贝叶斯方法（Variational Bayesian）？",
+      "url": "https://www.zhihu.com/answer/219887194",
+      "summary": "正文解释熵和KL散度作为概率分布泛函。"
+    },
+    {
+      "title": "信息熵是什么？",
+      "url": "https://www.zhihu.com/answer/223017546",
+      "summary": "正文从随机变量不确定性、编码长度和香农性质完整解释信息熵。"
+    },
+    {
+      "title": "为什么交叉熵（cross-entropy）可以用于计算代价？",
+      "url": "https://www.zhihu.com/answer/230209104",
+      "summary": "正文解释交叉熵作为两个概率分布之间代价的性质。"
+    },
+    {
+      "title": "为什么交叉熵（cross-entropy）可以用于计算代价？",
+      "url": "https://www.zhihu.com/answer/244557337",
+      "summary": "正文从事件不确定性、概率和编码长度系统解释信息熵与交叉熵。"
+    },
+    {
+      "title": "房间内有 100 人，每人有 100 块，每分钟随机给另一个人 1 块，最后房间内的财富分布怎样？",
+      "url": "https://www.zhihu.com/answer/256130999",
+      "summary": "正文随后给出韦伯分布的熵约束，用最大熵条件比较两种财富分布。"
+    },
+    {
+      "title": "如何理解纠缠熵与共形场论的联系？",
+      "url": "https://www.zhihu.com/answer/319312448",
+      "summary": "正文定义并计算纠缠熵和 Rényi 熵。"
+    },
+    {
+      "title": "熵权法如何与层次分析法一起使用，已经其公式原理“基于多指标的”，熵权法如何分析的数据？",
+      "url": "https://www.zhihu.com/answer/376687323",
+      "summary": "正文解释熵权法按指标熵值进行客观赋权。"
+    },
+    {
+      "title": "统计学里有哪些振聋发聩颠覆三观的证明和定理？",
+      "url": "https://www.zhihu.com/answer/404763395",
+      "summary": "正文联系熵、尾部衰减、累积量生成函数与极大似然。"
+    },
+    {
+      "title": "c4.5为什么使用信息增益比来选择特征？",
+      "url": "https://www.zhihu.com/answer/440836807",
+      "summary": "正文以条件熵的估计偏差解释信息增益。"
+    },
+    {
+      "title": "白痴的大脑比天才的大脑熵大么？",
+      "url": "https://www.zhihu.com/answer/448910269",
+      "summary": "正文区分熵与Kolmogorov复杂度并讨论度量选择。"
+    },
+    {
+      "title": "为什么香农要将信息熵公式要定义成 -Σp·log₂(p) 或 -∫p·log₂(p)dp？",
+      "url": "https://www.zhihu.com/answer/515101369",
+      "summary": "正文从事件概率所需比特数的期望推导 Shannon 熵公式。"
+    },
+    {
+      "title": "softmax和cross-entropy是什么关系？",
+      "url": "https://www.zhihu.com/answer/527393818",
+      "summary": "从 softmax 概率分布和 KL 散度解释交叉熵损失。"
+    },
+    {
+      "title": "softmax和cross-entropy是什么关系？",
+      "url": "https://www.zhihu.com/answer/527558662",
+      "summary": "用信息编码推导交叉熵，并解释它如何衡量两个概率分布的相似度。"
+    },
+    {
+      "title": "什么是「互信息」？",
+      "url": "https://www.zhihu.com/answer/544609335",
+      "summary": "正文从信息熵、条件熵和联合熵推导互信息。"
+    },
+    {
+      "title": "如何理解细致平衡？",
+      "url": "https://www.zhihu.com/answer/553175061",
+      "summary": "把可逆性与正逆过程的相对熵及零熵产生联系起来。"
+    },
+    {
+      "title": "信息为什么还有单位，熵为什么用 log 来计算？",
+      "url": "https://www.zhihu.com/answer/580684961",
+      "summary": "联系概率与信息量说明熵使用对数的原因。"
+    },
+    {
+      "title": "有什么理论复杂但是实现简单的算法？",
+      "url": "https://www.zhihu.com/answer/621217738",
+      "summary": "解释算法在收益与概率分布熵之间的平衡。"
+    },
+    {
+      "title": "参数估计理论中的Fisher Information和信息论中的熵有什么特殊关系吗？",
+      "url": "https://www.zhihu.com/answer/672558537",
+      "summary": "从概率密度扰动解释熵与 Fisher 信息的关系。"
+    },
+    {
+      "title": "怎样的数学问题叫一个好问题？",
+      "url": "https://www.zhihu.com/answer/701692916",
+      "summary": "把大偏差中的稀有事件概率与熵相联系。"
+    },
+    {
+      "title": "如何通俗地理解概率论中的「极大似然估计法」?",
+      "url": "https://www.zhihu.com/answer/707507256",
+      "summary": "用 KL 散度衡量估计分布与真实分布差异。"
+    },
+    {
+      "title": "数学论文的作者会意识到自己发表的结果实际上已经有人做出来过吗？",
+      "url": "https://www.zhihu.com/answer/785478010",
+      "summary": "研究提升后马氏链的熵增长速度。"
+    },
+    {
+      "title": "为什么交叉熵（cross-entropy）可以用于计算代价？",
+      "url": "https://www.zhihu.com/answer/849294209",
+      "summary": "从最大似然推导交叉熵损失。"
+    },
+    {
+      "title": "KL散度和MMD（最大均值差异）之间的区别？",
+      "url": "https://www.zhihu.com/answer/868466033",
+      "summary": "正文从编码所需额外位元数解释 KL 散度的信息损失含义。"
+    },
+    {
+      "title": "GAN:固定训练好的判别器网络，去指导训练生成器为什么不可以？",
+      "url": "https://www.zhihu.com/answer/877635189",
+      "summary": "正文定义 KL 与 JS 散度并推导它们在 GAN 目标函数中的作用，实质讨论信息散度。"
+    },
+    {
+      "title": "softmax和cross-entropy是什么关系？",
+      "url": "https://www.zhihu.com/answer/885285177",
+      "summary": "正文解释交叉熵的概率含义，并说明其与 softmax 联合实现的关系。"
+    },
+    {
+      "title": "为什么熵值最大的分布状态是正态分布而不是均匀分布？",
+      "url": "https://www.zhihu.com/answer/907586249",
+      "summary": "正文定义熵并用最大熵原理证明给定一、二阶矩时正态分布熵最大。"
+    },
+    {
+      "title": "如何用熵权法计算权重？",
+      "url": "https://www.zhihu.com/answer/943628631",
+      "summary": "正文逐步解释熵权法如何标准化数据、计算信息熵并得到指标权重。"
+    },
+    {
+      "title": "学习数学到底有什么用？",
+      "url": "https://www.zhihu.com/answer/1077595959",
+      "summary": "正文以交叉熵损失为实例说明信息论量的应用。"
+    },
+    {
+      "title": "如何简单易懂地理解变分推断(variational inference)？",
+      "url": "https://www.zhihu.com/answer/1149453776",
+      "summary": "正文完整解释KL散度与信息熵、交叉熵的关系。"
+    },
+    {
+      "title": "信息熵越大，信息量到底是越大还是越小？",
+      "url": "https://www.zhihu.com/answer/1222518795",
+      "summary": "正文辨析信息熵、不确定性和信息量。"
+    },
+    {
+      "title": "信息增益到底怎么理解呢？",
+      "url": "https://www.zhihu.com/answer/1236811448",
+      "summary": "正文从条件划分和熵差解释信息增益。"
+    },
+    {
+      "title": "有一个三位数密码锁，如果输入的三位密码有1位是正确的，就会嘀一声响，请问最少要输入几次才一定能开锁？",
+      "url": "https://www.zhihu.com/answer/1281000751",
+      "summary": "正文用条件熵逐步衡量每次输入密码提供的信息量。"
+    },
+    {
+      "title": "男生发晚安用拼音「wanan」是什么意思？",
+      "url": "https://www.zhihu.com/answer/1327302148",
+      "summary": "正文计算字符数据所含信息比特并与处理过程的信息量比较。"
+    },
+    {
+      "title": "如何连贯地理解香农三大定理？",
+      "url": "https://www.zhihu.com/answer/1467262363",
+      "summary": "正文用信息熵给出无损压缩下界。"
+    },
+    {
+      "title": "如何看待2020数学建模国赛C题？",
+      "url": "https://www.zhihu.com/answer/1467999609",
+      "summary": "正文把信息熵用于指标赋权。"
+    },
+    {
+      "title": "信息论在语言学里有什么应用？",
+      "url": "https://www.zhihu.com/answer/1577042828",
+      "summary": "正文以熵定义变量的不确定度并比较不同语言系统的平均熵。"
+    },
+    {
+      "title": "求权重什么时候用主成成分分析法什么时候用熵值法？",
+      "url": "https://www.zhihu.com/answer/1614880202",
+      "summary": "正文解释熵值与信息量、不确定性的关系并用于赋权。"
+    },
+    {
+      "title": "如何用熵权法计算权重？",
+      "url": "https://www.zhihu.com/answer/1748591262",
+      "summary": "正文直接讨论或推导「信息熵」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "如何理解「香农定理」，包含哪些内容，它的发现有什么意义？",
+      "url": "https://www.zhihu.com/answer/1759158425",
+      "summary": "正文用信息熵解释无损压缩的极限。"
+    },
+    {
+      "title": "现在大二 ，参加数学建模大赛，可是现在什么都不会，我该先干什么呀？求指导？",
+      "url": "https://www.zhihu.com/answer/2077826447",
+      "summary": "正文用信息熵的离散程度计算客观权重。"
+    },
+    {
+      "title": "如何评价数学家、现代概率论的创始人柯尔莫哥洛夫？",
+      "url": "https://www.zhihu.com/answer/2146996321",
+      "summary": "正文说明 KS 熵以简洁方式量化动力系统中的信息散失。"
+    },
+    {
+      "title": "KL散度衡量的是两个概率分布的距离吗？",
+      "url": "https://www.zhihu.com/answer/2200649796",
+      "summary": "正文从信息量、Shannon 熵、交叉熵和相对熵系统解释 KL 散度。"
+    },
+    {
+      "title": "贝叶斯推断中为什么不能直接从posterior sampling而是要采用MCMC方法?",
+      "url": "https://www.zhihu.com/answer/2255085106",
+      "summary": "正文在变分推断下界中使用熵项。"
+    },
+    {
+      "title": "wasserstein 距离的问题?",
+      "url": "https://www.zhihu.com/answer/2255846005",
+      "summary": "正文比较 Wasserstein 距离与 KL 散度并讨论熵相关信息量。"
+    },
+    {
+      "title": "香农的信息论之美在于什么？",
+      "url": "https://www.zhihu.com/answer/2269339486",
+      "summary": "正文给出香农熵的原始定义和公式。"
+    },
+    {
+      "title": "未来会不会有一种方式，可以使一部蓝光电影压缩到几Mb甚至几Kb？",
+      "url": "https://www.zhihu.com/answer/2274943613",
+      "summary": "正文给出信息熵公式并解释其作为压缩极限。"
+    },
+    {
+      "title": "哪位来聊聊深度学习知识蒸馏（knowledge distillation）？",
+      "url": "https://www.zhihu.com/answer/2276286571",
+      "summary": "正文用概率分布熵解释温度参数和软标签信息量。"
+    },
+    {
+      "title": "人工智能领域有哪些精妙的数学原理？",
+      "url": "https://www.zhihu.com/answer/2300914894",
+      "summary": "正文以 Copula 熵作为相关性、独立性和因果性的核心度量。"
+    },
+    {
+      "title": "为什么 不用KL散度作为损失函数?",
+      "url": "https://www.zhihu.com/answer/2488135320",
+      "summary": "给出信息熵公式，并用事件发生概率与信息量解释其含义。"
+    },
+    {
+      "title": "香农的信息论究竟牛在哪里？",
+      "url": "https://www.zhihu.com/answer/2517655344",
+      "summary": "把香农熵解释为概率系统的混乱度与信息量期望，并用硬币和骰子示例计算。"
+    },
+    {
+      "title": "如何理解Sinkhorn算法？",
+      "url": "https://www.zhihu.com/answer/2525849342",
+      "summary": "通过最大化传输矩阵的熵得到 Sinkhorn 正则化。"
+    },
+    {
+      "title": "信息熵极低的文字会是什么样子？信息熵极高的文字又是什么样子？",
+      "url": "https://www.zhihu.com/answer/2531026076",
+      "summary": "给出信息熵公式，计算二元信源及中英文符号系统的熵，并解释其含义。"
+    },
+    {
+      "title": "如何数值计算量子多体系统的纠缠熵（或约化密度矩阵）？",
+      "url": "https://www.zhihu.com/answer/2546293335",
+      "summary": "用约化密度矩阵的本征值计算冯诺依曼纠缠熵。"
+    },
+    {
+      "title": "AIC、BIC 等信息准则的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/2603817959",
+      "summary": "用 KL 散度/相对熵衡量模型分布与真实分布的差异，并推导信息准则。"
+    },
+    {
+      "title": "香农的信息论究竟牛在哪里？",
+      "url": "https://www.zhihu.com/answer/2628024200",
+      "summary": "给出信息熵公式，并计算二元信源、英文与汉字系统的熵值。"
+    },
+    {
+      "title": "组合数学有没有高等工具？",
+      "url": "https://www.zhihu.com/answer/2642586071",
+      "summary": "说明用信息熵工具研究 Sidorenko 猜想等组合问题。"
+    },
+    {
+      "title": "《诡秘之主》中，愚者的核心权柄是“愚弄”，其他神灵的权柄又能玩出什么花样呢？",
+      "url": "https://www.zhihu.com/answer/2892746698",
+      "summary": "正文给出离散随机变量的熵公式，并用等概率与非等概率赛马例子计算 3 bit 和 2 bit 的信息熵。"
+    },
+    {
+      "title": "把π计算到10亿位后保存为文本再进行压缩，能压缩到原来的几分之一？",
+      "url": "https://www.zhihu.com/answer/2919550158",
+      "summary": "正文用每个十进制符号约需 log2(10) 比特推出理论无损压缩下限，实质是在估计数字序列的信息熵。"
+    },
+    {
+      "title": "在未来π有没有可能成为一个用来压缩数据大小的工具，实现超远距离，超大数据的传输？",
+      "url": "https://www.zhihu.com/answer/2937173922",
+      "summary": "正文给出信息熵定义，说明信息量与概率分布有关，并用琴生不等式证明平均码长不低于信息熵。"
+    },
+    {
+      "title": "组合数学有没有高等工具？",
+      "url": "https://www.zhihu.com/answer/2942874184",
+      "summary": "正文给出均匀分布使 Shannon 熵最大的结论，并用这一熵性质完成矛盾推导。"
+    },
+    {
+      "title": "如何评价神经科学家Karl Friston的自由能原理和主动推断的时代意义？",
+      "url": "https://www.zhihu.com/answer/2960725333",
+      "summary": "正文用熵和编码成本解释未来观察的信息量以及主动推理对可预测观察的偏好。"
+    },
+    {
+      "title": "KL散度衡量的是两个概率分布的距离吗？",
+      "url": "https://www.zhihu.com/answer/3072696582",
+      "summary": "正文给出按概率加权的最优平均编码长度公式，实质上讲解了信息熵。"
+    },
+    {
+      "title": "三门问题，为什么概率会上升？",
+      "url": "https://www.zhihu.com/answer/3088391463",
+      "summary": "正文用信息熵最大对应等概率最混乱状态，并以信息熵降低解释掌握信息后概率分布更集中。"
+    },
+    {
+      "title": "汉语是当今世界最简练的语言吗？",
+      "url": "https://www.zhihu.com/answer/3156352517",
+      "summary": "正文把语言视为符号系统，以信息熵衡量其编码效率，并比较汉字与英文字母的熵值及计算口径。"
+    },
+    {
+      "title": "KL散度衡量的是两个概率分布的距离吗？",
+      "url": "https://www.zhihu.com/answer/3246275191",
+      "summary": "正文具体给出信息量取负对数后按分布求期望的定义，解释了信息熵的含义。"
+    },
+    {
+      "title": "除了方差，还有什么数字特征可以描述随机变量的离散程度?",
+      "url": "https://www.zhihu.com/answer/3288542236",
+      "summary": "正文进一步解释信息熵为何衡量分布均匀程度，并用两个离散分布的例子比较其局限。"
+    },
+    {
+      "title": "有可能制作出生物计算机吗？",
+      "url": "https://www.zhihu.com/answer/3290651507",
+      "summary": "正文由比特数与状态数的关系讨论存储信息量，并明确把 log(n) 解释为热力学熵及无序度量，涉及信息熵思想。"
+    },
+    {
+      "title": "请问组合学、图论乃至离散数学领域的国内外知名学者有哪些？",
+      "url": "https://www.zhihu.com/answer/3339455735",
+      "summary": "正文定义概率测度下的熵泛函并讨论离散 logarithmic Sobolev 不等式。"
+    },
+    {
+      "title": "一个魔方还原了两层，那么它属于还原了六分之一还是三分之二?",
+      "url": "https://www.zhihu.com/answer/3478267062",
+      "summary": "正文用概率和均匀分布定义离散事件的信息熵，并计算魔方打乱及还原后的信息熵变化。"
+    },
+    {
+      "title": "英语里如果要删掉一个字母，删掉哪个影响最小？",
+      "url": "https://www.zhihu.com/answer/3503445314",
+      "summary": "正文明确说明符号出现概率与其信息量之间的反向关系，并据此分析删除哪个英文字母影响最小，属于信息熵的核心关系。"
+    },
+    {
+      "title": "为什么「正态分布」在自然界中如此常见？",
+      "url": "https://www.zhihu.com/answer/3589473945",
+      "summary": "正文给出离散熵和微分熵的定义，并用熵衡量随机变量的不确定性及定义最大熵分布。"
+    },
+    {
+      "title": "如何看待信息瓶颈理论?",
+      "url": "https://www.zhihu.com/answer/27195004547",
+      "summary": "正文给出信息熵、联合熵、条件熵和互信息的定义及关系，具体讲解熵如何度量不确定性。"
+    },
+    {
+      "title": "为什么softmax函数输出值可以作为概率预估?",
+      "url": "https://www.zhihu.com/answer/32459795556",
+      "summary": "正文以最大熵原理和香农熵为出发点，推导约束下的指数族概率分布。"
+    },
+    {
+      "title": "目前有哪些解释复杂系统“涌现性”的理论？",
+      "url": "https://www.zhihu.com/answer/88766425594",
+      "summary": "正文从香农熵和信息链式法则出发讨论复杂系统涌现的信息量化。"
+    },
+    {
+      "title": "很多高效排序算法的代价是 nlogn，难道这是排序算法的极限了吗？",
+      "url": "https://www.zhihu.com/answer/115013452935",
+      "summary": "正文计算n!个等概率排列的香农熵，并用熵的减少量约束二分比较次数。"
+    },
+    {
+      "title": "0-100之间猜一个整数，至少要猜多少次能保证猜中？",
+      "url": "https://www.zhihu.com/answer/1905033065488712920",
+      "summary": "正文以 log2(101) 和每问 1 bit 计算不确定性与剩余信息量，实质使用信息熵。"
+    },
+    {
+      "title": "一个魔方还原了两层，那么它属于还原了六分之一还是三分之二?",
+      "url": "https://www.zhihu.com/answer/1917197303690794976",
+      "summary": "正文把状态数取二进制对数得到信息熵，并以熵的削减衡量魔方还原进度。"
+    },
+    {
+      "title": "哪些看似毫不相干的事物具有相同的数学原理？",
+      "url": "https://www.zhihu.com/answer/1974913252715688840",
+      "summary": "正文给出香农熵公式，并解释其与热力学熵、交叉熵及数据压缩的联系。"
+    },
+    {
+      "title": "泊松分布的现实意义是什么，为什么现实生活多数服从于泊松分布？",
+      "url": "https://www.zhihu.com/answer/1979887339137439460",
+      "summary": "正文运用最大熵原理和离散、微分熵公式，说明为何正态、泊松等分布会在有限已知信息下自然出现。"
+    },
+    {
+      "title": "谁能具体讲一下三神之谜？",
+      "url": "https://www.zhihu.com/answer/2024407264467929073",
+      "summary": "正文计算谜题状态分布的信息熵与单次二元回答的信息增益，并用熵下界证明三问最优。"
+    },
+    {
+      "title": "概率（Probability）的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2027444259561686896",
+      "summary": "正文给出信息熵公式，并解释最大熵原理如何在既有约束下选择假设最少的概率分布。"
+    },
+    {
+      "title": "概率（Probability）的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2035152913056675014",
+      "summary": "正文以意外度、熵、KL 散度和互信息说明信息量如何度量不确定性减少。"
+    },
+    {
+      "title": "香农是如何想到信息论的？",
+      "url": "https://www.zhihu.com/answer/2067759178983248069",
+      "summary": "正文通过等概率与非等概率取球例子推导自信息和香农熵公式，计算平均信息量并解释其含义。"
+    },
+    {
+      "title": "深度解读：数学的本质与宇宙万物的关联",
+      "url": "https://zhuanlan.zhihu.com/p/22230431",
+      "summary": "正文用兰道尔原则展开信息熵与热力学熵的对应，并讨论改变一比特信息所需能量。"
+    },
+    {
+      "title": "串讲 线性代数、概率、熵",
+      "url": "https://zhuanlan.zhihu.com/p/23361299",
+      "summary": "正文把熵定义为跨时间后状态难以确定的程度和混乱度，与概率区分，属于信息熵的直觉解释。"
+    },
+    {
+      "title": "【数学建模】泰尔指数及分解的计算方法与Matlab实现",
+      "url": "https://zhuanlan.zhihu.com/p/23627010",
+      "summary": "正文给出按事件概率加权求和的信息熵公式，并据此定义和分解泰尔指数。"
+    },
+    {
+      "title": "机器学习理论篇1：机器学习的数学基础",
+      "url": "https://zhuanlan.zhihu.com/p/25197792",
+      "summary": "正文定义熵、联合熵、条件熵、相对熵和互信息，并据此说明最大熵模型。"
+    },
+    {
+      "title": "通俗理解条件熵",
+      "url": "https://zhuanlan.zhihu.com/p/26551798",
+      "summary": "正文给出条件熵的定义、公式含义和具体数值例子，说明已知 X 后 Y 剩余的信息不确定性。"
+    },
+    {
+      "title": "Softmax函数与交叉熵",
+      "url": "https://zhuanlan.zhihu.com/p/27223959",
+      "summary": "正文定义相对熵、熵与交叉熵，并说明交叉熵等于熵加 KL 散度及其用于衡量分布相似度。"
+    },
+    {
+      "title": "【新书节选】熵权法确定权重及Matlab&R实现",
+      "url": "https://zhuanlan.zhihu.com/p/28067337",
+      "summary": "正文给出第 j 个指标的熵值公式，并用归一化比重计算信息熵及其冗余度，进而确定客观权重。"
+    },
+    {
+      "title": "逻辑回归（Logistic Regression）（一）",
+      "url": "https://zhuanlan.zhihu.com/p/28408516",
+      "summary": "正文用惊讶程度和信息量解释交叉熵，并说明它衡量预测与真实结果之间的不确定性。"
+    },
+    {
+      "title": "深度学习的三大生成模型：VAE、GAN、GAN",
+      "url": "https://zhuanlan.zhihu.com/p/29685634",
+      "summary": "正文用熵和条件熵定义互信息，解释不确定性以及隐变量与生成图像之间的信息关联。"
+    },
+    {
+      "title": "从概率论到多分类问题：综述贝叶斯统计分类",
+      "url": "https://zhuanlan.zhihu.com/p/29751076",
+      "summary": "正文定义离散信息熵和条件熵，并用它们构造不确定性系数来评价分类器。"
+    },
+    {
+      "title": "降维打击-观察高维世界",
+      "url": "https://zhuanlan.zhihu.com/p/27204291",
+      "summary": "正文用信息熵衡量邻居距离分布的区分度，并以 perplexity 控制 t-SNE 的结构尺度。"
+    },
+    {
+      "title": "深入机器学习系列21-最大熵模型",
+      "url": "https://zhuanlan.zhihu.com/p/29978153",
+      "summary": "正文以信息熵和条件熵构造最大熵目标，并推导其指数分布形式。"
+    },
+    {
+      "title": "机器学习入门：重要的概念---信息熵（Shannon’s Entropy Model）",
+      "url": "https://zhuanlan.zhihu.com/p/30854084",
+      "summary": "正文从信息量与概率的关系导出熵公式，计算选择题例子的熵并解释其表示不确定度。"
+    },
+    {
+      "title": "熵，条件熵，互信息，交叉熵 的理解总结",
+      "url": "https://zhuanlan.zhihu.com/p/32401995",
+      "summary": "正文给出信息熵公式，以天气状态概率为例解释熵与不确定程度的关系。"
+    },
+    {
+      "title": "漫谈Entropy, Energy and Learning.",
+      "url": "https://zhuanlan.zhihu.com/p/32448644",
+      "summary": "正文定义熵、条件熵和互信息，并用期望与对数概率刻画它们的关系。"
+    },
+    {
+      "title": "时间序列模型之相空间重构模型",
+      "url": "https://zhuanlan.zhihu.com/p/32910931",
+      "summary": "正文给出离散系统信息熵的定义，并用互信息量的第一个极小值选择相空间延迟时间。"
+    },
+    {
+      "title": "从香农熵到手推KL散度：纵览机器学习中的信息论",
+      "url": "https://zhuanlan.zhihu.com/p/32985487",
+      "summary": "正文定义自信息与香农熵，推导离散和连续熵，并解释均匀分布熵最大的直觉。"
+    },
+    {
+      "title": "当我们优化损失函数时，我们在优化什么",
+      "url": "https://zhuanlan.zhihu.com/p/33568166",
+      "summary": "正文定义离散与连续随机变量的信息熵，并计算示例分布的熵及编码长度。"
+    },
+    {
+      "title": "如何测量这个世界的混乱-1-定义混乱",
+      "url": "https://zhuanlan.zhihu.com/p/33066289",
+      "summary": "正文从状态集合与概率分布出发，推导香农信息熵及其可加性。"
+    },
+    {
+      "title": "如何测量这个世界的混乱-2-信息熵",
+      "url": "https://zhuanlan.zhihu.com/p/33817223",
+      "summary": "正文给出信息熵公式，并用均匀二元分布、语言词频和编码长度说明其含义与极值性质。"
+    },
+    {
+      "title": "如何理解时间序列？— 从 Riemann 积分和 Lebesgue 积分谈起",
+      "url": "https://zhuanlan.zhihu.com/p/34407471",
+      "summary": "正文定义离散熵并解释熵大小与系统确定性和不确定性之间的关系。"
+    },
+    {
+      "title": "损失函数｜交叉熵损失函数",
+      "url": "https://zhuanlan.zhihu.com/p/35709485",
+      "summary": "正文定义并比较交叉熵损失，解释其如何衡量预测概率与真实类别分布的差异。"
+    },
+    {
+      "title": "信息论（1）——熵、互信息、相对熵",
+      "url": "https://zhuanlan.zhihu.com/p/36192699",
+      "summary": "正文给出离散熵公式，并用硬币、骰子和编码长度解释其不确定性含义。"
+    },
+    {
+      "title": "信息论（3）——联合熵，条件熵，熵的性质",
+      "url": "https://zhuanlan.zhihu.com/p/36385989",
+      "summary": "正文给出联合熵和条件熵的定义及物理意义，并证明非负性、条件减少性、独立界、最值性和凹性。"
+    },
+    {
+      "title": "为什么我说概率论是大学最不能翘的一门数学课",
+      "url": "https://zhuanlan.zhihu.com/p/36920233",
+      "summary": "正文用十六支球队逐次二分猜测得到四个比特，解释信息量、概率与信息熵的关系。"
+    },
+    {
+      "title": "TOPSIS法(优劣解距离法)介绍及 python3 实现",
+      "url": "https://zhuanlan.zhihu.com/p/37738503",
+      "summary": "正文用信息熵衡量指标的不确定性，并据此构造熵权系数。"
+    },
+    {
+      "title": "简单的交叉熵损失函数，你真的懂了吗？",
+      "url": "https://zhuanlan.zhihu.com/p/38241764",
+      "summary": "正文从 Bernoulli 似然和负对数似然推导交叉熵损失，解释预测概率偏离标签时的惩罚，并给出两种等价形式。"
+    },
+    {
+      "title": "KL散度理解",
+      "url": "https://zhuanlan.zhihu.com/p/39682125",
+      "summary": "正文明确指出 KL 散度又称相对熵，并用平均编码信息量说明它与信息熵的关系。"
+    },
+    {
+      "title": "一次完美毁尸灭迹的成本核算指南",
+      "url": "https://zhuanlan.zhihu.com/p/42102821",
+      "summary": "正文用等概率情形计算比特数，说明信息熵衡量表示信息平均所需位数，并讨论冗余编码。"
+    },
+    {
+      "title": "机器学习中的散度",
+      "url": "https://zhuanlan.zhihu.com/p/45131536",
+      "summary": "正文从信息量引出熵的定义及其期望表示，系统讲解香农意义下的信息熵。"
+    },
+    {
+      "title": "贝叶斯、香农、奥卡姆合写博客「机器学习是什么」",
+      "url": "https://zhuanlan.zhihu.com/p/45279921",
+      "summary": "正文用编码长度定义香农信息熵，并将熵与最大后验及最小描述长度联系起来。"
+    },
+    {
+      "title": "一文读懂经典双目稠密匹配算法SGM",
+      "url": "https://zhuanlan.zhihu.com/p/49272032",
+      "summary": "正文给出图像熵、联合熵和互信息的定义，并用联合分布直方图计算这些量。"
+    },
+    {
+      "title": "围棋布局的数学原理初论",
+      "url": "https://zhuanlan.zhihu.com/p/50558177",
+      "summary": "正文定义二元信源的平均不确定度为信源熵，并给出以 3 为底的熵公式和近似展开。"
+    },
+    {
+      "title": "最小化交叉熵损失与极大似然",
+      "url": "https://zhuanlan.zhihu.com/p/51099880",
+      "summary": "正文用熵与 KL 散度之和表示交叉熵，给出离散分布下的交叉熵公式。"
+    },
+    {
+      "title": "softmax_cross_entropy_with_logits中“logits”是个什么意思？",
+      "url": "https://zhuanlan.zhihu.com/p/51431626",
+      "summary": "正文用交叉熵度量标签分布与Softmax预测分布之间的信息差异。"
+    },
+    {
+      "title": "机器学习笔试100题完全解析",
+      "url": "https://zhuanlan.zhihu.com/p/55354352",
+      "summary": "正文用经验熵和条件熵之差定义信息增益，并逐项计算决策树各分割属性的信息增益。"
+    },
+    {
+      "title": "学习观10四格版：什么是信息（定性）",
+      "url": "https://zhuanlan.zhihu.com/p/55533624",
+      "summary": "正文以等概率四选一和二选一为例说明熵随状态数与概率分布变化，并给出数值示例。"
+    },
+    {
+      "title": "史上最全的语义SLAM论文笔记整理",
+      "url": "https://zhuanlan.zhihu.com/p/56805175",
+      "summary": "正文定义统计变量的熵、条件熵和互信息，并用信息增益筛选SLAM观测特征。"
+    },
+    {
+      "title": "PyTorch学习笔记——多分类交叉熵损失函数",
+      "url": "https://zhuanlan.zhihu.com/p/56638625",
+      "summary": "正文把平均编码长度定义为信息熵，并据此推导交叉熵和 KL 散度的关系。"
+    },
+    {
+      "title": "高维数据可视化之t-SNE算法🌈",
+      "url": "https://zhuanlan.zhihu.com/p/57937096",
+      "summary": "正文定义条件概率分布的香农熵，并以困惑度联系熵与有效近邻数。"
+    },
+    {
+      "title": "常见的损失函数(loss function)总结",
+      "url": "https://zhuanlan.zhihu.com/p/58883095",
+      "summary": "正文从伯努利似然推导交叉熵损失，并解释最小化交叉熵等价于最大化对数似然。"
+    },
+    {
+      "title": "《统计学习方法》最大熵模型推导注解",
+      "url": "https://zhuanlan.zhihu.com/p/59519202",
+      "summary": "正文定义离散熵与条件熵，解释熵作为不确定性的度量，并由最大熵原理建立分类目标函数。"
+    },
+    {
+      "title": "函数、概率、信息的基础串讲",
+      "url": "https://zhuanlan.zhihu.com/p/69889316",
+      "summary": "正文从状态组合数与对数引出信息熵，推导均匀及非均匀分布公式，并说明熵相对于随机变量和观察者的含义。"
+    },
+    {
+      "title": "为什么用交叉熵做损失函数",
+      "url": "https://zhuanlan.zhihu.com/p/70804197",
+      "summary": "正文给出信息熵公式，解释其表示不确定性和所需信息量，并据此联系交叉熵。"
+    },
+    {
+      "title": "交叉熵、相对熵（KL散度）、JS散度和Wasserstein距离（推土机距离）",
+      "url": "https://zhuanlan.zhihu.com/p/74075915",
+      "summary": "正文明确将事件信息量的期望定义为熵，给出离散熵公式并解释分类损失中的交叉熵。"
+    },
+    {
+      "title": "反向传播算法推导过程（非常详细）",
+      "url": "https://zhuanlan.zhihu.com/p/79657669",
+      "summary": "正文解释相对熵如何衡量两个概率分布的差异，并说明其平均编码长度的信息论意义。"
+    },
+    {
+      "title": "Metric Learning科普文",
+      "url": "https://zhuanlan.zhihu.com/p/80656461",
+      "summary": "正文讲解 KL 散度即相对熵的非负性，并进一步引出 Jeffrey 和 Bregman 散度。"
+    },
+    {
+      "title": "风控模型—WOE与IV指标的深入理解应用",
+      "url": "https://zhuanlan.zhihu.com/p/80134853",
+      "summary": "正文用KL相对熵统一解释IV与PSI的计算形式，对应信息熵及相关信息度量。"
+    },
+    {
+      "title": "机器学习工具（二）Notes of Optimal Transport",
+      "url": "https://zhuanlan.zhihu.com/p/82424946",
+      "summary": "正文以 relative entropy 作为熵正则项，解释它会把稀疏的运输方案推向熵中心，并让对偶问题变得光滑。"
+    },
+    {
+      "title": "变分自编码器介绍、推导及实现",
+      "url": "https://zhuanlan.zhihu.com/p/83865427",
+      "summary": "正文给出离散与连续随机变量的信息熵公式，并把信息熵解释为信息量的期望。"
+    },
+    {
+      "title": "MSE vs 交叉熵",
+      "url": "https://zhuanlan.zhihu.com/p/84431551",
+      "summary": "正文以信息论中的交叉熵刻画预测分布与真实分布的差异，并给出多分类损失公式。"
+    },
+    {
+      "title": "信息论基础 学习笔记（1）",
+      "url": "https://zhuanlan.zhihu.com/p/84828413",
+      "summary": "正文给出信息熵的概率表达式、应满足的性质及链式法则。"
+    },
+    {
+      "title": "极大似然估计与最小化交叉熵损失或者KL散度为什么等价？",
+      "url": "https://zhuanlan.zhihu.com/p/84764177",
+      "summary": "正文通过加入与参数无关的数据分布熵项，把交叉熵目标化为 KL 散度，说明两者的等价关系。"
+    },
+    {
+      "title": "Entanglement of Free-Fermion Systems",
+      "url": "https://zhuanlan.zhihu.com/p/82650010",
+      "summary": "正文定义冯诺依曼熵和纠缠熵，并用纠缠谱本征值给出显式计算。"
+    },
+    {
+      "title": "[信息论也能如此简单]------信息和熵",
+      "url": "https://zhuanlan.zhihu.com/p/85779990",
+      "summary": "正文用不确定性定义信息熵，通过概率加权给出熵公式，并计算多个具体例子。"
+    },
+    {
+      "title": "念念不忘，必有熵增",
+      "url": "https://zhuanlan.zhihu.com/p/67780950",
+      "summary": "正文用联合熵与互信息刻画随机过程对初始状态保留的信息量。"
+    },
+    {
+      "title": "可视化理解Binary Cross-Entropy",
+      "url": "https://zhuanlan.zhihu.com/p/89391305",
+      "summary": "正文用类别分布、全同分布和均匀分布直观解释信息熵作为不确定性度量的含义。"
+    },
+    {
+      "title": "中文是最有效率的语言吗？-- 信息熵简谈",
+      "url": "https://zhuanlan.zhihu.com/p/89958871",
+      "summary": "正文给出信息熵公式、计算示例，并分析符号数与频率分布如何影响熵。"
+    },
+    {
+      "title": "深度学习中常见的互信息的变分上下界(详细推导)",
+      "url": "https://zhuanlan.zhihu.com/p/91900950",
+      "summary": "正文在互信息下界中明确解释观测变量x的熵项及其与编码器无关的性质。"
+    },
+    {
+      "title": "量子平衡统计理论 I",
+      "url": "https://zhuanlan.zhihu.com/p/88528870",
+      "summary": "正文定义冯诺依曼熵，并证明微正则、正则和巨正则分布在相应约束下熵最大。"
+    },
+    {
+      "title": "深入理解GBDT多分类算法",
+      "url": "https://zhuanlan.zhihu.com/p/91652813",
+      "summary": "正文补充信息熵与交叉熵定义，并说明多分类对数似然损失与交叉熵形式相同。"
+    },
+    {
+      "title": "深度学习-Loss函数",
+      "url": "https://zhuanlan.zhihu.com/p/97698386",
+      "summary": "正文通过 KL 散度分解解释信息熵、交叉熵以及最小化交叉熵损失的信息论依据。"
+    },
+    {
+      "title": "信道容量",
+      "url": "https://zhuanlan.zhihu.com/p/105119130",
+      "summary": "正文用信息熵和条件熵解释互信息，并给出连续情形下积分形式的推导。"
+    },
+    {
+      "title": "不知道怎样计算权重？告诉你8种确定权重方法",
+      "url": "https://zhuanlan.zhihu.com/p/112667852",
+      "summary": "正文解释信息量、不确定性与熵的反向关系，并把信息熵用于指标赋权。"
+    },
+    {
+      "title": "Focal loss及多分类任务实现",
+      "url": "https://zhuanlan.zhihu.com/p/113716961",
+      "summary": "正文给出信息熵公式并以它推导交叉熵和 Focal Loss，实质解释了熵与不确定性。"
+    },
+    {
+      "title": "【损失函数】交叉熵损失函数简介",
+      "url": "https://zhuanlan.zhihu.com/p/124309304",
+      "summary": "正文定义香农熵，以抛硬币的伯努利分布为例解释其与结果不确定性的关系。"
+    },
+    {
+      "title": "【模型篇】逻辑回归（Logistic Regression）",
+      "url": "https://zhuanlan.zhihu.com/p/124757082",
+      "summary": "正文从极大似然推导二分类交叉熵，并比较交叉熵与均方误差的梯度行为。"
+    },
+    {
+      "title": "音乐和数论(II)：格点和黎曼ζ函数",
+      "url": "https://zhuanlan.zhihu.com/p/132503419",
+      "summary": "正文定义并推导Rényi熵，用概率分布、调制因子和归一化度量音程的可辨识性。"
+    },
+    {
+      "title": "一文读懂决策树（上）——信息增益、信息增益率、Gini系数",
+      "url": "https://zhuanlan.zhihu.com/p/136100996",
+      "summary": "正文给出熵的计算例，定义条件熵和信息增益，并讨论基尼系数与不确定性的关系。"
+    },
+    {
+      "title": "将“softmax+交叉熵”推广到多标签分类问题",
+      "url": "https://zhuanlan.zhihu.com/p/138117543",
+      "summary": "正文推广 softmax 与交叉熵，并用 logsumexp 推导正负类别两两比较的损失。"
+    },
+    {
+      "title": "工具类|常见的距离算法和相似度计算方法",
+      "url": "https://zhuanlan.zhihu.com/p/138107999",
+      "summary": "正文用相对熵定义 KL 散度，并以联合分布与边缘分布之比定义互信息。"
+    },
+    {
+      "title": "理解 Kullback–Leibler 散度的近似",
+      "url": "https://zhuanlan.zhihu.com/p/139084847",
+      "summary": "正文以 KL 相对熵的定义为起点，比较不同 KL 散度估计的偏差与方差，属于信息散度与相对熵的内容。"
+    },
+    {
+      "title": "小白都能懂得信息论（更改版本）：渐近均分性",
+      "url": "https://zhuanlan.zhihu.com/p/149188816",
+      "summary": "正文把渐近均分性表述为长序列的平均自信息依概率收敛到熵，并用于典型集估计。"
+    },
+    {
+      "title": "机器学习:手撕 cross-entropy 损失函数",
+      "url": "https://zhuanlan.zhihu.com/p/149409908",
+      "summary": "正文定义事件信息量、熵和交叉熵，并用分布编码所需的平均比特数解释这些量的含义。"
+    },
+    {
+      "title": "手把手教你用熵值法计算权重",
+      "url": "https://zhuanlan.zhihu.com/p/161282160",
+      "summary": "正文完整介绍熵值法的标准化、非负平移、指标权重计算和综合评价排序流程。"
+    },
+    {
+      "title": "数学建模笔记——评价类模型之熵权法",
+      "url": "https://zhuanlan.zhihu.com/p/161372016",
+      "summary": "正文推导信息熵的归一化形式、信息效用值及熵权，并解释指标波动与权重的关系。"
+    },
+    {
+      "title": "交叉熵和极大似然估计的再理解",
+      "url": "https://zhuanlan.zhihu.com/p/165139520",
+      "summary": "正文给出离散随机变量信息熵的定义，并说明其与编码所需比特数的联系。"
+    },
+    {
+      "title": "深度学习中的互信息量上下界估计",
+      "url": "https://zhuanlan.zhihu.com/p/168479185",
+      "summary": "正文使用条件熵表示互信息并据此推导变分下界。"
+    },
+    {
+      "title": "噪声标签学习——DivideMix与SELF论文浅析",
+      "url": "https://zhuanlan.zhihu.com/p/174803527",
+      "summary": "正文把负熵正则解释为惩罚尖锐预测分布并增加预测不确定性的手段。"
+    },
+    {
+      "title": "最大似然估计与最大后验估计",
+      "url": "https://zhuanlan.zhihu.com/p/184028576",
+      "summary": "正文定义自信息与香农熵，并展开 KL 散度、交叉熵及其与最大似然估计的关系。"
+    },
+    {
+      "title": "最小熵原理系列：词向量的维度应该怎么选择？",
+      "url": "https://zhuanlan.zhihu.com/p/256418655",
+      "summary": "正文以信息熵度量语言和词对分布的不确定性，并由最小熵条件推导词向量维度估计。"
+    },
+    {
+      "title": "熵权法评价估计详细原理讲解及完整matlab仿真",
+      "url": "https://zhuanlan.zhihu.com/p/267259810",
+      "summary": "正文定义信息熵及其不确定性含义，并据各指标的信息熵计算冗余度和客观权重。"
+    },
+    {
+      "title": "老顽童香农的传奇一生",
+      "url": "https://zhuanlan.zhihu.com/p/268734541",
+      "summary": "正文用确定性与不确定性的例子解释信息量，并指出信息熵刻画数据压缩的临界值。"
+    },
+    {
+      "title": "无需trick，知识蒸馏提升ResNet50在ImageNet上准确度至80%+",
+      "url": "https://zhuanlan.zhihu.com/p/281856198",
+      "summary": "正文从 KL 散度展开出教师概率的熵，并说明其在蒸馏损失中的常量作用。"
+    },
+    {
+      "title": "灰度共生矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/295444415",
+      "summary": "正文给出灰度共生矩阵的熵公式，并解释其如何度量像素分布的随机性和图像复杂度。"
+    },
+    {
+      "title": "连续变量的最大熵分布 - 正态分布",
+      "url": "https://zhuanlan.zhihu.com/p/309831227",
+      "summary": "正文给出连续分布香农熵的积分式，并通过最大化熵导出正态分布。"
+    },
+    {
+      "title": "对 CPC (对比预测编码) 的理解",
+      "url": "https://zhuanlan.zhihu.com/p/317711322",
+      "summary": "正文给出熵的定义，并说明互信息等于引入上下文后随机变量熵减小的量。"
+    },
+    {
+      "title": "【伪科普向】万物趋向于正态分布——玩坏中心极限定理（内有大量动图）",
+      "url": "https://zhuanlan.zhihu.com/p/337186163",
+      "summary": "正文给出连续分布的信息熵积分定义，并通过最大熵与方差约束推导正态分布，展开信息熵的含义。"
+    },
+    {
+      "title": "综合评价指标权重方法汇总",
+      "url": "https://zhuanlan.zhihu.com/p/342901550",
+      "summary": "正文把熵定义为不确定性的度量，并解释信息量、熵和权重之间的反比关系。"
+    },
+    {
+      "title": "机器学习方法—信息论：自信息、熵、交叉熵与KL散度",
+      "url": "https://zhuanlan.zhihu.com/p/345025351",
+      "summary": "正文给出信息熵公式，并证明熵等于最优平均编码长度，还用它解释交叉熵。"
+    },
+    {
+      "title": "数字世界逼近现实世界——浅谈分布近似与最大似然估计",
+      "url": "https://zhuanlan.zhihu.com/p/355150033",
+      "summary": "正文把真实分布负对数期望识别为信息熵或香农熵，并解释其表达信息量。"
+    },
+    {
+      "title": "CVPR2021自监督学习论文: 理解对比损失的性质以及温度系数的作用",
+      "url": "https://zhuanlan.zhihu.com/p/357071960",
+      "summary": "正文把负样本的相对惩罚强度写成玻尔兹曼分布，并用其熵随温度变化解释训练行为。"
+    },
+    {
+      "title": "【数学知识】KL散度",
+      "url": "https://zhuanlan.zhihu.com/p/365400000",
+      "summary": "正文先定义离散随机变量的熵，再定义相对熵与交叉熵，并给出 KL 散度的关系。"
+    },
+    {
+      "title": "多标签和多分类，别再分不清了",
+      "url": "https://zhuanlan.zhihu.com/p/372402161",
+      "summary": "正文从信息量定义离散随机变量的熵，并计算分类标签熵以及分布与自身的交叉熵。"
+    },
+    {
+      "title": "进阶详解KL散度",
+      "url": "https://zhuanlan.zhihu.com/p/372835186",
+      "summary": "正文在推导前向 KL 与极大似然的关系时给出信息熵定义及其性质，属于信息熵。"
+    },
+    {
+      "title": "Softmax Loss 的推导及改进",
+      "url": "https://zhuanlan.zhihu.com/p/374018199",
+      "summary": "正文以交叉熵度量真实分布与预测分布的差异，并由此推导 Softmax 损失。"
+    },
+    {
+      "title": "两个多元正态分布的KL散度、巴氏距离和W距离",
+      "url": "https://zhuanlan.zhihu.com/p/387938179",
+      "summary": "正文给出正态分布熵的公式，并通过KL散度推导说明其与协方差行列式的关系。"
+    },
+    {
+      "title": "STATA经济指数构建系列（1）泰尔指数",
+      "url": "https://zhuanlan.zhihu.com/p/394874621",
+      "summary": "正文介绍并计算基于熵的泰尔指数，给出其公式和区域差异分解。"
+    },
+    {
+      "title": "解耦表征学习 | 变分自编码器解读 (Variational Autoencoder, VAE)",
+      "url": "https://zhuanlan.zhihu.com/p/403104014",
+      "summary": "正文定义 KL 散度即相对熵，并给出其公式、非负性质以及作为信息熵差值的解释。"
+    },
+    {
+      "title": "稳定算符的量子力学: 4.特别篇:拓扑纠缠熵",
+      "url": "https://zhuanlan.zhihu.com/p/393822376",
+      "summary": "正文定义拓扑纠缠熵并把它解释为三体互信息，讨论纠缠熵、边界项和量子维度。"
+    },
+    {
+      "title": "面板数据熵权法的Stata程序",
+      "url": "https://zhuanlan.zhihu.com/p/409618462",
+      "summary": "正文给出面板指标按概率归一化、求和并计算信息熵及冗余度的完整公式和程序，对应信息熵。"
+    },
+    {
+      "title": "【超详细公式推导】关于交叉熵损失函数（Cross-entropy）和 平方损失（MSE）的区别",
+      "url": "https://zhuanlan.zhihu.com/p/418345156",
+      "summary": "正文以交叉熵衡量预测概率分布与真实分布的差异，并说明其值越小表示两个分布越接近。"
+    },
+    {
+      "title": "KL-Divergence详解",
+      "url": "https://zhuanlan.zhihu.com/p/425693597",
+      "summary": "正文从事件信息量出发定义Shannon熵、交叉熵和相对熵，并解释其不确定性与信息含义。"
+    },
+    {
+      "title": "通信笔/面试题（2）香农公式",
+      "url": "https://zhuanlan.zhihu.com/p/429109281",
+      "summary": "正文利用条件熵、高斯微分熵和最大熵条件推导连续信道容量。"
+    },
+    {
+      "title": "关于KL散度（Kullback-Leibler Divergence）的笔记",
+      "url": "https://zhuanlan.zhihu.com/p/438129018",
+      "summary": "正文具体给出交叉熵与条件熵定义，并用熵差表示互信息。"
+    },
+    {
+      "title": "Wasserstein距离以及Sinkhorn求解算法",
+      "url": "https://zhuanlan.zhihu.com/p/441197063",
+      "summary": "正文给输运矩阵加入熵正则项，解释其压缩传输路径的作用，并导出 Sinkhorn 迭代。"
+    },
+    {
+      "title": "面试题解答6：逻辑斯蒂回归为什么使用交叉熵而不是MSE",
+      "url": "https://zhuanlan.zhihu.com/p/453411383",
+      "summary": "正文展开 KL 散度的分解，说明交叉熵由 KL 散度和真实分布的信息熵组成，并据此解释交叉熵损失的信息论含义。"
+    },
+    {
+      "title": "最优传输简介",
+      "url": "https://zhuanlan.zhihu.com/p/458312488",
+      "summary": "正文定义传输矩阵的熵函数，并说明用熵正则化选择唯一方案及推导 Sinkhorn 迭代。"
+    },
+    {
+      "title": "TKDE 2022 | 基于自监督学习和自适应记忆网络的时间序列异常检测方法AMSL",
+      "url": "https://zhuanlan.zhihu.com/p/458972527",
+      "summary": "正文定义记忆权重向量的熵并加入稀疏损失，以限制权重组合的分散程度。"
+    },
+    {
+      "title": "[QiTool 1] 互信息 作为 关联函数上限 的证明",
+      "url": "https://zhuanlan.zhihu.com/p/456600005",
+      "summary": "正文以香农熵定义互信息，解释其所含信息量，并推广到冯诺依曼熵。"
+    },
+    {
+      "title": "赢的传播（Spread of Win）",
+      "url": "https://zhuanlan.zhihu.com/p/467474655",
+      "summary": "正文把传播状态的平均不确定性定义为带概率权重对数和的信息熵形式，并列出非负性、对称性和极值性。"
+    },
+    {
+      "title": "强化学习 | Policy Gradient | Natural PG 详细推导(1)",
+      "url": "https://zhuanlan.zhihu.com/p/487754664",
+      "summary": "正文定义信息量、熵和KL散度，并说明它们衡量概率分布的不确定性和差异。"
+    },
+    {
+      "title": "深度学习高温蒸馏：Softmax With Temperature",
+      "url": "https://zhuanlan.zhihu.com/p/504323465",
+      "summary": "正文把温度与输出分布信息熵联系起来，并说明高温使分布趋近均匀、熵趋于最大。"
+    },
+    {
+      "title": "变分推断(Variational Inference)初探",
+      "url": "https://zhuanlan.zhihu.com/p/507776434",
+      "summary": "正文解释相对熵 KL 散度的定义、非对称性以及正向和反向 KL 在变分近似中的不同行为。"
+    },
+    {
+      "title": "有了这个技巧，我玩猜词游戏从来没输过",
+      "url": "https://zhuanlan.zhihu.com/p/522696725",
+      "summary": "正文由事件概率定义信息量 I=log_2(1/p)，计算不同提示的比特数并解释信息可加性。"
+    },
+    {
+      "title": "Paths上的Sidorenko猜想",
+      "url": "https://zhuanlan.zhihu.com/p/523287514",
+      "summary": "正文定义熵和条件熵，并借助Jensen不等式完成路径数量的信息熵证明。"
+    },
+    {
+      "title": "（期末迅速复习）信息论与编码笔记",
+      "url": "https://zhuanlan.zhihu.com/p/538856461",
+      "summary": "正文从不确定性和自信息引出信息熵，并说明用期望度量信源的平均信息量。"
+    },
+    {
+      "title": "概率论和机器学习中的不等式",
+      "url": "https://zhuanlan.zhihu.com/p/559551933",
+      "summary": "正文定义相对熵并以 KL 散度解释平斯克、萨诺夫和切尔诺夫界。"
+    },
+    {
+      "title": "数学建模——常考评价类模型介绍",
+      "url": "https://zhuanlan.zhihu.com/p/564302492",
+      "summary": "正文定义信息熵为信息量的期望，并依据指标的信息熵确定综合评价中的客观权重。"
+    },
+    {
+      "title": "一篇文章讲清楚交叉熵和KL散度",
+      "url": "https://zhuanlan.zhihu.com/p/573385147",
+      "summary": "正文把信息熵定义为事件惊喜度的期望，并解释确定事件与最大熵，直接展开信息熵概念。"
+    },
+    {
+      "title": "No.3 梳理汇总：信息熵、条件熵和互信息的性质及其推导",
+      "url": "https://zhuanlan.zhihu.com/p/592737528",
+      "summary": "正文系统定义信息熵，并推导条件熵、联合熵和互信息的非负性、有界性、可加性及链式法则。"
+    },
+    {
+      "title": "概率视角下的生成模型",
+      "url": "https://zhuanlan.zhihu.com/p/611466195",
+      "summary": "正文用 KL 散度、熵和互信息分解推导生成对抗网络的目标函数。"
+    },
+    {
+      "title": "概率论和机器学习中的不等式",
+      "url": "https://zhuanlan.zhihu.com/p/609782522",
+      "summary": "正文定义KL散度即相对熵，并用它证明平斯克与萨诺夫界。"
+    },
+    {
+      "title": "如何度量数据的稀疏程度？",
+      "url": "https://zhuanlan.zhihu.com/p/628938132",
+      "summary": "正文用香农熵和 Rényi 熵刻画概率分布的不确定性，并推导它们与 Lp 范数及稀疏度量的联系。"
+    },
+    {
+      "title": "数据科学中使用的 17 种相似性和相异性度量",
+      "url": "https://zhuanlan.zhihu.com/p/638840273",
+      "summary": "正文介绍 Jensen-Shannon 距离、Kullback-Leibler 散度并解释熵高低所表示的不确定性。"
+    },
+    {
+      "title": "迁移学习：互信息的变分上下界",
+      "url": "https://zhuanlan.zhihu.com/p/657489809",
+      "summary": "正文用条件熵与边缘熵说明互信息，并明确熵、条件熵和信息不确定度缩减之间的关系。"
+    },
+    {
+      "title": "【Proof-Trivial】最优传输与信息几何 (Optimal Transport & Information Geometry)  更新中...",
+      "url": "https://zhuanlan.zhihu.com/p/663591093",
+      "summary": "正文以 KL 散度作为概率测度间的相对熵，并比较信息几何与最优传输所诱导的距离。"
+    },
+    {
+      "title": "熵权法的原理、计算步骤及stata操作",
+      "url": "https://zhuanlan.zhihu.com/p/671201858",
+      "summary": "正文给出信息熵公式，说明它衡量信源平均信息量并以熵确定指标权重。"
+    },
+    {
+      "title": "信息瓶颈Information Bottleneck及信息论相关概念梳理",
+      "url": "https://zhuanlan.zhihu.com/p/687392131",
+      "summary": "正文明确给出信息熵及自信息的含义，并用概率与对数说明信息量的计算。"
+    },
+    {
+      "title": "变分法的进一步应用：最优传输——Variational Wasserstein gradient flow",
+      "url": "https://zhuanlan.zhihu.com/p/709241572",
+      "summary": "正文把广义熵、KL 散度和自由能作为优化目标，说明熵泛函与梯度流方程之间的对应。"
+    },
+    {
+      "title": "DMRG 的原理",
+      "url": "https://zhuanlan.zhihu.com/p/1920278979",
+      "summary": "正文用纠缠熵公式及其对约化密度矩阵本征值的求和解释截断损失与信息熵的关系。"
+    },
+    {
+      "title": "信息论与统计力学",
+      "url": "https://zhuanlan.zhihu.com/p/23417092770",
+      "summary": "正文定义信息量，给出 Shannon 熵公式，并讨论独立事件的熵可加性及最大熵。"
+    },
+    {
+      "title": "变分法在机器学习中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/1890543649474971025",
+      "summary": "正文以熵泛函最大化为目标，在期望和方差约束下推导最大熵分布。"
+    },
+    {
+      "title": "矩阵的有效秩（Effective Rank）",
+      "url": "https://zhuanlan.zhihu.com/p/1899586138747937721",
+      "summary": "正文把归一化奇异值视为概率分布，以香农熵的指数定义有效秩。"
+    },
+    {
+      "title": "听觉、神经元、意识，竟然遵循同一种数学规律？",
+      "url": "https://zhuanlan.zhihu.com/p/1918765549313296173",
+      "summary": "正文给出香农信息熵公式，并把熵解释为按概率加权的意外程度与不确定度。"
+    }
+  ]
+}

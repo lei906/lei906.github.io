@@ -1,0 +1,1291 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t1-b5",
+  "sources": [
+    {
+      "title": "为什么「函数」叫做「函数」？",
+      "url": "https://www.zhihu.com/answer/17868055",
+      "summary": "解释函数译名与十九世纪变量依赖观念的关系，属于函数概念史；具体译源仍是作者推测，书页图片未作文字外的核验。"
+    },
+    {
+      "title": "f(f(x))=x^2+x，如何求 f(x)？",
+      "url": "https://www.zhihu.com/answer/29842438",
+      "summary": "正文围绕“函数的定义”给出说明、例证或方法。"
+    },
+    {
+      "title": "如何证明一个函数是由一个奇函数和一个偶函数组成？",
+      "url": "https://www.zhihu.com/answer/31125190",
+      "summary": "正文围绕“函数的定义”给出说明、例证或方法。"
+    },
+    {
+      "title": "函数（function）这个词的翻译是否精准？",
+      "url": "https://www.zhihu.com/answer/33868562",
+      "summary": "正文解释函数一词所表达的变量关系。"
+    },
+    {
+      "title": "隐函数和方程有什么区别？",
+      "url": "https://www.zhihu.com/answer/84864282",
+      "summary": "正文从定义域到值域的映射定义函数并解释隐函数。"
+    },
+    {
+      "title": "该怎么理解泛函以及变分？是一种什么思想，老师讲的听不懂。？",
+      "url": "https://www.zhihu.com/answer/91979824",
+      "summary": "正文先用输入输出黑箱直观定义普通函数，再对照定义泛函。"
+    },
+    {
+      "title": "请问如何理解极限的精确定义？",
+      "url": "https://www.zhihu.com/answer/93960144",
+      "summary": "正文把函数解释为刻画数量关系的工具，并讨论函数性态。"
+    },
+    {
+      "title": "有哪些比较魔性的函数图象？",
+      "url": "https://www.zhihu.com/answer/99498316",
+      "summary": "正文给出分段函数的明确解析定义。"
+    },
+    {
+      "title": "狄利克雷函数的周期性怎么解释？",
+      "url": "https://www.zhihu.com/answer/109017491",
+      "summary": "正文给出函数周期性的定义，并据此验证狄利克雷函数的周期。"
+    },
+    {
+      "title": "MATLAB中contourslice函数如何使用，画出两个曲面的交线？",
+      "url": "https://www.zhihu.com/answer/112701289",
+      "summary": "正文从一元、二元、三元标量函数的自变量与因变量解释函数及其可视化。"
+    },
+    {
+      "title": "函数在一点连续，那么它在这一点邻域连续吗？",
+      "url": "https://www.zhihu.com/answer/135803458",
+      "summary": "正文给出具体函数并分析其在一点与邻域的连续性质，属于函数性质说明。"
+    },
+    {
+      "title": "仿射函数、线性函数的区别？",
+      "url": "https://www.zhihu.com/answer/138010074",
+      "summary": "正文给出仿射函数的一般定义并说明线性函数是 b=0 的特例。"
+    },
+    {
+      "title": "各位大神，如何看待上域，教材说要和值域区分，值域为上域子集，那上域是什么?_?",
+      "url": "https://www.zhihu.com/answer/142339053",
+      "summary": "正文区分定义域、上域和值域，并用平方根说明上域是函数定义的一部分。"
+    },
+    {
+      "title": "无法理解高等数学怎么办？",
+      "url": "https://www.zhihu.com/answer/146500799",
+      "summary": "正文给出映射与函数定义，并用机器的输入、规则和输出作直观解释。"
+    },
+    {
+      "title": "中国古代数学有什么成就？",
+      "url": "https://www.zhihu.com/answer/146885674",
+      "summary": "正文分析缺少函数这一抽象对象为何限制微积分体系的形成。"
+    },
+    {
+      "title": "如果 f(8)=56, f(7)=42, f(6)=30, f(5)=20, 那么 f(3)=?",
+      "url": "https://www.zhihu.com/answer/151718093",
+      "summary": "正文指出有限点值不能唯一确定函数，并显式构造仍满足这些点值的任意函数族。"
+    },
+    {
+      "title": "该怎么理解这道高一必修一的函数题？",
+      "url": "https://www.zhihu.com/answer/204059534",
+      "summary": "正文用输入输出机器的比喻解释函数及定义域。"
+    },
+    {
+      "title": "能否构造一个函数，使其定义域为整数集，值域为有理数集呢？",
+      "url": "https://www.zhihu.com/answer/227610497",
+      "summary": "正文给出定义域为整数、值域覆盖有理数的函数表达式。"
+    },
+    {
+      "title": "如何理解隐函数的定义？",
+      "url": "https://www.zhihu.com/answer/231025347",
+      "summary": "正文以显函数和隐函数对照解释函数关系的表达。"
+    },
+    {
+      "title": "为什么物理规则几乎都是乘法？",
+      "url": "https://www.zhihu.com/answer/231167142",
+      "summary": "正文定义齐次函数并从量纲不变性推导其形式。"
+    },
+    {
+      "title": "请问满射、单射、一 一映射、函数四者的关系？",
+      "url": "https://www.zhihu.com/answer/240233802",
+      "summary": "正文定义函数、单射、满射和双射之间的关系。"
+    },
+    {
+      "title": "希尔伯特曲线真的遍历了区间中的所有点了吗？",
+      "url": "https://www.zhihu.com/answer/242252736",
+      "summary": "正文把 Hilbert 曲线定义为区间到正方形区域的满射。"
+    },
+    {
+      "title": "单射双射与满射的定义区别？",
+      "url": "https://www.zhihu.com/answer/250218390",
+      "summary": "正文用萝卜和坑的类比定义单射、满射与双射。"
+    },
+    {
+      "title": "x=a，a为常数，这个图像是连续的吗？",
+      "url": "https://www.zhihu.com/answer/266171894",
+      "summary": "正文给出多值映射的原像以及上半连续的定义。"
+    },
+    {
+      "title": "数学里的「良定义（well-defined）」的定义是什么？",
+      "url": "https://www.zhihu.com/answer/282054631",
+      "summary": "正文解释映射良定义与代表元选择无关。"
+    },
+    {
+      "title": "陪域跟值域的区别？",
+      "url": "https://www.zhihu.com/answer/310555281",
+      "summary": "正文定义映射的定义域、陪域、值域和满射，并解释它们的关系。"
+    },
+    {
+      "title": "如何学好高等数学，尤其是大一的极限、微积分？",
+      "url": "https://www.zhihu.com/answer/321831257",
+      "summary": "正文把函数作为高等数学的核心研究对象，并展开抽象函数、初等函数和非初等函数的分类。"
+    },
+    {
+      "title": "能否通过穷举文字排列得到超过时代的科技？更进一步是否可以与未来人类对话？",
+      "url": "https://www.zhihu.com/answer/326849387",
+      "summary": "正文从集合关系推导出映射的定义。"
+    },
+    {
+      "title": "现在数学发展到能给任意数列找通项公式了吗？",
+      "url": "https://www.zhihu.com/answer/349570925",
+      "summary": "正文区分初等函数、分段函数和生成函数等公式类型。"
+    },
+    {
+      "title": "怎么理解函数项级数？",
+      "url": "https://www.zhihu.com/answer/350552309",
+      "summary": "正文把函数项级数理解为从数到级数的映射。"
+    },
+    {
+      "title": "「三角関数」的「関」是什么意思？",
+      "url": "https://www.zhihu.com/answer/381833797",
+      "summary": "正文引用早期译文解释“函数”作为变量间关系的含义。"
+    },
+    {
+      "title": "有谁能告诉我什么是线性，什么是非线性？",
+      "url": "https://www.zhihu.com/answer/443697507",
+      "summary": "正文区分线性与非线性关系并给出函数角度解释。"
+    },
+    {
+      "title": "皮亚诺曲线可以遍历单位正方形中的每一点该怎样理解？",
+      "url": "https://www.zhihu.com/answer/445215213",
+      "summary": "正文用从单位区间到正方形的满射构造空间填充曲线。"
+    },
+    {
+      "title": "线性和非线性的区别是什么？",
+      "url": "https://www.zhihu.com/answer/486551119",
+      "summary": "正文说明线性系统满足叠加原则而非线性系统不满足。"
+    },
+    {
+      "title": "由函数的连续性可得到什么结论？",
+      "url": "https://www.zhihu.com/answer/486560180",
+      "summary": "正文系统列举连续函数的等价定义与结论。"
+    },
+    {
+      "title": "什么是反函数？",
+      "url": "https://www.zhihu.com/answer/494812772",
+      "summary": "正文从函数定义推导反函数的一一对应条件。"
+    },
+    {
+      "title": "算子，算符，函数各是什么东西？各自运算有什么特征？相互之间什么关系？",
+      "url": "https://www.zhihu.com/answer/512653150",
+      "summary": "正文区分映射、函数、泛函、算子与变换，并给出各自定义域和值域。"
+    },
+    {
+      "title": "1×0＝0 是因为 0 乘以任何数字都等于 0，还是因为 1 乘任何数字都等于那个数？",
+      "url": "https://www.zhihu.com/answer/536722626",
+      "summary": "正文用两个不同映射区分 1×0 表达式的解释方式。"
+    },
+    {
+      "title": "怎么判断一个函数是复合函数？",
+      "url": "https://www.zhihu.com/answer/540998568",
+      "summary": "正文直接给出复合函数由基本函数组合形成的定义性解释。"
+    },
+    {
+      "title": "有哪些高中教材不要求但高考解题时非常好用的知识？",
+      "url": "https://www.zhihu.com/answer/545197471",
+      "summary": "正文集中展开抽象函数模型、对称性、周期性和奇偶性之间的关系。"
+    },
+    {
+      "title": "为什么微积分从被发明到严谨化用了将近 200 年这么久？",
+      "url": "https://www.zhihu.com/answer/556737397",
+      "summary": "从傅里叶级数带来的反例说明数学家为何需要重新严格定义函数。"
+    },
+    {
+      "title": "如何判断复合函数的奇偶性和周期性？",
+      "url": "https://www.zhihu.com/answer/561855750",
+      "summary": "正文从函数与映射定义推导复合函数的奇偶性。"
+    },
+    {
+      "title": "齐次方程的「齐次」代表什么？",
+      "url": "https://www.zhihu.com/answer/579775239",
+      "summary": "正文从齐次函数定义解释方程中的齐次。"
+    },
+    {
+      "title": "一次函数有多难？",
+      "url": "https://www.zhihu.com/answer/636865536",
+      "summary": "从对应关系和解析式说明一次函数的定义及斜率、截距参数。"
+    },
+    {
+      "title": "为什么二次函数横向平移是左加右减呢？",
+      "url": "https://www.zhihu.com/answer/686074919",
+      "summary": "从映射关系解释函数横向平移为何出现左加右减。"
+    },
+    {
+      "title": "数学上为何要定义笛卡尔乘积？用来解决哪些问题？",
+      "url": "https://www.zhihu.com/answer/690763446",
+      "summary": "把函数解释为笛卡尔积子集所满足的对应关系。"
+    },
+    {
+      "title": "函数的本质是什么？",
+      "url": "https://www.zhihu.com/answer/750264605",
+      "summary": "从变量关系和预测能力解释函数。"
+    },
+    {
+      "title": "单射双射与满射的定义区别？",
+      "url": "https://www.zhihu.com/answer/757334355",
+      "summary": "从集合关系严格定义映射、单射、满射与双射。"
+    },
+    {
+      "title": "函数的本质是什么？",
+      "url": "https://www.zhihu.com/answer/759770111",
+      "summary": "从定义域、值域和唯一对应关系解释函数。"
+    },
+    {
+      "title": "高中数学函数学不懂怎么办？",
+      "url": "https://www.zhihu.com/answer/761402055",
+      "summary": "用输入、输出和对应法则解释函数。"
+    },
+    {
+      "title": "二维码是否会重复？能否用数学证明？",
+      "url": "https://www.zhihu.com/answer/785596281",
+      "summary": "用单射证明信息编码到二维码的唯一性。"
+    },
+    {
+      "title": "数学论文的作者会意识到自己发表的结果实际上已经有人做出来过吗？",
+      "url": "https://www.zhihu.com/answer/785970997",
+      "summary": "定理研究区间上的连续函数迭代。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/786464580",
+      "summary": "围绕函数复合与定义域构造解。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/786533741",
+      "summary": "给出函数半迭代的通用极限表达式并用于函数平方根问题。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/786980012",
+      "summary": "研究严格增函数的复合平方根。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/790533452",
+      "summary": "从映射定义分析函数复合方程。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/791230378",
+      "summary": "正文先约定函数迭代记号，再把复合方程转化为迭代轨道问题。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/791442453",
+      "summary": "从定义域和值域约束分析函数复合。"
+    },
+    {
+      "title": "数学这门学科有多有趣？",
+      "url": "https://www.zhihu.com/answer/791852640",
+      "summary": "以经纬度到平面坐标的函数描述地图投影。"
+    },
+    {
+      "title": "初等函数之上有无定义「高等函数」？",
+      "url": "https://www.zhihu.com/answer/800503801",
+      "summary": "正文从初等函数的生成运算出发解释非初等函数的边界。"
+    },
+    {
+      "title": "如果对任意实数，有f(x+y)=f(x)+f(y)，能求出函数f(x)吗？",
+      "url": "https://www.zhihu.com/answer/800831900",
+      "summary": "正文讨论加性函数在实数域上的线性与病态非线性解。"
+    },
+    {
+      "title": "如果对任意实数，有f(x+y)=f(x)+f(y)，能求出函数f(x)吗？",
+      "url": "https://www.zhihu.com/answer/819112429",
+      "summary": "正文刻画了定义在实数域上的连续可加函数只能是线性函数。"
+    },
+    {
+      "title": "初等函数之上有无定义「高等函数」？",
+      "url": "https://www.zhihu.com/answer/823084146",
+      "summary": "定义初等函数并说明复合与代数运算的封闭构造。"
+    },
+    {
+      "title": "arc加sin表示什么？",
+      "url": "https://www.zhihu.com/answer/824954018",
+      "summary": "由函数单值性说明必须规定反函数值域。"
+    },
+    {
+      "title": "如果费曼或者牛顿再世，能够在规定时间内解决高考数学或者物理的压轴题吗？",
+      "url": "https://www.zhihu.com/answer/865756921",
+      "summary": "回顾函数概念及f(x)符号形成的历史。"
+    },
+    {
+      "title": "「双曲函数」为什么要叫双曲函数？到底应该怎样定义双曲函数？",
+      "url": "https://www.zhihu.com/answer/921368885",
+      "summary": "正文从双曲线和双曲角出发严格定义六个双曲函数并推导表达式。"
+    },
+    {
+      "title": "初等函数以外的函数是什么样子的？",
+      "url": "https://www.zhihu.com/answer/923630683",
+      "summary": "正文通过椭圆积分、伽马函数和贝塞尔函数说明非初等函数如何被定义。"
+    },
+    {
+      "title": "求大佬讲解一下迭代函数里的蛛网法...高三学生快哭了?",
+      "url": "https://www.zhihu.com/answer/998609594",
+      "summary": "正文解释函数不动点和蛛网迭代的含义。"
+    },
+    {
+      "title": "为什么随便在计算器上按个数，然后多次按 cos 键，结果总是趋近于 0.73几？",
+      "url": "https://www.zhihu.com/answer/1024922800",
+      "summary": "正文解释反复复合余弦函数收敛到不动点。"
+    },
+    {
+      "title": "为什么随便在计算器上按个数，然后多次按 cos 键，结果总是趋近于 0.73几？",
+      "url": "https://www.zhihu.com/answer/1025050998",
+      "summary": "正文定义不动点迭代并解释其收敛条件。"
+    },
+    {
+      "title": "为什么随便在计算器上按个数，然后多次按 cos 键，结果总是趋近于 0.73几？",
+      "url": "https://www.zhihu.com/answer/1034261960",
+      "summary": "正文通过函数零点解释反复余弦的固定点。"
+    },
+    {
+      "title": "为什么随便在计算器上按个数，然后多次按 cos 键，结果总是趋近于 0.73几？",
+      "url": "https://www.zhihu.com/answer/1038840594",
+      "summary": "正文以余弦迭代为例实质讲解不动点及压缩映射。"
+    },
+    {
+      "title": "为什么随便在计算器上按个数，然后多次按 cos 键，结果总是趋近于 0.73几？",
+      "url": "https://www.zhihu.com/answer/1046361372",
+      "summary": "正文将迭代极限刻画为余弦函数不动点。"
+    },
+    {
+      "title": "为什么随便在计算器上按个数，然后多次按 cos 键，结果总是趋近于 0.73几？",
+      "url": "https://www.zhihu.com/answer/1051958508",
+      "summary": "正文用图像与迭代解释余弦不动点。"
+    },
+    {
+      "title": "为什么随便在计算器上按个数，然后多次按 cos 键，结果总是趋近于 0.73几？",
+      "url": "https://www.zhihu.com/answer/1053506249",
+      "summary": "正文系统解释余弦迭代、不动点及吸引域。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/1066881153",
+      "summary": "正文定义周期函数、好函数及其层数并展开证明。"
+    },
+    {
+      "title": "隐函数怎么理解？",
+      "url": "https://www.zhihu.com/answer/1116186154",
+      "summary": "正文从显函数与隐函数的关系解释函数表示。"
+    },
+    {
+      "title": "为什么不是所有函数都能用解析式表达？",
+      "url": "https://www.zhihu.com/answer/1119577293",
+      "summary": "正文从定义域和映射说明函数集合为何巨大。"
+    },
+    {
+      "title": "数列「1，2，2，3，3，3，...」的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/1140740921",
+      "summary": "正文从分组位置关系推导数列通项函数。"
+    },
+    {
+      "title": "如何对 0，0，0，0 进行运算得到 24？",
+      "url": "https://www.zhihu.com/answer/1143468755",
+      "summary": "正文递归定义函数F并给出适用于任意四个自然数的公式。"
+    },
+    {
+      "title": "为何可以用不动点法求数列通项公式，可不可以解释一下？",
+      "url": "https://www.zhihu.com/answer/1196034312",
+      "summary": "正文定义函数不动点、迭代与相似变换。"
+    },
+    {
+      "title": "既是奇函数又是偶函数的函数有哪些啊？",
+      "url": "https://www.zhihu.com/answer/1298667001",
+      "summary": "正文讨论函数定义域并分类奇偶函数。"
+    },
+    {
+      "title": "在辅导书上看到函数 s=s(t)，这个书写方式是对的还是错的？如果是错的，正确的应该是怎样的？",
+      "url": "https://www.zhihu.com/answer/1308823509",
+      "summary": "正文直接讲解“函数的定义”相关内容。"
+    },
+    {
+      "title": "拉格朗日第二类方程里的广义速度与广义坐标无关吗？",
+      "url": "https://www.zhihu.com/answer/1330033628",
+      "summary": "正文通过二元函数、向量值映射和复合映射澄清函数的变量含义。"
+    },
+    {
+      "title": "x^x 的导数怎么算？",
+      "url": "https://www.zhihu.com/answer/1344620646",
+      "summary": "正文通过函数映射与复合映射的微分法则处理幂指函数。"
+    },
+    {
+      "title": "原函数与反函数是同一函数吗？",
+      "url": "https://www.zhihu.com/answer/1442289956",
+      "summary": "正文直接讲解或推导“函数的定义”相关内容。"
+    },
+    {
+      "title": "哪些专业名词翻译得特别烂？",
+      "url": "https://www.zhihu.com/answer/1448247249",
+      "summary": "正文直接讲解或推导“函数的定义”相关内容。"
+    },
+    {
+      "title": "如何理解隐函数的定义？",
+      "url": "https://www.zhihu.com/answer/1494859885",
+      "summary": "正文直接给出与「函数的定义」相关的解释、推导或应用。"
+    },
+    {
+      "title": "已知函数 f(x＋1) 的解析式，求函数 f(x) 的解析式，为什么可以用换元法？",
+      "url": "https://www.zhihu.com/answer/1538126252",
+      "summary": "正文直接讨论函数的定义，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "f(x－2) 的定义域是指 x 的取值范围，还是指括号内 x－2 的取值范围？",
+      "url": "https://www.zhihu.com/answer/1552650354",
+      "summary": "正文澄清函数定义域始终是自变量 x 的取值范围，并解释复合表达式的对应法则。"
+    },
+    {
+      "title": "有哪些你觉得是常识，但大部分人好像并不知道的事？",
+      "url": "https://www.zhihu.com/answer/1586790373",
+      "summary": "正文给出 Dirichlet 函数并说明它处处不连续、无法用图像直观表示。"
+    },
+    {
+      "title": "三角函数只能在直角三角形中计算吗？",
+      "url": "https://www.zhihu.com/answer/1668416936",
+      "summary": "正文用指数和三角函数说明函数定义域扩展方法。"
+    },
+    {
+      "title": "如何看待全国高中数学教材的内容调整？",
+      "url": "https://www.zhihu.com/answer/1785246735",
+      "summary": "正文详细说明映射概念对函数与抽象数学理解的重要性。"
+    },
+    {
+      "title": "如何看待全国高中数学教材的内容调整？",
+      "url": "https://www.zhihu.com/answer/1785624331",
+      "summary": "正文直接指出函数定义与函数对象理解之间的困惑。"
+    },
+    {
+      "title": "函数方程 f(xy)=f(x)+f(y) 的严格解是什么？解是否唯一？",
+      "url": "https://www.zhihu.com/answer/1800807931",
+      "summary": "正文讨论函数方程以及连续但不一定可微的限制。"
+    },
+    {
+      "title": "函数（function）这个词的翻译是否精准？",
+      "url": "https://www.zhihu.com/answer/1828446093",
+      "summary": "正文从变量关系与输入输出黑箱解释函数概念和中文译名。"
+    },
+    {
+      "title": "函数（function）这个词的翻译是否精准？",
+      "url": "https://www.zhihu.com/answer/1829227946",
+      "summary": "正文从李善兰译名和输入输出模型解释函数概念。"
+    },
+    {
+      "title": "函数（function）这个词的翻译是否精准？",
+      "url": "https://www.zhihu.com/answer/1830770018",
+      "summary": "正文从数学函数与编程函数的功能结构讨论函数概念的译名。"
+    },
+    {
+      "title": "想问一下sinx=cosxtanx吗？",
+      "url": "https://www.zhihu.com/answer/1865063210",
+      "summary": "正文强调函数相等必须同时满足定义域相同。"
+    },
+    {
+      "title": "如何评价「泛函、映射、算子、变换都是函数，是搞数学的人骗普通人的把戏」这一说法？实际情况如何？",
+      "url": "https://www.zhihu.com/answer/1938577403",
+      "summary": "正文直接讨论并支撑「函数的定义」相关内容。"
+    },
+    {
+      "title": "如何评价「泛函、映射、算子、变换都是函数，是搞数学的人骗普通人的把戏」这一说法？实际情况如何？",
+      "url": "https://www.zhihu.com/answer/1938690565",
+      "summary": "正文直接比较函数、泛函和算子的定义与用途。"
+    },
+    {
+      "title": "如何评价「泛函、映射、算子、变换都是函数，是搞数学的人骗普通人的把戏」这一说法？实际情况如何？",
+      "url": "https://www.zhihu.com/answer/1938974754",
+      "summary": "正文从映射概念出发辨析函数及相关术语。"
+    },
+    {
+      "title": "如果 f(f(x))＝e^x，那么 f(x) 的解析式是什么？",
+      "url": "https://www.zhihu.com/answer/2013779981",
+      "summary": "正文构造多段函数研究复合迭代方程 f(f(x))=e^x。"
+    },
+    {
+      "title": "有没有哪位大（巨）佬，研究过取整，并愿意分享一下自己的成果？",
+      "url": "https://www.zhihu.com/answer/2014094083",
+      "summary": "正文定义高斯取整函数并讨论其性质。"
+    },
+    {
+      "title": "定义区间与定义域？",
+      "url": "https://www.zhihu.com/answer/2017552390",
+      "summary": "正文严格区分函数定义域与定义区间，并联系连续性。"
+    },
+    {
+      "title": "有没有哪位大（巨）佬，研究过取整，并愿意分享一下自己的成果？",
+      "url": "https://www.zhihu.com/answer/2021680933",
+      "summary": "正文系统研究取整恒等式和取整函数恒等式。"
+    },
+    {
+      "title": "如何评价b站的“一数公益”？",
+      "url": "https://www.zhihu.com/answer/2081606072",
+      "summary": "正文用函数定义域、值域和方程有解解释判别式法。"
+    },
+    {
+      "title": "函数方程 f(xy)=f(x)+f(y) 的严格解是什么？解是否唯一？",
+      "url": "https://www.zhihu.com/answer/2108468925",
+      "summary": "正文从函数定义出发讨论函数方程 f(xy)=f(x)+f(y)。"
+    },
+    {
+      "title": "x! 不是等于x(x-1)(x-2)×···×2×1吗？那为什么x!的图像不经过x轴呢？",
+      "url": "https://www.zhihu.com/answer/2224935118",
+      "summary": "正文解释阶乘表达式并非固定次数多项式，因此不能用多项式零点直观判断。"
+    },
+    {
+      "title": "数学中，f'(x) 和 (f(x))' 到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/2233167607",
+      "summary": "正文从自变量、因变量和从输入到输出的过程解释函数概念。"
+    },
+    {
+      "title": "是否存在函数使得从（0,1）映射到[0,1] ,且是双方单值？",
+      "url": "https://www.zhihu.com/answer/2251867736",
+      "summary": "正文讨论区间之间函数、单射、连续性和反函数。"
+    },
+    {
+      "title": "函数方程 f(xy)=f(x)+f(y) 的严格解是什么？解是否唯一？",
+      "url": "https://www.zhihu.com/answer/2290370604",
+      "summary": "正文研究乘法型函数方程及函数连续性的约束。"
+    },
+    {
+      "title": "0! = 1，1! = 1，怎么解释 1 ≠ 0？",
+      "url": "https://www.zhihu.com/answer/2290471866",
+      "summary": "正文用函数多对一关系澄清阶乘取值相同不等于自变量相同。"
+    },
+    {
+      "title": "y=x^3为什么是单射?",
+      "url": "https://www.zhihu.com/answer/2315418423",
+      "summary": "正文直接按函数对应关系定义并证明 y=x³ 的单射性。"
+    },
+    {
+      "title": "高考数学函数大题同构法是万能的吗？",
+      "url": "https://www.zhihu.com/answer/2378246443",
+      "summary": "正文把函数同构法归结为复合函数的单调性判断。"
+    },
+    {
+      "title": "是否存在连续函数满足f(x)=f(2x)且不为常函数？",
+      "url": "https://www.zhihu.com/answer/2385536796",
+      "summary": "正文围绕函数值与原自变量之间的对应关系构造满足函数方程的例子。"
+    },
+    {
+      "title": "若零向量没有方向，那它还是向量吗？",
+      "url": "https://www.zhihu.com/answer/2393088500",
+      "summary": "正文在函数空间例子中定义函数加减与数乘。"
+    },
+    {
+      "title": "(f∘g)(x) = f(g(x)) 究竟是否需要证明？",
+      "url": "https://www.zhihu.com/answer/2473536891",
+      "summary": "正文从映射定义解释复合函数及 f∘g 的记号。"
+    },
+    {
+      "title": "有人说数学天才「能看到函数的函数的函数」，这是怎样一种体验？",
+      "url": "https://www.zhihu.com/answer/2528039134",
+      "summary": "用复合函数与函数空间之间的映射解释“函数的函数”。"
+    },
+    {
+      "title": "如何评价第 63 届国际奥林匹克数学竞赛（IMO）?",
+      "url": "https://www.zhihu.com/answer/2570558789",
+      "summary": "从函数方程和唯一对应的 phi(x) 出发，求出满足条件的唯一函数 f(x)=1/x。"
+    },
+    {
+      "title": "如何看待全国高中数学教材的内容调整？",
+      "url": "https://www.zhihu.com/answer/2579502735",
+      "summary": "强调函数应理解为数集之间的映射，并讨论这一观点对后续抽象代数学习的作用。"
+    },
+    {
+      "title": "怎样理解高中数学中表示函数的符号 f(x)？",
+      "url": "https://www.zhihu.com/answer/2589103738",
+      "summary": "系统解释 f(x) 作为对应法则符号的含义、定义域以及复合替换的例题。"
+    },
+    {
+      "title": "老师说链式法则里某个 dy/dx 不能理解为 dy 除以 dx，为什么？",
+      "url": "https://www.zhihu.com/answer/2704409593",
+      "summary": "正文具体说明 dy 是实数到函数的映射，并区分函数的自变量、参数和取值对象，属于对函数及映射定义的实质讨论。"
+    },
+    {
+      "title": "你最(不)想成为什么函数？",
+      "url": "https://www.zhihu.com/answer/2716334625",
+      "summary": "正文以有理数取 1、无理数取 0 的规则定义狄利克雷函数，说明其基本函数结构。"
+    },
+    {
+      "title": "为什么要定义第一纲集和第二纲集？",
+      "url": "https://www.zhihu.com/answer/2746385581",
+      "summary": "正文回顾函数从算法表示推广为任意点与点配对的一般定义，并讨论由此产生的病态函数。"
+    },
+    {
+      "title": "f(x)=x²和g(x)=|x|两个函数，定义域都是{-1,0,1}，那这两个函数是同一函数吗？",
+      "url": "https://www.zhihu.com/answer/2860311528",
+      "summary": "正文以自变量的输入和因变量的输出之间的对应关系说明函数的本质，并据此判断两个函数相同。"
+    },
+    {
+      "title": "函数和泛函的区别是什么？",
+      "url": "https://www.zhihu.com/answer/2933002860",
+      "summary": "正文明确把函数定义为输入到输出的映射关系，并区分函数与函数值。"
+    },
+    {
+      "title": "为什么 sin15°=sin45°-sin30° 是错误的？",
+      "url": "https://www.zhihu.com/answer/2947109686",
+      "summary": "正文指出正弦不满足可加性，并说明在非病态条件下可加函数只能是 f(x)=kx，讨论的是函数的可加性质与解集。"
+    },
+    {
+      "title": "这个函数是不是初等函数？",
+      "url": "https://www.zhihu.com/answer/2961384809",
+      "summary": "正文把分段函数改写成绝对值、根号和对数组成的复合表达式，并据此论证其为初等函数。"
+    },
+    {
+      "title": "做过最气的题是什么题？",
+      "url": "https://www.zhihu.com/answer/2981697046",
+      "summary": "正文把绝对值之和作为函数，明确说明函数概念并画出分段函数图像。"
+    },
+    {
+      "title": "是否存在一个函数（除去常值函数），使得f（x）等于f（2x）呢？",
+      "url": "https://www.zhihu.com/answer/3070021952",
+      "summary": "正文从定义域、对应关系和函数值等式出发说明如何构造满足条件的函数。"
+    },
+    {
+      "title": "是否存在两个周期函数f(x)和g(x)，使得它们的和f(x)+g(x)≡x？",
+      "url": "https://www.zhihu.com/answer/3136608009",
+      "summary": "正文借助代表元定义函数 u、v 与 o，并用它们构造满足 f(x)+g(x)≡x 的两个周期函数。"
+    },
+    {
+      "title": "初等函数和非初等函数之间有什么本质的区别？",
+      "url": "https://www.zhihu.com/answer/3141942844",
+      "summary": "正文用微分域扩张定义初等函数，据此区分初等函数与非初等函数。"
+    },
+    {
+      "title": "怎样构造函数f(x)使之满足f(x)+f(1/x)==1?",
+      "url": "https://www.zhihu.com/answer/3159671828",
+      "summary": "正文从常函数出发，利用 f(x)+f(1/x)=1 的条件变形构造分式、含对数项及幂次形式等多类函数。"
+    },
+    {
+      "title": "能否找到一个f(x)，使得当x取到全体正整数的时候，f(x)可以取到全体有理数？",
+      "url": "https://www.zhihu.com/answer/3187123321",
+      "summary": "正文构造分段函数和复合函数，把正整数映射到整数，再映射到全体有理数。"
+    },
+    {
+      "title": "高中数学老师的高等数学水平对教学水平有没有决定性的影响？",
+      "url": "https://www.zhihu.com/answer/3234661756",
+      "summary": "正文比较解析式说、变量对应说和集合对应说，说明函数定义从表达式到集合对应关系的发展。"
+    },
+    {
+      "title": "哪些数学书让你相见恨晚？",
+      "url": "https://www.zhihu.com/answer/3235464679",
+      "summary": "正文给出函数作为变量、常量和数经运算联合的解析表达式定义，并继续区分单值函数和多值函数。"
+    },
+    {
+      "title": "如何评价「泛函、映射、算子、变换都是函数，是搞数学的人骗普通人的把戏」这一说法？实际情况如何？",
+      "url": "https://www.zhihu.com/answer/3268349392",
+      "summary": "正文说明历史上函数、泛函、映射、算子及变换概念的差异，以及把它们统一到函数视角的意义。"
+    },
+    {
+      "title": "如何写一个“拼多多函数”PDD(x)，使得随着砍价次数x增加，函数值会无限接近于1但永远不会等于1?",
+      "url": "https://www.zhihu.com/answer/3308756783",
+      "summary": "正文把所求 PDD(x) 定义为 1 减去增长函数 g 的倒数，明确给出函数构造关系。"
+    },
+    {
+      "title": "泛函分析与微分几何有什么关系？",
+      "url": "https://www.zhihu.com/answer/3377249580",
+      "summary": "正文把通常的函数解释为从向量空间到实数集的映射，并据此推广到函数空间上的泛函。"
+    },
+    {
+      "title": "为什么robustness会翻译为鲁棒性？",
+      "url": "https://www.zhihu.com/answer/3450273725",
+      "summary": "正文在讨论“函数”译名时给出函数是变量到变量按约束建立映射的理解，并联系到自变量、定义域、值域和映射。"
+    },
+    {
+      "title": "我一直很好奇，高中数学考试每次145+的人怎么做到的？",
+      "url": "https://www.zhihu.com/answer/3470526785",
+      "summary": "正文以输入输出关系解释自变量、因变量以及单值对应的函数定义。"
+    },
+    {
+      "title": "反函数、隐函数和微分方程的关系是怎样的，为什么说隐函数定理是微分学中最重要的定理？",
+      "url": "https://www.zhihu.com/answer/3471290431",
+      "summary": "正文通过把系数当作自变量、根当作因变量，具体解释函数和隐函数中的变量对应关系。"
+    },
+    {
+      "title": "生活即教育，你在生活中学到了什么？",
+      "url": "https://www.zhihu.com/answer/3506832312",
+      "summary": "正文把函数解释成输入到输出的对应，并以护甲减伤、属性成长和地图收益说明其变化关系。"
+    },
+    {
+      "title": "如何评价姜萍事件？",
+      "url": "https://www.zhihu.com/answer/3532310236",
+      "summary": "正文用函数从 X 到实数的映射关系给出支撑集定义，并借函数定义域说明所示等式缺少必要限制。"
+    },
+    {
+      "title": "人的大脑会不会出现「过拟合」病?",
+      "url": "https://www.zhihu.com/answer/3583322989",
+      "summary": "正文给出双曲余割函数的显式定义，并用双曲正弦表示其结构。"
+    },
+    {
+      "title": "1，3，3，5，5，5，7，7，7，7... 的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/3583441561",
+      "summary": "正文显式构造由 saw、sinc 和 n 组成的函数，并以其取值定义数列各项。"
+    },
+    {
+      "title": "为什么有的人怎么努力也学不好高中数学？",
+      "url": "https://www.zhihu.com/answer/3585538740",
+      "summary": "正文从输入与输出的对应关系解释函数定义，并联系增长率、周期和临界点等变化。"
+    },
+    {
+      "title": "「f(2x-1) 的定义域」指的是「(2x-1) 的取值范围」还是「x 的取值范围」？",
+      "url": "https://www.zhihu.com/answer/3607202605",
+      "summary": "正文通过映射记号解释函数的定义域、对应域和对应关系，并区分函数名与函数值表达式。"
+    },
+    {
+      "title": "如果给你一次“乘十”的机会，可以把任何事情翻十倍，你会如何使用这张“乘十卡”？",
+      "url": "https://www.zhihu.com/answer/3613239723",
+      "summary": "正文把“乘十”形式化为实函数映射，并通过平移共轭构造把任意x送到任意y的函数。"
+    },
+    {
+      "title": "存不存在一个质数，使得它进行5次乘以2+1，每次的结果都是质数？",
+      "url": "https://www.zhihu.com/answer/3634051961",
+      "summary": "正文先定义函数 f(x)=2x+1，再讨论其 n 次自复合后的函数形式，属于函数定义与复合函数的讲解。"
+    },
+    {
+      "title": "存不存在这样的 f(x)、g(x)，使 f(g(x)) 单调增，g(f(x)) 单调减？",
+      "url": "https://www.zhihu.com/answer/3634886239",
+      "summary": "正文先明确讨论定义在实数集上的函数，再通过分段定义构造 f 与 g 并考察复合结果。"
+    },
+    {
+      "title": "高中数学老师不知道同构怎么办？",
+      "url": "https://www.zhihu.com/answer/7137649428",
+      "summary": "正文用具体二次函数说明如何拆成一层层更基本的函数，并由此讲解复合函数的结构。"
+    },
+    {
+      "title": "「f(2x-1) 的定义域」指的是「(2x-1) 的取值范围」还是「x 的取值范围」？",
+      "url": "https://www.zhihu.com/answer/9462773869",
+      "summary": "正文用两条原则解释函数定义域的所指，以及同一函数对应括号内取值范围的不变性。"
+    },
+    {
+      "title": "如何看待全国高中数学教材的内容调整？",
+      "url": "https://www.zhihu.com/answer/18092052220",
+      "summary": "正文以从实数集到实数集的映射说明函数的标准定义，并批评教材淡化该规范定义。"
+    },
+    {
+      "title": "一直不解，为什么如此定义矩阵的乘法，为什么这样一种怪异的乘法规则却能够在实践中发挥如此巨大的功效？",
+      "url": "https://www.zhihu.com/answer/25985795468",
+      "summary": "正文给出函数、定义域、值域及像值的完整定义，并复述复合函数的定义。"
+    },
+    {
+      "title": "数学的本质是什么？",
+      "url": "https://www.zhihu.com/answer/92822220719",
+      "summary": "正文把函数定义为特殊的映射并给出定义域、唯一对应关系及购物计价的例子。"
+    },
+    {
+      "title": "数学的本质究竟是什么？",
+      "url": "https://www.zhihu.com/answer/92835475393",
+      "summary": "正文说明函数是数集间的特殊映射，并讲解定义域、值域和对应关系三要素。"
+    },
+    {
+      "title": "数学的本质是什么?",
+      "url": "https://www.zhihu.com/answer/92843230048",
+      "summary": "正文定义函数，说明定义域、值域和对应关系，并给出成绩与学习时间关系的函数实例。"
+    },
+    {
+      "title": "求问「1^100、2^99、3^98……99^2、100^1」这一百个数中，谁最大？",
+      "url": "https://www.zhihu.com/answer/98593691811",
+      "summary": "正文先构造函数 y=x^(101-x)，并研究该函数在给定区间上的最大值。"
+    },
+    {
+      "title": "求问「1^100、2^99、3^98……99^2、100^1」这一百个数中，谁最大？",
+      "url": "https://www.zhihu.com/answer/98872470772",
+      "summary": "正文把原离散问题化为实数变量的函数，并研究该函数的最大值。"
+    },
+    {
+      "title": "数学本质是什么？",
+      "url": "https://www.zhihu.com/answer/101070015270",
+      "summary": "正文从材料与性能的对应引出映射，再用变量关系刻画函数的定义和性质。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/105715323325",
+      "summary": "正文把函数解释为输入空间到输出空间的映射变形，说明了函数表示输入与输出关系的含义。"
+    },
+    {
+      "title": "如何证明gamma函数不是初等函数？",
+      "url": "https://www.zhihu.com/answer/1910135549857071254",
+      "summary": "正文用指数型、对数型与代数型域扩张塔定义初等函数，并据此论证 Gamma 函数不是初等函数。"
+    },
+    {
+      "title": "是否存在两个周期函数f(x)和g(x)，使得它们的和f(x)+g(x)≡x？",
+      "url": "https://www.zhihu.com/answer/1926657365622650744",
+      "summary": "正文先设定两个周期函数及其周期，再研究它们之和，具体讨论了函数的周期定义与构造。"
+    },
+    {
+      "title": "存在一个函数使f(f(x))=x²吗？",
+      "url": "https://www.zhihu.com/answer/1926816658074346490",
+      "summary": "正文给出一个满足函数方程的具体函数，并讨论其带有零点分段定义的倒数形式。"
+    },
+    {
+      "title": "为什么伽马函数Γ（x）表示(x-1)!而非x的阶乘，数学家这样定义有何好处？",
+      "url": "https://www.zhihu.com/answer/1930886320739295469",
+      "summary": "正文比较伽马函数与阶乘函数的不同定义、函数方程和解析延拓，解释定义偏移带来的性质差异。"
+    },
+    {
+      "title": "基本初等函数的具体定义是什么？",
+      "url": "https://www.zhihu.com/answer/1936843550571594989",
+      "summary": "正文从函数三要素和有理函数出发界定初等函数，并解释引入初等函数概念的动机。"
+    },
+    {
+      "title": "超越函数“超越”了什么？",
+      "url": "https://www.zhihu.com/answer/1965186048133931032",
+      "summary": "正文通过代数函数的方程刻画来界定超越函数，并说明两类函数的区别。"
+    },
+    {
+      "title": "多值函数是不是违背了映射里y唯一确定的条件?",
+      "url": "https://www.zhihu.com/answer/1978069676287365176",
+      "summary": "正文梳理函数与映射的历史定义，并用有序三元组、定义域、陪域和图像说明现代单值函数定义。"
+    },
+    {
+      "title": "x+y=4和y=4-x 为什么一个是方程，一个是函数？",
+      "url": "https://www.zhihu.com/answer/1990003117647999401",
+      "summary": "正文明确说明函数的对应关系、自变量和因变量的唯一取值规则，并给出定义域、值域等函数性质。"
+    },
+    {
+      "title": "我们知道1的导函数是0，但如果把1拆成x·（1/x），求导就不是0了，为什么？",
+      "url": "https://www.zhihu.com/answer/2004343667004024334",
+      "summary": "正文以函数三要素和定义域差异说明两个表达式并不表示同一个函数。"
+    },
+    {
+      "title": "孩子问：为什么不给y=log_x a起个名称把它作为基本初等函数但却把y=tan x作为基本初等函数？",
+      "url": "https://www.zhihu.com/answer/2010019356071978643",
+      "summary": "正文从定义域、值域和对应关系出发说明函数，并以有理函数、代数函数和超越函数组织分类。"
+    },
+    {
+      "title": "既然x²＝x+x+…+x（x个x），那为啥两边求导结果不同？",
+      "url": "https://www.zhihu.com/answer/2020541350391607761",
+      "summary": "正文区分左侧在实数上定义的光滑函数与右侧仅在正整数点有意义的求和描述，并据此说明求导需要实数邻域内定义良好的函数。"
+    },
+    {
+      "title": "既然x²＝x+x+…+x（x个x），那为啥两边求导结果不同？",
+      "url": "https://www.zhihu.com/answer/2020631079472645313",
+      "summary": "正文为离散求和追加在正整数上与 S(n) 相等、在实数上连续可微的函数延拓，强调定义域与可微性。"
+    },
+    {
+      "title": "我创作的函数，别人都骂我，并且说这简直就是瞎想，我该怎么办？",
+      "url": "https://www.zhihu.com/answer/2026878818577655805",
+      "summary": "正文在逐项批评所构造的分段函数时指出，无穷大不能充当定义域中的取值点。"
+    },
+    {
+      "title": "既然x+2＝3的解是x＝1，那为啥两边求导的结果不同？",
+      "url": "https://www.zhihu.com/answer/2027762770632800095",
+      "summary": "正文以 f(x)=x+1 为例说明函数定义等号是在用表达式定义同一个函数。"
+    },
+    {
+      "title": "既然x+2＝3的解是x＝1，那为啥两边求导的结果不同？",
+      "url": "https://www.zhihu.com/answer/2028227818316738611",
+      "summary": "正文区分函数的定义式与方程、恒等式，说明 f(x)=x²+1 是在定义一个新函数。"
+    },
+    {
+      "title": "微积分体系几百年前就建立起来了，为什么我们现在学习它仍存在困难？",
+      "url": "https://www.zhihu.com/answer/2031414390017237782",
+      "summary": "正文对比公式式旧定义与狄利克雷的唯一对应关系，说明现代函数定义不再依赖显式公式。"
+    },
+    {
+      "title": "为什么不是函数的曲线也可以求导？",
+      "url": "https://www.zhihu.com/answer/2040390165999396222",
+      "summary": "正文从显函数 y=f(x) 出发，比较参数方程与隐式曲线方程，解释非函数曲线如何表示。"
+    },
+    {
+      "title": "如何评价 2026 高考数学试卷？今年题目难度如何？有哪些变化？",
+      "url": "https://www.zhihu.com/answer/2047010295722332937",
+      "summary": "正文依据奇函数条件补全 f(x) 在三个区间的解析式，并讨论定义域、函数值和单调性，实质涉及函数的定义。"
+    },
+    {
+      "title": "学习数学，意义何在？",
+      "url": "https://www.zhihu.com/answer/2052474666397312224",
+      "summary": "正文以传感器读数到数字的转换解释函数作为输入到输出的映射。"
+    },
+    {
+      "title": "如何用一个函数画出最有意思的图形？",
+      "url": "https://www.zhihu.com/answer/2057494412381496621",
+      "summary": "正文用二元函数把二维坐标映射到 RGB 三个输出，并通过一组函数表达式生成彩色图形。"
+    },
+    {
+      "title": "谈谈数学里的构造主义（constructivism）、直觉主义（intuitionism）和数学基础",
+      "url": "https://zhuanlan.zhihu.com/p/22389755",
+      "summary": "正文对比集合论与类型论对函数的定义，把函数解释为从输入类型到输出类型的计算步骤。"
+    },
+    {
+      "title": "高等数学——（1）函数、极限、连续",
+      "url": "https://zhuanlan.zhihu.com/p/22733428",
+      "summary": "正文从自变量到因变量的唯一对应关系入手定义函数，并概述常见函数及其性质。"
+    },
+    {
+      "title": "如何生动有趣的入门线性代数",
+      "url": "https://zhuanlan.zhihu.com/p/23054096",
+      "summary": "正文具体定义变换T的输入空间domain与输出空间codomain，并说明像和值域等函数相关概念。"
+    },
+    {
+      "title": "一名工科生眼中的数学分析（上）",
+      "url": "https://zhuanlan.zhihu.com/p/24636107",
+      "summary": "正文将序列、一元函数和多元函数统一解释为不同集合之间的映射，并讨论函数的性质。"
+    },
+    {
+      "title": "中学篇 No. 4：集合与映射",
+      "url": "https://zhuanlan.zhihu.com/p/26621583",
+      "summary": "正文定义集合间映射、单射和满射，并把函数解释为实数集子集之间的映射。"
+    },
+    {
+      "title": "【高等数学】映射与函数",
+      "url": "https://zhuanlan.zhihu.com/p/29461236",
+      "summary": "正文用集合间的对应关系定义映射和函数，并说明定义域、值域及单值性。"
+    },
+    {
+      "title": "微观经济学 - 生产函数",
+      "url": "https://zhuanlan.zhihu.com/p/30563442",
+      "summary": "正文把生产投入与最大产量之间的关系写成生产函数，并用柯布-道格拉斯函数说明规模报酬。"
+    },
+    {
+      "title": "拓扑学|笔记整理（1）——集合，函数，关系",
+      "url": "https://zhuanlan.zhihu.com/p/33143298",
+      "summary": "正文用笛卡尔积子集定义对应法则、定义域、象集、值域和函数，并讨论像与原象。"
+    },
+    {
+      "title": "【函数与导数】复合函数求导的几个妙用",
+      "url": "https://zhuanlan.zhihu.com/p/34432348",
+      "summary": "正文给出函数对应关系的定义，并区分显函数与由方程确定的隐函数。"
+    },
+    {
+      "title": "为什么根号负一不是i",
+      "url": "https://zhuanlan.zhihu.com/p/35184138",
+      "summary": "正文借复数开方和取对数的多值性讨论函数单值映射的定义及其边界。"
+    },
+    {
+      "title": "分段函数的复合函数要怎么求（1）",
+      "url": "https://zhuanlan.zhihu.com/p/35607988",
+      "summary": "正文给出分段函数复合的代数求法，逐段确定内层函数取值与定义域后回代。"
+    },
+    {
+      "title": "数学分析笔记（一）——预备知识",
+      "url": "https://zhuanlan.zhihu.com/p/38392100",
+      "summary": "正文定义映射的单射、满射、双射与逆映射，并讲解复合映射和恒等映射。"
+    },
+    {
+      "title": "狄利克雷函数",
+      "url": "https://zhuanlan.zhihu.com/p/39155601",
+      "summary": "正文以狄利克雷函数说明函数可以由对应关系定义，并讨论其不连续、奇偶和周期性质，实质拓展了函数概念。"
+    },
+    {
+      "title": "数学物理方法（一）",
+      "url": "https://zhuanlan.zhihu.com/p/40806783",
+      "summary": "正文给出复变函数作为 z 到 w 的对应关系，并说明其定义域、值域和映射意义。"
+    },
+    {
+      "title": "1.1 二元运算、等价关系和分划、同余关系",
+      "url": "https://zhuanlan.zhihu.com/p/41136425",
+      "summary": "正文系统定义映射、单射、满射、复合和逆映射，并通过命题说明这些概念之间的关系。"
+    },
+    {
+      "title": "Gap1：导数的概念",
+      "url": "https://zhuanlan.zhihu.com/p/40949079",
+      "summary": "正文把函数表述为集合间的映射，并通过自变量变化带动函数值变化来引入动态研究。"
+    },
+    {
+      "title": "零基础概率论入门（六）：概率分布",
+      "url": "https://zhuanlan.zhihu.com/p/44520176",
+      "summary": "正文从输入输出、函数记法、图像和参数等方面完整解释函数的定义。"
+    },
+    {
+      "title": "你真的了解抽象函数吗？（上）",
+      "url": "https://zhuanlan.zhihu.com/p/45088145",
+      "summary": "正文把函数解释为集合间的映射或操作，并据此处理无显式表达式的抽象函数。"
+    },
+    {
+      "title": "【高等数学】关于反函数",
+      "url": "https://zhuanlan.zhihu.com/p/46884724",
+      "summary": "正文用函数的定义域、对应法则和值域辨析反函数与原函数关系。"
+    },
+    {
+      "title": "函数定义域问题大总结",
+      "url": "https://zhuanlan.zhihu.com/p/50095890",
+      "summary": "正文从函数的自变量取值范围定义定义域，并系统整理由解析式、复合函数和参数条件求定义域的方法。"
+    },
+    {
+      "title": "很多人都不知道自动化与机器学习的区别",
+      "url": "https://zhuanlan.zhihu.com/p/51000246",
+      "summary": "正文把知识描述为从一类输入到对应输出的稳定对应关系，并据此解释函数。"
+    },
+    {
+      "title": "数论挖坟篇：Gauss取整函数",
+      "url": "https://zhuanlan.zhihu.com/p/56459078",
+      "summary": "正文先给出地板函数和天花板函数的严格定义，再系统列出其取值关系与运算性质。"
+    },
+    {
+      "title": "高数上：第一章 函数与极限 第一节 函数",
+      "url": "https://zhuanlan.zhihu.com/p/56105691",
+      "summary": "正文给出函数相同的判定条件，并把定义域和对应法则列为函数的基本要素。"
+    },
+    {
+      "title": "数量关系何处寻？题中散布满天星",
+      "url": "https://zhuanlan.zhihu.com/p/59560272",
+      "summary": "正文明确使用比例关系分析同地追及问题，并由速度比推出甲乙时间比。"
+    },
+    {
+      "title": "《离散数学》学习记录 - 集合论",
+      "url": "https://zhuanlan.zhihu.com/p/61290200",
+      "summary": "正文把函数定义为满足单值性的二元关系，并介绍偏函数、全函数、单射和满射等性质。"
+    },
+    {
+      "title": "站在高中数学与物理的角度理解学习观以及对 Anki 学习法的启示(费曼技巧与实践)",
+      "url": "https://zhuanlan.zhihu.com/p/62257444",
+      "summary": "正文从匀速运动的数据归纳函数，并展开函数的输入、输出、适用条件和复合关系。"
+    },
+    {
+      "title": "函数、概率、信息的基础串讲",
+      "url": "https://zhuanlan.zhihu.com/p/69889316",
+      "summary": "正文用两个交换物重量的变化关系说明自变量、因变量以及集合之间的函数或映射定义。"
+    },
+    {
+      "title": "函数奇偶性的常用结论",
+      "url": "https://zhuanlan.zhihu.com/p/75431514",
+      "summary": "正文给出奇函数的 f(-x)=-f(x) 定义以及定义域要求。"
+    },
+    {
+      "title": "本科生也能看懂的华人科学家黄皓证明计算机领域30年难题布尔函数敏感度猜想——中文完全解读，干货满满",
+      "url": "https://zhuanlan.zhihu.com/p/75667808",
+      "summary": "正文先定义布尔变量和布尔函数，再讨论敏感度、块敏感度与函数复杂度。"
+    },
+    {
+      "title": "线性代数-线性空间的知识梳理1",
+      "url": "https://zhuanlan.zhihu.com/p/75966048",
+      "summary": "正文给出映射、定义域、陪域、值域以及单射、满射和双射的完整定义。"
+    },
+    {
+      "title": "初学讲义之高中数学三：函数初步",
+      "url": "https://zhuanlan.zhihu.com/p/79609550",
+      "summary": "正文具体讲解函数的定义域、对应法则和值域，并说明函数是输入与输出之间的关系。"
+    },
+    {
+      "title": "映射是什么？函数是什么？映射与函数的关系？",
+      "url": "https://zhuanlan.zhihu.com/p/106667070",
+      "summary": "正文先定义映射的对应法则，再说明函数是实数集到实数集的特殊映射。"
+    },
+    {
+      "title": "映射的概念与性质",
+      "url": "https://zhuanlan.zhihu.com/p/106084124",
+      "summary": "正文从单值关系定义映射或函数，并进一步讨论定义域、值域、满射、单射和双射。"
+    },
+    {
+      "title": "如果加法变成【乘法】 , 那么什么能变成【加法】 ? ——记一则函数方程",
+      "url": "https://zhuanlan.zhihu.com/p/113990049",
+      "summary": "正文引入一元函数 g 表示新加法的零元项，并把二元运算约束转化为函数方程。"
+    },
+    {
+      "title": "Gamma函数的那些事儿（1）——定义",
+      "url": "https://zhuanlan.zhihu.com/p/114041258",
+      "summary": "正文系统给出积分、极限、欧拉乘积和 Weierstrass 乘积四种等价的 Gamma 函数定义。"
+    },
+    {
+      "title": "双曲函数与反双曲函数的一些公式",
+      "url": "https://zhuanlan.zhihu.com/p/126392631",
+      "summary": "正文用指数函数表达式给出双曲正弦、余弦等函数的定义，并整理其恒等变换公式。"
+    },
+    {
+      "title": "关于函数对应法则的理解",
+      "url": "https://zhuanlan.zhihu.com/p/140447564",
+      "summary": "正文围绕函数的定义与对应法则展开，说明自变量、函数形式和集合映射的含义。"
+    },
+    {
+      "title": "高中阶段换元法原理和体系梳理",
+      "url": "https://zhuanlan.zhihu.com/p/141093723",
+      "summary": "正文通过抽象函数解析式的例题说明函数对应法则以及换元后的表达方式。"
+    },
+    {
+      "title": "如何学习初中函数（理解篇）",
+      "url": "https://zhuanlan.zhihu.com/p/145968428",
+      "summary": "正文用有规律点集和对应图形帮助学生建立函数概念，并区分一次、二次和反比例函数。"
+    },
+    {
+      "title": "对勾函数、飘带函数",
+      "url": "https://zhuanlan.zhihu.com/p/147659121",
+      "summary": "正文以解析式分别定义对勾函数和飘带函数，并说明参数条件。"
+    },
+    {
+      "title": "离散数学完全自学指南",
+      "url": "https://zhuanlan.zhihu.com/p/149468789",
+      "summary": "正文从二元关系定义函数，并继续说明定义域、像、单射、满射、双射和函数复合。"
+    },
+    {
+      "title": "数学建模笔记——评价类模型之模糊综合评价",
+      "url": "https://zhuanlan.zhihu.com/p/160846498",
+      "summary": "正文明确以定义域、函数值和函数值域解释隶属函数的定义。"
+    },
+    {
+      "title": "【抽象代数】0. 预备知识与专栏目录",
+      "url": "https://zhuanlan.zhihu.com/p/162709824",
+      "summary": "正文定义映射、定义域、陪域和值域，并进一步解释单射、满射、双射、复合映射和逆映射。"
+    },
+    {
+      "title": "【国际数学竞赛】函数方程的一般解法(Functional Equations)",
+      "url": "https://zhuanlan.zhihu.com/p/165387939",
+      "summary": "正文定义函数方程与方程的解，并通过多个例子研究未知函数的定义域和表达式。"
+    },
+    {
+      "title": "第一讲 函数与初等函数",
+      "url": "https://zhuanlan.zhihu.com/p/256104096",
+      "summary": "正文给出函数、定义域和值域的定义，并说明定义域与对应关系是函数的两个要素。"
+    },
+    {
+      "title": "inversioner版高中数学课本(1)",
+      "url": "https://zhuanlan.zhihu.com/p/268526854",
+      "summary": "正文通过定义域、值域、对应法则和函数图像完整给出函数的定义与相关概念。"
+    },
+    {
+      "title": "这道小学生都能看懂的题目，竟然没人会做！",
+      "url": "https://zhuanlan.zhihu.com/p/273528981",
+      "summary": "正文用分段规则定义考拉兹函数，并以函数值和输入轨迹解释其行为。"
+    },
+    {
+      "title": "柯布道格拉斯生产函数及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/274620470",
+      "summary": "正文给出资本、劳动、技术进步与产出之间的生产函数公式，并解释各参数的经济含义。"
+    },
+    {
+      "title": "离散数学基础笔记-集合与关系",
+      "url": "https://zhuanlan.zhihu.com/p/316293561",
+      "summary": "正文把函数定义为每个输入对应唯一输出的特殊二元关系，并讨论单射、满射和双射。"
+    },
+    {
+      "title": "第十六讲 隐函数和参数方程所确定函数的导数",
+      "url": "https://zhuanlan.zhihu.com/p/298373433",
+      "summary": "正文由此给出隐函数的形式定义，并说明方程在局部唯一确定因变量 y 的函数关系。"
+    },
+    {
+      "title": "高等数学的精髓在于抽象地理解和处理函数",
+      "url": "https://zhuanlan.zhihu.com/p/336788784",
+      "summary": "正文首先辨析函数的映射关系与函数值，强调函数表示变量之间的对应方式。"
+    },
+    {
+      "title": "万万不可回避映射概念",
+      "url": "https://zhuanlan.zhihu.com/p/342371648",
+      "summary": "正文从定义域、到达域和值域完整定义映射，并明确函数就是实数集子集到实数集的映射。"
+    },
+    {
+      "title": "（一）模态逻辑 Modal Logic 初步",
+      "url": "https://zhuanlan.zhihu.com/p/344930351",
+      "summary": "正文用二元关系刻画函数，并讨论单射、满射和双射。"
+    },
+    {
+      "title": "函数概念发展史",
+      "url": "https://zhuanlan.zhihu.com/p/349346773",
+      "summary": "正文梳理函数定义从运算、解析式到变量依赖、集合对应和序偶集的演变，实质讲解了函数的定义方式。"
+    },
+    {
+      "title": "[前置内容] 从映射到张量",
+      "url": "https://zhuanlan.zhihu.com/p/356975719",
+      "summary": "正文给出映射的定义，并进一步讨论单射、满射和双射，实质讲解了函数概念。"
+    },
+    {
+      "title": "一篇文章搞懂logit, logistic和sigmoid的区别",
+      "url": "https://zhuanlan.zhihu.com/p/358223959",
+      "summary": "正文分别给出 logit 作为数学函数和机器学习模型原始输出的定义，并解释其用途。"
+    },
+    {
+      "title": "【判别函数经过四则运算后所得函的奇偶性】",
+      "url": "https://zhuanlan.zhihu.com/p/367830259",
+      "summary": "正文系统列出奇、偶函数在加、减、乘、除后的奇偶性，属于函数基本性质与运算识别。"
+    },
+    {
+      "title": "标量函数、向量函数和矩阵函数",
+      "url": "https://zhuanlan.zhihu.com/p/423376954",
+      "summary": "正文按输入输出类型列举九种标量、向量和矩阵函数，并用形式 R^n 到 R^m 的映射定义函数类型。"
+    },
+    {
+      "title": "代数｜从数列的奇妙换元和不动点法谈谈函数迭代",
+      "url": "https://zhuanlan.zhihu.com/p/453319879",
+      "summary": "正文先定义对应关系、映射和函数，再以函数迭代作为研究一阶递推的主线。"
+    },
+    {
+      "title": "无穷小与高阶无穷小的解读——函数与函数族",
+      "url": "https://zhuanlan.zhihu.com/p/516545395",
+      "summary": "正文明确把无穷小解释为满足极限为零的函数，并讨论其自变量趋近过程，具体展开函数概念。"
+    },
+    {
+      "title": "什么是自然数——皮亚诺公理的理解",
+      "url": "https://zhuanlan.zhihu.com/p/519381654",
+      "summary": "正文把后继关系明确表述为集合 A 到自身的函数，并用该函数解释戴德金-皮亚诺结构。"
+    },
+    {
+      "title": "离散数学期末复习知识点总结",
+      "url": "https://zhuanlan.zhihu.com/p/533801720",
+      "summary": "正文定义满射、入射、双射及复合函数，并讨论函数与关系合成的联系。"
+    },
+    {
+      "title": "怎样理解隐函数求导？",
+      "url": "https://zhuanlan.zhihu.com/p/543417597",
+      "summary": "正文通过隐式方程与局部函数关系的区别，解释隐函数是某定义域和值域范围内的函数。"
+    },
+    {
+      "title": "高斯函数（全梳理）",
+      "url": "https://zhuanlan.zhihu.com/p/551416967",
+      "summary": "正文明确以函数方式定义高斯取整函数和小数部分函数，并讲解其定义域、值域、连续性等性质。"
+    },
+    {
+      "title": "离散数学重点整理",
+      "url": "https://zhuanlan.zhihu.com/p/639464918",
+      "summary": "正文以二元关系定义函数和映射，并进一步定义满射、单射、双射、复合与反函数。"
+    },
+    {
+      "title": "通俗易懂的椭圆函数",
+      "url": "https://zhuanlan.zhihu.com/p/654478596",
+      "summary": "正文从周期函数定义出发，通过周期平移和最小正周期讲解双周期函数。"
+    },
+    {
+      "title": "cute Layout 的代数和几何解释",
+      "url": "https://zhuanlan.zhihu.com/p/662089556",
+      "summary": "正文把 Layout 定义为从 domain 到 codomain 的函数，并讨论复合、单位函数与左右逆。"
+    },
+    {
+      "title": "从数数开始的数学学习指南",
+      "url": "https://zhuanlan.zhihu.com/p/678367275",
+      "summary": "正文用输入链与输出链解释函数的对应关系，再通过增加取值点说明函数图像如何产生。"
+    },
+    {
+      "title": "类型论（type theory）学习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/679483353",
+      "summary": "正文定义函数类型及其代入、抽象规则，并给出依值函数和集合论中函数的正式定义。"
+    },
+    {
+      "title": "范畴论，最高级的数学抽象，数学家武器库中最强大的武器",
+      "url": "https://zhuanlan.zhihu.com/p/704508176",
+      "summary": "正文给出函数作为集合间映射的定义，并以年龄函数和恒等函数演示函数组合。"
+    },
+    {
+      "title": "什么是泛函",
+      "url": "https://zhuanlan.zhihu.com/p/1944492482160231905",
+      "summary": "正文先比较映射、函数、算子、变换和泛函，并给出函数逐元素唯一对应的定义。"
+    },
+    {
+      "title": "从泛函分析到哈密顿方程",
+      "url": "https://zhuanlan.zhihu.com/p/1982794356860674068",
+      "summary": "正文从集合间映射出发定义普通函数，并与其泛函、算子概念对照。"
+    },
+    {
+      "title": "线性代数1：群，域，复数介绍",
+      "url": "https://zhuanlan.zhihu.com/p/1988475163122087156",
+      "summary": "正文从集合间的笛卡尔积出发定义映射、像、单射、满射和双射。"
+    },
+    {
+      "title": "函数、泛函、算子、函子：数学抽象的四级台阶",
+      "url": "https://zhuanlan.zhihu.com/p/2047997630098170642",
+      "summary": "正文用定义域、陪域和唯一确定的对应值说明函数的基本定义。"
+    }
+  ]
+}

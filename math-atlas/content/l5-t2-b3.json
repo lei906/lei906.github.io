@@ -1,0 +1,781 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l5-t2-b3",
+  "sources": [
+    {
+      "title": "有哪些美丽或神奇的理科公式？",
+      "url": "https://www.zhihu.com/answer/32516992",
+      "summary": "列出同伦群长正合列并说明其用途。"
+    },
+    {
+      "title": "几何拓扑（geometric topology）这个数学分支，主要包含哪些内容？",
+      "url": "https://www.zhihu.com/answer/42867573",
+      "summary": "正文进一步以同伦等价但不同胚或不同微分同胚的区分说明几何拓扑的问题。"
+    },
+    {
+      "title": "代数拓扑为何引入 正合、正合序列 这些概念？",
+      "url": "https://www.zhihu.com/answer/44103555",
+      "summary": "正文用路径变形与单连通性说明curl为零未必有全局势。"
+    },
+    {
+      "title": "哪些数学定理在直觉上是对的，但证明起来很困难？",
+      "url": "https://www.zhihu.com/answer/46511881",
+      "summary": "正文说明单连通中的闭道路可收缩为点。"
+    },
+    {
+      "title": "拓扑学究竟是一种什么样的学科？",
+      "url": "https://www.zhihu.com/answer/49330372",
+      "summary": "正文以闭环能否缩到一点说明连续变形。"
+    },
+    {
+      "title": "拓扑绝缘体的 Z_2 拓扑不变量有什么意义？",
+      "url": "https://www.zhihu.com/answer/75653121",
+      "summary": "正文指出 Atiyah-Bott-Shapiro 同构连接表示论与同伦论。"
+    },
+    {
+      "title": "同伦等价（homotopy equivalent）与同胚（homeomorphic）区别是什么？",
+      "url": "https://www.zhihu.com/answer/120440899",
+      "summary": "正文通过形变收缩、映射柱与同伦范畴详细解释同伦等价。"
+    },
+    {
+      "title": "代数拓扑为什么研究同调？",
+      "url": "https://www.zhihu.com/answer/123321429",
+      "summary": "正文定义映射同伦、同伦等价、弱同伦等价和链同伦。"
+    },
+    {
+      "title": "为何说 K-理论是一种「上同调理论」？",
+      "url": "https://www.zhihu.com/answer/171497823",
+      "summary": "正文以同伦范畴、悬架和环路空间构造谱，实质讲解同伦理论语言。"
+    },
+    {
+      "title": "如何评价 Bott 和 Tu 写的代数拓扑？",
+      "url": "https://www.zhihu.com/answer/192610918",
+      "summary": "正文讨论有理同伦、稳定同伦和高阶同伦理论的两条发展路径。"
+    },
+    {
+      "title": "何为分析方法、代数方法、几何方法、拓扑方法？",
+      "url": "https://www.zhihu.com/answer/194031701",
+      "summary": "正文以同伦于恒同映射定义 Teichmüller 等价。"
+    },
+    {
+      "title": "代数拓扑中的同调论(Homology Theory)应该怎么学？",
+      "url": "https://www.zhihu.com/answer/231625162",
+      "summary": "正文说明路径之间的同伦如何记录单连通性。"
+    },
+    {
+      "title": "如何理解 Van-Kampen 定理？",
+      "url": "https://www.zhihu.com/answer/275323329",
+      "summary": "正文定义基本群胚中的态射为路径的同伦类。"
+    },
+    {
+      "title": "如何学习点集拓扑学？",
+      "url": "https://www.zhihu.com/answer/275849454",
+      "summary": "正文使用挖点后形变收缩到球面的方法比较空间。"
+    },
+    {
+      "title": "数学家面对复杂的数学算式时，还能把它和直观的概念联系在一起吗？",
+      "url": "https://www.zhihu.com/answer/280702026",
+      "summary": "正文明确从同伦类讨论四维流形的区分。"
+    },
+    {
+      "title": "在本科数学阶段你学过最有趣的一门数学课是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/286568159",
+      "summary": "正文解释弱同伦等价、同伦等价及其区分能力。"
+    },
+    {
+      "title": "Homology 和 Homotopy 能在多大程度上完全决定一个流形的拓扑？",
+      "url": "https://www.zhihu.com/answer/292609570",
+      "summary": "正文用 Whitehead 定理解释同伦群同构、弱等价与同伦等价的条件。"
+    },
+    {
+      "title": "Homology 和 Homotopy 能在多大程度上完全决定一个流形的拓扑？",
+      "url": "https://www.zhihu.com/answer/364643763",
+      "summary": "正文系统讨论同伦型由哪些不变量决定。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/378454878",
+      "summary": "正文用 Brown 可表定理说明上同调群与保基点映射的同伦类之间的对应。"
+    },
+    {
+      "title": "为何这么多人称赞指标定理？",
+      "url": "https://www.zhihu.com/answer/470379556",
+      "summary": "正文说明Reidemeister挠率可以区分同伦等价但不同胚的流形。"
+    },
+    {
+      "title": "数学中有哪些表面没有关系但是内在有深刻联系的问题？",
+      "url": "https://www.zhihu.com/answer/503357108",
+      "summary": "陈述 Mostow 刚性：三维及以上闭双曲流形同伦等价可推出等距同构。"
+    },
+    {
+      "title": "抽象代数、交换代数、同调代数、群表示论、李代数、代数拓扑的学习顺序应该是怎样的？",
+      "url": "https://www.zhihu.com/answer/531884350",
+      "summary": "正文明确讨论具体同伦论到抽象同伦论的学习与理解路径。"
+    },
+    {
+      "title": "如何看待阿里的全球数学竞赛？",
+      "url": "https://www.zhihu.com/answer/538575225",
+      "summary": "正文尝试用同伦等价和形变收缩处理第一题。"
+    },
+    {
+      "title": "怎么理解导出范畴？",
+      "url": "https://www.zhihu.com/answer/547239020",
+      "summary": "正文以拓扑空间和单纯集合的同伦范畴作为局部化实例。"
+    },
+    {
+      "title": "怎么理解导出范畴？",
+      "url": "https://www.zhihu.com/answer/547598897",
+      "summary": "正文从链同伦、弱等价和同伦逆解释不同构造。"
+    },
+    {
+      "title": "请问如何入门同伦类型论（HoTT）？",
+      "url": "https://www.zhihu.com/answer/589290727",
+      "summary": "正文以路径归纳、等价与 h-level 介绍同伦类型论。"
+    },
+    {
+      "title": "李代数为何要满足 Jacobi identity？",
+      "url": "https://www.zhihu.com/answer/602187501",
+      "summary": "正文从强同伦李代数角度展开。"
+    },
+    {
+      "title": "如何理解 E_n algebra?",
+      "url": "https://www.zhihu.com/answer/614118064",
+      "summary": "正文解释高阶代数结构中的同伦相容。"
+    },
+    {
+      "title": "庞加莱猜想的意义是什么？它的证明给数学带来了什么样的发展？",
+      "url": "https://www.zhihu.com/answer/651729219",
+      "summary": "以绳圈能否连续收缩解释单连通与同伦性质。"
+    },
+    {
+      "title": "如何上手 Lurie 的 SAG（Spectral Algebraic Geometry）？",
+      "url": "https://www.zhihu.com/answer/665860277",
+      "summary": "把范畴同伦论作为无穷范畴学习基础。"
+    },
+    {
+      "title": "你最钦佩的数学天才是谁？",
+      "url": "https://www.zhihu.com/answer/820644071",
+      "summary": "用同伦群平凡刻画稠密的充要条件。"
+    },
+    {
+      "title": "为何要引入同伦群，同伦群可以解决什么问题？",
+      "url": "https://www.zhihu.com/answer/824237024",
+      "summary": "围绕同伦群的计算、稳定化和谱序列展开。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/831893325",
+      "summary": "以闭曲线收缩到一点和同伦等价解释单连通。"
+    },
+    {
+      "title": "数理逻辑“四论”的研究成果能给科学哲学/物理学哲学哪些帮助和启示？",
+      "url": "https://www.zhihu.com/answer/848039411",
+      "summary": "讨论同伦类型论作为数学基础。"
+    },
+    {
+      "title": "代数学基本定理如何能用通俗易懂的方法证明（高中竞赛生自学部分复变函数能听懂）？",
+      "url": "https://www.zhihu.com/answer/967630821",
+      "summary": "正文用连续变形与绕数给出代数基本定理的拓扑直观。"
+    },
+    {
+      "title": "Cauchy定理的证明是否依赖于Jordan曲线定理？",
+      "url": "https://www.zhihu.com/answer/1295988811",
+      "summary": "正文以曲线同伦和形变定理讨论 Cauchy 定理证明。"
+    },
+    {
+      "title": "如何评价菲尔兹奖得主 Vladimir Voevodsky？",
+      "url": "https://www.zhihu.com/answer/1403609386",
+      "summary": "正文从道路空间和基本群解释同伦概念。"
+    },
+    {
+      "title": "哪些数学命题曾经长期被误认为是正确的，但之后被严格证明是错的？",
+      "url": "https://www.zhihu.com/answer/1774871848",
+      "summary": "正文以映射同伦类定义同伦群。"
+    },
+    {
+      "title": "任何一个群是否都是某个拓扑空间的基本群？",
+      "url": "https://www.zhihu.com/answer/1982281446",
+      "summary": "正文讨论基本群、高阶同伦群及其实现。"
+    },
+    {
+      "title": "如何上手 Lurie 的 SAG（Spectral Algebraic Geometry）？",
+      "url": "https://www.zhihu.com/answer/2402516337",
+      "summary": "正文明确说明同伦论与单纯同伦是理解目标理论的前置。"
+    },
+    {
+      "title": "如何评价2022年阿贝尔奖得主Dennis Parnell Sullivan的数学贡献？",
+      "url": "https://www.zhihu.com/answer/2404462452",
+      "summary": "正文用连续映射的同伦类与切丛拉回同构刻画复结构。"
+    },
+    {
+      "title": "如何评价美国数学家苏利文（Dennis Parnell Sullivan）获 2022 年阿贝尔奖？",
+      "url": "https://www.zhihu.com/answer/2405222814",
+      "summary": "有理同伦论是研究同伦论的重要代数拓扑方向。"
+    },
+    {
+      "title": "拓扑学究竟是一种什么样的学科？",
+      "url": "https://www.zhihu.com/answer/2412443287",
+      "summary": "正文直接以同伦变换说明拓扑学中的连续变形。"
+    },
+    {
+      "title": "拓扑学究竟是一种什么样的学科？",
+      "url": "https://www.zhihu.com/answer/2412711320",
+      "summary": "正文明确给出同伦的直观定义，并用正方形与线段、平环与圆周并说明同伦型。"
+    },
+    {
+      "title": "2022 年阿贝尔奖公布，81 岁数学家、拓扑学大师苏利文一人获奖，你有哪些祝福送给他？",
+      "url": "https://www.zhihu.com/answer/2417694924",
+      "summary": "正文具体说明苏利文与奎伦建立有理同伦论及其计算意义。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/2441733140",
+      "summary": "正文明确把 Kontsevich formality 证明的核心思想归于同伦代数。"
+    },
+    {
+      "title": "代数拓扑和代数几何有什么区别与联系吗？",
+      "url": "https://www.zhihu.com/answer/2450469229",
+      "summary": "正文说明在代数簇范畴中建立同伦论，并引出母题同伦论。"
+    },
+    {
+      "title": "北大数学直博复试具体是一个什么形式？求知情的同学提供信息，谢谢！",
+      "url": "https://www.zhihu.com/answer/2466894505",
+      "summary": "正文列出关于连续映射零伦的拓扑复试问题。"
+    },
+    {
+      "title": "你最喜欢的数学定理是什么？",
+      "url": "https://www.zhihu.com/answer/2544589817",
+      "summary": "介绍 Morse 理论由临界点判断流形同伦型。"
+    },
+    {
+      "title": "为什么裤子前后穿反了不能通过“把裤腰旋转180度”的方式调整（而裙子可以）？",
+      "url": "https://www.zhihu.com/answer/2661776541",
+      "summary": "把裤子问题表述成左右裤腿边缘能否在裤管曲面上连续形变、即是否同伦。"
+    },
+    {
+      "title": "为什么裤子前后穿反了不能通过“把裤腰旋转180度”的方式调整（而裙子可以）？",
+      "url": "https://www.zhihu.com/answer/2662800360",
+      "summary": "把连续旋转过程写成同伦映射，并利用同调群上的诱导同态导出不同伦。"
+    },
+    {
+      "title": "为什么庞加莱猜想如此难以理解？",
+      "url": "https://www.zhihu.com/answer/2733874666",
+      "summary": "正文介绍同伦论研究流形上的闭圈移动与收缩，并由此引出庞加莱猜想。"
+    },
+    {
+      "title": "一个矩形自转一圈是一个圆柱，一个立方体在四维空间自转一圈得到的是什么？",
+      "url": "https://www.zhihu.com/answer/2844906113",
+      "summary": "正文用同伦等价说明四维圆盘与圆周的乘积在拓扑上可化约为圆周，并据此分析其洞的结构。"
+    },
+    {
+      "title": "你见过哪些构思巧妙，令你眼界大开的数学问题？",
+      "url": "https://www.zhihu.com/answer/2904477498",
+      "summary": "正文把去掉两个钉子的平面同伦等价为两个圆的一点并，并用这一同伦结构解释挂画问题。"
+    },
+    {
+      "title": "代数拓扑和几何分析之间有什么联系吗？",
+      "url": "https://www.zhihu.com/answer/2977838021",
+      "summary": "正文说明 Morse 理论可由流形上的临界点结构得到同伦不变量。"
+    },
+    {
+      "title": "谁创立了代数拓扑学？",
+      "url": "https://www.zhihu.com/answer/3013326011",
+      "summary": "正文用球面和环面上的闭路能否连续收缩到一点解释路径的同伦关系。"
+    },
+    {
+      "title": "为什么数学家会提出群的上同调？",
+      "url": "https://www.zhihu.com/answer/3030875537",
+      "summary": "正文通过可收缩万有复叠空间把拓扑空间的不变量转化为基本群的同伦不变量。"
+    },
+    {
+      "title": "现代的数学研究抽象到了哪种地步？",
+      "url": "https://www.zhihu.com/answer/3063198777",
+      "summary": "正文用封闭曲面上任意闭合皮筋可收缩到一点的性质描述单连通性，联系到同伦中闭路连续收缩的观念。"
+    },
+    {
+      "title": "如图，如果向量可以是弯的？",
+      "url": "https://www.zhihu.com/answer/3255262295",
+      "summary": "正文定义固定端点的曲线同伦，并讨论同伦作为等价关系及直线同伦。"
+    },
+    {
+      "title": "怎样比较好的理解陈类（Chern classes）?",
+      "url": "https://www.zhihu.com/answer/3273392462",
+      "summary": "正文利用 Stiefel 流形的道路连通性和高阶同伦群，判断截面逐骨架延拓时可遇到的障碍。"
+    },
+    {
+      "title": "什么样的拓扑空间中任何一个自身到自身的连续映射必有不动点？",
+      "url": "https://www.zhihu.com/answer/3300444210",
+      "summary": "正文用可缩但不具不动点性质的空间说明该性质不构成同伦不变量。"
+    },
+    {
+      "title": "李群的基本群是怎么算出来的？",
+      "url": "https://www.zhihu.com/answer/3331646284",
+      "summary": "正文反复用同伦正合序列逐步降阶并求酉群、辛群等空间的基本群。"
+    },
+    {
+      "title": "你在本科学过最难的数学课是什么？",
+      "url": "https://www.zhihu.com/answer/3363686940",
+      "summary": "正文围绕 Thom 横截扰动定理，说明可用与给定光滑映射同伦的扰动实现横截相交。"
+    },
+    {
+      "title": "微分几何（Differential Geometry）在工程领域有什么应用？",
+      "url": "https://www.zhihu.com/answer/3441590468",
+      "summary": "正文具体比较光滑同伦与同痕，并讨论扭结补空间和Jones多项式等判定方法。"
+    },
+    {
+      "title": "如果你要向一位学过初级的抽象代数的本科生推销数学工具「正合序列」，你会如何介绍它？",
+      "url": "https://www.zhihu.com/answer/3452621220",
+      "summary": "正文把链复形元素解释为点和道路，并以道路之间是否存在同伦说明单连通性。"
+    },
+    {
+      "title": "近几年数学和物理学有什么重大突破吗，或者前沿都在研究什么呢?",
+      "url": "https://www.zhihu.com/answer/3516018637",
+      "summary": "正文具体讨论 K(n)-局部球面有理同伦群的计算及同伦论中的相关进展。"
+    },
+    {
+      "title": "留数定理能和安培环路定理联系起来吗？",
+      "url": "https://www.zhihu.com/answer/3545219558",
+      "summary": "正文把可连续变形的环路视为等价，并用环路积分在变形下不变说明同伦意义。"
+    },
+    {
+      "title": "ruliad这个概念（wolfram提出的），以及相关的ruliology，中文怎么对应比较好？",
+      "url": "https://www.zhihu.com/answer/3591035152",
+      "summary": "正文说明加入路径等价后可把证明作为对象、证明间的变换作为高一阶映射，并明确称为证明之间的同伦等价。"
+    },
+    {
+      "title": "Jordan曲线定理为何不平凡？",
+      "url": "https://www.zhihu.com/answer/3621144892",
+      "summary": "正文以 Jordan 曲线外部闭曲线的不可收缩性解释单连通性，并进一步讨论基本群。"
+    },
+    {
+      "title": "未来还会有比无穷范畴更抽象的结构出现吗？",
+      "url": "https://www.zhihu.com/answer/4469373500",
+      "summary": "正文说明无穷范畴中的高阶态射被理解为高阶同伦，并用同伦信息解释其研究动机。"
+    },
+    {
+      "title": "为什么数学家会提出群的上同调？",
+      "url": "https://www.zhihu.com/answer/39916922274",
+      "summary": "正文用分类空间的同伦等价、自由作用和回路空间的复合展开同伦视角。"
+    },
+    {
+      "title": "拓扑学有什么好玩的例子吗？",
+      "url": "https://www.zhihu.com/answer/42660900843",
+      "summary": "正文明确陈述双曲结补空间体积相同可导致补空间同伦，实质涉及同伦等价。"
+    },
+    {
+      "title": "留数定理的本质是什么？",
+      "url": "https://www.zhihu.com/answer/45414049465",
+      "summary": "正文用积分的道路同伦不变性说明该群同态良定义，并据此分析挖点平面的回路。"
+    },
+    {
+      "title": "粒子自旋到底是个运动性质还是几何性质？",
+      "url": "https://www.zhihu.com/answer/58607407128",
+      "summary": "正文用道路连续形变和不同伦环道说明同伦，并比较 SO(3) 与 SU(2) 的道路结构。"
+    },
+    {
+      "title": "一个球面怎么实现内外翻转，而中途没有褶皱或者折痕？",
+      "url": "https://www.zhihu.com/answer/75390195860",
+      "summary": "正文把球面内外翻转表述为两个浸入之间的正则同伦，并说明每一时刻都保持浸入条件。"
+    },
+    {
+      "title": "如何评价Hatcher的代数拓扑？",
+      "url": "https://www.zhihu.com/answer/78574235174",
+      "summary": "正文具体讨论球面同伦群的计算，并提到 Hopf 纤维化诱导出的谱序列。"
+    },
+    {
+      "title": "Inventiones mathematicae上都发表过哪些经典论文?",
+      "url": "https://www.zhihu.com/answer/109898168527",
+      "summary": "正文具体介绍 Sullivan 的同伦论如何与凯勒流形结果结合并研究实同伦型。"
+    },
+    {
+      "title": "代数拓扑为什么研究同调？",
+      "url": "https://www.zhihu.com/answer/121529076518",
+      "summary": "正文定义高阶同伦群，解释其群运算来源，并以球面映射是否零伦说明它如何探测空间中的洞。"
+    },
+    {
+      "title": "代数基本定理有哪些不同的证明方法？",
+      "url": "https://www.zhihu.com/answer/123021793062",
+      "summary": "正文使用闭曲线的连续形变、同伦类和同伦不变性说明证明关键为何成立。"
+    },
+    {
+      "title": "除了代数、拓扑、序，数学有没有可能还隐藏其他基础结构？",
+      "url": "https://www.zhihu.com/answer/127875244852",
+      "summary": "正文把随时间变化解释为从一个状态到另一个状态的连续形变，并据此联系同伦结构。"
+    },
+    {
+      "title": "群论和拓扑学有什么关系？",
+      "url": "https://www.zhihu.com/answer/130098740059",
+      "summary": "正文定义路径同伦、相对同伦和同伦等价类，并证明路径积在同伦类上良定。"
+    },
+    {
+      "title": "为什么代数拓扑是有效的？",
+      "url": "https://www.zhihu.com/answer/1889402656340021621",
+      "summary": "正文把同伦群列为研究空间的主要不变量，并说明其通过函子把拓扑问题转成代数问题。"
+    },
+    {
+      "title": "如何看待陶哲轩等数学家大力推动的 AI 数学证明?",
+      "url": "https://www.zhihu.com/answer/1892225934372872275",
+      "summary": "正文纠正模型对基本群的错误推导，指出应使用同伦群长正合列分析商空间的基本群。"
+    },
+    {
+      "title": "为什么学了形式逻辑还看不懂黑格尔的《小逻辑》?",
+      "url": "https://www.zhihu.com/answer/1899516334355779915",
+      "summary": "正文用类型内元素之间的同伦路径和同伦等价解释 HoTT 的核心结构，具体展开了同伦概念。"
+    },
+    {
+      "title": "代数拓扑和黎曼几何有什么联系吗?",
+      "url": "https://www.zhihu.com/answer/1899722174597694743",
+      "summary": "正文通过零伦映射和基本群讨论流形的高阶同伦群，并用 Hadamard-Ambrose 定理给出结论。"
+    },
+    {
+      "title": "为什么代数拓扑是有效的？",
+      "url": "https://www.zhihu.com/answer/1900138265111172504",
+      "summary": "正文用良好覆盖的神经实现原空间，并以同伦等价说明有限单纯集如何承载空间的同伦型。"
+    },
+    {
+      "title": "怎样比较好的理解陈类（Chern classes）?",
+      "url": "https://www.zhihu.com/answer/1902838135097898042",
+      "summary": "正文利用GL(k,C)与U(k)的同伦等价及基本群计算解释第一陈数的扭转不变量。"
+    },
+    {
+      "title": "如何阅读Hatcher的代数拓扑？",
+      "url": "https://www.zhihu.com/answer/1907799388698420085",
+      "summary": "正文通过基本群作为同伦不变量来引入同伦等价，具体展开同伦概念在拓扑分类中的作用。"
+    },
+    {
+      "title": "对现在的年轻人来说，选择代数拓扑是否比低维拓扑前沿（如Floer theory等）更有前途?",
+      "url": "https://www.zhihu.com/answer/1913029390343844649",
+      "summary": "正文提到球面同伦群的计算和稳定同伦群研究，说明同伦论是代数拓扑的活跃方向。"
+    },
+    {
+      "title": "如何评价2025年上海高考语文作文？",
+      "url": "https://www.zhihu.com/answer/1915051022910461284",
+      "summary": "正文用同伦意义下的唯一性刻画空间的反向构造，说明允许连续形变的同伦分类。"
+    },
+    {
+      "title": "如何证明拓扑群的基本群是阿贝尔群？",
+      "url": "https://www.zhihu.com/answer/1916367207140692396",
+      "summary": "正文给出最后一种证明思路，通过构造两条复合道路之间的同伦来说明基本群元素交换。"
+    },
+    {
+      "title": "Homology 和 Homotopy 能在多大程度上完全决定一个流形的拓扑？",
+      "url": "https://www.zhihu.com/answer/1923720723953849406",
+      "summary": "正文阐释同伦群的本质、映射连续形变与高阶同伦群探测流形的方式。"
+    },
+    {
+      "title": "有哪些物理学反哺数学的理论？",
+      "url": "https://www.zhihu.com/answer/1938282168590798884",
+      "summary": "正文明确讨论相交型在同伦意义下的不变量性质及其分类定理。"
+    },
+    {
+      "title": "黎曼猜想为什么难以解决？",
+      "url": "https://www.zhihu.com/answer/1991726147512316011",
+      "summary": "正文用允许变形和不变量的语言解释同伦，并尝试以路径同伦重构素数迹与黎曼猜想的关系。"
+    },
+    {
+      "title": "数学里的「良定义（well-defined）」的定义是什么？",
+      "url": "https://www.zhihu.com/answer/2034282341800097458",
+      "summary": "正文以基本群路径拼接为例，说明同伦类上的运算必须与路径同伦兼容。"
+    },
+    {
+      "title": "拓扑学的动机和核心是什么？",
+      "url": "https://www.zhihu.com/answer/2043672379755386267",
+      "summary": "正文以闭合路径的连续变形和绕圈次数解释同伦意义下的“洞”，并给出圆周基本群为整数群的例子。"
+    },
+    {
+      "title": "代数拓扑（一）",
+      "url": "https://zhuanlan.zhihu.com/p/23221460",
+      "summary": "正文定义同伦与定端同伦，并用同伦等价证明基本群和同调群的同伦不变性。"
+    },
+    {
+      "title": "非线性科学中的现代数学方法：综述",
+      "url": "https://zhuanlan.zhihu.com/p/29474510",
+      "summary": "正文把映射度与恒等映射或简单映射的同伦联系起来，用同伦方法判断拓扑度非零。"
+    },
+    {
+      "title": "二阶有限单群",
+      "url": "https://zhuanlan.zhihu.com/p/31072748",
+      "summary": "正文用闭曲线到点的同伦映射给出单连通空间定义，属于同伦概念的具体讲解。"
+    },
+    {
+      "title": "拓扑学Ⅱ|笔记整理（6）——商空间，闭曲面，代数拓扑起步",
+      "url": "https://zhuanlan.zhihu.com/p/36722787",
+      "summary": "正文定义同伦、相对同伦和定端同伦，并证明同伦关系的等价性与复合性质。"
+    },
+    {
+      "title": "非线性泛函分析导论（二）：变分问题的拓扑结构",
+      "url": "https://zhuanlan.zhihu.com/p/37695456",
+      "summary": "正文利用映射的同伦不变性判断方程有解，并讨论环绕与山路定理。"
+    },
+    {
+      "title": "拓扑学Ⅱ|笔记整理（7）——基本群",
+      "url": "https://zhuanlan.zhihu.com/p/37070641",
+      "summary": "正文以定端同伦定义道路等价，并用凸集上的同伦证明道路类乘法的结合律。"
+    },
+    {
+      "title": "拓扑相里的拓扑到底有多拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/40311212",
+      "summary": "正文把保持能隙的绝热变形表述为映射的同伦变形，并据此讨论线丛同构与拓扑不变量。"
+    },
+    {
+      "title": "MP19：拓扑加油站(1)：道路连通、同伦、基本群",
+      "url": "https://zhuanlan.zhihu.com/p/44083782",
+      "summary": "正文用道路能否连续形变解释道路同伦，并说明其构成等价关系。"
+    },
+    {
+      "title": "Hopf纤维化简述",
+      "url": "https://zhuanlan.zhihu.com/p/49203161",
+      "summary": "正文从高维球面映射的零伦问题切入，解释 Hopf 纤维化在映射同伦与纤维空间研究中的作用。"
+    },
+    {
+      "title": "毛球定理简述及证明",
+      "url": "https://zhuanlan.zhihu.com/p/49491334",
+      "summary": "正文利用不同闭合曲线上的向量场同伦变化及其整数卷绕数不变完成证明。"
+    },
+    {
+      "title": "拓扑量子场论公理体系的介绍",
+      "url": "https://zhuanlan.zhihu.com/p/50157762",
+      "summary": "正文列出拓扑量子场论的同伦公理，并用圆柱体 X×[0,1] 及同伦映射说明构造不变量的方式。"
+    },
+    {
+      "title": "MP67：典型群(1)：拓扑性质",
+      "url": "https://zhuanlan.zhihu.com/p/51199404",
+      "summary": "正文讨论 SO(3) 的道路连通性和闭曲线能否连续收缩，实质涉及同伦与基本群。"
+    },
+    {
+      "title": "Morse理论",
+      "url": "https://zhuanlan.zhihu.com/p/57502165",
+      "summary": "正文给出CW复形的Whitehead定理，并说明Morse水平集与黏胞后空间同伦等价。"
+    },
+    {
+      "title": "纤维丛(1)",
+      "url": "https://zhuanlan.zhihu.com/p/57954768",
+      "summary": "正文证明同伦映射拉回的主丛同构，并说明可缩基空间上的主丛为何是平凡丛。"
+    },
+    {
+      "title": "从代数几何到导出代数几何：复形的几何",
+      "url": "https://zhuanlan.zhihu.com/p/86655844",
+      "summary": "正文用弱等价、同伦范畴、态射空间和无穷范畴解释如何记录对象之间及高阶的同伦信息。"
+    },
+    {
+      "title": "从代数几何到导出代数几何：形变与逼近",
+      "url": "https://zhuanlan.zhihu.com/p/86894415",
+      "summary": "正文借助弱同伦等价、CW 复形和高阶同伦结构解释导出代数几何中的逼近与等价。"
+    },
+    {
+      "title": "构建数学和物理基础的范畴论：用「等价」取代「相等」丨众妙之门",
+      "url": "https://zhuanlan.zhihu.com/p/87056723",
+      "summary": "正文用圆盘压缩为单点和路径层级说明同伦等价，并进一步介绍高阶同伦结构。"
+    },
+    {
+      "title": "代拓中的示性类",
+      "url": "https://zhuanlan.zhihu.com/p/107047988",
+      "summary": "正文展开主丛的同伦不变性、CW 逼近以及自然变换的构造与证明。"
+    },
+    {
+      "title": "混沌理论先驱李天岩去世，最早严格定义“混沌”，提出“周期三即混沌”",
+      "url": "https://zhuanlan.zhihu.com/p/150836179",
+      "summary": "正文明确说明其不动点算法所用思想推动了非线性数值计算的同伦算法，故对应同伦。"
+    },
+    {
+      "title": "基本群的定义及性质",
+      "url": "https://zhuanlan.zhihu.com/p/154313613",
+      "summary": "正文证明基本群的同伦不变性，并讨论同伦等价空间的基本群同构。"
+    },
+    {
+      "title": "(CW复形)胞腔复形",
+      "url": "https://zhuanlan.zhihu.com/p/156161408",
+      "summary": "正文用可缩子复形商去及贴空间两种办法构造同伦等价，并给出球面与楔和的例子。"
+    },
+    {
+      "title": "经济均衡的微分方法",
+      "url": "https://zhuanlan.zhihu.com/p/159120731",
+      "summary": "正文用拓扑度的同伦不变性及 Morse 定理的胞腔粘合说明同伦思想。"
+    },
+    {
+      "title": "二个段子",
+      "url": "https://zhuanlan.zhihu.com/p/162743165",
+      "summary": "正文用球面闭路可缩成一点、环面闭路不可缩的例子说明道路的同伦，并讨论同伦等价。"
+    },
+    {
+      "title": "终篇：变分法中的代数拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/163200117",
+      "summary": "正文通过伪梯度下降流构造形变同伦，并以强形变收缩核说明无临界点时的水平集关系。"
+    },
+    {
+      "title": "经典拓扑激发——场论",
+      "url": "https://zhuanlan.zhihu.com/p/165589478",
+      "summary": "正文以映射的连续形变和同伦等价类讨论球面到自身的映射分类，并用绕数区分同伦类。"
+    },
+    {
+      "title": "微分拓扑（一）",
+      "url": "https://zhuanlan.zhihu.com/p/83480241",
+      "summary": "正文用 Lefschetz 数、形变收缩和 Morse 定理讨论同伦不变量与流形同伦型。"
+    },
+    {
+      "title": "场论里的拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/185078928",
+      "summary": "正文用闭曲线的连续形变和映射的连续形变定义同伦关系、同伦等价类及其群乘法。"
+    },
+    {
+      "title": "Algebraic Topology I: 对教材跟概念的一些论述",
+      "url": "https://zhuanlan.zhihu.com/p/260821664",
+      "summary": "正文围绕同伦、基本群、纤维化和提升性质说明同伦论如何提取拓扑空间的代数结构。"
+    },
+    {
+      "title": "分析和代数学原理(20)：Poincaré对偶",
+      "url": "https://zhuanlan.zhihu.com/p/270772261",
+      "summary": "正文利用球面与开覆盖交集的同伦映射推出球面上同调的递推关系。"
+    },
+    {
+      "title": "拉格朗日相交Floer理论, I",
+      "url": "https://zhuanlan.zhihu.com/p/343282399",
+      "summary": "正文用辛同痕和哈密顿同痕表述 Arnold 猜想中的轨道形变。"
+    },
+    {
+      "title": "Gauss-Bonnet 定理",
+      "url": "https://zhuanlan.zhihu.com/p/363694199",
+      "summary": "正文讨论闭曲线映射的同伦，并证明一维 Hopf 定理中同伦类与映射度等价。"
+    },
+    {
+      "title": "拓扑学(3)",
+      "url": "https://zhuanlan.zhihu.com/p/391068265",
+      "summary": "正文定义连续映射之间的同伦、定端同伦和道路类，并证明相关复合与等价性质。"
+    },
+    {
+      "title": "拓扑学(4)",
+      "url": "https://zhuanlan.zhihu.com/p/394087016",
+      "summary": "正文定义拓扑空间间的同伦等价、同伦逆与映射类，并讨论它们与同胚的区别，对应同伦概念。"
+    },
+    {
+      "title": "场论家用代数（第六话）：李群、李代数、格点、表示与第一同伦群",
+      "url": "https://zhuanlan.zhihu.com/p/422003721",
+      "summary": "正文通过闭合路径的连续形变和可收缩性解释基本群，具体展开同伦概念。"
+    },
+    {
+      "title": "瞎写一点代数拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/442976804",
+      "summary": "正文系统讨论同伦群、基本群、环路空间及稳定同伦群等概念。"
+    },
+    {
+      "title": "「赢代拓扑学(Winbraic Topology)」: 简单导引 (赢理论研究生教材)",
+      "url": "https://zhuanlan.zhihu.com/p/491451961",
+      "summary": "正文定义连续形变族和同伦关系，并说明形变收缩是同伦的特例。"
+    },
+    {
+      "title": "基本群的计算：实战篇",
+      "url": "https://zhuanlan.zhihu.com/p/514042805",
+      "summary": "正文反复使用回路同伦、形变收缩和同伦等价判定基本群，并据此化简拓扑空间。"
+    },
+    {
+      "title": "凝聚态场论｜KT相变与拓扑激发",
+      "url": "https://zhuanlan.zhihu.com/p/539424683",
+      "summary": "正文用相位场的绕行积分保持不变定义拓扑缺陷，并区分不同绕数拓扑类，体现同伦思想。"
+    },
+    {
+      "title": "拓扑学基础与Gauss-Bonnet定理最速传说",
+      "url": "https://zhuanlan.zhihu.com/p/551634049",
+      "summary": "正文展开同伦、形变收缩、同伦等价与基本道路等连续形变理论。"
+    },
+    {
+      "title": "阻碍理论与示性类",
+      "url": "https://zhuanlan.zhihu.com/p/560872792",
+      "summary": "正文利用 Stiefel 流形的同伦群和长正合列计算主阻碍类所在的维数。"
+    },
+    {
+      "title": "代数基本定理的复分析证明方法",
+      "url": "https://zhuanlan.zhihu.com/p/563722748",
+      "summary": "正文定义可求长闭曲线的同伦与零伦，并证明同伦闭曲线上的解析函数积分相等，由此得到柯西定理。"
+    },
+    {
+      "title": "你可能永远无法想象，一个三维数学问题远比其他任意维问题复杂",
+      "url": "https://zhuanlan.zhihu.com/p/577305233",
+      "summary": "正文用闭圈在流形上移动并收缩到一点的方法讨论同伦论与基本群。"
+    },
+    {
+      "title": "几何、拓扑、分析综合第三篇——同调论",
+      "url": "https://zhuanlan.zhihu.com/p/599147967",
+      "summary": "正文给出闭道路连续形变的同伦定义、证明同伦道路上全纯微分积分不变，并与同调分类作比较。"
+    },
+    {
+      "title": "计算共形几何",
+      "url": "https://zhuanlan.zhihu.com/p/592437872",
+      "summary": "正文用闭圈能否连续缩成点解释同伦、同伦等价和基本群。"
+    },
+    {
+      "title": "代数拓扑：同调（一）",
+      "url": "https://zhuanlan.zhihu.com/p/614393640",
+      "summary": "正文从基本群的道路同伦出发，推广到球面映射的同伦群。"
+    },
+    {
+      "title": "你可能永远无法想象，一个三维数学问题远比其他任意维问题复杂",
+      "url": "https://zhuanlan.zhihu.com/p/624604375",
+      "summary": "正文用闭圈在流形上移动并收缩为一点的思想解释同伦论与庞加莱猜想的联系。"
+    },
+    {
+      "title": "深入浅出的《拓扑学和张量分析》期末考试再也不用愁！",
+      "url": "https://zhuanlan.zhihu.com/p/651490954",
+      "summary": "正文用一参数族光滑映射定义同伦，并进一步定义流形的同伦等价。"
+    },
+    {
+      "title": "给宝宝看的《基础拓扑学讲义》（尤承业）笔记与思考",
+      "url": "https://zhuanlan.zhihu.com/p/645110618",
+      "summary": "正文定义映射同伦、相对同伦和道路类，并讨论同伦等价。"
+    },
+    {
+      "title": "纽结理论和琼斯多项式",
+      "url": "https://zhuanlan.zhihu.com/p/662505840",
+      "summary": "正文用环绕空间同痕和 Reidemeister 运动解释纽结的连续形变与等价分类。"
+    },
+    {
+      "title": "【Proof-Trivial】从三角形到流形 —— 陈省身",
+      "url": "https://zhuanlan.zhihu.com/p/667277846",
+      "summary": "正文用正则同伦定义曲线形变，并解释旋转指数在正则同伦下保持不变及其分类意义。"
+    },
+    {
+      "title": "布劳威尔和他的不动点定理",
+      "url": "https://zhuanlan.zhihu.com/p/670752246",
+      "summary": "正文用映射度、直线伦移和同伦关系完成圆盘不动点定理的证明。"
+    },
+    {
+      "title": "球中之球：穿越多维度的探索之旅",
+      "url": "https://zhuanlan.zhihu.com/p/675938015",
+      "summary": "正文用环路的收缩与同伦分类解释曲面孔洞并引入同伦群。"
+    },
+    {
+      "title": "通过范畴论，数学摆脱了等号",
+      "url": "https://zhuanlan.zhihu.com/p/679171933",
+      "summary": "正文用连续形变、路径及路径之间的圆盘解释同伦等价，并进一步说明同伦关系的无限层级结构。"
+    },
+    {
+      "title": "一些拓扑小题(持续更新中)",
+      "url": "https://zhuanlan.zhihu.com/p/19198396929",
+      "summary": "正文围绕各阶同伦群是否相同、如何计算以及弱同伦等价展开多个反例和证明。"
+    },
+    {
+      "title": "跟平展爆了: 最神人的S^1同伦群算法",
+      "url": "https://zhuanlan.zhihu.com/p/20497594639",
+      "summary": "正文从 π1(S1) 的交换性出发，借助同伦等价、Hurewicz 定理和上同调比较完成计算。"
+    },
+    {
+      "title": "代数拓扑碎碎念（一）：从映射度说起",
+      "url": "https://zhuanlan.zhihu.com/p/1902309432039290485",
+      "summary": "正文利用无不动点映射到对径映射的同伦推导映射度，并讨论同伦下的度不变性。"
+    },
+    {
+      "title": "(已完结)2025丘成桐大学生数学竞赛分析组教学式答案+超完整细节.",
+      "url": "https://zhuanlan.zhihu.com/p/1908138349262270859",
+      "summary": "正文定义正则同伦并证明闭曲线正则同伦等价于具有相同环绕数。"
+    },
+    {
+      "title": "在你看不见的角落，数学家们正在努力驯服126维的“怪兽”？",
+      "url": "https://zhuanlan.zhihu.com/p/2025531068988564367",
+      "summary": "正文将问题归入球面的稳定同伦群研究，并解释这涉及不同维度球面之间的连续映射与同伦结构。"
+    },
+    {
+      "title": "毛球定理（Hairy Ball Theorem）",
+      "url": "https://zhuanlan.zhihu.com/p/2040867046473388100",
+      "summary": "正文构造从恒等映射到对跖映射的光滑同伦，并以映射度的同伦不变性导出矛盾。"
+    }
+  ]
+}

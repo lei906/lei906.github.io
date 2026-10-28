@@ -1,0 +1,1466 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l5-t5-b3",
+  "sources": [
+    {
+      "title": "为什么证明哥德巴赫猜想 1+1 那么难？",
+      "url": "https://www.zhihu.com/answer/12634637",
+      "summary": "以哥德巴赫问题为背景讨论圆法、渐近估计和例外集，呈现解析数论的典型方法；研究进展以原文发表时为准。"
+    },
+    {
+      "title": "数论中的 Tate thesis 大致的作用是什么？",
+      "url": "https://www.zhihu.com/answer/59536853",
+      "summary": "正文说明 Tate 将调和分析用于数论并推广到数域。"
+    },
+    {
+      "title": "动力系统和数论之间有什么超常的关系？",
+      "url": "https://www.zhihu.com/answer/84126532",
+      "summary": "正文讨论素数算术级数、Linnik 常数及动力系统方法。"
+    },
+    {
+      "title": "数学史上有哪些看似成立的算式形式猜想，最终被某个大数证明不成立？",
+      "url": "https://www.zhihu.com/answer/112720796",
+      "summary": "正文以对数积分与素数计数函数的渐近关系讲解解析数论中的素数定理。"
+    },
+    {
+      "title": "黎曼猜想和哥德巴赫猜想有什么联系？",
+      "url": "https://www.zhihu.com/answer/113863896",
+      "summary": "正文利用欧拉乘积和素数计数函数建立解析数论联系。"
+    },
+    {
+      "title": "素数的倒数和是否发散？",
+      "url": "https://www.zhihu.com/answer/119398113",
+      "summary": "正文用欧拉乘积和 Mertens 定理给出素数倒数部分和的渐近估计。"
+    },
+    {
+      "title": "解析数论前景怎么样？",
+      "url": "https://www.zhihu.com/answer/135036703",
+      "summary": "正文给出解析数论的定义、方法、主要问题及多个研究方向，是对解析数论的实质综述。"
+    },
+    {
+      "title": "如何看待：老父亲十年苦证「哥德巴赫猜想」？",
+      "url": "https://www.zhihu.com/answer/142290799",
+      "summary": "正文指出圆法和解析数论技术是研究哥德巴赫问题的出发点。"
+    },
+    {
+      "title": "数论中有哪些形式简单却难以证明的问题或猜想？",
+      "url": "https://www.zhihu.com/answer/215836086",
+      "summary": "正文介绍调和分析、筛法与随机模型在素数问题中的作用。"
+    },
+    {
+      "title": "既然哥德巴赫猜想未被证明，为何不能把它视作一个定理来使用？若在使用过程中发现问题，不就反证出来了吗？",
+      "url": "https://www.zhihu.com/answer/240096059",
+      "summary": "正文说明解析数论通过构造解析函数计算数论目标。"
+    },
+    {
+      "title": "如何评价恽之玮，张伟获 New Horizons 奖？",
+      "url": "https://www.zhihu.com/answer/273796981",
+      "summary": "正文实质讨论 L 函数解析性质与高阶导数。"
+    },
+    {
+      "title": "你知道哪些反常识的知识？",
+      "url": "https://www.zhihu.com/answer/324939226",
+      "summary": "正文指出该结论需要解析数论方法。"
+    },
+    {
+      "title": "刚获得 2018 年阿贝尔奖的加拿大数学家朗兰兹有哪些学术成就？",
+      "url": "https://www.zhihu.com/answer/347267898",
+      "summary": "正文解释用调和分析研究模素数方程解数。"
+    },
+    {
+      "title": "数学界如何评价陈景润？",
+      "url": "https://www.zhihu.com/answer/348315351",
+      "summary": "正文说明筛法与圆法在解析数论证明中的作用。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/379042338",
+      "summary": "正文用Dirichlet密度讨论同余类中素数的分布。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/419536801",
+      "summary": "正文讨论 Littlewood 猜想背景下的乘法丢番图逼近与计数估计。"
+    },
+    {
+      "title": "陈景润是如何证明「1＋2」的？",
+      "url": "https://www.zhihu.com/answer/429218744",
+      "summary": "正文用圆法积分与筛法讨论解析数论证明路径。"
+    },
+    {
+      "title": "所有质数的总和正好等于所有数字的总和吗？",
+      "url": "https://www.zhihu.com/answer/440926195",
+      "summary": "正文讨论素数Dirichlet级数解析延拓的边界。"
+    },
+    {
+      "title": "如何评价 2018 年菲尔兹奖（Fields medal 2018）结果与四位得主的工作？",
+      "url": "https://www.zhihu.com/answer/458115905",
+      "summary": "正文具体介绍 Venkatesh 在解析数论中的 L 函数成果。"
+    },
+    {
+      "title": "如果黎曼猜想被证否了，将会产生什么后果？",
+      "url": "https://www.zhihu.com/answer/497361272",
+      "summary": "正文给出黎曼猜想对素数计数误差项的解析数论影响。"
+    },
+    {
+      "title": "除了黎曼猜想，数学界还有哪些至今尚未得到证实的猜想？",
+      "url": "https://www.zhihu.com/answer/500093973",
+      "summary": "正文介绍高斯圆问题的解析数论估计方法与最好结果。"
+    },
+    {
+      "title": "全世界的数学家们大概还需要多久，才能在证明哥德巴赫猜想？",
+      "url": "https://www.zhihu.com/answer/513698925",
+      "summary": "对筛法、Renyi 与陈氏结果的讨论属于解析数论方法。"
+    },
+    {
+      "title": "数学史上有哪些比较著名的猜想因为有反例的存在而没有成为定理？",
+      "url": "https://www.zhihu.com/answer/532399491",
+      "summary": "全文围绕质数计数函数与对数积分的大小关系，属于解析数论内容。"
+    },
+    {
+      "title": "数学史上有哪些比较著名的猜想因为有反例的存在而没有成为定理？",
+      "url": "https://www.zhihu.com/answer/540520590",
+      "summary": "正文讨论数论函数的部分和、猜想与反例，属于解析数论语境。"
+    },
+    {
+      "title": "只用高中数学知识水平能解出哥德巴赫猜想吗？",
+      "url": "https://www.zhihu.com/answer/548000961",
+      "summary": "正文比较素数定理的解析证明与初等证明。"
+    },
+    {
+      "title": "如果高中生能证明哥德巴赫猜想，会被清华北大数学系保送吗？",
+      "url": "https://www.zhihu.com/answer/560489102",
+      "summary": "正文以大偶数、素数乘积和渐近估计展开解析数论推导。"
+    },
+    {
+      "title": "证明「哥德巴赫猜想」到底有多难？",
+      "url": "https://www.zhihu.com/answer/561084395",
+      "summary": "正文讨论筛法、圆法和三角和估计等解析数论工具。"
+    },
+    {
+      "title": "证明「哥德巴赫猜想」到底有多难？",
+      "url": "https://www.zhihu.com/answer/561185140",
+      "summary": "正文明确讨论解析数论、筛法和加性数论的研究方法。"
+    },
+    {
+      "title": "证明「哥德巴赫猜想」到底有多难？",
+      "url": "https://www.zhihu.com/answer/562670786",
+      "summary": "正文介绍解析数论、筛法和 ζ 函数等工具。"
+    },
+    {
+      "title": "证明「哥德巴赫猜想」到底有多难？",
+      "url": "https://www.zhihu.com/answer/563416944",
+      "summary": "正文解释筛法和殆素数方法的思路及边界。"
+    },
+    {
+      "title": "证明「哥德巴赫猜想」到底有多难？",
+      "url": "https://www.zhihu.com/answer/563495302",
+      "summary": "正文说明哥德巴赫猜想与解析数论发展的关系。"
+    },
+    {
+      "title": "设计程序求第 i 个素数，时间复杂度最优可以达到多少？",
+      "url": "https://www.zhihu.com/answer/566185328",
+      "summary": "利用解析素数计数方法分析搜索复杂度。"
+    },
+    {
+      "title": "证明「哥德巴赫猜想」到底有多难？",
+      "url": "https://www.zhihu.com/answer/566750709",
+      "summary": "说明筛法和解析数论处理加性素数问题的能力与限制。"
+    },
+    {
+      "title": "素数的 Willans 公式是否正确？",
+      "url": "https://www.zhihu.com/answer/595009063",
+      "summary": "正文用素数密度界截断求和。"
+    },
+    {
+      "title": "5,11,17,23…数列中质数个数为何似乎总比7,13,19,25…数列中的多？",
+      "url": "https://www.zhihu.com/answer/645444360",
+      "summary": "讨论素数计数在不同算术级数中的渐近与误差。"
+    },
+    {
+      "title": "所有质数的倒数的平方和的精确值是多少？",
+      "url": "https://www.zhihu.com/answer/770786941",
+      "summary": "通过欧拉乘积和莫比乌斯反演开展解析数论推导。"
+    },
+    {
+      "title": "数论中的 Tate thesis 大致的作用是什么？",
+      "url": "https://www.zhihu.com/answer/783581645",
+      "summary": "以 Hecke L 函数和局部整体方法讲解析数论。"
+    },
+    {
+      "title": "所有质数的倒数的平方和的精确值是多少？",
+      "url": "https://www.zhihu.com/answer/794913053",
+      "summary": "用素数 zeta 函数研究素数倒数平方和。"
+    },
+    {
+      "title": "有哪些分析的恒等式有很深刻的数学背景？",
+      "url": "https://www.zhihu.com/answer/890396655",
+      "summary": "把 Poisson 求和置于解析数论与 L 函数背景中。"
+    },
+    {
+      "title": "素数的倒数和是否发散？",
+      "url": "https://www.zhihu.com/answer/985030056",
+      "summary": "正文用欧拉乘积、对数展开与收敛比较证明素数倒数和发散。"
+    },
+    {
+      "title": "两相邻素数的最大间距能够多大？",
+      "url": "https://www.zhihu.com/answer/987334468",
+      "summary": "正文用素数定理证明相邻素数间距无上界，并讨论小间距结果。"
+    },
+    {
+      "title": "目前已知的差值最大的相邻质数的差值是多少？是哪两个质数？",
+      "url": "https://www.zhihu.com/answer/987348070",
+      "summary": "正文由连续合数构造证明相邻素数间距无上界。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/991527721",
+      "summary": "正文以连续合数段说明素数间距没有有限上界。"
+    },
+    {
+      "title": "给定一个素数，能否确定它是第几个素数？",
+      "url": "https://www.zhihu.com/answer/1064281624",
+      "summary": "正文给出素数计数函数的Meissel–Lehmer递归公式及复杂度。"
+    },
+    {
+      "title": "什么是朗道-西格尔零点猜想？",
+      "url": "https://www.zhihu.com/answer/1141095517",
+      "summary": "正文以L函数、零点互斥和类数公式解释解析数论问题。"
+    },
+    {
+      "title": "求 10^15 内的所有质数个数 , 有没有方法在 10s 内跑完?",
+      "url": "https://www.zhihu.com/answer/1149523910",
+      "summary": "正文用Mellin变换、ζ函数零点与显式公式处理素数计数。"
+    },
+    {
+      "title": "数学家 John Horton Conway 或因感染新型冠状病毒逝世，如何评价他一生的经历与贡献?",
+      "url": "https://www.zhihu.com/answer/1149816850",
+      "summary": "正文从平方和推广到华林问题并说明g(k)的历史进展，属于加性解析数论。"
+    },
+    {
+      "title": "可以留下一个优美的恒等式吗？",
+      "url": "https://www.zhihu.com/answer/1171713085",
+      "summary": "正文以素数定理和狄利克雷定理介绍解析数论问题。"
+    },
+    {
+      "title": "微积分之后，现代数学有哪些新的革命性工具？近年来物理理论没有突破，是不是微积分不够用了？",
+      "url": "https://www.zhihu.com/answer/1531169574",
+      "summary": "正文直接讨论解析数论，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "阿贝尔变换强大在哪里？",
+      "url": "https://www.zhihu.com/answer/1651254751",
+      "summary": "正文展示阿贝尔变换在解析数论中的用途。"
+    },
+    {
+      "title": "有哪些值得推荐的《数论》教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1669150204",
+      "summary": "正文列出解析数论教材。"
+    },
+    {
+      "title": "学数论可以跳过初等数论吗？",
+      "url": "https://www.zhihu.com/answer/1775954753",
+      "summary": "正文说明解析方法在加性数论问题中的作用。"
+    },
+    {
+      "title": "学数论可以跳过初等数论吗？",
+      "url": "https://www.zhihu.com/answer/1776131917",
+      "summary": "正文明确以解析数论作为学习方向。"
+    },
+    {
+      "title": "有什么求 π 的稀奇方法？",
+      "url": "https://www.zhihu.com/answer/1782418418",
+      "summary": "正文用莫比乌斯函数与数论和式处理圆周率相关问题。"
+    },
+    {
+      "title": "为什么前N个自然数的最小公倍数约等于e^N?",
+      "url": "https://www.zhihu.com/answer/1805442119",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "如何评价数学家黎曼的成就与历史地位？",
+      "url": "https://www.zhihu.com/answer/1815912683",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/1819016091",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "10的100次方内的素数的中位数在什么范围内，你可以估算到多高的精度?",
+      "url": "https://www.zhihu.com/answer/1830214130",
+      "summary": "正文用素数计数函数、素数定理和对数积分估计大范围素数分布。"
+    },
+    {
+      "title": "能否求出全体正整数的「积」？",
+      "url": "https://www.zhihu.com/answer/1833217888",
+      "summary": "正文以解析数论中的 zeta 函数解析延拓计算正规积。"
+    },
+    {
+      "title": "本人高中生疑似发现质数个数分布规律，下一步应该怎么做?",
+      "url": "https://www.zhihu.com/answer/1837201477",
+      "summary": "正文用素数计数函数与对数积分的误差讨论解析数论问题。"
+    },
+    {
+      "title": "为什么一些看上去初等的数学问题，几百年没被找到初等解法，本质原因是什么？",
+      "url": "https://www.zhihu.com/answer/1841460713",
+      "summary": "正文用素数计数、zeta 函数和解析方法解释初等问题的深层证明。"
+    },
+    {
+      "title": "你遇到的最难的一个数学题是什么？",
+      "url": "https://www.zhihu.com/answer/1847132525",
+      "summary": "正文以 Perron 公式和复积分方法研究数论中的求和问题。"
+    },
+    {
+      "title": "高斯素数有类似于素数定理的分布律吗？",
+      "url": "https://www.zhihu.com/answer/1881003925",
+      "summary": "正文用 Dirichlet 定理和解析估计证明高斯素数计数函数渐近式。"
+    },
+    {
+      "title": "2021年5月14日，著名数学家王元院士去世，他对中国数学界有哪些贡献？",
+      "url": "https://www.zhihu.com/answer/1886455509",
+      "summary": "正文列举王元在解析数论、代数数论与数论方法应用上的贡献。"
+    },
+    {
+      "title": "2021年5月14日，著名数学家王元院士去世，他对中国数学界有哪些贡献？",
+      "url": "https://www.zhihu.com/answer/1886462620",
+      "summary": "正文把哥德巴赫猜想和最小原根研究归入解析数论成果。"
+    },
+    {
+      "title": "2021年5月14日，著名数学家王元院士去世，他对中国数学界有哪些贡献？",
+      "url": "https://www.zhihu.com/answer/1886746110",
+      "summary": "正文概述王元在解析数论、代数数论和数值积分方向的贡献。"
+    },
+    {
+      "title": "2021年5月14日，著名数学家王元院士去世，他对中国数学界有哪些贡献？",
+      "url": "https://www.zhihu.com/answer/1887393940",
+      "summary": "正文详细说明华–王方法在解析数论和多维数值积分中的发展。"
+    },
+    {
+      "title": "为什么这个级数会如此接近整数?",
+      "url": "https://www.zhihu.com/answer/1888929209",
+      "summary": "正文把该现象置于 Ramanujan 型解析数论级数中。"
+    },
+    {
+      "title": "为什么这个级数会如此接近整数?",
+      "url": "https://www.zhihu.com/answer/1889411059",
+      "summary": "正文把近似整数现象归入 Ramanujan 型解析数论。"
+    },
+    {
+      "title": "有哪些数学问题一看就知道是对的，但是细细证起来反而很难？",
+      "url": "https://www.zhihu.com/answer/1957862192",
+      "summary": "正文列举解析数论中的素数、Dirichlet 定理和 zeta 均值公式。"
+    },
+    {
+      "title": "在学生时期独立地探索出自己的数学发现，是什么体验？",
+      "url": "https://www.zhihu.com/answer/1969177810",
+      "summary": "正文用 zeta、Dirichlet 级数和围道积分讨论解析数论。"
+    },
+    {
+      "title": "证明了哥德巴赫猜想能不能拿菲尔兹奖？",
+      "url": "https://www.zhihu.com/answer/2073636242",
+      "summary": "正文把哥猜和孪生素数放在解析数论的素数密度问题中。"
+    },
+    {
+      "title": "证明「哥德巴赫猜想」到底有多难？",
+      "url": "https://www.zhihu.com/answer/2076126568",
+      "summary": "正文用素变量指数和与圆法讨论哥德巴赫问题。"
+    },
+    {
+      "title": "你最喜欢的数学定理是什么？",
+      "url": "https://www.zhihu.com/answer/2090924273",
+      "summary": "正文以素数分布、ζ 函数和复分析讲述解析数论。"
+    },
+    {
+      "title": "什么是朗道-西格尔零点猜想？",
+      "url": "https://www.zhihu.com/answer/2113995432",
+      "summary": "正文用Dirichlet L函数和素数分布讨论解析数论。"
+    },
+    {
+      "title": "你曾经看过哪些精彩的数学书？",
+      "url": "https://www.zhihu.com/answer/2214568760",
+      "summary": "正文围绕解析数论、素数分布和概率数论展开。"
+    },
+    {
+      "title": "如何看待「禁止用没学过的知识解题」这样的要求？",
+      "url": "https://www.zhihu.com/answer/2243262094",
+      "summary": "正文用狄利克雷等差数列素数定理说明解析数论工具。"
+    },
+    {
+      "title": "数学史上你认为最美的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2261841775",
+      "summary": "正文推导素数计数函数的 Riemann 级数近似。"
+    },
+    {
+      "title": "如何评价数海钓鱼将钓鱼题广泛传播的行为?",
+      "url": "https://www.zhihu.com/answer/2263364743",
+      "summary": "正文系统设计解析数论中的殆素数、筛法和 a+b 问题习题。"
+    },
+    {
+      "title": "全体质数的倒数和是发散的还是收敛的？如果收敛，收敛到多少？（多重问题预警）?",
+      "url": "https://www.zhihu.com/answer/2281895181",
+      "summary": "正文用渐近展开比较素数倒数和的增长，属于解析数论。"
+    },
+    {
+      "title": "如何证明形如n^2+1的素数有无限个?",
+      "url": "https://www.zhihu.com/answer/2285936539",
+      "summary": "正文系统使用 Brun 筛法给出几乎素数与素数上界结果。"
+    },
+    {
+      "title": "怎么证明全体孪生素数倒数和是收敛的 ?",
+      "url": "https://www.zhihu.com/answer/2327909742",
+      "summary": "正文属于解析数论中素数分布与筛法估计。"
+    },
+    {
+      "title": "陈景润是如何证明「1＋2」的？",
+      "url": "https://www.zhihu.com/answer/2353269096",
+      "summary": "正文系统介绍筛法、加权筛和解析数论估计。"
+    },
+    {
+      "title": "TravorLZH的筛选法是从哪总结出来的（不同余方程组谁先搞出来的）?",
+      "url": "https://www.zhihu.com/answer/2355476879",
+      "summary": "正文追溯筛法在不同余方程组与哥德巴赫研究中的来源。"
+    },
+    {
+      "title": "X²+Y²+Z²=114514存在多少组整数解？",
+      "url": "https://www.zhihu.com/answer/2374569343",
+      "summary": "正文用模形式、Dirichlet 特征和 L-函数计算整数解个数。"
+    },
+    {
+      "title": "在数学或是计算机科学中，有什么优美的结论会有一些小的特例不满足？",
+      "url": "https://www.zhihu.com/answer/2393657710",
+      "summary": "正文讨论正整数因子个数上界的解析数论估计。"
+    },
+    {
+      "title": "数学论文的作者会意识到自己发表的结果实际上已经有人做出来过吗？",
+      "url": "https://www.zhihu.com/answer/2506942801",
+      "summary": "正文围绕光滑数的计数函数、Dickman 极限和容斥筛法展开，属于解析数论中的分布问题。"
+    },
+    {
+      "title": "泊松分布的现实意义是什么，为什么现实生活多数服从于泊松分布？",
+      "url": "https://www.zhihu.com/answer/2523299127",
+      "summary": "讨论素因子计数函数的分布与解析数论中的 Landau 估计。"
+    },
+    {
+      "title": "解析数论前景怎么样？",
+      "url": "https://www.zhihu.com/answer/2555557036",
+      "summary": "正文综述解析数论近期进展，具体说明 L 函数亚凸界、Weyl bound 及相关表示论和谱理论工具。"
+    },
+    {
+      "title": "韩裔许埈珥、乌克兰维娅佐夫斯卡等四位数学家获得 2022 菲尔兹奖，他们在各自领域做出了怎样的贡献？",
+      "url": "https://www.zhihu.com/answer/2560447749",
+      "summary": "正文以菲尔兹奖说明为线索，概述 James Maynard 在素数间隔和丢番图逼近等解析数论问题上的贡献。"
+    },
+    {
+      "title": "韩裔许埈珥、乌克兰维娅佐夫斯卡等四位数学家获得 2022 菲尔兹奖，他们在各自领域做出了怎样的贡献？",
+      "url": "https://www.zhihu.com/answer/2560825017",
+      "summary": "正文围绕素数间隔、三素数定理和 Bombieri–Vinogradov 定理展开，说明解析数论工具与素数分布研究的关系。"
+    },
+    {
+      "title": "韩裔许埈珥、乌克兰维娅佐夫斯卡等四位数学家获得 2022 菲尔兹奖，他们在各自领域做出了怎样的贡献？",
+      "url": "https://www.zhihu.com/answer/2561384154",
+      "summary": "正文以 Maynard 的素数间隔研究为例解释丢番图逼近，并概述其解析数论贡献。"
+    },
+    {
+      "title": "两相邻素数的最大间距能够多大？",
+      "url": "https://www.zhihu.com/answer/2667206998",
+      "summary": "正文用积分估计阶乘对数并推导相邻素数间距下界，明确把这种研究素数的方法归为解析数论。"
+    },
+    {
+      "title": "哪个瞬间让你觉得数学充满魅力？",
+      "url": "https://www.zhihu.com/answer/2706261237",
+      "summary": "正文用素数计数函数的渐近式、黎曼 R(x) 估计和 ζ 函数零点来解释素数分布，属于解析数论内容。"
+    },
+    {
+      "title": "黎曼猜想（Riemann hypothesis）是什么？有什么用？",
+      "url": "https://www.zhihu.com/answer/2718643871",
+      "summary": "正文以ζ函数零点分布导出素数定理为线索，介绍素数大范围分布这一解析数论核心问题。"
+    },
+    {
+      "title": "朗道西格尔猜想和黎曼猜想之间有什么关系？",
+      "url": "https://www.zhihu.com/answer/2721032280",
+      "summary": "正文定义 Dirichlet L 级数并讨论其无零点区域和 Siegel 零点，属于解析数论中的零点分布论证。"
+    },
+    {
+      "title": "数学家张益唐攻克 Landau-Siegel 零点猜想相关论文发布，如何评价这一研究的成果及意义？",
+      "url": "https://www.zhihu.com/answer/2745597170",
+      "summary": "正文用 Dirichlet L-函数研究算术级数中的素数分布，并说明 Siegel-Walfisz 定理及张益唐结果如何扩大模数一致范围。"
+    },
+    {
+      "title": "数学家张益唐攻克 Landau-Siegel 零点猜想相关论文发布，如何评价这一研究的成果及意义？",
+      "url": "https://www.zhihu.com/answer/2746162940",
+      "summary": "正文围绕 L 函数下界、零点分布和等差数列素数定理的误差项展开解析数论讨论。"
+    },
+    {
+      "title": "数学家张益唐攻克 Landau-Siegel 零点猜想相关论文发布，如何评价这一研究的成果及意义？",
+      "url": "https://www.zhihu.com/answer/2752632822",
+      "summary": "正文借 Bombieri-Vinogradov 定理的误差上界、大筛法和 Siegel-Walfisz 定理说明解析数论工具对素数误差估计的改进。"
+    },
+    {
+      "title": "有没有学数学的大佬给我讲一些非常牛逼的东西，震撼一下我这个非数学系的大学生？",
+      "url": "https://www.zhihu.com/answer/2826438839",
+      "summary": "正文系统介绍圆法、生成函数以及用积分处理 Waring 问题，属于解析数论的核心方法。"
+    },
+    {
+      "title": "怎样算出黎曼猜想的第1个非平凡零点？",
+      "url": "https://www.zhihu.com/answer/2835580698",
+      "summary": "正文使用解析延拓、幅角变化和零点计数估计研究 zeta 函数，属于解析数论方法。"
+    },
+    {
+      "title": "能分享一道如果“注意不到”就出不来的数学题吗？",
+      "url": "https://www.zhihu.com/answer/2870397287",
+      "summary": "正文用除数幂和的 q 级数构造 Eisenstein 模形式，通过模形式空间的一维性和系数比较证明数论卷积恒等式。"
+    },
+    {
+      "title": "对于正整数n>5,如何证明 d(n!)|n! ?",
+      "url": "https://www.zhihu.com/answer/2952464594",
+      "summary": "正文介绍 d(n!) 及其差分的渐近结果，并说明一个相关集合的自然密度在黎曼猜想下为零，属于解析数论中的渐近与密度研究。"
+    },
+    {
+      "title": "可以介绍一下算术组合/加性组合的发展历程以及北美优势学校/教授吗？",
+      "url": "https://www.zhihu.com/answer/2997711281",
+      "summary": "正文梳理筛法、圆法和三素数定理在哥德巴赫问题中的发展，并讨论它们对加性数论路线的影响。"
+    },
+    {
+      "title": "什么样的整系数多项式必含有无穷多个素数？？",
+      "url": "https://www.zhihu.com/answer/3045573342",
+      "summary": "正文陈述 Dirichlet 倒数素数级数发散及 Bateman-Horn 对数积分渐近，属于解析数论内容。"
+    },
+    {
+      "title": "如何证明素数无穷多？",
+      "url": "https://www.zhihu.com/answer/3121132182",
+      "summary": "正文建立素数幂次倒数乘积与调和级数的欧拉乘积关系，属于解析数论中的经典论证。"
+    },
+    {
+      "title": "如何评价法国数学家André Weil？",
+      "url": "https://www.zhihu.com/answer/3185787572",
+      "summary": "正文说明显公式联系素数求和与 zeta 函数零点，属于解析数论的核心构造。"
+    },
+    {
+      "title": "张益唐直播力挺「陈景润证明1+2」的研究意义，陈景润的学术贡献是否被低估了？",
+      "url": "https://www.zhihu.com/answer/3187445579",
+      "summary": "正文围绕解析数论中的筛法，展开素数因子计数、加权筛法和陈景润“1+2”证明框架。"
+    },
+    {
+      "title": "张益唐直播力挺「陈景润证明1+2」的研究意义，陈景润的学术贡献是否被低估了？",
+      "url": "https://www.zhihu.com/answer/3187537725",
+      "summary": "正文以欧拉、高斯、黎曼、哥德巴赫和维诺格拉多夫等工作为线索，概述解析数论中的素数分布研究。"
+    },
+    {
+      "title": "张益唐直播力挺「陈景润证明1+2」的研究意义，陈景润的学术贡献是否被低估了？",
+      "url": "https://www.zhihu.com/answer/3187638122",
+      "summary": "正文介绍陈景润和张益唐所处的解析数论领域，强调筛法工具、复杂计算及素数分布问题之间的关联。"
+    },
+    {
+      "title": "张益唐直播力挺「陈景润证明1+2」的研究意义，陈景润的学术贡献是否被低估了？",
+      "url": "https://www.zhihu.com/answer/3187647497",
+      "summary": "正文结合陈景润和张益唐的工作，说明解析数论依赖基础工具和繁复计算来研究数论问题。"
+    },
+    {
+      "title": "张益唐直播力挺「陈景润证明1+2」的研究意义，陈景润的学术贡献是否被低估了？",
+      "url": "https://www.zhihu.com/answer/3188714255",
+      "summary": "正文具体讨论解析数论中繁杂的计算、筛法迭代和误差估计，说明计算在该分支中的核心作用。"
+    },
+    {
+      "title": "我这个数有没有超过葛立恒数？",
+      "url": "https://www.zhihu.com/answer/3221050621",
+      "summary": "正文介绍光滑数出现频率的狄克曼公式及渐近估计，属于解析数论中的平滑数计数方法。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3344498205",
+      "summary": "正文定义整数分拆数并说明 Hardy-Ramanujan 渐近公式、上界估计及四平方和表示数公式，实质展开解析数论内容。"
+    },
+    {
+      "title": "数论与初等数论中有哪些重要，优雅，或是深刻的定理？",
+      "url": "https://www.zhihu.com/answer/3353570326",
+      "summary": "正文构造 Dirichlet 级数、估计二平方和表示数的渐近式，并用模形式研究表示数，属于解析数论。"
+    },
+    {
+      "title": "所有质数的倒数之和是发散还是收敛的？",
+      "url": "https://www.zhihu.com/answer/3463647601",
+      "summary": "正文利用调和级数的对数增长估计并结合欧拉乘积，研究质数倒数和这一解析数论问题。"
+    },
+    {
+      "title": "数学史上有哪些数字或规模很大的反例？",
+      "url": "https://www.zhihu.com/answer/3469292942",
+      "summary": "正文定义素数计数函数与对数积分，并说明素数定理给出的渐近关系。"
+    },
+    {
+      "title": "全球有那么多已tenure的数学家，为什么没人去验证望月的ABC？",
+      "url": "https://www.zhihu.com/answer/3506699255",
+      "summary": "正文专门陈述素数定理并用第 n 个素数与素数计数函数给出定量估计，属于解析数论内容。"
+    },
+    {
+      "title": "丘成桐说陈景润不伟大，这是不是胡说?",
+      "url": "https://www.zhihu.com/answer/3542742292",
+      "summary": "正文具体介绍从筛法到加权筛法的估计思路，这是解析数论中研究哥德巴赫型问题的论证框架。"
+    },
+    {
+      "title": "有没有人告诉我对数到底是怎样简化运算的?",
+      "url": "https://www.zhihu.com/answer/3553403912",
+      "summary": "正文从黎曼ζ函数和欧拉乘积出发，通过解析变换推导素数计数函数的精确公式。"
+    },
+    {
+      "title": "拉马努金是怎么发现那些壮观的公式的？",
+      "url": "https://www.zhihu.com/answer/3586153759",
+      "summary": "正文说明分拆数生成函数及其渐近研究，并明确把它与解析数论的发展联系起来。"
+    },
+    {
+      "title": "拉马努金是怎么发现那些壮观的公式的？",
+      "url": "https://www.zhihu.com/answer/3586274125",
+      "summary": "正文用模形式的无穷乘积和 q 展开定义拉马努金 tau 函数，并讨论其乘性和素数系数上界。"
+    },
+    {
+      "title": "黎曼论文里的这个积分是怎么求的？ 不用围道积分又怎么得到这个结果的？",
+      "url": "https://www.zhihu.com/answer/3592289911",
+      "summary": "正文围绕黎曼1859年论文讲解ζ函数的积分表示、解析延拓和零点与素数分布的解析数论联系。"
+    },
+    {
+      "title": "如何证明级数：∑_1^∞(n/(e^(2πn)-1))=1/24-1/(8π）？",
+      "url": "https://www.zhihu.com/answer/3615712858",
+      "summary": "正文利用Eisenstein级数的模变换与Riemann zeta关系证明高幂次倒数幂级数的取值公式。"
+    },
+    {
+      "title": "这个级数咋用留数定理推导。?",
+      "url": "https://www.zhihu.com/answer/3616596257",
+      "summary": "正文以 Dirichlet 偶级数为对象，结合梅林变换、Ramanujan 主定理和 zeta 值推导级数分解。"
+    },
+    {
+      "title": "所有质数的倒数之和是发散还是收敛的？",
+      "url": "https://www.zhihu.com/answer/5177617983",
+      "summary": "正文用欧拉乘积把素数倒数级数与调和级数、ζ 级数联系起来，具体展示了解析数论中的基本论证。"
+    },
+    {
+      "title": "国际认同陈景润的证明吗？",
+      "url": "https://www.zhihu.com/answer/16200619171",
+      "summary": "正文说明陈景润以解析数论方法研究哥德巴赫猜想，并解释加权筛法中的余项估计与转换原理。"
+    },
+    {
+      "title": "2024 年，数学领域都有哪些令人激动的新进展与重要发现？",
+      "url": "https://www.zhihu.com/answer/66459027393",
+      "summary": "正文介绍借助Gowers范数研究素数分布与计数的新结果，属于解析数论方法。"
+    },
+    {
+      "title": "2024你的数学研究和学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/67688840327",
+      "summary": "正文展开解析数论中的Dispersion方法、Kloosterman和及最小二次非剩余估计。"
+    },
+    {
+      "title": "在下22岁打算毕生献身于攻克黎曼猜想，可以给我一句忠告吗？",
+      "url": "https://www.zhihu.com/answer/72447277141",
+      "summary": "正文具体说明黎曼通过素数计数函数与 ζ 函数研究素数分布。"
+    },
+    {
+      "title": "为什么要研究平展上同调？平展上同调有哪些应用？",
+      "url": "https://www.zhihu.com/answer/73238154502",
+      "summary": "正文由拉马努金 tau 函数的生成级数、乘性递推和系数估计解释解析数论中的猜想。"
+    },
+    {
+      "title": "如何看待论文“1, ζ(2), L(2, χ_{−3})线性无关”?",
+      "url": "https://www.zhihu.com/answer/76615929449",
+      "summary": "正文围绕 ζ 值与 Dirichlet L 值的无理性、线性无关性介绍一项数论证明进展。"
+    },
+    {
+      "title": "如何看待论文“1, ζ(2), L(2, χ_{−3})线性无关”?",
+      "url": "https://www.zhihu.com/answer/77031821785",
+      "summary": "正文围绕 Dirichlet L 函数及其特殊值展开，介绍相关无理性与线性无关性的解析数论进展。"
+    },
+    {
+      "title": "你读过最冷门，但「含金量极高」的书是什么？",
+      "url": "https://www.zhihu.com/answer/98428001264",
+      "summary": "正文把该书视为解析数论的入门窗口，并概述素数定理证明涉及的数论工具。"
+    },
+    {
+      "title": "如何看待王虹和 Joshua Zahl 在 arXiv 发布对三维挂谷（Kakeya）猜想的证明？",
+      "url": "https://www.zhihu.com/answer/115989961013",
+      "summary": "正文用Dirichlet级数、L函数零点密度和Montgomery大值猜想说明挂谷问题的解析数论意义。"
+    },
+    {
+      "title": "为什么这个级数会如此接近整数?",
+      "url": "https://www.zhihu.com/answer/117711979726",
+      "summary": "正文引用拉马努金关于奇数点 ζ 值的公式，并借助伯努利数把目标无穷级数化为快速衰减的尾项。"
+    },
+    {
+      "title": "在数论中，是否存在一个完全由素数构成的无限长等差数列？",
+      "url": "https://www.zhihu.com/answer/119385998766",
+      "summary": "正文利用素数定理给出 π(x) 的渐近阶，并与假设中的线性增长相矛盾。"
+    },
+    {
+      "title": "怎么证ln lcm(1,…,n)   -n≤sqrt(n)？",
+      "url": "https://www.zhihu.com/answer/1890120861849194848",
+      "summary": "正文定义 von Mangoldt 函数与切比雪夫函数，并推导最小公倍数对数与切比雪夫函数相等的解析数论恒等式。"
+    },
+    {
+      "title": "朗兰兹纲领对现代数学有何影响？",
+      "url": "https://www.zhihu.com/answer/1890914422777702115",
+      "summary": "正文详细构造 Artin-Hecke L 级数和局部因子，并讨论其亚纯延拓与函数方程。"
+    },
+    {
+      "title": "黎曼猜想为什么难以解决？",
+      "url": "https://www.zhihu.com/answer/1891502621505872364",
+      "summary": "正文围绕素数分布估计、误差项和有限域类比讨论黎曼猜想，属于解析数论的核心主题。"
+    },
+    {
+      "title": "已知调和级数前n项和减去lnn为欧拉常数，那么质数倒数前n项和减去lnlnn是不是也是常数?",
+      "url": "https://www.zhihu.com/answer/1921559531193860542",
+      "summary": "正文用素数定理和积分估算素数倒数和，说明其增长阶为 ln(ln x) 并引出 Meissel-Mertens 常数。"
+    },
+    {
+      "title": "Σᵢ₌₁ᵏ⌊k/i⌋有没有封闭形式？",
+      "url": "https://www.zhihu.com/answer/1929186651218896767",
+      "summary": "正文用除数函数求和、狄利克雷误差项和指数上界讨论该下取整和式，属于解析数论方法。"
+    },
+    {
+      "title": "黎曼猜想为什么难以解决？",
+      "url": "https://www.zhihu.com/answer/1930405760799576266",
+      "summary": "正文以复分析工具证明素数定理为主线，说明 ζ 函数零点与素数分布之间的联系。"
+    },
+    {
+      "title": "国际认同陈景润的证明吗？",
+      "url": "https://www.zhihu.com/answer/1932382914361923356",
+      "summary": "正文系统讲解圆法、指数和估计与筛法如何分析素数加性结构，属于解析数论的方法框架。"
+    },
+    {
+      "title": "数论问题困难性的根源是什么？",
+      "url": "https://www.zhihu.com/answer/1933128964911654627",
+      "summary": "正文说明解析数论把离散数列编码为连续函数，再借助微积分与复分析工具研究数论问题。"
+    },
+    {
+      "title": "黎曼猜想目前有哪些弱一些的结果？",
+      "url": "https://www.zhihu.com/answer/1933577388152844505",
+      "summary": "正文梳理 Lindelöf 界的改进史，并用解析数论工具讨论素间隔上界和渐近关系。"
+    },
+    {
+      "title": "黎曼猜想目前有哪些弱一些的结果？",
+      "url": "https://www.zhihu.com/answer/1934295529556259468",
+      "summary": "正文用狄利克雷多项式、移位矩和 Kloosterman 和讲解解析数论中的零点估计方法。"
+    },
+    {
+      "title": "目前数学各方向最前沿都在研究什么问题？",
+      "url": "https://www.zhihu.com/answer/1936568947051836563",
+      "summary": "正文以素数间隙、筛法与素数定理为核心，综述解析数论中的前沿方法与结果。"
+    },
+    {
+      "title": "请问中国剩余定理（孙子定理）有什么用途，又有什么直观的意义吗？",
+      "url": "https://www.zhihu.com/answer/1938355934440190922",
+      "summary": "正文从素数定理的密度估计出发，讨论Cramér随机模型、素数间隙及概率数论方法。"
+    },
+    {
+      "title": "基础数学中哪个领域最考验智商？",
+      "url": "https://www.zhihu.com/answer/1942289421169844992",
+      "summary": "正文以计算技巧、积分求和和分析学功底概括解析数论证明的方法门槛，并对该方向作实质说明。"
+    },
+    {
+      "title": "如何证明所有质数倒数之和发散?",
+      "url": "https://www.zhihu.com/answer/1951731226869228764",
+      "summary": "正文使用欧拉乘积、调和级数对数展开和部分和渐近式处理素数，属于解析数论的典型方法。"
+    },
+    {
+      "title": "有哪些时刻，让你觉得数学很美？",
+      "url": "https://www.zhihu.com/answer/1952738129451677041",
+      "summary": "正文用筛法上界、解析估计和素数分布模型解释素数间距研究，属于解析数论方法的实质展开。"
+    },
+    {
+      "title": "关于质数的一个猜想，n趋向正无穷时，（p1×p2×...×pn）^(1/pn)的极限存在吗？",
+      "url": "https://www.zhihu.com/answer/1952877807668541281",
+      "summary": "正文引用 primorial 的经典渐近式，并联系 Chebyshev 函数估计说明素数乘积的增长。"
+    },
+    {
+      "title": "黎曼猜想为什么难以解决？",
+      "url": "https://www.zhihu.com/answer/1952892319490639676",
+      "summary": "正文通过 ζ 函数零点和复积分推导素数计数函数，属于解析数论的核心论证。"
+    },
+    {
+      "title": "数论的theta函数是怎么构造出来的？",
+      "url": "https://www.zhihu.com/answer/1955110796972499614",
+      "summary": "正文从 Jacobi theta 函数的反演变换推导 ψ 的模变换，并进一步得到 ζ 函数的解析数论关系。"
+    },
+    {
+      "title": "数学上最绝妙的证明是什么?",
+      "url": "https://www.zhihu.com/answer/1957037733760436042",
+      "summary": "正文通过素数定理给出素数计数函数的渐近公式，并说明解析数论如何研究素数分布。"
+    },
+    {
+      "title": "如何看待张益唐教授在2025年11月在公开场合确认朗道西格尔猜想被攻破？",
+      "url": "https://www.zhihu.com/answer/1969983268502864508",
+      "summary": "正文说明朗道西格尔零点条件与黎曼猜想、解析数论及相关数论结论之间的依赖关系。"
+    },
+    {
+      "title": "正弦函数倍角公式、勒让德倍乘公式、伯努利倍元公式，为何它们长得如此相像，这是否意味着有某种底层联系？",
+      "url": "https://www.zhihu.com/answer/1978124712610637012",
+      "summary": "正文以格点 ζ 求和、解析延拓和模 n 分组为统一框架，推导 Hurwitz ζ 等解析对象的倍乘关系。"
+    },
+    {
+      "title": "怎样算出黎曼猜想的第1个非平凡零点？",
+      "url": "https://www.zhihu.com/answer/1983504849564894638",
+      "summary": "正文以鞍点法、渐近展开和余项估计研究 Zeta 函数在带状区域内的解析性质。"
+    },
+    {
+      "title": "2025年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/1989020733054161279",
+      "summary": "正文以 Dirichlet 特征、特征和估计及 Fourier 方法说明解析数论中的经典问题与改进思路。"
+    },
+    {
+      "title": "感觉复变函数没有动力深入研究下去了怎么办？",
+      "url": "https://www.zhihu.com/answer/1996639663507645502",
+      "summary": "正文把复分析作为解析数论的核心工具，说明解析延拓、围道积分和函数方程如何研究素数分布。"
+    },
+    {
+      "title": "农历马年到了，有哪些和「马」有关的数学问题？",
+      "url": "https://www.zhihu.com/answer/2009778890948747361",
+      "summary": "正文用圆法、模形式、半整数权形式和 Hecke 算子梳理分割问题的解析数论发展。"
+    },
+    {
+      "title": "数学中，「代数」和「分析」的方法分别是什么？有什么不同？",
+      "url": "https://www.zhihu.com/answer/2028602986054558333",
+      "summary": "正文说明黎曼用围道积分和渐近展开研究复变函数零点，从而把素数计数转化为解析数论问题。"
+    },
+    {
+      "title": "如何看待论文“1, ζ(2), L(2, χ_{−3})线性无关”?",
+      "url": "https://www.zhihu.com/answer/2034720550946346847",
+      "summary": "正文讨论 ζ(2)、L(2,χ) 与 p 进 zeta 值的无理性，并以经典和 p 进周期及其关系解释解析数论中的线性无关结果。"
+    },
+    {
+      "title": "拉马努金是怎么发现那些壮观的公式的？",
+      "url": "https://www.zhihu.com/answer/2041877076106536509",
+      "summary": "正文具体讨论模形式、q 级数、L 函数的 Euler 乘积、系数增长和自守表示，属于解析数论内容。"
+    },
+    {
+      "title": "为什么哥德巴赫猜想难以用传统方法证明？",
+      "url": "https://www.zhihu.com/answer/2044821371503563026",
+      "summary": "正文具体讲解筛法、奇偶性障碍、圆法的优弧与劣弧思路，以及素数分布误差项。"
+    },
+    {
+      "title": "黎曼猜想为什么难以解决？",
+      "url": "https://www.zhihu.com/answer/2048802364035950416",
+      "summary": "正文以无零区域、零点密度和零点比例等工具展示解析数论对素数分布的研究方法。"
+    },
+    {
+      "title": "（sinln1+sinln2+...+sinlnn）/n极限存在吗?",
+      "url": "https://www.zhihu.com/answer/2048873579857630866",
+      "summary": "正文使用 Euler–Maclaurin 渐近、Dirichlet 级数、Perron 反演和 Hurwitz zeta 进行解析数论分析。"
+    },
+    {
+      "title": "数学中有哪些有趣的构造性证明？",
+      "url": "https://www.zhihu.com/answer/2054463726099624172",
+      "summary": "正文把 Apéry 序列的来源联系到丢番图逼近与超几何级数，属于解析数论中的无理性方法。"
+    },
+    {
+      "title": "邓煜、王虹两位青年数学家获得 2026 年菲尔兹奖，如何理解他们获奖的意义和价值？",
+      "url": "https://www.zhihu.com/answer/2063737858645554140",
+      "summary": "正文具体提到解析数论框架下数域类群挠元定量估计和算术统计方面的贡献。"
+    },
+    {
+      "title": "邓煜、王虹两位青年数学家获得 2026 年菲尔兹奖，如何理解他们获奖的意义和价值？",
+      "url": "https://www.zhihu.com/answer/2063876279464727955",
+      "summary": "正文把环面上的薛定谔解写成指数和，并说明其与 Vinogradov 均值猜想的解析数论联系。"
+    },
+    {
+      "title": "知友发现 2026 菲尔兹奖名单泄露，王虹、邓煜疑似双双获奖，如何看待这一信息？",
+      "url": "https://www.zhihu.com/answer/2063877218430870507",
+      "summary": "正文把环面上的薛定谔解写成指数和，并说明其与 Vinogradov 均值猜想的解析数论联系。"
+    },
+    {
+      "title": "王虹、邓煜获「菲尔兹奖」，这是中国籍数学家首次获得该奖，获得这个奖有多难？他们攻克了什么数学难题？",
+      "url": "https://www.zhihu.com/answer/2063881339825394412",
+      "summary": "正文把环面上的薛定谔解写成指数和，并说明其与 Vinogradov 均值猜想的解析数论联系。"
+    },
+    {
+      "title": "陈景润当年证明哥德巴赫猜想中的“1+2”，这一成果是否达到了菲尔兹奖的水平？",
+      "url": "https://www.zhihu.com/answer/2064632637696873350",
+      "summary": "正文具体讲解陈景润如何以加权筛法和误差项估计推进解析数论中的素数问题。"
+    },
+    {
+      "title": "中国离菲尔兹奖还有多远？",
+      "url": "https://www.zhihu.com/answer/2065950869124806260",
+      "summary": "正文具体说明解析数论中筛法的机制、奇偶性局限，以及 GPY 和后续有界素数间距研究的方法脉络。"
+    },
+    {
+      "title": "如何评价 Anthropic 宣布将黎曼猜想的已知下界从 41.6% 提高到了 67.2%？",
+      "url": "https://www.zhihu.com/answer/2070388337890931893",
+      "summary": "正文把素数侧均值估计、零点关联和前沿论文置于解析数论研究脉络中，说明相应分析方法如何推进猜想。"
+    },
+    {
+      "title": "如何评价 Anthropic 宣布将黎曼猜想的已知下界从 41.6% 提高到了 67.2%？",
+      "url": "https://www.zhihu.com/answer/2070452326175969352",
+      "summary": "正文说明所得矩阵优化受素数均值定理等解析数论边界约束，并把新框架置于相关数论结果中。"
+    },
+    {
+      "title": "如何评价 Anthropic 宣布将黎曼猜想的已知下界从 41.6% 提高到了 67.2%？",
+      "url": "https://www.zhihu.com/answer/2070519089978667242",
+      "summary": "正文具体说明该结果把配对相关理论与 Weil 显式公式用于控制零点分布，属于解析数论方法。"
+    },
+    {
+      "title": "Claude证明黎曼猜想取得了重大突破，这个事件有什么开创性意义？",
+      "url": "https://www.zhihu.com/answer/2070672039006975164",
+      "summary": "正文比较零点密度结果及 Montgomery 方法在附加假设下取得的进展，属于解析数论内容。"
+    },
+    {
+      "title": "菲尔兹奖得主谈「人工智能可能会杀死数学」，您如何看待这个问题？",
+      "url": "https://www.zhihu.com/answer/2073124822138341002",
+      "summary": "正文以奇数 zeta 值的代数无关性、zeta(3) 的无理性及欧拉常数的有理性问题说明解析数论中难点极高的开放问题。"
+    },
+    {
+      "title": "质（素）数的孤独——关于孪生素数猜想",
+      "url": "https://zhuanlan.zhihu.com/p/19685591",
+      "summary": "正文使用 GPY 方法、算术级数中的素数分布水平和 Bombieri-Vinogradov 定理解释素数间隔突破的解析数论机制。"
+    },
+    {
+      "title": "堆垒素数论之旅（1）：奇数哥德巴赫猜想",
+      "url": "https://zhuanlan.zhihu.com/p/19702886",
+      "summary": "正文具体展开阶的估计、主区间与余区间积分以及 Vinogradov 非平凡上界，解释 Hardy-Littlewood 圆法如何处理三素数定理。"
+    },
+    {
+      "title": "素数间的大间隔(Large gaps between primes)",
+      "url": "https://zhuanlan.zhihu.com/p/20046958",
+      "summary": "正文从素数定理和 log X 阶估计出发讨论相邻素数间隔下界，属于解析数论的方法。"
+    },
+    {
+      "title": "《歌德巴赫猜想》——重温38年前激动亿万国人的经典",
+      "url": "https://zhuanlan.zhihu.com/p/20622296",
+      "summary": "正文以解析数论论文、筛法和(1+2)陈氏定理为中心介绍哥德巴赫问题的研究路线。"
+    },
+    {
+      "title": "Sarnak的Möbius Disjointness猜想",
+      "url": "https://zhuanlan.zhihu.com/p/22974087",
+      "summary": "正文从Möbius函数的素因子定义、素数定理等价式和随机抵消讨论解析数论中的关联。"
+    },
+    {
+      "title": "从巴塞尔问题到黎曼\\zeta函数（完结篇）：黎曼猜想：黎曼的开拓与他留给后人的挑战",
+      "url": "https://zhuanlan.zhihu.com/p/24169303",
+      "summary": "正文用复分析、傅里叶反演和 ζ 零点推导素数计数的解析式，系统展开解析数论方法。"
+    },
+    {
+      "title": "代数数论：总集篇",
+      "url": "https://zhuanlan.zhihu.com/p/24312945",
+      "summary": "正文用 Dirichlet 级数、ζ 函数和留数估计讨论素数分布与类数，属于解析数论。"
+    },
+    {
+      "title": "迹公式 Trace Formula (2)",
+      "url": "https://zhuanlan.zhihu.com/p/24700620",
+      "summary": "正文展开 GL(2) 迹公式、Hecke 算子和 Petersson 迹公式，说明解析数论中的迹公式应用。"
+    },
+    {
+      "title": "从解方程(组)到Vinogradov均值定理",
+      "url": "https://zhuanlan.zhihu.com/p/24514358",
+      "summary": "正文以 Hardy-Littlewood 圆法积分表示解数，证明 Vinogradov 均值定理上下界并联系华林问题。"
+    },
+    {
+      "title": "代数数论(十四):素数、测地线、扭结",
+      "url": "https://zhuanlan.zhihu.com/p/24912510",
+      "summary": "正文解释素数定理、素测地线定理及二者范数分布的同型渐近结果。"
+    },
+    {
+      "title": "数学中的几个概率启发式“证明”",
+      "url": "https://zhuanlan.zhihu.com/p/25036510",
+      "summary": "正文用素数密度、阶乘素因子分解和渐近积分启发式推导素数定理，并讨论随机素数模型。"
+    },
+    {
+      "title": "黎曼猜想，及其解释（上）",
+      "url": "https://zhuanlan.zhihu.com/p/25055731",
+      "summary": "正文以整体分布与解析方法研究素数，实质进入解析数论的主题。"
+    },
+    {
+      "title": "黎曼猜想，及其解释（下）",
+      "url": "https://zhuanlan.zhihu.com/p/25222934",
+      "summary": "正文用零点、显式公式和积分分析素数分布，属于解析数论的核心内容。"
+    },
+    {
+      "title": "代数数论(一):解方程",
+      "url": "https://zhuanlan.zhihu.com/p/27181671",
+      "summary": "正文以 Dirichlet 级数、L 函数和特征正交关系为解析工具，讨论素数分布、密度定理与类数公式。"
+    },
+    {
+      "title": "从巴塞尔问题到黎曼\\zeta函数",
+      "url": "https://zhuanlan.zhihu.com/p/27342701",
+      "summary": "正文以复分析、积分、留数与级数研究素数和 ζ 函数，属于解析数论的核心方法。"
+    },
+    {
+      "title": "5-6月学习小结",
+      "url": "https://zhuanlan.zhihu.com/p/27450247",
+      "summary": "正文用阿贝尔分部求和、Chebyshev 估计、Mertens 定理及多种筛法展开素数分布的渐近分析。"
+    },
+    {
+      "title": "数学各个研究方向简介",
+      "url": "https://zhuanlan.zhihu.com/p/32950646",
+      "summary": "正文具体介绍解析数论以数学分析为工具，并列举欧拉、三角和方法及陈景润研究等实例。"
+    },
+    {
+      "title": "关于一种积性函数前缀和的通用筛法的时间复杂度证明",
+      "url": "https://zhuanlan.zhihu.com/p/33544708",
+      "summary": "正文用素数计数估计、素数平方倒数和、Stieltjes 积分及 Dickman 函数分析积性函数前缀和筛法的渐近时间复杂度。"
+    },
+    {
+      "title": "为什么全体自然数的和是负十二分之一？",
+      "url": "https://zhuanlan.zhihu.com/p/35397224",
+      "summary": "正文以 ζ 函数的解析延拓、函数方程和特殊值计算为核心，属于解析数论内容。"
+    },
+    {
+      "title": "Riemann Zeta 函数（二）",
+      "url": "https://zhuanlan.zhihu.com/p/36694850",
+      "summary": "正文使用解析延拓、Euler 乘积和复对数等解析数论工具，证明 ζ 函数在临界线附近的性质。"
+    },
+    {
+      "title": "初等数论学习笔记（六）（终）",
+      "url": "https://zhuanlan.zhihu.com/p/42084776",
+      "summary": "正文引入解析数论的核心对象黎曼 ζ 函数与欧拉乘积，并用分析工具证明数论结果。"
+    },
+    {
+      "title": "黎曼Zeta函数~静待花开",
+      "url": "https://zhuanlan.zhihu.com/p/45058224",
+      "summary": "正文从素数分布出发证明素数倒数级数发散，并以 Euler 乘积连接 zeta 函数和素数。"
+    },
+    {
+      "title": "黎曼假设说的是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/45078785",
+      "summary": "正文说明 zeta 函数零点与素数计数、素数定理及素数渐近分布之间的联系，属于解析数论核心内容。"
+    },
+    {
+      "title": "黎曼猜想跟素数分布有怎样的联系",
+      "url": "https://zhuanlan.zhihu.com/p/45240901",
+      "summary": "正文通过零点显式公式、对数积分和误差界说明解析数论如何从零点位置估计素数分布。"
+    },
+    {
+      "title": "【直观详解】通俗易懂了解什么是黎曼猜想",
+      "url": "https://zhuanlan.zhihu.com/p/45886528",
+      "summary": "正文通过欧拉乘积和素数定理说明 ζ 函数在素数研究中的作用。"
+    },
+    {
+      "title": "理解黎曼猜想（二）两个自然数互质的概率是多少？ | 袁岚峰",
+      "url": "https://zhuanlan.zhihu.com/p/47978393",
+      "summary": "正文以欧拉乘积联系ζ函数和质数，并用互质概率说明解析方法可推出素数分布性质。"
+    },
+    {
+      "title": "理解黎曼猜想（四）得救之道，就在其中 | 袁岚峰",
+      "url": "https://zhuanlan.zhihu.com/p/49454034",
+      "summary": "正文以黎曼ζ函数及其非平凡零点解释素数计数与质数分布，属于解析数论方法。"
+    },
+    {
+      "title": "素数与Big O",
+      "url": "https://zhuanlan.zhihu.com/p/54874378",
+      "summary": "文章使用曼戈尔特函数、阿贝尔引理、Big O 和积分估计推导切比雪夫定理，实质展开了解析数论方法。"
+    },
+    {
+      "title": "Dirichlet 定理",
+      "url": "https://zhuanlan.zhihu.com/p/57379991",
+      "summary": "正文证明互素等差数列含无穷多素数，并运用 Dirichlet 特征、L 函数、欧拉乘积和解析估计展开证明。"
+    },
+    {
+      "title": "素数定理",
+      "url": "https://zhuanlan.zhihu.com/p/57792861",
+      "summary": "正文围绕素数计数函数构造解析证明，使用Euler恒等式、Riemann ζ函数和复积分完成素数定理证明。"
+    },
+    {
+      "title": "欧拉乘积公式及证明",
+      "url": "https://zhuanlan.zhihu.com/p/58832513",
+      "summary": "正文用筛法逐项消去合数倍数，将 ζ 级数化为对所有素数取积的欧拉乘积，属于解析数论的基本方法。"
+    },
+    {
+      "title": "复变函数学习笔记(5)——证素数定理",
+      "url": "https://zhuanlan.zhihu.com/p/61610590",
+      "summary": "正文以切比雪夫函数和复分析估计为工具逐步证明素数定理，属于解析数论的核心方法。"
+    },
+    {
+      "title": "复变函数学习笔记(9)——Riemann-zeta函数",
+      "url": "https://zhuanlan.zhihu.com/p/64549834",
+      "summary": "正文用 Dirichlet 级数、Möbius 函数和复分析估计研究 ζ 函数，属于解析数论的核心方法。"
+    },
+    {
+      "title": "新证明解决了如何求无理数的近似值",
+      "url": "https://zhuanlan.zhihu.com/p/78636778",
+      "summary": "正文系统讲解 Duffin-Schaeffer 猜想、分母筛选、欧拉函数和测度和，属于 metric Diophantine approximation 这一数论方向。"
+    },
+    {
+      "title": "Keep-Kill-Divide（上篇）",
+      "url": "https://zhuanlan.zhihu.com/p/78648304",
+      "summary": "正文用完全积性函数、算术基本定理和欧拉乘积把级数与 zeta 函数及素数结构联系起来。"
+    },
+    {
+      "title": "1. 陈景润到底是怎么证明“1+2”的？",
+      "url": "https://zhuanlan.zhihu.com/p/81159132",
+      "summary": "正文介绍解析数论中的圆法、指数和、筛法及相关估计结果，并说明这些工具如何用于质数加法问题。"
+    },
+    {
+      "title": "从四川县城学霸到麻省理工教授 | 专访“数论大神”张伟",
+      "url": "https://zhuanlan.zhihu.com/p/82300776",
+      "summary": "正文梳理黎曼、韦伊、格罗登迪克等人用解析理论与相关工具研究素数和 zeta 函数的数论发展脉络。"
+    },
+    {
+      "title": "zeta函数的奇数值(一）",
+      "url": "https://zhuanlan.zhihu.com/p/83406898",
+      "summary": "正文系统介绍瑞沃尔处理 ζ(2) 与 ζ(3) 无理性问题的积分和渐近估计方法，属于解析数论内容。"
+    },
+    {
+      "title": "一道习题：证明素数定理",
+      "url": "https://zhuanlan.zhihu.com/p/85293383",
+      "summary": "正文借助 ζ 函数、素数计数函数和解析方法证明素数定理。"
+    },
+    {
+      "title": "素数之美",
+      "url": "https://zhuanlan.zhihu.com/p/104797757",
+      "summary": "正文讨论素数定理、素数与孪生素数的分布估计以及素数倒数和，属于解析数论主题。"
+    },
+    {
+      "title": "素数定理的介绍+非常简单的推导",
+      "url": "https://zhuanlan.zhihu.com/p/114662915",
+      "summary": "正文以素数计数函数、对数积分和分布密度讨论解析数论中的素数定理。"
+    },
+    {
+      "title": "音乐和数论(II)：格点和黎曼ζ函数",
+      "url": "https://zhuanlan.zhihu.com/p/132503419",
+      "summary": "正文通过质因数分解、von Mangoldt函数和素数幂构成的格点，研究平均律与纯律的逼近，属于解析数论方法。"
+    },
+    {
+      "title": "度量丢番图逼近1: 从Khintchine到Duffin-Schaeffer",
+      "url": "https://zhuanlan.zhihu.com/p/136552414",
+      "summary": "正文系统讲述度量丢番图逼近中的 Khintchine 与 Duffin-Schaeffer 定理及其研究进展，属于解析数论。"
+    },
+    {
+      "title": "数学分析的艺术——Zeta函数的洛朗展开式与斯蒂尔吉斯（Stieltjes）常数",
+      "url": "https://zhuanlan.zhihu.com/p/136328750",
+      "summary": "正文借助 eta 函数解析延拓 zeta 函数，并具体讨论其单极点、洛朗展开和柯西主值。"
+    },
+    {
+      "title": "素数间的有界距离（证明）",
+      "url": "https://zhuanlan.zhihu.com/p/143254023",
+      "summary": "正文具体介绍筛法、素数间隔、等差数列中的素数分布及其奇偶性障碍，说明张益唐对解析数论方法的改进。"
+    },
+    {
+      "title": "读懂黎曼猜想（1）——莫比乌斯反演",
+      "url": "https://zhuanlan.zhihu.com/p/151302308",
+      "summary": "正文用莫比乌斯反演改写曼戈尔特函数，并说明可借助对数的分析性质研究数论。"
+    },
+    {
+      "title": "读懂黎曼猜想（2）——Mellin变换、素数计数函数、与欧拉乘积",
+      "url": "https://zhuanlan.zhihu.com/p/151753864",
+      "summary": "正文使用梅林变换和复分析中的积分表示研究素数计数函数，展示了典型的解析数论方法。"
+    },
+    {
+      "title": "读懂黎曼猜想（3）——平凡零点、非平凡零点与黎曼猜想",
+      "url": "https://zhuanlan.zhihu.com/p/159602913",
+      "summary": "正文以解析延拓、函数方程和零点分布研究 Zeta 函数的数论性质，属于解析数论的核心对象。"
+    },
+    {
+      "title": "陶哲轩「他的证明比我强」，这个天才青年解决了最简单的数学难题",
+      "url": "https://zhuanlan.zhihu.com/p/166101238",
+      "summary": "正文说明Duffin-Schaeffer猜想属于度量丢番图逼近，并给出用有理数逼近实数的级数判据，属于解析数论。"
+    },
+    {
+      "title": "当数论遇上分析——拉马努金和与欧拉函数的故事",
+      "url": "https://zhuanlan.zhihu.com/p/166530236",
+      "summary": "正文利用 Dirichlet 级数的乘积性质推导欧拉函数的 Dirichlet 级数与 zeta 函数之间的关系。"
+    },
+    {
+      "title": "复变函数学习笔记(番外)：素数定理",
+      "url": "https://zhuanlan.zhihu.com/p/184999477",
+      "summary": "正文用 Chebyshev 函数、复积分、留数和渐进估计建立素数定理，属于解析数论。"
+    },
+    {
+      "title": "你绝对从未见过的有关 Dirichlet beta 函数的一堆可爱级数【附解析延拓】",
+      "url": "https://zhuanlan.zhihu.com/p/189767674",
+      "summary": "正文推导 Dirichlet beta 函数的积分表示、解析延拓和函数方程，属于解析数论中的 Dirichlet L 函数主题。"
+    },
+    {
+      "title": "Poisson 求和公式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/194350105",
+      "summary": "正文通过 Theta 函数方程完成 Riemann Zeta 函数的解析延拓，并进一步计算其在整点处的取值。"
+    },
+    {
+      "title": "当数论遇上分析（2）——向下取整与渐近展开",
+      "url": "https://zhuanlan.zhihu.com/p/222714937",
+      "summary": "正文用取整函数积分推导求和与渐近展开，并据此研究调和数、Hurwitz zeta 和除数函数和的解析数论问题。"
+    },
+    {
+      "title": "读懂黎曼猜想（4）——素数定理",
+      "url": "https://zhuanlan.zhihu.com/p/245863421",
+      "summary": "正文以数论函数的和函数为分析入口，并用切比雪夫函数与 zeta 积分推导素数定理，属于解析数论的方法展开。"
+    },
+    {
+      "title": "等差数列里的Dirichlet定理",
+      "url": "https://zhuanlan.zhihu.com/p/258779664",
+      "summary": "正文以 Dirichlet L-函数、特征和解析延拓为主要工具证明等差数列中存在无穷多素数，属于解析数论。"
+    },
+    {
+      "title": "正整数的分拆(入门介绍)",
+      "url": "https://zhuanlan.zhihu.com/p/266867161",
+      "summary": "正文介绍 Hardy-Ramanujan 的分拆渐近公式，并指出圆法是解析数论的基本工具。"
+    },
+    {
+      "title": "Jacobi三重积与欧拉五边形数定理",
+      "url": "https://zhuanlan.zhihu.com/p/267105469",
+      "summary": "正文以Laurent展开和无穷乘积变换完整证明Jacobi三重积，并推出欧拉五边形数定理，属于解析数论中的q级数恒等式。"
+    },
+    {
+      "title": "当数论遇上分析（3）——数论函数的加权平均、切比雪夫定理以及埃氏筛",
+      "url": "https://zhuanlan.zhihu.com/p/272483362",
+      "summary": "正文用数论函数的加权平均与陶伯型定理推导素数分布界的解析数论结论。"
+    },
+    {
+      "title": "当数论遇上分析（5）——Dirichlet定理",
+      "url": "https://zhuanlan.zhihu.com/p/296275397",
+      "summary": "正文使用 Dirichlet 特征、Mangoldt 函数、Möbius 反演和 Dirichlet L 函数证明算术级数中的素数定理。"
+    },
+    {
+      "title": "读懂黎曼猜想（5）——精确公式和素数计数函数的渐近展开",
+      "url": "https://zhuanlan.zhihu.com/p/336672384",
+      "summary": "正文运用复围道积分、zeta 函数对数导数和精确公式研究素数计数渐近问题，属于解析数论方法。"
+    },
+    {
+      "title": "当数论遇上分析（6）——Mertens定理与素数定理",
+      "url": "https://zhuanlan.zhihu.com/p/338578631",
+      "summary": "正文用积分、渐近估计、调和数与 zeta 函数欧拉乘积研究素数倒数和及素数计数函数，属于解析数论。"
+    },
+    {
+      "title": "一文搞懂黎曼假设，解析数论的里程碑，质数理论的珠穆朗玛",
+      "url": "https://zhuanlan.zhihu.com/p/349349332",
+      "summary": "正文以ζ函数、欧拉乘积和素数计数函数研究素数分布，并用解析方法讨论素数定理。"
+    },
+    {
+      "title": "读懂黎曼猜想（6）——非平凡零点的分布",
+      "url": "https://zhuanlan.zhihu.com/p/163513405",
+      "summary": "正文用幅角原理、Stirling 公式和零点分布估计推导 Riemann-von Mangoldt 公式。"
+    },
+    {
+      "title": "Vinogradov 三素数定理 (1): 圆法的基本思路",
+      "url": "https://zhuanlan.zhihu.com/p/360370648",
+      "summary": "正文用圆法、主区间与余区间、算术级数素数定理和三角和估计组织三素数定理证明，属于解析数论。"
+    },
+    {
+      "title": "当数论遇上分析（8）——素数定理的初等证明",
+      "url": "https://zhuanlan.zhihu.com/p/360922451",
+      "summary": "正文以von Mangoldt函数和Selberg公式的变形为核心，给出素数定理的解析数论证明。"
+    },
+    {
+      "title": "抽屉原理的妙用——Dirichlet逼近定理和Zeta函数的零点间距",
+      "url": "https://zhuanlan.zhihu.com/p/367101494",
+      "summary": "正文用解析工具估计 Zeta 函数零点计数并推导临界区域内的上界，属于解析数论内容。"
+    },
+    {
+      "title": "筛法（1）——抽象形式与常用形式",
+      "url": "https://zhuanlan.zhihu.com/p/381786559",
+      "summary": "正文从素数计数推广到一般筛法，并把抽象筛法落到解析数论中的连续区间与素数分布问题。"
+    },
+    {
+      "title": "狄利克雷卷积和莫比乌斯反演",
+      "url": "https://zhuanlan.zhihu.com/p/390895860",
+      "summary": "正文以数论函数和莫比乌斯反演为例，说明狄利克雷卷积在解析数论中的核心作用。"
+    },
+    {
+      "title": "读懂黎曼猜想（11【完结篇】）——等差数列素数定理的余项（Siegel-Walfisz定理）",
+      "url": "https://zhuanlan.zhihu.com/p/412127981",
+      "summary": "正文以 L 函数零点区域和特征和估计推导 Siegel-Walfisz 定理，属于解析数论方法。"
+    },
+    {
+      "title": "通过神秘的“魔群月光猜想”，探究数论、代数和弦理论之间不可思议的联系",
+      "url": "https://zhuanlan.zhihu.com/p/425870024",
+      "summary": "正文解释J函数的模函数性质、傅里叶展开系数及其与魔群阶数的月光猜想联系。"
+    },
+    {
+      "title": "从素数到微分方程——离散与连续的究极缝合",
+      "url": "https://zhuanlan.zhihu.com/p/444225847",
+      "summary": "正文研究光滑数的计数与素数倒数和，并引用 Chebyshev 估计和 Mertens 定理推导渐近公式。"
+    },
+    {
+      "title": "用最简单的方式解释黎曼猜想（二），黎曼ζ函数，素数之门的金钥匙",
+      "url": "https://zhuanlan.zhihu.com/p/448772977",
+      "summary": "正文用 ζ 函数、对数积分 Li(N) 和素数计数函数解释素数频率，具体呈现解析数论的核心方法。"
+    },
+    {
+      "title": "哥德巴赫猜想（1）——基本方法",
+      "url": "https://zhuanlan.zhihu.com/p/451430339",
+      "summary": "正文用 Dirichlet 级数、幂级数和复积分介绍圆法，说明其解决奇数哥德巴赫猜想。"
+    },
+    {
+      "title": "哥德巴赫猜想（10）——陈景润定理的完整证明",
+      "url": "https://zhuanlan.zhihu.com/p/468288793",
+      "summary": "正文使用Selberg筛法、特征和、均值定理与大筛法完成解析数论中的定量估计和最终证明。"
+    },
+    {
+      "title": "基于Riemann-Lebesgue引理的素数定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/467818650",
+      "summary": "正文完整组织素数定理证明，包括切比雪夫函数、等价命题、解析表达式和最终极限论证。"
+    },
+    {
+      "title": "关于 SL(2, Z) 的模形式",
+      "url": "https://zhuanlan.zhihu.com/p/506841837",
+      "summary": "正文推导 Ramanujan tau 函数的 Fourier 系数及模素数的同余和增长性质，属于解析数论与算术函数内容。"
+    },
+    {
+      "title": "π(n)|素数计数函数",
+      "url": "https://zhuanlan.zhihu.com/p/509771255",
+      "summary": "正文在切比雪夫估计后引出素数定理，并讨论其渐近阶与带余项形式。"
+    },
+    {
+      "title": "哥德巴赫猜想（11）——几乎所有偶数都是两个素数的和",
+      "url": "https://zhuanlan.zhihu.com/p/528020034",
+      "summary": "正文以素变和、优弧与劣弧估计、奇异级数和方差方法证明偶数哥德巴赫表示数的渐近结果。"
+    },
+    {
+      "title": "素数间距问题（1）——以素数定理为起点",
+      "url": "https://zhuanlan.zhihu.com/p/530390491",
+      "summary": "正文用素数定理、Stirling 公式、均阶和上下极限研究相邻素数间距的渐近性质。"
+    },
+    {
+      "title": "无理数的有理逼近及其应用（2）——无理测度简介",
+      "url": "https://zhuanlan.zhihu.com/p/538359524",
+      "summary": "正文以 Roth 定理和 Diophantine 逼近为主线，介绍代数数及几乎所有实数的有理逼近指数。"
+    },
+    {
+      "title": "Green-Tao 定理 (1): 准备, 记号和 Gowers 范数",
+      "url": "https://zhuanlan.zhihu.com/p/537038260",
+      "summary": "正文以伪随机测度、von Mangoldt函数和筛法定理勾勒Green-Tao定理的解析数论证明。"
+    },
+    {
+      "title": "素数的有界间距（1）——素数对猜想与GPY筛法",
+      "url": "https://zhuanlan.zhihu.com/p/540399662",
+      "summary": "正文结合素数定理、加权筛法和解析估计介绍有界素数间距研究中的GPY筛法。"
+    },
+    {
+      "title": "素数的有界间距（5）——张益唐的间距七千万",
+      "url": "https://zhuanlan.zhihu.com/p/559047100",
+      "summary": "正文使用 GPY 筛法、Perron 公式、ζ 函数性质与素数定理控制素数分布，属于解析数论方法。"
+    },
+    {
+      "title": "数论--丢番图逼近",
+      "url": "https://zhuanlan.zhihu.com/p/559110495",
+      "summary": "正文用测度与级数收敛条件研究几乎所有实数的有理逼近，并系统介绍超越数论中的林德曼–魏尔斯特拉斯、Gelfond–Schneider 和 Baker 定理。"
+    },
+    {
+      "title": "素数的有界间距（6）——Maynard的降维打击（其一）",
+      "url": "https://zhuanlan.zhihu.com/p/573001683",
+      "summary": "系统推导 Maynard 多维 Selberg 筛的主项、误差项和渐近公式，属于解析数论中的素数间距研究。"
+    },
+    {
+      "title": "小学生的魔法之旅——Erdős距离问题",
+      "url": "https://zhuanlan.zhihu.com/p/570132996",
+      "summary": "正文把 Erdős 距离上界化为二平方和计数，并借助素数定理及 Euler 乘积作解析估计。"
+    },
+    {
+      "title": "L函数的下界与Siegel零点分布之关系",
+      "url": "https://zhuanlan.zhihu.com/p/580902432",
+      "summary": "正文用微分中值定理、部分求和、Gamma积分和复变围道方法定量联系L函数的一值下界与零点分布。"
+    },
+    {
+      "title": "全网最详细笔记：张益唐北大讲解火热出炉！本质上已证明「零点猜想」",
+      "url": "https://zhuanlan.zhihu.com/p/581489356",
+      "summary": "正文以狄利克雷L函数、筛法求和及柯西不等式讲解解析数论中的估计方法。"
+    },
+    {
+      "title": "总结：张益唐教授 Landau-Siegel 零点猜想直播讲座",
+      "url": "https://zhuanlan.zhihu.com/p/581460307",
+      "summary": "正文系统说明解析数论用分析与不等式处理离散数论问题的基本思路。"
+    },
+    {
+      "title": "Siegel零点与等差数列上的素数分布",
+      "url": "https://zhuanlan.zhihu.com/p/582900416",
+      "summary": "正文通过 Dirichlet 特征、L 函数零点与非零区域研究等差数列中的素数分布。"
+    },
+    {
+      "title": "素数定理的证明（友好型，已完结）",
+      "url": "https://zhuanlan.zhihu.com/p/631308191",
+      "summary": "正文以复分析、Dirichlet 级数和素数分布为核心完成素数定理证明，属于解析数论。"
+    },
+    {
+      "title": "这才是真正最顶尖的数学—L函数与朗兰兹计划，黎曼ζ函数只是其最简单的示例",
+      "url": "https://zhuanlan.zhihu.com/p/650279358",
+      "summary": "正文用Dirichlet系数和模素数解数构造L函数，并讨论解析延拓与函数方程，实质介绍了解析数论中的L函数。"
+    },
+    {
+      "title": "论素数定理的误差项",
+      "url": "https://zhuanlan.zhihu.com/p/654730509",
+      "summary": "正文用 zeta 函数非平凡零点、分部求和和 Landau 引理研究素数定理误差项。"
+    },
+    {
+      "title": "[数学科普] 新一代数学家突破素数障碍",
+      "url": "https://zhuanlan.zhihu.com/p/664793143",
+      "summary": "正文围绕分布水平、筛法和素数余数分布介绍解析数论中的近期突破。"
+    },
+    {
+      "title": "黎曼猜想到底被证明了吗（指的是严谨的，并且发表在正规的科学期刊上的论文）？ 如果没有被证明，它们的证明已经到了哪一进度？",
+      "url": "https://zhuanlan.zhihu.com/p/667180576",
+      "summary": "正文具体讨论 zeta 零点计数、围道积分和量级分析，这些都是解析数论中的研究工具。"
+    },
+    {
+      "title": "黎曼ζ函数特殊值ζ(3)的无理性的一个证明",
+      "url": "https://zhuanlan.zhihu.com/p/662476713",
+      "summary": "正文把 zeta 函数用于解析数论，引用素数定理分析最小公倍数的增长并完成无理性证明。"
+    },
+    {
+      "title": "Langlands Program：代数数论，代数几何，群表示论的大统一",
+      "url": "https://zhuanlan.zhihu.com/p/674911228",
+      "summary": "正文讨论 Artin、Hecke 与自守 L 函数的欧拉乘积、解析延拓和函数方程，属于解析数论语境。"
+    },
+    {
+      "title": "数学领域中，最令人痴迷的还得是数论，最简单的也是最难的",
+      "url": "https://zhuanlan.zhihu.com/p/678622623",
+      "summary": "正文区分代数数论与解析数论，并用对数估计、渐近记号、筛法和复函数工具讨论不超过给定值的素数个数。"
+    },
+    {
+      "title": "最古老的数学问题现在进展到哪一步了？",
+      "url": "https://zhuanlan.zhihu.com/p/685430481",
+      "summary": "正文讨论用指数和与积分估计研究倒数单位分数集合，体现了解析数论中的估计方法。"
+    },
+    {
+      "title": "黎曼猜想获显著突破，陶哲轩：方法巧妙且意想不到！36岁菲尔兹奖得主新成果",
+      "url": "https://zhuanlan.zhihu.com/p/701756208",
+      "summary": "正文围绕狄利克雷多项式的大值估计与零点密度展开，并说明其在解析数论中的作用。"
+    },
+    {
+      "title": "Iwaniec: 解析数论介绍",
+      "url": "https://zhuanlan.zhihu.com/p/703676514",
+      "summary": "正文系统介绍解析数论的研究目标、核心问题以及筛法、指数和、圆法和L函数等分析工具。"
+    },
+    {
+      "title": "一枚「弃子」打破80年黎曼猜想纪录！菲尔兹奖得主MIT大拿联手，陶哲轩转赞",
+      "url": "https://zhuanlan.zhihu.com/p/709113867",
+      "summary": "正文围绕 Ingham 零密度界限、短区间素数估计和 Dirichlet 级数大值具体介绍解析数论进展。"
+    },
+    {
+      "title": "数学的艺术 —— 函数的因式分解",
+      "url": "https://zhuanlan.zhihu.com/p/710768699",
+      "summary": "正文以欧拉解决巴塞尔级数问题为核心案例，属于解析数论中的级数与 ζ 函数方法背景。"
+    },
+    {
+      "title": "磨光技术在数论中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/718929229",
+      "summary": "正文以磨光技术改进 Perron 公式和 Dirichlet 多项式均值估计，属于解析数论方法专题。"
+    },
+    {
+      "title": "Bourgain的魔法：环面Schrödinger方程与格点计数",
+      "url": "https://zhuanlan.zhihu.com/p/3354586577",
+      "summary": "正文用指数和、二次型格点计数和虚二次域的唯一分解证明解析数论估计。"
+    },
+    {
+      "title": "整数分拆在素数秩下的精确公式（一、简介）",
+      "url": "https://zhuanlan.zhihu.com/p/1909081424851600694",
+      "summary": "正文讲解分拆函数的 Hardy-Ramanujan 渐近公式、圆法及模形式方法。"
+    },
+    {
+      "title": "读懂黎曼猜想（-6）——0.001%的零点满足黎曼猜想",
+      "url": "https://zhuanlan.zhihu.com/p/1922403706147694354",
+      "summary": "正文使用 L2 范数、测度和渐近估计等解析数论方法证明临界线上零点的计数下界。"
+    },
+    {
+      "title": "23岁门外汉携ChatGPT，攻克60年数学猜想！陶哲轩：我们全走偏了",
+      "url": "https://zhuanlan.zhihu.com/p/2031855322084677437",
+      "summary": "正文把原始集问题表述为特定求和式的渐近上界猜想，属于解析数论对象的实质介绍。"
+    },
+    {
+      "title": "一定只能裂项嘛？（1）",
+      "url": "https://zhuanlan.zhihu.com/p/2002129520283653589",
+      "summary": "正文以 Mellin 留数、特殊极点和虚二次点比较不同求和的解析数论结构。"
+    },
+    {
+      "title": "OpenAI：关于单位距离猜想被证伪的评注",
+      "url": "https://zhuanlan.zhihu.com/p/2040794657894954227",
+      "summary": "正文具体使用素数定理、Dedekind zeta 零点与 L 函数来比较不同数域构造的渐近界。"
+    },
+    {
+      "title": "一个看似简单的极限，为什么最后变成了40页论文？——Hardy与Ramanujan如何计算整数分拆数",
+      "url": "https://zhuanlan.zhihu.com/p/2071615597272683484",
+      "summary": "正文以生成函数、单位根奇点、Farey分割和渐近分析计算分拆数，属于解析数论方法。"
+    }
+  ]
+}

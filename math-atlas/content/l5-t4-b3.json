@@ -1,0 +1,1581 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l5-t4-b3",
+  "sources": [
+    {
+      "title": "如何简明地解释曲率（curvature）？",
+      "url": "https://www.zhihu.com/answer/31704418",
+      "summary": "正文围绕“曲率”给出说明、例证或方法。"
+    },
+    {
+      "title": "如何迅速掌握拓扑学精髓？",
+      "url": "https://www.zhihu.com/answer/33883867",
+      "summary": "正文讨论联络、曲率与几何结构。"
+    },
+    {
+      "title": "有哪些很好地体现了数学美的建筑？",
+      "url": "https://www.zhihu.com/answer/41319203",
+      "summary": "正文介绍极小曲面与曲率。"
+    },
+    {
+      "title": "有哪些与字体设计与字型研发有关的「黑科技」？",
+      "url": "https://www.zhihu.com/answer/71827143",
+      "summary": "正文将平滑明确为曲率连续，并讨论曲线构造。"
+    },
+    {
+      "title": "怎么用清晰的具象的语言来描述黎曼度量的意义与定义？",
+      "url": "https://www.zhihu.com/answer/74698560",
+      "summary": "正文列举常截面曲率、常数量曲率等度量性质。"
+    },
+    {
+      "title": "蚂蚁绕北回归线一圈转了多少度？",
+      "url": "https://www.zhihu.com/answer/76920509",
+      "summary": "正文解释高斯曲率及其与转角积分的关系。"
+    },
+    {
+      "title": "学习经典微分几何课有什么收获？",
+      "url": "https://www.zhihu.com/answer/79984761",
+      "summary": "正文解释平均曲率及其平方积分在极小曲面和膜能量中的意义。"
+    },
+    {
+      "title": "请推荐黎曼几何的教材?",
+      "url": "https://www.zhihu.com/answer/82924612",
+      "summary": "正文说明相关教材侧重联络与曲率。"
+    },
+    {
+      "title": "怎么用大众都懂的语言解释黎曼空间？",
+      "url": "https://www.zhihu.com/answer/83465328",
+      "summary": "正文用基标矢量变化和黎曼曲率张量说明空间弯曲。"
+    },
+    {
+      "title": "流形上的曲率的定义，如书上所示，该怎样直观理解（appreciate any ideas.）？",
+      "url": "https://www.zhihu.com/answer/88849903",
+      "summary": "正文解释截面、Ricci、数量曲率及其几何控制意义。"
+    },
+    {
+      "title": "闵科夫斯基空间、罗氏几何、黎曼几何这三者的联系、区别分别是什么？",
+      "url": "https://www.zhihu.com/answer/89099076",
+      "summary": "正文以正、负、零曲率区分不同几何与时空。"
+    },
+    {
+      "title": "流形上的微分形式有何深层次意义？",
+      "url": "https://www.zhihu.com/answer/91486843",
+      "summary": "正文明确讨论用微分形式和Cartan结构方程计算流形度规的曲率与挠率。"
+    },
+    {
+      "title": "代数几何是否对 PDE 的研究有启发？",
+      "url": "https://www.zhihu.com/answer/91919912",
+      "summary": "正文提到曲率有界联络与几何分析中的紧性定理。"
+    },
+    {
+      "title": "二维空间的封闭是圆，三维空间的封闭是球，四维空间的封闭是什么？",
+      "url": "https://www.zhihu.com/answer/93476819",
+      "summary": "正文以三角形内角和区分正曲率、零曲率和负曲率空间，并联系有限无界宇宙。"
+    },
+    {
+      "title": "费雪信息 (Fisher information) 的直观意义是什么？",
+      "url": "https://www.zhihu.com/answer/93809082",
+      "summary": "正文计算一维正态分布族对应流形的常曲率。"
+    },
+    {
+      "title": "现代几何的方法在概率论研究上有什么应用？",
+      "url": "https://www.zhihu.com/answer/99514172",
+      "summary": "正文给出正态分布族对应流形的常曲率结果，并说明其为双曲流形。"
+    },
+    {
+      "title": "数学上有哪些丑陋的公式？",
+      "url": "https://www.zhihu.com/answer/112942821",
+      "summary": "正文引入黎曼曲率张量并由基本形式写出Gauss曲率方程。"
+    },
+    {
+      "title": "是否存在三维空间的保角变换？",
+      "url": "https://www.zhihu.com/answer/113562085",
+      "summary": "正文利用曲率张量与 Ricci 曲率约束共形因子。"
+    },
+    {
+      "title": "微分几何中的克氏符是什么东西？有什么现实直观例子没有？",
+      "url": "https://www.zhihu.com/answer/114256162",
+      "summary": "正文用曲率张量区分可消除的联络与不可消除的时空弯曲。"
+    },
+    {
+      "title": "从对数学的贡献上来讲，丘成桐有多厉害？",
+      "url": "https://www.zhihu.com/answer/116355197",
+      "summary": "正文围绕 Ricci 平坦但非平凡空间与镜像对称展开。"
+    },
+    {
+      "title": "数学硕士/博士研究生阶段有哪些定理/论文/理论让你为之振奋？",
+      "url": "https://www.zhihu.com/answer/125686418",
+      "summary": "正文通过标量曲率、共形 Laplacian 和正质量定理讨论曲率。"
+    },
+    {
+      "title": "历史上有哪些著名的数学定理在当时证明非常冗长，但是用现代的观点简洁明了？",
+      "url": "https://www.zhihu.com/answer/126137080",
+      "summary": "正文明确说明高斯曲率可由第一基本形式内蕴计算，并联系黎曼曲率张量。"
+    },
+    {
+      "title": "你研究的数学领域有哪些重要但不出名的猜想？",
+      "url": "https://www.zhihu.com/answer/129854976",
+      "summary": "全文围绕平均曲率流、Ricci曲率、极小曲面及曲率流奇点的几何意义展开。"
+    },
+    {
+      "title": "什么是 bochner 技巧？",
+      "url": "https://www.zhihu.com/answer/130901493",
+      "summary": "正文说明曲率限制如何通过Weitzenböck公式产生可用的椭圆方程估计。"
+    },
+    {
+      "title": "几何学（代数几何、微分几何、复几何、辛几何）最核心的问题是什么？",
+      "url": "https://www.zhihu.com/answer/131280169",
+      "summary": "正文指出整体微分几何的核心之一是理解曲率、度量与拓扑的联系。"
+    },
+    {
+      "title": "在学习数学的过程中，如何避免只是习惯了知识而不是理解了知识？",
+      "url": "https://www.zhihu.com/answer/132206402",
+      "summary": "正文由平面曲线、曲面到黎曼流形逐层解释曲率是对弯曲程度的衡量。"
+    },
+    {
+      "title": "Kenji Fukaya在数学上的主要贡献在哪里？成果和田刚李骏他们相比怎么样？",
+      "url": "https://www.zhihu.com/answer/134482922",
+      "summary": "正文以截面曲率有界的黎曼流形族解释度量几何中的塌缩。"
+    },
+    {
+      "title": "是否存在重力场中使质点等速下滑的曲线或曲面？",
+      "url": "https://www.zhihu.com/answer/142801481",
+      "summary": "正文用曲率半径和二阶导数建立下滑曲线的受力模型。"
+    },
+    {
+      "title": "什么叫内蕴几何？",
+      "url": "https://www.zhihu.com/answer/144677695",
+      "summary": "正文解释高斯曲率、黎曼曲率张量和标量曲率。"
+    },
+    {
+      "title": "现代数学的目的是什么？",
+      "url": "https://www.zhihu.com/answer/147349630",
+      "summary": "正文围绕高斯曲率解释其内蕴性与第一基本形式的关系。"
+    },
+    {
+      "title": "数学本科生能做哪些研究？",
+      "url": "https://www.zhihu.com/answer/151653033",
+      "summary": "正文讨论圆柱度量的高斯曲率、平坦性及初等证明可能性。"
+    },
+    {
+      "title": "有哪些在你的数学领域里很有用的技巧？",
+      "url": "https://www.zhihu.com/answer/164754108",
+      "summary": "正文围绕正截面曲率、曲率算子与比较几何给出具体定理和用途。"
+    },
+    {
+      "title": "有哪些名字逗比的科学定理？",
+      "url": "https://www.zhihu.com/answer/166525485",
+      "summary": "正文直接解释高斯曲率是曲面的内蕴性质。"
+    },
+    {
+      "title": "复几何的前景如何？",
+      "url": "https://www.zhihu.com/answer/173707200",
+      "summary": "正文说明负曲率、复Ricci曲率与全纯映射退化性的联系。"
+    },
+    {
+      "title": "你所在的领域里，有哪些堪称开山之作的论文？",
+      "url": "https://www.zhihu.com/answer/174090702",
+      "summary": "正文明确说明黎曼在流形上局部定义度规和曲率。"
+    },
+    {
+      "title": "数学史上有哪些比较著名的猜想因为有反例的存在而没有成为定理？",
+      "url": "https://www.zhihu.com/answer/182294404",
+      "summary": "正文围绕正曲率流形猜想与反例，实质涉及曲率条件的几何作用。"
+    },
+    {
+      "title": "北大数学系田刚的学问到底怎么样？",
+      "url": "https://www.zhihu.com/answer/183984867",
+      "summary": "正文具体讨论正曲率、曲率流和凯勒－爱因斯坦度量等曲率问题。"
+    },
+    {
+      "title": "代数几何是否对 PDE 的研究有启发？",
+      "url": "https://www.zhihu.com/answer/185732342",
+      "summary": "正文指出无穷维辛约化中的矩映射由联络曲率给出，并关联常标量曲率。"
+    },
+    {
+      "title": "有哪些值得数学系本科生一读的经典数学论文？",
+      "url": "https://www.zhihu.com/answer/186208588",
+      "summary": "正文围绕正曲率流形、比较几何及 Toponogov 定理介绍论文内容。"
+    },
+    {
+      "title": "如何理解Maurer-Cartan形式？",
+      "url": "https://www.zhihu.com/answer/189305448",
+      "summary": "正文说明曲率是 Cartan 联络不可积与整体截面障碍的来源。"
+    },
+    {
+      "title": "请问庞加莱猜想为什么看上去容易理解，却这么难证明？",
+      "url": "https://www.zhihu.com/answer/198011278",
+      "summary": "正文说明在流形上构造非负曲率度量并流向常曲率度量。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/238120745",
+      "summary": "正文实质使用非正曲率条件排除共轭点。"
+    },
+    {
+      "title": "你所在的科研领域有哪些做不动的问题？",
+      "url": "https://www.zhihu.com/answer/251180563",
+      "summary": "正文比较正曲率、非负曲率和 Ricci 平坦条件。"
+    },
+    {
+      "title": "你所在的科研领域有哪些做不动的问题？",
+      "url": "https://www.zhihu.com/answer/251245731",
+      "summary": "正文解释 Finsler 几何的旗曲率及正负常曲率问题。"
+    },
+    {
+      "title": "想学好黎曼几何和微分几何要在哪方面打下坚实的基础呢？",
+      "url": "https://www.zhihu.com/answer/264750189",
+      "summary": "正文由高斯曲率过渡到黎曼流形的截面曲率。"
+    },
+    {
+      "title": "流形、微分几何研究的具体是什么？能不能用简单的话总结一下？",
+      "url": "https://www.zhihu.com/answer/277132694",
+      "summary": "正文从切向量导数和曲线二阶导数解释曲率。"
+    },
+    {
+      "title": "数学中有哪些典型的不变量？研究不变量的意义是什么？",
+      "url": "https://www.zhihu.com/answer/277322431",
+      "summary": "正文以曲率作为等距变换不变量区分球面与平面。"
+    },
+    {
+      "title": "数学中的灵魂猜想和灵魂定理是什么意思？",
+      "url": "https://www.zhihu.com/answer/281306208",
+      "summary": "正文分析二维切平面的截面曲率。"
+    },
+    {
+      "title": "为什么三角形内角和一定是 180 度？",
+      "url": "https://www.zhihu.com/answer/302167869",
+      "summary": "正文用 Gauss-Bonnet 定理把角盈与高斯曲率积分联系起来。"
+    },
+    {
+      "title": "能够在几分钟的时间内向普通本科生解释清楚最前沿的理科科研工作（偏理论）吗？",
+      "url": "https://www.zhihu.com/answer/315184393",
+      "summary": "正文解释曲率是衡量空间弯曲程度的量。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/316601897",
+      "summary": "正文说明双曲平面的负曲率及其度量。"
+    },
+    {
+      "title": "为什么说 Nevanlinna 的值分布理论是复变函数的巅峰？",
+      "url": "https://www.zhihu.com/answer/336575053",
+      "summary": "正文用负曲率度量解释全纯映射受到限制的几何根源。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/342000763",
+      "summary": "论文问题的核心条件是流形具有正截面曲率。"
+    },
+    {
+      "title": "如何评价数学家佩雷尔曼?",
+      "url": "https://www.zhihu.com/answer/362805388",
+      "summary": "正文说明去除三维 Ricci 曲率限制是关键贡献。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/378454878",
+      "summary": "正文用负曲率与正曲率对测地线的影响解释曲率如何控制拓扑结构。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/378820572",
+      "summary": "正文用各处弯曲描述该空间的几何性质。"
+    },
+    {
+      "title": "Mathematica 到底有多厉害？",
+      "url": "https://www.zhihu.com/answer/433151489",
+      "summary": "正文推导并计算曲率张量。"
+    },
+    {
+      "title": "请问你觉得大学本科选择纯数是怎样一种体验？能学到什么和有什么用处？",
+      "url": "https://www.zhihu.com/answer/456506270",
+      "summary": "正文讨论闭曲面所允许的曲率符号条件。"
+    },
+    {
+      "title": "熟悉现代几何学是怎样一种体验？",
+      "url": "https://www.zhihu.com/answer/469240129",
+      "summary": "正文定义正曲率流形并比较正曲率与非负曲率。"
+    },
+    {
+      "title": "北大数学系田刚的学问到底怎么样？",
+      "url": "https://www.zhihu.com/answer/485661331",
+      "summary": "正文讨论 Ricci 曲率条件与收敛理论。"
+    },
+    {
+      "title": "有哪些数学知识概念已经更新或改变，但不为大众所知？",
+      "url": "https://www.zhihu.com/answer/487579070",
+      "summary": "正文说明流形上的局部度量如何产生曲率。"
+    },
+    {
+      "title": "除了黎曼猜想，数学界还有哪些至今尚未得到证实的猜想？",
+      "url": "https://www.zhihu.com/answer/495957629",
+      "summary": "正文列举正曲率领域关于曲率与拓扑的未解猜想。"
+    },
+    {
+      "title": "圆环可以展成直线，球面为什么就不能展成平面？",
+      "url": "https://www.zhihu.com/answer/497028380",
+      "summary": "正文以高斯曲率不变量证明球面不能展平。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/517710949",
+      "summary": "正文说明正则性变化如何改变曲率张量和正截面曲率结论。"
+    },
+    {
+      "title": "关于整体微分几何？",
+      "url": "https://www.zhihu.com/answer/535744325",
+      "summary": "正文实质说明曲率进入 Chern-Weil 特征类构造的方式。"
+    },
+    {
+      "title": "黎曼几何与微分几何是什么关系？",
+      "url": "https://www.zhihu.com/answer/538401629",
+      "summary": "正文说明黎曼框架中由局部二次型定义长度、由张量定义曲率。"
+    },
+    {
+      "title": "2018 年，数学界发生了哪些大事件？",
+      "url": "https://www.zhihu.com/answer/545399041",
+      "summary": "正文明确讨论 Ricci 曲率条件与极小子流形存在性。"
+    },
+    {
+      "title": "搞理论物理的人数学要学到什么程度？",
+      "url": "https://www.zhihu.com/answer/571032869",
+      "summary": "正文明确要求能计算曲率张量。"
+    },
+    {
+      "title": "数学中的形变理论是什么？",
+      "url": "https://www.zhihu.com/answer/573210561",
+      "summary": "正文用曲率解释沿联络方向移动标架时的形变障碍。"
+    },
+    {
+      "title": "博士即将毕业或已经毕业的你，做出了哪些科研贡献？",
+      "url": "https://www.zhihu.com/answer/578933011",
+      "summary": "正文用测地三角形解释正截面曲率。"
+    },
+    {
+      "title": "如何看待 Schoen 和 Yau 关于高维正质量定理的证明？",
+      "url": "https://www.zhihu.com/answer/580593456",
+      "summary": "把常数量曲率与常 Ricci 曲率方程作为几何变分问题讨论。"
+    },
+    {
+      "title": "为什么任给一个圆，它的圆周长和直径比值都是常数？",
+      "url": "https://www.zhihu.com/answer/581309241",
+      "summary": "说明曲率会改变测地圆的周径比。"
+    },
+    {
+      "title": "哪些看似毫不相干的事物具有相同的数学原理？",
+      "url": "https://www.zhihu.com/answer/594546845",
+      "summary": "正文用热核展开与曲率说明 Gauss-Bonnet 和指标定理的联系。"
+    },
+    {
+      "title": "什么是曲率和曲率半径？",
+      "url": "https://www.zhihu.com/answer/624707205",
+      "summary": "把曲率定义为切线方向的变化率并以密接圆半径倒数刻画。"
+    },
+    {
+      "title": "如何简明地解释曲率（curvature）？",
+      "url": "https://www.zhihu.com/answer/713083818",
+      "summary": "从圆、曲线到曲面系统解释曲率概念。"
+    },
+    {
+      "title": "数学有哪些领域完全不涉及微积分？",
+      "url": "https://www.zhihu.com/answer/734483109",
+      "summary": "正文以卡拉比猜想和曲率方程求解实质说明曲率相关研究。"
+    },
+    {
+      "title": "如何简明地解释曲率（curvature）？",
+      "url": "https://www.zhihu.com/answer/751706539",
+      "summary": "由密切圆半径定义曲率并推广到高斯曲率。"
+    },
+    {
+      "title": "二阶混合偏导数的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/773244434",
+      "summary": "从曲线推广到曲面说明曲率算子。"
+    },
+    {
+      "title": "数学上有比欧拉公式还美的公式吗？",
+      "url": "https://www.zhihu.com/answer/831790545",
+      "summary": "正文用曲率和挠率刻画空间曲线，并以直线和圆说明其几何含义。"
+    },
+    {
+      "title": "如何衡量一个平面内不规则封闭曲线「趋近圆形」的程度？",
+      "url": "https://www.zhihu.com/answer/883314403",
+      "summary": "以曲率控制曲线每一点的演化速度。"
+    },
+    {
+      "title": "微分几何的核心脉络是什么？",
+      "url": "https://www.zhihu.com/answer/953993519",
+      "summary": "正文解释度量和曲率如何用于研究流形与一般度量空间。"
+    },
+    {
+      "title": "2019年微分几何领域有什么突破？",
+      "url": "https://www.zhihu.com/answer/1063599266",
+      "summary": "正文实质讨论负曲率度量、闭测地线长度与等距刚性。"
+    },
+    {
+      "title": "如何理解曲面第一和第二基本形式？",
+      "url": "https://www.zhihu.com/answer/1219133569",
+      "summary": "正文用第二基本形式描述曲面弯曲。"
+    },
+    {
+      "title": "高斯到底有多厉害？",
+      "url": "https://www.zhihu.com/answer/1220662894",
+      "summary": "正文解释高斯曲率与绝妙定理。"
+    },
+    {
+      "title": "如何评价 Willmore 猜想？这个猜想在微分几何里处于什么样的地位？",
+      "url": "https://www.zhihu.com/answer/1238442136",
+      "summary": "正文解释曲面平均曲率能量、极小曲面和微分几何背景。"
+    },
+    {
+      "title": "f(x)=sin(x), x∈[0, π/2] 是不是某个椭圆的一部分？",
+      "url": "https://www.zhihu.com/answer/1383633815",
+      "summary": "正文用曲率公式比较正弦曲线与椭圆。"
+    },
+    {
+      "title": "f(x)=sin(x), x∈[0, π/2] 是不是某个椭圆的一部分？",
+      "url": "https://www.zhihu.com/answer/1391795260",
+      "summary": "正文用曲率与切触阶判断正弦曲线不是椭圆。"
+    },
+    {
+      "title": "曲率公式是怎么推导的？",
+      "url": "https://www.zhihu.com/answer/1413729175",
+      "summary": "正文逐步推导曲线曲率公式并解释微分运算。"
+    },
+    {
+      "title": "曲率公式是怎么推导的？",
+      "url": "https://www.zhihu.com/answer/1417214185",
+      "summary": "正文从曲率半径极限定义推导二维曲线曲率公式。"
+    },
+    {
+      "title": "你有为数学崩溃过吗？",
+      "url": "https://www.zhihu.com/answer/1544683280",
+      "summary": "正文直接讨论曲率，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "我国数学家成功证明微分几何学两大核心猜想，如何理解这两个猜想？他们取得了怎样的重大突破？",
+      "url": "https://www.zhihu.com/answer/1565183821",
+      "summary": "正文讨论 Ricci 流极限中的曲率奇点结构。"
+    },
+    {
+      "title": "我国数学家成功证明微分几何学两大核心猜想，如何理解这两个猜想？他们取得了怎样的重大突破？",
+      "url": "https://www.zhihu.com/answer/1565573192",
+      "summary": "正文讨论 Ricci 流极限及其曲率几何。"
+    },
+    {
+      "title": "向心力加速度公式 a=v²/r 是怎么推导出来的（要详细过程）？",
+      "url": "https://www.zhihu.com/answer/1589638539",
+      "summary": "正文直接讨论或应用该叶节点主题（曲率）。"
+    },
+    {
+      "title": "极坐标方程的曲率公式如何推导？",
+      "url": "https://www.zhihu.com/answer/1601946171",
+      "summary": "正文直接讨论或应用该叶节点主题（曲率）。"
+    },
+    {
+      "title": "怎样比较好的理解陈类（Chern classes）?",
+      "url": "https://www.zhihu.com/answer/1647941785",
+      "summary": "正文用曲率的上同调类给出陈类的几何构造。"
+    },
+    {
+      "title": "如何评价 2021 年 1 月 23 日八省联考数学试卷？",
+      "url": "https://www.zhihu.com/answer/1693671512",
+      "summary": "正文用高斯曲率、测地曲率、高斯—博内定理及总曲率计算解释该题，曲率是核心对象。"
+    },
+    {
+      "title": "八省联考数学这道题中多面体的总曲率有什么含义？",
+      "url": "https://www.zhihu.com/answer/1696829253",
+      "summary": "正文明确解释多面体总曲率采用离散高斯曲率定义，并说明它与高斯—博内公式的关系。"
+    },
+    {
+      "title": "可以留下一个优美的不等式吗？",
+      "url": "https://www.zhihu.com/answer/1713696520",
+      "summary": "正文用曲率与全曲率陈述 Fenchel 不等式。"
+    },
+    {
+      "title": "如何看待中科大 26 岁教授陈杲攻克数学复微分几何领域世界难题？",
+      "url": "https://www.zhihu.com/answer/1757650521",
+      "summary": "正文通过度量和联络定义并解释曲率。"
+    },
+    {
+      "title": "函数 y＝ln x 的图像在什么时候曲率最大？",
+      "url": "https://www.zhihu.com/answer/1905067531",
+      "summary": "正文推导曲率公式并计算对数曲线的最大曲率。"
+    },
+    {
+      "title": "如何客观评价丘成桐老师的学术贡献呢？",
+      "url": "https://www.zhihu.com/answer/1905967290",
+      "summary": "正文讨论 Calabi 猜想、陈数不等式和曲率相关问题。"
+    },
+    {
+      "title": "如果让你来讲《微分几何》课程，你会如何设计？",
+      "url": "https://www.zhihu.com/answer/1965992166",
+      "summary": "正文强调曲率与复分析、曲面论的联系。"
+    },
+    {
+      "title": "如何从爱因斯坦场方程求出kerr解？",
+      "url": "https://www.zhihu.com/answer/2030785209",
+      "summary": "正文计算 Kerr 时空的曲率分量。"
+    },
+    {
+      "title": "数学史上你认为最丑陋的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2143291116",
+      "summary": "正文用曲率张量和正交标架解释 Gauss-Codazzi 方程。"
+    },
+    {
+      "title": "如何评价丘成桐学生施皖雄的一生？",
+      "url": "https://www.zhihu.com/answer/2156800685",
+      "summary": "正文解释里奇流中曲率估计和微分方程技术。"
+    },
+    {
+      "title": "我站在一个直径无限大的圆边，怎么知道我在圆内还是圆外？",
+      "url": "https://www.zhihu.com/answer/2162009504",
+      "summary": "正文用曲率解释无限大圆的几何形态。"
+    },
+    {
+      "title": "中国科大陈秀雄团队成功证明[凯勒几何]两大核心猜想，这具体解决的是什么问题？这两大猜想有什么意义吗？",
+      "url": "https://www.zhihu.com/answer/2216392998",
+      "summary": "正文以曲率存在性和稳定性猜想说明几何分析成果。"
+    },
+    {
+      "title": "大家知道的最长（复杂）的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2247351647",
+      "summary": "正文逐层展开里奇张量与黎曼曲率张量。"
+    },
+    {
+      "title": "现实世界中是否存在非欧几何空间？",
+      "url": "https://www.zhihu.com/answer/2261647908",
+      "summary": "正文用高斯曲率区分双曲、欧氏和球面几何。"
+    },
+    {
+      "title": "目前数学的符号体系有多混乱？",
+      "url": "https://www.zhihu.com/answer/2303311289",
+      "summary": "正文讨论曲率张量缩并及曲率正负号约定。"
+    },
+    {
+      "title": "给定一个 Hamiltonian，如何推导出 Berry 曲率？",
+      "url": "https://www.zhihu.com/answer/2419749412",
+      "summary": "正文推导贝里曲率场并给出参数空间中的曲率表达式。"
+    },
+    {
+      "title": "什么是曲率和曲率半径？",
+      "url": "https://www.zhihu.com/answer/2427885028",
+      "summary": "正文界定曲率并推导曲率半径关于一阶、二阶导数的公式。"
+    },
+    {
+      "title": "4 月 20 日丘成桐全职任教清华，意味着什么？将带来哪些影响？",
+      "url": "https://www.zhihu.com/answer/2451956153",
+      "summary": "正文具体讨论里奇曲率为正时里奇流的估计方法。"
+    },
+    {
+      "title": "丘成桐是现在第一厉害的数学家吗？为什么说在哈佛，他一人就是一个数学系？",
+      "url": "https://www.zhihu.com/answer/2480732502",
+      "summary": "以良好曲率时空和扭曲的卡拉比-丘空间解释几何结构的弯曲。"
+    },
+    {
+      "title": "有哪些时刻，让你觉得数学很美？",
+      "url": "https://www.zhihu.com/answer/2501010436",
+      "summary": "正文说明指标定理把局部曲率信息汇总为整体拓扑量。"
+    },
+    {
+      "title": "丘成桐是几何分析的奠基人么？",
+      "url": "https://www.zhihu.com/answer/2523519457",
+      "summary": "讨论里奇曲率、极小曲面与正质量猜想等曲率相关结果。"
+    },
+    {
+      "title": "花一整夜的时间解一个方程是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/2528943608",
+      "summary": "逐项计算曲率四分量与里奇曲率，并用场方程化简。"
+    },
+    {
+      "title": "陈数（Chern number）与卷绕数（winding number）的区别与联系？",
+      "url": "https://www.zhihu.com/answer/2542166418",
+      "summary": "以 Berry 曲率与 Berry 联络表示陈数并讨论其拓扑分类意义。"
+    },
+    {
+      "title": "你最喜欢的数学定理是什么？",
+      "url": "https://www.zhihu.com/answer/2544589817",
+      "summary": "用 Gauss-Bonnet 定理说明流形曲率积分与 Euler 示性数的关系。"
+    },
+    {
+      "title": "广义相对论场方程看上去很简洁，但是实际上这个方程到底有多复杂？",
+      "url": "https://www.zhihu.com/answer/2571031046",
+      "summary": "从黎曼曲率张量、里奇曲率和标量曲率展开爱因斯坦方程的几何结构。"
+    },
+    {
+      "title": "极坐标方程的曲率公式如何推导？",
+      "url": "https://www.zhihu.com/answer/2577106597",
+      "summary": "由法向加速度推出极坐标曲线的曲率半径与曲率公式。"
+    },
+    {
+      "title": "用物理原理求解数学问题的做法严谨吗？",
+      "url": "https://www.zhihu.com/answer/2596467102",
+      "summary": "分别用曲率公式和抛体运动的法向加速度计算抛物线顶点曲率半径并证明两式等价。"
+    },
+    {
+      "title": "为什么我求的球体表面积结果错了？",
+      "url": "https://www.zhihu.com/answer/2708019342",
+      "summary": "用高斯曲率区分球面与可展曲面，解释平面微元替换球面微元为何失效以及曲率与面积形变的关系。"
+    },
+    {
+      "title": "黎曼有多厉害？",
+      "url": "https://www.zhihu.com/answer/2746074074",
+      "summary": "正文以曲线和曲面偏离直线的程度解释曲率，并说明高斯曲率向高维空间的推广。"
+    },
+    {
+      "title": "一个圆沿椭圆轨道滚动，圆上某一点的运动轨迹是什么？",
+      "url": "https://www.zhihu.com/answer/2780361317",
+      "summary": "正文给出曲率半径公式，并求椭圆长轴顶点的最小曲率半径以判断圆能否在内侧完整滚动。"
+    },
+    {
+      "title": "代数拓扑和几何分析之间有什么联系吗？",
+      "url": "https://www.zhihu.com/answer/2977838021",
+      "summary": "正文具体讨论非正曲率流形中负曲率累积对单纯体积的影响。"
+    },
+    {
+      "title": "想学好黎曼几何和微分几何要在哪方面打下坚实的基础呢？",
+      "url": "https://www.zhihu.com/answer/3035947368",
+      "summary": "正文把曲率张量列为微分几何基础，并说明整体理论通过曲率、向量场奇点和欧拉示性数研究流形性质。"
+    },
+    {
+      "title": "为什么我觉得微分几何是伪几何，本质上是代数和分析？",
+      "url": "https://www.zhihu.com/answer/3048187425",
+      "summary": "正文明确给出正截面曲率下黎曼流形直径上界这一曲率与整体几何量的关系。"
+    },
+    {
+      "title": "如果让你来讲《微分几何》课程，你会如何设计？",
+      "url": "https://www.zhihu.com/answer/3052995181",
+      "summary": "正文单列一节安排流形几何、曲率、测地线及变分公式。"
+    },
+    {
+      "title": "现代的数学研究抽象到了哪种地步？",
+      "url": "https://www.zhihu.com/answer/3063198777",
+      "summary": "正文以正弯曲、负弯曲以及最弯与最不弯处比值的限制描述几何体，实质讨论曲率条件。"
+    },
+    {
+      "title": "丘成桐在数学研究中的成就有什么？",
+      "url": "https://www.zhihu.com/answer/3090284201",
+      "summary": "正文以 Ricci 曲率条件下黎曼流形上 Laplace 算子特征值估计为例，说明其曲率相关研究。"
+    },
+    {
+      "title": "你最喜欢的数学定理是什么？",
+      "url": "https://www.zhihu.com/answer/3092405692",
+      "summary": "正文围绕正截面曲率、四分之一曲率夹持定理和曲率常数讨论流形刻画，实质展开了曲率概念及其几何作用。"
+    },
+    {
+      "title": "为什么感觉有些数学证明看起来像猜到的一样，总是不讲为什么？",
+      "url": "https://www.zhihu.com/answer/3092670138",
+      "summary": "正文以曲率张量与截面曲率的关系及四线性函数变形为例，具体讨论了黎曼曲率的确定方式。"
+    },
+    {
+      "title": "为什么勾股定理可以说明空间是平直的？",
+      "url": "https://www.zhihu.com/answer/3118965952",
+      "summary": "正文写出曲率张量并说明其为零正是空间平直的定义，进而讨论勾股定理与曲率的关系。"
+    },
+    {
+      "title": "海塞（Hessian）矩阵是否有特殊几何意义？",
+      "url": "https://www.zhihu.com/answer/3144383101",
+      "summary": "正文把 Hessian 解释为函数超面在一点各个方向上的局部曲率，并说明曲率正负与凹凸性的关系。"
+    },
+    {
+      "title": "我站在一个直径无限大的圆边，怎么知道我在圆内还是圆外？",
+      "url": "https://www.zhihu.com/answer/3150482310",
+      "summary": "正文通过曲率半径趋于无穷、曲率趋于零解释无限大圆退化为直线，讨论了曲率与圆半径的关系。"
+    },
+    {
+      "title": "高斯绝妙定理究竟美妙在哪里？",
+      "url": "https://www.zhihu.com/answer/3198392920",
+      "summary": "正文用高斯映射前后面积变化之比定义高斯曲率，并用它刻画曲面一点的弯曲程度。"
+    },
+    {
+      "title": "如何通俗地理解纤维丛？",
+      "url": "https://www.zhihu.com/answer/3215120908",
+      "summary": "正文以汇率往返兑换后产生差额说明沿闭合路径比较会偏离原值，并进一步解释曲率与套利的关系。"
+    },
+    {
+      "title": "能介绍一下数学家卡拉比吗？",
+      "url": "https://www.zhihu.com/answer/3252902815",
+      "summary": "正文具体说明里奇曲率是微分几何与物理学的桥梁，并叙述正曲率流形的体积增长等结果。"
+    },
+    {
+      "title": "你见过最厉害的本科生科研有多强?",
+      "url": "https://www.zhihu.com/answer/3278277792",
+      "summary": "正文定义曲线曲率，并以直线、圆和抛物线的弯曲程度说明曲率大小及其几何意义。"
+    },
+    {
+      "title": "从古典微分几何发展到现代微分几何的过程是怎样的？（数学思想、历史等方面）?为何引入现代微分几何？",
+      "url": "https://www.zhihu.com/answer/3284565222",
+      "summary": "正文具体解释主曲率相乘得到高斯曲率，并进一步讨论截面曲率、里奇曲率和标量曲率及其内蕴含义。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3310565030",
+      "summary": "正文围绕非正曲率流形定义 Patterson-Sullivan 梯度流，并用临界指数估计流映射的 Jacobian。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/3350363627",
+      "summary": "正文说明纽结补空间可具有处处为负一的曲率，并讨论曲率、体积与双曲空间分类的联系。"
+    },
+    {
+      "title": "构造微分流形这个概念的动机是什么？",
+      "url": "https://www.zhihu.com/answer/3357185353",
+      "summary": "正文具体解释高斯曲率只依赖曲面度量结构而不依赖嵌入形式，并比较平面、柱面和球面的曲率。"
+    },
+    {
+      "title": "如何理解Chern–Simons form和Chern–Simons theory？",
+      "url": "https://www.zhihu.com/answer/3385978782",
+      "summary": "正文将F_A解释为曲率，并通过作用量的变分导出临界点为平坦联络，直接使用曲率刻画联络。"
+    },
+    {
+      "title": "为什么提到指数函数，就感觉有一个类似于「拐点」的地方，从那开始曲线开始爆炸增长？",
+      "url": "https://www.zhihu.com/answer/3392326444",
+      "summary": "正文以曲率半径公式计算指数曲线曲率取极值的位置，并讨论密切圆与曲线的关系。"
+    },
+    {
+      "title": "2023 年，有哪些科研成果值得载入教科书？",
+      "url": "https://www.zhihu.com/answer/3408865309",
+      "summary": "正文说明标量曲率控制黎曼流形中小球的体积，并用曲率符号解释集合增长差异。"
+    },
+    {
+      "title": "从Riemann curvature构造Ricci curvature的目的、动机是什么 ?",
+      "url": "https://www.zhihu.com/answer/3422937539",
+      "summary": "正文从黎曼张量的缩并构造里奇张量，再缩并得到里奇曲率，并解释其体积元含义。"
+    },
+    {
+      "title": "国内外工业软件的差距在哪？如何赶上？",
+      "url": "https://www.zhihu.com/answer/3423770199",
+      "summary": "正文利用常值高斯曲率、Ricci流和曲率集中解释曲面三角剖分与标架场构造。"
+    },
+    {
+      "title": "微分几何（Differential Geometry）在工程领域有什么应用？",
+      "url": "https://www.zhihu.com/answer/3441590468",
+      "summary": "正文具体解释了Gauss曲率、共形因子和度量之间的关系及其在曲面等距分类中的作用。"
+    },
+    {
+      "title": "学数学或物理学到 high 很刺激，是一种怎样的经历与感受？",
+      "url": "https://www.zhihu.com/answer/3544342236",
+      "summary": "正文以“力=曲率”概括数学物理中的曲率认知，并说明曲率是理解测地线和曲面几何的关键。"
+    },
+    {
+      "title": "iOS 7 的圆角图标是怎样一个图形？",
+      "url": "https://www.zhihu.com/answer/3585717185",
+      "summary": "正文从弧长与曲率成正比的定义出发，推导欧拉螺线的切向角、坐标和曲率连续拼接。"
+    },
+    {
+      "title": "数学家Richard Hamilton去世了，如何评价他的学术贡献？",
+      "url": "https://www.zhihu.com/answer/4180962574",
+      "summary": "正文用度量的二阶导及其迹解释截面曲率与里奇曲率之间的关系。"
+    },
+    {
+      "title": "如何评价丘成桐说:没一个数学家能离群索居，不食人间烟火，佩雷尔曼不行，某神更不行(图)？",
+      "url": "https://www.zhihu.com/answer/30356942966",
+      "summary": "正文大量使用截面曲率、标量曲率及其有界性来分析里奇流的几何演化。"
+    },
+    {
+      "title": "什么是「Nonabelian Hodge theory」?",
+      "url": "https://www.zhihu.com/answer/47204403805",
+      "summary": "正文以联络曲率满足常中心曲率方程为主线，说明曲率条件如何刻画稳定丛的规范场。"
+    },
+    {
+      "title": "2024你的数学研究和学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/54868272353",
+      "summary": "正文以非正曲率为研究背景，讨论全测地超曲面附近的几何性质及相关单纯体积结论。"
+    },
+    {
+      "title": "海塞（Hessian）矩阵是否有特殊几何意义？",
+      "url": "https://www.zhihu.com/answer/94587580311",
+      "summary": "正文解释Hessian行列式为Gauss曲率，并讨论主曲率、平均曲率和内蕴曲率。"
+    },
+    {
+      "title": "如何看待陶哲轩等数学家大力推动的 AI 数学证明?",
+      "url": "https://www.zhihu.com/answer/1892225934372872275",
+      "summary": "正文围绕 U(2)/O(2) 是否容许正截面曲率度量展开，并讨论齐性空间的曲率存在性。"
+    },
+    {
+      "title": "代数拓扑和黎曼几何有什么联系吗?",
+      "url": "https://www.zhihu.com/answer/1899722174597694743",
+      "summary": "正文以正、非正和负曲率下测地线汇聚或发散说明曲率与拓扑之间的关系。"
+    },
+    {
+      "title": "克氏符到底是不是张量？",
+      "url": "https://www.zhihu.com/answer/1899964144238703076",
+      "summary": "正文由联络定义主丛曲率，推导曲率 2-形式及曲率张量的表达和变换性质。"
+    },
+    {
+      "title": "如何评价观点“数学就是把简单的事情复杂化”？",
+      "url": "https://www.zhihu.com/answer/1901688786783541192",
+      "summary": "正文从平均曲率为零出发计算极小曲面方程，并讨论曲率条件如何刻画曲面。"
+    },
+    {
+      "title": "怎样比较好的理解陈类（Chern classes）?",
+      "url": "https://www.zhihu.com/answer/1902838135097898042",
+      "summary": "正文说明通过陈联络的曲率及其Taylor展开系数定义陈类，具体涉及曲率与示性类的关系。"
+    },
+    {
+      "title": "和乐群(Holonomy group)的重要性是什么？",
+      "url": "https://www.zhihu.com/answer/1907424208075612836",
+      "summary": "正文说明曲率与无穷小和乐之间的对应，并展开曲率和曲率算子的含义。"
+    },
+    {
+      "title": "用一个非常强的定理证明一个很弱的结论是怎么样的?",
+      "url": "https://www.zhihu.com/answer/1908061077234751246",
+      "summary": "正文把极小图与高斯曲率恒为零联系起来，并借助等温参数下的曲率表达式进行证明。"
+    },
+    {
+      "title": "特征簇(character variety)为什么重要？",
+      "url": "https://www.zhihu.com/answer/1916442663818879034",
+      "summary": "正文以双曲空间及洛伦兹时空的常截面曲率为例说明几何结构。"
+    },
+    {
+      "title": "什么是Seiberg-Witten理论？",
+      "url": "https://www.zhihu.com/answer/1929598848076059663",
+      "summary": "正文解释联络曲率及其自对偶分解，并将其用于 Seiberg-Witten 方程的第二个方程。"
+    },
+    {
+      "title": "物理系的数学课与数学系的数学课有多少区别？",
+      "url": "https://www.zhihu.com/answer/1931295573564175995",
+      "summary": "正文具体说明微分几何学习中重点训练曲率计算以及张量运算。"
+    },
+    {
+      "title": "大脑皮层都舒展开了，会发生什么？",
+      "url": "https://www.zhihu.com/answer/1938667291211433337",
+      "summary": "正文重点解释高斯曲率可由第一基本形式决定，并讨论球面、鞍点和可展曲面的曲率。"
+    },
+    {
+      "title": "请问有什么悬而未决几十年最终被证伪的数学猜想吗？",
+      "url": "https://www.zhihu.com/answer/1946501379645474473",
+      "summary": "正文用非负 Ricci 曲率刻画几何聚集性，并讨论这一曲率条件如何约束流形的拓扑。"
+    },
+    {
+      "title": "如何从信息几何的视角去理解概率分布？",
+      "url": "https://www.zhihu.com/answer/1952547909821236134",
+      "summary": "正文比较不同参数位置的分布差异，并据此讨论统计流形具有负常曲率。"
+    },
+    {
+      "title": "要看懂杨-米尔斯场的理论，数学得学到什么程度？",
+      "url": "https://www.zhihu.com/answer/1963019608496796153",
+      "summary": "正文由嘉当第二结构方程说明杨-米尔斯场强就是主丛上的曲率。"
+    },
+    {
+      "title": "要看懂杨-米尔斯场的理论，数学得学到什么程度？",
+      "url": "https://www.zhihu.com/answer/1965379792602920388",
+      "summary": "正文定义联络的曲率形式，并解释曲率与水平分布可积性之间的关系。"
+    },
+    {
+      "title": "如何评价顾险峰教授的计算共形几何？",
+      "url": "https://www.zhihu.com/answer/1984912210032628159",
+      "summary": "正文用度量演化方程说明如何调整 Gauss 曲率趋于常值，并讨论离散曲率流。"
+    },
+    {
+      "title": "如何理解微分几何中各种各样的“可积性”条件（Integrability）？",
+      "url": "https://www.zhihu.com/answer/1994075602811107203",
+      "summary": "正文通过联络形式的微分与水平曲率说明联络可积性等价于曲率消失。"
+    },
+    {
+      "title": "如何理解微分几何中各种各样的“可积性”条件（Integrability）？",
+      "url": "https://www.zhihu.com/answer/1997870772195190272",
+      "summary": "正文用 Cartan 结构方程说明曲率如何刻画 G-structure 的高阶可积性障碍。"
+    },
+    {
+      "title": "复变函数如图，为什么只有n=1时，积分为2πi（我知道她是怎么算出来的，但是这是否有什么别的意义)？",
+      "url": "https://www.zhihu.com/answer/2005981886632198719",
+      "summary": "正文讨论黎曼球面、复平面和双曲平面的曲率分类，并用庞加莱度量计算单位圆盘曲率恒为 -1。"
+    },
+    {
+      "title": "怎么通俗地描述非欧几何？",
+      "url": "https://www.zhihu.com/answer/2011955331933177661",
+      "summary": "正文用空间向外张开或向内闭合解释三角形内角和变化，直观讨论了曲率的作用。"
+    },
+    {
+      "title": "你所知道的最优美的几何定理是什么？",
+      "url": "https://www.zhihu.com/answer/2015578158791947661",
+      "summary": "正文解释 Ricci 曲率如何由 Jacobi 方程刻画测地线收敛，并据曲率下界推出直径上界。"
+    },
+    {
+      "title": "什么是瞬子 (Instanton)？",
+      "url": "https://www.zhihu.com/answer/2027508805269820621",
+      "summary": "正文用联络的曲率衡量向量丛的弯曲程度，并以曲率能量的变分刻画瞬子。"
+    },
+    {
+      "title": "数学中，「代数」和「分析」的方法分别是什么？有什么不同？",
+      "url": "https://www.zhihu.com/answer/2028602986054558333",
+      "summary": "正文用高斯的绝妙定理解释曲率可由曲面自身测量得到，不依赖外部嵌入空间的坐标。"
+    },
+    {
+      "title": "曲线y=eˣ上是否存在四点共圆？",
+      "url": "https://www.zhihu.com/answer/2030595769091278600",
+      "summary": "正文以指数曲线的最小曲率半径作为圆与曲线产生两个切点及四个交点的几何判据。"
+    },
+    {
+      "title": "李导数与协变导数有什么联系？",
+      "url": "https://www.zhihu.com/answer/2033655109691913882",
+      "summary": "正文用平行移动的路径依赖和闭合回路 holonomy 解释曲率，并给出曲面积分公式。"
+    },
+    {
+      "title": "在微分几何中, 什么是 holonomy？如何用holonomy 思考几何问题?",
+      "url": "https://www.zhihu.com/answer/2038036518619575358",
+      "summary": "正文通过 Ambrose-Singer 定理、Kähler 和 Calabi-Yau 条件说明和乐如何编码曲率信息。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/2039084650606376540",
+      "summary": "正文定义高斯曲率，并用圆柱、球面和马鞍面的例子比较其正负与内蕴意义。"
+    },
+    {
+      "title": "如何看待Brendle关于Hopf猜想的文章？",
+      "url": "https://www.zhihu.com/answer/2073754042409431852",
+      "summary": "正文说明通过精巧扰动达到正曲率，并追问相应度量的对称性与推广范围。"
+    },
+    {
+      "title": "如何看待Simon Brendle在2026年8月20日的证明Hopf猜想的arxiv预印本？",
+      "url": "https://www.zhihu.com/answer/2073755640187639360",
+      "summary": "正文说明预印本用 Mathematica 验证三阶扰动及一阶、三阶变分对正曲率性的作用。"
+    },
+    {
+      "title": "基础数学博士，已经是AI的形状了，这正常吗？",
+      "url": "https://www.zhihu.com/answer/2073873486917924054",
+      "summary": "正文具体说明 Brendle 等通过三阶扰动和计算证明某种度量具有处处为正的截面曲率。"
+    },
+    {
+      "title": "如何看待Brendle关于Hopf猜想的文章？",
+      "url": "https://www.zhihu.com/answer/2073938758618161783",
+      "summary": "正文解释正截面曲率的几何直觉，并给出 Bonnet-Myers、Synge 等曲率约束定理。"
+    },
+    {
+      "title": "如何看待Arxiv最新论文声称利用ai证否Yau-Tian-Donaldson conjecture?",
+      "url": "https://www.zhihu.com/answer/2074124586988454721",
+      "summary": "正文以常标量曲率凯勒度量的不存在性作为推翻原始猜想的核心结论，实质涉及曲率约束。"
+    },
+    {
+      "title": "如何看待Arxiv最新论文声称利用ai证否Yau-Tian-Donaldson conjecture?",
+      "url": "https://www.zhihu.com/answer/2074381135451255146",
+      "summary": "正文逐条比较常标量曲率凯勒度量存在性与不同稳定性条件，实质展开曲率度量的存在性问题。"
+    },
+    {
+      "title": "可以用人工智能去解决一些人类还未解决的数学难题吗？",
+      "url": "https://www.zhihu.com/answer/2074429048139276576",
+      "summary": "正文把每一点所有二维平面的截面曲率正负以及同时出现正负曲率作为问题的核心条件。"
+    },
+    {
+      "title": "数学有多美？看看这位法国奇男子怎么说",
+      "url": "https://zhuanlan.zhihu.com/p/20518450",
+      "summary": "正文以曲线、正曲率、地球扁率和气体状态变化为例说明曲率在不同数学物理问题中的作用。"
+    },
+    {
+      "title": "丘成桐谈几何：从黎曼、爱因斯坦到弦论",
+      "url": "https://zhuanlan.zhihu.com/p/20528427",
+      "summary": "正文围绕黎曼曲率、里奇张量和正负曲率解释广义相对论中的引力几何。"
+    },
+    {
+      "title": "当代微分几何研究中的一些“热门”话题",
+      "url": "https://zhuanlan.zhihu.com/p/21664265",
+      "summary": "正文讨论正曲率空间、曲率分类以及相关的 Hopf 猜想，属于曲率主题。"
+    },
+    {
+      "title": "对称群与正曲率—Karsten Grove's symmetry program",
+      "url": "https://zhuanlan.zhihu.com/p/25510075",
+      "summary": "正文讨论正截面曲率流形的对称秩上界及达到上界时的刚性分类，展开曲率对拓扑的约束。"
+    },
+    {
+      "title": "Volume of tubes",
+      "url": "https://zhuanlan.zhihu.com/p/26193357",
+      "summary": "正文的核心结论是管状邻域体积在短半径内为多项式，其系数只由流形的曲率张量决定。"
+    },
+    {
+      "title": "关于黎曼几何与李群拓扑的一些杂记",
+      "url": "https://zhuanlan.zhihu.com/p/27111431",
+      "summary": "正文围绕正截面曲率、Ricci 曲率及曲率对欧拉示性数和拓扑结构的约束展开讨论。"
+    },
+    {
+      "title": "本科Senior thesis的中文摘要",
+      "url": "https://zhuanlan.zhihu.com/p/27168096",
+      "summary": "正文用联络曲率的 L^2 范数定义 Yang-Mills 泛函，并由其临界点引出 Yang-Mills 方程与曲率条件。"
+    },
+    {
+      "title": "6维正曲率流形",
+      "url": "https://zhuanlan.zhihu.com/p/27263205",
+      "summary": "正文明确以正截面曲率为研究对象，说明它对流形拓扑的限制以及与正 Ricci 曲率等概念的区别。"
+    },
+    {
+      "title": "双曲空间上的群作用与动力系统",
+      "url": "https://zhuanlan.zhihu.com/p/28186692",
+      "summary": "正文用常数高斯曲率-1刻画双曲空间，讨论曲率对流形几何结构的作用。"
+    },
+    {
+      "title": "笔记：初等微几（曲线论、曲面论、第一、二基本型）",
+      "url": "https://zhuanlan.zhihu.com/p/30538009",
+      "summary": "正文定义曲线曲率与挠率，并解释主曲率、平均曲率、Gauss 曲率及其几何意义。"
+    },
+    {
+      "title": "非正曲率空间上的几个问题",
+      "url": "https://zhuanlan.zhihu.com/p/32897097",
+      "summary": "正文明确讨论正负曲率、Ricci曲率及它们对单纯体积的约束，核心涉及曲率。"
+    },
+    {
+      "title": "经典力学——正交曲线坐标系",
+      "url": "https://zhuanlan.zhihu.com/p/35162526",
+      "summary": "正文由切向量变化率定义空间曲线的曲率和曲率半径，并用其分解法向加速度。"
+    },
+    {
+      "title": "复几何：某些线丛",
+      "url": "https://zhuanlan.zhihu.com/p/35980347",
+      "summary": "正文计算线丛度量的曲率二形式，并把它与 Fubini-Study 度量的 Kähler 形式联系起来。"
+    },
+    {
+      "title": "机器学习的数学基础-（一、高等数学）",
+      "url": "https://zhuanlan.zhihu.com/p/36311622",
+      "summary": "正文给出直角坐标和参数方程曲线的曲率公式，以及曲率半径与曲率的关系。"
+    },
+    {
+      "title": "关于Katok猜想",
+      "url": "https://zhuanlan.zhihu.com/p/36697234",
+      "summary": "正文围绕负曲率黎曼流形上的测地流、Liouville 测度熵与拓扑熵陈述 Katok 猜想。"
+    },
+    {
+      "title": "如何用Mathematica做张量计算",
+      "url": "https://zhuanlan.zhihu.com/p/37451449",
+      "summary": "正文给出黎曼曲率张量的指标公式和 Mathematica 实现，并继续缩并得到里奇张量。"
+    },
+    {
+      "title": "小谈数学和物理之关系",
+      "url": "https://zhuanlan.zhihu.com/p/37968053",
+      "summary": "正文从弧微分和切线角变化推导平面曲线曲率半径，并代入抛物线完成计算。"
+    },
+    {
+      "title": "曲率的意义和推导",
+      "url": "https://zhuanlan.zhihu.com/p/41795324",
+      "summary": "正文用方向改变量与弧长之比定义曲率，并推导曲率半径及显示曲线、极坐标曲线公式。"
+    },
+    {
+      "title": "Young-Laplace方程的应用",
+      "url": "https://zhuanlan.zhihu.com/p/42473736",
+      "summary": "正文以两个主曲率半径和表面张力解释弯曲液面的附加压力，并据此求解液面形状。"
+    },
+    {
+      "title": "（转载）黎曼几何的发轫-浅谈高斯绝妙定理",
+      "url": "https://zhuanlan.zhihu.com/p/44068392",
+      "summary": "正文定义主曲率、平均曲率和高斯曲率，并证明高斯曲率只由黎曼度量决定。"
+    },
+    {
+      "title": "几个微分几何小“猜想”",
+      "url": "https://zhuanlan.zhihu.com/p/53670302",
+      "summary": "正文讨论正截面曲率与正 Ricci 曲率条件如何约束三维闭流形的几何结构。"
+    },
+    {
+      "title": "为什么法向加速度等于v^2/r",
+      "url": "https://zhuanlan.zhihu.com/p/56144489",
+      "summary": "正文由切向量沿弧长的变化定义曲率，并检验其与转角导数及圆半径的关系。"
+    },
+    {
+      "title": "Morse理论",
+      "url": "https://zhuanlan.zhihu.com/p/57502165",
+      "summary": "正文通过曲率张量算子写出Jacobi方程，并讨论曲率对测地线整体行为的影响。"
+    },
+    {
+      "title": "开会后的一点随便的想法",
+      "url": "https://zhuanlan.zhihu.com/p/59649778",
+      "summary": "正文讨论正标量曲率在特定流形上的不存在性问题，并比较极小曲面与 Dirac 算子两类论证，展开曲率研究。"
+    },
+    {
+      "title": "【指点江山】2019丘赛几何&拓扑团体试题部分解答",
+      "url": "https://zhuanlan.zhihu.com/p/63167302",
+      "summary": "正文以黎曼曲率张量定义弱负流形，并据曲率项正负构造矛盾。"
+    },
+    {
+      "title": "非正曲率流形的Gromov模",
+      "url": "https://zhuanlan.zhihu.com/p/63682670",
+      "summary": "正文讨论非正截面曲率、Ricci 曲率、零曲率截平面与 simplicial volume 正零性的联系。"
+    },
+    {
+      "title": "计算离散点的曲率（附Python, MATLAB代码）",
+      "url": "https://zhuanlan.zhihu.com/p/72083902",
+      "summary": "正文定义曲线曲率，并用三点拟合参数二次曲线来估计中间点的离散曲率。"
+    },
+    {
+      "title": "什么是曲率？什么又是挠率？",
+      "url": "https://zhuanlan.zhihu.com/p/74380868",
+      "summary": "正文给出曲线曲率的极限定义、参数公式、曲率半径和曲率圆，并计算圆与圆柱螺线的曲率。"
+    },
+    {
+      "title": "带领高中生数学科研的一段经历——2016年的PRIMES历程与感想",
+      "url": "https://zhuanlan.zhihu.com/p/78410618",
+      "summary": "正文以连续和离散曲率定义曲线缩短流，并将离散曲率驱动的顶点运动用于三角形演化分析。"
+    },
+    {
+      "title": "微分几何笔记(3) ——  Frenet标架及Frenet方程组",
+      "url": "https://zhuanlan.zhihu.com/p/89937768",
+      "summary": "正文定义 n 维曲线的各阶曲率并证明其不变性与符号性质。"
+    },
+    {
+      "title": "微分几何笔记(5) —— 第一第二基本型和Gauss曲率",
+      "url": "https://zhuanlan.zhihu.com/p/89980912",
+      "summary": "正文把 Weingarten 算子的两个特征值定义为主曲率，并据此定义高斯曲率和平均曲率。"
+    },
+    {
+      "title": "微分几何笔记(6) —— 高斯绝妙定理",
+      "url": "https://zhuanlan.zhihu.com/p/91010893",
+      "summary": "正文由 Gauss 绝妙定理证明高斯曲率只依赖曲面内蕴结构，并讨论等温坐标下的计算。"
+    },
+    {
+      "title": "【转载】微分几何经典论文",
+      "url": "https://zhuanlan.zhihu.com/p/99320860",
+      "summary": "正文在 Li-Yau 热核估计中解释 Ricci 曲率下界如何进入几何分析估计，并讨论曲率约束下的结果。"
+    },
+    {
+      "title": "四圆相切与笛卡尔定理（上篇）",
+      "url": "https://zhuanlan.zhihu.com/p/105819963",
+      "summary": "正文引入圆的有向曲率及其符号规则，并用曲率的代数关系表述和证明笛卡尔定理。"
+    },
+    {
+      "title": "如何在黎曼流形上避开鞍点？本文带你了解优化背后的数学知识",
+      "url": "https://zhuanlan.zhihu.com/p/108179558",
+      "summary": "正文用黎曼曲率张量和截面曲率描述流形弯曲，并说明曲率界限对指数映射和逃离鞍点的作用。"
+    },
+    {
+      "title": "临界点、驻点、拐点、鞍点、顶点（曲线）",
+      "url": "https://zhuanlan.zhihu.com/p/117224925",
+      "summary": "正文以抛物线为例计算曲率，并通过曲率的一阶导数为零说明曲线顶点的含义。"
+    },
+    {
+      "title": "1. 重要的基本概念：度规",
+      "url": "https://zhuanlan.zhihu.com/p/143549422",
+      "summary": "正文借助球面与圆柱面区分内曲率和外曲率，并用诱导度规说明空间是否平直。"
+    },
+    {
+      "title": "Frenet 标架",
+      "url": "https://zhuanlan.zhihu.com/p/144787656",
+      "summary": "正文用单位切向量的转动率定义曲率，并继续解释挠率及曲率在 Frenet 公式中的作用。"
+    },
+    {
+      "title": "曲面之二-曲面的第一、第二基本形式",
+      "url": "https://zhuanlan.zhihu.com/p/148001852",
+      "summary": "正文用邻近点相对切平面的法向偏离和泰勒展开构造第二基本形式，以刻画曲面的弯曲程度。"
+    },
+    {
+      "title": "卷绕数和高斯-博内定理",
+      "url": "https://zhuanlan.zhihu.com/p/148342710",
+      "summary": "正文用曲率沿弧长的积分解释闭曲线总转向，并说明平面曲率与卷绕数的关系。"
+    },
+    {
+      "title": "法曲率、测地曲率",
+      "url": "https://zhuanlan.zhihu.com/p/148585906",
+      "summary": "正文推导法曲率与测地曲率公式，并解释二者分别描述嵌入空间和曲面内的弯曲程度。"
+    },
+    {
+      "title": "高斯映射与 Weingarten 映射",
+      "url": "https://zhuanlan.zhihu.com/p/149536723",
+      "summary": "正文用单位法向量及其变化解释曲面弯曲，并将Weingarten映射与第二基本形式联系起来。"
+    },
+    {
+      "title": "法曲率、主曲率、高斯曲率、平均曲率",
+      "url": "https://zhuanlan.zhihu.com/p/149584374",
+      "summary": "正文分别定义并比较法曲率、主曲率、高斯曲率和平均曲率，讨论曲面弯曲程度。"
+    },
+    {
+      "title": "泛函微分推导膜形变方程",
+      "url": "https://zhuanlan.zhihu.com/p/165947191",
+      "summary": "正文用主曲率定义平均曲率和高斯曲率，并以曲率描述膜曲面的弯曲形态。"
+    },
+    {
+      "title": "双曲几何三角公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/231618926",
+      "summary": "正文由双曲度规定义负常数曲率空间，并利用曲率背景推导测地线与面积。"
+    },
+    {
+      "title": "Grasshopper极小曲面合集",
+      "url": "https://zhuanlan.zhihu.com/p/260054411",
+      "summary": "正文以平均曲率为零定义极小曲面，并给出多种极小曲面方程及其几何构造应用。"
+    },
+    {
+      "title": "𝑬𝒊𝒏𝒔𝒕𝒆𝒊𝒏 𝑭𝒊𝒆𝒍𝒅 𝑬𝒒𝒖𝒂𝒕𝒊𝒐𝒏'𝒔 𝑫𝒆𝒓𝒊𝒗𝒂𝒕𝒊𝒐𝒏",
+      "url": "https://zhuanlan.zhihu.com/p/270935069",
+      "summary": "正文定义曲率二形式并写出黎曼曲率张量的分量表达式。"
+    },
+    {
+      "title": "十一年磨一剑：中科大数学教授成功证明微分几何学两大猜想",
+      "url": "https://zhuanlan.zhihu.com/p/281046586",
+      "summary": "正文以里奇流中 Ricci 曲率随流形变形的变化为切入点研究拓扑性质。"
+    },
+    {
+      "title": "曲率讲义",
+      "url": "https://zhuanlan.zhihu.com/p/329990880",
+      "summary": "正文定义曲率算子与曲率张量，讨论其对称性、局部表示和 Bianchi 恒等式。"
+    },
+    {
+      "title": "非欧几何 - 伪球",
+      "url": "https://zhuanlan.zhihu.com/p/338566167",
+      "summary": "正文用主曲率乘积解释高斯曲率，并区分正曲率、负曲率曲面。"
+    },
+    {
+      "title": "图形直观的广义相对论用黎曼几何曲率算法",
+      "url": "https://zhuanlan.zhihu.com/p/351900541",
+      "summary": "正文通过对沿不同路径两次协变求导的差异作几何解释，展开曲面内禀曲率与黎曼曲率的关系。"
+    },
+    {
+      "title": "羞怯的数学家黎曼，有着太阳一样辉耀的心",
+      "url": "https://zhuanlan.zhihu.com/p/357004964",
+      "summary": "正文以常曲率空间的三种情形说明不同几何模型之间的区别。"
+    },
+    {
+      "title": "Gauss-Bonnet 定理",
+      "url": "https://zhuanlan.zhihu.com/p/363694199",
+      "summary": "正文以高斯曲率积分等于欧拉示性数的常数倍来陈述并证明 Gauss-Bonnet 定理。"
+    },
+    {
+      "title": "一些微分几何的初步知识",
+      "url": "https://zhuanlan.zhihu.com/p/364967796",
+      "summary": "正文由主曲率定义高斯曲率与平均曲率，并证明高斯曲率只依赖第一基本形式。"
+    },
+    {
+      "title": "Kerr-Newman黑洞 II：几何结构与时空拖拽",
+      "url": "https://zhuanlan.zhihu.com/p/371846476",
+      "summary": "正文通过度规退化与曲率发散刻画原点赤道处的奇环和本质奇点，具体讨论了曲率奇异结构。"
+    },
+    {
+      "title": "广义相对论学习笔记——曲率与度规篇",
+      "url": "https://zhuanlan.zhihu.com/p/369560775",
+      "summary": "正文明确解释曲率描述时空弯曲、挠率描述扭曲，并展开曲率张量、里奇张量和曲率标量。"
+    },
+    {
+      "title": "协变微分&Lie导数&外微分",
+      "url": "https://zhuanlan.zhihu.com/p/375559343",
+      "summary": "正文解释协变导数中基矢变化项反映流形弯曲，并讨论平移和联络对曲率的刻画。"
+    },
+    {
+      "title": "悬链线问题的数值解",
+      "url": "https://zhuanlan.zhihu.com/p/377559711",
+      "summary": "正文由平均曲率为零推导极小旋转曲面的微分方程，并求得悬链线解。"
+    },
+    {
+      "title": "微分几何中最不显然的一个“显然”",
+      "url": "https://zhuanlan.zhihu.com/p/378283058",
+      "summary": "正文讨论曲面主曲率的最大值与最小值，以及最大和最小主曲率对应的主方向为何正交。"
+    },
+    {
+      "title": "深度科普 | 用几何视角学相对论(18): 度规张量(下)",
+      "url": "https://zhuanlan.zhihu.com/p/380546800",
+      "summary": "正文通过球面与史瓦西度规说明空间弯曲，并介绍黎曼曲率标量及爱因斯坦场方程的含义。"
+    },
+    {
+      "title": "Pre-Integrated Skin Shading 的常见问题解答",
+      "url": "https://zhuanlan.zhihu.com/p/384541607",
+      "summary": "正文定义曲率为单位弧长对应单位切线变化量的模，并推导圆弧曲率为半径倒数。"
+    },
+    {
+      "title": "Kaluza-Klein 理论",
+      "url": "https://zhuanlan.zhihu.com/p/391192162",
+      "summary": "正文完整计算五维黎曼曲率分量，并进一步得到里奇曲率和标量曲率。"
+    },
+    {
+      "title": "[论文精读] SIGGRAPH 2020: 基于常曲率度量的曲面间几何映射",
+      "url": "https://zhuanlan.zhihu.com/p/406068846",
+      "summary": "正文以高斯曲率为核心，从平坦度量推广到常曲率的球面、平面和双曲度量。"
+    },
+    {
+      "title": "Yang-Mills gauge theory (1)",
+      "url": "https://zhuanlan.zhihu.com/p/413274790",
+      "summary": "正文定义主丛曲率二形式、给出 Cartan 结构方程，并推导场强及其规范变换。"
+    },
+    {
+      "title": "中科大陈秀雄团队成功证明凯勒几何两大核心猜想，研究登上《美国数学会杂志》",
+      "url": "https://zhuanlan.zhihu.com/p/428599426",
+      "summary": "正文讨论凯勒流形常标量曲率度量及其稳定性和存在性猜想，属于曲率相关几何问题。"
+    },
+    {
+      "title": "数学的艺术 —— 变分法",
+      "url": "https://zhuanlan.zhihu.com/p/430355170",
+      "summary": "正文把曲面面积约束下的体积变分化为平均曲率方程，并由常数平均曲率推出球面。"
+    },
+    {
+      "title": "微分几何复习",
+      "url": "https://zhuanlan.zhihu.com/p/452385504",
+      "summary": "正文展开曲线曲率、挠率、法曲率、主曲率以及平均曲率和 Gauss 曲率的定义与关系。"
+    },
+    {
+      "title": "脱离欧氏空间，在双曲空间中做NLP",
+      "url": "https://zhuanlan.zhihu.com/p/423377762",
+      "summary": "正文用曲率描述空间弯曲程度，并展开常负曲率的双曲空间及庞加莱圆盘模型。"
+    },
+    {
+      "title": "Mathematica 程序包 OGRe 广义相对论计算 汉化帮助文档",
+      "url": "https://zhuanlan.zhihu.com/p/476655667",
+      "summary": "正文给出 Ricci 张量和曲率标量的缩并关系，并说明如何由 Riemann 张量计算它们。"
+    },
+    {
+      "title": "Gauss绝妙定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/481441120",
+      "summary": "正文定义主曲率与 Gauss 曲率，并证明 Gauss 绝妙定理。"
+    },
+    {
+      "title": "[广义相对论笔记]（五）史瓦西真空解、时空拖曳的绘制",
+      "url": "https://zhuanlan.zhihu.com/p/491835878",
+      "summary": "正文计算史瓦西度规的非零曲率分量，并由真空场方程推导曲率条件。"
+    },
+    {
+      "title": "数学基础 | 直观理解黎曼几何(下): \"甜甜圈\"上的曲率张量与Ricci张量",
+      "url": "https://zhuanlan.zhihu.com/p/494603770",
+      "summary": "正文用不同路径平移后的矢量差异定义曲率，并解释曲率张量的几何意义与分量正负。"
+    },
+    {
+      "title": "【软件理论】（二）从贝塞尔(Bézier)曲线到NURBS曲线(非均匀有理B样条)的浅谈",
+      "url": "https://zhuanlan.zhihu.com/p/539477988",
+      "summary": "正文用 G1、G2、G3 连续说明切线、曲率和曲率变化率在曲线拼接处的连续性。"
+    },
+    {
+      "title": "外尔张量(Weyl tensor)",
+      "url": "https://zhuanlan.zhihu.com/p/544954863",
+      "summary": "正文由黎曼张量与里奇张量构造外尔曲率张量，并证明其在共形变换下保持不变。"
+    },
+    {
+      "title": "拓扑学基础与Gauss-Bonnet定理最速传说",
+      "url": "https://zhuanlan.zhihu.com/p/551634049",
+      "summary": "正文用 Gauss 映射和映射度推导曲率积分与拓扑示性数之间的 Gauss-Bonnet 关系。"
+    },
+    {
+      "title": "p进AdS/CFT",
+      "url": "https://zhuanlan.zhihu.com/p/555411591",
+      "summary": "正文用图上Ricci曲率描述边长涨落，并构造对应Einstein方程的非线性图动力学。"
+    },
+    {
+      "title": "黎曼的几何基础，让数学领先物理100年，维度是人类最大的障碍",
+      "url": "https://zhuanlan.zhihu.com/p/581949832",
+      "summary": "正文比较正负曲率及其对平行线和三角形内角和的影响。"
+    },
+    {
+      "title": "计算共形几何-微分几何",
+      "url": "https://zhuanlan.zhihu.com/p/582999071",
+      "summary": "正文讲解曲率、高斯绝妙定理和曲率的内蕴几何意义。"
+    },
+    {
+      "title": "家用微分几何 (第四话) 联络与平移",
+      "url": "https://zhuanlan.zhihu.com/p/584836761",
+      "summary": "正文用协变导数的交换子定义挠率和曲率张量，并解释闭合曲线平行移动的曲率意义。"
+    },
+    {
+      "title": "什么是指标定理",
+      "url": "https://zhuanlan.zhihu.com/p/590047367",
+      "summary": "正文用 Gauss-Bonnet 定理说明 Euler 数等于曲率积分，并进一步给出高维曲率形式。"
+    },
+    {
+      "title": "人类真正的“可怕”之处或许是，发展出了“超验”的非欧几何",
+      "url": "https://zhuanlan.zhihu.com/p/591629768",
+      "summary": "正文将高斯的曲率推广到任意维流形，并用常曲率分类不同几何。"
+    },
+    {
+      "title": "彭家贵、陈卿《微分几何》|第5章：曲面的内蕴几何学（习题解答）",
+      "url": "https://zhuanlan.zhihu.com/p/593479408",
+      "summary": "正文推导 Gauss 曲率的内蕴表达式，并进一步讨论测地曲率和 Gauss-Bonnet 公式。"
+    },
+    {
+      "title": "彭家贵、陈卿《微分几何》|第4章：标架与曲面论基本定理（习题解答）",
+      "url": "https://zhuanlan.zhihu.com/p/594254995",
+      "summary": "正文通过 Gauss 曲率与基本形式分类常系数曲面，并讨论 Gauss-Codazzi 方程。"
+    },
+    {
+      "title": "物理学用微分几何简表",
+      "url": "https://zhuanlan.zhihu.com/p/594867230",
+      "summary": "正文定义联络曲率、Riemann 曲率张量、Ricci 曲率、标量曲率和截面曲率。"
+    },
+    {
+      "title": "几何、拓扑、分析综合第一篇——从三角形内角和定理到Gauss-Bonnet-Chern定理",
+      "url": "https://zhuanlan.zhihu.com/p/598694962",
+      "summary": "正文解释 Gauss 曲率如何刻画曲面局部弯曲程度，并把它用于测地三角形的角度盈余公式。"
+    },
+    {
+      "title": "数学史上最伟大的演讲——黎曼的几何基础假设，几乎没有人能理解",
+      "url": "https://zhuanlan.zhihu.com/p/602421772",
+      "summary": "正文具体解释空间弯曲、测地线和曲率张量，并以曲率说明引力与黎曼几何的联系。"
+    },
+    {
+      "title": "德国最伟大的数学家——高斯，能限制住他的，只有“死亡”了",
+      "url": "https://zhuanlan.zhihu.com/p/605022798",
+      "summary": "正文通过曲面法线映射到单位球面所围面积，具体定义曲面的全曲率。"
+    },
+    {
+      "title": "计算共形几何",
+      "url": "https://zhuanlan.zhihu.com/p/592437872",
+      "summary": "正文说明共形映射可将弯曲曲面展平，并讨论曲率、高斯曲率和 Ricci 流。"
+    },
+    {
+      "title": "庞加莱球模型",
+      "url": "https://zhuanlan.zhihu.com/p/614596716",
+      "summary": "正文说明双曲空间是负曲率几何，并比较不同曲率对应的度量性质。"
+    },
+    {
+      "title": "量子几何与Wannier函数局域化",
+      "url": "https://zhuanlan.zhihu.com/p/629079639",
+      "summary": "正文把 Berry 曲率解释为量子几何张量的反对称分量，并用其布里渊区积分与 Chern 数讨论局域化下界。"
+    },
+    {
+      "title": "一文入门微分几何（物理人版）",
+      "url": "https://zhuanlan.zhihu.com/p/629852598",
+      "summary": "通过不同路径平移的差异解释曲率，并给出黎曼曲率张量与里奇曲率。"
+    },
+    {
+      "title": "为什么双曲几何非常重要？几乎所有的东西都是双曲的",
+      "url": "https://zhuanlan.zhihu.com/p/635483476",
+      "summary": "正文用负、零、正曲率区分双曲、欧氏和球面几何，并引出 Gauss-Bonnet 定理。"
+    },
+    {
+      "title": "笔记：数值计算陈数与Z2拓扑不变量方法",
+      "url": "https://zhuanlan.zhihu.com/p/641807526",
+      "summary": "正文定义 Berry curvature，并讨论其规范不变性、简并点发散以及闭合环路积分。"
+    },
+    {
+      "title": "贝里联络，贝里相位和贝里曲率的几何解释",
+      "url": "https://zhuanlan.zhihu.com/p/661697145",
+      "summary": "正文明确将向量丛联络的曲率形式与物理中的贝里曲率对应，并讨论高阶陈数的计算。"
+    },
+    {
+      "title": "百岁数学巨匠陨落！丘成桐视他为师，90岁依旧研究数学",
+      "url": "https://zhuanlan.zhihu.com/p/662688525",
+      "summary": "正文具体说明丘成桐借助 Kähler 几何中的曲率证明卡拉比猜想，并构造近似解求解相关方程。"
+    },
+    {
+      "title": "【Proof-Trivial】从三角形到流形 —— 陈省身",
+      "url": "https://zhuanlan.zhihu.com/p/667277846",
+      "summary": "正文定义高斯曲率，讨论测地曲率并说明高斯-博内公式把曲率积分与欧拉示性数联系起来。"
+    },
+    {
+      "title": "圆锥曲线的奇技淫巧（4）——从新一卷谈起的曲率半径",
+      "url": "https://zhuanlan.zhihu.com/p/670349262",
+      "summary": "正文定义曲率圆、曲率半径和曲率中心，并推导椭圆、双曲线与抛物线的曲率公式。"
+    },
+    {
+      "title": "微分几何复习&整理",
+      "url": "https://zhuanlan.zhihu.com/p/669239881",
+      "summary": "正文具体给出曲线曲率、主曲率与 Gauss 曲率的定义、计算和相互关系。"
+    },
+    {
+      "title": "彭家贵《微分几何》习题解答（习题二）",
+      "url": "https://zhuanlan.zhihu.com/p/677926371",
+      "summary": "正文证明曲线上位于球面的充要条件，并具体推导曲率、挠率与球心向量之间的关系。"
+    },
+    {
+      "title": "彭家贵《微分几何》习题解答（习题三）",
+      "url": "https://zhuanlan.zhihu.com/p/678285300",
+      "summary": "正文具体计算 Gauss 曲率、平均曲率和主曲率，并据此判断曲面上点的曲率类型和极小曲面。"
+    },
+    {
+      "title": "微分几何在工业软件中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/686045801",
+      "summary": "正文围绕高斯曲率、Ricci 流和曲率集中讨论曲面度量与网格生成。"
+    },
+    {
+      "title": "曲率，一个高度抽象的概念，真正理解它需要非常深厚的数学背景",
+      "url": "https://zhuanlan.zhihu.com/p/688163333",
+      "summary": "正文具体解释曲率张量如何度量平行移动和高维空间弯曲，并讨论高斯曲率。"
+    },
+    {
+      "title": "组合Ricci流基础",
+      "url": "https://zhuanlan.zhihu.com/p/688555543",
+      "summary": "正文定义组合 Ricci 曲率、曲率演化和极大值原理，并研究其收敛性质。"
+    },
+    {
+      "title": "极坐标系中的微分",
+      "url": "https://zhuanlan.zhihu.com/p/688763445",
+      "summary": "正文以切线角对弧长的变化率定义曲率，最终推导出极坐标曲率公式。"
+    },
+    {
+      "title": "黎曼几何简介",
+      "url": "https://zhuanlan.zhihu.com/p/694274425",
+      "summary": "正文展开曲线曲率、主曲率、高斯曲率和截面曲率，并讨论曲率与拓扑的局部整体联系。"
+    },
+    {
+      "title": "现代数学基础-G1-古典微分几何",
+      "url": "https://zhuanlan.zhihu.com/p/702328665",
+      "summary": "正文定义曲线的曲率、挠率与曲面的法曲率、主曲率和 Gauss 曲率，并解释其几何意义。"
+    },
+    {
+      "title": "相对论 (1) —— 变分原理基础",
+      "url": "https://zhuanlan.zhihu.com/p/704575236",
+      "summary": "正文用里奇曲率张量、曲率标量和爱因斯坦张量推导引力场方程，实质讨论了时空曲率。"
+    },
+    {
+      "title": "给矩形倒圆角 - (1)",
+      "url": "https://zhuanlan.zhihu.com/p/709019955",
+      "summary": "正文以曲率梳分析圆角连接处的曲率跳变，并推导 Bezier 曲线满足 G1、G2 连续的条件。"
+    },
+    {
+      "title": "曲面、联络与傅科摆：一个有趣的例子",
+      "url": "https://zhuanlan.zhihu.com/p/709991879",
+      "summary": "正文通过第二基本形式和高斯绝妙定理说明度规可以决定曲面的曲率特性。"
+    },
+    {
+      "title": "深入浅出理解黎曼流形上的活动标架法——1：活动标架法的演进",
+      "url": "https://zhuanlan.zhihu.com/p/712576964",
+      "summary": "正文以曲率算子和曲率形式刻画黎曼流形上活动标架结构方程的曲率项。"
+    },
+    {
+      "title": "聊点学术",
+      "url": "https://zhuanlan.zhihu.com/p/9417887347",
+      "summary": "正文介绍了常高斯曲率旋转对称超曲面的分类问题及相应曲率约束。"
+    },
+    {
+      "title": "微分几何最核心的概念——流形，所有的几何研究都必须在流形上进行",
+      "url": "https://zhuanlan.zhihu.com/p/16776922330",
+      "summary": "正文具体讨论参数曲线的曲率计算，并解释曲率随参数变化的几何意义。"
+    },
+    {
+      "title": "一些拓扑小题(持续更新中)",
+      "url": "https://zhuanlan.zhihu.com/p/19198396929",
+      "summary": "正文用正 Ricci 曲率对第一 Betti 数施加限制，具体说明曲率对流形拓扑的约束。"
+    },
+    {
+      "title": "双环面的万有覆叠",
+      "url": "https://zhuanlan.zhihu.com/p/28472196597",
+      "summary": "正文使用 Gauss-Bonnet 公式把正多边形密铺与常曲率联系起来，推导欧氏、球面或双曲曲率。"
+    },
+    {
+      "title": "几何：曲率与流形性质的关联，与拓扑、分析的交叉",
+      "url": "https://zhuanlan.zhihu.com/p/27671093467",
+      "summary": "正文用 Gauss-Bonnet 定理说明高斯曲率积分与欧拉示性数的关系，并讨论曲率对整体性质的约束。"
+    },
+    {
+      "title": "引力存在吗？",
+      "url": "https://zhuanlan.zhihu.com/p/11288467015",
+      "summary": "正文定义黎曼曲率张量、里奇张量和标量曲率，并用测地偏离解释曲率的可观测含义。"
+    },
+    {
+      "title": "通俗理解什么是协变导数",
+      "url": "https://zhuanlan.zhihu.com/p/1935091361129956515",
+      "summary": "正文比较矢量沿两条路径平移的差异，给出黎曼曲率张量的定义并解释各指标的分量意义。"
+    },
+    {
+      "title": "高中生也能懂的Gauss-Bonnet定理证明",
+      "url": "https://zhuanlan.zhihu.com/p/1956810053525939632",
+      "summary": "正文用角盈面积比及其局部极限定义高斯曲率，并证明其积分等于三角形势盈。"
+    },
+    {
+      "title": "速通古典微分几何",
+      "url": "https://zhuanlan.zhihu.com/p/1970133150110823312",
+      "summary": "正文定义曲线曲率、挠率，以及曲面的法曲率、主曲率、平均曲率和高斯曲率并推导相关关系。"
+    },
+    {
+      "title": "黎曼几何往年题选做",
+      "url": "https://zhuanlan.zhihu.com/p/1983300852300149819",
+      "summary": "正文围绕 Ricci 曲率、截面曲率和 Bonnet-Meyers 定理展开曲率条件与流形性质的证明。"
+    },
+    {
+      "title": "量子场论的数学 —— 以涌现的方式",
+      "url": "https://zhuanlan.zhihu.com/p/1993114129343464529",
+      "summary": "正文用微分形式和联络构造曲率二形式，并推导黎曼曲率、里奇曲率及曲率标量。"
+    },
+    {
+      "title": "如何只用线性代数得到微分几何",
+      "url": "https://zhuanlan.zhihu.com/p/1996609978740531264",
+      "summary": "正文展开法曲率矩阵、度规和内在曲率，并给出曲率与度规之间的关系式。"
+    },
+    {
+      "title": "为什么我认为AI无法取代数学家？",
+      "url": "https://zhuanlan.zhihu.com/p/2067912369746063605",
+      "summary": "正文以度量随时间演化和曲率被摊平来解释 Ricci flow 的几何思想。"
+    },
+    {
+      "title": "黎曼猜想之后，Claude再破百年猜想纪录！",
+      "url": "https://zhuanlan.zhihu.com/p/2074177853579703561",
+      "summary": "正文以各方向法曲率、两个主曲率及主方向解释脐点处的曲率结构。"
+    }
+  ]
+}

@@ -1,0 +1,711 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l4-t4-b3",
+  "sources": [
+    {
+      "title": "你见过哪些神一样的优化操作？",
+      "url": "https://www.zhihu.com/answer/97198171",
+      "summary": "正文讨论互质条件与扩展欧几里得构造。"
+    },
+    {
+      "title": "斐波那契数列第8项，21=3*7是什么意思？",
+      "url": "https://www.zhihu.com/answer/98541740",
+      "summary": "正文证明相邻斐波那契数两两互质。"
+    },
+    {
+      "title": "数论在计算机科学中有哪些精彩的应用？",
+      "url": "https://www.zhihu.com/answer/113359990",
+      "summary": "正文解释选择互质参数以及由互质性推出模乘积结论。"
+    },
+    {
+      "title": "两个人如何通过电话「扔硬币」？",
+      "url": "https://www.zhihu.com/answer/119343068",
+      "summary": "正文要求所选整数与 N 互质，并用 gcd 恢复两个素因数。"
+    },
+    {
+      "title": "数学专业出身的口算能力会比其他人强很多吗？",
+      "url": "https://www.zhihu.com/answer/123402284",
+      "summary": "正文以与10互质的数和欧拉函数说明幂的模周期。"
+    },
+    {
+      "title": "有哪些具有特殊性质的数字？",
+      "url": "https://www.zhihu.com/answer/134770643",
+      "summary": "正文明确以最大公因数为一的互质条件陈述费马小定理。"
+    },
+    {
+      "title": "x^y=y^x的有理数解问题？",
+      "url": "https://www.zhihu.com/answer/143370152",
+      "summary": "证明实质使用互素指数和整数幂分解来完成数论排除。"
+    },
+    {
+      "title": "关于密码学有限域的乘法逆的问题？",
+      "url": "https://www.zhihu.com/answer/188767505",
+      "summary": "正文由互质推出贝祖等式，再在模p下得到任意非零元素的乘法逆元。"
+    },
+    {
+      "title": "142857 这个数为什么这么神秘呢？还有其他的吗？",
+      "url": "https://www.zhihu.com/answer/197503061",
+      "summary": "正文定义互质并在欧拉函数和费马小定理证明中使用。"
+    },
+    {
+      "title": "身份证号的末位校验码算法最后一步模11是基于什么考虑？",
+      "url": "https://www.zhihu.com/answer/223049155",
+      "summary": "正文从互质条件推导模意义下乘法逆元的存在。"
+    },
+    {
+      "title": "一笔画n芒星（比如五角星、七角星）有什么规律?",
+      "url": "https://www.zhihu.com/answer/256267849",
+      "summary": "正文用与 n 互质的最小非负简化剩余系确定可画星形。"
+    },
+    {
+      "title": "对于任取的1<=i,j<=n，gcd(i,j)的数学期望是多少？",
+      "url": "https://www.zhihu.com/answer/257798727",
+      "summary": "正文推导两个自然数互素的概率。"
+    },
+    {
+      "title": "不用计算机程序，如何求1，2，…，n中所有与n互素的数的平方和？",
+      "url": "https://www.zhihu.com/answer/261590968",
+      "summary": "正文以互质约束定义幂和，并通过 Möbius 反演推导公式。"
+    },
+    {
+      "title": "RSA的公钥和私钥到底哪个才是用来加密和哪个用来解密？",
+      "url": "https://www.zhihu.com/answer/289390742",
+      "summary": "正文从互质素数 p、q 构造 RSA 模数。"
+    },
+    {
+      "title": "如何证明根号 2 是无理数？",
+      "url": "https://www.zhihu.com/answer/339637605",
+      "summary": "证明关键使用分子分母互素并推出两者均为偶数。"
+    },
+    {
+      "title": "有哪些解决完之后让你拍案叫绝的算法问题？",
+      "url": "https://www.zhihu.com/answer/352860728",
+      "summary": "正文使用互质条件与扩展欧几里得构造模方程解。"
+    },
+    {
+      "title": "站在一个无穷大的围棋/五子棋盘上的任意格点上，能够看到的格点都放上黑棋，黑棋占格点比例多少？",
+      "url": "https://www.zhihu.com/answer/388183467",
+      "summary": "正文把可见格点比例转化为两个整数互质的概率。"
+    },
+    {
+      "title": "站在一个无穷大的围棋/五子棋盘上的任意格点上，能够看到的格点都放上黑棋，黑棋占格点比例多少？",
+      "url": "https://www.zhihu.com/answer/389419655",
+      "summary": "正文指出可见格点对应整数坐标互质，并给出标准密度结果。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/393002787",
+      "summary": "正文以a与n互质为欧拉定理的前提。"
+    },
+    {
+      "title": "所有的正整数都可以表示成 2x+3y 的形式吗？",
+      "url": "https://www.zhihu.com/answer/464449068",
+      "summary": "正文陈述并证明裴蜀定理及其对最大公因数倍数的推广。"
+    },
+    {
+      "title": "有哪些网络安全上的事实，没有一定安全知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/534768362",
+      "summary": "正文明确解释公私钥指数需要满足的互质条件。"
+    },
+    {
+      "title": "怎么简便运算出 12345678923÷17 的余数是 4？",
+      "url": "https://www.zhihu.com/answer/588421895",
+      "summary": "在欧拉函数和模逆推导中使用互质条件。"
+    },
+    {
+      "title": "是否存在正整数a，b，c满足a²+b²=c²，当给定一个c值时，a，b有多种取值？",
+      "url": "https://www.zhihu.com/answer/734130231",
+      "summary": "利用互质及奇偶条件刻画本原勾股数。"
+    },
+    {
+      "title": "如何求所有三边长均为整数，有且仅有一个内角为 60 度的三角形(通解)？",
+      "url": "https://www.zhihu.com/answer/742326851",
+      "summary": "通过最大公约数与互质条件筛选本原解。"
+    },
+    {
+      "title": "怎样证明根号 3 是无理数？",
+      "url": "https://www.zhihu.com/answer/753218323",
+      "summary": "在反证中使用分子分母互素条件。"
+    },
+    {
+      "title": "辗转相除法的最大公因式怎么求？",
+      "url": "https://www.zhihu.com/answer/858956243",
+      "summary": "用 gcd 不变性求最大公因式。"
+    },
+    {
+      "title": "两个容量不同的容器（整数x和y），如果能够通过有限次倒水操作产生从1到x+y，x和y有什么要求？",
+      "url": "https://www.zhihu.com/answer/922879529",
+      "summary": "正文用裴蜀定理说明两个容器容量互素是倒出任意整数容量的关键。"
+    },
+    {
+      "title": "如何证明 1²+2²+…+n² 为平方数的解只有 n＝1 或 n＝24？",
+      "url": "https://www.zhihu.com/answer/955384976",
+      "summary": "证明先利用三个因子两两互质，把各因子分解为平方数与 6 的因子。"
+    },
+    {
+      "title": "如何看待京都大学的望月新一教授证明「ABC 猜想」，发表在其主编的期刊上？",
+      "url": "https://www.zhihu.com/answer/1127566002",
+      "summary": "正文定义两两互质并在 abc 猜想条件中反复使用。"
+    },
+    {
+      "title": "可以留下一个优美的恒等式吗？",
+      "url": "https://www.zhihu.com/answer/1169611261",
+      "summary": "正文通过欧拉函数完整计数与n互素的正整数。"
+    },
+    {
+      "title": "可以留下一个优美的恒等式吗？",
+      "url": "https://www.zhihu.com/answer/1171713085",
+      "summary": "正文在狄利克雷定理和欧拉函数中实质使用互素条件。"
+    },
+    {
+      "title": "精通密码学的人是怎么设置密码的？",
+      "url": "https://www.zhihu.com/answer/1484776386",
+      "summary": "正文直接给出与「互质」相关的解释、推导或应用。"
+    },
+    {
+      "title": "你见过哪些让人眼前一亮的数学题？",
+      "url": "https://www.zhihu.com/answer/1491693346",
+      "summary": "正文直接给出与「互质」相关的解释、推导或应用。"
+    },
+    {
+      "title": "如何用初等数论知识证明26是唯一夹在一个平方数和立方数间的正整数？",
+      "url": "https://www.zhihu.com/answer/1575478979",
+      "summary": "正文先证明两个共轭代数整数互素，再使用唯一分解。"
+    },
+    {
+      "title": "2的次方数里有没有哪个数是3的倍数？",
+      "url": "https://www.zhihu.com/answer/1618819139",
+      "summary": "正文以互素和欧几里得引理证明整除结论。"
+    },
+    {
+      "title": "任取两个大于 2 的整数，其互质的概率是多少？",
+      "url": "https://www.zhihu.com/answer/1725011190",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "任取两个大于 2 的整数，其互质的概率是多少？",
+      "url": "https://www.zhihu.com/answer/1725090460",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "任取两个大于 2 的整数，其互质的概率是多少？",
+      "url": "https://www.zhihu.com/answer/1725597981",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "任取两个大于 2 的整数，其互质的概率是多少？",
+      "url": "https://www.zhihu.com/answer/1726410682",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "是否存在整数x使93x ≡ 1010 (mod2021)？",
+      "url": "https://www.zhihu.com/answer/1874059265",
+      "summary": "正文先用最大公约数判断同余方程可解性。"
+    },
+    {
+      "title": "如何看待这位知友提出的这个声称只有他能解的问题？",
+      "url": "https://www.zhihu.com/answer/1895402219",
+      "summary": "正文利用最大公因数和互质条件推导整数解结构。"
+    },
+    {
+      "title": "请问2021的2021次方的各位数字之和的各位数字之和等于几？",
+      "url": "https://www.zhihu.com/answer/1898461234",
+      "summary": "正文使用底数与模数互质时的欧拉定理。"
+    },
+    {
+      "title": "请问怎么求三元一次方程 198x＋252y＋924z＝12 的整数解？",
+      "url": "https://www.zhihu.com/answer/1938131252",
+      "summary": "正文直接讨论并支撑「互质」相关内容。"
+    },
+    {
+      "title": "信息奥赛中的数论与数学竞赛生学的数论有何区别？",
+      "url": "https://www.zhihu.com/answer/2015051209",
+      "summary": "正文利用互质指示和莫比乌斯反演化简求和。"
+    },
+    {
+      "title": "如何证明 √2 + √3 + √5 是无理数？",
+      "url": "https://www.zhihu.com/answer/2022117169",
+      "summary": "正文利用最简分数的互质条件证明根号无理。"
+    },
+    {
+      "title": "中国剩余定理有没有上升到抽象代数的定理？",
+      "url": "https://www.zhihu.com/answer/2292983012",
+      "summary": "正文指出中国剩余定理中的互素条件。"
+    },
+    {
+      "title": "小数的小数次方可以是整数吗？",
+      "url": "https://www.zhihu.com/answer/2765607074",
+      "summary": "正文在N大于0的无解证明中使用a与b、c与d互素的条件，并据此从因数关系推出底数为整数。"
+    },
+    {
+      "title": "为什么1/23和1/29的循环节如此相似？",
+      "url": "https://www.zhihu.com/answer/2804952319",
+      "summary": "正文在费马小定理证明中利用 a 与 p 互素，说明各倍数模 p 的余数非零且两两不同。"
+    },
+    {
+      "title": "如何证明方程x^2+1=y^3除了(0,1)之外没有整数解?",
+      "url": "https://www.zhihu.com/answer/2964311569",
+      "summary": "正文利用 x+i 与 x-i 互素判定两者各自为立方数，再比较实部和虚部求解。"
+    },
+    {
+      "title": "什么样的整系数多项式必含有无穷多个素数？？",
+      "url": "https://www.zhihu.com/answer/3045573342",
+      "summary": "正文用互质条件刻画 Dirichlet 定理中可产生无穷多素数的一次多项式，并给出 gcd 条件。"
+    },
+    {
+      "title": "是否存在相异有理数a,b,使得a^a=b^b？",
+      "url": "https://www.zhihu.com/answer/3333806990",
+      "summary": "正文利用 p,q 互素及素因子指数关系排除其他可能，是互质性质在证明中的具体应用。"
+    },
+    {
+      "title": "是否存在一个面积为1，三条边都是有理数的直角三角形？",
+      "url": "https://www.zhihu.com/answer/3426601144",
+      "summary": "正文利用四个互素因子的乘积为完全平方数，推出各因子分别可表示为平方。"
+    },
+    {
+      "title": "为什么感觉每当提到古代的天才，脑海中关于我国的就都是文学天才，而关于西方的却是数学天才？",
+      "url": "https://www.zhihu.com/answer/3506964823",
+      "summary": "正文说明大衍求一术先把一般模数化为两两互素的情形，再沿用求等方法完成同余式求解。"
+    },
+    {
+      "title": "这个简单的不定方程如何解决？",
+      "url": "https://www.zhihu.com/answer/3542731146",
+      "summary": "正文以 gcd 和互素条件贯穿引理、推论及整数解证明。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/3594058459",
+      "summary": "正文先给出互素数的定义，再用多组数展示如何判断两数是否只有一个公约数。"
+    },
+    {
+      "title": "克苏鲁神话中的san值清零疯癫自尽是恐惧导致的吗？",
+      "url": "https://www.zhihu.com/answer/3722731398",
+      "summary": "正文以 a、b 互质作为反证前提，并利用两者的公因数矛盾证明根号 2 不是有理数。"
+    },
+    {
+      "title": "姜萍的事怎么现在没流量了？",
+      "url": "https://www.zhihu.com/answer/4003738297",
+      "summary": "正文把最简分数定义为 m 与 n 无公因子，并利用共同因子 2 与假设矛盾完成证明。"
+    },
+    {
+      "title": "如何评价丘成桐说鸡兔同笼问题，小学生不要用繁琐的《九章算术》解法，就用方程，干脆简单？",
+      "url": "https://www.zhihu.com/answer/33258324121",
+      "summary": "正文由更相减损术最终得到的等数推出最大公因数，并据此说明相邻数互质。"
+    },
+    {
+      "title": "数学中有什么难以置信的结论？",
+      "url": "https://www.zhihu.com/answer/33902378176",
+      "summary": "正文以两个整数互质为问题，给出概率为 6/π² 并说明计算机抽样经验结果与理论值接近。"
+    },
+    {
+      "title": "有人提出一个想法，勾股数都是由 3，4，5 衍生出来，我是数学白痴不太懂，请问一下是这样吗？",
+      "url": "https://www.zhihu.com/answer/113336005211",
+      "summary": "正文以三数互素定义本原勾股数组，并据此讨论其结构和整除结论。"
+    },
+    {
+      "title": "为什么这个级数会如此接近整数?",
+      "url": "https://www.zhihu.com/answer/117711979726",
+      "summary": "正文把结论推广到与 2、3、5 互质的合数，互素条件正是整数性成立的关键。"
+    },
+    {
+      "title": "如何证明任意一组勾股数的乘积肯定是60的倍数？",
+      "url": "https://www.zhihu.com/answer/1897760819363685572",
+      "summary": "正文利用本原勾股数两两互素的条件推出一奇一偶，并进一步得到 4 的倍数。"
+    },
+    {
+      "title": "求所有整数n，使n⁷-41为完全平方数?",
+      "url": "https://www.zhihu.com/answer/1904412656745549973",
+      "summary": "正文证明两个理想互素，再据此把乘积为七次方写成两个理想的七次方。"
+    },
+    {
+      "title": "西方伪史论，多读两本书就能反驳吗？",
+      "url": "https://www.zhihu.com/answer/1914743314026050280",
+      "summary": "正文通过辗转相减直到余数为一的过程说明两数互质，并把这一判定与最大公约数联系起来。"
+    },
+    {
+      "title": "是否存在一个无理数x，使得x^x为有理数?",
+      "url": "https://www.zhihu.com/answer/1915929983865553758",
+      "summary": "正文利用 q 的质因数同时整除 p，与 p、q 互质的最简分数假设冲突，从而完成证明。"
+    },
+    {
+      "title": "是否存在一个无理数x，使得x^x为有理数?",
+      "url": "https://www.zhihu.com/answer/1916070460103332245",
+      "summary": "正文把有理根写成互素整数之比，并多次利用互质条件限制 p、q 的素因子。"
+    },
+    {
+      "title": "请问中国剩余定理（孙子定理）有什么用途，又有什么直观的意义吗？",
+      "url": "https://www.zhihu.com/answer/1938355934440190922",
+      "summary": "正文明确指出模数两两互质是中国剩余定理保证同余方程组有唯一解的条件。"
+    },
+    {
+      "title": "n为奇数时，2^n+1与n^2+1一定互质吗?",
+      "url": "https://www.zhihu.com/answer/1955702518182052765",
+      "summary": "正文从两数不互质推出存在共同素数 p，并分别分析它能整除两个表达式的条件。"
+    },
+    {
+      "title": "如何证明根号 2 是无理数？",
+      "url": "https://www.zhihu.com/answer/1960993943853437544",
+      "summary": "正文先假设 p、q 互质，再由平方关系推出二者都为偶数，利用互质条件完成反证。"
+    },
+    {
+      "title": "你曾经看过哪些精彩的数学书？",
+      "url": "https://www.zhihu.com/answer/1964239856583574623",
+      "summary": "正文给出互素数的定义，并用多组大小不同的整数演示判断互素的方法。"
+    },
+    {
+      "title": "为什么我们使用10进制，而不使用11进制?",
+      "url": "https://www.zhihu.com/answer/2008150088657159868",
+      "summary": "正文利用非零数字均与底数互素说明乘法表中个位数字构成缩系。"
+    },
+    {
+      "title": "有哪些名字逗比的科学定理？",
+      "url": "https://www.zhihu.com/answer/2035002479419639511",
+      "summary": "正文陈述互质两数的 Frobenius 型结论，并用若干整数线性组合展示大于该界限的数可表示。"
+    },
+    {
+      "title": "有哪些看起来很难但做起来很简单的数学题？",
+      "url": "https://www.zhihu.com/answer/2035435681015656941",
+      "summary": "正文明确使用连续整数互素这一事实支撑欧几里得证明。"
+    },
+    {
+      "title": "生活在Minecraft的世界中的人，会发现圆周率π吗？",
+      "url": "https://www.zhihu.com/answer/2061469358610814266",
+      "summary": "正文把随机抽取两个正整数是否互质作为求圆周率的路径，并给出互质概率与 6/π² 的关系。"
+    },
+    {
+      "title": "数学中的战争，战争中的数学——漫谈密码（3）",
+      "url": "https://zhuanlan.zhihu.com/p/21401118",
+      "summary": "正文用最大公因子定义互素，并要求 RSA 的公开指数与欧拉函数值互素。"
+    },
+    {
+      "title": "模法简论",
+      "url": "https://zhuanlan.zhihu.com/p/24399209",
+      "summary": "正文说明欧拉幂模要求底数与模数互质，并用最大公因数分解处理不互质的情形。"
+    },
+    {
+      "title": "“走马灯数” 142857  与 初等数论入门",
+      "url": "https://zhuanlan.zhihu.com/p/27853213",
+      "summary": "正文定义互质，并在简化剩余系的证明中利用各项与模数互质来约去乘积，完成费马-欧拉定理证明。"
+    },
+    {
+      "title": "数论及数论四大定理",
+      "url": "https://zhuanlan.zhihu.com/p/33619702",
+      "summary": "正文以互素条件刻画欧拉定理，并用欧拉函数举例说明互质与幂余数之间的关系。"
+    },
+    {
+      "title": "随机算法线性同余法的理解",
+      "url": "https://zhuanlan.zhihu.com/p/36301602",
+      "summary": "正文利用最大公约数和互素条件证明模逆的存在性与唯一性，并用于解同余方程。"
+    },
+    {
+      "title": "关于欧拉函数及其一些性质的美妙证明(1)",
+      "url": "https://zhuanlan.zhihu.com/p/36979522",
+      "summary": "正文以与n互质的正整数定义欧拉函数，并利用互质性论证缩剩余系的乘法封闭性。"
+    },
+    {
+      "title": "关于欧拉函数及其一些性质的美妙证明（2）",
+      "url": "https://zhuanlan.zhihu.com/p/37067555",
+      "summary": "正文围绕与 n 互质整数的计数，定义互质并用最大公约数为 1 判定，推导欧拉函数在不同素因子情形下的公式。"
+    },
+    {
+      "title": "《思考的乐趣》中一个有趣现象的推广及证明",
+      "url": "https://zhuanlan.zhihu.com/p/37595906",
+      "summary": "正文把 a 与 m-1 互质作为猜想条件，并在证明中用该互质关系推出相关序列遍历完全剩余系。"
+    },
+    {
+      "title": "人教版五年级数学（下册）知识要点（一）",
+      "url": "https://zhuanlan.zhihu.com/p/38956619",
+      "summary": "正文定义互质数并说明相邻自然数、两个质数等典型互质情形。"
+    },
+    {
+      "title": "初等数论学习笔记（一）",
+      "url": "https://zhuanlan.zhihu.com/p/41337006",
+      "summary": "正文讨论互质数与公因数，并用贝祖等式刻画互质关系来完成若干整除证明。"
+    },
+    {
+      "title": "初等数论学习笔记（二）",
+      "url": "https://zhuanlan.zhihu.com/p/41460722",
+      "summary": "正文以互素为条件定义欧拉函数，并推导其积性公式及与整数互素的计数关系。"
+    },
+    {
+      "title": "初等数论学习笔记（三）",
+      "url": "https://zhuanlan.zhihu.com/p/41588857",
+      "summary": "正文利用互素条件约去既约剩余系元素，从而证明欧拉定理，并推出费马小定理。"
+    },
+    {
+      "title": "5÷2=6？——是的，模7意义下",
+      "url": "https://zhuanlan.zhihu.com/p/44523169",
+      "summary": "正文借助裴蜀等式证明模 n 乘法逆元存在当且仅当 a 与 n 互素。"
+    },
+    {
+      "title": "中国剩余定理（CRT ）",
+      "url": "https://zhuanlan.zhihu.com/p/44591114",
+      "summary": "正文以模数两两互素为条件，陈述并证明中国剩余定理。"
+    },
+    {
+      "title": "理解黎曼猜想（二）两个自然数互质的概率是多少？ | 袁岚峰",
+      "url": "https://zhuanlan.zhihu.com/p/47978393",
+      "summary": "正文从排除各素数公共因子的角度推导互质概率，明确解释并使用了互质定义。"
+    },
+    {
+      "title": "欧拉函数的计算式",
+      "url": "https://zhuanlan.zhihu.com/p/56548135",
+      "summary": "正文以与 n 互素的数定义欧拉函数，并在素数幂和积性证明中反复使用互素条件。"
+    },
+    {
+      "title": "数论挖坟篇：Gauss取整函数",
+      "url": "https://zhuanlan.zhihu.com/p/56459078",
+      "summary": "正文单独证明互素整数条件下的高斯取整求和恒等式，并说明互素条件排除整除情形。"
+    },
+    {
+      "title": "我有特殊的求逆元姿势",
+      "url": "https://zhuanlan.zhihu.com/p/57877982",
+      "summary": "正文用x与模数P是否互质判断模逆元是否存在，并展开扩展欧几里得与欧拉定理求法。"
+    },
+    {
+      "title": "扩展欧几里得算法",
+      "url": "https://zhuanlan.zhihu.com/p/58241990",
+      "summary": "正文证明 a、b 互质是 a 在模 b 下存在乘法逆元的必要且充分条件。"
+    },
+    {
+      "title": "五个例子详述数学中的无穷递降法",
+      "url": "https://zhuanlan.zhihu.com/p/76910624",
+      "summary": "正文利用解的最小性和变量互质推导勾股数组，并保持互质条件完成递降。"
+    },
+    {
+      "title": "2019 年东京大学理科数学高考试题 解答",
+      "url": "https://zhuanlan.zhihu.com/p/78967934",
+      "summary": "正文用辗转相除法分奇偶讨论两数的最大公约数，并据此证明其乘积不可能为平方数。"
+    },
+    {
+      "title": "北大《高等代数》第四版读书笔记（第一章）",
+      "url": "https://zhuanlan.zhihu.com/p/80567381",
+      "summary": "正文定义多项式互素，并用裴蜀式关系证明互素多项式的整除性质。"
+    },
+    {
+      "title": "【国际数学竞赛】同余理论(Modulo)",
+      "url": "https://zhuanlan.zhihu.com/p/79648438",
+      "summary": "正文在欧拉定理应用中先确认2与13互质，再依据互质条件把大指数同余化简。"
+    },
+    {
+      "title": "算法学习笔记(8)：拓展欧几里得",
+      "url": "https://zhuanlan.zhihu.com/p/100567253",
+      "summary": "正文指出线性同余方程有解需要 gcd(a,b)=1，并据此说明互质条件下的解与通解结构。"
+    },
+    {
+      "title": "算法学习笔记(9)：逆元",
+      "url": "https://zhuanlan.zhihu.com/p/100587745",
+      "summary": "正文陈述 p 为质数且 gcd(a,p)=1 时的费马小定理，并用互质条件推导逆元公式。"
+    },
+    {
+      "title": "算法学习笔记(10): 中国剩余定理",
+      "url": "https://zhuanlan.zhihu.com/p/103394468",
+      "summary": "正文明确要求各模数两两互质，并利用互质条件保证模逆元存在。"
+    },
+    {
+      "title": "详解Winograd变换矩阵生成原理",
+      "url": "https://zhuanlan.zhihu.com/p/102351953",
+      "summary": "正文用互素条件判定模逆元存在，并在中国剩余定理的一般形式中明确要求模数两两互素。"
+    },
+    {
+      "title": "浅谈升幂（LTE）引理",
+      "url": "https://zhuanlan.zhihu.com/p/104730410",
+      "summary": "正文给出升幂引理在 p 与 ab 互质条件下的和式推论，并在例题中反复使用该条件。"
+    },
+    {
+      "title": "分圆多项式的简单性质与应用",
+      "url": "https://zhuanlan.zhihu.com/p/105400582",
+      "summary": "正文在不可约性证明中选取与 n 互素的素数，并利用互素条件控制根与模 p 论证。"
+    },
+    {
+      "title": "数论小白入门-- 莫比乌斯反演",
+      "url": "https://zhuanlan.zhihu.com/p/106775790",
+      "summary": "正文围绕 gcd 为 1 的互质条件，用莫比乌斯反演计算与整数互质之数的幂和。"
+    },
+    {
+      "title": "莫比乌斯反演公式",
+      "url": "https://zhuanlan.zhihu.com/p/107369246",
+      "summary": "正文以与 n 互质的剩余类计数定义欧拉函数，并由莫比乌斯反演推出其乘积公式。"
+    },
+    {
+      "title": "算法学习笔记(18): 欧拉函数",
+      "url": "https://zhuanlan.zhihu.com/p/108422764",
+      "summary": "正文以与 x 互质的正整数个数定义欧拉函数，并利用互质性推导其积性和计算公式。"
+    },
+    {
+      "title": "Kobayashi定理在竞赛中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/112458972",
+      "summary": "正文把构造互质正整数作为证明目标，并通过令 a=t、b=p-t 说明其最大公因数为 1。"
+    },
+    {
+      "title": "Hensel引理",
+      "url": "https://zhuanlan.zhihu.com/p/112291050",
+      "summary": "正文利用导数与素数 p 互质来保证模 p 下可逆，从而唯一确定解的提升方向。"
+    },
+    {
+      "title": "评审8年终获发表，数学天才望月新一证明abc猜想，全球只有十几个数学家读懂但争议未消",
+      "url": "https://zhuanlan.zhihu.com/p/124847878",
+      "summary": "正文明确给出互质正整数的定义，并用符合条件的组合具体说明abc猜想。"
+    },
+    {
+      "title": "算法学习笔记(33): 拓展欧拉定理",
+      "url": "https://zhuanlan.zhihu.com/p/131536831",
+      "summary": "正文按底数与模数是否互质分类讨论，并利用质因数分解证明拓展欧拉定理。"
+    },
+    {
+      "title": "算法学习笔记(36): 莫比乌斯反演",
+      "url": "https://zhuanlan.zhihu.com/p/138038817",
+      "summary": "正文把互质条件写成最大公因数为 1，并用莫比乌斯函数与整除分块完成计数推导。"
+    },
+    {
+      "title": "Shor 算法-无门槛学习！",
+      "url": "https://zhuanlan.zhihu.com/p/139329165",
+      "summary": "正文用互质定义欧拉函数和欧拉定理，并在 RSA 密钥构造中要求指数与模数互质。"
+    },
+    {
+      "title": "使用 Lean 证明 根号2 是一个无理数",
+      "url": "https://zhuanlan.zhihu.com/p/149846259",
+      "summary": "正文利用最简分数中分子分母互质的条件，与二者均为偶数推出矛盾。"
+    },
+    {
+      "title": "欧拉函数φ(n)的计算及欧拉定理",
+      "url": "https://zhuanlan.zhihu.com/p/151756874",
+      "summary": "正文以小于或等于 n 且与 n 互质的正整数定义欧拉函数，并用 φ(8) 的具体互质关系说明。"
+    },
+    {
+      "title": "算法学习笔记(40): 原根",
+      "url": "https://zhuanlan.zhihu.com/p/166043237",
+      "summary": "正文利用指数与欧拉函数互质的关系，判定哪些幂仍是原根并生成全部原根。"
+    },
+    {
+      "title": "费马大定理n=2,3,4时候的讨论与证明",
+      "url": "https://zhuanlan.zhihu.com/p/170614541",
+      "summary": "正文把最大公因数为 1 与两两互素作为勾股数参数化和费马情形证明的关键条件。"
+    },
+    {
+      "title": "当数论遇上分析——拉马努金和与欧拉函数的故事",
+      "url": "https://zhuanlan.zhihu.com/p/166530236",
+      "summary": "正文由拉马努金和在零点的取值推出其计数 n 以内与 n 互素的整数，从而得到欧拉函数。"
+    },
+    {
+      "title": "从不定方程到数字的宿命——Thue的伟大定理",
+      "url": "https://zhuanlan.zhihu.com/p/184975153",
+      "summary": "正文由两数之差为 1 推出它们互质，并据此把相关方程化为有限种互素情形。"
+    },
+    {
+      "title": "闲谈费马大定理",
+      "url": "https://zhuanlan.zhihu.com/p/300922469",
+      "summary": "正文反复应用最大公因子为一的互质条件，证明勾股数参数形式以及后续数论分解。"
+    },
+    {
+      "title": "刷算法题必备的数学考点汇总",
+      "url": "https://zhuanlan.zhihu.com/p/301338035",
+      "summary": "正文用最大公约数定义互质，并给出裴蜀定理及 ax+by=1 的互质判据。"
+    },
+    {
+      "title": "小学数学五年级下册知识点归纳总结",
+      "url": "https://zhuanlan.zhihu.com/p/342975966",
+      "summary": "正文说明互质的定义，并系统列举判断两数互质的常用特殊情况。"
+    },
+    {
+      "title": "阶与原根",
+      "url": "https://zhuanlan.zhihu.com/p/349128258",
+      "summary": "正文从 a 与 p 互素的条件出发定义阶，并反复使用互素性证明原根性质。"
+    },
+    {
+      "title": "高斯整数环Z[i]杂谈（上）",
+      "url": "https://zhuanlan.zhihu.com/p/352221826",
+      "summary": "正文详细推导本原勾股数证明中的互素关系，并据此分解 a+bi 与 a-bi。"
+    },
+    {
+      "title": "欧拉定理、中国剩余定理以及一道有趣的数论题",
+      "url": "https://zhuanlan.zhihu.com/p/358731224",
+      "summary": "正文以a、n互素为前提建立缩剩余系，并用模两两互素保证同余方程组有解。"
+    },
+    {
+      "title": "乘法逆元",
+      "url": "https://zhuanlan.zhihu.com/p/378728642",
+      "summary": "正文把互质作为模乘法逆元存在的条件，并解释模数与乘数互质的适用范围。"
+    },
+    {
+      "title": "群论观点下的费尔马小定理",
+      "url": "https://zhuanlan.zhihu.com/p/382764463",
+      "summary": "正文由最大公约数为1定义乘法同余群，并利用贝祖等式说明互素元素存在乘法逆元。"
+    },
+    {
+      "title": "筛法（1）——抽象形式与常用形式",
+      "url": "https://zhuanlan.zhihu.com/p/381786559",
+      "summary": "正文把筛除素因子改写为最大公约数为 1 的条件，从而用互素刻画连续区间上的筛法。"
+    },
+    {
+      "title": "数论：数论问题的一些处理技巧",
+      "url": "https://zhuanlan.zhihu.com/p/405064839",
+      "summary": "正文利用互素条件、公共因子和模运算阶证明与 2 的幂相关的整除结论。"
+    },
+    {
+      "title": "幂次数的“社交距离”有多大？—— 卡塔兰猜想",
+      "url": "https://zhuanlan.zhihu.com/p/415981790",
+      "summary": "正文分析两个高斯整数的最大公约数，并解释该语境下互质关系及单位因子的含义。"
+    },
+    {
+      "title": "逆元 —— 广义化的倒数",
+      "url": "https://zhuanlan.zhihu.com/p/449221995",
+      "summary": "正文通过最大公约数判断两数是否互素，并据此判断模逆元是否存在。"
+    },
+    {
+      "title": "欧拉定理 —— 数论四大定理之手",
+      "url": "https://zhuanlan.zhihu.com/p/452185813",
+      "summary": "正文以与 n 互素的剩余类集合及其乘 a 后的一一性为核心证明欧拉定理。"
+    },
+    {
+      "title": "应用密码学 | 离散对数问题（Discrete logarithm Problem）",
+      "url": "https://zhuanlan.zhihu.com/p/523658036",
+      "summary": "正文通过小于等于 n 且与 n 互质的整数个数定义欧拉函数，并给出具体计数例子。"
+    },
+    {
+      "title": "001：第1届IMO第1题长啥样？简单吗？| 1959年第1届IMO第1题",
+      "url": "https://zhuanlan.zhihu.com/p/539801624",
+      "summary": "正文把分数不可约转化为分子分母互质，并用最大公约数判定互素关系。"
+    },
+    {
+      "title": "《数论基础》答案（1）——整数的可除性",
+      "url": "https://zhuanlan.zhihu.com/p/543010816",
+      "summary": "正文用最大公约数记号系统证明多个互质关系及其在整除、因式分解和不定方程中的性质。"
+    },
+    {
+      "title": "分圆多项式  cyclotomic polynomial",
+      "url": "https://zhuanlan.zhihu.com/p/544114747",
+      "summary": "正文利用互素整数的最大公约数性质证明指数差的最大公约数公式，并用于分圆多项式互素性的证明。"
+    },
+    {
+      "title": "原根的概念、性质及其存在性",
+      "url": "https://zhuanlan.zhihu.com/p/591377528",
+      "summary": "正文利用指数与欧拉函数互质时的贝祖关系，判定哪些原根次方仍是原根。"
+    },
+    {
+      "title": "【初等数论】二次曲线上的有理点问题",
+      "url": "https://zhuanlan.zhihu.com/p/597368922",
+      "summary": "正文在证明前把系数化为无平方因子且两两互素，并利用互素性排除公因子。"
+    },
+    {
+      "title": "费马小定理（通俗易懂）",
+      "url": "https://zhuanlan.zhihu.com/p/616185983",
+      "summary": "正文把 gcd(a,p)=1 作为核心条件，说明 a 与质数 p 互质时非零剩余类可重新排列。"
+    },
+    {
+      "title": "【旧版订正】数论：概念和问题1——韦达跳跃",
+      "url": "https://zhuanlan.zhihu.com/p/639719565",
+      "summary": "正文用既约分数条件及最大公约数为一来说明矛盾，具体讲解了互质关系。"
+    },
+    {
+      "title": "升幂引理（LTE）(初等数论五）",
+      "url": "https://zhuanlan.zhihu.com/p/664900136",
+      "summary": "正文以 p 与 n 互质为条件区分定理情形，并把问题归结到 p 整除 n 的证明。"
+    },
+    {
+      "title": "速通初等数论",
+      "url": "https://zhuanlan.zhihu.com/p/678934867",
+      "summary": "正文围绕最大公因数、互素与裴蜀定理说明互质整数可线性表示为一，并用其求模逆元。"
+    }
+  ]
+}

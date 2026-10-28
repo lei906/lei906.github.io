@@ -1,0 +1,3071 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l5-t4-b2",
+  "sources": [
+    {
+      "title": "为什么 空间二阶导（拉普拉斯算子）这么重要？",
+      "url": "https://www.zhihu.com/answer/35022987",
+      "summary": "正文在黎曼几何中讨论拉普拉斯算子的内蕴性质。"
+    },
+    {
+      "title": "大学数学系学什么？",
+      "url": "https://www.zhihu.com/answer/41666311",
+      "summary": "正文说明微分几何在拓扑流形上加入度量并研究相关几何现象，属于对该分支的实质解释。"
+    },
+    {
+      "title": "学习代数几何需要怎样的基础？",
+      "url": "https://www.zhihu.com/answer/41994440",
+      "summary": "正文列出微分几何作为相关基础。"
+    },
+    {
+      "title": "如果对机器学习仅是以应用为目的的话，到底需要多少数学…，比如说微分流形，代数拓扑，泛函之类的需要懂吗？",
+      "url": "https://www.zhihu.com/answer/44265538",
+      "summary": "正文介绍矩阵流形上的优化及其微分几何背景。"
+    },
+    {
+      "title": "微分几何（Differential Geometry）在工程领域有什么应用？",
+      "url": "https://www.zhihu.com/answer/66588895",
+      "summary": "正文以平均曲率和网格简化举例说明微分几何应用。"
+    },
+    {
+      "title": "蚂蚁绕北回归线一圈转了多少度？",
+      "url": "https://www.zhihu.com/answer/76920509",
+      "summary": "正文用内蕴性质、平行移动和 Gauss-Bonnet 公式解释曲面转角。"
+    },
+    {
+      "title": "学习经典微分几何课有什么收获？",
+      "url": "https://www.zhihu.com/answer/79984761",
+      "summary": "正文用极小曲面和 Willmore 猜想介绍微分几何的实际背景。"
+    },
+    {
+      "title": "请推荐黎曼几何的教材?",
+      "url": "https://www.zhihu.com/answer/82924612",
+      "summary": "正文从教材视角讨论微分几何的学习与内容组织。"
+    },
+    {
+      "title": "为什么人们都喜欢用几何概念外微分来阐述微分的意义呢？",
+      "url": "https://www.zhihu.com/answer/85955348",
+      "summary": "正文从外微分、微分形式和曲率讨论现代微分几何。"
+    },
+    {
+      "title": "如何理解微分几何中的『联络』?",
+      "url": "https://www.zhihu.com/answer/86190745",
+      "summary": "正文从方向导数和 Leibniz 律推导流形上的仿射联络。"
+    },
+    {
+      "title": "外微分形式为什么要是反对称的？Cartan当年为什么要这样定义？",
+      "url": "https://www.zhihu.com/answer/89545903",
+      "summary": "正文从 Cartan、Pfaff 方程和坐标变换解释反对称外微分形式的来源。"
+    },
+    {
+      "title": "李导数与协变导数有什么联系？",
+      "url": "https://www.zhihu.com/answer/89750078",
+      "summary": "正文从流形上不同点的张量比较解释李导数和协变导数。"
+    },
+    {
+      "title": "李导数与协变导数有什么联系？",
+      "url": "https://www.zhihu.com/answer/89795597",
+      "summary": "正文系统比较李导数、协变导数的依赖、联络和移动法则。"
+    },
+    {
+      "title": "流形上的微分形式有何深层次意义？",
+      "url": "https://www.zhihu.com/answer/91486843",
+      "summary": "正文以标架、Cartan结构方程和Hodge算符说明微分形式在微分几何计算中的作用。"
+    },
+    {
+      "title": "代数几何是否对 PDE 的研究有启发？",
+      "url": "https://www.zhihu.com/answer/91919912",
+      "summary": "正文说明代数几何问题如何转成微分几何与几何分析问题。"
+    },
+    {
+      "title": "微分和导数的关系是什么？两者的几何意义有什么不同？为什么要定义微分 ?",
+      "url": "https://www.zhihu.com/answer/95428294",
+      "summary": "正文从切空间、微分形式和外微分角度解释微分几何中的导数。"
+    },
+    {
+      "title": "Clifford 代数是什么, 它和 Dirac 算子有什么关系?",
+      "url": "https://www.zhihu.com/answer/96172330",
+      "summary": "正文说明 Clifford 丛、Spinor 丛与微分算子在指标理论中的统一作用。"
+    },
+    {
+      "title": "现代几何的方法在概率论研究上有什么应用？",
+      "url": "https://www.zhihu.com/answer/99514172",
+      "summary": "正文以信息几何为主体，明确展开微分几何研究概率问题的应用。"
+    },
+    {
+      "title": "什么是 Wilson Loop?",
+      "url": "https://www.zhihu.com/answer/103641604",
+      "summary": "正文用流形、联络、平移和曲率类比解释规范理论中的 Wilson loop。"
+    },
+    {
+      "title": "数学上有哪些丑陋的公式？",
+      "url": "https://www.zhihu.com/answer/112942821",
+      "summary": "正文给出光滑曲面的基本形式、Christoffel符号以及Gauss-Codazzi方程。"
+    },
+    {
+      "title": "是否存在三维空间的保角变换？",
+      "url": "https://www.zhihu.com/answer/113562085",
+      "summary": "正文从共形映射、度规拉回与微分同胚推导高维保角变换。"
+    },
+    {
+      "title": "微分几何中的克氏符是什么东西？有什么现实直观例子没有？",
+      "url": "https://www.zhihu.com/answer/114256162",
+      "summary": "正文系统讲解 Christoffel 符号、联络、度规及其几何意义。"
+    },
+    {
+      "title": "从对数学的贡献上来讲，丘成桐有多厉害？",
+      "url": "https://www.zhihu.com/answer/116355197",
+      "summary": "正文说明几何分析把 PDE 先验估计应用到微分几何。"
+    },
+    {
+      "title": "微分符号 dx、dy 表示什么含义？",
+      "url": "https://www.zhihu.com/answer/122914721",
+      "summary": "正文把dx解释为余切丛或标架丛对偶丛的典范截面，属于微分几何语言。"
+    },
+    {
+      "title": "数学硕士/博士研究生阶段有哪些定理/论文/理论让你为之振奋？",
+      "url": "https://www.zhihu.com/answer/125876617",
+      "summary": "正文实质介绍辛几何的非挤压定理、辛映射及其面积刚性。"
+    },
+    {
+      "title": "历史上有哪些著名的数学定理在当时证明非常冗长，但是用现代的观点简洁明了？",
+      "url": "https://www.zhihu.com/answer/126137080",
+      "summary": "正文解释高斯绝妙定理在内蕴微分几何中的地位，以及现代向量、张量记号如何简化证明。"
+    },
+    {
+      "title": "如何评价陈省身的数学成就？",
+      "url": "https://www.zhihu.com/answer/126472975",
+      "summary": "正文以 Gauss–Bonnet、Chern–Simons 和示性形式为线索，实质讨论陈省身的微分几何工作。"
+    },
+    {
+      "title": "普通人对于现代数学各个分支的理解难度，从高到低排名是怎样的？",
+      "url": "https://www.zhihu.com/answer/126479989",
+      "summary": "正文概述微分几何从曲线曲面发展为研究高维流形等抽象空间几何性质的历程。"
+    },
+    {
+      "title": "Kahler几何的发展历程及其背景意义是什么",
+      "url": "https://www.zhihu.com/answer/130913936",
+      "summary": "正文从辛结构、复结构、度量、嵌入和上同调等角度梳理Kähler几何的发展内容。"
+    },
+    {
+      "title": "几何学（代数几何、微分几何、复几何、辛几何）最核心的问题是什么？",
+      "url": "https://www.zhihu.com/answer/131280169",
+      "summary": "正文把黎曼、辛、复几何放入广义微分几何框架，比较各自的分析工具。"
+    },
+    {
+      "title": "泊松括号背后的物理意义？",
+      "url": "https://www.zhihu.com/answer/131650955",
+      "summary": "正文从哈密顿方程、泊松括号与辛形式推导守恒量和正则坐标不变性，属于辛几何语境。"
+    },
+    {
+      "title": "什么叫内蕴几何？",
+      "url": "https://www.zhihu.com/answer/144677695",
+      "summary": "正文系统讨论微分几何从外蕴定义到内蕴不变量的核心思想。"
+    },
+    {
+      "title": "现代数学的目的是什么？",
+      "url": "https://www.zhihu.com/answer/147349630",
+      "summary": "正文用欧几里得、高斯、黎曼、嘉当和陈省身的工作梳理微分几何的发展。"
+    },
+    {
+      "title": "微分几何（Differential Geometry）在工程领域有什么应用？",
+      "url": "https://www.zhihu.com/answer/153626074",
+      "summary": "正文解释微分几何如何构造不依赖参数表示的对象并应用于自然梯度。"
+    },
+    {
+      "title": "谁来帮忙细细总结一下 20 世纪几何学的发展进程？",
+      "url": "https://www.zhihu.com/answer/162218230",
+      "summary": "正文系统比较古典与现代微分几何，并介绍整体几何、几何分析等发展。"
+    },
+    {
+      "title": "有哪些在你的数学领域里很有用的技巧？",
+      "url": "https://www.zhihu.com/answer/164754108",
+      "summary": "正文逐项解释正曲率微分几何中的比较、全测地子流形、灵魂定理等方法。"
+    },
+    {
+      "title": "有哪些名字逗比的科学定理？",
+      "url": "https://www.zhihu.com/answer/166525485",
+      "summary": "正文说明绝妙定理如何开启曲面的内蕴微分几何观点。"
+    },
+    {
+      "title": "你最钦佩的数学天才是谁？",
+      "url": "https://www.zhihu.com/answer/170547372",
+      "summary": "正文梳理纳什在等距嵌入与微分几何中的核心贡献。"
+    },
+    {
+      "title": "你所在的领域里，有哪些堪称开山之作的论文？",
+      "url": "https://www.zhihu.com/answer/174090702",
+      "summary": "正文说明黎曼内蕴微分几何及其对整体微分几何发展的奠基作用。"
+    },
+    {
+      "title": "北大数学系田刚的学问到底怎么样？",
+      "url": "https://www.zhihu.com/answer/183984867",
+      "summary": "正文以凯勒－爱因斯坦度量、Ricci 流和杨－米尔斯理论介绍田刚在微分几何中的工作。"
+    },
+    {
+      "title": "如何理解Maurer-Cartan形式？",
+      "url": "https://www.zhihu.com/answer/189305448",
+      "summary": "正文从 Cartan 联络、复流形形变到辛流形系统讲解微分几何结构。"
+    },
+    {
+      "title": "你所在数学领域的 big picture 是什么？",
+      "url": "https://www.zhihu.com/answer/190177707",
+      "summary": "正文回顾微分几何从局部曲面与曲率走向整体流形、拓扑和相对论的发展。"
+    },
+    {
+      "title": "对Maryam Mirzakhani的工作很感兴趣，有没有人能简单的谈一谈她的工作？",
+      "url": "https://www.zhihu.com/answer/199836706",
+      "summary": "正文具体说明辛几何、Fenchel–Nielsen 坐标与模空间体积形变的联系。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/206383005",
+      "summary": "正文以切平面、临界值和 Whitney 构造解释微分拓扑中的反直觉曲面。"
+    },
+    {
+      "title": "如何入门几何分析？",
+      "url": "https://www.zhihu.com/answer/206802352",
+      "summary": "正文解释几何分析以分析工具研究几何对象的范围与要求。"
+    },
+    {
+      "title": "如何入门几何分析？",
+      "url": "https://www.zhihu.com/answer/206904994",
+      "summary": "正文把微分几何作为几何分析的基础语言并给出学习顺序。"
+    },
+    {
+      "title": "做数学不同方向的人各有什么特点？",
+      "url": "https://www.zhihu.com/answer/231221774",
+      "summary": "正文解释整体微分几何连接几何条件与拓扑性质。"
+    },
+    {
+      "title": "你所在的科研领域有哪些做不动的问题？",
+      "url": "https://www.zhihu.com/answer/251245731",
+      "summary": "正文集中讨论 Finsler 几何中的闭测地线和度量问题。"
+    },
+    {
+      "title": "想学好黎曼几何和微分几何要在哪方面打下坚实的基础呢？",
+      "url": "https://www.zhihu.com/answer/264750189",
+      "summary": "正文解释现代微分几何与古典曲线曲面论的联系。"
+    },
+    {
+      "title": "有哪些美丽或神奇的理科公式？",
+      "url": "https://www.zhihu.com/answer/267813453",
+      "summary": "正文从测地线方程解释曲面上的直线和最短路径。"
+    },
+    {
+      "title": "数学这门学科有多有趣？",
+      "url": "https://www.zhihu.com/answer/269800016",
+      "summary": "正文说明 Calabi 猜想对现代微分几何和几何分析的影响。"
+    },
+    {
+      "title": "流形、微分几何研究的具体是什么？能不能用简单的话总结一下？",
+      "url": "https://www.zhihu.com/answer/277132694",
+      "summary": "正文说明现代微分几何从曲线曲面论过渡到流形。"
+    },
+    {
+      "title": "协变张量和逆变张量有何区别？仅仅是上下标的区别吗？",
+      "url": "https://www.zhihu.com/answer/285609840",
+      "summary": "正文以坐标变换和度规张量解释微分几何中的协变规则。"
+    },
+    {
+      "title": "如何评价Gromov在数学领域的成就？",
+      "url": "https://www.zhihu.com/answer/296607509",
+      "summary": "正文解释其发展度量几何并改变微分几何研究面貌。"
+    },
+    {
+      "title": "为什么三角形内角和一定是 180 度？",
+      "url": "https://www.zhihu.com/answer/302167869",
+      "summary": "正文从曲面曲率和可展曲面解释平面结论的几何本质。"
+    },
+    {
+      "title": "为什么要研究非交换几何？",
+      "url": "https://www.zhihu.com/answer/313665967",
+      "summary": "正文通过算子代数和谱三元组把微分几何对象代数化，形成非交换微分几何。"
+    },
+    {
+      "title": "为什么说 Nevanlinna 的值分布理论是复变函数的巅峰？",
+      "url": "https://www.zhihu.com/answer/336575053",
+      "summary": "正文围绕 Kähler 度量、Ricci 曲率、Chern 类和联络具体展开复微分几何论证。"
+    },
+    {
+      "title": "为什么辛几何领域有这么多的争议？",
+      "url": "https://www.zhihu.com/answer/337323900",
+      "summary": "正文系统讨论辛流形、拉格朗日子流形及Fukaya理论的适用条件。"
+    },
+    {
+      "title": "怎样理解微分流形中的 Frobenius 定理？",
+      "url": "https://www.zhihu.com/answer/353674449",
+      "summary": "正文使用微分形式和外微分讲解核心微分几何定理。"
+    },
+    {
+      "title": "如何评价数学家苏步青？",
+      "url": "https://www.zhihu.com/answer/369405935",
+      "summary": "正文从局部坐标与协变表示讨论整体微分几何计算。"
+    },
+    {
+      "title": "如何通俗易懂地解释外微分？",
+      "url": "https://www.zhihu.com/answer/372583138",
+      "summary": "正文以微分形式、向量场和多线性张量通俗解释外微分。"
+    },
+    {
+      "title": "微分到底是什么意思？实际意义是什么？",
+      "url": "https://www.zhihu.com/answer/440242420",
+      "summary": "正文以切矢量、对偶空间和微分形式连接微分几何。"
+    },
+    {
+      "title": "有哪些在你的数学领域里很有用的技巧？",
+      "url": "https://www.zhihu.com/answer/451268509",
+      "summary": "正文系统讲解辛几何中的Moser技巧、Lagrangian结构与形变。"
+    },
+    {
+      "title": "学习古典微分几何还有意义吗？",
+      "url": "https://www.zhihu.com/answer/473181084",
+      "summary": "正文从曲面论连接复流形和黎曼流形。"
+    },
+    {
+      "title": "什么是 Finsler Geometry？它与 Riemann 几何有什么关系？",
+      "url": "https://www.zhihu.com/answer/490650206",
+      "summary": "正文从辛几何视角比较 Finsler 与 Riemann 几何。"
+    },
+    {
+      "title": "圆环可以展成直线，球面为什么就不能展成平面？",
+      "url": "https://www.zhihu.com/answer/497028380",
+      "summary": "正文实质解释曲面的内蕴微分几何。"
+    },
+    {
+      "title": "如何评价线性代数的几个理解层次？",
+      "url": "https://www.zhihu.com/answer/500851741",
+      "summary": "正文说明线性代数在微分几何中的应用。"
+    },
+    {
+      "title": "如何把古典微分几何里面的定理公式一个一个计算推导出来?",
+      "url": "https://www.zhihu.com/answer/510056449",
+      "summary": "讨论三维曲面论、极小曲面和古典微分几何公式推导的学习方法。"
+    },
+    {
+      "title": "什么是自旋联络？",
+      "url": "https://www.zhihu.com/answer/527798754",
+      "summary": "从旋量丛、标架、Levi-Civita 联络和 Clifford 作用解释自旋联络。"
+    },
+    {
+      "title": "关于整体微分几何？",
+      "url": "https://www.zhihu.com/answer/535744325",
+      "summary": "全文比较局部与整体微分几何的对象和工具。"
+    },
+    {
+      "title": "黎曼几何与微分几何是什么关系？",
+      "url": "https://www.zhihu.com/answer/538401629",
+      "summary": "正文解释黎曼几何与更广义现代微分几何的包含关系。"
+    },
+    {
+      "title": "使用局部坐标处理微分流形是必须的吗？",
+      "url": "https://www.zhihu.com/answer/541960126",
+      "summary": "正文讨论微分几何的坐标、分析与几何结构。"
+    },
+    {
+      "title": "数学家 Donaldson 是否过誉了？以下评价是否合理？",
+      "url": "https://www.zhihu.com/answer/543367632",
+      "summary": "正文实质讨论复几何、联络、度量与稳定性。"
+    },
+    {
+      "title": "2018 年，数学界发生了哪些大事件？",
+      "url": "https://www.zhihu.com/answer/545399041",
+      "summary": "正文系统介绍极小曲面和几何分析的发展与证明思路。"
+    },
+    {
+      "title": "现代数学的潮流是什么？",
+      "url": "https://www.zhihu.com/answer/550396680",
+      "summary": "以极小曲面、几何流和曲率问题说明当代微分几何研究方向。"
+    },
+    {
+      "title": "现代数学的潮流是什么？",
+      "url": "https://www.zhihu.com/answer/550449674",
+      "summary": "用模空间、几何流和极小曲面分类解释现代微分几何的研究视角。"
+    },
+    {
+      "title": "数学中的形变理论是什么？",
+      "url": "https://www.zhihu.com/answer/566090711",
+      "summary": "联系复流形、辛结构和微分几何中的形变问题。"
+    },
+    {
+      "title": "当科技发展到就算一个人只选择一个方向，却终其一生无法达到最前沿水平时，会发生什么？",
+      "url": "https://www.zhihu.com/answer/566646651",
+      "summary": "用辛几何与 Fukaya 范畴举例说明前沿结构间的联系。"
+    },
+    {
+      "title": "2010 年以来，人类数学在概念上有哪些突破？",
+      "url": "https://www.zhihu.com/answer/568268234",
+      "summary": "介绍微分几何中的极小曲面与 min-max 理论进展。"
+    },
+    {
+      "title": "博士即将毕业或已经毕业的你，做出了哪些科研贡献？",
+      "url": "https://www.zhihu.com/answer/578933011",
+      "summary": "正文说明该问题在微分几何中的研究背景。"
+    },
+    {
+      "title": "如何看待 Schoen 和 Yau 关于高维正质量定理的证明？",
+      "url": "https://www.zhihu.com/answer/580593456",
+      "summary": "以极小超曲面方法解释正质量定理的新证明。"
+    },
+    {
+      "title": "研究几何拓扑的人是如何研究 moduli space 或者 teichmuller space 的？",
+      "url": "https://www.zhihu.com/answer/614321362",
+      "summary": "正文从微分几何讨论曲线模空间。"
+    },
+    {
+      "title": "什么是Arakelov几何？",
+      "url": "https://www.zhihu.com/answer/620284245",
+      "summary": "说明该理论借用复微分几何和复流形工具研究数论对象。"
+    },
+    {
+      "title": "什么是曲率和曲率半径？",
+      "url": "https://www.zhihu.com/answer/624707205",
+      "summary": "以密接圆和抛物线顶点计算展示微分几何中的曲率。"
+    },
+    {
+      "title": "数学家乌伦贝克获 2019 年度阿贝尔奖，成为该奖首位女性得主，她在现代几何分析等领域有哪些成就？",
+      "url": "https://www.zhihu.com/answer/628105755",
+      "summary": "从极小曲面、调和映射与规范几何解释 Uhlenbeck 的几何分析方法。"
+    },
+    {
+      "title": "能不能请数学业界人士实锤丁小平微积分错误?",
+      "url": "https://www.zhihu.com/answer/631675088",
+      "summary": "解释外微分形式在微分几何中的代数构造与几何含义。"
+    },
+    {
+      "title": "如何理解凯林矢量场（Killing vector field）？",
+      "url": "https://www.zhihu.com/answer/669420862",
+      "summary": "用度规、拉回和李导数推导 Killing 方程。"
+    },
+    {
+      "title": "综合微分几何（Synthetic Differential Geometry）有什么用处？",
+      "url": "https://www.zhihu.com/answer/693161939",
+      "summary": "介绍综合微分几何以无穷小对象重建微分。"
+    },
+    {
+      "title": "综合微分几何（Synthetic Differential Geometry）有什么用处？",
+      "url": "https://www.zhihu.com/answer/695297525",
+      "summary": "介绍导出微分几何与模空间的虚基本类。"
+    },
+    {
+      "title": "怎样的数学问题叫一个好问题？",
+      "url": "https://www.zhihu.com/answer/698763571",
+      "summary": "从曲面、曲率和几何流介绍极小曲面问题。"
+    },
+    {
+      "title": "格林公式的物理意义和几何意义是什么？为什么格林公式与路径无关？",
+      "url": "https://www.zhihu.com/answer/706368491",
+      "summary": "把微分形式和广义 Stokes 公式置于几何框架。"
+    },
+    {
+      "title": "什么是 Simpson correspondence？我们为什么还要研究 p-adic 版本的？",
+      "url": "https://www.zhihu.com/answer/718933797",
+      "summary": "把对应推广到Kähler流形和向量丛。"
+    },
+    {
+      "title": "数学有哪些领域完全不涉及微积分？",
+      "url": "https://www.zhihu.com/answer/734483109",
+      "summary": "正文具体解释微积分与线性代数如何通过局部欧几里得化形成微分几何。"
+    },
+    {
+      "title": "数学该不该被踢出高考？数学有什么用处？",
+      "url": "https://www.zhihu.com/answer/736199111",
+      "summary": "正文以陈省身的工作说明整体微分几何的产生及其跨领域影响。"
+    },
+    {
+      "title": "微分几何在统计或者理论的计量经济学中有什么应用？",
+      "url": "https://www.zhihu.com/answer/749097542",
+      "summary": "正文系统使用微分几何研究统计分布间的divergence。"
+    },
+    {
+      "title": "如何简明地解释曲率（curvature）？",
+      "url": "https://www.zhihu.com/answer/751706539",
+      "summary": "从曲线、曲面到流形介绍微分几何对象。"
+    },
+    {
+      "title": "数学中有什么难以置信的结论？",
+      "url": "https://www.zhihu.com/answer/758519291",
+      "summary": "讨论高维流形上的光滑结构。"
+    },
+    {
+      "title": "二阶混合偏导数的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/773244434",
+      "summary": "以曲面方向曲率解释二阶算子的几何意义。"
+    },
+    {
+      "title": "如何评价陈省身？",
+      "url": "https://www.zhihu.com/answer/843220509",
+      "summary": "正文围绕微分几何的历史、研究对象及其与物理和拓扑的关系展开讨论。"
+    },
+    {
+      "title": "如何理解几何相位 (Berry phase)？除了 AB 效应外，类似的通俗易懂的实验或者现象有哪些？",
+      "url": "https://www.zhihu.com/answer/879499276",
+      "summary": "用参数空间上的联络、曲率和曲面积分给出几何解释。"
+    },
+    {
+      "title": "如何衡量一个平面内不规则封闭曲线「趋近圆形」的程度？",
+      "url": "https://www.zhihu.com/answer/883314403",
+      "summary": "用曲线缩短流讨论曲线趋近圆的几何机制。"
+    },
+    {
+      "title": "微分几何的核心脉络是什么？",
+      "url": "https://www.zhihu.com/answer/953993519",
+      "summary": "正文以几何分析、复微分几何、几何流等方向梳理微分几何研究脉络。"
+    },
+    {
+      "title": "怎么理解 dx⊗dy？",
+      "url": "https://www.zhihu.com/answer/980433572",
+      "summary": "正文从函数芽、余切向量与微分形式解释 dx、dy 及体积元。"
+    },
+    {
+      "title": "直角坐标与极坐标的互化中，为什么 dxdy=rdrdθ？",
+      "url": "https://www.zhihu.com/answer/992671463",
+      "summary": "正文以微分形式的楔积推导极坐标面积元。"
+    },
+    {
+      "title": "直角坐标与极坐标的互化中，为什么 dxdy=rdrdθ？",
+      "url": "https://www.zhihu.com/answer/996029993",
+      "summary": "正文从微分形式、外积与坐标变换系统解释面积元。"
+    },
+    {
+      "title": "对于高数以及更加高深的数学学习者来说，你们是如何思考并想象数理问题的？",
+      "url": "https://www.zhihu.com/answer/1008976682",
+      "summary": "正文实质解释微分几何、内蕴几何和曲率的研究对象。"
+    },
+    {
+      "title": "代数与几何的关系就像本质与现象的关系那样吗？",
+      "url": "https://www.zhihu.com/answer/1016176412",
+      "summary": "正文实质概括微分几何研究空间曲率。"
+    },
+    {
+      "title": "「圆周率＝4」这个说法是否真实？",
+      "url": "https://www.zhihu.com/answer/1026475626",
+      "summary": "正文从微分几何定义可微曲线长度。"
+    },
+    {
+      "title": "和辛几何比较起来，为什么切触几何（contact geometry）目前很少有人研究？",
+      "url": "https://www.zhihu.com/answer/1035802084",
+      "summary": "正文介绍切触几何与几何拓扑、同伦理论的研究联系。"
+    },
+    {
+      "title": "和辛几何比较起来，为什么切触几何（contact geometry）目前很少有人研究？",
+      "url": "https://www.zhihu.com/answer/1036118680",
+      "summary": "正文深入比较辛几何和切触几何的结构与动力学差异。"
+    },
+    {
+      "title": "度量几何是什么，为什么不用联络和曲率，是哪些人创立发展呢？",
+      "url": "https://www.zhihu.com/answer/1048711439",
+      "summary": "正文讲解 Gromov 大尺度几何与微分几何的联系。"
+    },
+    {
+      "title": "2019年微分几何领域有什么突破？",
+      "url": "https://www.zhihu.com/answer/1063599266",
+      "summary": "正文说明长度谱刚性问题及其局部版本的研究进展。"
+    },
+    {
+      "title": "流形、微分几何研究的具体是什么？能不能用简单的话总结一下？",
+      "url": "https://www.zhihu.com/answer/1097153489",
+      "summary": "正文解释内蕴微分几何为何把曲面自身视作空间。"
+    },
+    {
+      "title": "如何评价陈省身？",
+      "url": "https://www.zhihu.com/answer/1116196240",
+      "summary": "正文回顾陈省身在整体微分几何中的贡献。"
+    },
+    {
+      "title": "如何理解微分几何中的切空间？",
+      "url": "https://www.zhihu.com/answer/1168138705",
+      "summary": "正文从内禀几何和方向导数解释微分几何中的向量。"
+    },
+    {
+      "title": "把围棋棋盘上下边和左右边连起来，变成面包圈，下棋策略会有什么变化？",
+      "url": "https://www.zhihu.com/answer/1170134787",
+      "summary": "正文通过Nash嵌入与等距映射解释曲面折叠。"
+    },
+    {
+      "title": "可以留下一个优美的恒等式吗？",
+      "url": "https://www.zhihu.com/answer/1186874651",
+      "summary": "正文系统解释切向量、切空间与坐标无关性。"
+    },
+    {
+      "title": "怎样能一句话形容数学分析的恐怖？",
+      "url": "https://www.zhihu.com/answer/1196900219",
+      "summary": "正文用外微分形式的 Stokes 公式统一多个积分定理。"
+    },
+    {
+      "title": "如何理解曲面第一和第二基本形式？",
+      "url": "https://www.zhihu.com/answer/1219133569",
+      "summary": "正文解释曲面第一基本形式与度量。"
+    },
+    {
+      "title": "信息几何（Information Geometry）这个方向前景如何？",
+      "url": "https://www.zhihu.com/answer/1220767968",
+      "summary": "正文说明信息几何的微分流形框架。"
+    },
+    {
+      "title": "如何评价 Willmore 猜想？这个猜想在微分几何里处于什么样的地位？",
+      "url": "https://www.zhihu.com/answer/1238442136",
+      "summary": "正文讨论闭曲面、亏格、球极投影与极小曲面理论。"
+    },
+    {
+      "title": "如何理解广义相对论和杨米尔斯理论的相似性和框架上的不同？",
+      "url": "https://www.zhihu.com/answer/1239809878",
+      "summary": "正文用主丛、联络和曲率二形式比较广义相对论与杨米尔斯理论。"
+    },
+    {
+      "title": "如何（通过实例）理解李群上的积分？",
+      "url": "https://www.zhihu.com/answer/1278623323",
+      "summary": "正文以双不变度规和体元说明李群上的积分。"
+    },
+    {
+      "title": "如何理解微分几何中的『联络』?",
+      "url": "https://www.zhihu.com/answer/1288387611",
+      "summary": "正文从纤维丛、切丛分解与微分算子解释联络。"
+    },
+    {
+      "title": "如何学习几何学（现代微分几何，包括微分流形，黎曼几何等）？",
+      "url": "https://www.zhihu.com/answer/1290311596",
+      "summary": "正文系统给出微分几何的学习路线与概念重点。"
+    },
+    {
+      "title": "现代几何学，哪些分支算东西比较少。我看的文章都是再算，算东西真的是我的短板？",
+      "url": "https://www.zhihu.com/answer/1313971095",
+      "summary": "正文直接讲解“微分几何”相关内容。"
+    },
+    {
+      "title": "如何评价俄罗斯数学家 Vladimir Igorevich Arnold 的数学成就？",
+      "url": "https://www.zhihu.com/answer/1337244287",
+      "summary": "正文介绍阿诺德在辛几何、辛拓扑、微分方程和经典力学中的贡献。"
+    },
+    {
+      "title": "如何理解凯林矢量场（Killing vector field）？",
+      "url": "https://www.zhihu.com/answer/1363718557",
+      "summary": "正文使用协变导数和流形上的积分曲线描述 Killing 方程。"
+    },
+    {
+      "title": "如何理解微分同胚的概念？",
+      "url": "https://www.zhihu.com/answer/1370759669",
+      "summary": "正文说明微分同胚保持光滑结构并允许局部坐标转换。"
+    },
+    {
+      "title": "如何自学几何课程？",
+      "url": "https://www.zhihu.com/answer/1386278023",
+      "summary": "正文重点推荐黎曼几何教材。"
+    },
+    {
+      "title": "构造微分流形这个概念的动机是什么？",
+      "url": "https://www.zhihu.com/answer/1386703179",
+      "summary": "正文用微分同胚和局部坐标解释微分几何结构。"
+    },
+    {
+      "title": "哪些 Python 库让你相见恨晚？",
+      "url": "https://www.zhihu.com/answer/1396431106",
+      "summary": "正文用 SymPy 计算联络系数，联系微分几何。"
+    },
+    {
+      "title": "目标微分几何的本科生是否有必要学习抽象代数几何？",
+      "url": "https://www.zhihu.com/answer/1412823508",
+      "summary": "正文比较代数几何、微分几何与代数拓扑的学习关系。"
+    },
+    {
+      "title": "atiyah singer 指标定理的学习路径是怎样的？",
+      "url": "https://www.zhihu.com/answer/1463141930",
+      "summary": "正文讨论流形、黎曼几何和示性类等微分几何前置知识。"
+    },
+    {
+      "title": "大家有谁初学流形用的是陈省身微分几何讲义，怎么评价这本教材呢？",
+      "url": "https://www.zhihu.com/answer/1470367328",
+      "summary": "正文评价微分几何教材并讨论教材适合的层次。"
+    },
+    {
+      "title": "如何理解微分几何中的切空间？",
+      "url": "https://www.zhihu.com/answer/1472292683",
+      "summary": "正文把切空间置于微分几何与黎曼几何课程中讲解。"
+    },
+    {
+      "title": "请问Kobayashi那样的微分几何风格和利用PDE研究的微分几何有什么区别?",
+      "url": "https://www.zhihu.com/answer/1499881385",
+      "summary": "正文直接给出与「微分几何」相关的解释、推导或应用。"
+    },
+    {
+      "title": "模形式和微分几何有联系吗？",
+      "url": "https://www.zhihu.com/answer/1514092289",
+      "summary": "正文从谱几何与Laplace算子的谱讨论微分几何。"
+    },
+    {
+      "title": "模形式和微分几何有联系吗？",
+      "url": "https://www.zhihu.com/answer/1515639621",
+      "summary": "正文以微分几何与模形式的关系为主线展开。"
+    },
+    {
+      "title": "为什么格林公式里有个负号，而高斯公式没有负号?",
+      "url": "https://www.zhihu.com/answer/1562365544",
+      "summary": "正文用微分形式和外微分统一解释 Green、Gauss 与 Stokes 公式。"
+    },
+    {
+      "title": "我国数学家成功证明微分几何学两大核心猜想，如何理解这两个猜想？他们取得了怎样的重大突破？",
+      "url": "https://www.zhihu.com/answer/1565183821",
+      "summary": "正文介绍复流形上的 Kähler-Ricci 流及其几何极限。"
+    },
+    {
+      "title": "我国数学家成功证明微分几何学两大核心猜想，如何理解这两个猜想？他们取得了怎样的重大突破？",
+      "url": "https://www.zhihu.com/answer/1565573192",
+      "summary": "正文详细解释 Kähler-Ricci 流与 Hamilton-Tian 猜想。"
+    },
+    {
+      "title": "2020 年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/1639076279",
+      "summary": "正文总结高维极小超曲面与几何变分研究。"
+    },
+    {
+      "title": "怎样比较好的理解陈类（Chern classes）?",
+      "url": "https://www.zhihu.com/answer/1647941785",
+      "summary": "正文从向量丛联络与曲率解释陈类。"
+    },
+    {
+      "title": "如何通俗易懂地解释外微分？",
+      "url": "https://www.zhihu.com/answer/1648117495",
+      "summary": "正文用有向面积元解释微分形式的几何意义。"
+    },
+    {
+      "title": "数学中的哪些分支密切依赖于空间思维或想象力？",
+      "url": "https://www.zhihu.com/answer/1652922719",
+      "summary": "正文说明微分几何可能依赖符号与不等式而非直观图像。"
+    },
+    {
+      "title": "几何测度论的最重要观点是什么？",
+      "url": "https://www.zhihu.com/answer/1656844325",
+      "summary": "正文从极小曲面与几何子流形解释几何测度论。"
+    },
+    {
+      "title": "菲尔兹奖设立以来，有哪些没有拿菲尔兹奖的数学家，他们的数学贡献并不比菲尔兹奖获得者弱？",
+      "url": "https://www.zhihu.com/answer/1657453660",
+      "summary": "正文介绍 Nash 在流形等距嵌入与微分几何中的重要工作。"
+    },
+    {
+      "title": "微分几何怎么这么难啊？",
+      "url": "https://www.zhihu.com/answer/1666967436",
+      "summary": "正文系统介绍微分几何与黎曼几何内容。"
+    },
+    {
+      "title": "微分几何怎么这么难啊？",
+      "url": "https://www.zhihu.com/answer/1673401001",
+      "summary": "正文解释微分几何尤其是黎曼几何的难点。"
+    },
+    {
+      "title": "有哪些值得推荐的《微分几何》教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1685604787",
+      "summary": "正文区分古典与现代微分几何课程内容。"
+    },
+    {
+      "title": "微分几何怎么这么难啊？",
+      "url": "https://www.zhihu.com/answer/1708890857",
+      "summary": "正文建议按曲线曲面、微分形式和黎曼几何顺序学习微分几何。"
+    },
+    {
+      "title": "什么是张量 (tensor)？",
+      "url": "https://www.zhihu.com/answer/1732557045",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "微分几何怎么这么难啊？",
+      "url": "https://www.zhihu.com/answer/1742443032",
+      "summary": "正文直接讨论或推导「微分几何」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "如何看待中科大 26 岁教授陈杲攻克数学复微分几何领域世界难题？",
+      "url": "https://www.zhihu.com/answer/1757650521",
+      "summary": "正文系统说明复微分几何、度量和联络等研究对象。"
+    },
+    {
+      "title": "高斯到底有多厉害？",
+      "url": "https://www.zhihu.com/answer/1758797698",
+      "summary": "正文说明高斯对曲面、曲率和古典微分几何的奠基作用。"
+    },
+    {
+      "title": "预计研究方向为非线性分析与辛几何，刚自学完一遍微分流形，该怎么选择适合自学的黎曼几何教材？",
+      "url": "https://www.zhihu.com/answer/1764258277",
+      "summary": "正文解释曲率和拓扑如何相互影响。"
+    },
+    {
+      "title": "2021 年 2 月 11 日美国数学家伊萨多·辛格去世，享年 96 岁，如何评价其一生的贡献？",
+      "url": "https://www.zhihu.com/answer/1774398722",
+      "summary": "正文说明辛格从整体微分几何进入指标理论研究。"
+    },
+    {
+      "title": "你最欣赏哪位哪个数学家的工作，理由是什么？",
+      "url": "https://www.zhihu.com/answer/1780308821",
+      "summary": "正文评价 Gromov 在流形几何与几何群论中的工作。"
+    },
+    {
+      "title": "为什么几何分析方向的华人数学学者很多？",
+      "url": "https://www.zhihu.com/answer/1784788156",
+      "summary": "正文比较几何分析中曲率语言与 Gromov 风格的微分几何。"
+    },
+    {
+      "title": "矩阵合同的本质是什么，在坐标系或者基中？",
+      "url": "https://www.zhihu.com/answer/1813474935",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "如何评价数学家黎曼的成就与历史地位？",
+      "url": "https://www.zhihu.com/answer/1815625048",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "复几何和辛几何有什么好的给外行人看的综述?",
+      "url": "https://www.zhihu.com/answer/1839730973",
+      "summary": "正文从流形与黎曼面概述复几何的发展。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/1887487579",
+      "summary": "正文用切空间、余切空间和微分形式解释 dy/dx。"
+    },
+    {
+      "title": "北大数学系田刚的学问到底怎么样？",
+      "url": "https://www.zhihu.com/answer/1895931417",
+      "summary": "正文围绕微分几何课程内容及其与微积分的关系展开。"
+    },
+    {
+      "title": "如何客观评价丘成桐老师的学术贡献呢？",
+      "url": "https://www.zhihu.com/answer/1905967290",
+      "summary": "正文评价丘成桐在几何分析及微分几何中的贡献。"
+    },
+    {
+      "title": "2022世界数学家大会报告名单公布，能介绍一小时报告的主要工作吗？",
+      "url": "https://www.zhihu.com/answer/1926536632",
+      "summary": "正文直接讨论并支撑「微分几何」相关内容。"
+    },
+    {
+      "title": "如何评价 2021 阿里巴巴数学竞赛决赛试题？",
+      "url": "https://www.zhihu.com/answer/1963409884",
+      "summary": "正文用第二基本形式、共轭半径和测地线讨论微分几何。"
+    },
+    {
+      "title": "如果让你来讲《微分几何》课程，你会如何设计？",
+      "url": "https://www.zhihu.com/answer/1965992166",
+      "summary": "正文提出微分几何课程中曲面论、极小曲面和 Riemann-Roch 的组织方式。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/1982617461",
+      "summary": "正文介绍Nash在微分几何和几何分析中的嵌入定理。"
+    },
+    {
+      "title": "如何从数学上确定手性？",
+      "url": "https://www.zhihu.com/answer/2004148534",
+      "summary": "正文用定向、等距变换和挠率给出微分几何手性定义。"
+    },
+    {
+      "title": "如何从爱因斯坦场方程求出kerr解？",
+      "url": "https://www.zhihu.com/answer/2030785209",
+      "summary": "正文从度规和曲率张量讨论广义相对论中的微分几何。"
+    },
+    {
+      "title": "表示论和微分几何有什么关联？",
+      "url": "https://www.zhihu.com/answer/2097790370",
+      "summary": "正文以双曲流形、测地流和几何结构连接表示论与微分几何。"
+    },
+    {
+      "title": "表示论和微分几何有什么关联？",
+      "url": "https://www.zhihu.com/answer/2101748790",
+      "summary": "正文围绕对称空间、等距群和黎曼流形展开微分几何讨论。"
+    },
+    {
+      "title": "如何理解tangent/vector bundle、vector field和section的关系？",
+      "url": "https://www.zhihu.com/answer/2116622918",
+      "summary": "正文系统区分切丛、余切丛、向量丛和截面。"
+    },
+    {
+      "title": "拉格朗日方程中，为什么说广义坐标不是时间的函数？",
+      "url": "https://www.zhihu.com/answer/2121306647",
+      "summary": "正文通过切丛的坐标区分广义坐标与广义速度。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/2124662911",
+      "summary": "正文访谈中讨论微分几何、曲面的第二基本形式及其复习。"
+    },
+    {
+      "title": "数学史上你认为最丑陋的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2143291116",
+      "summary": "正文讨论三维参数曲面自然标架下的微分几何方程。"
+    },
+    {
+      "title": "你在「辛几何」领域有哪些不错的教材推荐？",
+      "url": "https://www.zhihu.com/answer/2147335245",
+      "summary": "正文介绍辛拓扑、Floer 理论、辛流形和几何方法的学习方向。"
+    },
+    {
+      "title": "有谁了解 Ricci 流里做出贡献但离开数学的施皖雄？",
+      "url": "https://www.zhihu.com/answer/2156493921",
+      "summary": "正文回顾里奇流及几何分析的发展。"
+    },
+    {
+      "title": "如何评价丘成桐学生施皖雄的一生？",
+      "url": "https://www.zhihu.com/answer/2156657225",
+      "summary": "正文回顾里奇流与几何分析的发展。"
+    },
+    {
+      "title": "如何看待中国科大陈秀雄团队成功证明「凯勒几何」两大核心猜想？这有多厉害？",
+      "url": "https://www.zhihu.com/answer/2205547179",
+      "summary": "正文解释 Kähler 流形上的 Kähler-Einstein 方程与复 Monge-Ampère 方程。"
+    },
+    {
+      "title": "大佬请帮我理解一下这个有关dx的正规数学表达？",
+      "url": "https://www.zhihu.com/answer/2208218112",
+      "summary": "正文以微分形式和余切丛解释 dx 的现代几何意义。"
+    },
+    {
+      "title": "中国科大陈秀雄团队成功证明[凯勒几何]两大核心猜想，这具体解决的是什么问题？这两大猜想有什么意义吗？",
+      "url": "https://www.zhihu.com/answer/2216392998",
+      "summary": "正文围绕 Kähler 流形上的常标量曲率和 Calabi 极值度量展开。"
+    },
+    {
+      "title": "对于任意一个拓扑流形而言，一定能够给它赋予一个微分结构吗？",
+      "url": "https://www.zhihu.com/answer/2245374930",
+      "summary": "正文用四维微分流形的相交形式定理讨论微分结构。"
+    },
+    {
+      "title": "大家知道的最长（复杂）的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2247351647",
+      "summary": "正文用张量和度规展开解释广义相对论场方程。"
+    },
+    {
+      "title": "目前数学的符号体系有多混乱？",
+      "url": "https://www.zhihu.com/answer/2254616567",
+      "summary": "正文以微分几何教材中的局部坐标记号说明符号混乱。"
+    },
+    {
+      "title": "现实世界中是否存在非欧几何空间？",
+      "url": "https://www.zhihu.com/answer/2261647908",
+      "summary": "正文介绍内蕴几何与测地线。"
+    },
+    {
+      "title": "罗氏几何，黎曼几何，古典微分几何，近代微分几何，现代微分几何，微分流形，拓扑学的关系是什么?",
+      "url": "https://www.zhihu.com/answer/2263146980",
+      "summary": "正文明确说明微分几何以曲线论和曲面论为经典内容。"
+    },
+    {
+      "title": "有哪些值得推荐的《微分几何》教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/2286713598",
+      "summary": "正文围绕曲线曲面、正则曲面和 Gauss-Bonnet 等微分几何内容评价教材。"
+    },
+    {
+      "title": "2021 年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/2288530127",
+      "summary": "正文实际讨论 Riemann 张量、Ricci 张量、holonomy、de Rham 上同调和 Stokes 定理等微分几何内容。"
+    },
+    {
+      "title": "如何硬刚黎曼曲面?",
+      "url": "https://www.zhihu.com/answer/2303109494",
+      "summary": "正文介绍黎曼曲面的复几何视角及 sheaf cohomology 等对象。"
+    },
+    {
+      "title": "目前数学的符号体系有多混乱？",
+      "url": "https://www.zhihu.com/answer/2303311289",
+      "summary": "正文集中讨论微分几何中协变导数、张量和曲率记号的不一致。"
+    },
+    {
+      "title": "数学经典教材有什么？",
+      "url": "https://www.zhihu.com/answer/2329933250",
+      "summary": "正文具体评价微分几何教材与学习体验。"
+    },
+    {
+      "title": "微分几何中为什么要用线性函数的观点来看切向量?",
+      "url": "https://www.zhihu.com/answer/2387427232",
+      "summary": "正文以微分形式在换元下保持形式不变解释微分几何中的切向量观点。"
+    },
+    {
+      "title": "如何通俗易懂地解释外微分？",
+      "url": "https://www.zhihu.com/answer/2398504189",
+      "summary": "正文用线元、面元和 Stokes 公式解释外微分形式。"
+    },
+    {
+      "title": "什么是曲率和曲率半径？",
+      "url": "https://www.zhihu.com/answer/2427885028",
+      "summary": "正文从圆的曲率推广到一般曲线，属于微分几何中的曲率讨论。"
+    },
+    {
+      "title": "如何理解微分几何中的『联络』?",
+      "url": "https://www.zhihu.com/answer/2434548340",
+      "summary": "正文从弯曲空间、局部坐标和协变导数解释微分几何中的联络。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/2441733140",
+      "summary": "正文说明该形变量子化构造解决了纯微分几何问题。"
+    },
+    {
+      "title": "4 月 20 日丘成桐全职任教清华，意味着什么？将带来哪些影响？",
+      "url": "https://www.zhihu.com/answer/2451956153",
+      "summary": "正文以里奇流、Kähler 流形和几何分析为主线讨论微分几何研究。"
+    },
+    {
+      "title": "什么是Seiberg-Witten理论？",
+      "url": "https://www.zhihu.com/answer/2458637263",
+      "summary": "正文解释理论模空间及其奇点，并联系复流形上的解析行为。"
+    },
+    {
+      "title": "丘成桐是现在第一厉害的数学家吗？为什么说在哈佛，他一人就是一个数学系？",
+      "url": "https://www.zhihu.com/answer/2480732502",
+      "summary": "讲述丘成桐研究几何、证明卡拉比猜想并开创几何分析学派的经历。"
+    },
+    {
+      "title": "对于当今数学来说，「几何」到底是什么？",
+      "url": "https://www.zhihu.com/answer/2500014252",
+      "summary": "正文用环空间与局部模型统一解释微分几何等几何分支。"
+    },
+    {
+      "title": "学微分几何前要有什么数学知识做铺垫？",
+      "url": "https://www.zhihu.com/answer/2500019928",
+      "summary": "正文讨论学习基础微分几何所需的分析、代数与拓扑铺垫。"
+    },
+    {
+      "title": "有哪些时刻，让你觉得数学很美？",
+      "url": "https://www.zhihu.com/answer/2501010436",
+      "summary": "正文用外微分、余微分与拉普拉斯算子讨论微分形式。"
+    },
+    {
+      "title": "古典微分几何和现代微分几何有什么区别?",
+      "url": "https://www.zhihu.com/answer/2518202869",
+      "summary": "对比古典微分几何研究嵌入三维空间的曲面。"
+    },
+    {
+      "title": "丘成桐是几何分析的奠基人么？",
+      "url": "https://www.zhihu.com/answer/2523519457",
+      "summary": "回顾几何分析的创立以及丘成桐在微分几何中的工作。"
+    },
+    {
+      "title": "花一整夜的时间解一个方程是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/2528943608",
+      "summary": "以 Kerr 度规、联络和曲率张量为对象，完整展开广义相对论中的微分几何计算。"
+    },
+    {
+      "title": "为什么我在学习完麦克斯韦方程组后并没有感觉很惊讶？",
+      "url": "https://www.zhihu.com/answer/2536269162",
+      "summary": "用微分形式、外微分和余微分重写麦克斯韦方程组，展示其几何结构。"
+    },
+    {
+      "title": "柯西黎曼条件的本质以及几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/2540945033",
+      "summary": "用切映射、复化微分形式、闭形式与 Stokes 公式解释全纯函数。"
+    },
+    {
+      "title": "陈数（Chern number）与卷绕数（winding number）的区别与联系？",
+      "url": "https://www.zhihu.com/answer/2542166418",
+      "summary": "使用微分形式、外积、联络与曲率构造陈数积分。"
+    },
+    {
+      "title": "广义相对论场方程看上去很简洁，但是实际上这个方程到底有多复杂？",
+      "url": "https://www.zhihu.com/answer/2571031046",
+      "summary": "用度规、Levi-Civita 联络和曲率张量说明广义相对论的微分几何语言。"
+    },
+    {
+      "title": "大家说一个数学分支很“硬”（比如PDE），或者很“软”（比如代数），这里所谓软硬的区别到底是什么？",
+      "url": "https://www.zhihu.com/answer/2575976375",
+      "summary": "比较微分流形的局部坐标构造与层、切空间的整体刻画，讨论微分几何的两种视角。"
+    },
+    {
+      "title": "做数学不同方向的人各有什么特点？",
+      "url": "https://www.zhihu.com/answer/2596415926",
+      "summary": "从微分几何视角把 U(1) 看成一维实流形并关注其微分结构。"
+    },
+    {
+      "title": "代数几何和微分几何哪个更难？",
+      "url": "https://www.zhihu.com/answer/2639569257",
+      "summary": "讨论微分几何的研究范围、局部操作与学习难度。"
+    },
+    {
+      "title": "在控制、自动化领域，用到的最高深最先进的数学理论工具是什么？控制是否是工科里用到数学最多最深的领域？",
+      "url": "https://www.zhihu.com/answer/2662949362",
+      "summary": "说明非线性控制研究中会用到微分几何、李群李代数等几何工具。"
+    },
+    {
+      "title": "如何理解微分几何中的『联络』?",
+      "url": "https://www.zhihu.com/answer/2699085567",
+      "summary": "正文以主纤维丛的切空间直和分解和水平空间选取来展开联络的几何定义。"
+    },
+    {
+      "title": "求问各位数学大佬，定积分的积分表达式中的dx到底有没有含义，到底是不是自变量的微分？",
+      "url": "https://www.zhihu.com/answer/2718271748",
+      "summary": "正文把 dx、dy 解释为流形余切空间的基，并联系微分形式、切空间和余切空间。"
+    },
+    {
+      "title": "为什么裤子前后穿反了不能通过“把裤腰旋转180度”的方式调整（而裙子可以）？",
+      "url": "https://www.zhihu.com/answer/2746584583",
+      "summary": "正文在光滑流形上选取等距的黎曼度量，并借助管状邻域和基本向量场完成证明。"
+    },
+    {
+      "title": "看到一个说法说速度是vector而动量是covector，有什么好的解释吗？",
+      "url": "https://www.zhihu.com/answer/2760403804",
+      "summary": "正文用切空间、对偶空间、度规映射和协变逆变说明动量为何是余向量。"
+    },
+    {
+      "title": "同时对微分几何和代数数论感兴趣怎么办？",
+      "url": "https://www.zhihu.com/answer/2764805490",
+      "summary": "正文说明局部对称空间可作为完备黎曼流形或轨形，并显式指出可用微分几何工具研究。"
+    },
+    {
+      "title": "x^dx有意义吗?",
+      "url": "https://www.zhihu.com/answer/2815435032",
+      "summary": "正文从微分几何出发把 dx 定义为余切矢量，并说明它是切空间到实数的线性函数。"
+    },
+    {
+      "title": "中山（Nakayama）引理的重要性？",
+      "url": "https://www.zhihu.com/answer/2825727419",
+      "summary": "正文用球面上的光滑向量场、函数芽和切平面解释 Nakayama 引理的微分几何含义。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2830715804",
+      "summary": "正文说明在流形语境中微分作用于切空间，并用切空间与原函数定义域的区分解释微分结构。"
+    },
+    {
+      "title": "微分几何中为什么定义指数映射？",
+      "url": "https://www.zhihu.com/answer/2834638998",
+      "summary": "正文讨论微分几何中测地指数映射所需的联络、测地线和局部定义，属于该叶节点的核心内容。"
+    },
+    {
+      "title": "为什么所有的科学都是用微观来解释宏观，而不能用宏观解释微观？",
+      "url": "https://www.zhihu.com/answer/2837990731",
+      "summary": "正文概述微分几何从 Gauss 研究小片曲率与局部方程转向曲面整体图像和拓扑性质的历史发展。"
+    },
+    {
+      "title": "泛函分析与微分几何有什么关系？",
+      "url": "https://www.zhihu.com/answer/2841106060",
+      "summary": "正文把概率空间视为流形，并运用微分几何中的切空间、余切空间和流的概念建立信息几何框架。"
+    },
+    {
+      "title": "能否将“奔驰定理”推广至高维空间中？",
+      "url": "https://www.zhihu.com/answer/2919526164",
+      "summary": "正文在光滑流形上讨论光滑矢量场及其对易子，属于微分几何中的基本结构。"
+    },
+    {
+      "title": "微软德国称下周将发布 GPT-4，将涵盖语音、视频等多模态，还有哪些信息值得关注？",
+      "url": "https://www.zhihu.com/answer/2929901396",
+      "summary": "正文围绕紧辛流形的维数、辛形式和体积等微分几何结构展开判断。"
+    },
+    {
+      "title": "罗氏几何，黎曼几何，古典微分几何，近代微分几何，现代微分几何，微分流形，拓扑学的关系是什么?",
+      "url": "https://www.zhihu.com/answer/2960992389",
+      "summary": "正文梳理古典与现代微分几何的范围，并指出现代微分几何使用 PDE、代数拓扑等工具。"
+    },
+    {
+      "title": "二十世纪到现在，数学有什么重要的成果？谁给科普一下?",
+      "url": "https://www.zhihu.com/answer/2981286833",
+      "summary": "正文用 de Rham、Hodge、Kähler 流形、高斯-博内定理和示性类等例子，说明整体微分几何的发展及其连接局部与整体性质的目标。"
+    },
+    {
+      "title": "能不能把一切数学分支全部代数化？",
+      "url": "https://www.zhihu.com/answer/2985303312",
+      "summary": "正文讨论微分流形上的函数代数、向量场、微分形式及 Hochschild 同调，属于微分几何的代数化表述。"
+    },
+    {
+      "title": "研究一些几何结构的模空间是为了得到什么呢？",
+      "url": "https://www.zhihu.com/answer/3016416962",
+      "summary": "正文从几何结构形变和黎曼面结构出发解释曲线模空间的作用。"
+    },
+    {
+      "title": "想学好黎曼几何和微分几何要在哪方面打下坚实的基础呢？",
+      "url": "https://www.zhihu.com/answer/3035947368",
+      "summary": "正文按局部坐标、切丛与余切丛、联络、活动标架、外积和流形上的算子组织微分几何的学习路线。"
+    },
+    {
+      "title": "真的会有人觉得数学或者物理公式很美吗？凭心而论，不要为了培养兴趣硬逼着自己去发现它的美?",
+      "url": "https://www.zhihu.com/answer/3039388543",
+      "summary": "正文用微分形式的外微分和流形上的积分解释定理结构，属于微分几何中的积分理论。"
+    },
+    {
+      "title": "李导数有什么意义吗？微分几何或者黎曼几何中的联络与李导数在意义与作用上有啥区别？",
+      "url": "https://www.zhihu.com/answer/3040818745",
+      "summary": "正文在微分流形上比较联络与李导数，并用向量场的流和李括号解释李导数的几何意义。"
+    },
+    {
+      "title": "为什么我感觉代数几何是伪几何，本质上是代数？",
+      "url": "https://www.zhihu.com/answer/3047417910",
+      "summary": "正文用微分流形、曲率与度量、余切丛和辛结构作对照，说明这些微分几何对象在概型上的代数模拟。"
+    },
+    {
+      "title": "存在“过时的、陈旧的数学内容”吗？",
+      "url": "https://www.zhihu.com/answer/3047998000",
+      "summary": "正文以经典Bonnet问题为例，说明第一、第二基本形式与曲面嵌入的关系，属于微分几何概念的实质讨论。"
+    },
+    {
+      "title": "为什么我觉得微分几何是伪几何，本质上是代数和分析？",
+      "url": "https://www.zhihu.com/answer/3048187425",
+      "summary": "正文讨论微分几何证明中的比较、剖分、粘合等几何直观操作，并据此分析几何证明方法。"
+    },
+    {
+      "title": "如果让你来讲《微分几何》课程，你会如何设计？",
+      "url": "https://www.zhihu.com/answer/3052995181",
+      "summary": "正文以十五部分设计微分几何课程，串联映射度、Morse理论、Gauss-Bonnet定理、示性类和指标定理。"
+    },
+    {
+      "title": "为什么不能用切空间定义外微分，而要用余切空间？",
+      "url": "https://www.zhihu.com/answer/3077040575",
+      "summary": "正文讨论流形上矢量场、反对称张量与函数环之间的自然变换，解释外微分为何应从余切空间而非切空间构造。"
+    },
+    {
+      "title": "丘成桐在数学研究中的成就有什么？",
+      "url": "https://www.zhihu.com/answer/3090284201",
+      "summary": "正文具体叙述丘成桐证明卡拉比猜想时关于紧凯勒流形、陈类与凯勒度量的微分几何结果。"
+    },
+    {
+      "title": "为什么感觉有些数学证明看起来像猜到的一样，总是不讲为什么？",
+      "url": "https://www.zhihu.com/answer/3092670138",
+      "summary": "正文通过 H-surfaces 的能量泛函、调和映照和 J-全纯曲线之间的关系，具体讨论了微分几何中的变分构造。"
+    },
+    {
+      "title": "微分流形中定义浸入(immersion)的初衷是什么？有什么直观的几何含义吗？",
+      "url": "https://www.zhihu.com/answer/3098613552",
+      "summary": "正文从切映射和局部坐标解释浸入的微分几何含义，并区分其与嵌入所要求的整体性质。"
+    },
+    {
+      "title": "为什么勾股定理可以说明空间是平直的？",
+      "url": "https://www.zhihu.com/answer/3118965952",
+      "summary": "正文用流形上的测地线代替直线，并以切向量正交刻画直角，展开微分几何中的局部计算。"
+    },
+    {
+      "title": "李导数与协变导数有什么联系？",
+      "url": "https://www.zhihu.com/answer/3120054519",
+      "summary": "正文系统比较李导数与协变导数，通过流动、平移、局部坐标公式和张量场解释微分几何中的两种求导方式。"
+    },
+    {
+      "title": "为什么不能用切空间定义外微分，而要用余切空间？",
+      "url": "https://www.zhihu.com/answer/3144581292",
+      "summary": "正文通过坐标变换与链式法则说明微分基如何变换，从而解释微分形式为何作为余切丛截面出现。"
+    },
+    {
+      "title": "如何评价丘成桐？",
+      "url": "https://www.zhihu.com/answer/3146819262",
+      "summary": "正文具体讲述丘成桐团队把黎曼几何与调和映照用于离散网格曲面和三维打印，属于微分几何应用。"
+    },
+    {
+      "title": "如何评价法国数学家André Weil？",
+      "url": "https://www.zhihu.com/answer/3185787572",
+      "summary": "正文列举并展开 Weil 在微分几何中的 Gauss-Bonnet 公式、de Rham 定理与调和形式等工作。"
+    },
+    {
+      "title": "如何更通俗的理解微分拓扑中的管状邻域定理呢？",
+      "url": "https://www.zhihu.com/answer/3189725006",
+      "summary": "正文在微分拓扑语境中借助法丛、管状邻域和 Koszul 切片定理研究子流形附近的局部几何结构。"
+    },
+    {
+      "title": "高斯绝妙定理究竟美妙在哪里？",
+      "url": "https://www.zhihu.com/answer/3198392920",
+      "summary": "正文说明高斯曲率虽由第二基本形式引入，却可由第一基本形式及其导数内蕴表示，并解释其在曲面微分几何中的意义。"
+    },
+    {
+      "title": "如何通俗地理解纤维丛？",
+      "url": "https://www.zhihu.com/answer/3215120908",
+      "summary": "正文用跨国价格与汇率解释联络，并说明比较相邻差异时必须带上联络，从而直观讲解微分几何中的协变导数。"
+    },
+    {
+      "title": "现代数学已经发展到瓶颈期了吗？",
+      "url": "https://www.zhihu.com/answer/3215794699",
+      "summary": "正文讨论从曲面到 n 维流形、曲率与切空间，以及相关框架如何成为现代微分几何的基础。"
+    },
+    {
+      "title": "微分符号，dx，dy到底是什么含义？",
+      "url": "https://www.zhihu.com/answer/3219921506",
+      "summary": "正文以切空间、对偶空间和余矢解释 dx 的微分几何含义。"
+    },
+    {
+      "title": "有哪些值得数学系本科生一读的经典数学论文？",
+      "url": "https://www.zhihu.com/answer/3230336449",
+      "summary": "正文评述紧致 Kähler 流形上的 Hermite-Yang-Mills 联络，并涉及黎曼几何、度量和几何分析。"
+    },
+    {
+      "title": "能介绍一下数学家卡拉比吗？",
+      "url": "https://www.zhihu.com/answer/3252902815",
+      "summary": "正文回顾卡拉比在整体微分几何、几何分析与流形分析中的工作，并说明曲率问题如何推动该领域发展。"
+    },
+    {
+      "title": "KL散度衡量的是两个概率分布的距离吗？",
+      "url": "https://www.zhihu.com/answer/3262348364",
+      "summary": "正文用度规、仿射联络、曲线积分和测地线构造统计流形上的几何，属于微分几何方法的应用。"
+    },
+    {
+      "title": "微分几何怎么这么难啊？",
+      "url": "https://www.zhihu.com/answer/3267790486",
+      "summary": "正文以向量丛的坐标变换、overlap转移函数和CP1上线丛分类说明微分几何中如何选择局部坐标与代数工具。"
+    },
+    {
+      "title": "从古典微分几何发展到现代微分几何的过程是怎样的？（数学思想、历史等方面）?为何引入现代微分几何？",
+      "url": "https://www.zhihu.com/answer/3284565222",
+      "summary": "正文系统梳理微分几何从法曲率、高斯曲率到内蕴几何和高维推广的发展，并解释现代微分几何的研究对象。"
+    },
+    {
+      "title": "作为微分几何的gauge theory(规范理论)主要在研究什么? 以及如何入门该领域的学习?",
+      "url": "https://www.zhihu.com/answer/3298116383",
+      "summary": "正文以 Yang-Mills 和 Seiberg-Witten 方程的模空间为主线介绍规范理论这一微分几何方向。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3309812137",
+      "summary": "正文用切空间、余切空间、外微分以及散度和旋度的形式解释微分几何中的抽象概念。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3318059185",
+      "summary": "正文把复流形的 Kähler 度量、全纯双截面曲率、测地线、平行移动与合乐群同代数几何方法对照，展开微分几何视角。"
+    },
+    {
+      "title": "怎么证明SO(n)是n(n-1)/2维流形?",
+      "url": "https://www.zhihu.com/answer/3320512602",
+      "summary": "正文计算矩阵映射的微分并验证单位矩阵是正则值，依据正则值定理作微分几何中的子流形论证。"
+    },
+    {
+      "title": "现代科学的基石，或者说逻辑和理性的基石是什么？",
+      "url": "https://www.zhihu.com/answer/3327615524",
+      "summary": "正文借助切空间和指数映射把李群放入微分几何框架中研究。"
+    },
+    {
+      "title": "如何理解微分几何中的『联络』?",
+      "url": "https://www.zhihu.com/answer/3333309242",
+      "summary": "正文以平行输运方程和标架丛上的水平子空间解释流形上的联络，属于微分几何的实质讲解。"
+    },
+    {
+      "title": "对于当今数学来说，「几何」到底是什么？",
+      "url": "https://www.zhihu.com/answer/3339715086",
+      "summary": "正文按研究对象区分微分几何学家，指出其研究流形及黎曼度量、联络、曲率等附加结构。"
+    },
+    {
+      "title": "丘成桐在数学研究中的成就有什么？",
+      "url": "https://www.zhihu.com/answer/3348086391",
+      "summary": "正文介绍了丘成桐把极小曲面方法用于几何与拓扑研究，对应微分几何这一研究领域。"
+    },
+    {
+      "title": "为什么要用层重新定义微分流形？",
+      "url": "https://www.zhihu.com/answer/3357007940",
+      "summary": "正文比较拓扑结构与几何光滑结构的分离，说明层语言如何统一描述流形、向量丛和超流形上的微积分。"
+    },
+    {
+      "title": "构造微分流形这个概念的动机是什么？",
+      "url": "https://www.zhihu.com/answer/3357185353",
+      "summary": "正文回顾古典微分几何研究曲面及其性质，并说明高斯曲率、曲面度量等微分几何内容。"
+    },
+    {
+      "title": "你在本科学过最难的数学课是什么？",
+      "url": "https://www.zhihu.com/answer/3363686940",
+      "summary": "正文展开光滑流形上的横截扰动、嵌入和管状邻域等微分拓扑工具，并用它们证明几何结论。"
+    },
+    {
+      "title": "当今世界数学已经发展到本科生难以理解的地步了吗？",
+      "url": "https://www.zhihu.com/answer/3370376039",
+      "summary": "正文把空间本质问题化为微分几何问题，并讨论内蕴与外在几何、度量和曲率。"
+    },
+    {
+      "title": "如何看待北大副教授李植和答主质点关于数学物理的学术观点交锋？",
+      "url": "https://www.zhihu.com/answer/3376124678",
+      "summary": "正文系统比较切矢量、余切矢量、坐标基与度规，并用微分几何语言解释张量的逆变与协变结构。"
+    },
+    {
+      "title": "有哪些看起来很难但做起来很简单的数学题？",
+      "url": "https://www.zhihu.com/answer/3376940210",
+      "summary": "正文用 Hirzebruch-Riemann-Roch、陈类和 Todd 类证明四维球面没有复结构，并说明整体微分几何受拓扑量约束。"
+    },
+    {
+      "title": "泛函分析与微分几何有什么关系？",
+      "url": "https://www.zhihu.com/answer/3377249580",
+      "summary": "正文以坐标、函数和微积分刻画平直及弯曲空间，并说明几何分析的视角。"
+    },
+    {
+      "title": "如何理解Chern–Simons form和Chern–Simons theory？",
+      "url": "https://www.zhihu.com/answer/3385978782",
+      "summary": "正文在3-流形主丛上定义Chern-Simons作用量，并通过对联络作变分计算临界点，构成微分几何展开。"
+    },
+    {
+      "title": "从Riemann curvature构造Ricci curvature的目的、动机是什么 ?",
+      "url": "https://www.zhihu.com/answer/3422937539",
+      "summary": "正文讨论黎曼张量能否完整表征黎曼流形的局部几何信息，并借助 Cartan 与 Weyl 定理说明其基础地位。"
+    },
+    {
+      "title": "国内外工业软件的差距在哪？如何赶上？",
+      "url": "https://www.zhihu.com/answer/3423770199",
+      "summary": "正文系统讨论微分几何、黎曼面和共形结构在高质量曲面网格生成中的理论与算法。"
+    },
+    {
+      "title": "Clifford 代数是什么, 它和 Dirac 算子有什么关系?",
+      "url": "https://www.zhihu.com/answer/3424221986",
+      "summary": "正文把Clifford代数用于Spin几何，讨论Levi-Civita联络、Spin联络和Dirac算子的构造。"
+    },
+    {
+      "title": "微分几何（Differential Geometry）在工程领域有什么应用？",
+      "url": "https://www.zhihu.com/answer/3441590468",
+      "summary": "正文以变换群和不变量为纲介绍曲面分类及微分几何理论，实质展开了微分几何主题。"
+    },
+    {
+      "title": "外微分形式为什么要是反对称的？Cartan当年为什么要这样定义？",
+      "url": "https://www.zhihu.com/answer/3486678510",
+      "summary": "正文系统定义一维至三维微分形式和外微分形式，并用它们统一高维积分定理。"
+    },
+    {
+      "title": "如何理解近复结构(Almost Complex Structure)？",
+      "url": "https://www.zhihu.com/answer/3494606886",
+      "summary": "正文用切丛结构群约化统一解释黎曼、辛、定向、Spin 与近复等微分几何结构。"
+    },
+    {
+      "title": "现代数学和理论物理已经发展到怎样一个令人震惊的水平了？",
+      "url": "https://www.zhihu.com/answer/3514312874",
+      "summary": "正文把规范场解释为主丛上的联络，并用曲率构造 Chern-Simons 作用量。"
+    },
+    {
+      "title": "李代数为何要满足 Jacobi identity？",
+      "url": "https://www.zhihu.com/answer/3535339676",
+      "summary": "正文讨论向量场、李括号下的对合封闭与完全可积性，并引用 Frobenius 定理说明微分几何中的结构。"
+    },
+    {
+      "title": "学数学或物理学到 high 很刺激，是一种怎样的经历与感受？",
+      "url": "https://www.zhihu.com/answer/3544342236",
+      "summary": "正文借高斯的内蕴曲面观点说明微分几何应研究曲面自身而非只研究其在三维空间中的嵌入。"
+    },
+    {
+      "title": "留数定理能和安培环路定理联系起来吗？",
+      "url": "https://www.zhihu.com/answer/3545219558",
+      "summary": "正文解释一次微分形式、闭形式与恰当形式，并通过局部全微分和整体阻碍介绍外微分结构。"
+    },
+    {
+      "title": "如果我们不是生活在R^3里，而是生活在RP^3或者其他3维流形里面，会有什么不同呢？",
+      "url": "https://www.zhihu.com/answer/3582929756",
+      "summary": "正文围绕三维平坦空间的局部等距同构、Killing-Hopf 分类和商空间展开微分几何视角。"
+    },
+    {
+      "title": "本科生自学微分流形有哪些资料推荐？",
+      "url": "https://www.zhihu.com/answer/3586291169",
+      "summary": "正文展开切空间、映射的微分、正则水平集、向量丛和李括号等微分几何核心内容。"
+    },
+    {
+      "title": "如何理解微分几何中的切空间？",
+      "url": "https://www.zhihu.com/answer/3618748946",
+      "summary": "正文把切向量定义为光滑函数上的导数算子，并说明其与几何切向量同构，属于微分几何的核心内容。"
+    },
+    {
+      "title": "为什么拉格朗日子流形在辛几何中如此重要?",
+      "url": "https://www.zhihu.com/answer/3944331321",
+      "summary": "正文系统讨论辛微分同胚的图像、生成函数及Lagrangian子流形的Hamiltonian形变，属于微分几何核心内容。"
+    },
+    {
+      "title": "如何理解勒让德变换？",
+      "url": "https://www.zhihu.com/answer/4092770110",
+      "summary": "正文从切线斜率与截距的对应解释勒让德变换，并说明它可视为切丛到余切丛的同构。"
+    },
+    {
+      "title": "天赋平平但幻想着搞纯数研究，应该被劝退吗?",
+      "url": "https://www.zhihu.com/answer/4151454705",
+      "summary": "正文具体列出流形上的 Stokes 公式、外微分形式、联络和度量相容等微分几何学习要点。"
+    },
+    {
+      "title": "数学家Richard Hamilton去世了，如何评价他的学术贡献？",
+      "url": "https://www.zhihu.com/answer/4180962574",
+      "summary": "正文以流形上的几何分析和偏微分方程为主线，说明里奇流如何用于研究三维流形拓扑。"
+    },
+    {
+      "title": "如何评价丘成桐说:没一个数学家能离群索居，不食人间烟火，佩雷尔曼不行，某神更不行(图)？",
+      "url": "https://www.zhihu.com/answer/30356942966",
+      "summary": "正文把里奇流作为核心几何工具，讨论其奇异解、手术与长期行为。"
+    },
+    {
+      "title": "孔采维奇的数学工作对现代数学产生了哪些影响?",
+      "url": "https://www.zhihu.com/answer/35417456463",
+      "summary": "正文给出泊松流形在微分几何中的定位，并说明其结构如何进入变形量化。"
+    },
+    {
+      "title": "什么是「Nonabelian Hodge theory」?",
+      "url": "https://www.zhihu.com/answer/47204403805",
+      "summary": "正文系统讲解 Hermitian Yang-Mills 联络、Hitchin 方程及其与稳定向量丛模空间的对应。"
+    },
+    {
+      "title": "2024你的数学研究和学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/54868272353",
+      "summary": "正文研究紧李群上最短测地线的 signature，并用它恢复直径、体积和数量曲率等几何量。"
+    },
+    {
+      "title": "拓扑与几何有什么区别呢？",
+      "url": "https://www.zhihu.com/answer/57901413257",
+      "summary": "正文用刻度、场与丛的截面描述几何量，并提到流形上的曲率场及 Gauss-Bonnet-Chern 定理。"
+    },
+    {
+      "title": "为什么Mumford要引入stable bundle？如何理解stable bundle？",
+      "url": "https://www.zhihu.com/answer/62183617903",
+      "summary": "正文从全纯向量丛、Dolbeault 算子和规范变换出发解释稳定性，并讨论稳定丛模空间的几何结构。"
+    },
+    {
+      "title": "洛伦兹变换是如何导出的呢？",
+      "url": "https://www.zhihu.com/answer/62187670875",
+      "summary": "正文以度规和二次型刻画闵可夫斯基空间，从保持度量的角度给出洛伦兹变换的微分几何解释。"
+    },
+    {
+      "title": "哈密顿正则方程长的这么像 C-R 条件，我们是不是可以用一个复坐标代替广义坐标和广义动量?",
+      "url": "https://www.zhihu.com/answer/67002662375",
+      "summary": "正文用辛形式和近复结构矩阵说明二者相容，并联系辛形式、复结构与度规。"
+    },
+    {
+      "title": "2024年你的控制理论研究有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/70114789467",
+      "summary": "正文从微分方程的几何理论、流形上的向量场以及高阶导数与 jet bundle 的联系讨论几何视角。"
+    },
+    {
+      "title": "用人话来解释下模空间是啥？",
+      "url": "https://www.zhihu.com/answer/88530154893",
+      "summary": "正文从微分几何视角构造黎曼度量空间，再对微分同胚群取商来定义模空间，并讨论其拓扑结构。"
+    },
+    {
+      "title": "海塞（Hessian）矩阵是否有特殊几何意义？",
+      "url": "https://www.zhihu.com/answer/94587580311",
+      "summary": "正文把曲面曲率、Gauss映射和形状算子联系到经典微分几何中的Hessian计算。"
+    },
+    {
+      "title": "微分流形、微分拓扑、黎曼几何、代数拓扑的关系是什么，学习顺序如何？",
+      "url": "https://www.zhihu.com/answer/127223192168",
+      "summary": "正文说明流形上的微积分和向量分析是在弯曲空间中进行几何研究的基础。"
+    },
+    {
+      "title": "在数学学习中，你遇到过哪些有趣的同构？",
+      "url": "https://www.zhihu.com/answer/1891929981900276784",
+      "summary": "正文系统讲解音乐同构、梯度、微分形式、Hodge 星算子及向量微积分的统一，属于微分几何。"
+    },
+    {
+      "title": "函数在某点的「梯度」和「微分」有什么不同？",
+      "url": "https://www.zhihu.com/answer/1893361872088068410",
+      "summary": "正文用切空间、余切空间和流形上的微分系统展开微分几何的核心对象及对偶关系。"
+    },
+    {
+      "title": "你见过最优美的数学函数图像是哪个？",
+      "url": "https://www.zhihu.com/answer/1894409630223949865",
+      "summary": "正文讨论Schwarz极小曲面的Weierstrass-Enneper表示、笛卡尔坐标参数化和Plateau问题，属于微分几何中的极小曲面内容。"
+    },
+    {
+      "title": "研究几何拓扑的人是如何研究 moduli space 或者 teichmuller space 的？",
+      "url": "https://www.zhihu.com/answer/1896604415009465042",
+      "summary": "正文从横截性、解形变、曲率假定和 Bochner 技巧等角度讨论模空间的微分几何。"
+    },
+    {
+      "title": "哈密顿正则方程长的这么像 C-R 条件，我们是不是可以用一个复坐标代替广义坐标和广义动量?",
+      "url": "https://www.zhihu.com/answer/1897570176406364565",
+      "summary": "正文用近复结构和黎曼度量改写辛流形上的哈密顿向量场，展开其微分几何构造。"
+    },
+    {
+      "title": "代数拓扑和黎曼几何有什么联系吗?",
+      "url": "https://www.zhihu.com/answer/1899722174597694743",
+      "summary": "正文引入 Levi-Civita 联络、Jacobi 方程和指数映射，具体推导曲率张量如何描述测地线附近的形变。"
+    },
+    {
+      "title": "克氏符到底是不是张量？",
+      "url": "https://www.zhihu.com/answer/1899964144238703076",
+      "summary": "正文把克氏符解释为标架丛上的联络，并推导其规范变换与局部坐标表示，属于微分几何中的联络理论。"
+    },
+    {
+      "title": "如何评价观点“数学就是把简单的事情复杂化”？",
+      "url": "https://www.zhihu.com/answer/1901688786783541192",
+      "summary": "正文以极小曲面的定义、参数表示和 Weierstrass 表示系统讨论微分几何中的曲面研究。"
+    },
+    {
+      "title": "和乐群(Holonomy group)的重要性是什么？",
+      "url": "https://www.zhihu.com/answer/1907424208075612836",
+      "summary": "正文通过联络、和乐与平行张量的关系研究度量几何，属于微分几何方法的具体展开。"
+    },
+    {
+      "title": "用一个非常强的定理证明一个很弱的结论是怎么样的?",
+      "url": "https://www.zhihu.com/answer/1908061077234751246",
+      "summary": "正文以完备稳定极小曲面必为平面这一微分几何结论完成 Bernstein 定理的第四种证明。"
+    },
+    {
+      "title": "黎曼有哪些冷门但是精彩的成果？",
+      "url": "https://www.zhihu.com/answer/1924936233987085602",
+      "summary": "正文以肥皂膜和黎曼极小曲面为主线，给出曲面参数化、极小曲面方程及其求解，属于微分几何讨论。"
+    },
+    {
+      "title": "什么是Seiberg-Witten理论？",
+      "url": "https://www.zhihu.com/answer/1929598848076059663",
+      "summary": "正文讨论线丛上的联络、旋量丛上的 Dirac 算子和 Kähler 曲面上的几何分析结构。"
+    },
+    {
+      "title": "物理系的数学课与数学系的数学课有多少区别？",
+      "url": "https://www.zhihu.com/answer/1931295573564175995",
+      "summary": "正文说明物理方向学习微分几何主要是为了建立广义相对论所需的语言和对应关系。"
+    },
+    {
+      "title": "拉丁美洲的数学是什么水平？",
+      "url": "https://www.zhihu.com/answer/1934008841558786332",
+      "summary": "正文以巴西微分几何学派的奠基者为主线，概述其在浸入刚性、极小曲面、常平均曲率流形及教材建设方面的贡献。"
+    },
+    {
+      "title": "如何在流形上面做傅里叶分析？",
+      "url": "https://www.zhihu.com/answer/1934981747839312507",
+      "summary": "正文借 Laplace 算子特征函数把傅里叶展开推广到紧可定向黎曼流形，属于微分几何视角。"
+    },
+    {
+      "title": "如何通俗易懂地解释外微分？",
+      "url": "https://www.zhihu.com/answer/1936756390090770206",
+      "summary": "正文从切空间上的微分形式、外积和斯托克斯定理出发，系统解释外微分的几何意义与计算。"
+    },
+    {
+      "title": "大脑皮层都舒展开了，会发生什么？",
+      "url": "https://www.zhihu.com/answer/1938667291211433337",
+      "summary": "正文以第一、第二基本形式解释曲面度量、嵌入弯曲和内在曲率，属于微分几何内容。"
+    },
+    {
+      "title": "如何理解多值函数和黎曼面的关系？",
+      "url": "https://www.zhihu.com/answer/1939657084187685260",
+      "summary": "正文用解析延拓、拓扑层片和复结构解释平方根函数的黎曼面，展开了几何结构如何消解多值性。"
+    },
+    {
+      "title": "在高等数学重积分中，格林公式、高斯公式、斯托克斯公式的关联是什么样的？",
+      "url": "https://www.zhihu.com/answer/1942166791028708804",
+      "summary": "正文引入微分形式、外微分和 d(dω)=0，并用这些几何工具统一推导格林、斯托克斯与高斯公式。"
+    },
+    {
+      "title": "基础数学中哪个领域最考验智商？",
+      "url": "https://www.zhihu.com/answer/1942289421169844992",
+      "summary": "正文以流形与切空间为典型概念，说明微分几何高度抽象、定义阅读门槛高的学科特点。"
+    },
+    {
+      "title": "如何理解凯林矢量场（Killing vector field）？",
+      "url": "https://www.zhihu.com/answer/1947723456461402129",
+      "summary": "正文用度规、李导数和 Killing 方程系统讲解微分几何中的连续对称性。"
+    },
+    {
+      "title": "数学学习或研究中，你见过哪些有意思的反例？",
+      "url": "https://www.zhihu.com/answer/1951507184077747009",
+      "summary": "正文用左不变微分形式和近复结构研究流形上的几何结构，并验证其可下降到商流形。"
+    },
+    {
+      "title": "如何从信息几何的视角去理解概率分布？",
+      "url": "https://www.zhihu.com/answer/1952547909821236134",
+      "summary": "正文说明信息几何在统计流形上使用微分几何工具研究统计学与信息论。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/1952818826044506449",
+      "summary": "正文系统定义并可视化微分形式，还展开横截性、定向、拉回、李导数和内积等微分几何概念。"
+    },
+    {
+      "title": "ICM2026报告人名单公布，大家有什么感想吗？",
+      "url": "https://www.zhihu.com/answer/1952952555719103203",
+      "summary": "正文介绍 Otto 微积分，把概率分布空间视为可定义梯度、切空间和测地线的几何对象。"
+    },
+    {
+      "title": "如何理解微分几何中各种各样的“可积性”条件（Integrability）？",
+      "url": "https://www.zhihu.com/answer/1956160628860393060",
+      "summary": "正文以微分形式的局部闭性与全局恰当性为核心，展开微分几何中的可积性问题。"
+    },
+    {
+      "title": "外微分形式为什么要是反对称的？Cartan当年为什么要这样定义？",
+      "url": "https://www.zhihu.com/answer/1958574384257176356",
+      "summary": "正文把切空间的外形式定义为微分形式，围绕流形上的外微分形式和切空间结构展开讲解。"
+    },
+    {
+      "title": "对偶空间的引入是为了解决什么问题？",
+      "url": "https://www.zhihu.com/answer/1960515105918816714",
+      "summary": "正文把切空间上的度量和微分形式联系起来，并用形式积分说明流形上的距离、面积和体积。"
+    },
+    {
+      "title": "为什么几何数学在大学里消失了？",
+      "url": "https://www.zhihu.com/answer/1960635940738401813",
+      "summary": "正文说明微分几何用微积分研究曲面和流形，并以球面三角形和广义相对论展示其应用。"
+    },
+    {
+      "title": "有哪些篇幅很短却意义重大的论文？",
+      "url": "https://www.zhihu.com/answer/1962612133964514874",
+      "summary": "正文以陈省身对高斯-博内公式的内蕴证明为主线，说明微分几何从嵌入方法走向一般黎曼流形。"
+    },
+    {
+      "title": "要看懂杨-米尔斯场的理论，数学得学到什么程度？",
+      "url": "https://www.zhihu.com/answer/1963019608496796153",
+      "summary": "正文用主丛、联络和曲率系统解释杨-米尔斯规范场的微分几何语言。"
+    },
+    {
+      "title": "为什么外微分恰好能表达梯度、旋度、散度？",
+      "url": "https://www.zhihu.com/answer/1965110106451588550",
+      "summary": "正文用流形上的外微分形式和广义 Stokes 定理统一解释梯度、旋度与散度。"
+    },
+    {
+      "title": "要看懂杨-米尔斯场的理论，数学得学到什么程度？",
+      "url": "https://www.zhihu.com/answer/1965379792602920388",
+      "summary": "正文从主丛、联络、曲率和规范变换系统介绍 Yang-Mills 的微分几何表述。"
+    },
+    {
+      "title": "留数定理和斯托克斯定理有什么关联？",
+      "url": "https://www.zhihu.com/answer/1966297340806664531",
+      "summary": "正文用外微分和广义斯托克斯定理在复流形上推出柯西积分定理及留数定理，属于微分形式的几何应用。"
+    },
+    {
+      "title": "为什么外微分恰好能表达梯度、旋度、散度？",
+      "url": "https://www.zhihu.com/answer/1968074723092063010",
+      "summary": "正文在光滑流形上定义微分形式、黎曼度量和体积形式，并用它们统一向量微积分。"
+    },
+    {
+      "title": "为什么外微分恰好能表达梯度、旋度、散度？",
+      "url": "https://www.zhihu.com/answer/1968515165336080742",
+      "summary": "正文从雅可比矩阵的可积分结构出发解释外微分在微分几何中的作用。"
+    },
+    {
+      "title": "外微分形式为什么要是反对称的？Cartan当年为什么要这样定义？",
+      "url": "https://www.zhihu.com/answer/1975210151096119634",
+      "summary": "正文把反对称矩阵和叉乘推广到高维外形式，并用楔积、外导数解释反对称性的几何来源。"
+    },
+    {
+      "title": "如何评价陈省身？",
+      "url": "https://www.zhihu.com/answer/1975263415565041821",
+      "summary": "正文介绍陈省身在整体微分几何中的核心贡献，包括高维 Gauss-Bonnet 定理和内蕴证明。"
+    },
+    {
+      "title": "如何评价陈省身？",
+      "url": "https://www.zhihu.com/answer/1975696911878079489",
+      "summary": "正文概述陈省身是现代微分几何的主要开创者，并具体说明其大范围微分几何工作与纤维丛、高斯－博内公式及代数工具的关系。"
+    },
+    {
+      "title": "老师说链式法则里某个 dy/dx 不能理解为 dy 除以 dx，为什么？",
+      "url": "https://www.zhihu.com/answer/1976618135764358239",
+      "summary": "正文以流形上的切空间、余切空间和对偶基解释 dx、dy 及外微分，并据此重述 dy/dx。"
+    },
+    {
+      "title": "为何面积可以微积分，周长就不行？",
+      "url": "https://www.zhihu.com/answer/1978859190412912001",
+      "summary": "正文把这些逼近问题提升到切丛、切空间和微分形式的微分几何框架中讨论。"
+    },
+    {
+      "title": "代数几何是什么样的几何？",
+      "url": "https://www.zhihu.com/answer/1980229808970547927",
+      "summary": "正文比较实流形、复流形和代数簇上的光滑、全纯与正则函数，讨论向量丛截面和单位分解。"
+    },
+    {
+      "title": "微分几何的方法可以解决哪些代数几何问题?",
+      "url": "https://www.zhihu.com/answer/1984471506839943124",
+      "summary": "正文借助 Hamiltonian 环面作用、Kähler 流形、动量映射和凸性定理给出代数几何问题的辛几何证明。"
+    },
+    {
+      "title": "如何评价顾险峰教授的计算共形几何？",
+      "url": "https://www.zhihu.com/answer/1984912210032628159",
+      "summary": "正文解释共形变换保持角度、共形结构与黎曼度量的关系，以及单值化和离散共形映射等微分几何内容。"
+    },
+    {
+      "title": "如何硬刚黎曼曲面?",
+      "url": "https://www.zhihu.com/answer/1986215476683104997",
+      "summary": "正文介绍紧黎曼面上的微分形式、Dolbeault 上同调与 Hodge 分解等微分几何内容。"
+    },
+    {
+      "title": "为什么外微分恰好能表达梯度、旋度、散度？",
+      "url": "https://www.zhihu.com/answer/1986948505189770164",
+      "summary": "正文用外积、微分形式、外微分和 d²=0 解释梯度、旋度、散度的统一结构。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/1987633712523928486",
+      "summary": "正文从流形上的微积分和余切空间出发，说明 dx、dy 是微分形式的基底。"
+    },
+    {
+      "title": "统计学有没有很接近纯数前沿的理论？",
+      "url": "https://www.zhihu.com/answer/1989107337143804784",
+      "summary": "正文明确指出信息几何把统计模型视为黎曼流形，并运用微分几何方法研究统计问题。"
+    },
+    {
+      "title": "如何评价Gromov在数学领域的成就？",
+      "url": "https://www.zhihu.com/answer/1991626994090275358",
+      "summary": "正文具体评述格罗莫夫利用 Gromov-Hausdorff 收敛研究黎曼流形族与坍缩，并由此重塑几何分析和流形退化理论。"
+    },
+    {
+      "title": "如何理解微分几何中各种各样的“可积性”条件（Integrability）？",
+      "url": "https://www.zhihu.com/answer/1994075602811107203",
+      "summary": "正文系统讲解 Frobenius 定理及其在联络、近复结构和辛结构可积性中的统一作用。"
+    },
+    {
+      "title": "数学上有没有“除了一个特例，其他所有情况都成立”的定理？",
+      "url": "https://www.zhihu.com/answer/1996229333476451068",
+      "summary": "正文以欧氏空间的唯一微分结构与 R^4 的无穷多个微分结构对比，说明例外微分结构。"
+    },
+    {
+      "title": "如何理解微分几何中各种各样的“可积性”条件（Integrability）？",
+      "url": "https://www.zhihu.com/answer/1997870772195190272",
+      "summary": "正文系统讲解微分几何中用 G-structure、Cartan 联络和结构方程理解可积性的方法。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2000337379244938009",
+      "summary": "正文从切空间、余切空间和微分形式解释流形上的微分，并联系协变导数与外微分。"
+    },
+    {
+      "title": "如何理解「李群、李代数的初衷就是求解微分方程」？",
+      "url": "https://www.zhihu.com/answer/2000339978065057387",
+      "summary": "正文用弯曲流形、切空间、指数映射和协方差传播解释旋转空间中的微分几何。"
+    },
+    {
+      "title": "菲尔兹奖设立以来，有哪些没有拿菲尔兹奖的数学家，他们的数学贡献并不比菲尔兹奖获得者弱？",
+      "url": "https://www.zhihu.com/answer/2000886906947404652",
+      "summary": "正文回顾丘成桐证明卡拉比猜想、正质量猜想及极小曲面等微分几何贡献。"
+    },
+    {
+      "title": "如何通俗解释指标定理？",
+      "url": "https://www.zhihu.com/answer/2002268393487762557",
+      "summary": "正文用紧黎曼流形、曲率算子、Gauss-Bonnet 与 Hirzebruch 符号差定理展示指标定理的微分几何应用。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2003431213382247368",
+      "summary": "从流形、切空间和微分形式的视角解释微分为余切空间上的线性函数，展开微分几何的基本框架。"
+    },
+    {
+      "title": "怎么记住斯托克斯公式（Stokes' theorem）？",
+      "url": "https://www.zhihu.com/answer/2009676587440829614",
+      "summary": "正文定义流形上的微分形式、外微分、拉回与边界积分，并用交换图推出 Stokes 公式。"
+    },
+    {
+      "title": "如何理解坎托罗维奇最优传输理论本质是无穷维的线性规划问题?",
+      "url": "https://www.zhihu.com/answer/2011816795095446936",
+      "summary": "正文以辛形式、保辛流和哈密顿向量场说明力学演化的几何结构，属于微分几何讨论。"
+    },
+    {
+      "title": "哪位菲尔兹奖得主的工作对你影响最大？",
+      "url": "https://www.zhihu.com/answer/2013198805877683165",
+      "summary": "正文围绕 spin 流形、Dirac 算子、曲率和指标展开，具体说明了几何对象与微分算子的联系。"
+    },
+    {
+      "title": "grassmann流形是微分流形么，如何证明？",
+      "url": "https://www.zhihu.com/answer/2013764194714001541",
+      "summary": "正文构造线性映射空间作为局部坐标卡，并讨论切空间，属于微分几何中的光滑流形结构。"
+    },
+    {
+      "title": "你所知道的最优美的几何定理是什么？",
+      "url": "https://www.zhihu.com/answer/2015578158791947661",
+      "summary": "正文陈述并证明 Bonnet-Myers 定理，使用扰动测地线与 Jacobi 方程等微分几何工具。"
+    },
+    {
+      "title": "甚麽是 Morse 同调 (Morse homology)?",
+      "url": "https://www.zhihu.com/answer/2016054132071478730",
+      "summary": "正文在黎曼流形上定义 Morse 函数，并考察 Hessian、梯度流及临界点的几何性质。"
+    },
+    {
+      "title": "初学一门数学课时有没有这样的体验:自己随口问了一个很自然的问题, 但后来发现其实很难甚至是公开的？",
+      "url": "https://www.zhihu.com/answer/2017141981504099209",
+      "summary": "正文讨论微分同胚群的连通分支及其换位子生成性质，并联系到向量场的局部坐标表达。"
+    },
+    {
+      "title": "如何看待丘成桐曾说：世界上所有的数学都是在微积分和线性代数上的变化?",
+      "url": "https://www.zhihu.com/answer/2019131220915680113",
+      "summary": "正文用切空间、黎曼度量和曲率说明流形上的局部线性化与微分几何框架。"
+    },
+    {
+      "title": "什么是瞬子 (Instanton)？",
+      "url": "https://www.zhihu.com/answer/2027508805269820621",
+      "summary": "正文利用四维流形上的Hodge星算子分解曲率，说明自对偶与反自对偶瞬子的构造。"
+    },
+    {
+      "title": "在学生时期独立地探索出自己的数学发现，是什么体验？",
+      "url": "https://www.zhihu.com/answer/2032561706942075084",
+      "summary": "正文在紧黎曼面上定义亚纯联络及其留数，计算留数与第一陈数的关系并讨论曲率推广。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2034383880728343103",
+      "summary": "正文在流形上引入切空间、余切空间和余切场，解释微分形式与坐标无关的几何含义。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2037277711194920613",
+      "summary": "正文解释 dx 作为 1-形式、外微分算子及其与德拉姆上同调的联系，介绍了现代微分形式语言。"
+    },
+    {
+      "title": "在微分几何中, 什么是 holonomy？如何用holonomy 思考几何问题?",
+      "url": "https://www.zhihu.com/answer/2038036518619575358",
+      "summary": "正文系统介绍平行移动、和乐群及其几何应用，是微分几何概念与方法的长篇讲解。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/2039084650606376540",
+      "summary": "正文以高斯绝妙定理为线索，实质讲解曲面第一、第二基本形式和内蕴几何。"
+    },
+    {
+      "title": "什么叫降维打击？",
+      "url": "https://www.zhihu.com/answer/2040804314298460030",
+      "summary": "正文解释纤维丛中的联络如何通过沿底空间闭路平行移动描述纤维向量旋转，并联系曲率和和乐群。"
+    },
+    {
+      "title": "为什么人类使用的坐标系都同胚于 R^n，能否使用不同胚于 R^n 的坐标系？",
+      "url": "https://www.zhihu.com/answer/2041567299518322167",
+      "summary": "正文以内蕴观点讨论抽象球面、切向量、微分形式、测地线和积分，属于微分几何。"
+    },
+    {
+      "title": "为什么人类使用的坐标系都同胚于 R^n，能否使用不同胚于 R^n 的坐标系？",
+      "url": "https://www.zhihu.com/answer/2042759458456129719",
+      "summary": "正文把局部平坦的黎曼结构纳入统一几何结构框架，并借坐标卡之间的微分同胚与联络说明微分几何对象的组织方式。"
+    },
+    {
+      "title": "拓扑学的动机和核心是什么？",
+      "url": "https://www.zhihu.com/answer/2043672379755386267",
+      "summary": "正文说明流形由局部坐标片拼成，并用 Hausdorff、第二可数、仿紧性和单位分解解释微分几何所需的拓扑基础。"
+    },
+    {
+      "title": "角速度为什么是个矢量？",
+      "url": "https://www.zhihu.com/answer/2047306573060498447",
+      "summary": "正文使用协变与逆变矢量、度规、微分形式、Hodge 对偶和坐标变换讨论角速度，实质涉及微分几何。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2050266065503007560",
+      "summary": "正文说明二阶导数涉及切向量变化率，在流形上需要引入联络等微分几何结构。"
+    },
+    {
+      "title": "如何直观理解辛几何？",
+      "url": "https://www.zhihu.com/answer/2068688122586703561",
+      "summary": "正文以达布定理、局部标准模型、哈密顿流和整体刚性系统解释辛流形的几何结构，属于微分几何的实质讨论。"
+    },
+    {
+      "title": "如何通俗地理解纤维丛？",
+      "url": "https://www.zhihu.com/answer/2069123341584163489",
+      "summary": "正文用球面切平面、切向量场和毛球定理展开纤维丛的微分几何直观。"
+    },
+    {
+      "title": "如何看待Brendle关于Hopf猜想的文章？",
+      "url": "https://www.zhihu.com/answer/2073754042409431852",
+      "summary": "正文具体讨论从 Cheeger deformation 出发构造正曲率度量的微分几何研究。"
+    },
+    {
+      "title": "如何看待Brendle关于Hopf猜想的文章？",
+      "url": "https://www.zhihu.com/answer/2073938758618161783",
+      "summary": "正文从 Gauss-Bonnet 定理讲起，系统介绍整体微分几何中曲率与整体拓扑的关系。"
+    },
+    {
+      "title": "如何看待Levent Alpoge发布的S^6的复结构构造的论文？",
+      "url": "https://www.zhihu.com/answer/2075157549691815102",
+      "summary": "正文具体讨论球面上的 almost complex structure、Nijenhuis tensor 与可积性，属于复流形上的微分几何结构。"
+    },
+    {
+      "title": "当代微分几何研究中的一些“热门”话题",
+      "url": "https://zhuanlan.zhihu.com/p/21664265",
+      "summary": "正文系统梳理微分几何中的几何流、极小曲面、复几何和几何分析等研究主题。"
+    },
+    {
+      "title": "几何中的“内蕴”与“外蕴”之辨",
+      "url": "https://zhuanlan.zhihu.com/p/22096868",
+      "summary": "正文以内蕴与外蕴的区分切入，讨论几何对象如何不依赖外围背景空间来研究，对应微分几何的核心观念。"
+    },
+    {
+      "title": "nash嵌入定理",
+      "url": "https://zhuanlan.zhihu.com/p/22648671",
+      "summary": "正文从光滑流形、切丛和嵌入映射出发，完整讲解 Whitney 嵌入定理的证明思路。"
+    },
+    {
+      "title": "微分流形（一）",
+      "url": "https://zhuanlan.zhihu.com/p/22977034",
+      "summary": "正文围绕流形的微分结构、切空间、推前映射、向量场和指数映射展开微分几何基础。"
+    },
+    {
+      "title": "诺特定理",
+      "url": "https://zhuanlan.zhihu.com/p/23047259",
+      "summary": "正文用Killing矢量、协变导数和散度讨论时空对称性下的守恒流，属于微分几何方法的应用。"
+    },
+    {
+      "title": "这位长者让国外众多大数学家下跪膜拜，中国的数学家都跟他脱不了关系！",
+      "url": "https://zhuanlan.zhihu.com/p/23059418",
+      "summary": "正文讲述陈省身运用嘉当活动标架法完成高斯－博内公式证明并引入示性类，属于微分几何成果史。"
+    },
+    {
+      "title": "0.04毫米的真实",
+      "url": "https://zhuanlan.zhihu.com/p/23471245",
+      "summary": "正文用活动架标和平行移动解释曲线上的曲率和向量微分，属于微分几何在弹性杆模型中的具体应用。"
+    },
+    {
+      "title": "我喜欢的一些简洁明快的证明",
+      "url": "https://zhuanlan.zhihu.com/p/24546623",
+      "summary": "正文沿测地线定义 Jacobi 场，并用维数证明给定端点条件的唯一性。"
+    },
+    {
+      "title": "光滑流形上的度规和联络",
+      "url": "https://zhuanlan.zhihu.com/p/25602004",
+      "summary": "正文介绍流形上的度规、平行移动和联络，并系统列出协变导数的性质与变换关系，属于微分几何内容。"
+    },
+    {
+      "title": "Volume of tubes",
+      "url": "https://zhuanlan.zhihu.com/p/26193357",
+      "summary": "正文介绍 Weyl 关于黎曼子流形管状邻域体积的经典结论，说明体积多项式与曲率张量相关。"
+    },
+    {
+      "title": "关于光滑映射的一些杂记",
+      "url": "https://zhuanlan.zhihu.com/p/26981969",
+      "summary": "正文以空间曲线为具体对象，讨论曲率、Fenchel 定理及其与极小曲面的联系。"
+    },
+    {
+      "title": "关于离散子群的一些杂记",
+      "url": "https://zhuanlan.zhihu.com/p/27101218",
+      "summary": "正文以上半平面双曲度量、常曲率黎曼流形和基本区域研究离散子群作用的几何。"
+    },
+    {
+      "title": "6维欧几里得空间",
+      "url": "https://zhuanlan.zhihu.com/p/27346884",
+      "summary": "正文用实 Morse 函数、柄体分解、Lefschetz 纤维化等微分几何工具分析 Weinstein 流形。"
+    },
+    {
+      "title": "双曲空间上的群作用与动力系统",
+      "url": "https://zhuanlan.zhihu.com/p/28186692",
+      "summary": "正文在单位切丛上通过李群作用表示测地流和horocycle流，属于微分几何框架。"
+    },
+    {
+      "title": "信息几何优化，随机优化, 与进化策略",
+      "url": "https://zhuanlan.zhihu.com/p/28900264",
+      "summary": "正文用 Fisher 信息矩阵定义黎曼度量并讨论流形上的梯度与曲率等几何结构。"
+    },
+    {
+      "title": "笔记：初等微几（曲线论、曲面论、第一、二基本型）",
+      "url": "https://zhuanlan.zhihu.com/p/30538009",
+      "summary": "正文围绕空间曲线与曲面的局部理论，讲解 Frenet 标架、基本形式和活动标架等微分几何内容。"
+    },
+    {
+      "title": "微积分：微分形式",
+      "url": "https://zhuanlan.zhihu.com/p/32212561",
+      "summary": "正文从切空间、切向量、反对称张量和外微分出发构造微分形式，并讨论闭形式、恰当形式及链映射。"
+    },
+    {
+      "title": "非正曲率空间上的几个问题",
+      "url": "https://zhuanlan.zhihu.com/p/32897097",
+      "summary": "正文围绕紧致负曲率黎曼流形上的闭测地线、长度谱和几何量研究展开微分几何讨论。"
+    },
+    {
+      "title": "和曲面相关的偏微分方程 (一)",
+      "url": "https://zhuanlan.zhihu.com/p/34686546",
+      "summary": "正文使用黎曼度量、等温坐标和共形等价类讨论曲面复结构，属于微分几何内容。"
+    },
+    {
+      "title": "复几何：某些线丛",
+      "url": "https://zhuanlan.zhihu.com/p/35980347",
+      "summary": "正文回忆 Chern 联络及其曲率公式，并在复射影空间线丛上作具体计算。"
+    },
+    {
+      "title": "关于Katok猜想",
+      "url": "https://zhuanlan.zhihu.com/p/36697234",
+      "summary": "正文从共变导数和平行曲率张量刻画局部对称空间，属于微分几何中的流形研究。"
+    },
+    {
+      "title": "如何用Mathematica做张量计算",
+      "url": "https://zhuanlan.zhihu.com/p/37451449",
+      "summary": "正文通过度规、逆度规、克里斯托夫符号和黎曼张量的分量计算，具体展开微分几何张量运算。"
+    },
+    {
+      "title": "小谈数学和物理之关系",
+      "url": "https://zhuanlan.zhihu.com/p/37968053",
+      "summary": "正文以微分几何中的弧微分、切线与曲率半径公式作为数学解法主线。"
+    },
+    {
+      "title": "1.1 光滑函数、函数芽、导数、切向量、向量场",
+      "url": "https://zhuanlan.zhihu.com/p/40287232",
+      "summary": "正文以光滑函数、切空间、向量场和导数算子搭建欧氏空间上的微分几何语言，并说明如何推广到流形。"
+    },
+    {
+      "title": "拓扑相里的拓扑到底有多拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/40311212",
+      "summary": "正文构造布里渊区上的向量丛，并由联络、曲率和陈类讨论其微分几何结构。"
+    },
+    {
+      "title": "[Chern1999]陈省身微分几何讲义(1)：余切空间",
+      "url": "https://zhuanlan.zhihu.com/p/43755432",
+      "summary": "正文用函数芽、参数曲线、复合导数和商空间系统构造流形的余切空间。"
+    },
+    {
+      "title": "（转载）黎曼几何的发轫-浅谈高斯绝妙定理",
+      "url": "https://zhuanlan.zhihu.com/p/44068392",
+      "summary": "正文用活动标架、第一和第二基本形式以及结构方程推导曲面的微分几何关系。"
+    },
+    {
+      "title": "MP7：微分流形",
+      "url": "https://zhuanlan.zhihu.com/p/44161489",
+      "summary": "正文从坐标卡粘贴解释微分几何中的流形构造，并说明由局部结构过渡到整体几何结构的方法。"
+    },
+    {
+      "title": "MP8：局部线性化：从Taylor展开到微分形式",
+      "url": "https://zhuanlan.zhihu.com/p/44227806",
+      "summary": "正文以泰勒展开为工具构造坐标微分和 1-形式，讨论超平面系及其在微分几何中的局部线性化作用。"
+    },
+    {
+      "title": "MP9：重新认识向量场：方向导数、偏导数、梯度",
+      "url": "https://zhuanlan.zhihu.com/p/44115400",
+      "summary": "正文用方向导数算子、1-形式和对偶空间重述场论，为微分流形上的切空间与余切空间作准备。"
+    },
+    {
+      "title": "MP10：微分流形上的函数和参数曲线",
+      "url": "https://zhuanlan.zhihu.com/p/44203444",
+      "summary": "正文采用局部线性化和参数曲线技术，把平直空间中的方向导数推广到微分流形的几何研究中。"
+    },
+    {
+      "title": "MP11：余切空间",
+      "url": "https://zhuanlan.zhihu.com/p/44190499",
+      "summary": "正文以函数芽局部化和方向导数映射的核构造商空间，并由此定义微分流形一点的余切空间。"
+    },
+    {
+      "title": "MP12：切空间",
+      "url": "https://zhuanlan.zhihu.com/p/44211005",
+      "summary": "正文在微分流形的局部坐标下讨论切空间、切向量、等价曲线和对偶基，属于微分几何内容。"
+    },
+    {
+      "title": "MP13：纤维丛",
+      "url": "https://zhuanlan.zhihu.com/p/44304211",
+      "summary": "正文围绕微分流形上的切丛、余切丛和光滑映射建立几何结构，属于微分几何。"
+    },
+    {
+      "title": "MP17：几何与物理II：现代视野下的电动力学",
+      "url": "https://zhuanlan.zhihu.com/p/44618929",
+      "summary": "正文以微分形式和广义Stokes定理为核心，说明外微分算子及微分形式积分在微分几何中的统一作用。"
+    },
+    {
+      "title": "MP18：反对称、外积、外代数、微分形式",
+      "url": "https://zhuanlan.zhihu.com/p/44081214",
+      "summary": "正文以微分流形的余切空间为起点，构造外代数并系统讲解k阶微分形式及其积分表示。"
+    },
+    {
+      "title": "MP23：张量积、张量、张量丛",
+      "url": "https://zhuanlan.zhihu.com/p/45703308",
+      "summary": "正文从线性空间的张量积出发，构造切空间与余切空间的张量空间，并讨论微分流形上的张量丛。"
+    },
+    {
+      "title": "MP64：经典规范场(1)：纤维丛",
+      "url": "https://zhuanlan.zhihu.com/p/46502211",
+      "summary": "正文通过局部平凡化、切丛和联络讨论纤维丛，属于微分几何中流形上的几何结构。"
+    },
+    {
+      "title": "几个微分几何小“猜想”",
+      "url": "https://zhuanlan.zhihu.com/p/53670302",
+      "summary": "正文列出微分几何中的四类问题，涉及流形上的群作用、曲率度量、Ricci flow 和 Einstein 度量。"
+    },
+    {
+      "title": "微分几何随记（六）浅谈外微分形式",
+      "url": "https://zhuanlan.zhihu.com/p/56178297",
+      "summary": "正文系统介绍外形式、外乘与外微分，并联系活动标架和微分几何中的结构方程。"
+    },
+    {
+      "title": "[深度科普] 度规与时空(上)：从二次型的几何直观说起",
+      "url": "https://zhuanlan.zhihu.com/p/53933076",
+      "summary": "正文以球面经纬坐标的局部基底和弧长度规为例，说明度规分量随位置变化这一微分几何特征。"
+    },
+    {
+      "title": "力学进阶版（一）——复习微分形式（上）",
+      "url": "https://zhuanlan.zhihu.com/p/57328202",
+      "summary": "正文围绕张量、度规、微分形式、推前拉回和流形积分展开微分几何语言。"
+    },
+    {
+      "title": "张量分析笔记（二）",
+      "url": "https://zhuanlan.zhihu.com/p/57431006",
+      "summary": "正文在曲线坐标系中推导协变与逆变度量张量的坐标变换，并用基矢量内积给出度量分量。"
+    },
+    {
+      "title": "纤维丛(1)",
+      "url": "https://zhuanlan.zhihu.com/p/57954768",
+      "summary": "正文在光滑流形上讨论切丛、余切丛、张量丛和标架丛，并说明其结构群及局部平凡化。"
+    },
+    {
+      "title": "开会后的一点随便的想法",
+      "url": "https://zhuanlan.zhihu.com/p/59649778",
+      "summary": "正文把极小曲面与几何流作为实几何分析的核心主题，并具体讨论相关研究方向，属于微分几何中的几何分析内容。"
+    },
+    {
+      "title": "2019数学最高奖公布：阿贝尔奖首次颁给女性学者",
+      "url": "https://zhuanlan.zhihu.com/p/59790434",
+      "summary": "正文介绍乌伦贝克在极小曲面、几何分析和规范理论方面的贡献，属于微分几何研究内容。"
+    },
+    {
+      "title": "矩阵流形优化|笔记整理（1）——基本概念，可导性迁移",
+      "url": "https://zhuanlan.zhihu.com/p/59694799",
+      "summary": "正文把欧氏空间中的可微性迁移到流形，并定义光滑映射、微分同胚、秩、浸入与淹没。"
+    },
+    {
+      "title": "如何用辛几何描写刚体定点转动",
+      "url": "https://zhuanlan.zhihu.com/p/61513727",
+      "summary": "正文用二形式、外微分、内乘和哈密顿向量场具体表述刚体运动的辛几何框架。"
+    },
+    {
+      "title": "微分几何（一）",
+      "url": "https://zhuanlan.zhihu.com/p/59433518",
+      "summary": "正文引入相容坐标卡与微分结构，并继续讨论流形间可微映射和切空间。"
+    },
+    {
+      "title": "在无穷远处平坦的辛流形",
+      "url": "https://zhuanlan.zhihu.com/p/60623051",
+      "summary": "正文使用近复结构、伪全纯曲线模空间、形变与 Moser 引理讨论辛几何结构。"
+    },
+    {
+      "title": "【指点江山】2019丘赛几何&拓扑团体试题部分解答",
+      "url": "https://zhuanlan.zhihu.com/p/63167302",
+      "summary": "正文在紧黎曼流形上使用切向量、Killing 向量场和 Hessian，并借助极大值处 Hessian 的性质完成证明。"
+    },
+    {
+      "title": "光滑流形初步(1)——一些概念和例子",
+      "url": "https://zhuanlan.zhihu.com/p/73717366",
+      "summary": "正文由坐标转移函数的可微性引入微分结构，并以微分流形、光滑映射和微分同胚奠定微分几何的研究对象。"
+    },
+    {
+      "title": "什么是曲率？什么又是挠率？",
+      "url": "https://zhuanlan.zhihu.com/p/74380868",
+      "summary": "正文以弧长参数、Frenet标架、密切平面和Frenet公式系统讲解空间曲线的局部微分几何。"
+    },
+    {
+      "title": "莫比乌斯带的参数方程是怎么来的？它又为什么没有方向呢？",
+      "url": "https://zhuanlan.zhihu.com/p/75237170",
+      "summary": "正文从曲面参数方程出发讨论切向量和单位法向量，分析曲面方向性。"
+    },
+    {
+      "title": "带领高中生数学科研的一段经历——2016年的PRIMES历程与感想",
+      "url": "https://zhuanlan.zhihu.com/p/78410618",
+      "summary": "正文介绍曲线缩短流这一几何流，说明闭曲线按曲率向量演化并讨论其收缩到点或线段的几何行为。"
+    },
+    {
+      "title": "黎曼几何与流形学习",
+      "url": "https://zhuanlan.zhihu.com/p/81945115",
+      "summary": "正文从微分几何角度定义黎曼几何、切空间与度量，并讨论弧长、测地线和曲率等对象。"
+    },
+    {
+      "title": "微分几何笔记(1) —— 预备知识",
+      "url": "https://zhuanlan.zhihu.com/p/89925647",
+      "summary": "正文为曲线和曲面学习建立度量、内积、等距变换等微分几何预备知识。"
+    },
+    {
+      "title": "微分几何笔记(2) —— 曲线的参数化",
+      "url": "https://zhuanlan.zhihu.com/p/89934333",
+      "summary": "正文定义参数曲线、正则性、参数变换和弧长参数化，属于微分几何曲线理论。"
+    },
+    {
+      "title": "微分几何笔记(3) ——  Frenet标架及Frenet方程组",
+      "url": "https://zhuanlan.zhihu.com/p/89937768",
+      "summary": "正文系统讲解参数曲线的活动标架、Frenet 标架及其存在唯一性。"
+    },
+    {
+      "title": "MP129：从微分几何到代数几何(1)：函数层",
+      "url": "https://zhuanlan.zhihu.com/p/47077723",
+      "summary": "正文从微分流形的坐标卡、函数芽和局部环结构出发构造可微函数层。"
+    },
+    {
+      "title": "微分几何笔记(5) —— 第一第二基本型和Gauss曲率",
+      "url": "https://zhuanlan.zhihu.com/p/89980912",
+      "summary": "正文从参数曲面的切空间和雅可比矩阵出发，讲解第一、第二基本型及 Weingarten 映射。"
+    },
+    {
+      "title": "微分几何笔记(6) —— 高斯绝妙定理",
+      "url": "https://zhuanlan.zhihu.com/p/91010893",
+      "summary": "正文用第一、第二基本型和 Christoffel 记号完整推导曲面的 Gauss 与 Codazzi 方程。"
+    },
+    {
+      "title": "8. IMU 姿态估计的新方法",
+      "url": "https://zhuanlan.zhihu.com/p/92743692",
+      "summary": "正文用光滑流形、切空间和黎曼几何说明连续时间姿态随机过程的几何建模。"
+    },
+    {
+      "title": "【转载】微分几何经典论文",
+      "url": "https://zhuanlan.zhihu.com/p/99320860",
+      "summary": "正文综述微分形式、示性类、指标定理和曲率估计等整体微分几何的经典结果与方法。"
+    },
+    {
+      "title": "繁星客栈拾遗（十五年前的数学和八卦帖）",
+      "url": "https://zhuanlan.zhihu.com/p/107392381",
+      "summary": "正文讨论正质量定理、极小子流形、全测地子流形和 Jacobi 场等微分几何概念及定理。"
+    },
+    {
+      "title": "如何在黎曼流形上避开鞍点？本文带你了解优化背后的数学知识",
+      "url": "https://zhuanlan.zhihu.com/p/108179558",
+      "summary": "正文解释可微流形的切空间、测地线和指数映射，这些构成优化推导所需的微分几何工具。"
+    },
+    {
+      "title": "全网最好的讲解：联络系数-克氏符-克里斯托费尔符号 - Christoffel Symbol",
+      "url": "https://zhuanlan.zhihu.com/p/139405304",
+      "summary": "正文从局部坐标系的基向量变化出发解释克里斯托费尔符号，并以极坐标求出全部分量。"
+    },
+    {
+      "title": "最优控制、次黎曼几何与 Floer 同调",
+      "url": "https://zhuanlan.zhihu.com/p/141844086",
+      "summary": "正文在流形的超平面分布和黎曼度量上建立次黎曼几何，并讨论其测地线。"
+    },
+    {
+      "title": "什么是正则曲线和正则曲面",
+      "url": "https://zhuanlan.zhihu.com/p/141422390",
+      "summary": "正文从参数化可微曲线讲到切向量非零的正则条件，并进一步用同胚和雅可比映射解释正则曲面的局部微分几何结构。"
+    },
+    {
+      "title": "1. 重要的基本概念：度规",
+      "url": "https://zhuanlan.zhihu.com/p/143549422",
+      "summary": "正文以度规场为主线介绍微分几何中的流形、矢量、对偶矢量、张量和坐标变换。"
+    },
+    {
+      "title": "Frenet 标架",
+      "url": "https://zhuanlan.zhihu.com/p/144787656",
+      "summary": "正文从弧长参数化出发讲解曲线、切向量及 Frenet 标架，属于微分几何中的曲线理论。"
+    },
+    {
+      "title": "微分几何笔记(8) —— 切向量，切空间",
+      "url": "https://zhuanlan.zhihu.com/p/145193962",
+      "summary": "正文把欧氏空间微积分推广到光滑流形，定义切向量、切空间和流形间微分并证明相关性质。"
+    },
+    {
+      "title": "曲面之一常见的参数曲面",
+      "url": "https://zhuanlan.zhihu.com/p/146411006",
+      "summary": "正文用双参数映射定义曲面，讨论切向量、参数网和可展曲面等微分几何关系。"
+    },
+    {
+      "title": "曲面之二-曲面的第一、第二基本形式",
+      "url": "https://zhuanlan.zhihu.com/p/148001852",
+      "summary": "正文从曲面曲线出发定义切平面与法向量，并推导第一、第二基本形式及等距和共形对应。"
+    },
+    {
+      "title": "卷绕数和高斯-博内定理",
+      "url": "https://zhuanlan.zhihu.com/p/148342710",
+      "summary": "正文围绕曲面高斯曲率及其积分陈述高斯-博内定理，并给出含边界测地曲率的推广。"
+    },
+    {
+      "title": "法曲率、测地曲率",
+      "url": "https://zhuanlan.zhihu.com/p/148585906",
+      "summary": "正文回顾曲面的第一、第二基本形式，并用切向量、法向量及其导数刻画曲面局部几何。"
+    },
+    {
+      "title": "高斯映射与 Weingarten 映射",
+      "url": "https://zhuanlan.zhihu.com/p/149536723",
+      "summary": "正文定义高斯映射及其切映射，并由此构造曲面上的Weingarten变换。"
+    },
+    {
+      "title": "法曲率、主曲率、高斯曲率、平均曲率",
+      "url": "https://zhuanlan.zhihu.com/p/149584374",
+      "summary": "正文系统讲解曲面的法曲率、主曲率、主方向、高斯曲率和平均曲率等微分几何对象。"
+    },
+    {
+      "title": "微分几何笔记(9) —— 切丛，余切丛及其定向",
+      "url": "https://zhuanlan.zhihu.com/p/149740337",
+      "summary": "正文用转移函数和雅可比矩阵讨论切丛的可定向性，属于微分几何。"
+    },
+    {
+      "title": "经济均衡的微分方法",
+      "url": "https://zhuanlan.zhihu.com/p/159120731",
+      "summary": "正文讨论光滑流形上的向量场、积分曲线流线以及 Morse 临界点结构。"
+    },
+    {
+      "title": "泛函微分推导膜形变方程",
+      "url": "https://zhuanlan.zhihu.com/p/165947191",
+      "summary": "正文讨论正则曲面的主曲率、Gauss-Bonnet 公式、曲面变分及膜形状方程。"
+    },
+    {
+      "title": "Levi-Civita 联络",
+      "url": "https://zhuanlan.zhihu.com/p/166194699",
+      "summary": "正文从方向导数引入线性联络，定义Christoffel符号并推导Levi-Civita联络与协变导数。"
+    },
+    {
+      "title": "微分拓扑（一）",
+      "url": "https://zhuanlan.zhihu.com/p/83480241",
+      "summary": "正文系统讲解微分流形的淹没、浸入、嵌入、横截性、管状邻域和 Morse 理论，属于微分几何与微分拓扑。"
+    },
+    {
+      "title": "场论里的拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/185078928",
+      "summary": "正文用微分 1 形式、2 形式、外导数与斯托克斯定理表述规范场并计算第一陈数。"
+    },
+    {
+      "title": "流形微分几何(1)——流形的定义",
+      "url": "https://zhuanlan.zhihu.com/p/219810650",
+      "summary": "正文从光滑流形定义进入切矢量、方向导数和切空间，实质介绍了微分几何的基础结构。"
+    },
+    {
+      "title": "逐渐有微积分的味了：余切空间（结尾有感想性的见解）",
+      "url": "https://zhuanlan.zhihu.com/p/222338086",
+      "summary": "正文在现代微分几何框架下解释光滑流形上的切向量、切空间与余切空间。"
+    },
+    {
+      "title": "谈谈向量在曲面上的平行移动 (1) —— 平行移动与测地线",
+      "url": "https://zhuanlan.zhihu.com/p/229096672",
+      "summary": "正文从二面角推广到曲面，推导协变导数、平行移动微分方程和测地线方程，属于微分几何内容。"
+    },
+    {
+      "title": "双曲几何三角公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/231618926",
+      "summary": "正文计算庞加莱半平面的联络与测地线方程，并推导两点距离和三角形公式。"
+    },
+    {
+      "title": "到底什么是微分？什么是几何？",
+      "url": "https://zhuanlan.zhihu.com/p/247771385",
+      "summary": "正文从坐标系无关性解释微分、切向量与余切空间的现代定义，并以黎曼几何为例说明其意义。"
+    },
+    {
+      "title": "浅谈外微分形式",
+      "url": "https://zhuanlan.zhihu.com/p/252456098",
+      "summary": "正文定义外微分形式、外积与外微分，并借助 Poincare 引理和 Stokes 公式解释其几何与分析结构。"
+    },
+    {
+      "title": "什么是黎曼几何？",
+      "url": "https://zhuanlan.zhihu.com/p/266763453",
+      "summary": "正文从传统微分几何的欧氏空间内积与曲线长度出发，推广到流形上的度量几何。"
+    },
+    {
+      "title": "经典辛几何基础(一)",
+      "url": "https://zhuanlan.zhihu.com/p/270256287",
+      "summary": "正文运用微分形式、缩并和 Lie 导数研究辛形式及相流的几何性质。"
+    },
+    {
+      "title": "𝑬𝒊𝒏𝒔𝒕𝒆𝒊𝒏 𝑭𝒊𝒆𝒍𝒅 𝑬𝒒𝒖𝒂𝒕𝒊𝒐𝒏'𝒔 𝑫𝒆𝒓𝒊𝒗𝒂𝒕𝒊𝒐𝒏",
+      "url": "https://zhuanlan.zhihu.com/p/270935069",
+      "summary": "正文以度规、联络、协变导数、曲率张量和变分法完成爱因斯坦场方程推导，实质使用微分几何工具。"
+    },
+    {
+      "title": "十一年磨一剑：中科大数学教授成功证明微分几何学两大猜想",
+      "url": "https://zhuanlan.zhihu.com/p/281046586",
+      "summary": "正文说明微分几何以分析方法研究微分流形及其几何性质，并具体介绍里奇流。"
+    },
+    {
+      "title": "分析和代数学原理(20)：Poincaré对偶",
+      "url": "https://zhuanlan.zhihu.com/p/270772261",
+      "summary": "正文以微分形式、外微分和单位分解为主要工具展开微分几何中的上同调计算。"
+    },
+    {
+      "title": "超对称场论（一）",
+      "url": "https://zhuanlan.zhihu.com/p/287998371",
+      "summary": "正文将动能项推广到 Kähler 势，并用 Kähler 度规、协变导数和曲率表述超对称 sigma 模型。"
+    },
+    {
+      "title": "微分拓扑—数学中一些重要的流形",
+      "url": "https://zhuanlan.zhihu.com/p/278796215",
+      "summary": "正文利用切空间、切映射和定向讨论光滑流形的局部微分性质与经典矩阵群。"
+    },
+    {
+      "title": "微分拓扑—流形的嵌入（Whitney嵌入定理）",
+      "url": "https://zhuanlan.zhihu.com/p/307638821",
+      "summary": "正文用切映射、法空间、投影和平滑截断函数研究流形的微分嵌入及 Whitney 定理。"
+    },
+    {
+      "title": "𝑷𝒓𝒆𝒄𝒆𝒔𝒔𝒊𝒐𝒏 𝒐𝒇 𝒕𝒉𝒆 𝒑𝒆𝒓𝒊𝒉𝒆𝒍𝒊𝒐𝒏 𝒐𝒇 𝑴𝒆𝒓𝒄𝒖𝒓𝒚'𝒔 𝒐𝒓𝒃𝒊𝒕",
+      "url": "https://zhuanlan.zhihu.com/p/321848761",
+      "summary": "正文由度规和 Euler-Lagrange 方程推导测地线方程，并用于轨道计算。"
+    },
+    {
+      "title": "曲率讲义",
+      "url": "https://zhuanlan.zhihu.com/p/329990880",
+      "summary": "正文以协变导数、联络和局部坐标系统讲解曲率张量，属于微分几何的核心内容。"
+    },
+    {
+      "title": "[Katsushi 2011] 1.2 共形变换",
+      "url": "https://zhuanlan.zhihu.com/p/337228688",
+      "summary": "正文从度规变换及向量内积出发，推导共形变换保持夹角而允许缩放长度的几何性质。"
+    },
+    {
+      "title": "超对称世界里的小猪会梦见Morse理论吗？",
+      "url": "https://zhuanlan.zhihu.com/p/343088848",
+      "summary": "正文在流形切空间与余切空间上构造费米场，以外微分、微分形式和拉普拉斯算子展开微分几何。"
+    },
+    {
+      "title": "场论家用几何与代数（第一话）：李代数的崛起",
+      "url": "https://zhuanlan.zhihu.com/p/344738859",
+      "summary": "正文用切空间、切矢量和指数映射线性化李群，并通过对李群求导引出李括号。"
+    },
+    {
+      "title": "拉格朗日相交Floer理论, I",
+      "url": "https://zhuanlan.zhihu.com/p/343282399",
+      "summary": "正文使用微分形式、切丛、余切丛、向量场和近复结构讨论辛几何。"
+    },
+    {
+      "title": "陈省身高徒在美去世，师徒联手创立美国国家数学科学研究所，是他大范围“统一”数学和理论物理",
+      "url": "https://zhuanlan.zhihu.com/p/350616260",
+      "summary": "正文梳理陈省身开创微分几何研究及辛格走上几何与分析交叉方向的经过。"
+    },
+    {
+      "title": "什么是微分？",
+      "url": "https://zhuanlan.zhihu.com/p/350863444",
+      "summary": "正文以切空间、余切空间、对偶基和外微分解释流形上的微分及微分形式。"
+    },
+    {
+      "title": "对微分形式不变性的理解",
+      "url": "https://zhuanlan.zhihu.com/p/350936061",
+      "summary": "正文从流形、切向量场、余切向量场和外微分解释微分形式不变性。"
+    },
+    {
+      "title": "图形直观的广义相对论用黎曼几何曲率算法",
+      "url": "https://zhuanlan.zhihu.com/p/351900541",
+      "summary": "正文具体讨论切矢量的协变平行移动、联络系数、度规导数和短程线，属于微分几何的核心内容。"
+    },
+    {
+      "title": "私房笔记 | 微分形式的直观理解(上) (Prelude)",
+      "url": "https://zhuanlan.zhihu.com/p/353886699",
+      "summary": "正文讨论微分形式、外微分、Hodge 对偶及其到一般流形和度规情形的推广，属于微分几何内容。"
+    },
+    {
+      "title": "叶状结构的几何理论  Geometric Theory of Foliations",
+      "url": "https://zhuanlan.zhihu.com/p/349336306",
+      "summary": "正文用微分同胚、横截映射、浸入子流形和拉回结构讲解叶状结构的微分几何。"
+    },
+    {
+      "title": "2.3 辛流形、辛势与Lie代数",
+      "url": "https://zhuanlan.zhihu.com/p/358458201",
+      "summary": "正文系统展开微分形式、辛形式、辛同构、Hamilton 矢量场、相流和作用量等微分几何结构。"
+    },
+    {
+      "title": "经典力学简介",
+      "url": "https://zhuanlan.zhihu.com/p/358475341",
+      "summary": "正文用切丛、余切丛、微分形式、辛流形和 Poisson 括号展开经典力学的几何表述。"
+    },
+    {
+      "title": "广义Stokes' 定理 - 微分几何与电磁学的集大成者(1)：以边概全",
+      "url": "https://zhuanlan.zhihu.com/p/362509420",
+      "summary": "正文以微积分基本定理、Green 定理和高斯定理阐释广义斯托克斯定理的微分几何思想。"
+    },
+    {
+      "title": "什么是几何量子化？",
+      "url": "https://zhuanlan.zhihu.com/p/362774447",
+      "summary": "正文使用外微分、联络和曲率等微分几何工具构造预量子化线丛与极化截面。"
+    },
+    {
+      "title": "一些微分几何的初步知识",
+      "url": "https://zhuanlan.zhihu.com/p/364967796",
+      "summary": "正文系统讲解曲面第一、第二基本形式、主曲率、测地线和整体微分几何中的高斯－博内公式。"
+    },
+    {
+      "title": "广义相对论学习笔记——张量篇",
+      "url": "https://zhuanlan.zhihu.com/p/364743277",
+      "summary": "正文系统讲解张量场、平移、联络和协变微分，并给出不同阶张量的协变导数公式。"
+    },
+    {
+      "title": "家用微分几何 （第二话）张量结构",
+      "url": "https://zhuanlan.zhihu.com/p/369237369",
+      "summary": "正文系统讲解切空间、余切空间、张量场和微分形式等微分几何结构。"
+    },
+    {
+      "title": "Kerr-Newman黑洞 II：几何结构与时空拖拽",
+      "url": "https://zhuanlan.zhihu.com/p/371846476",
+      "summary": "正文用度规、零超曲面和法矢定义事件视界，并比较视界与无限红移面，属于时空微分几何的展开。"
+    },
+    {
+      "title": "广义相对论学习笔记——曲率与度规篇",
+      "url": "https://zhuanlan.zhihu.com/p/369560775",
+      "summary": "正文系统介绍度规张量、克里斯托菲符号、协变微分和曲率张量，构成微分几何工具链的讲解。"
+    },
+    {
+      "title": "家用微分几何 (第三话) 推前拉回与李导数",
+      "url": "https://zhuanlan.zhihu.com/p/372482864",
+      "summary": "正文定义函数的拉回、切矢量的推前和一般张量搬运，并说明其保持张量结构。"
+    },
+    {
+      "title": "从Atiyah-Singer指标定理到Clifford代数",
+      "url": "https://zhuanlan.zhihu.com/p/375469673",
+      "summary": "正文通过向量丛、外形式、余微分、度规和旋量结构建立指标定理的微分几何背景。"
+    },
+    {
+      "title": "协变微分&Lie导数&外微分",
+      "url": "https://zhuanlan.zhihu.com/p/375559343",
+      "summary": "正文从方向导数出发，讨论协变导数、联络系数、Lie导数与外微分等微分几何结构。"
+    },
+    {
+      "title": "悬链线问题的数值解",
+      "url": "https://zhuanlan.zhihu.com/p/377559711",
+      "summary": "正文使用旋转曲面的第一、第二基本形式表示最小旋转曲面问题。"
+    },
+    {
+      "title": "微分几何中最不显然的一个“显然”",
+      "url": "https://zhuanlan.zhihu.com/p/378283058",
+      "summary": "正文解释微分几何教材中微分的含义，并把它联系到切空间对偶空间的基矢量。"
+    },
+    {
+      "title": "深度科普 | 用几何视角学相对论(17): 度规张量(上)",
+      "url": "https://zhuanlan.zhihu.com/p/360746794",
+      "summary": "正文用二次型、合同变换和协变/逆变分量系统引入度规张量及其几何作用，属于微分几何基础。"
+    },
+    {
+      "title": "深度科普 | 用几何视角学相对论(18): 度规张量(下)",
+      "url": "https://zhuanlan.zhihu.com/p/380546800",
+      "summary": "正文比较平面、球面和平直时空的度规张量，系统讲解度规与几何结构的联系。"
+    },
+    {
+      "title": "微分流形（1）微分流形的定义",
+      "url": "https://zhuanlan.zhihu.com/p/383375090",
+      "summary": "正文借助坐标卡定义流形上实函数和流形间映射的可微性，并讨论微分同胚。"
+    },
+    {
+      "title": "广义相对论专题系列1：对称性和Killing矢量场",
+      "url": "https://zhuanlan.zhihu.com/p/388863560",
+      "summary": "正文系统介绍流形上的李导数、李括号、张量场和度规场，并由此推导 Killing 方程及其几何对称性。"
+    },
+    {
+      "title": "0. 渲染一个施瓦西黑洞及其平面吸积盘",
+      "url": "https://zhuanlan.zhihu.com/p/389402727",
+      "summary": "正文在流形上讲解协变导数、平行移动、联络和测地线方程，并具体使用施瓦西度规。"
+    },
+    {
+      "title": "Kaluza-Klein 理论",
+      "url": "https://zhuanlan.zhihu.com/p/391192162",
+      "summary": "正文用五维度规分解、正交标架、联络形式和微分形式展开五维曲率的计算。"
+    },
+    {
+      "title": "在位姿估计问题中应用李群/流形的发展脉络、动机与直觉(框架草稿)",
+      "url": "https://zhuanlan.zhihu.com/p/395372419",
+      "summary": "正文通过局部切空间、指数映射和测地线解释流形上的旋转运动。"
+    },
+    {
+      "title": "几何中的微分形式是什么？Hodge星算子又是什么意思？",
+      "url": "https://zhuanlan.zhihu.com/p/401207597",
+      "summary": "正文从坐标变换中的面积和体积微元出发，解释外代数、微分形式及 Hodge 星算子的几何意义。"
+    },
+    {
+      "title": "Yang-Mills gauge theory (1)",
+      "url": "https://zhuanlan.zhihu.com/p/413274790",
+      "summary": "正文用纤维丛、主丛、联络与曲率的几何语言系统展开 Yang-Mills 理论。"
+    },
+    {
+      "title": "外微分（Exterior Calculus）是什么 - 1？",
+      "url": "https://zhuanlan.zhihu.com/p/369432975",
+      "summary": "正文讨论曲面流形、局部坐标基、切向量与对偶余切基，并用外微分统一描述其变化。"
+    },
+    {
+      "title": "曲面的切平面的推导过程的逻辑",
+      "url": "https://zhuanlan.zhihu.com/p/431391146",
+      "summary": "正文从曲面上曲线的切向量出发，讨论曲面切平面和法向量的局部几何结构。"
+    },
+    {
+      "title": "Atiyah-Singer指标定理",
+      "url": "https://zhuanlan.zhihu.com/p/441402104",
+      "summary": "正文概述 Atiyah-Singer 指标定理中 Dirac 算子指标与局部几何公式的关系，并梳理其几何证明路线。"
+    },
+    {
+      "title": "微分几何复习",
+      "url": "https://zhuanlan.zhihu.com/p/452385504",
+      "summary": "正文系统讲解正则曲线、活动标架、第一和第二基本形式及曲面内蕴几何。"
+    },
+    {
+      "title": "脱离欧氏空间，在双曲空间中做NLP",
+      "url": "https://zhuanlan.zhihu.com/p/423377762",
+      "summary": "正文定义微分流形、切空间、测地线和度规，并说明这些是微分几何的研究对象。"
+    },
+    {
+      "title": "微分几何在做什么呢？",
+      "url": "https://zhuanlan.zhihu.com/p/460620517",
+      "summary": "正文概述以微积分研究曲线和曲面、几何量及坐标不变性，并说明微分几何的典型问题。"
+    },
+    {
+      "title": "外微分（Exterior Calculus）是什么 - 2？",
+      "url": "https://zhuanlan.zhihu.com/p/422016329",
+      "summary": "正文以楔积、霍奇星算子和斯托克斯公式讲解微分形式与微分几何运算。"
+    },
+    {
+      "title": "Mathematica 程序包 OGRe 广义相对论计算 汉化帮助文档",
+      "url": "https://zhuanlan.zhihu.com/p/476655667",
+      "summary": "正文给出 Christoffel 符号由度规及其偏导数表达的公式，并用于协变导数和曲率计算。"
+    },
+    {
+      "title": "Gauss绝妙定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/481441120",
+      "summary": "正文使用第一、第二基本形式、Weingarten 映射和 Gauss 公式研究曲面局部几何。"
+    },
+    {
+      "title": "[广义相对论笔记]（一）微分流形、张量、度规",
+      "url": "https://zhuanlan.zhihu.com/p/483403529",
+      "summary": "正文解释张量的多重线性定义、指标变换、缩并和度规，是微分几何中的张量分析入门。"
+    },
+    {
+      "title": "[广义相对论笔记]（二）克氏符、协变微分",
+      "url": "https://zhuanlan.zhihu.com/p/486959438",
+      "summary": "正文以流形上的平行移动引出联络，并推导任意张量的协变导数。"
+    },
+    {
+      "title": "强化学习 | Policy Gradient | Natural PG 详细推导(1)",
+      "url": "https://zhuanlan.zhihu.com/p/487754664",
+      "summary": "正文以黎曼度量定义黎曼流形，并用其曲线距离元说明概率分布空间的几何结构。"
+    },
+    {
+      "title": "[广义相对论笔记]（五）史瓦西真空解、时空拖曳的绘制",
+      "url": "https://zhuanlan.zhihu.com/p/491835878",
+      "summary": "正文用度规、克里斯托费尔符和曲率张量逐步计算史瓦西时空的几何量。"
+    },
+    {
+      "title": "数学基础 | 直观理解黎曼几何(上): \"甜甜圈\"上的拉梅系数与度规张量",
+      "url": "https://zhuanlan.zhihu.com/p/492700945",
+      "summary": "正文以环形曲面的参数方程、切矢和局域坐标系为例解释微分几何的基本语言。"
+    },
+    {
+      "title": "数学基础 | 直观理解黎曼几何(中): \"甜甜圈\"上的平行移动与联络系数",
+      "url": "https://zhuanlan.zhihu.com/p/494423269",
+      "summary": "正文从曲线坐标系基矢的变化推导协变导数，并用环形曲面的度规计算联络系数。"
+    },
+    {
+      "title": "外微分简介",
+      "url": "https://zhuanlan.zhihu.com/p/495419839",
+      "summary": "正文从雅可比矩阵引入外积、外微分形式、庞加莱引理和斯托克斯公式，系统介绍微分几何语言。"
+    },
+    {
+      "title": "数学基础 | 直观理解黎曼几何(下): \"甜甜圈\"上的曲率张量与Ricci张量",
+      "url": "https://zhuanlan.zhihu.com/p/494603770",
+      "summary": "正文以协变微分顺序差异定义曲率张量，并给出联络系数表示和具体曲面计算。"
+    },
+    {
+      "title": "🐟的数学笔记：流形的切空间，外形式",
+      "url": "https://zhuanlan.zhihu.com/p/498992242",
+      "summary": "正文系统讲解切空间、切映射、张量场、外形式和外微分，属于微分几何的核心内容。"
+    },
+    {
+      "title": "用变分原理推导测地线方程",
+      "url": "https://zhuanlan.zhihu.com/p/500798248",
+      "summary": "正文从度规线长出发推导克里斯托费尔符号与测地线方程，属于微分几何中的核心计算。"
+    },
+    {
+      "title": "🐟的数学笔记：de Rham 上同调",
+      "url": "https://zhuanlan.zhihu.com/p/499745122",
+      "summary": "正文围绕流形上的微分形式、外微分和微分形式积分展开 de Rham 上同调。"
+    },
+    {
+      "title": "形变量子化：导读",
+      "url": "https://zhuanlan.zhihu.com/p/509886971",
+      "summary": "正文介绍形变量子化在辛流形、Poisson 流形及余切丛上的星积存在性与构造，核心背景属于微分几何中的流形与辛/Poisson 结构。"
+    },
+    {
+      "title": "Frenet坐标系及其与笛卡尔坐标转换(1)原理",
+      "url": "https://zhuanlan.zhihu.com/p/514864431",
+      "summary": "正文推导参数曲线的曲率和曲率导数，并运用 Frenet-Serret 公式建立运动标架间的关系。"
+    },
+    {
+      "title": "外尔张量(Weyl tensor)",
+      "url": "https://zhuanlan.zhihu.com/p/544954863",
+      "summary": "正文在流形上使用度规、协变导数和张量指标运算推导外尔张量及其共形变换性质。"
+    },
+    {
+      "title": "分析学家用武器库",
+      "url": "https://zhuanlan.zhihu.com/p/522352953",
+      "summary": "正文在流形上讲解协变导数、联络、曲率、微分形式与 Stokes 公式。"
+    },
+    {
+      "title": "如何对积分求导？",
+      "url": "https://zhuanlan.zhihu.com/p/547766124",
+      "summary": "正文使用微分形式、外微分、内缩、拉回和广义 Stokes 定理完成几何化证明。"
+    },
+    {
+      "title": "无形之物——流形",
+      "url": "https://zhuanlan.zhihu.com/p/556192850",
+      "summary": "正文从流形的局部坐标讲到张量场和切空间，是在展开流形上的微分几何构造。"
+    },
+    {
+      "title": "微分流形(1)",
+      "url": "https://zhuanlan.zhihu.com/p/581285597",
+      "summary": "正文以相容局部坐标和最大坐标图集定义光滑微分流形，并讨论光滑映射、微分同胚和单位分解。"
+    },
+    {
+      "title": "黎曼的几何基础，让数学领先物理100年，维度是人类最大的障碍",
+      "url": "https://zhuanlan.zhihu.com/p/581949832",
+      "summary": "正文引入逐点度规分量和黎曼度规张量，以数学语言描述空间几何。"
+    },
+    {
+      "title": "计算共形几何-微分几何",
+      "url": "https://zhuanlan.zhihu.com/p/582999071",
+      "summary": "正文系统介绍黎曼度量、联络、活动标架、曲率和黎曼流形等微分几何核心内容。"
+    },
+    {
+      "title": "家用微分几何 (第四话) 联络与平移",
+      "url": "https://zhuanlan.zhihu.com/p/584836761",
+      "summary": "正文系统讲解联络系数、协变导数、平行移动、曲率、挠率和测地线等微分几何结构。"
+    },
+    {
+      "title": "Michael Atiyah：二十世纪的数学发展回顾",
+      "url": "https://zhuanlan.zhihu.com/p/585865078",
+      "summary": "正文从局部到整体、曲率与切空间框架梳理微分几何的二十世纪发展。"
+    },
+    {
+      "title": "什么是指标定理",
+      "url": "https://zhuanlan.zhihu.com/p/590047367",
+      "summary": "正文在紧可定向黎曼流形和曲率、向量丛的框架下表述指标定理，属于微分几何内容。"
+    },
+    {
+      "title": "Lie群和Lie代数  Ⅰ",
+      "url": "https://zhuanlan.zhihu.com/p/590419258",
+      "summary": "正文使用切空间、向量场、局部坐标和积分曲线等微分几何工具研究李群结构。"
+    },
+    {
+      "title": "彭家贵、陈卿《微分几何》|第5章：曲面的内蕴几何学（习题解答）",
+      "url": "https://zhuanlan.zhihu.com/p/593479408",
+      "summary": "正文围绕第一基本形式、标架、协变微分和曲面结构方程系统解答微分几何问题。"
+    },
+    {
+      "title": "彭家贵、陈卿《微分几何》|第4章：标架与曲面论基本定理（习题解答）",
+      "url": "https://zhuanlan.zhihu.com/p/594254995",
+      "summary": "正文围绕第一、第二基本形式、Christoffel 符号和活动标架系统展开曲面微分几何。"
+    },
+    {
+      "title": "物理学用微分几何简表",
+      "url": "https://zhuanlan.zhihu.com/p/594867230",
+      "summary": "正文系统概述曲线曲面、流形、联络、曲率和示性类等微分几何核心内容。"
+    },
+    {
+      "title": "弯曲流形上向量的平行移动",
+      "url": "https://zhuanlan.zhihu.com/p/595424676",
+      "summary": "正文以切平面、联络系数、协变微分和测地线讲解曲面及流形上的平行移动。"
+    },
+    {
+      "title": "几何、拓扑、分析综合第一篇——从三角形内角和定理到Gauss-Bonnet-Chern定理",
+      "url": "https://zhuanlan.zhihu.com/p/598694962",
+      "summary": "正文从平面多边形内角和推广到曲面流形，推导带 Gauss 曲率和测地曲率项的 Gauss-Bonnet 公式。"
+    },
+    {
+      "title": "微分形式简介",
+      "url": "https://zhuanlan.zhihu.com/p/600380123",
+      "summary": "正文讲解切空间、余切空间、微分形式、外积、拉回及坐标变换。"
+    },
+    {
+      "title": "计算共形几何",
+      "url": "https://zhuanlan.zhihu.com/p/592437872",
+      "summary": "正文讨论曲面微分几何中的共形映射、黎曼度量和曲率不变量及其计算。"
+    },
+    {
+      "title": "陈类(Chern class)简介",
+      "url": "https://zhuanlan.zhihu.com/p/620837984",
+      "summary": "正文通过主丛联络、曲率形式和微分形式构造陈类，并证明其闭形式性质。"
+    },
+    {
+      "title": "几何学中最伟大的发明之一——流形，其背后的几何直觉与数学方法",
+      "url": "https://zhuanlan.zhihu.com/p/622263134",
+      "summary": "正文以过渡映射的光滑性区分析流形、光滑流形和解析流形，并讨论其微积分结构。"
+    },
+    {
+      "title": "一篇到位：写给物理学生的(外)微分形式",
+      "url": "https://zhuanlan.zhihu.com/p/629258713",
+      "summary": "正文系统讲解反对称形式、楔积、外微分、Hodge 对偶及流形上的广义 Stokes 公式。"
+    },
+    {
+      "title": "一文入门微分几何（物理人版）",
+      "url": "https://zhuanlan.zhihu.com/p/629852598",
+      "summary": "系统展开切丛、张量场、微分形式、联络、李导数与积分等微分几何内容。"
+    },
+    {
+      "title": "什么是数学上的空间、场和丛？",
+      "url": "https://zhuanlan.zhihu.com/p/630345101",
+      "summary": "通过投影、纤维、截面和指数函数图像讲解纤维丛的几何结构。"
+    },
+    {
+      "title": "李群是什么——几何与代数的结合（一）",
+      "url": "https://zhuanlan.zhihu.com/p/617130089",
+      "summary": "正文展开光滑曲面、坐标卡、转移映射和微分同胚，构成微分流形与微分几何的基础。"
+    },
+    {
+      "title": "李群是什么——几何与代数的结合",
+      "url": "https://zhuanlan.zhihu.com/p/641464195",
+      "summary": "正文定义切空间和微分，并用秩定理、浸入与嵌入讨论光滑映射的局部几何性质。"
+    },
+    {
+      "title": "微分几何中的 tangent vector（矢量/切矢量/切矢/切向量）到底是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/425000058",
+      "summary": "正文从微分流形、坐标系、导子和曲线等价类等角度深入解释微分几何中的切向量。"
+    },
+    {
+      "title": "Poisson几何随记",
+      "url": "https://zhuanlan.zhihu.com/p/649578880",
+      "summary": "正文在光滑流形上定义Poisson双向量、Poisson括号和辛叶子，系统介绍Poisson微分几何。"
+    },
+    {
+      "title": "深入浅出的《拓扑学和张量分析》期末考试再也不用愁！",
+      "url": "https://zhuanlan.zhihu.com/p/651490954",
+      "summary": "正文由光滑流形、切向量和切空间出发，讲解光滑映射的微分及形式的推拉运算。"
+    },
+    {
+      "title": "现代数学的基石—李理论，这就是你彻底理解它的方式，一定让你茅塞顿开",
+      "url": "https://zhuanlan.zhihu.com/p/652585224",
+      "summary": "正文以切空间、指数映射和流形上的光滑结构解释李群的微分几何工具。"
+    },
+    {
+      "title": "贝里联络，贝里相位和贝里曲率的几何解释",
+      "url": "https://zhuanlan.zhihu.com/p/661697145",
+      "summary": "正文把晶格平移系统描述为布里渊区上的带度量与联络的复向量丛，并用子丛继承的联络解释贝里联络，实质属于微分几何。"
+    },
+    {
+      "title": "【Proof-Trivial】从三角形到流形 —— 陈省身",
+      "url": "https://zhuanlan.zhihu.com/p/667277846",
+      "summary": "正文回顾整体微分几何的发展，并讲解曲面内蕴几何、曲率与拓扑不变量之间的联系。"
+    },
+    {
+      "title": "【读书笔记】黎曼流形优化及其应用 - 几何基础与理论方法",
+      "url": "https://zhuanlan.zhihu.com/p/669363301",
+      "summary": "正文围绕切空间、联络、协变导数、指数映射与并行移动讲解微分几何及流形优化所需结构。"
+    },
+    {
+      "title": "李群是什么——几何与代数的结合",
+      "url": "https://zhuanlan.zhihu.com/p/662576340",
+      "summary": "正文在流形上定义微分、切空间、浸入与嵌入，并证明秩定理。"
+    },
+    {
+      "title": "微分几何复习&整理",
+      "url": "https://zhuanlan.zhihu.com/p/669239881",
+      "summary": "正文系统整理曲线论、局部曲面、基本形式和结构方程等微分几何内容。"
+    },
+    {
+      "title": "彭家贵《微分几何》习题解答（习题二）",
+      "url": "https://zhuanlan.zhihu.com/p/677926371",
+      "summary": "正文用切向量、主法向量和副法向量求解曲线，并在多道习题中运用 Frenet 公式研究曲率与挠率。"
+    },
+    {
+      "title": "彭家贵《微分几何》习题解答（习题三）",
+      "url": "https://zhuanlan.zhihu.com/p/678285300",
+      "summary": "正文以参数曲面、切平面、第一与第二基本形式及法曲率等计算系统讲解曲面微分几何。"
+    },
+    {
+      "title": "微分几何在工业软件中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/686045801",
+      "summary": "正文以微分几何理论贯穿曲面网格、单值化、Ricci 流和标架场构造。"
+    },
+    {
+      "title": "曲率，一个高度抽象的概念，真正理解它需要非常深厚的数学背景",
+      "url": "https://zhuanlan.zhihu.com/p/688163333",
+      "summary": "正文以微分几何为框架，借助曲率张量和平行移动解释空间偏离欧氏几何的程度。"
+    },
+    {
+      "title": "黎曼几何简介",
+      "url": "https://zhuanlan.zhihu.com/p/694274425",
+      "summary": "正文系统介绍微分几何中的流形、切空间、子流形与度量等概念如何汇聚为黎曼几何。"
+    },
+    {
+      "title": "黎曼几何(1):黎曼度量",
+      "url": "https://zhuanlan.zhihu.com/p/701769327",
+      "summary": "正文通过切空间、张量场、诱导度量和黎曼子流形等微分几何结构展开讲解。"
+    },
+    {
+      "title": "现代数学基础-G1-古典微分几何",
+      "url": "https://zhuanlan.zhihu.com/p/702328665",
+      "summary": "正文系统讲解三维欧氏空间中曲线和曲面的参数化、基本形式及局部理论，属于微分几何的实质展开。"
+    },
+    {
+      "title": "向量与代数（四）：神奇的外微分",
+      "url": "https://zhuanlan.zhihu.com/p/700740094",
+      "summary": "正文引入一次及高次微分形式、外微分和广义外微分定理，并用微分形式统一向量场积分定理。"
+    },
+    {
+      "title": "曲面、联络与傅科摆：一个有趣的例子",
+      "url": "https://zhuanlan.zhihu.com/p/709991879",
+      "summary": "正文从参数化曲面、切空间、度规、协变导数和联络系数展开完整的微分几何解释。"
+    },
+    {
+      "title": "深入浅出理解黎曼流形上的活动标架法——1：活动标架法的演进",
+      "url": "https://zhuanlan.zhihu.com/p/712576964",
+      "summary": "正文系统讲解活动标架法、联络形式及其在曲线和曲面微分几何中的演进。"
+    },
+    {
+      "title": "纵览微分几何中的数学思想",
+      "url": "https://zhuanlan.zhihu.com/p/714804790",
+      "summary": "正文系统梳理微分几何中的流形、切映射、联络、外微分形式和几何结构等主题及其数学思想。"
+    },
+    {
+      "title": "底层码农视角下的最优传输（1）",
+      "url": "https://zhuanlan.zhihu.com/p/3137537490",
+      "summary": "正文讲解度量、联络、平行移动、测地线和黎曼曲率张量，属于微分几何的核心对象。"
+    },
+    {
+      "title": "理论力学——流形上的拉格朗日力学",
+      "url": "https://zhuanlan.zhihu.com/p/3664297922",
+      "summary": "正文用度量、联络、平行移动和测地线构造流形上的微分几何框架。"
+    },
+    {
+      "title": "聊点学术",
+      "url": "https://zhuanlan.zhihu.com/p/9417887347",
+      "summary": "正文围绕旋转曲面的测地线方程及首次积分讨论闭测地线与几何结构，属于微分几何。"
+    },
+    {
+      "title": "微分几何最核心的概念——流形，所有的几何研究都必须在流形上进行",
+      "url": "https://zhuanlan.zhihu.com/p/16776922330",
+      "summary": "正文说明如何借助局部坐标、切空间和度量在流形上开展微分几何运算。"
+    },
+    {
+      "title": "微分几何视角下的电动力学【更高更妙的电动力学·1】",
+      "url": "https://zhuanlan.zhihu.com/p/21808352165",
+      "summary": "正文系统介绍协变、逆变、微分形式与外微分，并用微分几何语言重写电磁场结构。"
+    },
+    {
+      "title": "引力存在吗？",
+      "url": "https://zhuanlan.zhihu.com/p/11288467015",
+      "summary": "正文展开协变导数、克里斯托弗记号、张量缩并和测地线方程，具体讲解微分几何工具。"
+    },
+    {
+      "title": "微分形式不变性是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/31918080039",
+      "summary": "正文从流形、余切向量场和微分形式解释不变性，属于微分几何视角。"
+    },
+    {
+      "title": "哈密顿力学：相空间的几何学",
+      "url": "https://zhuanlan.zhihu.com/p/1888557744551884327",
+      "summary": "正文以相空间、辛矩阵和辛流形说明哈密顿力学的几何结构及相流性质。"
+    },
+    {
+      "title": "几何控制理论",
+      "url": "https://zhuanlan.zhihu.com/p/1892483929988114312",
+      "summary": "正文用流形、切丛、李括号和李代数等微分几何工具研究控制系统的可及性。"
+    },
+    {
+      "title": "通俗理解什么是李导数",
+      "url": "https://zhuanlan.zhihu.com/p/1892923128876875952",
+      "summary": "正文通过单参微分同胚群、推前与拉回映射具体解释李导数，并以坐标可视化展示其几何意义。"
+    },
+    {
+      "title": "【数学】黎曼几何浅解",
+      "url": "https://zhuanlan.zhihu.com/p/1924188443510046928",
+      "summary": "正文系统介绍纤维丛、切空间、联络、测地线和指数映射等微分几何工具。"
+    },
+    {
+      "title": "物理学中的高阶几何（三）——高阶几何量子化与 H 假设",
+      "url": "https://zhuanlan.zhihu.com/p/1932057139670671779",
+      "summary": "正文定义 n-辛流形、哈密顿形式和高阶泊松代数，展开辛几何的高阶推广。"
+    },
+    {
+      "title": "通俗理解什么是协变导数",
+      "url": "https://zhuanlan.zhihu.com/p/1935091361129956515",
+      "summary": "正文从基矢变化与联络系数出发，解释协变导数修正项的来源，并推导向量场沿任意方向的变化率。"
+    },
+    {
+      "title": "《辛拓扑导论》 1.1 Hamilton 力学",
+      "url": "https://zhuanlan.zhihu.com/p/1937949334206419743",
+      "summary": "正文以辛同构和辛形式为核心，讨论 Hamilton 流保持辛结构的微分几何性质。"
+    },
+    {
+      "title": "数学上最重要的发明之一，微分形式，真正的几何学语言",
+      "url": "https://zhuanlan.zhihu.com/p/1940981805747513157",
+      "summary": "正文从切向量和余切空间出发，系统讲解微分形式及楔积等微分几何概念。"
+    },
+    {
+      "title": "高中生也能懂的Gauss-Bonnet定理证明",
+      "url": "https://zhuanlan.zhihu.com/p/1956810053525939632",
+      "summary": "正文从曲率、测地三角形、欧拉示性数和亏格完整证明 Gauss-Bonnet 定理。"
+    },
+    {
+      "title": "速通古典微分几何",
+      "url": "https://zhuanlan.zhihu.com/p/1970133150110823312",
+      "summary": "正文系统梳理曲线与曲面的弧长、标架、第一和第二基本形式及基本定理，属于经典微分几何。"
+    },
+    {
+      "title": "非平衡稳态系统有效力的分解本质上是Hodge 分解",
+      "url": "https://zhuanlan.zhihu.com/p/1978438021671035746",
+      "summary": "正文用黎曼流形上的微分形式、内积、余微分与 Hodge 分解表述非平衡稳态的势景观和环流分解。"
+    },
+    {
+      "title": "黎曼几何往年题选做",
+      "url": "https://zhuanlan.zhihu.com/p/1983300852300149819",
+      "summary": "正文用测地线、指数映射、Gauss 引理和 Bochner 公式证明多道微分几何题。"
+    },
+    {
+      "title": "如何只用线性代数得到微分几何",
+      "url": "https://zhuanlan.zhihu.com/p/1996609978740531264",
+      "summary": "正文从曲面参数化的雅可比矩阵出发，系统构建协变导数、联络、曲率和测地线。"
+    },
+    {
+      "title": "微分的本质：从“变化率”到“线性映射”的飞跃",
+      "url": "https://zhuanlan.zhihu.com/p/2007391930762432746",
+      "summary": "正文进一步介绍流形上的切空间、切映射、微分形式与拉回，构成微分几何的核心结构。"
+    },
+    {
+      "title": "关于微分流形（？）其实是关于代数几何。",
+      "url": "https://zhuanlan.zhihu.com/p/2011854180332110938",
+      "summary": "正文系统讨论切层、余切层、微分形式、向量场及 De Rham 上同调。"
+    },
+    {
+      "title": "E.Witten的业绩II 深谷贤治",
+      "url": "https://zhuanlan.zhihu.com/p/2009321982374745022",
+      "summary": "正文通过在流形上选取黎曼度量并构造拉普拉斯算子来变形外微分，讲解了微分几何中的核心构造。"
+    },
+    {
+      "title": "李群李代数（一）·群到李群 李群到李代数 导子",
+      "url": "https://zhuanlan.zhihu.com/p/2033618384642888018",
+      "summary": "正文用左不变向量场、切空间、李括号和指数映射展开微分几何构造。"
+    },
+    {
+      "title": "毛球定理（Hairy Ball Theorem）",
+      "url": "https://zhuanlan.zhihu.com/p/2040867046473388100",
+      "summary": "正文使用活动标架、Levi-Civita 联络与高斯曲率给出毛球定理的微分几何证明。"
+    },
+    {
+      "title": "宝宝用微分几何与纤维丛（连载中）",
+      "url": "https://zhuanlan.zhihu.com/p/2041538717177926508",
+      "summary": "正文以流形、切向量、张量和切丛系统讲解微分几何的基础语言。"
+    },
+    {
+      "title": "黎曼猜想之后，Claude再破百年猜想纪录！",
+      "url": "https://zhuanlan.zhihu.com/p/2074177853579703561",
+      "summary": "正文用光滑闭凸曲面和脐点的局部性质讲解Carathéodory猜想所属的微分几何背景。"
+    }
+  ]
+}

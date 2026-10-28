@@ -1,0 +1,32 @@
+:root { --surface: 14.285714%; }
+.iceberg-viewport { height: max(1400px, calc(100dvh - 76px)); }
+.iceberg-art { background: linear-gradient(#cce6ea 0% 14.2857%, #176173 14.2857% 28.5714%, #144760 28.5714% 42.8571%, #112f47 42.8571% 57.1428%, #0b1b30 57.1428% 71.4285%, #080f1d 71.4285%); }
+.depth-bands { background: repeating-linear-gradient(to bottom, transparent 0 calc(100% / 7 - 1px), #b3dae138 calc(100% / 7 - 1px) calc(100% / 7)); }
+.depth-bands .band { display: none; }
+.node[data-depth="layer-1"] .node-label { color: #113b4e; text-shadow: 0 1px 5px #e6f7f5; }
+.node[data-depth="layer-1"] .node-orb { background: #234c5b; box-shadow: none; }
+.node-label { font-size: 20px; }
+.layer-labels li { transform: none; gap: 20px; }
+.layer-labels p { max-width: 130px; }
+.discussion-panel:not(.is-below) { position: fixed; top: 170px; max-height: calc(100dvh - 210px); }
+.source-link { color: #c1f4e7; text-underline-offset: 4px; }
+.empty-content { color: #b9cbd3; line-height: 1.8; font-size: 14px; border-top: 1px solid #95bdc32e; padding-top: 20px; }
+.focus-node.is-action { height: auto; min-height: 68px; }
+.focus-node.is-action .node-label { white-space: normal; font-size: 16px; }
+.focus-node.selected .node-label { width: max-content; max-width: 220px; white-space: normal; font-size: 25px; }
+@media (max-width: 800px) {
+  .iceberg-viewport { height: 1550px; }
+  .layer-labels li { left: 20px; gap: 10px; }
+  .node-label { font-size: 17px; }
+}
+@media (max-width: 540px) {
+  .iceberg-viewport { height: 2450px; }
+  .node-label { font-size: 17px; }
+  .layer-labels li { --layer-y: inherit; }
+  .layer-labels li > span { font-size: 24px; }
+  .layer-labels h2 { font-size: 22px; }
+  .layer-labels p { max-width: none; }
+  .layer-labels li { margin-top: -34px; }
+  .map-intro { display: none; }
+  .focus-node.selected .node-label { max-width: 145px; font-size: 21px; }
+}

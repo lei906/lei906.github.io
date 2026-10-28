@@ -1,0 +1,3481 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l4-t1-b5",
+  "sources": [
+    {
+      "title": "数学的公理是如何得出的？以及如何看待数学与现实世界符合得如此之好？",
+      "url": "https://www.zhihu.com/answer/12485568",
+      "summary": "解释公理作为推导起点和构建数学体系的基础所起的作用。"
+    },
+    {
+      "title": "外星人的数学体系和我们的等价吗？数学、科学、哲学在宇宙中是否具有普适性？",
+      "url": "https://www.zhihu.com/answer/16111356",
+      "summary": "用群公理、几何公理及连续统假设讨论形式系统与相容性；CH的独立性不是不完全性定理的直接推论，相容性结论还依赖基础系统相容等条件。"
+    },
+    {
+      "title": "有哪些数学知识与人们的生活常识不符？",
+      "url": "https://www.zhihu.com/answer/16272377",
+      "summary": "用从无穷多个非空集合各选一个元素解释选择公理，并介绍它与分球悖论的联系。分解涉及不可测集合，不能当成实际物体的切割方案。"
+    },
+    {
+      "title": "如何证明数学等式 1 + 1 = 2 的成立？",
+      "url": "https://www.zhihu.com/answer/17055289",
+      "summary": "依据自然数后继和加法递归定义展开1+1=2，讨论定义与证明的关系；所列只是相关公理与定义片段，不是完整皮亚诺公理系统。"
+    },
+    {
+      "title": "数理逻辑＝﹥ ，|－这两个符号有什么区别？",
+      "url": "https://www.zhihu.com/answer/17469774",
+      "summary": "列出Hilbert式公理模式、MP规则及p推出p的证明序列，说明公理系统内的证明与语义后承的区别；不同作者的符号约定可能不同。"
+    },
+    {
+      "title": "选择公理在什么情况下使用？",
+      "url": "https://www.zhihu.com/answer/18884729",
+      "summary": "正文围绕「选择公理在什么情况下使用？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "数学上有「从理论上根本无法证明」的东西么？",
+      "url": "https://www.zhihu.com/answer/19232143",
+      "summary": "正文围绕「数学上有「从理论上根本无法证明」的东西么？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "是否存在「可证明」的对于世界的解释？",
+      "url": "https://www.zhihu.com/answer/24131288",
+      "summary": "正文围绕“公理”给出直接说明。"
+    },
+    {
+      "title": "怎么理解“女人是形式逻辑的典范，是辩证逻辑的障碍”这句话？",
+      "url": "https://www.zhihu.com/answer/24829306",
+      "summary": "正文围绕“公理”给出直接说明。"
+    },
+    {
+      "title": "一个命题在公理系统中不能证明，和一个命题不真也不假的区别是什么？",
+      "url": "https://www.zhihu.com/answer/25629126",
+      "summary": "正文围绕“公理”给出直接说明。"
+    },
+    {
+      "title": "为什么需要证明「1+1=2」？",
+      "url": "https://www.zhihu.com/answer/29179255",
+      "summary": "正文围绕“公理”给出说明、例证或方法。"
+    },
+    {
+      "title": "哲学观点有对错吗？",
+      "url": "https://www.zhihu.com/answer/33398197",
+      "summary": "正文直接讨论公理系统与命题正确性的关系。"
+    },
+    {
+      "title": "存在既相容又完备的公理体系吗？有什么例子呢？",
+      "url": "https://www.zhihu.com/answer/33875445",
+      "summary": "正文系统讨论公理体系的相容性与完备性。"
+    },
+    {
+      "title": "中国数学相比与西方数学为什么会处于劣势？",
+      "url": "https://www.zhihu.com/answer/34355614",
+      "summary": "正文从公理化体系讨论数学发展的基础。"
+    },
+    {
+      "title": "中国数学相比与西方数学为什么会处于劣势？",
+      "url": "https://www.zhihu.com/answer/36027774",
+      "summary": "正文讨论欧几里得公理化体系如何形成和延续。"
+    },
+    {
+      "title": "如何简单清晰地解释哥德尔不完备定理？",
+      "url": "https://www.zhihu.com/answer/37464818",
+      "summary": "正文从形式系统的符号、公理与推导规则解释哥德尔不完备性的出发点。"
+    },
+    {
+      "title": "为什么说罗素悖论对数学是一次严重的危机？到底对数学产生了怎样的影响？",
+      "url": "https://www.zhihu.com/answer/40887495",
+      "summary": "正文讨论公理化体系与希尔伯特计划。"
+    },
+    {
+      "title": "如何简单清晰地解释哥德尔不完备定理？",
+      "url": "https://www.zhihu.com/answer/41624053",
+      "summary": "正文以哥德尔不完备定理解释公理系统。"
+    },
+    {
+      "title": "数学在被定义之前存在吗？",
+      "url": "https://www.zhihu.com/answer/41919654",
+      "summary": "正文讨论逻辑主义中的公理。"
+    },
+    {
+      "title": "集合论和一阶逻辑的关系是什么？",
+      "url": "https://www.zhihu.com/answer/42779583",
+      "summary": "正文说明集合论公理及其一阶语言形式。"
+    },
+    {
+      "title": "数学归纳法为什么是对的？如何证明其正确性？",
+      "url": "https://www.zhihu.com/answer/44447725",
+      "summary": "正文明确以Peano公理中的归纳公理作为正确性的理论基础。"
+    },
+    {
+      "title": "如果数学规律被改变，世界将会变成什么样子？",
+      "url": "https://www.zhihu.com/answer/46619389",
+      "summary": "正文说明集合论以公理体系建立，并讨论无穷公理。"
+    },
+    {
+      "title": "民科是否很少攻击数学？",
+      "url": "https://www.zhihu.com/answer/52766833",
+      "summary": "正文说明数学体系以公理为基础，改变体系需建立新公理。"
+    },
+    {
+      "title": "数学是人类的发明，还是发现？",
+      "url": "https://www.zhihu.com/answer/54465863",
+      "summary": "正文说明现代数学先制定公理再依逻辑推导定理。"
+    },
+    {
+      "title": "请大神们帮忙证明一下1+1＝2.?",
+      "url": "https://www.zhihu.com/answer/58297549",
+      "summary": "正文解释数学证明以公理为起点，并列出皮亚诺公理。"
+    },
+    {
+      "title": "对于现在的数学而言，平面几何的意义是什么？",
+      "url": "https://www.zhihu.com/answer/59050733",
+      "summary": "正文将平面几何的公理、定义、定理和命题体系作为其现代意义。"
+    },
+    {
+      "title": "所有三角形都是等腰三角形？",
+      "url": "https://www.zhihu.com/answer/59819336",
+      "summary": "正文讨论欧氏几何公理体系中缺少序公理及其后果。"
+    },
+    {
+      "title": "数学与物理是什么关系？",
+      "url": "https://www.zhihu.com/answer/70793765",
+      "summary": "正文将数学命题的前提假设明确称为公理或公设。"
+    },
+    {
+      "title": "为什么数理逻辑在中国的大学教育中不受重视？",
+      "url": "https://www.zhihu.com/answer/71967628",
+      "summary": "正文说明形式系统由定义证明世界的规则与公理组成。"
+    },
+    {
+      "title": "整个数学都是由几条根本无法被证明的公理推导出来的？不荒谬吗？",
+      "url": "https://www.zhihu.com/answer/72734194",
+      "summary": "正文围绕公理与数学形式系统的关系展开。"
+    },
+    {
+      "title": "任意无限集必包含一个可列子集 怎么证明？",
+      "url": "https://www.zhihu.com/answer/73349009",
+      "summary": "正文明确指出证明依赖选择公理。"
+    },
+    {
+      "title": "数学的终极问题是什么？",
+      "url": "https://www.zhihu.com/answer/76549216",
+      "summary": "正文讨论形式系统、公理体系及哥德尔不完备性。"
+    },
+    {
+      "title": "数学的本质是什么？",
+      "url": "https://www.zhihu.com/answer/79613918",
+      "summary": "正文明确说明数学以公理体系和演绎法为基础。"
+    },
+    {
+      "title": "为什么中国人数学这么牛，却几乎没有中国人发现的数学定理？",
+      "url": "https://www.zhihu.com/answer/79618168",
+      "summary": "正文以《几何原本》说明公理体系和演绎法的重要性。"
+    },
+    {
+      "title": "数学这门学科有多有趣？",
+      "url": "https://www.zhihu.com/answer/81082930",
+      "summary": "正文指出结论的绝对正确性以接受公理与逻辑为前提。"
+    },
+    {
+      "title": "存在绝对正确的道理吗？",
+      "url": "https://www.zhihu.com/answer/81532692",
+      "summary": "正文讨论把排中律作为无需证明的公理或公设。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/82005805",
+      "summary": "正文从选择公理出发讨论巴拿赫—塔斯基定理的逻辑地位。"
+    },
+    {
+      "title": "无法理解高等数学怎么办？",
+      "url": "https://www.zhihu.com/answer/82055333",
+      "summary": "正文系统解释公理作为知识系统起点、后续结论由公理逐层推出的作用。"
+    },
+    {
+      "title": "如何简单清晰地解释哥德尔不完备定理？",
+      "url": "https://www.zhihu.com/answer/84846358",
+      "summary": "正文说明希尔伯特将数学严格公理化的计划。"
+    },
+    {
+      "title": "有哪些问题本身的价值甚至高于答案？",
+      "url": "https://www.zhihu.com/answer/87648623",
+      "summary": "正文讨论集合论危机、公理化基础及其对数理逻辑的推动。"
+    },
+    {
+      "title": "读过《哥德尔、艾舍尔、巴赫：集异璧之大成》一书的朋友，这本书对你产生了怎样的影响？",
+      "url": "https://www.zhihu.com/answer/87894887",
+      "summary": "正文围绕形式系统、公理、哥德尔不完备性和自指展开长篇解释。"
+    },
+    {
+      "title": "如何简单清晰地解释哥德尔不完备定理？",
+      "url": "https://www.zhihu.com/answer/87895460",
+      "summary": "正文以哥德尔定理说明足够强的公理化形式系统必有不完备性。"
+    },
+    {
+      "title": "亚里士多德到底有没有过正确的科学结论？",
+      "url": "https://www.zhihu.com/answer/88400584",
+      "summary": "正文大量讨论亚里士多德对公理、公设与第一性原理的区分。"
+    },
+    {
+      "title": "假设存在外星文明，他们的数学体系会和地球一样吗？",
+      "url": "https://www.zhihu.com/answer/88758677",
+      "summary": "正文讨论不同公理选择与推理能力、数学建模之间的关系。"
+    },
+    {
+      "title": "学逻辑学的真正用途是什么？",
+      "url": "https://www.zhihu.com/answer/89162383",
+      "summary": "正文说明逻辑如何规范语言并把科学知识组织在公理与演绎基础上。"
+    },
+    {
+      "title": "解决初等几何题目使用辅助线的逻辑原理是什么？",
+      "url": "https://www.zhihu.com/answer/91067201",
+      "summary": "正文指出辅助线对应的对象由平行公理等几何公理预先确定。"
+    },
+    {
+      "title": "如何简单清晰地解释哥德尔不完备定理？",
+      "url": "https://www.zhihu.com/answer/93985761",
+      "summary": "Peano 公理与形式系统的公理、推理规则贯穿全文。"
+    },
+    {
+      "title": "历史上有什么东西一直被摆在不重要的位置，后来突然发现它的用途，而后被广泛使用呢？",
+      "url": "https://www.zhihu.com/answer/100183599",
+      "summary": "正文列出欧氏几何五条公理并解释公理作为理论出发点的角色。"
+    },
+    {
+      "title": "选择公理到底是什么?",
+      "url": "https://www.zhihu.com/answer/102442755",
+      "summary": "全文给出选择公理、选择函数的形式定义及何时需要该公理。"
+    },
+    {
+      "title": "可数个可数集合的并可数哪里用到了选择公理？",
+      "url": "https://www.zhihu.com/answer/104660588",
+      "summary": "正文精确指出可数选择公理在为每个可数集选取见证满射时被使用。"
+    },
+    {
+      "title": "如何评价 Knuth 的《研究之美》 以及高博对此书的翻译？",
+      "url": "https://www.zhihu.com/answer/106828602",
+      "summary": "正文介绍该书从少量公理出发建立算术体系并展示推理过程。"
+    },
+    {
+      "title": "戴德金对实数构造提出的分划的真实意义是什么？为何对有理数系存在有理分划和无理分划？",
+      "url": "https://www.zhihu.com/answer/108383567",
+      "summary": "正文对比实数公理描述与从有理数出发的构造方法。"
+    },
+    {
+      "title": "如何评价吴文俊说21世纪九章算术数学思想必将凌驾于几何原本？",
+      "url": "https://www.zhihu.com/answer/108561777",
+      "summary": "正文把演绎法解释为从公理经逻辑规则推出定理的过程。"
+    },
+    {
+      "title": "哪些数学定理在直觉上是对的，但证明起来很困难？",
+      "url": "https://www.zhihu.com/answer/111292401",
+      "summary": "正文列出欧氏公设并解释平行公设为何不能由其他公设证明。"
+    },
+    {
+      "title": "欧几里德的第五公设可靠吗？",
+      "url": "https://www.zhihu.com/answer/113804677",
+      "summary": "正文围绕第五公设的独立性及不同几何公理体系展开。"
+    },
+    {
+      "title": "统计学和概率论、数理统计有何异同？为什么不归在数学类？",
+      "url": "https://www.zhihu.com/answer/116252964",
+      "summary": "正文强调概率论建立在严格公理基础上。"
+    },
+    {
+      "title": "如何让一个 5 岁小孩听懂什么是选择公理？",
+      "url": "https://www.zhihu.com/answer/118011956",
+      "summary": "正文从选择函数定义、生活类比、独立性到反直觉后果，完整讲解选择公理。"
+    },
+    {
+      "title": "数学为什么能由那几条公理推导出这么多的公式？",
+      "url": "https://www.zhihu.com/answer/118308627",
+      "summary": "正文解释数学体系如何在发展后抽象出基本公理，并由公理组织知识网络。"
+    },
+    {
+      "title": "数学是不是人类认识「上帝」的唯一途径？",
+      "url": "https://www.zhihu.com/answer/118559446",
+      "summary": "正文以选择公理及其否定说明数学可以建立在不同公理体系上。"
+    },
+    {
+      "title": "小时候想到的一个数学问题，现在还没有想明白，可能以后会越来越不明白，有哪位大牛可以帮我解答吗？",
+      "url": "https://www.zhihu.com/answer/121264374",
+      "summary": "正文以一组理性公理约束认知函数，并解释各公理如何支持推断。"
+    },
+    {
+      "title": "有哪些理论或学说颠覆了你原先对这个世界的理解？",
+      "url": "https://www.zhihu.com/answer/122534771",
+      "summary": "正文讨论不同公理与假设如何建立各自自洽的逻辑体系。"
+    },
+    {
+      "title": "Kolmogorov（柯尔莫哥洛夫）至少让实用概率论停滞了三四十年，试评价这一观点？",
+      "url": "https://www.zhihu.com/answer/125456642",
+      "summary": "正文讨论概率论公理体系要求先明确概率空间和“随机”的定义。"
+    },
+    {
+      "title": "为什么要公理化实数，而不是从自然数导出？",
+      "url": "https://www.zhihu.com/answer/126754251",
+      "summary": "正文解释公理化定义通过本质属性和唯一性刻画数学对象。"
+    },
+    {
+      "title": "为什么要公理化实数，而不是从自然数导出？",
+      "url": "https://www.zhihu.com/answer/126779124",
+      "summary": "正文围绕实数公理的一致性、模型存在性与同构意义下唯一性展开论证。"
+    },
+    {
+      "title": "有哪些令人“无法反驳”的混蛋逻辑？",
+      "url": "https://www.zhihu.com/answer/128761951",
+      "summary": "正文以欧式几何为例讨论公理作为逻辑体系出发点及其真值争议。"
+    },
+    {
+      "title": "为什么需要证明「1+1=2」？",
+      "url": "https://www.zhihu.com/answer/128912950",
+      "summary": "正文逐条解释皮亚诺五条公理如何排除不符合预期的数系。"
+    },
+    {
+      "title": "为什么需要证明「1+1=2」？",
+      "url": "https://www.zhihu.com/answer/129011580",
+      "summary": "正文列出欧几里得五公设与五公理，并澄清两点间线段最短不是其中一条公理。"
+    },
+    {
+      "title": "“永远不要试图纠正别人的想法，因为几乎做不到”这句话合理吗？为什么？如果是你遇到的，你会怎么做？",
+      "url": "https://www.zhihu.com/answer/130780853",
+      "summary": "正文解释公理体系以默认前提为基础进行逻辑推理，并说明改变公理可产生不同但自洽的理论。"
+    },
+    {
+      "title": "有人熟悉Isabelle定理证明器的么？",
+      "url": "https://www.zhihu.com/answer/131874580",
+      "summary": "正文解释Isabelle以元逻辑扩展一阶、高阶、集合论等公理化逻辑系统的机制。"
+    },
+    {
+      "title": "据说罗素悖论有解，如何解？",
+      "url": "https://www.zhihu.com/answer/133390930",
+      "summary": "正文说明 ZF 通过限制概括规则的公理化方式避免罗素悖论。"
+    },
+    {
+      "title": "在你的专业里，有哪些常识书本上没有？",
+      "url": "https://www.zhihu.com/answer/133598391",
+      "summary": "正文明确说明数学可以选择不同基础公理体系，并举 ZFC 为通行体系。"
+    },
+    {
+      "title": "是否存在一条能且只能用反证法证明的命题？",
+      "url": "https://www.zhihu.com/answer/137798918",
+      "summary": "正文列出不同逻辑体系采纳的公理与可证明命题，实质讨论公理系统。"
+    },
+    {
+      "title": "是否存在一条能且只能用反证法证明的命题？",
+      "url": "https://www.zhihu.com/answer/137938900",
+      "summary": "正文从最小逻辑、直觉逻辑到经典逻辑逐层说明其公理与推理规则。"
+    },
+    {
+      "title": "数学是人为创造还是自然的规律？",
+      "url": "https://www.zhihu.com/answer/142331756",
+      "summary": "正文说明数学在给定公理和命题下进行逻辑推演。"
+    },
+    {
+      "title": "数学是人为创造还是自然的规律？",
+      "url": "https://www.zhihu.com/answer/143226533",
+      "summary": "正文解释公理变化会产生不同但自洽的几何体系。"
+    },
+    {
+      "title": "为什么「数学」不属于「自然科学」？",
+      "url": "https://www.zhihu.com/answer/143526205",
+      "summary": "正文说明通过修改或添加公理维持数学体系内部一致性。"
+    },
+    {
+      "title": "为什么「数学」不属于「自然科学」？",
+      "url": "https://www.zhihu.com/answer/143857034",
+      "summary": "正文说明数学可形式化为由二阶逻辑公理构成的体系。"
+    },
+    {
+      "title": "有没有一些名字看起来高深内容却简单或奇葩的定理定律？",
+      "url": "https://www.zhihu.com/answer/143993358",
+      "summary": "正文用皮亚诺公理和集合论概括哥德尔不完备性的适用背景。"
+    },
+    {
+      "title": "1+1=2 是公理，还是定理？",
+      "url": "https://www.zhihu.com/answer/145219066",
+      "summary": "证明从关于 0 的公理与后继、加法定义出发，体现公理体系中的推导。"
+    },
+    {
+      "title": "如何看待美国学者称，「（可以）用简易方法证明费马大定理」？",
+      "url": "https://www.zhihu.com/answer/146861373",
+      "summary": "正文以 ZFC、格罗滕迪克全域和强不可达基数讨论证明的公理基础。"
+    },
+    {
+      "title": "为什么需要证明「1+1=2」？",
+      "url": "https://www.zhihu.com/answer/147872326",
+      "summary": "正文讨论皮亚诺公理如何被选择并在该公理体系中证明 1+1=2。"
+    },
+    {
+      "title": "如何简单清晰地解释哥德尔不完备定理？",
+      "url": "https://www.zhihu.com/answer/150626112",
+      "summary": "正文用打印机比喻解释含皮亚诺算术公理的相容形式系统为何不完备。"
+    },
+    {
+      "title": "哲学论证有可能像数学一样精确吗？",
+      "url": "https://www.zhihu.com/answer/150929794",
+      "summary": "正文说明证明从明确公理与定义出发，并只要求公理体系一致。"
+    },
+    {
+      "title": "数学可以直观想象么？",
+      "url": "https://www.zhihu.com/answer/151162515",
+      "summary": "正文讨论公理体系需一致且足够丰富，并以游戏规则解释公理选择。"
+    },
+    {
+      "title": "\"1 + 1 = 2\" 是定义, 还是定理?",
+      "url": "https://www.zhihu.com/answer/158328993",
+      "summary": "正文解释公理体系的选择，并在皮亚诺与 lambda 体系下定义和证明 1+1=2。"
+    },
+    {
+      "title": "是否存在一条能且只能用反证法证明的命题？",
+      "url": "https://www.zhihu.com/answer/172850424",
+      "summary": "正文解释逻辑系统中的公理、公式与推导规则均依所选系统而定。"
+    },
+    {
+      "title": "数学归纳法是科学的吗，严谨吗？我怎么觉得不严谨？",
+      "url": "https://www.zhihu.com/answer/176723883",
+      "summary": "正文说明归纳法有效性是皮亚诺公理的一部分而非其他公理的推论。"
+    },
+    {
+      "title": "数学归纳法是科学的吗，严谨吗？我怎么觉得不严谨？",
+      "url": "https://www.zhihu.com/answer/177512337",
+      "summary": "正文解释数学归纳法既可作为公理也可作为推理规则，并联系皮亚诺公理。"
+    },
+    {
+      "title": "为什么说罗素悖论对数学是一次严重的危机？到底对数学产生了怎样的影响？",
+      "url": "https://www.zhihu.com/answer/189091114",
+      "summary": "正文解释公理化形式系统的一致性、完备性与不可判定命题。"
+    },
+    {
+      "title": "关乎1+1等于2，我们的科学是否建立在正确的立场？",
+      "url": "https://www.zhihu.com/answer/192002341",
+      "summary": "正文解释数学命题如何在公理系统中经纯逻辑推理判定，并讨论矛盾时修改公理。"
+    },
+    {
+      "title": "数学中的「相等」能在数理逻辑中严格定义吗？",
+      "url": "https://www.zhihu.com/answer/207841206",
+      "summary": "正文从等号规则与额外公理如何形成商结构讨论形式系统。"
+    },
+    {
+      "title": "如果宇宙中存在超级文明，哪些是他们必备的技能？",
+      "url": "https://www.zhihu.com/answer/214636246",
+      "summary": "正文解释公理系统如何定义自然数并推演数学体系。"
+    },
+    {
+      "title": "没有基的线性空间，是否可以构造，如何构造？",
+      "url": "https://www.zhihu.com/answer/225400986",
+      "summary": "正文解释“任意向量空间都有基”与选择公理的等价及独立性。"
+    },
+    {
+      "title": "怎么评价不可知论？",
+      "url": "https://www.zhihu.com/answer/235729926",
+      "summary": "正文说明自然数、几何与集合论建立在不同公理系上。"
+    },
+    {
+      "title": "如果存在一个理论上无法证明，但在应用中从未被证伪的公式或理论。数学上能不能把它当公理？",
+      "url": "https://www.zhihu.com/answer/245162465",
+      "summary": "正文以选择公理、连续统假设和不同公理体系回答能否把命题当公理。"
+    },
+    {
+      "title": "中国真的在文化、数学上都曾经领先世界几百年吗？",
+      "url": "https://www.zhihu.com/answer/246571788",
+      "summary": "正文说明公理化体系对现代数学研究的基础意义。"
+    },
+    {
+      "title": "如何证明 1+1=2？",
+      "url": "https://www.zhihu.com/answer/253963850",
+      "summary": "正文从自然数公理和二元运算定义推出加法。"
+    },
+    {
+      "title": "如果鸽笼原理/抽屉原理不存在，数学/科学会发生怎样的改变？",
+      "url": "https://www.zhihu.com/answer/258525869",
+      "summary": "正文把抽屉原理放在 ZFC 公理集合论和逻辑推论体系中解释。"
+    },
+    {
+      "title": "哥德尔不完备定理动摇了数学的基础吗？",
+      "url": "https://www.zhihu.com/answer/261864111",
+      "summary": "正文解释含自然数算术的公理体系为何必然不完备。"
+    },
+    {
+      "title": "哥德尔不完备定理动摇了数学的基础吗？",
+      "url": "https://www.zhihu.com/answer/261916414",
+      "summary": "正文从形式系统、公理和推导规则解释语法完备性与不完备性。"
+    },
+    {
+      "title": "数学里有哪些精彩的伪证？",
+      "url": "https://www.zhihu.com/answer/262076874",
+      "summary": "正文定位伪证中暗用等价于第五公设的隐含前提。"
+    },
+    {
+      "title": "能不能不用选择公理构造一个不可测集合？",
+      "url": "https://www.zhihu.com/answer/268803041",
+      "summary": "正文以向量空间基、极大理想和柯西方程说明选择公理的影响。"
+    },
+    {
+      "title": "哥德尔完备性定理和不完备性定理之间的关系是怎么样的？",
+      "url": "https://www.zhihu.com/answer/269402069",
+      "summary": "正文以皮亚诺算术及新增公理构造非标准模型。"
+    },
+    {
+      "title": "有哪些「大众默认专家搞懂了，实际上没人能解释清楚」的例子？",
+      "url": "https://www.zhihu.com/answer/274171087",
+      "summary": "正文列举 ZFC 公理并说明其避免悖论的作用。"
+    },
+    {
+      "title": "有哪些大家默认「肯定没人能解释清楚」，而实际上已经被科学解释了的问题？",
+      "url": "https://www.zhihu.com/answer/274589488",
+      "summary": "正文解释哥德尔第二不完备性对含 PA 的形式系统自证一致性的限制。"
+    },
+    {
+      "title": "有哪些大家默认「肯定没人能解释清楚」，而实际上已经被科学解释了的问题？",
+      "url": "https://www.zhihu.com/answer/275404614",
+      "summary": "正文从自然数、加法和相等关系的公理化定义证明 1+1=2。"
+    },
+    {
+      "title": "哪些思维方式是你刻意训练过的？",
+      "url": "https://www.zhihu.com/answer/275589512",
+      "summary": "正文说明严谨定义与少量公理如何支撑整个数学推演体系。"
+    },
+    {
+      "title": "从空集可以构造出所有的数学对象吗？",
+      "url": "https://www.zhihu.com/answer/288325486",
+      "summary": "正文分类说明集合论公理的存在性与限定性作用。"
+    },
+    {
+      "title": "无法理解高等数学怎么办？",
+      "url": "https://www.zhihu.com/answer/295082209",
+      "summary": "正文提出从公理体系重新验证实数性质与既有结论。"
+    },
+    {
+      "title": "罗素的数学成就有哪些？",
+      "url": "https://www.zhihu.com/answer/301806056",
+      "summary": "正文说明罗素悖论推动了 ZFC 公理集合论。"
+    },
+    {
+      "title": "为什么三角形内角和一定是 180 度？",
+      "url": "https://www.zhihu.com/answer/301913764",
+      "summary": "正文明确把结论追溯到欧氏几何第五公设。"
+    },
+    {
+      "title": "为什么「数学」不属于「自然科学」？",
+      "url": "https://www.zhihu.com/answer/322424397",
+      "summary": "正文说明公理确定后结论由逻辑推演确定。"
+    },
+    {
+      "title": "如何简单清晰地解释哥德尔不完备定理？",
+      "url": "https://www.zhihu.com/answer/329942289",
+      "summary": "正文定义公理、公理体系并解释其逻辑推演。"
+    },
+    {
+      "title": "有没有比逻辑思维更高级的思维方式？",
+      "url": "https://www.zhihu.com/answer/334854911",
+      "summary": "正文以欧氏第五公理及替换公理生成新体系解释公理化思维。"
+    },
+    {
+      "title": "如果1+1=3，这个世界会怎么样？",
+      "url": "https://www.zhihu.com/answer/336986418",
+      "summary": "正文借皮亚诺公理系统解释1、后继与加法的定义。"
+    },
+    {
+      "title": "哲学和科学有什么关联？",
+      "url": "https://www.zhihu.com/answer/344811382",
+      "summary": "正文说明数学推理受到公理体系约束。"
+    },
+    {
+      "title": "连续统是什么意思？如何理解连续统与实数的关系？",
+      "url": "https://www.zhihu.com/answer/357562631",
+      "summary": "正文说明连续统假设相对 ZFC 的独立性。"
+    },
+    {
+      "title": "选择公理在什么情况下使用？",
+      "url": "https://www.zhihu.com/answer/357688072",
+      "summary": "正文比较选择公理与决定性公理及其推论。"
+    },
+    {
+      "title": "数理逻辑的技术性成果对哲学问题有什么影响？",
+      "url": "https://www.zhihu.com/answer/372070934",
+      "summary": "正文讨论选择公理、正则公理与直觉主义逻辑的相容性。"
+    },
+    {
+      "title": "科学是可证伪的，既然哥德巴赫猜想暂时无法被证伪，那么可以把它当作定律使用吗？",
+      "url": "https://www.zhihu.com/answer/377678443",
+      "summary": "正文说明在形式体系中把未证猜想作为公理的条件。"
+    },
+    {
+      "title": "Peano 公理第五条是否多余？或者说它是可以被证明的？",
+      "url": "https://www.zhihu.com/answer/378347390",
+      "summary": "正文讨论皮亚诺第五公理在自然数结构中的独立作用。"
+    },
+    {
+      "title": "科学是可证伪的，既然哥德巴赫猜想暂时无法被证伪，那么可以把它当作定律使用吗？",
+      "url": "https://www.zhihu.com/answer/378402235",
+      "summary": "正文区分公理与需要证明的数学结论。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/378843406",
+      "summary": "正文从欧几里得五条公设说明几何体系的公理基础。"
+    },
+    {
+      "title": "自然数到底是否包括「0」？",
+      "url": "https://www.zhihu.com/answer/391452712",
+      "summary": "正文逐条介绍皮亚诺公理及自然数的公理化构造。"
+    },
+    {
+      "title": "学习数学分析和高等数学的区别是什么？",
+      "url": "https://www.zhihu.com/answer/392308513",
+      "summary": "正文解释数学分析从公理出发建立定理体系。"
+    },
+    {
+      "title": "如何证明一个数学命题的不可证性？",
+      "url": "https://www.zhihu.com/answer/403142684",
+      "summary": "正文从公理系统、编码与一致性系统讲解不可证性。"
+    },
+    {
+      "title": "如何以通俗的语言和例子来说明什么是「先验」、「先验主义」？",
+      "url": "https://www.zhihu.com/answer/426124930",
+      "summary": "正文以几何公理说明先验命题与形式体系。"
+    },
+    {
+      "title": "如何评价哥德尔对上帝存在的本体论证明？",
+      "url": "https://www.zhihu.com/answer/447417994",
+      "summary": "正文从公理、定义和形式推理重建哥德尔本体论证明。"
+    },
+    {
+      "title": "数学家和物理学家思考方式是什么？",
+      "url": "https://www.zhihu.com/answer/447428873",
+      "summary": "正文用公理体系解释数学演绎的出发点。"
+    },
+    {
+      "title": "如何评价科普作者方舟子最近关于数学的两篇文章？",
+      "url": "https://www.zhihu.com/answer/447454703",
+      "summary": "正文说明数学结论由基础假设及逻辑后果构成。"
+    },
+    {
+      "title": "如何评价科普作者方舟子最近关于数学的两篇文章？",
+      "url": "https://www.zhihu.com/answer/447614271",
+      "summary": "正文强调数学理论从人为定义的公理出发。"
+    },
+    {
+      "title": "如何评价科普作者方舟子最近关于数学的两篇文章？",
+      "url": "https://www.zhihu.com/answer/447897886",
+      "summary": "正文说明数学体系可从公理独立演绎。"
+    },
+    {
+      "title": "分析中的无穷和集合论中的无穷有关系吗？",
+      "url": "https://www.zhihu.com/answer/452062392",
+      "summary": "正文说明ZFC通过无穷公理保证无穷集合存在。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/459931181",
+      "summary": "正文用 ZFC 模型说明命题相对于公理系统的独立性。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/472397585",
+      "summary": "正文讨论Banach-Tarski构造对选择公理的依赖。"
+    },
+    {
+      "title": "以数学史的观点来看，集合论是如何成为数学基础的？",
+      "url": "https://www.zhihu.com/answer/483086345",
+      "summary": "正文解释数学基础严格公理化及集合论公理的建立。"
+    },
+    {
+      "title": "向量为什么作用那么大、那么好用、且与其他数学工具之间配合的那么好？",
+      "url": "https://www.zhihu.com/answer/497078784",
+      "summary": "正文比较经验几何与公理化数学。"
+    },
+    {
+      "title": "有哪些物理系鄙视数学系的经典桥段？",
+      "url": "https://www.zhihu.com/answer/500776816",
+      "summary": "正文介绍现代数学的公理演绎转向。"
+    },
+    {
+      "title": "选择公理到底是什么?",
+      "url": "https://www.zhihu.com/answer/504153906",
+      "summary": "用鞋与袜子的例子解释为何需要选择公理，并给出选择函数的正式表述。"
+    },
+    {
+      "title": "写一个你认为尽可能大的数？",
+      "url": "https://www.zhihu.com/answer/504191763",
+      "summary": "把不同公理化形式系统的强弱与可证明可计算函数的增长联系起来，并说明 ZFC+I0 的附加公理。"
+    },
+    {
+      "title": "数学分析到底要学什么？",
+      "url": "https://www.zhihu.com/answer/510088635",
+      "summary": "解释定义和公理为何为证明提供终止追问的共同基础，并排除未经说明的直觉。"
+    },
+    {
+      "title": "是否存在一个「无法判定为有理数或无理数」的实数？",
+      "url": "https://www.zhihu.com/answer/511104943",
+      "summary": "正文说明可证明性依赖所处逻辑体系，并借哥德尔不完全性和停机问题说明边界。"
+    },
+    {
+      "title": "如何严谨地证明 0.9999…=1？",
+      "url": "https://www.zhihu.com/answer/515076254",
+      "summary": "正文从 Peano 公理、整环和分式域开始建立所需数系定义。"
+    },
+    {
+      "title": "西方的文艺复兴和工业革命的到来是历史必然的吗？亦或只是他们运气好而已呢？",
+      "url": "https://www.zhihu.com/answer/515274928",
+      "summary": "正文把公理化体系视为知识可传承、可演绎积累的关键。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/519995631",
+      "summary": "后半篇讨论公理体系并非天然真理，以及形式主义等基础观念。"
+    },
+    {
+      "title": "1×0＝0 是因为 0 乘以任何数字都等于 0，还是因为 1 乘任何数字都等于那个数？",
+      "url": "https://www.zhihu.com/answer/526771044",
+      "summary": "围绕皮亚诺公理、实数公理化与代数结构公理讨论 1×0=0 的基础。"
+    },
+    {
+      "title": "大家有没有觉得很经典的趣味逻辑题可以互相交流一下？",
+      "url": "https://www.zhihu.com/answer/531322679",
+      "summary": "通过真假神谜题解释当且仅当、真假值与排中律等经典逻辑原则。"
+    },
+    {
+      "title": "历史上有哪些如神一般存在的人物？",
+      "url": "https://www.zhihu.com/answer/533591482",
+      "summary": "正文讨论其在数学公理化与集合论基础方面的工作。"
+    },
+    {
+      "title": "1×0＝0 是因为 0 乘以任何数字都等于 0，还是因为 1 乘任何数字都等于那个数？",
+      "url": "https://www.zhihu.com/answer/536884022",
+      "summary": "正文区分日常因果与形式证明，并把数学命题成立追溯到公理系统。"
+    },
+    {
+      "title": "1×0＝0 是因为 0 乘以任何数字都等于 0，还是因为 1 乘任何数字都等于那个数？",
+      "url": "https://www.zhihu.com/answer/537132419",
+      "summary": "正文明确区分公理与可由公理推出的性质。"
+    },
+    {
+      "title": "类型（Types）和集合（Sets）二者之间有何区别？",
+      "url": "https://www.zhihu.com/answer/538107513",
+      "summary": "正文讨论集合论所依赖的逻辑、公理和类型论自带演绎规则的差异。"
+    },
+    {
+      "title": "既然欧几里得几何建立在无法证明的假设上，那是否可以讲我们的数学都是假设，所有数学都是臆想？",
+      "url": "https://www.zhihu.com/answer/541761061",
+      "summary": "正文区分公理、定理与体系内部不可判定的选择。"
+    },
+    {
+      "title": "既然欧几里得几何建立在无法证明的假设上，那是否可以讲我们的数学都是假设，所有数学都是臆想？",
+      "url": "https://www.zhihu.com/answer/542190592",
+      "summary": "正文围绕欧氏几何公设与数学体系的可靠性展开。"
+    },
+    {
+      "title": "1×0＝0 是因为 0 乘以任何数字都等于 0，还是因为 1 乘任何数字都等于那个数？",
+      "url": "https://www.zhihu.com/answer/542482192",
+      "summary": "正文以皮亚诺公理和定义、定理的关系构造算术。"
+    },
+    {
+      "title": "1×0＝0 是因为 0 乘以任何数字都等于 0，还是因为 1 乘任何数字都等于那个数？",
+      "url": "https://www.zhihu.com/answer/543914859",
+      "summary": "正文系统区分公理、推理规则与形式证明。"
+    },
+    {
+      "title": "既然欧几里得几何建立在无法证明的假设上，那是否可以讲我们的数学都是假设，所有数学都是臆想？",
+      "url": "https://www.zhihu.com/answer/546310793",
+      "summary": "正文解释数学在给定前提下进行推演的公理化性质。"
+    },
+    {
+      "title": "为什么不能用 0 做除数？",
+      "url": "https://www.zhihu.com/answer/563758025",
+      "summary": "正文从集合论公理开始构造数系。"
+    },
+    {
+      "title": "数论问题困难性的根源是什么？",
+      "url": "https://www.zhihu.com/answer/567165689",
+      "summary": "解释哥德尔不完备性依赖包含算术的形式系统。"
+    },
+    {
+      "title": "为何不将黎曼猜想与哥德巴赫猜想作为公理使用？",
+      "url": "https://www.zhihu.com/answer/572538497",
+      "summary": "正文从逻辑基础角度回应把未证猜想当作公理的风险。"
+    },
+    {
+      "title": "有没有可能把 π 或 e 等无理数当成 1，这样就能使许多定理显而易见？",
+      "url": "https://www.zhihu.com/answer/578264375",
+      "summary": "正文明确讨论自然数公理中的单位与后继。"
+    },
+    {
+      "title": "如果时间无限的话，能不能写完 [0, 1] 之间的所有实数？",
+      "url": "https://www.zhihu.com/answer/579258039",
+      "summary": "正文指定 ZFC 公理系统作为讨论基础。"
+    },
+    {
+      "title": "还有哪些常见的，完备的（如希式公理欧氏几何）数学理论？",
+      "url": "https://www.zhihu.com/answer/583511939",
+      "summary": "以 Presburger 算术说明公理系统的完备性与可判定性。"
+    },
+    {
+      "title": "条理性差，思维混乱，该如何提高？",
+      "url": "https://www.zhihu.com/answer/586977473",
+      "summary": "用从公理出发逐步推出命题作为严谨思维训练。"
+    },
+    {
+      "title": "你所在数学领域的 big picture 是什么？",
+      "url": "https://www.zhihu.com/answer/588089111",
+      "summary": "讨论选择公理、大基数公理及模型间的相容性问题。"
+    },
+    {
+      "title": "行列式的逆序数定义是怎么想出来的？",
+      "url": "https://www.zhihu.com/answer/589376055",
+      "summary": "正文明确采用公理化方式定义行列式。"
+    },
+    {
+      "title": "数学为什么能由那几条公理推导出这么多的公式？",
+      "url": "https://www.zhihu.com/answer/592743164",
+      "summary": "正文讨论公理系统、定义与数学理论的扩展。"
+    },
+    {
+      "title": "除 0 与 1 外，是否存在无限求平方根仍为有理数的数？",
+      "url": "https://www.zhihu.com/answer/595909042",
+      "summary": "正文明确讨论 ZFC 模型和论域。"
+    },
+    {
+      "title": "如何看待 bilibili up主 Happylee 对 0.999...≠1 的证明？",
+      "url": "https://www.zhihu.com/answer/619249755",
+      "summary": "正文以完备有序域与戴德金构造解释实数基础。"
+    },
+    {
+      "title": "谁能给一个靠谱的逻辑学分类？",
+      "url": "https://www.zhihu.com/answer/626918806",
+      "summary": "讨论当代逻辑对公理系统、一致性和证明等基础概念的形式化。"
+    },
+    {
+      "title": "数学有时候为什么要证明一些在自然界显然成立的事实呢？ 或者要证明一些在自然界不存在的东西呢？",
+      "url": "https://www.zhihu.com/answer/634166562",
+      "summary": "说明数学证明是在公理框架内由定义和逻辑推出命题。"
+    },
+    {
+      "title": "数学有时候为什么要证明一些在自然界显然成立的事实呢？ 或者要证明一些在自然界不存在的东西呢？",
+      "url": "https://www.zhihu.com/answer/634444204",
+      "summary": "说明公理集合论用于修复集合论悖论后的基础严谨性。"
+    },
+    {
+      "title": "数学有时候为什么要证明一些在自然界显然成立的事实呢？ 或者要证明一些在自然界不存在的东西呢？",
+      "url": "https://www.zhihu.com/answer/635475900",
+      "summary": "说明改变平行公理可建立不同但可推演的几何体系。"
+    },
+    {
+      "title": "绝对无限和不可达基数有什么关系？",
+      "url": "https://www.zhihu.com/answer/645896289",
+      "summary": "说明选择公理、分层公理等公理选择改变可允许的无穷对象。"
+    },
+    {
+      "title": "我是学数学的，每次看物理书总有种不严谨的感觉怎么办？",
+      "url": "https://www.zhihu.com/answer/648488341",
+      "summary": "从 Kock–Lawvere 公理建立含幂零无穷小的微分几何体系。"
+    },
+    {
+      "title": "1+1 为什么等于 2？",
+      "url": "https://www.zhihu.com/answer/652590221",
+      "summary": "区分公理、命题、理论和由公理推导定理的证明过程。"
+    },
+    {
+      "title": "为什么哥德巴赫猜想不能用计算机证明？",
+      "url": "https://www.zhihu.com/answer/657870308",
+      "summary": "从形式系统和可证性说明计算机验证的边界。"
+    },
+    {
+      "title": "中国数学相比与西方数学为什么会处于劣势？",
+      "url": "https://www.zhihu.com/answer/660402206",
+      "summary": "说明公理化体系怎样奠定几何证明。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/661917107",
+      "summary": "解释哥德尔不完备定理对形式公理系统的限制。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/670271011",
+      "summary": "从选择公理和自定义公理构造师生关系公理系统。"
+    },
+    {
+      "title": "R^n与R^m作为abel加法群是同构的吗？(m≠n)？",
+      "url": "https://www.zhihu.com/answer/675202342",
+      "summary": "明确使用选择公理选取 Hamel 基。"
+    },
+    {
+      "title": "吴文俊院士于2017年5月7日去世，如何评价他的数学贡献？",
+      "url": "https://www.zhihu.com/answer/682647692",
+      "summary": "比较欧几里得和希尔伯特的公理化演绎模式。"
+    },
+    {
+      "title": "如果有一台真理机器只能回答是或不是，能对人类社会作多大贡献？",
+      "url": "https://www.zhihu.com/answer/688078758",
+      "summary": "用公理、语法推导与 Gentzen 系统讨论机器可回答的证明问题。"
+    },
+    {
+      "title": "综合微分几何（Synthetic Differential Geometry）有什么用处？",
+      "url": "https://www.zhihu.com/answer/693161939",
+      "summary": "说明 Kock-Lawvere 公理及其逻辑后果。"
+    },
+    {
+      "title": "如何简单清晰地解释哥德尔不完备定理？",
+      "url": "https://www.zhihu.com/answer/715471969",
+      "summary": "正文解释形式系统、公理化算术与不完备性。"
+    },
+    {
+      "title": "数学之下是否隐藏着更为基本的规律？",
+      "url": "https://www.zhihu.com/answer/725995501",
+      "summary": "从公理系统和形式逻辑讨论数学基础。"
+    },
+    {
+      "title": "能否由「相对论时空观已证明康德的时空观错误」推知康德的整个哲学体系错误？",
+      "url": "https://www.zhihu.com/answer/726398075",
+      "summary": "从不同公理选择说明几何结论并非必然。"
+    },
+    {
+      "title": "数学有哪些领域完全不涉及微积分？",
+      "url": "https://www.zhihu.com/answer/734390595",
+      "summary": "讨论公理体系、选择公理与数学分支的基础。"
+    },
+    {
+      "title": "学习集合论有什么中文教材推荐？",
+      "url": "https://www.zhihu.com/answer/737063603",
+      "summary": "直接指出所学集合论采用公理化体系。"
+    },
+    {
+      "title": "若 π 被证明是有理数会对世界有何影响？",
+      "url": "https://www.zhihu.com/answer/751045874",
+      "summary": "从π同时有理和无理推导公理系统不相容。"
+    },
+    {
+      "title": "是否存在一个「无法判定为有理数或无理数」的实数？",
+      "url": "https://www.zhihu.com/answer/753546430",
+      "summary": "借不完备定理讨论形式系统中的可证明性。"
+    },
+    {
+      "title": "是否存在一个「无法判定为有理数或无理数」的实数？",
+      "url": "https://www.zhihu.com/answer/758893278",
+      "summary": "讨论 ZFC 公理与可证明性边界。"
+    },
+    {
+      "title": "数理逻辑和集合论哪个更基本 ？",
+      "url": "https://www.zhihu.com/answer/760102788",
+      "summary": "区分实质数学与形式公理系统。"
+    },
+    {
+      "title": "有哪些数学定理的推出过程是值得细细品味的？",
+      "url": "https://www.zhihu.com/answer/775533428",
+      "summary": "说明悖论促成ZFC等公理集合论。"
+    },
+    {
+      "title": "如何反驳数学虚构主义？",
+      "url": "https://www.zhihu.com/answer/781709160",
+      "summary": "讨论命题真值相对于公理理论的解释。"
+    },
+    {
+      "title": "如果对任意实数，有f(x+y)=f(x)+f(y)，能求出函数f(x)吗？",
+      "url": "https://www.zhihu.com/answer/801835943",
+      "summary": "正文明确以选择公理为前提引入 Hamel 基。"
+    },
+    {
+      "title": "有哪些学术界都搞错了，忽然间有人发现问题所在的事情？",
+      "url": "https://www.zhihu.com/answer/810340112",
+      "summary": "正文围绕欧氏第五公设能否由其余公设推出，解释替换公设后仍可形成相容体系。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/810340145",
+      "summary": "正文围绕欧氏第五公设能否由其余公设推出，解释替换公设后仍可形成相容体系。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/810528837",
+      "summary": "正文以具体可测性命题说明常用 ZFC 公理体系存在无法判定的问题。"
+    },
+    {
+      "title": "平面几何的五条公理确定了 π 的值吗？",
+      "url": "https://www.zhihu.com/answer/821529363",
+      "summary": "正文逐组解释结合、介于、合同、平行、欧氏、阿基米德和戴德金公理，并比较不同公理系统。"
+    },
+    {
+      "title": "顶级数学家有多。。。。。？",
+      "url": "https://www.zhihu.com/answer/823837662",
+      "summary": "正文以欧几里得和《几何原本》说明公理模式及其影响。"
+    },
+    {
+      "title": "面积是什么？为什么正方形长乘宽就是面积？是谁提出面积的概念，又是谁算出来的？",
+      "url": "https://www.zhihu.com/answer/824287892",
+      "summary": "把全等不变与可加性作为面积的公理化原则。"
+    },
+    {
+      "title": "数学史上有哪些看似成立的算式形式猜想，最终被某个大数证明不成立？",
+      "url": "https://www.zhihu.com/answer/827947772",
+      "summary": "围绕欧氏第五公设及新公理体系的相容性展开。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/827952438",
+      "summary": "讨论欧氏几何的第五公设与公理体系。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/827955091",
+      "summary": "讨论公设相容性和几何体系。"
+    },
+    {
+      "title": "数理逻辑“四论”的研究成果能给科学哲学/物理学哲学哪些帮助和启示？",
+      "url": "https://www.zhihu.com/answer/848039411",
+      "summary": "围绕科学理论的数学公理化展开。"
+    },
+    {
+      "title": "数学究竟是真实存在的，亦或是人类精神的产物？",
+      "url": "https://www.zhihu.com/answer/852084498",
+      "summary": "说明公理选择如何规定形式体系。"
+    },
+    {
+      "title": "既然欧几里得几何建立在无法证明的假设上，那是否可以讲我们的数学都是假设，所有数学都是臆想？",
+      "url": "https://www.zhihu.com/answer/856876348",
+      "summary": "区分公理假设与由此展开的严格推理。"
+    },
+    {
+      "title": "有哪些悖论一下子就吸引了你？",
+      "url": "https://www.zhihu.com/answer/864943391",
+      "summary": "说明公理化集合论如何规避矛盾。"
+    },
+    {
+      "title": "会不会出现第四次数学危机？",
+      "url": "https://www.zhihu.com/answer/865790551",
+      "summary": "讨论选择公理及其与大基数公理的冲突。"
+    },
+    {
+      "title": "是否对于所有能够用数学归纳法证明的结论都能不用数学归纳法推出？",
+      "url": "https://www.zhihu.com/answer/887839498",
+      "summary": "把归纳法追溯到 Peano 公理中的归纳公理。"
+    },
+    {
+      "title": "集合论中的每一条公理背后的动机是什么，少了其中一条会有什么后果?",
+      "url": "https://www.zhihu.com/answer/897970192",
+      "summary": "正文逐项讲解 ZFC 公理的动机、作用及缺失后果，核心是公理体系。"
+    },
+    {
+      "title": "选择公理有哪些反直觉的应用？",
+      "url": "https://www.zhihu.com/answer/922874026",
+      "summary": "正文构造必须依赖选择公理的代表元策略，完整展示公理的反直觉应用。"
+    },
+    {
+      "title": "当我们说一个定理可以推出另一个定理的时候, 我们在说什么?",
+      "url": "https://www.zhihu.com/answer/925646885",
+      "summary": "正文从公理体系强弱解释定理等价命题何时是非平凡断言。"
+    },
+    {
+      "title": "中国真的在文化、数学上都曾经领先世界几百年吗？",
+      "url": "https://www.zhihu.com/answer/934062300",
+      "summary": "正文具体介绍欧几里得从五大公设建立几何体系的公理化方法。"
+    },
+    {
+      "title": "怎样评价布尔巴基学派？",
+      "url": "https://www.zhihu.com/answer/952006206",
+      "summary": "正文说明布尔巴基如何以公理和结构重建现代数学体系。"
+    },
+    {
+      "title": "古典数学和现代数学的区别是什么?有哪些数学家及数学思想理论成为了古典与现代的转折点?",
+      "url": "https://www.zhihu.com/answer/963885894",
+      "summary": "正文说明现代数学在集合论与逻辑公理上的公理化基础。"
+    },
+    {
+      "title": "证明的定义是什么？证明的意义是什么？",
+      "url": "https://www.zhihu.com/answer/965006824",
+      "summary": "正文把证明定义为从公理到命题的有限推理链，并讨论反推数学中的公理强度。"
+    },
+    {
+      "title": "HoTT 有实力取代 ZFC 成为新的数学基础吗？",
+      "url": "https://www.zhihu.com/answer/971089249",
+      "summary": "正文围绕 ZFC、HoTT 与数学基础讨论公理体系的功能。"
+    },
+    {
+      "title": "HoTT 有实力取代 ZFC 成为新的数学基础吗？",
+      "url": "https://www.zhihu.com/answer/971790435",
+      "summary": "正文具体讨论在 HoTT 加选择公理中解释 ZFC 模型及证明强度。"
+    },
+    {
+      "title": "数学中有哪些看起来很不可思议的知识？",
+      "url": "https://www.zhihu.com/answer/971837670",
+      "summary": "正文逐条说明皮亚诺算术公理如何刻画自然数。"
+    },
+    {
+      "title": "哥德尔的不完全性定理与说谎者悖论有什么区别？",
+      "url": "https://www.zhihu.com/answer/973659639",
+      "summary": "正文从编码、句法矛盾与一致性讨论形式公理系统的不完备性。"
+    },
+    {
+      "title": "哪些数学课程让你改变对 事物/世界 的 思维/观点/理解?",
+      "url": "https://www.zhihu.com/answer/980288854",
+      "summary": "正文以笛卡尔方法论和几何推演说明从自明公理出发构建理论体系。"
+    },
+    {
+      "title": "数学思维在生活中有多大用处？",
+      "url": "https://www.zhihu.com/answer/982796547",
+      "summary": "正文以欧几里得几何说明公理化体系及前提变化的影响。"
+    },
+    {
+      "title": "如何证明技术分析是有效的?",
+      "url": "https://www.zhihu.com/answer/983982082",
+      "summary": "正文以平行公理及不同几何体系说明公理的角色和适用语境。"
+    },
+    {
+      "title": "为什么需要证明「1+1=2」？",
+      "url": "https://www.zhihu.com/answer/999197239",
+      "summary": "正文用皮亚诺公理和加法公理说明1+1=2的形式化基础。"
+    },
+    {
+      "title": "集合论中公理是不是太多了？这么多公理，这么多规定，是不是不够简洁？",
+      "url": "https://www.zhihu.com/answer/1000384956",
+      "summary": "正文比较多种形式系统的公理数量、强度和可理解性。"
+    },
+    {
+      "title": "数学系的学生能硬核到什么程度？",
+      "url": "https://www.zhihu.com/answer/1005685225",
+      "summary": "正文围绕欧氏公理、公设及第五公设的独立性展开。"
+    },
+    {
+      "title": "加法交换律 a＋b＝b＋a 是怎么证明的？",
+      "url": "https://www.zhihu.com/answer/1013734082",
+      "summary": "正文逐条解释公理在自然数构造中的作用。"
+    },
+    {
+      "title": "数学有什么意义？数学中的一切都是人类自己编造的吗？",
+      "url": "https://www.zhihu.com/answer/1034913042",
+      "summary": "正文从公理选择与ZFC扩充讨论数学基础。"
+    },
+    {
+      "title": "以「不可证伪」批判中医的人，为什么没有以此批判数学？",
+      "url": "https://www.zhihu.com/answer/1048263534",
+      "summary": "正文明确列出自然数体系的基本公理。"
+    },
+    {
+      "title": "以「不可证伪」批判中医的人，为什么没有以此批判数学？",
+      "url": "https://www.zhihu.com/answer/1054618877",
+      "summary": "正文说明不同公理选择可形成不同数学体系。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/1066881153",
+      "summary": "正文以选择公理及其等价的佐恩引理构造哈默基。"
+    },
+    {
+      "title": "皮亚诺公理中的「0 是自然数」是在定义 0，还是在定义自然数？",
+      "url": "https://www.zhihu.com/answer/1070379375",
+      "summary": "正文说明公理系统如何共同规定模型与数学结构。"
+    },
+    {
+      "title": "如何严格证明 sinx＜x（0＜x＜π/2）？",
+      "url": "https://www.zhihu.com/answer/1082703474",
+      "summary": "正文说明现代数学如何在集合论基础上以公理体系重建。"
+    },
+    {
+      "title": "为什么不是所有函数都能用解析式表达？",
+      "url": "https://www.zhihu.com/answer/1119577293",
+      "summary": "正文解释实数形式化定义及关键公理。"
+    },
+    {
+      "title": "有什么好看的数学书推荐么？",
+      "url": "https://www.zhihu.com/answer/1125924688",
+      "summary": "正文解释《几何原本》的公理化体系及其历史影响。"
+    },
+    {
+      "title": "谁能用高中生听得懂的语言解释一下罗素悖论是什么？",
+      "url": "https://www.zhihu.com/answer/1127835781",
+      "summary": "正文说明 ZFC 等公理系统如何规避悖论。"
+    },
+    {
+      "title": "在数学中，如果推翻了一条很基础的公理，那么会造成什么后果？",
+      "url": "https://www.zhihu.com/answer/1136309501",
+      "summary": "正文解释不一致公理系统被平凡化以及限制公理的后果。"
+    },
+    {
+      "title": "向量的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1156002455",
+      "summary": "正文实质讨论公理和逻辑在数学结构中的基础作用。"
+    },
+    {
+      "title": "命题「若 p，则 q」和「若 p，则非 q」的关系是什么？",
+      "url": "https://www.zhihu.com/answer/1200328393",
+      "summary": "正文从真值、量词和形式系统讨论公理与推理。"
+    },
+    {
+      "title": "选择公理怎么推佐恩引理？",
+      "url": "https://www.zhihu.com/answer/1216830611",
+      "summary": "正文完整证明选择公理推出佐恩引理。"
+    },
+    {
+      "title": "哥德尔不完备定理有哪些应用？",
+      "url": "https://www.zhihu.com/answer/1252765601",
+      "summary": "正文讨论 ZFC 与替代公理系统，并用哥德尔不完备定理判断其表达力。"
+    },
+    {
+      "title": "今后有没有可能出现一位超级大牛人，把数学与哲学统一起来？",
+      "url": "https://www.zhihu.com/answer/1263280614",
+      "summary": "正文以 ZFC 和哥德尔不完备定理讨论公理体系的边界。"
+    },
+    {
+      "title": "上帝悖论是否有解？",
+      "url": "https://www.zhihu.com/answer/1269773647",
+      "summary": "正文说明 ZF 公理体系通过良基性排除这种集合。"
+    },
+    {
+      "title": "《几何原本》现在还有必要读吗？为什么？",
+      "url": "https://www.zhihu.com/answer/1301762167",
+      "summary": "正文解释《几何原本》的公理体系和公设。"
+    },
+    {
+      "title": "中国开始落后于西方世界是什么时候？",
+      "url": "https://www.zhihu.com/answer/1333305651",
+      "summary": "正文把《几何原本》与平面几何公设体系联系起来。"
+    },
+    {
+      "title": "《三体3：死神永生》里面，高级文明通过修改数学规律进行星际战争是啥样的?",
+      "url": "https://www.zhihu.com/answer/1339674744",
+      "summary": "正文从公理、逻辑推演和自然数公理解释数学规律如何得到。"
+    },
+    {
+      "title": "如何简单清晰地解释哥德尔不完备定理？",
+      "url": "https://www.zhihu.com/answer/1346097249",
+      "summary": "正文从公理系统、一致性与完备性解释哥德尔不完备定理。"
+    },
+    {
+      "title": "什么是自洽？",
+      "url": "https://www.zhihu.com/answer/1368030090",
+      "summary": "正文从模型论和证明论解释自洽与公理系统。"
+    },
+    {
+      "title": "数理逻辑中集合论、模型论、证明论、可计算性理论这四大领域的内在理论联系是什么？",
+      "url": "https://www.zhihu.com/answer/1370365745",
+      "summary": "正文梳理模型论、证明论、集合论与可计算性理论的联系。"
+    },
+    {
+      "title": "充分条件和必要条件该怎么理解啊我快疯掉了？",
+      "url": "https://www.zhihu.com/answer/1378636871",
+      "summary": "正文用蕴含关系解释充分条件与必要条件。"
+    },
+    {
+      "title": "有什么数学定理一般人都觉得是常识，但严谨证明起来却挺费力的？",
+      "url": "https://www.zhihu.com/answer/1381637153",
+      "summary": "正文说明加法交换律需要从自然数公理出发证明。"
+    },
+    {
+      "title": "高考压轴题是否可直接写由洛必达法则可得？",
+      "url": "https://www.zhihu.com/answer/1468864260",
+      "summary": "正文把洛必达法则追溯到实数公理化基础。"
+    },
+    {
+      "title": "中国不教逻辑学吗？为什么？",
+      "url": "https://www.zhihu.com/answer/1473861274",
+      "summary": "正文讨论公理、命题与逻辑训练在数学教育中的层次。"
+    },
+    {
+      "title": "说辩证法也属于逻辑，为什么辩证法可以不遵守甚至违反逻辑三大基本定律（同一律、矛盾律、排中律）?",
+      "url": "https://www.zhihu.com/answer/1479653886",
+      "summary": "正文直接给出与「公理」相关的解释、推导或应用。"
+    },
+    {
+      "title": "中国不教逻辑学吗？为什么？",
+      "url": "https://www.zhihu.com/answer/1529938682",
+      "summary": "正文直接讨论公理，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "数学系的教学模式是否违反直觉？",
+      "url": "https://www.zhihu.com/answer/1530236644",
+      "summary": "正文直接讨论公理，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "说辩证法也属于逻辑，为什么辩证法可以不遵守甚至违反逻辑三大基本定律（同一律、矛盾律、排中律）?",
+      "url": "https://www.zhihu.com/answer/1538132113",
+      "summary": "正文直接讨论公理，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "为什么逻辑学三定律（同一律、矛盾律、排中律）不能被违反，违反会怎样？",
+      "url": "https://www.zhihu.com/answer/1545108871",
+      "summary": "正文直接讨论公理，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "为什么数学上一些显而易见的事情数学家们也要编个定理出来？",
+      "url": "https://www.zhihu.com/answer/1578207651",
+      "summary": "正文讨论公设、选择公理以及公理系统独立性的必要性。"
+    },
+    {
+      "title": "为什么数学上一些显而易见的事情数学家们也要编个定理出来？",
+      "url": "https://www.zhihu.com/answer/1580789623",
+      "summary": "正文讨论定义、公理、性质与定理在数学体系中的分工。"
+    },
+    {
+      "title": "「罗素悖论」的提出给数学界带来何种影响，如何通俗地理解这一悖论？",
+      "url": "https://www.zhihu.com/answer/1583370578",
+      "summary": "正文讨论无限制概括公理以及选择公理等数学基础公理。"
+    },
+    {
+      "title": "数学有什么意义？",
+      "url": "https://www.zhihu.com/answer/1621294890",
+      "summary": "正文用命题关系检验公理式前提是否相容。"
+    },
+    {
+      "title": "数学有什么意义？",
+      "url": "https://www.zhihu.com/answer/1622294490",
+      "summary": "正文以公理生成的演绎闭包解释数学知识。"
+    },
+    {
+      "title": "数学是人类的发明，还是发现？",
+      "url": "https://www.zhihu.com/answer/1652522409",
+      "summary": "正文以欧几里得几何原本说明公理系统的构造。"
+    },
+    {
+      "title": "有人说「骰子掷一次掷出6的概率为50%，因为只有是6、不是6两种事件」，请问如何反驳？",
+      "url": "https://www.zhihu.com/answer/1652674717",
+      "summary": "正文以柯尔莫哥洛夫公理作为概率推理的基本规则。"
+    },
+    {
+      "title": "有没有两个理论上无法比较大小的实数？",
+      "url": "https://www.zhihu.com/answer/1671617931",
+      "summary": "正文把实数比较问题澄清为公理系统与可证明性。"
+    },
+    {
+      "title": "能否自己设定几个公理，创造出一套新的数学或者逻辑体系？",
+      "url": "https://www.zhihu.com/answer/1682558393",
+      "summary": "正文讨论修改公理系统及其一致性。"
+    },
+    {
+      "title": "为什么中国人数学这么牛，却几乎没有中国人发现的数学定理？",
+      "url": "https://www.zhihu.com/answer/1683249371",
+      "summary": "正文比较中国古代算法体系与西方公理化、演绎体系，并讨论中国近现代接受公理化体系后的发展。"
+    },
+    {
+      "title": "数学中有哪些看起来很不可思议的知识？",
+      "url": "https://www.zhihu.com/answer/1707244694",
+      "summary": "正文讨论选择公理与集合分拆结果的关系。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/1711698222",
+      "summary": "正文讨论选择公理与 Banach-Tarski 悖论。"
+    },
+    {
+      "title": "解决初等几何题目使用辅助线的逻辑原理是什么？",
+      "url": "https://www.zhihu.com/answer/1713270091",
+      "summary": "正文从几何公理体系解释辅助线的逻辑基础。"
+    },
+    {
+      "title": "数学最基础的知识是什么？",
+      "url": "https://www.zhihu.com/answer/1743031818",
+      "summary": "正文直接讨论或推导「公理」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "如果清朝没有闭关锁国，中国的科学会引领世界吗？",
+      "url": "https://www.zhihu.com/answer/1776963227",
+      "summary": "正文对比《九章算术》的应用题体例与《几何原本》的公理体系。"
+    },
+    {
+      "title": "数学界有哪些通俗易懂的 open problem？",
+      "url": "https://www.zhihu.com/answer/1785005913",
+      "summary": "正文以公理及命题关系讨论集合论基础。"
+    },
+    {
+      "title": "如何看待全国高中数学教材的内容调整？",
+      "url": "https://www.zhihu.com/answer/1785154588",
+      "summary": "正文批评删除逻辑内容后学生对定理和证明的理解缺失。"
+    },
+    {
+      "title": "是什么导致中国的科学进程落后于西方的？",
+      "url": "https://www.zhihu.com/answer/1792786238",
+      "summary": "正文用公设、公理和形式逻辑解释数学体系的建立。"
+    },
+    {
+      "title": "怎么证明两点之间线段最短？",
+      "url": "https://www.zhihu.com/answer/1796476039",
+      "summary": "正文辨析公理、平行公设与可证明命题。"
+    },
+    {
+      "title": "第二次数学危机怎么解决的？",
+      "url": "https://www.zhihu.com/answer/1800323841",
+      "summary": "正文把自然数公理纳入数学严格基础的建立。"
+    },
+    {
+      "title": "是什么导致中国的科学进程落后于西方的？",
+      "url": "https://www.zhihu.com/answer/1801201592",
+      "summary": "正文以公理化体系解释逻辑演绎对科学思维的作用。"
+    },
+    {
+      "title": "我自认为自己证明了0可以作为除数，若是如此将会有哪些改变？",
+      "url": "https://www.zhihu.com/answer/1803284549",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "为什么总有数学专业的人觉得自己什么都懂？",
+      "url": "https://www.zhihu.com/answer/1803969720",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "为什么总有数学专业的人觉得自己什么都懂？",
+      "url": "https://www.zhihu.com/answer/1805746055",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "有没有什么数学证明用的术语的英文或拉丁文？",
+      "url": "https://www.zhihu.com/answer/1819224857",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/1829748348",
+      "summary": "正文以公理推出定理的关系讨论推理与信息量。"
+    },
+    {
+      "title": "男生在读大学期间真的需要女朋友吗？",
+      "url": "https://www.zhihu.com/answer/1843953582",
+      "summary": "正文以公理、命题和反证法结构组织整套玩笑论证。"
+    },
+    {
+      "title": "一粒谷子不算谷堆，再加一点也不算，以此类推加到一万粒也不算，该如何解决这样的谷堆悖论？",
+      "url": "https://www.zhihu.com/answer/1856342156",
+      "summary": "正文分析谷堆悖论中前提和概念结构的错误。"
+    },
+    {
+      "title": "一粒谷子不算谷堆，再加一点也不算，以此类推加到一万粒也不算，该如何解决这样的谷堆悖论？",
+      "url": "https://www.zhihu.com/answer/1883859987",
+      "summary": "正文讨论罗素悖论及集合论公理体系面临的矛盾。"
+    },
+    {
+      "title": "康德在《纯粹理性批判》中提出的四个二律背反有可能被后世的哲学家解决吗？",
+      "url": "https://www.zhihu.com/answer/1889280322",
+      "summary": "正文用哥德尔不完备性解释形式化公理体系中的生成性与完备性冲突。"
+    },
+    {
+      "title": "自学《陶哲轩实分析》的难度？",
+      "url": "https://www.zhihu.com/answer/1889563667",
+      "summary": "正文列举选择公理、良序原理和 Zorn 引理等公理等价性练习。"
+    },
+    {
+      "title": "数学史上有哪些看似成立的算式形式猜想，最终被某个大数证明不成立？",
+      "url": "https://www.zhihu.com/answer/1947344459",
+      "summary": "正文以第五公设解释公理并非靠大众公认来成立。"
+    },
+    {
+      "title": "数学天才比常人强在哪里？",
+      "url": "https://www.zhihu.com/answer/1947344619",
+      "summary": "正文用几何公设解释公理的约定性。"
+    },
+    {
+      "title": "√8-√2=√2，这是怎么得出来的？",
+      "url": "https://www.zhihu.com/answer/1977865888",
+      "summary": "正文从域公理、序公理和完备公理说明实数结构。"
+    },
+    {
+      "title": "西方为什么会爆发式地超过了东方？",
+      "url": "https://www.zhihu.com/answer/1979266776",
+      "summary": "正文把公理定理体系视为数学传承与发展的关键方法论。"
+    },
+    {
+      "title": "如果世界上存在一个最大的数，那么它是奇数还是偶数？",
+      "url": "https://www.zhihu.com/answer/1987017802",
+      "summary": "正文利用假前件蕴含任意命题说明问题前提为假。"
+    },
+    {
+      "title": "数学为什么需要证明一些看起来非常直观、明显的东西（比如定理）？",
+      "url": "https://www.zhihu.com/answer/1987740237",
+      "summary": "正文讨论公理、证明和数学中的对错标准。"
+    },
+    {
+      "title": "怎样学习范畴逻辑？",
+      "url": "https://www.zhihu.com/answer/1993793102",
+      "summary": "正文建立类型论和形式逻辑系统的范畴模型。"
+    },
+    {
+      "title": "如果世界上存在一个最大的数，那么它是奇数还是偶数？",
+      "url": "https://www.zhihu.com/answer/2000165278",
+      "summary": "正文用后继公理说明不存在最大的自然数。"
+    },
+    {
+      "title": "为什么科学的起源是古希腊，而不是古代中国或者其他文明？",
+      "url": "https://www.zhihu.com/answer/2001156638",
+      "summary": "正文把逻辑和公理化视为科学发展的基础。"
+    },
+    {
+      "title": "如果世界上存在一个最大的数，那么它是奇数还是偶数？",
+      "url": "https://www.zhihu.com/answer/2001507030",
+      "summary": "正文从自相矛盾的假设导出任意数相等。"
+    },
+    {
+      "title": "陶哲轩实分析公理3.9(正则公理)该怎么理解？",
+      "url": "https://www.zhihu.com/answer/2031796680",
+      "summary": "正文解释集合论公理体系中的正则公理及其作用。"
+    },
+    {
+      "title": "为什么2+2=4，经验一定正确吗？",
+      "url": "https://www.zhihu.com/answer/2066746523",
+      "summary": "正文将 2+2=4 的基础引向皮亚诺算术的公理化解释。"
+    },
+    {
+      "title": "为什么1+1=2，经验一定正确吗？",
+      "url": "https://www.zhihu.com/answer/2069302378",
+      "summary": "正文把算术规则类比为可选择的公理体系。"
+    },
+    {
+      "title": "因果推断会是下一个AI热潮吗？",
+      "url": "https://www.zhihu.com/answer/2079011613",
+      "summary": "正文强调因果结论需要理论证明或可检验的数据假设。"
+    },
+    {
+      "title": "「苏格拉底会死」的三段论是不是循环论证？",
+      "url": "https://www.zhihu.com/answer/2084569792",
+      "summary": "正文解释形式逻辑中的大前提、演绎与论证有效性。"
+    },
+    {
+      "title": "如何看待哲学爱好者杨学志?",
+      "url": "https://www.zhihu.com/answer/2097301151",
+      "summary": "正文争点涉及数理逻辑、公理与 ZFC 等公理化集合论。"
+    },
+    {
+      "title": "对于大多数的初中生，学生们能（需要）理解接受的数学概念有多深（包括来历，几何性质等）？",
+      "url": "https://www.zhihu.com/answer/2172721833",
+      "summary": "正文明确主张中学阶段先理解命题、公理和证明的基本结构。"
+    },
+    {
+      "title": "对于 3 和 4 之间的整数 “bleem”，你怎么看？",
+      "url": "https://www.zhihu.com/answer/2179127722",
+      "summary": "正文从皮亚诺公理的后继关系讨论数学模型与现实的对应假设。"
+    },
+    {
+      "title": "《三体3：死神永生》里面，高级文明通过修改数学规律进行星际战争是啥样的?",
+      "url": "https://www.zhihu.com/answer/2223244662",
+      "summary": "正文把修改数学规律解释为修改经典逻辑的基本公理。"
+    },
+    {
+      "title": "如何看待「禁止用没学过的知识解题」这样的要求？",
+      "url": "https://www.zhihu.com/answer/2239147702",
+      "summary": "正文用 ZFC 公理体系说明数学结论所依赖的基础假设。"
+    },
+    {
+      "title": "如何看待「禁止用没学过的知识解题」这样的要求？",
+      "url": "https://www.zhihu.com/answer/2241297479",
+      "summary": "正文以 ZFC 与皮亚诺公理说明初等数学也依赖未明示的公理。"
+    },
+    {
+      "title": "为什么古希腊人数学水平远超同时期的其他文明？",
+      "url": "https://www.zhihu.com/answer/2258065818",
+      "summary": "正文比较欧几里得、皮亚诺公理体系及其形成背景。"
+    },
+    {
+      "title": "为什么学霸不喜欢给学渣讲题？",
+      "url": "https://www.zhihu.com/answer/2259633557",
+      "summary": "正文讨论从基础公理证明三角形不等式时不能循环使用结论。"
+    },
+    {
+      "title": "为什么古希腊人数学水平远超同时期的其他文明？",
+      "url": "https://www.zhihu.com/answer/2268746320",
+      "summary": "正文说明古希腊数学如何形成公理体系及形式逻辑基础。"
+    },
+    {
+      "title": "√8-√2=√2，这是怎么得出来的？",
+      "url": "https://www.zhihu.com/answer/2269542061",
+      "summary": "正文从 ZFC 公理系统出发组织整篇证明。"
+    },
+    {
+      "title": "哥德尔不完备定理动摇了数学的基础吗？",
+      "url": "https://www.zhihu.com/answer/2277617289",
+      "summary": "正文讨论形式系统的一致性、公理、不完备性定理及其前提。"
+    },
+    {
+      "title": "数学 物理 化学三者在本质上的区别是什么?",
+      "url": "https://www.zhihu.com/answer/2277820759",
+      "summary": "正文解释公理、定理及形式科学体系中的基础命题。"
+    },
+    {
+      "title": "3³+4³+5³=6³，只是个巧合吗?",
+      "url": "https://www.zhihu.com/answer/2291256498",
+      "summary": "正文以皮亚诺公理和后继数说明 1+1=2 的来源。"
+    },
+    {
+      "title": "以数学史的观点来看，集合论是如何成为数学基础的？",
+      "url": "https://www.zhihu.com/answer/2302680422",
+      "summary": "正文列出集合论公理及罗素悖论后的公理化发展。"
+    },
+    {
+      "title": "为何数学里常有很奇葩甚至毁三观的公式结论？",
+      "url": "https://www.zhihu.com/answer/2303341749",
+      "summary": "正文以皮亚诺公理说明自然数与后继数的定义。"
+    },
+    {
+      "title": "为何中国数学教育要揪“除”和“除以”的区别？",
+      "url": "https://www.zhihu.com/answer/2304363671",
+      "summary": "正文从自然数公理和加法定义说明四则运算的严格基础。"
+    },
+    {
+      "title": "什么是描述集合论（descriptive set theory）？",
+      "url": "https://www.zhihu.com/answer/2305826783",
+      "summary": "正文讨论集合论公理化及选择公理对学科发展的影响。"
+    },
+    {
+      "title": "大家口算 7+6+8＝？的时候，心里是一瞬间出结果，还是有一个过程，如凑十进一？",
+      "url": "https://www.zhihu.com/answer/2306785161",
+      "summary": "正文从皮亚诺公理的自然数加定义出发推导计算结果。"
+    },
+    {
+      "title": "在其他宇宙，1+1 可能 = 3 么？",
+      "url": "https://www.zhihu.com/answer/2308520191",
+      "summary": "正文用公理体系说明可构造不同算术规则。"
+    },
+    {
+      "title": "什么是形式逻辑和辩证逻辑，如何用最简单的例子解释下？",
+      "url": "https://www.zhihu.com/answer/2309274340",
+      "summary": "正文比较形式逻辑、矛盾律和微积分公理化方式。"
+    },
+    {
+      "title": "数学家在知道哥德尔不完备定理后为何还继续研究数学？",
+      "url": "https://www.zhihu.com/answer/2309917597",
+      "summary": "正文讨论直觉主义与经典数学被形式化为公理系统，以及哥德尔定理对形式系统的限制。"
+    },
+    {
+      "title": "为什么古希腊人数学水平远超同时期的其他文明？",
+      "url": "https://www.zhihu.com/answer/2312884021",
+      "summary": "正文介绍《几何原本》的公设、公理体系以及各卷内容。"
+    },
+    {
+      "title": "哲学里的大多哲学概念都缺乏严格的数学定义吗？",
+      "url": "https://www.zhihu.com/answer/2322954510",
+      "summary": "正文解释集合论公理体系与罗素悖论。"
+    },
+    {
+      "title": "说物理学家朗道和数学家格罗滕迪克只是改进了表达形式的二流学者，只有小聪明，是否有道理？",
+      "url": "https://www.zhihu.com/answer/2331279561",
+      "summary": "正文明确评价公理化在数学中的角色。"
+    },
+    {
+      "title": "选择公理一直是一个争议点，我发现很多教科书的证明都默认选择公理成立，这是否有问题？",
+      "url": "https://www.zhihu.com/answer/2333285369",
+      "summary": "正文讨论选择公理在数学证明中的默认使用。"
+    },
+    {
+      "title": "大部分数学证明是否并不适用于让人们理解其背后解决问题的思想，而只适合用于通过逻辑自洽来堵住杠精的嘴？",
+      "url": "https://www.zhihu.com/answer/2350184109",
+      "summary": "正文解释现代数学的公理化与逻辑完备性。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/2364343365",
+      "summary": "正文明确把可测基数存在性归入集合论的大基数公理。"
+    },
+    {
+      "title": "如何通俗地介绍一下全部三次数学危机？",
+      "url": "https://www.zhihu.com/answer/2391854103",
+      "summary": "正文以相容性、独立性和完全性界定形式化公理系统。"
+    },
+    {
+      "title": "小学数学为什么不从集合论学起？",
+      "url": "https://www.zhihu.com/answer/2396541740",
+      "summary": "正文列出 ZFC 的公理体系，说明公理化集合论的严谨基础。"
+    },
+    {
+      "title": "如果在一个公理系统中添加互否的两个公理，得到了同样的一个结果，那么可以说该结果在原系统中是成立的吗？",
+      "url": "https://www.zhihu.com/answer/2419130456",
+      "summary": "正文从公理集与推导规则解释添加互否公理后仍能推出同一语句的逻辑结论。"
+    },
+    {
+      "title": "以「不可证伪」批判中医的人，为什么没有以此批判数学？",
+      "url": "https://www.zhihu.com/answer/2421980100",
+      "summary": "正文明确说明数学结论依赖公理等前提。"
+    },
+    {
+      "title": "a+c=b+c推出a=b怎么证明？",
+      "url": "https://www.zhihu.com/answer/2432690261",
+      "summary": "正文逐行标明证明使用的公理并区分域公理与逻辑基础。"
+    },
+    {
+      "title": "选择公理一直是一个争议点，我发现很多教科书的证明都默认选择公理成立，这是否有问题？",
+      "url": "https://www.zhihu.com/answer/2455735912",
+      "summary": "正文解释选择公理的地位、与集合论其他公理的一致性关系，以及它在分析理论中的便利性。"
+    },
+    {
+      "title": "历史上意大利有哪些伟大的发明呢？",
+      "url": "https://www.zhihu.com/answer/2457862121",
+      "summary": "正文完整陈述阿基米德公理，并说明其在抽象代数和分析学中的应用。"
+    },
+    {
+      "title": "一个高中生的疑问：数学究竟是自然界本就存在的某种联系，还是我们人类的创造？",
+      "url": "https://www.zhihu.com/answer/2470141347",
+      "summary": "正文说明数学理论依赖公理系统，并讨论公理不可由现实直接检验。"
+    },
+    {
+      "title": "如何理解一个数学对象的「存在」？",
+      "url": "https://www.zhihu.com/answer/2487266239",
+      "summary": "以实数良序、Suslin 假设和 Borel 猜想独立于 ZFC 为例讨论公理体系。"
+    },
+    {
+      "title": "很多人类以为的惊天妙手被人工智能（AI）证实很普通甚至更差。为何那么多人都看不出皇帝的新装？",
+      "url": "https://www.zhihu.com/answer/2489051570",
+      "summary": "以欧几里得公理化思想和逻辑公理说明可靠推理链的基础。"
+    },
+    {
+      "title": "能不能用纯代数方法证明勾股定理？",
+      "url": "https://www.zhihu.com/answer/2496830882",
+      "summary": "正文讨论传统几何基本假设过多，主张将几何建立在统一的公理体系上。"
+    },
+    {
+      "title": "哥德尔不完备定理有没有什么深刻的哲学意义？",
+      "url": "https://www.zhihu.com/answer/2506614766",
+      "summary": "正文介绍哥德尔尝试建立公理形而上学，并把公理方法扩展到哲学。"
+    },
+    {
+      "title": "中纪委提出「要坚定文化自信，教材决不能搞动辄欧风美雨、言必称希腊那一套」，哪些信息值得关注？",
+      "url": "https://www.zhihu.com/answer/2511400797",
+      "summary": "正文把欧几里得的公理化思想置于古代数学成就之上，讨论公理方法的价值。"
+    },
+    {
+      "title": "为什么零乘以任何数都等于零？是纯粹的数学上的规定吗？",
+      "url": "https://www.zhihu.com/answer/2558027864",
+      "summary": "逐条列出加法、乘法与序关系公理，并说明 0 乘任何数为 0 是公理的推论。"
+    },
+    {
+      "title": "如果两个集合的幂集等势，那么这两个集合等势吗？",
+      "url": "https://www.zhihu.com/answer/2589706187",
+      "summary": "以 ZFC、广义连续统假设和力迫法构造模型，说明公理系统无法决定命题。"
+    },
+    {
+      "title": "什么是第一性原理，该如何应用在生活中？",
+      "url": "https://www.zhihu.com/answer/2614357347",
+      "summary": "以欧几里得公理公设为例解释不可证明的起点知识如何推出整个理论体系。"
+    },
+    {
+      "title": "为什么感觉国外的教材都比国内的厚得多？",
+      "url": "https://www.zhihu.com/answer/2618290472",
+      "summary": "讨论皮亚诺公理、良序原理与数学归纳法的等价关系。"
+    },
+    {
+      "title": "是否存在两个周期函数f(x)和g(x)，使得它们的和f(x)+g(x)≡x？",
+      "url": "https://www.zhihu.com/answer/2619228270",
+      "summary": "说明结论依赖选择公理，并借助 Hamel 基完成构造。"
+    },
+    {
+      "title": "黎曼猜想有哪些等价命题？",
+      "url": "https://www.zhihu.com/answer/2619254671",
+      "summary": "讨论 ZFC、皮亚诺算术与黎曼猜想独立性之间的关系。"
+    },
+    {
+      "title": "ZFC能唯一地确定实数吗？",
+      "url": "https://www.zhihu.com/answer/2619450708",
+      "summary": "讨论 ZFC 公理系统、模型、完备性与公理体系唯一确定结构的能力。"
+    },
+    {
+      "title": "射影几何认为所有无穷远点共线是定义吗？如果是定义，为什么要这样定义呢？",
+      "url": "https://www.zhihu.com/answer/2623332629",
+      "summary": "列出射影平面的四条关联公理，并讨论无穷远点共线是定义还是推论。"
+    },
+    {
+      "title": "引发第三次数学危机的「罗素悖论」，真的那么可怕吗？为此建立「公理集合论」是否小题大做？",
+      "url": "https://www.zhihu.com/answer/2624231604",
+      "summary": "介绍 Zermelo 公理化、选择公理、分离公理模式、替换公理与正则公理。"
+    },
+    {
+      "title": "我们为何相信ZFC是一致的，有哪些证据在支撑这种信念呢？",
+      "url": "https://www.zhihu.com/answer/2625946902",
+      "summary": "从哲学、数学实践和一致性强度层级讨论为何相信 ZFC 公理系统一致。"
+    },
+    {
+      "title": "怎样理解希尔伯特的名言“我们必须知道 我们必将知道”？",
+      "url": "https://www.zhihu.com/answer/2638715226",
+      "summary": "解释希尔伯特纲领对公理体系、一致性与完备性的追求。"
+    },
+    {
+      "title": "康托尔出于什么目的，或说为解决什么问题而创立的集合论？",
+      "url": "https://www.zhihu.com/answer/2647287657",
+      "summary": "讨论连续统假设与良序原则独立于集合论公理。"
+    },
+    {
+      "title": "“加法群R同构于R^2”，这个结论是否依赖选择公理？",
+      "url": "https://www.zhihu.com/answer/2647347133",
+      "summary": "说明 R 与 R² 的加法群同构结论依赖选择公理，并比较 ZF+DC 模型。"
+    },
+    {
+      "title": "怎样简洁明了地证明实数集不可数?",
+      "url": "https://www.zhihu.com/answer/2669620058",
+      "summary": "正文具体讨论了该证明与选择公理及 ZF 公理之间的关系。"
+    },
+    {
+      "title": "你学习数学各个分支/某组课程/某门课程的动机是什么？",
+      "url": "https://www.zhihu.com/answer/2681238046",
+      "summary": "正文讨论了可构造性公理 V=L 是否限制数学，以及数学家接受决定性假设和大基数公理等基础公理的证据问题。"
+    },
+    {
+      "title": "关于0.9循环=1，问点不一样的问题：为什么对它无论有多少严谨证明，不相信的人始终是不相信？",
+      "url": "https://www.zhihu.com/answer/2685118353",
+      "summary": "正文指出实数及其小数表示可从公理化的集合论和Peano公理系统构建，讨论结论对定义与公理体系的依赖。"
+    },
+    {
+      "title": "我们为何相信ZFC是一致的，有哪些证据在支撑这种信念呢？",
+      "url": "https://www.zhihu.com/answer/2687648955",
+      "summary": "正文说明 Hilbert 实零点定理的证明依赖选择公理，并借构造性证明的比较讨论该公理的作用。"
+    },
+    {
+      "title": "是否存在一个「无法判定为有理数或无理数」的实数？",
+      "url": "https://www.zhihu.com/answer/2703001543",
+      "summary": "正文讨论有限全知原则 LPO、排中律与实数三歧性，说明这些基础判定原则如何影响可判定性。"
+    },
+    {
+      "title": "哥德尔不完备定理怎么就支持了“数学真理不依赖于人，是客观存在的”？",
+      "url": "https://www.zhihu.com/answer/2711623909",
+      "summary": "回顾哥德尔两条不完备定理对形式公理系统的条件与限制。"
+    },
+    {
+      "title": "作为数学专业的学生，怎么了解哲学上各种“主义”导致的数学哲学观和数学基础的不同理解？",
+      "url": "https://www.zhihu.com/answer/2713100051",
+      "summary": "比较集合论、类型论等公理框架在证明正确性方面的作用。"
+    },
+    {
+      "title": "为什么极限的 ε-N 和 ε-δ 语言具有划时代的意义？",
+      "url": "https://www.zhihu.com/answer/2715859633",
+      "summary": "说明通过公理化实数并用 ε-δ 定义极限来打破循环依赖。"
+    },
+    {
+      "title": "小学数学为什么不从集合论学起？",
+      "url": "https://www.zhihu.com/answer/2721773538",
+      "summary": "正文从朴素集合论悖论引入 ZFC 公理，并逐条介绍外延、空集、配对、并集、幂集、选择等公理。"
+    },
+    {
+      "title": "公理和定理的区别是什么？",
+      "url": "https://www.zhihu.com/answer/2735799329",
+      "summary": "正文明确区分作为演绎起点的公理和由公理证得的定理，解释了公理在证明体系中的作用。"
+    },
+    {
+      "title": "Skolem定理和实数的不可数性冲突吗？",
+      "url": "https://www.zhihu.com/answer/2745283256",
+      "summary": "正文区分实数结构的一阶与二阶公理，并证明戴德金完备性不能由一阶公理刻画。"
+    },
+    {
+      "title": "公理和定理的区别是什么？",
+      "url": "https://www.zhihu.com/answer/2749464018",
+      "summary": "正文解释公理本身无需证明但需证明一致性，并以模型解释公理的相对性和选择公理的独立性。"
+    },
+    {
+      "title": "世界上最短的数学论文研究的是什么？",
+      "url": "https://www.zhihu.com/answer/2765027909",
+      "summary": "正文说明力迫法构造出满足 ZFC 却否定连续统假设的模型，实质讨论公理系统不能决定该命题。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2772738612",
+      "summary": "正文说明构造 Hamel 基依赖选择公理，并强调由此得到的解非构造且不可显式表示。"
+    },
+    {
+      "title": "为什么数学里没有大统一论的提法呢？",
+      "url": "https://www.zhihu.com/answer/2801805204",
+      "summary": "正文以选择公理及其包含或否定所形成的 ZFC、ZF 系统说明公理选择对数学基础的影响。"
+    },
+    {
+      "title": "小学数学为什么不从集合论学起？",
+      "url": "https://www.zhihu.com/answer/2803270957",
+      "summary": "正文讨论从 ZFC 到大基数、再到范畴论的基础公理层次，涉及公理系统与数学宇宙的建立顺序。"
+    },
+    {
+      "title": "有哪些看起来很简单但做起来很难的数学题？",
+      "url": "https://www.zhihu.com/answer/2807967020",
+      "summary": "正文指出幂集基数比较命题独立于 ZFC，并提到新增集合论公理可判定其为假。"
+    },
+    {
+      "title": "数学分析中，为什么空集既是开集又是闭集呀？",
+      "url": "https://www.zhihu.com/answer/2825090720",
+      "summary": "正文具体介绍 Hausdorff 的四条邻域公理，并解释这些公理如何刻画拓扑空间。"
+    },
+    {
+      "title": "数学归纳法是不是「流氓」方法？",
+      "url": "https://www.zhihu.com/answer/2834499601",
+      "summary": "正文明确把数学归纳法置于皮亚诺公理体系中，并说明其对构造自然数的基础作用。"
+    },
+    {
+      "title": "在《三体》宇宙，数学规律如何被用作武器？",
+      "url": "https://www.zhihu.com/answer/2864628500",
+      "summary": "正文说明数学的公理化基础，并以皮亚诺公理为例展示自然数加法的定义与证明。"
+    },
+    {
+      "title": "能否构造一个无法知道收敛与否的数列？",
+      "url": "https://www.zhihu.com/answer/2878064538",
+      "summary": "正文明确以 ZFC 中的并集、幂集和分离公理保证从连续统假设命题构造的函数定义有效，属于公理方法的实质讨论。"
+    },
+    {
+      "title": "能否构造一个无法知道收敛与否的数列？",
+      "url": "https://www.zhihu.com/answer/2891145671",
+      "summary": "正文说明数列发散结论无法在 ZFC 中证明，并讨论加入 rank-into-rank 基数后的更强公理体系及其一致性。"
+    },
+    {
+      "title": "0.9无限循环和1谁大？",
+      "url": "https://www.zhihu.com/answer/2898595163",
+      "summary": "正文讨论 ZFC 无穷公理的独立性以及去掉该公理后自然数与实数构造所受的影响。"
+    },
+    {
+      "title": "西方文明为什么在近代会超越东方文明？",
+      "url": "https://www.zhihu.com/answer/2898702549",
+      "summary": "正文说明《几何原本》第一卷以定义、公设和公理建立平面几何的公理基础。"
+    },
+    {
+      "title": "「不允许除以0」在数学中是逻辑自洽的，还是为避免出问题的而做出的强制规定？",
+      "url": "https://www.zhihu.com/answer/2903908043",
+      "summary": "正文讨论域公理为何被采用、公理与可证明性质的关系，以及从 ZFC 公理构造数系。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2911486965",
+      "summary": "正文给出选择公理的非空族选择函数表述，并讨论其与拆分原理及量词交换原则的关系。"
+    },
+    {
+      "title": "如何通俗地理解哥德尔不完备定理？",
+      "url": "https://www.zhihu.com/answer/2916484836",
+      "summary": "正文详细说明一阶逻辑的论域、模型与公理，并列出皮亚诺算术的常数、运算和归纳公理模式。"
+    },
+    {
+      "title": "古代中国领先了世界那么久，为什么就没有领先进入工业革命呢？",
+      "url": "https://www.zhihu.com/answer/2921802374",
+      "summary": "正文按卷概述《几何原本》，首先说明其以基本定义、公设和公理组织平面几何。"
+    },
+    {
+      "title": "如何评价 Maki's Lab 的数学分析讲义？",
+      "url": "https://www.zhihu.com/answer/2926279617",
+      "summary": "正文指出讲义把配对公理的结论写错，并说明该公理的作用是确保由x和y组成的二元集合存在。"
+    },
+    {
+      "title": "有什么数学定理一般人都觉得是常识，但严谨证明起来却挺费力的？",
+      "url": "https://www.zhihu.com/answer/2928791328",
+      "summary": "正文从实数序域的代数与序公理逐步推出 0≠1、平方非负和 0<1。"
+    },
+    {
+      "title": "数学家在知道哥德尔不完备定理后为何还继续研究数学？",
+      "url": "https://www.zhihu.com/answer/2936281183",
+      "summary": "正文以平行公设、选择公理和连续统假设为例，说明命题相对于给定公理体系独立时可通过增加不同假设开展研究。"
+    },
+    {
+      "title": "中国人很聪明，为什么现代科学却起源于西方？",
+      "url": "https://www.zhihu.com/answer/2943994101",
+      "summary": "正文以《几何原本》为例，说明从定义概念和设定公理出发，再按规则演绎定理的公理方法。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/2959300173",
+      "summary": "正文以伽罗华之后的公理化运动为线索，说明现代数学如何以公理假设组织概念与分支。"
+    },
+    {
+      "title": "数学学科是否存在过因数学界前沿研究进展而改变基础数学教育方式或思维的例子？",
+      "url": "https://www.zhihu.com/answer/2961389278",
+      "summary": "正文以美国新数学运动为例，说明以公理化数学体系组织基础数学教育的尝试及其失败原因。"
+    },
+    {
+      "title": "小学数学为什么不从集合论学起？",
+      "url": "https://www.zhihu.com/answer/2963114140",
+      "summary": "正文围绕选择公理、ZFC 独立性、大基数与一致性强度讨论公理选择对集合论基础的影响。"
+    },
+    {
+      "title": "计算机科学界对图灵机的【停机】这一概念是如何约定的？",
+      "url": "https://www.zhihu.com/answer/2964167111",
+      "summary": "正文用形式系统的公理化理想说明哥德尔不完备定理对完备公理体系的限制。"
+    },
+    {
+      "title": "现代的数学研究抽象到了哪种地步？",
+      "url": "https://www.zhihu.com/answer/2976110636",
+      "summary": "正文讨论公理化作为表达手段的作用及其与数学直观之间的关系。"
+    },
+    {
+      "title": "现代的数学研究抽象到了哪种地步？",
+      "url": "https://www.zhihu.com/answer/2992635383",
+      "summary": "正文明确以 ZFC 九大公理为前提，构造累积层级并说明如何证明一切对象都属于该序列。"
+    },
+    {
+      "title": "数学界为何走向抽象？",
+      "url": "https://www.zhihu.com/answer/2994672637",
+      "summary": "正文讨论数学各分支从直观问题转向公理化体系，并分析从公理假设出发的利弊。"
+    },
+    {
+      "title": "现代的数学研究抽象到了哪种地步？",
+      "url": "https://www.zhihu.com/answer/2995101908",
+      "summary": "正文以 ZFC、皮亚诺算术和假言推理规则为例，说明形式化系统如何从定义与公理组织证明。"
+    },
+    {
+      "title": "积分不就是找反导数吗，为什么还有稀奇古怪的积分技巧？",
+      "url": "https://www.zhihu.com/answer/3009030044",
+      "summary": "正文依据皮亚诺公理，从后继运算出发递归定义减法，再定义相反数和加法，并检验新定义与通常定义一致。"
+    },
+    {
+      "title": "如果把R看作是Q上的向量空间，它的基能否被显式写出来？",
+      "url": "https://www.zhihu.com/answer/3015350327",
+      "summary": "正文讨论实数良序能否由集合论公式显式定义，并说明相关命题在ZFC中不可判定，涉及公理体系的独立性。"
+    },
+    {
+      "title": "如何评价未明子开始学习/教授数理逻辑与集合论相关内容？",
+      "url": "https://www.zhihu.com/answer/3042178065",
+      "summary": "正文围绕 ZFC、选择公理及连续统假设的独立性讨论公理的地位和选择依据。"
+    },
+    {
+      "title": "为什么我感觉非欧几何是民科？",
+      "url": "https://www.zhihu.com/answer/3051450197",
+      "summary": "正文用冲突要求作类比，说明不同公理系统可以并存而无需彼此消除。"
+    },
+    {
+      "title": "欧几里得为什么这么霸道，设了五条称为公理的东西，不准人问为什么？",
+      "url": "https://www.zhihu.com/answer/3052100322",
+      "summary": "正文逐条翻译并解释欧几里得五条公理，讨论这些预设条件对空间的约束。"
+    },
+    {
+      "title": "为什么我们中学物理课本，只承认古希腊的阿基米德的杠杆定理，而不认墨子的杠杆定理？",
+      "url": "https://www.zhihu.com/answer/3052776419",
+      "summary": "正文具体说明阿基米德从平衡假设出发推导杠杆反比关系，体现了以基本假设组织证明的方法。"
+    },
+    {
+      "title": "为什么我觉得数学才是最不讲逻辑的学科？",
+      "url": "https://www.zhihu.com/answer/3053067216",
+      "summary": "正文说明自然数通常由皮亚诺公理体系规定，并指出这些基础公理或定义本身不是被证明的对象。"
+    },
+    {
+      "title": "为什么一道几何题不添加辅助线就做不出来，添加了才做的出来，添加辅助线后多了条件吗?",
+      "url": "https://www.zhihu.com/answer/3057889235",
+      "summary": "正文以欧几里得几何与ZFC公理体系的差异解释欧氏几何为何不能直接使用方程和极限等代数工具。"
+    },
+    {
+      "title": "如何看待高二学生以一作发表数学类 sci，论文含金量如何？",
+      "url": "https://www.zhihu.com/answer/3069557529",
+      "summary": "正文具体辨析选择函数、正则公理、选择公理与良序化陈述之间的推论和等价关系。"
+    },
+    {
+      "title": "为什么数学能以显而易见的定理建立起晦涩的数学大厦?",
+      "url": "https://www.zhihu.com/answer/3093297678",
+      "summary": "正文说明数学命题由公理系统中的基本公理经逻辑演绎得到，并据此讨论公理化证明的意义。"
+    },
+    {
+      "title": "选择公理一直是一个争议点，我发现很多教科书的证明都默认选择公理成立，这是否有问题？",
+      "url": "https://www.zhihu.com/answer/3103213790",
+      "summary": "正文给出选择公理的选择函数式表述，并讨论其与 Tychonoff 定理、Zorn 引理及良序原理的关系。"
+    },
+    {
+      "title": "该如何与弟弟解释世界上有无数个数？",
+      "url": "https://www.zhihu.com/answer/3130612598",
+      "summary": "正文明确说明无穷存在由公理规定，并把公理解释为不能由其他公理推导、只能选择承认或拒绝的命题。"
+    },
+    {
+      "title": "是否存在两个周期函数f(x)和g(x)，使得它们的和f(x)+g(x)≡x？",
+      "url": "https://www.zhihu.com/answer/3136608009",
+      "summary": "正文指出从每个等价类选取代表元依赖选择公理，并讨论其成立性对构造的影响。"
+    },
+    {
+      "title": "如果不承认选择公理，现代数学会变成什么样子？",
+      "url": "https://www.zhihu.com/answer/3144439020",
+      "summary": "正文说明选择公理与集合论、代数、拓扑等大量命题等价，并讨论否定该公理后的数学后果。"
+    },
+    {
+      "title": "对于 3 和 4 之间的整数 “bleem”，你怎么看？",
+      "url": "https://www.zhihu.com/answer/3144775275",
+      "summary": "正文援引皮亚诺公设并改写后继关系，讨论公理定义自然数结构的方式。"
+    },
+    {
+      "title": "如果不承认选择公理，现代数学会变成什么样子？",
+      "url": "https://www.zhihu.com/answer/3144962294",
+      "summary": "正文列举否定选择公理后非空集合笛卡尔积可为空等结论，说明该公理对集合论结构的基础作用。"
+    },
+    {
+      "title": "如果不承认选择公理，现代数学会变成什么样子？",
+      "url": "https://www.zhihu.com/answer/3145315856",
+      "summary": "正文讨论没有选择公理时数学对象仍可研究，并比较选择公理、排中律及不同公理体系的作用。"
+    },
+    {
+      "title": "如何看待有人认为数学公理可能出错所以数学可信度不是百分之百?",
+      "url": "https://www.zhihu.com/answer/3165973946",
+      "summary": "正文把公理解释为需要保持无矛盾的规则，并讨论集合论公理一致性的意义。"
+    },
+    {
+      "title": "很多数学上的难题可以通过计算机（人工智能）来推导证明么？",
+      "url": "https://www.zhihu.com/answer/3190461265",
+      "summary": "正文围绕希尔伯特形式化纲领讨论公理体系的完备性、自洽性和可决定性，以及罗素悖论后的数学基础公理化。"
+    },
+    {
+      "title": "有没有人解释一下数学本质?",
+      "url": "https://www.zhihu.com/answer/3194270568",
+      "summary": "正文解释形式主义把数学视为从公理推出定理的体系，并讨论这些公理是否表达客观真理。"
+    },
+    {
+      "title": "如何看待数学家费尽心思证明“1＋1=2”？",
+      "url": "https://www.zhihu.com/answer/3195470691",
+      "summary": "正文用皮亚诺公理说明 1+1=2 的地位，并讨论《数学原理》为构建算术引入的无穷、选择和可化归性公理。"
+    },
+    {
+      "title": "数学家在知道哥德尔不完备定理后为何还继续研究数学？",
+      "url": "https://www.zhihu.com/answer/3198099273",
+      "summary": "正文说明递归公理化的算术和集合论系统无法穷尽自然数的全部真理，具体讨论了公理系统的能力边界。"
+    },
+    {
+      "title": "有哪些数学教材值得精读？",
+      "url": "https://www.zhihu.com/answer/3203036805",
+      "summary": "正文说明《陶哲轩实分析》从皮亚诺公理和 ZF 集合论出发构造自然数，并把公理基础视为自然数—实数体系的核心。"
+    },
+    {
+      "title": "交换律、结合律、分配律的本质是什么？",
+      "url": "https://www.zhihu.com/answer/3203257254",
+      "summary": "正文主张精简证明时保留不可删除的定律或公理，并据此解释代数结构底层定义的来源。"
+    },
+    {
+      "title": "什么是 surreal number？",
+      "url": "https://www.zhihu.com/answer/3204209383",
+      "summary": "正文明确说明超现实数建立在公理集合论和两条基本法则上，并逐条解释这两条构造公理。"
+    },
+    {
+      "title": "看了毕导的年更新视频sub(n,n,17)之后，你有何感想？",
+      "url": "https://www.zhihu.com/answer/3210380622",
+      "summary": "正文以有限前提和公理集合解释形式系统内证明的判定方式，并讨论皮亚诺算术所需的外部假设。"
+    },
+    {
+      "title": "看了毕导的年更新视频sub(n,n,17)之后，你有何感想？",
+      "url": "https://www.zhihu.com/answer/3211036308",
+      "summary": "正文梳理 ZFC 的提出动机及其与良序定理证明的关系，属于对公理集合论背景的实质说明。"
+    },
+    {
+      "title": "为何在《几何原本》的故乡古希腊没看到这样的充满几何数学韵味的文物？",
+      "url": "https://www.zhihu.com/answer/3211521793",
+      "summary": "正文借《几何原本》说明数学讨论须先明确定义、公设和公理这一公理化基础。"
+    },
+    {
+      "title": "Lebesgue不可测集存在性依赖于选择公理吗？",
+      "url": "https://www.zhihu.com/answer/3220287080",
+      "summary": "正文围绕是否采用选择公理以及可替代的其他集合论公理展开论证，讨论了公理假设对数学结论的影响。"
+    },
+    {
+      "title": "a+a+a=b+b，已知a+b=30，请问a等于多少b等于多少?",
+      "url": "https://www.zhihu.com/answer/3223565429",
+      "summary": "正文明确列出后继、不同数后继不同等皮亚诺式基本规则，并以这些公理约束算术推演。"
+    },
+    {
+      "title": "老师曾跟我说过，当Ø在大括号里时，Ø是作为一个元素的，那么在什么情况下Ø会作为元素出现呢？",
+      "url": "https://www.zhihu.com/answer/3240838976",
+      "summary": "正文陈述外延公理并用元素属于关系解释集合相等，还讨论集合论公理与 urelement 的处理。"
+    },
+    {
+      "title": "古代中国数学，目前研究生的什么专业会研究它们？",
+      "url": "https://www.zhihu.com/answer/3241967769",
+      "summary": "正文比较中国古代机械化算法传统与西方公理化演绎传统，并讨论两条数学发展路线。"
+    },
+    {
+      "title": "如何评价图森未来的AI Day？",
+      "url": "https://www.zhihu.com/answer/3250550648",
+      "summary": "正文把决策规划采用的 Principles 类比为公理，并具体讨论从公理假设出发进行逻辑演绎和验证。"
+    },
+    {
+      "title": "如果各个学科都有各自的一个底层逻辑，它们分别会是什么？",
+      "url": "https://www.zhihu.com/answer/3258418637",
+      "summary": "正文列出欧氏几何公理，并解释以少量不加证明的公理为起点的公理化证明方式。"
+    },
+    {
+      "title": "为什么希尔伯特的地位如此之高？",
+      "url": "https://www.zhihu.com/answer/3263133131",
+      "summary": "正文讨论希尔伯特几何公理体系并把它作为几何基础，实质对应公理化思想。"
+    },
+    {
+      "title": "中国人很聪明，为什么现代科学却起源于西方？",
+      "url": "https://www.zhihu.com/answer/3264052389",
+      "summary": "正文解释公理化以少数公理和逻辑推导定理，使知识摆脱直觉经验，实质讨论公理方法。"
+    },
+    {
+      "title": "不可测集的构造是怎么想到的?",
+      "url": "https://www.zhihu.com/answer/3276037526",
+      "summary": "正文明确使用选择公理构造代表元集合，并讨论该公理及连续统良序化的假设。"
+    },
+    {
+      "title": "如何构造 ℝ 到 ℝ / ℚ （商集）的双射？",
+      "url": "https://www.zhihu.com/answer/3279865400",
+      "summary": "正文明确讨论选择公理在构造代表元及商集到实数单射中的作用，并论证该双射不能脱离选择公理保证。"
+    },
+    {
+      "title": "为什么{ⅹ|x²＝-5}是空集?",
+      "url": "https://www.zhihu.com/answer/3282573354",
+      "summary": "正文讨论 ZF(C) 的外延公理、分离公理以及类抽象在集合论公理化中的作用。"
+    },
+    {
+      "title": "为什么（0+0=0）而（1+1=2），都是等值相加，答案却是不同。到底，为什么？",
+      "url": "https://www.zhihu.com/answer/3286931364",
+      "summary": "正文以命题真值的另类加法说明运算结果取决于定义，并指出通常的 1+1=2 来自 Peano 公理体系。"
+    },
+    {
+      "title": "有可能制作出生物计算机吗？",
+      "url": "https://www.zhihu.com/answer/3290651507",
+      "summary": "正文围绕希尔伯特判定问题说明形式证明须从给定公理推出命题，并交代公理被视为真陈述，涉及公理与可证性的边界。"
+    },
+    {
+      "title": "西方数学是建立在中国古代数学上的吗？",
+      "url": "https://www.zhihu.com/answer/3293325782",
+      "summary": "正文把有限基础命题作为不可证明的逻辑起点，并说明公理系统中其余内容由公理推导，具体讨论公理的地位和系统作用。"
+    },
+    {
+      "title": "布尔巴基是什么梗？",
+      "url": "https://www.zhihu.com/answer/3295179711",
+      "summary": "正文介绍布尔巴基学派以公理体系和结构原则整理现代数学，并记述其集体写作与统一基础的工作方式。"
+    },
+    {
+      "title": "为什么说归纳法是危险的？",
+      "url": "https://www.zhihu.com/answer/3297923917",
+      "summary": "正文指出数学归纳法以皮亚诺公理为基础，并列出自然数的后继、零及归纳公理。"
+    },
+    {
+      "title": "是否能证明“该命题存在一个证明A”而不给出证明A的过程?",
+      "url": "https://www.zhihu.com/answer/3303162521",
+      "summary": "正文讨论在公理体系中加入额外公理，并利用绝对性和保守性定理把结论移回较弱公理体系。"
+    },
+    {
+      "title": "关于ZFC公理体系和现有数学体系的兼容性问题？",
+      "url": "https://www.zhihu.com/answer/3305088412",
+      "summary": "正文解释从 ZFC 等公理出发把数学对象表示为集合的基础方案及其作用。"
+    },
+    {
+      "title": "6岁女儿问为什么负数乘以负数得正数，有啥通俗易懂的答案？",
+      "url": "https://www.zhihu.com/answer/3321816996",
+      "summary": "正文把负负得正追溯到幺元、逆元和结合律等代数公理，并用等式链给出证明。"
+    },
+    {
+      "title": "为什么有人喜欢数学？",
+      "url": "https://www.zhihu.com/answer/3322299596",
+      "summary": "正文借《几何原本》说明从有限公理出发、依靠逻辑推导建立知识体系的方法。"
+    },
+    {
+      "title": "6岁女儿问为什么负数乘以负数得正数，有啥通俗易懂的答案？",
+      "url": "https://www.zhihu.com/answer/3324799655",
+      "summary": "正文把负负得正归因于分配律这一基本运算规则，并据此用等式链完成推导。"
+    },
+    {
+      "title": "能否推荐一本思维比较开放的数分教材？",
+      "url": "https://www.zhihu.com/answer/3328701568",
+      "summary": "正文说明教材从 Peano 公理构造各数系，并强调最小归纳集等公理化基础。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3344498205",
+      "summary": "正文围绕选择公理、良序定理和Zorn引理证明其等价关系，并讨论选择公理与Zermelo-Fraenkel公理体系的独立性。"
+    },
+    {
+      "title": "既然加法是基于群论的，为什么小学不先学群论？",
+      "url": "https://www.zhihu.com/answer/3363966565",
+      "summary": "正文以皮亚诺公理和集合论两种基础解释自然数加法为什么不依赖群论。"
+    },
+    {
+      "title": "一个数学家要做到什么成就才能在数学界彻底封神，超过欧拉高斯等一众大神?",
+      "url": "https://www.zhihu.com/answer/3368716999",
+      "summary": "正文通过非欧几何的例子讨论公理的地位，说明公理是可选择的规定而非公认真理。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/3368719683",
+      "summary": "正文通过非欧几何的例子讨论公理的地位，说明公理是可选择的规定而非公认真理。"
+    },
+    {
+      "title": "如何激怒一位数学爱好者？",
+      "url": "https://www.zhihu.com/answer/3368724789",
+      "summary": "正文通过非欧几何的例子讨论公理的地位，说明公理是可选择的规定而非公认真理。"
+    },
+    {
+      "title": "{x|x=x}是一个集合吗？",
+      "url": "https://www.zhihu.com/answer/3389757573",
+      "summary": "正文给出正则公理的定义，并具体使用配对公理与分类公理推出全集对象不存在。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/3393316415",
+      "summary": "正文用排中律、皮亚诺算术、ZFC、大基数公理及独立性说明公理选择对数学命题可证性的影响。"
+    },
+    {
+      "title": "最近在学数论 泛函 射影几何 怎么感觉数学也是草台班子？",
+      "url": "https://www.zhihu.com/answer/3394853769",
+      "summary": "正文讨论公理化作为二十世纪数学叙述方式的历史地位，并比较直觉性思考与严格公理化证明之间的关系。"
+    },
+    {
+      "title": "哲学和数学是怎么联系的？",
+      "url": "https://www.zhihu.com/answer/3403365704",
+      "summary": "正文追问如何为连续统假设选择新集合论公理、ZFC为何特殊及集合论的基础地位，实质讨论公理选择。"
+    },
+    {
+      "title": "如何通俗理解一个数学命题既不能证明又不能证伪？",
+      "url": "https://www.zhihu.com/answer/3405990633",
+      "summary": "正文比较范畴性与抽象代数性公理化，说明公理如何刻画结构以及独立性的来源。"
+    },
+    {
+      "title": "哪些数学定理在直觉上是对的，但证明起来很困难？",
+      "url": "https://www.zhihu.com/answer/3423808536",
+      "summary": "正文比较Peano算术与更强公理体系，讨论定理的可证明性以及所需公理假设。"
+    },
+    {
+      "title": "如何看待数理逻辑当中的\"集合\"?",
+      "url": "https://www.zhihu.com/answer/3434855840",
+      "summary": "正文说明绝对严谨的定义最终必须诉诸不加定义的元对象，并据此讨论公理系统与元语言的关系。"
+    },
+    {
+      "title": "选择公理在什么情况下使用？",
+      "url": "https://www.zhihu.com/answer/3437913872",
+      "summary": "正文比较选择公理、可数选择与依赖选择，并讨论 ZFC 中公理强度与使用范围。"
+    },
+    {
+      "title": "全体集合为什么不构成集合？",
+      "url": "https://www.zhihu.com/answer/3469356566",
+      "summary": "正文介绍 ZF 集合论中的分离公理和正则公理，并用正则公理约束集合的属于关系。"
+    },
+    {
+      "title": "历史上数学最发达的古希腊为什么无法发明数字符号零?",
+      "url": "https://www.zhihu.com/answer/3478777405",
+      "summary": "正文围绕《几何原本》的公理演绎系统与中国古代算学构造体系展开比较，讨论不同公理化与证明范式。"
+    },
+    {
+      "title": "哲学上讲世界上没有绝对，那么1+1=3为啥就一定是错的？",
+      "url": "https://www.zhihu.com/answer/3511748285",
+      "summary": "正文把1+1=2与1+1≠3归结为是否接受皮亚诺公理体系，说明算术命题依赖所选公理。"
+    },
+    {
+      "title": "都说逻辑学重要，有时都被提升到宇宙终极大杀器的地位。谁能介绍、评价一下逻辑学？",
+      "url": "https://www.zhihu.com/answer/3532681720",
+      "summary": "正文说明当代逻辑采用符号化语言和多条公理，并具体陈述命题逻辑、量词公理和等词公理。"
+    },
+    {
+      "title": "皮亚诺公理中“0不是任何自然数的后继”怎么理解，这一条的必要性在哪里？",
+      "url": "https://www.zhihu.com/answer/3533143059",
+      "summary": "正文逐条解释皮亚诺公理如何排除 O 型、Q 型和多个分支等不合法结构，讨论公理对定义自然数的必要性。"
+    },
+    {
+      "title": "皮亚诺公理中“0不是任何自然数的后继”怎么理解，这一条的必要性在哪里？",
+      "url": "https://www.zhihu.com/answer/3533488347",
+      "summary": "正文解释后继公理并不预设大小，而要求自然数的后继关系有起点且不能形成环。"
+    },
+    {
+      "title": "为什么一道几何题不添加辅助线就做不出来，添加了才做的出来，添加辅助线后多了条件吗?",
+      "url": "https://www.zhihu.com/answer/3533853474",
+      "summary": "正文从欧氏几何的公理、推理规则和模型出发，区分形式演绎与真值，并介绍希尔伯特及塔斯基公理体系，实质讨论公理在几何理论中的作用。"
+    },
+    {
+      "title": "如何评价陶哲轩的实分析II?",
+      "url": "https://www.zhihu.com/answer/3557142155",
+      "summary": "正文说明皮亚诺五公理与集合论附加公理能够构造全部数系并展开代数、微积分，具体讨论公理化基础。"
+    },
+    {
+      "title": "牛顿真有传说的那么厉害吗？",
+      "url": "https://www.zhihu.com/answer/3562365027",
+      "summary": "正文说明《自然哲学的数学原理》以公理化形式组织，并由公理和几何论证建立经典力学框架。"
+    },
+    {
+      "title": "无限集必有可列子集，老师的证明对吗？",
+      "url": "https://www.zhihu.com/answer/3568459851",
+      "summary": "正文解释选择公理的集合选取表述及其对应的量词交换，并讨论所需公理依据。"
+    },
+    {
+      "title": "为什么Cantor-Bernstein定理的那个不用选择公理的证明可以做到“经典永流传”？",
+      "url": "https://www.zhihu.com/answer/3586284742",
+      "summary": "正文比较可数并、满射截面与 Schröder-Bernstein 定理背后的选择公理依赖，说明哪些证明在 ZF 中不能免费得到。"
+    },
+    {
+      "title": "ruliad这个概念（wolfram提出的），以及相关的ruliology，中文怎么对应比较好？",
+      "url": "https://www.zhihu.com/answer/3591035152",
+      "summary": "正文把公理系统中的表达式和公理转换对应为多路系统的状态与替换规则，并讨论由此得到的证明路径。"
+    },
+    {
+      "title": "地中海文化圈是从什么时候开始领先我们的？“领先”的标准是什么？",
+      "url": "https://www.zhihu.com/answer/3592423169",
+      "summary": "正文用古希腊数学的历史说明公理化体系，即先定义概念再据公理演绎推理的数学组织方式。"
+    },
+    {
+      "title": "为什么一些看上去初等的数学问题，几百年没被找到初等解法，本质原因是什么？",
+      "url": "https://www.zhihu.com/answer/3592564672",
+      "summary": "正文比较不同公理体系能刻画的集合与陈述，说明公理强弱会限制可证明的范围。"
+    },
+    {
+      "title": "孙斌勇获 2024 年度未来科学大奖数学与计算机科学奖，如何理解他在「李群表示论」领域的重要成就？",
+      "url": "https://www.zhihu.com/answer/3599086315",
+      "summary": "正文说明希尔伯特形式化公理体系的完备性、自洽性和可决定性目标，并交代哥德尔不完备定理的影响。"
+    },
+    {
+      "title": "如何评价网络观点「论教材的『防自学』设计」?",
+      "url": "https://www.zhihu.com/answer/3614791252",
+      "summary": "正文以自然数公理化为例，论证数学需要坚实的逻辑基础和严格体系，而不是只求够用。"
+    },
+    {
+      "title": "你看过哪些好看的旗帜？",
+      "url": "https://www.zhihu.com/answer/3628827314",
+      "summary": "正文说明这些旗帜函数的存在性依赖于选择公理，属于对公理前提的讨论。"
+    },
+    {
+      "title": "为什么国家不从小学开始，开立逻辑学这门课程？",
+      "url": "https://www.zhihu.com/answer/3632090123",
+      "summary": "正文给出命题公式、三条公理、分离规则以及形式证明的定义，并解释这些公理为何恒真，实质讨论了公理化系统。"
+    },
+    {
+      "title": "为什么国内出不了顶级数学家?",
+      "url": "https://www.zhihu.com/answer/3724441330",
+      "summary": "正文概括《几何原本》从假设和定义出发、逐步证明命题的公理式演绎方法。"
+    },
+    {
+      "title": "为什么美国中小学生学的数学比我们简单，美国人却还能做出超级牛的东西？",
+      "url": "https://www.zhihu.com/answer/4831870876",
+      "summary": "正文强调美国几何教材按欧几里得方式从少量基本假设逐步推演整个几何体系。"
+    },
+    {
+      "title": "如何真正从本质上理解数学?",
+      "url": "https://www.zhihu.com/answer/5926516907",
+      "summary": "正文以《几何原本》的五个公设和公理为例，说明它们作为无需证明的演绎起点如何组织几何学。"
+    },
+    {
+      "title": "群论和拓扑学有什么关系？",
+      "url": "https://www.zhihu.com/answer/16159633138",
+      "summary": "正文逐条列出开集、闭集和邻域等拓扑公理，并明确用结合律、单位元和逆元三条公理定义群。"
+    },
+    {
+      "title": "为什么9+1=10，而不是9+1=00?",
+      "url": "https://www.zhihu.com/answer/17251593421",
+      "summary": "正文用皮亚诺公理和对后继的任意记号说明自然数公理与具体符号无关。"
+    },
+    {
+      "title": "如何看待全国高中数学教材的内容调整？",
+      "url": "https://www.zhihu.com/answer/18092052220",
+      "summary": "正文围绕数学教材删减公理、定义和定理证明展开，论证公理化体系对严谨数学学习的必要性。"
+    },
+    {
+      "title": "平面几何为何是我国数学竞赛比较薄弱的项目?",
+      "url": "https://www.zhihu.com/answer/29740193204",
+      "summary": "正文从点线基本关系出发声明未证命题为公理，并专门讨论第五公设及其在欧氏几何中的基础作用。"
+    },
+    {
+      "title": "现行的初中数学教材把「平行线分线段成比例」称作一个「基本事实」是出于何种考虑？",
+      "url": "https://www.zhihu.com/answer/31638077920",
+      "summary": "正文辨析公理、基本事实与定理的关系，并说明为教学可接受性扩大几何公理体系的做法。"
+    },
+    {
+      "title": "为什么全国通用高中数学课本章建跃主编在教学论文中犯基本概念错误？",
+      "url": "https://www.zhihu.com/answer/31772786156",
+      "summary": "正文用线性空间的八条公理解释向量定义，并讨论公理化地定义内积空间的思想。"
+    },
+    {
+      "title": "如何评价Aguilera，Bagaria，Lücke疑似证否了Woodin的HOD和终极L猜想?",
+      "url": "https://www.zhihu.com/answer/41336139963",
+      "summary": "正文讨论新的 exacting 大基数公理与 ZFC 的关系，并分析其无矛盾性能否推出弱 HOD 猜想的否定。"
+    },
+    {
+      "title": "如何看待求真书院初中生在拓扑伽罗瓦理论课上不知道什么是空集？",
+      "url": "https://www.zhihu.com/answer/50454025885",
+      "summary": "正文比较数分教材中的相对开子集与点集拓扑的公理化定义，说明学习者为何难以接受空集作为开集这一公理化处理。"
+    },
+    {
+      "title": "总感觉数学地基无法真正“稳固”，诸位有什么看法吗？",
+      "url": "https://www.zhihu.com/answer/57483322719",
+      "summary": "正文以集合存在公理和无穷公理为例，说明公理体系需要明确其基本存在性假设。"
+    },
+    {
+      "title": "公理系统的构建是否依赖于自然数的存在？",
+      "url": "https://www.zhihu.com/answer/69354208532",
+      "summary": "正文把公理与公理模式解释为证明提取程序预先接收的数据和生成规则，讨论公理在基础中的作用。"
+    },
+    {
+      "title": "分析学中的 Heine 归结原理的证明是否需要选择公理？",
+      "url": "https://www.zhihu.com/answer/71779777919",
+      "summary": "正文借助不含可数选择公理的 ZF 模型构造反例，说明 Heine 归结原理并非 ZF 可证。"
+    },
+    {
+      "title": "不能用尺规作图画三等分角的话，有没有其他手段能够将角精确三等分?",
+      "url": "https://www.zhihu.com/answer/97890088477",
+      "summary": "正文介绍折纸公理，并具体说明第六公理对应的几何操作。"
+    },
+    {
+      "title": "如果人类在18-20世纪没点传统数理控制论等科技，而直接拥有GPT技术，那人类还可以在20世纪登月吗？",
+      "url": "https://www.zhihu.com/answer/99466309215",
+      "summary": "正文把公理体系解释为从共同接受的最小假设出发，用逻辑演绎判断命题对错的方法。"
+    },
+    {
+      "title": "数学家在知道哥德尔不完备定理后为何还继续研究数学？",
+      "url": "https://www.zhihu.com/answer/107853971027",
+      "summary": "正文以 ZF 续加选择公理、连续统假设为例，说明强公理体系可以不断扩充公理。"
+    },
+    {
+      "title": "为什么国内数学系对数理逻辑的训练这么不重视？",
+      "url": "https://www.zhihu.com/answer/112248360213",
+      "summary": "正文专门讨论选择公理的接受史、等价形式、弱形式及其与其他集合论公理的关系。"
+    },
+    {
+      "title": "为什么某些数学家可以接受反直觉但不接受反逻辑？",
+      "url": "https://www.zhihu.com/answer/120233951741",
+      "summary": "正文说明 ZF 公理系统通过限制集合定义来消除悖论，具体讨论了公理化对数学基础的作用。"
+    },
+    {
+      "title": "数学是人类发明的，还是宇宙本身的语言？",
+      "url": "https://www.zhihu.com/answer/1883671390881830870",
+      "summary": "正文具体说明公理体系的迭代构造，并比较非欧几何、构造主义和 NF 集合论。"
+    },
+    {
+      "title": "有些人认为徐光启给了传教士大量典籍才让欧洲文明大爆发。请问如何看待这个说法？",
+      "url": "https://www.zhihu.com/answer/128896985223",
+      "summary": "正文说明《原本》先列出公理、公设和定义，再由简到繁进行证明，具体展开了公理化组织方法。"
+    },
+    {
+      "title": "在数理逻辑（或是集合论）中有哪些伪证过程一般人看上去很合理，但实际上是不正确的？",
+      "url": "https://www.zhihu.com/answer/1893318485607679219",
+      "summary": "正文以选择公理、分离公理、ZFC 的有穷公理化、反射原理和紧致性定理讨论公理系统的构造与伪证。"
+    },
+    {
+      "title": "为什么乘法满足交换律呢？",
+      "url": "https://www.zhihu.com/answer/1895221207634249247",
+      "summary": "正文以皮亚诺公理和后继数为基础给出自然数乘法的公理化定义，并由此证明交换律。"
+    },
+    {
+      "title": "为什么“科学只能证伪”，“逻辑证有不证无”？",
+      "url": "https://www.zhihu.com/answer/1905381809144963732",
+      "summary": "正文用自然数、集合论和群论的存在性例子说明原初存在需要由公理系统规定，并进一步讨论对称性及配对、并集等公理的作用。"
+    },
+    {
+      "title": "要用什么方法才能证明哥德巴赫猜想后却对世界数学发展毫无贡献?",
+      "url": "https://www.zhihu.com/answer/1910681266682036629",
+      "summary": "正文讨论 ZFC、大基数公理、一致性和连续统假设的独立性，涉及公理体系的作用与限制。"
+    },
+    {
+      "title": "值得深读一辈子的一本书是哪一本?",
+      "url": "https://www.zhihu.com/answer/1911754785624945516",
+      "summary": "正文说明《陶哲轩实分析》从皮亚诺公理与 ZF 集合论出发构造自然数，并解释公理基础在数系构造中的作用。"
+    },
+    {
+      "title": "西方伪史论，多读两本书就能反驳吗？",
+      "url": "https://www.zhihu.com/answer/1914743314026050280",
+      "summary": "正文具体比较《几何原本》不同版本的界说、公论和公设，并讨论公理条目差异对证明体系的影响。"
+    },
+    {
+      "title": "西方伪史论，多读两本书就能反驳吗？",
+      "url": "https://www.zhihu.com/answer/1915017098926720654",
+      "summary": "正文比较《几何原本》与中国古代算书，明确说明欧几里得体系从定义和公理演绎出定理。"
+    },
+    {
+      "title": "数学、物理、化学、生物，这四门学科最适合普通人自学成才的是不是数学？",
+      "url": "https://www.zhihu.com/answer/1918627104767063703",
+      "summary": "正文指出数学家为排除反例需要建立严谨、形式化的公理体系或语言，并与其他学科的直接默认作对比。"
+    },
+    {
+      "title": "是否存在两个周期函数f(x)和g(x)，使得它们的和f(x)+g(x)≡x？",
+      "url": "https://www.zhihu.com/answer/1926657365622650744",
+      "summary": "正文说明构造依赖选择公理及 Zorn 引理保证的 Hamel 基，并讨论不同公理模型下的结论。"
+    },
+    {
+      "title": "如何证明三角形两边之和大于第三边？",
+      "url": "https://www.zhihu.com/answer/1933795858136138440",
+      "summary": "正文列出欧几里得《几何原本》的公理、公设和定义，并追溯三角形命题的证明所依赖的几何基础。"
+    },
+    {
+      "title": "苏联当年有多少应该拿菲尔兹奖的数学家被黑了？",
+      "url": "https://www.zhihu.com/answer/1936157843532276387",
+      "summary": "正文说明柯尔莫哥洛夫基于测度论建立概率论公理化体系并交代概率空间框架，实质涉及数学公理体系。"
+    },
+    {
+      "title": "数学史上有哪些数字或规模很大的反例？",
+      "url": "https://www.zhihu.com/answer/1939678539768129481",
+      "summary": "正文围绕欧氏第五公设能否由其他公设推出展开，并用非欧模型说明平行公设的独立性。"
+    },
+    {
+      "title": "为什么我感觉数学里面的反证法有一种说不明白的不对？",
+      "url": "https://www.zhihu.com/answer/1946966738446025860",
+      "summary": "正文把反证法依赖的爆炸律和排中律作为逻辑前提，并比较经典逻辑、模态逻辑与马丁-洛夫类型论，实质讨论公理选择。"
+    },
+    {
+      "title": "根据布尔巴基的观点，皮亚诺公理和希尔伯特公理明明可以被ZFC公理证明，为什么还要称呼它们为公理?",
+      "url": "https://www.zhihu.com/answer/1948007140833891028",
+      "summary": "正文围绕皮亚诺公理、集合论公理及其证明论强度层级，解释不同公理系统之间的关系。"
+    },
+    {
+      "title": "为什么我感觉数学里面的反证法有一种说不明白的不对？",
+      "url": "https://www.zhihu.com/answer/1948496293690344427",
+      "summary": "正文讨论自然数、逻辑和推理系统如何从基础概念公理化，并说明反证法是否成立取决于所选公理系统。"
+    },
+    {
+      "title": "如何理解那些比不可达基数更大的基数？",
+      "url": "https://www.zhihu.com/answer/1948821937120875817",
+      "summary": "正文把 ZFC 与大基数公理类比为逐步增加 Wasm 的外部能力，并解释不同公理的强弱层级。"
+    },
+    {
+      "title": "在集合论中0=1是什么意思？",
+      "url": "https://www.zhihu.com/answer/1950543992828694886",
+      "summary": "正文解释 0=1 是形式系统不相容的表达式，并在 ZFC 公理、推理规则及 Kunen 定理语境中讨论。"
+    },
+    {
+      "title": "为什么有的人死活认为0.9循环＜1?",
+      "url": "https://www.zhihu.com/answer/1954071704516137211",
+      "summary": "正文解释数学体系由公理作为基础建立，接受体系就必须接受其中公理。"
+    },
+    {
+      "title": "小明去鱼塘钓鱼，每天钓上一条，鱼塘每天增加十条鱼，无穷天后鱼塘还有多少鱼？",
+      "url": "https://www.zhihu.com/answer/1958156312010548284",
+      "summary": "正文说明超任务的极限状态没有被有限步骤唯一确定，必须额外指定关于极限状态的公理。"
+    },
+    {
+      "title": "为什么现代科学没有诞生在中国？",
+      "url": "https://www.zhihu.com/answer/1959669364971247543",
+      "summary": "正文以亚里士多德三段论、逻辑基本法则和欧几里得公理体系说明演绎证明与公理化方法。"
+    },
+    {
+      "title": "数学是中国人擅长的学科吗？为什么？",
+      "url": "https://www.zhihu.com/answer/1961708461428564141",
+      "summary": "正文把提出假设和定义作为欧几里得式证明的起点，并说明如何由假设和已证命题推得结论。"
+    },
+    {
+      "title": "为什么感觉群论学起来比数学分析之类难好多？",
+      "url": "https://www.zhihu.com/answer/1962578302125478661",
+      "summary": "正文逐条列出群的结合律、单位元与逆元公理，并说明群论由公理决定结构。"
+    },
+    {
+      "title": "一个人将数学，物理，计算机科学三门功夫聚合在一起是否威力无穷？",
+      "url": "https://www.zhihu.com/answer/1965835451932837211",
+      "summary": "正文列出布尔代数的交换、结合、分配和吸收公理，说明其公理化结构。"
+    },
+    {
+      "title": "一个人的知识是否能超过全人类知识的百分之一？",
+      "url": "https://www.zhihu.com/answer/1966760713025454962",
+      "summary": "正文围绕公理模式、可公理化、完备性和可决定性，讨论公理系统能否生成全部定理。"
+    },
+    {
+      "title": "为什么我觉得初中数学比高中数学难？",
+      "url": "https://www.zhihu.com/answer/1973666439371191022",
+      "summary": "正文以初等平面几何的严密性为例，说明其直到 Tarski 给出公理化方案才获得形式化基础。"
+    },
+    {
+      "title": "数学是绝对真理吗？",
+      "url": "https://www.zhihu.com/answer/1981480132729381841",
+      "summary": "正文介绍ZFC及几何公理体系，说明公理可选择、可修改，并以公理化方式刻画数系和数学分支。"
+    },
+    {
+      "title": "概率论理论是否不可证伪的？",
+      "url": "https://www.zhihu.com/answer/1985863026843344950",
+      "summary": "正文列出概率空间的样本空间、事件域和概率测度，并逐条解释概率论三条公理。"
+    },
+    {
+      "title": "莱布尼茨有哪些成就？",
+      "url": "https://www.zhihu.com/answer/1989930039601550801",
+      "summary": "正文以莱布尼茨对欧几里得体系的批评为线索，讨论实定义、公理地位以及从定义推导公理的方案。"
+    },
+    {
+      "title": "数学的本质是否为逻辑？",
+      "url": "https://www.zhihu.com/answer/1990574853066102380",
+      "summary": "正文深入讨论公理系统的不完备性、一致性问题以及通过意义澄清接受新公理的路径，具体展开了公理的地位。"
+    },
+    {
+      "title": "如何形象理解直觉主义为什么不承认排中律？",
+      "url": "https://www.zhihu.com/answer/1993183350744188411",
+      "summary": "正文围绕公理化、相容性和 Hilbert 计划讨论数学对象存在性，并解释直觉主义为何拒绝仅凭无矛盾认定存在。"
+    },
+    {
+      "title": "阿基米德和欧几里得生平不详，是西方人虚构的人物吗？",
+      "url": "https://www.zhihu.com/answer/1999540133414852055",
+      "summary": "正文围绕第五公设不可由其余公设证明展开，辨析公设、定义与命题推导的逻辑顺序。"
+    },
+    {
+      "title": "全体集合为什么不构成集合？",
+      "url": "https://www.zhihu.com/answer/1999983989423886730",
+      "summary": "正文比较概括公理与分离公理，说明 ZFC 通过限制集合构造规则来排除罗素悖论。"
+    },
+    {
+      "title": "为什么那么多人认为中国古代没有证明勾股定理，只是得到了勾股定理的特例？",
+      "url": "https://www.zhihu.com/answer/2000111902823575765",
+      "summary": "正文梳理《几何原本》第一卷的公理、公设、定义和命题依赖关系，说明定理如何从基础前提出发推导。"
+    },
+    {
+      "title": "为什么中国出不了欧拉、高斯这样的科学大家？",
+      "url": "https://www.zhihu.com/answer/2007949107759702604",
+      "summary": "正文以《几何原本》的公理体系为例，说明公理和形式逻辑如何支撑抽象数学体系的生长。"
+    },
+    {
+      "title": "怎么通俗地描述非欧几何？",
+      "url": "https://www.zhihu.com/answer/2011955331933177661",
+      "summary": "正文围绕平行公设的修改说明几何前提如何决定不同空间中的结论，涉及公理体系。"
+    },
+    {
+      "title": "个人感觉康德、黑格尔的哲学对科学研究没有任何用处，你们觉得呢？",
+      "url": "https://www.zhihu.com/answer/2015291844683129842",
+      "summary": "正文以第三次数学危机、罗素悖论和 ZF 公理系统为例，讨论公理化修补数学基础的作用。"
+    },
+    {
+      "title": "你最满意自己的科研成果是什么？",
+      "url": "https://www.zhihu.com/answer/2020792653478917803",
+      "summary": "正文解释可计算函数全定义性受证明它的公理系统强度限制，并讨论皮亚诺公理、ZFC 与大基数公理下的独立性。"
+    },
+    {
+      "title": "如何评价恽之玮对AI冲击下的数学行业的悲观看法？",
+      "url": "https://www.zhihu.com/answer/2023935019417085245",
+      "summary": "正文用 ZFC 等例子论证公理系统相对于数学内容的后置性、补漏性质以及持续修订特征。"
+    },
+    {
+      "title": "我创作的函数，别人都骂我，并且说这简直就是瞎想，我该怎么办？",
+      "url": "https://www.zhihu.com/answer/2026878818577655805",
+      "summary": "正文用一致性强度、反射原理和不可达基数解释大基数公理如何扩展 ZFC。"
+    },
+    {
+      "title": "概率（Probability）的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2027444259561686896",
+      "summary": "正文列出柯尔莫哥洛夫的非负性、全概率为一和互斥事件可加性三条公理，并讨论公理化概率论。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/2030761274259325748",
+      "summary": "正文围绕希尔伯特公理化计划陈述哥德尔第一不完备定理及其对形式公理系统的限制。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/2030778592242709504",
+      "summary": "正文以希尔伯特计划及哥德尔结果说明公理系统、完备性和可判定性的关系。"
+    },
+    {
+      "title": "为什么矩形面积等于长乘宽？",
+      "url": "https://www.zhihu.com/answer/2032448833255371570",
+      "summary": "正文说明单位正方形面积、全等图形等面积以及有限可加性三条公理如何定义面积。"
+    },
+    {
+      "title": "有名的悖论有哪些？",
+      "url": "https://www.zhihu.com/answer/2033081793897870805",
+      "summary": "正文介绍无限制概括公理，并说明以 ZFC 的分离公理和正则公理替代它来修复集合论。"
+    },
+    {
+      "title": "数学学到什么程度可以进行下一部分的学习了？",
+      "url": "https://www.zhihu.com/answer/2033689777535502325",
+      "summary": "正文把大学数学的关键转变解释为从公理出发构造证明，而不再只依赖计算结果。"
+    },
+    {
+      "title": "为什么数学上一些显而易见的事情数学家们也要编个定理出来？",
+      "url": "https://www.zhihu.com/answer/2033855282342777103",
+      "summary": "正文以第五公设为例说明检查隐藏公理和假设能够产生新的数学理论。"
+    },
+    {
+      "title": "有一个整数，它比5201313要大，但比5201315要小，这个数字是多少？",
+      "url": "https://www.zhihu.com/answer/2035082195619014291",
+      "summary": "正文列出一组不含归纳法的公理，并检验所构造结构满足这些公理。"
+    },
+    {
+      "title": "如果让你重新开始学数学，你的学习路线会怎么选择?",
+      "url": "https://www.zhihu.com/answer/2035711684745090367",
+      "summary": "正文说明公理是选择的出发点，并用平行公理与非欧几何说明公理地位。"
+    },
+    {
+      "title": "你见过最优雅的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/2038540852784538904",
+      "summary": "正文讨论希尔伯特纲领、形式系统的相容与完备，以及连续统假设相对 ZFC 公理的独立性。"
+    },
+    {
+      "title": "所以是不是目前的数学基本都建立在Con（ZFC）的信仰上？",
+      "url": "https://www.zhihu.com/answer/2039170909186041364",
+      "summary": "正文比较ZFC、PA及更强公理系统的相对一致性，说明公理系统的强度和证明能力。"
+    },
+    {
+      "title": "陶哲轩联合 SAIR 发起全球「数学蒸馏挑战」，已有超千人参赛，该比赛对于数学研究有哪些意义？",
+      "url": "https://www.zhihu.com/answer/2041494267965723995",
+      "summary": "正文以无公理的 magma 为模型，讨论一组代数公理能否蕴含另一组公理，并围绕反例与形式化证明构造判定系统。"
+    },
+    {
+      "title": "为什么你会喜欢数学？",
+      "url": "https://www.zhihu.com/answer/2041977525983769047",
+      "summary": "正文以欧几里得几何和群论为例，说明公理如何组织领域并由逻辑推出其余结论。"
+    },
+    {
+      "title": "数学的本质究竟是什么？",
+      "url": "https://www.zhihu.com/answer/2046022339025020736",
+      "summary": "正文以群的四条规则说明公理化是不直接定义结构对象，而是规定其必须满足的规则。"
+    },
+    {
+      "title": "随机选取两个整数相除，结果为无理数的概率有多大？",
+      "url": "https://www.zhihu.com/answer/2049500260620317631",
+      "summary": "正文依据选择公理、紧致性定理和 Löwenheim-Skolem 定理讨论 ZFC 的非标准模型。"
+    },
+    {
+      "title": "为什么数学上一些显而易见的事情数学家们也要编个定理出来？",
+      "url": "https://www.zhihu.com/answer/2049821152076472598",
+      "summary": "正文以欧几里得平行公设及公理化运动说明数学命题为何需要明确公理基础。"
+    },
+    {
+      "title": "概率（Probability）的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2051224003885393649",
+      "summary": "正文解释公理化从原始概念和规则推出整套理论的思维方式，并用欧氏几何与希尔伯特的观点说明。"
+    },
+    {
+      "title": "数学是否先于人类存在？",
+      "url": "https://www.zhihu.com/answer/2056163112441624503",
+      "summary": "正文讨论公理系统可在矛盾出现后被修订，并区分规则选择与系统内推理。"
+    },
+    {
+      "title": "数学是否先于人类存在？",
+      "url": "https://www.zhihu.com/answer/2056725614577578082",
+      "summary": "正文说明数学结论依赖特定公理体系，并用皮亚诺公理与不同的加法定义展示公理前提的作用。"
+    },
+    {
+      "title": "怎么评价希尔伯特在1900年提出的23个问题？",
+      "url": "https://www.zhihu.com/answer/2063650270924497206",
+      "summary": "正文以佩亚诺算术不能自证相容和连续统假设独立于集合论公理为例，说明公理系统的相容性与独立性。"
+    },
+    {
+      "title": "我们在lean4重建了一座数学大厦并形式化了广义黎曼假设，请问大家能否找出逻辑漏洞，进而推翻它吗？",
+      "url": "https://www.zhihu.com/answer/2065491231262692300",
+      "summary": "正文具体说明未构造的存在性公理可能造成不一致，并解释不一致公理为何能让任意命题被证明。"
+    },
+    {
+      "title": "数学悖论的根本原因已找到！最新研究证明经典自然数集、实数集不是已完成集合，如何评价这个重大数学事件？",
+      "url": "https://www.zhihu.com/answer/2074480783939716282",
+      "summary": "正文指出原论证把“完成的无穷总体必须可枚举”直接规定为前提，并据此讨论该公理假设是否成立。"
+    },
+    {
+      "title": "如何看待有说法认为：AI 可以证明一些数学猜想，但AI永远成不了开创性数学宗师？",
+      "url": "https://www.zhihu.com/answer/2075279366033088961",
+      "summary": "正文具体介绍 ZFC 下的独立性现象、连续统问题以及寻找新公理和终极内模型的方向。"
+    },
+    {
+      "title": "由罗素悖论说开去",
+      "url": "https://zhuanlan.zhihu.com/p/19844960",
+      "summary": "正文以 ZF 和 ZFC 公理系统作为集合论的基础，列举公理并用分离公理模式完成证明。"
+    },
+    {
+      "title": "为什么没有所有集合的集合",
+      "url": "https://zhuanlan.zhihu.com/p/19917045",
+      "summary": "正文明确陈述分类公理，并以它作为构造反例集合和否定全集的公理依据。"
+    },
+    {
+      "title": "1.1 巴拿赫-塔斯基悖论【Banach–Tarski paradox】（1）—— 不同的无穷",
+      "url": "https://zhuanlan.zhihu.com/p/20264980",
+      "summary": "正文说明基数和自然数的构造依赖策梅洛-弗兰克尔集合论公理，并给出由空集逐层构造自然数的思路。"
+    },
+    {
+      "title": "我帮你读：「哥德尔、艾舍尔、巴赫——集异璧之大成」",
+      "url": "https://zhuanlan.zhihu.com/p/20596999",
+      "summary": "正文说明 TNT 数论系统由皮亚诺自然数公设和命题逻辑构造，并以其公理推理演示哥德尔论证。"
+    },
+    {
+      "title": "袁岚峰：为什么中国人数学这么牛，却几乎没有中国人发现的数学定理？",
+      "url": "https://zhuanlan.zhihu.com/p/21588522",
+      "summary": "正文通过比较《几何原本》和《九章算术》，具体说明欧几里得公理体系与演绎证明方法对数学发展的基础作用。"
+    },
+    {
+      "title": "点集拓扑学复习阶段性总结",
+      "url": "https://zhuanlan.zhihu.com/p/22296366",
+      "summary": "正文把极大原理、Zorn 引理、良序定理与选择公理串成等价推导链，并讨论超限归纳。"
+    },
+    {
+      "title": "谈谈数学里的构造主义（constructivism）、直觉主义（intuitionism）和数学基础",
+      "url": "https://zhuanlan.zhihu.com/p/22389755",
+      "summary": "正文讨论排中律、选择公理和外延性公理在直觉主义数学中的作用与后果。"
+    },
+    {
+      "title": "数学哲学 简介(上)",
+      "url": "https://zhuanlan.zhihu.com/p/24496384",
+      "summary": "正文讨论选择公理与ZF的独立性、排中律以及不同公理立场对数学实践的影响。"
+    },
+    {
+      "title": "清一清哥德尔不完备定理的误解",
+      "url": "https://zhuanlan.zhihu.com/p/25148723",
+      "summary": "正文澄清哥德尔不完备定理关于公理系统、一致性、完备性及其适用范围的含义。"
+    },
+    {
+      "title": "赫拉克勒斯、九头蛇、算数公理以及其它",
+      "url": "https://zhuanlan.zhihu.com/p/25335967",
+      "summary": "正文说明皮亚诺算术不足以证明 Goodstein 定理和九头蛇定理，涉及公理系统的证明能力边界。"
+    },
+    {
+      "title": "【认真想】《数理逻辑》——可能是最好读的数理逻辑教材",
+      "url": "https://zhuanlan.zhihu.com/p/26445022",
+      "summary": "正文在讲解逻辑系统时说明公理、推理规则和定理三者的作用。"
+    },
+    {
+      "title": "他写下了霍金口中的人类最高成就，粉碎了上千年的数学信念，还成为了爱因斯坦最好的基友",
+      "url": "https://zhuanlan.zhihu.com/p/26703073",
+      "summary": "正文解释哥德尔不完备定理：包含初等算术的无矛盾公理体系必存在不可判定命题。"
+    },
+    {
+      "title": "集合的基本概念及公理化集合论",
+      "url": "https://zhuanlan.zhihu.com/p/27464723",
+      "summary": "正文说明罗素悖论后逐条解释 ZFC 中的外延、分离、并集、替换、幂集和选择公理。"
+    },
+    {
+      "title": "中学篇 No. 50：直觉派的大佬",
+      "url": "https://zhuanlan.zhihu.com/p/28061120",
+      "summary": "正文讨论算术与集合论的公理化进程，以及庞加莱和直觉主义者在公理与证明合法性上的反对意见。"
+    },
+    {
+      "title": "再谈哥德尔不完备定理",
+      "url": "https://zhuanlan.zhihu.com/p/28112037",
+      "summary": "正文解释形式系统如何由公理和推理规则推出定理，并讨论一致性与完备性。"
+    },
+    {
+      "title": "为什么1+1=2？",
+      "url": "https://zhuanlan.zhihu.com/p/28422923",
+      "summary": "正文逐条介绍定义自然数的五条皮亚诺公理及其排除循环和跳跃后继的作用。"
+    },
+    {
+      "title": "1+1=2的再阐释",
+      "url": "https://zhuanlan.zhihu.com/p/28447020",
+      "summary": "正文以皮亚诺算术公理及其后继规则作为1+1=2的解释框架。"
+    },
+    {
+      "title": "13、只缘身在此山中",
+      "url": "https://zhuanlan.zhihu.com/p/28537185",
+      "summary": "正文解释无限制概括公理如何产生罗素悖论，以及ZFC如何通过限制公理排除自含集合。"
+    },
+    {
+      "title": "哥德尔、埃舍尔、巴赫",
+      "url": "https://zhuanlan.zhihu.com/p/30313428",
+      "summary": "正文借希尔伯特计划讨论公理、形式化和规则推导在数学基础中的作用。"
+    },
+    {
+      "title": "哥德尔证明：智力的交响乐",
+      "url": "https://zhuanlan.zhihu.com/p/30449480",
+      "summary": "正文从命题逻辑的公式出发，加入量词、函数和算术公理，构造形式化的一阶谓词逻辑系统。"
+    },
+    {
+      "title": "二阶有限单群",
+      "url": "https://zhuanlan.zhihu.com/p/31072748",
+      "summary": "正文明确陈述任意非空集族存在选择函数的选择公理，并说明其集合论地位。"
+    },
+    {
+      "title": "抽象代数|笔记整理（8）——序，代数几何引入，模",
+      "url": "https://zhuanlan.zhihu.com/p/31909442",
+      "summary": "正文在偏序与极大元铺垫后陈述左恩引理，并明确指出其作为公理被接受。"
+    },
+    {
+      "title": "拓扑学|笔记整理（2）——数域系统，笛卡尔积，有限集",
+      "url": "https://zhuanlan.zhihu.com/p/33249330",
+      "summary": "正文明确以八条实数公理建立代数与次序结构，并说明线性连续统的公理化来源。"
+    },
+    {
+      "title": "拓扑学|笔记整理（3）——无限集，可列集，选择公理，良序集",
+      "url": "https://zhuanlan.zhihu.com/p/33311995",
+      "summary": "正文给出选择公理的定义和选择函数引理，并说明选择公理如何补足无限集构造单射时的选取步骤。"
+    },
+    {
+      "title": "对概率论学习的一点感悟",
+      "url": "https://zhuanlan.zhihu.com/p/33690385",
+      "summary": "正文介绍 Kolmogorov 的概率论公理化结构，强调公理只规定概率应满足的基本性质。"
+    },
+    {
+      "title": "HoTT学习笔记1：类型论基础",
+      "url": "https://zhuanlan.zhihu.com/p/33483631",
+      "summary": "正文比较类型论与 ZFC 集合论的基础，解释类型论以形成、构造、消除和计算规则代替传统公理。"
+    },
+    {
+      "title": "理发师悖论真正的矛盾是什么",
+      "url": "https://zhuanlan.zhihu.com/p/34440794",
+      "summary": "正文说明罗素悖论如何促使公理化集合论建立，并解释 ZF 公理系统通过限制集合构成消解悖论。"
+    },
+    {
+      "title": "数学分析笔记整理（一）",
+      "url": "https://zhuanlan.zhihu.com/p/36244377",
+      "summary": "正文明确讨论确界原理可作为公理，并说明其与另外五条实数完备性定理等价。"
+    },
+    {
+      "title": "重新认识《几何原本》——致那些年我们白学的几何（上）",
+      "url": "https://zhuanlan.zhihu.com/p/36892538",
+      "summary": "正文介绍欧几里得几何以五条公设为出发点，并通过严密逻辑推演全部几何命题。"
+    },
+    {
+      "title": "重新认识《几何原本》——致那些年我们白学的几何（下）",
+      "url": "https://zhuanlan.zhihu.com/p/36892665",
+      "summary": "正文强调欧几里得从少量基本公理出发，通过逻辑演绎把零散几何定理组织成公理化体系。"
+    },
+    {
+      "title": "还记得被证明题支配的恐怖吗？",
+      "url": "https://zhuanlan.zhihu.com/p/37766212",
+      "summary": "正文解释数学证明何以从公理出发进行演绎，并以欧几里得《几何原本》说明公理体系。"
+    },
+    {
+      "title": "选择公理与Zorn引理",
+      "url": "https://zhuanlan.zhihu.com/p/38029151",
+      "summary": "正文把选择公理作为集合论公理陈述，并结合罗素悖论、ZF/ZFC 系统讨论其地位与独立性。"
+    },
+    {
+      "title": "如何证明迭代式策略评价、值迭代和策略迭代的收敛性？",
+      "url": "https://zhuanlan.zhihu.com/p/39279611",
+      "summary": "正文正式列出度量空间中非负性、对称性和三角不等式三条距离公理。"
+    },
+    {
+      "title": "数学分析笔记（二）——实数理论",
+      "url": "https://zhuanlan.zhihu.com/p/38393931",
+      "summary": "正文逐条给出实数加法、乘法、序和完备公理，并用公理体系刻画实数模型。"
+    },
+    {
+      "title": "数学是不是科学？",
+      "url": "https://zhuanlan.zhihu.com/p/41293732",
+      "summary": "正文列出欧几里得公理，并讨论公理如何获得、为何不可证明以及公理改变后的数学体系。"
+    },
+    {
+      "title": "从几何二字说起｜混乱博物馆",
+      "url": "https://zhuanlan.zhihu.com/p/41769663",
+      "summary": "正文追溯几何学从测量技术到欧几里得五大公理体系的形成，并强调公理加逻辑演绎的方法。"
+    },
+    {
+      "title": "选择公理的初步理解",
+      "url": "https://zhuanlan.zhihu.com/p/46036804",
+      "summary": "正文明确陈述选择公理，并通过鞋袜比喻、可数并集及不可测集构造说明其作用和必要性。"
+    },
+    {
+      "title": "8、数学的三个纲领：逻辑、形式语言、以及直觉",
+      "url": "https://zhuanlan.zhihu.com/p/46168413",
+      "summary": "正文说明公理作为未定义概念的理论起点，以及 ZFC 对集合用法的约束。"
+    },
+    {
+      "title": "整数上的均匀分布",
+      "url": "https://zhuanlan.zhihu.com/p/46939142",
+      "summary": "正文比较可列可加与有限可加两套概率公理假设，说明改变公理后系统的性质会发生变化。"
+    },
+    {
+      "title": "思维模型No1：第一性原理（加强版）",
+      "url": "https://zhuanlan.zhihu.com/p/48283170",
+      "summary": "正文把第一性原理对应到几何公理，并说明可由这些基础命题推导和证明其他命题。"
+    },
+    {
+      "title": "实数的完备性定理",
+      "url": "https://zhuanlan.zhihu.com/p/48859870",
+      "summary": "把实数完备性作为连续性公理，并陈述与证明一组等价定理构成的公理体系。"
+    },
+    {
+      "title": "谈谈奇妙的巴拿赫-塔斯基分球悖论",
+      "url": "https://zhuanlan.zhihu.com/p/52154376",
+      "summary": "正文说明选择公理在不可数点集划分中的作用，并解释它与分球悖论的关系。"
+    },
+    {
+      "title": "拟阵及应用（一）",
+      "url": "https://zhuanlan.zhihu.com/p/53976000",
+      "summary": "正文列出拟阵的三条公理，并说明可用秩函数性质重新公理化拟阵，讨论公理在定义数学结构中的作用。"
+    },
+    {
+      "title": "公理化集合论简介（一）",
+      "url": "https://zhuanlan.zhihu.com/p/54379924",
+      "summary": "正文列出 ZFC 的外延、分离、配对、并集、幂集等公理并给出形式化表述。"
+    },
+    {
+      "title": "公理化集合论简介（二）",
+      "url": "https://zhuanlan.zhihu.com/p/54669874",
+      "summary": "正文逐条解释ZFC中的外延、分离和配对公理及公式含义，实质介绍公理体系。"
+    },
+    {
+      "title": "范函分析 | 数学系抄书指南（小平邦彦）",
+      "url": "https://zhuanlan.zhihu.com/p/42755283",
+      "summary": "正文比较欧氏几何与现代形式公理体系，讨论公理的选择、自明性和理论推导作用。"
+    },
+    {
+      "title": "高考数学：空间点、线、面的位置关系判定及性质",
+      "url": "https://zhuanlan.zhihu.com/p/59823987",
+      "summary": "正文列出平面的基本公理及其推论，并用它们讨论点、线、面的共面关系。"
+    },
+    {
+      "title": "罗素悖论：这就是为什么数学不能拥有一个“所有事物”的集合",
+      "url": "https://zhuanlan.zhihu.com/p/60177203",
+      "summary": "正文说明现代集合论通过具体公理限制集合的构造，以排除自含集合和罗素悖论，属于公理化方法。"
+    },
+    {
+      "title": "结构主义(1)",
+      "url": "https://zhuanlan.zhihu.com/p/61504456",
+      "summary": "正文比较 ETCS、CCAF 等一阶公理化方案，讨论以公理系统重述数学基础的可能与局限。"
+    },
+    {
+      "title": "什么是演绎推理？",
+      "url": "https://zhuanlan.zhihu.com/p/63965694",
+      "summary": "正文专门解释演绎公理的含义、三段论来源及一般到个别的应用，实质展开公理概念。"
+    },
+    {
+      "title": "结构主义（2）：集合论数学基础与范畴论数学基础的对比",
+      "url": "https://zhuanlan.zhihu.com/p/32565370",
+      "summary": "正文比较ZFC与ETCS的公理系统、解释能力和大基数扩张，分析何种公理能作为数学基础。"
+    },
+    {
+      "title": "行列式的定义究竟是怎么来的？",
+      "url": "https://zhuanlan.zhihu.com/p/76526424",
+      "summary": "正文分别陈述行列式的第一和第二公理化构造，并从公理推出完全展开式。"
+    },
+    {
+      "title": "【转载】数学史的三次数学危机",
+      "url": "https://zhuanlan.zhihu.com/p/76686950",
+      "summary": "正文讲述数学危机如何推动公理化演绎体系和公理集合论的发展。"
+    },
+    {
+      "title": "目前中学数学课本中的一个致命硬伤",
+      "url": "https://zhuanlan.zhihu.com/p/80500905",
+      "summary": "正文以欧几里得公设为依据论证几何知识应从公理系统逻辑推演，而非依赖手工测量。"
+    },
+    {
+      "title": "从“杨辉三角”到“代微积拾级“",
+      "url": "https://zhuanlan.zhihu.com/p/82448871",
+      "summary": "正文比较以 ZFC 后继公理构造自然数与其他集合基数定义的差别。"
+    },
+    {
+      "title": "关系与等价关系（自反性，对称性，传递性）",
+      "url": "https://zhuanlan.zhihu.com/p/82707182",
+      "summary": "正文给出自反性、对称性和传递性的公理化定义并据以划分等价类，对应公理。"
+    },
+    {
+      "title": "七大实数理论与互推",
+      "url": "https://zhuanlan.zhihu.com/p/84625424",
+      "summary": "正文明确把确界原理作为刻画实数完备性的公理来使用，并由它推出其他等价定理。"
+    },
+    {
+      "title": "概率论从入门到放弃（一）——概率空间和随机变量",
+      "url": "https://zhuanlan.zhihu.com/p/38113911",
+      "summary": "正文以Kolmogorov公理体系组织样本空间、事件域和概率测度，并解释公理化概率论。"
+    },
+    {
+      "title": "写给中学生的一点集合论：ZFC公理体系（1）",
+      "url": "https://zhuanlan.zhihu.com/p/90761830",
+      "summary": "正文介绍 ZFC 公理体系及外延、分离公理，说明如何公理化集合的生成方式。"
+    },
+    {
+      "title": "力迫法到底难在哪里?",
+      "url": "https://zhuanlan.zhihu.com/p/93294818",
+      "summary": "正文具体讨论 ZFC 公理系统、元理论与可数传递模型，说明公理化集合论的一致性论证。"
+    },
+    {
+      "title": "哥德尔（第一）不完备定理的一个简短证明",
+      "url": "https://zhuanlan.zhihu.com/p/102607973",
+      "summary": "正文从公理系统的可证性、可计算函数和哥德尔编码出发，给出第一不完备定理的简短证明。"
+    },
+    {
+      "title": "历史研究不是为了自欺欺人：丘成桐对中国数学的批评和期望 | 袁岚峰",
+      "url": "https://zhuanlan.zhihu.com/p/102931757",
+      "summary": "正文通过比较古希腊公理体系和中国古代实用算法，具体说明公理与逻辑证明为何构成系统化数学的基础。"
+    },
+    {
+      "title": "怎样从《几何原本》到《独立宣言》？",
+      "url": "https://zhuanlan.zhihu.com/p/106046567",
+      "summary": "正文列出《几何原本》的五条公理，并说明如何以公理为逻辑起点通过演绎得到数百条定理。"
+    },
+    {
+      "title": "哥德尔不完备定理的实例——古德斯坦定理与集合的序数",
+      "url": "https://zhuanlan.zhihu.com/p/106647826",
+      "summary": "正文列出皮亚诺公理，并据此讨论古德斯坦定理能否在该公理体系内被证明或证伪。"
+    },
+    {
+      "title": "数学发展的4个阶段：萌芽、初等、高等、现代",
+      "url": "https://zhuanlan.zhihu.com/p/112050038",
+      "summary": "正文以《几何原本》和希尔伯特《几何基础》说明公理化方法，并概述集合论、代数、拓扑与概率的公理化。"
+    },
+    {
+      "title": "数学史上的三次危机",
+      "url": "https://zhuanlan.zhihu.com/p/106452977",
+      "summary": "正文介绍以限制集合定义和公理化来排除悖论，并提及 ZF 与 NBG 公理系统。"
+    },
+    {
+      "title": "宗教争斗中的无穷小",
+      "url": "https://zhuanlan.zhihu.com/p/120893218",
+      "summary": "正文列出欧几里得《几何原本》的五条公理，并说明由公理出发经逻辑演绎得到大量定理。"
+    },
+    {
+      "title": "数学史浅述——用最粗浅的介绍帮你捋一遍数学的发展",
+      "url": "https://zhuanlan.zhihu.com/p/139716871",
+      "summary": "正文借非欧几何说明给定公理可独立推演自洽体系，从而认识公理系统的意义。"
+    },
+    {
+      "title": "数学家的纸上计算机 -- 图灵机简介",
+      "url": "https://zhuanlan.zhihu.com/p/143834012",
+      "summary": "正文把 ZFC 与皮亚诺算术公理作为形式化证明和数学推理的基础。"
+    },
+    {
+      "title": "会做数学证明的“忙碌海狸”，以及比TREE(3)还大的“不可计算数”",
+      "url": "https://zhuanlan.zhihu.com/p/145975481",
+      "summary": "正文解释 ZFC 公理系统及其一致性的含义，并联系哥德尔不完备定理讨论停机程序。"
+    },
+    {
+      "title": "Gödel完备性定理 —— 一阶谓词逻辑演绎系统 Part I",
+      "url": "https://zhuanlan.zhihu.com/p/193536140",
+      "summary": "正文系统列出一阶谓词逻辑演绎系统的七条公理和两条推理规则，并展示从公理到结论的形式证明。"
+    },
+    {
+      "title": "Gödel完备性定理 —— 一阶谓词逻辑演绎系统 Part II",
+      "url": "https://zhuanlan.zhihu.com/p/197484627",
+      "summary": "正文重述一阶谓词演绎系统的七条公理，并以公理和推理规则证明完备性定理。"
+    },
+    {
+      "title": "什么是实数？如何从无到有构造出实数？",
+      "url": "https://zhuanlan.zhihu.com/p/214266663",
+      "summary": "正文完整列出实数加法、乘法、序和完备性公理，并以公理系统刻画实数集。"
+    },
+    {
+      "title": "实分析学习笔记(0)",
+      "url": "https://zhuanlan.zhihu.com/p/260838198",
+      "summary": "正文以选择公理和实数域公理为起点构建后续分析理论。"
+    },
+    {
+      "title": "皮亚诺公理：怎么证明1+1=2？",
+      "url": "https://zhuanlan.zhihu.com/p/268017811",
+      "summary": "正文逐条解释皮亚诺五条公理各自排除的不合法结构，说明公理系统如何刻画自然数。"
+    },
+    {
+      "title": "为什么2≠5？",
+      "url": "https://zhuanlan.zhihu.com/p/274386160",
+      "summary": "正文详细介绍皮亚诺公理如何定义自然数，并逐条用公理证明自然数不等关系。"
+    },
+    {
+      "title": "简单易懂的非标准分析（前言）",
+      "url": "https://zhuanlan.zhihu.com/p/322794182",
+      "summary": "正文通过向一阶自然数理论添加新常量和无穷条大小公理，并借助紧致性定理构造非标准模型。"
+    },
+    {
+      "title": "什么是力迫法（forcing）？",
+      "url": "https://zhuanlan.zhihu.com/p/339882246",
+      "summary": "正文以 ZFC 公理系统为出发点，解释定理、模型及连续统假设在公理系统中的不可判定性。"
+    },
+    {
+      "title": "公理集合论基础（上）：空集和罗素悖论",
+      "url": "https://zhuanlan.zhihu.com/p/346371552",
+      "summary": "正文系统介绍存在公理、外延公理和分离公理模式，并用它们约束集合的构造。"
+    },
+    {
+      "title": "《几何原本》究竟是希腊数学，还是埃及数学？",
+      "url": "https://zhuanlan.zhihu.com/p/346791320",
+      "summary": "正文比较亚里士多德与欧几里得的公理体系，说明定义、公设和公理如何通过逻辑证明组织数学知识。"
+    },
+    {
+      "title": "inversioner版高中数学课本(2)——第一章：古典立体几何学",
+      "url": "https://zhuanlan.zhihu.com/p/350195541",
+      "summary": "正文从点、直线和平面的基本关系及立体几何公理出发，系统讲授欧几里得公理体系。"
+    },
+    {
+      "title": "漫长却有限的游戏——古德斯坦序列",
+      "url": "https://zhuanlan.zhihu.com/p/353087818",
+      "summary": "正文列出皮亚诺公理，并说明古德斯坦定理的有限性需要超限归纳而无法仅由皮亚诺算术证明。"
+    },
+    {
+      "title": "范畴论基础(1)：什么是范畴",
+      "url": "https://zhuanlan.zhihu.com/p/364284965",
+      "summary": "正文为范畴的严谨基础介绍 ZF、GB 等公理系统，并说明正则公理如何排除朴素集合论悖论。"
+    },
+    {
+      "title": "数学分析(一)复习之六大实数系基本定理",
+      "url": "https://zhuanlan.zhihu.com/p/371518428",
+      "summary": "正文把闭区间套定理解释为实数存在性的基本公理，并借其推导确界原理等结论。"
+    },
+    {
+      "title": "De Aequatione Cauchii 有关柯西方程的碎碎念",
+      "url": "https://zhuanlan.zhihu.com/p/387296915",
+      "summary": "正文讨论选择公理在向量空间基存在性及非连续解构造中的作用，并比较其在 ZF 模型中的情形。"
+    },
+    {
+      "title": "学数学到底有什么用？作为一个普通人，也要学数学吗？",
+      "url": "https://zhuanlan.zhihu.com/p/409164483",
+      "summary": "正文列出欧氏几何五条公理，并对比罗巴切夫斯基几何，说明公理选择如何决定可推出的定理体系。"
+    },
+    {
+      "title": "范畴逻辑 I——逻辑与数学结构的对应",
+      "url": "https://zhuanlan.zhihu.com/p/426945839",
+      "summary": "正文从公理系统和模型语义出发讨论数学基础，并比较不同公理表述所确定的等价逻辑系统。"
+    },
+    {
+      "title": "实数上的良序是一个病态集合",
+      "url": "https://zhuanlan.zhihu.com/p/437119954",
+      "summary": "正文围绕选择公理的非构造性及其对实数良序存在性的影响展开讨论。"
+    },
+    {
+      "title": "数学分析笔记一",
+      "url": "https://zhuanlan.zhihu.com/p/437385897",
+      "summary": "正文具体引入并逐条列出 ZFC 集合公理，说明公理化是严格定义集合的基础。"
+    },
+    {
+      "title": "inversioner版高中数学课本(3)——第一章：不等式",
+      "url": "https://zhuanlan.zhihu.com/p/461005107",
+      "summary": "正文从正数概念和两条序公理出发，推导实数不等式的基本性质。"
+    },
+    {
+      "title": "任意给出两个正实数 a 、 b，必存在正整数 n，使 na>b 实数的阿基米德性怎么证?",
+      "url": "https://zhuanlan.zhihu.com/p/466977705",
+      "summary": "正文把阿基米德性作为描述实数大小关系的公理来讨论，并说明其与其他完备性结论的关系。"
+    },
+    {
+      "title": "点集拓扑（2）：ZF公理系统",
+      "url": "https://zhuanlan.zhihu.com/p/475500582",
+      "summary": "正文逐条陈述 ZF 公理，并用形式语言解释空集、外延、内涵、幂集和替换等公理。"
+    },
+    {
+      "title": "什么是自然数——皮亚诺公理的理解",
+      "url": "https://zhuanlan.zhihu.com/p/519381654",
+      "summary": "正文从自然数序列的端点、后继唯一性和归纳限制逐步引出皮亚诺公理，并解释各条公理的含义。"
+    },
+    {
+      "title": "拓扑学入门1——拓扑空间",
+      "url": "https://zhuanlan.zhihu.com/p/541555560",
+      "summary": "正文以空集、交集和并集三条开集公理刻画拓扑，并对照距离空间公理。"
+    },
+    {
+      "title": "拓扑学入门3——基",
+      "url": "https://zhuanlan.zhihu.com/p/543144422",
+      "summary": "正文逐条检验开集公理 O1 至 O3，并说明满足较弱条件 SB 的集族如何通过子基生成拓扑。"
+    },
+    {
+      "title": "第一原理2.0：迄今为止，对我影响最大的一个思维方式",
+      "url": "https://zhuanlan.zhihu.com/p/550865883",
+      "summary": "正文列举欧几里得五大公理和五大公设，并说明它们作为不证自明的起点如何推出几何学体系。"
+    },
+    {
+      "title": "三只小猪学集合论",
+      "url": "https://zhuanlan.zhihu.com/p/573604998",
+      "summary": "正文解释朴素概括公理为何失效，并列出 ZF、NF 等对公理的不同修正。"
+    },
+    {
+      "title": "拓扑是如何刻画连续性的？",
+      "url": "https://zhuanlan.zhihu.com/p/605929016",
+      "summary": "正文解释了从邻域直观提炼拓扑公理的过程，以及有限交和任意并等条件的动机。"
+    },
+    {
+      "title": "一个让人惊奇的数学公理——选择公理，极大地违反了人类的直觉",
+      "url": "https://zhuanlan.zhihu.com/p/612171584",
+      "summary": "正文解释选择公理及其选择函数形式，并讨论其与良序原理、佐恩引理和可测集的关系。"
+    },
+    {
+      "title": "为什么中国奥数获奖最多，菲尔兹奖却一个都没有？",
+      "url": "https://zhuanlan.zhihu.com/p/623751275",
+      "summary": "正文以任意线段可公度被误作公理为例，讨论公理和公设的严谨性要求。"
+    },
+    {
+      "title": "一个让人惊奇的数学公理——选择公理，极大地违反了人类的直觉",
+      "url": "https://zhuanlan.zhihu.com/p/626372100",
+      "summary": "正文解释选择公理的选择函数表述、非构造性、良序原理与佐恩引理等价形式，并讨论其反直觉后果。"
+    },
+    {
+      "title": "良序集与选择公理",
+      "url": "https://zhuanlan.zhihu.com/p/633029774",
+      "summary": "正文引入 ZF 框架下的选择公理，并证明其与良序定理等价。"
+    },
+    {
+      "title": "选择公理的若干应用",
+      "url": "https://zhuanlan.zhihu.com/p/637068404",
+      "summary": "正文围绕选择公理及其与 Zorn 引理、Tukey 引理的等价关系展开应用。"
+    },
+    {
+      "title": "TCS笔记1：数学，算法，和图灵机",
+      "url": "https://zhuanlan.zhihu.com/p/643661983",
+      "summary": "正文从欧氏几何五条公理说明数学定理如何由公理和逻辑推出。"
+    },
+    {
+      "title": "从度量空间到拓扑空间:极限与连续概念的推广",
+      "url": "https://zhuanlan.zhihu.com/p/649646306",
+      "summary": "正文以正定性、对称性和三角形不等式等公理定义距离函数及度量空间，展示了用公理提炼结构的做法。"
+    },
+    {
+      "title": "数学的本质(1)----数学哲学的基本问题",
+      "url": "https://zhuanlan.zhihu.com/p/653589460",
+      "summary": "正文借形式主义说明公理被视作任意假设时导致的数学真理性问题。"
+    },
+    {
+      "title": "Galois理论：为什么五次方程没有根式解",
+      "url": "https://zhuanlan.zhihu.com/p/667865281",
+      "summary": "正文显式列出群的四条公理，并从这些公理出发证明群结构的基本性质。"
+    },
+    {
+      "title": "选择公理，良序定理，Zorn引理",
+      "url": "https://zhuanlan.zhihu.com/p/670990411",
+      "summary": "正文围绕选择公理、良序定理与 Zorn 引理的等价关系展开讨论。"
+    },
+    {
+      "title": "【数哲论文翻译】Penelope Maddy论数学的进展",
+      "url": "https://zhuanlan.zhihu.com/p/673258473",
+      "summary": "正文围绕 ZFC、构造性公理 V=L、可测基数与大基数公理讨论公理选择及其一致性。"
+    },
+    {
+      "title": "巴拿赫 - 塔斯基分球“悖论”的证明",
+      "url": "https://zhuanlan.zhihu.com/p/675480111",
+      "summary": "正文明确陈述选择公理及其等价形式，并展示不可测集与分球定理对它的依赖。"
+    },
+    {
+      "title": "几何简史——带你回顾让你又爱又恨的几何",
+      "url": "https://zhuanlan.zhihu.com/p/676914784",
+      "summary": "正文说明欧几里得以少数基本公理组织几何知识，并由此推出后续命题的历史作用。"
+    },
+    {
+      "title": "类型论（type theory）学习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/679483353",
+      "summary": "正文逐条列出 ZFC 的选择、幂集、替换等公理，并说明它们如何作为集合论证明的基础。"
+    },
+    {
+      "title": "为何会有高等概率论？  —— 从初等概率论到高等概率论",
+      "url": "https://zhuanlan.zhihu.com/p/681190554",
+      "summary": "正文以公理化方式定义事件、σ代数和概率，并说明其他性质可由这些基本公理推出。"
+    },
+    {
+      "title": "五种数学思维",
+      "url": "https://zhuanlan.zhihu.com/p/700736722",
+      "summary": "正文列出欧氏几何五条公理并说明其他命题如何由公理演绎得到。"
+    },
+    {
+      "title": "人生苦短，何不数学",
+      "url": "https://zhuanlan.zhihu.com/p/701670024",
+      "summary": "正文说明数学归纳法在皮亚诺公理体系中作为归纳公理的地位。"
+    },
+    {
+      "title": "民科梦寐以求的证明：真正可数的实数模型的构筑法",
+      "url": "https://zhuanlan.zhihu.com/p/692009857",
+      "summary": "正文围绕不同实数公理与模型的一致性展开，说明某条不可数命题相对公理系统的独立性。"
+    },
+    {
+      "title": "测度论简介：通往异世界的大门",
+      "url": "https://zhuanlan.zhihu.com/p/716229278",
+      "summary": "正文讨论选择公理、不可测集和数学严密性，说明公理选择对理论结论的影响。"
+    },
+    {
+      "title": "从ω到不可达基数再到宇宙V",
+      "url": "https://zhuanlan.zhihu.com/p/741124995",
+      "summary": "正文使用选择公理、ZFC 与大基数嵌入公理 I3 和 I0 等说明不同基数公理的层级。"
+    },
+    {
+      "title": "数学界常见名词介绍（只介绍纯数学）",
+      "url": "https://zhuanlan.zhihu.com/p/826323323",
+      "summary": "正文说明了选择公理的含义、它与佐恩引理的关系，以及在ZFC体系和独立性命题中的作用。"
+    },
+    {
+      "title": "从集合论到类型论",
+      "url": "https://zhuanlan.zhihu.com/p/5431819788",
+      "summary": "正文明确陈述泛等公理并以自然数的不同定义说明同构结构在类型论中可被视为相等。"
+    },
+    {
+      "title": "离谱！增长最快的数列，最终归零，这不是猜测，是严格证明的结论",
+      "url": "https://zhuanlan.zhihu.com/p/25625845594",
+      "summary": "正文讨论皮亚诺算术的能力边界、良序性及二阶算术，解释 Goodstein 定理对公理系统的依赖。"
+    },
+    {
+      "title": "我一生中影响最大的书—《哥德尔、埃舍尔、巴赫》，读完深受震撼",
+      "url": "https://zhuanlan.zhihu.com/p/32263638452",
+      "summary": "正文以希尔伯特公理计划和哥德尔不完全性定理解释形式公理系统的边界。"
+    },
+    {
+      "title": "豪斯多夫、尼采与集合论",
+      "url": "https://zhuanlan.zhihu.com/p/32265010172",
+      "summary": "正文明确讨论弱化版证明可在ZF中完成，以及选择公理在集合论证明中的作用。"
+    },
+    {
+      "title": "发现数学最大奥秘的数学家——哥德尔，冯诺依曼为他的理论下跪",
+      "url": "https://zhuanlan.zhihu.com/p/1891713998723986319",
+      "summary": "正文借希尔伯特公理计划解释哥德尔不完备性定理，说明足够强形式公理系统的表达边界。"
+    },
+    {
+      "title": "高中阶段“数理逻辑”知识实在是过于欠缺！",
+      "url": "https://zhuanlan.zhihu.com/p/1892971534764729789",
+      "summary": "正文专门解释公理是无需证明的命题起点，并列举平面几何、立体几何和三角函数的公理化构造。"
+    },
+    {
+      "title": "数学史上最炸裂的命题之一：连续统假设，挑战整个数学体系的根基",
+      "url": "https://zhuanlan.zhihu.com/p/1899667058691647091",
+      "summary": "正文通过 ZFC 模型、强迫法与独立性解释公理体系不能判定连续统假设。"
+    },
+    {
+      "title": "实数完备性八大定理的56条互证",
+      "url": "https://zhuanlan.zhihu.com/p/1921765239738856903",
+      "summary": "正文明确列出域公理、序公理和完备性公理，并由这些公理推出实数四则运算和序性质。"
+    },
+    {
+      "title": "集合论描述的故事",
+      "url": "https://zhuanlan.zhihu.com/p/1954886302802634308",
+      "summary": "正文依次介绍 ZFC 的公理、公理体系、模型以及公理的独立性。"
+    },
+    {
+      "title": "前所未见，数学家发现新“数学对象”，再次将数学推向无尽深渊",
+      "url": "https://zhuanlan.zhihu.com/p/1959055948246124153",
+      "summary": "正文讨论 ZFC、大基数公理、不完备性及不同公理假设对集合论模型的影响。"
+    },
+    {
+      "title": "清华姚班大神陈立杰，联手00后逆向破局！颠覆50年计算机难题",
+      "url": "https://zhuanlan.zhihu.com/p/1979182505740477541",
+      "summary": "正文解释逆向数学如何以定理替换公理并反向证明，实质讨论了公理在数学论证中的作用。"
+    },
+    {
+      "title": "2025年中文大数社区十大事件",
+      "url": "https://zhuanlan.zhihu.com/p/1988997637857358320",
+      "summary": "正文用皮亚诺公理、ZFC 加强系统及证明论强度说明不同公理系统可证范围的边界。"
+    },
+    {
+      "title": "微积分最大的“骗局”：为什么无数个小矩形加起来，就真的等于曲边梯形的面积？",
+      "url": "https://zhuanlan.zhihu.com/p/2003582482013000298",
+      "summary": "文章明确把实数连续性作为公理，并解释它是定义积分和保证单调有界数列有极限的前提。"
+    },
+    {
+      "title": "群论是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/2059578479746851551",
+      "summary": "正文先明确群公理，再从公理证明单位元唯一、逆元唯一和消去律，演示了公理化推导。"
+    }
+  ]
+}

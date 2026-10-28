@@ -1,0 +1,3016 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l6-t3-b1",
+  "sources": [
+    {
+      "title": "要洗多少次牌才能把牌彻底洗开？",
+      "url": "https://www.zhihu.com/answer/18518149",
+      "summary": "完整解释洗牌随机过程、逆向模型、混合时间和截断现象。七次是特定52张模型及容差下的说法，不是完全均匀；一般交换链还需注意周期性，不能将所有洗牌均泛化为必需漫长时间。"
+    },
+    {
+      "title": "研究衍生品的时候为什么用几何布朗运动来模拟股票价格的运行轨迹？",
+      "url": "https://www.zhihu.com/answer/19336197",
+      "summary": "正文围绕「研究衍生品的时候为什么用几何布朗运动来模拟股票价格的运行轨迹？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "Black-Scholes 模型中 d1，d2 是怎么得到的？如何理解 Black-Scholes 模型？",
+      "url": "https://www.zhihu.com/answer/21520810",
+      "summary": "正文围绕「Black-Scholes 模型中 d1，d2 是怎么得到的？如何理解 Black-Scholes 模型？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "Black-Scholes 模型中 d1，d2 是怎么得到的？如何理解 Black-Scholes 模型？",
+      "url": "https://www.zhihu.com/answer/21595806",
+      "summary": "正文围绕「Black-Scholes 模型中 d1，d2 是怎么得到的？如何理解 Black-Scholes 模型？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "在北京大马路上撞见自己某一个前男友/前女友的数学概率是多少？",
+      "url": "https://www.zhihu.com/answer/21920946",
+      "summary": "正文围绕「在北京大马路上撞见自己某一个前男友/前女友的数学概率是多少？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "有没有比较好的时间序列或者随机过程（金融）的网课或者教材可以推荐的？",
+      "url": "https://www.zhihu.com/answer/23764698",
+      "summary": "正文围绕“随机过程”给出直接说明。"
+    },
+    {
+      "title": "如何形象描述各态历经的随机过程？",
+      "url": "https://www.zhihu.com/answer/27448785",
+      "summary": "正文围绕“随机过程”给出说明、例证或方法。"
+    },
+    {
+      "title": "随机过程中，怎样较为通俗地理解「停时」这个概念（书上的一般都是公理化的定义，不好理解）？",
+      "url": "https://www.zhihu.com/answer/28538846",
+      "summary": "正文围绕“随机过程”给出说明、例证或方法。"
+    },
+    {
+      "title": "金融专业研究生应如何学习随机过程？",
+      "url": "https://www.zhihu.com/answer/32206010",
+      "summary": "从时间序列随机变量解释随机过程，并介绍泊松与更新过程。"
+    },
+    {
+      "title": "为什么具有遍历性的随机过程一定是平稳的？",
+      "url": "https://www.zhihu.com/answer/33014342",
+      "summary": "用时间平均等于统计平均解释遍历随机过程与平稳性的关系。"
+    },
+    {
+      "title": "数学院的本科生到底要学完多少内容？",
+      "url": "https://www.zhihu.com/answer/33106947",
+      "summary": "建议学习随机过程、时间序列与随机微分方程。"
+    },
+    {
+      "title": "围棋可能发展到三维吗？",
+      "url": "https://www.zhihu.com/answer/38383388",
+      "summary": "正文比较二维与三维网格随机行走的回返性质，并用于分析三维围棋。"
+    },
+    {
+      "title": "请问研究生阶段的随机过程非常难吗 我想上随机的phd ？",
+      "url": "https://www.zhihu.com/answer/42267433",
+      "summary": "正文讨论随机过程研究与测度论基础。"
+    },
+    {
+      "title": "什么是时间序列模型，什么是弱平稳和严格平稳？",
+      "url": "https://www.zhihu.com/answer/43723157",
+      "summary": "正文把时间序列作为随机过程，区分严格平稳和弱平稳。"
+    },
+    {
+      "title": "伊藤引理在金融工程学的地位是怎样的？和布莱克·舒尔斯模型相比较呢？",
+      "url": "https://www.zhihu.com/answer/44839613",
+      "summary": "正文介绍伊藤过程、伊藤积分与布朗运动的随机分析背景。"
+    },
+    {
+      "title": "概率论和实变函数（测度论）有什么联系？",
+      "url": "https://www.zhihu.com/answer/45666000",
+      "summary": "正文列举马氏链、泊松过程、布朗运动等随机过程内容。"
+    },
+    {
+      "title": "比较高深的数学在经济学有哪些运用相当漂亮？",
+      "url": "https://www.zhihu.com/answer/50293788",
+      "summary": "正文将金融数学所需工具明确列为随机数学与随机过程。"
+    },
+    {
+      "title": "精算要求的学习数学的什么内容呢？",
+      "url": "https://www.zhihu.com/answer/54286308",
+      "summary": "正文以 Vasicek 模型和 Wiener 过程说明精算所需随机过程知识。"
+    },
+    {
+      "title": "如何用通俗的语言解释等价鞅测度？还有期权定价时为什么要进行测度变换？",
+      "url": "https://www.zhihu.com/answer/60189281",
+      "summary": "正文解释鞅是一个随机过程及其期望性质。"
+    },
+    {
+      "title": "怎么来理解Γ分布？",
+      "url": "https://www.zhihu.com/answer/60541847",
+      "summary": "正文定义泊松过程为连续时间中的计数过程并给出独立增量。"
+    },
+    {
+      "title": "如何深入理解时间序列分析中的平稳性？",
+      "url": "https://www.zhihu.com/answer/67289142",
+      "summary": "正文定义时间序列平稳性和遍历性。"
+    },
+    {
+      "title": "鞅过程与马尔科夫过程是什么关系？",
+      "url": "https://www.zhihu.com/answer/68959609",
+      "summary": "正文用条件期望解释鞅过程。"
+    },
+    {
+      "title": "如何用直观的例子理解随机过程理论中随机过程的自相关函数和协方差函数的概念含义，它们在信号领域有何应用？",
+      "url": "https://www.zhihu.com/answer/71279520",
+      "summary": "正文解释随机过程由样本函数组成并讨论其统计特性。"
+    },
+    {
+      "title": "鞅过程与马尔科夫过程是什么关系？",
+      "url": "https://www.zhihu.com/answer/72296114",
+      "summary": "正文定义鞅和马尔可夫过程，并以布朗运动说明关系。"
+    },
+    {
+      "title": "数据分析方法论是什么？",
+      "url": "https://www.zhihu.com/answer/77616356",
+      "summary": "正文将时间序列分析明确归为随机过程统计的一部分，并以降雨量序列说明依赖关系和预测。"
+    },
+    {
+      "title": "学习经济要达到怎样的数学水平？",
+      "url": "https://www.zhihu.com/answer/78222420",
+      "summary": "正文具体讨论布朗运动微元、Ito引理、随机微积分及马尔可夫过程等随机过程工具。"
+    },
+    {
+      "title": "什么是狄利克雷分布？狄利克雷过程又是什么？",
+      "url": "https://www.zhihu.com/answer/80931791",
+      "summary": "正文解释伯努利过程是重复独立伯努利试验。"
+    },
+    {
+      "title": "统计套利中的「协整」是什么意思？",
+      "url": "https://www.zhihu.com/answer/87426732",
+      "summary": "正文从 Ornstein-Uhlenbeck 随机过程、平稳性和协方差解释协整。"
+    },
+    {
+      "title": "统计套利中的「协整」是什么意思？",
+      "url": "https://www.zhihu.com/answer/88009416",
+      "summary": "正文从时间序列差分、平稳过程和线性组合解释协整。"
+    },
+    {
+      "title": "怎样理解随机过程中鞅的停时？",
+      "url": "https://www.zhihu.com/answer/90242270",
+      "summary": "全文用随机过程达到某状态的时刻解释停时和停时定理。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/90939197",
+      "summary": "例子以两个随机游走过程为对象讨论伪回归。"
+    },
+    {
+      "title": "作为通信/信号处理方向的过来人，你会给快要毕业的人推荐哪些书？",
+      "url": "https://www.zhihu.com/answer/92565219",
+      "summary": "正文明确把概率和随机过程视为统计信号处理的精髓。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/100003445",
+      "summary": "正文讨论随机游动、赌博过程、更新与分支过程等随机过程问题，并解释维度差异。"
+    },
+    {
+      "title": "如何通俗易懂地介绍 Gaussian Process？",
+      "url": "https://www.zhihu.com/answer/102319379",
+      "summary": "正文从随机变量族、核和相关结构解释高斯过程。"
+    },
+    {
+      "title": "如何理解对一个随机过程的积分?",
+      "url": "https://www.zhihu.com/answer/106055137",
+      "summary": "正文区分随机过程的漂移、扩散和跳跃部分，并解释伊藤积分的随机增量。"
+    },
+    {
+      "title": "什么是时间序列模型，什么是弱平稳和严格平稳？",
+      "url": "https://www.zhihu.com/answer/112180602",
+      "summary": "正文定义时间序列分析及平稳、白噪声序列的检验流程。"
+    },
+    {
+      "title": "鞅到底是什么？能否用通俗的话语来解释一下？",
+      "url": "https://www.zhihu.com/answer/113202955",
+      "summary": "正文把鞅解释为具有固定趋势的随机过程，并讨论上鞅、下鞅和赌博策略。"
+    },
+    {
+      "title": "时间序列建模问题，如何准确的建立时间序列模型？",
+      "url": "https://www.zhihu.com/answer/116155144",
+      "summary": "正文系统介绍 AR、MA、ARIMA 时间序列模型的识别、拟合与残差诊断。"
+    },
+    {
+      "title": "统计学和概率论、数理统计有何异同？为什么不归在数学类？",
+      "url": "https://www.zhihu.com/answer/116252964",
+      "summary": "正文指出现实数据可能表现为随机过程并可用概率论处理。"
+    },
+    {
+      "title": "金融工程还有哪些值得研究的领域或思路？",
+      "url": "https://www.zhihu.com/answer/119789564",
+      "summary": "正文系统讨论随机波动率、随机过程和金融定价模型中的随机性。"
+    },
+    {
+      "title": "正态分布变量的累加和为什么通常都能呈现出明显的趋势性特征，随机漫步理论是否真的有道理？",
+      "url": "https://www.zhihu.com/answer/121134746",
+      "summary": "正文用布朗运动解释正态增量累加后的轨迹性质与视觉趋势。"
+    },
+    {
+      "title": "「讲得好」的数学专业课是什么样的？",
+      "url": "https://www.zhihu.com/answer/122925935",
+      "summary": "正文说明初等随机过程中通过独立耦合证明两条随机过程最终同分布。"
+    },
+    {
+      "title": "「Stochastic」与「Random」有何区别？",
+      "url": "https://www.zhihu.com/answer/124171969",
+      "summary": "正文以天气、抽牌和掷骰对比 stochastic 与 random，实质解释随机过程结果概率可不相等。"
+    },
+    {
+      "title": "如何直观地理解衍生定价中用到的Change of Measure(测度变换)？",
+      "url": "https://www.zhihu.com/answer/124431493",
+      "summary": "正文用布朗运动、随机积分和 Girsanov 定理解释金融随机过程的测度变换。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/124536306",
+      "summary": "正文用泊松过程的无记忆性解释到站前后等待时间。"
+    },
+    {
+      "title": "金融衍生品定价有哪些基本方法？",
+      "url": "https://www.zhihu.com/answer/124841153",
+      "summary": "正文用布朗运动、二次变差、伊藤积分和鞅说明解析分析与概率分析的随机过程基础。"
+    },
+    {
+      "title": "有多少个数学家叫 Kolmogorov ?",
+      "url": "https://www.zhihu.com/answer/125429727",
+      "summary": "正文列举0-1律、不等式、三级数定理和强大数律，并说明其工作启发了随机微分方程。"
+    },
+    {
+      "title": "Kolmogorov（柯尔莫哥洛夫）至少让实用概率论停滞了三四十年，试评价这一观点？",
+      "url": "https://www.zhihu.com/answer/125527745",
+      "summary": "正文说明测度论既提供过程构造的理论理解，也便于表示路径相关量并研究动态性质。"
+    },
+    {
+      "title": "随机分析、随机控制等科目在量化投资、计算金融方向有哪些应用？",
+      "url": "https://www.zhihu.com/answer/126523574",
+      "summary": "正文具体说明随机过程用于最优执行、挂单与金融价格建模。"
+    },
+    {
+      "title": "随机分析、随机控制等科目在量化投资、计算金融方向有哪些应用？",
+      "url": "https://www.zhihu.com/answer/127948559",
+      "summary": "正文系统说明随机过程在订单簿、最优执行和金融定价中的建模应用。"
+    },
+    {
+      "title": "泊松分布的现实意义是什么，为什么现实生活多数服从于泊松分布？",
+      "url": "https://www.zhihu.com/answer/128055090",
+      "summary": "正文定义泊松过程的时间分割、单次事件概率与独立增量条件。"
+    },
+    {
+      "title": "如何评价文化部新规：「网游需公示道具抽取或合成概率」？",
+      "url": "https://www.zhihu.com/answer/134834992",
+      "summary": "正文把强化等级随成功、失败变化建模为马尔科夫随机过程并计算期望。"
+    },
+    {
+      "title": "衍生品定价模型和传统的资产定价模型有没有结合的可能性？",
+      "url": "https://www.zhihu.com/answer/136823450",
+      "summary": "正文在连续随机过程与跳跃过程框架下讨论衍生品定价和可预测性。"
+    },
+    {
+      "title": "高斯过程说它是非参数模型，这点怎么理解？",
+      "url": "https://www.zhihu.com/answer/139029700",
+      "summary": "正文把高斯过程明确作为用于函数先验的随机过程。"
+    },
+    {
+      "title": "如何简单易懂地理解贝叶斯非参数模型？",
+      "url": "https://www.zhihu.com/answer/140728316",
+      "summary": "正文说明非参数模型借助随机过程描述无限维参数。"
+    },
+    {
+      "title": "如何理解指数分布的无记忆性？",
+      "url": "https://www.zhihu.com/answer/143695500",
+      "summary": "正文从泊松分布推广到随时间演化的泊松过程。"
+    },
+    {
+      "title": "如何用例子浅显地解释什么是统计套利？",
+      "url": "https://www.zhihu.com/answer/153756007",
+      "summary": "正文用布朗运动和投资组合随机微分方程推导统计套利的收益结构。"
+    },
+    {
+      "title": "为什么具有遍历性的随机过程一定是平稳的？",
+      "url": "https://www.zhihu.com/answer/154533016",
+      "summary": "正文定义平稳与遍历随机过程，并比较样本时间平均和集合统计平均。"
+    },
+    {
+      "title": "该如何理解随机过程中的遍历性？",
+      "url": "https://www.zhihu.com/answer/156538518",
+      "summary": "正文从矩、系综、时间平均和统计平均解释随机过程的遍历性。"
+    },
+    {
+      "title": "马尔可夫链模型是什么？",
+      "url": "https://www.zhihu.com/answer/157852228",
+      "summary": "正文说明马尔可夫链是随机变量随时间按 Markov 性质变化的随机过程。"
+    },
+    {
+      "title": "如何看待 Ross–Littlewood 概率悖论？",
+      "url": "https://www.zhihu.com/answer/158119657",
+      "summary": "正文以无限步随机过程讨论概率分布及其统计量的收敛。"
+    },
+    {
+      "title": "有哪些名字逗比的科学定理？",
+      "url": "https://www.zhihu.com/answer/158135143",
+      "summary": "正文解释一、二、三维随机游走的常返性及返回概率。"
+    },
+    {
+      "title": "为什么没有听说金融工程出身的人从BSmodel的角度去理解热传导？但物理出身的从热传导的角度理解BS？",
+      "url": "https://www.zhihu.com/answer/175986083",
+      "summary": "正文把布朗运动与热传导、自伴算子及价格扩散联系起来。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/178159930",
+      "summary": "正文用鞅、停时、轨迹上穿和鞅收敛展示随机过程的证明思路。"
+    },
+    {
+      "title": "机器学习专家与统计学家观点上有哪些不同？",
+      "url": "https://www.zhihu.com/answer/183664635",
+      "summary": "正文用随机游走时间序列反复扩充样本，说明随机过程会制造局部趋势。"
+    },
+    {
+      "title": "如何通俗并尽可能详细地解释卡尔曼滤波？",
+      "url": "https://www.zhihu.com/answer/194464093",
+      "summary": "正文用状态、转移模型、过程噪声与观测更新解释卡尔曼滤波这一随机状态估计过程。"
+    },
+    {
+      "title": "房间内有 100 人，每人有 100 块，每分钟随机给另一个人 1 块，最后房间内的财富分布怎样？",
+      "url": "https://www.zhihu.com/answer/197181699",
+      "summary": "正文把财富交换建模为单纯形上的随机游走并讨论稳态。"
+    },
+    {
+      "title": "时间序列模型有什么实际用处？",
+      "url": "https://www.zhihu.com/answer/200476042",
+      "summary": "正文把时间序列中的随机游走、白噪声与历史依赖用于建模预测。"
+    },
+    {
+      "title": "假设赌博输赢的概率都是 50％，那么长期赌博的人为什么仍然会更容易倾家荡产而不是收益均衡？",
+      "url": "https://www.zhihu.com/answer/209932822",
+      "summary": "正文用随机过程的鞅和停时过程分析赌徒破产。"
+    },
+    {
+      "title": "假设赌博输赢的概率都是 50％，那么长期赌博的人为什么仍然会更容易倾家荡产而不是收益均衡？",
+      "url": "https://www.zhihu.com/answer/210799062",
+      "summary": "正文解释有限赌资随机游走的吸收边界与长期破产。"
+    },
+    {
+      "title": "假设赌博输赢的概率都是 50％，那么长期赌博的人为什么仍然会更容易倾家荡产而不是收益均衡？",
+      "url": "https://www.zhihu.com/answer/210926622",
+      "summary": "正文研究赌资随重复随机试验演化并在零处退出的过程。"
+    },
+    {
+      "title": "NIPS 2017 有什么值得关注的亮点？",
+      "url": "https://www.zhihu.com/answer/225960255",
+      "summary": "正文介绍连续时间离散事件的 Hawkes 随机过程及事件影响衰减。"
+    },
+    {
+      "title": "能科普下随机图理论吗？",
+      "url": "https://www.zhihu.com/answer/228497702",
+      "summary": "正文明确把随机图视为概率空间并联系随机图过程。"
+    },
+    {
+      "title": "做数学不同方向的人各有什么特点？",
+      "url": "https://www.zhihu.com/answer/231575510",
+      "summary": "正文从过滤、停时和鞅解释随机过程。"
+    },
+    {
+      "title": "为什么有人说《暗黑破坏神 3》中的随机是「伪随机」？",
+      "url": "https://www.zhihu.com/answer/233788603",
+      "summary": "正文说明伪随机机制改变随机过程的分布形态而非期望概率。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/238687141",
+      "summary": "正文用停时把有限方差随机变量嵌入布朗运动。"
+    },
+    {
+      "title": "如何从深刻地理解随机过程的含义？",
+      "url": "https://www.zhihu.com/answer/242650962",
+      "summary": "正文从样本路径集合解释随机过程的含义。"
+    },
+    {
+      "title": "假设赌博输赢的概率都是 50％，那么长期赌博的人为什么仍然会更容易倾家荡产而不是收益均衡？",
+      "url": "https://www.zhihu.com/answer/254384239",
+      "summary": "正文把赌博问题放在随机过程框架下讨论长期吸收状态。"
+    },
+    {
+      "title": "概率论或测度论与拓扑学有什么交叉的研究方向吗？",
+      "url": "https://www.zhihu.com/answer/254610139",
+      "summary": "正文讨论流形上的随机过程与熵产生。"
+    },
+    {
+      "title": "为什么喝醉的人可以走回家，喝醉的鸟却不能飞回家？",
+      "url": "https://www.zhihu.com/answer/254620904",
+      "summary": "正文用多维随机游走的返原次数期望分析醉步问题。"
+    },
+    {
+      "title": "为什么喝醉的人可以走回家，喝醉的鸟却不能飞回家？",
+      "url": "https://www.zhihu.com/answer/255549103",
+      "summary": "正文研究不同维数格点上的随机游走。"
+    },
+    {
+      "title": "房间内有 100 人，每人有 100 块，每分钟随机给另一个人 1 块，最后房间内的财富分布怎样？",
+      "url": "https://www.zhihu.com/answer/256130999",
+      "summary": "正文分别用无偏和带反射壁随机游走建模破产前后的财富变化。"
+    },
+    {
+      "title": "有哪些时候你会觉得数学很有用？",
+      "url": "https://www.zhihu.com/answer/258628299",
+      "summary": "正文以停时、鞅与可选抽样定理求随机累加过程。"
+    },
+    {
+      "title": "如何理解马尔科夫链中的常返态，非常返态，零常返，正常反，周期和非周期，有什么直观意义？",
+      "url": "https://www.zhihu.com/answer/263442039",
+      "summary": "正文从返回时间角度解释随机过程中的零常返。"
+    },
+    {
+      "title": "学习SPDE的先行课程和知识?",
+      "url": "https://www.zhihu.com/answer/278044953",
+      "summary": "正文使用 Wiener 过程与布朗运动解释随机过程驱动项。"
+    },
+    {
+      "title": "学习SPDE的先行课程和知识?",
+      "url": "https://www.zhihu.com/answer/279315929",
+      "summary": "正文说明维纳过程推广到希尔伯特空间后的构造。"
+    },
+    {
+      "title": "蜜蜂在蜂巢随机游走一百步后离原点的距离期望是多少？",
+      "url": "https://www.zhihu.com/answer/312234333",
+      "summary": "正文从特征函数、生成函数和渐近分析求二维随机游走距离期望。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/343514921",
+      "summary": "正文用随机游走和鞅理论证明动力系统中正测度结论。"
+    },
+    {
+      "title": "十赌九输这句话有根据吗?",
+      "url": "https://www.zhihu.com/answer/347492537",
+      "summary": "正文把赌资随游戏随机增减建模为随机过程。"
+    },
+    {
+      "title": "能否不引入物理学概念，仅从数学角度介绍一下费曼的路径积分？",
+      "url": "https://www.zhihu.com/answer/368826483",
+      "summary": "正文以 Wiener 测度和 Feynman-Kac 公式把路径积分与随机行走及随机过程联系起来。"
+    },
+    {
+      "title": "如何通俗并尽可能详细地解释卡尔曼滤波？",
+      "url": "https://www.zhihu.com/answer/380968872",
+      "summary": "正文从状态随时间演化与观测噪声推导卡尔曼滤波。"
+    },
+    {
+      "title": "股票、期货等金融市场真的是随机波动的吗？",
+      "url": "https://www.zhihu.com/answer/389266519",
+      "summary": "正文用随机过程与时间序列描述金融收益和波动率演化。"
+    },
+    {
+      "title": "鞅(Martingale)在现代算子理论当中的作用？",
+      "url": "https://www.zhihu.com/answer/415396095",
+      "summary": "正文以鞅差和鞅变换说明其在算子理论中的作用。"
+    },
+    {
+      "title": "eviews9.0怎么做平稳性检验？",
+      "url": "https://www.zhihu.com/answer/417898988",
+      "summary": "正文用期望、方差和协方差不随时间变化定义弱平稳时间序列。"
+    },
+    {
+      "title": "有哪些有效的可以衡量两段或多段时间序列相似度的方法？",
+      "url": "https://www.zhihu.com/answer/428068184",
+      "summary": "正文系统介绍时间序列相似度的多种度量方法。"
+    },
+    {
+      "title": "什么是随机过程？",
+      "url": "https://www.zhihu.com/answer/428211613",
+      "summary": "正文从随机变量族的角度定义并解释随机过程。"
+    },
+    {
+      "title": "Time Series 在 quant trading 中重要吗？",
+      "url": "https://www.zhihu.com/answer/429009142",
+      "summary": "正文以随机游走说明金融时间序列的随机性与可预测性。"
+    },
+    {
+      "title": "金融计算收益率的时候为什么大部分用对数收益率 (Log Return) 而不是用算数收益率？",
+      "url": "https://www.zhihu.com/answer/431786548",
+      "summary": "正文用几何布朗运动和随机微分方程建立股价模型。"
+    },
+    {
+      "title": "如何理解路径积分（path integral）？",
+      "url": "https://www.zhihu.com/answer/454608123",
+      "summary": "正文从随机微分方程离散化推导路径积分。"
+    },
+    {
+      "title": "个人觉得抛硬币并不是真正的随机事件，和抛硬币时候的各种状态参量有关系，那么到底什么是真正的随机？",
+      "url": "https://www.zhihu.com/answer/489498955",
+      "summary": "正文从迭代过程与稳定分布解释随机过程。"
+    },
+    {
+      "title": "指数分布公式的含义是什么？",
+      "url": "https://www.zhihu.com/answer/500550962",
+      "summary": "正文从泊松过程推导首次等待时间。"
+    },
+    {
+      "title": "有哪些随机方法应用于确定性数学的例子？",
+      "url": "https://www.zhihu.com/answer/511549487",
+      "summary": "以布朗运动和首出时构造 PDE 解，实质使用并解释随机过程。"
+    },
+    {
+      "title": "什么是泊松过程？",
+      "url": "https://www.zhihu.com/answer/518927298",
+      "summary": "全文从学生到校计数构造计数过程并引出泊松过程。"
+    },
+    {
+      "title": "随机过程中，怎样较为通俗地理解「停时」这个概念（书上的一般都是公理化的定义，不好理解）？",
+      "url": "https://www.zhihu.com/answer/519517772",
+      "summary": "正文给出停时的形式定义，并以打车和地铁例子解释适应性。"
+    },
+    {
+      "title": "如何理解细致平衡？",
+      "url": "https://www.zhihu.com/answer/553175061",
+      "summary": "定义随机过程的时间反演与可逆性，并说明其生成元和不变分布。"
+    },
+    {
+      "title": "如何理解路径积分（path integral）？",
+      "url": "https://www.zhihu.com/answer/553941552",
+      "summary": "通过 Feynman-Kac 公式和维纳测度把路径积分连接到扩散随机过程。"
+    },
+    {
+      "title": "向量自回归模型（VAR）到底厉害在哪里？",
+      "url": "https://www.zhihu.com/answer/561611608",
+      "summary": "正文系统介绍向量自回归这一随机时间序列模型。"
+    },
+    {
+      "title": "有什么好的模型可以做高精度的时间序列预测呢？",
+      "url": "https://www.zhihu.com/answer/570028703",
+      "summary": "把时间序列视为带时间依赖的随机过程并说明平稳性和自相关。"
+    },
+    {
+      "title": "时间序列预测方法的能力边界在哪里？",
+      "url": "https://www.zhihu.com/answer/572714011",
+      "summary": "正文讨论时间序列、随机游走与 ARIMA 预测。"
+    },
+    {
+      "title": "DCC GARCH模型？",
+      "url": "https://www.zhihu.com/answer/573800975",
+      "summary": "正文讨论时间序列平稳化与波动建模。"
+    },
+    {
+      "title": "如何用通俗的语言解释卡尔曼滤波器？",
+      "url": "https://www.zhihu.com/answer/577218320",
+      "summary": "正文讲解状态随观测迭代更新的随机滤波过程。"
+    },
+    {
+      "title": "你在中国知网、万方等学术文章网站上发现过什么不得了的东西？",
+      "url": "https://www.zhihu.com/answer/595769573",
+      "summary": "正文用历史序列与多阶转移概率进行预测。"
+    },
+    {
+      "title": "学时间序列分析有没有浅显易懂的书或视频？",
+      "url": "https://www.zhihu.com/answer/606794881",
+      "summary": "正文列举时间序列随机过程模型。"
+    },
+    {
+      "title": "请问empirical process是关于什么的理论？",
+      "url": "https://www.zhihu.com/answer/610206630",
+      "summary": "正文讨论经验过程与 Brownian bridge 的极限。"
+    },
+    {
+      "title": "如果炸弹每秒钟爆炸概率提高一点，从数学期望上来看最有可能在哪一秒爆炸？",
+      "url": "https://www.zhihu.com/answer/611822195",
+      "summary": "正文用状态转移过程建立生存模型。"
+    },
+    {
+      "title": "和女朋友在商场走丢了，随机乱逛和守在特定地点等候，哪个相遇的概率更高？",
+      "url": "https://www.zhihu.com/answer/617343687",
+      "summary": "正文把两人的移动建模为二维随机游走。"
+    },
+    {
+      "title": "和女朋友在商场走丢了，随机乱逛和守在特定地点等候，哪个相遇的概率更高？",
+      "url": "https://www.zhihu.com/answer/617801705",
+      "summary": "正文用二维随机漫步建模。"
+    },
+    {
+      "title": "和女朋友在商场走丢了，随机乱逛和守在特定地点等候，哪个相遇的概率更高？",
+      "url": "https://www.zhihu.com/answer/618131634",
+      "summary": "正文推导两个二维随机游走相遇与返回问题。"
+    },
+    {
+      "title": "假设有个游戏，你可以无偿获得五千元，但有百万分之一的几率会当场毙命。那么你会玩多少次游戏？",
+      "url": "https://www.zhihu.com/answer/639770325",
+      "summary": "把重复游戏写成随机停止时间与状态演化问题。"
+    },
+    {
+      "title": "Dirichlet Processes 是一个什么样的随机过程？",
+      "url": "https://www.zhihu.com/answer/661424720",
+      "summary": "把 Dirichlet process 定义为随机概率测度。"
+    },
+    {
+      "title": "指数分布公式的含义是什么？",
+      "url": "https://www.zhihu.com/answer/673838656",
+      "summary": "从相邻事件等待时间描述泊松随机过程。"
+    },
+    {
+      "title": "有什么将卡尔曼滤波讲得透彻的书籍或资料？",
+      "url": "https://www.zhihu.com/answer/677409115",
+      "summary": "把状态演化与观测噪声写成随机过程模型。"
+    },
+    {
+      "title": "在赌场每次下注的金额都是之前输的金额的2.5倍，只要赢一把就可以翻本，是不是不必赢？",
+      "url": "https://www.zhihu.com/answer/683560169",
+      "summary": "把赌场财富过程解释为上鞅并讨论停时。"
+    },
+    {
+      "title": "怎样理解随机游走过程?",
+      "url": "https://www.zhihu.com/answer/692618763",
+      "summary": "定义随机游走并讨论吸收边界和首次到达。"
+    },
+    {
+      "title": "没有测度论基础，可以学随机过程吗？",
+      "url": "https://www.zhihu.com/answer/696253864",
+      "summary": "比较离散与连续随机过程的路径和分析工具。"
+    },
+    {
+      "title": "没有测度论基础，可以学随机过程吗？",
+      "url": "https://www.zhihu.com/answer/700644268",
+      "summary": "区分初等离散随机过程与以布朗运动为基础的连续过程。"
+    },
+    {
+      "title": "赌博不是应该有接近50%的胜率吗，为何现实却是「十赌九输」？",
+      "url": "https://www.zhihu.com/answer/704369191",
+      "summary": "把赌徒资金建模为具有吸收态的随机过程。"
+    },
+    {
+      "title": "如何看待 2019 年全国一卷高考数学试题？",
+      "url": "https://www.zhihu.com/answer/708235797",
+      "summary": "正文明确从随机过程角度解释试题。"
+    },
+    {
+      "title": "如何用数学证明活着就有希望？",
+      "url": "https://www.zhihu.com/answer/723806277",
+      "summary": "用一维随机游走常返性回答回到正值的概率。"
+    },
+    {
+      "title": "经济学中的生产要素里为什么 没有时间？",
+      "url": "https://www.zhihu.com/answer/726524897",
+      "summary": "用随机过程描述随时间变化的不确定性。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/777567811",
+      "summary": "以鞅和停时分析随机打字过程。"
+    },
+    {
+      "title": "如何理解均值回归和马太效应？两者矛盾吗？",
+      "url": "https://www.zhihu.com/answer/778392760",
+      "summary": "以逐日随机更新模拟财富过程。"
+    },
+    {
+      "title": "指数分布的概率密度函数是如何得出的？",
+      "url": "https://www.zhihu.com/answer/782076703",
+      "summary": "正文继续阐释泊松过程的事件计数假设，并说明间隔时间必然服从指数分布。"
+    },
+    {
+      "title": "学随机分析需要把实分析和泛函学的很深吗?",
+      "url": "https://www.zhihu.com/answer/827088113",
+      "summary": "讨论布朗运动、鞅和随机微分方程。"
+    },
+    {
+      "title": "2020 年科学突破奖 Alex Eskin 主要工作和成就是什么？",
+      "url": "https://www.zhihu.com/answer/827395153",
+      "summary": "介绍齐性动力系统、随机游走与轨道的研究。"
+    },
+    {
+      "title": "利率模型里的Vasicek模型和CIR模型的期望方差如何计算，两个模型分别有什么优缺点？",
+      "url": "https://www.zhihu.com/answer/844206726",
+      "summary": "正文推导 Vasicek 与 CIR 随机过程的均值、方差和条件分布。"
+    },
+    {
+      "title": "指数分布的分布函数是怎么得到的？",
+      "url": "https://www.zhihu.com/answer/893242882",
+      "summary": "正文将指数分布的等待时间置于泊松过程这一随机过程模型中说明。"
+    },
+    {
+      "title": "数学中有哪些最复杂的领域或最抽象的领域，复杂或抽象到什么程度？",
+      "url": "https://www.zhihu.com/answer/895662666",
+      "summary": "正文从概率测度逐层展开到布朗运动、伊藤积分与随机微分方程，实质讲解随机过程。"
+    },
+    {
+      "title": "鞅理论在金融数学以外的领域还有哪些应用？",
+      "url": "https://www.zhihu.com/answer/927319504",
+      "summary": "正文从鞅差序列、Burkholder 方法到统计学习应用，实质讨论随机过程中的鞅。"
+    },
+    {
+      "title": "请通俗地解释下“鞅”？",
+      "url": "https://www.zhihu.com/answer/929146452",
+      "summary": "正文给出离散鞅的条件期望定义，并用公平赌博过程证明其性质。"
+    },
+    {
+      "title": "重复抛掷硬币，若正面数超总反面数的2倍则终止。如何求能够无限进行的概率是多少？",
+      "url": "https://www.zhihu.com/answer/976359330",
+      "summary": "正文把硬币过程建模为带吸收壁的随机游走并求生存概率。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/1057509062",
+      "summary": "正文解释不同维度随机游走返回原点的概率。"
+    },
+    {
+      "title": "能否介绍一下2020年Abel奖得主Furstenberg和Margulis的一些工作？",
+      "url": "https://www.zhihu.com/answer/1088272859",
+      "summary": "正文介绍群上随机游走及其产生的平稳测度。"
+    },
+    {
+      "title": "有什么理论复杂但是实现简单的算法？",
+      "url": "https://www.zhihu.com/answer/1121718346",
+      "summary": "正文以随机微分方程、布朗运动和采样算法讨论随机过程。"
+    },
+    {
+      "title": "现在的数学都在研究什么？有哪些前沿领域与研究？",
+      "url": "https://www.zhihu.com/answer/1154901698",
+      "summary": "正文介绍连续随机过程、随机积分和随机微分方程。"
+    },
+    {
+      "title": "「醉鬼走路问题」该如何解释？",
+      "url": "https://www.zhihu.com/answer/1185545231",
+      "summary": "正文以随机游走推导均方距离随步数增长的规律。"
+    },
+    {
+      "title": "高频数据上有哪些经典/好玩的研究，以及值得关注的学者？",
+      "url": "https://www.zhihu.com/answer/1230216602",
+      "summary": "正文系统讨论高频金融数据中的随机分析、时间序列和估计。"
+    },
+    {
+      "title": "学习随机过程是一种什么样的体验？",
+      "url": "https://www.zhihu.com/answer/1232872962",
+      "summary": "正文讨论随机过程课程内容、教材以及与排队和博弈模型的联系。"
+    },
+    {
+      "title": "如何用简单易懂的例子解释隐马尔可夫模型？",
+      "url": "https://www.zhihu.com/answer/1290190531",
+      "summary": "正文解释隐藏状态序列的随机过程与马尔可夫性。"
+    },
+    {
+      "title": "学随机分析需要把实分析和泛函学的很深吗?",
+      "url": "https://www.zhihu.com/answer/1369352329",
+      "summary": "正文把随机微积分与泊松过程、马尔可夫链、鞅和布朗运动联系起来。"
+    },
+    {
+      "title": "如何检验时间序列里的异常事件？",
+      "url": "https://www.zhihu.com/answer/1430923862",
+      "summary": "正文介绍时间序列异常检测方法与应用。"
+    },
+    {
+      "title": "一个计数器，按下一次有50%概率+1，有50%概率-1，平均按下多少次可以使结果为8？",
+      "url": "https://www.zhihu.com/answer/1431235045",
+      "summary": "正文用首达时和 Wald 方程计算随机游走命中期望。"
+    },
+    {
+      "title": "一个计数器，按下一次有50%概率+1，有50%概率-1，平均按下多少次可以使结果为8？",
+      "url": "https://www.zhihu.com/answer/1431243320",
+      "summary": "正文用鞅与首达时证明一维随机游走命中 8 的期望不存在。"
+    },
+    {
+      "title": "一个计数器，按下一次有50%概率+1，有50%概率-1，平均按下多少次可以使结果为8？",
+      "url": "https://www.zhihu.com/answer/1436050235",
+      "summary": "正文直接讲解或推导“随机过程”相关内容。"
+    },
+    {
+      "title": "二十世纪以来最牛的数学家（Grothendieck这种级别的）都有谁，你最崇拜谁，为什么？",
+      "url": "https://www.zhihu.com/answer/1441996608",
+      "summary": "正文直接讲解或推导“随机过程”相关内容。"
+    },
+    {
+      "title": "一个醉汉，向前后左右走的概率都是25%，走了2n步后回到原点的概率怎么算？",
+      "url": "https://www.zhihu.com/answer/1475280852",
+      "summary": "正文直接给出与「随机过程」相关的解释、推导或应用。"
+    },
+    {
+      "title": "一个醉汉，向前后左右走的概率都是25%，走了2n步后回到原点的概率怎么算？",
+      "url": "https://www.zhihu.com/answer/1476278769",
+      "summary": "正文直接给出与「随机过程」相关的解释、推导或应用。"
+    },
+    {
+      "title": "金融随机分析中，为什么能用sigma代数表示信息？",
+      "url": "https://www.zhihu.com/answer/1489929565",
+      "summary": "正文直接给出与「随机过程」相关的解释、推导或应用。"
+    },
+    {
+      "title": "一个数从1开始，每次各有50%的概率乘0.9或者乘1.1，重复足够多的次数以后，情况会如何？",
+      "url": "https://www.zhihu.com/answer/1497965882",
+      "summary": "正文直接给出与「随机过程」相关的解释、推导或应用。"
+    },
+    {
+      "title": "如何看懂Ornstein-Uhlenbeck Process？",
+      "url": "https://www.zhihu.com/answer/1531412127",
+      "summary": "正文直接讨论随机过程，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "假设有重女轻男的M国。每个家庭会都想生女孩。若生出了n个男孩，则会尽可能生出n个女孩，男女比例怎么算？",
+      "url": "https://www.zhihu.com/answer/1535229540",
+      "summary": "正文直接讨论随机过程，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "哪个瞬间让你觉得学数学真有用？",
+      "url": "https://www.zhihu.com/answer/1553463639",
+      "summary": "正文把二维随机游走作为随机过程并讨论常返性。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/1553464529",
+      "summary": "正文把二维随机游走作为随机过程并讨论常返性。"
+    },
+    {
+      "title": "能不能直观地介绍一下随机过程中“过程”“停时”“可预测性”“适应过程”等词汇的含义？",
+      "url": "https://www.zhihu.com/answer/1580739507",
+      "summary": "正文系统解释随机过程、适应过程、停时与可预测性。"
+    },
+    {
+      "title": "贝叶斯定理厉害在哪里？",
+      "url": "https://www.zhihu.com/answer/1584195885",
+      "summary": "正文把先验、预测与观测更新组织成连续过程，并明确落到贝叶斯滤波和卡尔曼滤波。"
+    },
+    {
+      "title": "如何通俗易懂地解释｛ARIMA模型｝？",
+      "url": "https://www.zhihu.com/answer/1595121601",
+      "summary": "正文直接讨论或应用该叶节点主题（时间序列）。"
+    },
+    {
+      "title": "时间序列中的观测值为什么是随机变量？",
+      "url": "https://www.zhihu.com/answer/1600641237",
+      "summary": "正文直接讨论或应用该叶节点主题（时间序列）。"
+    },
+    {
+      "title": "什么是隐马尔科夫模型？",
+      "url": "https://www.zhihu.com/answer/1635328825",
+      "summary": "正文以隐藏状态序列和观测序列说明时序随机过程。"
+    },
+    {
+      "title": "有哪些值得推荐的《随机过程》教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1638695829",
+      "summary": "正文按国内外教材组织随机过程学习资源。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/1665421122",
+      "summary": "正文讨论随机游走与停时定理。"
+    },
+    {
+      "title": "为什么概率论越往现代发展感觉越让人感到迷惑？",
+      "url": "https://www.zhihu.com/answer/1690812811",
+      "summary": "正文讨论随机过程与概率论中的耦合、鞅方法。"
+    },
+    {
+      "title": "时间序列里的lag？",
+      "url": "https://www.zhihu.com/answer/1705930716",
+      "summary": "正文从时间顺序和滞后项说明时间序列作为随机过程的特点。"
+    },
+    {
+      "title": "有哪些值得推荐的《随机过程》教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1710254485",
+      "summary": "正文推荐随机过程教材并说明马尔可夫随机场内容。"
+    },
+    {
+      "title": "有哪些值得推荐的《随机过程》教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1710284735",
+      "summary": "正文推荐随机过程与随机分析教材并说明内容。"
+    },
+    {
+      "title": "有哪些奇奇怪怪的知识刷新了你的认知？",
+      "url": "https://www.zhihu.com/answer/1716735735",
+      "summary": "正文用随机游走比较二维与三维空间中的常返性。"
+    },
+    {
+      "title": "怎样从实际场景上理解粒子滤波（Particle Filter）？",
+      "url": "https://www.zhihu.com/answer/1723585887",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "哪里有高斯过程详细的数学推导？",
+      "url": "https://www.zhihu.com/answer/1723659597",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "什么是随机过程？",
+      "url": "https://www.zhihu.com/answer/1790316277",
+      "summary": "正文系统解释随机过程、建模场景及蒙特卡洛模拟。"
+    },
+    {
+      "title": "如何在一晚内速成概率论与数理统计？",
+      "url": "https://www.zhihu.com/answer/1791431530",
+      "summary": "正文把随机过程列为概率统计六大核心部分之一。"
+    },
+    {
+      "title": "Markov Chain和Gibbs分布到底是什么关系？",
+      "url": "https://www.zhihu.com/answer/1804179186",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "如何理解MCMC中的细致平稳条件？",
+      "url": "https://www.zhihu.com/answer/1804780073",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "蒙特卡罗算法是什么？",
+      "url": "https://www.zhihu.com/answer/1806687359",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "如何通俗地理解「蒙特卡洛方法」，它解决问题的基本思路是什么，目前主要应用于哪些领域？",
+      "url": "https://www.zhihu.com/answer/1814845300",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "怎么通俗理解蒙特卡洛模拟？",
+      "url": "https://www.zhihu.com/answer/1814847396",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "一个酒鬼喝醉了。n步后他走回原来一个单位长度的圆内的概率是多少？",
+      "url": "https://www.zhihu.com/answer/1826773215",
+      "summary": "正文以醉汉随机游走和 Polya 常返定理分析返回概率。"
+    },
+    {
+      "title": "以测度为基础的高等概率论和普通的概率论到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/1836136165",
+      "summary": "正文以一般 Markov 过程的转移核和收敛性说明测度论概率。"
+    },
+    {
+      "title": "以测度为基础的高等概率论和普通的概率论到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/1841233911",
+      "summary": "正文以 polar 码随机序列和收敛模式讨论随机过程。"
+    },
+    {
+      "title": "如何直观地理解衍生定价中用到的Change of Measure(测度变换)？",
+      "url": "https://www.zhihu.com/answer/1853525492",
+      "summary": "正文用布朗运动、漂移变换和 Girsanov 定理解释测度变换。"
+    },
+    {
+      "title": "怎样学习随机微分方程？需要哪些基础？",
+      "url": "https://www.zhihu.com/answer/1855313324",
+      "summary": "正文围绕随机分析、条件期望和随机微分方程安排学习内容。"
+    },
+    {
+      "title": "ARCH GARCH TGARCH EGARCH 、GARCH-M到底有什么优缺点，有什么不同？",
+      "url": "https://www.zhihu.com/answer/1862175250",
+      "summary": "正文比较 ARCH/GARCH 族所描述的随机波动过程。"
+    },
+    {
+      "title": "如何完全掌握概率论与数理统计？",
+      "url": "https://www.zhihu.com/answer/2005475578",
+      "summary": "正文系统列出随机过程的学习范围。"
+    },
+    {
+      "title": "如何评价数学家、现代概率论的创始人柯尔莫哥洛夫？",
+      "url": "https://www.zhihu.com/answer/2146996321",
+      "summary": "正文列出 Kolmogorov 对随机过程构造、连续性和方程等基础贡献。"
+    },
+    {
+      "title": "什么是VAR模型。？",
+      "url": "https://www.zhihu.com/answer/2160990771",
+      "summary": "正文把 VAR 时间序列作为随机过程建模。"
+    },
+    {
+      "title": "如何证明一个无理数的整数倍数的小数部分在（0，1）上均匀分布？",
+      "url": "https://www.zhihu.com/answer/2165987146",
+      "summary": "正文用动力系统与遍历定理分析无理旋转。"
+    },
+    {
+      "title": "如何从深刻地理解随机过程的含义？",
+      "url": "https://www.zhihu.com/answer/2179068289",
+      "summary": "正文从随机变量族、轨道、鞅和布朗运动系统解释随机过程。"
+    },
+    {
+      "title": "如何从深刻地理解随机过程的含义？",
+      "url": "https://www.zhihu.com/answer/2182470085",
+      "summary": "正文从有限个随机变量推广到随机过程和高斯过程。"
+    },
+    {
+      "title": "为什么概率的公理化基础选择了测度论？",
+      "url": "https://www.zhihu.com/answer/2187607255",
+      "summary": "正文说明一致有限维分布和测度论构造为随机过程理论奠基。"
+    },
+    {
+      "title": "Malliavin分析入门教材推荐?另，随机动态规划与随机变分的关系是怎样的?",
+      "url": "https://www.zhihu.com/answer/2194036527",
+      "summary": "正文在 Wiener 随机过程和随机分析框架中解释 Malliavin 导数。"
+    },
+    {
+      "title": "湍流是个物理问题吗？",
+      "url": "https://www.zhihu.com/answer/2213378724",
+      "summary": "正文详细使用随机场、平稳随机过程、协方差函数和谱表示描述湍流。"
+    },
+    {
+      "title": "泊松分布的现实意义是什么，为什么现实生活多数服从于泊松分布？",
+      "url": "https://www.zhihu.com/answer/2248839974",
+      "summary": "正文进一步联系泊松过程这一计数随机过程。"
+    },
+    {
+      "title": "贝叶斯推断中为什么不能直接从posterior sampling而是要采用MCMC方法?",
+      "url": "https://www.zhihu.com/answer/2255085106",
+      "summary": "正文从随机变量序列和马尔可夫性定义随机过程。"
+    },
+    {
+      "title": "请问有大佬有倒向随机微分方程（bsde）相关比较详细易懂的notes、文献或者教材推荐吗？",
+      "url": "https://www.zhihu.com/answer/2266790220",
+      "summary": "正文从随机分析和 SDE 过渡到倒向随机微分方程。"
+    },
+    {
+      "title": "甲乙两人下围棋，甲胜的概率为a，乙胜的概率为b，a+b=1，比对方多赢两局者获胜，求甲赢的概率?",
+      "url": "https://www.zhihu.com/answer/2272772070",
+      "summary": "正文以随机游走和转移矩阵分析吸收概率。"
+    },
+    {
+      "title": "Black-Scholes期权定价模型推导需要哪些数学知识？",
+      "url": "https://www.zhihu.com/answer/2281223104",
+      "summary": "正文用风险中性测度、布朗运动和鞅构造期权定价框架。"
+    },
+    {
+      "title": "以测度为基础的高等概率论和普通的概率论到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/2288493729",
+      "summary": "正文用鞅、滤链与随机微分方程说明随机过程课程中的测度基础。"
+    },
+    {
+      "title": "有哪些概率论和数理统计的深入教材可以推荐？",
+      "url": "https://www.zhihu.com/answer/2288542961",
+      "summary": "正文在 Probability/Stochastic processes 小节比较概率教材并列出讲义、测度论和随机过程视频资源。"
+    },
+    {
+      "title": "怎么判断男朋友是不是潜力股？",
+      "url": "https://www.zhihu.com/answer/2295135240",
+      "summary": "正文以状态转移矩阵描述随机过程。"
+    },
+    {
+      "title": "请问数学系随机分析有什么教材推荐啊？",
+      "url": "https://www.zhihu.com/answer/2296370379",
+      "summary": "正文说明教材覆盖布朗运动、鞅和随机微积分。"
+    },
+    {
+      "title": "有什么好的统计学专业的学习网站吗？",
+      "url": "https://www.zhihu.com/answer/2303549832",
+      "summary": "正文把随机过程列为统计学习的重要领域并推荐教材。"
+    },
+    {
+      "title": "请问关于卡尔曼滤波算法核心五公式的来源，与贝叶斯公式（准则）有什么具体关系？",
+      "url": "https://www.zhihu.com/answer/2306574174",
+      "summary": "正文用状态随时间的递推预测建立随机状态滤波过程。"
+    },
+    {
+      "title": "时间序列数据的聚类有什么好方法？",
+      "url": "https://www.zhihu.com/answer/2322076878",
+      "summary": "正文以随机过程模型研究多元时间序列。"
+    },
+    {
+      "title": "你能一句话说清楚期权隐含波动率是个什么东西吗？",
+      "url": "https://www.zhihu.com/answer/2330038283",
+      "summary": "正文用布朗运动和对数正态分布刻画标的随机过程。"
+    },
+    {
+      "title": "甲乙两人下围棋，甲胜的概率为a，乙胜的概率为b，a+b=1，比对方多赢两局者获胜，求甲赢的概率?",
+      "url": "https://www.zhihu.com/answer/2341346100",
+      "summary": "正文把围棋问题建模为非对称随机游走与吸收边界。"
+    },
+    {
+      "title": "random process和stochastic process的区别是什么？",
+      "url": "https://www.zhihu.com/answer/2341653966",
+      "summary": "正文从术语来源说明 stochastic process 与随机过程的关系。"
+    },
+    {
+      "title": "有哪些有效的可以衡量两段或多段时间序列相似度的方法？",
+      "url": "https://www.zhihu.com/answer/2374454799",
+      "summary": "正文按模型与结构方法衡量时间序列，并列举马尔可夫、HMM 和 ARMA。"
+    },
+    {
+      "title": "怎么看待用时间序列来预测某支股票走势？",
+      "url": "https://www.zhihu.com/answer/2382969496",
+      "summary": "正文把股价预测置于随机过程和时间序列建模语境。"
+    },
+    {
+      "title": "如何用gan生成时序数据？",
+      "url": "https://www.zhihu.com/answer/2383226643",
+      "summary": "正文聚焦时间序列数据的生成建模。"
+    },
+    {
+      "title": "实际工程项目中是怎么用卡尔曼滤波的?",
+      "url": "https://www.zhihu.com/answer/2396600132",
+      "summary": "正文实现卡尔曼滤波并用加速度计与陀螺仪数据进行状态估计。"
+    },
+    {
+      "title": "泊松分布的现实意义是什么，为什么现实生活多数服从于泊松分布？",
+      "url": "https://www.zhihu.com/answer/2461487416",
+      "summary": "正文定义泊松过程为区间内事件累计次数的随机过程。"
+    },
+    {
+      "title": "如何通俗地解释马尔科夫链?",
+      "url": "https://www.zhihu.com/answer/2464763647",
+      "summary": "正文把马尔可夫链置于随机过程的理论背景中。"
+    },
+    {
+      "title": "量化投资学习推荐的书籍都有哪些？",
+      "url": "https://www.zhihu.com/answer/2465823846",
+      "summary": "正文把随机过程和随机微积分列为量化所需的核心数学工具。"
+    },
+    {
+      "title": "如何理解傅里叶变换公式？",
+      "url": "https://www.zhihu.com/answer/2467892330",
+      "summary": "正文以独立增量、对称性和方差线性增长建立布朗运动模型。"
+    },
+    {
+      "title": "diffusion model 最近在图像生成领域大红大紫，如何看待它的风头开始超过 GAN ？",
+      "url": "https://www.zhihu.com/answer/2516184924",
+      "summary": "说明扩散模型的正向加噪过程是逐步增加高斯噪声的马尔科夫链。"
+    },
+    {
+      "title": "韩裔许埈珥、乌克兰维娅佐夫斯卡等四位数学家获得 2022 菲尔兹奖，他们在各自领域做出了怎样的贡献？",
+      "url": "https://www.zhihu.com/answer/2560555660",
+      "summary": "正文概述 Duminil-Copin 用随机过程与概率方法研究自回避随机游走、Ising 模型和随机簇模型的相变。"
+    },
+    {
+      "title": "韩裔许埈珥、乌克兰维娅佐夫斯卡等四位数学家获得 2022 菲尔兹奖，他们在各自领域做出了怎样的贡献？",
+      "url": "https://www.zhihu.com/answer/2560575202",
+      "summary": "正文具体解释自回避随机游走的计数、次可加性、连接常数极限，以及相变和随机簇模型的概率研究。"
+    },
+    {
+      "title": "韩裔许埈珥、乌克兰维娅佐夫斯卡等四位数学家获得 2022 菲尔兹奖，他们在各自领域做出了怎样的贡献？",
+      "url": "https://www.zhihu.com/answer/2561384154",
+      "summary": "正文介绍 Duminil-Copin 用随机轨迹、随机图和自回避游走等随机过程研究格点模型的相变。"
+    },
+    {
+      "title": "在控制、自动化领域，用到的最高深最先进的数学理论工具是什么？控制是否是工科里用到数学最多最深的领域？",
+      "url": "https://www.zhihu.com/answer/2644630108",
+      "summary": "用随机过程、filtration 与 adapted 过程描述控制中的随机建模。"
+    },
+    {
+      "title": "日后想学金融工程，数值分析和随机过程更推荐上哪一门课呢？",
+      "url": "https://www.zhihu.com/answer/2658739468",
+      "summary": "解释随机过程、鞅测度、布朗运动与 Lévy 过程在衍生品定价中的角色。"
+    },
+    {
+      "title": "对于金融工程和金融数学，数值计算更有用，还是泛函分析更有用？",
+      "url": "https://www.zhihu.com/answer/2661365044",
+      "summary": "说明随机过程与随机微积分是金融数学的核心理论基础。"
+    },
+    {
+      "title": "diffusion model 最近在图像生成领域大红大紫，如何看待它的风头开始超过 GAN ？",
+      "url": "https://www.zhihu.com/answer/2671001607",
+      "summary": "正文讨论扩散模型的前向加噪与反向去噪过程，并提到用随机微分方程描述。"
+    },
+    {
+      "title": "傅里叶变换的意义是什么？",
+      "url": "https://www.zhihu.com/answer/2698836464",
+      "summary": "正文把随机过程定义为一个以时间为自变量、随机变量为函数值的函数，并围绕它展开傅里叶分析。"
+    },
+    {
+      "title": "有什么很牛逼的无理数？",
+      "url": "https://www.zhihu.com/answer/2712886108",
+      "summary": "介绍 Pólya 随机游走返回概率及相关积分表达式。"
+    },
+    {
+      "title": "随机过程中有哪些有趣的结论?",
+      "url": "https://www.zhihu.com/answer/2732525197",
+      "summary": "正文介绍 Doob-Meyer 下鞅分解，并概述随机游走尺度极限、布朗运动、停时和普适性等随机过程内容。"
+    },
+    {
+      "title": "2022 达摩院青橙奖名单公布，获奖学者涉及理论数学、量子计算等领域，他们在国内外是什么样的水平？",
+      "url": "https://www.zhihu.com/answer/2738318572",
+      "summary": "正文把伊辛模型解释为描述物质相变的随机过程，并给出二维自旋状态及其邻接相互作用的概率形式。"
+    },
+    {
+      "title": "仅有概率论数理统计基础要如何达到能应用Ornstein-Uhlenbeck过程的程度?",
+      "url": "https://www.zhihu.com/answer/2757050138",
+      "summary": "正文把OU过程解释为具有均值回归和正态分布特征的随机过程，并给出其随机微分方程与显式分布。"
+    },
+    {
+      "title": "既然赌狗都会输的干干净净，那我按赌狗的反买是不是稳赚？",
+      "url": "https://www.zhihu.com/answer/2775109978",
+      "summary": "正文把持续赌博建模为一维随机游走，并论证资金有限一方最终输光的概率。"
+    },
+    {
+      "title": "深度学习和随机过程结合有什么有前景的研究方向？",
+      "url": "https://www.zhihu.com/answer/2807542269",
+      "summary": "正文以 X(t) 为随机过程，复习伊藤公式并把它应用于随机积分和鞅。"
+    },
+    {
+      "title": "你自己做出的第一个发表的纯数研究结果的研究过程如何？",
+      "url": "https://www.zhihu.com/answer/2820876936",
+      "summary": "正文围绕随机逐块感染的 Eden 生长过程研究其长期拓扑性质及概率下界。"
+    },
+    {
+      "title": "有没有学数学的大佬给我讲一些非常牛逼的东西，震撼一下我这个非数学系的大学生？",
+      "url": "https://www.zhihu.com/answer/2829604530",
+      "summary": "正文以随机变量序列定义随机过程，并在状态空间中讨论其转移与随机游走性质。"
+    },
+    {
+      "title": "平面上n个随机单位向量之和的长度小于1的概率是多少？",
+      "url": "https://www.zhihu.com/answer/2837622869",
+      "summary": "正文将随机单位向量求和问题明确转化为 Pearson 的二维随机漫步，并介绍逐次随机转向的模型。"
+    },
+    {
+      "title": "数学系的学生应该怎样学习随机过程？",
+      "url": "https://www.zhihu.com/answer/2985923540",
+      "summary": "正文比较基于测度论与非测度论的随机过程课程，并明确其核心内容包括马氏链、鞅、布朗运动和随机积分。"
+    },
+    {
+      "title": "扩散模型（diffusion model）为什么不训练一个模型，使用x(t)预测x(t-1)?",
+      "url": "https://www.zhihu.com/answer/3001481574",
+      "summary": "正文把图像序列的加噪与逆去噪建模为含高斯随机项的逐步随机演化过程。"
+    },
+    {
+      "title": "数学系的学生应该怎样学习随机过程？",
+      "url": "https://www.zhihu.com/answer/3056490340",
+      "summary": "正文具体说明随机过程可从有限维乘积空间与联合概率密度出发，再借 Kolmogorov 延拓定理构造到无限维。"
+    },
+    {
+      "title": "抛硬币，每天都抛到正面朝上的次数大于反面朝上的次数就结束，长此以往不就稳赚不赔？",
+      "url": "https://www.zhihu.com/answer/3173558427",
+      "summary": "正文定义带边界与时间上限的一维随机游走，分析停止概率、净亏损渐近和触及下界的过程。"
+    },
+    {
+      "title": "不同时间尺度的波动率的关系量化怎么处理？",
+      "url": "https://www.zhihu.com/answer/3204486506",
+      "summary": "正文用半鞅、扩散过程和离散订单流项刻画高频价格与微结构噪声，讨论随机过程的建模作用。"
+    },
+    {
+      "title": "想要系统的学习博弈论应该了解哪些知识呢？",
+      "url": "https://www.zhihu.com/answer/3204875602",
+      "summary": "正文指出马尔可夫博弈和随机微分博弈分别依赖随机过程、跳过程及随机微分方程。"
+    },
+    {
+      "title": "如何理解扩散模型中的SDE？",
+      "url": "https://www.zhihu.com/answer/3230281054",
+      "summary": "正文把扩散生成轨迹视为随机过程，并说明用随机微分方程刻画其连续演化。"
+    },
+    {
+      "title": "为什么高维空间下距离度量逐渐失效？",
+      "url": "https://www.zhihu.com/answer/3299831690",
+      "summary": "正文以协方差阵、核函数和高维数据预测具体讨论高斯过程的建模与失效机制。"
+    },
+    {
+      "title": "什么是diffusion model? 它为什么好用？",
+      "url": "https://www.zhihu.com/answer/3310826408",
+      "summary": "正文以布朗运动、伊藤积分和随机微分方程解释 score-based 生成模型的采样机制。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3312058924",
+      "summary": "正文说明高斯自由场可由 Gibbs 测度定义，并讨论其高斯分布表示以及与随机游动、随机交错过程的关系，涉及随机过程。"
+    },
+    {
+      "title": "如何理解扩散模型中的SDE？",
+      "url": "https://www.zhihu.com/answer/3315930820",
+      "summary": "正文用标准维纳过程和随机轨迹解释 SDE 的解，并以马尔可夫链的连续极限构造随机过程。"
+    },
+    {
+      "title": "一个角色有33%的暴击率，每两次连续的攻击都不暴击时，第3次攻击必定暴击，怎么计算她的平均暴击率呀？",
+      "url": "https://www.zhihu.com/answer/3319532295",
+      "summary": "正文使用更新报酬过程把暴击循环建模，并借助长程极限求平均暴击率。"
+    },
+    {
+      "title": "一个角色有33%的暴击率，每两次连续的攻击都不暴击时，第3次攻击必定暴击，怎么计算她的平均暴击率呀？",
+      "url": "https://www.zhihu.com/answer/3324324375",
+      "summary": "正文明确考察按攻击次序演化的随机变量序列，并分析其状态转移和长期行为。"
+    },
+    {
+      "title": "原神抽卡中的综合概率指的是什么？",
+      "url": "https://www.zhihu.com/answer/3343322370",
+      "summary": "正文明确构造带状态空间的随机过程X_n，并用它分析首次命中时间和长期分布。"
+    },
+    {
+      "title": "某海鲜馆为回报顾客开展了活动，每次光顾均可以获得“我爱吃鱼”中任意一张牌，那么光顾次数的期望是多少？",
+      "url": "https://www.zhihu.com/answer/3373376633",
+      "summary": "正文把逐次抽卡建模为单位速率泊松过程，并利用各卡类独立泊松过程和停时计算集齐时间。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/3381242514",
+      "summary": "正文讨论随机过程增量取倒数后与倒数过程增量的区别，并说明其分布各阶矩不能直接取倒数。"
+    },
+    {
+      "title": "扩散模型中的Reverse Time SDE是怎么推导得到的呢？",
+      "url": "https://www.zhihu.com/answer/3421808487",
+      "summary": "正文以布朗运动驱动的随机微分方程描述扩散过程，并推导其逆向时间的随机过程。"
+    },
+    {
+      "title": "2024 年阿贝尔奖授予解释随机性的数学家 Michel Talagrand，这项研究有哪些意义？",
+      "url": "https://www.zhihu.com/answer/3438052037",
+      "summary": "正文定义随机过程并以其为核心介绍塔拉格兰的高维链式工具与度量集中研究。"
+    },
+    {
+      "title": "如果概率是50%，为什么用在赌博中还是亏钱？",
+      "url": "https://www.zhihu.com/answer/3440442965",
+      "summary": "正文把逐局变化的资产建模为随机过程，并研究其停止时刻和最终状态。"
+    },
+    {
+      "title": "连续抛了10000次硬币，每次正反概率1/2，问最多几连正的概率最大？",
+      "url": "https://www.zhihu.com/answer/3444769341",
+      "summary": "正文以泊松点过程建模连续正面片段的发生，并借助马尔可夫链讨论吸收概率。"
+    },
+    {
+      "title": "连续抛了10000次硬币，每次正反概率1/2，问最多几连正的概率最大？",
+      "url": "https://www.zhihu.com/answer/3451164409",
+      "summary": "正文把无限次抛硬币建模为带时间指标的随机变量序列，并研究其最大连续正面长度的渐近行为。"
+    },
+    {
+      "title": "高三自认热爱数学，学长学姐和家里人都告诉我等我学了数学就不会热爱了，真的是这样吗?",
+      "url": "https://www.zhihu.com/answer/3454357593",
+      "summary": "正文用一维、二维和三维随机游走说明 Polya 常返性随维数变化，实质介绍随机过程的结果。"
+    },
+    {
+      "title": "如何评价 2024 年阿里全球数学竞赛决赛试题？难度怎么样？",
+      "url": "https://www.zhihu.com/answer/3539761806",
+      "summary": "正文用从内部点出发的布朗运动触碰边界来解释 PDE 解，并讨论随机游走在挖去锥形区域中的边界行为。"
+    },
+    {
+      "title": "日本数学水平怎么样？",
+      "url": "https://www.zhihu.com/answer/3575298957",
+      "summary": "正文具体说明伊藤公式和 Wiener 积分构成随机分析的基本工具及其扩散过程背景。"
+    },
+    {
+      "title": "我想要未来进行随机分析的相关研究，能否给我一个学习路线 比如需要哪些知识以及参考书?",
+      "url": "https://www.zhihu.com/answer/7252502934",
+      "summary": "正文把连续参数随机过程作为测度概率论之后的核心阶段，并继续展开鞅论、马氏过程与随机分析。"
+    },
+    {
+      "title": "作为纯数的重要分支，概率论在国内的发展为什么这么滞后？",
+      "url": "https://www.zhihu.com/answer/24656324428",
+      "summary": "正文评述概率论与随机过程的局限，并联系随机分析和随机图论讨论更一般的随机结构。"
+    },
+    {
+      "title": "如何评价女性数学家王艺霖？",
+      "url": "https://www.zhihu.com/answer/34198208540",
+      "summary": "正文介绍随机游走、随机共形几何与SLE，并说明SLE把复变函数论中的Loewner方程和随机过程结合起来。"
+    },
+    {
+      "title": "2024你的数学研究和学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/46772557984",
+      "summary": "正文从独立同分布随机和形成的随机游走讲到布朗运动和Girsanov变换，展开连续随机过程。"
+    },
+    {
+      "title": "圆桌上 100 个人轮流开枪，最可能活下来的是几号？",
+      "url": "https://www.zhihu.com/answer/67653583820",
+      "summary": "正文把约瑟夫问题从确定性淘汰改写为按概率决定下一人是否出局的离散演化过程。"
+    },
+    {
+      "title": "想要系统地学习扩散模型，应该怎么去做？",
+      "url": "https://www.zhihu.com/answer/77984546305",
+      "summary": "正文把扩散模型的加噪与去噪过程表述为正向和逆向随机过程，并讨论遍历性的作用。"
+    },
+    {
+      "title": "○÷25=○-864，○代表同一个数，○是多少？",
+      "url": "https://www.zhihu.com/answer/95849240586",
+      "summary": "正文把未知量写成随机变量的递推关系，并由平稳分布的一阶矩方程求期望。"
+    },
+    {
+      "title": "中学数学题的「隐藏 BOSS」，你在哪些题里窥见了大学数学的影子？",
+      "url": "https://www.zhihu.com/answer/124219636719",
+      "summary": "正文定义第 n 代个体数的 Galton-Watson 过程，并讨论其后代分布、灭绝条件与不动点。"
+    },
+    {
+      "title": "如果若干个赌徒一直赌下去，直至资金亏完，赌博过程中的最高资金是多少？",
+      "url": "https://www.zhihu.com/answer/124600768894",
+      "summary": "正文建立带两个吸收壁、按概率转移并停止的随机游走模型，属于对随机过程的实质分析。"
+    },
+    {
+      "title": "你可以介绍一个冷门但改变世界的数学模型吗？",
+      "url": "https://www.zhihu.com/answer/127826517337",
+      "summary": "正文用随机到达的泊松过程刻画电话呼叫流量，并说明该模型用于计算占线与阻塞概率。"
+    },
+    {
+      "title": "如果若干个赌徒一直赌下去，直至资金亏完，赌博过程中的最高资金是多少？",
+      "url": "https://www.zhihu.com/answer/130476785034",
+      "summary": "正文把资金建模为随时间演化的随机过程，并研究其停时、最高值和长期行为。"
+    },
+    {
+      "title": "量化交易 orderbook 建模类论文都是基于随机过程的吗？",
+      "url": "https://www.zhihu.com/answer/1898906861174003447",
+      "summary": "正文具体介绍用受控泊松、复合泊松和 Hawkes 跳过程建模限价单成交。"
+    },
+    {
+      "title": "扩散模型中，Flow Matching的训练方式相比于 DDPM 训练方法有何优势？",
+      "url": "https://www.zhihu.com/answer/1901890967210010209",
+      "summary": "正文用含布朗运动和漂移项的随机微分方程描述连续时间扩散过程。"
+    },
+    {
+      "title": "甲和乙游戏一次的胜率是p，但甲输后可以耍赖宣布三局两胜，如再输就五局三胜，无限下去，甲胜率多少？",
+      "url": "https://www.zhihu.com/answer/1912103216646165870",
+      "summary": "正文把连续加赛获胜的规则转化为带吸收边界的一维随机游走，并求最终吸收概率。"
+    },
+    {
+      "title": "喝醉的酒鬼总能找到回家的路， 喝醉的小鸟则可能永远也回不了家具体是什么定理？",
+      "url": "https://www.zhihu.com/answer/1925246910131856744",
+      "summary": "正文定义整数空间上的简单随机游走，讨论其返回起点和维数相关的长期行为。"
+    },
+    {
+      "title": "苏联当年有多少应该拿菲尔兹奖的数学家被黑了？",
+      "url": "https://www.zhihu.com/answer/1936157843532276387",
+      "summary": "正文把随机过程列为柯尔莫哥洛夫的奠基性研究领域，并进一步介绍转移概率演化这一核心工具。"
+    },
+    {
+      "title": "大家认为纯数学里最美丽漂亮的领域是哪个(如果只能选一个的话)？",
+      "url": "https://www.zhihu.com/answer/1938896914239169310",
+      "summary": "正文定义随机几何，并以泊松点过程、随机集合和随机镶嵌研究空间中的随机对象，构成随机过程建模。"
+    },
+    {
+      "title": "房间内有 100 人，每人有 100 块，每分钟随机给另一个人 1 块，最后房间内的财富分布怎样？",
+      "url": "https://www.zhihu.com/answer/1962182873164543991",
+      "summary": "正文建立每分钟随机转移一元钱的离散时间随机过程，并分析其长期财富分布。"
+    },
+    {
+      "title": "哪里有高斯过程详细的数学推导？",
+      "url": "https://www.zhihu.com/answer/1967599296091259508",
+      "summary": "正文给出高斯过程的定义，并讨论其极值变量与布朗桥。"
+    },
+    {
+      "title": "2025ICCM数学奖揭晓，王虹、袁新意、邓煜获金奖，他们对数学有哪些贡献？有望拿2026菲尔兹奖吗？",
+      "url": "https://www.zhihu.com/answer/1967738946369860903",
+      "summary": "正文讨论随机初值、Gaussian 随机变量与 Gibbs 测度下方程的典型行为。"
+    },
+    {
+      "title": "泊松分布的现实意义是什么，为什么现实生活多数服从于泊松分布？",
+      "url": "https://www.zhihu.com/answer/1978118133635097669",
+      "summary": "正文以泊松过程刻画事件到达，并讨论相邻事件等待时间、第 r 次事件到达时间与指数、伽马分布的关系。"
+    },
+    {
+      "title": "如何计算一维等概率随机游走中曾经最远到达距离的期望？",
+      "url": "https://www.zhihu.com/answer/1979397333759317658",
+      "summary": "正文完整分析从原点出发的一维等概率随机游走，并计算其触碰边界的概率。"
+    },
+    {
+      "title": "甲和乙游戏一次的胜率是p，但甲输后可以耍赖宣布三局两胜，如再输就五局三胜，无限下去，甲胜率多少？",
+      "url": "https://www.zhihu.com/answer/1984009378144204443",
+      "summary": "正文把无限延长赌局转化为从 0 出发触及 +1 的一维随机游走吸收概率问题。"
+    },
+    {
+      "title": "为什么高维空间下距离度量逐渐失效？",
+      "url": "https://www.zhihu.com/answer/2006728643884390189",
+      "summary": "正文以三维格点随机游走讲解返回与逃逸概率，并讨论维数升高后的失返现象。"
+    },
+    {
+      "title": "随机微分方程与普通微分方程有什么区别？",
+      "url": "https://www.zhihu.com/answer/2008206088646980905",
+      "summary": "正文说明 SDE 的解是随机轨迹，逐步构造离散更新并重复抽样以估计这些随机路径的分布、均值和方差。"
+    },
+    {
+      "title": "如何理解测度这个概念？",
+      "url": "https://www.zhihu.com/answer/2010115597673968252",
+      "summary": "正文以布朗路径无界变差为起点讲解 Itô 积分、Doléans 测度和更一般的随机积分。"
+    },
+    {
+      "title": "有了方差为什么还需要标准差？",
+      "url": "https://www.zhihu.com/answer/2015995526022198403",
+      "summary": "正文把随机游走的瞬时增量写成维纳过程，并继续展开几何布朗运动的连续随机路径。"
+    },
+    {
+      "title": "波动率、隐含波动率到底是什么?",
+      "url": "https://www.zhihu.com/answer/2019579059529610161",
+      "summary": "正文从随机游走建立带漂移和扩散项的随机过程，并进一步联系维纳过程与几何布朗运动。"
+    },
+    {
+      "title": "以测度为基础的高等概率论和普通的概率论到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/2019834726597281108",
+      "summary": "正文介绍随机游走、鞅、停时和滤波，并讨论布朗运动驱动的随机过程。"
+    },
+    {
+      "title": "以测度为基础的高等概率论和普通的概率论到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/2020110521634943399",
+      "summary": "正文以扩散模型和布朗运动为例说明随机过程随时间演化，并讨论伊藤微积分与鞅论。"
+    },
+    {
+      "title": "你可以介绍一个冷门但改变世界的数学模型吗？",
+      "url": "https://www.zhihu.com/answer/2026070730215897085",
+      "summary": "正文把状态随转移规则逐时刻演化描述为由初始状态出发的随机过程。"
+    },
+    {
+      "title": "你可以介绍一个冷门但改变世界的数学模型吗？",
+      "url": "https://www.zhihu.com/answer/2028625889261305995",
+      "summary": "正文引入由漂移项和布朗运动波动项组成的伊藤扩散过程，并讨论其连续随机轨道。"
+    },
+    {
+      "title": "你可以介绍一个冷门但改变世界的数学模型吗？",
+      "url": "https://www.zhihu.com/answer/2029375414963848353",
+      "summary": "正文定义由布朗运动驱动、同时求解价格与对冲过程的倒向随机微分方程。"
+    },
+    {
+      "title": "日常生活中，哪些看似复杂的数学原理正在默默发挥作用？",
+      "url": "https://www.zhihu.com/answer/2030083756711786317",
+      "summary": "正文讨论随机变量序列、鞅、停时定理和几何布朗运动，用随机过程语言描述何时停止。"
+    },
+    {
+      "title": "什么是随机过程？",
+      "url": "https://www.zhihu.com/answer/2035711496362144543",
+      "summary": "正文以时间与样本结果构成的二维表格解释随机过程及其样本轨道。"
+    },
+    {
+      "title": "真正会数学建模的人有多厉害？",
+      "url": "https://www.zhihu.com/answer/2036859311540921399",
+      "summary": "正文以左右房间间转移为两状态随机过程，写出转移概率与期望增量，并用微观随机行为解释宏观扩散。"
+    },
+    {
+      "title": "随机过程中，怎样较为通俗地理解「停时」这个概念（书上的一般都是公理化的定义，不好理解）？",
+      "url": "https://www.zhihu.com/answer/2037988104154386564",
+      "summary": "正文以布朗运动为连续时间随机过程，讨论其鞅性、首达时和强马尔可夫性质。"
+    },
+    {
+      "title": "鞅到底是什么？能否用通俗的话语来解释一下？",
+      "url": "https://www.zhihu.com/answer/2038304851088646470",
+      "summary": "正文以鞅为线索讲解随机过程中的条件期望、鞅变换、停时和收敛等性质。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/2041077770424427359",
+      "summary": "正文定义一个反复抛硬币并按涨跌比例更新资金的多阶段随机过程，分析其长期路径和遍历性。"
+    },
+    {
+      "title": "金融物理学的起源",
+      "url": "https://zhuanlan.zhihu.com/p/19945442",
+      "summary": "正文以随机行走、Wiener 过程和 Levy 稳定过程说明金融市场随机过程模型的来源。"
+    },
+    {
+      "title": "高阶关联：比随机行走复杂那么一点点的问题",
+      "url": "https://zhuanlan.zhihu.com/p/20050681",
+      "summary": "正文建立带历史记忆的随机游走模型，并比较其与独立随机过程的不同。"
+    },
+    {
+      "title": "每次均匀随机走0-1米，走100米需要几次？",
+      "url": "https://zhuanlan.zhihu.com/p/20056219",
+      "summary": "正文把均匀步长的随机行走识别为更新过程，并围绕首次跨过一百米这一更新事件求步数规律。"
+    },
+    {
+      "title": "LGD:建模与预测",
+      "url": "https://zhuanlan.zhihu.com/p/20129055",
+      "summary": "正文把违约后的回收与损失演化描述为随机过程，并建立资产演化与 LGD 状态相连的模型。"
+    },
+    {
+      "title": "10036 赌徒的长征(3)——鞅的停时定理",
+      "url": "https://zhuanlan.zhihu.com/p/20280190",
+      "summary": "正文定义离散时间鞅，并用赌博策略解释随机过程、停止时间及停时定理的适用条件。"
+    },
+    {
+      "title": "目标追踪之卡尔曼滤波",
+      "url": "https://zhuanlan.zhihu.com/p/21692854",
+      "summary": "正文把带噪声观测建模为线性动力系统，并推导卡尔曼滤波的状态估计。"
+    },
+    {
+      "title": "金融时间序列分析入门【一】",
+      "url": "https://zhuanlan.zhihu.com/p/21781849",
+      "summary": "正文系统介绍时间序列、平稳性、自相关函数以及自回归模型的建模与检验。"
+    },
+    {
+      "title": "金融时间序列入门【二】",
+      "url": "https://zhuanlan.zhihu.com/p/21811982",
+      "summary": "正文系统讲解 MA、ARMA、ARIMA 模型的结构、平稳性、阶数识别和预测。"
+    },
+    {
+      "title": "AR、MA及ARMA模型",
+      "url": "https://zhuanlan.zhihu.com/p/22248464",
+      "summary": "正文以 AR、MA、ARMA、ARIMA 等模型刻画时间序列的依赖、差分、估计与预测过程。"
+    },
+    {
+      "title": "【背景知识】马尔科夫过程和伊藤引理",
+      "url": "https://zhuanlan.zhihu.com/p/22653871",
+      "summary": "正文定义独立增量过程、维纳过程和伊藤过程，展开了随机过程的基本结构。"
+    },
+    {
+      "title": "期权定价笔记",
+      "url": "https://zhuanlan.zhihu.com/p/22754445",
+      "summary": "正文讲解布朗运动、伊藤积分、域流和鞅表示定理，并据此连接两类期权定价方法。"
+    },
+    {
+      "title": "概率论与随机过程相关书籍点评（上）",
+      "url": "https://zhuanlan.zhihu.com/p/23438172",
+      "summary": "正文比较不同维度网格随机游动的常返性，说明概率论之后随机过程课程的核心对象。"
+    },
+    {
+      "title": "时间序列分析----结合ARMA的卡尔曼滤波算法",
+      "url": "https://zhuanlan.zhihu.com/p/23534595",
+      "summary": "正文把 HS300 收益率作为时间序列，构建 ARMA 状态空间并用卡尔曼滤波递归估计状态，讲解随机过程建模与预测。"
+    },
+    {
+      "title": "测度论观点下的初等概率论与随机过程",
+      "url": "https://zhuanlan.zhihu.com/p/23670513",
+      "summary": "正文用轨道空间和随机过程的存在性问题讨论连续时间随机过程及布朗运动的严格理论基础。"
+    },
+    {
+      "title": "统计套利 Review and Outlook",
+      "url": "https://zhuanlan.zhihu.com/p/23889998",
+      "summary": "正文用马尔科夫链、布朗运动和 Ornstein-Uhlenbeck 过程刻画价差的均值回复与随机演化。"
+    },
+    {
+      "title": "高斯过程回归？效果意想不到的好",
+      "url": "https://zhuanlan.zhihu.com/p/24388992",
+      "summary": "正文把随机过程定义为一组随机变量，并进一步介绍服从高斯分布的随机过程。"
+    },
+    {
+      "title": "鞅与停时与赌徒必胜策略与生男生女（上）",
+      "url": "https://zhuanlan.zhihu.com/p/24460319",
+      "summary": "正文在递增的 sigma 域序列上定义鞅，讨论增量、下鞅和上鞅，并联系布朗运动说明随机过程。"
+    },
+    {
+      "title": "鞅与停时与赌徒必胜策略与生男生女（下）",
+      "url": "https://zhuanlan.zhihu.com/p/24673131",
+      "summary": "正文在递增 sigma 域上定义鞅和停时，并讨论可选停时定理，属于随机过程中的鞅论。"
+    },
+    {
+      "title": "布朗运动与随机游走",
+      "url": "https://zhuanlan.zhihu.com/p/24935271",
+      "summary": "正文通过缩放随机游走后取弱极限构造布朗运动，具体讨论随机过程的路径与收敛。"
+    },
+    {
+      "title": "马尔可夫链 （Markov Chain）是什么鬼",
+      "url": "https://zhuanlan.zhihu.com/p/26453269",
+      "summary": "正文以天气变化说明随机过程随时间演化的建模与预测作用。"
+    },
+    {
+      "title": "用一个公式就改变了整个金融学的男人——伊藤清",
+      "url": "https://zhuanlan.zhihu.com/p/26665794",
+      "summary": "正文从抛硬币随机游走讲到维纳过程、布朗运动和伊藤引理，解释随机过程及其金融应用。"
+    },
+    {
+      "title": "[时间序列分析][4]--AR模型,MA模型,ARMA模型介绍",
+      "url": "https://zhuanlan.zhihu.com/p/26996197",
+      "summary": "正文系统介绍 AR、MA、ARMA 平稳时间序列模型及白噪声检验，属于随机过程的建模讨论。"
+    },
+    {
+      "title": "时间序列<一>（基于R语言）",
+      "url": "https://zhuanlan.zhihu.com/p/27453841",
+      "summary": "正文围绕时间序列的构造、平稳性、趋势与季节分解以及预测展开，是随机过程的典型应用。"
+    },
+    {
+      "title": "什么是Gaussian process? —— 说说高斯过程与高斯分布的关系",
+      "url": "https://zhuanlan.zhihu.com/p/27555501",
+      "summary": "正文定义高斯过程为一族连续域上随机变量的联合分布，并讨论其存在性与测度背景。"
+    },
+    {
+      "title": "房间内 100 个人，每人有 100 块，每分钟随机给另一个人 1 块，最后这个房间内的财富分布是怎样的？",
+      "url": "https://zhuanlan.zhihu.com/p/27797001",
+      "summary": "正文用每一轮随机转移财富的规则和代码模拟，展示一组个体财富状态随时间反复随机演化的过程。"
+    },
+    {
+      "title": "Black-Schole公式中N(d1)到底有什么意义",
+      "url": "https://zhuanlan.zhihu.com/p/27918823",
+      "summary": "正文用可作为 numeraire 的交易资产构造候选随机过程，并变换对应的布朗运动。"
+    },
+    {
+      "title": "隐马尔科夫模型",
+      "url": "https://zhuanlan.zhihu.com/p/27907806",
+      "summary": "正文把隐马来科夫模型解释为处理有序时间序列的状态空间随机过程，并讨论滤波、预测和隐藏状态推断。"
+    },
+    {
+      "title": "《强化学习》第二讲 马尔科夫决策过程",
+      "url": "https://zhuanlan.zhihu.com/p/28084942",
+      "summary": "正文把马尔科夫链定义为无记忆随机过程，并展开状态序列和奖励序列。"
+    },
+    {
+      "title": "MATLAB 笔记：蒙特卡洛方法",
+      "url": "https://zhuanlan.zhihu.com/p/28133690",
+      "summary": "正文以几何布朗运动描述股票价格路径，并重复模拟其时间演化。"
+    },
+    {
+      "title": "关于“房间里有100个人，每人都有100元钱，每轮每人要拿一元钱随机给另一个人”这个游戏的解析解",
+      "url": "https://zhuanlan.zhihu.com/p/28175520",
+      "summary": "正文研究随机给钱过程的状态演化、平衡态及稳态概率。"
+    },
+    {
+      "title": "100个人随机给钱实验的分布的解析解",
+      "url": "https://zhuanlan.zhihu.com/p/28364861",
+      "summary": "正文把连续随机转移建模为相空间中的随机行走，并讨论长期演化后的均衡分布。"
+    },
+    {
+      "title": "张天蓉专栏：酒鬼漫步的数学——随机过程",
+      "url": "https://zhuanlan.zhihu.com/p/28515637",
+      "summary": "正文以随机游走和伯努利过程为例解释随机过程是随时间演化的一族随机变量。"
+    },
+    {
+      "title": "一种随机微分方程数值模拟的另类方法",
+      "url": "https://zhuanlan.zhihu.com/p/28628912",
+      "summary": "正文通过布朗增量驱动的随机微分方程描述状态随时间的随机演化。"
+    },
+    {
+      "title": "【Alpha-Nebula】时间序列数据的Bootstrap方法（含视频）",
+      "url": "https://zhuanlan.zhihu.com/p/28956503",
+      "summary": "正文定义严平稳和宽平稳时间序列，并讨论 AR、MA、ARMA 等随机过程模型。"
+    },
+    {
+      "title": "隐马尔可夫模型HMM",
+      "url": "https://zhuanlan.zhihu.com/p/29938926",
+      "summary": "正文把 HMM 框定为带隐藏状态的序列随机过程，并讨论状态序列的生成。"
+    },
+    {
+      "title": "MCMC随机采样",
+      "url": "https://zhuanlan.zhihu.com/p/30003899",
+      "summary": "正文把马尔可夫链作为序列状态随机过程，说明其收敛性质并用于分布采样。"
+    },
+    {
+      "title": "《Quantitative Finance》读书笔记4：随机微积分初步",
+      "url": "https://zhuanlan.zhihu.com/p/30292226",
+      "summary": "正文以随机游走极限定义布朗运动，并讨论鞅、二次变分和随机积分等随机过程性质。"
+    },
+    {
+      "title": "Gaussian process regression的简洁推导——从Function-space角度看",
+      "url": "https://zhuanlan.zhihu.com/p/31203558",
+      "summary": "正文从连续域上的随机变量联合定义高斯过程，并以随机过程的均值函数和协方差函数刻画其分布。"
+    },
+    {
+      "title": "图文详解高斯过程（一）——含代码",
+      "url": "https://zhuanlan.zhihu.com/p/32152162",
+      "summary": "正文以输入点上的随机变量及其联合分布构造高斯过程，并用先验抽样和后验推断解释这一随机过程。"
+    },
+    {
+      "title": "以测度为基础的概率基本概念与结论",
+      "url": "https://zhuanlan.zhihu.com/p/32334499",
+      "summary": "正文定义 filtration、随机过程、样本路径和适应过程，并展开鞅、停时与布朗运动的性质。"
+    },
+    {
+      "title": "泛函分析观点下的随机积分 (一)：L2鞅与变差",
+      "url": "https://zhuanlan.zhihu.com/p/32301412",
+      "summary": "正文讲解适应随机过程、鞅、二次变差和bracket过程，这些是随机积分的基础对象。"
+    },
+    {
+      "title": "泛函分析观点下的随机积分 (二)：Itô积分与等距",
+      "url": "https://zhuanlan.zhihu.com/p/32447056",
+      "summary": "正文在 filtered 概率空间上讨论适应过程、布朗运动、鞅和随机积分，实质讲解随机过程。"
+    },
+    {
+      "title": "从随机游走到马尔科夫过程（零）",
+      "url": "https://zhuanlan.zhihu.com/p/32618651",
+      "summary": "正文构造带概率转移的一维随机游走，分析资金状态变化及最终输光概率。"
+    },
+    {
+      "title": "泛函分析观点下的随机积分 (三)：局部鞅与半鞅",
+      "url": "https://zhuanlan.zhihu.com/p/32659917",
+      "summary": "正文定义连续局部鞅、二次变差、半鞅及其随机积分，并说明如何把布朗运动纳入积分理论。"
+    },
+    {
+      "title": "泛函分析观点下的随机积分 (完)：随机控制收敛与Itô公式",
+      "url": "https://zhuanlan.zhihu.com/p/32743032",
+      "summary": "正文围绕连续半鞅、局部鞅、二次变差和布朗运动展开随机积分及Itô公式。"
+    },
+    {
+      "title": "Itô扩散过程与PDE解的概率表示",
+      "url": "https://zhuanlan.zhihu.com/p/33082763",
+      "summary": "正文定义随机微分方程及其积分形式，并说明满足该类方程的 Itô 扩散过程。"
+    },
+    {
+      "title": "概率图模型体系：HMM、MEMM、CRF",
+      "url": "https://zhuanlan.zhihu.com/p/33397147",
+      "summary": "正文定义马尔科夫过程及其阶数，并以 HMM、MEMM 和 CRF 讨论随机状态序列的建模与解码。"
+    },
+    {
+      "title": "时间序列分析（一）:平稳过程",
+      "url": "https://zhuanlan.zhihu.com/p/33435237",
+      "summary": "正文把时间序列定义为随时间演化的随机变量序列，并讨论其统计建模和预测。"
+    },
+    {
+      "title": "时间序列分析（二）:AR 模型",
+      "url": "https://zhuanlan.zhihu.com/p/33677770",
+      "summary": "正文定义 AR(p) 自回归过程，讨论平稳性、模拟、估计和预测等随机过程性质。"
+    },
+    {
+      "title": "【答疑解惑-II】——不满足正态分布的数据到底能不能用Gaussian process的方法呢？",
+      "url": "https://zhuanlan.zhihu.com/p/33754819",
+      "summary": "正文把高斯过程解释为连续域上无限多个随机变量的联合分布，并说明其有限维联合高斯性。"
+    },
+    {
+      "title": "马氏链的常返性",
+      "url": "https://zhuanlan.zhihu.com/p/34014411",
+      "summary": "正文定义可数状态空间上的时齐马氏链，并分析互通状态、随机游走及其常返性。"
+    },
+    {
+      "title": "随机分析的应用 (一)：简单随机量的计算",
+      "url": "https://zhuanlan.zhihu.com/p/34639255",
+      "summary": "正文以随机游走和布朗运动为对象，讨论停时、鞅与随机过程性质。"
+    },
+    {
+      "title": "时间序列分析",
+      "url": "https://zhuanlan.zhihu.com/p/35069699",
+      "summary": "正文定义随机过程为样本函数的集合，并区分随机变量与随时间变化的随机过程。"
+    },
+    {
+      "title": "利用python进行时间序列分析——季节性ARIMA",
+      "url": "https://zhuanlan.zhihu.com/p/35282988",
+      "summary": "正文把季节差分与一阶差分后的平稳序列纳入多重季节性MA模型，并用SARIMA完成参数估计和预测，实质讨论随机过程建模。"
+    },
+    {
+      "title": "卡尔曼滤波：从入门到精通",
+      "url": "https://zhuanlan.zhihu.com/p/36745755",
+      "summary": "正文建立带过程噪声和测量噪声的状态递推模型，用预测与测量两个阶段持续更新随机状态。"
+    },
+    {
+      "title": "再闲谈波动率1——Vega到底是什么东西",
+      "url": "https://zhuanlan.zhihu.com/p/36942658",
+      "summary": "正文讨论随机波动率过程、波动率分布及路径依赖产品的定价敏感度，属于随机过程建模。"
+    },
+    {
+      "title": "线性动态系统与卡尔曼滤波",
+      "url": "https://zhuanlan.zhihu.com/p/35978617",
+      "summary": "正文将线性动态系统作为连续隐变量的时间序列模型，推导前向、后向及平滑所需的随机过程递推。"
+    },
+    {
+      "title": "带你正确理解 Hurst 指数和分数布朗运动",
+      "url": "https://zhuanlan.zhihu.com/p/38282038",
+      "summary": "正文定义分数布朗运动这一连续随机过程，并讲解其增量稳定性、自相似性和自相关性。"
+    },
+    {
+      "title": "布朗运动、伊藤引理、BS 公式（前篇）",
+      "url": "https://zhuanlan.zhihu.com/p/38293827",
+      "summary": "正文从随机过程定义出发介绍布朗运动，并解释其作为股价随机性基本模型的作用。"
+    },
+    {
+      "title": "布朗运动、伊藤引理、BS 公式（后篇）",
+      "url": "https://zhuanlan.zhihu.com/p/38294971",
+      "summary": "正文定义伊藤漂移扩散过程并用伊藤引理求解几何布朗运动，属于随机过程建模。"
+    },
+    {
+      "title": "写给你的金融时间序列分析：初级篇",
+      "url": "https://zhuanlan.zhihu.com/p/38321845",
+      "summary": "正文以白噪声构造随机游走这一离散随机过程，并推导其均值、方差、协方差和自相关函数。"
+    },
+    {
+      "title": "写给你的金融时间序列分析：进阶篇",
+      "url": "https://zhuanlan.zhihu.com/p/38322333",
+      "summary": "正文定义自回归、滑动平均和 ARMA 三类时间序列随机过程，并讨论平稳性条件。"
+    },
+    {
+      "title": "马尔科夫随机场(MRF)在深度学习图像处理中的应用-图像分割、纹理迁移",
+      "url": "https://zhuanlan.zhihu.com/p/38343732",
+      "summary": "正文从随机游走和马尔科夫链出发讲解随机过程及概率图模型。"
+    },
+    {
+      "title": "伊藤引理 --- 浅述",
+      "url": "https://zhuanlan.zhihu.com/p/38820889",
+      "summary": "正文以布朗运动和一般伊藤过程为主体，说明随机变量的增量、波动项及其连续化形式。"
+    },
+    {
+      "title": "反常识！房间内每个人随机给别人 1 元，你猜不到最后会发生什么...",
+      "url": "https://zhuanlan.zhihu.com/p/46090330",
+      "summary": "正文把财富随机转移过程刻画为常返随机过程，并讨论返回时间与长期财富变化。"
+    },
+    {
+      "title": "布朗运动、鞅表示与Wiener混沌 (上)",
+      "url": "https://zhuanlan.zhihu.com/p/41045516",
+      "summary": "正文围绕布朗运动、连续局部鞅、指数鞅和鞅表示展开随机过程理论。"
+    },
+    {
+      "title": "概率方法的非概率应用一则",
+      "url": "https://zhuanlan.zhihu.com/p/47965729",
+      "summary": "正文在同一概率空间构造两个随机过程实现，并用它们最终相遇证明极限估计。"
+    },
+    {
+      "title": "1维上的Malliavin分析初步",
+      "url": "https://zhuanlan.zhihu.com/p/49269815",
+      "summary": "正文从布朗运动出发构造Ornstein-Uhlenbeck过程及其算子半群，讨论其分布和生成元。"
+    },
+    {
+      "title": "浅谈马氏性与强马氏性",
+      "url": "https://zhuanlan.zhihu.com/p/28601250",
+      "summary": "正文把逐时刻变化的状态序列建模为随机过程，并讨论离散时间、连续时间及一般状态空间。"
+    },
+    {
+      "title": "Stata: 单位根检验就这么轻松",
+      "url": "https://zhuanlan.zhihu.com/p/50553021",
+      "summary": "正文由 AR(1) 方程定义随机游走和带漂移随机游走，并分析其趋势与平稳性，属于随机过程的实例讲解。"
+    },
+    {
+      "title": "期权(一)：几何布朗运动、伊藤公式与股价的解",
+      "url": "https://zhuanlan.zhihu.com/p/52023747",
+      "summary": "正文定义具有独立正态增量的布朗运动，并以随机过程描述股价波动。"
+    },
+    {
+      "title": "时间序列（一）：平稳性、自相关函数与LB检验",
+      "url": "https://zhuanlan.zhihu.com/p/54153963",
+      "summary": "正文以随机过程的期望、方差和协方差定义弱平稳性，并讨论时间序列建模。"
+    },
+    {
+      "title": "对采样的理解",
+      "url": "https://zhuanlan.zhihu.com/p/46096712",
+      "summary": "正文以随机变量随时间变化来定义随机过程，并把它作为理解 MCMC 的基础。"
+    },
+    {
+      "title": "关于时间序列预测的一些总结",
+      "url": "https://zhuanlan.zhihu.com/p/54413813",
+      "summary": "正文把时间序列建模为随机变量序列，并用白噪声和 AR、MA、ARMA 描述其时序随机结构。"
+    },
+    {
+      "title": "DDPG中的Ornstein-Uhlenbeck过程怎么理解？",
+      "url": "https://zhuanlan.zhihu.com/p/54670989",
+      "summary": "正文围绕Ornstein-Uhlenbeck过程解释均值回归和随机噪声的连续时间演化，实质介绍随机过程。"
+    },
+    {
+      "title": "一篮子股票的相关性建模",
+      "url": "https://zhuanlan.zhihu.com/p/56237366",
+      "summary": "正文建立含布朗随机因子的局部波动率模型，并把个股随机过程分解为公共市场因子和个股因子。"
+    },
+    {
+      "title": "理解隐马尔可夫模型",
+      "url": "https://zhuanlan.zhihu.com/p/56779310",
+      "summary": "正文从随机过程和时间状态序列讲起，定义状态演化及状态之间的转移概率。"
+    },
+    {
+      "title": "动力学蒙特卡洛算法",
+      "url": "https://zhuanlan.zhihu.com/p/56917127",
+      "summary": "正文把连续时间的状态跳跃解释为多个独立Poisson过程的叠加，并据此推导等待时间与下一状态的随机过程。"
+    },
+    {
+      "title": "抛硬币问题的鞅解法",
+      "url": "https://zhuanlan.zhihu.com/p/57196228",
+      "summary": "正文构造公平赌博赔付过程这一鞅，定义停时并应用可选停时定理求抛硬币等待时间和竞争模式概率。"
+    },
+    {
+      "title": "策略篇：残差项的均值回归——实证部分",
+      "url": "https://zhuanlan.zhihu.com/p/57840924",
+      "summary": "正文给出OU随机过程的微分形式、离散形式和AR(1)形式，并分析均值回复与平稳性。"
+    },
+    {
+      "title": "时间序列分析（1） 基本概念与实战",
+      "url": "https://zhuanlan.zhihu.com/p/60023855",
+      "summary": "正文以白噪声和随机游走为随机过程实例，分析均值、方差及平稳性。"
+    },
+    {
+      "title": "利用IBM Q量子计算机做金融衍生品定价",
+      "url": "https://zhuanlan.zhihu.com/p/62262085",
+      "summary": "正文用布朗运动驱动的随机微分方程刻画利率期限结构及其波动。"
+    },
+    {
+      "title": "Time Series时间序列笔记",
+      "url": "https://zhuanlan.zhihu.com/p/55569371",
+      "summary": "正文系统讲解时间序列过程、平稳性、自相关及 ARMA 等随机过程模型。"
+    },
+    {
+      "title": "金融随机分析——概率论和布朗运动",
+      "url": "https://zhuanlan.zhihu.com/p/64805973",
+      "summary": "正文给出随机过程的定义、样本路径、域流和适应过程，并以布朗运动作为核心例子展开。"
+    },
+    {
+      "title": "金融随机分析——随机积分与伊藤引理",
+      "url": "https://zhuanlan.zhihu.com/p/65054050",
+      "summary": "正文从布朗运动驱动的简单过程出发，讲解伊藤积分的鞅性质、二次变差以及一般随机过程表示。"
+    },
+    {
+      "title": "[markov系列5]马尔可夫链与随机游走问题",
+      "url": "https://zhuanlan.zhihu.com/p/66593338",
+      "summary": "正文定义一维随机游走，并用独立随机变量描述游走者在离散时刻的位置。"
+    },
+    {
+      "title": "布朗运动基本方程",
+      "url": "https://zhuanlan.zhihu.com/p/67229061",
+      "summary": "正文以粘滞阻力和随机白噪声建立布朗粒子的速度过程，并讨论其均方位移。"
+    },
+    {
+      "title": "身边的微分方程 (0)：序曲",
+      "url": "https://zhuanlan.zhihu.com/p/66085740",
+      "summary": "正文介绍随机微分方程的漂移项与随机扰动项，并举花粉运动和金融价格波动作为随机过程模型。"
+    },
+    {
+      "title": "Neural Process",
+      "url": "https://zhuanlan.zhihu.com/p/70226367",
+      "summary": "正文给出高斯过程的有限维分布定义、均值与协方差函数，并据此推导预测分布。"
+    },
+    {
+      "title": "通俗理解高斯过程及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/73832253",
+      "summary": "正文以有限个时间点上的联合高斯分布定义高斯过程这一随机过程。"
+    },
+    {
+      "title": "概率图模型系列-隐马尔可夫模型（HMM）的numpy实现",
+      "url": "https://zhuanlan.zhihu.com/p/75406198",
+      "summary": "正文把 HMM 等概率图模型用于不定长序列的演化建模，属于离散随机过程的应用。"
+    },
+    {
+      "title": "高斯过程 Gaussian Processes 原理、可视化及代码实现",
+      "url": "https://zhuanlan.zhihu.com/p/75589452",
+      "summary": "正文把高斯过程定义为有限维投影服从多元高斯分布的随机过程，并讨论均值函数和协方差核。"
+    },
+    {
+      "title": "离散时间鞅（附收敛模式总结）",
+      "url": "https://zhuanlan.zhihu.com/p/76804737",
+      "summary": "正文围绕离散时间鞅、停时、上穿不等式与收敛模式组织内容，并给出随机过程的停时期望问题。"
+    },
+    {
+      "title": "最通俗易懂的白话狄利克雷过程(Dirichlet Process）\b",
+      "url": "https://zhuanlan.zhihu.com/p/76991275",
+      "summary": "正文把离散分布G作为从Dirichlet Process采样得到的随机对象，并讨论其无限构造。"
+    },
+    {
+      "title": "时间序列 | ARMA模型",
+      "url": "https://zhuanlan.zhihu.com/p/76946296",
+      "summary": "正文以AR(1)为随机数据生成过程，说明序列如何由滞后项和白噪声递推产生。"
+    },
+    {
+      "title": "狄利克雷分布(Dirichlet Distribution)",
+      "url": "https://zhuanlan.zhihu.com/p/78743630",
+      "summary": "正文把狄利克雷过程定义为随机概率测度，并展开其抽样性质与餐馆过程后验。"
+    },
+    {
+      "title": "随机过程在数据科学和深度学习中有哪些应用？",
+      "url": "https://zhuanlan.zhihu.com/p/79032057",
+      "summary": "正文用泊松过程、随机漫步、布朗运动、高斯过程和 ARMA 等例子解释随机过程。"
+    },
+    {
+      "title": "【手把手教你】使用Python玩转金融时间序列模型",
+      "url": "https://zhuanlan.zhihu.com/p/80191710",
+      "summary": "正文以 AR、MA、ARMA、ARIMA 模型刻画时间序列的依赖、差分、估计与预测，是随机过程的应用。"
+    },
+    {
+      "title": "影响中国居民消费水平的因素分析",
+      "url": "https://zhuanlan.zhihu.com/p/81567267",
+      "summary": "正文把历年消费水平作为时间序列，经对数变换和二阶差分平稳化后拟合 ARIMA(1,2,0) 模型并预测。"
+    },
+    {
+      "title": "数学基础之Karhunen–Loève展开（专注于Mercer定理的RKHS引论）",
+      "url": "https://zhuanlan.zhihu.com/p/77418542",
+      "summary": "正文定义平方可积随机过程及其协方差函数，并证明 Karhunen-Loève 随机过程展开。"
+    },
+    {
+      "title": "Poisson（泊松）过程",
+      "url": "https://zhuanlan.zhihu.com/p/83600500",
+      "summary": "正文定义泊松计数过程，并推导计数增量的分布、到达间隔和独立过程叠加等性质。"
+    },
+    {
+      "title": "关于波动率，你想知道的都在这了",
+      "url": "https://zhuanlan.zhihu.com/p/85469506",
+      "summary": "正文讲解EWMA和GARCH如何随历史扰动更新条件波动率，并讨论均值回复与长期波动率。"
+    },
+    {
+      "title": "高斯过程和贝叶斯最优化",
+      "url": "https://zhuanlan.zhihu.com/p/86386926",
+      "summary": "正文定义高斯过程为任意有限个函数值构成高斯随机向量的随机过程。"
+    },
+    {
+      "title": "马尔可夫过程（以马尔科夫链Markov为例）",
+      "url": "https://zhuanlan.zhihu.com/p/86995916",
+      "summary": "正文从随机过程的条件分布定义出发，介绍转移分布、转移概率和过程演化性质。"
+    },
+    {
+      "title": "念念不忘，必有熵增",
+      "url": "https://zhuanlan.zhihu.com/p/67780950",
+      "summary": "正文研究随机游动及任意随机时刻分布的长期行为，属于随机过程。"
+    },
+    {
+      "title": "隐马尔可夫模型（HMM）详解",
+      "url": "https://zhuanlan.zhihu.com/p/88362664",
+      "summary": "正文从随时间转移的状态序列出发，明确把马尔可夫模型放在随机过程框架下定义。"
+    },
+    {
+      "title": "概率论从入门到放弃（一）——概率空间和随机变量",
+      "url": "https://zhuanlan.zhihu.com/p/38113911",
+      "summary": "正文定义随机过程及样本路径，说明随时间变化的随机变量族如何描述随机演化。"
+    },
+    {
+      "title": "泊松分布、指数分布与伽马分布",
+      "url": "https://zhuanlan.zhihu.com/p/89912218",
+      "summary": "正文把事件计数与等待时间联系起来，说明泊松过程的时间间隔服从指数分布。"
+    },
+    {
+      "title": "【排队论学习笔记】M/M/1队列和M/M/s队列",
+      "url": "https://zhuanlan.zhihu.com/p/90923312",
+      "summary": "正文以到达和服务时间均为指数的生灭过程推导 M/M/1 与 M/M/s 队列的状态概率和等待时间。"
+    },
+    {
+      "title": "时间序列分析各大模型总结及超典型例题",
+      "url": "https://zhuanlan.zhihu.com/p/90995180",
+      "summary": "正文按 AR、MA、ARMA、ARIMA 和季节模型组织时间序列，并讨论平稳域、可逆条件及自相关函数的求解，属于随机过程建模。"
+    },
+    {
+      "title": "独家 | ARIMA/Sarima与LSTM的时间序列数据集成学习",
+      "url": "https://zhuanlan.zhihu.com/p/76957304",
+      "summary": "正文讨论时间序列的平稳性、差分和自相关结构，并用ARMA/SARIMA刻画随时间演化的随机序列。"
+    },
+    {
+      "title": "8. IMU 姿态估计的新方法",
+      "url": "https://zhuanlan.zhihu.com/p/92743692",
+      "summary": "正文讨论 SO(3) 上的随机过程、维纳噪声和连续时间滤波方程。"
+    },
+    {
+      "title": "时间序列--GARCH模型",
+      "url": "https://zhuanlan.zhihu.com/p/88788810",
+      "summary": "正文系统定义 GARCH(p,q) 与 GARCH(1,1) 的条件方差递推，用随机过程刻画波动率演化。"
+    },
+    {
+      "title": "《常见随机过程》（一）",
+      "url": "https://zhuanlan.zhihu.com/p/93836989",
+      "summary": "正文系统讲解正态、泊松、维纳和更新等随机过程的定义、性质与计算。"
+    },
+    {
+      "title": "ICLR 2020：从去噪自编码器到生成模型",
+      "url": "https://zhuanlan.zhihu.com/p/94350902",
+      "summary": "正文利用 Langevin 方程的迭代序列及其静态分布完成生成模型采样。"
+    },
+    {
+      "title": "图上的随机游走算法 I: hitting time精确解的数学推导与程序实现",
+      "url": "https://zhuanlan.zhihu.com/p/94407509",
+      "summary": "正文定义带目标节点的图上随机游走，并研究首次到达时间的分布、期望和方差。"
+    },
+    {
+      "title": "BS公式——鞅定价推导法",
+      "url": "https://zhuanlan.zhihu.com/p/95538708",
+      "summary": "正文以几何布朗运动描述股价随机过程，并通过测度变换构造风险中性过程。"
+    },
+    {
+      "title": "Sage-Husa自适应卡尔曼滤波",
+      "url": "https://zhuanlan.zhihu.com/p/100074040",
+      "summary": "正文以带过程噪声和观测噪声的状态空间方程描述随机状态演化，并给出 Sage-Husa 自适应卡尔曼滤波的完整预测、更新与噪声估计递推。"
+    },
+    {
+      "title": "高斯过程和高斯过程回归",
+      "url": "https://zhuanlan.zhihu.com/p/100443773",
+      "summary": "正文从有限域随机函数扩展到无限定义域上的随机过程，给出均值函数、协方差核及平方指数核。"
+    },
+    {
+      "title": "Kalman滤波在金融时间序列中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/101630539",
+      "summary": "正文将金融价格建模为含状态转移和观测噪声的随机过程，并用卡尔曼滤波递推估计其真实状态。"
+    },
+    {
+      "title": "测度论与动态规划（1）",
+      "url": "https://zhuanlan.zhihu.com/p/103053617",
+      "summary": "正文讲解上鞅收敛定理，并把最优消费问题的值函数导数刻画为上鞅随机过程。"
+    },
+    {
+      "title": "VAR模型 | 理论篇",
+      "url": "https://zhuanlan.zhihu.com/p/105499632",
+      "summary": "正文围绕平稳性、协整、冲击响应和方差分解介绍 VAR 时间序列模型的分析流程。"
+    },
+    {
+      "title": "时间序列分析|ARIMA模型分步骤解析及R中实践",
+      "url": "https://zhuanlan.zhihu.com/p/105511258",
+      "summary": "正文系统讲解 ARIMA 对时间序列的平稳化、定阶、拟合和预测，属于随机过程的建模与预测应用。"
+    },
+    {
+      "title": "随机微分方程入门（一）布朗运动与伊藤积分的引出",
+      "url": "https://zhuanlan.zhihu.com/p/108866971",
+      "summary": "正文以布朗运动为例介绍随机过程，并说明其在随机微分方程中的核心地位。"
+    },
+    {
+      "title": "随机过程的思想",
+      "url": "https://zhuanlan.zhihu.com/p/111804408",
+      "summary": "正文通过随时间变化的人流统计解释随机过程，并把多次观测得到的时间函数称为样本函数。"
+    },
+    {
+      "title": "Mean field games",
+      "url": "https://zhuanlan.zhihu.com/p/111714414",
+      "summary": "正文以受控随机微分方程和Wiener过程描述参与者状态演化，并连接状态的随机分布与平均场项。"
+    },
+    {
+      "title": "关于随机过程的一点理解",
+      "url": "https://zhuanlan.zhihu.com/p/112287049",
+      "summary": "正文用随时间变化的温度样本函数解释随机过程及其实现。"
+    },
+    {
+      "title": "随机微分方程入门（二）Ito积分",
+      "url": "https://zhuanlan.zhihu.com/p/110413917",
+      "summary": "正文以随机过程 X 在时刻 s 的取值定义 Ito 积分被积函数，并讨论布朗运动的随机增量。"
+    },
+    {
+      "title": "Malliavin 分析（一）",
+      "url": "https://zhuanlan.zhihu.com/p/110868603",
+      "summary": "正文以 Wiener 过程、Itô 积分、Skorohod 积分和连续局部鞅为核心展开随机分析。"
+    },
+    {
+      "title": "2020年阿贝尔奖公布，又一位数学「三大奖」大满贯得主诞生",
+      "url": "https://zhuanlan.zhihu.com/p/114787635",
+      "summary": "正文以一维随机游走和布朗运动为例，解释随机过程如何按概率选择演化方向。"
+    },
+    {
+      "title": "高斯过程回归（Gaussian Process Regression）",
+      "url": "https://zhuanlan.zhihu.com/p/114962778",
+      "summary": "正文定义高斯过程为指数集上的一族随机变量，并说明其采样和连续输出序列建模。"
+    },
+    {
+      "title": "股价是随机游走的吗？",
+      "url": "https://zhuanlan.zhihu.com/p/115342322",
+      "summary": "正文给出随机游走过程及其独立同分布增量定义，并通过数值模拟、AR(1) 结构和真实市场数据检验该过程。"
+    },
+    {
+      "title": "什么是马尔可夫链蒙特卡洛（MCMC）？",
+      "url": "https://zhuanlan.zhihu.com/p/116725922",
+      "summary": "正文从随机过程和马尔可夫性质出发，解释下一状态仅依赖当前状态的无记忆性。"
+    },
+    {
+      "title": "分数阶Fokker-Planck方程（一）Lévy 过程",
+      "url": "https://zhuanlan.zhihu.com/p/123155988",
+      "summary": "正文定义具有独立平稳增量的Lévy运动，并说明α=2时化为布朗运动及自相似性质。"
+    },
+    {
+      "title": "GPR(高斯过程回归)详细推导",
+      "url": "https://zhuanlan.zhihu.com/p/133755294",
+      "summary": "正文以任意有限维联合高斯分布定义高斯过程，并由协方差核函数建立随机过程模型。"
+    },
+    {
+      "title": "时间序列 | ARCH模型",
+      "url": "https://zhuanlan.zhihu.com/p/128796473",
+      "summary": "正文系统讨论ARMA、ARCH与GARCH的随机时间序列模型及条件异方差生成机制，属于随机过程建模。"
+    },
+    {
+      "title": "期权定价2-BS公式&希腊值",
+      "url": "https://zhuanlan.zhihu.com/p/137938792",
+      "summary": "正文以几何布朗运动描述股价的随机演化，并通过其风险中性形式计算到期股价分布与期权价格。"
+    },
+    {
+      "title": "在数学建模中常用的方法",
+      "url": "https://zhuanlan.zhihu.com/p/138337865",
+      "summary": "正文说明自回归移动平均模型及时间序列建模流程。"
+    },
+    {
+      "title": "对二八定律和财富分配的再思考",
+      "url": "https://zhuanlan.zhihu.com/p/137094832",
+      "summary": "正文把财富演化建模为由独立同分布随机因子驱动的随机过程。"
+    },
+    {
+      "title": "自回归模型",
+      "url": "https://zhuanlan.zhihu.com/p/131335721",
+      "summary": "正文定义并系统求解自回归时间序列模型，讨论平稳解、通解、收敛性和模拟，属于随机过程的建模与求解。"
+    },
+    {
+      "title": "PR Ⅲ：从高斯分布到高斯过程、高斯过程回归、贝叶斯优化",
+      "url": "https://zhuanlan.zhihu.com/p/139478368",
+      "summary": "正文把高斯过程定义为连续域上的随机过程，并说明其有限集合服从多元正态分布。"
+    },
+    {
+      "title": "期权定价8-信用风险模型",
+      "url": "https://zhuanlan.zhihu.com/p/140390619",
+      "summary": "正文假设公司资产价值由带漂移和波动率的几何布朗运动驱动，并由该随机过程推导违约概率。"
+    },
+    {
+      "title": "随机微积分 (13) 伊藤过程、随机微分方程SDE",
+      "url": "https://zhuanlan.zhihu.com/p/140075707",
+      "summary": "正文定义由漂移项和布朗积分构成的伊藤扩散过程，并讨论其变差、协变差与随机微分方程。"
+    },
+    {
+      "title": "迭代扩展卡尔曼滤波(IEKF)",
+      "url": "https://zhuanlan.zhihu.com/p/141018958",
+      "summary": "正文从带过程噪声和观测噪声的离散非线性状态系统出发推导迭代滤波方法。"
+    },
+    {
+      "title": "自动驾驶感知融合-无迹卡尔曼滤波(Lidar&Radar)",
+      "url": "https://zhuanlan.zhihu.com/p/141059329",
+      "summary": "正文按时间递推预测状态与协方差，并用观测数据更新随机状态估计。"
+    },
+    {
+      "title": "Fokker-Planck Equation",
+      "url": "https://zhuanlan.zhihu.com/p/142216870",
+      "summary": "正文以含高斯白噪声的 Langevin 型随机动力学为起点，研究概率密度随时间的演化。"
+    },
+    {
+      "title": "随机最优控制(Stochastic Optimal Control)的一个应用",
+      "url": "https://zhuanlan.zhihu.com/p/146964017",
+      "summary": "正文以带漂移项和维纳过程的随机微分方程描述股价与债券价格的演化。"
+    },
+    {
+      "title": "从马尔可夫链到蒙特卡洛-Metropolis方法（Python）",
+      "url": "https://zhuanlan.zhihu.com/p/146020807",
+      "summary": "正文以无记忆随机游走定义马尔科夫过程，并说明下一步只依赖当前状态。"
+    },
+    {
+      "title": "概率论：赌徒输光问题",
+      "url": "https://zhuanlan.zhihu.com/p/147290958",
+      "summary": "正文用带两个吸收壁的随机游动描述赌徒资本在各整数状态间的随机变化。"
+    },
+    {
+      "title": "卡尔曼滤波（Kalman filter）实例研究——汽车跟踪问题（Car tracking）",
+      "url": "https://zhuanlan.zhihu.com/p/148046908",
+      "summary": "正文建立带过程噪声和观测噪声的离散状态递推模型，并逐步预测、更新汽车的随机运动状态。"
+    },
+    {
+      "title": "DCC-GARCH模型代码及实现案例",
+      "url": "https://zhuanlan.zhihu.com/p/154544534",
+      "summary": "正文把收益率序列建模为含时变条件波动率的 GARCH-DCC 随机过程，并估计动态相关序列。"
+    },
+    {
+      "title": "随机计算与量化交易（上）：从布朗运动到维纳过程",
+      "url": "https://zhuanlan.zhihu.com/p/157543046",
+      "summary": "正文给出随机过程的定义，并以布朗运动和维纳过程展开连续随机过程。"
+    },
+    {
+      "title": "随机量子化：(4) 从量化金融（Ornstein-Uhlenbeck）到量子场论（关联函数）",
+      "url": "https://zhuanlan.zhihu.com/p/159691255",
+      "summary": "正文从Ornstein-Uhlenbeck随机过程及其自相关函数出发，构造随机量子化中的随机演化。"
+    },
+    {
+      "title": "随机矩阵（Random Matrix）--- Semi-circle Law",
+      "url": "https://zhuanlan.zhihu.com/p/161375201",
+      "summary": "正文定义行列式点过程及其相关函数，说明 GUE 特征值在极限下形成点过程。"
+    },
+    {
+      "title": "[随机过程] 1 随机过程知识框架",
+      "url": "https://zhuanlan.zhihu.com/p/161906208",
+      "summary": "正文系统定义随机过程及其分布、数字特征，并进一步讲解平稳过程、布朗运动和鞅。"
+    },
+    {
+      "title": "【HFT】HJB方程与最优执行问题",
+      "url": "https://zhuanlan.zhihu.com/p/161632470",
+      "summary": "正文建立由漂移项、扩散项和布朗运动驱动的随机过程模型，并推导随机 HJB 方程。"
+    },
+    {
+      "title": "随机过程学习笔记(1)：指数分布与泊松过程",
+      "url": "https://zhuanlan.zhihu.com/p/165909489",
+      "summary": "正文定义随机过程和计数过程，并将其中的泊松过程用于描述随时间发生的随机到达。"
+    },
+    {
+      "title": "Gaussian Processes & MPC",
+      "url": "https://zhuanlan.zhihu.com/p/191626544",
+      "summary": "正文以随机变量集合和有限维联合高斯分布定义高斯过程，并讨论其均值函数与协方差函数。"
+    },
+    {
+      "title": "60分钟看懂HMM的基本原理",
+      "url": "https://zhuanlan.zhihu.com/p/224770895",
+      "summary": "正文把状态序列和观测序列构造成按时间演化的隐马尔科夫序列模型，并推导其联合概率。"
+    },
+    {
+      "title": "时间序列分析第01讲--平稳序列（基本概念，线性平稳序列）",
+      "url": "https://zhuanlan.zhihu.com/p/252978417",
+      "summary": "正文以随机变量序列的均值、自协方差和线性变换给出平稳时间序列的定义与性质。"
+    },
+    {
+      "title": "绕开布朗运动，理解Ito积分 (Part 1)",
+      "url": "https://zhuanlan.zhihu.com/p/252521371",
+      "summary": "正文用随机徘徊极限构造布朗运动，并在此基础上定义 Ito 随机积分及其连续时间过程。"
+    },
+    {
+      "title": "单个神经元的简单模型：Leaky integrate and fire (LIF) model",
+      "url": "https://zhuanlan.zhihu.com/p/254972010",
+      "summary": "正文在微分方程中加入噪声项，模拟膜电位和脉冲发放序列的随机演变。"
+    },
+    {
+      "title": "23. 卡尔曼滤波器详解——从零开始(3) Kalman Filter from Zero",
+      "url": "https://zhuanlan.zhihu.com/p/245728093",
+      "summary": "正文以宽平稳信号和噪声过程为对象，利用自相关与互相关推导最优线性滤波器。"
+    },
+    {
+      "title": "【归纳综述】马尔可夫、隐马尔可夫 HMM 、条件随机场 CRF 全解析及其python实现",
+      "url": "https://zhuanlan.zhihu.com/p/259660645",
+      "summary": "正文以隐状态序列和观测序列构成随机过程，分别讨论 HMM、线性动态系统与条件随机场。"
+    },
+    {
+      "title": "简单聊聊Heston Model",
+      "url": "https://zhuanlan.zhihu.com/p/267968467",
+      "summary": "正文用均值复归的随机波动率与相关布朗运动建立 Heston 随机过程模型。"
+    },
+    {
+      "title": "从概率到贝叶斯滤波",
+      "url": "https://zhuanlan.zhihu.com/p/268624245",
+      "summary": "正文定义随机过程、样本函数及四种连续离散类型，并说明贝叶斯滤波处理连续型随机过程。"
+    },
+    {
+      "title": "从贝叶斯滤波到卡尔曼滤波",
+      "url": "https://zhuanlan.zhihu.com/p/268632039",
+      "summary": "正文把卡尔曼滤波定位为对连续型随机过程进行预测和观测更新的递推状态估计方法。"
+    },
+    {
+      "title": "基于扩散概率模型 (Diffusion Probabilistic Model ) 的音频生成模型",
+      "url": "https://zhuanlan.zhihu.com/p/267696723",
+      "summary": "正文把加噪与去噪建模为正向和反向马尔可夫链，并展开状态转移和采样过程。"
+    },
+    {
+      "title": "为什么随机游走的醉汉不会返回原点？",
+      "url": "https://zhuanlan.zhihu.com/p/269844061",
+      "summary": "正文把随机游走作为随机过程的基本模型，并讨论其常返性和样本轨道。"
+    },
+    {
+      "title": "【决策模型】马尔可夫决策过程",
+      "url": "https://zhuanlan.zhihu.com/p/271221558",
+      "summary": "正文把马尔可夫链定义为无记忆随机过程，并讨论状态序列和转移概率。"
+    },
+    {
+      "title": "马尔可夫决策过程MDP -- 强化学习基础（1）",
+      "url": "https://zhuanlan.zhihu.com/p/273449285",
+      "summary": "正文把状态序列、转移概率和多阶段决策统一描述为离散时间随机过程。"
+    },
+    {
+      "title": "概率论与统计学4——随机过程（Stochastic Processes）",
+      "url": "https://zhuanlan.zhihu.com/p/274771068",
+      "summary": "正文先定义随机过程，再以伯努利过程和泊松过程为例系统讨论其概率规律。"
+    },
+    {
+      "title": "概率论与统计学5——马尔科夫链（Markov Chain）",
+      "url": "https://zhuanlan.zhihu.com/p/274775796",
+      "summary": "正文把状态随离散或连续时间演化的马尔可夫过程作为随机过程的具体类型加以讲解。"
+    },
+    {
+      "title": "概率论与统计学7——马尔可夫链蒙特卡洛（Markov chain Monte Carlo）",
+      "url": "https://zhuanlan.zhihu.com/p/283767958",
+      "summary": "正文用状态序列、转移概率和稳态分布描述马尔可夫链，并讨论其采样过程。"
+    },
+    {
+      "title": "Black-Scholes 模型学习框架",
+      "url": "https://zhuanlan.zhihu.com/p/265727886",
+      "summary": "正文定义适应随机过程与鞅，并讨论布朗运动、伊藤过程、鞅表示和随机微分方程。"
+    },
+    {
+      "title": "复读关于LPR期权定价的较新成果论文1——背景，形式以及Skellam分布性质",
+      "url": "https://zhuanlan.zhihu.com/p/307633902",
+      "summary": "正文把LPR建模为按固定公布期累计离散跳幅的过程，并定义了右连续计数过程。"
+    },
+    {
+      "title": "Ergodic Markov Chain有关的四个定理及其推论",
+      "url": "https://zhuanlan.zhihu.com/p/322107034",
+      "summary": "正文把有限状态离散动力系统的演化写成转移矩阵迭代，并证明其收敛到平稳分布。"
+    },
+    {
+      "title": "随机过程|笔记整理（1）——引入，有限状态马尔科夫链，状态转移，常返与瞬时状态",
+      "url": "https://zhuanlan.zhihu.com/p/334739650",
+      "summary": "正文介绍随机过程的研究对象，并以随时间变化的随机变量序列为主线展开理论。"
+    },
+    {
+      "title": "随机过程|笔记整理（2）——极限状态的平稳分布与周期（上），一些特殊的马尔科夫链",
+      "url": "https://zhuanlan.zhihu.com/p/335796325",
+      "summary": "正文系统讨论转移矩阵的极限状态、常返与瞬时状态以及周期，属于随机过程的马尔可夫链理论。"
+    },
+    {
+      "title": "金融数学第10讲（期权定价：二叉树方法，B-S公式）",
+      "url": "https://zhuanlan.zhihu.com/p/330957457",
+      "summary": "正文用布朗运动、对数正态价格和伊藤公式建立股票价格随机过程模型。"
+    },
+    {
+      "title": "随机过程|笔记整理（3）——无限状态的平稳测度，返回时间，访问频率：几个定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/337130907",
+      "summary": "正文通过构造两条马尔可夫链组成的随机过程并研究其转移规律。"
+    },
+    {
+      "title": "概率论笔记(12)——鞅、停时、鞅不等式",
+      "url": "https://zhuanlan.zhihu.com/p/337979050",
+      "summary": "正文定义概率空间上的流、适应随机变量序列和鞅，并展开停时、Doob 停止定理及鞅不等式。"
+    },
+    {
+      "title": "概率论笔记(13)——鞅收敛定理",
+      "url": "https://zhuanlan.zhihu.com/p/338610238",
+      "summary": "正文定义上鞅并证明 Doob 收敛定理、可料增过程分解等随机过程结论。"
+    },
+    {
+      "title": "快速入门高斯过程（Gaussian process）回归预测",
+      "url": "https://zhuanlan.zhihu.com/p/331591492",
+      "summary": "正文将高斯过程表述为无限维高斯分布展开得到的随机函数，并用工整的均值函数与协方差函数确定它。"
+    },
+    {
+      "title": "随机过程|笔记整理（5）——无限状态马尔科夫链的进一步探讨，泊松过程引入，复合泊松过程",
+      "url": "https://zhuanlan.zhihu.com/p/339121930",
+      "summary": "正文从定义、到达间隔和增量性质讲解泊松过程，并进一步定义复合泊松过程。"
+    },
+    {
+      "title": "随机过程|笔记整理（6）——泊松过程三大变换，更新过程引入",
+      "url": "https://zhuanlan.zhihu.com/p/339972698",
+      "summary": "正文以泊松过程的稀疏、叠加和取条件变换及更新过程为主线，系统讲解随机过程的构造与性质。"
+    },
+    {
+      "title": "随机过程|笔记整理（9）——连续时间马尔科夫链的泊松过程描述，爆炸现象，离散马尔科夫链对比",
+      "url": "https://zhuanlan.zhihu.com/p/343585535",
+      "summary": "正文以泊松跳跃和爆炸现象描述连续时间状态转移，实质讨论随机过程的构造与性质。"
+    },
+    {
+      "title": "随机动力学（1）---两大重要的随机微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/343129740",
+      "summary": "正文把外部激励建模为随机过程、高斯白噪声和 Wiener 过程，并讨论其相关性差异。"
+    },
+    {
+      "title": "随机微积分(3) 随机过程Stochastic Process、滤流Filtration",
+      "url": "https://zhuanlan.zhihu.com/p/345656686",
+      "summary": "正文给出随机过程的正式定义、样本轨道和按时间指标集分类，并讨论其诱导概率空间与滤流。"
+    },
+    {
+      "title": "随机过程|笔记整理（B）——鞅的引入，性质与举例。可选停时定理",
+      "url": "https://zhuanlan.zhihu.com/p/345820722",
+      "summary": "正文以随机过程为对象定义鞅、上鞅和下鞅，并讨论随机游走、乘积鞅和指数鞅等例子。"
+    },
+    {
+      "title": "随机动力学（2）---Fokker Planck Kolmogorov 方程",
+      "url": "https://zhuanlan.zhihu.com/p/344968725",
+      "summary": "正文研究随机过程的概率密度演化，并推导扩散过程转移概率密度的 FPK 方程。"
+    },
+    {
+      "title": "应用随机过程|第1章 概率论与随机过程的基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/347239352",
+      "summary": "正文定义随机过程及其有限维分布，并按增量、马尔可夫性、鞅、平稳性等分类。"
+    },
+    {
+      "title": "应用随机过程|第3章 马尔科夫链 Markov Chains",
+      "url": "https://zhuanlan.zhihu.com/p/347500549",
+      "summary": "正文以状态随机序列为对象定义马尔可夫链，并讨论状态转移、可达性、常返性和平稳分布等随机过程性质。"
+    },
+    {
+      "title": "应用随机过程|第5章 布朗运动",
+      "url": "https://zhuanlan.zhihu.com/p/348017706",
+      "summary": "正文系统讲解连续时间、连续状态的布朗运动及其变形，是随机过程理论的具体展开。"
+    },
+    {
+      "title": "应用随机过程|第6章 连续时间参数马尔科夫链",
+      "url": "https://zhuanlan.zhihu.com/p/348173810",
+      "summary": "正文研究连续参数、可列状态的马尔可夫过程，并讨论其转移、分类和极限性质。"
+    },
+    {
+      "title": "第 1 章 统计力学的基本概念 D. Coarse-Grained Dynamics",
+      "url": "https://zhuanlan.zhihu.com/p/349523787",
+      "summary": "正文以马尔可夫性与非马尔可夫记忆核讨论随机过程的状态演化。"
+    },
+    {
+      "title": "从简单过程到伊藤积分",
+      "url": "https://zhuanlan.zhihu.com/p/348660948",
+      "summary": "正文从布朗运动出发定义简单过程、随机积分及其鞅性，并推导一般随机过程的伊藤公式。"
+    },
+    {
+      "title": "鞅停止定理/可选抽样定理（Optional stopping theorem）的严格证明与期权定价",
+      "url": "https://zhuanlan.zhihu.com/p/350951735",
+      "summary": "正文正式定义鞅、停时和停止过程，证明可选抽样定理并用于期权定价。"
+    },
+    {
+      "title": "金融数据与时间序列分析专题1：时间序列基础概念，平稳性，白噪声，自协方差函数与Lag算子",
+      "url": "https://zhuanlan.zhihu.com/p/351583226",
+      "summary": "正文定义随机过程及其实现轨道，并介绍宽平稳、马尔可夫、鞅和维纳过程。"
+    },
+    {
+      "title": "随机过程|笔记整理（D）——鞅的极限性质的应用，布朗运动概述",
+      "url": "https://zhuanlan.zhihu.com/p/352464021",
+      "summary": "正文系统介绍布朗运动的定义、鞅性质、联合与条件分布、伸缩变换和离出时间。"
+    },
+    {
+      "title": "随机过程笔记（三）Poisson过程",
+      "url": "https://zhuanlan.zhihu.com/p/353084053",
+      "summary": "正文从计数过程和独立增量出发定义泊松过程，并讨论其分解、复合与条件化等随机过程性质。"
+    },
+    {
+      "title": "随机微分方程的模拟（一）",
+      "url": "https://zhuanlan.zhihu.com/p/354688060",
+      "summary": "正文以布朗运动驱动的扩散过程和样本路径为核心，模拟随机过程在给定时刻的分布。"
+    },
+    {
+      "title": "Black-Scholes-Merton期权定价模型和Feynman Kac公式",
+      "url": "https://zhuanlan.zhihu.com/p/354405859",
+      "summary": "正文以几何布朗运动和布朗运动构造股票价格随机过程，并讨论鞅、伊藤公式及期权期望。"
+    },
+    {
+      "title": "【时间序列】ACF与PACF",
+      "url": "https://zhuanlan.zhihu.com/p/360228022",
+      "summary": "正文以平稳时间序列的 ACF、PACF 和 ARMA 模型讨论随机序列的依赖结构。"
+    },
+    {
+      "title": "金融数据与时间序列分析专题8：Heteroskedasticity time series models <I>",
+      "url": "https://zhuanlan.zhihu.com/p/360453657",
+      "summary": "正文把 ARCH 作为 ARMA 条件方差模型对应的时变波动过程，分析平稳性并用模拟生成 ARCH(1) 序列。"
+    },
+    {
+      "title": "金融数据与时间序列分析专题10：State Space Models & Kalman Filters & Time-Varying CAPM Model",
+      "url": "https://zhuanlan.zhihu.com/p/363137440",
+      "summary": "正文以状态方程和观测方程建模随机游走及 ARMA 时间序列，并讨论滤波、预测和平滑。"
+    },
+    {
+      "title": "另辟蹊径—Denoising Diffusion Probabilistic 一种从噪音中剥离出图像/音频的模型",
+      "url": "https://zhuanlan.zhihu.com/p/366004028",
+      "summary": "正文围绕扩散过程与反向去噪采样推导生成模型，属于随机过程建模。"
+    },
+    {
+      "title": "DDM漂移扩散模型与决策的发展",
+      "url": "https://zhuanlan.zhihu.com/p/366160160",
+      "summary": "正文以漂移、随机扩散和阈值边界构造决策的连续随机累积过程。"
+    },
+    {
+      "title": "应用随机分析基础",
+      "url": "https://zhuanlan.zhihu.com/p/365684990",
+      "summary": "正文使用布朗运动、适应过程和测度变换讲解 Girsanov 定理，并将所得过程用于债券定价。"
+    },
+    {
+      "title": "马尔科夫链详解",
+      "url": "https://zhuanlan.zhihu.com/p/370026636",
+      "summary": "正文系统介绍随机过程、状态、时齐性和转移概率等基本概念。"
+    },
+    {
+      "title": "随机过程：一、随机过程的分布及其特征",
+      "url": "https://zhuanlan.zhihu.com/p/371832715",
+      "summary": "正文定义随机过程、参数集、状态空间和样本函数，并讨论独立增量、泊松过程与维纳过程。"
+    },
+    {
+      "title": "克里金(Kriging)模型详细推导",
+      "url": "https://zhuanlan.zhihu.com/p/377620800",
+      "summary": "正文把目标函数建模为确定性回归项与随机过程之和，并用协方差函数描述随机过程。"
+    },
+    {
+      "title": "Autoformer:基于深度分解架构和自相关机制的长期序列预测模型",
+      "url": "https://zhuanlan.zhihu.com/p/385066440",
+      "summary": "正文从实离散时间过程的自相关系数出发构造自相关机制，用于发现序列的周期依赖。"
+    },
+    {
+      "title": "卡尔曼滤波算法原理(KF,EKF,AKF,UKF)",
+      "url": "https://zhuanlan.zhihu.com/p/389589521",
+      "summary": "正文将状态和观测建模为随时间递推的随机序列，并推导预测、更新及协方差传播。"
+    },
+    {
+      "title": "马尔可夫模型",
+      "url": "https://zhuanlan.zhihu.com/p/390904182",
+      "summary": "正文从随机变量族定义随机过程，并以状态随时间变化说明其概率规律。"
+    },
+    {
+      "title": "量化私募面试题 - Markov 随机游走",
+      "url": "https://zhuanlan.zhihu.com/p/395243155",
+      "summary": "正文研究随机游走首次到达边界的概率，并给出马尔可夫链和鞅两种解法。"
+    },
+    {
+      "title": "量化研究员面试圣经刷题笔记6-2.6 概率、随机微积分|150 Most Frequently Asked Questions on Quant Interviews",
+      "url": "https://zhuanlan.zhihu.com/p/396919954",
+      "summary": "正文系统讨论维纳过程、鞅、Itô 过程、随机积分及随机过程在期权定价中的作用。"
+    },
+    {
+      "title": "傅里叶变换的几个应用",
+      "url": "https://zhuanlan.zhihu.com/p/399012702",
+      "summary": "正文从独立增量的随机游走推出粒子的位置分布，并用热核函数描述布朗运动。"
+    },
+    {
+      "title": "随机微分方程笔记（一） 鞅",
+      "url": "https://zhuanlan.zhihu.com/p/399968951",
+      "summary": "正文从公平赌博构造鞅，并讨论停时、期望与鞅收敛定理，核心是随机过程的条件期望和时间演化。"
+    },
+    {
+      "title": "随机微分方程笔记（二）布朗运动及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/400802316",
+      "summary": "正文从独立增量和正态增量定义布朗运动，并讨论鞅性质、均方收敛以及几何、积分和 Bessel 等扩展过程。"
+    },
+    {
+      "title": "随机微分方程笔记（三） 随机微积分",
+      "url": "https://zhuanlan.zhihu.com/p/401588388",
+      "summary": "正文围绕随机过程定义二次变差、伊藤积分、伊藤过程和伊藤公式。"
+    },
+    {
+      "title": "随机过程、马尔可夫过程、维纳过程三者的联系与区别？",
+      "url": "https://zhuanlan.zhihu.com/p/402320649",
+      "summary": "正文定义随机过程，并用随时间变化的资产价格区间直观解释其不确定性。"
+    },
+    {
+      "title": "随机微分方程笔记（四）随机微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/405174311",
+      "summary": "正文在随机分析框架中讨论布朗运动驱动的随机微分方程及其解，具体展开了一类随机过程。"
+    },
+    {
+      "title": "限价单成交概率的估计与分析",
+      "url": "https://zhuanlan.zhihu.com/p/407719696",
+      "summary": "正文用泊松过程和多维 Hawkes 点过程建模订单到达速率，并据此动态估计限价单成交概率。"
+    },
+    {
+      "title": "关于Poisson过程",
+      "url": "https://zhuanlan.zhihu.com/p/416029171",
+      "summary": "正文给出 Poisson 过程的三种等价定义，并讨论稀疏分解、合并和一般测度空间上的推广。"
+    },
+    {
+      "title": "柯尔莫戈洛夫（Kolmogorov）工作成就列表",
+      "url": "https://zhuanlan.zhihu.com/p/419637919",
+      "summary": "正文概述柯尔莫戈洛夫对连续时间马尔可夫过程、平稳过程及随机过程理论的系统化贡献。"
+    },
+    {
+      "title": "随机偏微分方程--Stochastic heat equation",
+      "url": "https://zhuanlan.zhihu.com/p/421235218",
+      "summary": "正文把时空白噪声联系到布朗运动，并将有限维投影方程转化为随机微分方程。"
+    },
+    {
+      "title": "集中不等式 (Concentration Inequalities)",
+      "url": "https://zhuanlan.zhihu.com/p/424198728",
+      "summary": "正文定义鞅差序列并将其用于证明 Azuma 不等式，具体展开了随机过程里的鞅方法。"
+    },
+    {
+      "title": "时间序列分析基础-定义、均值、方差、自协方差及相关性",
+      "url": "https://zhuanlan.zhihu.com/p/424609116",
+      "summary": "正文把时间序列定义为随机过程，并讨论趋势、季节性、平稳性和自相关结构。"
+    },
+    {
+      "title": "一个喝醉的小鸟有多大的概率永远也回不了家了？",
+      "url": "https://zhuanlan.zhihu.com/p/427468745",
+      "summary": "正文讨论高维格点上的随机游走回归与常返性，并比较一、二、三维中返回出发点的概率。"
+    },
+    {
+      "title": "随机微分方程学习笔记I：随机分析中的伊藤公式",
+      "url": "https://zhuanlan.zhihu.com/p/434589422",
+      "summary": "正文以布朗运动构造伊藤过程，说明随机微分中的布朗项及其平方项，并推导伊藤公式。"
+    },
+    {
+      "title": "随机过程（一）——泊松过程",
+      "url": "https://zhuanlan.zhihu.com/p/439185099",
+      "summary": "正文从计数过程出发定义独立增量泊松过程，并推导到达时间、非齐次与复合泊松过程。"
+    },
+    {
+      "title": "时间序列分析之GARCH模型介绍与应用",
+      "url": "https://zhuanlan.zhihu.com/p/424902442",
+      "summary": "正文具体建立残差随时间演化且波动具有记忆性的 ARCH/GARCH 随机过程。"
+    },
+    {
+      "title": "伊辛模型(Ising Model)",
+      "url": "https://zhuanlan.zhihu.com/p/456982012",
+      "summary": "正文把格点自旋系统解释为 interacting particle system，并分析有限体积测度的极限与相变。"
+    },
+    {
+      "title": "最优传输简介",
+      "url": "https://zhuanlan.zhihu.com/p/458312488",
+      "summary": "正文把沙粒搬运描述为大量粒子依随机初态运动并随时间改变分布的过程，联系到平均场博弈。"
+    },
+    {
+      "title": "建模算法系列二十三：ARMA模型",
+      "url": "https://zhuanlan.zhihu.com/p/464358562",
+      "summary": "正文以 ARMA 模型处理时间序列，讲解平稳性检验、差分、自相关和偏相关分析及预测流程。"
+    },
+    {
+      "title": "时间序列预测@Probabilistic Transformer for Time Series Analysis",
+      "url": "https://zhuanlan.zhihu.com/p/470647645",
+      "summary": "正文将多变量时序建模为含隐状态转移的随机生成过程，并预测未来观测的条件分布。"
+    },
+    {
+      "title": "变分贝叶斯深度学习综述",
+      "url": "https://zhuanlan.zhihu.com/p/484650175",
+      "summary": "正文从核空间和权重空间两种视角介绍高斯过程，并把它作为函数层面的随机过程模型。"
+    },
+    {
+      "title": "本科生向，garch模型族stata脑残级操作",
+      "url": "https://zhuanlan.zhihu.com/p/491805086",
+      "summary": "正文以随时间和过去波动演化的条件方差描述ARCH/GARCH时间序列过程。"
+    },
+    {
+      "title": "Empirical Market Microstructure：实证市场微观结构 Part I",
+      "url": "https://zhuanlan.zhihu.com/p/481016328",
+      "summary": "正文系统介绍随机游走、鞅、泊松到达以及 MA/AR 时间序列模型。"
+    },
+    {
+      "title": "第二讲 马尔可夫决策过程",
+      "url": "https://zhuanlan.zhihu.com/p/494755866",
+      "summary": "正文先以无记忆随机过程定义马尔可夫过程，再扩展到奖励过程和带动作的决策过程。"
+    },
+    {
+      "title": "【高频交易】限价订单薄的建模",
+      "url": "https://zhuanlan.zhihu.com/p/493037384",
+      "summary": "正文以泊松过程描述订单队列事件，推导首次命中时间和稳态分布，属于随机过程建模。"
+    },
+    {
+      "title": "时间序列(ARIMA)模型及其matlab实现",
+      "url": "https://zhuanlan.zhihu.com/p/495845415",
+      "summary": "正文把 AR、MA、ARMA 和 ARIMA 作为时间序列模型，讲解差分、参数识别、拟合和预测流程。"
+    },
+    {
+      "title": "详解diffusion model",
+      "url": "https://zhuanlan.zhihu.com/p/500532271",
+      "summary": "正文把扩散过程写成按时间相连的马尔可夫状态转移，并分别推导正向加噪和反向去噪过程。"
+    },
+    {
+      "title": "什么是随机积分？（简版）",
+      "url": "https://zhuanlan.zhihu.com/p/501641647",
+      "summary": "正文从随机行走极限定义布朗运动并讨论其马尔可夫性、鞅性，属于随机过程。"
+    },
+    {
+      "title": "一篇文章搞懂：向量自回归模型（VAR）理论、检验及评价",
+      "url": "https://zhuanlan.zhihu.com/p/508561823",
+      "summary": "正文把多个内生变量的滞后项纳入时间序列系统，分析动态关系、随机冲击和预测。"
+    },
+    {
+      "title": "算法与高频交易：随机控制基础（一）",
+      "url": "https://zhuanlan.zhihu.com/p/509281280",
+      "summary": "正文以受控Itô扩散为状态过程，建立随机控制的动态规划框架。"
+    },
+    {
+      "title": "统计套利的基石：Ornstein–Uhlenbeck Process",
+      "url": "https://zhuanlan.zhihu.com/p/521243637",
+      "summary": "正文把由标准布朗运动驱动的 OU 模型作为随机过程，分析其均值回复、分布和平稳性。"
+    },
+    {
+      "title": "由浅入深了解Diffusion Model",
+      "url": "https://zhuanlan.zhihu.com/p/529525303",
+      "summary": "正文把扩散前向与逆向过程描述为随时间演化的随机状态过程。"
+    },
+    {
+      "title": "DDPM解读（一）| 数学基础，扩散与逆扩散过程和训练推理方法",
+      "url": "https://zhuanlan.zhihu.com/p/530602852",
+      "summary": "正文把前向扩散定义为按时间递推产生带噪样本序列的随机过程。"
+    },
+    {
+      "title": "时序预测 | SARIMA（P、D、Q了解一下）",
+      "url": "https://zhuanlan.zhihu.com/p/531987920",
+      "summary": "正文以 AR、MA、ARIMA 和 SARIMA 模型完整刻画季节性时间序列的随机依赖、差分与预测。"
+    },
+    {
+      "title": "理解扩散模型Diffusion Models（一）",
+      "url": "https://zhuanlan.zhihu.com/p/532402983",
+      "summary": "正文把前向加噪与逆向生成描述为随时间演化的随机过程，并逐步分析其分布。"
+    },
+    {
+      "title": "什么是Fokker-Planck方程？",
+      "url": "https://zhuanlan.zhihu.com/p/535688931",
+      "summary": "正文以布朗运动驱动的扩散过程为例，研究其生成算子、密度演化和长期分布。"
+    },
+    {
+      "title": "限价订单簿建模-01-Level-I Quotes & Hidden Liquidity",
+      "url": "https://zhuanlan.zhihu.com/p/539521159",
+      "summary": "正文用泊松到达过程描述限价订单簿中挂单、成交和撤单事件的随机变化。"
+    },
+    {
+      "title": "扩散模型 Diffusion Models - 原理篇",
+      "url": "https://zhuanlan.zhihu.com/p/548112711",
+      "summary": "正文把扩散模型的前向加噪和逆向去噪都定义为离散时间随机过程。"
+    },
+    {
+      "title": "一文看懂卡尔曼滤波（附全网最详细公式推导和Matlab代码）",
+      "url": "https://zhuanlan.zhihu.com/p/559191083",
+      "summary": "正文建立随时间演化并受过程噪声扰动的状态过程，递归估计隐藏状态。"
+    },
+    {
+      "title": "一文解释 Diffusion Model (一) DDPM 理论推导",
+      "url": "https://zhuanlan.zhihu.com/p/565901160",
+      "summary": "正文把前向加噪建模为马尔可夫链，并利用相邻状态转移分布推导联合概率和后验过程。"
+    },
+    {
+      "title": "轻松学习扩散模型（diffusion model），被巨怪踩过的脑袋也能懂——原理详解+pytorch代码详解（附全部代码）",
+      "url": "https://zhuanlan.zhihu.com/p/572770333",
+      "summary": "正文把扩散模型定义为随离散时间演化的前向加噪和反向去噪过程。"
+    },
+    {
+      "title": "扩散模型：方法与应用综述（Diffusion Models: A Comprehensive Survey of Methods and Applications）",
+      "url": "https://zhuanlan.zhihu.com/p/573627573",
+      "summary": "正文把扩散的前向与反向过程描述为随机微分方程及其时间反演。"
+    },
+    {
+      "title": "一文解释 Diffusion Model (二) Score-based SDE 理论推导",
+      "url": "https://zhuanlan.zhihu.com/p/589106222",
+      "summary": "正文把离散扩散过程连续化为随机微分方程，并利用其正向与逆向过程生成样本。"
+    },
+    {
+      "title": "理解Diffusion Model (2)：数据分布的梯度",
+      "url": "https://zhuanlan.zhihu.com/p/589030280",
+      "summary": "正文通过注入随机布朗运动避免样本坍缩，并据此解释朗之万动力学采样过程。"
+    },
+    {
+      "title": "理解扩散模型(3):随机微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/589466244",
+      "summary": "正文把扩散过程中连续加入噪声建模为随机过程，说明随机微分方程的解是随机轨迹族。"
+    },
+    {
+      "title": "随机过程学习笔记（1）- Gambling Problem赌徒问题",
+      "url": "https://zhuanlan.zhihu.com/p/590513240",
+      "summary": "正文以赌徒资产转移为核心，构造状态随离散时间演化的有界随机游走过程。"
+    },
+    {
+      "title": "随机过程学习笔记（2）- Random Walks随机游走问题",
+      "url": "https://zhuanlan.zhihu.com/p/590771816",
+      "summary": "正文从有界随机游走推广到无界伯努利随机游走，并研究其分布、首次返回与长期返回性质。"
+    },
+    {
+      "title": "鞅论（Martingales）与随机逼近（Stochastic approximation）",
+      "url": "https://zhuanlan.zhihu.com/p/595113029",
+      "summary": "正文以条件期望定义鞅、下鞅和上鞅，并用随机游走、分支过程等随机过程说明。"
+    },
+    {
+      "title": "图像生成别只知道扩散模型(Diffusion Models)，还有基于梯度去噪的分数模型：NCSN(Noise Conditional Score Networks)",
+      "url": "https://zhuanlan.zhihu.com/p/597490389",
+      "summary": "正文用带随机项的朗之万动力学迭代生成样本，并解释布朗噪声与退火采样过程。"
+    },
+    {
+      "title": "图像复原论文解读：Image Restoration with Mean-Reverting Stochastic Differential Equations, ICML 2023",
+      "url": "https://zhuanlan.zhihu.com/p/602890737",
+      "summary": "正文以布朗运动解释随机微分方程的漂移与扩散项，并给出前向和反向时间随机过程模型。"
+    },
+    {
+      "title": "北理工《随机过程》课程复习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/612648878",
+      "summary": "正文系统整理随机过程的有限维分布、均值、协方差、相关函数、正交增量和平稳性等内容。"
+    },
+    {
+      "title": "Note：给我奶奶讲diffusion models",
+      "url": "https://zhuanlan.zhihu.com/p/614037593",
+      "summary": "正文把逐步加噪刻画为带随机转移的马尔可夫链，并讨论这一随机过程的反向降噪生成。"
+    },
+    {
+      "title": "Diffusion学习笔记（四）——概率流ODE（Probability flow ODE）",
+      "url": "https://zhuanlan.zhihu.com/p/622771940",
+      "summary": "正文围绕扩散过程的前向与逆向随机微分方程讨论轨迹和边际分布。"
+    },
+    {
+      "title": "Diffusion学习笔记（五）——条件控制（Classifier-Guidance and Classifier-Free）",
+      "url": "https://zhuanlan.zhihu.com/p/623837604",
+      "summary": "正文把扩散前向与反向生成过程表述为SDE，并把条件得分项纳入采样过程。"
+    },
+    {
+      "title": "时间序列模型(四)：ARIMA模型",
+      "url": "https://zhuanlan.zhihu.com/p/634120397",
+      "summary": "正文系统讲解 ARIMA 的 AR、差分与 MA 结构及其时间序列建模和预测流程。"
+    },
+    {
+      "title": "概率论学习中的难点",
+      "url": "https://zhuanlan.zhihu.com/p/636114414",
+      "summary": "正文以独立增量、正态增量和连续路径定义 Brown 运动，并讨论 Wiener 过程及轨道性质。"
+    },
+    {
+      "title": "面向高中生的马尔可夫链（Markov Chains）和游走相关的概率递推问题",
+      "url": "https://zhuanlan.zhihu.com/p/653026889",
+      "summary": "正文定义一维和二维随机游走，并讨论吸收壁、转移与最终位置或距离。"
+    },
+    {
+      "title": "物理学家用随机过程：笔记",
+      "url": "https://zhuanlan.zhihu.com/p/658736406",
+      "summary": "正文从随机差分方程取极限引入随机微分方程，讨论 Wiener 噪声、随机积分、采样路径和概率分布，是随机过程的系统讲解。"
+    },
+    {
+      "title": "一文详解贝叶斯优化（Bayesian Optimization）原理",
+      "url": "https://zhuanlan.zhihu.com/p/662879942",
+      "summary": "正文定义了随机过程，并以此说明高斯过程的随机函数结构。"
+    },
+    {
+      "title": "优化算法中的梯度流与微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/664979479",
+      "summary": "正文把随机梯度下降的极限描述为含维纳过程的扩散，并讨论 Fokker-Planck 方程。"
+    },
+    {
+      "title": "实变函数简介",
+      "url": "https://zhuanlan.zhihu.com/p/665222184",
+      "summary": "正文说明随机过程以随机变量序列或单参数族为对象，并区分分布研究与样本路径研究。"
+    },
+    {
+      "title": "DiffusionModel-NCSN原理与推导",
+      "url": "https://zhuanlan.zhihu.com/p/670052757",
+      "summary": "正文把扩散生成建模与朗之万动力学、布朗运动和随机微分方程联系起来。"
+    },
+    {
+      "title": "DiffusionModel-基于SDE的score based model原理与推导",
+      "url": "https://zhuanlan.zhihu.com/p/670791318",
+      "summary": "正文把扩散过程的解解释为随时间演化的随机过程及其边缘分布。"
+    },
+    {
+      "title": "原神概率论：从抽卡概率模型到更新定理",
+      "url": "https://zhuanlan.zhihu.com/p/675316602",
+      "summary": "正文把连续抽卡建模为更新时刻与更新计数构成的随机过程，并推导更新频率。"
+    },
+    {
+      "title": "概率的艺术：Diffusion Model理论推导",
+      "url": "https://zhuanlan.zhihu.com/p/680813516",
+      "summary": "正文完整展开多步加噪与去噪的马尔科夫随机过程，并写出联合转移概率。"
+    },
+    {
+      "title": "传奇大爷拿下“数学界诺贝尔奖”；陶哲轩祝贺：他本应更知名",
+      "url": "https://zhuanlan.zhihu.com/p/688279677",
+      "summary": "正文介绍塔拉格兰对随机过程上确界、通用链式理论和高斯分布的研究贡献。"
+    },
+    {
+      "title": "Diffusion学习笔记（十六）——扩散桥，更高级的条件控制",
+      "url": "https://zhuanlan.zhihu.com/p/672779929",
+      "summary": "正文系统讲解布朗桥、OU桥及一般扩散桥等随机过程。"
+    },
+    {
+      "title": "Score-based SDE 扩散生成模型从入门到出师系列(一)：用随机微分方程建模图像生成任务并统一分数和扩散模型",
+      "url": "https://zhuanlan.zhihu.com/p/689276382",
+      "summary": "正文以伊藤过程和布朗运动描述由图像到噪声再逆向生成图像的随机过程。"
+    },
+    {
+      "title": "czy智斗概率论（1）",
+      "url": "https://zhuanlan.zhihu.com/p/682180148",
+      "summary": "正文系统定义鞅、上鞅和下鞅，并讨论停时、可选停时定理以及鞅的几乎必然和 Lp 收敛。"
+    },
+    {
+      "title": "80岁的公园大爷问我 DPMsolver 是什么然后我给他写了这个他说哦我看懂了",
+      "url": "https://zhuanlan.zhihu.com/p/695718570",
+      "summary": "正文用标准维纳过程和随机微分方程刻画扩散模型的连续时间随机过程，并比较 SDE 与 ODE 采样路径。"
+    },
+    {
+      "title": "[ICML 2024] Unifying Bayesian Flow Networks and Diffusion Models",
+      "url": "https://zhuanlan.zhihu.com/p/697344073",
+      "summary": "正文把噪声水平上的隐状态演化视为连续随机过程，用前向与反向 SDE 描述其训练和采样。"
+    },
+    {
+      "title": "Diffusion Model与SDE、ODE之间的联系",
+      "url": "https://zhuanlan.zhihu.com/p/698737562",
+      "summary": "正文以布朗运动和 Wiener 过程解释随机过程的连续时间演化，并由此给出一般 SDE。"
+    },
+    {
+      "title": "写给你的金融时间序列分析：回归篇",
+      "url": "https://zhuanlan.zhihu.com/p/701636536",
+      "summary": "正文通过随机游走、单位根、平稳性和白噪声说明时间序列随机过程。"
+    },
+    {
+      "title": "Consistency Model和Latent Consistency Model解读",
+      "url": "https://zhuanlan.zhihu.com/p/706862530",
+      "summary": "正文以标准布朗运动和随机微分方程描述连续扩散模型的前向加噪过程。"
+    },
+    {
+      "title": "视采样为优化问题 - 以Langevin Diffusion为例",
+      "url": "https://zhuanlan.zhihu.com/p/707732711",
+      "summary": "正文以布朗运动驱动的 Langevin 随机微分方程为例，讨论其平衡分布、离散采样和收敛。"
+    },
+    {
+      "title": "ICML'24 Spotlight | 贝叶斯+低秩函数分解：多维时序的在线补全",
+      "url": "https://zhuanlan.zhihu.com/p/709630460",
+      "summary": "正文把高斯过程用作潜在时间函数的先验，并借核函数控制其平滑与周期性质。"
+    },
+    {
+      "title": "算法学习笔记(35)：鞅与停时定理",
+      "url": "https://zhuanlan.zhihu.com/p/721900819",
+      "summary": "正文定义离散时间随机过程、滤子与鞅，并说明未来条件期望等于当前值。"
+    },
+    {
+      "title": "代数基本定理的概率证法",
+      "url": "https://zhuanlan.zhihu.com/p/17940379504",
+      "summary": "正文从随机游走构造二维布朗运动，并展开其常返性、共形不变性以及整函数复合后的轨道性质。"
+    },
+    {
+      "title": "传奇数学家生前最牵挂的谜题终获解",
+      "url": "https://zhuanlan.zhihu.com/p/1933457202422740193",
+      "summary": "正文说明凸体中随机游走可快速逼近均匀分布，并介绍随机局部化等高维概率方法。"
+    },
+    {
+      "title": "从超鞅到 Ville 不等式：久赌必输的概率保证",
+      "url": "https://zhuanlan.zhihu.com/p/1951293471341130141",
+      "summary": "正文以非负超鞅这一随机过程为核心解释 Ville 不等式和长期赌博结果。"
+    },
+    {
+      "title": "非平衡稳态系统有效力的分解本质上是Hodge 分解",
+      "url": "https://zhuanlan.zhihu.com/p/1978438021671035746",
+      "summary": "正文从含漂移与布朗噪声的随机微分方程出发，定义概率流并推导其 Fokker-Planck 描述。"
+    },
+    {
+      "title": "随机场论中的 Kac-Rice 公式简介",
+      "url": "https://zhuanlan.zhihu.com/p/1986765772161324393",
+      "summary": "正文定义连续高斯随机场，并用均值函数与协方差函数刻画其分布。"
+    }
+  ]
+}

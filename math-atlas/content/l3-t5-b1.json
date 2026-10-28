@@ -1,0 +1,5666 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t5-b1",
+  "sources": [
+    {
+      "title": "数学极限问题，n次根号下n的极限值为1.求求解方法最多有多少种？",
+      "url": "https://www.zhihu.com/answer/31971377",
+      "summary": "以均值不等式给出 n 次根式极限的夹逼估计。"
+    },
+    {
+      "title": "这个向管理员挑衅的家伙应该被禁言几分钟呢？",
+      "url": "https://www.zhihu.com/answer/42231178",
+      "summary": "正文用 Stolz 定理求数列极限。"
+    },
+    {
+      "title": "极限无穷大和极限不存在，是否等同？",
+      "url": "https://www.zhihu.com/answer/68515227",
+      "summary": "正文区分无穷极限、震荡和极限不存在。"
+    },
+    {
+      "title": "1的无穷次方不是1？",
+      "url": "https://www.zhihu.com/answer/72323928",
+      "summary": "正文用二元趋近的极限解释 1 的无穷次方未定式。"
+    },
+    {
+      "title": "你觉得定积分有什么意义？",
+      "url": "https://www.zhihu.com/answer/74659906",
+      "summary": "正文以 n 趋于无穷解释近似变为等式的极限思想。"
+    },
+    {
+      "title": "有哪些常用的等价无穷小？？",
+      "url": "https://www.zhihu.com/answer/77106165",
+      "summary": "正文列出变量趋于零时常用的等价无穷小。"
+    },
+    {
+      "title": "高一学生如何自学微积分？",
+      "url": "https://www.zhihu.com/answer/85650044",
+      "summary": "正文强调从直观到严谨理解极限。"
+    },
+    {
+      "title": "用正方形逼近圆，得到 π 值为 4 的结论，错在哪里？",
+      "url": "https://www.zhihu.com/answer/87112623",
+      "summary": "正文用同阶与高阶无穷小解释错误极限推理。"
+    },
+    {
+      "title": "为何微积分具有如此的优越性？",
+      "url": "https://www.zhihu.com/answer/89265195",
+      "summary": "正文从穷竭法解释极限思想如何进入面积和体积计算。"
+    },
+    {
+      "title": "请问如何理解极限的精确定义？",
+      "url": "https://www.zhihu.com/answer/93960144",
+      "summary": "全文从函数变化的角度建立极限直觉。"
+    },
+    {
+      "title": "微分和积分到底分别是什么意思？",
+      "url": "https://www.zhihu.com/answer/96489425",
+      "summary": "正文指出积分定义为求和的极限。"
+    },
+    {
+      "title": "微分 积分 导数 极限之间有什么关系？",
+      "url": "https://www.zhihu.com/answer/96492909",
+      "summary": "正文以极限为基础串联导数、微分与积分。"
+    },
+    {
+      "title": "为什么狄利克雷函数的表达式可以这样写，怎样证明？",
+      "url": "https://www.zhihu.com/answer/106015300",
+      "summary": "正文分别求内外两层极限，证明狄利克雷函数的一个极限表达式。"
+    },
+    {
+      "title": "弧度是怎么来的？为何要用弧度？起源是什么？",
+      "url": "https://www.zhihu.com/answer/108878656",
+      "summary": "正文用几何图示解释以弧度为变量时的正弦重要极限。"
+    },
+    {
+      "title": "上大学学了高等数学之后看高中的数学题是一种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/110712103",
+      "summary": "正文陈述洛必达法则，并在高考参数范围题中连续两次用其计算单侧极限。"
+    },
+    {
+      "title": "如何通俗地解释泰勒公式？",
+      "url": "https://www.zhihu.com/answer/111173412",
+      "summary": "正文展示用正弦的泰勒展开直接计算重要极限。"
+    },
+    {
+      "title": "高中导数和大学导数的联系，学习部分大学导数是否对高考导数难题有帮助？",
+      "url": "https://www.zhihu.com/answer/114785256",
+      "summary": "正文用洛必达、夹逼和趋近过程解释导数背后的极限。"
+    },
+    {
+      "title": "微分和导数的关系是什么？两者的几何意义有什么不同？为什么要定义微分 ?",
+      "url": "https://www.zhihu.com/answer/115178055",
+      "summary": "正文讲解用极限重建微积分及导数的严格定义。"
+    },
+    {
+      "title": "求极限什么情况下可以在加减式中使用等价（无穷小）替换？",
+      "url": "https://www.zhihu.com/answer/116503378",
+      "summary": "正文用小 o 记号严格分析等价无穷量替换在加减乘除中的差异。"
+    },
+    {
+      "title": "如何证明当n趋于无穷时√(2+√(2+...+√2))（n个根号）趋于2？",
+      "url": "https://www.zhihu.com/answer/117777335",
+      "summary": "正文计算嵌套根式数列的极限，并把最内层改为一般参数后继续讨论极限。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/117872319",
+      "summary": "正文通过结息次数趋于无穷而总额趋于上限，直观说明极限过程。"
+    },
+    {
+      "title": "求极限什么情况下可以在加减式中使用等价（无穷小）替换？",
+      "url": "https://www.zhihu.com/answer/118408666",
+      "summary": "正文解释求极限时等价无穷小在加减式中失效的抵消机制与使用条件。"
+    },
+    {
+      "title": "请问如何理解极限的精确定义？",
+      "url": "https://www.zhihu.com/answer/120029023",
+      "summary": "正文以数列、左右极限、邻域和去心邻域逐步解释函数极限。"
+    },
+    {
+      "title": "为什么这么多人推荐初学者看《托马斯微积分》？",
+      "url": "https://www.zhihu.com/answer/120177258",
+      "summary": "正文从实数稠密性和上确界定义说明理解极限所需的基础。"
+    },
+    {
+      "title": "哪些高端大气的数学定理可以简洁地证明高中数学压轴题和大轴题？",
+      "url": "https://www.zhihu.com/answer/120686061",
+      "summary": "正文用夹逼与函数估计完整求解数列平均值的极限。"
+    },
+    {
+      "title": "如何证明当n趋于无穷时√(2+√(2+...+√2))（n个根号）趋于2？",
+      "url": "https://www.zhihu.com/answer/120764594",
+      "summary": "正文借两条函数曲线与迭代点的横坐标，直观说明嵌套根式趋于2。"
+    },
+    {
+      "title": "怎样理解“函数极限的局部有界性”?",
+      "url": "https://www.zhihu.com/answer/121259610",
+      "summary": "正文解释函数极限存在为何只保证某个邻域内有界，并给出反向不成立的提醒。"
+    },
+    {
+      "title": "请问如何理解极限的精确定义？",
+      "url": "https://www.zhihu.com/answer/121942603",
+      "summary": "正文以圆内接多边形面积和函数接近过程解释极限的动机与局部含义。"
+    },
+    {
+      "title": "无界变量和无穷变量分别是什么？",
+      "url": "https://www.zhihu.com/answer/122100702",
+      "summary": "正文用振荡函数与1/x的极限区分无界量和趋于无穷大量。"
+    },
+    {
+      "title": "如何证明有界数列的子数列收敛？",
+      "url": "https://www.zhihu.com/answer/123006422",
+      "summary": "正文逐次二分区间构造子列，并用距离上界趋零证明其收敛。"
+    },
+    {
+      "title": "如何解释洛必达法则？",
+      "url": "https://www.zhihu.com/answer/123019423",
+      "summary": "正文从0/0和∞/∞不定式及函数极限解释洛必达法则。"
+    },
+    {
+      "title": "积分中值定理有什么应用？",
+      "url": "https://www.zhihu.com/answer/123376670",
+      "summary": "正文通过中值定理、夹估和黎曼和计算含参数积分的极限。"
+    },
+    {
+      "title": "什么情况下求极限可以直接带入？",
+      "url": "https://www.zhihu.com/answer/125394070",
+      "summary": "正文从极限运算法则与连续性解释何时可直接代入、何时需先变形。"
+    },
+    {
+      "title": "请向一位高中生介绍洛必达法则？",
+      "url": "https://www.zhihu.com/answer/125482538",
+      "summary": "正文从 0/0 不定式和商的极限推导洛必达法则的适用场景。"
+    },
+    {
+      "title": "怎样用Stolz求这个极限？",
+      "url": "https://www.zhihu.com/answer/126578577",
+      "summary": "正文完整计算递推数列极限，并多次应用 Stolz 公式。"
+    },
+    {
+      "title": "如何理解圆周率 π？",
+      "url": "https://www.zhihu.com/answer/128451499",
+      "summary": "正文用上下两列有理小数无限逼近无理数来说明极限思想。"
+    },
+    {
+      "title": "表情图上的一道题，求解？",
+      "url": "https://www.zhihu.com/answer/129222260",
+      "summary": "正文把复杂求和极限化为黎曼和与定积分，并用 epsilon 控制误差。"
+    },
+    {
+      "title": "如何能更好地理解（ε-δ）语言极限的定义？",
+      "url": "https://www.zhihu.com/answer/129467903",
+      "summary": "正文用连续、分段与振荡函数实例判断函数在点处是否存在极限。"
+    },
+    {
+      "title": "请用通俗的语言解释一下海涅定理？",
+      "url": "https://www.zhihu.com/answer/129921857",
+      "summary": "正文用数列抽样解释海涅定理，将函数极限与所有趋近点列上的数列极限联系起来。"
+    },
+    {
+      "title": "无穷小量究竟是否为零？",
+      "url": "https://www.zhihu.com/answer/130566890",
+      "summary": "正文从数列和函数极限严格定义无穷小，并说明无穷小是趋于零的量而非固定非零实数。"
+    },
+    {
+      "title": "洛必达法则失效的情况有哪些？",
+      "url": "https://www.zhihu.com/answer/130946631",
+      "summary": "正文系统说明洛必达法则求极限的适用条件、失效情形与替代求法。"
+    },
+    {
+      "title": "洛必达法则失效的情况有哪些？",
+      "url": "https://www.zhihu.com/answer/131523860",
+      "summary": "正文严格列出洛必达法则求极限的三个条件，并用反例解释导数比极限不存在时不能套用。"
+    },
+    {
+      "title": "怎样用白话描述函数极限定义？",
+      "url": "https://www.zhihu.com/answer/136371571",
+      "summary": "正文对白话函数极限定义作完整形式化说明，属于极限计算的概念基础。"
+    },
+    {
+      "title": "不定积分∫  dx 中的 d 是什么意思？",
+      "url": "https://www.zhihu.com/answer/137075916",
+      "summary": "正文解释变量趋向某值时差值趋于零的极限过程。"
+    },
+    {
+      "title": "为什么我感觉大学的数学教材总是以比较难理解的方式来讲述呢，然后自己明白后觉得完全可以说得更通俗易懂？",
+      "url": "https://www.zhihu.com/answer/137492426",
+      "summary": "正文以二元函数的累次极限不相等说明极限交换次序需要条件。"
+    },
+    {
+      "title": "无法理解高等数学怎么办？",
+      "url": "https://www.zhihu.com/answer/138975517",
+      "summary": "正文说明数学家如何用精确语言定义极限。"
+    },
+    {
+      "title": "等价无穷小常用替换公式？",
+      "url": "https://www.zhihu.com/answer/139881355",
+      "summary": "正文说明等价无穷小在极限乘除运算中的替换条件。"
+    },
+    {
+      "title": "三角函数求导公式如何证明？",
+      "url": "https://www.zhihu.com/answer/143849858",
+      "summary": "推导明确使用sin x/x极限并列出两个重要极限。"
+    },
+    {
+      "title": "0.99999……=1，那么1等不等于1.0000000000000……1呢？",
+      "url": "https://www.zhihu.com/answer/145938959",
+      "summary": "正文对两个数列逐项分析单调、有界与极限，实质进行极限计算。"
+    },
+    {
+      "title": "数列的收敛和极限存在是什么关系?",
+      "url": "https://www.zhihu.com/answer/147536788",
+      "summary": "正文说明数列收敛与有限极限存在互为充要条件。"
+    },
+    {
+      "title": "为什么定积分可以求面积？",
+      "url": "https://www.zhihu.com/answer/147736116",
+      "summary": "正文说明无穷小矩形求和以及除以 dx 本质上要取极限。"
+    },
+    {
+      "title": "为什么说“无穷大必无界，但反之不真”？",
+      "url": "https://www.zhihu.com/answer/153831768",
+      "summary": "正文用收敛、发散和振荡的极限过程解释无穷大的定义。"
+    },
+    {
+      "title": "洛必达法则的使用条件是什么？",
+      "url": "https://www.zhihu.com/answer/155430692",
+      "summary": "正文比较洛必达与泰勒展开在求极限时的适用范围。"
+    },
+    {
+      "title": "洛必达法则的使用条件是什么？",
+      "url": "https://www.zhihu.com/answer/155509971",
+      "summary": "正文逐项解释洛必达求极限的未定式、邻域可导和导后极限等适用条件。"
+    },
+    {
+      "title": "洛必达法则失效的情况有哪些？",
+      "url": "https://www.zhihu.com/answer/155637103",
+      "summary": "正文以多类反例比较洛必达、泰勒和其他方法处理极限的适用边界。"
+    },
+    {
+      "title": "为什么对着镜子自拍腿会显的短？",
+      "url": "https://www.zhihu.com/answer/157590440",
+      "summary": "正文计算距离趋于无穷时视觉比例的极限。"
+    },
+    {
+      "title": "微积分是研究解决什么问题的，在实际中有哪些应用？",
+      "url": "https://www.zhihu.com/answer/169259239",
+      "summary": "正文把极限作为微积分基础并用无限细分与求和解释。"
+    },
+    {
+      "title": "大一数学分析学习是偏证明还是偏计算？",
+      "url": "https://www.zhihu.com/answer/173915554",
+      "summary": "正文用差商极限从定义证明反函数的导数。"
+    },
+    {
+      "title": "怎么理解数学中的级数？",
+      "url": "https://www.zhihu.com/answer/190632965",
+      "summary": "正文把级数收敛定义为前 n 项和的极限存在，并反复运用极限判断。"
+    },
+    {
+      "title": "柯西极限存在准则怎么理解呀？",
+      "url": "https://www.zhihu.com/answer/194256919",
+      "summary": "正文用数列后项彼此无限接近直观解释柯西收敛准则。"
+    },
+    {
+      "title": "利用泰勒公式求极限时，如何确定泰勒公式展开到第几阶？",
+      "url": "https://www.zhihu.com/answer/195479110",
+      "summary": "正文以求极限为目标说明展开精度及最低非消去阶的选择。"
+    },
+    {
+      "title": "为什么狄利克雷函数的表达式可以这样写，怎样证明？",
+      "url": "https://www.zhihu.com/answer/196083375",
+      "summary": "正文用两层极限证明狄利克雷函数表达式对有理数取一、无理数取零。"
+    },
+    {
+      "title": "如何理解定积分原始定义中的极限符号？",
+      "url": "https://www.zhihu.com/answer/199020277",
+      "summary": "正文说明以最大分割区间趋零而非分段数趋无穷刻画积分极限。"
+    },
+    {
+      "title": "极限题为什么不可以直接带入？",
+      "url": "https://www.zhihu.com/answer/199849626",
+      "summary": "正文用连续性和极限四则运算解释何时可直接代入求极限。"
+    },
+    {
+      "title": "为什么将 x²＋y²＝1 中 x 和 y 的指数换成大偶数，其图像会接近一个正方形？",
+      "url": "https://www.zhihu.com/answer/212437869",
+      "summary": "正文用幂平均在p趋于无穷时的极限解释曲线趋向正方形。"
+    },
+    {
+      "title": "在哪个瞬间你觉得「我的高数没有白学」?",
+      "url": "https://www.zhihu.com/answer/213466715",
+      "summary": "正文用严格推理讨论倾角变化下盛水量趋于无穷。"
+    },
+    {
+      "title": "在哪个瞬间你觉得「我的高数没有白学」?",
+      "url": "https://www.zhihu.com/answer/213747978",
+      "summary": "正文用极限区分趋近于零与等于零并解释芝诺悖论。"
+    },
+    {
+      "title": "小数点后可以有无数位，为什么两个物体仍可以相互接触？",
+      "url": "https://www.zhihu.com/answer/215067935",
+      "summary": "正文区分序列编号趋于无穷与物理时间趋于无穷来化解悖论。"
+    },
+    {
+      "title": "复合函数的极限中，后面的条件 g(x)≠u 为什么很重要？",
+      "url": "https://www.zhihu.com/answer/218711598",
+      "summary": "正文完整分析复合函数极限定理中去心邻域条件的必要性。"
+    },
+    {
+      "title": "33333333…+444444…=？",
+      "url": "https://www.zhihu.com/answer/218961275",
+      "summary": "正文分别用柯西列等价类和戴德金分割构造实数并讨论极限。"
+    },
+    {
+      "title": "布丰用投针实验估计了 π 值，那么用什么简单方法可以估计自然对数的底数 e 的值？",
+      "url": "https://www.zhihu.com/answer/221873815",
+      "summary": "正文用两列极限和夹逼准则证明实验概率的极限。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/226469893",
+      "summary": "正文说明近似值随边数单调递增且收敛到圆周率。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/227929794",
+      "summary": "正文使用单调数列及其极限得到圆周率界。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/231361053",
+      "summary": "正文说明极限连接有限过程与无限对象。"
+    },
+    {
+      "title": "如何比较1 +2+3+4+……+N和2+4+6+8+……+N的大小？",
+      "url": "https://www.zhihu.com/answer/234492411",
+      "summary": "正文把无穷求和明确解释为部分和的极限。"
+    },
+    {
+      "title": "水平渐近线   铅直渐近线怎么求？",
+      "url": "https://www.zhihu.com/answer/235919216",
+      "summary": "正文用函数在定义域端点和未定义点的极限判断渐近线。"
+    },
+    {
+      "title": "大家有没有小时候的一些猜想结果有的科学家和你想的一样，而且去证实？或者谈谈你们小时候的猜想！？",
+      "url": "https://www.zhihu.com/answer/237429446",
+      "summary": "正文记录反复取余弦所得序列收敛到固定点。"
+    },
+    {
+      "title": "解微分方程为什么会出现个 e？",
+      "url": "https://www.zhihu.com/answer/238304260",
+      "summary": "正文把逐次迭代的函数极限作为最终解。"
+    },
+    {
+      "title": "希尔伯特曲线真的遍历了区间中的所有点了吗？",
+      "url": "https://www.zhihu.com/answer/242252736",
+      "summary": "正文以一列伪 Hilbert 曲线的极限定义真正曲线。"
+    },
+    {
+      "title": "π 是怎么算出来的？",
+      "url": "https://www.zhihu.com/answer/245491063",
+      "summary": "正文用多边形边数趋于无穷时周长逼近圆周长解释极限。"
+    },
+    {
+      "title": "中国真的在文化、数学上都曾经领先世界几百年吗？",
+      "url": "https://www.zhihu.com/answer/246571788",
+      "summary": "正文辨析无限取半与剩余长度趋零这一数列极限本质。"
+    },
+    {
+      "title": "为什么对球的体积公式进行求导会得到球的表面积公式？",
+      "url": "https://www.zhihu.com/answer/250832148",
+      "summary": "正文用薄壳和多矩形逼近解释差商的极限。"
+    },
+    {
+      "title": "不用洛必达法则和泰勒公式，如何求：当 x→0 时，x/ln(1+x)的极限？",
+      "url": "https://www.zhihu.com/answer/251092492",
+      "summary": "正文利用自然常数定义直接计算对数基本极限。"
+    },
+    {
+      "title": "不用洛必达法则和泰勒公式，如何求：当 x→0 时，x/ln(1+x)的极限？",
+      "url": "https://www.zhihu.com/answer/251229159",
+      "summary": "正文从极限定义推导指数函数导数和自然底数。"
+    },
+    {
+      "title": "如何证明韦达给出的圆周率的计算公式？",
+      "url": "https://www.zhihu.com/answer/251937327",
+      "summary": "正文对迭代次数取极限得到正弦无穷乘积。"
+    },
+    {
+      "title": "ε-N 语言中，ε 到底动不动？如何理解 ε 不是数，而是趋于 0 的正量？",
+      "url": "https://www.zhihu.com/answer/259429569",
+      "summary": "正文从量词关系解释极限而非变量机械运动。"
+    },
+    {
+      "title": "导函数的左右极限和左右导数有什么区别？",
+      "url": "https://www.zhihu.com/answer/261181098",
+      "summary": "正文解释导函数作为独立函数时左右极限与连续性的关系。"
+    },
+    {
+      "title": "祖冲之的割圆术求圆周率是否过于繁琐？",
+      "url": "https://www.zhihu.com/answer/261683501",
+      "summary": "正文用无限分割逼近圆说明极限思想的几何应用。"
+    },
+    {
+      "title": "如何简单地证明、理解牛顿-莱布尼兹公式？",
+      "url": "https://www.zhihu.com/answer/262359332",
+      "summary": "正文以极限下线性近似统一微分与积分思想。"
+    },
+    {
+      "title": "做过最气的题是什么题？",
+      "url": "https://www.zhihu.com/answer/262430705",
+      "summary": "正文说明极限会把逐项严格不等式变为极限处的非严格关系。"
+    },
+    {
+      "title": "网剧《你好，旧时光》第一集当中的题目是否真的需要将「连续」修改为「可导」才能求解？",
+      "url": "https://www.zhihu.com/answer/263786994",
+      "summary": "正文由给定极限存在推出底数趋于 1 与连续性。"
+    },
+    {
+      "title": "为什么要用 ε、δ 去定义极限？",
+      "url": "https://www.zhihu.com/answer/265216230",
+      "summary": "正文解释严格定义极限是为堵住无穷小语言留下的逻辑漏洞。"
+    },
+    {
+      "title": "0 的任何次方都等于 0，1 的任何次方都等于 1，这有什么奇妙的联系吗？",
+      "url": "https://www.zhihu.com/answer/265503341",
+      "summary": "正文用沿不同曲线逼近展示二元极限的路径依赖。"
+    },
+    {
+      "title": "在计算器上按 tan 89.9999 会得到 180/π，这是什么巧合吗？",
+      "url": "https://www.zhihu.com/answer/265620744",
+      "summary": "正文用 tan x 与 x 的等价无穷小直接得到渐近值。"
+    },
+    {
+      "title": "芝诺佯谬的正确解释是什么？",
+      "url": "https://www.zhihu.com/answer/267951394",
+      "summary": "正文计算距离与时间序列的极限，说明芝诺悖论中的追赶时刻。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/273354302",
+      "summary": "正文说明该困惑由极限概念化解。"
+    },
+    {
+      "title": "数列递推公式化为函数形式后可以通过求导判断单调性?",
+      "url": "https://www.zhihu.com/answer/273447204",
+      "summary": "正文以单调有界法证明数列极限存在。"
+    },
+    {
+      "title": "如何判断数列的单调性?",
+      "url": "https://www.zhihu.com/answer/273447909",
+      "summary": "正文以单调有界法说明数列极限存在。"
+    },
+    {
+      "title": "怎样正确理解上极限与下极限？",
+      "url": "https://www.zhihu.com/answer/274030520",
+      "summary": "正文从子列极限和极限点定义上极限、下极限。"
+    },
+    {
+      "title": "怎样正确理解上极限与下极限？",
+      "url": "https://www.zhihu.com/answer/275584090",
+      "summary": "正文将上下极限定义为收敛子列极限的上下确界。"
+    },
+    {
+      "title": "做过最气的题是什么题？",
+      "url": "https://www.zhihu.com/answer/276653549",
+      "summary": "正文用上下界夹逼证明含根式数列的极限。"
+    },
+    {
+      "title": "微分到底是什么意思？实际意义是什么？",
+      "url": "https://www.zhihu.com/answer/276684374",
+      "summary": "正文说明现代微积分先由极限建立导数，再定义微分。"
+    },
+    {
+      "title": "数学家面对复杂的数学算式时，还能把它和直观的概念联系在一起吗？",
+      "url": "https://www.zhihu.com/answer/279413492",
+      "summary": "正文通过求下确界和趋近过程解释极限论证。"
+    },
+    {
+      "title": "高等数学全是教微积分，为什么不索性叫微积分而要叫高等数学？",
+      "url": "https://www.zhihu.com/answer/283152414",
+      "summary": "正文把极限列为微分学的核心板块并解释体系结构。"
+    },
+    {
+      "title": "求大神解释洛必达法则琴生不等式、拉格朗日？",
+      "url": "https://www.zhihu.com/answer/283869748",
+      "summary": "正文说明极限运算在洛必达法则中的规则。"
+    },
+    {
+      "title": "如果古人（还没有建立了微积分之前）得出的圆的面积公式是错误的，那么会给现代的数学结论带来什么影响？",
+      "url": "https://www.zhihu.com/answer/284409629",
+      "summary": "正文用内接或外切多边形的极限定义圆面积。"
+    },
+    {
+      "title": "为什么求极限没有逆运算？",
+      "url": "https://www.zhihu.com/answer/284824872",
+      "summary": "正文围绕极限是否具有逆运算，说明极限描述局部状态而不是把一个元素映射为另一个元素。"
+    },
+    {
+      "title": "为什么求极限没有逆运算？",
+      "url": "https://www.zhihu.com/answer/285128545",
+      "summary": "正文把数列极限解释为收敛数列空间上的运算。"
+    },
+    {
+      "title": "微分、导数、积分，这三者之间，有没有联系？",
+      "url": "https://www.zhihu.com/answer/287361075",
+      "summary": "正文以极限重新建立无穷小、切线、导数和微分。"
+    },
+    {
+      "title": "怎么用特征根法和不动点法求数列的通项公式？",
+      "url": "https://www.zhihu.com/answer/290516160",
+      "summary": "正文以递推极限对应不动点方程为求解入口。"
+    },
+    {
+      "title": "为什么极限的 ε-N 和 ε-δ 语言具有划时代的意义？",
+      "url": "https://www.zhihu.com/answer/296151193",
+      "summary": "正文用定义逐项证明数列收敛或不收敛于零。"
+    },
+    {
+      "title": "怎么计算lim(x->+∞)（1+1/x）^x的值，也就是e的值？",
+      "url": "https://www.zhihu.com/answer/305160256",
+      "summary": "正文完整证明相关数列和连续变量极限存在。"
+    },
+    {
+      "title": "√2 是个无理数，没有尽头，为什么直角边长为 1 的等腰直角三角形可以被画出来？",
+      "url": "https://www.zhihu.com/answer/308369098",
+      "summary": "正文用芝诺悖论和无穷过程之和有限解释极限思想。"
+    },
+    {
+      "title": "路径积分、重整化在数学上目前并没有严格的定义，为什么在物理学中却相当有效？",
+      "url": "https://www.zhihu.com/answer/310932293",
+      "summary": "正文说明切片后取n趋于无穷的极限可定义路径积分。"
+    },
+    {
+      "title": "为什么开区间不适用闭区间套定理？(从完备公理出发)？",
+      "url": "https://www.zhihu.com/answer/313164361",
+      "summary": "正文用1/n趋于0分析开区间套没有公共点。"
+    },
+    {
+      "title": "能否把导数推广到任意阶（分数阶、实数阶、甚至是复数阶）？",
+      "url": "https://www.zhihu.com/answer/317313543",
+      "summary": "正文用有理指数逼近 π 的数列极限解释连续推广。"
+    },
+    {
+      "title": "关于x次方的x次方的x次方的x次方...到无穷？",
+      "url": "https://www.zhihu.com/answer/325614997",
+      "summary": "正文分析无穷迭代幂函数的收敛与不收敛区间。"
+    },
+    {
+      "title": "p范数的极限（无穷范数）为什么是极大值范数？",
+      "url": "https://www.zhihu.com/answer/326930598",
+      "summary": "正文通过 p 趋于无穷的极限推导 p 范数趋于极大值范数。"
+    },
+    {
+      "title": "微分、导数、积分，这三者之间，有没有联系？",
+      "url": "https://www.zhihu.com/answer/328447509",
+      "summary": "正文用割线趋近切线和积分分割定义极限过程。"
+    },
+    {
+      "title": "怎样理解“函数极限的局部有界性”?",
+      "url": "https://www.zhihu.com/answer/332350657",
+      "summary": "正文给出函数极限局部有界性的定义并逐项解释。"
+    },
+    {
+      "title": "有哪些高逼格的祝福语？",
+      "url": "https://www.zhihu.com/answer/334105521",
+      "summary": "正文用数列部分和趋于无穷时的极限表达等比级数和。"
+    },
+    {
+      "title": "证明调和级数发散的多种方法（5种及以上）？",
+      "url": "https://www.zhihu.com/answer/335547769",
+      "summary": "正文通过部分和数列与对数的比较讨论调和级数发散。"
+    },
+    {
+      "title": "（1+1/n）^n的极限为e，怎么求？",
+      "url": "https://www.zhihu.com/answer/344136661",
+      "summary": "正文用单调有界数列定理说明该数列极限为e。"
+    },
+    {
+      "title": "二元函数全微分判别式下面的 ρ 有什么具体意义呢？",
+      "url": "https://www.zhihu.com/answer/347217412",
+      "summary": "正文通过两个增量趋零讨论极限过程。"
+    },
+    {
+      "title": "为什么随机变量的分布函数要右连续？",
+      "url": "https://www.zhihu.com/answer/347684427",
+      "summary": "正文比较离散极限与实数极限的差异。"
+    },
+    {
+      "title": "为什么函数可导就一定连续而连续不一定可导？有比较通俗的说法吗？",
+      "url": "https://www.zhihu.com/answer/353198503",
+      "summary": "正文用左右极限与无穷小完成证明。"
+    },
+    {
+      "title": "函数不连续一定不可导吗？",
+      "url": "https://www.zhihu.com/answer/353554873",
+      "summary": "正文用函数极限刻画连续与导数存在。"
+    },
+    {
+      "title": "这种解法错在哪里：生男生女概率各 50％，每个家庭都生到第一个男孩就不再生，那么产生的男女比例是多少？",
+      "url": "https://www.zhihu.com/answer/355515481",
+      "summary": "正文用依概率收敛定义表达总体比例的极限。"
+    },
+    {
+      "title": "用正方形逼近圆，得到 π 值为 4 的结论，错在哪里？",
+      "url": "https://www.zhihu.com/answer/371415297",
+      "summary": "正文用线元比值极限定量判断两种圆周近似是否收敛。"
+    },
+    {
+      "title": "导函数的左右极限和左右导数有什么区别？",
+      "url": "https://www.zhihu.com/answer/374709453",
+      "summary": "正文用左右极限存在条件推导可导性。"
+    },
+    {
+      "title": "为什么原函数连续且可导的导函数不一定连续?",
+      "url": "https://www.zhihu.com/answer/377352348",
+      "summary": "正文通过趋近零点时的夹逼关系分析函数连续性。"
+    },
+    {
+      "title": "为什么二元函数在点（x，y）的全增量可以用带高阶无穷小的表达式表示？这个高阶无穷小怎么来的？",
+      "url": "https://www.zhihu.com/answer/384391042",
+      "summary": "正文通过二元极限证明乘积项是关于距离的高阶无穷小。"
+    },
+    {
+      "title": "如何通俗理解微分和增量？",
+      "url": "https://www.zhihu.com/answer/388803366",
+      "summary": "正文用增量趋零说明微分与函数增量误差为高阶无穷小。"
+    },
+    {
+      "title": "站在一个无穷大的围棋/五子棋盘上的任意格点上，能够看到的格点都放上黑棋，黑棋占格点比例多少？",
+      "url": "https://www.zhihu.com/answer/389419655",
+      "summary": "正文以有限区域比例趋于无穷的极限定义自然密度。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/389540107",
+      "summary": "正文用同阶但非等价无穷小解释错误的长度替换。"
+    },
+    {
+      "title": "如何通俗地介绍一下全部三次数学危机？",
+      "url": "https://www.zhihu.com/answer/401393252",
+      "summary": "正文讨论无穷小、无限步骤与微积分基础。"
+    },
+    {
+      "title": "怎样正确理解上极限与下极限？",
+      "url": "https://www.zhihu.com/answer/405394830",
+      "summary": "正文从尾上确界与尾下确界定义上、下极限，并给出数列收敛判据。"
+    },
+    {
+      "title": "装备每次升级的概率为 1%，第 100 次失败后必定成功，则装备的实际升级概率为多少？",
+      "url": "https://www.zhihu.com/answer/406668619",
+      "summary": "正文用成功率趋零的极限推导近似倍率。"
+    },
+    {
+      "title": "那怎么看汤家凤说的精确度够不够，可以用等价无穷小替换？",
+      "url": "https://www.zhihu.com/answer/409255874",
+      "summary": "正文讨论求极限时等价无穷小替换的条件。"
+    },
+    {
+      "title": "如何通俗地解释依概率收敛？",
+      "url": "https://www.zhihu.com/answer/409928154",
+      "summary": "正文把偏离事件概率趋于零表述为极限过程。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/412738325",
+      "summary": "正文计算维数趋于无穷时体积与面积趋零。"
+    },
+    {
+      "title": "泰勒展开的公式怎么记忆？",
+      "url": "https://www.zhihu.com/answer/415448410",
+      "summary": "正文将泰勒展开与等价无穷小、极限计算联系起来。"
+    },
+    {
+      "title": "如何评价功能游戏《微积历险记》？",
+      "url": "https://www.zhihu.com/answer/433498308",
+      "summary": "正文借微积分游戏机制解释单侧极限与极限存在。"
+    },
+    {
+      "title": "关于数列的上下极限？",
+      "url": "https://www.zhihu.com/answer/433672822",
+      "summary": "正文利用上下极限相等与子列技巧证明数列收敛。"
+    },
+    {
+      "title": "阿基里斯悖论的解决办法？",
+      "url": "https://www.zhihu.com/answer/435869242",
+      "summary": "正文用有界无穷数列解释芝诺悖论中的极限过程。"
+    },
+    {
+      "title": "关于求极限的一道题，为什么当x趋于0时，1+x换成1来算结果差那么多。？",
+      "url": "https://www.zhihu.com/answer/442891879",
+      "summary": "正文说明极限加减式中等价无穷小替换会放大误差。"
+    },
+    {
+      "title": "怎么推导或证明 e^x 的导数是自身？",
+      "url": "https://www.zhihu.com/answer/443056690",
+      "summary": "正文用夹逼准则把离散极限推广到连续变量极限。"
+    },
+    {
+      "title": "皮亚诺曲线可以遍历单位正方形中的每一点该怎样理解？",
+      "url": "https://www.zhihu.com/answer/445215213",
+      "summary": "正文强调曲线族极限与各条曲线性质可能不同。"
+    },
+    {
+      "title": "为什么数列收敛一定有界。？",
+      "url": "https://www.zhihu.com/answer/446342623",
+      "summary": "正文解释收敛性只依赖数列尾部的渐近行为。"
+    },
+    {
+      "title": "同阶 高阶 低阶 等价无穷小是啥？",
+      "url": "https://www.zhihu.com/answer/462003899",
+      "summary": "正文以极限定义无穷小并区分等价、同阶和高阶。"
+    },
+    {
+      "title": "「圆周率＝4」这个说法是否真实？",
+      "url": "https://www.zhihu.com/answer/468972721",
+      "summary": "正文解释极限处理中可舍弃量必须是高阶无穷小。"
+    },
+    {
+      "title": "怎么理解 0.(9) 等于 1？不要用证明，只是谈谈理解？",
+      "url": "https://www.zhihu.com/answer/477570973",
+      "summary": "正文明确指出循环小数相等涉及极限运算。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/479713646",
+      "summary": "正文把并联母线载流量问题化为函数极限。"
+    },
+    {
+      "title": "用正方形逼近圆，得到 π 值为 4 的结论，错在哪里？",
+      "url": "https://www.zhihu.com/answer/487092294",
+      "summary": "正文指出折线逼近曲线时周长不随点态极限连续变化。"
+    },
+    {
+      "title": "如何直观理解二元函数在某一点可微而偏导不连续？",
+      "url": "https://www.zhihu.com/answer/490974828",
+      "summary": "正文从偏导振荡幅度说明其极限不存在。"
+    },
+    {
+      "title": "微分符号 dx、dy 表示什么含义？",
+      "url": "https://www.zhihu.com/answer/498740422",
+      "summary": "正文从割线极限定义切线和导数。"
+    },
+    {
+      "title": "如何理解「芝诺悖论」？",
+      "url": "https://www.zhihu.com/answer/498753076",
+      "summary": "正文用等比数列极限化解芝诺悖论。"
+    },
+    {
+      "title": "如何理解「芝诺悖论」？",
+      "url": "https://www.zhihu.com/answer/499340604",
+      "summary": "正文用极限解释芝诺悖论中的有限总时间。"
+    },
+    {
+      "title": "用正方形逼近圆，得到 π 值为 4 的结论，错在哪里？",
+      "url": "https://www.zhihu.com/answer/499721842",
+      "summary": "正文指出折线细分并未在长度上逼近圆弧。"
+    },
+    {
+      "title": "关于等价无穷小使用条件问题？",
+      "url": "https://www.zhihu.com/answer/500872433",
+      "summary": "正文用误差阶解释等价无穷小替换条件。"
+    },
+    {
+      "title": "如果换一种几何，圆周率的值会变么？",
+      "url": "https://www.zhihu.com/answer/500971538",
+      "summary": "用小角度极限解释球面局部趋近平坦空间。"
+    },
+    {
+      "title": "你学过的中小学教材中最坑爹的课文是哪一篇？",
+      "url": "https://www.zhihu.com/answer/503283524",
+      "summary": "围绕实指数、连续函数零点与导数定义，说明极限在严密定义中的基础作用。"
+    },
+    {
+      "title": "请问，消失的面积是怎么一回事?",
+      "url": "https://www.zhihu.com/answer/504309374",
+      "summary": "以斐波那契相邻项比的趋近解释为何两条不同斜率看起来极为接近。"
+    },
+    {
+      "title": "为什么微积分那么难学？",
+      "url": "https://www.zhihu.com/answer/505546174",
+      "summary": "说明极限是微积分中许多概念的基础，并给出函数极限的 ε-δ 定义。"
+    },
+    {
+      "title": "什么情况下求极限可以直接带入？",
+      "url": "https://www.zhihu.com/answer/505997594",
+      "summary": "用顺口溜概括连续函数可直接代入、零分母需停下并最终依赖定义判断极限。"
+    },
+    {
+      "title": "什么是上极限？",
+      "url": "https://www.zhihu.com/answer/506147862",
+      "summary": "用数列凝聚点、单调子序列和上确界定义上极限，并给出多种等价描述。"
+    },
+    {
+      "title": "为什么浮点数要设置INF？",
+      "url": "https://www.zhihu.com/answer/506633423",
+      "summary": "通过一个二元表达式的不同单边极限说明这些浮点特殊值如何保持接近数学极限的计算行为。"
+    },
+    {
+      "title": "ε-N 语言中，ε 到底动不动？如何理解 ε 不是数，而是趋于 0 的正量？",
+      "url": "https://www.zhihu.com/answer/509933654",
+      "summary": "区分任意给定的正数 ε 与趋于零的无穷小量，并给出相应极限定义。"
+    },
+    {
+      "title": "怎么判断函数连续性？",
+      "url": "https://www.zhihu.com/answer/513717608",
+      "summary": "正文用左右极限等于函数值解释一点连续的判断标准。"
+    },
+    {
+      "title": "被高数虐是一种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/514499002",
+      "summary": "正文比较趋近速度并说明求极限时何时使用等价代换。"
+    },
+    {
+      "title": "想问一下大一数学极限怎么求?",
+      "url": "https://www.zhihu.com/answer/515213270",
+      "summary": "正文列举夹逼、洛必达、等价代换等求极限方法。"
+    },
+    {
+      "title": "无穷小等价代换是怎么得出来的？",
+      "url": "https://www.zhihu.com/answer/516438598",
+      "summary": "正文说明当 x 趋于零时舍去高阶项以比较极限。"
+    },
+    {
+      "title": "用正方形逼近圆，得到 π 值为 4 的结论，错在哪里？",
+      "url": "https://www.zhihu.com/answer/519966118",
+      "summary": "比较割圆术的周长收敛与折角图形仅面积趋近，实质讨论极限过程。"
+    },
+    {
+      "title": "如何通俗地解释泰勒公式？",
+      "url": "https://www.zhihu.com/answer/521272777",
+      "summary": "用取点趋密和误差趋零说明多项式逼近转向极限的过程。"
+    },
+    {
+      "title": "为什么我会觉得证明极限的过程完全是在套公式？",
+      "url": "https://www.zhihu.com/answer/522880067",
+      "summary": "围绕函数和数列收敛解释极限定义与证明策略。"
+    },
+    {
+      "title": "如何严谨地证明 0.9999…=1？",
+      "url": "https://www.zhihu.com/answer/533408769",
+      "summary": "正文用数列与极限计算 0.999… 的值。"
+    },
+    {
+      "title": "高阶导数与高阶微分的概念怎么理解？",
+      "url": "https://www.zhihu.com/answer/536983424",
+      "summary": "正文用增量比的极限联系导数、切线斜率与微分。"
+    },
+    {
+      "title": "为什么在黎曼函数上无理数点连续，而如狄利克雷函数上为间断点，无理数到底连续吗？",
+      "url": "https://www.zhihu.com/answer/537771260",
+      "summary": "正文以极限定义说明单点连续不要求邻域内其他点连续。"
+    },
+    {
+      "title": "微分到底是个什么东西?",
+      "url": "https://www.zhihu.com/answer/538261195",
+      "summary": "正文用高阶无穷小和增量比极限定义线性近似误差。"
+    },
+    {
+      "title": "有没有在高考数学中使用洛必达法则而不扣分的方法？",
+      "url": "https://www.zhihu.com/answer/538597800",
+      "summary": "正文说明用洛必达法则先确定极限相关的分类界点。"
+    },
+    {
+      "title": "π 的存在是否意味着人类永远也无法精确的计算出宇宙的各种特征？",
+      "url": "https://www.zhihu.com/answer/543278295",
+      "summary": "正文用收敛数列解释如何无偏差地描述圆周率。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/543973396",
+      "summary": "正文从 e 的定义和对数求导推导出经典极限表达。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/547588113",
+      "summary": "正文通过结算次数趋于无穷解释 e 的极限。"
+    },
+    {
+      "title": "如果两个数的差为无穷小，那么这两个数相等吗？",
+      "url": "https://www.zhihu.com/answer/547672530",
+      "summary": "正文把含混的无穷小改写为数列之差的极限。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/548459361",
+      "summary": "正文从导数定义化到 e 的经典极限。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/549673994",
+      "summary": "正文用结算阶段趋于连续解释增长极限。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/550828858",
+      "summary": "把复利极限与对数导数联系起来，推出其极限为 e。"
+    },
+    {
+      "title": "两个重要极限有多重要？",
+      "url": "https://www.zhihu.com/answer/559668076",
+      "summary": "正文推导两个重要极限，并解释它们连接初等函数与微积分的作用。"
+    },
+    {
+      "title": "为什么 π 等于 3.14…？",
+      "url": "https://www.zhihu.com/answer/566113023",
+      "summary": "通过内接外切多边形的极限逼近圆周率。"
+    },
+    {
+      "title": "数学学习或研究中，你见过哪些有意思的反例？",
+      "url": "https://www.zhihu.com/answer/568288359",
+      "summary": "用函数与导函数极限反例说明极限交换条件。"
+    },
+    {
+      "title": "大神能给我解释一下函数的保号性是什么意思吗？或者你是怎么理解保号性的？还有保号性在函数里的应用？",
+      "url": "https://www.zhihu.com/answer/570301792",
+      "summary": "正文从极限的局部保号性定义和应用展开讲解。"
+    },
+    {
+      "title": "为什么反函数的导数等于原函数导数的倒数？",
+      "url": "https://www.zhihu.com/answer/571332482",
+      "summary": "正文在极限与连续条件下展开反函数导数推导。"
+    },
+    {
+      "title": "请问等价无穷小什么时候用什么时候不能用？",
+      "url": "https://www.zhihu.com/answer/572545672",
+      "summary": "正文围绕极限运算讲解等价无穷小替换规则。"
+    },
+    {
+      "title": "请问等价无穷小什么时候用什么时候不能用？",
+      "url": "https://www.zhihu.com/answer/572602750",
+      "summary": "正文讲解极限中等价无穷小替换的适用条件。"
+    },
+    {
+      "title": "有哪些常用的等价无穷小？？",
+      "url": "https://www.zhihu.com/answer/574694041",
+      "summary": "正文用零点附近展开解释极限中的等价无穷小。"
+    },
+    {
+      "title": "1 如果无限除以 2 会等于多少？",
+      "url": "https://www.zhihu.com/answer/575142215",
+      "summary": "正文用无穷小阶与比值极限解释不断除二。"
+    },
+    {
+      "title": "如何能更好地理解（ε-δ）语言极限的定义？",
+      "url": "https://www.zhihu.com/answer/576247386",
+      "summary": "正文围绕函数极限的严格含义展开。"
+    },
+    {
+      "title": "为什么任给一个圆，它的圆周长和直径比值都是常数？",
+      "url": "https://www.zhihu.com/answer/580702880",
+      "summary": "用上确界与逼近过程支撑圆周长度的定义。"
+    },
+    {
+      "title": "如何能更好地理解（ε-δ）语言极限的定义？",
+      "url": "https://www.zhihu.com/answer/581702196",
+      "summary": "把极限的邻域约束还原成可操作的严格定义。"
+    },
+    {
+      "title": "0.9循环的无穷次方是多少？",
+      "url": "https://www.zhihu.com/answer/585338772",
+      "summary": "比较不同迭代极限的取法与结果。"
+    },
+    {
+      "title": "0.9循环的无穷次方是多少？",
+      "url": "https://www.zhihu.com/answer/586359550",
+      "summary": "分析 0.9 循环的幂在不同取极限顺序下的结果。"
+    },
+    {
+      "title": "如何理解极限的保号性？",
+      "url": "https://www.zhihu.com/answer/591658818",
+      "summary": "正文用数列极限解释局部保号性。"
+    },
+    {
+      "title": "有哪些高中教材不要求但高考解题时非常好用的知识？",
+      "url": "https://www.zhihu.com/answer/597417510",
+      "summary": "正文介绍用求导计算未定式极限。"
+    },
+    {
+      "title": "lim(x→0)[√(1+tanx)-√(1+sinx)]/[x√(1+sin²x)-x]如何计算？",
+      "url": "https://www.zhihu.com/answer/598946078",
+      "summary": "正文连续化简并计算一个三角函数极限。"
+    },
+    {
+      "title": "微分定义时略去了 Δx 的高阶无穷小，为何积分后还能得到理论上的精确值？",
+      "url": "https://www.zhihu.com/answer/603400605",
+      "summary": "正文解释高阶无穷小在取极限时为何可忽略。"
+    },
+    {
+      "title": "实分析学得太难失去信心和兴趣了怎么办？",
+      "url": "https://www.zhihu.com/answer/612266712",
+      "summary": "正文以取极限和逼近解释分析方法。"
+    },
+    {
+      "title": "0/∞、∞/0 型的极限一定不存在吗？",
+      "url": "https://www.zhihu.com/answer/614934110",
+      "summary": "正文解释未定式极限不能直接代入计算。"
+    },
+    {
+      "title": "(lnx)'＝1/x，为什么 (ln3)'≠1/3？",
+      "url": "https://www.zhihu.com/answer/624089839",
+      "summary": "逐步使用极限定义区分函数在点处导数与常值函数导数。"
+    },
+    {
+      "title": "什么是曲率和曲率半径？",
+      "url": "https://www.zhihu.com/answer/624707205",
+      "summary": "通过邻近点趋近目标点得到密接圆的极限位置。"
+    },
+    {
+      "title": "洛必达法则使用条件是什么，而且，在哪些情况下不能使用？",
+      "url": "https://www.zhihu.com/answer/626227502",
+      "summary": "指出洛必达法则只直接用于零比零或无穷比无穷的未定式。"
+    },
+    {
+      "title": "为什么偏导函数存在会不连续？",
+      "url": "https://www.zhihu.com/answer/631157318",
+      "summary": "通过左右极限不存在判定导函数在原点不连续。"
+    },
+    {
+      "title": "有哪些看起来很简单但做起来很难的数学题？",
+      "url": "https://www.zhihu.com/answer/631741295",
+      "summary": "讨论两个递推数列收敛到共同极限。"
+    },
+    {
+      "title": "导函数的左右极限和左右导数有什么区别？",
+      "url": "https://www.zhihu.com/answer/634354359",
+      "summary": "列举两个极限存在性的蕴含关系及反例方向。"
+    },
+    {
+      "title": "函数 y＝(x!)^(1/x) 的图像为什么类似于一条直线（如图）？",
+      "url": "https://www.zhihu.com/answer/635169026",
+      "summary": "用斯特林公式把函数拆成线性因子与收敛到一的修正因子。"
+    },
+    {
+      "title": "无穷小量究竟是否为零？",
+      "url": "https://www.zhihu.com/answer/639132848",
+      "summary": "把无穷小严格解释为以零为极限的变量而不是固定实数。"
+    },
+    {
+      "title": "有哪些美丽或神奇的理科公式？",
+      "url": "https://www.zhihu.com/answer/639172067",
+      "summary": "把无穷小严格解释为趋于零的序列或函数。"
+    },
+    {
+      "title": "函数 y＝(x!)^(1/x) 的图像为什么类似于一条直线（如图）？",
+      "url": "https://www.zhihu.com/answer/642946327",
+      "summary": "用拉普拉斯渐近法和斯特林公式得到函数的大尺度线性极限。"
+    },
+    {
+      "title": "为什么在求极限时有时候不能用等价无穷小替换？",
+      "url": "https://www.zhihu.com/answer/647464603",
+      "summary": "通过反例计算说明等价无穷小只能整体乘以极限为一的因子。"
+    },
+    {
+      "title": "函数 y＝(x!)^(1/x) 的图像为什么类似于一条直线（如图）？",
+      "url": "https://www.zhihu.com/answer/649663432",
+      "summary": "用积分近似和斯特林主项说明阶乘根函数渐近于直线。"
+    },
+    {
+      "title": "这种行为可能?",
+      "url": "https://www.zhihu.com/answer/651470221",
+      "summary": "连续使用洛必达、等价无穷小与变量代换计算复合三角函数极限。"
+    },
+    {
+      "title": "有没有在高考数学中使用洛必达法则而不扣分的方法？",
+      "url": "https://www.zhihu.com/answer/654385742",
+      "summary": "以极限存在和等价变形为前提讨论洛必达法则。"
+    },
+    {
+      "title": "如何证明达布积分和黎曼积分的等价性？",
+      "url": "https://www.zhihu.com/answer/660391932",
+      "summary": "用分割加细与极限控制上下和差。"
+    },
+    {
+      "title": "洛必达法则为什么会存在失效的情况？",
+      "url": "https://www.zhihu.com/answer/664564564",
+      "summary": "从原式极限存在条件解释洛必达法则可能失效。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/667433027",
+      "summary": "利用有理数稠密性取数列极限逼近实数。"
+    },
+    {
+      "title": "如何给小学生讲一点微积分？",
+      "url": "https://www.zhihu.com/answer/668481822",
+      "summary": "让切片数趋于无穷以得到圆面积极限。"
+    },
+    {
+      "title": "为什么极限理论是基于实数的完备性？",
+      "url": "https://www.zhihu.com/answer/674321396",
+      "summary": "从柯西序列和完备性解释极限为何需要实数。"
+    },
+    {
+      "title": "如何证明在一个偏导存在，另一个偏导连续的条件下二元函数的可微性？",
+      "url": "https://www.zhihu.com/answer/676021647",
+      "summary": "在证明中以增量趋零和余项极限刻画可微性。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/680750541",
+      "summary": "对部分积闭式取极限得到常数 e。"
+    },
+    {
+      "title": "高数极限里面的精确度是什么？",
+      "url": "https://www.zhihu.com/answer/680975632",
+      "summary": "分析等价无穷小在极限加减中的适用条件与误差。"
+    },
+    {
+      "title": "请问泰勒公式什么条件下能用，什么条件下不能用？",
+      "url": "https://www.zhihu.com/answer/688250778",
+      "summary": "解释在极限计算中高阶小量必须趋于零。"
+    },
+    {
+      "title": "高中数学有哪些经验公式（二级公式）？",
+      "url": "https://www.zhihu.com/answer/691677619",
+      "summary": "归纳极限计算的比较与等价方法。"
+    },
+    {
+      "title": "求导，微分，积分之间的关系到底是怎么样的?",
+      "url": "https://www.zhihu.com/answer/704095548",
+      "summary": "说明连续、导数和微分都建立在极限上。"
+    },
+    {
+      "title": "解微分方程为什么会出现个 e？",
+      "url": "https://www.zhihu.com/answer/706433889",
+      "summary": "正文通过离散节点趋于无穷时的极限把近似解转化为精确解。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/708727036",
+      "summary": "用N趋于无穷时的极限得到1/e。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/710991699",
+      "summary": "用戏仿情境完整表达数列极限式定义。"
+    },
+    {
+      "title": "导数与微分的区别？",
+      "url": "https://www.zhihu.com/answer/716938043",
+      "summary": "从差商极限定义一元函数导数。"
+    },
+    {
+      "title": "求教各位大神高数如何判断无穷小的阶数？",
+      "url": "https://www.zhihu.com/answer/719646527",
+      "summary": "用极限定义无穷小及其阶数。"
+    },
+    {
+      "title": "十个人赛跑第一名和一百人赛跑的第十名，谁厉害？",
+      "url": "https://www.zhihu.com/answer/719837079",
+      "summary": "计算重复试验成功概率在n趋于无穷时的极限。"
+    },
+    {
+      "title": "数字信号处理中吉布斯效应和频谱泄露有什么区别？",
+      "url": "https://www.zhihu.com/answer/723413743",
+      "summary": "用肩峰极限定量描述 Gibbs 效应。"
+    },
+    {
+      "title": "假如 Minecraft 有完美的圆形会怎样？",
+      "url": "https://www.zhihu.com/answer/726517855",
+      "summary": "通过增加旋转对象数量逼近圆的极限。"
+    },
+    {
+      "title": "假如 Minecraft 有完美的圆形会怎样？",
+      "url": "https://www.zhihu.com/answer/726844463",
+      "summary": "用像素方块不断细化逼近理想圆。"
+    },
+    {
+      "title": "n! 开 n 次方（n→∞），如何取极限？",
+      "url": "https://www.zhihu.com/answer/729010007",
+      "summary": "用下界推出 n 阶根阶乘趋于无穷。"
+    },
+    {
+      "title": "高阶导数与高阶微分的概念怎么理解？",
+      "url": "https://www.zhihu.com/answer/731642087",
+      "summary": "从差商取极限定义导数。"
+    },
+    {
+      "title": "为何二阶导数要记为 d²y/dx²？",
+      "url": "https://www.zhihu.com/answer/732757028",
+      "summary": "用趋近过程定义导数与高阶变化。"
+    },
+    {
+      "title": "这个表情包里的式子谁会解？",
+      "url": "https://www.zhihu.com/answer/733541658",
+      "summary": "通过渐近主部求组合表达式极限。"
+    },
+    {
+      "title": "如何能更好地理解（ε-δ）语言极限的定义？",
+      "url": "https://www.zhihu.com/answer/734580884",
+      "summary": "正文逐项解释极限定义中的函数值逼近。"
+    },
+    {
+      "title": "为什么 0.9 的循环等于 1？",
+      "url": "https://www.zhihu.com/answer/736279470",
+      "summary": "正文把循环小数写成极限并利用等比数列求和完成计算。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/741926684",
+      "summary": "正文通过极限变换说明满足指数函数导数条件的基底只能是 e。"
+    },
+    {
+      "title": "高数题，为什么不能写成这种形式？",
+      "url": "https://www.zhihu.com/answer/747572062",
+      "summary": "比较两种求极限过程并指出遗漏无穷小。"
+    },
+    {
+      "title": "如何用初等数学证明 π 不是有理数？",
+      "url": "https://www.zhihu.com/answer/749102576",
+      "summary": "正文利用阶乘压过指数证明积分列极限为零。"
+    },
+    {
+      "title": "为什么数列极限N有时候需要取整加一，有时候不需要？",
+      "url": "https://www.zhihu.com/answer/750074578",
+      "summary": "解释数列极限证明中N的选取。"
+    },
+    {
+      "title": "如何用初等数学证明 π 不是有理数？",
+      "url": "https://www.zhihu.com/answer/754367401",
+      "summary": "正文证明该正整数积分上界趋于零，从而完成反证。"
+    },
+    {
+      "title": "微积分到底是什么?",
+      "url": "https://www.zhihu.com/answer/759641177",
+      "summary": "从无穷小与逼近过程解释微积分的极限思想。"
+    },
+    {
+      "title": "从0点出发，每次向正方向随机走1~k步，求踩到x的概率。为什么x趋于无穷大时，概率为2/(k+1)?",
+      "url": "https://www.zhihu.com/answer/759852363",
+      "summary": "取概率序列趋于无穷的极限。"
+    },
+    {
+      "title": "微积分到底是什么?",
+      "url": "https://www.zhihu.com/answer/759877967",
+      "summary": "正文把极限解释为任意精度近似，并说明其统摄后续运算。"
+    },
+    {
+      "title": "三分之一是0.3的循环三分之一乘3等于1 但是0.3的循环乘3是0.9的循环难道0.9的循环等于1么？",
+      "url": "https://www.zhihu.com/answer/765502646",
+      "summary": "正文把循环小数解释为数列和的极限。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/772662477",
+      "summary": "计算人数趋于无穷时成功概率的极限。"
+    },
+    {
+      "title": "如何理论计算多米诺骨牌推进速度？",
+      "url": "https://www.zhihu.com/answer/781806233",
+      "summary": "计算骨牌推进速度在路程趋于无穷时的极限。"
+    },
+    {
+      "title": "指数分布的概率密度函数是如何得出的？",
+      "url": "https://www.zhihu.com/answer/782076703",
+      "summary": "正文对离散逼近的累计分布取极限，得到指数分布的连续形式。"
+    },
+    {
+      "title": "怎么文艺地说生日快乐？",
+      "url": "https://www.zhihu.com/answer/784709754",
+      "summary": "通过项数趋于无穷说明级数极限。"
+    },
+    {
+      "title": "n 的 n 次方根接近于多少？",
+      "url": "https://www.zhihu.com/answer/785225563",
+      "summary": "给出 n 次根极限的多种证明。"
+    },
+    {
+      "title": "多元函数微分中为什么引入聚点概念？",
+      "url": "https://www.zhihu.com/answer/786664028",
+      "summary": "系统解释一元与多元函数极限。"
+    },
+    {
+      "title": "如何理清楚多元函数的偏导数连续性和可微的关系呢？",
+      "url": "https://www.zhihu.com/answer/789210293",
+      "summary": "用导数极限震荡说明不连续。"
+    },
+    {
+      "title": "微积分到底是什么?",
+      "url": "https://www.zhihu.com/answer/794111713",
+      "summary": "把微积分的细分过程建立在趋零误差上。"
+    },
+    {
+      "title": "怎么理解高阶无穷小量，同阶无穷小量，等价无穷小量？",
+      "url": "https://www.zhihu.com/answer/805533867",
+      "summary": "正文用趋近速度和比值极限解释高阶、同阶与等价无穷小，属于极限概念。"
+    },
+    {
+      "title": "间断点判别时，哪种点需要分左右极限计算哪些不需要？",
+      "url": "https://www.zhihu.com/answer/811130211",
+      "summary": "正文按间断点类型说明何时需要分别计算左右极限，属于极限判别。"
+    },
+    {
+      "title": "有没有大佬可以说一下收敛发散具体是啥？不懂题目中说的收敛于a是什么意思？",
+      "url": "https://www.zhihu.com/answer/819099701",
+      "summary": "正文用 1/x 与 sin x 解释自变量趋近时函数有无确定极限，即收敛和发散。"
+    },
+    {
+      "title": "怎么证明经过椭圆焦点的射线被椭圆多次反射后，趋于椭圆长轴？",
+      "url": "https://www.zhihu.com/answer/820298526",
+      "summary": "对光路线段斜率取极限证明趋向长轴。"
+    },
+    {
+      "title": "平面几何的五条公理确定了 π 的值吗？",
+      "url": "https://www.zhihu.com/answer/821529363",
+      "summary": "正文用递增有界的内接多边形周长取上确界，讨论不同公理系统下圆周长是否有定义。"
+    },
+    {
+      "title": "设光速为1那么我的飞船（小滑块）达到0.9的循环，是否能代表我达到了光速？",
+      "url": "https://www.zhihu.com/answer/821585529",
+      "summary": "用无限迭代和任意误差解释距离趋零。"
+    },
+    {
+      "title": "二重积分到底该怎么理解？",
+      "url": "https://www.zhihu.com/answer/821701089",
+      "summary": "用切片宽度趋零说明积分极限。"
+    },
+    {
+      "title": "如何证明收敛数列的任意子数列也收敛，且极限相同？",
+      "url": "https://www.zhihu.com/answer/821792423",
+      "summary": "证明收敛序列的任意子列具有同一极限。"
+    },
+    {
+      "title": "如何严谨地证明 0.9999…=1？",
+      "url": "https://www.zhihu.com/answer/822238873",
+      "summary": "把循环小数表示为数列并计算其极限。"
+    },
+    {
+      "title": "顶级数学家有多。。。。。？",
+      "url": "https://www.zhihu.com/answer/823837662",
+      "summary": "正文具体用阿基米德的分割、求和和取极限说明极限思想。"
+    },
+    {
+      "title": "面积是什么？为什么正方形长乘宽就是面积？是谁提出面积的概念，又是谁算出来的？",
+      "url": "https://www.zhihu.com/answer/824287892",
+      "summary": "用连续性处理边长的极限逼近。"
+    },
+    {
+      "title": "数学上有比欧拉公式还美的公式吗？",
+      "url": "https://www.zhihu.com/answer/828756838",
+      "summary": "通过结算次数趋于无穷得到 e。"
+    },
+    {
+      "title": "为什么fx是第一类间断点就没有原函数?",
+      "url": "https://www.zhihu.com/answer/829903363",
+      "summary": "比较左右极限与导数值推出连续。"
+    },
+    {
+      "title": "如何理解 Kramers Kronig 关系式和因果律之间的关系？",
+      "url": "https://www.zhihu.com/answer/830438696",
+      "summary": "用频率和时间趋于无穷时的极限控制积分。"
+    },
+    {
+      "title": "极限含有「趋于」、「接近」等直观概念的定义漏洞或不足之处在哪？",
+      "url": "https://www.zhihu.com/answer/830894453",
+      "summary": "对比直观逼近说法和严格函数极限定义。"
+    },
+    {
+      "title": "如何理解数列极限的定义？",
+      "url": "https://www.zhihu.com/answer/831202633",
+      "summary": "从 1/n 示例解释数列趋于极限的过程。"
+    },
+    {
+      "title": "＂利用定义证明函数极限”的过程怎么写？",
+      "url": "https://www.zhihu.com/answer/831876673",
+      "summary": "对一次函数在指定点的极限给出完整证明。"
+    },
+    {
+      "title": "如下求 lim(x→0) [ln(1+x)-x]/x² 的过程错在何处？",
+      "url": "https://www.zhihu.com/answer/834661644",
+      "summary": "正文直接计算给定极限并分析拆分极限导致错误的原因。"
+    },
+    {
+      "title": "谁能给我简单的讲一讲洛必达法则？",
+      "url": "https://www.zhihu.com/answer/846471081",
+      "summary": "围绕未定式极限讲解洛必达法则。"
+    },
+    {
+      "title": "不连续的函数一定不可导吗？",
+      "url": "https://www.zhihu.com/answer/850716454",
+      "summary": "用极限定义证明函数在该点连续。"
+    },
+    {
+      "title": "sin n 的值集是 (-1, 1) 吗？",
+      "url": "https://www.zhihu.com/answer/851863901",
+      "summary": "利用连续性与极限控制逼近。"
+    },
+    {
+      "title": "连续和一致连续到底是什么意思？见问题？",
+      "url": "https://www.zhihu.com/answer/852699974",
+      "summary": "围绕函数连续性及其强弱展开。"
+    },
+    {
+      "title": "这个极限怎么计算？",
+      "url": "https://www.zhihu.com/answer/855474818",
+      "summary": "用夹逼定理求积分比值的无穷远极限。"
+    },
+    {
+      "title": "如果存在一个函数，代入有理数后得到无理数，代入无理数后得到有理数，那么这个函数是否一定不连续？",
+      "url": "https://www.zhihu.com/answer/855953273",
+      "summary": "证明满足题设的函数不可能连续。"
+    },
+    {
+      "title": "我会求某处的极限，但是不会求左右极限，有什么好的方法？",
+      "url": "https://www.zhihu.com/answer/858250146",
+      "summary": "解释单侧极限与函数极限、连续性的关系。"
+    },
+    {
+      "title": "错在哪里啊这个?",
+      "url": "https://www.zhihu.com/answer/859754181",
+      "summary": "按函数极限定义分析等价无穷小的错误。"
+    },
+    {
+      "title": "有哪些统计学专业反直觉的知识？",
+      "url": "https://www.zhihu.com/answer/863213537",
+      "summary": "讨论估计量以概率一收敛。"
+    },
+    {
+      "title": "当 n→∞ 时，n!/(n^n) 的极限是多少？如何计算？",
+      "url": "https://www.zhihu.com/answer/867414883",
+      "summary": "正文通过夹逼不等式完整计算 n!/n^n 的极限。"
+    },
+    {
+      "title": "有哪些堪称「数学软件及网站神器」，却鲜为人知？",
+      "url": "https://www.zhihu.com/answer/870173505",
+      "summary": "正文以函数图像、洛必达法和泰勒展开反复计算并核验同一个极限，明确得到二分之一。"
+    },
+    {
+      "title": "这个极限应该怎么求？",
+      "url": "https://www.zhihu.com/answer/878395549",
+      "summary": "正文通过因式分解和两个基本极限逐步求出给定极限。"
+    },
+    {
+      "title": "当 |x| 很小时，怎么证明 sin(x)≈x？",
+      "url": "https://www.zhihu.com/answer/880218232",
+      "summary": "从 sin x/x 的极限说明小角近似。"
+    },
+    {
+      "title": "除了Weierstrass函数，还有哪些处处连续处处不可导的实变函数的具体例子？",
+      "url": "https://www.zhihu.com/answer/881087107",
+      "summary": "以差商极限不存在证明处处不可导。"
+    },
+    {
+      "title": "在极限和导数证明中引入无穷小α的意义是什么？",
+      "url": "https://www.zhihu.com/answer/881947914",
+      "summary": "从无穷小争议讲到柯西与 epsilon-delta 极限理论。"
+    },
+    {
+      "title": "可导，可微，可积，连续的关系是什么？然后，它们各自的充要条件是什么？",
+      "url": "https://www.zhihu.com/answer/884790711",
+      "summary": "逐项辨析连续、可微、可导之间的蕴含关系。"
+    },
+    {
+      "title": "高数中数列有界，有极限，收敛之间的联系和区别？",
+      "url": "https://www.zhihu.com/answer/886071543",
+      "summary": "解释数列极限、收敛与有界的关系。"
+    },
+    {
+      "title": "解决力学或几何问题常用的微元法是否是严谨的？",
+      "url": "https://www.zhihu.com/answer/888309618",
+      "summary": "以极限严格解释微元法中的无穷小。"
+    },
+    {
+      "title": "怎么判断可导点与不可导点?",
+      "url": "https://www.zhihu.com/answer/893319181",
+      "summary": "用差商极限判断一点处导数是否存在。"
+    },
+    {
+      "title": "怎么证明函数在一个区间内连续？",
+      "url": "https://www.zhihu.com/answer/893526237",
+      "summary": "用极限定义辨析区间端点和区间内连续。"
+    },
+    {
+      "title": "斜渐近线不知道怎么求，各位能帮帮我吗？",
+      "url": "https://www.zhihu.com/answer/900334245",
+      "summary": "正文用两个无穷远极限给出斜渐近线斜率和截距的计算步骤。"
+    },
+    {
+      "title": "（高数）什么时候考虑左右极限啊，有的是直接带入，有的还要考虑左右极限，有点分不清。？",
+      "url": "https://www.zhihu.com/answer/919343767",
+      "summary": "正文直接说明需要考察左右极限的三类情形。"
+    },
+    {
+      "title": "这道极限该怎么求?",
+      "url": "https://www.zhihu.com/answer/923817936",
+      "summary": "正文识别0/0未定式并用洛必达法则完成极限计算。"
+    },
+    {
+      "title": "求极限什么情况下可以在加减式中使用等价（无穷小）替换？",
+      "url": "https://www.zhihu.com/answer/951022518",
+      "summary": "正文分析和差式中等价无穷小替换成立的条件与反例。"
+    },
+    {
+      "title": "有哪些常用的等价无穷小？？",
+      "url": "https://www.zhihu.com/answer/964800501",
+      "summary": "正文系统列出等价无穷小，并证明其在极限加减运算中的替换条件。"
+    },
+    {
+      "title": "如何评价四川大学 2019~2020 学期秋季期末考试，微积分(I)–1 的考试题？",
+      "url": "https://www.zhihu.com/answer/967335407",
+      "summary": "正文用等价无穷小和展开完整求多个极限。"
+    },
+    {
+      "title": "如何计算二次函数图像与 x 轴围成的面积？",
+      "url": "https://www.zhihu.com/answer/992719162",
+      "summary": "正文利用对所有 n 成立的上下界严格确定面积极限。"
+    },
+    {
+      "title": "请教一道级数问题如何做？",
+      "url": "https://www.zhihu.com/answer/996912343",
+      "summary": "全文通过上下极限与夹逼求序列和的极限。"
+    },
+    {
+      "title": "张宇十八讲中讲到了极限运算的脱帽戴帽法了吗？在哪里可以找到？",
+      "url": "https://www.zhihu.com/answer/1008707311",
+      "summary": "正文解释函数极限局部保号的脱帽法与戴帽法。"
+    },
+    {
+      "title": "这种高数极限题目怎么做?",
+      "url": "https://www.zhihu.com/answer/1017643833",
+      "summary": "正文用夹逼定理证明乘积极限为π/2。"
+    },
+    {
+      "title": "不使用计算器，如何计算 1.01的365次方 和 0.99的365次方？",
+      "url": "https://www.zhihu.com/answer/1022806131",
+      "summary": "正文用经典极限关系近似计算指数幂。"
+    },
+    {
+      "title": "求问1-√cosx的等价无穷小以及这个等价无穷小的其他拓展公式是怎么推出来的？？",
+      "url": "https://www.zhihu.com/answer/1022816455",
+      "summary": "正文围绕极限中的等价无穷小替换给出多步计算。"
+    },
+    {
+      "title": "「圆周率＝4」这个说法是否真实？",
+      "url": "https://www.zhihu.com/answer/1024593085",
+      "summary": "正文用极限和高阶无穷小说明弧长逼近。"
+    },
+    {
+      "title": "「圆周率＝4」这个说法是否真实？",
+      "url": "https://www.zhihu.com/answer/1025162639",
+      "summary": "正文核心是澄清对象收敛与弧长极限并不等价。"
+    },
+    {
+      "title": "当x趋于0时，sin（x·sin1/x）是否等价于x·sin1/x？",
+      "url": "https://www.zhihu.com/answer/1036264993",
+      "summary": "正文围绕等价无穷小、复合函数与极限存在条件展开。"
+    },
+    {
+      "title": "如何求e的负x平方的次方在零到正无穷上的定积分？",
+      "url": "https://www.zhihu.com/answer/1039322325",
+      "summary": "正文通过积分不等式两端取极限夹逼出结果。"
+    },
+    {
+      "title": "0的零次方等于多少？",
+      "url": "https://www.zhihu.com/answer/1042874227",
+      "summary": "正文用单侧极限解释零的零次幂在趋近意义下的行为。"
+    },
+    {
+      "title": "为什么随便在计算器上按个数，然后多次按 cos 键，结果总是趋近于 0.73几？",
+      "url": "https://www.zhihu.com/answer/1046361372",
+      "summary": "正文讨论余弦迭代序列极限的存在与方程。"
+    },
+    {
+      "title": "为什么随便在计算器上按个数，然后多次按 cos 键，结果总是趋近于 0.73几？",
+      "url": "https://www.zhihu.com/answer/1055783644",
+      "summary": "正文用压缩映射原理证明反复取余弦所得迭代序列收敛。"
+    },
+    {
+      "title": "这个不等式怎么做？",
+      "url": "https://www.zhihu.com/answer/1071228627",
+      "summary": "正文明确通过取极限完成离散到连续的转换。"
+    },
+    {
+      "title": "如何严格证明 sinx＜x（0＜x＜π/2）？",
+      "url": "https://www.zhihu.com/answer/1071974129",
+      "summary": "正文由上下界和夹逼定理推导正弦基本极限。"
+    },
+    {
+      "title": "e^x-1~x （x→0）如何证明等价无穷小？",
+      "url": "https://www.zhihu.com/answer/1087515663",
+      "summary": "正文用极限运算证明给定等价无穷小关系。"
+    },
+    {
+      "title": "请问等价无穷小什么时候用什么时候不能用？",
+      "url": "https://www.zhihu.com/answer/1089206147",
+      "summary": "正文围绕极限计算说明何时可作等价无穷小替换。"
+    },
+    {
+      "title": "无穷小量什么时候可以等价替换？",
+      "url": "https://www.zhihu.com/answer/1089212163",
+      "summary": "正文通过具体极限例子分析等价无穷小替换。"
+    },
+    {
+      "title": "为什么四则运算的运用这么广泛？",
+      "url": "https://www.zhihu.com/answer/1106316926",
+      "summary": "正文实质讨论极限如何保持函数的运算结构。"
+    },
+    {
+      "title": "两个发散的反常积分之和一定发散吗？",
+      "url": "https://www.zhihu.com/answer/1111658710",
+      "summary": "正文用极限四则运算解释发散量不能直接相消。"
+    },
+    {
+      "title": "有人真正理解数列极限的定义吗？",
+      "url": "https://www.zhihu.com/answer/1115524155",
+      "summary": "正文用反例和考题阐释数列极限定义。"
+    },
+    {
+      "title": "重要极限在什么情况下可以使用？",
+      "url": "https://www.zhihu.com/answer/1118729825",
+      "summary": "正文解释商的极限法则适用条件。"
+    },
+    {
+      "title": "理论上泰勒展开能解决所有极限问题吗？",
+      "url": "https://www.zhihu.com/answer/1137038678",
+      "summary": "正文用级数展开求具体极限。"
+    },
+    {
+      "title": "导数公式是怎么来的，人教选修 2-2 没有给出证明，有点奇怪？",
+      "url": "https://www.zhihu.com/answer/1141561635",
+      "summary": "正文具体陈述洛必达法则、给出三角函数极限示例，并大量使用极限讨论单调性和参数上界。"
+    },
+    {
+      "title": "怎么理解微分和导数的区别？",
+      "url": "https://www.zhihu.com/answer/1160110341",
+      "summary": "正文从无穷小的实数矛盾说明极限定义的必要性。"
+    },
+    {
+      "title": "复合函数的极限中，后面的条件 g(x)≠u 为什么很重要？",
+      "url": "https://www.zhihu.com/answer/1166944266",
+      "summary": "正文逐项说明复合函数极限定理的条件。"
+    },
+    {
+      "title": "一个求极限的问题为什么会有两个答案？",
+      "url": "https://www.zhihu.com/answer/1172041052",
+      "summary": "正文用乘上极限值为1的因子解释等价无穷小替换规则。"
+    },
+    {
+      "title": "如何理解极限的同时性，具体例子来说明。遇到题知道如何做但是自己没有具体很细节的了解到他的细节?",
+      "url": "https://www.zhihu.com/answer/1179983317",
+      "summary": "正文说明多变量极限必须同时趋近的含义。"
+    },
+    {
+      "title": "什么是「斯特林公式」？",
+      "url": "https://www.zhihu.com/answer/1182616649",
+      "summary": "正文以极限与渐近近似的形式陈述并证明斯特林公式。"
+    },
+    {
+      "title": "如何计算极限 lim(n→∞) [∫[0, n] (x^n)·e^(-x) dx]/(n!)？",
+      "url": "https://www.zhihu.com/answer/1193093861",
+      "summary": "正文通过换元、渐近与控制收敛求极限。"
+    },
+    {
+      "title": "一个求极限的问题为什么会有两个答案？",
+      "url": "https://www.zhihu.com/answer/1196070233",
+      "summary": "正文解释等价无穷小在极限中的适用条件。"
+    },
+    {
+      "title": "请问这个有点难度的极限题目怎么去做呢？",
+      "url": "https://www.zhihu.com/answer/1203239778",
+      "summary": "正文以展开式求极限。"
+    },
+    {
+      "title": "有哪些不易察觉的错误证明？",
+      "url": "https://www.zhihu.com/answer/1206026580",
+      "summary": "正文借极限与无穷小指出错误步骤。"
+    },
+    {
+      "title": "有没有大佬可以说一下收敛发散具体是啥？不懂题目中说的收敛于a是什么意思？",
+      "url": "https://www.zhihu.com/answer/1210276583",
+      "summary": "正文直接用极限存在性解释收敛与发散。"
+    },
+    {
+      "title": "无穷大量一定是无界量吗？",
+      "url": "https://www.zhihu.com/answer/1226779847",
+      "summary": "正文比较无穷大量与无界量的极限定义。"
+    },
+    {
+      "title": "为什么函数二阶可导却不能用两次洛必达法则?",
+      "url": "https://www.zhihu.com/answer/1227346437",
+      "summary": "正文讨论二阶导连续性以及洛必达法则适用条件。"
+    },
+    {
+      "title": "如何判断极限是否存在？",
+      "url": "https://www.zhihu.com/answer/1228510426",
+      "summary": "正文列举定义、夹逼和柯西准则等判断极限的方法。"
+    },
+    {
+      "title": "中科院自动化研究所保研面试问题？",
+      "url": "https://www.zhihu.com/answer/1235317318",
+      "summary": "正文用左右导数和函数极限解释连续与可导关系。"
+    },
+    {
+      "title": "为什么函数可导就一定连续而连续不一定可导？有比较通俗的说法吗？",
+      "url": "https://www.zhihu.com/answer/1237667983",
+      "summary": "正文用函数极限和左右导数分析连续性。"
+    },
+    {
+      "title": "求极限应该如何思考？",
+      "url": "https://www.zhihu.com/answer/1240612898",
+      "summary": "正文比较泰勒公式、洛必达和夹逼等方法在极限计算中的使用。"
+    },
+    {
+      "title": "为什么 lim(x→0, sin²x-x²cos²x/x²sin²x) 不能直接用洛必达法则?",
+      "url": "https://www.zhihu.com/answer/1242685639",
+      "summary": "正文连续使用四次洛必达法则计算函数极限。"
+    },
+    {
+      "title": "为什么 lim(x→0, sin²x-x²cos²x/x²sin²x) 不能直接用洛必达法则?",
+      "url": "https://www.zhihu.com/answer/1245944981",
+      "summary": "正文计算含 sin 与 cos 的函数极限并与洛必达法比较。"
+    },
+    {
+      "title": "为什么 lim(x→0, sin²x-x²cos²x/x²sin²x) 不能直接用洛必达法则?",
+      "url": "https://www.zhihu.com/answer/1250496451",
+      "summary": "正文说明该极限题不必直接使用洛必达法则。"
+    },
+    {
+      "title": "为什么 lim(x→0, sin²x-x²cos²x/x²sin²x) 不能直接用洛必达法则?",
+      "url": "https://www.zhihu.com/answer/1255250479",
+      "summary": "正文比较洛必达与泰勒展开两种求极限方法并解释适用条件。"
+    },
+    {
+      "title": "为什么 lim(x→0, sin²x-x²cos²x/x²sin²x) 不能直接用洛必达法则?",
+      "url": "https://www.zhihu.com/answer/1256361219",
+      "summary": "正文用泰勒公式解释洛必达法则的适用条件和次数。"
+    },
+    {
+      "title": "如何反驳此人证明0.9循环不为1？",
+      "url": "https://www.zhihu.com/answer/1257136450",
+      "summary": "正文指出错误论证违反了极限乘法的存在性条件。"
+    },
+    {
+      "title": "lim |sin n|^(1/n) as n→+∞ 是否存在，又如何证明呢，请问？",
+      "url": "https://www.zhihu.com/answer/1267277608",
+      "summary": "正文用 π 的非逼近定理和夹逼定理证明数列极限。"
+    },
+    {
+      "title": "是否任何正数被不断开平方后都会变成 1？",
+      "url": "https://www.zhihu.com/answer/1273732183",
+      "summary": "正文用极限定义、单调有界和夹逼定理证明开方序列趋于 1。"
+    },
+    {
+      "title": "为什么在求极限时有时候不能用等价无穷小替换？",
+      "url": "https://www.zhihu.com/answer/1293321925",
+      "summary": "正文用展开精度解释等价无穷小替换的条件。"
+    },
+    {
+      "title": "算术平均和几何平均之间还存在别的东西吗？",
+      "url": "https://www.zhihu.com/answer/1297306742",
+      "summary": "正文构造算术与几何平均迭代数列并讨论收敛。"
+    },
+    {
+      "title": "无穷小量什么时候可以等价替换？",
+      "url": "https://www.zhihu.com/answer/1298547033",
+      "summary": "正文解释极限中无穷小替换的安全条件。"
+    },
+    {
+      "title": "如何证明 lim(n→+∞) (1+1/n)^n＝e？",
+      "url": "https://www.zhihu.com/answer/1334984377",
+      "summary": "正文用均值不等式、单调有界和双向夹逼证明极限存在。"
+    },
+    {
+      "title": "n! 开 n 次方（n→∞），如何取极限？",
+      "url": "https://www.zhihu.com/answer/1343906013",
+      "summary": "正文用 e^n 的级数放缩估计 n! 并求 n 次方根的极限。"
+    },
+    {
+      "title": "为什么函数n阶可导但只能用n-1次洛必达法则呢?",
+      "url": "https://www.zhihu.com/answer/1348233664",
+      "summary": "正文解释洛必达法则的使用条件，并说明高阶导数不连续时不能继续套用。"
+    },
+    {
+      "title": "函数 y＝x^x^x^x^x^…，当 x∈(1, e^(1/e)) 时，是多值函数吗？",
+      "url": "https://www.zhihu.com/answer/1358684470",
+      "summary": "正文分析无穷迭代幂次的收敛区间和子列极限。"
+    },
+    {
+      "title": "农民出身的我遇到了一个数学问题，有没有大师解答一下怎么做?",
+      "url": "https://www.zhihu.com/answer/1367346419",
+      "summary": "正文用约分和洛必达法则计算函数在间断点的极限。"
+    },
+    {
+      "title": "农民出身的我遇到了一个数学问题，有没有大师解答一下怎么做?",
+      "url": "https://www.zhihu.com/answer/1367872768",
+      "summary": "正文把原问题化为约分后求函数极限的问题。"
+    },
+    {
+      "title": "sin(n!) 有极限吗，该怎么证明？",
+      "url": "https://www.zhihu.com/answer/1384646640",
+      "summary": "正文讨论 sin(n!) 的极限并给出渐近估计。"
+    },
+    {
+      "title": "高等数学高阶无穷小量中o(1)表示什么？",
+      "url": "https://www.zhihu.com/answer/1388883529",
+      "summary": "正文定义 o(1) 并说明其本质是极限为零。"
+    },
+    {
+      "title": "倘若在一次浩劫中，所有科学知识都被摧毁，每门学科只能留存一句话，你认为你所在的领域会留下什么话呢？",
+      "url": "https://www.zhihu.com/answer/1395111817",
+      "summary": "正文强调极限是重建数学分析的关键内容。"
+    },
+    {
+      "title": "导数公式是怎么来的，人教选修 2-2 没有给出证明，有点奇怪？",
+      "url": "https://www.zhihu.com/answer/1412498275",
+      "summary": "正文从极限、无穷小和运算法则推导导数公式，并引入自然常数 e。"
+    },
+    {
+      "title": "洛必达法则的使用条件是什么？",
+      "url": "https://www.zhihu.com/answer/1414724904",
+      "summary": "正文说明洛必达法则的适用条件和极限计算陷阱。"
+    },
+    {
+      "title": "为什么导函数连续才能使用洛必达法则？",
+      "url": "https://www.zhihu.com/answer/1429983829",
+      "summary": "正文讨论洛必达法则与导函数连续性。"
+    },
+    {
+      "title": "老师说链式法则里某个 dy/dx 不能理解为 dy 除以 dx，为什么？",
+      "url": "https://www.zhihu.com/answer/1431205499",
+      "summary": "正文从极限商与 Leibniz 记号解释 dy/dx 不能拆成普通除法。"
+    },
+    {
+      "title": "如何证明 √a＋√b≠√(a＋b) （a，b 属于正数）?",
+      "url": "https://www.zhihu.com/answer/1437276299",
+      "summary": "正文直接讲解或推导“极限计算”相关内容。"
+    },
+    {
+      "title": "为什么背诵 π 前1000位的人多，而背诵 e 的人却几乎找不到？",
+      "url": "https://www.zhihu.com/answer/1441671857",
+      "summary": "正文直接讲解或推导“极限计算”相关内容。"
+    },
+    {
+      "title": "如何理解数列极限的定义？",
+      "url": "https://www.zhihu.com/answer/1452725750",
+      "summary": "正文直接讲解或推导“极限计算”相关内容。"
+    },
+    {
+      "title": "如何证明 sinsin…sinx 极限为 0？",
+      "url": "https://www.zhihu.com/answer/1452786800",
+      "summary": "正文直接讲解或推导“极限计算”相关内容。"
+    },
+    {
+      "title": "为什么给一个正数一直开根号结果最后为一？",
+      "url": "https://www.zhihu.com/answer/1453479929",
+      "summary": "正文直接讲解或推导“极限计算”相关内容。"
+    },
+    {
+      "title": "高数极限，我的方法为什么不对？",
+      "url": "https://www.zhihu.com/answer/1453880799",
+      "summary": "正文直接讲解或推导“极限计算”相关内容。"
+    },
+    {
+      "title": "为什么给一个正数一直开根号结果最后为一？",
+      "url": "https://www.zhihu.com/answer/1454104683",
+      "summary": "正文把反复开根号化为指数幂并求数列极限。"
+    },
+    {
+      "title": "如何理解当x趋于0时 sin(xsin1/x)/(xsin1/x)的极限不存在？",
+      "url": "https://www.zhihu.com/answer/1457500639",
+      "summary": "正文证明给定函数在零点附近的极限不存在。"
+    },
+    {
+      "title": "请问这道极限题过程错在哪?",
+      "url": "https://www.zhihu.com/answer/1468837241",
+      "summary": "正文用极限与无穷小展开分析和计算目标极限。"
+    },
+    {
+      "title": "为什么 lim(x→0, sin²x-x²cos²x/x²sin²x) 不能直接用洛必达法则?",
+      "url": "https://www.zhihu.com/answer/1468861190",
+      "summary": "正文连续使用洛必达法则计算三角分式极限。"
+    },
+    {
+      "title": "高考压轴题是否可直接写由洛必达法则可得？",
+      "url": "https://www.zhihu.com/answer/1468864260",
+      "summary": "正文说明洛必达法则的证明链条与考试使用条件。"
+    },
+    {
+      "title": "如何理解数列极限的定义？",
+      "url": "https://www.zhihu.com/answer/1470705489",
+      "summary": "正文系统解释数列极限与收敛的定义。"
+    },
+    {
+      "title": "关于高数极限，大神进来指教一下?",
+      "url": "https://www.zhihu.com/answer/1472763553",
+      "summary": "正文指出把等价无穷小直接替换到指数中的极限错误。"
+    },
+    {
+      "title": "洗澡的时候突然论证出了1等于0，2等于0，所有数等于0，这个论证哪里错了呢？",
+      "url": "https://www.zhihu.com/answer/1483784360",
+      "summary": "正文直接给出与「极限计算」相关的解释、推导或应用。"
+    },
+    {
+      "title": "洗澡的时候突然论证出了1等于0，2等于0，所有数等于0，这个论证哪里错了呢？",
+      "url": "https://www.zhihu.com/answer/1484425968",
+      "summary": "正文直接给出与「极限计算」相关的解释、推导或应用。"
+    },
+    {
+      "title": "求间断点的时候什么时候要求左右极限？",
+      "url": "https://www.zhihu.com/answer/1487317770",
+      "summary": "正文直接给出与「极限计算」相关的解释、推导或应用。"
+    },
+    {
+      "title": "洗澡的时候突然论证出了1等于0，2等于0，所有数等于0，这个论证哪里错了呢？",
+      "url": "https://www.zhihu.com/answer/1489186871",
+      "summary": "正文直接给出与「极限计算」相关的解释、推导或应用。"
+    },
+    {
+      "title": "请问连续复利公式的推导过程是什么？",
+      "url": "https://www.zhihu.com/answer/1490799676",
+      "summary": "正文直接给出与「极限计算」相关的解释、推导或应用。"
+    },
+    {
+      "title": "洗澡的时候突然论证出了1等于0，2等于0，所有数等于0，这个论证哪里错了呢？",
+      "url": "https://www.zhihu.com/answer/1492475752",
+      "summary": "正文直接给出与「极限计算」相关的解释、推导或应用。"
+    },
+    {
+      "title": "洗澡的时候突然论证出了1等于0，2等于0，所有数等于0，这个论证哪里错了呢？",
+      "url": "https://www.zhihu.com/answer/1494432555",
+      "summary": "正文直接给出与「极限计算」相关的解释、推导或应用。"
+    },
+    {
+      "title": "在微积分教材一开始直接引入 epsilon-delta 语言是否有利？",
+      "url": "https://www.zhihu.com/answer/1496535283",
+      "summary": "正文直接给出与「极限计算」相关的解释、推导或应用。"
+    },
+    {
+      "title": "洗澡的时候突然论证出了1等于0，2等于0，所有数等于0，这个论证哪里错了呢？",
+      "url": "https://www.zhihu.com/answer/1501963587",
+      "summary": "正文分析无穷多项求和的极限与逐项取极限不能随意交换。"
+    },
+    {
+      "title": "如何证明 sinsin…sinx 极限为 0？",
+      "url": "https://www.zhihu.com/answer/1502189389",
+      "summary": "正文用单调有界收敛定理证明迭代正弦数列的极限为零。"
+    },
+    {
+      "title": "数学分析难在哪里？",
+      "url": "https://www.zhihu.com/answer/1504040827",
+      "summary": "正文直接讨论极限及无穷小阶的比较。"
+    },
+    {
+      "title": "当 x→0 时，x/sinx 的极限等于多少？",
+      "url": "https://www.zhihu.com/answer/1515591128",
+      "summary": "正文严格证明倒数函数的极限并展开极限计算。"
+    },
+    {
+      "title": "大一新生学习高等数学需要刷题吗？",
+      "url": "https://www.zhihu.com/answer/1516128276",
+      "summary": "正文从动态变化与趋近稳定状态解释极限观点。"
+    },
+    {
+      "title": "洗澡的时候突然论证出了1等于0，2等于0，所有数等于0，这个论证哪里错了呢？",
+      "url": "https://www.zhihu.com/answer/1519967008",
+      "summary": "正文讨论无限细分与无限加和中的极限。"
+    },
+    {
+      "title": "无穷小中o（x）到底应该怎么理解？",
+      "url": "https://www.zhihu.com/answer/1520148330",
+      "summary": "正文用极限定义解释高阶无穷小o(x)及其计算。"
+    },
+    {
+      "title": "求极限拆项的时候不是要求每项极限都存在才能拆开算吗?可是我在百度上查出了这个结论，我真的好困惑。?",
+      "url": "https://www.zhihu.com/answer/1522165649",
+      "summary": "正文分析极限拆项的成立条件并用反例说明。"
+    },
+    {
+      "title": "洗澡的时候突然论证出了1等于0，2等于0，所有数等于0，这个论证哪里错了呢？",
+      "url": "https://www.zhihu.com/answer/1524994056",
+      "summary": "正文直接讨论极限计算，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "在指数上面能不能用等价无穷小替换呢，如果能，条件是什么？",
+      "url": "https://www.zhihu.com/answer/1536543496",
+      "summary": "正文直接讨论极限计算，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "这个极限数学题怎么做？",
+      "url": "https://www.zhihu.com/answer/1561827044",
+      "summary": "正文用 Stolz 定理计算含部分和与多项式分母的极限。"
+    },
+    {
+      "title": "请问这一道极限题怎么做？",
+      "url": "https://www.zhihu.com/answer/1568880449",
+      "summary": "正文用三角恒等式把有限和化为可求极限的裂项结构。"
+    },
+    {
+      "title": "什么情况下极限不存在？",
+      "url": "https://www.zhihu.com/answer/1570141250",
+      "summary": "正文系统归纳极限不存在的几种典型情形，包括振荡与无定义点。"
+    },
+    {
+      "title": "这种带根号的极限能用泰勒公式解吗？",
+      "url": "https://www.zhihu.com/answer/1570171688",
+      "summary": "正文拆分复合根号表达式并用等价展开计算极限。"
+    },
+    {
+      "title": "这一道高等数学极限题怎么做？",
+      "url": "https://www.zhihu.com/answer/1573899880",
+      "summary": "正文用等价无穷小、因式分解与归纳法逐步计算复杂极限。"
+    },
+    {
+      "title": "a(n +2)=2/（a(n+1)+ an）如何证明极限存在，an>0，感谢？",
+      "url": "https://www.zhihu.com/answer/1579545740",
+      "summary": "正文用有界性、上下极限和子列论证递推数列的极限。"
+    },
+    {
+      "title": "怎么解释 lim(x→∞) (sinx＋x)/x 不能用洛必达？",
+      "url": "https://www.zhihu.com/answer/1579906102",
+      "summary": "正文用多个反例说明洛必达法则失效情形及正确的极限计算。"
+    },
+    {
+      "title": "高数为什么不能好好说话？",
+      "url": "https://www.zhihu.com/answer/1584447221",
+      "summary": "正文以 1/n 的数列极限说明严格极限计算与被证明的必要性。"
+    },
+    {
+      "title": "阿基里斯和乌龟的悖论真的不能用常规逻辑推翻吗？",
+      "url": "https://www.zhihu.com/answer/1591095061",
+      "summary": "正文直接讲解或使用该主题（无限细分）。"
+    },
+    {
+      "title": "什么情况下求极限可以直接带入？",
+      "url": "https://www.zhihu.com/answer/1592663552",
+      "summary": "正文直接讨论或应用该叶节点主题（极限）。"
+    },
+    {
+      "title": "阿基里斯和乌龟的悖论真的不能用常规逻辑推翻吗？",
+      "url": "https://www.zhihu.com/answer/1593553883",
+      "summary": "正文直接讨论或应用该叶节点主题（极限）。"
+    },
+    {
+      "title": "求数列极限应该怎么求？",
+      "url": "https://www.zhihu.com/answer/1598389389",
+      "summary": "正文直接讨论或应用该叶节点主题（极限）。"
+    },
+    {
+      "title": "割圆术就算割了∞次，它和真实面积也相差很小一部分，怎么就说它就可以等于真实面积？",
+      "url": "https://www.zhihu.com/answer/1617788658",
+      "summary": "正文以极限和割圆术说明有限数值无法直接代入无穷。"
+    },
+    {
+      "title": "割圆术就算割了∞次，它和真实面积也相差很小一部分，怎么就说它就可以等于真实面积？",
+      "url": "https://www.zhihu.com/answer/1617813866",
+      "summary": "正文通过割圆术极限、泰勒阶数比较说明面积逼近。"
+    },
+    {
+      "title": "割圆术就算割了∞次，它和真实面积也相差很小一部分，怎么就说它就可以等于真实面积？",
+      "url": "https://www.zhihu.com/answer/1618087930",
+      "summary": "正文说明无穷大只能趋近不能赋值，割圆面积应通过极限表达。"
+    },
+    {
+      "title": "割圆术就算割了∞次，它和真实面积也相差很小一部分，怎么就说它就可以等于真实面积？",
+      "url": "https://www.zhihu.com/answer/1618383774",
+      "summary": "正文区分割无穷次的错误说法与 n 趋于无穷的极限。"
+    },
+    {
+      "title": "割圆术就算割了∞次，它和真实面积也相差很小一部分，怎么就说它就可以等于真实面积？",
+      "url": "https://www.zhihu.com/answer/1619056480",
+      "summary": "正文把割圆术转化为正多边形面积的极限。"
+    },
+    {
+      "title": "割圆术就算割了∞次，它和真实面积也相差很小一部分，怎么就说它就可以等于真实面积？",
+      "url": "https://www.zhihu.com/answer/1619446958",
+      "summary": "正文用 ε-N 定义和实数完备性解释割圆术极限。"
+    },
+    {
+      "title": "这道竞赛极限题该怎么做？是存在的吗?",
+      "url": "https://www.zhihu.com/answer/1620811769",
+      "summary": "正文用夹逼定理计算两个数列极限并组合求值。"
+    },
+    {
+      "title": "2的π次方是啥东西？",
+      "url": "https://www.zhihu.com/answer/1630216343",
+      "summary": "正文用有理指数逼近的极限定义 2 的 π 次方。"
+    },
+    {
+      "title": "怎么解释 lim(x→∞) (sinx＋x)/x 不能用洛必达？",
+      "url": "https://www.zhihu.com/answer/1634792298",
+      "summary": "正文解释洛必达法则在极限计算中的适用条件与逆用误区。"
+    },
+    {
+      "title": "有没有在高考数学中使用洛必达法则而不扣分的方法？",
+      "url": "https://www.zhihu.com/answer/1665366365",
+      "summary": "正文讨论洛必达法则的适用条件和极限计算基本功。"
+    },
+    {
+      "title": "有没有在高考数学中使用洛必达法则而不扣分的方法？",
+      "url": "https://www.zhihu.com/answer/1666321907",
+      "summary": "正文系统解释洛必达法则、适用条件与极限例计算。"
+    },
+    {
+      "title": "如何评价西安交通大学 2020 年秋高数期末考试难度？",
+      "url": "https://www.zhihu.com/answer/1691634733",
+      "summary": "正文逐题计算函数极限并分析存在性。"
+    },
+    {
+      "title": "如何理解具有极限的函数与无穷小的关系？",
+      "url": "https://www.zhihu.com/answer/1695212912",
+      "summary": "正文证明函数有极限等价于极限值加无穷小。"
+    },
+    {
+      "title": "这个极限怎么求？求助？",
+      "url": "https://www.zhihu.com/answer/1697261676",
+      "summary": "正文由三角恒等式求导后取极限计算级数。"
+    },
+    {
+      "title": "x^2sin1/x在0处有导数吗？",
+      "url": "https://www.zhihu.com/answer/1700853683",
+      "summary": "正文通过序列构造证明导函数极限不存在。"
+    },
+    {
+      "title": "求极限什么时候可以把趋近值代入呢？",
+      "url": "https://www.zhihu.com/answer/1707222936",
+      "summary": "正文用未定式说明代入求极限与洛必达法则的适用范围。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/1708275295",
+      "summary": "正文完整给出 sin²(√(n²+n)π) 的极限计算。"
+    },
+    {
+      "title": "假设地球上有十亿人，每个人拿刀来砍我的概率为十亿分之一，那我被砍的概率难道是一吗？",
+      "url": "https://www.zhihu.com/answer/1711985042",
+      "summary": "正文通过数列极限计算至少被砍一次的概率。"
+    },
+    {
+      "title": "理论推翻，0.9…9 真的等于 1 吗？",
+      "url": "https://www.zhihu.com/answer/1714684953",
+      "summary": "正文用指数型未定式解释不能直接代入极限。"
+    },
+    {
+      "title": "lim(n→∞) sin(nπ) 为什么是 0，而不是不存在？",
+      "url": "https://www.zhihu.com/answer/1720432755",
+      "summary": "正文通过数列定义解释 sin(nπ) 的极限。"
+    },
+    {
+      "title": "为什么函数二阶可导却不能用两次洛必达法则?",
+      "url": "https://www.zhihu.com/answer/1741479725",
+      "summary": "正文直接讨论或推导「极限计算」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "参数估计的无偏性和相合性有什么区别？",
+      "url": "https://www.zhihu.com/answer/1759452853",
+      "summary": "正文用极限和依概率收敛解释相合估计。"
+    },
+    {
+      "title": "这个很难的极限怎么求？",
+      "url": "https://www.zhihu.com/answer/1764124596",
+      "summary": "正文通过对数和黎曼和计算复杂数列极限。"
+    },
+    {
+      "title": "函数在某点的导数与导函数在该点的极限有什么区别？",
+      "url": "https://www.zhihu.com/answer/1764448590",
+      "summary": "正文用极限是否存在解释导数定义的严谨性。"
+    },
+    {
+      "title": "没有天赋的人可以成为数学家吗？",
+      "url": "https://www.zhihu.com/answer/1765164731",
+      "summary": "正文讲述洛必达法则的来源并以极限方法为主线。"
+    },
+    {
+      "title": "为什么在计算器上按一个大于一的数，然后一直开方，最后的结果都是1？",
+      "url": "https://www.zhihu.com/answer/1774698213",
+      "summary": "正文把反复开方写成数列并计算其极限。"
+    },
+    {
+      "title": "如果0.9循环等于1，那无穷小等于0，下面的说法，哪错了？",
+      "url": "https://www.zhihu.com/answer/1777511612",
+      "summary": "正文区分无穷小过程与其极限值。"
+    },
+    {
+      "title": "求极限什么情况可以拆开算啊，是必须拆开的每一项都极限存在吗。？",
+      "url": "https://www.zhihu.com/answer/1797307752",
+      "summary": "正文总结极限在加减乘除情形下何时可以拆分计算。"
+    },
+    {
+      "title": "为什么使用泰勒公式计算 ln(1－2x＋3x²) 的等价无穷小不是 -2x＋3x²？",
+      "url": "https://www.zhihu.com/answer/1797487652",
+      "summary": "正文通过极限题的拆分与展开解释错误来源。"
+    },
+    {
+      "title": "第二次数学危机怎么解决的？",
+      "url": "https://www.zhihu.com/answer/1800323841",
+      "summary": "正文通过导数极限解释无穷小与第二次数学危机。"
+    },
+    {
+      "title": "大佬们，可去间断点处的导数是否存在？不是说左右导数都存在，该点函数存在吗？在间断点处为什么不可求导？",
+      "url": "https://www.zhihu.com/answer/1853080437",
+      "summary": "正文以 ε-δ 定义复习函数极限与连续。"
+    },
+    {
+      "title": "0的零次方等于多少？",
+      "url": "https://www.zhihu.com/answer/1868838867",
+      "summary": "正文用 x^x 的极限与洛必达法则说明 0^0 的极限解释。"
+    },
+    {
+      "title": "如果以“爽”为计量单位，你的收入是多少爽？",
+      "url": "https://www.zhihu.com/answer/1871436440",
+      "summary": "正文用 Δt 趋近零的变化率极限定义瞬时变化率。"
+    },
+    {
+      "title": "复变函数、实分析、复分析、数学分析是什么关系？",
+      "url": "https://www.zhihu.com/answer/1880296129",
+      "summary": "正文说明数学分析研究微积分背后的极限与原理。"
+    },
+    {
+      "title": "如何评价 2021 年各卷高考数学题？有哪些「出其不意」的题和解法？",
+      "url": "https://www.zhihu.com/answer/1927597994",
+      "summary": "正文直接讨论并支撑「极限计算」相关内容。"
+    },
+    {
+      "title": "洗澡的时候突然论证出了1等于0，2等于0，所有数等于0，这个论证哪里错了呢？",
+      "url": "https://www.zhihu.com/answer/1996095252",
+      "summary": "正文解释无穷小和极限的过程含义。"
+    },
+    {
+      "title": "如何理解「高阶无穷小」这个概念？",
+      "url": "https://www.zhihu.com/answer/2007964000",
+      "summary": "正文用函数比值的极限定义并解释高阶无穷小。"
+    },
+    {
+      "title": "和差中的等价无穷小替换 求个大佬解答?",
+      "url": "https://www.zhihu.com/answer/2025336629",
+      "summary": "正文讨论和差中替换等价无穷小的条件与错误。"
+    },
+    {
+      "title": "求极限拆项的时候不是要求每项极限都存在才能拆开算吗?可是我在百度上查出了这个结论，我真的好困惑。?",
+      "url": "https://www.zhihu.com/answer/2032333464",
+      "summary": "正文辨析极限运算法则中拆项的条件。"
+    },
+    {
+      "title": "如果答案是1，那么问题可以有多难?",
+      "url": "https://www.zhihu.com/answer/2038111020",
+      "summary": "正文讨论一个形式简单但计算困难的极限题。"
+    },
+    {
+      "title": "收敛与有界的区别是什么？",
+      "url": "https://www.zhihu.com/answer/2060175303",
+      "summary": "正文比较数列收敛与有界。"
+    },
+    {
+      "title": "大佬们，请问这个极限怎么求？",
+      "url": "https://www.zhihu.com/answer/2077248815",
+      "summary": "正文严格计算 sine 的 n 次幂加权积分的比值极限。"
+    },
+    {
+      "title": "如何推导数列n²的前n项和？",
+      "url": "https://www.zhihu.com/answer/2088996229",
+      "summary": "正文计算参数趋于 1 时的极限得到前 n 项平方和。"
+    },
+    {
+      "title": "如何评价人教版新编的高中数学选修用书？",
+      "url": "https://www.zhihu.com/answer/2101776323",
+      "summary": "正文具体讨论教材中的数列极限、函数极限和连续函数内容。"
+    },
+    {
+      "title": "请问知乎大佬第一道双阶乘数列极限怎么求?",
+      "url": "https://www.zhihu.com/answer/2106665443",
+      "summary": "正文用Stolz定理、等价无穷小和根值判据计算双阶乘数列极限。"
+    },
+    {
+      "title": "如何理解该函数连续？",
+      "url": "https://www.zhihu.com/answer/2152974228",
+      "summary": "正文用左右极限和函数值说明连续性的定义与判定。"
+    },
+    {
+      "title": "我站在一个直径无限大的圆边，怎么知道我在圆内还是圆外？",
+      "url": "https://www.zhihu.com/answer/2162009504",
+      "summary": "正文用极限观点说明无限大圆退化为直线。"
+    },
+    {
+      "title": "想问一下大一数学极限怎么求?",
+      "url": "https://www.zhihu.com/answer/2173556507",
+      "summary": "正文归纳直接代入、洛必达和变量换元等函数极限计算方法。"
+    },
+    {
+      "title": "第5题该怎么解决?",
+      "url": "https://www.zhihu.com/answer/2177021736",
+      "summary": "结论通过组合和随规模变化的极限得到。"
+    },
+    {
+      "title": "为什么高数那么难?",
+      "url": "https://www.zhihu.com/answer/2177239019",
+      "summary": "正文逐步使用有理化和单侧极限计算两个高等数学极限。"
+    },
+    {
+      "title": "这两个题，求教?",
+      "url": "https://www.zhihu.com/answer/2178337004",
+      "summary": "正文用变量换元和已知极限计算复合三角函数的极限。"
+    },
+    {
+      "title": "一个初中生，做数学作业老是偷偷地用 MATLAB 计算，如何让他知道用 MATLAB 做数学题的危害？",
+      "url": "https://www.zhihu.com/answer/2185829857",
+      "summary": "正文用 ε-N 定义和构造 N 的方法严格证明几何数列趋于零。"
+    },
+    {
+      "title": "这个极限怎么求...？",
+      "url": "https://www.zhihu.com/answer/2196051921",
+      "summary": "正文使用等价无穷小和代数变形计算 x→0+ 的极限。"
+    },
+    {
+      "title": "怎么求函数的间断点啊?",
+      "url": "https://www.zhihu.com/answer/2197302569",
+      "summary": "正文从左右极限是否相等定义并分类可去、跳跃、无穷和振荡间断点。"
+    },
+    {
+      "title": "等价无穷小的替换原则到底是怎么样的呢？有大佬知道吗？",
+      "url": "https://www.zhihu.com/answer/2204792787",
+      "summary": "正文讨论等价无穷小替换的适用条件。"
+    },
+    {
+      "title": "请问这个极限是否可以不用洛必达法则计算？",
+      "url": "https://www.zhihu.com/answer/2209299025",
+      "summary": "正文通过代换 sin 2x 和作差计算 x−sin x 的三阶极限。"
+    },
+    {
+      "title": "怎么推导或证明 e^x 的导数是自身？",
+      "url": "https://www.zhihu.com/answer/2214750718",
+      "summary": "正文用重要极限和换元证明指数函数导数所需的极限。"
+    },
+    {
+      "title": "是否存在在R上严格递增且处处不连续的函数？",
+      "url": "https://www.zhihu.com/answer/2219332635",
+      "summary": "正文用单侧极限、确界原理和跳跃间断点分析单调函数。"
+    },
+    {
+      "title": "请问这道题不用洛必达法则怎么做？",
+      "url": "https://www.zhihu.com/answer/2223037778",
+      "summary": "正文通过因式分解和代数变形计算该极限。"
+    },
+    {
+      "title": "这个反常积分极限要怎么证明呢？",
+      "url": "https://www.zhihu.com/answer/2223616734",
+      "summary": "正文分别对两段积分使用夹逼定理求极限。"
+    },
+    {
+      "title": "这题怎么做，请大佬帮忙?",
+      "url": "https://www.zhihu.com/answer/2225102626",
+      "summary": "正文以幂级数计算指数函数相关极限。"
+    },
+    {
+      "title": "这个极限怎么写?",
+      "url": "https://www.zhihu.com/answer/2232696277",
+      "summary": "正文用 Tannery 定理和上下极限两种方法计算复杂极限。"
+    },
+    {
+      "title": "如何看待「禁止用没学过的知识解题」这样的要求？",
+      "url": "https://www.zhihu.com/answer/2236239640",
+      "summary": "正文以极限定义和洛必达法则讨论高中阶段使用超纲结论的合理性。"
+    },
+    {
+      "title": "如何看待「禁止用没学过的知识解题」这样的要求？",
+      "url": "https://www.zhihu.com/answer/2241297479",
+      "summary": "正文指出中学生使用极限运算却未必掌握极限定义。"
+    },
+    {
+      "title": "利用泰勒公式求极限时，如何确定泰勒公式展开到第几阶？",
+      "url": "https://www.zhihu.com/answer/2249195838",
+      "summary": "正文比较分子分母最低幂次以判断函数极限。"
+    },
+    {
+      "title": "这个极限要如何计算？",
+      "url": "https://www.zhihu.com/answer/2252576859",
+      "summary": "正文用递推放缩估计嵌套根式数列的极限上界。"
+    },
+    {
+      "title": "这个极限要如何计算？",
+      "url": "https://www.zhihu.com/answer/2252840983",
+      "summary": "正文给出同一嵌套根式极限的高精度数值结果。"
+    },
+    {
+      "title": "初学matlab需要什么基础吗？",
+      "url": "https://www.zhihu.com/answer/2253675127",
+      "summary": "正文用 limit 计算函数极限和数列极限。"
+    },
+    {
+      "title": "洛必达法则为何成为禁术？",
+      "url": "https://www.zhihu.com/answer/2268852554",
+      "summary": "正文比较洛必达和黎曼和等计算捷径，强调极限与积分定义本身。"
+    },
+    {
+      "title": "洛必达法则为何成为禁术？",
+      "url": "https://www.zhihu.com/answer/2268895983",
+      "summary": "正文以洛必达计算重要极限为例说明循环论证风险。"
+    },
+    {
+      "title": "洛必达法则为何成为禁术？",
+      "url": "https://www.zhihu.com/answer/2269093735",
+      "summary": "正文比较洛必达、等价无穷小、泰勒展开等极限计算方法。"
+    },
+    {
+      "title": "洛必达法则为何成为禁术？",
+      "url": "https://www.zhihu.com/answer/2269210838",
+      "summary": "正文讨论洛必达法则的适用条件及其在极限计算中的失效。"
+    },
+    {
+      "title": "洛必达法则为何成为禁术？",
+      "url": "https://www.zhihu.com/answer/2269224702",
+      "summary": "正文以重要极限为例说明不能循环使用未证明的极限结果。"
+    },
+    {
+      "title": "这个极限应该如何思考?",
+      "url": "https://www.zhihu.com/answer/2269418395",
+      "summary": "正文利用周期函数的平均值结论计算极限。"
+    },
+    {
+      "title": "洛必达法则为何成为禁术？",
+      "url": "https://www.zhihu.com/answer/2269489057",
+      "summary": "正文系统比较洛必达与其他极限方法的适用场景。"
+    },
+    {
+      "title": "洛必达法则为何成为禁术？",
+      "url": "https://www.zhihu.com/answer/2269878595",
+      "summary": "正文比较洛必达、无穷小替换和泰勒展开在极限计算中的作用。"
+    },
+    {
+      "title": "这个极限什么求？",
+      "url": "https://www.zhihu.com/answer/2272658363",
+      "summary": "正文使用指数化、等价无穷小和三角恒等式逐步计算极限。"
+    },
+    {
+      "title": "请问这个积分怎么积的。我积不出来。答案是根号π。？",
+      "url": "https://www.zhihu.com/answer/2303659154",
+      "summary": "证明使用 Wallis 公式和夹逼定理计算积分极限。"
+    },
+    {
+      "title": "1+0.1+0.01+0.001+0.0001... 一直下去会在实际中到达 2 吗？",
+      "url": "https://www.zhihu.com/answer/2311009031",
+      "summary": "正文通过等比数列和极限运算计算无穷和，并讨论后续项递减不足以保证收敛。"
+    },
+    {
+      "title": "如何在数学试卷上调戏阅卷人？",
+      "url": "https://www.zhihu.com/answer/2315801791",
+      "summary": "正文通过 (1−1/n)^(n−1) 的极限和单调性判断数值大小。"
+    },
+    {
+      "title": "请问这个极限怎么做呢？",
+      "url": "https://www.zhihu.com/answer/2318157979",
+      "summary": "正文综合乘积化简、阶乘增长和极限计算求出给定极限。"
+    },
+    {
+      "title": "这个极限正确答案应该是e的1/3次方，这样计算的结果却是e的-1/3次方，请问有什么问题吗?",
+      "url": "https://www.zhihu.com/answer/2319335929",
+      "summary": "正文用泰勒展开定位错误极限计算中遗漏的高阶项。"
+    },
+    {
+      "title": "导数/微积分中符号 d 有什么意义？是如何参与运算的？",
+      "url": "https://www.zhihu.com/answer/2335239431",
+      "summary": "正文说明导数运算法则来自极限。"
+    },
+    {
+      "title": "物理计算过程中，对高阶小量的约去究竟是物理层面上的近似，还是数学层面上的严格相等？",
+      "url": "https://www.zhihu.com/answer/2337578782",
+      "summary": "正文从极限与高阶无穷小解释物理近似中的等式为何严格成立。"
+    },
+    {
+      "title": "怎样理解极限的保号性?",
+      "url": "https://www.zhihu.com/answer/2340938649",
+      "summary": "正文用直观与 ε-δ 两种方法解释极限的保号性。"
+    },
+    {
+      "title": "你见过最美的 MATLAB 绘图是什么？",
+      "url": "https://www.zhihu.com/answer/2350660517",
+      "summary": "正文用 MATLAB 演示函数、极限等高等数学计算。"
+    },
+    {
+      "title": "如何真正从本质上理解数学?",
+      "url": "https://www.zhihu.com/answer/2360421045",
+      "summary": "正文回顾第二次数学危机中 ε-δ 极限定义的作用。"
+    },
+    {
+      "title": "如何通俗易懂的了解收敛与有界的区别？",
+      "url": "https://www.zhihu.com/answer/2368471181",
+      "summary": "正文用点与范围的直观图示区分收敛和有界，说明收敛但逆命题不成立。"
+    },
+    {
+      "title": "导函数为什么没有第一类间断点？",
+      "url": "https://www.zhihu.com/answer/2402168337",
+      "summary": "证明通过左右极限存在推出导函数在该点连续，使用了极限运算。"
+    },
+    {
+      "title": "数学中，「代数」和「分析」的方法分别是什么？有什么不同？",
+      "url": "https://www.zhihu.com/answer/2415079757",
+      "summary": "正文用数列极限和复变函数中的距离说明分析学依赖序结构来衡量接近程度。"
+    },
+    {
+      "title": "有哪些关于高数的表情包？",
+      "url": "https://www.zhihu.com/answer/2424241806",
+      "summary": "正文展示含指数与对数变换的极限计算，并得到表白数字 5201314。"
+    },
+    {
+      "title": "偏导函数连续明明只是x，y两个方向上的连续，为什么它这么强可以推出全微分的存在呢?",
+      "url": "https://www.zhihu.com/answer/2429060794",
+      "summary": "正文通过邻域和极限逼近方式说明偏导连续与可微性的条件。"
+    },
+    {
+      "title": "做极限题需要用泰勒公式展开时，一些函数展开式背不掉怎么办？有没有什么好方法？",
+      "url": "https://www.zhihu.com/answer/2440430490",
+      "summary": "正文讨论极限题的常用方法，并建议能用等价替代时优先使用等价替代。"
+    },
+    {
+      "title": "如何解释洛必达法则？",
+      "url": "https://www.zhihu.com/answer/2443467353",
+      "summary": "正文定义并系统讲解洛必达法则求极限的条件与推导。"
+    },
+    {
+      "title": "大一高数常用等价无穷小公式有哪些？",
+      "url": "https://www.zhihu.com/answer/2445797234",
+      "summary": "正文列举常用等价无穷小，并说明其在极限乘除运算中的替换条件和误用风险。"
+    },
+    {
+      "title": "请问这道极限题怎么写？？？",
+      "url": "https://www.zhihu.com/answer/2448564214",
+      "summary": "正文将原极限等价替换后，使用 Stolz 定理计算极限。"
+    },
+    {
+      "title": "sinx/x在0到正无穷的积分等于Π/2，怎么推导证明？",
+      "url": "https://www.zhihu.com/answer/2449339334",
+      "summary": "正文通过 s 趋于无穷时的极限确定积分常数。"
+    },
+    {
+      "title": "什么时候可以用极坐标法求二重极限？",
+      "url": "https://www.zhihu.com/answer/2454774580",
+      "summary": "正文分析二重极限的极坐标计算为何不能被错误地当作一元极限。"
+    },
+    {
+      "title": "下面关于欧拉常数的13个公式怎么证明?",
+      "url": "https://www.zhihu.com/answer/2455822596",
+      "summary": "正文随后构造数列并利用单调有界准则证明欧拉常数定义中的极限存在。"
+    },
+    {
+      "title": "怎样才叫真正理解PID？",
+      "url": "https://www.zhihu.com/answer/2458011242",
+      "summary": "正文通过极限计算分析纯比例控制的稳态误差。"
+    },
+    {
+      "title": "为什么感觉国外的教材都比国内的厚得多？",
+      "url": "https://www.zhihu.com/answer/2462838741",
+      "summary": "正文用数值逼近和函数图像说明极限。"
+    },
+    {
+      "title": "向心力加速度公式 a=v²/r 是怎么推导出来的（要详细过程）？",
+      "url": "https://www.zhihu.com/answer/2470484238",
+      "summary": "正文在极小时间与极小角度下作等价代换并取极限。"
+    },
+    {
+      "title": "人们在没有计算机的帮助下是如何计算根号3？",
+      "url": "https://www.zhihu.com/answer/2474938876",
+      "summary": "正文用递推误差估计说明近似数列收敛到平方根。"
+    },
+    {
+      "title": "人们在没有计算机的帮助下是如何计算根号3？",
+      "url": "https://www.zhihu.com/answer/2477402641",
+      "summary": "给出迭代数列并说明它收敛到根号 a，属于用极限刻画计算结果。"
+    },
+    {
+      "title": "如何理解数列极限的定义？",
+      "url": "https://www.zhihu.com/answer/2478966684",
+      "summary": "正文从数列趋向某一实数的直觉开始解释数列极限。"
+    },
+    {
+      "title": "如何通俗地解释泰勒公式？",
+      "url": "https://www.zhihu.com/answer/2484704247",
+      "summary": "正文把泰勒展开作为计算极限的核心工具并给出应用。"
+    },
+    {
+      "title": "加尔鲁什每失去2%的生命就会获得1点护甲，请问加尔鲁什最多可以承受最大生命值几倍的伤害？",
+      "url": "https://www.zhihu.com/answer/2491781570",
+      "summary": "正文明确把离散求和取极限得到定积分。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/2495624065",
+      "summary": "正文由复利极限引出 e，并证明相应数列单调有界而收敛。"
+    },
+    {
+      "title": "「无限」这个概念真的能被人理解吗？",
+      "url": "https://www.zhihu.com/answer/2509619032",
+      "summary": "正文用 ε-N 定义解释数列趋于正无穷，并讨论扩充实数集中的极限。"
+    },
+    {
+      "title": "为什么任何数开到很多（比如26）次平方根后都是无限靠近 1 ？",
+      "url": "https://www.zhihu.com/answer/2519956669",
+      "summary": "用极限的严格定义澄清把变量误当成无限数字的常见错误。"
+    },
+    {
+      "title": "如何证明泰勒定理？",
+      "url": "https://www.zhihu.com/answer/2525882263",
+      "summary": "用极限与高阶无穷小刻画皮亚诺余项。"
+    },
+    {
+      "title": "为什么定积分计算的近似值是准确值？",
+      "url": "https://www.zhihu.com/answer/2526512809",
+      "summary": "通过数列极限和分割细度极限说明积分近似值收敛到准确值。"
+    },
+    {
+      "title": "如何使用高中知识推导球体表面积？",
+      "url": "https://www.zhihu.com/answer/2526987547",
+      "summary": "用内接多边形边数增加时的极限逼近球面面积。"
+    },
+    {
+      "title": "高三党，准大一，有啥自学高数的书推荐吗?",
+      "url": "https://www.zhihu.com/answer/2537361157",
+      "summary": "列举等价替换、泰勒公式、夹逼准则等求极限方法。"
+    },
+    {
+      "title": "为什么 f(x) = xlnx，当 x 趋近于 0 时，f(x) 趋近于 0？",
+      "url": "https://www.zhihu.com/answer/2546841638",
+      "summary": "用图像、阶的估计和洛必达法则三种方法证明 x ln x 在 0+ 的极限为 0。"
+    },
+    {
+      "title": "理论上泰勒展开能解决所有极限问题吗？",
+      "url": "https://www.zhihu.com/answer/2551382732",
+      "summary": "正文通过计算函数的洛朗展开并比较各项阶数，求出 x 趋于无穷时的极限。"
+    },
+    {
+      "title": "清华大学期末考试微积分难度和考研数学一微积分难度谁高？",
+      "url": "https://www.zhihu.com/answer/2566657304",
+      "summary": "通过夹逼定理计算周期函数积分平均值的极限，并给出完整证明。"
+    },
+    {
+      "title": "洛必达法则为何成为禁术？",
+      "url": "https://www.zhihu.com/answer/2567074777",
+      "summary": "系统说明洛必达法则的适用条件、0/0 与无穷/无穷型未定式极限及使用限制。"
+    },
+    {
+      "title": "有哪些数学专业表情包?",
+      "url": "https://www.zhihu.com/answer/2567500903",
+      "summary": "逐题计算指数型、对数型和无穷小替换等极限，得到表情包对应的数字。"
+    },
+    {
+      "title": "都说连续函数必有原函数，并且原函数还连续，那为什么这个就不满足？",
+      "url": "https://www.zhihu.com/answer/2572927560",
+      "summary": "计算原函数在 π/2 两侧的单侧极限，用极限判断跳跃间断并修正原函数。"
+    },
+    {
+      "title": "什么是真正的数学思维？",
+      "url": "https://www.zhihu.com/answer/2609755669",
+      "summary": "讨论极限、有界性及有极限必有界的包含关系。"
+    },
+    {
+      "title": "为什么1/n发散，而1/n的平方收敛?",
+      "url": "https://www.zhihu.com/answer/2612157591",
+      "summary": "用部分和数列的收敛定义级数收敛，并讨论 p 级数审敛法。"
+    },
+    {
+      "title": "微积分的实质是什么？",
+      "url": "https://www.zhihu.com/answer/2640559742",
+      "summary": "从无穷小与芝诺悖论引入极限，说明微积分建立在极限之上。"
+    },
+    {
+      "title": "高一开学，同学在讨论偏导函数、四阶导数，我该怎么办？",
+      "url": "https://www.zhihu.com/answer/2642516083",
+      "summary": "用 Bolzano-Weierstrass 定理和闭区间套定理解释极限与收敛的基础。"
+    },
+    {
+      "title": "微积分的实质是什么？",
+      "url": "https://www.zhihu.com/answer/2642762798",
+      "summary": "用极限过程解释无穷小、0.999… 与曲线细分的数学基础。"
+    },
+    {
+      "title": "欧拉公式是定义的还是推导出来的？",
+      "url": "https://www.zhihu.com/answer/2648808375",
+      "summary": "计算复指数极限的模长与辐角，得到欧拉公式。"
+    },
+    {
+      "title": "你有哪些在考试或竞赛中现场推导一条新定理，使用其答题并回答正确的例子？",
+      "url": "https://www.zhihu.com/answer/2649014869",
+      "summary": "说明洛必达法则用于处理 0/0 型极限，并指出需要多次求导的情形。"
+    },
+    {
+      "title": "在微积分教材一开始直接引入 epsilon-delta 语言是否有利？",
+      "url": "https://www.zhihu.com/answer/2672555141",
+      "summary": "正文说明极限理论是现代微积分的基础，并强调先理解极限定义再学习具体计算。"
+    },
+    {
+      "title": "limsin n数列极限为什么不存在?",
+      "url": "https://www.zhihu.com/answer/2692160132",
+      "summary": "正文通过子列极限、和差化积与极限运算法则推出cos n的极限，逐步计算得到矛盾。"
+    },
+    {
+      "title": "把[0，1]这个区间里的所有实数相加，得出的结果是无穷大吗？",
+      "url": "https://www.zhihu.com/answer/2692192193",
+      "summary": "正文计算调和和的极限，并利用它与积分的比较说明极限趋于正无穷。"
+    },
+    {
+      "title": "lim(n→∞)[(1/n)^n+(2/n)^n+...+(n/n)^n]怎么写呢？",
+      "url": "https://www.zhihu.com/answer/2692867217",
+      "summary": "正文运用 Tannery 定理和上下极限计算含 n 项幂和的极限，系统展示了极限计算过程。"
+    },
+    {
+      "title": "为什么我求的球体表面积结果错了？",
+      "url": "https://www.zhihu.com/answer/2694074766",
+      "summary": "正文通过上下界序列的极限相等来完成面积逼近的严格论证。"
+    },
+    {
+      "title": "如何求lim(n->♾️)（n)/sqrt[n](n!)=e?",
+      "url": "https://www.zhihu.com/answer/2695809823",
+      "summary": "正文由相关不等式连乘得到上下界，再用夹逼定理计算该数列的极限。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2695990779",
+      "summary": "正文用部分和与 n 趋于无穷时的极限说明交错级数的收敛趋势。"
+    },
+    {
+      "title": "什么严格的实增函数满足f'(x)=f(f(x))?",
+      "url": "https://www.zhihu.com/answer/2696667552",
+      "summary": "正文构造趋于无穷的点列并讨论函数及其导数的极限，以导出矛盾。"
+    },
+    {
+      "title": "为什么极限的 ε-N 和 ε-δ 语言具有划时代的意义？",
+      "url": "https://www.zhihu.com/answer/2715859633",
+      "summary": "回顾极限概念从定性描述到严格定量定义的发展及其对微积分基础的意义。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/2716483302",
+      "summary": "正文把 (200/199)^199 改写成与重要指数极限相近的形式并估算其大小。"
+    },
+    {
+      "title": "1+0.1+0.01+0.001+0.0001... 一直下去会在实际中到达 2 吗？",
+      "url": "https://www.zhihu.com/answer/2718464481",
+      "summary": "正文对等比级数的部分和取n趋于无穷时的极限，得到无限和等于10/9。"
+    },
+    {
+      "title": "有哪些让你惊为天人的数学证明?",
+      "url": "https://www.zhihu.com/answer/2725165200",
+      "summary": "正文通过多项式模在变量趋于无穷时也趋于无穷的极限行为，论证像曲线穿过零点并得到根。"
+    },
+    {
+      "title": "如何理解导数的概念 ?",
+      "url": "https://www.zhihu.com/answer/2726161206",
+      "summary": "正文反复用差商的极限计算函数导数，并借助左右极限判定绝对值函数在零点不可导。"
+    },
+    {
+      "title": "函数的极限定义？",
+      "url": "https://www.zhihu.com/answer/2726182765",
+      "summary": "正文给出常数、恒等函数、线性函数、分式函数、平方根函数及趋于无穷时的具体极限计算与 δ 选择。"
+    },
+    {
+      "title": "怎么判断一个孩子有没有数学天赋？",
+      "url": "https://www.zhihu.com/answer/2733453732",
+      "summary": "正文把区间数 n 推向无穷并利用常数极限完成定积分求和的计算。"
+    },
+    {
+      "title": "怎么判断一个孩子有没有数学天赋？",
+      "url": "https://www.zhihu.com/answer/2734322393",
+      "summary": "正文让等分数 N 趋于无穷，把细分误差视为无穷小，并比较两类矩形和的极限。"
+    },
+    {
+      "title": "请问这个极限lim_(x→e)((x^x-e^e)^2)/(e^x-x^e)怎么求？",
+      "url": "https://www.zhihu.com/answer/2741066020",
+      "summary": "正文通过拆出两个极限、分别计算幂指函数的导数与洛必达极限，求出原式的极限值。"
+    },
+    {
+      "title": "有没有结果含有“π”但是与圆完全无关的问题？",
+      "url": "https://www.zhihu.com/answer/2745114087",
+      "summary": "正文通过整数构造得到数列，并用 n 趋于无穷时的极限说明其比值收敛到圆周率。"
+    },
+    {
+      "title": "泰勒公式是如何推导出来的？",
+      "url": "https://www.zhihu.com/answer/2754450573",
+      "summary": "正文用极限和高阶无穷小刻画皮亚诺余项，并借助极限过程证明泰勒公式。"
+    },
+    {
+      "title": "如何学好高等数学，尤其是大一的极限、微积分？",
+      "url": "https://www.zhihu.com/answer/2757583331",
+      "summary": "正文把函数极限归纳为三类未定式，并讲解等价无穷小、泰勒和洛必达等计算方法。"
+    },
+    {
+      "title": "有哪些悖论一下子就吸引了你？",
+      "url": "https://www.zhihu.com/answer/2760798748",
+      "summary": "正文用无穷分割时误差是否趋于零解释楼梯悖论，并区分可忽略与不可忽略的极限。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2772738612",
+      "summary": "正文通过 x 趋于零及有理数列逼近的极限过程证明连续性，并构造处处不连续的极限现象。"
+    },
+    {
+      "title": "tan89.9999……（葛立恒数个9）和葛立恒数哪个大？",
+      "url": "https://www.zhihu.com/answer/2776089448",
+      "summary": "正文写出切函数之比的极限并说明可运用一次洛必达法则求出极限值。"
+    },
+    {
+      "title": "怎样考过大一高数期末考试？",
+      "url": "https://www.zhihu.com/answer/2782031926",
+      "summary": "正文按未定式类型归纳极限题，并讲解等价无穷小替换、泰勒公式、洛必达法则及化归方法。"
+    },
+    {
+      "title": "大一新生，还有一个月就要期末了，我高数只会一点点，线代基本没听，对于高数和线代怎么办？",
+      "url": "https://www.zhihu.com/answer/2782496717",
+      "summary": "正文按0/0、∞/∞、0·∞、∞−∞和1∞归类函数极限，并比较等价无穷小、泰勒展开与洛必达等计算方法。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/2796113001",
+      "summary": "正文通过令n趋近于无穷，将有限求和的双侧不等式过渡为级数的极限值。"
+    },
+    {
+      "title": "这份比较难的数学分析期末考试题怎么做？",
+      "url": "https://www.zhihu.com/answer/2823813126",
+      "summary": "正文把连续变量形式的极限化归为数列极限，再通过 Stolz 定理和分段估计证明结论。"
+    },
+    {
+      "title": "ln（1）+ln（2）+ln（3）……+ln（n）是否能用n表示？?",
+      "url": "https://www.zhihu.com/answer/2847730607",
+      "summary": "正文通过比较正弦幂积分相邻项的极限，确定 Stirling 公式中的常数。"
+    },
+    {
+      "title": "我扔无数次的无数个硬币，会不会有一个一直是正面?",
+      "url": "https://www.zhihu.com/answer/2872721733",
+      "summary": "正文比较两个变量取无穷的先后次序，说明不同重极限得到不同结果，并进一步讨论同步增长时的平衡极限。"
+    },
+    {
+      "title": "为什么入门的微积分教材都是从极限的概念开始讲起？",
+      "url": "https://www.zhihu.com/answer/2891444256",
+      "summary": "正文通过不断增加圆的分割份数，说明无限细分取极限后曲边图形趋近矩形。"
+    },
+    {
+      "title": "有哪些让人眼前一亮的函数？",
+      "url": "https://www.zhihu.com/answer/2891745062",
+      "summary": "正文由积分表示推导正无穷和负无穷处的函数极限，并证明 f(x)+f(-x)=1。"
+    },
+    {
+      "title": "对指数塔π^π^π^π^……，有没有可能叠到某一层数的时候值为整数？",
+      "url": "https://www.zhihu.com/answer/2892927099",
+      "summary": "正文给出无穷迭代幂次的收敛区间和极限表达式，并用它与 2 比较来判断迭代幂次是否为整数。"
+    },
+    {
+      "title": "如果没有发明弧度制，sin的导数还是cos吗?",
+      "url": "https://www.zhihu.com/answer/2922589074",
+      "summary": "正文通过扇形与三角形面积夹逼，推导一般角度制下 sin x / x 等基本极限及其系数。"
+    },
+    {
+      "title": "「不允许除以0」在数学中是逻辑自洽的，还是为避免出问题的而做出的强制规定？",
+      "url": "https://www.zhihu.com/answer/2933567366",
+      "summary": "正文以 0/0 为例说明除零后的信息丢失，并用函数极限和洛必达法则具体讲解此类极限的计算。"
+    },
+    {
+      "title": "「不允许除以0」在数学中是逻辑自洽的，还是为避免出问题的而做出的强制规定？",
+      "url": "https://www.zhihu.com/answer/2935066162",
+      "summary": "正文比较 x 从正负两侧趋近 0 时 1/x 的不同走向，用双侧极限说明该点没有确定结果。"
+    },
+    {
+      "title": "一个数列的极限为0，能否得出“这个数列的前n项乘积的极限也为0”这个结论？",
+      "url": "https://www.zhihu.com/answer/2936982344",
+      "summary": "正文把前 n 项乘积拆成前 N 项与后续项的乘积，并用收敛数列的有界性和趋向零的上界证明乘积极限为零。"
+    },
+    {
+      "title": "0为什么不能做分母？",
+      "url": "https://www.zhihu.com/answer/2968550974",
+      "summary": "正文从正负两侧分别考察 1/x 在 x 趋近 0 时的取值趋势，具体说明双侧极限及结果不确定性。"
+    },
+    {
+      "title": "如果强行除以零，会得到怎样的结果？",
+      "url": "https://www.zhihu.com/answer/2968551319",
+      "summary": "正文比较分母从正负两侧趋近零时函数值走向不同，说明该处的极限无法唯一确定。"
+    },
+    {
+      "title": "如何真正从本质上理解数学?",
+      "url": "https://www.zhihu.com/answer/2968551633",
+      "summary": "正文通过正负两侧趋近零得到不同走向，具体说明了双侧极限不存在的原因。"
+    },
+    {
+      "title": "如何激怒一位数学爱好者？",
+      "url": "https://www.zhihu.com/answer/2968552382",
+      "summary": "正文讨论分母趋近零时的函数变化，并进一步用两侧趋近说明极限的不确定性。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/2968553124",
+      "summary": "正文借正负两侧趋近零的不同结果解释除以零为何不能得到确定极限。"
+    },
+    {
+      "title": "学泰勒公式一开始就不明白，为什么 n 次多项式可以提高与 f(x) 的近似程度？",
+      "url": "https://www.zhihu.com/answer/2973482228",
+      "summary": "正文通过连续使用洛必达法则计算极限，证明带皮亚诺余项的泰勒展开。"
+    },
+    {
+      "title": "怎么样才可以把数学学得灵活？",
+      "url": "https://www.zhihu.com/answer/3000637166",
+      "summary": "正文通过正负两侧趋近于零得到不同无穷结果，说明不能把双侧极限贸然写成同一个确定值。"
+    },
+    {
+      "title": "为什么分母为零无意义?",
+      "url": "https://www.zhihu.com/answer/3000637788",
+      "summary": "正文比较 x 从正负两侧趋近 0 时 1/x 的不同走向，用双侧极限说明该点没有确定结果。"
+    },
+    {
+      "title": "零为什么不能做分母？零怎么就不能做分母了？让零做分母能怎么样啊？凭什么不让零做分母？岂有此理？",
+      "url": "https://www.zhihu.com/answer/3000637978",
+      "summary": "正文比较 x 从正负两侧趋近 0 时 1/x 的不同走向，用双侧极限说明该点没有确定结果。"
+    },
+    {
+      "title": "3年级孩子提问：4除以3再乘以3，答案是4，还是无限接近于4？",
+      "url": "https://www.zhihu.com/answer/3019721137",
+      "summary": "正文用无穷小量 0.1^n 的极限为零来证明看似存在的差值实际为 0。"
+    },
+    {
+      "title": "学校逼出了你哪些极限？？",
+      "url": "https://www.zhihu.com/answer/3022100160",
+      "summary": "正文给出 sin x/x 与 (1+1/x)^x 两个重要极限，并在初等函数导数证明中反复使用它们。"
+    },
+    {
+      "title": "泰勒公式是什么，怎么理解？",
+      "url": "https://www.zhihu.com/answer/3027909674",
+      "summary": "正文讨论泰勒余项在 x 趋近于 x_0 时与幂函数相比的阶，并用极限给出佩亚诺型余项的等价无穷小表达。"
+    },
+    {
+      "title": "洛必达是一个伟大的数学家吗？",
+      "url": "https://www.zhihu.com/answer/3039641621",
+      "summary": "正文通过不断缩短复利结算周期说明收益的极限，并解释该极限如何得到自然常数。"
+    },
+    {
+      "title": "高中数学有没有什么比较牛 X 的公式？",
+      "url": "https://www.zhihu.com/answer/3083234446",
+      "summary": "正文介绍洛必达法则适用于零比零和无穷比无穷型极限，并用两个具体极限展示分子分母分别求导后的计算过程。"
+    },
+    {
+      "title": "为什么随便在计算器上按个数，然后多次按 cos 键，结果总是趋近于 0.73几？",
+      "url": "https://www.zhihu.com/answer/3085955425",
+      "summary": "正文通过反复按 cos 键观察迭代值趋于 0.739085…，并指出该值是方程 cos(x)=x 的解。"
+    },
+    {
+      "title": "怎样理解和使用数列上下极限？",
+      "url": "https://www.zhihu.com/answer/3126865780",
+      "summary": "正文通过上确界序列的单调性讨论数列上下极限，并举例计算具体极限值。"
+    },
+    {
+      "title": "微积分体系几百年前就建立起来了，为什么我们现在学习它仍存在困难？",
+      "url": "https://www.zhihu.com/answer/3131861794",
+      "summary": "正文通过矩形分割求抛物线面积，并计算 n 趋于无穷时余项消失、面积极限为 1/3。"
+    },
+    {
+      "title": "洛必达法则为何成为禁术？",
+      "url": "https://www.zhihu.com/answer/3149072579",
+      "summary": "正文以 0 附近不可微的函数构造洛必达失效的极限情形，并比较分段使用洛必达与夹逼求法。"
+    },
+    {
+      "title": "如何证明(e^x-1)/x在x趋近于0时趋近于1?",
+      "url": "https://www.zhihu.com/answer/3166798026",
+      "summary": "正文避开导数，利用伯努利不等式得到的上下界和夹逼准则，分别证明左右极限并合成指数差商极限。"
+    },
+    {
+      "title": "1/2*3/4*7/8...的极限是什么？",
+      "url": "https://www.zhihu.com/answer/3230537739",
+      "summary": "正文构造无穷乘积序列，说明其收敛性并用 Bernoulli 不等式估计非零极限下界。"
+    },
+    {
+      "title": "sinx/x的极限证明是否循环论证？",
+      "url": "https://www.zhihu.com/answer/3238394600",
+      "summary": "正文围绕 sin x/x 在零点的极限展开，解释用夹逼定理证明时可能的循环论证，并给出避免循环的证明路线。"
+    },
+    {
+      "title": "根号下0+ 根号下0+根号下0+根号下0+..............（加到山无陵天地合） 等于多少？",
+      "url": "https://www.zhihu.com/answer/3243345388",
+      "summary": "正文讨论迭代数列取极限得到 T，并用不同初值的迭代说明序列最终收敛到同一值。"
+    },
+    {
+      "title": "我证明了π是变量，错在哪里？",
+      "url": "https://www.zhihu.com/answer/3248033522",
+      "summary": "正文指出除以 n 的平方后对极限运算进行交换需要严格条件，说明极限计算不能无视运算合法性。"
+    },
+    {
+      "title": "我证明了π是变量，错在哪里？",
+      "url": "https://www.zhihu.com/answer/3248916182",
+      "summary": "正文用两个同时趋于零的数列构成反例，说明不能由相同极限值直接推出两个表达式相等。"
+    },
+    {
+      "title": "我证明了π是变量，错在哪里？",
+      "url": "https://www.zhihu.com/answer/3249548387",
+      "summary": "正文直接指出同阶无穷小未必相等，从而纠正把相同极限或同阶关系误作相等的问题。"
+    },
+    {
+      "title": "是否有办法绕开洛必达法则和泰勒展开来证明当x→0时x-sinx~(x^3)/6？",
+      "url": "https://www.zhihu.com/answer/3251201564",
+      "summary": "正文不用洛必达法则和泰勒展开，通过乘积恒等式、双边不等式及上下极限证明所求极限为 1/6。"
+    },
+    {
+      "title": "如何求这个关于正弦函数复合的极限？",
+      "url": "https://www.zhihu.com/answer/3260034553",
+      "summary": "正文通过累加增量、放缩和夹逼，实际计算嵌套正弦序列的相关极限。"
+    },
+    {
+      "title": "问一道数学分析的问题，困扰我许久了，就是这个极限是否存在呢？",
+      "url": "https://www.zhihu.com/answer/3261721975",
+      "summary": "正文对递归式平方、逐项放缩并累加，得到上下界后用夹逼法求出归一化数列的极限。"
+    },
+    {
+      "title": "大一高数要通过刷题提升吗?",
+      "url": "https://www.zhihu.com/answer/3283675173",
+      "summary": "正文从极限定义出发重建有界性、保号性、四则运算法则和夹逼准则，具体讨论了极限计算所依赖的定理。"
+    },
+    {
+      "title": "如何写一个“拼多多函数”PDD(x)，使得随着砍价次数x增加，函数值会无限接近于1但永远不会等于1?",
+      "url": "https://www.zhihu.com/answer/3312785170",
+      "summary": "正文利用复合函数的连续性计算参数化函数在自变量趋于无穷时的极限，并据此证明函数收敛于 1。"
+    },
+    {
+      "title": "如何写一个“拼多多函数”PDD(x)，使得随着砍价次数x增加，函数值会无限接近于1但永远不会等于1?",
+      "url": "https://www.zhihu.com/answer/3313173450",
+      "summary": "正文比较指数型函数趋于 1 的收敛速度，并构造收敛更快的替代函数，实质讨论函数收敛。"
+    },
+    {
+      "title": "limα=limβ到底成不成立？",
+      "url": "https://www.zhihu.com/answer/3320773376",
+      "summary": "正文具体说明极限乘法只能在两个因子极限均存在时拆分，并分析错误拆分导致的极限计算问题。"
+    },
+    {
+      "title": "纯数而言，你觉得分析更难还是代数更难？",
+      "url": "https://www.zhihu.com/answer/3326063254",
+      "summary": "正文把极限解释为分析的基础，并以阶乘与指数增长的比较说明无穷过程与增长速度。"
+    },
+    {
+      "title": "分析为什么不被看作代数呢?",
+      "url": "https://www.zhihu.com/answer/3392708612",
+      "summary": "正文用滤子、Cauchy滤子和完备化说明如何不依赖经典实数分析而定义并研究极限收敛。"
+    },
+    {
+      "title": "分析为什么不被看作代数呢?",
+      "url": "https://www.zhihu.com/answer/3393052773",
+      "summary": "正文给出连续意义下的极限定义，再以代数函数替换条件定义代数极限并用它计算代数导数。"
+    },
+    {
+      "title": "如何评价长郡十八校联考命题老师发明高等代数中的rolle定理？",
+      "url": "https://www.zhihu.com/answer/3460589990",
+      "summary": "正文说明在取极限时需利用极限保号性，并把严格不等号改为非严格不等号，具体讨论了极限过程中不等式的传递。"
+    },
+    {
+      "title": "关于重整化理论，为什么一系列自然数之和等于 -1/12？",
+      "url": "https://www.zhihu.com/answer/3521302857",
+      "summary": "正文引入截断标度并按 N 趋于无穷取极限，实际计算该和式的极限行为。"
+    },
+    {
+      "title": "连续函数f(x)的定义域为(0,2)，当且仅当1<x<2时f(x)>0，能推出f(1)=0吗？",
+      "url": "https://www.zhihu.com/answer/3531389396",
+      "summary": "正文利用单侧极限和极限保序性，由函数取值的充分必要条件推出 f(1)=0。"
+    },
+    {
+      "title": "（sinln1+sinln2+...+sinlnn）/n极限存在吗?",
+      "url": "https://www.zhihu.com/answer/3533268599",
+      "summary": "正文通过估计均值与积分的差并构造振荡子列，证明所给平均值的极限不存在。"
+    },
+    {
+      "title": "是不是你父母的父母往上所有2ⁿ个祖先，但凡有一个死了你都不会来到这个世界？",
+      "url": "https://www.zhihu.com/answer/3560735828",
+      "summary": "正文通过小区间长度趋于零时长度比值的极限，计算在直线上取到某个点的概率。"
+    },
+    {
+      "title": "为什么有i人、有e人，没有π人？",
+      "url": "https://www.zhihu.com/answer/3564071316",
+      "summary": "正文用 (1+z/n)^n 趋于 e^z 的极限过程推导欧拉公式，并令实部为 0 得到最终关系。"
+    },
+    {
+      "title": "把[0,1]的所有实数乘起来结果是多少？",
+      "url": "https://www.zhihu.com/answer/3581621682",
+      "summary": "正文通过区间等分构造有限乘积，再取项数趋于无穷的极限并借助斯特林公式计算。"
+    },
+    {
+      "title": "在你不能证明e+π是无理数之前，有人问你这是有理数还是无理数，你选什么（看补充）？",
+      "url": "https://www.zhihu.com/answer/3582121747",
+      "summary": "正文使用 limsup、量级记号与渐近等价来比较 e 和 π 的有理逼近误差。"
+    },
+    {
+      "title": "为什么有的人怎么努力也学不好高中数学？",
+      "url": "https://www.zhihu.com/answer/3585538740",
+      "summary": "正文用任意给定精度下都能更接近目标的方式解释极限，并联系导数与函数性质。"
+    },
+    {
+      "title": "“斐波那契汤”（今天的汤=昨天的汤+前天的汤）味道是收敛的吗？",
+      "url": "https://www.zhihu.com/answer/3585822000",
+      "summary": "正文计算等比项的极限，并用它确定固定比例模型下数列的最终值。"
+    },
+    {
+      "title": "求一个完整版的泰勒公式，课本上和辅导上全是残次本?",
+      "url": "https://www.zhihu.com/answer/3586130687",
+      "summary": "正文用无穷小阶数与极限过程定义皮亚诺余项并完成余项证明。"
+    },
+    {
+      "title": "微积分体系几百年前就建立起来了，为什么我们现在学习它仍存在困难？",
+      "url": "https://www.zhihu.com/answer/4647264795",
+      "summary": "正文用等比数列求和和斜率趋于无穷的表达式解释极限含义，并讨论极限的唯一性。"
+    },
+    {
+      "title": "葛立恒数每秒减少自身一倍，减到0的时间依然是很大的一个数字吗？",
+      "url": "https://www.zhihu.com/answer/18293106754",
+      "summary": "正文解释正数反复减半只会无限趋近于零而不会到达零，说明了几何衰减的极限行为。"
+    },
+    {
+      "title": "微分符号 dx、dy 表示什么含义？",
+      "url": "https://www.zhihu.com/answer/23293335943",
+      "summary": "用 y=kx 路径下极限随 k 变化，说明二元函数在原点极限不存在并导致不可微。"
+    },
+    {
+      "title": "高中阶段自己独立思考硬刚写出来的题和直接看答案，二者效果上有什么区别?",
+      "url": "https://www.zhihu.com/answer/27273297219",
+      "summary": "正文叙述通过反复构造和比较幂级数来理解特定极限的计算规律。"
+    },
+    {
+      "title": "大二的菜狗想问问数学分析到底在干啥？",
+      "url": "https://www.zhihu.com/answer/28339086921",
+      "summary": "正文把三角函数微积分的核心归结为 sin x/x 趋于 1 的基本极限，并说明其作为后续计算基础。"
+    },
+    {
+      "title": "如何看待阿里Qwen QWQ 性能逼近OpenAI O1?",
+      "url": "https://www.zhihu.com/answer/43001375541",
+      "summary": "正文在求 h(x) 在 x 趋近于 0 时的极限时识别 0/0 型并使用洛必达法则。"
+    },
+    {
+      "title": "如何用小学生理解的知识，解释圆锥体积公式中的1/3？",
+      "url": "https://www.zhihu.com/answer/43290617375",
+      "summary": "正文用分割越来越细时误差项 1/n 趋近于 0 的过程解释面积公式的极限。"
+    },
+    {
+      "title": "为什么大学高数总是喜欢把简单的定义搞得十分复杂，最终让很多人都看不懂？",
+      "url": "https://www.zhihu.com/answer/44905241550",
+      "summary": "正文计算三次函数差商的极限，展示如何通过极限运算得到具体导数。"
+    },
+    {
+      "title": "如果高考成绩用各科分数乘积而不是总和，会发生什么？",
+      "url": "https://www.zhihu.com/answer/60181892651",
+      "summary": "正文把分数比写成含参数 t 的表达式，并在 t 趋近 0 时作极限展开以比较两种度量。"
+    },
+    {
+      "title": "蛇年将至，如何用你的兴趣/专业技能画一条蛇？",
+      "url": "https://www.zhihu.com/answer/85637477019",
+      "summary": "正文用任取 x_0 和 epsilon 并选取 delta 的方式证明函数的连续性，具体展开了极限与连续性的估计。"
+    },
+    {
+      "title": "sinx求导为什么是cosx？",
+      "url": "https://www.zhihu.com/answer/88022981105",
+      "summary": "推导中具体计算了 h 趋于 0 时两个基本三角极限，并用它们完成差商极限的化简。"
+    },
+    {
+      "title": "为什么几乎所有游戏都不愿意把概率（命中率）做成真实的概率？",
+      "url": "https://www.zhihu.com/answer/90885358054",
+      "summary": "正文计算几何分布尾概率的极限，并利用极限趋于一减e的倒数解释期望次数的实际含义。"
+    },
+    {
+      "title": "高一开学，同学在讨论偏导函数、四阶导数，我该怎么办？",
+      "url": "https://www.zhihu.com/answer/91322523377",
+      "summary": "正文指出反复使用洛必达法则会循环，并通过提出 x 与代数化简完成该极限计算。"
+    },
+    {
+      "title": "你见过最优雅的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/102194360248",
+      "summary": "正文以 sin x/x 在 x 趋于 0 时的极限确定无穷乘积展开中的常数。"
+    },
+    {
+      "title": "在不使用任何数字的情况下，如何表达数字 100？",
+      "url": "https://www.zhihu.com/answer/104028311387",
+      "summary": "正文通过极限的四则组合和泰勒展开逐步计算 x 趋于 0 时的两个分式极限，最终得到 A=100。"
+    },
+    {
+      "title": "法尔廷斯是怎样很快地解出这道高数题的?",
+      "url": "https://www.zhihu.com/answer/109452243257",
+      "summary": "正文专门讨论等价无穷小不能随意相加，并通过比值变形计算 x 趋于 0 时的极限。"
+    },
+    {
+      "title": "洛必达法则为何成为禁术？",
+      "url": "https://www.zhihu.com/answer/115095474015",
+      "summary": "正文讲解洛必达法则用于计算未定式极限的条件、直观理由和推导。"
+    },
+    {
+      "title": "泰勒级数是如何推导出来的？",
+      "url": "https://www.zhihu.com/answer/121097127740",
+      "summary": "正文在证明皮亚诺余项时连续使用洛必达法则，具体计算极限直到得到 n 阶导数项。"
+    },
+    {
+      "title": "最短的路径一定是直线吗？",
+      "url": "https://www.zhihu.com/answer/126681682864",
+      "summary": "正文计算p趋于正无穷时Lp范数的极限，并由上确界得到切比雪夫度量。"
+    },
+    {
+      "title": "假设 π 和 e 在小数点后 n 位以内，数位上相等的数共有f(n)个，如何求出下面的极限式？",
+      "url": "https://www.zhihu.com/answer/127793038936",
+      "summary": "正文讨论数位匹配数 f(n) 与 n 之比的极限，并用正规数构造例子说明相邻数位高度相关时比值可趋于 1。"
+    },
+    {
+      "title": "是否有无穷多个正整数N，使得tan N > N^2?",
+      "url": "https://www.zhihu.com/answer/1888740310982562048",
+      "summary": "正文写出正切函数在极点附近的渐近关系，并用该极限行为推出圆周率的有理逼近精度。"
+    },
+    {
+      "title": "f(a＋b) = f(a) + f(b) 一定说明 f(x) 是一次函数吗？",
+      "url": "https://www.zhihu.com/answer/1892699701968605469",
+      "summary": "正文用有理数列逼近无理数并交换函数与极限，证明连续性如何把有理数上的线性结论推广到实数域。"
+    },
+    {
+      "title": "有哪些并不是很离谱的数学伪证，但是得到的结论却是一眼假的？",
+      "url": "https://www.zhihu.com/answer/1893081462884003881",
+      "summary": "正文用高阶无穷小和曲线长度微元解释折线逼近的平均边长误差为何不能在极限中消去。"
+    },
+    {
+      "title": "为何面积可以微积分，周长就不行？",
+      "url": "https://www.zhihu.com/answer/1898348795827302947",
+      "summary": "正文用极限比值判断折线逼近圆弧时的误差是否为高阶无穷小，从而解释圆周率错误证明的极限问题。"
+    },
+    {
+      "title": "为何面积可以微积分，周长就不行？",
+      "url": "https://www.zhihu.com/answer/1898743046947988426",
+      "summary": "正文讨论不同逼近方式下长度或面积在积分极限过程中的发散或收敛。"
+    },
+    {
+      "title": "你见过最拙劣的学术造假是什么样的？",
+      "url": "https://www.zhihu.com/answer/1898918332289233530",
+      "summary": "正文计算 h'(x) 在 0 处的极限，指出原证明关于导数符号的判断错误。"
+    },
+    {
+      "title": "大学数学中有哪些容易忽视的伪证？",
+      "url": "https://www.zhihu.com/answer/1901976139146180155",
+      "summary": "正文由幂级数定义正弦余弦，并推出 x 趋于 0 时的等价无穷小关系。"
+    },
+    {
+      "title": "说说你为什么没有早恋的想法？",
+      "url": "https://www.zhihu.com/answer/1906816192557057960",
+      "summary": "正文取候选人数趋于无穷大的极限来化简表达式，并由此得到与自然对数底数相关的比例。"
+    },
+    {
+      "title": "最近网上吵0.9999999……的循环等于1你赞成吗？",
+      "url": "https://www.zhihu.com/answer/1911461517322347273",
+      "summary": "正文把无限小数的累加过程与静态极限值区分开，并用部分和趋于 1 说明极限含义。"
+    },
+    {
+      "title": "如何评价予一人大佬？",
+      "url": "https://www.zhihu.com/answer/1911896259947632352",
+      "summary": "证明中明确计算 g(x) 在无穷远处的极限为 0，并据此结合单调性界定函数值。"
+    },
+    {
+      "title": "如何简单快速记住三角函数和差化积、积化和差公式（8 个主要的）?",
+      "url": "https://www.zhihu.com/answer/1918398113053405307",
+      "summary": "正文在正弦函数求导过程中具体使用重要极限，并说明该步骤如何使差商极限化为余弦值。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/1922311194619933210",
+      "summary": "正文讨论底数按 1/x 无限趋近 1 时的无穷次幂，并区分固定值 1 与动态极限，涉及极限计算的核心思路。"
+    },
+    {
+      "title": "1/x的积分为什么是ln|x|+C，为什么会和e相关?",
+      "url": "https://www.zhihu.com/answer/1924784742668141351",
+      "summary": "正文让 n 趋近 -1，并用洛必达法则计算含 (n+1) 的极限，实质完成了一个极限推导。"
+    },
+    {
+      "title": "洛必达法则为何成为禁术？",
+      "url": "https://www.zhihu.com/answer/1925496883616383689",
+      "summary": "正文以两个函数极限为例展示盲目反复使用洛必达会出现循环或导出错误结论，说明求极限前需先判断适用条件。"
+    },
+    {
+      "title": "为啥无限个无穷小的乘积不一定为无穷小？",
+      "url": "https://www.zhihu.com/answer/1933480843730478838",
+      "summary": "正文构造一列无穷小量及其逐项乘积，并用乘积数列的极限等于1说明无限个无穷小量的乘积未必是无穷小。"
+    },
+    {
+      "title": "这极限怎么求出来的？",
+      "url": "https://www.zhihu.com/answer/1935265375957780240",
+      "summary": "正文通过周期性和渐近展开把原数列化到有界的剩余项，据此计算两个极限。"
+    },
+    {
+      "title": "sin(x)+sin(x^2)最大值能取到2吗?",
+      "url": "https://www.zhihu.com/answer/1938249856511616790",
+      "summary": "正文构造趋于满足极值条件的点列，使函数值可以任意接近 2，体现逼近而非直接取到极限值。"
+    },
+    {
+      "title": "四元数函数可以成为复变函数的延拓吗？",
+      "url": "https://www.zhihu.com/answer/1944718259300603296",
+      "summary": "正文具体分析四元数函数沿不同方向趋近时的极限，并说明标准极限定义为何导致不存在的结果。"
+    },
+    {
+      "title": "一个由无穷多个9组成的数（……99999）乘以10再减去自身，结果等于-9，这是否证明了它等于-1？",
+      "url": "https://www.zhihu.com/answer/1945581586276942900",
+      "summary": "正文给出序列极限的 epsilon-N 定义，并据此定义无限级数与无限小数。"
+    },
+    {
+      "title": "谢惠民教授于 9 月 2 日辞世，如何评价他的一生？",
+      "url": "https://www.zhihu.com/answer/1946534430924580021",
+      "summary": "正文具体用均值不等式推导数列的严格单调性与上界，从而证明数列收敛。"
+    },
+    {
+      "title": "谢惠民教授于 9 月 2 日辞世，如何评价他的一生？",
+      "url": "https://www.zhihu.com/answer/1946837524946326662",
+      "summary": "正文以数列的极限和算术平均极限关系为例，展示如何把极限命题用于微积分推导。"
+    },
+    {
+      "title": "关于质数的一个猜想，n趋向正无穷时，（p1×p2×...×pn）^(1/pn)的极限存在吗？",
+      "url": "https://www.zhihu.com/answer/1952877807668541281",
+      "summary": "正文先陈述待求极限，再用渐近公式计算并把原数列识别为收敛数列的子列。"
+    },
+    {
+      "title": "萌新第一次学数学分析时，非常繁琐的实数理论要不要跳过？",
+      "url": "https://www.zhihu.com/answer/1953807021418721530",
+      "summary": "正文计算无限等比级数，用极限求和反驳阿基里斯追乌龟的无穷时间结论。"
+    },
+    {
+      "title": "在数学的学习过程中，你见过最妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/1966976289459119098",
+      "summary": "正文把 Weyl 等分布定理化为序列平均值的极限，并计算特征函数与三角多项式的平均极限。"
+    },
+    {
+      "title": "该如何通俗易懂的向小孩子解释自然对数的底 e 的意义？",
+      "url": "https://www.zhihu.com/answer/1970561477514618486",
+      "summary": "正文通过结算次数趋于无穷时的复利金额，具体展示了一个数列极限的计算与意义。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/1974858860595548219",
+      "summary": "正文通过生成函数导数在 x=0 处的极限并借助洛必达法则求高阶导数值，实质涉及极限计算。"
+    },
+    {
+      "title": "为何面积可以微积分，周长就不行？",
+      "url": "https://www.zhihu.com/answer/1977383079128623041",
+      "summary": "正文先以折线分割逼近曲线，再令分割不断加细并取长度极限，具体展开了极限过程。"
+    },
+    {
+      "title": "泊松分布的现实意义是什么，为什么现实生活多数服从于泊松分布？",
+      "url": "https://www.zhihu.com/answer/1978118133635097669",
+      "summary": "正文取 n 趋于无穷时的极限，将固定均值的二项分布概率质量函数推导为泊松分布。"
+    },
+    {
+      "title": "为什么有时侯0的0次方可以定义为1？",
+      "url": "https://www.zhihu.com/answer/1984322997817995956",
+      "summary": "正文把0^0之争解释为二元函数沿不同路径逼近原点时极限不同，实质讨论了多路径极限。"
+    },
+    {
+      "title": "如何看待短视频平台有人声称「微积分是中国发明的」?",
+      "url": "https://www.zhihu.com/answer/1985633009534276840",
+      "summary": "正文以圆内接正多边形不断细分说明无穷逼近的极限思想。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1987122775924704901",
+      "summary": "正文将有限和转化为黎曼积分，并利用 n 趋于无穷时的极限求最优停止概率。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1987230940272013480",
+      "summary": "正文用抽卡失败概率随机会次数增大而趋近 1/e 的例子解释极限计算。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1987319188881158541",
+      "summary": "正文使用标准极限并作代数变形，证明相关二项概率在 n 趋于无穷时收敛到 1/e。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1987463731882513310",
+      "summary": "正文用 n 趋于无穷时的极限定义 e，并用连续结息的极限过程说明它。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1987478602531509471",
+      "summary": "正文把有限样本的成功概率写成求和后取 n 趋于无穷的极限。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1988025036678918700",
+      "summary": "正文给出指数极限的具体值，并用其推广式检验把常数取为 -1 的推理是否成立。"
+    },
+    {
+      "title": "又是一个做不出来的极限，该怎么做？",
+      "url": "https://www.zhihu.com/answer/1988754486924166315",
+      "summary": "正文通过渐近估计与 Stirling 公式计算原式的 n 趋于无穷时的极限。"
+    },
+    {
+      "title": "如何解决这个逆天难定积分？",
+      "url": "https://www.zhihu.com/answer/1990876669918074718",
+      "summary": "正文通过变量替换把 x 趋于无穷的极限化为 y 趋于零的极限，并计算到二阶项得到最终常数。"
+    },
+    {
+      "title": "0.000……001（无穷个 0 循环），这个数等于0吗？",
+      "url": "https://www.zhihu.com/answer/1991580500612121065",
+      "summary": "正文用阿基米德公理说明不存在最小正实数，并把无限个零后出现 1 的记号解释为趋近于零的极限。"
+    },
+    {
+      "title": "数学中的连乘积的连续版本应该用什么符号表示?",
+      "url": "https://www.zhihu.com/answer/1998552234502420175",
+      "summary": "正文具体计算 s 趋近于 1 时的极限，得到指数函数在新微分规则下的结果。"
+    },
+    {
+      "title": "单位圆上随意取三点，那么这三点围成三角形面积的期望是多少？",
+      "url": "https://www.zhihu.com/answer/1998773962084202393",
+      "summary": "正文令正多边形边数趋于无穷，利用正弦等价无穷小求出面积期望的极限。"
+    },
+    {
+      "title": "假如有一盏灯，1秒时为红色,1.1秒时变绿,1.11秒又变红，以此类推，这盏灯在2秒时会是什么颜色？",
+      "url": "https://www.zhihu.com/answer/2002210750723268853",
+      "summary": "正文围绕数列聚点处的极限是否存在展开，并据此讨论如何构造延拓函数来定义灯的状态。"
+    },
+    {
+      "title": "既然sinx＝sinx，那为啥两边求导的结果不同？",
+      "url": "https://www.zhihu.com/answer/2010540452504441768",
+      "summary": "正文指出需要考察 dx 趋于零时的余弦差商与正弦商极限，以完成导数计算。"
+    },
+    {
+      "title": "微积分体系几百年前就建立起来了，为什么我们现在学习它仍存在困难？",
+      "url": "https://www.zhihu.com/answer/2015430777173746227",
+      "summary": "正文以 Δx 趋近于零时的困惑为切入点，说明极限过程中无穷小量与分母不能为零之间的矛盾。"
+    },
+    {
+      "title": "微积分体系几百年前就建立起来了，为什么我们现在学习它仍存在困难？",
+      "url": "https://www.zhihu.com/answer/2017660904855057770",
+      "summary": "正文用不断缩小的自变量增量观察斜率趋近常数，说明极限的直观含义。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/2021931984646095623",
+      "summary": "正文通过 n 趋于无穷时幂式收敛到 e 或 1/e，讨论离散增长与收缩过程的极限。"
+    },
+    {
+      "title": "泊松分布的现实意义是什么，为什么现实生活多数服从于泊松分布？",
+      "url": "https://www.zhihu.com/answer/2027402249018549706",
+      "summary": "正文把二项概率拆成三部分，逐项计算 n 趋于无穷时的极限，并由极限合并得到泊松分布公式。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/2028952616571248821",
+      "summary": "正文用连续复利的结算次数趋于无穷，说明数列 (1+1/n)ⁿ 收敛并趋向固定的极限值。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/2029205655584548716",
+      "summary": "正文逐年缩短计息周期并观察数值变化，解释该数列趋向上界而不是无限增大。"
+    },
+    {
+      "title": "既然x+2＝3的解是x＝1，那为啥两边求导的结果不同？",
+      "url": "https://www.zhihu.com/answer/2030131310027617148",
+      "summary": "正文比较极限、导数与积分的保等条件，并分析在方程约束下去心邻域内取极限为何失效。"
+    },
+    {
+      "title": "如何通俗地解释泰勒公式？",
+      "url": "https://www.zhihu.com/answer/2031834249398056923",
+      "summary": "正文用 sin x 的泰勒展开计算 0/0 型极限，展示系数比较如何直接得到极限值。"
+    },
+    {
+      "title": "数学中的「分析」是什么意思？",
+      "url": "https://www.zhihu.com/answer/2032255206692479548",
+      "summary": "正文把分析学主线概括为判断极限是否存在以及各类无限操作能否交换，并系统讨论相应条件。"
+    },
+    {
+      "title": "看到有博主说“郑和的船是用微积分造的”，为什么一问证据就说被清朝烧了？",
+      "url": "https://www.zhihu.com/answer/2033893350823162582",
+      "summary": "正文比较微积分先行者的方法，指出他们已通过极限思想分析曲线切线。"
+    },
+    {
+      "title": "π的无穷乘积，最初是怎么被发现的？",
+      "url": "https://www.zhihu.com/answer/2039407375942164860",
+      "summary": "正文通过让n趋于无穷并消去趋于零的余项，具体使用极限操作求出求积系数。"
+    },
+    {
+      "title": "sinx求导为什么是cosx？",
+      "url": "https://www.zhihu.com/answer/2040735489137832249",
+      "summary": "正文把差商化简后提取 cos x，并使用标准极限 sinh/h→1 完成计算。"
+    },
+    {
+      "title": "（sinln1+sinln2+...+sinlnn）/n极限存在吗?",
+      "url": "https://www.zhihu.com/answer/2048873579857630866",
+      "summary": "正文计算由 sin(ln k) 构成的平均数列的上下极限、聚点集并说明普通极限不存在。"
+    },
+    {
+      "title": "为什么我们默认发散级数求和无意义？",
+      "url": "https://www.zhihu.com/answer/2057217178525495621",
+      "summary": "正文通过格兰迪级数说明部分和极限、分组与正则化过程会产生不同结果，并强调极限运算的规则。"
+    },
+    {
+      "title": "如何评价 2026 复旦插班生高等数学考试难度？",
+      "url": "https://www.zhihu.com/answer/2061991016937346470",
+      "summary": "正文分参数讨论反三角函数复合式极限的存在条件，并用洛必达法则求出极限值。"
+    },
+    {
+      "title": "《微积分和数学分析引论》读书笔记（一）·抽象泄漏的微积分",
+      "url": "https://zhuanlan.zhihu.com/p/19975733",
+      "summary": "正文从数列和函数出发讨论极限、一致连续以及用区间套构造实数等极限思想。"
+    },
+    {
+      "title": "高等数学——（1）函数、极限、连续",
+      "url": "https://zhuanlan.zhihu.com/p/22733428",
+      "summary": "正文定义函数极限与数列极限，并列举等价替换、洛必达、夹逼等具体计算方法。"
+    },
+    {
+      "title": "见到了一个很有数学才华的小孩",
+      "url": "https://zhuanlan.zhihu.com/p/23046662",
+      "summary": "正文借助无穷上限的反常积分说明积分上限趋于无穷时的极限定义。"
+    },
+    {
+      "title": "谈谈无穷大、函数的可积以及无穷小的等价替换",
+      "url": "https://zhuanlan.zhihu.com/p/23128692",
+      "summary": "正文从极限趋于零的过程解释无穷小、同阶与高阶关系，并讨论极限替换。"
+    },
+    {
+      "title": "数列的上/下确界与上/下极限的区别和联系",
+      "url": "https://zhuanlan.zhihu.com/p/23859974",
+      "summary": "正文通过两个数列例子和收敛子列极限，对比并定义上极限与下极限。"
+    },
+    {
+      "title": "大学数学（高数线代）直观理解（一）",
+      "url": "https://zhuanlan.zhihu.com/p/24174101",
+      "summary": "正文用变化率之比解释洛必达法则，说明两个趋零函数极限之比可转化为导数之比。"
+    },
+    {
+      "title": "两个重要极限",
+      "url": "https://zhuanlan.zhihu.com/p/25048945",
+      "summary": "正文用夹逼定理证明 sin x/x 的极限，并以单调有界原理证明自然底数相关极限。"
+    },
+    {
+      "title": "「0/0型洛必达法则」及其推广",
+      "url": "https://zhuanlan.zhihu.com/p/25091491",
+      "summary": "正文证明 0/0 型洛必达法则，并用多次求导和极限求出函数下确界。"
+    },
+    {
+      "title": "由根号2的根号2的根号2...次方次方引发的讨论",
+      "url": "https://zhuanlan.zhihu.com/p/25150820",
+      "summary": "正文研究无穷幂塔对应的迭代数列是否收敛、收敛值及不同初值下的极限行为。"
+    },
+    {
+      "title": "如何优雅地用洛必达法则解压轴题",
+      "url": "https://zhuanlan.zhihu.com/p/25444962",
+      "summary": "正文围绕含未定式的参数范围问题，给出先求函数极限再构造函数比较符号的极限计算流程。"
+    },
+    {
+      "title": "【高等数学】：从聚点的角度谈数列极限",
+      "url": "https://zhuanlan.zhihu.com/p/25708067",
+      "summary": "正文从数列聚点解释极限，并用 ε-N 定义和放缩计算典型数列极限。"
+    },
+    {
+      "title": "泊松分布 (Poisson Distributions) 的推导",
+      "url": "https://zhuanlan.zhihu.com/p/26263743",
+      "summary": "正文在 n 趋于无穷时逐项计算二项概率的极限，得到泊松分布。"
+    },
+    {
+      "title": "写给大家看的机器学习书（第六篇）—— 机器学习为什么是可行的（下）",
+      "url": "https://zhuanlan.zhihu.com/p/26252454",
+      "summary": "正文通过比较两个趋于无穷的函数阶数，判断训练误差与预测误差偏差的上界能否收敛。"
+    },
+    {
+      "title": "二项分布与泊松分布",
+      "url": "https://zhuanlan.zhihu.com/p/26433704",
+      "summary": "正文令区间数趋于无穷，分别计算组合系数和指数因子极限，从而得到泊松分布。"
+    },
+    {
+      "title": "中学篇 No. 19：极限是怎样炼成的",
+      "url": "https://zhuanlan.zhihu.com/p/26902675",
+      "summary": "正文以等比级数的部分和为例，具体求出极限并给出对应的 ε-N 证明。"
+    },
+    {
+      "title": "利用定积分定义求极限的原理与套路，你会了吗？",
+      "url": "https://zhuanlan.zhihu.com/p/26942412",
+      "summary": "正文把若干项和的极限化为积分和，通过被积函数、积分上下限和面积微元求出极限。"
+    },
+    {
+      "title": "【概念深度挖掘】——4.1数列和函数的极限（难度大）",
+      "url": "https://zhuanlan.zhihu.com/p/24928244",
+      "summary": "正文从数列和函数两类情形讲解极限，并用 1/n 等例子说明极限值、收敛与发散。"
+    },
+    {
+      "title": "微积分的历史（四），发展之伯努利兄弟",
+      "url": "https://zhuanlan.zhihu.com/p/27227796",
+      "summary": "正文用切线线性逼近解释洛必达法则如何把待求极限转化为导数之比，并说明无穷型可化为 0/0 型。"
+    },
+    {
+      "title": "王者荣耀！级数、极限和泰勒公式三大王 桃园三结义 搞事情啊！！！",
+      "url": "https://zhuanlan.zhihu.com/p/27693014",
+      "summary": "正文通过计算通项与参照项的等价或同阶无穷小极限，推导级数的收敛或发散结论。"
+    },
+    {
+      "title": "1+1/4+1/9+1/16+……+1/n^2=π^2/6？？——日本女子大学2003年自主招生考试题",
+      "url": "https://zhuanlan.zhihu.com/p/28328443",
+      "summary": "正文计算级数余项上界的极限，并据此使用夹逼定理得到巴塞尔和的极限值。"
+    },
+    {
+      "title": "【高等数学】如何正确的学习大学数学实例",
+      "url": "https://zhuanlan.zhihu.com/p/28353322",
+      "summary": "正文示范通过左右极限、重要极限和洛必达法则计算分段函数在零点的极限。"
+    },
+    {
+      "title": "【高等数学】导数存在蕴含导数连续？",
+      "url": "https://zhuanlan.zhihu.com/p/28543551",
+      "summary": "正文分析洛必达和中值定理推导中的极限存在条件，指出导函数极限未必存在。"
+    },
+    {
+      "title": "求极限中的“抓大头”，什么鬼？？？",
+      "url": "https://zhuanlan.zhihu.com/p/28795794",
+      "summary": "正文通过分子分母最高阶项的系数比较，讲解无穷比无穷型和幂指函数求极限的化简方法。"
+    },
+    {
+      "title": "《物理学家的数学工具箱》之无穷级数（1）",
+      "url": "https://zhuanlan.zhihu.com/p/28931057",
+      "summary": "正文把无穷级数的和定义为部分和数列的极限，并用几何级数演示极限计算。"
+    },
+    {
+      "title": "【高等数学】用“定义+基本逻辑推理”证明函数无界",
+      "url": "https://zhuanlan.zhihu.com/p/29552253",
+      "summary": "正文通过构造趋于无穷的点列判断函数的无界性，并讨论相关的极限行为。"
+    },
+    {
+      "title": "【高等数学】等价无穷小代换",
+      "url": "https://zhuanlan.zhihu.com/p/29622571",
+      "summary": "正文定义无穷小及其阶，证明等价无穷小可替换的极限法则，并用具体极限展示使用条件。"
+    },
+    {
+      "title": "【高等数学】两个重要的极限",
+      "url": "https://zhuanlan.zhihu.com/p/29625654",
+      "summary": "正文系统归纳 sin x/x 与 (1+1/x)^x 两类重要极限的形式特点，并通过凑项变形求具体极限。"
+    },
+    {
+      "title": "利用书上的导数定义解决高考导数题",
+      "url": "https://zhuanlan.zhihu.com/p/30040547",
+      "summary": "正文通过构造函数并利用导数定义计算多个差商型极限，属于极限计算方法。"
+    },
+    {
+      "title": "【高等数学】判断一元函数的间断点及类型",
+      "url": "https://zhuanlan.zhihu.com/p/30120671",
+      "summary": "正文通过计算左右极限来判断可去、跳跃、无穷和震荡间断点，并演示连续区间的求法。"
+    },
+    {
+      "title": "第八课：向量的范数",
+      "url": "https://zhuanlan.zhihu.com/p/30279795",
+      "summary": "正文定义向量序列的收敛，并说明范数等价保证收敛性与所用范数无关。"
+    },
+    {
+      "title": "x^x 导数的四种求法",
+      "url": "https://zhuanlan.zhihu.com/p/30796939",
+      "summary": "正文通过拆分差商并计算两个标准极限，从导数定义直接推出 x^x 的导数。"
+    },
+    {
+      "title": "【高等数学】函数极限以及与数列极限的关系",
+      "url": "https://zhuanlan.zhihu.com/p/31206539",
+      "summary": "正文实质讲解函数极限、左右极限及其与数列极限的归结关系，属于极限概念的展开。"
+    },
+    {
+      "title": "一元函数微分的本质",
+      "url": "https://zhuanlan.zhihu.com/p/31963102",
+      "summary": "正文用极限定义导数并澄清无穷小量，属于极限计算与极限语义的讲解。"
+    },
+    {
+      "title": "一道高中数学数列题的解答",
+      "url": "https://zhuanlan.zhihu.com/p/31619318",
+      "summary": "正文求出两个数列的共同极限，并说明其对圆周率的逼近意义。"
+    },
+    {
+      "title": "求极限的6大方法，良心文章",
+      "url": "https://zhuanlan.zhihu.com/p/32871279",
+      "summary": "正文系统梳理重要极限、等价无穷小、夹逼准则和单调有界等极限计算方法并配例题。"
+    },
+    {
+      "title": "伯努利不等式的证明与运用",
+      "url": "https://zhuanlan.zhihu.com/p/33304783",
+      "summary": "正文通过函数极限和夹逼思想，从伯努利不等式推出 e^x≥1+x，并讨论相关函数的单调性。"
+    },
+    {
+      "title": "2 渐近分析：大O记号、小o记号与“~”记号",
+      "url": "https://zhuanlan.zhihu.com/p/33357254",
+      "summary": "正文用函数比值在 x→∞ 时的极限定义渐近等价、小 o 和大 O，并讨论这些极限关系。"
+    },
+    {
+      "title": "关于对数平均、指数平均的一些补充（1）",
+      "url": "https://zhuanlan.zhihu.com/p/33365167",
+      "summary": "正文通过取对数和洛必达法则计算幂平均参数趋于零时的函数极限，说明零阶幂平均的约定。"
+    },
+    {
+      "title": "Wallis乘积中的π从何而来？（上）",
+      "url": "https://zhuanlan.zhihu.com/p/34313702",
+      "summary": "正文把矩形面积与四分之一圆面积比较，并通过序列极限推出 Wallis 乘积。"
+    },
+    {
+      "title": "Wallis乘积中的π从何而来？（下）",
+      "url": "https://zhuanlan.zhihu.com/p/34600273",
+      "summary": "正文用两侧面积估计建立上下界，并以夹逼定理推出 π s_n²/(4n) 的极限。"
+    },
+    {
+      "title": "用python解决高数所有计算题--sympy求解极限、积分、微分、二元一次方程等",
+      "url": "https://zhuanlan.zhihu.com/p/35150541",
+      "summary": "正文通过代入、单侧逼近和无穷远情形演示并计算多个函数极限。"
+    },
+    {
+      "title": "等价无穷小为什么不能在加减式子中使用",
+      "url": "https://zhuanlan.zhihu.com/p/35176202",
+      "summary": "正文通过多个极限例子解释加减法中能否替换等价无穷小及分母阶数的关系。"
+    },
+    {
+      "title": "复合函数求导（链式法则）",
+      "url": "https://zhuanlan.zhihu.com/p/35230947",
+      "summary": "正文从增量比出发，取Delta x趋于零的极限，按导数定义证明链式法则。"
+    },
+    {
+      "title": "泰勒公式在做等价替换时如何确定阶数",
+      "url": "https://zhuanlan.zhihu.com/p/35188462",
+      "summary": "正文围绕多个函数极限求解实例，比较分母阶数与分子展开阶数并完成极限计算。"
+    },
+    {
+      "title": "多元函数如何求极限",
+      "url": "https://zhuanlan.zhihu.com/p/35886925",
+      "summary": "正文比较一元与多元极限，运用无穷小替换、有理化、夹逼等具体方法计算极限。"
+    },
+    {
+      "title": "机器学习的数学基础-（一、高等数学）",
+      "url": "https://zhuanlan.zhihu.com/p/36311622",
+      "summary": "正文列出极限计算所需的基本极限、洛必达法则及渐近线求法。"
+    },
+    {
+      "title": "开个脑洞写一篇“小明常数”的文章",
+      "url": "https://zhuanlan.zhihu.com/p/37072743",
+      "summary": "正文用逐步缩小的增量观察变化率，并以 sin x/x→1 说明弧度制下的极限。"
+    },
+    {
+      "title": "沉迷吧！腾讯公布了一款学习微积分的游戏，试玩之后发现是这样的……",
+      "url": "https://zhuanlan.zhihu.com/p/38554347",
+      "summary": "正文用函数图像和游戏关卡说明左极限、右极限以及无限接近某值时的极限判断。"
+    },
+    {
+      "title": "施笃兹定理（O'Stolz定理）",
+      "url": "https://zhuanlan.zhihu.com/p/39015026",
+      "summary": "正文说明施笃兹定理用于数列不定式极限，区分分母趋于无穷和 0/0 情形，并称为洛必达法则的离散版本。"
+    },
+    {
+      "title": "使用洛必达法则需要注意的三大陷阱",
+      "url": "https://zhuanlan.zhihu.com/p/39540516",
+      "summary": "正文讲解使用洛必达法则计算极限时的适用条件、右侧极限存在要求以及重复求导中的检查陷阱。"
+    },
+    {
+      "title": "洛必达法则的几个例子",
+      "url": "https://zhuanlan.zhihu.com/p/39561201",
+      "summary": "正文先说明洛必达法则的适用条件，再给出定理并用多个未定式例子演示分子分母分别求导后计算极限。"
+    },
+    {
+      "title": "数学分析笔记（三）——极限与连续",
+      "url": "https://zhuanlan.zhihu.com/p/38570344",
+      "summary": "正文讲解数列与函数极限的算术运算、夹逼准则和两个重要极限的具体计算方法。"
+    },
+    {
+      "title": "自然常数“e”，工程中的自然数“1”",
+      "url": "https://zhuanlan.zhihu.com/p/40317763",
+      "summary": "正文以复利分期的有限极限推导自然常数，并讨论该极限的收敛性。"
+    },
+    {
+      "title": "斯托尔茨（O.Stolz）定理",
+      "url": "https://zhuanlan.zhihu.com/p/40455896",
+      "summary": "正文系统讲解 Stolz 定理的无穷比无穷型与零比零型，并用它计算数列极限和幂和渐近式。"
+    },
+    {
+      "title": "数学分析初学者的笔记——由Stolz定理想到的",
+      "url": "https://zhuanlan.zhihu.com/p/40562292",
+      "summary": "正文介绍 Stolz 定理并用它计算平均数和 n 次方根等复杂数列的极限。"
+    },
+    {
+      "title": "高中导数的拓展定理证明方式",
+      "url": "https://zhuanlan.zhihu.com/p/41055611",
+      "summary": "正文分别讲解零比零和无穷比无穷型极限，并用导数定义证明洛必达法则。"
+    },
+    {
+      "title": "傅里叶系列（二）傅里叶变换的推导",
+      "url": "https://zhuanlan.zhihu.com/p/41875010",
+      "summary": "正文令频率间隔随离散点数趋于无穷而趋近于零，用极限完成级数到积分的过渡。"
+    },
+    {
+      "title": "八分钟看完《高等数学》|自己装的逼，含泪也要写完...",
+      "url": "https://zhuanlan.zhihu.com/p/42945989",
+      "summary": "正文用木棒逐日截半说明数列趋势，并解释极限、无穷趋势以及函数左右极限。"
+    },
+    {
+      "title": "Gap1：导数的概念",
+      "url": "https://zhuanlan.zhihu.com/p/40949079",
+      "summary": "正文计算 x、sin x 与 tan x 在零点的极限，并说明统一求极限方式所产生的等价关系。"
+    },
+    {
+      "title": "高等数学中关于等价无穷小的一点思考",
+      "url": "https://zhuanlan.zhihu.com/p/44083023",
+      "summary": "正文用具体极限比较直接替换与完整展开，分析等价无穷小替换的适用条件。"
+    },
+    {
+      "title": "微分是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/45086452",
+      "summary": "正文把 n 等分后的矩形面积和化为含 1/n 的表达式，再取 n 趋于无穷的极限求得面积。"
+    },
+    {
+      "title": "学习微积分/高等数学（持续更新）",
+      "url": "https://zhuanlan.zhihu.com/p/45203159",
+      "summary": "正文通过单侧极限、夹逼定理、等价无穷小和洛必达法则展开极限计算。"
+    },
+    {
+      "title": "小品一则：Arnold 出的一个求极限问题",
+      "url": "https://zhuanlan.zhihu.com/p/45782245",
+      "summary": "正文完整分析一个复合三角函数分式在零点附近的极限并给出计算结论。"
+    },
+    {
+      "title": "自然对数的底“e”到底是怎么来的？",
+      "url": "https://zhuanlan.zhihu.com/p/45846342",
+      "summary": "正文证明数列单调递增且有上界，从而给出 e 的极限定义。"
+    },
+    {
+      "title": "高等数学微积分中求极限的几种常用方法",
+      "url": "https://zhuanlan.zhihu.com/p/46252748",
+      "summary": "正文系统列出夹逼、等价无穷小、洛必达等求极限方法并逐项举例。"
+    },
+    {
+      "title": "高等数学微积分之等价无穷小的使用条件",
+      "url": "https://zhuanlan.zhihu.com/p/46297528",
+      "summary": "正文解释等价无穷小的适用条件，并以具体极限说明乘除与加减场景的差异。"
+    },
+    {
+      "title": "MIT—单变量微积分笔记01 导数、斜率、速率和变化率",
+      "url": "https://zhuanlan.zhihu.com/p/46688904",
+      "summary": "正文用差商在 Δx 趋于零时的极限说明切线是割线的极限状态。"
+    },
+    {
+      "title": "几个常见的极限的结论",
+      "url": "https://zhuanlan.zhihu.com/p/47159333",
+      "summary": "正文列出一组常见数列极限，并据此比较对数、幂、指数、阶乘和幂指函数的增长阶。"
+    },
+    {
+      "title": "极限类题之夹逼准则",
+      "url": "https://zhuanlan.zhihu.com/p/47405710",
+      "summary": "正文讲解用上下界放缩和两边极限夹逼来求复杂极限的方法。"
+    },
+    {
+      "title": "极限类题之有理化",
+      "url": "https://zhuanlan.zhihu.com/p/47479631",
+      "summary": "正文通过分子、分母及同时有理化的变形方法讲解含根式极限的计算。"
+    },
+    {
+      "title": "极限类题之利用两个重要极限",
+      "url": "https://zhuanlan.zhihu.com/p/47860421",
+      "summary": "正文围绕两个重要极限讲解极限型的识别、变形与计算，并给出多类例题。"
+    },
+    {
+      "title": "极限类题之stolz定理",
+      "url": "https://zhuanlan.zhihu.com/p/48261667",
+      "summary": "正文系统讲解施笃兹定理的适用条件和以相邻项差分求数列极限的方法，属于极限计算。"
+    },
+    {
+      "title": "极限类题之利用定积分定义",
+      "url": "https://zhuanlan.zhihu.com/p/49222402",
+      "summary": "正文把特定无限和式的极限转化为定积分计算，并总结识别和求解此类极限的方法。"
+    },
+    {
+      "title": "什么是黎曼和？什么是定积分？",
+      "url": "https://zhuanlan.zhihu.com/p/49577150",
+      "summary": "正文通过分割无限变细时黎曼和的极限存在性给出定积分的严格定义。"
+    },
+    {
+      "title": "极限类题之泰勒公式展开法",
+      "url": "https://zhuanlan.zhihu.com/p/51214357",
+      "summary": "正文以多个极限题示范将分子分母做同阶麦克劳林展开、消去低阶项并求极限。"
+    },
+    {
+      "title": "利用泰勒公式求极限，函数需要展开到第几阶？",
+      "url": "https://zhuanlan.zhihu.com/p/55329106",
+      "summary": "正文以两个例题说明如何选择泰勒展开阶数来计算函数极限。"
+    },
+    {
+      "title": "导数大题中的三角函数",
+      "url": "https://zhuanlan.zhihu.com/p/55608781",
+      "summary": "正文使用重要极限 sin x/x 趋于 1 求函数下确界，并结合取点与缩放处理极限问题。"
+    },
+    {
+      "title": "极限、无穷小、无穷大、无界及其联系！",
+      "url": "https://zhuanlan.zhihu.com/p/55909204",
+      "summary": "正文用极限与无穷小的等价表达研究极限问题，并区分无穷大与无界等极限概念。"
+    },
+    {
+      "title": "【数学】数列极限（宇哥笔记）",
+      "url": "https://zhuanlan.zhihu.com/p/56423142",
+      "summary": "正文系统归纳数列极限的直接计算、单调有界、定义、夹逼和定积分定义等求法。"
+    },
+    {
+      "title": "关于微积分，学校怎么没教过这么简单的入门技巧！",
+      "url": "https://zhuanlan.zhihu.com/p/57270666",
+      "summary": "正文区分有限宽度 Δx 与趋向于零的 dx，并用无限细分后的极限说明积分的精确求和过程。"
+    },
+    {
+      "title": "【数学】函数极限（宇哥笔记）",
+      "url": "https://zhuanlan.zhihu.com/p/58062844",
+      "summary": "正文系统归纳七类未定式的求解策略，并结合等价替换、洛必达法则和泰勒公式计算函数极限。"
+    },
+    {
+      "title": "由一类特殊的洛必达法则情形展开的讨论 ——小领域的大作用",
+      "url": "https://zhuanlan.zhihu.com/p/58788704",
+      "summary": "正文围绕 0/0 型未定式，讲解洛必达法则的用法、适用条件、失效情形及替代极限方法。"
+    },
+    {
+      "title": "求极限时，谨慎拆分函数",
+      "url": "https://zhuanlan.zhihu.com/p/60268688",
+      "summary": "正文辨析极限四则运算的拆分条件，并通过无穷减无穷、零比零和一无穷等未定式说明正确算法。"
+    },
+    {
+      "title": "你知道为了测博尔特的速度，我们有多努力嘛？",
+      "url": "https://zhuanlan.zhihu.com/p/61845929",
+      "summary": "正文以不断缩短时间间隔时平均速度趋于瞬时速度为例，具体说明极限对瞬时变化的刻画。"
+    },
+    {
+      "title": "高数求极限的一些总结",
+      "url": "https://zhuanlan.zhihu.com/p/61734696",
+      "summary": "正文系统归纳函数与数列极限的计算，并用夹逼准则、单调有界和定积分转换讲解多种求极限方法。"
+    },
+    {
+      "title": "高数常见坑点：等价无穷小",
+      "url": "https://zhuanlan.zhihu.com/p/62029838",
+      "summary": "正文通过错误与正确算式解释等价无穷小替换所依赖的极限四则运算，并据此纠正和计算多个极限。"
+    },
+    {
+      "title": "关于e的思考",
+      "url": "https://zhuanlan.zhihu.com/p/64359661",
+      "summary": "正文通过逐步减小指数中的增量，把 e 的数值逼近写成趋近于零的极限。"
+    },
+    {
+      "title": "用Julia学习微积分：这有一份高赞数学教程 | 附习题+代码",
+      "url": "https://zhuanlan.zhihu.com/p/65679413",
+      "summary": "正文结合导数定义和洛必达法则，具体演示如何识别未定式并分别求导计算极限。"
+    },
+    {
+      "title": "第4期   谈谈对极限、连续的理解",
+      "url": "https://zhuanlan.zhihu.com/p/64540542",
+      "summary": "正文通过 1/n 趋于零的例子反解阈值并给出 N 的取法，具体演示了基础极限计算。"
+    },
+    {
+      "title": "如何计算留数？",
+      "url": "https://zhuanlan.zhihu.com/p/67696698",
+      "summary": "正文用极限判断孤立奇点类型，并在留数公式中多次计算趋于奇点的极限。"
+    },
+    {
+      "title": "身边的微分方程 (1)：自然常数e的身世之谜",
+      "url": "https://zhuanlan.zhihu.com/p/48350238",
+      "summary": "正文通过复利极限和离散差分取极限计算自然常数 e，并说明该极限收敛。"
+    },
+    {
+      "title": "【数学】多元函数微分学",
+      "url": "https://zhuanlan.zhihu.com/p/69706782",
+      "summary": "正文系统讲解二重极限的路径判定、等价代换、夹逼和齐次有理式求极限方法。"
+    },
+    {
+      "title": "【“数”你好看】求导",
+      "url": "https://zhuanlan.zhihu.com/p/70443521",
+      "summary": "正文用差商极限证明导数公式，并调用 sinθ/θ 与指数函数的极限关系。"
+    },
+    {
+      "title": "《数学分析教程》史济怀常庚哲课后习题答案-1.2数列和收敛数列",
+      "url": "https://zhuanlan.zhihu.com/p/70614274",
+      "summary": "正文通过立方差逐项相消求出平方和，再据此计算相应数列的极限。"
+    },
+    {
+      "title": "一种方法计算所有的函数极限？|大学-高数篇1",
+      "url": "https://zhuanlan.zhihu.com/p/72110140",
+      "summary": "正文围绕函数极限的直接代入和洛必达法则展开，并用完整例题展示如何转化并计算极限。"
+    },
+    {
+      "title": "《数学分析教程》史济怀常庚哲课后习题答案-1.3收敛数列的性质",
+      "url": "https://zhuanlan.zhihu.com/p/74537919",
+      "summary": "正文给出多道数列极限计算题，并展示等比求和、裂项、有理化和夹逼等计算方法。"
+    },
+    {
+      "title": "2.泰勒公式的使用",
+      "url": "https://zhuanlan.zhihu.com/p/74938375",
+      "summary": "正文以泰勒展开寻找极限式中最低阶主项，并据此判断参数、无穷小阶数和极限结果。"
+    },
+    {
+      "title": "有趣的概率问题——赌徒一定会输光吗？",
+      "url": "https://zhuanlan.zhihu.com/p/77593762",
+      "summary": "正文通过筹码数趋于无穷时的极限夹逼参数范围，推出公平无穷赌局中输光概率等于 1。"
+    },
+    {
+      "title": "哈代不等式(外一题)",
+      "url": "https://zhuanlan.zhihu.com/p/77595554",
+      "summary": "正文取构造数列的渐近极限，并用 Stolz 定理计算比值，证明哈代不等式的最佳系数。"
+    },
+    {
+      "title": "数学分析（二）【邻域与去心邻域】",
+      "url": "https://zhuanlan.zhihu.com/p/79462389",
+      "summary": "正文用邻域与去心邻域解释函数极限的逼近过程，并说明极限不依赖函数在趋近点本身是否有定义。"
+    },
+    {
+      "title": "2019 年东京大学理科数学高考试题 解答",
+      "url": "https://zhuanlan.zhihu.com/p/78967934",
+      "summary": "正文证明数列单调有界后求其极限，并通过方程变形和导数计算后续两个极限。"
+    },
+    {
+      "title": "级数通杀篇（一）",
+      "url": "https://zhuanlan.zhihu.com/p/81457261",
+      "summary": "正文把级数定义为部分和数列的极限，并通过通项极限与夹逼准则判断收敛性。"
+    },
+    {
+      "title": "从“杨辉三角”到“代微积拾级“",
+      "url": "https://zhuanlan.zhihu.com/p/82448871",
+      "summary": "正文用层数趋于无穷的乘方垛逼近尖锥体积，并说明这一过程是原始极限思想。"
+    },
+    {
+      "title": "极限与连续这一章应掌握的内容（已加入考研内容）",
+      "url": "https://zhuanlan.zhihu.com/p/84604744",
+      "summary": "正文讨论函数极限与单点函数值的区别，并列出存在与不存在情形的加减、乘除运算法则。"
+    },
+    {
+      "title": "【高等数学】用ε-δ语言证明函数极限",
+      "url": "https://zhuanlan.zhihu.com/p/84880461",
+      "summary": "正文通过多个函数极限例题演示化简、放缩并计算证明所需界限的过程。"
+    },
+    {
+      "title": "Stolz定理及相关思想",
+      "url": "https://zhuanlan.zhihu.com/p/85306830",
+      "summary": "正文讲解 Stolz 定理的适用情形、差分商极限及若干数列极限应用。"
+    },
+    {
+      "title": "奇怪的极限：x→0, sin(x^2*sin(1/x))/x=?",
+      "url": "https://zhuanlan.zhihu.com/p/87460944",
+      "summary": "正文围绕一个含振荡因子的极限，比较等价无穷小代换，并给出定义法、夹逼法和定义域分离等求极限方法。"
+    },
+    {
+      "title": "这个求极限的过程错在哪里？",
+      "url": "https://zhuanlan.zhihu.com/p/87502737",
+      "summary": "正文分析等价无穷小代换因定义域缺失而失效，并改用有界变量与夹逼定理计算极限。"
+    },
+    {
+      "title": "涉及定积分与积分和的一类极限",
+      "url": "https://zhuanlan.zhihu.com/p/87961787",
+      "summary": "正文通过夹逼定理完成一类积分和误差极限的计算与证明。"
+    },
+    {
+      "title": "最精准全面地解答“无限个无穷小之积是否一定是无穷小”问题",
+      "url": "https://zhuanlan.zhihu.com/p/88642140",
+      "summary": "正文具体计算无限个无穷小乘积的数列极限，并通过两个不同极限的子列判断原极限发散。"
+    },
+    {
+      "title": "二阶导数的记号为何如此怪异？",
+      "url": "https://zhuanlan.zhihu.com/p/88750432",
+      "summary": "正文识别二阶差商极限的 0/0 型结构并应用洛必达法则，具体计算得到二阶导数。"
+    },
+    {
+      "title": "一道极限题与两种定义小论",
+      "url": "https://zhuanlan.zhihu.com/p/88935388",
+      "summary": "正文通过一个复合正弦分式的具体极限题比较直接定义与海涅定理，并解释不同定义下计算结果为何不同。"
+    },
+    {
+      "title": "函数左、右极限简介",
+      "url": "https://zhuanlan.zhihu.com/p/89067727",
+      "summary": "正文说明双侧极限与左右极限相等的关系，并具体讨论连续函数、分段函数和绝对值函数的求极限与连续性判断。"
+    },
+    {
+      "title": "用Stolz定理求一个含组合数的复杂极限",
+      "url": "https://zhuanlan.zhihu.com/p/89615027",
+      "summary": "正文验证Stolz定理条件，并通过两次差商转化计算含组合数与对数的数列极限。"
+    },
+    {
+      "title": "我们来更自然地推导泰勒公式！",
+      "url": "https://zhuanlan.zhihu.com/p/89717331",
+      "summary": "正文通过分析高阶无穷小之比并用洛必达法则计算极限。"
+    },
+    {
+      "title": "说说Riemann函数",
+      "url": "https://zhuanlan.zhihu.com/p/89845798",
+      "summary": "正文利用有限个高函数值有理点构造邻域，证明黎曼函数在任意点的极限为零。"
+    },
+    {
+      "title": "不洛来证：指数函数是任何幂函数的高阶无穷大",
+      "url": "https://zhuanlan.zhihu.com/p/89962614",
+      "summary": "正文通过序列、取整和夹逼定理计算指数与幂函数之比的极限。"
+    },
+    {
+      "title": "一个函数方程问题",
+      "url": "https://zhuanlan.zhihu.com/p/89982205",
+      "summary": "正文对套缩和两边取无穷极限，利用有界量乘无穷小得到 sin f(x) 的表达式。"
+    },
+    {
+      "title": "一个较复杂的函数极限",
+      "url": "https://zhuanlan.zhihu.com/p/90934939",
+      "summary": "正文通过等价变形、拆分指数和逐项估计完整计算了一个复杂的单侧函数极限。"
+    },
+    {
+      "title": "考研数学的初等函数变换公式——三角相关",
+      "url": "https://zhuanlan.zhihu.com/p/89073536",
+      "summary": "正文以三角恒等变形计算两个极限例题并给出完整解答，展开极限计算。"
+    },
+    {
+      "title": "为什么以e为底的指数函数的导数是它本身？（数学分析逻辑链）",
+      "url": "https://zhuanlan.zhihu.com/p/91881261",
+      "summary": "正文把指数和对数导数化为两个等价极限，并说明等价无穷小与洛必达的循环论证问题。"
+    },
+    {
+      "title": "求极限时是否可以进行代入？",
+      "url": "https://zhuanlan.zhihu.com/p/96000422",
+      "summary": "正文系统讨论极限代入何时成立，并区分整体代入、部分代入及未定式下必须变形计算的情形。"
+    },
+    {
+      "title": "如何用「定义」计算关于cos x的定积分？",
+      "url": "https://zhuanlan.zhihu.com/p/96966436",
+      "summary": "正文将余弦定积分化为积分和的极限，并逐步计算该极限得到 1。"
+    },
+    {
+      "title": "用积分求曲线长度的思考",
+      "url": "https://zhuanlan.zhihu.com/p/97430633",
+      "summary": "正文借助夹逼定理说明黎曼和的选择不影响极限，从而解释了极限计算。"
+    },
+    {
+      "title": "无穷连根式的Polya判别法",
+      "url": "https://zhuanlan.zhihu.com/p/97966928",
+      "summary": "正文通过上极限条件和不等式估计判断无穷连根式对应数列的敛散性。"
+    },
+    {
+      "title": "（高等数学笔记）极限的定义证明",
+      "url": "https://zhuanlan.zhihu.com/p/98576846",
+      "summary": "正文用直接反解、放缩和取最大阈值等方法计算多个数列极限，并给出满足极限定义的证明。"
+    },
+    {
+      "title": "多元函数求极限方法总结",
+      "url": "https://zhuanlan.zhihu.com/p/98921951",
+      "summary": "归纳直接代入、有理化、夹逼、极坐标和整体替换等多元函数极限计算方法并给出例题。"
+    },
+    {
+      "title": "“等价无穷小量的替换”的详析",
+      "url": "https://zhuanlan.zhihu.com/p/99373470",
+      "summary": "正文系统讲解等价无穷小替换的适用条件、乘除与加减场景的差异，并用多个极限例题辨析错误做法。"
+    },
+    {
+      "title": "考研.泰勒公式的理解与运用.一次全懂",
+      "url": "https://zhuanlan.zhihu.com/p/100204039",
+      "summary": "正文把泰勒展开用于极限计算，说明按分子分母的阶数选择保留多少项低阶无穷小。"
+    },
+    {
+      "title": "高数.渐近线求法.断点分类与理解",
+      "url": "https://zhuanlan.zhihu.com/p/101999432",
+      "summary": "正文以函数趋于无穷或自变量趋于无穷时的极限，说明水平、垂直和斜渐近线的求法。"
+    },
+    {
+      "title": "同济第七版高数上册第一章速成学习",
+      "url": "https://zhuanlan.zhihu.com/p/102865830",
+      "summary": "正文通过无穷小阶的比较、夹逼定理、重要极限、等价无穷小和洛必达法则总结函数极限的计算方法。"
+    },
+    {
+      "title": "民科吧见闻录6(Part-B)——王为民方程和恒等式",
+      "url": "https://zhuanlan.zhihu.com/p/103371058",
+      "summary": "正文研究无限迭代幂次的极限，推导其存在范围并纠正把有界直接当作收敛的错误。"
+    },
+    {
+      "title": "民科吧见闻录6( Part-B续)——“王为民方程”的正确求解方式",
+      "url": "https://zhuanlan.zhihu.com/p/103816310",
+      "summary": "正文把无限迭代幂次定义为数列极限，并通过收敛性分析求出其定义域和值域。"
+    },
+    {
+      "title": "高等数学——导数的定义和常见导数",
+      "url": "https://zhuanlan.zhihu.com/p/105521280",
+      "summary": "正文通过割线斜率的极限和左右极限相等解释导数存在的条件，实质使用了极限计算。"
+    },
+    {
+      "title": "为什么我认为夹逼性是高等数学中的糟粕",
+      "url": "https://zhuanlan.zhihu.com/p/105702084",
+      "summary": "正文陈述并应用夹逼性，通过给复杂数列项寻找上下界并比较两端极限来计算目标极限。"
+    },
+    {
+      "title": "高等数学上册(微积分)必背公式总结",
+      "url": "https://zhuanlan.zhihu.com/p/106252437",
+      "summary": "正文用函数趋于无穷时的极限定义水平渐近线，并给出斜渐近线的极限计算条件。"
+    },
+    {
+      "title": "二元函数的连续、可偏导、可微、偏导数连续之间的关系",
+      "url": "https://zhuanlan.zhihu.com/p/108071470",
+      "summary": "正文计算原点处的二元函数极限，以极限不存在说明可偏导不能推出可微。"
+    },
+    {
+      "title": "高等数学——详解洛必达法则",
+      "url": "https://zhuanlan.zhihu.com/p/109612952",
+      "summary": "正文完整讲解洛必达法则的适用条件、证明和多阶使用，并用多个极限计算实例演示。"
+    },
+    {
+      "title": "【网红题？】来自表情包的一道极限计算题",
+      "url": "https://zhuanlan.zhihu.com/p/109768913",
+      "summary": "正文完整计算一个复合积分极限，讲解等价无穷小与洛必达法则的联合使用并得到结果 6。"
+    },
+    {
+      "title": "对二元函数的粗糙理解{连续，可微，可偏导（偏微分），各方向导数存在，偏导连续（连续可偏导）}",
+      "url": "https://zhuanlan.zhihu.com/p/107834536",
+      "summary": "正文给出二元函数重极限的ε-δ定义，并强调趋近点时可沿任意路径。"
+    },
+    {
+      "title": "负二项分布及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/111632687",
+      "summary": "正文具体计算负二项分布在参数趋于无穷时的逐项极限，并得到泊松分布的极限。"
+    },
+    {
+      "title": "民科吧见闻录21(Part A)——民科数学又翻车之渝中寿人",
+      "url": "https://zhuanlan.zhihu.com/p/109941423",
+      "summary": "正文通过指数对数变形和洛必达法则计算 n 的 n 次方根的极限。"
+    },
+    {
+      "title": "Gamma函数的那些事儿（1）——定义",
+      "url": "https://zhuanlan.zhihu.com/p/114041258",
+      "summary": "正文用函数列极限、控制收敛定理和积分极限交换推出 Gamma 函数的极限定义。"
+    },
+    {
+      "title": "【数学分析】离散的L'Hospital法则——Stolz定理",
+      "url": "https://zhuanlan.zhihu.com/p/114183826",
+      "summary": "正文用具体数列题引入 Stolz 定理，并展示差分比值求极限的方法。"
+    },
+    {
+      "title": "考研数学一之级数的极限的应用-stirling公式",
+      "url": "https://zhuanlan.zhihu.com/p/115063042",
+      "summary": "正文通过相邻项之差、渐近展开和夹挤定理证明相关数列的极限存在，并据此完成 Stirling 公式极限部分。"
+    },
+    {
+      "title": "洛必达法则的证明",
+      "url": "https://zhuanlan.zhihu.com/p/116897988",
+      "summary": "正文系统陈述洛必达法则的四种极限形式，并用恒等变形证明零比零型和无穷比无穷型极限。"
+    },
+    {
+      "title": "【高中数学笔记】导数的基础法则与推导",
+      "url": "https://zhuanlan.zhihu.com/p/125653790",
+      "summary": "正文利用夹逼关系专门证明正弦与自变量之比的极限。"
+    },
+    {
+      "title": "求零点过程中的找点问题（内点效应）",
+      "url": "https://zhuanlan.zhihu.com/p/129341012",
+      "summary": "正文在多道函数零点题中计算区间端点的单侧极限，并用这些极限选择内点进行放缩。"
+    },
+    {
+      "title": "夹逼准则题型的万能解法之一——三段乘积法",
+      "url": "https://zhuanlan.zhihu.com/p/133704948",
+      "summary": "正文以六类数列求和为例，讲解通过通式放缩和夹逼准则计算极限。"
+    },
+    {
+      "title": "单调有界准则考点的万能解法之一——数学归纳法",
+      "url": "https://zhuanlan.zhihu.com/p/134074488",
+      "summary": "正文通过求不动点和证明单调有界，计算递推数列的极限值。"
+    },
+    {
+      "title": "函数极限的最强解法——泰勒公式！！！",
+      "url": "https://zhuanlan.zhihu.com/p/137746002",
+      "summary": "正文以多道典型极限题展示泰勒公式法的计算过程，并与换元、因式分解和中值定理方法比较。"
+    },
+    {
+      "title": "一道关于重要极限e的极限题目",
+      "url": "https://zhuanlan.zhihu.com/p/137829714",
+      "summary": "正文通过反例说明不能分步代入极限，并用恒等变形和倒代换正确计算该极限。"
+    },
+    {
+      "title": "复分析(7)-解析函数零点的孤立性和孤立奇点",
+      "url": "https://zhuanlan.zhihu.com/p/137771563",
+      "summary": "正文用相关极限是否存在、是否有限非零来判别可去奇点、极点和本性奇点，并给出多道极限计算。"
+    },
+    {
+      "title": "用一个”栗子“讲清楚泊松分布",
+      "url": "https://zhuanlan.zhihu.com/p/139114702",
+      "summary": "正文令时间段数 n 趋向无穷，计算二项概率的极限，最终得到泊松分布公式。"
+    },
+    {
+      "title": "二重极限的最强解法——极坐标代换法！！！",
+      "url": "https://zhuanlan.zhihu.com/p/143541324",
+      "summary": "正文比较夹逼、泰勒和极坐标等方法，并逐题演示如何计算二重极限。"
+    },
+    {
+      "title": "泰勒公式求极限过程中的细节讨论！",
+      "url": "https://zhuanlan.zhihu.com/p/146366590",
+      "summary": "正文比较泰勒展开后分子分母的最低幂次，并据其次数关系讨论函数极限。"
+    },
+    {
+      "title": "函数形式的stolz定理",
+      "url": "https://zhuanlan.zhihu.com/p/148522636",
+      "summary": "正文给出函数形式 Stolz 定理的两种极限条件，并用若干例题计算无穷远处的比值极限。"
+    },
+    {
+      "title": "从自然常数e到电容充电的遐想",
+      "url": "https://zhuanlan.zhihu.com/p/149536512",
+      "summary": "正文利用n趋于无穷时的标准极限化简充电迭代式，得到e的负指数极限。"
+    },
+    {
+      "title": "在求极限（尤其涉及加减）时，无穷小替换的精确度问题",
+      "url": "https://zhuanlan.zhihu.com/p/149644676",
+      "summary": "正文围绕加减运算中无穷小替换是否安全，讨论极限的存在性与唯一性。"
+    },
+    {
+      "title": "无穷大的比较和应用！",
+      "url": "https://zhuanlan.zhihu.com/p/149589005",
+      "summary": "正文比较对数、幂、指数、阶乘等无穷大的阶，并用多种方法计算极限。"
+    },
+    {
+      "title": "移动平均(Moving Average)",
+      "url": "https://zhuanlan.zhihu.com/p/151786842",
+      "summary": "正文利用该极限计算指数移动平均的权重衰减阈值，从而推导有效滑动窗口。"
+    },
+    {
+      "title": "高中的微积分是怎么样的？",
+      "url": "https://zhuanlan.zhihu.com/p/157836098",
+      "summary": "正文用趋近过程解释函数极限，并给出重要极限、导数定义和定积分定义中的极限运算。"
+    },
+    {
+      "title": "极限求解-泰勒公式理解",
+      "url": "https://zhuanlan.zhihu.com/p/161843840",
+      "summary": "正文利用高阶无穷小运算规则以及分式、加减中的展开阶数原则来计算函数极限。"
+    },
+    {
+      "title": "kaysen学长：函数极限的超强笔记总结",
+      "url": "https://zhuanlan.zhihu.com/p/150685865",
+      "summary": "正文按未定式类型总结求极限的方法，并说明等价无穷小、洛必达法则、倒代换、泰勒公式和拉格朗日中值定理的选用场景。"
+    },
+    {
+      "title": "极限求解--递推型数列",
+      "url": "https://zhuanlan.zhihu.com/p/163143339",
+      "summary": "正文围绕递推数列说明先证极限存在再求值，并展开单调有界与压缩映射两种判据。"
+    },
+    {
+      "title": "单调有界准则",
+      "url": "https://zhuanlan.zhihu.com/p/164432930",
+      "summary": "正文说明单调有界准则通过证明数列或函数单调、有界来判定其极限存在。"
+    },
+    {
+      "title": "求极限方法总结",
+      "url": "https://zhuanlan.zhihu.com/p/176512439",
+      "summary": "正文按不定式类型系统归纳函数与数列极限的计算、化简和证明方法。"
+    },
+    {
+      "title": "由方程 x^x^x^x^ ... = 4 引发的讨论 —— 无穷迭代幂次大探险",
+      "url": "https://zhuanlan.zhihu.com/p/168578462",
+      "summary": "正文用单调有界准则证明迭代数列存在极限，再通过不动点方程计算其极限值。"
+    },
+    {
+      "title": "有限个极限运算及常见错误小结",
+      "url": "https://zhuanlan.zhihu.com/p/185039873",
+      "summary": "正文总结极限四则运算、无穷小替换和洛必达法则的适用条件，并用典型错例演示正确计算。"
+    },
+    {
+      "title": "洛必达法则“失效”情况举例与分析",
+      "url": "https://zhuanlan.zhihu.com/p/187367570",
+      "summary": "正文系统说明洛必达法则的适用条件，并通过多种求极限过程展示何时可转化为 0/0 或无穷/无穷。"
+    },
+    {
+      "title": "求极限的“通法框架”",
+      "url": "https://zhuanlan.zhihu.com/p/188533062",
+      "summary": "正文系统归纳七类未定式，讲解等价无穷小、泰勒展开和洛必达法则在求极限中的使用顺序与条件。"
+    },
+    {
+      "title": "数学书上的显然，到底是什么意思？",
+      "url": "https://zhuanlan.zhihu.com/p/194184336",
+      "summary": "正文明确陈述数列极限的代数性质，并用它论证连续函数的和与积仍连续。"
+    },
+    {
+      "title": "考研数学高数公式知识点整理",
+      "url": "https://zhuanlan.zhihu.com/p/200968718",
+      "summary": "正文整理等价无穷小、极限阶数、增长速度和洛必达适用条件等极限计算方法。"
+    },
+    {
+      "title": "2≠4",
+      "url": "https://zhuanlan.zhihu.com/p/179279978",
+      "summary": "正文用部分塔序列的极限定义无穷指数塔，并计算收敛临界值及其值域。"
+    },
+    {
+      "title": "分段估计（拟合法）的一些笔记",
+      "url": "https://zhuanlan.zhihu.com/p/212187920",
+      "summary": "正文把拟合法用于数列与积分极限证明，通过移项和近似变形把目标化为可与 ε-N 定义比较的形式。"
+    },
+    {
+      "title": "【自主招生】三道2020年清华大学强基计划数学题",
+      "url": "https://zhuanlan.zhihu.com/p/212269110",
+      "summary": "正文把 arctan 项裂成相邻差后相消，再求 n 趋于无穷时的极限。"
+    },
+    {
+      "title": "求极限：泰勒公式应展开到第几阶？",
+      "url": "https://zhuanlan.zhihu.com/p/219965285",
+      "summary": "正文通过展开不足、刚好和过度三种情况说明泰勒阶数如何消除未定式并确定极限值。"
+    },
+    {
+      "title": "某多重根号数列题的睿智和简洁解法",
+      "url": "https://zhuanlan.zhihu.com/p/225525873",
+      "summary": "正文证明嵌套根号数列单调递增，并通过构造上界说明其极限存在。"
+    },
+    {
+      "title": "【国际数学】数学基本符号介绍",
+      "url": "https://zhuanlan.zhihu.com/p/254963486",
+      "summary": "正文介绍极限记号、左右极限以及极限存在的条件。"
+    },
+    {
+      "title": "第二讲 数列的极限",
+      "url": "https://zhuanlan.zhihu.com/p/256419158",
+      "summary": "正文通过三个数列示例寻找与 ε 对应的 N，具体计算并证明相应极限。"
+    },
+    {
+      "title": "综合的极限计算：2021年杨树森考研数学试题 (1)",
+      "url": "https://zhuanlan.zhihu.com/p/257801319",
+      "summary": "正文通过换元 t=1/x 比较等价无穷小并确定幂次 n，完整演示了一道综合极限计算题。"
+    },
+    {
+      "title": "第三讲 数列极限及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/258105194",
+      "summary": "正文通过放缩和选取与 ε 相关的 N，具体计算并证明三个数列的极限。"
+    },
+    {
+      "title": "【高数向】N-ε，极限判定中的小放缩",
+      "url": "https://zhuanlan.zhihu.com/p/258370979",
+      "summary": "正文给出多个数列极限的完整计算，通过放缩和取 N 证明极限值。"
+    },
+    {
+      "title": "速学微积分(5/9) 洛必达法则",
+      "url": "https://zhuanlan.zhihu.com/p/259898001",
+      "summary": "正文系统讲解洛必达法则的条件和用法，并用多次求导计算具体极限。"
+    },
+    {
+      "title": "高等数学极限的运算-抓住那个大头！",
+      "url": "https://zhuanlan.zhihu.com/p/260066652",
+      "summary": "正文讲解“抓大头”极限计算方法，说明应比较并除以变化最快的部分。"
+    },
+    {
+      "title": "第五讲 无穷大和无穷小",
+      "url": "https://zhuanlan.zhihu.com/p/259893215",
+      "summary": "正文根据无穷大定义计算函数在趋近点处的极限，并证明其为无穷大。"
+    },
+    {
+      "title": "【普及向】数列中的“求导运算”——差分",
+      "url": "https://zhuanlan.zhihu.com/p/259254778",
+      "summary": "正文给出 Toeplitz 定理的 ε 证明，并由它推导 Stolz 定理和具体数列极限。"
+    },
+    {
+      "title": "第六讲 极限的运算法则",
+      "url": "https://zhuanlan.zhihu.com/p/261399947",
+      "summary": "正文系统讲解和、差、积、商及复合函数的极限运算法则，并用多类极限例题演示计算。"
+    },
+    {
+      "title": "(高等数学笔记）萌新也能理解的函数极限求法",
+      "url": "https://zhuanlan.zhihu.com/p/263039232",
+      "summary": "正文集中整理重要极限、等价无穷小、洛必达法则和换元等函数极限计算方法。"
+    },
+    {
+      "title": "第七讲 极限存在准则和两个重要极限",
+      "url": "https://zhuanlan.zhihu.com/p/264539009",
+      "summary": "正文讲解夹逼准则和单调有界准则，并用它们计算重要极限及相关例题。"
+    },
+    {
+      "title": "第八讲 无穷小阶的比较",
+      "url": "https://zhuanlan.zhihu.com/p/265518833",
+      "summary": "正文通过商极限定义高阶、同阶和等价无穷小，并用等价替换及多个实例计算极限。"
+    },
+    {
+      "title": "数学分析Mathematical Analysis笔记整理 第三章 极限与连续",
+      "url": "https://zhuanlan.zhihu.com/p/262934873",
+      "summary": "正文系统推导数列与函数极限的运算法则、夹逼定理、重要极限和多个极限计算实例。"
+    },
+    {
+      "title": "无限套娃-复合函数的泰勒展开式!",
+      "url": "https://zhuanlan.zhihu.com/p/265406322",
+      "summary": "正文以泰勒型和余项替代复杂函数，逐步计算含复合函数的零比零型极限。"
+    },
+    {
+      "title": "第九讲 函数的连续性与函数的间断点",
+      "url": "https://zhuanlan.zhihu.com/p/266045252",
+      "summary": "正文用双侧极限与左右极限定义连续，并据此判定间断点类型与证明保号邻域。"
+    },
+    {
+      "title": "第十讲 连续函数的运算",
+      "url": "https://zhuanlan.zhihu.com/p/266866159",
+      "summary": "正文利用极限四则运算和复合函数极限定理，系统讲解多类函数极限的计算方法。"
+    },
+    {
+      "title": "求极限（一）-根号篇",
+      "url": "https://zhuanlan.zhihu.com/p/172042416",
+      "summary": "正文通过共轭式、立方和差公式及有理化处理根式，具体计算多个分式极限。"
+    },
+    {
+      "title": "我的数分笔记（五）",
+      "url": "https://zhuanlan.zhihu.com/p/268618938",
+      "summary": "正文系统介绍数列极限性质，并证明四则运算法则、夹逼定理和使用放缩的多个极限计算例题。"
+    },
+    {
+      "title": "第十二讲 练习题",
+      "url": "https://zhuanlan.zhihu.com/p/268579603",
+      "summary": "正文通过九道例题展开极限计算，涵盖等价无穷小、重要极限、夹逼准则、连续性与零点定理。"
+    },
+    {
+      "title": "求极限（二）-三角函数篇",
+      "url": "https://zhuanlan.zhihu.com/p/269588285",
+      "summary": "正文多次把三角函数差式化为乘积，再用等价无穷小计算极限并证明正弦函数的连续性。"
+    },
+    {
+      "title": "第十三讲 导数的概念",
+      "url": "https://zhuanlan.zhihu.com/p/269604240",
+      "summary": "正文通过比较差商的左右极限判定绝对值函数在原点不可导。"
+    },
+    {
+      "title": "干货驾到，一篇文章带你彻底学会无求小求极限！",
+      "url": "https://zhuanlan.zhihu.com/p/276521337",
+      "summary": "正文用高阶与等价无穷小、代换和泰勒余项计算多组函数极限。"
+    },
+    {
+      "title": "第一天（20,11,08）：一个三角极限的处理",
+      "url": "https://zhuanlan.zhihu.com/p/279997488",
+      "summary": "正文通过三角函数周期性、有理化和等价无穷小逐步计算数列极限，并得到结果为 e 的 π/4 次方。"
+    },
+    {
+      "title": "第二天（20,11,09）：另一个三角极限的处理",
+      "url": "https://zhuanlan.zhihu.com/p/281993230",
+      "summary": "正文通过 e 的泰勒展开、三角周期性、等价无穷小和迫敛性逐步计算该数列极限。"
+    },
+    {
+      "title": "第六天（20,11,13）：这不显然？！",
+      "url": "https://zhuanlan.zhihu.com/p/292161667",
+      "summary": "正文纠正分步替换无穷小的错误，并通过倒代换和夹逼证明正确极限值。"
+    },
+    {
+      "title": "渣渣胡的数分笔记--含参变量积分（1）",
+      "url": "https://zhuanlan.zhihu.com/p/292895684",
+      "summary": "正文证明极限与含参积分可以交换次序，并用该结论计算参数趋于零时的积分极限。"
+    },
+    {
+      "title": "高斯积分在一元微积分学框架下的简单求法",
+      "url": "https://zhuanlan.zhihu.com/p/293404382",
+      "summary": "正文构造两侧积分估计，并求两端序列的极限后使用夹逼定理确定高斯积分的值。"
+    },
+    {
+      "title": "求极限：取对数的\"套路\"",
+      "url": "https://zhuanlan.zhihu.com/p/296376879",
+      "summary": "正文围绕取对数与等价无穷小系统讲解多类未定式极限的转化和计算方法，并给出完整例题。"
+    },
+    {
+      "title": "【不定期更新】一些有趣的高数题",
+      "url": "https://zhuanlan.zhihu.com/p/297826703",
+      "summary": "正文针对高频振荡函数，通过区间分割、积分估计和夹逼方法严格计算两类函数极限。"
+    },
+    {
+      "title": "自然常数 e 为什么冠以 “自然” 二字。",
+      "url": "https://zhuanlan.zhihu.com/p/301680334",
+      "summary": "正文通过概率试验和复利过程引出并计算含 n 趋于无穷的数列极限，说明其极限值趋近 e。"
+    },
+    {
+      "title": "我的数分笔记（八）",
+      "url": "https://zhuanlan.zhihu.com/p/289354600",
+      "summary": "正文结合放缩、四则运算、夹逼定理和变量代换讲解多类函数极限的计算与证明。"
+    },
+    {
+      "title": "考研数学小结论总结",
+      "url": "https://zhuanlan.zhihu.com/p/304687568",
+      "summary": "正文整理常用等价无穷小与多个极限结论，用于极限计算中的等价替换。"
+    },
+    {
+      "title": "数学分析Mathematical Analysis笔记整理 第五章 微分中值定理及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/309342056",
+      "summary": "正文系统讲解洛必达法则的适用类型、证明与例题，并将其用于极限计算。"
+    },
+    {
+      "title": "《高等数学》泰勒公式求极限-真香！",
+      "url": "https://zhuanlan.zhihu.com/p/313029383",
+      "summary": "正文将泰勒公式作为通用极限计算工具，并解释低阶项相消、高阶无穷小趋于零如何决定极限。"
+    },
+    {
+      "title": "高数重点笔记（一）--函数与极限",
+      "url": "https://zhuanlan.zhihu.com/p/320036823",
+      "summary": "正文汇总数列与函数极限、夹逼准则、单调有界准则、柯西准则及两个重要极限，并说明常用性质和判别方法。"
+    },
+    {
+      "title": "由一道极限题展开的",
+      "url": "https://zhuanlan.zhihu.com/p/322186567",
+      "summary": "正文介绍 Stolz 定理并用相邻项比值的极限计算给定数列极限。"
+    },
+    {
+      "title": "极限可拆问题",
+      "url": "https://zhuanlan.zhihu.com/p/323783657",
+      "summary": "正文通过拆分加减与乘除的实例说明极限四则运算的适用条件。"
+    },
+    {
+      "title": "第二十四天（20,12,01）：定积分的定义",
+      "url": "https://zhuanlan.zhihu.com/p/324639643",
+      "summary": "正文通过把两个含 n 项的和式化为 n→∞ 时的积分定义来计算极限。"
+    },
+    {
+      "title": "大学数学每日一题——微积分1204",
+      "url": "https://zhuanlan.zhihu.com/p/329727557",
+      "summary": "正文完整讲解该幂指函数极限的变形、换元与洛必达求导过程，并纠正直接代入重要极限的错误。"
+    },
+    {
+      "title": "第二十七天（20,12,04）：Wallis公式~",
+      "url": "https://zhuanlan.zhihu.com/p/330966600",
+      "summary": "正文以夹逼定理计算 Wallis 乘积的极限，展示了完整的极限计算过程。"
+    },
+    {
+      "title": "第二十八天（20,12,05）：Stirling公式~",
+      "url": "https://zhuanlan.zhihu.com/p/331906704",
+      "summary": "正文通过数列单调性、不等式和极限证明阶乘的 Stirling 渐近公式。"
+    },
+    {
+      "title": "无穷小的运算（包括阶运算等）与等价无穷小",
+      "url": "https://zhuanlan.zhihu.com/p/332476200",
+      "summary": "正文以极限比值定义无穷小的阶，证明阶运算规则，并说明等价无穷小替换如何用于求极限。"
+    },
+    {
+      "title": "第一章：函数零点问题● 洛必达法则",
+      "url": "https://zhuanlan.zhihu.com/p/334556675",
+      "summary": "正文讲解洛必达法则处理零比零和无穷比无穷型极限的条件，并用例子演示计算。"
+    },
+    {
+      "title": "常用的8种求极限方法（一）",
+      "url": "https://zhuanlan.zhihu.com/p/334811012",
+      "summary": "正文归纳基本极限、等价无穷小、有理运算和洛必达法则等求极限方法并配例题计算。"
+    },
+    {
+      "title": "留数法实现有理分式拆分原理",
+      "url": "https://zhuanlan.zhihu.com/p/336225471",
+      "summary": "正文在多组单根和重根例题中通过极限及洛必达法则求待定系数。"
+    },
+    {
+      "title": "反常积分判敛",
+      "url": "https://zhuanlan.zhihu.com/p/336954084",
+      "summary": "正文把反常积分的收敛与发散解释为积分求和所对应极限是否有限存在。"
+    },
+    {
+      "title": "高等数学16个二级结论(快速解题)",
+      "url": "https://zhuanlan.zhihu.com/p/339383584",
+      "summary": "正文汇列等价无穷小、幂指函数极限和常用极限结论，用于极限计算。"
+    },
+    {
+      "title": "微积分笔记12：积分计算和积分不等式预备知识和小结论",
+      "url": "https://zhuanlan.zhihu.com/p/340810047",
+      "summary": "正文把若干黎曼和化为定积分，用来计算对应的极限。"
+    },
+    {
+      "title": "海涅定理及其基本应用",
+      "url": "https://zhuanlan.zhihu.com/p/341981842",
+      "summary": "正文介绍海涅定理，并用数列子列判断函数极限的存在性、不存在性及若干求值例题，核心是极限计算与判定。"
+    },
+    {
+      "title": "微积分笔记13：一类极限问题的讨论",
+      "url": "https://zhuanlan.zhihu.com/p/342241100",
+      "summary": "正文归纳同一函数结构作差型极限题的四类处理方法，并比较拉格朗日中值定理、合并、泰勒和洛必达法则，属于极限计算方法总结。"
+    },
+    {
+      "title": "武汉大学2021年考研数学分析真题完整解答",
+      "url": "https://zhuanlan.zhihu.com/p/342395769",
+      "summary": "正文完整计算取对数后化为极限的数列或函数极限题，并运用等价无穷小和洛必达法则。"
+    },
+    {
+      "title": "匀速圆周运动向心加速度公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/342775656",
+      "summary": "正文用 sin x 与 x 等价替换的条件和反例，讲解无穷小替换及相应极限计算。"
+    },
+    {
+      "title": "离散化连续——一类递推数列估阶通法",
+      "url": "https://zhuanlan.zhihu.com/p/342641401",
+      "summary": "正文反复使用 Stolz 定理、拉格朗日中值定理与洛必达法则计算数列比值极限，并讨论适用条件。"
+    },
+    {
+      "title": "【分析】Riemann-Lebesgue引理及其推论",
+      "url": "https://zhuanlan.zhihu.com/p/343001932",
+      "summary": "正文以分割和一致估计证明振荡积分随参数趋于无穷而趋于零。"
+    },
+    {
+      "title": "复旦大学数学分析1期末考试卷解析",
+      "url": "https://zhuanlan.zhihu.com/p/344592100",
+      "summary": "正文利用带 Peano 余项的展开求复合极限，并据此反推参数与极限值。"
+    },
+    {
+      "title": "高数每日一题（1）与ln有关的一道常见极限题目",
+      "url": "https://zhuanlan.zhihu.com/p/345736678",
+      "summary": "正文通过开 b 次方转化极限，并用洛必达法则逐步计算趋于零的正幂乘对数极限。"
+    },
+    {
+      "title": "彻底理解傅里叶变换公式的推导",
+      "url": "https://zhuanlan.zhihu.com/p/345516688",
+      "summary": "正文通过令频率间隔趋于零的极限，将离散级数求和转化为连续积分。"
+    },
+    {
+      "title": "初学者求极限经典错误思路以及分析",
+      "url": "https://zhuanlan.zhihu.com/p/347525523",
+      "summary": "正文针对多个典型错误讲解无穷小、等价替换、幂指函数等问题的极限计算。"
+    },
+    {
+      "title": "考研数学：极限思维通俗解析水平/垂直/斜渐近线！",
+      "url": "https://zhuanlan.zhihu.com/p/347908462",
+      "summary": "正文用趋于无穷时曲线与渐近线的距离关系，给出水平、斜和垂直渐近线的极限判据。"
+    },
+    {
+      "title": "三大重要常数：π、e、欧拉常数的由来",
+      "url": "https://zhuanlan.zhihu.com/p/350972841",
+      "summary": "正文具体使用单调有界定理和夹逼定理计算圆周率及圆面积所涉及的数列极限。"
+    },
+    {
+      "title": "极限150题答案解析 第1-25题",
+      "url": "https://zhuanlan.zhihu.com/p/351536192",
+      "summary": "正文逐题给出极限的变形、等价代换或洛必达计算过程，系统训练极限计算。"
+    },
+    {
+      "title": "【高等数学】极限的概念和性质",
+      "url": "https://zhuanlan.zhihu.com/p/350844135",
+      "summary": "正文系统给出数列和函数极限的加减、乘法、除法与复合运算法则，并用这些法则计算极限。"
+    },
+    {
+      "title": "【概率论】浅析Poisson定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/352963273",
+      "summary": "正文通过两种方法计算二项概率关于试验次数的极限，得到 Poisson 概率。"
+    },
+    {
+      "title": "经济学篇5-效用函数分类（用CES统一CD,完全替代与完全互补）",
+      "url": "https://zhuanlan.zhihu.com/p/353206619",
+      "summary": "正文用洛必达法则计算 CES 效用函数在参数趋于零和负无穷时的极限，得到柯布-道格拉斯及里昂惕夫形式。"
+    },
+    {
+      "title": "二、4.“无穷/无穷”型洛必达法则的证明思路——区别于\"0/0\"型",
+      "url": "https://zhuanlan.zhihu.com/p/353515789",
+      "summary": "正文完整讨论无穷比无穷型洛必达法则，并通过柯西中值定理和极限估计完成计算与证明。"
+    },
+    {
+      "title": "极限150题答案解析 第26-50题",
+      "url": "https://zhuanlan.zhihu.com/p/353584261",
+      "summary": "正文逐题计算幂指函数、三角函数和无穷远处的极限，并使用洛必达法则与等价无穷小。"
+    },
+    {
+      "title": "三、2.不定积分及定积分换元法在使用时可能出现的几个问题及解答",
+      "url": "https://zhuanlan.zhihu.com/p/354932469",
+      "summary": "正文通过计算单侧极限确定跳跃间断的差值，并据此修补原函数或拆分定积分区间。"
+    },
+    {
+      "title": "【高等数学】极限存在准则  两个重要极限",
+      "url": "https://zhuanlan.zhihu.com/p/355228120",
+      "summary": "正文讲解夹逼准则、单调有界准则、柯西准则和两个重要极限，属于极限计算内容。"
+    },
+    {
+      "title": "【高等数学】无穷小和无穷大",
+      "url": "https://zhuanlan.zhihu.com/p/351824495",
+      "summary": "正文系统讲解无穷小与无穷大的定义、极限运算法则、渐近线和无穷小阶的比较。"
+    },
+    {
+      "title": "高等数学重难点——求极限（一）",
+      "url": "https://zhuanlan.zhihu.com/p/355663219",
+      "summary": "正文归纳连续点代入、四则运算法则和等价无穷小代换等函数极限计算方法。"
+    },
+    {
+      "title": "用Matlab解决一些数学问题",
+      "url": "https://zhuanlan.zhihu.com/p/356388941",
+      "summary": "正文用Matlab求函数在趋近于零时的极限，并展示符号计算结果。"
+    },
+    {
+      "title": "统计学最重要的2大定理与3种收敛的关系",
+      "url": "https://zhuanlan.zhihu.com/p/357320540",
+      "summary": "正文先复习数列的函数式极限定义，再用于解释随机变量序列的收敛。"
+    },
+    {
+      "title": "高中数学导数大题常用技巧——放缩浅谈（一）",
+      "url": "https://zhuanlan.zhihu.com/p/359071922",
+      "summary": "正文多次通过洛必达法则计算零比零型分式极限，并利用所得端点极限确定参数范围。"
+    },
+    {
+      "title": "函数极限不存在的证明方法（考虑一元、二元函数极限情形）",
+      "url": "https://zhuanlan.zhihu.com/p/361337157",
+      "summary": "正文通过海涅定理和具体反例讲解一元函数极限不存在的判断与计算。"
+    },
+    {
+      "title": "圆的面积公式和周长公式的详细推导",
+      "url": "https://zhuanlan.zhihu.com/p/362875127",
+      "summary": "正文利用正弦、余弦的重要极限和夹逼准则完成圆面积与周长公式的推导。"
+    },
+    {
+      "title": "含有绝对值和分数幂指数的函数可导性快速判别方法！",
+      "url": "https://zhuanlan.zhihu.com/p/364288180",
+      "summary": "正文用分子分母的无穷小阶数和差商极限判断零点处的导数是否存在。"
+    },
+    {
+      "title": "递推形式的数列极限求解方法大汇总",
+      "url": "https://zhuanlan.zhihu.com/p/364365982",
+      "summary": "正文系统汇总递推数列极限的求法，并用夹逼、单调有界和Stolz公式完成多个极限计算。"
+    },
+    {
+      "title": "亿道积分题(一)",
+      "url": "https://zhuanlan.zhihu.com/p/365044615",
+      "summary": "正文通过分段估计、夹逼和积分中值定理计算多个含积分的极限。"
+    },
+    {
+      "title": "操作拉满——拉格朗日中值定理求复杂极限！",
+      "url": "https://zhuanlan.zhihu.com/p/366733582",
+      "summary": "正文用拉格朗日中值定理和夹逼思想逐步计算五个复杂的零比零型极限。"
+    },
+    {
+      "title": "利用拉格朗日中值定理秒杀某些复杂极限问题（内含高级秒杀结论）",
+      "url": "https://zhuanlan.zhihu.com/p/368192940",
+      "summary": "正文把复合函数作差后的极限化为含中值点的商式，并用夹逼或等价关系确定该点后完成极限计算。"
+    },
+    {
+      "title": "专题七MATLAB符号计算",
+      "url": "https://zhuanlan.zhihu.com/p/369362805",
+      "summary": "正文给出符号极限的调用方式，并举例计算分式和自然对数型极限。"
+    },
+    {
+      "title": "记一道表情包题",
+      "url": "https://zhuanlan.zhihu.com/p/373782002",
+      "summary": "正文对分母含n趋于无穷的表达式连续分部积分并计算其极限为八分之一。"
+    },
+    {
+      "title": "投资中最重要的公式之——凯利公式",
+      "url": "https://zhuanlan.zhihu.com/p/375054959",
+      "summary": "正文令投资次数趋于无穷，并用盈损频率的极限得到长期增长率。"
+    },
+    {
+      "title": "“自然数幂和”计算的8种方法，从初等数学到高等数学",
+      "url": "https://zhuanlan.zhihu.com/p/375794611",
+      "summary": "正文使用 Stolz 定理逐层计算幂和多项式系数，并完整演示了多项极限计算。"
+    },
+    {
+      "title": "夹逼定理及其运用（个人笔记）",
+      "url": "https://zhuanlan.zhihu.com/p/383930850",
+      "summary": "正文通过构造上下界并令二者趋于同一值来计算复杂数列和式的极限。"
+    },
+    {
+      "title": "一道很难的高数极限概念题，你能做对么？",
+      "url": "https://zhuanlan.zhihu.com/p/384403264",
+      "summary": "正文以内层函数可能反复取到极限值为例，分析复合函数的极限何时存在以及如何计算。"
+    },
+    {
+      "title": "极限语言释义",
+      "url": "https://zhuanlan.zhihu.com/p/381826559",
+      "summary": "正文通过寻找阈值 N 和应用函数极限定义，具体计算并证明两个极限。"
+    },
+    {
+      "title": "Stolz定理及其证明",
+      "url": "https://zhuanlan.zhihu.com/p/390083266",
+      "summary": "正文陈述 Stolz 定理，并给出由差商极限计算商数列极限的完整证明。"
+    },
+    {
+      "title": "等价无穷小替换的本质",
+      "url": "https://zhuanlan.zhihu.com/p/390403630",
+      "summary": "正文讨论极限四则运算法则的适用前提，说明原极限存在时等价无穷小替换的约分解释。"
+    },
+    {
+      "title": "2020年-清华大学-高数上期中考试题及解析",
+      "url": "https://zhuanlan.zhihu.com/p/391274556",
+      "summary": "正文通过等价无穷小、换底取对数、通分和洛必达法则计算多道函数极限与数列极限题。"
+    },
+    {
+      "title": "通过极限判断二元函数极值的题型--秒杀小结论（附带880，1000，1800相关例题）",
+      "url": "https://zhuanlan.zhihu.com/p/393246756",
+      "summary": "正文由二元函数商的极限及其保号性推导极值类型之间的关系。"
+    },
+    {
+      "title": "[函数极限连续]你真的懂极限四则运算法则了吗？",
+      "url": "https://zhuanlan.zhihu.com/p/393677049",
+      "summary": "正文系统证明极限加减乘除的运算法则，并讨论极限拆分条件及未定式情形的计算方法。"
+    },
+    {
+      "title": "那些年，我做过的极限题",
+      "url": "https://zhuanlan.zhihu.com/p/392541623",
+      "summary": "正文连续计算十五道函数与数列极限，综合演示夹逼、等价无穷小和取对数等方法。"
+    },
+    {
+      "title": "秒杀判断某些二元函数的连续，可偏导，可微问题+秒求出某类二元函数极限的结论",
+      "url": "https://zhuanlan.zhihu.com/p/395482784",
+      "summary": "正文根据指数比较判断二元极限存在或不存在，并给出三类极限结论及其推导。"
+    },
+    {
+      "title": "民科吧见闻录11(Part P) ——数学系毕业的郭德胜成了数学民科",
+      "url": "https://zhuanlan.zhihu.com/p/397443992",
+      "summary": "正文用十进制部分和的极限说明逐项小于 1 不能推出其极限仍小于 1。"
+    },
+    {
+      "title": "数列极限方法篇（一）——海涅定理（精巧版）",
+      "url": "https://zhuanlan.zhihu.com/p/398138312",
+      "summary": "正文讲解用任意收敛数列刻画函数极限的海涅定理，并用换元把它用于求数列极限。"
+    },
+    {
+      "title": "随机树的直径：最遥远的彼方真的遥不可及吗？",
+      "url": "https://zhuanlan.zhihu.com/p/398621082",
+      "summary": "正文通过 Stolz–Cesàro 定理估计递推序列的渐近极限，用于后续围道积分分析。"
+    },
+    {
+      "title": "某数学群的入群题解析",
+      "url": "https://zhuanlan.zhihu.com/p/399290404",
+      "summary": "正文综合使用夹逼定理、拉格朗日中值定理和 Stolz 定理计算数列极限。"
+    },
+    {
+      "title": "极限150题答案解析 第101-125题",
+      "url": "https://zhuanlan.zhihu.com/p/399166670",
+      "summary": "文章系统计算有理式、根式与数列的极限，并用等价无穷小说明求解过程。"
+    },
+    {
+      "title": "民科吧见闻录11(Part Q)——郭德胜的数学笑话合集",
+      "url": "https://zhuanlan.zhihu.com/p/399863544",
+      "summary": "正文通过有限部分和取极限说明循环小数所对应级数的极限为1。"
+    },
+    {
+      "title": "2018年上海交通大学第一学期高数A类期末考试题及答案解析",
+      "url": "https://zhuanlan.zhihu.com/p/400346951",
+      "summary": "正文通过洛必达法则和等价无穷小计算变上限积分之比的极限，并据此确定等价无穷小的阶与系数。"
+    },
+    {
+      "title": "数学技巧篇32：二元函数极限的几种求法",
+      "url": "https://zhuanlan.zhihu.com/p/403503934",
+      "summary": "正文通过定义、连续性、重要极限、等价无穷小和夹逼准则系统讲解二元函数极限的求法。"
+    },
+    {
+      "title": "20210826 一道极限中档题",
+      "url": "https://zhuanlan.zhihu.com/p/403900456",
+      "summary": "正文完整计算含 n 项和的幂数列极限，并通过取对数转化为差式极限。"
+    },
+    {
+      "title": "单调有界定理的解题思路及技巧总结",
+      "url": "https://zhuanlan.zhihu.com/p/405423336",
+      "summary": "正文以单调有界定理为主线，系统整理递推数列极限存在性证明和极限值计算。"
+    },
+    {
+      "title": "最详细的指数函数求导证明（之一）",
+      "url": "https://zhuanlan.zhihu.com/p/411780503",
+      "summary": "正文通过指数对数变换与洛必达法则计算与自然常数 e 相关的函数极限。"
+    },
+    {
+      "title": "函数求极限的通用大杀器——泰勒公式",
+      "url": "https://zhuanlan.zhihu.com/p/412006280",
+      "summary": "正文以泰勒展开统一处理函数极限，并说明展开阶数和皮亚诺余项如何决定计算精度。"
+    },
+    {
+      "title": "大学数学竞赛打卡-Day1.极限、压缩映射、参数方程、渐近线",
+      "url": "https://zhuanlan.zhihu.com/p/413804877",
+      "summary": "正文用夹逼准则、等价无穷小和洛必达法则计算数列与函数的多组极限。"
+    },
+    {
+      "title": "§微分学：等价无穷代换",
+      "url": "https://zhuanlan.zhihu.com/p/417671194",
+      "summary": "正文列举常用等价无穷小与无穷大，并通过极限约分、代换、迭代和洛必达等规则及例题讲解极限计算。"
+    },
+    {
+      "title": "高阶无穷小 ，低阶无穷小，同阶无穷小，等价无穷小",
+      "url": "https://zhuanlan.zhihu.com/p/418871855",
+      "summary": "正文以趋零速度定义高阶、低阶、同阶和等价无穷小，并给出 sin x 与 ln(1+x) 等极限代换示例。"
+    },
+    {
+      "title": "Stirling(斯特林)公式",
+      "url": "https://zhuanlan.zhihu.com/p/418089606",
+      "summary": "正文借助 Wallis 公式计算趋于无穷的乘积极限，确定常数并推出斯特林公式。"
+    },
+    {
+      "title": "【高数笔记】利用ε-δ语言证明函数极限",
+      "url": "https://zhuanlan.zhihu.com/p/419308124",
+      "summary": "正文通过放缩函数值误差找到合适的 δ，分别证明有限点处和趋于无穷时的具体函数极限。"
+    },
+    {
+      "title": "保研面试/考研复试高等数学问题整理",
+      "url": "https://zhuanlan.zhihu.com/p/421169592",
+      "summary": "正文单列函数极限与数列极限，并用极限定义函数在一点连续。"
+    },
+    {
+      "title": "上下极限的定义与基本性质",
+      "url": "https://zhuanlan.zhihu.com/p/421598260",
+      "summary": "正文定义数列的上极限和下极限，并通过两者相等给出数列收敛的判定方法。"
+    },
+    {
+      "title": "2021-2022丘成桐数学领军计划一试试题解答(分析部分)",
+      "url": "https://zhuanlan.zhihu.com/p/422457200",
+      "summary": "正文完整计算含参数的积分极限，并通过拆项、估计和求极限得到结果。"
+    },
+    {
+      "title": "利用等价无穷小解决一些简单极限",
+      "url": "https://zhuanlan.zhihu.com/p/421600292",
+      "summary": "正文证明多组等价无穷小替换，并用它们系统计算三角、指数、对数及幂指型函数的极限。"
+    },
+    {
+      "title": "一些极限的技巧与易错题",
+      "url": "https://zhuanlan.zhihu.com/p/423807417",
+      "summary": "正文系统整理取对数、等价无穷小、反向换元和创造分母等方法，并用于大量函数极限计算。"
+    },
+    {
+      "title": "变限积分相关题型笔记总结（概念+计算）",
+      "url": "https://zhuanlan.zhihu.com/p/423768372",
+      "summary": "正文讲解含变限积分的未定式极限，通过洛必达法则转化为变限积分求导后计算。"
+    },
+    {
+      "title": "方向导数存在时偏导数却可能不存在",
+      "url": "https://zhuanlan.zhihu.com/p/430125622",
+      "summary": "正文分别计算左右极限得到 1 和 -1，据此判定 |t|/t 在零点双侧极限不存在。"
+    },
+    {
+      "title": "2020年11月杭州电子科技大学高数B期中试题及解析",
+      "url": "https://zhuanlan.zhihu.com/p/431733770",
+      "summary": "正文通过等价无穷小、指数化和极限四则运算具体计算多个极限。"
+    },
+    {
+      "title": "微积分-每日一题（9）",
+      "url": "https://zhuanlan.zhihu.com/p/432278856",
+      "summary": "正文连续使用等价无穷小和有理化计算含三角函数与对数的分式极限，并强调符号易错点。"
+    },
+    {
+      "title": "2021年11月四川大学高数期中试题及解析",
+      "url": "https://zhuanlan.zhihu.com/p/432208750",
+      "summary": "试题解析用等价无穷小和高阶余项展开逐项计算分子分母，求得指定函数极限。"
+    },
+    {
+      "title": "关于第十三届全国大学生数学竞赛(非数)的分析",
+      "url": "https://zhuanlan.zhihu.com/p/432806758",
+      "summary": "正文给出该极限的逐步计算，并利用对数差与等价关系化为可直接求值的极限。"
+    },
+    {
+      "title": "第十三届CMC全国大学生数学竞赛（非数学类）试题及答案解析",
+      "url": "https://zhuanlan.zhihu.com/p/432819737",
+      "summary": "正文逐步说明该无穷极限的代数变形，并由对数函数连续性得到结果。"
+    },
+    {
+      "title": "经济学里的CES函数",
+      "url": "https://zhuanlan.zhihu.com/p/432478923",
+      "summary": "正文推导 CES 函数在不同替代弹性下的退化形态，具体使用放缩、夹逼定理和对数极限完成极限计算。"
+    },
+    {
+      "title": "关于南大2021某数分期中压轴题",
+      "url": "https://zhuanlan.zhihu.com/p/435834400",
+      "summary": "正文证明幂级数系数算术平均趋于 1，并通过所选 x_N 把结论化为目标极限。"
+    },
+    {
+      "title": "极限篇（二）利用定积分的定义求极限",
+      "url": "https://zhuanlan.zhihu.com/p/435827613",
+      "summary": "正文把 n 项和改写为左端黎曼和并计算 n 趋于无穷的极限。"
+    },
+    {
+      "title": "2021年11月杭州电子科技大学高数A期中试题及解析",
+      "url": "https://zhuanlan.zhihu.com/p/436372985",
+      "summary": "正文用无穷小与有界量性质、等价无穷小、夹逼定理和代数变形计算多道极限题。"
+    },
+    {
+      "title": "常用的8种求极限方法（二）",
+      "url": "https://zhuanlan.zhihu.com/p/437139350",
+      "summary": "正文系统讲解夹逼、单调有界和积分离散化等求极限方法并配合例题演算。"
+    },
+    {
+      "title": "卓里奇《数学分析》习题（第一、二、三章）",
+      "url": "https://zhuanlan.zhihu.com/p/438175318",
+      "summary": "正文利用对数不等式和单调有界准则证明调和和与对数之差收敛，并讨论多种数列极限。"
+    },
+    {
+      "title": "matlab拯救高数",
+      "url": "https://zhuanlan.zhihu.com/p/439775517",
+      "summary": "正文列举单侧极限、参数极限和数列极限的具体计算及结果。"
+    },
+    {
+      "title": "2022数一合工大超越五套卷总结",
+      "url": "https://zhuanlan.zhihu.com/p/441419573",
+      "summary": "正文推广根式极限并用最大项放缩和区间压缩说明极限求法。"
+    },
+    {
+      "title": "计算圆周率，凡人用一生，天才只用一个小时",
+      "url": "https://zhuanlan.zhihu.com/p/444281349",
+      "summary": "正文在倍角公式的迭代推导中对项数取极限，说明极限是把有限步骤过渡到无穷乘积的关键。"
+    },
+    {
+      "title": "高数（上）期末模拟试卷及解析（第二套）",
+      "url": "https://zhuanlan.zhihu.com/p/441318559",
+      "summary": "正文通过代数化简和等价变形完整计算了该无穷远处的函数极限。"
+    },
+    {
+      "title": "微积分练习10题（普通高校大一期末考难度）",
+      "url": "https://zhuanlan.zhihu.com/p/447636570",
+      "summary": "正文逐题求解多种函数极限，并使用指数化、等价无穷小、洛必达法则和中值定理完成计算。"
+    },
+    {
+      "title": "复旦大学2021-2022秋季学期高数A（上）压轴题",
+      "url": "https://zhuanlan.zhihu.com/p/454773051",
+      "summary": "正文利用单调性和反证法计算函数在正负无穷处的极限。"
+    },
+    {
+      "title": "2021年12月29日清华大学本科生微积分考试",
+      "url": "https://zhuanlan.zhihu.com/p/455199100",
+      "summary": "正文计算函数趋于无穷时的斜渐近线，并用黎曼和、等价无穷小等方法求若干极限。"
+    },
+    {
+      "title": "一类关于极限的加边问题",
+      "url": "https://zhuanlan.zhihu.com/p/456417660",
+      "summary": "正文以定积分黎曼和为基准构造加边极限，推导误差的一阶估阶并用于多个极限计算。"
+    },
+    {
+      "title": "2022年1月13日中国科学技术大学2021年秋季学期数学分析B1期末考试题",
+      "url": "https://zhuanlan.zhihu.com/p/456963180",
+      "summary": "正文用洛必达法则、取对数和黎曼和等方法计算多道函数极限与数列极限。"
+    },
+    {
+      "title": "压缩映射原理",
+      "url": "https://zhuanlan.zhihu.com/p/458151225",
+      "summary": "正文用夹逼准则估计迭代误差并证明数列极限，具体展开了极限存在性的计算。"
+    },
+    {
+      "title": "几类贝塞尔(Bessel)函数的常用渐近展开及推导",
+      "url": "https://zhuanlan.zhihu.com/p/461886640",
+      "summary": "正文逐类推导贝塞尔相关函数在 x 趋于 0 和无穷时的最低阶极限与渐近展开。"
+    },
+    {
+      "title": "从更高的角度看待高中导数（理解篇）（一）",
+      "url": "https://zhuanlan.zhihu.com/p/463052525",
+      "summary": "正文通过具体函数解释双侧极限、左右极限及极限不存在的震荡情形，属于对极限计算基础的讲解。"
+    },
+    {
+      "title": "等价无穷小代换与泰勒公式",
+      "url": "https://zhuanlan.zhihu.com/p/463481171",
+      "summary": "正文用具体极限例子说明等价无穷小代换及其在加减情形中失效的原因与修正。"
+    },
+    {
+      "title": "高中生能学懂的微积分",
+      "url": "https://zhuanlan.zhihu.com/p/464522759",
+      "summary": "正文从平均速度过渡到瞬时速度，并用极限定义示范计算函数极限。"
+    },
+    {
+      "title": "导数-常用导数 推导",
+      "url": "https://zhuanlan.zhihu.com/p/464253616",
+      "summary": "正文反复使用导数定义中的极限、等价无穷小和重要极限完成各基本函数的极限计算。"
+    },
+    {
+      "title": "高等数学知识点回顾（上册）",
+      "url": "https://zhuanlan.zhihu.com/p/467583784",
+      "summary": "正文系统回顾数列极限的 ε-N 定义、夹逼准则、单调有界准则、柯西准则及常见等价无穷小。"
+    },
+    {
+      "title": "自然常数 e 的定义",
+      "url": "https://zhuanlan.zhihu.com/p/469223561",
+      "summary": "正文证明数列极限存在，并用夹逼定理处理趋于正负无穷时的函数极限。"
+    },
+    {
+      "title": "从更高的角度看待高中导数（理解篇）（二）",
+      "url": "https://zhuanlan.zhihu.com/p/467165224",
+      "summary": "正文讲解趋于无穷时的函数极限、水平渐近线和夹挤定理，并用不等式证明具体极限。"
+    },
+    {
+      "title": "泰勒展开精度不够的数学本质",
+      "url": "https://zhuanlan.zhihu.com/p/476507798",
+      "summary": "正文围绕分式极限说明泰勒展开需保留到何种阶数，并给出展开不足与展开充分的具体计算。"
+    },
+    {
+      "title": "高等数学知识点回顾（下册）（1）",
+      "url": "https://zhuanlan.zhihu.com/p/476956752",
+      "summary": "正文定义二重极限，并说明沿不同路径趋近可用来说明多元函数极限不存在。"
+    },
+    {
+      "title": "微积分入门——积分入门",
+      "url": "https://zhuanlan.zhihu.com/p/481027124",
+      "summary": "正文用矩形数量趋于无穷时的面积和极限解释定积分，并以极限得到抛物线面积的精确值。"
+    },
+    {
+      "title": "证明数列极限存在的方法大总结",
+      "url": "https://zhuanlan.zhihu.com/p/486061359",
+      "summary": "正文总结夹逼准则、单调有界准则和压缩映射等方法，用于判断并证明数列极限存在。"
+    },
+    {
+      "title": "《答疑总结》| 等价无穷小到底啥时候才能替换？",
+      "url": "https://zhuanlan.zhihu.com/p/488573285",
+      "summary": "正文围绕极限四则运算法则区分何时可拆项、代入，并分析等价无穷小替换的条件。"
+    },
+    {
+      "title": "高数常用公式",
+      "url": "https://zhuanlan.zhihu.com/p/488813794",
+      "summary": "正文列出常用函数极限、数列极限和等价无穷小公式。"
+    },
+    {
+      "title": "一道“网红”题目错因的辨析",
+      "url": "https://zhuanlan.zhihu.com/p/488589379",
+      "summary": "正文用极限四则运算定理解释一道极限错解，辨析拆项与等价替换为何不合法。"
+    },
+    {
+      "title": "每日一题:两道数学分析,一道高等代数",
+      "url": "https://zhuanlan.zhihu.com/p/500007672",
+      "summary": "正文以有界数列和极限条件为对象，用上下极限计算证明该数列极限为零。"
+    },
+    {
+      "title": "P大 2022 某班复变函数期中考试题解",
+      "url": "https://zhuanlan.zhihu.com/p/503233998",
+      "summary": "正文用控制收敛定理证明含参围道积分的极限为零，并讨论相关复分析极限。"
+    },
+    {
+      "title": "自然常数e是怎么来的？",
+      "url": "https://zhuanlan.zhihu.com/p/503503589",
+      "summary": "正文逐一说明趋近、无穷大和极限值，并用不同复利拆分频次的计算展示序列的趋近过程。"
+    },
+    {
+      "title": "求二重极限时, 极坐标代换究竟该怎么用?",
+      "url": "https://zhuanlan.zhihu.com/p/503998713",
+      "summary": "正文通过错解、反例和练习题具体计算并判定二重极限。"
+    },
+    {
+      "title": "第一届Integration Bee积分大赛初赛试题解答",
+      "url": "https://zhuanlan.zhihu.com/p/507330365",
+      "summary": "正文将和式极限化为定积分后计算，具体展示了极限与积分的联系。"
+    },
+    {
+      "title": "考研数学中的一些非典型公式定理整理（持续更新）",
+      "url": "https://zhuanlan.zhihu.com/p/510394533",
+      "summary": "正文用定积分定义和夹逼方法计算多个典型数列极限。"
+    },
+    {
+      "title": "讲透泰勒公式，让你成为高手！",
+      "url": "https://zhuanlan.zhihu.com/p/508226290",
+      "summary": "正文连续使用洛必达法则计算差商的极限，从而证明带皮亚诺余项的n阶泰勒展开。"
+    },
+    {
+      "title": "大学数学竞赛#2-Riemann引理及其应用（积分极限、无穷级数）",
+      "url": "https://zhuanlan.zhihu.com/p/515221628",
+      "summary": "正文通过分割、积分估计和渐近阶分析计算 Riemann 型积分极限。"
+    },
+    {
+      "title": "2021四川大学数学竞赛试题选讲（非数组）",
+      "url": "https://zhuanlan.zhihu.com/p/516454826",
+      "summary": "正文计算对数求和随 n 增大的极限，并通过渐近展开确定极限值及高阶误差项。"
+    },
+    {
+      "title": "无穷小与高阶无穷小的解读——函数与函数族",
+      "url": "https://zhuanlan.zhihu.com/p/516545395",
+      "summary": "正文以函数在自变量趋近某点或无穷大时的极限定义无穷小，并据此展开极限计算。"
+    },
+    {
+      "title": "数学揭秘：玄之又玄的自然底数e为何神奇又“自然”？",
+      "url": "https://zhuanlan.zhihu.com/p/518345382",
+      "summary": "正文通过对极限式作有界性和单调性估计，证明 e 的定义极限存在并完成求极限过程。"
+    },
+    {
+      "title": "2022年四川大学数学竞赛题目解析（非数组）",
+      "url": "https://zhuanlan.zhihu.com/p/521223193",
+      "summary": "正文连续计算多个 x 趋于 0 的函数极限，并具体使用等价无穷小、洛必达法则和泰勒展开。"
+    },
+    {
+      "title": "0/0型Stolz公式的证明",
+      "url": "https://zhuanlan.zhihu.com/p/523876885",
+      "summary": "正文证明 0/0 型 Stolz 公式，把相邻差商的极限转化为原数列之比的极限，给出一种具体极限计算方法。"
+    },
+    {
+      "title": "同济版高等数学知识点回顾（上册）",
+      "url": "https://zhuanlan.zhihu.com/p/526041629",
+      "summary": "正文给出数列极限的 ε-N 定义、夹逼准则和单调有界准则，并列举等价无穷小。"
+    },
+    {
+      "title": "连续与可导的关系",
+      "url": "https://zhuanlan.zhihu.com/p/526678039",
+      "summary": "正文利用差商极限和极限乘积等极限运算，完成可导推出连续的证明。"
+    },
+    {
+      "title": "无伤速通高中数学之导数（一）：浅谈分离参数的进阶应用",
+      "url": "https://zhuanlan.zhihu.com/p/527108348",
+      "summary": "正文把分参后的端点极限与洛必达法则作为确定函数根和零点分布的计算方法。"
+    },
+    {
+      "title": "Figalli不等式的最优系数",
+      "url": "https://zhuanlan.zhihu.com/p/527629757",
+      "summary": "正文令参数趋于1的正侧并取极限，从最优性比较式中得到系数下界2n。"
+    },
+    {
+      "title": "考研高数丨连续，可导，可微，导函数连续，条件总结",
+      "url": "https://zhuanlan.zhihu.com/p/536794763",
+      "summary": "正文用去心邻域和左右极限相等说明一元函数极限存在的条件，并进一步联系连续性。"
+    },
+    {
+      "title": "一类与平均值有关的n重积分极限问题（上）",
+      "url": "https://zhuanlan.zhihu.com/p/536979529",
+      "summary": "正文计算四类平均值对应的极限，并用区域划分、放缩和积分换序证明收敛结论。"
+    },
+    {
+      "title": "无理数的有理逼近及其应用（2）——无理测度简介",
+      "url": "https://zhuanlan.zhihu.com/p/538359524",
+      "summary": "正文利用有理逼近误差界夹逼 sin n、tan n 等表达式，并计算相应极限。"
+    },
+    {
+      "title": "《高等数学表情包全解全析》",
+      "url": "https://zhuanlan.zhihu.com/p/539848700",
+      "summary": "正文通过换元、等价无穷小和指数型极限计算第一则表情包中的极限。"
+    },
+    {
+      "title": "大小圆弧/Jordan引理-复变函数笔记",
+      "url": "https://zhuanlan.zhihu.com/p/546412110",
+      "summary": "正文用洛必达法则计算大圆弧积分证明中的复指数衰减极限，并说明极限交换条件。"
+    },
+    {
+      "title": "【数学分析笔记】9.2 上极限和下极限",
+      "url": "https://zhuanlan.zhihu.com/p/549977785",
+      "summary": "正文系统讨论数列上极限、下极限的定义、运算和收敛判据，属于极限的计算与性质分析。"
+    },
+    {
+      "title": "20220804 一道原创七夕组合题",
+      "url": "https://zhuanlan.zhihu.com/p/549599032",
+      "summary": "正文分别用夹逼、洛必达法则和等价无穷小计算多个极限，最终组合得到题目答案。"
+    },
+    {
+      "title": "《数学分析》55 四种余项的泰勒公式及其证明",
+      "url": "https://zhuanlan.zhihu.com/p/550513650",
+      "summary": "正文使用连续洛必达法则计算余项商的极限，从而证明佩亚诺余项。"
+    },
+    {
+      "title": "高数技巧 | 七种未定型极限的计算",
+      "url": "https://zhuanlan.zhihu.com/p/553569134",
+      "summary": "正文分类讲解七种未定式极限，并系统给出洛必达、等价无穷小、有理化和中值定理等计算方法。"
+    },
+    {
+      "title": "什么是微积分",
+      "url": "https://zhuanlan.zhihu.com/p/555504130",
+      "summary": "正文以芝诺悖论和无穷小危机解释极限的静态逼近含义，并用极限统一说明微分和积分。"
+    },
+    {
+      "title": "我的三个猜想",
+      "url": "https://zhuanlan.zhihu.com/p/558930604",
+      "summary": "正文讨论积分渐近比的极限存在性，并给出该极限的计算结果。"
+    },
+    {
+      "title": "函数的间断点种类及其判断",
+      "url": "https://zhuanlan.zhihu.com/p/562120799",
+      "summary": "正文以单侧极限是否存在、是否相等为判据，系统分类并判定函数的可去、跳跃、无穷和振荡间断点。"
+    },
+    {
+      "title": "考研数学高分的归纳总结——大道至简！",
+      "url": "https://zhuanlan.zhihu.com/p/565017049",
+      "summary": "正文把函数极限、数列极限及相关性质列为核心概念，并用二重极限和路径反例说明极限计算。"
+    },
+    {
+      "title": "高数笔记（求极限——总结）",
+      "url": "https://zhuanlan.zhihu.com/p/566281201",
+      "summary": "正文归纳洛必达、等价无穷小等多种方法，并说明如何处理不同类型的极限。"
+    },
+    {
+      "title": "泰勒展开还在出错？一招搞定！！！",
+      "url": "https://zhuanlan.zhihu.com/p/566237566",
+      "summary": "正文通过多个分子型极限题展示怎样用展开后的多项式化简并计算极限。"
+    },
+    {
+      "title": "Stolz定理及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/567822910",
+      "summary": "正文陈述并证明 Stolz 定理的两种不定式情形，随后用它计算均值、加权均值和和式比等多类数列极限。"
+    },
+    {
+      "title": "第一类Bessel函数的渐近展开",
+      "url": "https://zhuanlan.zhihu.com/p/567495915",
+      "summary": "正文以 |z| 趋于无穷时的渐近行为为目标，通过反常积分、二项式展开和余项估计推出 Bessel 函数渐近级数。"
+    },
+    {
+      "title": "泰勒公式的推导过程",
+      "url": "https://zhuanlan.zhihu.com/p/574448480",
+      "summary": "正文通过等价无穷小和逐次求极限确定泰勒系数，展示了极限计算与洛必达法则的应用。"
+    },
+    {
+      "title": "极值分布与广义极值分布（GEV）",
+      "url": "https://zhuanlan.zhihu.com/p/576922526",
+      "summary": "正文通过标准极限推导形状参数趋于零时 GEV 分布化为 Gumbel 分布，展开极限计算。"
+    },
+    {
+      "title": "数分I期中考试题",
+      "url": "https://zhuanlan.zhihu.com/p/581363721",
+      "summary": "正文集中计算数列与函数极限，展示有理化、等价量和级数等方法。"
+    },
+    {
+      "title": "极限存在的充要条件",
+      "url": "https://zhuanlan.zhihu.com/p/584967248",
+      "summary": "正文以左右极限、子列收敛、海涅定理等充要条件判别并计算函数和数列极限。"
+    },
+    {
+      "title": "新极限50题（大部分题目的解答）",
+      "url": "https://zhuanlan.zhihu.com/p/586690138",
+      "summary": "正文集中处理数列、积分和函数极限，涉及夹挤、Stolz定理、控制收敛及一致逼近等方法。"
+    },
+    {
+      "title": "斐波那契数列（Fibonacci sequence）及相关结论",
+      "url": "https://zhuanlan.zhihu.com/p/588439015",
+      "summary": "正文利用通项公式计算相邻项比值的极限，并推导其等于黄金分割比。"
+    },
+    {
+      "title": "瓦里斯(Wallis)公式和斯特林(Stirling)公式",
+      "url": "https://zhuanlan.zhihu.com/p/592186859",
+      "summary": "正文通过极限、比值判据和夹逼关系推导阶乘的斯特林渐近公式。"
+    },
+    {
+      "title": "（数分笔记）重极限和累次极限",
+      "url": "https://zhuanlan.zhihu.com/p/592210837",
+      "summary": "正文以多组二元函数反例系统比较重极限与两个累次极限的存在关系。"
+    },
+    {
+      "title": "数分I期末考试题",
+      "url": "https://zhuanlan.zhihu.com/p/594887144",
+      "summary": "正文选取积分的主要贡献区间并作二次近似，据此计算含参数积分的渐近极限。"
+    },
+    {
+      "title": "高中导数：从入门进阶为入土",
+      "url": "https://zhuanlan.zhihu.com/p/600452142",
+      "summary": "正文整节介绍洛必达法则用于零比零与无穷比无穷型不定式极限，并用参数不等式例题演示极限计算。"
+    },
+    {
+      "title": "多伦多大学积分大赛试题",
+      "url": "https://zhuanlan.zhihu.com/p/600859091",
+      "summary": "正文首题计算含参数积分的极限，并引用黎曼－勒贝格引理完成极限化简。"
+    },
+    {
+      "title": "【回归本源】给微积分入门者的小记",
+      "url": "https://zhuanlan.zhihu.com/p/609087301",
+      "summary": "正文借助单位圆与夹逼定理计算正弦差商的两个关键极限，并用极限定义完成导数推导。"
+    },
+    {
+      "title": "一类递推数列的渐进估计",
+      "url": "https://zhuanlan.zhihu.com/p/610773444",
+      "summary": "正文使用 Stolz 定理和等价变量变换计算递推数列涉及的两个极限。"
+    },
+    {
+      "title": "求极限时拉格朗日中值定理不适用的情况",
+      "url": "https://zhuanlan.zhihu.com/p/616849803",
+      "summary": "正文围绕求极限时构造拉格朗日中值定理的方法，讨论中值点 ξ 的处理、适用条件及错误代换。"
+    },
+    {
+      "title": "一文透彻搞懂局部有界性和保号性，四维度讲解，看到就赚",
+      "url": "https://zhuanlan.zhihu.com/p/620699742",
+      "summary": "正文围绕极限的局部有界性和保号性展开，说明如何由一点的极限推出邻域性质并用于极限题计算。"
+    },
+    {
+      "title": "数学竞赛常用结论总结",
+      "url": "https://zhuanlan.zhihu.com/p/615880575",
+      "summary": "正文系统总结数列极限、Cauchy 定理及若干根式极限结论，属于极限计算。"
+    },
+    {
+      "title": "泊松分布——直观理解、应用示例、推导过程",
+      "url": "https://zhuanlan.zhihu.com/p/623446041",
+      "summary": "正文通过令试验次数趋于无穷、成功概率趋于零的极限过程推导泊松公式。"
+    },
+    {
+      "title": "数学150—高考数学必备的高数方法（上）：从泰勒展开到数列积分不等式",
+      "url": "https://zhuanlan.zhihu.com/p/637722636",
+      "summary": "正文用洛必达法则处理零比零和无穷比无穷型函数极限，并配有两个例子。"
+    },
+    {
+      "title": "一般二重极限的路径取法——最小单位元+公共路径法",
+      "url": "https://zhuanlan.zhihu.com/p/648080280",
+      "summary": "正文系统讲解通过选择路径判断二重极限不存在，并给出最小单位元和公共路径的计算方法。"
+    },
+    {
+      "title": "手撕根号（不记公式，考场可用）",
+      "url": "https://zhuanlan.zhihu.com/p/649216217",
+      "summary": "正文从一个二项式展开的极限恒等式出发，推导平方根近似值的计算式。"
+    },
+    {
+      "title": "定积分定义求解极限的原理与步骤",
+      "url": "https://zhuanlan.zhihu.com/p/666966454",
+      "summary": "正文给出把和式极限识别并转化为定积分计算的方法及典型限制条件。"
+    },
+    {
+      "title": "可替换为等价无穷小的条件的探讨",
+      "url": "https://zhuanlan.zhihu.com/p/667554521",
+      "summary": "正文通过多个0/0型极限例子讨论等价无穷小替换的适用条件，并用高阶无穷小分析其计算原理。"
+    },
+    {
+      "title": "关于极限，求导，积分能否换序的讨论",
+      "url": "https://zhuanlan.zhihu.com/p/667864334",
+      "summary": "正文给出二元函数累次极限可交换次序的充分条件，并用ε语言完成证明。"
+    },
+    {
+      "title": "数学怪兽——施瓦兹灯笼，挑战了我们对几何形状表面积的直观理解",
+      "url": "https://zhuanlan.zhihu.com/p/678426418",
+      "summary": "正文以施瓦兹灯笼构造边长趋于零但面积不发散的三角逼近，具体分析曲面面积极限为何可能落入不同值。"
+    },
+    {
+      "title": "[高等数学]一道超难数列极限问题的简单解法",
+      "url": "https://zhuanlan.zhihu.com/p/688537086",
+      "summary": "正文先建立数列上下界，再通过偶子列和奇子列证明原数列的极限为 1。"
+    },
+    {
+      "title": "萌新适用的泰勒展开教程——从入门到做题",
+      "url": "https://zhuanlan.zhihu.com/p/689374245",
+      "summary": "正文系统讲解如何用泰勒展开比较分子分母的最低阶来求极限。"
+    },
+    {
+      "title": "[高等数学]一道超难估阶问题",
+      "url": "https://zhuanlan.zhihu.com/p/689500603",
+      "summary": "正文研究积分随 n 趋于无穷时的等价量，并通过换序计算极限。"
+    },
+    {
+      "title": "二重积分计算思路与方法总结",
+      "url": "https://zhuanlan.zhihu.com/p/689823925",
+      "summary": "正文借助换序、洛必达法则和积分中值定理计算二重变限积分极限。"
+    },
+    {
+      "title": "「数分」五个特殊定积分",
+      "url": "https://zhuanlan.zhihu.com/p/691601050",
+      "summary": "正文通过取两个方向的双重极限并由夹逼得到高斯积分值。"
+    },
+    {
+      "title": "概率论-泊松分布详解（狗都能看懂）",
+      "url": "https://zhuanlan.zhihu.com/p/695325687",
+      "summary": "正文展开二项概率公式的极限运算，逐项处理组合数、幂次和指数极限以得到泊松分布公式。"
+    },
+    {
+      "title": "试题解析 | 2024年浙江省大学生高等数学（微积分）竞赛（数学类、工科类）",
+      "url": "https://zhuanlan.zhihu.com/p/699803657",
+      "summary": "正文用黎曼和与定积分计算含幂和与对数的数列极限，并在后续题中处理级数极限。"
+    },
+    {
+      "title": "海涅（Heine）定理（归结原则）",
+      "url": "https://zhuanlan.zhihu.com/p/702393697",
+      "summary": "正文给出函数极限与数列极限相互转化的海涅定理，并用于判断和计算极限。"
+    },
+    {
+      "title": "MATLAB | 如何使用MATLAB优雅的推公式，全网最全MATLAB符号表达式使用教程",
+      "url": "https://zhuanlan.zhihu.com/p/708163774",
+      "summary": "正文借含积分的极限题演示符号求极限，并给出结果 1/10。"
+    },
+    {
+      "title": "【高数】伽马函数详解",
+      "url": "https://zhuanlan.zhihu.com/p/765113913",
+      "summary": "正文由阶乘性质取极限得到伽马函数的极限表示，具体讨论了极限计算。"
+    },
+    {
+      "title": "Laplace方法",
+      "url": "https://zhuanlan.zhihu.com/p/3721167104",
+      "summary": "正文以 Laplace 方法计算含参数积分在参数趋于无穷时的极限。"
+    },
+    {
+      "title": "中山大学2024淑芬期中a卷解析(自制版)",
+      "url": "https://zhuanlan.zhihu.com/p/5942827617",
+      "summary": "正文逐题计算数列、函数和指数型极限，并展示夹逼、换元与对数化等求极限方法。"
+    },
+    {
+      "title": "清华大学未央书院2024级高等微积分期中考试B卷试题解析（自制版）",
+      "url": "https://zhuanlan.zhihu.com/p/6050657151",
+      "summary": "正文系统计算数列和函数极限，使用夹逼、单调有界、Stolz定理与等价变换等工具。"
+    },
+    {
+      "title": "南科大 2024 秋数学分析 I 期中",
+      "url": "https://zhuanlan.zhihu.com/p/6228945485",
+      "summary": "正文用等价无穷小和夹逼定理计算了多个函数与数列的极限。"
+    },
+    {
+      "title": "2024年武汉大学数学分析(1)期中考试个人解答",
+      "url": "https://zhuanlan.zhihu.com/p/7239169950",
+      "summary": "正文逐题计算数列和函数极限，展示了等价变形、换元与夹逼等极限计算方法。"
+    },
+    {
+      "title": "2024年湘潭大学韶峰班大一选拔考试 数学分析试题个人解答",
+      "url": "https://zhuanlan.zhihu.com/p/8297151330",
+      "summary": "正文逐步变形并计算多个数列与函数极限，属于极限计算方法。"
+    },
+    {
+      "title": "数学的艺术 —— 从递推序列到微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/7100724724",
+      "summary": "正文借助 Stolz 定理和差分关系计算多个递推序列及平均序列的极限。"
+    },
+    {
+      "title": "一道超难极限题",
+      "url": "https://zhuanlan.zhihu.com/p/11411631273",
+      "summary": "正文对给定级数和采用分段估计、渐近展开与不等式控制，完整求出其无穷极限。"
+    },
+    {
+      "title": "南开大学2023-2024学年第一学期“数学分析I”期末考试试卷（A卷）试题解析(自制版)",
+      "url": "https://zhuanlan.zhihu.com/p/14174739052",
+      "summary": "文中求出递推数列极限为零，并用 Stolz 定理继续计算带对数因子的极限。"
+    },
+    {
+      "title": "完整总结！用母函数方法破解线性递推数列难题",
+      "url": "https://zhuanlan.zhihu.com/p/16731477484",
+      "summary": "正文的主要目标是估计线性递推数列的增长并在若干题中计算具体极限。"
+    },
+    {
+      "title": "60道极限好题荟萃",
+      "url": "https://zhuanlan.zhihu.com/p/17903685192",
+      "summary": "正文集中列出 60 道数列、函数、积分及矩阵相关的极限题，并标注对应的极限求解方法，核心属于极限计算。"
+    },
+    {
+      "title": "deepseek挑战北京大学的一个数学分析期末",
+      "url": "https://zhuanlan.zhihu.com/p/22492332174",
+      "summary": "正文证明该正弦对数平均数列的极限不存在，并刻画其上下极限。"
+    },
+    {
+      "title": "本届英国积分大赛的题目(试做)",
+      "url": "https://zhuanlan.zhihu.com/p/28666792035",
+      "summary": "正文把含变量和的极限识别为黎曼和，并利用控制收敛定理说明极限与积分交换次序。"
+    },
+    {
+      "title": "极值点偏移的通法——构造函数法，附带脚本批量构造",
+      "url": "https://zhuanlan.zhihu.com/p/28908472182",
+      "summary": "正文说明需要通过定义域端点的极限异号来约束构造系数，并讨论高低阶项比较。"
+    },
+    {
+      "title": "从零开始的伽马函数（超长保姆级教程）",
+      "url": "https://zhuanlan.zhihu.com/p/1889392361823506978",
+      "summary": "正文通过极限和夹逼定理推导阶乘向伽马函数的唯一推广。"
+    },
+    {
+      "title": "不要随便拿你浅薄的微积分知识瞎扯“无穷”",
+      "url": "https://zhuanlan.zhihu.com/p/1895768542936299452",
+      "summary": "正文指出不能把趋于无穷直接当作等式替换，纠正常量差消失的错误极限推理。"
+    },
+    {
+      "title": "一类求和极限的渐进展开(严格证明+精准估阶)",
+      "url": "https://zhuanlan.zhihu.com/p/1899140758579164829",
+      "summary": "正文围绕含 n 与求和指标的极限，给出夹逼和误差控制的严格计算方法。"
+    },
+    {
+      "title": "微积分漫谈之一--微积分是如何出现的？(1)",
+      "url": "https://zhuanlan.zhihu.com/p/1919782810782270104",
+      "summary": "正文通过自由落体平均速度取 Δt 趋于零的过程，计算并解释极限在求瞬时速度中的作用。"
+    },
+    {
+      "title": "数学专题：九千字让你会算微积分",
+      "url": "https://zhuanlan.zhihu.com/p/1892285042069328479",
+      "summary": "正文讲解洛必达法则的适用条件，并用多次求导的极限例子演示其计算过程。"
+    },
+    {
+      "title": "傅里叶级数之吉伯斯现象（Gibbs phenomenon）",
+      "url": "https://zhuanlan.zhihu.com/p/1954297421271131152",
+      "summary": "正文通过黎曼和与有限项数趋于无穷的极限计算过冲和波纹包络。"
+    },
+    {
+      "title": "解决前苏联数学分析领域公开40年的难题",
+      "url": "https://zhuanlan.zhihu.com/p/1958129614040860096",
+      "summary": "正文通过上下极限、子列峰值区间和极限估计证明所需子列存在。"
+    },
+    {
+      "title": "n个正态随机数的最大值的渐近估计",
+      "url": "https://zhuanlan.zhihu.com/p/1974633530932868962",
+      "summary": "正文通过该极限明确最大值的期望与对数平方根的渐近等价关系，并给出上下界估计。"
+    },
+    {
+      "title": "复分析（一）：复平面上的微积分",
+      "url": "https://zhuanlan.zhihu.com/p/1969158817364283736",
+      "summary": "正文定义并讨论了复数序列与复变函数的极限及运算法则。"
+    },
+    {
+      "title": "2025年中国科学技术大学数学分析试题（个人解题）",
+      "url": "https://zhuanlan.zhihu.com/p/1979925439570011526",
+      "summary": "正文通过取对数、洛必达法则和夹逼方法完整计算了多个数列与函数极限。"
+    },
+    {
+      "title": "2026MIT积分大赛资格赛全网首发",
+      "url": "https://zhuanlan.zhihu.com/p/1997613188221514949",
+      "summary": "文章把嵌套根式写成递推数列，利用单调有界原理求出其极限后再完成积分。"
+    },
+    {
+      "title": "π 的无穷乘积，最初是怎么被想到的？",
+      "url": "https://zhuanlan.zhihu.com/p/2038440108207121327",
+      "summary": "正文通过自然数幂和的分式在变量增大时舍去余项，具体使用并解释了极限过程。"
+    },
+    {
+      "title": "2026年中科大数学夏令营试题（数分高代部分，剩下的部分之后更新）（首发）",
+      "url": "https://zhuanlan.zhihu.com/p/2042022401777689704",
+      "summary": "正文证明递推数列单调有界，并由此推出其极限存在且为正。"
+    },
+    {
+      "title": "一根针织成的天罗地网：挂谷猜想的前世今生",
+      "url": "https://zhuanlan.zhihu.com/p/2048891702132450853",
+      "summary": "正文用趋于无穷时的面积变化、逼近常数和任意小面积讨论极限过程。"
+    },
+    {
+      "title": "一个看似简单的极限，为什么最后变成了40页论文？——Hardy与Ramanujan如何计算整数分拆数",
+      "url": "https://zhuanlan.zhihu.com/p/2071615597272683484",
+      "summary": "正文围绕n趋于无穷时的极限推出分拆数的渐近主项及其对数增长速度。"
+    }
+  ]
+}

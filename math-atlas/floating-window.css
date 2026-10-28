@@ -1,0 +1,21 @@
+.floating-window { position: fixed; z-index: 30; top: 0; left: 0; width: min(176px, calc(100vw - 24px), calc((100dvh - 110px) * 1.28)); max-height: calc(100dvh - 12px); overflow: hidden; padding: 3px; border: 2px solid #111044; border-radius: 0; background: #c6c6ca; box-shadow: inset 2px 2px #fff,inset -2px -2px #737386; will-change: transform; color-scheme: light; }
+.floating-window-titlebar { display: flex; align-items: center; gap: 3px; min-height: 28px; padding-left: 5px; background: linear-gradient(90deg,#080b9d,#123ce5); border: 1px solid #111044; }
+.floating-window-title { flex: 1; min-width: 0; color: white; font: 700 11px/1.2 "Microsoft YaHei",system-ui,sans-serif; white-space: nowrap; }
+.floating-window-icon { position: relative; flex: 0 0 14px; width: 14px; height: 12px; margin-right: 3px; border: 2px solid #e6e8ed; background: #47a9f5; box-shadow: 2px 2px #15143c,inset 2px 2px #1232a0; }
+.floating-window-icon::after { content: ""; position: absolute; width: 10px; height: 2px; left: 0; bottom: -5px; background: #d4d4d9; box-shadow: 2px 1px #171744; }
+.floating-window button { flex: 0 0 28px; width: 28px; height: 28px; padding: 0; border: 3px solid #c6c6ca; border-radius: 0; background: #c6c6ca; box-shadow: inset 2px 2px #fff,inset -2px -2px #676778; color: #10101c; cursor: pointer; font: 700 15px/1 Arial,sans-serif; }
+.floating-window button:hover { background: #e0e0e8; }
+.floating-window button:active { box-shadow: inset 2px 2px #676778,inset -2px -2px #fff; }
+.floating-window button:focus-visible { outline: 2px dotted #111044; outline-offset: -7px; }
+.floating-window .floating-window-close { font-size: 23px; }
+.floating-window-link { display: block; color: #090912; text-decoration: none; padding-top: 4px; }
+.floating-window-headline { position: relative; display: block; margin: 0 2px 6px; padding: 5px 3px; background: #fff; border: 2px solid #14134d; box-shadow: 3px 3px #14134d; color: #090912; font: 900 13px/1.25 "PingFang SC","Microsoft YaHei",sans-serif; text-align: center; }
+.floating-window-headline::after { content: ""; position: absolute; right: 13px; bottom: -8px; width: 12px; height: 12px; border-right: 2px solid #14134d; border-bottom: 2px solid #14134d; background: #fff; transform: skewY(40deg); }
+.floating-window-artwork { position: relative; display: block; width: 100%; aspect-ratio: 910 / 711; overflow: hidden; border: 1px solid #14134d; }
+/* Display only the meme area; the original image file remains unchanged. */
+.floating-window-artwork img { position: absolute; display: block; max-width: none; width: 112.5275%; height: auto; left: -6.7033%; top: -34.7398%; }
+.floating-window-link:focus-visible { outline: 3px dashed #fff65a; outline-offset: -4px; }
+@media (max-width: 540px) {
+  .floating-window { width: min(144px, calc(100vw - 24px), calc((100dvh - 110px) * 1.28)); }
+  .floating-window-headline { font-size: 11px; padding: 4px 2px; }
+}

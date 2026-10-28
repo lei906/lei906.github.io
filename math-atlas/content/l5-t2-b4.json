@@ -1,0 +1,446 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l5-t2-b4",
+  "sources": [
+    {
+      "title": "绳子为什么会扭在一起？",
+      "url": "https://www.zhihu.com/answer/56455783",
+      "summary": "正文用环绕数和拧数解释绳带的缠绕及其不变量。"
+    },
+    {
+      "title": "如何理解Chern Simons场论?",
+      "url": "https://www.zhihu.com/answer/84170584",
+      "summary": "正文说明 Chern-Simons 理论的 Wilson 环给出扭结和链结不变量。"
+    },
+    {
+      "title": "理论物理学家爱德华·威滕做了啥贡献，以致于他获得了数学界的菲尔兹奖？",
+      "url": "https://www.zhihu.com/answer/97134130",
+      "summary": "正文以 Chern-Simons 配分函数推导 Jones 多项式，并说明其算法。"
+    },
+    {
+      "title": "学习代数的过程中，你掌握了哪些非平凡的例子？",
+      "url": "https://www.zhihu.com/answer/101586014",
+      "summary": "正文把三叶结补空间的基本群与三股编织群联系起来。"
+    },
+    {
+      "title": "如何评价数学家 John Milnor 在数学领域的成就？",
+      "url": "https://www.zhihu.com/answer/104181149",
+      "summary": "正文以绳结总曲率问题介绍 Milnor 的早期结理论工作。"
+    },
+    {
+      "title": "数学学习或研究中，你见过哪些有意思的反例？",
+      "url": "https://www.zhihu.com/answer/112074072",
+      "summary": "正文用Alexander多项式不能区分平凡结的反例说明结不变量的边界。"
+    },
+    {
+      "title": "各类科研领域中哪些公式，原理或定律的推出，用到了有趣的思维方式？",
+      "url": "https://www.zhihu.com/answer/123648201",
+      "summary": "正文说明新证明把代数结构表示成扭结，再转为对称群组合计算。"
+    },
+    {
+      "title": "你所在数学领域的 big picture 是什么？",
+      "url": "https://www.zhihu.com/answer/190247077",
+      "summary": "正文解释模张量范畴、手术理论与三维 TQFT 如何构造扭结不变量。"
+    },
+    {
+      "title": "杨振宁的成就很伟大吗？",
+      "url": "https://www.zhihu.com/answer/196051335",
+      "summary": "正文把 Yang–Baxter 方程与第三类 Reidemeister 变换对应，解释其纽结投影意义。"
+    },
+    {
+      "title": "被必修二虐得体无全肤，怎么提升空间感？",
+      "url": "https://www.zhihu.com/answer/255006167",
+      "summary": "正文用绳结与拓扑形变训练空间想象。"
+    },
+    {
+      "title": "有哪些数学问题在高维和低维上情况比较简单，唯独在中间某个维数上很复杂？",
+      "url": "https://www.zhihu.com/answer/275398509",
+      "summary": "正文解释不同维度中球面扭结与解结的维数规律。"
+    },
+    {
+      "title": "数学中有哪些典型的不变量？研究不变量的意义是什么？",
+      "url": "https://www.zhihu.com/answer/277322431",
+      "summary": "正文说明纽结可用多项式或同调群不变量区分。"
+    },
+    {
+      "title": "你所在的领域（数学和或物理）有哪些令你觉得新颖理论或工具？",
+      "url": "https://www.zhihu.com/answer/295271500",
+      "summary": "正文说明 relative Calabi–Yau completion 推广结接触同调并可形成结不变量。"
+    },
+    {
+      "title": "你所在的科研领域有哪些做不动的问题？",
+      "url": "https://www.zhihu.com/answer/303948858",
+      "summary": "正文把 Legendrian 环面结用于构造 Weinstein 流形的开放问题。"
+    },
+    {
+      "title": "数学研究者一般需要用到数学软件吗？",
+      "url": "https://www.zhihu.com/answer/307727235",
+      "summary": "正文以knot contact homology作为几何计算的具体对象。"
+    },
+    {
+      "title": "纽结理论的前景如何？近年来有什么重要的发展？",
+      "url": "https://www.zhihu.com/answer/410552449",
+      "summary": "正文围绕纽结不变量与 Legendrian 结构讨论纽结理论。"
+    },
+    {
+      "title": "纽结理论的前景如何？近年来有什么重要的发展？",
+      "url": "https://www.zhihu.com/answer/410720713",
+      "summary": "正文讨论 Legendrian 纽结不变量及近年发展。"
+    },
+    {
+      "title": "三维围棋可行吗？难度有多大？",
+      "url": "https://www.zhihu.com/answer/532251152",
+      "summary": "正文用三维区域中可出现纽结说明二维与三维洞结构的差异。"
+    },
+    {
+      "title": "如何看待阿里的全球数学竞赛？",
+      "url": "https://www.zhihu.com/answer/538575225",
+      "summary": "正文把提升后的空间识别为三维球面中的链环补空间。"
+    },
+    {
+      "title": "你买过哪些好玩的玩具？",
+      "url": "https://www.zhihu.com/answer/860311655",
+      "summary": "说明纠结谜题中的绳索结构对应拓扑纽结问题。"
+    },
+    {
+      "title": "为什么打结是三维空间独有的现象？",
+      "url": "https://www.zhihu.com/answer/1199482394",
+      "summary": "正文围绕高维球面嵌入与余维讨论结理论。"
+    },
+    {
+      "title": "为什么打结是三维空间独有的现象？",
+      "url": "https://www.zhihu.com/answer/1201416202",
+      "summary": "正文解释不同维数与余维下结的定义和差异。"
+    },
+    {
+      "title": "有哪些不易察觉的错误证明？",
+      "url": "https://www.zhihu.com/answer/1215451318",
+      "summary": "正文以 Perko pair 说明纽结同构判断中的历史错误。"
+    },
+    {
+      "title": "低维拓扑领域有哪些做得好的华人？",
+      "url": "https://www.zhihu.com/answer/1248030002",
+      "summary": "正文列举低维拓扑学者及其纽结理论研究方向。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/1285641748",
+      "summary": "正文围绕康威扭结是否为四维切片展开结理论讲解。"
+    },
+    {
+      "title": "数学中的哪些分支密切依赖于空间思维或想象力？",
+      "url": "https://www.zhihu.com/answer/1652922719",
+      "summary": "正文讨论低维拓扑和纽结理论对空间想象的依赖。"
+    },
+    {
+      "title": "几何拓扑是否还是一个有前途的领域，学习需要怎样的基础？",
+      "url": "https://www.zhihu.com/answer/1663864064",
+      "summary": "正文具体列出纽结理论等低维拓扑方向。"
+    },
+    {
+      "title": "几何拓扑是否还是一个有前途的领域，学习需要怎样的基础？",
+      "url": "https://www.zhihu.com/answer/1664991130",
+      "summary": "正文具体说明扭结与三流形的研究工具。"
+    },
+    {
+      "title": "几何拓扑是否还是一个有前途的领域，学习需要怎样的基础？",
+      "url": "https://www.zhihu.com/answer/1665045895",
+      "summary": "正文建议以纽结和三维、四维流形作为学习入口。"
+    },
+    {
+      "title": "《现代数学基础丛书》的封面图有什么数学背景？",
+      "url": "https://www.zhihu.com/answer/1866535816",
+      "summary": "正文解释三叶结作为纽结理论基本案例及其交叉数。"
+    },
+    {
+      "title": "如何从数学上确定手性？",
+      "url": "https://www.zhihu.com/answer/2004148534",
+      "summary": "正文用结的手性和8字结说明拓扑手性。"
+    },
+    {
+      "title": "数学中有哪些漂亮的无字证明？",
+      "url": "https://www.zhihu.com/answer/2414328547",
+      "summary": "正文以波罗梅奥环说明三个环整体不可分离、移除任意一环后其余两环可分离的结理论现象。"
+    },
+    {
+      "title": "仍然在世的伟大数学家有哪些？",
+      "url": "https://www.zhihu.com/answer/2499504355",
+      "summary": "正文介绍 Kontsevich 在纽结理论与纽结不变量方面的工作。"
+    },
+    {
+      "title": "数学学习或研究中，你见过哪些有意思的反例？",
+      "url": "https://www.zhihu.com/answer/2625789260",
+      "summary": "介绍纽结、交叉点、绞拧数与最简纽结等结理论基本概念。"
+    },
+    {
+      "title": "星三角变换的实质是什么?",
+      "url": "https://www.zhihu.com/answer/2670930996",
+      "summary": "正文明确指出星-三角关系与扭结理论中的 Reidemeister 移动相对应。"
+    },
+    {
+      "title": "为什么基本群一般是非交换的？",
+      "url": "https://www.zhihu.com/answer/2978678410",
+      "summary": "正文明确以纽结补空间的基本群说明纽结群，并给出 Wirtinger 表示。"
+    },
+    {
+      "title": "你在学习数学/物理时最开心的时刻是什么？",
+      "url": "https://www.zhihu.com/answer/3006813071",
+      "summary": "正文介绍纽结数据库及亚历山大多项式、琼斯多项式等纽结不变量，实质展开结理论。"
+    },
+    {
+      "title": "为什么打结是三维空间独有的现象？",
+      "url": "https://www.zhihu.com/answer/3011613740",
+      "summary": "正文说明一维闭合曲线在三、四等高维空间中的嵌入与打结现象，并以全曲率判据讨论纽结。"
+    },
+    {
+      "title": "目前数学各方向最前沿都在研究什么问题？",
+      "url": "https://www.zhihu.com/answer/3311247480",
+      "summary": "正文具体介绍 Kashaev 纽结不变量、彩色 Jones 多项式及 Volume Conjecture 与纽结的关系。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/3350363627",
+      "summary": "正文介绍纽结、纽结补空间、双曲结与环面结和卫星结的分类，并讨论纽结不变量。"
+    },
+    {
+      "title": "有哪些观赏性很高的几何图形？",
+      "url": "https://www.zhihu.com/answer/3425756418",
+      "summary": "正文用连续嵌入定义纽结，并进一步解释纽结等价、纽结加法与素纽结。"
+    },
+    {
+      "title": "数学史上有哪些数字或规模很大的反例？",
+      "url": "https://www.zhihu.com/answer/3470674639",
+      "summary": "正文解释扭结的定向、交叉点正负、最简形式、绞拧数及不变量应满足的性质。"
+    },
+    {
+      "title": "拓扑学有什么好玩的例子吗？",
+      "url": "https://www.zhihu.com/answer/42660900843",
+      "summary": "正文以环面结参数交换后的同痕关系作为纽结理论的具体例子展开。"
+    },
+    {
+      "title": "如何评价2025八省联考数学多选最后一题？",
+      "url": "https://www.zhihu.com/answer/70974470160",
+      "summary": "正文以交叉数和交叉点符号区分平凡纽结与左右手三叶结，具体介绍纽结分类。"
+    },
+    {
+      "title": "如何评价2025八省联考数学多选最后一题？",
+      "url": "https://www.zhihu.com/answer/71075774480",
+      "summary": "正文以三色性、交叉数、环绕数和琼斯多项式说明纽结不变量在区分纽结中的作用，属于结理论讨论。"
+    },
+    {
+      "title": "如何把画框挂在三颗钉子上，使得去掉任意一颗钉子，画框都会掉下去？",
+      "url": "https://www.zhihu.com/answer/71975736903",
+      "summary": "正文把绕钉子的绳结对应到 Borromean rings，并用拆去一环后其余两环分离说明其联结性质。"
+    },
+    {
+      "title": "数学中有哪些表面没有关系但是内在有深刻联系的问题？",
+      "url": "https://www.zhihu.com/answer/75742755445",
+      "summary": "正文系统讨论纽结有限型不变量、Jones 与 Conway 多项式、弦图和不变量区分纽结的问题。"
+    },
+    {
+      "title": "群论和拓扑学有什么关系？",
+      "url": "https://www.zhihu.com/answer/130576931904",
+      "summary": "正文以纽结群、Alexander不变量和 Jones 多项式等展开说明结理论如何借助群论与拓扑工具构造不变量。"
+    },
+    {
+      "title": "对现在的年轻人来说，选择代数拓扑是否比低维拓扑前沿（如Floer theory等）更有前途?",
+      "url": "https://www.zhihu.com/answer/1913029390343844649",
+      "summary": "正文说明传统扭结理论的发展，并介绍 Legendrian 扭结、配边和填充等低维扭结研究方向。"
+    },
+    {
+      "title": "请问有什么悬而未决几十年最终被证伪的数学猜想吗？",
+      "url": "https://www.zhihu.com/answer/1938558288997352889",
+      "summary": "正文系统介绍纽结、交叉点数、解结数、连接和、素结与环面纽结等纽结理论概念。"
+    },
+    {
+      "title": "有哪些数学理论最初被认为「毫无用处」，却在某个领域意外成为关键技术支柱？",
+      "url": "https://www.zhihu.com/answer/1943042322918007481",
+      "summary": "正文给出纽结的光滑嵌入定义、环境同痕等价和 Reidemeister 移动，并讨论纽结不变量。"
+    },
+    {
+      "title": "现在数学最前沿研究哪些问题？",
+      "url": "https://www.zhihu.com/answer/1947278068851905970",
+      "summary": "正文以双曲纽结补集、Jones 多项式和双曲体积之间的关系介绍低维纽结理论中的体积猜想。"
+    },
+    {
+      "title": "纽结(Knots)的同痕不变量有哪些？",
+      "url": "https://www.zhihu.com/answer/1979176789487134638",
+      "summary": "正文从分析、代数与拓扑角度讨论纽结同痕不变量的构造，并介绍纽结亏格及三维流形等研究方向。"
+    },
+    {
+      "title": "在数学领域，2025年有哪些重大的突破？",
+      "url": "https://www.zhihu.com/answer/1989997619028697780",
+      "summary": "正文讨论纽结复杂度的可加性猜想，并说明通过具体纽结反例将其证伪，属于结理论中的实质结果。"
+    },
+    {
+      "title": "什么叫降维打击？",
+      "url": "https://www.zhihu.com/answer/2040804314298460030",
+      "summary": "正文具体说明三维空间中的绳结、链环与交叉关系，并提到亚历山大多项式和琼斯多项式用于分类纽结。"
+    },
+    {
+      "title": "如何评价望月新一？",
+      "url": "https://www.zhihu.com/answer/2055918670598123984",
+      "summary": "正文讨论双曲结补空间以及结与素数的算术拓扑类比，实质涉及结理论。"
+    },
+    {
+      "title": "如何评价今年王虹、邓煜可能同时创纪录拿到菲尔兹奖？",
+      "url": "https://www.zhihu.com/answer/2063597613107221965",
+      "summary": "正文定义纽结为三维空间中的简单闭曲线，并用同痕类、弧长与欧氏距离解释纽结扭曲度。"
+    },
+    {
+      "title": "邓煜、王虹两位青年数学家获得 2026 年菲尔兹奖，如何理解他们获奖的意义和价值？",
+      "url": "https://www.zhihu.com/answer/2063737858645554140",
+      "summary": "正文介绍其在几何与拓扑研究中解决结扭曲度开放问题的工作。"
+    },
+    {
+      "title": "「四位菲尔兹奖主有三位会说中文」，如何看待菲奖得主约翰·帕登（白杰文）的汉语水平？你对他还有哪些了解？",
+      "url": "https://www.zhihu.com/answer/2064006442261148361",
+      "summary": "正文具体介绍纽结、环面纽结、变形度以及环面纽结变形度的上界问题，展开讲解了纽结理论的核心对象和问题。"
+    },
+    {
+      "title": "什么是死结",
+      "url": "https://zhuanlan.zhihu.com/p/19670768",
+      "summary": "正文具体定义数学结为圆周在三维空间中的嵌入，并讨论活结、死结及三叶结等结理论对象。"
+    },
+    {
+      "title": "代数数论(十四):素数、测地线、扭结",
+      "url": "https://zhuanlan.zhihu.com/p/24912510",
+      "summary": "正文具体讨论三维流形中的纽结、链环与数环中的素理想、理想之间的类比。"
+    },
+    {
+      "title": "关于光滑映射的一些杂记",
+      "url": "https://zhuanlan.zhihu.com/p/26981969",
+      "summary": "正文介绍空间闭曲线的总曲率与扭结可解性之间的 Fary-Milnor 结论。"
+    },
+    {
+      "title": "数学简史：现代数学的五大应用",
+      "url": "https://zhuanlan.zhihu.com/p/30486512",
+      "summary": "正文以 DNA 双螺旋中的缠绕与纽结为例，说明纽结不变量在生物学分类中的应用。"
+    },
+    {
+      "title": "益智玩具有几种-混乱博物馆",
+      "url": "https://zhuanlan.zhihu.com/p/45597785",
+      "summary": "正文指出带绳索缠绕的纠结谜题综合了拓扑学中的纽结问题。"
+    },
+    {
+      "title": "QLS代数及其辛几何应用",
+      "url": "https://zhuanlan.zhihu.com/p/45837896",
+      "summary": "正文以三叶结和7_2结的Chekanov-Eliashberg代数为例讨论Koszul对偶是否成立。"
+    },
+    {
+      "title": "杂谈：一道微分流形习题",
+      "url": "https://zhuanlan.zhihu.com/p/81754837",
+      "summary": "正文把有理斜率在环面上的闭合轨迹解释为环面纽结，并讨论其多项式实现和拓扑相变。"
+    },
+    {
+      "title": "Potts模型简介",
+      "url": "https://zhuanlan.zhihu.com/p/101045691",
+      "summary": "正文将平面 Potts 模型的双染色多项式对应到纽结理论中的括号多项式与纽结不变量。"
+    },
+    {
+      "title": "繁星客栈拾遗（十五年前的数学和八卦帖）",
+      "url": "https://zhuanlan.zhihu.com/p/107392381",
+      "summary": "正文具体讨论扭结的嵌入定义、补集、同痕分类、Seifert 亏格及 Heegaard-Floer 等不变量。"
+    },
+    {
+      "title": "Chern-Simons, WZW 模型 和 Jones 多项式 (2)",
+      "url": "https://zhuanlan.zhihu.com/p/118438333",
+      "summary": "正文以 Chern-Simons 和 WZW 模型推出 Jones 多项式的 skein relation，核心是扭结不变量。"
+    },
+    {
+      "title": "华裔工程师发明的廉价玩具上了谷歌热搜第一，它还藏着量子世界的秘密 | 把科学带回家",
+      "url": "https://zhuanlan.zhihu.com/p/133623097",
+      "summary": "正文以橡皮筋玩具介绍纽结与链的定义，并具体讨论Hopf链、Brunnian链及Borromean环的拆解性质。"
+    },
+    {
+      "title": "华裔工程师发明的廉价玩具上了谷歌热搜第一，它还藏着量子世界的秘密",
+      "url": "https://zhuanlan.zhihu.com/p/133650926",
+      "summary": "正文以彩虹织机为例讲解纽结与链的定义，并具体分析布伦链和 Borromean rings 的拓扑性质。"
+    },
+    {
+      "title": "一周时间解决数学界「康威扭结」难题，这个数学博士小姐姐太强悍",
+      "url": "https://zhuanlan.zhihu.com/p/142340328",
+      "summary": "正文具体讲解康威扭结、slice问题、扭结不变量和迹sibling，并叙述其证明思路。"
+    },
+    {
+      "title": "困扰数学家50年的问题，竟被博士小姐姐用一周业余时间解决了",
+      "url": "https://zhuanlan.zhihu.com/p/161462651",
+      "summary": "正文解释扭结、片状结、康威结及平滑可切性，并介绍证明所用的扭结迹与 Rasmussen 不变量。"
+    },
+    {
+      "title": "著名数学家沃恩·琼斯逝世，曾穿橄榄球队服领菲尔兹奖，陶哲轩发文悼念",
+      "url": "https://zhuanlan.zhihu.com/p/234902221",
+      "summary": "正文说明扭结理论以形变不变量区分不同扭结，并具体介绍亚历山大多项式和琼斯多项式。"
+    },
+    {
+      "title": "打结也能用数学研究？—— 扭结理论入门",
+      "url": "https://zhuanlan.zhihu.com/p/387319069",
+      "summary": "正文系统介绍扭结的不变量、亚历山大多项式、琼斯多项式以及结的素分解，属于结理论。"
+    },
+    {
+      "title": "Nature最新封面：两大数学难题被AI突破！DeepMind YYDS",
+      "url": "https://zhuanlan.zhihu.com/p/440373532",
+      "summary": "正文定义纽结及其拓扑等价与分类问题，并说明几何特征和代数特征之间的联系。"
+    },
+    {
+      "title": "纽结：化学元素关我什么事？",
+      "url": "https://zhuanlan.zhihu.com/p/494007144",
+      "summary": "正文系统介绍纽结投影、同痕变换、三色不变量和素纽结，属于结理论基础。"
+    },
+    {
+      "title": "纽结的故事3：三维流形",
+      "url": "https://zhuanlan.zhihu.com/p/502478281",
+      "summary": "正文讨论纽结所在的 S3 与 S1×S2 空间，以及空间变化对纽结解开的影响，属于纽结理论。"
+    },
+    {
+      "title": "纽结的故事4：Jones多项式",
+      "url": "https://zhuanlan.zhihu.com/p/516392400",
+      "summary": "正文定义 bracket 多项式、拆接关系与 Jones 多项式，并用左右手三叶结演示纽结不变量。"
+    },
+    {
+      "title": "算术拓扑的初步理论",
+      "url": "https://zhuanlan.zhihu.com/p/563347112",
+      "summary": "正文把嵌入算术曲线的素理想解释为三维流形中的扭结，并结合三维流形与数域的函子讨论这一对应。"
+    },
+    {
+      "title": "纽结马赛克",
+      "url": "https://zhuanlan.zhihu.com/p/636831878",
+      "summary": "正文系统介绍纽结的矩阵化表示、Reidemeister 变换、马赛克数与不变量。"
+    },
+    {
+      "title": "纽结理论和琼斯多项式",
+      "url": "https://zhuanlan.zhihu.com/p/662505840",
+      "summary": "正文系统介绍纽结与链环、交叉数、三色性和环绕数，并展开琼斯多项式等纽结不变量。"
+    },
+    {
+      "title": "龙年吃太饱 | 为什么天上的龙飞来飞去，但从来不会给自己打结？",
+      "url": "https://zhuanlan.zhihu.com/p/682000215",
+      "summary": "正文定义扭结、平凡结、三叶结及交叉数，并用它们讨论龙形曲线是否打结。"
+    },
+    {
+      "title": "纽结理论（1）：纽结与链环",
+      "url": "https://zhuanlan.zhihu.com/p/709813628",
+      "summary": "正文介绍纽结与链环、投影图、Reidemeister 变换及同痕不变量。"
+    },
+    {
+      "title": "扭结理论——抽象思维的极限，人类智力的巅峰，这是你最好的入门文章",
+      "url": "https://zhuanlan.zhihu.com/p/710555890",
+      "summary": "正文系统介绍结理论的对象、结表、Reidemeister移动以及Alexander和Jones等结不变量。"
+    },
+    {
+      "title": "一些拓扑小题(持续更新中)",
+      "url": "https://zhuanlan.zhihu.com/p/19198396929",
+      "summary": "正文讨论纽结补空间构造的四维流形 knot trace，并用三叶结亏格曲面说明同调类表示，涉及结理论。"
+    },
+    {
+      "title": "一起做手工",
+      "url": "https://zhuanlan.zhihu.com/p/1932207384408875363",
+      "summary": "正文围绕 S³ 中的环面结、纽结补空间和 Dehn 手术展开，并计算手术所得三维流形。"
+    },
+    {
+      "title": "E.Witten的业绩II 深谷贤治",
+      "url": "https://zhuanlan.zhihu.com/p/2009321982374745022",
+      "summary": "正文展开 Chern-Simons 路径积分与链环不变量，并说明在三维球面和 SU(N) 情形下得到 Jones 多项式。"
+    }
+  ]
+}

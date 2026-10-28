@@ -1,0 +1,441 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l4-t4-b5",
+  "sources": [
+    {
+      "title": "判断 N 是否是质数，为什么判断到根号 N 就可以了？",
+      "url": "https://www.zhihu.com/answer/21250639",
+      "summary": "正文围绕「判断 N 是否是质数，为什么判断到根号 N 就可以了？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "有什么方法或是小窍门可以迅速辨别一个多位数（小于10位大于3位）是否是质数？",
+      "url": "https://www.zhihu.com/answer/27383516",
+      "summary": "正文围绕“质数判定”给出说明、例证或方法。"
+    },
+    {
+      "title": "《心慌方（异次元杀阵）》中的数学原理是不是有错误？",
+      "url": "https://www.zhihu.com/answer/103896204",
+      "summary": "正文给出短除法与因子判断方法区分质数幂。"
+    },
+    {
+      "title": "有哪些具有特殊性质的数字？",
+      "url": "https://www.zhihu.com/answer/134770643",
+      "summary": "正文比较试除法、费马测试、Miller–Rabin 与 AKS 素性测试。"
+    },
+    {
+      "title": "RSA 生成公私钥时质数是怎么选的？",
+      "url": "https://www.zhihu.com/answer/141149088",
+      "summary": "正文介绍 Miller-Rabin 作为常用质数判别方法。"
+    },
+    {
+      "title": "如果有一天上帝给了数学家素数的通项公式，这会对数学界有什么影响？",
+      "url": "https://www.zhihu.com/answer/341932598",
+      "summary": "正文比较素数生成、素性判定与筛法，并给出判定复杂度。"
+    },
+    {
+      "title": "网上流传的「素数判别式」是否可信？",
+      "url": "https://www.zhihu.com/answer/373254223",
+      "summary": "正文以 341 的整除反例否定一个素数判别条件。"
+    },
+    {
+      "title": "网上流传的「素数判别式」是否可信？",
+      "url": "https://www.zhihu.com/answer/373312717",
+      "summary": "正文说明费马小定理只能给出素数的必要非充分条件。"
+    },
+    {
+      "title": "网上流传的「素数判别式」是否可信？",
+      "url": "https://www.zhihu.com/answer/373562344",
+      "summary": "正文解释 Miller-Rabin 随机素数判定及错误概率。"
+    },
+    {
+      "title": "用于加密的超大素数是怎么得到的？",
+      "url": "https://www.zhihu.com/answer/487014940",
+      "summary": "正文介绍米勒-拉宾概率素数测试与误判概率。"
+    },
+    {
+      "title": "用于加密的超大素数是怎么得到的？",
+      "url": "https://www.zhihu.com/answer/512820832",
+      "summary": "全文讲解费马、Solovay–Strassen 与 Miller–Rabin 概率素性检验。"
+    },
+    {
+      "title": "设计程序求第 i 个素数，时间复杂度最优可以达到多少？",
+      "url": "https://www.zhihu.com/answer/566185328",
+      "summary": "比较筛法、试除和素性测试以寻找第 i 个素数。"
+    },
+    {
+      "title": "如何编程判断一个数是否是质数？",
+      "url": "https://www.zhihu.com/answer/568508952",
+      "summary": "从试除到 Fermat、Miller-Rabin 和 AKS 系统比较素性测试。"
+    },
+    {
+      "title": "如何巧妙证明 2³²＋1 为合数？",
+      "url": "https://www.zhihu.com/answer/573907034",
+      "summary": "正文给出 2^32+1 的合数判定与试除方法。"
+    },
+    {
+      "title": "如何编程判断一个数是否是质数？",
+      "url": "https://www.zhihu.com/answer/574767625",
+      "summary": "正文按适用范围和特殊形式分类讲解试除、概率测试和确定性证明算法。"
+    },
+    {
+      "title": "数学上有哪些非常奇葩的证明？",
+      "url": "https://www.zhihu.com/answer/593282406",
+      "summary": "正文以明确因数分解完成合数判定。"
+    },
+    {
+      "title": "素数的 Willans 公式是否正确？",
+      "url": "https://www.zhihu.com/answer/595009063",
+      "summary": "正文用 Wilson 定理构造素性判定函数。"
+    },
+    {
+      "title": "数学家科尔究竟用什么数学技巧分解了梅森数 M67?",
+      "url": "https://www.zhihu.com/answer/601602312",
+      "summary": "正文解释历史上的因数分解与素性判定计算。"
+    },
+    {
+      "title": "156 是质数还是合数？",
+      "url": "https://www.zhihu.com/answer/645343396",
+      "summary": "把模幂余数作为合数见证进行素性检验。"
+    },
+    {
+      "title": "求十亿内所有质数的和，怎么做最快?",
+      "url": "https://www.zhihu.com/answer/882461056",
+      "summary": "系统推导 Min_25 筛及其筛去合数的机制。"
+    },
+    {
+      "title": "公民身份号码有可能是素数吗？",
+      "url": "https://www.zhihu.com/answer/970381488",
+      "summary": "正文给出用 PrimeQ 与 NextPrime 检验素数的可执行方法。"
+    },
+    {
+      "title": "公民身份号码有可能是素数吗？",
+      "url": "https://www.zhihu.com/answer/974589248",
+      "summary": "正文先估算概率，再用 Mathematica 的 PrimeQ 构造素数身份证实例。"
+    },
+    {
+      "title": "如果有一个人见到一个整数就能立刻分解质因数，那么这个人怎样才能发挥他的最大价值?",
+      "url": "https://www.zhihu.com/answer/1293502590",
+      "summary": "正文把超大整数分解视为 RSA 安全性的关键困难。"
+    },
+    {
+      "title": "请问是质数更多还是合数更多还是一样多？",
+      "url": "https://www.zhihu.com/answer/1420073120",
+      "summary": "正文从可数势和素数定理比较质数与合数。"
+    },
+    {
+      "title": "2333……是质数吗？",
+      "url": "https://www.zhihu.com/answer/1429721139",
+      "summary": "正文通过分解式判断重复数字整数不是质数。"
+    },
+    {
+      "title": "2003年IMO第六题是如何想出或推导出构造方式的?",
+      "url": "https://www.zhihu.com/answer/1706463656",
+      "summary": "正文围绕素因子的形式 p k+1 讨论素数判定与构造。"
+    },
+    {
+      "title": "如何证明 n² + n + 41 在 n = 0，1，2，…，39 时都是素数？",
+      "url": "https://www.zhihu.com/answer/1751661643",
+      "summary": "正文直接讨论或推导「质数判定」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "1234567891011……293031是素数吗？如何判断？",
+      "url": "https://www.zhihu.com/answer/2089986515",
+      "summary": "正文通过显式分解判断大整数不是素数，并说明因数检验。"
+    },
+    {
+      "title": "怎么证明2³²+1不是素数？",
+      "url": "https://www.zhihu.com/answer/2104338184",
+      "summary": "正文直接分解 2^32+1 为 641 与 6700417 的乘积，从而判定合数。"
+    },
+    {
+      "title": "怎么证明2³²+1不是素数？",
+      "url": "https://www.zhihu.com/answer/2107635647",
+      "summary": "正文用试除判据验证费马数 2^32+1 的素因子。"
+    },
+    {
+      "title": "怎么证明2³²+1不是素数？",
+      "url": "https://www.zhihu.com/answer/2111467214",
+      "summary": "正文用代数变形找到 2^32+1 的因子 641。"
+    },
+    {
+      "title": "怎么证明2³²+1不是素数？",
+      "url": "https://www.zhihu.com/answer/2111824833",
+      "summary": "正文用费马小定理和因子形式逐步判定 2^32+1 为合数。"
+    },
+    {
+      "title": "能分享一道如果“注意不到”就出不来的数学题吗？",
+      "url": "https://www.zhihu.com/answer/2174879250",
+      "summary": "正文说明通过有限枚举验证该数是最小满足条件的解。"
+    },
+    {
+      "title": "怎么证明2³²+1不是素数？",
+      "url": "https://www.zhihu.com/answer/2285279106",
+      "summary": "正文通过给出因数分解直接判定该数为合数。"
+    },
+    {
+      "title": "目前为止判断一个数是否为素数的最快方法是什么？",
+      "url": "https://www.zhihu.com/answer/2344596629",
+      "summary": "正文比较概率型素性检验、ECPP 与 AKS 算法。"
+    },
+    {
+      "title": "有哪些长得像质数的合数？",
+      "url": "https://www.zhihu.com/answer/2563374755",
+      "summary": "正文系统给出 20 以内素因子的快速判定方法，并用平方差分解说明如何识别和分解看似素数的合数。"
+    },
+    {
+      "title": "有哪些长得像质数的合数？",
+      "url": "https://www.zhihu.com/answer/2563564148",
+      "summary": "正文定义形如 2^(2^n)+1 的费马数，并借助 4294967297 的显式分解说明其合数性与判定线索。"
+    },
+    {
+      "title": "有哪些长得像质数的合数？",
+      "url": "https://www.zhihu.com/answer/2576639163",
+      "summary": "借筛 100 以内质数的过程说明如何用倍数与因数判定合数。"
+    },
+    {
+      "title": "有哪些长得像质数的合数？",
+      "url": "https://www.zhihu.com/answer/2593321434",
+      "summary": "给出一个连续通过 306 次 Miller-Rabin 测试的合数反例，说明概率素性检验的局限。"
+    },
+    {
+      "title": "已知p是一个质数。如何求证：p的平方+26一定不是质数？",
+      "url": "https://www.zhihu.com/answer/2659864419",
+      "summary": "分 p=3 与 p≠3 两种情况判定 p²+26 始终不是质数。"
+    },
+    {
+      "title": "请问2^2^2^2+3^3^3^3是否为素数呢？",
+      "url": "https://www.zhihu.com/answer/2666733238",
+      "summary": "通过给出各层幂塔和的最小质因数，判定相应整数为合数，并讨论质因数搜索。"
+    },
+    {
+      "title": "已知p是一个质数。如何求证：p的平方+26一定不是质数？",
+      "url": "https://www.zhihu.com/answer/2677035435",
+      "summary": "正文分 p=2 与 p>2 两类计算并证明 p^2+26 始终不是质数，完整展开了质数判定论证。"
+    },
+    {
+      "title": "3^3^3^3+4是不是素数？",
+      "url": "https://www.zhihu.com/answer/2684168262",
+      "summary": "正文具体讨论巨大整数 3^(3^(3^3))+4 的素性判定，介绍试除范围和素因数搜索的计算实践。"
+    },
+    {
+      "title": "有哪些长得像质数的合数？",
+      "url": "https://www.zhihu.com/answer/2695401362",
+      "summary": "正文应用费马二次检验，通过底数 2 的幂模 N 结果执行质数判定。"
+    },
+    {
+      "title": "葛立恒数+2是质数还是合数?",
+      "url": "https://www.zhihu.com/answer/2729617223",
+      "summary": "正文通过找到明确质因子并排除更小的质因子，证明葛立恒数加二是合数。"
+    },
+    {
+      "title": "离葛立恒数最近的质数是多少？",
+      "url": "https://www.zhihu.com/answer/2744896813",
+      "summary": "正文用寻找小质因数的方式排除候选整数，实质上是在讨论这些数的素性判定进度。"
+    },
+    {
+      "title": "怎么判断一个孩子有没有数学天赋？",
+      "url": "https://www.zhihu.com/answer/2789372480",
+      "summary": "正文说明威尔逊同余式构成判定一个数是否为素数的充要条件。"
+    },
+    {
+      "title": "为什么1/23和1/29的循环节如此相似？",
+      "url": "https://www.zhihu.com/answer/2804952319",
+      "summary": "正文给出 is_prime 函数，用从 3 到平方根范围的奇数试除来判断整数是否为素数。"
+    },
+    {
+      "title": "2023 是质数吗？",
+      "url": "https://www.zhihu.com/answer/2827487123",
+      "summary": "正文给出并解释一种按三位分组判断 7、11、13 整除性的质数因子检验方法。"
+    },
+    {
+      "title": "2023 是质数吗？",
+      "url": "https://www.zhihu.com/answer/2827958398",
+      "summary": "正文通过 2023=7×17×17 的因数分解，直接判断 2023 不是质数，展示了质数判定的基本方法。"
+    },
+    {
+      "title": "p,p+2,p+4都是质数，要怎么证明p＝3？",
+      "url": "https://www.zhihu.com/answer/2838476138",
+      "summary": "正文排除 p＞3 的全部情形，证明三个数同时为质数只可能发生在 p=3，完成了一项质数条件判定。"
+    },
+    {
+      "title": "11，111，1111，11111，… 这个数列中仅有一个质数吗？怎么证明或证伪？",
+      "url": "https://www.zhihu.com/answer/3036372705",
+      "summary": "正文介绍用 fast ECPP 证明 R_86453 为素数，并与 AKS、原始 ECPP 对比渐近复杂度及实际验证成本。"
+    },
+    {
+      "title": "张益唐直播力挺「陈景润证明1+2」的研究意义，陈景润的学术贡献是否被低估了？",
+      "url": "https://www.zhihu.com/answer/3187445579",
+      "summary": "正文利用只需检验不超过平方根的素因子这一结论，具体说明埃拉托斯特尼筛法的质数判定逻辑。"
+    },
+    {
+      "title": "2^924+1是质数吗？",
+      "url": "https://www.zhihu.com/answer/3239406969",
+      "summary": "正文利用奇数指数下 a^n+b^n 可被 a+b 整除，将原数化为有因子 17 的形式，从而判定其为合数。"
+    },
+    {
+      "title": "数学史上有哪些数字或规模很大的反例？",
+      "url": "https://www.zhihu.com/answer/3469292942",
+      "summary": "正文给出费马数 F5 的因子分解，并由存在非平凡因子判定 F5 不是素数。"
+    },
+    {
+      "title": "丘成桐说陈景润不伟大，这是不是胡说?",
+      "url": "https://www.zhihu.com/answer/3542742292",
+      "summary": "正文详细说明埃拉托斯特尼筛法及只需检验不超过平方根的素因子即可判定素数。"
+    },
+    {
+      "title": "已知p是一个质数。如何求证：p的平方+26一定不是质数？",
+      "url": "https://www.zhihu.com/answer/3546509804",
+      "summary": "正文按 p 是否等于 2、3 或大于 3 分类验证表达式，结论是它一定不是质数。"
+    },
+    {
+      "title": "我发现了当今最大的素数，数学界怎么判断我这是真的还是瞎编的？",
+      "url": "https://www.zhihu.com/answer/19081505133",
+      "summary": "正文系统介绍试除法、Wilson 检验、费马检验、Miller-Rabin 和 Lucas-Lehmer 等素性判定方法。"
+    },
+    {
+      "title": "我发现了当今最大的素数，数学界怎么判断我这是真的还是瞎编的？",
+      "url": "https://www.zhihu.com/answer/22123869098",
+      "summary": "正文具体介绍梅森素数用两次 Lucas-Lehmer 测试复核，以及素性证书用于证明大数确为素数，对应质数判定。"
+    },
+    {
+      "title": "有没有这样一个质数，去掉一位后也是质数，再去掉一位后又是质数，直到只剩一位数还是质数？",
+      "url": "https://www.zhihu.com/answer/53125339712",
+      "summary": "正文用数字 1、偶数字、5 和重复数位造成的整除关系逐项判定候选数，并缩小到 23、37、53、73。"
+    },
+    {
+      "title": "凭什么千恋万花里质数都数不明白的高中生能泡到6个妞？",
+      "url": "https://www.zhihu.com/answer/79714793392",
+      "summary": "正文以 337 之后的候选数为对象，依次用 2、3、5、7、11、13、17、19 试除，实际展示了判断素数并寻找下一个素数的流程。"
+    },
+    {
+      "title": "某大数爱好者说她发现了世界上已知最大素数3^3^3^3+1×4,这是真的吗？",
+      "url": "https://www.zhihu.com/answer/123883547337",
+      "summary": "正文用 Wolfram 指令检验候选素因子，并据此讨论巨型整数是否为素数。"
+    },
+    {
+      "title": "为何找不出一个生成全部素数的公式？",
+      "url": "https://www.zhihu.com/answer/1967176786543640935",
+      "summary": "正文指出示例素数公式实质是借助Wilson定理逐个数进行素性判别，强调高效素数判定才是关键。"
+    },
+    {
+      "title": "为何找不出一个生成全部素数的公式？",
+      "url": "https://www.zhihu.com/answer/1967185624911057124",
+      "summary": "正文先构造包含素数与合数的候选序列，再用筛法剔除合数，说明一种素性判别流程。"
+    },
+    {
+      "title": "如何证明 23333333333 是素数？",
+      "url": "https://www.zhihu.com/answer/2060560517111063698",
+      "summary": "正文系统讲解卢卡斯素性判据以及 Pratt 证书如何递归证明一个数为素数。"
+    },
+    {
+      "title": "数学天才会不会遇到让自己CPU干冒烟的数学题？",
+      "url": "https://www.zhihu.com/answer/2060669351649453915",
+      "summary": "正文用试除到平方根的方法判定 2053 是素数，并进一步分解 p-1 检查原根条件。"
+    },
+    {
+      "title": "如何优雅的证明4583333333333333是质数？（13个3）？",
+      "url": "https://www.zhihu.com/answer/2061146184459236112",
+      "summary": "正文用试除法逐项检查不超过平方根的所有质数，并以余数均非零判定该数为质数。"
+    },
+    {
+      "title": "五号计算机",
+      "url": "https://zhuanlan.zhihu.com/p/27611327",
+      "summary": "正文给出用从2到平方根逐一取模来判定质数的具体算法，属于质数判定方法。"
+    },
+    {
+      "title": "数论及数论四大定理",
+      "url": "https://zhuanlan.zhihu.com/p/33619702",
+      "summary": "正文利用伪素数讨论费马检验的反向失效，并给出素数判定与筛法代码。"
+    },
+    {
+      "title": "人教版五年级数学（下册）知识要点（一）",
+      "url": "https://zhuanlan.zhihu.com/p/38956619",
+      "summary": "正文给出用 2、3、5、7、11、13 等倍数排除合数、在 100 以内判定质数的方法。"
+    },
+    {
+      "title": "神奇的素数",
+      "url": "https://zhuanlan.zhihu.com/p/43937838",
+      "summary": "正文把威尔森定理作为素数判别法，解释其公式并利用互质数的模逆配对完成证明。"
+    },
+    {
+      "title": "一名程序员意外发现迄今最大素数，长约25000000位！",
+      "url": "https://zhuanlan.zhihu.com/p/53455096",
+      "summary": "正文具体讲解埃拉托斯特尼筛法如何逐步排除合数，并联系计算机搜索梅森素数的判定与验证。"
+    },
+    {
+      "title": "模（Mod）运算的运算法则、公式（不包括同余关系）",
+      "url": "https://zhuanlan.zhihu.com/p/60533528",
+      "summary": "正文用威尔逊定理的充要条件说明如何借助阶乘模 p 判定 p 是否为质数，并给出 2027 的例子。"
+    },
+    {
+      "title": "费马小定理（Fermat's Little Theorem）",
+      "url": "https://zhuanlan.zhihu.com/p/87611586",
+      "summary": "正文说明费马小定理可作为素数检验的必要条件，并指出卡迈克尔数反例。"
+    },
+    {
+      "title": "怎样优雅地判断一个数是不是质数？",
+      "url": "https://zhuanlan.zhihu.com/p/113815619",
+      "summary": "正文围绕素性判定逐层介绍试除、埃拉托斯特尼筛法、费马检验、Miller-Rabin 与确定性多项式算法。"
+    },
+    {
+      "title": "关于从埃氏筛到线性筛你不会想知道的那些事（证明，慎入）",
+      "url": "https://zhuanlan.zhihu.com/p/124068032",
+      "summary": "正文比较埃氏筛与线性筛，证明筛法中未划去的数为何是素数，并说明合数只由最小质因数筛去。"
+    },
+    {
+      "title": "算法学习笔记(48): 米勒-拉宾素性检验",
+      "url": "https://zhuanlan.zhihu.com/p/220203643",
+      "summary": "正文完整解释米勒-拉宾素性检验的平方序列判定、固定底数集合和实现流程。"
+    },
+    {
+      "title": "刷算法题必备的数学考点汇总",
+      "url": "https://zhuanlan.zhihu.com/p/301338035",
+      "summary": "正文系统讲解试除法判定质数、埃拉托斯特尼筛法以及最小质因子预筛。"
+    },
+    {
+      "title": "【朝夕的ACM笔记】数论-Miller Rabin素数判定",
+      "url": "https://zhuanlan.zhihu.com/p/349360074",
+      "summary": "正文完整讲解 Miller Rabin 素性检验的判定准则、底数选取和代码实现，用于判断整数是否为素数。"
+    },
+    {
+      "title": "群论观点下的费尔马小定理",
+      "url": "https://zhuanlan.zhihu.com/p/382764463",
+      "summary": "正文说明费尔马小定理可作为概率性质数判定测试，并讨论逆命题不成立的限制。"
+    },
+    {
+      "title": "用最简单的方式解释黎曼猜想（二），黎曼ζ函数，素数之门的金钥匙",
+      "url": "https://zhuanlan.zhihu.com/p/448772977",
+      "summary": "正文用埃拉托色尼筛选法逐步剔除合数，具体说明判定素数的方法。"
+    },
+    {
+      "title": "威尔逊定理 —— 数论四大定理之一",
+      "url": "https://zhuanlan.zhihu.com/p/452976375",
+      "summary": "正文利用威尔逊定理把取整差构造成素数指示量，再通过筛法预先判定素数。"
+    },
+    {
+      "title": "17岁高中生证明数学界存在27年难题，「他的论文值得任何数学家为之自豪」",
+      "url": "https://zhuanlan.zhihu.com/p/573983616",
+      "summary": "正文以费马小定理说明素性测试，并解释卡迈克尔数为何能通过该类测试。"
+    },
+    {
+      "title": "[数学科普] 新一代数学家突破素数障碍",
+      "url": "https://zhuanlan.zhihu.com/p/664793143",
+      "summary": "正文完整说明埃拉托色尼筛法如何逐步排除合数并判定给定范围内的素数。"
+    },
+    {
+      "title": "速通初等数论",
+      "url": "https://zhuanlan.zhihu.com/p/678934867",
+      "summary": "正文指出只需检查不超过平方根的素因子即可判定较小整数的素合性，并说明其在基础判定算法中的用途。"
+    },
+    {
+      "title": "人类已知最大素数诞生：2¹³⁶²⁷⁹⁸⁴¹−1！前英伟达员工数千GPU爆肝算出，高达4100万位",
+      "url": "https://zhuanlan.zhihu.com/p/3295509719",
+      "summary": "正文说明先用费马可能素数测试筛选，再用多个 Lucas-Lehmer 判定程序严格确认新素数。"
+    },
+    {
+      "title": "一个函数「统一」所有初等函数",
+      "url": "https://zhuanlan.zhihu.com/p/2027489055898710673",
+      "summary": "正文实质描述了一个通过试除、条件判断和步进更新实现的素数判定算法。"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080f1d" />
+  <meta name="description" content="探索七层数学知识冰山：39 个主题，200 个可展开分支。" />
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <link rel="preload" as="image" href="./assets/iceberg-master-v1.png" />
+  <link rel="stylesheet" href="./styles.css?v=13" />
+  <link rel="stylesheet" href="./layers.css?v=12" />
+  <link rel="stylesheet" href="./panels.css?v=13" />
+  <link rel="stylesheet" href="./responsive.css?v=13" />
+  <link rel="stylesheet" href="./taxonomy.css?v=14" />
+  <link rel="stylesheet" href="./floating-window.css?v=4" />
+  <title>数学知识冰山 · 七层知识海图</title>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="数学知识冰山首页">数学知识冰山</a>
+    <span class="brand-caption">MATHEMATICS / BELOW THE SURFACE</span>
+    <span class="topbar-hint">七层知识 · 点击节点深入</span>
+    <span class="demo-badge" id="datasetBadge">39 个主题 · 200 个知识分支</span>
+  </header>
+  <main class="workspace" id="workspace">
+    <section class="iceberg-viewport" id="icebergViewport" aria-label="七层数学知识冰山">
+      <div class="scene" id="scene">
+        <div class="iceberg-art" aria-hidden="true">
+          <div class="art-surface"><img src="./assets/iceberg-master-v1.png" alt="" fetchpriority="high" draggable="false" /></div>
+          <div class="art-underwater"><img src="./assets/iceberg-master-v1.png" alt="" draggable="false" /></div>
+        </div>
+        <div class="depth-bands" aria-hidden="true">
+          <div class="band band-intro"></div><div class="band band-foundation"></div>
+          <div class="band band-advanced"></div><div class="band band-higher"></div>
+          <div class="band band-abstract"></div><div class="band band-frontier"></div>
+        </div>
+        <p class="map-intro">从熟悉的计算，走向数学的深处。</p>
+        <p class="waterline-caption">水线 / 从直觉潜入理论</p>
+        <ol class="layer-labels" aria-label="知识深度，越向下越抽象">
+          <li data-depth="intro"><span>01</span><div><h2>海面之上</h2><p>日常直觉 · 熟悉的计算</p></div></li>
+          <li data-depth="foundation"><span>02</span><div><h2>浅水</h2><p>基础语言 · 符号与关系</p></div></li>
+          <li data-depth="advanced"><span>03</span><div><h2>中层</h2><p>变化与推理</p></div></li>
+          <li data-depth="higher"><span>04</span><div><h2>深水</h2><p>高阶工具 · 复杂问题</p></div></li>
+          <li data-depth="abstract"><span>05</span><div><h2>深渊</h2><p>抽象结构 · 超越直觉</p></div></li>
+          <li data-depth="frontier"><span>06</span><div><h2>海沟</h2><p>数学前沿 · 广阔未知</p></div></li>
+        </ol>
+        <div class="nodes-layer" id="nodesLayer"></div>
+        <footer class="map-footer"><span>同一数学方向，可以从多个位置进入。</span><span>01 — 07 向下探索</span></footer>
+      </div>
+      <div class="focus-ui" id="focusUi" hidden>
+        <div class="viewport-toolbar">
+          <button class="back-button" id="backButton" type="button">← 返回全景</button>
+          <p id="breadcrumb"></p>
+        </div>
+        <svg class="graph-lines" id="graphLines" aria-hidden="true"></svg>
+        <div class="focus-layer" id="focusLayer"></div>
+        <div class="zoom-controls" aria-label="画布缩放">
+          <button id="zoomIn" type="button" aria-label="放大画布">＋</button>
+          <button id="zoomOut" type="button" aria-label="缩小画布">−</button>
+        </div>
+        <button class="read-discussions" id="readDiscussions" type="button">查看讨论 ↓</button>
+        <div class="minimap" aria-label="当前知识层级"><span id="depthPosition"></span><div class="mini-bands" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+      </div>
+    </section>
+    <aside class="discussion-panel" id="discussionPanel" hidden aria-labelledby="discussionTitle" tabindex="-1">
+      <button class="return-to-map" id="returnToMap" type="button">↑ 回到图谱</button>
+      <header class="discussion-header"><p class="eyebrow">数学知识 · 知乎内容</p><h2 id="discussionTitle"></h2></header>
+      <p class="node-summary" id="nodeSummary"></p>
+      <div id="relatedList" class="related-list" aria-label="全部关联概念"></div>
+      <div class="discussion-list" id="discussionList"></div>
+      <p class="panel-footer">点击内容标题查看知乎原文。社区观点与研究进展请结合原文发表时间阅读。</p>
+    </aside>
+    <p class="sr-only" id="announcement" aria-live="polite"></p>
+  </main>
+  <script src="./app.js?v=16" type="module"></script>
+  <script src="./floating-window.js?v=2" type="module"></script>
+</body>
+</html>

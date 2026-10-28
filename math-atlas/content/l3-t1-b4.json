@@ -1,0 +1,4306 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t1-b4",
+  "sources": [
+    {
+      "title": "有哪些大学的定理、公式、概念、方法等可以应用于高中解题或帮助高中生深入理解知识？",
+      "url": "https://www.zhihu.com/answer/39646400",
+      "summary": "正文给出均值不等式及由非负平方得到的不等式证明。"
+    },
+    {
+      "title": "已知非负数 a≤1，b≤1，c≤1，求证 ab√(1-c)+ac√(1-b)+bc√(1-a)≤1？",
+      "url": "https://www.zhihu.com/answer/62382472",
+      "summary": "正文通过代换和整理证明给定不等式。"
+    },
+    {
+      "title": "是不是很多放缩的题的题目都很简单答案却很复杂？为什么？",
+      "url": "https://www.zhihu.com/answer/71956633",
+      "summary": "正文具体展开连乘不等式的放缩、展开和各阶项大小比较。"
+    },
+    {
+      "title": "有哪些形式简单却很难证明的不等式？",
+      "url": "https://www.zhihu.com/answer/72673794",
+      "summary": "正文给出并证明两个代数不等式。"
+    },
+    {
+      "title": "有哪些形式简单却很难证明的不等式？",
+      "url": "https://www.zhihu.com/answer/72726483",
+      "summary": "正文集中展示代数不等式、证明方法及相关资料。"
+    },
+    {
+      "title": "在高中的学习中，有哪一瞬间你觉得自己真正懂了一个对高考卷解题有大用的东西？",
+      "url": "https://www.zhihu.com/answer/83750216",
+      "summary": "正文系统构造数列放缩并证明多个和式不等式。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/91888282",
+      "summary": "正文以一道人工作大量通分计算的不等式竞赛题为例。"
+    },
+    {
+      "title": "有哪些考试的蒙题诀窍？",
+      "url": "https://www.zhihu.com/answer/93572889",
+      "summary": "正文以基本不等式取等条件介绍考试时估计最值答案的方法。"
+    },
+    {
+      "title": "有没有一本适合数学系本科，系统介绍不等式的书？",
+      "url": "https://www.zhihu.com/answer/103823262",
+      "summary": "正文推荐一本以证明直觉和练习系统介绍数学不等式的专著。"
+    },
+    {
+      "title": "如何证明n！大于((n+1)/e)^n？",
+      "url": "https://www.zhihu.com/answer/106990554",
+      "summary": "正文把一组基本不等式连乘，严格推出阶乘下界。"
+    },
+    {
+      "title": "上大学学了高等数学之后看高中的数学题是一种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/110712103",
+      "summary": "正文随后给出调和平均、几何平均、算术平均和平方平均的不等式链，并继续讨论幂平均。"
+    },
+    {
+      "title": "如何证明正定矩阵的行列式不大于其对角线元素之积 ( Hadamard 第二不等式）？",
+      "url": "https://www.zhihu.com/answer/117033651",
+      "summary": "正文证明 Hadamard 第二不等式并使用 Jensen 不等式。"
+    },
+    {
+      "title": "宋骞数学秒杀法真的有效吗？",
+      "url": "https://www.zhihu.com/answer/125331300",
+      "summary": "正文明确以不等式放缩作为中学常用、需练习的解题技术。"
+    },
+    {
+      "title": "有哪些数学问题有经典的物理学证明或解释？",
+      "url": "https://www.zhihu.com/answer/125933938",
+      "summary": "正文用相似三角形图解证明算术—几何平均不等式。"
+    },
+    {
+      "title": "所有的代数不等式都可以配方证明么？",
+      "url": "https://www.zhihu.com/answer/145606391",
+      "summary": "正文用平方和分解证明齐次多项式和多项式不等式的非负性。"
+    },
+    {
+      "title": "有哪些时刻，让你觉得数学很美？",
+      "url": "https://www.zhihu.com/answer/147563032",
+      "summary": "正文给出幂均值型不等式，并用棱锥与长方体体积关系说明n=3情形。"
+    },
+    {
+      "title": "有哪些具有特殊性质的数字？",
+      "url": "https://www.zhihu.com/answer/184096929",
+      "summary": "正文连续利用不等式限制 p 与 k 的范围并排除其余情况；末尾也说明素数条件实际并未使用。"
+    },
+    {
+      "title": "有哪些高中教材不要求但高考解题时非常好用的知识？",
+      "url": "https://www.zhihu.com/answer/193587883",
+      "summary": "正文用柯西不等式及取等条件求椭圆切线和最小距离。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/238223764",
+      "summary": "正文解释用上下界不等式替代难以精确计算的结果。"
+    },
+    {
+      "title": "切比雪夫不等式到底是个什么概念?",
+      "url": "https://www.zhihu.com/answer/248693398",
+      "summary": "正文直观解释并推导马尔科夫与切比雪夫概率不等式。"
+    },
+    {
+      "title": "Legendre-Fenchel 变换的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/280035913",
+      "summary": "正文说明 Fenchel 不等式如何统一解释对偶问题。"
+    },
+    {
+      "title": "求大神解释洛必达法则琴生不等式、拉格朗日？",
+      "url": "https://www.zhihu.com/answer/283869748",
+      "summary": "正文说明 Jensen 不等式建立在凸函数之上。"
+    },
+    {
+      "title": "有什么关于数学竞赛不等式你所知道的知识吗？",
+      "url": "https://www.zhihu.com/answer/317773357",
+      "summary": "正文系统讲解竞赛不等式的放缩、齐次化、标准化与常用方法。"
+    },
+    {
+      "title": "这个代数问题是否对所有整数都有解？",
+      "url": "https://www.zhihu.com/answer/325508014",
+      "summary": "正文通过不等式变形限制整数解。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/390236745",
+      "summary": "正文通过分类讨论解含策略概率的二元不等式。"
+    },
+    {
+      "title": "数学思维在生活中有多大用处？",
+      "url": "https://www.zhihu.com/answer/400044862",
+      "summary": "正文建立成本不等式并求解砍价上界。"
+    },
+    {
+      "title": "如何理解 Jensen 不等式？",
+      "url": "https://www.zhihu.com/answer/436465144",
+      "summary": "正文从凸函数定义推导 Jensen 不等式。"
+    },
+    {
+      "title": "有哪些看起来很难但做起来很简单的数学题？",
+      "url": "https://www.zhihu.com/answer/444169557",
+      "summary": "正文通过零点位置估计证明两根之和的不等式。"
+    },
+    {
+      "title": "如何定义数学工作者所说的“分析功底”？",
+      "url": "https://www.zhihu.com/answer/453480247",
+      "summary": "正文强调分析研究中不等式估计的核心作用。"
+    },
+    {
+      "title": "为什么没有最大的锐角？",
+      "url": "https://www.zhihu.com/answer/525168754",
+      "summary": "用严格不等式说明任一锐角与直角之间仍有更大的锐角。"
+    },
+    {
+      "title": "有哪些高中教材不要求但高考解题时非常好用的知识？",
+      "url": "https://www.zhihu.com/answer/542010157",
+      "summary": "正文介绍权方和不等式及其在二元、三元题中的使用。"
+    },
+    {
+      "title": "有哪些高中教材不要求但高考解题时非常好用的知识？",
+      "url": "https://www.zhihu.com/answer/545197471",
+      "summary": "正文具体整理分式不等式、绝对值不等式、均值不等式和柯西不等式。"
+    },
+    {
+      "title": "如何证明贝努利不等式？",
+      "url": "https://www.zhihu.com/answer/548370752",
+      "summary": "正文定义并用多种方法证明伯努利不等式。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/548409712",
+      "summary": "正文用拉格朗日恒等式完整证明柯西不等式。"
+    },
+    {
+      "title": "有哪些高中教材不要求但高考解题时非常好用的知识？",
+      "url": "https://www.zhihu.com/answer/565059788",
+      "summary": "讲解对数均值不等式及其在估计中的应用。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/612931941",
+      "summary": "正文证明一个分式不等式。"
+    },
+    {
+      "title": "请问一下，这是一道高中数学的压轴题的我的做法，这种做法是否严谨，是否会被扣分？",
+      "url": "https://www.zhihu.com/answer/618593683",
+      "summary": "正文通过不等式严格验证相切与唯一交点。"
+    },
+    {
+      "title": "中学数学中有哪些有趣的问题？",
+      "url": "https://www.zhihu.com/answer/620228682",
+      "summary": "正文完整推导指数对数不等式。"
+    },
+    {
+      "title": "如何证明a³+b³+1≥3ab？",
+      "url": "https://www.zhihu.com/answer/653852327",
+      "summary": "因式分解三次式并给出不等式成立的必要条件。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/685636686",
+      "summary": "把多项式不等式改写为三个平方和来证明非负。"
+    },
+    {
+      "title": "可否手算出 5⁴³²¹ 与 4⁵⁰¹⁶ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/722282099",
+      "summary": "把大小比较化为可验证的不等式。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/726585073",
+      "summary": "通过等价变形和有理数估计比较幂的大小。"
+    },
+    {
+      "title": "n! 开 n 次方（n→∞），如何取极限？",
+      "url": "https://www.zhihu.com/answer/729010007",
+      "summary": "逐项建立乘积不等式完成证明。"
+    },
+    {
+      "title": "不等式的证明的配凑过程是空中楼阁吗？",
+      "url": "https://www.zhihu.com/answer/738509021",
+      "summary": "系统讲解不等式放缩、取等与规范化策略。"
+    },
+    {
+      "title": "高中数学有没有什么比较牛 X 的公式？",
+      "url": "https://www.zhihu.com/answer/738581219",
+      "summary": "正文介绍柯西不等式及其用途。"
+    },
+    {
+      "title": "如何证明 Aczel 不等式？",
+      "url": "https://www.zhihu.com/answer/749521415",
+      "summary": "给出Aczel不等式的完整判别式证明。"
+    },
+    {
+      "title": "怎么理解对数均值不等式？",
+      "url": "https://www.zhihu.com/answer/781358966",
+      "summary": "由柯西均值不等式推导对数均值上下界。"
+    },
+    {
+      "title": "据说是北大某年大一高代的最后一题？虽然很难，但就是想知道解答过程，还请会的大佬可怜可怜我这弱渣吧 ？",
+      "url": "https://www.zhihu.com/answer/783421364",
+      "summary": "用 Hardy 与 Cauchy 不等式估计特征值。"
+    },
+    {
+      "title": "有什么看似简单，但却需要巧妙思维的数学题目？",
+      "url": "https://www.zhihu.com/answer/785107656",
+      "summary": "通过代换与配方证明实变量不等式。"
+    },
+    {
+      "title": "n 的 n 次方根接近于多少？",
+      "url": "https://www.zhihu.com/answer/785225563",
+      "summary": "由均值不等式夹逼目标量。"
+    },
+    {
+      "title": "如何用十分中二的方式解数学题？",
+      "url": "https://www.zhihu.com/answer/791745477",
+      "summary": "通过因式分解证明代数不等式。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/793673686",
+      "summary": "用电阻网络给出不等式的物理证明。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/794457085",
+      "summary": "用三角形不等式与 Cauchy 型关系讨论范数。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/794773521",
+      "summary": "指出柯西施瓦茨不等式多种形式可由判别式证明。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/800470853",
+      "summary": "正文在非负与单调条件下推导函数的不等式上界。"
+    },
+    {
+      "title": "如何比较 cos 38° 和 tan 38° 的大小？",
+      "url": "https://www.zhihu.com/answer/801156960",
+      "summary": "通过缩小 t 的上下界并判断多项式正负完成不等式比较。"
+    },
+    {
+      "title": "如何比较 cos 38° 和 tan 38° 的大小？",
+      "url": "https://www.zhihu.com/answer/831874092",
+      "summary": "把比较问题化为多项式和正弦不等式证明。"
+    },
+    {
+      "title": "谁能给我简单的讲一讲洛必达法则？",
+      "url": "https://www.zhihu.com/answer/846471081",
+      "summary": "用不等式控制极限并辨析适用条件。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/852235325",
+      "summary": "围绕自拟不等式给出证明和推广。"
+    },
+    {
+      "title": "如何用算数均值不等式证明1+1/n的n+1次方单调递减且有下界？",
+      "url": "https://www.zhihu.com/answer/853759225",
+      "summary": "用算术平均与调和平均不等式证明单调有界。"
+    },
+    {
+      "title": "如何直观理解马尔可夫不等式？",
+      "url": "https://www.zhihu.com/answer/893484654",
+      "summary": "用 Markov 不等式估计尾部事件。"
+    },
+    {
+      "title": "怎么证明函数在一个区间内连续？",
+      "url": "https://www.zhihu.com/answer/893526237",
+      "summary": "通过夹逼与不等式估计证明连续。"
+    },
+    {
+      "title": "Hardy 不等式有没有简洁美妙的证明？",
+      "url": "https://www.zhihu.com/answer/956711672",
+      "summary": "正文陈述并用广义 Minkowski 不等式证明 Hardy 不等式。"
+    },
+    {
+      "title": "高中阶段，如何证明 x²e^x－lnx＞1 成立？",
+      "url": "https://www.zhihu.com/answer/996630621",
+      "summary": "全文是在完成一个不等式证明。"
+    },
+    {
+      "title": "如何用高中数学知识证明 ln ln88＜3/2？",
+      "url": "https://www.zhihu.com/answer/1006677891",
+      "summary": "正文逐步估计指数值以证明目标不等式。"
+    },
+    {
+      "title": "如何用高中数学知识证明 ln ln88＜3/2？",
+      "url": "https://www.zhihu.com/answer/1016331691",
+      "summary": "正文利用对数平均不等式进行上下界估计。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/1021625347",
+      "summary": "正文通过放缩和降幂证明两个大幂数的不等关系。"
+    },
+    {
+      "title": "请问这个题目怎么解（问了很多老师没有结果）?",
+      "url": "https://www.zhihu.com/answer/1023036568",
+      "summary": "正文两次运用柯西不等式求约束最小值。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/1023865995",
+      "summary": "正文讲解比较大幂数大小的降幂方法。"
+    },
+    {
+      "title": "如何理解50个人中至少两个人生日相同的概率高达97%？",
+      "url": "https://www.zhihu.com/answer/1026757163",
+      "summary": "正文实质用均值不等式为该概率建立上界。"
+    },
+    {
+      "title": "如何证明这个不等式：(1+x)^(1/x)+(1+1/x)^x≤4？",
+      "url": "https://www.zhihu.com/answer/1030872358",
+      "summary": "正文通过凹性和对数估计完整证明目标不等式。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1050977678",
+      "summary": "正文构造并应用向量平方非负得到不等式。"
+    },
+    {
+      "title": "这个不等式怎么做？",
+      "url": "https://www.zhihu.com/answer/1071228627",
+      "summary": "正文从离散不等式逐步放缩证明目标积分不等式。"
+    },
+    {
+      "title": "如何严格证明 sinx＜x（0＜x＜π/2）？",
+      "url": "https://www.zhihu.com/answer/1071974129",
+      "summary": "正文通过级数上界严格证明目标不等式。"
+    },
+    {
+      "title": "10000⁴ 和 4¹⁰⁰⁰⁰，怎样比较大小？",
+      "url": "https://www.zhihu.com/answer/1079472436",
+      "summary": "正文通过同次幂的大小关系完成不等式比较。"
+    },
+    {
+      "title": "10000⁴ 和 4¹⁰⁰⁰⁰，怎样比较大小？",
+      "url": "https://www.zhihu.com/answer/1081737655",
+      "summary": "正文以传递不等式得出大小关系。"
+    },
+    {
+      "title": "10000⁴ 和 4¹⁰⁰⁰⁰，怎样比较大小？",
+      "url": "https://www.zhihu.com/answer/1082602815",
+      "summary": "正文用不等式链直接完成大小证明。"
+    },
+    {
+      "title": "如何严格证明 sinx＜x（0＜x＜π/2）？",
+      "url": "https://www.zhihu.com/answer/1082703474",
+      "summary": "正文以多种严格方法证明正弦不等式。"
+    },
+    {
+      "title": "10000⁴ 和 4¹⁰⁰⁰⁰，怎样比较大小？",
+      "url": "https://www.zhihu.com/answer/1082858671",
+      "summary": "正文给出明确的不等式链证明大小关系。"
+    },
+    {
+      "title": "10000⁴ 和 4¹⁰⁰⁰⁰，怎样比较大小？",
+      "url": "https://www.zhihu.com/answer/1083732240",
+      "summary": "正文用单调性和零点建立指数不等式。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1084729039",
+      "summary": "正文以单调性和对数不等式推出最终比较。"
+    },
+    {
+      "title": "这个极其复杂的高中导数（是否高中有待考究）题目，真的能做得出来的吗？",
+      "url": "https://www.zhihu.com/answer/1116805262",
+      "summary": "正文围绕目标不等式做换元与单调性证明。"
+    },
+    {
+      "title": "如何证明这个积分不等式？",
+      "url": "https://www.zhihu.com/answer/1120610860",
+      "summary": "正文用积分型柯西不等式建立关键估计。"
+    },
+    {
+      "title": "a，b，c，d 是正实数，且 a²＋b²＋c²＋d²＋abcd＝5，怎么证明 a＋b＋c＋d≤4？",
+      "url": "https://www.zhihu.com/answer/1121219583",
+      "summary": "正文通过加强目标、均值不等式和因式分解完成证明。"
+    },
+    {
+      "title": "a，b，c，d 是正实数，且 a²＋b²＋c²＋d²＋abcd＝5，怎么证明 a＋b＋c＋d≤4？",
+      "url": "https://www.zhihu.com/answer/1124608165",
+      "summary": "正文将目标不等式化为平方和并证明非负。"
+    },
+    {
+      "title": "导数公式是怎么来的，人教选修 2-2 没有给出证明，有点奇怪？",
+      "url": "https://www.zhihu.com/answer/1141561635",
+      "summary": "正文用导数、单调性与极限完整证明参数不等式在给定区间恒成立并求出参数范围。"
+    },
+    {
+      "title": "有什么定理初中没有讲，但做题很快？",
+      "url": "https://www.zhihu.com/answer/1141751137",
+      "summary": "正文给出基本不等式并在解析几何例题中应用。"
+    },
+    {
+      "title": "数学真的是一门有意义的学科吗?",
+      "url": "https://www.zhihu.com/answer/1146567143",
+      "summary": "正文区分Cauchy不等式与AG均值不等式并给出公式。"
+    },
+    {
+      "title": "1/(n+1)与ln(1+1/n)怎样比较大小？",
+      "url": "https://www.zhihu.com/answer/1149123729",
+      "summary": "正文以双边不等式比较对数与两个分式。"
+    },
+    {
+      "title": "只用1、2、3、4、5、6、7、8、9和0写出一个数字，每个数只用一次，能写出最大的数是多少？",
+      "url": "https://www.zhihu.com/answer/1169098989",
+      "summary": "正文通过幂大小比较和单调性证明数字排列得到最大值。"
+    },
+    {
+      "title": "什么是「奥利给」不等式？",
+      "url": "https://www.zhihu.com/answer/1169157083",
+      "summary": "正文定义并证明算术、对数、几何平均数不等式。"
+    },
+    {
+      "title": "数学上能不能说「2≥1」?",
+      "url": "https://www.zhihu.com/answer/1179128539",
+      "summary": "正文解释大于等于不等式在命题与取值范围语境中的含义。"
+    },
+    {
+      "title": "可以留下一个优美的不等式吗？",
+      "url": "https://www.zhihu.com/answer/1182622608",
+      "summary": "正文从柯西不等式出发，逐步推导广义不确定性不等式。"
+    },
+    {
+      "title": "如何证明不等式 sinx/x≥(π²－x²)/(π²＋x²)，x∈R？",
+      "url": "https://www.zhihu.com/answer/1183642375",
+      "summary": "正文分区间严格证明 Redheffer 不等式。"
+    },
+    {
+      "title": "有没有高中老师不讲，但知道了做题很有用的技巧?",
+      "url": "https://www.zhihu.com/answer/1186826633",
+      "summary": "正文围绕不等式放缩给出指数、对数、三角模型。"
+    },
+    {
+      "title": "可以留下一个优美的不等式吗？",
+      "url": "https://www.zhihu.com/answer/1186922865",
+      "summary": "正文定义优超关系并陈述 Karamata 不等式及应用。"
+    },
+    {
+      "title": "算术平均和几何平均之间还存在别的东西吗？",
+      "url": "https://www.zhihu.com/answer/1286775268",
+      "summary": "正文用幂平均给出调和、几何、算术和平方平均的不等式链。"
+    },
+    {
+      "title": "算术平均和几何平均之间还存在别的东西吗？",
+      "url": "https://www.zhihu.com/answer/1286794094",
+      "summary": "正文讨论二元均值不等式链及多种加细。"
+    },
+    {
+      "title": "算术平均和几何平均之间还存在别的东西吗？",
+      "url": "https://www.zhihu.com/answer/1289187912",
+      "summary": "正文用 Jensen 不等式和函数凹性构造均值不等式链。"
+    },
+    {
+      "title": "算术平均和几何平均之间还存在别的东西吗？",
+      "url": "https://www.zhihu.com/answer/1302003439",
+      "summary": "正文比较算术平均和几何平均并构造中间平均数。"
+    },
+    {
+      "title": "请问你见过的最强的公式是什么？",
+      "url": "https://www.zhihu.com/answer/1306170291",
+      "summary": "正文列出柯西-施瓦茨不等式。"
+    },
+    {
+      "title": "2020 年高考数学最后一道大题难吗？你能想出哪些「出其不意」的解法？",
+      "url": "https://www.zhihu.com/answer/1324886478",
+      "summary": "正文由两个初等函数构成的不等式来解释临界相切与参数范围。"
+    },
+    {
+      "title": "如何评价2020年上海高考数学?",
+      "url": "https://www.zhihu.com/answer/1326563640",
+      "summary": "正文用参数范围不等式讨论双曲线与圆的交点位置。"
+    },
+    {
+      "title": "解决导数含参不等式分参或直接讨论依据的是什么？",
+      "url": "https://www.zhihu.com/answer/1333767247",
+      "summary": "正文围绕含参不等式证明与参数范围讨论多种解法。"
+    },
+    {
+      "title": "在数学中有哪些利用数形结合的经典问题或应用？",
+      "url": "https://www.zhihu.com/answer/1341173766",
+      "summary": "正文把二次方程根的范围转化为参数平面区域，并通过斜率求不等式范围。"
+    },
+    {
+      "title": "如何证明哈代不等式?",
+      "url": "https://www.zhihu.com/answer/1406647279",
+      "summary": "正文给出 Hardy 不等式的表述与证明。"
+    },
+    {
+      "title": "如何证明 √a＋√b≠√(a＋b) （a，b 属于正数）?",
+      "url": "https://www.zhihu.com/answer/1437276299",
+      "summary": "正文直接讲解或推导“不等式”相关内容。"
+    },
+    {
+      "title": "一道小学奥赛，除了使用构造函数利用单调性，还有更巧妙的解法吗?",
+      "url": "https://www.zhihu.com/answer/1446789607",
+      "summary": "正文直接讲解或推导“不等式”相关内容。"
+    },
+    {
+      "title": "n的阶乘有哪些典型的放缩方式?",
+      "url": "https://www.zhihu.com/answer/1513704425",
+      "summary": "正文给出并证明多个阶乘不等式。"
+    },
+    {
+      "title": "如何比较 π－2 与 lnπ 的大小？",
+      "url": "https://www.zhihu.com/answer/1513786470",
+      "summary": "正文用连分式比较表达式大小。"
+    },
+    {
+      "title": "如何比较 π－2 与 lnπ 的大小？",
+      "url": "https://www.zhihu.com/answer/1514403970",
+      "summary": "正文构造辅助函数并利用导数证明目标不等式。"
+    },
+    {
+      "title": "√3＋1 和自然底数 e 的值怎么比较？",
+      "url": "https://www.zhihu.com/answer/1526004477",
+      "summary": "正文直接讨论不等式，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "数学家们用不等式做什么？",
+      "url": "https://www.zhihu.com/answer/1551424482",
+      "summary": "正文说明用双向不等式推出相等关系。"
+    },
+    {
+      "title": "如何证明任意大于 1 的自然数 n，有 1/2＋1/3＋1/4＋…＋1/n＜ln n ?",
+      "url": "https://www.zhihu.com/answer/1566641770",
+      "summary": "正文系统证明调和级数部分和小于对数的不等式。"
+    },
+    {
+      "title": "请问y=x^4/（x^4+1）有界吗？",
+      "url": "https://www.zhihu.com/answer/1579704053",
+      "summary": "正文用一个不等式直接证明函数值绝对值不超过 1。"
+    },
+    {
+      "title": "如何证明开区间的凸函数一定连续？",
+      "url": "https://www.zhihu.com/answer/1607280160",
+      "summary": "正文直接讨论或应用该叶节点主题（凸函数）。"
+    },
+    {
+      "title": "为何 (n!)² 比 nⁿ 更大？",
+      "url": "https://www.zhihu.com/answer/1651292681",
+      "summary": "正文用逐项比较证明阶乘平方与 n 次幂的不等式。"
+    },
+    {
+      "title": "n! 和 n²，哪个更大呢？",
+      "url": "https://www.zhihu.com/answer/1653970614",
+      "summary": "正文通过作商证明阶乘与平方大小关系。"
+    },
+    {
+      "title": "关于函数 f(x)＝x－lnx－m 的零点问题，无法用极值点偏移解决，如何处理？",
+      "url": "https://www.zhihu.com/answer/1688481412",
+      "summary": "正文处理含对数函数的零点与不等式估计。"
+    },
+    {
+      "title": "如何不用计算机比较ln3和1.1的大小？",
+      "url": "https://www.zhihu.com/answer/1702273035",
+      "summary": "正文给出 ln3 的数值并将其与 1.1 作直接大小比较，属于完整的不等式关系。"
+    },
+    {
+      "title": "高考数学最后一题可以有多难？",
+      "url": "https://www.zhihu.com/answer/1704955873",
+      "summary": "正文完整展示一道不等式压轴题的放缩证明。"
+    },
+    {
+      "title": "如何不用计算机比较ln3和1.1的大小？",
+      "url": "https://www.zhihu.com/answer/1705553994",
+      "summary": "正文用级数放缩完成不等式比较。"
+    },
+    {
+      "title": "可以留下一个优美的不等式吗？",
+      "url": "https://www.zhihu.com/answer/1710683979",
+      "summary": "正文陈述并证明等周不等式及其取等条件。"
+    },
+    {
+      "title": "可以留下一个优美的不等式吗？",
+      "url": "https://www.zhihu.com/answer/1713696520",
+      "summary": "正文陈述并证明 Fenchel 不等式的推广。"
+    },
+    {
+      "title": "请问如何证明这个不等式?",
+      "url": "https://www.zhihu.com/answer/1720632034",
+      "summary": "正文用恒等式直接证明一个不等式。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1724019499",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1724530395",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "高考数学导数题是怎么命制的？",
+      "url": "https://www.zhihu.com/answer/1738460960",
+      "summary": "正文直接讨论或推导「不等式」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "怎么证明算术平均数大于等于几何平均数？",
+      "url": "https://www.zhihu.com/answer/1744271300",
+      "summary": "正文直接讨论或推导「不等式」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "怎么证明1/2+1/4+1/6+1/8+...+1/2014＜6?",
+      "url": "https://www.zhihu.com/answer/1753295336",
+      "summary": "正文直接讨论或推导「不等式」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "如何看待中科大 26 岁教授陈杲攻克数学复微分几何领域世界难题？",
+      "url": "https://www.zhihu.com/answer/1756987459",
+      "summary": "正文陈述并推导 Minkowski 矩阵不等式。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1765668677",
+      "summary": "正文用估算证明不等式方向。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1777511735",
+      "summary": "正文通过不等式估算证明指数大小关系。"
+    },
+    {
+      "title": "柯西不等式有哪些证明和理解呢？",
+      "url": "https://www.zhihu.com/answer/1783797262",
+      "summary": "正文系统整理柯西不等式的形式、证明与应用。"
+    },
+    {
+      "title": "数学分析习题集的2193.4怎么做啊?",
+      "url": "https://www.zhihu.com/answer/1803386641",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "椭圆外接三角形面积的最小值是多少？如何证明？",
+      "url": "https://www.zhihu.com/answer/1805149329",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "函数连续时，如何证明凹凸函数定义的等价性?",
+      "url": "https://www.zhihu.com/answer/1822235282",
+      "summary": "正文以两点中点的函数值不等式给出凸函数定义并证明定义等价性。"
+    },
+    {
+      "title": "请问能否不使用微积分的知识证明伯努利不等式？",
+      "url": "https://www.zhihu.com/answer/1874108827",
+      "summary": "正文用 AM–GM 不等式与有理逼近证明实数次幂的伯努利不等式。"
+    },
+    {
+      "title": "如何证明开区间的凸函数连续?",
+      "url": "https://www.zhihu.com/answer/1879109892",
+      "summary": "正文用凸函数定义中的两点不等式夹住函数值。"
+    },
+    {
+      "title": "你见过哪些有意思的不等式？",
+      "url": "https://www.zhihu.com/answer/1880636264",
+      "summary": "正文系统收集并证明多变量、一元和构造型不等式。"
+    },
+    {
+      "title": "不等式 x²＋4x＋7＞0 怎样解？",
+      "url": "https://www.zhihu.com/answer/1884245411",
+      "summary": "正文系统分类实系数一元二次不等式的解集。"
+    },
+    {
+      "title": "这题是蒲和平书上题目，有不同于答案的解法么，答案我不太能看得懂？",
+      "url": "https://www.zhihu.com/answer/1884538673",
+      "summary": "正文以绝对值不等式和平方根放缩构造原积分不等式。"
+    },
+    {
+      "title": "0.8＞ln2 怎么证明？",
+      "url": "https://www.zhihu.com/answer/1901406925",
+      "summary": "正文通过函数单调性和区间估计证明目标不等式。"
+    },
+    {
+      "title": "0.8＞ln2 怎么证明？",
+      "url": "https://www.zhihu.com/answer/1901676259",
+      "summary": "正文用幂和不等式的简洁放缩证明目标不等式。"
+    },
+    {
+      "title": "0.8＞ln2 怎么证明？",
+      "url": "https://www.zhihu.com/answer/1903090180",
+      "summary": "正文证明自然对数下界的多组不等式估计。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1908574020",
+      "summary": "正文用自然对数底 e 的双侧不等式完成幂大小比较。"
+    },
+    {
+      "title": "如何评价 2021 年各卷高考数学题？有哪些「出其不意」的题和解法？",
+      "url": "https://www.zhihu.com/answer/1927597994",
+      "summary": "正文直接讨论并支撑「不等式」相关内容。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/1949095822",
+      "summary": "正文逐步估计并证明指数不等式。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/1950270038",
+      "summary": "正文用对数估计和不等式推导证明 e^π>23。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/1950886172",
+      "summary": "正文用指数不等式逐步放缩证明目标不等式。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/1999855762",
+      "summary": "证明核心是一串有理数与π的大小不等式。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/2001425342",
+      "summary": "正文核心是建立e^π与23之间的严格不等式。"
+    },
+    {
+      "title": "韩国明年最低时薪公布：约合人民币 52 元，这是什么水平？",
+      "url": "https://www.zhihu.com/answer/2003949156",
+      "summary": "正文以错误大小关系表达对现实讨论的讽刺。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/2005266778",
+      "summary": "正文将指数不等式转化为整数幂不等式。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/2005638531",
+      "summary": "正文用逐步放缩得到严格不等式。"
+    },
+    {
+      "title": "如何评价2021年第62届IMO试题？",
+      "url": "https://www.zhihu.com/answer/2012016487",
+      "summary": "正文讨论并推广 IMO 中涉及绝对值和的平方根不等式。"
+    },
+    {
+      "title": "有没有哪位大（巨）佬，研究过取整，并愿意分享一下自己的成果？",
+      "url": "https://www.zhihu.com/answer/2014094083",
+      "summary": "正文系统整理高斯函数满足的多种不等式。"
+    },
+    {
+      "title": "有什么与绝对值有关的不等式或等式吗？",
+      "url": "https://www.zhihu.com/answer/2015826434",
+      "summary": "正文系统列出绝对值不等式、三角不等式及其推广。"
+    },
+    {
+      "title": "有没有哪位大（巨）佬，研究过取整，并愿意分享一下自己的成果？",
+      "url": "https://www.zhihu.com/answer/2021680933",
+      "summary": "正文给出取整求和的恒等式与不等式证明。"
+    },
+    {
+      "title": "为什么 a²+b²≤1 是包括整个圆，而 |a|+|b|≤1 只包括了那个正方形?",
+      "url": "https://www.zhihu.com/answer/2022845433",
+      "summary": "正文比较两个平面区域对应的绝对值不等式。"
+    },
+    {
+      "title": "已知正数 x、y 满足 x²+y²=1，如何求 (5x+2)(y+1) 的最大值？",
+      "url": "https://www.zhihu.com/answer/2036816524",
+      "summary": "正文用不等式放缩求最大值。"
+    },
+    {
+      "title": "请问这道题能不能带值计算？",
+      "url": "https://www.zhihu.com/answer/2039011224",
+      "summary": "正文用待定系数和基本不等式处理条件不等式。"
+    },
+    {
+      "title": "请问这道题能不能带值计算？",
+      "url": "https://www.zhihu.com/answer/2043277731",
+      "summary": "正文用三角换元和不等式求表达式最大值。"
+    },
+    {
+      "title": "请问这道题能不能带值计算？",
+      "url": "https://www.zhihu.com/answer/2044486350",
+      "summary": "正文推广并用 AM-GM 不等式证明比值上界。"
+    },
+    {
+      "title": "请问这道题能不能带值计算？",
+      "url": "https://www.zhihu.com/answer/2044490150",
+      "summary": "正文用去量纲和不等式放缩求最大值。"
+    },
+    {
+      "title": "如何判断导数题能否使用放缩法？",
+      "url": "https://www.zhihu.com/answer/2061308714",
+      "summary": "正文讨论不等式放缩的适用判断。"
+    },
+    {
+      "title": "这极值点偏移怎么做?(我们老师说除了他没人能做)？",
+      "url": "https://www.zhihu.com/answer/2066943139",
+      "summary": "正文围绕带根号的不等式建立等价目标并逐阶证明。"
+    },
+    {
+      "title": "这极值点偏移怎么做?(我们老师说除了他没人能做)？",
+      "url": "https://www.zhihu.com/answer/2067506880",
+      "summary": "正文把极值点偏移问题化为含根式和指数的平均值不等式。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/2070476165",
+      "summary": "正文通过代数展开与舒尔不等式证明三元不等式。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/2070565480",
+      "summary": "正文通过积分恒等式构造严格不等式估计。"
+    },
+    {
+      "title": "已知正数 x、y 满足 x²+y²=1，如何求 (5x+2)(y+1) 的最大值？",
+      "url": "https://www.zhihu.com/answer/2072771152",
+      "summary": "正文在约束条件下推导目标表达式的最大值。"
+    },
+    {
+      "title": "这个不等式题目怎么做？",
+      "url": "https://www.zhihu.com/answer/2073471308",
+      "summary": "正文用凸函数积分引理证明求和型不等式。"
+    },
+    {
+      "title": "如何用柯西不等式证明点到直线距离公式？",
+      "url": "https://www.zhihu.com/answer/2074875033",
+      "summary": "正文用柯西不等式给出距离公式的下界。"
+    },
+    {
+      "title": "拉格朗日乘数法求解有什么技巧吗？",
+      "url": "https://www.zhihu.com/answer/2081177602",
+      "summary": "正文补充用不等式直接求解条件最值。"
+    },
+    {
+      "title": "椭圆的周长如何计算？",
+      "url": "https://www.zhihu.com/answer/2098935961",
+      "summary": "正文用柯西不等式给出椭圆周长的上下界。"
+    },
+    {
+      "title": "请问 e^π 和 π^e 哪个大？",
+      "url": "https://www.zhihu.com/answer/2099712068",
+      "summary": "正文用指数函数的常见不等式直接证明 e^π 与 π^e 的大小关系。"
+    },
+    {
+      "title": "导数常用二元不等式链如何证明？",
+      "url": "https://www.zhihu.com/answer/2099901774",
+      "summary": "正文系统列举幂平均、Stolarsky平均等均值不等式链及其单调性。"
+    },
+    {
+      "title": "如何求椭圆内接三角形的最大面积？",
+      "url": "https://www.zhihu.com/answer/2101974530",
+      "summary": "正文用四元均值不等式估计并求出面积上界。"
+    },
+    {
+      "title": "如何求椭圆内接三角形的最大面积？",
+      "url": "https://www.zhihu.com/answer/2103448802",
+      "summary": "正文连续使用AM-GM和Jensen不等式求面积上界。"
+    },
+    {
+      "title": "穿针引线法（根轴法）解一元高次不等式的原理是什么？",
+      "url": "https://www.zhihu.com/answer/2149935077",
+      "summary": "正文系统解释穿根法解乘积型一元高次不等式的符号原理。"
+    },
+    {
+      "title": "如何证明(x^y+y^x)(1/x+1/y)≥4?",
+      "url": "https://www.zhihu.com/answer/2156695051",
+      "summary": "正文通过对称性与分情况放缩证明代数不等式。"
+    },
+    {
+      "title": "sinθ＋μcosθ最大时，tanθ为啥是1／μ？",
+      "url": "https://www.zhihu.com/answer/2163424256",
+      "summary": "正文用柯西不等式和辅助角公式求三角函数式最大值。"
+    },
+    {
+      "title": "能分享一道如果“注意不到”就出不来的数学题吗？",
+      "url": "https://www.zhihu.com/answer/2168983257",
+      "summary": "正文给出一个多变量代数不等式的证明。"
+    },
+    {
+      "title": "如何证明(x^y+y^x)(1/x+1/y)≥4?",
+      "url": "https://www.zhihu.com/answer/2171190109",
+      "summary": "正文综合柯西、均值、琴生等不等式证明目标不等式。"
+    },
+    {
+      "title": "已知x^2-4xy+5y^2=1求x^2+y^2的最值，除了用拉格朗日乘数法，还有其他吗？高中生的？",
+      "url": "https://www.zhihu.com/answer/2194824057",
+      "summary": "正文用三角代换、判别式和带参数均值不等式求约束条件下的最值。"
+    },
+    {
+      "title": "为什么高中数学题型一变形我就不会了?",
+      "url": "https://www.zhihu.com/answer/2204769168",
+      "summary": "正文用乘 1 法、换元和均值不等式解释高中不等式题型变形。"
+    },
+    {
+      "title": "做过最气的题是什么题？",
+      "url": "https://www.zhihu.com/answer/2233947398",
+      "summary": "正文用放缩与配方证明相关三角和的不等式。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/2234469069",
+      "summary": "正文系统展示通过作差证明 199^200 大于 200^199。"
+    },
+    {
+      "title": "已知sina－sinb＝1，如何不通过求导求cosa－cosb的值域？",
+      "url": "https://www.zhihu.com/answer/2242465996",
+      "summary": "正文由余弦有界性建立并验证不等式上下界。"
+    },
+    {
+      "title": "n! 和 n²，哪个更大呢？",
+      "url": "https://www.zhihu.com/answer/2274122608",
+      "summary": "正文通过幂和阶乘的大小关系证明 n! 大于 n 的平方。"
+    },
+    {
+      "title": "在 △ABC 中，求证：cos A + cos B + cos C ≤ 1.5？",
+      "url": "https://www.zhihu.com/answer/2274711244",
+      "summary": "正文用 Jensen 不等式完成三角余弦和的不等式证明。"
+    },
+    {
+      "title": "怎么做2022贺年题？",
+      "url": "https://www.zhihu.com/answer/2292317078",
+      "summary": "正文使用伯努利不等式完成指数大小证明。"
+    },
+    {
+      "title": "怎么做2022贺年题？",
+      "url": "https://www.zhihu.com/answer/2292337304",
+      "summary": "正文把原题转化为对数不等式并证明。"
+    },
+    {
+      "title": "这个题是不是个极值点偏移钓鱼题？怎么做？",
+      "url": "https://www.zhihu.com/answer/2293538103",
+      "summary": "正文通过等价变形和不等式放缩证明目标不等式。"
+    },
+    {
+      "title": "如何求函数 f(x) = sinx + sin2x + sin3x 的值域？",
+      "url": "https://www.zhihu.com/answer/2296395900",
+      "summary": "正文用均值不等式和待定系数估计函数最大值。"
+    },
+    {
+      "title": "如何比较这两个数的大小?",
+      "url": "https://www.zhihu.com/answer/2297338734",
+      "summary": "正文用放缩与数值估计证明一个涉及圆周率和对数的不等式。"
+    },
+    {
+      "title": "如何比较这两个数的大小?",
+      "url": "https://www.zhihu.com/answer/2297607827",
+      "summary": "正文使用对数不等式完成两个数的大小比较。"
+    },
+    {
+      "title": "这个不等式自编的  大家一起讨论一下 ?",
+      "url": "https://www.zhihu.com/answer/2299665849",
+      "summary": "正文给出分式不等式证明的完整放缩框架。"
+    },
+    {
+      "title": "如何求解这个导数问题？",
+      "url": "https://www.zhihu.com/answer/2302807633",
+      "summary": "正文把问题化归为两个关于变量的不等式并证明。"
+    },
+    {
+      "title": "如何证明e^x/x=a(a>e)的两根之和大于2，请用高中数学知识谢谢？",
+      "url": "https://www.zhihu.com/answer/2304245404",
+      "summary": "正文用不等式链证明两根之和的下界。"
+    },
+    {
+      "title": "如何证明ln4＞arctan3?",
+      "url": "https://www.zhihu.com/answer/2304561847",
+      "summary": "正文把原不等式转化为另一不等式并作数值下界证明。"
+    },
+    {
+      "title": "如何在数学试卷上调戏阅卷人？",
+      "url": "https://www.zhihu.com/answer/2315801791",
+      "summary": "正文用伯努利不等式证明辅助序列单调递减。"
+    },
+    {
+      "title": "如何搞定这道让人头晕的不等式证明题？",
+      "url": "https://www.zhihu.com/answer/2323967769",
+      "summary": "正文通过变量代换、柯西不等式和均值不等式证明一个代数不等式。"
+    },
+    {
+      "title": "有没有一本适合数学系本科，系统介绍不等式的书？",
+      "url": "https://www.zhihu.com/answer/2332120384",
+      "summary": "正文重点推荐系统讲解不等式的专著。"
+    },
+    {
+      "title": "新冠现有病例的中医药使用率超过 97.82% ，此数据说明了什么？",
+      "url": "https://www.zhihu.com/answer/2335957160",
+      "summary": "正文用不等式由百分比精度反推可能的总人数。"
+    },
+    {
+      "title": "怎么命制一道高中导数题？",
+      "url": "https://www.zhihu.com/answer/2336766861",
+      "summary": "正文使用切线放缩和不等式估计两个零点之间的关系。"
+    },
+    {
+      "title": "数学高手们，这题有啥简捷解法没？",
+      "url": "https://www.zhihu.com/answer/2338539959",
+      "summary": "正文通过代换和不等式放缩求分式表达式的最小值。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/2341087571",
+      "summary": "正文展示 Cauchy-Schwarz 不等式与多种常见不等式的联系。"
+    },
+    {
+      "title": "有没有哪些数学题的某一步处理堪称神来之笔？",
+      "url": "https://www.zhihu.com/answer/2346777986",
+      "summary": "正文给出一个正实数不等式证明。"
+    },
+    {
+      "title": "有哪些巧妙的不等式的证明？",
+      "url": "https://www.zhihu.com/answer/2367764874",
+      "summary": "正文用分段积分给出 n 元算术—几何平均不等式的一行证明。"
+    },
+    {
+      "title": "4≤5，这个不等式是否正确？",
+      "url": "https://www.zhihu.com/answer/2377508601",
+      "summary": "正文用逻辑或关系解释小于等于符号，并判断 4≤5 的真值。"
+    },
+    {
+      "title": "高考数学函数大题同构法是万能的吗？",
+      "url": "https://www.zhihu.com/answer/2378246443",
+      "summary": "正文用同构方法处理导数背景下的含参不等式问题。"
+    },
+    {
+      "title": "4≤5，这个不等式是否正确？",
+      "url": "https://www.zhihu.com/answer/2381032311",
+      "summary": "正文解释小于等于的逻辑含义并判定 4≤5 成立。"
+    },
+    {
+      "title": "4≤5，这个不等式是否正确？",
+      "url": "https://www.zhihu.com/answer/2381333346",
+      "summary": "正文直接解释小于等于中的或关系，属于不等式的含义。"
+    },
+    {
+      "title": "4≤5，这个不等式是否正确？",
+      "url": "https://www.zhihu.com/answer/2381735556",
+      "summary": "正文给出弱不等号的精确定义并据此判断命题。"
+    },
+    {
+      "title": "如何证明这个简单的高考不等式？",
+      "url": "https://www.zhihu.com/answer/2385047059",
+      "summary": "正文用 Holder 与 Jensen 不等式证明目标不等式。"
+    },
+    {
+      "title": "数学家们用不等式做什么？",
+      "url": "https://www.zhihu.com/answer/2396186731",
+      "summary": "正文说明分析中不等式主要用于建立变量之间的控制关系。"
+    },
+    {
+      "title": "今年全国一卷最后的导数题为什么端点效应不行，端点效应成立的条件又是什么呢？",
+      "url": "https://www.zhihu.com/answer/2399928773",
+      "summary": "正文以必要条件探路法和端点效应讨论含参不等式恒成立问题。"
+    },
+    {
+      "title": "如何证明 exp(x) > x² + lnx + 1 + ln2？",
+      "url": "https://www.zhihu.com/answer/2409898948",
+      "summary": "正文通过放缩和取等条件证明指数函数与多项式、对数组合之间的严格不等式。"
+    },
+    {
+      "title": "如何用数学知识解答「在进行社区大规模核酸检测时，分成几人一组进行混检效率最高」？",
+      "url": "https://www.zhihu.com/answer/2411517075",
+      "summary": "正文用基本不等式和取等条件求最优混检人数。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/2432699467",
+      "summary": "正文以指数不等式和伯努利不等式完成方程比较。"
+    },
+    {
+      "title": "如何证明这个相当紧的不等式？",
+      "url": "https://www.zhihu.com/answer/2441968928",
+      "summary": "正文直接评价并讨论一个非常紧的不等式区间。"
+    },
+    {
+      "title": "4≤5，这个不等式是否正确？",
+      "url": "https://www.zhihu.com/answer/2442043048",
+      "summary": "正文围绕不等式证明及取等号条件的必要性展开。"
+    },
+    {
+      "title": "4≤5，这个不等式是否正确？",
+      "url": "https://www.zhihu.com/answer/2442245070",
+      "summary": "正文解释小于等于符号表示两个关系取并集的含义。"
+    },
+    {
+      "title": "如何证明这个相当紧的不等式？",
+      "url": "https://www.zhihu.com/answer/2442565440",
+      "summary": "正文通过变量替换、求导和分段估计证明题干中的紧不等式。"
+    },
+    {
+      "title": "4≤5，这个不等式是否正确？",
+      "url": "https://www.zhihu.com/answer/2445869416",
+      "summary": "正文用函数与真值、集合包含和二元关系三种定义解释不等号的含义。"
+    },
+    {
+      "title": "数学非常差，计量经济学学得非常痛苦，有没有什么好的学习方法？",
+      "url": "https://www.zhihu.com/answer/2457299491",
+      "summary": "正文说明不等式是计量经济学后续需要掌握的工具。"
+    },
+    {
+      "title": "如何证明这个非常紧的不等式？",
+      "url": "https://www.zhihu.com/answer/2468234929",
+      "summary": "正文围绕并证明一个三角不等式。"
+    },
+    {
+      "title": "为什么椭圆周长不能精确计算，但却有椭圆周长公式？",
+      "url": "https://www.zhihu.com/answer/2469969626",
+      "summary": "正文用柯西积分不等式给出椭圆周长的上下界估计。"
+    },
+    {
+      "title": "这个不等式怎么写出来的?",
+      "url": "https://www.zhihu.com/answer/2483118884",
+      "summary": "用均值不等式构造根号 x 的上下界，并代入具体数值得到更紧的估计。"
+    },
+    {
+      "title": "什么是切线放缩？",
+      "url": "https://www.zhihu.com/answer/2488074219",
+      "summary": "以切线放缩构造不等式，证明对称变量条件下的多项式和与分式和下界。"
+    },
+    {
+      "title": "如何评价 2022 全国乙卷理科数学题？",
+      "url": "https://www.zhihu.com/answer/2518903843",
+      "summary": "借助指数函数不等式估计导数符号并给出取值范围。"
+    },
+    {
+      "title": "2022 高考数学题难度如何？哪道题印象深刻？",
+      "url": "https://www.zhihu.com/answer/2519067160",
+      "summary": "补充指出该题可化为指数与对数的经典不等式链。"
+    },
+    {
+      "title": "如何评价 2022 浙江高考数学题？最后一届浙江数学卷质量如何？",
+      "url": "https://www.zhihu.com/answer/2519116602",
+      "summary": "引入并证明对数函数的分段有理不等式，用于放缩和夹逼目标式。"
+    },
+    {
+      "title": "怎么证明e^x≥3/2 x²+1（x≥0）？",
+      "url": "https://www.zhihu.com/answer/2533418490",
+      "summary": "通过配方证明变形后的多项式恒正，从而证明原不等式。"
+    },
+    {
+      "title": "号称高考史上最难得数学题，08年江西数学最后一道压轴题有人解出来吗？",
+      "url": "https://www.zhihu.com/answer/2535253739",
+      "summary": "通过代换把待证的双边不等式化为三个变量之间的关系并完成证明。"
+    },
+    {
+      "title": "e^x 与 lnx 的最短距离是多少？",
+      "url": "https://www.zhihu.com/answer/2538897230",
+      "summary": "用不等式估计 e^x 与 ln x 两点间距离下界并求最短距离。"
+    },
+    {
+      "title": "高中数学竞赛解决不等式的配方法（SOS）具体是怎么操作的？",
+      "url": "https://www.zhihu.com/answer/2553542823",
+      "summary": "正文系统介绍 SOS 配方如何把三元不等式化为平方和并证明其非负。"
+    },
+    {
+      "title": "怎么求满足e^x≥nx²+1（x≥0）的n的最大取值?",
+      "url": "https://www.zhihu.com/answer/2554133692",
+      "summary": "把含参数的不等式分离为函数最值问题，并用 Lambert W 表示临界值。"
+    },
+    {
+      "title": "为什么零乘以任何数都等于零？是纯粹的数学上的规定吗？",
+      "url": "https://www.zhihu.com/answer/2558027864",
+      "summary": "利用有序域公理继续证明正负号相乘的不等式规则。"
+    },
+    {
+      "title": "如何求 (2/sin x)+(1/cos x) 的最小值？（不用求导，高一，我没学）？",
+      "url": "https://www.zhihu.com/answer/2566395889",
+      "summary": "正文给出两种利用 AM-GM 均值不等式求三角函数式最小值的推导。"
+    },
+    {
+      "title": "已知x^2-4xy+5y^2=1求x^2+y^2的最值，除了用拉格朗日乘数法，还有其他吗？高中生的？",
+      "url": "https://www.zhihu.com/answer/2566474821",
+      "summary": "正文最终由判别式条件推出 θ 的双边取值范围，得到目标式的最小值和最大值。"
+    },
+    {
+      "title": "如何评价第 63 届国际奥林匹克数学竞赛（IMO）?",
+      "url": "https://www.zhihu.com/answer/2570558789",
+      "summary": "围绕含 x、y 的不等式分情况估计，并利用取特定 y 值导出矛盾。"
+    },
+    {
+      "title": "如何证明tanx>x>sinx（pi/2>x>0）?",
+      "url": "https://www.zhihu.com/answer/2572327903",
+      "summary": "通过控制级数每一项的符号证明 tan x>x>sin x 的不等式。"
+    },
+    {
+      "title": "请问浙大优学的《导数的秘密》怎么样？",
+      "url": "https://www.zhihu.com/answer/2603137926",
+      "summary": "具体讨论高次分式与函数放缩不等式在导数题中的使用价值。"
+    },
+    {
+      "title": "可以留下一个优美的不等式吗？",
+      "url": "https://www.zhihu.com/answer/2604669872",
+      "summary": "系统整理图论、组合、算术、分析与概率中的经典不等式并给出证明。"
+    },
+    {
+      "title": "MATLAB在逐渐被Python淘汰吗？",
+      "url": "https://www.zhihu.com/answer/2606821264",
+      "summary": "用量词消去和判别式把含全称量词的多项式不等式化为无变量条件。"
+    },
+    {
+      "title": "非线性如何线性化？",
+      "url": "https://www.zhihu.com/answer/2619500326",
+      "summary": "用大 M 与 0-1 变量把逻辑或约束转化为一组线性不等式。"
+    },
+    {
+      "title": "在高中数学当中指数对数比较大小有什么技巧或者是秒杀方法吗？",
+      "url": "https://www.zhihu.com/answer/2621398330",
+      "summary": "围绕指数、对数与三角函数值的大小比较选择放缩与逼近方法。"
+    },
+    {
+      "title": "一道优美的导数题求解，请问各位大佬有多少种解法？",
+      "url": "https://www.zhihu.com/answer/2648402763",
+      "summary": "用双向不等式放缩和增强母函数证明导数不等式。"
+    },
+    {
+      "title": "x+y+z=2，x²+y²+z²=2，如何用高中方法求 xyz 最值？",
+      "url": "https://www.zhihu.com/answer/2648478968",
+      "summary": "利用对称性、平方和不等式与 AM-GM 求 xyz 的最大值。"
+    },
+    {
+      "title": "如何证明1.005^200>2?",
+      "url": "https://www.zhihu.com/answer/2652850757",
+      "summary": "用逐步放大的不等式估计 1.005 连乘 200 次的结果，证明其大于 2。"
+    },
+    {
+      "title": "如何证明1.005^200>2?",
+      "url": "https://www.zhihu.com/answer/2660965038",
+      "summary": "把 1.005 写成 201/200，并通过逐项放大的不等式链证明其 200 次方大于 2。"
+    },
+    {
+      "title": "什么是切线放缩？",
+      "url": "https://www.zhihu.com/answer/2684086059",
+      "summary": "正文系统给出指数、对数和三角函数的一批不等式，并讨论取值范围与等号条件。"
+    },
+    {
+      "title": "加权均值不等式怎么证明？",
+      "url": "https://www.zhihu.com/answer/2695291504",
+      "summary": "正文通过有理权重退化和有理序列逼近，完整证明加权 AM-GM 不等式。"
+    },
+    {
+      "title": "一个空间中的多面体，请问如何证明它的体积的平方小于等于三个投影面面积的乘积?",
+      "url": "https://www.zhihu.com/answer/2702658040",
+      "summary": "正文明确回忆 Hölder 不等式，并用它把截面计数估计合成为投影面积的乘积上界。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/2711730866",
+      "summary": "观察 n^(n+1) 与 (n+1)^n 的大小规律，比较 199²⁰⁰ 与 200¹⁹⁹。"
+    },
+    {
+      "title": "微分中值定理到底有什么用？",
+      "url": "https://www.zhihu.com/answer/2712408912",
+      "summary": "两次使用中值定理并作线性组合，构造不等式完成凹凸性证明。"
+    },
+    {
+      "title": "有哪些让你惊为天人的数学证明?",
+      "url": "https://www.zhihu.com/answer/2712739798",
+      "summary": "给出积分形式的柯西—施瓦茨不等式，并用二次函数判别式证明。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/2716483302",
+      "summary": "正文把两个幂的大小比较化约为更简单的不等式比较。"
+    },
+    {
+      "title": "数学中有哪些经典必记的不等式？",
+      "url": "https://www.zhihu.com/answer/2718420960",
+      "summary": "正文系统列举并证明排序、柯西、琴生、均值等经典不等式，核心内容就是不等式及其证明方法。"
+    },
+    {
+      "title": "算术平均和几何平均之间还存在别的东西吗？",
+      "url": "https://www.zhihu.com/answer/2727432893",
+      "summary": "正文给出多种单参数平均的公式，并比较它们与算术平均、几何平均之间的大小，得到以 G 和 A 为端点的不等式链。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/2737397581",
+      "summary": "以 e^x>x+1 为起点，构造并验证带二次项与三次项的更精细不等式。"
+    },
+    {
+      "title": "这个很复杂的积分不等式，想了一下午了，有知友能给个思路吗？",
+      "url": "https://www.zhihu.com/answer/2744740368",
+      "summary": "正文围绕一个由函数导数上界控制定积分绝对值的不等式展开，并给出菱形几何解释。"
+    },
+    {
+      "title": "如何優雅地證明這條不等式?",
+      "url": "https://www.zhihu.com/answer/2746106364",
+      "summary": "正文先用代数放缩转化原不等式，再换元、通分并应用均值不等式完成证明。"
+    },
+    {
+      "title": "如何优美地证明这个不等式？",
+      "url": "https://www.zhihu.com/answer/2754960412",
+      "summary": "正文把原问题化为证明一个具体函数不等式，并通过函数单调性完成证明。"
+    },
+    {
+      "title": "如何评价2022年11月大学生数学竞赛难度?",
+      "url": "https://www.zhihu.com/answer/2755444460",
+      "summary": "正文应用对数平均不等式推出 ab<1，并利用对数不等式整理二次式，完成关于 a+b 的不等式证明。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/2765095494",
+      "summary": "正文给出算术-几何平均值不等式的完整推导，由指数不等式连乘得到 A^n≥G^n，再推出 A≥G。"
+    },
+    {
+      "title": "如何确定 Vasile 不等式的取等条件？",
+      "url": "https://www.zhihu.com/answer/2772558727",
+      "summary": "正文围绕 Vasile 不等式作变量替换、展开和配平方，给出完整的不等式证明。"
+    },
+    {
+      "title": "请问这个不等式有没有更妙的证法？",
+      "url": "https://www.zhihu.com/answer/2780385360",
+      "summary": "正文通过换元把待证不等式转化为 cosh y 的下界问题，并直接完成不等式证明。"
+    },
+    {
+      "title": "初中竞赛：x+y+z=1，求xy+2yz+3zx的最大值？",
+      "url": "https://www.zhihu.com/answer/2780790770",
+      "summary": "正文拆分目标式并用均值不等式两次放缩，给出最大值及相关不等式证明。"
+    },
+    {
+      "title": "如何求sin2x+根号2 sinx的最大值？",
+      "url": "https://www.zhihu.com/answer/2786678088",
+      "summary": "正文引入正参数并连续使用 AM-GM 不等式构造上界，再通过取等条件确定参数。"
+    },
+    {
+      "title": "可以留下一个优美的不等式吗？",
+      "url": "https://www.zhihu.com/answer/2807672768",
+      "summary": "正文从 e^x≥x+1 出发推导指数、对数和多处放缩不等式。"
+    },
+    {
+      "title": "如何优美地证明这个不等式？",
+      "url": "https://www.zhihu.com/answer/2817084311",
+      "summary": "正文把 Holder 不等式用于目标不等式的一行证明，并给出从积分形式推出三角不等式的过程。"
+    },
+    {
+      "title": "柯西不等式配常数有什么方法？",
+      "url": "https://www.zhihu.com/answer/2819036717",
+      "summary": "正文具体讲解如何把二次式与一次式对位，配成柯西不等式的标准形式并利用取等条件求最值。"
+    },
+    {
+      "title": "这个函数最小值怎么求？",
+      "url": "https://www.zhihu.com/answer/2829831148",
+      "summary": "正文通过配平方和不等式放缩给出函数下界，并由取等条件确定最小值。"
+    },
+    {
+      "title": "数学家尤里·曼宁(Yuri Manin)去世,如何评价他对数学做出的贡献?",
+      "url": "https://www.zhihu.com/answer/2842839646",
+      "summary": "正文陈述并证明 Davenport 不等式，用次数下界刻画出两个多项式表达式不能过度抵消。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2848649557",
+      "summary": "正文把曲线等号改为不等号，推导出爱心内部区域所满足的不等式。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/2868330375",
+      "summary": "正文通过作商与具体数值说明底数和指数互换后的幂大小关系，讨论并证明了一类幂不等式。"
+    },
+    {
+      "title": "2的400次方的首位数字怎么快速计算？",
+      "url": "https://www.zhihu.com/answer/2914041332",
+      "summary": "正文用指数上界和二项式展开给出下界，把 2^400 夹在 2×10^120 与 3×10^120 之间，由不等式确定首位数字。"
+    },
+    {
+      "title": "已知x²+y²－xy=3,如何求x+y的最小值和最大值？",
+      "url": "https://www.zhihu.com/answer/2931452038",
+      "summary": "正文由判别式非负推出 s 的闭区间不等式，得到 x+y 的上下界。"
+    },
+    {
+      "title": "为什么好多人都认为丘维声的高等代数编写的不好呢?",
+      "url": "https://www.zhihu.com/answer/2964942952",
+      "summary": "正文比较 Cauchy-Schwarz 不等式的两种证明，并指出正交分解可统一处理实、复内积空间。"
+    },
+    {
+      "title": "数学中你可以“注意到”什么地步?",
+      "url": "https://www.zhihu.com/answer/2966130284",
+      "summary": "正文完整展开一道三元对称不等式题，并用柯西不等式及变形完成证明。"
+    },
+    {
+      "title": "怎样比较ln2和sin1的大小?",
+      "url": "https://www.zhihu.com/answer/2976126793",
+      "summary": "正文用圆周率和对数函数的已知界作为比较 ln2 与 sin1 的放缩依据。"
+    },
+    {
+      "title": "11^4^5^14^19^19^8^10和葛立恒数哪个大？",
+      "url": "https://www.zhihu.com/answer/2977835762",
+      "summary": "正文用逐项放缩和连锁不等式估计给定巨大式子的上界。"
+    },
+    {
+      "title": "请问这样的导数题是如何命制的?",
+      "url": "https://www.zhihu.com/answer/3003661699",
+      "summary": "正文系统展开调和、几何、对数、算术平均及平方平均之间的不等式链条，并用其证明极值点偏移。"
+    },
+    {
+      "title": "a²+b²+ab=9，求(2a+b）范围，a,b正实数?",
+      "url": "https://www.zhihu.com/answer/3011287742",
+      "summary": "正文由正实数条件限定参数区间并据此求出 2a+b 的取值范围，展开不等式约束下的范围计算。"
+    },
+    {
+      "title": "高中数学有什么好的学习方法？",
+      "url": "https://www.zhihu.com/answer/3015364414",
+      "summary": "正文讲解通过构造差函数并用导数符号证明函数不等式，属于不等式证明方法。"
+    },
+    {
+      "title": "这个超级难的最值怎么求？",
+      "url": "https://www.zhihu.com/answer/3054624271",
+      "summary": "正文用均值不等式分别放缩两个分式，相加后证明目标式不小于 8，并讨论等号条件。"
+    },
+    {
+      "title": "如何解决这道导数题，常用的放缩力度都不太够?",
+      "url": "https://www.zhihu.com/answer/3109629934",
+      "summary": "正文按区间建立指数式、代数分式与对数式的连续不等式链，将待证关系化归为较简单的不等式。"
+    },
+    {
+      "title": "如何证明：当a+b+c≥3时，a^4+b^3+c^2≥a^3+b^2+c？",
+      "url": "https://www.zhihu.com/answer/3109944905",
+      "summary": "正文给出两种不等式证明：反复使用均值不等式降次，以及逐项作差后相加。"
+    },
+    {
+      "title": "怎么理解对数均值不等式？",
+      "url": "https://www.zhihu.com/answer/3126281063",
+      "summary": "正文把对数均值不等式化为关于 log x 的双边不等式，并用 Hermite-Hadamard 不等式完成证明。"
+    },
+    {
+      "title": "求 (x+y)/((x^2+1)(y^2+1)) 的最大值?",
+      "url": "https://www.zhihu.com/answer/3137855661",
+      "summary": "正文通过一系列不等式把原式的绝对值上界化为三角正弦乘积，并得到 3√3/8 的最大值上界。"
+    },
+    {
+      "title": "1，3，3，5，5，5，7，7，7，7... 的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/3156105989",
+      "summary": "正文把确定项所在的组转化为一元二次不等式，并通过取最小整数求解。"
+    },
+    {
+      "title": "如何求导求sin2x+2sinx的最小值？请用高中做法。?",
+      "url": "https://www.zhihu.com/answer/3163087283",
+      "summary": "正文连续给出琴生、均值和柯西等不等式方法，用来配凑并证明目标函数的上界与下界。"
+    },
+    {
+      "title": "如何证明1/2+1/5+……+1/(n^2+1)<π/2?",
+      "url": "https://www.zhihu.com/answer/3165208363",
+      "summary": "正文通过导数估计建立逐项不等式，并用裂项求和证明有限和严格小于 pi/2。"
+    },
+    {
+      "title": "1000000000⁴ 和 4¹⁰⁰⁰⁰⁰⁰⁰⁰⁰哪个数更大？如何用科学，哲学，儒学三种方式解答？",
+      "url": "https://www.zhihu.com/answer/3166312022",
+      "summary": "正文先把两个幂改写为 10 的 36 次方与 16 的 5 亿次方，再依据底数和指数的大小关系比较两个幂值。"
+    },
+    {
+      "title": "4≤5，这个不等式是否正确？",
+      "url": "https://www.zhihu.com/answer/3189754476",
+      "summary": "正文说明“≤”作为关系运算符会产生真假结果，并据此判断不等式命题 4≤5 为真。"
+    },
+    {
+      "title": "a-alna=b-blnb(a≠b)，a+b范围?(用拉氏乘数法能行吗？",
+      "url": "https://www.zhihu.com/answer/3195481169",
+      "summary": "正文利用对称性、对数不等式和对数均值不等式，给出 a+b 的上下界并完成不等式证明。"
+    },
+    {
+      "title": "什么是 surreal number？",
+      "url": "https://www.zhihu.com/answer/3204209383",
+      "summary": "正文证明超现实数之间的小于等于关系构成全序，并说明任意两数必满足小于、大于或相等。"
+    },
+    {
+      "title": "如何用初等方法证明y=x+sinx严格递增？",
+      "url": "https://www.zhihu.com/answer/3213810639",
+      "summary": "正文通过放缩和绝对值不等式证明 a>b 时 y=x+sin x 的差值恒大于零，实质讲解了一个不等式证明。"
+    },
+    {
+      "title": "如何优雅地证明π³>31?",
+      "url": "https://www.zhihu.com/answer/3230363185",
+      "summary": "正文通过连续放缩建立严格不等式，并由平方关系比较两个数值。"
+    },
+    {
+      "title": "如何背下来不等式链，有什么方法吗？",
+      "url": "https://www.zhihu.com/answer/3252888474",
+      "summary": "正文系统列出26项均值不等式链，并使用 AM-GM、Cauchy-Schwarz 与 Jensen 不等式逐项证明。"
+    },
+    {
+      "title": "为何国际数学界没有「糖水不等式」？",
+      "url": "https://www.zhihu.com/answer/3256710449",
+      "summary": "正文给出分数型不等式及其加权平均加强形式，并推广到多个同号分母的比例链。"
+    },
+    {
+      "title": "高中数学数列裂项相消的常见公式有哪些？",
+      "url": "https://www.zhihu.com/answer/3264028587",
+      "summary": "正文给出伯努利不等式及其根式放缩应用，属于不等式方法。"
+    },
+    {
+      "title": "如何优雅地证明π³>31?",
+      "url": "https://www.zhihu.com/answer/3270401325",
+      "summary": "正文通过构造积分恒等式证明严格不等式 π³>31。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/3271497680",
+      "summary": "正文构造严格大于零的积分恒等式，以此证明不等式 π＞3.14。"
+    },
+    {
+      "title": "如何解方程 x = 1 + sinx？",
+      "url": "https://www.zhihu.com/answer/3281424236",
+      "summary": "正文利用余弦上下界建立双侧不等式，并解出 t 与 x 的数值区间。"
+    },
+    {
+      "title": "如何优雅的证明π＞e?",
+      "url": "https://www.zhihu.com/answer/3301110388",
+      "summary": "正文应用对数平均不等式，推出 3/2·ln 2 大于 1，作为常数大小证明的关键一步。"
+    },
+    {
+      "title": "如何证明e³＞20?",
+      "url": "https://www.zhihu.com/answer/3303573423",
+      "summary": "正文将 e³−20 表示为正积分，从而证明具体不等式 e³>20。"
+    },
+    {
+      "title": "如何证明这个导数难题?",
+      "url": "https://www.zhihu.com/answer/3306890081",
+      "summary": "正文用三角不等式、均值不等式以及 sin x<x 与 ex≤e^x 等常见不等式推导 a^2+b^2 的下界。"
+    },
+    {
+      "title": "如何优雅地证明 ln 2 + lg 2 < 1？",
+      "url": "https://www.zhihu.com/answer/3314210303",
+      "summary": "正文利用取对数保持大小关系，把原不等式转化为可估计的指数不等式。"
+    },
+    {
+      "title": "如何比较 ln7/√7 和 ln8/√8 的大小？",
+      "url": "https://www.zhihu.com/answer/3329133632",
+      "summary": "正文通过等价变形、幂次放缩和伯努利不等式逐步证明两个对数式之间的大小关系。"
+    },
+    {
+      "title": "如何证明9*γ⁴<1？",
+      "url": "https://www.zhihu.com/answer/3329270233",
+      "summary": "正文把目标不等式化为关于欧拉常数的界，并以区间逐段比较完成证明。"
+    },
+    {
+      "title": "如何证明ln4＞arctan3?",
+      "url": "https://www.zhihu.com/answer/3347557885",
+      "summary": "正文把 ln4 与 arctan3 的大小比较转化为一个差式，并通过证明该差式为正来完成不等式证明。"
+    },
+    {
+      "title": "实数x,y满足x^2+2·x·y-3·y^2＝4，求：2·x^2-y^2的最小值？",
+      "url": "https://www.zhihu.com/answer/3352376827",
+      "summary": "正文利用二次方程有实根所需判别式非负的不等式，推出 z 的取值范围。"
+    },
+    {
+      "title": "如何证明 e<1+√3？",
+      "url": "https://www.zhihu.com/answer/3364351281",
+      "summary": "正文比较 e 与 √3 的连分数展开，通过逐层倒转不等号构造并完成目标不等式证明。"
+    },
+    {
+      "title": "如何优雅的证明ln(10/9)＞2/19？",
+      "url": "https://www.zhihu.com/answer/3372065394",
+      "summary": "正文通过证明构造出的积分大于零，得到关于对数之比的具体不等式 ln(10/9)>2/19。"
+    },
+    {
+      "title": "如何优雅地证明ln(2024/2022)>2tan(1/2023)？",
+      "url": "https://www.zhihu.com/answer/3372273651",
+      "summary": "正文把原式化简为待证的三角不等式，逐步推出 sinθ<θ，并据此证明积分恒正和最终数值不等式。"
+    },
+    {
+      "title": "九省联考数学圆锥曲线大题，感觉学的极点极线等派不上用场，求妙解？",
+      "url": "https://www.zhihu.com/answer/3373471549",
+      "summary": "正文把调和线段关系化为倒数之和的不等式，应用 AM-GM 得到 AB·DE≥64，并进一步推出面积下界。"
+    },
+    {
+      "title": "如何证明这个相当紧的不等式？",
+      "url": "https://www.zhihu.com/answer/3381429975",
+      "summary": "正文给出目标不等式的具体证明路径，并以五次多项式在该区间恒正完成不等式论证。"
+    },
+    {
+      "title": "如何证明这个相当紧的不等式？",
+      "url": "https://www.zhihu.com/answer/3381996468",
+      "summary": "正文以函数最低点和单调性为依据，明确完成目标不等式的证明。"
+    },
+    {
+      "title": "如何不用计算机比较ln3和1.1的大小？",
+      "url": "https://www.zhihu.com/answer/3383070936",
+      "summary": "正文利用正项级数的每一项为正推出级数和大于零，从而构造并证明关于 ln3 的不等式。"
+    },
+    {
+      "title": "如何证明这个相当紧的不等式？",
+      "url": "https://www.zhihu.com/answer/3383121040",
+      "summary": "正文围绕一个较紧的指数、对数与代数式混合不等式展开多步放缩和证明。"
+    },
+    {
+      "title": "如何注意力涣散地证明 e^{π√163} 小于262 53741 26407 68744？",
+      "url": "https://www.zhihu.com/answer/3414878312",
+      "summary": "正文把待证指数不等式等价变形，并逐步构造严格上界完成不等式证明。"
+    },
+    {
+      "title": "这个柯西-施瓦茨不等式(Cauchy-Schwarz inequality)的证明方法是如何想出来的？",
+      "url": "https://www.zhihu.com/answer/3417667668",
+      "summary": "正文系统给出并证明实数、复数、无穷和、积分及矩阵形式的柯西不等式，并推广到 Hölder 不等式。"
+    },
+    {
+      "title": "e^x＞3sinx（x＞0）怎么证明?",
+      "url": "https://www.zhihu.com/answer/3425325893",
+      "summary": "正文分段证明 e^x>3sin x，先处理右半区间，再把左半区间化为指数下界与正弦上界的比较。"
+    },
+    {
+      "title": "如何证明4＞π＞3?",
+      "url": "https://www.zhihu.com/answer/3433169738",
+      "summary": "正文由 π 的上下界连续比较得到 4 大于 π、π 大于 3 的连锁不等式结论。"
+    },
+    {
+      "title": "一题多解的本质是什么？",
+      "url": "https://www.zhihu.com/answer/3437093128",
+      "summary": "正文从完全平方非负推出基本不等式，并用其求约束下的乘积最大值。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/3439586168",
+      "summary": "正文把幂的大小比较转化为比值与 1 的大小关系，再通过逐步估值得到不等式结论。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/3440897794",
+      "summary": "正文借助动量与能量关系推导柯西不等式，并讨论取等条件，具体展开了不等式的证明。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/3473985680",
+      "summary": "正文利用三维均值的幂平均形式及加 1 的技巧完成给定不等式证明。"
+    },
+    {
+      "title": "这道高中数学压轴题怎么优雅的解决?",
+      "url": "https://www.zhihu.com/answer/3480509764",
+      "summary": "正文把已证不等式逐项代入并对两端求和，通过消去相邻项得到阶乘与指数式之间的不等式。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/3497692786",
+      "summary": "正文把199²⁰⁰拆成同指数的199¹⁹⁹与199的乘积，再与200¹⁹⁹比较，给出明确的不等式推导。"
+    },
+    {
+      "title": "如何注意力涣散地证明以下图中不等式？",
+      "url": "https://www.zhihu.com/answer/3499667885",
+      "summary": "正文利用 ln(1+x)≤x 的切线放缩放大每一项，并证明原和小于 1/2。"
+    },
+    {
+      "title": "突然开窍是怎样一种体验？",
+      "url": "https://www.zhihu.com/answer/3502432530",
+      "summary": "正文通过 5>4 与 4<5 的等价改写，说明大小关系可从不同方向阅读，并进一步抽象不等式记法，属于不等式内容。"
+    },
+    {
+      "title": "为何国际数学界没有「糖水不等式」？",
+      "url": "https://www.zhihu.com/answer/3504479752",
+      "summary": "正文把糖水不等式解释为一个更强引理的特殊情形，并用具体分数及参数条件说明其推导与等号条件。"
+    },
+    {
+      "title": "怎么求出不定方程 28x + 30y + 31z = 365 的正整数解（最好不用试根法）？",
+      "url": "https://www.zhihu.com/answer/3535928111",
+      "summary": "正文通过放缩得到 s 的上下界并确定 s=12，具体展示了不等式在约束变量求和中的应用。"
+    },
+    {
+      "title": "如何评价 2024 年阿里全球数学竞赛决赛试题？难度怎么样？",
+      "url": "https://www.zhihu.com/answer/3539761806",
+      "summary": "正文把第三题转化为三元不等式，借韦达定理表示系数并通过代换和因式分解证明，实质讲解了不等式方法。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/3546316325",
+      "summary": "正文把目标转成证明 e 平方大于 7 的不等式，并借助数值估算完成简单比较。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/3547089169",
+      "summary": "正文通过两次严格数值比较证明 e 的平方大于 7，进而得到 e 大于根号 7。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/3548090646",
+      "summary": "正文把 e 与根号 7 的比较转化为对数近似值与 2 的不等式，并据此完成简单证明。"
+    },
+    {
+      "title": "如何证明π⁵>306?",
+      "url": "https://www.zhihu.com/answer/3548099476",
+      "summary": "正文从 π 的已知下界作五次幂，构造连续的下界不等式链完成数值大小证明。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/3549190600",
+      "summary": "正文利用方程的第一解严格大于 1 这一不等式判断，将其作为证明目标数值关系的最后一步。"
+    },
+    {
+      "title": "如何证明π⁵>306?",
+      "url": "https://www.zhihu.com/answer/3550360853",
+      "summary": "正文把 π⁵>3⁵=243 与 243>180 连接成不等式链，用于尝试完成目标数值比较。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/3552519776",
+      "summary": "正文把目标转化为 e²>7 的不等式，再通过数值下界与不等式链推出 e>根号 7。"
+    },
+    {
+      "title": "如何证明2π+e>9?",
+      "url": "https://www.zhihu.com/answer/3555540539",
+      "summary": "正文分别给出两项下界后相加，构造不等式链证明 2π+e>9。"
+    },
+    {
+      "title": "在三角形ABC中，求cosA(3sinB+4sinC)最小值？",
+      "url": "https://www.zhihu.com/answer/3557567427",
+      "summary": "正文先用柯西不等式放缩，再用 AM-GM 将三项平均化以求下界，实际演示了不等式方法。"
+    },
+    {
+      "title": "(e+1)^(e-1)和(e-1)^(e+1)谁更大?",
+      "url": "https://www.zhihu.com/answer/3571427286",
+      "summary": "正文构造辅助函数，利用正增函数乘积仍递增，把待证的大小关系转化为不等式比较。"
+    },
+    {
+      "title": "这个最值如何求？",
+      "url": "https://www.zhihu.com/answer/3573132130",
+      "summary": "正文利用待定系数构造平方和不等式，并由该不等式推出目标式的上界。"
+    },
+    {
+      "title": "根号1＋根号2＋根号3＋根号4＋…＋根号100，结果是多少？",
+      "url": "https://www.zhihu.com/answer/3573534001",
+      "summary": "正文利用函数的恒定凹凸性作出上下界放缩，形成可用于求和的近似不等式。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/3583331681",
+      "summary": "正文先逐项使用不等式放缩，再把所得上界代回平方和约束。"
+    },
+    {
+      "title": "如何证明((π(2e)^(-e)+π)^π+π)^π>114514？",
+      "url": "https://www.zhihu.com/answer/3583683205",
+      "summary": "正文逐段建立有理数与对数的上下界，并通过连续不等式链传递到目标不等式。"
+    },
+    {
+      "title": "如何证明2π+e>9?",
+      "url": "https://www.zhihu.com/answer/3598634995",
+      "summary": "正文用圆周率和 e 的十进制下界作数值放缩，构造不等式链证明 2π+e>9。"
+    },
+    {
+      "title": "如何证明这个数小于pi？",
+      "url": "https://www.zhihu.com/answer/3630957723",
+      "summary": "正文把待证关系写成圆周率减有理数等于正积分，从而直接推出严格不等式。"
+    },
+    {
+      "title": "高中数学必修一课后习题，这怎么证明？",
+      "url": "https://www.zhihu.com/answer/3648593686",
+      "summary": "正文以函数的凸性和 Jensen 不等式证明给定不等式，并补充了基于 AM-GM 与二项式定理的初等证明。"
+    },
+    {
+      "title": "如何证明1.01^365<37.8？",
+      "url": "https://www.zhihu.com/answer/3674787413",
+      "summary": "正文把待证不等式转化为对数差，并借助一个定积分表达式说明该差为正，从而完成不等式证明。"
+    },
+    {
+      "title": "算术平均和几何平均之间还存在别的东西吗？",
+      "url": "https://www.zhihu.com/answer/4371002056",
+      "summary": "正文系统比较八类平均数，并给出从调和平均数到反调和平均数的完整不等式链。"
+    },
+    {
+      "title": "如何用“9”“9”“8”“2”“4”“4”“3”“5”“3”造句？",
+      "url": "https://www.zhihu.com/answer/4506672231",
+      "summary": "正文利用若干严格大于零的式子推出了一串具体的严格不等式链。"
+    },
+    {
+      "title": "高中数学老师不知道同构怎么办？",
+      "url": "https://www.zhihu.com/answer/9573373688",
+      "summary": "正文用增函数保持不等式方向的具体命题，说明了单调性与不等式之间的关系。"
+    },
+    {
+      "title": "如何优雅地证明e^x>1/2·x³-(7-e²)/4·x²+x+1？",
+      "url": "https://www.zhihu.com/answer/22918488382",
+      "summary": "正文通过临界值讨论和求导证明含 e^x 与三次多项式的参数不等式，并说明等号条件。"
+    },
+    {
+      "title": "为什么感觉国外的教材都比国内的厚得多？",
+      "url": "https://www.zhihu.com/answer/31176391538",
+      "summary": "正文用平面向量数量积和余弦值不超过 1 解释二维柯西不等式的来源，并讨论基本不等式的教学衔接。"
+    },
+    {
+      "title": "如何优雅地证明 tan(x)/x > x/sin(x) (0<x<π/2) ？",
+      "url": "https://www.zhihu.com/answer/37382461867",
+      "summary": "正文以均值不等式和三角恒等式逐步放缩，完整证明给定区间内的三角不等式。"
+    },
+    {
+      "title": "你见过最优雅的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/38130076858",
+      "summary": "正文依次陈述并证明均值不等式、Young 不等式和 Hölder 不等式，核心是代数不等式的成立与证明。"
+    },
+    {
+      "title": "如何看待阿里Qwen QWQ 性能逼近OpenAI O1?",
+      "url": "https://www.zhihu.com/answer/43001375541",
+      "summary": "正文把问题改写为含参数 a 的恒成立不等式，并通过转化函数符号讨论参数范围。"
+    },
+    {
+      "title": "数学里有哪些精彩的伪证？",
+      "url": "https://www.zhihu.com/answer/44072795676",
+      "summary": "正文用判别式大于零或小于零的不等式组，推导参数 a 的取值范围并纠正错误分类。"
+    },
+    {
+      "title": "如何证明2π+e>9?",
+      "url": "https://www.zhihu.com/answer/46175744383",
+      "summary": "正文把两个常数替换为更小的小数近似并相加，完成 2π+e>9 的下界估计。"
+    },
+    {
+      "title": "如何优雅地证明 x^y+y^x≥1？",
+      "url": "https://www.zhihu.com/answer/52408415731",
+      "summary": "正文分情形并用Bernoulli不等式及代数放缩，证明成立不等式x^y+y^x≥1。"
+    },
+    {
+      "title": "求a+b+√a^2+b^2最小值?",
+      "url": "https://www.zhihu.com/answer/66999210388",
+      "summary": "正文通过代数变形证明目标式不小于10，并给出等号成立条件，直接展示不等式求最值。"
+    },
+    {
+      "title": "能不能只用均值解决这道题？",
+      "url": "https://www.zhihu.com/answer/96732736594",
+      "summary": "正文以均值不等式为核心，证明两个预备不等式并串联得到乘积下界 8，是完整的不等式证明应用。"
+    },
+    {
+      "title": "怎么求 sinAcosB + sinBcosC + sinCcosA 的最大值？",
+      "url": "https://www.zhihu.com/answer/97767576415",
+      "summary": "正文借预设角序建立三角不等式，并用它放缩原式。"
+    },
+    {
+      "title": "求问「1^100、2^99、3^98……99^2、100^1」这一百个数中，谁最大？",
+      "url": "https://www.zhihu.com/answer/98575428419",
+      "summary": "正文引入多个对数界不等式，估算关键点的函数值并完成比较。"
+    },
+    {
+      "title": "已知x²+y²－xy=3,如何求x+y的最小值和最大值？",
+      "url": "https://www.zhihu.com/answer/123000513611",
+      "summary": "正文用基本不等式和柯西不等式对 x+y 的平方作上界估计，并据此得到数值范围。"
+    },
+    {
+      "title": "在数学的学习过程中，你见过最妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/126126609478",
+      "summary": "正文证明任意九个不同实数中必有两个满足给定的严格不等式。"
+    },
+    {
+      "title": "不用微积分的知识，如何比较tanθ+sinθ和2θ的大小？θ∈（0，π/2）?",
+      "url": "https://www.zhihu.com/answer/127102509924",
+      "summary": "正文以单位圆和面积比较证明目标三角不等式，最终得到 tanθ+sinθ>2θ。"
+    },
+    {
+      "title": "不用微积分的知识，如何比较tanθ+sinθ和2θ的大小？θ∈（0，π/2）?",
+      "url": "https://www.zhihu.com/answer/127234238776",
+      "summary": "正文把原问题等价转化为均值与 θ 的大小比较，并完成目标不等式的证明。"
+    },
+    {
+      "title": "不用微积分的知识，如何比较tanθ+sinθ和2θ的大小？θ∈（0，π/2）?",
+      "url": "https://www.zhihu.com/answer/127286610117",
+      "summary": "正文通过均值不等式链得到 tanθsinθ>θ²，并由此推出所要比较的不等关系。"
+    },
+    {
+      "title": "不用微积分的知识，如何比较tanθ+sinθ和2θ的大小？θ∈（0，π/2）?",
+      "url": "https://www.zhihu.com/answer/127589156040",
+      "summary": "正文通过缩放与分母范围讨论完成 tanθ+sinθ>2θ 的逐步不等式证明。"
+    },
+    {
+      "title": "在数学的学习过程中，你见过最妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/130614850281",
+      "summary": "正文完整证明加权 AM-GM 不等式，并由它推出通常的均值不等式及等号条件。"
+    },
+    {
+      "title": "如何求3sinA+4sinB+18sinC的最大值？",
+      "url": "https://www.zhihu.com/answer/130858024177",
+      "summary": "正文围绕嵌入不等式及其推广给出多种不等式证明，并用它们解决加权正弦和的最大值问题。"
+    },
+    {
+      "title": "如何优雅的求出下式的最小值？",
+      "url": "https://www.zhihu.com/answer/1891993025267345397",
+      "summary": "正文通过柯西不等式进行代数放缩，连续推导出目标表达式不小于 4 倍根号 2，因而得到其最小值。"
+    },
+    {
+      "title": "已知 a+b+c=0，abc=1，如何证明 MAX{a，b，c}≥³√4？",
+      "url": "https://www.zhihu.com/answer/1892009611118237260",
+      "summary": "正文利用判别式非负得到关于 a 的不等式，并据此推出 a 不小于三次根号 4。"
+    },
+    {
+      "title": "如何求这个面积最大值？",
+      "url": "https://www.zhihu.com/answer/1893973500382920732",
+      "summary": "正文连续使用柯西不等式、AM-GM 和几何放缩推导面积上界，属于具体的不等式方法。"
+    },
+    {
+      "title": "如何神秘地证明这个不等式？",
+      "url": "https://www.zhihu.com/answer/1898192168646084153",
+      "summary": "正文分析多项式的符号并据此建立 23-a^8-b^8 的非负性不等式。"
+    },
+    {
+      "title": "如何证明cos10°+cos49°+cos69°<2?",
+      "url": "https://www.zhihu.com/answer/1898798948044472588",
+      "summary": "正文给出余弦之和小于 2 的待证不等式。"
+    },
+    {
+      "title": "已知x和y是正数，x²+y²-xy=4,如果不用y=t-2x换元，如何求2x+y的最大值？",
+      "url": "https://www.zhihu.com/answer/1899484963969143824",
+      "summary": "正文以判别式不小于零这一不等式约束参数 z，进而解出目标式的上界。"
+    },
+    {
+      "title": "在三角形中，如何证明(1-cosA)(1-cosB)(1-cosC)≥cosAcosBcosC?",
+      "url": "https://www.zhihu.com/answer/1904245292934600565",
+      "summary": "正文把待证关系等价变形为三角正切和与余切和之间的不等式，并完成证明。"
+    },
+    {
+      "title": "a+b+c=4，a，b，c>0，求√(a^2+1)+√(b^2+1)+√(c^2+1)最小值？",
+      "url": "https://www.zhihu.com/answer/1906752521344652225",
+      "summary": "正文围绕给定约束求最小值，完整使用柯西、Jensen、Minkowski、均值和 Chebyshev 等多种不等式完成证明。"
+    },
+    {
+      "title": "如何评价予一人大佬？",
+      "url": "https://www.zhihu.com/answer/1911896259947632352",
+      "summary": "正文完整证明了一个形如 (1+1/x)^(x+1/2)>e 的不等式，并进一步讨论指数参数变化后的成立范围。"
+    },
+    {
+      "title": "如何比较 ln7/√7 和 ln8/√8 的大小？",
+      "url": "https://www.zhihu.com/answer/1912261827141801862",
+      "summary": "正文通过连续等价变形证明 ln7/√7 与 ln8/√8 的大小关系。"
+    },
+    {
+      "title": "如何优雅的证明1.01^70>2？",
+      "url": "https://www.zhihu.com/answer/1912446116173164763",
+      "summary": "正文把 70ln1.01-ln2 写成定积分，并直接由被积式为正推出目标不等式。"
+    },
+    {
+      "title": "如何优雅的证明1.01^70>2？",
+      "url": "https://www.zhihu.com/answer/1912467582855909877",
+      "summary": "正文用对数展开的下界把 70ln(1.01) 放缩为一个明确有理数，实质讲解了不等式估计。"
+    },
+    {
+      "title": "数学大佬予一人是如何缩放不等式的，又是如何有这么多的方法，有技巧还是长年累月的积累？",
+      "url": "https://www.zhihu.com/answer/1912658720262952595",
+      "summary": "正文引入一个对数与有理式之间的不等式，并用相同初值下的函数比较说明其放缩性质。"
+    },
+    {
+      "title": "如何优雅地证明 √2(e-2)>1 ？",
+      "url": "https://www.zhihu.com/answer/1912985338336510439",
+      "summary": "正文用 1.41 与 0.71 的乘积大于 1 来处理 √2(e-2)>1，属于不等式大小验证。"
+    },
+    {
+      "title": "平均值不等式怎么证明的啊?（不要n等于二的，要全面证明谢了）?",
+      "url": "https://www.zhihu.com/answer/1915729617572075244",
+      "summary": "正文从二元均值不等式出发，按偶数元和奇数元分组或添项，证明任意元数的均值不等式。"
+    },
+    {
+      "title": "如何优雅地证明π²²<86556004192？",
+      "url": "https://www.zhihu.com/answer/1917583485012521724",
+      "summary": "正文利用底数上界和幂函数单调性逐步构造不等式，完成目标数值界的证明。"
+    },
+    {
+      "title": "如何优雅地证明π²²<86556004192？",
+      "url": "https://www.zhihu.com/answer/1917620140528337168",
+      "summary": "正文通过正有理数差证明 π²² 严格小于目标整数，完成不等式证明。"
+    },
+    {
+      "title": "x+sqrt(1+x)+sqrt(1-x)的最大值怎么求？",
+      "url": "https://www.zhihu.com/answer/1918250610995762385",
+      "summary": "正文用柯西不等式或均值不等式对含三角函数与根式的表达式作上界估计。"
+    },
+    {
+      "title": "（3+i）-（2+i）＝1＞0，所以3+i＞2+i但是明明虚数不能比较大小呀，如何解决这个问题？",
+      "url": "https://www.zhihu.com/answer/1918775366484489069",
+      "summary": "正文讨论不等式两边同乘负数时不等号反向的规则，并尝试把该规则扩展到复数比较。"
+    },
+    {
+      "title": "如何优雅地证明 √2(e-2)>1 ？",
+      "url": "https://www.zhihu.com/answer/1919198206828447139",
+      "summary": "正文把原问题转化为 17/12 大于根号 2 的不等式，再通过平方完成证明。"
+    },
+    {
+      "title": "a^b=b^a，a>b>0，如何证明ab>e^2？",
+      "url": "https://www.zhihu.com/answer/1920631459061958291",
+      "summary": "正文以对数均值不等式和比例关系推导目标不等式 ab>e^2。"
+    },
+    {
+      "title": "如何用高一的方法解答这道高一数学题?",
+      "url": "https://www.zhihu.com/answer/1921619783989826694",
+      "summary": "正文合并边长平方和与余弦项，并用均值不等式得到含 ab 的代数下界。"
+    },
+    {
+      "title": "如何优雅地证明√(4)+√(7)<√(5)+√(6)?",
+      "url": "https://www.zhihu.com/answer/1924131385087615446",
+      "summary": "正文利用辅助函数的单调性比较 f(6) 与 f(4)，从而证明原根式不等式。"
+    },
+    {
+      "title": "如何优雅的证明 sinh1 > sin1 + 1/3？",
+      "url": "https://www.zhihu.com/answer/1924153139130524470",
+      "summary": "正文把待证差化简为奇数阶乘项的级数并确认其为正，从而完成不等式证明。"
+    },
+    {
+      "title": "如何优雅地证明√(4)+√(7)<√(5)+√(6)?",
+      "url": "https://www.zhihu.com/answer/1924506187644273328",
+      "summary": "正文把待证根式不等式化为相关差值的符号问题，并用积分证明该差为正。"
+    },
+    {
+      "title": "如何优雅地证明√(4)+√(7)<√(5)+√(6)?",
+      "url": "https://www.zhihu.com/answer/1924536826879795447",
+      "summary": "正文通过移项和有理化逐步转化根式不等式，最后以分母大小关系完成证明。"
+    },
+    {
+      "title": "如何优雅地证明√(4)+√(7)<√(5)+√(6)?",
+      "url": "https://www.zhihu.com/answer/1924593221788480984",
+      "summary": "正文先确认两边为正，再分别平方并比较所得根式大小，从而证明原根式不等式。"
+    },
+    {
+      "title": "这一题可以不用数学归纳法吗？（在高中小蓝本5数列与数学归纳法第四页）?",
+      "url": "https://www.zhihu.com/answer/1926793810345701854",
+      "summary": "正文逐步使用因式分解、柯西不等式、拆项和均值不等式，对一个三角式子作放缩证明下界。"
+    },
+    {
+      "title": "如何优雅地证明如下的2025江苏数学复赛的一试T9?",
+      "url": "https://www.zhihu.com/answer/1927033543357343005",
+      "summary": "正文利用完全平方式与系数全正的多项式乘积大于等于零，完成目标不等式证明。"
+    },
+    {
+      "title": "这个不等式证明题怎么做？",
+      "url": "https://www.zhihu.com/answer/1927476142069228129",
+      "summary": "正文把四个平方根之和与加权和联系起来，并进一步放缩得到常数上界，具体展示了一个不等式证明。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/1927760565486466057",
+      "summary": "正文讨论把带常数 C 的不等式上界逐步收紧为 1，属于不等式放缩与改进。"
+    },
+    {
+      "title": "如何比较2的3次方和3的2次方的大小?",
+      "url": "https://www.zhihu.com/answer/1928154699703493836",
+      "summary": "正文把指数大小比较化为对数值之差并证明其大于零。"
+    },
+    {
+      "title": "有没有人知道sinx+sin2x+...+sinnx图像的这段曲线的解析式？",
+      "url": "https://www.zhihu.com/answer/1929665119060722505",
+      "summary": "正文分别取振荡项为最小值和最大值，推导出正弦和函数上下界对应的包络曲线。"
+    },
+    {
+      "title": "如何优雅地比较当x在(0,1）区间内sin(x²）和xsinx的大小?",
+      "url": "https://www.zhihu.com/answer/1933251034488243016",
+      "summary": "正文通过 sin x/x 的单调性建立两个表达式之间的大小关系，并得到目标不等式。"
+    },
+    {
+      "title": "不求导，如何求 sin(x)sin(4x) 的最大最小值？",
+      "url": "https://www.zhihu.com/answer/1937841907117041073",
+      "summary": "正文整理出若干非负因式后使用 AM-GM 不等式给出上界，并通过取等条件确定极值点。"
+    },
+    {
+      "title": "这道高中不等式怎么证明?",
+      "url": "https://www.zhihu.com/answer/1938010205112763659",
+      "summary": "正文明确要证明分式形式的 A_n 严格大于 1，并逐步给出下界估计。"
+    },
+    {
+      "title": "这个三角函数的最值怎么求？",
+      "url": "https://www.zhihu.com/answer/1940096869205272504",
+      "summary": "正文通过一个含余弦、正弦的表达式给出上界不等式，并用该不等式处理三角函数最值问题。"
+    },
+    {
+      "title": "谢惠民教授于 9 月 2 日辞世，如何评价他的一生？",
+      "url": "https://www.zhihu.com/answer/1946534430924580021",
+      "summary": "正文给出均值不等式并说明书中介绍了三种证明，重点提到 Cauchy 的向前-向后归纳法。"
+    },
+    {
+      "title": "数学上有没有必要引入“单向推出”,“不大于号”,“不小于号”等符号？",
+      "url": "https://www.zhihu.com/answer/1950642530141082463",
+      "summary": "正文以三分律说明全序集上的大小关系，并定义小于等于、大于等于及其多种否定关系。"
+    },
+    {
+      "title": "如何评价2025年全国高中数学联赛(第41届CMO预赛)？",
+      "url": "https://www.zhihu.com/answer/1954268742608453897",
+      "summary": "正文写出 Jordan 不等式的具体形式，并说明它用于证明相关序列的缓增性，构成对不等式的实际使用。"
+    },
+    {
+      "title": "设a,b是实数,满足a+b>3,那么a²+b²一定>3吗?",
+      "url": "https://www.zhihu.com/answer/1955262828849140780",
+      "summary": "正文由基本不等式推出平方和的下界，再结合已知和式条件得到严格不等式结论。"
+    },
+    {
+      "title": "小学奥数可以难到什么程度？",
+      "url": "https://www.zhihu.com/answer/1957922018746931120",
+      "summary": "正文通过平方、配对和放缩证明有限连乘积位于16与20之间的双边不等式。"
+    },
+    {
+      "title": "如何证明e^x>2x^2-2/3？",
+      "url": "https://www.zhihu.com/answer/1957951295148236992",
+      "summary": "正文围绕指数与二次式的大小关系，通过构造辅助函数和估计证明目标不等式。"
+    },
+    {
+      "title": "在数学中有哪些利用数形结合的经典问题或应用？",
+      "url": "https://www.zhihu.com/answer/1964720761139881193",
+      "summary": "正文定义算术平均、几何平均和调和平均，并给出 AM-GM-HM 不等式及其取等条件。"
+    },
+    {
+      "title": "如何优雅的证明1.01^70>2？",
+      "url": "https://www.zhihu.com/answer/1965004067173540165",
+      "summary": "正文通过快速幂、逐次平方和精确乘法计算两侧数值，完成 1.01^70>2 的证明。"
+    },
+    {
+      "title": "设a,b是实数,满足a+b>3,那么a²+b²一定>3吗?",
+      "url": "https://www.zhihu.com/answer/1967628924000380679",
+      "summary": "正文围绕已知 a+b>3 推出 a²+b²>3，并通过距离平方得到严格下界。"
+    },
+    {
+      "title": "如何评价谷歌在2025年11月18日凌晨发布的gemini3.0pro模型？",
+      "url": "https://www.zhihu.com/answer/1974554669629061042",
+      "summary": "正文完整证明多道不等式题，并展开均值不等式、配方和变量替换等证明方法。"
+    },
+    {
+      "title": "河南复赛第四题左边不等式有没有比较简单的证明？",
+      "url": "https://www.zhihu.com/answer/1976286482424669308",
+      "summary": "正文把待证不等式化为 Bernoulli 不等式，完成指数式的放缩证明。"
+    },
+    {
+      "title": "如何初等地证明这个简洁的不等式?",
+      "url": "https://www.zhihu.com/answer/1983333620514042013",
+      "summary": "正文通过逐项放缩把原和式化为可求和的几何级数，从而证明目标不等式严格小于 1。"
+    },
+    {
+      "title": "这个高中不等式的第一问怎么理解?",
+      "url": "https://www.zhihu.com/answer/1984586569408091612",
+      "summary": "正文通过代数变形和均值不等式推出所证表达式的下界 9/8，给出了高中不等式题的直接证明。"
+    },
+    {
+      "title": "如何证明:1+1/2+1/3+1/4+…+1/2^n大于n+2/2  ?",
+      "url": "https://www.zhihu.com/answer/1985434971729593684",
+      "summary": "正文把分组后的各项统一放大或缩小为同值项，用不等式求得调和和的下界。"
+    },
+    {
+      "title": "初中竞赛：x+y+z=1，求xy+2yz+3zx的最大值？",
+      "url": "https://www.zhihu.com/answer/1989150950934463294",
+      "summary": "正文在 x+y+z=c 的约束下推导二次表达式的上界，具体展示了约束不等式的最值处理。"
+    },
+    {
+      "title": "如何才能优雅地证明这个不等式？",
+      "url": "https://www.zhihu.com/answer/1989367147290439855",
+      "summary": "正文用正弦项下界证明每个乘积因子大于 i/(i+1)，再由连乘得到所求不等式。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1991294212570900197",
+      "summary": "正文用比值法和放缩法把幂式比较化为可计算的不等式判断。"
+    },
+    {
+      "title": "如何证明a^a+b^b≥a^b+b^a(其中a,b>0)?",
+      "url": "https://www.zhihu.com/answer/1998352980823520262",
+      "summary": "正文按 a、b 的不同大小关系分类，并通过辅助函数单调性证明不等式 a^a+b^b≥a^b+b^a。"
+    },
+    {
+      "title": "100³和100¹⁰⁰哪个更大？",
+      "url": "https://www.zhihu.com/answer/1998356801113061133",
+      "summary": "正文把两个幂的大小比较转化为证明 100>3 这一不等式。"
+    },
+    {
+      "title": "a+2b+3c=1求ab+ac+bc最大值？",
+      "url": "https://www.zhihu.com/answer/2001001362293532548",
+      "summary": "正文代入约束后配方估计二次函数的上界，推出 ab+ac+bc 的最大值为 1/8。"
+    },
+    {
+      "title": "如何用初等方法证明xe^x-ln(x)＞3/2？",
+      "url": "https://www.zhihu.com/answer/2004128959625974316",
+      "summary": "正文把原问题转化为一串可验证的不等式，并通过单调性和级数估计完成证明。"
+    },
+    {
+      "title": "如何优雅地证明sin(2/3)> (√5-1)/2？",
+      "url": "https://www.zhihu.com/answer/2006280289383645637",
+      "summary": "正文证明含正弦与黄金比例表达式的严格不等式，并给出成立理由。"
+    },
+    {
+      "title": "求3^sinx+3^cosx的取值范围？",
+      "url": "https://www.zhihu.com/answer/2007567252770277248",
+      "summary": "正文先引入 AM-GM 不等式及取等条件，推导该函数的下界。"
+    },
+    {
+      "title": "怎么证明ln(2)*lg(5)<1/2？",
+      "url": "https://www.zhihu.com/answer/2008815193870836432",
+      "summary": "正文通过倒数求和与上下界比较，完成 ln(2)·lg(5) 小于二分之一的不等式证明。"
+    },
+    {
+      "title": "如何证明这个很紧的不等式？",
+      "url": "https://www.zhihu.com/answer/2009181033229209734",
+      "summary": "正文构造带有精确常数的正积分来比较目标表达式，从而证明这个较紧的不等式。"
+    },
+    {
+      "title": "如何证明这个很紧的不等式？",
+      "url": "https://www.zhihu.com/answer/2009776330535883930",
+      "summary": "正文利用三次函数的单调性把目标比较化为两点函数值比较，再以精确常数值完成不等式证明。"
+    },
+    {
+      "title": "如何求P(AB)-P(A)P(B)的取值范围？",
+      "url": "https://www.zhihu.com/answer/2012988027794916532",
+      "summary": "正文使用柯西－施瓦茨不等式估计协方差绝对值，从而得到概率表达式上下界。"
+    },
+    {
+      "title": "如何优雅地证明∀x∈R,x⁴−x²−6x+10>0？",
+      "url": "https://www.zhihu.com/answer/2017757841319019814",
+      "summary": "正文对任意实数证明多项式严格大于零，核心是展示并证明一个代数不等式。"
+    },
+    {
+      "title": "如何证明x>0时，sinh(x)>sinx？",
+      "url": "https://www.zhihu.com/answer/2019347707509097960",
+      "summary": "正文用指数函数的二次下界逐步放缩，并结合 sinh 的表达式和 sin x 的上界完成不等式证明。"
+    },
+    {
+      "title": "1.01的100次方和2谁大？",
+      "url": "https://www.zhihu.com/answer/2019369220337608227",
+      "summary": "正文给出幂值下界并通过与原式比较，直接证明 1.01 的 100 次方大于 2。"
+    },
+    {
+      "title": "1.01的100次方和2谁大？",
+      "url": "https://www.zhihu.com/answer/2019457097381750165",
+      "summary": "正文把幂展开为逐项略大于一的分式乘积，再以链式放缩和约分证明其大于 2。"
+    },
+    {
+      "title": "如何巧妙的证明这个不等式：ln2+lg2<1？",
+      "url": "https://www.zhihu.com/answer/2020925260904558948",
+      "summary": "正文比较幂的大小来估计对数，再用分段求和与放缩完成不等式证明。"
+    },
+    {
+      "title": "能否只使用初等数学的方法证明sin x＞x-x^3/6？",
+      "url": "https://www.zhihu.com/answer/2021639545125381132",
+      "summary": "正文用余弦下界与几何级数进行连续放缩，证明关于正弦的三次不等式。"
+    },
+    {
+      "title": "根据我的算法，居然推出了“最大的数是10”，问题出在哪了？",
+      "url": "https://www.zhihu.com/answer/2024030341279621832",
+      "summary": "正文假定最大数为 N，并由 N²≤N 及分母非零推出 N≤1，核心是说明该代数不等式推理建立在错误前提上。"
+    },
+    {
+      "title": "有哪些看起来很难但做起来很简单的数学题？",
+      "url": "https://www.zhihu.com/answer/2026676621759849579",
+      "summary": "正文通过对数下界和倒数和的正负性比较不等式两侧，给出直接的大小判定。"
+    },
+    {
+      "title": "有哪些看起来很难但做起来很简单的数学题？",
+      "url": "https://www.zhihu.com/answer/2026801205939029266",
+      "summary": "正文以含两个根式的不等式为对象，利用结构关系换元、化简并求出完整解集。"
+    },
+    {
+      "title": "有没有两个数的乘积等于把他们相连的新数？",
+      "url": "https://www.zhihu.com/answer/2028712954061755339",
+      "summary": "正文用连续不等式比较二项展开的各项，据此证明正整数非平凡解只能是 (2,2)。"
+    },
+    {
+      "title": "如何优雅地证明e<sqrt(3)+1？",
+      "url": "https://www.zhihu.com/answer/2028965864410551729",
+      "summary": "正文通过一串严格放缩把待证不等式化为 e 的上界与右端数值的比较，完成不等式证明。"
+    },
+    {
+      "title": "不用求导，如何求sin2x+7cosx的最大值？",
+      "url": "https://www.zhihu.com/answer/2032421638713648372",
+      "summary": "正文将平方表达式拆成四个因子，使用 AM-GM 不等式给出上界，并验证取等条件求最大值。"
+    },
+    {
+      "title": "不用求导，如何求sin2x+7cosx的最大值？",
+      "url": "https://www.zhihu.com/answer/2033173837047710161",
+      "summary": "正文通过连续不等式放大三角表达式，为主量化简和取得上界提供依据。"
+    },
+    {
+      "title": "不用求导，如何求sin2x+7cosx的最大值？",
+      "url": "https://www.zhihu.com/answer/2033182361555298094",
+      "summary": "正文分别放缩 2sinxcosx 与 7cosx，再用不等式合并各项得到目标函数上界。"
+    },
+    {
+      "title": "如何优雅证明圆周率派的2.026次方大于10？",
+      "url": "https://www.zhihu.com/answer/2033520175807473227",
+      "summary": "正文通过证明所得积分严格大于零来完成圆周率幂次与 10 的不等式。"
+    },
+    {
+      "title": "如何用证明不等式?",
+      "url": "https://www.zhihu.com/answer/2039065174649327724",
+      "summary": "正文给出一个完整的不等式证明，连续使用对数均值不等式和三角恒等关系推出目标下界。"
+    },
+    {
+      "title": "这个怎么比大小?（希望简单一些，高中生可以用的）?",
+      "url": "https://www.zhihu.com/answer/2040056563449209913",
+      "summary": "正文把待证大小关系化归为一个明确的对数不等式并给出完整代数变形。"
+    },
+    {
+      "title": "如何评价 2026 高考数学试卷？今年题目难度如何？有哪些变化？",
+      "url": "https://www.zhihu.com/answer/2047010295722332937",
+      "summary": "正文对 d-1 的正负分类求解 f(d-1)>1/2，并结合区间得出 D(-1)，实质展示不等式求解。"
+    },
+    {
+      "title": "如何优雅地证明sin(x)+sin(2x)+sin(3x)+sin(4x)+sin(5x)＜4？",
+      "url": "https://www.zhihu.com/answer/2049461074588595335",
+      "summary": "正文通过压缩自变量区间并估计函数上界来证明五项正弦和严格小于 4。"
+    },
+    {
+      "title": "已知正数a,b,c满足：2a+4b+7c≤2abc，求a+b+c的最小值?",
+      "url": "https://www.zhihu.com/answer/2057784767358281463",
+      "summary": "正文把三项分别用加权均值不等式放缩，再相加得到目标表达式的下界，核心是代数不等式的证明。"
+    },
+    {
+      "title": "佬佬们请问这个三角函数的最值问题有什么简便的求法？",
+      "url": "https://www.zhihu.com/answer/2057865771477360913",
+      "summary": "正文把四个非负因子相乘后用均值不等式给出上界，并据此证明三角函数表达式的最大值为定值。"
+    },
+    {
+      "title": "如何证明1.005^200>2?",
+      "url": "https://www.zhihu.com/answer/2058632198975119406",
+      "summary": "正文通过算术平均与几何平均不等式比较 200 个数的均值，从而证明所要求的不等式。"
+    },
+    {
+      "title": "六个三角函数加在一起的绝对值的最小值是多少？",
+      "url": "https://www.zhihu.com/answer/2064384960589517442",
+      "summary": "正文在负变量区间使用均值不等式给出上界并取得等号，从而求出表达式的最小值。"
+    },
+    {
+      "title": "是否所有正数都可以被表示为 x^2+[x]^2+{x}^2？",
+      "url": "https://www.zhihu.com/answer/2071270020940878341",
+      "summary": "正文通过端点不等式和单调性确定各区间取值，并据此处理开闭端点。"
+    },
+    {
+      "title": "如何评价北京协和医院住院医用AI解决了困扰数学界的难题Crouzeix猜想？",
+      "url": "https://www.zhihu.com/answer/2071663319031796181",
+      "summary": "正文以该不等式为核心陈述猜想的常数界及历史改进，属于具体不等式内容。"
+    },
+    {
+      "title": "如何评价北京协和医院住院医用AI解决了困扰数学界的难题Crouzeix猜想？",
+      "url": "https://www.zhihu.com/answer/2071729538082551723",
+      "summary": "正文给出矩阵多项式范数受数值域上多项式最大模约束的不等式，并用二阶矩阵说明常数 2 是紧的。"
+    },
+    {
+      "title": "如何评价北京协和医院住院医用AI解决了困扰数学界的难题Crouzeix猜想？",
+      "url": "https://www.zhihu.com/answer/2071939635232745128",
+      "summary": "正文给出矩阵多项式算子范数不超过数值域上最大模两倍这一核心不等式。"
+    },
+    {
+      "title": "根号15和根号17谁更接近4？",
+      "url": "https://www.zhihu.com/answer/2075183572223370464",
+      "summary": "正文用不等式比较根号 15、根号 17 与 4 的距离，并进一步陈述同类根式差比较的一般不等式。"
+    },
+    {
+      "title": "一句话总结行测资料分析八大速算技巧",
+      "url": "https://zhuanlan.zhihu.com/p/21979405",
+      "summary": "正文以 A<B 时寻找中间量 C 得 A<C<B 为例，明确说明放缩法依据不等式的传递性。"
+    },
+    {
+      "title": "做个线性代数考题",
+      "url": "https://zhuanlan.zhihu.com/p/24723630",
+      "summary": "正文围绕 x^TA_nx 的上界展开，以柯西不等式、待定系数和积分估计完成不等式证明。"
+    },
+    {
+      "title": "（一）泰勒公式（Taylor's theorem）在高考中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/25027802",
+      "summary": "正文由泰勒展开得到多个函数不等式，并用它们证明恒成立和最值问题。"
+    },
+    {
+      "title": "拉格朗日的妙招",
+      "url": "https://zhuanlan.zhihu.com/p/25052639",
+      "summary": "正文由拉格朗日恒等式推出柯西不等式，并用平方和放缩求分式表达式的最大最小值。"
+    },
+    {
+      "title": "利用二次函数解“极值点偏移”问题",
+      "url": "https://zhuanlan.zhihu.com/p/25070401",
+      "summary": "正文把双零点条件归一化后转化为函数不等式，并用单调性证明上下界。"
+    },
+    {
+      "title": "「0/0型洛必达法则」及其推广",
+      "url": "https://zhuanlan.zhihu.com/p/25091491",
+      "summary": "正文把恒成立问题化为参数与函数值域的比较，并结合单调性和极限确定参数范围。"
+    },
+    {
+      "title": "高考数学压轴题·【函数与不等式】篇（3）",
+      "url": "https://zhuanlan.zhihu.com/p/25117711",
+      "summary": "正文证明局部不等式并通过裂项累加得到目标数列不等式。"
+    },
+    {
+      "title": "高考数学压轴题·【函数与不等式】篇（2）",
+      "url": "https://zhuanlan.zhihu.com/p/25124739",
+      "summary": "正文构造并累加局部不等式，以证明含对数的数列不等式和指数不等式。"
+    },
+    {
+      "title": "从特殊性看问题",
+      "url": "https://zhuanlan.zhihu.com/p/25205179",
+      "summary": "正文对 IMO 不等式先做 n=3、n=4 的特殊情形，再通过均值不等式放缩与拆分推得一般 n 的证明。"
+    },
+    {
+      "title": "高考数学压轴题考点：不等式6个证明技巧（分数给你送上门了）",
+      "url": "https://zhuanlan.zhihu.com/p/25794893",
+      "summary": "正文归纳作差、作商、放缩、均值不等式和柯西不等式等不等式证明方法，属于不等式专题。"
+    },
+    {
+      "title": "2017高考数学丨放缩法解不等式的11条总结  压轴题必备技能",
+      "url": "https://zhuanlan.zhihu.com/p/25846102",
+      "summary": "正文专门讲解不等式证明中的放缩法，包括裂项、分式、分类、迭代和递推放缩的方向与技巧。"
+    },
+    {
+      "title": "高中数学考试题目中隐藏的信息",
+      "url": "https://zhuanlan.zhihu.com/p/26477044",
+      "summary": "正文讲解如何挖掘题目中隐含的恒成立条件，并把函数性质转化为不等式问题进行求解。"
+    },
+    {
+      "title": "剖析Minkowski不等式的证明",
+      "url": "https://zhuanlan.zhihu.com/p/26693450",
+      "summary": "正文完整证明 Minkowski 不等式并证明其等价形式 Hölder 不等式，实质讨论了一类重要不等式。"
+    },
+    {
+      "title": "均值不等式及其积分形式",
+      "url": "https://zhuanlan.zhihu.com/p/26150452",
+      "summary": "正文定义四种平均数并证明其大小链，同时推导对应的积分形式和柯西不等式。"
+    },
+    {
+      "title": "雕虫小技之函数与导数（一）",
+      "url": "https://zhuanlan.zhihu.com/p/27582009",
+      "summary": "正文把待证不等式作等价变形，展示如何将问题转化为关于新变量的不等式。"
+    },
+    {
+      "title": "赫尔德（Hölder）不等式",
+      "url": "https://zhuanlan.zhihu.com/p/27673684",
+      "summary": "正文陈述 Hölder 不等式、等号条件及其反向形式，并用它求解带约束的代数不等式最小值。"
+    },
+    {
+      "title": "不等式的配凑",
+      "url": "https://zhuanlan.zhihu.com/p/27750051",
+      "summary": "正文给出均值不等式链，并通过系数、拆项和添项配凑的例题讲解证明与最值方法。"
+    },
+    {
+      "title": "常用不等式",
+      "url": "https://zhuanlan.zhihu.com/p/28250221",
+      "summary": "正文汇总绝对值、平均数、柯西、Hölder、排序等不等式及其取等条件。"
+    },
+    {
+      "title": "请证明：e^π>21？？——东京大学1999年高考第六题(理科)",
+      "url": "https://zhuanlan.zhihu.com/p/28278604",
+      "summary": "正文通过 e^x 在 x=3 处的切线导出一个可计算的下界，再放缩证明 e^π>21。"
+    },
+    {
+      "title": "导数(Derivative)",
+      "url": "https://zhuanlan.zhihu.com/p/28748698",
+      "summary": "正文列举常见函数不等式，并用放缩、分离函数、端点分析和主元法证明相关不等式。"
+    },
+    {
+      "title": "出题人的“恶意”（下）",
+      "url": "https://zhuanlan.zhihu.com/p/30135638",
+      "summary": "正文讨论含参数不等式恒成立问题的变形思路，并把 sin x/x<b 转化为 sin x-bx<0。"
+    },
+    {
+      "title": "第八课：向量的范数",
+      "url": "https://zhuanlan.zhihu.com/p/30279795",
+      "summary": "正文借助柯西、Young 和 Hölder 不等式证明 p 范数性质，并比较这些不等式的特例关系。"
+    },
+    {
+      "title": "指、对数平均不等式",
+      "url": "https://zhuanlan.zhihu.com/p/32842987",
+      "summary": "正文推导指数平均不等式，并通过变量替换得到对数平均不等式及其应用。"
+    },
+    {
+      "title": "伯努利不等式的证明与运用",
+      "url": "https://zhuanlan.zhihu.com/p/33304783",
+      "summary": "正文列出伯努利不等式的多种形式，并利用它证明指数不等式、权方和不等式及算术几何平均不等式。"
+    },
+    {
+      "title": "关于对数平均、指数平均的一些补充（1）",
+      "url": "https://zhuanlan.zhihu.com/p/33365167",
+      "summary": "正文给出对数平均、幂平均和指数平均之间的不等式链，并逐项证明平均数的上下界。"
+    },
+    {
+      "title": "【不等式】均值不等式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/33706065",
+      "summary": "正文给出调和、几何、算术、平方平均不等式，并用它证明多道不等式问题。"
+    },
+    {
+      "title": "【不等式】柯西不等式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/33710316",
+      "summary": "正文系统陈述柯西不等式，给出两种证明和推广，并用它证明多个不等式题。"
+    },
+    {
+      "title": "【不等式】一个常见模型的优化解法",
+      "url": "https://zhuanlan.zhihu.com/p/33711537",
+      "summary": "正文给出二元柯西不等式，并用它快速求得约束条件下目标式的最小值。"
+    },
+    {
+      "title": "【不等式】舒尔不等式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/33807389",
+      "summary": "正文证明一般形式的舒尔不等式，并展开三次、四次特例及竞赛不等式应用。"
+    },
+    {
+      "title": "【不等式】丢掉次数：伯努利不等式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/33813382",
+      "summary": "正文证明伯努利不等式，并用它把指数型表达式放缩为线性表达式。"
+    },
+    {
+      "title": "【不等式】9-8不等式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/33819080",
+      "summary": "正文证明9-8轮换不等式，并通过恒等式变形和均值不等式完成证明及应用。"
+    },
+    {
+      "title": "这道题有四种解法，你知道么？",
+      "url": "https://zhuanlan.zhihu.com/p/33804276",
+      "summary": "正文用柯西不等式、均值关系和等号条件证明四元不等式 x^4+y^4≥1/8。"
+    },
+    {
+      "title": "Wallis乘积中的π从何而来？（下）",
+      "url": "https://zhuanlan.zhihu.com/p/34600273",
+      "summary": "正文通过因子上下界、不等式传递和几何位置关系证明含 s_k 与 s_n 的关键不等式。"
+    },
+    {
+      "title": "【导数压轴题】另一类二元不等式：可以用中值定理？",
+      "url": "https://zhuanlan.zhihu.com/p/34661125",
+      "summary": "正文围绕割线斜率型二元不等式，给出构造函数和放缩证明方法。"
+    },
+    {
+      "title": "【导数压轴题】切线？可以放缩？",
+      "url": "https://zhuanlan.zhihu.com/p/34910916",
+      "summary": "正文把切线与函数曲线的上下位置关系转化为函数不等式并用于证明。"
+    },
+    {
+      "title": "呆哥数学二级结论第5课——均值不等式的解题技巧【初级】",
+      "url": "https://zhuanlan.zhihu.com/p/35351701",
+      "summary": "正文以均值不等式为核心，说明其取等条件并通过多道例题演示用不等式求最值的技巧。"
+    },
+    {
+      "title": "初涉嵌入不等式",
+      "url": "https://zhuanlan.zhihu.com/p/36278248",
+      "summary": "正文给出嵌入不等式的常见形式，用配方法证明并推导多组三角形不等式。"
+    },
+    {
+      "title": "『导数』取点技巧小结",
+      "url": "https://zhuanlan.zhihu.com/p/36763351",
+      "summary": "正文以放缩、单调性和不等式估计构造满足条件的自变量取值。"
+    },
+    {
+      "title": "导数常见不等式与证明",
+      "url": "https://zhuanlan.zhihu.com/p/37067259",
+      "summary": "正文专门讨论常见不等式，逐条给出 e^x、ln x 等不等式的证明或代换推导。"
+    },
+    {
+      "title": "求二项展开式中二项式系数最大项、系数最大项的问题",
+      "url": "https://zhuanlan.zhihu.com/p/37321457",
+      "summary": "正文通过相邻项系数大小构造不等式组，求出使系数最大项成立的离散取值。"
+    },
+    {
+      "title": "几类求和的积分放缩",
+      "url": "https://zhuanlan.zhihu.com/p/37355386",
+      "summary": "正文系统证明单增或单减函数的求和与积分上下界，并由此得到可计算的不等式估计。"
+    },
+    {
+      "title": "对于估值的一点小心得",
+      "url": "https://zhuanlan.zhihu.com/p/37389852",
+      "summary": "正文以多条函数不等式估计数值，并讨论拆分与加权提高上下界精度的方法。"
+    },
+    {
+      "title": "低成本的手工开方",
+      "url": "https://zhuanlan.zhihu.com/p/37418172",
+      "summary": "正文利用根式的恒等变形和不等式放缩，反复改进平方根的上下界并估计误差。"
+    },
+    {
+      "title": "考前写点“有用”的东西",
+      "url": "https://zhuanlan.zhihu.com/p/37771737",
+      "summary": "正文系统使用界性放缩和指数、对数不等式估计函数值，从而证明零点存在并定位区间。"
+    },
+    {
+      "title": "用中值定理秒杀2018全国卷导数题",
+      "url": "https://zhuanlan.zhihu.com/p/37978562",
+      "summary": "正文利用指数不等式放缩目标式，完成导数题中的不等式证明。"
+    },
+    {
+      "title": "浅谈高中不等式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/38783555",
+      "summary": "正文系统整理糖水不等式、均值不等式链及多种不等式解法，并通过例题讲解取值范围、max/min 和最值求解。"
+    },
+    {
+      "title": "一个含参不等式的多解",
+      "url": "https://zhuanlan.zhihu.com/p/39442459",
+      "summary": "正文围绕一道含参数不等式给出换主元、直接放缩和含参反转三种解法，并讨论取等与恒成立。"
+    },
+    {
+      "title": "不等式证明的一大误区",
+      "url": "https://zhuanlan.zhihu.com/p/39913537",
+      "summary": "正文讲解不等式证明中拆分函数、分别估计上下界并区分恒成立与最值取等条件的策略。"
+    },
+    {
+      "title": "一种非常规的导数类型题目（高分冲刺型）",
+      "url": "https://zhuanlan.zhihu.com/p/40293633",
+      "summary": "正文给出目标不等式，并比较暴力求导与利用 e^x≥x+1 构造变量的两种证明路径。"
+    },
+    {
+      "title": "【数列&导数】借助积分（导数）放缩",
+      "url": "https://zhuanlan.zhihu.com/p/40295277",
+      "summary": "正文分别用导数单调性和积分面积推导同一个调和和不等式，并得到平方根和的上下界。"
+    },
+    {
+      "title": "高中导数的拓展定理证明方式",
+      "url": "https://zhuanlan.zhihu.com/p/41055611",
+      "summary": "正文系统证明 ALG 对数均值不等式，并用它处理含两个零点的不等式问题。"
+    },
+    {
+      "title": "杨氏( young )不等式",
+      "url": "https://zhuanlan.zhihu.com/p/41654910",
+      "summary": "正文陈述并推导杨氏不等式及其等号条件，再给出其共轭指数形式。"
+    },
+    {
+      "title": "凸函数与凹函数",
+      "url": "https://zhuanlan.zhihu.com/p/41951590",
+      "summary": "正文由凸函数图像位于弦下方得到二元加权不等式，并进一步推广到琴生不等式。"
+    },
+    {
+      "title": "高中导数最后一弹——n阶导恒正的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/44536909",
+      "summary": "正文描述并证明 ALG 不等式，还用其推出均值不等式，属于不等式的推导与应用。"
+    },
+    {
+      "title": "5法破解14年国II数列不等式问题",
+      "url": "https://zhuanlan.zhihu.com/p/45285406",
+      "summary": "正文围绕一个数列不等式，完整讲解等比、伪等比、糖水、裂项、二项式及待定放缩等证明方法。"
+    },
+    {
+      "title": "a/sinx+b/cosx求最小值＆阿波罗尼斯圆",
+      "url": "https://zhuanlan.zhihu.com/p/45828426",
+      "summary": "正文使用不等式给出正余弦分式和的最小值并讨论取等条件。"
+    },
+    {
+      "title": "【选修4-5】绝对值的不等式",
+      "url": "https://zhuanlan.zhihu.com/p/47070424",
+      "summary": "正文系统讲解绝对值不等式的等价转化、分类讨论和利用几何意义求解的方法。"
+    },
+    {
+      "title": "这是不用公式就能看懂的数学和物理，看过了的都说好（上）",
+      "url": "https://zhuanlan.zhihu.com/p/48219276",
+      "summary": "正文用半圆、射影定理和相交弦定理直观说明算术平均与几何平均及其大小关系。"
+    },
+    {
+      "title": "乎友不等式问题解答（1）",
+      "url": "https://zhuanlan.zhihu.com/p/48698317",
+      "summary": "围绕具体不等式给出放缩、换元和构造辅助函数的证明思路。"
+    },
+    {
+      "title": "【高中】不作图秒杀线性规划",
+      "url": "https://zhuanlan.zhihu.com/p/48763114",
+      "summary": "正文用十道题反复对线性约束作加法、消元和放缩，求出变量上下界及目标式最值。"
+    },
+    {
+      "title": "偏来偏去的极值点（1）——基本方法与技巧",
+      "url": "https://zhuanlan.zhihu.com/p/48973356",
+      "summary": "正文由构造函数的单调性推出含变量的严格不等式，具体展开了不等式证明过程。"
+    },
+    {
+      "title": "【导数压轴题】探究一道多解的不等式证明题",
+      "url": "https://zhuanlan.zhihu.com/p/50005630",
+      "summary": "正文围绕含指数、对数的不等式，给出切线放缩、变量变形和构造函数等多种证明方法。"
+    },
+    {
+      "title": "函数定义域问题大总结",
+      "url": "https://zhuanlan.zhihu.com/p/50095890",
+      "summary": "正文在多道定义域与值域题中把约束转化为二次不等式，并讨论判别式和参数为零的分支。"
+    },
+    {
+      "title": "控制专业申请NSF资助新思路：LMI是ML",
+      "url": "https://zhuanlan.zhihu.com/p/50198215",
+      "summary": "正文以 Lyapunov 函数的导数不等式刻画稳定性，并推导关于 P、B、K 的矩阵不等式。"
+    },
+    {
+      "title": "日经不等式解答（1）",
+      "url": "https://zhuanlan.zhihu.com/p/50869923",
+      "summary": "正文围绕一个含指数与对数的严格不等式，展示配凑和放缩证明。"
+    },
+    {
+      "title": "几个简单不等式的直观说明",
+      "url": "https://zhuanlan.zhihu.com/p/51013702",
+      "summary": "正文列举并解释糖水浓度不等式、三角不等式、柯西不等式和平方均值关系，核心是具体不等式的建立与应用。"
+    },
+    {
+      "title": "高考数学二级结论大总结",
+      "url": "https://zhuanlan.zhihu.com/p/51473580",
+      "summary": "正文设专节列出并讲解分式、绝对值、均值与柯西不等式等常用工具。"
+    },
+    {
+      "title": "偏来偏去的极值点（2）——进阶：对数平均不等式",
+      "url": "https://zhuanlan.zhihu.com/p/50974215",
+      "summary": "正文定义对数平均并证明其位于几何平均与算术平均之间的双向不等式。"
+    },
+    {
+      "title": "导数不等式问题——构造函数法解题",
+      "url": "https://zhuanlan.zhihu.com/p/51655005",
+      "summary": "正文以导函数满足的不等式为条件，通过构造辅助函数把导数符号转化为函数单调性并求解不等式。"
+    },
+    {
+      "title": "偏来偏去的极值点（3）——觉醒：加强的对数平均不等式",
+      "url": "https://zhuanlan.zhihu.com/p/51767987",
+      "summary": "正文系统讲解对数平均不等式的加强形式，并用代入、化整、作差证明关于极值点偏移的不等式。"
+    },
+    {
+      "title": "高考数学二级结论——函数与导数部分",
+      "url": "https://zhuanlan.zhihu.com/p/51584482",
+      "summary": "正文集中列出对数、指数、三角及指对组合的常用不等式和放缩公式，并给出适用范围。"
+    },
+    {
+      "title": "呆哥数学不等式——一元二次不等式核心求法1【1】",
+      "url": "https://zhuanlan.zhihu.com/p/52368725",
+      "summary": "正文围绕一元二次不等式的判号、求根、画图和写解集四步讲解多类不等式。"
+    },
+    {
+      "title": "不能浅尝辄止的题目——2018全国1卷理科16题",
+      "url": "https://zhuanlan.zhihu.com/p/52490582",
+      "summary": "正文用均值不等式的条件与配凑，将三角函数最值转化为可求等号条件的乘积最值。"
+    },
+    {
+      "title": "导数法——实数域上的「数学归纳」",
+      "url": "https://zhuanlan.zhihu.com/p/52484124",
+      "summary": "正文围绕 x1+x2>1+a 的证明，使用代换、求导和基本不等式构造多套证明。"
+    },
+    {
+      "title": "平均数不等式链的证明",
+      "url": "https://zhuanlan.zhihu.com/p/51665113",
+      "summary": "正文证明二元调和、几何、算术和平方平均组成的完整不等式链。"
+    },
+    {
+      "title": "呆哥数学不等式——均值不等式常见技巧和方法1【5】",
+      "url": "https://zhuanlan.zhihu.com/p/52826929",
+      "summary": "正文系统复习均值不等式并用条件代换、等号条件和多项均值不等式解题。"
+    },
+    {
+      "title": "呆哥数学不等式——均值不等式常见技巧和方法2【6】",
+      "url": "https://zhuanlan.zhihu.com/p/52948284",
+      "summary": "正文通过多次使用均值不等式讲解取等条件必须同时满足的易错点。"
+    },
+    {
+      "title": "不等式的证明方法小结",
+      "url": "https://zhuanlan.zhihu.com/p/53516242",
+      "summary": "正文以多个完整例题总结比较、综合、分析、放缩、归纳、换元和构造等不等式证明方法。"
+    },
+    {
+      "title": "由琴生不等式展开的一个讨论——Z-F不等式",
+      "url": "https://zhuanlan.zhihu.com/p/53779636",
+      "summary": "正文以琴生不等式为基础讨论加权不等式，并给出Z-F不等式及其在多元轮换式最值问题中的应用。"
+    },
+    {
+      "title": "偏来偏去的极值点（4）——飞升：齐次化方法",
+      "url": "https://zhuanlan.zhihu.com/p/53827468",
+      "summary": "正文通过齐次化把双变量不等式化为一元不等式，并举例完成极值点偏移结论的证明。"
+    },
+    {
+      "title": "【导数压轴题】消元方法的几道例题",
+      "url": "https://zhuanlan.zhihu.com/p/54561509",
+      "summary": "正文在多个双零点例题中借助对数不等式证明关于零点乘积或和的不等关系。"
+    },
+    {
+      "title": "【003】再谈极值点偏移的六种做法",
+      "url": "https://zhuanlan.zhihu.com/p/54683023",
+      "summary": "正文用六种方法证明含两个零点的变量和大于2这一不等式。"
+    },
+    {
+      "title": "【004】极值点偏移的“上界”",
+      "url": "https://zhuanlan.zhihu.com/p/54687039",
+      "summary": "正文证明两个函数值相等的自变量之和小于1，并给出多种不等式推导。"
+    },
+    {
+      "title": "〔科普向〕略冷门的二元均值介绍",
+      "url": "https://zhuanlan.zhihu.com/p/55631798",
+      "summary": "正文比较多种二元均值，明确给出几何、对数、海伦和算术平均之间的恒成立不等式。"
+    },
+    {
+      "title": "对数均值不等式的证明及双变量处理",
+      "url": "https://zhuanlan.zhihu.com/p/56267343",
+      "summary": "正文证明对数均值不等式，并用同一套双变量处理方法证明另一道对数不等式题。"
+    },
+    {
+      "title": "【017】一个经典对数不等式的四种证明",
+      "url": "https://zhuanlan.zhihu.com/p/56300467",
+      "summary": "正文给出经典对数不等式的四种证明，包括主元、消元、切线放缩和琴生不等式方法。"
+    },
+    {
+      "title": "高考数学丨“放缩法”式的8个例子，学会再不惧怕难题！",
+      "url": "https://zhuanlan.zhihu.com/p/57696084",
+      "summary": "正文用添加或舍弃项、调整分子分母、裂项等方式讲解不等式证明中的放缩法。"
+    },
+    {
+      "title": "高中数学秒杀技巧：不等式暴力方法求最值：神奇设k法-图文教程",
+      "url": "https://zhuanlan.zhihu.com/p/58410796",
+      "summary": "正文围绕基本不等式求最值，介绍设目标为 K 并利用方程与判别式确认最值的方法。"
+    },
+    {
+      "title": "【导数压轴题】Lambert W函数与隐零点",
+      "url": "https://zhuanlan.zhihu.com/p/60979387",
+      "summary": "正文完整证明含指数与对数的函数不等式，并用取等条件确定参数范围。"
+    },
+    {
+      "title": "Markov Inequality for Polynomials",
+      "url": "https://zhuanlan.zhihu.com/p/61327949",
+      "summary": "正文把结论概括为由多项式无穷范数控制导数无穷范数的马尔可夫不等式。"
+    },
+    {
+      "title": "三次方程因式分解的一点小技巧",
+      "url": "https://zhuanlan.zhihu.com/p/61517265",
+      "summary": "正文把含绝对值的不等式转化为三次多项式并因式分解，再由各因式的符号求不等式解集。"
+    },
+    {
+      "title": "解三角形的新视野——定角对定边~",
+      "url": "https://zhuanlan.zhihu.com/p/61550692",
+      "summary": "正文用均值不等式或二次式估计约束边长的和与积，从而给出周长和面积的上界。"
+    },
+    {
+      "title": "2道真题，讲透「基本不等式」的使用原则 | 真题精讲-11",
+      "url": "https://zhuanlan.zhihu.com/p/62337940",
+      "summary": "正文以基本不等式及其多次放缩完整讲解两道求最值题的使用原则。"
+    },
+    {
+      "title": "2018北京大学数学金秋营的一道题及相似题",
+      "url": "https://zhuanlan.zhihu.com/p/64194704",
+      "summary": "正文求解带可调常数的最优不等式，先由取值必要条件给出下界，再证明该常数使不等式恒成立。"
+    },
+    {
+      "title": "函数不等式大招——凹凸性反转~",
+      "url": "https://zhuanlan.zhihu.com/p/64424958",
+      "summary": "正文通过拆分函数并分别取极值来证明不等式，具体展开了不等式放缩与证明方法。"
+    },
+    {
+      "title": "【053】多元函数不等式（2019年泉州5月质检）",
+      "url": "https://zhuanlan.zhihu.com/p/64497799",
+      "summary": "正文把参数不等式转化为函数最值问题，并通过上下界讨论求出参数的取值范围。"
+    },
+    {
+      "title": "网红题（1）——比值代换",
+      "url": "https://zhuanlan.zhihu.com/p/64509311",
+      "summary": "正文通过比值代换把原问题化为单变量不等式，再逐步放缩证明加强后的下界估计。"
+    },
+    {
+      "title": "【073】原创题：“花式”极值点偏移",
+      "url": "https://zhuanlan.zhihu.com/p/66679090",
+      "summary": "正文证明含参数的正实数满足给定的双边不等式。"
+    },
+    {
+      "title": "关于导数放缩的浅谈~",
+      "url": "https://zhuanlan.zhihu.com/p/68115082",
+      "summary": "正文系统整理 ALG 不等式、基本不等式及不等式串，并用这些放缩关系处理函数不等式问题。"
+    },
+    {
+      "title": "【国际数学竞赛】基本不等式：从高考到竞赛",
+      "url": "https://zhuanlan.zhihu.com/p/68490889",
+      "summary": "正文围绕均值不等式链和柯西不等式，逐步推导并求解多道不等式题目。"
+    },
+    {
+      "title": "《数学分析教程》史济怀常庚哲课后习题答案-1.1实数",
+      "url": "https://zhuanlan.zhihu.com/p/68502071",
+      "summary": "正文余下大量篇幅证明伯努利不等式、绝对值不等式及其推广形式。"
+    },
+    {
+      "title": "拉格朗日配方法",
+      "url": "https://zhuanlan.zhihu.com/p/69056644",
+      "summary": "正文把待证不等式等价改写为平方和非负，并用配方完成不等式证明。"
+    },
+    {
+      "title": "网红题（3）——19年浙江卷导数",
+      "url": "https://zhuanlan.zhihu.com/p/73356100",
+      "summary": "正文围绕对数函数建立上下界不等式，并通过放缩证明目标函数非负。"
+    },
+    {
+      "title": "琴生不等式(Jensen's Inequality)",
+      "url": "https://zhuanlan.zhihu.com/p/74460209",
+      "summary": "正文陈述凸函数的Jensen不等式，并用积分和期望形式给出证明及统计物理应用。"
+    },
+    {
+      "title": "小学六年不及格，初中如何逆袭成为学霸！——谈学好数学的3个方法！",
+      "url": "https://zhuanlan.zhihu.com/p/75956700",
+      "summary": "正文通过分界点把实数范围分成三种情况，逐一化简绝对值并比较结果以求最小值。"
+    },
+    {
+      "title": "高中数学竞赛常用的不等式归纳",
+      "url": "https://zhuanlan.zhihu.com/p/77092665",
+      "summary": "正文集中陈述并整理均值、伯努利、柯西、排序、琴生等高中竞赛常用不等式及取等条件。"
+    },
+    {
+      "title": "哈代不等式(外一题)",
+      "url": "https://zhuanlan.zhihu.com/p/77595554",
+      "summary": "正文陈述并证明有限和无限形式的哈代不等式，结合 Cauchy、Hölder 与 Young 不等式处理最佳常数。"
+    },
+    {
+      "title": "特征值的最大值与最小值",
+      "url": "https://zhuanlan.zhihu.com/p/79023750",
+      "summary": "正文证明二次型被最小特征值与最大特征值分别从两侧夹住的不等式。"
+    },
+    {
+      "title": "【085】三角不等式（2019年西交入学考）",
+      "url": "https://zhuanlan.zhihu.com/p/79224913",
+      "summary": "正文完整证明关于正实参数的反正切分式不等式，先作变量代换再化为正弦不等式。"
+    },
+    {
+      "title": "高中数学竞赛常用的不等式归纳（续一）",
+      "url": "https://zhuanlan.zhihu.com/p/80050230",
+      "summary": "正文系统列出加权均值、赫尔德、闵科夫斯基、牛顿和麦克劳林不等式的形式及等号条件。"
+    },
+    {
+      "title": "[超多干货！]条件极值问题的方法整合介绍",
+      "url": "https://zhuanlan.zhihu.com/p/80131115",
+      "summary": "正文用均值不等式和柯西不等式求条件极值，并具体讲解配凑与取等条件。"
+    },
+    {
+      "title": "三元不等式：SOS-Schur方法",
+      "url": "https://zhuanlan.zhihu.com/p/80228431",
+      "summary": "正文通过配方、符号判断和序关系讨论三元轮换不等式，并给出多个证明实例。"
+    },
+    {
+      "title": "高中数学竞赛常用的不等式归纳（续二）",
+      "url": "https://zhuanlan.zhihu.com/p/80863531",
+      "summary": "正文推导舒尔不等式，并继续给出缪尔海德、卡拉马塔及单调函数不等式。"
+    },
+    {
+      "title": "[学习笔记]常用不等式",
+      "url": "https://zhuanlan.zhihu.com/p/87675044",
+      "summary": "正文系统列出常用不等式及其等号条件，并给出切比雪夫不等式的证明思路。"
+    },
+    {
+      "title": "AM-GM均值不等式的一种简证",
+      "url": "https://zhuanlan.zhihu.com/p/87722983",
+      "summary": "正文讲解 AM-GM 不等式的含义，并从两项情形推广给出完整证明。"
+    },
+    {
+      "title": "来，放缩！",
+      "url": "https://zhuanlan.zhihu.com/p/89759908",
+      "summary": "正文系统列举并变形常用不等式链，用于放大或缩小函数表达式。"
+    },
+    {
+      "title": "2008年江西省理科数学第22题证明",
+      "url": "https://zhuanlan.zhihu.com/p/91329911",
+      "summary": "正文通过放缩、基本不等式和对称性证明三个正变量表达式满足严格不等式界。"
+    },
+    {
+      "title": "初学讲义之高中数学二十五：线性规划",
+      "url": "https://zhuanlan.zhihu.com/p/97310927",
+      "summary": "正文用直线代入点的方法判断半平面，并联立不等式组表示平面多边形区域。"
+    },
+    {
+      "title": "题型 | 解三角形--最值问题",
+      "url": "https://zhuanlan.zhihu.com/p/101390993",
+      "summary": "正文由余弦定理建立边的关系，再利用均值不等式推出乘积和三角形面积的上界。"
+    },
+    {
+      "title": "算法学习笔记(11): 差分约束",
+      "url": "https://zhuanlan.zhihu.com/p/104764488",
+      "summary": "正文定义由变量差构成的多元一次不等式组，并说明等号、严格不等号等形式的转化。"
+    },
+    {
+      "title": "『恋数』椭圆与不等式的那些事儿",
+      "url": "https://zhuanlan.zhihu.com/p/105224480",
+      "summary": "正文利用正定二次型判定三元二次不等式成立，并给出配方和坐标变换方法。"
+    },
+    {
+      "title": "待定系数插值解决一类不等式证明",
+      "url": "https://zhuanlan.zhihu.com/p/105962118",
+      "summary": "正文以具体严格不等式证明为主线，通过辅助直线和二次函数建立上下界完成证明。"
+    },
+    {
+      "title": "ORZ…导数：野火烧不尽",
+      "url": "https://zhuanlan.zhihu.com/p/107421635",
+      "summary": "正文围绕对数函数零点构造并证明乘积与参数满足的严格不等式。"
+    },
+    {
+      "title": "导数里的琴生不等式",
+      "url": "https://zhuanlan.zhihu.com/p/107718600",
+      "summary": "正文把待证结论化为加权指数不等式，并完整展开琴生不等式的证明。"
+    },
+    {
+      "title": "网红题（5）——雅礼导数压轴（难倒多位数学骨干教师？）",
+      "url": "https://zhuanlan.zhihu.com/p/107773663",
+      "summary": "正文围绕含参数不等式的恒成立条件，完整讨论参数范围与唯一性。"
+    },
+    {
+      "title": "一些不等式的杂货",
+      "url": "https://zhuanlan.zhihu.com/p/107741642",
+      "summary": "正文集中讲解三角、柯西、赫尔德、切比雪夫及三元不等式的证明。"
+    },
+    {
+      "title": "网红题“雅礼导数压轴”的一种解法",
+      "url": "https://zhuanlan.zhihu.com/p/107818075",
+      "summary": "正文将原问题化为含参数的不等式恒成立问题，并通过最小值和唯一性求解。"
+    },
+    {
+      "title": "【“数”你好看】柯西不等式Cauchy-Schwarts Inequality",
+      "url": "https://zhuanlan.zhihu.com/p/107477843",
+      "summary": "正文系统讲解柯西不等式的两种证明、取等条件及竞赛应用。"
+    },
+    {
+      "title": "极值点偏移的几种分参方法",
+      "url": "https://zhuanlan.zhihu.com/p/108927317",
+      "summary": "正文围绕含参数对数函数的两根和上下界不等式，展示分离参数、构造辅助函数并证明不等式的方法。"
+    },
+    {
+      "title": "几道极值点偏移的比值代换解法",
+      "url": "https://zhuanlan.zhihu.com/p/108772506",
+      "summary": "正文将多个零点问题转化为不等式证明，详细展示了构造函数、变形及导出矛盾的过程。"
+    },
+    {
+      "title": "震惊！高中老师处心积虑出的难题竟被某复读生秒杀！ Pr.1",
+      "url": "https://zhuanlan.zhihu.com/p/110686213",
+      "summary": "正文通过加权不等式和均值不等式给出目标上界，并讨论相应取等条件。"
+    },
+    {
+      "title": "一道思路清奇的导数大题",
+      "url": "https://zhuanlan.zhihu.com/p/111651663",
+      "summary": "正文以化简、放缩和辅助函数单调性完成给定区间上的对数不等式证明。"
+    },
+    {
+      "title": "三角函数习题解析(1~10)(接近或略高于高考难度)",
+      "url": "https://zhuanlan.zhihu.com/p/112743622",
+      "summary": "正文通过配对三角不等式完成锐角三角形中的不等式证明，具体展开了不等式论证。"
+    },
+    {
+      "title": "网红题（7）——温州中学高三检测部分试题解答",
+      "url": "https://zhuanlan.zhihu.com/p/112698384",
+      "summary": "正文通过放缩和均值不等式证明含最大值表达式的下界及取等条件。"
+    },
+    {
+      "title": "利用柯西不等式来配凑系数",
+      "url": "https://zhuanlan.zhihu.com/p/109371528",
+      "summary": "正文围绕柯西不等式及其取等条件展开多种不等式问题，属于不等式的系统讲解与应用。"
+    },
+    {
+      "title": "关于必要性探路的一些想法",
+      "url": "https://zhuanlan.zhihu.com/p/113956412",
+      "summary": "正文围绕含参函数不等式恒成立问题，以公切点必要条件缩小参数范围并结合凹凸性验证。"
+    },
+    {
+      "title": "如果加法变成【乘法】 , 那么什么能变成【加法】 ? ——记一则函数方程",
+      "url": "https://zhuanlan.zhihu.com/p/113990049",
+      "summary": "正文用值域集合与正值性质推出 g(x)-x 非负，并由该不等式排除负值情形完成求解。"
+    },
+    {
+      "title": "数学广角：切比雪夫最佳逼近直线",
+      "url": "https://zhuanlan.zhihu.com/p/114524833",
+      "summary": "正文通过上界、下界及绝对值偏差刻画逼近误差，并明确以绝对值不等式约束求解。"
+    },
+    {
+      "title": "一些「经典」不等式的证明（一）",
+      "url": "https://zhuanlan.zhihu.com/p/113556069",
+      "summary": "正文围绕波兰数学奥林匹克不等式，将其化为关于末项系数的二次函数并证明非负。"
+    },
+    {
+      "title": "【高考压轴题】2008年江西理科数学压轴题",
+      "url": "https://zhuanlan.zhihu.com/p/116490544",
+      "summary": "正文以放缩、三角换元和多元极值为核心证明含两个参数表达式满足严格双边界不等式，并比较多种证明思路。"
+    },
+    {
+      "title": "高中导数解题技巧之对称化构造(一)",
+      "url": "https://zhuanlan.zhihu.com/p/116897190",
+      "summary": "正文具体展示如何利用函数单调性构造并证明关于两个零点之和的不等式。"
+    },
+    {
+      "title": "（水文）刘维尔定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/119449135",
+      "summary": "全文核心是建立代数数与有理数之间差值的一个明确下界不等式。"
+    },
+    {
+      "title": "高中导数解题技巧之“找特殊点”(二)",
+      "url": "https://zhuanlan.zhihu.com/p/125205484",
+      "summary": "正文把目标函数放缩成易处理的不等式，并用不等式选取特殊点证明区间内存在零点。"
+    },
+    {
+      "title": "高考数列与不等式的放缩技巧",
+      "url": "https://zhuanlan.zhihu.com/p/126351688",
+      "summary": "正文围绕数列与不等式证明，介绍裂项放缩、函数放缩和分式放缩等不等式处理方法。"
+    },
+    {
+      "title": "权方和不等式",
+      "url": "https://zhuanlan.zhihu.com/p/127843503",
+      "summary": "正文给出权方和不等式的分式形式和取等条件，并用它处理正实数不等式问题。"
+    },
+    {
+      "title": "【解析几何】圆锥曲线中的圆构型(1)内准圆",
+      "url": "https://zhuanlan.zhihu.com/p/127848364",
+      "summary": "正文借助均值不等式和柯西不等式推导三角形面积及弦长的上下界。"
+    },
+    {
+      "title": "求零点过程中的找点问题（内点效应）",
+      "url": "https://zhuanlan.zhihu.com/p/129341012",
+      "summary": "正文把判断两个函数大小的问题转化为求解含参数 α 的不等式组，并给出具体求解步骤。"
+    },
+    {
+      "title": "各类五花八门的极值点偏移",
+      "url": "https://zhuanlan.zhihu.com/p/132334038",
+      "summary": "正文把多种极值点偏移问题归结为双变量不等式证明，并讨论放缩、换元和参数范围转化。"
+    },
+    {
+      "title": "网红题（9）：简单导数题与不等式选讲",
+      "url": "https://zhuanlan.zhihu.com/p/133634641",
+      "summary": "正文多题围绕代数、指数对数及三角表达式证明不等式，并讨论取等条件。"
+    },
+    {
+      "title": "回复私信：据说是北大数院的同学没做出来的",
+      "url": "https://zhuanlan.zhihu.com/p/134087138",
+      "summary": "正文围绕目标不等式研究根的估计，比较精确界并讨论放缩与估计方法。"
+    },
+    {
+      "title": "高考试卷涉及到的柯西不等式的解法",
+      "url": "https://zhuanlan.zhihu.com/p/137550229",
+      "summary": "正文围绕柯西不等式的形式、方向和最值证明等应用讲解解题方法，属于不等式专题。"
+    },
+    {
+      "title": "解析几何中的不等式利器——柯西（Cauchy）不等式",
+      "url": "https://zhuanlan.zhihu.com/p/137532280",
+      "summary": "正文给出柯西不等式的坐标形式、向量证明和二维形式，并用它处理最值范围。"
+    },
+    {
+      "title": "【导数问题】微操方法——高阶导数",
+      "url": "https://zhuanlan.zhihu.com/p/137738599",
+      "summary": "正文通过切线放缩和高阶导数比较构造并证明函数不等式。"
+    },
+    {
+      "title": "导数压轴那些事儿— —必要性探路与端点效应（上）",
+      "url": "https://zhuanlan.zhihu.com/p/140277771",
+      "summary": "正文围绕含参不等式在区间上恒成立，讨论如何由端点条件缩小参数范围。"
+    },
+    {
+      "title": "导数压轴那些事儿— —必要性探路与端点效应（中）",
+      "url": "https://zhuanlan.zhihu.com/p/140912610",
+      "summary": "正文围绕含参恒成立不等式缩小参数范围并证明充分性展开。"
+    },
+    {
+      "title": "高中阶段换元法原理和体系梳理",
+      "url": "https://zhuanlan.zhihu.com/p/141093723",
+      "summary": "正文以三角换元证明含参代数式的上下界不等式。"
+    },
+    {
+      "title": "关于偏移的更本质做法",
+      "url": "https://zhuanlan.zhihu.com/p/139290809",
+      "summary": "正文最终证明变量和满足严格不等式x1+x2>2，展示了不等式证明过程。"
+    },
+    {
+      "title": "255快除算法的证明和推广（一）",
+      "url": "https://zhuanlan.zhihu.com/p/144675552",
+      "summary": "正文把整数除法算法的正确性化为关于 y 的双边不等式，并用它证明估计值的取值范围。"
+    },
+    {
+      "title": "搞点阴间的数学",
+      "url": "https://zhuanlan.zhihu.com/p/148218963",
+      "summary": "正文围绕给定约束证明该不等式，并通过代换算子和导数判断完成估计。"
+    },
+    {
+      "title": "[代数]简单的处理技巧",
+      "url": "https://zhuanlan.zhihu.com/p/148777244",
+      "summary": "正文围绕多项代数不等式，系统展示排序、均值、局部调整与柯西等放缩和证明技巧。"
+    },
+    {
+      "title": "AM-GM不等式的证明",
+      "url": "https://zhuanlan.zhihu.com/p/150203114",
+      "summary": "正文陈述并证明算术平均不小于几何平均的不等式及其取等条件。"
+    },
+    {
+      "title": "一道牛剑面试题",
+      "url": "https://zhuanlan.zhihu.com/p/152598658",
+      "summary": "正文以代换、函数单调性和配方多种方法求解并证明给定不等式。"
+    },
+    {
+      "title": "献给高中生——均值不等式与Jensen不等式",
+      "url": "https://zhuanlan.zhihu.com/p/146870652",
+      "summary": "正文定义调和、几何、算术和平方平均值，并证明四者之间的大小不等式链及等号条件。"
+    },
+    {
+      "title": "2020高考数学导数压轴大题解析",
+      "url": "https://zhuanlan.zhihu.com/p/158097051",
+      "summary": "正文通过构造函数、换元和放缩证明多道参数不等式，并求得参数或变量的取值范围。"
+    },
+    {
+      "title": "三道题入门柯西不等式",
+      "url": "https://zhuanlan.zhihu.com/p/161465399",
+      "summary": "正文陈述柯西不等式的一般形式与取等条件，并用三道例题演示其应用。"
+    },
+    {
+      "title": "换元法：换元到底改变了什么？",
+      "url": "https://zhuanlan.zhihu.com/p/163552620",
+      "summary": "正文通过和差换元把待证不等式化为基本不等式，完整展示不等式证明。"
+    },
+    {
+      "title": "浅谈误差函数 erf(x)",
+      "url": "https://zhuanlan.zhihu.com/p/164894362",
+      "summary": "正文具体构造并证明互补误差函数的多个上界与下界不等式。"
+    },
+    {
+      "title": "GeoGebra对导数放缩中感觉的培养",
+      "url": "https://zhuanlan.zhihu.com/p/161286530",
+      "summary": "正文以证明大于零时“放小”为核心，讲解导数不等式的放缩方向。"
+    },
+    {
+      "title": "【笔记】Suranyi 不等式及其应用与推广",
+      "url": "https://zhuanlan.zhihu.com/p/170483727",
+      "summary": "正文陈述、证明并推广 Suranyi 不等式，还讨论其与 Schur 不等式的关系。"
+    },
+    {
+      "title": "2020东南赛部分题解答",
+      "url": "https://zhuanlan.zhihu.com/p/172634859",
+      "summary": "正文用判别式约束和不等式放缩求二次函数表达式中乘积绝对值的最大值。"
+    },
+    {
+      "title": "【WWWork】当你在看本子时无意间看到一道数学题",
+      "url": "https://zhuanlan.zhihu.com/p/235466394",
+      "summary": "正文用柯西不等式得到平方和的下界，并说明等号取得时对应目标式的最小值。"
+    },
+    {
+      "title": "把高中数列进阶知识点网罗殆尽",
+      "url": "https://zhuanlan.zhihu.com/p/254897042",
+      "summary": "正文用裂项、不等式和弃项等方法证明数列和的上界，具体展开不等式放缩技巧。"
+    },
+    {
+      "title": "打破常规求导证不等式——由某个正切函数tanx放缩式而得的想法",
+      "url": "https://zhuanlan.zhihu.com/p/266588002",
+      "summary": "正文以正切函数放缩为例，说明先积分寻找来源再逆向证明不等式的思路。"
+    },
+    {
+      "title": "我的数分笔记（三）",
+      "url": "https://zhuanlan.zhihu.com/p/268273939",
+      "summary": "正文系统给出并证明伯努利不等式、均值不等式、柯西不等式和三角不等式。"
+    },
+    {
+      "title": "康托洛维奇(Kantorovich)不等式的一种初等证明",
+      "url": "https://zhuanlan.zhihu.com/p/271983329",
+      "summary": "正文明确围绕康托洛维奇不等式的标量与矩阵两种形式展开，并将矩阵情形化归为待证不等式。"
+    },
+    {
+      "title": "对2020天津卷导数压轴题背景的探究及应用",
+      "url": "https://zhuanlan.zhihu.com/p/278313706",
+      "summary": "正文系统陈述并证明由三阶导数符号决定函数斜率平均值与端点导数均值大小关系的不等式。"
+    },
+    {
+      "title": "第三天（20,11,10）：泰勒公式与三角不等式",
+      "url": "https://zhuanlan.zhihu.com/p/283089407",
+      "summary": "正文把两个泰勒展开式相减，利用绝对值不等式放大并证明给定的二阶导数下界不等式。"
+    },
+    {
+      "title": "排序不等式，切比雪夫不等式及伯努利不等式",
+      "url": "https://zhuanlan.zhihu.com/p/296227985",
+      "summary": "正文分别陈述、解释并证明排序不等式、切比雪夫不等式和伯努利不等式，属于不等式方法的实质讲解。"
+    },
+    {
+      "title": "论如何优雅地解决齐次化问题",
+      "url": "https://zhuanlan.zhihu.com/p/161840496",
+      "summary": "正文利用二次型恒等变形和待定系数放缩，把目标式转化为 x²+y² 的下界。"
+    },
+    {
+      "title": "考研数学小结论总结",
+      "url": "https://zhuanlan.zhihu.com/p/304687568",
+      "summary": "正文给出积分形式的柯西-施瓦茨不等式、等号条件以及另一条积分不等式。"
+    },
+    {
+      "title": "第二十二天（20,11,29）：两道竞赛题~",
+      "url": "https://zhuanlan.zhihu.com/p/320464840",
+      "summary": "正文把 1≤f(x)≤3 转化为二次式非正，并配合基本不等式构造放缩以得到积分乘积的上界。"
+    },
+    {
+      "title": "比内-柯西(Binet-Cauchy)公式的证明与应用",
+      "url": "https://zhuanlan.zhihu.com/p/337464214",
+      "summary": "正文由柯西恒等式推出柯西不等式，并继续证明 Hadamard 行列式不等式及其推广。"
+    },
+    {
+      "title": "【军火库】高考导数一些放缩技巧与出题背景积累",
+      "url": "https://zhuanlan.zhihu.com/p/339792669",
+      "summary": "正文系统整理指数与对数函数的切线不等式、换元变体和积分型放缩。"
+    },
+    {
+      "title": "一道题引发的思考——琴生（Jensen）不等式的积分形式",
+      "url": "https://zhuanlan.zhihu.com/p/347246297",
+      "summary": "正文从凸函数中点不等式推广到加权形式和积分形式，重点证明函数平均值与积分平均值之间的不等式。"
+    },
+    {
+      "title": "浅谈数列放缩（一）：拆项放缩",
+      "url": "https://zhuanlan.zhihu.com/p/350072078",
+      "summary": "正文系统讲解用逐项不等式、拆项放缩和函数界证明数列部分和的大小关系。"
+    },
+    {
+      "title": "浅谈美妙的三角换元",
+      "url": "https://zhuanlan.zhihu.com/p/350166986",
+      "summary": "正文通过正弦有界性、均值与柯西不等式等放缩条件求函数值域。"
+    },
+    {
+      "title": "一道奇奇怪怪的导数（数列？）",
+      "url": "https://zhuanlan.zhihu.com/p/350251919",
+      "summary": "正文把递推关系化为函数单调性问题，比较相邻项以证明数列差分大于1的不等式。"
+    },
+    {
+      "title": "关于构造函数放缩的一些思考",
+      "url": "https://zhuanlan.zhihu.com/p/350378452",
+      "summary": "正文系统展示如何用切线、泰勒多项式、帕德近似、割线等构造放缩，证明多类函数不等式。"
+    },
+    {
+      "title": "常见数列的裂项及放缩",
+      "url": "https://zhuanlan.zhihu.com/p/351812718",
+      "summary": "正文集中列出数列通项裂项恒等式和若干分式放缩不等式，展示如何把复杂分式化为可求和或可比较的形式。"
+    },
+    {
+      "title": "高中数列技巧大总结",
+      "url": "https://zhuanlan.zhihu.com/p/350862381",
+      "summary": "正文专设放缩章节，通过通项分析、裂项和等比放缩证明多个数列不等式与和的上界。"
+    },
+    {
+      "title": "从零开始的基本不等式及其应用大全——超详细梳理",
+      "url": "https://zhuanlan.zhihu.com/p/352588326",
+      "summary": "正文从平方非负推出基本不等式，并证明调和、几何、算术与平方平均不等式链。"
+    },
+    {
+      "title": "【高考数学·导数】必要性探路",
+      "url": "https://zhuanlan.zhihu.com/p/352726789",
+      "summary": "正文围绕含参不等式在区间上恒成立的问题总结必要性探路方法。"
+    },
+    {
+      "title": "【快数学】妙话同构——高中数学同构式秒杀",
+      "url": "https://zhuanlan.zhihu.com/p/358779006",
+      "summary": "正文以同构变形和函数单调性为方法，系统说明如何求解及证明不等式。"
+    },
+    {
+      "title": "由一道晚练题引出拉格朗日中值定理",
+      "url": "https://zhuanlan.zhihu.com/p/358882098",
+      "summary": "正文用切线放缩处理不等式恒成立求参，并借助中值定理处理割线斜率不等式。"
+    },
+    {
+      "title": "高中数学导数大题常用技巧——放缩浅谈（一）",
+      "url": "https://zhuanlan.zhihu.com/p/359071922",
+      "summary": "正文先列出并证明多种指数与对数放缩不等式，再反复用于证明恒成立和参数范围问题。"
+    },
+    {
+      "title": "一个你从来没有见过的不等式——对数平均不等式",
+      "url": "https://zhuanlan.zhihu.com/p/362578100",
+      "summary": "正文定义对数平均数并完整证明它位于几何平均数与算术平均数之间的不等式。"
+    },
+    {
+      "title": "[老坟新挖]带根式导数题的处理方法",
+      "url": "https://zhuanlan.zhihu.com/p/363471437",
+      "summary": "正文给出并应用 x+1>2√x 这一不等式，对含根式项进行放缩并完成证明。"
+    },
+    {
+      "title": "近几年最难导数压轴--2019浙江高考数学压轴真的要因式分解才能严谨做出吗？",
+      "url": "https://zhuanlan.zhihu.com/p/363976702",
+      "summary": "正文围绕含参数不等式展开必要性探路、分段讨论和等价变形，实质讲解了一类不等式的证明方法。"
+    },
+    {
+      "title": "Minkowski不等式和Holder不等式的直观证明",
+      "url": "https://zhuanlan.zhihu.com/p/364904244",
+      "summary": "正文陈述并证明 Minkowski 与 Holder 两类核心不等式，解释取等条件及 p 范数的三角不等式。"
+    },
+    {
+      "title": "一个代数恒等式在解题中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/365819807",
+      "summary": "正文以一个代数恒等式为核心，结合Cauchy不等式证明多道竞赛不等式。"
+    },
+    {
+      "title": "【高中数学·导数】朗博W函数与常规方法",
+      "url": "https://zhuanlan.zhihu.com/p/367080386",
+      "summary": "正文以分离参数和放缩两种方法求解含指数、对数的恒成立不等式。"
+    },
+    {
+      "title": "极值点偏移与拉格朗日反演",
+      "url": "https://zhuanlan.zhihu.com/p/367058597",
+      "summary": "正文把反函数展开用于证明极值点偏移中关于两根之和的多种不等式。"
+    },
+    {
+      "title": "【高考数学】2.2 指数不等式的解法",
+      "url": "https://zhuanlan.zhihu.com/p/367306884",
+      "summary": "正文根据底数大于1或介于0和1之间分别决定指数不等式取对数后是否翻转不等号，并给出多道求解例题。"
+    },
+    {
+      "title": "高中数学导数大题常用技巧——放缩浅谈（二）",
+      "url": "https://zhuanlan.zhihu.com/p/367538850",
+      "summary": "全文围绕导数题中的放缩、分离参数和构造差函数证明不等式，系统展开不等式变形与证明方法。"
+    },
+    {
+      "title": "导数大题-从入门到进阶",
+      "url": "https://zhuanlan.zhihu.com/p/369037900",
+      "summary": "正文集中讲解单变量、多变量及含参数不等式的证明和恒成立问题。"
+    },
+    {
+      "title": "高中数学导数同构:从入门到入土",
+      "url": "https://zhuanlan.zhihu.com/p/370758971",
+      "summary": "正文以多道例题讲解如何构造函数同构来证明函数不等式。"
+    },
+    {
+      "title": "Hadamard不等式（含行列式）的若干证明方法",
+      "url": "https://zhuanlan.zhihu.com/p/377664850",
+      "summary": "正文给出 Hadamard 不等式的四种证明，讨论行列式的平方与各行元素平方和之积的大小关系。"
+    },
+    {
+      "title": "如果x^2+y^2=4,那么3x+4y的最大值？",
+      "url": "https://zhuanlan.zhihu.com/p/378288990",
+      "summary": "正文使用完全平方恒等式和柯西不等式建立上界，并讨论取等条件。"
+    },
+    {
+      "title": "2021年各地部分高考数学题分析",
+      "url": "https://zhuanlan.zhihu.com/p/378802529",
+      "summary": "正文通过构造函数和导数不等式证明多个变量不等式，并系统讨论不等式解集。"
+    },
+    {
+      "title": "极值点偏移的放缩式解法",
+      "url": "https://zhuanlan.zhihu.com/p/382423283",
+      "summary": "正文用函数不等式链夹逼两个函数值，整理后证明两根之和与两根之积的不等式。"
+    },
+    {
+      "title": "对数不等式的变形",
+      "url": "https://zhuanlan.zhihu.com/p/386713142",
+      "summary": "正文先给出 ln x 的上下界，再经变形与相减得到两个对数不等式，并用于约束两正数之积。"
+    },
+    {
+      "title": "Carleman不等式及若干证明方法",
+      "url": "https://zhuanlan.zhihu.com/p/389442229",
+      "summary": "正文完整陈述 Carleman 不等式，并讨论其常数 e 的最佳性。"
+    },
+    {
+      "title": "一道钓鱼题引发的“惨案”",
+      "url": "https://zhuanlan.zhihu.com/p/389518337",
+      "summary": "正文完整证明一道三元不等式，并通过齐次化、均值不等式和平方分析法推导加强命题。"
+    },
+    {
+      "title": "经典且美妙——柯西不等式",
+      "url": "https://zhuanlan.zhihu.com/p/390699365",
+      "summary": "正文完整陈述柯西不等式，并给出二次函数、单调数列、向量等多种证明及常用变式。"
+    },
+    {
+      "title": "极值点偏移问题（四种解法）",
+      "url": "https://zhuanlan.zhihu.com/p/393187339",
+      "summary": "正文以对数平均不等式和其他放缩方法证明根乘积的严格不等式。"
+    },
+    {
+      "title": "常用的放缩不等式",
+      "url": "https://zhuanlan.zhihu.com/p/396423540",
+      "summary": "正文系统整理指数、对数、指对混合和三角函数的不等式放缩，并逐条给出取等条件。"
+    },
+    {
+      "title": "柯西不等式的几种证明方法",
+      "url": "https://zhuanlan.zhihu.com/p/397034475",
+      "summary": "正文以柯西不等式为主题，完整陈述并证明这一重要代数不等式。"
+    },
+    {
+      "title": "导数中的常见找点模型",
+      "url": "https://zhuanlan.zhihu.com/p/397023700",
+      "summary": "正文反复利用对数的切线放缩、均值不等式等控制函数在选点的符号，从而完成零点存在性论证。"
+    },
+    {
+      "title": "算法学习笔记(79): 四边形不等式优化DP",
+      "url": "https://zhuanlan.zhihu.com/p/398419302",
+      "summary": "正文给出四边形不等式的定义、相关充分条件，并说明它为何能推出决策点单调性。"
+    },
+    {
+      "title": "来自数学大师的经典证明：算术平均-几何平均不等式的几种经典证明",
+      "url": "https://zhuanlan.zhihu.com/p/401791777",
+      "summary": "正文给出算术平均与几何平均不等式，并展示多种证明及调和、算术、几何、平方平均数的大小关系。"
+    },
+    {
+      "title": "代数：不等式（1） 常用不等式",
+      "url": "https://zhuanlan.zhihu.com/p/401350928",
+      "summary": "正文集中列出均值、幂平均、琴生、柯西、赫尔德等不等式及其加权或反向形式，属于不等式的系统整理。"
+    },
+    {
+      "title": "常用的、著名的“不等式”",
+      "url": "https://zhuanlan.zhihu.com/p/402344928",
+      "summary": "正文从琴生不等式出发，逐一陈述并证明加权均值、Young、Holder、Minkowski等不等式。"
+    },
+    {
+      "title": "代数：不等式（3） 柯西求反",
+      "url": "https://zhuanlan.zhihu.com/p/402404994",
+      "summary": "正文讲解柯西求反的分式变形技巧，并用它改写、放缩和证明多个对称不等式。"
+    },
+    {
+      "title": "代数：不等式（4） 切线法与弦线法",
+      "url": "https://zhuanlan.zhihu.com/p/402784423",
+      "summary": "正文通过切线或割线估计函数并求和，系统展示不等式放缩的方法与应用。"
+    },
+    {
+      "title": "【导数压轴题】切线放缩法全应用（一）：不等式证明",
+      "url": "https://zhuanlan.zhihu.com/p/403857689",
+      "summary": "正文围绕对称式不等式，系统讲解用切线放缩构造下界或上界及规范证明写法。"
+    },
+    {
+      "title": "代数：不等式（5） 不等式的换元技巧",
+      "url": "https://zhuanlan.zhihu.com/p/404195918",
+      "summary": "正文系统整理于不等式问题中使用的三角、比值、pqr 与齐次化换元技巧及常用轮换和结论。"
+    },
+    {
+      "title": "不等式的放缩·《代数不等式》注释·恒等式积累（不定期更新）",
+      "url": "https://zhuanlan.zhihu.com/p/365642250",
+      "summary": "正文积累并推导极化、拉格朗日及三元循环等多项式恒等式，再用配方式和展开技巧证明多个代数不等式。"
+    },
+    {
+      "title": "数学分析基础",
+      "url": "https://zhuanlan.zhihu.com/p/392256186",
+      "summary": "正文系统整理伯努利、柯西、均值、绝对值和函数不等式，并给出多种证明与应用情境。"
+    },
+    {
+      "title": "预设性能控制-Prescribed  Performance  Control(PPC)",
+      "url": "https://zhuanlan.zhihu.com/p/410916617",
+      "summary": "正文用上下边界不等式约束跟踪误差，并通过归一化和误差映射将其转化为对状态有界性的控制。"
+    },
+    {
+      "title": "一文搞懂积分不等式证明(积分证明题总结笔记3/3)",
+      "url": "https://zhuanlan.zhihu.com/p/411078530",
+      "summary": "正文围绕含函数及其积分的严格不等式，分类讲解七种证明思路和适用场景。"
+    },
+    {
+      "title": "著名不等式的积分形式",
+      "url": "https://zhuanlan.zhihu.com/p/414502125",
+      "summary": "正文集中陈述并证明多种经典函数不等式，尤其利用凸性建立积分与函数值的上下界。"
+    },
+    {
+      "title": "降维打击——不等式中的黑魔法",
+      "url": "https://zhuanlan.zhihu.com/p/414155646",
+      "summary": "正文围绕均值、三元、多元及 Hilbert 等不等式展开证明与放缩方法。"
+    },
+    {
+      "title": "分析中三个常用不等式——Young、Holder、Minkowski不等式",
+      "url": "https://zhuanlan.zhihu.com/p/416959152",
+      "summary": "正文给出 Young、Hölder 与 Minkowski 不等式的离散和积分形式，并展示条件与证明，系统展开不等式主题。"
+    },
+    {
+      "title": "从零开始的基本不等式之旅",
+      "url": "https://zhuanlan.zhihu.com/p/421111814",
+      "summary": "正文系统证明基本不等式和均值不等式链，并围绕条件、取等条件与代数变形讲解大量不等式问题。"
+    },
+    {
+      "title": "【不等式】配方法的一类高级应用技巧",
+      "url": "https://zhuanlan.zhihu.com/p/422468700",
+      "summary": "正文利用换元后得到的代数恒等式完成配方，从而证明平方和的最小值并讨论取等条件。"
+    },
+    {
+      "title": "⑨のn元不等式笔记（1）",
+      "url": "https://zhuanlan.zhihu.com/p/422618184",
+      "summary": "正文围绕 n 元不等式的最值证明展开待定系数、放缩与配方等具体技巧，并给出多个应用。"
+    },
+    {
+      "title": "高中数学从入门到入土（一）：从简单放缩入手解决一类导数中的含参不等式问题",
+      "url": "https://zhuanlan.zhihu.com/p/427280668",
+      "summary": "正文针对带参数的不等式问题，说明先用放缩得到充分条件，再利用单调性或取点排除其他情形。"
+    },
+    {
+      "title": "2021 广东省九校联考导数压轴",
+      "url": "https://zhuanlan.zhihu.com/p/432732713",
+      "summary": "正文围绕含对数函数的零点建立并证明两个具体不等式，还讨论放缩和二次函数构造。"
+    },
+    {
+      "title": "【高考数学】极值点偏移与拟合法",
+      "url": "https://zhuanlan.zhihu.com/p/433077127",
+      "summary": "正文以两个同函数值点为变量，建立并证明加法偏移和乘法偏移两类不等式。"
+    },
+    {
+      "title": "高中数学基本不等式简析",
+      "url": "https://zhuanlan.zhihu.com/p/438429795",
+      "summary": "正文讲解算术-几何均值不等式，说明正数前提、等号条件、最值应用及常见变形。"
+    },
+    {
+      "title": "Love不等式---数学生的浪漫",
+      "url": "https://zhuanlan.zhihu.com/p/440564913",
+      "summary": "正文陈述并证明多项式导数之间的 Love 不等式，核心结论是不等式关系。"
+    },
+    {
+      "title": "一道“松松垮垮”的不等式",
+      "url": "https://zhuanlan.zhihu.com/p/441636673",
+      "summary": "正文围绕指数与对数组成的双边不等式，通过函数放缩和均值不等式完成证明。"
+    },
+    {
+      "title": "【解题研究】极值点偏移——偏对称根的范围",
+      "url": "https://zhuanlan.zhihu.com/p/443595789",
+      "summary": "正文由对数均值不等式起步，经过多次放缩推导两根和与两根积的上下界。"
+    },
+    {
+      "title": "高中数学从入门到入土（四）：浅谈导数中的各类常见放缩",
+      "url": "https://zhuanlan.zhihu.com/p/452450578",
+      "summary": "正文具体讨论含参不等式、双变量不等式及对数均值不等式中的放缩求解。"
+    },
+    {
+      "title": "一道网红导数题的命制背景与解法探究",
+      "url": "https://zhuanlan.zhihu.com/p/453748970",
+      "summary": "正文比较不同估计式并证明两根平方和与给定二次式之间的大小不等式。"
+    },
+    {
+      "title": "⑨のn元不等式笔记（2）——可能是最全面透彻的Hardy不等式与Carleman不等式讲解",
+      "url": "https://zhuanlan.zhihu.com/p/453614485",
+      "summary": "正文系统讲解 Hardy、Carleman 及相关不等式的待定系数与放缩证明。"
+    },
+    {
+      "title": "一类极值点偏移题的背景与解析",
+      "url": "https://zhuanlan.zhihu.com/p/454038829",
+      "summary": "正文围绕含两个零点的平方和不等式，利用函数放缩给出完整证明。"
+    },
+    {
+      "title": "潜藏的椭圆：斜率之积或和为定值时直线所过定点的轨迹",
+      "url": "https://zhuanlan.zhihu.com/p/452879862",
+      "summary": "正文把对数均值不等式代入三角函数关系，完整证明一个含余弦与对数的不等式。"
+    },
+    {
+      "title": "【解题研究】导数之双零点关系",
+      "url": "https://zhuanlan.zhihu.com/p/456444284",
+      "summary": "正文通过参数代换和插值放缩证明两个零点之间的不等式关系。"
+    },
+    {
+      "title": "某道较难导数题",
+      "url": "https://zhuanlan.zhihu.com/p/460780374",
+      "summary": "正文以多个放缩不等式和函数符号判断证明给定表达式在定义域内恒大于零。"
+    },
+    {
+      "title": "inversioner版高中数学课本(3)——第一章：不等式",
+      "url": "https://zhuanlan.zhihu.com/p/461005107",
+      "summary": "正文系统讲解不等式的性质、求解方法以及平均值不等式和柯西不等式等证明工具。"
+    },
+    {
+      "title": "高中数学导数常见放缩不等式",
+      "url": "https://zhuanlan.zhihu.com/p/462028423",
+      "summary": "正文集中整理指数、对数、三角函数及多项式组合的常见放缩不等式，并逐条标注成立范围。"
+    },
+    {
+      "title": "(高中)对称隐零点不等式问题方法(极值点偏移)",
+      "url": "https://zhuanlan.zhihu.com/p/462721746",
+      "summary": "正文围绕含两个零点的不等式证明，比较构造函数、对数均值与比较函数放缩等方法。"
+    },
+    {
+      "title": "（高中数学）导数中一些常用放缩及来源",
+      "url": "https://zhuanlan.zhihu.com/p/462849803",
+      "summary": "正文系统整理 e^x 与 ln x 的双边放缩不等式，并用变量代换推导多条衍生不等式。"
+    },
+    {
+      "title": "（高中数学）极值点偏移5种处理方式",
+      "url": "https://zhuanlan.zhihu.com/p/462870821",
+      "summary": "正文围绕两个函数值对应变量之和的双边不等式，给出五种放缩与构造证明。"
+    },
+    {
+      "title": "我发现了一个超级没用的不等式！！！！！！！",
+      "url": "https://zhuanlan.zhihu.com/p/462981371",
+      "summary": "正文定义两个加权对数平均值不等式，并完整推导其左右界。"
+    },
+    {
+      "title": "两道有趣的数学题(2)：赫尔德不等式、交替排列与欧拉正割数",
+      "url": "https://zhuanlan.zhihu.com/p/462832847",
+      "summary": "正文用柯西、均值与赫尔德不等式求解三角表达式下界，并以琴生不等式证明赫尔德不等式。"
+    },
+    {
+      "title": "几个较难的积分不等式",
+      "url": "https://zhuanlan.zhihu.com/p/464180118",
+      "summary": "正文以柯西不等式作为核心放缩工具证明第二类积分不等式。"
+    },
+    {
+      "title": "【导数压轴题】切线放缩法全应用（二）：类极值点偏移",
+      "url": "https://zhuanlan.zhihu.com/p/422313319",
+      "summary": "正文通过双切线和双割线放缩建立函数界，并据此证明带参数的不等式。"
+    },
+    {
+      "title": "(其一)高中数列压轴小题阶系统方法(浙江尤其适用)",
+      "url": "https://zhuanlan.zhihu.com/p/467440834",
+      "summary": "正文系统说明对数列递推式实施幂阶、等比阶及反代放缩，从而构造双边不等式估计。"
+    },
+    {
+      "title": "线性赢数论：二赢型与「双赢就是赢两次」猜想（Linear Algebra Done Win: Quadratic Win-Form）",
+      "url": "https://zhuanlan.zhihu.com/p/472997087",
+      "summary": "正文借半正定矩阵证明平方和不小于交叉项，并以此处理二次型不等式。"
+    },
+    {
+      "title": "(高中)浙江2019导数压轴(分类+一步放缩)",
+      "url": "https://zhuanlan.zhihu.com/p/476355730",
+      "summary": "正文通过换元、放缩并化为非负平方形式来证明给定不等式，实质展示不等式证明。"
+    },
+    {
+      "title": "『导数』指对混合不等式的证明技巧  ——凹凸反转",
+      "url": "https://zhuanlan.zhihu.com/p/479096747",
+      "summary": "正文系统说明指对混合不等式经分离后比较两个函数最值的证明方法。"
+    },
+    {
+      "title": "高等代数与不等式(1): (半)正定性的判定",
+      "url": "https://zhuanlan.zhihu.com/p/480136265",
+      "summary": "正文围绕多个经典不等式及其推广给出配方、积分和线性代数证明。"
+    },
+    {
+      "title": "10. 经典不等式",
+      "url": "https://zhuanlan.zhihu.com/p/484298361",
+      "summary": "正文给出 Young、Hölder、Cauchy 和加权 AM-GM 等不等式的陈述、等号条件与证明。"
+    },
+    {
+      "title": "在赢空间中证明陈平不等式(Proof of Champion Inequality in Win Space)",
+      "url": "https://zhuanlan.zhihu.com/p/502741577",
+      "summary": "正文利用和式与平方和之间的不等式，推导收入比较成立的条件。"
+    },
+    {
+      "title": "【导数与不等式】琴生不等式的五种证法——茴香豆的“茴”字的四种写法",
+      "url": "https://zhuanlan.zhihu.com/p/500071948",
+      "summary": "正文系统陈述并证明琴生不等式，讨论凸函数条件下函数值平均数与均值点函数值的大小关系。"
+    },
+    {
+      "title": "【导数压轴题】端点效应(一)：概念与初级端点效应",
+      "url": "https://zhuanlan.zhihu.com/p/486956119",
+      "summary": "正文围绕含参函数在给定区间上的恒成立不等式，利用端点条件求参数的必要范围并证明充分性。"
+    },
+    {
+      "title": "(高中)导数题中的换元，lnx的基本性质奇效，(附宁波二模导数压轴)",
+      "url": "https://zhuanlan.zhihu.com/p/507722023",
+      "summary": "正文以对数平均不等式为起点，通过换元和有限项展开给出不等式及其加强形式。"
+    },
+    {
+      "title": "【极值点偏移】我悄咪咪地拟合，然后惊艳所有人",
+      "url": "https://zhuanlan.zhihu.com/p/504548210",
+      "summary": "正文围绕零点和极值点偏移证明具体代数与对数不等式。"
+    },
+    {
+      "title": "【高中导数】万能公式妙解导数三角大题",
+      "url": "https://zhuanlan.zhihu.com/p/507513759",
+      "summary": "正文把万能公式用于多个含三角函数的代数不等式证明与参数范围问题。"
+    },
+    {
+      "title": "一道代数不等式的引出——EV-Theorem",
+      "url": "https://zhuanlan.zhihu.com/p/508234036",
+      "summary": "正文陈述并引理化证明 Equal Variable Theorem，用于在幂和约束下判断函数和的最值并推出不等式。"
+    },
+    {
+      "title": "【高考数学·导数】变种端点效应&朗博秒杀",
+      "url": "https://zhuanlan.zhihu.com/p/511866653",
+      "summary": "正文把参数取值范围问题转化为恒成立不等式，并用必要性条件与函数放缩完成证明。"
+    },
+    {
+      "title": "【必要性探路】极点效应及其补救技巧",
+      "url": "https://zhuanlan.zhihu.com/p/514241432",
+      "summary": "正文把恒成立不等式转化为函数最小值问题，借助端点值、导数和单调性求参数取值。"
+    },
+    {
+      "title": "【中科大凸优化-10】弱对偶、强对偶、Slater条件及对偶问题的四种解释",
+      "url": "https://zhuanlan.zhihu.com/p/514876504",
+      "summary": "正文明确陈述恒成立的 max-min 不等式，并以其作为证明弱对偶关系的基础。"
+    },
+    {
+      "title": "2021四川大学数学竞赛试题选讲（非数组）",
+      "url": "https://zhuanlan.zhihu.com/p/516454826",
+      "summary": "正文用柯西不等式控制三角函数线性组合的上下界，并据此求点到平面距离的最大值。"
+    },
+    {
+      "title": "拉格朗日恒等式",
+      "url": "https://zhuanlan.zhihu.com/p/522285332",
+      "summary": "正文由拉格朗日恒等式丢弃非负外积项导出柯西不等式，并讨论取等条件与求值举例。"
+    },
+    {
+      "title": "【线性规划(五)】对偶理论",
+      "url": "https://zhuanlan.zhihu.com/p/522590887",
+      "summary": "正文用目标值不等式证明弱对偶定理，并由该不等式推出原问题与对偶问题最优值的上下界关系。"
+    },
+    {
+      "title": "高中数学导数——切/割线夹",
+      "url": "https://zhuanlan.zhihu.com/p/523688088",
+      "summary": "正文把待证范围整理为和或差的不等式，并利用同向可加性及两侧点的大小关系推出结论。"
+    },
+    {
+      "title": "2022年新高考数学试卷分析",
+      "url": "https://zhuanlan.zhihu.com/p/525561171",
+      "summary": "正文在体积最值题中用平均值不等式放缩并讨论等号条件。"
+    },
+    {
+      "title": "最新！2022年高考数学浙江卷导数压轴题解析",
+      "url": "https://zhuanlan.zhihu.com/p/525565100",
+      "summary": "正文围绕切线根的条件构造上下界，并证明关于 b-f(a) 的双边不等式。"
+    },
+    {
+      "title": "线性泛函与陈平不等式（Linear functional and Champion inequality）",
+      "url": "https://zhuanlan.zhihu.com/p/526145044",
+      "summary": "正文利用平均值不等式给出范数的上下界，并据此证明陈平问题的条件。"
+    },
+    {
+      "title": "高中数学比大小问题的奇技淫巧",
+      "url": "https://zhuanlan.zhihu.com/p/526588807",
+      "summary": "正文以放缩和变量替换构造不等式，说明如何进行数值大小的比较。"
+    },
+    {
+      "title": "无伤速通高中数学之不等式（二）：浅谈拉格朗日乘数法在不等式中应用",
+      "url": "https://zhuanlan.zhihu.com/p/527560212",
+      "summary": "正文以拉格朗日乘数法处理不等式最值，说明如何把复杂不等式转化为可计算的极值问题。"
+    },
+    {
+      "title": "Figalli不等式的最优系数",
+      "url": "https://zhuanlan.zhihu.com/p/527629757",
+      "summary": "正文证明算术平均与几何平均之差的不等式，并通过构造特例确定2n为最优系数。"
+    },
+    {
+      "title": "【强基数学笔记】代数变形",
+      "url": "https://zhuanlan.zhihu.com/p/527670052",
+      "summary": "正文使用均值、柯西和琴生不等式放缩，并给出分式不等式的变形与取等验证。"
+    },
+    {
+      "title": "无伤速通高中数学之不等式（三）：浅谈万能公式在三角函数类极值中的应用以及判别式法求极值",
+      "url": "https://zhuanlan.zhihu.com/p/531029169",
+      "summary": "正文通篇用判别式法处理分式与限制条件下的不等式极值问题。"
+    },
+    {
+      "title": "【解析几何】遇事不决，柯西立决——柯西不等式在圆锥曲线上的化简（2）",
+      "url": "https://zhuanlan.zhihu.com/p/518766219",
+      "summary": "正文先用数量积证明二维柯西不等式，再用其估计面积和参数范围。"
+    },
+    {
+      "title": "不等式中max和min函数的常见处理方法",
+      "url": "https://zhuanlan.zhihu.com/p/538480568",
+      "summary": "正文总结含最大值、最小值函数的不等式处理技巧，并用多道竞赛题演示放缩。"
+    },
+    {
+      "title": "【升级の高中数学｜导数】一种神奇的函数零点和逼近方法",
+      "url": "https://zhuanlan.zhihu.com/p/540384985",
+      "summary": "正文把函数零点之和转化为不等式估计，并用多道例题证明更紧的零点之和上界。"
+    },
+    {
+      "title": "不等式与三角，复数，向量空间，数论（高中知识,但是大学生也可以看）",
+      "url": "https://zhuanlan.zhihu.com/p/542425130",
+      "summary": "正文证明基本不等式并把三角不等式作为度量公理，继而讨论柯西和排序不等式。"
+    },
+    {
+      "title": "【导数】从增强函数透析“极值点偏移”本质（1/2）",
+      "url": "https://zhuanlan.zhihu.com/p/542468423",
+      "summary": "正文把常用放缩不等式嵌入导数符号判断和待证不等式变形中。"
+    },
+    {
+      "title": "高考导数溯源（一）：从2022年新高考Ⅱ卷和2020年课标Ⅰ卷看“端点效应”何时会“失效”",
+      "url": "https://zhuanlan.zhihu.com/p/545577346",
+      "summary": "正文围绕含指数、多项式与参数的不等式恒成立问题，给出端点必要性探路和多种放缩解法。"
+    },
+    {
+      "title": "高考导数溯源（三）：从Hadamard不等式的高度解2020年天津卷和2022届雅礼中学高三二模（1/2）",
+      "url": "https://zhuanlan.zhihu.com/p/546494330",
+      "summary": "正文围绕凸函数的中点不等式和 Hadamard 不等式证明多组函数不等式及高考导数题。"
+    },
+    {
+      "title": "浙江导数大赏",
+      "url": "https://zhuanlan.zhihu.com/p/547893057",
+      "summary": "正文把两个待证不等式合并为一组夹逼关系，再通过推导完成不等式证明。"
+    },
+    {
+      "title": "不等式进阶——待定系数法",
+      "url": "https://zhuanlan.zhihu.com/p/549127393",
+      "summary": "全文用多个例题展示待定系数法如何构造并证明代数不等式。"
+    },
+    {
+      "title": "凸函数的性质",
+      "url": "https://zhuanlan.zhihu.com/p/544371942",
+      "summary": "正文用三点斜率的双重不等式刻画凸函数，并证明该不等式与凸性定义等价。"
+    },
+    {
+      "title": "【总结向·高考数学】函数极值点偏移深入及方法本质溯源",
+      "url": "https://zhuanlan.zhihu.com/p/558559704",
+      "summary": "正文具体介绍 ALG、对数均值与 Hadamard 等不等式及其在双变量估计中的应用。"
+    },
+    {
+      "title": "【难の极值点偏移】同构函数侧",
+      "url": "https://zhuanlan.zhihu.com/p/558809807",
+      "summary": "正文以双变量代数不等式为待证命题，并逐步完成证明。"
+    },
+    {
+      "title": "调整法初见",
+      "url": "https://zhuanlan.zhihu.com/p/559429730",
+      "summary": "正文以调整法为主线证明多个多变量代数不等式并讨论取等条件。"
+    },
+    {
+      "title": "无伤速通高中数学之导数（五）：浅谈导数中各类隐零点的进阶应用",
+      "url": "https://zhuanlan.zhihu.com/p/560178776",
+      "summary": "正文说明如何把放缩、隐零点和代数变形结合，用于证明各类含参及双变量不等式。"
+    },
+    {
+      "title": "琴生不等式（Jensen's inequality)的证明",
+      "url": "https://zhuanlan.zhihu.com/p/560913131",
+      "summary": "正文完整陈述并证明凸函数满足的琴生不等式，分别讨论下凸和上凸情形。"
+    },
+    {
+      "title": "循环的二次不等式",
+      "url": "https://zhuanlan.zhihu.com/p/563459352",
+      "summary": "正文以Fourier变换和配方等方法系统证明Fan、Lenhard等循环二次不等式，并讨论等号条件与推广。"
+    },
+    {
+      "title": "高中数学比较大小专题讲解",
+      "url": "https://zhuanlan.zhihu.com/p/566737176",
+      "summary": "正文用基本不等式、琴生不等式和大量放缩技巧系统比较指数对数等表达式的大小。"
+    },
+    {
+      "title": "著名积分不等式证明赏析",
+      "url": "https://zhuanlan.zhihu.com/p/566860871",
+      "summary": "正文系统陈述并证明琴生、柯西施瓦茨、杨氏、哈达玛、康托洛维奇、赫尔德和闵可夫斯基不等式。"
+    },
+    {
+      "title": "深究教材中隐含的均值不等式几何解释",
+      "url": "https://zhuanlan.zhihu.com/p/567698572",
+      "summary": "正文通过三套几何模型推导调和平均、几何平均、算术平均和平方平均构成的不等式链。"
+    },
+    {
+      "title": "Cauchy-Schwarz不等式（柯西-施瓦茨不等式）",
+      "url": "https://zhuanlan.zhihu.com/p/579858015",
+      "summary": "正文讨论柯西-施瓦茨不等式的积分形式与离散一般形式，并给出构造二次函数等证明。"
+    },
+    {
+      "title": "有关高中抽象函数构造题型的思考——一种万能方法（本质？）",
+      "url": "https://zhuanlan.zhihu.com/p/580167927",
+      "summary": "正文针对含函数及其导数的恒等或不等关系，给出统一的辅助函数构造和不等式转化方法。"
+    },
+    {
+      "title": "【奇技淫巧】一道有意思的比大小问题的深刻内涵",
+      "url": "https://zhuanlan.zhihu.com/p/583906456",
+      "summary": "正文围绕正弦值与有理数的大小比较，使用函数放缩建立严格不等式。"
+    },
+    {
+      "title": "函数逼近思想在考研（2023南开）压轴题中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/595045148",
+      "summary": "正文围绕积分不等式的证明，展示其与柯西不等式及分部积分之间的联系。"
+    },
+    {
+      "title": "圆锥曲线192条结论(2)——配极篇（切线）",
+      "url": "https://zhuanlan.zhihu.com/p/587998805",
+      "summary": "正文利用柯西不等式、Aczel 不等式和均值不等式推导三类圆锥曲线的切线方程。"
+    },
+    {
+      "title": "一条长不等式链",
+      "url": "https://zhuanlan.zhihu.com/p/599776840",
+      "summary": "正文逐环证明 25 个代数不等式，反复使用 AM-GM、Cauchy-Schwarz、Jensen 和导数方法。"
+    },
+    {
+      "title": "高中导数：从入门进阶为入土",
+      "url": "https://zhuanlan.zhihu.com/p/600452142",
+      "summary": "正文把参数恒成立问题化为导函数与零的大小关系，并通过构造辅助函数研究不等式。"
+    },
+    {
+      "title": "强基70题",
+      "url": "https://zhuanlan.zhihu.com/p/601789293",
+      "summary": "正文多题使用幂平均、柯西、均值与排序不等式处理条件极值，并说明等号条件。"
+    },
+    {
+      "title": "函数拟合——解决导数零点和&差问题的利刃",
+      "url": "https://zhuanlan.zhihu.com/p/607463594",
+      "summary": "正文针对零点和与零点差的不等式，给出切割线、二次及三次函数等放缩证明方法。"
+    },
+    {
+      "title": "数学竞赛向:17个非熟知放缩用不等式及放缩方法及应用典例（韩京俊《初等不等式的证明方法》笔记）",
+      "url": "https://zhuanlan.zhihu.com/p/607533657",
+      "summary": "正文系统收集并演示可用于证明代数不等式的局部放缩不等式。"
+    },
+    {
+      "title": "导数第一式——一日看尽长安花（隐零点处理方法+避免隐零点）",
+      "url": "https://zhuanlan.zhihu.com/p/608933502",
+      "summary": "正文构造辅助函数并利用导数与隐零点证明函数不等式，展示不等式处理路径。"
+    },
+    {
+      "title": "导数第四式——掬水月在手（不等式的处理）",
+      "url": "https://zhuanlan.zhihu.com/p/611594133",
+      "summary": "正文系统比较分组、放缩、换函数、主元转换、参变分离和必要性探路等不等式证明方法。"
+    },
+    {
+      "title": "导数第五式——Why拟合？How拟合？Come on！",
+      "url": "https://zhuanlan.zhihu.com/p/611596810",
+      "summary": "正文以切线、割线、切割线及多项式拟合为核心，系统说明构造不等式并证明的方法。"
+    },
+    {
+      "title": "导数第八式——“天外飞仙”（迷人且优雅的构造）",
+      "url": "https://zhuanlan.zhihu.com/p/611592419",
+      "summary": "正文通过构造函数的单调性证明含函数值的不等式，并举出指数与对数同构的比较题。"
+    },
+    {
+      "title": "外森比克不等式及其加强形式",
+      "url": "https://zhuanlan.zhihu.com/p/613213745",
+      "summary": "正文给出外森比克不等式及多种加强形式，并用代数不等式推导边长与面积的约束。"
+    },
+    {
+      "title": "数学—分析学中的纯粹不等式概览",
+      "url": "https://zhuanlan.zhihu.com/p/616528250",
+      "summary": "正文按幂平均、Holder、Minkowski、Jensen、Hardy 等类别整理经典不等式及主要推广方向。"
+    },
+    {
+      "title": "韦神不等式的一个优雅的解答",
+      "url": "https://zhuanlan.zhihu.com/p/617584652",
+      "summary": "正文提出并证明一个关于实数乘积的不等式，属于不等式的恒等变形与证明。"
+    },
+    {
+      "title": "极值点偏移最佳系数的思考(一)",
+      "url": "https://zhuanlan.zhihu.com/p/618923955",
+      "summary": "正文围绕函数两零点之和给出并证明双侧不等式，属于不等式的实质应用。"
+    },
+    {
+      "title": "“指数找朋友，对数单身狗”——门槛较低的导数入门技",
+      "url": "https://zhuanlan.zhihu.com/p/619469752",
+      "summary": "正文以多个高考题为例，通过等价变形和求导证明函数不等式及其参数范围。"
+    },
+    {
+      "title": "赫尔德不等式的证明整理与溯源推广",
+      "url": "https://zhuanlan.zhihu.com/p/621495490",
+      "summary": "正文从 Young 不等式推出 Hölder 不等式的一般形式，并讨论取等条件和加权推广。"
+    },
+    {
+      "title": "数学竞赛常用结论总结",
+      "url": "https://zhuanlan.zhihu.com/p/615880575",
+      "summary": "正文按对数、三角和指数分类整理多组不等式，并给出部分证明与放缩思路。"
+    },
+    {
+      "title": "数学150—高考数学必备的高数方法（上）：从泰勒展开到数列积分不等式",
+      "url": "https://zhuanlan.zhihu.com/p/637722636",
+      "summary": "正文构造矩形面积与定积分的上下界，推导数列求和满足的不等式。"
+    },
+    {
+      "title": "端点效应真的失效了吗？端点效应深度剖析篇（一）",
+      "url": "https://zhuanlan.zhihu.com/p/638796014",
+      "summary": "正文把含参数的函数恒成立问题转化为值域问题，并联立切点条件或端点条件求参数范围。"
+    },
+    {
+      "title": "浅谈 x+y+xy 型最值的几种思路",
+      "url": "https://zhuanlan.zhihu.com/p/648223515",
+      "summary": "正文用均值不等式、柯西不等式和配凑放缩等多种方法求约束条件下的最大值与最小值。"
+    },
+    {
+      "title": "【数形结合百般好】2023全国一卷数学22题“矩形周长”全新思路",
+      "url": "https://zhuanlan.zhihu.com/p/649501177",
+      "summary": "正文通过对角线与退化弦的连续放缩建立严格的大小关系，从而证明矩形周长的下界。"
+    },
+    {
+      "title": "韦达定理构造双变量问题中的“伪二次拟合”——从一道征解题谈起",
+      "url": "https://zhuanlan.zhihu.com/p/653868986",
+      "summary": "正文围绕零点和的双边不等式展开，并证明其上界。"
+    },
+    {
+      "title": "2023 ~ 2025 年南京大学计算机拔尖班二次选拔考试（数学部分）",
+      "url": "https://zhuanlan.zhihu.com/p/654734288",
+      "summary": "正文通过幂和估计证明操作结果的上界与下界，核心步骤是连续的一元不等式比较。"
+    },
+    {
+      "title": "不等式中的巧妙构造——从对称电子场强极值到圆锥曲线内接矩形的优雅放缩",
+      "url": "https://zhuanlan.zhihu.com/p/662727572",
+      "summary": "正文用基本不等式和配方构造证明极值及周长下界，实质讲解了不等式方法。"
+    },
+    {
+      "title": "阿达玛不等式与几道导数练习题之缘",
+      "url": "https://zhuanlan.zhihu.com/p/671875450",
+      "summary": "正文陈述并证明阿达玛不等式，随后用指数函数和对数函数推出具体不等式。"
+    },
+    {
+      "title": "从首届 CMO 的 Rudin 复数小引理, 到今年某道超难试题",
+      "url": "https://zhuanlan.zhihu.com/p/672075346",
+      "summary": "正文围绕 n 个复数的子集和不等式求最佳系数，并证明一般系数上界。"
+    },
+    {
+      "title": "直观图解36个放缩不等式",
+      "url": "https://zhuanlan.zhihu.com/p/673096895",
+      "summary": "正文集中整理指数、对数、指对混合和三角函数的36个放缩不等式及取等条件。"
+    },
+    {
+      "title": "【强基】15个不等式",
+      "url": "https://zhuanlan.zhihu.com/p/675093770",
+      "summary": "正文集中讲解并证明排序、均值、柯西、赫尔德和闵可夫斯基等十五类不等式。"
+    },
+    {
+      "title": "关于2024届T8联考导数压轴最后一步的七种解法",
+      "url": "https://zhuanlan.zhihu.com/p/675302315",
+      "summary": "核心任务是证明含参数函数恒大于零，并比较七种不等式放缩与证明路径。"
+    },
+    {
+      "title": "极光杯（二）柯西不等式 椭圆到椭圆外一点的最小距离",
+      "url": "https://zhuanlan.zhihu.com/p/675811359",
+      "summary": "正文从拉格朗日恒等式推出柯西不等式，并给出配方、判别式和归一化三种证明。"
+    },
+    {
+      "title": "【导数】极值点偏移（一）",
+      "url": "https://zhuanlan.zhihu.com/p/681283886",
+      "summary": "正文定义并证明算术-对数-几何平均不等式，以其推导多个零点和与零点积的不等式结论。"
+    },
+    {
+      "title": "导数的秘密书后原创和素材试题完整解答",
+      "url": "https://zhuanlan.zhihu.com/p/682226668",
+      "summary": "正文以辅助函数和导数证明多个具体不等式，并给出变量取值范围。"
+    },
+    {
+      "title": "【数列】常见的裂项与放缩",
+      "url": "https://zhuanlan.zhihu.com/p/682270063",
+      "summary": "正文系统讲解数列项的裂项与放缩，使用伯努利不等式等给出上下界。"
+    },
+    {
+      "title": "不等式中的柯西逼近法",
+      "url": "https://zhuanlan.zhihu.com/p/683351847",
+      "summary": "正文以多个例题展示如何用柯西不等式估计变量范围并证明条件不等式。"
+    },
+    {
+      "title": "Cauchy-Schwarz不等式之本质与意义",
+      "url": "https://zhuanlan.zhihu.com/p/684887322",
+      "summary": "正文从实数列 Cauchy 不等式出发，推导向量、无穷级数和积分形式，并讨论等号条件与 Holder 推广。"
+    },
+    {
+      "title": "极值点偏移中的函数构造",
+      "url": "https://zhuanlan.zhihu.com/p/684983807",
+      "summary": "正文以等价变形转化极值点偏移中的和、积不等式，并据此构造差函数完成证明。"
+    },
+    {
+      "title": "第七章 泛化性分析（上）：二分类问题的泛化误差界",
+      "url": "https://zhuanlan.zhihu.com/p/684796698",
+      "summary": "正文列出并解释 Jensen、Hoeffding 和 McDiarmid 不等式，随后用它们推导泛化误差界。"
+    },
+    {
+      "title": "一个强大的方法：半凸半凹定理",
+      "url": "https://zhuanlan.zhihu.com/p/688172959",
+      "summary": "正文围绕 Jensen、Karamata 和凸调整定理推导半凸半凹不等式及其极值形式。"
+    },
+    {
+      "title": "“斜椭”化“正椭”处理不等式最值！",
+      "url": "https://zhuanlan.zhihu.com/p/692211077",
+      "summary": "正文围绕二元约束下的最值问题，结合配方、判别式和柯西不等式求出范围。"
+    },
+    {
+      "title": "《我的世界》中一组原木最多可以做多少个火把？（通解）",
+      "url": "https://zhuanlan.zhihu.com/p/692435050",
+      "summary": "正文用两个大于等于约束表示启动燃料和后续燃料的容量限制。"
+    },
+    {
+      "title": "可能是最优美的四元不等式之一——精巧的结构与神奇的取等",
+      "url": "https://zhuanlan.zhihu.com/p/695900165",
+      "summary": "正文用加权均值不等式和 Bernoulli 不等式证明四元指数不等式，并分析两次放缩的取等条件。"
+    },
+    {
+      "title": "常用著名不等式",
+      "url": "https://zhuanlan.zhihu.com/p/695924384",
+      "summary": "正文系统列出基本、柯西、排序、切比雪夫、琴生、赫尔德等不等式，并用例题说明其形式、取等条件与证明应用。"
+    },
+    {
+      "title": "高中数学奇技淫巧之不等式：瑞利商",
+      "url": "https://zhuanlan.zhihu.com/p/699063885",
+      "summary": "正文通过均值不等式放缩和取等分析求解多个正实数不等式的最值。"
+    },
+    {
+      "title": "解高考数学题时应该如何思考？以一道导数真题为例",
+      "url": "https://zhuanlan.zhihu.com/p/706576257",
+      "summary": "真题要求含参不等式恒成立，正文围绕求参数范围讲解必要性、充分性和放缩等不等式方法。"
+    },
+    {
+      "title": "不等式集（17）",
+      "url": "https://zhuanlan.zhihu.com/p/706831384",
+      "summary": "正文围绕三元正数不等式，通过变量范围分类、代换和放缩完成证明。"
+    },
+    {
+      "title": "常规方法求解2022年浙江卷数学导数压轴题",
+      "url": "https://zhuanlan.zhihu.com/p/708657114",
+      "summary": "正文通过函数比较和导数证明三个零点之间的差满足一组严格不等式。"
+    },
+    {
+      "title": "初高衔接之三角函数",
+      "url": "https://zhuanlan.zhihu.com/p/709979204",
+      "summary": "正文用基本不等式、均值不等式与柯西不等式处理三角恒等式和最值问题。"
+    },
+    {
+      "title": "我好像做出了韦神出的题，大佬们能看下对吗",
+      "url": "https://zhuanlan.zhihu.com/p/715152711",
+      "summary": "正文证明含 a_i a_j 的双重连乘不等式，并进一步分析等号成立的充分必要条件。"
+    },
+    {
+      "title": "当对称性遇上端点效应——2024年新高考1卷导数",
+      "url": "https://zhuanlan.zhihu.com/p/720989143",
+      "summary": "正文把条件转化为区间上的严格与弱不等式，并用端点效应和单调性求 b 的取值范围。"
+    },
+    {
+      "title": "【注意力进阶教程】利用“Pade近似的插值”构造积分优雅地证明对数函数和反正切函数的有理上下界",
+      "url": "https://zhuanlan.zhihu.com/p/736937260",
+      "summary": "正文针对 ln(1+q)>p 与反向不等式构造有理界和待定系数，给出严格的上下界证明方法。"
+    },
+    {
+      "title": "全网最严谨的端点效应原理（《高考导数探秘》补充内容2）",
+      "url": "https://zhuanlan.zhihu.com/p/787278486",
+      "summary": "正文围绕含参不等式恒成立问题，说明如何求参数范围并判断端点效应何时失效。"
+    },
+    {
+      "title": "从偏移的视角构造裂项放缩——2023年天津卷高考导数与数列压轴",
+      "url": "https://zhuanlan.zhihu.com/p/802541102",
+      "summary": "正文通过裂项、放缩和累加证明关于对数阶乘的上下界不等式。"
+    },
+    {
+      "title": "A｜Schur不等式与pqr法",
+      "url": "https://zhuanlan.zhihu.com/p/991630958",
+      "summary": "正文给出 Schur 不等式并讨论其恒等变形，进一步介绍 pqr 换元和相关不等式例题。"
+    },
+    {
+      "title": "深入浅出数学系列 | 高考不等式的各类方法",
+      "url": "https://zhuanlan.zhihu.com/p/896668753",
+      "summary": "正文系统讲解均值不等式、柯西不等式、权方和不等式及多种放缩、换元技巧，并配有多道推导例题。"
+    },
+    {
+      "title": "深入浅出数学系列 | 数列（1）：等差等比数列基础",
+      "url": "https://zhuanlan.zhihu.com/p/1695300628",
+      "summary": "正文将数列条件转化为不等式并逐步放缩，求出目标项的参数范围。"
+    },
+    {
+      "title": "深入浅出数学系列 | 数列（4）：数列放缩",
+      "url": "https://zhuanlan.zhihu.com/p/3113621396",
+      "summary": "正文用逐步调整、拆项、等比和裂项等多种方法证明数列部分和满足不等式。"
+    },
+    {
+      "title": "无差别轰炸——极值点偏移的机械化操作流程",
+      "url": "https://zhuanlan.zhihu.com/p/6186341598",
+      "summary": "正文利用辅助函数的单调性证明极值点偏移所对应的严格不等式。"
+    },
+    {
+      "title": "一类Hilbert型不等式的通解（二次型）",
+      "url": "https://zhuanlan.zhihu.com/p/6523031271",
+      "summary": "正文系统陈述并证明多重Hilbert型不等式及其多种变体，核心对象是不等式。"
+    },
+    {
+      "title": "【极值点偏移】构造函数法，失效了吗？",
+      "url": "https://zhuanlan.zhihu.com/p/7927729615",
+      "summary": "正文的核心目标是证明两个函数值之间的严格不等式，并把不等式转化为辅助函数的单调性。"
+    },
+    {
+      "title": "深入浅出数学系列 | 最大值的最小值（1）：非线性构造——2024合肥一中11月联考填空压轴的通解",
+      "url": "https://zhuanlan.zhihu.com/p/8782245151",
+      "summary": "正文利用加权线性下界与基本不等式推导最大值最小值问题的不等式关系。"
+    },
+    {
+      "title": "数分高代好题推荐5",
+      "url": "https://zhuanlan.zhihu.com/p/10432626721",
+      "summary": "正文由Legendre变换和Fenchel共轭推出Fenchel-Young不等式，并进一步化为Young不等式。"
+    },
+    {
+      "title": "2023天津：优美的数列构造与差分（全网最易懂最详细方法）",
+      "url": "https://zhuanlan.zhihu.com/p/16439049647",
+      "summary": "正文围绕对数不等式进行多次放缩，并由此证明整道题的两侧界。"
+    },
+    {
+      "title": "掌握好配方法，这十道积分不等式难题一行秒一个",
+      "url": "https://zhuanlan.zhihu.com/p/25138133152",
+      "summary": "正文用非负平方积分的构造统一证明多类函数及其导数的积分不等式。"
+    },
+    {
+      "title": "【人人皆可优雅】注意力计算器自动生成积分证明(计算器地址: zhuyidao.com)",
+      "url": "https://zhuanlan.zhihu.com/p/20960679909",
+      "summary": "正文说明该方法用于证明 e、pi、三角函数值与有理数之间的大小不等式，并给出组合不等式拆解案例。"
+    },
+    {
+      "title": "偏微分方程中一些常用的不等式",
+      "url": "https://zhuanlan.zhihu.com/p/28931370611",
+      "summary": "正文从 Young 不等式开始逐项陈述并解释多种经典不等式的条件与形式。"
+    },
+    {
+      "title": "【几何不等式】嵌入不等式与一类三角不等式",
+      "url": "https://zhuanlan.zhihu.com/p/32182999343",
+      "summary": "正文以嵌入不等式为中心，给出配方法、向量法和余弦定理法等多种证明与推广。"
+    },
+    {
+      "title": "考验基本功的一道好题——2025届南昌二模导数压轴",
+      "url": "https://zhuanlan.zhihu.com/p/1894022251839467743",
+      "summary": "正文通过指数函数与换元证明辅助不等式，并用该不等式确认函数导数符号，完成原题的函数不等式证明。"
+    },
+    {
+      "title": "【易错题】有难度的填空压轴题，有90%的同学做不对",
+      "url": "https://zhuanlan.zhihu.com/p/1913631766004074294",
+      "summary": "正文把含参数恒成立条件转化为二次不等式，并通过分类讨论和区间交集求出参数范围。"
+    },
+    {
+      "title": "图形直观详解2025年新高考I卷数学压轴19题",
+      "url": "https://zhuanlan.zhihu.com/p/1915746925006794857",
+      "summary": "正文把全局恒成立的不等式转化为函数最大值问题，再对相位分类讨论最小值。"
+    },
+    {
+      "title": "关于非负上凸函数最强的积分不等式",
+      "url": "https://zhuanlan.zhihu.com/p/1918359730692290220",
+      "summary": "正文以积分不等式为研究对象，通过割线放缩、换元和凸性论证目标函数的上界。"
+    },
+    {
+      "title": "【不等式】反向柯西不等式",
+      "url": "https://zhuanlan.zhihu.com/p/1925229938048467661",
+      "summary": "正文从柯西不等式推导反向柯西不等式，并用多个最值例题说明其用法和等号条件。"
+    },
+    {
+      "title": "因为一份家庭作业，17岁少女解决了一个困扰数学界40年的难题",
+      "url": "https://zhuanlan.zhihu.com/p/1926036493668955306",
+      "summary": "正文写出加权能量满足的统一不等式，并解释其中常数丧失普适性如何否定原猜想。"
+    },
+    {
+      "title": "不等式的奇技淫巧（正在更新）",
+      "url": "https://zhuanlan.zhihu.com/p/1944759084013290522",
+      "summary": "正文系统讲解 Schur、Bernoulli、Aczel 等不等式，并用多项式放缩、调整和递推完成多道不等式证明。"
+    },
+    {
+      "title": "难度爆炸？镇海期末！| 品好卷 XXIII",
+      "url": "https://zhuanlan.zhihu.com/p/2000167462260465823",
+      "summary": "文章把斜率小于 1 转化为函数值不等式，再通过构造辅助函数和单调性完成证明。"
+    },
+    {
+      "title": "2026西藏山南市高三一诊数学第3、4、6、8、10、11、15、16、17、19题——总均分27？清北线85？你是猴子派来搞笑的吗？",
+      "url": "https://zhuanlan.zhihu.com/p/2020824054504900601",
+      "summary": "正文对曲线方程使用代数不等式，限定可能的整点并估计到原点的距离。"
+    },
+    {
+      "title": "凹凸不等式证明器.skill",
+      "url": "https://zhuanlan.zhihu.com/p/2041917119399448712",
+      "summary": "正文把单变量不等式转化为一凹一凸函数之间的双直线放缩问题，并给出具体证明算法。"
+    },
+    {
+      "title": "注意力计算器2.0版，自动拆解复杂组合的不等式",
+      "url": "https://zhuanlan.zhihu.com/p/2056806153535934968",
+      "summary": "正文说明如何把复杂组合不等式拆成若干基本不等式，并分别寻找上下界完成证明，实质对应不等式方法。"
+    },
+    {
+      "title": "一道泰勒猫觉得怪石嶙峋的不等式问题推广——势理论",
+      "url": "https://zhuanlan.zhihu.com/p/2070899210254398163",
+      "summary": "正文围绕多元 AM-GM 不等式配凑六个正因子，并推导最优常数和取等条件。"
+    }
+  ]
+}

@@ -1,0 +1,1461 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t2-b3",
+  "sources": [
+    {
+      "title": "处理金融数据为什么要对数化？",
+      "url": "https://www.zhihu.com/answer/14127172",
+      "summary": "文字介绍正价格条件下的对数收益及跨期可加性；关键推导在图片中未核验。末尾大小比较需区分整期与分期收益，且零收益时两种整期收益率相等。"
+    },
+    {
+      "title": "简单的时间复杂度问题.一到log这就不会了. 谁能给我讲讲啊?",
+      "url": "https://www.zhihu.com/answer/16933794",
+      "summary": "由循环变量每次翻倍得到2的幂，再用对数估计循环次数，说明指数与对数的逆关系；实际整数次数需处理边界，文中log n主要是渐近量级。"
+    },
+    {
+      "title": "对数比指数先发明原因何在？",
+      "url": "https://www.zhihu.com/answer/21337860",
+      "summary": "正文围绕「对数比指数先发明原因何在？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "江苏卫视最强大脑里周玮那几个题正常该怎么算？",
+      "url": "https://www.zhihu.com/answer/21742867",
+      "summary": "正文围绕「江苏卫视最强大脑里周玮那几个题正常该怎么算？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "《最强大脑》节目中周玮的强大计算能力怎么解释？",
+      "url": "https://www.zhihu.com/answer/21744074",
+      "summary": "正文围绕「《最强大脑》节目中周玮的强大计算能力怎么解释？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "《最强大脑》节目中周玮的强大计算能力怎么解释？",
+      "url": "https://www.zhihu.com/answer/21761533",
+      "summary": "正文围绕「《最强大脑》节目中周玮的强大计算能力怎么解释？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "为什么很多人在买菜这种小事上斤斤计较，而买大件商品的时候差几百块钱倒不是很在意？",
+      "url": "https://www.zhihu.com/answer/22143958",
+      "summary": "正文围绕「为什么很多人在买菜这种小事上斤斤计较，而买大件商品的时候差几百块钱倒不是很在意？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "为什么人的很多感觉都是对数的，例如视觉、听觉？",
+      "url": "https://www.zhihu.com/answer/28789560",
+      "summary": "正文围绕“对数函数”给出说明、例证或方法。"
+    },
+    {
+      "title": "如何理解「对数」？",
+      "url": "https://www.zhihu.com/answer/32101644",
+      "summary": "解释对数是指数的逆运算及其简化计算的历史用途。"
+    },
+    {
+      "title": "0x5f3759df这个快速开方中的常数的数学依据是什么？",
+      "url": "https://www.zhihu.com/answer/32552231",
+      "summary": "在快速平方根近似中用二进制对数关系推导指数与尾数变换。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/35473303",
+      "summary": "正文以积分定义自然对数并说明其与指数函数的关系。"
+    },
+    {
+      "title": "计量经济学中为什么要对变量取对数，差分以及对数差分？",
+      "url": "https://www.zhihu.com/answer/53051789",
+      "summary": "正文解释经济变量取对数及对数差分的作用。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/90857421",
+      "summary": "正文给出本福特法则在不同进制下的对数概率公式。"
+    },
+    {
+      "title": "对数损失函数是如何度量损失的？",
+      "url": "https://www.zhihu.com/answer/92250611",
+      "summary": "正文解释取对数把最大似然转为可求导的对数损失。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/93118103",
+      "summary": "正文用对数比 ln3/ln2 计算分形维数。"
+    },
+    {
+      "title": "数学中以 e 为底的指数函数 f(x)=exp(x) 求导后为什么还是它本身？",
+      "url": "https://www.zhihu.com/answer/110576517",
+      "summary": "正文从积分定义自然对数并推导其乘法转加法性质。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/116017216",
+      "summary": "正文用对数近似解释十二平均律与 72 法则的数值来源。"
+    },
+    {
+      "title": "如何理解「对数」？",
+      "url": "https://www.zhihu.com/answer/121067428",
+      "summary": "正文从乘法数轴、对数坐标到计算尺系统解释对数及其运算性质。"
+    },
+    {
+      "title": "这个求指数函数exp()的快速近似方法的原理是什么?",
+      "url": "https://www.zhihu.com/answer/123794632",
+      "summary": "正文明确把先取指数再取对数转为乘法，并用二进制对数组织推导。"
+    },
+    {
+      "title": "信息熵是什么？",
+      "url": "https://www.zhihu.com/answer/124805730",
+      "summary": "正文解释以二为底的对数如何给出等概率消息的二进制编码长度。"
+    },
+    {
+      "title": "电路分析中拉氏变换怎么理解？",
+      "url": "https://www.zhihu.com/answer/125555617",
+      "summary": "正文解释对数如何把乘除、乘方开方转换为更简单的运算。"
+    },
+    {
+      "title": "虚数单位 i 可以被表示为 √-1 吗？",
+      "url": "https://www.zhihu.com/answer/132495847",
+      "summary": "正文定义复数指数函数的反函数与多值复对数，实质解释对数函数。"
+    },
+    {
+      "title": "底数为负数的指数函数的图像是什么样的？",
+      "url": "https://www.zhihu.com/answer/144645015",
+      "summary": "正文推导复对数的多值表达并解释负实数上的取值。"
+    },
+    {
+      "title": "计算 2 的 64 次方有什么特殊技巧？",
+      "url": "https://www.zhihu.com/answer/147022280",
+      "summary": "正文用常用对数估算 2 的 64 次方的数量级和首位系数。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/165399796",
+      "summary": "正文通过取对数推导复利翻倍的近似法则。"
+    },
+    {
+      "title": "累加的连续是积分，那么累乘的连续是什么？",
+      "url": "https://www.zhihu.com/answer/170440339",
+      "summary": "正文通过取对数把累乘化为累加和积分。"
+    },
+    {
+      "title": "在哪个瞬间你觉得「我的高数没有白学」?",
+      "url": "https://www.zhihu.com/answer/220563060",
+      "summary": "正文通过对数反解指数模型中的自变量。"
+    },
+    {
+      "title": "如何理解「对数」？",
+      "url": "https://www.zhihu.com/answer/265975884",
+      "summary": "正文从对数史、逆运算和连续复利直觉系统讲解对数函数及运算法则。"
+    },
+    {
+      "title": "如何巧妙地记住基本初等函数的导数公式？(๑• . •๑)？",
+      "url": "https://www.zhihu.com/answer/313285240",
+      "summary": "正文说明ln x与一般对数函数的求导关系。"
+    },
+    {
+      "title": "有哪些看起来很简单但做起来很难的数学题？",
+      "url": "https://www.zhihu.com/answer/316567509",
+      "summary": "正文继续应用以 2 为底的对数把嵌套根式化为整数。"
+    },
+    {
+      "title": "广义线性模型中, 联系函数(link function) 的作用是不是就是将不是正态分布的Y转换成正态分布？",
+      "url": "https://www.zhihu.com/answer/402258374",
+      "summary": "正文解释泊松回归中的对数连接函数。"
+    },
+    {
+      "title": "什么是反函数？",
+      "url": "https://www.zhihu.com/answer/494812772",
+      "summary": "正文以指数函数和对数函数说明互为反函数。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/543973396",
+      "summary": "正文用积分定义自然对数，并讨论其定义域、单调性和反函数。"
+    },
+    {
+      "title": "有哪些令人拍案叫绝的算法？",
+      "url": "https://www.zhihu.com/answer/547990689",
+      "summary": "正文系统推导实数与复数对数的计算方法。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/549673994",
+      "summary": "正文解释自然对数名称与 e 的关系。"
+    },
+    {
+      "title": "lnx 的导数是 1/x，那 ln2x 的导数还是 1/x，是不是就出现毛病了？",
+      "url": "https://www.zhihu.com/answer/571752522",
+      "summary": "正文用图像平移解释 ln(2x) 与 ln x 的关系。"
+    },
+    {
+      "title": "对幂函数求导中出现的特例 (x)'=1 和 (lnx)'=1/x 能说明什么数学现象吗？",
+      "url": "https://www.zhihu.com/answer/578494202",
+      "summary": "正文解释对数函数在初等积分中的作用。"
+    },
+    {
+      "title": "从统计学的观点来看，0 到 9 中使用频率最高的数字是哪一个？",
+      "url": "https://www.zhihu.com/answer/583946030",
+      "summary": "从对数尺度解释首位数字概率公式。"
+    },
+    {
+      "title": "在设计计量经济学模型时，怎么判断是否应该对变量取对数？",
+      "url": "https://www.zhihu.com/answer/588294353",
+      "summary": "解释取对数缩小绝对差异并把乘幂关系线性化。"
+    },
+    {
+      "title": "为什么找不到 12 音阶的纯律？",
+      "url": "https://www.zhihu.com/answer/601060271",
+      "summary": "正文用对数把频率折回一个八度。"
+    },
+    {
+      "title": "请问一下，这是一道高中数学的压轴题的我的做法，这种做法是否严谨，是否会被扣分？",
+      "url": "https://www.zhihu.com/answer/618593683",
+      "summary": "正文处理含对数函数的方程。"
+    },
+    {
+      "title": "中学数学中有哪些有趣的问题？",
+      "url": "https://www.zhihu.com/answer/620228682",
+      "summary": "正文使用对数函数不等式。"
+    },
+    {
+      "title": "如何估计 ln2 的近似值？",
+      "url": "https://www.zhihu.com/answer/696921902",
+      "summary": "以对数恒等式把 ln2 化为可计算级数。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/706324372",
+      "summary": "通过两边取对数比较两个巨大幂。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/712502530",
+      "summary": "用对数估算两数相差的数量级。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/713130927",
+      "summary": "解释对数将乘方转化为乘法并用于大数比较。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/714704937",
+      "summary": "先取对数再比较指数乘积。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/716306587",
+      "summary": "用常用对数近似快速比较大数。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/716366060",
+      "summary": "取对数把幂比较化为ln(x)/x的比较。"
+    },
+    {
+      "title": "手机计算器是如何较快算出 4500! 的值的？",
+      "url": "https://www.zhihu.com/answer/720358017",
+      "summary": "取常用对数计算科学记数法的指数与有效数字。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/720719396",
+      "summary": "取对数把幂大小化为两个比值的比较。"
+    },
+    {
+      "title": "可否手算出 5⁴³²¹ 与 4⁵⁰¹⁶ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/722282099",
+      "summary": "通过取对数比较两个巨大幂。"
+    },
+    {
+      "title": "对数是用来描述什么的？",
+      "url": "https://www.zhihu.com/answer/727162100",
+      "summary": "解释对数是指数运算的逆运算。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/739377479",
+      "summary": "取常用对数估计两个大幂的数量级。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/740999701",
+      "summary": "通过同一底对数计算比较大幂。"
+    },
+    {
+      "title": "计量经济学中为什么要对变量取对数，差分以及对数差分？",
+      "url": "https://www.zhihu.com/answer/757664155",
+      "summary": "解释计量经济模型中取对数的含义和效果。"
+    },
+    {
+      "title": "如何估计 ln2 的近似值？",
+      "url": "https://www.zhihu.com/answer/767974175",
+      "summary": "把自然对数计算转化为指数方程求根。"
+    },
+    {
+      "title": "计算器的历史为什么网上都搜不到？",
+      "url": "https://www.zhihu.com/answer/768358170",
+      "summary": "解释对数将复杂运算降阶的计算用途。"
+    },
+    {
+      "title": "怎么理解对数均值不等式？",
+      "url": "https://www.zhihu.com/answer/781358966",
+      "summary": "利用对数极限表达构造均值。"
+    },
+    {
+      "title": "对数是怎么被发明的？",
+      "url": "https://www.zhihu.com/answer/830455959",
+      "summary": "由对数乘积公式解释化乘除为加减。"
+    },
+    {
+      "title": "对数是怎么被发明的？",
+      "url": "https://www.zhihu.com/answer/831341573",
+      "summary": "比较三角函数表与对数表的计算步骤。"
+    },
+    {
+      "title": "在没有计算机的时代，是如何制作对数表的？",
+      "url": "https://www.zhihu.com/answer/837994059",
+      "summary": "正文从底数选择、换底公式和大量手算解释第一批对数表的制作。"
+    },
+    {
+      "title": "双曲正弦函数怎么推其反函数?",
+      "url": "https://www.zhihu.com/answer/855469379",
+      "summary": "最后取自然对数得到显式表达。"
+    },
+    {
+      "title": "如果费曼或者牛顿再世，能够在规定时间内解决高考数学或者物理的压轴题吗？",
+      "url": "https://www.zhihu.com/answer/865756921",
+      "summary": "回顾对数概念从运动解释到与指数建立联系的历史。"
+    },
+    {
+      "title": "对数坐标轴的绘制规则？",
+      "url": "https://www.zhihu.com/answer/912526570",
+      "summary": "正文解释对数坐标刻度按对数值确定，并说明它压缩尺度和把特定曲线变为直线的作用。"
+    },
+    {
+      "title": "如何用高中数学知识证明 ln ln88＜3/2？",
+      "url": "https://www.zhihu.com/answer/1016331691",
+      "summary": "正文以ln2、ln11为例给出对数数值逼近法。"
+    },
+    {
+      "title": "10000⁴ 和 4¹⁰⁰⁰⁰，怎样比较大小？",
+      "url": "https://www.zhihu.com/answer/1082100821",
+      "summary": "正文明确用取对数的方法把指数比较转化为可分析形式。"
+    },
+    {
+      "title": "10000⁴ 和 4¹⁰⁰⁰⁰，怎样比较大小？",
+      "url": "https://www.zhihu.com/answer/1083732240",
+      "summary": "正文明确用对数化简指数比较。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1084729039",
+      "summary": "正文取对数后比较两个幂。"
+    },
+    {
+      "title": "数学真的是一门有意义的学科吗?",
+      "url": "https://www.zhihu.com/answer/1141404276",
+      "summary": "正文用乘法、乘方在取对数后的降级关系解释对数。"
+    },
+    {
+      "title": "公式相声真的一无是处吗?",
+      "url": "https://www.zhihu.com/answer/1149920939",
+      "summary": "正文解释自然对数符号及其底数。"
+    },
+    {
+      "title": "什么是「奥利给」不等式？",
+      "url": "https://www.zhihu.com/answer/1169157083",
+      "summary": "正文定义对数平均数并推导其与算术、几何平均数的关系。"
+    },
+    {
+      "title": "为什么 lnx 求导是 1/x？",
+      "url": "https://www.zhihu.com/answer/1234150531",
+      "summary": "正文以函数集合的积分封闭性引出对数函数。"
+    },
+    {
+      "title": "为什么 lnx 求导是 1/x？",
+      "url": "https://www.zhihu.com/answer/1235160419",
+      "summary": "正文从历史上化乘除为加减的问题说明对数的来源。"
+    },
+    {
+      "title": "为什么 lnx 求导是 1/x？",
+      "url": "https://www.zhihu.com/answer/1247325988",
+      "summary": "正文围绕对数函数与幂函数的极限关系解释 ln x。"
+    },
+    {
+      "title": "请问如何通过ln x＋x^2*e^x＝0推出ln x＝-x，最好用高中知识？",
+      "url": "https://www.zhihu.com/answer/1267786532",
+      "summary": "正文利用对数函数的换元与单调性解方程。"
+    },
+    {
+      "title": "为什么 lnx 求导是 1/x？",
+      "url": "https://www.zhihu.com/answer/1303254491",
+      "summary": "正文用指数函数反函数解释 ln 函数。"
+    },
+    {
+      "title": "为什么 lnx 求导是 1/x？",
+      "url": "https://www.zhihu.com/answer/1305416887",
+      "summary": "正文系统讨论自然对数函数及其积分。"
+    },
+    {
+      "title": "复变函数中，如何说明Ln(z²)与2Lnz是否相等，Ln(根号z)与(Lnz)/2是否相等？",
+      "url": "https://www.zhihu.com/answer/1483687585",
+      "summary": "正文直接给出与「对数函数」相关的解释、推导或应用。"
+    },
+    {
+      "title": "有哪些手算对数的方法？",
+      "url": "https://www.zhihu.com/answer/1521262686",
+      "summary": "正文用墨卡托级数和变换计算自然对数。"
+    },
+    {
+      "title": "如何证明任意大于 1 的自然数 n，有 1/2＋1/3＋1/4＋…＋1/n＜ln n ?",
+      "url": "https://www.zhihu.com/answer/1566641770",
+      "summary": "正文利用对数乘积分解与对数不等式完成证明。"
+    },
+    {
+      "title": "战斗机俯冲飞行时，机载雷达能否烤熟地面上的物体?",
+      "url": "https://www.zhihu.com/answer/1571748359",
+      "summary": "正文用对数公式计算自由空间传播损耗。"
+    },
+    {
+      "title": "n! 和 n²，哪个更大呢？",
+      "url": "https://www.zhihu.com/answer/1652035682",
+      "summary": "正文取对数比较阶乘与 n² 的增长。"
+    },
+    {
+      "title": "n! 和 n²，哪个更大呢？",
+      "url": "https://www.zhihu.com/answer/1665220381",
+      "summary": "正文用对数函数凹凸性证明阶乘与平方的大小关系。"
+    },
+    {
+      "title": "有没有两个不相等的数 a 和 b，满足 a 的 b 次幂等于 b 的 a 次幂？",
+      "url": "https://www.zhihu.com/answer/1682745558",
+      "summary": "正文取对数化简幂等式。"
+    },
+    {
+      "title": "为什么 lnx 求导是 1/x？",
+      "url": "https://www.zhihu.com/answer/1685181210",
+      "summary": "正文把 ln x 解释为幂函数族极限。"
+    },
+    {
+      "title": "如何不用计算机比较ln3和1.1的大小？",
+      "url": "https://www.zhihu.com/answer/1698618206",
+      "summary": "正文通过对数不等式估计 ln 3 的数值。"
+    },
+    {
+      "title": "lnx 的导数是 1/x，那 ln2x 的导数还是 1/x，是不是就出现毛病了？",
+      "url": "https://www.zhihu.com/answer/1704400190",
+      "summary": "正文从对数图像伸缩和对数加法性质解释求导现象。"
+    },
+    {
+      "title": "如何不用计算机比较ln3和1.1的大小？",
+      "url": "https://www.zhihu.com/answer/1705553994",
+      "summary": "正文由对数函数展开式估计 ln3 与 1.1 的大小。"
+    },
+    {
+      "title": "lnx 的导数是 1/x，那 ln2x 的导数还是 1/x，是不是就出现毛病了？",
+      "url": "https://www.zhihu.com/answer/1705881165",
+      "summary": "正文把 ln(2x) 改写为 ln2+lnx 后解释导数。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1720234665",
+      "summary": "正文取对数后比较两个幂的大小。"
+    },
+    {
+      "title": "为什么一些资料将以10为底或以e为底的对数写作log，而不是lg或者ln？这方面国际没有统一规定吗？",
+      "url": "https://www.zhihu.com/answer/1725443120",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "为什么 ln(1－x) 不能直接泰勒展开，而用 ln(1＋x) 来推导？",
+      "url": "https://www.zhihu.com/answer/1781893351",
+      "summary": "正文通过变量替换推导对数函数的级数展开。"
+    },
+    {
+      "title": "函数方程 f(xy)=f(x)+f(y) 的严格解是什么？解是否唯一？",
+      "url": "https://www.zhihu.com/answer/1800807931",
+      "summary": "正文严格推出满足乘法转加法的连续解为对数函数。"
+    },
+    {
+      "title": "有没有高中常考的函数图像汇总？？",
+      "url": "https://www.zhihu.com/answer/1805018320",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "为什么 lnx 求导是 1/x？",
+      "url": "https://www.zhihu.com/answer/1823936534",
+      "summary": "正文以一般对数函数的导数公式过渡到自然对数导数。"
+    },
+    {
+      "title": "lnx 的导数是 1/x，那 ln2x 的导数还是 1/x，是不是就出现毛病了？",
+      "url": "https://www.zhihu.com/answer/1842649238",
+      "summary": "正文利用对数乘积公式说明复合线性函数只增加常数项。"
+    },
+    {
+      "title": "函数 y＝ln x 的图像在什么时候曲率最大？",
+      "url": "https://www.zhihu.com/answer/1905067531",
+      "summary": "正文研究对数函数图像及其几何性质。"
+    },
+    {
+      "title": "如何理解深度学习源码里经常出现的logits？",
+      "url": "https://www.zhihu.com/answer/1986650670",
+      "summary": "正文从logit函数和log函数说明概率到分数的变换。"
+    },
+    {
+      "title": "如何计算函数 f(x)=log(x)/x 的 n 阶导数？",
+      "url": "https://www.zhihu.com/answer/1988181004",
+      "summary": "正文研究的函数是log(x)/x。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/2005180518",
+      "summary": "正文用自然对数级数递推估值 ln 23。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/2005780853",
+      "summary": "正文把 e^π>23 转化为对数比较 ln 23<π。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/2034303228",
+      "summary": "正文通过对数化把方程化为对数函数问题。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/2056024223",
+      "summary": "正文研究对数函数并确定方程的解。"
+    },
+    {
+      "title": "函数方程 f(xy)=f(x)+f(y) 的严格解是什么？解是否唯一？",
+      "url": "https://www.zhihu.com/answer/2108468925",
+      "summary": "正文在单调连续条件下求出函数方程的解为对数函数。"
+    },
+    {
+      "title": "计量经济学中为什么要对变量取对数，差分以及对数差分？",
+      "url": "https://www.zhihu.com/answer/2153038796",
+      "summary": "正文说明对数变换的条件及系数解释。"
+    },
+    {
+      "title": "函数方程 f(xy)=f(x)+f(y) 的严格解是什么？解是否唯一？",
+      "url": "https://www.zhihu.com/answer/2174364881",
+      "summary": "正文求解乘法型函数方程并证明在连续条件下解为对数函数。"
+    },
+    {
+      "title": "用5，5，5，7四个数字怎么算24点？",
+      "url": "https://www.zhihu.com/answer/2210397941",
+      "summary": "正文用对数的换底关系构造 24 点答案。"
+    },
+    {
+      "title": "5 的 9999 次方和 4 的 10001 次方谁大?",
+      "url": "https://www.zhihu.com/answer/2217526274",
+      "summary": "正文把指数不等式转化为对数不等式求解临界指数。"
+    },
+    {
+      "title": "函数方程 f(xy)=f(x)+f(y) 的严格解是什么？解是否唯一？",
+      "url": "https://www.zhihu.com/answer/2290370604",
+      "summary": "正文推出连续解为对数函数。"
+    },
+    {
+      "title": "怎么做2022贺年题？",
+      "url": "https://www.zhihu.com/answer/2292337304",
+      "summary": "正文使用对数函数的不等式估计完成证明。"
+    },
+    {
+      "title": "怎么做2022贺年题？",
+      "url": "https://www.zhihu.com/answer/2292435032",
+      "summary": "正文通过取对数比较两个巨大指数的大小。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/2293584839",
+      "summary": "正文先取对数把指数方程转化为对数函数问题。"
+    },
+    {
+      "title": "如何比较这两个数的大小?",
+      "url": "https://www.zhihu.com/answer/2297338734",
+      "summary": "正文使用对数级数展开和对数估计完成不等式比较。"
+    },
+    {
+      "title": "如何证明e^x/x=a(a>e)的两根之和大于2，请用高中数学知识谢谢？",
+      "url": "https://www.zhihu.com/answer/2304245404",
+      "summary": "正文先对指数方程取对数，化为对数函数方程。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/2311054637",
+      "summary": "正文提出对两个巨大幂取对数后比较大小。"
+    },
+    {
+      "title": "数学历史上，基本基本初等函数的导数是如何推导出来的？",
+      "url": "https://www.zhihu.com/answer/2346403351",
+      "summary": "正文用对数性质和重要极限逐步推导对数函数的导数及换底因子。"
+    },
+    {
+      "title": "怎么记基本初等函数的图像、定义域和值域？",
+      "url": "https://www.zhihu.com/answer/2373786813",
+      "summary": "正文给出对数函数定义、图像、定义域、值域及反函数关系。"
+    },
+    {
+      "title": "高考数学函数大题同构法是万能的吗？",
+      "url": "https://www.zhihu.com/answer/2378246443",
+      "summary": "正文反复使用含对数函数的同构模型求方程和参数范围。"
+    },
+    {
+      "title": "是否存在连续函数满足f(x)=f(2x)且不为常函数？",
+      "url": "https://www.zhihu.com/answer/2385536796",
+      "summary": "正文利用对数的乘法变加法性质把二倍自变量的约束转化为周期条件。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/2412299478",
+      "summary": "正文强调复对数的多值性，不能把ln(1)仅写成0。"
+    },
+    {
+      "title": "马克思的一生中有没有发生过一些特别有趣的事？",
+      "url": "https://www.zhihu.com/answer/2448716867",
+      "summary": "正文给出自然对数的级数展开并用于完成证明。"
+    },
+    {
+      "title": "2022 高考数学题难度如何？哪道题印象深刻？",
+      "url": "https://www.zhihu.com/answer/2519067160",
+      "summary": "通过对数函数与指数函数的换元，得到交点横坐标之间的对数关系。"
+    },
+    {
+      "title": "如何求xˣ的导数?",
+      "url": "https://www.zhihu.com/answer/2524039396",
+      "summary": "通过对数化把幂指函数转化为隐函数求导。"
+    },
+    {
+      "title": "如何求xˣ的导数?",
+      "url": "https://www.zhihu.com/answer/2524482973",
+      "summary": "在极限推导中使用对数把幂转化为指数形式。"
+    },
+    {
+      "title": "函数方程 f(xy)=f(x)+f(y) 的严格解是什么？解是否唯一？",
+      "url": "https://www.zhihu.com/answer/2545571235",
+      "summary": "把乘法型函数方程化为 Cauchy 方程，得到对数函数形式的解。"
+    },
+    {
+      "title": "为什么 f(x) = xlnx，当 x 趋近于 0 时，f(x) 趋近于 0？",
+      "url": "https://www.zhihu.com/answer/2546841638",
+      "summary": "比较指数、幂与对数函数的增长速度来估计 x ln x 的极限。"
+    },
+    {
+      "title": "e^x 与 lnx 的最短距离是多少？",
+      "url": "https://www.zhihu.com/answer/2581393043",
+      "summary": "把对数函数图像上的点纳入同一距离表达式，利用两者互为反函数的关系求最短距离。"
+    },
+    {
+      "title": "e^x 与 lnx 的最短距离是多少？",
+      "url": "https://www.zhihu.com/answer/2586881525",
+      "summary": "利用对数函数与指数函数的对称关系，把两曲线间距离转化为到直线 y=x 的距离。"
+    },
+    {
+      "title": "在高中数学当中指数对数比较大小有什么技巧或者是秒杀方法吗？",
+      "url": "https://www.zhihu.com/answer/2621398330",
+      "summary": "给出对数函数的泰勒展开并用于估算 ln(1+x)。"
+    },
+    {
+      "title": "自然对数的底e有什么自然意义?",
+      "url": "https://www.zhihu.com/answer/2635749914",
+      "summary": "通过对数函数求导的自然推导引入 e，并得到 ln x 的导数。"
+    },
+    {
+      "title": "什么是切线放缩？",
+      "url": "https://www.zhihu.com/answer/2684086059",
+      "summary": "正文详细推导对数函数与一次函数、双撇函数及二次函数之间的放缩关系。"
+    },
+    {
+      "title": "家长称老师留「数 1 万粒米」作业全家出动，如何评价此事件？你还遇到过哪些奇葩作业？",
+      "url": "https://www.zhihu.com/answer/2716406921",
+      "summary": "正文借助 log 3 的近似值估算 3^100 的对数并确定其十进制位数，具体使用了对数运算。"
+    },
+    {
+      "title": "可以留下一个优美的不等式吗？",
+      "url": "https://www.zhihu.com/answer/2807672768",
+      "summary": "正文由指数不等式换元得到对数函数与一次函数的上下界关系。"
+    },
+    {
+      "title": "ln（1）+ln（2）+ln（3）……+ln（n）是否能用n表示？?",
+      "url": "https://www.zhihu.com/answer/2847730607",
+      "summary": "正文从对数求和化为对数阶乘出发，推导阶乘的 Stirling 渐近公式。"
+    },
+    {
+      "title": "为什么 lnx 求导是 1/x？",
+      "url": "https://www.zhihu.com/answer/2857682750",
+      "summary": "正文用数值差展示自然对数增长缓慢且递减的单调性质，讨论了对数函数。"
+    },
+    {
+      "title": "有没有几本微积分入门的书推荐，类似科普的比如《什么是数学》？",
+      "url": "https://www.zhihu.com/answer/2913762508",
+      "summary": "正文利用对数与指数互逆的关系做隐函数微分，并通过换底公式推导一般对数函数的导数。"
+    },
+    {
+      "title": "有没有人看完了各种葛立恒数比较类问题之后，感觉宇宙也没有想象的大？",
+      "url": "https://www.zhihu.com/answer/2956106631",
+      "summary": "正文具体解释指数与对数如何压缩数量级，并用科学记数法等说明其表达和运算作用。"
+    },
+    {
+      "title": "怎么比较ln2和2/e 的大小?",
+      "url": "https://www.zhihu.com/answer/3049751031",
+      "summary": "正文利用由自然对数构造的函数比较ln2与2/e的大小，实质涉及对数函数。"
+    },
+    {
+      "title": "为什么 lnx 求导是 1/x？",
+      "url": "https://www.zhihu.com/answer/3050908212",
+      "summary": "正文以积分定义复对数，并证明对数的加法、倒数幂等基本性质。"
+    },
+    {
+      "title": "是否存在一个函数（除去常值函数），使得f（x）等于f（2x）呢？",
+      "url": "https://www.zhihu.com/answer/3070021952",
+      "summary": "正文利用自然对数的乘法转加法性质，把自变量倍增关系转化为固定增量。"
+    },
+    {
+      "title": "你能给三角函数、对数创造更加明了的符号么？",
+      "url": "https://www.zhihu.com/answer/3126453398",
+      "summary": "正文把 log、cos、sin 组合成嵌套表达式，比较对数与三角符号连用时的辨识难度。"
+    },
+    {
+      "title": "1，3，3，5，5，5，7，7，7，7... 的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/3155500413",
+      "summary": "正文用以 2 为底的指数函数及其反函数对数，得到 2 的幂重复数列的闭式通项。"
+    },
+    {
+      "title": "1，3，3，5，5，5，7，7，7，7... 的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/3155540572",
+      "summary": "正文借助复对数在黎曼面上逐圈延伸的性质，说明公式为何能得到逐段增大的结果。"
+    },
+    {
+      "title": "1，3，3，5，5，5，7，7，7，7... 的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/3156878036",
+      "summary": "正文说明一般情形下取整函数只能用复变指数和对数函数表示，并据此改写所给数列的通项。"
+    },
+    {
+      "title": "怎么比较ln2和2/e 的大小?",
+      "url": "https://www.zhihu.com/answer/3167009760",
+      "summary": "正文利用指数与自然对数的关系，代入 x=ln2 得到 e·ln2 小于 2，从而完成 ln2 与 2/e 的大小比较。"
+    },
+    {
+      "title": "如何理解复分析中的多值函数?",
+      "url": "https://www.zhihu.com/answer/3183774589",
+      "summary": "正文从积分定义出发解释复对数函数，并进一步讨论其沿路径的解析延拓和分支。"
+    },
+    {
+      "title": "e，π，γ，φ怎么算二十四点？",
+      "url": "https://www.zhihu.com/answer/3271646537",
+      "summary": "正文对指数不等式两边取自然对数，利用对数把指数范围化为 3 到 4，再经取整和阶乘构造 24。"
+    },
+    {
+      "title": "如何比较 ln7/√7 和 ln8/√8 的大小？",
+      "url": "https://www.zhihu.com/answer/3329133632",
+      "summary": "正文围绕自然对数表达式作变换和数值放缩，比较其函数值大小。"
+    },
+    {
+      "title": "为什么高质量计算机书籍几乎都是外国人写的？",
+      "url": "https://www.zhihu.com/answer/3347382991",
+      "summary": "正文说明对数能把乘法转化为加法，并联系等间距乘法排布、分贝和 pH 等对数尺度展开其作用。"
+    },
+    {
+      "title": "如何优雅地注意到 ln 10＞ln 5？",
+      "url": "https://www.zhihu.com/answer/3350447192",
+      "summary": "正文利用自然对数函数的单调递增性，直接比较两个输入对应的对数值。"
+    },
+    {
+      "title": "如何优雅地注意到 ln 10＞ln 5？",
+      "url": "https://www.zhihu.com/answer/3360909216",
+      "summary": "正文首先利用自然对数函数的单调递增性，由 10 大于 5 推出对应的对数值大小。"
+    },
+    {
+      "title": "如何优雅地注意到 ln 10＞ln 5？",
+      "url": "https://www.zhihu.com/answer/3360952119",
+      "summary": "正文利用对数差的化简得到 ln2，再由正数对数的性质推出原不等式。"
+    },
+    {
+      "title": "不同领域的圣经级书籍有哪些？",
+      "url": "https://www.zhihu.com/answer/3363708661",
+      "summary": "正文解释对数分布把乘法转化为加法的核心性质，并举分贝和 pH 等尺度应用。"
+    },
+    {
+      "title": "如何不用计算机比较ln3和1.1的大小？",
+      "url": "https://www.zhihu.com/answer/3383070936",
+      "summary": "正文把目标改写为自然对数函数 ln3 与有理数的比较，并给出相应不等式结论。"
+    },
+    {
+      "title": "如何证明这个相当紧的不等式？",
+      "url": "https://www.zhihu.com/answer/3383121040",
+      "summary": "正文利用自然对数函数在指定点的切线作线性放缩，并给出 ln x 的上下界。"
+    },
+    {
+      "title": "目前数学的符号体系有多混乱？",
+      "url": "https://www.zhihu.com/answer/3416686788",
+      "summary": "正文具体讨论 lg、log、ln、lb 的底数约定及不同领域的歧义，核心是对数函数符号的常用含义。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/3439586168",
+      "summary": "正文对两个幂取对数并利用对数函数的单调性把原不等式化为对数值的比较。"
+    },
+    {
+      "title": "级数ln1+lnln2+lnlnln3+lnlnlnln4……是否收敛？",
+      "url": "https://www.zhihu.com/answer/3459844366",
+      "summary": "正文通过反复取自然对数遇到负数时的定义域限制，说明实数与复数范围内对数运算的差异。"
+    },
+    {
+      "title": "如何注意力涣散地证明以下图中不等式？",
+      "url": "https://www.zhihu.com/answer/3499667885",
+      "summary": "正文先用自然对数把连乘化为连加，再逐项估计，核心运用了对数函数的性质。"
+    },
+    {
+      "title": "涟水 17 岁中专少女的数学水平为什么到目前为止没有一个公认的评价，反而有很多质疑的声音？",
+      "url": "https://www.zhihu.com/answer/3533716642",
+      "summary": "正文先对余元公式取对数，再求导以推得 Digamma 函数与 cot 的关系。"
+    },
+    {
+      "title": "谁能通俗的解释一下为什么有人怀疑姜萍?",
+      "url": "https://www.zhihu.com/answer/3544206498",
+      "summary": "正文把十三次幂方程两边取对数，并继续利用对数关系估算未知数，实际展示了对数运算。"
+    },
+    {
+      "title": "涟水县教体局回应「姜萍在学校月考成绩 83 分截图属实、预赛使用电脑是借的」，还有哪些内容值得关注？",
+      "url": "https://www.zhihu.com/answer/3544517235",
+      "summary": "正文把十三次幂方程两边取对数，并继续利用对数关系估算未知数，实际展示了对数运算。"
+    },
+    {
+      "title": "有没有人告诉我对数到底是怎样简化运算的?",
+      "url": "https://www.zhihu.com/answer/3553403912",
+      "summary": "正文系统说明对数把乘法化为加法、把幂化为倍数，并用对数变换处理指数方程。"
+    },
+    {
+      "title": "有没有人告诉我对数到底是怎样简化运算的?",
+      "url": "https://www.zhihu.com/answer/3555339368",
+      "summary": "正文说明如何利用对数把乘法转化为加法，并通过对数刻度和计算尺实现乘法、除法及开方等运算。"
+    },
+    {
+      "title": "如何证明((π(2e)^(-e)+π)^π+π)^π>114514？",
+      "url": "https://www.zhihu.com/answer/3583683205",
+      "summary": "正文把对数差写成积分的恒等式，再经乘幂变换把原不等式化为对数比较。"
+    },
+    {
+      "title": "能否引入隐数“j”“k”，使得ln（-1）=j,ln(0)=k?",
+      "url": "https://www.zhihu.com/answer/3587244868",
+      "summary": "正文区分实数对数与复对数的多值性，并说明必须用大写 Ln 表示分支和。"
+    },
+    {
+      "title": "为什么当今数学教材写的跟天书一样，根本看不懂？",
+      "url": "https://www.zhihu.com/answer/31431422337",
+      "summary": "正文说明对数可把乘法转化为加法，并联系本福特定律、分贝与 pH 等对数尺度。"
+    },
+    {
+      "title": "是否可以由 aᵃ=bᵇ 推出 a=b？为什么？",
+      "url": "https://www.zhihu.com/answer/41205302944",
+      "summary": "正文说明可对等式两边取对数并研究 y=xlnx 的非单调性，从对数变换角度反驳题设。"
+    },
+    {
+      "title": "如何看待同济大学《高等数学》教材获得“全国优秀教材特等奖”？",
+      "url": "https://www.zhihu.com/answer/47041730499",
+      "summary": "正文通过本福特定律与乘法排布解释对数把乘法运算转化为加法运算的关键作用。"
+    },
+    {
+      "title": "数学学到后期趋向严谨还是直觉呢？",
+      "url": "https://www.zhihu.com/answer/69626076021",
+      "summary": "正文解释调和级数呈对数增长，并强调底数大于 1 的对数函数最终趋于无穷。"
+    },
+    {
+      "title": "求问「1^100、2^99、3^98……99^2、100^1」这一百个数中，谁最大？",
+      "url": "https://www.zhihu.com/answer/98575428419",
+      "summary": "正文取对数把幂的极值问题转化为含对数函数的极值问题。"
+    },
+    {
+      "title": "求问「1^100、2^99、3^98……99^2、100^1」这一百个数中，谁最大？",
+      "url": "https://www.zhihu.com/answer/98593691811",
+      "summary": "正文利用自然对数把幂式的大小比较转化为对数函数的最大值问题。"
+    },
+    {
+      "title": "求问「1^100、2^99、3^98……99^2、100^1」这一百个数中，谁最大？",
+      "url": "https://www.zhihu.com/answer/98872470772",
+      "summary": "正文利用自然对数函数的单调性，把幂式比较转化为对数值比较。"
+    },
+    {
+      "title": "求问「1^100、2^99、3^98……99^2、100^1」这一百个数中，谁最大？",
+      "url": "https://www.zhihu.com/answer/104059780527",
+      "summary": "正文先对 100 个幂取自然对数，把幂值比较转化为对数值与 734/3 的大小比较。"
+    },
+    {
+      "title": "为什么银行存款、河流长度等集合的首位数字更容易出现 1 而不是 9？",
+      "url": "https://www.zhihu.com/answer/121364343013",
+      "summary": "正文用常用对数给出首位数字为 1 和 9 的概率，并据此比较二者相差约六倍，属于对数函数的实际应用。"
+    },
+    {
+      "title": "为什么银行存款、河流长度等集合的首位数字更容易出现 1 而不是 9？",
+      "url": "https://www.zhihu.com/answer/126229356702",
+      "summary": "正文用对数坐标把各首位区间换算成概率权重，具体展开对数函数在这一规律中的作用。"
+    },
+    {
+      "title": "为什么银行存款、河流长度等集合的首位数字更容易出现 1 而不是 9？",
+      "url": "https://www.zhihu.com/answer/128100434867",
+      "summary": "正文用对数尺度上的均匀分布解释首位数字概率差异，并以常用对数公式联系对数函数的应用。"
+    },
+    {
+      "title": "2的多少次方的最高位是9？",
+      "url": "https://www.zhihu.com/answer/1903808589509952036",
+      "summary": "正文把以指定数字开头的幂转化为对数的小数部分区间来求最小指数，实质使用对数刻画首位数字。"
+    },
+    {
+      "title": "如何比较 ln7/√7 和 ln8/√8 的大小？",
+      "url": "https://www.zhihu.com/answer/1912261827141801862",
+      "summary": "正文应用对数均值不等式给出对数差与真数差之比的上界，并用它完成两个对数表达式的比较。"
+    },
+    {
+      "title": "如何优雅的证明1.01^70>2？",
+      "url": "https://www.zhihu.com/answer/1912467582855909877",
+      "summary": "正文借助 ln2 的无穷级数表示给出对数函数值，用于完成原不等式证明。"
+    },
+    {
+      "title": "数学大佬予一人是如何缩放不等式的，又是如何有这么多的方法，有技巧还是长年累月的积累？",
+      "url": "https://www.zhihu.com/answer/1912658720262952595",
+      "summary": "正文以对数函数与有理函数作比较，讨论该对数表达式在小量近似中的性质。"
+    },
+    {
+      "title": "如何比较 ln7/√7 和 ln8/√8 的大小？",
+      "url": "https://www.zhihu.com/answer/1915352012939327236",
+      "summary": "正文构造含自然对数的比较函数，并把待比较的两个数转化为同一函数在给定区间上的取值。"
+    },
+    {
+      "title": "这两个小学的公式该怎么理解？",
+      "url": "https://www.zhihu.com/answer/1916593572154709453",
+      "summary": "正文利用对数函数位于两个相邻单位分数之间的不等式，把分母问题的差拆成两部分。"
+    },
+    {
+      "title": "如何解函数方程 f(x)+f(ln(x))=0?",
+      "url": "https://www.zhihu.com/answer/1921359167739892280",
+      "summary": "正文以反复取对数或取指数构造函数链，并用对数深度刻画自变量最终落入的基础区间。"
+    },
+    {
+      "title": "如果 f(f(x))＝e^x，那么 f(x) 的解析式是什么？",
+      "url": "https://www.zhihu.com/answer/1924384208786269343",
+      "summary": "正文以对数把乘法降为加法作类比，说明超对数把指数迭代降为加法。"
+    },
+    {
+      "title": "如何解函数方程f(f(x))=ln(x)??",
+      "url": "https://www.zhihu.com/answer/1924442720971231452",
+      "summary": "正文经 Abel 方程推导出自然对数操作对应减一，并据此确定半次迭代的表达式。"
+    },
+    {
+      "title": "1/x的积分为什么是ln|x|+C，为什么会和e相关?",
+      "url": "https://www.zhihu.com/answer/1924784742668141351",
+      "summary": "正文通过对数换元 t=ln|x|，并由幂积分在 n=-1 时的极限得到 ln|x|，具体解释了积分与对数函数的联系。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/1930196264110236098",
+      "summary": "正文定义复对数主分支及主辐角范围，并用它确定复幂和原方程的含义。"
+    },
+    {
+      "title": "如何比较 ln7/√7 和 ln8/√8 的大小？",
+      "url": "https://www.zhihu.com/answer/1931153529915045039",
+      "summary": "正文以含自然对数的复合函数为研究对象，并通过其单调区间和极值比较两个对数分式。"
+    },
+    {
+      "title": "有没有前半段像指数函数，后半段像对数函数的函数？",
+      "url": "https://www.zhihu.com/answer/1931509275353658515",
+      "summary": "正文讨论所构造函数在前后区间分别呈现指数式与对数式增长，并解释其后半段的对数型行为。"
+    },
+    {
+      "title": "f(xˣ)=f(x)²,如何求f(x)的解析式?",
+      "url": "https://www.zhihu.com/answer/1932239100452270089",
+      "summary": "正文令 g(x)=ln f(x)，把含 f(x^x) 与 f(x)^2 的函数方程线性化为指数方程。"
+    },
+    {
+      "title": "基本初等函数的具体定义是什么？",
+      "url": "https://www.zhihu.com/answer/1936843550571594989",
+      "summary": "正文说明反比例函数积分的原函数不能用代数函数表示，因此需要引入对数函数及其扩张。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/1949056205461885693",
+      "summary": "正文取自然对数后整理出 x=e ln x，再移项构造以 ln x 为核心的对数型函数。"
+    },
+    {
+      "title": "如何评价谷歌在2025年11月18日凌晨发布的gemini3.0pro模型？",
+      "url": "https://www.zhihu.com/answer/1974554669629061042",
+      "summary": "正文利用自然对数的单调性把指数不等式化为对数式，再通过因式分解判断各项符号。"
+    },
+    {
+      "title": "对数是怎么被发明的？",
+      "url": "https://www.zhihu.com/answer/1974561517283340650",
+      "summary": "正文给出对数的函数定义、乘法化加法关系及其在复数和复数幅角中的作用。"
+    },
+    {
+      "title": "为什么基本初等函数只有六种?",
+      "url": "https://www.zhihu.com/answer/1979149656563947052",
+      "summary": "正文把对数扩张与导函数除以自身的结构联系起来，说明引入对数函数的作用。"
+    },
+    {
+      "title": "如何看待短视频平台有人声称「微积分是中国发明的」?",
+      "url": "https://www.zhihu.com/answer/1986498026102101484",
+      "summary": "正文讨论造对数表的方法，并具体提到对数换底公式及 ln(1+x) 的麦克劳林级数。"
+    },
+    {
+      "title": "突然发现导数有个bug，ln（x³）求导后居然圆不回去，问题出在哪了？",
+      "url": "https://www.zhihu.com/answer/1994078259986601501",
+      "summary": "正文使用对数运算法则把复合对数化简为对数函数的三倍，以便继续求导。"
+    },
+    {
+      "title": "葛立恒数有大海里原子的个数多吗？",
+      "url": "https://www.zhihu.com/answer/1996742557540038579",
+      "summary": "正文定义以 10 为底的对数函数、进行多次函数复合，并用古戈尔等例子计算连续求位数。"
+    },
+    {
+      "title": "孩子问：为什么不给y=log_x a起个名称把它作为基本初等函数但却把y=tan x作为基本初等函数？",
+      "url": "https://www.zhihu.com/answer/2010019356071978643",
+      "summary": "正文从反比例函数积分的闭包需求引入对数函数，说明它是初等扩张的必要部分。"
+    },
+    {
+      "title": "如何巧妙的证明这个不等式：ln2+lg2<1？",
+      "url": "https://www.zhihu.com/answer/2020925260904558948",
+      "summary": "正文利用对数将区间求和转化为对数乘积，并据此估计自然对数。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/2022671733056907222",
+      "summary": "正文定义并分析 f(x)=ln(x)/sqrt(x) 的单调性、最大值与定义域。"
+    },
+    {
+      "title": "有哪些看起来很难但做起来很简单的数学题？",
+      "url": "https://www.zhihu.com/answer/2026676621759849579",
+      "summary": "正文依据 0<x<1 时 ln x<0 的对数函数性质直接判定不等式左负右正。"
+    },
+    {
+      "title": "为什么 lnx 求导是 1/x？",
+      "url": "https://www.zhihu.com/answer/2032223969818961469",
+      "summary": "正文通过反双曲正弦与自然对数的恒等关系及坐标变换，解释对数函数 ln 的来源。"
+    },
+    {
+      "title": "这个怎么比大小?（希望简单一些，高中生可以用的）?",
+      "url": "https://www.zhihu.com/answer/2040056563449209913",
+      "summary": "正文利用自然对数的拆分和代数放缩，说明对数表达式之间的大小关系。"
+    },
+    {
+      "title": "学导数时自己推了一个“增长率”，这玩意儿有用吗？",
+      "url": "https://www.zhihu.com/answer/2040161699668485719",
+      "summary": "正文通过构造正函数的自然对数，解释对数导数 g(x)=ln(f(x)) 的定义来源。"
+    },
+    {
+      "title": "学习数学，意义何在？",
+      "url": "https://www.zhihu.com/answer/2052474666397312224",
+      "summary": "正文用音量旋钮、亮度和 pH 说明对数映射为何更符合人的感知。"
+    },
+    {
+      "title": "为什么基本初等函数只有六种?",
+      "url": "https://www.zhihu.com/answer/2061029713129346713",
+      "summary": "正文把对数函数解释为将乘法化为加法、指数化为系数的变换器，属于对对数函数作用的实质说明。"
+    },
+    {
+      "title": "【概念深度挖掘】——2.2 基本初等函数之指数函数和对数函数",
+      "url": "https://zhuanlan.zhihu.com/p/20885564",
+      "summary": "正文由指数运算的逆运算引出对数，并系统说明对数函数的定义域、值域、单调性和图像性质。"
+    },
+    {
+      "title": "换了个马甲就不认识你了？——对数变换与正态分布",
+      "url": "https://zhuanlan.zhihu.com/p/22299448",
+      "summary": "正文以取对数把右偏数据拉近对称分布，并说明对数变换稳定方差和线性化模型的作用。"
+    },
+    {
+      "title": "小时候的猜想与实践——通过尺子琢磨出 e（2.718...）",
+      "url": "https://zhuanlan.zhihu.com/p/24427943",
+      "summary": "正文以纳皮尔的计算尺和对数表解释乘除法的刻度换算，并说明常用对数与自然对数的关系。"
+    },
+    {
+      "title": "复变函数与积分变换 简明笔记(三)：解析函数与柯西黎曼条件",
+      "url": "https://zhuanlan.zhihu.com/p/25057029",
+      "summary": "正文把复对数定义为指数函数的反函数，解释其多值性、对数主值和分支。"
+    },
+    {
+      "title": "高考数学压轴题·【函数与不等式】篇（2）",
+      "url": "https://zhuanlan.zhihu.com/p/25124739",
+      "summary": "正文把指数不等式化为含自然对数的不等式，并利用对数不等式完成参数范围证明。"
+    },
+    {
+      "title": "关于i^i",
+      "url": "https://zhuanlan.zhihu.com/p/25381711",
+      "summary": "正文推导复数对数的实部、辐角与多值性，并用其定义复数幂。"
+    },
+    {
+      "title": "Logit究竟是个啥？——离散选择模型之三",
+      "url": "https://zhuanlan.zhihu.com/p/27188729",
+      "summary": "正文把概率先化为 Odds 再取自然对数成为 Logit，并说明变换后值域扩展到整个实数轴。"
+    },
+    {
+      "title": "高中数学之函数图像（1）",
+      "url": "https://zhuanlan.zhihu.com/p/29623745",
+      "summary": "正文逐步说明对数函数图像在平移、伸缩和关于x轴对称下的变换。"
+    },
+    {
+      "title": "Logit模型和Logistic模型有什么区别？",
+      "url": "https://zhuanlan.zhihu.com/p/30659982",
+      "summary": "正文把概率的胜率取对数得到 Logit 的线性模型，实质使用了将对数变换用于概率建模的方法。"
+    },
+    {
+      "title": "常见函数单调性及函数单调性的定理",
+      "url": "https://zhuanlan.zhihu.com/p/34828330",
+      "summary": "正文说明不同底数范围内对数函数的单调性及其变化规律。"
+    },
+    {
+      "title": "一文介绍机器学习中基本的数学符号",
+      "url": "https://zhuanlan.zhihu.com/p/35488953",
+      "summary": "正文以 10 和二为底的对数为例，说明对数是幂运算的逆运算以及对数缩放的用途。"
+    },
+    {
+      "title": "导数常见不等式与证明",
+      "url": "https://zhuanlan.zhihu.com/p/37067259",
+      "summary": "正文用 ln x 及其与 x 的关系列出多种对数不等式，并说明由基本不等式代换得到。"
+    },
+    {
+      "title": "开个脑洞写一篇“小明常数”的文章",
+      "url": "https://zhuanlan.zhihu.com/p/37072743",
+      "summary": "正文从常用对数的数值差研究 lg x 的变化率，得到 lg'x=A/x。"
+    },
+    {
+      "title": "对于估值的一点小心得",
+      "url": "https://zhuanlan.zhihu.com/p/37389852",
+      "summary": "正文专门围绕 ln x 的上下界不等式、拆分和赋值，讨论自然对数及对数表达式的估值。"
+    },
+    {
+      "title": "计算机之前的计算机 | 混乱博物馆",
+      "url": "https://zhuanlan.zhihu.com/p/37778867",
+      "summary": "正文定义对数并解释其把乘除化为加减的原理，还以对数刻度和计算尺展示其运算应用。"
+    },
+    {
+      "title": "有关e^x和lnx的常用不等式集锦",
+      "url": "https://zhuanlan.zhihu.com/p/43009114",
+      "summary": "正文系统列出并证明对数函数 ln x 的常用不等式。"
+    },
+    {
+      "title": "自然对数的底“e”到底是怎么来的？",
+      "url": "https://zhuanlan.zhihu.com/p/45846342",
+      "summary": "正文讨论对数的定义、纳皮尔对数以及自然对数的形成。"
+    },
+    {
+      "title": "为什么说\"对数\"可以延长天文学家寿命？",
+      "url": "https://zhuanlan.zhihu.com/p/48393525",
+      "summary": "正文把对数解释为已知增长后的数量求所需时间，并推导乘积与商分别对应时间和差的规则。"
+    },
+    {
+      "title": "为什么e^x 的导数是还是其自身？",
+      "url": "https://zhuanlan.zhihu.com/p/48678377",
+      "summary": "先用导数定义推导一般对数函数与自然对数的求导公式。"
+    },
+    {
+      "title": "函数定义域问题大总结",
+      "url": "https://zhuanlan.zhihu.com/p/50095890",
+      "summary": "正文给出对数函数定义域以及对数真数和底数需要满足的条件，并用复合对数函数例题说明。"
+    },
+    {
+      "title": "softmax_cross_entropy_with_logits中“logits”是个什么意思？",
+      "url": "https://zhuanlan.zhihu.com/p/51431626",
+      "summary": "正文定义Logit为发生比的自然对数变换，并利用其值域说明回归建模意义。"
+    },
+    {
+      "title": "偏来偏去的极值点（3）——觉醒：加强的对数平均不等式",
+      "url": "https://zhuanlan.zhihu.com/p/51767987",
+      "summary": "正文利用该对数不等式及其图像在 x=1 附近接近的性质，说明如何拆分比值获得更强的估计。"
+    },
+    {
+      "title": "回归分析|笔记整理（C）——非线性回归，含定性变量的回归模型",
+      "url": "https://zhuanlan.zhihu.com/p/52752248",
+      "summary": "正文分别讲解线性对数、对数线性与对数对数模型及其系数解释。"
+    },
+    {
+      "title": "呆哥数学基本初等函数 ——  基础知识  【5】",
+      "url": "https://zhuanlan.zhihu.com/p/54757352",
+      "summary": "正文定义对数函数，并讲解其图像性质、与指数式的互化以及常用对数运算法则。"
+    },
+    {
+      "title": "高数上：第一章 函数与极限 第一节 函数",
+      "url": "https://zhuanlan.zhihu.com/p/56105691",
+      "summary": "正文列出对数函数的定义式及其底数限制，属于对数函数的基本性质梳理。"
+    },
+    {
+      "title": "世界的本质关联：从0到1、从量变到质变、幂次法则、还有信息论",
+      "url": "https://zhuanlan.zhihu.com/p/62819317",
+      "summary": "正文解释双对数变换把幂律乘法关系化为直线，并由斜率讨论标度不变性。"
+    },
+    {
+      "title": "对数函数的常用性质及其证明",
+      "url": "https://zhuanlan.zhihu.com/p/64215066",
+      "summary": "正文从对数定义与指数运算法则出发，逐条证明对数函数的乘积、商、幂和换底性质。"
+    },
+    {
+      "title": "使用科学计算器计算复数与相量（提高篇）",
+      "url": "https://zhuanlan.zhihu.com/p/69167650",
+      "summary": "正文定义复数对数及主值分支，并给出模与辐角表示。"
+    },
+    {
+      "title": "【“数”你好看】对数运算(Logarithm)",
+      "url": "https://zhuanlan.zhihu.com/p/72510602",
+      "summary": "正文定义对数函数为指数运算的逆，并证明乘积、商、幂和换底公式。"
+    },
+    {
+      "title": "初学讲义之高中数学七：对数",
+      "url": "https://zhuanlan.zhihu.com/p/80872763",
+      "summary": "正文定义对数函数及其定义域，并讲解单调性、对称性和换底后的函数形式。"
+    },
+    {
+      "title": "指数对数幂函数，基础有问题就看这篇！",
+      "url": "https://zhuanlan.zhihu.com/p/91875580",
+      "summary": "正文讲解对数概念、运算法则、换底公式及对数函数的性质。"
+    },
+    {
+      "title": "为什么以e为底的指数函数的导数是它本身？（数学分析逻辑链）",
+      "url": "https://zhuanlan.zhihu.com/p/91881261",
+      "summary": "正文同步推导 ln x 的导数公式并给出 1/x 的结论。"
+    },
+    {
+      "title": "【高中向】从「如何用多项式函数拟合ln(x)」到「泰勒展开」",
+      "url": "https://zhuanlan.zhihu.com/p/106034544",
+      "summary": "正文具体研究自然对数函数 ln(x) 的展开、收敛范围及高精度分式逼近。"
+    },
+    {
+      "title": "告诉你为什么数据要取对数",
+      "url": "https://zhuanlan.zhihu.com/p/106232513",
+      "summary": "正文解释对数函数的单调性、图像敏感度以及压缩数值和化乘为加等运算性质。"
+    },
+    {
+      "title": "如何让8岁表妹1分钟明白：e^π和π^e谁大的问题？",
+      "url": "https://zhuanlan.zhihu.com/p/107677027",
+      "summary": "正文先对两个指数式取对数，再构造函数求导，以比较自然对数和指数组合的大小。"
+    },
+    {
+      "title": "几道极值点偏移的比值代换解法",
+      "url": "https://zhuanlan.zhihu.com/p/108772506",
+      "summary": "正文以自然对数构造对数均值不等式，并通过比值代换和对数恒等式完成相关证明。"
+    },
+    {
+      "title": "自然常数e为什么这么重要?",
+      "url": "https://zhuanlan.zhihu.com/p/114266598",
+      "summary": "正文说明以 e 为底的对数函数导数最简单，并把它特别命名为自然对数。"
+    },
+    {
+      "title": "复变函数学习笔记(2)",
+      "url": "https://zhuanlan.zhihu.com/p/114214745",
+      "summary": "正文具体讨论复对数的多值性、单值全纯分支、主支和支点。"
+    },
+    {
+      "title": "复分析(3)-多值函数的解析分支",
+      "url": "https://zhuanlan.zhihu.com/p/136610110",
+      "summary": "正文给出复对数的多值表示，并讲解解析分支及其判定，实质讨论了对数函数。"
+    },
+    {
+      "title": "柯西方程与柯西方法",
+      "url": "https://zhuanlan.zhihu.com/p/80543711",
+      "summary": "正文求解对数型函数方程，并推出非零解形如对数函数 log_a x。"
+    },
+    {
+      "title": "函数篇：对数函数",
+      "url": "https://zhuanlan.zhihu.com/p/162990189",
+      "summary": "正文定义对数函数并讨论底数、真数、图像性质与换底，系统展开对数函数概念。"
+    },
+    {
+      "title": "第一讲 函数与初等函数",
+      "url": "https://zhuanlan.zhihu.com/p/256104096",
+      "summary": "正文把对数函数定义为指数函数的反函数，并说明其定义域、定点和单调性。"
+    },
+    {
+      "title": "请问2^100000首位是多少？",
+      "url": "https://zhuanlan.zhihu.com/p/262665278",
+      "summary": "正文利用常用对数的运算性质和首数确定大幂的首位数字，完整展开对数计算过程。"
+    },
+    {
+      "title": "基本初等函数第三篇——对数函数",
+      "url": "https://zhuanlan.zhihu.com/p/266756907",
+      "summary": "正文讲解对数的定义、运算性质、换底公式以及对数函数的单调性。"
+    },
+    {
+      "title": "inversioner版高中数学课本(1)",
+      "url": "https://zhuanlan.zhihu.com/p/268526854",
+      "summary": "正文利用反函数定义对数函数，并推导对数运算性质、换底公式和函数性质。"
+    },
+    {
+      "title": "第十三讲 导数的概念",
+      "url": "https://zhuanlan.zhihu.com/p/269604240",
+      "summary": "正文由差商极限和对数恒等变形推导一般对数函数的导数。"
+    },
+    {
+      "title": "负数的开方到底等于多少？",
+      "url": "https://zhuanlan.zhihu.com/p/336577908",
+      "summary": "正文定义复对数函数，并用它给出任意复数幂的统一表达式。"
+    },
+    {
+      "title": "对数运算知识笔记（换底公式）",
+      "url": "https://zhuanlan.zhihu.com/p/357159782",
+      "summary": "正文通过指数形式与两边取对数说明了换底公式的推导，属于对数函数的运算性质。"
+    },
+    {
+      "title": "【高中数学·导数】朗博W函数与常规方法",
+      "url": "https://zhuanlan.zhihu.com/p/367080386",
+      "summary": "正文通过引入对数把隐零点方程化为对数函数相关的形式并完成消元。"
+    },
+    {
+      "title": "复变函数基本概念与定理",
+      "url": "https://zhuanlan.zhihu.com/p/367122899",
+      "summary": "正文通过辐角增加 2π 后函数值的变化说明复对数为何多值，并据此引出分支点和分支割线。"
+    },
+    {
+      "title": "基本初等函数图像及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/372164659",
+      "summary": "正文说明对数函数的定义、图像性质、运算性质，并解释其与指数函数互为反函数。"
+    },
+    {
+      "title": "投资中最重要的公式之——凯利公式",
+      "url": "https://zhuanlan.zhihu.com/p/375054959",
+      "summary": "正文通过对总资产增长式两边取对数，把连乘增长转化为可分析的对数形式。"
+    },
+    {
+      "title": "极值点偏移问题（四种解法）",
+      "url": "https://zhuanlan.zhihu.com/p/393187339",
+      "summary": "正文围绕含对数项的函数零点分布，展开对数平均与比值代换方法。"
+    },
+    {
+      "title": "常用的放缩不等式",
+      "url": "https://zhuanlan.zhihu.com/p/396423540",
+      "summary": "正文系统讨论对数函数与一次、双撇、类反比例和二次函数之间的放缩关系。"
+    },
+    {
+      "title": "导数中的常见找点模型",
+      "url": "https://zhuanlan.zhihu.com/p/397023700",
+      "summary": "正文以对数函数与一次函数之差为核心模型，系统讨论定义域、单调性、极值和零点个数。"
+    },
+    {
+      "title": "伯德图的绘制详解（附考研真题解析）",
+      "url": "https://zhuanlan.zhihu.com/p/407758454",
+      "summary": "正文解释伯德图采用对数频率轴和分贝标度，并利用对数性质把传递函数各环节的幅值相乘转化为相加。"
+    },
+    {
+      "title": "预设性能控制-Prescribed  Performance  Control(PPC)",
+      "url": "https://zhuanlan.zhihu.com/p/410916617",
+      "summary": "正文选用对数函数作为误差转换双射，把有界约束区间映射到整个实数轴并利用其单调性控制新误差。"
+    },
+    {
+      "title": "最详细的指数函数求导证明（之一）",
+      "url": "https://zhuanlan.zhihu.com/p/411780503",
+      "summary": "正文由指数式反解 x=e^y，推导自然对数函数及其一般底对数函数的导数。"
+    },
+    {
+      "title": "复变多值函数的黎曼面 (Riemann surface)、分支点 (branch point) 与割线 (branch cut)",
+      "url": "https://zhuanlan.zhihu.com/p/422338793",
+      "summary": "正文以复变量对数函数的相位分解说明其多值性、分支点和主值选取。"
+    },
+    {
+      "title": "【解题研究】极值点偏移——偏对称根的范围",
+      "url": "https://zhuanlan.zhihu.com/p/443595789",
+      "summary": "正文分析对数商函数的两个零点，并利用对数函数不等式给出更强的根范围。"
+    },
+    {
+      "title": "指数函数和对数函数交点问题与极值点偏移",
+      "url": "https://zhuanlan.zhihu.com/p/465430066",
+      "summary": "正文围绕对数函数与指数函数的图像交点个数，给出完整参数分类结论。"
+    },
+    {
+      "title": "导数-常用导数 推导",
+      "url": "https://zhuanlan.zhihu.com/p/464253616",
+      "summary": "正文借助对数性质、重要极限和换底公式推导一般对数函数的导数。"
+    },
+    {
+      "title": "高中数学导数 常见组合函数的图像总结及应用",
+      "url": "https://zhuanlan.zhihu.com/p/492073994",
+      "summary": "正文分析含自然对数的组合函数图像，并给出其凹凸区间和极值。"
+    },
+    {
+      "title": "如何理解指数函数比任何幂函数都“大”？",
+      "url": "https://zhuanlan.zhihu.com/p/500118384",
+      "summary": "正文两道小题都通过对数变换把指数式转化为便于求导和对数研究的形式。"
+    },
+    {
+      "title": "(高中)导数题中的换元，lnx的基本性质奇效，(附宁波二模导数压轴)",
+      "url": "https://zhuanlan.zhihu.com/p/507722023",
+      "summary": "正文围绕自然对数运算性质展开，利用换元、放缩和级数研究对数函数。"
+    },
+    {
+      "title": "【复变函数】 1.2 初等复变函数(2)",
+      "url": "https://zhuanlan.zhihu.com/p/606784225",
+      "summary": "正文由复指数函数的周期性定义复对数，并区分对数主值与相差 2kπi 的各分支。"
+    },
+    {
+      "title": "【回归本源】给微积分入门者的小记",
+      "url": "https://zhuanlan.zhihu.com/p/609087301",
+      "summary": "正文说明对数函数与指数函数互逆，推导自然对数和一般底对数函数的导数与换底公式。"
+    },
+    {
+      "title": "从复变函数角度看不定积分",
+      "url": "https://zhuanlan.zhihu.com/p/613445671",
+      "summary": "正文说明复对数的定义和多值性，并把反三角函数积分结果化归为对数函数。"
+    },
+    {
+      "title": "高斯混合模型（GMM）：宝宝级教程",
+      "url": "https://zhuanlan.zhihu.com/p/655018030",
+      "summary": "正文解释对数函数的单调性，以及它把概率乘法转化成加法并保留极值位置的用途。"
+    },
+    {
+      "title": "直观图解36个放缩不等式",
+      "url": "https://zhuanlan.zhihu.com/p/673096895",
+      "summary": "正文用指数不等式取对数推出对数函数的多组一次、分式和二次放缩。"
+    },
+    {
+      "title": "抛开姜萍事件的真假，让我们谈谈数学原本的样子",
+      "url": "https://zhuanlan.zhihu.com/p/705599967",
+      "summary": "正文用大整数开十三次方问题演示取对数、估算对数值并逐步确定未知数，实际展开了自然对数运算。"
+    },
+    {
+      "title": "解高考数学题时应该如何思考？以一道导数真题为例",
+      "url": "https://zhuanlan.zhihu.com/p/706576257",
+      "summary": "正文利用自然对数函数的单调性构造并判断函数单调性，从而确定自变量范围。"
+    },
+    {
+      "title": "致那些年我们错过的好题——遥遥领先的2005湖南理科数学高考卷",
+      "url": "https://zhuanlan.zhihu.com/p/717653262",
+      "summary": "正文以自然对数函数与二次函数之差为对象，分析定义域、导数和函数图像关系。"
+    },
+    {
+      "title": "【注意力进阶教程】利用“Pade近似的插值”构造积分优雅地证明对数函数和反正切函数的有理上下界",
+      "url": "https://zhuanlan.zhihu.com/p/736937260",
+      "summary": "正文给出对数函数 Padé 下界和上界族及误差函数，并据此证明 ln q 的有理界。"
+    },
+    {
+      "title": "复分析基础(5)--留数定理与积分计算",
+      "url": "https://zhuanlan.zhihu.com/p/9647188926",
+      "summary": "正文解释复对数的辐角多值性、单值全纯分支、主支及其映射性质。"
+    },
+    {
+      "title": "S型增长及一元弱酸碱分布系数也和双曲正切函数有关？2025八省联考数学试题的视野拓展",
+      "url": "https://zhuanlan.zhihu.com/p/17911423011",
+      "summary": "正文通过对数化把逻辑斯谛微分方程的解写成对数关系，并据此推出 S 型增长函数。"
+    },
+    {
+      "title": "人生真的是对数的吗？我们生命的中点是18岁吗？",
+      "url": "https://zhuanlan.zhihu.com/p/1976008723878151462",
+      "summary": "正文用随时间年龄变化的相对比例建立对数感知模型，并通过自然对数计算生命感受的中点。"
+    },
+    {
+      "title": "发现了一篇有意思的论文：《用单个算子表达所有初等函数》 All elementary functions from a single operator",
+      "url": "https://zhuanlan.zhihu.com/p/2027486137296364742",
+      "summary": "正文把自然对数作为 EML 编译的典型例子，给出其嵌套与 RPN 表示。"
+    },
+    {
+      "title": "一个函数「统一」所有初等函数",
+      "url": "https://zhuanlan.zhihu.com/p/2027489055898710673",
+      "summary": "正文给出自然对数和一般底对数由核函数嵌套表达的具体推导。"
+    },
+    {
+      "title": "永别了，背公式时代！波兰物理学家用一个算子统一数学",
+      "url": "https://zhuanlan.zhihu.com/p/2028122850423218208",
+      "summary": "正文明确指出自然对数需通过 EML 的多层嵌套构造。"
+    },
+    {
+      "title": "凹凸不等式证明器.skill",
+      "url": "https://zhuanlan.zhihu.com/p/2041917119399448712",
+      "summary": "正文给出对数函数 \\ln x 的切线型不等式及其取等条件。"
+    },
+    {
+      "title": "你从未见过的 ln x 的近似（一）",
+      "url": "https://zhuanlan.zhihu.com/p/2056050076301239643",
+      "summary": "正文以正负指数幂的有理函数系统构造对数函数的近逼近。"
+    }
+  ]
+}

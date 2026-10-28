@@ -1,0 +1,1546 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t2-b2",
+  "sources": [
+    {
+      "title": "负数的无理数次方如何计算？",
+      "url": "https://www.zhihu.com/answer/19159928",
+      "summary": "正文围绕「负数的无理数次方如何计算？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "很多文章中用1.01的365次方= 37.8 0.99的365次方 = 0.03来计算每天多做一点和少做一点的差别，合理吗？",
+      "url": "https://www.zhihu.com/answer/51629096",
+      "summary": "正文指出把每日努力程度直接作 365 次指数运算存在概念偷换。"
+    },
+    {
+      "title": "数学中以 e 为底的指数函数 f(x)=exp(x) 求导后为什么还是它本身？",
+      "url": "https://www.zhihu.com/answer/57260265",
+      "summary": "正文从自然底数与指数函数定义出发说明 exp 函数的性质。"
+    },
+    {
+      "title": "数学中以 e 为底的指数函数 f(x)=exp(x) 求导后为什么还是它本身？",
+      "url": "https://www.zhihu.com/answer/57273098",
+      "summary": "正文把 exp 定义为幂级数并得到 exp(x)=e^x。"
+    },
+    {
+      "title": "e=2.718… 是怎么算出来的？",
+      "url": "https://www.zhihu.com/answer/68164631",
+      "summary": "正文推导指数函数的导数。"
+    },
+    {
+      "title": "自然底数 e 的意义是什么？",
+      "url": "https://www.zhihu.com/answer/106247572",
+      "summary": "正文说明连续增长规律为何由自然指数函数表达。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/106263920",
+      "summary": "正文从变化率与自身成比例的条件解释自然指数函数及其形式。"
+    },
+    {
+      "title": "数学中以 e 为底的指数函数 f(x)=exp(x) 求导后为什么还是它本身？",
+      "url": "https://www.zhihu.com/answer/110075760",
+      "summary": "正文推导一般指数函数导数与原函数成比例的性质。"
+    },
+    {
+      "title": "y=e^x 有什么特殊性吗？它与三角函数等函数有什么关系？",
+      "url": "https://www.zhihu.com/answer/110173647",
+      "summary": "正文推导一般指数函数导数与原函数成比例的性质。"
+    },
+    {
+      "title": "y=e^x 无限求导每一次都等于自身有什么深层含义或是实际应用吗？",
+      "url": "https://www.zhihu.com/answer/110174443",
+      "summary": "正文推导一般指数函数导数与原函数成比例的性质。"
+    },
+    {
+      "title": "数学中以 e 为底的指数函数 f(x)=exp(x) 求导后为什么还是它本身？",
+      "url": "https://www.zhihu.com/answer/110576517",
+      "summary": "正文由自然对数性质推导自然指数的乘法公式。"
+    },
+    {
+      "title": "怎么向小学生解释欧拉公式 e^(πi)+1=0？",
+      "url": "https://www.zhihu.com/answer/112430787",
+      "summary": "正文把复指数解释为单位圆上的旋转，并用自然底数的极限定义说明其圆周运动含义。"
+    },
+    {
+      "title": "怎么向小学生解释欧拉公式 e^(πi)+1=0？",
+      "url": "https://www.zhihu.com/answer/112520932",
+      "summary": "正文通过生物繁衍与冷却模型解释指数函数描述连续变化的意义。"
+    },
+    {
+      "title": "如何理解「对数」？",
+      "url": "https://www.zhihu.com/answer/121067428",
+      "summary": "正文把乘法坐标解释为指数坐标，并说明指数与对数的历史关系。"
+    },
+    {
+      "title": "这个求指数函数exp()的快速近似方法的原理是什么?",
+      "url": "https://www.zhihu.com/answer/123794632",
+      "summary": "正文推导 exp 的浮点快速近似，实质使用指数函数的阶码与尾数结构。"
+    },
+    {
+      "title": "虚数单位 i 可以被表示为 √-1 吗？",
+      "url": "https://www.zhihu.com/answer/132495847",
+      "summary": "正文说明正实数底指数函数如何由整数指数延拓到实数并讨论指数运算律。"
+    },
+    {
+      "title": "2 的 100 次方到底有多大？",
+      "url": "https://www.zhihu.com/answer/132571981",
+      "summary": "正文计算 2 的 100 次方数量级，并通过纸张厚度和银河尺度解释指数增长。"
+    },
+    {
+      "title": "纯律、五度相生律和十二平均律是如何产生的？三种律制之间有何关系？",
+      "url": "https://www.zhihu.com/answer/143072163",
+      "summary": "正文以幂函数和等比关系推导七音、十二音及十二平均律。"
+    },
+    {
+      "title": "底数为负数的指数函数的图像是什么样的？",
+      "url": "https://www.zhihu.com/answer/144645015",
+      "summary": "正文把负底数实指数写成复指数并推导其参数表达。"
+    },
+    {
+      "title": "累加的连续是积分，那么累乘的连续是什么？",
+      "url": "https://www.zhihu.com/answer/170440339",
+      "summary": "正文以恒定增长率和指数幂解释连续复合增长。"
+    },
+    {
+      "title": "在哪个瞬间你觉得「我的高数没有白学」?",
+      "url": "https://www.zhihu.com/answer/220563060",
+      "summary": "正文用指数函数拟合价格并给出模型表达式。"
+    },
+    {
+      "title": "0 的任何次方都等于 0，1 的任何次方都等于 1，这有什么奇妙的联系吗？",
+      "url": "https://www.zhihu.com/answer/263923374",
+      "summary": "正文把指数解释为随时间按倍率增长，并推导分数幂和指数法则。"
+    },
+    {
+      "title": "如何巧妙地记住基本初等函数的导数公式？(๑• . •๑)？",
+      "url": "https://www.zhihu.com/answer/313285240",
+      "summary": "正文说明指数函数求导由e^x推广到a^x。"
+    },
+    {
+      "title": "有哪些看起来很简单但做起来很难的数学题？",
+      "url": "https://www.zhihu.com/answer/316567509",
+      "summary": "正文把连续开平方改写为指数幂并推导一般形式。"
+    },
+    {
+      "title": "关于x次方的x次方的x次方的x次方...到无穷？",
+      "url": "https://www.zhihu.com/answer/325614997",
+      "summary": "正文把无穷迭代幂作为指数型函数研究。"
+    },
+    {
+      "title": "葛立恒数、Tree(3)、不可达基数、大基数、阿列夫零、阿列夫1分别是什么？",
+      "url": "https://www.zhihu.com/answer/404164610",
+      "summary": "正文从幂函数、指数函数到多重指数比较增长率。"
+    },
+    {
+      "title": "哪些函数的增长速度超过指数函数？",
+      "url": "https://www.zhihu.com/answer/420671179",
+      "summary": "正文从阶乘、幂指到超指数系统比较与指数函数的增长速度。"
+    },
+    {
+      "title": "葛立恒数有多大？一共有多少个数字？大到什么程度？求专业人士解答！不是专业人士的请不要回答！？",
+      "url": "https://www.zhihu.com/answer/423021542",
+      "summary": "正文用指数塔和高阶箭头运算解释大数增长。"
+    },
+    {
+      "title": "数学大数？",
+      "url": "https://www.zhihu.com/answer/435742386",
+      "summary": "正文以指数塔和连续乘方解释大数增长。"
+    },
+    {
+      "title": "如何把高中数学指对幂讲的有意思  生动 吸引学生？",
+      "url": "https://www.zhihu.com/answer/437487300",
+      "summary": "正文说明指数运算与对数运算的关系。"
+    },
+    {
+      "title": "怎么推导或证明 e^x 的导数是自身？",
+      "url": "https://www.zhihu.com/answer/443056690",
+      "summary": "正文以指数函数建立增长率与现有总量成正比的模型。"
+    },
+    {
+      "title": "等比数列前 n 项和的推导方法和过程是什么？",
+      "url": "https://www.zhihu.com/answer/449193912",
+      "summary": "正文以指数幂表示等比数列并推导求和公式。"
+    },
+    {
+      "title": "怎么推导或证明 e^x 的导数是自身？",
+      "url": "https://www.zhihu.com/answer/456180485",
+      "summary": "正文从级数定义构造实指数函数。"
+    },
+    {
+      "title": "怎么推导或证明 e^x 的导数是自身？",
+      "url": "https://www.zhihu.com/answer/457558110",
+      "summary": "正文完整推导自然指数函数的导数等于自身。"
+    },
+    {
+      "title": "底数为负数的指数函数的图像是什么样的？",
+      "url": "https://www.zhihu.com/answer/460533575",
+      "summary": "正文解释负底数指数函数在实数取值下的离散性。"
+    },
+    {
+      "title": "如何评价小学生数学作业：数 1 亿粒米带到学校？",
+      "url": "https://www.zhihu.com/answer/487795154",
+      "summary": "正文用指数增长的等比数列构造目标数量。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/491610702",
+      "summary": "正文指出连续失败时赌本按二次幂增长。"
+    },
+    {
+      "title": "你听过哪些反智的鸡汤？",
+      "url": "https://www.zhihu.com/answer/493079044",
+      "summary": "正文用 1.01 的连续乘方解释复合增长，并指出绝对增量随基数指数式增大。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/547588113",
+      "summary": "正文用连续增长与等角螺线解释指数函数。"
+    },
+    {
+      "title": "有哪些令人拍案叫绝的算法？",
+      "url": "https://www.zhihu.com/answer/547990689",
+      "summary": "正文系统说明指数函数的展开与区间缩减计算。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/548459361",
+      "summary": "正文解释以 e 为底的指数函数在公式中的便利。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/549673994",
+      "summary": "正文把 e 应用于连续指数增长与复利。"
+    },
+    {
+      "title": "在棋盘里面放米粒的故事，放到第几个格子这些米粒会坍缩成黑洞？",
+      "url": "https://www.zhihu.com/answer/585674409",
+      "summary": "用棋盘米粒翻倍建模指数增长并估算坍缩尺度。"
+    },
+    {
+      "title": "三角函数和指数函数有关系（共同点）吗？",
+      "url": "https://www.zhihu.com/answer/589951965",
+      "summary": "正文用幂级数定义指数函数。"
+    },
+    {
+      "title": "中学数学中有哪些有趣的问题？",
+      "url": "https://www.zhihu.com/answer/620228682",
+      "summary": "正文围绕指数幂等式证明结论。"
+    },
+    {
+      "title": "常数变易法思想的来源或本质是什么？",
+      "url": "https://www.zhihu.com/answer/663336777",
+      "summary": "指数函数出现在积分因子的显式表达中。"
+    },
+    {
+      "title": "怎样用微积分求变加速运动的位移？",
+      "url": "https://www.zhihu.com/answer/667530824",
+      "summary": "求得指数函数形式的微分方程解。"
+    },
+    {
+      "title": "为什么有些函数经过二次求导后又回到了原函数？",
+      "url": "https://www.zhihu.com/answer/686997880",
+      "summary": "说明双曲正弦、余弦由正负指数函数线性组合而成。"
+    },
+    {
+      "title": "0 的 0 次方等于 1 吗？怎么证明？",
+      "url": "https://www.zhihu.com/answer/692512433",
+      "summary": "从整数、负数和分数指数解释指数运算扩张。"
+    },
+    {
+      "title": "微分方程 已知特解如何确定通解?",
+      "url": "https://www.zhihu.com/answer/696971760",
+      "summary": "利用指数形式处理特征根对应解。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/712502530",
+      "summary": "把幂化为同底指数形式比较大小。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/713130927",
+      "summary": "围绕指数大数的估算与比较。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/714155740",
+      "summary": "用幂的放缩和同底比较判断指数数值大小。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/714704937",
+      "summary": "把指数幂化成同底形式比较。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/714936203",
+      "summary": "通过指数放缩到熟悉整数幂完成比较。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/715837118",
+      "summary": "用指数近似估算两个大数的位数。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/716242534",
+      "summary": "用整数幂放缩链比较指数大数。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/716306587",
+      "summary": "分析指数比较中的近似误差。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/716360287",
+      "summary": "化为相同底数后比较指数。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/716366060",
+      "summary": "研究二元指数函数及其大小分区。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/719467058",
+      "summary": "将两边放缩成相同底数的整数幂比较。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/719614556",
+      "summary": "用指数近似估算两个大数的位数与误差。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/719803891",
+      "summary": "用商与指数拆分判断两个幂的大小。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/719828957",
+      "summary": "将指数幂作商并用整数幂放缩。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/719876414",
+      "summary": "用125与128构造指数放缩链。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/719927205",
+      "summary": "通过指数分组和商的上界比较两个大数。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/720097841",
+      "summary": "用2的幂与10的幂放缩比较指数大数。"
+    },
+    {
+      "title": "手机计算器是如何较快算出 4500! 的值的？",
+      "url": "https://www.zhihu.com/answer/720358017",
+      "summary": "用Stirling近似把大阶乘化为指数表达式。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/720495515",
+      "summary": "用2^10≈10^3的指数近似完成数量级比较。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/720719396",
+      "summary": "用整数幂验证对数比的夹逼。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/734311844",
+      "summary": "正文围绕指数函数 y=b^x 的性质、基底选择及换底进行实质说明。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/739377479",
+      "summary": "正文比较两个指数幂的大小。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/740999701",
+      "summary": "从指数函数增长速度估计两个大幂。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/741926684",
+      "summary": "正文具体比较不同基底的指数函数，并说明换底后的微积分计算关系。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/759760223",
+      "summary": "利用指数函数导数不变性质。"
+    },
+    {
+      "title": "热传导方程和薛定谔方程为什么这么像？",
+      "url": "https://www.zhihu.com/answer/791548387",
+      "summary": "热方程分离变量后得到指数衰减。"
+    },
+    {
+      "title": "对数是怎么被发明的？",
+      "url": "https://www.zhihu.com/answer/830455959",
+      "summary": "通过反查对数表取得指数函数值。"
+    },
+    {
+      "title": "双曲正弦函数怎么推其反函数?",
+      "url": "https://www.zhihu.com/answer/855469379",
+      "summary": "把双曲正弦写为指数函数并解指数方程。"
+    },
+    {
+      "title": "方程 cosx＝x 的实数解是无理数吗？",
+      "url": "https://www.zhihu.com/answer/861847883",
+      "summary": "应用 Lindemann-Weierstrass 的指数结论。"
+    },
+    {
+      "title": "求二阶常系数线性非齐次微分方程的特解的方法有哪些？",
+      "url": "https://www.zhihu.com/answer/887694929",
+      "summary": "齐次解和特解均使用自然指数函数。"
+    },
+    {
+      "title": "微分方程有多难学？",
+      "url": "https://www.zhihu.com/answer/892869089",
+      "summary": "说明常系数方程中特征根产生指数解。"
+    },
+    {
+      "title": "10000⁴ 和 4¹⁰⁰⁰⁰，怎样比较大小？",
+      "url": "https://www.zhihu.com/answer/1079472436",
+      "summary": "正文用指数幂的增长和幂运算规则比较两个大数。"
+    },
+    {
+      "title": "10000⁴ 和 4¹⁰⁰⁰⁰，怎样比较大小？",
+      "url": "https://www.zhihu.com/answer/1079559420",
+      "summary": "正文通过指数幂等价变形比较两个数。"
+    },
+    {
+      "title": "10000⁴ 和 4¹⁰⁰⁰⁰，怎样比较大小？",
+      "url": "https://www.zhihu.com/answer/1081737655",
+      "summary": "正文用指数幂法则改写并比较大数。"
+    },
+    {
+      "title": "10000⁴ 和 4¹⁰⁰⁰⁰，怎样比较大小？",
+      "url": "https://www.zhihu.com/answer/1082100821",
+      "summary": "正文实质讨论指数型数值比较。"
+    },
+    {
+      "title": "10000⁴ 和 4¹⁰⁰⁰⁰，怎样比较大小？",
+      "url": "https://www.zhihu.com/answer/1082602815",
+      "summary": "正文通过指数幂的商来比较两个大数。"
+    },
+    {
+      "title": "10000⁴ 和 4¹⁰⁰⁰⁰，怎样比较大小？",
+      "url": "https://www.zhihu.com/answer/1082858671",
+      "summary": "正文以指数幂法则展开两个大数并完成比较。"
+    },
+    {
+      "title": "10000⁴ 和 4¹⁰⁰⁰⁰，怎样比较大小？",
+      "url": "https://www.zhihu.com/answer/1083732240",
+      "summary": "正文用幂的等价变换比较指数式。"
+    },
+    {
+      "title": "为什么 lnx 求导是 1/x？",
+      "url": "https://www.zhihu.com/answer/1231498569",
+      "summary": "正文从指数函数运算法则和导数定义引出自然底数 e。"
+    },
+    {
+      "title": "为什么 lnx 求导是 1/x？",
+      "url": "https://www.zhihu.com/answer/1304588421",
+      "summary": "正文讲解自然指数 e 的定义与性质。"
+    },
+    {
+      "title": "如果只知道一个函数的导数还是它本身，而不知道e的存在，能不能推出e该函数是e的x幂，并得到e是多少？",
+      "url": "https://www.zhihu.com/answer/1308071621",
+      "summary": "正文直接讲解“指数函数”相关内容。"
+    },
+    {
+      "title": "如何证明函数 f(x)＝e^x/x 不定积分的结果不能用初等函数表示？",
+      "url": "https://www.zhihu.com/answer/1423591164",
+      "summary": "正文用刘维尔定理证明指数除法的积分不能用初等函数表示。"
+    },
+    {
+      "title": "请问连续复利公式的推导过程是什么？",
+      "url": "https://www.zhihu.com/answer/1490799676",
+      "summary": "正文直接给出与「指数函数」相关的解释、推导或应用。"
+    },
+    {
+      "title": "2的π次方是啥东西？",
+      "url": "https://www.zhihu.com/answer/1630216343",
+      "summary": "正文从整数、有理数推广到无理数指数。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/1662239424",
+      "summary": "正文用指数函数单调性比较两个幂的大小。"
+    },
+    {
+      "title": "5⁴³²¹ 与 4⁵³²¹ 哪个更大？",
+      "url": "https://www.zhihu.com/answer/1665785304",
+      "summary": "正文通过指数函数和幂运算比较两个数的大小。"
+    },
+    {
+      "title": "数学中的自然常数 e 是怎么来的？",
+      "url": "https://www.zhihu.com/answer/1680715180",
+      "summary": "正文把复利极限解释为指数增长的上限。"
+    },
+    {
+      "title": "为什么 lnx 求导是 1/x？",
+      "url": "https://www.zhihu.com/answer/1685181210",
+      "summary": "正文用指数函数极限定义 e 并说明临界关系。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1723526288",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1723980947",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1724025732",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1724081274",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1724098360",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1724443007",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1724611043",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1724720282",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1724853361",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1724855345",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1765668677",
+      "summary": "正文通过指数幂相除比较两个大数。"
+    },
+    {
+      "title": "为什么在计算器上按一个大于一的数，然后一直开方，最后的结果都是1？",
+      "url": "https://www.zhihu.com/answer/1774698213",
+      "summary": "正文用指数形式解释连续开方趋于 1。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1777511735",
+      "summary": "正文用指数幂和自然常数 e 比较两个大数。"
+    },
+    {
+      "title": "2 的 1/3 次方是多少？",
+      "url": "https://www.zhihu.com/answer/1791831152",
+      "summary": "正文从根式与幂的运算解释分数指数和指数函数基础。"
+    },
+    {
+      "title": "有没有高中常考的函数图像汇总？？",
+      "url": "https://www.zhihu.com/answer/1805018320",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "双曲函数有辅助角公式吗，有没有大佬知道这个式子是怎么推出来的？",
+      "url": "https://www.zhihu.com/answer/1810504483",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "是否对于函数y=e^x上任意三点构成的三角形都是钝角三角形？若正确，请予以证明；若错误，请说明理由？",
+      "url": "https://www.zhihu.com/answer/1825540089",
+      "summary": "正文利用指数函数二阶导数恒正证明曲线凸性并排除三点共线，实质使用指数函数性质。"
+    },
+    {
+      "title": "很多老师都用1.01的365次方和0.99的365次方论证要坚持每天进步，可这个模型跟实际相符吗?",
+      "url": "https://www.zhihu.com/answer/1829374190",
+      "summary": "正文用相加模型与指数增长模型对比，指出每日进步公式的模型假设。"
+    },
+    {
+      "title": "请问能否不使用微积分的知识证明伯努利不等式？",
+      "url": "https://www.zhihu.com/answer/1874108827",
+      "summary": "正文讨论实数次幂本身的定义及对连续性和序列极限的使用。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1908574020",
+      "summary": "正文比较指数增长的同底幂并化简比值。"
+    },
+    {
+      "title": "x^x^x的导数是什么？",
+      "url": "https://www.zhihu.com/answer/1956284394",
+      "summary": "正文把幂指函数改写为以 e 为底的指数函数求导。"
+    },
+    {
+      "title": "是否对于函数y=e^x上任意三点构成的三角形都是钝角三角形？若正确，请予以证明；若错误，请说明理由？",
+      "url": "https://www.zhihu.com/answer/1962964950",
+      "summary": "正文研究指数函数图像上三点的几何性质。"
+    },
+    {
+      "title": "a^x次方如何求导，网上的解说我看的自己好像没学过数学似的？",
+      "url": "https://www.zhihu.com/answer/1968492731",
+      "summary": "正文专门推导一般指数函数 a^x 的导数。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/2005180518",
+      "summary": "正文讨论指数 e^π 并与整数比较。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/2005266778",
+      "summary": "正文用有理指数幂的整数幂比较证明 e^π>23。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/2005638531",
+      "summary": "正文用指数拆分和 e 的近似值证明 e^π>23。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/2005780853",
+      "summary": "正文讨论指数函数在具体不等式中的应用。"
+    },
+    {
+      "title": "如果 f(f(x))＝e^x，那么 f(x) 的解析式是什么？",
+      "url": "https://www.zhihu.com/answer/2013779981",
+      "summary": "正文以指数函数作为复合函数方程的目标。"
+    },
+    {
+      "title": "很多老师都用1.01的365次方和0.99的365次方论证要坚持每天进步，可这个模型跟实际相符吗?",
+      "url": "https://www.zhihu.com/answer/2016904461",
+      "summary": "正文用连续复利式的指数增长反讽每日进步模型。"
+    },
+    {
+      "title": "方程 2^x＝x^2 应该怎么解？",
+      "url": "https://www.zhihu.com/answer/2017826158",
+      "summary": "正文将方程改写为指数形式并讨论解。"
+    },
+    {
+      "title": "y＝x^x 的函数图像长什么样？",
+      "url": "https://www.zhihu.com/answer/2019499405",
+      "summary": "正文指出迭代函数临界点由自然底数 e 构成。"
+    },
+    {
+      "title": "厄米算符A和酉算符S存在一一对应关系S=exp(iA)，这个关系意味着什么？",
+      "url": "https://www.zhihu.com/answer/2021876735",
+      "summary": "正文用指数映射联系厄米算符与酉算符。"
+    },
+    {
+      "title": "只有 e^x 求导等于它本身吗？",
+      "url": "https://www.zhihu.com/answer/2027623768",
+      "summary": "正文得到指数函数族是方程的解。"
+    },
+    {
+      "title": "只有 e^x 求导等于它本身吗？",
+      "url": "https://www.zhihu.com/answer/2027770440",
+      "summary": "正文最终识别出指数函数及其常数倍。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/2034303228",
+      "summary": "正文使用指数函数不等式比较两边。"
+    },
+    {
+      "title": "请问为什么 sin（A+B）=sinAcosB+cosAsinB，有没有详细推导呢？",
+      "url": "https://www.zhihu.com/answer/2082817605",
+      "summary": "正文用复指数级数定义证明三角恒等式。"
+    },
+    {
+      "title": "请问为什么 sin（A+B）=sinAcosB+cosAsinB，有没有详细推导呢？",
+      "url": "https://www.zhihu.com/answer/2084715865",
+      "summary": "正文证明光滑函数方程组的解包含指数函数因子。"
+    },
+    {
+      "title": "怎么推导或证明 e^x 的导数是自身？",
+      "url": "https://www.zhihu.com/answer/2214750718",
+      "summary": "正文讨论自然指数函数及其在求导下的不变性质。"
+    },
+    {
+      "title": "5 的 9999 次方和 4 的 10001 次方谁大?",
+      "url": "https://www.zhihu.com/answer/2217526274",
+      "summary": "正文通过拆分指数和比较 5 的幂与 4 的幂估计数量级。"
+    },
+    {
+      "title": "泰勒展开的公式怎么记忆？",
+      "url": "https://www.zhihu.com/answer/2218432736",
+      "summary": "正文由 e^x 的展开式推出一般指数函数 a^x 的展开。"
+    },
+    {
+      "title": "5 的 9999 次方和 4 的 10001 次方谁大?",
+      "url": "https://www.zhihu.com/answer/2222154388",
+      "summary": "正文利用指数函数比值单调性比较两个巨大幂。"
+    },
+    {
+      "title": "如果我有一块《我的世界》中的钻石块，那它将值多少钱？",
+      "url": "https://www.zhihu.com/answer/2242235269",
+      "summary": "正文用指数函数拟合钻石重量与价格的数值关系。"
+    },
+    {
+      "title": "目前数学的符号体系有多混乱？",
+      "url": "https://www.zhihu.com/answer/2256559357",
+      "summary": "正文比较复指数表达式中虚数单位与整数的记号歧义。"
+    },
+    {
+      "title": "√8-√2=√2，这是怎么得出来的？",
+      "url": "https://www.zhihu.com/answer/2269542061",
+      "summary": "正文证明连续乘法函数的一个解为幂函数，并使用指数与对数变换。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/2293584839",
+      "summary": "正文围绕以 e 为底的指数方程展开。"
+    },
+    {
+      "title": "数学天才欧拉创作出万能的上帝公式，曾一度被怀疑是穿越者，对此你怎么看？",
+      "url": "https://www.zhihu.com/answer/2294687256",
+      "summary": "正文用指数函数泰勒展开推导复指数公式。"
+    },
+    {
+      "title": "有没有一个函数求导后幂会变高？",
+      "url": "https://www.zhihu.com/answer/2303333012",
+      "summary": "正文指出指数函数 e^x 的导数等于自身，是升降幂的分界。"
+    },
+    {
+      "title": "做极限题需要用泰勒公式展开时，一些函数展开式背不掉怎么办？有没有什么好方法？",
+      "url": "https://www.zhihu.com/answer/2316573026",
+      "summary": "正文由指数函数代换推导一般指数函数的展开。"
+    },
+    {
+      "title": "数学历史上，基本基本初等函数的导数是如何推导出来的？",
+      "url": "https://www.zhihu.com/answer/2346403351",
+      "summary": "正文通过定义式、提取公因式和等价无穷小完整推导指数函数的导数。"
+    },
+    {
+      "title": "有哪些哄骗了我们学生时代的鸡汤故事？",
+      "url": "https://www.zhihu.com/answer/2369052975",
+      "summary": "正文指出荷花定律实质是预设指数增长，并讨论不同增长函数会得到不同结论。"
+    },
+    {
+      "title": "怎么记基本初等函数的图像、定义域和值域？",
+      "url": "https://www.zhihu.com/answer/2373786813",
+      "summary": "正文给出指数函数定义、图像、定义域、值域和单调性。"
+    },
+    {
+      "title": "解微分方程为什么会出现个 e？",
+      "url": "https://www.zhihu.com/answer/2385143511",
+      "summary": "正文解释指数函数 e^x 的导数性质。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/2432699467",
+      "summary": "正文从指数函数定义出发解释 e^x 的级数表示与指数律。"
+    },
+    {
+      "title": "马克思的一生中有没有发生过一些特别有趣的事？",
+      "url": "https://www.zhihu.com/answer/2448716867",
+      "summary": "正文的主题是证明一般指数函数 a^x 的导函数。"
+    },
+    {
+      "title": "有没有一套统一的办法处理非初等的原函数和微分方程的通解？",
+      "url": "https://www.zhihu.com/answer/2464407395",
+      "summary": "正文以指数函数作为微分算子的基本例子。"
+    },
+    {
+      "title": "2022 高考数学题难度如何？哪道题印象深刻？",
+      "url": "https://www.zhihu.com/answer/2519067160",
+      "summary": "以指数函数构造的曲线为起点，利用其与直线交点建立坐标关系。"
+    },
+    {
+      "title": "如何求xˣ的导数?",
+      "url": "https://www.zhihu.com/answer/2524039396",
+      "summary": "把幂指函数改写成以 e 为底的指数形式再求导。"
+    },
+    {
+      "title": "如何求xˣ的导数?",
+      "url": "https://www.zhihu.com/answer/2524536296",
+      "summary": "把幂指函数改写为以 e 为底的指数函数后求导。"
+    },
+    {
+      "title": "如何看待知乎上的“赢学“？",
+      "url": "https://www.zhihu.com/answer/2567410702",
+      "summary": "写出恒定增长率下的指数增长递推关系和逻辑斯蒂增长函数模型。"
+    },
+    {
+      "title": "e^x 与 lnx 的最短距离是多少？",
+      "url": "https://www.zhihu.com/answer/2581393043",
+      "summary": "用指数函数图像上的点构造不等式并估计两点距离下界。"
+    },
+    {
+      "title": "欧拉公式是怎么发现的？证明感觉拿泰勒展开有一种钦定的意思，但不知道当初是怎么发现的?",
+      "url": "https://www.zhihu.com/answer/2586297166",
+      "summary": "讨论指数函数 e^x 的极限定义式及其从非负实数到复数域的延拓。"
+    },
+    {
+      "title": "e^x 与 lnx 的最短距离是多少？",
+      "url": "https://www.zhihu.com/answer/2586881525",
+      "summary": "以指数函数与对数函数互为反函数、关于 y=x 对称为基础推导两条曲线的最短距离。"
+    },
+    {
+      "title": "在高中数学当中指数对数比较大小有什么技巧或者是秒杀方法吗？",
+      "url": "https://www.zhihu.com/answer/2621398330",
+      "summary": "给出指数函数的泰勒展开并用于估算 e^0.1。"
+    },
+    {
+      "title": "什么是切线放缩？",
+      "url": "https://www.zhihu.com/answer/2684086059",
+      "summary": "正文展开指数函数与一次、反比例及高次幂函数之间的放缩不等式。"
+    },
+    {
+      "title": "如何理解量子物理或统计物理中几乎无处不在的 exp(-E/kT) ？",
+      "url": "https://www.zhihu.com/answer/2709634032",
+      "summary": "从指数函数的平移性质解释能量零点可任取而概率比保持不变。"
+    },
+    {
+      "title": "十万现代军人VS葛立恒数古代军人，谁会赢？",
+      "url": "https://www.zhihu.com/answer/2728031145",
+      "summary": "正文给出每秒感染者变为原先三倍的规则，并用逐秒数值表具体展示这种指数增长。"
+    },
+    {
+      "title": "一块砖头每秒复制一次（2、4、8…），多久能占满整个银河系，继而整个宇宙？",
+      "url": "https://www.zhihu.com/answer/2733616977",
+      "summary": "正文用重复翻倍和减半说明数值随轮次呈指数增长，并给出 33 秒达到八十多亿的估算。"
+    },
+    {
+      "title": "从 1 开始每秒倍增一次，需要多久能追得上葛立恒数？",
+      "url": "https://www.zhihu.com/answer/2762340992",
+      "summary": "正文从 2 的幂讲起，说明指数函数在日常尺度下增长很快，再把它作为比较基准。"
+    },
+    {
+      "title": "小数的小数次方可以是整数吗？",
+      "url": "https://www.zhihu.com/answer/2765120927",
+      "summary": "正文以 f(x)=1.5^x 为例，利用其递增性及端点值说明指数函数可以取到整数 2。"
+    },
+    {
+      "title": "一块砖头每秒复制一次（2、4、8…），多久能占满整个银河系，继而整个宇宙？",
+      "url": "https://www.zhihu.com/answer/2776967995",
+      "summary": "正文以棋盘格逐格加倍并计算总重量为例，直观展示指数增长为何迅速变得巨大，对应指数函数。"
+    },
+    {
+      "title": "可以留下一个优美的不等式吗？",
+      "url": "https://www.zhihu.com/answer/2807672768",
+      "summary": "正文把指数函数与一次函数、切线及上界联系起来并用于放缩。"
+    },
+    {
+      "title": "如何证明sin²θ+cos²θ＝1？",
+      "url": "https://www.zhihu.com/answer/2814177886",
+      "summary": "正文用幂级数定义复指数函数，并证明指数函数的乘法性质。"
+    },
+    {
+      "title": "y＝ln（x+1）/2（e^x-1）？",
+      "url": "https://www.zhihu.com/answer/2855478643",
+      "summary": "正文用 e^x 的爆炸性增长说明任意斜率直线最终都无法与它接近。"
+    },
+    {
+      "title": "有没有几本微积分入门的书推荐，类似科普的比如《什么是数学》？",
+      "url": "https://www.zhihu.com/answer/2913762508",
+      "summary": "正文从指数函数的差商极限推出其导数与自身成比例，并由自然底的极限定义说明 e 的求导性质。"
+    },
+    {
+      "title": "sin（x）求四次导数还是原函数，和e^（x）的性质相似，这和欧拉公式有关系吗？",
+      "url": "https://www.zhihu.com/answer/2963331781",
+      "summary": "正文利用指数函数的运算法则建立复指数与三角函数之间的联系，并由此简化公式推导。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/2963830467",
+      "summary": "正文以棋盘每格米粒数逐格翻倍并计算 2 的幂，直观展示指数增长的迅速膨胀。"
+    },
+    {
+      "title": "高中数学有什么好的学习方法？",
+      "url": "https://www.zhihu.com/answer/3015364414",
+      "summary": "正文具体分析底数大于1的指数型函数的单调性及其对导数符号的影响。"
+    },
+    {
+      "title": "只有 e^x 求导等于它本身吗？",
+      "url": "https://www.zhihu.com/answer/3131932919",
+      "summary": "正文由速度的递推迭代得到含指数 x 的闭式函数，展示导数等于自身的函数呈指数形式。"
+    },
+    {
+      "title": "高中数学数列裂项相消的常见公式有哪些？",
+      "url": "https://www.zhihu.com/answer/3264028587",
+      "summary": "正文系统列出含指数项的裂项与放缩模型，直接使用 q^n 的指数结构。"
+    },
+    {
+      "title": "如何证明这个相当紧的不等式？",
+      "url": "https://www.zhihu.com/answer/3383121040",
+      "summary": "正文对指数函数 e^x 作展开和上下界估计，用来控制不等式中的指数项。"
+    },
+    {
+      "title": "为什么提到指数函数，就感觉有一个类似于「拐点」的地方，从那开始曲线开始爆炸增长？",
+      "url": "https://www.zhihu.com/answer/3392326444",
+      "summary": "正文具体讨论指数函数及其参数变化、增长陡峭程度和图像形态，属于指数函数的性质与应用。"
+    },
+    {
+      "title": "为何国际数学界没有「糖水不等式」？",
+      "url": "https://www.zhihu.com/answer/3507553289",
+      "summary": "正文用同底数幂相除解释池塘覆盖量的倍增过程，并说明指数函数为何使最终增长显得反直觉。"
+    },
+    {
+      "title": "有没有一个函数求导后幂会变高？",
+      "url": "https://www.zhihu.com/answer/3521971075",
+      "summary": "正文的解是指数函数形式，并说明取 n=1 时该指数函数每求导一次会使幂次提高。"
+    },
+    {
+      "title": "已知f(x+y)=f(x)g(y)+g(x)f(y)……能推出f(x),g(x)是三角函数吗？",
+      "url": "https://www.zhihu.com/answer/3587607793",
+      "summary": "正文用带指数因子的正弦、余弦函数构造反例，说明指数函数可能作为函数方程解的一部分出现。"
+    },
+    {
+      "title": "已知f(x+y)=f(x)g(y)+g(x)f(y)……能推出f(x),g(x)是三角函数吗？",
+      "url": "https://www.zhihu.com/answer/3589259422",
+      "summary": "正文由 h(0)=1 和导数恒等式推出 h(x)=e^{C_1x}，并将其作为通解中的指数因子。"
+    },
+    {
+      "title": "什么函数增长最快？是阶乘吗？",
+      "url": "https://www.zhihu.com/answer/3622869674",
+      "summary": "正文用增长阶排名比较阶乘、指数函数及更高阶增长率，并把指数增长列为阶乘之前的明确层级。"
+    },
+    {
+      "title": "为什么这么多人觉得灭霸是对的?",
+      "url": "https://www.zhihu.com/answer/21301394218",
+      "summary": "正文用棋盘逐格翻倍到第 64 格，具体展示倍增序列的指数增长，并据此说明减半后仍会迅速恢复。"
+    },
+    {
+      "title": "欧拉公式是定义的还是推导出来的？",
+      "url": "https://www.zhihu.com/answer/46502637363",
+      "summary": "正文把实指数函数的极限定义延拓为复指数函数，并由模长和辐角推导其与三角函数的联系。"
+    },
+    {
+      "title": "求问「1^100、2^99、3^98……99^2、100^1」这一百个数中，谁最大？",
+      "url": "https://www.zhihu.com/answer/98575428419",
+      "summary": "正文把离散幂 x 的 101 减 x 次方转化为连续指数函数研究。"
+    },
+    {
+      "title": "怎么向小学生解释欧拉公式 e^(πi)+1=0？",
+      "url": "https://www.zhihu.com/answer/113533732802",
+      "summary": "正文定义并延拓 e^x 的极限形式，讨论从非负实数到实数域再到复数域上的指数函数。"
+    },
+    {
+      "title": "为什么银行存款、河流长度等集合的首位数字更容易出现 1 而不是 9？",
+      "url": "https://www.zhihu.com/answer/122187523268",
+      "summary": "正文用本金按比例增长、不同数量级所需增长百分比不同，解释存款余额在各首位数字区间停留时间的差异。"
+    },
+    {
+      "title": "为什么银行存款、河流长度等集合的首位数字更容易出现 1 而不是 9？",
+      "url": "https://www.zhihu.com/answer/125245933812",
+      "summary": "正文用每年按固定比例增加的指数增长过程，解释首位数字停留在不同区间的时间差异。"
+    },
+    {
+      "title": "为什么银行存款、河流长度等集合的首位数字更容易出现 1 而不是 9？",
+      "url": "https://www.zhihu.com/answer/126229356702",
+      "summary": "正文用按固定比例增长的自然数据解释指数增长为何使首位数字在小数字区间停留更久。"
+    },
+    {
+      "title": "为什么f(x)=xˣ函数图像没有<0的部分？",
+      "url": "https://www.zhihu.com/answer/130299685276",
+      "summary": "正文把复幂改写为指数形式，借指数函数阐明不同分支下的函数值。"
+    },
+    {
+      "title": "有哪些算法一开始像在瞎搞，实际上却蕴含着更深层的逻辑？",
+      "url": "https://www.zhihu.com/answer/1891280618052092785",
+      "summary": "正文围绕指数函数 exp 的近似实现，分析输入范围、迭代形式及误差取舍。"
+    },
+    {
+      "title": "大学数学中有哪些容易忽视的伪证？",
+      "url": "https://www.zhihu.com/answer/1901976139146180155",
+      "summary": "正文以幂级数定义复指数函数，并讨论其绝对收敛、加法性质和连续性。"
+    },
+    {
+      "title": "信号与系统去掉数学还有什么内容？",
+      "url": "https://www.zhihu.com/answer/1902519868605039874",
+      "summary": "解释指数函数作为微分算子特征函数为何能简化微分方程的求解。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/1917079079007528358",
+      "summary": "正文用增长、衰减和复利模型说明指数函数中底数 e 的作用。"
+    },
+    {
+      "title": "为什么现在数学系普遍不学椭圆函数、超几何函数等特殊函数？",
+      "url": "https://www.zhihu.com/answer/1919127690650322796",
+      "summary": "正文从指数函数出发陈述 Hermite-Lindemann-Weierstrass 定理及其函数版本，并以此说明指数函数与超越性之间的联系。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/1922311194619933210",
+      "summary": "正文比较底数大于 1 和小于 1 时指数函数随 x 增大的不同走势，说明指数增长及其敏感性。"
+    },
+    {
+      "title": "如果 f(f(x))＝e^x，那么 f(x) 的解析式是什么？",
+      "url": "https://www.zhihu.com/answer/1924384208786269343",
+      "summary": "正文用超对数描述指数函数反复迭代所需的次数，并据此定义指数迭代的超指数表示。"
+    },
+    {
+      "title": "如何解函数方程f(f(x))=ln(x)??",
+      "url": "https://www.zhihu.com/answer/1924442720971231452",
+      "summary": "正文利用指数操作在 Abel 变换后对应加一的规则，建立迭代可加化的框架。"
+    },
+    {
+      "title": "y=eˣ 能否写成两个实周期函数之和?",
+      "url": "https://www.zhihu.com/answer/1926431957639730083",
+      "summary": "正文围绕 e^x 的周期性和差分运算展开，证明这一指数函数不能分解为两个实周期函数。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/1930196264110236098",
+      "summary": "正文利用复指数函数的周期性去掉底数，将原方程转化为含整数参数的方程。"
+    },
+    {
+      "title": "基本初等函数的具体定义是什么？",
+      "url": "https://www.zhihu.com/answer/1936843550571594989",
+      "summary": "正文把指数函数作为对数函数的反函数和与对数扩张对称的指数扩张引入初等函数。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/1949056205461885693",
+      "summary": "正文利用指数式与对数式的互化处理方程中的 e^x，并将其转化为 x 与 ln x 的关系。"
+    },
+    {
+      "title": "为什么说这是个最完美的数学公式？",
+      "url": "https://www.zhihu.com/answer/1953562879484732096",
+      "summary": "正文把复指数函数解释为将实数映射到复平面单位圆上的函数。"
+    },
+    {
+      "title": "除了f(x)=e^x以外，还有没有其他的函数导数是本身的？",
+      "url": "https://www.zhihu.com/answer/1960410987342571430",
+      "summary": "正文进一步介绍自然指数函数的单调性、极限、连续性和指数运算性质。"
+    },
+    {
+      "title": "你见过最优雅的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/1964502212957963762",
+      "summary": "正文以自然指数函数的自导数性质为基础，解释复指数运动并推导欧拉公式。"
+    },
+    {
+      "title": "对数是怎么被发明的？",
+      "url": "https://www.zhihu.com/answer/1974561517283340650",
+      "summary": "正文从整数幂出发，说明指数运算如何扩展到实数与复数，并以其反函数定义对数。"
+    },
+    {
+      "title": "为什么基本初等函数只有六种?",
+      "url": "https://www.zhihu.com/answer/1979149656563947052",
+      "summary": "正文把指数扩张与导函数乘以自身的结构联系起来，说明指数函数在对数扩张中的对偶作用。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1987231820144734598",
+      "summary": "正文将生存率建模为以压力平方为指数的衰减函数，并比较其与线性指数衰减的差异。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1987463731882513310",
+      "summary": "正文用指数衰减模型描述电子产品价格随时间下降，并给出对应公式。"
+    },
+    {
+      "title": "求3^sinx+3^cosx的取值范围？",
+      "url": "https://www.zhihu.com/answer/2007567252770277248",
+      "summary": "正文研究两个以三角函数为指数的指数函数之和，并讨论参数对取值范围的影响。"
+    },
+    {
+      "title": "孩子问：为什么不给y=log_x a起个名称把它作为基本初等函数但却把y=tan x作为基本初等函数？",
+      "url": "https://www.zhihu.com/answer/2010019356071978643",
+      "summary": "正文把指数函数作为对数扩张的对偶反函数，并解释指数扩张在微分域封闭性中的作用。"
+    },
+    {
+      "title": "怎么看待「学数学没啥用，买菜难道还用得上微积分」的理论？",
+      "url": "https://www.zhihu.com/answer/2024783465040627451",
+      "summary": "正文通过复利计算展示指数增长远快于线性外推，并据此识别不合理的长期收益率。"
+    },
+    {
+      "title": "为什么虚数ⅰ³=-ⅰ，而(ⅰ⁴)的3/4次幂=1？哪里出问题了？",
+      "url": "https://www.zhihu.com/answer/2026132292762871286",
+      "summary": "正文把复数指数运算化为模与辐角的运算，并据此讨论开方后的主值分支。"
+    },
+    {
+      "title": "有哪些看起来很难但做起来很简单的数学题？",
+      "url": "https://www.zhihu.com/answer/2026676621759849579",
+      "summary": "正文利用指数函数的单调性得到左端至少为 e、右端不超过 1，从而证明不等式。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/2028952616571248821",
+      "summary": "正文比较不同底数的指数函数及其导数系数，说明以 e 为底时指数函数具有特殊的自指性质。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/2029205655584548716",
+      "summary": "正文以任意正底数的指数函数为对象，比较不同底数求导后的常数因子。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/2029272145620942878",
+      "summary": "正文把连续增长或衰减写成 dy/dt=k y，并指出其解为 Ce^{kt}，具体讨论指数函数。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/2029287763460007201",
+      "summary": "正文指出导数等于自身的函数都可写成 e 的 x 次方，并解释不同底数的系数差异。"
+    },
+    {
+      "title": "目前数学的符号体系有多混乱？",
+      "url": "https://www.zhihu.com/answer/2033866720083960195",
+      "summary": "正文用连续翻倍的纸张厚度说明指数增长远超直觉，并继续解释 2⁴² 的计算意义。"
+    },
+    {
+      "title": "很多老师都用1.01的365次方和0.99的365次方论证要坚持每天进步，可这个模型跟实际相符吗?",
+      "url": "https://www.zhihu.com/answer/2034587193893728467",
+      "summary": "正文用 1.01 的 n 次方在数百次后迅速放大，具体批评指数增长模型的现实可行性。"
+    },
+    {
+      "title": "该如何通俗易懂的向小孩子解释自然对数的底 e 的意义？",
+      "url": "https://www.zhihu.com/answer/2041841069361475794",
+      "summary": "正文以自相似曲线和任意阶导数保持自身来说明指数函数 e 的 x 次方的特征。"
+    },
+    {
+      "title": "如何评价 2026 高考数学试卷？今年题目难度如何？有哪些变化？",
+      "url": "https://www.zhihu.com/answer/2047010295722332937",
+      "summary": "正文利用 2^x 在不同区间的取值和指数函数的单调性比较函数值，实质使用指数函数。"
+    },
+    {
+      "title": "很多老师都用1.01的365次方和0.99的365次方论证要坚持每天进步，可这个模型跟实际相符吗?",
+      "url": "https://www.zhihu.com/answer/2056768098947032810",
+      "summary": "正文由正比增长假设推导指数函数与离散复利式，并讨论指数模型只在短期局部近似中成立。"
+    },
+    {
+      "title": "为什么基本初等函数只有六种?",
+      "url": "https://www.zhihu.com/answer/2061029713129346713",
+      "summary": "正文用自身增长率与大小成正比解释指数函数的典型意义，并以细胞分裂、复利和衰变举例。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062583805983166925",
+      "summary": "正文用复指数函数的导数非零但具有周期性，说明局部可逆不等于全局可逆。"
+    },
+    {
+      "title": "乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2074105195517236186",
+      "summary": "正文把指数从重复乘法推广为连续乘性过程，并以 e 和 e 的 π 次方说明指数函数。"
+    },
+    {
+      "title": "可能是最好的讲解双曲函数的文章",
+      "url": "https://zhuanlan.zhihu.com/p/20042215",
+      "summary": "正文以自然指数函数定义 cosh、sinh 和 tanh，并讨论其性质。"
+    },
+    {
+      "title": "【概念深度挖掘】——2.2 基本初等函数之指数函数和对数函数",
+      "url": "https://zhuanlan.zhihu.com/p/20885564",
+      "summary": "正文先复习指数幂运算法则，再给出指数函数的定义、定义域、值域、单调性和图像特征。"
+    },
+    {
+      "title": "自然常数的奥秘",
+      "url": "https://zhuanlan.zhihu.com/p/24319229",
+      "summary": "正文把不同增长率的连续复利写成 e^x，并由幂运算说明指数增长的规律。"
+    },
+    {
+      "title": "小时候的猜想与实践——通过尺子琢磨出 e（2.718...）",
+      "url": "https://zhuanlan.zhihu.com/p/24427943",
+      "summary": "正文用指数运算律把乘法换算成指数相加，并进一步讨论指数函数 e^x 的导数性质。"
+    },
+    {
+      "title": "复变函数与积分变换 简明笔记(三)：解析函数与柯西黎曼条件",
+      "url": "https://zhuanlan.zhihu.com/p/25057029",
+      "summary": "正文定义复指数函数并说明其模、周期、零点和导函数性质。"
+    },
+    {
+      "title": "高考数学压轴题·【函数与不等式】篇（2）",
+      "url": "https://zhuanlan.zhihu.com/p/25124739",
+      "summary": "正文以含参数指数不等式为例，说明取对数后研究指数函数相关参数范围的思路。"
+    },
+    {
+      "title": "由根号2的根号2的根号2...次方次方引发的讨论",
+      "url": "https://zhuanlan.zhihu.com/p/25150820",
+      "summary": "正文通过指数函数 C^x 与直线 y=x 的交点和相切关系判断幂塔的收敛性。"
+    },
+    {
+      "title": "画出图像之后……会出现什么呢喵？——秋田大学1986年高考题",
+      "url": "https://zhuanlan.zhihu.com/p/29252397",
+      "summary": "正文把指数函数作为分段绘图的一部分，要求根据解析式作出对应曲线。"
+    },
+    {
+      "title": "高中数学之函数图像（1）",
+      "url": "https://zhuanlan.zhihu.com/p/29623745",
+      "summary": "正文具体推演指数函数图像经过绝对值、平移和横向伸缩后的变化。"
+    },
+    {
+      "title": "双曲函数",
+      "url": "https://zhuanlan.zhihu.com/p/30018149",
+      "summary": "正文用 e^x 与 e^{-x} 的线性组合定义双曲函数，并据此推导其代数性质。"
+    },
+    {
+      "title": "Logit模型和Logistic模型有什么区别？",
+      "url": "https://zhuanlan.zhihu.com/p/30659982",
+      "summary": "正文对 Logit 方程两边做指数运算，并据此把方程化为 Logistic 函数形式。"
+    },
+    {
+      "title": "常见函数单调性及函数单调性的定理",
+      "url": "https://zhuanlan.zhihu.com/p/34828330",
+      "summary": "正文说明底数大于 1 或介于 0 与 1 之间时指数函数的增减性。"
+    },
+    {
+      "title": "导数常见不等式与证明",
+      "url": "https://zhuanlan.zhihu.com/p/37067259",
+      "summary": "正文系统列出一系列以 e^x 为核心的指数不等式，并通过函数代换生成更多不等式。"
+    },
+    {
+      "title": "自然常数“e”，工程中的自然数“1”",
+      "url": "https://zhuanlan.zhihu.com/p/40317763",
+      "summary": "正文用指数函数描述连续增长状态，并指出 e^t 的导数等于当前状态这一内禀性质。"
+    },
+    {
+      "title": "有关e^x和lnx的常用不等式集锦",
+      "url": "https://zhuanlan.zhihu.com/p/43009114",
+      "summary": "正文系统列出并证明指数函数 e^x 的常用不等式。"
+    },
+    {
+      "title": "自然底数e怎么就“自然”了？",
+      "url": "https://zhuanlan.zhihu.com/p/48391055",
+      "summary": "正文建立随时间连续增长的指数模型，并将等角螺线的极坐标表达解释为以 e 为底的指数函数。"
+    },
+    {
+      "title": "\"上帝公式\"(欧拉公式)真的神到无法触碰？",
+      "url": "https://zhuanlan.zhihu.com/p/48392958",
+      "summary": "正文把实指数的幂写成连续增长模型，解释增长率、时间和最终数量之间的指数函数关系。"
+    },
+    {
+      "title": "为什么说\"对数\"可以延长天文学家寿命？",
+      "url": "https://zhuanlan.zhihu.com/p/48393525",
+      "summary": "正文用连续复利解释 e^x 的输入时间、输出数量关系，并讨论不同增长率下的指数增长。"
+    },
+    {
+      "title": "为什么e^x 的导数是还是其自身？",
+      "url": "https://zhuanlan.zhihu.com/p/48678377",
+      "summary": "具体求导指数函数 a^x，并说明底数取 e 后导数仍为自身。"
+    },
+    {
+      "title": "【导数压轴题】探究一道多解的不等式证明题",
+      "url": "https://zhuanlan.zhihu.com/p/50005630",
+      "summary": "正文利用指数函数在切点附近的放缩关系，处理原不等式中的指数项。"
+    },
+    {
+      "title": "函数定义域问题大总结",
+      "url": "https://zhuanlan.zhihu.com/p/50095890",
+      "summary": "正文列出指数函数的定义域，并说明指数式中底数在负指数、零指数及变指数情形下的限制。"
+    },
+    {
+      "title": "呆哥数学基本初等函数 ——  基础知识  【5】",
+      "url": "https://zhuanlan.zhihu.com/p/54757352",
+      "summary": "正文定义指数函数，并讲解其定义域、值域、定点、单调性、底数影响和指数运算。"
+    },
+    {
+      "title": "高数上：第一章 函数与极限 第一节 函数",
+      "url": "https://zhuanlan.zhihu.com/p/56105691",
+      "summary": "正文给出指数函数的解析式、底数限制，并解释为何底数不能为零、负数或一。"
+    },
+    {
+      "title": "三角函数的严格定义",
+      "url": "https://zhuanlan.zhihu.com/p/58814328",
+      "summary": "正文以幂级数定义复指数函数，并利用其加法性质来表达三角函数。"
+    },
+    {
+      "title": "世界的本质关联：从0到1、从量变到质变、幂次法则、还有信息论",
+      "url": "https://zhuanlan.zhihu.com/p/62819317",
+      "summary": "正文用底数固定、指数变化的形式解释指数函数，并比较指数增长与幂次增长。"
+    },
+    {
+      "title": "关于e的思考",
+      "url": "https://zhuanlan.zhihu.com/p/64359661",
+      "summary": "正文从增量比推导一般指数函数的导数，并特取底数 e 得到其导数的特殊性质。"
+    },
+    {
+      "title": "使用科学计算器计算复数与相量（提高篇）",
+      "url": "https://zhuanlan.zhihu.com/p/69167650",
+      "summary": "正文给出复指数函数的分解公式，并用实部、虚部及相量形式说明其计算。"
+    },
+    {
+      "title": "身边的微分方程 (1)：自然常数e的身世之谜",
+      "url": "https://zhuanlan.zhihu.com/p/48350238",
+      "summary": "正文导出并求解数量增长方程，说明种群增长和放射性衰变都服从指数函数规律。"
+    },
+    {
+      "title": "初学讲义之高中数学六：幂（指数）",
+      "url": "https://zhuanlan.zhihu.com/p/80530214",
+      "summary": "正文以 f(x)=a^x 定义指数函数，并讨论其定义域、单调性、对称性和图像。"
+    },
+    {
+      "title": "不洛来证：指数函数是任何幂函数的高阶无穷大",
+      "url": "https://zhuanlan.zhihu.com/p/89962614",
+      "summary": "正文比较指数函数与任意幂函数的增长速度，并证明其比值趋于零。"
+    },
+    {
+      "title": "指数对数幂函数，基础有问题就看这篇！",
+      "url": "https://zhuanlan.zhihu.com/p/91875580",
+      "summary": "正文讲解指数函数的概念、性质、单调性及指数式大小比较方法。"
+    },
+    {
+      "title": "为什么以e为底的指数函数的导数是它本身？（数学分析逻辑链）",
+      "url": "https://zhuanlan.zhihu.com/p/91881261",
+      "summary": "正文以极限定义推导 e^x 的导数并说明其等于自身的逻辑链。"
+    },
+    {
+      "title": "复分析学习笔记 - 共形映射",
+      "url": "https://zhuanlan.zhihu.com/p/95612427",
+      "summary": "正文分析复指数函数的周期性与单叶带域，并给出它在指数映射下覆盖的区域。"
+    },
+    {
+      "title": "复变函数与积分变换 简明笔记(八)：保形映射（共形映射）",
+      "url": "https://zhuanlan.zhihu.com/p/107527440",
+      "summary": "正文由复指数函数的模与幅角形式解释水平带形到角形域的映射，并讨论其反函数分支。"
+    },
+    {
+      "title": "自然常数e为什么这么重要?",
+      "url": "https://zhuanlan.zhihu.com/p/114266598",
+      "summary": "正文讨论一般指数函数的求导，并指出以 e 为底时导数形式最简单，还用种群增长解释指数增长。"
+    },
+    {
+      "title": "复变函数学习笔记(2)",
+      "url": "https://zhuanlan.zhihu.com/p/114214745",
+      "summary": "正文定义复指数函数，并推导其全纯性、导数、加性、周期性和单叶性域。"
+    },
+    {
+      "title": "复分析(3)-多值函数的解析分支",
+      "url": "https://zhuanlan.zhihu.com/p/136610110",
+      "summary": "正文系统列出复指数函数的性质、解析性和周期性，实质讲解了指数函数在复域中的形式。"
+    },
+    {
+      "title": "求导后等于自身的函数仅有exp(x)吗？",
+      "url": "https://zhuanlan.zhihu.com/p/147425265",
+      "summary": "正文以幂级数定义指数函数，讨论其收敛性、运算法则、单调性、极值趋势和渐近线。"
+    },
+    {
+      "title": "从自然常数e到电容充电的遐想",
+      "url": "https://zhuanlan.zhihu.com/p/149536512",
+      "summary": "正文推导并讨论含自然指数项的RC充电电压函数及其随时间变化的曲线。"
+    },
+    {
+      "title": "一道牛剑面试题",
+      "url": "https://zhuanlan.zhihu.com/p/152598658",
+      "summary": "正文利用指数函数换元，把含 5^x 的指数不等式化为关于 m 的多项式问题。"
+    },
+    {
+      "title": "柯西方程与柯西方法",
+      "url": "https://zhuanlan.zhihu.com/p/80543711",
+      "summary": "正文求解指数型函数方程，并由可加柯西方程推出解为常量或形如 a^x 的指数函数。"
+    },
+    {
+      "title": "三分钟读懂Softmax函数",
+      "url": "https://zhuanlan.zhihu.com/p/168562182",
+      "summary": "正文解释Softmax中指数函数拉开数值差距、便于求导以及溢出的数值处理。"
+    },
+    {
+      "title": "由方程 x^x^x^x^ ... = 4 引发的讨论 —— 无穷迭代幂次大探险",
+      "url": "https://zhuanlan.zhihu.com/p/168578462",
+      "summary": "正文构造以 b^x 为迭代函数的数列，并讨论不同底数下指数迭代的收敛与发散。"
+    },
+    {
+      "title": "2≠4",
+      "url": "https://zhuanlan.zhihu.com/p/179279978",
+      "summary": "正文以 a^x 的单调性、图像交点和迭代序列分析指数塔是否收敛。"
+    },
+    {
+      "title": "NNIE量化算法及实现",
+      "url": "https://zhuanlan.zhihu.com/p/223018242",
+      "summary": "正文拟合指数反量化曲线，并用2的指数幂推导量化与反量化映射。"
+    },
+    {
+      "title": "第一讲 函数与初等函数",
+      "url": "https://zhuanlan.zhihu.com/p/256104096",
+      "summary": "正文说明指数函数的定义域、图像位置、定点以及底数对单调性的影响。"
+    },
+    {
+      "title": "inversioner版高中数学课本(1)",
+      "url": "https://zhuanlan.zhihu.com/p/268526854",
+      "summary": "正文定义形如 a^x 的指数函数，并讨论其定义域、值域、连续性、单调性和增长方式。"
+    },
+    {
+      "title": "第十三讲 导数的概念",
+      "url": "https://zhuanlan.zhihu.com/p/269604240",
+      "summary": "正文推导指数函数 a^x 的导数公式，并说明自然指数函数的特例。"
+    },
+    {
+      "title": "负数的开方到底等于多少？",
+      "url": "https://zhuanlan.zhihu.com/p/336577908",
+      "summary": "正文以指数函数的级数定义重新构造复数的幂运算并验证其指数运算性质。"
+    },
+    {
+      "title": "【高中没学的数学知识】双曲函数",
+      "url": "https://zhuanlan.zhihu.com/p/363616604",
+      "summary": "正文从指数函数 e^x 的奇偶分解出发定义双曲正弦和双曲余弦，并讨论其基本性质。"
+    },
+    {
+      "title": "【高中数学·导数】朗博W函数与常规方法",
+      "url": "https://zhuanlan.zhihu.com/p/367080386",
+      "summary": "正文利用指数函数的经典放缩式比较不等式两侧并确定参数范围。"
+    },
+    {
+      "title": "【高考数学】2.2 指数不等式的解法",
+      "url": "https://zhuanlan.zhihu.com/p/367306884",
+      "summary": "正文以指数函数 y=a^x 的单调性解释为何 a>1 时取对数后不等号方向保持不变。"
+    },
+    {
+      "title": "基本初等函数图像及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/372164659",
+      "summary": "正文给出指数函数的定义、定义域值域、定点、单调性和无界性等完整性质。"
+    },
+    {
+      "title": "欧拉公式及复数的指数式",
+      "url": "https://zhuanlan.zhihu.com/p/375473168",
+      "summary": "正文将复指数函数分解为模和幅角，并说明它在虚部为零时退化为实数指数函数。"
+    },
+    {
+      "title": "常用的放缩不等式",
+      "url": "https://zhuanlan.zhihu.com/p/396423540",
+      "summary": "正文单列章节，用一次、反比例和高次多项式函数给出指数函数的多方向放缩。"
+    },
+    {
+      "title": "导数中的常见找点模型",
+      "url": "https://zhuanlan.zhihu.com/p/397023700",
+      "summary": "正文以指数函数与一次函数之差为核心模型，按参数讨论单调性、极值和零点个数，并化归多种指数型变式。"
+    },
+    {
+      "title": "预设性能控制-Prescribed  Performance  Control(PPC)",
+      "url": "https://zhuanlan.zhihu.com/p/410916617",
+      "summary": "正文以指数衰减函数构造预设性能函数，并要求其恒正、单调递减且收敛到正稳态值。"
+    },
+    {
+      "title": "最详细的指数函数求导证明（之一）",
+      "url": "https://zhuanlan.zhihu.com/p/411780503",
+      "summary": "正文围绕一般指数函数 y=a^x 的求导展开，并推出其导数与自身成比例的结构。"
+    },
+    {
+      "title": "矩阵指数函数 |专题（1）",
+      "url": "https://zhuanlan.zhihu.com/p/422545081",
+      "summary": "正文回顾指数函数由收敛的幂级数严格定义，再以同样形式定义矩阵指数。"
+    },
+    {
+      "title": "指数函数和对数函数交点问题与极值点偏移",
+      "url": "https://zhuanlan.zhihu.com/p/465430066",
+      "summary": "正文按底数范围分析指数函数取值，并用指数方程的交点关系分类讨论。"
+    },
+    {
+      "title": "导数-常用导数 推导",
+      "url": "https://zhuanlan.zhihu.com/p/464253616",
+      "summary": "正文对一般指数函数 a^x 作差商化简并利用等价无穷小，推导其导数公式。"
+    },
+    {
+      "title": "复变函数与复平面变换",
+      "url": "https://zhuanlan.zhihu.com/p/472348377",
+      "summary": "正文具体说明指数函数如何把复平面中的水平条带和竖直条带分别映射为扇形与环形区域。"
+    },
+    {
+      "title": "高中数学导数 常见组合函数的图像总结及应用",
+      "url": "https://zhuanlan.zhihu.com/p/492073994",
+      "summary": "正文分析指数型组合函数的定义域、单调性、凹凸性和极值点。"
+    },
+    {
+      "title": "如何理解指数函数比任何幂函数都“大”？",
+      "url": "https://zhuanlan.zhihu.com/p/500118384",
+      "summary": "正文以指数函数与幂函数的增长比较为核心，并用具体函数题展开论证。"
+    },
+    {
+      "title": "GeoGebra函数作图基础",
+      "url": "https://zhuanlan.zhihu.com/p/529431862",
+      "summary": "正文具体演示不同底数的指数函数作图及底数变化动画。"
+    },
+    {
+      "title": "宝藏！欧拉公式如此直观易懂！",
+      "url": "https://zhuanlan.zhihu.com/p/534742027",
+      "summary": "正文具体讨论指数函数极限定义式在非负实数、实数和复数域上的延拓。"
+    },
+    {
+      "title": "双曲函数(Hyperbolic functions)",
+      "url": "https://zhuanlan.zhihu.com/p/548599449",
+      "summary": "正文用指数式定义双曲函数，并据此推导恒等式和反函数。"
+    },
+    {
+      "title": "【回归本源】给微积分入门者的小记",
+      "url": "https://zhuanlan.zhihu.com/p/609087301",
+      "summary": "正文从差商极限推导一般指数函数的导数，并引出自然常数 e 及以 e 为底的指数函数。"
+    },
+    {
+      "title": "数学界最著名、最伟大、最美丽的公式之一——欧拉公式",
+      "url": "https://zhuanlan.zhihu.com/p/623881967",
+      "summary": "正文用指数函数级数解释分数、零、负数和虚数指数的定义，并说明指数相加对应乘法。"
+    },
+    {
+      "title": "直观图解36个放缩不等式",
+      "url": "https://zhuanlan.zhihu.com/p/673096895",
+      "summary": "正文系统推演指数函数与一次函数、反比例函数和多项式之间的上下界。"
+    },
+    {
+      "title": "大学生数学竞赛官方的一个超级难数学分析题.",
+      "url": "https://zhuanlan.zhihu.com/p/713155563",
+      "summary": "正文得到由指数函数与常数组成的解族，并用约束条件确定指数参数和系数范围。"
+    },
+    {
+      "title": "复分析基础(5)--留数定理与积分计算",
+      "url": "https://zhuanlan.zhihu.com/p/9647188926",
+      "summary": "正文定义复指数函数，并讨论其周期性、带域到角域的单叶映射及与对数分支的联系。"
+    },
+    {
+      "title": "S型增长及一元弱酸碱分布系数也和双曲正切函数有关？2025八省联考数学试题的视野拓展",
+      "url": "https://zhuanlan.zhihu.com/p/17911423011",
+      "summary": "正文由指数函数 e^x 的变形得到逻辑斯谛曲线，并具体讨论其水平渐近线和拐点。"
+    },
+    {
+      "title": "傅里叶变换的基础——从欧拉公式开始理解频域",
+      "url": "https://zhuanlan.zhihu.com/p/1897295105523708856",
+      "summary": "正文通过复指数函数的导数说明其轨迹位于单位圆并连续产生旋转。"
+    },
+    {
+      "title": "【易错题】有难度的填空压轴题，有90%的同学做不对",
+      "url": "https://zhuanlan.zhihu.com/p/1913631766004074294",
+      "summary": "正文利用以 e 为底的指数函数及其倒数函数的单调性比较两个界函数。"
+    },
+    {
+      "title": "神奇的指数",
+      "url": "https://zhuanlan.zhihu.com/p/1974859624567046154",
+      "summary": "正文从指数函数的差商出发推导其导数，并得到以 e 为底时导数等于自身的性质。"
+    },
+    {
+      "title": "发现了一篇有意思的论文：《用单个算子表达所有初等函数》 All elementary functions from a single operator",
+      "url": "https://zhuanlan.zhihu.com/p/2027486137296364742",
+      "summary": "正文用 EML 构造指数函数并讨论其表达式复杂度，实质讲解了指数函数。"
+    },
+    {
+      "title": "一个函数「统一」所有初等函数",
+      "url": "https://zhuanlan.zhihu.com/p/2027489055898710673",
+      "summary": "正文以指数函数参与核函数构造，并具体推导指数及其复合表达。"
+    },
+    {
+      "title": "永别了，背公式时代！波兰物理学家用一个算子统一数学",
+      "url": "https://zhuanlan.zhihu.com/p/2028122850423218208",
+      "summary": "正文用 EML 算子的代入计算说明了指数函数的生成方式。"
+    },
+    {
+      "title": "凹凸不等式证明器.skill",
+      "url": "https://zhuanlan.zhihu.com/p/2041917119399448712",
+      "summary": "正文给出指数函数 e^x 的切线型不等式及其取等条件。"
+    }
+  ]
+}

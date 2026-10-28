@@ -1,0 +1,2426 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t8-b2",
+  "sources": [
+    {
+      "title": "ACM 中常用的算法有哪些？",
+      "url": "https://www.zhihu.com/answer/13638265",
+      "summary": "2012 年转载的 ACM 学习清单较系统地列出图的路径、生成树、连通性、匹配与网络流；是历史知识目录，不是算法推导或最新竞赛要求。"
+    },
+    {
+      "title": "有多少以欧拉（Euler）命名的定理或者公式？",
+      "url": "https://www.zhihu.com/answer/45936611",
+      "summary": "正文介绍欧拉路径源于柯尼斯堡七桥问题并属于图论。"
+    },
+    {
+      "title": "如何在取硬币游戏中必胜？（有关尼姆博弈）",
+      "url": "https://www.zhihu.com/answer/46075905",
+      "summary": "正文把组合博弈抽象为有向图上的移动。"
+    },
+    {
+      "title": "有哪些「上帝算法」？",
+      "url": "https://www.zhihu.com/answer/47102267",
+      "summary": "正文解释Steiner问题与最小生成树的区别及其NP-hard性质。"
+    },
+    {
+      "title": "Floyd算法为什么把k放在最外层？",
+      "url": "https://www.zhihu.com/answer/50079000",
+      "summary": "正文明确以原图邻接矩阵和节点路径描述图上的最短路。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/54298568",
+      "summary": "正文从顶点奇偶度给出一笔画的欧拉路径判据。"
+    },
+    {
+      "title": "类似Graphviz的工具是如何实现自动排版的？",
+      "url": "https://www.zhihu.com/answer/54625344",
+      "summary": "正文介绍有向无环图与图绘制算法。"
+    },
+    {
+      "title": "数学中有哪些看起来很不可思议的知识？",
+      "url": "https://www.zhihu.com/answer/67929000",
+      "summary": "正文给出平面图的欧拉公式推广。"
+    },
+    {
+      "title": "离散数学讲些什么内容？在计算机科学有什么应用？该怎么学好？",
+      "url": "https://www.zhihu.com/answer/74954244",
+      "summary": "正文用连通性、最短路径、广搜和深搜说明图论与算法的关系。"
+    },
+    {
+      "title": "离散数学讲些什么内容？在计算机科学有什么应用？该怎么学好？",
+      "url": "https://www.zhihu.com/answer/75581269",
+      "summary": "正文说明树与图在算法中的用途。"
+    },
+    {
+      "title": "离散数学在编译原理中有什么应用？",
+      "url": "https://www.zhihu.com/answer/82653480",
+      "summary": "正文系统列举图论在编译器中间表示、寄存器分配和垃圾回收中的应用。"
+    },
+    {
+      "title": "如何理解动态规划？",
+      "url": "https://www.zhihu.com/answer/83942329",
+      "summary": "正文把动态规划问题转换为图上的单源最短路径。"
+    },
+    {
+      "title": "计算机领域有哪些经典的典故或笑话？",
+      "url": "https://www.zhihu.com/answer/86566529",
+      "summary": "正文以笑话方式解释深度优先搜索是在树或图上沿分支深入遍历。"
+    },
+    {
+      "title": "可以从哪些思路做微软 2017 实习生笔试题最后一题？",
+      "url": "https://www.zhihu.com/answer/94388263",
+      "summary": "正文把三维网格中的封闭性转为连通区域搜索，并用 floodfill 维护可达空间。"
+    },
+    {
+      "title": "沃罗诺伊图（Voronoi Diagram，也称作Dirichlet tessellation，狄利克雷镶嵌 ）是怎样的？",
+      "url": "https://www.zhihu.com/answer/96311519",
+      "summary": "正文解释德劳内三角剖分是沃罗诺伊图的对偶图。"
+    },
+    {
+      "title": "如何理解动态规划？",
+      "url": "https://www.zhihu.com/answer/96997659",
+      "summary": "正文把状态依赖关系描述为有向无环图。"
+    },
+    {
+      "title": "你见过哪些神一样的优化操作？",
+      "url": "https://www.zhihu.com/answer/97198171",
+      "summary": "正文包含图的环、生成森林与边权构造问题。"
+    },
+    {
+      "title": "有哪些类似于七桥问题的有趣数学定理？",
+      "url": "https://www.zhihu.com/answer/102632706",
+      "summary": "正文以中国邮差、运输、婚配和网络类问题介绍组合数学中的图论应用。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/115900358",
+      "summary": "正文用多个小节展开Hall匹配、矩阵树与Cayley生成树、Turan极值图和Kuratowski平面图判定。"
+    },
+    {
+      "title": "n 个汉字两两组成常见词语，求 n 的最大值？",
+      "url": "https://www.zhihu.com/answer/119428441",
+      "summary": "正文把汉字两两成词问题抽象为图的最大团问题，并用图算法求解。"
+    },
+    {
+      "title": "有哪些离散数学/图论应用在数学/CS以外学科的例子？",
+      "url": "https://www.zhihu.com/answer/120561230",
+      "summary": "正文定义图、边、道路、连通、距离、直径、正则图和二分图并研究通信网络。"
+    },
+    {
+      "title": "「关键词」提取都有哪些方案？",
+      "url": "https://www.zhihu.com/answer/121576297",
+      "summary": "正文从PageRank的图结构与词共现边解释TextRank关键词提取。"
+    },
+    {
+      "title": "怎么通俗易懂地解释贝叶斯网络和它的应用？",
+      "url": "https://www.zhihu.com/answer/122424643",
+      "summary": "正文把贝叶斯网络定义为表示条件依赖的有向无环图。"
+    },
+    {
+      "title": "图的邻接矩阵/关联矩阵的秩有什么直观的几何意义吗？",
+      "url": "https://www.zhihu.com/answer/125116581",
+      "summary": "正文以谱图论解释图的连通分量与拉普拉斯矩阵谱之间的关系。"
+    },
+    {
+      "title": "为什么会想到用异或来算SG函数？它的本质是什么？",
+      "url": "https://www.zhihu.com/answer/125184901",
+      "summary": "正文实质用单源单汇有向无环图表示组合游戏。"
+    },
+    {
+      "title": "如果人说他/她集齐了十二个星座的前任，我们应该如何估计他/她前任的数量？",
+      "url": "https://www.zhihu.com/answer/125686675",
+      "summary": "正文把状态画成十二节点加权有向图并研究覆盖时间。"
+    },
+    {
+      "title": "有哪些算法惊艳到了你？",
+      "url": "https://www.zhihu.com/answer/125756108",
+      "summary": "正文定义无向图最大切，并讲解随机近似和 Goemans-Williamson 算法。"
+    },
+    {
+      "title": "有哪些数学问题有经典的物理学证明或解释？",
+      "url": "https://www.zhihu.com/answer/126035963",
+      "summary": "正文把随机指派问题化归为完全二分图上的最小权完美匹配，并继续推导。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/129140965",
+      "summary": "正文把友谊关系建成点边网络并由各点度数推导友谊悖论。"
+    },
+    {
+      "title": "有哪些令人拍案叫绝的算法？",
+      "url": "https://www.zhihu.com/answer/131344319",
+      "summary": "正文通过随机生成同构图并验证顶点对应关系讲解图同构证明。"
+    },
+    {
+      "title": "有哪些指标可以描述两个图（graph）的相似度？",
+      "url": "https://www.zhihu.com/answer/156906973",
+      "summary": "正文定义图极限中的同构密度、cut distance，并说明图正则性算法应用。"
+    },
+    {
+      "title": "如何理解Kagome格子中的flat band？",
+      "url": "https://www.zhihu.com/answer/168568159",
+      "summary": "正文把格子建模为图，定义线图、关联矩阵和邻接矩阵并解释平带。"
+    },
+    {
+      "title": "信息学竞赛中有哪些令人高呼「还有这种操作」的技巧？",
+      "url": "https://www.zhihu.com/answer/178873326",
+      "summary": "正文以树上的关键点分块为例，详细说明图结构上的修改与路径查询算法。"
+    },
+    {
+      "title": "哪些看似与图论无关的问题可用图论模型解决？",
+      "url": "https://www.zhihu.com/answer/180496658",
+      "summary": "正文解释正则性引理、图计数引理和三角形移除引理如何把等差数列问题转化为图论问题。"
+    },
+    {
+      "title": "房间内有 100 人，每人有 100 块，每分钟随机给另一个人 1 块，最后房间内的财富分布怎样？",
+      "url": "https://www.zhihu.com/answer/197181699",
+      "summary": "正文定义图上的离散拉普拉斯算子并用邻接状态表达。"
+    },
+    {
+      "title": "如何在理论上解释「四色定理」？",
+      "url": "https://www.zhihu.com/answer/201435930",
+      "summary": "正文从染色数、团数、图 minor 与平面图结构系统讲解四色定理的图论背景。"
+    },
+    {
+      "title": "有哪些看起来很简单证明起来却很难的问题？",
+      "url": "https://www.zhihu.com/answer/206831429",
+      "summary": "正文用完全图的交叉数具体解释图论中的离散几何问题。"
+    },
+    {
+      "title": "如何看待那些研究数学的人，数学到底有没有作用？",
+      "url": "https://www.zhihu.com/answer/209048209",
+      "summary": "正文从平面图、路径、着色与电路布线系统解释图论。"
+    },
+    {
+      "title": "这张图中能数出多少个三角形？",
+      "url": "https://www.zhihu.com/answer/221470752",
+      "summary": "正文用邻接矩阵幂的迹推导图中三角形数量。"
+    },
+    {
+      "title": "能科普下随机图理论吗？",
+      "url": "https://www.zhihu.com/answer/228497702",
+      "summary": "正文介绍随机图定义、伪随机性、谱方法和图论研究方向。"
+    },
+    {
+      "title": "做数学不同方向的人各有什么特点？",
+      "url": "https://www.zhihu.com/answer/231248432",
+      "summary": "正文解释图极限把图嵌入Banach空间分析。"
+    },
+    {
+      "title": "自然科学领域，什么样的研究才算是有「好品位」？",
+      "url": "https://www.zhihu.com/answer/234156386",
+      "summary": "正文解释三角消除引理及正规性方法的图论作用。"
+    },
+    {
+      "title": "线性代数有什么用？学习线性代数的意义在哪？",
+      "url": "https://www.zhihu.com/answer/242658003",
+      "summary": "正文从有向图构造关联矩阵并分析网络电势。"
+    },
+    {
+      "title": "高中党，我朋友推崇「数学无用论」。本人十分热爱数学，如何有效反驳他们，彻底改变他们这种幼稚的想法？",
+      "url": "https://www.zhihu.com/answer/244593231",
+      "summary": "正文解释可平面图如何保证印刷线路板的电路边不错误相交。"
+    },
+    {
+      "title": "一笔画n芒星（比如五角星、七角星）有什么规律?",
+      "url": "https://www.zhihu.com/answer/256267849",
+      "summary": "正文以一笔画条件分析星图结构。"
+    },
+    {
+      "title": "圆周上均匀分布的 n 个点互相连线可将圆分为多少块？",
+      "url": "https://www.zhihu.com/answer/259170402",
+      "summary": "正文把圆内划分看成平面图并使用 V-E+F=2。"
+    },
+    {
+      "title": "如何评价2017年ACM/ICPC北京区域现场赛？",
+      "url": "https://www.zhihu.com/answer/262190447",
+      "summary": "正文讲解无向图区间连通性、字典树和并查集等图结构题。"
+    },
+    {
+      "title": "数学里有哪些精彩的伪证？",
+      "url": "https://www.zhihu.com/answer/262954447",
+      "summary": "正文以平面图、Kempe 链和顶点染色完整展开四色定理伪证。"
+    },
+    {
+      "title": "你读过的最有意思的理论计算机（Theoretical Computer Science）论文是什么？",
+      "url": "https://www.zhihu.com/answer/278253670",
+      "summary": "正文定义有向 Steiner 网络问题并在有向图上寻找最小权子图。"
+    },
+    {
+      "title": "请问求一个图的全局最小割，有什么比较快的算法？",
+      "url": "https://www.zhihu.com/answer/290726001",
+      "summary": "正文定义图的割并讲解最大流、随机缩点与 Stoer-Wagner 等最小割算法。"
+    },
+    {
+      "title": "如何评价2018《最强大脑》第五季第二期中的挑战？",
+      "url": "https://www.zhihu.com/answer/294688586",
+      "summary": "正文从顶点奇偶度推导欧拉迹的一笔画判定。"
+    },
+    {
+      "title": "如何评价 2018《最强大脑》第五季？",
+      "url": "https://www.zhihu.com/answer/294689564",
+      "summary": "正文用顶点奇偶度解释欧拉一笔画判定并联系七桥问题。"
+    },
+    {
+      "title": "图论有哪些方向分支？",
+      "url": "https://www.zhihu.com/answer/341917897",
+      "summary": "正文系统介绍拓扑、结构、几何、极值、代数、极限等图论分支。"
+    },
+    {
+      "title": "有哪些解决完之后让你拍案叫绝的算法问题？",
+      "url": "https://www.zhihu.com/answer/352860728",
+      "summary": "正文用生成森林判断无向图所有环的异或性质。"
+    },
+    {
+      "title": "如何理解 Graph Convolutional Network（GCN）？",
+      "url": "https://www.zhihu.com/answer/354673357",
+      "summary": "正文在带连接关系的图节点上讲解特征传播。"
+    },
+    {
+      "title": "写一个你认为尽可能大的数？",
+      "url": "https://www.zhihu.com/answer/357130166",
+      "summary": "正文用超立方体完全图的边染色问题定义背景。"
+    },
+    {
+      "title": "写一个你认为尽可能大的数？",
+      "url": "https://www.zhihu.com/answer/357980197",
+      "summary": "正文用彩色二叉树的包含关系定义 TREE(3)。"
+    },
+    {
+      "title": "vine - copula？是个什么东东？了解这个需要什么基础？",
+      "url": "https://www.zhihu.com/answer/361859732",
+      "summary": "正文解释 Vine 用藤状图形表达 pair 关系。"
+    },
+    {
+      "title": "六度分隔理论可以用什么数学模型证明？",
+      "url": "https://www.zhihu.com/answer/364884719",
+      "summary": "正文定义图的路径、直径、度并推导小世界性质。"
+    },
+    {
+      "title": "如何评价组合数学的发展前景？",
+      "url": "https://www.zhihu.com/answer/367219577",
+      "summary": "正文具体说明图论在组合数学分类中的位置。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/379524015",
+      "summary": "正文完整陈述并解释Szemerédi图正则性引理。"
+    },
+    {
+      "title": "如何在手机上的九宫格密码上绘出最长距离？",
+      "url": "https://www.zhihu.com/answer/408568371",
+      "summary": "正文把图上的合法连线与 TSP 结构进行比较。"
+    },
+    {
+      "title": "学习数理逻辑对其他数学（比如代数、分析等）的学习有帮助吗？",
+      "url": "https://www.zhihu.com/answer/433343154",
+      "summary": "正文解释图论正则性引理及其在数论中的应用。"
+    },
+    {
+      "title": "知识连成一片是什么体验？",
+      "url": "https://www.zhihu.com/answer/433744123",
+      "summary": "正文说明算法状态转移可统一为图论路径问题。"
+    },
+    {
+      "title": "如何评价 NOI2018？",
+      "url": "https://www.zhihu.com/answer/445463846",
+      "summary": "正文用Kruskal重构树和后缀树处理竞赛问题。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/478991799",
+      "summary": "正文把人与关系转化为点、双色边和同色三角形。"
+    },
+    {
+      "title": "如何看待 SPFA 算法已死这种说法？",
+      "url": "https://www.zhihu.com/answer/484694411",
+      "summary": "正文从图、边权和最短路径树分析 SPFA 的最坏情况。"
+    },
+    {
+      "title": "如何看待 SPFA 算法已死这种说法？",
+      "url": "https://www.zhihu.com/answer/484725397",
+      "summary": "正文比较负权图上的 SPFA、Dijkstra 与 Bellman-Ford。"
+    },
+    {
+      "title": "如何简单地理解维特比算法（viterbi算法）？",
+      "url": "https://www.zhihu.com/answer/489485567",
+      "summary": "正文以分层图上的最短路径直观讲解维特比算法。"
+    },
+    {
+      "title": "除了黎曼猜想，数学界还有哪些至今尚未得到证实的猜想？",
+      "url": "https://www.zhihu.com/answer/498542169",
+      "summary": "正文介绍完全图交叉数猜想及已知结果。"
+    },
+    {
+      "title": "如何评价 4chan 网友讨论 2006 版凉宫春日动画观看顺序时给出了解决「最小超排列」难题线索？",
+      "url": "https://www.zhihu.com/answer/520635605",
+      "summary": "正文说明下界证明的核心是把超排列问题转化为图上的 Hamilton 路径。"
+    },
+    {
+      "title": "如何评价 NOIP2018 ？",
+      "url": "https://www.zhihu.com/answer/528710539",
+      "summary": "分析树与环套树结构，说明通过断边把问题化为树的处理。"
+    },
+    {
+      "title": "到现在为止，四色问题得到了逻辑上的证明吗？",
+      "url": "https://www.zhihu.com/answer/533139304",
+      "summary": "正文指出四色问题背后是染色数与图结构的关系。"
+    },
+    {
+      "title": "数学中的「图论」是什么?",
+      "url": "https://www.zhihu.com/answer/542664197",
+      "summary": "正文定义图的顶点、边并介绍常见图论术语与算法。"
+    },
+    {
+      "title": "如何看待高中生声称证明哥德巴赫猜想？",
+      "url": "https://www.zhihu.com/answer/561526965",
+      "summary": "正文以七桥问题说明图论建模与算法求解。"
+    },
+    {
+      "title": "如果一个本科生人工证明了四色定理，能拿菲尔兹奖吗？",
+      "url": "https://www.zhihu.com/answer/564023549",
+      "summary": "把四色问题与结构图论及 Ramsey 型问题联系起来。"
+    },
+    {
+      "title": "如何看待甘润东声称人工证明了四色定理？",
+      "url": "https://www.zhihu.com/answer/577008773",
+      "summary": "正文以对偶图、三角剖分和染色讨论四色问题。"
+    },
+    {
+      "title": "博士即将毕业或已经毕业的你，做出了哪些科研贡献？",
+      "url": "https://www.zhihu.com/answer/579043493",
+      "summary": "正文介绍超图亏格与地图染色问题。"
+    },
+    {
+      "title": "华为为什么要招聘数学博士？",
+      "url": "https://www.zhihu.com/answer/580432972",
+      "summary": "把缓存布局问题转化为极值图论结构。"
+    },
+    {
+      "title": "为什么正方体有十一种展开图？",
+      "url": "https://www.zhihu.com/answer/584695059",
+      "summary": "把正方体展开图对应为立方体边图的支撑树。"
+    },
+    {
+      "title": "中国普通民众的拓扑学知识是怎样的水平？",
+      "url": "https://www.zhihu.com/answer/595338952",
+      "summary": "正文明确指出七桥与一笔画属于图论。"
+    },
+    {
+      "title": "有什么理论复杂但是实现简单的算法？",
+      "url": "https://www.zhihu.com/answer/596363796",
+      "summary": "正文把流程柔性设计建模为二分图。"
+    },
+    {
+      "title": "SDP (半正定规划) 有什么形象的实例？怎么理解？",
+      "url": "https://www.zhihu.com/answer/604280099",
+      "summary": "正文列出独立集与 Shannon capacity 的 SDP 近似。"
+    },
+    {
+      "title": "你遇到的最难的一个数学题是什么？",
+      "url": "https://www.zhihu.com/answer/604755013",
+      "summary": "正文把高考题转换为图染色并计算色多项式。"
+    },
+    {
+      "title": "如何理解 Graph Convolutional Network（GCN）？",
+      "url": "https://www.zhihu.com/answer/611222866",
+      "summary": "正文从图的节点与边解释图卷积。"
+    },
+    {
+      "title": "历史上有哪些著名的数学定理在当时证明非常冗长，但是用现代的观点简洁明了？",
+      "url": "https://www.zhihu.com/answer/622223240",
+      "summary": "把三项等差数列转化为图中的三角形并用计数引理处理。"
+    },
+    {
+      "title": "数学系离散数学专业的学生在做什么？",
+      "url": "https://www.zhihu.com/answer/647874370",
+      "summary": "解释结构图论、图染色与极值图论的研究对象。"
+    },
+    {
+      "title": "真正会数学建模的人有多厉害？",
+      "url": "https://www.zhihu.com/answer/650018264",
+      "summary": "用有向图和拓扑层级表示生态系统因素关系。"
+    },
+    {
+      "title": "哪些看似与图论无关的问题可用图论模型解决？",
+      "url": "https://www.zhihu.com/answer/654479959",
+      "summary": "把迷宫、桥梁和路径问题建模为顶点与边组成的图。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/660409016",
+      "summary": "把桥梁、路径和地图染色问题转化为图模型。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/670271011",
+      "summary": "把师生关系建模为有向图并讨论 Euler 迹。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/690236556",
+      "summary": "把人与相识关系表示为着色图并据此证明。"
+    },
+    {
+      "title": "一盘围棋最多下多少步?",
+      "url": "https://www.zhihu.com/answer/698592571",
+      "summary": "把最长围棋对局转化为状态图上的最长路径。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/705200215",
+      "summary": "定义树和根树并解释系统发生树。"
+    },
+    {
+      "title": "怎么理解拟阵（matroid）？",
+      "url": "https://www.zhihu.com/answer/740466359",
+      "summary": "以无向图不成环边集解释图拟阵。"
+    },
+    {
+      "title": "围棋中黑棋先下几子存在使白棋一子不活的策略？",
+      "url": "https://www.zhihu.com/answer/742505523",
+      "summary": "用生成树结构保证棋子联络。"
+    },
+    {
+      "title": "做过最气的题是什么题？",
+      "url": "https://www.zhihu.com/answer/745071924",
+      "summary": "把数字变换关系建模成图并系统求解。"
+    },
+    {
+      "title": "有什么理论复杂但是实现简单的算法？",
+      "url": "https://www.zhihu.com/answer/746570915",
+      "summary": "以森林和树结构解释并查集。"
+    },
+    {
+      "title": "如何评价数学家让·布尔甘（Jean Bourgain）？",
+      "url": "https://www.zhihu.com/answer/754370722",
+      "summary": "解释扩展图的稀疏与高连通性质。"
+    },
+    {
+      "title": "仍然在世的伟大数学家有哪些？",
+      "url": "https://www.zhihu.com/answer/787427646",
+      "summary": "概述 Seymour 在图论结构定理上的贡献。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/791230378",
+      "summary": "正文把函数迭代构造为有向的轨道图，并通过循环轨道计数研究方程可解性。"
+    },
+    {
+      "title": "数学这门学科有多有趣？",
+      "url": "https://www.zhihu.com/answer/793899681",
+      "summary": "用图、网络和正则性引理描述复杂结构。"
+    },
+    {
+      "title": "为什么人工智能先打败象棋顶尖选手，再打败围棋顶尖选手，而不是反过来？",
+      "url": "https://www.zhihu.com/answer/794696940",
+      "summary": "正文把不同下法组织成游戏树，并以分支数和平均长度估计其复杂度。"
+    },
+    {
+      "title": "数学界有哪些未解之谜？",
+      "url": "https://www.zhihu.com/answer/821885249",
+      "summary": "定义树并陈述优美树猜想与拉姆赛图问题。"
+    },
+    {
+      "title": "「低耦合，高内聚」真的好吗？",
+      "url": "https://www.zhihu.com/answer/835603438",
+      "summary": "正文用顶点、边、聚集系数与最短路径严格描述小世界网络。"
+    },
+    {
+      "title": "Minecraft 中只用一格水源，最多能灌溉多少耕地?",
+      "url": "https://www.zhihu.com/answer/844951571",
+      "summary": "正文把水路与耕地覆盖抽象为图、最小生成树和最大覆盖问题。"
+    },
+    {
+      "title": "为什么二叉树的前序遍历和中序遍历对应入栈和出栈次序？",
+      "url": "https://www.zhihu.com/answer/872599940",
+      "summary": "正文详细分析二叉树前序、中序遍历与栈序列之间的对应关系，属于树这一图结构。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/875789850",
+      "summary": "正文把人和朋友关系抽象为顶点与边，再用邻接矩阵证明交际花定理，属于图论。"
+    },
+    {
+      "title": "线性代数对于计算机专业的作用是什么呢？",
+      "url": "https://www.zhihu.com/answer/884065709",
+      "summary": "用邻接矩阵与可达性讲解图论计算。"
+    },
+    {
+      "title": "从数学原理上说一说，葛立恒数、tree(3) 等数为什么那么大？",
+      "url": "https://www.zhihu.com/answer/885942447",
+      "summary": "TREE(3) 的定义与树结构和图论约束有关。"
+    },
+    {
+      "title": "如何证明：任取 7 个无理数，其中是否都存在 4 个数，其两两之和均为无理数？",
+      "url": "https://www.zhihu.com/answer/926585364",
+      "summary": "正文把无理数视为顶点、和的类型视为染色边，以图论和完全图完成证明。"
+    },
+    {
+      "title": "如何证明：任取 7 个无理数，其中是否都存在 4 个数，其两两之和均为无理数？",
+      "url": "https://www.zhihu.com/answer/927815343",
+      "summary": "正文把等价类作为顶点、按有理和连边，并用二分图完成证明。"
+    },
+    {
+      "title": "如何证明：任取 7 个无理数，其中是否都存在 4 个数，其两两之和均为无理数？",
+      "url": "https://www.zhihu.com/answer/927981446",
+      "summary": "正文把无理数组造成图，并借无奇环与二分图性质证明选择结论。"
+    },
+    {
+      "title": "至少需要多少位的数字才能包含所有的银行卡密码（000000 ~ 999999）的组合？",
+      "url": "https://www.zhihu.com/answer/936597115",
+      "summary": "正文构造 De Bruijn 有向图，用欧拉回路给出包含全部密码组合的最短序列。"
+    },
+    {
+      "title": "有限个人，任意两个人有且只有1个公共朋友，那么一定存在1个人是所有人的朋友，这是什么数学问题?",
+      "url": "https://www.zhihu.com/answer/980984974",
+      "summary": "正文完整证明友谊图定理并分析正则图结构。"
+    },
+    {
+      "title": "Bellman-Ford算法是如何用于三角套利的？",
+      "url": "https://www.zhihu.com/answer/992542170",
+      "summary": "正文把套利建模为有向图负环并实现 Bellman-Ford 算法。"
+    },
+    {
+      "title": "你知道哪些反常识的知识？",
+      "url": "https://www.zhihu.com/answer/996799957",
+      "summary": "正文用图的二染色完整证明Ramsey定理简例。"
+    },
+    {
+      "title": "为什么科技互联网公司越来越重视数学？",
+      "url": "https://www.zhihu.com/answer/1057326760",
+      "summary": "正文把计算任务建模为有向无环图并使用图论方法求解。"
+    },
+    {
+      "title": "怎么理解图的同构?怎么判断两个图是否同构？",
+      "url": "https://www.zhihu.com/answer/1063169941",
+      "summary": "正文从双射、保边关系和重标号系统解释图同构及判定。"
+    },
+    {
+      "title": "我好像证明了四色猜想，各位怎么看？",
+      "url": "https://www.zhihu.com/answer/1078864922",
+      "summary": "正文用完全图的平面性说明图论上的关键障碍。"
+    },
+    {
+      "title": "什么是不可约矩阵？",
+      "url": "https://www.zhihu.com/answer/1108152684",
+      "summary": "正文以强连通有向图给出不可约矩阵的等价判定。"
+    },
+    {
+      "title": "量子计算机有哪些算法和应用？",
+      "url": "https://www.zhihu.com/answer/1139921711",
+      "summary": "正文把图的最大割转化为厄米矩阵基态问题。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1140536422",
+      "summary": "正文以超立方体诱导子图和最大度解释敏感度猜想。"
+    },
+    {
+      "title": "可以留下一个优美的恒等式吗？",
+      "url": "https://www.zhihu.com/answer/1168471670",
+      "summary": "正文陈述并证明连通平面图的欧拉公式，并推广到凸多面体。"
+    },
+    {
+      "title": "数学学习或研究中，你见过哪些有意思的反例？",
+      "url": "https://www.zhihu.com/answer/1182090160",
+      "summary": "正文定义图染色数、图张量积并介绍相关猜想。"
+    },
+    {
+      "title": "自来水管道分级铺设问题数学建模该怎么做啊，就是那种有一个中心厂，一级厂那个，二级厂，？",
+      "url": "https://www.zhihu.com/answer/1192361478",
+      "summary": "正文解释供水网络建模应使用图论。"
+    },
+    {
+      "title": "你所读的（基础）数学方向，有哪些不错的讲义/Notes/Polycopiés/Skript？",
+      "url": "https://www.zhihu.com/answer/1221163575",
+      "summary": "正文推荐的是图论与加性组合讲义。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1231538886",
+      "summary": "正文用七桥问题解释欧拉开创图论及欧拉路径论证。"
+    },
+    {
+      "title": "有哪些数学书可以被称为「神作」？",
+      "url": "https://www.zhihu.com/answer/1232154734",
+      "summary": "正文讨论概率方法用于 Ramsey 数和极值图问题。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/1235263248",
+      "summary": "正文介绍 Ramsey 数、完全图和图论中的 quasirandomness 方法。"
+    },
+    {
+      "title": "你所在领域的入门书单是怎样的？",
+      "url": "https://www.zhihu.com/answer/1241319060",
+      "summary": "正文把图、超图和 Ramsey 理论列为核心研究对象。"
+    },
+    {
+      "title": "参加数学建模需要学习哪些方面的知识?",
+      "url": "https://www.zhihu.com/answer/1331325788",
+      "summary": "正文把路径、流量等建模问题抽象为图论问题。"
+    },
+    {
+      "title": "罗纳德·葛立恒（Ronald Graham）去世，享年 84 岁，如何评价他一生的贡献？",
+      "url": "https://www.zhihu.com/answer/1339998559",
+      "summary": "正文以完全图、边着色和拉姆齐理论说明葛立恒数的图论来源。"
+    },
+    {
+      "title": "如何评价2020数学建模国赛?",
+      "url": "https://www.zhihu.com/answer/1465108023",
+      "summary": "正文把建模题识别为图论与路径问题。"
+    },
+    {
+      "title": "如何评价2020数学建模国赛?",
+      "url": "https://www.zhihu.com/answer/1465404485",
+      "summary": "正文把建模题转化为图上的状态转移问题。"
+    },
+    {
+      "title": "2020年全国大学生数学建模竞赛ABC题怎么分析？",
+      "url": "https://www.zhihu.com/answer/1465498033",
+      "summary": "正文指出第二道建模题涉及图论与路线规划。"
+    },
+    {
+      "title": "「社交网络分析」SNA是门怎样的学科？",
+      "url": "https://www.zhihu.com/answer/1517662058",
+      "summary": "正文把国际贸易和社交关系建模为有向图或无向图。"
+    },
+    {
+      "title": "现今组合数学中还没有被解决的问题有哪些？",
+      "url": "https://www.zhihu.com/answer/1517857583",
+      "summary": "正文以完全图染色、子图和minor介绍图论未解问题。"
+    },
+    {
+      "title": "能否详细介绍一下英国的数学强校的各自特点与优势？",
+      "url": "https://www.zhihu.com/answer/1548573924",
+      "summary": "正文按教授方向介绍英国高校的极值图论研究。"
+    },
+    {
+      "title": "能科普下随机图理论吗？",
+      "url": "https://www.zhihu.com/answer/1583944713",
+      "summary": "正文系统介绍 Erdős–Rényi 随机图、度分布、连通分支和直径。"
+    },
+    {
+      "title": "menger定理有没有简单证明?",
+      "url": "https://www.zhihu.com/answer/1593587752",
+      "summary": "正文直接讨论或应用该叶节点主题（图）。"
+    },
+    {
+      "title": "一个正方体每条棱是通路的概率都是1/2，那么距离最远的两点间构成通路的概率是多少？1/2改成a呢？",
+      "url": "https://www.zhihu.com/answer/1633450827",
+      "summary": "正文把正方体棱建模为图并计算连通通路概率。"
+    },
+    {
+      "title": "给你100亿美元，但条件是要先关在小黑屋里计算出拉姆齐数R(6,6)，你干不干？",
+      "url": "https://www.zhihu.com/answer/1633744976",
+      "summary": "正文综述拉姆齐数的小参数与渐近界，属于图论极值问题。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/1666094967",
+      "summary": "正文系统介绍极值图论中的反直觉结果。"
+    },
+    {
+      "title": "瞎扭还原魔方的概率是多少？",
+      "url": "https://www.zhihu.com/answer/1682575459",
+      "summary": "正文把魔方状态和操作建成连通状态转移图。"
+    },
+    {
+      "title": "如何评价2021年度阿贝尔奖？",
+      "url": "https://www.zhihu.com/answer/1785839093",
+      "summary": "正文介绍 Lovasz 在图论、组合与理论计算机科学中的贡献。"
+    },
+    {
+      "title": "如何评价2021年度阿贝尔奖？",
+      "url": "https://www.zhihu.com/answer/1785926094",
+      "summary": "正文介绍 Lovasz 在图论和组合数学中的代表性成果。"
+    },
+    {
+      "title": "欧拉到底有多厉害？",
+      "url": "https://www.zhihu.com/answer/1803245813",
+      "summary": "正文完整叙述哥尼斯堡七桥问题、图的一笔画判定及欧拉由此开创图论。"
+    },
+    {
+      "title": "如何看待 2021 年五一建模?",
+      "url": "https://www.zhihu.com/answer/1864547295",
+      "summary": "正文用图结构、边权和最短路为空间位置与事件关系建模。"
+    },
+    {
+      "title": "数学上有哪些丑陋的公式？",
+      "url": "https://www.zhihu.com/answer/1884861839",
+      "summary": "正文用图同态密度重述 Turan 定理并讨论三角形数量下界。"
+    },
+    {
+      "title": "如何评价 2021 年 ICPC 银川赛区？",
+      "url": "https://www.zhihu.com/answer/1889073379",
+      "summary": "正文讨论仙人掌图的环、流与树结构。"
+    },
+    {
+      "title": "如何理解 Graph Convolutional Network（GCN）？",
+      "url": "https://www.zhihu.com/answer/1891277261",
+      "summary": "正文用邻接矩阵、度矩阵和一跳邻居解释图上的信息聚合。"
+    },
+    {
+      "title": "如何评价2021年第三届阿里巴巴全球数学竞赛？",
+      "url": "https://www.zhihu.com/answer/1895253468",
+      "summary": "正文用欧拉七桥问题说明图论中的不可能性证明。"
+    },
+    {
+      "title": "如何评价CCPC 2020 Final？",
+      "url": "https://www.zhihu.com/answer/1913672142",
+      "summary": "正文把拼图抽象为图并分类链和环。"
+    },
+    {
+      "title": "有哪些应用于移动机器人路径规划的算法？",
+      "url": "https://www.zhihu.com/answer/1922203555",
+      "summary": "正文直接讨论并支撑「图论」相关内容。"
+    },
+    {
+      "title": "什么样的神经科学/心理学涉及到图论（Graph Theory）和拓扑学（Topology）呢?",
+      "url": "https://www.zhihu.com/answer/1938381579",
+      "summary": "正文直接讨论并支撑「图论」相关内容。"
+    },
+    {
+      "title": "正二十面体有 43380 种不同的展开图，这是怎么求的？",
+      "url": "https://www.zhihu.com/answer/1953423440",
+      "summary": "正文把多面体展开图转化为面邻接图的生成树计数。"
+    },
+    {
+      "title": "如何评价【LGR-087】洛谷 7 月月赛？",
+      "url": "https://www.zhihu.com/answer/1998538740",
+      "summary": "正文用图、环和边集证明竞赛题结论。"
+    },
+    {
+      "title": "如果世界上存在一个最大的数，那么它是奇数还是偶数？",
+      "url": "https://www.zhihu.com/answer/1999753209",
+      "summary": "正文说明葛立恒数来自完全图着色和拉姆齐问题。"
+    },
+    {
+      "title": "有哪些指标可以描述两个图（graph）的相似度？",
+      "url": "https://www.zhihu.com/answer/2030700657",
+      "summary": "正文讨论图匹配、对齐和图距离的数学定义。"
+    },
+    {
+      "title": "请问这个存在哈密顿圈的充分条件如何证明？",
+      "url": "https://www.zhihu.com/answer/2036140251",
+      "summary": "正文系统讨论哈密顿圈及哈密顿图的判定条件。"
+    },
+    {
+      "title": "树上点分治是谁提出来的？",
+      "url": "https://www.zhihu.com/answer/2042223624",
+      "summary": "正文说明树分治依赖树的重心。"
+    },
+    {
+      "title": "象棋中的马能把棋盘每一个格都跳完吗？",
+      "url": "https://www.zhihu.com/answer/2098398302",
+      "summary": "正文把棋盘跳马问题建模为方格图上的遍历问题。"
+    },
+    {
+      "title": "象棋中的马能把棋盘每一个格都跳完吗？",
+      "url": "https://www.zhihu.com/answer/2103225870",
+      "summary": "正文把棋盘走遍问题转化为图与移动向量覆盖问题。"
+    },
+    {
+      "title": "数学证明费了这么大劲把这些东西证明出来，对一个人的人生、对我们身处其中的这个世界，到底有什么影响呢？",
+      "url": "https://www.zhihu.com/answer/2151356205",
+      "summary": "正文围绕平面图判定、K5 与 K3,3 说明图论定理及应用。"
+    },
+    {
+      "title": "布阵者VS破阵者，谁能获胜？",
+      "url": "https://www.zhihu.com/answer/2252025997",
+      "summary": "正文把目标集族表述为超图并用顶点和超边分析。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/2252220588",
+      "summary": "正文把三角剖分后的多边形转化为平面图分析。"
+    },
+    {
+      "title": "你所在的学科或专业领域中，有哪些方面被数学知识深刻地改变了？",
+      "url": "https://www.zhihu.com/answer/2289589961",
+      "summary": "正文从图的邻接矩阵和图论应用解释证明。"
+    },
+    {
+      "title": "2022 这个数字在数学意义上有什么特别的，为什么？",
+      "url": "https://www.zhihu.com/answer/2293753968",
+      "summary": "正文把环面染色问题明确建模为图。"
+    },
+    {
+      "title": "ACM中有哪些偏僻、不为大部分人所知的算法?",
+      "url": "https://www.zhihu.com/answer/2311646516",
+      "summary": "正文集中介绍最小生成树、最小割树、团的搜索和平面图判定等图算法。"
+    },
+    {
+      "title": "TREE(3)前几项是什么？",
+      "url": "https://www.zhihu.com/answer/2352277739",
+      "summary": "正文用图论中的树定义 TREE 游戏。"
+    },
+    {
+      "title": "SSCG(3)的含义是什么？定义这个大数的规则是什么样的？",
+      "url": "https://www.zhihu.com/answer/2358280357",
+      "summary": "正文用简单次立方图、同胚嵌入和最大序列长度定义 SSCG。"
+    },
+    {
+      "title": "到目前为止，有没有给出TSP（旅行商问题的）数学规划模型，或者说为什么给不出来？",
+      "url": "https://www.zhihu.com/answer/2386370722",
+      "summary": "正文把旅行商问题建模为加权无向图中的最小 Hamilton 回路。"
+    },
+    {
+      "title": "如何可视化地表现一个群？",
+      "url": "https://www.zhihu.com/answer/2412144811",
+      "summary": "正文用图表示群元素及循环关系，并讨论图的可视化结构。"
+    },
+    {
+      "title": "做科研时，简化了领域内一个大佬的证明值得发表吗?",
+      "url": "https://www.zhihu.com/answer/2415777930",
+      "summary": "正文说明作者曾用交换分层图完整证明 Plunnecke-Ruzsa 不等式。"
+    },
+    {
+      "title": "2022强化学习的方向？",
+      "url": "https://www.zhihu.com/answer/2447529444",
+      "summary": "正文用顶点和边的图结构建模图神经网络及组合优化问题。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2447759464",
+      "summary": "正文用群生成元上的随机游走和 Cayley graph 的扩展性解释该结论。"
+    },
+    {
+      "title": "范畴论本质上是图(Graph)的分类学吗？",
+      "url": "https://www.zhihu.com/answer/2463652454",
+      "summary": "正文直接比较范畴与有向图这一图论对象的表示。"
+    },
+    {
+      "title": "2022年度邵逸夫奖已经揭晓，谁能介绍一下数学科学奖的两位得主？",
+      "url": "https://www.zhihu.com/answer/2501051051",
+      "summary": "正文介绍 Alon 在扩展图、Ramsey 数与极值图论方面的成果。"
+    },
+    {
+      "title": "韩裔许埈珥、乌克兰维娅佐夫斯卡等四位数学家获得 2022 菲尔兹奖，他们在各自领域做出了怎样的贡献？",
+      "url": "https://www.zhihu.com/answer/2560517366",
+      "summary": "正文介绍图的着色计数可表示为关于颜色数的多项式，并说明其系数具有先增后减的单峰性质。"
+    },
+    {
+      "title": "Pytorch 的自动微分机制是自动创建一个可以记录所有数据操作的计算图（有向无环图(DAG)）吗？",
+      "url": "https://www.zhihu.com/answer/2601681376",
+      "summary": "用有向无环图描述计算图结构，并解释前向与反向遍历计算梯度的过程。"
+    },
+    {
+      "title": "可以留下一个优美的不等式吗？",
+      "url": "https://www.zhihu.com/answer/2604669872",
+      "summary": "讲解图兰定理、五色定理及图着色中的边数和色数上界。"
+    },
+    {
+      "title": "组合数学有没有高等工具？",
+      "url": "https://www.zhihu.com/answer/2642586071",
+      "summary": "介绍谱图论、图极限理论及其在极值图论中的应用。"
+    },
+    {
+      "title": "参加数学建模国赛，需要掌握哪些模型和算法？",
+      "url": "https://www.zhihu.com/answer/2645490164",
+      "summary": "整理最短路、最小生成树、网络流、旅行商与路径规划等图论模型。"
+    },
+    {
+      "title": "计算机专业有必要学好离散数学吗？",
+      "url": "https://www.zhihu.com/answer/2667298886",
+      "summary": "正文解释离散数学中的图论是欧拉回路、最短路和最大流等图论算法的理论基础。"
+    },
+    {
+      "title": "数学建模中最重要的算法有哪些？",
+      "url": "https://www.zhihu.com/answer/2670009439",
+      "summary": "正文将图论列为建模工具，并具体列出最短路、网络流和匹配等算法。"
+    },
+    {
+      "title": "「数学的进步不是由无数群众推动的，而是从古至今极个别人才个人能力推动前进的」这句话对不对，为什么？",
+      "url": "https://www.zhihu.com/answer/2685789793",
+      "summary": "正文明确说明欧拉从七桥问题提炼一笔画并发展图论，对应图论这一离散数学分支。"
+    },
+    {
+      "title": "如何看待知乎用户@MJX99证明了考拉玆猜想？",
+      "url": "https://www.zhihu.com/answer/2729049708",
+      "summary": "正文构造以正奇数为结点、以考拉兹迭代关系为有向边的图，并用有限有向路径表述猜想。"
+    },
+    {
+      "title": "量子计算机是不是完全是骗局？",
+      "url": "https://www.zhihu.com/answer/2767797573",
+      "summary": "正文把旅行商问题表述为带权完全无向图中寻找最小权哈密尔顿回路，具体应用了图论建模。"
+    },
+    {
+      "title": "「一度辍学的数学差生」韩裔数学家许埈珥获得 2022 年菲尔兹奖，这带来哪些启示？",
+      "url": "https://www.zhihu.com/answer/2809800846",
+      "summary": "正文定义图论中的顶点着色问题，以四色定理为背景并讨论不同图的着色方案计数。"
+    },
+    {
+      "title": "你自己做出的第一个发表的纯数研究结果的研究过程如何？",
+      "url": "https://www.zhihu.com/answer/2820876936",
+      "summary": "正文将分块后的空间抽象为图，在图的模型中寻找特殊子图来推导拓扑下界。"
+    },
+    {
+      "title": "能分享一道如果“注意不到”就出不来的数学题吗？",
+      "url": "https://www.zhihu.com/answer/2828883640",
+      "summary": "正文把河岸与小桥抽象成 n*(n-1) 阵列的连通网络，求拆除边后两端仍连通的概率，属于图论中的连通性问题。"
+    },
+    {
+      "title": "做过最气的题是什么题？",
+      "url": "https://www.zhihu.com/answer/2867479089",
+      "summary": "正文以格子间相邻移动和一次经过全部石板为问题，并区分经过全部路线的一笔画，实际讨论网格图上的遍历路径。"
+    },
+    {
+      "title": "异常检测（anomaly/ outlier detection）领域还有那些值得研究的问题？",
+      "url": "https://www.zhihu.com/answer/2910462060",
+      "summary": "正文把样本建模为图节点并利用节点集合、连边集合和邻接矩阵描述图结构数据。"
+    },
+    {
+      "title": "有什么数学定理一般人都觉得是常识，但严谨证明起来却挺费力的？",
+      "url": "https://www.zhihu.com/answer/2928791328",
+      "summary": "正文证明连通平面图的欧拉公式，并推出简单平面图存在低次顶点及边数上界。"
+    },
+    {
+      "title": "有没有哪些数学题的某一步处理堪称神来之笔？",
+      "url": "https://www.zhihu.com/answer/2955430149",
+      "summary": "正文系统介绍谱图论，讨论简单图、正则图、独立数及超立方图等图论对象和结论。"
+    },
+    {
+      "title": "有哪些美丽或神奇的理科公式？",
+      "url": "https://www.zhihu.com/answer/2971423450",
+      "summary": "正文系统讲解平面图欧拉公式、图兰定理和凯莱公式，分别讨论对偶图、归纳法及双射证明。"
+    },
+    {
+      "title": "怎么看待数学界天才崇拜这种文化？",
+      "url": "https://www.zhihu.com/answer/2972831927",
+      "summary": "正文以七桥问题说明把具体画图问题抽象为奇偶点计数，体现图论式的建模方法。"
+    },
+    {
+      "title": "你在学习数学/物理时最开心的时刻是什么？",
+      "url": "https://www.zhihu.com/answer/3006813071",
+      "summary": "正文定义正则图与强正则图的共同邻居条件，并以五边形、utility graph 和 (99,14,1,2) 例子讨论其存在性，实质展开图论。"
+    },
+    {
+      "title": "数学史上有哪些比较著名的猜想因为有反例的存在而没有成为定理？",
+      "url": "https://www.zhihu.com/answer/3025689020",
+      "summary": "正文用完全图的边集和完全二部子图编码集合系，并通过交集大小控制对应点的距离。"
+    },
+    {
+      "title": "为什么行测越做越差？",
+      "url": "https://www.zhihu.com/answer/3033692931",
+      "summary": "正文用奇点数量给出判断一笔画的规则及多笔画数公式，对应图论中的路径遍历判定。"
+    },
+    {
+      "title": "如何成为一个数学家？",
+      "url": "https://www.zhihu.com/answer/3123945798",
+      "summary": "正文以图的顶点着色、色度多项式和 Read 猜想为例，实质展开了图论中的组合问题。"
+    },
+    {
+      "title": "将中国城市名首尾相连，最多能连几个？",
+      "url": "https://www.zhihu.com/answer/3216783235",
+      "summary": "正文把城市作为点、首尾可接作为边，并将最长城市链建模为图中的最大回路。"
+    },
+    {
+      "title": "因果推断会是下一个AI热潮吗？",
+      "url": "https://www.zhihu.com/answer/3234138819",
+      "summary": "正文定义因果图的节点和有向边，并借助链式、叉式、V 式结构说明条件独立与干预。"
+    },
+    {
+      "title": "请问组合学、图论乃至离散数学领域的国内外知名学者有哪些？",
+      "url": "https://www.zhihu.com/answer/3235342104",
+      "summary": "正文列举谱图论、随机图、极值图论和扩张图等图论研究方向及相关学术贡献。"
+    },
+    {
+      "title": "希尔伯特的数学成就有哪些？",
+      "url": "https://www.zhihu.com/answer/3257173906",
+      "summary": "正文具体说明欧拉把七桥与陆地抽象为点边关系并化为一笔画问题，形成图论的早期定理。"
+    },
+    {
+      "title": "将中国城市名首尾相连，最多能连几个？",
+      "url": "https://www.zhihu.com/answer/3259384066",
+      "summary": "正文定义有向图中的 trail 与最长 trail 问题，并通过归约证明其 NP-hard，属于图论与算法问题。"
+    },
+    {
+      "title": "戴克斯特拉算法（Dijkstra）的本质是贪心，还是动态规划？",
+      "url": "https://www.zhihu.com/answer/3277987537",
+      "summary": "正文把图上的最短路径问题写成顶点、边、关联矩阵和路径向量的图论模型，并反向执行最短路迭代。"
+    },
+    {
+      "title": "如何直观理解矩阵和线性代数？",
+      "url": "https://www.zhihu.com/answer/3323084397",
+      "summary": "正文用邻接矩阵表示图，并通过对矩阵乘幂计算不同长度路径的数量。"
+    },
+    {
+      "title": "请问组合学、图论乃至离散数学领域的国内外知名学者有哪些？",
+      "url": "https://www.zhihu.com/answer/3339455735",
+      "summary": "正文用布尔向量和邻接条件定义离散超立方体图，并继续讨论图上的设计与随机游走。"
+    },
+    {
+      "title": "六人定律是否真的成立？",
+      "url": "https://www.zhihu.com/answer/3361368643",
+      "summary": "正文把人际关系抽象为节点和边，并以逐层扩展的熟人网络解释六人定律。"
+    },
+    {
+      "title": "「数学之美」有什么例子？",
+      "url": "https://www.zhihu.com/answer/3426985252",
+      "summary": "正文把过河问题的十种安全状态建成图，并将最短运送方案转化为图上的最短路径。"
+    },
+    {
+      "title": "2024 年阿贝尔奖授予解释随机性的数学家 Michel Talagrand，这项研究有哪些意义？",
+      "url": "https://www.zhihu.com/answer/3441853404",
+      "summary": "正文把递增图性质表述为超立方体上的布尔函数，并讨论随机图阈值的突变区间。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/3477201708",
+      "summary": "正文解释欧拉如何把哥尼斯堡七桥问题抽象成一笔画问题，并据此给出无解判断和欧拉路线。"
+    },
+    {
+      "title": "能通俗地解释一下TREE（3）吗?",
+      "url": "https://www.zhihu.com/answer/3477463351",
+      "summary": "正文用不能闭环的灯球和电线定义树结构，并通过结构包含关系说明不同树的区分规则。"
+    },
+    {
+      "title": "有哪些出名的大数介于G（64）和TREE（3）之间？",
+      "url": "https://www.zhihu.com/answer/3485102839",
+      "summary": "正文介绍源于图论的 n 与 SCG 大数函数，并比较其已知下界和快速增长层级。"
+    },
+    {
+      "title": "有没有在顶级数学期刊上发表了之后又被证明为错误的论文？",
+      "url": "https://www.zhihu.com/answer/3497901587",
+      "summary": "正文定义无导出偶圈图与弦图两类图，并说明Bruce Reed猜想在这些图上的命题内容及其证明纠错经过。"
+    },
+    {
+      "title": "如何看待某本科生在 arXiv 声称破解千禧年数学难题 NP 完全问题?",
+      "url": "https://www.zhihu.com/answer/3500437517",
+      "summary": "正文定义所讨论图的顶点度数限制，并围绕其三着色判定展开论文解读。"
+    },
+    {
+      "title": "如何看待姜萍把「ƶ̇=b」抄写成了「主=6」 ？",
+      "url": "https://www.zhihu.com/answer/3538720931",
+      "summary": "正文用顶点、最短路径和网络直径解释“六度分离”，并由两段路径相加说明节点距离至多为 6。"
+    },
+    {
+      "title": "葛立恒数是什么，它在数学上有哪些意义？",
+      "url": "https://www.zhihu.com/answer/3568066010",
+      "summary": "正文用顶点、边和边着色建立社交关系图，并据此讲解完全图与拉姆齐问题。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/3594058459",
+      "summary": "正文把七桥问题抽象为顶点和边，并用奇度顶点数量解释为何不存在一次不重复走完的路线。"
+    },
+    {
+      "title": "有哪些复杂度为O(1)的神奇算法？",
+      "url": "https://www.zhihu.com/answer/3614760702",
+      "summary": "正文以地图的二色、三色和四色染色判定为例，讨论图着色问题及其不同复杂度。"
+    },
+    {
+      "title": "如何证明SSCG(3)>TREE(3)？",
+      "url": "https://www.zhihu.com/answer/3619954642",
+      "summary": "正文定义了简单三次图、子式、同胚嵌入和良拟序，并用图论关系解释 SSCG 与 TREE 游戏为何有限。"
+    },
+    {
+      "title": "你见过最优雅的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/36233551630",
+      "summary": "正文把矩阵解释为有向图的邻接矩阵，并通过回路计数完成证明。"
+    },
+    {
+      "title": "分寝室，是否存在一个多项式时间解法?",
+      "url": "https://www.zhihu.com/answer/50893366662",
+      "summary": "正文以无向图和导出子图为对象定义三角划分问题，并通过图论问题规约研究计算复杂度。"
+    },
+    {
+      "title": "世界上任何两个人的社交圈，真的只相隔六个人吗?",
+      "url": "https://www.zhihu.com/answer/78669084240",
+      "summary": "正文把 Ramsey 定理转述为完全图二染色问题，并用顶点、边和三角形完成 R(3,3)=6 的证明。"
+    },
+    {
+      "title": "为什么都喜欢碰瓷葛立恒数而 TREE(3) 无人问津？",
+      "url": "https://www.zhihu.com/answer/117882704485",
+      "summary": "正文以节点染色的树、删点删边后的嵌入关系和序列关系定义 TREE 函数。"
+    },
+    {
+      "title": "在数学的学习过程中，你见过最妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/123637366164",
+      "summary": "正文围绕图的染色多项式与无环定向定理展开，并用超平面排列给出证明。"
+    },
+    {
+      "title": "正态分布是最自然的，但为什么人类社会中会出现「赢家通吃」现象呢？",
+      "url": "https://www.zhihu.com/answer/125111767601",
+      "summary": "正文用节点、连边、度和逐步增长描述 BA 网络模型，并计算优先连接的概率。"
+    },
+    {
+      "title": "【运筹优化】【概率统计】【Learning Theory】等领域有哪些Open Problem？",
+      "url": "https://www.zhihu.com/answer/126787172841",
+      "summary": "正文定义图着色问题、三色可染图及最少颜色数，并梳理其近似着色算法进展。"
+    },
+    {
+      "title": "除了代数、拓扑、序，数学有没有可能还隐藏其他基础结构？",
+      "url": "https://www.zhihu.com/answer/127875244852",
+      "summary": "正文把图定义为顶点和边构成的关系网络，并讨论极值图论、组合图论和代数图论等研究路径。"
+    },
+    {
+      "title": "高中数学有没有什么比较牛 X 的公式？",
+      "url": "https://www.zhihu.com/answer/1896699863229490499",
+      "summary": "正文把区域与桥抽象为顶点和边，并用连通性及奇点个数给出欧拉一笔画判据，具体讲解图论建模。"
+    },
+    {
+      "title": "在Minecraft中，地图中的海洋生物群系占比需要达到多少，才能使得世界中出现较为典型的海洋？",
+      "url": "https://www.zhihu.com/answer/1908339057525761086",
+      "summary": "正文在二维方格图上定义键逾渗和座逾渗，并以连通路径与团簇分析贯穿概率。"
+    },
+    {
+      "title": "计算机学科用到的数学是否十分浅显，不涉及到高深的数学理论，比如抽象代数，代数拓扑，代数几何等?",
+      "url": "https://www.zhihu.com/answer/1912452729512632587",
+      "summary": "正文以图同构问题为例，介绍 Babai 拟多项式算法的图论背景、改进幅度及尚存的复杂度边界。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/1927760565486466057",
+      "summary": "正文以图的 n 次乘积作为核心技术，说明如何从乘积结构推导更紧的界。"
+    },
+    {
+      "title": "数学中有哪些漂亮的无字证明？",
+      "url": "https://www.zhihu.com/answer/1929823110015719045",
+      "summary": "正文把七桥问题转成顶点与边，并用奇度顶点数量给出欧拉路径的判定条件。"
+    },
+    {
+      "title": "中科大、清华团队在 arxiv 发布论文，证明拉姆齐数的新下限，这个工作对我们有哪些启发？",
+      "url": "https://www.zhihu.com/answer/1929924960526239271",
+      "summary": "正文围绕随机球形图的边着色、clique和independent set及其拉姆齐数下界展开图论论证。"
+    },
+    {
+      "title": "有没有比较浅显的拓扑学在数学分支中应用的例子？",
+      "url": "https://www.zhihu.com/answer/1940195930956619846",
+      "summary": "正文把棋盘格子抽象成带颜色顶点、把相邻格子连边，再用道路连通性刻画黑白双方的获胜条件。"
+    },
+    {
+      "title": "理论计算机科学（TCS）能否反哺纯数学？",
+      "url": "https://www.zhihu.com/answer/1949302943066067710",
+      "summary": "正文明确用顶点、边和连通结构把神经网络建模为图，属于图论建模。"
+    },
+    {
+      "title": "为什么函数求导之后表达式长度大大超出原来的表达式?",
+      "url": "https://www.zhihu.com/answer/1954152484693058426",
+      "summary": "正文系统比较表达式树、DAG和E-Graph，用顶点、边及共享结构处理符号表达式。"
+    },
+    {
+      "title": "哪些看似与图论无关的问题可用图论模型解决？",
+      "url": "https://www.zhihu.com/answer/1961854615675994752",
+      "summary": "正文以有向图的欧拉路径和 Swan 定理给出 Amitsur–Levitzki 定理的图论证明。"
+    },
+    {
+      "title": "大家是如何理解组合数学的？",
+      "url": "https://www.zhihu.com/answer/1963538558267692653",
+      "summary": "正文把图论定位为研究特殊组合结构的分支，并说明可通过对图去边等操作逐步化简问题。"
+    },
+    {
+      "title": "你曾经看过哪些精彩的数学书？",
+      "url": "https://www.zhihu.com/answer/1964239856583574623",
+      "summary": "正文把三个水杯的水量状态建模为坐标点和转移边，并通过寻找路径求解倒水问题。"
+    },
+    {
+      "title": "有没有学数学的大佬给我讲一些非常牛逼的东西，震撼一下我这个非数学系的大学生？",
+      "url": "https://www.zhihu.com/answer/1967495485624422571",
+      "summary": "正文把可达水量状态编码为点、单次倒水动作编码为连线，并通过路径搜索求得各目标水量的方案。"
+    },
+    {
+      "title": "群论的精髓、基本套路、用途是什么？",
+      "url": "https://www.zhihu.com/answer/1968054395439646561",
+      "summary": "正文以节点、有向边和遍历关系说明 Cayley 图如何表示群元素与生成元。"
+    },
+    {
+      "title": "剑桥研究称大脑有 4 次关键转折，约 32 岁才「成年」，这对认知发展和健康管理有何启示？",
+      "url": "https://www.zhihu.com/answer/1977530306337734958",
+      "summary": "正文讨论脑网络研究中 K-Core 等图论指标、网络密度控制和结构组织比较的统计解释与局限。"
+    },
+    {
+      "title": "剑桥研究称人类大脑 32 岁才真正「成年」，一生有 4 次关键转折，真是这样吗？大脑成年会有哪些变化？",
+      "url": "https://www.zhihu.com/answer/1978168167579808728",
+      "summary": "正文具体讨论脑网络的图论指标、密度控制和 K-Core，并分析这些网络结构指标对年龄转折结论的影响。"
+    },
+    {
+      "title": "如何做这道困难的图论题？",
+      "url": "https://www.zhihu.com/answer/1984652001280287143",
+      "summary": "正文围绕有限简单图定义邻接矩阵，并把满足给定顶点赋值条件的图分类问题转化为谱条件。"
+    },
+    {
+      "title": "为什么科学无法解释意识呢？",
+      "url": "https://www.zhihu.com/answer/2005266236695679176",
+      "summary": "正文用节点连接与分叉定义树形结构，并以能否嵌入已有树描述 TREE 序列，涉及图论中的树和嵌入关系。"
+    },
+    {
+      "title": "如何看待丘成桐曾说：世界上所有的数学都是在微积分和线性代数上的变化?",
+      "url": "https://www.zhihu.com/answer/2019131220915680113",
+      "summary": "正文说明邻接矩阵编码图结构，并通过特征值研究连通性和谱半径等图论性质。"
+    },
+    {
+      "title": "有哪些神奇的数学巧合？",
+      "url": "https://www.zhihu.com/answer/2033658295362270462",
+      "summary": "正文把 Kaprekar 操作的数字状态组织成有限有向图，并用出度、循环和吸引盆解释收敛结构。"
+    },
+    {
+      "title": "如何评价 OpenAI 新模型 GPT-5.6 Sol Ultra，在不到一小时内证明循环双覆盖猜想？",
+      "url": "https://www.zhihu.com/answer/2060310855439356517",
+      "summary": "正文具体定义无桥图、环和割边，并陈述循环双覆盖猜想，属于图论概念与问题的实质讲解。"
+    },
+    {
+      "title": "如何评价 OpenAI 新模型 GPT-5.6 Sol Ultra，在不到一小时内证明循环双覆盖猜想？",
+      "url": "https://www.zhihu.com/answer/2060700642419676188",
+      "summary": "正文定义多重图的桥、环、流和循环双覆盖，并围绕循环双覆盖猜想展开图论证明。"
+    },
+    {
+      "title": "如何看待近期 AI 密集攻克数学开放猜想（雅可比猜想、DGG 猜想、Erdős 单位距离猜想等）？",
+      "url": "https://www.zhihu.com/answer/2063857204051157850",
+      "summary": "正文明确讨论正则竞赛图的非同构完全枚举、强 Seymour 顶点计数和极值结论，属于以图论对象为主体的研究与计算验证。"
+    },
+    {
+      "title": "六人定律是否真的成立？",
+      "url": "https://www.zhihu.com/answer/2065482475967713731",
+      "summary": "正文把人与人之间的双向认识关系视为网络，并讨论节点、链路数量和链路长度分布的图论建模。"
+    },
+    {
+      "title": "受限玻尔兹曼机（RBM）学习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/22794772",
+      "summary": "正文用二部图刻画 RBM 的可见层、隐藏层及层间全连接结构，并讨论给定一层后的条件独立关系。"
+    },
+    {
+      "title": "数据挖掘|概率图模型（一）",
+      "url": "https://zhuanlan.zhihu.com/p/22751416",
+      "summary": "正文以有向无环图表示随机事件之间的依赖，分解联合概率并讨论 head-to-tail 等基本图结构。"
+    },
+    {
+      "title": "有趣的数学问题",
+      "url": "https://zhuanlan.zhihu.com/p/23128381",
+      "summary": "正文把哥尼斯堡七桥问题抽象为一笔画图论问题，并给出奇点数目与欧拉路径的存在条件。"
+    },
+    {
+      "title": "<代数>格与布尔代数",
+      "url": "https://zhuanlan.zhihu.com/p/24338970",
+      "summary": "正文用邻接矩阵的布尔幂求图的路径矩阵，实质涉及图的邻接关系和可达性。"
+    },
+    {
+      "title": "数学建模思想方法大全及方法适用范围",
+      "url": "https://zhuanlan.zhihu.com/p/24532547",
+      "summary": "正文展开图论中的最短路、最小生成树、匹配和最大流等典型问题。"
+    },
+    {
+      "title": "（非严格）次小生成树",
+      "url": "https://zhuanlan.zhihu.com/p/24950356",
+      "summary": "正文把次小生成树求解化为枚举非树边并删除树上环中最大边，具体运用了生成树与最小生成树算法。"
+    },
+    {
+      "title": "揭开知识库问答KB-QA的面纱3·信息抽取篇",
+      "url": "https://zhuanlan.zhihu.com/p/25782244",
+      "summary": "正文把知识库建模为实体节点和关系边组成的图，并抽取主题词周围一至两跳的子图确定候选答案。"
+    },
+    {
+      "title": "想了解概率图模型？你要先理解图论的基本定义与形式",
+      "url": "https://zhuanlan.zhihu.com/p/26133450",
+      "summary": "正文从图、结点与边出发，区分有向图和无向图，并给出图的集合有序对定义及概率图模型中的基本应用。"
+    },
+    {
+      "title": "一些和数学分析有些关系的杂记",
+      "url": "https://zhuanlan.zhihu.com/p/27156295",
+      "summary": "正文把 Ramsey 问题写成完全图的红蓝边染色，并给出图论概率方法的估计证明。"
+    },
+    {
+      "title": "【学界】离散/整数/组合/非凸优化概述及其在AI的应用",
+      "url": "https://zhuanlan.zhihu.com/p/27429666",
+      "summary": "正文以图的最大流问题为例，说明顶点、边、容量约束和穷举搜索复杂度，实质涉及图论建模。"
+    },
+    {
+      "title": "Graph Analysis and Its Application",
+      "url": "https://zhuanlan.zhihu.com/p/28298952",
+      "summary": "正文给出图论中以顶点和边表示对象及其关系的定义，并用七桥问题、网页链接等例子说明。"
+    },
+    {
+      "title": "伽罗瓦留下的遗物：日本史上最难的高考题！！——东京大学1998年高考第三题（理科）",
+      "url": "https://zhuanlan.zhihu.com/p/28544089",
+      "summary": "正文定义由顶点和边组成的图，并以两种图变换操作研究可构造图形。"
+    },
+    {
+      "title": "一些我很喜欢的组合证明",
+      "url": "https://zhuanlan.zhihu.com/p/29191714",
+      "summary": "正文把 Roth 定理转化为三部图中的三角形问题，并用 Euler 公式和随机子图证明交叉数不等式。"
+    },
+    {
+      "title": "拓扑数据分析－持续同调（一）",
+      "url": "https://zhuanlan.zhihu.com/p/31734839",
+      "summary": "正文复习无向图、有向图和加权图的顶点与边定义，并用有向图表示有限拓扑空间。"
+    },
+    {
+      "title": "Multi-Agent System控制(2)图论中的矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/32345254",
+      "summary": "正文以节点和边为出发点，介绍邻接矩阵、度矩阵、关联矩阵及拉普拉斯矩阵的图论表示。"
+    },
+    {
+      "title": "Multi-Agent System控制(3)一致性控制",
+      "url": "https://zhuanlan.zhihu.com/p/32355053",
+      "summary": "正文用图的连通性、边数和连通性特征值分析多智能体状态的一致性收敛。"
+    },
+    {
+      "title": "烧脑预警！5个生活中的概率问题，告诉你直觉多不靠谱",
+      "url": "https://zhuanlan.zhihu.com/p/32544279",
+      "summary": "正文把社交关系建成点与边构成的图，并用顶点度数分析友谊悖论。"
+    },
+    {
+      "title": "计算几何第四周：维诺图（Voronoi Diagram）",
+      "url": "https://zhuanlan.zhihu.com/p/33896575",
+      "summary": "正文用平面图嵌入、欧拉公式和DCEL结构分析Voronoi图的顶点、边与面关系，展开图论中的平面图表示与遍历。"
+    },
+    {
+      "title": "【综述长文】因果关系是什么？结构因果模型入门",
+      "url": "https://zhuanlan.zhihu.com/p/33860572",
+      "summary": "正文用有向无环图、路径和d分隔等图论工具表示因果与概率依赖结构。"
+    },
+    {
+      "title": "计算几何第五周：完美三角剖分（Delaunay Triangulation）",
+      "url": "https://zhuanlan.zhihu.com/p/34158974",
+      "summary": "正文系统讲解 Delaunay 三角剖分及 Gabriel 图、相对邻居图和欧氏最小生成树之间的子图关系，属于图论中的几何邻近图。"
+    },
+    {
+      "title": "迷你围棋之奥妙（一）：二路围棋",
+      "url": "https://zhuanlan.zhihu.com/p/34426765",
+      "summary": "正文把棋局局面和走法建成有向图，并讲解顶点、边、道路、简单道路和哈密顿道路。"
+    },
+    {
+      "title": "Copositive Programming简介",
+      "url": "https://zhuanlan.zhihu.com/p/34772469",
+      "summary": "正文定义无向图的独立集和稳定数，并给出稳定数的整数规划及 copositive 重构。"
+    },
+    {
+      "title": "Number Theory. II. Triangle Removal Lemma",
+      "url": "https://zhuanlan.zhihu.com/p/34777222",
+      "summary": "正文围绕图的三角形数量、删边和 triangle-free 条件陈述并证明三角形移除引理。"
+    },
+    {
+      "title": "“填色问题”困扰数学界60年，这个生物学家的方法会是终极答案吗？",
+      "url": "https://zhuanlan.zhihu.com/p/36116542",
+      "summary": "正文把国家着色转化为点和边的图论模型，并围绕图的着色数展开讨论。"
+    },
+    {
+      "title": "四色定理和Hadwiger猜想",
+      "url": "https://zhuanlan.zhihu.com/p/38071000",
+      "summary": "正文把地图染色转化为平面图顶点染色，并展开完全图、minor、Kuratowski 定理与 Hadwiger 猜想。"
+    },
+    {
+      "title": "1.Belief Propagation 信念传递算法",
+      "url": "https://zhuanlan.zhihu.com/p/38172096",
+      "summary": "正文用因子图表示变量与相互作用，并在图上定义消息传递和递推更新，具体展开了图论式建模。"
+    },
+    {
+      "title": "JuMP: 用Julia进行优化建模及求解",
+      "url": "https://zhuanlan.zhihu.com/p/40807662",
+      "summary": "正文以独立集最大基数为例建立整数规划和半正定规划松弛，展开图论问题的建模。"
+    },
+    {
+      "title": "美国IMO集训队讲义的一道题",
+      "url": "https://zhuanlan.zhihu.com/p/41039603",
+      "summary": "正文以图的闭路径计数为主线，并利用邻接矩阵研究图上的长度与路径数量。"
+    },
+    {
+      "title": "【干货合集】从贝叶斯方法谈到贝叶斯网络",
+      "url": "https://zhuanlan.zhihu.com/p/41069540",
+      "summary": "正文把随机变量及其依赖关系表示为有向无环图，并据此讲解 D-分离和因子图。"
+    },
+    {
+      "title": "线索二叉树直观定义以及易懂的图例（前续）",
+      "url": "https://zhuanlan.zhihu.com/p/41994728",
+      "summary": "正文定义线索二叉树，用中序前驱和后继改写空指针，属于树形离散结构的遍历方法。"
+    },
+    {
+      "title": "数论之矩阵快速幂",
+      "url": "https://zhuanlan.zhihu.com/p/42639682",
+      "summary": "正文用矩阵乘法的三重循环解释其计数图中固定长度路径数的作用。"
+    },
+    {
+      "title": "从迷宫到扫地机器人 | 混乱博物馆",
+      "url": "https://zhuanlan.zhihu.com/p/43663932",
+      "summary": "正文以迷宫路径、七桥问题和哈密顿路径说明如何用点、边及遍历算法研究图论问题。"
+    },
+    {
+      "title": "复杂网络中的统计物理（一）",
+      "url": "https://zhuanlan.zhihu.com/p/45193794",
+      "summary": "正文用顶点、边、邻接矩阵、度和聚簇系数等图论对象描述网络结构。"
+    },
+    {
+      "title": "MIT—线性代数笔记11 矩阵空间、秩1矩阵和小世界图",
+      "url": "https://zhuanlan.zhihu.com/p/45840821",
+      "summary": "正文用结点、边和矩阵描述小世界图，并讨论图中人物之间的最短距离。"
+    },
+    {
+      "title": "MIT—线性代数笔记12 图、网络、关联矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/45853245",
+      "summary": "正文从结点、边和环出发讨论图的结构，并说明树和环数等图论性质。"
+    },
+    {
+      "title": "GraphGAN: Graph Representation Learning with GAN",
+      "url": "https://zhuanlan.zhihu.com/p/47622003",
+      "summary": "正文定义图的节点、边和邻居关系，并用 BFS 生成树、路径和最短距离组织节点概率。"
+    },
+    {
+      "title": "Johnson 算法",
+      "url": "https://zhuanlan.zhihu.com/p/48523094",
+      "summary": "正文在带权有向图上构造汇点到各点的最短距离，并利用势函数重赋边权同时保持最短路不变。"
+    },
+    {
+      "title": "Locally Linear Embedding",
+      "url": "https://zhuanlan.zhihu.com/p/47304678",
+      "summary": "正文以近邻顶点和边构造邻接图，并用图拉普拉斯矩阵的广义特征值分解实现降维。"
+    },
+    {
+      "title": "2-SAT",
+      "url": "https://zhuanlan.zhihu.com/p/50211772",
+      "summary": "正文把 2-SAT 子句构造为蕴含边，并利用强连通分量和有向图拓扑序判定并构造真值赋值。"
+    },
+    {
+      "title": "围棋布局的数学原理初论",
+      "url": "https://zhuanlan.zhihu.com/p/50558177",
+      "summary": "正文用图论中的树、连通分支、边界和距离分析围棋棋块与攻防位置。"
+    },
+    {
+      "title": "图拉普拉斯算子为何定义为D-W",
+      "url": "https://zhuanlan.zhihu.com/p/50742283",
+      "summary": "正文引入图的节点、邻接关系和边权，并由相邻节点的扰动推导图拉普拉斯矩阵。"
+    },
+    {
+      "title": "浅谈生成函数之EGF",
+      "url": "https://zhuanlan.zhihu.com/p/53079223",
+      "summary": "正文把标号无向连通图的计数转化为指数生成函数，并借助连通图与任意图的关系求解。"
+    },
+    {
+      "title": "概率图模型",
+      "url": "https://zhuanlan.zhihu.com/p/54101808",
+      "summary": "正文用有向图、无向图、无环结构、环与弦表示变量依赖并进行图结构分析。"
+    },
+    {
+      "title": "拟阵及应用（二）",
+      "url": "https://zhuanlan.zhihu.com/p/54072907",
+      "summary": "正文把无圈边集定义为图拟阵的独立集，并讨论生成森林、连通块和交换性质。"
+    },
+    {
+      "title": "Independent set&its applications in coding theory",
+      "url": "https://zhuanlan.zhihu.com/p/55932619",
+      "summary": "正文定义独立集、极大独立集、最大独立集和度数，并给出多个最大独立集数下界。"
+    },
+    {
+      "title": "【Graph Embedding】Struc2Vec：算法原理，实现和应用",
+      "url": "https://zhuanlan.zhihu.com/p/56733145",
+      "summary": "正文用图中顶点的度数、邻域和逐层有序度序列刻画结构相似性，并构造多层次带权图。"
+    },
+    {
+      "title": "【点滴】学习 Graph Laplacian",
+      "url": "https://zhuanlan.zhihu.com/p/56568843",
+      "summary": "正文定义无向图中的walk、trail、path、cycles、邻接矩阵和度矩阵，系统介绍图的基本结构。"
+    },
+    {
+      "title": "一道数学题让中国队全军覆没，网友：我连题目都看不懂",
+      "url": "https://zhuanlan.zhihu.com/p/57915582",
+      "summary": "正文以竞赛题为例具体定义图、顶点、边、路径、长度和简单回路，并解释一个图论命题。"
+    },
+    {
+      "title": "2019年RMM第三题答案详解",
+      "url": "https://zhuanlan.zhihu.com/p/58417075",
+      "summary": "正文先定义顶点、边、路径、圈、连通性和树，再围绕图的边数与圈长关系展开组合图论证明。"
+    },
+    {
+      "title": "神奇--时序数据转化成图结构做分类",
+      "url": "https://zhuanlan.zhihu.com/p/58714287",
+      "summary": "正文定义时序数据的Visibility Graph和Horizontal visibility graph，并说明图结构上的Motif、度、k-core等特征。"
+    },
+    {
+      "title": "经典半监督图卷积神经网络Semi-GCN",
+      "url": "https://zhuanlan.zhihu.com/p/58178060",
+      "summary": "正文用无向图的邻接矩阵、自环和度矩阵说明节点连接、邻居聚合与多跳传播。"
+    },
+    {
+      "title": "手把手教你将矩阵&概率画成图",
+      "url": "https://zhuanlan.zhihu.com/p/60731710",
+      "summary": "正文用顶点、边、二分图和完全二分图解释矩阵，并说明矩阵乘法对应沿边前进，属于图论。"
+    },
+    {
+      "title": "从 Graph Convolution Networks (GCN) 谈起",
+      "url": "https://zhuanlan.zhihu.com/p/60014316",
+      "summary": "正文讨论邻接矩阵、度矩阵和拉普拉斯算子及其谱性质，说明第二小特征值与连通性的关系，属于图论。"
+    },
+    {
+      "title": "图卷积神经网络(Graph Convolutional Network, GCN)",
+      "url": "https://zhuanlan.zhihu.com/p/60962304",
+      "summary": "正文从图的邻接矩阵和割集目标出发，讲解基于图结构的谱聚类方法。"
+    },
+    {
+      "title": "《离散数学》学习记录 - 图论",
+      "url": "https://zhuanlan.zhihu.com/p/62056687",
+      "summary": "正文系统整理图、通路、连通性、欧拉图、哈密顿图、树、平面图、匹配和二部图的定义与定理。"
+    },
+    {
+      "title": "旷视研究院提出ML-GCN：基于图卷积网络的多标签图像识别模型",
+      "url": "https://zhuanlan.zhihu.com/p/62212910",
+      "summary": "正文把标签作为图节点、标签依赖作为边，并通过相关系数矩阵在节点间传播信息。"
+    },
+    {
+      "title": "基于Spectral Graph Wavelet Transform的图卷积神经网络（上篇）",
+      "url": "https://zhuanlan.zhihu.com/p/62300527",
+      "summary": "正文围绕图顶点、邻域和图拉普拉斯矩阵解释图信号及其局部作用范围。"
+    },
+    {
+      "title": "算法｜图论 2W字知识点整理（超全面）",
+      "url": "https://zhuanlan.zhihu.com/p/64836188",
+      "summary": "正文系统整理度数序列、欧拉路、生成树、最短路、拓扑排序和连通分量等图论概念与算法。"
+    },
+    {
+      "title": "期望在高中数学竞赛中的一些应用举例",
+      "url": "https://zhuanlan.zhihu.com/p/64970384",
+      "summary": "正文把顶点划分为两部分，并用顶点排列与期望估计二分切割的跨边下界。"
+    },
+    {
+      "title": "Regularity Lemma(正则引理)",
+      "url": "https://zhuanlan.zhihu.com/p/65663946",
+      "summary": "正文陈述并证明图论中的 Szemerédi 正则引理，讨论顶点划分和边密度。"
+    },
+    {
+      "title": "图神经网络的背后：HOW POWERFUL ARE GRAPH NEURAL NETWORKS？",
+      "url": "https://zhuanlan.zhihu.com/p/66589334",
+      "summary": "正文以图同构和Weisfeiler-Lehman标签迭代刻画图结构，并比较不同邻域聚合方式。"
+    },
+    {
+      "title": "组合数学学习笔记（一）",
+      "url": "https://zhuanlan.zhihu.com/p/66925097",
+      "summary": "正文以完全图边染色定义 Ramsey 数，递归证明其存在性，并讨论 R(k,l) 的上下界。"
+    },
+    {
+      "title": "【其实贼简单】拉普拉斯算子和拉普拉斯矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/67336297",
+      "summary": "正文在图论框架下定义节点、边、边权、图函数和图梯度，属于图论展开。"
+    },
+    {
+      "title": "【深度学习】图神经网络与图卷积网络",
+      "url": "https://zhuanlan.zhihu.com/p/70028587",
+      "summary": "正文以顶点、边、邻接矩阵、度矩阵和拉普拉斯矩阵组织图数据，并讨论图的局部邻域聚合。"
+    },
+    {
+      "title": "D-Separation：一种概率图结构独立性的判断方法",
+      "url": "https://zhuanlan.zhihu.com/p/72011891",
+      "summary": "正文以节点、有向边、路径和碰撞点定义D-分离规则，实际使用图结构判断变量独立关系。"
+    },
+    {
+      "title": "移动火柴问题-完整解答|小学提高篇1",
+      "url": "https://zhuanlan.zhihu.com/p/72975775",
+      "summary": "正文构造数字间的移动关系图，并用图中的顶点、边和可达变化系统列出火柴等式。"
+    },
+    {
+      "title": "一语道破一笔画原理",
+      "url": "https://zhuanlan.zhihu.com/p/73201317",
+      "summary": "正文用图论中的奇顶点度数和欧拉一笔画判据解释哪些图能一笔画成。"
+    },
+    {
+      "title": "[论文]QuadricSLAM: 面向机器人的物体级语义SLAM系统",
+      "url": "https://zhuanlan.zhihu.com/p/73420573",
+      "summary": "正文把相机位姿与椭球路标的概率关系组织为因子图，并用其中的节点和约束边描述SLAM问题。"
+    },
+    {
+      "title": "手把手教你用傅立叶变换画可达鸭",
+      "url": "https://zhuanlan.zhihu.com/p/72632360",
+      "summary": "正文用最小生成树连接轮廓、讨论欧拉路径并用深度优先遍历生成绘图路径。"
+    },
+    {
+      "title": "为什么不能一次走遍哥尼斯堡的7座桥？",
+      "url": "https://zhuanlan.zhihu.com/p/75321733",
+      "summary": "正文把岛屿与河岸抽象为顶点、桥抽象为边，并把七桥问题转化为图的一笔画判定。"
+    },
+    {
+      "title": "两页纸证明了悬而未决几十年的计算机科学猜想",
+      "url": "https://zhuanlan.zhihu.com/p/75390268",
+      "summary": "正文把布尔函数涂色转化为高维方形顶点及邻接关系，并借助图结构讨论敏感度。"
+    },
+    {
+      "title": "七年思考，两页证明，华人学者解开计算机领域30年难题：布尔函数敏感度猜想",
+      "url": "https://zhuanlan.zhihu.com/p/75490095",
+      "summary": "正文把布尔输入对应到超立方体顶点，并用顶点、边和连通关系解释敏感度猜想的图论化。"
+    },
+    {
+      "title": "只用2页纸，北大校友攻破计算机30年难题！看懂仅需线性代数基础",
+      "url": "https://zhuanlan.zhihu.com/p/75525310",
+      "summary": "正文把超立方体顶点染色的敏感度问题转化为图、诱导子图和邻接关系问题。"
+    },
+    {
+      "title": "本科生也能看懂的华人科学家黄皓证明计算机领域30年难题布尔函数敏感度猜想——中文完全解读，干货满满",
+      "url": "https://zhuanlan.zhihu.com/p/75667808",
+      "summary": "正文系统介绍超立方体、邻接矩阵、导出子图和最大度，并用图论陈述证明思路。"
+    },
+    {
+      "title": "魔方与群论（三）(人类使用交换子，神仙减少生成元）",
+      "url": "https://zhuanlan.zhihu.com/p/76071120",
+      "summary": "正文解释 Cayley 图的构造、生成元对应箭头以及不同生成集合产生不同图。"
+    },
+    {
+      "title": "新证明解决了如何求无理数的近似值",
+      "url": "https://zhuanlan.zhihu.com/p/78636778",
+      "summary": "正文具体说明以分母为顶点、公共质因数为边构图，并用图结构量化近似集合的重叠。"
+    },
+    {
+      "title": "Turan有理指数猜想",
+      "url": "https://zhuanlan.zhihu.com/p/78958875",
+      "summary": "正文以 Turan 数、二部图、subdivision 和极值图论进展解释该图论猜想。"
+    },
+    {
+      "title": "知识图谱嵌入(KGE)：方法和应用的综述",
+      "url": "https://zhuanlan.zhihu.com/p/80149671",
+      "summary": "正文把知识图谱视为多关系图，解释实体间的多跳路径，并用路径组合规则完成关系推理。"
+    },
+    {
+      "title": "HNSW学习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/80552211",
+      "summary": "正文详细讲解分层近邻图的构建、邻边连接、分层搜索和裁边规则。"
+    },
+    {
+      "title": "谱图理论(spectral graph theory)",
+      "url": "https://zhuanlan.zhihu.com/p/80817719",
+      "summary": "正文以图的邻接矩阵和拉普拉斯矩阵研究连通分支、谱聚类与图像分割，属于图论方法。"
+    },
+    {
+      "title": "平面三角形分割 - 德劳内三角化",
+      "url": "https://zhuanlan.zhihu.com/p/83817061",
+      "summary": "正文具体说明德劳内三角化与沃罗诺伊图的面和顶点如何对应，并以此解释二者的对偶图关系。"
+    },
+    {
+      "title": "因子图与Sum-Product算法",
+      "url": "https://zhuanlan.zhihu.com/p/84210564",
+      "summary": "正文定义因子图这种二部图，并用树结构上的消息传递系统讲解Sum-Product算法求边缘函数。"
+    },
+    {
+      "title": "知识图谱如何应用到文本标签化算法中",
+      "url": "https://zhuanlan.zhihu.com/p/84861905",
+      "summary": "正文把文本和概念组织为图，并具体使用图中心性与随机游走路径进行标签选择。"
+    },
+    {
+      "title": "拉普拉斯矩阵与拉普拉斯算子的关系",
+      "url": "https://zhuanlan.zhihu.com/p/85287578",
+      "summary": "正文在图节点、邻域和度的定义上构造图拉普拉斯算子，并解释其传播含义。"
+    },
+    {
+      "title": "拉普拉斯矩阵的含义",
+      "url": "https://zhuanlan.zhihu.com/p/84649941",
+      "summary": "正文从图上的函数及其邻域扰动出发，推导图的拉普拉斯矩阵和节点间关系。"
+    },
+    {
+      "title": "图卷积网络GCN的理解与介绍",
+      "url": "https://zhuanlan.zhihu.com/p/90470499",
+      "summary": "正文用顶点、边、邻接矩阵和度矩阵描述拓扑图及其关系结构。"
+    },
+    {
+      "title": "图卷积神经网络：Graph Convolutional Networks",
+      "url": "https://zhuanlan.zhihu.com/p/91573076",
+      "summary": "正文用结点、边、邻接关系、度矩阵和拉普拉斯矩阵定义图结构，展开图论对象。"
+    },
+    {
+      "title": "图上的随机游走算法 I: hitting time精确解的数学推导与程序实现",
+      "url": "https://zhuanlan.zhihu.com/p/94407509",
+      "summary": "正文用节点、边和邻接矩阵建模人物关系图，并在图上计算节点距离。"
+    },
+    {
+      "title": "53年历史的猜想被破解——数学家找到斯蒂芬·赫德涅米猜想反例",
+      "url": "https://zhuanlan.zhihu.com/p/99866314",
+      "summary": "正文定义图的着色与最小着色数，并讨论图张量积及其着色数的关系。"
+    },
+    {
+      "title": "Potts模型简介",
+      "url": "https://zhuanlan.zhihu.com/p/101045691",
+      "summary": "正文把反铁磁极限下的配分函数解释为图的着色计数，并推导染色多项式的递推性质。"
+    },
+    {
+      "title": "概率图模型(PGMs) - 贝叶斯网络(Bayes Nets)",
+      "url": "https://zhuanlan.zhihu.com/p/101722890",
+      "summary": "正文把变量和影响关系画成有向图，沿路径判断阻断关系，并给出 d-分离的图算法步骤。"
+    },
+    {
+      "title": "算法学习笔记(11): 差分约束",
+      "url": "https://zhuanlan.zhihu.com/p/104764488",
+      "summary": "正文把差分约束转成有向图，以最短路边权、超级源点和负环判定求可行解。"
+    },
+    {
+      "title": "矩阵树定理（Matrix-tree Theorem）笔记",
+      "url": "https://zhuanlan.zhihu.com/p/108209378",
+      "summary": "正文围绕无向图的关联矩阵、拉普拉斯矩阵和生成树计数展开，并给出矩阵树定理的完整证明。"
+    },
+    {
+      "title": "因果推理初探（2）——有向无环图",
+      "url": "https://zhuanlan.zhihu.com/p/109932832",
+      "summary": "正文定义有向无环图中的节点、边、父节点和路径，并分析图结构对应的概率关系。"
+    },
+    {
+      "title": "图像特征匹配（2）——研究现状及发展趋势",
+      "url": "https://zhuanlan.zhihu.com/p/112082541",
+      "summary": "正文用顶点、边、邻接矩阵和图同构建模图匹配，并讨论其优化求解与复杂度。"
+    },
+    {
+      "title": "图自编码器的起源和应用",
+      "url": "https://zhuanlan.zhihu.com/p/114914664",
+      "summary": "正文以节点集、边集、邻接矩阵和度矩阵描述图，并把矩阵补全转化为图上的链接预测。"
+    },
+    {
+      "title": "【GNN】万字长文带你入门 GCN",
+      "url": "https://zhuanlan.zhihu.com/p/120311352",
+      "summary": "正文用节点、边、邻接矩阵和度矩阵描述图结构，并推导图拉普拉斯算子及其平滑性质。"
+    },
+    {
+      "title": "简单的图论入门",
+      "url": "https://zhuanlan.zhihu.com/p/124652885",
+      "summary": "正文系统介绍图的顶点、边、度、路径、连通性、树、平面性和染色等图论基础概念。"
+    },
+    {
+      "title": "图卷积网络(GCN)的谱分析",
+      "url": "https://zhuanlan.zhihu.com/p/124727955",
+      "summary": "正文从图的邻域差异定义拉普拉斯算子，并由度矩阵和邻接矩阵构造图拉普拉斯矩阵。"
+    },
+    {
+      "title": "华为软件精英挑战赛-2020-初赛复赛-题目分析/算法Baseline （求出有向图中所有的环）",
+      "url": "https://zhuanlan.zhihu.com/p/125764650",
+      "summary": "正文围绕有向图的环搜索、拓扑删点、路径剪枝和搜索复杂度展开。"
+    },
+    {
+      "title": "GCN 图卷积神经网络",
+      "url": "https://zhuanlan.zhihu.com/p/126113270",
+      "summary": "正文用节点、邻接矩阵、度矩阵和拉普拉斯矩阵描述图结构及邻居关系。"
+    },
+    {
+      "title": "【2.3】正式谈谈矩阵的乘法和矩阵的逆",
+      "url": "https://zhuanlan.zhihu.com/p/126548944",
+      "summary": "正文用邻接矩阵及其幂解释图中定长途径计数，并归纳出经过n条边的走法规律。"
+    },
+    {
+      "title": "代数几何在极值组合中的应用——随机代数构造",
+      "url": "https://zhuanlan.zhihu.com/p/130507593",
+      "summary": "正文围绕不含指定子图的图最多能有多少边展开，讨论完全二部图的精确实数上界。"
+    },
+    {
+      "title": "球面上的几何在极值图论中的一个应用——Bollobas-Erdos Graph的构造",
+      "url": "https://zhuanlan.zhihu.com/p/133985834",
+      "summary": "正文研究无 K4 图的 Turan 型极值问题，并说明 Bollobas-Erdos 图的边数与独立集性质。"
+    },
+    {
+      "title": "#图解 数据结构：树和森林与二叉树的相互转换",
+      "url": "https://zhuanlan.zhihu.com/p/134251528",
+      "summary": "正文定义树、森林和二叉树等图论对象，并系统说明树与二叉树、森林之间的结构化转换。"
+    },
+    {
+      "title": "最强扫雷AI算法详解+源码分享",
+      "url": "https://zhuanlan.zhihu.com/p/136791369",
+      "summary": "正文把数字格与受其约束的未知格连成图，并将地图按联通块分解以降低枚举规模。"
+    },
+    {
+      "title": "在数学建模中常用的方法",
+      "url": "https://zhuanlan.zhihu.com/p/138337865",
+      "summary": "正文具体说明最短路、最小生成树、匹配和网络流等图论方法。"
+    },
+    {
+      "title": "对二八定律和财富分配的再思考",
+      "url": "https://zhuanlan.zhihu.com/p/137094832",
+      "summary": "正文用节点度数、随机连边和无标度网络解释幂律分布的形成。"
+    },
+    {
+      "title": "深度学习推荐系统中各类流行的Embedding方法（下）",
+      "url": "https://zhuanlan.zhihu.com/p/140067638",
+      "summary": "正文围绕图结构上的节点表示，展开随机游走、邻接点相似度、BFS/DFS 邻域与跳转概率等图方法。"
+    },
+    {
+      "title": "中文NER的正确打开方式: 词汇增强方法总结 (从Lattice LSTM到FLAT)",
+      "url": "https://zhuanlan.zhihu.com/p/142615620",
+      "summary": "正文用有向无环图以及节点和边的连接方式组织字符与匹配词汇。"
+    },
+    {
+      "title": "图傅里叶变换",
+      "url": "https://zhuanlan.zhihu.com/p/147687999",
+      "summary": "正文从图的节点、邻接矩阵和度矩阵出发构造图拉普拉斯矩阵，并讨论图信号。"
+    },
+    {
+      "title": "离散数学完全自学指南",
+      "url": "https://zhuanlan.zhihu.com/p/149468789",
+      "summary": "正文成章介绍图、匹配、连通性、最短路径、树及欧拉图、哈密顿图和平面图等图论概念与结论。"
+    },
+    {
+      "title": "那个“最大的数”的爸爸去世了",
+      "url": "https://zhuanlan.zhihu.com/p/157834441",
+      "summary": "正文把拉姆齐问题转化为完全图的边着色，并利用顶点和边的连接关系证明六人情形。"
+    },
+    {
+      "title": "少有人走的数学巅峰之路",
+      "url": "https://zhuanlan.zhihu.com/p/157891842",
+      "summary": "正文通过图的顶点着色、色多项式及删边和缩点分解具体讲解图论问题。"
+    },
+    {
+      "title": "[论文笔记] RGCN ：GCN 在多边类型的应用",
+      "url": "https://zhuanlan.zhihu.com/p/157902271",
+      "summary": "正文把关系数据建模为带多类型边的图，并按邻居关系聚合信息更新节点表示。"
+    },
+    {
+      "title": "真的会数数吗——Turán定理漫谈",
+      "url": "https://zhuanlan.zhihu.com/p/159627748",
+      "summary": "正文系统讨论简单图、团和完全多部图的极值边数，并给出图兰定理的多种证明与推广。"
+    },
+    {
+      "title": "数学建模算法汇总",
+      "url": "https://zhuanlan.zhihu.com/p/161813818",
+      "summary": "正文具体介绍网络流、最短路以及 Prim、Kruskal 最小生成树算法，属于图论建模。"
+    },
+    {
+      "title": "算法学习笔记(44): 01字典树",
+      "url": "https://zhuanlan.zhihu.com/p/174830050",
+      "summary": "正文用带权树的唯一边路径定义异或路径，并通过对每个顶点求到根路径值的 DFS 把问题化为树上的路径问题。"
+    },
+    {
+      "title": "IJCAI 2019 Graph WaveNet for Deep ST Graph",
+      "url": "https://zhuanlan.zhihu.com/p/186228206",
+      "summary": "正文以图 G=(V,E)、邻接矩阵、节点和边为基本对象构建路网，讲解图结构上的空间建模。"
+    },
+    {
+      "title": "功能性核磁共振成像--知识点汇总",
+      "url": "https://zhuanlan.zhihu.com/p/190264374",
+      "summary": "正文具体介绍脑网络的节点与边、聚类系数、路径长度、中心度和模块度等图论指标。"
+    },
+    {
+      "title": "浅谈复杂度理论中的归约(Reduction)",
+      "url": "https://zhuanlan.zhihu.com/p/194313998",
+      "summary": "正文在归约构造中定义 clique 为完全子图，并由 3SAT 子句构造顶点和冲突边来讨论图中指定大小团的存在性。"
+    },
+    {
+      "title": "原创 | 斯坦福Machine Learning with Graphs 学习笔记(第二讲）",
+      "url": "https://zhuanlan.zhihu.com/p/205012648",
+      "summary": "正文系统介绍路径、距离、直径、集聚系数、连通分量及三类图生成模型。"
+    },
+    {
+      "title": "困扰数学家90年的猜想，被计算机搜索30分钟解决了",
+      "url": "https://zhuanlan.zhihu.com/p/206503239",
+      "summary": "正文把凯勒猜想编码为凯勒图，并在图中寻找完全子图，具体说明了图论建模和计算机搜索证明。"
+    },
+    {
+      "title": "2020年“高教社杯”全国大学生数学建模竞赛——B题 穿越沙漠",
+      "url": "https://zhuanlan.zhihu.com/p/234943508",
+      "summary": "正文把沙漠地图表示为判断区域相邻的矩阵，并以跨越边界次数刻画最短路径，属于图论建模应用。"
+    },
+    {
+      "title": "2020数学建模B题",
+      "url": "https://zhuanlan.zhihu.com/p/241038622",
+      "summary": "正文建立节点最短路径和天数邻接矩阵，并用路径树枚举图中的候选路线。"
+    },
+    {
+      "title": "凸优化|笔记整理（6）——对偶性：案例分析，强弱对偶性及理解，再看KKT条件",
+      "url": "https://zhuanlan.zhihu.com/p/259399116",
+      "summary": "正文定义有向图的流量与节点守恒，并通过对偶关系分析最大流和最小割。"
+    },
+    {
+      "title": "这些数学题做不出？不是你的错！",
+      "url": "https://zhuanlan.zhihu.com/p/260517877",
+      "summary": "正文用七桥问题及每块陆地桥数必须为偶数的论证说明图论中的连通性。"
+    },
+    {
+      "title": "Sidorenko猜想",
+      "url": "https://zhuanlan.zhihu.com/p/269963065",
+      "summary": "正文定义图同态与同态密度，并陈述 Sidorenko 猜想的图论表述。"
+    },
+    {
+      "title": "Graph neural network综述:从deepwalk到GraphSAGE，GCN，GAT",
+      "url": "https://zhuanlan.zhihu.com/p/288322305",
+      "summary": "正文用邻接矩阵、度矩阵和图拉普拉斯算子描述节点邻域及图上信息传播。"
+    },
+    {
+      "title": "图卷积网络原来是这么回事（一）——拉普拉斯矩阵初探",
+      "url": "https://zhuanlan.zhihu.com/p/290755442",
+      "summary": "正文介绍无向图的节点、边、邻接关系、度和邻节点，并由此构造图的拉普拉斯矩阵。"
+    },
+    {
+      "title": "图卷积网络原来是这么回事（三）——图滤波器与图卷积的设计",
+      "url": "https://zhuanlan.zhihu.com/p/297613044",
+      "summary": "正文以节点、边、邻接矩阵和拉普拉斯矩阵描述图结构及多阶邻域。"
+    },
+    {
+      "title": "随机图模型",
+      "url": "https://zhuanlan.zhihu.com/p/300861555",
+      "summary": "正文从图的顶点、边、度的定义出发，讨论随机图及其连通分支和直径。"
+    },
+    {
+      "title": "【3.7】线性代数应用：图和矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/186266784",
+      "summary": "正文从有向图、简单图、连通图、树和环讲起，并用图论语言分析电路网络。"
+    },
+    {
+      "title": "教你写一个Pytorch动态计算图自动求导的迷你框架",
+      "url": "https://zhuanlan.zhihu.com/p/328550101",
+      "summary": "正文用结点和边解释计算图的有向无环结构，并沿计算图路径执行反向传播。"
+    },
+    {
+      "title": "印度天才学霸16岁获奥赛金牌，17岁进入MIT，21岁证明出拉姆齐数最佳结果",
+      "url": "https://zhuanlan.zhihu.com/p/330115607",
+      "summary": "正文以完全图二色着色和R(3,3)为例讲解拉姆齐数，并概述图规模的界与团结构。"
+    },
+    {
+      "title": "MIT数学最强本科生：2年半毕业，20多篇论文在手，还推动了停滞几十年的数学研究",
+      "url": "https://zhuanlan.zhihu.com/p/331653928",
+      "summary": "正文用顶点和双色边建立图论模型，解释 Ramsey 定理并给出 R(3,3)=6 的论证。"
+    },
+    {
+      "title": "21岁本科生破解数十年来未解数学难题！MIT华裔数学家赵宇飞独家透露该成果诞生始末",
+      "url": "https://zhuanlan.zhihu.com/p/333715183",
+      "summary": "正文用顶点、边、染色和同色团具体解释 Ramsey 数，并说明两种颜色下 R(3,3)=6。"
+    },
+    {
+      "title": "2020 ICPC 上海赛区题解",
+      "url": "https://zhuanlan.zhihu.com/p/336649300",
+      "summary": "正文把原问题转成异色边图，并借助 DFS 树、LCA 和点双连通分量判定无限重复路径。"
+    },
+    {
+      "title": "2020年ICPC南京区域赛题解",
+      "url": "https://zhuanlan.zhihu.com/p/338249705",
+      "summary": "正文把棋子连通块和割点分析转化为点双问题，以判断白棋断气及连通块变化。"
+    },
+    {
+      "title": "复杂网络中的节点相似性",
+      "url": "https://zhuanlan.zhihu.com/p/338795473",
+      "summary": "正文以顶点和边定义复杂网络，并用共同邻居、Jaccard、Adamic-Adar 等邻接结构指标度量节点相似性。"
+    },
+    {
+      "title": "什么是热带几何？",
+      "url": "https://zhuanlan.zhihu.com/p/339673397",
+      "summary": "正文由曲线的对偶图定义图上的除子、线性等价与秩，并说明用组合方法研究代数曲线。"
+    },
+    {
+      "title": "图卷积网络 Graph Convolutional Network（GCN）的理解和详细推导",
+      "url": "https://zhuanlan.zhihu.com/p/341332382",
+      "summary": "正文从图的邻接矩阵和度矩阵定义拉普拉斯矩阵，并讨论连通分量、代数连通度及图信号平滑性。"
+    },
+    {
+      "title": "图论笔记 | Graph Theory Notes",
+      "url": "https://zhuanlan.zhihu.com/p/341461345",
+      "summary": "正文讲解图的顶点边结构、无向与有向图、简单图、多重图和自环等图论基本对象。"
+    },
+    {
+      "title": "Compressed Sparse Row（CSR）——稀疏矩阵的存储格式",
+      "url": "https://zhuanlan.zhihu.com/p/342942385",
+      "summary": "正文以顶点和边定义图，并区分稀疏图与稠密图，随后讨论稀疏图的压缩存储。"
+    },
+    {
+      "title": "对已复原的魔方一直重复同一组操作，是否一定能复原",
+      "url": "https://zhuanlan.zhihu.com/p/343205264",
+      "summary": "正文把置换表示成有向图，按环分解求各环长度的最小公倍数，并用广度优先搜索识别环。"
+    },
+    {
+      "title": "II.图的同构",
+      "url": "https://zhuanlan.zhihu.com/p/347566986",
+      "summary": "正文从图的顶点重标号和边集保持出发解释图同构，并计算互不同构的简单无向图数量。"
+    },
+    {
+      "title": "2021美赛D：我们都是搞音乐的！",
+      "url": "https://zhuanlan.zhihu.com/p/349519927",
+      "summary": "正文围绕有向影响网络展开，定义节点间的多对多影响关系、边权和子图，并讨论网络结构。"
+    },
+    {
+      "title": "Kaggle知识点：文本相似度计算方法",
+      "url": "https://zhuanlan.zhihu.com/p/349592491",
+      "summary": "正文把 TextRank 解释为带权图上的迭代评分，并说明如何由词的共现关系构造关键词图。"
+    },
+    {
+      "title": "谱聚类(1)：图拉普拉斯算符",
+      "url": "https://zhuanlan.zhihu.com/p/350259325",
+      "summary": "正文以节点、边、度矩阵和邻接矩阵讨论图的聚类结构及图的离散拉普拉斯表示。"
+    },
+    {
+      "title": "算法学习笔记(71): 2-SAT",
+      "url": "https://zhuanlan.zhihu.com/p/351638078",
+      "summary": "正文把 2-SAT 子句编码为有向图，利用强连通分量和拓扑序求解，具体展开了图论方法。"
+    },
+    {
+      "title": "数学建模四大模型总结",
+      "url": "https://zhuanlan.zhihu.com/p/355241294",
+      "summary": "正文列举并解释了最短路、网络流、生成树、TSP 和着色等图论与网络优化问题。"
+    },
+    {
+      "title": "我的Prelim考试试题",
+      "url": "https://zhuanlan.zhihu.com/p/351153834",
+      "summary": "正文讨论稀疏正则引理、图嵌入与计数引理，并构造极值图例子。"
+    },
+    {
+      "title": "基于图的异常检测",
+      "url": "https://zhuanlan.zhihu.com/p/359025580",
+      "summary": "正文围绕图结构中的结点异常、子图异常和动态边异常展开检测方法。"
+    },
+    {
+      "title": "算法学习笔记(72): 树的重心",
+      "url": "https://zhuanlan.zhihu.com/p/357938161",
+      "summary": "正文证明无根树重心的最大子树、距离和与节点数等性质，并给出 DFS 求法。"
+    },
+    {
+      "title": "最著名的数学电影——《心灵捕手》，求解电影中的图论难题",
+      "url": "https://zhuanlan.zhihu.com/p/359394170",
+      "summary": "正文以电影中的问题为线索，讲解图、邻接关系和不同长度路径数的计算。"
+    },
+    {
+      "title": "超图学习（Learning with hypergraphs）（一）",
+      "url": "https://zhuanlan.zhihu.com/p/361471954",
+      "summary": "正文从普通图的边与节点出发定义可连接多个节点的超边，并讨论超图的结构与分割。"
+    },
+    {
+      "title": "概率论与统计学8——马尔可夫随机场（Markov Random Field）",
+      "url": "https://zhuanlan.zhihu.com/p/361407034",
+      "summary": "正文用有向路径结构、阻隔条件和无向图团块讨论概率图模型中的图论关系。"
+    },
+    {
+      "title": "理解图的拉普拉斯矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/362416124",
+      "summary": "正文以顶点、边、邻接矩阵和连通分量系统说明谱图理论中的图结构。"
+    },
+    {
+      "title": "概率图模型(一)-综述",
+      "url": "https://zhuanlan.zhihu.com/p/363689582",
+      "summary": "正文用有向图、无向图、节点和边描述概率依赖，并讨论树结构上的推断算法。"
+    },
+    {
+      "title": "马尔科夫链, PageRank算法, 与代数图论",
+      "url": "https://zhuanlan.zhihu.com/p/367579738",
+      "summary": "正文用邻接矩阵、度矩阵和图拉普拉斯矩阵描述无向图上的随机游走与能量泛函。"
+    },
+    {
+      "title": "[GNN综述] 重新思考空域与谱域GNN之间的联系",
+      "url": "https://zhuanlan.zhihu.com/p/367774462",
+      "summary": "正文用邻接关系、邻居阶数和传播过程讨论图上的节点表示与高阶连接结构。"
+    },
+    {
+      "title": "GNN入门之路: 01.图拉普拉斯矩阵的定义、推导、性质、应用",
+      "url": "https://zhuanlan.zhihu.com/p/368878987",
+      "summary": "正文用节点、边、邻接矩阵和度矩阵描述图，讨论图上信号的差异、总变差与邻域加权聚合。"
+    },
+    {
+      "title": "GNN入门之路：02.谱域方法：Spectral CNN，ChebyNet，GCN",
+      "url": "https://zhuanlan.zhihu.com/p/369382428",
+      "summary": "正文先定义无向图的节点、边、邻接矩阵与度矩阵，再以图拉普拉斯描述节点间连接。"
+    },
+    {
+      "title": "伴读系列（1）：代数图论基础",
+      "url": "https://zhuanlan.zhihu.com/p/373435683",
+      "summary": "正文用节点、边、入度和生成树描述通信关系，并据此展开代数图论。"
+    },
+    {
+      "title": "曾几何时，我们炼的不是丹，是特征",
+      "url": "https://zhuanlan.zhihu.com/p/375981851",
+      "summary": "正文用节点和边建模特征交互，通过邻接关系更新节点表示，属于图论模型的应用。"
+    },
+    {
+      "title": "伴读系列（3）：一阶连续时间系统的一致性算法",
+      "url": "https://zhuanlan.zhihu.com/p/376351836",
+      "summary": "正文用生成树、邻接矩阵和拉普拉斯矩阵讨论多智能体通信图的收敛性质。"
+    },
+    {
+      "title": "无限大平面网格任意两点间的等效电阻",
+      "url": "https://zhuanlan.zhihu.com/p/376192419",
+      "summary": "正文把无限大平面网格视为规则图，以格点邻接关系和节点方程求解网络。"
+    },
+    {
+      "title": "【干货】《统计因果推理入门》读书笔记",
+      "url": "https://zhuanlan.zhihu.com/p/380711267",
+      "summary": "正文系统讲解有向图、路径、结构因果模型、d-分离与因果图检验，属于图论方法的应用。"
+    },
+    {
+      "title": "一文带你深入浅出地搞懂谱聚类",
+      "url": "https://zhuanlan.zhihu.com/p/392736238",
+      "summary": "正文从图的顶点、边权、邻接矩阵、度和连通子图出发，并将图切割作为聚类方法的核心。"
+    },
+    {
+      "title": "大白话谈因果系列文章（一）：因果推断简介及论文介绍",
+      "url": "https://zhuanlan.zhihu.com/p/397796913",
+      "summary": "正文以有向无环图表示变量关系，并围绕三种基本图结构讲解因果发现算法。"
+    },
+    {
+      "title": "【因果科普】机器学习不是曲线拟合：ML beyond Curve Fitting - Part 4（因果图、马尔科夫分解、结构方程模型）",
+      "url": "https://zhuanlan.zhihu.com/p/394503961",
+      "summary": "正文把随机变量和因果父节点组织成图，并用图形的传入边与干预操作解释条件分解。"
+    },
+    {
+      "title": "随机树的直径：最遥远的彼方真的遥不可及吗？",
+      "url": "https://zhuanlan.zhihu.com/p/398621082",
+      "summary": "正文围绕带标号随机树的直径展开，并用两次 BFS 求树直径，属于图论中的树结构问题。"
+    },
+    {
+      "title": "离散数学笔记（10.2）哈密顿图",
+      "url": "https://zhuanlan.zhihu.com/p/387488226",
+      "summary": "正文定义哈密顿路径、哈密顿回路和哈密顿图，并讨论其必要与充分判定条件。"
+    },
+    {
+      "title": "数学建模常见模型整理（简单介绍）",
+      "url": "https://zhuanlan.zhihu.com/p/408405168",
+      "summary": "正文用点和边描述图中关系，并将旅行商问题表述为带权完全图中的最短 Hamilton 回路。"
+    },
+    {
+      "title": "主流数学知识的缺失，图论研究能走多远",
+      "url": "https://zhuanlan.zhihu.com/p/411462257",
+      "summary": "正文讨论图论的研究范围，并具体涉及图着色、平面图、极值图论、结构图论和相关算法复杂性。"
+    },
+    {
+      "title": "一道有意思的思维题",
+      "url": "https://zhuanlan.zhihu.com/p/417591246",
+      "summary": "正文证明映射中的每个节点恰有一个输入和一个输出，并据此说明置换可唯一分解为若干有向环。"
+    },
+    {
+      "title": "MIT助理教授赵宇飞团队登数学四大顶刊，华人作者中两位是本科生，最小的是00后",
+      "url": "https://zhuanlan.zhihu.com/p/422407713",
+      "summary": "正文把单位向量构造成顶点、向量内积符号构造成边，并使用拉姆齐定理等图论工具。"
+    },
+    {
+      "title": "首届丘成桐女子中学生数学竞赛 - 笔试试题与解题参考",
+      "url": "https://zhuanlan.zhihu.com/p/428638271",
+      "summary": "正文用 Prufer 序列建立带标号树与长度 n-2 序列的一一对应，并据此计数满足度数的树。"
+    },
+    {
+      "title": "【研读分享】：案例-用UCINET软件进行社会网络分析",
+      "url": "https://zhuanlan.zhihu.com/p/434113328",
+      "summary": "正文以节点和关系描述社会网络，介绍二模转一模、点度中心度及网络整体属性等图论应用。"
+    },
+    {
+      "title": "换根树形动态规划问题",
+      "url": "https://zhuanlan.zhihu.com/p/439965039",
+      "summary": "正文从无根树的节点、边和唯一简单路径定义出发分析树上的路径与距离。"
+    },
+    {
+      "title": "正方体11种展开图严格证明",
+      "url": "https://zhuanlan.zhihu.com/p/446420829",
+      "summary": "正文以连通无环图定义树，并通过支撑树、切割图与生成树计数解决展开图问题，属于图论。"
+    },
+    {
+      "title": "数学建模：历年优秀论文+入门+进阶+美赛（国赛待更新）",
+      "url": "https://zhuanlan.zhihu.com/p/458492549",
+      "summary": "正文把选址地图抽象为需求点、道路边和候选服务点组成的图，并据此构造网络模型。"
+    },
+    {
+      "title": "霍尔定理(Hall)与其推广",
+      "url": "https://zhuanlan.zhihu.com/p/460373184",
+      "summary": "正文以男女配对的二分匹配模型陈述并证明 Hall 定理，讨论的是图论中的匹配问题。"
+    },
+    {
+      "title": "【图论】Laplacian矩阵基础知识",
+      "url": "https://zhuanlan.zhihu.com/p/461609532",
+      "summary": "正文以无向图的顶点集、边集、邻接关系和连通性为对象，推导图 Laplacian 及其谱性质。"
+    },
+    {
+      "title": "将图嵌入曲面",
+      "url": "https://zhuanlan.zhihu.com/p/460458206",
+      "summary": "正文定义完全图和二部图等图论对象，陈述 Kuratowski 判定并讨论平面图与曲面嵌入。"
+    },
+    {
+      "title": "理解GCN关键(上)：消息传递即邻接矩阵乘以节点嵌入",
+      "url": "https://zhuanlan.zhihu.com/p/507469979",
+      "summary": "正文以无向图的节点、边、邻居和度数构造邻接矩阵，并用它完成图上的消息聚合。"
+    },
+    {
+      "title": "数学史上大名鼎鼎的哥尼斯堡七桥问题是如何解决的？",
+      "url": "https://zhuanlan.zhihu.com/p/519123688",
+      "summary": "正文把七桥抽象成顶点和边，并用奇度顶点数量判定一笔画路径是否存在，具体讲解图论中的欧拉路径条件。"
+    },
+    {
+      "title": "陈平不等式的图论证明——赢图（A Win-graph-based Proof of Champion Inequality）",
+      "url": "https://zhuanlan.zhihu.com/p/519123724",
+      "summary": "正文定义图、完全图与完全二部图，并以赢图的边密度和子图结构展开图论论证。"
+    },
+    {
+      "title": "Paths上的Sidorenko猜想",
+      "url": "https://zhuanlan.zhihu.com/p/523287514",
+      "summary": "正文以图论中的长度三路径计数为对象，给出Sidorenko型下界的定理和证明。"
+    },
+    {
+      "title": "图兰定理——极值图论的开端",
+      "url": "https://zhuanlan.zhihu.com/p/528662514",
+      "summary": "正文陈述并证明图论中的图兰定理，讨论不含团的简单图及完全多部图。"
+    },
+    {
+      "title": "离散数学期末复习知识点总结",
+      "url": "https://zhuanlan.zhihu.com/p/533801720",
+      "summary": "正文总结图的度、路、连通性、欧拉图、哈密顿图和平面图等图论内容。"
+    },
+    {
+      "title": "辍学写诗的数学差生，刚刚获得菲尔兹奖",
+      "url": "https://zhuanlan.zhihu.com/p/538148021",
+      "summary": "正文讲解图着色、删边与收缩子图，并用色多项式的递推分解说明里德猜想。"
+    },
+    {
+      "title": "p进AdS/CFT",
+      "url": "https://zhuanlan.zhihu.com/p/555411591",
+      "summary": "正文把体空间描述为无穷正则树，并用图传播子、图Laplacian和关联函数开展计算。"
+    },
+    {
+      "title": "流形学习（Manifold Learning）",
+      "url": "https://zhuanlan.zhihu.com/p/566088096",
+      "summary": "正文利用最近邻构造连接图，用图中最短路径近似流形上的测地距离。"
+    },
+    {
+      "title": "用同调证明化学的不饱和度公式",
+      "url": "https://zhuanlan.zhihu.com/p/571116125",
+      "summary": "正文把分子结构化为无向图，并用顶点、边及连通分支的图论量表达不饱和度。"
+    },
+    {
+      "title": "我敢保证这是全网最强的数学建模比赛攻略，大学逆袭躺赢！",
+      "url": "https://zhuanlan.zhihu.com/p/574257349",
+      "summary": "列举最短路、最小生成树、匹配、遍历和最大流等图论模型及其对应算法。"
+    },
+    {
+      "title": "小学生的魔法之旅——Erdős距离问题",
+      "url": "https://zhuanlan.zhihu.com/p/570132996",
+      "summary": "正文引入平面图、完全图和交叉数，并用 Euler 公式及概率方法证明交叉数下界和关联界。"
+    },
+    {
+      "title": "中科院数学家带你认识数学",
+      "url": "https://zhuanlan.zhihu.com/p/597874645",
+      "summary": "正文以哥尼斯堡七桥问题引入顶点与边，说明欧拉环游、一笔画及奇偶度判定。"
+    },
+    {
+      "title": "算法学习笔记(9)：二项式反演",
+      "url": "https://zhuanlan.zhihu.com/p/602675596",
+      "summary": "正文用度数和双计数估计无 C4 子图的边数，并构造有限域上的正交向量图讨论其顶点与边。"
+    },
+    {
+      "title": "《数学天书中的证明》整理笔记（28）",
+      "url": "https://zhuanlan.zhihu.com/p/558992516",
+      "summary": "正文利用度数和双计数证明无 C4 子图的最大边数上界，并构造有限域上的极图。"
+    },
+    {
+      "title": "几何学重大突破，一个“不可能存在”的几何体——球形立方体，被构造了出来",
+      "url": "https://zhuanlan.zhihu.com/p/605578924",
+      "summary": "正文定义图着色和最大割问题，并说明它们与高维泡沫几何及计算复杂性的联系。"
+    },
+    {
+      "title": "MATLAB | 全网最详细网络图(图论图)绘制教程",
+      "url": "https://zhuanlan.zhihu.com/p/616246077",
+      "summary": "正文以 MATLAB 图为对象讲解有向图与无向图、邻接矩阵、节点边属性及连通分量等图论表示。"
+    },
+    {
+      "title": "数学建模--30+种常用算法模型",
+      "url": "https://zhuanlan.zhihu.com/p/621179254",
+      "summary": "正文讲解图上的最小生成树、最短路径、最大流和最小割模型及其典型算法。"
+    },
+    {
+      "title": "June Huh早期工作的背景介绍",
+      "url": "https://zhuanlan.zhihu.com/p/609866727",
+      "summary": "正文系统讲解图的染色多项式、删除收缩公式、无圈定向以及图拟阵等图论对象。"
+    },
+    {
+      "title": "几何学重大突破，一个“不可能存在”的几何体，被构造了出来",
+      "url": "https://zhuanlan.zhihu.com/p/626832410",
+      "summary": "正文用顶点、边和奇环解释图着色与最大切割，并讨论这些图论问题的复杂性联系。"
+    },
+    {
+      "title": "数论领域的一个巨大突破，四位数学家发现了“拉姆齐数”的新上限",
+      "url": "https://zhuanlan.zhihu.com/p/627403564",
+      "summary": "正文用完全图、边着色和单色团解释拉姆齐数，并讨论图论中的上下界与证明策略。"
+    },
+    {
+      "title": "醍醐灌顶，这才是所有线性代数老师应该教给你的，矩阵的知识！",
+      "url": "https://zhuanlan.zhihu.com/p/627577786",
+      "summary": "正文用邻接矩阵及其幂计算图中的路径和三角形，具体展开矩阵表示下的图论方法。"
+    },
+    {
+      "title": "Ramsey定理和Szemerédi定理",
+      "url": "https://zhuanlan.zhihu.com/p/629997045",
+      "summary": "正文系统介绍图论中的 Ramsey 定理、Ramsey 数及相关着色子图结论，并讨论其推广和研究方法。"
+    },
+    {
+      "title": "离散数学重点整理",
+      "url": "https://zhuanlan.zhihu.com/p/639464918",
+      "summary": "正文较完整地整理图论中的度、连通性、矩阵表示、欧拉图、哈密顿图、平面图和树。"
+    },
+    {
+      "title": "图论学习笔记（1）- 图的介绍 An introduction to graphs",
+      "url": "https://zhuanlan.zhihu.com/p/660468990",
+      "summary": "正文系统介绍节点、边、邻接、图同构、特殊图、子图、度、路径、连通性和二分图的定义与定理。"
+    },
+    {
+      "title": "算法学习笔记(25)：鸽巢原理（抽屉原理）",
+      "url": "https://zhuanlan.zhihu.com/p/661206530",
+      "summary": "正文把握手问题转化为无向图，并用子图、补图和度数论证 Ramsey 型问题。"
+    },
+    {
+      "title": "6大数学分支，织就一张纠缠的思想网，成为人类最强大的创造",
+      "url": "https://zhuanlan.zhihu.com/p/683784425",
+      "summary": "正文明确将图论界定为研究对象及其关系，并用社交网络和地铁线路说明只保留连接关系。"
+    },
+    {
+      "title": "拓扑学定理的组合形式",
+      "url": "https://zhuanlan.zhihu.com/p/703634562",
+      "summary": "正文把完全着色单形构造成图的顶点，并沿图中的道路和圈证明Hex定理。"
+    },
+    {
+      "title": "证明TREE(3)有限",
+      "url": "https://zhuanlan.zhihu.com/p/715618227",
+      "summary": "正文定义三色有根树及由边分割和子树关系给出的偏序，并据此处理 TREE(3) 的有限性。"
+    },
+    {
+      "title": "理所当然也能错，数学界震动：「上下铺猜想」被证伪",
+      "url": "https://zhuanlan.zhihu.com/p/4728778797",
+      "summary": "正文以图、顶点、边、路径和上下两层图定义上下铺猜想。"
+    },
+    {
+      "title": "【科普】六度分隔理论——让两个素昧平生的人相识，只需要5个中间人进行介绍",
+      "url": "https://zhuanlan.zhihu.com/p/19156147961",
+      "summary": "正文把社交网络抽象为图，并用节点度数、最短路径及随机图模型解释六度分隔。"
+    },
+    {
+      "title": "系统分析师第二版pdf教程+第二章学习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/21418293765",
+      "summary": "正文系统介绍顶点、边、度数、路径、遍历以及最短路径和最小生成树等图论内容。"
+    },
+    {
+      "title": "2025北京高考中的骑士巡游问题（Knight's Tour Problem）",
+      "url": "https://zhuanlan.zhihu.com/p/1919484233510020014",
+      "summary": "正文把棋盘位置和合法跳步转化为图的顶点与边，并以 Hamilton 路讨论骑士巡游问题。"
+    },
+    {
+      "title": "不重复走方格问题的解存在必要性",
+      "url": "https://zhuanlan.zhihu.com/p/1936489520230032535",
+      "summary": "正文把网格路径抽象为方格图，用二染色后相邻格颜色交替的性质推出两类格子数量约束，并以计数矛盾判断路径不存在。"
+    },
+    {
+      "title": "本科必学Dijkstra算法被超越！清华段然团队打破图灵奖得主证明的普遍最优性",
+      "url": "https://zhuanlan.zhihu.com/p/1937528857444979048",
+      "summary": "正文把道路网络抽象为节点和线段构成的图，介绍 Dijkstra、Bellman-Ford 及新的最短路径算法思路。"
+    },
+    {
+      "title": "突破40年Dijkstra算法瓶颈，清华教授等颠覆教科书！斩获STOC最佳论文",
+      "url": "https://zhuanlan.zhihu.com/p/1937998746953716088",
+      "summary": "正文用图、节点和权重定义最短路径问题，并展开讨论 Dijkstra 等图算法。"
+    },
+    {
+      "title": "从神经网络逼近理论到极值组合中的“概率方法”",
+      "url": "https://zhuanlan.zhihu.com/p/1947445307978810451",
+      "summary": "正文以随机划分顶点证明图存在包含一半以上边的二分图子图。"
+    },
+    {
+      "title": "一道简单的图论分析题",
+      "url": "https://zhuanlan.zhihu.com/p/1953508090558256239",
+      "summary": "正文把乒乓擂主过程建模为三状态六条边的有向图，并利用状态与入边的访问次数推导参与场数。"
+    },
+    {
+      "title": "[NeurIPS 2025]投机解码树的遍历验证",
+      "url": "https://zhuanlan.zhihu.com/p/1952669741534656143",
+      "summary": "正文把多候选多步解码建模为树，并说明从叶节点按深度优先顺序验证整棵树。"
+    },
+    {
+      "title": "13709 带你发现那个 71 次多项式的根 —— 康威常数",
+      "url": "https://zhuanlan.zhihu.com/p/1968614461909766747",
+      "summary": "正文把数字串和转化关系建成有向图，通过灌水、剪枝和强连通分支找出可循环出现的原子串。"
+    },
+    {
+      "title": "之前尝试给π节挑战赛供的题",
+      "url": "https://zhuanlan.zhihu.com/p/2005749654395048053",
+      "summary": "正文以邻接矩阵、谱和 Petersen 图讨论无向简单图及其谱图性质。"
+    },
+    {
+      "title": "“数分高代”视角下的散在单群（2）——“满天星”下的 Rudvalis 单群",
+      "url": "https://zhuanlan.zhihu.com/p/2028216938887754563",
+      "summary": "正文系统讲解 Moore 图、强正则图、Hoffman-Singleton 图及其子图计数。"
+    },
+    {
+      "title": "数学品味可以量化吗？",
+      "url": "https://zhuanlan.zhihu.com/p/2034764658003943982",
+      "summary": "正文把数学证明系统建模为万有证明超图，并用图结构定义 hub、bottleneck 与重要性。"
+    },
+    {
+      "title": "菲尔兹奖得主弗里德曼：数学的终极本质，3000年压缩工程",
+      "url": "https://zhuanlan.zhihu.com/p/2035023925676131678",
+      "summary": "正文用依赖有向无环图和 PageRank 分析数学元素的重要性。"
+    }
+  ]
+}

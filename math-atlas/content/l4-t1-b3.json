@@ -1,0 +1,3686 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l4-t1-b3",
+  "sources": [
+    {
+      "title": "若干个人蒙着眼睛，如何把一根绳子摆成正方形？至少要多少人？如何摆出直角？",
+      "url": "https://www.zhihu.com/answer/16526717",
+      "summary": "通过垂线、等腰直角三角形与中点构造正方形，展示构造思路；按理想绳长操作理解，找垂足时需保证搜索线段覆盖垂足，未证明最少人数。"
+    },
+    {
+      "title": "陶哲轩所谓「手工的数学分析方法」指的是什么？",
+      "url": "https://www.zhihu.com/answer/55828100",
+      "summary": "正文对比紧性存在性证明与显式构造收敛子列的证明。"
+    },
+    {
+      "title": "经常出现在数学证明中的「不妨设」根据是什么？如何培养这种「不妨设」、「假设」的能力？",
+      "url": "https://www.zhihu.com/answer/65059421",
+      "summary": "正文区分存在性证明和构造性证明，并说明构造证明的使用限制。"
+    },
+    {
+      "title": "任意无限集必包含一个可列子集 怎么证明？",
+      "url": "https://www.zhihu.com/answer/73349009",
+      "summary": "正文逐步选取元素构造可数子集。"
+    },
+    {
+      "title": "在高中的学习中，有哪一瞬间你觉得自己真正懂了一个对高考卷解题有大用的东西？",
+      "url": "https://www.zhihu.com/answer/83750216",
+      "summary": "正文从目标和式反推可裂项相消的构造形式。"
+    },
+    {
+      "title": "如何证明调和级数前n项和（n大于等于2）不为整数？",
+      "url": "https://www.zhihu.com/answer/83994120",
+      "summary": "正文通过构造统一分母完成结论证明。"
+    },
+    {
+      "title": "同伦类型论（Homotopy type theory）是数学还是计算机？",
+      "url": "https://www.zhihu.com/answer/84795045",
+      "summary": "正文把构造主义证明解释为可执行的构造或算法。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/85014007",
+      "summary": "正文给出可批量生成等幂和数组的恒等式构造。"
+    },
+    {
+      "title": "尺规作图对数学研究的意义是什么？",
+      "url": "https://www.zhihu.com/answer/85028559",
+      "summary": "正文系统展示尺规、单规与锈规的构造方法。"
+    },
+    {
+      "title": "亚里士多德到底有没有过正确的科学结论？",
+      "url": "https://www.zhihu.com/answer/88400584",
+      "summary": "正文解释亚里士多德和欧几里得以构造证明数学对象存在。"
+    },
+    {
+      "title": "如何简单清晰地解释哥德尔不完备定理？",
+      "url": "https://www.zhihu.com/answer/93985761",
+      "summary": "正文详述 Gödel 编码、对角化并构造不可判定形式命题。"
+    },
+    {
+      "title": "如何解释 Lisp 中 call/cc 的概念？",
+      "url": "https://www.zhihu.com/answer/94731476",
+      "summary": "正文用类型构造、蕴含和三段论逐步构造皮尔士定律到排中律的证明。"
+    },
+    {
+      "title": "数学学习或研究中，你见过哪些有意思的反例？",
+      "url": "https://www.zhihu.com/answer/113744031",
+      "summary": "正文逐步构造 Perron 树并估计面积，展示构造法证明。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/114829318",
+      "summary": "正文以赋值染色并构造彩虹三角形概述证明。"
+    },
+    {
+      "title": "数学好的人在思考数学题时的一般流程是怎样的？",
+      "url": "https://www.zhihu.com/answer/115936877",
+      "summary": "正文比较显式构造反例函数与抽象存在性证明两种方法。"
+    },
+    {
+      "title": "哪些数学定理在直觉上是对的，但证明起来很困难？",
+      "url": "https://www.zhihu.com/answer/117414559",
+      "summary": "正文通过分层并分段定义洋葱函数，构造出所需双射以完成证明。"
+    },
+    {
+      "title": "怎么证明这道微积分证明题？",
+      "url": "https://www.zhihu.com/answer/119567761",
+      "summary": "正文先构造辅助函数，再结合中值关系和泰勒展开完成证明。"
+    },
+    {
+      "title": "如何证明有界数列的子数列收敛？",
+      "url": "https://www.zhihu.com/answer/123006422",
+      "summary": "正文通过反复二分并选择含无穷多项的区间，构造所需收敛子列。"
+    },
+    {
+      "title": "小时候你有过哪些独自的大发现？",
+      "url": "https://www.zhihu.com/answer/125279387",
+      "summary": "正文叙述自行构造正五边形并尝试倍立方构造问题。"
+    },
+    {
+      "title": "为什么要公理化实数，而不是从自然数导出？",
+      "url": "https://www.zhihu.com/answer/126754251",
+      "summary": "正文以柯西列、戴德金分割等实数模型说明构造法证明公理对象存在。"
+    },
+    {
+      "title": "能不能定义一个数 𝐼，与 0 的乘积等于 1？",
+      "url": "https://www.zhihu.com/answer/126928619",
+      "summary": "正文具体用商多项式环的构造扩张数域并得到复数。"
+    },
+    {
+      "title": "为什么需要证明「1+1=2」？",
+      "url": "https://www.zhihu.com/answer/128912950",
+      "summary": "正文从空集式起点、后继关系与递归加法展示数学对象的构造方法。"
+    },
+    {
+      "title": "历史上有哪些著名的数学定理在当时证明非常冗长，但是用现代的观点简洁明了？",
+      "url": "https://www.zhihu.com/answer/135226061",
+      "summary": "正文给出以有限集上的对合构造完成二平方和定理的一句话证明，属于构造证明。"
+    },
+    {
+      "title": "动漫中有哪些让人印象深刻的数学理论?",
+      "url": "https://www.zhihu.com/answer/136525752",
+      "summary": "正文构造引入两个新助手的交换序列，证明任意已有交换都能复原。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/145287444",
+      "summary": "证明按根号二的根号二是否有理分情况构造满足条件的 x、y。"
+    },
+    {
+      "title": "有哪些时刻，让你觉得数学很美？",
+      "url": "https://www.zhihu.com/answer/147205605",
+      "summary": "正文逐点、逐线构造过固定点并指向两远直线交点的目标直线。"
+    },
+    {
+      "title": "大学数学系值得一道题想一下午么？",
+      "url": "https://www.zhihu.com/answer/147446154",
+      "summary": "流程强调构造模型例子并逐步扩展方法覆盖全部情况。"
+    },
+    {
+      "title": "函数在闭区间内可导能否推出其导数在该区间连续？",
+      "url": "https://www.zhihu.com/answer/148985376",
+      "summary": "正文逐步改造振荡函数以构造导函数有一个、多个乃至无穷间断点的例子。"
+    },
+    {
+      "title": "理解数学证明有几种层次？",
+      "url": "https://www.zhihu.com/answer/151097077",
+      "summary": "正文说明通过构造 Jacobi 场等方式把经典证明技巧推广到新定理。"
+    },
+    {
+      "title": "如何评价史济怀版的《数学分析教程》？",
+      "url": "https://www.zhihu.com/answer/151218725",
+      "summary": "正文解释选择辅助函数构造不同中值定理余项的证明方法。"
+    },
+    {
+      "title": "如何用没有刻度的尺，笔画出等边三角形?",
+      "url": "https://www.zhihu.com/answer/153578012",
+      "summary": "正文构造多种复制、垂直和平行作图引理，给出断尺作等边三角形的完整方法。"
+    },
+    {
+      "title": "高斯作出正 17 边形的依据是什么？",
+      "url": "https://www.zhihu.com/answer/153666091",
+      "summary": "正文把二次根式逐步翻译成尺规作图中的记录、加除和开根构造。"
+    },
+    {
+      "title": "求证原矩形至少有一条边为整数？",
+      "url": "https://www.zhihu.com/answer/167594177",
+      "summary": "正文构造复指数函数并通过大小矩形积分相加完成证明。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/177787513",
+      "summary": "正文按二的平方根的无理幂是否有理分情况，构造所需的a、b。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/177934412",
+      "summary": "正文显式构造延拓函数F并据此完成存在性证明。"
+    },
+    {
+      "title": "有哪些类似于七桥问题的有趣数学定理？",
+      "url": "https://www.zhihu.com/answer/204609453",
+      "summary": "正文说明通过增加线条和缩小旋转角构造面积任意小的挂谷集。"
+    },
+    {
+      "title": "俄罗斯人编程为什么那么厉害？",
+      "url": "https://www.zhihu.com/answer/216351918",
+      "summary": "正文给出尺规构造点K、M的完整步骤。"
+    },
+    {
+      "title": "是否存在一个函数，只存在一个点二阶可导？",
+      "url": "https://www.zhihu.com/answer/221204401",
+      "summary": "正文给出构造仅在一点二阶可导函数的具体思路。"
+    },
+    {
+      "title": "能否构造一个函数，使其定义域为整数集，值域为有理数集呢？",
+      "url": "https://www.zhihu.com/answer/227610497",
+      "summary": "正文通过对角线枚举和数列公式具体构造所求函数。"
+    },
+    {
+      "title": "如何看待 Grothendieck 思考数学问题不依赖具体例子？",
+      "url": "https://www.zhihu.com/answer/235795482",
+      "summary": "正文说明构造例子用于检验一般性结论。"
+    },
+    {
+      "title": "如何证明无限存在?",
+      "url": "https://www.zhihu.com/answer/240264418",
+      "summary": "正文给出逐步生成更大数的明确构造方法。"
+    },
+    {
+      "title": "如何构造一个严格单调上升的且导函数几乎处处为零的，不妨考虑在 [0，1] 上？",
+      "url": "https://www.zhihu.com/answer/243860499",
+      "summary": "正文明确构造严格递增且几乎处处导数为零的函数。"
+    },
+    {
+      "title": "数学证明中有哪些令人拍案叫绝的骚操作？",
+      "url": "https://www.zhihu.com/answer/262790417",
+      "summary": "正文构造嵌套根号二次幂，覆盖两种情形得到目标实例。"
+    },
+    {
+      "title": "空间里能否找到一个正方体和一个平面，使得正方体各顶点到平面的距离恰好为零至七这八个整数？",
+      "url": "https://www.zhihu.com/answer/265828098",
+      "summary": "正文的核心解法是主动构造满足要求的线性变换。"
+    },
+    {
+      "title": "数学里的那些技巧是怎么想出来的？",
+      "url": "https://www.zhihu.com/answer/272504770",
+      "summary": "正文解释辅助函数与集合构造来自经验、试验和对目标性质的把握。"
+    },
+    {
+      "title": "√2 是个无理数，没有尽头，为什么直角边长为 1 的等腰直角三角形可以被画出来？",
+      "url": "https://www.zhihu.com/answer/307845265",
+      "summary": "正文说明用尺规有限步构造√n并讨论可作数。"
+    },
+    {
+      "title": "有哪些构造性强的复变函数题目？",
+      "url": "https://www.zhihu.com/answer/347620732",
+      "summary": "正文明确用 Blaschke 乘积构造满足条件的函数。"
+    },
+    {
+      "title": "数理逻辑的技术性成果对哲学问题有什么影响？",
+      "url": "https://www.zhihu.com/answer/372070934",
+      "summary": "正文详细展示对角线集合的构造方法。"
+    },
+    {
+      "title": "整度数角中，是不是只有 3° 整数倍的角度可以用尺规作图画出来？",
+      "url": "https://www.zhihu.com/answer/376066126",
+      "summary": "正文根据二次根式反向构造可尺规作图的三度角。"
+    },
+    {
+      "title": "整度数角中，是不是只有 3° 整数倍的角度可以用尺规作图画出来？",
+      "url": "https://www.zhihu.com/answer/376368836",
+      "summary": "正文完整给出三度角的尺规构造步骤。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/378843406",
+      "summary": "正文讨论尺规作图的规则及可构造问题。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/391206371",
+      "summary": "正文给出正十七边形的逐步尺规构造方案。"
+    },
+    {
+      "title": "如何证明泰勒定理？",
+      "url": "https://www.zhihu.com/answer/392242122",
+      "summary": "正文详细说明为证明目标构造多个辅助函数的思路。"
+    },
+    {
+      "title": "如何解释洛必达法则？",
+      "url": "https://www.zhihu.com/answer/414406987",
+      "summary": "正文构造辅助函数并套用罗尔定理。"
+    },
+    {
+      "title": "如何构造一条能够填满正方形的连续曲线（除史书上的方法）？",
+      "url": "https://www.zhihu.com/answer/419276193",
+      "summary": "正文给出基于 Cantor 集和进制拆分的连续满射构造。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/421709057",
+      "summary": "正文通过构造一个分情形讨论的幂表达式完成存在性证明。"
+    },
+    {
+      "title": "收敛的序列是否存在单调的子序列（不要求严格单调）？",
+      "url": "https://www.zhihu.com/answer/520026993",
+      "summary": "正文按 peak 是否无限分情况构造单调递减或递增子序列。"
+    },
+    {
+      "title": "数学史上有哪些比较著名的猜想因为有反例的存在而没有成为定理？",
+      "url": "https://www.zhihu.com/answer/532606339",
+      "summary": "正文给出由 n-1 元超排列插入新元素的构造方法。"
+    },
+    {
+      "title": "如何评论首届阿里巴巴数学竞赛决赛试题？",
+      "url": "https://www.zhihu.com/answer/539908970",
+      "summary": "正文以代数数的幂明确构造一列方程整数解。"
+    },
+    {
+      "title": "高中生什么才叫有天赋？",
+      "url": "https://www.zhihu.com/answer/541819993",
+      "summary": "正文围绕正十七边形尺规作图展开。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/553792250",
+      "summary": "把椅子放稳问题建模为连续函数零点问题，并构造旋转角完成证明。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/553819670",
+      "summary": "构造整系数多项式并借助 Pell 方程证明其恰好表示非平方数。"
+    },
+    {
+      "title": "数学里的那些技巧是怎么想出来的？",
+      "url": "https://www.zhihu.com/answer/561525110",
+      "summary": "正文以构造对合作为数学证明技巧的实例。"
+    },
+    {
+      "title": "如果时间无限的话，能不能写完 [0, 1] 之间的所有实数？",
+      "url": "https://www.zhihu.com/answer/576688788",
+      "summary": "正文逐步构造避开枚举元素的嵌套闭区间。"
+    },
+    {
+      "title": "证明了黎曼猜想就能马上得到素数公式吗？",
+      "url": "https://www.zhihu.com/answer/578951346",
+      "summary": "正文通过构造常数与序列得到素数生成公式。"
+    },
+    {
+      "title": "用刀切割一个凸 n 边形（未限定次数），把碎片拼起来，是否总能拼成一个正方形？",
+      "url": "https://www.zhihu.com/answer/585672287",
+      "summary": "引用等面积多边形可有限剪拼的定理回答构造问题。"
+    },
+    {
+      "title": "√2 是无限不循环小数，为何直角边边长为 1 的等腰直角三角形可以画出来？",
+      "url": "https://www.zhihu.com/answer/588794850",
+      "summary": "说明二次代数数可以通过尺规构造。"
+    },
+    {
+      "title": "有哪些令人为之惊叹的数学题目？",
+      "url": "https://www.zhihu.com/answer/600752146",
+      "summary": "正文强调先构造反例解。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/626088304",
+      "summary": "给出由任意整数显式构造勾股数组合的公式。"
+    },
+    {
+      "title": "数学中有哪些让你感到赏心悦目或是震惊的构造手法？",
+      "url": "https://www.zhihu.com/answer/651447465",
+      "summary": "从目标不等式反推参数条件，重建 Rudin 的有理数构造。"
+    },
+    {
+      "title": "数学中有哪些让你感到赏心悦目或是震惊的构造手法？",
+      "url": "https://www.zhihu.com/answer/651902054",
+      "summary": "用可数有理数的跳跃级数构造指定间断点集的单调函数。"
+    },
+    {
+      "title": "有没有哪些数学题的某一步处理堪称神来之笔？",
+      "url": "https://www.zhihu.com/answer/654758450",
+      "summary": "构造满足条件的集合和序列完成证明。"
+    },
+    {
+      "title": "有没有哪些数学题的某一步处理堪称神来之笔？",
+      "url": "https://www.zhihu.com/answer/679583838",
+      "summary": "通过对根号二的根号二次方分情况构造无理数幂为有理数的例子。"
+    },
+    {
+      "title": "围棋最少被让几子能必胜？",
+      "url": "https://www.zhihu.com/answer/722997625",
+      "summary": "通过构造可机械执行的落子策略证明必胜。"
+    },
+    {
+      "title": "如何证明无理数的个数比有理数多？",
+      "url": "https://www.zhihu.com/answer/745584062",
+      "summary": "用对角构造法得到不在枚举中的实数。"
+    },
+    {
+      "title": "有没有大神可以解释求微分中值定理时用微分方程构造辅助函数的原理？",
+      "url": "https://www.zhihu.com/answer/752399798",
+      "summary": "说明从目标等式反推辅助函数的构造。"
+    },
+    {
+      "title": "一道奥林匹克数学竞赛题，如何解答？",
+      "url": "https://www.zhihu.com/answer/765727940",
+      "summary": "显式构造询问序列与势函数证明策略。"
+    },
+    {
+      "title": "如何证明拉格朗日中值定理？",
+      "url": "https://www.zhihu.com/answer/766489396",
+      "summary": "构造辅助函数把两端点函数值变为相等。"
+    },
+    {
+      "title": "有哪些数学定理的推出过程是值得细细品味的？",
+      "url": "https://www.zhihu.com/answer/774394553",
+      "summary": "证明关键在于专门构造整数拓扑。"
+    },
+    {
+      "title": "素数幂次的间隔到后面可以足够大吗？",
+      "url": "https://www.zhihu.com/answer/778183894",
+      "summary": "通过刘维尔数的显式构造证明超越数存在。"
+    },
+    {
+      "title": "有哪些令人为之惊叹的数学题目？",
+      "url": "https://www.zhihu.com/answer/778204381",
+      "summary": "构造四个缩放副本证明4n硬币覆盖。"
+    },
+    {
+      "title": "如何反驳数学虚构主义？",
+      "url": "https://www.zhihu.com/answer/781731190",
+      "summary": "以对角构造作为存在性证明实例。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/786464580",
+      "summary": "分区间递归构造满足方程的函数。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/786980012",
+      "summary": "通过交错两个极大轨道构造所需函数。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/790533452",
+      "summary": "配对同构的树构造实数域上的解。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/791009946",
+      "summary": "通过构造对合与不动点完成证明。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/791230378",
+      "summary": "正文以前后配对粘贴轨道图的方式构造实数域上的解，并给出参数可取范围。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/791442453",
+      "summary": "以数列配对构造所有可能的函数值。"
+    },
+    {
+      "title": "如何用十分中二的方式解数学题？",
+      "url": "https://www.zhihu.com/answer/791745477",
+      "summary": "构造平方因子使非负性一目了然。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/798950191",
+      "summary": "正文按两种情形构造无理数的无理数次方为有理数的存在性证明。"
+    },
+    {
+      "title": "有哪些适合闲聊的数学趣题?",
+      "url": "https://www.zhihu.com/answer/804123514",
+      "summary": "多个问题通过明确构造给出存在性方案，并推广到一般 n。"
+    },
+    {
+      "title": "有哪些看起来很难但做起来很简单的数学题？",
+      "url": "https://www.zhihu.com/answer/804123623",
+      "summary": "在删去异色格时构造遍历棋盘的回路，从而给出可铺满方案。"
+    },
+    {
+      "title": "数学上有哪些非常奇葩的证明？",
+      "url": "https://www.zhihu.com/answer/804123932",
+      "summary": "正文从小规模试验归纳出 n≥7 的统一构造，并明确给出 n=100 的解。"
+    },
+    {
+      "title": "如何解该一元四次方程？",
+      "url": "https://www.zhihu.com/answer/850385987",
+      "summary": "通过换元和待定系数构造分解。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/852235325",
+      "summary": "通过变量替换与辅助函数构造证明。"
+    },
+    {
+      "title": "除了Weierstrass函数，还有哪些处处连续处处不可导的实变函数的具体例子？",
+      "url": "https://www.zhihu.com/answer/881087107",
+      "summary": "显式构造逼近点列来否定导数存在。"
+    },
+    {
+      "title": "两相邻素数的最大间距能够多大？",
+      "url": "https://www.zhihu.com/answer/888909656",
+      "summary": "用 n!+2 到 n!+n 构造连续合数。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/984107243",
+      "summary": "正文的证明核心是把数列项构造成矩阵后双向求和。"
+    },
+    {
+      "title": "目前已知的差值最大的相邻质数的差值是多少？是哪两个质数？",
+      "url": "https://www.zhihu.com/answer/987348070",
+      "summary": "正文构造 n!+2 到 n!+n 的连续合数区间。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/991523066",
+      "summary": "正文通过构造并分类讨论完成存在性证明。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/991527721",
+      "summary": "正文用 n!+2 至 n!+n 构造任意长连续合数段。"
+    },
+    {
+      "title": "如何证明存在 1000 个连续的正整数中恰好有五个素数？",
+      "url": "https://www.zhihu.com/answer/995293725",
+      "summary": "正文构造连续 1000 个合数的区间作为存在性证明端点。"
+    },
+    {
+      "title": "如何证明存在 1000 个连续的正整数中恰好有五个素数？",
+      "url": "https://www.zhihu.com/answer/996401057",
+      "summary": "正文构造滑动区间并据素数个数变化完成存在性论证。"
+    },
+    {
+      "title": "既然10/3等于3.3333除不尽，那为什么一根10米的绳子却能分成三等份？",
+      "url": "https://www.zhihu.com/answer/1033067573",
+      "summary": "正文完整给出尺规三等分线段的构造步骤。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1042860205",
+      "summary": "正文通过重新标号不可区分对象构造简洁证明。"
+    },
+    {
+      "title": "为什么会有数学家反对对无穷集合使用排中律？",
+      "url": "https://www.zhihu.com/answer/1045250126",
+      "summary": "正文解释构造主义对存在性证明的要求并给出例子。"
+    },
+    {
+      "title": "为什么会有数学家反对对无穷集合使用排中律？",
+      "url": "https://www.zhihu.com/answer/1047687996",
+      "summary": "正文解释构造性证明与计算机自动推理的关系。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1057030938",
+      "summary": "正文构造闰年月份模型巧妙确定方程中变量之和。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/1066881153",
+      "summary": "正文显式构造两个周期函数并推广到任意实系数多项式。"
+    },
+    {
+      "title": "能否构造一组无理数a,b，使得a^b是有理数?",
+      "url": "https://www.zhihu.com/answer/1070717781",
+      "summary": "正文按两种可能分类构造保证幂为有理数的无理数对。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/1094241963",
+      "summary": "正文给出常数、区间套和取整函数的具体构造。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/1227020831",
+      "summary": "正文逐步构造高维张量幂来完成定理改进。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1231538886",
+      "summary": "正文通过构造先后手策略证明架桥游戏先手必胜。"
+    },
+    {
+      "title": "怎样找出倒数之和为 1 的一组自然数？",
+      "url": "https://www.zhihu.com/answer/1241800158",
+      "summary": "正文给出逐步构造任意自然数组的算法。"
+    },
+    {
+      "title": "如何推导1+4+9+16+…+n^2=n(n+1)(2n+1)/6?",
+      "url": "https://www.zhihu.com/answer/1357554254",
+      "summary": "正文通过连续相消的构造恒等式推导平方和公式。"
+    },
+    {
+      "title": "1²+2²+…+n²求和公式的推导有哪些方法?",
+      "url": "https://www.zhihu.com/answer/1376608811",
+      "summary": "正文通过相邻立方差构造并逐项相消推导平方和公式。"
+    },
+    {
+      "title": "1²+2²+…+n²求和公式的推导有哪些方法?",
+      "url": "https://www.zhihu.com/answer/1376625944",
+      "summary": "正文逐项列出立方差并累加消去中间项得到平方和。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/1379863450",
+      "summary": "正文构造级数算子并反复积分求幂和通项。"
+    },
+    {
+      "title": "1²+2²+…+n²求和公式的推导有哪些方法?",
+      "url": "https://www.zhihu.com/answer/1381592102",
+      "summary": "正文用三角形旋转拼接的构造证明平方和公式。"
+    },
+    {
+      "title": "1²+2²+…+n²求和公式的推导有哪些方法?",
+      "url": "https://www.zhihu.com/answer/1381993289",
+      "summary": "正文逐项相消构造平方和的求和公式。"
+    },
+    {
+      "title": "如何证明 1^2021＋2^2021＋…＋1000^2021 能被 7、11、13 整除？",
+      "url": "https://www.zhihu.com/answer/1389401466",
+      "summary": "正文构造配对与因式分解完成整除证明。"
+    },
+    {
+      "title": "如何证明黎曼重排定理？",
+      "url": "https://www.zhihu.com/answer/1391408400",
+      "summary": "正文给出重排双射的具体构造式证明。"
+    },
+    {
+      "title": "1²+2²+…+n²求和公式的推导有哪些方法?",
+      "url": "https://www.zhihu.com/answer/1399043708",
+      "summary": "正文用 Abel 求和恒等式构造并推导平方和公式。"
+    },
+    {
+      "title": "如何证明 1^2021＋2^2021＋…＋1000^2021 能被 7、11、13 整除？",
+      "url": "https://www.zhihu.com/answer/1403142199",
+      "summary": "正文构造配对与因式分解完成整除证明。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1405540193",
+      "summary": "正文用等比数列构造证明差幂分解公式。"
+    },
+    {
+      "title": "如何证明 1^2021＋2^2021＋…＋1000^2021 能被 7、11、13 整除？",
+      "url": "https://www.zhihu.com/answer/1405684815",
+      "summary": "正文构造重排完成可整除证明。"
+    },
+    {
+      "title": "请问有没有什么比较巧妙的方法证明自然数立方和公式？",
+      "url": "https://www.zhihu.com/answer/1440979098",
+      "summary": "正文直接讲解或推导“构造方法”相关内容。"
+    },
+    {
+      "title": "拉格朗日中值定理的辅助函数是怎么来的呢？",
+      "url": "https://www.zhihu.com/answer/1450353459",
+      "summary": "正文直接讲解或推导“构造方法”相关内容。"
+    },
+    {
+      "title": "如何直观地说明为什么前 n 个自然数的立方和等于和的平方？",
+      "url": "https://www.zhihu.com/answer/1462918616",
+      "summary": "正文通过构造双重求和与组合拆分证明立方和公式。"
+    },
+    {
+      "title": "1²+2²+…+n²求和公式的推导有哪些方法?",
+      "url": "https://www.zhihu.com/answer/1474268543",
+      "summary": "正文用面积拼接构造平方和公式的证明。"
+    },
+    {
+      "title": "压缩映射定理为什么可以证明隐函数定理？",
+      "url": "https://www.zhihu.com/answer/1552548635",
+      "summary": "正文展示如何构造局部线性逼近和迭代映射来证明隐函数定理。"
+    },
+    {
+      "title": "menger定理有没有简单证明?",
+      "url": "https://www.zhihu.com/answer/1593587752",
+      "summary": "正文直接讨论或应用该叶节点主题（构造）。"
+    },
+    {
+      "title": "能否构造一组无理数a,b，使得a^b是有理数?",
+      "url": "https://www.zhihu.com/answer/1628660295",
+      "summary": "正文明确采用构造法而非直接求值。"
+    },
+    {
+      "title": "一个整数可以拆成两个整数的平方和，5201314可以拆成哪两个数的平方和？",
+      "url": "https://www.zhihu.com/answer/1639636759",
+      "summary": "正文通过恒等式逐步构造具体平方和表示。"
+    },
+    {
+      "title": "能简单的介绍一下如何做定积分的证明题吗？",
+      "url": "https://www.zhihu.com/answer/1661316853",
+      "summary": "正文把构造辅助函数作为积分不等式证明方法。"
+    },
+    {
+      "title": "2003年IMO第六题是如何想出或推导出构造方式的?",
+      "url": "https://www.zhihu.com/answer/1683436317",
+      "summary": "正文围绕构造满足无一次因子的素数展开存在性证明。"
+    },
+    {
+      "title": "一元二次方程的求根公式是怎么得出的？",
+      "url": "https://www.zhihu.com/answer/1693934250",
+      "summary": "正文通过构造预解式推导二次和三次方程根式。"
+    },
+    {
+      "title": "能否通俗地解释下密码学中的归约证明？",
+      "url": "https://www.zhihu.com/answer/1737942968",
+      "summary": "正文直接讨论或推导「构造方法」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "怎么证明算术平均数大于等于几何平均数？",
+      "url": "https://www.zhihu.com/answer/1744271300",
+      "summary": "正文直接讨论或推导「构造方法」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "能举一个用吴方法证明几何定理的实例吗？",
+      "url": "https://www.zhihu.com/answer/1755060071",
+      "summary": "正文直接讨论或推导「构造方法」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "如何证明存在 1000 个连续的正整数中恰好有五个素数？",
+      "url": "https://www.zhihu.com/answer/1825872462",
+      "summary": "正文给出明确构造并随后说明各项为合数，属于构造方法的实质展开。"
+    },
+    {
+      "title": "请问下面这个积分第二中值定理怎么证明呀？",
+      "url": "https://www.zhihu.com/answer/1826674284",
+      "summary": "正文通过构造函数与分部积分给出第二积分中值定理的构造性证明。"
+    },
+    {
+      "title": "如何证明存在 1000 个连续的正整数中恰好有五个素数？",
+      "url": "https://www.zhihu.com/answer/1826724399",
+      "summary": "正文用窗口素数计数的离散介值论证存在性。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/1869689736",
+      "summary": "正文逐步构造 cos(2π/17) 的根式表达式。"
+    },
+    {
+      "title": "你见过哪些有意思的不等式？",
+      "url": "https://www.zhihu.com/answer/1880636264",
+      "summary": "正文用局部配凑、对称化和平方和构造证明复杂不等式。"
+    },
+    {
+      "title": "是否存在100个不同的正整数，它们的和等于它们的最小公倍数？",
+      "url": "https://www.zhihu.com/answer/1922129553",
+      "summary": "正文直接讨论并支撑「构造方法」相关内容。"
+    },
+    {
+      "title": "如何通俗地理解「韦达跳跃」，如何证明？",
+      "url": "https://www.zhihu.com/answer/1972105146",
+      "summary": "正文给出了构造另一根并得到更小解的具体证明方法。"
+    },
+    {
+      "title": "微分中值定理，如何构造函数?",
+      "url": "https://www.zhihu.com/answer/2059941622",
+      "summary": "正文通过构造辅助函数完成证明。"
+    },
+    {
+      "title": "这极值点偏移怎么做?(我们老师说除了他没人能做)？",
+      "url": "https://www.zhihu.com/answer/2067506880",
+      "summary": "正文通过比值参数化 x1/x2，把原不等式转化为可检验的新形式。"
+    },
+    {
+      "title": "是否有六个不同的正整数a,b,c,d,e,f  使a+b+c=d+e+f 且 abc=def呢？",
+      "url": "https://www.zhihu.com/answer/2076943774",
+      "summary": "正文采用特殊化与参数化构造无穷多组解。"
+    },
+    {
+      "title": "象棋中的马能把棋盘每一个格都跳完吗？",
+      "url": "https://www.zhihu.com/answer/2098398302",
+      "summary": "正文由四阶棋盘基例和扩张构造归纳步骤。"
+    },
+    {
+      "title": "你见过的最强的本科生科研有多强？",
+      "url": "https://www.zhihu.com/answer/2119166088",
+      "summary": "正文强调高斯通过具体构造证明正十七边形可尺规作出。"
+    },
+    {
+      "title": "有哪些千年以上时间才解决的数学问题?",
+      "url": "https://www.zhihu.com/answer/2122359080",
+      "summary": "正文借尺规所能实现的运算范围解释倍立方、三等分角等问题为何不可构造。"
+    },
+    {
+      "title": "数学史上你认为最丑陋的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2158173156",
+      "summary": "正文解释正 65537 边形的尺规构造与余弦表达。"
+    },
+    {
+      "title": "如何用尺规做正65537边形？",
+      "url": "https://www.zhihu.com/answer/2161616578",
+      "summary": "正文说明正多边形尺规构造与余弦值的逐步构造方法。"
+    },
+    {
+      "title": "是否存在连续函数，使得每个数都被取到n次？",
+      "url": "https://www.zhihu.com/answer/2183391066",
+      "summary": "正文对奇数 n 显式构造满足取到 n 次的连续函数，并对偶数 n 证明不存在。"
+    },
+    {
+      "title": "介绍一下Hadamard猜想及其进展？",
+      "url": "https://www.zhihu.com/answer/2231025748",
+      "summary": "正文介绍 Sylvester 倍增与 Paley 二次剩余等构造 Hadamard 矩阵的方法。"
+    },
+    {
+      "title": "是否存在函数使得从（0,1）映射到[0,1] ,且是双方单值？",
+      "url": "https://www.zhihu.com/answer/2235249790",
+      "summary": "正文给出显式分段函数作为双射的构造性证明。"
+    },
+    {
+      "title": "这道数学分析题应该怎么做呢?",
+      "url": "https://www.zhihu.com/answer/2246529616",
+      "summary": "正文构造辅助函数并借助零点定理证明水平弦存在。"
+    },
+    {
+      "title": "是否存在函数使得从（0,1）映射到[0,1] ,且是双方单值？",
+      "url": "https://www.zhihu.com/answer/2251867736",
+      "summary": "正文给出 Sigmoid、正切和正态分布反函数等具体构造。"
+    },
+    {
+      "title": "布阵者VS破阵者，谁能获胜？",
+      "url": "https://www.zhihu.com/answer/2252025997",
+      "summary": "正文通过构造高维网格点集给出一般性证明。"
+    },
+    {
+      "title": "考研中值定理怎么突破？",
+      "url": "https://www.zhihu.com/answer/2252327649",
+      "summary": "正文把构造辅助函数作为中值定理证明的核心方法。"
+    },
+    {
+      "title": "1²+2²+…+n²求和公式的推导有哪些方法?",
+      "url": "https://www.zhihu.com/answer/2253621389",
+      "summary": "正文通过构造 S 并逐步改写恒等式给出平方和公式的推导。"
+    },
+    {
+      "title": "3³+4³+5³=6³，只是个巧合吗?",
+      "url": "https://www.zhihu.com/answer/2270814119",
+      "summary": "正文通过恒等式和具体参数构造更多等幂和关系。"
+    },
+    {
+      "title": "做过最气的题是什么题？",
+      "url": "https://www.zhihu.com/answer/2272498168",
+      "summary": "正文用构造圆和距离关系给出反直觉的解题构造。"
+    },
+    {
+      "title": "为何可以用不动点法求数列通项公式，可不可以解释一下？",
+      "url": "https://www.zhihu.com/answer/2279934070",
+      "summary": "正文把求变换函数的过程转化为构造不动点方程的方法。"
+    },
+    {
+      "title": "如何证明 π > 3.05 ？",
+      "url": "https://www.zhihu.com/answer/2287815762",
+      "summary": "正文通过选择 n、a、b 显式构造满足目标不等式的方法。"
+    },
+    {
+      "title": "数列 2，4，6，7，8…… 后面的数字是什么？",
+      "url": "https://www.zhihu.com/answer/2291235867",
+      "summary": "正文通过构造插值多项式证明任意后续数字都可被构造出来。"
+    },
+    {
+      "title": "数列 2，4，6，7，8…… 后面的数字是什么？",
+      "url": "https://www.zhihu.com/answer/2293310925",
+      "summary": "正文显式构造多项式解释任意下一项可以被设计出来。"
+    },
+    {
+      "title": "数列 2，4，6，7，8…… 后面的数字是什么？",
+      "url": "https://www.zhihu.com/answer/2293424258",
+      "summary": "正文通过显式构造函数控制数列下一项。"
+    },
+    {
+      "title": "能不能让两个与 π 无关的两个数之和等于 π？",
+      "url": "https://www.zhihu.com/answer/2293706002",
+      "summary": "正文展示如何参数化构造无穷多个解。"
+    },
+    {
+      "title": "高斯的博士论文是不是太简单了？",
+      "url": "https://www.zhihu.com/answer/2301713766",
+      "summary": "正文强调高斯证明中的构造性技巧及其技术难度。"
+    },
+    {
+      "title": "高斯作出正 17 边形的依据是什么？",
+      "url": "https://www.zhihu.com/answer/2311203733",
+      "summary": "正文逐步构造周期并明确给出正十七边形的尺规作图步骤。"
+    },
+    {
+      "title": "数列 {1, 1, 4, 5, 1, …} 的下一位是什么？",
+      "url": "https://www.zhihu.com/answer/2326134869",
+      "summary": "正文显式构造因子和数列并用模 3 条件筛选因子。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/2337134000",
+      "summary": "正文以四平方和恒等式作为拉格朗日四平方和定理证明的核心构造。"
+    },
+    {
+      "title": "如何在开区间 (a,b) 内构造一个确定的无理数？",
+      "url": "https://www.zhihu.com/answer/2338094802",
+      "summary": "正文通过分情况构造具体无理数，体现构造性证明方法。"
+    },
+    {
+      "title": "如何在开区间 (a,b) 内构造一个确定的无理数？",
+      "url": "https://www.zhihu.com/answer/2338295650",
+      "summary": "正文进一步用显式公式构造区间内的无理数。"
+    },
+    {
+      "title": "数学构造辅助线的思路是怎么来的？",
+      "url": "https://www.zhihu.com/answer/2338480604",
+      "summary": "正文把辅助线构造解释为条件、知识与结论的组合过程。"
+    },
+    {
+      "title": "有没有哪些数学题的某一步处理堪称神来之笔？",
+      "url": "https://www.zhihu.com/answer/2346777986",
+      "summary": "正文以特殊放缩构造证明关键不等式。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/2364343365",
+      "summary": "正文通过构造并迭代可数对象给出该定理的现代证明。"
+    },
+    {
+      "title": "高斯作出正 17 边形的依据是什么？",
+      "url": "https://www.zhihu.com/answer/2383131420",
+      "summary": "正文给出尺规作正十七边形的构造步骤。"
+    },
+    {
+      "title": "是否存在连续函数满足f(x)=f(2x)且不为常函数？",
+      "url": "https://www.zhihu.com/answer/2385536796",
+      "summary": "正文先分析存在性，再通过数学类比和对数复合函数显式构造实例。"
+    },
+    {
+      "title": "计算数学在数学界是什么样的地位？",
+      "url": "https://www.zhihu.com/answer/2391077348",
+      "summary": "正文明确比较非构造性存在证明与显式构造方法的差异。"
+    },
+    {
+      "title": "能分享一道如果“注意不到”就出不来的数学题吗？",
+      "url": "https://www.zhihu.com/answer/2461348817",
+      "summary": "正文通过反复拆分构造任意多个立方和的公式。"
+    },
+    {
+      "title": "有什么看似简单，但却需要巧妙思维的数学题目？",
+      "url": "https://www.zhihu.com/answer/2467619139",
+      "summary": "正文通过两条引理和余数分类构造出 24 的倍数。"
+    },
+    {
+      "title": "计算机和数学的学科思维有什么区别和联系？",
+      "url": "https://www.zhihu.com/answer/2509871934",
+      "summary": "正文区分计算机要求的构造性算法步骤与数学证明中常见的非构造性存在论证。"
+    },
+    {
+      "title": "是否存在一组实数 α 和 β，使得 sin(α + β) = sinα + sinβ 成立？",
+      "url": "https://www.zhihu.com/answer/2513059767",
+      "summary": "构造连续函数并利用介值定理证明方程存在无穷多个零点。"
+    },
+    {
+      "title": "高中数学竞赛解决不等式的配方法（SOS）具体是怎么操作的？",
+      "url": "https://www.zhihu.com/answer/2553542823",
+      "summary": "正文通过添项拆项和恒等变形构造平方和表示，再用 SOS 定理完成证明。"
+    },
+    {
+      "title": "是否存在从 (0,1) 到 [0,1] 的连续双射？",
+      "url": "https://www.zhihu.com/answer/2555799041",
+      "summary": "正文利用有理数可数性排列元素，构造分段函数并与线性函数复合，得到开区间到闭区间的显式双射。"
+    },
+    {
+      "title": "有哪些看起来高大上实际上非常容易证明的数学命题？",
+      "url": "https://www.zhihu.com/answer/2560638240",
+      "summary": "正文显式选择素数、各项系数和模逆元，构造出满足条件的不可约多项式 b 与 c。"
+    },
+    {
+      "title": "能不能定义一个数 𝐼，与 0 的乘积等于 1？",
+      "url": "https://www.zhihu.com/answer/2566684122",
+      "summary": "通过保留复数局部运算、用矩阵群作用替换整体乘法，明确构造出所求代数体系。"
+    },
+    {
+      "title": "如何用组合数学证明 (n²)! 能被 (n!)^(n＋1) 整除？",
+      "url": "https://www.zhihu.com/answer/2576271622",
+      "summary": "通过构造带行列对称性的方阵计数模型，给出整除性的组合证明。"
+    },
+    {
+      "title": "是否存在两个周期函数f(x)和g(x)，使得它们的和f(x)+g(x)≡x？",
+      "url": "https://www.zhihu.com/answer/2603766108",
+      "summary": "通过选取商集代表元并显式定义 f、g，构造出和为 x 的两个周期函数。"
+    },
+    {
+      "title": "如何不用导数证明：tanx+sinx＞2x(0＜x＜π/2)?",
+      "url": "https://www.zhihu.com/answer/2608520334",
+      "summary": "通过半角代换把三角不等式转化为代数不等式并证明 tan x+sin x>2x。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/2611070126",
+      "summary": "通过作弦、中垂线和折痕交点构造已知圆的圆心。"
+    },
+    {
+      "title": "能分享一道如果“注意不到”就出不来的数学题吗？",
+      "url": "https://www.zhihu.com/answer/2613264126",
+      "summary": "构造有限集与三个对合，通过双射和配对显式构造平方和分解。"
+    },
+    {
+      "title": "是否存在函数使得从（0,1）映射到[0,1] ,且是双方单值？",
+      "url": "https://www.zhihu.com/answer/2616379214",
+      "summary": "抽出可数子集并平移编号，显式构造 (0,1) 到 [0,1] 的双射。"
+    },
+    {
+      "title": "是否存在两个周期函数f(x)和g(x)，使得它们的和f(x)+g(x)≡x？",
+      "url": "https://www.zhihu.com/answer/2619228270",
+      "summary": "构造 Hamel 基分解并据此把多项式拆成若干周期函数之和。"
+    },
+    {
+      "title": "修仙小说里为啥一代不如一代，功法不应该是不断完善改进么，古法为啥描写的这么牛逼？",
+      "url": "https://www.zhihu.com/answer/2620589835",
+      "summary": "讨论数学中的存在性证明与显式构造之间的区别。"
+    },
+    {
+      "title": "高斯作出正 17 边形的依据是什么？",
+      "url": "https://www.zhihu.com/answer/2625164779",
+      "summary": "通过二次扩张的可作性给出正十七边形的尺规构造依据。"
+    },
+    {
+      "title": "怎样理解希尔伯特的名言“我们必须知道 我们必将知道”？",
+      "url": "https://www.zhihu.com/answer/2632589999",
+      "summary": "比较 Hilbert 非构造性存在证明与后来具体构造 Reynolds 算子的方法。"
+    },
+    {
+      "title": "有没有不靠公式拼好魔方的神人？",
+      "url": "https://www.zhihu.com/answer/2644507887",
+      "summary": "通过组合外层移动与中层移动，从零构造不破坏已复原块的公式。"
+    },
+    {
+      "title": "你自己做出的第一个发表的纯数研究结果的研究过程如何？",
+      "url": "https://www.zhihu.com/answer/2678125237",
+      "summary": "正文明确说明在无法直接证明存在性时改用构造性证明，并在曲面图上归纳构造结果。"
+    },
+    {
+      "title": "理发师悖论怎么破？",
+      "url": "https://www.zhihu.com/answer/2686232059",
+      "summary": "正文在康托定理证明中构造反例集合C，并说明不存在元素映射到该集合。"
+    },
+    {
+      "title": "是否存在函数f(x)使得f(f(x))=4ˣ？",
+      "url": "https://www.zhihu.com/answer/2687028364",
+      "summary": "正文显式构造一个分段递推函数f，再由它构造满足g(g(x))=4^x的函数g。"
+    },
+    {
+      "title": "如何解决这道简单的数分题？",
+      "url": "https://www.zhihu.com/answer/2708321732",
+      "summary": "通过不断取中点并构造嵌套区间来逼近满足 f(ξ)=ξ² 的点。"
+    },
+    {
+      "title": "区间【-5，5】里面所有有理数相加，结果为0吗？",
+      "url": "https://www.zhihu.com/answer/2727490682",
+      "summary": "正文逐段选择正项和负项块构造新数列，使部分和反复跨越目标 A 并最终趋向 A，展示了构造证明的方法。"
+    },
+    {
+      "title": "数学家张益唐攻克 Landau-Siegel 零点猜想相关论文发布，如何评价这一研究的成果及意义？",
+      "url": "https://www.zhihu.com/answer/2749647327",
+      "summary": "正文具体设计非负序列并要求其与待证序列的内积小于零，以此给出构造证明方法。"
+    },
+    {
+      "title": "小数的小数次方可以是整数吗？",
+      "url": "https://www.zhihu.com/answer/2765607074",
+      "summary": "正文明确构造一组由正整数参数表示的底数和指数，使幂恰为整数，给出存在性构造。"
+    },
+    {
+      "title": "Rayo(64)是否比葛立恒数大？",
+      "url": "https://www.zhihu.com/answer/2768827914",
+      "summary": "正文具体写出空集、含空集的集合以及更大自然数的逻辑表达式，用显式构造见证各下界。"
+    },
+    {
+      "title": "P=1!·2!...99!·100! ; Q =P/s!是自然数的完全平方,自然数 s 的值是多少？",
+      "url": "https://www.zhihu.com/answer/2769262578",
+      "summary": "正文先把阶乘乘积重排为若干完全平方因子，显式构造出 s=50 这一可行解。"
+    },
+    {
+      "title": "怎么证明任何一个可数集合，总能找出不可数个子集，使得从中任取两个集合，其中一个都是另一个的真子集？",
+      "url": "https://www.zhihu.com/answer/2769794737",
+      "summary": "正文先固定可数集与有理数的双射，再构造戴德金分割得到链；更新部分又用无限序列和字典序给出另一条构造证明。"
+    },
+    {
+      "title": "泰勒公式是什么，怎么理解？",
+      "url": "https://www.zhihu.com/answer/2774613066",
+      "summary": "正文通过构造辅助函数并结合罗尔定理证明拉格朗日中值定理及其推广。"
+    },
+    {
+      "title": "如何评价曹则贤教授关于数学物理有 85% 的知识未传入中国的观点？",
+      "url": "https://www.zhihu.com/answer/2782351398",
+      "summary": "正文给出初始化、选点连线、取中点加入序列并循环的明确构造步骤，生成无穷多个新三角形心。"
+    },
+    {
+      "title": "如何证明x²+y²=2020^n对任意正整数n有正整数解(x,y)？",
+      "url": "https://www.zhihu.com/answer/2786115154",
+      "summary": "正文由 2020 的平方和表示构造复数，再利用其幂的实部和虚部具体构造原方程的一组正整数解。"
+    },
+    {
+      "title": "如何判定不可约多项式？",
+      "url": "https://www.zhihu.com/answer/2787141614",
+      "summary": "正文逐步给出按系数中 p 的指数取点、连接 Newton 折线并据此验证多项式不可约性的构造步骤。"
+    },
+    {
+      "title": "给高斯一个小时，他能否破解三阶魔方？",
+      "url": "https://www.zhihu.com/answer/2791216385",
+      "summary": "正文利用状态转移可逆，构造与原打乱序列相反的状态序列，以此证明复原解的存在性。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2796044182",
+      "summary": "正文用黄金分割比例构造互补数列，并据此刻画夫妻编号规则，体现构造方法。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2797446684",
+      "summary": "正文显式构造含参数 n 的一组解，再用多项式乘法验证它给出无穷多组原方程解。"
+    },
+    {
+      "title": "这份比较难的数学分析期末考试题怎么做？",
+      "url": "https://www.zhihu.com/answer/2823813126",
+      "summary": "证明中构造辅助数列 b_n，并由其性质累加得到 b_n ≥ 1/n，进而完成极限估计。"
+    },
+    {
+      "title": "数学归纳法是不是「流氓」方法？",
+      "url": "https://www.zhihu.com/answer/2834499601",
+      "summary": "正文不仅证明存在性，还说明归纳步骤如何逐步构造满足条件的数组。"
+    },
+    {
+      "title": "实直线 (real line) 就是实数集 ℝ 吗？",
+      "url": "https://www.zhihu.com/answer/2869031618",
+      "summary": "正文通过来回选取对应元素构造两个可数无界稠密线序集之间的保序双射，并进一步构造完备化映射。"
+    },
+    {
+      "title": "在球面上任取3点，这3点在同一半球的概率是多少？",
+      "url": "https://www.zhihu.com/answer/2874834704",
+      "summary": "正文先构造经过A、B的半球分割，再据此完成概率问题的证明，体现了构造性论证方法。"
+    },
+    {
+      "title": "神经网络的万能逼近定理已经发展到什么地步了？",
+      "url": "https://www.zhihu.com/answer/2876413006",
+      "summary": "正文为证明存在性，显式构造线性等变层、MLP 与求和层组成的 G-不变网络并给出误差估计。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/2882506886",
+      "summary": "正文为证明矩形剖分性质，显式构造复指数二重积分函数，使矩形为漂亮矩形等价于该函数取零。"
+    },
+    {
+      "title": "对指数塔π^π^π^π^……，有没有可能叠到某一层数的时候值为整数？",
+      "url": "https://www.zhihu.com/answer/2892927099",
+      "summary": "正文构造 x=sqrt(2)^sqrt(2)，分有理数和无理数两种情形，证明无理数的无理数次方可为有理数。"
+    },
+    {
+      "title": "如何从零开始学习凸优化？",
+      "url": "https://www.zhihu.com/answer/2900977688",
+      "summary": "正文通过构造超球、切平面和位于其间的分离超平面，说明严格分离超平面的存在性。"
+    },
+    {
+      "title": "你见过哪些构思巧妙，令你眼界大开的数学问题？",
+      "url": "https://www.zhihu.com/answer/2908465597",
+      "summary": "正文先利用每个方块只有六个面逐步限制数字的印法，再利用6倒过来是9构造出满足全部日期的方案，属于构造方法。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2911486965",
+      "summary": "正文具体构造固定有理数枚举、缩小区间并借助区间套得到从实数到商集的单射，完整展示集合论构造方法。"
+    },
+    {
+      "title": "如何通俗地理解哥德尔不完备定理？",
+      "url": "https://www.zhihu.com/answer/2916484836",
+      "summary": "正文通过哥德尔编码、可证性公式和对角线构造具体得到自指语句，并据此构造不可证也不可证否的命题。"
+    },
+    {
+      "title": "为什么√2可以用尺规画出来，而π不行？",
+      "url": "https://www.zhihu.com/answer/2926578716",
+      "summary": "正文在尺规作图模型中说明如何用给定或任取的单位长度、圆规和中垂线构造特定长度，并用平行线等分线段构造三分之一。"
+    },
+    {
+      "title": "为什么ω^ω依然是阿列夫零，而2^阿列夫零却是阿列夫一？",
+      "url": "https://www.zhihu.com/answer/2927977928",
+      "summary": "正文构造素数幂编码，把每个有限支撑函数唯一对应到自然数，从而证明其集合可数。"
+    },
+    {
+      "title": "是否存在发散特别慢的正项级数?",
+      "url": "https://www.zhihu.com/answer/2942862220",
+      "summary": "正文通过分段选取趋于无穷的指标并定义各项，具体构造比一列给定级数都发散得更慢的级数。"
+    },
+    {
+      "title": "不定方程x^3+y^3+z^3=r^3有正整数解（3,4,5,6），除此之外是否还有另外的正整数解？",
+      "url": "https://www.zhihu.com/answer/2948232266",
+      "summary": "正文给出 x³+y³+z³=r³ 的一组参数公式，并通过代入验证构造出无穷多组解。"
+    },
+    {
+      "title": "不定方程x^3+y^3+z^3=r^3有正整数解（3,4,5,6），除此之外是否还有另外的正整数解？",
+      "url": "https://www.zhihu.com/answer/2949649925",
+      "summary": "正文系统列举多组参数解，并说明借助齐次缩放或参数取值可构造无穷多组解。"
+    },
+    {
+      "title": "为什么经济学专业要学拓扑学？",
+      "url": "https://www.zhihu.com/answer/2951765787",
+      "summary": "正文通过简化经济体、构造紧凸集合、收缩映射和多值映射来组织均衡存在性证明，展示了构造式证明方法。"
+    },
+    {
+      "title": "两个大于的0无理数相加，有可能得到一个有理数吗？",
+      "url": "https://www.zhihu.com/answer/2963029910",
+      "summary": "正文给出将无理小数截断、取有理数中点和数轴对称点来构造所求无理数对的明确方法。"
+    },
+    {
+      "title": "数学中你可以“注意到”什么地步?",
+      "url": "https://www.zhihu.com/answer/2971776585",
+      "summary": "正文通过设定参数化解并代入原方程化为Pell方程，利用其无穷多组解构造出无穷多组整数解。"
+    },
+    {
+      "title": "数学中你可以“注意到”什么地步?",
+      "url": "https://www.zhihu.com/answer/2972446531",
+      "summary": "正文显式构造出用非交换元素 a、b 表示的 a 的公式，并据此完成定理证明。"
+    },
+    {
+      "title": "数学中你可以“注意到”什么地步?",
+      "url": "https://www.zhihu.com/answer/2972458032",
+      "summary": "正文显式构造恒等分解，把任意有理数表示成五个有理数的立方和。"
+    },
+    {
+      "title": "什么样的正整数可以写成三个正整数的立方和（mod 9不余4，5）？",
+      "url": "https://www.zhihu.com/answer/2985449874",
+      "summary": "正文按不同余数情形显式构造 n 及其三个立方和，并用满足条件的表示计数完成存在性证明。"
+    },
+    {
+      "title": "有哪些数学上的定理让你感觉「这不显然吗，这还用证明」？",
+      "url": "https://www.zhihu.com/answer/2991444239",
+      "summary": "正文利用 Banach 引理给出的集合分解，显式构造分段映射 h，并证明它是双射。"
+    },
+    {
+      "title": "多项式的牛顿公式证明思路是怎样的？",
+      "url": "https://www.zhihu.com/answer/2992017343",
+      "summary": "正文构造生成函数并对其取自然对数，以幂级数系数比较直接得到牛顿恒等式。"
+    },
+    {
+      "title": "数学里有哪些精彩的伪证？",
+      "url": "https://www.zhihu.com/answer/2994114504",
+      "summary": "正文在 Tarski 定理证明中构造递归对角线函数并定义自指公式，以得到真不可定义的矛盾。"
+    },
+    {
+      "title": "数学里有哪些精彩的伪证？",
+      "url": "https://www.zhihu.com/answer/2995078827",
+      "summary": "正文在猜想不成立的分支中构造最小反例 k，再用其构造一个带条件结论的数学命题。"
+    },
+    {
+      "title": "请问这样的导数题是如何命制的?",
+      "url": "https://www.zhihu.com/answer/3003661699",
+      "summary": "正文通过构造对称辅助函数 F 并分析其导数，证明关于极值点偏移的严格不等式。"
+    },
+    {
+      "title": "0123456789会存在于某个完全平方数的一个数段中吗？",
+      "url": "https://www.zhihu.com/answer/3007367068",
+      "summary": "正文先分析相邻平方的差，再显式构造带目标数字段的大整数并开平方取整，属于构造方法的完整应用。"
+    },
+    {
+      "title": "数学史上有哪些比较著名的猜想因为有反例的存在而没有成为定理？",
+      "url": "https://www.zhihu.com/answer/3025689020",
+      "summary": "正文以素数选取、集合系和特征向量明确构造有限点集，并由此建立所需的下界。"
+    },
+    {
+      "title": "现在用不带刻度的直尺与圆规能做出正n边形吗？（n为奇数）？",
+      "url": "https://www.zhihu.com/answer/3029610010",
+      "summary": "正文把正多边形的尺规作图归结为构造余弦长度，并给出满足费马素数条件的构造判定定理。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/3037373448",
+      "summary": "正文构造拉格朗日插值恒等式，并由该恒等式推出猜想所需的递推关系。"
+    },
+    {
+      "title": "怎么形象清晰地解释「周期 3 意味着混沌」?",
+      "url": "https://www.zhihu.com/answer/3045168071",
+      "summary": "正文用介值定理构造李-约克证明所需的不动点定理与引理，属于构造证明方法。"
+    },
+    {
+      "title": "如何评价曹则贤教授关于数学物理有 85% 的知识未传入中国的观点？",
+      "url": "https://www.zhihu.com/answer/3055169474",
+      "summary": "正文构造由角函数 f 加权的 f-心，并据此论证三角形心不可数且相应平面几何知识构成零测集。"
+    },
+    {
+      "title": "为什么一道几何题不添加辅助线就做不出来，添加了才做的出来，添加辅助线后多了条件吗?",
+      "url": "https://www.zhihu.com/answer/3056942530",
+      "summary": "正文把代数变形中的中间方程和几何辅助线都解释为解题时构造的中间对象，说明辅助构造并未增加原题条件。"
+    },
+    {
+      "title": "现在希尔伯特的23个问题都研究得怎么样了？",
+      "url": "https://www.zhihu.com/answer/3059513033",
+      "summary": "正文构造 Dehn 不变量，并利用线性函数和可加性区分体积相同但不等度可分的正方体与正四面体。"
+    },
+    {
+      "title": "阿里巴巴全球数学竞赛参赛选手95后快递小哥，曾用两周证明欧拉常数公式，你身边有这样的数学隐藏高手吗？",
+      "url": "https://www.zhihu.com/answer/3059627982",
+      "summary": "正文显式构造循环数组，把非恒定数组按长度为 p 的轮换轨道分组，由此证明 p 整除 a^p-a。"
+    },
+    {
+      "title": "是否存在一个函数（除去常值函数），使得f（x）等于f（2x）呢？",
+      "url": "https://www.zhihu.com/answer/3070021952",
+      "summary": "正文明确给出一个非平凡函数的构造方法，并逐步验证它满足题设等式。"
+    },
+    {
+      "title": "所有tanx的所有非零不动点的倒数平方和等于1/5这个怎么证明？",
+      "url": "https://www.zhihu.com/answer/3095044986",
+      "summary": "正文围绕构造 f(z)=tan^2 z/(tan z-z)-3/z 展开思路，说明如何控制极点与留数以使用 Mittag-Leffler 定理。"
+    },
+    {
+      "title": "如何证明：两个数之间必有无穷多个无理数?",
+      "url": "https://www.zhihu.com/answer/3097483831",
+      "summary": "正文按端点的有理、无理情形分别构造位于两数之间的无理数。"
+    },
+    {
+      "title": "如何构造(0,1)到[0,+∞)的一一映射？",
+      "url": "https://www.zhihu.com/answer/3100521355",
+      "summary": "正文分别构造两个双射并将其复合，具体展示了用构造法证明映射存在。"
+    },
+    {
+      "title": "是否存在两个周期函数f(x)和g(x)，使得它们的和f(x)+g(x)≡x？",
+      "url": "https://www.zhihu.com/answer/3136608009",
+      "summary": "正文给出分步递推的构造流程，从代表元出发锁定等价类上的函数值，最终显式构造 f 与 g。"
+    },
+    {
+      "title": "为什么不存在收敛速度最慢的级数？",
+      "url": "https://www.zhihu.com/answer/3143510039",
+      "summary": "正文构造由收敛级数尾项平方根之差组成的通项，作为比原级数收敛更慢的实例。"
+    },
+    {
+      "title": "在任意拓扑空间X中任给两个拓扑τ和σ，是否必然存在一个同时细于τ和σ的最粗糙的拓扑？",
+      "url": "https://www.zhihu.com/answer/3146158632",
+      "summary": "正文给出构造性证明，以两个拓扑的并作拓扑闭包，得到同时细于二者且最粗的拓扑。"
+    },
+    {
+      "title": "1，3，3，5，5，5，7，7，7，7... 的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/3155500413",
+      "summary": "正文把重复数列问题抽象成选择严格单增函数 g，再以 h(floor(g^{-1}(x))) 构造通项公式。"
+    },
+    {
+      "title": "有没有符合f'(x)=f(x+1)的函数？",
+      "url": "https://www.zhihu.com/answer/3156612640",
+      "summary": "正文用支集缩小的 bump 函数和级数显式构造具有指定导数的光滑函数，并据此构造方程解。"
+    },
+    {
+      "title": "1，3，3，5，5，5，7，7，7，7... 的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/3156878036",
+      "summary": "正文先给出取整表达式，再推导复变函数形式，构造出该数列的一个显式通项公式。"
+    },
+    {
+      "title": "是否存在各棱长，面积和体积都是整数的四面体?",
+      "url": "https://www.zhihu.com/answer/3158163510",
+      "summary": "正文给出 Carmichael 的参数化解，并通过连续变量替换和椭圆曲线点构造互不等价的完美四面体。"
+    },
+    {
+      "title": "全体无理数在什么合成法则下构成群？",
+      "url": "https://www.zhihu.com/answer/3162117718",
+      "summary": "正文给出借助集合双射与共轭定义新运算的显式构造方法，说明抽象结构可以迁移到另一集合。"
+    },
+    {
+      "title": "数学中你可以“注意到”什么地步?",
+      "url": "https://www.zhihu.com/answer/3213003946",
+      "summary": "正文通过选择满足立方因式条件的多项式并配方，逐步构造出所需的有理数恒等式。"
+    },
+    {
+      "title": "数学上有哪些非常奇葩的证明？",
+      "url": "https://www.zhihu.com/answer/3232539420",
+      "summary": "正文用显式立方和恒等式构造出任意有理数的表示，体现了构造方法的证明作用。"
+    },
+    {
+      "title": "数分的核心是什么？为什么说数分重要？",
+      "url": "https://www.zhihu.com/answer/3251201200",
+      "summary": "正文采用 Picard 逐次逼近直接构造出方程的解，强调该存在性证明的构造性。"
+    },
+    {
+      "title": "希尔伯特的数学成就有哪些？",
+      "url": "https://www.zhihu.com/answer/3257173906",
+      "summary": "正文借希尔伯特基定理的历史，对比有限基的存在性进路与后来给出的构造性方法。"
+    },
+    {
+      "title": "高中数学立体几何关于截面问题怎么确定截面？",
+      "url": "https://www.zhihu.com/answer/3274140355",
+      "summary": "正文给出找截点、连接共面截点并首尾围合的完整截面构造步骤，并用于多个具体图形。"
+    },
+    {
+      "title": "不可测集的构造是怎么想到的?",
+      "url": "https://www.zhihu.com/answer/3276037526",
+      "summary": "正文逐步重构 Vitali 集，从有理平移轨迹和等价类出发构造两两不交的平移副本。"
+    },
+    {
+      "title": "如何构造 ℝ 到 ℝ / ℚ （商集）的双射？",
+      "url": "https://www.zhihu.com/answer/3279865400",
+      "summary": "正文用无穷二叉树、区间套和有理数枚举显式构造满足模有理数不等价的单射，并借助康托尔—伯恩斯坦定理得到双射。"
+    },
+    {
+      "title": "能不能通俗的解释一下椭圆函数，就是那种只学了实分析和复分析基础的人也能理解的那种？",
+      "url": "https://www.zhihu.com/answer/3283286949",
+      "summary": "正文给出 Weierstrass 函数的显式构造，并证明其收敛、全纯和双周期性。"
+    },
+    {
+      "title": "如何证明e³＞20?",
+      "url": "https://www.zhihu.com/answer/3303573423",
+      "summary": "正文设含待定系数平方因子的积分恒等式，并通过系数方程寻找满足目标的积分构造。"
+    },
+    {
+      "title": "注意力涣散的人如何优雅地证明π<355/113?",
+      "url": "https://www.zhihu.com/answer/3308639758",
+      "summary": "正文先构造带特定中点和弦的圆内图形，再把构造长度化为代数不等式来证明 π<355/113。"
+    },
+    {
+      "title": "如何写一个“拼多多函数”PDD(x)，使得随着砍价次数x增加，函数值会无限接近于1但永远不会等于1?",
+      "url": "https://www.zhihu.com/answer/3308756783",
+      "summary": "正文用“先选增长足够快的 g，再取 f=1-1/g”的构造方法保证函数值无限接近 1。"
+    },
+    {
+      "title": "如何写一个“拼多多函数”PDD(x)，使得随着砍价次数x增加，函数值会无限接近于1但永远不会等于1?",
+      "url": "https://www.zhihu.com/answer/3312785170",
+      "summary": "正文构造参数化函数族，并逐步验证单调性、取值范围和不取到 1 的条件，属于构造方法。"
+    },
+    {
+      "title": "泰勒公式最初是如何想到的?",
+      "url": "https://www.zhihu.com/answer/3313231250",
+      "summary": "正文通过构造辅助函数并利用罗尔定理证明拉格朗日与柯西中值定理，服务于泰勒展开证明。"
+    },
+    {
+      "title": "闲聊中有个同事说，所有曲线的长度都是无理数，我问为啥也没告诉我，是这样的吗，是的话如何证明？",
+      "url": "https://www.zhihu.com/answer/3316972155",
+      "summary": "正文显式构造一个有理函数，使指定两端点间曲线的弧长可以化简成有理数。"
+    },
+    {
+      "title": "是否存在相异有理数a,b,使得a^a=b^b？",
+      "url": "https://www.zhihu.com/answer/3333806990",
+      "summary": "正文显式构造由正整数 n 参数化的全部解族，并随后论证没有遗漏其他情形。"
+    },
+    {
+      "title": "如何证明ln4＞arctan4?",
+      "url": "https://www.zhihu.com/answer/3351499658",
+      "summary": "正文先构造 ln4−arctan4 的显式正项级数表示，再逐项判定为正以完成不等式证明。"
+    },
+    {
+      "title": "定义实数的五种方法，你知道么？",
+      "url": "https://www.zhihu.com/answer/3359856978",
+      "summary": "正文用有界准同态及等价关系显式构造实数，并给出加法、乘法和代表元的具体定义。"
+    },
+    {
+      "title": "如何证明ln2<0.7?",
+      "url": "https://www.zhihu.com/answer/3366948585",
+      "summary": "正文通过构造一个特殊正项级数并利用其恒等和，证明 ln 2 小于 7/10。"
+    },
+    {
+      "title": "如何优雅的证明ln(10/9)＞2/19？",
+      "url": "https://www.zhihu.com/answer/3372065394",
+      "summary": "正文没有直接比较两个数，而是构造一个可积的辅助表达式，再用其正性完成不等式证明，体现了构造方法。"
+    },
+    {
+      "title": "如何优雅地证明ln(2024/2022)>2tan(1/2023)？",
+      "url": "https://www.zhihu.com/answer/3372273651",
+      "summary": "正文通过构造辅助积分并反向追踪各步等价变形，建立从已知不等式到目标不等式的完整证明链。"
+    },
+    {
+      "title": "如何不用计算机比较ln3和1.1的大小？",
+      "url": "https://www.zhihu.com/answer/3383070936",
+      "summary": "正文说明并列出多组专门构造的有理分式正项级数恒等式，用作比较 ln3 的证明工具。"
+    },
+    {
+      "title": "你遇到的最难的一个数学题是什么？",
+      "url": "https://www.zhihu.com/answer/3388055407",
+      "summary": "正文在韦达跳跃证明中构造二次方程的另一个根 a2，并由它得到和更小的一组解。"
+    },
+    {
+      "title": "f(f(f(f(x))))=x 且 f(f(x))≠x 有没有这样的函数，怎么构造？",
+      "url": "https://www.zhihu.com/answer/3408137603",
+      "summary": "正文核心是从旋转变换出发构造分式线性函数，使函数迭代具有指定周期，展示了具体构造方法。"
+    },
+    {
+      "title": "平面曲线周长一定，圆的面积是否最大？为什么？",
+      "url": "https://www.zhihu.com/answer/3413632482",
+      "summary": "正文用凹变凸、中心对称化和直角三角形撑大三种连续构造操作，保持周长不变并逐步增大面积。"
+    },
+    {
+      "title": "哪些数学定理在直觉上是对的，但证明起来很困难？",
+      "url": "https://www.zhihu.com/answer/3423808536",
+      "summary": "正文说明Hydra游戏终止性的证明通过给每个头赋予无穷序数，构造可下降的复杂度度量。"
+    },
+    {
+      "title": "「数学之美」有什么例子？",
+      "url": "https://www.zhihu.com/answer/3426985252",
+      "summary": "正文通过拼接直角三角形并给出参数公式，构造边长和面积均为整数的例子。"
+    },
+    {
+      "title": "最多可以找到几阶的汉字正交拉丁方阵？",
+      "url": "https://www.zhihu.com/answer/3434869485",
+      "summary": "正文直接给出一系列不同阶数的汉字正交拉丁方阵实例，展示构造结果。"
+    },
+    {
+      "title": "如何用1、0、0、8、6算24点？",
+      "url": "https://www.zhihu.com/answer/3491520290",
+      "summary": "正文构造公式，把四个数的零次幂累加后再取阶乘，给出一种得到二十四的通用构造。"
+    },
+    {
+      "title": "怎么理解凯莱定理，每一个群都同构于一个变换群？",
+      "url": "https://www.zhihu.com/answer/3520123585",
+      "summary": "正文为每个有限群元素构造左乘置换，并验证这些置换构成同构于原群的子群，体现了构造证明方法。"
+    },
+    {
+      "title": "数学系学数学的男生最后都是如何找到女朋友的？",
+      "url": "https://www.zhihu.com/answer/3527431604",
+      "summary": "正文在非平凡的三角形凸包情形中连接并延长 A_4A_5，选取同侧两点与 A_4、A_5 构造所需的凸四边形。"
+    },
+    {
+      "title": "17岁中专女生超越一众名校生，全球排名 12 闯入 2024 阿里全球数赛决赛，如何评价她的数学水平？",
+      "url": "https://www.zhihu.com/answer/3529572122",
+      "summary": "正文为应用 Minkowski 定理构造面积恒定的平行四边形，并由此完成存在整点向量的证明。"
+    },
+    {
+      "title": "有没有哪些数学题的某一步处理堪称神来之笔？",
+      "url": "https://www.zhihu.com/answer/3549091740",
+      "summary": "正文先说明可以选取方向使所有子集和两两不同，再据此构造两个点集并得到单位圆数量下界。"
+    },
+    {
+      "title": "数学界有什么open problem是通过绝妙思想证明的?",
+      "url": "https://www.zhihu.com/answer/3553805961",
+      "summary": "正文构造 Dehn 不变量，用它区分体积相同但不同等可拼的多面体。"
+    },
+    {
+      "title": "如何证明2π+e>9?",
+      "url": "https://www.zhihu.com/answer/3554486676",
+      "summary": "正文构造出一个恒等于 2π+e-9 的非负被积函数，以显式积分表示完成存在性证明。"
+    },
+    {
+      "title": "无限集必有可列子集，老师的证明对吗？",
+      "url": "https://www.zhihu.com/answer/3568459851",
+      "summary": "正文比较有限构造与无限递归选择，说明仅宣称过程可无限进行并不能完成子集的构造。"
+    },
+    {
+      "title": "为什么Cantor-Bernstein定理的那个不用选择公理的证明可以做到“经典永流传”？",
+      "url": "https://www.zhihu.com/answer/3574747803",
+      "summary": "正文通过两个单射递归构造集合列并拼接双射，具体展示了构造方法完成 Cantor-Bernstein 定理证明。"
+    },
+    {
+      "title": "如何证明((π(2e)^(-e)+π)^π+π)^π>114514？",
+      "url": "https://www.zhihu.com/answer/3583683205",
+      "summary": "正文主动构造多个积分恒等式作为精确证书，以证明 e、π 和最终表达式的界。"
+    },
+    {
+      "title": "数学里有哪些精彩的伪证？",
+      "url": "https://www.zhihu.com/answer/3601199703",
+      "summary": "正文强调该证伪并非直接暴力算出临界值，而是通过数学构造得到临界数，对应构造方法。"
+    },
+    {
+      "title": "如何证明SSCG(3)>TREE(3)？",
+      "url": "https://www.zhihu.com/answer/3619954642",
+      "summary": "正文构造树到 SSCG 图的保持嵌入关系的转换，并补充计数器与启动序列，以说明 SSCG(3) 与 TREE(3) 的大小关系。"
+    },
+    {
+      "title": "你看过哪些好看的旗帜？",
+      "url": "https://www.zhihu.com/answer/3628827314",
+      "summary": "正文利用良序和映射 g 的具体规则构造了一个无法显式画出的旗帜函数。"
+    },
+    {
+      "title": "存不存在这样的 f(x)、g(x)，使 f(g(x)) 单调增，g(f(x)) 单调减？",
+      "url": "https://www.zhihu.com/answer/3634886239",
+      "summary": "正文用交替区间分段构造非单调函数，并逐段验证两个复合函数分别严格递减和递增。"
+    },
+    {
+      "title": "是否可以由 aᵃ=bᵇ 推出 a=b？为什么？",
+      "url": "https://www.zhihu.com/answer/3787354462",
+      "summary": "正文以 (999/1000)^999 为 a、以 (999/1000)^1000 为 b 构造出一组数值实例。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/3845866775",
+      "summary": "正文说明以种子点为圆心作高维球面并取包络的构造思路，并介绍五人团队据此构造小体积定宽体。"
+    },
+    {
+      "title": "如何用最复杂的方式证明根号 33 小于 7?",
+      "url": "https://www.zhihu.com/answer/4255367639",
+      "summary": "正文利用两个数之间可插入中间数的构造，说明如何把原证明拆成两段来构造更复杂的证明。"
+    },
+    {
+      "title": "如何证明 √2 + √3 + √5 + √7 是无理数？",
+      "url": "https://www.zhihu.com/answer/10507364199",
+      "summary": "正文构造含全部根式共轭取值的对称多项式 F，并由其有理系数性质推进无理性证明。"
+    },
+    {
+      "title": "如何优雅地证明e^x>1/2·x³-(7-e²)/4·x²+x+1？",
+      "url": "https://www.zhihu.com/answer/22918488382",
+      "summary": "正文显式构造基多项式 A_ik(x)，再以它们拼出满足插值条件的 H(x)，具体展开了构造性证明。"
+    },
+    {
+      "title": "平面几何为何是我国数学竞赛比较薄弱的项目?",
+      "url": "https://www.zhihu.com/answer/29740193204",
+      "summary": "正文系统给出角、角平分线、中点、垂线、平行线、圆及切线的尺规作图步骤，属于构造方法。"
+    },
+    {
+      "title": "如何构造函数，使得f(f(x))=-x？",
+      "url": "https://www.zhihu.com/answer/33092770282",
+      "summary": "正文根据方程推导函数性质，并将实数轴分段配对，显式构造多个满足条件的函数。"
+    },
+    {
+      "title": "你见过最优雅的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/36233551630",
+      "summary": "正文通过构造非负邻接矩阵对应的有向图和回路轨道计数，展示了构造式证明方法。"
+    },
+    {
+      "title": "你见过最优雅的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/37418519670",
+      "summary": "正文给出整数幂和方程的显式参数解与代入实例，展示了用具体参数族构造满足方程解的方法。"
+    },
+    {
+      "title": "如何用一把没有刻度的尺子找到一个圆的圆心？",
+      "url": "https://www.zhihu.com/answer/39762133132",
+      "summary": "正文分步构造辅助交点、直线、菱形及直径，给出只用无刻度尺确定圆心的作图方法。"
+    },
+    {
+      "title": "如何用一把没有刻度的尺子找到一个圆的圆心？",
+      "url": "https://www.zhihu.com/answer/39820272193",
+      "summary": "正文按步骤借助平行线、等腰三角形与连接线作图，反复构造两条直径来确定圆心。"
+    },
+    {
+      "title": "114510，114511，114512，114513，（）找规律后面应该填什么?",
+      "url": "https://www.zhihu.com/answer/42313844407",
+      "summary": "正文通过构造分段因子对应的多项式来延续数列，并以该构造所得的函数值作为答案。"
+    },
+    {
+      "title": "你见过最优雅的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/43747182664",
+      "summary": "正文构造候选数根号 2 的根号 2 次方，再按该数的两种可能情形另造幂次完成证明。"
+    },
+    {
+      "title": "有哪些看起来简洁却很难的数学题？",
+      "url": "https://www.zhihu.com/answer/43812536093",
+      "summary": "正文通过韦达跳跃构造方程的另一整数解，再利用其更小导出与最小解假设的矛盾。"
+    },
+    {
+      "title": "a/b+b/c+c/a=73是否存在正整数解？",
+      "url": "https://www.zhihu.com/answer/55574012846",
+      "summary": "正文显式构造从三元三次方程解到原方程的转换公式，再由椭圆曲线的点构造目标正整数解。"
+    },
+    {
+      "title": "你练了很久的体育却被天赋哥练习几个月就超越了是一种怎样的感觉？",
+      "url": "https://www.zhihu.com/answer/58122523272",
+      "summary": "正文给出正多边形可尺规作图构造的充要数量条件，并称可据此找出所有可构造的正多边形。"
+    },
+    {
+      "title": "如何证明存在 1000 个连续的正整数中恰好有五个素数？",
+      "url": "https://www.zhihu.com/answer/62496196555",
+      "summary": "正文构造区间素数计数函数，并用离散型介值定理完成存在性证明，体现了构造方法。"
+    },
+    {
+      "title": "实数集上可以构造多少个拓扑?",
+      "url": "https://www.zhihu.com/answer/65366154506",
+      "summary": "正文借助滤子、有限交性质和独立集族显式构造 \\beth_3 个互不相同的拓扑，属于有目标的数学构造方法。"
+    },
+    {
+      "title": "如何把画框挂在三颗钉子上，使得去掉任意一颗钉子，画框都会掉下去？",
+      "url": "https://www.zhihu.com/answer/71975736903",
+      "summary": "正文给出由区间递归拼接挂法的构造，借此控制构造长度并推广到任意多颗钉子。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/72171721635",
+      "summary": "正文具体展示了以两条抛物线交点构造 ∛2 的作图方法。"
+    },
+    {
+      "title": "怎样看出一个人有数学天赋？",
+      "url": "https://www.zhihu.com/answer/72173820223",
+      "summary": "正文具体展示了以两条抛物线交点构造 ∛2 的作图方法。"
+    },
+    {
+      "title": "有哪些千年以上时间才解决的数学问题?",
+      "url": "https://www.zhihu.com/answer/72174972387",
+      "summary": "正文具体展示了以两条抛物线交点构造 ∛2 的作图方法。"
+    },
+    {
+      "title": "有哪些看起来简洁却很难的数学题？",
+      "url": "https://www.zhihu.com/answer/74748112802",
+      "summary": "正文具体给出以两条抛物线交点构造 ∛2、解决立方倍积问题的构造方法。"
+    },
+    {
+      "title": "是否有Q到Q\\{0}的保序的双射?",
+      "url": "https://www.zhihu.com/answer/85486414450",
+      "summary": "正文借助有理区间的线性保序映射和逐步区间套，显式构造从 Q 到 Q 去零的保序双射。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/90754423143",
+      "summary": "正文通过裁剪、叠放小正方形并扎孔还原格点的构造，证明图形可平移至不覆盖任何格点。"
+    },
+    {
+      "title": "是否存在一个实数a，使得3.1415926535<a<π？",
+      "url": "https://www.zhihu.com/answer/97496717544",
+      "summary": "正文显式构造一个实数，并用两个严格不等式证明它位于给定小数界与 π 之间。"
+    },
+    {
+      "title": "不能用尺规作图画三等分角的话，有没有其他手段能够将角精确三等分?",
+      "url": "https://www.zhihu.com/answer/97525666714",
+      "summary": "正文分别给出用阿基米德螺线和二刻尺三等分任意角的具体构造步骤。"
+    },
+    {
+      "title": "不能用尺规作图画三等分角的话，有没有其他手段能够将角精确三等分?",
+      "url": "https://www.zhihu.com/answer/97890088477",
+      "summary": "正文按照折纸步骤构造出三等分角所需的折痕。"
+    },
+    {
+      "title": "怎么让不懂数学的人体会到抽象代数的魅力？",
+      "url": "https://www.zhihu.com/answer/116806827216",
+      "summary": "正文构造取值于有限域的两个函数 A(X) 与 B(X)，利用合法移动保持不变量来证明结论。"
+    },
+    {
+      "title": "泰勒级数是如何推导出来的？",
+      "url": "https://www.zhihu.com/answer/121097127740",
+      "summary": "正文通过构造辅助函数并应用罗尔定理证明拉格朗日中值定理，展示了构造法的证明过程。"
+    },
+    {
+      "title": "是否存在一个四面体，其所有四个面都是全等的三角形，但该四面体不是正四面体？",
+      "url": "https://www.zhihu.com/answer/122855377915",
+      "summary": "正文用球面交点构造第四个顶点，并分别讨论等边、等腰和三边不等的情形以穷尽可能性。"
+    },
+    {
+      "title": "如何用最少的圆周率 π、自然常数 e 凑出 2025？",
+      "url": "https://www.zhihu.com/answer/125481104053",
+      "summary": "正文利用题目规则构造被积函数，并给出总使用次数为4且取整得到2025的显式表达式，体现构造方法。"
+    },
+    {
+      "title": "在数学的学习过程中，你见过最妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/126126609478",
+      "summary": "证明通过为每个实数构造对应的正切角，再结合鸽巢原理选出所需的一对角。"
+    },
+    {
+      "title": "能分享一道如果“注意不到”就出不来的数学题吗？",
+      "url": "https://www.zhihu.com/answer/131033679071",
+      "summary": "正文直接给出一组四个正整数的具体数值来证明四次方程存在正整数解，这是明确的构造式证明。"
+    },
+    {
+      "title": "一个计算器，只可以使用1,4,6,8,9,0,×,÷,√（平方根）和括号，能否算式表示出所有正整数？",
+      "url": "https://www.zhihu.com/answer/131454896345",
+      "summary": "正文显式构造若干 10 的幂之和作为 n 的倍数，再乘以可用数字 b，完成存在性构造。"
+    },
+    {
+      "title": "高中排列组合的问题？",
+      "url": "https://www.zhihu.com/answer/1889611965124551692",
+      "summary": "正文显式构造从至多k部分分拆到n+k的k分拆的一一映射，并用该构造证明分拆递推公式。"
+    },
+    {
+      "title": "在数学的学习过程中，你见过最妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/1896981608013211603",
+      "summary": "正文构造根号二的根号二次方，并分有理与无理两种情形得到存在性证明。"
+    },
+    {
+      "title": "如何神秘地证明这个不等式？",
+      "url": "https://www.zhihu.com/answer/1898192168646084153",
+      "summary": "正文通过构造复杂恒等式、代入条件并配方转化问题，形成可检验的证明路径。"
+    },
+    {
+      "title": "f(a＋b) = f(a) + f(b) 一定说明 f(x) 是一次函数吗？",
+      "url": "https://www.zhihu.com/answer/1898579414926750798",
+      "summary": "正文借助有理数域上的 Hamel 基底和基底坐标具体构造满足可加性的非线性函数。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/1900975429948519641",
+      "summary": "正文先定义集合 S 与对合变换，再构造两条不同对合并利用奇偶性推出平方和表示。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/1910495998192629375",
+      "summary": "正文通过构造图形和方程，构造性证明 sin1° 可由根号嵌套表示，因而证明其为代数数。"
+    },
+    {
+      "title": "是否存在一个四面体，其所有四个面都是全等的三角形，但该四面体不是正四面体？",
+      "url": "https://www.zhihu.com/answer/1911810532723397725",
+      "summary": "正文具体构造了与长方体顶点相关的四面体，把对棱相等转化为长方体内接结构，属于可复现的几何构造方法。"
+    },
+    {
+      "title": "如何证明调和级数发散?",
+      "url": "https://www.zhihu.com/answer/1915162358176784560",
+      "summary": "正文给出可执行的构造：反复截取新的有限项段，使每段和都大于1，进而得到发散结论。"
+    },
+    {
+      "title": "如何优雅地证明 ∑i³=(∑i)²？",
+      "url": "https://www.zhihu.com/answer/1915574305602920828",
+      "summary": "正文用牛顿二项式累加和费马型连乘裂项构造出等幂和公式，并推广到一般的 m 次幂和。"
+    },
+    {
+      "title": "平均值不等式怎么证明的啊?（不要n等于二的，要全面证明谢了）?",
+      "url": "https://www.zhihu.com/answer/1915729617572075244",
+      "summary": "正文在奇数情形构造出 c 与立方根均值项，把问题归约为二元均值不等式来完成证明。"
+    },
+    {
+      "title": "在直角坐标系中，存不存在五个整数坐标点都在一个椭圆上？",
+      "url": "https://www.zhihu.com/answer/1915758824901554888",
+      "summary": "正文从圆上的整数点出发缩放横坐标，具体构造出椭圆上多组整数坐标点。"
+    },
+    {
+      "title": "韦东奕近期在数学顶级期刊发文《超临界散焦非线性波动方程的爆破现象研究》，怎样评价这一研究？",
+      "url": "https://www.zhihu.com/answer/1916432541734404193",
+      "summary": "正文依次展开领导项、形式级数、近似解与最终修正项，说明爆破解的构造式证明路线。"
+    },
+    {
+      "title": "是否可以由 aᵃ=bᵇ 推出 a=b？为什么？",
+      "url": "https://www.zhihu.com/answer/1917214068504260881",
+      "summary": "正文构造参数化解并通过对等式两边取同一次方完成证明。"
+    },
+    {
+      "title": "如何优雅地证明 ∑i³=(∑i)²？",
+      "url": "https://www.zhihu.com/answer/1917321071608206530",
+      "summary": "正文构造二维乘法表，并按折线箭头把表中各数划分为逐层求和，形成立方和恒等式的构造性证明。"
+    },
+    {
+      "title": "如何解函数方程 2f(x)＋f(2x)＝x？",
+      "url": "https://www.zhihu.com/answer/1918108761165395034",
+      "summary": "正文任选一个单位区间上的函数，再通过递推延拓构造通解，并进一步构造连续解。"
+    },
+    {
+      "title": "李普希兹条件为什么能保证ODE解的存在唯一性？Lipschitz条件可否减弱？",
+      "url": "https://www.zhihu.com/answer/1918562807064008125",
+      "summary": "正文用 Picard 迭代构造函数序列并证明其收敛到不动点，具体展示了解存在性的构造方法。"
+    },
+    {
+      "title": "如何证明任意两个实数之间存在无理数？",
+      "url": "https://www.zhihu.com/answer/1919549379561361641",
+      "summary": "正文按端点是否为有理数分情况给出显式构造，从而证明任意两个实数之间存在无理数。"
+    },
+    {
+      "title": "如何解函数方程 f(x)+f(ln(x))=0?",
+      "url": "https://www.zhihu.com/answer/1921359167739892280",
+      "summary": "正文通过定义对数深度函数并令 f(x)=cos(pi L(x))，显式构造出一族连续解。"
+    },
+    {
+      "title": "为什么丘成桐说王虹是新一代中国最伟大最重要的学者？",
+      "url": "https://www.zhihu.com/answer/1922028642797618586",
+      "summary": "正文具体说明用更易枚举的“粒”作为复杂“管”的等效表示来推进证明，对应该构造方法的证明策略。"
+    },
+    {
+      "title": "如何构造函数，使得f(f(x))=-x？",
+      "url": "https://www.zhihu.com/answer/1922339829867340368",
+      "summary": "正文依据已证性质划分正实数轴，借助双射及其反函数显式构造分段函数解，并给出多个具体实例。"
+    },
+    {
+      "title": "哪位大佬帮帮我，找出以下方程的所有整数解？x^3+y^3+z^3＝9xyz？",
+      "url": "https://www.zhihu.com/answer/1922355461929283746",
+      "summary": "正文利用已知整数解建立卢卡斯和柯西型线性方程组，再由此构造同一方程的另一种整数解。"
+    },
+    {
+      "title": "如果f(f(x))=1/x，f(x)可以为什么？",
+      "url": "https://www.zhihu.com/answer/1922620223766390571",
+      "summary": "正文把剩余非零实数划分为四块并选取双射 g，逐块定义 f 的取值，具体构造满足方程的函数。"
+    },
+    {
+      "title": "怎样构造函数f(x)使之满足f(x)+f(1/x)==1?",
+      "url": "https://www.zhihu.com/answer/1923869419202904491",
+      "summary": "正文通过指数代换把原函数方程转化为奇函数条件，并据此构造出完整的解族。"
+    },
+    {
+      "title": "如何优雅地证明√(4)+√(7)<√(5)+√(6)?",
+      "url": "https://www.zhihu.com/answer/1924131385087615446",
+      "summary": "正文构造辅助函数并通过有理化变形，为不等式建立可比较的单调函数。"
+    },
+    {
+      "title": "是否可以构造一种连续函数 f 使得 f(f(x))＝ax²＋bx＋c?",
+      "url": "https://www.zhihu.com/answer/1925966892469843868",
+      "summary": "正文在不动点稳定性允许的情形下明确提出局部构造连续迭代根并延拓到整个区间的方法。"
+    },
+    {
+      "title": "有谁知道伽罗瓦用来证明一元五次方程所提到的预解式的结构吗？",
+      "url": "https://www.zhihu.com/answer/1926367975935550302",
+      "summary": "正文通过构造稳定子为 F20 的多项式及各共轭值，显式构造预解式。"
+    },
+    {
+      "title": "17 岁高中生构造反例推翻 Mizohata-Takeuchi 猜想，这项工作的价值和意义有哪些？",
+      "url": "https://www.zhihu.com/answer/1926614636565858235",
+      "summary": "正文具体说明如何选择小球分布和集合 Q 来构造反例，并核算构造产生的对数增益。"
+    },
+    {
+      "title": "是否存在两个周期函数f(x)和g(x)，使得它们的和f(x)+g(x)≡x？",
+      "url": "https://www.zhihu.com/answer/1926657365622650744",
+      "summary": "正文利用 Hamel 基分解逐项定义两个函数，具体构造出周期函数并使其和恒等于 x。"
+    },
+    {
+      "title": "一般的一元六次方程的双变量超几何函数的解法是什么?",
+      "url": "https://www.zhihu.com/answer/1927092578458793384",
+      "summary": "正文推导并给出六次方程各根的具体超几何级数构造，还用数值代码作对照验证。"
+    },
+    {
+      "title": "是否存在处处连续但无处可微的函数? 如何构造？",
+      "url": "https://www.zhihu.com/answer/1927106506026877388",
+      "summary": "正文列出 Weierstrass、Darboux、高木贞治和 Riemann 等函数的显式构造来说明该现象。"
+    },
+    {
+      "title": "是否存在两个周期之比为无理数的函数，它们的和为周期函数?",
+      "url": "https://www.zhihu.com/answer/1928442680104445522",
+      "summary": "正文显式构造周期函数并验证其周期性质来证明所需例子存在。"
+    },
+    {
+      "title": "你在教材中看到过最长的证明是什么？",
+      "url": "https://www.zhihu.com/answer/1928828156942485479",
+      "summary": "正文具体说明高斯证明二次互反律时通过整数配对和整体性质计算来构造关键论证。"
+    },
+    {
+      "title": "有哪些数学定理今天看起来很平凡，但在当时的证明却很困难？",
+      "url": "https://www.zhihu.com/answer/1932706578622021682",
+      "summary": "正文构造多项式倒数这一辅助全纯函数，将有界性条件转化为零点存在性的证明。"
+    },
+    {
+      "title": "请问数学分析中最容易用来当反例的函数有哪些？",
+      "url": "https://www.zhihu.com/answer/1933669216889837288",
+      "summary": "正文把严格递增且具无穷多个驻点的函数置于 arctan 与 tan 的复合中，给出两种显式反例构造。"
+    },
+    {
+      "title": "这道高中不等式怎么证明?",
+      "url": "https://www.zhihu.com/answer/1938010205112763659",
+      "summary": "正文构造辅助量 A_n，并把它写成 A_1 连乘相邻比值的伸缩积，再逐项估计完成证明。"
+    },
+    {
+      "title": "无理数为什么符合有理数的运算规律？",
+      "url": "https://www.zhihu.com/answer/1938252329859150631",
+      "summary": "正文直接构造有理柯西列等价类的商集并把实数定义为该商集，从而得到实数域。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/1947088064322180929",
+      "summary": "正文给出对角线上放置 n 个黑格的显式构造并说明经过 n 轮可染黑整个棋盘，从而证明下界可达。"
+    },
+    {
+      "title": "有哪些令人为之惊叹的数学题目？",
+      "url": "https://www.zhihu.com/answer/1951297312883180588",
+      "summary": "正文构造棋盘式黑白染色，利用每块长方形砖必覆盖一黑一红而黑白格数不同来证明无法铺满。"
+    },
+    {
+      "title": "有哪些令人为之惊叹的数学题目？",
+      "url": "https://www.zhihu.com/answer/1952324587753804479",
+      "summary": "正文实际构造边界曲线、栖木和路径更新规则，并由此给出天使获胜的明确构造方案。"
+    },
+    {
+      "title": "是否存在这样的数，a+b=ab（ a不等于b不等于0）?",
+      "url": "https://www.zhihu.com/answer/1952874402581554529",
+      "summary": "正文给出由任取乘积为十的两个数出发，按和与积的比例缩放来构造目标数对的明确步骤。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1954316585125774048",
+      "summary": "正文以生成多项式和对数积分构造出一条证明 Erdős 定理的路径，体现构造证明方法。"
+    },
+    {
+      "title": "n为奇数时，2^n+1与n^2+1一定互质吗?",
+      "url": "https://www.zhihu.com/answer/1955702518182052765",
+      "summary": "正文利用中国剩余定理分别构造两个同余条件的兼容解，并继续求出具体的 n。"
+    },
+    {
+      "title": "数学中有哪些有趣的构造性证明？",
+      "url": "https://www.zhihu.com/answer/1955826129932910940",
+      "summary": "正文给出 Kontsevich 的图展开、积分权与星积公式，显式构造任意 Poisson 括号的形变量子化。"
+    },
+    {
+      "title": "数学中有哪些有趣的构造性证明？",
+      "url": "https://www.zhihu.com/answer/1956642549780419769",
+      "summary": "正文专题讨论有限单群分类中的构造性证明，并列举群结构与历史构造作为具体材料。"
+    },
+    {
+      "title": "数学中有哪些有趣的构造性证明？",
+      "url": "https://www.zhihu.com/answer/1957090013230658850",
+      "summary": "正文给出将任意有理数构造为三个有理立方数之和的显式公式，并扩展到四立方和。"
+    },
+    {
+      "title": "解数学题时，有哪些匪夷所思的「野路子」？",
+      "url": "https://www.zhihu.com/answer/1965181541241061770",
+      "summary": "正文给出一套可操作步骤：代入数值、分解因数、筛选系数并重构多项式因式。"
+    },
+    {
+      "title": "一根 1m 长的玻璃棒，摔倒地上断成 3 段，最短一段的平均值是多少？",
+      "url": "https://www.zhihu.com/answer/1974996845127308941",
+      "summary": "正文显式构造从单纯形到有序子单纯形的线性双射，以计算最小值和最大值的期望。"
+    },
+    {
+      "title": "正弦函数倍角公式、勒让德倍乘公式、伯努利倍元公式，为何它们长得如此相像，这是否意味着有某种底层联系？",
+      "url": "https://www.zhihu.com/answer/1978124712610637012",
+      "summary": "正文构造辅助商函数 G(z) ，通过零点极点相消、周期性和增长估计证明各类倍乘公式。"
+    },
+    {
+      "title": "如何快速判断一个人的数学水平？",
+      "url": "https://www.zhihu.com/answer/1984026250570912436",
+      "summary": "正文用阶乘构造连续一百个合数，并通过滑动区间得到存在性证明。"
+    },
+    {
+      "title": "如何优雅地证明 ∑i³=(∑i)²？",
+      "url": "https://www.zhihu.com/answer/1985348834088461356",
+      "summary": "正文构造生成函数和辅助函数 g(t)，把求和高阶导数的问题转化为可展开的系数计算。"
+    },
+    {
+      "title": "数学中有哪些有趣的构造性证明？",
+      "url": "https://www.zhihu.com/answer/1996905289321055760",
+      "summary": "正文显式构造由质因数及非一指数拼接成新数的映射，再反复迭代并给出具体序列例子。"
+    },
+    {
+      "title": "如何寻找到一个最小的正整数n，使得n^2+7能够连续除以2二十次后，依然是正整数？",
+      "url": "https://www.zhihu.com/answer/2006786963668235840",
+      "summary": "正文从模 16 的可行根出发逐位构造最小解，并通过四个同余解确认最小正整数。"
+    },
+    {
+      "title": "中国古代的科学是否真的只是经验科学？",
+      "url": "https://www.zhihu.com/answer/2012122904498811358",
+      "summary": "正文介绍正五边形的实用近似口诀及其按比例放大方法，并与尺规构造对比，涉及构造方法。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/2014107628515640868",
+      "summary": "正文进一步用正方体拆分、切割和重拼的构造证明同一恒等式，展示了构造式证明方法。"
+    },
+    {
+      "title": "你遇到过的最难的积分题目是什么？",
+      "url": "https://www.zhihu.com/answer/2014807363983532279",
+      "summary": "正文构造含结式的辅助积分，通过交换两种积分次序得到递推关系，完成构造式证明。"
+    },
+    {
+      "title": "怎么证明这个困难的恒等式?",
+      "url": "https://www.zhihu.com/answer/2027735590624306401",
+      "summary": "正文构造生成函数并借助柯西高阶导数公式与留数计算，完成恒等式的证明。"
+    },
+    {
+      "title": "数学上最绝妙的证明是什么?",
+      "url": "https://www.zhihu.com/answer/2028025876021875444",
+      "summary": "正文逐位改换对角线数字来构造不在给定枚举中的实数，是明确的构造方法。"
+    },
+    {
+      "title": "有没有两个数的乘积等于把他们相连的新数？",
+      "url": "https://www.zhihu.com/answer/2028712954061755339",
+      "summary": "正文通过给定参数族反复构造满足乘积等于拼接数的例子，并进一步给出可生成非平凡解的参数与取值方法。"
+    },
+    {
+      "title": "不用求导，如何求sin2x+7cosx的最大值？",
+      "url": "https://www.zhihu.com/answer/2032421638713648372",
+      "summary": "正文构造 t=sin x 并将目标式平方成四个因子，通过特殊构造使不等式可以取等。"
+    },
+    {
+      "title": "有一个整数，它比5201313要大，但比5201315要小，这个数字是多少？",
+      "url": "https://www.zhihu.com/answer/2035082195619014291",
+      "summary": "正文通过扩充论域并定义后继和序关系，明确构造出一个非标准模型。"
+    },
+    {
+      "title": "如何评价钱学森的实力？",
+      "url": "https://www.zhihu.com/answer/2036182737246221075",
+      "summary": "正文明确通过构造特殊的图灵机程序来完成不可判定性证明。"
+    },
+    {
+      "title": "如何评价 OpenAI 称推翻困扰数学界近 80 年的「平面单位距离猜想」？这一结果的可信度如何？",
+      "url": "https://www.zhihu.com/answer/2040877999134926615",
+      "summary": "正文具体说明从数域取元素、嵌入高维复空间形成格点并投影为平面点集的构造思路。"
+    },
+    {
+      "title": "如何证明格点正多边形只有正四边形？",
+      "url": "https://www.zhihu.com/answer/2040890953788089140",
+      "summary": "正文通过旋转边构造更小的格点正多边形，并用延长三角形构造更大的正六边形完成证明。"
+    },
+    {
+      "title": "如何评价 OpenAI 称推翻困扰数学界近 80 年的「平面单位距离猜想」？这一结果的可信度如何？",
+      "url": "https://www.zhihu.com/answer/2040920145325994178",
+      "summary": "正文详细说明从高维复空间中的格点投影到复平面，从而构造大量单位距离点集。"
+    },
+    {
+      "title": "如何看待 OpenAI 宣布AI 证明困扰人类 80 年的单位距离问题？证明可信度如何？",
+      "url": "https://www.zhihu.com/answer/2040931425495602887",
+      "summary": "正文逐步说明如何由代数数构造高维格点并投影为平面点集，是围绕反例构造方法展开的论述。"
+    },
+    {
+      "title": "如何用100颗相同石头实现最大计数范围？",
+      "url": "https://www.zhihu.com/answer/2051842752875336656",
+      "summary": "正文显式构造石头构型到自然数和实数的单射，用构造法证明可编码范围。"
+    },
+    {
+      "title": "数学中有哪些有趣的构造性证明？",
+      "url": "https://www.zhihu.com/answer/2054463726099624172",
+      "summary": "正文给出 Apéry 的递推整数序列及余项公式，说明这些构造如何用于证明 ζ(3) 的无理性。"
+    },
+    {
+      "title": "如何证明1.005^200>2?",
+      "url": "https://www.zhihu.com/answer/2058632198975119406",
+      "summary": "正文构造一串乘积恰为 2 的 200 个数，再借助均值关系完成证明，展示了构造辅助量的方法。"
+    },
+    {
+      "title": "如何评价 OpenAI 新模型 GPT-5.6 Sol Ultra，在不到一小时内证明循环双覆盖猜想？",
+      "url": "https://www.zhihu.com/answer/2060310855439356517",
+      "summary": "正文说明证明依靠显式构造放松版三边染色，并指出该构造可推出循环双覆盖成立。"
+    },
+    {
+      "title": "如何证明 23333333333 是素数？",
+      "url": "https://www.zhihu.com/answer/2060560517111063698",
+      "summary": "正文说明 Pratt 证书由见证者、因子列表和递归子证书构成，提供了可验证的构造方法。"
+    },
+    {
+      "title": "如何评价 OpenAI 新模型 GPT-5.6 Sol Ultra，在不到一小时内证明循环双覆盖猜想？",
+      "url": "https://www.zhihu.com/answer/2060700642419676188",
+      "summary": "正文以构造每条边标两种颜色、每种颜色在顶点处只覆盖两条边的特殊结构来推进循环双覆盖证明。"
+    },
+    {
+      "title": "数学天才会不会遇到让自己CPU干冒烟的数学题？",
+      "url": "https://www.zhihu.com/answer/2060720352301412984",
+      "summary": "正文用韦达定理构造同一方程的另一整数根 A_1，再由其得到和更小的正整数解。"
+    },
+    {
+      "title": "如何评价雅可比猜想被提出了一个看似并不十分复杂的反例？",
+      "url": "https://www.zhihu.com/answer/2062562321587820317",
+      "summary": "正文构造辅助参数和三个互异点，给出它们映射到同一像点的反例纤维数据。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062613987456463172",
+      "summary": "正文从线性型与二次型的射影构造出发，显式构造出满足雅可比条件的仿射多项式映射。"
+    },
+    {
+      "title": "挂谷猜想有多重要？为什么破解它的王虹有望获得菲尔兹奖？",
+      "url": "https://www.zhihu.com/answer/2065136388983600487",
+      "summary": "正文展开贝西科维奇以层层套叠的尖角构造零面积挂谷集，说明构造方法如何产生反直觉对象。"
+    },
+    {
+      "title": "如何证明不存在定义域为R的函数f(x)，使得f(f(x))=x²-2？",
+      "url": "https://www.zhihu.com/answer/2065913670090203579",
+      "summary": "正文对满足条件的参数显式构造连续平方根，并用区间分段和同胚变换完成整体函数的拼接。"
+    },
+    {
+      "title": "是否所有正数都可以被表示为 x^2+[x]^2+{x}^2？",
+      "url": "https://www.zhihu.com/answer/2071270020940878341",
+      "summary": "正文构造正负x对应的区间覆盖，证明除特定整数外每个正数都有相应表示。"
+    },
+    {
+      "title": "怎么看森多夫猜想（Sendov's Conjecture）已被AI、Lech Mazur、陶哲轩攻破？",
+      "url": "https://www.zhihu.com/answer/2072661377529991351",
+      "summary": "正文具体说明构造反导数多项式与归一化障碍，并通过代数恒等式和积分估计建立证明所需下界。"
+    },
+    {
+      "title": "基础数学博士，已经是AI的形状了，这正常吗？",
+      "url": "https://www.zhihu.com/answer/2073873486917924054",
+      "summary": "正文比较只能保证存在性的证明与能够给出具体几何量界的有效构造，并讨论后者的构造目标。"
+    },
+    {
+      "title": "数学悖论的根本原因已找到！最新研究证明经典自然数集、实数集不是已完成集合，如何评价这个重大数学事件？",
+      "url": "https://www.zhihu.com/answer/2074480783939716282",
+      "summary": "正文显式构造对角函数 g，并验证它属于 C 却不同于任一枚举项，形成具体反例。"
+    },
+    {
+      "title": "如何理解 “无穷”？",
+      "url": "https://zhuanlan.zhihu.com/p/20493784",
+      "summary": "正文逐位修改对角线上的数字来构造新实数，具体展示了康托尔的对角构造法。"
+    },
+    {
+      "title": "怎样将一群人分成两组，使他们各自的总体实力「旗鼓相当」？",
+      "url": "https://zhuanlan.zhihu.com/p/20559045",
+      "summary": "正文递归构造两组编号，使人数、平方和乃至直到 n-1 次的幂和都相等。"
+    },
+    {
+      "title": "『一道很难的智力题』解法",
+      "url": "https://zhuanlan.zhihu.com/p/21252036",
+      "summary": "正文给出拆分集合、广播信号和判断交集的完整可执行方案，以此构造问题解法。"
+    },
+    {
+      "title": "[4068] 闲谈世上最难的逻辑问题",
+      "url": "https://zhuanlan.zhihu.com/p/24358375",
+      "summary": "正文通过复合映射反推并显式构造一个可屏蔽真假神设定与语言差异的提问。"
+    },
+    {
+      "title": "一点微小的结论——紧性的一个等价刻画",
+      "url": "https://zhuanlan.zhihu.com/p/24856155",
+      "summary": "正文为反例显式构造序数空间 X=I+1、开集和闭集 C，用构造出的空间完成“当”方向的证明。"
+    },
+    {
+      "title": "Zorn引理：从Hamel基到多面体",
+      "url": "https://zhuanlan.zhihu.com/p/24982290",
+      "summary": "正文用Zorn引理构造Hamel基，并选择包含给定角度的基来定义可加伪体积函数，完成Hilbert第三问题的构造性论证。"
+    },
+    {
+      "title": "（二）极值点偏移与Hermite–Hadamard不等式",
+      "url": "https://zhuanlan.zhihu.com/p/25040986",
+      "summary": "正文说明构造对称函数，把双零点之和的不等式转化为恒成立问题来证明。"
+    },
+    {
+      "title": "利用二次函数解“极值点偏移”问题",
+      "url": "https://zhuanlan.zhihu.com/p/25070401",
+      "summary": "正文的核心方法是构造与原函数极值和二阶导数相匹配的二次函数，通过比较证明不等式。"
+    },
+    {
+      "title": "从特殊性看问题",
+      "url": "https://zhuanlan.zhihu.com/p/25205179",
+      "summary": "正文先在小规模情形中寻找青蛙端点配置，再把选取相间端点这一构造策略推广到所有奇数 n。"
+    },
+    {
+      "title": "Lambda calculus引论(一): 规约求值",
+      "url": "https://zhuanlan.zhihu.com/p/25559133",
+      "summary": "正文通过平行归约的菱形性质逐层构造共同归约项，从而建立 Church-Rosser 定理及其推论。"
+    },
+    {
+      "title": "Lambda calculus引论(二): 不动点",
+      "url": "https://zhuanlan.zhihu.com/p/25674637",
+      "summary": "正文显式构造函数 U 与组合子 Y，并用 β 归约验证其满足不动点方程，构成可检验的构造式证明。"
+    },
+    {
+      "title": "一道数学题：个体理性与群体非理性",
+      "url": "https://zhuanlan.zhihu.com/p/25706188",
+      "summary": "正文对称配对双重积分的两个变量，把矩差构造为含 (u-v)^2 的非负积分，完成构造式证明。"
+    },
+    {
+      "title": "震惊！SAM复杂度竟如此显然！",
+      "url": "https://zhuanlan.zhihu.com/p/25948077",
+      "summary": "正文为每条非树边构造对应的后缀，并利用单射性质证明后缀自动机的边数不超过线性规模。"
+    },
+    {
+      "title": "中学篇 No. 10：颠覆想象的证明",
+      "url": "https://zhuanlan.zhihu.com/p/26725385",
+      "summary": "正文通过构造具有特定无穷级数形式的刘维尔数，证明超越数确实存在。"
+    },
+    {
+      "title": "中学篇 No. 50：直觉派的大佬",
+      "url": "https://zhuanlan.zhihu.com/p/28061120",
+      "summary": "正文重点解释布劳威尔要求存在性结论给出构造性程序，并以此反对无穷集合上的非构造性排中律证明。"
+    },
+    {
+      "title": "茅房武士异味录：全球数学家鬼畜刀法研究史略",
+      "url": "https://zhuanlan.zhihu.com/p/28142629",
+      "summary": "正文说明通过增加线条和缩小旋转角构造面积任意小的挂谷集，呈现构造法思路。"
+    },
+    {
+      "title": "伽罗瓦留下的遗物：日本史上最难的高考题！！——东京大学1998年高考第三题（理科）",
+      "url": "https://zhuanlan.zhihu.com/p/28544089",
+      "summary": "正文通过具体操作序列构造小规模图形，再扩展构造满足条件的所有规模。"
+    },
+    {
+      "title": "用组合方法解函数问题",
+      "url": "https://zhuanlan.zhihu.com/p/28817750",
+      "summary": "正文通过生成函数和状态分类构造组合论证，完成原恒等式的证明。"
+    },
+    {
+      "title": "一些我很喜欢的组合证明",
+      "url": "https://zhuanlan.zhihu.com/p/29191714",
+      "summary": "正文具体构造三部图来编码三项等差数列，并以随机删点构造子图完成交叉数证明。"
+    },
+    {
+      "title": "【高等数学】用“定义+基本逻辑推理”证明函数无界",
+      "url": "https://zhuanlan.zhihu.com/p/29552253",
+      "summary": "正文按无界定义的量词结构具体构造满足要求的x_M，以完成证明。"
+    },
+    {
+      "title": "度量空间上映射的扩张，Tietze 扩张定理",
+      "url": "https://zhuanlan.zhihu.com/p/29655759",
+      "summary": "正文通过反复选取闭集并定义辅助函数，迭代构造逼近目标映射的函数列。"
+    },
+    {
+      "title": "对角线的妙用",
+      "url": "https://zhuanlan.zhihu.com/p/29891502",
+      "summary": "正文显式构造对角线理想，并由其有限生成推出中间域等于原域，完成定理证明。"
+    },
+    {
+      "title": "一个滑块游戏的计算复杂性分析初步",
+      "url": "https://zhuanlan.zhihu.com/p/29835678",
+      "summary": "正文显式构造滑块、与门、或门和信号枢纽，将 3-SAT 实例多项式归约为滑块游戏。"
+    },
+    {
+      "title": "出题人的“恶意”（下）",
+      "url": "https://zhuanlan.zhihu.com/p/30135638",
+      "summary": "正文系统比较含参数不等式的两种函数构造形式，并构造 h(x)=sin x-bx 完成恒成立证明。"
+    },
+    {
+      "title": "怎样区分充分性、必要性",
+      "url": "https://zhuanlan.zhihu.com/p/29991897",
+      "summary": "充分性部分先构造AB、BC两个向量，再借助共线和反向量推出CA，完成三角形存在性的构造证明。"
+    },
+    {
+      "title": "哥德尔证明：智力的交响乐",
+      "url": "https://zhuanlan.zhihu.com/p/30449480",
+      "summary": "正文具体说明哥德尔数编码、替换函数和自指公式的构造步骤，是证明的核心构造。"
+    },
+    {
+      "title": "抽象代数|笔记整理（5）——群阶数，西罗定理",
+      "url": "https://zhuanlan.zhihu.com/p/30845557",
+      "summary": "正文先构造中心内的正规子群和商群，再通过映射原像构造目标西罗子群并验证其阶数。"
+    },
+    {
+      "title": "微分中值定理的常数K值法",
+      "url": "https://zhuanlan.zhihu.com/p/31267451",
+      "summary": "正文反复构造辅助函数并借助Rolle定理完成中值命题，展示构造证明方法。"
+    },
+    {
+      "title": "实分析|笔记整理（2）——勒贝格测度及相关举例",
+      "url": "https://zhuanlan.zhihu.com/p/33180264",
+      "summary": "正文用开覆盖、闭正方体、可数并及嵌套集合等构造来证明测度性质和集合逼近结论。"
+    },
+    {
+      "title": "火腿三明治定理（ham sandwich theorem）",
+      "url": "https://zhuanlan.zhihu.com/p/32575653",
+      "summary": "正文通过连接几何体中心并利用连续割切面积的变化构造等分线，展开火腿三明治定理的构造性证明。"
+    },
+    {
+      "title": "微分中值定理证明题中构造辅助函数的方法",
+      "url": "https://zhuanlan.zhihu.com/p/33271753",
+      "summary": "正文系统介绍积分原函数、微分方程和表格对照三种构造辅助函数的方法并用于证明。"
+    },
+    {
+      "title": "拓扑学|笔记整理（3）——无限集，可列集，选择公理，良序集",
+      "url": "https://zhuanlan.zhihu.com/p/33311995",
+      "summary": "正文通过构造映射和复合映射证明正整数对集合及有理数集可列，具体展示了构造方法。"
+    },
+    {
+      "title": "【不等式】柯西不等式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/33710316",
+      "summary": "正文构造非负二次式并利用判别式条件完成柯西不等式的另一证明。"
+    },
+    {
+      "title": "计算几何第三周：三角剖分（Triangulation）",
+      "url": "https://zhuanlan.zhihu.com/p/33737417",
+      "summary": "正文用双耳定理和不断切去耳朵的构造过程证明简单多边形总能三角剖分，并进一步给出构造算法。"
+    },
+    {
+      "title": "HoTT学习笔记1：类型论基础",
+      "url": "https://zhuanlan.zhihu.com/p/33483631",
+      "summary": "正文把命题视为类型，并以构造该类型对象的方式解释证明及积、和、函数等逻辑联结词。"
+    },
+    {
+      "title": "Wallis乘积中的π从何而来？（上）",
+      "url": "https://zhuanlan.zhihu.com/p/34313702",
+      "summary": "正文显式构造 P_n 与 Q_n 路径间的双向映射，以构造法证明两类路径数相等。"
+    },
+    {
+      "title": "实分析Ⅱ|笔记整理（1）——集合论补充，相关应用习题举例（1）",
+      "url": "https://zhuanlan.zhihu.com/p/34191290",
+      "summary": "正文通过构造分离集及其并集，显式构造 Cantor-Bernstein 定理所需的双射。"
+    },
+    {
+      "title": "【导数压轴题】切线？可以放缩？",
+      "url": "https://zhuanlan.zhihu.com/p/34910916",
+      "summary": "正文总结通过构造辅助函数并分析其导数单调性来证明切线型不等式。"
+    },
+    {
+      "title": "真正的函数题（二）——2017原创题精讲(18)",
+      "url": "https://zhuanlan.zhihu.com/p/35684860",
+      "summary": "正文通过构造特定参数、点和负导数区间来证明函数不能在整个区间单调递增。"
+    },
+    {
+      "title": "“填色问题”困扰数学界60年，这个生物学家的方法会是终极答案吗？",
+      "url": "https://zhuanlan.zhihu.com/p/36116542",
+      "summary": "正文具体说明研究者通过构造有限图来证明四种颜色不足，并比较所构造图形的规模。"
+    },
+    {
+      "title": "定积分不等式套路总结",
+      "url": "https://zhuanlan.zhihu.com/p/36266712",
+      "summary": "正文显式构造辅助函数，把待证积分不等式化为对新函数单调性的证明。"
+    },
+    {
+      "title": "初涉嵌入不等式",
+      "url": "https://zhuanlan.zhihu.com/p/36278248",
+      "summary": "正文通过给自由变量赋特定值这一构造方式，从嵌入不等式生成一系列特例和经典不等式。"
+    },
+    {
+      "title": "工欲善其事，必先利其器——从一道数论题谈起",
+      "url": "https://zhuanlan.zhihu.com/p/36324347",
+      "summary": "正文构造半整数元素组成的 R，以恢复唯一分解性，并据此构造出原不定方程的整数解。"
+    },
+    {
+      "title": "数学分析外篇（一）",
+      "url": "https://zhuanlan.zhihu.com/p/36757772",
+      "summary": "正文通过讨论 sqrt(2)^sqrt(2) 是否有理并分两类构造 a、b，证明存在使无理数幂为有理数的组合。"
+    },
+    {
+      "title": "『导数』取点技巧小结",
+      "url": "https://zhuanlan.zhihu.com/p/36763351",
+      "summary": "正文强调先设计证明思路再选取特殊点，用构造出的点证明零点存在和参数范围。"
+    },
+    {
+      "title": "关于欧拉函数及其一些性质的美妙证明(1)",
+      "url": "https://zhuanlan.zhihu.com/p/36979522",
+      "summary": "正文显式构造因子与互质数对之间的双射，以此证明各因子欧拉函数值之和等于n。"
+    },
+    {
+      "title": "线性代数（三）行列式的来历",
+      "url": "https://zhuanlan.zhihu.com/p/37111386",
+      "summary": "正文按构造行列式、验证可解方程组的思路，展示定义对象并回验目标的方法。"
+    },
+    {
+      "title": "用中值定理秒杀2018全国卷导数题",
+      "url": "https://zhuanlan.zhihu.com/p/37978562",
+      "summary": "正文构造辅助函数并使用柯西中值定理，把差商转化为可估计的导数表达式。"
+    },
+    {
+      "title": "不等式证明的一大误区",
+      "url": "https://zhuanlan.zhihu.com/p/39913537",
+      "summary": "正文给出将待证不等式拆分为两个可估计函数再合并的构造性证明方法。"
+    },
+    {
+      "title": "高中导数极值点偏移之——虚设函数构造法",
+      "url": "https://zhuanlan.zhihu.com/p/41385857",
+      "summary": "正文构造辅助函数 g(x)=f(x)-f(a-x)，并通过其各阶导数性质完成证明。"
+    },
+    {
+      "title": "Dedekind切割定理与实数连续性",
+      "url": "https://zhuanlan.zhihu.com/p/43168454",
+      "summary": "正文用戴德金切割的第三类情形构造无理数，并据此构造实数集。"
+    },
+    {
+      "title": "原来，二次函数还可以这样用！",
+      "url": "https://zhuanlan.zhihu.com/p/44435342",
+      "summary": "正文明确构造辅助二次函数，通过比较函数值区间和对称关系证明极值点偏移不等式。"
+    },
+    {
+      "title": "高中导数最后一弹——n阶导恒正的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/44536909",
+      "summary": "正文反复构造割线函数及差函数，将函数值比较转化为导函数和辅助函数性质进行证明。"
+    },
+    {
+      "title": "有理数、无理数、代数数与超越数",
+      "url": "https://zhuanlan.zhihu.com/p/46072609",
+      "summary": "正文构造刘维尔数并给出刘维尔定理来证明它是超越数。"
+    },
+    {
+      "title": "8、数学的三个纲领：逻辑、形式语言、以及直觉",
+      "url": "https://zhuanlan.zhihu.com/p/46168413",
+      "summary": "正文阐释直觉主义只承认可经有限步骤构造的数学对象，并据此批评纯存在性证明。"
+    },
+    {
+      "title": "Gronwall 不等式的几种证明",
+      "url": "https://zhuanlan.zhihu.com/p/46247368",
+      "summary": "其中第三种证明专门构造辅助函数 g(s)，再通过其导数完成证明。"
+    },
+    {
+      "title": "中国剩余定理（CRT ）",
+      "url": "https://zhuanlan.zhihu.com/p/44591114",
+      "summary": "正文通过逐项构造模数乘积与模逆，具体给出中国剩余定理解的构造方法。"
+    },
+    {
+      "title": "手算开平方",
+      "url": "https://zhuanlan.zhihu.com/p/47112662",
+      "summary": "正文逐步构造平方根的各位数字与余数，明确给出手算开平方的迭代构造方法。"
+    },
+    {
+      "title": "集合的势与可数集",
+      "url": "https://zhuanlan.zhihu.com/p/47209338",
+      "summary": "正文逐位选取与列举数不同的数字，显式构造出一个不在可数序列中的实数。"
+    },
+    {
+      "title": "如何证明e是超越数",
+      "url": "https://zhuanlan.zhihu.com/p/47709039",
+      "summary": "正文构造含阶乘分母和连续整数因子的辅助多项式，使同一等式两侧产生所需整除性和大小估计。"
+    },
+    {
+      "title": "判断两集合等势的很好用的办法——施罗德-伯恩斯坦定理",
+      "url": "https://zhuanlan.zhihu.com/p/40943561",
+      "summary": "正文显式构造分段双射，并分别验证其单射性和满射性来完成定理证明。"
+    },
+    {
+      "title": "概率方法的非概率应用一则",
+      "url": "https://zhuanlan.zhihu.com/p/47965729",
+      "summary": "正文构造具体随机游动及耦合来证明格点上的有界调和函数必为常数，属于构造式证明。"
+    },
+    {
+      "title": "偏来偏去的极值点（1）——基本方法与技巧",
+      "url": "https://zhuanlan.zhihu.com/p/48973356",
+      "summary": "正文把双变量不等式转化为单变量问题，并构造辅助函数完成极值点偏移的证明。"
+    },
+    {
+      "title": "偏来偏去的极值点（2）——进阶：对数平均不等式",
+      "url": "https://zhuanlan.zhihu.com/p/50974215",
+      "summary": "正文构造辅助函数并利用其导数完成不等式证明，体现构造方法。"
+    },
+    {
+      "title": "平均数不等式链的证明",
+      "url": "https://zhuanlan.zhihu.com/p/51665113",
+      "summary": "正文分别构造直角、切割线、半圆、三角、函数和梯形模型来证明同一组平均数不等式。"
+    },
+    {
+      "title": "不等式的证明方法小结",
+      "url": "https://zhuanlan.zhihu.com/p/53516242",
+      "summary": "正文构造递增函数 f(x)=x/(1+x)，利用其单调性证明含绝对值的分式和不等式。"
+    },
+    {
+      "title": "由琴生不等式展开的一个讨论——Z-F不等式",
+      "url": "https://zhuanlan.zhihu.com/p/53779636",
+      "summary": "正文明确采用构造一元或多元函数的方法，把待证轮换不等式转化为凸性判断并通过例题演示证明。"
+    },
+    {
+      "title": "趣题: 跨越多个领域的证明",
+      "url": "https://zhuanlan.zhihu.com/p/54151877",
+      "summary": "正文通过高维网格、透视单形及组合运算显式构造满足给定关联关系的点线配置。"
+    },
+    {
+      "title": "【004】极值点偏移的“上界”",
+      "url": "https://zhuanlan.zhihu.com/p/54687039",
+      "summary": "正文构造比较函数和换元关系，把原命题转化为可检验的单变量不等式。"
+    },
+    {
+      "title": "Independent set&its applications in coding theory",
+      "url": "https://zhuanlan.zhihu.com/p/55932619",
+      "summary": "正文通过随机排序构造一个独立集，从而证明最大独立集数的下界。"
+    },
+    {
+      "title": "【017】一个经典对数不等式的四种证明",
+      "url": "https://zhuanlan.zhihu.com/p/56300467",
+      "summary": "证法先构造合适的凸函数，再应用琴生不等式完成结论，属于有展开的构造式证明。"
+    },
+    {
+      "title": "你也可以轻松的画出正十七边形",
+      "url": "https://zhuanlan.zhihu.com/p/56312219",
+      "summary": "正文给出高斯、Richmond 和 Pauker 三套可执行的尺规作图步骤，并解释辅助长度的构造。"
+    },
+    {
+      "title": "The Cauchy Definition of a Definite Integral",
+      "url": "https://zhuanlan.zhihu.com/p/59637169",
+      "summary": "正文显式构造两套加细分割及相关点集，用来控制两种Cauchy和的差值。"
+    },
+    {
+      "title": "考研高数函数奇偶性周期性等总结",
+      "url": "https://zhuanlan.zhihu.com/p/62392945",
+      "summary": "正文通过构造 F(x)=f(x)-x 和 G(x)=f'(x)+f(x)-x 等辅助函数，满足罗尔定理条件后完成存在性证明。"
+    },
+    {
+      "title": "Regularity Lemma(正则引理)",
+      "url": "https://zhuanlan.zhihu.com/p/65663946",
+      "summary": "正文从单部划分出发反复细分顶点集，并通过能量增长在有限步构造 ε-正则划分。"
+    },
+    {
+      "title": "【073】原创题：“花式”极值点偏移",
+      "url": "https://zhuanlan.zhihu.com/p/66679090",
+      "summary": "正文构造比值参数k，将两个变量转化为单参数表达式，以完成后续不等式证明。"
+    },
+    {
+      "title": "如何证明著名的π与e是无理数？",
+      "url": "https://zhuanlan.zhihu.com/p/68095343",
+      "summary": "正文专门构造多项式 f、辅助函数 F 和 P，并利用其导数恒等式及积分性质完成无理性证明。"
+    },
+    {
+      "title": "【国际数学竞赛】基本不等式：从高考到竞赛",
+      "url": "https://zhuanlan.zhihu.com/p/68490889",
+      "summary": "正文多次示范从目标不等式反推所需条件，并通过拆项、凑配构造可用的不等式。"
+    },
+    {
+      "title": "【草稿】模仿策略一定能必胜吗？",
+      "url": "https://zhuanlan.zhihu.com/p/70469802",
+      "summary": "正文围绕围棋必胜策略说明构造性证明需保证应对完整、着法合法、规则允许且终局获胜。"
+    },
+    {
+      "title": "复变函数学习笔记(16)——Schwarz引理推广",
+      "url": "https://zhuanlan.zhihu.com/p/70812581",
+      "summary": "正文构造辅助解析函数 φ(z) 证明 Schwarz 引理推广，并进一步构造单位圆盘与上半平面之间的映射。"
+    },
+    {
+      "title": "和ξ有关的中值定理经典证明题",
+      "url": "https://zhuanlan.zhihu.com/p/68900103",
+      "summary": "正文总结中值定理证明中通过代换、移项和辅助函数构造完成证明的方法。"
+    },
+    {
+      "title": "2的n次方能包含所有十进制序列吗？",
+      "url": "https://zhuanlan.zhihu.com/p/73688765",
+      "summary": "正文构造差值 q 并反复平移小数部分，使某个 n 落入所需对数区间，从而构造出满足条件的指数。"
+    },
+    {
+      "title": "关于围棋的计算复杂性的笔记",
+      "url": "https://zhuanlan.zhihu.com/p/73611679",
+      "summary": "正文构造广义地理学博弈和对应的围棋局部结构，以显式归约证明围棋的计算复杂性下界。"
+    },
+    {
+      "title": "【国际数学竞赛】鸽笼原理",
+      "url": "https://zhuanlan.zhihu.com/p/75478415",
+      "summary": "正文用多个竞赛题展示如何按余数或颜色构造鸽笼，从而证明存在性结论。"
+    },
+    {
+      "title": "存在有理数点连续、无理数点不连续的函数吗？",
+      "url": "https://zhuanlan.zhihu.com/p/75648294",
+      "summary": "正文显式构造黎曼函数，并推广构造在任意可数集不连续、补集连续的函数。"
+    },
+    {
+      "title": "多次中值定理题目的解题思路",
+      "url": "https://zhuanlan.zhihu.com/p/76520470",
+      "summary": "正文通过构造辅助函数和选取分段点来完成多中值等式的存在性证明。"
+    },
+    {
+      "title": "行列式的定义究竟是怎么来的？",
+      "url": "https://zhuanlan.zhihu.com/p/76526424",
+      "summary": "正文从零值判别不变性出发构造行列式函数，并由此推导其定义。"
+    },
+    {
+      "title": "五个例子详述数学中的无穷递降法",
+      "url": "https://zhuanlan.zhihu.com/p/76910624",
+      "summary": "正文说明无穷递降法的关键是构造满足同一命题且度量更小的新对象，以触发矛盾。"
+    },
+    {
+      "title": "f(f(x))=x的连续解和可导解",
+      "url": "https://zhuanlan.zhihu.com/p/78579190",
+      "summary": "正文通过在正半轴构造单调递减函数 g 并延拓为自反函数，给出连续解和可导解的构造方法。"
+    },
+    {
+      "title": "一道三角函数恒等式的复数证法",
+      "url": "https://zhuanlan.zhihu.com/p/79034470",
+      "summary": "正文构造方程的全部非平凡复根，再比较两种因式分解完成恒等式证明。"
+    },
+    {
+      "title": "自由群的定义及相关",
+      "url": "https://zhuanlan.zhihu.com/p/79479443",
+      "summary": "正文通过化简规则构造由既约字组成的自由群，并逐步验证其运算、生成元和自由性。"
+    },
+    {
+      "title": "有趣的追及问题——猫能追上老鼠吗？",
+      "url": "https://zhuanlan.zhihu.com/p/80701068",
+      "summary": "正文通过显式构造每步逃跑方向和时间序列，证明同速猫在任意有限圆形操场都追不上老鼠。"
+    },
+    {
+      "title": "【高等数学】用ε-δ语言证明函数极限",
+      "url": "https://zhuanlan.zhihu.com/p/84880461",
+      "summary": "正文把倒推过程整理为构造 δ 或 N 的证明方法，再按正向顺序叙述。"
+    },
+    {
+      "title": "[科普向]介系你没见过的船新函数迭代法——相似法与桥函数",
+      "url": "https://zhuanlan.zhihu.com/p/84979536",
+      "summary": "正文利用不动点性质构造桥函数，从而把复杂迭代化为简单迭代。"
+    },
+    {
+      "title": "【笔记】常微分方程基本定理（上）",
+      "url": "https://zhuanlan.zhihu.com/p/93337082",
+      "summary": "正文通过构造 Picard 序列和欧拉折线序列，展示以积分迭代构造并逼近解的方法。"
+    },
+    {
+      "title": "力迫法到底难在哪里?",
+      "url": "https://zhuanlan.zhihu.com/p/93294818",
+      "summary": "正文系统说明通过构造力迫偏序、generic ideal 和模型扩张来加入新实数的证明思路。"
+    },
+    {
+      "title": "常微分方程学习笔记(2)",
+      "url": "https://zhuanlan.zhihu.com/p/96005329",
+      "summary": "通过构造 Euler 折线逼近积分曲线，给出 Peano 存在定理的构造式证明。"
+    },
+    {
+      "title": "一元二次方程的一种不同解法",
+      "url": "https://zhuanlan.zhihu.com/p/97282588",
+      "summary": "正文通过令两根为均值和偏差的和差形式，构造因式分解并证明一般二次方程求根公式。"
+    },
+    {
+      "title": "「算法入门笔记」卡特兰数",
+      "url": "https://zhuanlan.zhihu.com/p/97619085",
+      "summary": "正文通过反转第一个非法前缀构造非法序列与另一类序列的一一对应，完成卡特兰数公式的证明。"
+    },
+    {
+      "title": "算法学习笔记(10): 中国剩余定理",
+      "url": "https://zhuanlan.zhihu.com/p/103394468",
+      "summary": "正文先构造各项分别满足一个同余条件，再求和得到通解，展示中国剩余定理的构造法。"
+    },
+    {
+      "title": "浅谈升幂（LTE）引理",
+      "url": "https://zhuanlan.zhihu.com/p/104730410",
+      "summary": "正文通过设计指数条件构造满足给定素数幂次等式的正整数。"
+    },
+    {
+      "title": "一道网红初中几何题的多种解法",
+      "url": "https://zhuanlan.zhihu.com/p/105541180",
+      "summary": "正文通过延长线段、构造等边三角形和辅助点，构造相似三角形完成命题证明。"
+    },
+    {
+      "title": "待定系数插值解决一类不等式证明",
+      "url": "https://zhuanlan.zhihu.com/p/105962118",
+      "summary": "正文通过主动构造隔离函数来证明不等式，具体展示了辅助直线和辅助曲线的构造方法。"
+    },
+    {
+      "title": "数分笔记——待定系数法证积分不等式",
+      "url": "https://zhuanlan.zhihu.com/p/107553208",
+      "summary": "正文通过构造合适的多项式并验证其积分估计来完成积分不等式证明。"
+    },
+    {
+      "title": "一类有趣的周期函数问题",
+      "url": "https://zhuanlan.zhihu.com/p/110155718",
+      "summary": "正文利用哈默基的具体表示构造周期函数分解，从而证明相关函数可表示性。"
+    },
+    {
+      "title": "利用柯西不等式来配凑系数",
+      "url": "https://zhuanlan.zhihu.com/p/109371528",
+      "summary": "正文通过待定系数配凑并构造取等序列，给出了可复用的不等式证明构造方法。"
+    },
+    {
+      "title": "Cauchy—Schwarz不等式及其常见证法",
+      "url": "https://zhuanlan.zhihu.com/p/114023439",
+      "summary": "正文通过构造变上限积分函数、二次函数和正方形上的二重积分给出多种证明。"
+    },
+    {
+      "title": "一道非常漂亮的定积分题",
+      "url": "https://zhuanlan.zhihu.com/p/124317844",
+      "summary": "正文主动构造循环变换，利用其三周期关系和积分限对应关系把三个积分合并处理。"
+    },
+    {
+      "title": "代数几何在极值组合中的应用——随机代数构造",
+      "url": "https://zhuanlan.zhihu.com/p/130507593",
+      "summary": "正文显式构造有限域上的无K_{2,2}图，并统计边数来证明Turan数下界。"
+    },
+    {
+      "title": "球面上的几何在极值图论中的一个应用——Bollobas-Erdos Graph的构造",
+      "url": "https://zhuanlan.zhihu.com/p/133985834",
+      "summary": "正文通过剖分高维单位球并规定三类连边，具体构造出达到目标渐近边数的反例图。"
+    },
+    {
+      "title": "锁区间法处理含参找点(取点)&一些烦人的含参隐零点的处理技巧",
+      "url": "https://zhuanlan.zhihu.com/p/133615487",
+      "summary": "正文具体介绍锁区间取点的构造流程：先放缩函数，再解辅助方程得到满足所需符号的点，以完成零点存在性证明。"
+    },
+    {
+      "title": "解北大数院学生没做出来的题",
+      "url": "https://zhuanlan.zhihu.com/p/134291779",
+      "summary": "正文先确定所需二次函数的对称轴和取值条件，再构造具体函数并选择辅助函数证明目标不等式。"
+    },
+    {
+      "title": "三角形费马点及深入拓展",
+      "url": "https://zhuanlan.zhihu.com/p/136600079",
+      "summary": "正文以向外构造等边三角形、连接对应点的方式定位费马点，属于构造方法的实际应用。"
+    },
+    {
+      "title": "超越数与刘维尔定理证明",
+      "url": "https://zhuanlan.zhihu.com/p/138847089",
+      "summary": "正文明确构造刘维尔数这一级数，并用它证明至少存在一个具体超越数。"
+    },
+    {
+      "title": "一个看起来很牛批实际上没什么卵用的定理（Universal SAT Algorithm）",
+      "url": "https://zhuanlan.zhihu.com/p/138989970",
+      "summary": "正文通过 search-to-decision 归约逐步固定布尔变量，并构造枚举图灵机的通用搜索算法来证明解的存在性。"
+    },
+    {
+      "title": "关于偏移的更本质做法",
+      "url": "https://zhuanlan.zhihu.com/p/139290809",
+      "summary": "正文明确采用构造辅助函数、判断差函数单调性的方法证明极值点偏移结论。"
+    },
+    {
+      "title": "高中学霸透露：用“构造法”求数列通项公式，太赞了",
+      "url": "https://zhuanlan.zhihu.com/p/143268769",
+      "summary": "正文明确给出构造法的定义，并通过构造和式、差式、商式及倒数式等辅助模型解决数列问题。"
+    },
+    {
+      "title": "Weierstrass逼近定理",
+      "url": "https://zhuanlan.zhihu.com/p/146181157",
+      "summary": "正文利用二项分布显式构造 Bernstein 多项式，作为逼近连续函数的证明载体。"
+    },
+    {
+      "title": "拉格朗日（Lagrange）中值定理证明思路",
+      "url": "https://zhuanlan.zhihu.com/p/147640582",
+      "summary": "正文通过构造辅助函数 g(x)，验证其端点相等并应用罗尔定理完成拉格朗日中值定理证明。"
+    },
+    {
+      "title": "【组合数学】Erdős–Szekeres定理",
+      "url": "https://zhuanlan.zhihu.com/p/150750621",
+      "summary": "正文给出按栈分类的构造性算法，并由栈数与子列长度推出 Erdős–Szekeres 定理。"
+    },
+    {
+      "title": "一道牛剑面试题",
+      "url": "https://zhuanlan.zhihu.com/p/152598658",
+      "summary": "正文显式构造两个平方项及余项，用配方构造出不等式恒成立的证明。"
+    },
+    {
+      "title": "真的会数数吗——Turán定理漫谈",
+      "url": "https://zhuanlan.zhihu.com/p/159627748",
+      "summary": "正文通过把顶点分组并规定组间连边、组内不连边来构造无p团的完全多部极图。"
+    },
+    {
+      "title": "三道题入门柯西不等式",
+      "url": "https://zhuanlan.zhihu.com/p/161465399",
+      "summary": "正文通过构造非负二次函数并利用其判别式，给出柯西不等式的构造法证明。"
+    },
+    {
+      "title": "一个利用矩阵打洞技巧的题目（抛砖引玉）",
+      "url": "https://zhuanlan.zhihu.com/p/161630040",
+      "summary": "正文构造带扰动项的矩阵并取极限，处理分块中 A 不可逆时的行列式证明。"
+    },
+    {
+      "title": "线性代数预习自学笔记-22：若尔当标准型",
+      "url": "https://zhuanlan.zhihu.com/p/161551117",
+      "summary": "正文从像空间基取原像并加入核空间基向量，具体构造根子空间的基。"
+    },
+    {
+      "title": "乌克兰女数学家 Maryna Viazovska 如何解决特殊高维装球问题",
+      "url": "https://zhuanlan.zhihu.com/p/158722085",
+      "summary": "正文按双重零点、傅里叶特征函数、模形式和围道积分逐块构造函数 a、b，再线性组合得到最终函数 g。"
+    },
+    {
+      "title": "拉格朗日中值定理",
+      "url": "https://zhuanlan.zhihu.com/p/163741885",
+      "summary": "正文通过构造满足端点等值条件的辅助函数，把中值定理转化为罗尔定理。"
+    },
+    {
+      "title": "阿贝尔求和的应用",
+      "url": "https://zhuanlan.zhihu.com/p/166290132",
+      "summary": "正文以阿贝尔变换和放缩反复构造关于数列前 n 项和的不等式，并用所得不等式证明数列命题。"
+    },
+    {
+      "title": "浅谈Catalan数（一）",
+      "url": "https://zhuanlan.zhihu.com/p/60964047",
+      "summary": "正文显式构造网格路线、加括号方式和完全二叉树之间的双射来完成证明。"
+    },
+    {
+      "title": "斯图姆定理(Sturm's Theorem)",
+      "url": "https://zhuanlan.zhihu.com/p/164729380",
+      "summary": "正文通过导数、辗转相除和符号规范化构造斯图姆序列，并据此证明根计数定理。"
+    },
+    {
+      "title": "从不定方程到数字的宿命——Thue的伟大定理",
+      "url": "https://zhuanlan.zhihu.com/p/184975153",
+      "summary": "正文以 Siegel 引理构造两个低次数整系数多项式，使组合多项式在代数数处具有高阶零点。"
+    },
+    {
+      "title": "上帝掷硬币的智力题，从 9 胜 6 开始的深入研究",
+      "url": "https://zhuanlan.zhihu.com/p/187579331",
+      "summary": "正文从可解集定义出发构造多叉森林，并沿标记路径给出 Alice 和 Bob 的必胜策略。"
+    },
+    {
+      "title": "常微分方程笔记（二） 解的存在唯一性定理",
+      "url": "https://zhuanlan.zhihu.com/p/203193794",
+      "summary": "正文通过积分方程、Picard 序列和取极限逐步构造微分方程的解。"
+    },
+    {
+      "title": "什么是实数？如何从无到有构造出实数？",
+      "url": "https://zhuanlan.zhihu.com/p/214266663",
+      "summary": "正文用商集、等价类和戴德金分割从无到有构造数系，并把戴德金分割作为构造实数的方法。"
+    },
+    {
+      "title": "那些让人欲罢不能的逻辑推理题",
+      "url": "https://zhuanlan.zhihu.com/p/246173645",
+      "summary": "正文对称币、帽子、罐中精灵等谜题给出可执行的分组、编码和轮询策略，并说明策略为何保证成功。"
+    },
+    {
+      "title": "实分析学习笔记(1)",
+      "url": "https://zhuanlan.zhihu.com/p/261361018",
+      "summary": "正文按模 1 等价类并用选择公理选取代表元，构造集合以证明不可测集存在。"
+    },
+    {
+      "title": "自然数立方和公式推导方法汇总",
+      "url": "https://zhuanlan.zhihu.com/p/260139435",
+      "summary": "正文分别构造伸缩差和区间分组关系，用显式构造推导立方和公式。"
+    },
+    {
+      "title": "一道比较变态的BMT代数题",
+      "url": "https://zhuanlan.zhihu.com/p/266111471",
+      "summary": "正文把三角反余弦项构造成由 A_k、A_{k+1} 组成的三角形，用几何构造求出角度和。"
+    },
+    {
+      "title": "QTMC酱的数学分析笔记 -1- 用Dedekind分割构造实数",
+      "url": "https://zhuanlan.zhihu.com/p/266213204",
+      "summary": "正文采用戴德金分割这一构造方法建立实数，并验证其加法、乘法与序结构。"
+    },
+    {
+      "title": "我的数分笔记（一）",
+      "url": "https://zhuanlan.zhihu.com/p/268037222",
+      "summary": "正文通过把无穷方阵元素沿对角线依次编号，构造可列并集和区间有理数的穷举序列。"
+    },
+    {
+      "title": "留数定理与积分计算",
+      "url": "https://zhuanlan.zhihu.com/p/271139446",
+      "summary": "正文按积分类型系统构造上半圆周、键孔形等围道，并用留数计算积分。"
+    },
+    {
+      "title": "康托洛维奇(Kantorovich)不等式的一种初等证明",
+      "url": "https://zhuanlan.zhihu.com/p/271983329",
+      "summary": "正文构造辅助二次函数，利用判别式非负来推出目标不等式，体现了构造方法的证明思路。"
+    },
+    {
+      "title": "The Baire space (Logician's reals)上的拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/274275990",
+      "summary": "正文递归构造有理端点区间套，并据此显式构造从整数序列空间到无理数集的双射。"
+    },
+    {
+      "title": "【数学分析】海涅定理（归结原则）（是个人就能看懂的证明过程）",
+      "url": "https://zhuanlan.zhihu.com/p/279830836",
+      "summary": "正文通过依次选取 δ、δ/2、…、δ/n 显式构造趋近于 x0 的点列，以完成反证。"
+    },
+    {
+      "title": "第八天（20,11,15）：奇怪的构造增加了？！",
+      "url": "https://zhuanlan.zhihu.com/p/295396827",
+      "summary": "正文分别构造含 sin x、cos x 的辅助函数与二次型辅助函数，并用其导数完成存在性证明。"
+    },
+    {
+      "title": "对于三大中值定理构造函数的分类总结",
+      "url": "https://zhuanlan.zhihu.com/p/295604339",
+      "summary": "正文按所需导数表达式分类列举辅助函数和原函数的构造方式，用于证明中值定理题型。"
+    },
+    {
+      "title": "第九天（20,11,16）：另一个神奇的中值定理",
+      "url": "https://zhuanlan.zhihu.com/p/296969962",
+      "summary": "正文构造辅助函数 F(x)=f(x)-cx，把证明 f'(ξ)=c 转化为寻找 F 在内点的导数为零。"
+    },
+    {
+      "title": "kaysen学长：微分中值定理（罗尔定理篇），万能爱情模型全搞定！",
+      "url": "https://zhuanlan.zhihu.com/p/301092760",
+      "summary": "正文给出由目标导数式反推辅助函数 F，并检查闭区间连续、开区间可导和端点相等的构造法。"
+    },
+    {
+      "title": "数学分析Mathematical Analysis笔记整理 第五章 微分中值定理及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/309342056",
+      "summary": "正文专门介绍常数变易法和原函数法，通过构造辅助函数证明多个中值定理结论。"
+    },
+    {
+      "title": "kaysen学长：微分中值（拉格朗日中值定理篇），转角遇到别样的爱！",
+      "url": "https://zhuanlan.zhihu.com/p/311391400",
+      "summary": "正文通过构造减去割线项的辅助函数 F(x)，使其满足罗尔定理并完成证明。"
+    },
+    {
+      "title": "不含相邻重复子串的字符串最多能有多长（又名一个人能有多啰嗦）",
+      "url": "https://zhuanlan.zhihu.com/p/317305495",
+      "summary": "正文通过构造字符替换函数并反复迭代来生成满足约束的无限字符串。"
+    },
+    {
+      "title": "《数学分析》5. 确界原理 的几种证明方式",
+      "url": "https://zhuanlan.zhihu.com/p/335888107",
+      "summary": "正文通过无限小数逐位构造、戴德金分割和闭区间套三种方式构造并证明所求上确界。"
+    },
+    {
+      "title": "浅谈级数的重排问题",
+      "url": "https://zhuanlan.zhihu.com/p/335812975",
+      "summary": "正文显式构造一正一负分组的新重排序列，使部分和发散并由此证明 Riemann 重排结论。"
+    },
+    {
+      "title": "比内-柯西(Binet-Cauchy)公式的证明与应用",
+      "url": "https://zhuanlan.zhihu.com/p/337464214",
+      "summary": "正文构造含单位矩阵的分块方阵，通过初等变换和两次拉普拉斯展开完成比内-柯西公式证明。"
+    },
+    {
+      "title": "微分中值定理习题集",
+      "url": "https://zhuanlan.zhihu.com/p/338212905",
+      "summary": "正文将待证关系转化为辅助函数的零点或驻点，反复展示构造新函数完成证明的方法。"
+    },
+    {
+      "title": "证明1^2+2^2+…+(n-1)^2=n(n-1)(2n-1)/6",
+      "url": "https://zhuanlan.zhihu.com/p/339516612",
+      "summary": "正文构造相邻立方差恒等式并逐项相加消去中间项，从而证明平方和公式，体现了构造式证明方法。"
+    },
+    {
+      "title": "什么是力迫法（forcing）？",
+      "url": "https://zhuanlan.zhihu.com/p/339882246",
+      "summary": "正文通过力迫条件和一般集合构造 ZFC 模型扩张 M[G]，展示力迫法的模型构造过程。"
+    },
+    {
+      "title": "数学软件解不了的方程",
+      "url": "https://zhuanlan.zhihu.com/p/342705763",
+      "summary": "正文通过构造函数、选取异号点并证明零点存在，再用迭代构造解，展示了明确的构造证明方法。"
+    },
+    {
+      "title": "捋一捋定积分中的达布定理",
+      "url": "https://zhuanlan.zhihu.com/p/344866541",
+      "summary": "证明中构造两个划分的并集作为公共加细，以控制大和之差。"
+    },
+    {
+      "title": "平面几何｜浅谈平面几何中的「对称性分析」",
+      "url": "https://zhuanlan.zhihu.com/p/345615888",
+      "summary": "正文把构造不变量和选取幻像点再证明两点重合作为平面几何证明中的构造方法。"
+    },
+    {
+      "title": "公理集合论基础（上）：空集和罗素悖论",
+      "url": "https://zhuanlan.zhihu.com/p/346371552",
+      "summary": "正文用分离公理模式从已有集合构造空集，并证明所得空集不依赖于原料集合。"
+    },
+    {
+      "title": "对升降算符的一些理解",
+      "url": "https://zhuanlan.zhihu.com/p/347519537",
+      "summary": "正文末段明确给出分解算符、验证对易关系并由此构造一对升降算符的一般方法。"
+    },
+    {
+      "title": "[数学之美]桥函数与相似——迭代中的巧合",
+      "url": "https://zhuanlan.zhihu.com/p/350081293",
+      "summary": "正文通过选取可迭代函数与桥函数进行共轭变换，构造出原迭代的化简形式。"
+    },
+    {
+      "title": "最大的“无和”集",
+      "url": "https://zhuanlan.zhihu.com/p/171094281",
+      "summary": "正文通过构造Følner序列、取超极限并定义Loeb测度，给出达到上界的集合族构造思路。"
+    },
+    {
+      "title": "矩阵分解——满秩分解，QR分解，奇异值分解，特征分解，LU分解。",
+      "url": "https://zhuanlan.zhihu.com/p/356686048",
+      "summary": "正文对满秩、QR、SVD 和 LU 分解给出具体构造步骤或由行变换构造因子的证明。"
+    },
+    {
+      "title": "如何证明 Sylow 定理",
+      "url": "https://zhuanlan.zhihu.com/p/358852225",
+      "summary": "正文构造最大的p子群，并借助正规化子、共轭群作用和轨道稳定子推进证明。"
+    },
+    {
+      "title": "欧拉定理、中国剩余定理以及一道有趣的数论题",
+      "url": "https://zhuanlan.zhihu.com/p/358731224",
+      "summary": "正文显式构造满足各同余条件的解，并据此计算模1000的唯一答案。"
+    },
+    {
+      "title": "由一道晚练题引出拉格朗日中值定理",
+      "url": "https://zhuanlan.zhihu.com/p/358882098",
+      "summary": "正文通过构造辅助函数g并应用罗尔定理证明拉格朗日中值定理。"
+    },
+    {
+      "title": "高中数学导数大题常用技巧——放缩浅谈（一）",
+      "url": "https://zhuanlan.zhihu.com/p/359071922",
+      "summary": "正文以构造一元差函数为核心证明方法，比较函数在对称点处的取值并推导极值点偏移结论。"
+    },
+    {
+      "title": "卡特兰数 — 计数的映射方法的伟大胜利",
+      "url": "https://zhuanlan.zhihu.com/p/360260065",
+      "summary": "正文反复构造正负号序列、格点路径、括号表达式与几何对象之间的双射来证明计数结果。"
+    },
+    {
+      "title": "TREE(3)为什么是有限的？——克鲁斯卡尔树定理",
+      "url": "https://zhuanlan.zhihu.com/p/361185669",
+      "summary": "正文递归构造出每步取最短项的最小坏序列，并以这个构造作为反证证明的核心工具。"
+    },
+    {
+      "title": "函数极限不存在的证明方法（考虑一元、二元函数极限情形）",
+      "url": "https://zhuanlan.zhihu.com/p/361337157",
+      "summary": "正文通过构造不同数列、直线路径和参数曲线路径证明极限不存在，具体示范了构造方法。"
+    },
+    {
+      "title": "数学分析：截断函数与Borel引理",
+      "url": "https://zhuanlan.zhihu.com/p/361840790",
+      "summary": "正文显式构造截断函数和逐项截断的级数，用来证明任意给定导数序列都存在对应光滑函数。"
+    },
+    {
+      "title": "实变函数第10讲（测度：代数与σ代数，Borel σ代数，集合论测试题）",
+      "url": "https://zhuanlan.zhihu.com/p/364129544",
+      "summary": "正文显式构造Cantor集子集，并利用严格单调连续映射和原像说明可测但非Borel的集合存在。"
+    },
+    {
+      "title": "泰勒展开证明题汇总",
+      "url": "https://zhuanlan.zhihu.com/p/364782636",
+      "summary": "正文通过构造原函数的积分函数再作泰勒展开，展示辅助函数构造在证明中的应用。"
+    },
+    {
+      "title": "从零开始到阿列夫数",
+      "url": "https://zhuanlan.zhihu.com/p/367528351",
+      "summary": "正文递归构造有限序数并向极限序数扩展，同时用一一对应构造集合间的双射。"
+    },
+    {
+      "title": "「小球称重问题」完整版解答汇总",
+      "url": "https://zhuanlan.zhihu.com/p/368050985",
+      "summary": "正文在证明最少称重次数上界后，用三进制编号构造完整称量方案，并进一步给出可操作的动态构造方法。"
+    },
+    {
+      "title": "实变函数第15讲（可测函数：几乎处处收敛与测度收敛，依测度基本列，Riesz定理与Lusin定理）",
+      "url": "https://zhuanlan.zhihu.com/p/369665174",
+      "summary": "正文通过构造递增子列、控制其误差级数并借助小测度集证明收敛结论。"
+    },
+    {
+      "title": "利用微分方程法构造辅助函数的进一步探索",
+      "url": "https://zhuanlan.zhihu.com/p/372195576",
+      "summary": "正文总结出一套由微分方程构造辅助函数的步骤，并用标准题、修正题和变式具体演示构造过程。"
+    },
+    {
+      "title": "De Aequatione Cauchii 有关柯西方程的碎碎念",
+      "url": "https://zhuanlan.zhihu.com/p/387296915",
+      "summary": "正文通过选取 Hamel 基、任意指定基元素函数值并延拓，具体构造柯西方程的非连续解。"
+    },
+    {
+      "title": "三角剖分：可以像切西瓜一样切流形吗？",
+      "url": "https://zhuanlan.zhihu.com/p/389102515",
+      "summary": "正文通过加厚弧段并归纳构造闭 2-cell，逐步得到整个闭曲面的三角剖分。"
+    },
+    {
+      "title": "Carleman不等式及若干证明方法",
+      "url": "https://zhuanlan.zhihu.com/p/389442229",
+      "summary": "正文构造辅助数列并结合算术几何平均不等式，给出 Carleman 不等式的一种证明。"
+    },
+    {
+      "title": "柯西不等式的几种证明方法",
+      "url": "https://zhuanlan.zhihu.com/p/397034475",
+      "summary": "正文通过构造恒非负的二次函数并利用判别式条件证明柯西不等式，展示了构造证明方法。"
+    },
+    {
+      "title": "数列极限方法篇（一）——海涅定理（精巧版）",
+      "url": "https://zhuanlan.zhihu.com/p/398138312",
+      "summary": "正文通过构造两个趋于同一点但函数值趋于不同极限的数列，证明振荡函数极限不存在。"
+    },
+    {
+      "title": "中值定理的几种典型函数的构造方法",
+      "url": "https://zhuanlan.zhihu.com/p/399790799",
+      "summary": "文章按中值等式的目标形式构造辅助函数，并用罗尔、拉格朗日和柯西中值定理完成证明。"
+    },
+    {
+      "title": "离散数学笔记（10.2）哈密顿图",
+      "url": "https://zhuanlan.zhihu.com/p/387488226",
+      "summary": "正文通过扩大极大路径并构造经过路径所有顶点的圈，逐步构造出哈密顿路径。"
+    },
+    {
+      "title": "数论：数论问题的一些处理技巧",
+      "url": "https://zhuanlan.zhihu.com/p/405064839",
+      "summary": "正文专设构造一节，通过构造合数下标、连续整数和中国剩余定理方程组完成存在性证明。"
+    },
+    {
+      "title": "一文彻底搞懂积分等式证明题(积分证明题总结笔记1/3)",
+      "url": "https://zhuanlan.zhihu.com/p/407778580",
+      "summary": "正文通过构造变上限积分辅助函数，把积分等式转化为可用微分中值定理处理的形式。"
+    },
+    {
+      "title": "积分形式的柯西-施瓦茨不等式",
+      "url": "https://zhuanlan.zhihu.com/p/410799210",
+      "summary": "正文构造关于参数 t 的非负二次式，对两边积分后利用判别式非正，从而证明目标不等式。"
+    },
+    {
+      "title": "一文搞懂积分不等式证明(积分证明题总结笔记3/3)",
+      "url": "https://zhuanlan.zhihu.com/p/411078530",
+      "summary": "正文多次通过移项构造辅助函数，再利用求导所得单调性和最值完成不等式证明。"
+    },
+    {
+      "title": "发散数列一定无界吗？无界数列一定是无穷大量吗？",
+      "url": "https://zhuanlan.zhihu.com/p/413017891",
+      "summary": "正文先否定存在性命题，再解释构造振荡数列的动机，并给出满足性质的具体数列。"
+    },
+    {
+      "title": "一道有意思的思维题",
+      "url": "https://zhuanlan.zhihu.com/p/417591246",
+      "summary": "正文构造出必能成功的交换策略：拆分唯一长于 26 的环，使任意查找都在 26 步内到达目标牌。"
+    },
+    {
+      "title": "隐函数存在定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/427763701",
+      "summary": "证明对每个 x 构造唯一对应的 y=f(x)，再验证它满足隐函数方程并保持连续。"
+    },
+    {
+      "title": "自然数平方数列前n项和的推导",
+      "url": "https://zhuanlan.zhihu.com/p/427126339",
+      "summary": "正文构造立方差恒等式并对各项求和，消去中间项后导出平方和公式。"
+    },
+    {
+      "title": "【趣味数学】是否存在每个面都有“孔”的多面体？",
+      "url": "https://zhuanlan.zhihu.com/p/430261642",
+      "summary": "正文围绕每面含孔多面体的存在问题，展示多次失败尝试并介绍 78585627 面体和 492 面体的具体构造。"
+    },
+    {
+      "title": "数学分析中的有趣问题（1）",
+      "url": "https://zhuanlan.zhihu.com/p/430567574",
+      "summary": "正文通过 Dirichlet 函数和以素数为零点的因子显式构造仅在素数点连续及可导的函数。"
+    },
+    {
+      "title": "20211109 九道中值定理的常考优质题",
+      "url": "https://zhuanlan.zhihu.com/p/431275288",
+      "summary": "正文针对待证等式反复构造辅助函数，再用罗尔定理推出所需导数恒等式。"
+    },
+    {
+      "title": "2021年11月四川大学高数期中试题及解析",
+      "url": "https://zhuanlan.zhihu.com/p/432208750",
+      "summary": "正文构造辅助函数并两次使用罗尔定理，把待证等式转化为辅助函数导数为零。"
+    },
+    {
+      "title": "【高考数学】极值点偏移与拟合法",
+      "url": "https://zhuanlan.zhihu.com/p/433077127",
+      "summary": "正文明确对称化构造辅助函数并用它与拟合函数作差，把待证偏移转化为函数单调性。"
+    },
+    {
+      "title": "关于南大2021某数分期中压轴题",
+      "url": "https://zhuanlan.zhihu.com/p/435834400",
+      "summary": "正文构造权重函数使幂级数的加权和转化为截断和，完成证明。"
+    },
+    {
+      "title": "数列n平方的前n项和 公式推导的一种方式",
+      "url": "https://zhuanlan.zhihu.com/p/436298006",
+      "summary": "正文通过二项式立方恒等式构造逐项相消的求和，推导平方和公式。"
+    },
+    {
+      "title": "卓里奇《数学分析》习题（第一、二、三章）",
+      "url": "https://zhuanlan.zhihu.com/p/438175318",
+      "summary": "正文显式构造无理数与区间间双射，用具体对象证明存在性和等势结论。"
+    },
+    {
+      "title": "不动点定理（Fixed Points Theorem）",
+      "url": "https://zhuanlan.zhihu.com/p/440430708",
+      "summary": "正文通过构造从混合策略空间到自身的最优反应映射，并利用其不动点证明纳什均衡存在。"
+    },
+    {
+      "title": "广义罗尔定理",
+      "url": "https://zhuanlan.zhihu.com/p/442406894",
+      "summary": "正文通过补端点值以及正切换元构造辅助函数，把开区间和无穷区间的罗尔定理转化为标准情形。"
+    },
+    {
+      "title": "等幂和问题(5)—— 3³+4³+5³=6³ 绝非巧合！",
+      "url": "https://zhuanlan.zhihu.com/p/445420768",
+      "summary": "正文从计算搜索所得的多组解中拟合出参数公式，构造出对任意 k 成立的等幂和恒等式。"
+    },
+    {
+      "title": "中值定理证明题(一)：构造函数练习",
+      "url": "https://zhuanlan.zhihu.com/p/450028433",
+      "summary": "正文围绕多道证明题构造不同辅助函数，再结合罗尔或拉格朗日中值定理完成证明。"
+    },
+    {
+      "title": "一类圆周率pi有理逼近的积分形式",
+      "url": "https://zhuanlan.zhihu.com/p/450355422",
+      "summary": "正文通过选择积分多项式并控制正负号，构造能证明指定圆周率不等式的一组积分。"
+    },
+    {
+      "title": "尺规作图实际上是在“作什么”？",
+      "url": "https://zhuanlan.zhihu.com/p/452071206",
+      "summary": "正文把尺规作图归结为逐项构造可作数的加减乘除和开平方，并说明如何落成具体步骤。"
+    },
+    {
+      "title": "压缩映射原理",
+      "url": "https://zhuanlan.zhihu.com/p/458151225",
+      "summary": "正文构造辅助函数 F(x)=f(x)-x，把不动点存在性转化为零点问题并结合零点定理证明。"
+    },
+    {
+      "title": "中值定理证明题(四)：简单的思路小结",
+      "url": "https://zhuanlan.zhihu.com/p/458878845",
+      "summary": "正文系统展示如何从待证等式反推并构造辅助函数，再用罗尔中值定理证明结论。"
+    },
+    {
+      "title": "数列n^2的前n项和",
+      "url": "https://zhuanlan.zhihu.com/p/462597946",
+      "summary": "正文用三个三角形重新排列并相加的构造，证明平方数列前 n 项和公式。"
+    },
+    {
+      "title": "(高中)对称隐零点不等式问题方法(极值点偏移)",
+      "url": "https://zhuanlan.zhihu.com/p/462721746",
+      "summary": "正文定义左右上下摇，主动构造与目标函数具有指定切触关系的函数，再由新方程证明原根关系。"
+    },
+    {
+      "title": "（高中数学）极值点偏移5种处理方式",
+      "url": "https://zhuanlan.zhihu.com/p/462870821",
+      "summary": "正文主动构造对称函数和二次拟合函数，把原变量关系转化为可证明的新函数关系。"
+    },
+    {
+      "title": "我发现了一个超级没用的不等式！！！！！！！",
+      "url": "https://zhuanlan.zhihu.com/p/462981371",
+      "summary": "正文构造辅助函数 f 和 g，通过导数判断其单调性来证明两个不等式。"
+    },
+    {
+      "title": "韦达跳跃-从入门到入坟（1）：韦达跳跃与无穷递降",
+      "url": "https://zhuanlan.zhihu.com/p/463376204",
+      "summary": "正文把条件转化为一元二次方程，借韦达定理构造更小正整数解并形成无穷递降证明。"
+    },
+    {
+      "title": "【导数与不等式】琴生不等式的五种证法——茴香豆的“茴”字的四种写法",
+      "url": "https://zhuanlan.zhihu.com/p/500071948",
+      "summary": "正文以连接两点的割线构造辅助函数，再与原函数作差并借导数符号完成不等式证明。"
+    },
+    {
+      "title": "Luzin定理：重温与升华",
+      "url": "https://zhuanlan.zhihu.com/p/502936783",
+      "summary": "正文构造测度充分小的删去集合，使剩余函数连续，并逐步验证构造满足证明条件。"
+    },
+    {
+      "title": "拉格朗日恒等式",
+      "url": "https://zhuanlan.zhihu.com/p/522285332",
+      "summary": "正文反复示范如何依据已知条件构造辅助向量和拉格朗日恒等式，以完成不等式与三角形问题。"
+    },
+    {
+      "title": "【排列组合】组合恒等式(高考向）",
+      "url": "https://zhuanlan.zhihu.com/p/512091691",
+      "summary": "正文构造志愿者队伍及队长的计数场景，从两种选人顺序计算同一数量，展示算两次的构造证明。"
+    },
+    {
+      "title": "第十九讲 微分中值定理",
+      "url": "https://zhuanlan.zhihu.com/p/374657430",
+      "summary": "正文构造函数减去端点连线，利用罗尔定理证明拉格朗日中值定理。"
+    },
+    {
+      "title": "组合数学 （1）排列与组合",
+      "url": "https://zhuanlan.zhihu.com/p/529861534",
+      "summary": "正文通过把非负整数解转化为球与隔板，并具体安排隔板位置来构造计数证明。"
+    },
+    {
+      "title": "组合数学（2）分拆数",
+      "url": "https://zhuanlan.zhihu.com/p/530925142",
+      "summary": "正文通过构造元素之间的映射并证明其为双射，完成分拆递推关系的证明。"
+    },
+    {
+      "title": "【高等代数】线性空间的同构",
+      "url": "https://zhuanlan.zhihu.com/p/536146120",
+      "summary": "正文通过两组基之间的坐标对应显式构造同构映射，并用构造结果证明维数条件充分。"
+    },
+    {
+      "title": "无理数的有理逼近及其应用（1）——两个基本定理",
+      "url": "https://zhuanlan.zhihu.com/p/537341163",
+      "summary": "通过划分区间并利用抽屉原理具体构造满足误差要求的互素整数p和q。"
+    },
+    {
+      "title": "不等式中max和min函数的常见处理方法",
+      "url": "https://zhuanlan.zhihu.com/p/538480568",
+      "summary": "正文显式构造阶梯函数来表示 min，从而把目标式改写成平方形式完成证明。"
+    },
+    {
+      "title": "【升级の高中数学｜导数】一种神奇的函数零点和逼近方法",
+      "url": "https://zhuanlan.zhihu.com/p/540384985",
+      "summary": "正文构造辅助函数，使其次方程根之和恰为目标界，从而完成零点之和估计。"
+    },
+    {
+      "title": "2022 年国际数学奥林匹克（2022·IMO）解题笔记．",
+      "url": "https://zhuanlan.zhihu.com/p/540730236",
+      "summary": "正文构造最长链永不合并的硬币排列和周期例子，用具体构造说明反例并推出参数限制。"
+    },
+    {
+      "title": "【导数】从增强函数透析“极值点偏移”本质（1/2）",
+      "url": "https://zhuanlan.zhihu.com/p/542468423",
+      "summary": "正文给出待定系数和二阶导条件来构造增强函数，并强调构造后验证单调性。"
+    },
+    {
+      "title": "高考导数溯源（三）：从Hadamard不等式的高度解2020年天津卷和2022届雅礼中学高三二模（1/2）",
+      "url": "https://zhuanlan.zhihu.com/p/546494330",
+      "summary": "正文为证明不等式构造端点平均与中点函数值之差的辅助函数，再通过求导推出结论。"
+    },
+    {
+      "title": "不等式进阶——待定系数法",
+      "url": "https://zhuanlan.zhihu.com/p/549127393",
+      "summary": "正文展示如何按目标结构引入参数、比较系数并构造出所需配方。"
+    },
+    {
+      "title": "【数学分析笔记】9.2 上极限和下极限",
+      "url": "https://zhuanlan.zhihu.com/p/549977785",
+      "summary": "正文反复通过逐步选取下标构造收敛子列、发散子列和无穷大量子列，展示了以构造法完成存在性证明。"
+    },
+    {
+      "title": "【数学分析】对数均值不等式（ALG）的强化",
+      "url": "https://zhuanlan.zhihu.com/p/555342127",
+      "summary": "正文以辅助函数F和f为关键构造，结合凸函数的割线与切线不等式证明对数均值不等式的强化形式。"
+    },
+    {
+      "title": "【难の极值点偏移】同构函数侧",
+      "url": "https://zhuanlan.zhihu.com/p/558809807",
+      "summary": "正文通过专门构造辅助函数并研究其单调性来完成极值点偏移证明。"
+    },
+    {
+      "title": "调整法初见",
+      "url": "https://zhuanlan.zhihu.com/p/559429730",
+      "summary": "正文通过构造并反复执行变量调整操作，把问题化到少数相等变量或零变量。"
+    },
+    {
+      "title": "数论--丢番图逼近",
+      "url": "https://zhuanlan.zhihu.com/p/559110495",
+      "summary": "正文用快速收敛的数字序列和指数阶乘分母构造刘维尔数，并给出连分数等其他构造方式。"
+    },
+    {
+      "title": "12587 「五角形游戏」的解法是怎么想出来的？",
+      "url": "https://zhuanlan.zhihu.com/p/572123665",
+      "summary": "正文通过分析局部辅助函数失效的原因，逐步构造出包含全部连续段和的非局部辅助函数。"
+    },
+    {
+      "title": "盘点高中数学解题中的八大构造法",
+      "url": "https://zhuanlan.zhihu.com/p/575669090",
+      "summary": "给出构造法的定义，并用图论建模、函数和几何对象等例子说明用新对象显化原问题关系的解题方法。"
+    },
+    {
+      "title": "微分中值定理—柯西中值定理",
+      "url": "https://zhuanlan.zhihu.com/p/576758829",
+      "summary": "正文通过构造辅助函数并应用罗尔中值定理给出柯西中值定理的证明，属于构造方法。"
+    },
+    {
+      "title": "极、调、对合",
+      "url": "https://zhuanlan.zhihu.com/p/584384477",
+      "summary": "正文构造对称式和横坐标对合方程，再结合韦达关系证明直线恒过定点。"
+    },
+    {
+      "title": "【奇技淫巧】一道有意思的比大小问题的深刻内涵",
+      "url": "https://zhuanlan.zhihu.com/p/583906456",
+      "summary": "正文通过构造辅助函数、同构变形和割线函数给出多种可验证的比较证明。"
+    },
+    {
+      "title": "数学新突破，数学家从运动系统中，发现“无限”的数学结构",
+      "url": "https://zhuanlan.zhihu.com/p/589820343",
+      "summary": "正文具体介绍弗斯滕伯格把整数集问题转化为动力系统，并构造运动路径与聚点来证明和集猜想的思路。"
+    },
+    {
+      "title": "几何学的重大突破，陶哲轩在高维空间中找到了“平铺猜想”的反例",
+      "url": "https://zhuanlan.zhihu.com/p/592188185",
+      "summary": "正文具体介绍以平移集、三明治堆叠和方程约束构造高维非周期瓦片反例的思路。"
+    },
+    {
+      "title": "陶哲轩攻克60年几何学难题！发现「周期性密铺猜想」在高维空间反例",
+      "url": "https://zhuanlan.zhihu.com/p/592295128",
+      "summary": "正文介绍用方程组、网格谜题和平铺三明治逐步构造高维密铺反例的方法。"
+    },
+    {
+      "title": "陶哲轩破解数十年前几何猜想，用反例证明它在高维空间不成立，同行：推翻的方式极尽羞辱",
+      "url": "https://zhuanlan.zhihu.com/p/592859466",
+      "summary": "正文说明陶哲轩和 Greenfeld 把高维平铺问题重写成方程约束系统，并以有限网格和数独式序列逐步构造反例。"
+    },
+    {
+      "title": "【初等数论】二次曲线上的有理点问题",
+      "url": "https://zhuanlan.zhihu.com/p/597368922",
+      "summary": "正文从一个已知有理点出发，构造有理斜率直线来生成二次曲线上的全部有理点。"
+    },
+    {
+      "title": "【解析几何】利用圆锥曲线尺规作图正七边形",
+      "url": "https://zhuanlan.zhihu.com/p/597924635",
+      "summary": "正文给出圆心与半径的显式构造公式，并说明构造只涉及可开方量，从而实现尺规作图。"
+    },
+    {
+      "title": "寒假攻克50道定积分证明题",
+      "url": "https://zhuanlan.zhihu.com/p/594881490",
+      "summary": "正文在多个证明中构造辅助函数或多项式，把积分与共线、零点问题转化为可应用罗尔定理等形式。"
+    },
+    {
+      "title": "数学竞赛向:17个非熟知放缩用不等式及放缩方法及应用典例（韩京俊《初等不等式的证明方法》笔记）",
+      "url": "https://zhuanlan.zhihu.com/p/607533657",
+      "summary": "正文说明先验证取等时的近似关系，再构造局部不等式或配凑柯西完成证明。"
+    },
+    {
+      "title": "一个让人惊奇的数学公理——选择公理，极大地违反了人类的直觉",
+      "url": "https://zhuanlan.zhihu.com/p/612171584",
+      "summary": "正文通过无理数的幂和可数族之并比较构造性证明与非构造性证明，说明后者的信息局限。"
+    },
+    {
+      "title": "导数第八式——“天外飞仙”（迷人且优雅的构造）",
+      "url": "https://zhuanlan.zhihu.com/p/611592419",
+      "summary": "正文系统给出乘积型、分式型、指数型和三角函数型辅助函数的构造规律。"
+    },
+    {
+      "title": "戴德金分割（Dedekind cut）简介",
+      "url": "https://zhuanlan.zhihu.com/p/624927736",
+      "summary": "正文以有理数集的上下分割定义了实数与无理数的构造方式。"
+    },
+    {
+      "title": "为什么四面体的体积公式不存在初等证明？- 希尔伯特第三问题",
+      "url": "https://zhuanlan.zhihu.com/p/625080357",
+      "summary": "正文构造Dehn不变量，通过切割拼接下的不变量证明体积公式不存在初等证明。"
+    },
+    {
+      "title": "【旧版订正】数论：概念和问题1——韦达跳跃",
+      "url": "https://zhuanlan.zhihu.com/p/639719565",
+      "summary": "正文利用韦达定理构造出同形式的更小正整数解，系统展示了韦达跳跃的构造技巧。"
+    },
+    {
+      "title": "TCS笔记1：数学，算法，和图灵机",
+      "url": "https://zhuanlan.zhihu.com/p/643661983",
+      "summary": "正文给出图灵机判断回文的逐位标记、比较和移动构造流程。"
+    },
+    {
+      "title": "隐函数定理的三种证明",
+      "url": "https://zhuanlan.zhihu.com/p/648232832",
+      "summary": "正文通过构造范数平方函数并取紧集内部最小点，给出隐函数存在性的构造式证明。"
+    },
+    {
+      "title": "【数形结合百般好】2023全国一卷数学22题“矩形周长”全新思路",
+      "url": "https://zhuanlan.zhihu.com/p/649501177",
+      "summary": "正文构造与切线垂直的辅助弦，先求其最小长度，再借助对角线和弦长的比较完成原命题证明。"
+    },
+    {
+      "title": "多项式逼近与Weierstrass-Stone定理",
+      "url": "https://zhuanlan.zhihu.com/p/650708724",
+      "summary": "正文给出Bernstein多项式的显式构造，并据此证明Weierstrass逼近定理。"
+    },
+    {
+      "title": "多项式插值：拉格朗日插值法(Lagrange Approximation)",
+      "url": "https://zhuanlan.zhihu.com/p/645788465",
+      "summary": "正文显式构造拉格朗日基函数，并组合得到满足全部插值条件的多项式。"
+    },
+    {
+      "title": "高等代数——不可约多项式",
+      "url": "https://zhuanlan.zhihu.com/p/653615134",
+      "summary": "正文把 Cohn 判别法作为构造一类不可约多项式的方法并展开证明。"
+    },
+    {
+      "title": "韦达定理构造双变量问题中的“伪二次拟合”——从一道征解题谈起",
+      "url": "https://zhuanlan.zhihu.com/p/653868986",
+      "summary": "正文提出并示范了构造辅助二次函数处理零点和的证明方法。"
+    },
+    {
+      "title": "大半页纸写完的 π 是无理数的证明，就说秀不秀？",
+      "url": "https://zhuanlan.zhihu.com/p/655375296",
+      "summary": "证明的核心是构造辅助多项式 f、逐阶导数组合 F，再构造可求导的原函数。"
+    },
+    {
+      "title": "周期函数的一件琐事（短文）",
+      "url": "https://zhuanlan.zhihu.com/p/656894658",
+      "summary": "正文通过选取超越数、构造等价关系并分析复合函数的代数延拓，具体构造出满足要求的周期函数。"
+    },
+    {
+      "title": "算法学习笔记(25)：鸽巢原理（抽屉原理）",
+      "url": "https://zhuanlan.zhihu.com/p/661206530",
+      "summary": "正文对吃糖果问题给出隔板空间和依序放置的构造，用于证明可行方案的存在。"
+    },
+    {
+      "title": "一些有意思的行列式",
+      "url": "https://zhuanlan.zhihu.com/p/663461869",
+      "summary": "正文构造扩展的 Vandermonde 行列式，并通过余子式展开取得目标行列式。"
+    },
+    {
+      "title": "【优雅技巧】如何优雅地“注意到”关于e、π的不等式",
+      "url": "https://zhuanlan.zhihu.com/p/669285539",
+      "summary": "正文不仅列出积分模板，还讲解待定系数、连分数、拆分、线性组合和乘积组合等构造证明方法。"
+    },
+    {
+      "title": "阿达玛不等式与几道导数练习题之缘",
+      "url": "https://zhuanlan.zhihu.com/p/671875450",
+      "summary": "正文分别构造辅助函数 g(t) 和 h(t)，通过控制其三阶导数完成定理的构造性证明。"
+    },
+    {
+      "title": "一个处处不满足Hölder条件的连续函数",
+      "url": "https://zhuanlan.zhihu.com/p/675057799",
+      "summary": "正文明确以级数构造一个连续但处处不满足 Hölder 条件的函数，并给出完整构造证明。"
+    },
+    {
+      "title": "巴拿赫 - 塔斯基分球“悖论”的证明",
+      "url": "https://zhuanlan.zhihu.com/p/675480111",
+      "summary": "正文具体构造维塔利代表元集合和球面的四块分割，再通过旋转重组证明加倍结论。"
+    },
+    {
+      "title": "LEAN4 入门（introduction）",
+      "url": "https://zhuanlan.zhihu.com/p/678954230",
+      "summary": "正文以 x+1=2 为例说明存在性证明需要给出具体见证，并用 Exists.intro 构造对应实例的证明。"
+    },
+    {
+      "title": "f(f(n))=3n，一道经典的上海某年春考难题",
+      "url": "https://zhuanlan.zhihu.com/p/683278770",
+      "summary": "正文按三的幂次划分区间，构造性地给出满足函数方程和单调性的分段通项。"
+    },
+    {
+      "title": "不等式中的柯西逼近法",
+      "url": "https://zhuanlan.zhihu.com/p/683351847",
+      "summary": "正文通过选取取等点构造局部多项式不等式，再逐项求和完成目标不等式的证明。"
+    },
+    {
+      "title": "【复变函数】柯西积分公式及其在无穷远处的推广",
+      "url": "https://zhuanlan.zhihu.com/p/688675175",
+      "summary": "正文通过构造钥匙孔路径、辅助圆周和抵消路径，把不可直接应用的区域化为可应用柯西公式的情形。"
+    },
+    {
+      "title": "80年来几乎没有进展的数学问题，解决方案竟是让它变得更复杂",
+      "url": "https://zhuanlan.zhihu.com/p/694474122",
+      "summary": "正文构造增加距离坐标的升维映射，把平面点集编码为曲面与格点上的点。"
+    },
+    {
+      "title": "微分中值定理——巅峰之作！基本底层三大定理的认知与证明（介值定理、费马定理、罗尔定理）以及对拉格朗日与柯西绝妙的证明方法！！！",
+      "url": "https://zhuanlan.zhihu.com/p/694676042",
+      "summary": "正文通过拟合曲线、构造辅助函数和映射来证明拉格朗日与柯西中值定理。"
+    },
+    {
+      "title": "2024年新高考一卷数学压轴题数列题思路详解",
+      "url": "https://zhuanlan.zhihu.com/p/702281470",
+      "summary": "正文分别构造一二型和二一型的划分方案，从而给出满足条件的数对族。"
+    },
+    {
+      "title": "2024 年新高考Ⅰ卷数学压轴题探究",
+      "url": "https://zhuanlan.zhihu.com/p/702511725",
+      "summary": "正文显式构造等差数列分组，证明 (2,13) 及多类余数条件下数对有效。"
+    },
+    {
+      "title": "关于一道十分需要“注意力”的数学问题",
+      "url": "https://zhuanlan.zhihu.com/p/704727769",
+      "summary": "正文通过显式公式和代换构造出有理数的三立方和表示，展示了构造型证明方法。"
+    },
+    {
+      "title": "线性代数秩不等式证明方法——舒尔补",
+      "url": "https://zhuanlan.zhihu.com/p/705177839",
+      "summary": "正文提出按正负项分置对角线的构造原则，并用多个秩不等式实例演示构造型证明。"
+    },
+    {
+      "title": "考研数学【中值定理证明】最常考的题型，如何【构造辅助函数？】超详细、超通俗讲解",
+      "url": "https://zhuanlan.zhihu.com/p/705601437",
+      "summary": "正文系统讲解通过目标函数、凑微分和还原法构造辅助函数，再应用罗尔定理完成证明。"
+    },
+    {
+      "title": "2021南开大学数学伯苓数学分析动态进出考试最后一题",
+      "url": "https://zhuanlan.zhihu.com/p/715078005",
+      "summary": "正文明确构造 H(x) 与连续函数 g(x) 的原函数 G(x)，再用两者之差构造 f(x) 的原函数。"
+    },
+    {
+      "title": "证明TREE(3)有限",
+      "url": "https://zhuanlan.zhihu.com/p/715618227",
+      "summary": "正文递归构造具有无限延拓的标准序列前缀，选出每个顶点数的 Tn，最终与良拟序矛盾。"
+    },
+    {
+      "title": "线性代数中的暴力美学",
+      "url": "https://zhuanlan.zhihu.com/p/717440138",
+      "summary": "正文通过构造维数相同且包含关系成立的变换空间，证明满足条件的线性变换都能由矩阵 A 构造出来。"
+    },
+    {
+      "title": "24的秘密（1）——更不可能的棋盘谜题",
+      "url": "https://zhuanlan.zhihu.com/p/716772659",
+      "summary": "正文明确构造了把23格映射到MOG并翻转指定格子的解题方案，属于构造性解法。"
+    },
+    {
+      "title": "从偏移的视角构造裂项放缩——2023年天津卷高考导数与数列压轴",
+      "url": "https://zhuanlan.zhihu.com/p/802541102",
+      "summary": "正文构造拉平函数与对称化辅助函数，比较割线斜率和中点导数来建立证明。"
+    },
+    {
+      "title": "理所当然也能错，数学界震动：「上下铺猜想」被证伪",
+      "url": "https://zhuanlan.zhihu.com/p/4728778797",
+      "summary": "正文详细说明如何把超图反例替换为稠密集群，构造出普通图反例。"
+    },
+    {
+      "title": "中山大学2024淑芬期中a卷解析(自制版)",
+      "url": "https://zhuanlan.zhihu.com/p/5942827617",
+      "summary": "正文通过构造辅助函数F、g和区间序列，完成不动点式存在性与无穷多根问题的证明。"
+    },
+    {
+      "title": "向极值点偏移说再见——一个朴实无华的定理和证明，以及它的毁灭性力量",
+      "url": "https://zhuanlan.zhihu.com/p/6010455015",
+      "summary": "正文构造两个函数的规范化差函数，再借助其导数性质证明极值点偏移判别定理。"
+    },
+    {
+      "title": "无差别轰炸——极值点偏移的机械化操作流程",
+      "url": "https://zhuanlan.zhihu.com/p/6186341598",
+      "summary": "正文给出借助去对称化、消参和构造母函数来证明偏移不等式的操作流程。"
+    },
+    {
+      "title": "【极值点偏移】构造函数法，失效了吗？",
+      "url": "https://zhuanlan.zhihu.com/p/7927729615",
+      "summary": "正文系统说明如何构造 L(x) 以及 F(f,g)=g+φ(f) 等辅助函数来证明目标关系。"
+    },
+    {
+      "title": "2024年湘潭大学韶峰班大一选拔考试 数学分析试题个人解答",
+      "url": "https://zhuanlan.zhihu.com/p/8297151330",
+      "summary": "正文通过构造分段函数建立两个区间之间的双射，具体展开了构造证明方法。"
+    },
+    {
+      "title": "2023天津：优美的数列构造与差分（全网最易懂最详细方法）",
+      "url": "https://zhuanlan.zhihu.com/p/16439049647",
+      "summary": "正文先构造辅助函数和待定裂项表达式，再把局部不等式累加得到全局结论。"
+    },
+    {
+      "title": "极值点偏移的通法——构造函数法，附带脚本批量构造",
+      "url": "https://zhuanlan.zhihu.com/p/28908472182",
+      "summary": "正文提出以二元函数泰勒展开和系数约束系统构造辅助函数的极值点偏移通法。"
+    },
+    {
+      "title": "豪斯多夫、尼采与集合论",
+      "url": "https://zhuanlan.zhihu.com/p/32265010172",
+      "summary": "正文通过枚举序同构和超限递归逐步构造无轮回集，是明确的构造性证明。"
+    },
+    {
+      "title": "举例说明为什么本科数学做题远不如高中",
+      "url": "https://zhuanlan.zhihu.com/p/1895046166208570115",
+      "summary": "证明构造开集 V=f(U)，再任取 w=f(z) 推出 f(w)=w，从而证明幂等全纯函数恒等。"
+    },
+    {
+      "title": "2005年上海卷=2018年CMO？高考生也能做的竞赛题",
+      "url": "https://zhuanlan.zhihu.com/p/1903413634475991763",
+      "summary": "正文明确给出尺规作椭圆中心并进一步作最小外切菱形的构造步骤。"
+    },
+    {
+      "title": "一个神奇组合恒等式的组合证明与概率证明",
+      "url": "https://zhuanlan.zhihu.com/p/1910375896742867401",
+      "summary": "正文主动构造等概率摸球的停止过程，为恒等式给出概率模型证明。"
+    },
+    {
+      "title": "插值法证明积分不等式",
+      "url": "https://zhuanlan.zhihu.com/p/1915709467116418164",
+      "summary": "正文按边界条件构造多项式辅助函数，并通过待定系数使它满足分部积分所需的端点条件。"
+    },
+    {
+      "title": "建筑生破解60年数学悬案，制成「永远同一面朝上」的单稳四面体",
+      "url": "https://zhuanlan.zhihu.com/p/1921931239046226934",
+      "summary": "正文说明团队通过计算机穷举找到顶点坐标与配重方案，以显式构造回应康威的单稳四面体存在性猜想。"
+    },
+    {
+      "title": "彻底解决微分中值定理证明题",
+      "url": "https://zhuanlan.zhihu.com/p/1936539092893561744",
+      "summary": "正文把中值定理题型转化为寻找原函数，并通过构造辅助函数使两端函数值相等后应用罗尔定理。"
+    },
+    {
+      "title": "不等式的奇技淫巧（正在更新）",
+      "url": "https://zhuanlan.zhihu.com/p/1944759084013290522",
+      "summary": "正文专列构造法，通过构造代数表达式和辅助放缩关系证明 AM-GM 不等式并处理竞赛题。"
+    },
+    {
+      "title": "Gronwall 不等式及其 Bootstrap 证明",
+      "url": "https://zhuanlan.zhihu.com/p/1962634220917751956",
+      "summary": "正文构造依赖于ε的命题集合Ω，证明其非空、既开又闭，从而完成Bootstrap论证。"
+    },
+    {
+      "title": "李-杨单位圆定理",
+      "url": "https://zhuanlan.zhihu.com/p/1963625182053762633",
+      "summary": "正文显式构造二元稳定多项式，再通过Asano收缩和Schur-Hadamard乘积构造目标多项式。"
+    },
+    {
+      "title": "尝试在中国象棋中构造无穷步杀",
+      "url": "https://zhuanlan.zhihu.com/p/1970930834279208117",
+      "summary": "正文给出了中国象棋中 ω、ω^2、ω^3 步杀局面的逐步构造和着法分析。"
+    },
+    {
+      "title": "圆锥曲线（Conics）——古典几何法",
+      "url": "https://zhuanlan.zhihu.com/p/1997419697776398814",
+      "summary": "文章给出椭圆切线与双曲线的尺规构造步骤，并证明所得直线或点满足定义。"
+    },
+    {
+      "title": "“数分高代”视角下的散在单群（1）——模11下的叉乘奇迹与 Janko 第一单群",
+      "url": "https://zhuanlan.zhihu.com/p/2028216671819581256",
+      "summary": "正文给出四个生成矩阵并构造其闭包，从而显式得到 Janko 单群。"
+    },
+    {
+      "title": "拉马努金π公式中的神秘整数终于有了解释（包含Chudnovsky兄弟的公式）",
+      "url": "https://zhuanlan.zhihu.com/p/2029797850955915903",
+      "summary": "正文通过取特定卢卡斯数并作线性组合，构造出拉马努金公式中的关键常数。"
+    },
+    {
+      "title": "“数分高代”视角下的散在单群（2）——“满天星”下的 Rudvalis 单群",
+      "url": "https://zhuanlan.zhihu.com/p/2028216938887754563",
+      "summary": "正文通过构造三类向量集合并定义它们之间的模二内积来显式构造 Rudvalis 图。"
+    },
+    {
+      "title": "2026.5.8菲尔兹奖得主蒂姆·高尔斯爵士实测ChatGPT 5.5 Pro后感慨“数学家冠名定理的时代或将落幕”",
+      "url": "https://zhuanlan.zhihu.com/p/2036606520906011577",
+      "summary": "正文具体说明了用更高效的西顿集构造改进和集直径上界，并用这一构造组织证明。"
+    },
+    {
+      "title": "OpenAI：关于单位距离猜想被证伪的评注",
+      "url": "https://zhuanlan.zhihu.com/p/2040794657894954227",
+      "summary": "正文以构造满足条件的数域塔、代数数集合和格点集合为主线，明确给出了反例的构造性证明。"
+    },
+    {
+      "title": "一根针织成的天罗地网：挂谷猜想的前世今生",
+      "url": "https://zhuanlan.zhihu.com/p/2048891702132450853",
+      "summary": "正文通过分割、重叠和鲍尔连接具体构造面积可任意小的佩龙树。"
+    },
+    {
+      "title": "探究挂谷猜想和信号处理的关系",
+      "url": "https://zhuanlan.zhihu.com/p/2064319990921179347",
+      "summary": "正文具体解释贝西科维奇通过切割、平移和重叠构造面积趋于零的挂谷集合。"
+    },
+    {
+      "title": "一道泰勒猫觉得怪石嶙峋的不等式问题推广——势理论",
+      "url": "https://zhuanlan.zhihu.com/p/2070899210254398163",
+      "summary": "正文构造辅助多项式，通过次数与零点个数矛盾证明其恒为零，展示了辅助构造式证明方法。"
+    },
+    {
+      "title": "一个难度很大但结果漂亮的定积分计算",
+      "url": "https://zhuanlan.zhihu.com/p/2071300038819681941",
+      "summary": "正文构造辅助函数与第一象限围道，绕开分支点后应用柯西定理推出积分恒等式。"
+    }
+  ]
+}

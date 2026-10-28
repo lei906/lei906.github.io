@@ -1,0 +1,601 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l2-t4-b4",
+  "sources": [
+    {
+      "title": "斐波那契数列通项公式是怎样推导出来的？",
+      "url": "https://www.zhihu.com/answer/30247743",
+      "summary": "正文围绕“斐波那契数列”给出说明、例证或方法。"
+    },
+    {
+      "title": "斐波那契数列为什么那么重要，所有关于数学的书几乎都会提到？",
+      "url": "https://www.zhihu.com/answer/39763094",
+      "summary": "正文说明斐波那契数列的定义、通项、性质和应用。"
+    },
+    {
+      "title": "数学中有哪些看起来很不可思议的知识？",
+      "url": "https://www.zhihu.com/answer/68304315",
+      "summary": "正文定义斐波那契数列并说明其构造。"
+    },
+    {
+      "title": "程序员对图灵的认识是怎样的?",
+      "url": "https://www.zhihu.com/answer/77553131",
+      "summary": "正文给出斐波那契数列并说明其与植物生长的关系。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/81412286",
+      "summary": "正文给出斐波那契递推序列及含黄金分割率的闭式通项。"
+    },
+    {
+      "title": "斐波那契数列第8项，21=3*7是什么意思？",
+      "url": "https://www.zhihu.com/answer/98541740",
+      "summary": "正文研究斐波那契数列的整除、最大公因数和本原质因数。"
+    },
+    {
+      "title": "有哪些类似于七桥问题的有趣数学定理？",
+      "url": "https://www.zhihu.com/answer/102358045",
+      "summary": "正文构造斐波那契数列的生成函数，并推导分数小数展开中出现该数列的原因。"
+    },
+    {
+      "title": "斐波那契数列两倍项关系公式f(2n)=f(n-1)f(n)+f(n+1)f(n)怎么推导的？",
+      "url": "https://www.zhihu.com/answer/117078454",
+      "summary": "正文用矩阵幂推导斐波那契数列两倍项公式。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/121302694",
+      "summary": "正文给出斐波那契递推序列，并说明相邻项比值趋近黄金分割。"
+    },
+    {
+      "title": "有哪些数学问题有经典的物理学证明或解释？",
+      "url": "https://www.zhihu.com/answer/125933938",
+      "summary": "正文解释斐波那契数列的定义、通项和恒等式图形证明。"
+    },
+    {
+      "title": "怎么用特征根法和不动点法求数列的通项公式？",
+      "url": "https://www.zhihu.com/answer/126920544",
+      "summary": "正文以斐波那契数列为二阶齐次线性递推方程的具体例子并求其通项。"
+    },
+    {
+      "title": "怎么用特征根法和不动点法求数列的通项公式？",
+      "url": "https://www.zhihu.com/answer/126979989",
+      "summary": "正文用斐波那契数列演示特征方程求递推通项。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/141768270",
+      "summary": "正文定义斐波那契数列并解释相邻项递推关系。"
+    },
+    {
+      "title": "有哪些时刻，让你觉得数学很美？",
+      "url": "https://www.zhihu.com/answer/147563032",
+      "summary": "正文用前n项正方形拼成矩形，实质解释斐波那契平方和恒等式。"
+    },
+    {
+      "title": "斐波那契数列通项公式是怎样推导出来的？",
+      "url": "https://www.zhihu.com/answer/158291644",
+      "summary": "正文用矩阵特征分解完整推导斐波那契数列通项。"
+    },
+    {
+      "title": "斐波那契数列通项公式是怎样推导出来的？",
+      "url": "https://www.zhihu.com/answer/158753864",
+      "summary": "正文用生成函数和部分分式展开推导斐波那契通项。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/162512702",
+      "summary": "正文从 L-system 的长度、数字和与递接结构多次导出斐波那契数列。"
+    },
+    {
+      "title": "如何理解矩阵特征值？",
+      "url": "https://www.zhihu.com/answer/181864044",
+      "summary": "正文把斐波那契递推写成矩阵迭代，展示特征值对增长速度的影响。"
+    },
+    {
+      "title": "怎样求出K个斐波那契数的最小公倍数？",
+      "url": "https://www.zhihu.com/answer/185333391",
+      "summary": "正文利用斐波那契数的最大公约数恒等式推导多个斐波那契数的最小公倍数。"
+    },
+    {
+      "title": "有哪些美丽或神奇的理科公式？",
+      "url": "https://www.zhihu.com/answer/253413351",
+      "summary": "正文解释斐波那契递推、自然实例及黄金分割极限。"
+    },
+    {
+      "title": "有哪些令你细思恐极的冷知识？",
+      "url": "https://www.zhihu.com/answer/271712459",
+      "summary": "正文交代斐波那契数列源自兔子问题并具有广泛应用。"
+    },
+    {
+      "title": "斐波那契数列倒数和收敛吗，是多少？",
+      "url": "https://www.zhihu.com/answer/276512530",
+      "summary": "正文研究斐波那契数列倒数和，并给出特殊函数表达。"
+    },
+    {
+      "title": "什么是动态规划（Dynamic Programming）？动态规划的意义是什么？",
+      "url": "https://www.zhihu.com/answer/305426560",
+      "summary": "正文以斐波那契数列为第一个动态规划实例。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/377656361",
+      "summary": "正文解释斐波那契数列与自然形态的联系。"
+    },
+    {
+      "title": "有哪些神奇的宇宙法则？",
+      "url": "https://www.zhihu.com/answer/378196298",
+      "summary": "正文介绍斐波那契数列并由其引出数字规律。"
+    },
+    {
+      "title": "有哪些神奇的宇宙法则？",
+      "url": "https://www.zhihu.com/answer/378518086",
+      "summary": "正文由斐波那契数列推导并讨论黄金分割。"
+    },
+    {
+      "title": "斐波那契数列的第一百万项怎么用 C++ 求？",
+      "url": "https://www.zhihu.com/answer/482517156",
+      "summary": "正文用矩阵快速幂计算第一百万项斐波那契数。"
+    },
+    {
+      "title": "斐波那契数列的第一百万项怎么用 C++ 求？",
+      "url": "https://www.zhihu.com/answer/482605842",
+      "summary": "正文从斐波那契向量递推推导矩阵快速幂求项。"
+    },
+    {
+      "title": "斐波那契数列的第一百万项怎么用 C++ 求？",
+      "url": "https://www.zhihu.com/answer/482944181",
+      "summary": "正文比较通项数值计算与精确计算斐波那契大项。"
+    },
+    {
+      "title": "斐波那契数列的第一百万项怎么用 C++ 求？",
+      "url": "https://www.zhihu.com/answer/483132964",
+      "summary": "正文用快速幂计算第一百万项斐波那契数。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/495434922",
+      "summary": "正文定义斐波那契数列并展示其数字规律。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/496738562",
+      "summary": "正文定义斐波那契数列并改写为食堂梗。"
+    },
+    {
+      "title": "请问，消失的面积是怎么一回事?",
+      "url": "https://www.zhihu.com/answer/504309374",
+      "summary": "说明所选边比来自斐波那契数列，相邻项之比交替逼近黄金分割比。"
+    },
+    {
+      "title": "有哪些神奇的数学巧合？",
+      "url": "https://www.zhihu.com/answer/567170926",
+      "summary": "展示斐波那契数列与反三角函数等关系。"
+    },
+    {
+      "title": "斐波那契数列通项公式是怎样推导出来的？",
+      "url": "https://www.zhihu.com/answer/575469058",
+      "summary": "正文完整推导斐波那契数列通项。"
+    },
+    {
+      "title": "斐波那契数列通项推导过程中凭什么定理断定它能写成两个等比数列的和？",
+      "url": "https://www.zhihu.com/answer/587503345",
+      "summary": "把特征根方法具体应用于斐波那契数列通项。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/642387215",
+      "summary": "推导斐波那契数列相邻项反正切之间的恒等式。"
+    },
+    {
+      "title": "数论斐波那契数的证明题怎么证?",
+      "url": "https://www.zhihu.com/answer/854316247",
+      "summary": "用 Binet 通项和幂差分解证明斐波那契数整除性。"
+    },
+    {
+      "title": "如何看待 15 岁女生谈方琳参加世界顶尖科学家大会？她的研究成果含金量有多高？",
+      "url": "https://www.zhihu.com/answer/876376680",
+      "summary": "正文解释斐波那契数列与贝祖数界及欧几里得算法最坏递归情形之间的实质联系。"
+    },
+    {
+      "title": "如何看待 15 岁女生谈方琳参加世界顶尖科学家大会？她的研究成果含金量有多高？",
+      "url": "https://www.zhihu.com/answer/876970498",
+      "summary": "正文用归纳法证明欧几里得算法系数的斐波那契上下界，实质讨论斐波那契数列。"
+    },
+    {
+      "title": "如何理解动态规划？",
+      "url": "https://www.zhihu.com/answer/883302989",
+      "summary": "以斐波那契数列展示递归与动态规划。"
+    },
+    {
+      "title": "线性代数对于计算机专业的作用是什么呢？",
+      "url": "https://www.zhihu.com/answer/884065709",
+      "summary": "以斐波那契数列展示矩阵快速幂。"
+    },
+    {
+      "title": "斐波那契数列的第一百万项怎么用 C++ 求？",
+      "url": "https://www.zhihu.com/answer/916650311",
+      "summary": "正文围绕斐波那契数列大项计算，比较多种快速算法与公式优化。"
+    },
+    {
+      "title": "20级台阶，一次只能上一阶或两阶，问有多少种方式？",
+      "url": "https://www.zhihu.com/answer/919277905",
+      "summary": "正文把上台阶方式数识别为斐波那契数列并算出结果。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/976079824",
+      "summary": "正文写出斐波那契递推式并推导相邻项比值趋向黄金分割。"
+    },
+    {
+      "title": "为什么2sin(54°)-1恰巧是黄金比例？",
+      "url": "https://www.zhihu.com/answer/1227341095",
+      "summary": "正文借助几何图形说明 54 度正弦与黄金比值。"
+    },
+    {
+      "title": "如何证明这个级数绝对收敛?",
+      "url": "https://www.zhihu.com/answer/1253416489",
+      "summary": "正文以 Stolarsky array 的行为核心，首行正为斐波那契数列。"
+    },
+    {
+      "title": "10/89 小数部分前 5 位可以构成斐波那契数列，这是一种巧合吗？",
+      "url": "https://www.zhihu.com/answer/1395769629",
+      "summary": "正文推导 10/89 与斐波那契数列的关系。"
+    },
+    {
+      "title": "10/89 小数部分前 5 位可以构成斐波那契数列，这是一种巧合吗？",
+      "url": "https://www.zhihu.com/answer/1397124120",
+      "summary": "正文用斐波那契生成函数解释 10/89 的小数。"
+    },
+    {
+      "title": "10/89 小数部分前 5 位可以构成斐波那契数列，这是一种巧合吗？",
+      "url": "https://www.zhihu.com/answer/1397931899",
+      "summary": "正文用生成函数证明 10/89 与斐波那契数列的关系。"
+    },
+    {
+      "title": "10/89 小数部分前 5 位可以构成斐波那契数列，这是一种巧合吗？",
+      "url": "https://www.zhihu.com/answer/1399000806",
+      "summary": "正文构造斐波那契数列的母函数。"
+    },
+    {
+      "title": "10/89 小数部分前 5 位可以构成斐波那契数列，这是一种巧合吗？",
+      "url": "https://www.zhihu.com/answer/1401153122",
+      "summary": "正文从进位与级数解释 1/89 小数中的斐波那契项。"
+    },
+    {
+      "title": "为什么1/49前面几项刚好是等比数列0204081632……，这是巧合吗 ？",
+      "url": "https://www.zhihu.com/answer/1405458347",
+      "summary": "正文延伸到斐波那契数列的伪等比小数构造。"
+    },
+    {
+      "title": "怎样给孩子进行数学启蒙教育？父母应该怎么做？",
+      "url": "https://www.zhihu.com/answer/1528156953",
+      "summary": "正文直接讨论斐波那契数列，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "斐波纳契数列有多神奇？",
+      "url": "https://www.zhihu.com/answer/1721937183",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "除了 1 和 144，还有哪个斐波那契数是平方数?",
+      "url": "https://www.zhihu.com/answer/1820602182",
+      "summary": "正文先给出斐波那契数列的二阶线性递推定义，并围绕其平方数性质展开证明。"
+    },
+    {
+      "title": "为什么斐波那契数列第360项与第72项的和等于第216项与卢卡斯数列第144项的积?",
+      "url": "https://www.zhihu.com/answer/2039789638",
+      "summary": "正文利用斐波那契与卢卡斯数列恒等式证明题目。"
+    },
+    {
+      "title": "如何让普通人明白数学有多复杂？",
+      "url": "https://www.zhihu.com/answer/2156448395",
+      "summary": "正文以斐波那契数列通项展示简单问题背后的复杂数学。"
+    },
+    {
+      "title": "听说线性代数可以在高中降维打击数列、圆锥曲线，具体是怎么应用的？",
+      "url": "https://www.zhihu.com/answer/2317381369",
+      "summary": "正文以斐波那契递推为例子计算通项。"
+    },
+    {
+      "title": "球面如何均布49个点？",
+      "url": "https://www.zhihu.com/answer/2346304495",
+      "summary": "正文介绍斐波那契格点构造。"
+    },
+    {
+      "title": "数学中有哪些漂亮的无字证明？",
+      "url": "https://www.zhihu.com/answer/2364084413",
+      "summary": "正文介绍斐波那契递推、通项与黄金分割极限。"
+    },
+    {
+      "title": "诸如 {1，1，1，3，5，9，17，···} 三个数相加，即斐波那契数列的变式，存在通项公式吗？",
+      "url": "https://www.zhihu.com/answer/2449363025",
+      "summary": "正文把目标数列明确解释为斐波那契数列的推广。"
+    },
+    {
+      "title": "动画《魔法少女小圆》有哪些学科讨论？",
+      "url": "https://www.zhihu.com/answer/2458413000",
+      "summary": "正文明确给出斐波那契数列的初值、递推定义与通项公式。"
+    },
+    {
+      "title": "听说线性代数可以在高中降维打击数列、圆锥曲线，具体是怎么应用的？",
+      "url": "https://www.zhihu.com/answer/2520137944",
+      "summary": "以斐波那契数列为例，用生成函数求出通项公式。"
+    },
+    {
+      "title": "既然阶乘可以推广为Gamma函数，那么斐波那契数列能否推广到整个实数域（或是正实数）？",
+      "url": "https://www.zhihu.com/answer/2572465530",
+      "summary": "从斐波那契数列通项出发构造保持递推关系的解析延拓函数，并计算特殊值。"
+    },
+    {
+      "title": "你见过最有趣的数学笑话是什么？",
+      "url": "https://www.zhihu.com/answer/2634411440",
+      "summary": "用前两天的汤混成今天的汤来玩斐波那契递推梗。"
+    },
+    {
+      "title": "有序和无序之间有明确的界限吗？",
+      "url": "https://www.zhihu.com/answer/2664597227",
+      "summary": "用斐波那契数列说明准周期结构可由高维正方格子投影得到。"
+    },
+    {
+      "title": "怎么用特征根法和不动点法求数列的通项公式？",
+      "url": "https://www.zhihu.com/answer/2747848381",
+      "summary": "正文以斐波那契数列为例，通过特征根求其通项闭式。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2758779277",
+      "summary": "正文把黄金比例的最佳有理近似写成相邻斐波那契数之比，并据此得到逼近常数 1/√5。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/3139046983",
+      "summary": "正文具体讨论斐波那契相邻两项之比趋近黄金分割数，并尝试凑出以两个黄金分割共轭数为底的比内通项公式。"
+    },
+    {
+      "title": "哪些数学公式让你觉得真的会有「神明」存在？",
+      "url": "https://www.zhihu.com/answer/3432133721",
+      "summary": "正文定义斐波那契递推关系，给出通项公式，并讨论相邻项之比的极限。"
+    },
+    {
+      "title": "听说线性代数能够降维打击高中数学，是否有必要学？如何学？",
+      "url": "https://www.zhihu.com/answer/3522851829",
+      "summary": "正文给出斐波那契数列的递推式和通项公式，并用矩阵方法解决其通项问题。"
+    },
+    {
+      "title": "数学中的美体现在哪里?",
+      "url": "https://www.zhihu.com/answer/126249297277",
+      "summary": "正文以向日葵、松果和菠萝的螺旋数为例，说明斐波那契数列在自然结构中的呈现。"
+    },
+    {
+      "title": "数列求通项有万能的通法吗？",
+      "url": "https://www.zhihu.com/answer/1901034788556616430",
+      "summary": "正文给出斐波那契数列的递推式，并把它作为特征根法求通项公式的实例。"
+    },
+    {
+      "title": "数学之美有哪些具体的体现？",
+      "url": "https://www.zhihu.com/answer/1913678514625967808",
+      "summary": "正文用向日葵、松果和菠萝的螺旋数具体说明斐波那契数列在自然结构中的出现，并联系黄金分割。"
+    },
+    {
+      "title": "听说线性代数可以在高中降维打击数列、圆锥曲线，具体是怎么应用的？",
+      "url": "https://www.zhihu.com/answer/1976037648910026181",
+      "summary": "正文以斐波那契数列为例，从递推式出发推导其通项公式。"
+    },
+    {
+      "title": "在数学领域，2025年有哪些重大的突破？",
+      "url": "https://www.zhihu.com/answer/1989997619028697780",
+      "summary": "正文给出斐波那契数列的递推定义，并以随机木棍与三角形的变体问题说明该数列的具体应用。"
+    },
+    {
+      "title": "组合数学中的生成函数想法是怎么来的？",
+      "url": "https://www.zhihu.com/answer/2003061154155623677",
+      "summary": "以斐波那契数列的递推关系为例建立生成函数，并由其封闭形式提取通项。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/2031796378951754954",
+      "summary": "正文以斐波那契数列为主线，给出生成函数、部分分式分解并推出 Binet 通项公式。"
+    },
+    {
+      "title": "生成函数凭什么能优雅地解决组合问题？",
+      "url": "https://www.zhihu.com/answer/2037198447909017130",
+      "summary": "正文以 Fibonacci 递推为例，用生成函数把逐项递推转化为整体代数方程并求出封闭形式。"
+    },
+    {
+      "title": "10560 怎样在球面上「均匀」排列许多点？（上）",
+      "url": "https://zhuanlan.zhihu.com/p/25988652",
+      "summary": "正文用黄金分割比和相邻斐波那契数之比构造球面点阵，并借这些比值解释点阵的密集与混乱。"
+    },
+    {
+      "title": "10561 怎样在球面上「均匀」排列许多点？（下）",
+      "url": "https://zhuanlan.zhihu.com/p/25998937",
+      "summary": "正文以斐波那契数作为黄金分割比各阶有理逼近的分子和分母，解释点阵模式的切换。"
+    },
+    {
+      "title": "斐波那契数列的通项公式",
+      "url": "https://zhuanlan.zhihu.com/p/26679684",
+      "summary": "正文以斐波那契数列为例推导其通项公式，并列出极限、求和和计数等性质。"
+    },
+    {
+      "title": "不死神兔的繁衍生息——神奇的斐波那契数列",
+      "url": "https://zhuanlan.zhihu.com/p/26752744",
+      "summary": "正文从兔子繁殖问题引入斐波那契数列，介绍其定义、性质、通项与自然界中的出现。"
+    },
+    {
+      "title": "中学篇 No. 37：自然法则",
+      "url": "https://zhuanlan.zhihu.com/p/27306852",
+      "summary": "正文解释斐波那契数列的递推关系、相邻项比值极限，并说明它给出的黄金螺线只是近似。"
+    },
+    {
+      "title": "生成函数及应用",
+      "url": "https://zhuanlan.zhihu.com/p/31457805",
+      "summary": "正文把斐波那契递推写成生成函数，经部分分式展开和幂级数系数比较推导出Binet通项公式。"
+    },
+    {
+      "title": "时间序列的自回归模型—从线性代数的角度来看",
+      "url": "https://zhuanlan.zhihu.com/p/35093835",
+      "summary": "正文从 Fibonacci 递推式出发，通过矩阵对角化推导其通项公式。"
+    },
+    {
+      "title": "一元二次方程是毫无用处吗？Part I",
+      "url": "https://zhuanlan.zhihu.com/p/38717940",
+      "summary": "正文说明斐波那契数列的递推规律，并讨论相邻项之比趋近黄金比例及其通项。"
+    },
+    {
+      "title": "黄金分割的妙处 - 混乱博物馆",
+      "url": "https://zhuanlan.zhihu.com/p/40276029",
+      "summary": "正文用黄金分割连分数的逐节化简生成斐波那契数列，并用它解释植物叶序中的斐波那契模式。"
+    },
+    {
+      "title": "MIT—线性代数笔记22 对角化和矩阵的幂",
+      "url": "https://zhuanlan.zhihu.com/p/45916486",
+      "summary": "正文以斐波那契递推为实例，通过对应矩阵的特征值求数列的增长规律与通项近似。"
+    },
+    {
+      "title": "【洛谷日报#78】浅谈算法——博弈论（从零开始的博弈论）",
+      "url": "https://zhuanlan.zhihu.com/p/50787280",
+      "summary": "正文具体讨论Fibonacci数列在Fibonacci Nim中的判定作用，并用Zeckendorf分解说明策略。"
+    },
+    {
+      "title": "七大神秘的数学常数",
+      "url": "https://zhuanlan.zhihu.com/p/52480460",
+      "summary": "正文说明斐波那契数列相邻项之比趋近黄金分割 φ。"
+    },
+    {
+      "title": "高考数学二级结论——数列部分",
+      "url": "https://zhuanlan.zhihu.com/p/51663704",
+      "summary": "正文给出斐波那契数列的递推定义、通项公式以及奇数项、偶数项和前 n 项求和性质。"
+    },
+    {
+      "title": "面试官问你斐波那契数列的时候不要高兴得太早",
+      "url": "https://zhuanlan.zhihu.com/p/54378423",
+      "summary": "正文给出斐波那契数列的递推定义，并进一步讨论通项公式与多种求值方式。"
+    },
+    {
+      "title": "拯救数学恐惧症，这部数学教材像游戏一样，全彩色可交互简单易懂",
+      "url": "https://zhuanlan.zhihu.com/p/60534604",
+      "summary": "正文按月展示兔子繁衍，并给出第n个月数量等于前两个月数量之和的递推关系，实质讲解斐波那契数列。"
+    },
+    {
+      "title": "算法｜小学生都能看懂的生成函数入门教程",
+      "url": "https://zhuanlan.zhihu.com/p/63003976",
+      "summary": "正文以斐波那契数列为例推导其生成函数，并得到由黄金分割比表示的闭式通项。"
+    },
+    {
+      "title": "从零推导斐波那契数列的通项公式",
+      "url": "https://zhuanlan.zhihu.com/p/74484535",
+      "summary": "正文从斐波那契数列的定义出发，逐步推导其通项公式并给出显式表达式。"
+    },
+    {
+      "title": "斐波那契堆（一）：起源",
+      "url": "https://zhuanlan.zhihu.com/p/75014494",
+      "summary": "正文列出斐波那契数列并说明其相邻项构成关系，且后文以此构造斐波那契堆。"
+    },
+    {
+      "title": "斐波那契数列第一千万项怎么求",
+      "url": "https://zhuanlan.zhihu.com/p/98064307",
+      "summary": "正文围绕斐波那契数列的定义、相邻项关系和巨大项的快速计算展开。"
+    },
+    {
+      "title": "【数列】特征方程与特征根",
+      "url": "https://zhuanlan.zhihu.com/p/104596563",
+      "summary": "正文以斐波那契数列为例，利用特征方程和初值条件求出其通项公式。"
+    },
+    {
+      "title": "算法学习笔记(16): 生成函数",
+      "url": "https://zhuanlan.zhihu.com/p/106522599",
+      "summary": "正文用斐波那契数列的生成函数建立代数方程，再经部分分式展开推导其通项公式。"
+    },
+    {
+      "title": "你可能不知道隐藏在杨辉三角形中的 10 个秘密！",
+      "url": "https://zhuanlan.zhihu.com/p/146418524",
+      "summary": "正文给出从杨辉三角对角线求斐波那契数列前几项的方法。"
+    },
+    {
+      "title": "递归求斐波那契数列的时间复杂度，不要被网上的答案误导了",
+      "url": "https://zhuanlan.zhihu.com/p/256344121",
+      "summary": "正文给出斐波那契数列的递推关系、通项公式及其指数增长量级。"
+    },
+    {
+      "title": "递归求解斐波那契数列的时间复杂度——几种简洁证明",
+      "url": "https://zhuanlan.zhihu.com/p/257214075",
+      "summary": "正文以斐波那契数列为对象，分析直接递归计算并给出其黄金比例指数的紧界。"
+    },
+    {
+      "title": "把高中数列进阶知识点网罗殆尽",
+      "url": "https://zhuanlan.zhihu.com/p/254897042",
+      "summary": "正文以斐波那契数列为例说明二阶线性递推关系，并用特征根求其通项。"
+    },
+    {
+      "title": "2020 ICPC 上海赛区题解",
+      "url": "https://zhuanlan.zhihu.com/p/336649300",
+      "summary": "正文利用斐波那契数列模 2 的周期模式计算区间内的奇偶项个数。"
+    },
+    {
+      "title": "特征向量与特征值的意义(1)：发现矩阵内禀性质",
+      "url": "https://zhuanlan.zhihu.com/p/354102331",
+      "summary": "正文从斐波那契递推关系出发，用转移矩阵的特征值和黄金分割比求数列通项。"
+    },
+    {
+      "title": "被吹上天的特征根法到底怎么理解？",
+      "url": "https://zhuanlan.zhihu.com/p/359247415",
+      "summary": "正文以斐波那契数列为例，由递推关系和初值推导其通项公式。"
+    },
+    {
+      "title": "两道有趣的高中数学题",
+      "url": "https://zhuanlan.zhihu.com/p/396611508",
+      "summary": "正文把不许相邻正面的涂色计数化为斐波那契数列，并用递推、通项和组合数恒等式展开计算。"
+    },
+    {
+      "title": "斐波那契数列通项公式求解",
+      "url": "https://zhuanlan.zhihu.com/p/451617827",
+      "summary": "正文从兔子数列引入斐波那契数列，写出定义和前几项，并推导其通项公式。"
+    },
+    {
+      "title": "几部数学纪录片，让孩子爱上数学（附观看链接",
+      "url": "https://zhuanlan.zhihu.com/p/463020211",
+      "summary": "正文说明斐波那契数列的相邻项相加规则，并举出向日葵和松果中的实例。"
+    },
+    {
+      "title": "斐波那契数列的部分性质",
+      "url": "https://zhuanlan.zhihu.com/p/536818435",
+      "summary": "正文以斐波那契数列为主题，给出通项并系统整理求和、平方和、相邻项等性质。"
+    },
+    {
+      "title": "斐波那契数列（Fibonacci sequence）及相关结论",
+      "url": "https://zhuanlan.zhihu.com/p/588439015",
+      "summary": "正文从定义、通项和多项求和恒等式全面讲解斐波那契数列。"
+    },
+    {
+      "title": "害怕学数学，数学不开窍的孩子，可以狂刷这8部纪录片",
+      "url": "https://zhuanlan.zhihu.com/p/593307246",
+      "summary": "正文说明斐波那契数列的相邻项递推规律，并列举向日葵种子和松果中的自然实例。"
+    },
+    {
+      "title": "【极致性能】大概是知乎最快的斐波拉契快速求法（6秒求出fibo[10⁹]）+详细的原理讲解（使用快速递推而非快速幂）",
+      "url": "https://zhuanlan.zhihu.com/p/595987589",
+      "summary": "正文围绕斐波那契数列的递推、通项、矩阵快速幂和快速求值展开。"
+    },
+    {
+      "title": "递推关系求数列通项公式",
+      "url": "https://zhuanlan.zhihu.com/p/659391008",
+      "summary": "正文以斐波那契递推为例求特征根并推出 Binet 型通项公式。"
+    },
+    {
+      "title": "原来，偷偷做着“计算”的大自然会钟爱这样一组数……",
+      "url": "https://zhuanlan.zhihu.com/p/697757223",
+      "summary": "正文给出兔子繁殖模型、斐波那契数列的前若干项和递推公式，并讨论黄金比例与自然中的螺旋等应用。"
+    },
+    {
+      "title": "深入浅出数学系列 | 数列（3）：数列递推",
+      "url": "https://zhuanlan.zhihu.com/p/2690613176",
+      "summary": "正文以斐波那契递推为例，用特征根法完整推导其通项公式。"
+    },
+    {
+      "title": "生成函数,数列绝境中的一线生机",
+      "url": "https://zhuanlan.zhihu.com/p/6703330810",
+      "summary": "正文以Fibonacci数列为例，用生成函数推导其Binet型通项公式。"
+    }
+  ]
+}

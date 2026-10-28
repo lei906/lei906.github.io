@@ -1,0 +1,2681 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t8-b1",
+  "sources": [
+    {
+      "title": "从概率学和心理学层面上分析玩大话骰的攻略？",
+      "url": "https://www.zhihu.com/answer/22452797",
+      "summary": "正文围绕「从概率学和心理学层面上分析玩大话骰的攻略？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "组合数学入门，求书籍推荐？",
+      "url": "https://www.zhihu.com/answer/29835723",
+      "summary": "正文围绕“排列组合”给出说明、例证或方法。"
+    },
+    {
+      "title": "100个囚犯与100个抽屉的问题？",
+      "url": "https://www.zhihu.com/answer/35041211",
+      "summary": "正文用循环置换分析囚犯抽屉问题的策略与概率。"
+    },
+    {
+      "title": "排列与组合中，证明组合公式总为整数？",
+      "url": "https://www.zhihu.com/answer/36713878",
+      "summary": "正文证明连续自然数乘积可被相应阶乘整除，并用于组合数整数性。"
+    },
+    {
+      "title": "斗地主，出现王炸的概率是多少？",
+      "url": "https://www.zhihu.com/answer/39471333",
+      "summary": "正文通过大小王在发牌位置的排列数计算斗地主出现王炸的概率。"
+    },
+    {
+      "title": "如何评价组合数学的发展前景？",
+      "url": "https://www.zhihu.com/answer/41223173",
+      "summary": "正文概述组合数学方向与应用。"
+    },
+    {
+      "title": "一个立方体，每个面涂上黑色或白色，总共多少种不同的涂法？",
+      "url": "https://www.zhihu.com/answer/42108730",
+      "summary": "正文用 Burnside 定理解决立方体涂色计数。"
+    },
+    {
+      "title": "求问离散数学，组合数学，具体数学是不是说的一回事儿？",
+      "url": "https://www.zhihu.com/answer/44657772",
+      "summary": "正文界定组合数学与离散数学的范围，并说明具体数学是书名。"
+    },
+    {
+      "title": "怎么构造幻方，有什么三阶乃至四阶及以上n阶幻方的合成方法？",
+      "url": "https://www.zhihu.com/answer/45559012",
+      "summary": "正文给出奇阶、双偶阶与单偶阶幻方的构造规则。"
+    },
+    {
+      "title": "如何用两个骰子显示日历？",
+      "url": "https://www.zhihu.com/answer/46520983",
+      "summary": "正文以二骰子数字分配计算组合数并枚举本质不同方案。"
+    },
+    {
+      "title": "有没有办法使得十个人中至少六个人同时在场才能打开保险箱？",
+      "url": "https://www.zhihu.com/answer/46864692",
+      "summary": "正文利用组合数列举不同人员组合来构造门限方案。"
+    },
+    {
+      "title": "2n-1个数里，一定有n个数之和能被n整除？",
+      "url": "https://www.zhihu.com/answer/47109476",
+      "summary": "正文从2n-1个数中选择n个并按组合数计数。"
+    },
+    {
+      "title": "n个人排名，允许并列名次，共有多少种排名结果？",
+      "url": "https://www.zhihu.com/answer/47183882",
+      "summary": "正文用第二类斯特林数和生成函数进行组合计数。"
+    },
+    {
+      "title": "哪些数学定理在直觉上是对的，但证明起来很困难？",
+      "url": "https://www.zhihu.com/answer/47217838",
+      "summary": "正文讨论从N个对象中选M个时组合数必为整数。"
+    },
+    {
+      "title": "根据以下设定，山羊们能否穿过狭窄的隧道？",
+      "url": "https://www.zhihu.com/answer/51016446",
+      "summary": "正文通过交换次数、状态与对称求解山羊过隧道的组合问题。"
+    },
+    {
+      "title": "十二个乒乓球特征相同，其中只有一个重量异常，如何用一部没有砝码的天平称三次，将重量异常的球找出来?",
+      "url": "https://www.zhihu.com/answer/56291982",
+      "summary": "正文以三次称量的三种结果编码二十四种轻重情形。"
+    },
+    {
+      "title": "宇宙中有哪些超出常人想象的现象？",
+      "url": "https://www.zhihu.com/answer/68695243",
+      "summary": "正文以洗牌排列数说明组合计数规模。"
+    },
+    {
+      "title": "4D俄罗斯方块有多少种不同的基础模块？",
+      "url": "https://www.zhihu.com/answer/73311250",
+      "summary": "正文通过枚举、去重和等价变换计数基础模块。"
+    },
+    {
+      "title": "如何通俗的解释排列公式和组合公式的含义？",
+      "url": "https://www.zhihu.com/answer/76566608",
+      "summary": "正文分别定义排列和组合并用取球例子解释公式。"
+    },
+    {
+      "title": "「人一生中患重大疾病概率是 72%」,这一说法是真是假？如何理解？",
+      "url": "https://www.zhihu.com/answer/78686661",
+      "summary": "正文用组合数枚举两次疾病发生在不同年份的组合。"
+    },
+    {
+      "title": "美国强力球（PowerBall）彩票中奖概率是多少？",
+      "url": "https://www.zhihu.com/answer/81293859",
+      "summary": "正文用组合数枚举彩票号码和各奖级可能情况。"
+    },
+    {
+      "title": "有哪些知道后让你震惊的冷知识？",
+      "url": "https://www.zhihu.com/answer/89706456",
+      "summary": "正文用逐人排除重复生日的乘法计数计算生日悖论。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/100003445",
+      "summary": "正文展开集齐全部种类的组合概率问题，并给出收集轮数的计数思路。"
+    },
+    {
+      "title": "如何计算「一自称集齐 4 个血型的前女友的男性」的前女友的具体数量？",
+      "url": "https://www.zhihu.com/answer/103718034",
+      "summary": "正文使用容斥原理计算集齐四种血型的概率。"
+    },
+    {
+      "title": "一个台阶有n阶，一人每次可跳1,2……，最多一次跳n阶，问这个人跳上去有多少种跳法？（含n表达式）？",
+      "url": "https://www.zhihu.com/answer/104557363",
+      "summary": "正文把跳台阶方案与含 n-1 个元素集合的子集计数建立一一对应。"
+    },
+    {
+      "title": "有2n+1个实数，它们其中任意2n个数都可以等分成两组使两组数的和相等，证明这2n+1个数都相等？",
+      "url": "https://www.zhihu.com/answer/105672732",
+      "summary": "正文把行列式非零项计数转化为全错位排列问题并应用错排公式。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/116348707",
+      "summary": "正文用选两点、选四点的组合数推导圆分割份数。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/116474414",
+      "summary": "正文以生成函数计数列表与二叉树结构，属于枚举组合。"
+    },
+    {
+      "title": "拉马努金的成果影响到底有多大？是否被过誉了？",
+      "url": "https://www.zhihu.com/answer/116526883",
+      "summary": "正文解释计数组合、生成函数与算法分析之间的结构联系。"
+    },
+    {
+      "title": "怎样评价电影《知无涯者》？",
+      "url": "https://www.zhihu.com/answer/119381556",
+      "summary": "正文定义整数分拆函数并讲解分拆数的计算与渐近公式。"
+    },
+    {
+      "title": "如何给高中生解释群论？",
+      "url": "https://www.zhihu.com/answer/123680054",
+      "summary": "正文用四个不同小球的24种排列连接立方体对称群的阶。"
+    },
+    {
+      "title": "掷1000次硬币，出现连续十次（或以上）正面的概率是多少？",
+      "url": "https://www.zhihu.com/answer/124832929",
+      "summary": "正文把不出现连续十次正面的序列编码后计数。"
+    },
+    {
+      "title": "掷1000次硬币，出现连续十次（或以上）正面的概率是多少？",
+      "url": "https://www.zhihu.com/answer/125052966",
+      "summary": "正文把问题转化为有界正整数分拆与排列数量。"
+    },
+    {
+      "title": "有哪些数学问题有经典的物理学证明或解释？",
+      "url": "https://www.zhihu.com/answer/125933938",
+      "summary": "正文把菱形铺砌问题解释为组合数学与立体图形的结合。"
+    },
+    {
+      "title": "普通人对于现代数学各个分支的理解难度，从高到低排名是怎样的？",
+      "url": "https://www.zhihu.com/answer/126479989",
+      "summary": "正文解释组合计数与组合结构为何问题易懂而求解可使用高级工具。"
+    },
+    {
+      "title": "代数几何方法在组合中有哪些应用？",
+      "url": "https://www.zhihu.com/answer/126902200",
+      "summary": "正文定义 Ehrhart 多项式计算放大多胞形内整点数，属于组合计数。"
+    },
+    {
+      "title": "为什么莱布尼茨公式和二项式定理的公式在形式上相似?",
+      "url": "https://www.zhihu.com/answer/133906734",
+      "summary": "正文从每次选择对哪个因子求导来解释莱布尼茨公式中的组合数系数。"
+    },
+    {
+      "title": "动漫中有哪些让人印象深刻的数学理论?",
+      "url": "https://www.zhihu.com/answer/136525752",
+      "summary": "正文将灵魂交换问题表示为置换并分解为轮换，给出逐步恢复算法。"
+    },
+    {
+      "title": "到今天为止，数学都有那些分支？它们的联系又是什么？",
+      "url": "https://www.zhihu.com/answer/177087417",
+      "summary": "正文还从离散结构和约束极少的结构两个角度补充组合学的定义。"
+    },
+    {
+      "title": "有哪些高中教材不要求但高考解题时非常好用的知识？",
+      "url": "https://www.zhihu.com/answer/180880210",
+      "summary": "正文用“算两次”和补集法推导多个组合恒等式及概率公式。"
+    },
+    {
+      "title": "请问谁能提供一个简单的3因素实验设计方案吗？我想了很久都想不到。",
+      "url": "https://www.zhihu.com/answer/181795632",
+      "summary": "正文用组合计数推导全面试验与正交试验的次数，并解释正交表的均衡性。"
+    },
+    {
+      "title": "负数有没有阶乘，0 的阶乘为什么是 1？",
+      "url": "https://www.zhihu.com/answer/188024616",
+      "summary": "正文以空排列只有一种方式解释零阶乘为何等于 1。"
+    },
+    {
+      "title": "负二项分布为什么叫这个名字？“负”从何而来？",
+      "url": "https://www.zhihu.com/answer/191884048",
+      "summary": "正文展开负二项分布的二项式系数并变换为负参数形式。"
+    },
+    {
+      "title": "有哪些类似于七桥问题的有趣数学定理？",
+      "url": "https://www.zhihu.com/answer/205326072",
+      "summary": "正文介绍 Hales–Jewett 定理的组合学版本及纯组合证明。"
+    },
+    {
+      "title": "这张图中能数出多少个三角形？",
+      "url": "https://www.zhihu.com/answer/211624502",
+      "summary": "正文用从58个顶点任选3个的组合枚举三角形。"
+    },
+    {
+      "title": "如何通俗的解释排列公式和组合公式的含义？",
+      "url": "https://www.zhihu.com/answer/220622984",
+      "summary": "正文用分类计数原理逐步解释排列与组合递推公式。"
+    },
+    {
+      "title": "布丰用投针实验估计了 π 值，那么用什么简单方法可以估计自然对数的底数 e 的值？",
+      "url": "https://www.zhihu.com/answer/221873815",
+      "summary": "正文用情侣座位排列和容斥原理计算事件概率。"
+    },
+    {
+      "title": "如何评价《中国有嘻哈》第十二期（总决赛）？",
+      "url": "https://www.zhihu.com/answer/230937895",
+      "summary": "正文枚举平票所对应的组合情况并逐一配对。"
+    },
+    {
+      "title": "做数学不同方向的人各有什么特点？",
+      "url": "https://www.zhihu.com/answer/231248432",
+      "summary": "正文介绍组合学跨分支、重构造的特点。"
+    },
+    {
+      "title": "自然科学领域，什么样的研究才算是有「好品位」？",
+      "url": "https://www.zhihu.com/answer/234156386",
+      "summary": "正文梳理Szemerédi定理的组合证明路线。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/238174548",
+      "summary": "正文说明从多个角度重复计数能解决组合计数问题。"
+    },
+    {
+      "title": "如何计算「一自称集齐 4 个血型的前女友的男性」的前女友的具体数量？",
+      "url": "https://www.zhihu.com/answer/239699803",
+      "summary": "正文使用容斥形式计算至少出现各颜色的概率。"
+    },
+    {
+      "title": "圆桌上 1000 个人轮流开枪，最后活下来的是几号？",
+      "url": "https://www.zhihu.com/answer/255480334",
+      "summary": "正文通过约瑟夫环的循环淘汰结构求出 1000 人幸存位置。"
+    },
+    {
+      "title": "圆桌上 1000 个人轮流开枪，最后活下来的是几号？",
+      "url": "https://www.zhihu.com/answer/255904649",
+      "summary": "正文逐轮分析约瑟夫环的淘汰排列。"
+    },
+    {
+      "title": "一笔画n芒星（比如五角星、七角星）有什么规律?",
+      "url": "https://www.zhihu.com/answer/256267849",
+      "summary": "正文用欧拉函数计数满足条件的星形步长。"
+    },
+    {
+      "title": "圆桌上 1000 个人轮流开枪，最后活下来的是几号？",
+      "url": "https://www.zhihu.com/answer/257839264",
+      "summary": "正文通过约瑟夫环逐个淘汰位置计算幸存者。"
+    },
+    {
+      "title": "圆周上均匀分布的 n 个点互相连线可将圆分为多少块？",
+      "url": "https://www.zhihu.com/answer/259170402",
+      "summary": "正文用组合论耦合交点与边的计数关系。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/288221684",
+      "summary": "正文计算魔方状态数并说明对称分组与计算机穷举证明。"
+    },
+    {
+      "title": "将一副扑克（去掉大小王）围成一圈，使每相邻四张的和均为 28。若无解，如何证明？",
+      "url": "https://www.zhihu.com/answer/291603390",
+      "summary": "正文对扑克环排列作分组计数与构造分析。"
+    },
+    {
+      "title": "数字华容道有何解法？",
+      "url": "https://www.zhihu.com/answer/294967478",
+      "summary": "正文给出任意 n 阶数字推盘的分阶段构造并用排列奇偶性判定无解状态。"
+    },
+    {
+      "title": "数学研究者一般需要用到数学软件吗？",
+      "url": "https://www.zhihu.com/answer/307727235",
+      "summary": "正文说明辛几何不变量如何化为组合数学可计算复形。"
+    },
+    {
+      "title": "蜜蜂在蜂巢随机游走一百步后离原点的距离期望是多少？",
+      "url": "https://www.zhihu.com/answer/312234333",
+      "summary": "正文把多项展开的计算归结为有约束整数划分。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/317293119",
+      "summary": "正文通过珠子着色和项链旋转计数构造组合证明。"
+    },
+    {
+      "title": "圆周率里包含你的银行卡密码吗？",
+      "url": "https://www.zhihu.com/answer/329851843",
+      "summary": "正文用容斥原理展开未收集事件的概率。"
+    },
+    {
+      "title": "如何通俗的解释排列公式和组合公式的含义？",
+      "url": "https://www.zhihu.com/answer/333686947",
+      "summary": "正文定义排列与组合并逐步推导排列、组合计数公式。"
+    },
+    {
+      "title": "n 个平面最多把 3 维空间分成几个部分？",
+      "url": "https://www.zhihu.com/answer/339676165",
+      "summary": "正文把分割数写成二项式系数之和并使用组合恒等式。"
+    },
+    {
+      "title": "哪段代码最能代表程序员的暴力美学？",
+      "url": "https://www.zhihu.com/answer/357812235",
+      "summary": "正文逐项计算魔方状态数，属于计数组合应用。"
+    },
+    {
+      "title": "如何评价组合数学的发展前景？",
+      "url": "https://www.zhihu.com/answer/367219577",
+      "summary": "正文解释组合数学的研究风格、历史与现代分支。"
+    },
+    {
+      "title": "行列式的逆序数定义是怎么想出来的？",
+      "url": "https://www.zhihu.com/answer/368297107",
+      "summary": "正文定义排列、逆序与奇偶排列并用于计数展开。"
+    },
+    {
+      "title": "有哪些神奇的宇宙法则？",
+      "url": "https://www.zhihu.com/answer/378868133",
+      "summary": "正文用二项式系数计算各维超立方体的面数。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/379524015",
+      "summary": "正文讨论整数子集等差数列与稠密、稀疏结构的组合问题。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/389500338",
+      "summary": "正文通过二分编码与集合族构造讨论辨认两桶毒酒所需测试数。"
+    },
+    {
+      "title": "灭霸使用了什么样的随机数生成方法来保证公平？",
+      "url": "https://www.zhihu.com/answer/392552917",
+      "summary": "正文用随机排列和Fisher-Yates洗牌实现公平抽样并分析复杂度。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/393538170",
+      "summary": "正文讲解编号正方形摆放计数与置换双射。"
+    },
+    {
+      "title": "这种类型的组合恒等式该如何证明？",
+      "url": "https://www.zhihu.com/answer/400816127",
+      "summary": "正文用Gosper算法裂项证明组合恒等式。"
+    },
+    {
+      "title": "数学思维在生活中有多大用处？",
+      "url": "https://www.zhihu.com/answer/402739350",
+      "summary": "正文使用组合数计算多个骰子满足阈值的概率。"
+    },
+    {
+      "title": "有哪些一看就会，一做就错的数学题？",
+      "url": "https://www.zhihu.com/answer/412243395",
+      "summary": "正文多次利用二项式定理与组合数系数。"
+    },
+    {
+      "title": "陈景润是如何证明「1＋2」的？",
+      "url": "https://www.zhihu.com/answer/427089599",
+      "summary": "正文以集合容斥原理解释筛法的基本思想。"
+    },
+    {
+      "title": "如何评价 NOI2018？",
+      "url": "https://www.zhihu.com/answer/445463846",
+      "summary": "正文通过逆序对、括号序列和卡特兰数计数组合结构。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/459111173",
+      "summary": "正文通过棱块、角块的排列和约束计算魔方状态总数。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/478991799",
+      "summary": "正文完整证明六人中必有三人两两认识或两两不认识的组合命题。"
+    },
+    {
+      "title": "如何看待喜欢玩数独却连微积分都不会的人？",
+      "url": "https://www.zhihu.com/answer/479876019",
+      "summary": "正文用命题链和反证步骤展示数独中的组合推理。"
+    },
+    {
+      "title": "除了黎曼猜想，数学界还有哪些至今尚未得到证实的猜想？",
+      "url": "https://www.zhihu.com/answer/498542169",
+      "summary": "正文介绍Erdos-Turan等组合数学猜想及进展。"
+    },
+    {
+      "title": "除了黎曼猜想，数学界还有哪些至今尚未得到证实的猜想？",
+      "url": "https://www.zhihu.com/answer/500715691",
+      "summary": "正文介绍平面点集中的凸多边形组合问题。"
+    },
+    {
+      "title": "如何评价 4chan 网友讨论 2006 版凉宫春日动画观看顺序时给出了解决「最小超排列」难题线索？",
+      "url": "https://www.zhihu.com/answer/520635605",
+      "summary": "正文定义超排列为包含全部排列子串的短字符串，并给出上下界。"
+    },
+    {
+      "title": "如何看待科研 idea 相撞现象普遍？",
+      "url": "https://www.zhihu.com/answer/526276692",
+      "summary": "用组合计数计算生日碰撞概率，并类比科研想法相撞。"
+    },
+    {
+      "title": "数学史上有哪些比较著名的猜想因为有反例的存在而没有成为定理？",
+      "url": "https://www.zhihu.com/answer/532606339",
+      "summary": "全文研究包含所有排列的最短超排列序列。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/536955384",
+      "summary": "正文讨论从有限点集中选出凸 n 边形的组合存在性问题。"
+    },
+    {
+      "title": "哪位大神能用通俗的语言解释一下伯努利分布和二项分布的区别？",
+      "url": "https://www.zhihu.com/answer/541175752",
+      "summary": "正文用组合数计数多次伯努利试验中指定次数结果的情形。"
+    },
+    {
+      "title": "如何证明贝努利不等式？",
+      "url": "https://www.zhihu.com/answer/548370752",
+      "summary": "正文用二项式展开给出整数指数情形的证明。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/555259483",
+      "summary": "用状态计数、对称性约简和穷举计算说明魔方组合空间与最短步数。"
+    },
+    {
+      "title": "一个数的因数的个数怎么求？",
+      "url": "https://www.zhihu.com/answer/561546287",
+      "summary": "正文把各质因子指数的选择解释为组合计数。"
+    },
+    {
+      "title": "如何简洁地证明二次互反律？有哪些具体应用？",
+      "url": "https://www.zhihu.com/answer/563902029",
+      "summary": "将有限域非零元上的乘法置换分解为对换并比较符号。"
+    },
+    {
+      "title": "为什么规定 0 的阶乘为 1？",
+      "url": "https://www.zhihu.com/answer/582301328",
+      "summary": "从空排列和组合恒等式解释 0! 必须取 1。"
+    },
+    {
+      "title": "为什么正方体有十一种展开图？",
+      "url": "https://www.zhihu.com/answer/584695059",
+      "summary": "通过去重与枚举解释十一种展开图的计数。"
+    },
+    {
+      "title": "数学上有哪些非常奇葩的证明？",
+      "url": "https://www.zhihu.com/answer/599572636",
+      "summary": "正文用鸽巢原理证明六人中的 Ramsey 结论。"
+    },
+    {
+      "title": "有哪些可爱的情话句子？",
+      "url": "https://www.zhihu.com/answer/602582728",
+      "summary": "正文用组合数公式解释 I choose you 双关。"
+    },
+    {
+      "title": "如何通俗的解释排列公式和组合公式的含义？",
+      "url": "https://www.zhihu.com/answer/610713978",
+      "summary": "正文用例子系统解释排列组合公式。"
+    },
+    {
+      "title": "和女朋友在商场走丢了，随机乱逛和守在特定地点等候，哪个相遇的概率更高？",
+      "url": "https://www.zhihu.com/answer/617343687",
+      "summary": "正文用组合计数求 N 步到达各坐标的路径数。"
+    },
+    {
+      "title": "有面值1,5,10,20,50,100的人民币，求问10000有多少种组成方法？",
+      "url": "https://www.zhihu.com/answer/620254961",
+      "summary": "区分排列与无序组合，并按是否使用当前币种划分全部方案。"
+    },
+    {
+      "title": "历史上有哪些著名的数学定理在当时证明非常冗长，但是用现代的观点简洁明了？",
+      "url": "https://www.zhihu.com/answer/622223240",
+      "summary": "通过计数引理统计满足条件的三角形数量。"
+    },
+    {
+      "title": "有面值1,5,10,20,50,100的人民币，求问10000有多少种组成方法？",
+      "url": "https://www.zhihu.com/answer/623291786",
+      "summary": "把货币组成数转化为超平面整点与无序组合计数。"
+    },
+    {
+      "title": "什么是二项分布？",
+      "url": "https://www.zhihu.com/answer/623541016",
+      "summary": "用组合数统计五次成功在一百次试验中的位置安排。"
+    },
+    {
+      "title": "通俗地讲一讲排列跟组合的区别?",
+      "url": "https://www.zhihu.com/answer/626918188",
+      "summary": "通过是否考虑内部顺序区分排列与组合，并用乘法原理计数。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/631465139",
+      "summary": "发现差分塔系数组成杨辉三角并写成组合数。"
+    },
+    {
+      "title": "如何看待 Nature《科学家们起来反对统计显著性》一文，对统计意义的误解源头真的是 p 值吗？",
+      "url": "https://www.zhihu.com/answer/633033538",
+      "summary": "用组合数计算八次选择中恰好七次正确的情形数。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/637209699",
+      "summary": "利用组合恒等式、网格路径计数和范德蒙德恒等式推导求和关系。"
+    },
+    {
+      "title": "象棋中的概率问题：在有去除的拿去的情况下，以最优策略猜去除棋子的颜色，问最后得到猜测正确的期望？",
+      "url": "https://www.zhihu.com/answer/642802219",
+      "summary": "利用组合数恒等式化简递推解。"
+    },
+    {
+      "title": "群论解决问题的实例有哪些？",
+      "url": "https://www.zhihu.com/answer/645131488",
+      "summary": "用 Burnside 引理计算轨道数，从而计数不同三和弦。"
+    },
+    {
+      "title": "数学系离散数学专业的学生在做什么？",
+      "url": "https://www.zhihu.com/answer/647874370",
+      "summary": "系统区分计数、极值、代数与算数组合等组合数学方向。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/659046845",
+      "summary": "用抽屉原理证明有限对象中必有重复或同类结构。"
+    },
+    {
+      "title": "戊基、己基、庚基有多少种同分异构体？有什么规律么？",
+      "url": "https://www.zhihu.com/answer/661571148",
+      "summary": "用 Polya 计数计算烷基同分异构体数量。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/666859737",
+      "summary": "把六人中必有三人两两认识或两两不认识表述为拉姆塞数问题，并指出用抽屉原理证明。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/670271011",
+      "summary": "用抽屉原理证明四点中存在互为老师的一对。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/671088206",
+      "summary": "用补事件和乘法原理计算生日相同的组合概率。"
+    },
+    {
+      "title": "为什么部分学霸不情愿帮助同学回答问题？",
+      "url": "https://www.zhihu.com/answer/681627512",
+      "summary": "用组合数和加乘法原理统计抽球选法。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/690236556",
+      "summary": "用六人聚会问题讲解拉姆齐式组合论证。"
+    },
+    {
+      "title": "如何证明行列式的拉普拉斯定理？",
+      "url": "https://www.zhihu.com/answer/697867199",
+      "summary": "按排列与逆序数组织展开项符号。"
+    },
+    {
+      "title": "一盘围棋最多下多少步?",
+      "url": "https://www.zhihu.com/answer/698592571",
+      "summary": "用组合计数估计局面与路径数量。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/705200215",
+      "summary": "用鸽巢原理和生日问题展示组合计数。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/717444019",
+      "summary": "以组合数给出超平面分割空间的通式。"
+    },
+    {
+      "title": "十个人赛跑第一名和一百人赛跑的第十名，谁厉害？",
+      "url": "https://www.zhihu.com/answer/719761440",
+      "summary": "用组合数计算抽样最高名次的概率。"
+    },
+    {
+      "title": "数学界有哪些未解之谜？",
+      "url": "https://www.zhihu.com/answer/749207842",
+      "summary": "定义整数分拆并讨论其计数未解问题。"
+    },
+    {
+      "title": "为什么绝大部分人赌博必输？",
+      "url": "https://www.zhihu.com/answer/750282525",
+      "summary": "用组合数枚举抽牌事件。"
+    },
+    {
+      "title": "如何评价数学家让·布尔甘（Jean Bourgain）？",
+      "url": "https://www.zhihu.com/answer/754370722",
+      "summary": "讲解 Bourgain 在加法组合与和积现象上的工作。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/757384778",
+      "summary": "通过生日配对的排列组合计算生日悖论。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/759188438",
+      "summary": "正文用隔板法计数未击败怪物的伤害序列，得到组合数公式。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/763750893",
+      "summary": "用排列组合与第二类斯特林数推导幂和公式。"
+    },
+    {
+      "title": "一道奥林匹克数学竞赛题，如何解答？",
+      "url": "https://www.zhihu.com/answer/765727940",
+      "summary": "通过集合划分和二进制编码完成组合构造。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/772662477",
+      "summary": "以排列和环分解计算百囚徒策略成功概率。"
+    },
+    {
+      "title": "二维码是否会重复？能否用数学证明？",
+      "url": "https://www.zhihu.com/answer/774579467",
+      "summary": "以二元选择的乘法原理计算二维码数量。"
+    },
+    {
+      "title": "如何理解或是证明柯西-比内公式？",
+      "url": "https://www.zhihu.com/answer/781374335",
+      "summary": "通过选取子集与置换组织公式求和。"
+    },
+    {
+      "title": "圆内任取三点/四点在同一半圆内的概率是多少？",
+      "url": "https://www.zhihu.com/answer/783235268",
+      "summary": "对半径排列进行组合计数并推广到 n 点。"
+    },
+    {
+      "title": "圆内任取三点/四点在同一半圆内的概率是多少？",
+      "url": "https://www.zhihu.com/answer/789026122",
+      "summary": "通过互斥事件计数并推广到 n 点。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/791009946",
+      "summary": "用有限集上的对合证明平方和定理。"
+    },
+    {
+      "title": "为什么人工智能先打败象棋顶尖选手，再打败围棋顶尖选手，而不是反过来？",
+      "url": "https://www.zhihu.com/answer/794696940",
+      "summary": "正文用组合数计算信息集大小，并以组合计数估算桥牌和麻将的信息集规模。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/794760835",
+      "summary": "把平面六边形计数转化为立方体壳层计数。"
+    },
+    {
+      "title": "关于「围棋符合现规则终局的所有下法比宇宙中的原子还多」这一说法是怎么得出来的？",
+      "url": "https://www.zhihu.com/answer/798101271",
+      "summary": "正文以棋盘落子点数粗略估计围棋局面数量，属于基本组合计数。"
+    },
+    {
+      "title": "有哪些有趣的组合计数问题？",
+      "url": "https://www.zhihu.com/answer/801059050",
+      "summary": "正文定义最短超排列并通过 n 个元素的全部排列研究其最短长度。"
+    },
+    {
+      "title": "在一个球内任取n个点，则这n个点落在同一个半球内的概率是多少？",
+      "url": "https://www.zhihu.com/answer/803446188",
+      "summary": "正文把同半球事件转成分割球面区域的组合计数，并求出有效选法数。"
+    },
+    {
+      "title": "有哪些看起来很难但做起来很简单的数学题？",
+      "url": "https://www.zhihu.com/answer/804123623",
+      "summary": "正文用棋盘染色和奇偶计数证明多米诺与俄罗斯方块覆盖不可能。"
+    },
+    {
+      "title": "学好概率论有什么意义？",
+      "url": "https://www.zhihu.com/answer/804123870",
+      "summary": "正文枚举重复掷骰子的全部与失败情形，计算至少出现一次 6 的概率。"
+    },
+    {
+      "title": "数学上有哪些非常奇葩的证明？",
+      "url": "https://www.zhihu.com/answer/804123932",
+      "summary": "正文研究自描述数字序列和加法等于乘法的整数构型，属于组合计数与排列约束。"
+    },
+    {
+      "title": "在一个圆里随机取n个点，它们在同一个半圆的概率是多少？",
+      "url": "https://www.zhihu.com/answer/806321895",
+      "summary": "正文把随机点问题转化为有限选法计数，并计算满足公共半圆条件的选法数。"
+    },
+    {
+      "title": "关于「围棋符合现规则终局的所有下法比宇宙中的原子还多」这一说法是怎么得出来的？",
+      "url": "https://www.zhihu.com/answer/810671695",
+      "summary": "正文通过选择题解空间计算说明组合状态数的指数增长。"
+    },
+    {
+      "title": "数独卡住了...可是不想靠运气猜数，怎么解？",
+      "url": "https://www.zhihu.com/answer/810992719",
+      "summary": "正文通过候选数字在行、宫中的组合约束排除数独候选，属于组合计数与约束推理。"
+    },
+    {
+      "title": "关于「围棋符合现规则终局的所有下法比宇宙中的原子还多」这一说法是怎么得出来的？",
+      "url": "https://www.zhihu.com/answer/821311386",
+      "summary": "对围棋与文件、图像等状态数量作组合计数。"
+    },
+    {
+      "title": "数学界有哪些未解之谜？",
+      "url": "https://www.zhihu.com/answer/821885249",
+      "summary": "多个问题通过排列、标号和样本规模进行组合计数。"
+    },
+    {
+      "title": "你买过哪些好玩的玩具？",
+      "url": "https://www.zhihu.com/answer/860311655",
+      "summary": "从七巧板、拼图和魔方解释组合结构。"
+    },
+    {
+      "title": "《银河系漫游指南》里的 42 是什么意思？",
+      "url": "https://www.zhihu.com/answer/882991089",
+      "summary": "解释 42 与 Catalan 数、排列和组合计数的关系。"
+    },
+    {
+      "title": "如何理解动态规划？",
+      "url": "https://www.zhihu.com/answer/883302989",
+      "summary": "用路径计数等离散问题说明状态设计。"
+    },
+    {
+      "title": "有哪些分析的恒等式有很深刻的数学背景？",
+      "url": "https://www.zhihu.com/answer/884822591",
+      "summary": "通过置换、不动点和配对给出组合解释。"
+    },
+    {
+      "title": "从数学原理上说一说，葛立恒数、tree(3) 等数为什么那么大？",
+      "url": "https://www.zhihu.com/answer/885942447",
+      "summary": "通过受限树序列的最大长度说明极端增长。"
+    },
+    {
+      "title": "在信息学竞赛中，你见过哪些\"这都能AC!?\"的题?",
+      "url": "https://www.zhihu.com/answer/887115622",
+      "summary": "把排列后众数最大化转化为离散计数与求和。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/990415393",
+      "summary": "正文用生成函数证明整数划分的欧拉定理。"
+    },
+    {
+      "title": "有哪些人们知道结论却不知道原理的常识？",
+      "url": "https://www.zhihu.com/answer/991274504",
+      "summary": "正文解释二项式系数对应的组合计数。"
+    },
+    {
+      "title": "今天是2020年2月2日，千年一遇的对称日，有哪些适合发朋友圈的文案吗？",
+      "url": "https://www.zhihu.com/answer/995142991",
+      "summary": "正文通过日期限制与一一对应进行对称日期计数。"
+    },
+    {
+      "title": "像 20200202 这种完全对称，正反完全一样的公历日期，真的是一千年才能有一个吗？",
+      "url": "https://www.zhihu.com/answer/1003763266",
+      "summary": "正文分情况计数回文日期并汇总各世纪出现次数。"
+    },
+    {
+      "title": "现在你有n个黑珠，n个白珠（珠子不分序号），请问你能做出多少种不同的珠串？(用含n的式子表达并证明）？",
+      "url": "https://www.zhihu.com/answer/1005550268",
+      "summary": "正文用Burnside引理完整计数双色环形珠串。"
+    },
+    {
+      "title": "如何理解排列组合问题中的定序问题缩倍法？",
+      "url": "https://www.zhihu.com/answer/1027623019",
+      "summary": "正文通过排列总数除以固定次序数完成组合计数。"
+    },
+    {
+      "title": "为什么魔方做一系列有规律的动作最后永远会复原?",
+      "url": "https://www.zhihu.com/answer/1046815938",
+      "summary": "正文通过轮换长度与最小公倍数进行排列周期计数。"
+    },
+    {
+      "title": "怎么推导顺序统计量的分布函数？求证下图？",
+      "url": "https://www.zhihu.com/answer/1090118590",
+      "summary": "正文按样本中落入区间的个数进行组合计数并求和。"
+    },
+    {
+      "title": "如何对 0，0，0，0 进行运算得到 24？",
+      "url": "https://www.zhihu.com/answer/1092705747",
+      "summary": "正文从阶乘递推关系解释0阶乘的约定与组合意义。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1102516711",
+      "summary": "正文通过选择对跖点子集和骨牌覆盖计数解决组合问题。"
+    },
+    {
+      "title": "可以用概率解决排列组合吗？",
+      "url": "https://www.zhihu.com/answer/1112655089",
+      "summary": "正文用排列总数与事件概率推导多类排列组合计数。"
+    },
+    {
+      "title": "随机取牌算不出 24 点的概率是多少？",
+      "url": "https://www.zhihu.com/answer/1116445273",
+      "summary": "正文通过排列、运算符组合和括号结构穷举24点。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/1120584122",
+      "summary": "正文用排列数、组合数和二项式反演推导幂和公式。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/1130415557",
+      "summary": "正文用组合数写高阶差分和伯努利公式。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/1131930728",
+      "summary": "正文以组合数和二项式定理表示差分与求和。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1140536422",
+      "summary": "正文实质讲解cap set组合问题及多项式方法。"
+    },
+    {
+      "title": "1米*1米*1米*1米*1米等于什么？",
+      "url": "https://www.zhihu.com/answer/1146141329",
+      "summary": "正文用组合数公式计数高维超方体各维面。"
+    },
+    {
+      "title": "数学家 John Horton Conway 或因感染新型冠状病毒逝世，如何评价他一生的经历与贡献?",
+      "url": "https://www.zhihu.com/answer/1147674413",
+      "summary": "正文完整讲解棋盘跨越问题的组合不变量证明。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1151090556",
+      "summary": "正文解决俱乐部交集约束下的组合计数上界。"
+    },
+    {
+      "title": "高中数学学不好排列组合真的是智商限制吗？",
+      "url": "https://www.zhihu.com/answer/1175848893",
+      "summary": "正文区分排列组合中的分配与排序并举例。"
+    },
+    {
+      "title": "高中数学学不好排列组合真的是智商限制吗？",
+      "url": "https://www.zhihu.com/answer/1178439303",
+      "summary": "正文系统讲解排列组合中的分组、排序与去重计数。"
+    },
+    {
+      "title": "有没有高中老师不讲，但知道了做题很有用的技巧?",
+      "url": "https://www.zhihu.com/answer/1189179614",
+      "summary": "正文系统讲解分组计数与第二类斯特林数。"
+    },
+    {
+      "title": "二维码会不会有一天用完？",
+      "url": "https://www.zhihu.com/answer/1249871281",
+      "summary": "正文用黑白格组合数估算二维码的全部编码可能性。"
+    },
+    {
+      "title": "从总体N个中抽出n个，不考虑顺序的重复抽样数目，为什么是C （N+n-1，n）？",
+      "url": "https://www.zhihu.com/answer/1279740057",
+      "summary": "正文用插板法证明有重复组合数公式。"
+    },
+    {
+      "title": "重复组合怎么理解？",
+      "url": "https://www.zhihu.com/answer/1298833510",
+      "summary": "正文用隔板法推导重复组合公式。"
+    },
+    {
+      "title": "罗纳德·葛立恒（Ronald Graham）去世，享年 84 岁，如何评价他一生的贡献？",
+      "url": "https://www.zhihu.com/answer/1339998559",
+      "summary": "正文介绍葛立恒在离散数学和组合数学中的贡献。"
+    },
+    {
+      "title": "非常硬核的数学题，大家能否解出？",
+      "url": "https://www.zhihu.com/answer/1341791536",
+      "summary": "正文用组合计数计算糖果吃法的特殊值，再在 OEIS 中识别序列。"
+    },
+    {
+      "title": "高中数学竞赛中蕴含着怎样的大学数学?",
+      "url": "https://www.zhihu.com/answer/1347652047",
+      "summary": "正文以 Polya 计数原理说明竞赛组合计数与群作用。"
+    },
+    {
+      "title": "如何证明下面的整除关系成立？",
+      "url": "https://www.zhihu.com/answer/1371768768",
+      "summary": "正文用 Burnside 引理计算项链染色方案并证明整除关系。"
+    },
+    {
+      "title": "有哪些看起来很难但做起来很简单的数学题？",
+      "url": "https://www.zhihu.com/answer/1424244375",
+      "summary": "正文以七数取二的组合计数切入反证问题。"
+    },
+    {
+      "title": "所有整数都能用20个以内的汉字表达出来吗？",
+      "url": "https://www.zhihu.com/answer/1432346685",
+      "summary": "正文用有限汉字排列数量说明 20 字表达整数的信息上限。"
+    },
+    {
+      "title": "三位密码锁答对两位即可开锁，在最差情况下所需的最少次数是多少？",
+      "url": "https://www.zhihu.com/answer/1443595161",
+      "summary": "正文直接讲解或推导“排列组合”相关内容。"
+    },
+    {
+      "title": "所有整数都能用20个以内的汉字表达出来吗？",
+      "url": "https://www.zhihu.com/answer/1472287884",
+      "summary": "正文用汉字排列组合数量说明表达的有限性。"
+    },
+    {
+      "title": "一个醉汉，向前后左右走的概率都是25%，走了2n步后回到原点的概率怎么算？",
+      "url": "https://www.zhihu.com/answer/1476278769",
+      "summary": "正文直接给出与「排列组合」相关的解释、推导或应用。"
+    },
+    {
+      "title": "一个醉汉，向前后左右走的概率都是25%，走了2n步后回到原点的概率怎么算？",
+      "url": "https://www.zhihu.com/answer/1476422074",
+      "summary": "正文直接给出与「排列组合」相关的解释、推导或应用。"
+    },
+    {
+      "title": "学数学要怎样才可以把书中的定理全部推出来？",
+      "url": "https://www.zhihu.com/answer/1498312105",
+      "summary": "正文直接给出与「排列组合」相关的解释、推导或应用。"
+    },
+    {
+      "title": "现今组合数学中还没有被解决的问题有哪些？",
+      "url": "https://www.zhihu.com/answer/1517857583",
+      "summary": "正文列举Ramsey、Erdos-Hajnal等组合数学前沿问题。"
+    },
+    {
+      "title": "你在做物理或数学中的哪个科研方向？大致在研究什么？",
+      "url": "https://www.zhihu.com/answer/1524336665",
+      "summary": "正文说明研究极值、反问题和Ramsey问题属于组合数学。"
+    },
+    {
+      "title": "20 个圆和 20 条直线最多能把平面分成多少个部分？",
+      "url": "https://www.zhihu.com/answer/1529833661",
+      "summary": "正文直接讨论排列组合，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "如何计算n能被表示成四平方和的数量？",
+      "url": "https://www.zhihu.com/answer/1531135397",
+      "summary": "正文直接讨论排列组合，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "能否详细介绍一下英国的数学强校的各自特点与优势？",
+      "url": "https://www.zhihu.com/answer/1548573924",
+      "summary": "正文概览英国组合数学的强势方向和研究队伍。"
+    },
+    {
+      "title": "BILIBILI上有哪些优质的科普UP主？",
+      "url": "https://www.zhihu.com/answer/1559333008",
+      "summary": "正文区分竞赛组合与研究型组合数学并介绍组合数学方向。"
+    },
+    {
+      "title": "给你100亿美元，但条件是要先关在小黑屋里计算出拉姆齐数R(6,6)，你干不干？",
+      "url": "https://www.zhihu.com/answer/1638105688",
+      "summary": "正文以 Ramsey 数 R(6,6) 的有限候选区间构造机智枚举法。"
+    },
+    {
+      "title": "为什么离 n!/e 最近的整数是 n-1 的倍数？",
+      "url": "https://www.zhihu.com/answer/1644235878",
+      "summary": "正文从错排排列计数推导错排数。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/1648160560",
+      "summary": "正文通过高维乘积集合构造计数差异。"
+    },
+    {
+      "title": "怎样看待和评价陆家羲以及他这种现象？",
+      "url": "https://www.zhihu.com/answer/1654676219",
+      "summary": "正文介绍陆家羲在组合设计问题上的里程碑成果。"
+    },
+    {
+      "title": "以后想去基础数学专业，需要好的组合数学的基础吗？如果需要，求推荐教材？",
+      "url": "https://www.zhihu.com/answer/1676809456",
+      "summary": "正文讨论组合数学在基础数学研究中的作用。"
+    },
+    {
+      "title": "瞎扭还原魔方的概率是多少？",
+      "url": "https://www.zhihu.com/answer/1677038014",
+      "summary": "正文用组合计数估算魔方状态与复原概率。"
+    },
+    {
+      "title": "以后想去基础数学专业，需要好的组合数学的基础吗？如果需要，求推荐教材？",
+      "url": "https://www.zhihu.com/answer/1678623556",
+      "summary": "正文讨论组合技术在基础数学研究中的价值。"
+    },
+    {
+      "title": "以后想去基础数学专业，需要好的组合数学的基础吗？如果需要，求推荐教材？",
+      "url": "https://www.zhihu.com/answer/1680398739",
+      "summary": "正文讨论组合数学对基础数学研究的作用。"
+    },
+    {
+      "title": "如何解裴礼文里的这道题?",
+      "url": "https://www.zhihu.com/answer/1686366835",
+      "summary": "正文以二项式定理展开 sinh^n x，并推导含二项式系数的高阶导数恒等式。"
+    },
+    {
+      "title": "如何评价组合数学（combinatorics）这个学科？",
+      "url": "https://www.zhihu.com/answer/1700201126",
+      "summary": "正文评价组合数学学科及其排列组合方法。"
+    },
+    {
+      "title": "公考《行测》数量关系里面的“概率问题”怎么破？",
+      "url": "https://www.zhihu.com/answer/1703565985",
+      "summary": "正文用排列组合计数解决数量关系中的概率题。"
+    },
+    {
+      "title": "如何证明以下两个恒等式？",
+      "url": "https://www.zhihu.com/answer/1711035175",
+      "summary": "正文用双重计数法证明一个恒等式。"
+    },
+    {
+      "title": "排列组合的计算公式是什么？",
+      "url": "https://www.zhihu.com/answer/1722758268",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "如何用组合数学证明 (n²)! 能被 (n!)^(n＋1) 整除？",
+      "url": "https://www.zhihu.com/answer/1779654930",
+      "summary": "正文用组合数乘积直接证明整除关系。"
+    },
+    {
+      "title": "如何用组合数学证明 (n²)! 能被 (n!)^(n＋1) 整除？",
+      "url": "https://www.zhihu.com/answer/1779889297",
+      "summary": "正文把数论整除式改造成组合计数问题证明。"
+    },
+    {
+      "title": "如何用组合数学证明 (n²)! 能被 (n!)^(n＋1) 整除？",
+      "url": "https://www.zhihu.com/answer/1779992617",
+      "summary": "正文用球与盒子的组合计数证明整除性。"
+    },
+    {
+      "title": "如何用组合数学证明 (n²)! 能被 (n!)^(n＋1) 整除？",
+      "url": "https://www.zhihu.com/answer/1780054796",
+      "summary": "正文通过组合系数与连乘积完成整数性证明。"
+    },
+    {
+      "title": "双色球杀号概率多少,怎样计算?",
+      "url": "https://www.zhihu.com/answer/1807314774",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "在一个圆里随机取5个点，则这5个点在同一个半圆的概率是多少？",
+      "url": "https://www.zhihu.com/answer/1840023192",
+      "summary": "正文用夹角事件计数和凸包组合结构推导半圆概率。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/1858248627",
+      "summary": "正文分析三阶幻方的排列和数位组合性质。"
+    },
+    {
+      "title": "抽五张牌，选择并依次展示其中四张，能否猜出第五张牌？",
+      "url": "https://www.zhihu.com/answer/1900188833",
+      "summary": "正文利用四张牌的排列编码第五张牌的信息。"
+    },
+    {
+      "title": "这个交错群的子群有哪些？",
+      "url": "https://www.zhihu.com/answer/1907585703",
+      "summary": "正文用轮换分解和置换类型列举交错群元素。"
+    },
+    {
+      "title": "抽五张牌，选择并依次展示其中四张，能否猜出第五张牌？",
+      "url": "https://www.zhihu.com/answer/1908547041",
+      "summary": "正文用抽牌选择与四张牌排列编码第五张牌。"
+    },
+    {
+      "title": "抽五张牌，选择并依次展示其中四张，能否猜出第五张牌？",
+      "url": "https://www.zhihu.com/answer/1909376756",
+      "summary": "正文用抽牌分组和四张牌排列编码底牌。"
+    },
+    {
+      "title": "如何评价CCPC 2020 Final？",
+      "url": "https://www.zhihu.com/answer/1913672142",
+      "summary": "正文介绍排列模式与最长子序列算法题。"
+    },
+    {
+      "title": "有什么游戏精巧地利用了数学？",
+      "url": "https://www.zhihu.com/answer/1943806606",
+      "summary": "正文把魔方操作转化为置换群的组合分析。"
+    },
+    {
+      "title": "正二十面体有 43380 种不同的展开图，这是怎么求的？",
+      "url": "https://www.zhihu.com/answer/1953423440",
+      "summary": "正文组合计数生成树并处理群作用下的重复。"
+    },
+    {
+      "title": "如何评价 2021 阿里巴巴数学竞赛决赛试题？",
+      "url": "https://www.zhihu.com/answer/1964384096",
+      "summary": "正文用渐近计数和概率方法解决组合题。"
+    },
+    {
+      "title": "如何评价 2021 阿里巴巴数学竞赛决赛试题？",
+      "url": "https://www.zhihu.com/answer/1965266724",
+      "summary": "正文研究点集距离条件与组合上界。"
+    },
+    {
+      "title": "自己买了张双色球彩票，结果中了5个数字，差一个数字就可以得到十几万，你知道这种感觉吗？",
+      "url": "https://www.zhihu.com/answer/2011517909",
+      "summary": "正文用组合数计算彩票号码组合总数。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/2015884805",
+      "summary": "正文用组合数计算至少选定 m 人拿对帽子的概率。"
+    },
+    {
+      "title": "将n个身高互不相同的人按要求排成一排，有多少种排法？",
+      "url": "https://www.zhihu.com/answer/2065749261",
+      "summary": "正文用递推和计数解释交错排列数量。"
+    },
+    {
+      "title": "如何直观的感受葛立恒数？",
+      "url": "https://www.zhihu.com/answer/2092400855",
+      "summary": "正文用排列组合说明大数的组合爆炸。"
+    },
+    {
+      "title": "当数字华容道初始状态是取出来乱放的，是否会有无解？",
+      "url": "https://www.zhihu.com/answer/2095822236",
+      "summary": "正文用排列的逆序对奇偶性判断数字华容道可解性。"
+    },
+    {
+      "title": "有多少教材把排列组合的公式表示法写反了？",
+      "url": "https://www.zhihu.com/answer/2175839883",
+      "summary": "正文讨论组合数的不同符号记法及其教材差异。"
+    },
+    {
+      "title": "有多少教材把排列组合的公式表示法写反了？",
+      "url": "https://www.zhihu.com/answer/2176197930",
+      "summary": "正文把排列组合等符号写法差异解释为约定习惯。"
+    },
+    {
+      "title": "如果我能每天的第一局《英雄联盟》必赢，那我可以有多高的成就？",
+      "url": "https://www.zhihu.com/answer/2176590818",
+      "summary": "正文用二项式系数计算 BO3、BO5 系列赛胜率。"
+    },
+    {
+      "title": "第5题该怎么解决?",
+      "url": "https://www.zhihu.com/answer/2177021736",
+      "summary": "正文用组合数按模分类求和表达灯泡亮起概率。"
+    },
+    {
+      "title": "能不能出一道很难的数学题，答案是 1403，宿舍当门牌用？",
+      "url": "https://www.zhihu.com/answer/2265595053",
+      "summary": "正文包含以整数分割和乘积条件构造的组合计数问题。"
+    },
+    {
+      "title": "能不能出一道很难的数学题，答案是 504，当宿舍门牌用？",
+      "url": "https://www.zhihu.com/answer/2272794750",
+      "summary": "正文列出阶梯跨法、整数拆分和棋盘覆盖等计数问题。"
+    },
+    {
+      "title": "多集合容斥极值公式如何理解或者推导？",
+      "url": "https://www.zhihu.com/answer/2279937364",
+      "summary": "正文通过交集最小值和计数关系推导多集合容斥极值公式。"
+    },
+    {
+      "title": "(a+b)!/(a!b!) 的结果一定是整数吗？如果是，如何证明？",
+      "url": "https://www.zhihu.com/answer/2318025716",
+      "summary": "正文把二项式系数解释为两类对象全排列的组合计数。"
+    },
+    {
+      "title": "(a+b)!/(a!b!) 的结果一定是整数吗？如果是，如何证明？",
+      "url": "https://www.zhihu.com/answer/2329270167",
+      "summary": "正文讨论二项式系数恒为整数。"
+    },
+    {
+      "title": "如何看待上海一城管为全球数学竞赛出题？你身边有哪些隐藏的「数学大神」？",
+      "url": "https://www.zhihu.com/answer/2392618582",
+      "summary": "正文以数学爱好者交流经验说明排列组合在训练思维和计算机应用中的价值。"
+    },
+    {
+      "title": "600 个人站一排，每次随机淘汰一个奇数位的人，几号最安全？",
+      "url": "https://www.zhihu.com/answer/2434797316",
+      "summary": "正文用轮次筛选计数和组合数给出各位置留存概率。"
+    },
+    {
+      "title": "高中计数原理怎么学好?",
+      "url": "https://www.zhihu.com/answer/2437309584",
+      "summary": "正文从乘法原理和加法原理系统推导排列组合与二项式定理。"
+    },
+    {
+      "title": "能不能出一道很难的数学题，答案是 504，当宿舍门牌用？",
+      "url": "https://www.zhihu.com/answer/2444850017",
+      "summary": "正文用组合数扣除不符合条件的三角形，直接计算图中三角形数量。"
+    },
+    {
+      "title": "如何评价 2022 阿里巴巴数学竞赛题目？",
+      "url": "https://www.zhihu.com/answer/2457683141",
+      "summary": "随机游走估计中使用二项式系数的最值与计数估计。"
+    },
+    {
+      "title": "用足够多的 1 分，2 分和 5 分硬币凑出 1 元钱，一共有多少种方法？",
+      "url": "https://www.zhihu.com/answer/2492131289",
+      "summary": "正文用生成函数和系数展开计算硬币组合的计数。"
+    },
+    {
+      "title": "2022年度邵逸夫奖已经揭晓，谁能介绍一下数学科学奖的两位得主？",
+      "url": "https://www.zhihu.com/answer/2501051051",
+      "summary": "正文系统列举极值组合、概率方法与组合构造方面的贡献。"
+    },
+    {
+      "title": "24点游戏里有哪些非常难算的题目？",
+      "url": "https://www.zhihu.com/answer/2503005870",
+      "summary": "正文用可重复组合公式计算四张牌的点数组合数，并据此统计 24 点游戏的有解率。"
+    },
+    {
+      "title": "一副牌洗一遍，位置没发生变化的张数，数学期望是多少？",
+      "url": "https://www.zhihu.com/answer/2507171446",
+      "summary": "正文把洗牌建模为带环结构的排列，并按固定环的尺寸分析排列。"
+    },
+    {
+      "title": "一副牌洗一遍，位置没发生变化的张数，数学期望是多少？",
+      "url": "https://www.zhihu.com/answer/2507313980",
+      "summary": "正文从随机排列中单张牌落在原位的概率出发讨论洗牌问题。"
+    },
+    {
+      "title": "中国数学相比与西方数学为什么会处于劣势？",
+      "url": "https://www.zhihu.com/answer/2538525993",
+      "summary": "用分治乘法计数非结合乘积的加括号方式，属于组合计数。"
+    },
+    {
+      "title": "如何用组合数学证明 (n²)! 能被 (n!)^(n＋1) 整除？",
+      "url": "https://www.zhihu.com/answer/2576271622",
+      "summary": "用 n×n 方阵的排列计数证明 (n²)! 可被 (n!)^(n+1) 整除。"
+    },
+    {
+      "title": "100 瓶水其中有一瓶有毒，用老鼠试毒老鼠试后 7 天会死掉，需要多少只老鼠才能试出哪瓶水有毒？",
+      "url": "https://www.zhihu.com/answer/2607021815",
+      "summary": "把 100 瓶水编码成 7 位二进制，通过老鼠的子集组合一次性确定毒水。"
+    },
+    {
+      "title": "如何理解 π⁴+π⁵≈e⁶？",
+      "url": "https://www.zhihu.com/answer/2617984216",
+      "summary": "用字符排列组合数量估计随机撞上高精度近似的概率。"
+    },
+    {
+      "title": "数列1到n的任意次方的求和公式是否存在？",
+      "url": "https://www.zhihu.com/answer/2619524466",
+      "summary": "利用二项式系数与杨辉三角展开差分并整理求和公式。"
+    },
+    {
+      "title": "组合数学有没有高等工具？",
+      "url": "https://www.zhihu.com/answer/2642586071",
+      "summary": "系统列举组合数学中的正则引理、概率方法、容器方法与代数构造等工具。"
+    },
+    {
+      "title": "有没有不靠公式拼好魔方的神人？",
+      "url": "https://www.zhihu.com/answer/2644507887",
+      "summary": "用角块与棱块的排列、旋转状态计数分析魔方复原。"
+    },
+    {
+      "title": "计算机专业有必要学好离散数学吗？",
+      "url": "https://www.zhihu.com/answer/2667298886",
+      "summary": "正文说明组合数学为算法提供常用工具，并将其视为动态规划等算法的思想来源。"
+    },
+    {
+      "title": "导数最早在明朝王文素算学宝鉴，为什么所有的教材都不提，而将一切归功于牛顿莱布尼茨？",
+      "url": "https://www.zhihu.com/answer/2684862848",
+      "summary": "正文以非结合乘法加括号和凸多边形三角剖分为组合计数对象，建立Catalan数的计数模型。"
+    },
+    {
+      "title": "n个编号小球放入n个编号盒子里，无空盒，小球编号与盒子编号都不相同，有多少种放法？",
+      "url": "https://www.zhihu.com/answer/2698903777",
+      "summary": "正文围绕无固定点全排列定义错排，并推导错排数的公式与计数关系。"
+    },
+    {
+      "title": "六年级女儿的一道数学题，我和老师的观点不一致，请问正确答案到底是什么？",
+      "url": "https://www.zhihu.com/answer/2766452381",
+      "summary": "正文把所有乘客的排列作为分摊依据，对加入某位乘客造成的成本增量取平均，并证明各人平均成本之和等于总成本。"
+    },
+    {
+      "title": "如何理解概率测度？",
+      "url": "https://www.zhihu.com/answer/2791937366",
+      "summary": "正文用容斥原理计数排列中的固定点，并通过排列数计算说明这一组合计数思想。"
+    },
+    {
+      "title": "「一度辍学的数学差生」韩裔数学家许埈珥获得 2022 年菲尔兹奖，这带来哪些启示？",
+      "url": "https://www.zhihu.com/answer/2809800846",
+      "summary": "正文用逐点选择并相乘的方法计算三角形在三种颜色下的着色方案数，并推广到n种颜色。"
+    },
+    {
+      "title": "所有整数都能用20个以内的汉字表达出来吗？",
+      "url": "https://www.zhihu.com/answer/2874391901",
+      "summary": "正文用 100000 个候选汉字的排列 A_{100000}^{20} 及长度 1 到 20 的求和，计算二十个以内汉字可组成的有限字符串总数。"
+    },
+    {
+      "title": "扫雷高级出现8的概率是多少?",
+      "url": "https://www.zhihu.com/answer/2902797580",
+      "summary": "正文把扫雷单格出现 8 的事件转化为无放回选取与有序排列计数来估算概率。"
+    },
+    {
+      "title": "有没有“代数组合”这样的分支？如果有，主要是研究什么？",
+      "url": "https://www.zhihu.com/answer/2931339552",
+      "summary": "正文用半标准杨表和权重计数给出 Schur 多项式的组合展开，具体体现了组合计数方法。"
+    },
+    {
+      "title": "有没有人看完了各种葛立恒数比较类问题之后，感觉宇宙也没有想象的大？",
+      "url": "https://www.zhihu.com/answer/2956106631",
+      "summary": "正文以围棋走法说明阶乘与排列组合的增长可超过指数增长，属于对组合计数增长方式的讨论。"
+    },
+    {
+      "title": "多项式的牛顿公式证明思路是怎样的？",
+      "url": "https://www.zhihu.com/answer/2992017343",
+      "summary": "正文用初等对称和、整数分拆以及多重集排列计数推导幂和的直接公式。"
+    },
+    {
+      "title": "11的4次方是14641，与生物学性状分离比的1:4:6:4:1，两者有关系吗？",
+      "url": "https://www.zhihu.com/answer/3025443416",
+      "summary": "正文用生成函数的各次项系数计算有限重数物品的组合方案数，并给出具体计数问题。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/3037373448",
+      "summary": "证明把目标常数项与 multinomial 组合数及其递推关系对应起来。"
+    },
+    {
+      "title": "阿里巴巴全球数学竞赛参赛选手95后快递小哥，曾用两周证明欧拉常数公式，你身边有这样的数学隐藏高手吗？",
+      "url": "https://www.zhihu.com/answer/3059627982",
+      "summary": "正文统计由 a 种数字组成、长度为 p 的全部数组，并按最短循环节与轮换轨道分类计数。"
+    },
+    {
+      "title": "N个相同的球，放入M个相同的盒子中（n大于m），允许有盒子为空，请问有多少种方法？不允许盒子为空呢？",
+      "url": "https://www.zhihu.com/answer/3185502845",
+      "summary": "正文把相同球放入相同盒子的方法建模为整数分拆，并讨论允许与不允许空盒的计数。"
+    },
+    {
+      "title": "为什么国内的大学教材很难懂？",
+      "url": "https://www.zhihu.com/answer/3195065043",
+      "summary": "正文具体分析球盒问题的参数记法和司特林数教学，说明组合计数公式中符号混用造成的理解困难。"
+    },
+    {
+      "title": "考验一下网友文笔，可以用「至少有那么一秒」造句吗？",
+      "url": "https://www.zhihu.com/answer/3198343129",
+      "summary": "正文把一分钟分成六十秒，并用抽屉原理说明六十一颗葡萄必有两颗落入同一秒，具体展示了组合存在性推理。"
+    },
+    {
+      "title": "8 月全国彩票销售增长 53.6%，前八月彩票销售超3700 亿，增长 51.6%，哪些信息值得关注？",
+      "url": "https://www.zhihu.com/answer/3228143685",
+      "summary": "正文以逐一购买全部双色球组合估算总投注额和中奖总额，实质使用排列组合计数。"
+    },
+    {
+      "title": "请问组合学、图论乃至离散数学领域的国内外知名学者有哪些？",
+      "url": "https://www.zhihu.com/answer/3235342104",
+      "summary": "正文介绍组合学者在概率方法、随机结构和拉姆齐理论等组合学方向的研究。"
+    },
+    {
+      "title": "如果各个学科都有各自的一个底层逻辑，它们分别会是什么？",
+      "url": "https://www.zhihu.com/answer/3258418637",
+      "summary": "正文区分排列与组合，并用双色球号码计数说明组合数与中奖概率的计算。"
+    },
+    {
+      "title": "高中数学数列裂项相消的常见公式有哪些？",
+      "url": "https://www.zhihu.com/answer/3264028587",
+      "summary": "正文给出组合数恒等式并用于含组合数型裂项，实质涉及排列组合。"
+    },
+    {
+      "title": "小学奥数可以难到什么程度？",
+      "url": "https://www.zhihu.com/answer/3271730969",
+      "summary": "正文通过逐步选择各质因子的指数，并用乘法原理合并选择方案数，解释一个整数的因数个数公式。"
+    },
+    {
+      "title": "中国福彩客服回应 2.2 亿巨奖为一人独中，无内幕，购买记录属隐私，哪些信息值得关注？",
+      "url": "https://www.zhihu.com/answer/3316890054",
+      "summary": "正文给出组合数定义与阶乘公式，并用C(20,k)C(60,m-k)计算不同命中数对应的投注组合数。"
+    },
+    {
+      "title": "「知乎杯」数学考试来啦！来测测你的数学水平是哪一级（小学/初中/高中）？",
+      "url": "https://www.zhihu.com/answer/3429505069",
+      "summary": "正文用错排公式求和计算至少一人拿到自己帽子的概率，展开排列组合计数。"
+    },
+    {
+      "title": "最多可以找到几阶的汉字正交拉丁方阵？",
+      "url": "https://www.zhihu.com/answer/3440686119",
+      "summary": "正文从拉丁方的行列约束和正交叠合出发，讨论其存在阶数与组合构造，属于组合计数与组合设计。"
+    },
+    {
+      "title": "为何从一元五次方程开始就没有由有限次加、减、乘、除、开方运算构成的求根公式了？",
+      "url": "https://www.zhihu.com/answer/3442323646",
+      "summary": "正文用根的所有排列及其不同取值数量解释阿贝尔和伽罗瓦的计数思想。"
+    },
+    {
+      "title": "我一直很好奇，高中数学考试每次145+的人怎么做到的？",
+      "url": "https://www.zhihu.com/answer/3470526785",
+      "summary": "正文具体讲解加法与乘法原理，并据排列和组合说明计数公式及二项式定理。"
+    },
+    {
+      "title": "一个魔方还原了两层，那么它属于还原了六分之一还是三分之二?",
+      "url": "https://www.zhihu.com/answer/3478267062",
+      "summary": "正文用棱块、角块的排列数、方向数和合法性约束除以重复计数，计算三阶魔方的总状态数。"
+    },
+    {
+      "title": "什么是真正的数学思维？",
+      "url": "https://www.zhihu.com/answer/3520018472",
+      "summary": "正文通过逐步增加射线并累加新增角数，实质讲解了有限情形的组合计数方法。"
+    },
+    {
+      "title": "大家的大学宿舍关系怎么样？",
+      "url": "https://www.zhihu.com/answer/3530589380",
+      "summary": "正文用组合计数分别计算两人、三人和四人可形成的群聊数并求和，是排列组合的具体应用。"
+    },
+    {
+      "title": "如何评价 2024 年阿里全球数学竞赛决赛试题？难度怎么样？",
+      "url": "https://www.zhihu.com/answer/3539140392",
+      "summary": "正文把满足商空间维数条件的单项式理想计数转化为六元集合划分数的组合计数。"
+    },
+    {
+      "title": "有没有哪些数学题的某一步处理堪称神来之笔？",
+      "url": "https://www.zhihu.com/answer/3549091740",
+      "summary": "正文通过子集和互不相同保证点集无重复，再用组合数分别计数二元和与三元和。"
+    },
+    {
+      "title": "有哪些看起来很简单但做起来很难的数学题？",
+      "url": "https://www.zhihu.com/answer/3584475919",
+      "summary": "正文以多边形染色、项链和正多面体染色为例，说明旋转或翻转视为同一方案时可用组合计数方法处理。"
+    },
+    {
+      "title": "为什么有的人怎么努力也学不好高中数学？",
+      "url": "https://www.zhihu.com/answer/3585538740",
+      "summary": "正文具体解释加法原理、乘法原理、排列数和组合数之间的关系，属于排列组合计数方法。"
+    },
+    {
+      "title": "1、2、3、4、5、6、7、8、9、10这10个数字中任取4个不同的数，用加减乘除都能算出24吗？",
+      "url": "https://www.zhihu.com/answer/3634624003",
+      "summary": "正文将 24 点问题的穷举数拆成取法、排列、运算符组合和计算顺序的计数，核心使用了组合与排列。"
+    },
+    {
+      "title": "哪个方向是当前数学界最热门的方向？",
+      "url": "https://www.zhihu.com/answer/3691086522",
+      "summary": "正文把组合数学解释为连接抽象数学与具体组合问题、初等工具的桥梁，并说明其实质价值。"
+    },
+    {
+      "title": "有没有什么东西画完三视图还没办法确定的?",
+      "url": "https://www.zhihu.com/answer/21063414757",
+      "summary": "正文按相邻切段不能相同的选择规则，推出 n 截烤串后续形状共有 2^{n-1}-2 种，属于组合计数。"
+    },
+    {
+      "title": "2025 这个数字在数学有什么特别之处，为什么？",
+      "url": "https://www.zhihu.com/answer/68685239587",
+      "summary": "正文定义 n 皇后互不攻击的放置约束，并以环形半皇后问题在 9×9 棋盘上的 2025 种合法放置作为核心计数结论。"
+    },
+    {
+      "title": "甲乙比赛，甲已经赢了31局，乙已经赢了48局，谁先赢100局就获胜，预测甲乙最终获胜概率分别是多少？",
+      "url": "https://www.zhihu.com/answer/116505837125",
+      "summary": "正文按获胜前的最后一局拆分比赛路径，用组合数统计达到指定胜负所需的所有路径并求和概率。"
+    },
+    {
+      "title": "中学数学题的「隐藏 BOSS」，你在哪些题里窥见了大学数学的影子？",
+      "url": "https://www.zhihu.com/answer/124219636719",
+      "summary": "正文以置换群和排序选择为入口，具体说明全排列的构造与 4! 计数，再用于测试偏离程度。"
+    },
+    {
+      "title": "最短的路径一定是直线吗？",
+      "url": "https://www.zhihu.com/answer/126681682864",
+      "summary": "正文把最短路线与黑白球排列同构，并用二项式系数求出所有最短路径的条数。"
+    },
+    {
+      "title": "感觉排列组合难，该怎么样才能理解透彻？",
+      "url": "https://www.zhihu.com/answer/128659950007",
+      "summary": "正文从加法原理和乘法原理出发，具体推导排列数、全排列、组合数及组合恒等式。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/130205700454",
+      "summary": "正文用54张牌的阶乘计数说明全部排列数量，并进一步估计随机洗牌命中新排列的概率。"
+    },
+    {
+      "title": "高中排列组合的问题？",
+      "url": "https://www.zhihu.com/answer/1889611965124551692",
+      "summary": "正文按球和盒子是否可区分、是否允许空盒系统列举十二种球盒分配方案，并给出排列数、组合数、分拆数及Stirling数。"
+    },
+    {
+      "title": "目前数学的符号体系有多混乱？",
+      "url": "https://www.zhihu.com/answer/1895323045222151693",
+      "summary": "正文用括号记号说明从 a 个元素中取 b 个的组合数，并另举循环置换与轮换的例子。"
+    },
+    {
+      "title": "如何评价 2025 高考数学试卷？今年题目难度如何？有哪些变化？",
+      "url": "https://www.zhihu.com/answer/1914728605256230350",
+      "summary": "正文用二项式系数计算平局相关情形的计数，在概率递推与不等式证明中展开组合计数。"
+    },
+    {
+      "title": "一个魔方还原了两层，那么它属于还原了六分之一还是三分之二?",
+      "url": "https://www.zhihu.com/answer/1917197303690794976",
+      "summary": "正文用角块与棱块的排列数及朝向约束计算魔方各阶段状态数，属于排列组合应用。"
+    },
+    {
+      "title": "（已解决）怎么证明或证伪这个等式？",
+      "url": "https://www.zhihu.com/answer/1922993348458845755",
+      "summary": "正文以二项式系数构成交错和，并通过恒等变形证明它等于调和和，实质处理了组合恒等式。"
+    },
+    {
+      "title": "有哪些数学难题是用穷举法证明出来的？",
+      "url": "https://www.zhihu.com/answer/1925368453893694606",
+      "summary": "正文介绍六阶正交拉丁方的手工枚举证明，以排除对称后的候选数量说明有限组合空间的穷举规模及最终存在性结论。"
+    },
+    {
+      "title": "如何看待杭州夫妻生出黑人，12次亲子鉴定都为亲生？",
+      "url": "https://www.zhihu.com/answer/1930949465772111248",
+      "summary": "正文构造“是、夫、妻、非”样本池，按12的约数分组并设置分组互斥条件，实际讨论了有限样本的组合分配与公平分组。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/1934783761804947875",
+      "summary": "正文通过统计非空子集数量并把子集和映射到有限个余数，讨论凑整子集为何大量存在。"
+    },
+    {
+      "title": "用4个完全相同的长方体，能拼出多少种不同的长方体？",
+      "url": "https://www.zhihu.com/answer/1941098672172565582",
+      "summary": "正文用质因数分配和隔板法计算四块长方体及一般个数拼成大长方体的方案数。"
+    },
+    {
+      "title": "网课老师说听懂扣 666，我扣√443556 或 ³√295408296，有错吗？",
+      "url": "https://www.zhihu.com/answer/1942286315715551849",
+      "summary": "正文解释二项式系数表示从37个不同元素中选2个的组合方法数，并给出37人分组或商品搭配的直观例子。"
+    },
+    {
+      "title": "请问这个积分要用什么方法计算？",
+      "url": "https://www.zhihu.com/answer/1950523313416807972",
+      "summary": "正文以二项式系数、范德蒙德恒等式等组合恒等式变换证明李善兰恒等式的离散情形。"
+    },
+    {
+      "title": "24点有多少种无解的情况？",
+      "url": "https://www.zhihu.com/answer/1953115298069714277",
+      "summary": "正文按重复数字个数分类计算四张牌的组合数，并用挡板法重新计数，还展开排列与运算顺序的枚举。"
+    },
+    {
+      "title": "房间内有 100 人，每人有 100 块，每分钟随机给另一个人 1 块，最后房间内的财富分布怎样？",
+      "url": "https://www.zhihu.com/answer/1962182873164543991",
+      "summary": "正文用 N! 除以各组人数阶乘的排列数公式，计算给定财富分布对应的微观态数量。"
+    },
+    {
+      "title": "大家是如何理解组合数学的？",
+      "url": "https://www.zhihu.com/answer/1963538558267692653",
+      "summary": "正文从有限集上的结构和具体组合结构解释组合数学的研究对象，并延伸到图、杨表和拟阵。"
+    },
+    {
+      "title": "为什么规定0!=1，0的阶乘不是应该是0吗，为什么教科书上规定是1，而且不给出任何理由？",
+      "url": "https://www.zhihu.com/answer/1977300998381924720",
+      "summary": "正文用从 n 个元素中无序选取 k 个元素的计数公式，说明 0! 在组合数公式中的取值要求。"
+    },
+    {
+      "title": "同时抛20枚六面骰子，至少有5枚掷出的点数相同的概率是多少？",
+      "url": "https://www.zhihu.com/answer/1979985115670157256",
+      "summary": "正文用对立事件计数、多项式系数和生成函数计算二十枚骰子中至少五枚同点数的排列组合概率。"
+    },
+    {
+      "title": "甲有101个硬币，乙有100个硬币，两人随机撒在地面上，甲比乙正面朝上多的概率是多少？",
+      "url": "https://www.zhihu.com/answer/1985018883988551491",
+      "summary": "正文把202次投掷的有利结果化为组合数求和，并利用二项式系数的对称性完成计数。"
+    },
+    {
+      "title": "为什么说“人们只会记住第一名”，理由依据是什么？",
+      "url": "https://www.zhihu.com/answer/1985385882379888237",
+      "summary": "正文通过不结合乘法的加括号方式计数不同乘积，具体展开卡塔兰组合计数问题。"
+    },
+    {
+      "title": "又是一个做不出来的极限，该怎么做？",
+      "url": "https://www.zhihu.com/answer/1988754486924166315",
+      "summary": "正文以二项式系数和组合数求和为对象，讨论离散组合恒等式的系统计算方法。"
+    },
+    {
+      "title": "有一百万只鸡，每次从有腿的鸡中抽取一只砍掉一条腿，重复一百万次，最后数学期望下还有多少完好的鸡？",
+      "url": "https://www.zhihu.com/answer/1997461316059804240",
+      "summary": "正文按完好、瘸和死亡鸡分类计数，并系统使用组合数刻画合法操作历史。"
+    },
+    {
+      "title": "单位圆上随意取三点，那么这三点围成三角形面积的期望是多少？",
+      "url": "https://www.zhihu.com/answer/1998773962084202393",
+      "summary": "正文通过组合数计数三点三角形，并按圆周间隔分拆枚举所有取法。"
+    },
+    {
+      "title": "组合数学中的生成函数想法是怎么来的？",
+      "url": "https://www.zhihu.com/answer/2003061154155623677",
+      "summary": "通过计算横向与竖向骨牌的选择得到铺满矩形的方案数，并给出相应的二项式组合计数。"
+    },
+    {
+      "title": "n元集合上有多少个拓扑？",
+      "url": "https://www.zhihu.com/answer/2003944920348643877",
+      "summary": "正文用集合划分、Stirling数和组合选择把有限拓扑计数化为等价类划分与偏序计数。"
+    },
+    {
+      "title": "为什么我们使用10进制，而不使用11进制?",
+      "url": "https://www.zhihu.com/answer/2008150088657159868",
+      "summary": "正文用阶乘的 Legendre 公式和组合数的 Lucas、Kummer 定理计算末尾零的个数。"
+    },
+    {
+      "title": "为什么许多代数上复杂的问题，在几何和组合意义下十分简单？",
+      "url": "https://www.zhihu.com/answer/2012633592191268281",
+      "summary": "正文以二项式恒等式为例说明用选球模型解释组合关系，并比较其与代数化简的不同。"
+    },
+    {
+      "title": "数学思维在生活中有多大用处？",
+      "url": "https://www.zhihu.com/answer/2012873175055238406",
+      "summary": "正文把华夫饼格数问题归结为单位正方形的最小无重叠装箱排列，并讨论十七个方块的布局。"
+    },
+    {
+      "title": "怎么让不懂数学的人体会到抽象代数的魅力？",
+      "url": "https://www.zhihu.com/answer/2014409002403005260",
+      "summary": "正文通过计算六张牌中指定三张位置的排列情况来约束洗牌结果，具体使用了排列计数。"
+    },
+    {
+      "title": "为什么许多代数上复杂的问题，在几何和组合意义下十分简单？",
+      "url": "https://www.zhihu.com/answer/2015590214035325016",
+      "summary": "正文把本原勾股数参数化后的整数对计数转化为区域格点计数，并用量级估计求渐近结果。"
+    },
+    {
+      "title": "为什么许多代数上复杂的问题，在几何和组合意义下十分简单？",
+      "url": "https://www.zhihu.com/answer/2015817007413613471",
+      "summary": "正文以三个互异正整数平方和表示方式的计数为例，说明用组合计数与鸽笼原理处理分划问题。"
+    },
+    {
+      "title": "如何评价2026年求真书院Pi节挑战赛？",
+      "url": "https://www.zhihu.com/answer/2016477474876319313",
+      "summary": "正文把原式整理为整数分拆与有序组合的计数，并证明所求总和为 2 的 n 减 1 次方。"
+    },
+    {
+      "title": "能否证明24点游戏都有解？",
+      "url": "https://www.zhihu.com/answer/2025608078679122437",
+      "summary": "正文把四张牌的重复数字情形分类计数并相加，具体使用组合数计算 24 点题面总数。"
+    },
+    {
+      "title": "怎么证明这个困难的恒等式?",
+      "url": "https://www.zhihu.com/answer/2027735590624306401",
+      "summary": "正文先改写含二项式系数的组合数求和，再证明该组合恒等式。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/2031796378951754954",
+      "summary": "正文用生成函数证明整数分拆中不同正整数和与奇数和的计数相等，并讨论组合计数恒等式。"
+    },
+    {
+      "title": "有什么看似复杂但实际上很简单的数学题？",
+      "url": "https://www.zhihu.com/answer/2035821430311534933",
+      "summary": "正文用黑白染色分析残缺棋盘的骨牌覆盖，属于离散组合计数问题。"
+    },
+    {
+      "title": "生成函数凭什么能优雅地解决组合问题？",
+      "url": "https://www.zhihu.com/answer/2037198447909017130",
+      "summary": "正文把硬币选择等组合对象按规模编码，并用形式幂级数乘积和卷积统一计数。"
+    },
+    {
+      "title": "如何评价丘成桐说:易经八卦启发莱布尼茨搞出二进制很扯，纯属国人文化自恋！怎么不启发中国人自己搞出来？",
+      "url": "https://www.zhihu.com/answer/2056790694220527535",
+      "summary": "正文按每一爻的两种状态计算三位与六位组合数，具体说明八卦和六十四卦的组合计数结构。"
+    },
+    {
+      "title": "真的会有人有某种天赋却被埋没一生吗？",
+      "url": "https://www.zhihu.com/answer/2058942278677402260",
+      "summary": "正文具体陈述柯克曼女生问题，并把斯坦纳三元系大集描述为组合设计中的分组构造问题。"
+    },
+    {
+      "title": "还在玩“算24点”？你OUT啦！",
+      "url": "https://zhuanlan.zhihu.com/p/19817404",
+      "summary": "正文用组合数计算四张或五张扑克牌的可选组合数，并统计其中能够算出目标数的组合比例。"
+    },
+    {
+      "title": "统计基础篇之十：怎么理解二项分布",
+      "url": "https://zhuanlan.zhihu.com/p/24692791",
+      "summary": "正文用组合数计算 n 次试验中出现 x 次结果的方案数，并以杨辉三角说明二项展开系数。"
+    },
+    {
+      "title": "二项式展开",
+      "url": "https://zhuanlan.zhihu.com/p/25049847",
+      "summary": "正文用从 n 个位置选出放置 1 的位置来解释组合数 C_n^2，并以计数得到二项式系数。"
+    },
+    {
+      "title": "组合恒等式之万金油方法",
+      "url": "https://zhuanlan.zhihu.com/p/25195967",
+      "summary": "正文通过发生函数、二项式定理和比较系数推导多个组合数恒等式。"
+    },
+    {
+      "title": "泊松分布 (Poisson Distributions) 的推导",
+      "url": "https://zhuanlan.zhihu.com/p/26263743",
+      "summary": "正文由重复排列的折算推导组合数公式，并用它写出二项分布概率。"
+    },
+    {
+      "title": "写给大家看的机器学习书（第六篇）—— 机器学习为什么是可行的（下）",
+      "url": "https://zhuanlan.zhihu.com/p/26252454",
+      "summary": "正文用二分类样本输出序列的计数把无限假设空间压缩为有限种 dichotomy。"
+    },
+    {
+      "title": "概率论的入门指南",
+      "url": "https://zhuanlan.zhihu.com/p/26307077",
+      "summary": "正文给出组合与排列的计数公式，并用抽小球说明是否考虑顺序会得到不同结果数。"
+    },
+    {
+      "title": "自然数幂和公式",
+      "url": "https://zhuanlan.zhihu.com/p/26351880",
+      "summary": "正文反复使用组合数恒等式推导自然数一次、二次和三次幂和公式。"
+    },
+    {
+      "title": "只需6步轻松学会玩魔方_三阶魔方教程V2.4(2020/01/20)_碧海风云",
+      "url": "https://zhuanlan.zhihu.com/p/26136974",
+      "summary": "正文用角块与棱块的阶乘、方向选择和整体约束计算魔方的全部排列状态数。"
+    },
+    {
+      "title": "【奇妙的杨辉三角与二项式系数】- 图解高中数学",
+      "url": "https://zhuanlan.zhihu.com/p/26725382",
+      "summary": "正文把杨辉三角逐行与二项式展开系数对应，并说明行和与 11 的幂等组合恒等式。"
+    },
+    {
+      "title": "排列组合中的分组分配问题",
+      "url": "https://zhuanlan.zhihu.com/p/26724931",
+      "summary": "正文用分类选取和乘法原理计算分组数，并通过除以组数的阶乘消除平均分组的组序重复。"
+    },
+    {
+      "title": "关于有限群/紧李群表示的一些笔记",
+      "url": "https://zhuanlan.zhihu.com/p/27041214",
+      "summary": "正文用有限域子空间计数解释高斯二项系数，并进一步把分划数与对称群共轭类联系起来。"
+    },
+    {
+      "title": "数学竞赛生&非竞赛生的思维差异",
+      "url": "https://zhuanlan.zhihu.com/p/27446760",
+      "summary": "正文通过置换、映射选择和阶乘计数解释原组合问题的求解过程。"
+    },
+    {
+      "title": "孩子，有时候并不是生活欺骗了你，而是你可能还不懂概率统计……",
+      "url": "https://zhuanlan.zhihu.com/p/27557354",
+      "summary": "正文用两两配对的计数解释生日悖论，并给出生日相同概率的组合公式。"
+    },
+    {
+      "title": "打牌必须洗八次",
+      "url": "https://zhuanlan.zhihu.com/p/28295457",
+      "summary": "正文以全部 52 张牌的排列数和切牌后交错合并的方式建立洗牌的概率模型。"
+    },
+    {
+      "title": "100个人随机给钱实验的分布的解析解",
+      "url": "https://zhuanlan.zhihu.com/p/28364861",
+      "summary": "正文用总排列数除以各资产人数对应排列数的乘积，计数给定资产分布下的微观状态数。"
+    },
+    {
+      "title": "分享一个费马小定理的图形证明",
+      "url": "https://zhuanlan.zhihu.com/p/28450259",
+      "summary": "正文用项链染色方案及其旋转等价类进行组合计数，从而完成证明。"
+    },
+    {
+      "title": "MIT线性代数课程精细笔记[第四课]",
+      "url": "https://zhuanlan.zhihu.com/p/28490221",
+      "summary": "正文用乘法原理推导n阶置换矩阵的数量为n的阶乘。"
+    },
+    {
+      "title": "用组合方法解函数问题",
+      "url": "https://zhuanlan.zhihu.com/p/28817750",
+      "summary": "正文用排列型生成函数计数多类物品的排列方式并证明组合恒等式。"
+    },
+    {
+      "title": "狼人杀中的概率学",
+      "url": "https://zhuanlan.zhihu.com/p/29114446",
+      "summary": "正文使用组合数、隔板法和环形排列计算十二人局中连狼与连神事件的数量和概率。"
+    },
+    {
+      "title": "1^n+2^n+……+x^n=？？——东京大学2006年高考第三题（理科）",
+      "url": "https://zhuanlan.zhihu.com/p/29320291",
+      "summary": "正文使用二项式定理和组合数恒等式比较系数，求出一整族幂和公式中的组合系数。"
+    },
+    {
+      "title": "卡特兰数（Catalan number）（一）",
+      "url": "https://zhuanlan.zhihu.com/p/31317307",
+      "summary": "正文列举卡特兰计数的多种对应结构，并以避免 312 模式的全排列作为计数实例。"
+    },
+    {
+      "title": "还在为数学犯难？这几个动图让你豁然开朗！",
+      "url": "https://zhuanlan.zhihu.com/p/32145268",
+      "summary": "正文解释杨辉三角的相邻数字递推关系及其作为二项式展开系数的组合计数含义。"
+    },
+    {
+      "title": "人人都会做的普特南试题（William Lowell Putnam Mathematical Competition）（1）",
+      "url": "https://zhuanlan.zhihu.com/p/32456812",
+      "summary": "正文讨论集合全部排列中局部最大值位置的计数，并计算随机排列的局部最大值数量平均值。"
+    },
+    {
+      "title": "解析组合中的符号化方法简介",
+      "url": "https://zhuanlan.zhihu.com/p/31595840",
+      "summary": "正文通过二叉树、d-叉树、树和依存树的计数，说明符号化方法如何转化为生成函数计数。"
+    },
+    {
+      "title": "1,2,4,8,16……数列的下一项是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/33126929",
+      "summary": "正文用组合数计算圆上连线及交点数量，从而推出区域数公式。"
+    },
+    {
+      "title": "四阶魔方教程V2.3(2019/12/20)_碧海风云",
+      "url": "https://zhuanlan.zhihu.com/p/33313932",
+      "summary": "正文通过角块、棱块和中心块的置换数、方向数及等价约束计算四阶魔方的总变化状态数。"
+    },
+    {
+      "title": "五阶魔方教程V2.2(2019/08/27)_碧海风云",
+      "url": "https://zhuanlan.zhihu.com/p/33314223",
+      "summary": "正文按角块、中心块和两类棱块的位置与方向计数，组合各因子得到五阶魔方总状态数。"
+    },
+    {
+      "title": "Wallis乘积中的π从何而来？（上）",
+      "url": "https://zhuanlan.zhihu.com/p/34313702",
+      "summary": "正文用二项组合数统计恰好返回原点的一维随机行走路径数，并据此展开概率计算。"
+    },
+    {
+      "title": "【魔方理论】如何计算任意阶魔方状态数？",
+      "url": "https://zhuanlan.zhihu.com/p/35339755",
+      "summary": "正文按角块、棱块和中心块的排列、朝向及奇偶约束分步计数任意阶魔方状态数。"
+    },
+    {
+      "title": "线性代数（三）行列式的来历",
+      "url": "https://zhuanlan.zhihu.com/p/37111386",
+      "summary": "正文定义全排列和逆序数，并用它们解释行列式各项的符号。"
+    },
+    {
+      "title": "求二项展开式中二项式系数最大项、系数最大项的问题",
+      "url": "https://zhuanlan.zhihu.com/p/37321457",
+      "summary": "正文比较二项展开式相邻组合数系数，用组合数和通项求系数最大项。"
+    },
+    {
+      "title": "【高中数学基础课】二项式定理",
+      "url": "https://zhuanlan.zhihu.com/p/37314812",
+      "summary": "正文用组合计数证明二项式定理，并推导组合恒等式、帕斯卡恒等式和幂集计数。"
+    },
+    {
+      "title": "二项式定理の秒解任意项系数",
+      "url": "https://zhuanlan.zhihu.com/p/38418082",
+      "summary": "正文用从 n 个括号中选择若干因式的方式，结合组合数 C_n^k 计算展开项系数。"
+    },
+    {
+      "title": "美国IMO集训队讲义的一道题",
+      "url": "https://zhuanlan.zhihu.com/p/41039603",
+      "summary": "正文把合法数列的计数转化为完全图闭路径数，并用谱分解计算组合计数结果。"
+    },
+    {
+      "title": "初等数论学习笔记（三）",
+      "url": "https://zhuanlan.zhihu.com/p/41588857",
+      "summary": "正文用彩色珠子的直线排列与圆排列计数给出费马小定理的组合证明，实质使用了排列计数。"
+    },
+    {
+      "title": "机器学习（周志华）课后习题——第二章",
+      "url": "https://zhuanlan.zhihu.com/p/42435889",
+      "summary": "正文把分层留出法的划分数量转化为正反例各自的组合计数并给出结果。"
+    },
+    {
+      "title": "概率论学习笔记（一）",
+      "url": "https://zhuanlan.zhihu.com/p/42859784",
+      "summary": "正文用有放回与无放回抽取、排列、组合、分组和隔板法计算古典概型中的方法数。"
+    },
+    {
+      "title": "解谜 Ramanujan 笔记本中的一条公式",
+      "url": "https://zhuanlan.zhihu.com/p/46784753",
+      "summary": "正文将 Gamma 和二项式系数组成的和式化为可应用 Hagen-Rothe 组合恒等式的形式，并据此证明 Ramanujan 公式。"
+    },
+    {
+      "title": "有放回的无序抽样问题（unordered sampling with replacement）",
+      "url": "https://zhuanlan.zhihu.com/p/48248142",
+      "summary": "正文把有放回无序抽样转化为计数向量和隔板排列，推导出组合数C_{n+k-1}^k。"
+    },
+    {
+      "title": "R统计学(01): 伯努利分布、二项分布",
+      "url": "https://zhuanlan.zhihu.com/p/49267988",
+      "summary": "正文用组合数计算二项分布的频数，并解释阶乘与R中的组合数函数。"
+    },
+    {
+      "title": "随手回帖让TA成了论文一作，匿名网友解决重要数学问题",
+      "url": "https://zhuanlan.zhihu.com/p/50526789",
+      "summary": "正文以超排列包含全部排列为问题核心，讨论排列数量、阶乘计数以及最短超排列长度。"
+    },
+    {
+      "title": "围棋布局的数学原理初论",
+      "url": "https://zhuanlan.zhihu.com/p/50558177",
+      "summary": "正文用组合计数和逐步淘汰原则计算不同落点的路径状态数及连接势。"
+    },
+    {
+      "title": "浅谈生成函数之OGF",
+      "url": "https://zhuanlan.zhihu.com/p/52817010",
+      "summary": "正文以生成函数的幂级数系数表示组合方案数，并求解多种计数问题。"
+    },
+    {
+      "title": "浅谈生成函数之EGF",
+      "url": "https://zhuanlan.zhihu.com/p/53079223",
+      "summary": "正文定义指数生成函数，并用带标号元素的选取排列计数例题说明其组合意义。"
+    },
+    {
+      "title": "待解: 麦穗问题最大化期望",
+      "url": "https://zhuanlan.zhihu.com/p/55293882",
+      "summary": "正文枚举求职者得分的全部排列，统计不同选择策略的结果以寻找最优停止规则。"
+    },
+    {
+      "title": "关于排列组合的一个总结",
+      "url": "https://zhuanlan.zhihu.com/p/56326836",
+      "summary": "正文系统讲解排列与组合的定义、计数公式，并通过相邻、定序、分配等题型演示计数方法。"
+    },
+    {
+      "title": "用母函数推卡特兰数通项公式",
+      "url": "https://zhuanlan.zhihu.com/p/56821103",
+      "summary": "正文以网格走法、二叉树计数和多边形分割等组合计数实例引出卡特兰数。"
+    },
+    {
+      "title": "【理论篇】三阶魔方4.33千亿亿种变化是怎么计算出来的？",
+      "url": "https://zhuanlan.zhihu.com/p/57444167",
+      "summary": "正文用角块朝向、棱块朝向及各自全排列相乘，逐步计算三阶魔方的总状态数。"
+    },
+    {
+      "title": "数量关系何处寻？题中散布满天星",
+      "url": "https://zhuanlan.zhihu.com/p/59560272",
+      "summary": "正文按三天不同班车的限制逐日计数，并用排列公式计算基本事件总数。"
+    },
+    {
+      "title": "算法｜小学生都能看懂的生成函数入门教程",
+      "url": "https://zhuanlan.zhihu.com/p/63003976",
+      "summary": "正文从组合与多重集排列计数出发，用生成函数系数及多项式乘法求方案数。"
+    },
+    {
+      "title": "抽象代数学习笔记（七）",
+      "url": "https://zhuanlan.zhihu.com/p/63987575",
+      "summary": "正文通过分组计数、环排列和商除重复方法计算指定轮换型置换的个数，实质使用排列组合。"
+    },
+    {
+      "title": "75道面试逻辑智力测试题内附详细答案",
+      "url": "https://zhuanlan.zhihu.com/p/64728275",
+      "summary": "正文用组合计数公式计算电影院找零条件下的合格排队方案数，并给出不合格方案的计数。"
+    },
+    {
+      "title": "期望在高中数学竞赛中的一些应用举例",
+      "url": "https://zhuanlan.zhihu.com/p/64970384",
+      "summary": "正文围绕点集匹配、投影和计数展开组合论证，构造满足权重条件的匹配。"
+    },
+    {
+      "title": "从计应数的一次作业到cts命题的故事",
+      "url": "https://zhuanlan.zhihu.com/p/65524110",
+      "summary": "正文用生日配对计数问题推导匹配方案数和奇偶出现次数，并借助生成函数完成组合计数。"
+    },
+    {
+      "title": "组合数学学习笔记（一）",
+      "url": "https://zhuanlan.zhihu.com/p/66925097",
+      "summary": "正文从组合计数的难点出发，展开抽屉原理、组合数估计和组合存在性问题。"
+    },
+    {
+      "title": "组合数学学习笔记（二）",
+      "url": "https://zhuanlan.zhihu.com/p/67059187",
+      "summary": "正文具体讲解排列、组合、多重排列、环排列及捆绑法、插空法和隔板法等计数方法。"
+    },
+    {
+      "title": "组合数学学习笔记（三）",
+      "url": "https://zhuanlan.zhihu.com/p/67771282",
+      "summary": "正文把多重组合的解数写成生成函数系数，并用受限制的多重组合和整数方程展示计数方法。"
+    },
+    {
+      "title": "魔方与群论（一）(不要被标题吓到，高中生就可以看）",
+      "url": "https://zhuanlan.zhihu.com/p/75057811",
+      "summary": "正文讲解置换、循环表示、复合及n阶置换群含n!个元素，实质展开排列与置换组合。"
+    },
+    {
+      "title": "线性代数总结 第一章 行列式",
+      "url": "https://zhuanlan.zhihu.com/p/56619566",
+      "summary": "正文定义 n 阶排列、逆序数、奇偶排列以及对换后的奇偶性变化。"
+    },
+    {
+      "title": "赫尔婚姻（Hall's Marriage）定理",
+      "url": "https://zhuanlan.zhihu.com/p/77563002",
+      "summary": "正文围绕 Hall 婚姻定理讲解两组对象之间完全匹配是否存在，并给出子集邻域大小条件。"
+    },
+    {
+      "title": "【试题分析】2019年全国高中数学联赛A卷试题及分析",
+      "url": "https://zhuanlan.zhihu.com/p/81693553",
+      "summary": "正文通过分类计数和集合交并排除重复排列，计算给定数字拼接所得不同八位数的个数。"
+    },
+    {
+      "title": "【国际数学竞赛】如何理解组合恒等式？",
+      "url": "https://zhuanlan.zhihu.com/p/82241906",
+      "summary": "正文从加法原理和乘法原理推导排列数、组合数，并用算两次解释多个组合恒等式。"
+    },
+    {
+      "title": "充满对称性的计数——Burnside引理与Polya定理",
+      "url": "https://zhuanlan.zhihu.com/p/80261375",
+      "summary": "正文用阶乘计算对称操作与串法置换的数量，并据此进行等价类计数。"
+    },
+    {
+      "title": "从“杨辉三角”到“代微积拾级“",
+      "url": "https://zhuanlan.zhihu.com/p/82448871",
+      "summary": "正文给出排列数公式，并用组合数重建杨辉三角及二项式系数的计数含义。"
+    },
+    {
+      "title": "附笔记pdf下载，MIT线性代数课程精细笔记[第四课]",
+      "url": "https://zhuanlan.zhihu.com/p/89784741",
+      "summary": "正文用各行重新排列及乘法原理计算 n 阶置换矩阵的总数。"
+    },
+    {
+      "title": "初学讲义之高中数学二十一：排列组合和二项式定理",
+      "url": "https://zhuanlan.zhihu.com/p/89717188",
+      "summary": "正文从乘法原理和加法原理出发，系统讲解排列数、组合数及组合恒等式。"
+    },
+    {
+      "title": "排列组合 - 圆排列",
+      "url": "https://zhuanlan.zhihu.com/p/92939589",
+      "summary": "正文讲解圆排列的计数公式，并用固定一人、夫妻捆绑和插空等方法完成排列组合例题。"
+    },
+    {
+      "title": "【举例子详细分析】为什么交错群A4的阶为12，但没有阶为6的子群？——拉格朗日定理和西罗定理",
+      "url": "https://zhuanlan.zhihu.com/p/94692505",
+      "summary": "正文通过四个元素的全部排列计数得到置换群阶数，并区分排列有序与组合无序。"
+    },
+    {
+      "title": "【概率论与数理统计期末复习笔记】-（一）事件的概率",
+      "url": "https://zhuanlan.zhihu.com/p/94819379",
+      "summary": "正文用组合数求无放回抽样概率，并以多项式系数和幂次求有放回抽样概率。"
+    },
+    {
+      "title": "「算法入门笔记」卡特兰数",
+      "url": "https://zhuanlan.zhihu.com/p/97619085",
+      "summary": "正文以进出栈、括号匹配、满二叉树和购票排队等计数问题讲解卡特兰数及组合数计数公式。"
+    },
+    {
+      "title": "概率统计——讲透最经典的三种概率分布",
+      "url": "https://zhuanlan.zhihu.com/p/103157485",
+      "summary": "正文展开排列与组合的定义和计数关系，并用其推导二项分布概率。"
+    },
+    {
+      "title": "原来线性代数--行列式可以这样理解",
+      "url": "https://zhuanlan.zhihu.com/p/104030758",
+      "summary": "正文系统讲解排列、逆序数、对换与奇偶性，并用它们确定行列式展开项的符号。"
+    },
+    {
+      "title": "【排列组合】错位全排列的简化计算公式",
+      "url": "https://zhuanlan.zhihu.com/p/35318996",
+      "summary": "正文用容斥原理和排列计数推导错位排列数 D_n 的一般公式。"
+    },
+    {
+      "title": "3分钟帮你完全理解排列组合中的隔板问题",
+      "url": "https://zhuanlan.zhihu.com/p/106135565",
+      "summary": "正文用相同小球放入不同抽屉的问题，解释正整数解和非负整数解的隔板组合计数。"
+    },
+    {
+      "title": "算法学习笔记(16): 生成函数",
+      "url": "https://zhuanlan.zhihu.com/p/106522599",
+      "summary": "正文把物品选择方案编码为幂级数系数，并用生成函数乘积和隔板法计算组合计数问题。"
+    },
+    {
+      "title": "二项式定理，你真的理解了吗？",
+      "url": "https://zhuanlan.zhihu.com/p/110598554",
+      "summary": "正文用从各括号中选取项的组合数解释二项式展开系数和二项式定理。"
+    },
+    {
+      "title": "降群法学习与思考：不用公式还原魔方",
+      "url": "https://zhuanlan.zhihu.com/p/111623841",
+      "summary": "正文用角块和棱块的排列、翻转约束及阶乘计数推导三阶魔方的总状态数。"
+    },
+    {
+      "title": "Bertrand-Chebyshev定理",
+      "url": "https://zhuanlan.zhihu.com/p/113333538",
+      "summary": "正文利用中心二项式系数的素因子指数与二项式系数恒等式完成估计和推论。"
+    },
+    {
+      "title": "算法学习笔记(25): 卢卡斯定理",
+      "url": "https://zhuanlan.zhihu.com/p/116698264",
+      "summary": "正文从组合数定义、杨辉三角递推和模运算计算出发，解释卢卡斯定理如何分解组合数并求值。"
+    },
+    {
+      "title": "数据分析之关联分析",
+      "url": "https://zhuanlan.zhihu.com/p/118439868",
+      "summary": "文章用对象组合总数解释频繁项集搜索的复杂度，并据此引出 Apriori 组合优化。"
+    },
+    {
+      "title": "排列组合与智商有关系？Nope！全盘否认",
+      "url": "https://zhuanlan.zhihu.com/p/119302734",
+      "summary": "正文通过鞋子选取、捆绑插空、分组、染色和错位排列等例题讲解排列组合的计数方法。"
+    },
+    {
+      "title": "那些你可能不知道的积分方法——常见的积分表达式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/120857000",
+      "summary": "正文从组合数的定义出发，证明多种组合恒等式并把组合数计算转化为留数计算。"
+    },
+    {
+      "title": "如何用10只小白鼠鉴定999瓶水和1瓶毒药",
+      "url": "https://zhuanlan.zhihu.com/p/130398015",
+      "summary": "正文按小白鼠子集与液体组合建立测试方案，并用组合数之和说明十只小白鼠可区分至多1024瓶。"
+    },
+    {
+      "title": "关于排列组合的深入理解",
+      "url": "https://zhuanlan.zhihu.com/p/134092589",
+      "summary": "正文系统讲解排列与组合计数、分步计数原理及有序性，并从标记视角建立计数模型。"
+    },
+    {
+      "title": "【组合计数】错排问题",
+      "url": "https://zhuanlan.zhihu.com/p/137941999",
+      "summary": "正文把错排表述为无不动点置换，并用容斥原理计算全部装错信封的排列数。"
+    },
+    {
+      "title": "将“softmax+交叉熵”推广到多标签分类问题",
+      "url": "https://zhuanlan.zhihu.com/p/138117543",
+      "summary": "正文把 n 选 k 的多标签分类写成组合求和，并用配分函数构造组合 softmax。"
+    },
+    {
+      "title": "【乱写】浅谈生成函数",
+      "url": "https://zhuanlan.zhihu.com/p/137977256",
+      "summary": "正文用普通生成函数和指数生成函数处理选球计数等组合问题。"
+    },
+    {
+      "title": "线性无关的子集个数为什么一定会先增加后减少呢？",
+      "url": "https://zhuanlan.zhihu.com/p/138191803",
+      "summary": "正文的核心是对线性无关子集按基数计数，并证明这些计数的对数凸关系。"
+    },
+    {
+      "title": "数学求和符号用法大汇总",
+      "url": "https://zhuanlan.zhihu.com/p/138748362",
+      "summary": "正文用求和符号表达从集合中任取若干元素的组合计数，并得到二项式系数。"
+    },
+    {
+      "title": "概率学角度分析双色球中奖概率",
+      "url": "https://zhuanlan.zhihu.com/p/142332075",
+      "summary": "正文用33选5、16选1及命中剩余号码的方式计算组合数，并据此求各奖级概率。"
+    },
+    {
+      "title": "组合数学中的母函数/生成函数",
+      "url": "https://zhuanlan.zhihu.com/p/143150748",
+      "summary": "正文用普通母函数的系数计算多重集允许重复取元的组合方案数。"
+    },
+    {
+      "title": "你可能不知道隐藏在杨辉三角形中的 10 个秘密！",
+      "url": "https://zhuanlan.zhihu.com/p/146418524",
+      "summary": "正文说明杨辉三角中的组合数如何用于计算从 n 个元素中选取 k 个元素的方案数。"
+    },
+    {
+      "title": "公务员考试数量关系专题四：容斥原理",
+      "url": "https://zhuanlan.zhihu.com/p/148248923",
+      "summary": "正文通过先计数、扣除重复计数并加回三项交集得到容斥公式，用于组合计数。"
+    },
+    {
+      "title": "面试中的常见概率题",
+      "url": "https://zhuanlan.zhihu.com/p/149093983",
+      "summary": "正文讨论从 n 个元素中选出 m 个元素并保证各组合等概率的抽样方法。"
+    },
+    {
+      "title": "如何解决柏拉图摘麦穗问题",
+      "url": "https://zhuanlan.zhihu.com/p/149064154",
+      "summary": "正文把摘麦穗问题转化为不同排列的计数，分类计算选到最大值的排列数并推广到 n 项。"
+    },
+    {
+      "title": "从中山大学王晓玮事件到德国坦克问题",
+      "url": "https://zhuanlan.zhihu.com/p/158085371",
+      "summary": "正文用从有限序号中选 k 个及从 m-1 个中选 k-1 个的组合计数推导最大序号的概率。"
+    },
+    {
+      "title": "魔方中的数学1-n维立方体的性质",
+      "url": "https://zhuanlan.zhihu.com/p/163189557",
+      "summary": "正文用组合计数公式计算 n 维立方体各维骨架和魔方块的数量。"
+    },
+    {
+      "title": "【抽象代数】4. 群直积与有限Abel群的分类",
+      "url": "https://zhuanlan.zhihu.com/p/164613288",
+      "summary": "正文定义整数划分并利用划分计数确定有限 Abel 群的同构类数量。"
+    },
+    {
+      "title": "数学手册1-Levi-Civita符号",
+      "url": "https://zhuanlan.zhihu.com/p/166633095",
+      "summary": "正文用排列的奇偶性、全排列数和组合取法计算Levi-Civita符号的非零缩并项。"
+    },
+    {
+      "title": "浅谈Catalan数（一）",
+      "url": "https://zhuanlan.zhihu.com/p/60964047",
+      "summary": "正文通过黑白球序列和网格路线讲解排列计数，并推导中心二项式系数。"
+    },
+    {
+      "title": "多目标追踪之数据关联",
+      "url": "https://zhuanlan.zhihu.com/p/172505209",
+      "summary": "正文把多目标与量测之间的候选关联数归结为可能组合数量的计算。"
+    },
+    {
+      "title": "75道逻辑思维趣题，含答案（转自文库）",
+      "url": "https://zhuanlan.zhihu.com/p/193075856",
+      "summary": "正文对影院找零排队问题做合格方案计数，并给出从全部排列中扣除不合格排列的组合公式。"
+    },
+    {
+      "title": "【转载】母函数详解",
+      "url": "https://zhuanlan.zhihu.com/p/196790840",
+      "summary": "正文用幂级数乘法的系数对应组合方案，通过砝码称重和整数拆分实例计算组合数。"
+    },
+    {
+      "title": "【国际数学】数学基本符号介绍",
+      "url": "https://zhuanlan.zhihu.com/p/254963486",
+      "summary": "正文解释阶乘的计数意义，并分别说明排列与组合公式。"
+    },
+    {
+      "title": "自然数立方和公式推导方法汇总",
+      "url": "https://zhuanlan.zhihu.com/p/260139435",
+      "summary": "正文构造四元数组集合与两个二元数组构成的集合，借助双射证明立方和的组合恒等式。"
+    },
+    {
+      "title": "算法学习笔记(54): Pólya定理",
+      "url": "https://zhuanlan.zhihu.com/p/265991683",
+      "summary": "正文以颜色分配和环状排列的计数为例说明置换群作用下的着色方案数，并推导环染色的计数公式。"
+    },
+    {
+      "title": "一份给初学者的群环域讲义(一)：群",
+      "url": "https://zhuanlan.zhihu.com/p/265517305",
+      "summary": "正文通过逐项选择证明 n 个元素的置换共有 n! 个，并用轨道和稳定子推导组合数公式。"
+    },
+    {
+      "title": "组合恒等式以及其积分解法",
+      "url": "https://zhuanlan.zhihu.com/p/268510637",
+      "summary": "正文围绕二项式系数、组合互逆公式以及按错排个数分类计数展开组合恒等式推导。"
+    },
+    {
+      "title": "算法学习笔记(56): 康托展开",
+      "url": "https://zhuanlan.zhihu.com/p/272721663",
+      "summary": "正文推导排列按字典序的计数公式、实现方法以及逆康托展开。"
+    },
+    {
+      "title": "聊一聊置换检验Permutation test的原理",
+      "url": "https://zhuanlan.zhihu.com/p/328940140",
+      "summary": "正文把两组样本混合后枚举全部重排方式，并明确使用全排列数量构造检验结果。"
+    },
+    {
+      "title": "Rademacher复杂度&VC维-最通俗的类比讲解",
+      "url": "https://zhuanlan.zhihu.com/p/337298338",
+      "summary": "正文用增长率计数假设在样本上的标签组合，并用 Sauer 引理的组合数上界推导 VC 维复杂度。"
+    },
+    {
+      "title": "MIT 6.042J 计算机中的数学：数学好玩",
+      "url": "https://zhuanlan.zhihu.com/p/337600988",
+      "summary": "正文用是否选入指定元素分两类计数，证明组合数的帕斯卡递推恒等式。"
+    },
+    {
+      "title": "2020年ICPC南京区域赛题解",
+      "url": "https://zhuanlan.zhihu.com/p/338249705",
+      "summary": "正文用三种颜色的列组合数只有九种和抽屉原理推出大矩阵必出现满足条件的染色子矩阵。"
+    },
+    {
+      "title": "【组合数学】从简单的计算机问题讲解Catalan数",
+      "url": "https://zhuanlan.zhihu.com/p/340249701",
+      "summary": "正文以合法括号串为对象，系统计数 Catalan 数并给出组合数通项。"
+    },
+    {
+      "title": "【数学建模】背英语时，应该如何正确地偷懒？",
+      "url": "https://zhuanlan.zhihu.com/p/340632258",
+      "summary": "正文用从六篇文章中任取两篇的组合计数及其补事件，计算不同背诵篇数的通过概率。"
+    },
+    {
+      "title": "高等代数，前进四！——高代实验班习题课设计（2020秋）",
+      "url": "https://zhuanlan.zhihu.com/p/339385421",
+      "summary": "正文用群作用的轨道计数和 q 二项式计数子空间，展开系统的组合计数方法。"
+    },
+    {
+      "title": "sin(nx)=?｜一个超复杂的生成函数练习与三角恒等变换",
+      "url": "https://zhuanlan.zhihu.com/p/344836921",
+      "summary": "正文用二项式系数和帕斯卡三角的规律展开生成函数，并据此得到组合数系数的闭式表达。"
+    },
+    {
+      "title": "组合数学（3）递推关系和生成函数",
+      "url": "https://zhuanlan.zhihu.com/p/345811471",
+      "summary": "正文用生成函数展开后的系数统计不同砝码组合构成指定重量的方案数。"
+    },
+    {
+      "title": "组合数学（5）容斥原理与反演",
+      "url": "https://zhuanlan.zhihu.com/p/348846716",
+      "summary": "正文讲解容斥原理和广义容斥，并用它计算全错排列的组合计数。"
+    },
+    {
+      "title": "组合数学（6）Stirling数",
+      "url": "https://zhuanlan.zhihu.com/p/350262977",
+      "summary": "正文以元素划分为轮换、非空子集或有序子集的方案数定义三类斯特林数。"
+    },
+    {
+      "title": "《小学生都能看懂的群论从入门到升天教程》 《群论全家桶》算法竞赛相关",
+      "url": "https://zhuanlan.zhihu.com/p/350711725",
+      "summary": "正文讲解排列与置换、置换乘法，并据此推导 Burnside 引理和 Polya 计数公式。"
+    },
+    {
+      "title": "《小学生都能看懂的三类斯特林数从入门到升天教程 》（含性质完整证明、斯特林反演、拉赫数）",
+      "url": "https://zhuanlan.zhihu.com/p/350774728",
+      "summary": "正文从圆排列和集合划分定义各类斯特林数，并展开组合计数性质。"
+    },
+    {
+      "title": "《机器学习》（西瓜书）课后习题答案     第一章-绪论",
+      "url": "https://zhuanlan.zhihu.com/p/355235881",
+      "summary": "正文用组合计数和去重穷举估算析合范式能够表示的假设数量。"
+    },
+    {
+      "title": "【三角定律】狼人杀位置学(三行四象两行三角)——申屠",
+      "url": "https://zhuanlan.zhihu.com/p/356556386",
+      "summary": "正文按12张牌分为四组并枚举四个对象在组间的分配情形，计算相应组合概率。"
+    },
+    {
+      "title": "广义组合数与广义牛顿二项式定理",
+      "url": "https://zhuanlan.zhihu.com/p/358479652",
+      "summary": "正文把通常组合数推广到 m、n 可为负整数或非整数，并证明负下指标的组合数恒等式。"
+    },
+    {
+      "title": "卡特兰数 — 计数的映射方法的伟大胜利",
+      "url": "https://zhuanlan.zhihu.com/p/360260065",
+      "summary": "正文系统解决出栈序列、排队买票、圆内连弦和凸多边形剖分等组合计数问题。"
+    },
+    {
+      "title": "排列组合怎样计算（C上n下m，A上n下m）",
+      "url": "https://zhuanlan.zhihu.com/p/366287107",
+      "summary": "正文解释排列与组合的有序、无序区别，给出排列数公式并用去除顺序得到组合数。"
+    },
+    {
+      "title": "抽屉原理的妙用——Dirichlet逼近定理和Zeta函数的零点间距",
+      "url": "https://zhuanlan.zhihu.com/p/367101494",
+      "summary": "正文从基本抽屉原理出发，给出推广形式及其矛盾证明，作为后续构造性应用的基础。"
+    },
+    {
+      "title": "【高考数学】12.1 排列组合中的定序问题",
+      "url": "https://zhuanlan.zhihu.com/p/370867873",
+      "summary": "正文以固定元素顺序的排队问题为例，讲解先全排列再除以重复顺序数的排列组合方法，并给出两道例题。"
+    },
+    {
+      "title": "实对称随机矩阵的特征值分布：Wigner半圆定律",
+      "url": "https://zhuanlan.zhihu.com/p/375591312",
+      "summary": "正文把随机矩阵矩的配对结构对应到合法括号计数，并推出 Catalan 数的组合公式。"
+    },
+    {
+      "title": "伽罗瓦理论概述（四、一元高次方程的解法本质）",
+      "url": "https://zhuanlan.zhihu.com/p/376242058",
+      "summary": "正文枚举三次方程三个根的全部六种排列置换，并用置换结果分析多项式的对称性。"
+    },
+    {
+      "title": "神奇的卡塔兰(Catalan)数",
+      "url": "https://zhuanlan.zhihu.com/p/385994583",
+      "summary": "正文用括号匹配、网格路径和三角剖分等计数问题展开卡特兰数的组合应用。"
+    },
+    {
+      "title": "二项式定理的推导与证明",
+      "url": "https://zhuanlan.zhihu.com/p/392871647",
+      "summary": "正文用从各因式中选取 a 或 b 的组合计数解释二项式展开系数。"
+    },
+    {
+      "title": "两道有趣的高中数学题",
+      "url": "https://zhuanlan.zhihu.com/p/396611508",
+      "summary": "正文用插空法计算相邻位置不同时为红色的排列数，实质展开组合计数。"
+    },
+    {
+      "title": "【群论入门】(10)： 排列与对称群",
+      "url": "https://zhuanlan.zhihu.com/p/402197369",
+      "summary": "正文用双行记号和循环分解讲解排列、换位、函数复合及排列计数，具体展开排列组合的基本表示方法。"
+    },
+    {
+      "title": "一文读懂抽象代数(1): Polya计数原理",
+      "url": "https://zhuanlan.zhihu.com/p/404310081",
+      "summary": "正文把旋转或翻折下重复的染色方案归结为轨道计数，并用 Burnside 引理计算魔方和三角形染色数。"
+    },
+    {
+      "title": "一道有意思的思维题",
+      "url": "https://zhuanlan.zhihu.com/p/417591246",
+      "summary": "正文把洗牌表示为 52 个位置的置换，并通过位置到牌面的映射分析其循环结构。"
+    },
+    {
+      "title": "动态规划并没有想象中那么难",
+      "url": "https://zhuanlan.zhihu.com/p/424681634",
+      "summary": "正文给出楼梯问题的组合解法，按两步次数枚举并用组合数计算每一步所需的一步位置选择。"
+    },
+    {
+      "title": "球盒问题：这篇笔记来就全算了",
+      "url": "https://zhuanlan.zhihu.com/p/429815465",
+      "summary": "正文系统分类球盒模型，并用乘法原理、隔板法、容斥和集合划分计算方案数。"
+    },
+    {
+      "title": "逆元 —— 广义化的倒数",
+      "url": "https://zhuanlan.zhihu.com/p/449221995",
+      "summary": "正文把组合数写成阶乘比，并用因子逆元实现组合数取模计算。"
+    },
+    {
+      "title": "一道组合数同余式问题",
+      "url": "https://zhuanlan.zhihu.com/p/450737835",
+      "summary": "正文把中心二项式系数写成阶乘比并展开为逐项乘积，作为同余推导的核心组合数对象。"
+    },
+    {
+      "title": "二项式定理(Binomial Theorem)专题整理",
+      "url": "https://zhuanlan.zhihu.com/p/452325708",
+      "summary": "正文用重排解释二项展开的系数计数，并由具体系数问题呈现排列组合方法。"
+    },
+    {
+      "title": "从二项式定理到多项式定理",
+      "url": "https://zhuanlan.zhihu.com/p/454701867",
+      "summary": "正文用组合数与隔板法计算多项式展开项数及指定项系数。"
+    },
+    {
+      "title": "Catalan-Qi数——越来越奇的卡特兰数",
+      "url": "https://zhuanlan.zhihu.com/p/457305852",
+      "summary": "正文从不同添括号方案计数引出卡特兰数，并讨论排列组合意义及若干组合恒等式。"
+    },
+    {
+      "title": "排列组合什么时候要除序？（消序原理）。",
+      "url": "https://zhuanlan.zhihu.com/p/459137995",
+      "summary": "正文系统讲解定序、相同、均分和合并除序，并用排列组合例题演示计数方法。"
+    },
+    {
+      "title": "差分基础理论概述",
+      "url": "https://zhuanlan.zhihu.com/p/460846297",
+      "summary": "正文利用帕斯卡组合恒等式和参数化重现方法计算二项式系数之和，并推广到含参数幂的求和。"
+    },
+    {
+      "title": "【数列】差分求数列和，通项，范围最值的方法（一）",
+      "url": "https://zhuanlan.zhihu.com/p/463108185",
+      "summary": "正文专节用组合数降次与换底公式计算二项式加权和，并延伸到排列数恒等式。"
+    },
+    {
+      "title": "两道有趣的数学题(2)：赫尔德不等式、交替排列与欧拉正割数",
+      "url": "https://zhuanlan.zhihu.com/p/462832847",
+      "summary": "正文先按大小交错规律计数五阶交替排列，再推广为一般交替排列的计数模型。"
+    },
+    {
+      "title": "高等代数笔记(一)行列式",
+      "url": "https://zhuanlan.zhihu.com/p/467420320",
+      "summary": "正文定义排列、逆序数和奇偶排列，并用排列逆序数给出行列式的组合展开。"
+    },
+    {
+      "title": "【排列组合】欧拉错排问题",
+      "url": "https://zhuanlan.zhihu.com/p/477207612",
+      "summary": "正文用容斥公式和全排列计数求解帽子错排，具体讨论排列组合问题。"
+    },
+    {
+      "title": "2021年阿里巴巴全球数学竞赛中的一个概率问题，难出了新高度",
+      "url": "https://zhuanlan.zhihu.com/p/477911338",
+      "summary": "正文把随机派对结束的步数结构计数为加泰罗尼亚数，并据此汇总组合情形。"
+    },
+    {
+      "title": "【高中排列组合】【二项超几何分布】组合数的深入应用探究",
+      "url": "https://zhuanlan.zhihu.com/p/503361270",
+      "summary": "正文从组合数定义出发，推导多条组合恒等式，并用裂项、二项式系数与构造母式处理排列组合计数和求和。"
+    },
+    {
+      "title": "π(n)|素数计数函数",
+      "url": "https://zhuanlan.zhihu.com/p/509771255",
+      "summary": "正文利用二项式系数的素因子、阶乘素因子幂次和相关不等式推导素数计数的上下界。"
+    },
+    {
+      "title": "公考数量基础（数量高频考点常见类型汇总）",
+      "url": "https://zhuanlan.zhihu.com/p/519388949",
+      "summary": "正文定义排列并给出排列数公式，同时系统讲解组合、加法原理和乘法原理及对应题型。"
+    },
+    {
+      "title": "【排列组合】组合恒等式(高考向）",
+      "url": "https://zhuanlan.zhihu.com/p/512091691",
+      "summary": "正文定义组合数与二项式定理，并通过多种方法计算组合数求和，系统讲解排列组合中的计数与恒等式。"
+    },
+    {
+      "title": "2022年新高考数学试卷分析",
+      "url": "https://zhuanlan.zhihu.com/p/525561171",
+      "summary": "正文用组合数 C_7^2 统计从 7 个数中取两数的总数，再列举互质数对求概率。"
+    },
+    {
+      "title": "组合数学 （1）排列与组合",
+      "url": "https://zhuanlan.zhihu.com/p/529861534",
+      "summary": "正文系统讲解排列、可重复排列、组合与重集计数，并给出二项式系数和组合恒等式。"
+    },
+    {
+      "title": "组合数学（2）分拆数",
+      "url": "https://zhuanlan.zhihu.com/p/530925142",
+      "summary": "正文系统讨论整数分拆的计数、生成函数和渐近上界，属于组合计数问题。"
+    },
+    {
+      "title": "组合恒等式方法",
+      "url": "https://zhuanlan.zhihu.com/p/533488241",
+      "summary": "正文围绕组合数定义与组合恒等式，给出组合计数、变换和求和证明等系统方法。"
+    },
+    {
+      "title": "母函数——生成函数——形式级数（Generating function）",
+      "url": "https://zhuanlan.zhihu.com/p/538036645",
+      "summary": "正文用各水果数量的乘积型母函数计数满足奇偶、上界和倍数条件的放置方案。"
+    },
+    {
+      "title": "扑克玩法中炸金花各个牌型概率",
+      "url": "https://zhuanlan.zhihu.com/p/544102600",
+      "summary": "正文用组合计数计算三张牌的总样本数，并逐一枚举豹子、同花顺、对子等牌型的数量。"
+    },
+    {
+      "title": "六角幻方（Magic Hexagon）",
+      "url": "https://zhuanlan.zhihu.com/p/544255474",
+      "summary": "正文按三元组合枚举满足固定和为 38 的所有情况，再结合重复约束搜索幻方排列。"
+    },
+    {
+      "title": "五子棋的26种开局方式",
+      "url": "https://zhuanlan.zhihu.com/p/549399379",
+      "summary": "正文用棋盘点位计数和去重系统算出常规开局的组合数。"
+    },
+    {
+      "title": "高阶导数的应用——莱布尼兹公式",
+      "url": "https://zhuanlan.zhihu.com/p/551352057",
+      "summary": "正文用二项式系数和组合数展开莱布尼兹公式，并说明其证明依赖排列组合。"
+    },
+    {
+      "title": "抽象代数笔记：群在集合上的作用、轨道稳定子定理",
+      "url": "https://zhuanlan.zhihu.com/p/575436817",
+      "summary": "正文以六点三色手链计数为贯穿例子，先用组合数计算直线排列，再用群作用和 Burnside 引理处理对称等价。"
+    },
+    {
+      "title": "莫比乌斯反演入门",
+      "url": "https://zhuanlan.zhihu.com/p/585474169",
+      "summary": "正文系统讲解偏序集上的莫比乌斯反演，并以集合容斥这一组合计数问题作为实例。"
+    },
+    {
+      "title": "关于次序统计量的概率密度函数以及联合概率密度函数",
+      "url": "https://zhuanlan.zhihu.com/p/595063134",
+      "summary": "正文按小于、落在区间内和大于的样本个数分类，使用组合数推导次序统计量的密度。"
+    },
+    {
+      "title": "算法学习笔记(9)：二项式反演",
+      "url": "https://zhuanlan.zhihu.com/p/602675596",
+      "summary": "正文系统推导两种二项式反演公式，并通过错排、集合计数和字符串计数等例题讲解组合计数。"
+    },
+    {
+      "title": "《数学天书中的证明》整理笔记（28）",
+      "url": "https://zhuanlan.zhihu.com/p/558992516",
+      "summary": "正文系统讲解鸽笼原理和双计数，并用不同计数方式证明数论、序列与组合结论。"
+    },
+    {
+      "title": "算法学习笔记(11)：卡特兰数（Catalan）",
+      "url": "https://zhuanlan.zhihu.com/p/609104268",
+      "summary": "正文以格路计数、括号序列等双射模型讲解卡特兰数的组合计数意义和公式。"
+    },
+    {
+      "title": "第二百九十夜：伯努利错排问题",
+      "url": "https://zhuanlan.zhihu.com/p/609192076",
+      "summary": "正文定义错排计数问题，并指出可用容斥原理处理重复计数，属于排列组合的计数框架。"
+    },
+    {
+      "title": "【回归本源】给微积分入门者的小记",
+      "url": "https://zhuanlan.zhihu.com/p/609087301",
+      "summary": "正文具体讲解阶乘、排列和组合的计数意义及公式，并用二项式系数展开幂函数。"
+    },
+    {
+      "title": "一个简单的问题中隐藏了一种超级复杂的数学结构，远远超出了人类的想象力",
+      "url": "https://zhuanlan.zhihu.com/p/621855785",
+      "summary": "正文从柯克曼问题定义组合设计，并介绍子空间设计存在性证明中的随机覆盖与吸收构造。"
+    },
+    {
+      "title": "最反直觉的一个数学谜题，即使告诉你答案，你也会感到很不可思议",
+      "url": "https://zhuanlan.zhihu.com/p/628116824",
+      "summary": "正文逐步用乘法原理和阶乘计算一百个盒子的全部排列方式。"
+    },
+    {
+      "title": "拉马努金：我做数学只用三个词，“显然”、“显然”还是“显然”",
+      "url": "https://zhuanlan.zhihu.com/p/638548023",
+      "summary": "正文定义集合划分与划分数 p(n)，并给出其渐近估计。"
+    },
+    {
+      "title": "完全错排和部分错排问题(一个著名的组排模型)",
+      "url": "https://zhuanlan.zhihu.com/p/638518201",
+      "summary": "正文用选取正确信件再对剩余信件错排的分步计数方法推导部分错排数。"
+    },
+    {
+      "title": "离散数学重点整理",
+      "url": "https://zhuanlan.zhihu.com/p/639464918",
+      "summary": "正文介绍容斥原理、组合数与多重集计数，并给出非降路径等组合计数模型。"
+    },
+    {
+      "title": "概率论及数理统计笔记(自用)",
+      "url": "https://zhuanlan.zhihu.com/p/646376019",
+      "summary": "正文讲解排列数、组合数、多项式系数以及隔板和插空计数方法并配例题。"
+    },
+    {
+      "title": "算法学习笔记(25)：鸽巢原理（抽屉原理）",
+      "url": "https://zhuanlan.zhihu.com/p/661206530",
+      "summary": "正文从抽屉原理的直观表述出发，讲清计数论证、推广形式和组合存在性问题。"
+    },
+    {
+      "title": "【新版】数论：概念和问题（零）",
+      "url": "https://zhuanlan.zhihu.com/p/679558376",
+      "summary": "正文定义组合数和高斯二项式系数，推导递推恒等式并讨论其组合意义与整数性。"
+    },
+    {
+      "title": "2024年第十五届蓝桥杯大赛C/C++B组省赛题解",
+      "url": "https://zhuanlan.zhihu.com/p/692286717",
+      "summary": "正文用组合数计算互不握手七人之外的组合，并据此得出总握手次数。"
+    },
+    {
+      "title": "2024年新高考一卷数学压轴题数列题思路详解",
+      "url": "https://zhuanlan.zhihu.com/p/702281470",
+      "summary": "正文把可行数对的计数转化为按余数分类选取，并用组合数估计有效数对数量。"
+    },
+    {
+      "title": "2024 年新高考Ⅰ卷数学压轴题探究",
+      "url": "https://zhuanlan.zhihu.com/p/702511725",
+      "summary": "正文用组合数计算全部候选数对和两类有效数对，从而估计概率并求精确计数。"
+    },
+    {
+      "title": "24的秘密（1）——更不可能的棋盘谜题",
+      "url": "https://zhuanlan.zhihu.com/p/716772659",
+      "summary": "正文用组合数计算最多三把钥匙的全部位置方案数，并据此分析棋盘策略的存在条件。"
+    },
+    {
+      "title": "一个强大的方法——母函数",
+      "url": "https://zhuanlan.zhihu.com/p/23675695772",
+      "summary": "正文通过构造生成函数并展开多项式，把子集元素和的选择数转化为系数，讲解排列组合计数。"
+    },
+    {
+      "title": "「Sylvester-Schur 定理」与一个哈佛大学的博资考问题",
+      "url": "https://zhuanlan.zhihu.com/p/25421384214",
+      "summary": "正文以二项式系数的阶乘形式和组合解释作为核心计数对象完成估计。"
+    },
+    {
+      "title": "2025中科大少年班创新班入围考试（数学）赏析",
+      "url": "https://zhuanlan.zhihu.com/p/29412252400",
+      "summary": "正文通过映射分类和骰子结果计数，具体使用分类与容斥思想进行排列组合计算。"
+    },
+    {
+      "title": "不要随便拿你浅薄的微积分知识瞎扯“无穷”",
+      "url": "https://zhuanlan.zhihu.com/p/1895768542936299452",
+      "summary": "正文检查集合计数中的二项式系数求和，并指出所用组合恒等式的代入形式错误。"
+    },
+    {
+      "title": "2025成都三诊压轴题赏析",
+      "url": "https://zhuanlan.zhihu.com/p/1900173567049565458",
+      "summary": "正文按闭合次数分类，使用排列组合计算灯泡最先亮起的概率。"
+    },
+    {
+      "title": "一命速通高危难度高考排列组合母题",
+      "url": "https://zhuanlan.zhihu.com/p/1901728754860037140",
+      "summary": "正文系统整理插板法、容斥、错位排列、圆排列、Catalan 数、Stirling 数和分拆等组合计数方法。"
+    },
+    {
+      "title": "整数分拆在素数秩下的精确公式（一、简介）",
+      "url": "https://zhuanlan.zhihu.com/p/1909081424851600694",
+      "summary": "正文以整数分拆的组合计数定义和例子展开计数问题。"
+    },
+    {
+      "title": "一个神奇组合恒等式的组合证明与概率证明",
+      "url": "https://zhuanlan.zhihu.com/p/1910375896742867401",
+      "summary": "正文用组合数恒等变形和组合意义证明一个含二项式系数的恒等式。"
+    },
+    {
+      "title": "2025年北京大学强基计划数学试题个人解答",
+      "url": "https://zhuanlan.zhihu.com/p/1935999112823703157",
+      "summary": "正文通过选择数字 2 的位置并使用乘法与加法原理，系统计算指定数位中满足偶数个 2 的组合数。"
+    },
+    {
+      "title": "从神经网络逼近理论到极值组合中的“概率方法”",
+      "url": "https://zhuanlan.zhihu.com/p/1947445307978810451",
+      "summary": "正文通过随机置换和计数证明 Sperner 定理，实质使用了排列组合方法。"
+    },
+    {
+      "title": "q导数和h导数",
+      "url": "https://zhuanlan.zhihu.com/p/1995150105548973918",
+      "summary": "正文构造 q-二项式系数，并将其与组合学中的组合计数对象联系起来。"
+    },
+    {
+      "title": "玉米投手能杀死巨人僵尸吗？",
+      "url": "https://zhuanlan.zhihu.com/p/2005412953176946663",
+      "summary": "正文用隔板法和二项式系数统计攻击链排列，并借助 Vandermonde 卷积合并求和。"
+    },
+    {
+      "title": "2026 年 “印度高考”（JEE Advanced）部分试题解析",
+      "url": "https://zhuanlan.zhihu.com/p/2041688931981341604",
+      "summary": "正文把受限制映射的计数化为单射计数，并分情形使用排列与乘法原理求解。"
+    },
+    {
+      "title": "一个看似简单的极限，为什么最后变成了40页论文？——Hardy与Ramanujan如何计算整数分拆数",
+      "url": "https://zhuanlan.zhihu.com/p/2071615597272683484",
+      "summary": "正文以整数分拆为组合计数对象，计算并解释不同无序分拆方式的数量。"
+    }
+  ]
+}

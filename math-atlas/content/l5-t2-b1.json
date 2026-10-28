@@ -1,0 +1,2061 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l5-t2-b1",
+  "sources": [
+    {
+      "title": "数学体系是怎么构成的？各分支间是怎么联系的？",
+      "url": "https://www.zhihu.com/answer/15267593",
+      "summary": "介绍开闭集、连续性、连通性和紧性如何组织一般空间中的分析。关于紧性与序列紧性等价的叙述缺少空间条件，适合带条件的概览阅读。"
+    },
+    {
+      "title": "数学对计算机专业重要吗？",
+      "url": "https://www.zhihu.com/answer/17951851",
+      "summary": "从开集原像解释一般拓扑中的连续性，并比较度量空间定义，超出了单纯罗列学科名。"
+    },
+    {
+      "title": "如何用一句话概括拓扑学、泛函分析、实变函数讲的是什么？",
+      "url": "https://www.zhihu.com/answer/20924603",
+      "summary": "正文围绕「如何用一句话概括拓扑学、泛函分析、实变函数讲的是什么？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "实数集 R 为什么既是开集又是闭集？",
+      "url": "https://www.zhihu.com/answer/27413640",
+      "summary": "正文围绕“拓扑空间”给出说明、例证或方法。"
+    },
+    {
+      "title": "度量空间 (metric space) 与测度空间 (measure space) 的关系？",
+      "url": "https://www.zhihu.com/answer/30660465",
+      "summary": "正文围绕“拓扑空间”给出说明、例证或方法。"
+    },
+    {
+      "title": "一个迷宫从入口进去，沿着右手边的墙走，是否肯定能走到出口？",
+      "url": "https://www.zhihu.com/answer/31059037",
+      "summary": "以单连通、多连通的区别讨论迷宫右手法的适用条件。"
+    },
+    {
+      "title": "一个迷宫从入口进去，沿着右手边的墙走，是否肯定能走到出口？",
+      "url": "https://www.zhihu.com/answer/31059600",
+      "summary": "从迷宫围墙的拓扑结构和连通性解释右手法。"
+    },
+    {
+      "title": "一个迷宫从入口进去，沿着右手边的墙走，是否肯定能走到出口？",
+      "url": "https://www.zhihu.com/answer/31070190",
+      "summary": "以墙的连通分支、边界和同胚性质论证右手法。"
+    },
+    {
+      "title": "如果在莫比乌斯带或者球面上下围棋会怎么样？",
+      "url": "https://www.zhihu.com/answer/32543573",
+      "summary": "用双覆盖解释莫比乌斯带两面下棋与圆筒的关系。"
+    },
+    {
+      "title": "什么是拓扑学？",
+      "url": "https://www.zhihu.com/answer/33965653",
+      "summary": "正文以连续形变下的不变量定义拓扑学研究对象。"
+    },
+    {
+      "title": "有哪些看似荒谬，其实很科学的理论？",
+      "url": "https://www.zhihu.com/answer/36000902",
+      "summary": "正文介绍球面翻转、不动点与毛球定理等拓扑学结果。"
+    },
+    {
+      "title": "怎么理解实变函数中的支集和紧支集？",
+      "url": "https://www.zhihu.com/answer/36646145",
+      "summary": "正文给出紧支集、紧集和开覆盖的定义。"
+    },
+    {
+      "title": "几何拓扑（geometric topology）这个数学分支，主要包含哪些内容？",
+      "url": "https://www.zhihu.com/answer/42867573",
+      "summary": "正文通过CW复形和一般拓扑空间界定传统代数拓扑，并据此区分几何拓扑的研究对象。"
+    },
+    {
+      "title": "哪些数学定理在直觉上是对的，但证明起来很困难？",
+      "url": "https://www.zhihu.com/answer/46511881",
+      "summary": "正文陈述Jordan曲线和闭球映射的连通分支问题。"
+    },
+    {
+      "title": "拓扑学究竟是一种什么样的学科？",
+      "url": "https://www.zhihu.com/answer/49330372",
+      "summary": "正文定义拓扑学研究连续形变下不变的空间性质。"
+    },
+    {
+      "title": "比较高深的数学在经济学有哪些运用相当漂亮？",
+      "url": "https://www.zhihu.com/answer/50358309",
+      "summary": "正文解释不动点定理和点集拓扑在经济学均衡存在性中的应用。"
+    },
+    {
+      "title": "怎样一眼看出某个对应 (correspondence) 是上半连续的？",
+      "url": "https://www.zhihu.com/answer/65127586",
+      "summary": "正文用开集和强原像定义多值函数的上半连续性。"
+    },
+    {
+      "title": "数学中有哪些看起来很不可思议的知识？",
+      "url": "https://www.zhihu.com/answer/68825158",
+      "summary": "正文通俗说明球面连续向量场必有奇点的拓扑结论。"
+    },
+    {
+      "title": "n阶方阵中可逆矩阵和不可逆矩阵哪个多？",
+      "url": "https://www.zhihu.com/answer/69699887",
+      "summary": "正文从拓扑角度比较两类矩阵集合。"
+    },
+    {
+      "title": "n阶方阵中可逆矩阵和不可逆矩阵哪个多？",
+      "url": "https://www.zhihu.com/answer/70126012",
+      "summary": "正文从闭集、稠密性说明矩阵集合的拓扑性质。"
+    },
+    {
+      "title": "高数为什么要引进邻域概念？",
+      "url": "https://www.zhihu.com/answer/70381439",
+      "summary": "正文从开集定义邻域，并用其解释拓扑空间中的连续性。"
+    },
+    {
+      "title": "高数为什么要引进邻域概念？",
+      "url": "https://www.zhihu.com/answer/70499232",
+      "summary": "正文将邻域解释为没有度量时对接近关系的拓扑刻画。"
+    },
+    {
+      "title": "如何直观地解释「紧致性」？",
+      "url": "https://www.zhihu.com/answer/72390708",
+      "summary": "正文以开覆盖和有限子覆盖定义拓扑空间紧致性。"
+    },
+    {
+      "title": "当我们说「正则」的时候，到底想说个什么意思？",
+      "url": "https://www.zhihu.com/answer/73290695",
+      "summary": "正文以分离公理中的正则、正规性质解释拓扑空间的性质层级。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/81412286",
+      "summary": "正文以拓扑收敛定义和平庸空间为例，说明拓扑空间中序列极限可以不唯一。"
+    },
+    {
+      "title": "数学分析中，实数理论有多重要？",
+      "url": "https://www.zhihu.com/answer/82083008",
+      "summary": "正文明确讨论实数轴的点集拓扑性质。"
+    },
+    {
+      "title": "为什么经济学专业要学拓扑学？",
+      "url": "https://www.zhihu.com/answer/88898887",
+      "summary": "正文解释点集拓扑是高层次数学和经济学分析方法的基础。"
+    },
+    {
+      "title": "有哪些知道后让你震惊的冷知识？",
+      "url": "https://www.zhihu.com/answer/89576093",
+      "summary": "正文以毛球定理说明二维球面不存在处处非零连续向量场。"
+    },
+    {
+      "title": "代数几何是否对 PDE 的研究有启发？",
+      "url": "https://www.zhihu.com/answer/91919912",
+      "summary": "正文反复讨论向量丛与联络模空间的同胚和紧化。"
+    },
+    {
+      "title": "「无限接近」是否就是「是」？",
+      "url": "https://www.zhihu.com/answer/93082093",
+      "summary": "正文指出连续性依赖所选拓扑，并给出 Hausdorff 度量反例。"
+    },
+    {
+      "title": "数学中关于集合、空间、数域概念的关系？",
+      "url": "https://www.zhihu.com/answer/94981893",
+      "summary": "正文进一步说明拓扑由集合运算规则构成，并以七桥问题解释连续变形下的不变量。"
+    },
+    {
+      "title": "抽象代数教育可以在初高中引入吗？",
+      "url": "https://www.zhihu.com/answer/99209982",
+      "summary": "正文具体用开集陈述函数连续性，展开点集拓扑的核心观点及其教学价值。"
+    },
+    {
+      "title": "物理学与数学中有哪些特别有意义的名词？",
+      "url": "https://www.zhihu.com/answer/99536331",
+      "summary": "正文解释紧致性、开集覆盖和拓扑空间。"
+    },
+    {
+      "title": "棋类和数学所涉的智商相同吗？",
+      "url": "https://www.zhihu.com/answer/113965315",
+      "summary": "正文解释 Brouwer 不动点定理如何与离散棋类问题等价。"
+    },
+    {
+      "title": "数学为什么能由那几条公理推导出这么多的公式？",
+      "url": "https://www.zhihu.com/answer/118308627",
+      "summary": "正文以拓扑学为例说明拓扑空间及连续函数的公理化定义如何形成。"
+    },
+    {
+      "title": "同伦等价（homotopy equivalent）与同胚（homeomorphic）区别是什么？",
+      "url": "https://www.zhihu.com/answer/120440899",
+      "summary": "正文以拓扑空间、连续映射和映射空间为基础比较不同等价关系。"
+    },
+    {
+      "title": "代数拓扑为什么研究同调？",
+      "url": "https://www.zhihu.com/answer/123321429",
+      "summary": "正文以拓扑空间范畴、同伦范畴和导范畴说明研究对象如何变化。"
+    },
+    {
+      "title": "什么是极限点，孤立点？极限点，内点，边界点和孤立点的联系？极限点是不是等于内点+边界点？",
+      "url": "https://www.zhihu.com/answer/124716318",
+      "summary": "正文借邻域类比系统解释内点、外点、边界点、孤立点和极限点等拓扑概念。"
+    },
+    {
+      "title": "学代数是否应该把自己“洗脑”了学？",
+      "url": "https://www.zhihu.com/answer/124988579",
+      "summary": "正文用拓扑空间开集、覆盖、交与层的粘合条件展开说明。"
+    },
+    {
+      "title": "数学中有哪些条件看似很弱却能推出很强的定理的例子？",
+      "url": "https://www.zhihu.com/answer/127780795",
+      "summary": "正文解释拓扑学中的区域不变性定理及连续单射推出开映射、逆连续的强结论。"
+    },
+    {
+      "title": "如何看待 William Thurston 在低维拓扑上的贡献？",
+      "url": "https://www.zhihu.com/answer/129107163",
+      "summary": "正文介绍瑟斯顿在低维拓扑、分叶结构和三维流形分类方面的贡献。"
+    },
+    {
+      "title": "商空间的本质如何理解？",
+      "url": "https://www.zhihu.com/answer/131112183",
+      "summary": "正文解释拓扑空间将子集压成一点的商拓扑，并以线段端点粘合成圆为例。"
+    },
+    {
+      "title": "是否存在R^0.5这样的空间?",
+      "url": "https://www.zhihu.com/answer/137298024",
+      "summary": "正文用道路连通性和删点后的连通性证明不存在所述拓扑空间。"
+    },
+    {
+      "title": "信息几何（Information Geometry）这个方向前景如何？",
+      "url": "https://www.zhihu.com/answer/137645083",
+      "summary": "正文对比拓扑只关注连通性、几何还需要距离度量，实质解释拓扑结构。"
+    },
+    {
+      "title": "对于拓扑的了解？",
+      "url": "https://www.zhihu.com/answer/144478672",
+      "summary": "正文从开集公理和集合加开集结构定义拓扑空间。"
+    },
+    {
+      "title": "拓扑是什么概念？",
+      "url": "https://www.zhihu.com/answer/145664644",
+      "summary": "正文完整给出拓扑的三条公理和拓扑空间、开集的定义。"
+    },
+    {
+      "title": "拓扑是什么概念？",
+      "url": "https://www.zhihu.com/answer/146037278",
+      "summary": "正文从集合子集族出发详细解释拓扑公理、开集和有限集合上的拓扑实例。"
+    },
+    {
+      "title": "如何理解拓扑的定义？",
+      "url": "https://www.zhihu.com/answer/148337819",
+      "summary": "正文从开集三性质与连续映射逆像解释拓扑空间定义的来源。"
+    },
+    {
+      "title": "拓扑学上的紧致性怎样理解？有何运用？",
+      "url": "https://www.zhihu.com/answer/152191189",
+      "summary": "正文以列紧性、极值存在和无限维空间为例解释拓扑空间中的紧致性。"
+    },
+    {
+      "title": "怎么通俗的理解有界闭集，紧集，列紧集？",
+      "url": "https://www.zhihu.com/answer/159923879",
+      "summary": "正文用有限子覆盖的雨伞比喻解释紧集的拓扑定义。"
+    },
+    {
+      "title": "怎么通俗的理解有界闭集，紧集，列紧集？",
+      "url": "https://www.zhihu.com/answer/160279126",
+      "summary": "正文从欧氏空间、距离空间到一般拓扑空间解释紧集、列紧与有限子覆盖。"
+    },
+    {
+      "title": "到今天为止，数学都有那些分支？它们的联系又是什么？",
+      "url": "https://www.zhihu.com/answer/177087417",
+      "summary": "正文以连续变形区分几何对象，给出拓扑学的研究视角。"
+    },
+    {
+      "title": "你所在数学领域的 big picture 是什么？",
+      "url": "https://www.zhihu.com/answer/190177707",
+      "summary": "正文以从局部到整体的转变为主线，说明整体性质为何使拓扑成为二十世纪数学核心。"
+    },
+    {
+      "title": "你最喜欢的数学定理是什么？",
+      "url": "https://www.zhihu.com/answer/195875384",
+      "summary": "正文陈述并证明闭子集上的连续函数可扩张到整个欧氏空间，属于拓扑空间上的扩张定理。"
+    },
+    {
+      "title": "有哪些类似于七桥问题的有趣数学定理？",
+      "url": "https://www.zhihu.com/answer/204609453",
+      "summary": "正文以挂谷集解释单连通与有界等拓扑性质。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/205875402",
+      "summary": "正文用离散度量反例解释开球闭包不必等于同半径闭球。"
+    },
+    {
+      "title": "为什么说离散空间中，X的每一个子集都是开集？",
+      "url": "https://www.zhihu.com/answer/206602633",
+      "summary": "正文从开集公理说明离散拓扑为何把集合的所有子集都规定为开集。"
+    },
+    {
+      "title": "有哪些看起来很简单证明起来却很难的问题？",
+      "url": "https://www.zhihu.com/answer/206792093",
+      "summary": "正文准确陈述 Jordan 闭曲线定理的连通、边界和有界性质。"
+    },
+    {
+      "title": "怎么理解秩定理？",
+      "url": "https://www.zhihu.com/answer/209435396",
+      "summary": "正文把流形的底层结构解释为可局部坐标化的拓扑空间。"
+    },
+    {
+      "title": "拓扑向量空间的理论在数学内外有什么应用？",
+      "url": "https://www.zhihu.com/answer/235962383",
+      "summary": "正文定义赋范空间的弱拓扑并讨论紧性与可度量性。"
+    },
+    {
+      "title": "群论和拓扑学有什么关系？",
+      "url": "https://www.zhihu.com/answer/239375386",
+      "summary": "正文说明群可赋予拓扑结构并要求运算连续。"
+    },
+    {
+      "title": "学习复分析需要哪些基础？",
+      "url": "https://www.zhihu.com/answer/264219333",
+      "summary": "正文说明学习黎曼曲面为何需要曲面拓扑。"
+    },
+    {
+      "title": "想要学习流形的话需要哪些预备知识？",
+      "url": "https://www.zhihu.com/answer/264857507",
+      "summary": "正文用局部同胚、分离公理和球极投影解释流形的拓扑定义。"
+    },
+    {
+      "title": "如何学习点集拓扑学？",
+      "url": "https://www.zhihu.com/answer/275849454",
+      "summary": "正文讨论点集拓扑的学习材料与基础概念地位。"
+    },
+    {
+      "title": "如何学习点集拓扑学？",
+      "url": "https://www.zhihu.com/answer/275937438",
+      "summary": "正文说明点集拓扑用于严格表述连续、逼近等分析概念。"
+    },
+    {
+      "title": "拓扑空间能否用序列研究连续性？",
+      "url": "https://www.zhihu.com/answer/282154491",
+      "summary": "正文讨论第一可数拓扑空间与序列空间的关系。"
+    },
+    {
+      "title": "数学中为什么要定义各种空间？",
+      "url": "https://www.zhihu.com/answer/312558158",
+      "summary": "正文说明空间的拓扑结构为分析提供连续性框架。"
+    },
+    {
+      "title": "为什么要研究非交换几何？",
+      "url": "https://www.zhihu.com/answer/313656406",
+      "summary": "正文由交换C*代数对应Hausdorff空间解释非交换拓扑空间。"
+    },
+    {
+      "title": "为什么要研究非交换几何？",
+      "url": "https://www.zhihu.com/answer/313665967",
+      "summary": "正文以 Gelfand-Naimark 定理建立交换 C* 代数与紧 Hausdorff 拓扑空间的对应，再推广到非交换情形。"
+    },
+    {
+      "title": "如何理解数学里抽象的概念？",
+      "url": "https://www.zhihu.com/answer/344997071",
+      "summary": "正文用素理想与闭集具体解释扎里斯基拓扑。"
+    },
+    {
+      "title": "怎样直观的理解有限覆盖定理？",
+      "url": "https://www.zhihu.com/answer/361398016",
+      "summary": "正文用开覆盖具体解释闭区间紧致性。"
+    },
+    {
+      "title": "请问什么是p-adic geometry？",
+      "url": "https://www.zhihu.com/answer/377111582",
+      "summary": "正文介绍Berkovich空间的点和拓扑结构。"
+    },
+    {
+      "title": "请问，空间一维单连通怎么理解？为什么环面所围成的区域是空间二维单连通，但不是空间一维单连通？",
+      "url": "https://www.zhihu.com/answer/385143162",
+      "summary": "正文用闭曲线、闭曲面与洞解释空间的一维、二维单连性。"
+    },
+    {
+      "title": "有哪些一看就会，一做就错的数学题？",
+      "url": "https://www.zhihu.com/answer/390468051",
+      "summary": "正文定义内点、外点和边界，并计算多个平面子集的边界。"
+    },
+    {
+      "title": "什么是拓扑学？",
+      "url": "https://www.zhihu.com/answer/409420878",
+      "summary": "正文区分拓扑结构与几何结构，并解释拓扑关注的性质。"
+    },
+    {
+      "title": "拓扑学在数理逻辑纯理论研究中是否有应用？",
+      "url": "https://www.zhihu.com/answer/418266304",
+      "summary": "正文把真值指派集合赋予积拓扑，并用紧致性证明逻辑紧致性定理。"
+    },
+    {
+      "title": "如何构造一条能够填满正方形的连续曲线（除史书上的方法）？",
+      "url": "https://www.zhihu.com/answer/419276193",
+      "summary": "正文以豪斯多夫、紧致、连通等条件陈述空间填充曲线定理。"
+    },
+    {
+      "title": "如何证明椭圆是封闭图形？",
+      "url": "https://www.zhihu.com/answer/440907818",
+      "summary": "正文从连续映射定义曲线并介绍Jordan曲线定理。"
+    },
+    {
+      "title": "皮亚诺曲线可以遍历单位正方形中的每一点该怎样理解？",
+      "url": "https://www.zhihu.com/answer/445215213",
+      "summary": "正文以连续映射和满射解释皮亚诺曲线填满正方形。"
+    },
+    {
+      "title": "请问你觉得大学本科选择纯数是怎样一种体验？能学到什么和有什么用处？",
+      "url": "https://www.zhihu.com/answer/456506270",
+      "summary": "正文说明闭曲面可按亏格进行拓扑分类。"
+    },
+    {
+      "title": "本科学习拓扑有哪些值得分享的学习经验？",
+      "url": "https://www.zhihu.com/answer/486276057",
+      "summary": "正文说明点集拓扑是拓扑学习的基础部分。"
+    },
+    {
+      "title": "由函数的连续性可得到什么结论？",
+      "url": "https://www.zhihu.com/answer/486560180",
+      "summary": "正文从拓扑空间中的紧性与连通性刻画连续性。"
+    },
+    {
+      "title": "为什么拓扑空间之间连续一一映射的逆映射可以不连续？",
+      "url": "https://www.zhihu.com/answer/508969966",
+      "summary": "用开集、不同拓扑和恒等映射构造连续双射但逆不连续的例子。"
+    },
+    {
+      "title": "被高数虐是一种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/512026433",
+      "summary": "正文用邻域、聚点、闭包等语言讲解稠密集，并说明其拓扑背景。"
+    },
+    {
+      "title": "三维围棋可行吗？难度有多大？",
+      "url": "https://www.zhihu.com/answer/532251152",
+      "summary": "正文从区域与洞的拓扑结构分析三维围棋做眼为何复杂。"
+    },
+    {
+      "title": "如何看待阿里的全球数学竞赛？",
+      "url": "https://www.zhihu.com/answer/538575225",
+      "summary": "正文逐题分析几何拓扑竞赛题的拓扑对象与工具。"
+    },
+    {
+      "title": "数学中的「图论」是什么?",
+      "url": "https://www.zhihu.com/answer/542664197",
+      "summary": "正文给出拓扑学的基本定义并说明其与图论的关系。"
+    },
+    {
+      "title": "搞理论物理的人数学要学到什么程度？",
+      "url": "https://www.zhihu.com/answer/571032869",
+      "summary": "正文说明理论物理所需的拓扑空间基础。"
+    },
+    {
+      "title": "如果时间无限的话，能不能写完 [0, 1] 之间的所有实数？",
+      "url": "https://www.zhihu.com/answer/579258039",
+      "summary": "正文明确用实数拓扑建立时间模型。"
+    },
+    {
+      "title": "哪些看似毫不相干的事物具有相同的数学原理？",
+      "url": "https://www.zhihu.com/answer/594546845",
+      "summary": "正文以流形上的 Lefschetz 不动点定理说明 supertrace 的拓扑不变量。"
+    },
+    {
+      "title": "中国普通民众的拓扑学知识是怎样的水平？",
+      "url": "https://www.zhihu.com/answer/595338952",
+      "summary": "正文列举拓扑学基本概念与入门渠道。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/598520828",
+      "summary": "正文在整数集合上定义拓扑开集。"
+    },
+    {
+      "title": "如何通俗地理解聚点孤立点？",
+      "url": "https://www.zhihu.com/answer/611309320",
+      "summary": "正文用邻域定义集合的孤立点。"
+    },
+    {
+      "title": "数学家乌伦贝克获 2019 年度阿贝尔奖，成为该奖首位女性得主，她在现代几何分析等领域有哪些成就？",
+      "url": "https://www.zhihu.com/answer/628105755",
+      "summary": "讨论流形、同伦类和极小曲面之间的拓扑约束。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/655761957",
+      "summary": "以球面向量场说明拓扑结构对连续场的限制。"
+    },
+    {
+      "title": "照亮一个球面至少需要几个点光源？",
+      "url": "https://www.zhihu.com/answer/692447872",
+      "summary": "用闭覆盖与对径点结论处理球面照明问题。"
+    },
+    {
+      "title": "为什么 sin(x²)+sin(y²)=1 的图像这么复杂？",
+      "url": "https://www.zhihu.com/answer/692514038",
+      "summary": "从连通性判断等值集的拓扑结构。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/705200215",
+      "summary": "用 Brouwer 不动点定理解释日常位置问题。"
+    },
+    {
+      "title": "世界上最短的数学论文研究的是什么？",
+      "url": "https://www.zhihu.com/answer/708151454",
+      "summary": "正文说明该证明使用集合上的拓扑以及开集、闭集定义。"
+    },
+    {
+      "title": "数学该不该被踢出高考？数学有什么用处？",
+      "url": "https://www.zhihu.com/answer/736199111",
+      "summary": "正文具体讨论拓扑变换、局部与整体结构的差异以及拓扑理念的影响。"
+    },
+    {
+      "title": "有哪些数学定理的推出过程是值得细细品味的？",
+      "url": "https://www.zhihu.com/answer/774394553",
+      "summary": "构造整数集上的拓扑并验证开集性质。"
+    },
+    {
+      "title": "多元函数微分中为什么引入聚点概念？",
+      "url": "https://www.zhihu.com/answer/786664028",
+      "summary": "用邻域与聚点保证逼近过程存在。"
+    },
+    {
+      "title": "什么样的女生会让男生不喜欢？",
+      "url": "https://www.zhihu.com/answer/817753025",
+      "summary": "正文构造一般度量空间中闭有界但不紧的反例，并讨论 Hausdorff 空间紧集性质。"
+    },
+    {
+      "title": "能否以通俗的语言解释borel集？",
+      "url": "https://www.zhihu.com/answer/826902516",
+      "summary": "以拓扑空间开集生成 Borel sigma 代数。"
+    },
+    {
+      "title": "什么是邻域?",
+      "url": "https://www.zhihu.com/answer/860393389",
+      "summary": "从开球、度量推广到拓扑邻域的定义。"
+    },
+    {
+      "title": "如何理解数学中的序结构,代数结构和拓扑结构？",
+      "url": "https://www.zhihu.com/answer/915478367",
+      "summary": "正文解释在集合上研究子集关系所形成的拓扑结构及其抽象动机。"
+    },
+    {
+      "title": "有哪些很容易让普通人误解的学术名词？",
+      "url": "https://www.zhihu.com/answer/976698381",
+      "summary": "正文从开集公理定义拓扑与拓扑空间并给出实例。"
+    },
+    {
+      "title": "怎样理解弱拓扑概念？",
+      "url": "https://www.zhihu.com/answer/1005478907",
+      "summary": "正文从定义到构造系统讲解弱拓扑。"
+    },
+    {
+      "title": "数学中，定义极限的目的是什么？是为了解决什么问题？为什么极限理论能很好地解决这类问题并被大家所接受？",
+      "url": "https://www.zhihu.com/answer/1029191255",
+      "summary": "正文用拓扑空间中的闭集给出稠密性的严格定义。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/1048305279",
+      "summary": "正文陈述平面 Jordan 曲线的拓扑分割定理并给出曲面分类证明梗概。"
+    },
+    {
+      "title": "请问开集和闭集如何理解？",
+      "url": "https://www.zhihu.com/answer/1071427708",
+      "summary": "正文用内点、外点和边界直观解释开集与闭集。"
+    },
+    {
+      "title": "请问开集和闭集如何理解？",
+      "url": "https://www.zhihu.com/answer/1073002709",
+      "summary": "正文从度量空间的开闭集逐步构造拓扑空间、闭包、内部和连续映射。"
+    },
+    {
+      "title": "拓扑空间分别定义子基和基的意义是什么？",
+      "url": "https://www.zhihu.com/answer/1086386545",
+      "summary": "正文具体比较基与子基生成拓扑的方式和意义。"
+    },
+    {
+      "title": "流形、微分几何研究的具体是什么？能不能用简单的话总结一下？",
+      "url": "https://www.zhihu.com/answer/1097153489",
+      "summary": "正文区分微分拓扑与微分几何关注的性质。"
+    },
+    {
+      "title": "如何通俗地理解聚点孤立点？",
+      "url": "https://www.zhihu.com/answer/1152650708",
+      "summary": "正文依据邻域定义比较孤立点、聚点和边界点。"
+    },
+    {
+      "title": "现在的数学都在研究什么？有哪些前沿领域与研究？",
+      "url": "https://www.zhihu.com/answer/1154901698",
+      "summary": "正文实质解释点集拓扑如何把实数轴性质推广到一般空间。"
+    },
+    {
+      "title": "怎么通俗的理解有界闭集，紧集，列紧集？",
+      "url": "https://www.zhihu.com/answer/1156012522",
+      "summary": "正文在度量空间和拓扑空间中比较紧集、列紧集与完全有界闭集。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/1156951881",
+      "summary": "正文具体说明离散拓扑构造分类空间的思路。"
+    },
+    {
+      "title": "高一学生如何入门拓扑学？",
+      "url": "https://www.zhihu.com/answer/1159998490",
+      "summary": "正文解释用点集拓扑语言理解分析和一般空间。"
+    },
+    {
+      "title": "Cauchy定理的证明是否依赖于Jordan曲线定理？",
+      "url": "https://www.zhihu.com/answer/1295988811",
+      "summary": "正文讨论证明所需区域拓扑性质。"
+    },
+    {
+      "title": "《三体3：死神永生》里面，高级文明通过修改数学规律进行星际战争是啥样的?",
+      "url": "https://www.zhihu.com/answer/1301623504",
+      "summary": "正文用度量空间的开球与闭球定义说明不同几何结构。"
+    },
+    {
+      "title": "任意给定 E⊆Rn，是否一定存在 f:Rn → R，使得 f 的连续点集恰好为 E ？",
+      "url": "https://www.zhihu.com/answer/1301793458",
+      "summary": "正文用拓扑中 G-delta 集刻画函数的连续点集。"
+    },
+    {
+      "title": "在拓扑学中，开集的有限次交仍为开集，而不允许无限次交，这么定义的动机是什么？",
+      "url": "https://www.zhihu.com/answer/1322927275",
+      "summary": "正文直接讲解“拓扑空间”相关内容。"
+    },
+    {
+      "title": "如何理解拓扑熵（topological entropy）？",
+      "url": "https://www.zhihu.com/answer/1347039489",
+      "summary": "正文在紧致拓扑空间和连续自映射上定义开覆盖、加细与拓扑熵。"
+    },
+    {
+      "title": "构造微分流形这个概念的动机是什么？",
+      "url": "https://www.zhihu.com/answer/1386703179",
+      "summary": "正文用拓扑空间开集定义流形局部。"
+    },
+    {
+      "title": "如何构建一套完整的数学知识体系？",
+      "url": "https://www.zhihu.com/answer/1397642008",
+      "summary": "正文用开集、闭集、连续、连通和紧集等概念展开拓扑空间及其作为现代分析通用语言的作用。"
+    },
+    {
+      "title": "如何评价菲尔兹奖得主 Vladimir Voevodsky？",
+      "url": "https://www.zhihu.com/answer/1403609386",
+      "summary": "正文用连通分支及其空间性质讨论拓扑空间。"
+    },
+    {
+      "title": "二维空间有四色定理，那三维空间中存在 n 色定理吗？如果有，那么是几色定理？",
+      "url": "https://www.zhihu.com/answer/1409458957",
+      "summary": "正文讨论四色定理、曲面染色、拓扑结构与黎曼曲率。"
+    },
+    {
+      "title": "如何直观地解释「紧致性」？",
+      "url": "https://www.zhihu.com/answer/1442703236",
+      "summary": "正文直接讲解或推导“拓扑空间”相关内容。"
+    },
+    {
+      "title": "数学中，有哪些方程和思想让你体会到了美感？",
+      "url": "https://www.zhihu.com/answer/1465518660",
+      "summary": "正文讨论流形拓扑结构对向量场行为的限制。"
+    },
+    {
+      "title": "中国不教逻辑学吗？为什么？",
+      "url": "https://www.zhihu.com/answer/1510639585",
+      "summary": "正文解释逻辑模型如何给离散对象赋予拓扑与连续性。"
+    },
+    {
+      "title": "拓扑序和（Lurie定义的）拓扑场论有什么联系和区别？",
+      "url": "https://www.zhihu.com/answer/1511388073",
+      "summary": "正文讨论流形拓扑与拓扑不变场论。"
+    },
+    {
+      "title": "初学交换代数，为什么要引入 Zariski 拓扑？",
+      "url": "https://www.zhihu.com/answer/1612353062",
+      "summary": "正文直接讨论或应用该叶节点主题（拓扑）。"
+    },
+    {
+      "title": "有哪些值得推荐的《拓扑学》教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1626940410",
+      "summary": "正文按点集拓扑等方向系统推荐教材。"
+    },
+    {
+      "title": "拓扑学有什么书目推荐？",
+      "url": "https://www.zhihu.com/answer/1699573855",
+      "summary": "正文比较一般拓扑教材和基础概念覆盖。"
+    },
+    {
+      "title": "四维流形有类似二维闭流形按亏格g分类的定理吗？",
+      "url": "https://www.zhihu.com/answer/1723045124",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "怎么用拓扑结构来刻画实数集？",
+      "url": "https://www.zhihu.com/answer/1813580635",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "既然有理数是稠密的，那么为什么存在无理数？",
+      "url": "https://www.zhihu.com/answer/1848007647",
+      "summary": "正文用拓扑空间和邻域定义稠密性。"
+    },
+    {
+      "title": "为什么拓扑学起来感觉特别爽？",
+      "url": "https://www.zhihu.com/answer/1933053309",
+      "summary": "正文直接讨论并支撑「拓扑空间」相关内容。"
+    },
+    {
+      "title": "为什么拓扑学起来感觉特别爽？",
+      "url": "https://www.zhihu.com/answer/1936821401",
+      "summary": "正文直接讨论并支撑「拓扑空间」相关内容。"
+    },
+    {
+      "title": "什么样的神经科学/心理学涉及到图论（Graph Theory）和拓扑学（Topology）呢?",
+      "url": "https://www.zhihu.com/answer/1938381579",
+      "summary": "正文直接讨论并支撑「拓扑空间」相关内容。"
+    },
+    {
+      "title": "拓扑学能解决哪些分析学无法解决的问题？",
+      "url": "https://www.zhihu.com/answer/1942662189",
+      "summary": "正文以拓扑结构变化研究分析学中的临界点问题。"
+    },
+    {
+      "title": "数学为什么需要证明一些看起来非常直观、明显的东西（比如定理）？",
+      "url": "https://www.zhihu.com/answer/2035095625",
+      "summary": "正文讨论复杂曲线下直观内部外部判断的失效。"
+    },
+    {
+      "title": "如何证明不全无界的两不相交闭集之间的的距离大于0？",
+      "url": "https://www.zhihu.com/answer/2079091591",
+      "summary": "正文在一般度量空间中讨论开集、闭集和紧性。"
+    },
+    {
+      "title": "数学分析中的聚点？",
+      "url": "https://www.zhihu.com/answer/2090732659",
+      "summary": "正文用邻域、开区域与边界集解释点集拓扑中的聚点。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/2103786419",
+      "summary": "正文讨论连通黎曼曲面的覆叠与基本群、拓扑结构。"
+    },
+    {
+      "title": "哪些数学书让你相见恨晚？",
+      "url": "https://www.zhihu.com/answer/2116481026",
+      "summary": "正文具体说明该书以闭曲面分类为主线，并展开复叠空间、基本群等拓扑工具。"
+    },
+    {
+      "title": "如何理解tangent/vector bundle、vector field和section的关系？",
+      "url": "https://www.zhihu.com/answer/2116622918",
+      "summary": "正文用底流形、纤维和局部平凡化解释丛的拓扑结构。"
+    },
+    {
+      "title": "拓扑学中有哪些只对低维成立的定理？",
+      "url": "https://www.zhihu.com/answer/2116986848",
+      "summary": "正文讨论不同维数闭流形是否可三角剖分。"
+    },
+    {
+      "title": "实变函数，泛函分析，拓扑学中重要的定理概念有哪些？",
+      "url": "https://www.zhihu.com/answer/2128239584",
+      "summary": "正文讨论乘积空间紧致性及拓扑学核心定理。"
+    },
+    {
+      "title": "拓扑学为什么在现代数学里很重要？",
+      "url": "https://www.zhihu.com/answer/2177485184",
+      "summary": "正文解释拓扑结构如何把连续性从欧氏空间推广到一般集合。"
+    },
+    {
+      "title": "数学在神经科学领域中比较成功的应用主要在哪些方面？",
+      "url": "https://www.zhihu.com/answer/2184815899",
+      "summary": "正文用节点、边、有向单纯形和局部结构解释神经网络的拓扑建模。"
+    },
+    {
+      "title": "如何入门拓扑序方面理论?",
+      "url": "https://www.zhihu.com/answer/2195960670",
+      "summary": "正文以空间孔洞和基态简并解释系统所在空间的拓扑性质。"
+    },
+    {
+      "title": "怎样评价布尔巴基学派？",
+      "url": "https://www.zhihu.com/answer/2235295456",
+      "summary": "正文把结构上加入极限运算与拓扑学联系起来。"
+    },
+    {
+      "title": "有哪些数学上的定理让你感觉「这不显然吗，这还用证明」？",
+      "url": "https://www.zhihu.com/answer/2258672693",
+      "summary": "正文以 Jordan 曲线定理说明平面被简单闭曲线分成两部分。"
+    },
+    {
+      "title": "罗氏几何，黎曼几何，古典微分几何，近代微分几何，现代微分几何，微分流形，拓扑学的关系是什么?",
+      "url": "https://www.zhihu.com/answer/2263146980",
+      "summary": "正文用连续变换和橡皮泥类比解释拓扑学研究对象。"
+    },
+    {
+      "title": "泛函分析的精髓、基本套路、用途是什么？",
+      "url": "https://www.zhihu.com/answer/2304909703",
+      "summary": "正文解释弱拓扑与弱收敛为何更易得到紧性。"
+    },
+    {
+      "title": "什么是描述集合论（descriptive set theory）？",
+      "url": "https://www.zhihu.com/answer/2305826783",
+      "summary": "正文把描述集合论定位为 Borel 集及其拓扑复杂度研究。"
+    },
+    {
+      "title": "哲学里的大多哲学概念都缺乏严格的数学定义吗？",
+      "url": "https://www.zhihu.com/answer/2322954510",
+      "summary": "正文列出拓扑紧性的刻画并解释收敛子网。"
+    },
+    {
+      "title": "数学系的你自学一门数学课程要花多久？",
+      "url": "https://www.zhihu.com/answer/2374756727",
+      "summary": "正文以拓扑空间和基本群课程作为具体学习场景。"
+    },
+    {
+      "title": "数学中有哪些表面没有关系但是内在有深刻联系的问题？",
+      "url": "https://www.zhihu.com/answer/2382848349",
+      "summary": "正文从拓扑空间中的 Borel 集与投影讨论集合结构。"
+    },
+    {
+      "title": "怎样评价华东师大《数学分析》？",
+      "url": "https://www.zhihu.com/answer/2391173229",
+      "summary": "正文讨论开集、开覆盖、紧致性和度量空间拓扑等拓扑空间概念。"
+    },
+    {
+      "title": "拓扑学究竟是一种什么样的学科？",
+      "url": "https://www.zhihu.com/answer/2412443287",
+      "summary": "正文直接区分拓扑学的主要分支，并说明点集拓扑对极限与连续等概念进行抽象。"
+    },
+    {
+      "title": "拓扑学究竟是一种什么样的学科？",
+      "url": "https://www.zhihu.com/answer/2412711320",
+      "summary": "正文从变换不变性切入，并用邻域解释拓扑空间的连续映射。"
+    },
+    {
+      "title": "对于当今数学来说，「几何」到底是什么？",
+      "url": "https://www.zhihu.com/answer/2518362574",
+      "summary": "用带结构的拓扑空间与层来解释几何研究对象。"
+    },
+    {
+      "title": "陈数（Chern number）与卷绕数（winding number）的区别与联系？",
+      "url": "https://www.zhihu.com/answer/2542166418",
+      "summary": "把基态投影算子视为 Grassmannian 元素，并讨论布里渊区到该空间的映射。"
+    },
+    {
+      "title": "什么数学领域研究随尺度变化而变化的性质？",
+      "url": "https://www.zhihu.com/answer/2550036345",
+      "summary": "介绍大尺度几何中的度量空间与粗等价定义。"
+    },
+    {
+      "title": "是否存在从 (0,1) 到 [0,1] 的连续双射？",
+      "url": "https://www.zhihu.com/answer/2558412109",
+      "summary": "用紧致性作为拓扑性质证明连续双射不存在，并讨论不连续点的拓扑结构。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/2573890860",
+      "summary": "用光锥拓扑基定义 Baire 空间，并讨论其开集、闭集与 Borel 复杂度。"
+    },
+    {
+      "title": "什么是拓扑？",
+      "url": "https://www.zhihu.com/answer/2575100871",
+      "summary": "给出拓扑空间的开集定义与三条公理，并解释并、交公理的意义。"
+    },
+    {
+      "title": "数学中有哪些最复杂的领域或最抽象的领域，复杂或抽象到什么程度？",
+      "url": "https://www.zhihu.com/answer/2669530106",
+      "summary": "正文给出拓扑的公理定义，并用超滤及其收敛关系刻画拓扑空间的闭包和拓扑结构。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/2687317813",
+      "summary": "正文在 Stone-Cech 紧化中考察闭包、超滤邻域和紧 Hausdorff 拓扑半群，用于证明范德瓦尔登定理。"
+    },
+    {
+      "title": "历史上是怎样发现连续性的定义可以和“开集的原像是开集”等价的？",
+      "url": "https://www.zhihu.com/answer/2732719832",
+      "summary": "正文说明 Hausdorff 以邻域概念定义拓扑空间，并将其作为连续性的一般定义。"
+    },
+    {
+      "title": "为什么要定义第一纲集和第二纲集？",
+      "url": "https://www.zhihu.com/answer/2746385581",
+      "summary": "正文以稠密集、无处稠密集和第一纲集等概念说明点集拓扑如何刻画实数集与函数。"
+    },
+    {
+      "title": "目前数学中最广义的极限定义是什么？",
+      "url": "https://www.zhihu.com/answer/2749937353",
+      "summary": "正文以邻域滤子及其加细定义一般拓扑空间中的收敛与极限，并讨论列紧性。"
+    },
+    {
+      "title": "数学分析中，为什么空集既是开集又是闭集呀？",
+      "url": "https://www.zhihu.com/answer/2825090720",
+      "summary": "正文追溯开集成为拓扑空间基本概念的历史，并说明现代拓扑空间定义如何由此形成。"
+    },
+    {
+      "title": "-1的开方早就该是NaN的，为啥除数为0就不作为又一种虚数的定义？",
+      "url": "https://www.zhihu.com/answer/2826814092",
+      "summary": "正文为含有 ∞ 与 Φ 的数系构造并分析拓扑开集，还讨论 Hausdorff、T1 和可度量化等拓扑性质。"
+    },
+    {
+      "title": "Borel 集的作用？意义？它为什么重要？",
+      "url": "https://www.zhihu.com/answer/2833043788",
+      "summary": "正文从开集生成的集族、波兰空间和 Borel 映射说明 Borel 集如何以拓扑结构为基础。"
+    },
+    {
+      "title": "如何证明素数无穷多？",
+      "url": "https://www.zhihu.com/answer/2947405207",
+      "summary": "正文定义整数上的等差开集，验证并集与交集条件，从而构造出一个拓扑空间。"
+    },
+    {
+      "title": "罗氏几何，黎曼几何，古典微分几何，近代微分几何，现代微分几何，微分流形，拓扑学的关系是什么?",
+      "url": "https://www.zhihu.com/answer/2960992389",
+      "summary": "正文用只关心形状而不关心尺寸和角度的说法解释拓扑学的对象。"
+    },
+    {
+      "title": "现代的数学研究抽象到了哪种地步？",
+      "url": "https://www.zhihu.com/answer/2974573466",
+      "summary": "正文给出 Grothendieck 拓扑中覆盖筛的定义及拉回、局部性和覆盖存在性条件。"
+    },
+    {
+      "title": "能不能把一切数学分支全部代数化？",
+      "url": "https://www.zhihu.com/answer/2985303312",
+      "summary": "正文讨论紧 Hausdorff 空间及其连续函数代数，并解释 Gelfand-Naimark 对偶怎样重建拓扑空间。"
+    },
+    {
+      "title": "现代的数学研究抽象到了哪种地步？",
+      "url": "https://www.zhihu.com/answer/2994716458",
+      "summary": "正文给出由集合、开集族和三条公理构成的拓扑空间定义，并解释连续性可由开集结构描述。"
+    },
+    {
+      "title": "拓扑学的动机和核心是什么？",
+      "url": "https://www.zhihu.com/answer/3002504534",
+      "summary": "正文从集合分类、连续函数以及连通性、紧性和 Hausdorff 性质解释拓扑学的研究对象与作用。"
+    },
+    {
+      "title": "拓扑学的动机和核心是什么？",
+      "url": "https://www.zhihu.com/answer/3003047927",
+      "summary": "正文把拓扑刻画为研究连续性的结构，并说明拓扑或几何如何帮助代数对象形成更实在的分类。"
+    },
+    {
+      "title": "拓扑学的动机和核心是什么？",
+      "url": "https://www.zhihu.com/answer/3016745878",
+      "summary": "正文解释一般拓扑空间作为底层语言的作用，并讨论流形、度量空间及非Hausdorff商空间。"
+    },
+    {
+      "title": "欧几里得为什么这么霸道，设了五条称为公理的东西，不准人问为什么？",
+      "url": "https://www.zhihu.com/answer/3052100322",
+      "summary": "正文以拓扑空间为例，说明无距离结构时不能用直线定义空间，并讨论豪斯多夫性质和连通性。"
+    },
+    {
+      "title": "完备性/稠密性/紧致性/列紧性/连通性/可分性，这些概念的直观物理/几何意义是什么样的？",
+      "url": "https://www.zhihu.com/answer/3071532928",
+      "summary": "正文围绕拓扑空间中的闭包、开覆盖、开集和序列，解释稠密、紧致、连通等基本性质。"
+    },
+    {
+      "title": "什么是流形？",
+      "url": "https://www.zhihu.com/answer/3092202907",
+      "summary": "正文说明拓扑空间的第二可数与豪斯多夫条件如何排除过大或病态空间，并讨论实射影空间的商拓扑。"
+    },
+    {
+      "title": "请问如何学好现代数学，如拓扑、李代数、群论、张量分析之类。感觉现代数学威力强大，但是好难理解？",
+      "url": "https://www.zhihu.com/answer/3107186937",
+      "summary": "正文概述拓扑以连续映射和代数结构研究几何体，并说明用简单几何体分析复杂对象的思想。"
+    },
+    {
+      "title": "有哪些历史上数学证明与推导，直接刷新你当时认知观？",
+      "url": "https://www.zhihu.com/answer/3120866837",
+      "summary": "正文定义整数上的等差数列基与开集，验证这些开集组成拓扑，并讨论非空开集的无限性。"
+    },
+    {
+      "title": "请问代数几何中的层论大致讲的什么？",
+      "url": "https://www.zhihu.com/answer/3134936270",
+      "summary": "正文从拓扑空间的开集、函数限制与开覆盖粘合出发，解释层如何组织局部和全局函数。"
+    },
+    {
+      "title": "从分析角度看，紧集这一定义的数学动机是什么？",
+      "url": "https://www.zhihu.com/answer/3144607979",
+      "summary": "正文给出紧集的任意开覆盖具有有限子覆盖这一定义，并说明其把无限问题化为有限操作的作用。"
+    },
+    {
+      "title": "如果不承认选择公理，现代数学会变成什么样子？",
+      "url": "https://www.zhihu.com/answer/3145315856",
+      "summary": "正文具体讨论拓扑定义及位象等替代结构如何承担拓扑研究功能，属于对拓扑空间基础的实质说明。"
+    },
+    {
+      "title": "在任意拓扑空间X中任给两个拓扑τ和σ，是否必然存在一个同时细于τ和σ的最粗糙的拓扑？",
+      "url": "https://www.zhihu.com/answer/3146158632",
+      "summary": "正文系统讨论集合上的拓扑、粗细关系、有限交与任意并，以及全体拓扑构成的完备格。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/3236479951",
+      "summary": "正文在拓扑空间中定义闭包和取补两种运算，并陈述交替施用最多形成十四个集合的定理。"
+    },
+    {
+      "title": "非数学专业想自学数学，大佬们有什么建议吗？",
+      "url": "https://www.zhihu.com/answer/3238127500",
+      "summary": "正文用开邻域、开集、闭集和连续映射具体解释点集拓扑，并说明如何由开集公理化得到拓扑空间。"
+    },
+    {
+      "title": "为什么说「复数是完美的」？",
+      "url": "https://www.zhihu.com/answer/3245298607",
+      "summary": "正文用局部紧致性、单点紧致化和Riemann球面说明复数域上的拓扑空间性质。"
+    },
+    {
+      "title": "什么样的拓扑空间中任何一个自身到自身的连续映射必有不动点？",
+      "url": "https://www.zhihu.com/answer/3300444210",
+      "summary": "正文定义不动点性质与不动点空间，并讨论哪些拓扑空间具有连续自映射的不动点。"
+    },
+    {
+      "title": "拓扑学的动机和核心是什么？",
+      "url": "https://www.zhihu.com/answer/3325708407",
+      "summary": "正文从开集和开覆盖定义拓扑空间中的紧致性，并讨论有限集的紧致性和序列紧致性。"
+    },
+    {
+      "title": "纯数而言，你觉得分析更难还是代数更难？",
+      "url": "https://www.zhihu.com/answer/3326063254",
+      "summary": "正文借开邻域和开集说明连续性，并以紧致性、度量和拓扑等价讨论拓扑空间的进入方式。"
+    },
+    {
+      "title": "拓扑学（点集）和逻辑学有什么联系相同的地方吗?",
+      "url": "https://www.zhihu.com/answer/3356832902",
+      "summary": "正文定义 Stone 空间为紧 Hausdorff 且开闭集构成基的拓扑空间，并展开其开闭集与连续映射结构。"
+    },
+    {
+      "title": "哪些数学定理在直觉上是对的，但证明起来很困难？",
+      "url": "https://www.zhihu.com/answer/3423808536",
+      "summary": "正文介绍Jordan曲线定理及其高维推广，讨论简单闭曲线如何将空间分离成两部分。"
+    },
+    {
+      "title": "你在教材中看到过最长的证明是什么？",
+      "url": "https://www.zhihu.com/answer/3500468785",
+      "summary": "正文说明交换 C* 代数的极大理想空间在 Gelfand 拓扑下成为紧 Hausdorff 空间。"
+    },
+    {
+      "title": "为什么Munkres拓扑学中说下面“这一段话没有任何意义，建议读者不予理会”？",
+      "url": "https://www.zhihu.com/answer/3564632517",
+      "summary": "正文通过开集、闭集及既开又闭集合的例子，具体说明拓扑空间中集合的基本性质。"
+    },
+    {
+      "title": "请问高维拓扑和低维拓扑的区别是什么？",
+      "url": "https://www.zhihu.com/answer/3588585681",
+      "summary": "正文按维数比较拓扑研究所用的 h-cobordism、surgery 和横截性工具，实质区分高维与低维拓扑问题的处理方式。"
+    },
+    {
+      "title": "中国普通民众的拓扑学知识是怎样的水平？",
+      "url": "https://www.zhihu.com/answer/3609237065",
+      "summary": "正文给出集合上拓扑的正式定义，说明空集、全集、任意并与有限交需要满足的公理。"
+    },
+    {
+      "title": "为什么对于无穷维的线性空间需要引入拓扑来讨论？",
+      "url": "https://www.zhihu.com/answer/3629669820",
+      "summary": "正文解释拓扑在研究无穷维线性空间及其算子时的结构性作用。"
+    },
+    {
+      "title": "如何直观地解释「紧致性」？",
+      "url": "https://www.zhihu.com/answer/3749103482",
+      "summary": "正文用无限集合可被有限次分组抓取完的直觉解释开覆盖的有限子覆盖，即紧致性这一拓扑性质。"
+    },
+    {
+      "title": "为什么要有紧集这个概念？",
+      "url": "https://www.zhihu.com/answer/8056074179",
+      "summary": "正文用抽屉原理、聚点、序列紧和有限覆盖解释紧性的直观含义，实质讨论了拓扑空间中的紧性概念。"
+    },
+    {
+      "title": "群论和拓扑学有什么关系？",
+      "url": "https://www.zhihu.com/answer/16159633138",
+      "summary": "正文用开集公理定义拓扑空间，并继续讨论闭集、邻域、子空间、积拓扑、连通性、Hausdorff性与紧致性。"
+    },
+    {
+      "title": "什么是“凝聚态数学”，为什么叫“凝聚态”？",
+      "url": "https://www.zhihu.com/answer/36456834486",
+      "summary": "正文说明凝聚态集以紧豪斯多夫空间上的层取代拓扑空间，并讨论拓扑空间范畴的缺陷。"
+    },
+    {
+      "title": "如何看待求真书院初中生在拓扑伽罗瓦理论课上不知道什么是空集？",
+      "url": "https://www.zhihu.com/answer/45985838549",
+      "summary": "正文以开集族包含空集这一条件解释拓扑空间定义中为何要把子集当作高一阶空间里的点。"
+    },
+    {
+      "title": "如何看待求真书院初中生在拓扑伽罗瓦理论课上不知道什么是空集？",
+      "url": "https://www.zhihu.com/answer/50454025885",
+      "summary": "正文以单位闭圆盘中的开集可以包含边界为例，讨论抽象拓扑空间与直观开集认知之间的冲突。"
+    },
+    {
+      "title": "拓扑与几何有什么区别呢？",
+      "url": "https://www.zhihu.com/answer/57901413257",
+      "summary": "正文明确比较几何有度量、拓扑无度量，并以空间中的洞说明拓扑关注的结构性质。"
+    },
+    {
+      "title": "粒子自旋到底是个运动性质还是几何性质？",
+      "url": "https://www.zhihu.com/answer/58607407128",
+      "summary": "正文从紧致性和连通性解释拓扑空间，区分连通、单连通与多连通空间。"
+    },
+    {
+      "title": "请问自学拓扑有什么路线？",
+      "url": "https://www.zhihu.com/answer/61648708745",
+      "summary": "正文说明拓扑空间由 R^n 抽象而来，并解释从函数空间研究点集拓扑的动机及关键性质。"
+    },
+    {
+      "title": "实数集上可以构造多少个拓扑?",
+      "url": "https://www.zhihu.com/answer/65366154506",
+      "summary": "正文由滤子的三条性质构造集合上的拓扑，并说明余有限拓扑可由 Frechet 滤子这样得到，实质展开拓扑空间的构造。"
+    },
+    {
+      "title": "公理系统的构建是否依赖于自然数的存在？",
+      "url": "https://www.zhihu.com/answer/69354208532",
+      "summary": "正文逐项给出命题、真假、证明和量词等逻辑概念的拓扑空间语义。"
+    },
+    {
+      "title": "蛇年将至，如果画一条小蛇将「福」字添满，你会怎么创作呢？",
+      "url": "https://www.zhihu.com/answer/85047223837",
+      "summary": "正文递归构造皮亚诺曲线和希尔伯特曲线，并计算一维曲线填满二维正方形时的豪斯多夫维数。"
+    },
+    {
+      "title": "如何真正从本质上理解数学?",
+      "url": "https://www.zhihu.com/answer/88308177111",
+      "summary": "正文借助集合、子集族和区域形变，专门介绍拓扑空间的定义以及拓扑所关注的基本性质。"
+    },
+    {
+      "title": "为什么国内数学系对数理逻辑的训练这么不重视？",
+      "url": "https://www.zhihu.com/answer/112248360213",
+      "summary": "正文以紧 Hausdorff 拓扑空间、开稠密集族和 Baire 范畴定理的推广构造集合论问题。"
+    },
+    {
+      "title": "有哪些数学定理今天看起来很平凡，但在当时的证明却很困难？",
+      "url": "https://www.zhihu.com/answer/113510497708",
+      "summary": "正文讨论 Jordan 曲线定理及其高维推广，说明简单闭曲线和球面嵌入如何把空间分成内外两个连通分支。"
+    },
+    {
+      "title": "数学中有哪些表面没有关系但是内在有深刻联系的问题？",
+      "url": "https://www.zhihu.com/answer/114344801381",
+      "summary": "正文介绍非交换拓扑如何用 C* 代数表示非交换空间，并以病态商空间和 Q-lattice 展开其拓扑思想。"
+    },
+    {
+      "title": "拓扑学的思想能帮助我们理解哪些日常现象？",
+      "url": "https://www.zhihu.com/answer/125217508081",
+      "summary": "正文把环形区域作为拓扑空间 Q，并用闭曲线能否收缩区分单连通与非单连通性。"
+    },
+    {
+      "title": "群论和拓扑学有什么关系？",
+      "url": "https://www.zhihu.com/answer/129992063047",
+      "summary": "正文在拓扑群语境中讨论群同态自动连续，并用该性质刻画同胚群的完备可分拓扑。"
+    },
+    {
+      "title": "为什么代数拓扑是有效的？",
+      "url": "https://www.zhihu.com/answer/1889402656340021621",
+      "summary": "正文从拓扑空间及流形的复杂性出发，说明高维空间难以分类，需要改用不变量加以区分。"
+    },
+    {
+      "title": "在数学学习中，你遇到过哪些有趣的同构？",
+      "url": "https://www.zhihu.com/answer/1892202134084224767",
+      "summary": "正文系统讨论零维空间、完全不连通空间、紧 Hausdorff 空间及开闭基，并给出相关引理和证明。"
+    },
+    {
+      "title": "三维空间有莫比乌斯环，四维空间有克莱因瓶，五维六维有什么？",
+      "url": "https://www.zhihu.com/answer/1920270216019018660",
+      "summary": "正文通过粘合对径点构造商空间，具体讲解了拓扑空间的商构造。"
+    },
+    {
+      "title": "掌握什么思想会让你的数学水平有质的飞跃?",
+      "url": "https://www.zhihu.com/answer/1928190449547449106",
+      "summary": "正文用定义域中的洞解释拓扑结构对恰当微分形式的阻碍。"
+    },
+    {
+      "title": "分析和拓扑的关系到底有多大？",
+      "url": "https://www.zhihu.com/answer/1932498729472071644",
+      "summary": "正文用开集原像、连通性和紧性等点集拓扑性质刻画连续映射及其介值性。"
+    },
+    {
+      "title": "你最喜欢的拓扑空间是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/1933790977899886091",
+      "summary": "正文把角球作为具体拓扑空间，说明其外空间并非单连通，并借此与标准球面的嵌入性质作对比。"
+    },
+    {
+      "title": "有没有比较浅显的拓扑学在数学分支中应用的例子？",
+      "url": "https://www.zhihu.com/answer/1940195930956619846",
+      "summary": "正文引用布劳威尔不动点定理，把图映射连续延拓到凸包，并通过连续映射必有不动点推出六贯棋不可能和棋。"
+    },
+    {
+      "title": "范畴论是否应当进入大一通识课程？",
+      "url": "https://www.zhihu.com/answer/1940352521618035051",
+      "summary": "正文在 Top 范畴中讨论拓扑空间、连续映射、收敛序列和紧性，说明可表函子如何把拓扑对象的结构性质转化为序列性质。"
+    },
+    {
+      "title": "怎么让不懂数学的人体会到抽象代数的魅力？",
+      "url": "https://www.zhihu.com/answer/1958579174592716917",
+      "summary": "正文构造商空间并讨论其局部锥点、边界和不可定向结构，进而用轨形分类拓扑对象。"
+    },
+    {
+      "title": "如何理解拓扑空间？",
+      "url": "https://www.zhihu.com/answer/1961190304423089081",
+      "summary": "正文从距离空间过渡到开集公理，定义拓扑空间并用开集解释邻域、闭包和连续性。"
+    },
+    {
+      "title": "完备性/稠密性/紧致性/列紧性/连通性/可分性，这些概念的直观物理/几何意义是什么样的？",
+      "url": "https://www.zhihu.com/answer/1961392652089005363",
+      "summary": "正文用开覆盖和有限子覆盖定义紧致性，并解释列紧、连通等拓扑空间性质。"
+    },
+    {
+      "title": "拓扑学上的紧致性怎样理解？有何运用？",
+      "url": "https://www.zhihu.com/answer/1963634109835346476",
+      "summary": "正文用任意开覆盖存在有限子覆盖定义紧致性，并解释闭且有界、序列紧致及连续映射下像的紧致性。"
+    },
+    {
+      "title": "怎样理解“单点紧化”？",
+      "url": "https://www.zhihu.com/answer/1963637376027957081",
+      "summary": "正文从紧致拓扑空间出发，添加无穷远点并定义闭紧集补集为新邻域，完整构造并证明单点紧化。"
+    },
+    {
+      "title": "全纯函数会表现出不同于实可微函数的性质的根本原因是什么？",
+      "url": "https://www.zhihu.com/answer/1970384878777397283",
+      "summary": "正文从开集、闭集和开映射的拓扑行为出发，解释全纯函数的刚性与最大模原理。"
+    },
+    {
+      "title": "数学这个专业难度高吗?",
+      "url": "https://www.zhihu.com/answer/1971200106561790857",
+      "summary": "正文从度量空间过渡到由开集公理定义的拓扑空间，并说明该定义如何摆脱距离结构。"
+    },
+    {
+      "title": "数学专业是不是最难学的？",
+      "url": "https://www.zhihu.com/answer/1971200260886987942",
+      "summary": "正文从度量空间过渡到由开集公理定义的拓扑空间，并说明该定义如何摆脱距离结构。"
+    },
+    {
+      "title": "有哪些十分常见的单词有其他罕见的意思？",
+      "url": "https://www.zhihu.com/answer/1972367728774972032",
+      "summary": "正文用有限开覆盖给出紧集的精确定义，并以开集、邻域等例子说明拓扑术语。"
+    },
+    {
+      "title": "代数几何是什么样的几何？",
+      "url": "https://www.zhihu.com/answer/1980229808970547927",
+      "summary": "正文解释 Zariski 拓扑的开集稀疏性及其导致 flasque 常值层和层上同调消失的后果。"
+    },
+    {
+      "title": "为什么对于无穷维的线性空间需要引入拓扑来讨论？",
+      "url": "https://www.zhihu.com/answer/1984535009391038976",
+      "summary": "正文比较有限维与无穷维线性空间上的拓扑，说明 Hausdorff、第一可数、紧性和收敛方式的差异。"
+    },
+    {
+      "title": "n元集合上有多少个拓扑？",
+      "url": "https://www.zhihu.com/answer/2003944920348643877",
+      "summary": "正文从开集族必须满足的并、交和包含空集与全集公理出发，讨论有限集合上拓扑的结构与计数。"
+    },
+    {
+      "title": "实数集上可以构造多少个拓扑?",
+      "url": "https://www.zhihu.com/answer/2003985403561137800",
+      "summary": "正文证明实数集上的拓扑势，并以开集族给出的上界和超滤子构造的下界夹住结果。"
+    },
+    {
+      "title": "复变函数如图，为什么只有n=1时，积分为2πi（我知道她是怎么算出来的，但是这是否有什么别的意义)？",
+      "url": "https://www.zhihu.com/answer/2005981886632198719",
+      "summary": "正文给出复叠映射与复叠空间的定义，并说明其以拓扑空间、开集、同胚和底空间为基本结构。"
+    },
+    {
+      "title": "既然x+2＝3的解是x＝1，那为啥两边求导的结果不同？",
+      "url": "https://www.zhihu.com/answer/2030131310027617148",
+      "summary": "正文用子空间拓扑、内点、开邻域和 Hausdorff 空间说明算子作用要求输入具备相应的拓扑结构。"
+    },
+    {
+      "title": "为什么现在数学系普遍不学椭圆函数、超几何函数等特殊函数？",
+      "url": "https://www.zhihu.com/answer/2030918774531024818",
+      "summary": "正文给出拓扑空间的开集公理，并说明它如何从连续性的度量定义中抽象出来。"
+    },
+    {
+      "title": "为什么数学上一些显而易见的事情数学家们也要编个定理出来？",
+      "url": "https://www.zhihu.com/answer/2033855282342777103",
+      "summary": "正文具体解释开集定义如何统一邻近、极限和连续等概念，体现拓扑空间定义的作用。"
+    },
+    {
+      "title": "如何真正从本质上理解数学?",
+      "url": "https://www.zhihu.com/answer/2033930915211130012",
+      "summary": "正文解释拓扑空间定义经过邻域、闭包和收敛等方案的演化，最终落在开集公理表述。"
+    },
+    {
+      "title": "如何理解开集、闭集、有界、完全有界、紧集、列紧集、自列紧集、稠密、完备等概念，学泛函，被这些概念绕晕？",
+      "url": "https://www.zhihu.com/answer/2035002239228585697",
+      "summary": "正文系统讲解开集、闭集、紧性、列紧性、稠密与完备性，并说明一般拓扑空间和度量空间中的关系差异。"
+    },
+    {
+      "title": "为什么对于无穷维的线性空间需要引入拓扑来讨论？",
+      "url": "https://www.zhihu.com/answer/2035038060119848624",
+      "summary": "正文解释拓扑线性空间为何要在线性结构上加入相容拓扑，以定义开集、连续性、收敛和闭性。"
+    },
+    {
+      "title": "请问庞加莱猜想为什么看上去容易理解，却这么难证明？",
+      "url": "https://www.zhihu.com/answer/2035733442231542123",
+      "summary": "正文用连续变形和本质不变性说明拓扑空间的研究对象。"
+    },
+    {
+      "title": "拓扑学的动机和核心是什么？",
+      "url": "https://www.zhihu.com/answer/2043672379755386267",
+      "summary": "正文从度量空间抽象出开集族，给出拓扑空间的定义，并解释任意并、有限交等拓扑公理。"
+    },
+    {
+      "title": "为什么数学上一些显而易见的事情数学家们也要编个定理出来？",
+      "url": "https://www.zhihu.com/answer/2049821152076472598",
+      "summary": "正文解释介值定理可由连通集在连续映射下保持连通这一拓扑性质推出。"
+    },
+    {
+      "title": "有没有什么东西画完三视图还没办法确定的?",
+      "url": "https://www.zhihu.com/answer/2050396045767713946",
+      "summary": "正文在 Hausdorff 度量下构造凸体空间，并用 Baire 纲定理讨论剩余集与一般位置。"
+    },
+    {
+      "title": "如何通俗地理解纤维丛？",
+      "url": "https://www.zhihu.com/answer/2069123341584163489",
+      "summary": "正文以局部平面无法拼成整体解释拓扑性的整体阻碍，实质讨论局部与整体结构。"
+    },
+    {
+      "title": "除了代数、拓扑、序，数学有没有可能还隐藏其他基础结构？",
+      "url": "https://www.zhihu.com/answer/2069331709443696309",
+      "summary": "正文用开集和极限概括拓扑所研究的连续性与邻近性，并给出连续变形的直观例子。"
+    },
+    {
+      "title": "Zero谈数学——聊聊\u0010拓扑（1）",
+      "url": "https://zhuanlan.zhihu.com/p/19940774",
+      "summary": "正文从开集公理出发定义拓扑空间，并介绍欧氏、平凡和离散等具体拓扑。"
+    },
+    {
+      "title": "Zero谈数学——聊聊\u0010拓扑（2）",
+      "url": "https://zhuanlan.zhihu.com/p/20090763",
+      "summary": "正文从开集出发说明如何脱离度量来描述连续性，并讨论离散拓扑、平凡拓扑及其对连续映射的影响。"
+    },
+    {
+      "title": "1.拓扑的引入",
+      "url": "https://zhuanlan.zhihu.com/p/20752295",
+      "summary": "正文从邻域和开集出发定义拓扑，说明拓扑空间是集合与邻近结构组成的整体。"
+    },
+    {
+      "title": "怎么用拓扑证明素数的无限性？",
+      "url": "https://zhuanlan.zhihu.com/p/20912230",
+      "summary": "正文在整数集上构造以无穷等差数列为基的拓扑，并利用其开闭集性质完成证明。"
+    },
+    {
+      "title": "Trivia: Hamilton-Cayley 定理",
+      "url": "https://zhuanlan.zhihu.com/p/22073634",
+      "summary": "正文使用 Zariski 拓扑的稠密开集和多项式函数连续性，把可对角化情形的零结论延拓到整个矩阵空间。"
+    },
+    {
+      "title": "点集拓扑学复习阶段性总结",
+      "url": "https://zhuanlan.zhihu.com/p/22296366",
+      "summary": "正文回顾拓扑空间的核心定义、开基、商拓扑、连通性与紧致性等拓扑性质。"
+    },
+    {
+      "title": "微分流形（一）",
+      "url": "https://zhuanlan.zhihu.com/p/22977034",
+      "summary": "正文用 Hausdorff、第二可数及局部欧氏性质定义拓扑流形，并说明其拓扑性质。"
+    },
+    {
+      "title": "预备篇：范畴与函子",
+      "url": "https://zhuanlan.zhihu.com/p/23206745",
+      "summary": "正文给出开集族对空集、全集、任意并和有限交封闭的拓扑空间定义，并解释其作用。"
+    },
+    {
+      "title": "一点微小的结论——紧性的一个等价刻画",
+      "url": "https://zhuanlan.zhihu.com/p/24856155",
+      "summary": "正文在拓扑空间中讨论紧集、开覆盖、序拓扑和闭映射，证明紧集与乘积投影闭映射的等价刻画。"
+    },
+    {
+      "title": "Topos (1) 从偏序集谈起",
+      "url": "https://zhuanlan.zhihu.com/p/23932934",
+      "summary": "正文用开集格讨论拓扑空间的结构、极限与分配性质。"
+    },
+    {
+      "title": "一、度量空间（Metric Spaces）",
+      "url": "https://zhuanlan.zhihu.com/p/25403503",
+      "summary": "正文介绍拓扑空间、一般拓扑学以及由度量定义的空间结构。"
+    },
+    {
+      "title": "0.3 泛函分析简史（2）：泛函分析的名字怎么来的？",
+      "url": "https://zhuanlan.zhihu.com/p/25960075",
+      "summary": "正文说明 Frechet 的抽象分析以集合、距离和极限为要素，并用现代语言指出其属于点集拓扑。"
+    },
+    {
+      "title": "（I）Banach空间和不动点定理 3: 紧性",
+      "url": "https://zhuanlan.zhihu.com/p/26519111",
+      "summary": "正文从开覆盖、有限子覆盖和列紧性定义一般拓扑空间中的紧集及等价关系。"
+    },
+    {
+      "title": "1 拓扑空间（Topological Spaces）",
+      "url": "https://zhuanlan.zhihu.com/p/26757659",
+      "summary": "正文给出开集三条件，并据此定义集合上的拓扑、开子集和拓扑空间。"
+    },
+    {
+      "title": "茅房武士异味录：全球数学家鬼畜刀法研究史略",
+      "url": "https://zhuanlan.zhihu.com/p/28142629",
+      "summary": "正文以单连通和有界性解释挂谷集的拓扑性质。"
+    },
+    {
+      "title": "从拓扑空间到微分流形（一）",
+      "url": "https://zhuanlan.zhihu.com/p/28700133",
+      "summary": "正文用开集公理定义拓扑并据此构造拓扑空间，具体讲解拓扑空间的基本结构。"
+    },
+    {
+      "title": "从拓扑空间到微分流形（二）",
+      "url": "https://zhuanlan.zhihu.com/p/28719868",
+      "summary": "正文定义乘积拓扑、邻域、内部、闭包、紧致性和 Hausdorff 空间等拓扑结构。"
+    },
+    {
+      "title": "转载：可测空间、测度空间及σ-代数",
+      "url": "https://zhuanlan.zhihu.com/p/29419263",
+      "summary": "正文用对交、并封闭且包含全集与空集的子集族定义拓扑和开集，实质介绍拓扑空间的构造。"
+    },
+    {
+      "title": "度量空间上映射的扩张，Tietze 扩张定理",
+      "url": "https://zhuanlan.zhihu.com/p/29655759",
+      "summary": "正文在拓扑空间和度量空间中讨论闭子集上连续实值函数的连续扩张问题。"
+    },
+    {
+      "title": "Zariski Topology and Cayley-Hamilton Theorem",
+      "url": "https://zhuanlan.zhihu.com/p/30115294",
+      "summary": "正文在无限域上引入由多项式零点集定义的 Zariski 拓扑，并证明稠密开集及多项式映射的连续性。"
+    },
+    {
+      "title": "二阶有限单群",
+      "url": "https://zhuanlan.zhihu.com/p/31072748",
+      "summary": "正文用开集族定义拓扑，并解释拓扑空间中开集与稠密集的基本含义。"
+    },
+    {
+      "title": "拓扑数据分析－持续同调（一）",
+      "url": "https://zhuanlan.zhihu.com/p/31734839",
+      "summary": "正文从开集公理定义拓扑空间，并讨论有限拓扑、特殊化预序和连通性。"
+    },
+    {
+      "title": "概形是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/32523602",
+      "summary": "正文在素谱上定义 Zariski 闭集并说明其构成拓扑空间。"
+    },
+    {
+      "title": "p-进世界的入口",
+      "url": "https://zhuanlan.zhihu.com/p/32888917",
+      "summary": "正文由 p 进绝对值引出非阿基米德拓扑，并说明开圆盘与完全不连通等拓扑性质。"
+    },
+    {
+      "title": "拓扑学|笔记整理（1）——集合，函数，关系",
+      "url": "https://zhuanlan.zhihu.com/p/33143298",
+      "summary": "正文从开集子集族和连续形变下的不变量出发引入拓扑空间及连通性、紧性。"
+    },
+    {
+      "title": "拓扑学|笔记整理（4）——引入，基，常见拓扑举例",
+      "url": "https://zhuanlan.zhihu.com/p/33444380",
+      "summary": "正文定义拓扑空间和开集，证明有限补拓扑，并系统讨论拓扑的基、子基及标准拓扑、下限拓扑和序拓扑。"
+    },
+    {
+      "title": "拓扑学|笔记整理（5）——常见拓扑举例（2），闭集，极限点",
+      "url": "https://zhuanlan.zhihu.com/p/33692808",
+      "summary": "正文定义积拓扑和子空间拓扑并证明相关基与子基性质，还系统讨论闭集、闭包与极限点。"
+    },
+    {
+      "title": "拓扑学|笔记整理（6）——连续函数，积拓扑（续）",
+      "url": "https://zhuanlan.zhihu.com/p/33789792",
+      "summary": "正文以开集原像定义拓扑空间的连续函数，并给出闭包、闭集和邻域等等价表述。"
+    },
+    {
+      "title": "拓扑学Ⅱ|笔记整理（1）——拓扑基本概念及性质，连续",
+      "url": "https://zhuanlan.zhihu.com/p/34986735",
+      "summary": "正文系统定义拓扑空间、开集、闭集、闭包和子空间，并讨论连续映射。"
+    },
+    {
+      "title": "拓扑学Ⅱ|笔记整理（2）——乘积空间，拓扑基，分离公理",
+      "url": "https://zhuanlan.zhihu.com/p/35050567",
+      "summary": "正文从两个拓扑空间构造乘积拓扑，并讨论拓扑基、连续映射和分离公理。"
+    },
+    {
+      "title": "拓扑学Ⅱ|笔记整理（3）——可数公理，Urysohn可度量化定理",
+      "url": "https://zhuanlan.zhihu.com/p/35125375",
+      "summary": "正文系统定义邻域基、C1 与 C2 公理，并证明 Lindelöf 与 Urysohn 可度量化定理。"
+    },
+    {
+      "title": "语言背后的代数学（七）：数学结构",
+      "url": "https://zhuanlan.zhihu.com/p/35196235",
+      "summary": "正文以开集公理定义拓扑空间，并说明有限交、任意并以及全集和空集的条件。"
+    },
+    {
+      "title": "拓扑学Ⅱ|笔记整理（4）——紧致性，列紧性",
+      "url": "https://zhuanlan.zhihu.com/p/35177017",
+      "summary": "正文在一般拓扑空间中定义列紧性与紧致性，并系统证明二者在度量空间中的联系及紧致性的运算性质。"
+    },
+    {
+      "title": "拓扑学Ⅱ|笔记整理（5）——部分习题答案解析(1)",
+      "url": "https://zhuanlan.zhihu.com/p/36029065",
+      "summary": "正文在拓扑空间中证明开集、闭包和内部等基本性质，系统讲解拓扑空间语言。"
+    },
+    {
+      "title": "拓扑学Ⅱ|笔记整理（5）——连通性",
+      "url": "https://zhuanlan.zhihu.com/p/35864474",
+      "summary": "正文从拓扑空间连通性的定义出发，系统讨论连通分支、局部连通和道路连通。"
+    },
+    {
+      "title": "多复变第一课-Poincare定理",
+      "url": "https://zhuanlan.zhihu.com/p/36387577",
+      "summary": "正文用开球的并定义开集，并据此定义区域和紧致子集。"
+    },
+    {
+      "title": "拓扑学Ⅱ|笔记整理（6）——商空间，闭曲面，代数拓扑起步",
+      "url": "https://zhuanlan.zhihu.com/p/36722787",
+      "summary": "正文定义商集、商拓扑到商映射，系统讲解如何由等价关系构造拓扑空间。"
+    },
+    {
+      "title": "数学分析笔记（一）——预备知识",
+      "url": "https://zhuanlan.zhihu.com/p/38392100",
+      "summary": "正文给出拓扑的开集族条件，并继续说明拓扑基与滤子基。"
+    },
+    {
+      "title": "实变函数笔记 第二章 点集",
+      "url": "https://zhuanlan.zhihu.com/p/40052296",
+      "summary": "正文从距离公理定义度量空间，并借助邻域讨论开集、闭集、完备集与紧集等拓扑性质。"
+    },
+    {
+      "title": "度量空间、赋范线性空间和拓扑空间的辨析",
+      "url": "https://zhuanlan.zhihu.com/p/42381836",
+      "summary": "正文给出开集族必须满足的三条性质，并据此定义拓扑和拓扑空间。"
+    },
+    {
+      "title": "MP6：几何与物理I：微分流形上的分析力学",
+      "url": "https://zhuanlan.zhihu.com/p/44008969",
+      "summary": "正文给出拓扑公理、开集、邻域和度量诱导拓扑等点集拓扑基础。"
+    },
+    {
+      "title": "MP13：纤维丛",
+      "url": "https://zhuanlan.zhihu.com/p/44304211",
+      "summary": "正文从拓扑空间上的向量空间族、连续投影和局部平凡同构给出向量丛定义。"
+    },
+    {
+      "title": "MP19：拓扑加油站(1)：道路连通、同伦、基本群",
+      "url": "https://zhuanlan.zhihu.com/p/44083782",
+      "summary": "正文给出拓扑空间公理以及连通、连通分支和不连通空间的分拆定义。"
+    },
+    {
+      "title": "数学分析笔记整理（四）",
+      "url": "https://zhuanlan.zhihu.com/p/44390864",
+      "summary": "正文从度量公理出发，系统定义邻域、开集、闭集和紧集，构造了后续拓扑空间的核心概念。"
+    },
+    {
+      "title": "区域不变定理",
+      "url": "https://zhuanlan.zhihu.com/p/46090354",
+      "summary": "正文用开区域、开集及其连续映射下的像来陈述和证明区域不变定理。"
+    },
+    {
+      "title": "MP67：典型群(1)：拓扑性质",
+      "url": "https://zhuanlan.zhihu.com/p/51199404",
+      "summary": "正文建立一般线性群的继承拓扑，用开集和连续映射说明其拓扑空间性质。"
+    },
+    {
+      "title": "孤立点是否一定是边界点",
+      "url": "https://zhuanlan.zhihu.com/p/52607100",
+      "summary": "正文用拓扑空间中的邻域定义孤立点和边界点，并比较欧氏空间与离散拓扑中的结论。"
+    },
+    {
+      "title": "从度量空间到拓扑空间",
+      "url": "https://zhuanlan.zhihu.com/p/54516805",
+      "summary": "正文从开集、有限交和任意并的封闭性给出拓扑及拓扑空间的公理化定义，并给出具体例子。"
+    },
+    {
+      "title": "纤维丛(1)",
+      "url": "https://zhuanlan.zhihu.com/p/57954768",
+      "summary": "正文以拓扑空间、连续满射、纤维和商空间为基础定义丛、主丛及其截面。"
+    },
+    {
+      "title": "复动力系统简介：I. Fatou and Julia dichotomy",
+      "url": "https://zhuanlan.zhihu.com/p/59159643",
+      "summary": "正文讨论 Fatou 集与 Julia 集的开闭性、稠密性和无孤立点等拓扑性质。"
+    },
+    {
+      "title": "我所理解的Grothendieck拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/59654056",
+      "summary": "正文把概形的开覆盖组织为 Grothendieck 拓扑，并以 site 和筛子推广经典拓扑。"
+    },
+    {
+      "title": "微分几何（一）",
+      "url": "https://zhuanlan.zhihu.com/p/59433518",
+      "summary": "正文从 Hausdorff 空间、邻域和拓扑空间的基本性质出发定义拓扑流形。"
+    },
+    {
+      "title": "数学分析笔记（九）——连续映射的一般理论",
+      "url": "https://zhuanlan.zhihu.com/p/56222743",
+      "summary": "正文系统定义开集、闭集、紧集和连通性等拓扑空间概念，并证明相关紧集性质。"
+    },
+    {
+      "title": "光滑流形初步(1)——一些概念和例子",
+      "url": "https://zhuanlan.zhihu.com/p/73717366",
+      "summary": "正文从第二可数、豪斯多夫拓扑空间及开邻域出发定义拓扑流形，明确使用了拓扑空间结构。"
+    },
+    {
+      "title": "紧致空间与单点紧化",
+      "url": "https://zhuanlan.zhihu.com/p/77235997",
+      "summary": "正文定义拓扑空间的开覆盖与有限子覆盖，并据此给出紧致空间定义。"
+    },
+    {
+      "title": "浅谈拓扑（一）",
+      "url": "https://zhuanlan.zhihu.com/p/88909067",
+      "summary": "正文从去除度量依赖的开集出发定义拓扑空间，并列举拓扑公理、粗细比较、闭包和收敛性的具体例子。"
+    },
+    {
+      "title": "MP129：从微分几何到代数几何(1)：函数层",
+      "url": "https://zhuanlan.zhihu.com/p/47077723",
+      "summary": "正文以拓扑空间的开集包含关系、开覆盖和交集相容性解释预层与层的构造。"
+    },
+    {
+      "title": "浅谈拓扑（二）",
+      "url": "https://zhuanlan.zhihu.com/p/93036920",
+      "summary": "正文定义子空间拓扑和度量拓扑，讨论开集公理及连续映射，属于拓扑空间理论的实质讲解。"
+    },
+    {
+      "title": "泛函分析期末总结(已凉)",
+      "url": "https://zhuanlan.zhihu.com/p/99125898",
+      "summary": "正文定义弱拓扑和弱星拓扑，说明其拓扑基、弱收敛、紧性以及与自反空间的关系。"
+    },
+    {
+      "title": "浅谈拓扑（四）",
+      "url": "https://zhuanlan.zhihu.com/p/104409997",
+      "summary": "正文定义 T1 至 T4 分离性公理，并讨论单点闭集、Hausdorff 极限唯一性及其相互关系。"
+    },
+    {
+      "title": "从点列收敛问题看泛函分析的内容",
+      "url": "https://zhuanlan.zhihu.com/p/104003128",
+      "summary": "正文从逐点收敛无法由距离描述引入拓扑空间，并定义拓扑收敛。"
+    },
+    {
+      "title": "拓扑空间",
+      "url": "https://zhuanlan.zhihu.com/p/123055646",
+      "summary": "正文由幂集、开集、有限交和任意并正式定义集合上的拓扑及拓扑空间。"
+    },
+    {
+      "title": "康托集相关问题整理",
+      "url": "https://zhuanlan.zhihu.com/p/129291583",
+      "summary": "正文把康托集作为通常拓扑的子空间，讨论其无处稠密、完全、紧致、完全不连通等拓扑性质。"
+    },
+    {
+      "title": "点集拓扑整理(4): 实数下限拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/136136301",
+      "summary": "正文定义Sorgenfrey直线的下限拓扑，并证明其可数性、分离性及平面拓扑性质。"
+    },
+    {
+      "title": "代数拓扑笔记(1) —— 胞腔复形",
+      "url": "https://zhuanlan.zhihu.com/p/138181088",
+      "summary": "正文先定义拓扑和，再以粘合映射和商空间构造胞腔复形，说明了相关拓扑空间结构。"
+    },
+    {
+      "title": "流形 (Manifolds): An Introduction -- (0) 一些预备知识",
+      "url": "https://zhuanlan.zhihu.com/p/139460753",
+      "summary": "正文用开球定义 R^n 中的开集、闭集与邻域，构成本文所需的拓扑基础。"
+    },
+    {
+      "title": "数学史浅述——用最粗浅的介绍帮你捋一遍数学的发展",
+      "url": "https://zhuanlan.zhihu.com/p/139716871",
+      "summary": "正文把只依赖结构和结构变化、忽略距离大小的研究概括为拓扑学。"
+    },
+    {
+      "title": "流形 (Manifolds) -- (6) 拓扑和拓扑流形",
+      "url": "https://zhuanlan.zhihu.com/p/144700635",
+      "summary": "正文从开集、基、邻域和连续映射等公理出发，系统介绍拓扑空间的基本结构。"
+    },
+    {
+      "title": "闭曲面的分类及曲面的三角剖分",
+      "url": "https://zhuanlan.zhihu.com/p/147532659",
+      "summary": "正文以无边、紧致、连通和二维流形等条件定义闭曲面，并讨论多边形粘合得到的商空间。"
+    },
+    {
+      "title": "点集拓扑(入门)的三种语言",
+      "url": "https://zhuanlan.zhihu.com/p/149070707",
+      "summary": "正文从开集、闭集、网、连续性、紧致性等定义出发，比较点集拓扑的三种证明语言。"
+    },
+    {
+      "title": "2.2 开集、内部；闭集、导集；闭包 基本关系",
+      "url": "https://zhuanlan.zhihu.com/p/149986700",
+      "summary": "正文在度量空间中系统定义开球、内部、边界、聚点、闭包和开闭集及其关系。"
+    },
+    {
+      "title": "五分钟了解拓扑学",
+      "url": "https://zhuanlan.zhihu.com/p/150120177",
+      "summary": "正文通过有限集和实数集的子集族实例说明拓扑、拓扑空间与开集。"
+    },
+    {
+      "title": "五分钟了解连续映射",
+      "url": "https://zhuanlan.zhihu.com/p/150326232",
+      "summary": "正文以拓扑空间和开集定义连续映射，并说明通常拓扑下的特例。"
+    },
+    {
+      "title": "(CW复形)胞腔复形",
+      "url": "https://zhuanlan.zhihu.com/p/156161408",
+      "summary": "正文以黏着 n 维胞腔和无限情形下的弱拓扑定义 CW 复形这一拓扑空间。"
+    },
+    {
+      "title": "硬核科普：什么是拓扑？",
+      "url": "https://zhuanlan.zhihu.com/p/214200642",
+      "summary": "正文从开集公理定义拓扑空间，并讨论如何由空间拓扑确定几何对象的结构。"
+    },
+    {
+      "title": "谨记！进击的紧集！！（一）",
+      "url": "https://zhuanlan.zhihu.com/p/189976295",
+      "summary": "正文先定义开覆盖，再以每个开覆盖都有有限子覆盖来刻画紧集，属于拓扑空间中的紧性概念。"
+    },
+    {
+      "title": "泛函分析（二）第一章 距离空间",
+      "url": "https://zhuanlan.zhihu.com/p/269474071",
+      "summary": "正文从距离空间的开球、开集和连续映射出发介绍距离拓扑的基本结构。"
+    },
+    {
+      "title": "The Baire space (Logician's reals)上的拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/274275990",
+      "summary": "正文以有限序列决定的 cones 为基本开集定义 Baire space 拓扑，并讨论其乘积拓扑刻画。"
+    },
+    {
+      "title": "微分拓扑—微分流形的基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/276574445",
+      "summary": "正文以 Hausdorff 空间和局部同胚到欧氏空间的条件定义流形，展开拓扑空间结构。"
+    },
+    {
+      "title": "消失的紧性——分析学中的紧集",
+      "url": "https://zhuanlan.zhihu.com/p/343228278",
+      "summary": "正文用开覆盖和有限子覆盖定义紧集，并讨论紧性在拓扑空间及连续映射下的性质。"
+    },
+    {
+      "title": "Munkres-拓扑学-习题及解答-第2章(2)",
+      "url": "https://zhuanlan.zhihu.com/p/352507387",
+      "summary": "正文证明子空间拓扑的继承一致性，并进一步比较积拓扑、序拓扑及其子空间拓扑。"
+    },
+    {
+      "title": "实变函数第04讲（集合：点的分类与点集的分类）",
+      "url": "https://zhuanlan.zhihu.com/p/360463670",
+      "summary": "正文以邻域定义内点、边界点和聚点，并讨论开集、闭集及任意并交性质，讲解点集拓扑结构。"
+    },
+    {
+      "title": "Etale Theory I: Etale Cohomology An Introduction",
+      "url": "https://zhuanlan.zhihu.com/p/364923718",
+      "summary": "正文定义 etale site、覆盖族和 Grothendieck topology，并说明怎样在其上定义层。"
+    },
+    {
+      "title": "拓扑学(1)",
+      "url": "https://zhuanlan.zhihu.com/p/366145856",
+      "summary": "正文从开集公理定义拓扑空间，并系统讲解闭集、邻域、拓扑基、分离公理与紧致性。"
+    },
+    {
+      "title": "现代机器人：力学，规划，控制（chapter2）自由度计算，拓扑学表示，三大空间",
+      "url": "https://zhuanlan.zhihu.com/p/369268801",
+      "summary": "正文以开区间连续变形为直线、球面与平面不可互变等例子实质讲解空间的拓扑等价性。"
+    },
+    {
+      "title": "拓扑学(2)",
+      "url": "https://zhuanlan.zhihu.com/p/369819124",
+      "summary": "正文定义商集、商拓扑和商空间，并讨论粘合映射与商映射的拓扑性质。"
+    },
+    {
+      "title": "【数学】不动点定理",
+      "url": "https://zhuanlan.zhihu.com/p/383393222",
+      "summary": "正文在完备度量空间和紧凸集合上讨论三种不动点定理，并解释连续性、紧性及上半连续性条件。"
+    },
+    {
+      "title": "点集拓扑学｜9. 同胚",
+      "url": "https://zhuanlan.zhihu.com/p/388092299",
+      "summary": "正文在拓扑空间框架下定义映射、子空间和拓扑性质，并讨论连续性。"
+    },
+    {
+      "title": "三角剖分：可以像切西瓜一样切流形吗？",
+      "url": "https://zhuanlan.zhihu.com/p/389102515",
+      "summary": "正文在拓扑空间框架下使用有限开覆盖、奇异点集、闭 2-cell 和商拓扑讨论闭曲面分类与剖分。"
+    },
+    {
+      "title": "小白拓补学｜2. 究竟什么是开集和闭集 (open set and closed set)？",
+      "url": "https://zhuanlan.zhihu.com/p/401688545",
+      "summary": "正文在度量空间中定义开球、开集与闭集，并说明开集对并集、有限交集和补集的性质。"
+    },
+    {
+      "title": "小白拓补学｜3. 究竟什么是极限点、边界点、孤立点、内点和外点？(limit point, boundary point, isolated point, interior and exterior)",
+      "url": "https://zhuanlan.zhihu.com/p/402104035",
+      "summary": "正文用邻域与集合及其补集的交关系定义极限点、边界点、孤立点、内点和外点，讲解拓扑空间中的点集概念。"
+    },
+    {
+      "title": "小白拓补学｜4. 究竟什么是紧集(compact set)？",
+      "url": "https://zhuanlan.zhihu.com/p/403213165",
+      "summary": "正文以开覆盖和有限子覆盖定义拓扑空间中的紧集，并讨论紧集的闭性、有界性及例子。"
+    },
+    {
+      "title": "​数学是所有科学的女王，如果你打算放弃数学，请先看看这篇文章",
+      "url": "https://zhuanlan.zhihu.com/p/427412971",
+      "summary": "正文把拓扑学定义为研究连续变形而不撕裂或粘合时保持不变的性质，并以咖啡杯与甜甜圈说明。"
+    },
+    {
+      "title": "描述集合论中一些漂亮的结论",
+      "url": "https://zhuanlan.zhihu.com/p/453021477",
+      "summary": "正文定义波兰空间并讨论 Cantor 空间、Baire 空间的拓扑性质、万有性质与 Borel 分层。"
+    },
+    {
+      "title": "纳什均衡的存在性证明",
+      "url": "https://zhuanlan.zhihu.com/p/454822666",
+      "summary": "正文用开集、闭集和单纯形说明布劳威尔不动点证明所需的拓扑结构。"
+    },
+    {
+      "title": "数学分析笔记——紧集与连续函数",
+      "url": "https://zhuanlan.zhihu.com/p/455454615",
+      "summary": "正文从任意开覆盖存在有限子覆盖定义紧集，并证明其闭性、有界性及连续映射下的紧致性，属于拓扑空间中的紧性概念。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】1.3 列紧集（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/457399432",
+      "summary": "正文从开覆盖定义拓扑空间中的紧集，并讨论其与列紧集的关系。"
+    },
+    {
+      "title": "复代数几何：affine scheme（已废弃）",
+      "url": "https://zhuanlan.zhihu.com/p/460852306",
+      "summary": "正文先定义集合、开集和拓扑结构，再在其上引入层及 Zariski 拓扑构造几何空间。"
+    },
+    {
+      "title": "将图嵌入曲面",
+      "url": "https://zhuanlan.zhihu.com/p/460458206",
+      "summary": "正文在两个拓扑空间之间定义嵌入，并把图嵌入曲面的问题放在拓扑空间框架中讨论。"
+    },
+    {
+      "title": "点集拓扑（1）：预备知识",
+      "url": "https://zhuanlan.zhihu.com/p/472923654",
+      "summary": "正文证明实数开集的并交性质，并明确指出这些性质正是拓扑空间的定义来源。"
+    },
+    {
+      "title": "希尔伯特零点定理——几何与代数的关系（一）",
+      "url": "https://zhuanlan.zhihu.com/p/473462113",
+      "summary": "正文以仿射代数集作为闭集构造 Zariski 拓扑，并讨论诺特拓扑空间及其不可约分解。"
+    },
+    {
+      "title": "「赢代拓扑学(Winbraic Topology)」: 简单导引 (赢理论研究生教材)",
+      "url": "https://zhuanlan.zhihu.com/p/491451961",
+      "summary": "正文从开球与开集出发给出拓扑和拓扑空间的定义及相应公理。"
+    },
+    {
+      "title": "赢代数几何学（Graduate Texts in Winnology 52）",
+      "url": "https://zhuanlan.zhihu.com/p/499947928",
+      "summary": "正文定义 Noetherian 拓扑空间，并用闭集降链和不可约闭集分解讨论拓扑性质。"
+    },
+    {
+      "title": "纽结的故事3：三维流形",
+      "url": "https://zhuanlan.zhihu.com/p/502478281",
+      "summary": "正文从局部欧氏开球邻域出发，将流形作为具有特定局部结构的拓扑空间来介绍。"
+    },
+    {
+      "title": "Luzin定理：重温与升华",
+      "url": "https://zhuanlan.zhihu.com/p/502936783",
+      "summary": "正文利用开集、闭集、紧集和子空间拓扑讨论集合的拓扑性质。"
+    },
+    {
+      "title": "希尔伯特零点定理——几何与代数的关系",
+      "url": "https://zhuanlan.zhihu.com/p/504197523",
+      "summary": "正文用代数集作为闭集构造扎里斯基拓扑，并讨论诺特拓扑空间及不可约分解。"
+    },
+    {
+      "title": "解析几何初步：完美胚理论（施工中）",
+      "url": "https://zhuanlan.zhihu.com/p/540706197",
+      "summary": "正文由赋值诱导邻域基和开集结构，并证明相应环成为 Hausdorff 拓扑环，实质讨论了一般拓扑结构。"
+    },
+    {
+      "title": "拓扑学入门0——欧几里得空间的拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/541326042",
+      "summary": "正文从欧氏空间的开球和开集出发，证明开集性质及连续性刻画，并由此引出赋予开集结构的拓扑空间。"
+    },
+    {
+      "title": "拓扑学入门1——拓扑空间",
+      "url": "https://zhuanlan.zhihu.com/p/541555560",
+      "summary": "正文由开集族公理定义拓扑空间，并讨论闭集、离散拓扑、平凡拓扑和有限补拓扑。"
+    },
+    {
+      "title": "拓扑学入门2——邻域、邻域基",
+      "url": "https://zhuanlan.zhihu.com/p/542535877",
+      "summary": "正文给出拓扑空间中邻域、开邻域和邻域基的定义，并证明开集判定及由邻域基构造唯一拓扑等定理。"
+    },
+    {
+      "title": "拓扑学入门3——基",
+      "url": "https://zhuanlan.zhihu.com/p/543144422",
+      "summary": "正文在拓扑空间中定义基与子基，并证明由基或子基生成唯一拓扑等结论。"
+    },
+    {
+      "title": "关于拓扑方法证明素数有无穷多个的一点点思考",
+      "url": "https://zhuanlan.zhihu.com/p/545646652",
+      "summary": "正文在整数集上以等差剩余类集族定义拓扑，并逐条验证开集公理。"
+    },
+    {
+      "title": "拓扑学入门9——紧性",
+      "url": "https://zhuanlan.zhihu.com/p/550429605",
+      "summary": "正文从覆盖和开覆盖定义拓扑空间的紧性，并证明紧集的若干基本性质。"
+    },
+    {
+      "title": "拓扑学基础与Gauss-Bonnet定理最速传说",
+      "url": "https://zhuanlan.zhihu.com/p/551634049",
+      "summary": "正文从开集公理出发定义拓扑空间，并讲解豪斯多夫空间等基本拓扑概念。"
+    },
+    {
+      "title": "拓扑学入门10——连通性",
+      "url": "https://zhuanlan.zhihu.com/p/551016158",
+      "summary": "正文严格定义拓扑空间及子集的连通性，并证明连续像、闭包、直积等基本性质。"
+    },
+    {
+      "title": "拓扑学入门17——滤子",
+      "url": "https://zhuanlan.zhihu.com/p/558332980",
+      "summary": "正文在拓扑空间中定义滤子、超滤子与滤子收敛，并用它们刻画闭包、连续性、豪斯多夫性和紧性。"
+    },
+    {
+      "title": "拓扑学入门18——网",
+      "url": "https://zhuanlan.zhihu.com/p/557948746",
+      "summary": "正文在一般拓扑空间中定义有向集与网，并用网的收敛刻画闭包、连续性、紧性和吉洪诺夫定理。"
+    },
+    {
+      "title": "同调",
+      "url": "https://zhuanlan.zhihu.com/p/569823213",
+      "summary": "正文以图形的拓扑分类切入，用连续变形、单形分割和不变量说明拓扑空间视角下的对象分类。"
+    },
+    {
+      "title": "Rudin工具箱|半连续函数",
+      "url": "https://zhuanlan.zhihu.com/p/585016297",
+      "summary": "正文在拓扑空间上利用开集定义上半连续与下半连续函数，并讨论其拓扑性质。"
+    },
+    {
+      "title": "拓扑是如何刻画连续性的？",
+      "url": "https://zhuanlan.zhihu.com/p/605929016",
+      "summary": "正文从欧氏空间开集抽象出开集公理并正式定义拓扑空间。"
+    },
+    {
+      "title": "Baire纲定理(Baire Category Theorem)",
+      "url": "https://zhuanlan.zhihu.com/p/612181451",
+      "summary": "正文用开集、闭包、无处稠密和局部紧 Hausdorff 空间等拓扑概念证明 Baire 空间性质。"
+    },
+    {
+      "title": "代数拓扑：同调（一）",
+      "url": "https://zhuanlan.zhihu.com/p/614393640",
+      "summary": "正文从开集出发构造Δ复形给出的拓扑，并明确说明其开集条件。"
+    },
+    {
+      "title": "几何学中最伟大的发明之一——流形，其背后的几何直觉与数学方法",
+      "url": "https://zhuanlan.zhihu.com/p/622263134",
+      "summary": "正文介绍邻域、开集公理、豪斯多夫性质和拓扑流形，用拓扑结构描述局部连续性。"
+    },
+    {
+      "title": "你可能永远无法想象，一个三维数学问题远比其他任意维问题复杂",
+      "url": "https://zhuanlan.zhihu.com/p/624604375",
+      "summary": "正文从连续变形、靠近关系和拓扑不变量介绍拓扑空间及其研究方式。"
+    },
+    {
+      "title": "一文入门微分几何（物理人版）",
+      "url": "https://zhuanlan.zhihu.com/p/629852598",
+      "summary": "从开集公理定义拓扑与拓扑空间，并用于构造连续映射和流形。"
+    },
+    {
+      "title": "试题解析 | 浙江大学2022~2023学年度春夏学期点集拓扑期末考试",
+      "url": "https://zhuanlan.zhihu.com/p/640235351",
+      "summary": "正文用开集、闭包、稠密和紧致等概念求解点集拓扑题，实质讲解了拓扑空间的性质。"
+    },
+    {
+      "title": "李群是什么——几何与代数的结合",
+      "url": "https://zhuanlan.zhihu.com/p/641464195",
+      "summary": "正文以局部欧氏性、第二可数性和豪斯多夫性定义拓扑流形，并讨论商拓扑与坐标卡。"
+    },
+    {
+      "title": "Cayley-Hamilton定理的拓扑证明",
+      "url": "https://zhuanlan.zhihu.com/p/643815882",
+      "summary": "正文把矩阵空间赋予度量拓扑，并利用可对角化矩阵的稠密性与映射连续性证明定理。"
+    },
+    {
+      "title": "从度量空间到拓扑空间:极限与连续概念的推广",
+      "url": "https://zhuanlan.zhihu.com/p/649646306",
+      "summary": "正文先说明连续、紧致和连通都能由开集刻画，再以开集性质定义拓扑空间并讨论连续映射。"
+    },
+    {
+      "title": "《数学分析》 60 有限覆盖定理 (海涅-博雷特定理) 的几种证明方式",
+      "url": "https://zhuanlan.zhihu.com/p/651191346",
+      "summary": "正文以开覆盖的有限子覆盖刻画紧集，这是拓扑空间中的紧致性定义。"
+    },
+    {
+      "title": "深入浅出的《拓扑学和张量分析》期末考试再也不用愁！",
+      "url": "https://zhuanlan.zhihu.com/p/651490954",
+      "summary": "正文给出拓扑空间的开集公理，并继续讲解连续映射、豪斯多夫性和紧致性。"
+    },
+    {
+      "title": "拓扑和分析学中最重要的概念——紧致性，高等数学的基石，只有跳出欧几里得空间才能真正理解",
+      "url": "https://zhuanlan.zhihu.com/p/651726497",
+      "summary": "正文以开覆盖和有限子覆盖解释一般拓扑空间中的紧致性，并讨论其拓扑性质。"
+    },
+    {
+      "title": "给宝宝看的《基础拓扑学讲义》（尤承业）笔记与思考",
+      "url": "https://zhuanlan.zhihu.com/p/645110618",
+      "summary": "正文从拓扑公理、开集、闭包和邻域等基础概念系统讲解拓扑空间。"
+    },
+    {
+      "title": "数学大厦轰然倒塌？……奇怪的的内积“悖论”",
+      "url": "https://zhuanlan.zhihu.com/p/659083412",
+      "summary": "正文的核心纠错是在同一线性空间上区分由 Hamel 基有限和给出的拓扑与序列空间原有范数拓扑。"
+    },
+    {
+      "title": "无孔不入：数学中的稠密",
+      "url": "https://zhuanlan.zhihu.com/p/659374891",
+      "summary": "正文从度量空间推广到拓扑空间，解释稠密性可脱离距离概念定义。"
+    },
+    {
+      "title": "拓扑和分析学中最重要的概念——紧致性，现代高等数学的基石",
+      "url": "https://zhuanlan.zhihu.com/p/672277863",
+      "summary": "正文从开覆盖定义紧致性，并解释拓扑或度规空间中的开集、闭集和紧致集。"
+    },
+    {
+      "title": "代数几何笔记(1)：从解析几何到代数簇",
+      "url": "https://zhuanlan.zhihu.com/p/643879787",
+      "summary": "正文证明仿射代数集满足闭集公理，并由此引入 Zariski 拓扑及不可约空间。"
+    },
+    {
+      "title": "高观点下的点集拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/675363536",
+      "summary": "正文从公理、开集和闭集讲起，并用平庸、离散、有限补和右拓扑等实例讨论拓扑空间。"
+    },
+    {
+      "title": "MIT牛人解说数学体系（转载）",
+      "url": "https://zhuanlan.zhihu.com/p/688530839",
+      "summary": "正文以开集、闭集、连续、连通和紧集说明点集拓扑空间如何推广实数轴上的分析。"
+    },
+    {
+      "title": "数可以做除法，图竟然也可以？",
+      "url": "https://zhuanlan.zhihu.com/p/690033067",
+      "summary": "正文以等价类和粘合操作构造球面、环面等商空间。"
+    },
+    {
+      "title": "Stein 《Complex Analysis》 Chapter 1 习题解答(1)",
+      "url": "https://zhuanlan.zhihu.com/p/693905656",
+      "summary": "正文证明开集的连通性与道路连通性等价，并讨论连通分支、局部道路连通和一般拓扑空间中的差异。"
+    },
+    {
+      "title": "拓扑学定理的组合形式",
+      "url": "https://zhuanlan.zhihu.com/p/703634562",
+      "summary": "正文从单纯形和单纯复形出发构造拓扑空间，并证明Brouwer不动点定理与Borsuk-Ulam定理的组合版本。"
+    },
+    {
+      "title": "乱谈数学与控制（续）正本清源",
+      "url": "https://zhuanlan.zhihu.com/p/698176373",
+      "summary": "正文说明状态空间的拓扑会形成控制障碍，并举例提到 Poincare-Hopf 定理和倒立摆。"
+    },
+    {
+      "title": "什么是测度——一些常见的测度",
+      "url": "https://zhuanlan.zhihu.com/p/670589989",
+      "summary": "正文为了定义Borel测度而明确给出开集、闭集、紧集和拓扑空间的定义。"
+    },
+    {
+      "title": "理论力学——流形上的拉格朗日力学",
+      "url": "https://zhuanlan.zhihu.com/p/3664297922",
+      "summary": "正文给出拓扑、开集、连续映射和拓扑流形的定义，为流形力学铺垫。"
+    },
+    {
+      "title": "数学三大核心领域：代数、几何、分析及其主要分支学科相关历史发展（数学人必藏）",
+      "url": "https://zhuanlan.zhihu.com/p/17219637421",
+      "summary": "正文从欧拉公式、距离空间和连续性出发介绍拓扑空间理论的形成。"
+    },
+    {
+      "title": "线性代数中的几何观念是如何诞生的",
+      "url": "https://zhuanlan.zhihu.com/p/20521571570",
+      "summary": "正文说明紧性和完备性如何从实数推广到抽象空间，并以此解释点集拓扑的抽象空间框架。"
+    },
+    {
+      "title": "【数学】黎曼几何浅解",
+      "url": "https://zhuanlan.zhihu.com/p/1924188443510046928",
+      "summary": "正文用 Hausdorff 性与第二可数性说明流形作为拓扑空间的基本条件。"
+    },
+    {
+      "title": "关于微分流形（？）其实是关于代数几何。",
+      "url": "https://zhuanlan.zhihu.com/p/2011854180332110938",
+      "summary": "正文从拓扑空间的开集范畴出发定义预层、层、茎和局部赋环空间。"
+    },
+    {
+      "title": "两位研究者彼得・舒尔茨（Peter Scholze）与达斯汀・克劳森（Dustin Clausen）正从底层重建数学大厦——译自量子杂志Quanta Magazine",
+      "url": "https://zhuanlan.zhihu.com/p/2041461229869324085",
+      "summary": "正文给出拓扑空间与开集公理，并解释通常、离散和不可离散拓扑的具体结构。"
+    },
+    {
+      "title": "宝宝用微分几何与纤维丛（连载中）",
+      "url": "https://zhuanlan.zhihu.com/p/2041538717177926508",
+      "summary": "正文严谨定义开集与拓扑，解释有限交、任意并的公理以及常见拓扑例子。"
+    }
+  ]
+}

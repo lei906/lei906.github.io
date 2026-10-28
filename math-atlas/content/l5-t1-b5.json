@@ -1,0 +1,981 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l5-t1-b5",
+  "sources": [
+    {
+      "title": "泊松括号（Poisson bracket）是怎么量子化到李括号（Lie bracket）的？",
+      "url": "https://www.zhihu.com/answer/37428476",
+      "summary": "正文直接说明泊松括号满足雅科比等式、构成李括号，并比较其额外代数结构。"
+    },
+    {
+      "title": "为何向量没有除法运算？",
+      "url": "https://www.zhihu.com/answer/43745363",
+      "summary": "正文以三维叉积满足Jacobi等式为例说明李代数结构。"
+    },
+    {
+      "title": "李群的伴随表示如何理解？",
+      "url": "https://www.zhihu.com/answer/82662725",
+      "summary": "正文定义李代数并由其构造李群的伴随表示。"
+    },
+    {
+      "title": "工科生学习微分几何和李群学习的建议？",
+      "url": "https://www.zhihu.com/answer/89652188",
+      "summary": "正文以 SO(3) 和刚体旋转为实例引入李群结构。"
+    },
+    {
+      "title": "粒子的自旋数是怎么得出来的，为什么有些是1/2，有些是1，2？可以用对称性求出来吗？",
+      "url": "https://www.zhihu.com/answer/92187439",
+      "summary": "正文用生成元组合、本征值和指数映射讨论李代数表示。"
+    },
+    {
+      "title": "中高考数学题中有没有背景很深刻的题目？",
+      "url": "https://www.zhihu.com/answer/113812822",
+      "summary": "正文定义括号运算并以 Casimir 算子说明李代数中的中心元。"
+    },
+    {
+      "title": "如何理解 Hopf 代数？",
+      "url": "https://www.zhihu.com/answer/120683622",
+      "summary": "正文从半单李代数的形变、上同调与刚性解释量子群相关代数结构。"
+    },
+    {
+      "title": "怎样定义一种运算来构造一个qq 群？",
+      "url": "https://www.zhihu.com/answer/123479480",
+      "summary": "正文说明量子群由李群的李代数包络代数量子化得到。"
+    },
+    {
+      "title": "各类科研领域中哪些公式，原理或定律的推出，用到了有趣的思维方式？",
+      "url": "https://www.zhihu.com/answer/123648201",
+      "summary": "正文交代猜想源于有限维李代数的category O与Verma模分解。"
+    },
+    {
+      "title": "累加的连续是积分，那么累乘的连续是什么？",
+      "url": "https://www.zhihu.com/answer/170659689",
+      "summary": "正文解释可逆矩阵从李群到李代数、李括号与 BCH 公式。"
+    },
+    {
+      "title": "什么是deformation quantization？",
+      "url": "https://www.zhihu.com/answer/188266759",
+      "summary": "正文以 DGLA 与 L∞ 代数的 Maurer-Cartan 形变函子说明李代数在形变理论中的作用。"
+    },
+    {
+      "title": "物理里有多少no go theorem引发的“血案”？",
+      "url": "https://www.zhihu.com/answer/189201471",
+      "summary": "正文推导非对易规范变换的李代数封闭性为何限制规范群。"
+    },
+    {
+      "title": "如何理解Maurer-Cartan形式？",
+      "url": "https://www.zhihu.com/answer/189305448",
+      "summary": "正文定义微分分次李代数并把 Maurer-Cartan 方程推广到其上。"
+    },
+    {
+      "title": "李代数(Lie algebra)有哪些应用？",
+      "url": "https://www.zhihu.com/answer/231057253",
+      "summary": "正文解释李代数是李群的线性化并用于连续对称性。"
+    },
+    {
+      "title": "如何通俗地解释欧拉角？之后为何要引入四元数？",
+      "url": "https://www.zhihu.com/answer/236636664",
+      "summary": "正文构造spin、so和su李代数之间的同构。"
+    },
+    {
+      "title": "迹的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/258637739",
+      "summary": "正文明确讨论李代数的线性表示与对偶表示。"
+    },
+    {
+      "title": "如何看待理论物理老师「不用关心理论里的数学原理」的观点？",
+      "url": "https://www.zhihu.com/answer/266379903",
+      "summary": "正文解释李代数上同调如何自然刻画规范场论中的 BRST 对称性。"
+    },
+    {
+      "title": "有哪些数学系鄙视物理系的经典桥段？",
+      "url": "https://www.zhihu.com/answer/350006893",
+      "summary": "正文解释 SO(3) 生成元、对易关系与李代数表示的变换。"
+    },
+    {
+      "title": "有点基础的本科生应该如何理解现代代数？",
+      "url": "https://www.zhihu.com/answer/512710419",
+      "summary": "群作用求导得到李代数表示，正文实质解释李群与李代数在物理中的作用。"
+    },
+    {
+      "title": "1/a＝1/b＋1/c＋1/d＋…＋1/n 有什么特殊内涵吗？",
+      "url": "https://www.zhihu.com/answer/561341146",
+      "summary": "正文用 ADE 不等式的解说明单李群的 Dynkin 图分类。"
+    },
+    {
+      "title": "有哪些优秀的高等代数教材？",
+      "url": "https://www.zhihu.com/answer/563225927",
+      "summary": "正文解释线性代数如何通向李群和李代数。"
+    },
+    {
+      "title": "如何看待李群、李代数在机器人控制中的应用？",
+      "url": "https://www.zhihu.com/answer/586560160",
+      "summary": "解释李代数作为李群切空间如何用于局部线性化。"
+    },
+    {
+      "title": "特殊函数有什么用？",
+      "url": "https://www.zhihu.com/answer/586828153",
+      "summary": "把特殊函数与李代数及其表示联系起来。"
+    },
+    {
+      "title": "无穷维（李）代数的表示有哪些经典的理论和文献？",
+      "url": "https://www.zhihu.com/answer/589598149",
+      "summary": "正文讲解无限维李代数的前置知识和经典结构。"
+    },
+    {
+      "title": "李代数为何要满足 Jacobi identity？",
+      "url": "https://www.zhihu.com/answer/602187501",
+      "summary": "正文从 L∞ 代数解释李代数的 Jacobi 恒等式。"
+    },
+    {
+      "title": "如何理解凯林矢量场（Killing vector field）？",
+      "url": "https://www.zhihu.com/answer/669420862",
+      "summary": "把等度规变换群的无穷小生成元解释为李代数元素。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/842701643",
+      "summary": "正文用 Dynkin 图判定李代数同构与子代数，实质讲解李代数分类工具。"
+    },
+    {
+      "title": "如何理解「李群、李代数的初衷就是求解微分方程」？",
+      "url": "https://www.zhihu.com/answer/897370968",
+      "summary": "正文从连续群、矩阵导数和生成元解释李群问题如何转化为李代数问题。"
+    },
+    {
+      "title": "如何通俗地解释李群和李代数的关系？",
+      "url": "https://www.zhihu.com/answer/931315125",
+      "summary": "正文以 SO(3) 为例系统解释李群、李代数及指数映射之间的关系。"
+    },
+    {
+      "title": "有哪些分析的恒等式有很深刻的数学背景？",
+      "url": "https://www.zhihu.com/answer/958092569",
+      "summary": "正文系统展示恒等式在 Lie theory 中的自然解释。"
+    },
+    {
+      "title": "李群方面有什么推荐的书？各有何特色？",
+      "url": "https://www.zhihu.com/answer/969244135",
+      "summary": "正文实质概述李代数的结构、分类、根系与表示。"
+    },
+    {
+      "title": "本科数学每个方向都要学吗？",
+      "url": "https://www.zhihu.com/answer/1231147589",
+      "summary": "正文直接说明非交换调和分析以非交换李群为对象。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/1241792001",
+      "summary": "正文说明 Borcherds 通过怪兽李代数完成证明。"
+    },
+    {
+      "title": "如何用十分中二的方式解数学题？",
+      "url": "https://www.zhihu.com/answer/1659290597",
+      "summary": "正文用李代数根系与格指标解释行列式。"
+    },
+    {
+      "title": "如何通俗地解释李群和李代数的关系？",
+      "url": "https://www.zhihu.com/answer/1736885298",
+      "summary": "正文直接讨论或推导「李代数」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "如何全面理解中心荷？",
+      "url": "https://www.zhihu.com/answer/1799837201",
+      "summary": "正文用 Virasoro 代数的中心扩张和李代数结构解释中心荷。"
+    },
+    {
+      "title": "如何学习高等代数？高等代数注重定理证明吗？学习数分需要会各种证明，高代也这样吗？高代注重计算吗？",
+      "url": "https://www.zhihu.com/answer/1805883039",
+      "summary": "正文定义了李括号并说明其产生线性变换，直接展开李代数分支。"
+    },
+    {
+      "title": "李群的基本群是怎么算出来的？",
+      "url": "https://www.zhihu.com/answer/1847848022",
+      "summary": "正文从李群、李代数和商群结构计算基本群。"
+    },
+    {
+      "title": "泡利矩阵的迹为什么是零？",
+      "url": "https://www.zhihu.com/answer/1885075484",
+      "summary": "正文从李群生成元的迹与矩阵指数解释 SU(2) 结构。"
+    },
+    {
+      "title": "规范场论中的 SU(3)、SU(2)、SU(1) 到底指什么？",
+      "url": "https://www.zhihu.com/answer/1892647840",
+      "summary": "正文明确说明连续变换参数对应的生成元，并列举泡利矩阵和盖尔曼矩阵。"
+    },
+    {
+      "title": "Clifford 代数是什么, 它和 Dirac 算子有什么关系?",
+      "url": "https://www.zhihu.com/answer/1899376043",
+      "summary": "正文用生成元的反对易关系构造克利福德代数。"
+    },
+    {
+      "title": "Dynkin diagram会在数学的哪些问题中出现，出现的原因是什么？",
+      "url": "https://www.zhihu.com/answer/1987009598",
+      "summary": "正文说明ADE图分类单李代数和Coxeter群。"
+    },
+    {
+      "title": "量子力学和 Lie 群、Lie 代数有什么关系？",
+      "url": "https://www.zhihu.com/answer/2039732258",
+      "summary": "正文说明量子系统对称性与李代数表示的关系。"
+    },
+    {
+      "title": "如何理解「李群、李代数的初衷就是求解微分方程」？",
+      "url": "https://www.zhihu.com/answer/2252192396",
+      "summary": "正文解释李群的无穷小生成元及其决定方程。"
+    },
+    {
+      "title": "在四维或更高维的空间中，该如何定义转动？",
+      "url": "https://www.zhihu.com/answer/2309288700",
+      "summary": "正文从旋转群切空间和反对称矩阵得到李代数。"
+    },
+    {
+      "title": "如何寻找共形场论中的中心扩张和中心荷？",
+      "url": "https://www.zhihu.com/answer/2356237920",
+      "summary": "正文系统讨论李代数扩张、投影表示与中心荷。"
+    },
+    {
+      "title": "李代数为何要满足 Jacobi identity？",
+      "url": "https://www.zhihu.com/answer/2361717740",
+      "summary": "正文从李群求导诱导李括号并解释 Jacobi 恒等式。"
+    },
+    {
+      "title": "2022 年阿贝尔奖公布，81 岁数学家、拓扑学大师苏利文一人获奖，你有哪些祝福送给他？",
+      "url": "https://www.zhihu.com/answer/2417694924",
+      "summary": "正文说明苏利文定义弦拓扑并在其上发现李代数结构。"
+    },
+    {
+      "title": "如何理解微分几何中的『联络』?",
+      "url": "https://www.zhihu.com/answer/2434548340",
+      "summary": "正文说明规范场联络项以李代数元素为基底。"
+    },
+    {
+      "title": "自动微分法（Automatic differentiation）是如何用C++实现的？",
+      "url": "https://www.zhihu.com/answer/2446699680",
+      "summary": "正文把自动求导推广到特殊正交群并引用李代数结构。"
+    },
+    {
+      "title": "仍然在世的伟大数学家有哪些？",
+      "url": "https://www.zhihu.com/answer/2499504355",
+      "summary": "正文说明形变理论问题与 dg 李代数之间的基本联系。"
+    },
+    {
+      "title": "自发对称破缺，戈尔斯通定理和希格斯机制的关系是什么？",
+      "url": "https://www.zhihu.com/answer/2514663651",
+      "summary": "说明守恒荷算符构成对称群的李代数，并利用其不可约表示分类粒子态。"
+    },
+    {
+      "title": "做数学不同方向的人各有什么特点？",
+      "url": "https://www.zhihu.com/answer/2596415926",
+      "summary": "从代数方向把 U(1) 对应到由斜厄米矩阵构成的李代数。"
+    },
+    {
+      "title": "如何通俗地解释李群和李代数的关系？",
+      "url": "https://www.zhihu.com/answer/2612548870",
+      "summary": "解释李群幺元处切空间构成李代数，以及指数映射与对数映射的关系。"
+    },
+    {
+      "title": "如何理解「李群、李代数的初衷就是求解微分方程」？",
+      "url": "https://www.zhihu.com/answer/2639750919",
+      "summary": "用李代数、李群作用与基本解方程解释李方程及可解李代数。"
+    },
+    {
+      "title": "如何理解微分几何中的『联络』?",
+      "url": "https://www.zhihu.com/answer/2699085567",
+      "summary": "正文说明联络形式把切向量投影到结构群的李代数中。"
+    },
+    {
+      "title": "微分几何中为什么定义指数映射？",
+      "url": "https://www.zhihu.com/answer/2834638998",
+      "summary": "正文区分李群指数映射与黎曼指数映射，并说明前者由单位元处的李代数给出。"
+    },
+    {
+      "title": "能否将“奔驰定理”推广至高维空间中？",
+      "url": "https://www.zhihu.com/answer/2919526164",
+      "summary": "正文说明光滑矢量场在对易子运算下满足 Jacobi 恒等式并构成 Lie 代数。"
+    },
+    {
+      "title": "球谐函数是什么？",
+      "url": "https://www.zhihu.com/answer/2931277533",
+      "summary": "正文复化 so(3) 得到 su(2)，并使用 Cartan 子代数、升降算符和最高权理论构造表示。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/3002050067",
+      "summary": "正文具体说明相关研究用 Nakajima quiver varieties 构造 Kac-Moody 李代数的不可约表示。"
+    },
+    {
+      "title": "如果让你来讲《微分几何》课程，你会如何设计？",
+      "url": "https://www.zhihu.com/answer/3052995181",
+      "summary": "正文在第二部分安排李群的李代数、表示论初步和主丛概念。"
+    },
+    {
+      "title": "如何直观地理解商群，理想？",
+      "url": "https://www.zhihu.com/answer/3080860170",
+      "summary": "正文通过张量代数商去不合交换关系的理想，构造李代数的泛包络代数。"
+    },
+    {
+      "title": "请问如何学好现代数学，如拓扑、李代数、群论、张量分析之类。感觉现代数学威力强大，但是好难理解？",
+      "url": "https://www.zhihu.com/answer/3107186937",
+      "summary": "正文通过连续群求导得到线性化对象，具体解释李群与李代数之间的关系。"
+    },
+    {
+      "title": "能通俗地介绍下Kazhdan-Lusztig理论吗？",
+      "url": "https://www.zhihu.com/answer/3307481116",
+      "summary": "正文围绕半单李代数的最高权模、Verma 模、BGG 范畴和 BGG 消解展开不可约表示的研究。"
+    },
+    {
+      "title": "现代科学的基石，或者说逻辑和理性的基石是什么？",
+      "url": "https://www.zhihu.com/answer/3327615524",
+      "summary": "正文通过恒等元处的切空间、指数映射、李括号和 BCH 公式系统解释李代数。"
+    },
+    {
+      "title": "如何通俗地解释李群和李代数的关系？",
+      "url": "https://www.zhihu.com/answer/3387941702",
+      "summary": "正文通过交错多重线性映射、上边缘算子和 d^2=0 构造李代数的 Eilenberg-Chevalley 上同调。"
+    },
+    {
+      "title": "如何评价2024阿里巴巴数学竞赛预选赛试题?",
+      "url": "https://www.zhihu.com/answer/3466474557",
+      "summary": "正文利用半单李代数的 Cartan 子代数、半单元和内自同构，将题目中的矩阵对应到 sl2 结构。"
+    },
+    {
+      "title": "知乎上为什么有这么多学特殊函数论的大佬？",
+      "url": "https://www.zhihu.com/answer/3530469868",
+      "summary": "正文由产生、湮灭算符构造三维 Heisenberg 李代数，并讨论其生成元和交换关系。"
+    },
+    {
+      "title": "李代数为何要满足 Jacobi identity？",
+      "url": "https://www.zhihu.com/answer/3535339676",
+      "summary": "正文以 Leibniz rule 解释 Jacobi identity，并讨论李括号封闭性、李代数及其与可积性的关系。"
+    },
+    {
+      "title": "本科生自学微分流形有哪些资料推荐？",
+      "url": "https://www.zhihu.com/answer/3586291169",
+      "summary": "正文说明李群单位元切空间连同括号结构构成李代数，并解释其承载李群局部结构的作用。"
+    },
+    {
+      "title": "有哪些看起来简洁却很难的数学题？",
+      "url": "https://www.zhihu.com/answer/3623383917",
+      "summary": "正文用幂零交换子、可解李代数以及 Lie 与 Engel 定理得到同时上三角化，从而完成证明。"
+    },
+    {
+      "title": "球坐标拉普拉斯方程的分离变量，可以根据球对称性预言特征函数的形式吗？",
+      "url": "https://www.zhihu.com/answer/62105986124",
+      "summary": "正文证明方程的对称算符构成李代数，给出生成元及其对易关系，并联系 SO(3) 李代数解释分离变量。"
+    },
+    {
+      "title": "数学中有哪些表面没有关系但是内在有深刻联系的问题？",
+      "url": "https://www.zhihu.com/answer/75742755445",
+      "summary": "正文给出李代数的线性空间结构、李括号、反对称性和 Jacobi 等式，属于李代数基础。"
+    },
+    {
+      "title": "代数数论为什么要研究Galois上同调？",
+      "url": "https://www.zhihu.com/answer/129305987703",
+      "summary": "正文以复半单李代数的复化为起点，讨论实形式、共轭线性变换以及实半单李代数的分类。"
+    },
+    {
+      "title": "和乐群(Holonomy group)的重要性是什么？",
+      "url": "https://www.zhihu.com/answer/1907424208075612836",
+      "summary": "正文引用Ambrose-Singer定理，解释和乐群的李代数如何由曲率算子张成。"
+    },
+    {
+      "title": "伽罗瓦理论能否以某种方式用于微分方程？",
+      "url": "https://www.zhihu.com/answer/1914178352085988347",
+      "summary": "正文引用 Morales-Ramis-Simo 定理，把可积哈密顿系统与变分方程微分 Galois 群的阿贝尔李代数联系起来。"
+    },
+    {
+      "title": "Representation Theory(表示论)与Algebraic Geometry(代数几何)在(理论，但不仅限理论)物理上有什么联合应用?",
+      "url": "https://www.zhihu.com/answer/1916647314275148744",
+      "summary": "正文以有限维李代数、Cartan 子代数、根系和根格为框架表述 Macdonald 猜想的推广。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/1916903147193996868",
+      "summary": "正文把李群在单位元处的无穷小生成元组成李代数，还具体讨论 U(1)、SO(3) 的李代数及对易关系。"
+    },
+    {
+      "title": "要看懂杨-米尔斯场的理论，数学得学到什么程度？",
+      "url": "https://www.zhihu.com/answer/1963019608496796153",
+      "summary": "正文把李代数解释为李群单位元处的切空间，并用其构造基本矢量场和主丛联络。"
+    },
+    {
+      "title": "为什么实际旋转角度是四元数里面的角度的两倍？有什么数学上的原因吗？",
+      "url": "https://www.zhihu.com/answer/1969031908693353344",
+      "summary": "正文明确介绍旋转李代数通过指数映射得到旋转矩阵，并据此解释半角关系。"
+    },
+    {
+      "title": "球谐函数是什么？",
+      "url": "https://www.zhihu.com/answer/1979930066906539831",
+      "summary": "正文给出李代数 so(3) 的基、诱导向量场和李括号，并用泛包络代数证明球面 Laplace 算子与其作用交换。"
+    },
+    {
+      "title": "球谐函数是什么？",
+      "url": "https://www.zhihu.com/answer/1980807561004483720",
+      "summary": "正文具体说明 SO(3) 的李代数生成元、Casimir 元素及其特征值对应角量子数。"
+    },
+    {
+      "title": "量子力学里面各种升降算符是如何被想到的？",
+      "url": "https://www.zhihu.com/answer/1981395478772991847",
+      "summary": "正文讨论升降算符生成的无穷维李代数，并说明在二次型能谱条件下退化为SU(2)、SU(1,1)等李代数。"
+    },
+    {
+      "title": "2025年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/1987205129812849160",
+      "summary": "正文具体讲解 so(4) 与两个 su(2) 的李代数同构，并说明相应生成元如何由物理算符组合得到。"
+    },
+    {
+      "title": "如何理解「李群、李代数的初衷就是求解微分方程」？",
+      "url": "https://www.zhihu.com/answer/1992290356713259459",
+      "summary": "正文把李代数解释为单位元处切空间构成的线性化工具，并讨论其表示向量场与无穷小变换。"
+    },
+    {
+      "title": "如何理解微分几何中各种各样的“可积性”条件（Integrability）？",
+      "url": "https://www.zhihu.com/answer/1994075602811107203",
+      "summary": "正文以向量场李括号的封闭性刻画分布可积，并进一步说明近复结构的 Nijenhuis 张量条件。"
+    },
+    {
+      "title": "如何理解「李群、李代数的初衷就是求解微分方程」？",
+      "url": "https://www.zhihu.com/answer/2000339978065057387",
+      "summary": "正文把李代数定义为李群单位元处的切空间，并说明它如何将非线性约束下的运算线性化。"
+    },
+    {
+      "title": "初学一门数学课时有没有这样的体验:自己随口问了一个很自然的问题, 但后来发现其实很难甚至是公开的？",
+      "url": "https://www.zhihu.com/answer/2017141981504099209",
+      "summary": "正文以 Thurston 关于微分同胚群为完美群的结论推出向量场李代数由李括号生成。"
+    },
+    {
+      "title": "如何理解「每一种形变理论都对应一个微分分次李代数 (DGLA)」？",
+      "url": "https://www.zhihu.com/answer/2032780009392313714",
+      "summary": "正文定义微分分次李代数的分次空间、微分和李括号，并解释其 Maurer-Cartan 方程。"
+    },
+    {
+      "title": "李导数与协变导数有什么联系？",
+      "url": "https://www.zhihu.com/answer/2033655109691913882",
+      "summary": "正文展开向量场李括号、李导数交换子及其 Lie 代数表示，说明李代数结构的作用。"
+    },
+    {
+      "title": "在微分几何中, 什么是 holonomy？如何用holonomy 思考几何问题?",
+      "url": "https://www.zhihu.com/answer/2038036518619575358",
+      "summary": "正文把无穷小和乐解释为和乐群的李代数，并说明其与曲率张量生成空间的关系。"
+    },
+    {
+      "title": "角速度为什么是个矢量？",
+      "url": "https://www.zhihu.com/answer/2047402370318046180",
+      "summary": "正文指出角速度与三维叉积的运算结构具有反交换性和双线性，并明确将其与李代数核心结构联系起来。"
+    },
+    {
+      "title": "由对称性到角动量（一）",
+      "url": "https://zhuanlan.zhihu.com/p/21108784",
+      "summary": "正文定义李群的李代数，计算 SO(3) 与 SU(2) 的生成元、基和李括号。"
+    },
+    {
+      "title": "微分流形（一）",
+      "url": "https://zhuanlan.zhihu.com/p/22977034",
+      "summary": "正文定义李代数，并讲解左不变切场、结构常数、李括号及李群李代数的对应。"
+    },
+    {
+      "title": "诺特定理",
+      "url": "https://zhuanlan.zhihu.com/p/23047259",
+      "summary": "正文把李代数元素作为李群的无穷小生成元，并据此构造每一个对称性对应的守恒流。"
+    },
+    {
+      "title": "规范场论初步总结",
+      "url": "https://zhuanlan.zhihu.com/p/25701869",
+      "summary": "正文由李群生成元、交换关系和结构常数构造李代数取值的规范势与场强张量，实质展开李代数在规范场中的表示。"
+    },
+    {
+      "title": "正规化子和中心化子",
+      "url": "https://zhuanlan.zhihu.com/p/26077940",
+      "summary": "正文把中心化子和正规化子的定义推广到李代数，并用李括号为零或属于子集刻画两类子代数。"
+    },
+    {
+      "title": "关于有限群/紧李群表示的一些笔记",
+      "url": "https://zhuanlan.zhihu.com/p/27041214",
+      "summary": "正文用 sl2 升降算子构造多项式空间表示，并由 SO(n) 表示讨论球面调和分析。"
+    },
+    {
+      "title": "关于黎曼几何与李群拓扑的一些杂记",
+      "url": "https://zhuanlan.zhihu.com/p/27111431",
+      "summary": "正文用 Killing 场、单参数子群和对称秩连接李代数与等距变换，并讨论李代数分类和上同调。"
+    },
+    {
+      "title": "李群李代数及其表示：总集篇",
+      "url": "https://zhuanlan.zhihu.com/p/32991992",
+      "summary": "正文定义李群的李代数，讨论换位子、Jacobi 恒等式、指数映射及半单李代数结构。"
+    },
+    {
+      "title": "第四讲：李群和李代数",
+      "url": "https://zhuanlan.zhihu.com/p/33156814",
+      "summary": "正文定义李代数、解释李括号并详细讨论 so(3)、se(3) 与指数映射。"
+    },
+    {
+      "title": "(17)李导数与李括号",
+      "url": "https://zhuanlan.zhihu.com/p/33381200",
+      "summary": "正文定义李括号并证明其双线性、反交换性和 Jacobi 恒等式，展开其作为李代数运算的代数性质。"
+    },
+    {
+      "title": "Hörmander 的亚椭圆性定理",
+      "url": "https://zhuanlan.zhihu.com/p/34117281",
+      "summary": "正文以向量场生成的李代数及其对易子秩条件刻画亚椭圆性，并利用分次李代数的结构完成核心估计。"
+    },
+    {
+      "title": "旋量与洛伦兹变换",
+      "url": "https://zhuanlan.zhihu.com/p/36482403",
+      "summary": "正文计算转动群与洛伦兹群生成元的对易关系，并利用李代数结构研究表示。"
+    },
+    {
+      "title": "从零开始一起学习SLAM | 为啥需要李群与李代数？",
+      "url": "https://zhuanlan.zhihu.com/p/47330137",
+      "summary": "正文讲解 SO(3)、SE(3) 对应的李代数、反对称矩阵以及指数和对数映射。"
+    },
+    {
+      "title": "量子力学杂谈——Stone定理",
+      "url": "https://zhuanlan.zhihu.com/p/60336596",
+      "summary": "正文构造李群表示的无穷小生成元，并说明其构成李代数表示。"
+    },
+    {
+      "title": "李群和李代数（四）：姿态估计小结",
+      "url": "https://zhuanlan.zhihu.com/p/87438999",
+      "summary": "正文把幺元处切空间定义为李代数，进一步讨论李括号、指数与对数映射及伴随变换。"
+    },
+    {
+      "title": "旋转之十一 - SE(3) 和 se(3)",
+      "url": "https://zhuanlan.zhihu.com/p/88771394",
+      "summary": "正文以 SO(3)、so(3) 与 SE(3)、se(3) 的对应关系为核心，系统推导李代数的指数映射和对象到李群的转换。"
+    },
+    {
+      "title": "洛伦兹群的旋量表示",
+      "url": "https://zhuanlan.zhihu.com/p/89876878",
+      "summary": "正文计算洛伦兹群六个生成元的对易关系并化为 su(2) 代数，直接讲解李代数。"
+    },
+    {
+      "title": "标定系列二 | 实践之Camera-Odometry标定",
+      "url": "https://zhuanlan.zhihu.com/p/101727151",
+      "summary": "正文在 SE(2) 上定义运动增量对应的李代数，并通过指数映射完成位姿积分。"
+    },
+    {
+      "title": "繁星客栈拾遗（十五年前的数学和八卦帖）",
+      "url": "https://zhuanlan.zhihu.com/p/107392381",
+      "summary": "正文从 Poisson 括号和交换子出发，讨论泛包络代数与形变量子化中的李代数结构。"
+    },
+    {
+      "title": "Chern-Simons, WZW 模型 和 Jones 多项式 (2)",
+      "url": "https://zhuanlan.zhihu.com/p/118438333",
+      "summary": "正文通过模式展开和守恒流对易关系构造仿射李代数，并讨论其表示。"
+    },
+    {
+      "title": "BCH公式的有趣证明",
+      "url": "https://zhuanlan.zhihu.com/p/101212195",
+      "summary": "正文围绕李代数元素、交换子及其伴随自同态证明 BCH 公式。"
+    },
+    {
+      "title": "FP鬼场和BRST对称性",
+      "url": "https://zhuanlan.zhihu.com/p/132096572",
+      "summary": "正文以 SU(N) 生成元、结构常数和雅可比恒等式验证非阿贝尔规范变换的代数封闭性。"
+    },
+    {
+      "title": "最优控制、次黎曼几何与 Floer 同调",
+      "url": "https://zhuanlan.zhihu.com/p/141844086",
+      "summary": "正文用二阶幂零李代数的括号结构定义 Carnot 群及其左不变水平分布。"
+    },
+    {
+      "title": "Monstrous Moonshine",
+      "url": "https://zhuanlan.zhihu.com/p/143083992",
+      "summary": "正文说明 Borcherds 借助顶点算子代数、广义 Kac-Moody 代数和怪兽李代数完成月光猜想的证明。"
+    },
+    {
+      "title": "给大一学生的 Lie 代数",
+      "url": "https://zhuanlan.zhihu.com/p/144789716",
+      "summary": "正文系统引入 Lie 代数，并以导子、Lie 括积、反对称性和 Jacobi 恒等式展开其基本结构。"
+    },
+    {
+      "title": "给大一学生的 Lie 代数 II",
+      "url": "https://zhuanlan.zhihu.com/p/150888844",
+      "summary": "正文给出 Lie 代数的公理化定义，并展开括积、子代数、同态、商代数和理想，故对应李代数。"
+    },
+    {
+      "title": "给大一学生的 Lie 代数: 不是前言的前言",
+      "url": "https://zhuanlan.zhihu.com/p/161735986",
+      "summary": "正文介绍 Lie 代数的连续群起源、与高等代数的工具关系及其在多个数学分支中的应用。"
+    },
+    {
+      "title": "典型单纯李代数的表示",
+      "url": "https://zhuanlan.zhihu.com/p/183154789",
+      "summary": "正文围绕四类典型单纯李代数，具体讨论其 Chevalley 基、最高权态、权和不可约表示。"
+    },
+    {
+      "title": "ModernRobotics现代机器人学（旋量法 源码matlab C++ python等）",
+      "url": "https://zhuanlan.zhihu.com/p/266377602",
+      "summary": "正文给出 so(3) 与 se(3) 的矩阵指数、对数和旋量表示，并说明其相互转换。"
+    },
+    {
+      "title": "经典辛几何基础(一)",
+      "url": "https://zhuanlan.zhihu.com/p/270256287",
+      "summary": "正文定义 Poisson 括号，证明 Jacobi 恒等式并构造到切向量场 Lie 代数的同态。"
+    },
+    {
+      "title": "超对称场论（一）",
+      "url": "https://zhuanlan.zhihu.com/p/287998371",
+      "summary": "正文用超荷的反对易关系定义延展超对称代数，并说明其李超代数结构。"
+    },
+    {
+      "title": "[Katsushi 2011] 1.2 共形变换",
+      "url": "https://zhuanlan.zhihu.com/p/337228688",
+      "summary": "正文由无穷小共形变换得到平移、旋转、标度和特殊共形生成元及其对易关系，并讨论共形代数。"
+    },
+    {
+      "title": "抽象代数教学体系的探索 I",
+      "url": "https://zhuanlan.zhihu.com/p/338294403",
+      "summary": "正文比较 Lie 代数与群论的研究框架，并讨论其与 Lie 群及高等代数的教学联系。"
+    },
+    {
+      "title": "李代数(1): 基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/340118356",
+      "summary": "正文给出李代数的双线性、交错性与 Jacobi 恒等式定义，并讲解子代数、理想、商代数和直和。"
+    },
+    {
+      "title": "[张量系列DLC] 多层内积空间与泡利矩阵 (Pauli matrices) 的运算性质",
+      "url": "https://zhuanlan.zhihu.com/p/340171183",
+      "summary": "正文推导泡利矩阵的对易与反对易关系，并明确将其作为李群生成元来使用。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / 李群 (Lie group) 的定义与常见李群",
+      "url": "https://zhuanlan.zhihu.com/p/340870993",
+      "summary": "正文由单参子群和生成元导出恒等元处的切空间，并明确其就是李代数。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / SU(2) 与 SO(3) 的梦幻联动",
+      "url": "https://zhuanlan.zhihu.com/p/341625428",
+      "summary": "正文给出SO(3)的矩阵生成元、对易关系以及生成元与群元的指数映射，实质讲解李代数。"
+    },
+    {
+      "title": "场论家用几何与代数（第一话）：李代数的崛起",
+      "url": "https://zhuanlan.zhihu.com/p/344738859",
+      "summary": "正文从单位元处切空间、指数映射和伴随作用构造李括号，并给出李代数的抽象定义及性质。"
+    },
+    {
+      "title": "场论家用几何与代数（第二话）：李代数与理想",
+      "url": "https://zhuanlan.zhihu.com/p/344908879",
+      "summary": "正文围绕李括号和 Jacobi 恒等式定义表示与理想，并以 Killing form 刻画半单李代数。"
+    },
+    {
+      "title": "第三讲   生成元  李代数",
+      "url": "https://zhuanlan.zhihu.com/p/346461588",
+      "summary": "正文由李群无穷小生成元引出李代数，讲解李括号、结构常数及 SO(3) 与 SU(2) 的李代数。"
+    },
+    {
+      "title": "场论家用代数（第三话）：Cartan-Weyl",
+      "url": "https://zhuanlan.zhihu.com/p/346613619",
+      "summary": "正文围绕半单李代数的 Cartan 子代数、根空间分解、对易关系和 Killing 型展开结构分析。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / 李群对应的李代数与可爱又迷人的伴随表示",
+      "url": "https://zhuanlan.zhihu.com/p/348680652",
+      "summary": "正文定义李代数、李括号及其反对称性和雅可比恒等式，并解释李群切空间与结构常数。"
+    },
+    {
+      "title": "李群和李代数 —— 名字听起来很猛其实也没那么复杂",
+      "url": "https://zhuanlan.zhihu.com/p/358455662",
+      "summary": "正文定义李代数及其李括号，并通过指数映射和 BCH 公式解释其与李群的关系。"
+    },
+    {
+      "title": "2.3 辛流形、辛势与Lie代数",
+      "url": "https://zhuanlan.zhihu.com/p/358458201",
+      "summary": "正文定义李代数及 Jacobi 恒等式，并证明矢量场的 Poisson 括号构成李代数。"
+    },
+    {
+      "title": "经典力学简介",
+      "url": "https://zhuanlan.zhihu.com/p/358475341",
+      "summary": "正文讨论 so(3) 的半单结构、Killing-Cartan 形式，以及泊松括号构成的李代数。"
+    },
+    {
+      "title": "什么是几何量子化？",
+      "url": "https://zhuanlan.zhihu.com/p/362774447",
+      "summary": "正文推导自旋算符的对易关系，并明确将其归于su(2)李代数结构。"
+    },
+    {
+      "title": "场论家用代数（第五话）：单根与Dynkin 图",
+      "url": "https://zhuanlan.zhihu.com/p/366460216",
+      "summary": "正文系统讲解单李代数的 Cartan 子代数、根系、简单根、Cartan 矩阵及 Dynkin 图分类。"
+    },
+    {
+      "title": "Humphreys:Intro. to Lie Alg.s&Rep. th.使用攻略",
+      "url": "https://zhuanlan.zhihu.com/p/367827883",
+      "summary": "正文围绕李代数的理想、半单结构、根系、Killing型和分类定理展开实质介绍。"
+    },
+    {
+      "title": "【群论】从洛伦兹变换到洛伦兹群",
+      "url": "https://zhuanlan.zhihu.com/p/372120033",
+      "summary": "正文给出转动与Boost的生成元，并系统计算生成元之间的对易关系以引出李代数结构。"
+    },
+    {
+      "title": "家用微分几何 (第三话) 推前拉回与李导数",
+      "url": "https://zhuanlan.zhihu.com/p/372482864",
+      "summary": "正文由矢量场对易子的反对称性和 Jacobi 恒等式说明其构成李括号与无穷维李代数。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / 浅谈洛伦兹群 (Lorentz group) 与洛伦兹代数",
+      "url": "https://zhuanlan.zhihu.com/p/370828021",
+      "summary": "正文从李群恒等元的切空间和生成元出发定义洛伦兹代数，并展开其基矢与李括号。"
+    },
+    {
+      "title": "【梦幻联动】家用微分几何与代数：李群",
+      "url": "https://zhuanlan.zhihu.com/p/374246397",
+      "summary": "正文由单位元切空间和左不变矢量场上的对易子定义李括号，系统讲解李代数。"
+    },
+    {
+      "title": "【群论】物理人的李群和李代数",
+      "url": "https://zhuanlan.zhihu.com/p/374482622",
+      "summary": "正文定义李括号及其反对称性和雅可比恒等式，并展开李代数的同态与同构。"
+    },
+    {
+      "title": "Serre：Finite Groups: An Introduction使用攻略",
+      "url": "https://zhuanlan.zhihu.com/p/375273535",
+      "summary": "正文说明可解群与幂零群同李代数中的导出列、降中心列及 Engel 型结论相联系。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / マボロシの旋量空间与哈人的 Clifford 代数",
+      "url": "https://zhuanlan.zhihu.com/p/373020066",
+      "summary": "正文通过对易关系构造 su(2) 与 so(3) 的共同李代数，并研究其表示。"
+    },
+    {
+      "title": "视觉SLAM学习之李群李代数",
+      "url": "https://zhuanlan.zhihu.com/p/388778282",
+      "summary": "正文由单位元处正切空间引出李代数，并推导 SO(3) 对应的 so(3)。"
+    },
+    {
+      "title": "在位姿估计问题中应用李群/流形的发展脉络、动机与直觉(框架草稿)",
+      "url": "https://zhuanlan.zhihu.com/p/395372419",
+      "summary": "正文解释如何通过李代数的切空间进行加减和最优估计，再映射回群元素。"
+    },
+    {
+      "title": "狄拉克伽马矩阵 (Dirac gamma matrices)",
+      "url": "https://zhuanlan.zhihu.com/p/399908095",
+      "summary": "正文计算gamma矩阵生成元，并验证它们与正交群及Lorentz代数满足相同的对易关系。"
+    },
+    {
+      "title": "大四(Part C)第一学期数学/物理学习计划，申请季信息汇总",
+      "url": "https://zhuanlan.zhihu.com/p/416228189",
+      "summary": "正文说明了李代数的向量空间结构及其来自李群伴随表示的构造，并联系到量子力学中的角动量表示。"
+    },
+    {
+      "title": "场论家用代数（第六话）：李群、李代数、格点、表示与第一同伦群",
+      "url": "https://zhuanlan.zhihu.com/p/422003721",
+      "summary": "正文系统讲解单李代数的 Cartan-Weyl 基、根、权、最高权表示和 Chevalley 基。"
+    },
+    {
+      "title": "机器人中的李群和李代数（一）——基础知识",
+      "url": "https://zhuanlan.zhihu.com/p/435445206",
+      "summary": "正文定义李代数的双线性、交错性和 Jacobi 恒等式，并推导 so(3)、se(3)。"
+    },
+    {
+      "title": "场论家用代数（第八话）：群论、非局域算符跟 θ 项有什么关系？",
+      "url": "https://zhuanlan.zhihu.com/p/443874179",
+      "summary": "正文用权格、根格、余根格和余权格讨论李代数及其对应李群的结构。"
+    },
+    {
+      "title": "洛伦兹变换各种形式（公式+矩阵）",
+      "url": "https://zhuanlan.zhihu.com/p/444974597",
+      "summary": "正文由无穷小生成元和对易子构造李代数，并给出转动与推动生成元的封闭对易关系。"
+    },
+    {
+      "title": "谈谈 Weyl 量子化",
+      "url": "https://zhuanlan.zhihu.com/p/460165926",
+      "summary": "正文使用海森堡代数的对易关系进行量子化，并进一步讨论 SU(2) 李群的生成元。"
+    },
+    {
+      "title": "共形场论（conformal field theory）笔记",
+      "url": "https://zhuanlan.zhihu.com/p/473536902",
+      "summary": "正文从单李代数的结构常数和流算符对易关系构造仿射 Kac-Moody 代数，具体应用并扩展了李代数。"
+    },
+    {
+      "title": "李群与李代数",
+      "url": "https://zhuanlan.zhihu.com/p/476262865",
+      "summary": "正文定义李群单位元处的切空间为李代数，并展开指数映射、SO(3) 的李代数及其求导。"
+    },
+    {
+      "title": "李代数——物理学中最重要工具之一，一个最简单的解释",
+      "url": "https://zhuanlan.zhihu.com/p/480456136",
+      "summary": "正文以矩阵生成元、指数映射和李群的关系介绍李代数，并联系连续对称变换。"
+    },
+    {
+      "title": "洛伦兹群的矢量表示，生成元及李代数",
+      "url": "https://zhuanlan.zhihu.com/p/519398968",
+      "summary": "正文由无穷小转动得到生成元及对易关系，再推广到洛伦兹群六个生成元及其李代数。"
+    },
+    {
+      "title": "Clifford 代数与正交群",
+      "url": "https://zhuanlan.zhihu.com/p/522923856",
+      "summary": "正文讨论 Clifford 相关群的李代数，并证明由 gamma 矩阵二次项张成的空间同构于 so(1,3)。"
+    },
+    {
+      "title": "形变理论漫谈",
+      "url": "https://zhuanlan.zhihu.com/p/523108260",
+      "summary": "正文定义微分分次李代数及其 Maurer-Cartan 方程和规范作用，以刻画特征零域上的形变问题。"
+    },
+    {
+      "title": "FAST-LIO公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/561877392",
+      "summary": "正文以 SO(3) 的指数映射、对数映射、伴随性质和 BCH 近似推导姿态误差，属于李代数应用。"
+    },
+    {
+      "title": "索菲斯·李：视力欠佳，却看到数学和物理中最深刻的结构之一",
+      "url": "https://zhuanlan.zhihu.com/p/575726569",
+      "summary": "正文解释如何把李群的弯曲流形线性化为切空间，并说明该切空间上的无穷小群结构就是李代数。"
+    },
+    {
+      "title": "【群论】入门笔记-Chapter7-三维空间中的旋转-SO(3)",
+      "url": "https://zhuanlan.zhihu.com/p/587115931",
+      "summary": "正文由单参数子群引入生成元，推导对易子、李代数关系及不可约表示。"
+    },
+    {
+      "title": "Lie群和Lie代数  Ⅰ",
+      "url": "https://zhuanlan.zhihu.com/p/590419258",
+      "summary": "正文定义带李括号和雅可比恒等式的李代数，并推导伴随算子与李括号的关系。"
+    },
+    {
+      "title": "物理学用微分几何简表",
+      "url": "https://zhuanlan.zhihu.com/p/594867230",
+      "summary": "正文由李群的左不变向量场和对易子定义李代数，并讨论指数映射与规范理论应用。"
+    },
+    {
+      "title": "张量算符、Wigner-Eckart定理及量子算符投影定理",
+      "url": "https://zhuanlan.zhihu.com/p/594118050",
+      "summary": "正文以角动量对易关系和升降算符刻画不可约张量算符，属于李代数表示的结构。"
+    },
+    {
+      "title": "Baker-Campbell-Hausdorff 公式",
+      "url": "https://zhuanlan.zhihu.com/p/610054972",
+      "summary": "正文用算符对易子构造迭代积分方程并证明 Baker-Campbell-Hausdorff 展开。"
+    },
+    {
+      "title": "顺滑地进入群论 (Ep.3) ——李群与李代数",
+      "url": "https://zhuanlan.zhihu.com/p/642654469",
+      "summary": "正文讲解无穷小生成子、指数映射、李括号和结构恒等式，并以 SO(3)、SU(2) 的矩阵代数为例。"
+    },
+    {
+      "title": "李群初步：SU(2)群和SO(3)群",
+      "url": "https://zhuanlan.zhihu.com/p/643235749",
+      "summary": "正文用泡利矩阵和反对称矩阵刻画su(2)与so(3)，并通过指数映射联系相应李群。"
+    },
+    {
+      "title": "Poisson几何随记",
+      "url": "https://zhuanlan.zhihu.com/p/649578880",
+      "summary": "正文以李代数对偶上的Kostant-Kirillov-Souriau括号、李代数胚和李双代数展开李代数结构。"
+    },
+    {
+      "title": "现代数学的基石—李理论，这就是你彻底理解它的方式，一定让你茅塞顿开",
+      "url": "https://zhuanlan.zhihu.com/p/652585224",
+      "summary": "正文把李群恒等元处的切空间定义为李代数，并用李括号和 BCH 公式说明群乘法的代数化。"
+    },
+    {
+      "title": "SLAM中使用李群和李代数的直觉",
+      "url": "https://zhuanlan.zhihu.com/p/657261293",
+      "summary": "正文解释李代数与李群通过指数映射相连，并用于定义李群上的微小增量和导数。"
+    },
+    {
+      "title": "现代数学的基石—李理论，这就是你彻底理解它的方式，茅塞顿开！",
+      "url": "https://zhuanlan.zhihu.com/p/672559202",
+      "summary": "正文围绕恒等元处的切空间、指数映射、李括号和 BCH 公式讲解李代数。"
+    },
+    {
+      "title": "彻底理解现代数学的基石—李理论",
+      "url": "https://zhuanlan.zhihu.com/p/676548568",
+      "summary": "正文把李群恒等元处的切空间解释为李代数，并说明切向量、李括号和指数映射如何承载群乘法。"
+    },
+    {
+      "title": "物理学中的群论 · 入门篇 第三章：转动变换群",
+      "url": "https://zhuanlan.zhihu.com/p/677643396",
+      "summary": "正文定义 Lie 代数的双线性、反对称性与 Jacobi 恒等式，并构造 so(2)、so(3)。"
+    },
+    {
+      "title": "中学生都能读懂的李群和李代数Ⅰ（适合物理宝宝体质）",
+      "url": "https://zhuanlan.zhihu.com/p/684801875",
+      "summary": "正文由旋转矩阵求导得到李代数，并进一步讲解对易子、Jacobian 恒等式和指数映射。"
+    },
+    {
+      "title": "中学生都能读懂的李群和李代数Ⅱ（适合物理宝宝体质）",
+      "url": "https://zhuanlan.zhihu.com/p/686249091",
+      "summary": "正文说明李群在单位元处的切空间、生成元和李代数之间的对应关系。"
+    },
+    {
+      "title": "使用Mathematica学习量子力学(1/3): 理论推导",
+      "url": "https://zhuanlan.zhihu.com/p/689561457",
+      "summary": "正文推导并编程计算 BCH 展开，反复使用对易子和嵌套李括号来确定展开系数。"
+    },
+    {
+      "title": "BCH公式初等证明",
+      "url": "https://zhuanlan.zhihu.com/p/691535136",
+      "summary": "正文从对易子与嵌套李括号出发证明 BCH 公式，并逐阶确定指数中的李代数额。"
+    },
+    {
+      "title": "数学中最难以置信的成果之一是“李群”，从一粒沙中看整个世界",
+      "url": "https://zhuanlan.zhihu.com/p/699302161",
+      "summary": "正文系统解释李代数作为恒等元切空间，并展开指数映射、李括号、伴随表示和雅可比恒等式。"
+    },
+    {
+      "title": "高显的魔法书——（三）转动理论",
+      "url": "https://zhuanlan.zhihu.com/p/25066751850",
+      "summary": "正文定义反对称生成元及其对易关系，并计算三维转动李代数和结构常数。"
+    },
+    {
+      "title": "几何控制理论",
+      "url": "https://zhuanlan.zhihu.com/p/1892483929988114312",
+      "summary": "正文定义控制向量场生成的李代数，并迭代计算李括号以判断系统的可及方向。"
+    },
+    {
+      "title": "李群李代数基础速通与SU(N)代数",
+      "url": "https://zhuanlan.zhihu.com/p/1907220352679010944",
+      "summary": "正文由李群元在单位元附近的展开推导生成元、对易子和结构常数，从而定义李代数。"
+    },
+    {
+      "title": "IMU预积分 (解闷版)",
+      "url": "https://zhuanlan.zhihu.com/p/1911921324726649326",
+      "summary": "正文以 SO(3) 上的指数映射、旋转扰动和 BCH 公式推导预积分误差状态，实质使用了李代数表达。"
+    },
+    {
+      "title": "山东大学 (泰山学堂,潘承洞班) 高等代数(2) 2024-2025年期末考试",
+      "url": "https://zhuanlan.zhihu.com/p/1922235568210835202",
+      "summary": "正文在 gl_n 与 sl_n 上讨论交换子、伴随作用及 Jordan-Chevalley 分解，属于李代数内容。"
+    },
+    {
+      "title": "Notes on Quantum Field Theory",
+      "url": "https://zhuanlan.zhihu.com/p/1936806852265513688",
+      "summary": "正文从李代数、微分分次代数讲到微分分次李代数和 L∞ 代数，并给出括号、微分及相容条件。"
+    },
+    {
+      "title": "《辛拓扑导论》 1.1 Hamilton 力学",
+      "url": "https://zhuanlan.zhihu.com/p/1937949334206419743",
+      "summary": "正文明确给出辛群对应的李代数及其由对称矩阵构成的表达式。"
+    },
+    {
+      "title": "李代数钓鱼题下放考研数学，解答堪比博士论文",
+      "url": "https://zhuanlan.zhihu.com/p/1942163620495591301",
+      "summary": "正文研究保持矩阵交换子的映射，这正是在迹零李代数上刻画李代数自同构的问题。"
+    },
+    {
+      "title": "高等代数范围内不可能做出来的高代题？",
+      "url": "https://zhuanlan.zhihu.com/p/1944045932233617504",
+      "summary": "正文明确指出一般情形依赖李代数的完全可约性定理，随后讨论如何得到公共不变子空间直和。"
+    },
+    {
+      "title": "用李代数批量生产正常人做不出来的高代题",
+      "url": "https://zhuanlan.zhihu.com/p/1944464047081764772",
+      "summary": "正文以一组满足李括号关系的复方阵为对象，借助换元和交换关系推导矩阵指数结论。"
+    },
+    {
+      "title": "有了四元数，再也不怕 SO(3) 和 SU(2)",
+      "url": "https://zhuanlan.zhihu.com/p/1985023719861662449",
+      "summary": "正文讨论 so(3) 与 su(2) 的对易子、基和指数映射，展开李代数结构。"
+    },
+    {
+      "title": "李群李代数（一）·群到李群 李群到李代数 导子",
+      "url": "https://zhuanlan.zhihu.com/p/2033618384642888018",
+      "summary": "正文定义单位元切空间上的括积并列出双线性、反对称和 Jacobi 恒等式。"
+    },
+    {
+      "title": "张量与群论（Jeevanjee）—— 群、李群与李代数",
+      "url": "https://zhuanlan.zhihu.com/p/2060379218127725134",
+      "summary": "正文从单参数子群和单位元切空间定义李代数，并讲解李括号、Jacobi 恒等式和同态。"
+    }
+  ]
+}

@@ -1,0 +1,3621 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l4-t2-b4",
+  "sources": [
+    {
+      "title": "1+2+4+8+16+32+64+128+256+...=-1 错在哪里？",
+      "url": "https://www.zhihu.com/answer/13739503",
+      "summary": "区分通常意义的级数收敛与广义赋值：1＋2＋4＋…在普通求和意义下发散，不能把解析延拓得到的值当作通常的和。"
+    },
+    {
+      "title": "1+2+4+8+16+32+64+128+256+...=-1 错在哪里？",
+      "url": "https://www.zhihu.com/answer/15709325",
+      "summary": "区分通常实数拓扑下部分和的发散与另行定义的求和值；原文将单点紧化混称为超实数，且延拓值不能视作原级数通常收敛的和。"
+    },
+    {
+      "title": "如何广义地理解「所有自然数之和」？",
+      "url": "https://www.zhihu.com/answer/21590050",
+      "summary": "正文围绕「如何广义地理解「所有自然数之和」？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "如何广义地理解「所有自然数之和」？",
+      "url": "https://www.zhihu.com/answer/21642158",
+      "summary": "正文围绕「如何广义地理解「所有自然数之和」？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "如何理解无穷级数在微积分体系中的作用？",
+      "url": "https://www.zhihu.com/answer/24713957",
+      "summary": "正文围绕“级数收敛”给出直接说明。"
+    },
+    {
+      "title": "如何理解黎曼级数定理，为什么条件收敛级数仅通过改变次序就可以收敛于任意数？",
+      "url": "https://www.zhihu.com/answer/29440397",
+      "summary": "正文围绕“级数收敛”给出说明、例证或方法。"
+    },
+    {
+      "title": "请问泰勒级数与洛朗级数的区别是什么？",
+      "url": "https://www.zhihu.com/answer/32940952",
+      "summary": "围绕泰勒与洛朗级数的收敛半径比较展开适用区域。"
+    },
+    {
+      "title": "扔骰子游戏，将之前投的点数全部相加，恰好能在某一次后等于 2015 的概率是多少？",
+      "url": "https://www.zhihu.com/answer/43715176",
+      "summary": "正文给出递推数列收敛性的根模论证。"
+    },
+    {
+      "title": "这个调和级数收敛的证明哪里错了？",
+      "url": "https://www.zhihu.com/answer/45720806",
+      "summary": "正文指出调和级数错误证明中按位数的比例比较失效。"
+    },
+    {
+      "title": "黎曼对微积分的贡献是什么？",
+      "url": "https://www.zhihu.com/answer/46578712",
+      "summary": "正文介绍黎曼重排定理中级数重排后的收敛结论。"
+    },
+    {
+      "title": "是否能用直观的阐述分析、破解「阿基里斯与乌龟」悖论？",
+      "url": "https://www.zhihu.com/answer/65645792",
+      "summary": "正文直接点出芝诺悖论中收敛级数与发散的混淆。"
+    },
+    {
+      "title": "如何从逻辑的角度驳倒 Achilles 追龟问题？",
+      "url": "https://www.zhihu.com/answer/67909353",
+      "summary": "正文以追龟悖论解释收敛级数的和可以有限。"
+    },
+    {
+      "title": "数学中有哪些看起来很不可思议的知识？",
+      "url": "https://www.zhihu.com/answer/67929000",
+      "summary": "正文明确对比调和级数发散和其他级数值。"
+    },
+    {
+      "title": "如何从逻辑的角度驳倒 Achilles 追龟问题？",
+      "url": "https://www.zhihu.com/answer/68217658",
+      "summary": "正文通过区间划分说明无穷多个区间长度可以和为有限值。"
+    },
+    {
+      "title": "怎么理解数学中的级数？",
+      "url": "https://www.zhihu.com/answer/68463512",
+      "summary": "正文从逐项修正解释级数的思想。"
+    },
+    {
+      "title": "1-2+3-4+5+… 是否等于 1/4？ 1+2+3+4+5+6+7+… 是否等于 -1/12 ？",
+      "url": "https://www.zhihu.com/answer/69337414",
+      "summary": "正文讨论发散级数在不同求和意义下的处理。"
+    },
+    {
+      "title": "1-2+3-4+5+… 是否等于 1/4？ 1+2+3+4+5+6+7+… 是否等于 -1/12 ？",
+      "url": "https://www.zhihu.com/answer/69698467",
+      "summary": "正文区分柯西、Cesàro 与 Abel 意义下的级数收敛。"
+    },
+    {
+      "title": "1-2+3-4+5+… 是否等于 1/4？ 1+2+3+4+5+6+7+… 是否等于 -1/12 ？",
+      "url": "https://www.zhihu.com/answer/69853980",
+      "summary": "正文解释绝对收敛与重排，以及发散级数的求和。"
+    },
+    {
+      "title": "数学上还有哪些类似 0.99999…=1 这样有点不符合初学者常识的有趣的事实？",
+      "url": "https://www.zhihu.com/answer/70677255",
+      "summary": "正文用分组下界直接说明调和级数发散。"
+    },
+    {
+      "title": "无穷多个无穷小的乘积为什么不一定是无穷小？",
+      "url": "https://www.zhihu.com/answer/72695169",
+      "summary": "正文解释函数项无穷乘积的点态收敛与发散。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/81412286",
+      "summary": "正文辨析发散级数代入超出收敛半径、黎曼zeta函数及其在收敛域内的正规化含义。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/82005805",
+      "summary": "正文解释条件收敛级数重排可改变和及绝对收敛的重要性。"
+    },
+    {
+      "title": "高考数学数列放缩总结技巧有哪些？",
+      "url": "https://www.zhihu.com/answer/86495572",
+      "summary": "正文系统讲解用等比级数极限构造放缩数列的方法。"
+    },
+    {
+      "title": "数学中有哪些看起来很不可思议的知识？",
+      "url": "https://www.zhihu.com/answer/91008514",
+      "summary": "正文讨论连分式与嵌套根式的收敛问题，并给出Herschfeld收敛定理的判据。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/94285941",
+      "summary": "正文用调和级数、几何级数和重排例子实质比较发散、条件收敛与绝对收敛。"
+    },
+    {
+      "title": "请问泰勒级数与洛朗级数的区别是什么？",
+      "url": "https://www.zhihu.com/answer/95063257",
+      "summary": "正文围绕洛朗级数收敛环域与奇点讨论级数形式。"
+    },
+    {
+      "title": "有哪些类似于七桥问题的有趣数学定理？",
+      "url": "https://www.zhihu.com/answer/102358045",
+      "summary": "正文讨论巴塞尔级数以及斐波那契数列倒数和的收敛与无理数性质。"
+    },
+    {
+      "title": "傅里叶变换、拉普拉斯变换、Z 变换的联系是什么？为什么要进行这些变换？",
+      "url": "https://www.zhihu.com/answer/103926934",
+      "summary": "正文详细讨论傅里叶绝对可积、DTFT 绝对可和及拉氏、Z 变换收敛域。"
+    },
+    {
+      "title": "中高考数学题中有没有背景很深刻的题目？",
+      "url": "https://www.zhihu.com/answer/113812822",
+      "summary": "正文以欧拉五角形数公式和无穷乘积讨论级数恒等式。"
+    },
+    {
+      "title": "虚数 i 是真实存在的吗？还是被人们创造出的数学工具？",
+      "url": "https://www.zhihu.com/answer/113884840",
+      "summary": "正文比较泰勒级数在不同展开点的收敛区间。"
+    },
+    {
+      "title": "既然微分和积分互为逆运算，为什么积分比微分更难求解？",
+      "url": "https://www.zhihu.com/answer/113918971",
+      "summary": "正文从序列、级数和二项级数讨论无限求和与收敛。"
+    },
+    {
+      "title": "泰勒级数是如何推导出来的？",
+      "url": "https://www.zhihu.com/answer/114748378",
+      "summary": "正文给出余项估计并说明何种条件下无穷泰勒级数收敛到函数。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/115900358",
+      "summary": "正文展开调和级数与素数倒数和估计、Euler的zeta偶数项公式，以及多项Ramanujan级数恒等式。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/116046207",
+      "summary": "正文列出多个几何级数的无字证明例子。"
+    },
+    {
+      "title": "求大神解答：收敛级数的3次方一定收敛吗？",
+      "url": "https://www.zhihu.com/answer/117036208",
+      "summary": "正文区分正项与一般收敛级数逐项立方后的敛散性。"
+    },
+    {
+      "title": "素数的倒数和是否发散？",
+      "url": "https://www.zhihu.com/answer/119398113",
+      "summary": "正文使用无穷乘积与级数的收敛判定证明素数倒数和发散。"
+    },
+    {
+      "title": "如何看待关于 1 与 0.9999… 的大小的争论？",
+      "url": "https://www.zhihu.com/answer/121001028",
+      "summary": "正文用无穷级数之和定义0.999…并据此判断数值。"
+    },
+    {
+      "title": "为什么调和级数 N 分之一是发散的，而 N 平方分之一是收敛的？",
+      "url": "https://www.zhihu.com/answer/124426802",
+      "summary": "正文从调和级数、p 级数和项趋零速度解释级数收敛与发散。"
+    },
+    {
+      "title": "为什么调和级数 N 分之一是发散的，而 N 平方分之一是收敛的？",
+      "url": "https://www.zhihu.com/answer/124547035",
+      "summary": "正文用分组比较与等比级数证明 p 级数在 p≤1 发散、p>1 收敛。"
+    },
+    {
+      "title": "如何用数学方法推翻阿基里斯追不上乌龟悖论？",
+      "url": "https://www.zhihu.com/answer/124909672",
+      "summary": "正文用几何级数求和说明无限段路程可以收敛到有限值。"
+    },
+    {
+      "title": "所有的正数相乘等于几呢？",
+      "url": "https://www.zhihu.com/answer/125051445",
+      "summary": "正文说明重排得到不同乘积结果的根源是相应无限过程不收敛。"
+    },
+    {
+      "title": "无穷多个无穷小的乘积为什么不一定是无穷小？",
+      "url": "https://www.zhihu.com/answer/130145042",
+      "summary": "正文指出无穷乘积与极限换序同级数、广义积分中的收敛问题类似，并给出乘积不趋零的构造。"
+    },
+    {
+      "title": "矩阵的谱半径怎么求？",
+      "url": "https://www.zhihu.com/answer/130323362",
+      "summary": "正文给出矩阵幂级数收敛到逆矩阵的充要条件。"
+    },
+    {
+      "title": "数学分析究竟在讲些什么？",
+      "url": "https://www.zhihu.com/answer/135259273",
+      "summary": "正文介绍数列、函数、积分与级数的收敛，并展开反常积分收敛判别。"
+    },
+    {
+      "title": "有没有目前不知道是否收敛的级数?",
+      "url": "https://www.zhihu.com/answer/137049086",
+      "summary": "正文给出当前收敛性未知的级数，并用 π 的无理测度说明收敛判据。"
+    },
+    {
+      "title": "两块完全一样饼，如何平均分给三个人？",
+      "url": "https://www.zhihu.com/answer/138435123",
+      "summary": "正文明确用等比数列求和的极限解释持续分饼方案。"
+    },
+    {
+      "title": "0.99999……=1，那么1等不等于1.0000000000000……1呢？",
+      "url": "https://www.zhihu.com/answer/145938959",
+      "summary": "正文把循环小数化为等比级数并用前 n 项和及其极限求值。"
+    },
+    {
+      "title": "数列的收敛和极限存在是什么关系?",
+      "url": "https://www.zhihu.com/answer/147536788",
+      "summary": "正文用调和级数说明通项趋于零只是级数收敛的必要而非充分条件。"
+    },
+    {
+      "title": "数学领域有哪些经典的笑话？",
+      "url": "https://www.zhihu.com/answer/148088564",
+      "summary": "正文随后建立距离递推关系并求无限等比级数得到总路程。"
+    },
+    {
+      "title": "使用泰勒公式进行估算时，在不同点展开的区别和意义是啥?",
+      "url": "https://www.zhihu.com/answer/150667907",
+      "summary": "正文以奇点和收敛圆解释泰勒级数的收敛区间。"
+    },
+    {
+      "title": "那些打破圆周率小数位计算的记录是怎么判断计算得正不正确的？",
+      "url": "https://www.zhihu.com/answer/150873781",
+      "summary": "正文比较 BBP 级数与其他公式的收敛速度并推导级数表达。"
+    },
+    {
+      "title": "幂级数有类似于韦达定理的结果吗？",
+      "url": "https://www.zhihu.com/answer/152748391",
+      "summary": "正文围绕无穷级数与无穷乘积的收敛条件，给出整函数分解和严格化思路。"
+    },
+    {
+      "title": "怎么理解数学中的级数？",
+      "url": "https://www.zhihu.com/answer/190632965",
+      "summary": "正文从定义、必要条件和比较判别法系统讲解无穷级数收敛。"
+    },
+    {
+      "title": "有哪些学术性强的笑话/段子？",
+      "url": "https://www.zhihu.com/answer/198961670",
+      "summary": "正文说明正整数级数部分和无界，区分通常发散与拉马努金求和。"
+    },
+    {
+      "title": "arcsin(x)和tan(x)的泰勒展开有没有通项公式？",
+      "url": "https://www.zhihu.com/answer/201299860",
+      "summary": "正文使用函数项级数一致收敛条件交换积分与求和。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/205787499",
+      "summary": "正文讨论不同函数空间中傅里叶级数的发散与几乎处处收敛。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/206096281",
+      "summary": "正文比较等比级数与调和级数，并给出后者的发散证明。"
+    },
+    {
+      "title": "在哪个瞬间你觉得「我的高数没有白学」?",
+      "url": "https://www.zhihu.com/answer/213747978",
+      "summary": "正文用无穷级数的有限和解释龟兔悖论。"
+    },
+    {
+      "title": "如何评价「三江方士」？",
+      "url": "https://www.zhihu.com/answer/223004079",
+      "summary": "正文逐段校正无穷级数的指标、收敛域和调和级数发散问题。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/228167441",
+      "summary": "正文讨论级数法还必须证明收敛并估计余项。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/228634271",
+      "summary": "正文说明该无穷级数仅取首项即有很高的收敛精度。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/229084700",
+      "summary": "正文处理正弦函数无穷乘积和无穷级数系数。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/231361053",
+      "summary": "正文以芝诺悖论说明收敛级数。"
+    },
+    {
+      "title": "如何比较1 +2+3+4+……+N和2+4+6+8+……+N的大小？",
+      "url": "https://www.zhihu.com/answer/234492411",
+      "summary": "正文从部分和极限定义无穷级数并讨论发散。"
+    },
+    {
+      "title": "我发现了一个关于级数的公式，但是由于我只是一个高中生，水平有限，我不清楚它所带来的意义有多大，求解答？",
+      "url": "https://www.zhihu.com/answer/234792462",
+      "summary": "正文由欧拉–麦克劳林公式讨论发散级数的和。"
+    },
+    {
+      "title": "拉马努金是怎么发现那些壮观的公式的？",
+      "url": "https://www.zhihu.com/answer/239800976",
+      "summary": "正文分析无穷嵌套根式末端序列不收敛导致定义失败。"
+    },
+    {
+      "title": "「所有正整数之和是负十二分之一」在数学上是没有矛盾的吗？",
+      "url": "https://www.zhihu.com/answer/249714274",
+      "summary": "正文按通常收敛定义说明正整数级数发散。"
+    },
+    {
+      "title": "两个积分，级数问题思考？",
+      "url": "https://www.zhihu.com/answer/252620281",
+      "summary": "正文研究无穷级数并通过留数与收敛分析求和。"
+    },
+    {
+      "title": "为什么喝醉的人可以走回家，喝醉的鸟却不能飞回家？",
+      "url": "https://www.zhihu.com/answer/254620904",
+      "summary": "正文把返原性归结为不同维数下级数的收敛与发散。"
+    },
+    {
+      "title": "是否存在一个级数的∑an使得任何其他级数,只要通项大于它的都发散,小于的都收敛?",
+      "url": "https://www.zhihu.com/answer/256428584",
+      "summary": "正文证明正项级数不存在统一的最快收敛或最慢发散比较标准。"
+    },
+    {
+      "title": "如何理解傅里叶级数分解中的吉布斯现象?",
+      "url": "https://www.zhihu.com/answer/260156559",
+      "summary": "正文讨论傅里叶系数衰减、绝对收敛与级数一致收敛的关系。"
+    },
+    {
+      "title": "祖冲之的割圆术求圆周率是否过于繁琐？",
+      "url": "https://www.zhihu.com/answer/261039547",
+      "summary": "正文用两类无穷级数的迭代逼近说明圆周率计算。"
+    },
+    {
+      "title": "数学里有哪些精彩的伪证？",
+      "url": "https://www.zhihu.com/answer/261987489",
+      "summary": "正文围绕 Basel 级数的收敛值与欧拉无穷乘积伪证展开。"
+    },
+    {
+      "title": "斐波那契数列倒数和收敛吗，是多少？",
+      "url": "https://www.zhihu.com/answer/276512530",
+      "summary": "正文用比值审敛法判断倒数级数收敛。"
+    },
+    {
+      "title": "拉普拉斯变换的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/290339137",
+      "summary": "正文解释傅里叶级数与变换中广义积分的收敛条件。"
+    },
+    {
+      "title": "能不能将调和级数像阶乘一样拓展到实数域或者复数域？",
+      "url": "https://www.zhihu.com/answer/297470550",
+      "summary": "正文利用无穷乘积和无穷级数求出初值常数。"
+    },
+    {
+      "title": "函数(满足一定条件)能不能以无穷乘积的形式展开？",
+      "url": "https://www.zhihu.com/answer/301712392",
+      "summary": "正文给出无穷乘积收敛与对数级数收敛的等价判据。"
+    },
+    {
+      "title": "这样的一棵勾股树如果无限画下去总面积收敛吗？",
+      "url": "https://www.zhihu.com/answer/302179297",
+      "summary": "正文用无穷级数估计无限迭代勾股树面积的上界。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/303813857",
+      "summary": "正文比较莱布尼茨级数及其变体的收敛速度。"
+    },
+    {
+      "title": "1 到 2 之间为什么有无穷多个数字？",
+      "url": "https://www.zhihu.com/answer/306858801",
+      "summary": "正文把循环小数写成无穷级数并说明其收敛到2。"
+    },
+    {
+      "title": "伽马函数的这些极值，有什么特殊的地方？",
+      "url": "https://www.zhihu.com/answer/324374803",
+      "summary": "正文求取关于零点的无穷级数。"
+    },
+    {
+      "title": "你知道哪些反常识的知识？",
+      "url": "https://www.zhihu.com/answer/324939226",
+      "summary": "正文解释调和级数和素数倒数和的发散。"
+    },
+    {
+      "title": "你知道哪些反常识的知识？",
+      "url": "https://www.zhihu.com/answer/327816885",
+      "summary": "正文通过交错级数和无穷求和说明发散级数的处理。"
+    },
+    {
+      "title": "「所有正整数之和是负十二分之一」在数学上是没有矛盾的吗？",
+      "url": "https://www.zhihu.com/answer/331726116",
+      "summary": "正文定义并比较柯西和、切萨罗和、阿贝尔和与拉马努金求和。"
+    },
+    {
+      "title": "有哪些高逼格的祝福语？",
+      "url": "https://www.zhihu.com/answer/334105521",
+      "summary": "正文给出等比级数的收敛条件与无穷和公式并用于祝福语构造。"
+    },
+    {
+      "title": "证明调和级数发散的多种方法（5种及以上）？",
+      "url": "https://www.zhihu.com/answer/335547769",
+      "summary": "正文给出多种调和级数发散证明，核心是级数收敛性。"
+    },
+    {
+      "title": "有哪些构造性强的复变函数题目？",
+      "url": "https://www.zhihu.com/answer/347620732",
+      "summary": "正文讨论无穷乘积收敛所需的零点逼近条件。"
+    },
+    {
+      "title": "怎么理解函数项级数？",
+      "url": "https://www.zhihu.com/answer/350552309",
+      "summary": "正文通过代入参数解释函数项级数的收敛范围。"
+    },
+    {
+      "title": "三体运动没有解析解，那么自然界又是如何运行的呢？",
+      "url": "https://www.zhihu.com/answer/362166045",
+      "summary": "正文说明三体问题存在收敛幂级数形式的解析解。"
+    },
+    {
+      "title": "计算 sinx/x 的 0 到 ∞ 时的积分时，能否选择将 sinx 做展开处理？",
+      "url": "https://www.zhihu.com/answer/367809555",
+      "summary": "正文指出逐项积分产生发散积分并采用分配值处理。"
+    },
+    {
+      "title": "如何广义地理解「所有自然数之和」？",
+      "url": "https://www.zhihu.com/answer/368581301",
+      "summary": "正文用截断函数和欧拉－麦克劳林公式处理发散级数。"
+    },
+    {
+      "title": "如何广义地理解「所有自然数之和」？",
+      "url": "https://www.zhihu.com/answer/368703891",
+      "summary": "正文明确区分通常发散与物理正规化后的赋值。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/378924061",
+      "summary": "正文明确讨论素数级数发散与孪生素数级数收敛。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/379922792",
+      "summary": "正文比较正整数、素数及孪生素数倒数级数的敛散性。"
+    },
+    {
+      "title": "1/(n^2+an+b) n从1到正无穷的级数和，b>0？",
+      "url": "https://www.zhihu.com/answer/382169224",
+      "summary": "正文推导无穷级数的闭式求和公式并讨论参数情形。"
+    },
+    {
+      "title": "如何用傅里叶级数证明(-1)^{n-1}/(n^2)的累加等于pi^2/12 ?",
+      "url": "https://www.zhihu.com/answer/387582924",
+      "summary": "正文由傅里叶展开得到交错平方倒数级数与巴塞尔级数的和。"
+    },
+    {
+      "title": "站在一个无穷大的围棋/五子棋盘上的任意格点上，能够看到的格点都放上黑棋，黑棋占格点比例多少？",
+      "url": "https://www.zhihu.com/answer/388183467",
+      "summary": "正文借平方倒数级数求出互质概率。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/395357611",
+      "summary": "正文讨论无穷级数展开和函数分解的严密性。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/397765873",
+      "summary": "正文讨论无穷乘积与级数操作的严密性问题。"
+    },
+    {
+      "title": "如何通俗地介绍一下全部三次数学危机？",
+      "url": "https://www.zhihu.com/answer/401393252",
+      "summary": "正文用阿基里斯悖论讨论收敛级数的有限和。"
+    },
+    {
+      "title": "所有质数的总和正好等于所有数字的总和吗？",
+      "url": "https://www.zhihu.com/answer/440926195",
+      "summary": "正文解释无穷求和发散时不能把无穷大视为和。"
+    },
+    {
+      "title": "怎么推导或证明 e^x 的导数是自身？",
+      "url": "https://www.zhihu.com/answer/456180485",
+      "summary": "正文使用幂级数绝对收敛与收敛半径完成证明。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/459110820",
+      "summary": "正文辨析发散、条件收敛与绝对收敛，指出错误重排。"
+    },
+    {
+      "title": "全体自然数的发散级数和等于负十二分之一代表了什么？隐藏了一个天大的秘密吗？",
+      "url": "https://www.zhihu.com/answer/471582735",
+      "summary": "正文逐一比较柯西和、Cesaro和、Abel和等收敛与求和含义。"
+    },
+    {
+      "title": "全体自然数的发散级数和等于负十二分之一代表了什么？隐藏了一个天大的秘密吗？",
+      "url": "https://www.zhihu.com/answer/472665710",
+      "summary": "正文强调ζ级数原始定义的收敛域限制。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/474798837",
+      "summary": "正文解释调和级数发散，以及删去含9的项后级数收敛。"
+    },
+    {
+      "title": "如何评价这个「既发散又收敛」的级数？",
+      "url": "https://www.zhihu.com/answer/490856717",
+      "summary": "正文区分 Kempner 收敛级数与包含指定数字的发散级数。"
+    },
+    {
+      "title": "如何理解「芝诺悖论」？",
+      "url": "https://www.zhihu.com/answer/498753076",
+      "summary": "正文计算收敛等比级数的总时间。"
+    },
+    {
+      "title": "如何理解「芝诺悖论」？",
+      "url": "https://www.zhihu.com/answer/499340604",
+      "summary": "正文比较等比级数与调和级数的收敛差异。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/503419900",
+      "summary": "给出 Fourier 级数收敛所需的 Lipschitz 条件并据此代入求和。"
+    },
+    {
+      "title": "有没有这样的函数，其一阶导等于1，二阶导等于2，三阶导等于3，n阶导等于n，n一直趋于无穷大？",
+      "url": "https://www.zhihu.com/answer/504181204",
+      "summary": "明确说明所构造的无穷级数需要收敛并可逐项求导。"
+    },
+    {
+      "title": "如何严谨地证明 0.9999…=1？",
+      "url": "https://www.zhihu.com/answer/533408769",
+      "summary": "正文把循环小数写成无穷等比级数并求和。"
+    },
+    {
+      "title": "如何严谨地证明 0.9999…=1？",
+      "url": "https://www.zhihu.com/answer/533598329",
+      "summary": "正文把循环小数定义为无穷级数并处理其和。"
+    },
+    {
+      "title": "解析延拓怎么理解？",
+      "url": "https://www.zhihu.com/answer/533712258",
+      "summary": "正文区分幂级数的收敛域与其解析延拓后的函数值。"
+    },
+    {
+      "title": "积分判别法怎么使用和理解呢？",
+      "url": "https://www.zhihu.com/answer/555041714",
+      "summary": "用单调函数下的矩形面积与反常积分比较证明级数积分判别法。"
+    },
+    {
+      "title": "如何求证：无穷级数∑1/i²=π²/6，求方法？",
+      "url": "https://www.zhihu.com/answer/557721554",
+      "summary": "使用比较判别与 Weierstrass 判别论证函数项级数一致收敛。"
+    },
+    {
+      "title": "级数 ∑1/(n³sin²n) 收敛吗？",
+      "url": "https://www.zhihu.com/answer/567178755",
+      "summary": "说明 Flint Hills 级数的收敛性与无理性度量问题相连。"
+    },
+    {
+      "title": "级数 ∑1/(n³sin²n) 收敛吗？",
+      "url": "https://www.zhihu.com/answer/570415598",
+      "summary": "正文用无理度量给出参数级数收敛与发散的判据。"
+    },
+    {
+      "title": "三角函数和指数函数有关系（共同点）吗？",
+      "url": "https://www.zhihu.com/answer/589951965",
+      "summary": "正文明确说明相关幂级数在复数域收敛。"
+    },
+    {
+      "title": "有哪些令人为之惊叹的数学题目？",
+      "url": "https://www.zhihu.com/answer/597949221",
+      "summary": "正文讨论巴塞尔级数及其收敛值。"
+    },
+    {
+      "title": "目前求 π 的算法中哪种收敛最快？",
+      "url": "https://www.zhihu.com/answer/601728029",
+      "summary": "正文逐一比较 π 级数的收敛速度。"
+    },
+    {
+      "title": "数学上有哪些非常奇葩的证明？",
+      "url": "https://www.zhihu.com/answer/602139901",
+      "summary": "正文证明调和级数发散。"
+    },
+    {
+      "title": "请问 ∑(sinx/x) 的敛散性如何？",
+      "url": "https://www.zhihu.com/answer/613789360",
+      "summary": "正文用狄利克雷判别法证明三角级数收敛。"
+    },
+    {
+      "title": "历史上有哪些著名的数学定理在当时证明非常冗长，但是用现代的观点简洁明了？",
+      "url": "https://www.zhihu.com/answer/622512888",
+      "summary": "以系数绝对和有限说明傅里叶级数的绝对收敛条件。"
+    },
+    {
+      "title": "如何求得Σ1/(n²+a²)（n=1到∞）的值？",
+      "url": "https://www.zhihu.com/answer/641420570",
+      "summary": "借留数定理求出无穷级数的闭式和。"
+    },
+    {
+      "title": "有没有哪些数学题的某一步处理堪称神来之笔？",
+      "url": "https://www.zhihu.com/answer/654758450",
+      "summary": "围绕无穷级数部分和构造收敛性论证。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/680750541",
+      "summary": "通过部分积与 Stirling 误差证明无穷乘积收敛。"
+    },
+    {
+      "title": "∑ (1/n) 为何不收敛？",
+      "url": "https://www.zhihu.com/answer/681806608",
+      "summary": "按二的幂分组下界为无穷多个二分之一，证明调和级数发散。"
+    },
+    {
+      "title": "∑ (1/n) 为何不收敛？",
+      "url": "https://www.zhihu.com/answer/682713221",
+      "summary": "用阶梯矩形面积大于反常积分证明调和级数发散。"
+    },
+    {
+      "title": "三次曲线 x³＋y³＝1 有什么几何性质？",
+      "url": "https://www.zhihu.com/answer/687393778",
+      "summary": "用比较判别、泰勒展开和级数交换讨论积分收敛。"
+    },
+    {
+      "title": "∑ (1/n) 为何不收敛？",
+      "url": "https://www.zhihu.com/answer/688190876",
+      "summary": "定义无穷级数收敛，并用反证和分组不等式证明调和级数发散。"
+    },
+    {
+      "title": "如何估计 ln2 的近似值？",
+      "url": "https://www.zhihu.com/answer/696921902",
+      "summary": "分析级数误差与收敛速度。"
+    },
+    {
+      "title": "∑ (1/n) 为何不收敛？",
+      "url": "https://www.zhihu.com/answer/702064597",
+      "summary": "用分组比较证明调和级数部分和无界。"
+    },
+    {
+      "title": "∑ (1/n) 为何不收敛？",
+      "url": "https://www.zhihu.com/answer/705892838",
+      "summary": "用控制收敛定理反证调和级数不收敛。"
+    },
+    {
+      "title": "∑ (1/n) 为何不收敛？",
+      "url": "https://www.zhihu.com/answer/706195621",
+      "summary": "汇总三种分组、比较和裂项方法证明调和级数发散。"
+    },
+    {
+      "title": "无穷级数 ∑ n=1 ∞ ∫ 0 π sin^n x dx 是否收敛？",
+      "url": "https://www.zhihu.com/answer/712090136",
+      "summary": "由积分项下界为调和级数量级判定级数发散。"
+    },
+    {
+      "title": "∑ (1/n) 为何不收敛？",
+      "url": "https://www.zhihu.com/answer/713550847",
+      "summary": "用比较、凝聚、积分和柯西准则多路证明调和级数发散。"
+    },
+    {
+      "title": "幂级数的和函数怎么求，做题有什么方法吗？",
+      "url": "https://www.zhihu.com/answer/722191877",
+      "summary": "讲解幂级数和函数的收敛区间及求和方法。"
+    },
+    {
+      "title": "全体自然数的发散级数和等于负十二分之一代表了什么？隐藏了一个天大的秘密吗？",
+      "url": "https://www.zhihu.com/answer/735964889",
+      "summary": "指出发散级数代入幂级数等式不成立。"
+    },
+    {
+      "title": "为什么 0.9 的循环等于 1？",
+      "url": "https://www.zhihu.com/answer/736279470",
+      "summary": "正文把无限小数定义为级数，并用单调有界定理证明其收敛。"
+    },
+    {
+      "title": "为什么 0.9 的循环等于 1？",
+      "url": "https://www.zhihu.com/answer/754930584",
+      "summary": "用部分和的柯西性说明级数收敛。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/759188438",
+      "summary": "正文利用无穷等比数列求和完成期望计算。"
+    },
+    {
+      "title": "微积分到底是什么?",
+      "url": "https://www.zhihu.com/answer/759641177",
+      "summary": "区分无穷级数趋于有限值与发散到无穷。"
+    },
+    {
+      "title": "从0点出发，每次向正方向随机走1~k步，求踩到x的概率。为什么x趋于无穷大时，概率为2/(k+1)?",
+      "url": "https://www.zhihu.com/answer/759852363",
+      "summary": "将母函数分式重新展开为收敛级数。"
+    },
+    {
+      "title": "微积分到底是什么?",
+      "url": "https://www.zhihu.com/answer/759877967",
+      "summary": "正文讨论无穷级数的敛散性及收敛域。"
+    },
+    {
+      "title": "三分之一是0.3的循环三分之一乘3等于1 但是0.3的循环乘3是0.9的循环难道0.9的循环等于1么？",
+      "url": "https://www.zhihu.com/answer/765502646",
+      "summary": "正文把循环小数写成无穷级数并用求和公式计算。"
+    },
+    {
+      "title": "所有质数的倒数的平方和的精确值是多少？",
+      "url": "https://www.zhihu.com/answer/770786941",
+      "summary": "明确以绝对收敛说明交换求和合法。"
+    },
+    {
+      "title": "淘宝上代抽王者荣耀的荣耀水晶是真的吗？",
+      "url": "https://www.zhihu.com/answer/771128004",
+      "summary": "明确把期望写成收敛级数。"
+    },
+    {
+      "title": "世界上是不是不存在完美的圆？",
+      "url": "https://www.zhihu.com/answer/775736746",
+      "summary": "给出圆周率的无穷级数并讨论收敛效率。"
+    },
+    {
+      "title": "怎么文艺地说生日快乐？",
+      "url": "https://www.zhihu.com/answer/784709754",
+      "summary": "用无限递减等比级数计算生日年龄和。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/796709701",
+      "summary": "正文推导自然数平方倒数级数的和。"
+    },
+    {
+      "title": "如何求得这个级数？",
+      "url": "https://www.zhihu.com/answer/798635313",
+      "summary": "正文变形交错级数的部分和并用欧拉－麦克劳林公式求其极限。"
+    },
+    {
+      "title": "初等函数之上有无定义「高等函数」？",
+      "url": "https://www.zhihu.com/answer/800217802",
+      "summary": "正文以函数项级数构造新函数，并展开 Taylor、Laurent、Fourier 级数及黎曼ζ函数。"
+    },
+    {
+      "title": "初等函数之上有无定义「高等函数」？",
+      "url": "https://www.zhihu.com/answer/800503801",
+      "summary": "后半部分用无穷级数定义并分类多种特殊函数。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/820961981",
+      "summary": "正文推导加权几何级数的部分和与无穷级数收敛值，用于计算随机变量的期望。"
+    },
+    {
+      "title": "设光速为1那么我的飞船（小滑块）达到0.9的循环，是否能代表我达到了光速？",
+      "url": "https://www.zhihu.com/answer/821585529",
+      "summary": "比较收敛与发散级数说明无穷过程。"
+    },
+    {
+      "title": "这个极限怎么计算？",
+      "url": "https://www.zhihu.com/answer/855474818",
+      "summary": "用调和级数部分和估计渐近量级。"
+    },
+    {
+      "title": "除了Weierstrass函数，还有哪些处处连续处处不可导的实变函数的具体例子？",
+      "url": "https://www.zhihu.com/answer/881087107",
+      "summary": "分析构造函数对应级数的收敛与发散。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/883333794",
+      "summary": "处理无穷级数及其收敛。"
+    },
+    {
+      "title": "我们学过极限1/3=0.3的循环2/3=0.6的循环，为什么1/3+2/3=1而不等于0.9的循环呢?",
+      "url": "https://www.zhihu.com/answer/917059585",
+      "summary": "正文先定义无穷级数及其收敛，再把0.999…写成几何级数并求和。"
+    },
+    {
+      "title": "arcsin(x)和tan(x)的泰勒展开有没有通项公式？",
+      "url": "https://www.zhihu.com/answer/944475751",
+      "summary": "正文具体检验这些幂级数在端点和区间内的收敛范围。"
+    },
+    {
+      "title": "这道数学分析的题目怎么做？",
+      "url": "https://www.zhihu.com/answer/952968558",
+      "summary": "正文应用 Herschfeld 判别法判断无穷嵌套根式的收敛性。"
+    },
+    {
+      "title": "如何证明 a_n＝(1＋1/2²)(1＋1/3²)…(1＋1/n²) 收敛？",
+      "url": "https://www.zhihu.com/answer/959201597",
+      "summary": "正文用正弦函数无穷乘积求出给定乘积数列的收敛极限。"
+    },
+    {
+      "title": "为什么 1-1+1-1+1-1…=0.5？",
+      "url": "https://www.zhihu.com/answer/970402119",
+      "summary": "正文以部分和不收敛解释格兰迪级数的通常发散与 Cesàro 求和。"
+    },
+    {
+      "title": "为什么 1-1+1-1+1-1…=0.5？",
+      "url": "https://www.zhihu.com/answer/970417022",
+      "summary": "正文用部分和与 Cesàro 均值严格区分两种级数求和。"
+    },
+    {
+      "title": "为什么 1-1+1-1+1-1…=0.5？",
+      "url": "https://www.zhihu.com/answer/975973234",
+      "summary": "正文从定义域扩张解释发散级数被赋予有限值的含义。"
+    },
+    {
+      "title": "是否存在一个由1和-1构成的数列an，使得对于任意k和b，sin(kn+b)*an/n总是收敛级数？",
+      "url": "https://www.zhihu.com/answer/980019043",
+      "summary": "正文用柯西准则与离散 Abel 变换证明一类复级数一致有界。"
+    },
+    {
+      "title": "∑ (1/n) 为何不收敛？",
+      "url": "https://www.zhihu.com/answer/991386027",
+      "summary": "正文用部分和下界证明调和级数及相关正项级数发散。"
+    },
+    {
+      "title": "如何推导以下几种连分数表示？",
+      "url": "https://www.zhihu.com/answer/993982079",
+      "summary": "正文利用级数、部分分式与收敛性推导 ζ(2) 和连分数。"
+    },
+    {
+      "title": "请教一道级数问题如何做？",
+      "url": "https://www.zhihu.com/answer/996912343",
+      "summary": "正文处理无穷级数及交换求和、极限的条件。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/999235145",
+      "summary": "正文讨论调和级数求和公式及解析延拓。"
+    },
+    {
+      "title": "∑ (1/n) 为何不收敛？",
+      "url": "https://www.zhihu.com/answer/999594983",
+      "summary": "正文以放缩与几何方法证明调和级数发散。"
+    },
+    {
+      "title": "数学中，定义极限的目的是什么？是为了解决什么问题？为什么极限理论能很好地解决这类问题并被大家所接受？",
+      "url": "https://www.zhihu.com/answer/1031416240",
+      "summary": "正文实质讨论级数收敛严格化及阿贝尔判别法。"
+    },
+    {
+      "title": "非作业，求助这个级数收敛还是发散？",
+      "url": "https://www.zhihu.com/answer/1053845121",
+      "summary": "正文以丢番图逼近和下界论证目标无穷和不收敛，核心结论正是级数发散。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1066267726",
+      "summary": "正文利用e的级数部分和与余项估计控制收敛误差。"
+    },
+    {
+      "title": "如何严格证明 sinx＜x（0＜x＜π/2）？",
+      "url": "https://www.zhihu.com/answer/1071974129",
+      "summary": "正文利用交错级数的收敛性质估计正弦级数。"
+    },
+    {
+      "title": "有哪些有趣而著名的悖论？",
+      "url": "https://www.zhihu.com/answer/1076728731",
+      "summary": "正文用调和级数的发散构造并解释悖论。"
+    },
+    {
+      "title": "圆周率 π 是否隐藏了本个宇宙的设计者留给这个宇宙的智慧文明的某种信息？",
+      "url": "https://www.zhihu.com/answer/1078840210",
+      "summary": "正文实质讲述欧拉求解巴塞尔级数问题。"
+    },
+    {
+      "title": "有关级数的和函数？",
+      "url": "https://www.zhihu.com/answer/1145401944",
+      "summary": "正文围绕幂级数收敛域、逐项求导和积分系统求和函数。"
+    },
+    {
+      "title": "数学家 John Horton Conway 或因感染新型冠状病毒逝世，如何评价他一生的经历与贡献?",
+      "url": "https://www.zhihu.com/answer/1147674413",
+      "summary": "正文计算收敛几何级数作为Conway Sum。"
+    },
+    {
+      "title": "除了π，e，0.618，还有没有其他一些有特殊意义的数？",
+      "url": "https://www.zhihu.com/answer/1161680627",
+      "summary": "正文利用Bessel函数恒等式论证所构造Fourier级数的绝对收敛。"
+    },
+    {
+      "title": "有哪些不易察觉的错误证明？",
+      "url": "https://www.zhihu.com/answer/1192640546",
+      "summary": "正文逐步说明对发散级数非法移项、重排会产生伪结论。"
+    },
+    {
+      "title": "π的第七万位是多少?",
+      "url": "https://www.zhihu.com/answer/1209235903",
+      "summary": "正文用交错级数余项估计控制误差。"
+    },
+    {
+      "title": "「所有正整数之和是负十二分之一」在数学上是没有矛盾的吗？",
+      "url": "https://www.zhihu.com/answer/1241108265",
+      "summary": "正文比较几何级数与 Zeta 级数并讨论定义域外延拓。"
+    },
+    {
+      "title": "如何证明这个级数绝对收敛?",
+      "url": "https://www.zhihu.com/answer/1253416489",
+      "summary": "正文定义级数并通过分块放缩证明其绝对收敛。"
+    },
+    {
+      "title": "如下图，这个级数如何求出来呢？",
+      "url": "https://www.zhihu.com/answer/1264244735",
+      "summary": "正文用复围道、留数和欧拉数求出 Dirichlet beta 级数精确值。"
+    },
+    {
+      "title": "如何证明 a_n＝(1＋1/2²)(1＋1/3²)…(1＋1/n²) 收敛？",
+      "url": "https://www.zhihu.com/answer/1277244448",
+      "summary": "正文用无穷乘积公式计算级数并讨论其收敛值。"
+    },
+    {
+      "title": "为什么条件收敛的级数重排后，即使收敛，也不一定收敛于原来的级数和？",
+      "url": "https://www.zhihu.com/answer/1278410897",
+      "summary": "正文区分绝对收敛与条件收敛并讨论重排后的和。"
+    },
+    {
+      "title": "级数an收敛，能得到级数an平方收敛吗？",
+      "url": "https://www.zhihu.com/answer/1280577671",
+      "summary": "正文给出反例并说明正项级数平方后仍收敛。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/1300515034",
+      "summary": "正文用围道积分和留数证明巴塞尔级数。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/1300768473",
+      "summary": "正文用求和近似解释巴塞尔问题的发现过程。"
+    },
+    {
+      "title": "有哪些不易察觉的错误证明？",
+      "url": "https://www.zhihu.com/answer/1301052963",
+      "summary": "正文指出关于调和级数的错误证明论文。"
+    },
+    {
+      "title": "裂项相消法公式太多，怎么记啊？感觉每个老师总结的基本型都不一样？",
+      "url": "https://www.zhihu.com/answer/1302243462",
+      "summary": "正文用裂项估计级数收敛性。"
+    },
+    {
+      "title": "请问你见过的最强的公式是什么？",
+      "url": "https://www.zhihu.com/answer/1304026054",
+      "summary": "正文讨论若干与 zeta 函数相关的无穷级数公式。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/1305300188",
+      "summary": "正文用三角不等式和夹逼定理证明巴塞尔级数。"
+    },
+    {
+      "title": "请问你见过的最强的公式是什么？",
+      "url": "https://www.zhihu.com/answer/1306042068",
+      "summary": "正文说明级数项的收敛精度。"
+    },
+    {
+      "title": "级数有什么用？学习级数的意义在哪？",
+      "url": "https://www.zhihu.com/answer/1309150347",
+      "summary": "正文直接讲解“级数收敛”相关内容。"
+    },
+    {
+      "title": "怎样用一个普通人能看懂的方法证明 π 是无理数？",
+      "url": "https://www.zhihu.com/answer/1331208374",
+      "summary": "正文用夹逼准则证明有限积的极限存在并研究无穷乘积收敛。"
+    },
+    {
+      "title": "圆周率pi比较著名的无穷级数公式有哪些？",
+      "url": "https://www.zhihu.com/answer/1339659450",
+      "summary": "正文比较不同圆周率级数每一项的收敛速度与所需项数。"
+    },
+    {
+      "title": "对于大学数学中的一些概念、定理，感觉很显然，例如极限什么的，有必要那么严谨地学习证明吗？",
+      "url": "https://www.zhihu.com/answer/1339957514",
+      "summary": "正文通过连续函数项级数收敛后不连续，说明严格证明的必要性。"
+    },
+    {
+      "title": "从 0 加到 1 等于 +∞ 吗？",
+      "url": "https://www.zhihu.com/answer/1340903819",
+      "summary": "正文分组放缩证明调和级数发散。"
+    },
+    {
+      "title": "1和0.999...是两个不同的数字，在数学上却是相等的，是不是有悖论？",
+      "url": "https://www.zhihu.com/answer/1359512527",
+      "summary": "正文把无限小数表示为无穷级数并讨论其收敛定义。"
+    },
+    {
+      "title": "如何反驳三江方士的中华级数？",
+      "url": "https://www.zhihu.com/answer/1364850368",
+      "summary": "正文逐条辨析调和级数与正项级数的收敛判据。"
+    },
+    {
+      "title": "如何反驳三江方士的中华级数？",
+      "url": "https://www.zhihu.com/answer/1364955665",
+      "summary": "正文用放缩和部分和证明调和级数发散。"
+    },
+    {
+      "title": "如何证明黎曼重排定理？",
+      "url": "https://www.zhihu.com/answer/1391408400",
+      "summary": "正文证明黎曼重排定理，解释条件收敛与绝对收敛差异。"
+    },
+    {
+      "title": "10/89 小数部分前 5 位可以构成斐波那契数列，这是一种巧合吗？",
+      "url": "https://www.zhihu.com/answer/1395769629",
+      "summary": "正文用无穷级数计算小数展开。"
+    },
+    {
+      "title": "为什么1/49前面几项刚好是等比数列0204081632……，这是巧合吗 ？",
+      "url": "https://www.zhihu.com/answer/1405408618",
+      "summary": "正文用无穷等比级数解释 1/49 的小数展开。"
+    },
+    {
+      "title": "为什么1/49前面几项刚好是等比数列0204081632……，这是巧合吗 ？",
+      "url": "https://www.zhihu.com/answer/1405458347",
+      "summary": "正文用无穷等比数列求和解释 1/49。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1405540193",
+      "summary": "正文展示巴塞尔问题的级数证明。"
+    },
+    {
+      "title": "为什么1/49前面几项刚好是等比数列0204081632……，这是巧合吗 ？",
+      "url": "https://www.zhihu.com/answer/1406547844",
+      "summary": "正文用无穷级数统一解释 1/49 等小数展开。"
+    },
+    {
+      "title": "为什么1/49前面几项刚好是等比数列0204081632……，这是巧合吗 ？",
+      "url": "https://www.zhihu.com/answer/1406640959",
+      "summary": "正文把 1/49 解释为首项与公比均为 0.02 的无穷等比级数。"
+    },
+    {
+      "title": "圆周率pi比较著名的无穷级数公式有哪些？",
+      "url": "https://www.zhihu.com/answer/1408386834",
+      "summary": "正文主题即圆周率的无穷级数表示。"
+    },
+    {
+      "title": "怎么证明这个等式 ？",
+      "url": "https://www.zhihu.com/answer/1408418390",
+      "summary": "正文把连分数结果与无穷级数恒等式联系起来。"
+    },
+    {
+      "title": "为什么 1-1+1-1+1-1…=0.5？",
+      "url": "https://www.zhihu.com/answer/1412150225",
+      "summary": "正文用广义求和解释发散级数 1-1+1-... 的 0.5 取值。"
+    },
+    {
+      "title": "为什么 1-1+1-1+1-1…=0.5？",
+      "url": "https://www.zhihu.com/answer/1412930141",
+      "summary": "正文用解析延拓和柯西主值讨论发散级数的形式值。"
+    },
+    {
+      "title": "为什么 1-1+1-1+1-1…=0.5？",
+      "url": "https://www.zhihu.com/answer/1415356994",
+      "summary": "正文用参数化级数展示发散级数形式值的非唯一性。"
+    },
+    {
+      "title": "为什么 1-1+1-1+1-1…=0.5？",
+      "url": "https://www.zhihu.com/answer/1415482578",
+      "summary": "正文通过极限部分和说明该级数本身发散。"
+    },
+    {
+      "title": "定义数学期望的时候为什么一定要求级数满足绝对收敛呢？",
+      "url": "https://www.zhihu.com/answer/1416559757",
+      "summary": "正文用级数重排和条件收敛解释数学期望要求绝对收敛。"
+    },
+    {
+      "title": "这张算数入门图（一只兔子加一只兔子）里的题在算什么？",
+      "url": "https://www.zhihu.com/answer/1454890731",
+      "summary": "正文用 Euler–Maclaurin 公式处理级数与积分之差。"
+    },
+    {
+      "title": "如何证明这个级数等式？",
+      "url": "https://www.zhihu.com/answer/1465442282",
+      "summary": "正文证明多个由整数平移生成的无穷级数等式。"
+    },
+    {
+      "title": "黎曼zeta函数的解析延拓怎么推导？",
+      "url": "https://www.zhihu.com/answer/1472527996",
+      "summary": "正文从无穷级数定义出发讨论 ζ 函数收敛与延拓。"
+    },
+    {
+      "title": "为什么调和级数 N 分之一是发散的，而 N 平方分之一是收敛的？",
+      "url": "https://www.zhihu.com/answer/1483580846",
+      "summary": "正文直接给出与「级数收敛」相关的解释、推导或应用。"
+    },
+    {
+      "title": "如何用初等方法求 y＝x² 和 x 轴在一个区间上围成的面积？",
+      "url": "https://www.zhihu.com/answer/1485078791",
+      "summary": "正文直接给出与「级数收敛」相关的解释、推导或应用。"
+    },
+    {
+      "title": "e 是怎么算的？",
+      "url": "https://www.zhihu.com/answer/1525900437",
+      "summary": "正文直接讨论级数收敛，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "调和级数既然是发散的，那么就是无穷大量了，它发散的快吗？什么级别的？",
+      "url": "https://www.zhihu.com/answer/1529138331",
+      "summary": "正文直接讨论级数收敛，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "欧拉-麦克劳林求和公式怎么证明?",
+      "url": "https://www.zhihu.com/answer/1558276482",
+      "summary": "正文讨论求和渐近展开与级数余项。"
+    },
+    {
+      "title": "如何证明任意大于 1 的自然数 n，有 1/2＋1/3＋1/4＋…＋1/n＜ln n ?",
+      "url": "https://www.zhihu.com/answer/1566641770",
+      "summary": "正文说明调和级数发散并通过逐项放缩证明目标不等式。"
+    },
+    {
+      "title": "这个级数怎么求和呢？",
+      "url": "https://www.zhihu.com/answer/1569485453",
+      "summary": "正文通过积分表示和级数恒等式给出无穷级数的求和与收敛计算。"
+    },
+    {
+      "title": "这个微积分，怎么做？",
+      "url": "https://www.zhihu.com/answer/1571006286",
+      "summary": "正文通过交换级数与积分求无穷级数的和。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/1571534147",
+      "summary": "正文介绍条件收敛级数重排后可以收敛到任意值。"
+    },
+    {
+      "title": "你见过最有趣的级数是哪一个？",
+      "url": "https://www.zhihu.com/answer/1576717098",
+      "summary": "正文通过格点计数与渐近估计求无穷级数 ζ(2) 的和。"
+    },
+    {
+      "title": "你见过最有趣的级数是哪一个？",
+      "url": "https://www.zhihu.com/answer/1576948885",
+      "summary": "正文给出一组涉及数字表示与级数和的趣味无穷级数命题。"
+    },
+    {
+      "title": "宇宙是不连续的，那为什么微积分可以成立？",
+      "url": "https://www.zhihu.com/answer/1578836226",
+      "summary": "正文说明在适当条件下级数与积分可相互转化。"
+    },
+    {
+      "title": "什么时候积分运算和级数求和可以调换顺序？",
+      "url": "https://www.zhihu.com/answer/1579922901",
+      "summary": "正文分析无穷级数逐项积分的收敛与求和交换条件。"
+    },
+    {
+      "title": "为什么数学上一些显而易见的事情数学家们也要编个定理出来？",
+      "url": "https://www.zhihu.com/answer/1582065937",
+      "summary": "正文以振荡级数的不同求和结果讨论无穷级数收敛与工具边界。"
+    },
+    {
+      "title": "sinx² 的原函数是什么？",
+      "url": "https://www.zhihu.com/answer/1582259256",
+      "summary": "正文给出正弦积分的无穷级数与贝塞尔函数展开。"
+    },
+    {
+      "title": "复合函数的泰勒展开为啥可以直接带入？",
+      "url": "https://www.zhihu.com/answer/1583416366",
+      "summary": "正文讨论幂级数收敛区间和展开唯一性。"
+    },
+    {
+      "title": "阿基里斯和乌龟的悖论真的不能用常规逻辑推翻吗？",
+      "url": "https://www.zhihu.com/answer/1586131877",
+      "summary": "正文用收敛的几何级数计算阿基里斯追乌龟的总时间。"
+    },
+    {
+      "title": "有哪些你觉得是常识，但大部分人好像并不知道的事？",
+      "url": "https://www.zhihu.com/answer/1586790373",
+      "summary": "正文说明调和级数增长缓慢但发散，并继续用交错级数和幂级数展开讨论相关收敛结果。"
+    },
+    {
+      "title": "为什么级数 ∑ 1/[nln(n)] 发散？",
+      "url": "https://www.zhihu.com/answer/1614250442",
+      "summary": "正文用积分判别法证明给定正项级数发散。"
+    },
+    {
+      "title": "阿贝尔变换强大在哪里？",
+      "url": "https://www.zhihu.com/answer/1620874988",
+      "summary": "正文用阿贝尔变换证明级数收敛判别。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/1711698222",
+      "summary": "正文辨析发散级数与解析延拓的错误相加。"
+    },
+    {
+      "title": "1+0.1+0.01+0.001+0.0001... 一直下去会在实际中到达 2 吗？",
+      "url": "https://www.zhihu.com/answer/1729771641",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "调和级数的前 n 项和表达式怎么算？",
+      "url": "https://www.zhihu.com/answer/1729825117",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "1+0.1+0.01+0.001+0.0001... 一直下去会在实际中到达 2 吗？",
+      "url": "https://www.zhihu.com/answer/1732706002",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "1+0.1+0.01+0.001+0.0001... 一直下去会在实际中到达 2 吗？",
+      "url": "https://www.zhihu.com/answer/1733217327",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "1+0.1+0.01+0.001+0.0001... 一直下去会在实际中到达 2 吗？",
+      "url": "https://www.zhihu.com/answer/1733525477",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "1+0.1+0.01+0.001+0.0001... 一直下去会在实际中到达 2 吗？",
+      "url": "https://www.zhihu.com/answer/1733529637",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "1+0.1+0.01+0.001+0.0001... 一直下去会在实际中到达 2 吗？",
+      "url": "https://www.zhihu.com/answer/1748655732",
+      "summary": "正文直接讨论或推导「级数收敛」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "为什么自然数的和等于 -1/12？",
+      "url": "https://www.zhihu.com/answer/1749521577",
+      "summary": "正文直接讨论或推导「级数收敛」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "怎么证明1/2+1/4+1/6+1/8+...+1/2014＜6?",
+      "url": "https://www.zhihu.com/answer/1753295336",
+      "summary": "正文直接讨论或推导「级数收敛」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "为什么不存在收敛速度最慢的级数？",
+      "url": "https://www.zhihu.com/answer/1774595474",
+      "summary": "正文构造比任意收敛级数更慢收敛的级数。"
+    },
+    {
+      "title": "如果0.9循环等于1，那无穷小等于0，下面的说法，哪错了？",
+      "url": "https://www.zhihu.com/answer/1777511612",
+      "summary": "正文把循环小数写成无穷级数并讨论其极限。"
+    },
+    {
+      "title": "朱昊鲲数列错位求和的公式是什么原理？",
+      "url": "https://www.zhihu.com/answer/1781851158",
+      "summary": "正文用裂项构造有限求和，并讲授错位求和原理。"
+    },
+    {
+      "title": "1+2+4+8+16+32+64+128+256+...=-1 错在哪里？",
+      "url": "https://www.zhihu.com/answer/1790116901",
+      "summary": "正文用收敛定义判断发散级数不能按普通意义求和。"
+    },
+    {
+      "title": "1+0.1+0.01+0.001+0.0001... 一直下去会在实际中到达 2 吗？",
+      "url": "https://www.zhihu.com/answer/1806593822",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "1+2+4+8+16+32+64+128+256+...=-1 错在哪里？",
+      "url": "https://www.zhihu.com/answer/1818323745",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "1+2+4+8+16+32+64+128+256+...=-1 错在哪里？",
+      "url": "https://www.zhihu.com/answer/1820445138",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "1+2+4+8+16+32+64+128+256+...=-1 错在哪里？",
+      "url": "https://www.zhihu.com/answer/1820821033",
+      "summary": "正文比较收敛几何级数与发散级数，说明后者不能按同一方式赋值。"
+    },
+    {
+      "title": "如何判断反常积分的敛散性?",
+      "url": "https://www.zhihu.com/answer/1844367494",
+      "summary": "正文讨论反常积分的收敛与条件收敛判断。"
+    },
+    {
+      "title": "你遇到的最难的一个数学题是什么？",
+      "url": "https://www.zhihu.com/answer/1847132525",
+      "summary": "正文明确讨论复数列、误差项与级数/积分的渐近估计。"
+    },
+    {
+      "title": "两天时间怎么学会数学分析2？",
+      "url": "https://www.zhihu.com/answer/1851175940",
+      "summary": "正文归纳级数收敛判别法与函数项级数。"
+    },
+    {
+      "title": "1+0.1+0.01+0.001+0.0001... 一直下去会在实际中到达 2 吗？",
+      "url": "https://www.zhihu.com/answer/1861063455",
+      "summary": "正文讨论无限级数与现实连续可分性的区别。"
+    },
+    {
+      "title": "能给一个1!+2!+3!+…+n!的近似求和公式吗？",
+      "url": "https://www.zhihu.com/answer/1863097987",
+      "summary": "正文给出阶乘和与相关积分/级数展开的渐近近似。"
+    },
+    {
+      "title": "为什么有那么多人认为全体自然数之和等于-1/12，且振振有词？",
+      "url": "https://www.zhihu.com/answer/1868445739",
+      "summary": "正文强调原级数只在特定区域收敛，不能直接代入负值。"
+    },
+    {
+      "title": "为什么有那么多人认为全体自然数之和等于-1/12，且振振有词？",
+      "url": "https://www.zhihu.com/answer/1868874682",
+      "summary": "正文指出发散级数不能按绝对收敛级数的方式任意换序赋值。"
+    },
+    {
+      "title": "0到1之间所有有理数之和 ，和1到2之间的有理数之和，哪个大？",
+      "url": "https://www.zhihu.com/answer/1872797636",
+      "summary": "正文指出两个有理数集合的普通求和发散，并分析排序对级数的影响。"
+    },
+    {
+      "title": "根号1＋根号2＋根号3＋根号4＋…＋根号100，结果是多少？",
+      "url": "https://www.zhihu.com/answer/1886597029",
+      "summary": "正文解释渐近级数通常不收敛但部分和能很好逼近求和。"
+    },
+    {
+      "title": "为什么这个级数会如此接近整数?",
+      "url": "https://www.zhihu.com/answer/1888929209",
+      "summary": "正文解释特殊级数近似整数与指数分母级数的收敛性质。"
+    },
+    {
+      "title": "为什么这个级数会如此接近整数?",
+      "url": "https://www.zhihu.com/answer/1889411059",
+      "summary": "正文用 Eisenstein 级数和 q 指数证明级数近似公式的误差。"
+    },
+    {
+      "title": "0.999......8和1相等吗?",
+      "url": "https://www.zhihu.com/answer/1891190307",
+      "summary": "正文分析把 0.999…8 写成序列极限时是否合法。"
+    },
+    {
+      "title": "圆周率是一个无理数，3.1415926…。问，能否用一个数学式子来准确表示圆周率，类似根号10？",
+      "url": "https://www.zhihu.com/answer/1903493689",
+      "summary": "正文补充级数余项极限论证并说明收敛。"
+    },
+    {
+      "title": "0到1之间所有有理数之和 ，和1到2之间的有理数之和，哪个大？",
+      "url": "https://www.zhihu.com/answer/1905361949",
+      "summary": "正文讨论级数在复半平面中的绝对收敛和延拓。"
+    },
+    {
+      "title": "能不能给我举一个不收敛，但是部分和有界且通项逼近于0的数项级数?",
+      "url": "https://www.zhihu.com/answer/1908144544",
+      "summary": "正文给出部分和有界但通项趋于零却不收敛的级数例子。"
+    },
+    {
+      "title": "哭了，无穷级数怎么这么难，怎么才能学好求大神指点迷津！？",
+      "url": "https://www.zhihu.com/answer/1942293320",
+      "summary": "正文系统说明无穷级数的收敛概念与主要判别法。"
+    },
+    {
+      "title": "为什么数学上一些显而易见的事情数学家们也要编个定理出来？",
+      "url": "https://www.zhihu.com/answer/1949855482",
+      "summary": "正文以反例解释积分与级数收敛及其严格证明。"
+    },
+    {
+      "title": "1+2+4+8+16+32+64+128+256+...=-1 错在哪里？",
+      "url": "https://www.zhihu.com/answer/1960236773",
+      "summary": "正文用发散级数说明不能对无穷和套用普通四则运算。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/2011782772",
+      "summary": "正文用橡皮筋上蚂蚁追赶问题解释调和级数发散。"
+    },
+    {
+      "title": "1/2和1/3只用加和乘能否运算成1/5？",
+      "url": "https://www.zhihu.com/answer/2014197455",
+      "summary": "正文用等比级数求和证明加权和等于 1/5。"
+    },
+    {
+      "title": "民科是否很少攻击数学？",
+      "url": "https://www.zhihu.com/answer/2016900262",
+      "summary": "正文列举关于调和级数收敛性的典型误解。"
+    },
+    {
+      "title": "目前最小的级数形式的无穷大是多少？",
+      "url": "https://www.zhihu.com/answer/2038682015",
+      "summary": "正文用比较判别法讨论极慢发散级数。"
+    },
+    {
+      "title": "怎么手算 π 的第 5 位数字？",
+      "url": "https://www.zhihu.com/answer/2055610189",
+      "summary": "正文用级数展开计算圆周率小数。"
+    },
+    {
+      "title": "收敛与有界的区别是什么？",
+      "url": "https://www.zhihu.com/answer/2060175303",
+      "summary": "正文讨论级数与极限中的收敛概念。"
+    },
+    {
+      "title": "怎么手算 π 的第 5 位数字？",
+      "url": "https://www.zhihu.com/answer/2108108682",
+      "summary": "正文讨论圆周率级数的收敛速度与逐项计算。"
+    },
+    {
+      "title": "怎么证明n的n分之一次方的和发散？",
+      "url": "https://www.zhihu.com/answer/2111249312",
+      "summary": "正文用比较判别和部分和发散证明 sum n^(1/n) 发散。"
+    },
+    {
+      "title": "拉马努金圆周率公式的原理是什么？",
+      "url": "https://www.zhihu.com/answer/2113545957",
+      "summary": "正文把圆周率公式展开为超几何级数并讨论其结构。"
+    },
+    {
+      "title": "除了 π、e 等这些常数，还有哪些伟大的常数？他们的意义都是什么？为什么都是无理数呢？",
+      "url": "https://www.zhihu.com/answer/2117818262",
+      "summary": "正文列出一族与Euler-Mascheroni常数相关的收敛级数。"
+    },
+    {
+      "title": "有哪些虽然正确但却没啥用的公式？",
+      "url": "https://www.zhihu.com/answer/2139374329",
+      "summary": "正文构造无限嵌套根式后指出从有限项推广到无限项需要讨论极限与收敛。"
+    },
+    {
+      "title": "数学史上你认为最丑陋的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2143619427",
+      "summary": "正文用无限积分类比说明有限项规律并不能直接保证下一个极限项成立。"
+    },
+    {
+      "title": "数学史上你认为最丑陋的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2143719069",
+      "summary": "正文用 Borwein 积分说明序列规律在某个阶数突然失效。"
+    },
+    {
+      "title": "∑ (1/n) 为何不收敛？",
+      "url": "https://www.zhihu.com/answer/2147613508",
+      "summary": "正文用 Cauchy 准则、部分和与比较判别法证明调和级数发散。"
+    },
+    {
+      "title": "有哪些很难的数学题，答案是 629，宿舍当门牌用？",
+      "url": "https://www.zhihu.com/answer/2183845919",
+      "summary": "正文给出一道由无穷级数求和得到 629 的练习。"
+    },
+    {
+      "title": "能不能让两个与 π 无关的两个数之和等于 π？",
+      "url": "https://www.zhihu.com/answer/2194654535",
+      "summary": "正文讨论无穷级数拆分方式的数量与收敛表示。"
+    },
+    {
+      "title": "巴塞尔问题的这个解法，是如何想出来的？",
+      "url": "https://www.zhihu.com/answer/2208837370",
+      "summary": "正文把巴塞尔问题与三角级数、级数变形和函数方程联系起来。"
+    },
+    {
+      "title": "1/1+1/2+1/3+1/4+……+1/n=？怎么个解法？",
+      "url": "https://www.zhihu.com/answer/2211767878",
+      "summary": "正文用积分比较证明调和级数无界并给出上下界估计。"
+    },
+    {
+      "title": "你遇到过的最难的积分题目是什么？",
+      "url": "https://www.zhihu.com/answer/2214425662",
+      "summary": "正文用积分表示和级数重排研究 Basel 问题与立方倒数和。"
+    },
+    {
+      "title": "这个极限怎么写?",
+      "url": "https://www.zhihu.com/answer/2232696277",
+      "summary": "正文以级数上界、下界和上下极限夹逼证明极限存在。"
+    },
+    {
+      "title": "如何看待「禁止用没学过的知识解题」这样的要求？",
+      "url": "https://www.zhihu.com/answer/2237940035",
+      "summary": "正文用控制收敛定理反证调和级数发散。"
+    },
+    {
+      "title": "如何判断反常积分的敛散性?",
+      "url": "https://www.zhihu.com/answer/2249016920",
+      "summary": "正文把反常积分与无穷级数收敛判别联系起来。"
+    },
+    {
+      "title": "无限循环小数，可以被计算吗？如果可以，那么 0.33333（无限循环）*1.58=多少？",
+      "url": "https://www.zhihu.com/answer/2278965523",
+      "summary": "正文把循环小数展开为收敛的几何级数，并利用级数性质完成乘法。"
+    },
+    {
+      "title": "为何数学里常有很奇葩甚至毁三观的公式结论？",
+      "url": "https://www.zhihu.com/answer/2303341749",
+      "summary": "正文用部分和数列的极限澄清发散级数不能按普通求和赋值。"
+    },
+    {
+      "title": "请问这个积分怎么积的。我积不出来。答案是根号π。？",
+      "url": "https://www.zhihu.com/answer/2303659154",
+      "summary": "正文在计算前先用比较判别法说明广义积分收敛。"
+    },
+    {
+      "title": "1+0.1+0.01+0.001+0.0001... 一直下去会在实际中到达 2 吗？",
+      "url": "https://www.zhihu.com/answer/2311009031",
+      "summary": "正文用等比数列求和与极限严格说明级数收敛到 10/9，不能达到 2。"
+    },
+    {
+      "title": "怎么证明e的平方是无理数？",
+      "url": "https://www.zhihu.com/answer/2314501386",
+      "summary": "正文通过级数项和收敛性质控制证明中的小数部分。"
+    },
+    {
+      "title": "数学中有哪些看起来很不可思议的知识？",
+      "url": "https://www.zhihu.com/answer/2319728439",
+      "summary": "正文围绕无穷级数求和及其反常结论展开。"
+    },
+    {
+      "title": "不代入近似数值怎么证明π<√2+√3?",
+      "url": "https://www.zhihu.com/answer/2322721764",
+      "summary": "正文用级数上界证明 pi^2/6 小于某个有限数。"
+    },
+    {
+      "title": "有哪些漂亮的无穷乘积公式？",
+      "url": "https://www.zhihu.com/answer/2327390548",
+      "summary": "正文列举多类无穷乘积公式及其常数联系。"
+    },
+    {
+      "title": "怎么证明全体孪生素数倒数和是收敛的 ?",
+      "url": "https://www.zhihu.com/answer/2327909742",
+      "summary": "正文用计数上界和级数比较证明倒数和收敛。"
+    },
+    {
+      "title": "有哪些高考题可以用阿贝尔变换（数学）?",
+      "url": "https://www.zhihu.com/answer/2357036081",
+      "summary": "正文以 Abel 变换重写并估计数列和与级数型问题。"
+    },
+    {
+      "title": "下面关于欧拉常数的13个公式怎么证明?",
+      "url": "https://www.zhihu.com/answer/2455822596",
+      "summary": "正文讨论黎曼 Zeta 级数的收敛范围，并将其用于欧拉常数的推导。"
+    },
+    {
+      "title": "如何评价 2022 阿里巴巴数学竞赛题目？",
+      "url": "https://www.zhihu.com/answer/2459077526",
+      "summary": "正文利用调和级数发散得到矛盾。"
+    },
+    {
+      "title": "可以留下一个优美的恒等式吗？",
+      "url": "https://www.zhihu.com/answer/2462806380",
+      "summary": "正文讨论不同指数下级数恒等式的收敛范围。"
+    },
+    {
+      "title": "阿基里斯为什么永远追不上先行的乌龟？",
+      "url": "https://www.zhihu.com/answer/2464571756",
+      "summary": "正文用部分和反驳无限项之和必然无穷，直接说明级数收敛。"
+    },
+    {
+      "title": "如何通俗地解释泰勒公式？",
+      "url": "https://www.zhihu.com/answer/2484704247",
+      "summary": "正文证明收敛半径内泰勒级数收敛到原函数。"
+    },
+    {
+      "title": "目前求 π 的算法中哪种收敛最快？",
+      "url": "https://www.zhihu.com/answer/2487074424",
+      "summary": "通过相邻项比值比较两个圆周率级数的收敛速度，并给出积分证明。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/2495624065",
+      "summary": "正文给出 e 的阶乘级数并说明其收敛半径和收敛性。"
+    },
+    {
+      "title": "为什么1/n发散，而1/n的平方收敛?",
+      "url": "https://www.zhihu.com/answer/2519624202",
+      "summary": "讨论调和级数与 p 级数的收敛性区别，并给出积分判别法。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/2523907831",
+      "summary": "通过夹逼与极限证明级数收敛到 π²/6。"
+    },
+    {
+      "title": "如何证明泰勒定理？",
+      "url": "https://www.zhihu.com/answer/2525882263",
+      "summary": "讨论泰勒级数的收敛半径与在收敛区间内收敛到原函数。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/2537323776",
+      "summary": "讨论平方倒数级数与三角级数的收敛性并据此求值。"
+    },
+    {
+      "title": "这个式子怎么证明等于π/2？",
+      "url": "https://www.zhihu.com/answer/2566318577",
+      "summary": "正文通过按整数区间重新分组无限乘积并逐项化简，给出无穷乘积的计算与收敛结构。"
+    },
+    {
+      "title": "很清楚0.99999≠1，但就是推不翻它，有什么漏洞？",
+      "url": "https://www.zhihu.com/answer/2609412992",
+      "summary": "把 0.999… 表示为十进制级数，并说明其绝对收敛。"
+    },
+    {
+      "title": "为什么1/n发散，而1/n的平方收敛?",
+      "url": "https://www.zhihu.com/answer/2612157591",
+      "summary": "通过分组放缩和等比级数比较证明调和级数发散、平方倒数级数收敛。"
+    },
+    {
+      "title": "康托尔出于什么目的，或说为解决什么问题而创立的集合论？",
+      "url": "https://www.zhihu.com/answer/2647287657",
+      "summary": "以傅里叶级数在每点收敛到零的系数唯一性问题作为集合论研究的起点。"
+    },
+    {
+      "title": "世界上收敛最快的计算 π 的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2687889150",
+      "summary": "正文以每增加一个级数项带来的有效位数增长具体比较三组圆周率级数的收敛速度。"
+    },
+    {
+      "title": "把[0，1]这个区间里的所有实数相加，得出的结果是无穷大吗？",
+      "url": "https://www.zhihu.com/answer/2692186981",
+      "summary": "正文利用调和级数发散证明[0,1]及不可数个正数的求和发散。"
+    },
+    {
+      "title": "把[0，1]这个区间里的所有实数相加，得出的结果是无穷大吗？",
+      "url": "https://www.zhihu.com/answer/2692192193",
+      "summary": "正文以调和级数为下界，说明区间内有理数求和发散。"
+    },
+    {
+      "title": "lim(n→∞)[(1/n)^n+(2/n)^n+...+(n/n)^n]怎么写呢？",
+      "url": "https://www.zhihu.com/answer/2692867217",
+      "summary": "正文用一个收敛的指数级数控制求和，并进一步求出原级数的和 e/(e-1)。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2693509918",
+      "summary": "正文给出不可列集求和的 Cauchy 准则，并用它判定区间上的求和不收敛。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2693660947",
+      "summary": "正文通过重排与正负项无穷的情况说明该无穷求和不能良好定义。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2693786412",
+      "summary": "正文用条件收敛级数的重排得到 ln 2，并据此说明不可数正负数求和无法由对称性确定。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2695254231",
+      "summary": "正文把带指标族的求和对应到绝对收敛和条件收敛，并证明该区间在两种意义下都不可求和。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2695748736",
+      "summary": "正文用交错级数不同加括号得到不同结果，说明无穷级数必须先明确收敛定义。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2695990779",
+      "summary": "正文通过重排、条件收敛和绝对收敛的对比说明无穷级数必须在收敛意义下讨论。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2697295364",
+      "summary": "正文通过区间配对与重新分组构造非负项之和，说明该无穷求和在通常收敛意义下不可定义。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2705086828",
+      "summary": "正文用黎曼重排定理说明条件收敛级数在重排后的和可以改变，以论证无限求和不能照搬有限加法的性质。"
+    },
+    {
+      "title": "如何看待杨振宁认为有造物主的存在？",
+      "url": "https://www.zhihu.com/answer/2705229939",
+      "summary": "正文以发散级数为例展示形式化求和与黎曼函数正则化的讨论，核心涉及无穷级数的收敛与求和方式。"
+    },
+    {
+      "title": "数学中有哪些经典必记的不等式？",
+      "url": "https://www.zhihu.com/answer/2718420960",
+      "summary": "正文以调和级数的分组放大和根号倒数和的双向估计为例，讨论级数的发散与收敛估计。"
+    },
+    {
+      "title": "1+0.1+0.01+0.001+0.0001... 一直下去会在实际中到达 2 吗？",
+      "url": "https://www.zhihu.com/answer/2718464481",
+      "summary": "正文把无限和视为首项为1、公比为0.1的等比级数，并写出前n项部分和公式。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2726562604",
+      "summary": "正文指出无穷级数在未规定求和次序时不能任意交换结合，并援引黎曼关于条件收敛的结论说明重排会改变结果。"
+    },
+    {
+      "title": "区间【-5，5】里面所有有理数相加，结果为0吗？",
+      "url": "https://www.zhihu.com/answer/2727490682",
+      "summary": "正文论证调和级数正负项重排后的部分和可以趋近任意常数，说明级数结果依赖求和次序。"
+    },
+    {
+      "title": "如果1秒钟能写10¹⁰⁰个零，一个庞加莱回归时间，能写出葛立恒数吗？",
+      "url": "https://www.zhihu.com/answer/2729429715",
+      "summary": "正文把每一步耗时按一半递减，并用这些耗时之和有限的安排说明无限多项任务可在两秒内完成。"
+    },
+    {
+      "title": "世界上收敛最快的计算 π 的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2736090937",
+      "summary": "正文讨论圆周率的多类无穷级数表示，并用 Fourier 级数和 Wallis 公式说明其展开与收敛效果。"
+    },
+    {
+      "title": "有没有结果含有“π”但是与圆完全无关的问题？",
+      "url": "https://www.zhihu.com/answer/2737784020",
+      "summary": "正文介绍莱布尼茨与 Nilakantha 级数，并利用余项趋于零证明级数和收敛到圆周率。"
+    },
+    {
+      "title": "泰勒公式是如何推导出来的？",
+      "url": "https://www.zhihu.com/answer/2754450573",
+      "summary": "正文讨论泰勒级数的收敛半径、边界行为以及收敛半径内级数收敛到原函数的条件。"
+    },
+    {
+      "title": "你见过最有趣的数学笑话是什么？",
+      "url": "https://www.zhihu.com/answer/2768771830",
+      "summary": "正文连续累加 1、1/2、1/4、1/8 等越来越小的项，并用酒保给两扎的结果体现等比级数收敛于 2。"
+    },
+    {
+      "title": "泰勒公式是什么，怎么理解？",
+      "url": "https://www.zhihu.com/answer/2774613066",
+      "summary": "正文讨论泰勒级数的收敛半径、端点收敛性以及级数展开成立的范围。"
+    },
+    {
+      "title": "如何评价曹则贤教授关于数学物理有 85% 的知识未传入中国的观点？",
+      "url": "https://www.zhihu.com/answer/2782033371",
+      "summary": "正文比较达朗贝尔、柯西、拉阿伯和高斯判别法，说明它们通过与不同收敛速度的级数比较来判断级数收敛。"
+    },
+    {
+      "title": "如果我有 2^(-n) 概率获得 2^n 元，那获得钱的数学期望值应该是无穷，但实际不是这样，为什么？",
+      "url": "https://www.zhihu.com/answer/2793720084",
+      "summary": "正文用交错调和级数说明改变求和顺序会得到不同极限，讨论条件收敛问题。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/2796113001",
+      "summary": "正文先对有限部分和作双侧估计，再令项数趋于无穷，证明该级数收敛到π²/6。"
+    },
+    {
+      "title": "如何证明sin²θ+cos²θ＝1？",
+      "url": "https://www.zhihu.com/answer/2814177886",
+      "summary": "正文用比较判别法证明复指数幂级数绝对收敛，并由绝对收敛推出级数收敛。"
+    },
+    {
+      "title": "如何用放缩法证明 ∜(2143/22) 略小于 π？",
+      "url": "https://www.zhihu.com/answer/2826569057",
+      "summary": "正文用收敛正项级数的有限部分和给出所需下界，并通过逐项数值放缩完成证明。"
+    },
+    {
+      "title": "有没有学数学的大佬给我讲一些非常牛逼的东西，震撼一下我这个非数学系的大学生？",
+      "url": "https://www.zhihu.com/answer/2829604530",
+      "summary": "正文把状态常返性等价为返回概率级数发散，并进一步用 Stirling 公式分别判断对称与非对称随机游走的级数敛散。"
+    },
+    {
+      "title": "怎样算出黎曼猜想的第1个非平凡零点？",
+      "url": "https://www.zhihu.com/answer/2835580698",
+      "summary": "正文讨论 zeta 级数在收敛区域的性质，并利用两侧积分收敛完成解析延拓。"
+    },
+    {
+      "title": "阿基里斯为什么永远追不上先行的乌龟？",
+      "url": "https://www.zhihu.com/answer/2862237246",
+      "summary": "正文用无限段趋于零的时间或距离之和可能有限来解释阿基里斯追龟问题，实质是级数收敛。"
+    },
+    {
+      "title": "为什么入门的微积分教材都是从极限的概念开始讲起？",
+      "url": "https://www.zhihu.com/answer/2891444256",
+      "summary": "正文把追逐时间写成无穷级数并得到有限值 10/9 秒，说明无穷多项之和可以收敛。"
+    },
+    {
+      "title": "大名鼎鼎的芝诺悖论该如何破解呢？",
+      "url": "https://www.zhihu.com/answer/2935762938",
+      "summary": "正文用几何级数100+10+1+0.1+…和对应时间的收敛求和，解释阿基里斯为何能在有限时刻追上乌龟。"
+    },
+    {
+      "title": "大名鼎鼎的芝诺悖论该如何破解呢？",
+      "url": "https://www.zhihu.com/answer/2936972708",
+      "summary": "正文用不断二分时间的芝诺悖论说明无限细分过程可对应收敛的无穷级数。"
+    },
+    {
+      "title": "大名鼎鼎的芝诺悖论该如何破解呢？",
+      "url": "https://www.zhihu.com/answer/2937037505",
+      "summary": "正文区分无穷过程与无穷时间，说明每步耗时可快速衰减的无限过程仍可在有限时间内完成。"
+    },
+    {
+      "title": "是否存在发散特别慢的正项级数?",
+      "url": "https://www.zhihu.com/answer/2942862220",
+      "summary": "正文比较正项发散级数的发散速度，并用小于式构造更慢的发散级数。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2951972866",
+      "summary": "正文讨论区间内有理数任意排列所成级数的收敛性，并证明这类级数不可能收敛。"
+    },
+    {
+      "title": "cos(π/3)cos(π/4)cos(π/5)……是否收敛，如果收敛，极限是多少？",
+      "url": "https://www.zhihu.com/answer/2958036052",
+      "summary": "正文先给出余弦无穷乘积与级数收敛的等价关系，再用放缩和巴塞尔问题证明收敛。"
+    },
+    {
+      "title": "学泰勒公式一开始就不明白，为什么 n 次多项式可以提高与 f(x) 的近似程度？",
+      "url": "https://www.zhihu.com/answer/2973482228",
+      "summary": "正文讨论泰勒级数的收敛半径、收敛区间及其端点处可能收敛或发散的条件。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/3005139681",
+      "summary": "正文比较相同正负项的不同排列所得无穷级数，指出其中一种排列不收敛，直接说明无穷级数收敛性依赖排列。"
+    },
+    {
+      "title": "如果科学的尽头是神学，那神学的尽头是什么?",
+      "url": "https://www.zhihu.com/answer/3034038047",
+      "summary": "正文围绕1+2+3+…的无穷和展开所谓错位相加推导，并讨论普通求和与解析延拓结果的差异，对应级数收敛问题。"
+    },
+    {
+      "title": "如何通俗地解释p-adic（p进数）？",
+      "url": "https://www.zhihu.com/answer/3090935943",
+      "summary": "正文利用 p 进绝对值趋于零说明几何级数在 N 进数中收敛，并与实数域中的发散行为对照。"
+    },
+    {
+      "title": "所有tanx的所有非零不动点的倒数平方和等于1/5这个怎么证明？",
+      "url": "https://www.zhihu.com/answer/3095044986",
+      "summary": "正文展开 tan x 不动点倒数幂的无穷级数，并用部分和与收敛速度比较验证级数和结果。"
+    },
+    {
+      "title": "如何通俗地解释p-adic（p进数）？",
+      "url": "https://www.zhihu.com/answer/3095327239",
+      "summary": "正文以 p 进指数级数为例，具体讨论级数在 p 进绝对值下何时收敛。"
+    },
+    {
+      "title": "牛顿的科学观都不足以让他放弃他的神学信仰吗？",
+      "url": "https://www.zhihu.com/answer/3108996544",
+      "summary": "正文用 S1、S2 的错位相减和相加给自然数级数赋 -1/12，实质上涉及发散级数的求和与收敛含义。"
+    },
+    {
+      "title": "如何证明素数无穷多？",
+      "url": "https://www.zhihu.com/answer/3121132182",
+      "summary": "正文同时使用几何级数求和与调和级数发散，比较有限乘积和无穷级数得出矛盾。"
+    },
+    {
+      "title": "巴塞尔问题一共有多少种解法?",
+      "url": "https://www.zhihu.com/answer/3127550923",
+      "summary": "正文用三角恒等式建立上下界并通过夹逼计算平方倒数级数的和，实质讲解了一个级数收敛结论。"
+    },
+    {
+      "title": "微积分体系几百年前就建立起来了，为什么我们现在学习它仍存在困难？",
+      "url": "https://www.zhihu.com/answer/3131861794",
+      "summary": "正文把阿基米德逐层填充三角形所得面积写成 1/4 的等比无穷级数，并用部分和逼近说明其和。"
+    },
+    {
+      "title": "如何证明e³＞20?",
+      "url": "https://www.zhihu.com/answer/3136533443",
+      "summary": "正文把无穷级数的尾项统一放缩为可求和的上界，再用有限项与余项估计完成不等式证明。"
+    },
+    {
+      "title": "如果你有1/G(63)的概率将你的生命延长G(64)年，1-1/G(63)的概率立刻死掉，你接受吗?",
+      "url": "https://www.zhihu.com/answer/3139539484",
+      "summary": "正文把圣彼得堡游戏的期望写成无穷多项之和，并明确指出该级数不收敛、期望收益无穷大。"
+    },
+    {
+      "title": "为什么不存在收敛速度最慢的级数？",
+      "url": "https://www.zhihu.com/answer/3143510039",
+      "summary": "正文回答不存在收敛速度最慢的级数，并给出总能构造更慢收敛级数的结论。"
+    },
+    {
+      "title": "为什么不存在收敛速度最慢的级数？",
+      "url": "https://www.zhihu.com/answer/3143609225",
+      "summary": "正文通过构造更慢级数反驳最慢收敛级数的存在性。"
+    },
+    {
+      "title": "为什么不存在收敛速度最慢的级数？",
+      "url": "https://www.zhihu.com/answer/3144656870",
+      "summary": "正文通过在原级数相邻两项间插入任意多项构造收敛更慢的级数，否定存在最慢收敛级数。"
+    },
+    {
+      "title": "1+√2+√3+…+√n 的整数部分是什么?",
+      "url": "https://www.zhihu.com/answer/3171183755",
+      "summary": "正文把平方根和写成渐近主项、无穷级数常数与趋于零的余项，并用其估计和的整数部分。"
+    },
+    {
+      "title": "有没有人会这个积分？",
+      "url": "https://www.zhihu.com/answer/3175573546",
+      "summary": "正文把对数展开为交错级数，利用一致收敛交换求和与积分，并算出该级数的值。"
+    },
+    {
+      "title": "所有 ℕ 到 ℕ 的双射构成的集合可列吗？",
+      "url": "https://www.zhihu.com/answer/3180658770",
+      "summary": "正文以条件收敛级数为基础，说明经自同构群作用后可利用黎曼重排定理得到到实数集的满射，实质联系了级数收敛与重排。"
+    },
+    {
+      "title": "为什么exp（-1/x^2）不能用泰勒公式展开？",
+      "url": "https://www.zhihu.com/answer/3193540646",
+      "summary": "正文比较零点附近 Taylor 级数的失效与 x=1 处级数的收敛半径，并解释最近奇点决定收敛半径。"
+    },
+    {
+      "title": "有哪些数学教材值得精读？",
+      "url": "https://www.zhihu.com/answer/3203036805",
+      "summary": "正文用几何级数收敛的必要条件以及调和级数虽有通项趋于零却发散的反例来讲解级数收敛判断。"
+    },
+    {
+      "title": "如何证明调和级数发散?",
+      "url": "https://www.zhihu.com/answer/3207893406",
+      "summary": "正文分组估计调和级数的部分和，构造等比下界并证明其趋于无穷，从而说明调和级数发散。"
+    },
+    {
+      "title": "老王和鸡距离为10，老王速度10，鸡的速度1，老王每到达鸡的位置时算作一次，多少次可以追上鸡？",
+      "url": "https://www.zhihu.com/answer/3229860693",
+      "summary": "正文用无限个项之和可以有限来解释芝诺悖论，实质上说明了无穷级数收敛的核心观点。"
+    },
+    {
+      "title": "女朋友实行减分制，目前只有一分了，怎么办？",
+      "url": "https://www.zhihu.com/answer/3234935106",
+      "summary": "正文以二分之一的无穷级数部分和趋于 1 表达该减半过程，涉及级数收敛。"
+    },
+    {
+      "title": "sinx/x的极限证明是否循环论证？",
+      "url": "https://www.zhihu.com/answer/3238394600",
+      "summary": "正文讨论正弦幂级数的收敛半径，并以级数收敛性保证复分析定义良定义，随后由该级数推得极限。"
+    },
+    {
+      "title": "世界上是否不存在悖论，所谓的悖论只是由于语序的不严谨而造成得逻辑上的自相矛盾？",
+      "url": "https://www.zhihu.com/answer/3240352277",
+      "summary": "正文借阿基里斯追龟说明无限细分后各段之和可以有限，并明确指出无穷多项之和未必发散。"
+    },
+    {
+      "title": "数分的核心是什么？为什么说数分重要？",
+      "url": "https://www.zhihu.com/answer/3251201200",
+      "summary": "正文把函数列极限改写为无穷级数，并用绝对收敛和比值、比较审敛法处理收敛性。"
+    },
+    {
+      "title": "能不能通俗的解释一下椭圆函数，就是那种只学了实分析和复分析基础的人也能理解的那种？",
+      "url": "https://www.zhihu.com/answer/3283286949",
+      "summary": "正文估计 Weierstrass 级数的通项并以控制收敛定理证明该函数项级数收敛。"
+    },
+    {
+      "title": "泰勒展开为什么能从一点推整个函数?",
+      "url": "https://www.zhihu.com/answer/3298978526",
+      "summary": "正文通过反正切函数的复奇点说明泰勒级数收敛半径受到函数解析性限制。"
+    },
+    {
+      "title": "如何优雅的证明π＞e?",
+      "url": "https://www.zhihu.com/answer/3300884681",
+      "summary": "正文逐项放大e的级数并与收敛的几何级数比较，以有限上界证明不等式。"
+    },
+    {
+      "title": "泰勒展开为什么能从一点推整个函数?",
+      "url": "https://www.zhihu.com/answer/3308421362",
+      "summary": "正文说明幂级数在收敛圆内收敛、圆外发散，并指出圆上的敛散性另行判断。"
+    },
+    {
+      "title": "泰勒展开为什么能从一点推整个函数?",
+      "url": "https://www.zhihu.com/answer/3308868712",
+      "summary": "正文用幂级数收敛半径和复平面上的奇点说明泰勒展开有收敛范围，而非总能延拓到整个平面。"
+    },
+    {
+      "title": "如何写一个“拼多多函数”PDD(x)，使得随着砍价次数x增加，函数值会无限接近于1但永远不会等于1?",
+      "url": "https://www.zhihu.com/answer/3313032636",
+      "summary": "正文引用拉马努金计算 1/π 的无穷级数，并用其有限项部分和讨论更快收敛的近似。"
+    },
+    {
+      "title": "泰勒公式最初是如何想到的?",
+      "url": "https://www.zhihu.com/answer/3313231250",
+      "summary": "正文讨论泰勒级数的收敛半径与端点收敛性，并用对数函数和几何级数说明收敛和发散。"
+    },
+    {
+      "title": "数学上，有哪些著名的解析延拓？",
+      "url": "https://www.zhihu.com/answer/3324056111",
+      "summary": "正文用几何级数及稀疏化后的间隔级数比较收敛区间，并借收敛半径解释何时能或不能越过原定义域延拓。"
+    },
+    {
+      "title": "如何证明9*γ⁴<1？",
+      "url": "https://www.zhihu.com/answer/3329270233",
+      "summary": "正文把积分写成对数项与调和项之差的极限，借此说明积分与级数和的关系。"
+    },
+    {
+      "title": "如果我有 2^(-n) 概率获得 2^n 元，那获得钱的数学期望值应该是无穷，但实际不是这样，为什么？",
+      "url": "https://www.zhihu.com/answer/3335822848",
+      "summary": "正文用几何级数收敛验证总概率为一，又用无穷级数发散配合 Borel-Cantelli 引理分析几乎必然行为。"
+    },
+    {
+      "title": "无限个小于1的正数的乘积一定是0吗？",
+      "url": "https://www.zhihu.com/answer/3339845334",
+      "summary": "正文证明无穷乘积是否为零等价于对应概率级数是否发散，并用 Borel-Cantelli 引理分析级数尾部。"
+    },
+    {
+      "title": "有哪些很难的数学题，答案是 629，宿舍当门牌用？",
+      "url": "https://www.zhihu.com/answer/3340965230",
+      "summary": "正文先分解无穷级数，再利用几何级数求和公式化简，完整展开了无穷级数的收敛求和过程。"
+    },
+    {
+      "title": "如何证明ln2<0.7?",
+      "url": "https://www.zhihu.com/answer/3366948585",
+      "summary": "正文给出一个正项无穷级数的求和恒等式，并利用各项为正推出和大于零。"
+    },
+    {
+      "title": "1+0.1+0.01+0.001+0.0001... 一直下去会在实际中到达 2 吗？",
+      "url": "https://www.zhihu.com/answer/3378258248",
+      "summary": "正文把问题识别为公比为十分之一的无限等比数列求和，并讨论无限项与部分和的极限路径。"
+    },
+    {
+      "title": "1+0.9+0.09+0.009…（连续加阿列夫一次），这个数等于2还是远大于阿列夫零？",
+      "url": "https://www.zhihu.com/answer/3385325184",
+      "summary": "正文指出该无穷加法必须先规定收敛定义，并以ε-δ语言说明通常的收敛判别框架，直接涉及级数收敛。"
+    },
+    {
+      "title": "如何注意力涣散地证明 e^{π√163} 小于262 53741 26407 68744？",
+      "url": "https://www.zhihu.com/answer/3414878312",
+      "summary": "正文验证项的单调递减性，并用交错级数莱布尼兹判别法控制截断误差。"
+    },
+    {
+      "title": "sinx/x在0到正无穷的积分等于Π/2，怎么推导证明？",
+      "url": "https://www.zhihu.com/answer/3439851305",
+      "summary": "正文将积分按区间拆分并化为交错级数，再利用所得级数恒等式完成收敛积分计算。"
+    },
+    {
+      "title": "世界上收敛最快的计算 π 的公式是什么？",
+      "url": "https://www.zhihu.com/answer/3456059490",
+      "summary": "正文比较不同无穷级数的收敛阶数与达到指定精度所需的项数。"
+    },
+    {
+      "title": "级数ln1+lnln2+lnlnln3+lnlnlnln4……是否收敛？",
+      "url": "https://www.zhihu.com/answer/3459844366",
+      "summary": "正文讨论嵌套自然对数序列在实数与复数范围内的收敛情况，并给出该序列的复数值。"
+    },
+    {
+      "title": "所有质数的倒数之和是发散还是收敛的？",
+      "url": "https://www.zhihu.com/answer/3463647601",
+      "summary": "正文通过欧拉乘积、对数展开和比较估计说明质数倒数构成的级数发散。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/3465086583",
+      "summary": "正文说明区间内实数求和本身无定义，并指出该求和发散因而不能套用黎曼重排，对应级数收敛及重排适用条件的讨论。"
+    },
+    {
+      "title": "数学中有哪些漂亮的无字证明？",
+      "url": "https://www.zhihu.com/answer/3496060150",
+      "summary": "正文以相似三角形给出无穷几何级数的边长比例，并列出其求和公式，实质讨论该级数的收敛和。"
+    },
+    {
+      "title": "如何注意力涣散地证明以下图中不等式？",
+      "url": "https://www.zhihu.com/answer/3499667885",
+      "summary": "正文用有限等比数列求和公式估计放缩后的和，并由无限等比级数的上界得到所需结论。"
+    },
+    {
+      "title": "关于重整化理论，为什么一系列自然数之和等于 -1/12？",
+      "url": "https://www.zhihu.com/answer/3521302857",
+      "summary": "正文用截断求和及其展开说明发散项如何被分离，并从发散级数中提取有限的 subleading 常数，属于级数收敛与求和处理。"
+    },
+    {
+      "title": "哭了，无穷级数怎么这么难，怎么才能学好求大神指点迷津！？",
+      "url": "https://www.zhihu.com/answer/3532683378",
+      "summary": "正文解释级数先以部分和极限定义敛散性，再介绍正项级数、任意项级数的多种审敛法。"
+    },
+    {
+      "title": "如何评价姜萍事件？",
+      "url": "https://www.zhihu.com/answer/3533208684",
+      "summary": "正文以正弦无穷乘积的收敛性为基础，证明部分分式级数恒等式，并明确讨论绝对收敛。"
+    },
+    {
+      "title": "涟水 17 岁中专少女的数学水平为什么到目前为止没有一个公认的评价，反而有很多质疑的声音？",
+      "url": "https://www.zhihu.com/answer/3533351777",
+      "summary": "正文指出 Polygamma 定义在 n=0 时的级数不收敛，并说明补充对数项后级数才收敛、才能继续求导。"
+    },
+    {
+      "title": "如何评价中专女生爆冷拿下数学竞赛全球12名？",
+      "url": "https://www.zhihu.com/answer/3533390955",
+      "summary": "正文指出 Polygamma 定义在 n=0 时的级数不收敛，并说明补充对数项后级数才收敛、才能继续求导。"
+    },
+    {
+      "title": "你是如何理解著名的无限多个自然数之和等于负十二分之一的？",
+      "url": "https://www.zhihu.com/answer/3549134867",
+      "summary": "正文明确指出全体自然数之和不是通常意义下收敛的级数，并区分其解析延拓结果与普通求和。"
+    },
+    {
+      "title": "傅里叶级数为什么会收敛到原函数？",
+      "url": "https://www.zhihu.com/answer/3561255393",
+      "summary": "正文系统解释 Cesaro 求和，并由部分和均值说明傅里叶级数在收敛时必收敛到原函数。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/3580391862",
+      "summary": "正文用部分和极限定义无穷级数的收敛与发散，并讨论绝对收敛和条件收敛。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/3582283280",
+      "summary": "正文以小球每次弹起高度减半为例，说明无穷多次弹跳对应的级数仍可收敛到有限总时间。"
+    },
+    {
+      "title": "“斐波那契汤”（今天的汤=昨天的汤+前天的汤）味道是收敛的吗？",
+      "url": "https://www.zhihu.com/answer/3585822000",
+      "summary": "正文把递推数列的收敛性转化为交错级数收敛问题，并讨论莱布尼茨判别条件。"
+    },
+    {
+      "title": "求一个完整版的泰勒公式，课本上和辅导上全是残次本?",
+      "url": "https://www.zhihu.com/answer/3586130687",
+      "summary": "正文讨论泰勒级数的收敛半径、端点收敛性和收敛到原函数的条件。"
+    },
+    {
+      "title": "把[0,1]的所有实数乘起来结果是多少？",
+      "url": "https://www.zhihu.com/answer/3595203061",
+      "summary": "正文从有限和上确界定义集合和，讨论正项级数、重排不变性及发散情形，并据此判断无穷乘积。"
+    },
+    {
+      "title": "如何证明级数：∑_1^∞(n/(e^(2πn)-1))=1/24-1/(8π）？",
+      "url": "https://www.zhihu.com/answer/3611975355",
+      "summary": "正文讨论二重级数非绝对收敛导致不能随意交换求和，并改用部分和极限完成估值。"
+    },
+    {
+      "title": "所有质数的倒数之和是发散还是收敛的？",
+      "url": "https://www.zhihu.com/answer/5177617983",
+      "summary": "正文系统比较调和级数及 p 级数的多种敛散性判别方法，并给出相应证明思路。"
+    },
+    {
+      "title": "如何求1/(2+n²)的无穷级数?",
+      "url": "https://www.zhihu.com/answer/10475508914",
+      "summary": "正文从参数化无穷级数出发，经过积分变换与留数方法推导有限闭式，并代入 a=sqrt(2) 求和。"
+    },
+    {
+      "title": "你是如何理解著名的无限多个自然数之和等于负十二分之一的？",
+      "url": "https://www.zhihu.com/answer/32692465737",
+      "summary": "正文以 p 级数在 Re(p)>1 时收敛为前提，说明它能定义一个关于 p 的函数并用于 zeta 函数。"
+    },
+    {
+      "title": "泛函分析的方法能简化数学分析里面哪些题目?",
+      "url": "https://www.zhihu.com/answer/43208987228",
+      "summary": "正文定义傅里叶级数部分和对应的线性泛函，并论证级数收敛性与算子收敛性的等价关系。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/52977440768",
+      "summary": "正文把积分结果化为无穷级数，并借助对幂级数一致收敛性的讨论完成求和等式。"
+    },
+    {
+      "title": "如何优雅的证明 π⁴ > 97？",
+      "url": "https://www.zhihu.com/answer/59437757097",
+      "summary": "正文用收敛的 p 级数分奇偶项放缩，证明 π⁴ 的下界。"
+    },
+    {
+      "title": "2024 年，数学领域都有哪些令人激动的新进展与重要发现？",
+      "url": "https://www.zhihu.com/answer/66459027393",
+      "summary": "正文以调和式级数的收敛性陈述Stolarsky猜想，并介绍其被新构造反例否定的结果。"
+    },
+    {
+      "title": "数学学到后期趋向严谨还是直觉呢？",
+      "url": "https://www.zhihu.com/answer/69626076021",
+      "summary": "正文以调和级数发散为例说明有限项计算不能代替对级数增长趋势的逻辑判断。"
+    },
+    {
+      "title": "在下22岁打算毕生献身于攻克黎曼猜想，可以给我一句忠告吗？",
+      "url": "https://www.zhihu.com/answer/72447277141",
+      "summary": "正文给出调和级数发散的历史证明并展示分组放大的推导。"
+    },
+    {
+      "title": "最著名的悖论是什么？",
+      "url": "https://www.zhihu.com/answer/74748257652",
+      "summary": "正文用二分之一、四分之一等无限项之和趋于 1，解释芝诺二分悖论中的无限求和为何可以得到有限结果。"
+    },
+    {
+      "title": "质数为什么有无穷个？",
+      "url": "https://www.zhihu.com/answer/99017507850",
+      "summary": "正文把素数无穷多归结为素数倒数和发散，并估计大质数倍数与小质数因子数的规模。"
+    },
+    {
+      "title": "如何通俗地解释泰勒公式？",
+      "url": "https://www.zhihu.com/answer/109932828963",
+      "summary": "正文讨论泰勒级数的收敛半径、边界收敛性以及收敛到原函数的条件。"
+    },
+    {
+      "title": "泰勒级数是如何推导出来的？",
+      "url": "https://www.zhihu.com/answer/121097127740",
+      "summary": "正文讨论泰勒级数的收敛半径、比值与根值判别，并用端点处收敛或发散的例子说明边界行为。"
+    },
+    {
+      "title": "1+1/2+1/4+1/7+1/11+1/16...是收敛还是发散的，收敛的话等于多少?",
+      "url": "https://www.zhihu.com/answer/1882965964632589607",
+      "summary": "正文先求通项，再通过与二次分母比较说明原无穷级数收敛，随后计算其和。"
+    },
+    {
+      "title": "如果若干个赌徒一直赌下去，直至资金亏完，赌博过程中的最高资金是多少？",
+      "url": "https://www.zhihu.com/answer/124600768894",
+      "summary": "正文将期望表示为无穷和，并通过与调和级数比较得出该级数发散。"
+    },
+    {
+      "title": "1+1/2+1/4+1/7+1/11+1/16...是收敛还是发散的，收敛的话等于多少?",
+      "url": "https://www.zhihu.com/answer/128534273512",
+      "summary": "正文用 Poisson 求和公式和留数定理求出给定级数的精确值，说明该级数有限并给出收敛后的和。"
+    },
+    {
+      "title": "傅里叶级数和傅里叶变换是什么关系？",
+      "url": "https://www.zhihu.com/answer/1891623652065257135",
+      "summary": "正文讨论傅里叶级数的绝对可积与狄利克雷收敛条件，并说明连续点和间断点处的收敛值。"
+    },
+    {
+      "title": "有哪些有趣反直觉的数学题？",
+      "url": "https://www.zhihu.com/answer/1893766239656076937",
+      "summary": "正文把蠕虫位置写成与调和级数成比例的表达式，分组放缩证明部分和可超过任意有限数，从而说明级数发散。"
+    },
+    {
+      "title": "如何评价2025年4月20日丘成桐数学水平考试?",
+      "url": "https://www.zhihu.com/answer/1897292114561332647",
+      "summary": "正文多处计算无穷级数，并用 Abel 求和、裂项和一致收敛性质处理求和过程。"
+    },
+    {
+      "title": "如何评价「世界是一个草台班子」？",
+      "url": "https://www.zhihu.com/answer/1903136913310875795",
+      "summary": "正文比较t>1与0<t<1时通项的极限，指出对应无穷级数不可能按题目预期求和。"
+    },
+    {
+      "title": "最近网上吵0.9999999……的循环等于1你赞成吗？",
+      "url": "https://www.zhihu.com/answer/1911461517322347273",
+      "summary": "正文把 0.999… 化成首项为 0.9、公比为 0.1 的无限等比级数，再用级数求和求其收敛值。"
+    },
+    {
+      "title": "值得深读一辈子的一本书是哪一本?",
+      "url": "https://www.zhihu.com/answer/1911754785624945516",
+      "summary": "正文用几何级数收敛的必要条件及调和级数通项趋于零却发散的反例说明级数收敛判断。"
+    },
+    {
+      "title": "如何优雅的证明1.01^70>2？",
+      "url": "https://www.zhihu.com/answer/1912467582855909877",
+      "summary": "正文截断 ln2 的级数并用可控尾部估算余项，体现了级数收敛与尾部界的使用。"
+    },
+    {
+      "title": "数学里有哪些精彩的伪证？",
+      "url": "https://www.zhihu.com/answer/1914578370081030584",
+      "summary": "正文分析把仅在收敛区间内成立的级数等式外推到端点的错误，并指出不存在的极限不能直接取，核心是级数收敛边界。"
+    },
+    {
+      "title": "如何证明调和级数发散?",
+      "url": "https://www.zhihu.com/answer/1915162358176784560",
+      "summary": "正文把调和级数不断分成和大于1的有限段，证明部分和可超过任意正整数，从而判定级数发散。"
+    },
+    {
+      "title": "为什么锥体体积系数是1/3？",
+      "url": "https://www.zhihu.com/answer/1916433823383655000",
+      "summary": "正文把迭代嵌套写为几何级数并利用无穷多项求和得到三分之一系数。"
+    },
+    {
+      "title": "如何评价北京大学高数 A 2025 春期末考试难度？",
+      "url": "https://www.zhihu.com/answer/1916548924170282940",
+      "summary": "正文逐题使用泰勒展开、斯特林公式、积分判别和分组等方法判定正项与交错级数的敛散性及条件收敛。"
+    },
+    {
+      "title": "如何优雅地证明π²²<86556004192？",
+      "url": "https://www.zhihu.com/answer/1917620140528337168",
+      "summary": "正文把 ζ(22) 展开为收敛级数，并单独估计从第五项开始的无穷级数余项。"
+    },
+    {
+      "title": "为什么现在数学系普遍不学椭圆函数、超几何函数等特殊函数？",
+      "url": "https://www.zhihu.com/answer/1919127690650322796",
+      "summary": "正文比较 E、G、Э 函数的幂级数定义、系数条件和收敛半径，讨论这些级数在不同位点上的收敛性。"
+    },
+    {
+      "title": "超几何函数是否存在双变量或多变量的推广形式？",
+      "url": "https://www.zhihu.com/answer/1921174090598842991",
+      "summary": "正文系统列出多个二变量及多变量超几何级数，并具体讨论各自的收敛域和解析延拓。"
+    },
+    {
+      "title": "如何解函数方程f(x)+3f(x²-x)=x？",
+      "url": "https://www.zhihu.com/answer/1924069958830261866",
+      "summary": "正文用柯西－阿达马公式估计幂级数收敛半径，并讨论解析延拓的范围。"
+    },
+    {
+      "title": "喝醉的酒鬼总能找到回家的路， 喝醉的小鸟则可能永远也回不了家具体是什么定理？",
+      "url": "https://www.zhihu.com/answer/1925246910131856744",
+      "summary": "正文证明状态常返当且仅当返回概率矩阵项之和发散，并用该级数的敛散判断一至三维随机游走是否常返。"
+    },
+    {
+      "title": "计算庞大的数字时，怎么证明计算机没算错？",
+      "url": "https://www.zhihu.com/answer/1928826058226009568",
+      "summary": "正文列出 Chudnovsky、Gauss-Legendre 与 BBP 等无穷级数算法，并说明必须证明级数收敛到圆周率。"
+    },
+    {
+      "title": "无穷级数求和从哪一层面破坏了加法的对称性？",
+      "url": "https://www.zhihu.com/answer/1930660386694202718",
+      "summary": "正文解释条件收敛级数重排会改变和，而绝对收敛是保证重排后仍得到唯一和的条件。"
+    },
+    {
+      "title": "如何证明级数：∑_1^∞(n/(e^(2πn)-1))=1/24-1/(8π）？",
+      "url": "https://www.zhihu.com/answer/1932213465390485553",
+      "summary": "正文利用正项级数的非负性说明可以安全交换二重求和顺序，并继续化简约简级数。"
+    },
+    {
+      "title": "请问数学分析中最容易用来当反例的函数有哪些？",
+      "url": "https://www.zhihu.com/answer/1933669216889837288",
+      "summary": "正文利用两个收敛正项级数分别控制分段区间的长度与函数增量，说明级数收敛在反例构造中的作用。"
+    },
+    {
+      "title": "为啥无限个无穷小的乘积不一定为无穷小？",
+      "url": "https://www.zhihu.com/answer/1934438460455888529",
+      "summary": "正文通过对数把无穷乘积化为级数，并借 Riemann 重排说明改变项的顺序可使求和趋于任意值，实质讨论了级数的收敛性。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/1936517863914603320",
+      "summary": "正文用绝对收敛条件和Fubini-Tonelli定理解释二重求和换序导致不同结果，实质涉及级数收敛。"
+    },
+    {
+      "title": "量子力学中，以算符为自变量的函数为什么可以泰勒展开？",
+      "url": "https://www.zhihu.com/answer/1938361329367888750",
+      "summary": "正文比较有界与无界算子下级数展开的强收敛性，并用反例说明逐点收敛不足。"
+    },
+    {
+      "title": "为什么高斯以后再也没有高斯这么厉害的人物了？",
+      "url": "https://www.zhihu.com/answer/1944540964325680295",
+      "summary": "正文以二项式展开代入的异常结果说明，若不严格定义级数收敛性就会产生荒谬结论。"
+    },
+    {
+      "title": "有哪些经典的数学悖论？",
+      "url": "https://www.zhihu.com/answer/1945834303654168393",
+      "summary": "正文以二分法悖论说明无限细分可对应收敛的无穷级数求和。"
+    },
+    {
+      "title": "1+2+4+8+...=-1，哪一步错了，为什么？",
+      "url": "https://www.zhihu.com/answer/1947045143392810877",
+      "summary": "正文指出该等比和发散、在实数上没有结果，并说明不能先假定级数有值再推出 -1，实质讨论级数收敛性。"
+    },
+    {
+      "title": "如何证明所有质数倒数之和发散?",
+      "url": "https://www.zhihu.com/answer/1951731226869228764",
+      "summary": "正文专门证明素数倒数和发散，并用上下界与积分估计讨论该级数的增长。"
+    },
+    {
+      "title": "开普勒那个时代没有微积分，他是怎么算天体运行的？",
+      "url": "https://www.zhihu.com/answer/1956115154602276755",
+      "summary": "正文给出等比级数的和，并说明阿基米德如何证明该级数收敛。"
+    },
+    {
+      "title": "是否存在一个光滑函数，其Taylor级数几乎处处不收敛于该函数？",
+      "url": "https://www.zhihu.com/answer/1965351120449835349",
+      "summary": "正文构造级数并证明其在任意点的 Taylor 级数收敛半径为零。"
+    },
+    {
+      "title": "数学领域真正的天才是怎么样的？",
+      "url": "https://www.zhihu.com/answer/1969886163935421304",
+      "summary": "正文具体说明柯尔莫哥洛夫构造的傅里叶级数几乎处处发散反例，并与 L2 空间中的收敛结果形成对照。"
+    },
+    {
+      "title": "该如何通俗易懂的向小孩子解释自然对数的底 e 的意义？",
+      "url": "https://www.zhihu.com/answer/1970561477514618486",
+      "summary": "正文把芝诺赛跑距离写成等比级数，并通过有限部分和说明该无穷级数收敛到2。"
+    },
+    {
+      "title": "拉马努金是怎么发现那些壮观的公式的？",
+      "url": "https://www.zhihu.com/answer/1980303682231870943",
+      "summary": "正文通过所需计算项数与精度说明莱布尼茨公式的收敛速度，并与拉马努金公式作对比。"
+    },
+    {
+      "title": "如何证明π的平方大于10？（是伪命题，不要回答了）？",
+      "url": "https://www.zhihu.com/answer/1983226790123156340",
+      "summary": "正文把无穷级数截断为有限和，并利用正项级数的有限下界证明关于 π² 的不等式。"
+    },
+    {
+      "title": "如何初等地证明这个简洁的不等式?",
+      "url": "https://www.zhihu.com/answer/1983333620514042013",
+      "summary": "正文用无穷几何级数的有限和上界及其极限值控制原和式。"
+    },
+    {
+      "title": "怎样算出黎曼猜想的第1个非平凡零点？",
+      "url": "https://www.zhihu.com/answer/1983504849564894638",
+      "summary": "正文系统讨论渐近幂级数的发散性、余项估计以及渐近表示的收敛意义。"
+    },
+    {
+      "title": "如何证明:1+1/2+1/3+1/4+…+1/2^n大于n+2/2  ?",
+      "url": "https://www.zhihu.com/answer/1985434971729593684",
+      "summary": "正文对调和级数按二幂分组，证明到 2^n 项的局部和下界随 n 增长，从而说明其发散。"
+    },
+    {
+      "title": "你见过最优雅的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/1992572859067945745",
+      "summary": "正文用三角恒等式和夹逼定理证明巴塞尔级数的收敛值，属于级数收敛的实质讲解。"
+    },
+    {
+      "title": "质数和自然数哪个多？",
+      "url": "https://www.zhihu.com/answer/1996389909141943957",
+      "summary": "正文比较发散级数与收敛级数的运算，并讨论无穷级数结果应如何理解。"
+    },
+    {
+      "title": "通过计算得到「所有自然数之和为-1/12」，如何理解？",
+      "url": "https://www.zhihu.com/answer/2006520745837228170",
+      "summary": "正文区分普通部分和极限与广义正则化，说明发散级数不能按收敛级数的规则求和。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/2017004821643830888",
+      "summary": "正文区分绝对收敛与条件收敛，用部分和有界和项趋于零证明复级数收敛，再借阿贝尔定理确定收敛值。"
+    },
+    {
+      "title": "有哪些看起来简洁却很难的数学题？",
+      "url": "https://www.zhihu.com/answer/2017702351037817881",
+      "summary": "正文用正负项交替和部分和不断趋近目标的过程解释该无穷级数的收敛行为。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/2019328593935759203",
+      "summary": "正文列举多个收敛到有限值的圆周率无穷级数，并讨论其作为精确表达与计算方法的演进。"
+    },
+    {
+      "title": "如何优雅地证明e<sqrt(3)+1？",
+      "url": "https://www.zhihu.com/answer/2028965864410551729",
+      "summary": "正文对无穷级数从第 4 项开始的尾部逐项比较，证明该尾项有有限上界。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/2031796378951754954",
+      "summary": "正文解释形式幂级数先按符号规则运算、不必预先要求级数收敛，从而把无穷求和转化为系数运算。"
+    },
+    {
+      "title": "证明完备性有没有套路可言？",
+      "url": "https://www.zhihu.com/answer/2032417728112367428",
+      "summary": "正文证明赋范空间中完备性等价于每个绝对收敛级数收敛，并给出由快速子列构造极限的过程。"
+    },
+    {
+      "title": "看到有博主说“郑和的船是用微积分造的”，为什么一问证据就说被清朝烧了？",
+      "url": "https://www.zhihu.com/answer/2033893350823162582",
+      "summary": "正文用递缩等比级数解释阿基米德求抛物线面积，并讨论该级数的收敛与穷竭法证明。"
+    },
+    {
+      "title": "把[0，1]这个区间里的所有实数相加，得出的结果是无穷大吗？",
+      "url": "https://www.zhihu.com/answer/2034276129486403002",
+      "summary": "正文用条件收敛与重排定理说明无穷级数的结果依赖求和顺序。"
+    },
+    {
+      "title": "数学里的「良定义（well-defined）」的定义是什么？",
+      "url": "https://www.zhihu.com/answer/2034282341800097458",
+      "summary": "正文以交错调和级数和黎曼重排定理说明普通级数、条件收敛与绝对收敛的差别。"
+    },
+    {
+      "title": "为什么圆周率不能算尽?",
+      "url": "https://www.zhihu.com/answer/2039840236495169005",
+      "summary": "正文给出 π/4 的交错级数并讨论其收敛速度及用前一万项逼近 3.14 的效果。"
+    },
+    {
+      "title": "几个未解的积分难题是否有封闭解？",
+      "url": "https://www.zhihu.com/answer/2041910347565626090",
+      "summary": "正文讨论含对数奇性的积分展开级数及其收敛性，并区分交错项与较慢收敛的正项级数。"
+    },
+    {
+      "title": "如何求1/(2+n²)的无穷级数?",
+      "url": "https://www.zhihu.com/answer/2054232018779641117",
+      "summary": "正文通过算子迹、热核与 Poisson 求和计算整条无穷级数，最终得到有限闭式结果。"
+    },
+    {
+      "title": "为什么我们默认发散级数求和无意义？",
+      "url": "https://www.zhihu.com/answer/2057217178525495621",
+      "summary": "正文区分普通级数求和与广义求和，说明发散级数的部分和极限并不给出有限普通和。"
+    },
+    {
+      "title": "1+2+4+8+...=-1，哪一步错了，为什么？",
+      "url": "https://www.zhihu.com/answer/2057962051494999218",
+      "summary": "正文用部分和极限定义实数级数，说明等比级数发散及其代数变形为何无效，并区分不同求和意义下的收敛。"
+    },
+    {
+      "title": "在数学的学习过程中，你见过最妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/2061866846765289640",
+      "summary": "正文以巴塞尔问题为目标，完整推导自然数平方倒数和为六分之圆周率平方。"
+    },
+    {
+      "title": "计算庞大的数字时，怎么证明计算机没算错？",
+      "url": "https://www.zhihu.com/answer/2062615081511293568",
+      "summary": "正文通过莱布尼茨级数及拉马努金、Chudnovsky 公式每项增加的正确位数，具体比较级数收敛速度。"
+    },
+    {
+      "title": "如何证明「你浪费了每人一分钟，四十个人就是一节课」的逻辑？",
+      "url": "https://www.zhihu.com/answer/2070534959228514380",
+      "summary": "正文以交错调和级数和黎曼重排定理讲解条件收敛及重排对和的影响。"
+    },
+    {
+      "title": "复变函数的罗朗展开",
+      "url": "https://zhuanlan.zhihu.com/p/21915400",
+      "summary": "正文通过正负幂级数各自的收敛半径说明公共环域，并讨论双边幂级数在该环域内的收敛性。"
+    },
+    {
+      "title": "Weil的考古学报告——Eisenstein的代数绝技与Basel问题",
+      "url": "https://zhuanlan.zhihu.com/p/25055735",
+      "summary": "正文讨论 Eisenstein 级数的绝对收敛性，并据此保证逐项求导的合法性。"
+    },
+    {
+      "title": "复变函数与积分变换 简明笔记(六)：复级数与零点、奇点",
+      "url": "https://zhuanlan.zhihu.com/p/25073670",
+      "summary": "正文从部分和极限定义级数收敛，并讨论幂级数、泰勒级数和洛朗级数的收敛范围。"
+    },
+    {
+      "title": "中学篇 No. 6：无穷的困惑",
+      "url": "https://zhuanlan.zhihu.com/p/26659368",
+      "summary": "正文把追逐过程写成无穷等比级数并求其有限和，解释芝诺悖论中的级数收敛。"
+    },
+    {
+      "title": "10597 超级任务、一致收敛与共产主义",
+      "url": "https://zhuanlan.zhihu.com/p/26665060",
+      "summary": "正文分析两个无穷级数极限结果不同的原因，说明无穷级数求和与极限交换次序的条件。"
+    },
+    {
+      "title": "中学篇 No. 19：极限是怎样炼成的",
+      "url": "https://zhuanlan.zhihu.com/p/26902675",
+      "summary": "正文从部分和定义级数收敛，介绍柯西收敛准则以及仅由级数自身判断收敛的方式。"
+    },
+    {
+      "title": "一些简单的小结论",
+      "url": "https://zhuanlan.zhihu.com/p/27081423",
+      "summary": "正文以 Eilenberg-Mazur swindle 说明不收敛级数不能任意重排或改变括号，并解释形式操作失效的原因。"
+    },
+    {
+      "title": "中学篇 No. 38：工匠精神",
+      "url": "https://zhuanlan.zhihu.com/p/27336225",
+      "summary": "正文讨论无穷级数的收敛、绝对收敛和求和顺序，并指出这里交换求和项需要绝对收敛条件。"
+    },
+    {
+      "title": "从巴塞尔问题到黎曼\\zeta函数",
+      "url": "https://zhuanlan.zhihu.com/p/27342701",
+      "summary": "正文用积分比较判定 p 级数敛散性，并进一步讨论复级数的绝对收敛与解析延拓。"
+    },
+    {
+      "title": "微积分的历史（六），发展之泰勒公式（下）",
+      "url": "https://zhuanlan.zhihu.com/p/27442857",
+      "summary": "正文利用复平面中的奇点和收敛圆解释泰勒级数的收敛半径及其适用区间。"
+    },
+    {
+      "title": "震惊！这个函数严格递增，导函数却几乎为0！",
+      "url": "https://zhuanlan.zhihu.com/p/27651496",
+      "summary": "正文从正项级数出发构造函数项级数，并研究部分和是否收敛以及收敛点与发散点的结构。"
+    },
+    {
+      "title": "王者荣耀！级数、极限和泰勒公式三大王 桃园三结义 搞事情啊！！！",
+      "url": "https://zhuanlan.zhihu.com/p/27693014",
+      "summary": "正文说明比较审敛法利用已知敛散性的级数判别正项级数的敛散性，并联系P级数解释结论。"
+    },
+    {
+      "title": "1+1/4+1/9+1/16+……+1/n^2=π^2/6？？——日本女子大学2003年自主招生考试题",
+      "url": "https://zhuanlan.zhihu.com/p/28328443",
+      "summary": "正文把级数余项夹在两个量之间，并证明余项趋于零，从而确认无穷级数收敛于 π²/6。"
+    },
+    {
+      "title": "预篇：双纽线积分的数值计算及Euler的发现",
+      "url": "https://zhuanlan.zhihu.com/p/28280560",
+      "summary": "正文分析幂级数的收敛速度，并说明如何改造级数以加快收敛。"
+    },
+    {
+      "title": "《物理学家的数学工具箱》之无穷级数（1）",
+      "url": "https://zhuanlan.zhihu.com/p/28931057",
+      "summary": "正文定义无穷级数收敛与发散，并讲解比较、比值和积分等审敛法。"
+    },
+    {
+      "title": "阿基里斯追龟悖论的矛盾在于时间的不可无限再分性",
+      "url": "https://zhuanlan.zhihu.com/p/29790018",
+      "summary": "正文用无限几何级数求和回应阿基里斯追龟悖论，讨论该级数收敛到有限和，并指出无限分割物理时间的争议。"
+    },
+    {
+      "title": "0.999…= 1？这个问题的背后，是不同数学体系的碰撞",
+      "url": "https://zhuanlan.zhihu.com/p/31471288",
+      "summary": "正文把无限小数定义为有限小数部分和数列的极限，并用等比级数部分和说明0.999…收敛到1。"
+    },
+    {
+      "title": "10811 一种错误的洗牌算法，以及乱排常数 (3)",
+      "url": "https://zhuanlan.zhihu.com/p/31624394",
+      "summary": "正文把递推关系反复展开为无穷级数，并讨论其二进制表示及与另一表达式的关系。"
+    },
+    {
+      "title": "级数收敛之阿贝尔定理应用的一类典型题目",
+      "url": "https://zhuanlan.zhihu.com/p/32245454",
+      "summary": "正文陈述并应用阿贝尔定理，通过换元判断幂级数在给定中心周围的绝对收敛范围和区间外散性。"
+    },
+    {
+      "title": "试证明1/8+1/27+1/64+1/125+......<1/4——大阪大学1992年高考第三题（理科）",
+      "url": "https://zhuanlan.zhihu.com/p/32567299",
+      "summary": "正文证明立方的倒数级数对所有部分和都有统一上界，从而说明 zeta(3) 级数收敛。"
+    },
+    {
+      "title": "奇数项和偶数项幂级数的收敛半径求法",
+      "url": "https://zhuanlan.zhihu.com/p/32579738",
+      "summary": "正文把幂级数化为数项级数，应用根式与比值判别法推导奇偶次数幂级数的收敛半径。"
+    },
+    {
+      "title": "幂级数展开的一类代表性题目",
+      "url": "https://zhuanlan.zhihu.com/p/32679242",
+      "summary": "正文由相邻系数之比的极限求收敛半径，并据此确定所得幂级数的收敛区间。"
+    },
+    {
+      "title": "无穷大等于几——从音乐到量子论",
+      "url": "https://zhuanlan.zhihu.com/p/33076520",
+      "summary": "正文定义调和级数，并用分组比较证明其发散，进一步讨论发散级数的求和方法。"
+    },
+    {
+      "title": "从求导13次说起 ~",
+      "url": "https://zhuanlan.zhihu.com/p/33355136",
+      "summary": "正文从有限部分和出发估计二重级数，并通过先取一个极限再取另一个极限得到级数和。"
+    },
+    {
+      "title": "2 渐近分析：大O记号、小o记号与“~”记号",
+      "url": "https://zhuanlan.zhihu.com/p/33357254",
+      "summary": "正文证明幂级数在较小圆盘内收敛时其 n 项之后的尾和具有 O(z^n) 阶，实质讨论级数收敛与尾项估计。"
+    },
+    {
+      "title": "分析之[一致收敛]",
+      "url": "https://zhuanlan.zhihu.com/p/35021111",
+      "summary": "正文定义函数项级数及其部分和，并给出 Weierstrass 一致收敛判别法。"
+    },
+    {
+      "title": "为什么全体自然数的和是负十二分之一？",
+      "url": "https://zhuanlan.zhihu.com/p/35397224",
+      "summary": "正文先讨论自然数级数的部分和发散，再通过解析延拓解释形式赋值与通常级数收敛的区别。"
+    },
+    {
+      "title": "无穷大减去无穷大等于多少？到底是不是等于0？",
+      "url": "https://zhuanlan.zhihu.com/p/35619512",
+      "summary": "正文以条件收敛级数重排后改变和值为例，陈述并解释黎曼重排定理与收敛性。"
+    },
+    {
+      "title": "从调和级数到 Riemann Zeta 函数",
+      "url": "https://zhuanlan.zhihu.com/p/35938733",
+      "summary": "正文用柯西准则、分组估计和积分比较证明调和级数发散，并进一步判断多个级数的收敛性。"
+    },
+    {
+      "title": "x = cos x 的解析形式",
+      "url": "https://zhuanlan.zhihu.com/p/36297534",
+      "summary": "正文讨论麦克劳林级数的收敛域和拉普拉斯极限，并说明级数反演如何处理超出收敛域的情况。"
+    },
+    {
+      "title": "最大根方法——一段往事",
+      "url": "https://zhuanlan.zhihu.com/p/37061170",
+      "summary": "正文从幂级数定义出发，讨论其收敛时表示函数以及形式运算与函数的相容性。"
+    },
+    {
+      "title": "代码::勾股树",
+      "url": "https://zhuanlan.zhihu.com/p/37647346",
+      "summary": "正文列出勾股树前十阶面积，以单调递增且有上界讨论无限迭代面积级数是否收敛，并作数值验算。"
+    },
+    {
+      "title": "§14.1  幂级数",
+      "url": "https://zhuanlan.zhihu.com/p/37650274",
+      "summary": "正文围绕幂级数绝对收敛、收敛半径、收敛区间和端点收敛性进行系统讨论。"
+    },
+    {
+      "title": "全体自然数的和等于 -1/12 | 混乱博物馆",
+      "url": "https://zhuanlan.zhihu.com/p/37896373",
+      "summary": "正文从调和级数发散出发，讨论对发散级数赋值及自然数级数和为-1/12的收敛解释。"
+    },
+    {
+      "title": "§14.2 函数的幂级数展开",
+      "url": "https://zhuanlan.zhihu.com/p/37925551",
+      "summary": "正文讨论泰勒展开成立条件、幂级数收敛区间及端点的敛散性。"
+    },
+    {
+      "title": "数学分析笔记（三）——极限与连续",
+      "url": "https://zhuanlan.zhihu.com/p/38570344",
+      "summary": "正文系统讲解级数柯西准则、比较审敛、根值检验和比值检验等敛散性判定方法。"
+    },
+    {
+      "title": "【数列&导数】借助积分（导数）放缩",
+      "url": "https://zhuanlan.zhihu.com/p/40295277",
+      "summary": "正文由调和和大于 ln(n+1) 推出调和级数的部分和趋于无穷，从而说明该级数发散。"
+    },
+    {
+      "title": "0.999......是否真的等于1？",
+      "url": "https://zhuanlan.zhihu.com/p/42318878",
+      "summary": "正文用等比数列求和、误差不等式和无限序列近似，说明 0.9、0.99、0.999… 收敛到 1 的过程。"
+    },
+    {
+      "title": "黎曼Zeta函数~静待花开",
+      "url": "https://zhuanlan.zhihu.com/p/45058224",
+      "summary": "正文通过与调和级数比较、取对数和收敛判别法证明相关无穷乘积与级数发散。"
+    },
+    {
+      "title": "黎曼假设说的是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/45078785",
+      "summary": "正文解释 zeta 级数并非处处收敛，并证明实部大于 1 时可用绝对值比较判定其收敛。"
+    },
+    {
+      "title": "理解黎曼猜想（二）两个自然数互质的概率是多少？ | 袁岚峰",
+      "url": "https://zhuanlan.zhihu.com/p/47978393",
+      "summary": "正文证明调和级数发散，并比较欧拉乘积公式在s>1时收敛与s=1时失效的条件。"
+    },
+    {
+      "title": "数学分析笔记整理（七）",
+      "url": "https://zhuanlan.zhihu.com/p/47788031",
+      "summary": "正文讲解 Cauchy 乘积、绝对收敛与条件收敛，并证明绝对收敛级数重排后收敛于同一值。"
+    },
+    {
+      "title": "理解黎曼猜想（三）你真的相信全体自然数的和等于-1/12吗？ | 袁岚峰",
+      "url": "https://zhuanlan.zhihu.com/p/48750070",
+      "summary": "通过收敛半径、等比级数发散条件和格兰迪级数讨论级数在通常意义下的收敛性。"
+    },
+    {
+      "title": "你真的相信全体自然数的和等于-1/12吗？ | 科技袁人",
+      "url": "https://zhuanlan.zhihu.com/p/49225732",
+      "summary": "正文以等比级数的部分和与收敛半径解释无穷级数何时收敛或发散。"
+    },
+    {
+      "title": "点态（逐点）收敛与一致收敛",
+      "url": "https://zhuanlan.zhihu.com/p/50575634",
+      "summary": "正文围绕函数项级数的部分和定义点态收敛与一致收敛，并讨论收敛域及反例。"
+    },
+    {
+      "title": "所有自然数之和为-1/12?",
+      "url": "https://zhuanlan.zhihu.com/p/53035824",
+      "summary": "正文辨析发散级数、绝对收敛、重排定理，并指出给发散级数赋值不等于通常意义下的求和。"
+    },
+    {
+      "title": "浅谈KAM定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/53304713",
+      "summary": "正文围绕傅里叶级数的小分母问题讨论收敛性，并说明KAM迭代如何使不可积部分逐次衰减。"
+    },
+    {
+      "title": "泰勒级数为什么不可以展开？",
+      "url": "https://zhuanlan.zhihu.com/p/53921487",
+      "summary": "正文通过级数只在有限区间内逼近原函数说明收敛半径，并在复平面中将其推广为收敛圆。"
+    },
+    {
+      "title": "我读书少，欧拉大师你别骗我！全体自然数的和到底是多少？",
+      "url": "https://zhuanlan.zhihu.com/p/55519790",
+      "summary": "正文区分普通收敛级数与解析延拓求和，并讨论巴塞尔级数及发散级数的特殊求和结果。"
+    },
+    {
+      "title": "【数学】数列极限（宇哥笔记）",
+      "url": "https://zhuanlan.zhihu.com/p/56423142",
+      "summary": "正文给出等比数列部分和，并讨论公比绝对值小于 1 时无穷级数的收敛值。"
+    },
+    {
+      "title": "欧拉公式的推导",
+      "url": "https://zhuanlan.zhihu.com/p/57256466",
+      "summary": "正文给出复数列收敛定义、柯西收敛准则和复幂级数定义，用于证明指数级数展开成立。"
+    },
+    {
+      "title": "欧拉乘积公式及证明",
+      "url": "https://zhuanlan.zhihu.com/p/58832513",
+      "summary": "正文讨论幂级数只在收敛域内成立，并指出把发散级数直接赋值或重排会得到错误结论。"
+    },
+    {
+      "title": "同济高数教材 第十二章 无穷级数思维导图",
+      "url": "https://zhuanlan.zhihu.com/p/59689029",
+      "summary": "正文梳理常数项级数、一般项级数和幂级数的收敛性、收敛半径与收敛域判定。"
+    },
+    {
+      "title": "数分复习——函数项级数与广义积分计算",
+      "url": "https://zhuanlan.zhihu.com/p/60351225",
+      "summary": "正文利用幂级数展开与一致收敛逐项运算，计算包含 Σ1/n² 等项的级数。"
+    },
+    {
+      "title": "关于爱的数学~",
+      "url": "https://zhuanlan.zhihu.com/p/61581623",
+      "summary": "正文给出幂级数恒等式及其收敛区间，并利用该无穷级数表示目标整数。"
+    },
+    {
+      "title": "复变函数学习笔记(9)——Riemann-zeta函数",
+      "url": "https://zhuanlan.zhihu.com/p/64549834",
+      "summary": "正文明确证明 ζ 函数的 Dirichlet 级数在 Re(s)>1 时收敛，并反复使用级数的绝对收敛与敛散性。"
+    },
+    {
+      "title": "7.4 Lebesgue 控制收敛定理",
+      "url": "https://zhuanlan.zhihu.com/p/64626170",
+      "summary": "正文末尾利用控制收敛的反例证明调和级数不收敛，涉及级数收敛与发散。"
+    },
+    {
+      "title": "为什么全体自然数平方的倒数和等于π^2/6？",
+      "url": "https://zhuanlan.zhihu.com/p/67450658",
+      "summary": "正文具体用夹逼准则证明平方倒数级数的值，实质讨论了级数求和与收敛。"
+    },
+    {
+      "title": "如何把函数展开成傅里叶级数？",
+      "url": "https://zhuanlan.zhihu.com/p/68181632",
+      "summary": "正文给出狄利克雷条件，并说明连续点、间断点和端点处傅里叶级数的收敛结果。"
+    },
+    {
+      "title": "【“数”你好看】三角级数求和",
+      "url": "https://zhuanlan.zhihu.com/p/68955349",
+      "summary": "正文把无穷三角级数化为公比模长小于 1 的等比级数，并据收敛条件求出其和。"
+    },
+    {
+      "title": "概率论复习笔记(6)——Borel-Cantelli引理与Borel强大数定律",
+      "url": "https://zhuanlan.zhihu.com/p/69550246",
+      "summary": "正文以概率级数的敛散性建立 Borel-Cantelli 引理，并用尾部求和证明几乎必然收敛。"
+    },
+    {
+      "title": "概率论复习笔记(7)——Kolmogorov大数定律",
+      "url": "https://zhuanlan.zhihu.com/p/69607174",
+      "summary": "正文利用方差级数收敛证明中心化随机变量级数几乎必然收敛，并进一步应用 Kronecker 引理。"
+    },
+    {
+      "title": "【工具书向/长期更新】复变函数预习笔记（依然是自嗨向）",
+      "url": "https://zhuanlan.zhihu.com/p/72873507",
+      "summary": "正文讨论复幂级数的收敛半径、收敛圆及边界奇点，并给出洛朗级数的收敛环域。"
+    },
+    {
+      "title": "复变随记（三） 聊聊模形式的“半边天”——椭圆函数",
+      "url": "https://zhuanlan.zhihu.com/p/73450429",
+      "summary": "正文讨论格上二重级数的收敛条件，说明指数大于2时收敛并由此构造Weierstrass椭圆函数。"
+    },
+    {
+      "title": "有些人，一旦错过就不再——论无穷乘积",
+      "url": "https://zhuanlan.zhihu.com/p/75144146",
+      "summary": "正文把无穷乘积取对数化为无穷级数，并通过比较与下界证明该级数收敛。"
+    },
+    {
+      "title": "复变函数（3）——复级数，泰勒级数，洛朗级数",
+      "url": "https://zhuanlan.zhihu.com/p/75456993",
+      "summary": "正文从部分和定义复级数的收敛与发散，并讨论绝对收敛及收敛半径。"
+    },
+    {
+      "title": "第十一章 无穷级数 第五节 傅里叶级数",
+      "url": "https://zhuanlan.zhihu.com/p/56586995",
+      "summary": "正文陈述狄利克雷收敛条件，并说明级数在连续点、间断点和周期端点处分别收敛到什么值。"
+    },
+    {
+      "title": "新证明解决了如何求无理数的近似值",
+      "url": "https://zhuanlan.zhihu.com/p/78636778",
+      "summary": "正文把达芬-谢弗判定条件解释为测度和这一无限项级数是否发散或收敛，是级数收敛性概念的应用。"
+    },
+    {
+      "title": "Keep-Kill-Divide（上篇）",
+      "url": "https://zhuanlan.zhihu.com/p/78648304",
+      "summary": "正文以绝对收敛作为重排与逐素数分组求和成立的条件，并证明筛选后的级数收敛。"
+    },
+    {
+      "title": "有趣的追及问题——猫能追上老鼠吗？",
+      "url": "https://zhuanlan.zhihu.com/p/80701068",
+      "summary": "正文用老鼠构造策略中的 p 级数与调和级数比较，说明前者收敛而后者发散。"
+    },
+    {
+      "title": "级数通杀篇（一）",
+      "url": "https://zhuanlan.zhihu.com/p/81457261",
+      "summary": "正文围绕正项、交错和任意项级数讲解部分和、比较法、比值法与根值法等收敛判据。"
+    },
+    {
+      "title": "级数通杀篇（二）",
+      "url": "https://zhuanlan.zhihu.com/p/81567345",
+      "summary": "正文定义收敛域、收敛区间和收敛半径，并借助阿贝尔定理及比值、根值判别法求幂级数的收敛范围。"
+    },
+    {
+      "title": "数分随记（七）数分中的AD判别法",
+      "url": "https://zhuanlan.zhihu.com/p/82928108",
+      "summary": "正文利用 Abel 变换与 Cauchy 收敛准则证明数项级数的 Dirichlet 和 Abel 判别法。"
+    },
+    {
+      "title": "一道有悖直觉的概率题",
+      "url": "https://zhuanlan.zhihu.com/p/83717478",
+      "summary": "正文将乙获胜概率写成无穷几何级数，并利用收敛级数公式求得总和为四分之一。"
+    },
+    {
+      "title": "一道习题：证明素数定理",
+      "url": "https://zhuanlan.zhihu.com/p/85293383",
+      "summary": "正文多次证明级数、乘积和反常积分的收敛性，并据此进行解析延拓。"
+    },
+    {
+      "title": "交错级数不能用通项等价关系审敛",
+      "url": "https://zhuanlan.zhihu.com/p/88194615",
+      "summary": "正文比较正项级数与交错级数的敛散性判别，指出通项等价关系不能推广到交错级数。"
+    },
+    {
+      "title": "从微分方程的级数解到两个特殊方程（1）：关于平凡点的解",
+      "url": "https://zhuanlan.zhihu.com/p/87530520",
+      "summary": "正文用比值检验法确定幂级数的收敛区间，并提醒端点需要单独判断收敛性。"
+    },
+    {
+      "title": "从微分方程的级数解到两个特殊方程（2）：关于奇点的解",
+      "url": "https://zhuanlan.zhihu.com/p/87592246",
+      "summary": "正文用比值检验法判断弗罗贝尼乌斯级数解在整个实轴上的收敛性。"
+    },
+    {
+      "title": "从微分方程的级数解到两个特殊方程（3）：贝塞尔方程（一）",
+      "url": "https://zhuanlan.zhihu.com/p/87624884",
+      "summary": "正文讨论第一类贝塞尔函数级数的收敛域以及不同指标下两个解的线性无关性。"
+    },
+    {
+      "title": "你知道快速排序的方差么？",
+      "url": "https://zhuanlan.zhihu.com/p/87785418",
+      "summary": "正文讨论调和级数的发散性、渐近近似以及平方调和级数收敛到 π²/6 的结论。"
+    },
+    {
+      "title": "【泛函基础 2.2】赋范空间和 Banach 空间",
+      "url": "https://zhuanlan.zhihu.com/p/87785242",
+      "summary": "正文在赋范空间中用部分和定义无穷级数收敛，并据此定义 Schauder 基和展开系数。"
+    },
+    {
+      "title": "关于幂级数的补充——收敛半径和收敛域",
+      "url": "https://zhuanlan.zhihu.com/p/93989800",
+      "summary": "正文讨论幂级数的收敛域与收敛半径，并用比值判别式说明两者不一定相等。"
+    },
+    {
+      "title": "考研.泰勒公式的理解与运用.一次全懂",
+      "url": "https://zhuanlan.zhihu.com/p/100204039",
+      "summary": "正文说明麦克劳林级数只在收敛区间内、且项数足够多时收敛到原函数，并讨论图像上的逼近过程。"
+    },
+    {
+      "title": "数分笔记——6种数项级数的收敛性证明的基本方法",
+      "url": "https://zhuanlan.zhihu.com/p/105629797",
+      "summary": "正文系统讲解部分和判据、比较判别法、d'Alembert判别法、Dirichlet判别法和Cauchy准则，并用例题证明多种数项级数的敛散性。"
+    },
+    {
+      "title": "真正的解析利器！摄动法",
+      "url": "https://zhuanlan.zhihu.com/p/107093458",
+      "summary": "正文专门比较渐近展开与级数展开的收敛性，说明无穷项可能发散但有限截断仍然有效。"
+    },
+    {
+      "title": "数分笔记——Fejér-Jackson不等式",
+      "url": "https://zhuanlan.zhihu.com/p/110424443",
+      "summary": "正文围绕正弦函数项级数研究部分和的有界性及一致收敛条件。"
+    },
+    {
+      "title": "民科吧见闻录19(Part F)——大钊的“等号不是等号”论",
+      "url": "https://zhuanlan.zhihu.com/p/110201823",
+      "summary": "正文辨析等比级数的各项和是否等于前 n 项和的极限，涉及级数收敛与求和的定义。"
+    },
+    {
+      "title": "高等数学（三）级数学习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/112631124",
+      "summary": "正文系统讲解正项级数、任意项级数的审敛法以及绝对收敛性质，属于级数收敛内容。"
+    },
+    {
+      "title": "“病态”的Weierstrass函数——从级数到不可微性的证明",
+      "url": "https://zhuanlan.zhihu.com/p/112726225",
+      "summary": "正文先定义数项级数及其部分和收敛，再用Weierstrass判别法处理函数项级数的收敛性。"
+    },
+    {
+      "title": "Gamma函数的那些事儿（2）——欧拉常数与Digamma函数",
+      "url": "https://zhuanlan.zhihu.com/p/114320236",
+      "summary": "正文比较调和级数与对数，并通过单调有界判别法证明欧拉常数对应的极限收敛。"
+    },
+    {
+      "title": "无穷级数-从入门到火葬",
+      "url": "https://zhuanlan.zhihu.com/p/115101496",
+      "summary": "正文从部分和定义级数收敛，并比较审敛法、比值审敛法、根值审敛法、交错级数及阿贝尔定理说明判别思路。"
+    },
+    {
+      "title": "【AP微积分】幂级数收敛半径及收敛区间",
+      "url": "https://zhuanlan.zhihu.com/p/116367588",
+      "summary": "正文用通项比值极限判定幂级数收敛，求收敛半径，并逐题验证区间端点的级数敛散性。"
+    },
+    {
+      "title": "11种常数项级数敛散性判别法(审敛法)的粗糙总结&11道好玩的小题",
+      "url": "https://zhuanlan.zhihu.com/p/113428001",
+      "summary": "正文系统总结柯西准则、正项级数判别法、交错级数判别法和一般项级数判别法，并说明常数项级数敛散性的判断方法。"
+    },
+    {
+      "title": "复变函数学习笔记(6)",
+      "url": "https://zhuanlan.zhihu.com/p/129354208",
+      "summary": "正文讨论复级数的收敛、绝对收敛及判别准则，并说明绝对收敛蕴含收敛。"
+    },
+    {
+      "title": "复变函数学习笔记(7)",
+      "url": "https://zhuanlan.zhihu.com/p/133309236",
+      "summary": "正文把Laurent级数拆成全纯部分和主要部分，讨论两者的收敛区域、交集及内闭一致收敛。"
+    },
+    {
+      "title": "欧拉关于巴塞尔问题证明的严格化",
+      "url": "https://zhuanlan.zhihu.com/p/133951176",
+      "summary": "正文围绕巴塞尔无穷级数的求和，证明无穷乘积展开、极限过程与系数比较。"
+    },
+    {
+      "title": "度量丢番图逼近1: 从Khintchine到Duffin-Schaeffer",
+      "url": "https://zhuanlan.zhihu.com/p/136552414",
+      "summary": "正文把相关级数的收敛或发散作为 Khintchine 型结论的判定条件，并解释其推导作用。"
+    },
+    {
+      "title": "常数项级数审敛法（非数类）",
+      "url": "https://zhuanlan.zhihu.com/p/136620760",
+      "summary": "正文系统讲解正项、交错和任意项级数的收敛判别法及其适用条件。"
+    },
+    {
+      "title": "数学分析的艺术——Zeta函数的洛朗展开式与斯蒂尔吉斯（Stieltjes）常数",
+      "url": "https://zhuanlan.zhihu.com/p/136328750",
+      "summary": "正文判断相关极限式处处收敛，并据此交换两个极限以导出 zeta 函数的表达式。"
+    },
+    {
+      "title": "复分析(6)-Taylor展式和Laurent展式",
+      "url": "https://zhuanlan.zhihu.com/p/137088383",
+      "summary": "正文讨论幂级数在收敛圆和收敛圆周上的性质，并说明双边幂级数在公共收敛圆环内解析及可逐项积分。"
+    },
+    {
+      "title": "洛朗级数与本性奇点（1）",
+      "url": "https://zhuanlan.zhihu.com/p/137807541",
+      "summary": "正文用收敛半径解释幂级数为何只在奇点以内收敛，并据此引入负幂项。"
+    },
+    {
+      "title": "无穷级数这一章应该掌握的内容",
+      "url": "https://zhuanlan.zhihu.com/p/142528494",
+      "summary": "正文解释无穷级数敛散性只取决于尾部性质，并比较尾部呈等比级数时的收敛判据，实质讨论了级数收敛。"
+    },
+    {
+      "title": "初三党搞积日常（2）——从复变角度解决巴塞尔问题（The Basel Problem）",
+      "url": "https://zhuanlan.zhihu.com/p/143842181",
+      "summary": "正文用围道积分极限和夹逼准则求出无穷级数之和并得到其收敛结果。"
+    },
+    {
+      "title": "六分之pi平方",
+      "url": "https://zhuanlan.zhihu.com/p/144837192",
+      "summary": "正文证明正整数倒数平方和级数收敛并等于 π²/6，涉及幂级数逐项积分与级数求值。"
+    },
+    {
+      "title": "条条大路通罗马——多种方法算积分",
+      "url": "https://zhuanlan.zhihu.com/p/146742823",
+      "summary": "正文在级数展开法中分析积分与级数收敛条件，并限定参数 s 位于 (0,1)。"
+    },
+    {
+      "title": "我们研究级数是为了做什么？做题吗？",
+      "url": "https://zhuanlan.zhihu.com/p/150655844",
+      "summary": "正文把数列收敛转化为部分和级数收敛，并进一步区分绝对收敛与条件收敛。"
+    },
+    {
+      "title": "逐渐硬核的函数展开——洛朗级数、Mittag-Leffler和Weierstrass定理",
+      "url": "https://zhuanlan.zhihu.com/p/156855788",
+      "summary": "正文讨论洛朗级数的圆环收敛域，并用收敛半径确定其解析展开范围。"
+    },
+    {
+      "title": "数学笔记|特殊函数(3):超几何函数",
+      "url": "https://zhuanlan.zhihu.com/p/160772031",
+      "summary": "正文给出超几何级数的参数形式、收敛区域并说明其复平面解析延拓，具体讨论了该幂级数的收敛与延伸。"
+    },
+    {
+      "title": "万字长文看够幂级数",
+      "url": "https://zhuanlan.zhihu.com/p/186219101",
+      "summary": "正文说明幂级数在收敛半径区间内必然收敛，并用收敛半径公式和端点情形讨论级数收敛范围。"
+    },
+    {
+      "title": "幂级数题型，和常用幂级数求和公式",
+      "url": "https://zhuanlan.zhihu.com/p/197246149",
+      "summary": "正文用比值判别和端点判断确定幂级数收敛域，并求和函数。"
+    },
+    {
+      "title": "数学思维之旅-从等差数列到黎曼函数",
+      "url": "https://zhuanlan.zhihu.com/p/266330005",
+      "summary": "正文讨论幂级数和黎曼级数在不同参数下的收敛性，并借助延拓解释发散级数。"
+    },
+    {
+      "title": "考研数学三级数~求幂级数的收敛域、和函数、幂级数展开式问题总结",
+      "url": "https://zhuanlan.zhihu.com/p/181727876",
+      "summary": "正文集中讲解幂级数收敛半径和收敛域的求法，并强调逐项求导、积分后收敛域可能发生变化。"
+    },
+    {
+      "title": "求和函数的教程（方浩老师强化课笔记）",
+      "url": "https://zhuanlan.zhihu.com/p/297962184",
+      "summary": "正文用柯西判别法和比值判别法判断幂级数的收敛半径，并逐题确定收敛域。"
+    },
+    {
+      "title": "我的数分笔记（七）",
+      "url": "https://zhuanlan.zhihu.com/p/272688710",
+      "summary": "正文用分堆放缩证明 p 级数的收敛与发散，并另证交错级数收敛。"
+    },
+    {
+      "title": "级数与反常积分的联系与区别",
+      "url": "https://zhuanlan.zhihu.com/p/312986436",
+      "summary": "正文系统讨论级数与反常积分的收敛判别、条件收敛及单调函数下两类收敛的等价性。"
+    },
+    {
+      "title": "别再被数学系同学鄙视了！物理人做换序操作时需要知道的一致收敛",
+      "url": "https://zhuanlan.zhihu.com/p/332873718",
+      "summary": "正文系统讨论函数项级数的收敛方式、逐点收敛反例以及一致收敛下的逐项运算。"
+    },
+    {
+      "title": "浅谈级数的重排问题",
+      "url": "https://zhuanlan.zhihu.com/p/335812975",
+      "summary": "正文系统讨论绝对收敛与条件收敛级数的重排，并证明 Cauchy、Leibniz 和 Riemann 重排定理。"
+    },
+    {
+      "title": "余元公式的三种证法及几个简单应用",
+      "url": "https://zhuanlan.zhihu.com/p/336909698",
+      "summary": "正文讨论幂级数的一致收敛并利用傅里叶级数计算余元公式所需的和式。"
+    },
+    {
+      "title": "当数论遇上分析（6）——Mertens定理与素数定理",
+      "url": "https://zhuanlan.zhihu.com/p/338578631",
+      "summary": "正文用比较判别估计素数相关和式为 O(1/x)，证明该无穷级数收敛。"
+    },
+    {
+      "title": "民科吧见闻录18(新Part A)——媲美三江的数学大师：三小",
+      "url": "https://zhuanlan.zhihu.com/p/339788492",
+      "summary": "正文针对调和级数是否收敛展开辨析，指出项变小时仍有大量项，所谓无效值不能推出级数收敛。"
+    },
+    {
+      "title": "武汉大学2021年考研数学分析真题完整解答",
+      "url": "https://zhuanlan.zhihu.com/p/342395769",
+      "summary": "正文使用比较判别法确定函数项级数的收敛区间，并进一步分析一致收敛性。"
+    },
+    {
+      "title": "正整数倒数的平方和（巴塞尔问题）",
+      "url": "https://zhuanlan.zhihu.com/p/343834569",
+      "summary": "正文讨论正整数的倒数平方和这一级数的绝对收敛性，并通过傅里叶展开证明其和。"
+    },
+    {
+      "title": "全体素数的倒数和",
+      "url": "https://zhuanlan.zhihu.com/p/347917080",
+      "summary": "正文通过比较级数、取对数和令指数趋近于一，证明素数倒数和发散，直接讲解级数收敛性。"
+    },
+    {
+      "title": "泛函分析（四）第三章 内积空间与Hilbert空间",
+      "url": "https://zhuanlan.zhihu.com/p/352578045",
+      "summary": "正文讨论 Fourier 级数的收敛、正交列完备性以及 Parseval 等式成立条件。"
+    },
+    {
+      "title": "常数项级数求和总结",
+      "url": "https://zhuanlan.zhihu.com/p/357350424",
+      "summary": "正文系统讨论常数项级数求和，并通过幂级数、部分和极限与裂项方法处理级数收敛结果。"
+    },
+    {
+      "title": "复变函数可视化 | 直观理解奇点与洛朗展开",
+      "url": "https://zhuanlan.zhihu.com/p/355075115",
+      "summary": "正文比较泰勒级数与洛朗级数的收敛区域，说明后者可在避开奇点后的更大环域内收敛。"
+    },
+    {
+      "title": "数学分析：截断函数与Borel引理",
+      "url": "https://zhuanlan.zhihu.com/p/361840790",
+      "summary": "正文先证明截断后的函数项级数逐点收敛，再进一步证明各阶导数级数收敛。"
+    },
+    {
+      "title": "递推形式的数列极限求解方法大汇总",
+      "url": "https://zhuanlan.zhihu.com/p/364365982",
+      "summary": "正文利用压缩映射后相邻项差的绝对值级数绝对收敛，证明数列收敛并给出极限。"
+    },
+    {
+      "title": "Bergman 空间与 Bergman 核 - 丘赛2014分析个人赛第6题",
+      "url": "https://zhuanlan.zhihu.com/p/364568773",
+      "summary": "正文利用 Parseval 等式证明标准正交基对应的函数级数逐点绝对收敛。"
+    },
+    {
+      "title": "arctanx的三角恒等式的运用",
+      "url": "https://zhuanlan.zhihu.com/p/371372024",
+      "summary": "正文将arctan项裂成相邻两项之差，通过望远镜求和得到两个无穷级数的和。"
+    },
+    {
+      "title": "数学分析Mathematical Analysis笔记整理 第十四章 傅里叶级数",
+      "url": "https://zhuanlan.zhihu.com/p/375165065",
+      "summary": "正文专节研究傅里叶级数的收敛性，给出 Dini、Lipschitz 等判别法及其证明。"
+    },
+    {
+      "title": "泰勒公式、泰勒定理、泰勒级数、泰勒展开式之间的关系",
+      "url": "https://zhuanlan.zhihu.com/p/377120363",
+      "summary": "正文详细讨论幂级数的收敛半径、收敛区间、端点行为及缺项级数的收敛域。"
+    },
+    {
+      "title": "如何理解一致收敛？",
+      "url": "https://zhuanlan.zhihu.com/p/378399611",
+      "summary": "正文讨论函数项级数的余项和幂级数在收敛区间子闭区间上的一致收敛性质。"
+    },
+    {
+      "title": "数学分析中函数的“阶”的含义思考",
+      "url": "https://zhuanlan.zhihu.com/p/380165648",
+      "summary": "正文把达朗贝尔、拉阿比和贝特朗判别法统一到库默尔判别法，并讨论正项级数敛散性。"
+    },
+    {
+      "title": "民科吧见闻录11(Part O) ——郭德胜的民科数学小记",
+      "url": "https://zhuanlan.zhihu.com/p/380558841",
+      "summary": "正文把 0.3 循环写成无限等比级数并求其和，说明循环小数对应的级数收敛。"
+    },
+    {
+      "title": "数学分析（12）第十章 函数项级数",
+      "url": "https://zhuanlan.zhihu.com/p/387809317",
+      "summary": "正文讨论级数的收敛域、收敛半径和幂级数收敛判别，具体展开级数收敛理论。"
+    },
+    {
+      "title": "数学分析（24） 第十六章 Fourier级数",
+      "url": "https://zhuanlan.zhihu.com/p/389305068",
+      "summary": "正文借助 Dirichlet 积分和 Riemann 引理讨论傅里叶级数的收敛判别与充分条件。"
+    },
+    {
+      "title": "Carleman不等式及若干证明方法",
+      "url": "https://zhuanlan.zhihu.com/p/389442229",
+      "summary": "正文通过正项级数与二重级的绝对收敛性说明求和交换，并据此完成无穷级数证明。"
+    },
+    {
+      "title": "无穷级数审敛法汇总（一）",
+      "url": "https://zhuanlan.zhihu.com/p/390327683",
+      "summary": "正文系统给出并证明无穷级数的柯西准则、比较、比值、根值和拉贝等审敛法。"
+    },
+    {
+      "title": "无穷级数审敛法汇总（二）",
+      "url": "https://zhuanlan.zhihu.com/p/390881621",
+      "summary": "正文系统陈述并证明库默尔、贝特朗、高斯、积分、凝聚、Abel-Dini 等正项级数审敛法及其敛散性判据。"
+    },
+    {
+      "title": "中科大2021夏令营数分高代",
+      "url": "https://zhuanlan.zhihu.com/p/391906272",
+      "summary": "正文证明函数项级数在全体有理点收敛，并通过 e 的泰勒余项构造 Leibniz 级数证明一处无理点也收敛。"
+    },
+    {
+      "title": "欧氏空间：贝塞尔（Bessel）不等式",
+      "url": "https://zhuanlan.zhihu.com/p/394419526",
+      "summary": "正文利用贝塞尔不等式证明某些级数收敛，并用收敛的必要条件推出系数趋于零。"
+    },
+    {
+      "title": "一道京都大学的级数计算题",
+      "url": "https://zhuanlan.zhihu.com/p/397593169",
+      "summary": "正文把无穷级数按六项循环分组，化为公比为 -1/64 的等比级数并利用收敛求和公式求值。"
+    },
+    {
+      "title": "调和级数——自然真理是如何隐藏在数字中的，永远不要相信直觉",
+      "url": "https://zhuanlan.zhihu.com/p/415559374",
+      "summary": "正文比较调和级数与平方倒数级数，解释它们的发散或收敛，并讨论条件收敛的重排效应。"
+    },
+    {
+      "title": "总结·无穷级数收敛与发散的判断",
+      "url": "https://zhuanlan.zhihu.com/p/416667179",
+      "summary": "正文按步骤总结通项判据、几何级数、p 级数、比较判别法、积分判别法和比值根式判别法等收敛判定方法。"
+    },
+    {
+      "title": "矩阵指数函数 |专题（1）",
+      "url": "https://zhuanlan.zhihu.com/p/422545081",
+      "summary": "正文用幂级数收敛半径说明指数函数定义合理，并指出矩阵幂级数的收敛性尚待处理。"
+    },
+    {
+      "title": "欧拉常数——最神秘的数字，调和级数的产物，至今看不清它的面貌",
+      "url": "https://zhuanlan.zhihu.com/p/422551555",
+      "summary": "正文讨论调和级数部分和与对数函数之差，并证明该差收敛到欧拉常数。"
+    },
+    {
+      "title": "常用级数公式汇总",
+      "url": "https://zhuanlan.zhihu.com/p/425294550",
+      "summary": "正文汇总多项式、几何、调和等无穷级数，并在几何级数处给出|x|<1的收敛条件与常用和值。"
+    },
+    {
+      "title": "常用泰勒展开式及函数能展开为幂级数的充分必要条件.",
+      "url": "https://zhuanlan.zhihu.com/p/429798026",
+      "summary": "正文以任意阶导数和余项趋于零两条条件刻画函数展开为幂级数的收敛条件。"
+    },
+    {
+      "title": "柯西（Cauchy）乘积（级数乘法）",
+      "url": "https://zhuanlan.zhihu.com/p/432274129",
+      "summary": "正文定义级数的柯西乘积，并用 Mertens、Cesàro 定理讨论乘积级数的收敛性。"
+    },
+    {
+      "title": "从厄米方程到厄米多项式",
+      "url": "https://zhuanlan.zhihu.com/p/436428054",
+      "summary": "正文分析幂级数系数的渐近行为与无穷远发散，并说明截断级数可得到多项式解。"
+    },
+    {
+      "title": "泰勒公式与泰勒级数",
+      "url": "https://zhuanlan.zhihu.com/p/437094869",
+      "summary": "正文区分泰勒公式与泰勒级数，讨论级数收敛及其和函数是否等于原函数。"
+    },
+    {
+      "title": "卓里奇《数学分析》习题（第一、二、三章）",
+      "url": "https://zhuanlan.zhihu.com/p/438175318",
+      "summary": "正文系统讨论正项级数、交错级数、无穷乘积及比较判别，并给出多种收敛性证明。"
+    },
+    {
+      "title": "2022数一合工大超越五套卷总结",
+      "url": "https://zhuanlan.zhihu.com/p/441419573",
+      "summary": "正文比较判别法和根值判别法讨论幂级数收敛域，并用斯特林公式作等价估计。"
+    },
+    {
+      "title": "无穷级数敛散性判别的万能解法之一——“套娃”审敛法",
+      "url": "https://zhuanlan.zhihu.com/p/443305452",
+      "summary": "正文给出广义 p 级数的收敛判据，并用比较判别法逐项判定十个具体级数的敛散性。"
+    },
+    {
+      "title": "计算圆周率，凡人用一生，天才只用一个小时",
+      "url": "https://zhuanlan.zhihu.com/p/444281349",
+      "summary": "正文用圆周率级数比较不同公式的收敛速度，并说明慢收敛会增加计算量。"
+    },
+    {
+      "title": "用最简单的方式解释黎曼猜想（二），黎曼ζ函数，素数之门的金钥匙",
+      "url": "https://zhuanlan.zhihu.com/p/448772977",
+      "summary": "正文讨论巴塞尔级数与 ζ 级数的敛散性，指出 s 大于 1 时收敛而 s 等于 1 时发散。"
+    },
+    {
+      "title": "相较神经网络，大名鼎鼎的傅里叶变换，为何没有一统函数逼近器？答案在这",
+      "url": "https://zhuanlan.zhihu.com/p/455370014",
+      "summary": "正文讨论傅里叶谱展开的收敛速度，并说明平滑性假设失效时收敛变慢及吉布斯现象。"
+    },
+    {
+      "title": "2022年1月13日中国科学技术大学2021年秋季学期数学分析B1期末考试题",
+      "url": "https://zhuanlan.zhihu.com/p/456963180",
+      "summary": "正文用狄利克雷判别、比较和三角和估计讨论级数收敛及绝对收敛性。"
+    },
+    {
+      "title": "【复变函数】泰勒展开 洛朗展开",
+      "url": "https://zhuanlan.zhihu.com/p/462788409",
+      "summary": "正文区分正幂与负幂两部分的收敛域，并说明幂级数、泰勒级数和洛朗级数在圆域或环域中的收敛性质。"
+    },
+    {
+      "title": "浅谈椭圆周长",
+      "url": "https://zhuanlan.zhihu.com/p/463065949",
+      "summary": "正文比较两个椭圆周长级数的收敛速度，并解释系数和公比如何影响收敛。"
+    },
+    {
+      "title": "自然常数 e 的定义",
+      "url": "https://zhuanlan.zhihu.com/p/469223561",
+      "summary": "正文用单调收敛定理证明阶乘倒数级数收敛，并说明它比复利极限更快收敛到 e。"
+    },
+    {
+      "title": "民科吧见闻录18(新Part B)——既发散又收敛的无穷级数?",
+      "url": "https://zhuanlan.zhihu.com/p/469406207",
+      "summary": "正文辨析调和级数错误拆分与重复计数，说明无穷级数各项趋零不能推出级数收敛。"
+    },
+    {
+      "title": "复赢函数论（Complewin Function Theory）",
+      "url": "https://zhuanlan.zhihu.com/p/472866229",
+      "summary": "正文讨论几何级数的收敛条件，并借复域解析延拓与 Laurent 展开处理发散级数。"
+    },
+    {
+      "title": "复赢函数论（Complewin Function Theory）",
+      "url": "https://zhuanlan.zhihu.com/p/476498594",
+      "summary": "正文以 Laurent 级数处理孤立奇点与解析延拓，并讨论相应级数展开及其收敛环域。"
+    },
+    {
+      "title": "2021年阿里巴巴全球数学竞赛中的一个概率问题，难出了新高度",
+      "url": "https://zhuanlan.zhihu.com/p/477911338",
+      "summary": "正文建立派对结束概率的无穷级数，并用几何级数与加泰罗尼亚生成函数求值。"
+    },
+    {
+      "title": "从线性代数到量子力学(21)：氢原子薛定谔方程求解过程赏析(下)",
+      "url": "https://zhuanlan.zhihu.com/p/456815029",
+      "summary": "正文通过合流超几何级数在无穷远处的收敛要求，推出级数必须截断为有限多项式。"
+    },
+    {
+      "title": "「调赢分析 (Harmonic Win-analysis)」：赢理论大厦出现乌云了？！我们会赢下去的！",
+      "url": "https://zhuanlan.zhihu.com/p/493749277",
+      "summary": "正文陈述傅里叶级数的 Bessel 不等式，并用 L2 范数讨论函数序列的收敛。"
+    },
+    {
+      "title": "复变函数第五辑——解析函数的泰勒级数展开",
+      "url": "https://zhuanlan.zhihu.com/p/499135537",
+      "summary": "正文讨论泰勒级数的收敛圆，并用最近奇点确定收敛半径。"
+    },
+    {
+      "title": "复变函数第七辑——留数定理",
+      "url": "https://zhuanlan.zhihu.com/p/501423396",
+      "summary": "正文用留数定理和围道积分计算平方倒数无穷级数的和。"
+    },
+    {
+      "title": "【微积分】常用级数与级数审敛法汇总",
+      "url": "https://zhuanlan.zhihu.com/p/508096285",
+      "summary": "正文系统整理级数收敛定义以及比较、比值、根值和交错级数审敛法。"
+    },
+    {
+      "title": "考研数学中的一些非典型公式定理整理（持续更新）",
+      "url": "https://zhuanlan.zhihu.com/p/510394533",
+      "summary": "正文讨论级数收敛判别，并给出夹逼准则、括号级数及相关证明。"
+    },
+    {
+      "title": "【级数】正项级数的几种判别法",
+      "url": "https://zhuanlan.zhihu.com/p/511797853",
+      "summary": "正文系统给出正项级数部分和有界判据、比较判别法、Cauchy与D'Alembert等收敛判别法。"
+    },
+    {
+      "title": "讲透泰勒公式，让你成为高手！",
+      "url": "https://zhuanlan.zhihu.com/p/508226290",
+      "summary": "正文讨论泰勒级数的收敛半径、区间及端点处可能收敛或发散的条件。"
+    },
+    {
+      "title": "大学数学竞赛#2-Riemann引理及其应用（积分极限、无穷级数）",
+      "url": "https://zhuanlan.zhihu.com/p/515221628",
+      "summary": "正文将正弦无穷级数逐项求导后积分，并用 Riemann 引理求出其部分和极限与和函数。"
+    },
+    {
+      "title": "高等数学知识点回顾（下册）（4）",
+      "url": "https://zhuanlan.zhihu.com/p/523940005",
+      "summary": "正文以部分和数列的极限定义级数收敛，并系统讲解正项、交错及任意项级数的审敛方法。"
+    },
+    {
+      "title": "11.级数收敛的判定方法（全）",
+      "url": "https://zhuanlan.zhihu.com/p/526615305",
+      "summary": "正文系统讲解非负项级数的有界判据、比较法、根值法、比值法及相应收敛性证明。"
+    },
+    {
+      "title": "最后的讲义：数分总复习",
+      "url": "https://zhuanlan.zhihu.com/p/528533840",
+      "summary": "正文从部分和极限定义级数收敛，系统讨论判别法、函数项级数和幂级数。"
+    },
+    {
+      "title": "所有自然数之和",
+      "url": "https://zhuanlan.zhihu.com/p/531791133",
+      "summary": "正文讨论 1-1+1-… 等发散级数，说明拉马努金求和并不满足普通收敛级数的重排规则。"
+    },
+    {
+      "title": "母函数——生成函数——形式级数（Generating function）",
+      "url": "https://zhuanlan.zhihu.com/p/538036645",
+      "summary": "正文在收敛半径条件下展开无穷几何级数，并把这一结论反复用于母函数求系数。"
+    },
+    {
+      "title": "无理数的有理逼近及其应用（2）——无理测度简介",
+      "url": "https://zhuanlan.zhihu.com/p/538359524",
+      "summary": "正文把正项级数 1/(n³ sin²n) 的收敛性转化为圆周率的无理测度上界问题。"
+    },
+    {
+      "title": "“小心评论区数学家给你证明 0.999……=1”",
+      "url": "https://zhuanlan.zhihu.com/p/539323737",
+      "summary": "正文用部分和数列的极限定义无穷级数，并证明了 p 级数在 p>1 时的收敛性。"
+    },
+    {
+      "title": "《高等数学表情包全解全析》",
+      "url": "https://zhuanlan.zhihu.com/p/539848700",
+      "summary": "正文把积分展开为几何级数与幂级数求和，并得到级数 π²/6。"
+    },
+    {
+      "title": "压缩映射",
+      "url": "https://zhuanlan.zhihu.com/p/541364325",
+      "summary": "正文利用相邻项差的几何衰减应用比值判别法，证明差分级数收敛并以望远镜和得到迭代数列收敛。"
+    },
+    {
+      "title": "【数学分析笔记】10.1 函数项级数的一致收敛性",
+      "url": "https://zhuanlan.zhihu.com/p/552861993",
+      "summary": "正文定义函数项级数的收敛点、收敛域与和函数，并用多种判别法分析级数收敛性。"
+    },
+    {
+      "title": "【数学分析笔记】10.2 一致收敛级数的判别与性质",
+      "url": "https://zhuanlan.zhihu.com/p/553604156",
+      "summary": "正文给出柯西、Weierstrass、Abel 与 Dirichlet 等级数收敛判别法并讨论适用条件。"
+    },
+    {
+      "title": "常用级数汇总（无穷篇）",
+      "url": "https://zhuanlan.zhihu.com/p/555981969",
+      "summary": "正文汇总无穷级数并利用几何级数部分和的极限说明收敛条件与求和结果。"
+    },
+    {
+      "title": "数学分析笔记（第四章）：级数",
+      "url": "https://zhuanlan.zhihu.com/p/570587740",
+      "summary": "正文系统定义无穷级数的部分和与敛散性，并讲解比较、柯西、达朗贝尔等收敛判别法及重排性质。"
+    },
+    {
+      "title": "一道数分课本里的钓鱼题",
+      "url": "https://zhuanlan.zhihu.com/p/572548431",
+      "summary": "正文判断含正弦项的无穷级数是条件收敛还是绝对收敛，并用狄利克雷判别法与模 1 分布证明发散性。"
+    },
+    {
+      "title": "数学期望大于零的游戏一定能赚钱吗",
+      "url": "https://zhuanlan.zhihu.com/p/579732711",
+      "summary": "正文给出独立随机变量级数收敛的三级数定理，并利用截断变量的级数条件证明圣彼得堡游戏的收敛速度。"
+    },
+    {
+      "title": "数分I期中考试题",
+      "url": "https://zhuanlan.zhihu.com/p/581363721",
+      "summary": "正文判定正弦级数收敛而绝对值级数发散，得到条件收敛。"
+    },
+    {
+      "title": "极限存在的充要条件",
+      "url": "https://zhuanlan.zhihu.com/p/584967248",
+      "summary": "正文利用收敛正项级数的尾部和证明单调情形下的 na_n 趋于零，并说明级数收敛中的相关性质。"
+    },
+    {
+      "title": "Parseval恒等式、Wirtinger不等式、Poincaré不等式、等周不等式",
+      "url": "https://zhuanlan.zhihu.com/p/592486710",
+      "summary": "正文讨论傅里叶级数的一致收敛条件、部分和极限以及贝塞尔不等式。"
+    },
+    {
+      "title": "数分I期末考试题",
+      "url": "https://zhuanlan.zhihu.com/p/594887144",
+      "summary": "正文使用交错调和级数展开、相邻项放缩和余项估计讨论无穷级数的收敛与误差。"
+    },
+    {
+      "title": "幂级数收敛半径的求法（专题）",
+      "url": "https://zhuanlan.zhihu.com/p/598732266",
+      "summary": "正文用比值审敛法证明幂级数收敛半径公式，并通过两个例题判断收敛半径和收敛域。"
+    },
+    {
+      "title": "德国最伟大的数学家——高斯，能限制住他的，只有“死亡”了",
+      "url": "https://zhuanlan.zhihu.com/p/605022798",
+      "summary": "正文说明二项级数及超几何级数必须满足收敛条件，才能在有意义的意义下等于有限极限。"
+    },
+    {
+      "title": "椭圆模函数（2）——Weierstrass的椭圆函数论",
+      "url": "https://zhuanlan.zhihu.com/p/603750259",
+      "summary": "正文通过二维积分判别绝对收敛，讨论 Weierstrass 级数的收敛范围与一致收敛性。"
+    },
+    {
+      "title": "一个古怪的绝对收敛问题",
+      "url": "https://zhuanlan.zhihu.com/p/608671793",
+      "summary": "正文讨论两个收敛级数的绝对收敛关系，并用正负部分证明其等价性。"
+    },
+    {
+      "title": "关于Dirichlet积分的七大方法",
+      "url": "https://zhuanlan.zhihu.com/p/606342803",
+      "summary": "正文把 Dirichlet 积分拆成无穷级数，证明级数一致收敛并据此逐项积分得到结果。"
+    },
+    {
+      "title": "比物理学不存在更恐怖的，是圆周率|Happy Pi Day",
+      "url": "https://zhuanlan.zhihu.com/p/613851001",
+      "summary": "正文给出沃利斯乘积和莱布尼茨公式，讨论截断求和逼近圆周率时的收敛速度。"
+    },
+    {
+      "title": "韦神不等式的一个优雅的解答",
+      "url": "https://zhuanlan.zhihu.com/p/617584652",
+      "summary": "正文展开无穷等比级数并利用平方项非负证明级数和非负，具体涉及无穷级数运算。"
+    },
+    {
+      "title": "素数定理的证明（友好型，已完结）",
+      "url": "https://zhuanlan.zhihu.com/p/631308191",
+      "summary": "正文反复讨论 Zeta 级数及相关 Dirichlet 级数的收敛范围和绝对收敛性，并用级数判别完成估计。"
+    },
+    {
+      "title": "拉马努金：我做数学只用三个词，“显然”、“显然”还是“显然”",
+      "url": "https://zhuanlan.zhihu.com/p/638548023",
+      "summary": "正文讨论发散级数的特殊求和意义，并说明普通等号需要赋予不同解释。"
+    },
+    {
+      "title": "数学的极限之解析延拓，寻找数学世界中的奇点，窥视数学的本质",
+      "url": "https://zhuanlan.zhihu.com/p/659572550",
+      "summary": "正文用几何级数及稀疏化后的间隔级数比较收敛区间，并借收敛半径解释何时能或不能越过原定义域延拓。"
+    },
+    {
+      "title": "级数求和的奇妙方法",
+      "url": "https://zhuanlan.zhihu.com/p/663917766",
+      "summary": "正文围绕无穷级数求和讲解收敛域、幂级数收敛圆以及多种级数和的计算。"
+    },
+    {
+      "title": "回顾高数课本——傅里叶级数",
+      "url": "https://zhuanlan.zhihu.com/p/670315937",
+      "summary": "正文讨论三角级数、傅里叶系数以及迪利克雷收敛定理，实质讲解级数收敛。"
+    },
+    {
+      "title": "一个处处不满足Hölder条件的连续函数",
+      "url": "https://zhuanlan.zhihu.com/p/675057799",
+      "summary": "正文讨论三角级数的绝对收敛，并作为证明该连续函数性质的基础。"
+    },
+    {
+      "title": "数学观点下的吉布斯现象",
+      "url": "https://zhuanlan.zhihu.com/p/693511244",
+      "summary": "正文区分傅里叶级数的范数收敛与一致收敛，并用狄利克雷判别法和 Weierstrass M-test 讨论级数收敛性。"
+    },
+    {
+      "title": "czy智斗概率论（1）",
+      "url": "https://zhuanlan.zhihu.com/p/682180148",
+      "summary": "正文讲解 Borel-Cantelli 引理、Kolmogorov 三级数定理以及随机变量级数几乎必然收敛的判定。"
+    },
+    {
+      "title": "试题解析 | 2024年浙江省大学生高等数学（微积分）竞赛（数学类、工科类）",
+      "url": "https://zhuanlan.zhihu.com/p/699803657",
+      "summary": "正文计算正项二重级数，并使用等价关系和 p 级数判定含对数项的级数收敛范围。"
+    },
+    {
+      "title": "第226题——姜萍图中的一个数学题(全文只讨论证明过程）",
+      "url": "https://zhuanlan.zhihu.com/p/703750351",
+      "summary": "正文由正弦无穷乘积取对数、连续求导，推导无穷级数恒等式，并明确说明相关级数绝对收敛。"
+    },
+    {
+      "title": "从傅里叶级数到希尔伯特空间，数学你这样学，想不会都难",
+      "url": "https://zhuanlan.zhihu.com/p/710126047",
+      "summary": "正文具体讨论傅里叶级数的收敛条件、不连续点附近的超调以及切萨罗求和方法。"
+    },
+    {
+      "title": "数学的艺术 —— 函数的因式分解",
+      "url": "https://zhuanlan.zhihu.com/p/710768699",
+      "summary": "正文通过估计典范乘积因子的对数，讨论无穷乘积所需级数的收敛性及亏格的选取。"
+    },
+    {
+      "title": "厦大数院夏令营考试 · 分析方向",
+      "url": "https://zhuanlan.zhihu.com/p/710981685",
+      "summary": "正文借助 Hölder 不等式证明由收敛正项级数构造的新级数仍然收敛。"
+    },
+    {
+      "title": "数学的艺术 —— 偶级数分解定理",
+      "url": "https://zhuanlan.zhihu.com/p/718022007",
+      "summary": "正文以围道积分和留数分解无穷级数，并给出通用的偶级数分解定理。"
+    },
+    {
+      "title": "磨光技术在数论中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/718929229",
+      "summary": "正文讨论无穷级数、部分和及指数和估计，并分析收敛与余项改善的条件。"
+    },
+    {
+      "title": "中山大学2024淑芬期中a卷解析(自制版)",
+      "url": "https://zhuanlan.zhihu.com/p/5942827617",
+      "summary": "正文利用调和数与对数差的收敛性证明交错调和级数收敛，并求出其极限。"
+    },
+    {
+      "title": "清华大学未央书院2024级高等微积分期中考试B卷试题解析（自制版）",
+      "url": "https://zhuanlan.zhihu.com/p/6050657151",
+      "summary": "正文对阶乘倒数的尾部级数作几何放缩，并用该级数估计计算含e的极限。"
+    },
+    {
+      "title": "陶哲轩翻44年数学猜想！再战Erdős问题，新论文被评4“太反直觉”",
+      "url": "https://zhuanlan.zhihu.com/p/9754385413",
+      "summary": "正文讨论倒数级数的增长速度、收敛条件以及其和是否有理。"
+    },
+    {
+      "title": "2024年高中数学联赛一试试题（A）个人解答",
+      "url": "https://zhuanlan.zhihu.com/p/1904858722565612248",
+      "summary": "正文用无穷等比级数的各项和公式建立关系并求出参数范围。"
+    },
+    {
+      "title": "整数分拆在素数秩下的精确公式（一、简介）",
+      "url": "https://zhuanlan.zhihu.com/p/1909081424851600694",
+      "summary": "正文讨论 Rademacher 精确级数的收敛性、误差估计和余项。"
+    },
+    {
+      "title": "解析某大学爆难微积分期末试题",
+      "url": "https://zhuanlan.zhihu.com/p/1916554475704934811",
+      "summary": "正文用比较审敛法判断参数级数收敛，并推导幂级数求和及利用收敛判别完成证明。"
+    },
+    {
+      "title": "全网首答！南开大学数分流传20年的无解难题",
+      "url": "https://zhuanlan.zhihu.com/p/1932399207559430281",
+      "summary": "正文把跨零点的积分区间拆成交替项，将积分敛散性转化为正负交替级数并验证各项单调趋于零。"
+    },
+    {
+      "title": "傅里叶级数之吉伯斯现象（Gibbs phenomenon）",
+      "url": "https://zhuanlan.zhihu.com/p/1954297421271131152",
+      "summary": "正文讨论傅里叶级数部分和随项数增加逼近不连续函数时的收敛形态与吉伯斯过冲。"
+    },
+    {
+      "title": "2025年中国科学技术大学数学分析试题（个人解题）",
+      "url": "https://zhuanlan.zhihu.com/p/1979925439570011526",
+      "summary": "正文用积分判别法、Cauchy 准则和一致收敛讨论幂级数在边界处的收敛与连续性。"
+    },
+    {
+      "title": "关于 π 的一些事实",
+      "url": "https://zhuanlan.zhihu.com/p/2016136803090969432",
+      "summary": "正文讨论欧拉级数的收敛值、相关级数和沃利斯无穷乘积。"
+    },
+    {
+      "title": "一定只能裂项嘛？（1）",
+      "url": "https://zhuanlan.zhihu.com/p/2002129520283653589",
+      "summary": "正文计算几何级数并据此交换 Mellin 逆变换中的求和与积分，实际使用了级数收敛条件。"
+    }
+  ]
+}

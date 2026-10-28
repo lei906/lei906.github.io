@@ -1,0 +1,931 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l5-t3-b2",
+  "sources": [
+    {
+      "title": "如何用一句话概括拓扑学、泛函分析、实变函数讲的是什么？",
+      "url": "https://www.zhihu.com/answer/20924603",
+      "summary": "正文围绕「如何用一句话概括拓扑学、泛函分析、实变函数讲的是什么？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "数学院的本科生到底要学完多少内容？",
+      "url": "https://www.zhihu.com/answer/33106947",
+      "summary": "以 Lebesgue 意义下的分析说明积分理论训练的重要性。"
+    },
+    {
+      "title": "Riemann 积分与 Lebesgue 积分的联系与差异分别是什么？",
+      "url": "https://www.zhihu.com/answer/41787000",
+      "summary": "正文比较黎曼积分和勒贝格积分。"
+    },
+    {
+      "title": "Riemann 积分与 Lebesgue 积分的联系与差异分别是什么？",
+      "url": "https://www.zhihu.com/answer/41912293",
+      "summary": "正文从简单函数定义勒贝格积分。"
+    },
+    {
+      "title": "实分析学得太难失去信心和兴趣了怎么办？",
+      "url": "https://www.zhihu.com/answer/50589761",
+      "summary": "正文明确提出掌握勒贝格积分构建过程。"
+    },
+    {
+      "title": "如何能自学学好实变函数?",
+      "url": "https://www.zhihu.com/answer/80652060",
+      "summary": "正文明确提到勒贝格积分及相关收敛定理。"
+    },
+    {
+      "title": "费曼路径积分的数学严格化有哪些困难和进展?",
+      "url": "https://www.zhihu.com/answer/148016526",
+      "summary": "正文比较菲涅耳积分的黎曼收敛与勒贝格不可积，并解释正负部分积分。"
+    },
+    {
+      "title": "什么情况下，积分和求导可以交换顺序？",
+      "url": "https://www.zhihu.com/answer/149379832",
+      "summary": "正文给出勒贝格积分下绝对连续函数满足微积分基本关系的条件。"
+    },
+    {
+      "title": "数学系本科生如何学好实变函数与泛函分析？",
+      "url": "https://www.zhihu.com/answer/151499682",
+      "summary": "正文说明通过测度建立勒贝格积分理论及其学习方法。"
+    },
+    {
+      "title": "实变函数有什么用？",
+      "url": "https://www.zhihu.com/answer/160480195",
+      "summary": "正文比较黎曼积分局限与勒贝格积分处理奇异函数的能力。"
+    },
+    {
+      "title": "学习实分析什么教材比较好用，各有什么优劣？",
+      "url": "https://www.zhihu.com/answer/191186945",
+      "summary": "正文讨论勒贝格积分、积分收敛定理与不定积分微分的学习要点。"
+    },
+    {
+      "title": "积分与级数的联系有哪些？",
+      "url": "https://www.zhihu.com/answer/251065232",
+      "summary": "正文以勒贝格测度对应通常积分说明 Lebesgue 积分。"
+    },
+    {
+      "title": "为什么测度论要建立在σ-代数上？",
+      "url": "https://www.zhihu.com/answer/259982491",
+      "summary": "正文解释从半环上测度建立 Lebesgue 积分及其收敛性质。"
+    },
+    {
+      "title": "复变函数、实分析、复分析、数学分析是什么关系？",
+      "url": "https://www.zhihu.com/answer/268908475",
+      "summary": "正文比较勒贝格积分与黎曼积分的逻辑独立性。"
+    },
+    {
+      "title": "复变函数、实分析、复分析、数学分析是什么关系？",
+      "url": "https://www.zhihu.com/answer/269355183",
+      "summary": "正文明确实变函数论的核心包含积分理论。"
+    },
+    {
+      "title": "大学数学如何培养数学思维？",
+      "url": "https://www.zhihu.com/answer/291203048",
+      "summary": "正文从零测集不改变 Lebesgue 积分解释 delta 不能作为普通函数。"
+    },
+    {
+      "title": "有哪些看起来很简单但做起来很难的数学题？",
+      "url": "https://www.zhihu.com/answer/316521682",
+      "summary": "正文比较牛顿－莱布尼茨公式在 Riemann 与 Lebesgue 积分中的证明难度。"
+    },
+    {
+      "title": "能否不引入物理学概念，仅从数学角度介绍一下费曼的路径积分？",
+      "url": "https://www.zhihu.com/answer/368826483",
+      "summary": "正文利用齐次性说明无穷维空间没有通常的勒贝格测度，并另行讨论菲涅耳积分的不可积性。"
+    },
+    {
+      "title": "一个可积函数乘以一个可积函数是否还是可积函数？",
+      "url": "https://www.zhihu.com/answer/375829838",
+      "summary": "正文给出勒贝格可积函数乘积不可积的反例与估计。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/378454878",
+      "summary": "正文具体比较控制收敛定理与数学分析中依靠一致收敛的换序条件，说明勒贝格积分的价值。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/393203505",
+      "summary": "正文用对可测集的积分刻画测度密度。"
+    },
+    {
+      "title": "做（学）数学分析的人会看不起用直观思维理解一些定理的人吗？",
+      "url": "https://www.zhihu.com/answer/419280612",
+      "summary": "正文强调区分黎曼可积与勒贝格可积。"
+    },
+    {
+      "title": "数学分析中最重要的定理是哪个？为什么？",
+      "url": "https://www.zhihu.com/answer/489889295",
+      "summary": "正文说明基本定理向勒贝格积分的推广。"
+    },
+    {
+      "title": "大一新生在读，学习高等数学觉得十分不严谨，有没有必要学习数学分析？",
+      "url": "https://www.zhihu.com/answer/506499934",
+      "summary": "用期望的初等计算与建立 Lebesgue 积分所需理论作比较。"
+    },
+    {
+      "title": "请问filippov解大概是什么意思？是怎么定义的？有什么作用？",
+      "url": "https://www.zhihu.com/answer/532993703",
+      "summary": "正文以勒贝格积分定义不连续系统的 Caratheodory 解。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/649692656",
+      "summary": "区分 Riemann 可积与 Lebesgue 可积并提到 Lebesgue 积分构造。"
+    },
+    {
+      "title": "∑ (1/n) 为何不收敛？",
+      "url": "https://www.zhihu.com/answer/705892838",
+      "summary": "使用绝对可积控制函数与控制收敛定理。"
+    },
+    {
+      "title": "什么是黎曼积分和勒贝格积分？两者区别是什么？",
+      "url": "https://www.zhihu.com/answer/713707143",
+      "summary": "说明勒贝格积分扩展黎曼可积范围。"
+    },
+    {
+      "title": "在数学系是一种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/717426450",
+      "summary": "把勒贝格积分作为测度论课程的核心概念。"
+    },
+    {
+      "title": "数学专业的实变函数为什么这么难？",
+      "url": "https://www.zhihu.com/answer/723049614",
+      "summary": "说明勒贝格积分相对黎曼积分的推广。"
+    },
+    {
+      "title": "数学专业的实变函数为什么这么难？",
+      "url": "https://www.zhihu.com/answer/732923234",
+      "summary": "把实变积分视为经典积分的延续和推广。"
+    },
+    {
+      "title": "实分析学得太难失去信心和兴趣了怎么办？",
+      "url": "https://www.zhihu.com/answer/736852499",
+      "summary": "具体说明逐步构建勒贝格积分的学习过程。"
+    },
+    {
+      "title": "什么是黎曼积分和勒贝格积分？两者区别是什么？",
+      "url": "https://www.zhihu.com/answer/754899738",
+      "summary": "系统解释勒贝格积分的构造与性质。"
+    },
+    {
+      "title": "微积分到底是什么?",
+      "url": "https://www.zhihu.com/answer/918067537",
+      "summary": "正文解释勒贝格以测度扩展积分，使狄利克雷函数等对象能够积分。"
+    },
+    {
+      "title": "大一高数如何学习？",
+      "url": "https://www.zhihu.com/answer/919469983",
+      "summary": "正文解释勒贝格以测度扩展积分，使狄利克雷函数等对象能够积分。"
+    },
+    {
+      "title": "实变函数中的测度理论有没有不完善的地方？",
+      "url": "https://www.zhihu.com/answer/961131030",
+      "summary": "正文明确说明 Fubini 定理在 Lebesgue 积分中的条件与历史。"
+    },
+    {
+      "title": "什么是「测度论」？",
+      "url": "https://www.zhihu.com/answer/1135223893",
+      "summary": "正文解释 Lebesgue 测度并由可测函数定义积分。"
+    },
+    {
+      "title": "黎曼函数的积分是零，但是就其大致图像看来并不等于零，这是为什么？",
+      "url": "https://www.zhihu.com/answer/1189235054",
+      "summary": "正文解释狄利克雷函数与黎曼函数的勒贝格积分。"
+    },
+    {
+      "title": "如何计算极限 lim(n→∞) [∫[0, n] (x^n)·e^(-x) dx]/(n!)？",
+      "url": "https://www.zhihu.com/answer/1193093861",
+      "summary": "正文验证控制函数和逐点极限后交换积分与极限。"
+    },
+    {
+      "title": "数学分析、实分析为什么都有「分析」两个字。与实变函数和不带「分析」两个字的数学有什么不同？",
+      "url": "https://www.zhihu.com/answer/1475552617",
+      "summary": "正文直接给出与「勒贝格积分」相关的解释、推导或应用。"
+    },
+    {
+      "title": "微积分之后，现代数学有哪些新的革命性工具？近年来物理理论没有突破，是不是微积分不够用了？",
+      "url": "https://www.zhihu.com/answer/1515171941",
+      "summary": "正文明确把勒贝格积分作为实分析的代表产出。"
+    },
+    {
+      "title": "什么是黎曼积分和勒贝格积分？两者区别是什么？",
+      "url": "https://www.zhihu.com/answer/1516734266",
+      "summary": "正文对比勒贝格积分按值域切分并讨论可积性。"
+    },
+    {
+      "title": "狄利克雷函数（Dirichlet Function）有什么用处？",
+      "url": "https://www.zhihu.com/answer/1527245077",
+      "summary": "正文直接讨论勒贝格积分，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "狄利克雷函数（Dirichlet Function）有什么用处？",
+      "url": "https://www.zhihu.com/answer/1536315164",
+      "summary": "正文直接讨论勒贝格积分，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "狄利克雷函数（Dirichlet Function）有什么用处？",
+      "url": "https://www.zhihu.com/answer/1542292926",
+      "summary": "正文直接讨论勒贝格积分，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "黎曼－斯蒂尔杰斯积分有什么存在的意义吗？",
+      "url": "https://www.zhihu.com/answer/1567327319",
+      "summary": "正文说明 Lebesgue 积分对 Riemann 积分的改进。"
+    },
+    {
+      "title": "什么时候积分运算和级数求和可以调换顺序？",
+      "url": "https://www.zhihu.com/answer/1579922901",
+      "summary": "正文以勒贝格积分控制收敛定理给出交换积分与极限的条件。"
+    },
+    {
+      "title": "割圆术就算割了∞次，它和真实面积也相差很小一部分，怎么就说它就可以等于真实面积？",
+      "url": "https://www.zhihu.com/answer/1619056480",
+      "summary": "正文用 Lebesgue 积分和特征函数严格计算面积。"
+    },
+    {
+      "title": "既然勒贝格积分是黎曼积分的改进，那为什么还要学黎曼积分？淘汰黎曼积分，直接学勒贝格积分不好吗？",
+      "url": "https://www.zhihu.com/answer/1631074119",
+      "summary": "正文比较黎曼积分与测度论勒贝格积分的教学顺序。"
+    },
+    {
+      "title": "既然勒贝格积分是黎曼积分的改进，那为什么还要学黎曼积分？淘汰黎曼积分，直接学勒贝格积分不好吗？",
+      "url": "https://www.zhihu.com/answer/1631145532",
+      "summary": "正文比较两类积分的可积函数范围。"
+    },
+    {
+      "title": "既然勒贝格积分是黎曼积分的改进，那为什么还要学黎曼积分？淘汰黎曼积分，直接学勒贝格积分不好吗？",
+      "url": "https://www.zhihu.com/answer/1631813366",
+      "summary": "正文比较勒贝格积分与广义黎曼积分的定义域和可积性。"
+    },
+    {
+      "title": "既然勒贝格积分是黎曼积分的改进，那为什么还要学黎曼积分？淘汰黎曼积分，直接学勒贝格积分不好吗？",
+      "url": "https://www.zhihu.com/answer/1633216320",
+      "summary": "正文比较勒贝格积分、黎曼积分及其他积分定义。"
+    },
+    {
+      "title": "既然勒贝格积分是黎曼积分的改进，那为什么还要学黎曼积分？淘汰黎曼积分，直接学勒贝格积分不好吗？",
+      "url": "https://www.zhihu.com/answer/1634260480",
+      "summary": "正文比较勒贝格积分与黎曼积分的教学和概念价值。"
+    },
+    {
+      "title": "既然勒贝格积分是黎曼积分的改进，那为什么还要学黎曼积分？淘汰黎曼积分，直接学勒贝格积分不好吗？",
+      "url": "https://www.zhihu.com/answer/1638355084",
+      "summary": "正文解释勒贝格积分通过划分值域构造。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/1672517153",
+      "summary": "正文比较黎曼积分与勒贝格积分并解释后者的动机。"
+    },
+    {
+      "title": "如何评价陶哲轩的实分析II?",
+      "url": "https://www.zhihu.com/answer/1692927443",
+      "summary": "正文讨论 Tao 实分析中 Lebesgue 积分的覆盖。"
+    },
+    {
+      "title": "什么是控制收敛定理？",
+      "url": "https://www.zhihu.com/answer/1745907542",
+      "summary": "正文直接讨论或推导「勒贝格积分」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "如何评价数学家黎曼的成就与历史地位？",
+      "url": "https://www.zhihu.com/answer/1815625048",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "积分不就是找反导数吗，为什么还有稀奇古怪的积分技巧？",
+      "url": "https://www.zhihu.com/answer/1816725914",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "如何理解法图（Fatou）引理？",
+      "url": "https://www.zhihu.com/answer/1836502778",
+      "summary": "正文给出法图引理的非负可测函数序列与积分不等式，实质涉及勒贝格积分。"
+    },
+    {
+      "title": "求证：关于菲尔兹奖得主舒尔茨的这个非常特殊的说法，是否属实？",
+      "url": "https://www.zhihu.com/answer/1881180622",
+      "summary": "正文提到测度与 Lebesgue 可积概念及 L1 函数反例。"
+    },
+    {
+      "title": "既然勒贝格积分是黎曼积分的改进，那为什么还要学黎曼积分？淘汰黎曼积分，直接学勒贝格积分不好吗？",
+      "url": "https://www.zhihu.com/answer/2106941164",
+      "summary": "正文比较黎曼积分、勒贝格积分和分割方式的演化。"
+    },
+    {
+      "title": "学习实变函数是一种什么体验？",
+      "url": "https://www.zhihu.com/answer/2161118596",
+      "summary": "正文比较黎曼积分与勒贝格积分。"
+    },
+    {
+      "title": "在泛函和偏微等学科中，为什么要引进「弱」的概念？",
+      "url": "https://www.zhihu.com/answer/2254231820",
+      "summary": "正文以分部积分和积分形式定义弱导数。"
+    },
+    {
+      "title": "能否彻底从代数角度定义微分和积分？",
+      "url": "https://www.zhihu.com/answer/2265180255",
+      "summary": "正文以泛性质语言刻画 Lebesgue 积分。"
+    },
+    {
+      "title": "为啥我觉得测度论干巴巴的好无聊啊？",
+      "url": "https://www.zhihu.com/answer/2307412375",
+      "summary": "正文以积分与极限交换、控制收敛定理说明勒贝格积分的作用。"
+    },
+    {
+      "title": "为啥我觉得测度论干巴巴的好无聊啊？",
+      "url": "https://www.zhihu.com/answer/2309987651",
+      "summary": "正文比较勒贝格测度、勒贝格积分与黎曼积分，说明其在抽象函数积分中的作用。"
+    },
+    {
+      "title": "你们能用浅显的语言解释清楚广义函数的定义嘛？",
+      "url": "https://www.zhihu.com/answer/2347919121",
+      "summary": "正文用积分给出广义函数的典型例子。"
+    },
+    {
+      "title": "面试中老师问Riemann积分与Lebesgue积分有何联系与区别，他们最想听到的是什么样的回答呢？",
+      "url": "https://www.zhihu.com/answer/2364437088",
+      "summary": "正文比较 Riemann 积分与 Lebesgue 积分并说明两者的包含关系。"
+    },
+    {
+      "title": "面试中老师问Riemann积分与Lebesgue积分有何联系与区别，他们最想听到的是什么样的回答呢？",
+      "url": "https://www.zhihu.com/answer/2395930449",
+      "summary": "正文系统说明勒贝格积分弥补黎曼积分的缺陷。"
+    },
+    {
+      "title": "一些不定积分是不可能计算的还是根本不存在？你怎么理解？",
+      "url": "https://www.zhihu.com/answer/2491237758",
+      "summary": "正文把初等积分之外的推广明确指向勒贝格积分等其他积分模式。"
+    },
+    {
+      "title": "数学的泛函分析应该怎么学？",
+      "url": "https://www.zhihu.com/answer/2543332652",
+      "summary": "对照黎曼积分给出勒贝格积分的定义，并介绍控制收敛定理。"
+    },
+    {
+      "title": "有哪些值得推荐的数学分析教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/2674662330",
+      "summary": "正文具体比较勒贝格积分版微积分基本定理与黎曼积分版本，并说明勒贝格积分的必要性。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2695483892",
+      "summary": "正文给出非负可测函数的 Lebesgue 积分定义，并讨论绝对可积性及积分的未定式。"
+    },
+    {
+      "title": "请大神比较一下folland的实分析和rudin的实分析与复分析中的实分析部分？",
+      "url": "https://www.zhihu.com/answer/2701818970",
+      "summary": "正文说明先定义简单函数积分，再用简单函数逼近定义非负可测函数的勒贝格积分。"
+    },
+    {
+      "title": "既然勒贝格积分是黎曼积分的改进，那为什么还要学黎曼积分？淘汰黎曼积分，直接学勒贝格积分不好吗？",
+      "url": "https://www.zhihu.com/answer/2848430030",
+      "summary": "正文用竖切与横切的对比解释黎曼积分和勒贝格积分的核心差异及适用场景。"
+    },
+    {
+      "title": "概率论的核心逻辑有哪些？",
+      "url": "https://www.zhihu.com/answer/2860203719",
+      "summary": "正文把勒贝格积分作为现代概率论定义期望并完成严格证明的核心工具。"
+    },
+    {
+      "title": "作为数学系的同学们，你们怎么学习实变函数?",
+      "url": "https://www.zhihu.com/answer/3015897531",
+      "summary": "正文回顾一般测度论下的积分性质及控制收敛、Fatou、Levi等积分定理。"
+    },
+    {
+      "title": "既然有了复变函数为什么还要学实变函数？",
+      "url": "https://www.zhihu.com/answer/3023520794",
+      "summary": "正文以对性质较差的函数作良好积分来概括实分析的核心，对应可测函数上的勒贝格积分。"
+    },
+    {
+      "title": "Fatou引理的等号成立的条件是什么?",
+      "url": "https://www.zhihu.com/answer/3084374780",
+      "summary": "正文在 L1 函数列和积分的框架下讨论 Fatou 引理等号失效，并联系勒贝格控制收敛定理。"
+    },
+    {
+      "title": "作为数学系的同学们，你们怎么学习实变函数?",
+      "url": "https://www.zhihu.com/answer/3100591551",
+      "summary": "正文以抽象测度空间上的积分、控制收敛定理和 Fubini 定理说明勒贝格积分框架。"
+    },
+    {
+      "title": "非数学专业想自学数学，大佬们有什么建议吗？",
+      "url": "https://www.zhihu.com/answer/3238127500",
+      "summary": "正文具体说明勒贝格积分从简单函数逐级推广到实函数的竖向构造，以及它相对黎曼积分的完备性优势。"
+    },
+    {
+      "title": "既然勒贝格积分是黎曼积分的改进，那为什么还要学黎曼积分？淘汰黎曼积分，直接学勒贝格积分不好吗？",
+      "url": "https://www.zhihu.com/answer/3285992006",
+      "summary": "正文以积分与极限交换、连续概率和 Dirichlet 能量等情形说明为何需要进入勒贝格积分。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3309812137",
+      "summary": "正文比较了从紧支集有界函数积分出发建立 Lebesgue 积分的路径及其结果。"
+    },
+    {
+      "title": "为什么好多人都认为丘维声的高等代数编写的不好呢?",
+      "url": "https://www.zhihu.com/answer/3401372160",
+      "summary": "正文对比黎曼积分先处理有限分割再取极限的做法，说明勒贝格积分直接处理无穷的思想。"
+    },
+    {
+      "title": "如何称量一个鱼塘的液体重量？",
+      "url": "https://www.zhihu.com/answer/3525146568",
+      "summary": "正文把池塘液体集合的测度写成示性函数在四维欧氏空间上的积分，具体使用勒贝格积分表达测度。"
+    },
+    {
+      "title": "为什么说Calderon-Zygmund分解是F.Riesz日升引理的推广?",
+      "url": "https://www.zhihu.com/answer/3526923682",
+      "summary": "正文围绕 L1 函数在区间上的平均积分、几乎处处不等式和 Lebesgue 可微定理展开论证，实质使用了勒贝格积分。"
+    },
+    {
+      "title": "面试中老师问Riemann积分与Lebesgue积分有何联系与区别，他们最想听到的是什么样的回答呢？",
+      "url": "https://www.zhihu.com/answer/3618044204",
+      "summary": "正文以狄利克雷函数为例说明 Riemann 不可积而 Lebesgue 可积，并讨论极限交换与完全可加性。"
+    },
+    {
+      "title": "面试中老师问Riemann积分与Lebesgue积分有何联系与区别，他们最想听到的是什么样的回答呢？",
+      "url": "https://www.zhihu.com/answer/3620184843",
+      "summary": "正文说明 Lebesgue 积分建立在 Lebesgue 测度之上，并纠正“分割值域”是 Lebesgue 积分本质特征的误解。"
+    },
+    {
+      "title": "可以简明扼要地讲解一下测度论及其意义吗?",
+      "url": "https://www.zhihu.com/answer/4227597836",
+      "summary": "正文用简单函数逼近定义勒贝格积分，并说明它相较黎曼积分的完备性优势。"
+    },
+    {
+      "title": "卓里奇的《数学分析》怎么样？",
+      "url": "https://www.zhihu.com/answer/79061406796",
+      "summary": "正文具体讨论在数学分析中引入 Lebesgue 积分和 Hausdorff 积分的教学方案。"
+    },
+    {
+      "title": "微积分到底是牛顿还是莱布尼兹发明的？",
+      "url": "https://www.zhihu.com/answer/1906415881761830136",
+      "summary": "正文用狄利克雷函数对比黎曼积分与勒贝格积分，具体说明后者扩大了可积函数的范围。"
+    },
+    {
+      "title": "明明复变函数更加的复杂且自由度更加的高，为何它比实变函数更易学？",
+      "url": "https://www.zhihu.com/answer/1916182336845886847",
+      "summary": "正文说明学习 Lebesgue 积分需要理解确界、简单函数逼近以及 DCT、MCT、Fatou 引理等内容。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/1935371099161474041",
+      "summary": "正文用示性函数的 L1 积分和 Fubini 定理展示分层积分次序失效，实质上讨论勒贝格积分。"
+    },
+    {
+      "title": "什么是黎曼积分和勒贝格积分？两者区别是什么？",
+      "url": "https://www.zhihu.com/answer/1940805513009948450",
+      "summary": "正文从正简单函数到可测函数完整定义勒贝格积分，并与黎曼积分比较可积函数范围。"
+    },
+    {
+      "title": "如何理解法图（Fatou）引理？",
+      "url": "https://www.zhihu.com/answer/1944366480364896413",
+      "summary": "正文从简单函数的上确界构造勒贝格积分，并用该构造说明法图引理。"
+    },
+    {
+      "title": "谢惠民教授于 9 月 2 日辞世，如何评价他的一生？",
+      "url": "https://www.zhihu.com/answer/1946837524946326662",
+      "summary": "正文改写Riemann积分的分割条件，给出有界函数Lebesgue可积的ε-δ型充要条件。"
+    },
+    {
+      "title": "如何理解法图（Fatou）引理？",
+      "url": "https://www.zhihu.com/answer/1947426162881075159",
+      "summary": "正文从积分形式陈述 Fatou 引理，并借助截断随机变量说明其证明。"
+    },
+    {
+      "title": "数学中有哪些问题放到更大的空间/对象里解决起来变简单的例子？",
+      "url": "https://www.zhihu.com/answer/1950719251284472515",
+      "summary": "正文解释黎曼积分下极限可能失去可积性，并以勒贝格积分构造完备 L^p 空间来说明极限封闭性。"
+    },
+    {
+      "title": "连续和可积的区别是什么?",
+      "url": "https://www.zhihu.com/answer/1962236829056107736",
+      "summary": "正文区分黎曼积分与勒贝格积分，并说明连续函数在勒贝格积分意义下的可积性。"
+    },
+    {
+      "title": "数学这个专业难度高吗?",
+      "url": "https://www.zhihu.com/answer/1971200106561790857",
+      "summary": "正文解释勒贝格积分按值域水平集测量，并以狄利克雷函数说明它相较黎曼积分的处理能力。"
+    },
+    {
+      "title": "数学专业是不是最难学的？",
+      "url": "https://www.zhihu.com/answer/1971200260886987942",
+      "summary": "正文解释勒贝格积分按值域水平集测量，并以狄利克雷函数说明它相较黎曼积分的处理能力。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/1987787991922521774",
+      "summary": "正文用有理数集测度为零计算狄利克雷函数的勒贝格积分，并说明其相对黎曼积分的优势。"
+    },
+    {
+      "title": "分析为什么不被看作代数呢?",
+      "url": "https://www.zhihu.com/answer/1994085353984917603",
+      "summary": "正文用简单函数逼近定义勒贝格积分，并说明其与黎曼积分的区别。"
+    },
+    {
+      "title": "如何理解测度这个概念？",
+      "url": "https://www.zhihu.com/answer/2010115597673968252",
+      "summary": "正文用简单函数逼近及正负部分分解定义勒贝格积分，并说明其收敛定理。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2014774167774454493",
+      "summary": "正文指出勒贝格积分通过测度论扩展了黎曼积分的处理范围，并说明其现代分析意义。"
+    },
+    {
+      "title": "以测度为基础的高等概率论和普通的概率论到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/2019834726597281108",
+      "summary": "正文用概率测度上的 Lebesgue 积分统一定义离散、连续和混合分布的期望。"
+    },
+    {
+      "title": "以测度为基础的高等概率论和普通的概率论到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/2020110521634943399",
+      "summary": "正文对比黎曼积分与勒贝格积分，并解释后者按纵轴切分、借助集合测度处理不连续函数。"
+    },
+    {
+      "title": "既然x+2＝3的解是x＝1，那为啥两边求导的结果不同？",
+      "url": "https://www.zhihu.com/answer/2030131310027617148",
+      "summary": "正文说明勒贝格积分可忽略零测集上的差异，因此几乎处处相等仍能推出积分相等。"
+    },
+    {
+      "title": "测度论和泛函分析有什么关系？",
+      "url": "https://www.zhihu.com/answer/2032888788322612002",
+      "summary": "正文用简单函数逼近解释勒贝格积分，并说明其极限定理及相对黎曼积分的优势。"
+    },
+    {
+      "title": "把[0，1]这个区间里的所有实数相加，得出的结果是无穷大吗？",
+      "url": "https://www.zhihu.com/answer/2034276129486403002",
+      "summary": "正文具体解释勒贝格测度下点测度为零、区间有长度，以及积分按连续测度加权累计的含义。"
+    },
+    {
+      "title": "数学里的「良定义（well-defined）」的定义是什么？",
+      "url": "https://www.zhihu.com/answer/2034282341800097458",
+      "summary": "正文比较勒贝格积分、Cauchy 主值与正则化，说明正负部分均为无限时普通积分未定义。"
+    },
+    {
+      "title": "什么是「测度论」？",
+      "url": "https://www.zhihu.com/answer/2039834426566259953",
+      "summary": "正文通过狄利克雷函数的黎曼积分失败，具体说明 Lebesgue 积分按函数值分层并利用测度求积分。"
+    },
+    {
+      "title": "你见过最难得数学分析题有哪些？",
+      "url": "https://www.zhihu.com/answer/2054361785398997179",
+      "summary": "正文以 L1 函数在球上的积分为核心，通过对正则半径和局部小球的积分估计证明全局积分控制。"
+    },
+    {
+      "title": "复分析和实分析有什么不同？",
+      "url": "https://www.zhihu.com/answer/2072088893395046764",
+      "summary": "正文解释勒贝格积分按取值集合的测度而非逐点取值定义，并说明它如何扩展可积函数的范围。"
+    },
+    {
+      "title": "2.2 微积分的进化（2）——论吃汉堡的正确姿势",
+      "url": "https://zhuanlan.zhihu.com/p/20465767",
+      "summary": "正文以可测集和简单函数定义勒贝格积分，并讨论其与黎曼积分的关系及收敛定理。"
+    },
+    {
+      "title": "2.4 微积分的进化（4）——死道友不死贫道",
+      "url": "https://zhuanlan.zhihu.com/p/20560536",
+      "summary": "正文利用勒贝格积分忽略零测集的特性，把分段函数的一阶分布导数写成可积函数。"
+    },
+    {
+      "title": "2.5 微积分的进化（5）——一维光滑函数的超进化",
+      "url": "https://zhuanlan.zhihu.com/p/20588696",
+      "summary": "正文引用勒贝格控制收敛定理让光滑截断函数趋于区间特征函数并交换积分极限。"
+    },
+    {
+      "title": "一篇用来劝退的伪安利文（上）",
+      "url": "https://zhuanlan.zhihu.com/p/22311037",
+      "summary": "正文说明 Lebesgue 积分把可积函数范围从 Riemann 可积情形推广到可测函数。"
+    },
+    {
+      "title": "测度论（一）",
+      "url": "https://zhuanlan.zhihu.com/p/23977693",
+      "summary": "正文从简单函数积分构造 Lebesgue 积分，并讨论可积函数和不定积分。"
+    },
+    {
+      "title": "测度论（二）",
+      "url": "https://zhuanlan.zhihu.com/p/24147520",
+      "summary": "正文给出单调收敛定理、Fatou 引理和控制收敛定理，说明勒贝格积分极限交换的条件。"
+    },
+    {
+      "title": "实变函数学十遍 | 初学实分析有感",
+      "url": "https://zhuanlan.zhihu.com/p/26055866",
+      "summary": "正文通过切割值域、积分自变量区间的方式解释勒贝格积分与黎曼积分的核心差别。"
+    },
+    {
+      "title": "特征函数期权定价法1",
+      "url": "https://zhuanlan.zhihu.com/p/26790717",
+      "summary": "正文把特征函数写成勒贝格积分，并通过 Fubini 定理交换积分顺序推导到累积分布函数。"
+    },
+    {
+      "title": "以测度为基础的概率基本概念与结论",
+      "url": "https://zhuanlan.zhihu.com/p/32334499",
+      "summary": "正文把随机变量的期望定义为关于概率测度的勒贝格积分，并列出可沿用的测度论收敛定理。"
+    },
+    {
+      "title": "积分的极限定理",
+      "url": "https://zhuanlan.zhihu.com/p/33566658",
+      "summary": "正文完整证明勒贝格积分中的单调收敛定理、Fatou 引理和控制收敛定理，讨论积分与极限交换的条件。"
+    },
+    {
+      "title": "实分析|笔记整理（4）——勒贝格积分（1）",
+      "url": "https://zhuanlan.zhihu.com/p/33480239",
+      "summary": "正文从简单函数出发定义勒贝格积分，并系统证明线性、可加和收敛性质。"
+    },
+    {
+      "title": "实分析|笔记整理（5）——勒贝格积分（2），L^1空间",
+      "url": "https://zhuanlan.zhihu.com/p/33616656",
+      "summary": "正文继续定义一般可测函数的勒贝格积分，并证明 Fatou、单调收敛和控制收敛定理。"
+    },
+    {
+      "title": "实分析|笔记整理（6）——富比尼定理",
+      "url": "https://zhuanlan.zhihu.com/p/33761437",
+      "summary": "正文完整证明富比尼定理，说明重积分可化为两个方向的勒贝格累次积分。"
+    },
+    {
+      "title": "实分析|笔记整理（9）——函数可微性（2）",
+      "url": "https://zhuanlan.zhihu.com/p/33879863",
+      "summary": "正文证明绝对连续函数的导数可积并满足微积分基本定理，直接讨论勒贝格积分与导数之间的关系。"
+    },
+    {
+      "title": "如何理解时间序列？— 从 Riemann 积分和 Lebesgue 积分谈起",
+      "url": "https://zhuanlan.zhihu.com/p/34407471",
+      "summary": "正文给出非负可测函数在可测集合上的 Lebesgue 积分定义，并推广到一般可测函数。"
+    },
+    {
+      "title": "《实变函数论与泛函分析(上册)》夏道行版可能的错误",
+      "url": "https://zhuanlan.zhihu.com/p/35747763",
+      "summary": "正文具体讨论勒贝格积分与Newton-Leibniz公式所需的全连续原函数条件。"
+    },
+    {
+      "title": "非线性泛函分析导论（一）:变分法与Sobolev空间",
+      "url": "https://zhuanlan.zhihu.com/p/34483954",
+      "summary": "正文以 L^p 可积函数定义 Sobolev 空间，并讨论其嵌入和对序列的积分收敛性质。"
+    },
+    {
+      "title": "3.6 控制收敛定理 &单调收敛定理 &法图引理",
+      "url": "https://zhuanlan.zhihu.com/p/37364245",
+      "summary": "正文围绕勒贝格积分的控制收敛、单调收敛和法图引理，证明函数列极限与积分号交换的条件。"
+    },
+    {
+      "title": "量子力学杂谈——Radon-Nikodym导数",
+      "url": "https://zhuanlan.zhihu.com/p/37379997",
+      "summary": "正文用关于测度的积分表示概率与物理量的密度，并由此严格定义概率密度。"
+    },
+    {
+      "title": "3.8 Radon-Nikodym 定理",
+      "url": "https://zhuanlan.zhihu.com/p/37493234",
+      "summary": "正文把积分从普通测度扩展到带号测度，并在此框架中给出 Radon-Nikodym 定理及其证明。"
+    },
+    {
+      "title": "实变函数笔记 第一章 集合",
+      "url": "https://zhuanlan.zhihu.com/p/39791883",
+      "summary": "正文解释勒贝格积分按值域分割以扩大可积函数类，并与黎曼积分按定义域分割作对照。"
+    },
+    {
+      "title": "实变函数考前笔记[结论篇]",
+      "url": "https://zhuanlan.zhihu.com/p/42416924",
+      "summary": "正文从非负简单函数出发定义勒贝格积分，并整理列维定理、法图引理和控制收敛定理。"
+    },
+    {
+      "title": "实变函数笔记 第四章 可测函数",
+      "url": "https://zhuanlan.zhihu.com/p/42874522",
+      "summary": "正文从勒贝格积分的值域分割思想引入可测函数，并讨论简单函数逼近及其积分基础。"
+    },
+    {
+      "title": "从Riemann积分到Lebesgue积分",
+      "url": "https://zhuanlan.zhihu.com/p/49262150",
+      "summary": "正文改在值域上分组并借助集合测度构造和式，说明勒贝格积分的定义思路。"
+    },
+    {
+      "title": "7.4 Lebesgue 控制收敛定理",
+      "url": "https://zhuanlan.zhihu.com/p/64626170",
+      "summary": "正文陈述并借助 Fatou 引理完整证明 Lebesgue 控制收敛定理，讨论积分与极限交换的条件。"
+    },
+    {
+      "title": "11.3 Fubini-Tonelli 定理",
+      "url": "https://zhuanlan.zhihu.com/p/67721176",
+      "summary": "正文通过简单函数逼近、单调收敛定理和正负部拆分证明二重积分与迭代积分相等，实质展开勒贝格积分。"
+    },
+    {
+      "title": "期权定价基础之一:测度变换",
+      "url": "https://zhuanlan.zhihu.com/p/73725169",
+      "summary": "正文解释勒贝格积分通过划分值域构造上和与下和，并与黎曼积分对照。"
+    },
+    {
+      "title": "[转载]现代数学 | 清华学霸带你理清现代数学脉络",
+      "url": "https://zhuanlan.zhihu.com/p/79523248",
+      "summary": "正文通过偿还欠款的比喻比较黎曼积分与勒贝格积分，并说明后者处理极限交换的优势。"
+    },
+    {
+      "title": "概率极限笔记——a.s/依概率/依分布/Lp收敛对比分析",
+      "url": "https://zhuanlan.zhihu.com/p/93832795",
+      "summary": "正文解释勒贝格可积控制函数和勒贝格积分极限定理的条件与结论。"
+    },
+    {
+      "title": "积分与极限互换顺序的问题",
+      "url": "https://zhuanlan.zhihu.com/p/94510465",
+      "summary": "正文陈述控制收敛定理的条件与结论，说明勒贝格积分和极限可以交换。"
+    },
+    {
+      "title": "你也能懂的微积分",
+      "url": "https://zhuanlan.zhihu.com/p/94592123",
+      "summary": "正文指出狄利克雷函数无法用黎曼积分处理，并解释勒贝格借助测度定义更广的积分。"
+    },
+    {
+      "title": "实变函数论基本脉络",
+      "url": "https://zhuanlan.zhihu.com/p/94662972",
+      "summary": "正文比较黎曼积分与勒贝格积分，并讨论可积性、正负部分处理和积分与极限交换。"
+    },
+    {
+      "title": "微积分发展史",
+      "url": "https://zhuanlan.zhihu.com/p/137389985",
+      "summary": "正文明确介绍实变函数论以测度论和集合论为工具建立勒贝格积分框架。"
+    },
+    {
+      "title": "实分析笔记——Lp空间",
+      "url": "https://zhuanlan.zhihu.com/p/159125371",
+      "summary": "正文建立Lp空间中的可积函数与积分估计，并使用控制收敛和单调收敛等勒贝格积分工具。"
+    },
+    {
+      "title": "《经济动态的递归方法》解读（3）：测度、积分与随机递归模型",
+      "url": "https://zhuanlan.zhihu.com/p/196256522",
+      "summary": "正文说明 Lebesgue 积分按值域划分并乘以测度求和，还讨论单调收敛、法图引理和控制收敛定理。"
+    },
+    {
+      "title": "微积分从古至今的完整发展历程",
+      "url": "https://zhuanlan.zhihu.com/p/265544769",
+      "summary": "正文通过按函数值范围分割、简单函数序列和更广的可积空间具体介绍勒贝格积分及其与黎曼积分的差异。"
+    },
+    {
+      "title": "第一次就能看懂的勒贝格（Lebesgue）积分（一）",
+      "url": "https://zhuanlan.zhihu.com/p/343599708",
+      "summary": "正文以面积直觉和简单阶梯函数积分引入勒贝格积分，并比较其与黎曼积分的性质。"
+    },
+    {
+      "title": "第一次就能看懂的勒贝格（Lebesgue）积分（三）",
+      "url": "https://zhuanlan.zhihu.com/p/349576875",
+      "summary": "正文用简单函数和可测集定义下积分的面积公式，为勒贝格积分构造基础。"
+    },
+    {
+      "title": "实变函数要点总结(复试必背)",
+      "url": "https://zhuanlan.zhihu.com/p/355789338",
+      "summary": "正文比较黎曼积分与Lebesgue积分，并列出Fatou引理、控制收敛定理及Fubini定理等积分理论要点。"
+    },
+    {
+      "title": "第一次就能看懂的勒贝格（Lebesgue）积分（五）——积分的定义",
+      "url": "https://zhuanlan.zhihu.com/p/349758334",
+      "summary": "正文从非负简单函数的积分出发，经下积分定义一般非负可测函数的勒贝格积分。"
+    },
+    {
+      "title": "实变函数第01讲（绪论：完备化史，勒贝格积分思想；集合：交并补，序列极限）",
+      "url": "https://zhuanlan.zhihu.com/p/359935002",
+      "summary": "正文从值域分割和函数列的极限问题出发，具体解释勒贝格积分的基本构造。"
+    },
+    {
+      "title": "一些关于勒贝格积分的常见问题",
+      "url": "https://zhuanlan.zhihu.com/p/356944371",
+      "summary": "正文说明用递增简单函数横切逼近非负可测函数，从而定义并理解勒贝格积分。"
+    },
+    {
+      "title": "实分析笔记（四）：有界变差&绝对连续",
+      "url": "https://zhuanlan.zhihu.com/p/397044812",
+      "summary": "正文讨论勒贝格可积函数的变上限积分、微积分基本定理和绝对连续函数的积分表示。"
+    },
+    {
+      "title": "【实变函数1】实变函数是在干甚么事情？",
+      "url": "https://zhuanlan.zhihu.com/p/422538398",
+      "summary": "正文通过按函数值划分替代定义域划分，解释勒贝格积分如何处理黎曼不可积的狄利克雷函数。"
+    },
+    {
+      "title": "以范畴论窥高等数学",
+      "url": "https://zhuanlan.zhihu.com/p/443804053",
+      "summary": "正文通过带结构的 Banach 空间范畴和始对象唯一性给出 Lebesgue 积分的范畴刻画。"
+    },
+    {
+      "title": "（全网独家发布）傅里叶级数（一）——正交性与完备性（全网首篇证明完备性）的证明、傅里叶变换的直观解释以及相关结论在广义积分甚至勒贝积分下的若干深入补充讨论",
+      "url": "https://zhuanlan.zhihu.com/p/472769406",
+      "summary": "正文比较黎曼积分与勒贝格积分，举例说明有理示性函数的可积性并讨论定理推广条件。"
+    },
+    {
+      "title": "Egoroff定理：重温与升华",
+      "url": "https://zhuanlan.zhihu.com/p/503514372",
+      "summary": "正文通过正负部拆解讨论了 Lebesgue 可积性的定义和判别。"
+    },
+    {
+      "title": "Lebesgue-Radon-Nikodym定理",
+      "url": "https://zhuanlan.zhihu.com/p/526492250",
+      "summary": "正文用Lebesgue积分构造集函数，并借助特征函数和可测集上的积分展开定理证明。"
+    },
+    {
+      "title": "实变函数期末复习（详细知识点总结&定理证明&课后习题）",
+      "url": "https://zhuanlan.zhihu.com/p/530210723",
+      "summary": "正文概述勒贝格积分的建立步骤、性质、积分极限定理及与黎曼积分的关系。"
+    },
+    {
+      "title": "Rudin工具箱|半连续函数",
+      "url": "https://zhuanlan.zhihu.com/p/585016297",
+      "summary": "正文在 L1 空间中用上下半连续函数夹逼可积函数，并用于证明 Newton-Leibniz 公式。"
+    },
+    {
+      "title": "Rudin工具箱|极分解技巧",
+      "url": "https://zhuanlan.zhihu.com/p/585179360",
+      "summary": "正文用极分解证明 L1 复值函数积分绝对值不等式，并讨论取等条件与 Radon-Nikodym 导数。"
+    },
+    {
+      "title": "【Proof-Trivial】实变函数-何苦要学实变函数？",
+      "url": "https://zhuanlan.zhihu.com/p/591026414",
+      "summary": "正文通过函数列极限的反例说明黎曼积分的局限，并讲解按值域分割定义勒贝格积分的核心思想。"
+    },
+    {
+      "title": "在实变函数视角下看初等概率论",
+      "url": "https://zhuanlan.zhihu.com/p/595040708",
+      "summary": "正文讲解 Lebesgue 积分、变量替换、控制收敛定理及积分与极限交换次序。"
+    },
+    {
+      "title": "勒贝格测度到底是怎么定义出来的？",
+      "url": "https://zhuanlan.zhihu.com/p/615293119",
+      "summary": "正文把勒贝格测度用于定义原黎曼积分失效的 Dirichlet 函数之勒贝格积分。"
+    },
+    {
+      "title": "四川大学实变与复变期末考试题解答",
+      "url": "https://zhuanlan.zhihu.com/p/635839581",
+      "summary": "正文用可积控制函数和控制收敛定理交换极限与勒贝格积分，并据此推出集合为零测集。"
+    },
+    {
+      "title": "自动化所面试问题整理",
+      "url": "https://zhuanlan.zhihu.com/p/644760396",
+      "summary": "正文比较黎曼和与 Lebesgue 积分，说明后者基于测度并可处理更广泛的函数类。"
+    },
+    {
+      "title": "《实变函数初步》第四章 可测函数",
+      "url": "https://zhuanlan.zhihu.com/p/660867456",
+      "summary": "正文通过值域分割、原像测度和黎曼积分不足解释勒贝格积分的基本思想。"
+    },
+    {
+      "title": "分析学概论",
+      "url": "https://zhuanlan.zhihu.com/p/677152460",
+      "summary": "正文从简单函数积分讲到 Fatou 引理、单调收敛和控制收敛，并证明一般 Lebesgue 积分的主要收敛定理。"
+    },
+    {
+      "title": "实变函数速通",
+      "url": "https://zhuanlan.zhihu.com/p/682369007",
+      "summary": "正文给出可测函数和 Lebesgue 积分的定义，并说明其相对 Riemann 积分的推广。"
+    },
+    {
+      "title": "MIT牛人解说数学体系（转载）",
+      "url": "https://zhuanlan.zhihu.com/p/688530839",
+      "summary": "正文解释勒贝格积分如何克服黎曼积分在不连续函数与完备函数空间上的局限。"
+    },
+    {
+      "title": "备课随感",
+      "url": "https://zhuanlan.zhihu.com/p/695921774",
+      "summary": "正文用 Stieltjes 积分和 Lebesgue 微分定理说明有界线性泛函的积分表示。"
+    },
+    {
+      "title": "极限、微分、积分可交换顺序的条件；用实变函数补充高等数学忽略的细节。",
+      "url": "https://zhuanlan.zhihu.com/p/700585934",
+      "summary": "正文陈述依测度收敛函数列在可积控制函数约束下可交换积分与极限的勒贝格积分定理。"
+    },
+    {
+      "title": "厦大数院夏令营考试 · 分析方向",
+      "url": "https://zhuanlan.zhihu.com/p/710981685",
+      "summary": "正文在 L1 函数空间中运用单调收敛和控制收敛定理，证明函数序列几乎处处收敛到零。"
+    },
+    {
+      "title": "反思数学本科教学：我们到底需要知道什么？（分析篇）",
+      "url": "https://zhuanlan.zhihu.com/p/17252527652",
+      "summary": "正文说明 L1 范数下积分泛函的连续延拓对应勒贝格积分。"
+    },
+    {
+      "title": "美国数学月刊上的一个实分析问题",
+      "url": "https://zhuanlan.zhihu.com/p/20256288785",
+      "summary": "正文以周期函数在 [0,1] 的 Lebesgue 可积性及 L1 范数为核心条件构造反例和估计尾项。"
+    },
+    {
+      "title": "Fubini的梦魇：一个奇异的例子",
+      "url": "https://zhuanlan.zhihu.com/p/1893436626006425964",
+      "summary": "证明对示性函数使用 Fubini 定理与 L1 积分计算集合测度，直接依赖勒贝格积分。"
+    },
+    {
+      "title": "“数学分析”的7个段位，从极限到谱理论：这条路，既艰难又美丽",
+      "url": "https://zhuanlan.zhihu.com/p/1951136401660805620",
+      "summary": "正文明确说明勒贝格积分用于处理复杂集合上黎曼积分难以处理的问题。"
+    },
+    {
+      "title": "随机场论中的 Kac-Rice 公式简介",
+      "url": "https://zhuanlan.zhihu.com/p/1986765772161324393",
+      "summary": "正文在 Lebesgue 与 Hausdorff 测度框架下推导并应用余面积积分公式。"
+    },
+    {
+      "title": "[实变函数，实分析] C^1微分同胚下的n维Lebesgue积分换元公式",
+      "url": "https://zhuanlan.zhihu.com/p/2013730682275395465",
+      "summary": "正文完整证明 C¹ 微分同胚下 n 维 Lebesgue 积分的变量替换公式。"
+    },
+    {
+      "title": "为什么概率论教材里的数学期望要写成 ∫ X(ω) dP(ω)？直接用 ∫ x f(x) dx 不行吗？",
+      "url": "https://zhuanlan.zhihu.com/p/2035078598298703072",
+      "summary": "正文用按值域分层的方法构造 Lebesgue 积分，并说明其处理病态函数的能力。"
+    }
+  ]
+}

@@ -1,0 +1,1486 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l4-t5-b4",
+  "sources": [
+    {
+      "title": "随机变量的独立性和相关性有什么联系？相关系数为零能说明什么？",
+      "url": "https://www.zhihu.com/answer/28516176",
+      "summary": "正文围绕“独立性”给出说明、例证或方法。"
+    },
+    {
+      "title": "怎么理解互斥事件和相互独立事件？",
+      "url": "https://www.zhihu.com/answer/30304869",
+      "summary": "正文围绕“独立性”给出说明、例证或方法。"
+    },
+    {
+      "title": "怎么理解互斥事件和相互独立事件？",
+      "url": "https://www.zhihu.com/answer/30321274",
+      "summary": "正文围绕“独立性”给出说明、例证或方法。"
+    },
+    {
+      "title": "怎样理解和区分中心极限定理与大数定律？",
+      "url": "https://www.zhihu.com/answer/32711413",
+      "summary": "中心极限定理表述中明确要求大量随机变量相互独立。"
+    },
+    {
+      "title": "为什么随机变量X和Y不相关却不一定独立？",
+      "url": "https://www.zhihu.com/answer/33327497",
+      "summary": "正文明确讨论独立性与不相关性的逻辑关系。"
+    },
+    {
+      "title": "为什么随机变量X和Y不相关却不一定独立？",
+      "url": "https://www.zhihu.com/answer/33330386",
+      "summary": "正文用同一例子说明不相关不等于独立。"
+    },
+    {
+      "title": "双色球真的可以预测? 双色球存在造假嫌疑吗？",
+      "url": "https://www.zhihu.com/answer/34527956",
+      "summary": "正文直接说明彩票各次摇号的独立性。"
+    },
+    {
+      "title": "这个择偶标准算很高吗？",
+      "url": "https://www.zhihu.com/answer/35645241",
+      "summary": "正文以择偶条件计算明确假设各事件独立。"
+    },
+    {
+      "title": "有哪些看似荒谬，其实很科学的理论？",
+      "url": "https://www.zhihu.com/answer/36024080",
+      "summary": "正文以重复独立事件的概率说明墨菲定律的常见误读。"
+    },
+    {
+      "title": "为什么随机变量X和Y不相关却不一定独立？",
+      "url": "https://www.zhihu.com/answer/42168466",
+      "summary": "正文对比独立性与不相关。"
+    },
+    {
+      "title": "如何去直观地理解不相关不一定是独立，而独立必然不相关？",
+      "url": "https://www.zhihu.com/answer/45149747",
+      "summary": "正文区分相互独立与仅仅不相关。"
+    },
+    {
+      "title": "一枚硬币，扔了一亿次都是正面朝上，再扔一次反面朝上的概率是多少？",
+      "url": "https://www.zhihu.com/answer/45394201",
+      "summary": "正文明确区分给定参数后的条件独立与未给定参数时的不独立。"
+    },
+    {
+      "title": "两个独立事件都发生的概率为什么等于两个事件发生概率的乘积？",
+      "url": "https://www.zhihu.com/answer/48571850",
+      "summary": "正文定义独立事件，并用等可能基本结果推导概率乘法。"
+    },
+    {
+      "title": "一枚硬币，扔了一亿次都是正面朝上，再扔一次反面朝上的概率是多少？",
+      "url": "https://www.zhihu.com/answer/63824542",
+      "summary": "正文直接说明硬币每次结果与此前结果无关的独立性。"
+    },
+    {
+      "title": "两两独立、相互独立 与 “独立”的含义 ？",
+      "url": "https://www.zhihu.com/answer/73599726",
+      "summary": "正文用概率公式区分两两独立与相互独立。"
+    },
+    {
+      "title": "为什么分母从n变成n-1之后，就从【有偏估计】变成了【无偏估计】？",
+      "url": "https://www.zhihu.com/answer/76525265",
+      "summary": "正文以独立同分布样本和方差可加性解释 n-1 修正。"
+    },
+    {
+      "title": "「人一生中患重大疾病概率是 72%」,这一说法是真是假？如何理解？",
+      "url": "https://www.zhihu.com/answer/78686661",
+      "summary": "正文明确讨论独立重疾假设以及独立性对概率乘积的作用。"
+    },
+    {
+      "title": "极大似然估计法推出朴素贝叶斯法中的先验概率估计公式？",
+      "url": "https://www.zhihu.com/answer/92311220",
+      "summary": "正文明确陈述给定类别后各特征条件独立的假设，并用乘积公式实际应用该假设。"
+    },
+    {
+      "title": "为什么随机变量X和Y不相关却不一定独立？",
+      "url": "https://www.zhihu.com/answer/92564658",
+      "summary": "正文指出独立意味着没有关系，独立必然不相关但反之不成立。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/95492457",
+      "summary": "正文明确设定初始选择与奖品位置的独立性。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/100016873",
+      "summary": "正文明确利用两个孩子性别分布的独立性计算第一个条件下的概率。"
+    },
+    {
+      "title": "相互独立事件能否用韦恩图表示？",
+      "url": "https://www.zhihu.com/answer/100728533",
+      "summary": "正文用概率乘法公式和样本空间维度直观说明相互独立事件。"
+    },
+    {
+      "title": "DID, PSM 及 DID+PSM 有何差异？DID 要假定不可观测效应随时间变化趋势相同？",
+      "url": "https://www.zhihu.com/answer/101519808",
+      "summary": "正文反复说明随机分组、分布独立和条件独立是估计处理效应的前提。"
+    },
+    {
+      "title": "如何反驳「太相信科学也是一种迷信」？",
+      "url": "https://www.zhihu.com/answer/118462407",
+      "summary": "正文设定两个理论能否解释事件相互独立，并据此计算四种联合情形的概率。"
+    },
+    {
+      "title": "有哪些看起来很高端的技术其实原理很暴力很初级？",
+      "url": "https://www.zhihu.com/answer/124452070",
+      "summary": "正文明确说明朴素贝叶斯垃圾邮件方案对单词出现作独立性假设。"
+    },
+    {
+      "title": "这个赌局的漏洞在哪里？",
+      "url": "https://www.zhihu.com/answer/127504419",
+      "summary": "正文用每次投注相互独立解释为何根据上次输赢改变下注不产生优势。"
+    },
+    {
+      "title": "泊松分布的现实意义是什么，为什么现实生活多数服从于泊松分布？",
+      "url": "https://www.zhihu.com/answer/128055090",
+      "summary": "正文强调不同小时间段事件相互独立是泊松过程成立的关键条件。"
+    },
+    {
+      "title": "如何理解概率论中的“条件独立性”？",
+      "url": "https://www.zhihu.com/answer/129140032",
+      "summary": "正文定义条件独立并给出两个事件在条件 A 下概率相乘的等价式。"
+    },
+    {
+      "title": "可不可以利用大数据来预测彩票中奖号码？",
+      "url": "https://www.zhihu.com/answer/129809555",
+      "summary": "正文明确说明下一期开奖与历史号码相互独立，因此历史数据不能必然预测未来号码。"
+    },
+    {
+      "title": "一道历年争议较大的考研概率论题目，该如何理解？",
+      "url": "https://www.zhihu.com/answer/133771722",
+      "summary": "正文对比主持人按规则和随机开门时事件是否独立及对应概率。"
+    },
+    {
+      "title": "有哪些外国人难以自觉，中国人却能轻易看出的国外现状或问题？",
+      "url": "https://www.zhihu.com/answer/143647003",
+      "summary": "正文用同时发生概率说明独立事件，并辨析不独立时乘法失效。"
+    },
+    {
+      "title": "如何理解指数分布的无记忆性？",
+      "url": "https://www.zhihu.com/answer/143695500",
+      "summary": "正文说明二项分布由多次独立随机事件构成。"
+    },
+    {
+      "title": "泊松分布的现实意义是什么，为什么现实生活多数服从于泊松分布？",
+      "url": "https://www.zhihu.com/answer/148872458",
+      "summary": "正文明确把各小区间事件的独立性作为泊松到达模型的条件。"
+    },
+    {
+      "title": "朴素贝叶斯分类器和一般的贝叶斯分类器有什么区别？",
+      "url": "https://www.zhihu.com/answer/163283388",
+      "summary": "正文说明朴素贝叶斯的核心条件独立假设及其计算与稀疏性动机。"
+    },
+    {
+      "title": "两个预言家，一个准确率90%，一个准确率30%，他们都预言了末日降临，那么末日降临的概率是多少呢？",
+      "url": "https://www.zhihu.com/answer/180121792",
+      "summary": "正文明确讨论两位预言预测并非独立事件及其联合正确、联合错误概率。"
+    },
+    {
+      "title": "两个预言家，一个准确率90%，一个准确率30%，他们都预言了末日降临，那么末日降临的概率是多少呢？",
+      "url": "https://www.zhihu.com/answer/180167250",
+      "summary": "正文区分条件独立与边际不独立，并说明计算需要联合分布或更多参数。"
+    },
+    {
+      "title": "为什么样本方差（sample variance）的分母是 n-1？",
+      "url": "https://www.zhihu.com/answer/184835147",
+      "summary": "正文利用样本独立性推导样本均值方差为总体方差除以 n。"
+    },
+    {
+      "title": "相互独立事件能否用韦恩图表示？",
+      "url": "https://www.zhihu.com/answer/193271626",
+      "summary": "正文区分不同样本空间与同一样本空间中的独立事件，并说明其可视化。"
+    },
+    {
+      "title": "概率论中最让你难忘的定理是什么？",
+      "url": "https://www.zhihu.com/answer/197143989",
+      "summary": "正文由混合表示说明给定参数后的条件独立性。"
+    },
+    {
+      "title": "为什么两两独立的事件不一定相互独立？",
+      "url": "https://www.zhihu.com/answer/202505593",
+      "summary": "正文用骰子与正四面体反例计算两两独立但不相互独立。"
+    },
+    {
+      "title": "泊松分布的现实意义是什么，为什么现实生活多数服从于泊松分布？",
+      "url": "https://www.zhihu.com/answer/208718584",
+      "summary": "正文把事件相互独立列为泊松分布成立条件。"
+    },
+    {
+      "title": "二项分布、泊松分布和正态分布的区别及联系?",
+      "url": "https://www.zhihu.com/answer/208718886",
+      "summary": "正文把试验相互独立作为泊松分布的判别条件。"
+    },
+    {
+      "title": "二项分布 几何分布 超几何分布 应该怎么区分？",
+      "url": "https://www.zhihu.com/answer/208719040",
+      "summary": "正文把独立性作为泊松分布的必要判别条件。"
+    },
+    {
+      "title": "假设赌博输赢的概率都是 50％，那么长期赌博的人为什么仍然会更容易倾家荡产而不是收益均衡？",
+      "url": "https://www.zhihu.com/answer/209932822",
+      "summary": "正文明确假设任意两局结果相互独立。"
+    },
+    {
+      "title": "如何评价《中国有嘻哈》第十二期（总决赛）？",
+      "url": "https://www.zhihu.com/answer/230937895",
+      "summary": "正文把三位制作人的投票建模为相互独立的均匀分布。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/231137558",
+      "summary": "正文明确用独立事件解释两个孩子性别的条件。"
+    },
+    {
+      "title": "一枚硬币，扔了一亿次都是正面朝上，再扔一次反面朝上的概率是多少？",
+      "url": "https://www.zhihu.com/answer/251623934",
+      "summary": "正文说明普通硬币各次试验相互独立。"
+    },
+    {
+      "title": "你研究的数学领域有哪些重要但不出名的猜想？",
+      "url": "https://www.zhihu.com/answer/284550438",
+      "summary": "正文解释应用 Borel-Cantelli 引理时事件独立性带来的困难。"
+    },
+    {
+      "title": "为什么，概率论与测度论的分水岭是引入条件概率与独立性这两个概念？",
+      "url": "https://www.zhihu.com/answer/291115857",
+      "summary": "正文讨论独立性对概率论结构及主要极限定理的必要性。"
+    },
+    {
+      "title": "为什么，概率论与测度论的分水岭是引入条件概率与独立性这两个概念？",
+      "url": "https://www.zhihu.com/answer/291882257",
+      "summary": "正文给出独立性在条件期望中的结构性结论。"
+    },
+    {
+      "title": "为什么「正态分布」在自然界中如此常见？",
+      "url": "https://www.zhihu.com/answer/301428592",
+      "summary": "正文把随机因素的相互独立列为正态近似的关键条件。"
+    },
+    {
+      "title": "逻辑回归与朴素贝叶斯有什么区别？",
+      "url": "https://www.zhihu.com/answer/303148257",
+      "summary": "正文解释朴素贝叶斯的条件独立假设及乘法分解。"
+    },
+    {
+      "title": "谈谈为何Yann LeCun宣称“其已经做好放弃概率论的准备”及其对于AI基础理论研究的影响？",
+      "url": "https://www.zhihu.com/answer/322196955",
+      "summary": "正文讨论随机变量独立性的证明条件。"
+    },
+    {
+      "title": "有哪些相关性不等于因果性的例子?",
+      "url": "https://www.zhihu.com/answer/381880059",
+      "summary": "正文明确区分相关事件与独立事件对伪相关解释的影响。"
+    },
+    {
+      "title": "三门问题为什么不是二分之一？",
+      "url": "https://www.zhihu.com/answer/382377579",
+      "summary": "正文比较主持人知情时的非独立过程与不知情时的独立过程。"
+    },
+    {
+      "title": "卡方分布怎么理解？",
+      "url": "https://www.zhihu.com/answer/386269824",
+      "summary": "正文用独立事件乘法计算列联表理论频数。"
+    },
+    {
+      "title": "数学思维在生活中有多大用处？",
+      "url": "https://www.zhihu.com/answer/402739350",
+      "summary": "正文把不同骰子的点数视为独立事件。"
+    },
+    {
+      "title": "金融计算收益率的时候为什么大部分用对数收益率 (Log Return) 而不是用算数收益率？",
+      "url": "https://www.zhihu.com/answer/431786548",
+      "summary": "正文明确以各期收益独立为概率推导前提。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/459382775",
+      "summary": "正文明确给出独立性的概率判据并纠正常见误解。"
+    },
+    {
+      "title": "为什么团队合作类竞技游戏单排普遍会产生难以爬出鱼塘的现象？",
+      "url": "https://www.zhihu.com/answer/463593829",
+      "summary": "正文明确使用独立试验假设建立多场比赛模型。"
+    },
+    {
+      "title": "样本方差公式是如何推导出来的？",
+      "url": "https://www.zhihu.com/answer/463953325",
+      "summary": "正文进一步证明独立变量方差可加。"
+    },
+    {
+      "title": "怎么理解随机变量序列？",
+      "url": "https://www.zhihu.com/answer/470566518",
+      "summary": "正文对比独立的抛硬币变量与相互依赖的累计变量。"
+    },
+    {
+      "title": "个人觉得抛硬币并不是真正的随机事件，和抛硬币时候的各种状态参量有关系，那么到底什么是真正的随机？",
+      "url": "https://www.zhihu.com/answer/489498955",
+      "summary": "正文讨论不同结果在多种不确定因素影响下的近似独立性。"
+    },
+    {
+      "title": "两个均匀分布怎么运算或操作后，依然可以得到一个均匀分布？",
+      "url": "https://www.zhihu.com/answer/496296819",
+      "summary": "正文明确利用独立性分解联合密度。"
+    },
+    {
+      "title": "某酒鬼有90%的日子都会出去喝酒，喝酒只随机去固定的三家酒吧。今天警察找了其中两家酒吧都没有找到酒鬼。 问：酒鬼在第三家酒吧的几率？",
+      "url": "https://www.zhihu.com/answer/498428839",
+      "summary": "正文用独立性判断条件是否改变后验概率。"
+    },
+    {
+      "title": "如何通俗地解释马尔科夫链?",
+      "url": "https://www.zhihu.com/answer/517531502",
+      "summary": "正文明确把过去与未来在给定现在后的关系表述为条件独立。"
+    },
+    {
+      "title": "如何通俗地解释马尔科夫链?",
+      "url": "https://www.zhihu.com/answer/517581922",
+      "summary": "解释下一状态与更早历史无关，实质讲的是给定当前状态后的独立性。"
+    },
+    {
+      "title": "为什么总体和样本都是随机变量？",
+      "url": "https://www.zhihu.com/answer/528085629",
+      "summary": "说明简单随机样本的各分量相互独立且服从同一总体分布。"
+    },
+    {
+      "title": "为什么样本方差（sample variance）的分母是 n-1？",
+      "url": "https://www.zhihu.com/answer/535941259",
+      "summary": "正文用协方差为零与联合正态性说明相关随机量独立。"
+    },
+    {
+      "title": "统计学中引入自由度的意义是什么？",
+      "url": "https://www.zhihu.com/answer/540670733",
+      "summary": "正文在方差展开中明确使用独立抽样及协方差为零的性质。"
+    },
+    {
+      "title": "两个独立的正态分布相加减的实际意义是什么？",
+      "url": "https://www.zhihu.com/answer/550203789",
+      "summary": "正文明确把两个随机变量相互独立作为推导条件。"
+    },
+    {
+      "title": "怎么理解互斥事件和相互独立事件？",
+      "url": "https://www.zhihu.com/answer/587260614",
+      "summary": "从概率乘法关系区分相互独立与互斥事件。"
+    },
+    {
+      "title": "和女朋友在商场走丢了，随机乱逛和守在特定地点等候，哪个相遇的概率更高？",
+      "url": "https://www.zhihu.com/answer/617343687",
+      "summary": "正文明确使用独立性计算相遇概率。"
+    },
+    {
+      "title": "和女朋友在商场走丢了，随机乱逛和守在特定地点等候，哪个相遇的概率更高？",
+      "url": "https://www.zhihu.com/answer/617801705",
+      "summary": "正文以独立同分布的步长定义随机游走。"
+    },
+    {
+      "title": "假设有个游戏，你可以无偿获得五千元，但有百万分之一的几率会当场毙命。那么你会玩多少次游戏？",
+      "url": "https://www.zhihu.com/answer/638949371",
+      "summary": "解释独立重复事件全部生还概率等于各次概率乘积。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/654756069",
+      "summary": "通过重复抛硬币与条件设定分析事件独立性。"
+    },
+    {
+      "title": "为什么样本方差（sample variance）的分母是 n-1？",
+      "url": "https://www.zhihu.com/answer/658048814",
+      "summary": "利用样本偏差和为零这一约束说明变量不独立。"
+    },
+    {
+      "title": "怎么理解互斥事件和相互独立事件？",
+      "url": "https://www.zhihu.com/answer/671540233",
+      "summary": "系统比较两两独立、相互独立及其与互斥的差别。"
+    },
+    {
+      "title": "怎样理解随机游走过程?",
+      "url": "https://www.zhihu.com/answer/692618763",
+      "summary": "明确每一步增量相互独立。"
+    },
+    {
+      "title": "如何理解Gumbel-Max trick？",
+      "url": "https://www.zhihu.com/answer/703600075",
+      "summary": "利用独立噪声的联合概率乘积完成证明。"
+    },
+    {
+      "title": "十个人赛跑第一名和一百人赛跑的第十名，谁厉害？",
+      "url": "https://www.zhihu.com/answer/719837079",
+      "summary": "用独立重复抽取的不中概率乘积计算至少一次中奖概率。"
+    },
+    {
+      "title": "如何通俗地理解概率论中的「极大似然估计法」?",
+      "url": "https://www.zhihu.com/answer/750523372",
+      "summary": "明确以独立同分布样本构造似然。"
+    },
+    {
+      "title": "如何评价微软（Microsoft）推出的 Python 因果推理库 DoWhy？",
+      "url": "https://www.zhihu.com/answer/756671333",
+      "summary": "说明变量之间的条件独立或依赖关系。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/757572803",
+      "summary": "在天气预报例子中使用独立性。"
+    },
+    {
+      "title": "有人说「骰子掷一次掷出6的概率为50%，因为只有是6、不是6两种事件」，请问如何反驳？",
+      "url": "https://www.zhihu.com/answer/761885795",
+      "summary": "说明相互独立投掷中下一次概率不受此前结果影响。"
+    },
+    {
+      "title": "时间序列和回归分析有什么本质区别？",
+      "url": "https://www.zhihu.com/answer/766466816",
+      "summary": "说明教材中的独立同分布只是回归的简单场景。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/767073342",
+      "summary": "正文利用各期收益率独立分解资产乘积的期望。"
+    },
+    {
+      "title": "如何深入理解 de Finetti 定理？",
+      "url": "https://www.zhihu.com/answer/768760857",
+      "summary": "比较频率与贝叶斯观点下的条件独立性。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/772662477",
+      "summary": "正文说明策略通过相关性改变原独立试验判断。"
+    },
+    {
+      "title": "如何理解均值回归和马太效应？两者矛盾吗？",
+      "url": "https://www.zhihu.com/answer/778392760",
+      "summary": "通过独立与非独立条件比较分布行为。"
+    },
+    {
+      "title": "有哪些数学定理的推出过程是值得细细品味的？",
+      "url": "https://www.zhihu.com/answer/784233180",
+      "summary": "说明零一律体现独立性。"
+    },
+    {
+      "title": "时间序列和回归分析有什么本质区别？",
+      "url": "https://www.zhihu.com/answer/784606565",
+      "summary": "解释误差独立同分布假设。"
+    },
+    {
+      "title": "圆内任取三点/四点在同一半圆内的概率是多少？",
+      "url": "https://www.zhihu.com/answer/789026122",
+      "summary": "明确其余三点相互独立。"
+    },
+    {
+      "title": "证明样本均值和样本方差独立时构造的正交变换是如何想到的?",
+      "url": "https://www.zhihu.com/answer/809624224",
+      "summary": "全文核心结论是正态样本均值与样本方差的独立性，并说明该结论的逆命题。"
+    },
+    {
+      "title": "如何理解三大抽样分布?",
+      "url": "https://www.zhihu.com/answer/846692080",
+      "summary": "用相互独立变量定义二项、t 与 F 分布。"
+    },
+    {
+      "title": "为什么总体和样本都是随机变量？",
+      "url": "https://www.zhihu.com/answer/850170674",
+      "summary": "以独立重复实验刻画随机抽样。"
+    },
+    {
+      "title": "有哪些统计学专业反直觉的知识？",
+      "url": "https://www.zhihu.com/answer/863213537",
+      "summary": "明确使用独立同分布的样本。"
+    },
+    {
+      "title": "每天连续掷硬币，直到连续出现两次正面就停止，第二天继续，连续一年时间，掷出正面的期望值是多少？",
+      "url": "https://www.zhihu.com/answer/994138810",
+      "summary": "正文明确以独立同分布解释正反面长期期望。"
+    },
+    {
+      "title": "如果你是阿里巴巴数学竞赛的出题官，你会出什么题目？",
+      "url": "https://www.zhihu.com/answer/1098131794",
+      "summary": "正文分析感染概率变化后独立性假设如何失效。"
+    },
+    {
+      "title": "当抛掷一枚硬币时，前99次都为正面，那第一百次是正面还是反面？",
+      "url": "https://www.zhihu.com/answer/1116696935",
+      "summary": "正文讨论各次投掷独立时下一次概率不变。"
+    },
+    {
+      "title": "相互独立事件能否用韦恩图表示？",
+      "url": "https://www.zhihu.com/answer/1123351886",
+      "summary": "正文定义独立事件并说明韦恩图不能表达定量独立关系。"
+    },
+    {
+      "title": "气体分子平均自由程公式中，平均相对速率为何是平均速率的根号2倍？",
+      "url": "https://www.zhihu.com/answer/1143773783",
+      "summary": "正文以独立随机变量为卷积推导的前提。"
+    },
+    {
+      "title": "二项分布、泊松分布和正态分布的区别及联系?",
+      "url": "https://www.zhihu.com/answer/1146286595",
+      "summary": "正文明确以独立重复试验构造二项分布。"
+    },
+    {
+      "title": "有什么理论复杂但是实现简单的算法？",
+      "url": "https://www.zhihu.com/answer/1148832134",
+      "summary": "正文明确以独立采样建立概率界。"
+    },
+    {
+      "title": "为什么样本方差（sample variance）的分母是 n-1？",
+      "url": "https://www.zhihu.com/answer/1154243425",
+      "summary": "正文以独立同分布样本计算均值方差。"
+    },
+    {
+      "title": "「醉鬼走路问题」该如何解释？",
+      "url": "https://www.zhihu.com/answer/1185545231",
+      "summary": "正文明确用步与步之间的独立性消去混合项。"
+    },
+    {
+      "title": "事件的独立性和随机变量的独立性有什么区别和联系？相互独立是概率上的独立还是事件上的独立？为什么？",
+      "url": "https://www.zhihu.com/answer/1202391604",
+      "summary": "正文比较事件独立与随机变量独立并给出定义。"
+    },
+    {
+      "title": "赌博真的能赢回本吗?",
+      "url": "https://www.zhihu.com/answer/1240051709",
+      "summary": "正文强调相邻赌局结果相互独立。"
+    },
+    {
+      "title": "一对夫妇有两个孩子，已知其中一个孩子是女孩，为什么另一个孩子也是女孩的概率为1/3？",
+      "url": "https://www.zhihu.com/answer/1280869591",
+      "summary": "正文对比随机抽到已知孩子与逻辑或门两种模型并讨论独立性。"
+    },
+    {
+      "title": "有什么数学定理一般人都觉得是常识，但严谨证明起来却挺费力的？",
+      "url": "https://www.zhihu.com/answer/1388956340",
+      "summary": "正文对独立同分布随机变量证明弱大数定律。"
+    },
+    {
+      "title": "那个泊松分布的可加性怎么证明？",
+      "url": "https://www.zhihu.com/answer/1396779491",
+      "summary": "正文利用独立性拆分联合概率完成证明。"
+    },
+    {
+      "title": "什么是非独立同分布（Non-IID）数据，有没有很简单的解释方法？",
+      "url": "https://www.zhihu.com/answer/1550923911",
+      "summary": "正文用训练集和测试集标签分布差异解释 Non-IID。"
+    },
+    {
+      "title": "为什么八省联考数学19题答案0.6恰好等于0.1+0.2+0.3？",
+      "url": "https://www.zhihu.com/answer/1701625793",
+      "summary": "正文在离散随机变量的证明中显式利用变量独立性拆分联合概率，这是期望可加证明的核心条件。"
+    },
+    {
+      "title": "可以仅仅只需要两天时间让一位平时基本上没听过讲的概率论考试不挂科？（PS:老师没有划重点且题型不定）？",
+      "url": "https://www.zhihu.com/answer/1882587481",
+      "summary": "正文明确给出事件独立性的乘法条件，直接对应独立性分支。"
+    },
+    {
+      "title": "概率论中，相互独立和两两独立有何区别？",
+      "url": "https://www.zhihu.com/answer/1939437914",
+      "summary": "正文用骰子事件反例辨析相互独立与两两独立。"
+    },
+    {
+      "title": "概率论中，相互独立和两两独立有何区别？",
+      "url": "https://www.zhihu.com/answer/2000382440",
+      "summary": "正文区分两两独立和相互独立。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/2069363812",
+      "summary": "正文用相关而非独立解释骰子悖论。"
+    },
+    {
+      "title": "为什么独立的正态分布的线性组合依然服从正态分布?",
+      "url": "https://www.zhihu.com/answer/2141727358",
+      "summary": "正文明确使用独立性分解联合分布并计算和的密度。"
+    },
+    {
+      "title": "考试砸了回到家，母亲打我的概率是 1/2，父亲打我的概率也是 1/2，那我被打的概率是多少？",
+      "url": "https://www.zhihu.com/answer/2289190668",
+      "summary": "正文讨论不相关与二值随机变量独立的联系。"
+    },
+    {
+      "title": "考试砸了回到家，母亲打我的概率是 1/2，父亲打我的概率也是 1/2，那我被打的概率是多少？",
+      "url": "https://www.zhihu.com/answer/2292338789",
+      "summary": "正文比较独立与非独立随机过程下的事件概率。"
+    },
+    {
+      "title": "如何通俗地理解独立事件?",
+      "url": "https://www.zhihu.com/answer/2303145750",
+      "summary": "正文用样本空间的等比例约束解释独立事件，并区分两两独立。"
+    },
+    {
+      "title": "相关性与因果有什么联系与区别？",
+      "url": "https://www.zhihu.com/answer/2307682010",
+      "summary": "正文用变量独立性说明统计独立不等于结构上的因果独立。"
+    },
+    {
+      "title": "外交部副部长表示「台湾的未来选项只有统一，邦交国归零是早晚的事」，这透露了哪些信息？",
+      "url": "https://www.zhihu.com/answer/2316523160",
+      "summary": "正文明确定义几何分布所要求的试验独立性。"
+    },
+    {
+      "title": "全概率公式如何理解?",
+      "url": "https://www.zhihu.com/answer/2355986502",
+      "summary": "正文用条件概率解释两个事件独立的条件。"
+    },
+    {
+      "title": "到底要如何理解条件概率？",
+      "url": "https://www.zhihu.com/answer/2364488211",
+      "summary": "正文由条件概率引入两个事件独立性的定义。"
+    },
+    {
+      "title": "如何和人讲清条件概率？",
+      "url": "https://www.zhihu.com/answer/2375345364",
+      "summary": "正文用条件概率定义解释两个事件独立及其乘法判据。"
+    },
+    {
+      "title": "在球面上任取4个点，位于同一个半球的概率是多少？",
+      "url": "https://www.zhihu.com/answer/2444093606",
+      "summary": "正文明确指出取样点相互独立且服从球面均匀分布。"
+    },
+    {
+      "title": "考试砸了回到家，母亲打我的概率是 1/2，父亲打我的概率也是 1/2，那我被打的概率是多少？",
+      "url": "https://www.zhihu.com/answer/2460512831",
+      "summary": "正文说明零相关且无非线性关系时可按独立事件计算。"
+    },
+    {
+      "title": "朴素贝叶斯模型与贝叶斯网络之间是什么关系？sklearn能实现贝叶斯网络吗？",
+      "url": "https://www.zhihu.com/answer/2502163536",
+      "summary": "正文以条件独立假设把联合条件概率化为多个条件概率的连乘。"
+    },
+    {
+      "title": "一个概率问题:如果一个家庭有两个孩子，其中一个是男孩，问另一个也是男孩的概率是1/2还是1/3？",
+      "url": "https://www.zhihu.com/answer/2552431024",
+      "summary": "正文指出“已知其中一个”的措辞容易被误读为两个孩子的性别相互独立，并据此解释概率答案的歧义。"
+    },
+    {
+      "title": "有没有一种可能，世界上根本不存在所谓的普通人?",
+      "url": "https://www.zhihu.com/answer/2558925845",
+      "summary": "在特征相互独立的假设下，把各特征普通的概率相乘得到联合概率。"
+    },
+    {
+      "title": "为什么游戏里的都是伪随机，做不出真随机？希望来个简单易懂的解释？",
+      "url": "https://www.zhihu.com/answer/2573724406",
+      "summary": "用独立抽卡模型计算连续 10 次、20 次不中奖的概率，解释保底机制为何出现。"
+    },
+    {
+      "title": "为什么在常识中赌博只有输？",
+      "url": "https://www.zhihu.com/answer/2597179248",
+      "summary": "说明赌徒谬论来自把独立重复试验当成相互补偿的关联事件。"
+    },
+    {
+      "title": "概率问题：50%+50%＝100%还是50%?",
+      "url": "https://www.zhihu.com/answer/2631620703",
+      "summary": "说明两个独立事件各 50% 同时发生的概率为 25%。"
+    },
+    {
+      "title": "你见过最有趣的数学笑话是什么？",
+      "url": "https://www.zhihu.com/answer/2646699375",
+      "summary": "用两件独立事件同时发生的联合概率作反直觉笑话。"
+    },
+    {
+      "title": "transformer中，attention矩阵的计算为什么要除以dk^(1/2)呢？请先看问题描述？",
+      "url": "https://www.zhihu.com/answer/2666737042",
+      "summary": "区分 q 与 k 相同和相互独立两种情形，说明独立性会改变内积的统计性质。"
+    },
+    {
+      "title": "概率问题：50%+50%＝100%还是50%?",
+      "url": "https://www.zhihu.com/answer/2672583566",
+      "summary": "正文区分互斥与独立事件，并说明独立事件同时发生时用概率乘积计算。"
+    },
+    {
+      "title": "你自己做出的第一个发表的纯数研究结果的研究过程如何？",
+      "url": "https://www.zhihu.com/answer/2678125237",
+      "summary": "正文指出几个事件看似相互独立却并非两两独立，并说明需用条件期望重新计算。"
+    },
+    {
+      "title": "tan（葛立恒数）和葛立恒数哪个大？",
+      "url": "https://www.zhihu.com/answer/2761259526",
+      "summary": "正文明确引入各位置的独立性假设，用独立事件的乘积估计全部不满足条件与至少一个满足条件的概率。"
+    },
+    {
+      "title": "以测度为基础的高等概率论和普通的概率论到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/2773069030",
+      "summary": "正文把随机变量独立转化为生成 sigma 代数的独立，并说明可测函数保持独立性。"
+    },
+    {
+      "title": "想问问大家，这个问题：一家人有两个孩子，其中有一个女孩，问：另外一个也是女孩的概率有多少？",
+      "url": "https://www.zhihu.com/answer/2793812784",
+      "summary": "正文利用两个孩子性别独立发生的前提，说明已知某一确定孩子性别时另一个孩子仍为女孩的概率是1/2。"
+    },
+    {
+      "title": "老刘有两个孩子，已知其中一个是男孩，另外一个也是男孩的概率是多少?",
+      "url": "https://www.zhihu.com/answer/2852441322",
+      "summary": "正文明确以两个孩子性别相互独立为前提，推出已知指定一个孩子是男孩时另一个也是男孩的概率。"
+    },
+    {
+      "title": "女子高铁劝阻小孩踢椅背遭掌掴，还手被定性为「互殴」，被打还手为什么是互殴？如何从法律角度解读？",
+      "url": "https://www.zhihu.com/answer/3018575885",
+      "summary": "正文用补事件乘积计算两人都不闹事的概率，再取补得到至少一人闹事的概率，使用了独立事件的乘法规则。"
+    },
+    {
+      "title": "假设有个游戏，你可以无偿获得五千元，但有百万分之一的几率会当场毙命。那么你会玩多少次游戏？",
+      "url": "https://www.zhihu.com/answer/3076667437",
+      "summary": "正文强调每次游戏的风险概率不随此前结果改变，具体讨论了独立重复事件的概率性质。"
+    },
+    {
+      "title": "《博德之门 3》中，优势骰有多优势，劣势骰又有多劣势？",
+      "url": "https://www.zhihu.com/answer/3169993802",
+      "summary": "正文把两次投骰的结果相乘得到联合概率，实质使用了两次投掷相互独立。"
+    },
+    {
+      "title": "考试砸了回到家，母亲打我的概率是 1/2，父亲打我的概率也是 1/2，那我被打的概率是多少？",
+      "url": "https://www.zhihu.com/answer/3230852622",
+      "summary": "正文以父母行动相互独立为前提讨论两个事件的联合概率，但错误地把独立事件概率直接相加。"
+    },
+    {
+      "title": "无限个小于1的正数的乘积一定是0吗？",
+      "url": "https://www.zhihu.com/answer/3339845334",
+      "summary": "正文以独立事件列为模型，通过补事件概率之积得到交集概率，实质应用了事件独立性。"
+    },
+    {
+      "title": "两人轮流掷一个标准骰子，先掷出6的胜，第一个掷的人获胜几率是？",
+      "url": "https://www.zhihu.com/answer/3348581894",
+      "summary": "正文用掷骰的无记忆性说明各次投掷结果互不影响，并据此重新设定后续获胜概率。"
+    },
+    {
+      "title": "2024 年阿贝尔奖授予解释随机性的数学家 Michel Talagrand，这项研究有哪些意义？",
+      "url": "https://www.zhihu.com/answer/3441853404",
+      "summary": "正文以独立随机变量为出发点，讨论高维函数在均值附近的集中性质及噪声拷贝的独立性。"
+    },
+    {
+      "title": "连续抛了10000次硬币，每次正反概率1/2，问最多几连正的概率最大？",
+      "url": "https://www.zhihu.com/answer/3451164409",
+      "summary": "正文利用不重叠分块构造相互独立的指示随机变量，从而估计联合事件的概率。"
+    },
+    {
+      "title": "如何激怒一位数学爱好者？",
+      "url": "https://www.zhihu.com/answer/17792885190",
+      "summary": "正文用两次都没有开出藏宝图的概率相乘，再由补集求至少一次命中的概率，实际应用了两次开箱相互独立的假设。"
+    },
+    {
+      "title": "既然赌狗都会输的干干净净，那我按赌狗的反买是不是稳赚？",
+      "url": "https://www.zhihu.com/answer/19709136589",
+      "summary": "正文把多局结果按概率相乘累计，说明独立重复试验会放大庄家与玩家的胜率差异。"
+    },
+    {
+      "title": "911事件中为什么双子塔的两座大楼会整体坍塌？",
+      "url": "https://www.zhihu.com/answer/78387999171",
+      "summary": "正文用骰子例子解释独立事件，并说明独立事件的概率可以相乘。"
+    },
+    {
+      "title": "正态分布是最自然的，但为什么人类社会中会出现「赢家通吃」现象呢？",
+      "url": "https://www.zhihu.com/answer/125111767601",
+      "summary": "正文通过中心极限定理的独立性前提，解释了非独立因素为何可能使结果偏离正态分布。"
+    },
+    {
+      "title": "正态分布是最自然的，但为什么人类社会中会出现「赢家通吃」现象呢？",
+      "url": "https://www.zhihu.com/answer/125264770570",
+      "summary": "正文对比独立因素叠加与非独立财富流动，说明独立性差异会导致不同的极限分布。"
+    },
+    {
+      "title": "在Minecraft中，地图中的海洋生物群系占比需要达到多少，才能使得世界中出现较为典型的海洋？",
+      "url": "https://www.zhihu.com/answer/1908339057525761086",
+      "summary": "正文明确陈述 Kolmogorov 零一律，并用可数无穷独立随机变量与尾事件解释逾渗概率只能取零或一。"
+    },
+    {
+      "title": "什么是警惕海量个例?",
+      "url": "https://www.zhihu.com/answer/1909387882440955531",
+      "summary": "正文解释已知独立重复试验的分布时，每次试验概率不因其他试验结果改变这一独立性推论。"
+    },
+    {
+      "title": "ICM2026报告人名单公布，大家有什么感想吗？",
+      "url": "https://www.zhihu.com/answer/1926028297894074125",
+      "summary": "正文陈述 Lovász 局部引理中事件仅与有限个其他事件不独立的概率条件。"
+    },
+    {
+      "title": "中科大、清华团队在 arxiv 发布论文，证明拉姆齐数的新下限，这个工作对我们有哪些启发？",
+      "url": "https://www.zhihu.com/answer/1929924960526239271",
+      "summary": "正文比较经典随机图的边缘独立假设与球面向量内积造成的强依赖，实质讨论概率独立性。"
+    },
+    {
+      "title": "每毫秒给你1个亿，代价是你每秒被动触发一次1亿分之一的死亡率，你愿意吗？",
+      "url": "https://www.zhihu.com/answer/1934790115915432970",
+      "summary": "正文把每秒的存活概率连续相乘来计算三年后的生存率，核心是重复独立风险事件的乘法规则。"
+    },
+    {
+      "title": "请问中国剩余定理（孙子定理）有什么用途，又有什么直观的意义吗？",
+      "url": "https://www.zhihu.com/answer/1938355934440190922",
+      "summary": "正文用中国剩余定理解释不同素数的整除事件为何可在概率模型中视为相互独立。"
+    },
+    {
+      "title": "每毫秒给你1个亿，代价是你每秒被动触发一次1亿分之一的死亡率，你愿意吗？",
+      "url": "https://www.zhihu.com/answer/1939108488245674844",
+      "summary": "正文把逐秒存活视为独立重复事件，通过连续概率相乘说明总存活概率的衰减。"
+    },
+    {
+      "title": "有什么在圆内均匀随机取一个点的方法吗？",
+      "url": "https://www.zhihu.com/answer/1947775524647731954",
+      "summary": "正文由联合密度分解为边际密度之积，说明半径平方与角度相互独立。"
+    },
+    {
+      "title": "概率是不是一个伪概念，就和宗教一样?",
+      "url": "https://www.zhihu.com/answer/1957568377141854822",
+      "summary": "正文用独立同分布解释每次抛硬币或开大小的结果不受先前结果影响，指出赌徒谬误违背独立性。"
+    },
+    {
+      "title": "概率是不是一个伪概念，就和宗教一样?",
+      "url": "https://www.zhihu.com/answer/1983610720231892078",
+      "summary": "正文用条件概率公式说明每次试验相互独立，历史结果不会改变下一局概率。"
+    },
+    {
+      "title": "为什么我国的概率与统计学教科书里不怎么讲幂律分布？",
+      "url": "https://www.zhihu.com/answer/1989072238893346992",
+      "summary": "正文先用独立顾客的例子说明独立性，再以正反馈循环说明事件相互影响如何破坏这一前提。"
+    },
+    {
+      "title": "连抛硬币，先出现「正,正,正,反」算小红赢，先出现「正,正,反,反」算小明赢，小红获胜的概率是多少？",
+      "url": "https://www.zhihu.com/answer/2009324718960948950",
+      "summary": "正文指出连续模式搜索不能简单视为每四次重新开始的独立试验，并解释这种误判为何导致错误直觉。"
+    },
+    {
+      "title": "为什么我国的概率与统计学教科书里不怎么讲幂律分布？",
+      "url": "https://www.zhihu.com/answer/2012311960952272569",
+      "summary": "正文以抛硬币解释独立同分布假设，并指出相互关联的正反馈会破坏这一基础条件。"
+    },
+    {
+      "title": "如何求P(AB)-P(A)P(B)的取值范围？",
+      "url": "https://www.zhihu.com/answer/2012988027794916532",
+      "summary": "正文以独立事件交叠概率等于概率乘积为基准，并用完全负相关和正相关事件确定两端取值。"
+    },
+    {
+      "title": "为什么我国的概率与统计学教科书里不怎么讲幂律分布？",
+      "url": "https://www.zhihu.com/answer/2012991976371431319",
+      "summary": "正文具体解释相互独立与有限方差是中心极限定理的重要前提，并对比网络数据的关联性。"
+    },
+    {
+      "title": "概率论的核心逻辑有哪些？",
+      "url": "https://www.zhihu.com/answer/2021274237265085685",
+      "summary": "正文通过独立抛硬币与完全相关序列的对比，解释独立性对信息和极限行为的作用。"
+    },
+    {
+      "title": "如果我有 2^(-n) 概率获得 2^n 元，那获得钱的数学期望值应该是无穷，但实际不是这样，为什么？",
+      "url": "https://www.zhihu.com/answer/2028217491197829674",
+      "summary": "正文利用各张彩票收益相互独立，把联合盈利概率写成单张概率的乘积。"
+    },
+    {
+      "title": "正态分布的公式是怎么推出来的？",
+      "url": "https://www.zhihu.com/answer/2030057684679009723",
+      "summary": "正文显式采用 X 与 Y 相互独立这一条件，并用联合密度分解说明独立性的含义。"
+    },
+    {
+      "title": "什么是随机过程？",
+      "url": "https://www.zhihu.com/answer/2035711496362144543",
+      "summary": "正文用不同时间段的泊松计数解释独立增量与事件独立性。"
+    },
+    {
+      "title": "有哪些反直觉的数学现象？",
+      "url": "https://www.zhihu.com/answer/2035801918275057131",
+      "summary": "正文以独立选歌说明独立重复事件的随机性，并解释扎堆现象不违反独立假设。"
+    },
+    {
+      "title": "贝叶斯定理厉害在哪里？",
+      "url": "https://www.zhihu.com/answer/2048789972661040886",
+      "summary": "正文由可交换序列表示定理说明在给定参数后观测的条件独立同分布结构。"
+    },
+    {
+      "title": "Imbens & Rubin：因果分析的基本框架以及经典随机试验",
+      "url": "https://zhuanlan.zhihu.com/p/20897233",
+      "summary": "正文以 SUTVA 说明个体之间的潜在结果独立性，并讨论个体相互影响时独立性失效的情形。"
+    },
+    {
+      "title": "信息瀑布：论如何造谣",
+      "url": "https://zhuanlan.zhihu.com/p/20894784",
+      "summary": "正文把各人的二进制私密信号建为独立同分布随机信号，并在后续概率推导中使用其独立性。"
+    },
+    {
+      "title": "Think Bayes - 我所理解的贝叶斯定理",
+      "url": "https://zhuanlan.zhihu.com/p/22467549",
+      "summary": "正文给出独立事件的条件概率等式，并说明独立性可消去条件事件的影响。"
+    },
+    {
+      "title": "【JoinQuant】朴素贝叶斯入门",
+      "url": "https://zhuanlan.zhihu.com/p/22569535",
+      "summary": "正文假设年龄与检测结果在类别给定下独立，并说明只有独立时才能将条件概率相乘。"
+    },
+    {
+      "title": "数据挖掘|概率图模型（一）",
+      "url": "https://zhuanlan.zhihu.com/p/22751416",
+      "summary": "正文给出独立与条件独立的乘法条件，再用 d-separation 判断有向无环图中节点间的独立性。"
+    },
+    {
+      "title": "游戏中所存在的“真随机”与“伪随机”",
+      "url": "https://zhuanlan.zhihu.com/p/22987906",
+      "summary": "正文明确区分独立概率判断与彼此关联的伪随机判断，并说明条件依赖对结果分布的影响。"
+    },
+    {
+      "title": "你还在傻傻的预测彩票吗？",
+      "url": "https://zhuanlan.zhihu.com/p/24111914",
+      "summary": "正文用彩票、骰子和硬币说明独立随机事件不受历史结果影响。"
+    },
+    {
+      "title": "布朗运动与随机游走",
+      "url": "https://zhuanlan.zhihu.com/p/24935271",
+      "summary": "正文明确要求随机游走各步独立，并用增量独立作为布朗运动公理之一。"
+    },
+    {
+      "title": "机器学习笔记：朴素贝叶斯分类器",
+      "url": "https://zhuanlan.zhihu.com/p/26055646",
+      "summary": "正文把各特征在给定类别下相互独立作为朴素贝叶斯的关键假设，并借此分解联合条件概率。"
+    },
+    {
+      "title": "带你理解朴素贝叶斯分类算法",
+      "url": "https://zhuanlan.zhihu.com/p/26262151",
+      "summary": "正文说明朴素贝叶斯依靠特征条件独立假设，把联合条件概率拆成各特征概率的乘积。"
+    },
+    {
+      "title": "赌徒谬误：赌博与大数定律丨张天蓉专栏",
+      "url": "https://zhuanlan.zhihu.com/p/26929562",
+      "summary": "正文说明连续抛硬币等独立事件不会因前次结果改变后次概率，并以赌徒谬误作反例。"
+    },
+    {
+      "title": "机器学习算法实践-朴素贝叶斯(Naive Bayes)",
+      "url": "https://zhuanlan.zhihu.com/p/27906640",
+      "summary": "正文把朴素贝叶斯的核心近似明确表述为特征条件独立，并据此分解联合条件概率进行训练。"
+    },
+    {
+      "title": "概率图模型之贝叶斯网络",
+      "url": "https://zhuanlan.zhihu.com/p/30139208",
+      "summary": "正文用 head-to-head、tail-to-tail 和 head-to-tail 三种结构解释贝叶斯网络中的条件独立性。"
+    },
+    {
+      "title": "【详解】银行信用评分卡中的WOE在干什么？",
+      "url": "https://zhuanlan.zhihu.com/p/30026040",
+      "summary": "正文讨论条件独立假设及其对联合概率分解和朴素贝叶斯建模的影响。"
+    },
+    {
+      "title": "物理定律告诉你，天下有情人终将分手！",
+      "url": "https://zhuanlan.zhihu.com/p/33820554",
+      "summary": "正文区分随机变量独立与不相关，说明独立一定不相关，并指出高斯情形下二者等价。"
+    },
+    {
+      "title": "如何测量这个世界的混乱-2-信息熵",
+      "url": "https://zhuanlan.zhihu.com/p/33817223",
+      "summary": "正文说明满足联合概率等于边缘概率乘积时的独立性，并指出独立时互信息为零。"
+    },
+    {
+      "title": "【综述长文】因果关系是什么？结构因果模型入门",
+      "url": "https://zhuanlan.zhihu.com/p/33860572",
+      "summary": "正文以因果马尔可夫条件讨论变量独立、条件独立和d分隔的判定。"
+    },
+    {
+      "title": "02.[必读]均值、方差、标准差",
+      "url": "https://zhuanlan.zhihu.com/p/35435231",
+      "summary": "正文给出连续型和离散型随机变量独立的条件，并利用独立性计算两个随机变量和与差的方差。"
+    },
+    {
+      "title": "列联表(交叉表)的独立性检验——卡方检验的另一应用",
+      "url": "https://zhuanlan.zhihu.com/p/35662132",
+      "summary": "正文把分类变量独立性表述为联合概率等于边缘概率乘积，并围绕该原假设完成检验。"
+    },
+    {
+      "title": "[终结数学月经题系列1]星期二男孩问题",
+      "url": "https://zhuanlan.zhihu.com/p/36071292",
+      "summary": "正文明确指出两个孩子的性别相互独立，并用抛硬币类比说明独立事件的概率计算。"
+    },
+    {
+      "title": "贝叶斯推断方法 —— 从经验知识到推断未知",
+      "url": "https://zhuanlan.zhihu.com/p/36545000",
+      "summary": "正文将属性条件独立性作为朴素贝叶斯的核心假设，并说明它如何把联合条件概率分解为乘积。"
+    },
+    {
+      "title": "证明：相互独立事件一定相容",
+      "url": "https://zhuanlan.zhihu.com/p/36607363",
+      "summary": "正文通过条件概率关系解释事件独立与互不相容的区别，并讨论相容事件何时独立。"
+    },
+    {
+      "title": "「上帝调低我智商」番外：由羊驼开始，讲到宇宙结束",
+      "url": "https://zhuanlan.zhihu.com/p/36633170",
+      "summary": "正文对比公平硬币各次抛掷相互独立与根据连续结果怀疑硬币有偏这两种判断，解释独立性适用的前提。"
+    },
+    {
+      "title": "一文详解朴素贝叶斯(Naive Bayes)原理",
+      "url": "https://zhuanlan.zhihu.com/p/37575364",
+      "summary": "正文把特征条件独立性作为朴素贝叶斯的核心假设，并推导联合条件概率的乘积分解。"
+    },
+    {
+      "title": "写给你的金融时间序列分析：初级篇",
+      "url": "https://zhuanlan.zhihu.com/p/38321845",
+      "summary": "正文以独立同分布刻画白噪声的序列不相关性，并把它作为模型残差是否充分的判据。"
+    },
+    {
+      "title": "协方差矩阵的 Newey-West 调整",
+      "url": "https://zhuanlan.zhihu.com/p/38506157",
+      "summary": "正文说明多因子模型假定因子收益与特异性收益、不同股票特异性收益相互独立，并以此解释协方差结构。"
+    },
+    {
+      "title": "【干货合集】从贝叶斯方法谈到贝叶斯网络",
+      "url": "https://zhuanlan.zhihu.com/p/41069540",
+      "summary": "正文通过 head-to-head、tail-to-tail 和 head-to-tail 三种结构讲解条件独立性。"
+    },
+    {
+      "title": "概率论学习笔记（一）",
+      "url": "https://zhuanlan.zhihu.com/p/42859784",
+      "summary": "正文比较两两独立与相互独立，用四面体反例说明差别，并将独立性用于 Borel-Cantelli 引理。"
+    },
+    {
+      "title": "概率论学习笔记（三）",
+      "url": "https://zhuanlan.zhihu.com/p/45346632",
+      "summary": "正文给出随机向量分量独立性的联合分布判据，并推广到离散型、连续型及二维正态分布。"
+    },
+    {
+      "title": "概率论学习笔记（四）",
+      "url": "https://zhuanlan.zhihu.com/p/45720457",
+      "summary": "正文证明独立随机变量乘积的期望等于期望之积，并据此说明独立必不相关以及条件期望中的独立性。"
+    },
+    {
+      "title": "布朗运动、鞅表示与Wiener混沌 (上)",
+      "url": "https://zhuanlan.zhihu.com/p/41045516",
+      "summary": "正文用指数鞅和条件期望证明布朗运动刻画中的增量独立性。"
+    },
+    {
+      "title": "Monty Hall Problem（三门问题）",
+      "url": "https://zhuanlan.zhihu.com/p/48254298",
+      "summary": "正文在条件概率分解中明确以蒙特选择与汽车位置相互独立作为计算前提。"
+    },
+    {
+      "title": "独立同分布 independent and identically distributed",
+      "url": "https://zhuanlan.zhihu.com/p/52530189",
+      "summary": "正文明确以一次抽样不受另一次抽样影响来阐述随机变量的独立性。"
+    },
+    {
+      "title": "独立和互斥是什么关系？独立和不相关是什么关系？",
+      "url": "https://zhuanlan.zhihu.com/p/53736521",
+      "summary": "正文从事件的独立和互斥定义出发，借助概率关系与反证法说明两者不能混同，并讨论零概率事件仍可能与其他事件独立。"
+    },
+    {
+      "title": "协方差矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/64242277",
+      "summary": "正文利用联合概率密度分解和期望的可乘性，证明独立变量的协方差为零。"
+    },
+    {
+      "title": "高斯朴素贝叶斯的原理及Python实现",
+      "url": "https://zhuanlan.zhihu.com/p/64498790",
+      "summary": "正文明确采用特征条件独立假设，将各维条件概率的乘积作为类条件概率。"
+    },
+    {
+      "title": "金融随机分析——概率论和布朗运动",
+      "url": "https://zhuanlan.zhihu.com/p/64805973",
+      "summary": "正文定义σ代数与随机变量的独立性，并用独立增量证明布朗运动及相关过程的鞅性质。"
+    },
+    {
+      "title": "【IB】概率母函数(Probability generating functions)",
+      "url": "https://zhuanlan.zhihu.com/p/67140977",
+      "summary": "正文证明独立随机变量之和的概率母函数等于各自概率母函数的乘积。"
+    },
+    {
+      "title": "概率论复习笔记(6)——Borel-Cantelli引理与Borel强大数定律",
+      "url": "https://zhuanlan.zhihu.com/p/69550246",
+      "summary": "正文在 Borel-Cantelli 引理和强大数定律中重点讨论事件或随机变量的独立性条件。"
+    },
+    {
+      "title": "概率论复习笔记(7)——Kolmogorov大数定律",
+      "url": "https://zhuanlan.zhihu.com/p/69607174",
+      "summary": "正文把独立性作为 Kolmogorov 不等式、收敛定理和强大数定律的核心前提展开讨论。"
+    },
+    {
+      "title": "D-Separation：一种概率图结构独立性的判断方法",
+      "url": "https://zhuanlan.zhihu.com/p/72011891",
+      "summary": "正文用阻断路径和碰撞点的规则判断变量间的条件独立性，说明D-分离与独立的对应关系。"
+    },
+    {
+      "title": "贝叶斯网络，看完这篇我终于理解了(附代码)！",
+      "url": "https://zhuanlan.zhihu.com/p/73415944",
+      "summary": "正文分析贝叶斯网络不同结构下的条件独立，并说明朴素贝叶斯依赖特征独立假设。"
+    },
+    {
+      "title": "有些人，一旦错过就不再——论无穷乘积",
+      "url": "https://zhuanlan.zhihu.com/p/75144146",
+      "summary": "正文以每日表白事件相互独立为前提，把连续错过的概率写成独立事件概率之积。"
+    },
+    {
+      "title": "3个范例带你读懂贝叶斯法则",
+      "url": "https://zhuanlan.zhihu.com/p/75380549",
+      "summary": "正文说明朴素贝叶斯通过假设各条件事件相互独立，把多条件问题简化。"
+    },
+    {
+      "title": "大数定理的通俗理解（辛钦、伯努利、切比雪夫大数定理）",
+      "url": "https://zhuanlan.zhihu.com/p/77312635",
+      "summary": "正文列出辛钦大数定律所要求的独立同分布随机变量序列条件。"
+    },
+    {
+      "title": "圆中四鸭属于一个半圆的概率",
+      "url": "https://zhuanlan.zhihu.com/p/77489865",
+      "summary": "正文利用各鸭子角度相互独立，把三只都在指定半边的概率相乘为八分之一。"
+    },
+    {
+      "title": "多元统计之Cochran定理",
+      "url": "https://zhuanlan.zhihu.com/p/85314314",
+      "summary": "正文陈述 Cochran 定理并证明若干二次型相互独立与对应投影矩阵正交等价。"
+    },
+    {
+      "title": "数理统计|笔记整理（2）——样本与总体概念，抽样分布，次序统计量",
+      "url": "https://zhuanlan.zhihu.com/p/85026175",
+      "summary": "正文通过正交变量代换分解联合密度，证明样本均值与样本方差相互独立。"
+    },
+    {
+      "title": "【统计】Causal Inference",
+      "url": "https://zhuanlan.zhihu.com/p/88173582",
+      "summary": "正文以处理变量和潜在结果相互独立作为随机化能够识别平均处理效应的核心条件。"
+    },
+    {
+      "title": "k个独立同分布随机变量的最小值的期望",
+      "url": "https://zhuanlan.zhihu.com/p/89693831",
+      "summary": "正文明确解释独立同分布的概念，并利用独立性把联合概率分解为各变量概率的乘积。"
+    },
+    {
+      "title": "概率论（一）直观理解独立与条件独立没有蕴含关系",
+      "url": "https://zhuanlan.zhihu.com/p/90984141",
+      "summary": "正文从独立定义出发，通过两组四面体实验分别论证独立不蕴含条件独立、条件独立也不蕴含独立。"
+    },
+    {
+      "title": "初学讲义之高中数学二十二：概率论初步",
+      "url": "https://zhuanlan.zhihu.com/p/91610421",
+      "summary": "正文定义独立事件并讲解独立事件同时发生的概率乘法原理。"
+    },
+    {
+      "title": "概率图模型(PGMs)-马尔可夫网络(Markov Nets)",
+      "url": "https://zhuanlan.zhihu.com/p/102014899",
+      "summary": "正文把给定现在状态后过去与未来条件独立作为马尔可夫链的基本性质。"
+    },
+    {
+      "title": "数理统计|笔记整理（9）——假设检验初步：势，显著性检验，拟合优度检验，正态性检验",
+      "url": "https://zhuanlan.zhihu.com/p/100749535",
+      "summary": "正文用联合概率等于边缘概率乘积来定义列联表中的独立性，并据此展开独立性检验。"
+    },
+    {
+      "title": "统计学习--详解Hoeffding不等式",
+      "url": "https://zhuanlan.zhihu.com/p/106840151",
+      "summary": "正文利用随机变量独立时矩量母函数可分解为乘积的性质，推导独立同分布变量和的切尔诺夫界。"
+    },
+    {
+      "title": "“大数定律”是一个神奇的定律，它会一步一步地引诱赌徒输光身上的钱，它是怎么做到的呢？",
+      "url": "https://zhuanlan.zhihu.com/p/110152003",
+      "summary": "正文以连续抛硬币说明各次结果相互独立，并据此解释赌徒谬误。"
+    },
+    {
+      "title": "因果推理初探（2）——有向无环图",
+      "url": "https://zhuanlan.zhihu.com/p/109932832",
+      "summary": "正文利用具体的条件概率等式说明图中的节点独立与条件独立关系。"
+    },
+    {
+      "title": "因果推理初探（3）——拨开混杂的迷雾",
+      "url": "https://zhuanlan.zhihu.com/p/110186209",
+      "summary": "正文系统展开链式、叉式和对撞接合下的条件独立性，并用 d-分离判断变量是否独立。"
+    },
+    {
+      "title": "因果推理初探（5）——干预工具（上）",
+      "url": "https://zhuanlan.zhihu.com/p/113240164",
+      "summary": "正文通过后门路径、对撞子和调整变量说明变量何时独立或条件独立，以及错误调整如何引入依赖。"
+    },
+    {
+      "title": "04.麦克斯韦速度分布的导出",
+      "url": "https://zhuanlan.zhihu.com/p/114991575",
+      "summary": "正文把不同速度方向的独立性作为关键假设，并用独立事件公式分解联合分布。"
+    },
+    {
+      "title": "游程检验(the run test)原理",
+      "url": "https://zhuanlan.zhihu.com/p/115538821",
+      "summary": "正文通过自相关过程与独立抽样模拟对比，解释游程检验所判断的随机生成实际上是序列增量的独立性。"
+    },
+    {
+      "title": "股价是随机游走的吗？",
+      "url": "https://zhuanlan.zhihu.com/p/115342322",
+      "summary": "正文解释游程检验用于独立性判断，并把随机游走增量的独立同分布要求转化为白噪声与独立性检验。"
+    },
+    {
+      "title": "集合中的上极限与下极限",
+      "url": "https://zhuanlan.zhihu.com/p/116829467",
+      "summary": "正文给出独立事件情形下的Borel-Cantelli引理，并说明概率和发散时上极限概率为一。"
+    },
+    {
+      "title": "卡方独立性检验原理",
+      "url": "https://zhuanlan.zhihu.com/p/131286213",
+      "summary": "正文用联合概率等于边际概率乘积的等式表达独立性假设，并据此推导卡方统计量。"
+    },
+    {
+      "title": "啥是“独立同分布”",
+      "url": "https://zhuanlan.zhihu.com/p/134230464",
+      "summary": "正文具体解释独立同分布中的独立性假设、样本间相互影响及随机抽样的关系。"
+    },
+    {
+      "title": "随机微积分 (13) 伊藤过程、随机微分方程SDE",
+      "url": "https://zhuanlan.zhihu.com/p/140075707",
+      "summary": "正文定义随机过程的相互独立，并证明独立布朗运动之间的二阶协变差为零。"
+    },
+    {
+      "title": "最大似然估计：从概率角度理解线性回归的优化目标",
+      "url": "https://zhuanlan.zhihu.com/p/143416436",
+      "summary": "正文解释事件独立性与联合概率的关系，并把各独立观测概率相乘构造似然函数。"
+    },
+    {
+      "title": "Propensity score简介",
+      "url": "https://zhuanlan.zhihu.com/p/150126791",
+      "summary": "正文用给定协变量后处理与潜在结果独立的条件可交换性，证明倾向得分也能替代协变量。"
+    },
+    {
+      "title": "离散型概率分布——二项分布",
+      "url": "https://zhuanlan.zhihu.com/p/145930394",
+      "summary": "正文以伯努利试验为基础，明确要求各次试验结果相互独立，并据此建立二项分布。"
+    },
+    {
+      "title": "数理统计第13讲（Basu定理，L-S定理，求UMVUE的方法）",
+      "url": "https://zhuanlan.zhihu.com/p/154076886",
+      "summary": "正文陈述 Basu 定理，并用正态样本峰度与样本均值、样本方差独立说明充分完备统计量下的独立性。"
+    },
+    {
+      "title": "机器学习——贝叶斯算法",
+      "url": "https://zhuanlan.zhihu.com/p/158771382",
+      "summary": "正文解释朴素贝叶斯通过特征条件独立假设分解联合概率，并讨论该假设带来的简化与代价。"
+    },
+    {
+      "title": "二维随机变量分布问题的最强解法——分布函数定义法！",
+      "url": "https://zhuanlan.zhihu.com/p/162033126",
+      "summary": "正文把随机变量的独立性作为化简条件概率与联合分布计算的关键性质。"
+    },
+    {
+      "title": "随机过程学习笔记(1)：指数分布与泊松过程",
+      "url": "https://zhuanlan.zhihu.com/p/165909489",
+      "summary": "正文以独立增量、独立同分布间隔时间和泊松过程分解讲解随机事件之间的独立性。"
+    },
+    {
+      "title": "时间序列分析第01讲--平稳序列（基本概念，线性平稳序列）",
+      "url": "https://zhuanlan.zhihu.com/p/252978417",
+      "summary": "正文明确区分独立白噪声与仅不相关的白噪声，并讨论正交和不相关两种序列关系。"
+    },
+    {
+      "title": "多元统计分析第01讲--多元正态分布及参数估计（随机向量，多元正态分布定义，条件分布和独立性）",
+      "url": "https://zhuanlan.zhihu.com/p/258399140",
+      "summary": "正文证明正态随机向量的独立性等价于分块协方差为零，并给出联合密度分解。"
+    },
+    {
+      "title": "Causality 基础概念汇总",
+      "url": "https://zhuanlan.zhihu.com/p/269625734",
+      "summary": "正文深入解释 d 分离、马尔可夫性和忠实性，说明图结构与统计独立性之间的对应关系。"
+    },
+    {
+      "title": "贝叶斯网络和D-Separation",
+      "url": "https://zhuanlan.zhihu.com/p/274314301",
+      "summary": "正文用联合概率能否分解为边缘概率乘积来判断变量独立，并分别讨论三种连接结构。"
+    },
+    {
+      "title": "概率论与统计学4——随机过程（Stochastic Processes）",
+      "url": "https://zhuanlan.zhihu.com/p/274771068",
+      "summary": "正文反复利用试验或时间片段之间的独立性，区分伯努利、泊松过程与马尔可夫链。"
+    },
+    {
+      "title": "概率图模型系列（一）：概率图模型简介",
+      "url": "https://zhuanlan.zhihu.com/p/341269050",
+      "summary": "正文解释条件独立性如何简化联合概率分布，并用贝叶斯网络展示变量间独立关系。"
+    },
+    {
+      "title": "二维随机变量最大值和最小值分布",
+      "url": "https://zhuanlan.zhihu.com/p/341369091",
+      "summary": "正文利用随机变量独立性把联合事件概率拆成分布函数乘积，从而完成最大最小值分布推导。"
+    },
+    {
+      "title": "随机过程|笔记整理（9）——连续时间马尔科夫链的泊松过程描述，爆炸现象，离散马尔科夫链对比",
+      "url": "https://zhuanlan.zhihu.com/p/343585535",
+      "summary": "正文通过 exponential race 引理及其分布函数分解证明首次到达时间与到达状态的独立性。"
+    },
+    {
+      "title": "概率论（1）——随机事件和概率",
+      "url": "https://zhuanlan.zhihu.com/p/343820937",
+      "summary": "正文由条件概率导出事件独立性的乘积定义，并区分两两独立与相互独立。"
+    },
+    {
+      "title": "随机过程|笔记整理（D）——鞅的极限性质的应用，布朗运动概述",
+      "url": "https://zhuanlan.zhihu.com/p/352464021",
+      "summary": "正文利用布朗运动增量的独立性拆分联合密度并证明相关量独立。"
+    },
+    {
+      "title": "从数学角度，思考几种倍投方式——终极篇，平投",
+      "url": "https://zhuanlan.zhihu.com/p/361380922",
+      "summary": "正文用连续试验说明独立事件不受先前结果影响，并批评将其误作条件概率的做法。"
+    },
+    {
+      "title": "因果推断综述解析|A Survey on Causal Inference(3)",
+      "url": "https://zhuanlan.zhihu.com/p/364488325",
+      "summary": "正文用条件独立定义平衡得分，并据此解释处理分配与背景变量之间偏差的消除。"
+    },
+    {
+      "title": "PC 算法 - 贝叶斯网络与其结构学习算法",
+      "url": "https://zhuanlan.zhihu.com/p/368010458",
+      "summary": "正文以条件独立压缩随机向量模型参数，并用 d 分隔和条件独立性检验学习概率图骨架。"
+    },
+    {
+      "title": "【干货】《统计因果推理入门》读书笔记",
+      "url": "https://zhuanlan.zhihu.com/p/380711267",
+      "summary": "正文区分独立与条件独立，并用链、分叉、对撞结构和 d-分离判断变量依赖关系。"
+    },
+    {
+      "title": "贝叶斯定理能让人变成思维高手？",
+      "url": "https://zhuanlan.zhihu.com/p/393352650",
+      "summary": "正文说明独立时条件概率等于原概率，并讨论联合概率的乘法关系。"
+    },
+    {
+      "title": "大白话谈因果系列文章（一）：因果推断简介及论文介绍",
+      "url": "https://zhuanlan.zhihu.com/p/397796913",
+      "summary": "正文分别推导 collider、fork 和 chain 结构中的独立性或条件独立性。"
+    },
+    {
+      "title": "【因果科普】机器学习不是曲线拟合：ML beyond Curve Fitting - Part 4（因果图、马尔科夫分解、结构方程模型）",
+      "url": "https://zhuanlan.zhihu.com/p/394503961",
+      "summary": "正文以独立因果机制原则说明调整父节点后，各机制之间不应再提供额外依赖信息。"
+    },
+    {
+      "title": "大白话谈因果系列文章（三）估计uplift--传统统计学习方法",
+      "url": "https://zhuanlan.zhihu.com/p/398643910",
+      "summary": "正文以条件可忽略性 T ⟂ Y | X 表述处理与结果在控制混杂变量后的独立性假设。"
+    },
+    {
+      "title": "随机微分方程笔记（二）布朗运动及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/400802316",
+      "summary": "正文把独立增量列为布朗运动的基本定义条件，并利用相邻区间增量的独立性证明鞅性质。"
+    },
+    {
+      "title": "随机过程、马尔可夫过程、维纳过程三者的联系与区别？",
+      "url": "https://zhuanlan.zhihu.com/p/402320649",
+      "summary": "正文把马尔可夫性解释为不同时间段增量相互独立，并据此推导增量方差的可加性。"
+    },
+    {
+      "title": "概率分布介绍1：泊松分布",
+      "url": "https://zhuanlan.zhihu.com/p/410748833",
+      "summary": "正文把事件独立列为泊松分布的关键假设，并用转发导致读者集中到来的例子说明违反独立性会破坏该模型。"
+    },
+    {
+      "title": "关于Poisson过程",
+      "url": "https://zhuanlan.zhihu.com/p/416029171",
+      "summary": "正文以独立增量和独立分类说明 Poisson 过程 thinning 后各子过程相互独立。"
+    },
+    {
+      "title": "Donald Rubin的因果推断学术贡献：超出统计学范畴的划时代影响",
+      "url": "https://zhuanlan.zhihu.com/p/427710922",
+      "summary": "正文把随机处理与潜在结果独立作为识别因果效应的核心假设，并讨论条件独立下的可忽略性。"
+    },
+    {
+      "title": "概率论知识点总结",
+      "url": "https://zhuanlan.zhihu.com/p/438651864",
+      "summary": "正文用概率乘积定义事件独立性，并区分两两独立与多个事件相互独立。"
+    },
+    {
+      "title": "年终别去赌：你永远赢不了“凯利公式”",
+      "url": "https://zhuanlan.zhihu.com/p/453096001",
+      "summary": "正文解释独立重复试验之间互不影响，并指出赌徒谬误错把独立事件当作相关联事件。"
+    },
+    {
+      "title": "4.怎么理解相互独立事件？真的是没有任何关系的事件吗？ 《zobol的考研概率论教程》",
+      "url": "https://zhuanlan.zhihu.com/p/454910486",
+      "summary": "正文用集合比例、文氏图和多项事件定义说明相互独立，并重点辨析两两独立与相互独立的差别。"
+    },
+    {
+      "title": "三个事件两两独立，它们一定是相互独立的吗？",
+      "url": "https://zhuanlan.zhihu.com/p/487067416",
+      "summary": "正文通过定义等式和反例说明三个事件两两独立不一定相互独立。"
+    },
+    {
+      "title": "多元统计分析（二）：多元正态分布",
+      "url": "https://zhuanlan.zhihu.com/p/490661577",
+      "summary": "正文说明分块多元正态中零协方差等价于两组变量独立，并据此解释条件分布。"
+    },
+    {
+      "title": "通俗易懂：独立事件与互斥事件",
+      "url": "https://zhuanlan.zhihu.com/p/518916437",
+      "summary": "正文给出事件独立性的概率判据，并用放回抽样、骰子和抛硬币的样本点计算验证两事件是否独立。"
+    },
+    {
+      "title": "公考数量基础（数量高频考点常见类型汇总）",
+      "url": "https://zhuanlan.zhihu.com/p/519388949",
+      "summary": "正文解释伯努利试验的相互独立条件，并用 n 重独立重复试验公式计算指定次数发生的概率。"
+    },
+    {
+      "title": "有了这个技巧，我玩猜词游戏从来没输过",
+      "url": "https://zhuanlan.zhihu.com/p/522696725",
+      "summary": "正文把独立事件同时发生的概率写成各自概率之积，并据此说明独立信息量可以相加。"
+    },
+    {
+      "title": "Kolmogorov 0-1律",
+      "url": "https://zhuanlan.zhihu.com/p/537259427",
+      "summary": "利用事件独立时的乘积公式推导尾部事件概率只能为0或1。"
+    },
+    {
+      "title": "【概率论】各种概率分布汇总",
+      "url": "https://zhuanlan.zhihu.com/p/517424307",
+      "summary": "正文用联合分布等于边缘分布乘积刻画两个随机变量的独立性。"
+    },
+    {
+      "title": "线性回归-五个基本假设",
+      "url": "https://zhuanlan.zhihu.com/p/553370965",
+      "summary": "正文把随机变量与残差的独立性列为线性回归前提，并说明违背时产生的自相关问题。"
+    },
+    {
+      "title": "概率论和机器学习中的不等式（一）",
+      "url": "https://zhuanlan.zhihu.com/p/538654580",
+      "summary": "正文在霍夫丁不等式和柯尔莫哥洛夫不等式中以随机变量独立性作为核心前提。"
+    },
+    {
+      "title": "概率论和机器学习中的不等式",
+      "url": "https://zhuanlan.zhihu.com/p/559551933",
+      "summary": "正文把独立性作为霍夫丁、伯恩斯坦和麦克迪尔米德等集中不等式的基本条件。"
+    },
+    {
+      "title": "关于高中的“独立性检验”",
+      "url": "https://zhuanlan.zhihu.com/p/634777437",
+      "summary": "正文由条件概率等式推导联合概率分解，并据此判定两个分类变量独立。"
+    },
+    {
+      "title": "贝叶斯定理：10个让你更厉害的观念",
+      "url": "https://zhuanlan.zhihu.com/p/616215284",
+      "summary": "正文反复强调独立证据才能按概率叠加，并说明同源证据重复计算会破坏贝叶斯更新。"
+    },
+    {
+      "title": "【原创】深入理解贝叶斯推断(Bayesian inference)（醍醐灌顶）",
+      "url": "https://zhuanlan.zhihu.com/p/661548936",
+      "summary": "正文利用每次抛掷相互独立这一条件，将七次观测的似然写成单项概率乘积。"
+    },
+    {
+      "title": "年末啦！当别人抽走三等奖，你抽中一等奖的概率会变大吗？",
+      "url": "https://zhuanlan.zhihu.com/p/680402578",
+      "summary": "正文对比指定第一次结果和仅知其中一次结果，明确解释两次抛硬币的独立性。"
+    },
+    {
+      "title": "czy智斗概率论（1）",
+      "url": "https://zhuanlan.zhihu.com/p/682180148",
+      "summary": "正文给出随机变量与事件独立性的定义、存在性及其函数变换和乘积期望性质，并贯穿后续概率定理。"
+    },
+    {
+      "title": "因果推断（二）--随机对照试验（RCT）AB Test",
+      "url": "https://zhuanlan.zhihu.com/p/709630146",
+      "summary": "正文以潜在结果与处理分配独立说明随机对照试验识别平均干预效果的统计基础。"
+    },
+    {
+      "title": "【Proof-Trivial】无痛入门贝叶斯分析【1】概统基础&贝叶斯思想与数学推理",
+      "url": "https://zhuanlan.zhihu.com/p/715028156",
+      "summary": "正文给出独立性的乘积刻画，并用暴雨与两人准时回家说明条件独立。"
+    },
+    {
+      "title": "揭秘百家乐：为什么无论多少钱都会输的精光？赌徒能从赌场中赢钱吗？",
+      "url": "https://zhuanlan.zhihu.com/p/717254155",
+      "summary": "正文用独立随机事件说明每次投骰结果不受前次影响，并澄清赌徒谬误。"
+    },
+    {
+      "title": "Gamma分布和Beta分布的关系",
+      "url": "https://zhuanlan.zhihu.com/p/4798265277",
+      "summary": "正文利用充分完备统计量与辅助统计量解释 Gamma 和的独立和比值为何相互独立。"
+    },
+    {
+      "title": "“星期二男孩”悖论为什么违背直觉？彻底讲透这个问题",
+      "url": "https://zhuanlan.zhihu.com/p/1990895961048901227",
+      "summary": "正文在一般性推导中明确使用两个孩子的独立性，将联合概率分解为单孩概率的乘积。"
+    },
+    {
+      "title": "如何给一个期望收益为正无穷的彩票定价",
+      "url": "https://zhuanlan.zhihu.com/p/2028214737876303986",
+      "summary": "正文利用多张彩票收益的独立性将联合盈利概率写成乘积。"
+    }
+  ]
+}

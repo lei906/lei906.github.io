@@ -1,0 +1,2781 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l4-t2-b5",
+  "sources": [
+    {
+      "title": "实变泛函都是很容易的课，为何说「实变函数学十遍，泛函分析心犯寒」？",
+      "url": "https://www.zhihu.com/answer/29505213",
+      "summary": "正文围绕“实分析”给出说明、例证或方法。"
+    },
+    {
+      "title": "如何证明根号 2 的存在？",
+      "url": "https://www.zhihu.com/answer/33194707",
+      "summary": "正文说明实数完备性与根式存在，适合实分析。"
+    },
+    {
+      "title": "概率收敛、均方收敛、分布收敛等几个概率之间的区别和联系是什么？",
+      "url": "https://www.zhihu.com/answer/33871708",
+      "summary": "正文区分依概率、均方和依分布收敛，适合实分析。"
+    },
+    {
+      "title": "学习实变函数是一种什么体验？",
+      "url": "https://www.zhihu.com/answer/34050533",
+      "summary": "正文描述实变函数中测度、积分和放缩技巧的练习。"
+    },
+    {
+      "title": "极限的保号性有什么作用？",
+      "url": "https://www.zhihu.com/answer/37535165",
+      "summary": "正文说明数列极限为正时最终各项为正，属于实分析中的极限性质。"
+    },
+    {
+      "title": "实变函数的核心是什么？",
+      "url": "https://www.zhihu.com/answer/37810416",
+      "summary": "正文以 Littlewood 三原则概括可测集、函数与函数列的实分析核心。"
+    },
+    {
+      "title": "请推荐英文微积分、数学分析基础教材？",
+      "url": "https://www.zhihu.com/answer/40656125",
+      "summary": "正文明确列出实分析基础。"
+    },
+    {
+      "title": "实变函数教科书推荐？",
+      "url": "https://www.zhihu.com/answer/40822731",
+      "summary": "正文推荐实分析入门读物。"
+    },
+    {
+      "title": "非数学专业的本科生，如何自学专业数学？",
+      "url": "https://www.zhihu.com/answer/43066516",
+      "summary": "正文提出分析方向从数分到实变的路线。"
+    },
+    {
+      "title": "如何判断一个函数是否黎曼可积以及是否有原函数？",
+      "url": "https://www.zhihu.com/answer/70303435",
+      "summary": "正文系统讨论黎曼与勒贝格积分、原函数和连续性等实分析问题。"
+    },
+    {
+      "title": "如何能自学学好实变函数?",
+      "url": "https://www.zhihu.com/answer/80652060",
+      "summary": "正文概述实变分析及格所需的核心理论。"
+    },
+    {
+      "title": "无法理解高等数学怎么办？",
+      "url": "https://www.zhihu.com/answer/82055333",
+      "summary": "正文大篇幅讨论实数、紧性、极限、导数、黎曼积分等数学分析结构与严格化。"
+    },
+    {
+      "title": "数学分析中，实数理论有多重要？",
+      "url": "https://www.zhihu.com/answer/82083008",
+      "summary": "正文解释实数理论在数学分析中的基础地位。"
+    },
+    {
+      "title": "无法理解高等数学怎么办？",
+      "url": "https://www.zhihu.com/answer/82732962",
+      "summary": "正文解释数学分析是对微积分适用边界的严格化。"
+    },
+    {
+      "title": "「无限接近」是否就是「是」？",
+      "url": "https://www.zhihu.com/answer/93082093",
+      "summary": "正文把“无限接近是否相等”转化为序列极限与函数连续性的实分析问题。"
+    },
+    {
+      "title": "微分和导数的关系是什么？两者的几何意义有什么不同？为什么要定义微分 ?",
+      "url": "https://www.zhihu.com/answer/115178055",
+      "summary": "正文讨论标准分析、非标准分析与超实数基础。"
+    },
+    {
+      "title": "数学学习或研究中，你见过哪些有意思的反例？",
+      "url": "https://www.zhihu.com/answer/115254943",
+      "summary": "正文讨论连续、可导、可积函数及傅里叶级数的实分析反例。"
+    },
+    {
+      "title": "求极限什么情况下可以在加减式中使用等价（无穷小）替换？",
+      "url": "https://www.zhihu.com/answer/116503378",
+      "summary": "正文对比标准分析和非标准分析中的无穷小定义。"
+    },
+    {
+      "title": "为什么这么多人推荐初学者看《托马斯微积分》？",
+      "url": "https://www.zhihu.com/answer/120177258",
+      "summary": "正文讨论上确界、实数性质和极限，属于实分析基础。"
+    },
+    {
+      "title": "如何看待关于 1 与 0.9999… 的大小的争论？",
+      "url": "https://www.zhihu.com/answer/121001028",
+      "summary": "正文强调该结论依赖标准实分析中的定义与论域。"
+    },
+    {
+      "title": "如何证明有界数列的子数列收敛？",
+      "url": "https://www.zhihu.com/answer/123006422",
+      "summary": "正文用闭区间套定理证明有界数列必有收敛子列，属于实分析完备性。"
+    },
+    {
+      "title": "积分中值定理有什么应用？",
+      "url": "https://www.zhihu.com/answer/123376670",
+      "summary": "正文涉及黎曼可积、Cauchy收敛原理与反常积分收敛，属于实分析内容。"
+    },
+    {
+      "title": "无穷小量究竟是否为零？",
+      "url": "https://www.zhihu.com/answer/130566890",
+      "summary": "正文从经典数学分析历史与定义层面系统梳理无穷小、实数零、数列和函数的关系。"
+    },
+    {
+      "title": "介值定理中ξ闭区间的证明是怎样的？",
+      "url": "https://www.zhihu.com/answer/131869159",
+      "summary": "正文严格重述连续函数介值定理，区分开闭区间版本并按端点取值分类证明。"
+    },
+    {
+      "title": "上确界与上极限有什么异同？",
+      "url": "https://www.zhihu.com/answer/132484306",
+      "summary": "正文用例子和严格定义讲解上、下确界及上、下极限，属于实分析内容。"
+    },
+    {
+      "title": "如何理解实变函数中的叶果洛夫定理？",
+      "url": "https://www.zhihu.com/answer/134836217",
+      "summary": "正文联系 Lusin 定理、Sobolev 函数和 BV 函数，属于实分析中的逼近与结构结果。"
+    },
+    {
+      "title": "如何看待马克思的《数学手稿》？",
+      "url": "https://www.zhihu.com/answer/144080496",
+      "summary": "正文指出实数完备性是分析严格化的基础，属于实分析观念。"
+    },
+    {
+      "title": "微积分的哲学基础是什么？",
+      "url": "https://www.zhihu.com/answer/152947132",
+      "summary": "正文说明数学分析教材如何以实数和严格逻辑建立微积分体系。"
+    },
+    {
+      "title": "实变函数有什么用？",
+      "url": "https://www.zhihu.com/answer/160480195",
+      "summary": "正文说明实变函数是更高层次分析的公共基础。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/177934412",
+      "summary": "正文在度量空间中陈述并一行证明Lipschitz函数的保常数延拓定理。"
+    },
+    {
+      "title": "什么情况下，积分和求导可以交换顺序？",
+      "url": "https://www.zhihu.com/answer/188817038",
+      "summary": "正文引用实分析中的控制收敛定理说明求导与积分换序。"
+    },
+    {
+      "title": "学习实分析什么教材比较好用，各有什么优劣？",
+      "url": "https://www.zhihu.com/answer/191186945",
+      "summary": "正文围绕本科实变、进阶实分析的内容结构和学习顺序给出说明。"
+    },
+    {
+      "title": "有哪些让人眼前一亮的函数？",
+      "url": "https://www.zhihu.com/answer/192540016",
+      "summary": "正文以反直觉连续函数反例讨论连续性、可导性和局部性质。"
+    },
+    {
+      "title": "有哪些让人眼前一亮的函数？",
+      "url": "https://www.zhihu.com/answer/192598254",
+      "summary": "正文用无处单调连续函数展示实分析中的反直觉构造。"
+    },
+    {
+      "title": "有哪些让人眼前一亮的函数？",
+      "url": "https://www.zhihu.com/answer/192641888",
+      "summary": "正文以狄利克雷函数集中展示不连续、不可导、黎曼不可积但可测等实分析性质。"
+    },
+    {
+      "title": "如何学好数学分析？",
+      "url": "https://www.zhihu.com/answer/196787900",
+      "summary": "正文围绕连续、可导、黎曼可积和极限交换等实分析主题给出学习建议。"
+    },
+    {
+      "title": "你有哪些在考试或竞赛中现场推导一条新定理，使用其答题并回答正确的例子？",
+      "url": "https://www.zhihu.com/answer/211684364",
+      "summary": "正文给出区间内稠密性的定义并联系数学分析。"
+    },
+    {
+      "title": "数学分析的实数理论是否是衡量能否学数学的标杆？",
+      "url": "https://www.zhihu.com/answer/235375781",
+      "summary": "正文解释从有理数构造实数及逐步推导性质的分析基础。"
+    },
+    {
+      "title": "为什么极限的 ε-N 和 ε-δ 语言具有划时代的意义？",
+      "url": "https://www.zhihu.com/answer/253318594",
+      "summary": "正文梳理从朴素微积分到现代严格分析的历史与概念基础。"
+    },
+    {
+      "title": "如何证明「若两个实数 a·b=0，则 a=0 或 b=0」？",
+      "url": "https://www.zhihu.com/answer/263750768",
+      "summary": "正文从上确界、Dedekind 分划和实数运算系统展开实数理论。"
+    },
+    {
+      "title": "是否存在一个函数，在它定义域内连续，递增，但处处不可导？",
+      "url": "https://www.zhihu.com/answer/268544879",
+      "summary": "正文陈述单调函数几乎处处可导等实分析结果及相关病态函数。"
+    },
+    {
+      "title": "复变函数、实分析、复分析、数学分析是什么关系？",
+      "url": "https://www.zhihu.com/answer/268908475",
+      "summary": "正文区分数学分析、实分析和复分析的研究对象与教学关系。"
+    },
+    {
+      "title": "只有可去间断点的函数的可去间断点是否是至多可数的？",
+      "url": "https://www.zhihu.com/answer/269158102",
+      "summary": "正文给出可去间断点至多可数的完整实分析证明。"
+    },
+    {
+      "title": "复变函数、实分析、复分析、数学分析是什么关系？",
+      "url": "https://www.zhihu.com/answer/269355183",
+      "summary": "正文说明国内外数学分析、实分析课程的范围与关系。"
+    },
+    {
+      "title": "几乎处处收敛和依测度收敛的区别是什么呢？",
+      "url": "https://www.zhihu.com/answer/269452870",
+      "summary": "正文陈述并解释三个实分析收敛定理及其逻辑关系。"
+    },
+    {
+      "title": "怎样正确理解上极限与下极限？",
+      "url": "https://www.zhihu.com/answer/274030520",
+      "summary": "正文以聚点、子列、上下确界系统分析实数数列的极限行为。"
+    },
+    {
+      "title": "怎样正确理解上极限与下极限？",
+      "url": "https://www.zhihu.com/answer/275584090",
+      "summary": "正文用有界数列、收敛子列及上下确界解释实分析中的上下极限。"
+    },
+    {
+      "title": "导数几乎处处大于0的函数一定严格单增吗？",
+      "url": "https://www.zhihu.com/answer/277961565",
+      "summary": "正文使用弱导数、L1、Cantor 集和 Pompeiu 函数处理实分析中的反例。"
+    },
+    {
+      "title": "在本科数学阶段你学过最有趣的一门数学课是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/286508857",
+      "summary": "正文介绍高等实分析中测度、Sobolev 函数和精细表示。"
+    },
+    {
+      "title": "为什么开区间不适用闭区间套定理？(从完备公理出发)？",
+      "url": "https://www.zhihu.com/answer/313164361",
+      "summary": "正文在实数完备性语境下比较开、闭区间套条件。"
+    },
+    {
+      "title": "《陶哲轩实分析》 里的内容是属于数学分析还是实分析？为什么有人推荐用这本书来入门数分？",
+      "url": "https://www.zhihu.com/answer/329814816",
+      "summary": "正文说明实分析处理可测性和取极限的作用。"
+    },
+    {
+      "title": "连续统是什么意思？如何理解连续统与实数的关系？",
+      "url": "https://www.zhihu.com/answer/357562631",
+      "summary": "正文用最小上界公理解释实数完备性。"
+    },
+    {
+      "title": "怎样直观的理解有限覆盖定理？",
+      "url": "https://www.zhihu.com/answer/361398016",
+      "summary": "正文把有限覆盖直观关联到实数连续性。"
+    },
+    {
+      "title": "「高等数学」与「数学分析」的区别与联系有哪些？",
+      "url": "https://www.zhihu.com/answer/386587325",
+      "summary": "正文从概念、定理与证明侧重点解释数学分析区别于计算型高数。"
+    },
+    {
+      "title": "数学分析怎么构建自己的数学体系？",
+      "url": "https://www.zhihu.com/answer/390089024",
+      "summary": "正文说明连续、级数、导数、积分在数学分析中统一为极限。"
+    },
+    {
+      "title": "怎样正确理解上极限与下极限？",
+      "url": "https://www.zhihu.com/answer/405394830",
+      "summary": "正文用单调性、聚点和收敛子列系统讨论上、下极限，属于实分析内容。"
+    },
+    {
+      "title": "为什么紧支集在分析里面这么重要？",
+      "url": "https://www.zhihu.com/answer/407987048",
+      "summary": "正文展示先在紧支集函数上证明再推广到一般函数的分析方法。"
+    },
+    {
+      "title": "如何解释洛必达法则？",
+      "url": "https://www.zhihu.com/answer/414406987",
+      "summary": "正文从罗尔定理、广义中值定理和极限定义展开严格实分析证明。"
+    },
+    {
+      "title": "既然无理数点远比有理数点多，为什么狄利克雷函数处处不连续？",
+      "url": "https://www.zhihu.com/answer/417870253",
+      "summary": "正文强调从连续性的严格定义建立分析直觉。"
+    },
+    {
+      "title": "做（学）数学分析的人会看不起用直观思维理解一些定理的人吗？",
+      "url": "https://www.zhihu.com/answer/419280612",
+      "summary": "正文从分析概念的精细差异说明严格直觉如何形成。"
+    },
+    {
+      "title": "如何看待微博刘大可先生与万精油微博之争？",
+      "url": "https://www.zhihu.com/answer/419284174",
+      "summary": "正文严格区分解析函数与无穷次可导函数。"
+    },
+    {
+      "title": "本科偏微分方程学习中如何规避大量的计算？",
+      "url": "https://www.zhihu.com/answer/419376362",
+      "summary": "正文说明 PDE 推导建立在实分析的分部积分和积分不等式上。"
+    },
+    {
+      "title": "关于数列的上下极限？",
+      "url": "https://www.zhihu.com/answer/433672822",
+      "summary": "正文用子列技巧、紧性与夹逼准则进行实分析证明。"
+    },
+    {
+      "title": "数学分析难在哪里？",
+      "url": "https://www.zhihu.com/answer/447001086",
+      "summary": "正文系统分析实数完备性、连续、微分与黎曼积分等实分析难点。"
+    },
+    {
+      "title": "如何定义数学工作者所说的“分析功底”？",
+      "url": "https://www.zhihu.com/answer/453480247",
+      "summary": "正文说明分析功底包含不等式、复杂估计与长期训练。"
+    },
+    {
+      "title": "学习数学分析，怎么样才算得上是精通呢？",
+      "url": "https://www.zhihu.com/answer/453931717",
+      "summary": "正文把实变、泛函和调和分析作为数学分析的进阶方向。"
+    },
+    {
+      "title": "学习数学分析，怎么样才算得上是精通呢？",
+      "url": "https://www.zhihu.com/answer/454157412",
+      "summary": "正文说明实分析、调和分析与泛函分析共同构成分析体系。"
+    },
+    {
+      "title": "怎么理解 0.(9) 等于 1？不要用证明，只是谈谈理解？",
+      "url": "https://www.zhihu.com/answer/477570973",
+      "summary": "正文用戴德金分割和Cauchy等价类解释实数构造。"
+    },
+    {
+      "title": "包含第二类间断点中的震荡间断点的函数可积吗？原函数存在吗？",
+      "url": "https://www.zhihu.com/answer/480341428",
+      "summary": "正文给出黎曼可积的有界性与间断点条件。"
+    },
+    {
+      "title": "闭区间上的导函数f'有界，是否可以在闭区间上取到最大值，最小值？",
+      "url": "https://www.zhihu.com/answer/480549562",
+      "summary": "正文用上确界与振荡导函数讨论实分析反例。"
+    },
+    {
+      "title": "怎样能将数学分析水平提高到挺高的水准呢？",
+      "url": "https://www.zhihu.com/answer/494584411",
+      "summary": "正文从度量空间拓扑和连续函数等价刻画说明实分析高观点。"
+    },
+    {
+      "title": "你学过的中小学教材中最坑爹的课文是哪一篇？",
+      "url": "https://www.zhihu.com/answer/503283524",
+      "summary": "从实数幂、介值定理和导数定义讨论分析教材的严密性及其所需的实数理论。"
+    },
+    {
+      "title": "为什么微积分那么难学？",
+      "url": "https://www.zhihu.com/answer/505546174",
+      "summary": "围绕定义、值域证明、逻辑和极限严格化讨论数学分析学习的核心。"
+    },
+    {
+      "title": "什么是上极限？",
+      "url": "https://www.zhihu.com/answer/506147862",
+      "summary": "证明有界数列存在凝聚点，并从实数完备性与单调收敛解释上极限，属于实分析内容。"
+    },
+    {
+      "title": "大一新生在读，学习高等数学觉得十分不严谨，有没有必要学习数学分析？",
+      "url": "https://www.zhihu.com/answer/506499934",
+      "summary": "比较高等数学与实分析在公理化、逼近、证明和适用范围上的差异。"
+    },
+    {
+      "title": "数学分析到底要学什么？",
+      "url": "https://www.zhihu.com/answer/509972517",
+      "summary": "强调数学分析学习的核心在于通过证明掌握定义、原理与严谨论证，而非只记计算。"
+    },
+    {
+      "title": "数学分析到底要学什么？",
+      "url": "https://www.zhihu.com/answer/510088635",
+      "summary": "把数学分析训练概括为对中学直观数学的严格重构，强调理解条件和反直觉例子。"
+    },
+    {
+      "title": "如何严谨地证明 0.9999…=1？",
+      "url": "https://www.zhihu.com/answer/514040697",
+      "summary": "正文用有理数柯西列的等价类构造实数，属于实分析基础。"
+    },
+    {
+      "title": "如何严谨地证明 0.9999…=1？",
+      "url": "https://www.zhihu.com/answer/514967678",
+      "summary": "正文区分标准实数和非标准分析中的无穷小，说明结论依赖实数体系的定义。"
+    },
+    {
+      "title": "如何严谨地证明 0.9999…=1？",
+      "url": "https://www.zhihu.com/answer/515076254",
+      "summary": "用 Dedekind 分割和柯西列说明实数完备化的两种构造。"
+    },
+    {
+      "title": "如何严谨地证明 0.9999…=1？",
+      "url": "https://www.zhihu.com/answer/515674389",
+      "summary": "论证依赖闭区间完备性和实数序结构，属于实分析基础。"
+    },
+    {
+      "title": "收敛的序列是否存在单调的子序列（不要求严格单调）？",
+      "url": "https://www.zhihu.com/answer/520026993",
+      "summary": "用单调子序列和确界原理推出有界序列存在收敛子序列，属于实分析。"
+    },
+    {
+      "title": "如何严谨地证明 0.9999…=1？",
+      "url": "https://www.zhihu.com/answer/520817309",
+      "summary": "正文把实数稠密性、级数和分析语言作为更严格的论证背景。"
+    },
+    {
+      "title": "高等数学里的概念和定义，为什么不能再简单些呢？",
+      "url": "https://www.zhihu.com/answer/532203071",
+      "summary": "正文追溯分析严格化并讨论连续、极限等实分析基础。"
+    },
+    {
+      "title": "如何严谨地证明 0.9999…=1？",
+      "url": "https://www.zhihu.com/answer/533408769",
+      "summary": "正文从实数构造、区间套与戴德金分割讨论严谨基础。"
+    },
+    {
+      "title": "为什么矩形面积等于长乘宽？",
+      "url": "https://www.zhihu.com/answer/537766474",
+      "summary": "正文说明从有理比例推广到一般实数需要实数完备性。"
+    },
+    {
+      "title": "为什么在黎曼函数上无理数点连续，而如狄利克雷函数上为间断点，无理数到底连续吗？",
+      "url": "https://www.zhihu.com/answer/537771260",
+      "summary": "正文用狄利克雷函数和黎曼函数严格解释点连续。"
+    },
+    {
+      "title": "为什么微积分从被发明到严谨化用了将近 200 年这么久？",
+      "url": "https://www.zhihu.com/answer/557898327",
+      "summary": "以病态函数和微积分基本定理条件的削弱梳理实分析严谨化。"
+    },
+    {
+      "title": "数学分析中完备性的概念？",
+      "url": "https://www.zhihu.com/answer/561306611",
+      "summary": "正文以柯西列收敛解释分析中的完备性。"
+    },
+    {
+      "title": "数列 {n·sinn} 及 {n²·sinn} 中能挑出一个收敛子列吗？",
+      "url": "https://www.zhihu.com/answer/567110087",
+      "summary": "用丢番图逼近构造 n sin n 的收敛子列并分析不同增长率。"
+    },
+    {
+      "title": "关于一道大一数分的构造函数的习题的解答，我自己的理解错在哪？",
+      "url": "https://www.zhihu.com/answer/585232870",
+      "summary": "逐点验证所构造函数的连续与不连续性质。"
+    },
+    {
+      "title": "实分析学得太难失去信心和兴趣了怎么办？",
+      "url": "https://www.zhihu.com/answer/612266712",
+      "summary": "正文阐述实分析的学习内容与意义。"
+    },
+    {
+      "title": "为什么测度论要建立在σ-代数上？",
+      "url": "https://www.zhihu.com/answer/636709769",
+      "summary": "以不可测集与 σ-代数解释实分析中测度空间的基础。"
+    },
+    {
+      "title": "无穷小量究竟是否为零？",
+      "url": "https://www.zhihu.com/answer/639132848",
+      "summary": "说明柯西以极限严格化微积分并化解第二次数学危机。"
+    },
+    {
+      "title": "有哪些美丽或神奇的理科公式？",
+      "url": "https://www.zhihu.com/answer/639172067",
+      "summary": "说明极限定义如何使分析学重新严谨化。"
+    },
+    {
+      "title": "函数 y＝(x!)^(1/x) 的图像为什么类似于一条直线（如图）？",
+      "url": "https://www.zhihu.com/answer/642946327",
+      "summary": "展示积分渐近展开和误差项的分析方法。"
+    },
+    {
+      "title": "数学中有哪些让你感到赏心悦目或是震惊的构造手法？",
+      "url": "https://www.zhihu.com/answer/651902054",
+      "summary": "证明构造函数在有理点跳跃、无理点连续。"
+    },
+    {
+      "title": "为什么极限理论是基于实数的完备性？",
+      "url": "https://www.zhihu.com/answer/674321396",
+      "summary": "用戴德金分割与完备化说明实数分析基础。"
+    },
+    {
+      "title": "如何理解高等数学里的可微、可导和连续性之间的关系？",
+      "url": "https://www.zhihu.com/answer/680832797",
+      "summary": "用魏尔斯特拉斯函数和分段函数反例区分连续与可导。"
+    },
+    {
+      "title": "若一个函数在某点存在二阶导数,是否该函数一定连续？",
+      "url": "https://www.zhihu.com/answer/683018550",
+      "summary": "说明可导蕴含点处连续但不保证邻域连续。"
+    },
+    {
+      "title": "数学专业的实变函数为什么这么难？",
+      "url": "https://www.zhihu.com/answer/723049614",
+      "summary": "解释实变函数课程的证明结构与分析对象。"
+    },
+    {
+      "title": "数学专业的实变函数为什么这么难？",
+      "url": "https://www.zhihu.com/answer/732923234",
+      "summary": "把实变函数定位为测度与积分理论。"
+    },
+    {
+      "title": "实分析学得太难失去信心和兴趣了怎么办？",
+      "url": "https://www.zhihu.com/answer/736852499",
+      "summary": "全文分享实分析课程的学习与证明训练方法。"
+    },
+    {
+      "title": "为什么 0.9 的循环等于 1？",
+      "url": "https://www.zhihu.com/answer/754930584",
+      "summary": "用完备性和数系构造解释实数。"
+    },
+    {
+      "title": "能否用通俗易懂的语言介绍一下戴德金分割？",
+      "url": "https://www.zhihu.com/answer/859252046",
+      "summary": "通过 Dedekind 分割给出实数系构造。"
+    },
+    {
+      "title": "为什么狄利克雷函数没有振荡间断点？",
+      "url": "https://www.zhihu.com/answer/866267924",
+      "summary": "正文用趋近同一点的有理数列与无理数列解释狄利克雷函数处处振荡间断，属于实分析中的连续性讨论。"
+    },
+    {
+      "title": "计算根号下1+根号下2+根号下3+…等于多少？",
+      "url": "https://www.zhihu.com/answer/893747532",
+      "summary": "正文用单调性与逐层放缩给出嵌套根式数列有界，从而论证其收敛，属于实分析。"
+    },
+    {
+      "title": "如何证明一个有理数集（例如{x x^2 < 2且x>0}）在有理数集上没有上确界？",
+      "url": "https://www.zhihu.com/answer/907874974",
+      "summary": "正文分类讨论候选有理上界平方小于或大于 2，并构造更优有理数排除上确界。"
+    },
+    {
+      "title": "有哪些数学上的定理让你感觉「这不显然吗，这还用证明」？",
+      "url": "https://www.zhihu.com/answer/920550932",
+      "summary": "正文以极值和介值定理说明实数完备性与连续函数理论中证明的必要性。"
+    },
+    {
+      "title": "「初等函数在其定义域内必连续」的说法是对是错，为什么？",
+      "url": "https://www.zhihu.com/answer/921907674",
+      "summary": "正文用聚点、孤立点与ε-δ定义严谨分析初等函数在定义域上的连续性。"
+    },
+    {
+      "title": "作为一个科研工作者，数学在平时你的研究中有什么作用？",
+      "url": "https://www.zhihu.com/answer/928091604",
+      "summary": "正文以开闭区间实例解释下确界存在、紧致性与取到极值的分析性质。"
+    },
+    {
+      "title": "为什么第一类间断点没有原函数，第二类间断点可能有？",
+      "url": "https://www.zhihu.com/answer/930540180",
+      "summary": "正文用极限、连续、可微和 Riemann 可积性系统分析导函数的间断行为。"
+    },
+    {
+      "title": "985数学系的同学 会独自完成课本课后习题吗？",
+      "url": "https://www.zhihu.com/answer/931052468",
+      "summary": "正文实质讨论连续、一致连续、可积、导数与级数收敛等实分析概念。"
+    },
+    {
+      "title": "有没有函数，在闭区间存在原函数但是不可积的？",
+      "url": "https://www.zhihu.com/answer/961662594",
+      "summary": "正文构造处处有原函数却因无界而不可黎曼积的经典实分析反例。"
+    },
+    {
+      "title": "怎么自学陶哲轩实分析？",
+      "url": "https://www.zhihu.com/answer/962807837",
+      "summary": "正文实质讨论实数构造、黎曼积分、完备化与实分析章节内容。"
+    },
+    {
+      "title": "实数的稠密性和完备性是同一性质吗？",
+      "url": "https://www.zhihu.com/answer/1045702965",
+      "summary": "正文解释实数完备性并与稠密性区分。"
+    },
+    {
+      "title": "如何严格证明 sinx＜x（0＜x＜π/2）？",
+      "url": "https://www.zhihu.com/answer/1082703474",
+      "summary": "正文从分析学定义、极限和幂级数角度给出严格证明。"
+    },
+    {
+      "title": "Holder连续在某种意义下可以看成分数阶可微吗？",
+      "url": "https://www.zhihu.com/answer/1087332512",
+      "summary": "正文从定义、范数与函数空间角度讨论Holder连续性，属于实分析内容。"
+    },
+    {
+      "title": "复变函数、实分析、复分析、数学分析是什么关系？",
+      "url": "https://www.zhihu.com/answer/1144566521",
+      "summary": "正文介绍实分析中的可测函数与收敛定理。"
+    },
+    {
+      "title": "黎曼函数的积分是零，但是就其大致图像看来并不等于零，这是为什么？",
+      "url": "https://www.zhihu.com/answer/1189235054",
+      "summary": "正文从稠密性和振幅解释黎曼可积性差异。"
+    },
+    {
+      "title": "现代分析学有什么著名教材呢？",
+      "url": "https://www.zhihu.com/answer/1211988451",
+      "summary": "正文系统介绍现代分析课程与实分析背景。"
+    },
+    {
+      "title": "Stein 大神的 4 本分析有顺序吗？",
+      "url": "https://www.zhihu.com/answer/1256327788",
+      "summary": "正文专门介绍实分析课程的内容与顺序。"
+    },
+    {
+      "title": "算术平均和几何平均之间还存在别的东西吗？",
+      "url": "https://www.zhihu.com/answer/1297306742",
+      "summary": "正文用单调收敛讨论迭代序列的极限存在性。"
+    },
+    {
+      "title": "任意给定 E⊆Rn，是否一定存在 f:Rn → R，使得 f 的连续点集恰好为 E ？",
+      "url": "https://www.zhihu.com/answer/1301793458",
+      "summary": "正文在度量空间讨论连续点集的拓扑结构。"
+    },
+    {
+      "title": "数列An满足An+1=An+n/An，A1>0，怎么证明An/n的敛散性?",
+      "url": "https://www.zhihu.com/answer/1303956510",
+      "summary": "正文用上下界和夹逼定理证明数列收敛。"
+    },
+    {
+      "title": "对于大学数学中的一些概念、定理，感觉很显然，例如极限什么的，有必要那么严谨地学习证明吗？",
+      "url": "https://www.zhihu.com/answer/1338204478",
+      "summary": "正文以开区间反例解释数学分析中定义与证明的严格性。"
+    },
+    {
+      "title": "暑假自学实分析和微积分用什么教材好？",
+      "url": "https://www.zhihu.com/answer/1384741390",
+      "summary": "正文解释实分析相对于微积分的学习定位。"
+    },
+    {
+      "title": "如何构建一套完整的数学知识体系？",
+      "url": "https://www.zhihu.com/answer/1397642008",
+      "summary": "正文具体展开实分析从黎曼积分到实数完备性、测度论和勒贝格积分的发展及作用。"
+    },
+    {
+      "title": "如何证明哈代不等式?",
+      "url": "https://www.zhihu.com/answer/1406647279",
+      "summary": "正文使用 Young 与 Hölder 不等式进行实分析证明。"
+    },
+    {
+      "title": "怎么计算概率积分 ∫[0, +∞) (e^(-x²))dx？",
+      "url": "https://www.zhihu.com/answer/1410908561",
+      "summary": "正文用一元微积分和广义积分收敛性计算概率积分。"
+    },
+    {
+      "title": "谁能通俗地解释下1=0.9循环的含义，感觉永远都差一点啊?",
+      "url": "https://www.zhihu.com/answer/1415334003",
+      "summary": "正文从标准分析与非标准分析解释 0.999... 的定义。"
+    },
+    {
+      "title": "什么情况下，积分和求导可以交换顺序？",
+      "url": "https://www.zhihu.com/answer/1463959777",
+      "summary": "正文把积分求导交换问题置于实分析理论中。"
+    },
+    {
+      "title": "数学分析、实分析为什么都有「分析」两个字。与实变函数和不带「分析」两个字的数学有什么不同？",
+      "url": "https://www.zhihu.com/answer/1475552617",
+      "summary": "正文直接给出与「实分析」相关的解释、推导或应用。"
+    },
+    {
+      "title": "数学中的「分析」是什么意思？",
+      "url": "https://www.zhihu.com/answer/1482481107",
+      "summary": "正文直接给出与「实分析」相关的解释、推导或应用。"
+    },
+    {
+      "title": "概率论的重要基础之一是测度论，为了扎实地学懂概率论，是否有必要在学了初等概率论后再回头把测度论学懂?",
+      "url": "https://www.zhihu.com/answer/1490273747",
+      "summary": "正文直接给出与「实分析」相关的解释、推导或应用。"
+    },
+    {
+      "title": "在微积分教材一开始直接引入 epsilon-delta 语言是否有利？",
+      "url": "https://www.zhihu.com/answer/1495747452",
+      "summary": "正文直接给出与「实分析」相关的解释、推导或应用。"
+    },
+    {
+      "title": "数学分析难在哪里？",
+      "url": "https://www.zhihu.com/answer/1504040827",
+      "summary": "正文以实数连续性、极限、连续、积分和级数问题系统展示实分析难点。"
+    },
+    {
+      "title": "微积分之后，现代数学有哪些新的革命性工具？近年来物理理论没有突破，是不是微积分不够用了？",
+      "url": "https://www.zhihu.com/answer/1515171941",
+      "summary": "正文系统梳理实分析、测度论与泛函分析等现代分析工具。"
+    },
+    {
+      "title": "如何判断一个人适不适合学数学？",
+      "url": "https://www.zhihu.com/answer/1516574171",
+      "summary": "正文把实数系基本定理、ε语言与极限联系起来。"
+    },
+    {
+      "title": "实数在自然界有用吗？",
+      "url": "https://www.zhihu.com/answer/1543299742",
+      "summary": "正文直接讨论实分析，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "实数在自然界有用吗？",
+      "url": "https://www.zhihu.com/answer/1546945732",
+      "summary": "正文从连续性与可观测离散性分析实数在分析自然现象中的作用。"
+    },
+    {
+      "title": "你见过最恶心的函数是什么？",
+      "url": "https://www.zhihu.com/answer/1548019877",
+      "summary": "正文从震荡间断点说明 Volterra 导函数的黎曼不可积性。"
+    },
+    {
+      "title": "有哪些值得推荐的《实分析》（实变函数）教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1550361574",
+      "summary": "正文系统推荐实分析与测度论教材。"
+    },
+    {
+      "title": "数学家们用不等式做什么？",
+      "url": "https://www.zhihu.com/answer/1551424482",
+      "summary": "正文从实数分析和极限估计说明不等式证明的作用。"
+    },
+    {
+      "title": "既然两个分数理论上来说可以无限接近，那么为什么还会出现无理数？",
+      "url": "https://www.zhihu.com/answer/1552015557",
+      "summary": "正文以柯西列和完备性解释实数分析的基础。"
+    },
+    {
+      "title": "压缩映射定理为什么可以证明隐函数定理？",
+      "url": "https://www.zhihu.com/answer/1552548635",
+      "summary": "正文以完备空间中的压缩映射构造隐函数。"
+    },
+    {
+      "title": "数学分析和高等数学到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/1557212382",
+      "summary": "正文从公理、集合论、实数与度量空间比较数学分析和高等数学。"
+    },
+    {
+      "title": "闭区间套定理有什么用啊？",
+      "url": "https://www.zhihu.com/answer/1561515498",
+      "summary": "正文用闭区间套与实数连续性证明连续函数有界性。"
+    },
+    {
+      "title": "如何（优雅地）证明｛sinN｝的上下确界分别是1和-1？",
+      "url": "https://www.zhihu.com/answer/1564824179",
+      "summary": "正文用无理旋转序列的稠密性和实数分析证明三角序列的上下确界。"
+    },
+    {
+      "title": "宇宙是不连续的，那为什么微积分可以成立？",
+      "url": "https://www.zhihu.com/answer/1578836226",
+      "summary": "正文给出可积性定理和间断点分析，属于实分析讨论。"
+    },
+    {
+      "title": "什么时候积分运算和级数求和可以调换顺序？",
+      "url": "https://www.zhihu.com/answer/1579922901",
+      "summary": "正文从可测函数、单调收敛和控制收敛定理讨论积分与级数交换顺序。"
+    },
+    {
+      "title": "为什么数学上一些显而易见的事情数学家们也要编个定理出来？",
+      "url": "https://www.zhihu.com/answer/1583374268",
+      "summary": "正文用有理数域中的零点反例说明实数完备性对连续函数定理的必要性。"
+    },
+    {
+      "title": "为什么数学上一些显而易见的事情数学家们也要编个定理出来？",
+      "url": "https://www.zhihu.com/answer/1584772365",
+      "summary": "正文澄清连续函数在闭区间上的介值定理及其取到性。"
+    },
+    {
+      "title": "为什么数学上一些显而易见的事情数学家们也要编个定理出来？",
+      "url": "https://www.zhihu.com/answer/1585756598",
+      "summary": "正文用数列极限、连续函数和可微函数反例说明实分析条件的重要性。"
+    },
+    {
+      "title": "为什么会对微积分有种「这个思路不是严格推导出来的，而有一点人为规定的成分」的感觉？",
+      "url": "https://www.zhihu.com/answer/1620703496",
+      "summary": "正文比较微积分计算与数学分析的极限、实数基础。"
+    },
+    {
+      "title": "既然勒贝格积分是黎曼积分的改进，那为什么还要学黎曼积分？淘汰黎曼积分，直接学勒贝格积分不好吗？",
+      "url": "https://www.zhihu.com/answer/1638355084",
+      "summary": "正文从实变分析视角说明积分理论与具体计算的分工。"
+    },
+    {
+      "title": "明明复变函数更加的复杂且自由度更加的高，为何它比实变函数更易学？",
+      "url": "https://www.zhihu.com/answer/1643883127",
+      "summary": "正文以实变分析经验反衬复分析更强的结构条件。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/1665671866",
+      "summary": "正文以实变函数中的测度结论说明反直觉现象。"
+    },
+    {
+      "title": "数学分析中常用的不等式公式有哪些？",
+      "url": "https://www.zhihu.com/answer/1678733816",
+      "summary": "正文系统整理数学分析中的常用积分不等式。"
+    },
+    {
+      "title": "为什么不存在一个连续函数，其值在有理数处是无理数，在无理数处是有理数？",
+      "url": "https://www.zhihu.com/answer/1681558532",
+      "summary": "证明核心依赖实分析中的连续函数介值定理。"
+    },
+    {
+      "title": "能否从 cos(x) 和 sin(x) 在 0 点处的 Taylor 展开式出发证明它们是周期函数？",
+      "url": "https://www.zhihu.com/answer/1686540858",
+      "summary": "正文以级数、极限和连续性系统建立严格分析证明。"
+    },
+    {
+      "title": "有哪些值得推荐的数学分析教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1691852211",
+      "summary": "正文比较实分析教材及实数构造方法。"
+    },
+    {
+      "title": "如何评价陶哲轩的实分析II?",
+      "url": "https://www.zhihu.com/answer/1692927443",
+      "summary": "正文评价实分析教材中实数、Lebesgue 积分等内容。"
+    },
+    {
+      "title": "数学分析中完备性的概念？",
+      "url": "https://www.zhihu.com/answer/1715976520",
+      "summary": "正文用 Cauchy 列解释完备性、封闭性与完备化。"
+    },
+    {
+      "title": "哪些数学命题曾经长期被误认为是正确的，但之后被严格证明是错的？",
+      "url": "https://www.zhihu.com/answer/1774074239",
+      "summary": "正文以函数构造和可微性反例进入实分析。"
+    },
+    {
+      "title": "为什么不存在收敛速度最慢的级数？",
+      "url": "https://www.zhihu.com/answer/1774595474",
+      "summary": "正文在实分析语境中讨论正项级数的余项与收敛速度。"
+    },
+    {
+      "title": "第二次数学危机怎么解决的？",
+      "url": "https://www.zhihu.com/answer/1800323841",
+      "summary": "正文梳理极限、实数和 Peano 公理对分析严格化的作用。"
+    },
+    {
+      "title": "分享下本科你读过的写的最好的一本数学书？",
+      "url": "https://www.zhihu.com/answer/1818065548",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "是否存在无理点不连续、有理点连续的函数？",
+      "url": "https://www.zhihu.com/answer/1842017697",
+      "summary": "正文用连续点集、G_delta 集和 Baire 纲定理完成实分析证明。"
+    },
+    {
+      "title": "积分不就是找反导数吗，为什么还有稀奇古怪的积分技巧？",
+      "url": "https://www.zhihu.com/answer/1851218920",
+      "summary": "正文用可积性说明定积分定义并非简单求反导数。"
+    },
+    {
+      "title": "一个函数存在可去间断点没有原函数，但存在可去间断时有变上限积分，且变上限积分可导。矛盾吗？",
+      "url": "https://www.zhihu.com/answer/1875774846",
+      "summary": "正文从定积分存在条件分析变限积分与间断点的关系。"
+    },
+    {
+      "title": "复变函数、实分析、复分析、数学分析是什么关系？",
+      "url": "https://www.zhihu.com/answer/1880296129",
+      "summary": "正文比较数学分析、复分析与实分析的研究范围和关系。"
+    },
+    {
+      "title": "自学《陶哲轩实分析》的难度？",
+      "url": "https://www.zhihu.com/answer/1889563667",
+      "summary": "正文说明教材从基础逐步推进到实分析的勒贝格理论。"
+    },
+    {
+      "title": "有什么你认为很简单的问题实际的证明却很复杂？",
+      "url": "https://www.zhihu.com/answer/1927521976",
+      "summary": "正文直接讨论并支撑「实分析」相关内容。"
+    },
+    {
+      "title": "√8-√2=√2，这是怎么得出来的？",
+      "url": "https://www.zhihu.com/answer/1948929361",
+      "summary": "正文从实数理论严格解释根式等式。"
+    },
+    {
+      "title": "为什么数学上一些显而易见的事情数学家们也要编个定理出来？",
+      "url": "https://www.zhihu.com/answer/1949855482",
+      "summary": "正文从柯西审敛追到实数完备性，说明实分析基础。"
+    },
+    {
+      "title": "1+2+4+8+16+32+64+128+256+...=-1 错在哪里？",
+      "url": "https://www.zhihu.com/answer/1960236773",
+      "summary": "正文从极限和实数拓展讨论发散无穷和。"
+    },
+    {
+      "title": "如何评价 2021 阿里巴巴数学竞赛决赛试题？",
+      "url": "https://www.zhihu.com/answer/1963409884",
+      "summary": "正文通过 bootstrap 和分段估计讨论分析题。"
+    },
+    {
+      "title": "如何评价于品的分析讲义？",
+      "url": "https://www.zhihu.com/answer/2028931905",
+      "summary": "正文讨论数学分析课程中极限、级数、实分析等基础结构。"
+    },
+    {
+      "title": "数学专业的实变函数为什么这么难？",
+      "url": "https://www.zhihu.com/answer/2043188368",
+      "summary": "正文讨论实变函数与测度论的学习难点。"
+    },
+    {
+      "title": "数学专业的实变函数为什么这么难？",
+      "url": "https://www.zhihu.com/answer/2049913482",
+      "summary": "正文讨论实变函数的学习框架和教材。"
+    },
+    {
+      "title": "实变函数，泛函分析，拓扑学中重要的定理概念有哪些？",
+      "url": "https://www.zhihu.com/answer/2128239584",
+      "summary": "正文列出测度、积分和收敛相关的实分析核心定理。"
+    },
+    {
+      "title": "如何证明一个无理数的整数倍数的小数部分在（0，1）上均匀分布？",
+      "url": "https://www.zhihu.com/answer/2133592391",
+      "summary": "正文给出连续周期函数的极限平均与积分极限证明，属于实分析中的收敛论证。"
+    },
+    {
+      "title": "两个小数的积一定是小数吗？",
+      "url": "https://www.zhihu.com/answer/2134286911",
+      "summary": "正文用规范小数、戴德金分割和不可数性讨论实数的分析基础。"
+    },
+    {
+      "title": "学习实变函数是一种什么体验？",
+      "url": "https://www.zhihu.com/answer/2161118596",
+      "summary": "正文总结实分析、测度论与积分理论的联系。"
+    },
+    {
+      "title": "怎么求函数的间断点啊?",
+      "url": "https://www.zhihu.com/answer/2197302569",
+      "summary": "正文以极限和函数值讨论函数的连续性与间断点。"
+    },
+    {
+      "title": "√8-√2=√2，这是怎么得出来的？",
+      "url": "https://www.zhihu.com/answer/2217157219",
+      "summary": "正文使用连续性、最值定理和实分析证明方法。"
+    },
+    {
+      "title": "是否存在在R上严格递增且处处不连续的函数？",
+      "url": "https://www.zhihu.com/answer/2219332635",
+      "summary": "正文证明单调函数间断点至多可数，并联系可积性。"
+    },
+    {
+      "title": "是否存在处处左可导但处处右不可导的函数？",
+      "url": "https://www.zhihu.com/answer/2219528700",
+      "summary": "正文使用实分析中的 Denjoy-Young-Saks 定理和零测集结论。"
+    },
+    {
+      "title": "是否存在在R上严格递增且处处不连续的函数？",
+      "url": "https://www.zhihu.com/answer/2235483577",
+      "summary": "正文证明单调函数间断点至多可列，并推出不存在处处不连续的单调函数。"
+    },
+    {
+      "title": "请问能否列举所有的Borel集？",
+      "url": "https://www.zhihu.com/answer/2236049551",
+      "summary": "正文把 Borel 集与实变函数中的 sigma 代数、Dynkin 定理联系起来。"
+    },
+    {
+      "title": "一个函数的不定积分存在有哪些必要条件或者充分条件？",
+      "url": "https://www.zhihu.com/answer/2253583056",
+      "summary": "正文用 Baire、Lebesgue 与测度性质讨论实分析中的函数刻画。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2284815041",
+      "summary": "正文说明柯西和魏尔斯特拉斯推动微积分严格化与实分析形成。"
+    },
+    {
+      "title": "卓里奇的《数学分析》怎么样？",
+      "url": "https://www.zhihu.com/answer/2287759555",
+      "summary": "正文具体讨论隐函数、测度和积分等实分析内容中的证明问题。"
+    },
+    {
+      "title": "以数学史的观点来看，集合论是如何成为数学基础的？",
+      "url": "https://www.zhihu.com/answer/2298427226",
+      "summary": "正文以柯西序列定义实数，并把相关结果置于实分析背景中。"
+    },
+    {
+      "title": "既然牛顿的导数理论是有问题的，为什么现在高中依然在教牛顿的导数理论而不是威尔斯特拉斯的 ε-δ 语言？",
+      "url": "https://www.zhihu.com/answer/2304949264",
+      "summary": "正文建议通过数学分析补齐严格极限理论。"
+    },
+    {
+      "title": "如何正确使用卓里奇的《数学分析》？",
+      "url": "https://www.zhihu.com/answer/2305380733",
+      "summary": "正文讨论数学分析教材的严格性、内容和学习方式。"
+    },
+    {
+      "title": "既然牛顿的导数理论是有问题的，为什么现在高中依然在教牛顿的导数理论而不是威尔斯特拉斯的 ε-δ 语言？",
+      "url": "https://www.zhihu.com/answer/2305459755",
+      "summary": "正文比较形式化数学与工程应用所需的基础训练。"
+    },
+    {
+      "title": "当数学家刚想出微积分用细矩形面积的和逼近时，矩形的高选取多少呢？为何不怕无限多个小误差之和为大误差？",
+      "url": "https://www.zhihu.com/answer/2309272619",
+      "summary": "正文以达布和、黎曼可积和勒贝格积分讨论实分析概念。"
+    },
+    {
+      "title": "数学分析哪本书比较好，适合有一些薄弱的基础的？",
+      "url": "https://www.zhihu.com/answer/2313764966",
+      "summary": "正文系统讨论实分析中的极限、可积性与函数列等核心内容。"
+    },
+    {
+      "title": "做学术需要搞清楚高级计量经济学里全部的数学原理吗？",
+      "url": "https://www.zhihu.com/answer/2315963048",
+      "summary": "正文讨论实分析等高等数学理论对理论计量和实证计量的不同必要性。"
+    },
+    {
+      "title": "有哪些值得推荐的数学分析教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/2323850847",
+      "summary": "正文梳理从初等微积分到实分析与复分析的分析学课程层级。"
+    },
+    {
+      "title": "纯数而言，你觉得分析更难还是代数更难？",
+      "url": "https://www.zhihu.com/answer/2362257427",
+      "summary": "正文说明本科分析课程以勒贝格积分和现代实分析为主。"
+    },
+    {
+      "title": "数学中有哪些表面没有关系但是内在有深刻联系的问题？",
+      "url": "https://www.zhihu.com/answer/2382848349",
+      "summary": "正文把投影、可测性和贝尔性质放入实分析与测度论语境。"
+    },
+    {
+      "title": "实数的定义是什么？",
+      "url": "https://www.zhihu.com/answer/2404118620",
+      "summary": "正文系统讨论康托尔与戴德金两种实数构造，属于实分析基础。"
+    },
+    {
+      "title": "测度论（measure theory）和实变函数是什么关系？",
+      "url": "https://www.zhihu.com/answer/2512328500",
+      "summary": "解释实变函数课程中的测度内容只是测度论的特殊情形，两者研究方法和结论一脉相承。"
+    },
+    {
+      "title": "为什么定积分计算的近似值是准确值？",
+      "url": "https://www.zhihu.com/answer/2526512809",
+      "summary": "系统讨论黎曼积分的严格定义、存在性与唯一性。"
+    },
+    {
+      "title": "请问Big rudin里这道单调函数几乎处处可微题如何证明?",
+      "url": "https://www.zhihu.com/answer/2537605219",
+      "summary": "证明单调函数的几乎处处可微性，属于实分析典型问题。"
+    },
+    {
+      "title": "数学的泛函分析应该怎么学？",
+      "url": "https://www.zhihu.com/answer/2543332652",
+      "summary": "概述实变函数中的可测性、收敛定理与几乎处处相等。"
+    },
+    {
+      "title": "在数学推演中，如何确定一些数学结论所包含的信息量？",
+      "url": "https://www.zhihu.com/answer/2546645728",
+      "summary": "介绍可计算分析中的 Weihrauch 归约与问题构造内容程度。"
+    },
+    {
+      "title": "是否存在从 (0,1) 到 [0,1] 的连续双射？",
+      "url": "https://www.zhihu.com/answer/2555799041",
+      "summary": "正文运用连续函数的介值性和值域最值分析，讨论区间上连续单射的拓扑性质。"
+    },
+    {
+      "title": "是否存在从 (0,1) 到 [0,1] 的连续双射？",
+      "url": "https://www.zhihu.com/answer/2558412109",
+      "summary": "用连续映射、紧致性和开闭集说明开区间到闭区间不存在连续双射。"
+    },
+    {
+      "title": "很清楚0.99999≠1，但就是推不翻它，有什么漏洞？",
+      "url": "https://www.zhihu.com/answer/2609412992",
+      "summary": "介绍用柯西列或戴德金分割构造实数系的实分析方法。"
+    },
+    {
+      "title": "为什么感觉国外的教材都比国内的厚得多？",
+      "url": "https://www.zhihu.com/answer/2618290472",
+      "summary": "说明从自然数、ZFC、有理数构造实数的实分析基础过程。"
+    },
+    {
+      "title": "ZFC能唯一地确定实数吗？",
+      "url": "https://www.zhihu.com/answer/2619450708",
+      "summary": "用柯西序列和戴德金分割说明实数的公理化构造与完备有序域。"
+    },
+    {
+      "title": "想要自学实变函数与泛函分析该选择哪本教材呢？",
+      "url": "https://www.zhihu.com/answer/2642176896",
+      "summary": "介绍测度论部分的取舍与实分析教材内容。"
+    },
+    {
+      "title": "高一开学，同学在讨论偏导函数、四阶导数，我该怎么办？",
+      "url": "https://www.zhihu.com/answer/2642516083",
+      "summary": "介绍实分析中的 Bolzano-Weierstrass 定理、闭区间套与单调有界原理。"
+    },
+    {
+      "title": "康托尔出于什么目的，或说为解决什么问题而创立的集合论？",
+      "url": "https://www.zhihu.com/answer/2647287657",
+      "summary": "说明康托用柯西序列等价类严格化实数与导集研究。"
+    },
+    {
+      "title": "怎样简洁明了地证明实数集不可数?",
+      "url": "https://www.zhihu.com/answer/2669620058",
+      "summary": "正文从实数的最小上界性质定义实分析对象，并用确界完成不可数性证明。"
+    },
+    {
+      "title": "如何证明 f(x) 在 [0,1] 上最多只有有限个零点？",
+      "url": "https://www.zhihu.com/answer/2673774711",
+      "summary": "正文调用 Bolzano-Weierstrass 定理提取收敛零点列，再结合连续性和极限完成实分析证明。"
+    },
+    {
+      "title": "如何证明既无最大值又无最小值的数列必发散？",
+      "url": "https://www.zhihu.com/answer/2690725303",
+      "summary": "正文利用收敛数列的有界性、上确界下确界和子列极限证明命题，属于实分析中的数列极限论证。"
+    },
+    {
+      "title": "Python中给定一个数组a = [2,3,9,1,0]，找出其中最大的一个数，并打印出来 求解?",
+      "url": "https://www.zhihu.com/answer/2699763271",
+      "summary": "正文借用实数的最上界性质，论证有限实数集的上确界就是其最大值。"
+    },
+    {
+      "title": "请大神比较一下folland的实分析和rudin的实分析与复分析中的实分析部分？",
+      "url": "https://www.zhihu.com/answer/2701818970",
+      "summary": "正文比较 Rudin 与 Folland 两部实分析教材的整体结构、技术路线和内容安排。"
+    },
+    {
+      "title": "如何解决这道简单的数分题？",
+      "url": "https://www.zhihu.com/answer/2708321732",
+      "summary": "用闭区间套定理和单调函数的单侧极限证明存在不动点方程的解。"
+    },
+    {
+      "title": "为什么有人喜欢偏微分方程？",
+      "url": "https://www.zhihu.com/answer/2711004797",
+      "summary": "给出弱解的 H² 先验估计，展示实分析中的不等式放缩方法。"
+    },
+    {
+      "title": "你最(不)想成为什么函数？",
+      "url": "https://www.zhihu.com/answer/2714224726",
+      "summary": "介绍 Cantor 函数连续、单调但导数几乎处处为零的反直觉性质。"
+    },
+    {
+      "title": "你最(不)想成为什么函数？",
+      "url": "https://www.zhihu.com/answer/2716334625",
+      "summary": "正文列出狄利克雷函数处处不连续、极限不存在且黎曼不可积等实分析性质。"
+    },
+    {
+      "title": "Skolem定理和实数的不可数性冲突吗？",
+      "url": "https://www.zhihu.com/answer/2745283256",
+      "summary": "正文通过实数的戴德金完备性和区间套解释实数不可数论证为何不适用于可数模型。"
+    },
+    {
+      "title": "为什么要定义第一纲集和第二纲集？",
+      "url": "https://www.zhihu.com/answer/2746385581",
+      "summary": "正文以连续性、间断点和 Baire 纲定理研究实变函数，并讨论 Baire 层级的分类作用。"
+    },
+    {
+      "title": "如何证明sin n²发散?",
+      "url": "https://www.zhihu.com/answer/2747006239",
+      "summary": "正文用极限点数量和序列在区间内稠密性得出矛盾，属于实分析中的收敛性论证。"
+    },
+    {
+      "title": "觉得《数学分析》的“严谨”没有必要，不想学怎么办?",
+      "url": "https://www.zhihu.com/answer/2778235734",
+      "summary": "正文系统介绍戴德金分割的条件、典型例子以及如何用有理数分割定义实数，属于实分析基础内容。"
+    },
+    {
+      "title": "实直线 (real line) 就是实数集 ℝ 吗？",
+      "url": "https://www.zhihu.com/answer/2869031618",
+      "summary": "正文用有上界子集必有最小上界的完备性刻画实数连续统，属于实分析中的基本性质。"
+    },
+    {
+      "title": "大学为什么要设置学分上限，有什么意义?",
+      "url": "https://www.zhihu.com/answer/2894703374",
+      "summary": "正文明确陈述数列的单调有界收敛定理，这是实分析中关于实数完备性与数列收敛的基本定理。"
+    },
+    {
+      "title": "明明复变函数更加的复杂且自由度更加的高，为何它比实变函数更易学？",
+      "url": "https://www.zhihu.com/answer/2911146696",
+      "summary": "正文比较实变与复变的函数性质，并具体讨论测度论中的函数、L² 空间分解及其研究难点，属于实分析层面的展开。"
+    },
+    {
+      "title": "数学中有哪些看似简单但用途很大的定理?",
+      "url": "https://www.zhihu.com/answer/2923372184",
+      "summary": "正文陈述完备度量空间中的Baire纲定理，并用它讨论一致有界性定理及复分析中的Osgood定理。"
+    },
+    {
+      "title": "有没有处处连续但处处不可导的函数（最好能附上图像）？",
+      "url": "https://www.zhihu.com/answer/3003558924",
+      "summary": "正文完整证明处处连续却处处不可导的维尔斯特拉斯函数，并给出另一种分段线性构造，属于实分析中的典型病态函数。"
+    },
+    {
+      "title": "做数学不同方向的人各有什么特点？",
+      "url": "https://www.zhihu.com/answer/3004605801",
+      "summary": "正文以完备有序域刻画实数，并说明可用戴德金分割或柯西序列等价类构造实数，属于实分析的基础内容。"
+    },
+    {
+      "title": "作为数学系的同学们，你们怎么学习实变函数?",
+      "url": "https://www.zhihu.com/answer/3015897531",
+      "summary": "正文系统回顾实变函数课程中定理证明、测度论和积分理论的学习过程。"
+    },
+    {
+      "title": "既然有了复变函数为什么还要学实变函数？",
+      "url": "https://www.zhihu.com/answer/3020010420",
+      "summary": "正文通过复解析函数与实变量函数的研究对象差异，说明实变函数关注实数上性质较差的函数。"
+    },
+    {
+      "title": "既然有了复变函数为什么还要学实变函数？",
+      "url": "https://www.zhihu.com/answer/3024135320",
+      "summary": "正文用坏函数与好函数的对比概括实分析与复分析的研究对象差异，直接说明实分析关注性质较差的函数。"
+    },
+    {
+      "title": "怎么形象清晰地解释「周期 3 意味着混沌」?",
+      "url": "https://www.zhihu.com/answer/3045168071",
+      "summary": "正文使用连续函数介值定理、区间像与单调收敛论证存在性，展开实分析中的连续性证明。"
+    },
+    {
+      "title": "Fatou引理的等号成立的条件是什么?",
+      "url": "https://www.zhihu.com/answer/3084374780",
+      "summary": "正文围绕 Fatou 引理讨论积分与极限交换的条件，并用能量向无穷散逸、集中尖峰和振荡三类例子分析实分析中的失效机制。"
+    },
+    {
+      "title": "作为数学系的同学们，你们怎么学习实变函数?",
+      "url": "https://www.zhihu.com/answer/3100591551",
+      "summary": "正文以多次学习实变函数的经历串联 Lebesgue 测度、可测函数和收敛定理等实分析核心内容。"
+    },
+    {
+      "title": "怎样理解和使用数列上下极限？",
+      "url": "https://www.zhihu.com/answer/3126865780",
+      "summary": "正文用尾部子列上确界的下确界定义上极限，并分析有限值与正负无穷等情形，属于实分析中的数列极限理论。"
+    },
+    {
+      "title": "从分析角度看，紧集这一定义的数学动机是什么？",
+      "url": "https://www.zhihu.com/answer/3144607979",
+      "summary": "正文解释紧集如何用有限个局部邻域控制整体性质，并联系实分析中的最值定理。"
+    },
+    {
+      "title": "为什么exp（-1/x^2）不能用泰勒公式展开？",
+      "url": "https://www.zhihu.com/answer/3193540646",
+      "summary": "正文用处处光滑但处处不实解析的函数，具体说明光滑性与实解析性之间的区别。"
+    },
+    {
+      "title": "有哪些数学教材值得精读？",
+      "url": "https://www.zhihu.com/answer/3203036805",
+      "summary": "正文介绍《陶哲轩实分析》把实数定义为有理数柯西序列的等价类，并解释其为线性空间的完备化。"
+    },
+    {
+      "title": "觉得《数学分析》的“严谨”没有必要，不想学怎么办?",
+      "url": "https://www.zhihu.com/answer/3204372273",
+      "summary": "正文以魏尔斯特拉斯处处连续处处不可导函数为例，说明病态反例如何推动数学分析走向严格化。"
+    },
+    {
+      "title": "微分符号，dx，dy到底是什么含义？",
+      "url": "https://www.zhihu.com/answer/3219921506",
+      "summary": "正文以柯西、魏尔斯特拉斯的极限理论说明微积分的严谨化，并比较实无穷与非标准分析的基础观点。"
+    },
+    {
+      "title": "能说一本或几本在你在学数学路上对你影响最大的一本书吗？",
+      "url": "https://www.zhihu.com/answer/3243590474",
+      "summary": "正文概述该书从抽象积分引入、以泛函表示引入 Lebesgue 测度，并讨论 Riesz 表示和 Lp 空间。"
+    },
+    {
+      "title": "数分的核心是什么？为什么说数分重要？",
+      "url": "https://www.zhihu.com/answer/3251201200",
+      "summary": "正文围绕数学分析中的实数理论、极限、连续、积分和收敛性，说明严格基础的必要性。"
+    },
+    {
+      "title": "想学好研究生泛函分析，需要那些先修课？",
+      "url": "https://www.zhihu.com/answer/3283326294",
+      "summary": "正文说明实分析中的积分收敛定理、Lebesgue 空间完备性和绝对连续性如何支撑泛函分析。"
+    },
+    {
+      "title": "明明复变函数更加的复杂且自由度更加的高，为何它比实变函数更易学？",
+      "url": "https://www.zhihu.com/answer/3306333316",
+      "summary": "正文通过解析函数的刚性与实变函数的逐点任意性对比，概括实分析研究对象的核心差异。"
+    },
+    {
+      "title": "拓扑学的动机和核心是什么？",
+      "url": "https://www.zhihu.com/answer/3325708407",
+      "summary": "正文借助 Heine-Borel 定理、序列紧致性和极值定理，分析欧氏空间与连续函数的紧致性结论。"
+    },
+    {
+      "title": "纯数而言，你觉得分析更难还是代数更难？",
+      "url": "https://www.zhihu.com/answer/3326063254",
+      "summary": "正文说明分析从传统微积分推广到勒贝格积分、空间推广和算子理论等现代分析内容。"
+    },
+    {
+      "title": "能否推荐一本思维比较开放的数分教材？",
+      "url": "https://www.zhihu.com/answer/3328701568",
+      "summary": "正文集中讨论最小上界原理、实数完备性、极值定理与介值定理，展开实分析基础理论。"
+    },
+    {
+      "title": "研究生pde方向，读研前要学会哪些课程？",
+      "url": "https://www.zhihu.com/answer/3328794322",
+      "summary": "正文具体列出可测性、可积性和可微性定理，说明实变函数在分析学习与 PDE 研究中的作用。"
+    },
+    {
+      "title": "怎么判断一个孩子有没有数学天赋？",
+      "url": "https://www.zhihu.com/answer/3359515706",
+      "summary": "正文讨论有理数集的空隙及其子集缺少最值，并借实数集作对照，涉及实数线的完备性直觉。"
+    },
+    {
+      "title": "定义实数的五种方法，你知道么？",
+      "url": "https://www.zhihu.com/answer/3359856978",
+      "summary": "正文比较戴德金分割、柯西列、区间套、公理化等多种实数构造，属于实分析基础中的实数定义。"
+    },
+    {
+      "title": "最近网上吵0.9999999……的循环等于1你赞成吗？",
+      "url": "https://www.zhihu.com/answer/3393066905",
+      "summary": "正文讨论实数完备性及其确界、单调有界收敛和连续性等基本性质，并以此排除缝隙点。"
+    },
+    {
+      "title": "√8-√2=√2，这是怎么得出来的？",
+      "url": "https://www.zhihu.com/answer/3440989566",
+      "summary": "正文用实数完备性的确界原理证明正数平方根存在，再结合唯一性完成根式论证。"
+    },
+    {
+      "title": "既然有了复变函数为什么还要学实变函数？",
+      "url": "https://www.zhihu.com/answer/3451429990",
+      "summary": "正文以处处连续处处不可导函数、处处不连续函数和不可测集为例，讨论实变函数带来的函数观变化。"
+    },
+    {
+      "title": "数学分析的基本手段有哪些？",
+      "url": "https://www.zhihu.com/answer/3460356920",
+      "summary": "正文把硬分析概括为不等式放缩、积分换序、换元等估计与计算手段，具体讨论了实分析式的研究方法。"
+    },
+    {
+      "title": "是否推荐用《陶哲轩实分析》入门数学分析？",
+      "url": "https://www.zhihu.com/answer/3492435219",
+      "summary": "正文具体辨析实分析与数学分析、实变函数论的区别，并概述其严谨重建极限、连续性和可微性的内容。"
+    },
+    {
+      "title": "为什么说Calderon-Zygmund分解是F.Riesz日升引理的推广?",
+      "url": "https://www.zhihu.com/answer/3526923682",
+      "summary": "正文给出日升引理及 L1 版本的证明思路，说明其与 Calderon-Zygmund 分解的精细性差异，属于实分析中的覆盖与分解定理。"
+    },
+    {
+      "title": "（sinln1+sinln2+...+sinlnn）/n极限存在吗?",
+      "url": "https://www.zhihu.com/answer/3533268599",
+      "summary": "正文以二阶导数上界估计离散和与积分的误差，并证明误差除以 n 后趋于零，属于实分析中的极限与积分估计。"
+    },
+    {
+      "title": "如何评价 2024 年阿里全球数学竞赛决赛试题？难度怎么样？",
+      "url": "https://www.zhihu.com/answer/3539140392",
+      "summary": "正文用范数估计和 Bolzano–Weierstrass 定理讨论乘积序列收敛时提取分量收敛子列的实分析论证。"
+    },
+    {
+      "title": "如何评价 2024 年阿里全球数学竞赛决赛试题？难度怎么样？",
+      "url": "https://www.zhihu.com/answer/3539761806",
+      "summary": "正文讨论 Sobolev 型不等式临界值，并用局部二次函数和 Littlewood 极大函数给出证明思路，属于实分析中的不等式方法。"
+    },
+    {
+      "title": "集合论中有没有经典的“大炮打蚊子”的证明？",
+      "url": "https://www.zhihu.com/answer/3545735516",
+      "summary": "正文完整论证实数上的解析集均 Lebesgue 可测，是实分析与描述集合论中的测度结论。"
+    },
+    {
+      "title": "如何评价陶哲轩的实分析II?",
+      "url": "https://www.zhihu.com/answer/3557142155",
+      "summary": "正文以陶哲轩从自然数、整数、有理数到实数重建数系、再讨论级数与收敛为例，具体介绍实分析的严密基础。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/3592510496",
+      "summary": "正文以实数子集的最小上界性质作为数学分析第一课的核心定理，属于实分析的基础内容。"
+    },
+    {
+      "title": "为什么感觉函数极限和连续性的定义很鸡肋?",
+      "url": "https://www.zhihu.com/answer/3592949309",
+      "summary": "正文以 Dirichlet、Thomae 和 Weierstrass 函数讨论极限、连续与可微性，属于实分析中的典型反例。"
+    },
+    {
+      "title": "把[0,1]的所有实数乘起来结果是多少？",
+      "url": "https://www.zhihu.com/answer/3595203061",
+      "summary": "正文用有限子集和的上确界严格构造集合上的无限和，说明不可数正数集的和发散，属于实分析中的收敛与集合求和论证。"
+    },
+    {
+      "title": "为什么rudin实分析里有很多泛函分析的东西?",
+      "url": "https://www.zhihu.com/answer/3616520032",
+      "summary": "正文围绕实分析与泛函分析的教学分类展开，并用共同对象说明两门课程在研究中的实际联系。"
+    },
+    {
+      "title": "如何评价丘成桐说，数学家绝不是「两个馒头，一瓶水」这么简单，只不过大众喜欢听这种好笑的事？",
+      "url": "https://www.zhihu.com/answer/16117901267",
+      "summary": "正文解释上确界与下确界，说明确界原理体现实数连续性，并把它与戴德金分割、单调有界定理、柯西准则及极限理论联系起来，属于实分析内容。"
+    },
+    {
+      "title": "大二的菜狗想问问数学分析到底在干啥？",
+      "url": "https://www.zhihu.com/answer/28339086921",
+      "summary": "正文以多项式逼近、连续性和一致收敛为中心，对比微积分与数学分析，解释数学分析的理论框架。"
+    },
+    {
+      "title": "最近网上吵0.9999999……的循环等于1你赞成吗？",
+      "url": "https://www.zhihu.com/answer/44438761886",
+      "summary": "正文比较了柯西列等价类和十进制小数两类实数构造，并讨论它们对极限与微积分基础的影响。"
+    },
+    {
+      "title": "数学博士连非标准分析都没听说过，是谁的错？",
+      "url": "https://www.zhihu.com/answer/48347233648",
+      "summary": "正文说明非标准分析的定义、无穷小与无穷大，以及其结论和标准实分析体系的等价关系。"
+    },
+    {
+      "title": "分析学中的 Heine 归结原理的证明是否需要选择公理？",
+      "url": "https://www.zhihu.com/answer/71779777919",
+      "summary": "正文构造实数子集上的函数，利用聚点、数列收敛与连续性在 ZF 中分离的结果给出实分析反例。"
+    },
+    {
+      "title": "蛇年将至，如何用你的兴趣/专业技能画一条蛇？",
+      "url": "https://www.zhihu.com/answer/85637477019",
+      "summary": "正文完整讲解 Blancmange 曲线的构造、连续性估计和处处不可导证明，属于实分析中的函数性质讨论。"
+    },
+    {
+      "title": "如何看待王虹和 Joshua Zahl 在 arXiv 发布对三维挂谷（Kakeya）猜想的证明？",
+      "url": "https://www.zhihu.com/answer/110828727591",
+      "summary": "正文从可积函数、零测集、维数和极大函数讨论三维 Kakeya 问题，属于实分析中的深入内容。"
+    },
+    {
+      "title": "如何看待王虹和 Joshua Zahl 在 arXiv 发布对三维挂谷（Kakeya）猜想的证明？",
+      "url": "https://www.zhihu.com/answer/114871373197",
+      "summary": "正文说明挂谷问题的积分来源本质上涉及实分析中的Fubini定理。"
+    },
+    {
+      "title": "f(a＋b) = f(a) + f(b) 一定说明 f(x) 是一次函数吗？",
+      "url": "https://www.zhihu.com/answer/1898579414926750798",
+      "summary": "正文讨论实数上满足可加性却处处不连续、无界且图像稠密的病态函数。"
+    },
+    {
+      "title": "为何面积可以微积分，周长就不行？",
+      "url": "https://www.zhihu.com/answer/1898743046947988426",
+      "summary": "正文从空间维数与低维测度是否为零解释逼近收敛条件，属于实分析中的测度与极限讨论。"
+    },
+    {
+      "title": "为何面积可以微积分，周长就不行？",
+      "url": "https://www.zhihu.com/answer/1899306809388401213",
+      "summary": "正文以曲线空间中的度量、连续性和柯西列分析面积与周长逼近，并联系黎曼积分、勒贝格积分及弱导数。"
+    },
+    {
+      "title": "值得深读一辈子的一本书是哪一本?",
+      "url": "https://www.zhihu.com/answer/1911754785624945516",
+      "summary": "正文介绍把实数定义为有理数柯西序列等价类，并以完备化解释实分析中的数系构造。"
+    },
+    {
+      "title": "明明复变函数更加的复杂且自由度更加的高，为何它比实变函数更易学？",
+      "url": "https://www.zhihu.com/answer/1916182336845886847",
+      "summary": "正文系统比较复变与实变的入门门槛，并列出实变函数所需的基础概念和学习顺序。"
+    },
+    {
+      "title": "是否存在处处连续但无处可微的函数? 如何构造？",
+      "url": "https://www.zhihu.com/answer/1927106506026877388",
+      "summary": "正文用第一纲集与 Baire 纲定理证明无处可微函数在连续函数空间中稠密，属于实分析论证。"
+    },
+    {
+      "title": "复数之外还有数吗？",
+      "url": "https://www.zhihu.com/answer/1928251653791908278",
+      "summary": "正文用有理数域中柯西列未必收敛解释实数完备性与实分析基础。"
+    },
+    {
+      "title": "如何判断一个人适不适合学数学？",
+      "url": "https://www.zhihu.com/answer/1938130615661762231",
+      "summary": "正文列举闭区间套、上确界存在、单调有界收敛、聚点定理与柯西准则等实分析核心结论。"
+    },
+    {
+      "title": "无理数为什么符合有理数的运算规律？",
+      "url": "https://www.zhihu.com/answer/1938252329859150631",
+      "summary": "正文以有理柯西列的完备化构造实数，并讨论度量空间的不完备性、闭包和完备性。"
+    },
+    {
+      "title": "你觉得有什么数学定理中含有哲理？",
+      "url": "https://www.zhihu.com/answer/1938354460150698260",
+      "summary": "正文完整陈述实分析中的旭日东升引理，说明点集E的开区间结构及有限区间端点函数值相等。"
+    },
+    {
+      "title": "如何理解法图（Fatou）引理？",
+      "url": "https://www.zhihu.com/answer/1944366480364896413",
+      "summary": "正文通过移动高峰反例和单调收敛定理给出实分析中积分与极限交换的证明思路。"
+    },
+    {
+      "title": "如何证明下面这个普普通通的积分不等式?",
+      "url": "https://www.zhihu.com/answer/1952539955663470981",
+      "summary": "正文使用富比尼－托内利定理处理非负函数积分，并结合 L² 估计证明严格的不等式。"
+    },
+    {
+      "title": "萌新第一次学数学分析时，非常繁琐的实数理论要不要跳过？",
+      "url": "https://www.zhihu.com/answer/1953807021418721530",
+      "summary": "正文解释实数的定义、大小比较、四则运算和确界原理为何是数学分析严格化的基础。"
+    },
+    {
+      "title": "如何评价人教 A 版数学教材主编章建跃指出「有些劣质教辅资料制造出的理论名词，懂数学的人都看不懂」？",
+      "url": "https://www.zhihu.com/answer/1956879536764486648",
+      "summary": "正文陈述连续函数在闭区间取得最大值和最小值，并说明可通过比较端点值与内部驻点值来求解。"
+    },
+    {
+      "title": "Fourier分析对后续数学学习有何帮助?",
+      "url": "https://www.zhihu.com/answer/1956968803494765484",
+      "summary": "正文以Weierstrass判别、控制收敛和函数空间范数估计展示实分析中的定量估计方法。"
+    },
+    {
+      "title": "数学中有哪些有趣的构造性证明？",
+      "url": "https://www.zhihu.com/answer/1957090013230658850",
+      "summary": "正文构造处处不单调的单射，并证明间断点集可数、测度为零，进而说明函数几乎处处连续。"
+    },
+    {
+      "title": "完备性/稠密性/紧致性/列紧性/连通性/可分性，这些概念的直观物理/几何意义是什么样的？",
+      "url": "https://www.zhihu.com/answer/1961392652089005363",
+      "summary": "正文在度量空间中定义柯西序列与完备性，以实数和函数空间为例分析收敛性。"
+    },
+    {
+      "title": "作为数学系的同学们，你们怎么学习实变函数?",
+      "url": "https://www.zhihu.com/answer/1963051719404544933",
+      "summary": "正文直接讨论实变函数的学科特点，并围绕测度、收敛、积分和反例给出学习主线。"
+    },
+    {
+      "title": "是否存在一个光滑函数，其Taylor级数几乎处处不收敛于该函数？",
+      "url": "https://www.zhihu.com/answer/1965351120449835349",
+      "summary": "正文从光滑性、实解析性和 Baire 纲集条件深入分析实函数的光滑与解析差异。"
+    },
+    {
+      "title": "为什么极限的 ε-N 和 ε-δ 语言具有划时代的意义？",
+      "url": "https://www.zhihu.com/answer/1985299194358039796",
+      "summary": "正文用鲁津定理具体说明实分析中借助 ε 允许例外集并构造连续逼近。"
+    },
+    {
+      "title": "如果让你选择一条冷门，简单易懂且优美的数学结论，你会选择哪条？",
+      "url": "https://www.zhihu.com/answer/1988367062209435350",
+      "summary": "正文以连续函数、函数值比较和区间分解具体说明日出引理，属于实分析中的函数与集合结构结论。"
+    },
+    {
+      "title": "如何解决这个逆天难定积分？",
+      "url": "https://www.zhihu.com/answer/1990876669918074718",
+      "summary": "正文先证明密度函数属于 L1，再用控制收敛定理交换极限与积分，属于实分析中的收敛论证。"
+    },
+    {
+      "title": "分析为什么不被看作代数呢?",
+      "url": "https://www.zhihu.com/answer/1994085353984917603",
+      "summary": "正文以测度空间、勒贝格控制收敛等说明实分析如何抽象并允许积分号下取极限。"
+    },
+    {
+      "title": "如何理解vitali覆盖？（维塔利覆盖）?",
+      "url": "https://www.zhihu.com/answer/2010042007108723875",
+      "summary": "正文解释维塔利覆盖中贪心选取不交子族的面积下界与常数倍覆盖思路，属于实分析中的覆盖论证。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2014774167774454493",
+      "summary": "正文说明实分析严格化依赖实数完备性，并介绍戴德金分割和柯西序列构造实数。"
+    },
+    {
+      "title": "数学中，「代数」和「分析」的方法分别是什么？有什么不同？",
+      "url": "https://www.zhihu.com/answer/2028602986054558333",
+      "summary": "正文以逼近、收敛和交换极限顺序为主线，概括分析学通过严格极限论证研究问题的特点。"
+    },
+    {
+      "title": "数学中的「分析」是什么意思？",
+      "url": "https://www.zhihu.com/answer/2032255206692479548",
+      "summary": "正文专节说明实分析如何借助几乎处处、L^p、测度和弱收敛来控制函数列极限。"
+    },
+    {
+      "title": "证明完备性有没有套路可言？",
+      "url": "https://www.zhihu.com/answer/2032417728112367428",
+      "summary": "正文系统讨论勒贝格收敛定理、L^p 完备性及其极限交换，属于实分析的核心理论。"
+    },
+    {
+      "title": "如果让你重新开始学数学，你的学习路线会怎么选择?",
+      "url": "https://www.zhihu.com/answer/2035711684745090367",
+      "summary": "正文以实数完备性、极限和连续函数定理搭建微积分的实分析基础。"
+    },
+    {
+      "title": "俄罗斯的数学教育为什么那么强大？",
+      "url": "https://www.zhihu.com/answer/2036377147053446743",
+      "summary": "正文通过叶戈罗夫定理说明可测函数两种收敛方式的关系，属于实分析内容。"
+    },
+    {
+      "title": "请问如何理解极限的精确定义？",
+      "url": "https://www.zhihu.com/answer/2039468325193904278",
+      "summary": "正文说明ε-δ语言使数学家能够检验病态函数，体现了实分析对函数性质的精确定义。"
+    },
+    {
+      "title": "什么是「测度论」？",
+      "url": "https://www.zhihu.com/answer/2039834426566259953",
+      "summary": "正文系统讨论 Lebesgue 测度与积分、收敛定理、Fubini 定理和概率测度，属于实分析核心框架。"
+    },
+    {
+      "title": "拓扑学的动机和核心是什么？",
+      "url": "https://www.zhihu.com/answer/2043672379755386267",
+      "summary": "正文比较逐点收敛、一致收敛和 L^p 收敛，并讨论函数空间中的弱拓扑与弱紧性，属于实分析中的收敛理论。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/2048437656430949042",
+      "summary": "正文给出全平面有界调和函数为常数的Liouville定理，并用平均值的圆盘尺度论证完成证明。"
+    },
+    {
+      "title": "为什么数学上一些显而易见的事情数学家们也要编个定理出来？",
+      "url": "https://www.zhihu.com/answer/2049821152076472598",
+      "summary": "正文以有理数域中的反例说明实数完备性，并回顾戴德金分割和实分析严格化。"
+    },
+    {
+      "title": "π+0.0000000001这个数为啥如此接近π？",
+      "url": "https://www.zhihu.com/answer/2054351209302118928",
+      "summary": "正文区分有理数在实数中的稠密性与实数自身的稠密性，并用中点构造说明实数区间内总有更近的数。"
+    },
+    {
+      "title": "你见过最难得数学分析题有哪些？",
+      "url": "https://www.zhihu.com/answer/2054361785398997179",
+      "summary": "正文给出球上 L1 积分引理及其反证证明，使用有限覆盖、正则半径和极限点论证完成实分析估计。"
+    },
+    {
+      "title": "已知f(x+y)=f(x)g(y)+g(x)f(y)……能推出f(x),g(x)是三角函数吗？",
+      "url": "https://www.zhihu.com/answer/2062217629490852408",
+      "summary": "正文以 Hamel 基构造病态加性函数，并讨论可测性、Baire 性质及连续性等实分析正则性条件。"
+    },
+    {
+      "title": "复分析和实分析有什么不同？",
+      "url": "https://www.zhihu.com/answer/2072088893395046764",
+      "summary": "正文从解析函数的刚性与实函数的病态行为对比切入，系统说明实分析研究连续性、可微性和可积性边界的特点。"
+    },
+    {
+      "title": "2.1 微积分的进化（1）——积跬步以至千里",
+      "url": "https://zhuanlan.zhihu.com/p/20449546",
+      "summary": "正文以分段函数的不可微点说明黎曼积分与微分互逆的局限，并由此引出测度观点下的改进。"
+    },
+    {
+      "title": "2.2 微积分的进化（2）——论吃汉堡的正确姿势",
+      "url": "https://zhuanlan.zhihu.com/p/20465767",
+      "summary": "正文用零测集刻画黎曼可积性，并介绍单调收敛定理、Fatou 引理、控制收敛定理和 Lusin 定理。"
+    },
+    {
+      "title": "2.5 微积分的进化（5）——一维光滑函数的超进化",
+      "url": "https://zhuanlan.zhihu.com/p/20588696",
+      "summary": "正文围绕弱导数、绝对连续函数及其牛顿-莱布尼茨公式讨论一维实分析中的可微与积分关系。"
+    },
+    {
+      "title": "2.7* 微积分的进化（7）——从牛顿到庞加莱",
+      "url": "https://zhuanlan.zhihu.com/p/20704015",
+      "summary": "正文从绝对连续、弱导数与积分表示出发讨论函数空间和 Poincare 不等式，属于实分析主题。"
+    },
+    {
+      "title": "谈谈无穷大、函数的可积以及无穷小的等价替换",
+      "url": "https://zhuanlan.zhihu.com/p/23128692",
+      "summary": "正文以实数分析中的有界函数与间断点条件讨论黎曼可积性及不可积情形。"
+    },
+    {
+      "title": "数列的上/下确界与上/下极限的区别和联系",
+      "url": "https://zhuanlan.zhihu.com/p/23859974",
+      "summary": "正文严格定义实数集合的上、下确界及其 epsilon 判定条件，再以截尾上、下确界刻画数列的上、下极限。"
+    },
+    {
+      "title": "集合列的上/下确界和上/下极限",
+      "url": "https://zhuanlan.zhihu.com/p/24006717",
+      "summary": "正文用可数交、可数并及其极限定义集合列的确界和上下极限，是实分析中的集合序列极限。"
+    },
+    {
+      "title": "一名工科生眼中的数学分析（上）",
+      "url": "https://zhuanlan.zhihu.com/p/24636107",
+      "summary": "正文从数集、欧几里得空间、度量空间、函数和极限搭建数学分析的整体框架，属于实分析导论。"
+    },
+    {
+      "title": "实变函数学十遍 | 初学实分析有感",
+      "url": "https://zhuanlan.zhihu.com/p/26055866",
+      "summary": "正文比较数学分析与实分析，说明实分析由集合论、测度和可测函数构造出的抽象体系。"
+    },
+    {
+      "title": "微积分的历史（二），起源之牛顿",
+      "url": "https://zhuanlan.zhihu.com/p/26982434",
+      "summary": "正文讨论可积的充分条件、积分上限函数的可导性，以及含第一类间断点函数的原函数存在性。"
+    },
+    {
+      "title": "震惊！这个函数严格递增，导函数却几乎为0！",
+      "url": "https://zhuanlan.zhihu.com/p/27651496",
+      "summary": "正文以 Baire 纲定理分析导函数零点集的稠密性与基数，属于实分析中的典型论证。"
+    },
+    {
+      "title": "分析笔记-调和函数及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/31601750",
+      "summary": "正文从球体均值性质出发证明调和函数的正则性，属于实分析中的核心结论。"
+    },
+    {
+      "title": "实分析|笔记整理（1）——概念引入，外测度",
+      "url": "https://zhuanlan.zhihu.com/p/31982152",
+      "summary": "正文从实分析中弧长、面积和体积的统一度量问题出发，系统介绍测度论的基础概念与证明。"
+    },
+    {
+      "title": "实分析|笔记整理（2）——勒贝格测度及相关举例",
+      "url": "https://zhuanlan.zhihu.com/p/33180264",
+      "summary": "全文是实分析笔记，系统讨论可测集、勒贝格测度、逼近定理和不可测集。"
+    },
+    {
+      "title": "拓扑学|笔记整理（2）——数域系统，笛卡尔积，有限集",
+      "url": "https://zhuanlan.zhihu.com/p/33249330",
+      "summary": "正文讨论实数系的最小上界性、线性连续统及阿基米德性质，属于实分析中的完备性基础。"
+    },
+    {
+      "title": "实分析|笔记整理（3）——可测函数",
+      "url": "https://zhuanlan.zhihu.com/p/33350896",
+      "summary": "正文围绕可测函数、几乎处处相等、简单函数逼近和 Littlewood 三原则展开，属于实分析的函数与收敛理论。"
+    },
+    {
+      "title": "无界和无穷大的区别",
+      "url": "https://zhuanlan.zhihu.com/p/33492206",
+      "summary": "正文区分函数整体无界的性质与自变量趋于某点或无穷时函数值无限增大的过程，属于实分析中的有界性和无穷大量概念。"
+    },
+    {
+      "title": "积分的极限定理",
+      "url": "https://zhuanlan.zhihu.com/p/33566658",
+      "summary": "正文按定义域和值域的不同划分比较黎曼积分与勒贝格积分，并说明可测函数与一致连续的差别。"
+    },
+    {
+      "title": "实分析|笔记整理（6）——富比尼定理",
+      "url": "https://zhuanlan.zhihu.com/p/33761437",
+      "summary": "正文以可测性、几乎处处结论和单调收敛定理展开实分析中的积分理论。"
+    },
+    {
+      "title": "实分析|笔记整理（7）——积分可微性",
+      "url": "https://zhuanlan.zhihu.com/p/33834703",
+      "summary": "正文系统证明哈代－李特尔伍德极大函数估计和勒贝格可微定理，并讨论局部可积函数与勒贝格集合。"
+    },
+    {
+      "title": "实分析|笔记整理（8）——核，恒等逼近，函数可微性（1）",
+      "url": "https://zhuanlan.zhihu.com/p/33866656",
+      "summary": "正文系统讨论恒等逼近核、勒贝格点处的收敛定理、函数可微性及有界变差函数。"
+    },
+    {
+      "title": "实分析|笔记整理（9）——函数可微性（2）",
+      "url": "https://zhuanlan.zhihu.com/p/33879863",
+      "summary": "正文以有界变差函数几乎处处可微为主定理，并给出Dini数、单调分解和覆盖论证，属于实分析中的可微性理论。"
+    },
+    {
+      "title": "实分析Ⅱ|笔记整理（1）——集合论补充，相关应用习题举例（1）",
+      "url": "https://zhuanlan.zhihu.com/p/34191290",
+      "summary": "正文属于实分析补充笔记，涵盖集合论、可数性及函数连续性等实分析基础。"
+    },
+    {
+      "title": "实分析Ⅱ|笔记整理（2）——开集，闭集等集合性质深化",
+      "url": "https://zhuanlan.zhihu.com/p/34893497",
+      "summary": "正文系统讲解极限点、开集、闭集、覆盖、Borel 集和 Baire 定理，并给出证明与反例。"
+    },
+    {
+      "title": "《实变函数论与泛函分析(上册)》夏道行版可能的错误",
+      "url": "https://zhuanlan.zhihu.com/p/35747763",
+      "summary": "正文逐页讨论实变函数教材中的集合、测度、可测函数与积分证明错误，属于实分析内容。"
+    },
+    {
+      "title": "1.1 Ring和Algebra",
+      "url": "https://zhuanlan.zhihu.com/p/35796249",
+      "summary": "正文围绕实变函数所需的数列上下极限、集合列极限和特征函数展开定义与证明。"
+    },
+    {
+      "title": "数学分析笔记整理（一）",
+      "url": "https://zhuanlan.zhihu.com/p/36244377",
+      "summary": "正文陈述确界原理及其与实数完备性定理的等价关系，属于实分析中的上下确界与完备性。"
+    },
+    {
+      "title": "2.1 可测函数的定义",
+      "url": "https://zhuanlan.zhihu.com/p/36844540",
+      "summary": "正文系统讲解实分析与测度论中的可测函数定义、等价刻画、逆像性质和连续性关系。"
+    },
+    {
+      "title": "可测空间，测度空间以及完全测度空间概念辨析",
+      "url": "https://zhuanlan.zhihu.com/p/36975685",
+      "summary": "正文以可测函数、函数列极限和积分为主线，说明可测空间与测度空间为何是实分析的基础。"
+    },
+    {
+      "title": "2.3 Egoroff定理和Lusin定理",
+      "url": "https://zhuanlan.zhihu.com/p/36952467",
+      "summary": "正文在测度空间上陈述并证明Egoroff定理，讨论几乎处处收敛与几乎一致收敛的关系。"
+    },
+    {
+      "title": "2.4 依测度收敛（Converge in measure）",
+      "url": "https://zhuanlan.zhihu.com/p/37034124",
+      "summary": "正文系统定义依测度收敛，证明其线性运算、乘积和唯一性等实分析性质。"
+    },
+    {
+      "title": "实数理论的七个基本定理",
+      "url": "https://zhuanlan.zhihu.com/p/38074232",
+      "summary": "正文以确界原理为起点，系统列出实数理论基本定理并给出循环等价证明。"
+    },
+    {
+      "title": "微分、积分、微积分、导数之详细辨别",
+      "url": "https://zhuanlan.zhihu.com/p/38337248",
+      "summary": "正文梳理古典微积分的无穷小困难及十九世纪以极限为基础重建实分析严格性的过程。"
+    },
+    {
+      "title": "如何证明迭代式策略评价、值迭代和策略迭代的收敛性？",
+      "url": "https://zhuanlan.zhihu.com/p/39279611",
+      "summary": "正文用度量空间、柯西序列、完备性和序列收敛证明迭代不动点，属于实分析中的收敛理论。"
+    },
+    {
+      "title": "数学分析笔记（二）——实数理论",
+      "url": "https://zhuanlan.zhihu.com/p/38393931",
+      "summary": "正文系统整理实数完备公理、确界、上下界、极限点和柯西列，并给出多个完备性定理及其证明。"
+    },
+    {
+      "title": "实变函数笔记 第一章 集合",
+      "url": "https://zhuanlan.zhihu.com/p/39791883",
+      "summary": "正文从黎曼积分局限切入，介绍实变函数论的目标、集合论基础及后续测度与积分路线。"
+    },
+    {
+      "title": "实变函数笔记 第二章 点集",
+      "url": "https://zhuanlan.zhihu.com/p/40052296",
+      "summary": "正文以度量空间、邻域、聚点、开闭集、紧集和康托尔集为主线，系统展开实分析中的点集理论。"
+    },
+    {
+      "title": "数学分析笔记整理（二）",
+      "url": "https://zhuanlan.zhihu.com/p/36274583",
+      "summary": "正文围绕实数域讨论上确界、阿基米德性、有理数稠密性、n 次方根存在性及相应证明。"
+    },
+    {
+      "title": "实变函数笔记 第三章 测度论",
+      "url": "https://zhuanlan.zhihu.com/p/41378421",
+      "summary": "正文以实变函数中的外测度、可测集、零测度集和不可测集为主线展开严格证明。"
+    },
+    {
+      "title": "实变函数考前笔记[结论篇]",
+      "url": "https://zhuanlan.zhihu.com/p/42416924",
+      "summary": "正文整理可测函数列的几乎处处收敛、依测度收敛与积分收敛定理，属于实分析核心内容。"
+    },
+    {
+      "title": "实变函数笔记 第四章 可测函数",
+      "url": "https://zhuanlan.zhihu.com/p/42874522",
+      "summary": "正文属于实变函数核心内容，系统讲解可测函数的定义、运算、逼近、依测度收敛及相关定理。"
+    },
+    {
+      "title": "Dedekind切割定理与实数连续性",
+      "url": "https://zhuanlan.zhihu.com/p/43168454",
+      "summary": "正文证明实数切割必有左侧最大数或右侧最小数，并由此讨论实数连续性和确界存在定理。"
+    },
+    {
+      "title": "完备空间，致密集，紧集和完全有界集，稠密集等概念辨析",
+      "url": "https://zhuanlan.zhihu.com/p/44095505",
+      "summary": "正文辨析度量空间中的完备性、列紧性、完全有界性、紧性和稠密性，并推导它们之间的关系。"
+    },
+    {
+      "title": "数学分析笔记整理（四）",
+      "url": "https://zhuanlan.zhihu.com/p/44390864",
+      "summary": "正文在 R^k 的度量空间中证明紧集、闭集、完全集及连通性定理，实质讲解实分析中的点集拓扑基础。"
+    },
+    {
+      "title": "实数的定义",
+      "url": "https://zhuanlan.zhihu.com/p/45225730",
+      "summary": "正文以戴德金原理刻画实数域的完备性，并证明其两种表述等价。"
+    },
+    {
+      "title": "集合的上界与上确界及上确界的性质",
+      "url": "https://zhuanlan.zhihu.com/p/45002244",
+      "summary": "正文定义上界与上确界，说明实数集非空有上界必有上确界，并用 ε 条件给出证明方法。"
+    },
+    {
+      "title": "关于实数的构造的一些探索",
+      "url": "https://zhuanlan.zhihu.com/p/45913286",
+      "summary": "正文从有理数出发，用柯西基本列等价类和戴德金分划两种方法构造实数并讨论完备性。"
+    },
+    {
+      "title": "零点存在定理与介值定理（上）",
+      "url": "https://zhuanlan.zhihu.com/p/45811434",
+      "summary": "正文陈述零点存在定理与介值定理，并用闭区间套、确界及连续性完成证明。"
+    },
+    {
+      "title": "狄利克雷函数与黎曼函数在其定义域内函数极限、连续以及可导的总结",
+      "url": "https://zhuanlan.zhihu.com/p/46592787",
+      "summary": "正文讨论狄利克雷函数和黎曼函数的极限、连续、可导与可积性，属于实分析中的病态函数。"
+    },
+    {
+      "title": "实数的完备性定理",
+      "url": "https://zhuanlan.zhihu.com/p/48859870",
+      "summary": "系统陈述并证明实数完备性、极限、连续与连通等实分析基本定理。"
+    },
+    {
+      "title": "从Riemann积分到Lebesgue积分",
+      "url": "https://zhuanlan.zhihu.com/p/49262150",
+      "summary": "正文从黎曼积分局限出发介绍可测函数与勒贝格积分，并明确归属实分析。"
+    },
+    {
+      "title": "实数集不可数的非对角线证明(Cantor's first uncountability proof)",
+      "url": "https://zhuanlan.zhihu.com/p/51203067",
+      "summary": "正文定义实数的稠密性与完备性，并用嵌套区间和最小上界构造不可数性证明，属于实分析中的集合与完备性论证。"
+    },
+    {
+      "title": "集合序列的极限",
+      "url": "https://zhuanlan.zhihu.com/p/51955647",
+      "summary": "正文在实分析语境中完整证明集合序列上下极限的定义与其元素刻画等价，分析逐步取下标和极限行为。"
+    },
+    {
+      "title": "单调函数",
+      "url": "https://zhuanlan.zhihu.com/p/53620176",
+      "summary": "正文证明单调函数的左右极限存在、间断点分类及至多可数，属于实分析中关于单调函数结构的典型结论。"
+    },
+    {
+      "title": "浅谈度量空间（metric space）",
+      "url": "https://zhuanlan.zhihu.com/p/54041981",
+      "summary": "正文将实数列极限的距离结构抽象为度量空间，并在其中定义收敛与连续等分析概念，对应实分析。"
+    },
+    {
+      "title": "搞懂Cantor（康托）集",
+      "url": "https://zhuanlan.zhihu.com/p/54711962",
+      "summary": "正文以Cantor集说明实分析中的反例，并证明其闭性、完全性与疏朗性等分析性质。"
+    },
+    {
+      "title": "【分析】20190129 关于达布定理",
+      "url": "https://zhuanlan.zhihu.com/p/55978370",
+      "summary": "正文把达布定理与连续函数介值定理比较，分析导函数的第一类间断点和定号性质，属于实分析内容。"
+    },
+    {
+      "title": "The Cauchy Definition of a Definite Integral",
+      "url": "https://zhuanlan.zhihu.com/p/59637169",
+      "summary": "正文使用振幅、分割和小区间总长刻画Riemann可积性，是实分析中的可积性讨论。"
+    },
+    {
+      "title": "数学分析（一）【直观理解有限覆盖定理】",
+      "url": "https://zhuanlan.zhihu.com/p/66236305",
+      "summary": "正文在数学分析框架内讲解有限覆盖定理、开覆盖及闭区间有限子覆盖的直观意义。"
+    },
+    {
+      "title": "11.3 Fubini-Tonelli 定理",
+      "url": "https://zhuanlan.zhihu.com/p/67721176",
+      "summary": "正文完整证明 Fubini-Tonelli 定理及完备化版本，核心是实分析中的可测函数、积分与收敛定理。"
+    },
+    {
+      "title": "《数学分析教程》史济怀常庚哲课后习题答案-1.1实数",
+      "url": "https://zhuanlan.zhihu.com/p/68502071",
+      "summary": "正文从实数的小数表示、稠密性和极限逼近讨论有理数与无理数的分析性质。"
+    },
+    {
+      "title": "《数学分析教程》史济怀常庚哲课后习题答案-1.3收敛数列的性质",
+      "url": "https://zhuanlan.zhihu.com/p/74537919",
+      "summary": "正文系统整理数学分析教材中收敛数列性质、夹逼定理及极限存在性的证明。"
+    },
+    {
+      "title": "存在有理数点连续、无理数点不连续的函数吗？",
+      "url": "https://zhuanlan.zhihu.com/p/75648294",
+      "summary": "正文讨论实数集上函数的连续点集，并给出完整的实分析式证明。"
+    },
+    {
+      "title": "【泛函基础 1.2】开集和闭集",
+      "url": "https://zhuanlan.zhihu.com/p/82329820",
+      "summary": "正文讨论度量空间的开闭集、聚点、闭包与连续映射，并给出证明，对应实分析。"
+    },
+    {
+      "title": "七大实数理论与互推",
+      "url": "https://zhuanlan.zhihu.com/p/84625424",
+      "summary": "正文系统讲解确界原理等实数完备性定理，并给出这些定理之间的相互推导。"
+    },
+    {
+      "title": "可测集",
+      "url": "https://zhuanlan.zhihu.com/p/93520278",
+      "summary": "正文通过内外测度及其相等条件定义可测集，属于实分析中的测度基础。"
+    },
+    {
+      "title": "概率极限笔记——a.s/依概率/依分布/Lp收敛对比分析",
+      "url": "https://zhuanlan.zhihu.com/p/93832795",
+      "summary": "正文以勒贝格控制收敛和单调收敛定理讲解实分析中的极限与积分交换问题。"
+    },
+    {
+      "title": "积分与极限互换顺序的问题",
+      "url": "https://zhuanlan.zhihu.com/p/94510465",
+      "summary": "正文围绕数学分析中的函数列收敛以及极限与积分交换问题展开三个经典定理。"
+    },
+    {
+      "title": "实变函数论基本脉络",
+      "url": "https://zhuanlan.zhihu.com/p/94662972",
+      "summary": "正文按集合、测度、可测函数、积分和收敛定理系统概括了实变函数论主线。"
+    },
+    {
+      "title": "无穷连根式的Polya判别法",
+      "url": "https://zhuanlan.zhihu.com/p/97966928",
+      "summary": "正文给出单调数列、上极限与有界性相结合的完整收敛性证明，属于实分析中的极限论证。"
+    },
+    {
+      "title": "微积分期末笔记：反常积分收敛性",
+      "url": "https://zhuanlan.zhihu.com/p/101310338",
+      "summary": "正文以比较、比阶、绝对收敛、Dirichlet 和 Abel 判别法系统讨论反常积分的实分析收敛理论。"
+    },
+    {
+      "title": "强化学习中无处不在的贝尔曼最优性方程，背后的数学原理为何？",
+      "url": "https://zhuanlan.zhihu.com/p/108484403",
+      "summary": "正文以柯西序列、完备度量空间和压缩映射证明巴拿赫不动点定理，并用它说明贝尔曼算子的收敛性。"
+    },
+    {
+      "title": "“病态”的Weierstrass函数——从级数到不可微性的证明",
+      "url": "https://zhuanlan.zhihu.com/p/112726225",
+      "summary": "正文在数学分析框架内证明Weierstrass函数的连续、一致连续和处处不可微性质。"
+    },
+    {
+      "title": "数学分析笔记（rudin）",
+      "url": "https://zhuanlan.zhihu.com/p/112841533",
+      "summary": "正文围绕最小上界性质、完备性和实数系展开，属于实分析基础内容。"
+    },
+    {
+      "title": "测度论整理（二）",
+      "url": "https://zhuanlan.zhihu.com/p/113345748",
+      "summary": "正文在实分析框架内给出测度扩张与完全化定理的条件和结论。"
+    },
+    {
+      "title": "集合中的上极限与下极限",
+      "url": "https://zhuanlan.zhihu.com/p/116829467",
+      "summary": "正文从概率测度角度解释Borel-Cantelli引理，说明概率和有限时无穷多次发生的事件测度为零。"
+    },
+    {
+      "title": "收敛性与有界性",
+      "url": "https://zhuanlan.zhihu.com/p/136266830",
+      "summary": "正文围绕收敛与有界的关系，证明Bolzano-Weierstrass型子列收敛定理，属于实分析基础。"
+    },
+    {
+      "title": "谢惠民习题讲义部分答案以及数分讲义习题整理",
+      "url": "https://zhuanlan.zhihu.com/p/139608291",
+      "summary": "正文用测度积分、Holder不等式和函数空间估计证明关于积分范数的实分析不等式。"
+    },
+    {
+      "title": "数学分析主要定理及推论整理（一）",
+      "url": "https://zhuanlan.zhihu.com/p/147209155",
+      "summary": "正文整理实数完备性的确界原理、区间套、聚点和有限覆盖等基本定理。"
+    },
+    {
+      "title": "实分析笔记——Lp空间",
+      "url": "https://zhuanlan.zhihu.com/p/159125371",
+      "summary": "正文从测度空间上的可积函数出发，讨论Lp范数、收敛、完备性和对偶空间，属于实分析主题。"
+    },
+    {
+      "title": "可积的条件",
+      "url": "https://zhuanlan.zhihu.com/p/161472226",
+      "summary": "正文证明达布和单调性、达布定理以及黎曼可积的充分必要条件，属于实分析中的严格积分理论。"
+    },
+    {
+      "title": "有限覆盖定理证明其他实数完备性定理",
+      "url": "https://zhuanlan.zhihu.com/p/163511044",
+      "summary": "正文系统展示有限覆盖定理与确界、单调有界、区间套、聚点及 Cauchy 收敛等实数完备性结论之间的证明关系。"
+    },
+    {
+      "title": "一些数学分析不错的题目",
+      "url": "https://zhuanlan.zhihu.com/p/188768746",
+      "summary": "正文运用闭集、孤立点、完全集和区间覆盖等实分析概念证明处处某阶导数为零的函数是多项式。"
+    },
+    {
+      "title": "谨记！进击的紧集！！（一）",
+      "url": "https://zhuanlan.zhihu.com/p/189976295",
+      "summary": "正文在度量空间和实数分析背景下讨论紧集、有限子覆盖及其有界性，具体展开了一个实分析核心概念。"
+    },
+    {
+      "title": "关于黎曼函数的可积性（'～'）",
+      "url": "https://zhuanlan.zhihu.com/p/260023019",
+      "summary": "正文从实分析的可积性判别出发，给出不依赖勒贝格判别法的完整证明。"
+    },
+    {
+      "title": "实分析学习笔记(0)",
+      "url": "https://zhuanlan.zhihu.com/p/260838198",
+      "summary": "正文系统铺陈实数完备性、开闭集、Borel 集和连续函数等实分析基础。"
+    },
+    {
+      "title": "实分析学习笔记(1)",
+      "url": "https://zhuanlan.zhihu.com/p/261361018",
+      "summary": "正文系统讲授外测度、可测集及其性质，并以这些内容展开实分析基础。"
+    },
+    {
+      "title": "数学分析Mathematical Analysis笔记整理 第三章 极限与连续",
+      "url": "https://zhuanlan.zhihu.com/p/262934873",
+      "summary": "正文从实数基本定理、数列极限、函数极限到连续性和闭区间定理构建数学分析基础证明。"
+    },
+    {
+      "title": "QTMC酱的数学分析笔记 -1- 用Dedekind分割构造实数",
+      "url": "https://zhuanlan.zhihu.com/p/266213204",
+      "summary": "正文证明戴德金分割满足确界存在原理、Archimedes 性和实数完备性。"
+    },
+    {
+      "title": "数学分析笔记|一个与周期函数有关的特殊积分公式",
+      "url": "https://zhuanlan.zhihu.com/p/267802567",
+      "summary": "正文利用分段估计、Darboux 和及无穷积分尾部控制完成实分析中的收敛证明。"
+    },
+    {
+      "title": "第十一讲 闭区间上连续函数的性质",
+      "url": "https://zhuanlan.zhihu.com/p/268300421",
+      "summary": "正文系统讲解闭区间上连续函数的有界性、最值定理、零点定理与介值定理，并以零点定理证明方程有根，属于实分析中的连续函数性质。"
+    },
+    {
+      "title": "Big Rudin：Real And Complex Analysis使用攻略上（实分析部分）",
+      "url": "https://zhuanlan.zhihu.com/p/285429591",
+      "summary": "正文逐章评述测度、积分、微分、积空间和收敛定理等标准实分析内容及其学习难点。"
+    },
+    {
+      "title": "可导函数的导函数一定连续吗？",
+      "url": "https://zhuanlan.zhihu.com/p/295282188",
+      "summary": "正文在实分析层面区分导函数可能出现的振荡间断点与其他三类间断点。"
+    },
+    {
+      "title": "我的数分笔记（八）",
+      "url": "https://zhuanlan.zhihu.com/p/289354600",
+      "summary": "正文严格证明极限唯一性、局部有界性、夹逼性、Heine 定理和 Cauchy 收敛原理。"
+    },
+    {
+      "title": "我的数分笔记（七）",
+      "url": "https://zhuanlan.zhihu.com/p/272688710",
+      "summary": "正文围绕实数完备性证明闭区间套、Bolzano-Weierstrass 与 Cauchy 收敛原理等基本定理。"
+    },
+    {
+      "title": "那些处处连续，处处不可导的曲线",
+      "url": "https://zhuanlan.zhihu.com/p/317111833",
+      "summary": "正文以连续无处可导函数及填满空间的曲线说明实分析中的病态函数与几何直觉问题。"
+    },
+    {
+      "title": "概率论笔记(11)——随机变量族的一致可积",
+      "url": "https://zhuanlan.zhihu.com/p/335343020",
+      "summary": "正文给出随机变量族一致可积的定义，证明其等价刻画以及 L1 收敛准则，属于实分析中的积分收敛理论。"
+    },
+    {
+      "title": "《数学分析》5. 确界原理 的几种证明方式",
+      "url": "https://zhuanlan.zhihu.com/p/335888107",
+      "summary": "正文围绕实数完备性中的确界原理给出三种证明，并用上界、上确界和 epsilon 条件完成论证。"
+    },
+    {
+      "title": "高等数学的精髓在于抽象地理解和处理函数",
+      "url": "https://zhuanlan.zhihu.com/p/336788784",
+      "summary": "正文研究连续函数空间上的范数、极限和完备性，是实分析中的函数空间论证。"
+    },
+    {
+      "title": "Big Rudin：Real And Complex Analysis使用攻略下（复分析部分）",
+      "url": "https://zhuanlan.zhihu.com/p/338097316",
+      "summary": "正文评述测度、积分、收敛等实分析方法如何贯穿复分析、调和函数和函数空间章节。"
+    },
+    {
+      "title": "证明函数有界的方法总结",
+      "url": "https://zhuanlan.zhihu.com/p/338277946",
+      "summary": "正文系统总结放缩、定义、运算、单调性、闭区间连续性和极限等证明函数有界的方法。"
+    },
+    {
+      "title": "消失的紧性——分析学中的紧集",
+      "url": "https://zhuanlan.zhihu.com/p/343228278",
+      "summary": "正文在度量空间中联系紧集、有界闭集、序列紧性与 Bolzano-Weierstrass 定理。"
+    },
+    {
+      "title": "第一次就能看懂的勒贝格（Lebesgue）积分（一）",
+      "url": "https://zhuanlan.zhihu.com/p/343599708",
+      "summary": "正文从实数集合的上确界、下确界和非负级数出发构造积分概念，属于实分析基础内容。"
+    },
+    {
+      "title": "捋一捋定积分中的达布定理",
+      "url": "https://zhuanlan.zhihu.com/p/344866541",
+      "summary": "正文在实分析框架下讨论有界函数的达布和、确界与积分极限。"
+    },
+    {
+      "title": "半连续性（Semi-continuous）",
+      "url": "https://zhuanlan.zhihu.com/p/346776579",
+      "summary": "正文在数学分析框架下定义上半连续与下半连续函数，并说明半连续性弱于连续性。"
+    },
+    {
+      "title": "凸函数是连续函数的证明",
+      "url": "https://zhuanlan.zhihu.com/p/347746331",
+      "summary": "正文先证明区间上凸函数连续，再把多元凸函数限制到各坐标方向，化归为一维实分析论证。"
+    },
+    {
+      "title": "黎曼函数（Riemann function）",
+      "url": "https://zhuanlan.zhihu.com/p/350744131",
+      "summary": "正文证明有理数在实数中稠密时黎曼函数的连续点结构，属于实分析中的函数性态讨论。"
+    },
+    {
+      "title": "Holder不等式（赫尔德不等式）",
+      "url": "https://zhuanlan.zhihu.com/p/351079165",
+      "summary": "正文利用连续函数、定积分和对数函数的凹性证明赫尔德不等式，属于实分析中的积分不等式。"
+    },
+    {
+      "title": "数学篇18-反常积分的审敛法（一定要熟练掌握）",
+      "url": "https://zhuanlan.zhihu.com/p/353396396",
+      "summary": "正文给出反常积分敛散性的证明，用积分上限函数的有界性论证收敛，属于严格的分析推理。"
+    },
+    {
+      "title": "二、5.概念辨析：点x0处或点x0邻域内极限存在、连续、可导、n阶可导以及连续可导等高数词语的意义及联系",
+      "url": "https://zhuanlan.zhihu.com/p/354625175",
+      "summary": "正文以邻域、极限、连续、可导及病态函数例证讨论实分析中逐点性质与局部性质的区别。"
+    },
+    {
+      "title": "实变函数要点总结(复试必背)",
+      "url": "https://zhuanlan.zhihu.com/p/355789338",
+      "summary": "正文以可数性、可测函数和收敛定理等要点系统复习实变函数与实分析基础。"
+    },
+    {
+      "title": "第一次就能看懂的勒贝格（Lebesgue）积分（五）——积分的定义",
+      "url": "https://zhuanlan.zhihu.com/p/349758334",
+      "summary": "正文系统讨论可测函数、测度连续性、简单函数逼近和积分线性性，属于实分析内容。"
+    },
+    {
+      "title": "数学分析Mathematical Analysis笔记整理 第九章 再论实数系",
+      "url": "https://zhuanlan.zhihu.com/p/356736033",
+      "summary": "正文围绕实数连续性、紧性、完备性和可积性系统证明多项等价定理，属于实分析专题。"
+    },
+    {
+      "title": "实变函数第01讲（绪论：完备化史，勒贝格积分思想；集合：交并补，序列极限）",
+      "url": "https://zhuanlan.zhihu.com/p/359935002",
+      "summary": "正文以积分完备化历史和集合序列极限为线索，展开实分析课程的核心问题。"
+    },
+    {
+      "title": "实变函数第04讲（集合：点的分类与点集的分类）",
+      "url": "https://zhuanlan.zhihu.com/p/360463670",
+      "summary": "正文在 n 维实数空间中系统讨论点集分类、闭包、稠密与完备集及其证明，属于实分析的集合与拓扑基础。"
+    },
+    {
+      "title": "当数论遇上分析（8）——素数定理的初等证明",
+      "url": "https://zhuanlan.zhihu.com/p/360922451",
+      "summary": "正文利用积分不等式、Lipschitz连续性、积分换序和极限分析完成素数定理的实分析证明。"
+    },
+    {
+      "title": "数学分析：截断函数与Borel引理",
+      "url": "https://zhuanlan.zhihu.com/p/361840790",
+      "summary": "正文通过截断函数、级数一致收敛和逐项求导构造光滑函数，属于实分析中的经典论证。"
+    },
+    {
+      "title": "关于Weierstrass函数",
+      "url": "https://zhuanlan.zhihu.com/p/361909188",
+      "summary": "正文围绕Weierstrass函数证明其连续性、不可导性，并讨论Holder连续等实分析性质。"
+    },
+    {
+      "title": "等度连续",
+      "url": "https://zhuanlan.zhihu.com/p/362154056",
+      "summary": "正文在连续函数空间中证明紧性判据，属于实分析中的一致收敛与紧性理论。"
+    },
+    {
+      "title": "实变函数第10讲（测度：代数与σ代数，Borel σ代数，集合论测试题）",
+      "url": "https://zhuanlan.zhihu.com/p/364129544",
+      "summary": "正文以集合代数、Borel σ代数和Cantor集构造证明可测集结构，属于实分析的测度论基础。"
+    },
+    {
+      "title": "亿道积分题(一)",
+      "url": "https://zhuanlan.zhihu.com/p/365044615",
+      "summary": "正文使用Riemann可积充要条件证明Riemann引理，并系统运用积分中值定理与积分估计。"
+    },
+    {
+      "title": "essential supremum (本质上确界, ess sup)",
+      "url": "https://zhuanlan.zhihu.com/p/367472127",
+      "summary": "正文解释“几乎处处”只排除零测集，并用处处上确界与本质上确界的对比说明实分析中的几乎处处思想。"
+    },
+    {
+      "title": "实变函数第14讲（可测函数：Egoroff定理证明，依测度收敛）",
+      "url": "https://zhuanlan.zhihu.com/p/369536281",
+      "summary": "正文属于实分析中的可测函数收敛理论，系统使用可测集、测度与收敛定义完成定理证明。"
+    },
+    {
+      "title": "实变函数第15讲（可测函数：几乎处处收敛与测度收敛，依测度基本列，Riesz定理与Lusin定理）",
+      "url": "https://zhuanlan.zhihu.com/p/369665174",
+      "summary": "正文围绕可测函数、依测度收敛和 Lusin 定理展开实变函数分析。"
+    },
+    {
+      "title": "数学分析(一)复习之六大实数系基本定理",
+      "url": "https://zhuanlan.zhihu.com/p/371518428",
+      "summary": "正文围绕实数系六大基本定理展开，并证明有界数列、闭区间套、有限覆盖和实数完备性之间的关系。"
+    },
+    {
+      "title": "Sobolev的主要嵌入定理",
+      "url": "https://zhuanlan.zhihu.com/p/373803117",
+      "summary": "正文以Lp估计、Holder不等式、Riesz位势和稠密性完整证明Sobolev嵌入定理，属于实分析内容。"
+    },
+    {
+      "title": "函数序列的Dini定理(狄尼定理)",
+      "url": "https://zhuanlan.zhihu.com/p/375518650",
+      "summary": "正文把有限覆盖定理与实数完备性用于 Dini 定理的必要性证明。"
+    },
+    {
+      "title": "数学分析Mathematical Analysis笔记整理 第十四章 傅里叶级数",
+      "url": "https://zhuanlan.zhihu.com/p/375165065",
+      "summary": "正文在绝对可积、逐项积分和均方收敛等框架下证明黎曼-勒贝格定理及一系列实分析结论。"
+    },
+    {
+      "title": "数学分析中函数的“阶”的含义思考",
+      "url": "https://zhuanlan.zhihu.com/p/380165648",
+      "summary": "正文研究实函数的渐近阶、等价类偏序、极大全序扩充和积分判别应用，属于实分析讨论。"
+    },
+    {
+      "title": "【数分笔记】§1 戴德金定理、单调有界定理",
+      "url": "https://zhuanlan.zhihu.com/p/382110302",
+      "summary": "正文在戴德金完备性基础上构造上界集合的分割，证明单调有界数列收敛，属于实分析中的完备性定理。"
+    },
+    {
+      "title": "实变函数补充（2）：L^p空间的完备性与可分性",
+      "url": "https://zhuanlan.zhihu.com/p/389323582",
+      "summary": "正文在实分析的测度框架下使用几乎处处收敛、零测集和 Fatou 引理证明 Lp 完备性。"
+    },
+    {
+      "title": "Baire纲定理的一些简单理解",
+      "url": "https://zhuanlan.zhihu.com/p/390754455",
+      "summary": "正文围绕 Baire 纲定理解释第一纲集、第二纲集、完备度量空间及其在实分析一致性证明中的应用。"
+    },
+    {
+      "title": "偏微分方程(三)——平均值公式及调和函数性质",
+      "url": "https://zhuanlan.zhihu.com/p/392032581",
+      "summary": "正文用缓镇函数与卷积证明调和函数光滑，并结合紧致覆盖、L1 与 L∞ 估计讨论正则性和局部性质。"
+    },
+    {
+      "title": "实分析笔记（一）：集合&测度",
+      "url": "https://zhuanlan.zhihu.com/p/396683902",
+      "summary": "正文系统整理实分析中的外测度、可测集构造及其测度性质。"
+    },
+    {
+      "title": "实分析笔记（四）：有界变差&绝对连续",
+      "url": "https://zhuanlan.zhihu.com/p/397044812",
+      "summary": "正文围绕全变差、有界变差、Jordan 分解与绝对连续展开实分析定义和定理。"
+    },
+    {
+      "title": "Froullani integral（傅汝兰尼积分）笔记",
+      "url": "https://zhuanlan.zhihu.com/p/403591184",
+      "summary": "正文使用积分中值定理、Fubini 换序和积分号下求导等实分析工具推导并计算反常积分。"
+    },
+    {
+      "title": "发散数列一定无界吗？无界数列一定是无穷大量吗？",
+      "url": "https://zhuanlan.zhihu.com/p/413017891",
+      "summary": "正文讨论上确界、下确界及数列上下极限，并用它们刻画有界、收敛和正负无穷大量。"
+    },
+    {
+      "title": "关于 Stolz 定理的证明 (1)",
+      "url": "https://zhuanlan.zhihu.com/p/413693606",
+      "summary": "正文在实数数列与实值极限框架下严格证明 Stolz 定理，并辨析常见错误论证。"
+    },
+    {
+      "title": "实分析(Advanced)1",
+      "url": "https://zhuanlan.zhihu.com/p/417273824",
+      "summary": "正文以 σ 代数、Borel 集、乘积 σ 代数和可分度量空间为例，系统讲解实分析的基础结构。"
+    },
+    {
+      "title": "欧拉常数——最神秘的数字，调和级数的产物，至今看不清它的面貌",
+      "url": "https://zhuanlan.zhihu.com/p/422551555",
+      "summary": "正文用有界性和单调性结合单调收敛定理证明欧拉常数对应的极限存在。"
+    },
+    {
+      "title": "【实变函数1】实变函数是在干甚么事情？",
+      "url": "https://zhuanlan.zhihu.com/p/422538398",
+      "summary": "正文从黎曼积分的局限出发，系统解释实变函数为何需要可测性、测度与更一般的积分理论。"
+    },
+    {
+      "title": "​数学是所有科学的女王，如果你打算放弃数学，请先看看这篇文章",
+      "url": "https://zhuanlan.zhihu.com/p/427412971",
+      "summary": "正文说明连续不保证光滑，并把实分析作为修正微积分中不严谨假设、为连续性和可微性提供严格论证的基础。"
+    },
+    {
+      "title": "隐函数存在定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/427763701",
+      "summary": "正文用局部保号性、介值定理、严格单调性和构造邻域完成隐函数存在唯一性与连续性证明。"
+    },
+    {
+      "title": "数学分析中的有趣问题（1）",
+      "url": "https://zhuanlan.zhihu.com/p/430567574",
+      "summary": "正文讨论可导函数导函数的间断点、用连续函数列逼近导数并证明导函数局部有界，属于实分析论证。"
+    },
+    {
+      "title": "数学分析中的反例（1）",
+      "url": "https://zhuanlan.zhihu.com/p/434921153",
+      "summary": "正文以狄利克雷函数、黎曼函数和十三进制构造系统展示连续性、单调性与介值性质的反例。"
+    },
+    {
+      "title": "数分笔记 | 七大基本实数理论的证明及互推",
+      "url": "https://zhuanlan.zhihu.com/p/435626158",
+      "summary": "正文系统证明确界存在、单调有界、闭区间套、聚点、有限覆盖和 Cauchy 收敛等实数完备性定理及其互推。"
+    },
+    {
+      "title": "实数上的良序是一个病态集合",
+      "url": "https://zhuanlan.zhihu.com/p/437119954",
+      "summary": "正文在实分析框架下讨论实数良序、Borel 集和病态集合的构造。"
+    },
+    {
+      "title": "几乎处处收敛和依概率收敛",
+      "url": "https://zhuanlan.zhihu.com/p/439010146",
+      "summary": "正文在概率与可测空间框架下解释几乎处处收敛和依概率收敛的区别，属于实分析中的收敛讨论。"
+    },
+    {
+      "title": "中科大数学分析(B)试题解答(4)——积分不等式",
+      "url": "https://zhuanlan.zhihu.com/p/441416526",
+      "summary": "正文运用积分中值定理、变限积分求导、Cauchy-Schwarz 不等式和单调性完成严格分析证明。"
+    },
+    {
+      "title": "存在非Borel的解析集: Suslin是如何给Lebesgue纠错的",
+      "url": "https://zhuanlan.zhihu.com/p/449221076",
+      "summary": "正文讲解波兰空间上的Borel层级、解析集及其与实分析中常见集合族的关系。"
+    },
+    {
+      "title": "连续函数的有界定理与最值定理",
+      "url": "https://zhuanlan.zhihu.com/p/451686174",
+      "summary": "正文系统证明闭区间连续函数的有界性定理和最值定理，属于实分析中的基本定理及证明。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】1.1 压缩映像原理（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/453968069",
+      "summary": "正文讨论柯西列与完备性，并用有理数列逼近π说明实数完备性。"
+    },
+    {
+      "title": "复旦大学2021-2022秋季学期高数A（上）压轴题",
+      "url": "https://zhuanlan.zhihu.com/p/454773051",
+      "summary": "全文以实函数的连续、可导、极限与积分性质完成一道实分析综合证明。"
+    },
+    {
+      "title": "数学分析笔记——紧集与连续函数",
+      "url": "https://zhuanlan.zhihu.com/p/455454615",
+      "summary": "正文在度量空间中证明紧集的闭性、有界性，以及闭区间和紧集闭子集的紧性，系统展开实分析中的紧集理论。"
+    },
+    {
+      "title": "关于导函数间断点的探讨",
+      "url": "https://zhuanlan.zhihu.com/p/459668314",
+      "summary": "正文证明导函数不存在第一类间断点，并用达布定理讨论连续、介值性和间断性的强弱关系，属于实分析论证。"
+    },
+    {
+      "title": "集合列（集列）的上下极限",
+      "url": "https://zhuanlan.zhihu.com/p/464063028",
+      "summary": "正文以交集、并集和尾集刻画集列收敛，属于实分析中集合极限的基本语言。"
+    },
+    {
+      "title": "任意给出两个正实数 a 、 b，必存在正整数 n，使 na>b 实数的阿基米德性怎么证?",
+      "url": "https://zhuanlan.zhihu.com/p/466977705",
+      "summary": "正文系统讨论实数阿基米德性，并用戴德金分割和确界原理展开实数完备性相关证明。"
+    },
+    {
+      "title": "实分析习题整理（第一章 测度论）",
+      "url": "https://zhuanlan.zhihu.com/p/470244840",
+      "summary": "正文整理实分析第一章习题，证明 Cantor 集、可测集、可测函数、收敛与连续逼近等一系列实分析命题。"
+    },
+    {
+      "title": "黎曼可积的条件",
+      "url": "https://zhuanlan.zhihu.com/p/484170265",
+      "summary": "正文引入达布上下和与上下积分，证明有界函数黎曼可积的充要条件，属于实分析中的积分理论。"
+    },
+    {
+      "title": "【数学分析】实数的构造的一些想法",
+      "url": "https://zhuanlan.zhihu.com/p/486251837",
+      "summary": "正文系统比较柯西列与戴德金分割两种实数构造，并讨论其确界与有序域性质。"
+    },
+    {
+      "title": "【科普】如何理解实数的完备性？",
+      "url": "https://zhuanlan.zhihu.com/p/492999683",
+      "summary": "正文以有理柯西列和戴德金分割两种构造解释实数完备性，并区分完备性与稠密性。"
+    },
+    {
+      "title": "2021-2022年数学分析II期中考试解析",
+      "url": "https://zhuanlan.zhihu.com/p/499710884",
+      "summary": "正文证明范数差的 epsilon-delta 控制和有限维范数等价不等式，属于数学分析中的论证。"
+    },
+    {
+      "title": "【数学分析新讲笔记】10.3广义积分收敛定理及判别法",
+      "url": "https://zhuanlan.zhihu.com/p/502543462",
+      "summary": "正文在实分析框架下讨论广义积分与黎曼可积性、收敛性及 Dirichlet、Abel 判别法。"
+    },
+    {
+      "title": "Sobolev空间(1)",
+      "url": "https://zhuanlan.zhihu.com/p/503020931",
+      "summary": "正文用分布意义下的积分恒等式定义弱导数，并研究 Lp 函数的微分性质。"
+    },
+    {
+      "title": "Luzin定理：重温与升华",
+      "url": "https://zhuanlan.zhihu.com/p/502936783",
+      "summary": "正文在实分析中研究可测函数与连续函数的关系，给出 Luzin 定理的证明和逆定理。"
+    },
+    {
+      "title": "Egoroff定理：重温与升华",
+      "url": "https://zhuanlan.zhihu.com/p/503514372",
+      "summary": "正文系统展开实分析中的 Egoroff 定理证明思路，并比较 Luzin、Dini 与 Stein 的方法。"
+    },
+    {
+      "title": "处处连续处处不可导的函数",
+      "url": "https://zhuanlan.zhihu.com/p/512900866",
+      "summary": "正文用完备度量空间、Baire纲定理和函数空间中的稠密性研究处处连续处处不可导函数。"
+    },
+    {
+      "title": "Banach–Zaretsky定理|①Luzin (N)-性质与增长引理",
+      "url": "https://zhuanlan.zhihu.com/p/516721880",
+      "summary": "正文围绕有界变差函数与绝对连续函数的关系展开，讨论并证明 Banach-Zaretsky 实分析定理。"
+    },
+    {
+      "title": "实变函数期末复习（详细知识点总结&定理证明&课后习题）",
+      "url": "https://zhuanlan.zhihu.com/p/530210723",
+      "summary": "正文按测度、可测函数、积分与收敛定理梳理实变函数理论框架。"
+    },
+    {
+      "title": "一类与平均值有关的n重积分极限问题（上）",
+      "url": "https://zhuanlan.zhihu.com/p/536979529",
+      "summary": "正文使用 Weierstrass 多项式逼近和控制收敛定理，把多项式结论推广到连续函数极限。"
+    },
+    {
+      "title": "“小心评论区数学家给你证明 0.999……=1”",
+      "url": "https://zhuanlan.zhihu.com/p/539323737",
+      "summary": "正文以戴德金分割构造实数，并讨论实数完备性、序关系和四则运算。"
+    },
+    {
+      "title": "Steinhaus定理的证明，推广，和应用（丘赛分析第三题）",
+      "url": "https://zhuanlan.zhihu.com/p/557287800",
+      "summary": "正文以实分析定理及其证明为主线，进一步推广结论并用它解决实分析问题。"
+    },
+    {
+      "title": "分析学笔记：几乎所有的连续函数都无处可微",
+      "url": "https://zhuanlan.zhihu.com/p/587698717",
+      "summary": "正文在完备度量空间中陈述 Baire 纲定理，并用纲集论证连续函数空间的结构。"
+    },
+    {
+      "title": "【Proof-Trivial】实变函数-何苦要学实变函数？",
+      "url": "https://zhuanlan.zhihu.com/p/591026414",
+      "summary": "正文从完备化、测度、可测函数与积分体系概述实变函数的主要内容及分析学地位。"
+    },
+    {
+      "title": "Parseval恒等式、Wirtinger不等式、Poincaré不等式、等周不等式",
+      "url": "https://zhuanlan.zhihu.com/p/592486710",
+      "summary": "正文在平方可积函数空间中证明帕塞瓦尔恒等式，并讨论傅里叶展开与积分误差。"
+    },
+    {
+      "title": "数分I期末考试题",
+      "url": "https://zhuanlan.zhihu.com/p/594887144",
+      "summary": "正文在测度空间中用 Borel-Cantelli 定理证明几乎处处收敛并推出依测度收敛。"
+    },
+    {
+      "title": "在实变函数视角下看初等概率论",
+      "url": "https://zhuanlan.zhihu.com/p/595040708",
+      "summary": "正文以测度、可测函数、收敛方式和乘积测度系统展示实分析理论及其概率应用。"
+    },
+    {
+      "title": "导数估计中的两面包夹芝士",
+      "url": "https://zhuanlan.zhihu.com/p/595774497",
+      "summary": "正文围绕大 O、小 o、连续可微函数和极限建立渐近展开与导数估计定理。"
+    },
+    {
+      "title": "多伦多大学积分大赛试题",
+      "url": "https://zhuanlan.zhihu.com/p/600859091",
+      "summary": "正文使用黎曼－勒贝格引理和 Fubini 定理交换极限或积分次序，属于实分析中的积分与极限工具。"
+    },
+    {
+      "title": "全网最细致的积分不等式逼近教程——磨光技术",
+      "url": "https://zhuanlan.zhihu.com/p/605817862",
+      "summary": "正文讨论可积函数逼近、一致收敛与勒贝格微分定理，属于实分析中的积分论证。"
+    },
+    {
+      "title": "Riemann积分整理",
+      "url": "https://zhuanlan.zhihu.com/p/619534704",
+      "summary": "正文以集合刻画、改进划分、上下积分和连续点论证展开实分析中的可积性理论。"
+    },
+    {
+      "title": "四川大学实变与复变期末考试题解答",
+      "url": "https://zhuanlan.zhihu.com/p/635839581",
+      "summary": "正文在实变函数题解中使用依测度收敛、鲁津定理和控制收敛定理完成证明，属于实分析。"
+    },
+    {
+      "title": "选择公理的若干应用",
+      "url": "https://zhuanlan.zhihu.com/p/637068404",
+      "summary": "正文以函数极限的归结原则为例，说明实分析证明如何依赖可数选择公理。"
+    },
+    {
+      "title": "【实变函数】 几乎处处收敛，依测度收敛，近一致收敛关系详细解答",
+      "url": "https://zhuanlan.zhihu.com/p/643187580",
+      "summary": "正文系统讲解实变函数中几乎处处收敛、依测度收敛和近一致收敛的定义、反例与相互关系。"
+    },
+    {
+      "title": "导函数不存在第一类间断点和无穷间断点的俩种证明及误区解析",
+      "url": "https://zhuanlan.zhihu.com/p/651443880",
+      "summary": "正文陈述并运用达布定理讨论导函数的介值性质，属于实分析中的导数定理。"
+    },
+    {
+      "title": "《数学分析》 60 有限覆盖定理 (海涅-博雷特定理) 的几种证明方式",
+      "url": "https://zhuanlan.zhihu.com/p/651191346",
+      "summary": "正文在实数分析中定义开覆盖并给出有限覆盖定理的确界原理和区间套证明。"
+    },
+    {
+      "title": "拓扑和分析学中最重要的概念——紧致性，高等数学的基石，只有跳出欧几里得空间才能真正理解",
+      "url": "https://zhuanlan.zhihu.com/p/651726497",
+      "summary": "正文通过极值定理以及局部有界推出全局有界，说明紧致性在实分析中的作用。"
+    },
+    {
+      "title": "有界收敛定理(Arzela控制收敛定理)",
+      "url": "https://zhuanlan.zhihu.com/p/657423915",
+      "summary": "正文在实分析框架内讲解 Arzela 有界收敛定理，并联系 Riemann 积分与 Lebesgue 积分。"
+    },
+    {
+      "title": "《实变函数初步》第三章 测度论",
+      "url": "https://zhuanlan.zhihu.com/p/659589589",
+      "summary": "正文以实变函数课程中的外测度、可测集和测度性质为主线给出多组定义与证明。"
+    },
+    {
+      "title": "斯特林（Stirling）公式的多种证法摘录及评注",
+      "url": "https://zhuanlan.zhihu.com/p/660589844",
+      "summary": "正文以极限、误差估计、收敛性和渐近展开证明整数及连续形式的斯特林公式，属于实分析主题。"
+    },
+    {
+      "title": "华人攻破上世纪数学难题：求一张白纸上的所有线条上共有多少灰尘｜普林斯顿&纽大",
+      "url": "https://zhuanlan.zhihu.com/p/665149846",
+      "summary": "正文用分数维和豪斯多夫维数刻画不规则集合，属于实分析与几何测度中的维数概念。"
+    },
+    {
+      "title": "现代分析学之父魏尔斯特拉斯：他用一个函数挑战了整个微积分学界，开创数学的新纪元",
+      "url": "https://zhuanlan.zhihu.com/p/667565661",
+      "summary": "正文以极限、连续性、可微性和一致收敛的严格定义为主线，说明魏尔斯特拉斯如何推进实分析严格化。"
+    },
+    {
+      "title": "关于极限，求导，积分能否换序的讨论",
+      "url": "https://zhuanlan.zhihu.com/p/667864334",
+      "summary": "正文陈述 Lebesgue 控制收敛定理，讨论可测函数列在控制函数约束下积分与极限的交换。"
+    },
+    {
+      "title": "直观理解集合列的极限",
+      "url": "https://zhuanlan.zhihu.com/p/669720410",
+      "summary": "正文系统讨论集合列的上极限、下极限及其收敛条件，属于实分析中的极限内容。"
+    },
+    {
+      "title": "拓扑和分析学中最重要的概念——紧致性，现代高等数学的基石",
+      "url": "https://zhuanlan.zhihu.com/p/672277863",
+      "summary": "正文讨论实数集、收敛子序列及紧致集上连续函数的极值定理，是实分析主题的实质展开。"
+    },
+    {
+      "title": "一个处处不满足Hölder条件的连续函数",
+      "url": "https://zhuanlan.zhihu.com/p/675057799",
+      "summary": "正文通过 Laplace 积分、Cauchy-Riemann 方程和渐近估计完成实分析证明。"
+    },
+    {
+      "title": "分析学概论",
+      "url": "https://zhuanlan.zhihu.com/p/677152460",
+      "summary": "正文系统展开实数完备性、Lebesgue 测度与积分、收敛定理、微分理论及 L^p 空间，是完整的实分析综述。"
+    },
+    {
+      "title": "实变函数速通",
+      "url": "https://zhuanlan.zhihu.com/p/682369007",
+      "summary": "正文系统整理实分析中的积分、测度、可测函数和收敛定理等核心内容。"
+    },
+    {
+      "title": "全网独一家！一道谢惠民难题与楼红卫征解题的最强推广",
+      "url": "https://zhuanlan.zhihu.com/p/683662618",
+      "summary": "正文围绕连续函数方程解个数的奇偶性，使用区间符号、闭区间套和交集性质作出实分析论证。"
+    },
+    {
+      "title": "实变函数笔记（Cantor集）",
+      "url": "https://zhuanlan.zhihu.com/p/685945666",
+      "summary": "正文系统构造 Cantor 集并证明其闭性、无内点、完全集与不可数性，属于实分析。"
+    },
+    {
+      "title": "[高等数学]一道超难估阶问题",
+      "url": "https://zhuanlan.zhihu.com/p/689500603",
+      "summary": "正文用可积控制函数和控制收敛定理严格证明极限与积分可以交换。"
+    },
+    {
+      "title": "Baire纲的证明及其简单应用(基础数分版本）",
+      "url": "https://zhuanlan.zhihu.com/p/694885171",
+      "summary": "正文证明实分析中的 Baire 纲定理，并用于连续函数列局部一致有界等结论。"
+    },
+    {
+      "title": "备课随感",
+      "url": "https://zhuanlan.zhihu.com/p/695921774",
+      "summary": "正文比较 L^p 空间古典与现代证明，讨论 Lebesgue 微分定理、完备性和对偶空间等实分析主题。"
+    },
+    {
+      "title": "三种方法证明可去间断点个数至多可数",
+      "url": "https://zhuanlan.zhihu.com/p/698060212",
+      "summary": "正文研究闭区间上只有可去间断点的函数，证明其极限函数连续且间断点至多可数，属于实分析中的连续性与点集讨论。"
+    },
+    {
+      "title": "北大数分期末压轴：Weyl等分布定理加强版",
+      "url": "https://zhuanlan.zhihu.com/p/701447918",
+      "summary": "正文用黎曼可积函数、三角多项式逼近和积分的上下夹逼论证极限。"
+    },
+    {
+      "title": "极限、微分、积分可交换顺序的条件；用实变函数补充高等数学忽略的细节。",
+      "url": "https://zhuanlan.zhihu.com/p/700585934",
+      "summary": "正文用一致收敛、几乎处处可积、Fubini 和控制收敛等实分析结论讨论运算换序。"
+    },
+    {
+      "title": "沃尔泰拉函数（Volterra's function）",
+      "url": "https://zhuanlan.zhihu.com/p/703564487",
+      "summary": "正文以实分析中的黎曼可积判据论证沃尔泰拉函数导函数不可积，核心属于实分析。"
+    },
+    {
+      "title": "民科梦寐以求的证明：真正可数的实数模型的构筑法",
+      "url": "https://zhuanlan.zhihu.com/p/692009857",
+      "summary": "正文比较多种构造主义实数模型，讨论实数的不可数性、完备性和连续映射，属于实分析基础。"
+    },
+    {
+      "title": "Bourgain的魔法：2024年丘赛题与双线性Strichartz估计",
+      "url": "https://zhuanlan.zhihu.com/p/705939921",
+      "summary": "正文在实分析框架下讨论 Strichartz 估计、Littlewood-Paley 分解和对偶插值等调和分析论证。"
+    },
+    {
+      "title": "Brezis-Lieb引理与一个变分问题",
+      "url": "https://zhuanlan.zhihu.com/p/709364053",
+      "summary": "正文在实分析框架下讨论 Lp 序列的几乎处处收敛、范数收敛与 Fatou 引理。"
+    },
+    {
+      "title": "厦大数院夏令营考试 · 分析方向",
+      "url": "https://zhuanlan.zhihu.com/p/710981685",
+      "summary": "正文给出一元实分析中的平方积分不等式，并用柯西不等式和分部积分完成证明。"
+    },
+    {
+      "title": "大学生数学竞赛官方的一个超级难数学分析题.",
+      "url": "https://zhuanlan.zhihu.com/p/713155563",
+      "summary": "正文围绕实轴上非负连续函数、下确界和无穷迭代估计求解函数方程，属于实分析论证。"
+    },
+    {
+      "title": "测度论简介：通往异世界的大门",
+      "url": "https://zhuanlan.zhihu.com/p/716229278",
+      "summary": "正文围绕测度论及其公理体系展开，属于实分析中的核心内容。"
+    },
+    {
+      "title": "Bourgain的魔法：环面Schrödinger方程与格点计数",
+      "url": "https://zhuanlan.zhihu.com/p/3354586577",
+      "summary": "正文在实分析框架下证明 Lp 范数估计、格点计数引理和 Strichartz 不等式。"
+    },
+    {
+      "title": "Laplace方法",
+      "url": "https://zhuanlan.zhihu.com/p/3721167104",
+      "summary": "正文用 O 记号、上确界和分段积分估计严格分析参数积分的极限与渐近阶。"
+    },
+    {
+      "title": "中山大学2024淑芬期中a卷解析(自制版)",
+      "url": "https://zhuanlan.zhihu.com/p/5942827617",
+      "summary": "正文讨论函数增量趋于无穷时函数与自变量之比的极限，并给出完整的实分析证明。"
+    },
+    {
+      "title": "清华大学未央书院2024级高等微积分期中考试B卷试题解析（自制版）",
+      "url": "https://zhuanlan.zhihu.com/p/6050657151",
+      "summary": "正文在完备度量空间中证明压缩映射的柯西性、唯一不动点和迭代收敛性。"
+    },
+    {
+      "title": "2024年武汉大学数学分析(1)期中考试个人解答",
+      "url": "https://zhuanlan.zhihu.com/p/7239169950",
+      "summary": "正文使用单调有界、Bolzano-Weierstrass、Heine 定理和零点存在定理证明多个实分析命题。"
+    },
+    {
+      "title": "2024年湘潭大学韶峰班大一选拔考试 数学分析试题个人解答",
+      "url": "https://zhuanlan.zhihu.com/p/8297151330",
+      "summary": "正文证明单调函数间断点可数，并讨论单侧极限、跳跃区间与一致连续性。"
+    },
+    {
+      "title": "Baire纲定理在数学分析问题中的精彩应用",
+      "url": "https://zhuanlan.zhihu.com/p/12907502449",
+      "summary": "正文围绕可导函数、连续性、极限和区间性质给出Baire纲定理的数学分析应用与证明。"
+    },
+    {
+      "title": "南开大学2023-2024学年第一学期“数学分析I”期末考试试卷（A卷）试题解析(自制版)",
+      "url": "https://zhuanlan.zhihu.com/p/14174739052",
+      "summary": "文中通过构造闭区间套并利用 Cauchy-Cantor 原理证明存在满足指定等式的点。"
+    },
+    {
+      "title": "反思数学本科教学：我们到底需要知道什么？（分析篇）",
+      "url": "https://zhuanlan.zhihu.com/p/17252527652",
+      "summary": "正文用不同范数下的完备化统一解释连续函数、黎曼可积函数和勒贝格可积函数。"
+    },
+    {
+      "title": "美国数学月刊上的一个实分析问题",
+      "url": "https://zhuanlan.zhihu.com/p/20256288785",
+      "summary": "正文完整证明周期函数的几乎处处极限问题，使用测度、集合极限与可积性完成上下界分析。"
+    },
+    {
+      "title": "deepseek挑战北京大学的一个数学分析期末",
+      "url": "https://zhuanlan.zhihu.com/p/22492332174",
+      "summary": "正文借助积分逼近、聚点连续性讨论数列极限点集，属于实分析论证。"
+    },
+    {
+      "title": "[0,1] → [0,1]² 的 Hölder 连续的满射",
+      "url": "https://zhuanlan.zhihu.com/p/31780578769",
+      "summary": "正文完整讲解实分析中Hölder连续满射的维数上界问题。"
+    },
+    {
+      "title": "(已完结)2025丘成桐大学生数学竞赛分析组教学式答案+超完整细节.",
+      "url": "https://zhuanlan.zhihu.com/p/1908138349262270859",
+      "summary": "正文借助法图引理把积分估计从光滑紧支函数延拓到 H^1 函数。"
+    },
+    {
+      "title": "实数完备性八大定理的56条互证",
+      "url": "https://zhuanlan.zhihu.com/p/1921765239738856903",
+      "summary": "正文系统建立实数完备性，证明确界、单调收敛、区间套、有限覆盖、聚点和Cauchy准则的等价性。"
+    },
+    {
+      "title": "二维情形Kakeya猜想的证明",
+      "url": "https://zhuanlan.zhihu.com/p/1922379021200626040",
+      "summary": "正文综合L1/L2估计、球覆盖分层和级数比较证明二维Kakeya集Hausdorff维数为2，属于实分析论证。"
+    },
+    {
+      "title": "论处处不满足Hölder条件的连续函数",
+      "url": "https://zhuanlan.zhihu.com/p/1931871792974268184",
+      "summary": "正文以 Baire 纲定理证明存在处处不满足 Hölder 条件的连续函数，并刻画该类函数为稠密 Gδ 集。"
+    },
+    {
+      "title": "2025秋季求真书院分析博资考个人解答",
+      "url": "https://zhuanlan.zhihu.com/p/1949760538574828439",
+      "summary": "正文围绕可测集、依测度误差和一致收敛证明 Egorov 型实分析结论。"
+    },
+    {
+      "title": "逆天高三模拟卷竟出了数分压轴题？",
+      "url": "https://zhuanlan.zhihu.com/p/1972330154069070452",
+      "summary": "正文以连续函数在闭区间上的最值、子区间最值和控制函数值变化为核心，完整证明最值平均函数的严格单调性等价关系。"
+    },
+    {
+      "title": "微积分最大的“骗局”：为什么无数个小矩形加起来，就真的等于曲边梯形的面积？",
+      "url": "https://zhuanlan.zhihu.com/p/2003582482013000298",
+      "summary": "文章以实数连续性、单调有界数列和极限说明曲边梯形面积，属于实分析中的实数完备性讨论。"
+    },
+    {
+      "title": "[实变函数，实分析] C^1微分同胚下的n维Lebesgue积分换元公式",
+      "url": "https://zhuanlan.zhihu.com/p/2013730682275395465",
+      "summary": "正文分线性变换、立方体估计、Borel 集逼近和简单函数逼近四步完成实分析证明。"
+    },
+    {
+      "title": "气吞万里如虎：回顾十九世纪的数学英豪们",
+      "url": "https://zhuanlan.zhihu.com/p/2033553726032565423",
+      "summary": "正文叙述柯西、魏尔斯特拉斯用极限和 epsilon-delta 语言严格化分析学。"
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l7-t5-b4",
+  "sources": [
+    {
+      "title": "如何评价吴文俊说21世纪九章算术数学思想必将凌驾于几何原本？",
+      "url": "https://www.zhihu.com/answer/108561777",
+      "summary": "正文介绍 Coq、Agda 等归纳证明助手验证程序并抽取可执行代码。"
+    },
+    {
+      "title": "形式化方法的研究方向到底是干什么的？",
+      "url": "https://www.zhihu.com/answer/125964166",
+      "summary": "正文系统介绍定理证明器、模型检测器与等价检测器如何完成形式化验证。"
+    },
+    {
+      "title": "有人熟悉Isabelle定理证明器的么？",
+      "url": "https://www.zhihu.com/answer/131874580",
+      "summary": "正文系统介绍Isabelle形式化定理证明器的逻辑系统、规则策略、理论文件和交互证明示例。"
+    },
+    {
+      "title": "用 proof assistant/编程语言做数学科研的体验是怎样的？",
+      "url": "https://www.zhihu.com/answer/137226520",
+      "summary": "正文详细评价 Coq 形式化证明的库、自动化、正确性保证、性能和学习成本，对应形式化证明节点。"
+    },
+    {
+      "title": "随着审核难度提高，数学论文的正确性会不会越来越靠自觉？",
+      "url": "https://www.zhihu.com/answer/234857511",
+      "summary": "正文提出用计算机程序对数学论文做形式化验证。"
+    },
+    {
+      "title": "为什么机器验证的形式化证明没有被数学界广泛采用？",
+      "url": "https://www.zhihu.com/answer/239205382",
+      "summary": "正文从类型论、证明助手和可信内核解释机器形式化证明。"
+    },
+    {
+      "title": "如何评价菲尔兹奖得主 Vladimir Voevodsky？",
+      "url": "https://www.zhihu.com/answer/240441985",
+      "summary": "正文讨论 Univalence 和证明助手对机械证明的简化。"
+    },
+    {
+      "title": "为什么机器验证的形式化证明没有被数学界广泛采用？",
+      "url": "https://www.zhihu.com/answer/254080734",
+      "summary": "正文具体介绍 Isabelle、Coq 等形式化证明器的成本、表达与检查能力。"
+    },
+    {
+      "title": "有哪些在专业领域内已达成共识，但大众还是停留在旧有认识的现象？",
+      "url": "https://www.zhihu.com/answer/453593797",
+      "summary": "正文说明形式证明需由计算机验证，并举同伦类型论成果为例。"
+    },
+    {
+      "title": "为什么机器验证的形式化证明没有被数学界广泛采用？",
+      "url": "https://www.zhihu.com/answer/490436715",
+      "summary": "正文直接讨论机器验证的形式化证明在数学中的地位。"
+    },
+    {
+      "title": "为什么哥德巴赫猜想不能用计算机证明？",
+      "url": "https://www.zhihu.com/answer/585667547",
+      "summary": "区分有限计算验证与形式化证明，并介绍证明助手的作用。"
+    },
+    {
+      "title": "请问如何入门同伦类型论（HoTT）？",
+      "url": "https://www.zhihu.com/answer/589290727",
+      "summary": "正文要求在证明助理中形式化实现相关证明。"
+    },
+    {
+      "title": "如何看待毛贵泽同学声称自己用初等方法「证明」了「哥德巴赫猜想」并请求浙大数学研究院提供一个讲台？",
+      "url": "https://www.zhihu.com/answer/627823402",
+      "summary": "建议用 Coq 形式化并检查证明依赖的公理。"
+    },
+    {
+      "title": "数学之下是否隐藏着更为基本的规律？",
+      "url": "https://www.zhihu.com/answer/725995501",
+      "summary": "讨论形式系统中可证明性与机器验证。"
+    },
+    {
+      "title": "现代数学和理论物理会不会发展到人类思维无法理解的地步？",
+      "url": "https://www.zhihu.com/answer/778166906",
+      "summary": "提出用机器形式化验证改善证明审查。"
+    },
+    {
+      "title": "有没有可能一个数学证明是错的，然而所有人都没注意到呢？",
+      "url": "https://www.zhihu.com/answer/1398047135",
+      "summary": "正文讨论机器形式化验证复杂数学证明。"
+    },
+    {
+      "title": "有没有可能一个数学证明是错的，然而所有人都没注意到呢？",
+      "url": "https://www.zhihu.com/answer/1398112167",
+      "summary": "正文说明重要证明可用计算机形式化检验。"
+    },
+    {
+      "title": "不基于类型论的proof assistant还有发展空间吗？",
+      "url": "https://www.zhihu.com/answer/1412579377",
+      "summary": "正文比较基于集合论与类型论的证明助手，并讨论定理库可信性。"
+    },
+    {
+      "title": "三局输给阿法狗，痛哭后的柯洁认为人类没有一个沾到围棋真理的边，在数学机器人面前，谁是最理解数学的人？",
+      "url": "https://www.zhihu.com/answer/1469429074",
+      "summary": "正文讨论计算机辅助证明的形式化与自动检验。"
+    },
+    {
+      "title": "假如你拥有一亿人民币支持数学事业，你会怎么做？",
+      "url": "https://www.zhihu.com/answer/1752888051",
+      "summary": "正文直接讨论或推导「Lean 与形式化证明」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "陶哲轩能完整地看懂费马大定理的证明吗？",
+      "url": "https://www.zhihu.com/answer/1985262656",
+      "summary": "正文提到利用计算机证明助手检查长证明。"
+    },
+    {
+      "title": "为什么在计算机科学领域及编程中不使用现代数学建立的符号体系进行操作？",
+      "url": "https://www.zhihu.com/answer/2079321286",
+      "summary": "正文列举形式化语言和定理证明系统在计算机科学中的使用。"
+    },
+    {
+      "title": "未来，AI 会以何种形式颠覆数学界？",
+      "url": "https://www.zhihu.com/answer/2492774269",
+      "summary": "正文明确讨论把推理与验证交给计算机以及机器辅助证明。"
+    },
+    {
+      "title": "数学到底在哪里支撑着编程？",
+      "url": "https://www.zhihu.com/answer/2582472311",
+      "summary": "提出用 Coq、Lean、Agda 等证明辅助工具沟通数学思维与编程思维。"
+    },
+    {
+      "title": "有无一个为数学中定义、引理、命题、定理统一编号的检索系统？",
+      "url": "https://www.zhihu.com/answer/2651344160",
+      "summary": "介绍 Lean 的 mathlib 数学库如何用程序实现定义、定理及形式化证明。"
+    },
+    {
+      "title": "数学中什么样的证明算严谨证明？",
+      "url": "https://www.zhihu.com/answer/2939796308",
+      "summary": "正文以形式语言和形式化验证作为严谨证明的标准，并据此解释人工自然语言证明可能存在的缺口。"
+    },
+    {
+      "title": "现代的数学研究抽象到了哪种地步？",
+      "url": "https://www.zhihu.com/answer/2995101908",
+      "summary": "正文讲解 Metamath 等形式化系统如何用机器可检查的符号推导存储和验证数学证明。"
+    },
+    {
+      "title": "如何看待高二学生以一作发表数学类 sci，论文含金量如何？",
+      "url": "https://www.zhihu.com/answer/3069557529",
+      "summary": "正文围绕数学语言形式化、自动证明搜索以及与 Lean、Agda 等证明系统的比较展开技术评议。"
+    },
+    {
+      "title": "很多数学上的难题可以通过计算机（人工智能）来推导证明么？",
+      "url": "https://www.zhihu.com/answer/3190461265",
+      "summary": "正文介绍 Lean 及其上的 LeanDojo，说明大型语言模型与交互式证明程序结合进行形式化机器证明的路径。"
+    },
+    {
+      "title": "如何评价陶哲轩成功地用AI工具完成了形式化多项式Freiman-Ruzsa猜想证明过程的工作？",
+      "url": "https://www.zhihu.com/answer/3356602601",
+      "summary": "正文解释 Lean 既是函数式语言也是定理证明器，并用形式化代码上机运行来确认证明无误。"
+    },
+    {
+      "title": "如何看待 DeepMind 新发布的 AlphaGeometry?",
+      "url": "https://www.zhihu.com/answer/3370072853",
+      "summary": "正文讨论 AlphaGeometry 的自动定理证明范式，并以 Lean Mathlib 的已形式化定理说明证明构造的数量和泛化难题。"
+    },
+    {
+      "title": "如何评价Kirti Joshi对于ABC 猜想的证明？",
+      "url": "https://www.zhihu.com/answer/3525472859",
+      "summary": "正文专门讨论以 Lean 等形式化工具验证证明的观点及其对计算机验证的疑虑。"
+    },
+    {
+      "title": "如何看待Lean 4语言从定理证明向通用编程语言的转变？",
+      "url": "https://www.zhihu.com/answer/3560122192",
+      "summary": "正文说明 Lean 以依值类型论表达定理并用计算机验证证明，介绍形式化证明工具及自动化。"
+    },
+    {
+      "title": "怎么看待「学数学没啥用，买菜难道还用得上微积分」的理论？",
+      "url": "https://www.zhihu.com/answer/3563358597",
+      "summary": "正文具体把定理及其证明视为可编译代码，说明 Lean 如何检查和验证形式化证明。"
+    },
+    {
+      "title": "如何看待陶哲轩等数学家大力推动的 AI 数学证明?",
+      "url": "https://www.zhihu.com/answer/39432247233",
+      "summary": "正文讨论 AI 数学证明的工作重心，并具体主张先把人类证明形式化，再用 Lean 一类系统机械验证。"
+    },
+    {
+      "title": "据报道Grok3证明黎曼猜想是一个虚假案例。想问一下目前AI在破解数学难题上有哪些真实案例？",
+      "url": "https://www.zhihu.com/answer/49077951078",
+      "summary": "正文介绍用 Lean 编写并核验等式蕴含证明，还给出 Lean 定理代码示例及不可判定性带来的应用理由。"
+    },
+    {
+      "title": "如何看待陶哲轩等数学家大力推动的 AI 数学证明?",
+      "url": "https://www.zhihu.com/answer/1894506210528572231",
+      "summary": "正文解释证明助手检查论证、支持大规模协作，并讨论让 AI 把人类证明翻译成 Lean。"
+    },
+    {
+      "title": "人类可探索的数学会不会因为证明长过人类脑容量而穷尽？",
+      "url": "https://www.zhihu.com/answer/1901816035583194533",
+      "summary": "正文说明超长证明可由形式化验证承接，并以用 Lean 改写费马大定理证明为例。"
+    },
+    {
+      "title": "如何看待陶哲轩等数学家大力推动的 AI 数学证明?",
+      "url": "https://www.zhihu.com/answer/1909859746237887587",
+      "summary": "正文具体讨论用 Lean 编写形式化证明、再把未完成步骤交给 AI 续写的协作方式。"
+    },
+    {
+      "title": "如何系统地学习Lean语言？",
+      "url": "https://www.zhihu.com/answer/1914412564785378828",
+      "summary": "正文具体介绍用 Lean4、自然数游戏和集合论游戏练习证明，并提到 Mathlib4 在形式化数学中的作用。"
+    },
+    {
+      "title": "计算庞大的数字时，怎么证明计算机没算错？",
+      "url": "https://www.zhihu.com/answer/1928826058226009568",
+      "summary": "正文介绍形式化验证用于检查计算所依赖的指令集、内核和关键组件，以降低大型程序系统的逻辑错误风险。"
+    },
+    {
+      "title": "如何看待前微软AI副总裁塞巴斯蒂安·布贝克在X上发帖称gpt-5pro能创造新的数学知识，真假？",
+      "url": "https://www.zhihu.com/answer/1945467903819378914",
+      "summary": "正文把是否经过 Lean 验证作为评价 AI 数学证明的核心标准，实质讨论形式化证明的必要性。"
+    },
+    {
+      "title": "数学领域有没有像GitHub一样的网站？",
+      "url": "https://www.zhihu.com/answer/1965909361462339443",
+      "summary": "正文以 Lean mathlib 为例说明形式化证明系统能把数学证明转成可自动验证的形式。"
+    },
+    {
+      "title": "目前人工智能形式化证明数学定理遇到了哪些困难？有哪些最新进展？",
+      "url": "https://www.zhihu.com/answer/1996605639003239096",
+      "summary": "正文讨论数学形式化验证的趋势，并引用陶哲轩关于 Lean、AI 与协作分工的观点。"
+    },
+    {
+      "title": "你最满意自己的科研成果是什么？",
+      "url": "https://www.zhihu.com/answer/2020792653478917803",
+      "summary": "正文说明北京大学团队使用 Lean 4 形式化论文主要结果并验证其正确性。"
+    },
+    {
+      "title": "如何评价陶哲轩《AI 时代的数学方法与人类思想》这篇文章？你有哪些思考？",
+      "url": "https://www.zhihu.com/answer/2023002169192772903",
+      "summary": "正文具体讨论把数学直觉转成 Lean 机器可读证明及其形式化验证的局限。"
+    },
+    {
+      "title": "如何评价陶哲轩《AI 时代的数学方法与人类思想》这篇文章？你有哪些思考？",
+      "url": "https://www.zhihu.com/answer/2023676476961171119",
+      "summary": "正文具体说明 Lean、Rocq 等助手能提高验证可靠性，并分析其能把证明机械化到什么程度。"
+    },
+    {
+      "title": "25岁天才少女创业公司估值 110 亿，专攻能自动验证计算机代码的 AI 系统，这个创业想法潜力在哪？",
+      "url": "https://www.zhihu.com/answer/2024482349304267125",
+      "summary": "正文介绍 AI 形式化代理把自然语言论证转成 Lean 4 代码，并进行机器可验证的证明检查。"
+    },
+    {
+      "title": "目前人工智能形式化证明数学定理遇到了哪些困难？有哪些最新进展？",
+      "url": "https://www.zhihu.com/answer/2024616453215646486",
+      "summary": "正文说明 AI 将 Anderson 猜想的反例证明转化为约一万九千行 Lean 4 代码进行形式化验证。"
+    },
+    {
+      "title": "数学家之间会有争论吗？",
+      "url": "https://www.zhihu.com/answer/2033100888261275750",
+      "summary": "正文讨论四色定理、开普勒猜想以及陶哲轩用 Lean 形式化证明，具体说明证明助手与计算机验证的作用。"
+    },
+    {
+      "title": "如何评价恽之玮对AI冲击下的数学行业的悲观看法？",
+      "url": "https://www.zhihu.com/answer/2038397733539668906",
+      "summary": "正文具体讨论 AI 生成思路并用 Lean 形式化验证后，机器可验证链条与人类理解证明之间的差距。"
+    },
+    {
+      "title": "如何看待 OpenAI 宣布AI 证明困扰人类 80 年的单位距离问题？证明可信度如何？",
+      "url": "https://www.zhihu.com/answer/2040824051384508647",
+      "summary": "正文讨论把大模型生成的证明转化为 Lean 可验证步骤，以实现证明生成到自动验证的流程。"
+    },
+    {
+      "title": "如何看待著名华人数学家北大数学黄金一代之一许晨阳教授在接受b站up主采访过程中对ai和数学的看法？",
+      "url": "https://www.zhihu.com/answer/2040838319710413465",
+      "summary": "正文定义形式化数学，并说明 Lean 能用形式语言和逻辑规则对概念、定理及证明进行计算机验证。"
+    },
+    {
+      "title": "陶哲轩联合 SAIR 发起全球「数学蒸馏挑战」，已有超千人参赛，该比赛对于数学研究有哪些意义？",
+      "url": "https://www.zhihu.com/answer/2041494267965723995",
+      "summary": "正文介绍比赛要求用 Lean 提交形式化证明，并说明形式化系统能够把代数推理变成可机器检验的证明。"
+    },
+    {
+      "title": "AI 有可能代替人类从事数学研究吗？",
+      "url": "https://www.zhihu.com/answer/2046944418217956851",
+      "summary": "正文说明 Lean 能验证由逻辑变换生成的定理，并讨论形式化正确性与数学研究价值之间的区别，实质涉及 Lean 与形式化证明。"
+    },
+    {
+      "title": "为什么数学上一些显而易见的事情数学家们也要编个定理出来？",
+      "url": "https://www.zhihu.com/answer/2049821152076472598",
+      "summary": "正文说明形式化验证可把程序和定理转化为逻辑推导，并以 Coq、Lean 为例。"
+    },
+    {
+      "title": "数学博士生 2 年研究被 AI 抢发，这种现象会越来越普遍吗？如何看待 AI 对数学研究的冲击？",
+      "url": "https://www.zhihu.com/answer/2052103851801589544",
+      "summary": "正文具体说明团队如何把既有证明拆成 Lean 可逐行检查的形式化证明代码。"
+    },
+    {
+      "title": "数学博士生 2 年研究被 AI 抢发，这种现象会越来越普遍吗？如何看待 AI 对数学研究的冲击？",
+      "url": "https://www.zhihu.com/answer/2052478101888804176",
+      "summary": "正文讨论球体填充定理的 Lean 形式化验证、代码生成及其可信性。"
+    },
+    {
+      "title": "数学博士生 2 年研究被 AI 抢发，这种现象会越来越普遍吗？如何看待 AI 对数学研究的冲击？",
+      "url": "https://www.zhihu.com/answer/2052564170399289815",
+      "summary": "正文说明八维球填充证明在 Lean 中的形式化过程：将既有定理和引理逐项翻译并由编译器检查。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062785875579351138",
+      "summary": "正文围绕反例能否在 Lean 中形式化、自动形式化代码规模以及编译核验证明展开讨论。"
+    },
+    {
+      "title": "2026 年菲尔兹奖会成为「最后一届没有 AI 的菲尔兹奖」吗？",
+      "url": "https://www.zhihu.com/answer/2063580040143675663",
+      "summary": "正文以 Lean 形式语句、Mathlib 定义和 AlphaProof 自动形式化为例，说明 AI 证明依赖问题被写成可检查的形式化陈述。"
+    },
+    {
+      "title": "我们在lean4重建了一座数学大厦并形式化了广义黎曼假设，请问大家能否找出逻辑漏洞，进而推翻它吗？",
+      "url": "https://www.zhihu.com/answer/2065491231262692300",
+      "summary": "正文依据 Lean4 编译结果审查形式化证明，并建议使用 Mathlib 和构造性证明替代自定义公理。"
+    },
+    {
+      "title": "如何看待 OpenAI 模型声称解决 Connes 刚性猜想，但随后有数学家指出其 AI 反例不成立？",
+      "url": "https://www.zhihu.com/answer/2068096119817646465",
+      "summary": "正文讨论 Lean 形式化的可信边界，指出形式化陈述、底层类型理论和工具漏洞都会影响验证结论。"
+    },
+    {
+      "title": "如何看待Tsimerma认为不到两年ai的数学能力就彻底超越人类数学家？",
+      "url": "https://www.zhihu.com/answer/2068360765950760520",
+      "summary": "正文把 Lean4 的形式化验证与大语言模型的自动定理证明结合起来讨论数学研究范式的变化。"
+    },
+    {
+      "title": "怎么看森多夫猜想（Sendov's Conjecture）已被AI、Lech Mazur、陶哲轩攻破？",
+      "url": "https://www.zhihu.com/answer/2071844636822344686",
+      "summary": "正文比较两套 Lean 形式化的规模、是否共享代码、未完成定理位置和独立验证过程。"
+    },
+    {
+      "title": "怎么看森多夫猜想（Sendov's Conjecture）已被AI、Lech Mazur、陶哲轩攻破？",
+      "url": "https://www.zhihu.com/answer/2071876416258544046",
+      "summary": "正文解释 Lean 如何逐行把证明翻译为机器可检查的逻辑链条，并讨论重构后的形式化代码。"
+    },
+    {
+      "title": "如何评价北京协和医院住院医用AI解决了困扰数学界的难题Crouzeix猜想？",
+      "url": "https://www.zhihu.com/answer/2071939635232745128",
+      "summary": "正文讨论机器可读、机器可验证的形式化语言将成为 AI 生成证明的标准审查方式。"
+    },
+    {
+      "title": "怎么看森多夫猜想（Sendov's Conjecture）已被AI、Lech Mazur、陶哲轩攻破？",
+      "url": "https://www.zhihu.com/answer/2072661377529991351",
+      "summary": "正文讨论九万行 Lean 4 形式化代码的精简、人工理解和机器验证局限，实质涉及形式化证明。"
+    },
+    {
+      "title": "AI 会把数学领域「低垂的果实」全部摘走么？",
+      "url": "https://www.zhihu.com/answer/2072756592957773811",
+      "summary": "正文以 Lean 自主证明和形式化验证为例，讨论机器证明需要怎样被核验及其对证明标准的影响。"
+    },
+    {
+      "title": "如何看待大量「有名有姓」的数学猜想被 AI 解决？",
+      "url": "https://www.zhihu.com/answer/2073092086514070617",
+      "summary": "正文具体讨论把 AI 结果形式化并交给 Lean 验证的流程、误差风险以及自然语言命题形式化的前提问题。"
+    },
+    {
+      "title": "有没有学数学的大佬给我讲一些非常牛逼的东西，震撼一下我这个非数学系的大学生？",
+      "url": "https://www.zhihu.com/answer/2075328287761614038",
+      "summary": "正文通过柯里-霍华德同构说明命题与类型、证明与程序的对应，并联系 Lean 形式化证明。"
+    },
+    {
+      "title": "盒子里怎么装球？-- 400年历史的开普勒猜想终于解决",
+      "url": "https://zhuanlan.zhihu.com/p/54211787",
+      "summary": "正文详述开普勒猜想证明如何被改写为机器可检查的形式化证明，并由自动证明软件验证。"
+    },
+    {
+      "title": "看个头",
+      "url": "https://zhuanlan.zhihu.com/p/97791743",
+      "summary": "正文具体讨论 Lean 等计算机证明系统、数学形式化实践及其与数学界的关系。"
+    },
+    {
+      "title": "使用 Lean 证明 根号2 是一个无理数",
+      "url": "https://zhuanlan.zhihu.com/p/149846259",
+      "summary": "正文逐行给出 Lean 定理、引理和证明脚本，展示根号 2 命题的形式化验证。"
+    },
+    {
+      "title": "计算机辅助证明简介",
+      "url": "https://zhuanlan.zhihu.com/p/181671237",
+      "summary": "正文系统介绍计算机辅助证明、依赖类型论、类型检查以及 Lean 中验证数学证明的工作方式。"
+    },
+    {
+      "title": "Lean的前世今生",
+      "url": "https://zhuanlan.zhihu.com/p/183902909",
+      "summary": "正文梳理 Lean 的发展，并解释 tactics、依赖类型论、Mathlib 和形式化数学证明的实践。"
+    },
+    {
+      "title": "微软AI要参加IMO竞赛！小目标：数学金牌",
+      "url": "https://zhuanlan.zhihu.com/p/261340734",
+      "summary": "正文介绍 Lean 的交互式定理证明、Mathlib 训练数据和形式化证明策略，聚焦 Lean 与数学形式化。"
+    },
+    {
+      "title": "数学家喜迎“大统一”理论的计算机辅助证明",
+      "url": "https://zhuanlan.zhihu.com/p/471787620",
+      "summary": "正文详述将复杂数学证明转译为 Lean 代码并交给证明助手完整检验的过程。"
+    },
+    {
+      "title": "LEAN4 入门（introduction）",
+      "url": "https://zhuanlan.zhihu.com/p/678954230",
+      "summary": "正文以 Lean4 的定义、定理与证明策略为主线，具体说明如何用交互式证明器记录并检查形式化数学证明。"
+    },
+    {
+      "title": "类型论（type theory）学习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/679483353",
+      "summary": "正文介绍类型论、命题即类型思想及 Lean4、Coq、Agda 等计算机辅助证明工具。"
+    },
+    {
+      "title": "陶哲轩转赞！40多年「忙碌海狸」数学难题获突破，4万行Coq代码立大功",
+      "url": "https://zhuanlan.zhihu.com/p/706806653",
+      "summary": "正文介绍用 Coq 将忙碌海狸停机性证明形式化，并说明证明助手逐行校验逻辑的作用。"
+    },
+    {
+      "title": "陶哲轩宣布“等式理论计划”成功，人类AI协作，57天完成2200万+数学关系证明",
+      "url": "https://zhuanlan.zhihu.com/p/8565988453",
+      "summary": "正文说明等式理论计划使用 Lean 形式化并验证大量等式之间的蕴含关系。"
+    },
+    {
+      "title": "陶哲轩油管首秀：33分钟，AI速证「人类需要写满一页纸」的证明",
+      "url": "https://zhuanlan.zhihu.com/p/1905245772959680058",
+      "summary": "正文完整叙述陶哲轩借助 Copilot 和 Lean 策略完成可读形式化证明的案例。"
+    },
+    {
+      "title": "[Lean-zh] Lean 4 中文社区欢迎你",
+      "url": "https://zhuanlan.zhihu.com/p/1911884243556079587",
+      "summary": "正文具体说明 Lean 是交互式定理证明器，可用代码形式表达并严格验证数学定理。"
+    },
+    {
+      "title": "陶哲轩：感谢Lean，我又重写了20年前经典教材！",
+      "url": "https://zhuanlan.zhihu.com/p/1912856582934501186",
+      "summary": "正文报道陶哲轩把实分析教材中的定义、定理和练习转成 Lean 形式化版本并借助编译器验证证明。"
+    },
+    {
+      "title": "陶哲轩罕见长长长长长访谈：数学、AI和给年轻人的建议",
+      "url": "https://zhuanlan.zhihu.com/p/1919742103552005987",
+      "summary": "正文具体讲解 Lean 生成可验证证明的方式、Mathlib 和形式化协作流程，属于形式化证明。"
+    },
+    {
+      "title": "陶哲轩三小时超长访谈：我们如何解决难题？AI将如何重塑数学？",
+      "url": "https://zhuanlan.zhihu.com/p/1920548293873734640",
+      "summary": "正文具体介绍 Lean 如何逐行构造并验证形式化证明，以及 Mathlib 和分布式证明协作。"
+    },
+    {
+      "title": "2025年中文大数社区十大事件",
+      "url": "https://zhuanlan.zhihu.com/p/1988997637857358320",
+      "summary": "正文具体介绍用 Agda 形式化递归序数，以及用 Coq 形式化 Busy Beaver 证明过程。"
+    },
+    {
+      "title": "解读第一个被AI解决的开问题：Erdős 728",
+      "url": "https://zhuanlan.zhihu.com/p/1993817746123804894",
+      "summary": "正文说明该 Erdős 问题证明被自动形式化为 Lean 代码，并继续进行代码修正和核验。"
+    },
+    {
+      "title": "陶哲轩用Claude Code解题，两度宕机，因为token不够用",
+      "url": "https://zhuanlan.zhihu.com/p/2014407287024920480",
+      "summary": "正文详述用 Lean 占位符搭建证明骨架、补全引理并通过编译器验证的形式化流程。"
+    },
+    {
+      "title": "不写代码也能做前沿研究？聊聊形式化 PDE 这个新方向",
+      "url": "https://zhuanlan.zhihu.com/p/2025580283496277191",
+      "summary": "正文讨论用 Lean 4 对 PDE 证明进行形式化，并说明编译器检验、隐藏假设显式化及 AI 辅助代码生成。"
+    },
+    {
+      "title": "「压缩，就是你所需要的全部」！菲尔兹奖得主Michael Freedman新作揭开数学真相",
+      "url": "https://zhuanlan.zhihu.com/p/2029631387150369999",
+      "summary": "正文具体讨论 Mathlib 中包装命题展开为 Lean 基础项及形式化证明的代价。"
+    },
+    {
+      "title": "数学品味可以量化吗？",
+      "url": "https://zhuanlan.zhihu.com/p/2034764658003943982",
+      "summary": "正文以 Lean 4 定理封装与完整展开的差异讨论形式化证明和 MathLib。"
+    },
+    {
+      "title": "菲尔兹奖得主弗里德曼：数学的终极本质，3000年压缩工程",
+      "url": "https://zhuanlan.zhihu.com/p/2035023925676131678",
+      "summary": "正文用 MathLib 的依赖展开长度和打包长度具体讨论形式化证明的规模。"
+    },
+    {
+      "title": "如果论文的主要读者不再是人",
+      "url": "https://zhuanlan.zhihu.com/p/2040070769791787736",
+      "summary": "正文解释了证明形式化后可由机器完成逻辑核查，并把人的工作转向定义、形式化目标与证明策略。"
+    },
+    {
+      "title": "基于lean形式化费马大定理的证明有多难？",
+      "url": "https://zhuanlan.zhihu.com/p/2040611937189369215",
+      "summary": "正文集中讨论在 Lean 中形式化模提升定理所需的基础设施、类型转换和 API 设计难点。"
+    },
+    {
+      "title": "Fable 5 找到雅可比猜想的反例背后：我们关心的七个问题",
+      "url": "https://zhuanlan.zhihu.com/p/2063656703304921759",
+      "summary": "正文具体讨论 Lean 等交互式证明器如何形式化核验反例、坐标变换和中间恒等式。"
+    },
+    {
+      "title": "陶哲轩最新演讲：数学正在进入“工业时代”",
+      "url": "https://zhuanlan.zhihu.com/p/2064794930912949783",
+      "summary": "正文讨论证明助理、自动形式化与形式化验证在 AI 数学研究中的作用。"
+    }
+  ]
+}

@@ -1,0 +1,3036 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l2-t5-b4",
+  "sources": [
+    {
+      "title": "复数和向量是否可以比较，如果可以有什么联系和区别？",
+      "url": "https://www.zhihu.com/answer/16271724",
+      "summary": "比较复数和平面向量的加法、实数数乘、乘法与旋转。复数除法要求除数非零，高维代数推广也不都保留域的性质。"
+    },
+    {
+      "title": "复数的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/26022114",
+      "summary": "正文围绕“复数”给出直接说明。"
+    },
+    {
+      "title": "复数的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/27293131",
+      "summary": "正文围绕“复数”给出说明、例证或方法。"
+    },
+    {
+      "title": "从哲学认知角度谈谈：为什么复数 i 定义为根号下 -1？",
+      "url": "https://www.zhihu.com/answer/31952080",
+      "summary": "从三次方程求根中的负数开方解释虚数单位的引入。"
+    },
+    {
+      "title": "用 e^x 的泰勒展开证明欧拉公式是否正确？",
+      "url": "https://www.zhihu.com/answer/32260694",
+      "summary": "将实指数函数的定义推广到复数，并据此定义复三角函数。"
+    },
+    {
+      "title": "历史上都有哪些名人的死亡方式比较离奇苦逼？",
+      "url": "https://www.zhihu.com/answer/32826387",
+      "summary": "给出棣莫佛复数公式并结合等差数列叙述故事。"
+    },
+    {
+      "title": "量子力学中为什么要引入复数，引入复数的意义是什么?",
+      "url": "https://www.zhihu.com/answer/33811674",
+      "summary": "正文解释复数在波函数和运算中的作用。"
+    },
+    {
+      "title": "有哪些大学的定理、公式、概念、方法等可以应用于高中解题或帮助高中生深入理解知识？",
+      "url": "https://www.zhihu.com/answer/39667261",
+      "summary": "正文把复数幂理解为平面向量旋转并解复数方程。"
+    },
+    {
+      "title": "i 的 i 次方是实数吗？",
+      "url": "https://www.zhihu.com/answer/40027151",
+      "summary": "正文以欧拉公式解释复数幂的多值性，并计算 i 的 i 次方。"
+    },
+    {
+      "title": "能不能定义一个数 𝐼，与 0 的乘积等于 1？",
+      "url": "https://www.zhihu.com/answer/44461603",
+      "summary": "正文解释复数相对实数的代数闭性质。"
+    },
+    {
+      "title": "复数为什么比较不了大小？",
+      "url": "https://www.zhihu.com/answer/56641845",
+      "summary": "正文证明不存在同时与加法乘法相容的复数全序。"
+    },
+    {
+      "title": "为什么这个世界诸多公式与自然常数e有关?",
+      "url": "https://www.zhihu.com/answer/74624189",
+      "summary": "正文解释欧拉公式与复数在复平面中的表示。"
+    },
+    {
+      "title": "复变函数如何理解（或学习）？",
+      "url": "https://www.zhihu.com/answer/83080265",
+      "summary": "正文从复数性质与四则运算开始介绍复分析。"
+    },
+    {
+      "title": "有什么优秀的复分析教材推荐(详细内容见说明)?",
+      "url": "https://www.zhihu.com/answer/84035878",
+      "summary": "正文从复数运算与复平面介绍复分析。"
+    },
+    {
+      "title": "为什么说「复分析理论」是本科所学数学中最漂亮最和谐的理论？",
+      "url": "https://www.zhihu.com/answer/84655383",
+      "summary": "正文从复数与复平面开始梳理复分析结构。"
+    },
+    {
+      "title": "求推荐适合自学的复分析教材（学过复变函数）?",
+      "url": "https://www.zhihu.com/answer/84655725",
+      "summary": "正文把复数性质与运算作为复分析起点。"
+    },
+    {
+      "title": "y=x^x 的图像大概是什么样的？",
+      "url": "https://www.zhihu.com/answer/90234961",
+      "summary": "正文说明负数底的实指数幂通常取复数值，并分解实部和虚部。"
+    },
+    {
+      "title": "虚数是负数的平方根，为什么是在三次方程中才出现的呢？",
+      "url": "https://www.zhihu.com/answer/93926475",
+      "summary": "全文以三次方程历史解释虚数为何从无解符号发展为复数。"
+    },
+    {
+      "title": "根号i有意义吗？",
+      "url": "https://www.zhihu.com/answer/95012909",
+      "summary": "正文从虚数单位到复数域说明根号 i 的意义。"
+    },
+    {
+      "title": "单从理论上来看，量子力学是否可以抛弃复数，只用实数？",
+      "url": "https://www.zhihu.com/answer/100515580",
+      "summary": "全文把复数解释为二维实代数结构，给出加减乘除及域扩张关系。"
+    },
+    {
+      "title": "傅里叶变换、拉普拉斯变换、Z 变换的联系是什么？为什么要进行这些变换？",
+      "url": "https://www.zhihu.com/answer/103926934",
+      "summary": "正文用复数 s 与 z 表达连续、离散复频率。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/106263920",
+      "summary": "正文由此引入平方为 -1 的 i，并用复指数与余弦的关系完成联系。"
+    },
+    {
+      "title": "如何形象地理解四元数？",
+      "url": "https://www.zhihu.com/answer/109064496",
+      "summary": "正文从复数的复数构造四元数，并比较复数、四元数与实向量空间的关系。"
+    },
+    {
+      "title": "怎么向小学生解释欧拉公式 e^(πi)+1=0？",
+      "url": "https://www.zhihu.com/answer/112430787",
+      "summary": "正文从二次、三次方程说明虚数的必要性，并解释复数数系及复平面上的运算。"
+    },
+    {
+      "title": "虚数 i 是真实存在的吗？还是被人们创造出的数学工具？",
+      "url": "https://www.zhihu.com/answer/113884840",
+      "summary": "正文从方程求根、复平面奇点和物理应用解释复数的必要性。"
+    },
+    {
+      "title": "虚数 i 是真实存在的吗？还是被人们创造出的数学工具？",
+      "url": "https://www.zhihu.com/answer/114057496",
+      "summary": "正文以矢量运算、交变电流和傅里叶变换说明复数及其物理建模意义。"
+    },
+    {
+      "title": "怎么向小学生解释欧拉公式 e^(πi)+1=0？",
+      "url": "https://www.zhihu.com/answer/114295880",
+      "summary": "正文在复平面上解释虚指数沿单位半圆运动。"
+    },
+    {
+      "title": "一个月内学好复变函数可行吗？",
+      "url": "https://www.zhihu.com/answer/114670934",
+      "summary": "正文从复变量、共轭变量、全纯函数到留数系统讲解复分析。"
+    },
+    {
+      "title": "虚数 i 是真实存在的吗？还是被人们创造出的数学工具？",
+      "url": "https://www.zhihu.com/answer/115052135",
+      "summary": "正文借简谐运动统一正负参数，解释引入虚数如何简化方程。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/116098808",
+      "summary": "正文验证虚指数解并拆分实部虚部得到三角函数。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/116131663",
+      "summary": "正文将复多项式的根置于复平面并由导数根确定椭圆焦点。"
+    },
+    {
+      "title": "x^11+x^7+1的因式分解是怎么想出来的？",
+      "url": "https://www.zhihu.com/answer/120938238",
+      "summary": "正文用复数单位根的指数形式解释高次多项式因式分解。"
+    },
+    {
+      "title": "什么是频响函数FRF？",
+      "url": "https://www.zhihu.com/answer/121887256",
+      "summary": "正文解释频响函数是复值函数，可用实虚部或幅值相位表示。"
+    },
+    {
+      "title": "虚数 i 是真实存在的吗？还是被人们创造出的数学工具？",
+      "url": "https://www.zhihu.com/answer/123403321",
+      "summary": "正文从x²+1的根、复平面和实虚部直观解释复数体系。"
+    },
+    {
+      "title": "∫(1/(1+x²))dx等于arctanx还是arctan((1+x)/(1-x))?",
+      "url": "https://www.zhihu.com/answer/125059982",
+      "summary": "正文进一步讨论复数域中两个原函数的解析区域和奇点。"
+    },
+    {
+      "title": "能不能定义一个数 𝐼，与 0 的乘积等于 1？",
+      "url": "https://www.zhihu.com/answer/126928619",
+      "summary": "正文通过把 x^2+1 换零展示复数乘法的代数构造。"
+    },
+    {
+      "title": "高中数学三角函数公式多，题目灵活，感到难度大，该怎么办？",
+      "url": "https://www.zhihu.com/answer/128471326",
+      "summary": "正文使用复数实部、虚部与复指数乘法推导三角恒等式。"
+    },
+    {
+      "title": "虚数单位 i 可以被表示为 √-1 吗？",
+      "url": "https://www.zhihu.com/answer/132495847",
+      "summary": "正文从复数域中的平方根、多值幂和复对数解释虚数单位及复数运算。"
+    },
+    {
+      "title": "怎么向小学生解释欧拉公式 e^(πi)+1=0？",
+      "url": "https://www.zhihu.com/answer/135331130",
+      "summary": "正文从 i²=-1 出发，用平面旋转说明虚数与复平面的直观含义。"
+    },
+    {
+      "title": "底数为负数的指数函数的图像是什么样的？",
+      "url": "https://www.zhihu.com/answer/144645015",
+      "summary": "正文使用复数的模、幅角和欧拉表示解释负底数指数。"
+    },
+    {
+      "title": "怎么向小学生解释欧拉公式 e^(πi)+1=0？",
+      "url": "https://www.zhihu.com/answer/156147051",
+      "summary": "推导以复数单位 i 和复指数为核心，具体展示复数与三角函数关系。"
+    },
+    {
+      "title": "数学的魅力是什么？",
+      "url": "https://www.zhihu.com/answer/178098895",
+      "summary": "正文用三次方程实根仍绕不开虚数的历史例子解释虚数的必要性。"
+    },
+    {
+      "title": "为什么内积在复数向量空间中不具有交换性？",
+      "url": "https://www.zhihu.com/answer/182304800",
+      "summary": "正文解释复向量空间内积必须对一项取复共轭，才能使自内积为非负实数。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/184777168",
+      "summary": "正文把格点移入复平面，利用高斯整数和复共轭研究平方和表示。"
+    },
+    {
+      "title": "虚数 i 是真实存在的吗？还是被人们创造出的数学工具？",
+      "url": "https://www.zhihu.com/answer/195144067",
+      "summary": "正文把复数定义为实数对并给出四则运算及方程根，完整解释复数系统。"
+    },
+    {
+      "title": "数学中的「相等」能在数理逻辑中严格定义吗？",
+      "url": "https://www.zhihu.com/answer/207841206",
+      "summary": "正文以 i 与 -i 的不可分辨性讨论复数对象的同一性。"
+    },
+    {
+      "title": "33333333…+444444…=？",
+      "url": "https://www.zhihu.com/answer/218961275",
+      "summary": "正文通过域的代数扩张说明复数构造及代数完备性。"
+    },
+    {
+      "title": "(-8)^(1/3) 和 (-8)^(2/6) 的计算结果是否一致？为什么？如何看待？",
+      "url": "https://www.zhihu.com/answer/229892916",
+      "summary": "正文从复数辐角和多值开方解释负数有理次幂。"
+    },
+    {
+      "title": "如何通俗地解释欧拉角？之后为何要引入四元数？",
+      "url": "https://www.zhihu.com/answer/236808639",
+      "summary": "正文定义四元数并给出加乘、共轭和逆运算。"
+    },
+    {
+      "title": "谁能把虚数描述下？",
+      "url": "https://www.zhihu.com/answer/244319250",
+      "summary": "正文从平方根负一、复平面、模和幅角系统解释复数。"
+    },
+    {
+      "title": "两数列合并后有什么性质？",
+      "url": "https://www.zhihu.com/answer/245315013",
+      "summary": "正文用复数单位根和旋转解释三元周期数列的构造。"
+    },
+    {
+      "title": "数学里有哪些精彩的伪证？",
+      "url": "https://www.zhihu.com/answer/262023379",
+      "summary": "正文解释复数平方根运算中常见的非法乘法规则。"
+    },
+    {
+      "title": "学习复分析需要哪些基础？",
+      "url": "https://www.zhihu.com/answer/264219333",
+      "summary": "正文从共轭调和函数和复变量说明全纯函数的表达。"
+    },
+    {
+      "title": "0 的任何次方都等于 0，1 的任何次方都等于 1，这有什么奇妙的联系吗？",
+      "url": "https://www.zhihu.com/answer/265503341",
+      "summary": "正文从复函数多值性说明 1 的一般复指数不只一个值。"
+    },
+    {
+      "title": "比开方更高级的运算能否扩充复数域？",
+      "url": "https://www.zhihu.com/answer/270223143",
+      "summary": "正文从实数域扩张、四元数和八元数系统解释复数的代数地位。"
+    },
+    {
+      "title": "为什么复数没有定义叉乘点乘，向量没有定义除法？",
+      "url": "https://www.zhihu.com/answer/272508737",
+      "summary": "正文从二维实向量空间与可除代数维数说明复数的乘法结构。"
+    },
+    {
+      "title": "为什么一次函数、二次函数、三次函数的图像都是对称的，而四次函数则不一定？",
+      "url": "https://www.zhihu.com/answer/274940638",
+      "summary": "正文转入复数域，用共轭复根解释四次多项式的对称。"
+    },
+    {
+      "title": "如何直观地理解「共轭」这个概念？",
+      "url": "https://www.zhihu.com/answer/278477625",
+      "summary": "正文从实部与虚部定义复数共轭，并说明其常见代数性质。"
+    },
+    {
+      "title": "阿里巴巴公司根据截图查到泄露信息的具体员工的技术是什么？",
+      "url": "https://www.zhihu.com/answer/278510105",
+      "summary": "正文解释复数的实部、虚部及其在信号幅度和相位中的表示。"
+    },
+    {
+      "title": "如何评价中国科学技术大学2017秋季复变函数A试题？",
+      "url": "https://www.zhihu.com/answer/285812680",
+      "summary": "正文用虚数单位和二维平面直观概括复数。"
+    },
+    {
+      "title": "e 的虚数次方如何定义？",
+      "url": "https://www.zhihu.com/answer/323805405",
+      "summary": "正文系统定义复数的幂并讨论多值性。"
+    },
+    {
+      "title": "如何理解傅里叶变换公式？",
+      "url": "https://www.zhihu.com/answer/325895339",
+      "summary": "正文用复平面解释频率与旋转的联系。"
+    },
+    {
+      "title": "sin10° 的准确实数值是什么？",
+      "url": "https://www.zhihu.com/answer/343707566",
+      "summary": "正文通过复数指数、虚部与复立方根表示实三角函数值。"
+    },
+    {
+      "title": "如何评价电影《湮灭》（《Annihilation》）？",
+      "url": "https://www.zhihu.com/answer/345533565",
+      "summary": "正文用复数迭代定义 Mandelbrot 集合并说明其三维推广。"
+    },
+    {
+      "title": "有哪些构造性强的复变函数题目？",
+      "url": "https://www.zhihu.com/answer/347620732",
+      "summary": "正文讨论单位圆盘上的有界全纯复函数。"
+    },
+    {
+      "title": "在由勾股数组成的直角三角形中，除斜边所对直角为 90º 外，其余两角是否都不为整数角？",
+      "url": "https://www.zhihu.com/answer/349286889",
+      "summary": "正文利用复数的代数整数及其共轭性质推导正、余弦只能取受限值。"
+    },
+    {
+      "title": "为什么 0!=1？",
+      "url": "https://www.zhihu.com/answer/358873997",
+      "summary": "正文把阶乘积分延拓到复数参数。"
+    },
+    {
+      "title": "能否绝对地区分出虚数 i 与 -i？",
+      "url": "https://www.zhihu.com/answer/362979575",
+      "summary": "正文用共轭和域扩张解释 i 与 -i 的不可区分。"
+    },
+    {
+      "title": "经典力学当中波函数为什么也可以有虚部？",
+      "url": "https://www.zhihu.com/answer/364610700",
+      "summary": "正文说明用复数解再取实部或虚部的等价性。"
+    },
+    {
+      "title": "如何广义地理解「所有自然数之和」？",
+      "url": "https://www.zhihu.com/answer/368703891",
+      "summary": "正文用复数扩展展示数学定义如何便利应用。"
+    },
+    {
+      "title": "拉普拉斯变换的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/369089156",
+      "summary": "正文把变换变量写成实部与虚部组成的复数，并用复变量给出拉普拉斯变换定义。"
+    },
+    {
+      "title": "1/(n^2+an+b) n从1到正无穷的级数和，b>0？",
+      "url": "https://www.zhihu.com/answer/382169224",
+      "summary": "正文把二次分母拆为两个复数分母并继续求和。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/385832016",
+      "summary": "正文把虚数单位乘向量解释为平面旋转九十度。"
+    },
+    {
+      "title": "为什么说「复分析理论」是本科所学数学中最漂亮最和谐的理论？",
+      "url": "https://www.zhihu.com/answer/400126813",
+      "summary": "正文从解析函数、共形映射和自同构群描述复分析内容。"
+    },
+    {
+      "title": "R^2 与 C 的区别在哪里？为什么有数学家认为复数用 a+bi 表示不好？",
+      "url": "https://www.zhihu.com/answer/413071570",
+      "summary": "正文通过复数域的除法与复可微定义区分 C 和 R²。"
+    },
+    {
+      "title": "R^2 与 C 的区别在哪里？为什么有数学家认为复数用 a+bi 表示不好？",
+      "url": "https://www.zhihu.com/answer/413220928",
+      "summary": "正文用极形式和矩阵表示解释复数乘法、共轭与除法。"
+    },
+    {
+      "title": "R^2 与 C 的区别在哪里？为什么有数学家认为复数用 a+bi 表示不好？",
+      "url": "https://www.zhihu.com/answer/414599247",
+      "summary": "正文从集合、线性空间、拓扑空间和域多层比较复数与 R²。"
+    },
+    {
+      "title": "如何直观的理解线性代数中伴随算子（矩阵） 、自伴算子（矩阵）、正规算子（矩阵）？",
+      "url": "https://www.zhihu.com/answer/420551413",
+      "summary": "正文类比复数的极分解解释算子的极分解与伴随。"
+    },
+    {
+      "title": "人类真的想象不出从来没见过的东西吗？",
+      "url": "https://www.zhihu.com/answer/422010403",
+      "summary": "正文由二次方程非实根引出虚数及复数的实际表达作用。"
+    },
+    {
+      "title": "R^2 与 C 的区别在哪里？为什么有数学家认为复数用 a+bi 表示不好？",
+      "url": "https://www.zhihu.com/answer/435782867",
+      "summary": "正文从集合结构与乘法结构比较复数域 C 和 R²。"
+    },
+    {
+      "title": "底数为负数的指数函数的图像是什么样的？",
+      "url": "https://www.zhihu.com/answer/460533575",
+      "summary": "正文把非整数指数的值放到复数与复平面中解释。"
+    },
+    {
+      "title": "多值函数的支点与单值解析如何理解？",
+      "url": "https://www.zhihu.com/answer/462276334",
+      "summary": "正文从复数幅角、支点和黎曼面解释多值函数单值化。"
+    },
+    {
+      "title": "sin1° 是否为超越数？",
+      "url": "https://www.zhihu.com/answer/473539814",
+      "summary": "正文在复数形式下展开棣莫弗公式。"
+    },
+    {
+      "title": "自然数、正整数、整数、有理数、实数、代数数、复数之间有什么关系？",
+      "url": "https://www.zhihu.com/answer/482074638",
+      "summary": "正文给出复数a+bi形式以及实部、虚部的取值关系。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/492736595",
+      "summary": "正文用三角形式推导复数乘法的模长与幅角规则。"
+    },
+    {
+      "title": "既然复数可以用平面向量表示，那为什么复数有除法，而向量没有呢？",
+      "url": "https://www.zhihu.com/answer/511776974",
+      "summary": "正文从复数的二维乘除结构出发，解释四元数、八元数和可除代数的维数限制。"
+    },
+    {
+      "title": "有哪些高中教材不要求但高考解题时非常好用的知识？",
+      "url": "https://www.zhihu.com/answer/515701204",
+      "summary": "正文用复数表示二维向量、旋转和波动，实质讲解复数的几何运算。"
+    },
+    {
+      "title": "如何直观理解欧拉公式？",
+      "url": "https://www.zhihu.com/answer/523818835",
+      "summary": "正文在复平面上解释用复数表示单位圆位置与旋转。"
+    },
+    {
+      "title": "中国的高中数学教育有哪些内容讲得太多或太少？",
+      "url": "https://www.zhihu.com/answer/534214688",
+      "summary": "正文实质联系复数乘法、辐角与复指数函数。"
+    },
+    {
+      "title": "怎么理解虚数和复数？",
+      "url": "https://www.zhihu.com/answer/540068578",
+      "summary": "全文从数系扩张、复平面和方程求根系统解释复数。"
+    },
+    {
+      "title": "怎么理解虚数和复数？",
+      "url": "https://www.zhihu.com/answer/542742130",
+      "summary": "正文从复平面、实部虚部、模和幅角解释复数。"
+    },
+    {
+      "title": "如何通俗地解释什么是离散傅里叶变换？",
+      "url": "https://www.zhihu.com/answer/542909849",
+      "summary": "正文解释复数在 DFT 中同时编码正弦、余弦系数及相位。"
+    },
+    {
+      "title": "有哪些令人拍案叫绝的算法？",
+      "url": "https://www.zhihu.com/answer/547990689",
+      "summary": "正文明确讨论复数对数、复指数与复数乘方。"
+    },
+    {
+      "title": "虚数的现实、物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/554524806",
+      "summary": "把虚数解释为平面旋转量，并推导复数乘法对应模相乘、角度相加。"
+    },
+    {
+      "title": "虚数的现实、物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/556816603",
+      "summary": "从三次方程、复平面旋转和工程应用系统解释复数。"
+    },
+    {
+      "title": "两个重要极限有多重要？",
+      "url": "https://www.zhihu.com/answer/559668076",
+      "summary": "正文定义复数的模与辐角，并用复数乘法的几何性质推导棣莫弗定理。"
+    },
+    {
+      "title": "斐波那契数列通项公式是怎样推导出来的？",
+      "url": "https://www.zhihu.com/answer/575469058",
+      "summary": "正文在特征根推导中使用复数扩展。"
+    },
+    {
+      "title": "虚数 i 是真实存在的吗？还是被人们创造出的数学工具？",
+      "url": "https://www.zhihu.com/answer/578617551",
+      "summary": "正文通过卡尔达诺公式讲解复数的历史引入。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/578969759",
+      "summary": "正文指出把复根与唯一实根混同的错误。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/578976070",
+      "summary": "正文写出三次方程的复根并解释其有效性。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/580664021",
+      "summary": "指出原二次方程的根应在复数域中理解。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/583808077",
+      "summary": "在复数域中写出原方程的真实根。"
+    },
+    {
+      "title": "如何直观地理解「共轭」这个概念？",
+      "url": "https://www.zhihu.com/answer/584371161",
+      "summary": "用复数乘以共轭得到模长平方来解释共轭。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/585343062",
+      "summary": "写出原方程的复数根并解释实数范围的限制。"
+    },
+    {
+      "title": "为什么说欧拉公式很「神」？",
+      "url": "https://www.zhihu.com/answer/624560423",
+      "summary": "说明虚数单位、复指数和三角函数之间的联系。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/632519342",
+      "summary": "说明三次方程的另外两根需要借助虚数表示。"
+    },
+    {
+      "title": "在地球上挖一条何种走向的隧道能使小球仅受引力作用不接触隧道壁从一端运动到另一端？",
+      "url": "https://www.zhihu.com/answer/636520980",
+      "summary": "引入复变量合并二维耦合运动并取实部、虚部恢复坐标。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/637597756",
+      "summary": "指出原二次方程只有复根，而变形后的三次方程另含实根。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/639506694",
+      "summary": "正文把余弦和转化为复指数等比数列的实部并完成求和。"
+    },
+    {
+      "title": "为什么会有 i 这一虚数？可以求出 i 的值吗？",
+      "url": "https://www.zhihu.com/answer/649029143",
+      "summary": "从 i 的平方为负一出发，以复平面旋转解释虚数和复数运算。"
+    },
+    {
+      "title": "为什么会有 i 这一虚数？可以求出 i 的值吗？",
+      "url": "https://www.zhihu.com/answer/664569501",
+      "summary": "从实数扩张构造满足平方为负一的复数单位。"
+    },
+    {
+      "title": "请问大家这个等式怎么证明？",
+      "url": "https://www.zhihu.com/answer/677122989",
+      "summary": "在复数域中表示多项式根并提取实部。"
+    },
+    {
+      "title": "B 格最高的的数学或物理学公式是什么？",
+      "url": "https://www.zhihu.com/answer/709519085",
+      "summary": "用复指数与虚数单位连接三角函数并导出恒等式。"
+    },
+    {
+      "title": "R^2 与 C 的区别在哪里？为什么有数学家认为复数用 a+bi 表示不好？",
+      "url": "https://www.zhihu.com/answer/711401565",
+      "summary": "解释复数、虚数单位选择与实二维表示。"
+    },
+    {
+      "title": "因式分解的结果为什么是唯一的？",
+      "url": "https://www.zhihu.com/answer/723392807",
+      "summary": "在复数范围讨论多项式根与分解。"
+    },
+    {
+      "title": "如何证明等式abs(i!)=sqrt(Pi*csch(Pi))?",
+      "url": "https://www.zhihu.com/answer/727488600",
+      "summary": "把虚数单位代入 Gamma 函数并计算模长。"
+    },
+    {
+      "title": "三边为 10 的四边形，如何使之面积最大？",
+      "url": "https://www.zhihu.com/answer/728607313",
+      "summary": "使用复数表示平面顶点与旋转。"
+    },
+    {
+      "title": "如果规定数 j 满足 j 的绝对值为 -1 ，数集会不会有新的扩充？",
+      "url": "https://www.zhihu.com/answer/756376527",
+      "summary": "从数系扩张与运算相容性解释虚数单位。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/759760223",
+      "summary": "在复数范围求出参数并得到恒等式。"
+    },
+    {
+      "title": "数学中有什么难以置信的结论？",
+      "url": "https://www.zhihu.com/answer/759839271",
+      "summary": "以复变函数说明解析延拓的唯一性。"
+    },
+    {
+      "title": "高中阶段，如何巧解一元三次方程？",
+      "url": "https://www.zhihu.com/answer/761927874",
+      "summary": "用复数指数形式统一表示三次方程根。"
+    },
+    {
+      "title": "虚数是负数的平方根，为什么是在三次方程中才出现的呢？",
+      "url": "https://www.zhihu.com/answer/762043553",
+      "summary": "解释复数为何在三次方程实根求解中不可或缺。"
+    },
+    {
+      "title": "虚数是负数的平方根，为什么是在三次方程中才出现的呢？",
+      "url": "https://www.zhihu.com/answer/762955244",
+      "summary": "解释三次方程求根中为何必须引入虚数。"
+    },
+    {
+      "title": "一元四次方程怎么解？",
+      "url": "https://www.zhihu.com/answer/765865198",
+      "summary": "使用复数平方根统一给出四个根。"
+    },
+    {
+      "title": "大家如何评价2019年国际数学奥林匹克竞赛IMO第六题?",
+      "url": "https://www.zhihu.com/answer/783160207",
+      "summary": "说明复数法可用于几何证明。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/790533452",
+      "summary": "证明复数域上不存在所求函数。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/791009946",
+      "summary": "积分核使用复指数函数。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/791230378",
+      "summary": "正文随后用复数域上的等价类和二循环轨道图证明该情形无解。"
+    },
+    {
+      "title": "热传导方程和薛定谔方程为什么这么像？",
+      "url": "https://www.zhihu.com/answer/791548387",
+      "summary": "说明复指数与虚数系数产生振荡。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/794457085",
+      "summary": "用复数乘法推导三角和角公式。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/796015580",
+      "summary": "正文以单位根和复数模证明三角函数乘积恒等式。"
+    },
+    {
+      "title": "初等函数之上有无定义「高等函数」？",
+      "url": "https://www.zhihu.com/answer/800217802",
+      "summary": "正文具体讨论复变函数的坐标变换、解析性、Cauchy-Riemann 条件、积分与多值分支。"
+    },
+    {
+      "title": "如果规定数 j 满足 j 的绝对值为 -1 ，数集会不会有新的扩充？",
+      "url": "https://www.zhihu.com/answer/800347804",
+      "summary": "正文构造双曲复数并定义其共轭、加减乘除运算。"
+    },
+    {
+      "title": "如何证明 [tan(3π/11)＋4sin(2π/11)]/√11＝1？",
+      "url": "https://www.zhihu.com/answer/811106046",
+      "summary": "证明把复指数定义的单位根及其共轭、模等性质作为核心工具。"
+    },
+    {
+      "title": "如何证明 [tan(3π/11)＋4sin(2π/11)]/√11＝1？",
+      "url": "https://www.zhihu.com/answer/811560144",
+      "summary": "正文用复单位根和二次高斯和把三角函数表达式化为复数求和。"
+    },
+    {
+      "title": "为什么复数可以用自然对数的底e和三角函数来表示？",
+      "url": "https://www.zhihu.com/answer/820245700",
+      "summary": "用复平面、模与辐角解释复数的极坐标表示。"
+    },
+    {
+      "title": "数学上有比欧拉公式还美的公式吗？",
+      "url": "https://www.zhihu.com/answer/829732537",
+      "summary": "通过复指数和复数实虚部相等完成推导。"
+    },
+    {
+      "title": "如何理解 Kramers Kronig 关系式和因果律之间的关系？",
+      "url": "https://www.zhihu.com/answer/830438696",
+      "summary": "将频率视为复变量并利用上半平面解析性。"
+    },
+    {
+      "title": "如何理解非厄米哈密顿算符？",
+      "url": "https://www.zhihu.com/answer/883035170",
+      "summary": "通过复共轭、纯虚谱和共轭对分析非实谱。"
+    },
+    {
+      "title": "怎么通俗理解 Nyquist 稳定判据？",
+      "url": "https://www.zhihu.com/answer/888955939",
+      "summary": "在复平面上分析频率响应轨迹。"
+    },
+    {
+      "title": "图像经过傅里叶变换以后，得到的频谱图为啥是对称的？又为啥在未频谱居中时，四周代表是低频，中间是高频？",
+      "url": "https://www.zhihu.com/answer/890111874",
+      "summary": "在复数指数形式下证明共轭对称。"
+    },
+    {
+      "title": "如何解一元三次方程？",
+      "url": "https://www.zhihu.com/answer/892976341",
+      "summary": "说明不可约情形中复数如何进入实根计算。"
+    },
+    {
+      "title": "请问如何求复数环上的单位（可逆元）？",
+      "url": "https://www.zhihu.com/answer/943647231",
+      "summary": "正文借复平面上的单位根说明复数环中可逆元的求法与几何分布。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1079982799",
+      "summary": "正文把实根用于获得复数域中的其余解。"
+    },
+    {
+      "title": "如果使 1÷0 有意义，那么应该等于多少？",
+      "url": "https://www.zhihu.com/answer/1081310117",
+      "summary": "正文构造扩充复平面来讨论无穷远点。"
+    },
+    {
+      "title": "负8的立方根是什么?",
+      "url": "https://www.zhihu.com/answer/1091449062",
+      "summary": "正文在复平面上解释负数的三个复立方根。"
+    },
+    {
+      "title": "怎么求sin1°＋sin2°＋sin3°…＋sin90°?",
+      "url": "https://www.zhihu.com/answer/1100495444",
+      "summary": "正文引入复指数把三角函数求和转为复数等比和。"
+    },
+    {
+      "title": "有哪些关于复数/复变函数的有趣知识？",
+      "url": "https://www.zhihu.com/answer/1107873008",
+      "summary": "正文系统利用复数的模、幅角和共轭解决几何问题。"
+    },
+    {
+      "title": "请问有没有大神知道复数的极坐标形式如何进行加、减、乘、除运算？",
+      "url": "https://www.zhihu.com/answer/1114341569",
+      "summary": "正文完整演示复数相量的加减乘除。"
+    },
+    {
+      "title": "y＝x^x 的函数图像长什么样？",
+      "url": "https://www.zhihu.com/answer/1164504233",
+      "summary": "正文将函数扩展到复数域并分别绘制实部和虚部。"
+    },
+    {
+      "title": "如何解 yy''=1？",
+      "url": "https://www.zhihu.com/answer/1168829105",
+      "summary": "正文把对数延拓到复数域并用复误差函数表示解。"
+    },
+    {
+      "title": "可以留下一个优美的恒等式吗？",
+      "url": "https://www.zhihu.com/answer/1169611261",
+      "summary": "正文用复数范数的乘法性推导平方和恒等式。"
+    },
+    {
+      "title": "各个领域中，有什么用核弹打蚊子（用高级技术解决简单问题）的经典案例？",
+      "url": "https://www.zhihu.com/answer/1201595403",
+      "summary": "正文用复平面上的复数表示两点并计算模长平方，推出余弦定律。"
+    },
+    {
+      "title": "有没有能解复数方程组的计算器？",
+      "url": "https://www.zhihu.com/answer/1205247388",
+      "summary": "正文通过实部虚部分解处理复数系数。"
+    },
+    {
+      "title": "有哪些不易察觉的错误证明？",
+      "url": "https://www.zhihu.com/answer/1206026580",
+      "summary": "正文解释复数根式运算为何导致伪证。"
+    },
+    {
+      "title": "有哪些不易察觉的错误证明？",
+      "url": "https://www.zhihu.com/answer/1206559243",
+      "summary": "正文用复数幂多值性解释伪证。"
+    },
+    {
+      "title": "y＝x^x 的函数图像长什么样？",
+      "url": "https://www.zhihu.com/answer/1217591050",
+      "summary": "正文利用复数实部与虚部作二维复平面表示。"
+    },
+    {
+      "title": "共轭复根怎么求?",
+      "url": "https://www.zhihu.com/answer/1249465459",
+      "summary": "正文给出共轭复根及其复数形式。"
+    },
+    {
+      "title": "欧拉公式 e^(ix)＝cosx＋isinx 能不能用初等的方法推导出来？",
+      "url": "https://www.zhihu.com/answer/1260166810",
+      "summary": "正文把实指数和三角函数通过级数推广到复数域。"
+    },
+    {
+      "title": "电路中的相量（Phasor）是向量（Vector）吗？",
+      "url": "https://www.zhihu.com/answer/1302309262",
+      "summary": "正文说明相量的数学本质是复数。"
+    },
+    {
+      "title": "有什么数学定理一般人都觉得是常识，但严谨证明起来却挺费力的？",
+      "url": "https://www.zhihu.com/answer/1378810255",
+      "summary": "正文用 Galois 扩张和拓扑映射证明代数基本定理。"
+    },
+    {
+      "title": "倘若在一次浩劫中，所有科学知识都被摧毁，每门学科只能留存一句话，你认为你所在的领域会留下什么话呢？",
+      "url": "https://www.zhihu.com/answer/1395134112",
+      "summary": "正文提出从正整数体系逐步扩充实数复数体系。"
+    },
+    {
+      "title": "数学中各种数的概念是什么，例如有理数、代数数、实数、复数、自然数、质数 这类的？",
+      "url": "https://www.zhihu.com/answer/1396268128",
+      "summary": "正文从虚数引入复数，并用实数轴和虚数轴解释复平面及复数对实数的包含关系。"
+    },
+    {
+      "title": "怎样计算 sin1°·sin2°·sin3°· … ·sin89°？",
+      "url": "https://www.zhihu.com/answer/1398532554",
+      "summary": "正文使用复数与单位根解释三角函数恒等式。"
+    },
+    {
+      "title": "一个月内学好复变函数可行吗？",
+      "url": "https://www.zhihu.com/answer/1406640638",
+      "summary": "正文以复数定义和运算开启复变函数复习。"
+    },
+    {
+      "title": "(-1)^(0.4) 是否等于 (-1)^(2/5)？",
+      "url": "https://www.zhihu.com/answer/1453767662",
+      "summary": "正文直接讲解或推导“复数”相关内容。"
+    },
+    {
+      "title": "急求助！积分大佬请进！为什么这道题由实数积分会积出复数啊？",
+      "url": "https://www.zhihu.com/answer/1456821595",
+      "summary": "正文解释积分中出现复数源于复对数的多值性。"
+    },
+    {
+      "title": "如何向六年级的孩子解释-1×(-1)＝1？",
+      "url": "https://www.zhihu.com/answer/1467207260",
+      "summary": "正文把负数乘法与虚数单位的旋转联系起来。"
+    },
+    {
+      "title": "复变函数中，如何说明Ln(z²)与2Lnz是否相等，Ln(根号z)与(Lnz)/2是否相等？",
+      "url": "https://www.zhihu.com/answer/1483687585",
+      "summary": "正文直接给出与「复数」相关的解释、推导或应用。"
+    },
+    {
+      "title": "为什么虚数i代表逆时针旋转90度？如何通俗的理解虚数i？",
+      "url": "https://www.zhihu.com/answer/1534274299",
+      "summary": "正文直接讨论复数，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "方程 x²－5x＋6＝0 的解就只有 2 和 3 吗？",
+      "url": "https://www.zhihu.com/answer/1573048668",
+      "summary": "正文构造含双曲虚数单位的高维数，并讨论其复数和矩阵表示。"
+    },
+    {
+      "title": "∫1/(1+x⁶)dx怎么积分？",
+      "url": "https://www.zhihu.com/answer/1583839368",
+      "summary": "正文用六个复根确定 x^6+1 的实二次因子。"
+    },
+    {
+      "title": "我们在数学中为什么要引入复数？",
+      "url": "https://www.zhihu.com/answer/1595159400",
+      "summary": "正文直接讨论或应用该叶节点主题（复数）。"
+    },
+    {
+      "title": "我们在数学中为什么要引入复数？",
+      "url": "https://www.zhihu.com/answer/1604260469",
+      "summary": "正文直接讨论或应用该叶节点主题（复数）。"
+    },
+    {
+      "title": "我们在数学中为什么要引入复数？",
+      "url": "https://www.zhihu.com/answer/1607096344",
+      "summary": "正文直接讨论或应用该叶节点主题（复数）。"
+    },
+    {
+      "title": "我们在数学中为什么要引入复数？",
+      "url": "https://www.zhihu.com/answer/1608580548",
+      "summary": "正文直接讨论或应用该叶节点主题（复数）。"
+    },
+    {
+      "title": "我们在数学中为什么要引入复数？",
+      "url": "https://www.zhihu.com/answer/1608812366",
+      "summary": "正文直接讨论或应用该叶节点主题（复数）。"
+    },
+    {
+      "title": "我们在数学中为什么要引入复数？",
+      "url": "https://www.zhihu.com/answer/1609364048",
+      "summary": "正文直接讨论或应用该叶节点主题（复数）。"
+    },
+    {
+      "title": "欧拉公式是怎么发现的？证明感觉拿泰勒展开有一种钦定的意思，但不知道当初是怎么发现的?",
+      "url": "https://www.zhihu.com/answer/1614067142",
+      "summary": "正文以负数对数和部分分式解释复数进入数学的历史。"
+    },
+    {
+      "title": "明明复变函数更加的复杂且自由度更加的高，为何它比实变函数更易学？",
+      "url": "https://www.zhihu.com/answer/1643883127",
+      "summary": "正文比较复变函数与实变函数的性质和学习难度。"
+    },
+    {
+      "title": "方程 x²－5x＋6＝0 的解就只有 2 和 3 吗？",
+      "url": "https://www.zhihu.com/answer/1677679476",
+      "summary": "正文用单位根展示复数域中的额外解。"
+    },
+    {
+      "title": "欧拉公式 e^{i*k}=cos(k)+i*sin(k) 的来历是什么？",
+      "url": "https://www.zhihu.com/answer/1687375604",
+      "summary": "正文以复数单位 i 和复指数推导欧拉公式。"
+    },
+    {
+      "title": "三角函数有复根吗(比如sin(x)=2)?",
+      "url": "https://www.zhihu.com/answer/1716401164",
+      "summary": "正文在复数域中取对数求三角方程。"
+    },
+    {
+      "title": "复数域还能被扩充吗？",
+      "url": "https://www.zhihu.com/answer/1739121937",
+      "summary": "正文直接讨论或推导「复数」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "为什么负数开偶数次方能有意义，而分母为0没有意义？",
+      "url": "https://www.zhihu.com/answer/1746118469",
+      "summary": "正文直接讨论或推导「复数」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "哪些数学命题可以用复数优雅地证明？",
+      "url": "https://www.zhihu.com/answer/1749440384",
+      "summary": "正文直接讨论或推导「复数」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "哪些数学命题可以用复数优雅地证明？",
+      "url": "https://www.zhihu.com/answer/1753124837",
+      "summary": "正文直接讨论或推导「复数」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "哪些数学命题可以用复数优雅地证明？",
+      "url": "https://www.zhihu.com/answer/1753913700",
+      "summary": "正文直接讨论或推导「复数」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "人类创造了平方等于负数的虚数，那么能否创造绝对值等于负数的数？",
+      "url": "https://www.zhihu.com/answer/1761059908",
+      "summary": "正文推广实数和复数上的绝对值概念并讨论复数域。"
+    },
+    {
+      "title": "哪些数学命题可以用复数优雅地证明？",
+      "url": "https://www.zhihu.com/answer/1764445317",
+      "summary": "正文展示复分析定理可优雅证明代数基本定理。"
+    },
+    {
+      "title": "你见过什么复杂到让你目瞪口呆的公式？",
+      "url": "https://www.zhihu.com/answer/1780088263",
+      "summary": "正文利用代数学基本定理在复数域中讨论四个根。"
+    },
+    {
+      "title": "哪些数学命题可以用复数优雅地证明？",
+      "url": "https://www.zhihu.com/answer/1808855022",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "为什么说欧拉公式很「神」？",
+      "url": "https://www.zhihu.com/answer/1809517205",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "虚数还能再开根号吗？",
+      "url": "https://www.zhihu.com/answer/1864747347",
+      "summary": "正文通过实部虚部分解求解复数的平方根。"
+    },
+    {
+      "title": "虚数还能再开根号吗？",
+      "url": "https://www.zhihu.com/answer/1865041340",
+      "summary": "正文解释复数已包含虚数的平方根并讨论代数闭性。"
+    },
+    {
+      "title": "cos³θ的原函数是什么？",
+      "url": "https://www.zhihu.com/answer/1873491413",
+      "summary": "正文把 cos x 与 sin x 组合成复指数 y 来计算幂和积分。"
+    },
+    {
+      "title": "为什么数学上频繁出现模？",
+      "url": "https://www.zhihu.com/answer/1959546066",
+      "summary": "正文解释复数模与向量长度以及 field norm 的联系。"
+    },
+    {
+      "title": "复数有什么用？感觉生活中完全用不到？",
+      "url": "https://www.zhihu.com/answer/1974851225",
+      "summary": "正文以交流电路为例说明复数如何简化计算。"
+    },
+    {
+      "title": "为什么方程 x³－1＝0 的解不是 x＝1，且 x 是 3 重根？",
+      "url": "https://www.zhihu.com/answer/1980162592",
+      "summary": "正文给出单位立方根并讨论复根。"
+    },
+    {
+      "title": "如何记住所有的三角函数公式？",
+      "url": "https://www.zhihu.com/answer/1986480381",
+      "summary": "正文用复指数和单位根解释三角恒等式。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1995344641",
+      "summary": "正文给出三次方程的复数根。"
+    },
+    {
+      "title": "1＝-1？错在哪一步了？",
+      "url": "https://www.zhihu.com/answer/1998978611",
+      "summary": "正文说明复数域中开方具有多值性。"
+    },
+    {
+      "title": "为什么虚数不能比大小？",
+      "url": "https://www.zhihu.com/answer/2032949384",
+      "summary": "正文解释复数域没有与运算相容的全序。"
+    },
+    {
+      "title": "为什么虚数不能比大小？",
+      "url": "https://www.zhihu.com/answer/2042243072",
+      "summary": "正文用序关系和乘法推出虚数不可全序比较。"
+    },
+    {
+      "title": "三根表针，两两互为 120° 是几点？",
+      "url": "https://www.zhihu.com/answer/2050048095",
+      "summary": "正文在复数域中建立表针方程。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/2051080782",
+      "summary": "正文在复数范围内讨论方程的解。"
+    },
+    {
+      "title": "请问为什么 sin（A+B）=sinAcosB+cosAsinB，有没有详细推导呢？",
+      "url": "https://www.zhihu.com/answer/2082817605",
+      "summary": "正文在复数域中推导三角函数恒等式。"
+    },
+    {
+      "title": "为什么虚数不能比大小？",
+      "url": "https://www.zhihu.com/answer/2129077262",
+      "summary": "正文证明复数域无法兼容域运算地全序化，因此虚数不能比较大小。"
+    },
+    {
+      "title": "为什么很多程序无法计算负数的立方根？",
+      "url": "https://www.zhihu.com/answer/2129851853",
+      "summary": "正文用负数的三个立方根解释程序复数分支与实根选择问题。"
+    },
+    {
+      "title": "虚数存在的意义是什么？",
+      "url": "https://www.zhihu.com/answer/2140845322",
+      "summary": "正文从数系扩充、复平面和乘法旋转意义解释虚数与复数。"
+    },
+    {
+      "title": "数学史上你认为最丑陋的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2143115957",
+      "summary": "正文用复二次多项式在复平面上的迭代定义 Mandelbrot 集合。"
+    },
+    {
+      "title": "为什么|sin nt|≤n|sin t|，其中n是非负整数？",
+      "url": "https://www.zhihu.com/answer/2174325741",
+      "summary": "证明核心是把三角函数写成复指数形式的复数。"
+    },
+    {
+      "title": "为什么虚数不能比大小？",
+      "url": "https://www.zhihu.com/answer/2197812475",
+      "summary": "正文解释复数具有二维结构，不能用单一线序比较大小。"
+    },
+    {
+      "title": "能不能让两个与 π 无关的两个数之和等于 π？",
+      "url": "https://www.zhihu.com/answer/2198452364",
+      "summary": "正文使用复对数和虚数指数构造 π。"
+    },
+    {
+      "title": "一个函数的八阶导数等于其本身，并且其 2~7 阶导数均不等于它本身，这个函数的表达式可以是怎样的？",
+      "url": "https://www.zhihu.com/answer/2219022367",
+      "summary": "正文使用复数指数和八次单位根构造目标函数。"
+    },
+    {
+      "title": "高斯到底有多厉害？",
+      "url": "https://www.zhihu.com/answer/2253217445",
+      "summary": "正文从解方程和运算封闭性解释复数及其必要性。"
+    },
+    {
+      "title": "数学天才欧拉创作出万能的上帝公式，曾一度被怀疑是穿越者，对此你怎么看？",
+      "url": "https://www.zhihu.com/answer/2271877493",
+      "summary": "正文解释虚数单位如何使指数函数与三角函数统一。"
+    },
+    {
+      "title": "能不能让两个与 π 无关的两个数之和等于 π？",
+      "url": "https://www.zhihu.com/answer/2299494007",
+      "summary": "正文利用虚数单位 i 和对数关系构造圆周率等式。"
+    },
+    {
+      "title": "如何理解矩阵的复数特征值和特征向量？",
+      "url": "https://www.zhihu.com/answer/2301707318",
+      "summary": "正文以复数域中的模和幅角解释矩阵的复特征值。"
+    },
+    {
+      "title": "我今年 14 岁，想了一个数学思路，把数学各领域的联系写出来了，这个思路有什么问题吗？",
+      "url": "https://www.zhihu.com/answer/2308593455",
+      "summary": "正文用独立小节从虚数单位、线性组合、几何对应和物理类比展开复数概念。"
+    },
+    {
+      "title": "高斯作出正 17 边形的依据是什么？",
+      "url": "https://www.zhihu.com/answer/2311203733",
+      "summary": "正文在复平面中用单位根和复数表示正多边形的顶点。"
+    },
+    {
+      "title": "是否存在虚虚数j，使得j^2=-i？",
+      "url": "https://www.zhihu.com/answer/2330140437",
+      "summary": "正文通过代数运算说明新定义的平方根仍是普通复数。"
+    },
+    {
+      "title": "是否存在虚虚数j，使得j^2=-i？",
+      "url": "https://www.zhihu.com/answer/2331814308",
+      "summary": "正文在复数域中设实部虚部并求解 j²=-i。"
+    },
+    {
+      "title": "是否存在虚虚数j，使得j^2=-i？",
+      "url": "https://www.zhihu.com/answer/2332152616",
+      "summary": "正文通过复平面计算并联系复数域的代数封闭性。"
+    },
+    {
+      "title": "是否存在虚虚数j，使得j^2=-i？",
+      "url": "https://www.zhihu.com/answer/2332611563",
+      "summary": "正文用代数基本定理解释 j²=-i 的解存在性。"
+    },
+    {
+      "title": "高斯作出正 17 边形的依据是什么？",
+      "url": "https://www.zhihu.com/answer/2333073721",
+      "summary": "正文用完整小节介绍复数的定义、四则运算、模长和辐角。"
+    },
+    {
+      "title": "-1的开方早就该是NaN的，为啥除数为0就不作为又一种虚数的定义？",
+      "url": "https://www.zhihu.com/answer/2349836384",
+      "summary": "正文用商环给出复数域的严格构造。"
+    },
+    {
+      "title": "为什么美国中小学生学的数学比我们简单，美国人却还能做出超级牛的东西？",
+      "url": "https://www.zhihu.com/answer/2395460021",
+      "summary": "正文指出复数在中学教材中常被略过但实际应用广泛。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/2412299478",
+      "summary": "正文利用复指数的周期性讨论复数域上的对数。"
+    },
+    {
+      "title": "是否存在一组实数 α 和 β，使得 sin(α + β) = sinα + sinβ 成立？",
+      "url": "https://www.zhihu.com/answer/2432781623",
+      "summary": "正文把指数变量视为复数并讨论复数域中的解。"
+    },
+    {
+      "title": "复变函数中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2446906320",
+      "summary": "正文在复平面和单位圆盘语境中陈述复分析的核心映射定理。"
+    },
+    {
+      "title": "复变函数中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2449436421",
+      "summary": "正文在复数域上以格描述椭圆曲线。"
+    },
+    {
+      "title": "历史上意大利有哪些伟大的发明呢？",
+      "url": "https://www.zhihu.com/answer/2457862121",
+      "summary": "正文将复数的出现与三次方程求解联系起来，并说明虚数运算规则的早期发展。"
+    },
+    {
+      "title": "一元三次方程的根为什么是两个三次根号相加的形式？它的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2478116419",
+      "summary": "正文使用三次单位根和复平面旋转解释根之间的关系。"
+    },
+    {
+      "title": "是否存在一个比复数更大的数域，使得任意五次方程都有根式解？",
+      "url": "https://www.zhihu.com/answer/2478686161",
+      "summary": "正文比较四元数与复数上的多项式方程及其根。"
+    },
+    {
+      "title": "1/(x^5 + 1) 的不定积分怎么求？",
+      "url": "https://www.zhihu.com/answer/2501017939",
+      "summary": "正文用五次单位根把有理函数分解为复系数一次因式。"
+    },
+    {
+      "title": "∫1/(1+x⁶)dx怎么积分？",
+      "url": "https://www.zhihu.com/answer/2502214455",
+      "summary": "正文利用六次单位根 ω 作复分解，并推广到任意正整数次幂的积分公式。"
+    },
+    {
+      "title": "数学界为何走向抽象？",
+      "url": "https://www.zhihu.com/answer/2504979201",
+      "summary": "正文以复数迭代 z^2+c 和复平面中的稠密性猜想说明一个具体的复动力系统问题。"
+    },
+    {
+      "title": "虚数单位 i^i^i^i^ ... 到无穷等于多少？",
+      "url": "https://www.zhihu.com/answer/2516105858",
+      "summary": "讨论复数幂的多值性、单值分支以及无穷指数塔的收敛与不动点问题。"
+    },
+    {
+      "title": "如何根式求解 cos(π/7)？",
+      "url": "https://www.zhihu.com/answer/2518034513",
+      "summary": "用 7 次单位根与欧拉公式把余弦值化为复数的对称和。"
+    },
+    {
+      "title": "如何证明 sin(π/17) 等于这个？",
+      "url": "https://www.zhihu.com/answer/2524124870",
+      "summary": "以 17 次单位根及其幂表示三角函数值。"
+    },
+    {
+      "title": "如何求解 xⁿ - 1 = 0，并将方程的根用根式表示？",
+      "url": "https://www.zhihu.com/answer/2527594190",
+      "summary": "用 5 次单位根和复数表示方程的根。"
+    },
+    {
+      "title": "我们可不可以抛弃复数的概念，而代之以一个矢量？",
+      "url": "https://www.zhihu.com/answer/2530696244",
+      "summary": "比较复数与二维矢量，解释复数作为数域带来的额外结构。"
+    },
+    {
+      "title": "柯西黎曼条件的本质以及几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/2540945033",
+      "summary": "从复可微、复线性与 Cauchy-Riemann 方程解释复变函数的全纯性。"
+    },
+    {
+      "title": "柯西黎曼条件的本质以及几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/2541139659",
+      "summary": "从复数二维性、模与辐角解释复变函数导数及复数除法的几何意义。"
+    },
+    {
+      "title": "如何理解和掌握快速傅里叶变换的计算和概念？",
+      "url": "https://www.zhihu.com/answer/2541726839",
+      "summary": "用复数单位根及其幂关系构造并化简离散傅里叶变换矩阵。"
+    },
+    {
+      "title": "你最喜欢的数学定理是什么？",
+      "url": "https://www.zhihu.com/answer/2544589817",
+      "summary": "介绍复变函数中的留数定理及其围道积分意义。"
+    },
+    {
+      "title": "高中数学学那么多三角函数公式到底有什么用？",
+      "url": "https://www.zhihu.com/answer/2572017203",
+      "summary": "用复平面上的乘法与旋转解释三角恒等式、复数乘法和极坐标表示。"
+    },
+    {
+      "title": "欧拉公式是怎么发现的？证明感觉拿泰勒展开有一种钦定的意思，但不知道当初是怎么发现的?",
+      "url": "https://www.zhihu.com/answer/2586297166",
+      "summary": "用复数的模长与辐角解释极限因子逐步相乘时的复平面旋转。"
+    },
+    {
+      "title": "复数的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/2588031235",
+      "summary": "解释复数如何把三角函数初相位吸收到复系数中，从而简化波动计算。"
+    },
+    {
+      "title": "你见过最有趣的数学笑话是什么？",
+      "url": "https://www.zhihu.com/answer/2634411440",
+      "summary": "用虚数 imaginary 与旋转 90 度作复数梗。"
+    },
+    {
+      "title": "如何解方程sinx=2？",
+      "url": "https://www.zhihu.com/answer/2640896208",
+      "summary": "在复数域中求 sin x=2 的无穷多复根及一般 a+bi 的解。"
+    },
+    {
+      "title": "抖音的平均文化程度到底怎么样？",
+      "url": "https://www.zhihu.com/answer/2641633567",
+      "summary": "说明负数开方得到虚数，并讨论三次方程实根与虚根的数量。"
+    },
+    {
+      "title": "欧拉公式是定义的还是推导出来的？",
+      "url": "https://www.zhihu.com/answer/2648808375",
+      "summary": "在复数域中定义 e^z，用模长与辐角解释复指数旋转。"
+    },
+    {
+      "title": "为什么在矢量分析中，梯度无旋，旋度无散？",
+      "url": "https://www.zhihu.com/answer/2663399910",
+      "summary": "回顾虚数、复数的定义与几何表示，并用四元数解释向量运算的来源。"
+    },
+    {
+      "title": "向量点乘的实质是什么？",
+      "url": "https://www.zhihu.com/answer/2663409261",
+      "summary": "回顾虚数与复数的定义、几何表示，并用四元数说明向量运算的来源。"
+    },
+    {
+      "title": "如何直观形象地理解梯度、散度、旋度？",
+      "url": "https://www.zhihu.com/answer/2663436569",
+      "summary": "介绍虚数、复数的定义与几何表示，并联系四元数和向量。"
+    },
+    {
+      "title": "是否存在虚虚数j，使得j^2=-i？",
+      "url": "https://www.zhihu.com/answer/2722533883",
+      "summary": "正文用复数开方封闭性解释为何不能再造通常的“虚虚数”，并引出四元数、八元数等超复数体系。"
+    },
+    {
+      "title": "如何求数列aₙ₊₁=aₙ²-2aₙ?",
+      "url": "https://www.zhihu.com/answer/2729863532",
+      "summary": "正文说明两套通项可在复数域内互相化简，并解释余弦方程大于一在复数域内仍有解。"
+    },
+    {
+      "title": "如何记住所有的三角函数公式？",
+      "url": "https://www.zhihu.com/answer/2737671189",
+      "summary": "把三角和式写成复指数等比数列，并用单位根与韦达定理求乘积链。"
+    },
+    {
+      "title": "散度和旋度的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/2747752390",
+      "summary": "正文从虚数定义出发解释复数的构成及其几何表示。"
+    },
+    {
+      "title": "求解方程时，人们为什么不接受无解情况，而为方程有意义而发明一些如虚数等新的数的概念？",
+      "url": "https://www.zhihu.com/answer/2757866840",
+      "summary": "正文从三次方程求根出发，解释引入复数后虚数中间量可以得到实数解，并说明复数范围内的三值开方。"
+    },
+    {
+      "title": "如果不动点方程无实数解该怎么办，一定是周期数列吗？",
+      "url": "https://www.zhihu.com/answer/2758066742",
+      "summary": "正文在不动点无实数解时使用两个共轭复根，构造复数列的等比关系和通项，实质应用复数。"
+    },
+    {
+      "title": "求解方程时，人们为什么不接受无解情况，而为方程有意义而发明一些如虚数等新的数的概念？",
+      "url": "https://www.zhihu.com/answer/2766985282",
+      "summary": "正文给负数强行开平方，再让两个共轭虚数部分相消得到实数根，说明复数在解三次方程中的作用。"
+    },
+    {
+      "title": "能否出一道数学题，涵盖高中所有知识点?",
+      "url": "https://www.zhihu.com/answer/2798990583",
+      "summary": "正文用复数的极坐标形式表示题目中的复元素，并据其实部绝对值计算正方体棱长。"
+    },
+    {
+      "title": "-1的开方早就该是NaN的，为啥除数为0就不作为又一种虚数的定义？",
+      "url": "https://www.zhihu.com/answer/2826814092",
+      "summary": "正文从三次方程求根的历史困难出发，说明虚数及复数为什么被引入和接受。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2848649557",
+      "summary": "正文利用复数乘法的模与辐角规则实现点的旋转，从而变换椭圆方程。"
+    },
+    {
+      "title": "我们在数学中为什么要引入复数？",
+      "url": "https://www.zhihu.com/answer/2885317558",
+      "summary": "正文从实数域的二次扩张构造复数域，并给出复数的代数形式及加法、乘法和逆元运算。"
+    },
+    {
+      "title": "sin（x）求四次导数还是原函数，和e^（x）的性质相似，这和欧拉公式有关系吗？",
+      "url": "https://www.zhihu.com/answer/2963331781",
+      "summary": "正文用欧拉公式把复数写成指数形式，并解释复数乘法的模相乘、辐角相加。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2976348964",
+      "summary": "正文把复数乘法表示成二阶实矩阵乘法，说明复数与矩阵的对应。"
+    },
+    {
+      "title": "为何“西方伪史论”这种历史虚无主义论调如今在网络上这么地流行？",
+      "url": "https://www.zhihu.com/answer/2978624112",
+      "summary": "正文从负数开方的无定义状态引入虚数，并说明复数由实部和虚部组成。"
+    },
+    {
+      "title": "为什么 lnx 求导是 1/x？",
+      "url": "https://www.zhihu.com/answer/3050908212",
+      "summary": "正文讨论复对数在复平面割线之外的解析性以及跨越割线时的2πi跳跃。"
+    },
+    {
+      "title": "如何形象地理解四元数？",
+      "url": "https://www.zhihu.com/answer/3074942168",
+      "summary": "正文从复数乘法表示二维旋转出发，解释虚数、模长与共轭，并由此扩展到四元数。"
+    },
+    {
+      "title": "如何直观理解欧拉公式？",
+      "url": "https://www.zhihu.com/answer/3077725665",
+      "summary": "正文把虚数单位解释为二维坐标扩张，并展开复数乘法的模长与辐角规则。"
+    },
+    {
+      "title": "数学科普动画《火柴人vs数学》极为精彩，但里面很多东西看不懂，有人能按顺序科普一下里面的数学知识吗？",
+      "url": "https://www.zhihu.com/answer/3090413909",
+      "summary": "正文由 i^2=-1 解释虚数单位给实数轴增加垂直维度，并说明复数在复平面中的几何意义。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/3129789541",
+      "summary": "正文用多值复对数和复指数周期性讨论方程，并刻画复数解在复平面曲线上的分布。"
+    },
+    {
+      "title": "为什么用两个方法算 √-1 × √-1会得到两个结果？",
+      "url": "https://www.zhihu.com/answer/3137603951",
+      "summary": "正文把虚数单位平方根的两种取值解释为复变根式的多值性，并讨论不同幅角选择下的结果。"
+    },
+    {
+      "title": "1，3，3，5，5，5，7，7，7，7... 的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/3155540572",
+      "summary": "正文用含虚数单位 i、负数平方根和复对数的表达式构造与给定数列相符的通项。"
+    },
+    {
+      "title": "是否存在虚虚数j，使得j^2=-i？",
+      "url": "https://www.zhihu.com/answer/3178092409",
+      "summary": "正文说明复数域是实数域的代数闭包，并给出由实数多项式环模去 x^2+1 所生成理想来构造复数域的方法。"
+    },
+    {
+      "title": "是否存在虚虚数j，使得j^2=-i？",
+      "url": "https://www.zhihu.com/answer/3180955425",
+      "summary": "正文逐层构造 j、k、l、m 等复数，使每一层满足下一层数的平方为负，实质说明复数的平方根和嵌套开方。"
+    },
+    {
+      "title": "复变函数积分有没有比较直观的意义？",
+      "url": "https://www.zhihu.com/answer/3219933541",
+      "summary": "正文用复数的极坐标形式说明复数乘法对应模长相乘与辐角相加。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/3223976141",
+      "summary": "正文从二维向量及其运算出发解释复数域的构造，并在复函数与矩阵表示中持续使用复数。"
+    },
+    {
+      "title": "为什么说「复数是完美的」？",
+      "url": "https://www.zhihu.com/answer/3245298607",
+      "summary": "正文围绕复数域的代数封闭性、度量完备性和局部紧致性论证其特殊地位，实质讨论了复数。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/3253187202",
+      "summary": "正文把 z 写成实部、虚部和极坐标形式，在复平面上求方程 z^e=e^z 的根并指出根有无数个。"
+    },
+    {
+      "title": "为什么{ⅹ|x²＝-5}是空集?",
+      "url": "https://www.zhihu.com/answer/3282573354",
+      "summary": "正文把方程在复数域中的解具体写成互为相反数的两个纯虚数。"
+    },
+    {
+      "title": "复数在电路中有什么作用？",
+      "url": "https://www.zhihu.com/answer/3288849992",
+      "summary": "正文用复数相量表示交流量，并通过与常微分方程法比较说明复数怎样简化计算。"
+    },
+    {
+      "title": "数学上，有哪些著名的解析延拓？",
+      "url": "https://www.zhihu.com/answer/3324056111",
+      "summary": "正文把幂级数置于复平面，使用复数变量、单位圆与单位根说明收敛区域和奇点分布。"
+    },
+    {
+      "title": "6岁女儿问为什么负数乘以负数得正数，有啥通俗易懂的答案？",
+      "url": "https://www.zhihu.com/answer/3324214444",
+      "summary": "正文用虚数 i 的连续乘法解释 90 度旋转、两次旋转得到 -1 以及四次旋转回到原位。"
+    },
+    {
+      "title": "6岁女儿问为什么负数乘以负数得正数，有啥通俗易懂的答案？",
+      "url": "https://www.zhihu.com/answer/3324256011",
+      "summary": "正文在复平面中把乘以负一实现为 180 度旋转，直观解释复数乘法。"
+    },
+    {
+      "title": "当今世界数学已经发展到本科生难以理解的地步了吗？",
+      "url": "https://www.zhihu.com/answer/3370376039",
+      "summary": "正文以交变电流和平面向量说明复数不只是计算方便，而是具有明确的几何表示；后文又用默比乌斯变换连接复分析与非欧几何。"
+    },
+    {
+      "title": "x³-3x+1=0的精确解是什么？",
+      "url": "https://www.zhihu.com/answer/3408435788",
+      "summary": "正文利用 y 是九次而非三次单位根筛选三次方程的根，实质使用复数单位根。"
+    },
+    {
+      "title": "实分析，复分析，数学分析，实变函数，复变函数的关系是什么？",
+      "url": "https://www.zhihu.com/answer/3417262490",
+      "summary": "正文从复数的实部与虚部出发，把它解释为复平面中的一个点并据此研究复变函数。"
+    },
+    {
+      "title": "为什么高中几乎不学复数？",
+      "url": "https://www.zhihu.com/answer/3424395903",
+      "summary": "正文讨论复数乘法借助模角形式处理几何问题，并比较其向量解释、指数表示与教材中的拓展方向。"
+    },
+    {
+      "title": "哪些数学公式让你觉得真的会有「神明」存在？",
+      "url": "https://www.zhihu.com/answer/3432133721",
+      "summary": "正文利用复数辐角的多值性计算复对数，并说明不同 k 给出多个值及软件默认取值的来源。"
+    },
+    {
+      "title": "为什么Δ=0的二次方程要说自己有“两个相等的根”?",
+      "url": "https://www.zhihu.com/answer/3462061288",
+      "summary": "正文由代数基本定理解释复数域是代数闭域，多项式总能分解为一次因式。"
+    },
+    {
+      "title": "如果以后做代数方向,是不是完全没有必要学数分和高代?",
+      "url": "https://www.zhihu.com/answer/3485273515",
+      "summary": "正文把复平面上的复数写成实部与虚部对应的二维实向量，并分析复数乘法的结构。"
+    },
+    {
+      "title": "有没有分数边形，例如正3.5边形？",
+      "url": "https://www.zhihu.com/answer/3487329046",
+      "summary": "正文把边数推广为复数，使用复变函数的模与多值辐角重写多边形方程并讨论图形变化。"
+    },
+    {
+      "title": "能否像i一样定义j，满足jʲ=0？",
+      "url": "https://www.zhihu.com/answer/3526972871",
+      "summary": "正文以虚数单位 i 为参照讨论能否定义 j，并具体说明 j^j=0 与 e^j=0 在复数域中的可解性限制。"
+    },
+    {
+      "title": "为什么有i人、有e人，没有π人？",
+      "url": "https://www.zhihu.com/answer/3564071316",
+      "summary": "正文说明复指数 e^{ix} 与 cos x、i sin x 的关系，并讨论复数 z=x+iy 的幅角。"
+    },
+    {
+      "title": "i的平方等于-1，-i的平方也等于-1。那么i等于-i。我算错了吗？",
+      "url": "https://www.zhihu.com/answer/3566700330",
+      "summary": "正文把题主的隐藏前提量化为对所有复数 a、b，若 a²=b² 则 a=b，并指出该前提不成立。"
+    },
+    {
+      "title": "你读过的书中，哪本对你的影响最大？",
+      "url": "https://www.zhihu.com/answer/3579877841",
+      "summary": "正文比较复数与向量的区别，并借用复数乘法的伸缩与旋转解释其几何意义，对应复数叶节点。"
+    },
+    {
+      "title": "能否引入隐数“j”“k”，使得ln（-1）=j,ln(0)=k?",
+      "url": "https://www.zhihu.com/answer/3587244868",
+      "summary": "正文讨论引入新虚数符号无法扩展数域，并说明复数域已经足够完备。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/3598411613",
+      "summary": "正文用复数实部、虚部和辐角主值表示未知量，并在复平面上分析方程的可数无穷多组复数解。"
+    },
+    {
+      "title": "x⁰+x¹+x²+x³+x⁴=0的解，如何计算？",
+      "url": "https://www.zhihu.com/answer/3598556712",
+      "summary": "正文以单位根的标准复数三角形式逐一表示方程在复平面上的五个根。"
+    },
+    {
+      "title": "用 i   i   i   i 四个数字如何算 24 点？",
+      "url": "https://www.zhihu.com/answer/3606788721",
+      "summary": "正文给出用复数单位 i 的负 i 次幂构造 24 的等式，并提示按复变函数主值计算，属于复数运算的应用。"
+    },
+    {
+      "title": "为什么虚数ⅰ³=-ⅰ，而(ⅰ⁴)的3/4次幂=1？哪里出问题了？",
+      "url": "https://www.zhihu.com/answer/3642323566",
+      "summary": "正文说明复数域开方会产生多个取值，并用 1 的四次方根为例解释幂次运算的多值性。"
+    },
+    {
+      "title": "谁能把虚数描述下？",
+      "url": "https://www.zhihu.com/answer/15025703098",
+      "summary": "正文用三次方程的具体例子说明负数的平方根如何必须由虚数 i 表示，并据此得到实根、理解复根。"
+    },
+    {
+      "title": "如何计算百万位级别的大数乘法？",
+      "url": "https://www.zhihu.com/answer/18989697232",
+      "summary": "正文引入复数单位根，并利用其正负配对及平方后仍可配对的性质实现快速变换。"
+    },
+    {
+      "title": "为什么全国通用高中数学课本章建跃主编在教学论文中犯基本概念错误？",
+      "url": "https://www.zhihu.com/answer/31772786156",
+      "summary": "正文把复数域解释为带数乘和内积的二维实向量空间，同时辨析复数乘法结构与一般向量空间的区别。"
+    },
+    {
+      "title": "如何构造函数，使得f(f(x))=-x？",
+      "url": "https://www.zhihu.com/answer/33092770282",
+      "summary": "正文把方程推广到复数域，用乘以 i 或 -i 表示半周转，并证明所得复数解。"
+    },
+    {
+      "title": "为什么曼德勃罗集中间有心形线?",
+      "url": "https://www.zhihu.com/answer/54897148460",
+      "summary": "正文在复平面中把心形线解释为圆在复二次映射下的像，并推导相关复映射。"
+    },
+    {
+      "title": "哪些数学命题可以用复数优雅地证明？",
+      "url": "https://www.zhihu.com/answer/61858766203",
+      "summary": "正文利用复数平面、扩充复平面和分式线性变换，把单点穿孔平面的覆盖构造转化为双点穿孔平面的证明。"
+    },
+    {
+      "title": "怎么让不懂数学的人体会到抽象代数的魅力？",
+      "url": "https://www.zhihu.com/answer/65461654171",
+      "summary": "正文通过模 x^2+1 构造复数域，并说明其中 x 的剩余类满足平方为 -1，可充当虚数单位。"
+    },
+    {
+      "title": "我们在数学中为什么要引入复数？",
+      "url": "https://www.zhihu.com/answer/80083956156",
+      "summary": "正文从卡丹公式到复分析、高斯的数论工作，解释了复数为何被引入及其可作加减乘除和代数闭包的性质。"
+    },
+    {
+      "title": "如何评价清华大学求真书院推出的「杰出少年数学示范班」?",
+      "url": "https://www.zhihu.com/answer/92292250347",
+      "summary": "正文从三次方程求根公式的判别式问题引出复数，并说明在复数域中求根公式才能正常工作。"
+    },
+    {
+      "title": "在不使用任何数字的情况下，如何表达数字 100？",
+      "url": "https://www.zhihu.com/answer/103047347171",
+      "summary": "正文引入虚数单位 i 的平方根定义，并用它改写欧拉恒等式中的复指数。"
+    },
+    {
+      "title": "R^2 与 C 的区别在哪里？为什么有数学家认为复数用 a+bi 表示不好？",
+      "url": "https://www.zhihu.com/answer/106320056300",
+      "summary": "正文从实向量空间与复向量空间的结构差异出发，解释 a+bi 中实部和虚部所对应的基与系数。"
+    },
+    {
+      "title": "如何用参数方程证明曲线x²+y²-xy=1是个椭圆？",
+      "url": "https://www.zhihu.com/answer/110289149772",
+      "summary": "正文利用复数乘法对应平面旋转，将原方程旋转后化为椭圆标准方程，具体使用了复数的几何表示。"
+    },
+    {
+      "title": "怎么向小学生解释欧拉公式 e^(πi)+1=0？",
+      "url": "https://www.zhihu.com/answer/113533732802",
+      "summary": "正文用复平面、复数模长与辐角解释 e^{iy} 的旋转作用，具体讨论复指数所对应的复数运动。"
+    },
+    {
+      "title": "x⁷=1的根式解都是什么（包括复数解）?",
+      "url": "https://www.zhihu.com/answer/115343594462",
+      "summary": "正文的预解值、根式解与数值验证均明确使用复数及其虚部。"
+    },
+    {
+      "title": "现代数学和理论物理已经发展到怎样一个令人震惊的水平了？",
+      "url": "https://www.zhihu.com/answer/118420467514",
+      "summary": "正文指出有些二次方程的解无法由实数表示，由此引入复数 C。"
+    },
+    {
+      "title": "代数基本定理有哪些不同的证明方法？",
+      "url": "https://www.zhihu.com/answer/123021793062",
+      "summary": "正文把多项式定义在复数域上，并证明任意复系数非常数多项式必有复数根。"
+    },
+    {
+      "title": "有哪些数学理论最初被认为「毫无用处」，却在某个领域意外成为关键技术支柱？",
+      "url": "https://www.zhihu.com/answer/128776917467",
+      "summary": "正文从 x^2+1=0 和三次方程求根引入虚数单位，并说明实数系扩充为复数系以及复数的运算。"
+    },
+    {
+      "title": "为什么f(x)=xˣ函数图像没有<0的部分？",
+      "url": "https://www.zhihu.com/answer/130299685276",
+      "summary": "正文在复数范围内讨论复幂的多值性和分支，并给出实部、虚部的取值。"
+    },
+    {
+      "title": "有哪些并不是很离谱的数学伪证，但是得到的结论却是一眼假的？",
+      "url": "https://www.zhihu.com/answer/1893262948908134871",
+      "summary": "正文在复数指数上反复运用周期性并以指数展开展示一个伪证。"
+    },
+    {
+      "title": "虚数的意义到底是为什么存在的？",
+      "url": "https://www.zhihu.com/answer/1897317234466070795",
+      "summary": "正文讲述虚数的引入，并具体解释复数、复平面及复数与旋转的对应关系。"
+    },
+    {
+      "title": "正数开平方取大于零的平方根，那负数开平方取哪个虚数?",
+      "url": "https://www.zhihu.com/answer/1900548681440157740",
+      "summary": "正文讨论虚数单位 i 与 -i 的不可区分性、共轭关系及复数的不同表示。"
+    },
+    {
+      "title": "为何数学会出现虚数i这无意义的符号？",
+      "url": "https://www.zhihu.com/answer/1900929274350920493",
+      "summary": "正文以结构主义观点和复平面几何直观说明虚数、复数为何可以被接受，涉及复数概念的理解。"
+    },
+    {
+      "title": "如何形象地理解四元数？",
+      "url": "https://www.zhihu.com/answer/1908595712100376715",
+      "summary": "从复数表示二维旋转出发，说明四元数是复数向三维旋转的扩展。"
+    },
+    {
+      "title": "函数方程f(x)+f(x+1)+f(x+2)=0如何求解f(x)?",
+      "url": "https://www.zhihu.com/answer/1917529858210269061",
+      "summary": "正文用复数单位根 ω 表示傅里叶系数对应的频率分量，并据此写出解。"
+    },
+    {
+      "title": "为什么说欧拉公式很「神」？",
+      "url": "https://www.zhihu.com/answer/1918082627174371436",
+      "summary": "正文把复数解释为平面中加入九十度旋转方向的数，并联系到复平面上的旋转。"
+    },
+    {
+      "title": "（3+i）-（2+i）＝1＞0，所以3+i＞2+i但是明明虚数不能比较大小呀，如何解决这个问题？",
+      "url": "https://www.zhihu.com/answer/1918775366484489069",
+      "summary": "正文用复数表示不等关系，并借助复数相乘时幅角相加的性质重新解释不等号方向。"
+    },
+    {
+      "title": "如果f(f(x))=1/x，f(x)可以为什么？",
+      "url": "https://www.zhihu.com/answer/1922620223766390571",
+      "summary": "正文比较复数域与实数域上的函数方程解，并给出复值幂函数和莫比乌斯变换形式的解。"
+    },
+    {
+      "title": "x³-6x-6=0，求x=?",
+      "url": "https://www.zhihu.com/answer/1922754262632493931",
+      "summary": "正文把换元变量的两个虚根代入表达式中，并用复根表示三次方程的其余解。"
+    },
+    {
+      "title": "怎样计算 sin1°·sin2°·sin3°· … ·sin89°？",
+      "url": "https://www.zhihu.com/answer/1924741643707320090",
+      "summary": "正文用单位圆上的 180 次单位根及其复数坐标表示正 180 边形的顶点。"
+    },
+    {
+      "title": "复变方程求解 sinz+cosz=2?",
+      "url": "https://www.zhihu.com/answer/1925672479579416081",
+      "summary": "正文把实域无解的方程扩展到复域，并给出含实部与虚部的完整复数解集。"
+    },
+    {
+      "title": "为什么大自然不允许三元数结构出现？",
+      "url": "https://www.zhihu.com/answer/1927401924933715003",
+      "summary": "正文从复数与平面点的一一对应出发，讨论把复数乘法结构推广到三维时的困难。"
+    },
+    {
+      "title": "复数之外还有数吗？",
+      "url": "https://www.zhihu.com/answer/1928251653791908278",
+      "summary": "正文讨论复数域相对实数域的扩张及其序结构损失。"
+    },
+    {
+      "title": "复数丢失全序性，四元数丢失交换律，八元数丢失结合律，十六元数丢失交错性，能推广得到定量一般规律吗?",
+      "url": "https://www.zhihu.com/answer/1929490631903941154",
+      "summary": "正文从实数对定义复数，说明其乘法、共轭以及从实数扩充后失去全序性。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/1930196264110236098",
+      "summary": "正文明确讨论复数幂的多值性，并据此说明复方程为何需要选定对数分支。"
+    },
+    {
+      "title": "能否把导数推广到任意阶（分数阶、实数阶、甚至是复数阶）？",
+      "url": "https://www.zhihu.com/answer/1931305675214034261",
+      "summary": "正文把导数阶数从实数推广到复数，并解释复数阶的实部、虚部在物理模型中的作用。"
+    },
+    {
+      "title": "怎么判断一个孩子有没有数学天赋？",
+      "url": "https://www.zhihu.com/answer/1933522192638911036",
+      "summary": "正文从虚数单位平方为-1出发，解释复数的实部、虚部、复平面表示和乘法旋转意义。"
+    },
+    {
+      "title": "怎样看出一个人有数学天赋？",
+      "url": "https://www.zhihu.com/answer/1933522657170682119",
+      "summary": "正文从虚数单位平方为-1出发，解释复数的实部、虚部、复平面表示和乘法旋转意义。"
+    },
+    {
+      "title": "为什么欧拉公式被称为世界上最完美的公式了？",
+      "url": "https://www.zhihu.com/answer/1933542278623896911",
+      "summary": "正文从虚数单位平方为-1出发，解释复数的实部、虚部、复平面表示和乘法旋转意义。"
+    },
+    {
+      "title": "掌握什么思想会让你的数学水平有质的飞跃?",
+      "url": "https://www.zhihu.com/answer/1935810078058976434",
+      "summary": "正文从虚数单位i的引入开始，讲解复数表示、复平面和复数乘法旋转。"
+    },
+    {
+      "title": "四元数可以理解成\"复复数\"吗?",
+      "url": "https://www.zhihu.com/answer/1941259294310917704",
+      "summary": "正文用复数 a+bi 的乘法与共轭关系说明双复数和四元数为何是不同的代数结构。"
+    },
+    {
+      "title": "如何理解量子力学中的不确定性原理？",
+      "url": "https://www.zhihu.com/answer/1942732612171962331",
+      "summary": "正文把量子力学复数中的虚数项对应到几何代数的伪标量与二重矢量，并解释其几何表示。"
+    },
+    {
+      "title": "四元数函数可以成为复变函数的延拓吗？",
+      "url": "https://www.zhihu.com/answer/1944718259300603296",
+      "summary": "正文从复分析中的全纯性出发，讨论复变函数的基本概念及其向四元数推广的困难。"
+    },
+    {
+      "title": "数学这门学科有多有趣？",
+      "url": "https://www.zhihu.com/answer/1948017075575587602",
+      "summary": "正文定义虚数单位与复数 a+bi，解释复平面、极坐标形式和复数乘法。"
+    },
+    {
+      "title": "sin(x)+sin(x^2)最大值能取到2吗?",
+      "url": "https://www.zhihu.com/answer/1948362831222248592",
+      "summary": "正文取复数作为自变量，计算复正弦的实部，并进一步构造虚部为零的复变量以获得实数函数值。"
+    },
+    {
+      "title": "为什么说这是个最完美的数学公式？",
+      "url": "https://www.zhihu.com/answer/1953562879484732096",
+      "summary": "正文给出复数的指数形式，并在复平面上解释复指数对应的点。"
+    },
+    {
+      "title": "复数之外还有数吗？",
+      "url": "https://www.zhihu.com/answer/1960420735035106671",
+      "summary": "正文把四元数作为复数系的扩展，说明其构造、运算及其与复数非交换性的差异。"
+    },
+    {
+      "title": "你见过最优雅的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/1964502212957963762",
+      "summary": "正文从虚数单位、复平面和旋转解释复数的意义与代数、极坐标表示。"
+    },
+    {
+      "title": "如何解方程sinx=2？",
+      "url": "https://www.zhihu.com/answer/1965025709824152720",
+      "summary": "正文把实方程推广到复变量，并利用实部与虚部条件求复数解。"
+    },
+    {
+      "title": "为什么复变函数中要特别的引入全纯这一比可导条件更强的概念？",
+      "url": "https://www.zhihu.com/answer/1968312075915883671",
+      "summary": "正文在复数域中区分逐点复可导与邻域内全纯，并用复变函数构造反例。"
+    },
+    {
+      "title": "72 岁送垃圾老人痴迷数学，希望将一生研究手稿传承，如何客观评估老人的研究成果？如何看待他这份精神？",
+      "url": "https://www.zhihu.com/answer/1970271689716797796",
+      "summary": "正文用复数的模和幅角说明复数开立方的多值结果，并进一步讨论所得实部。"
+    },
+    {
+      "title": "数学是人类发明的，还是宇宙本身的语言？",
+      "url": "https://www.zhihu.com/answer/1970293803148644585",
+      "summary": "正文从虚数单位的定义、乘法旋转意义讲到复数表达式及其在复平面上的几何表示。"
+    },
+    {
+      "title": "数学史上有哪些问题是通过构造出一套新的理论才得以解决的？必须要构造新的理论才能解决这些问题吗？",
+      "url": "https://www.zhihu.com/answer/1973807644906116852",
+      "summary": "正文以三次方程求解中出现负数平方根为例，说明引入虚数单位并建立复数理论、复平面和运算法则的必要性。"
+    },
+    {
+      "title": "对数是怎么被发明的？",
+      "url": "https://www.zhihu.com/answer/1974561517283340650",
+      "summary": "正文把指数定义扩展到任意复数，并说明负数的分数次幂需要虚数单位及复数运算。"
+    },
+    {
+      "title": "为什么很多大学生都学不会高等数学？",
+      "url": "https://www.zhihu.com/answer/1978617928741037337",
+      "summary": "正文用虚数对应旋转90度来解释高阶调制中的复数意义。"
+    },
+    {
+      "title": "人类为什么需要创造虚数？",
+      "url": "https://www.zhihu.com/answer/1981438360770871348",
+      "summary": "正文类比负数的引入，说明假设虚数单位i后负数开平方及含根式的运算可以继续，从而构造复数。"
+    },
+    {
+      "title": "复变函数中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/1982409628756239108",
+      "summary": "正文围绕复变量上的黎曼映照、莫比乌斯变换和Schwarz-Christoffel映射展开，属于复数与复映射内容。"
+    },
+    {
+      "title": "如何理解特征值为复数的情况？",
+      "url": "https://www.zhihu.com/answer/1982961316143579388",
+      "summary": "正文用实部缩放、虚部旋转解释实矩阵为何会出现复数特征值，具体说明了复数的几何意义。"
+    },
+    {
+      "title": "高斯作出正 17 边形的依据是什么？",
+      "url": "https://www.zhihu.com/answer/1984657279757354314",
+      "summary": "正文用复平面上的 17 次单位根表示多边形顶点，并解释这些复数根在单位圆上的分布与共轭关系。"
+    },
+    {
+      "title": "为什么双曲线引入复数i就能变椭圆？？",
+      "url": "https://www.zhihu.com/answer/1995463919620350271",
+      "summary": "正文用虚坐标变换代换双曲线方程，说明复数单位如何把双曲线形式转成椭圆形式。"
+    },
+    {
+      "title": "人类为什么需要创造虚数？",
+      "url": "https://www.zhihu.com/answer/1999891273520264395",
+      "summary": "正文以方程求解和代数规则的发展解释虚数单位如何构成复数，并说明复数获得严格合法性的过程。"
+    },
+    {
+      "title": "傅里叶变换的意义是什么？",
+      "url": "https://www.zhihu.com/answer/2000987684697552037",
+      "summary": "正文以模长和辐角解释复数如何分别表示波动的振幅与相位。"
+    },
+    {
+      "title": "为什么说语言是思维的边界？",
+      "url": "https://www.zhihu.com/answer/2005090247906711416",
+      "summary": "正文定义平方根负一为虚数单位，并以乘以虚数单位的旋转解释虚数轴和复平面的构造。"
+    },
+    {
+      "title": "怎么理解虚数和复数？",
+      "url": "https://www.zhihu.com/answer/2015321086917641788",
+      "summary": "正文从实数与虚部定义复数，说明虚数单位的来源、复平面表示及其数系地位。"
+    },
+    {
+      "title": "虚数的现实、物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/2017498671030232930",
+      "summary": "正文从虚数单位定义出发，说明复数可以写成三角形式和指数形式。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/2022671733056907222",
+      "summary": "正文用 ln(-1)=iπ、sqrt(-1)=i 将实函数延拓到复数域，并计算复数值。"
+    },
+    {
+      "title": "复数之外还有数吗？",
+      "url": "https://www.zhihu.com/answer/2023442641765810945",
+      "summary": "正文给出复数 a+bi 的标准形式、实部与虚部，并解释其复平面表示和代数封闭性。"
+    },
+    {
+      "title": "为什么虚数ⅰ³=-ⅰ，而(ⅰ⁴)的3/4次幂=1？哪里出问题了？",
+      "url": "https://www.zhihu.com/answer/2025495460454962661",
+      "summary": "正文围绕复数不能比较大小、负底数分数幂会丢失信息和产生多值结果展开，属于复数运算性质讨论。"
+    },
+    {
+      "title": "虚数还能再开根号吗？",
+      "url": "https://www.zhihu.com/answer/2025519017675245485",
+      "summary": "正文系统讲解复数 a+bi 的代数形式、运算、模长和辐角，并据此计算虚数平方根。"
+    },
+    {
+      "title": "为什么虚数ⅰ³=-ⅰ，而(ⅰ⁴)的3/4次幂=1？哪里出问题了？",
+      "url": "https://www.zhihu.com/answer/2026132292762871286",
+      "summary": "正文用复数的模、辐角和复平面表示解释复数运算。"
+    },
+    {
+      "title": "为什么虚数ⅰ³=-ⅰ，而(ⅰ⁴)的3/4次幂=1？哪里出问题了？",
+      "url": "https://www.zhihu.com/answer/2030101503592097630",
+      "summary": "正文把 i 解释为复平面上的 90 度旋转，并据此说明复数的乘法、幂及其几何意义。"
+    },
+    {
+      "title": "我们在数学中为什么要引入复数？",
+      "url": "https://www.zhihu.com/answer/2031094599637263315",
+      "summary": "正文解释复数为何被引入，并用模和辐角表示复数，说明乘法对应长度相乘与方向相加。"
+    },
+    {
+      "title": "怎么理解虚数和复数？",
+      "url": "https://www.zhihu.com/answer/2033693982996346396",
+      "summary": "正文用复平面、模与幅角解释复数的几何意义，并说明乘法对应旋转和等比缩放。"
+    },
+    {
+      "title": "目前数学的符号体系有多混乱？",
+      "url": "https://www.zhihu.com/answer/2033866720083960195",
+      "summary": "正文把自然数到复数的扩张与指数符号一致性联系起来，实质涉及复数及数系扩展。"
+    },
+    {
+      "title": "能不能定义一个数 𝐼，与 0 的乘积等于 1？",
+      "url": "https://www.zhihu.com/answer/2037614622820275294",
+      "summary": "正文具体说明虚数单位的定义、复数的表示以及复数使多项式方程理论完备的作用。"
+    },
+    {
+      "title": "有哪些数学理论最初被认为「毫无用处」，却在某个领域意外成为关键技术支柱？",
+      "url": "https://www.zhihu.com/answer/2040064645428426250",
+      "summary": "正文用复平面上复数迭代的收敛与发散定义曼德博集，实质使用了复数的代数结构。"
+    },
+    {
+      "title": "为什么双曲线引入复数i就能变椭圆？？",
+      "url": "https://www.zhihu.com/answer/2040539947858453659",
+      "summary": "正文以 i²=-1 和复数坐标变换解释圆、双曲线与椭圆方程之间的关系。"
+    },
+    {
+      "title": "x^4＋x^2＋1 如何因式分解？",
+      "url": "https://www.zhihu.com/answer/2040860386837128600",
+      "summary": "正文在复数域用求根公式求二次方程，得到含虚数单位的两个根。"
+    },
+    {
+      "title": "如何看待著名华人数学家北大数学黄金一代之一许晨阳教授在接受b站up主采访过程中对ai和数学的看法？",
+      "url": "https://www.zhihu.com/answer/2041070174351143089",
+      "summary": "正文回顾复平面的历史，并说明乘以 i 表示九十度旋转以及复数与向量加法的联系。"
+    },
+    {
+      "title": "为什么双曲线引入复数i就能变椭圆？？",
+      "url": "https://www.zhihu.com/answer/2044700507399353580",
+      "summary": "正文用实部、虚部、模长和辐角解释复数的几何意义，并说明乘以 i 对应旋转 90°。"
+    },
+    {
+      "title": "角速度为什么是个矢量？",
+      "url": "https://www.zhihu.com/answer/2047402370318046180",
+      "summary": "正文把平面二重向量与复数对应，利用几何积解释虚数单位为何满足 i^2=-1 并描述平面旋转。"
+    },
+    {
+      "title": "我们在数学中为什么要引入复数？",
+      "url": "https://www.zhihu.com/answer/2052736816206423099",
+      "summary": "正文从三次方程的计算出发，引入复数的记法、实部虚部及复平面表示。"
+    },
+    {
+      "title": "我想问一下-1的平方根怎么就是i了，那反过来验算，一个数的平方怎么可能是负数呢？",
+      "url": "https://www.zhihu.com/answer/2058818184715712432",
+      "summary": "正文从平方根为负的问题出发，用代数形式和几何形式解释复数及虚数单位的含义。"
+    },
+    {
+      "title": "我想问一下-1的平方根怎么就是i了，那反过来验算，一个数的平方怎么可能是负数呢？",
+      "url": "https://www.zhihu.com/answer/2060083603787272439",
+      "summary": "正文把乘以 -1 解释为在二维平面中旋转 180 度，并由半次旋转引入 -1 的平方根 i，具体说明复数的几何意义。"
+    },
+    {
+      "title": "我想问一下-1的平方根怎么就是i了，那反过来验算，一个数的平方怎么可能是负数呢？",
+      "url": "https://www.zhihu.com/answer/2060107555284717664",
+      "summary": "正文把复数 a+bi 表示在平面上，以实轴和虚轴说明复数的几何构成。"
+    },
+    {
+      "title": "以下的三角恒等式如何证明？",
+      "url": "https://www.zhihu.com/answer/2065476614817837988",
+      "summary": "正文用单位根对复数多项式进行因式分解，并借复指数完成三角函数恒等式的证明。"
+    },
+    {
+      "title": "i^i的值是多少？",
+      "url": "https://www.zhihu.com/answer/2072036583323199340",
+      "summary": "正文计算虚数单位 i 的复数次幂，并解释由于复指数周期而得到一串实数值。"
+    },
+    {
+      "title": "可能是最好的讲解双曲函数的文章",
+      "url": "https://zhuanlan.zhihu.com/p/20042215",
+      "summary": "正文在复域中比较三角函数与双曲函数，说明两者仅差旋转并可相互转换。"
+    },
+    {
+      "title": "根号i令你困惑吗？它可以算出来！这背后隐藏了一个奇迹  | 袁岚峰",
+      "url": "https://zhuanlan.zhihu.com/p/23523642",
+      "summary": "正文从负数平方根引入虚数单位 i，说明 a+bi 形式的数并计算 i 的平方根，实际讲解复数。"
+    },
+    {
+      "title": "自然常数的奥秘",
+      "url": "https://zhuanlan.zhihu.com/p/24319229",
+      "summary": "正文定义 i^2=-1，并用复平面中的逆时针旋转解释虚数单位及复数运算。"
+    },
+    {
+      "title": "复变函数与积分变换 简明笔记(二)：复变函数基础",
+      "url": "https://zhuanlan.zhihu.com/p/25044385",
+      "summary": "正文系统定义复数的实部、虚部、四则运算和共轭，并强调复数集不是有序集。"
+    },
+    {
+      "title": "黎曼猜想，及其解释（下）",
+      "url": "https://zhuanlan.zhihu.com/p/25222934",
+      "summary": "正文解释复变量与复平面，并说明 zeta 函数在复平面上的解析延拓。"
+    },
+    {
+      "title": "关于i^i",
+      "url": "https://zhuanlan.zhihu.com/p/25381711",
+      "summary": "正文讨论复数的幂、对数、辐角与复平面几何解释。"
+    },
+    {
+      "title": "附录篇 2: 三角函数与反三角函数",
+      "url": "https://zhuanlan.zhihu.com/p/25316088",
+      "summary": "正文利用复指数与复对数表示反三角函数，并说明这些等式在复数范围内的推导。"
+    },
+    {
+      "title": "微积分的历史（六），发展之泰勒公式（下）",
+      "url": "https://zhuanlan.zhihu.com/p/27442857",
+      "summary": "正文用 f(x)=1/(1+x^2) 的虚奇点说明实函数展开的收敛范围仍受复数结构影响。"
+    },
+    {
+      "title": "四元数——基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/27471300",
+      "summary": "正文从负一的平方根引入复数，说明实部、虚部、几何表示及其到四元数的扩展。"
+    },
+    {
+      "title": "复几何的故事（1）复数的史前史",
+      "url": "https://zhuanlan.zhihu.com/p/27544279",
+      "summary": "正文讲述虚数单位的历史引入，并以复平面、共轭和棣莫弗公式说明复数的基本思想。"
+    },
+    {
+      "title": "四元数——旋转",
+      "url": "https://zhuanlan.zhihu.com/p/27541307",
+      "summary": "正文以复数的乘法、共轭和二维旋转矩阵作类比，解释复数表示旋转的机制。"
+    },
+    {
+      "title": "从零开始的频域水印完全解析",
+      "url": "https://zhuanlan.zhihu.com/p/27632585",
+      "summary": "正文讲解复数的标准形式、复平面表示、模与相位以及共轭复数的关系。"
+    },
+    {
+      "title": "无法“解”出的方程——论一般五次方程没有求根公式",
+      "url": "https://zhuanlan.zhihu.com/p/28275788",
+      "summary": "正文介绍复数域的引入、代数基本定理以及实部虚部和极坐标两种表示。"
+    },
+    {
+      "title": "【高等代数】多项式的综合除法与因式分解",
+      "url": "https://zhuanlan.zhihu.com/p/30815738",
+      "summary": "正文利用共轭运算证明实系数多项式的复根成对出现，并据此构造二次实系数因子。"
+    },
+    {
+      "title": "如何求一元三次方程",
+      "url": "https://zhuanlan.zhihu.com/p/31151158",
+      "summary": "正文讲解虚数、共轭复数与三次单位根，并用复数表示三次方程全部根。"
+    },
+    {
+      "title": "电路——相量法的理解",
+      "url": "https://zhuanlan.zhihu.com/p/31415809",
+      "summary": "正文解释复数的三角形式、极坐标形式与指数形式，并用相量表示正弦量的模和相位。"
+    },
+    {
+      "title": "一小时学会快速傅里叶变换（Fast Fourier Transform）",
+      "url": "https://zhuanlan.zhihu.com/p/31584464",
+      "summary": "正文系统介绍复数的实部虚部、复平面、模、幅角、共轭和四则运算。"
+    },
+    {
+      "title": "一类分段数列的合并问题",
+      "url": "https://zhuanlan.zhihu.com/p/31616950",
+      "summary": "正文用复平面单位圆上的单位根构造周期控制项，从而合并多段数列。"
+    },
+    {
+      "title": "傅里叶分析之掐死教程",
+      "url": "https://zhuanlan.zhihu.com/p/32620793",
+      "summary": "正文构造实轴与虚轴组成的复平面，并把乘以虚数 i 解释为线段旋转。"
+    },
+    {
+      "title": "给大家看点好玩的，用Python画牛顿分形",
+      "url": "https://zhuanlan.zhihu.com/p/32703267",
+      "summary": "正文在整个复平面上研究方程的根，并以色块区分牛顿迭代收敛到不同复数根的初值区域。"
+    },
+    {
+      "title": "从虚数谈起",
+      "url": "https://zhuanlan.zhihu.com/p/33736496",
+      "summary": "正文引入负数的平方根记号 i，说明复数可参与四则运算并可由平面上的坐标表示。"
+    },
+    {
+      "title": "二次方程, 3次方程, 4次方程的解法",
+      "url": "https://zhuanlan.zhihu.com/p/33955535",
+      "summary": "正文定义复数的实部虚部、四则运算与开方，并用复数根和复数立方根完成方程求解。"
+    },
+    {
+      "title": "【解析几何】把双曲线变成圆：带复数的仿射变换",
+      "url": "https://zhuanlan.zhihu.com/p/33977118",
+      "summary": "正文定义复数及虚数单位，并利用 i 的平方为负把双曲线映射成虚椭圆形式的单位圆。"
+    },
+    {
+      "title": "【欧拉公式】用麦克劳林展开式的证明",
+      "url": "https://zhuanlan.zhihu.com/p/34914715",
+      "summary": "正文通过虚数单位幂的周期规律说明复数乘方的周期性。"
+    },
+    {
+      "title": "代数基本定理",
+      "url": "https://zhuanlan.zhihu.com/p/34926001",
+      "summary": "正文说明 n 次代数方程在复数域中恰有 n 个根，并用复平面映射给出证明直观。"
+    },
+    {
+      "title": "为什么根号负一不是i",
+      "url": "https://zhuanlan.zhihu.com/p/35184138",
+      "summary": "正文以有序实数对和加减乘除规则定义复数，并进一步讲解共轭、复平面及复数开方。"
+    },
+    {
+      "title": "初等函数（2）：根式函数与多值性",
+      "url": "https://zhuanlan.zhihu.com/p/35475871",
+      "summary": "正文使用复数指数形式、幅角、支点和复平面上的闭曲线分析根式函数的多值性。"
+    },
+    {
+      "title": "多复变第一课-Poincare定理",
+      "url": "https://zhuanlan.zhihu.com/p/36387577",
+      "summary": "正文在复欧氏空间中定义多圆柱、开球、全纯函数和全纯映照。"
+    },
+    {
+      "title": "关于复数的乘方/开方运算",
+      "url": "https://zhuanlan.zhihu.com/p/36924884",
+      "summary": "正文用模长、辐角和周期性把复数写成极坐标形式，并据此推导复数的乘方与多值开方。"
+    },
+    {
+      "title": "大牛讲解信号与系统和数字信号处理",
+      "url": "https://zhuanlan.zhihu.com/p/38595188",
+      "summary": "正文从 x^2=-1 和二维旋转解释复数域，并说明复数的乘法、模长与相位关系。"
+    },
+    {
+      "title": "被众人膜拜的欧拉恒等式是个什么东东？",
+      "url": "https://zhuanlan.zhihu.com/p/40302967",
+      "summary": "正文从虚数单位、数系扩张和旋转解释复数，并讨论复数指数表示。"
+    },
+    {
+      "title": "数学分析笔记（四）——微分学",
+      "url": "https://zhuanlan.zhihu.com/p/39799362",
+      "summary": "正文用实部、虚部、模与辐角表示复数，并进一步讨论复数项级数、复指数和代数基本定理。"
+    },
+    {
+      "title": "数学分析笔记整理（二）",
+      "url": "https://zhuanlan.zhihu.com/p/36274583",
+      "summary": "正文定义复数加法与乘法，并讲解虚数单位、实部虚部、共轭、模及 Schwarz 不等式。"
+    },
+    {
+      "title": "数学物理方法（一）",
+      "url": "https://zhuanlan.zhihu.com/p/40806783",
+      "summary": "正文系统列出复数的代数、三角和指数表示及四则运算，并说明共轭复数乘积与模平方的关系。"
+    },
+    {
+      "title": "傅里叶系列（二）傅里叶变换的推导",
+      "url": "https://zhuanlan.zhihu.com/p/41875010",
+      "summary": "正文使用复指数与三角函数之间的欧拉关系，改写傅里叶级数并合并正负频率项。"
+    },
+    {
+      "title": "MP1：重温高等数学：复平面与Euler公式",
+      "url": "https://zhuanlan.zhihu.com/p/42639576",
+      "summary": "正文比较实平面与复平面，说明复数作为二维实向量以及复平面上的代数结构。"
+    },
+    {
+      "title": "虚数的意义",
+      "url": "https://zhuanlan.zhihu.com/p/43835594",
+      "summary": "正文用旋转量定义虚数单位，并把实部与虚部组合成复数以解释其几何意义。"
+    },
+    {
+      "title": "MP5：内积、外积、面积、Hermite内积、辛内积",
+      "url": "https://zhuanlan.zhihu.com/p/43612010",
+      "summary": "正文利用复数乘法和共轭表示平面向量的夹角，并据此定义Hermite内积。"
+    },
+    {
+      "title": "黎曼假设说的是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/45078785",
+      "summary": "正文从 a+bi 的定义出发，介绍复数运算、复平面以及模和辐角表示，作为复值函数的基础。"
+    },
+    {
+      "title": "数学大地震：一个半世纪悬而未决黎曼猜想被证明？它到底说了啥",
+      "url": "https://zhuanlan.zhihu.com/p/45242261",
+      "summary": "正文用虚数单位 i 的平方等于负一解释虚数和复数，并据此说明 zeta 函数的自变量可写成复形式。"
+    },
+    {
+      "title": "【直观详解】通俗易懂了解什么是黎曼猜想",
+      "url": "https://zhuanlan.zhihu.com/p/45886528",
+      "summary": "正文引入复平面、复数实虚部以及复指数对应旋转的直观解释。"
+    },
+    {
+      "title": "MIT—线性代数笔记26 复矩阵；快速傅里叶变换",
+      "url": "https://zhuanlan.zhihu.com/p/46041373",
+      "summary": "正文定义复向量的共轭内积与模长，并由此讨论复空间中的正交性。"
+    },
+    {
+      "title": "虚数i真的很“虚”吗？",
+      "url": "https://zhuanlan.zhihu.com/p/48392273",
+      "summary": "正文从方程 x^2=-1 出发定义虚数单位，并系统说明实部、虚部、模和幅角构成的复数。"
+    },
+    {
+      "title": "傅里叶变换与拉普拉斯变换",
+      "url": "https://zhuanlan.zhihu.com/p/50004717",
+      "summary": "正文用长度和相角解释复频谱系数，说明复数如何同时表示信号的幅值与相位。"
+    },
+    {
+      "title": "欧拉公式，复数域的成人礼",
+      "url": "https://zhuanlan.zhihu.com/p/52671041",
+      "summary": "正文系统介绍复数运算、模与幅角，以及复数乘法的几何意义。"
+    },
+    {
+      "title": "【震惊！】高中生证明出i=1，能否保送北大？",
+      "url": "https://zhuanlan.zhihu.com/p/53706679",
+      "summary": "正文用复数的三角形式、模与辐角及周期性说明一个复数为何有多个 k 次方根。"
+    },
+    {
+      "title": "MP86：辛(symplectic)的起源(1)：三角函数的线性性与Hermite内积",
+      "url": "https://zhuanlan.zhihu.com/p/53815689",
+      "summary": "正文引入复向量及其共轭乘法，把实内积和实外积统一成一个复值 Hermite 内积。"
+    },
+    {
+      "title": "MP88：辛(symplectic)的起源(3)：辛矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/53832002",
+      "summary": "正文把一维复数的 Hermite 内积推广到复 n 维空间，并通过共轭乘法分离实部与虚部。"
+    },
+    {
+      "title": "可视化理解四元数，愿你不再掉头发",
+      "url": "https://zhuanlan.zhihu.com/p/53872740",
+      "summary": "正文先从复数平面的单位圆投影入手，利用乘以 i 表示二维旋转来建立理解四元数的类比。"
+    },
+    {
+      "title": "泰勒级数为什么不可以展开？",
+      "url": "https://zhuanlan.zhihu.com/p/53921487",
+      "summary": "正文把实函数延拓到复平面，借助复函数的奇点和旋转解释实泰勒级数的收敛范围。"
+    },
+    {
+      "title": "一个与圆周率π有关的碰撞计数谜题",
+      "url": "https://zhuanlan.zhihu.com/p/55768956",
+      "summary": "正文用复数乘法表示旋转，并借复数列的等比关系得到碰撞过程的通项。"
+    },
+    {
+      "title": "欧拉公式的推导",
+      "url": "https://zhuanlan.zhihu.com/p/57256466",
+      "summary": "正文利用复指数定义讨论单位复数的辐角、模长与极坐标表示，实质展开复数概念。"
+    },
+    {
+      "title": "【国际数学竞赛】高次韦达定理(Vieta's Theorem)",
+      "url": "https://zhuanlan.zhihu.com/p/64762900",
+      "summary": "正文讨论复数根共轭成对的性质，并用复根乘积、共轭和说明其在实系数方程中的作用。"
+    },
+    {
+      "title": "1. 姿态的表示方法",
+      "url": "https://zhuanlan.zhihu.com/p/67305147",
+      "summary": "正文从复数数系引入四元数，具体给出虚数单位规则、乘法、共轭与单位四元数表示。"
+    },
+    {
+      "title": "如何计算留数？",
+      "url": "https://zhuanlan.zhihu.com/p/67696698",
+      "summary": "正文围绕复变函数孤立奇点展开，区分可去奇点、极点与本性奇点，属于复数与复变函数内容。"
+    },
+    {
+      "title": "如何理解复数的四则运算？",
+      "url": "https://zhuanlan.zhihu.com/p/68763358",
+      "summary": "正文从实系数一元二次方程无实根的情形引入复数，并说明实部、虚部及代数四则运算。"
+    },
+    {
+      "title": "使用科学计算器计算复数与相量（基础篇）",
+      "url": "https://zhuanlan.zhihu.com/p/68880025",
+      "summary": "正文从实部、虚部和虚数单位出发讲解复数，并系统给出复数的四则运算和整数次幂规则。"
+    },
+    {
+      "title": "【“数”你好看】三角级数求和",
+      "url": "https://zhuanlan.zhihu.com/p/68955349",
+      "summary": "正文用复数的指数表示解释乘除的模长伸缩和辐角旋转，并借此构造三角级数的求和技巧。"
+    },
+    {
+      "title": "使用科学计算器计算复数与相量（提高篇）",
+      "url": "https://zhuanlan.zhihu.com/p/69167650",
+      "summary": "正文讲解复数开方、幂、对数、指数、三角、双曲及反函数等复变初等运算。"
+    },
+    {
+      "title": "机械振动理论(1)-单自由度系统",
+      "url": "https://zhuanlan.zhihu.com/p/69223633",
+      "summary": "正文由欠阻尼系统的特征方程得到共轭复根，并利用复指数表示衰减振动响应。"
+    },
+    {
+      "title": "一般实系数三次方程的求根公式———卡尔丹公式的推导",
+      "url": "https://zhuanlan.zhihu.com/p/71014482",
+      "summary": "正文利用三次单位根和复数开方讨论三次方程的根及共轭虚根。"
+    },
+    {
+      "title": "从三角函数到离散傅里叶变换到语音识别再到图像频域鲁棒性水印",
+      "url": "https://zhuanlan.zhihu.com/p/72644228",
+      "summary": "正文定义复数的实部、虚部和共轭，并用复平面与极坐标解释复指数表示。"
+    },
+    {
+      "title": "【工具书向/长期更新】复变函数预习笔记（依然是自嗨向）",
+      "url": "https://zhuanlan.zhihu.com/p/72873507",
+      "summary": "正文以扩充复平面和复变函数为主线，系统讨论复数域上的解析函数及其性质。"
+    },
+    {
+      "title": "复变随记（三） 聊聊模形式的“半边天”——椭圆函数",
+      "url": "https://zhuanlan.zhihu.com/p/73450429",
+      "summary": "正文在复平面上研究双周期亚纯函数，以复周期生成格并讨论复平面上的周期平行四边形。"
+    },
+    {
+      "title": "手把手教你用傅立叶变换画可达鸭",
+      "url": "https://zhuanlan.zhihu.com/p/72632360",
+      "summary": "正文把轮廓采样点看作复数，用复指数表示傅里叶系数对应的旋转向量。"
+    },
+    {
+      "title": "为什么一元n次代数方程必有n个根？",
+      "url": "https://zhuanlan.zhihu.com/p/73764750",
+      "summary": "正文从负数开方引入虚数单位，并说明复数如何由此定义以及可表示在复平面上。"
+    },
+    {
+      "title": "复变函数（1）——导数、解析与保形，柯西-黎曼方程的可视化直观理解",
+      "url": "https://zhuanlan.zhihu.com/p/74528525",
+      "summary": "正文从复数的坐标形式和复平面出发定义复变函数，并解释复数乘法的几何对应。"
+    },
+    {
+      "title": "复变函数（2）——积分，柯西积分定理，柯西积分公式，高阶导数公式",
+      "url": "https://zhuanlan.zhihu.com/p/74716952",
+      "summary": "正文在复平面上定义复变函数沿路径的积分，并拆分实部、虚部以研究解析函数。"
+    },
+    {
+      "title": "如何解三次方程？|解方程系列1",
+      "url": "https://zhuanlan.zhihu.com/p/74839079",
+      "summary": "正文引入复数的指数形式，并用共轭复数的运算统一讨论三次方程的复根与实根。"
+    },
+    {
+      "title": "复变函数（3）——复级数，泰勒级数，洛朗级数",
+      "url": "https://zhuanlan.zhihu.com/p/75456993",
+      "summary": "正文以复数的模讨论复级数的绝对收敛，并说明复级数与实部、虚部级数的关系。"
+    },
+    {
+      "title": "如何解四次方程？|解方程系列2",
+      "url": "https://zhuanlan.zhihu.com/p/75497955",
+      "summary": "正文在四次方程求根中使用虚数单位处理负平方根，并明确给出四个复数根。"
+    },
+    {
+      "title": "（十六）数字图像处理中的傅里叶（DFT/FFT）",
+      "url": "https://zhuanlan.zhihu.com/p/76444009",
+      "summary": "正文引入复数域和复平面，并解释复数的模与幅角，作为傅里叶变换的数学基础。"
+    },
+    {
+      "title": "虚数是负数的平方根，为什么在三次方程中才出现的呢？|高中篇3",
+      "url": "https://zhuanlan.zhihu.com/p/76605791",
+      "summary": "正文用复数的指数形式表示三次方程求解中的量，并利用共轭复数得到实根。"
+    },
+    {
+      "title": "复变函数（5）——留数计算实积分",
+      "url": "https://zhuanlan.zhihu.com/p/77163755",
+      "summary": "正文用欧拉公式把实三角函数积分转换为复平面单位圆上的复积分。"
+    },
+    {
+      "title": "四元数和旋转(Quaternion & rotation)",
+      "url": "https://zhuanlan.zhihu.com/p/78987582",
+      "summary": "正文以复数扩充说明四元数的虚部、共轭、逆和乘法结构。"
+    },
+    {
+      "title": "一道三角函数恒等式的复数证法",
+      "url": "https://zhuanlan.zhihu.com/p/79034470",
+      "summary": "正文把单位圆上的点写成单位复数，并用复数模长证明几何引理。"
+    },
+    {
+      "title": "2019 年东京大学理科数学高考试题 解答",
+      "url": "https://zhuanlan.zhihu.com/p/78967934",
+      "summary": "正文利用共轭复根、纯虚数条件和韦达定理分类讨论四次方程，并求复数轨迹。"
+    },
+    {
+      "title": "旋转之一 - 复数与2D旋转",
+      "url": "https://zhuanlan.zhihu.com/p/85321120",
+      "summary": "正文从代数形式、向量、矩阵和极坐标多种表示介绍复数的基本结构。"
+    },
+    {
+      "title": "初学讲义之高中数学十八：复数",
+      "url": "https://zhuanlan.zhihu.com/p/87793349",
+      "summary": "正文系统讲解复数的定义、四则运算、复平面、模与共轭等性质。"
+    },
+    {
+      "title": "史密斯图(smith chart)的建立",
+      "url": "https://zhuanlan.zhihu.com/p/94178579",
+      "summary": "正文在扩充复平面上定义分式线性变换，并分析复平面中的点、直线和圆弧在变换下的对应关系。"
+    },
+    {
+      "title": "线性代数之——复数矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/94300315",
+      "summary": "正文复习复数的实部与虚部、共轭、乘法和极坐标表示。"
+    },
+    {
+      "title": "如何用「定义」计算关于cos x的定积分？",
+      "url": "https://zhuanlan.zhihu.com/p/96966436",
+      "summary": "正文以复数的幂和实部对应关系推导余弦和公式，实质使用了复数表示。"
+    },
+    {
+      "title": "四元数(Quaternions)",
+      "url": "https://zhuanlan.zhihu.com/p/97186723",
+      "summary": "正文从复数出发定义四元数，并比较二者的实部、虚部及指数表示。"
+    },
+    {
+      "title": "一元二次方程的一种不同解法",
+      "url": "https://zhuanlan.zhihu.com/p/97282588",
+      "summary": "正文用复数表示负数的平方根，并求出实系数二次方程的一对共轭复根。"
+    },
+    {
+      "title": "复信号到底闹哪样?",
+      "url": "https://zhuanlan.zhihu.com/p/98939868",
+      "summary": "从复平面中的复数表示出发，说明复指数如何同时承载信号的幅度与相位。"
+    },
+    {
+      "title": "【数列】浅谈“不动点”求数列通项的方法",
+      "url": "https://zhuanlan.zhihu.com/p/104544760",
+      "summary": "正文把无实不动点的递推数列扩展到复数域，并用复不动点求出实数列通项。"
+    },
+    {
+      "title": "【数列】数列中的复读机——周期数列",
+      "url": "https://zhuanlan.zhihu.com/p/104623045",
+      "summary": "正文利用复数域中的两个不动点变形递推关系，并求得由复数表示的通项公式。"
+    },
+    {
+      "title": "Transformer改进之相对位置编码(RPE)",
+      "url": "https://zhuanlan.zhihu.com/p/105001610",
+      "summary": "正文从线性变换与有界性假设推导复数域词向量，并解释其在位置建模中避免实数域问题的原因。"
+    },
+    {
+      "title": "“角格点”完全分类",
+      "url": "https://zhuanlan.zhihu.com/p/105111160",
+      "summary": "正文把有理角与等长线段表示到复平面中，以单位根及分圆多项式关系完成分类。"
+    },
+    {
+      "title": "【学习小结】高中数学——复数",
+      "url": "https://zhuanlan.zhihu.com/p/110840104",
+      "summary": "正文系统定义复数的实部、虚部、模和共轭，并利用共轭与模的平方说明复数除法。"
+    },
+    {
+      "title": "为什么你天天只看见四元数和八元数？",
+      "url": "https://zhuanlan.zhihu.com/p/110997893",
+      "summary": "正文通过 Cayley-Dickson 扩张构造复数，并继续构造四元数和八元数，比较它们的运算性质。"
+    },
+    {
+      "title": "Gamma函数的那些事儿（1）——定义",
+      "url": "https://zhuanlan.zhihu.com/p/114041258",
+      "summary": "正文把阶乘运算从正整数拓展为复变量 Gamma 函数，并在半平面内讨论复参数取值。"
+    },
+    {
+      "title": "复变函数学习笔记(1)",
+      "url": "https://zhuanlan.zhihu.com/p/113823530",
+      "summary": "正文从实数序偶构造复数并展开实部、虚部、四则运算、模、共轭与三角表示。"
+    },
+    {
+      "title": "中学阶段最详细的三角函数计算方法大全(第三版)",
+      "url": "https://zhuanlan.zhihu.com/p/114336182",
+      "summary": "正文利用复数辐角计算多个反正切之和，并用单位根及其共轭化出多组三角恒等式。"
+    },
+    {
+      "title": "复变函数学习笔记(2)",
+      "url": "https://zhuanlan.zhihu.com/p/114214745",
+      "summary": "正文以复数的实部、虚部、共轭和复平面映射系统讨论复变函数。"
+    },
+    {
+      "title": "复数矩阵：对称矩阵与Hermitian Matirces",
+      "url": "https://zhuanlan.zhihu.com/p/118207414",
+      "summary": "正文复习复数的共轭、模和内积，为复数向量与复数矩阵的性质作准备。"
+    },
+    {
+      "title": "如何优雅地编码文本中的位置信息？三种positional encoding方法简述",
+      "url": "https://zhuanlan.zhihu.com/p/121126531",
+      "summary": "正文介绍复数嵌入，并利用复数指数形式刻画位置偏移与有界变换。"
+    },
+    {
+      "title": "Weierstrass定理——解决一类常见的无穷乘积",
+      "url": "https://zhuanlan.zhihu.com/p/124237201",
+      "summary": "正文在复变量整函数上使用Weierstrass定理，并通过复零点、复参数和复根展开无穷乘积。"
+    },
+    {
+      "title": "不定积分1/ (1 + x^n)的计算",
+      "url": "https://zhuanlan.zhihu.com/p/124428201",
+      "summary": "正文利用单位根的复数表示、共轭复根及其对应二次因子完成实系数因式分解。"
+    },
+    {
+      "title": "复变函数学习笔记(7)",
+      "url": "https://zhuanlan.zhihu.com/p/133309236",
+      "summary": "正文系统讨论复变量全纯函数的Laurent展开、孤立奇点、留数及复积分，属于复数的深入应用。"
+    },
+    {
+      "title": "[科普文]——Laplace变换与Fourier变换之间有何关系？",
+      "url": "https://zhuanlan.zhihu.com/p/130933080",
+      "summary": "正文从复数代数形式、复平面表示讲到加减乘除、共轭与指数形式，系统整理了复数基础。"
+    },
+    {
+      "title": "使用fx-991CN X求解电路中以复数（相量）为系数的线性方程组",
+      "url": "https://zhuanlan.zhihu.com/p/136573037",
+      "summary": "正文在相量问题中将复系数方程拆成实部和虚部来处理，讲解了复数的运算与应用。"
+    },
+    {
+      "title": "复分析(3)-多值函数的解析分支",
+      "url": "https://zhuanlan.zhihu.com/p/136610110",
+      "summary": "正文以复数的实部、虚部表示展开复指数，并继续讨论复对数、复幂和复三角函数。"
+    },
+    {
+      "title": "一元三次方程的求根公式",
+      "url": "https://zhuanlan.zhihu.com/p/137077558",
+      "summary": "正文利用共轭虚根和单位根说明复数在方程求根中的作用及复平面几何意义。"
+    },
+    {
+      "title": "布洛克球面(Bloch Sphere)的引入",
+      "url": "https://zhuanlan.zhihu.com/p/137612054",
+      "summary": "正文用复系数的模和相位表示量子态，并解释相对相位与全局相位。"
+    },
+    {
+      "title": "如果看了此文你还不懂傅里叶变换，那就过来掐死我吧",
+      "url": "https://zhuanlan.zhihu.com/p/149265832",
+      "summary": "正文用复平面和乘以虚数 i 对应旋转来解释复数，并据此说明欧拉公式的几何含义。"
+    },
+    {
+      "title": "特殊的复变函数：解析函数",
+      "url": "https://zhuanlan.zhihu.com/p/149487928",
+      "summary": "正文把复变函数分解为实部和虚部，并讨论解析函数的特殊结构。"
+    },
+    {
+      "title": "数学中的一朵“奇葩”——四元数",
+      "url": "https://zhuanlan.zhihu.com/p/150699389",
+      "summary": "正文介绍了复数的有序对解释及其交换律、结合律和分配律，并由此引出四元数推广。"
+    },
+    {
+      "title": "《Linear Algebra Done Right》线性代数复习及部分习题解答（1.A）",
+      "url": "https://zhuanlan.zhihu.com/p/152079929",
+      "summary": "正文定义复数的有序数对表示及加减乘除运算，并用习题推导复数的运算律和平方根。"
+    },
+    {
+      "title": "复变函数期末复习",
+      "url": "https://zhuanlan.zhihu.com/p/152561058",
+      "summary": "正文系统复习复数幂、幅角、指数形式及复平面运算，并给出多道计算。"
+    },
+    {
+      "title": "复数的实矩阵表示",
+      "url": "https://zhuanlan.zhihu.com/p/160270375",
+      "summary": "正文从复数的实虚部出发构造复平面上的实矩阵表示，并系统讨论其代数性质。"
+    },
+    {
+      "title": "一个对四元数旋转的简单推导",
+      "url": "https://zhuanlan.zhihu.com/p/166674954",
+      "summary": "正文从复数与二维平面的关系出发，解释乘以复数表示旋转并由此推广到四元数。"
+    },
+    {
+      "title": "关于二次、三次、四次方程求解方法讨论",
+      "url": "https://zhuanlan.zhihu.com/p/171549688",
+      "summary": "正文用判别式说明实系数二次方程何时得到共轭复数根，并在三次方程公式中使用复数根。"
+    },
+    {
+      "title": "一天学完数学物理方法（在写了，写完复制粘贴）",
+      "url": "https://zhuanlan.zhihu.com/p/191695417",
+      "summary": "正文从复数运算与复平面表示出发，说明复变函数可分解为两个实变函数，实质介绍了复数及其几何表示。"
+    },
+    {
+      "title": "二维傅里叶变换与逆变换基于Unity的实现",
+      "url": "https://zhuanlan.zhihu.com/p/192659303",
+      "summary": "正文用复数平面表示信号采样，并以复数的模长和辐角分别表示振幅与相位。"
+    },
+    {
+      "title": "2≠4",
+      "url": "https://zhuanlan.zhihu.com/p/179279978",
+      "summary": "正文引入复数的代数式和指数式，定义复数对数并计算 i^i 及复底数指数塔。"
+    },
+    {
+      "title": "【自主招生】三道2020年清华大学强基计划数学题",
+      "url": "https://zhuanlan.zhihu.com/p/212269110",
+      "summary": "正文构造三个复数，利用复数乘法的辐角相加和伸缩旋转几何意义求解角之和。"
+    },
+    {
+      "title": "代数基本定理(Fundamental Theorem of Algebra)",
+      "url": "https://zhuanlan.zhihu.com/p/197818023",
+      "summary": "正文在证明中把 z 写成模与极坐标形式，并利用复数的辐角和模控制函数值。"
+    },
+    {
+      "title": "如果看了此文你还不懂傅里叶变换，那就过来掐死我吧",
+      "url": "https://zhuanlan.zhihu.com/p/221913939",
+      "summary": "正文用复平面解释虚数单位 i 的旋转作用，并据此理解复指数。"
+    },
+    {
+      "title": "萌新也看得懂的三次方程解法和思路",
+      "url": "https://zhuanlan.zhihu.com/p/260834565",
+      "summary": "正文用单位根解释三次方程的三个复根，并讨论负数开平方如何推动复数理论发展。"
+    },
+    {
+      "title": "高阶导数公式汇总",
+      "url": "https://zhuanlan.zhihu.com/p/303161999",
+      "summary": "正文利用复数域中的指数函数及其实部、虚部推导多类高阶导数公式。"
+    },
+    {
+      "title": "欧拉公式——真正的宇宙第一公式",
+      "url": "https://zhuanlan.zhihu.com/p/310408275",
+      "summary": "正文用复平面的实轴和虚轴解释复数乘法与虚数单位 i 的旋转作用。"
+    },
+    {
+      "title": "[知乎年度最长科普文]—上帝公式 e^(iπ)=-1 与群论有什么关系？",
+      "url": "https://zhuanlan.zhihu.com/p/303377401",
+      "summary": "正文把复数的平移、伸缩和旋转解释为群作用，具体说明复数乘法的几何意义。"
+    },
+    {
+      "title": "数分外传：不用倍角公式！三角函数降次求积",
+      "url": "https://zhuanlan.zhihu.com/p/336243089",
+      "summary": "正文以单位复数的棣莫弗定理证明 z^n 与 z^{-n} 的关系，并用于三角恒等式。"
+    },
+    {
+      "title": "留数法实现有理分式拆分原理",
+      "url": "https://zhuanlan.zhihu.com/p/336225471",
+      "summary": "正文讨论不可约二次因式的共轭复根，并通过复数代入恢复实系数拆分。"
+    },
+    {
+      "title": "x^n-1的根、分解、与几个与此相关的等式",
+      "url": "https://zhuanlan.zhihu.com/p/335334455",
+      "summary": "正文利用单位根表示多项式的全部复根，并结合共轭复根给出实系数分解。"
+    },
+    {
+      "title": "负数的开方到底等于多少？",
+      "url": "https://zhuanlan.zhihu.com/p/336577908",
+      "summary": "正文定义复数及其乘法，并用复数的三角表示讨论乘方、开方和负数的分数次幂。"
+    },
+    {
+      "title": "复数",
+      "url": "https://zhuanlan.zhihu.com/p/338202644",
+      "summary": "正文从实数对定义复数，再给出加法、乘法、绝对值与共轭等基本概念和性质。"
+    },
+    {
+      "title": "Mahony姿态解算算法笔记（一）",
+      "url": "https://zhuanlan.zhihu.com/p/342703388",
+      "summary": "正文从复数的虚部结构出发定义四元数，并展开其模长、乘法和单位四元数等性质。"
+    },
+    {
+      "title": "关于复数的模的一些结论",
+      "url": "https://zhuanlan.zhihu.com/p/343200869",
+      "summary": "正文定义复数模、证明模与乘法的相容性，并用三角表示解释复数乘法的模与幅角规律。"
+    },
+    {
+      "title": "《Linear Algebra Done Right》Ch1 Vector Spaces 1.A",
+      "url": "https://zhuanlan.zhihu.com/p/344936333",
+      "summary": "正文定义复数及其加法、乘法和逆元，并讨论复数域。"
+    },
+    {
+      "title": "虚数与复数与欧拉公式",
+      "url": "https://zhuanlan.zhihu.com/p/347136244",
+      "summary": "正文系统定义复数、实部和虚部、四则运算、共轭、模长以及复平面上的几何表示。"
+    },
+    {
+      "title": "机器学习中的数学符号",
+      "url": "https://zhuanlan.zhihu.com/p/348290670",
+      "summary": "正文给出复数的代数形式，并具体定义实部、虚部和虚数单位。"
+    },
+    {
+      "title": "用复数证明三角恒等式",
+      "url": "https://zhuanlan.zhihu.com/p/348452000",
+      "summary": "正文用复数的模与辐角、复数乘法和单位根证明多项三角恒等式。"
+    },
+    {
+      "title": "矩阵乘法核心思想(6)：特征向量与特征值的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/353774689",
+      "summary": "正文以二维旋转矩阵为例求出复特征值和复特征向量，并用复平面中的旋转解释其意义。"
+    },
+    {
+      "title": "傅里叶变换动图赏析及解析",
+      "url": "https://zhuanlan.zhihu.com/p/358227350",
+      "summary": "正文用复平面向量表示复数，并讨论复数乘法的旋转含义及傅里叶变换中的复指数信号。"
+    },
+    {
+      "title": "复变函数可视化 | 直观理解奇点与洛朗展开",
+      "url": "https://zhuanlan.zhihu.com/p/355075115",
+      "summary": "正文借助复平面、模与辐角解释复变函数的多值性、根式函数和常见复函数。"
+    },
+    {
+      "title": "Transformer升级之路：1、Sinusoidal位置编码追根溯源",
+      "url": "https://zhuanlan.zhihu.com/p/359500899",
+      "summary": "正文把二维位置向量表示成复数，并用复数的乘法、共轭和指数形式求显式编码。"
+    },
+    {
+      "title": "复变函数论：二、解析函数",
+      "url": "https://zhuanlan.zhihu.com/p/357338756",
+      "summary": "正文以复数为自变量和函数值，围绕复变函数的可微性、导数与柯西-黎曼条件展开。"
+    },
+    {
+      "title": "inversioner版高中数学课本(2)——第三章：复数",
+      "url": "https://zhuanlan.zhihu.com/p/361653318",
+      "summary": "正文从负数开方引出虚数单位，系统定义复数的代数形式、运算、共轭、模和复平面表示。"
+    },
+    {
+      "title": "CKKS同态加密算法简介",
+      "url": "https://zhuanlan.zhihu.com/p/366965077",
+      "summary": "正文用复数向量、共轭和单位根域表示明文，并在复数槽中编码实数或复数数据。"
+    },
+    {
+      "title": "一篇文章搞懂DFT",
+      "url": "https://zhuanlan.zhihu.com/p/365872805",
+      "summary": "正文用复数表示DFT结果，并分别分析实部、虚部、幅值和相位。"
+    },
+    {
+      "title": "万物皆可傅里叶|傅里叶分析之掐死教程（完整版",
+      "url": "https://zhuanlan.zhihu.com/p/368113639",
+      "summary": "正文用虚数单位乘法表示旋转，并构造复平面解释复指数和正负频率，属于复数概念的直观展开。"
+    },
+    {
+      "title": "复变函数基本概念与定理",
+      "url": "https://zhuanlan.zhihu.com/p/367122899",
+      "summary": "正文从虚数单位出发介绍复数的来历、几何表示和多值函数，属于对复数概念及复平面的实质讲解。"
+    },
+    {
+      "title": "频率响应的求模和相角",
+      "url": "https://zhuanlan.zhihu.com/p/370958664",
+      "summary": "正文利用复数因式的模与辐角性质，分别推导传递函数频率响应的模值和相角。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / マボロシの旋量空间与哈人的 Clifford 代数",
+      "url": "https://zhuanlan.zhihu.com/p/373020066",
+      "summary": "正文附录用负定一维度规下的 Clifford 代数构造出复数域及其相反元素关系。"
+    },
+    {
+      "title": "欧拉公式及复数的指数式",
+      "url": "https://zhuanlan.zhihu.com/p/375473168",
+      "summary": "正文用模与幅角建立复数的指数表示，并解释复指数仍由实部和虚部描述。"
+    },
+    {
+      "title": "【数学之美】sin(π/257)的精确值是怎么求的？",
+      "url": "https://zhuanlan.zhihu.com/p/384287969",
+      "summary": "正文把 257 次单位根写成复平面上的点，并利用其乘法、周期和求和性质推导精确值。"
+    },
+    {
+      "title": "笛卡尔，不行！黎曼，行！",
+      "url": "https://zhuanlan.zhihu.com/p/391375499",
+      "summary": "正文用实部和虚部表示复数，并讨论复数在复平面上的对应与平方根。"
+    },
+    {
+      "title": "相频特性，你真的会求了吗？",
+      "url": "https://zhuanlan.zhihu.com/p/405717222",
+      "summary": "正文借助复平面象限和几何位置讲解复数幅角主值，并据此计算不同符号实部、虚部对应的相角。"
+    },
+    {
+      "title": "幂次数的“社交距离”有多大？—— 卡塔兰猜想",
+      "url": "https://zhuanlan.zhihu.com/p/415981790",
+      "summary": "正文把整数方程移到高斯整数中因式分解，借助复数系扩张完成数论证明。"
+    },
+    {
+      "title": "恶臭数列",
+      "url": "https://zhuanlan.zhihu.com/p/422176950",
+      "summary": "正文用三次单位根的共轭组合构造周期数列，并解出复系数的闭式表达。"
+    },
+    {
+      "title": "解方程有什么难的？",
+      "url": "https://zhuanlan.zhihu.com/p/426555310",
+      "summary": "正文引入虚数单位 i，说明四次单位根包含复数，并解释单位根在复平面上的圆上等距分布。"
+    },
+    {
+      "title": "【6.3】对称矩阵，厄米特矩阵和酉阵",
+      "url": "https://zhuanlan.zhihu.com/p/428303476",
+      "summary": "正文从实部虚部和极坐标表示出发，讲解共轭、模及乘积模等复数代数性质。"
+    },
+    {
+      "title": "几道网红不定积分题的解析与拓展",
+      "url": "https://zhuanlan.zhihu.com/p/447267813",
+      "summary": "正文求五次方程在复数范围内的单位根，并用共轭复根分解分母以计算积分。"
+    },
+    {
+      "title": "复变函数与积分变换-考点汇总",
+      "url": "https://zhuanlan.zhihu.com/p/449235392",
+      "summary": "正文总结复数的三角形式、指数形式以及乘幂开方等运算。"
+    },
+    {
+      "title": "从零开始的留数定理->定积分生活",
+      "url": "https://zhuanlan.zhihu.com/p/452741586",
+      "summary": "正文从加法、乘法、模和共轭出发介绍复数，并联系复平面与指数形式。"
+    },
+    {
+      "title": "如何理解并快速记忆欧拉公式？",
+      "url": "https://zhuanlan.zhihu.com/p/463676404",
+      "summary": "正文从虚单位的定义出发，在复平面中解释其旋转意义并联系欧拉公式。"
+    },
+    {
+      "title": "方程根之美",
+      "url": "https://zhuanlan.zhihu.com/p/465214119",
+      "summary": "正文把多项式方程的全部根放在复平面中，借实轴、虚轴和单位圆讨论复根分布。"
+    },
+    {
+      "title": "从复数乘法到代数基本定理——拓扑角度看复变",
+      "url": "https://zhuanlan.zhihu.com/p/468856548",
+      "summary": "正文解释复数作为复平面上的点，以及加法、乘法和欧拉公式所表达的旋转伸缩几何意义。"
+    },
+    {
+      "title": "复变函数与复平面变换",
+      "url": "https://zhuanlan.zhihu.com/p/472348377",
+      "summary": "正文从复数和复平面出发，解释指数、三角与分式变换如何作用于复平面。"
+    },
+    {
+      "title": "从代数扩张看狄拉克方程",
+      "url": "https://zhuanlan.zhihu.com/p/445702556",
+      "summary": "正文回顾复数域由虚数单位扩张得到，并用矩阵表示和同构解释其构造。"
+    },
+    {
+      "title": "复赢函数论（Complewin Function Theory）",
+      "url": "https://zhuanlan.zhihu.com/p/472866229",
+      "summary": "正文把时间与价格推广为复变量，并在复平面上讨论复函数和积分路径。"
+    },
+    {
+      "title": "论圆锥曲线中抛物线与椭圆（双曲线）联立的疑点",
+      "url": "https://zhuanlan.zhihu.com/p/460739368",
+      "summary": "正文把实数范围内看似无解的坐标解释为复平面中的交点，具体使用了复数描述解析几何对象。"
+    },
+    {
+      "title": "几何代数入门(上）：从点积和叉积开始",
+      "url": "https://zhuanlan.zhihu.com/p/481951051",
+      "summary": "正文把二维单位赝标量对应到虚数单位，并用复数乘法解释几何积产生的旋转。"
+    },
+    {
+      "title": "大学数学-复变函数笔记",
+      "url": "https://zhuanlan.zhihu.com/p/488268246",
+      "summary": "正文从二次方程无实根引入复数单位，并系统讲解复数的运算、共轭和模。"
+    },
+    {
+      "title": "离心机的配平问题",
+      "url": "https://zhuanlan.zhihu.com/p/500299880",
+      "summary": "正文用复平面单位圆上的单位根表示孔位，并把配平条件转化为复数和为零。"
+    },
+    {
+      "title": "信号处理专业必读：是复数但并不复杂的正交信号（万字长文）",
+      "url": "https://zhuanlan.zhihu.com/p/503472041",
+      "summary": "正文定义实部、虚部和虚数单位，并用复平面上的点系统解释复数及其几何表示。"
+    },
+    {
+      "title": "五次方程 x^5+px+q 根式求解",
+      "url": "https://zhuanlan.zhihu.com/p/108460142",
+      "summary": "正文用复数五次单位根构造线性组合，并由伪根恢复五个复根。"
+    },
+    {
+      "title": "宝藏！欧拉公式如此直观易懂！",
+      "url": "https://zhuanlan.zhihu.com/p/534742027",
+      "summary": "正文把指数定义延拓到复平面，通过复数的模长和辐角完成推导。"
+    },
+    {
+      "title": "旋转的表示",
+      "url": "https://zhuanlan.zhihu.com/p/539134962",
+      "summary": "正文以复数的指数形式和单位复数乘法说明平面旋转，并由此引出四元数。"
+    },
+    {
+      "title": "不等式与三角，复数，向量空间，数论（高中知识,但是大学生也可以看）",
+      "url": "https://zhuanlan.zhihu.com/p/542425130",
+      "summary": "正文用复数的三角形式和欧拉表示比较出租车度量与欧几里得度量。"
+    },
+    {
+      "title": "复分析（2）——复数的方根",
+      "url": "https://zhuanlan.zhihu.com/p/527168604",
+      "summary": "正文以指数形式求复数的n次方根，说明其模长、辐角与多值性。"
+    },
+    {
+      "title": "用路边乞丐知识推导∫dx/(xⁿ+1)",
+      "url": "https://zhuanlan.zhihu.com/p/549727927",
+      "summary": "正文通过单位复根分解 x^n+1，并用复留数表示原积分。"
+    },
+    {
+      "title": "什么是向量",
+      "url": "https://zhuanlan.zhihu.com/p/556191589",
+      "summary": "正文从虚数单位出发定义复数，并以平面有向线段解释复数的几何表示和乘法。"
+    },
+    {
+      "title": "《复分析：可视化方法》",
+      "url": "https://zhuanlan.zhihu.com/p/577069768",
+      "summary": "正文把复数解释为复平面上的二维数或有向线段，并讲解实部、虚部和复平面。"
+    },
+    {
+      "title": "Rudin工具箱|极分解技巧",
+      "url": "https://zhuanlan.zhihu.com/p/585179360",
+      "summary": "正文从复数的极分解出发，说明模一复数与原复数的表示关系。"
+    },
+    {
+      "title": "一元三次方程求根公式、推导过程和相关疑问",
+      "url": "https://zhuanlan.zhihu.com/p/547383870",
+      "summary": "正文在负判别式情形引入复立方根和复数单位，并解释复数在三次方程求解中的作用。"
+    },
+    {
+      "title": "【复变函数】0.1 复数的引入与复数上的代数学",
+      "url": "https://zhuanlan.zhihu.com/p/604601336",
+      "summary": "正文从实数域二次扩张构造复数，并具体讲解复数的表示、加法、乘法、负元和逆元。"
+    },
+    {
+      "title": "【复变函数】 1.2 初等复变函数(2)",
+      "url": "https://zhuanlan.zhihu.com/p/606784225",
+      "summary": "正文从复数平方根、辐角与分支出发讲解复变初等多值函数。"
+    },
+    {
+      "title": "从复变函数角度看不定积分",
+      "url": "https://zhuanlan.zhihu.com/p/613445671",
+      "summary": "正文在复数域讨论多值对数、幅角和围道积分，并用复积分解释不定积分。"
+    },
+    {
+      "title": "球极投影（1）：无穷远点与复球面",
+      "url": "https://zhuanlan.zhihu.com/p/622024463",
+      "summary": "正文引入无穷远点，构造扩充复平面和复球面，并讨论复数无穷远的模与辐角。"
+    },
+    {
+      "title": "数学界最著名、最伟大、最美丽的公式之一——欧拉公式",
+      "url": "https://zhuanlan.zhihu.com/p/623881967",
+      "summary": "正文解释虚数单位作为负一平方根、复平面表示以及乘以 i 对应旋转的几何含义。"
+    },
+    {
+      "title": "让我给你讲清楚 快速傅里叶变换(FFT)(一): 数学原理详解",
+      "url": "https://zhuanlan.zhihu.com/p/627423504",
+      "summary": "正文引入复数单位根，使分治递归中的点值保持平方后的正负配对结构。"
+    },
+    {
+      "title": "怎样通俗理解四元数",
+      "url": "https://zhuanlan.zhihu.com/p/636543643",
+      "summary": "正文从复数的二维旋转表示出发，逐步构造并解释四元数这一扩展。"
+    },
+    {
+      "title": "通俗易懂的椭圆函数",
+      "url": "https://zhuanlan.zhihu.com/p/654478596",
+      "summary": "正文以实部和虚部定义复数，并进一步说明复数加法、乘法和共轭运算。"
+    },
+    {
+      "title": "数学的极限之解析延拓，寻找数学世界中的奇点，窥视数学的本质",
+      "url": "https://zhuanlan.zhihu.com/p/659572550",
+      "summary": "正文把幂级数置于复平面，使用复数变量、单位圆与单位根说明收敛区域和奇点分布。"
+    },
+    {
+      "title": "虚数和实数哪个更真实？一文读懂",
+      "url": "https://zhuanlan.zhihu.com/p/663164619",
+      "summary": "正文从负数开方和三次方程出发讲解复数的历史、实虚部组成及运算。"
+    },
+    {
+      "title": "学好数学居然还能当上国王？数学教你如何改变世界",
+      "url": "https://zhuanlan.zhihu.com/p/668069928",
+      "summary": "正文从负数平方根的二次方程说明虚数的来源，并以交流电计算展示复数表示的实际应用。"
+    },
+    {
+      "title": "从首届 CMO 的 Rudin 复数小引理, 到今年某道超难试题",
+      "url": "https://zhuanlan.zhihu.com/p/672075346",
+      "summary": "正文研究复数子集和的模的统一下界，使用辐角、旋转和实部等复数工具。"
+    },
+    {
+      "title": "数学之窗，现实之镜：复数全景",
+      "url": "https://zhuanlan.zhihu.com/p/672170603",
+      "summary": "正文从历史引入、几何表示、数学结构和四则运算系统讲解复数，属于复数概念的实质介绍。"
+    },
+    {
+      "title": "引入复数来计算有理函数积分",
+      "url": "https://zhuanlan.zhihu.com/p/671476598",
+      "summary": "正文用复数极式、模长、辐角、欧拉公式和复对数完成实虚部分离。"
+    },
+    {
+      "title": "如何更好地理解复数（complex  numbers）",
+      "url": "https://zhuanlan.zhihu.com/p/675736675",
+      "summary": "正文以 i^2=-1 构造虚数单位，并解释复数由实部和虚部组成。"
+    },
+    {
+      "title": "详解留数法分解有理函数",
+      "url": "https://zhuanlan.zhihu.com/p/673931570",
+      "summary": "正文利用复根和共轭复根把实系数多项式分解为一次因式，从而简化部分分式求解。"
+    },
+    {
+      "title": "欧拉公式的几种推导方法",
+      "url": "https://zhuanlan.zhihu.com/p/673935577",
+      "summary": "正文利用复数的三角形式和乘法的模与辐角规律证明欧拉公式。"
+    },
+    {
+      "title": "从离散到连续——简明易懂地导出傅立叶变换的各种公式",
+      "url": "https://zhuanlan.zhihu.com/p/676313875",
+      "summary": "正文在复数域上定义向量内积和厄米矩阵，并用复指数基表示傅立叶变换。"
+    },
+    {
+      "title": "从几何意义上理解四元数",
+      "url": "https://zhuanlan.zhihu.com/p/684379741",
+      "summary": "正文从复数的单位圆和乘法旋转出发，再以增加虚数单位的方式引入四元数。"
+    },
+    {
+      "title": "泊松积分的计算",
+      "url": "https://zhuanlan.zhihu.com/p/679535718",
+      "summary": "正文把余弦积分改写为复指数积分，使用复数和复平面积分路径完成计算。"
+    },
+    {
+      "title": "Stein 《Complex Analysis》 Chapter 1 习题解答(1)",
+      "url": "https://zhuanlan.zhihu.com/p/693905656",
+      "summary": "正文通过复数开方、Hermitian 内积及复数域不能全序化等习题实质讨论复数的代数与几何性质。"
+    },
+    {
+      "title": "关于一道十分需要“注意力”的数学问题",
+      "url": "https://zhuanlan.zhihu.com/p/704727769",
+      "summary": "正文借助复数范围内的三次单位根完成因式分解与后续代数推导。"
+    },
+    {
+      "title": "【三角函数】关于某类三角恒等变换问题的思考",
+      "url": "https://zhuanlan.zhihu.com/p/712852064",
+      "summary": "正文用复数的三角形式定义单位根，讲解棣莫弗公式、共轭和单位根求和等性质。"
+    },
+    {
+      "title": "积分∫arcsinx arccosx arctanx dx的处理思路",
+      "url": "https://zhuanlan.zhihu.com/p/4020814599",
+      "summary": "正文把正余弦写成复指数形式，并将积分化为复数域中的有理函数积分。"
+    },
+    {
+      "title": "傅里叶变换的基础——从欧拉公式开始理解频域",
+      "url": "https://zhuanlan.zhihu.com/p/1897295105523708856",
+      "summary": "正文用复平面坐标解释复数乘法，特别是乘以虚数单位对应旋转九十度。"
+    },
+    {
+      "title": "深入浅出复数与欧拉公式：如何用“旋转”思想理解波与振荡？（非常好懂，有高中知识即可）",
+      "url": "https://zhuanlan.zhihu.com/p/1927112895092757042",
+      "summary": "正文用复平面上的点和向量解释复数，并展开虚数单位与复数乘法的几何意义。"
+    },
+    {
+      "title": "傅里叶多边形分解",
+      "url": "https://zhuanlan.zhihu.com/p/571964658",
+      "summary": "正文用单位复根表示平面旋转，并将生成元写成复数模长与幅角来分解多边形。"
+    },
+    {
+      "title": "深入骨髓的解剖欧拉公式，能否直观的理解它决定了你是否有成为数学家的潜质",
+      "url": "https://zhuanlan.zhihu.com/p/1947858186544587421",
+      "summary": "正文定义虚数单位、复平面及复数 a+bi 的实部与虚部表示。"
+    },
+    {
+      "title": "复分析（一）：复平面上的微积分",
+      "url": "https://zhuanlan.zhihu.com/p/1969158817364283736",
+      "summary": "正文系统介绍复数的四则运算、共轭、模长、辐角、三角形式和单位根。"
+    },
+    {
+      "title": "线性代数1：群，域，复数介绍",
+      "url": "https://zhuanlan.zhihu.com/p/1988475163122087156",
+      "summary": "正文从虚数单位出发定义复数，讲解其四则运算、共轭、逆元、模与极坐标表示。"
+    },
+    {
+      "title": "难度爆炸？镇海期末！| 品好卷 XXIII",
+      "url": "https://zhuanlan.zhihu.com/p/2000167462260465823",
+      "summary": "文章计算复数递推数列的模长、辐角和三角形式，并用共轭复数与复平面距离分析选项。"
+    },
+    {
+      "title": "复数的矩阵表示：一个打通几何、代数与分析的独特视角",
+      "url": "https://zhuanlan.zhihu.com/p/2004102115732247961",
+      "summary": "正文把复数表示成实矩阵，并用转置、模与逆矩阵对应说明共轭及复数运算。"
+    },
+    {
+      "title": "从1到 i：原来小数、分数、负数、虚数，都是单位系统的升级",
+      "url": "https://zhuanlan.zhihu.com/p/2009409911151424166",
+      "summary": "正文由平方等于负一引入虚数单位，并用复平面的九十度旋转解释复数结构。"
+    },
+    {
+      "title": "OpenAI 模型推翻离散几何学核心猜想",
+      "url": "https://zhuanlan.zhihu.com/p/2040671781615358628",
+      "summary": "正文以高斯整数及其在复平面中的表示、唯一分解性质解释旧网格构造的数论来源。"
+    },
+    {
+      "title": "OpenAI彻底震撼数学界，80年核心猜想被破解！菲尔兹奖得主惊呼坐不稳",
+      "url": "https://zhuanlan.zhihu.com/p/2040803392235251677",
+      "summary": "正文用形如 a+bi 的高斯整数解释旧网格构造，并说明其唯一分解性质。"
+    },
+    {
+      "title": "一个难度很大但结果漂亮的定积分计算",
+      "url": "https://zhuanlan.zhihu.com/p/2071300038819681941",
+      "summary": "正文在复平面定义复对数主值分支和割线，并对实函数作复解析延拓。"
+    }
+  ]
+}

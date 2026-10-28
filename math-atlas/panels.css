@@ -1,0 +1,21 @@
+.discussion-panel { position: absolute; z-index: 12; width: 334px; max-height: calc(100% - 170px); top: 100px; left: 28px; padding: 26px; overflow: auto; border: 1px solid #759fa960; background: #0b1c2cee; backdrop-filter: blur(16px); border-radius: 3px; box-shadow: 0 12px 40px #020b184d; }
+.discussion-panel.on-right { left: auto; right: 28px; }
+.discussion-panel.is-below { position: relative; top: auto; right: auto; left: auto; width: 100%; max-height: none; border-width: 1px 0 0; border-radius: 0; background: #0a1b29; }
+.eyebrow { font-size: 12px; letter-spacing: .08em; color: #b3d4dc; margin: 0 0 12px; }
+.discussion-header h2 { font: 28px/1.4 "Songti SC","STSong",Georgia,serif; margin: 0 0 16px; }
+.node-summary { font-size: 14px; line-height: 1.8; color: #bdd0d8; margin: 0 0 24px; }
+.discussion-card { border-top: 1px solid #95bdc32e; padding: 22px 0; }
+.discussion-card h3 { font-size: 16px; line-height: 1.65; margin: 0 0 10px; font-weight: 500; }
+.discussion-card p { font-size: 14px; color: #b9cbd3; line-height: 1.8; margin: 0; }
+.discussion-card small { display: block; font-size: 12px; color: #a7c0cd; margin-top: 12px; }
+.panel-footer { font-size: 12px; line-height: 1.7; color: #9bb8c4; margin: 8px 0 0; }
+.related-list { display: flex; flex-wrap: wrap; gap: 6px 8px; margin-bottom: 20px; }
+.related-list button, .related-list span { padding: 7px 8px; border: 1px solid #8db9c44d; border-radius: 2px; background: #143448; font-size: 13px; line-height: 1.4; }
+.related-list button { min-height: 44px; }
+.related-list .related-link { border-color: #8ad1cd; color: #e8faf7; }
+.related-list .related-link::after { content: " →"; color: #bde8df; }
+.related-list .related-link:hover, .related-list .related-link:focus-visible { background: #215366; border-color: #e1fff5; }
+.related-list .related-info::before { content: "· "; }
+.related-list span { border-color: transparent; color: #aac5d0; background: transparent; }
+.return-to-map { display: none; margin-bottom: 24px; }
+.is-below .return-to-map { display: block; }

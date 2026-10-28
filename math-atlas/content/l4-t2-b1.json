@@ -1,0 +1,2001 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l4-t2-b1",
+  "sources": [
+    {
+      "title": "怎样证明 0.999… = 1？",
+      "url": "https://www.zhihu.com/answer/12368969",
+      "summary": "通过选择自然数 N，使误差小于任意给定的 ε，展示数列极限的严格证明。"
+    },
+    {
+      "title": "怎样用白话描述函数极限定义？",
+      "url": "https://www.zhihu.com/answer/20736975",
+      "summary": "正文围绕「怎样用白话描述函数极限定义？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "请问如何理解极限的精确定义？",
+      "url": "https://www.zhihu.com/answer/21113333",
+      "summary": "正文围绕「请问如何理解极限的精确定义？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "柯西对极限的定义引入 ε 精确描述，意义何在？ 为什么这种精确的数学描述很重要？",
+      "url": "https://www.zhihu.com/answer/29169439",
+      "summary": "正文围绕“用 ε 描述极限”给出说明、例证或方法。"
+    },
+    {
+      "title": "请问如何理解极限的精确定义？",
+      "url": "https://www.zhihu.com/answer/30875501",
+      "summary": "正文围绕“用 ε 描述极限”给出说明、例证或方法。"
+    },
+    {
+      "title": "数学功底究竟指的是什么？",
+      "url": "https://www.zhihu.com/answer/33355347",
+      "summary": "正文以 ε-δ 语言说明理解极限定义的重要性。"
+    },
+    {
+      "title": "什么是高校教材式汉语？",
+      "url": "https://www.zhihu.com/answer/40796801",
+      "summary": "正文给出函数极限的 ε-δ 定义。"
+    },
+    {
+      "title": "根据数列极限的定义证明:lim(3n+1)/(2n+1)=3/2?",
+      "url": "https://www.zhihu.com/answer/56717641",
+      "summary": "正文按任意指定误差寻找下标 N 的方式说明数列极限。"
+    },
+    {
+      "title": "无法理解高等数学怎么办？",
+      "url": "https://www.zhihu.com/answer/82732962",
+      "summary": "正文解释 ε-δ 定义在严格证明极限中的作用。"
+    },
+    {
+      "title": "为何微积分具有如此的优越性？",
+      "url": "https://www.zhihu.com/answer/89265195",
+      "summary": "正文明确把古典穷竭法与现代 ε—N 极限语言对应。"
+    },
+    {
+      "title": "请问如何理解极限的精确定义？",
+      "url": "https://www.zhihu.com/answer/93960144",
+      "summary": "正文明确讨论 ε-δ 精确定义与极限直觉。"
+    },
+    {
+      "title": "我想知道0.999999（无限循环）能不能等于1？",
+      "url": "https://www.zhihu.com/answer/108438513",
+      "summary": "正文给出 ε-N 语言的完整估计以验证极限值为 1。"
+    },
+    {
+      "title": "有哪些嵌套了好几层逻辑的经典故事？",
+      "url": "https://www.zhihu.com/answer/108468426",
+      "summary": "正文完整陈述函数极限的 ε-δ 定义并指出其中四层逻辑量词。"
+    },
+    {
+      "title": "微分和导数的关系是什么？两者的几何意义有什么不同？为什么要定义微分 ?",
+      "url": "https://www.zhihu.com/answer/115178055",
+      "summary": "正文明确介绍 ε-δ 语言如何摆脱无穷小量定义极限。"
+    },
+    {
+      "title": "求极限什么情况下可以在加减式中使用等价（无穷小）替换？",
+      "url": "https://www.zhihu.com/answer/116503378",
+      "summary": "正文说明小 o、大 O 与 epsilon-delta 语言等价。"
+    },
+    {
+      "title": "请问如何理解极限的精确定义？",
+      "url": "https://www.zhihu.com/answer/120029023",
+      "summary": "正文给出并拆解极限的 epsilon-delta 定义及两个量的直观含义。"
+    },
+    {
+      "title": "如何能更好地理解（ε-δ）语言极限的定义？",
+      "url": "https://www.zhihu.com/answer/129467903",
+      "summary": "正文给出完整 ε-δ 定义，并用输入去心邻域与输出区间的几何包含关系逐项解释量词。"
+    },
+    {
+      "title": "「讲得好」的数学专业课是什么样的？",
+      "url": "https://www.zhihu.com/answer/129557042",
+      "summary": "正文以微积分史说明无穷小直觉后来由ε-δ语言严格化，呈现极限形式化的作用。"
+    },
+    {
+      "title": "请用通俗的语言解释一下海涅定理？",
+      "url": "https://www.zhihu.com/answer/129921857",
+      "summary": "正文明确说明海涅定义与ε-δ语言等价，并用振荡函数反例展示极限严格性。"
+    },
+    {
+      "title": "无穷小量究竟是否为零？",
+      "url": "https://www.zhihu.com/answer/130566890",
+      "summary": "正文用任意ε的条件与极限语言说明无穷小概念的严格化。"
+    },
+    {
+      "title": "数学分析究竟在讲些什么？",
+      "url": "https://www.zhihu.com/answer/135259273",
+      "summary": "正文解释数列极限中的 ε-N 语言和函数趋近定义。"
+    },
+    {
+      "title": "怎样用白话描述函数极限定义？",
+      "url": "https://www.zhihu.com/answer/136371571",
+      "summary": "正文以争辩类比逐步拆解函数极限的 ε-δ 定义与去心邻域条件。"
+    },
+    {
+      "title": "解数学分析证明题找不到思路怎么办？",
+      "url": "https://www.zhihu.com/answer/137818183",
+      "summary": "正文以 ε 量词和上确界证明为例，详细展示分析中的严格极限语言。"
+    },
+    {
+      "title": "柯西收敛准则和数列极限的区别，感觉很难搞清楚，还望高手指教，谢谢！?",
+      "url": "https://www.zhihu.com/answer/140046811",
+      "summary": "正文比较柯西收敛准则与数列极限的严格定义方式。"
+    },
+    {
+      "title": "函数极限的 ε-δ 定义中，为什么要先给定 ε？",
+      "url": "https://www.zhihu.com/answer/142778326",
+      "summary": "正文用常数函数和量词顺序解释ε先于δ的极限定义。"
+    },
+    {
+      "title": "如何看待马克思的《数学手稿》？",
+      "url": "https://www.zhihu.com/answer/144080496",
+      "summary": "正文讨论微积分严格化史，并明确解释ε-δ极限定义的作用。"
+    },
+    {
+      "title": "经常出现在数学证明中的「不妨设」根据是什么？如何培养这种「不妨设」、「假设」的能力？",
+      "url": "https://www.zhihu.com/answer/148513316",
+      "summary": "正文用 ε-N 语言完整示范 1/n 趋于 0 的证明。"
+    },
+    {
+      "title": "关于高数题目的假设问题？",
+      "url": "https://www.zhihu.com/answer/150027273",
+      "summary": "正文用 delta 的选择说明极限题重在存在性论证而非算出唯一数值。"
+    },
+    {
+      "title": "如何学好数学分析？",
+      "url": "https://www.zhihu.com/answer/196787900",
+      "summary": "正文强调按 epsilon-delta 定义严格掌握极限。"
+    },
+    {
+      "title": "复合函数的极限中，后面的条件 g(x)≠u 为什么很重要？",
+      "url": "https://www.zhihu.com/answer/218711598",
+      "summary": "正文用去心邻域、反例构造与附加连续条件论证定理。"
+    },
+    {
+      "title": "为什么极限的 ε-N 和 ε-δ 语言具有划时代的意义？",
+      "url": "https://www.zhihu.com/answer/253318594",
+      "summary": "正文从数学史和定义结构解释 ε-N、ε-δ 对极限严密化的作用。"
+    },
+    {
+      "title": "ε-N 语言中，ε 到底动不动？如何理解 ε 不是数，而是趋于 0 的正量？",
+      "url": "https://www.zhihu.com/answer/259429569",
+      "summary": "正文用任意给定正数都可控制距离的量词直观解释 ε 语言。"
+    },
+    {
+      "title": "为什么要用 ε、δ 去定义极限？",
+      "url": "https://www.zhihu.com/answer/265216230",
+      "summary": "正文从微积分基础危机说明 ε-δ 定义如何严密化极限。"
+    },
+    {
+      "title": "利用微分法计算定积分的结果是真实值吗?",
+      "url": "https://www.zhihu.com/answer/287269644",
+      "summary": "正文用任意给定的 epsilon 构造误差足够小的分割，并通过上、下达布和夹住黎曼和。"
+    },
+    {
+      "title": "为什么极限的 ε-N 和 ε-δ 语言具有划时代的意义？",
+      "url": "https://www.zhihu.com/answer/296151193",
+      "summary": "正文以反例和两个数列系统说明 epsilon-N 语言如何严格定义极限。"
+    },
+    {
+      "title": "函数的一致连续性？",
+      "url": "https://www.zhihu.com/answer/298361374",
+      "summary": "正文逐项解释 epsilon 与 delta 在一致连续定义中的依赖关系。"
+    },
+    {
+      "title": "微分、导数、积分，这三者之间，有没有联系？",
+      "url": "https://www.zhihu.com/answer/328447509",
+      "summary": "正文用 ε 与局部分割条件描述积分极限。"
+    },
+    {
+      "title": "数学分析怎么构建自己的数学体系？",
+      "url": "https://www.zhihu.com/answer/390089024",
+      "summary": "正文明确以epsilon-delta语言和极限统一分析中的证明。"
+    },
+    {
+      "title": "如何解释洛必达法则？",
+      "url": "https://www.zhihu.com/answer/414406987",
+      "summary": "正文以 epsilon-delta 语言完整证明洛必达法则的极限结论。"
+    },
+    {
+      "title": "常微分方程、实变函数、复变函数、抽象代数、微﻿分几何、数学规划、计算方法这几门怎么学？",
+      "url": "https://www.zhihu.com/answer/422208549",
+      "summary": "正文说明实变与收敛定理证明依赖 epsilon-delta 语言。"
+    },
+    {
+      "title": "在代数、几何、分析、拓扑上学得好的人各有什么思维特点？",
+      "url": "https://www.zhihu.com/answer/444510192",
+      "summary": "正文用epsilon语言展示分析证明由不等式推进。"
+    },
+    {
+      "title": "为什么数列收敛一定有界。？",
+      "url": "https://www.zhihu.com/answer/446342623",
+      "summary": "正文以epsilon-N定义严格证明收敛数列有界。"
+    },
+    {
+      "title": "分析中的无穷和集合论中的无穷有关系吗？",
+      "url": "https://www.zhihu.com/answer/452062392",
+      "summary": "正文用epsilon-delta语言解释极限无需把无穷当实体。"
+    },
+    {
+      "title": "有哪些数学知识概念已经更新或改变，但不为大众所知？",
+      "url": "https://www.zhihu.com/answer/487579070",
+      "summary": "正文介绍极限从直观表述到epsilon-delta严格定义的演变。"
+    },
+    {
+      "title": "为什么微积分那么难学？",
+      "url": "https://www.zhihu.com/answer/505546174",
+      "summary": "通过 ε-δ 语言和常数倍极限命题说明严格极限证明如何工作。"
+    },
+    {
+      "title": "ε-N 语言中，ε 到底动不动？如何理解 ε 不是数，而是趋于 0 的正量？",
+      "url": "https://www.zhihu.com/answer/509933654",
+      "summary": "完整写出函数极限的 ε-δ 定义和数列极限的 ε-N 定义，并解释量词顺序。"
+    },
+    {
+      "title": "复合函数求导公式如何证明？",
+      "url": "https://www.zhihu.com/answer/517183917",
+      "summary": "证明以任意 ε、δ 邻域和误差估计控制复合函数的线性逼近。"
+    },
+    {
+      "title": "复合函数求导公式如何证明？",
+      "url": "https://www.zhihu.com/answer/517251680",
+      "summary": "后半篇用 epsilon-delta 语言给出分母可能为零时的严格估计。"
+    },
+    {
+      "title": "如何严谨地证明 0.9999…=1？",
+      "url": "https://www.zhihu.com/answer/522232139",
+      "summary": "给出 ε 控制尾差的严格极限论证。"
+    },
+    {
+      "title": "为什么我会觉得证明极限的过程完全是在套公式？",
+      "url": "https://www.zhihu.com/answer/522880067",
+      "summary": "解释 ε-δ 是严密定义和证明极限的基础语言。"
+    },
+    {
+      "title": "高等数学里的概念和定义，为什么不能再简单些呢？",
+      "url": "https://www.zhihu.com/answer/531919327",
+      "summary": "正文比较极限的严格语言与微元直觉，并说明严格定义为何必要。"
+    },
+    {
+      "title": "高等数学里的概念和定义，为什么不能再简单些呢？",
+      "url": "https://www.zhihu.com/answer/532203071",
+      "summary": "正文围绕 epsilon-delta 严格化极限的必要性展开解释。"
+    },
+    {
+      "title": "π 的存在是否意味着人类永远也无法精确的计算出宇宙的各种特征？",
+      "url": "https://www.zhihu.com/answer/543278295",
+      "summary": "正文明确把任意精度逼近与 epsilon 语言联系起来。"
+    },
+    {
+      "title": "如果两个数的差为无穷小，那么这两个数相等吗？",
+      "url": "https://www.zhihu.com/answer/547672530",
+      "summary": "正文强调用 epsilon-delta 语言精确表述无穷小问题。"
+    },
+    {
+      "title": "函数极限局部保号性的证明？",
+      "url": "https://www.zhihu.com/answer/556312977",
+      "summary": "解释极限保号性证明中如何选择 ε 使函数值保持与极限同号。"
+    },
+    {
+      "title": "极限的保号性怎么证明？",
+      "url": "https://www.zhihu.com/answer/556323307",
+      "summary": "说明极限局部保号性的方向、反推时缺少等号以及 ε 选择问题。"
+    },
+    {
+      "title": "大神能给我解释一下函数的保号性是什么意思吗？或者你是怎么理解保号性的？还有保号性在函数里的应用？",
+      "url": "https://www.zhihu.com/answer/570301792",
+      "summary": "正文以邻域语言解释极限保号性的严格含义。"
+    },
+    {
+      "title": "请问等价无穷小什么时候用什么时候不能用？",
+      "url": "https://www.zhihu.com/answer/572545672",
+      "summary": "正文用 ε-δ 量化条件定义无穷小与极限。"
+    },
+    {
+      "title": "如何能更好地理解（ε-δ）语言极限的定义？",
+      "url": "https://www.zhihu.com/answer/576247386",
+      "summary": "正文用量词和距离游戏直观解释 ε-δ 定义。"
+    },
+    {
+      "title": "如何能更好地理解（ε-δ）语言极限的定义？",
+      "url": "https://www.zhihu.com/answer/581702196",
+      "summary": "用量词博弈解释 ε-δ 极限定义中双方的选择顺序。"
+    },
+    {
+      "title": "如何理解极限的保号性？",
+      "url": "https://www.zhihu.com/answer/591658818",
+      "summary": "正文以 ε 邻域和序号 N 给出数列极限定义。"
+    },
+    {
+      "title": "微分定义时略去了 Δx 的高阶无穷小，为何积分后还能得到理论上的精确值？",
+      "url": "https://www.zhihu.com/answer/603400605",
+      "summary": "正文建议用 ε-δ 语言理解极限。"
+    },
+    {
+      "title": "数学类课程定理的复杂证明有必要掌握吗？",
+      "url": "https://www.zhihu.com/answer/656892091",
+      "summary": "以 epsilon 语言说明极限定义需要掌握的严谨性。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/710991699",
+      "summary": "正文用量词结构戏仿严格极限定义。"
+    },
+    {
+      "title": "高阶导数与高阶微分的概念怎么理解？",
+      "url": "https://www.zhihu.com/answer/731642087",
+      "summary": "使用 epsilon 邻域语言讨论极限。"
+    },
+    {
+      "title": "为何二阶导数要记为 d²y/dx²？",
+      "url": "https://www.zhihu.com/answer/732757028",
+      "summary": "以 epsilon-delta 形式描述极限。"
+    },
+    {
+      "title": "如何能更好地理解（ε-δ）语言极限的定义？",
+      "url": "https://www.zhihu.com/answer/734580884",
+      "summary": "直接讲解并应用ε-δ极限定义。"
+    },
+    {
+      "title": "为什么数列极限N有时候需要取整加一，有时候不需要？",
+      "url": "https://www.zhihu.com/answer/750074578",
+      "summary": "围绕ε-N定义说明取整加一的必要性。"
+    },
+    {
+      "title": "三分之一是0.3的循环三分之一乘3等于1 但是0.3的循环乘3是0.9的循环难道0.9的循环等于1么？",
+      "url": "https://www.zhihu.com/answer/765502646",
+      "summary": "正文用epsilon-delta语言说明两个数相等的判定。"
+    },
+    {
+      "title": "n 的 n 次方根接近于多少？",
+      "url": "https://www.zhihu.com/answer/785225563",
+      "summary": "使用 epsilon 定义完成极限证明。"
+    },
+    {
+      "title": "多元函数微分中为什么引入聚点概念？",
+      "url": "https://www.zhihu.com/answer/786664028",
+      "summary": "给出 epsilon-delta 极限定义。"
+    },
+    {
+      "title": "函数与其渐近线到底能不能相交？",
+      "url": "https://www.zhihu.com/answer/802686281",
+      "summary": "正文用 ε-N 定义说明水平渐近线只约束无穷远处的函数行为。"
+    },
+    {
+      "title": "设光速为1那么我的飞船（小滑块）达到0.9的循环，是否能代表我达到了光速？",
+      "url": "https://www.zhihu.com/answer/821585529",
+      "summary": "以任意小正数刻画极限的严格含义。"
+    },
+    {
+      "title": "如何证明收敛数列的任意子数列也收敛，且极限相同？",
+      "url": "https://www.zhihu.com/answer/821792423",
+      "summary": "逐句解释 epsilon-N 定义在子列证明中的用法。"
+    },
+    {
+      "title": "如何严谨地证明 0.9999…=1？",
+      "url": "https://www.zhihu.com/answer/822238873",
+      "summary": "使用 epsilon-N 语言证明数列趋于一。"
+    },
+    {
+      "title": "极限含有「趋于」、「接近」等直观概念的定义漏洞或不足之处在哪？",
+      "url": "https://www.zhihu.com/answer/830894453",
+      "summary": "说明 epsilon-delta 定义为何能支持证明。"
+    },
+    {
+      "title": "如何理解数列极限的定义？",
+      "url": "https://www.zhihu.com/answer/831202633",
+      "summary": "逐项解释 epsilon-N 定义、量词顺序与几何意义。"
+    },
+    {
+      "title": "＂利用定义证明函数极限”的过程怎么写？",
+      "url": "https://www.zhihu.com/answer/831876673",
+      "summary": "从误差不等式构造 delta=epsilon/2。"
+    },
+    {
+      "title": "如何证明数列极限的唯一性？",
+      "url": "https://www.zhihu.com/answer/843901318",
+      "summary": "正文用任意 ε 选择和反证法详细证明数列极限唯一性。"
+    },
+    {
+      "title": "sin n 的值集是 (-1, 1) 吗？",
+      "url": "https://www.zhihu.com/answer/851863901",
+      "summary": "用任意 epsilon 表达稠密逼近。"
+    },
+    {
+      "title": "连续和一致连续到底是什么意思？见问题？",
+      "url": "https://www.zhihu.com/answer/852699974",
+      "summary": "明确使用 epsilon-delta 定义比较二者。"
+    },
+    {
+      "title": "错在哪里啊这个?",
+      "url": "https://www.zhihu.com/answer/859754181",
+      "summary": "用任意邻域中存在无定义点作严格论证。"
+    },
+    {
+      "title": "在极限和导数证明中引入无穷小α的意义是什么？",
+      "url": "https://www.zhihu.com/answer/881947914",
+      "summary": "说明 epsilon-delta 语言如何严格化极限。"
+    },
+    {
+      "title": "在北大数学系崩溃了如何调整心态?",
+      "url": "https://www.zhihu.com/answer/907299223",
+      "summary": "正文把数列极限的 ε-N 定义拆成任意、固定、再任意的步骤逐项解释。"
+    },
+    {
+      "title": "微积分到底是什么?",
+      "url": "https://www.zhihu.com/answer/918067537",
+      "summary": "正文以专节完整解释魏尔斯特拉斯的ε-δ极限定义，并给出判定例子。"
+    },
+    {
+      "title": "大一高数如何学习？",
+      "url": "https://www.zhihu.com/answer/919469983",
+      "summary": "正文以专节完整解释魏尔斯特拉斯的ε-δ极限定义，并给出判定例子。"
+    },
+    {
+      "title": "是否任何正数被不断开平方后都会变成 1？",
+      "url": "https://www.zhihu.com/answer/1004490174",
+      "summary": "正文按任意 ε 构造 N，严格证明不断开方所得数列的极限。"
+    },
+    {
+      "title": "数列收敛的 ε-N 定义怎么理解？其作用是什么？",
+      "url": "https://www.zhihu.com/answer/1027113824",
+      "summary": "正文解释数列极限严格定义并纠正多个历史与计算错误。"
+    },
+    {
+      "title": "数学中，定义极限的目的是什么？是为了解决什么问题？为什么极限理论能很好地解决这类问题并被大家所接受？",
+      "url": "https://www.zhihu.com/answer/1029191255",
+      "summary": "正文解释极限严格化并纠正ε-δ与连续性定义错误。"
+    },
+    {
+      "title": "数学中，定义极限的目的是什么？是为了解决什么问题？为什么极限理论能很好地解决这类问题并被大家所接受？",
+      "url": "https://www.zhihu.com/answer/1031416240",
+      "summary": "正文沿数学史详细解释极限和连续性的严格定义。"
+    },
+    {
+      "title": "为什么微积分那么难学？",
+      "url": "https://www.zhihu.com/answer/1080755232",
+      "summary": "正文实质解释以任意正数ε刻画极限的严格思想。"
+    },
+    {
+      "title": "为什么四则运算的运用这么广泛？",
+      "url": "https://www.zhihu.com/answer/1103932274",
+      "summary": "正文从ε定义完整证明数列极限的加法与乘法性质。"
+    },
+    {
+      "title": "有人真正理解数列极限的定义吗？",
+      "url": "https://www.zhihu.com/answer/1115524155",
+      "summary": "正文细致解释ε的任意性与暂时固定性。"
+    },
+    {
+      "title": "狄利克雷函数在零处连续怎么证明？",
+      "url": "https://www.zhihu.com/answer/1133039530",
+      "summary": "正文用 ε-δ 邻域条件证明函数在零点连续。"
+    },
+    {
+      "title": "怎样才能通俗易懂的理解极限？",
+      "url": "https://www.zhihu.com/answer/1143901126",
+      "summary": "正文逐条解释数列极限的epsilon-N定义。"
+    },
+    {
+      "title": "为什么我会觉得证明极限的过程完全是在套公式？",
+      "url": "https://www.zhihu.com/answer/1217506088",
+      "summary": "正文逐步讲解 ε-δ 极限定义与证明逻辑。"
+    },
+    {
+      "title": "如何判断极限是否存在？",
+      "url": "https://www.zhihu.com/answer/1228510426",
+      "summary": "正文把极限存在定义列为基本证明方法。"
+    },
+    {
+      "title": "大学数学学习过程中怎么提高严格性?",
+      "url": "https://www.zhihu.com/answer/1249876997",
+      "summary": "正文用 ε-δ 语言中的等价变形说明极限的严格理解。"
+    },
+    {
+      "title": "据说很多科学天才有着超强的直觉，这个直觉到底是什么东西，怎么感觉很虚无？",
+      "url": "https://www.zhihu.com/answer/1256996237",
+      "summary": "正文讨论函数极限的 ε-δ 定义及其理解方式。"
+    },
+    {
+      "title": "连续，可导，导数连续，有什么区别？",
+      "url": "https://www.zhihu.com/answer/1293198468",
+      "summary": "正文给出函数极限的 epsilon-delta 定义。"
+    },
+    {
+      "title": "微分定义中的 Δx 要求趋近于 0 吗？",
+      "url": "https://www.zhihu.com/answer/1352276744",
+      "summary": "正文用误差与线性增量之比趋于零刻画高阶无穷小。"
+    },
+    {
+      "title": "数学差的关键原因是缺乏抽象思维还是逻辑性弱？",
+      "url": "https://www.zhihu.com/answer/1369255903",
+      "summary": "正文以极限定义中的 ε、N 量词关系说明逻辑训练。"
+    },
+    {
+      "title": "请用通俗的语言解释一下海涅定理？",
+      "url": "https://www.zhihu.com/answer/1369271151",
+      "summary": "正文用数列逼近解释海涅定理与函数极限的等价性。"
+    },
+    {
+      "title": "高等数学高阶无穷小量中o(1)表示什么？",
+      "url": "https://www.zhihu.com/answer/1388883529",
+      "summary": "正文用比值趋零的 ε 式语言解释高阶无穷小。"
+    },
+    {
+      "title": "老师说链式法则里某个 dy/dx 不能理解为 dy 除以 dx，为什么？",
+      "url": "https://www.zhihu.com/answer/1443819783",
+      "summary": "正文直接讲解或推导“用 ε 描述极限”相关内容。"
+    },
+    {
+      "title": "如何理解数列极限的定义？",
+      "url": "https://www.zhihu.com/answer/1452725750",
+      "summary": "正文直接讲解或推导“用 ε 描述极限”相关内容。"
+    },
+    {
+      "title": "老师说链式法则里某个 dy/dx 不能理解为 dy 除以 dx，为什么？",
+      "url": "https://www.zhihu.com/answer/1453971656",
+      "summary": "正文直接讲解或推导“用 ε 描述极限”相关内容。"
+    },
+    {
+      "title": "如何理解当x趋于0时 sin(xsin1/x)/(xsin1/x)的极限不存在？",
+      "url": "https://www.zhihu.com/answer/1457500639",
+      "summary": "正文使用 ε-δ 极限定义完成不存在性证明。"
+    },
+    {
+      "title": "如何理解函数列的一致收敛？",
+      "url": "https://www.zhihu.com/answer/1457831397",
+      "summary": "正文用 ε-N 语言刻画一致收敛。"
+    },
+    {
+      "title": "如何理解数列极限的定义？",
+      "url": "https://www.zhihu.com/answer/1470705489",
+      "summary": "正文用 ε-N 语言严格陈述数列极限。"
+    },
+    {
+      "title": "洗澡的时候突然论证出了1等于0，2等于0，所有数等于0，这个论证哪里错了呢？",
+      "url": "https://www.zhihu.com/answer/1492475752",
+      "summary": "正文直接给出与「用 ε 描述极限」相关的解释、推导或应用。"
+    },
+    {
+      "title": "在微积分教材一开始直接引入 epsilon-delta 语言是否有利？",
+      "url": "https://www.zhihu.com/answer/1495142663",
+      "summary": "正文直接给出与「用 ε 描述极限」相关的解释、推导或应用。"
+    },
+    {
+      "title": "在微积分教材一开始直接引入 epsilon-delta 语言是否有利？",
+      "url": "https://www.zhihu.com/answer/1495747452",
+      "summary": "正文直接给出与「用 ε 描述极限」相关的解释、推导或应用。"
+    },
+    {
+      "title": "在微积分教材一开始直接引入 epsilon-delta 语言是否有利？",
+      "url": "https://www.zhihu.com/answer/1496535283",
+      "summary": "正文直接给出与「用 ε 描述极限」相关的解释、推导或应用。"
+    },
+    {
+      "title": "洗澡的时候突然论证出了1等于0，2等于0，所有数等于0，这个论证哪里错了呢？",
+      "url": "https://www.zhihu.com/answer/1497209911",
+      "summary": "正文直接给出与「用 ε 描述极限」相关的解释、推导或应用。"
+    },
+    {
+      "title": "在微积分教材一开始直接引入 epsilon-delta 语言是否有利？",
+      "url": "https://www.zhihu.com/answer/1497416168",
+      "summary": "正文直接给出与「用 ε 描述极限」相关的解释、推导或应用。"
+    },
+    {
+      "title": "当 x→0 时，x/sinx 的极限等于多少？",
+      "url": "https://www.zhihu.com/answer/1515591128",
+      "summary": "正文使用 ε-δ 定义证明函数倒数的极限。"
+    },
+    {
+      "title": "高等数学函数的极限如何去理解？",
+      "url": "https://www.zhihu.com/answer/1530472569",
+      "summary": "正文直接讨论用 ε 描述极限，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "既然两个分数理论上来说可以无限接近，那么为什么还会出现无理数？",
+      "url": "https://www.zhihu.com/answer/1551413975",
+      "summary": "正文用任意小距离说明有理数的稠密性。"
+    },
+    {
+      "title": "既然两个分数理论上来说可以无限接近，那么为什么还会出现无理数？",
+      "url": "https://www.zhihu.com/answer/1552015557",
+      "summary": "正文用有理数柯西列的极限说明实数的构造。"
+    },
+    {
+      "title": "什么情况下极限不存在？",
+      "url": "https://www.zhihu.com/answer/1570141250",
+      "summary": "正文从极限的 ε-δ 定义出发分析极限不存在的条件。"
+    },
+    {
+      "title": "高数为什么不能好好说话？",
+      "url": "https://www.zhihu.com/answer/1584447221",
+      "summary": "正文解释 ε-N 语言如何消除“无限靠近”的直觉歧义。"
+    },
+    {
+      "title": "割圆术就算割了∞次，它和真实面积也相差很小一部分，怎么就说它就可以等于真实面积？",
+      "url": "https://www.zhihu.com/answer/1617788658",
+      "summary": "正文用任意小误差和反证思路解释极限的严格定义。"
+    },
+    {
+      "title": "怎么解释 lim(x→∞) (sinx＋x)/x 不能用洛必达？",
+      "url": "https://www.zhihu.com/answer/1634792298",
+      "summary": "正文用导函数极限条件并给出 epsilon 语言下的严格证明。"
+    },
+    {
+      "title": "微积分体系几百年前就建立起来了，为什么我们现在学习它仍存在困难？",
+      "url": "https://www.zhihu.com/answer/1635068702",
+      "summary": "正文说明极限定义如何取代早期含糊的无穷小概念。"
+    },
+    {
+      "title": "有人真正理解数列极限的定义吗？",
+      "url": "https://www.zhihu.com/answer/1676105381",
+      "summary": "正文逐项拆解数列极限的ε-N定义。"
+    },
+    {
+      "title": "为什么不存在一个连续函数，其值在有理数处是无理数，在无理数处是有理数？",
+      "url": "https://www.zhihu.com/answer/1680843974",
+      "summary": "正文用介值定理和连续性证明不存在所述函数。"
+    },
+    {
+      "title": "如何理解具有极限的函数与无穷小的关系？",
+      "url": "https://www.zhihu.com/answer/1695212912",
+      "summary": "正文用 ε-δ 定义严格证明极限与无穷小关系。"
+    },
+    {
+      "title": "可导，可微，可积，连续的关系是什么？然后，它们各自的充要条件是什么？",
+      "url": "https://www.zhihu.com/answer/1724642071",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "函数方程 f(xy)=f(x)+f(y) 的严格解是什么？解是否唯一？",
+      "url": "https://www.zhihu.com/answer/1800807931",
+      "summary": "正文用极限把有理指数延拓到实数指数并验证连续性。"
+    },
+    {
+      "title": "如何通俗易懂地理解黎曼引理？",
+      "url": "https://www.zhihu.com/answer/1819009077",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "1+2+4+8+16+32+64+128+256+...=-1 错在哪里？",
+      "url": "https://www.zhihu.com/answer/1820821033",
+      "summary": "正文用 ε-N 定义解释无限级数和为何必须先明确极限。"
+    },
+    {
+      "title": "如何看待复旦数院转专业考试最后一题？",
+      "url": "https://www.zhihu.com/answer/1827860305",
+      "summary": "正文用 epsilon-delta 表述可微定义并构造所需邻域。"
+    },
+    {
+      "title": "是否存在无理点不连续、有理点连续的函数？",
+      "url": "https://www.zhihu.com/answer/1842017697",
+      "summary": "正文以振幅和 epsilon 邻域刻画函数连续点。"
+    },
+    {
+      "title": "1+0.1+0.01+0.001+0.0001... 一直下去会在实际中到达 2 吗？",
+      "url": "https://www.zhihu.com/answer/1861938144",
+      "summary": "正文用 ε-定义说明数列极限的严格含义。"
+    },
+    {
+      "title": "如何证明开区间的凸函数连续?",
+      "url": "https://www.zhihu.com/answer/1879109892",
+      "summary": "正文用左右极限和夹逼定理证明开区间凸函数连续。"
+    },
+    {
+      "title": "「切线」的严格定义到底是怎样的？",
+      "url": "https://www.zhihu.com/answer/1927148817",
+      "summary": "正文直接讨论并支撑「用 ε 描述极限」相关内容。"
+    },
+    {
+      "title": "洗澡的时候突然论证出了1等于0，2等于0，所有数等于0，这个论证哪里错了呢？",
+      "url": "https://www.zhihu.com/answer/1996095252",
+      "summary": "正文以极限过程说明不能直接代入无穷大。"
+    },
+    {
+      "title": "如何理解「高阶无穷小」这个概念？",
+      "url": "https://www.zhihu.com/answer/2007964000",
+      "summary": "正文以严格极限运算解释无穷小比较。"
+    },
+    {
+      "title": "大佬们，请问这个极限怎么求？",
+      "url": "https://www.zhihu.com/answer/2077248815",
+      "summary": "正文用 ε-δ 连续性控制积分尾部的误差。"
+    },
+    {
+      "title": "数学分析中的聚点？",
+      "url": "https://www.zhihu.com/answer/2090732659",
+      "summary": "正文用去心邻域说明多元函数极限与连续性依赖聚点。"
+    },
+    {
+      "title": "导数存在 为什么导函数不一定连续?",
+      "url": "https://www.zhihu.com/answer/2095073651",
+      "summary": "正文通过左右极限精确区分导数与导函数极限。"
+    },
+    {
+      "title": "如何看待同济大学《高等数学》教材获得“全国优秀教材特等奖”？",
+      "url": "https://www.zhihu.com/answer/2172730518",
+      "summary": "正文具体讨论初学极限时对 ε-δ 严格语言的适应问题。"
+    },
+    {
+      "title": "如何看待同济大学《高等数学》教材获得“全国优秀教材特等奖”？",
+      "url": "https://www.zhihu.com/answer/2173757331",
+      "summary": "正文指出该教材把严格的 ε-δ 极限语言安排在较后章节。"
+    },
+    {
+      "title": "这两个题，求教?",
+      "url": "https://www.zhihu.com/answer/2178337004",
+      "summary": "第二问按数列极限的 ε-N 定义给出严格证明。"
+    },
+    {
+      "title": "高等数学中 ϵ 和 ε 哪种字体更常用于刻画极限？",
+      "url": "https://www.zhihu.com/answer/2215019737",
+      "summary": "正文讨论 ε 与 δ 在极限和连续定义中的符号含义及来源。"
+    },
+    {
+      "title": "洛必达法则为何成为禁术？",
+      "url": "https://www.zhihu.com/answer/2268852554",
+      "summary": "正文用 ε-δ 定义解释为何必须掌握极限的严格含义。"
+    },
+    {
+      "title": "函数方程 f(xy)=f(x)+f(y) 的严格解是什么？解是否唯一？",
+      "url": "https://www.zhihu.com/answer/2290370604",
+      "summary": "正文用极限与有理数列论证连续函数的唯一性。"
+    },
+    {
+      "title": "既然牛顿的导数理论是有问题的，为什么现在高中依然在教牛顿的导数理论而不是威尔斯特拉斯的 ε-δ 语言？",
+      "url": "https://www.zhihu.com/answer/2304949264",
+      "summary": "正文讨论 ε-δ 极限语言与高中微积分的关系。"
+    },
+    {
+      "title": "既然牛顿的导数理论是有问题的，为什么现在高中依然在教牛顿的导数理论而不是威尔斯特拉斯的 ε-δ 语言？",
+      "url": "https://www.zhihu.com/answer/2305459755",
+      "summary": "正文解释为何基础教育不必完整采用 ε-δ 语言。"
+    },
+    {
+      "title": "当数学家刚想出微积分用细矩形面积的和逼近时，矩形的高选取多少呢？为何不怕无限多个小误差之和为大误差？",
+      "url": "https://www.zhihu.com/answer/2309272619",
+      "summary": "正文联系极限逼近和 epsilon-delta 语言解释极限。"
+    },
+    {
+      "title": "什么是形式逻辑和辩证逻辑，如何用最简单的例子解释下？",
+      "url": "https://www.zhihu.com/answer/2309274340",
+      "summary": "正文用 epsilon-delta 精确定义导数极限。"
+    },
+    {
+      "title": "既然牛顿的导数理论是有问题的，为什么现在高中依然在教牛顿的导数理论而不是威尔斯特拉斯的 ε-δ 语言？",
+      "url": "https://www.zhihu.com/answer/2311159827",
+      "summary": "正文比较高中黑箱式极限与 epsilon-delta 严格极限定义。"
+    },
+    {
+      "title": "拼多多砍价案庭审「因显示百分比位数有限，显示 0.9% 」，实际小数点后还有 6 位，这种算法合理吗？",
+      "url": "https://www.zhihu.com/answer/2314308677",
+      "summary": "正文用 ε-N 定义把砍价进度趋近百分之百转成严格极限。"
+    },
+    {
+      "title": "既然牛顿的导数理论是有问题的，为什么现在高中依然在教牛顿的导数理论而不是威尔斯特拉斯的 ε-δ 语言？",
+      "url": "https://www.zhihu.com/answer/2332480427",
+      "summary": "正文解释 ε-δ 语言如何消除无穷小逻辑问题。"
+    },
+    {
+      "title": "导数/微积分中符号 d 有什么意义？是如何参与运算的？",
+      "url": "https://www.zhihu.com/answer/2335239431",
+      "summary": "正文明确用epsilon-delta语言作为严格理解极限的方法。"
+    },
+    {
+      "title": "怎样理解极限的保号性?",
+      "url": "https://www.zhihu.com/answer/2340938649",
+      "summary": "正文给出极限的 ε-δ 定义并由定义推导保号性。"
+    },
+    {
+      "title": "跟女朋友谈了半年恋爱了，今天有一个男生约她出去吃西餐，一起滑雪，我不同意，错了吗？",
+      "url": "https://www.zhihu.com/answer/2383893815",
+      "summary": "正文借用 epsilon-delta 极限定义作类比并解释其逻辑。"
+    },
+    {
+      "title": "怎样评价华东师大《数学分析》？",
+      "url": "https://www.zhihu.com/answer/2391173229",
+      "summary": "正文说明该书以 ε-δ 定义建立极限教学体系，并讨论 ε-N 证明。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2394202555",
+      "summary": "正文回顾 Weierstrass 将极限论形式化为严格的 ε-δ 语言。"
+    },
+    {
+      "title": "数学家们用不等式做什么？",
+      "url": "https://www.zhihu.com/answer/2396186731",
+      "summary": "正文指出严格极限定义依赖由不等式表述的控制关系。"
+    },
+    {
+      "title": "实数的定义是什么？",
+      "url": "https://www.zhihu.com/answer/2404118620",
+      "summary": "正文使用 ε 语言定义柯西列，并以此构造实数。"
+    },
+    {
+      "title": "导函数为什么没有第一类间断点？",
+      "url": "https://www.zhihu.com/answer/2422077996",
+      "summary": "正文使用任意 ε 与相应 δ 的极限语言完成证明。"
+    },
+    {
+      "title": "请问这道极限题怎么写？？？",
+      "url": "https://www.zhihu.com/answer/2448564214",
+      "summary": "正文明确说明等价替换可用 ε-δ 极限语言证明。"
+    },
+    {
+      "title": "什么时候可以用极坐标法求二重极限？",
+      "url": "https://www.zhihu.com/answer/2454774580",
+      "summary": "正文给出多元极限的 ε-δ 定义并据此讨论趋近条件。"
+    },
+    {
+      "title": "人们在没有计算机的帮助下是如何计算根号3？",
+      "url": "https://www.zhihu.com/answer/2474938876",
+      "summary": "正文用任意小误差界描述平方根近似精度。"
+    },
+    {
+      "title": "如何理解数列极限的定义？",
+      "url": "https://www.zhihu.com/answer/2478966684",
+      "summary": "正文给出数列极限的 ε-N 严格定义并逐项解释。"
+    },
+    {
+      "title": "如何直观理解集合的极限limsup/liminf?",
+      "url": "https://www.zhihu.com/answer/2481519903",
+      "summary": "把函数列收敛的 ε-N 定义翻译成集合的交并语言，说明极限的严格表述。"
+    },
+    {
+      "title": "为什么定积分计算的近似值是准确值？",
+      "url": "https://www.zhihu.com/answer/2526512809",
+      "summary": "用 ε-δ 语言严格定义函数极限与积分。"
+    },
+    {
+      "title": "洛必达法则为何成为禁术？",
+      "url": "https://www.zhihu.com/answer/2567074777",
+      "summary": "用任意 epsilon 和相应 delta 的不等式框架讨论极限的严格推导。"
+    },
+    {
+      "title": "很清楚0.99999≠1，但就是推不翻它，有什么漏洞？",
+      "url": "https://www.zhihu.com/answer/2606960989",
+      "summary": "用任意小 ε 的论证解释极限的 ε-δ 定义思路。"
+    },
+    {
+      "title": "为什么1/n发散，而1/n的平方收敛?",
+      "url": "https://www.zhihu.com/answer/2612157591",
+      "summary": "给出级数部分和收敛的 ε-N 严格定义。"
+    },
+    {
+      "title": "微积分的实质是什么？",
+      "url": "https://www.zhihu.com/answer/2640559742",
+      "summary": "给出函数极限的 ε-δ 严格定义并解释其静态判定方式。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2693509918",
+      "summary": "正文用任意小 ε 和有限子集条件精确定义不可列集求和，属于 ε 语言下的收敛描述。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2695254231",
+      "summary": "正文用 epsilon 与序数条件精确表述广义求和的极限定义，并据此证明条件收敛定理。"
+    },
+    {
+      "title": "为什么极限的 ε-N 和 ε-δ 语言具有划时代的意义？",
+      "url": "https://www.zhihu.com/answer/2715859633",
+      "summary": "解释 ε-N 与 ε-δ 语言如何把“无限趋近”改写为可量化的极限定义。"
+    },
+    {
+      "title": "函数的极限定义？",
+      "url": "https://www.zhihu.com/answer/2726182765",
+      "summary": "正文用任意给定的 ε 和对应 δ 精确陈述函数极限，并通过例题证明极限、局部保号性和局部有界性。"
+    },
+    {
+      "title": "历史上是怎样发现连续性的定义可以和“开集的原像是开集”等价的？",
+      "url": "https://www.zhihu.com/answer/2732719832",
+      "summary": "正文追述从柯西到 Weierstrass 以 ε-δ 语言严格定义极限和连续性的过程，具体展开该分支。"
+    },
+    {
+      "title": "如何证明sin n²发散?",
+      "url": "https://www.zhihu.com/answer/2748556571",
+      "summary": "正文通过极限点、稠密与等分布的定义和 Weyl 判别法，证明 sin(n²) 在 [-1,1] 中具有充分多的聚点而发散。"
+    },
+    {
+      "title": "觉得《数学分析》的“严谨”没有必要，不想学怎么办?",
+      "url": "https://www.zhihu.com/answer/2778235734",
+      "summary": "正文用任意给定正数、从某一项以后所有项与目标数距离小于该正数的方式，实质解释数列极限与收敛的精确定义。"
+    },
+    {
+      "title": "掌握什么思想会让你的数学水平有质的飞跃?",
+      "url": "https://www.zhihu.com/answer/2783097418",
+      "summary": "正文用任意给定多小的数都能找到更小数的方式，解释ε–δ语言刻画无穷小与极限的思想。"
+    },
+    {
+      "title": "函数趋于无穷时有极限，导函数存在，且导函数趋于无穷时也有极限，那导函数在无穷远处极限一定为0么？",
+      "url": "https://www.zhihu.com/answer/2801962340",
+      "summary": "正文用任意 epsilon 和阈值 X_epsilon 的极限定义控制远处函数值，完成 epsilon 估计。"
+    },
+    {
+      "title": "如何证明sin²θ+cos²θ＝1？",
+      "url": "https://www.zhihu.com/answer/2814177886",
+      "summary": "正文给出柯西列与完备度量空间的定义，并用柯西收敛准则以 ε-N 语言讨论级数收敛。"
+    },
+    {
+      "title": "0.9无限循环和1谁大？",
+      "url": "https://www.zhihu.com/answer/2898595163",
+      "summary": "正文把有限位小数序列写成极限，并以 ε-N 式论证说明其极限为 1。"
+    },
+    {
+      "title": "怎么判断一个孩子有没有数学天赋？",
+      "url": "https://www.zhihu.com/answer/2923420968",
+      "summary": "正文在末尾给出带任意小ε和阈值N的极限定义，把“n超大时趋近确定值”形式化。"
+    },
+    {
+      "title": "一个数列的极限为0，能否得出“这个数列的前n项乘积的极限也为0”这个结论？",
+      "url": "https://www.zhihu.com/answer/2936982344",
+      "summary": "正文取定 epsilon 并找出 N，用 epsilon-N 语言论证当 n 足够大时各项绝对值小于二分之一。"
+    },
+    {
+      "title": "偏导函数连续明明只是x，y两个方向上的连续，为什么它这么强可以推出全微分的存在呢?",
+      "url": "https://www.zhihu.com/answer/3005519269",
+      "summary": "正文用 epsilon-delta 条件表述偏导数的连续性，并据此控制线性近似余项以证明可微。"
+    },
+    {
+      "title": "如果让你重新开始学数学，你的学习路线会怎么选择?",
+      "url": "https://www.zhihu.com/answer/3014421213",
+      "summary": "正文解释极限严谨定义中变量与 ε、δ、N 等辅助量协同约束的结构，展开用 ε 类语言描述极限的问题。"
+    },
+    {
+      "title": "为什么我觉得数学才是最不讲逻辑的学科？",
+      "url": "https://www.zhihu.com/answer/3061632872",
+      "summary": "正文展开 ε-δ 语言中的多层量词，并给出逐点连续性的全称与存在量词表达，说明如何严格描述极限过程。"
+    },
+    {
+      "title": "为什么人们公认的微积分之父是牛顿和莱布尼茨，而非提出「一尺之捶，日取其半，万世不竭」的庄子？",
+      "url": "https://www.zhihu.com/answer/3065220995",
+      "summary": "正文用“小于任意给定数”的量化条件说明极限，并与无限次减半本身区分开来。"
+    },
+    {
+      "title": "为什么人们公认的微积分之父是牛顿和莱布尼茨，而非提出「一尺之捶，日取其半，万世不竭」的庄子？",
+      "url": "https://www.zhihu.com/answer/3065579374",
+      "summary": "正文通过“无论木棍有多细”都能一分为二的条件，说明斧刃厚度可在任意小尺度下趋近于0，以此解释极限的对象和含义。"
+    },
+    {
+      "title": "为什么人们公认的微积分之父是牛顿和莱布尼茨，而非提出「一尺之捶，日取其半，万世不竭」的庄子？",
+      "url": "https://www.zhihu.com/answer/3068157748",
+      "summary": "正文比较有限的二分之一幂序列与无限情形的极限，并以柯西、魏尔斯特拉斯和 epsilon-delta 语言说明极限严格化的必要性。"
+    },
+    {
+      "title": "无法理解高等数学怎么办？",
+      "url": "https://www.zhihu.com/answer/3100267532",
+      "summary": "正文完整写出函数极限的 ε-δ 定义，并通过“任意—存在”的量词结构解释其含义。"
+    },
+    {
+      "title": "如何求这个关于正弦函数复合的极限？",
+      "url": "https://www.zhihu.com/answer/3260034553",
+      "summary": "正文用 ε-δ 表述正弦函数的局部极限，再把误差界逐项累加为一致的 n 项误差估计。"
+    },
+    {
+      "title": "微积分就是求个极限值吗？那0.99循环为什么可以等于1呢？",
+      "url": "https://www.zhihu.com/answer/3302140231",
+      "summary": "正文用最终 ε-稳定和绝对值不超过 ε 描述柯西序列接近及等价柯西序列。"
+    },
+    {
+      "title": "limα=limβ到底成不成立？",
+      "url": "https://www.zhihu.com/answer/3320773376",
+      "summary": "正文用 ε-N 语言解释极限等号的严格含义，并据此讨论极限唯一性和定义证明。"
+    },
+    {
+      "title": "最近网上吵0.9999999……的循环等于1你赞成吗？",
+      "url": "https://www.zhihu.com/answer/3360648976",
+      "summary": "正文用 ε-N 量词给出数列收敛定义，并据此说明 0.999… 的项与 1 的误差最终小于任意正数。"
+    },
+    {
+      "title": "如何评价姜萍事件？",
+      "url": "https://www.zhihu.com/answer/3534554187",
+      "summary": "正文用带 ε、N 和数列项不等式条件的完整量化式展示数列极限的严格写法，对应用 ε 描述极限。"
+    },
+    {
+      "title": "如何评价陶哲轩的实分析II?",
+      "url": "https://www.zhihu.com/answer/3557142155",
+      "summary": "正文用ε-接近、ε-稳定和持续ε-附着的关系区分极限点与收敛极限，属于用ε语言描述极限。"
+    },
+    {
+      "title": "为什么感觉函数极限和连续性的定义很鸡肋?",
+      "url": "https://www.zhihu.com/answer/3592949309",
+      "summary": "正文用病态函数说明仅靠图像无法判断极限与连续性，强调必须依赖严格定义。"
+    },
+    {
+      "title": "高斯的博士论文是不是太简单了？",
+      "url": "https://www.zhihu.com/answer/3628916108",
+      "summary": "正文完整写出了用任意小 ε 和相应 N 描述数列极限的定义。"
+    },
+    {
+      "title": "微积分体系几百年前就建立起来了，为什么我们现在学习它仍存在困难？",
+      "url": "https://www.zhihu.com/answer/4647264795",
+      "summary": "正文专门讨论 epsilon-delta 与 epsilon-N 语言如何把直观趋近严谨化，属于用 epsilon 描述极限。"
+    },
+    {
+      "title": "为什么极限的 ε-N 和 ε-δ 语言具有划时代的意义？",
+      "url": "https://www.zhihu.com/answer/5010562624",
+      "summary": "正文指出 ε-N 与 ε-δ 语言的实质是用“任意存在”量词结构精确表达极限等数学命题。"
+    },
+    {
+      "title": "为什么ε-δ语言很像小学生比大小，很幼稚？",
+      "url": "https://www.zhihu.com/answer/36432351983",
+      "summary": "正文以循环小数收敛和瞬时速度为例，说明实数系中必须用 ε-δ 语言严格定义极限。"
+    },
+    {
+      "title": "为什么ε-δ语言很像小学生比大小，很幼稚？",
+      "url": "https://www.zhihu.com/answer/37390140036",
+      "summary": "正文把 ε-δ、ε-N 语言解释为用任意接近和邻域表述朴素的无穷过程，属于用 ε 严格描述极限。"
+    },
+    {
+      "title": "为什么ε-δ语言很像小学生比大小，很幼稚？",
+      "url": "https://www.zhihu.com/answer/38657134516",
+      "summary": "正文用存在与全称玩家的策略完整解释 ε-δ 极限定义，展开极限的严格描述。"
+    },
+    {
+      "title": "为什么ε-δ语言很像小学生比大小，很幼稚？",
+      "url": "https://www.zhihu.com/answer/39454042923",
+      "summary": "正文解释 ε-δ 式定义为何强调无歧义，并以牛顿微积分中 dx 难以精确说明的历史说明定义严格性的重要性。"
+    },
+    {
+      "title": "最近网上吵0.9999999……的循环等于1你赞成吗？",
+      "url": "https://www.zhihu.com/answer/44438761886",
+      "summary": "正文用 ε-N 语言定义柯西列，并说明其刻画的正是数列项差可任意小的收敛性质。"
+    },
+    {
+      "title": "为什么大学高数总是喜欢把简单的定义搞得十分复杂，最终让很多人都看不懂？",
+      "url": "https://www.zhihu.com/answer/44905241550",
+      "summary": "正文以日取其半数列解释 ε-N 语言中的任意小误差、存在阈值和阈值之后恒成立。"
+    },
+    {
+      "title": "极限定义中的 ε，为什么要取“任意的”，而不是“尽可能小的”？",
+      "url": "https://www.zhihu.com/answer/1899979575397689141",
+      "summary": "正文解释 ε-δ 语言如何把极限命题转成可运算的不等式，并示范用任取的正数完成极限加法证明。"
+    },
+    {
+      "title": "无理数为什么符合有理数的运算规律？",
+      "url": "https://www.zhihu.com/answer/1938252329859150631",
+      "summary": "正文用 ε-N 条件定义有理柯西列，并通过 ε 估计证明商集上的加法和乘法是良定的。"
+    },
+    {
+      "title": "钱学森说「人就算再笨还能学不会微积分吗」，难道智力正常的人都能学会微积分吗？",
+      "url": "https://www.zhihu.com/answer/1954679251795154876",
+      "summary": "正文梳理微积分从无穷小量和第二次数学危机走向柯西、魏尔斯特拉斯 epsilon-delta 极限定义的历史。"
+    },
+    {
+      "title": "数学中，「代数」和「分析」的方法分别是什么？有什么不同？",
+      "url": "https://www.zhihu.com/answer/1962889213210001882",
+      "summary": "正文给出序列极限的 ε-N 定义，并用它刻画无限接近与收敛。"
+    },
+    {
+      "title": "在数学的学习过程中，你见过最妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/1966976289459119098",
+      "summary": "正文用三角多项式逼近连续函数，再通过 ε/3 的放缩完成 Weyl 引理的极限证明。"
+    },
+    {
+      "title": "数学这个专业难度高吗?",
+      "url": "https://www.zhihu.com/answer/1971200106561790857",
+      "summary": "正文用 ε-δ 量词结构定义函数极限，并据此说明数学分析如何摆脱模糊的无限接近直觉。"
+    },
+    {
+      "title": "数学专业是不是最难学的？",
+      "url": "https://www.zhihu.com/answer/1971200260886987942",
+      "summary": "正文用 ε-δ 量词结构定义函数极限，并据此说明数学分析如何摆脱模糊的无限接近直觉。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/1984953094891668310",
+      "summary": "正文围绕引入任意小误差项、估计扰动后的量并把误差取到零展开，说明了用 ε 控制极限的证明思路。"
+    },
+    {
+      "title": "为什么极限的 ε-N 和 ε-δ 语言具有划时代的意义？",
+      "url": "https://www.zhihu.com/answer/1985299194358039796",
+      "summary": "正文以 ε 的任意小性把严格结论转化为任意接近的误差控制论证。"
+    },
+    {
+      "title": "都说中国人聪明，为什么诺贝尔奖得的不多？",
+      "url": "https://www.zhihu.com/answer/1986715644201308392",
+      "summary": "正文回顾无穷小争议，并用任意给定差值说明 ε-δ 极限定义所表达的逻辑关系。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/1987787991922521774",
+      "summary": "正文解释魏尔斯特拉斯如何用 ε-δ 静态不等式取代运动的极限直观。"
+    },
+    {
+      "title": "如何才能真正理解「极限」的ε-δ定义？",
+      "url": "https://www.zhihu.com/answer/2000117996081931082",
+      "summary": "正文用任意给定正数和寻找对应阈值的语言解释 ε-δ 极限定义，并以数列收敛到零为例说明。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2014774167774454493",
+      "summary": "正文完整给出函数极限的 ε-δ 定义，并解释量词次序如何把趋近过程化为实数不等式。"
+    },
+    {
+      "title": "微积分体系几百年前就建立起来了，为什么我们现在学习它仍存在困难？",
+      "url": "https://www.zhihu.com/answer/2015062701626373287",
+      "summary": "正文具体解释 ε-δ 语言如何用任意给定的正数刻画函数变化量的控制，并讨论其严格化历史。"
+    },
+    {
+      "title": "微积分体系几百年前就建立起来了，为什么我们现在学习它仍存在困难？",
+      "url": "https://www.zhihu.com/answer/2015430777173746227",
+      "summary": "正文回顾柯西和魏尔斯特拉斯用 ε-δ 语言严格定义极限，从而重建微积分基础。"
+    },
+    {
+      "title": "微积分体系几百年前就建立起来了，为什么我们现在学习它仍存在困难？",
+      "url": "https://www.zhihu.com/answer/2015820199081846080",
+      "summary": "正文完整陈述 ε-δ 极限定义，解释误差范围与邻域之间的量词顺序及严格化作用。"
+    },
+    {
+      "title": "为什么很多高中所谓热爱数学的人到大学就对数学无感甚至是厌恶了呢?",
+      "url": "https://www.zhihu.com/answer/2020285758225823011",
+      "summary": "正文完整写出用任意 ε>0 找到正整数 N 的数列极限定义，并说明它与高中数学表述的差异。"
+    },
+    {
+      "title": "微积分体系几百年前就建立起来了，为什么我们现在学习它仍存在困难？",
+      "url": "https://www.zhihu.com/answer/2024511007918138107",
+      "summary": "正文引用并解释魏尔斯特拉斯版本的形式化极限定义，作为微积分严格化的基础。"
+    },
+    {
+      "title": "微积分体系几百年前就建立起来了，为什么我们现在学习它仍存在困难？",
+      "url": "https://www.zhihu.com/answer/2031414390017237782",
+      "summary": "正文给出 ε-δ 定义，并把 x 趋近 a 解释为精度 ε 与范围 δ 之间的静态逻辑关系。"
+    },
+    {
+      "title": "数学学到什么程度可以进行下一部分的学习了？",
+      "url": "https://www.zhihu.com/answer/2033689777535502325",
+      "summary": "正文完整给出 ε-δ 极限定义，并解释量词嵌套和静态命题如何刻画动态趋近。"
+    },
+    {
+      "title": "如何真正从本质上理解数学?",
+      "url": "https://www.zhihu.com/answer/2033930915211130012",
+      "summary": "正文回顾无穷小到 ε-δ 定义的演变，并明确要求理解极限定义所解决的精确化问题。"
+    },
+    {
+      "title": "如果让你重新开始学数学，你的学习路线会怎么选择?",
+      "url": "https://www.zhihu.com/answer/2035711684745090367",
+      "summary": "正文用 ε–δ 语言解释连续定义中的任意小误差和输入控制。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2036914598993977804",
+      "summary": "正文以量词形式说明柯西和魏尔斯特拉斯如何用 ε-δ 语言严格定义极限。"
+    },
+    {
+      "title": "请问如何理解极限的精确定义？",
+      "url": "https://www.zhihu.com/answer/2039468325193904278",
+      "summary": "正文完整解释ε-δ极限定义，并用挑战与应答量化“任意接近”的含义。"
+    },
+    {
+      "title": "钱学森之子称「钱学森从未说过『人再笨还能学不会微积分吗』」，一句从未说过的话为何能火遍全网？",
+      "url": "https://www.zhihu.com/answer/2044569687778916040",
+      "summary": "正文比较旧教材的函数极限定义与 ε-δ 语言，并说明数列极限定义已接近 ε-N 语言。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2050266065503007560",
+      "summary": "正文回顾柯西和魏尔斯特拉斯用 ε-δ 极限定义重建微积分基础。"
+    },
+    {
+      "title": "一名工科生眼中的数学分析（上）",
+      "url": "https://zhuanlan.zhihu.com/p/24636107",
+      "summary": "正文用度量空间解释ε-N和ε-δ语言，说明如何严格定义序列极限与函数极限。"
+    },
+    {
+      "title": "复变函数与积分变换 简明笔记(二)：复变函数基础",
+      "url": "https://zhuanlan.zhihu.com/p/25044385",
+      "summary": "正文用任意 ε、存在 N 和邻域语言定义复点列收敛，并讨论柯西准则与致密性。"
+    },
+    {
+      "title": "【高等数学】：从聚点的角度谈数列极限",
+      "url": "https://zhuanlan.zhihu.com/p/25708067",
+      "summary": "正文完整给出数列极限的 ε-N 表述，说明邻域外只有有限项并据此进行证明。"
+    },
+    {
+      "title": "10597 超级任务、一致收敛与共产主义",
+      "url": "https://zhuanlan.zhihu.com/p/26665060",
+      "summary": "正文用ε-δ量词结构分别展开逐点收敛和一致收敛的定义，说明极限定义中量词次序的意义。"
+    },
+    {
+      "title": "中学篇 No. 19：极限是怎样炼成的",
+      "url": "https://zhuanlan.zhihu.com/p/26902675",
+      "summary": "正文用 ε-N 量词结构精确定义数列极限，并解释 N 如何依赖 ε 取值。"
+    },
+    {
+      "title": "【概念深度挖掘】——4.1数列和函数的极限（难度大）",
+      "url": "https://zhuanlan.zhihu.com/p/24928244",
+      "summary": "正文逐层解释 ε-N 数列极限定义，以及函数极限的 ε-δ、左右极限和柯西准则。"
+    },
+    {
+      "title": "【高等数学】判断一元函数的间断点及类型",
+      "url": "https://zhuanlan.zhihu.com/p/30120671",
+      "summary": "正文用 ε-δ 条件刻画函数连续性，并以此说明间断点为何对应连续性条件失效。"
+    },
+    {
+      "title": "如何理解一致连续性",
+      "url": "https://zhuanlan.zhihu.com/p/33020088",
+      "summary": "正文逐项解释 epsilon-delta 定义中 delta 只依赖 epsilon 而不依赖区间内点的含义。"
+    },
+    {
+      "title": "13.1（1）  函数列及其一致收敛性",
+      "url": "https://zhuanlan.zhihu.com/p/37144597",
+      "summary": "正文用 ε-N 语言对比逐点收敛与一致收敛，强调一致收敛的 N 必须对所有自变量同时成立。"
+    },
+    {
+      "title": "实数理论的七个基本定理",
+      "url": "https://zhuanlan.zhihu.com/p/38074232",
+      "summary": "正文用任意给定的 ε 和存在 N 的量化条件定义柯西列，并以该条件判断极限是否存在。"
+    },
+    {
+      "title": "微分、积分、微积分、导数之详细辨别",
+      "url": "https://zhuanlan.zhihu.com/p/38337248",
+      "summary": "正文用 ε-δ 语言说明如何严格描述极限，并据此重建导数与微分定义。"
+    },
+    {
+      "title": "数学分析笔记（三）——极限与连续",
+      "url": "https://zhuanlan.zhihu.com/p/38570344",
+      "summary": "正文用邻域和 ε-N 逻辑严格表述数列极限，并给出函数极限的 ε-δ 定义。"
+    },
+    {
+      "title": "数学分析初学者的笔记——由Stolz定理想到的",
+      "url": "https://zhuanlan.zhihu.com/p/40562292",
+      "summary": "正文用 ε-N 定义、三角不等式和放缩完整证明数列比值的 Stolz 极限定理。"
+    },
+    {
+      "title": "数学物理方法（一）",
+      "url": "https://zhuanlan.zhihu.com/p/40806783",
+      "summary": "正文用 epsilon-delta 语言定义复变函数在一点的连续极限，具体给出严格的连续性表述。"
+    },
+    {
+      "title": "数学分析笔记（五）——积分",
+      "url": "https://zhuanlan.zhihu.com/p/39826928",
+      "summary": "正文用 epsilon-delta 和积分和的基极限严格定义黎曼积分，并用柯西准则证明可积性。"
+    },
+    {
+      "title": "7.\t数学是真理吗？古典柏拉图主义的困境",
+      "url": "https://zhuanlan.zhihu.com/p/45665906",
+      "summary": "正文用平均速度误差可任意小、部分和逼近 1 的例子解释极限和 ε 式任意小表述。"
+    },
+    {
+      "title": "关于实数的构造的一些探索",
+      "url": "https://zhuanlan.zhihu.com/p/45913286",
+      "summary": "正文给出用 ε 与正整数 N 刻画有理数基本数列的定义，并据此讨论序列极限与等价类。"
+    },
+    {
+      "title": "【高等数学】从邻域的角度来理解极限概念",
+      "url": "https://zhuanlan.zhihu.com/p/46075135",
+      "summary": "正文以邻域和任意 ε、存在 δ 的量化结构统一解释函数极限、数列极限及其他严格极限定义。"
+    },
+    {
+      "title": "极限类题之利用两个重要极限",
+      "url": "https://zhuanlan.zhihu.com/p/47860421",
+      "summary": "正文用去心邻域中的定义条件和 ε-δ 定义讨论复合三角函数极限为何不存在。"
+    },
+    {
+      "title": "数学分析笔记整理（七）",
+      "url": "https://zhuanlan.zhihu.com/p/47788031",
+      "summary": "正文给出函数极限的 ε-δ 定义，并证明极限的数列刻画、唯一性及四则运算法则。"
+    },
+    {
+      "title": "实数的完备性定理",
+      "url": "https://zhuanlan.zhihu.com/p/48859870",
+      "summary": "以柯西收敛原理讨论数列极限，并构造 ε-N 判据之间的关系。"
+    },
+    {
+      "title": "点态（逐点）收敛与一致收敛",
+      "url": "https://zhuanlan.zhihu.com/p/50575634",
+      "summary": "正文用 ε 与只依赖 ε 的 N(ε) 表述一致收敛，区分了任意给定点收敛和全区间统一控制。"
+    },
+    {
+      "title": "单调函数",
+      "url": "https://zhuanlan.zhihu.com/p/53620176",
+      "summary": "正文用任意 epsilon 与相应 x1 的严格不等式证明单侧极限存在，具体使用了极限的 epsilon 语言。"
+    },
+    {
+      "title": "浅谈度量空间（metric space）",
+      "url": "https://zhuanlan.zhihu.com/p/54041981",
+      "summary": "正文用 ε-N 定义实数序列极限，并符号化任意 ε、存在 N 的量词关系，对应用 ε 描述极限。"
+    },
+    {
+      "title": "【数学】数列极限（宇哥笔记）",
+      "url": "https://zhuanlan.zhihu.com/p/56423142",
+      "summary": "正文以任意正 epsilon 和相应下标 N 的量化形式给出数列极限的严格定义。"
+    },
+    {
+      "title": "【数学】函数极限（宇哥笔记）",
+      "url": "https://zhuanlan.zhihu.com/p/58062844",
+      "summary": "正文用任意小的正数 ε 和绝对值不等式给出函数极限的严格定义，并区分趋于有限点与无穷的情形。"
+    },
+    {
+      "title": "The Cauchy Definition of a Definite Integral",
+      "url": "https://zhuanlan.zhihu.com/p/59637169",
+      "summary": "正文通过取充分细的分割和充分大的m，用误差可任意小的ε式推理完成极限论证。"
+    },
+    {
+      "title": "第4期   谈谈对极限、连续的理解",
+      "url": "https://zhuanlan.zhihu.com/p/64540542",
+      "summary": "正文用任意小的 ε 和随 ε 选择的 N 解释数列极限，并说明 ε 与 N 的依赖关系。"
+    },
+    {
+      "title": "数学分析笔记（九）——连续映射的一般理论",
+      "url": "https://zhuanlan.zhihu.com/p/56222743",
+      "summary": "正文用 ε-N 条件定义基本列和收敛列，并以基本列是否收敛刻画度量空间的完备性。"
+    },
+    {
+      "title": "《数学分析教程》史济怀常庚哲课后习题答案-1.2数列和收敛数列",
+      "url": "https://zhuanlan.zhihu.com/p/70614274",
+      "summary": "正文反复用任意给定 ε 后寻找 N 的 ε-N 语言证明数列极限。"
+    },
+    {
+      "title": "具有形式不变性的高阶微分",
+      "url": "https://zhuanlan.zhihu.com/p/70866374",
+      "summary": "正文重述极限的 epsilon-delta 定义并用无穷小量解释其含义。"
+    },
+    {
+      "title": "《数学分析教程》史济怀常庚哲课后习题答案-1.3收敛数列的性质",
+      "url": "https://zhuanlan.zhihu.com/p/74537919",
+      "summary": "正文多次以任意小 ε、存在 N 及充分大 n 的严格语言证明数列极限。"
+    },
+    {
+      "title": "存在有理数点连续、无理数点不连续的函数吗？",
+      "url": "https://zhuanlan.zhihu.com/p/75648294",
+      "summary": "正文用ε-δ语言证明黎曼函数在无理数点连续、在有理数点不连续。"
+    },
+    {
+      "title": "数理逻辑（3）——谓词逻辑的基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/83128696",
+      "summary": "正文给出函数极限的完整谓词公式，用量词和 ε-δ 不等式精确表述当 x 趋近 x0 时 f(x) 趋近 A 的条件。"
+    },
+    {
+      "title": "【高等数学】用ε-δ语言证明函数极限",
+      "url": "https://zhuanlan.zhihu.com/p/84880461",
+      "summary": "正文围绕函数极限的 ε-δ 定义，逐例说明如何由定义完成证明。"
+    },
+    {
+      "title": "Stolz定理及相关思想",
+      "url": "https://zhuanlan.zhihu.com/p/85306830",
+      "summary": "正文用任意正 epsilon 与充分大的 N 给出 Stolz 定理的极限证明。"
+    },
+    {
+      "title": "七大实数理论与互推",
+      "url": "https://zhuanlan.zhihu.com/p/84625424",
+      "summary": "正文用任意小的正数和项间距离刻画柯西列收敛，并据此证明相关极限命题。"
+    },
+    {
+      "title": "奇怪的极限：x→0, sin(x^2*sin(1/x))/x=?",
+      "url": "https://zhuanlan.zhihu.com/p/87460944",
+      "summary": "正文用极限定义构造 ε-δ 证明，并讨论函数在去心邻域中的定义及分母取零对形式化极限论证的影响。"
+    },
+    {
+      "title": "最精准全面地解答“无限个无穷小之积是否一定是无穷小”问题",
+      "url": "https://zhuanlan.zhihu.com/p/88642140",
+      "summary": "正文使用 ε-N 形式陈述乘积不趋于零的否定条件，并据此构造与定义 3 矛盾的子列。"
+    },
+    {
+      "title": "一道极限题与两种定义小论",
+      "url": "https://zhuanlan.zhihu.com/p/88935388",
+      "summary": "正文比较两种函数极限定义，重点讨论定义域内允许 x 从极限点逼近时的 ε-δ 条件及其与邻域要求的关系。"
+    },
+    {
+      "title": "说说Riemann函数",
+      "url": "https://zhuanlan.zhihu.com/p/89845798",
+      "summary": "正文用 p 与 delta 的量化控制证明函数值可任意小，体现了极限的严格描述。"
+    },
+    {
+      "title": "不洛来证：指数函数是任何幂函数的高阶无穷大",
+      "url": "https://zhuanlan.zhihu.com/p/89962614",
+      "summary": "正文明确使用 ε-N 定义把离散序列极限推进到实数变量极限。"
+    },
+    {
+      "title": "你也能懂的微积分",
+      "url": "https://zhuanlan.zhihu.com/p/94592123",
+      "summary": "正文完整解释极限的ε-δ定义，并用它重建积分和导数概念。"
+    },
+    {
+      "title": "依概率收敛推出依分布收敛：直观+证明",
+      "url": "https://zhuanlan.zhihu.com/p/97081222",
+      "summary": "正文围绕任意 epsilon 的概率不等式，分别建立上下界并令 epsilon 趋于零完成极限证明。"
+    },
+    {
+      "title": "（高等数学笔记）极限的定义证明",
+      "url": "https://zhuanlan.zhihu.com/p/98576846",
+      "summary": "正文以任意 epsilon、存在 N 及阈值后恒成立的条件为框架，具体讲解如何证明数列极限的严格定义。"
+    },
+    {
+      "title": "多元函数求极限方法总结",
+      "url": "https://zhuanlan.zhihu.com/p/98921951",
+      "summary": "用 epsilon-delta 定义完整证明二元函数极限，并通过放缩显式给出相应的 delta。"
+    },
+    {
+      "title": "为什么「微元法」可以忽略高阶项？",
+      "url": "https://zhuanlan.zhihu.com/p/103315889",
+      "summary": "正文用一致线性性和 ε 语言控制各小区间误差，证明忽略高阶项后的极限确实成立。"
+    },
+    {
+      "title": "【射影几何】第五谈——分析学下的射影变换",
+      "url": "https://zhuanlan.zhihu.com/p/104369932",
+      "summary": "正文以任意大的 G 和相应的 N 或 δ 严格刻画数列与函数趋于无穷的极限。"
+    },
+    {
+      "title": "泛函分析笔记（1）距离空间的基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/104933396",
+      "summary": "正文以 ε-N 定义类比并构造距离空间中的点列极限概念。"
+    },
+    {
+      "title": "为什么我认为夹逼性是高等数学中的糟粕",
+      "url": "https://zhuanlan.zhihu.com/p/105702084",
+      "summary": "正文从任意正数ε与存在正整数N的量化定义出发，说明如何严格表述数列极限的唯一性及后续记号。"
+    },
+    {
+      "title": "数分笔记——5种广义积分敛散性的基本方法",
+      "url": "https://zhuanlan.zhihu.com/p/105793668",
+      "summary": "正文随后用对任意 ε 存在 M、且足够远区间积分绝对值小于 ε 的 Cauchy 准则刻画广义积分收敛，属于用 ε 描述极限。"
+    },
+    {
+      "title": "极限存在、连续、有界、可积、可导/可微之间的关系",
+      "url": "https://zhuanlan.zhihu.com/p/108660447",
+      "summary": "正文用任意小的 ε 和相应的 δ 给出函数极限的严格定义。"
+    },
+    {
+      "title": "数学分析笔记（rudin）",
+      "url": "https://zhuanlan.zhihu.com/p/112841533",
+      "summary": "正文用逐项 epsilon 条件严格定义度量空间中序列收敛到某点。"
+    },
+    {
+      "title": "民科吧见闻录21(Part A)——民科数学又翻车之渝中寿人",
+      "url": "https://zhuanlan.zhihu.com/p/109941423",
+      "summary": "正文给出对任意 epsilon 寻找 N 的收敛性证明，属于 epsilon-N 极限表述。"
+    },
+    {
+      "title": "复变函数学习笔记(1)",
+      "url": "https://zhuanlan.zhihu.com/p/113823530",
+      "summary": "正文用任意小邻域解释复数序列极限，并由此建立复数项与实部、虚部极限的等价关系。"
+    },
+    {
+      "title": "【数学分析】离散的L'Hospital法则——Stolz定理",
+      "url": "https://zhuanlan.zhihu.com/p/114183826",
+      "summary": "正文用 ε-N 语言证明单调有界数列收敛，并在 Stolz 定理证明中再次使用 ε 估计。"
+    },
+    {
+      "title": "洛必达法则的证明",
+      "url": "https://zhuanlan.zhihu.com/p/116897988",
+      "summary": "正文从极限的 ε 定义出发，结合 Cauchy 中值定理与上下极限完成洛必达法则的证明。"
+    },
+    {
+      "title": "11种常数项级数敛散性判别法(审敛法)的粗糙总结&11道好玩的小题",
+      "url": "https://zhuanlan.zhihu.com/p/113428001",
+      "summary": "正文用ε、N以及Sn与A的误差区间解释级数收敛定义，说明如何用ε语言刻画极限。"
+    },
+    {
+      "title": "收敛性与有界性",
+      "url": "https://zhuanlan.zhihu.com/p/136266830",
+      "summary": "正文用ε-N定义刻画数列收敛，并由该定义严格证明收敛数列必有界。"
+    },
+    {
+      "title": "强大数定律与弱大数定律(民科解释)",
+      "url": "https://zhuanlan.zhihu.com/p/144652906",
+      "summary": "正文用任意正 ε 和足够大的 N 解释序列极限，并据此区分几乎处处收敛与依概率收敛。"
+    },
+    {
+      "title": "Weierstrass逼近定理",
+      "url": "https://zhuanlan.zhihu.com/p/146181157",
+      "summary": "正文用任意 ε 和与 x 无关的 N 给出函数列一致逼近的 ε-N 式极限证明。"
+    },
+    {
+      "title": "数学分析主要定理及推论整理（一）",
+      "url": "https://zhuanlan.zhihu.com/p/147209155",
+      "summary": "正文用任意 epsilon 与阈值 N 的量化关系定义数列和一元函数的极限。"
+    },
+    {
+      "title": "小白都能懂得信息论（更改版本）：渐近均分性",
+      "url": "https://zhuanlan.zhihu.com/p/149188816",
+      "summary": "正文用带 ε 和 N 的严格不等式描述数列收敛，并继续区分几乎确定收敛与依概率收敛。"
+    },
+    {
+      "title": "无穷大的比较和应用！",
+      "url": "https://zhuanlan.zhihu.com/p/149589005",
+      "summary": "正文用任意给定的正数与邻域条件分别定义无穷小和无穷大，说明极限是变量而非普通实数。"
+    },
+    {
+      "title": "一致收敛与收敛有什么区别？",
+      "url": "https://zhuanlan.zhihu.com/p/149270064",
+      "summary": "正文用给定误差、柯西准则和随点变化的N解释极限与收敛的ε语言。"
+    },
+    {
+      "title": "我们研究级数是为了做什么？做题吗？",
+      "url": "https://zhuanlan.zhihu.com/p/150655844",
+      "summary": "正文用任意正数 ε 和存在 N 的量化表述给出 Cauchy 收敛原理，并用 ε 控制连续项之和。"
+    },
+    {
+      "title": "函数在无穷区间上连续+无穷处极限存在证明一致连续性问题总结",
+      "url": "https://zhuanlan.zhihu.com/p/151375578",
+      "summary": "正文用 ε 语言和无穷远处极限的柯西准则控制远处的函数差，并拼接近端的一致连续性。"
+    },
+    {
+      "title": "可积的条件",
+      "url": "https://zhuanlan.zhihu.com/p/161472226",
+      "summary": "正文用 ε-δ 语言控制细化划分后的达布大和与下确界之差，完成达布定理证明。"
+    },
+    {
+      "title": "如何理解数列极限和收敛性",
+      "url": "https://zhuanlan.zhihu.com/p/185138788",
+      "summary": "正文逐项解释数列极限的 ε-N 定义，并从几何邻域和代数解不等式两个角度说明收敛性。"
+    },
+    {
+      "title": "数学书上的显然，到底是什么意思？",
+      "url": "https://zhuanlan.zhihu.com/p/194184336",
+      "summary": "正文用任意正 epsilon 和相应的 N 构造证明，具体展开了极限的 epsilon-N 定义与运算。"
+    },
+    {
+      "title": "分段估计（拟合法）的一些笔记",
+      "url": "https://zhuanlan.zhihu.com/p/212187920",
+      "summary": "正文在多个极限证明中显式使用 ∀ε>0、∃N 的 ε-N 论证，并用绝对值上界控制误差。"
+    },
+    {
+      "title": "第二讲 数列的极限",
+      "url": "https://zhuanlan.zhihu.com/p/256419158",
+      "summary": "正文从距离的逐步缩小引出任意 ε 与存在 N 的定量表述，完整解释并应用 ε-N 极限定义。"
+    },
+    {
+      "title": "第三讲 数列极限及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/258105194",
+      "summary": "正文显式使用任意 ε 与存在 N 的 ε-N 定义证明数列极限。"
+    },
+    {
+      "title": "【高数向】N-ε，极限判定中的小放缩",
+      "url": "https://zhuanlan.zhihu.com/p/258370979",
+      "summary": "正文用任意 ε 和足以保证尾项误差的 N，解释并应用了数列极限的 ε-N 定义。"
+    },
+    {
+      "title": "第四讲 函数的极限",
+      "url": "https://zhuanlan.zhihu.com/p/258963587",
+      "summary": "正文给出函数极限的 ε-δ 定义，并用该定义证明常数、一次函数、根式等极限及保号性。"
+    },
+    {
+      "title": "第五讲 无穷大和无穷小",
+      "url": "https://zhuanlan.zhihu.com/p/259893215",
+      "summary": "正文用 ε-δ 与 ε-X 语言严格定义无穷小，并用任意给定 ε 的方式给出证明。"
+    },
+    {
+      "title": "第六讲 极限的运算法则",
+      "url": "https://zhuanlan.zhihu.com/p/261399947",
+      "summary": "正文用任意 ε、相应 η 与 δ 的极限定义证明复合函数极限法则。"
+    },
+    {
+      "title": "第七讲 极限存在准则和两个重要极限",
+      "url": "https://zhuanlan.zhihu.com/p/264539009",
+      "summary": "正文用任意 epsilon 和对应 N 的形式重述极限定义，并据此证明夹逼准则。"
+    },
+    {
+      "title": "数学分析Mathematical Analysis笔记整理 第三章 极限与连续",
+      "url": "https://zhuanlan.zhihu.com/p/262934873",
+      "summary": "正文完整给出数列的 epsilon-N 定义、函数的 epsilon-delta 定义，并解释量词顺序及其证明用途。"
+    },
+    {
+      "title": "第九讲 函数的连续性与函数的间断点",
+      "url": "https://zhuanlan.zhihu.com/p/266045252",
+      "summary": "正文把连续性写成函数极限等式，并用ε-δ语言重新表述点连续的定义。"
+    },
+    {
+      "title": "干货拉满，用定义证明极限的方法汇总",
+      "url": "https://zhuanlan.zhihu.com/p/267147525",
+      "summary": "正文汇总十一类例题，使用 ε-N 或 ε-δ 定义、放缩和取界完成数列与函数极限证明。"
+    },
+    {
+      "title": "我的数分笔记（五）",
+      "url": "https://zhuanlan.zhihu.com/p/268618938",
+      "summary": "正文使用任意 ε 和对应 N 的定义刻画数列收敛，并解释其邻域意义及多项极限证明。"
+    },
+    {
+      "title": "柯西命题(Cauchy命题)证明方法解析",
+      "url": "https://zhuanlan.zhihu.com/p/266485978",
+      "summary": "正文以固定 N、拆分前后项和 ε-N 语言证明柯西命题及其多种数列极限变形。"
+    },
+    {
+      "title": "求极限（二）-三角函数篇",
+      "url": "https://zhuanlan.zhihu.com/p/269588285",
+      "summary": "正文用任意正数 ε 和相应 δ 验证正弦函数在点 a 处的极限，给出了 ε-δ 极限描述。"
+    },
+    {
+      "title": "干货驾到，一篇文章带你彻底学会无求小求极限！",
+      "url": "https://zhuanlan.zhihu.com/p/276521337",
+      "summary": "正文给出用 ε-δ 不等式描述函数趋近零的无穷小定义，并据此比较无穷小阶。"
+    },
+    {
+      "title": "【数学分析】海涅定理（归结原则）（是个人就能看懂的证明过程）",
+      "url": "https://zhuanlan.zhihu.com/p/279830836",
+      "summary": "正文用 ε-δ 极限定义与数列极限定义证明海涅归结原则，说明函数极限可由所有趋近点列的极限刻画。"
+    },
+    {
+      "title": "我的数分笔记（八）",
+      "url": "https://zhuanlan.zhihu.com/p/289354600",
+      "summary": "正文从 ε-δ 定义出发解释函数极限，并列举左右极限和趋于无穷等严格定义。"
+    },
+    {
+      "title": "我的数分笔记（七）",
+      "url": "https://zhuanlan.zhihu.com/p/272688710",
+      "summary": "正文用 ε-N 语言定义基本列，并证明收敛数列与基本列的等价性。"
+    },
+    {
+      "title": "高数重点笔记（一）--函数与极限",
+      "url": "https://zhuanlan.zhihu.com/p/320036823",
+      "summary": "正文用任意 ε、存在 N 或 δ 的量词结构定义数列与函数极限，并解释极限唯一性、有界性和保号性。"
+    },
+    {
+      "title": "简单易懂的非标准分析（前言）",
+      "url": "https://zhuanlan.zhihu.com/p/322794182",
+      "summary": "正文明确说明标准分析以 ε-δ 语言和极限体系为基础，并据此建立导数计算。"
+    },
+    {
+      "title": "高等数学的精髓在于抽象地理解和处理函数",
+      "url": "https://zhuanlan.zhihu.com/p/336788784",
+      "summary": "正文明确使用任意 ε、存在 N 的量词结构刻画数列与函数列的收敛。"
+    },
+    {
+      "title": "【分析】Riemann-Lebesgue引理及其推论",
+      "url": "https://zhuanlan.zhihu.com/p/343001932",
+      "summary": "正文用任意小 epsilon 和相应 delta 控制奇点与无穷区间上的积分，完成极限证明。"
+    },
+    {
+      "title": "捋一捋定积分中的达布定理",
+      "url": "https://zhuanlan.zhihu.com/p/344866541",
+      "summary": "正文使用 ε-δ 语言和下确界性质证明达布和的极限。"
+    },
+    {
+      "title": "虚数与复数与欧拉公式",
+      "url": "https://zhuanlan.zhihu.com/p/347136244",
+      "summary": "正文用开球和邻域把复数序列的极限展开为逐项量化的 ε-N 定义，并讨论柯西列与完备性。"
+    },
+    {
+      "title": "凸函数是连续函数的证明",
+      "url": "https://zhuanlan.zhihu.com/p/347746331",
+      "summary": "正文通过控制差商、选取由右端量确定的邻域并使用 ε-δ 估计，严格证明凸函数连续。"
+    },
+    {
+      "title": "考研笔记 | 极限定义（ε及δ）的通俗理解",
+      "url": "https://zhuanlan.zhihu.com/p/349613467",
+      "summary": "正文用投篮比喻解释对任意 ε 都能找到相应 δ，使函数值落入目标误差范围内。"
+    },
+    {
+      "title": "黎曼函数（Riemann function）",
+      "url": "https://zhuanlan.zhihu.com/p/350744131",
+      "summary": "正文用 ε-δ 定义证明黎曼函数在任意点的极限为零。"
+    },
+    {
+      "title": "【高等数学】极限的概念和性质",
+      "url": "https://zhuanlan.zhihu.com/p/350844135",
+      "summary": "正文用任意正数 ε、正整数 N 与绝对值不等式完整陈述数列极限的 ε-N 定义及其几何解释。"
+    },
+    {
+      "title": "二、4.“无穷/无穷”型洛必达法则的证明思路——区别于\"0/0\"型",
+      "url": "https://zhuanlan.zhihu.com/p/353515789",
+      "summary": "正文用任意正数 ε、邻域和绝对值不等式表述极限条件与结论，并据此完成 ε 语言下的证明。"
+    },
+    {
+      "title": "数学分析Mathematical Analysis笔记整理 第九章 再论实数系",
+      "url": "https://zhuanlan.zhihu.com/p/356736033",
+      "summary": "正文用 ε-N 形式定义数列极限，并据此证明柯西收敛准则、单调有界原理等结论。"
+    },
+    {
+      "title": "实变函数第14讲（可测函数：Egoroff定理证明，依测度收敛）",
+      "url": "https://zhuanlan.zhihu.com/p/369536281",
+      "summary": "正文用 ε-N 语言改写一致收敛与依测度收敛的定义，并据此完成证明。"
+    },
+    {
+      "title": "实变函数第15讲（可测函数：几乎处处收敛与测度收敛，依测度基本列，Riesz定理与Lusin定理）",
+      "url": "https://zhuanlan.zhihu.com/p/369665174",
+      "summary": "正文把依测度基本列和依测度收敛的极限定义改写为 ε-N 条件并完成证明。"
+    },
+    {
+      "title": "数学分析(一)复习之六大实数系基本定理",
+      "url": "https://zhuanlan.zhihu.com/p/371518428",
+      "summary": "正文用任意 ε、选取相应 N 和绝对值估计证明单调有界数列收敛，具体使用了 ε-N 极限定义。"
+    },
+    {
+      "title": "如何理解一致收敛？",
+      "url": "https://zhuanlan.zhihu.com/p/378399611",
+      "summary": "正文逐项解释一致收敛定义中 ε 与 N 的量词顺序，并比较其与逐点极限的关键差别。"
+    },
+    {
+      "title": "【数分笔记】§1 戴德金定理、单调有界定理",
+      "url": "https://zhuanlan.zhihu.com/p/382110302",
+      "summary": "正文用任意 ε、选取相应的 N 和绝对值估计证明数列收敛到实数分割的界数。"
+    },
+    {
+      "title": "夹逼定理及其运用（个人笔记）",
+      "url": "https://zhuanlan.zhihu.com/p/383930850",
+      "summary": "正文以任意小的正数和对应自然数阈值严格说明数列极限的 ε-N 定义。"
+    },
+    {
+      "title": "一道很难的高数极限概念题，你能做对么？",
+      "url": "https://zhuanlan.zhihu.com/p/384403264",
+      "summary": "正文完整给出函数极限的 ε-δ 定义，并用去心邻域内有定义的条件解释反常例子。"
+    },
+    {
+      "title": "极限语言释义",
+      "url": "https://zhuanlan.zhihu.com/p/381826559",
+      "summary": "正文逐项解释数列极限的 ε-N 定义，并从有限描述和静态化角度说明其严格含义。"
+    },
+    {
+      "title": "Stolz定理及其证明",
+      "url": "https://zhuanlan.zhihu.com/p/390083266",
+      "summary": "正文用任意小的 ε 和足够大的 N 严格描述并证明极限结论。"
+    },
+    {
+      "title": "[函数极限连续]函数极限的局部有界性和局部保号性",
+      "url": "https://zhuanlan.zhihu.com/p/393037258",
+      "summary": "正文以任取 ε>0、存在 δ>0 并控制 |f(x)-A|<ε 的 ε-δ 语言证明函数极限的局部有界性和保号性。"
+    },
+    {
+      "title": "数学技巧篇32：二元函数极限的几种求法",
+      "url": "https://zhuanlan.zhihu.com/p/403503934",
+      "summary": "正文给出任意 ε 与 δ 的放缩证明，用 ε-δ 定义验证二元函数在原点处的极限为 0。"
+    },
+    {
+      "title": "小白数学分析｜1. 什么是收敛列、柯西列、完备空间 (convergent sequence, Cauchy sequence, complete metric space)?",
+      "url": "https://zhuanlan.zhihu.com/p/403674117",
+      "summary": "正文用任意小 ε 和距离条件严格定义度量空间中的收敛列，并比较收敛列与柯西列。"
+    },
+    {
+      "title": "发散数列一定无界吗？无界数列一定是无穷大量吗？",
+      "url": "https://zhuanlan.zhihu.com/p/413017891",
+      "summary": "正文用任意正数 ε 和充分大的项数刻画数列收敛，区分发散、有界与无穷大量。"
+    },
+    {
+      "title": "关于 Stolz 定理的证明 (1)",
+      "url": "https://zhuanlan.zhihu.com/p/413693606",
+      "summary": "正文从任意 ε 与充分大的 N 出发，对增量比和原比值作定量估计完成证明。"
+    },
+    {
+      "title": "【高数笔记】利用ε-δ语言证明函数极限",
+      "url": "https://zhuanlan.zhihu.com/p/419308124",
+      "summary": "正文把函数极限定义解释为对任意 ε 寻找相应 δ，并用邻域和绝对值不等式严格表述。"
+    },
+    {
+      "title": "上下极限的定义与基本性质",
+      "url": "https://zhuanlan.zhihu.com/p/421598260",
+      "summary": "正文用任意 ε 下只有有限多项超过上极限、无穷多项落入 ε 邻域的表述刻画上极限，并据此完成证明。"
+    },
+    {
+      "title": "【高数笔记】函数的连续性与间断点",
+      "url": "https://zhuanlan.zhihu.com/p/423322912",
+      "summary": "正文用 epsilon-delta 语句描述函数极限，并据此说明极限存在与函数连续之间的关系。"
+    },
+    {
+      "title": "导数极限定理",
+      "url": "https://zhuanlan.zhihu.com/p/427887032",
+      "summary": "正文用任意 ε 和存在 δ 的极限定义控制去心邻域内的导函数，并据此证明左导与右导极限。"
+    },
+    {
+      "title": "数学分析中的反例（1）",
+      "url": "https://zhuanlan.zhihu.com/p/434921153",
+      "summary": "正文用任意正 epsilon 与相应 delta 的估计证明函数在指定点的连续性，再以数列归结说明其余点不连续。"
+    },
+    {
+      "title": "关于南大2021某数分期中压轴题",
+      "url": "https://zhuanlan.zhihu.com/p/435834400",
+      "summary": "正文用 ε 控制上下多项式的积分差，并由 ε 任意性推出极限。"
+    },
+    {
+      "title": "连续函数的有界定理与最值定理",
+      "url": "https://zhuanlan.zhihu.com/p/451686174",
+      "summary": "正文先用 ε-δ 定义点连续，再以极限等于函数值及点列极限证明相关定理。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】1.1 压缩映像原理（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/453968069",
+      "summary": "正文回顾数列极限的ε-N定义，并据此引入距离空间中的收敛概念。"
+    },
+    {
+      "title": "关于导函数间断点的探讨",
+      "url": "https://zhuanlan.zhihu.com/p/459668314",
+      "summary": "正文用 ε-δ 极限定义分析导数的极限与右导数，指出二重极限不能与单点导数混同。"
+    },
+    {
+      "title": "从更高的角度看待高中导数（理解篇）（一）",
+      "url": "https://zhuanlan.zhihu.com/p/463052525",
+      "summary": "正文附录用任意 ε 和相应 δ 的量化条件正式刻画函数极限。"
+    },
+    {
+      "title": "高中生能学懂的微积分",
+      "url": "https://zhuanlan.zhihu.com/p/464522759",
+      "summary": "正文用任意 ε 与相应 δ 的量化条件严格定义函数极限，并给出一次具体证明。"
+    },
+    {
+      "title": "黎曼可积的条件",
+      "url": "https://zhuanlan.zhihu.com/p/484170265",
+      "summary": "正文明确把黎曼可积定义改写为 ε-δ 形式，并据此展开必要性与充分性证明。"
+    },
+    {
+      "title": "【数学分析新讲笔记】10.3广义积分收敛定理及判别法",
+      "url": "https://zhuanlan.zhihu.com/p/502543462",
+      "summary": "正文以柯西收敛原理判定广义积分，并说明它与 ε-δ 极限定义等价。"
+    },
+    {
+      "title": "求二重极限时, 极坐标代换究竟该怎么用?",
+      "url": "https://zhuanlan.zhihu.com/p/503998713",
+      "summary": "正文引用 ε-δ 定义解释二重极限中的邻域条件，并据此校正极坐标代换。"
+    },
+    {
+      "title": "0/0型Stolz公式的证明",
+      "url": "https://zhuanlan.zhihu.com/p/523876885",
+      "summary": "正文使用 ε-N 语言控制相邻项差商与原数列比值的误差，通过两段误差各小于 ε/2 完成极限证明。"
+    },
+    {
+      "title": "最后的讲义：数分总复习",
+      "url": "https://zhuanlan.zhihu.com/p/528533840",
+      "summary": "正文用任意 epsilon 和存在划分刻画黎曼可积，并多次按 epsilon 定义完成极限证明。"
+    },
+    {
+      "title": "理工男日常 | 甲方让我读懂了极限的ε-N语言",
+      "url": "https://zhuanlan.zhihu.com/p/453589676",
+      "summary": "正文用产品公差期限的类比逐项解释数列极限的ε-N定义，以及量词之间的依赖关系。"
+    },
+    {
+      "title": "一类与平均值有关的n重积分极限问题（上）",
+      "url": "https://zhuanlan.zhihu.com/p/536979529",
+      "summary": "正文按任意 ε 将积分区域划分为误差控制区和尾部区，分别放缩以证明极限为零。"
+    },
+    {
+      "title": "无理数的有理逼近及其应用（1）——两个基本定理",
+      "url": "https://zhuanlan.zhihu.com/p/537341163",
+      "summary": "围绕任意给定ε改进逼近误差，并用ε条件表述无理逼近和无理数判定。"
+    },
+    {
+      "title": "“小心评论区数学家给你证明 0.999……=1”",
+      "url": "https://zhuanlan.zhihu.com/p/539323737",
+      "summary": "正文给出数列极限的 ε-N 精确定义，并用它说明无限小数的含义和极限唯一性。"
+    },
+    {
+      "title": "压缩映射",
+      "url": "https://zhuanlan.zhihu.com/p/541364325",
+      "summary": "正文用 ε-估计选取正整数 N，证明迭代序列为柯西列并因此收敛到唯一不动点。"
+    },
+    {
+      "title": "今天的文章只有一点点",
+      "url": "https://zhuanlan.zhihu.com/p/543144216",
+      "summary": "正文用 N(ε) 控制逼近误差，具体解释了以任意小 ε 描述逼近极限的含义。"
+    },
+    {
+      "title": "【数学分析笔记】9.2 上极限和下极限",
+      "url": "https://zhuanlan.zhihu.com/p/549977785",
+      "summary": "正文用任意 ε 邻域含有数列无穷多项来刻画极限点，并据此证明上极限与下极限，具体使用了极限的 ε 描述。"
+    },
+    {
+      "title": "什么是微积分",
+      "url": "https://zhuanlan.zhihu.com/p/555504130",
+      "summary": "正文给出魏尔斯特拉斯的ε-δ定义，用任意正数和对应邻域量化函数值趋近极限。"
+    },
+    {
+      "title": "保研面试/考研复试数学问题整理（cs/ai 等工科专业）",
+      "url": "https://zhuanlan.zhihu.com/p/567252248",
+      "summary": "正文用 epsilon-N 语言准确陈述数列极限，并借 epsilon-delta 语言讨论连续。"
+    },
+    {
+      "title": "Stolz定理及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/567822910",
+      "summary": "正文用给定 ε 后选取 N、累加不等式并控制余项的方式证明 Stolz 定理，使用 ε 条件精确描述极限。"
+    },
+    {
+      "title": "民科吧见闻录11(Part S)——郭德胜的无穷小数再翻车系列",
+      "url": "https://zhuanlan.zhihu.com/p/558553673",
+      "summary": "正文使用任意 ε>0、存在 N 和后继项误差的数列极限定义，证明满足条件的极限只能等于 1。"
+    },
+    {
+      "title": "（数分笔记）重极限和累次极限",
+      "url": "https://zhuanlan.zhihu.com/p/592210837",
+      "summary": "正文用 ε-δ 语言给出多元函数重极限定义，并解释沿任意曲线趋近的含义。"
+    },
+    {
+      "title": "戴德金分割（Dedekind cut）简介",
+      "url": "https://zhuanlan.zhihu.com/p/624927736",
+      "summary": "正文用任意小正数和足够大的下标刻画柯西序列，并据此说明实数集完备与收敛。"
+    },
+    {
+      "title": "{sin(n^p)}稠密性，Weyl准则，等分布序列Equidistributed Sequence",
+      "url": "https://zhuanlan.zhihu.com/p/645109942",
+      "summary": "正文在极限与等分布证明中反复使用任意 ε 寻找足够大的 N 的 ε-N 极限语言。"
+    },
+    {
+      "title": "从度量空间到拓扑空间:极限与连续概念的推广",
+      "url": "https://zhuanlan.zhihu.com/p/649646306",
+      "summary": "正文从 ε-δ 极限定义出发，指出极限可以由空间中的距离刻画，并据此推广到度量空间。"
+    },
+    {
+      "title": "现代控制理论——稳定性分析（Lyapunov）",
+      "url": "https://zhuanlan.zhihu.com/p/655831714",
+      "summary": "正文用 ε-δ 量词和范数给出李雅普诺夫稳定与渐近稳定的严谨定义，并用极限描述轨线回归平衡点。"
+    },
+    {
+      "title": "f(x)<0，f'(x)<0，f''(x)>0，定义域为R，f(x)不存在",
+      "url": "https://zhuanlan.zhihu.com/p/671652176",
+      "summary": "证明使用上确界和 ε 定义严格建立单调有界函数的极限，并用 ε 描述最终极限结论。"
+    },
+    {
+      "title": "【复变函数】柯西积分公式及其在无穷远处的推广",
+      "url": "https://zhuanlan.zhihu.com/p/688675175",
+      "summary": "正文用 ε 和充分大的 E 表述函数在无穷远处的极限，并据此估计大圆周上的积分。"
+    },
+    {
+      "title": "「数分」五个特殊定积分",
+      "url": "https://zhuanlan.zhihu.com/p/691601050",
+      "summary": "正文用任意正数与存在阈值的语言控制积分估计，实际展开了极限的 epsilon 描述。"
+    },
+    {
+      "title": "三种方法证明可去间断点个数至多可数",
+      "url": "https://zhuanlan.zhihu.com/p/698060212",
+      "summary": "正文用 ε-δ 语言证明由逐点极限定义的函数 g 连续，并据此估计极限差。"
+    },
+    {
+      "title": "海涅（Heine）定理（归结原则）",
+      "url": "https://zhuanlan.zhihu.com/p/702393697",
+      "summary": "正文用 ε-δ 定义证明海涅定理的必要性，并通过数列收敛传递极限误差。"
+    },
+    {
+      "title": "全网最严谨的端点效应原理（《高考导数探秘》补充内容2）",
+      "url": "https://zhuanlan.zhihu.com/p/787278486",
+      "summary": "正文给出函数极限与连续性的 epsilon-delta 定义，并用邻域论证端点处导数的必要性。"
+    },
+    {
+      "title": "中山大学2024淑芬期中a卷解析(自制版)",
+      "url": "https://zhuanlan.zhihu.com/p/5942827617",
+      "summary": "正文用ε-N语言证明根式差趋于零，并明确构造满足精度要求的项数界。"
+    },
+    {
+      "title": "清华大学未央书院2024级高等微积分期中考试B卷试题解析（自制版）",
+      "url": "https://zhuanlan.zhihu.com/p/6050657151",
+      "summary": "正文通过ε邻域内的不等式累加，证明给定条件下函数与自变量之比趋于零。"
+    },
+    {
+      "title": "南科大 2024 秋数学分析 I 期中",
+      "url": "https://zhuanlan.zhihu.com/p/6228945485",
+      "summary": "正文用任意正数 ε 和相应 δ 的构造证明单侧极限，展示了 ε-δ 语言。"
+    },
+    {
+      "title": "2024年武汉大学数学分析(1)期中考试个人解答",
+      "url": "https://zhuanlan.zhihu.com/p/7239169950",
+      "summary": "正文用任意 ε、存在 N 的柯西准则表述极限，并据此证明数列发散。"
+    },
+    {
+      "title": "高中阶段“数理逻辑”知识实在是过于欠缺！",
+      "url": "https://zhuanlan.zhihu.com/p/1892971534764729789",
+      "summary": "正文列出极限的 ε-N 量词定义，并说明多重量词命题的否定如何刻画 ε-N 极限不成立。"
+    },
+    {
+      "title": "一类求和极限的渐进展开(严格证明+精准估阶)",
+      "url": "https://zhuanlan.zhihu.com/p/1899140758579164829",
+      "summary": "正文使用 ε-δ 语言证明余项求和趋于零，是完整的极限定义论证。"
+    },
+    {
+      "title": "实数完备性八大定理的56条互证",
+      "url": "https://zhuanlan.zhihu.com/p/1921765239738856903",
+      "summary": "正文反复使用ε-N与ε-δ语言陈述极限、Cauchy条件和连续函数定理，并给出严格证明。"
+    },
+    {
+      "title": "“数学分析”的7个段位，从极限到谱理论：这条路，既艰难又美丽",
+      "url": "https://zhuanlan.zhihu.com/p/1951136401660805620",
+      "summary": "正文用任意正 ε 刻画任意接近，并说明它如何把极限和连续性定义严格化。"
+    },
+    {
+      "title": "解决前苏联数学分析领域公开40年的难题",
+      "url": "https://zhuanlan.zhihu.com/p/1958129614040860096",
+      "summary": "正文用任意 ε、存在 N 及上下极限定义逐步控制数列项，完成严格估计。"
+    },
+    {
+      "title": "微积分的本质",
+      "url": "https://zhuanlan.zhihu.com/p/1967689983981777766",
+      "summary": "正文以任意正 ε 和存在正 δ 的表述给出函数极限定义，并用差值控制来解释其含义。"
+    },
+    {
+      "title": "复分析（一）：复平面上的微积分",
+      "url": "https://zhuanlan.zhihu.com/p/1969158817364283736",
+      "summary": "正文用 ε-δ 语言精确刻画复变函数极限与连续性。"
+    },
+    {
+      "title": "马克思、毛泽东与数学——无穷小量的政治学Joseph W. Dauben",
+      "url": "https://zhuanlan.zhihu.com/p/1985788246320513250",
+      "summary": "正文叙述极限定义和 ε-δ 证明法在微积分严格化中的历史作用。"
+    }
+  ]
+}

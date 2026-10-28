@@ -1,0 +1,1446 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l7-t4-b2",
+  "sources": [
+    {
+      "title": "下一次数学突破会在哪里？",
+      "url": "https://www.zhihu.com/answer/18666411",
+      "summary": "正文围绕「下一次数学突破会在哪里？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "下一次数学突破会在哪里？",
+      "url": "https://www.zhihu.com/answer/18667973",
+      "summary": "正文围绕「下一次数学突破会在哪里？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "怎样学范畴论？",
+      "url": "https://www.zhihu.com/answer/18672397",
+      "summary": "正文围绕「怎样学范畴论？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "做代数方向研究生的底线要求有哪些？",
+      "url": "https://www.zhihu.com/answer/33261081",
+      "summary": "正文直接解释范畴论的作用及与其他领域的联系。"
+    },
+    {
+      "title": "谁来介绍一下范畴，函子，张量？",
+      "url": "https://www.zhihu.com/answer/47808872",
+      "summary": "正文从对象和态射解释范畴、函子与自然变换。"
+    },
+    {
+      "title": "数学中有哪些最复杂的领域或最抽象的领域，复杂或抽象到什么程度？",
+      "url": "https://www.zhihu.com/answer/50263113",
+      "summary": "正文从对象间关系说明范畴论的高度抽象。"
+    },
+    {
+      "title": "在范畴论中有哪些范畴是等价的？",
+      "url": "https://www.zhihu.com/answer/69923809",
+      "summary": "正文解释范畴等价关注对象和态射的共同描述。"
+    },
+    {
+      "title": "你为什么选择读基础数学？",
+      "url": "https://www.zhihu.com/answer/77305754",
+      "summary": "正文描述学习范畴论时从不理解到体会其抽象性的过程。"
+    },
+    {
+      "title": "自学抽象代数有哪些相关资料值得推荐？",
+      "url": "https://www.zhihu.com/answer/82860045",
+      "summary": "正文说明教材从范畴论统一组织不同代数结构。"
+    },
+    {
+      "title": "自然同构中的“自然”是什么意思？",
+      "url": "https://www.zhihu.com/answer/86653087",
+      "summary": "正文用对偶空间例子解释范畴论中自然同构与基底无关的含义。"
+    },
+    {
+      "title": "同伦等价（homotopy equivalent）与同胚（homeomorphic）区别是什么？",
+      "url": "https://www.zhihu.com/answer/120440899",
+      "summary": "正文把同胚、同伦和高阶态射组织到范畴及无穷范畴语言中。"
+    },
+    {
+      "title": "代数拓扑为什么研究同调？",
+      "url": "https://www.zhihu.com/answer/123321429",
+      "summary": "正文以范畴、函子、态射、局部化和Quillen等价组织同伦论。"
+    },
+    {
+      "title": "学代数是否应该把自己“洗脑”了学？",
+      "url": "https://www.zhihu.com/answer/124624824",
+      "summary": "正文用伴随、单子、Yoneda 嵌入、闭幺半范畴等实例实质讨论范畴论。"
+    },
+    {
+      "title": "学代数是否应该把自己“洗脑”了学？",
+      "url": "https://www.zhihu.com/answer/124988579",
+      "summary": "正文说明偏序集如何构成范畴，并以函子、纤维积和层作实例。"
+    },
+    {
+      "title": "如何理解代数几何中的 stacks 概念？",
+      "url": "https://www.zhihu.com/answer/128709342",
+      "summary": "正文用 Yoneda 引理、函子范畴、群胚值函子与层条件解释 stack。"
+    },
+    {
+      "title": "流形的概念可以不依赖欧氏空间来定义吗？",
+      "url": "https://www.zhihu.com/answer/133302277",
+      "summary": "正文用函子、范畴、topos 与内部语言构造综合微分几何，实质应用范畴论。"
+    },
+    {
+      "title": "homological mirror symmetry是研究什么的？",
+      "url": "https://www.zhihu.com/answer/134083187",
+      "summary": "正文大量定义并比较三角范畴、Fukaya 范畴及凝聚层导出范畴的等价。"
+    },
+    {
+      "title": "如何宏观地理解「对偶」这一数学概念？",
+      "url": "https://www.zhihu.com/answer/134452242",
+      "summary": "正文把对偶抽象为对象和映射箭头之间的结构对应，并以范畴论为关键例子。"
+    },
+    {
+      "title": "Kenji Fukaya在数学上的主要贡献在哪里？成果和田刚李骏他们相比怎么样？",
+      "url": "https://www.zhihu.com/answer/134482922",
+      "summary": "正文系统介绍 Fukaya 范畴、A∞ 范畴及其在镜像对称中的结构作用。"
+    },
+    {
+      "title": "集合论与范畴论和topos理论是什么关系？",
+      "url": "https://www.zhihu.com/answer/138868369",
+      "summary": "正文比较集合论、范畴论与 topos 的层级和基础作用。"
+    },
+    {
+      "title": "如何自学范畴论？",
+      "url": "https://www.zhihu.com/answer/154962355",
+      "summary": "正文围绕函子、自然变换、伴随等概念给出范畴论自学目标和资源。"
+    },
+    {
+      "title": "为何说 K-理论是一种「上同调理论」？",
+      "url": "https://www.zhihu.com/answer/171497823",
+      "summary": "正文从范畴、函子、伴随、模型结构等概念组织代数K理论与谱的构造。"
+    },
+    {
+      "title": "下一次数学突破会在哪里？",
+      "url": "https://www.zhihu.com/answer/175397193",
+      "summary": "正文以Fukaya范畴、导出范畴和微局部范畴连接几何、代数与分析。"
+    },
+    {
+      "title": "请问代数分析是什么样的领域？在几何学方面有什么应用嘛？",
+      "url": "https://www.zhihu.com/answer/185287102",
+      "summary": "正文实质讨论导出范畴、Fukaya 范畴及层如何成为范畴中的对象。"
+    },
+    {
+      "title": "你所在数学领域的 big picture 是什么？",
+      "url": "https://www.zhihu.com/answer/190247077",
+      "summary": "正文以张量范畴、融合范畴和模张量范畴解释三维 TQFT 的构造语言。"
+    },
+    {
+      "title": "你所在数学领域的 big picture 是什么？",
+      "url": "https://www.zhihu.com/answer/190309098",
+      "summary": "正文系统使用 A∞、Fukaya 与导出范畴讨论辛几何的大图景。"
+    },
+    {
+      "title": "如何评价 Bott 和 Tu 写的代数拓扑？",
+      "url": "https://www.zhihu.com/answer/192610918",
+      "summary": "正文以 Fukaya 范畴、高阶范畴和三角范畴说明几何与代数模型的连接。"
+    },
+    {
+      "title": "代数拓扑中的同调论(Homology Theory)应该怎么学？",
+      "url": "https://www.zhihu.com/answer/231625162",
+      "summary": "正文用模型范畴统一拓扑空间与单纯对象。"
+    },
+    {
+      "title": "如何看待理论物理老师「不用关心理论里的数学原理」的观点？",
+      "url": "https://www.zhihu.com/answer/266379903",
+      "summary": "正文以二维拓扑序说明范畴数据如何从物理体系中自然涌现。"
+    },
+    {
+      "title": "如何理解 Van-Kampen 定理？",
+      "url": "https://www.zhihu.com/answer/275323329",
+      "summary": "正文用范畴的余积、推出和余等化子组织定理的结构。"
+    },
+    {
+      "title": "你所在的领域（数学和或物理）有哪些令你觉得新颖理论或工具？",
+      "url": "https://www.zhihu.com/answer/295271500",
+      "summary": "正文把 Fukaya 范畴视为非交换几何对象，并讨论对象模空间与镜像对称。"
+    },
+    {
+      "title": "什么才是代数？",
+      "url": "https://www.zhihu.com/answer/297951414",
+      "summary": "正文说明现代代数进一步研究范畴、函子等泛结构。"
+    },
+    {
+      "title": "罗素的数学成就有哪些？",
+      "url": "https://www.zhihu.com/answer/301806056",
+      "summary": "正文解释小范畴中对象与态射组成集合的限制。"
+    },
+    {
+      "title": "你所在的科研领域有哪些做不动的问题？",
+      "url": "https://www.zhihu.com/answer/303948858",
+      "summary": "正文围绕 Fukaya 范畴、导出范畴及 Koszul 对偶提出猜想。"
+    },
+    {
+      "title": "现代数学是不是比大学数学中优雅的结论少了很多？",
+      "url": "https://www.zhihu.com/answer/304710445",
+      "summary": "正文从函子、态射、万有性质和 Yoneda 引理解释范畴论的自然性。"
+    },
+    {
+      "title": "导出非交换代数几何是做什么？",
+      "url": "https://www.zhihu.com/answer/306831018",
+      "summary": "正文把对象的范畴及其导出范畴作为非交换几何的核心结构。"
+    },
+    {
+      "title": "为什么要研究非交换几何？",
+      "url": "https://www.zhihu.com/answer/315760674",
+      "summary": "正文讨论 Fukaya 范畴作为几何不变量及其信息局限。"
+    },
+    {
+      "title": "范畴论能作为数学的基础吗？",
+      "url": "https://www.zhihu.com/answer/319331215",
+      "summary": "正文系统介绍以高阶范畴迭代构造数学基础的设想。"
+    },
+    {
+      "title": "如何理解perverse sheaves?有哪些motivation?有什么好的reference?",
+      "url": "https://www.zhihu.com/answer/319494987",
+      "summary": "正文把相交复形表述为偏屈层阿贝尔范畴中的简单对象。"
+    },
+    {
+      "title": "如何理解庞加莱对偶（Poincare Duality）?",
+      "url": "https://www.zhihu.com/answer/321148551",
+      "summary": "正文把对偶推广到 A∞ 范畴和导出范畴中。"
+    },
+    {
+      "title": "导出范畴如何决定代数簇的结构，类型？",
+      "url": "https://www.zhihu.com/answer/333423706",
+      "summary": "正文以导出范畴、三角子范畴和函子性质讨论代数簇重构。"
+    },
+    {
+      "title": "为什么辛几何领域有这么多的争议？",
+      "url": "https://www.zhihu.com/answer/337323900",
+      "summary": "正文讨论Fukaya范畴及其导出等价的定义范围与基础争议。"
+    },
+    {
+      "title": "数学中，哪些地方出现了「对偶」的概念？分别是什么意思？",
+      "url": "https://www.zhihu.com/answer/338634617",
+      "summary": "正文定义共变、反变函子与对偶范畴，并给出向量空间实例。"
+    },
+    {
+      "title": "请问什么是p-adic geometry？",
+      "url": "https://www.zhihu.com/answer/377111582",
+      "summary": "正文陈述形式概形与刚性解析空间之间的范畴等价。"
+    },
+    {
+      "title": "数学硕士/博士研究生阶段有哪些定理/论文/理论让你为之振奋？",
+      "url": "https://www.zhihu.com/answer/402194253",
+      "summary": "正文围绕倾斜等价实质陈述不同Perfectoid范畴的等价。"
+    },
+    {
+      "title": "结合代数表示论重要吗？与其他数学或者物理分支有何联系？",
+      "url": "https://www.zhihu.com/answer/439367184",
+      "summary": "正文系统解释Fukaya范畴及其局部化计算。"
+    },
+    {
+      "title": "有哪些在你的数学领域里很有用的技巧？",
+      "url": "https://www.zhihu.com/answer/451268509",
+      "summary": "正文用Fukaya范畴、导出范畴和局部化技术组织计算。"
+    },
+    {
+      "title": "在几何的学习中如何调整对细节的关注程度？",
+      "url": "https://www.zhihu.com/answer/506681399",
+      "summary": "以 Fukaya category、导出范畴和同调镜像对称为主线解释范畴计算的整体框架。"
+    },
+    {
+      "title": "在几何的学习中如何调整对细节的关注程度？",
+      "url": "https://www.zhihu.com/answer/506729166",
+      "summary": "介绍 Fukaya category 的参考资料、计算问题及其在同调镜像对称中的地位。"
+    },
+    {
+      "title": "有点基础的本科生应该如何理解现代代数？",
+      "url": "https://www.zhihu.com/answer/512485733",
+      "summary": "正文以函子、伴随、极限、可表函子等说明范畴论为何能压缩具体证明。"
+    },
+    {
+      "title": "有点基础的本科生应该如何理解现代代数？",
+      "url": "https://www.zhihu.com/answer/512710419",
+      "summary": "后半篇围绕可表函子、伴随、模空间和范畴不变量解释范畴论。"
+    },
+    {
+      "title": "什么是群胚(groupoid)？",
+      "url": "https://www.zhihu.com/answer/521329199",
+      "summary": "用范畴语言定义群胚，并说明对象、态射、同构与范畴等价。"
+    },
+    {
+      "title": "抽象代数、交换代数、同调代数、群表示论、李代数、代数拓扑的学习顺序应该是怎样的？",
+      "url": "https://www.zhihu.com/answer/531884350",
+      "summary": "正文以范畴论作为统一代数分支和展开导出函子讨论的高观点。"
+    },
+    {
+      "title": "如何理解「观点越高，事情越显得简单」这句话？",
+      "url": "https://www.zhihu.com/answer/535748248",
+      "summary": "正文用 van Kampen 定理具体说明范畴论如何简化定理的叙述和证明。"
+    },
+    {
+      "title": "怎么理解导出范畴？",
+      "url": "https://www.zhihu.com/answer/547239020",
+      "summary": "正文以局部化、态射和泛性质系统构造导出范畴。"
+    },
+    {
+      "title": "怎么理解导出范畴？",
+      "url": "https://www.zhihu.com/answer/547598897",
+      "summary": "正文比较 Verdier 商、模型范畴与无穷范畴等局部化方案。"
+    },
+    {
+      "title": "现代数学的潮流是什么？",
+      "url": "https://www.zhihu.com/answer/551618682",
+      "summary": "用 Fukaya 范畴、对象与不变量说明非交换几何中的范畴观点。"
+    },
+    {
+      "title": "当科技发展到就算一个人只选择一个方向，却终其一生无法达到最前沿水平时，会发生什么？",
+      "url": "https://www.zhihu.com/answer/566646651",
+      "summary": "以范畴和函子压缩跨领域结构，说明现代数学组织知识的方式。"
+    },
+    {
+      "title": "如何理解 E_n algebra?",
+      "url": "https://www.zhihu.com/answer/614118064",
+      "summary": "正文讨论高阶态射与高阶范畴结构。"
+    },
+    {
+      "title": "如何理解庞加莱对偶（Poincare Duality）?",
+      "url": "https://www.zhihu.com/answer/622957674",
+      "summary": "用对称幺半无穷范畴和 Kan 延拓组织对偶结构。"
+    },
+    {
+      "title": "为什么我们要区分相互同构的对象？如何回避这个问题？",
+      "url": "https://www.zhihu.com/answer/657284601",
+      "summary": "用范畴论中的自然同构解释同构对象仍需区分。"
+    },
+    {
+      "title": "如何上手 Lurie 的 SAG（Spectral Algebraic Geometry）？",
+      "url": "https://www.zhihu.com/answer/665860277",
+      "summary": "把普通范畴、高阶范畴和无穷范畴作为核心前置。"
+    },
+    {
+      "title": "数学中有哪些让你感到赏心悦目或是震惊的构造手法？",
+      "url": "https://www.zhihu.com/answer/686793634",
+      "summary": "以函子、层、kernel 与极限构造投影子。"
+    },
+    {
+      "title": "综合微分几何（Synthetic Differential Geometry）有什么用处？",
+      "url": "https://www.zhihu.com/answer/693161939",
+      "summary": "用拓扑斯和内部逻辑解释该理论的语义环境。"
+    },
+    {
+      "title": "R^2 与 C 的区别在哪里？为什么有数学家认为复数用 a+bi 表示不好？",
+      "url": "https://www.zhihu.com/answer/711401565",
+      "summary": "用范畴和泛性质讨论复数的内禀表示。"
+    },
+    {
+      "title": "orbifold和groupoid有没有人了解？",
+      "url": "https://www.zhihu.com/answer/752357005",
+      "summary": "把 groupoid 定义为态射均可逆的范畴。"
+    },
+    {
+      "title": "顶点算子代数在做什么？",
+      "url": "https://www.zhihu.com/answer/770136923",
+      "summary": "正文解释顶点算子代数表示范畴的张量结构。"
+    },
+    {
+      "title": "为何要引入同伦群，同伦群可以解决什么问题？",
+      "url": "https://www.zhihu.com/answer/824237024",
+      "summary": "讨论同伦范畴、等价与函子。"
+    },
+    {
+      "title": "数理逻辑“四论”的研究成果能给科学哲学/物理学哲学哪些帮助和启示？",
+      "url": "https://www.zhihu.com/answer/848039411",
+      "summary": "用范畴论表达数学对象及其关系。"
+    },
+    {
+      "title": "怎样学范畴论？",
+      "url": "https://www.zhihu.com/answer/883920534",
+      "summary": "从对象、态射、函子和自然变换解释范畴论。"
+    },
+    {
+      "title": "数学中有哪些最复杂的领域或最抽象的领域，复杂或抽象到什么程度？",
+      "url": "https://www.zhihu.com/answer/890545033",
+      "summary": "从群范畴进一步解释函子、自然变换与 Yoneda 引理。"
+    },
+    {
+      "title": "为什么需要证明「1+1=2」？",
+      "url": "https://www.zhihu.com/answer/913714551",
+      "summary": "正文以1+1为例详细讲解范畴、函子、自然变换和万有性质的基本精神。"
+    },
+    {
+      "title": "为什么没有数学民科去碰瓷范畴论、同调代数、规范场论、朗兰兹纲领、调和分析、遍历理论等等？",
+      "url": "https://www.zhihu.com/answer/926274302",
+      "summary": "正文实质解释范畴论相对于线性与抽象代数的进一步抽象及其学习门槛。"
+    },
+    {
+      "title": "如何证明两个拓扑群的乘积仍是拓扑群？",
+      "url": "https://www.zhihu.com/answer/927969011",
+      "summary": "正文用 Yoneda 嵌入、可表函子和泛性质推导拓扑群范畴中的直积。"
+    },
+    {
+      "title": "为什么说 morphism 比 object 重要？",
+      "url": "https://www.zhihu.com/answer/946247249",
+      "summary": "正文以 Yoneda 思想、函子和态射解释为何范畴论强调对象间关系。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/949180367",
+      "summary": "正文以无穷范畴、同伦层级和高阶态射说明现代范畴论研究的复杂性。"
+    },
+    {
+      "title": "迹的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/1153826492",
+      "summary": "正文以对称幺半范畴、dualizable对象及态射合成系统定义抽象迹。"
+    },
+    {
+      "title": "哪些数学书让你相见恨晚？",
+      "url": "https://www.zhihu.com/answer/1229144590",
+      "summary": "正文明确指出该书以范畴论观点组织代数内容。"
+    },
+    {
+      "title": "哪些数学书让你相见恨晚？",
+      "url": "https://www.zhihu.com/answer/1272983648",
+      "summary": "正文介绍该书以范畴论连接数学思维与生活问题。"
+    },
+    {
+      "title": "如何理解代数中的极限和余极限？",
+      "url": "https://www.zhihu.com/answer/1323297487",
+      "summary": "正文直接讲解“范畴论”相关内容。"
+    },
+    {
+      "title": "拓扑序和（Lurie定义的）拓扑场论有什么联系和区别？",
+      "url": "https://www.zhihu.com/answer/1511388073",
+      "summary": "正文用范畴、函子和自然变换定义拓扑场论。"
+    },
+    {
+      "title": "如何理解Yoneda lemma（米田引理）的重要性？",
+      "url": "https://www.zhihu.com/answer/1522274000",
+      "summary": "正文给出Yoneda引理的范畴论表述、证明和应用。"
+    },
+    {
+      "title": "应用范畴论（Applied Category Theory）目前有哪些精彩的应用？",
+      "url": "https://www.zhihu.com/answer/1639171349",
+      "summary": "正文梳理应用范畴论在数学、物理、计算和建模中的方向。"
+    },
+    {
+      "title": "怎样比较好的理解陈类（Chern classes）?",
+      "url": "https://www.zhihu.com/answer/1647941785",
+      "summary": "正文把示性类解释为函子间的自然变换。"
+    },
+    {
+      "title": "如何评价Hatcher的代数拓扑？",
+      "url": "https://www.zhihu.com/answer/1667052397",
+      "summary": "正文指出代数拓扑教材与范畴论的联系。"
+    },
+    {
+      "title": "数学最基础的知识是什么？",
+      "url": "https://www.zhihu.com/answer/1743031818",
+      "summary": "正文直接讨论或推导「范畴论」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "数学专业学生应该什么时候学习范畴论？",
+      "url": "https://www.zhihu.com/answer/1776500886",
+      "summary": "正文建议在抽象代数或代数拓扑阶段学习范畴论基本语言。"
+    },
+    {
+      "title": "能否通俗地介绍一下意象/拓扑斯 (topos) 这个概念？",
+      "url": "https://www.zhihu.com/answer/1847643507",
+      "summary": "正文以范畴、层与广义空间解释 topos。"
+    },
+    {
+      "title": "数学中有哪些最复杂的领域或最抽象的领域，复杂或抽象到什么程度？",
+      "url": "https://www.zhihu.com/answer/1861723252",
+      "summary": "正文把范畴论解释为对线性代数和抽象代数结构的进一步抽象。"
+    },
+    {
+      "title": "数学上有哪些丑陋的公式？",
+      "url": "https://www.zhihu.com/answer/1884861839",
+      "summary": "正文介绍 Razborov 用模型论发展 Flag algebra 解决极值图论问题。"
+    },
+    {
+      "title": "数学界为何走向抽象？",
+      "url": "https://www.zhihu.com/answer/1945780164",
+      "summary": "正文以导出范畴和稳定条件等范畴论工具统一问题。"
+    },
+    {
+      "title": "数学本科生能做哪些研究？",
+      "url": "https://www.zhihu.com/answer/1970311338",
+      "summary": "正文用三角范畴和函子等范畴论工具研究代数簇。"
+    },
+    {
+      "title": "如何理解张量积的泛性质？",
+      "url": "https://www.zhihu.com/answer/1976754163",
+      "summary": "正文以泛性质和交换图定义张量积。"
+    },
+    {
+      "title": "协变张量和逆变张量有何区别？仅仅是上下标的区别吗？",
+      "url": "https://www.zhihu.com/answer/1985602706",
+      "summary": "正文用范畴论中的箭头方向解释术语来源。"
+    },
+    {
+      "title": "思考问题时总是不懂得把正合列和张量积用起来，该怎么办？",
+      "url": "https://www.zhihu.com/answer/1990066767",
+      "summary": "正文强调证明中构造与证明技术的积累。"
+    },
+    {
+      "title": "怎样学习范畴逻辑？",
+      "url": "https://www.zhihu.com/answer/1993793102",
+      "summary": "正文推荐范畴逻辑教材并解释范畴语义。"
+    },
+    {
+      "title": "学习无穷范畴需要哪些前置知识？",
+      "url": "https://www.zhihu.com/answer/2108451300",
+      "summary": "正文讨论无穷范畴的前置知识、动机和范畴论基础。"
+    },
+    {
+      "title": "如何看待法国著名数学家、2002 年菲尔兹奖得主 Laurent Lafforgue 宣布加入华为？",
+      "url": "https://www.zhihu.com/answer/2145104354",
+      "summary": "正文讨论 Grothendieck topos、geometric theory 与范畴式统一桥梁。"
+    },
+    {
+      "title": "有一个懂代数几何的女朋友是一种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/2201127972",
+      "summary": "正文把代数几何学习者和女朋友组织成范畴中的直和，并讨论 abelian 范畴。"
+    },
+    {
+      "title": "bulk-edge correspondence是在说什么？",
+      "url": "https://www.zhihu.com/answer/2206765771",
+      "summary": "正文大量使用范畴、函子、中心结构和高阶范畴语言。"
+    },
+    {
+      "title": "Grothendieck 时代的代数几何与在这之前的古典代数几何之间最大的区别是否就是范畴论的引入？",
+      "url": "https://www.zhihu.com/answer/2207042047",
+      "summary": "正文把范畴论、阿贝尔范畴、导出函子和高阶范畴作为代数几何演进核心。"
+    },
+    {
+      "title": "群论和拓扑的关系是什么？群论本来就是拓扑的一种形式？",
+      "url": "https://www.zhihu.com/answer/2241656301",
+      "summary": "正文把无穷范畴列为现代代数拓扑工具。"
+    },
+    {
+      "title": "怎么理解导出范畴？",
+      "url": "https://www.zhihu.com/answer/2242851468",
+      "summary": "正文通过范畴局部化和态射结构解释导出范畴。"
+    },
+    {
+      "title": "能否彻底从代数角度定义微分和积分？",
+      "url": "https://www.zhihu.com/answer/2265180255",
+      "summary": "正文主要使用范畴、初对象和态射解释积分。"
+    },
+    {
+      "title": "范畴等价与范畴同构有什么本质上的区别？",
+      "url": "https://www.zhihu.com/answer/2279099156",
+      "summary": "正文通过函子、自然同构和本质满射比较范畴等价与范畴同构。"
+    },
+    {
+      "title": "你所读的（基础）数学方向，有哪些不错的讲义/Notes/Polycopiés/Skript？",
+      "url": "https://www.zhihu.com/answer/2282381652",
+      "summary": "正文通过无穷范畴和导出范畴刻画几何 Langlands 对应。"
+    },
+    {
+      "title": "不使用范畴论，如何刻画一个线性映射是“自然”的？",
+      "url": "https://www.zhihu.com/answer/2297940187",
+      "summary": "正文讨论自然同构的范畴论含义及其非范畴论刻画。"
+    },
+    {
+      "title": "我自学完 GTM 69 本教材，数学水平是否可以吊打本科阶段的所有数学老师？",
+      "url": "https://www.zhihu.com/answer/2318772634",
+      "summary": "正文用范畴、遗忘函子与左伴随检验抽象代数理解。"
+    },
+    {
+      "title": "想请问平坦模、投射模这些的几何意义是什么，感觉atiyah这本书的定义有些干巴巴的.......？",
+      "url": "https://www.zhihu.com/answer/2399270592",
+      "summary": "正文用向量丛范畴与有限生成投射模范畴的 Serre–Swan 等价说明范畴观点。"
+    },
+    {
+      "title": "如何上手 Lurie 的 SAG（Spectral Algebraic Geometry）？",
+      "url": "https://www.zhihu.com/answer/2402516337",
+      "summary": "正文明确讨论学习高阶范畴与 Lurie 理论所需的范畴语言。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2442763046",
+      "summary": "正文进一步用范畴中的泛性质解释同构基本定理。"
+    },
+    {
+      "title": "范畴论本质上是图(Graph)的分类学吗？",
+      "url": "https://www.zhihu.com/answer/2463652454",
+      "summary": "正文解释范畴论作为描述数学结构语言的角色。"
+    },
+    {
+      "title": "请问一下入门代数拓扑需要哪些方面的知识？",
+      "url": "https://www.zhihu.com/answer/2491165680",
+      "summary": "正文说明深入学习代数拓扑需要范畴论、同调代数与同伦代数。"
+    },
+    {
+      "title": "仍然在世的伟大数学家有哪些？",
+      "url": "https://www.zhihu.com/answer/2499504355",
+      "summary": "正文介绍 Lurie 对高阶范畴论、高阶意象与高阶代数的体系化工作。"
+    },
+    {
+      "title": "能否举例说明在处理代数问题的时候范畴语言为我们带来了哪些便利？",
+      "url": "https://www.zhihu.com/answer/2506449190",
+      "summary": "正文用 Abel 范畴、伴随函子和极限说明范畴语言如何统一代数现象。"
+    },
+    {
+      "title": "为什么当今数学教材写的跟天书一样，根本看不懂？",
+      "url": "https://www.zhihu.com/answer/2570621145",
+      "summary": "概述《代数学方法》卷二中的范畴、函子、极限、伴随函子和 Kan 延拓。"
+    },
+    {
+      "title": "什么是拓扑？",
+      "url": "https://www.zhihu.com/answer/2575100871",
+      "summary": "把拓扑空间的开集与包含关系组织成范畴，并逐条验证范畴公理。"
+    },
+    {
+      "title": "为什么感觉国外的教材都比国内的厚得多？",
+      "url": "https://www.zhihu.com/answer/2618290472",
+      "summary": "以 Algebra: Chapter 0 为例讨论范畴、函子、交换图与 universal property。"
+    },
+    {
+      "title": "代数几何和微分几何哪个更难？",
+      "url": "https://www.zhihu.com/answer/2639569257",
+      "summary": "说明范畴论作为代数几何前置工具的作用和学习体验。"
+    },
+    {
+      "title": "数学中有哪些最复杂的领域或最抽象的领域，复杂或抽象到什么程度？",
+      "url": "https://www.zhihu.com/answer/2669530106",
+      "summary": "正文从预序和度量的形式共性引入强化范畴，并进一步用函子、monad、quantale 和 V-关系说明 Monoidal Topology。"
+    },
+    {
+      "title": "作为数学专业的学生，怎么了解哲学上各种“主义”导致的数学哲学观和数学基础的不同理解？",
+      "url": "https://www.zhihu.com/answer/2713100051",
+      "summary": "说明范畴论在整理概念、揭示数学结构关系方面的功能与局限。"
+    },
+    {
+      "title": "目前数学中最广义的极限定义是什么？",
+      "url": "https://www.zhihu.com/answer/2749937353",
+      "summary": "正文进一步把拓扑极限表述为函子范畴中的极限，说明范畴论极限的泛构造性质。"
+    },
+    {
+      "title": "掌握什么思想会让你的数学水平有质的飞跃?",
+      "url": "https://www.zhihu.com/answer/2781778334",
+      "summary": "正文用交换图解释定理，并以米田引理“态射决定对象”说明范畴论组织数学概念的视角。"
+    },
+    {
+      "title": "小学数学为什么不从集合论学起？",
+      "url": "https://www.zhihu.com/answer/2803270957",
+      "summary": "正文用对象、态射和高阶范畴说明范畴论的观点，并把集合解释为零阶对象。"
+    },
+    {
+      "title": "4≤5，这个不等式是否正确？",
+      "url": "https://www.zhihu.com/answer/2806697620",
+      "summary": "正文用态射优先、对象次要以及同构意义下的唯一性来说明范畴论强调关系和结构的视角。"
+    },
+    {
+      "title": "如何理解代数几何中的 stacks 概念？",
+      "url": "https://www.zhihu.com/answer/2859019074",
+      "summary": "正文实质运用群胚、函子、纤维范畴和范畴等价等范畴论语言刻画 stack。"
+    },
+    {
+      "title": "若要学习Motivic Homotopy，代数拓扑需要学到什么程度？",
+      "url": "https://www.zhihu.com/answer/2871512680",
+      "summary": "正文具体介绍普通范畴论、模型范畴和高阶范畴论的语言及学习作用，实质讨论范畴论。"
+    },
+    {
+      "title": "如何理解Yoneda lemma（米田引理）的重要性？",
+      "url": "https://www.zhihu.com/answer/2888907011",
+      "summary": "正文由米田引理解释函子、自然变换、完全忠实嵌入与预层范畴，实质介绍范畴论方法。"
+    },
+    {
+      "title": "如何自学范畴论？",
+      "url": "https://www.zhihu.com/answer/2890460762",
+      "summary": "正文以对象、态射、泛性质和米田引理解释范畴论的鸟瞰视角，实质介绍了范畴论方法。"
+    },
+    {
+      "title": "在数学的不同领域中，有哪些定理用抽象废话的视角去看实质就是Yoneda lemma?",
+      "url": "https://www.zhihu.com/answer/2895719016",
+      "summary": "正文构造单对象群胚与函子，并用Yoneda引理的自然变换同构推导Cayley定理，属于范畴论中的具体应用。"
+    },
+    {
+      "title": "既然有“群作用”，那有没有“环作用”、“域作用”？",
+      "url": "https://www.zhihu.com/answer/2896364741",
+      "summary": "正文把上述作用与模的对应推广到幺半范畴和模范畴，并说明其中代数对应的模结构。"
+    },
+    {
+      "title": "在数学的不同领域中，有哪些定理用抽象废话的视角去看实质就是Yoneda lemma?",
+      "url": "https://www.zhihu.com/answer/2896550489",
+      "summary": "正文把幺半范畴视为单对象2-范畴，并用米田嵌入到2-预层范畴解释幺半范畴严格化定理。"
+    },
+    {
+      "title": "你见过的最复杂的交换图表是什么？",
+      "url": "https://www.zhihu.com/answer/2919241011",
+      "summary": "正文围绕交换图、结合律的同构修正以及五边形和九面体一致性条件，讨论范畴论中的 coherent conditions 与 operad。"
+    },
+    {
+      "title": "数学中有哪些博大精深的概念，如几何中的流形、代数中的群？",
+      "url": "https://www.zhihu.com/answer/2921473267",
+      "summary": "正文给出对象、态射、复合及公理定义，并进一步解释函子、自然变换与范畴论的作用。"
+    },
+    {
+      "title": "同调代数解决问题的逻辑是什么？",
+      "url": "https://www.zhihu.com/answer/2936749881",
+      "summary": "正文以同构经函子保持为核心论证，讲解构造函子、局部化和 Kan 扩张等范畴论方法。"
+    },
+    {
+      "title": "范畴论的虚张声势体现在哪些方面？",
+      "url": "https://www.zhihu.com/answer/2947801501",
+      "summary": "正文围绕范畴、函子和范畴化的表达作用展开讨论，评价范畴论是否只是抽象重述。"
+    },
+    {
+      "title": "数学专业的学生的毕业论文是怎样的？",
+      "url": "https://www.zhihu.com/answer/2961122555",
+      "summary": "正文把模型范畴和无穷范畴作为导出几何构造与证明的基础。"
+    },
+    {
+      "title": "现代的数学研究抽象到了哪种地步？",
+      "url": "https://www.zhihu.com/answer/2974573466",
+      "summary": "正文用范畴、函子、monad 与关系范畴的语言定义抽象空间，并讨论范畴论使数学理论高度抽象。"
+    },
+    {
+      "title": "同调代数到底是在做什么？",
+      "url": "https://www.zhihu.com/answer/2983096168",
+      "summary": "正文说明范畴比集合更抽象但具有结构，并用函子、自然变换及阿贝尔范畴解释同调代数的范畴框架。"
+    },
+    {
+      "title": "能不能把一切数学分支全部代数化？",
+      "url": "https://www.zhihu.com/answer/2983428690",
+      "summary": "正文陈述光滑流形范畴与 smooth R-algebra 范畴对偶同构，并用 Hom 集合同构说明范畴层面的等价。"
+    },
+    {
+      "title": "如何看待高二学生以一作发表数学类 sci，论文含金量如何？",
+      "url": "https://www.zhihu.com/answer/3069557529",
+      "summary": "正文评议论文中的对象、态射、函子和复合关系，并讨论作者对范畴论核心思想的运用。"
+    },
+    {
+      "title": "数学专业学生应该什么时候学习范畴论？",
+      "url": "https://www.zhihu.com/answer/3085736238",
+      "summary": "正文具体说明范畴论中的函子、交换图、万有性质、伴随、极限与 Yoneda 引理等核心内容。"
+    },
+    {
+      "title": "请问代数几何中的层论大致讲的什么？",
+      "url": "https://www.zhihu.com/answer/3134936270",
+      "summary": "正文用 Ouv(X)^op 到 A 的函子定义层，并说明开集包含对应的态射关系，属于范畴论式定义。"
+    },
+    {
+      "title": "如果不承认选择公理，现代数学会变成什么样子？",
+      "url": "https://www.zhihu.com/answer/3145315856",
+      "summary": "正文分析范畴论中选择公理依赖与同构意义下唯一性的关系，并联系泛等数学基础和特定范畴结构。"
+    },
+    {
+      "title": "在任意拓扑空间X中任给两个拓扑τ和σ，是否必然存在一个同时细于τ和σ的最粗糙的拓扑？",
+      "url": "https://www.zhihu.com/answer/3146158632",
+      "summary": "正文以切片范畴、自由函子、范畴等价和余反射子范畴给出问题的范畴论证明。"
+    },
+    {
+      "title": "交换律、结合律、分配律的本质是什么？",
+      "url": "https://www.zhihu.com/answer/3202481994",
+      "summary": "正文用映射复合、置换和交换图表示交换律、结合律与分配律，并以 S3 中的元素说明运算结构的对称性。"
+    },
+    {
+      "title": "如何上手 Lurie 的 SAG（Spectral Algebraic Geometry）？",
+      "url": "https://www.zhihu.com/answer/3241760637",
+      "summary": "正文说明无穷范畴和无穷拓扑斯是定义谱代数几何研究对象的基础语言。"
+    },
+    {
+      "title": "网上交换代数之后的课程几乎没有，我该怎么自学？",
+      "url": "https://www.zhihu.com/answer/3262851289",
+      "summary": "正文比较集合与结构，说明现代数学以范畴构造、箭头和交换图刻画对象之间的关系。"
+    },
+    {
+      "title": "量子反常是否一定与积分测度的改变有关？",
+      "url": "https://www.zhihu.com/answer/3273354952",
+      "summary": "正文用对象、态射、直和和融合积构造拓扑缺陷线的张量范畴，并讨论结合子。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3309266203",
+      "summary": "正文通过具有两个单子结构的范畴和 Hopf type 交换图解释 Structure algebra 的代数框架，实质涉及范畴论。"
+    },
+    {
+      "title": "拓扑学（点集）和逻辑学有什么联系相同的地方吗?",
+      "url": "https://www.zhihu.com/answer/3356832902",
+      "summary": "正文把 Stone 对偶表述为 Stone 空间与 Boolean 代数反范畴之间的范畴等价，并给出左右函子与自然同构。"
+    },
+    {
+      "title": "1500多页的Higher Algebra怎样学？",
+      "url": "https://www.zhihu.com/answer/3370483806",
+      "summary": "正文以普通范畴的 Hom 集提升为映射空间来解释无穷范畴的核心思想和更高态射。"
+    },
+    {
+      "title": "什么是Fukaya Category和A-infinity Category，如何理解它们呢?",
+      "url": "https://www.zhihu.com/answer/3432533982",
+      "summary": "正文以拉格朗日膜间的 Floer 态射为例，说明复合只满足相差高阶同伦的结合律，从而构成 A∞ 范畴。"
+    },
+    {
+      "title": "说说你们对同调代数的理解？",
+      "url": "https://www.zhihu.com/answer/3452775865",
+      "summary": "正文叙述范畴与函子的建立，并以Abel范畴、导出函子和三角范畴说明范畴论在其中的作用。"
+    },
+    {
+      "title": "数学史上有哪些数字或规模很大的反例？",
+      "url": "https://www.zhihu.com/answer/3468243411",
+      "summary": "正文用对象、态射、加性函子和自然变换构造新的范畴，并讨论其封闭性与公理条件。"
+    },
+    {
+      "title": "有没有“问题导向的同调代数”式的学习资料？",
+      "url": "https://www.zhihu.com/answer/3485948302",
+      "summary": "正文说明该课程系统引入加法范畴、阿贝尔范畴、函子和范畴等价等基础范畴论概念。"
+    },
+    {
+      "title": "现代数学和理论物理已经发展到怎样一个令人震惊的水平了？",
+      "url": "https://www.zhihu.com/answer/3514312874",
+      "summary": "正文用配边范畴到向量空间的对称幺半函子说明扩展 TQFT 的范畴论表述。"
+    },
+    {
+      "title": "1500多页的Higher Algebra怎样学？",
+      "url": "https://www.zhihu.com/answer/3529798492",
+      "summary": "正文讨论无穷范畴与一范畴的关系，并用 Kan 扩张、充实范畴和幺半范畴说明其前置范畴论知识。"
+    },
+    {
+      "title": "ruliad这个概念（wolfram提出的），以及相关的ruliology，中文怎么对应比较好？",
+      "url": "https://www.zhihu.com/answer/3591035152",
+      "summary": "正文用态射、2-态射直至∞范畴来解释证明路径的层次，属于范畴论的结构性讨论。"
+    },
+    {
+      "title": "数学上能不能禁止用“显然”？",
+      "url": "https://www.zhihu.com/answer/3591585718",
+      "summary": "正文解释范畴论统一不同数学领域中的想法和构造，并说明基本范畴论方法在证明中的抽象作用。"
+    },
+    {
+      "title": "能介绍一下解析叠(Analytic Stacks)吗？它与实langlands有什么联系呢？",
+      "url": "https://www.zhihu.com/answer/3592978697",
+      "summary": "正文持续使用范畴、函子、层、无穷范畴和米田引理作为构造解析叠的语言。"
+    },
+    {
+      "title": "如何理解Yoneda lemma（米田引理）的重要性？",
+      "url": "https://www.zhihu.com/answer/3611858855",
+      "summary": "正文以米田扩张追求泛δ-函子为线索，说明米田引理是零次自然变换延拓中的关键步骤。"
+    },
+    {
+      "title": "如何评价「泛函、映射、算子、变换都是函数，是搞数学的人骗普通人的把戏」这一说法？实际情况如何？",
+      "url": "https://www.zhihu.com/answer/3613892401",
+      "summary": "正文用对象和态射间的保持条件说明函子与范畴同态的关系，并解释范畴中单位态射为何必须保持。"
+    },
+    {
+      "title": "直积、直和、笛卡尔积、张量积的区别是什么，在科普书上看到的，求一个直观的通俗解释？",
+      "url": "https://www.zhihu.com/answer/3627193575",
+      "summary": "正文从对象、态射和泛性质解释 product 与 coproduct 的方向相反，并据此说明直积与直和的范畴论区别。"
+    },
+    {
+      "title": "学习数学时，什么时候该停止考虑“几何意义”?",
+      "url": "https://www.zhihu.com/answer/4427576831",
+      "summary": "正文把范畴论描述为操纵抽象图和对象空间映射的理论，并说明抽象图的几何性质可在对象中保持。"
+    },
+    {
+      "title": "未来还会有比无穷范畴更抽象的结构出现吗？",
+      "url": "https://www.zhihu.com/answer/4469373500",
+      "summary": "正文解释无穷范畴如何把对象、态射和高阶态射组织进范畴结构，并讨论了若干模型。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/15708916248",
+      "summary": "正文从对象、态射、复合与恒等态射定义范畴，并以群范畴为例说明其一般性质。"
+    },
+    {
+      "title": "群论和拓扑学有什么关系？",
+      "url": "https://www.zhihu.com/answer/16159633138",
+      "summary": "正文从对象、态射、复合与恒等态射定义范畴，讨论群范畴、自同构、函子及群作为单对象群胚的范畴视角。"
+    },
+    {
+      "title": "精通群论是怎样一种体验？",
+      "url": "https://www.zhihu.com/answer/20652411209",
+      "summary": "正文以群胚和单对象范畴解释群，并继续讨论范畴 Grp 的对象、态射、积与泛性质，实质展开范畴论视角。"
+    },
+    {
+      "title": "现在还在世的数学家有跟格罗滕迪克一级别的吗？",
+      "url": "https://www.zhihu.com/answer/34034657428",
+      "summary": "正文以范畴论中的泛性质说明如何通过对象应满足的性质进行推理，并讨论存在性证明的取舍。"
+    },
+    {
+      "title": "孔采维奇的数学工作对现代数学产生了哪些影响?",
+      "url": "https://www.zhihu.com/answer/35417456463",
+      "summary": "正文用相干层导出范畴和 Fukaya 范畴的等价来表述同源镜像对称，具体涉及范畴结构。"
+    },
+    {
+      "title": "什么是“凝聚态数学”，为什么叫“凝聚态”？",
+      "url": "https://www.zhihu.com/answer/36456834486",
+      "summary": "正文以 Abel 范畴、层范畴和意象等范畴论结构说明凝聚态数学的构造方式。"
+    },
+    {
+      "title": "现在纯粹的范畴论是否有研究前景？",
+      "url": "https://www.zhihu.com/answer/59661568141",
+      "summary": "正文讨论范畴论作为数学语言的研究价值，并以模型、导出函子和同伦计算说明其用途。"
+    },
+    {
+      "title": "2024你的数学研究和学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/69353173582",
+      "summary": "正文用无穷范畴、无穷层和群对象等概念讲解 stack 与导出代数几何的语言。"
+    },
+    {
+      "title": "公理系统的构建是否依赖于自然数的存在？",
+      "url": "https://www.zhihu.com/answer/69354208532",
+      "summary": "正文用对象、态射、积、余积和幂对象等范畴论语言解释逻辑与证明。"
+    },
+    {
+      "title": "如何真正从本质上理解数学?",
+      "url": "https://www.zhihu.com/answer/88308177111",
+      "summary": "正文具体介绍对象、态射、复合态射、单位态射和自然变换，并用游戏系统说明范畴论的结构视角。"
+    },
+    {
+      "title": "目前有哪些解释复杂系统“涌现性”的理论？",
+      "url": "https://www.zhihu.com/answer/88766425594",
+      "summary": "正文用范畴、交换图、函子和余极限描述子系统交互与系统演化。"
+    },
+    {
+      "title": "数学的本质是什么？",
+      "url": "https://www.zhihu.com/answer/92822220719",
+      "summary": "正文给出范畴的对象、态射和复合态射结构，并解释复合结合律及范畴论的统一作用。"
+    },
+    {
+      "title": "数学的本质究竟是什么？",
+      "url": "https://www.zhihu.com/answer/92835475393",
+      "summary": "正文说明范畴由对象和态射组成，并用不同领域之间的相似关系解释范畴论的联系视角。"
+    },
+    {
+      "title": "数学的本质是什么?",
+      "url": "https://www.zhihu.com/answer/92843230048",
+      "summary": "正文具体讨论范畴的对象与态射，并展开复合态射、单位态射和自然变换等结构。"
+    },
+    {
+      "title": "是不是所有数学都可以用几何表达？",
+      "url": "https://www.zhihu.com/answer/99846614154",
+      "summary": "正文用代数范畴与空间范畴之间的反等价及伴随关系，组织不同代数-几何对偶。"
+    },
+    {
+      "title": "数学本质是什么？",
+      "url": "https://www.zhihu.com/answer/101070015270",
+      "summary": "正文以对象及映射构成范畴，并用复合映射的结合律说明范畴论视角。"
+    },
+    {
+      "title": "群有商群，环有商环，那鞅能不能定义商鞅？如何合理地定义？",
+      "url": "https://www.zhihu.com/answer/108445196848",
+      "summary": "正文以对象、态射、单态射与满态射、反范畴和局部化为线索展开范畴论说明。"
+    },
+    {
+      "title": "你见过的最美数学公式是什么？",
+      "url": "https://www.zhihu.com/answer/120275915696",
+      "summary": "正文用 Alg^op 与 Sp 之间的 Spec、整体截面伴随关系及其他反等价，说明一类范畴对偶。"
+    },
+    {
+      "title": "代数拓扑为什么研究同调？",
+      "url": "https://www.zhihu.com/answer/121529076518",
+      "summary": "正文专设范畴与函子视角，使用拓扑同伦范畴、Abel 群范畴、可表函子和 Yoneda 引理解释同伦与上同调。"
+    },
+    {
+      "title": "数学中的美体现在哪里?",
+      "url": "https://www.zhihu.com/answer/125898814310",
+      "summary": "正文介绍范畴论关注对象关系与态射，并以函子和自然变换统一描述多个数学领域。"
+    },
+    {
+      "title": "为什么可以把线性空间 V 看成是它对偶空间 V* 的对偶空间？",
+      "url": "https://www.zhihu.com/answer/127304525278",
+      "summary": "正文从范畴论视角用函子、自然变换和交换图解释双对偶同构的典范性。"
+    },
+    {
+      "title": "在数学学习中，你遇到过哪些有趣的同构？",
+      "url": "https://www.zhihu.com/answer/1892202134084224767",
+      "summary": "正文陈述并证明 Stone 表示定理，以函子和自然对应说明布尔代数范畴与 Stone 空间范畴等价。"
+    },
+    {
+      "title": "线性代数的本质是什么，它的线性体现在哪？",
+      "url": "https://www.zhihu.com/answer/1892690459647776659",
+      "summary": "正文以对象和态射给出向量空间范畴的视角，并提到极限、上同调、张量积和导出函子。"
+    },
+    {
+      "title": "为什么学了形式逻辑还看不懂黑格尔的《小逻辑》?",
+      "url": "https://www.zhihu.com/answer/1899516334355779915",
+      "summary": "正文明确区分类型论对类型构造的研究与范畴论对对象关系的研究，并把二者置于 HoTT 的范畴结构背景中。"
+    },
+    {
+      "title": "在数学学习中，你遇到过哪些有趣的同构？",
+      "url": "https://www.zhihu.com/answer/1906766976250012358",
+      "summary": "正文用函子、自然变换、伴随、阿贝尔范畴和范畴等价组织多个重构定理，具体展开了范畴论语言。"
+    },
+    {
+      "title": "如何评价2025年上海高考语文作文？",
+      "url": "https://www.zhihu.com/answer/1915051022910461284",
+      "summary": "正文以 Grp、Top 和 Abel 三类数学对象及其对应关系作为题设，直接讨论对象范畴之间的联系。"
+    },
+    {
+      "title": "如何证明拓扑群的基本群是阿贝尔群？",
+      "url": "https://www.zhihu.com/answer/1916367207140692396",
+      "summary": "正文使用函子、范畴中的群对象及群范畴结构给出范畴论视角的证明。"
+    },
+    {
+      "title": "我感觉我对数学的求知欲在下降，怎么办？",
+      "url": "https://www.zhihu.com/answer/1916968908222624420",
+      "summary": "正文以自由积、直积和不交并为例说明范畴论的统一作用。"
+    },
+    {
+      "title": "1500多页的Higher Algebra怎样学？",
+      "url": "https://www.zhihu.com/answer/1918256334756897029",
+      "summary": "正文说明高阶范畴论把两个对象相等理解为给出同构，并继续推广到高阶同构与相容结构。"
+    },
+    {
+      "title": "现代数学和理论物理已经发展到怎样一个令人震惊的水平了？",
+      "url": "https://www.zhihu.com/answer/1928906521925886769",
+      "summary": "正文定义对象、态射、复合与单位态射，并进一步介绍对偶范畴、函子、加性范畴和阿贝尔范畴。"
+    },
+    {
+      "title": "世界历史上有哪些「很牛的人物被更牛的人物按在地上摩擦」的事迹？",
+      "url": "https://www.zhihu.com/answer/1935382257264211885",
+      "summary": "正文介绍 topos 以范畴语言重新刻画空间，并说明其不同于以点为基础的拓扑空间视角。"
+    },
+    {
+      "title": "最抽象的数学方向是哪个？",
+      "url": "https://www.zhihu.com/answer/1938601411601474184",
+      "summary": "正文具体以态射和结构间转换说明范畴论研究数学对象之间关系的特点。"
+    },
+    {
+      "title": "范畴论是否应当进入大一通识课程？",
+      "url": "https://www.zhihu.com/answer/1940352521618035051",
+      "summary": "正文用可表函子、自然变换、Yoneda 引理和函子范畴等概念说明范畴论如何统一并简化分析与代数命题。"
+    },
+    {
+      "title": "基础数学中哪个领域最考验智商？",
+      "url": "https://www.zhihu.com/answer/1942289421169844992",
+      "summary": "正文以对象与函子为例说明范畴论的形式化和高度抽象特征，并将它列为需要概念重建的方向。"
+    },
+    {
+      "title": "为什么规范对称性不是对称性？",
+      "url": "https://www.zhihu.com/answer/1947050546440672144",
+      "summary": "正文把国家看作对象、汇率与转账看作可复合箭头，据此构造 1-范畴和 1-群胚来解释范畴对称性。"
+    },
+    {
+      "title": "学抽象代数学到想抽人是怎样一种体验？",
+      "url": "https://www.zhihu.com/answer/1958438329923113378",
+      "summary": "正文用对象和态射解释范畴，并说明万有性质如何统一刻画群、环、模等代数结构。"
+    },
+    {
+      "title": "数学领域真正的天才是怎么样的？",
+      "url": "https://www.zhihu.com/answer/1970058697943254311",
+      "summary": "正文以 Lawvere theory、函子伴随、初等拓扑斯和富化范畴等例子，说明范畴论如何统一并表达不同数学结构。"
+    },
+    {
+      "title": "直积、直和、张量积到底是怎么回事?",
+      "url": "https://www.zhihu.com/answer/1976463049096464313",
+      "summary": "正文从对象、态射和泛性质出发解释 product 与 coproduct 的范畴论区别。"
+    },
+    {
+      "title": "2025年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/1987205129812849160",
+      "summary": "正文用导出范畴、半正交分解和三角范畴等价刻画 Kuznetsov 分支，展开范畴语言中的具体构造。"
+    },
+    {
+      "title": "如何理解棱镜上同调（prismatic cohomology)？",
+      "url": "https://www.zhihu.com/answer/1987732946162046334",
+      "summary": "正文以无穷范畴、无穷景和结构层说明范畴论框架如何组织棱镜上同调的构造。"
+    },
+    {
+      "title": "如何看待 Grothendieck 思考数学问题不依赖具体例子？",
+      "url": "https://www.zhihu.com/answer/1992641799131518659",
+      "summary": "正文解释了范畴论如何为层上同调和不同对象之间的函子关系提供统一语言。"
+    },
+    {
+      "title": "如何模仿佛经体翻译腔？",
+      "url": "https://www.zhihu.com/answer/2003882583390455481",
+      "summary": "正文用对象与态射是一法之两相以及织锦比喻，展开范畴论的关系优先视角。"
+    },
+    {
+      "title": "怎么记住斯托克斯公式（Stokes' theorem）？",
+      "url": "https://www.zhihu.com/answer/2009676587440829614",
+      "summary": "正文以范畴、函子和双自然变换表述余楔，从而把 Stokes 关系解释成范畴论中的余端。"
+    },
+    {
+      "title": "如何自学范畴论？",
+      "url": "https://www.zhihu.com/answer/2011502116116644842",
+      "summary": "正文通过对象、态射、积的泛性质、函子和自然变换具体介绍范畴论的基本语言。"
+    },
+    {
+      "title": "伽罗瓦理论究竟讲了什么？为什么其中用到了群论的知识？",
+      "url": "https://www.zhihu.com/answer/2031355298905069104",
+      "summary": "正文解释范畴论以对象之间的映射关系为研究对象，并说明其成为现代数学通用语言。"
+    },
+    {
+      "title": "数学的本质究竟是什么？",
+      "url": "https://www.zhihu.com/answer/2046022339025020736",
+      "summary": "正文以对象、箭头、复合和函子说明范畴论如何研究结构之间的关系。"
+    },
+    {
+      "title": "哪些看似毫不相干的事物具有相同的数学原理？",
+      "url": "https://www.zhihu.com/answer/2047846050141151462",
+      "summary": "正文系统讲解范畴的对象、态射与复合，并继续展开函子、自然变换、万有性质和米田引理。"
+    },
+    {
+      "title": "怎么深刻理解范畴论的妙处？",
+      "url": "https://www.zhihu.com/answer/2048063895764465652",
+      "summary": "正文通过序结构与代数结构说明范畴的态射复合、对象和统一视角，实质讲解范畴论。"
+    },
+    {
+      "title": "如何理解「对称性是高一维的拓扑序」？",
+      "url": "https://www.zhihu.com/answer/2052936919495991651",
+      "summary": "正文用融合范畴、DHR 范畴、模态张量范畴和 Morita 等价解释对称性与高一维拓扑序的对应。"
+    },
+    {
+      "title": "为什么日本人会有「巴黎综合征」？",
+      "url": "https://www.zhihu.com/answer/2055508680142066024",
+      "summary": "正文具体回顾米田引理在巴黎北站的诞生经过及米田与Mac Lane的交流，属于范畴论史话。"
+    },
+    {
+      "title": "如何评价望月新一？",
+      "url": "https://www.zhihu.com/answer/2055918670598123984",
+      "summary": "正文具体批评IUT过度堆叠范畴论构造且意义难辨，讨论了范畴论在理论构造中的作用。"
+    },
+    {
+      "title": "数学是否先于人类存在？",
+      "url": "https://www.zhihu.com/answer/2056163112441624503",
+      "summary": "正文具体借用米田引理和Hom关系讨论数学对象的结构主义解释，涉及范畴论。"
+    },
+    {
+      "title": "除了代数、拓扑、序，数学有没有可能还隐藏其他基础结构？",
+      "url": "https://www.zhihu.com/answer/2069331709443696309",
+      "summary": "正文将范畴论解释为以对象间映射、箭头复合和对偶关系为基础的结构语言。"
+    },
+    {
+      "title": "控制论、信息论、系统论三者之间的关系是什么？",
+      "url": "https://www.zhihu.com/answer/2071275091506225814",
+      "summary": "正文用对象、关系、态射及其组合解释范畴论视角，并以此重述系统与演化。"
+    },
+    {
+      "title": "乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2074105195517236186",
+      "summary": "正文用对象、箭头、复合和关系解释范畴论如何抽象乘法与结构组合。"
+    },
+    {
+      "title": "由罗素悖论说开去",
+      "url": "https://zhuanlan.zhihu.com/p/19844960",
+      "summary": "正文说明范畴论处理全体空间或结构时出现真类问题，并以小范畴、大范畴和 Grothendieck universe 讨论其规模层级。"
+    },
+    {
+      "title": "随机科普: Enriched Yoneda's Lemma",
+      "url": "https://zhuanlan.zhihu.com/p/20437292",
+      "summary": "正文从普通范畴、可表函子和自然变换出发，进一步解释充实范畴、monoidal 结构和充实版米田引理。"
+    },
+    {
+      "title": "预备篇：范畴与函子",
+      "url": "https://zhuanlan.zhihu.com/p/23206745",
+      "summary": "正文定义范畴、同构、积与余积以及函子，并说明函子的恒等律和复合律。"
+    },
+    {
+      "title": "谈谈 “抽象”",
+      "url": "https://zhuanlan.zhihu.com/p/23428501",
+      "summary": "正文用张量积作为左伴随函子以及保持余极限说明抽象代数的范畴论推理。"
+    },
+    {
+      "title": "Topos (0)",
+      "url": "https://zhuanlan.zhihu.com/p/23848857",
+      "summary": "正文把 topos 定义为一类特殊范畴，并用有限极限、子对象分类器和幂集函子说明集合范畴等例子。"
+    },
+    {
+      "title": "Topos (1) 从偏序集谈起",
+      "url": "https://zhuanlan.zhihu.com/p/23932934",
+      "summary": "正文把偏序集表述为范畴，并通过极限、余极限、伴随函子介绍范畴论方法。"
+    },
+    {
+      "title": "二阶有限单群",
+      "url": "https://zhuanlan.zhihu.com/p/31072748",
+      "summary": "正文定义范畴函子保持单位态射与复合的条件，并解释遗忘函子的作用。"
+    },
+    {
+      "title": "范畴论学习笔记1：基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/33920955",
+      "summary": "正文给出范畴的对象、态射、复合与单位箭头公理，并以幺半群、预序集等构造多个范畴例子。"
+    },
+    {
+      "title": "格论学习笔记1：基础概念",
+      "url": "https://zhuanlan.zhihu.com/p/33974333",
+      "summary": "正文定义范畴、积和陪积，并证明偏序范畴具有有限积当且仅当原偏序集是格。"
+    },
+    {
+      "title": "语言背后的代数学（七）：数学结构",
+      "url": "https://zhuanlan.zhihu.com/p/35196235",
+      "summary": "正文把范畴论介绍为研究数学对象及其关系的形式化方法，并用群、拓扑空间等结构说明其抽象动机。"
+    },
+    {
+      "title": "Motive——Grothendieck的梦想",
+      "url": "https://zhuanlan.zhihu.com/p/36847569",
+      "summary": "正文用对应、幂等元和态射复合明确构造 Motive 范畴，并讨论其阿贝尔范畴性质。"
+    },
+    {
+      "title": "韦依猜想（总）",
+      "url": "https://zhuanlan.zhihu.com/p/37335129",
+      "summary": "正文解释Motive作为统一各上同调理论的范畴对象，并给出对应与Motive范畴的构造。"
+    },
+    {
+      "title": "韦依猜想",
+      "url": "https://zhuanlan.zhihu.com/p/37341356",
+      "summary": "正文详细讨论Motive、代数闭链和对应，并构造Motive范畴以统一各种上同调。"
+    },
+    {
+      "title": "浅议现代数学物理对数学的影响",
+      "url": "https://zhuanlan.zhihu.com/p/40231587",
+      "summary": "正文具体解释范畴学如何统一不同数学概念，并成为研究无穷维结构和物理问题的结构化工具。"
+    },
+    {
+      "title": "MP6：几何与物理I：微分流形上的分析力学",
+      "url": "https://zhuanlan.zhihu.com/p/44008969",
+      "summary": "正文定义范畴、态射和函子，并以拓扑空间与集合之间的遗忘函子作示例。"
+    },
+    {
+      "title": "拓扑量子场论公理体系的介绍",
+      "url": "https://zhuanlan.zhihu.com/p/50157762",
+      "summary": "正文把拓扑量子场论表述为函子并讨论张量积、自然配对、对偶与范畴等价，范畴语言是公理表述的核心。"
+    },
+    {
+      "title": "Relative Calabi-Yau completion",
+      "url": "https://zhuanlan.zhihu.com/p/60857879",
+      "summary": "正文在 dg categories、A∞-functors 和 quasi-equivalence 的语言中表述相对 Calabi-Yau completion、变形及 Orlov 函子，属于范畴论应用。"
+    },
+    {
+      "title": "读物：仿佛来自虚空——Grothendieck的故事（上）",
+      "url": "https://zhuanlan.zhihu.com/p/61406975",
+      "summary": "正文解释范畴论强调对象间态射的基本观点，并说明格洛腾迪克据此重述 Riemann-Roch 定理。"
+    },
+    {
+      "title": "结构主义(1)",
+      "url": "https://zhuanlan.zhihu.com/p/61504456",
+      "summary": "正文具体讨论范畴、函子、自然变换和 topos 如何用于表达结构主义及数学基础。"
+    },
+    {
+      "title": "拓扑序的边界理论：代数理论框架",
+      "url": "https://zhuanlan.zhihu.com/p/68782906",
+      "summary": "正文用幺正融合范畴、模范畴、函子和 Drinfeld 中心描述拓扑相及其边界，属于范畴论框架的应用讲解。"
+    },
+    {
+      "title": "结构主义（2）：集合论数学基础与范畴论数学基础的对比",
+      "url": "https://zhuanlan.zhihu.com/p/32565370",
+      "summary": "正文以ETCS为例分析范畴论式数学基础，并讨论对象-态射语言与拓扑斯公理的作用。"
+    },
+    {
+      "title": "DG范畴（一）",
+      "url": "https://zhuanlan.zhihu.com/p/60333219",
+      "summary": "正文从范畴、函子和张量的性质说明为何需要DG范畴，并讨论其函子范畴。"
+    },
+    {
+      "title": "从代数几何到导出代数几何：复形的几何",
+      "url": "https://zhuanlan.zhihu.com/p/86655844",
+      "summary": "正文讨论阿贝尔范畴、模型范畴、同伦范畴和无穷范畴，并以单纯强化范畴保留高阶同伦结构。"
+    },
+    {
+      "title": "构建数学和物理基础的范畴论：用「等价」取代「相等」丨众妙之门",
+      "url": "https://zhuanlan.zhihu.com/p/87056723",
+      "summary": "正文以范畴和对象间关系为核心，介绍范畴论及其无穷范畴基础。"
+    },
+    {
+      "title": "MP129：从微分几何到代数几何(1)：函数层",
+      "url": "https://zhuanlan.zhihu.com/p/47077723",
+      "summary": "正文用反变函子描述预层，并通过均衡子与余极限定义层和茎，实质使用了范畴论语言。"
+    },
+    {
+      "title": "范畴论中的基本内容",
+      "url": "https://zhuanlan.zhihu.com/p/91563628",
+      "summary": "正文给出范畴、态射、函子和自然变换的定义，并讲解泛态射与泛性质。"
+    },
+    {
+      "title": "1+1=2？",
+      "url": "https://zhuanlan.zhihu.com/p/91153185",
+      "summary": "正文以万有性质、交换图、极限与余极限系统介绍范畴学的基本观点。"
+    },
+    {
+      "title": "基础范畴论(1)",
+      "url": "https://zhuanlan.zhihu.com/p/133735705",
+      "summary": "正文系统讲解范畴、态射、函子、自然变换、泛性质与米田引理，核心正是范畴论。"
+    },
+    {
+      "title": "SEP：数学哲学中的结构主义",
+      "url": "https://zhuanlan.zhihu.com/p/264756803",
+      "summary": "正文解释范畴由对象与态射组成，并讨论函子、同构及范畴论结构主义框架。"
+    },
+    {
+      "title": "Algebraic Geometry: The Roots of Scheme I",
+      "url": "https://zhuanlan.zhihu.com/p/330793163",
+      "summary": "正文说明 Grothendieck 借助范畴论重写态射与层理论，从而发展 scheme 语言。"
+    },
+    {
+      "title": "猫和老鼠（范畴和代数）",
+      "url": "https://zhuanlan.zhihu.com/p/337638518",
+      "summary": "正文把范畴解释为较松散的代数结构，并展开对象、态射、函子、极限与余极限等范畴论语言。"
+    },
+    {
+      "title": "法语数学文献阅读速成",
+      "url": "https://zhuanlan.zhihu.com/p/363901859",
+      "summary": "正文借助格罗滕迪克原文逐句解释范畴的对象、Hom 集、态射复合及对偶范畴定义。"
+    },
+    {
+      "title": "范畴论基础(1)：什么是范畴",
+      "url": "https://zhuanlan.zhihu.com/p/364284965",
+      "summary": "正文系统定义范畴、态射、恒等态射与合成，并给出交换图、特殊态射及基本实例。"
+    },
+    {
+      "title": "范畴论哲学 I —— Meaning As Use",
+      "url": "https://zhuanlan.zhihu.com/p/422251146",
+      "summary": "正文以对象与态射、笛卡尔积的泛性质及同构意义下的唯一性介绍范畴论的核心思考方式。"
+    },
+    {
+      "title": "范畴逻辑 I——逻辑与数学结构的对应",
+      "url": "https://zhuanlan.zhihu.com/p/426945839",
+      "summary": "正文系统讲解范畴与逻辑片段、模型与函子的对应，以及范畴语义中的商结构和泛性质。"
+    },
+    {
+      "title": "推导Simply Typed Lambda Calculus的范畴论语义",
+      "url": "https://zhuanlan.zhihu.com/p/427545957",
+      "summary": "正文以STLC的类型与替换规则为出发点，推导范畴、乘积、终对象、指数对象及笛卡尔闭范畴等结构。"
+    },
+    {
+      "title": "范畴论杂谈：数学，哲学，以及数学哲学",
+      "url": "https://zhuanlan.zhihu.com/p/435783715",
+      "summary": "正文系统介绍范畴、函子、自然变换、泛性质、表示函子和 Yoneda 引理，并给出范畴等价的定义与练习。"
+    },
+    {
+      "title": "以范畴论窥高等数学",
+      "url": "https://zhuanlan.zhihu.com/p/443804053",
+      "summary": "正文定义对象与态射并利用泛性质证明始对象，以范畴论语言刻画积分。"
+    },
+    {
+      "title": "瞎写一点代数拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/442976804",
+      "summary": "正文用函子、伴随对和模型范畴表述同伦理论与上同调理论。"
+    },
+    {
+      "title": "Functorial Algebraic Geometry",
+      "url": "https://zhuanlan.zhihu.com/p/523080680",
+      "summary": "正文用 Yoneda 引理、可表函子和函子范畴重新表述概形，展开函子化代数几何的范畴框架。"
+    },
+    {
+      "title": "形变理论漫谈",
+      "url": "https://zhuanlan.zhihu.com/p/523108260",
+      "summary": "正文把形变问题表述为局部 Artin 环上的函子，并讨论可表性、pro-representability 和函子范畴。"
+    },
+    {
+      "title": "范畴论简介",
+      "url": "https://zhuanlan.zhihu.com/p/527510520",
+      "summary": "正文以乘积、左伴随和态射为例，介绍范畴论统一描述抽象数学结构的基本视角。"
+    },
+    {
+      "title": "米田引理的一种几何解释",
+      "url": "https://zhuanlan.zhihu.com/p/543197612",
+      "summary": "正文以测试空间和预层解释 Yoneda 嵌入、Yoneda 引理及可表函子，并扩展到单纯集、光滑集和层。"
+    },
+    {
+      "title": "为什么“双对偶空间”更自然？",
+      "url": "https://zhuanlan.zhihu.com/p/546110565",
+      "summary": "正文把线性空间与线性映射组织成范畴，并用函子、自然变换和交换图解释自然同构。"
+    },
+    {
+      "title": "如何自底向上地建立起对 Monad 的理解",
+      "url": "https://zhuanlan.zhihu.com/p/579141325",
+      "summary": "正文系统介绍对象、态射、函子、自然变换、幺半范畴及函子范畴，并据此解释 Monad。"
+    },
+    {
+      "title": "范畴论学习笔记(1): 范畴究竟有多抽象",
+      "url": "https://zhuanlan.zhihu.com/p/593293486",
+      "summary": "正文定义对象、态射、复合与单位态射，并以集合、拓扑空间、群和对偶范畴为例系统讲解范畴论。"
+    },
+    {
+      "title": "浅谈范畴论的学习层次",
+      "url": "https://zhuanlan.zhihu.com/p/617200762",
+      "summary": "正文按学习阶段讨论范畴论的对象与态射视角，并介绍积、余积、极限、泛性质和函子等核心构造。"
+    },
+    {
+      "title": "最抽象的数学工具——范畴论，正在成为一种全新的思考事物的方式",
+      "url": "https://zhuanlan.zhihu.com/p/626038635",
+      "summary": "正文系统介绍范畴、态射、函子、自然变换和泛性质等范畴论基本概念及例子。"
+    },
+    {
+      "title": "大模型的能力边界在哪里？",
+      "url": "https://zhuanlan.zhihu.com/p/634467074",
+      "summary": "正文系统介绍范畴、函子、自然变换和米田引理，并用它们分析模型能力。"
+    },
+    {
+      "title": "从伽罗瓦理论到代数基本群——谈谈伽罗瓦范畴",
+      "url": "https://zhuanlan.zhihu.com/p/650751371",
+      "summary": "正文系统定义Galois范畴和基本函子，并用范畴等价统一Galois理论与覆叠空间理论。"
+    },
+    {
+      "title": "曲线模空间小品1——模空间和叠的产生以及曲线模空间代数理论建立的艰苦历史（引言）",
+      "url": "https://zhuanlan.zhihu.com/p/651462307",
+      "summary": "正文用函子、群胚、可表性和下降条件形式化模问题，并展开范畴论工具。"
+    },
+    {
+      "title": "范畴论入门",
+      "url": "https://zhuanlan.zhihu.com/p/656675602",
+      "summary": "正文从集合与函数的复合出发解释范畴、态射、交换图、函子等基本结构，并以图观点系统介绍范畴论。"
+    },
+    {
+      "title": "n-范畴与上同调",
+      "url": "https://zhuanlan.zhihu.com/p/673725307",
+      "summary": "正文系统解释 n-范畴的态射层级、函子满性及遗忘函子等范畴论结构。"
+    },
+    {
+      "title": "通过范畴论，数学摆脱了等号",
+      "url": "https://zhuanlan.zhihu.com/p/679171933",
+      "summary": "正文系统介绍 Eilenberg 与 Mac Lane 的范畴概念、对象关系和无穷范畴，并说明以等价替代相等的基础研究。"
+    },
+    {
+      "title": "6大数学分支，织就一张纠缠的思想网，成为人类最强大的创造",
+      "url": "https://zhuanlan.zhihu.com/p/683784425",
+      "summary": "正文以向量空间、群、拓扑空间和集合之间保持结构的映射为例，解释范畴论对数学结构及其映射的抽象。"
+    },
+    {
+      "title": "范畴论，最高级的数学抽象，数学家武器库中最强大的武器",
+      "url": "https://zhuanlan.zhihu.com/p/704508176",
+      "summary": "正文系统讲解范畴的对象、箭头、结合律与恒等箭头，说明范畴论如何统一不同数学结构。"
+    },
+    {
+      "title": "「彻底理解张量」系列补充内容: 更加优雅的张量理解之泛性质(Universal Property)",
+      "url": "https://zhuanlan.zhihu.com/p/706252457",
+      "summary": "正文系统讲解张量积的泛性质，以交换图证明存在唯一诱导线性映射并在同构意义下确定对象。"
+    },
+    {
+      "title": "最高级的数学——范畴论，这是你轻松理解它的最好方式",
+      "url": "https://zhuanlan.zhihu.com/p/709883301",
+      "summary": "正文解释范畴、函子、自然变换和二维范畴等范畴论基础结构。"
+    },
+    {
+      "title": "纵览微分几何中的数学思想",
+      "url": "https://zhuanlan.zhihu.com/p/714804790",
+      "summary": "正文具体讨论映射提升为函子、推出与拉回以及指数结构，用范畴论观点解释几何与拓扑结构。"
+    },
+    {
+      "title": "数学界常见名词介绍（只介绍纯数学）",
+      "url": "https://zhuanlan.zhihu.com/p/826323323",
+      "summary": "正文解释了范畴论以对象关系为研究对象，并说明它在代数几何和代数拓扑中的作用。"
+    },
+    {
+      "title": "同调代数杂烩",
+      "url": "https://zhuanlan.zhihu.com/p/12371654454",
+      "summary": "文中围绕泛性质、正合函子和导出函子说明代数构造，体现了范畴论中的普遍对象和函子思想。"
+    },
+    {
+      "title": "一个年轻的女数学家，用“范畴论”，颠覆了我们对“语言”的理解",
+      "url": "https://zhuanlan.zhihu.com/p/1899667091159757967",
+      "summary": "正文以对象、态射、函子和复合具体说明如何用范畴论建模语言结构。"
+    },
+    {
+      "title": "Laurent Lafforgue 采访回顾",
+      "url": "https://zhuanlan.zhihu.com/p/1921177546038440105",
+      "summary": "正文把意象解释为比空间更广的范畴式对象，并通过分类意象及其模型说明其框架作用。"
+    },
+    {
+      "title": "模空间的动机",
+      "url": "https://zhuanlan.zhihu.com/p/1940029128276445092",
+      "summary": "正文用反变函子和自然变换刻画模问题及其可表示性。"
+    },
+    {
+      "title": "范畴作为独立研究对象的重要性",
+      "url": "https://zhuanlan.zhihu.com/p/1940416865814946224",
+      "summary": "正文讨论把范畴作为独立研究对象、提升到 2-范畴和高阶范畴的必要性。"
+    },
+    {
+      "title": "两位研究者彼得・舒尔茨（Peter Scholze）与达斯汀・克劳森（Dustin Clausen）正从底层重建数学大厦——译自量子杂志Quanta Magazine",
+      "url": "https://zhuanlan.zhihu.com/p/2041461229869324085",
+      "summary": "正文定义范畴中的对象与态射，并用函子说明如何在范畴之间保持对象和态射的对应关系。"
+    },
+    {
+      "title": "函数、泛函、算子、函子：数学抽象的四级台阶",
+      "url": "https://zhuanlan.zhihu.com/p/2047997630098170642",
+      "summary": "正文说明范畴间函子如何作用于对象和态射，并要求保持恒等与复合结构。"
+    }
+  ]
+}

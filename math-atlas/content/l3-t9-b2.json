@@ -1,0 +1,1386 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t9-b2",
+  "sources": [
+    {
+      "title": "如何理解傅里叶变换公式？",
+      "url": "https://www.zhihu.com/answer/14738630",
+      "summary": "把输入分解为小脉冲，再叠加响应以说明卷积；此解释需要线性时不变系统条件，原文没有充分说明，脉冲“能量1焦耳”也不能代替单位冲激定义。"
+    },
+    {
+      "title": "在定义卷积时为什么要对其中一个函数进行翻转？",
+      "url": "https://www.zhihu.com/answer/15302227",
+      "summary": "以拉链类比解释卷积中的翻转和平移，并与互相关比较。属于信号处理直觉说明；互相关定义的共轭、方向约定及系统条件需另行明确。"
+    },
+    {
+      "title": "卷积的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/22430109",
+      "summary": "正文围绕「卷积的物理意义是什么？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "卷积的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/22964228",
+      "summary": "正文围绕「卷积的物理意义是什么？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "卷积 FFT 本质应该怎么理解？",
+      "url": "https://www.zhihu.com/answer/30659783",
+      "summary": "正文围绕“卷积”给出说明、例证或方法。"
+    },
+    {
+      "title": "自相关函数怎么理解，为什么定义中有共轭，卷积呢。定义中的卷积，共轭有什么意义？尤其是在信号处理方面",
+      "url": "https://www.zhihu.com/answer/31176606",
+      "summary": "正文围绕“卷积”给出说明、例证或方法。"
+    },
+    {
+      "title": "有哪些算法惊艳到了你？",
+      "url": "https://www.zhihu.com/answer/34621371",
+      "summary": "正文说明数论变换可用于快速计算卷积。"
+    },
+    {
+      "title": "如何通俗易懂地解释卷积？",
+      "url": "https://www.zhihu.com/answer/35652690",
+      "summary": "正文用信号响应的叠加解释卷积。"
+    },
+    {
+      "title": "在 Caffe 中如何计算卷积？",
+      "url": "https://www.zhihu.com/answer/41121948",
+      "summary": "正文说明卷积可转化为矩阵乘法。"
+    },
+    {
+      "title": "卷积的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/50481954",
+      "summary": "正文由逐年存款和复利函数的加权求和定义卷积。"
+    },
+    {
+      "title": "如何通俗易懂地解释卷积？",
+      "url": "https://www.zhihu.com/answer/50940942",
+      "summary": "正文以复利和连续存款推导卷积积分公式。"
+    },
+    {
+      "title": "数学本科生看调和分析需要哪些基础课程？有哪些参考书推荐？",
+      "url": "https://www.zhihu.com/answer/82717432",
+      "summary": "正文说明 Calderón-Zygmund 不等式处理卷积型奇异积分。"
+    },
+    {
+      "title": "如何通俗易懂地解释卷积？",
+      "url": "https://www.zhihu.com/answer/91131073",
+      "summary": "正文用连续巴掌响应的叠加直观解释线性时不变系统中的卷积。"
+    },
+    {
+      "title": "如何通俗易懂地解释卷积？",
+      "url": "https://www.zhihu.com/answer/93093486",
+      "summary": "全文从多项式系数与傅里叶变换两个角度解释卷积。"
+    },
+    {
+      "title": "循环卷积和线性卷积在信号处理中的意义是什么？",
+      "url": "https://www.zhihu.com/answer/93515223",
+      "summary": "正文严格推导循环卷积、线性卷积的关系及长度条件。"
+    },
+    {
+      "title": "如何通俗易懂地解释卷积？",
+      "url": "https://www.zhihu.com/answer/96263002",
+      "summary": "正文以线性时不变系统说明卷积是延迟响应的叠加。"
+    },
+    {
+      "title": "傅里叶级数的系数是怎么得到的？",
+      "url": "https://www.zhihu.com/answer/105878252",
+      "summary": "正文借周期信号互相关函数解释卷积的滑动、相乘和累加过程。"
+    },
+    {
+      "title": "微博上外国人算乘法用的方法是什么原理？",
+      "url": "https://www.zhihu.com/answer/113229466",
+      "summary": "正文把多位数表示成多项式，推导乘法系数正是两序列卷积。"
+    },
+    {
+      "title": "怎样理解Nyquist采样定理？",
+      "url": "https://www.zhihu.com/answer/136796584",
+      "summary": "正文解释采样在频域中是与冲激序列卷积，并用 sinc 卷积给出恢复公式。"
+    },
+    {
+      "title": "卷积(convolution)为什么叫「卷」积(「convolut」ion)？",
+      "url": "https://www.zhihu.com/answer/141201875",
+      "summary": "正文从函数翻转、平移与积分解释卷积操作。"
+    },
+    {
+      "title": "卷积(convolution)为什么叫「卷」积(「convolut」ion)？",
+      "url": "https://www.zhihu.com/answer/141245297",
+      "summary": "正文用地毯卷合的重合点函数值之和直观解释卷积。"
+    },
+    {
+      "title": "卷积(convolution)为什么叫「卷」积(「convolut」ion)？",
+      "url": "https://www.zhihu.com/answer/141316355",
+      "summary": "正文计算两个序列的卷积并解释其与多项式乘法的关系。"
+    },
+    {
+      "title": "高斯模糊的原理是什么，怎样在界面中实现？",
+      "url": "https://www.zhihu.com/answer/141738672",
+      "summary": "正文以邻域权重加权平均实质说明图像卷积核的应用。"
+    },
+    {
+      "title": "为什么高斯函数的适用性这么强？",
+      "url": "https://www.zhihu.com/answer/148965636",
+      "summary": "正文解释高斯卷积核在线性尺度变换与图像平滑中的性质。"
+    },
+    {
+      "title": "如何通俗易懂地解释卷积？",
+      "url": "https://www.zhihu.com/answer/193852554",
+      "summary": "正文从单位脉冲、输入分解到极限积分完整推导卷积描述系统输出。"
+    },
+    {
+      "title": "卷积神经网络中用1*1  卷积有什么作用或者好处呢？",
+      "url": "https://www.zhihu.com/answer/195274297",
+      "summary": "正文从卷积运算的角度解释 1×1 核的实质和表示优势。"
+    },
+    {
+      "title": "请问CNN 中的 maxpool 到底是什么原理，为什么要取最大值，取最大值的原理是什么？谢谢。",
+      "url": "https://www.zhihu.com/answer/196368681",
+      "summary": "正文以卷积后的特征图说明池化如何保留卷积探测到的显著形状。"
+    },
+    {
+      "title": "arcsin(x)和tan(x)的泰勒展开有没有通项公式？",
+      "url": "https://www.zhihu.com/answer/201299860",
+      "summary": "正文把幂级数系数相乘明确写成离散卷积。"
+    },
+    {
+      "title": "如何通俗易懂地解释卷积？",
+      "url": "https://www.zhihu.com/answer/228543288",
+      "summary": "正文从连续与离散定义、骰子求和和图像平滑完整解释卷积。"
+    },
+    {
+      "title": "正态分布随机变量的和还是正态分布吗？",
+      "url": "https://www.zhihu.com/answer/241374535",
+      "summary": "正文明确把和变量密度写成两密度函数的卷积。"
+    },
+    {
+      "title": "怎样通俗易懂地解释反卷积？",
+      "url": "https://www.zhihu.com/answer/244259122",
+      "summary": "正文定义卷积与反卷积并给出从响应恢复原信号的多种方法。"
+    },
+    {
+      "title": "如何通俗易懂地解释卷积？",
+      "url": "https://www.zhihu.com/answer/257790355",
+      "summary": "正文用游戏伤害响应叠加推导离散卷积并解释其线性组合意义。"
+    },
+    {
+      "title": "atrous convolution是什么？",
+      "url": "https://www.zhihu.com/answer/269444489",
+      "summary": "正文解释空洞卷积的稀疏采样方式、参数量和假设。"
+    },
+    {
+      "title": "阿里巴巴公司根据截图查到泄露信息的具体员工的技术是什么？",
+      "url": "https://www.zhihu.com/answer/278510105",
+      "summary": "正文在信号系统部分实质讨论卷积与频域乘积关系。"
+    },
+    {
+      "title": "为什么很少人用FFT加速CNN卷积层的运算？",
+      "url": "https://www.zhihu.com/answer/280445640",
+      "summary": "正文解释基于傅里叶变换实现卷积的算法性质。"
+    },
+    {
+      "title": "卷积运算和相关运算的区别与物理含义?",
+      "url": "https://www.zhihu.com/answer/301650648",
+      "summary": "正文以图像滤波逐项比较卷积与互相关的方向、翻转和运算性质。"
+    },
+    {
+      "title": "如何评价球面卷积神经网络(Spherical CNNs)？",
+      "url": "https://www.zhihu.com/answer/332308804",
+      "summary": "正文把卷积推广到球面图像特征提取。"
+    },
+    {
+      "title": "如何理解 Graph Convolutional Network（GCN）？",
+      "url": "https://www.zhihu.com/answer/354673357",
+      "summary": "正文比较图卷积与传统图像卷积并解释其简化。"
+    },
+    {
+      "title": "如何理解统计中的特征函数？",
+      "url": "https://www.zhihu.com/answer/376439033",
+      "summary": "正文说明独立随机变量之和的分布卷积在特征函数表示下转化为乘法。"
+    },
+    {
+      "title": "为什么紧支集在分析里面这么重要？",
+      "url": "https://www.zhihu.com/answer/407987048",
+      "summary": "正文用近似恒等核与函数的卷积收敛作为例子。"
+    },
+    {
+      "title": "知识连成一片是什么体验？",
+      "url": "https://www.zhihu.com/answer/433744123",
+      "summary": "正文把卷积解释为函数内积。"
+    },
+    {
+      "title": "多年使用的均线到底是什么含义？",
+      "url": "https://www.zhihu.com/answer/443648020",
+      "summary": "正文将移动平均严格表示为时间序列与过滤函数的卷积。"
+    },
+    {
+      "title": "怎么推导或证明 e^x 的导数是自身？",
+      "url": "https://www.zhihu.com/answer/456180485",
+      "summary": "正文通过Cauchy卷积证明指数级数的加法公式。"
+    },
+    {
+      "title": "数学学习或研究中，你见过哪些有意思的反例？",
+      "url": "https://www.zhihu.com/answer/462665185",
+      "summary": "正文利用卷积的宽度与面积性质完成积分比较。"
+    },
+    {
+      "title": "X 与 Y 相互独立且服从标准正态分布，如何求 Z=XY 的概率密度？",
+      "url": "https://www.zhihu.com/answer/477717615",
+      "summary": "正文从随机变量和的密度推导熟悉的卷积公式。"
+    },
+    {
+      "title": "群论在数学分析中的应用？",
+      "url": "https://www.zhihu.com/answer/571960670",
+      "summary": "正文列出群上卷积和傅里叶变换等统一概念。"
+    },
+    {
+      "title": "如何通俗易懂地解释卷积？",
+      "url": "https://www.zhihu.com/answer/637156871",
+      "summary": "完整定义连续与离散卷积，并以翻转、滑动、叠加解释计算和物理意义。"
+    },
+    {
+      "title": "数学中有哪些让你感到赏心悦目或是震惊的构造手法？",
+      "url": "https://www.zhihu.com/answer/686793634",
+      "summary": "把层的卷积作为截断与投影运算。"
+    },
+    {
+      "title": "想学习自适应控制、滑模控制、模糊控制、鲁棒控制，如何打下基石，该看些什么书？",
+      "url": "https://www.zhihu.com/answer/698715152",
+      "summary": "从系统输入输出推导卷积积分。"
+    },
+    {
+      "title": "如何评价目标检测模型AlignDet？",
+      "url": "https://www.zhihu.com/answer/780051681",
+      "summary": "说明可变形卷积如何取得对齐特征。"
+    },
+    {
+      "title": "傅里叶变换、拉普拉斯变换、Z 变换的联系是什么？为什么要进行这些变换？",
+      "url": "https://www.zhihu.com/answer/792223661",
+      "summary": "正文利用冲激响应的卷积表示系统输出，并据此验证复指数是特征向量。"
+    },
+    {
+      "title": "如何理解卷积与傅里叶变换的关系？",
+      "url": "https://www.zhihu.com/answer/798510348",
+      "summary": "正文解释时域卷积对应频域乘法并写出卷积积分。"
+    },
+    {
+      "title": "如何理解 Kramers Kronig 关系式和因果律之间的关系？",
+      "url": "https://www.zhihu.com/answer/830438696",
+      "summary": "用卷积定理把时域响应变为频域乘积。"
+    },
+    {
+      "title": "图像经过傅里叶变换以后，得到的频谱图为啥是对称的？又为啥在未频谱居中时，四周代表是低频，中间是高频？",
+      "url": "https://www.zhihu.com/answer/890111874",
+      "summary": "说明二维变换可分解为横纵方向运算并联系卷积。"
+    },
+    {
+      "title": "平均多少个 [a, b] 间的随机数之和才大于 c？",
+      "url": "https://www.zhihu.com/answer/1003693408",
+      "summary": "正文从n重卷积推导独立和的密度表达式。"
+    },
+    {
+      "title": "图像傅里叶变换的频率怎么理解？",
+      "url": "https://www.zhihu.com/answer/1035400862",
+      "summary": "正文用卷积解释傅里叶变换实部与虚部。"
+    },
+    {
+      "title": "如何通俗易懂地解释卷积？",
+      "url": "https://www.zhihu.com/answer/1071892762",
+      "summary": "正文以连续进食的累积效应推导卷积积分并解释两个函数的意义。"
+    },
+    {
+      "title": "气体分子平均自由程公式中，平均相对速率为何是平均速率的根号2倍？",
+      "url": "https://www.zhihu.com/answer/1143773783",
+      "summary": "正文明确通过概率密度卷积求随机变量之和的分布。"
+    },
+    {
+      "title": "请问为什么fft可以加速卷积运算？",
+      "url": "https://www.zhihu.com/answer/1221111637",
+      "summary": "正文把卷积表示为离散矩阵运算。"
+    },
+    {
+      "title": "你最喜欢的公式/定理是？",
+      "url": "https://www.zhihu.com/answer/1245320268",
+      "summary": "正文介绍并证明卷积定理及其在积分计算中的应用。"
+    },
+    {
+      "title": "积分型余项的泰勒公式是如何推导出来的？",
+      "url": "https://www.zhihu.com/answer/1251526038",
+      "summary": "正文用卷积定理完成拉普拉斯变换后的逆变换。"
+    },
+    {
+      "title": "请问你见过的最强的公式是什么？",
+      "url": "https://www.zhihu.com/answer/1306170291",
+      "summary": "正文列出卷积定理。"
+    },
+    {
+      "title": "如何通俗易懂地解释卷积？",
+      "url": "https://www.zhihu.com/answer/1392460040",
+      "summary": "正文以翻转、平移、相乘、积分解卷积定义。"
+    },
+    {
+      "title": "那个泊松分布的可加性怎么证明？",
+      "url": "https://www.zhihu.com/answer/1396779491",
+      "summary": "正文用卷积和求证明两个泊松随机变量之和的分布。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/1405528944",
+      "summary": "正文用卷积定理计算面积函数的拉普拉斯变换。"
+    },
+    {
+      "title": "为什么输入信号卷积冲激响应就能得到输出信号？",
+      "url": "https://www.zhihu.com/answer/1475105933",
+      "summary": "正文直接给出与「卷积」相关的解释、推导或应用。"
+    },
+    {
+      "title": "能解释一下这些公式吗?",
+      "url": "https://www.zhihu.com/answer/1618668220",
+      "summary": "正文以方波卷积直观解释积分中的乘积。"
+    },
+    {
+      "title": "考研数学概率论不记卷积公式学会于炳森的分布函数加暴力求导足以应付考试吗？",
+      "url": "https://www.zhihu.com/answer/1955411613",
+      "summary": "正文解释随机变量和差分布中的卷积公式及积分方法。"
+    },
+    {
+      "title": "为什么独立的正态分布的线性组合依然服从正态分布?",
+      "url": "https://www.zhihu.com/answer/2141727358",
+      "summary": "正文利用独立随机变量和的卷积公式完成正态分布可加性证明。"
+    },
+    {
+      "title": "请问为什么fft可以加速卷积运算？",
+      "url": "https://www.zhihu.com/answer/2329522108",
+      "summary": "正文证明时域卷积对应频域逐点乘积，从而用 FFT 加速卷积。"
+    },
+    {
+      "title": "在信号与系统这门课中，为什么要引入卷积运算，有什么好处？",
+      "url": "https://www.zhihu.com/answer/2386205415",
+      "summary": "正文从冲激分解、线性叠加和时不变性解释卷积在 LTI 系统中的作用。"
+    },
+    {
+      "title": "如何通俗的理解z变换？",
+      "url": "https://www.zhihu.com/answer/2431041407",
+      "summary": "正文用两个离散序列的多项式相乘并合并同次项来展示离散卷积。"
+    },
+    {
+      "title": "如何通俗易懂地解释卷积？",
+      "url": "https://www.zhihu.com/answer/2521980854",
+      "summary": "用连续拍脸的响应叠加解释卷积，并给出离散求和与连续积分两种定义。"
+    },
+    {
+      "title": "从对一个外行解释的角度，分析一下什么是小波分析？",
+      "url": "https://www.zhihu.com/answer/2551931873",
+      "summary": "正文用逐段滑动检波信号并对原信号相乘积分说明卷积，并据此引出短时傅里叶变换和小波分析。"
+    },
+    {
+      "title": "你最(不)想成为什么函数？",
+      "url": "https://www.zhihu.com/answer/2715831825",
+      "summary": "用磨光核与间断函数作卷积，构造逼近原函数的光滑函数。"
+    },
+    {
+      "title": "平均多少个 [a, b] 间的随机数之和才大于 c？",
+      "url": "https://www.zhihu.com/answer/2910702560",
+      "summary": "正文定义卷积并把更新方程写成概率密度与更新函数之间的卷积型方程。"
+    },
+    {
+      "title": "狄拉克(dirac)函数和迪利克雷(dirichlet)函数之间有关系吗？",
+      "url": "https://www.zhihu.com/answer/2965076428",
+      "summary": "正文写出周期狄利克雷核与周期函数的卷积积分，并通过卷积结果说明其 delta 梳性质。"
+    },
+    {
+      "title": "进行傅里叶变换是不是就是为了简化运算？",
+      "url": "https://www.zhihu.com/answer/3078090947",
+      "summary": "正文把竖式乘法中的交叉相乘与进位解释为离散卷积，并利用时域卷积对应频域乘积来简化计算。"
+    },
+    {
+      "title": "如何理解中心极限定理？",
+      "url": "https://www.zhihu.com/answer/3135590699",
+      "summary": "正文把两次独立事件分布的叠加写成积分卷积，并据此分析粗粒化算子。"
+    },
+    {
+      "title": "一个人扔六面的骰子，数值1到6，扔到几就向前走几格，可以无限扔，问他恰好走到第2023格的概率是多少?",
+      "url": "https://www.zhihu.com/answer/3173090784",
+      "summary": "正文以两枚骰子的点数和为例解释卷积，并用多项式卷积与生成函数计算多次投掷的概率。"
+    },
+    {
+      "title": "卷积神经网络图像处理卷积时，为啥要旋转180°？",
+      "url": "https://www.zhihu.com/answer/3299734411",
+      "summary": "正文从输入与响应的时域对应解释卷积翻转、卷积核方向以及卷积与cross-correlation的关系。"
+    },
+    {
+      "title": "如何将卷积神经网络应用在一维时间序列数据上？",
+      "url": "https://www.zhihu.com/answer/3303868269",
+      "summary": "正文解释 depth-wise 与组卷积如何分别建模时间、通道和变量关系，并给出一维卷积实现。"
+    },
+    {
+      "title": "如何通俗理解卷积？",
+      "url": "https://www.zhihu.com/answer/3307451438",
+      "summary": "正文从脉冲响应的叠加和衰减连续说明卷积，并分别给出离散求和式与积分式定义。"
+    },
+    {
+      "title": "如何理解 Mamba 模型 Selective State Spaces?",
+      "url": "https://www.zhihu.com/answer/3407426487",
+      "summary": "正文把离散状态递推展开为输入核卷积，并讨论卷积形式可并行训练的特点。"
+    },
+    {
+      "title": "为什么在信号与系统中要使用卷积？",
+      "url": "https://www.zhihu.com/answer/3549000567",
+      "summary": "正文以礼物影响的衰减和累积解释系统记忆，并由离散求和过渡到连续积分来定义卷积。"
+    },
+    {
+      "title": "傅里叶级数为什么会收敛到原函数？",
+      "url": "https://www.zhihu.com/answer/3561255393",
+      "summary": "正文把傅里叶级数的部分和写成与原函数的卷积，并据此研究核函数的收敛性。"
+    },
+    {
+      "title": "进制转换的原理是什么？",
+      "url": "https://www.zhihu.com/answer/3607802605",
+      "summary": "正文把两个整数的各位数字相乘解释为离散序列卷积，并说明卷积结果再处理进位可得到乘积。"
+    },
+    {
+      "title": "信号与系统里面的采样处理，为什么要用冲激函数，而不是直接在采样点上乘1？",
+      "url": "https://www.zhihu.com/answer/3612206967",
+      "summary": "正文指出连续信号傅里叶变换与采样函数变换相乘对应卷积，借此连接连续与离散频域。"
+    },
+    {
+      "title": "傅里叶变换的意义是什么？",
+      "url": "https://www.zhihu.com/answer/4842170688",
+      "summary": "正文定义连续卷积并逐步推导卷积定理，说明时域卷积与频域乘积的对应关系。"
+    },
+    {
+      "title": "如何计算百万位级别的大数乘法？",
+      "url": "https://www.zhihu.com/answer/18989697232",
+      "summary": "正文说明大整数乘法对应多项式系数卷积，并通过点值相乘和插值计算该卷积。"
+    },
+    {
+      "title": "为什么学了信号与系统后感觉只会作些课后题，对它的原理和本质很迷茫？",
+      "url": "https://www.zhihu.com/answer/59244779258",
+      "summary": "正文把卷积解释为以冲激函数为基的函数线性组合，并给出卷积积分式。"
+    },
+    {
+      "title": "拉普拉斯变换是什么意思，原理是什么？",
+      "url": "https://www.zhihu.com/answer/63190113585",
+      "summary": "正文讨论拉普拉斯变换下的卷积性质、阶跃响应及单边情形的条件。"
+    },
+    {
+      "title": "中学数学题的「隐藏 BOSS」，你在哪些题里窥见了大学数学的影子？",
+      "url": "https://www.zhihu.com/answer/124219636719",
+      "summary": "正文给出连续信号自相关系数的卷积积分定义，并用周期分解解释其所刻画的长短期周期。"
+    },
+    {
+      "title": "计算方法解微分方程的一种方法为谱方法，哪位牛哥可以通俗的讲解一下原理，思路和方法？",
+      "url": "https://www.zhihu.com/answer/1928908173483434044",
+      "summary": "正文把循环矩阵作用于向量解释为卷积，并说明可用离散傅里叶变换和 FFT 高效计算。"
+    },
+    {
+      "title": "1/2阶导数是什么？",
+      "url": "https://www.zhihu.com/answer/1960836667482038371",
+      "summary": "正文写出 x^{a-1} 与 f(x) 的卷积及其拉普拉斯变换，说明卷积核如何表示分数阶积分。"
+    },
+    {
+      "title": "数学中有哪些通过升高维度巧妙证明或解题的方法？",
+      "url": "https://www.zhihu.com/answer/1988693120360158156",
+      "summary": "正文以 Poisson 核卷积说明通过附加维度把边界上的粗糙函数光滑化。"
+    },
+    {
+      "title": "傅里叶变换的意义是什么？",
+      "url": "https://www.zhihu.com/answer/2000987684697552037",
+      "summary": "正文定义卷积，说明时域卷积对应频域乘积并解释卷积算子的对角化。"
+    },
+    {
+      "title": "学习数学时，什么时候该停止考虑“几何意义”?",
+      "url": "https://www.zhihu.com/answer/2021670558799021568",
+      "summary": "正文把卷积核视为平移的特征模板，用局部内积说明卷积如何提取特征。"
+    },
+    {
+      "title": "很多老师都用1.01的365次方和0.99的365次方论证要坚持每天进步，可这个模型跟实际相符吗?",
+      "url": "https://www.zhihu.com/answer/2056768098947032810",
+      "summary": "正文把过去学习输入对当前状态的累积写成卷积，并用二维状态的记忆核解释短期与长期保持。"
+    },
+    {
+      "title": "每次均匀随机走0-1米，走100米需要几次？",
+      "url": "https://zhuanlan.zhihu.com/p/20056219",
+      "summary": "正文用两个独立随机变量之和解释卷积，并说明均匀随机变量和的分布是均匀分布的多次自卷积。"
+    },
+    {
+      "title": "维纳滤波 Wiener Filter",
+      "url": "https://zhuanlan.zhihu.com/p/20850601",
+      "summary": "正文把因果 Wiener-Hopf 积分方程识别为自相关函数与滤波器的时域卷积。"
+    },
+    {
+      "title": "【fMRI Note】Module 16 一般线性模型在fMRI上的应用",
+      "url": "https://zhuanlan.zhihu.com/p/22459025",
+      "summary": "正文用血液动力学响应函数与神经响应的卷积构造fMRI实验的预测变量。"
+    },
+    {
+      "title": "采样定理的推理过程",
+      "url": "https://zhuanlan.zhihu.com/p/24334995",
+      "summary": "正文利用时域相乘对应频域卷积，将冲激串频谱与原信号频谱卷积后得到采样信号频谱。"
+    },
+    {
+      "title": "10492 你可曾听过位运算的天籁？",
+      "url": "https://zhuanlan.zhihu.com/p/24912672",
+      "summary": "正文把截顶操作解释为多个方波信号在时域相乘，并具体分析其频域卷积后的分量。"
+    },
+    {
+      "title": "NIUBILITY的相关滤波框架详解",
+      "url": "https://zhuanlan.zhihu.com/p/26415984",
+      "summary": "正文解释卷积与相关的区别，并说明循环移位的频域计算如何形成响应图。"
+    },
+    {
+      "title": "实时渲染中的软阴影技术",
+      "url": "https://zhuanlan.zhihu.com/p/26853641",
+      "summary": "正文利用卷积定理比较先滤波与后滤波，并据此说明阴影映射的预滤波条件。"
+    },
+    {
+      "title": "正交频分复用（OFDM）原理",
+      "url": "https://zhuanlan.zhihu.com/p/26868447",
+      "summary": "正文用时域圆周卷积与 DFT 的乘积关系推导 OFDM 子载波正交性和可分离性。"
+    },
+    {
+      "title": "像阿老师一样下围棋，体验 policy network 的运作【走近 AlphaGo (7.3)】",
+      "url": "https://zhuanlan.zhihu.com/p/28424619",
+      "summary": "正文具体演示 3×3 卷积核如何按棋子位置和邻接关系为棋盘各点累加分数。"
+    },
+    {
+      "title": "通过Haar小波认识离散小波变换",
+      "url": "https://zhuanlan.zhihu.com/p/28575472",
+      "summary": "正文定义离散滤波器与卷积算子，并用相邻系数运算说明Haar小波的分解和重构。"
+    },
+    {
+      "title": "统计学笔记|数理统计知识点概要（2）",
+      "url": "https://zhuanlan.zhihu.com/p/29091290",
+      "summary": "正文先陈述并证明卷积积分公式，再用它推导独立正态随机变量之和的概率密度。"
+    },
+    {
+      "title": "2. 信号与线性系统——信号的分解",
+      "url": "https://zhuanlan.zhihu.com/p/31921889",
+      "summary": "正文把任意信号表示为冲激函数的积分，再通过冲激响应和叠加积分还原系统响应，实质讲解卷积的时域构造。"
+    },
+    {
+      "title": "卷积（convolution）与互相关(cross-correlation)的一点探讨",
+      "url": "https://zhuanlan.zhihu.com/p/33194385",
+      "summary": "正文分别写出互相关与卷积公式，通过滤波器翻转解释二者差异及卷积的交换结合性质。"
+    },
+    {
+      "title": "走样与反走样（Aliasing/Anti-Aliasing）：Basics",
+      "url": "https://zhuanlan.zhihu.com/p/33444125",
+      "summary": "正文依据卷积定理分析采样函数与重建滤波器的卷积，并说明理想重建为何是在时域用 sinc 函数卷积。"
+    },
+    {
+      "title": "KCF学习笔记 【目标跟踪】",
+      "url": "https://zhuanlan.zhihu.com/p/33543297",
+      "summary": "正文说明循环矩阵乘法与卷积的等价关系，并利用时域卷积对应频域相乘来化简计算。"
+    },
+    {
+      "title": "实分析|笔记整理（8）——核，恒等逼近，函数可微性（1）",
+      "url": "https://zhuanlan.zhihu.com/p/33866656",
+      "summary": "正文给出卷积与核函数的定义，证明恒等逼近核在勒贝格集合上收敛到原函数，并讨论 L1 收敛。"
+    },
+    {
+      "title": "【计算机视觉】2. 特征点检测：Harris, SIFT, SURF, ORB",
+      "url": "https://zhuanlan.zhihu.com/p/36382429",
+      "summary": "正文把高斯滤波、图像金字塔、高斯差分和局部响应都建立在图像卷积之上。"
+    },
+    {
+      "title": "自动控制总结：第六章、线性离散系统",
+      "url": "https://zhuanlan.zhihu.com/p/37447204",
+      "summary": "正文陈述离散卷积和定理，说明时域卷积对应 Z 域乘积，并用它求脉冲传递函数。"
+    },
+    {
+      "title": "大牛讲解信号与系统和数字信号处理",
+      "url": "https://zhuanlan.zhihu.com/p/38595188",
+      "summary": "正文用脉冲响应和输入分解解释卷积，并说明时域卷积对应频域相乘。"
+    },
+    {
+      "title": "FWT(快速沃尔什变换)零基础详解qaq（ACM/OI）",
+      "url": "https://zhuanlan.zhihu.com/p/41867199",
+      "summary": "正文以变换后点乘再逆变换的流程讲解按位与、或、异或运算下的卷积。"
+    },
+    {
+      "title": "如何理解离散傅里叶变换及Z变换",
+      "url": "https://zhuanlan.zhihu.com/p/45114376",
+      "summary": "正文用卷积定理说明采样后频谱为何被周期延拓，并据此推导采样定理。"
+    },
+    {
+      "title": "概率论学习笔记（三）",
+      "url": "https://zhuanlan.zhihu.com/p/45346632",
+      "summary": "正文通过分布函数法推导随机变量和的密度公式，并明确指出该运算是卷积。"
+    },
+    {
+      "title": "使用时序卷积和半监督训练对视频中的3D人类位姿估计（Facebook AI Research）",
+      "url": "https://zhuanlan.zhihu.com/p/51211986",
+      "summary": "正文把空洞时序卷积作为从二维关键点序列估计三维位姿的核心结构，具体介绍了卷积在时序建模中的作用。"
+    },
+    {
+      "title": "快速计算数列a的多点等幂和",
+      "url": "https://zhuanlan.zhihu.com/p/51279047",
+      "summary": "正文利用生成函数的乘积和对数表示幂和，并把期望展开成阶乘缩放后的生成函数卷积，再用 FFT 加速计算。"
+    },
+    {
+      "title": "《数字图像处理（MATLAB版）》学习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/54477434",
+      "summary": "正文说明空间滤波以卷积为核心，并给出空间卷积等于频域相乘这一关系。"
+    },
+    {
+      "title": "图卷积网络(GCN)新手村完全指南",
+      "url": "https://zhuanlan.zhihu.com/p/54505069",
+      "summary": "正文先给出一维和二维卷积定义，再利用卷积定理推导图卷积公式。"
+    },
+    {
+      "title": "调和分析（一）",
+      "url": "https://zhuanlan.zhihu.com/p/49211182",
+      "summary": "正文定义广义函数的卷积，讨论其成立条件、交换性以及卷积与乘积的 Fourier 对应关系。"
+    },
+    {
+      "title": "调和分析中的迁移法 （1）",
+      "url": "https://zhuanlan.zhihu.com/p/55229617",
+      "summary": "正文把 Poisson 核作用定义为卷积，并比较一般卷积算子与迁移算子的范数。"
+    },
+    {
+      "title": "剖析KCF",
+      "url": "https://zhuanlan.zhihu.com/p/56405827",
+      "summary": "正文利用时域卷积与傅里叶频域逐点乘法的对应关系，把循环卷积化为频域计算。"
+    },
+    {
+      "title": "你真的学会RoI Pooling了吗?",
+      "url": "https://zhuanlan.zhihu.com/p/59692298",
+      "summary": "正文说明卷积层反向传播通过对翻转卷积核与梯度误差作卷积来求上一层的梯度。"
+    },
+    {
+      "title": "经典半监督图卷积神经网络Semi-GCN",
+      "url": "https://zhuanlan.zhihu.com/p/58178060",
+      "summary": "正文逐步说明信号与卷积核在图频域相乘再逆变换的图卷积过程。"
+    },
+    {
+      "title": "从 Graph Convolution Networks (GCN) 谈起",
+      "url": "https://zhuanlan.zhihu.com/p/60014316",
+      "summary": "正文系统讨论谱图卷积、一阶近似和不同图算子下的聚合效果，实质展开卷积。"
+    },
+    {
+      "title": "Verilog设计低通FIR滤波器",
+      "url": "https://zhuanlan.zhihu.com/p/60891225",
+      "summary": "正文给出 FIR 输出与滤波系数的卷积关系，并用逐项乘加实现该离散卷积。"
+    },
+    {
+      "title": "图卷积神经网络(Graph Convolutional Network, GCN)",
+      "url": "https://zhuanlan.zhihu.com/p/60962304",
+      "summary": "正文利用图傅里叶正逆变换定义图卷积，并进一步推导可训练的卷积核。"
+    },
+    {
+      "title": "卷积、互相关与自相关",
+      "url": "https://zhuanlan.zhihu.com/p/62292503",
+      "summary": "正文给出连续与离散卷积公式，并用翻转、平移和叠加解释其运算过程。"
+    },
+    {
+      "title": "RepPoints：可形变卷积的进阶",
+      "url": "https://zhuanlan.zhihu.com/p/64522910",
+      "summary": "正文给出可形变卷积和调制可形变卷积的采样与加权公式，具体说明卷积运算的变体。"
+    },
+    {
+      "title": "模型预测控制(MPC)算法之一MAC算法",
+      "url": "https://zhuanlan.zhihu.com/p/66801694",
+      "summary": "正文以脉冲响应的离散卷积构造模型算法控制中系统未来输出的预测模型。"
+    },
+    {
+      "title": "流形上的卷积",
+      "url": "https://zhuanlan.zhihu.com/p/67381155",
+      "summary": "正文从平面卷积扩展到球面卷积和流形上的规范等变卷积，并说明不同几何下的实现约束。"
+    },
+    {
+      "title": "从泊松方程的解法，聊到泊松图像融合",
+      "url": "https://zhuanlan.zhihu.com/p/68349210",
+      "summary": "正文把二阶中心差分和二维拉普拉斯算子化为卷积核，并实际用卷积进行计算。"
+    },
+    {
+      "title": "【深度学习】图神经网络与图卷积网络",
+      "url": "https://zhuanlan.zhihu.com/p/70028587",
+      "summary": "正文分别从频谱域滤波和空间邻域采样聚合两条路径定义图卷积，并给出 GCN 与 GraphSAGE 的传播公式。"
+    },
+    {
+      "title": "4. 传递函数",
+      "url": "https://zhuanlan.zhihu.com/p/70345660",
+      "summary": "正文从脉冲响应和输入分解推出 LTI 系统的卷积积分表达。"
+    },
+    {
+      "title": "信号之间的时延估计",
+      "url": "https://zhuanlan.zhihu.com/p/71930587",
+      "summary": "正文给出卷积积分并说明互相关可用线性卷积计算，进一步讨论其频域实现和计算量。"
+    },
+    {
+      "title": "【图像处理三】图像增强算法",
+      "url": "https://zhuanlan.zhihu.com/p/73903664",
+      "summary": "正文在 Retinex 图像增强中具体说明用高斯函数与图像卷积估计照度分量，并给出离散模板。"
+    },
+    {
+      "title": "偏微分方程笔记(2)——Laplace(位势)方程的基本解",
+      "url": "https://zhuanlan.zhihu.com/p/75732103",
+      "summary": "正文把Poisson方程解写成基本解与右端函数的积分卷积形式，并讨论奇点处理。"
+    },
+    {
+      "title": "STGCN论文详解",
+      "url": "https://zhuanlan.zhihu.com/p/78259670",
+      "summary": "正文解释 STGCN 中沿时间维的一维卷积、图卷积及卷积核的组合方式。"
+    },
+    {
+      "title": "傅里叶变换的性质及基本应用",
+      "url": "https://zhuanlan.zhihu.com/p/78775455",
+      "summary": "正文定义卷积并说明卷积的傅里叶变换等于两个象函数之积。"
+    },
+    {
+      "title": "Radon 变换",
+      "url": "https://zhuanlan.zhihu.com/p/79722768",
+      "summary": "正文给出卷积定义，并完整推导两个函数卷积的傅里叶变换等于各自傅里叶变换的乘积。"
+    },
+    {
+      "title": "偏微分方程笔记(5)——热传导方程的基本解",
+      "url": "https://zhuanlan.zhihu.com/p/80214720",
+      "summary": "正文用基本解与初值的卷积构造齐次热传导方程的解，并用 Duhamel 原理叠加非齐次源项。"
+    },
+    {
+      "title": "傅立叶变换的性质证明",
+      "url": "https://zhuanlan.zhihu.com/p/80683289",
+      "summary": "正文证明时域与频域卷积定理，说明函数卷积在傅里叶变换下如何转化为乘积。"
+    },
+    {
+      "title": "现代控制理论线性系统入门(二)状态变量的解和渐近稳定性",
+      "url": "https://zhuanlan.zhihu.com/p/85137646",
+      "summary": "正文由脉冲响应说明系统输出是权重函数与输入的卷积，并联系传递函数。"
+    },
+    {
+      "title": "群论在机器学习中的应用(I)：G-共变神经网络",
+      "url": "https://zhuanlan.zhihu.com/p/89849709",
+      "summary": "正文定义群卷积并证明卷积定理，明确讨论卷积及其傅立叶域性质。"
+    },
+    {
+      "title": "图卷积网络GCN的理解与介绍",
+      "url": "https://zhuanlan.zhihu.com/p/90470499",
+      "summary": "正文从传统卷积的邻域加权求和出发，推导图上卷积及多层邻域聚合公式。"
+    },
+    {
+      "title": "多维随机变量函数的分布",
+      "url": "https://zhuanlan.zhihu.com/p/91778595",
+      "summary": "正文分别给出离散与连续随机变量和的卷积公式，并用卷积求具体分布。"
+    },
+    {
+      "title": "高斯拉普拉斯算子（Laplacian of Gaussian, LoG）",
+      "url": "https://zhuanlan.zhihu.com/p/92143464",
+      "summary": "正文利用卷积的线性与结合律合并高斯核和拉普拉斯核，并说明离散图像上的卷积核实现。"
+    },
+    {
+      "title": "概率论中卷积公式的上下限确定",
+      "url": "https://zhuanlan.zhihu.com/p/92320384",
+      "summary": "正文用约束区域与积分直线的交点极值说明随机变量和之卷积积分的上下限确定方法。"
+    },
+    {
+      "title": "图卷积神经网络：Graph Convolutional Networks",
+      "url": "https://zhuanlan.zhihu.com/p/91573076",
+      "summary": "正文定义结点邻域的加权求和并给出空域与频域图卷积公式，实质展开卷积方法。"
+    },
+    {
+      "title": "ICLR 2020：从去噪自编码器到生成模型",
+      "url": "https://zhuanlan.zhihu.com/p/94350902",
+      "summary": "正文明确把带噪样本分布写成原分布与高斯噪声分布的卷积，并据此推导去噪最优解。"
+    },
+    {
+      "title": "偏微分方程笔记(13)——Fourier变换求PDE",
+      "url": "https://zhuanlan.zhihu.com/p/96829926",
+      "summary": "正文证明卷积的 L1 封闭性及其傅里叶变换乘积公式，并用卷积表示方程的解。"
+    },
+    {
+      "title": "离散傅立叶变换DTFT、DFT和FFT在工程与数学结合的通俗理解",
+      "url": "https://zhuanlan.zhihu.com/p/96857103",
+      "summary": "正文用时域采样与频域卷积、频谱采样与时域周期延拓解释离散变换。"
+    },
+    {
+      "title": "偏微分方程笔记(15)——Lp空间, Hölder空间, 磨光子",
+      "url": "https://zhuanlan.zhihu.com/p/97713317",
+      "summary": "正文以卷积定义磨光子规范化函数，并证明其光滑逼近性质。"
+    },
+    {
+      "title": "别怕，\"卷积\"其实很简单",
+      "url": "https://zhuanlan.zhihu.com/p/100289337",
+      "summary": "正文用脉冲响应叠加、滑动平均、图像滤波和多位数乘法具体解释卷积的定义、计算及物理含义。"
+    },
+    {
+      "title": "考前突击笔记：《信号与系统》",
+      "url": "https://zhuanlan.zhihu.com/p/100027292",
+      "summary": "正文总结傅里叶变换与拉普拉斯变换的时域卷积性质，并给出两个门函数卷积的几何结果。"
+    },
+    {
+      "title": "详解Winograd变换矩阵生成原理",
+      "url": "https://zhuanlan.zhihu.com/p/102351953",
+      "summary": "正文系统讨论离散卷积、相关系数以及卷积与多项式系数的对应关系。"
+    },
+    {
+      "title": "算法学习笔记(16): 生成函数",
+      "url": "https://zhuanlan.zhihu.com/p/106522599",
+      "summary": "正文明确建立数列卷积与生成函数乘法之间的对应关系，并用合并两组选择时的卷积系数完成计数。"
+    },
+    {
+      "title": "Chebyshev多项式作为GCN卷积核",
+      "url": "https://zhuanlan.zhihu.com/p/106687580",
+      "summary": "正文把 Chebyshev 多项式的加权和作为图卷积核，并代入图卷积公式构造局部卷积运算。"
+    },
+    {
+      "title": "泊松表面重建详解",
+      "url": "https://zhuanlan.zhihu.com/p/107653198",
+      "summary": "正文用平滑函数与指示函数、表面法向场的卷积关系构建重建所需的向量场。"
+    },
+    {
+      "title": "积分变换（3）——傅里叶变换的性质",
+      "url": "https://zhuanlan.zhihu.com/p/108803395",
+      "summary": "正文定义卷积，并用冲激函数的平移和加权叠加解释卷积运算，进而讲解时域与频域卷积定理。"
+    },
+    {
+      "title": "高等数学系列R之三：拉氏变换",
+      "url": "https://zhuanlan.zhihu.com/p/114535104",
+      "summary": "正文专门解释拉普拉斯变换中的卷积定理，并用例题求两个像函数乘积的反变换。"
+    },
+    {
+      "title": "卷积大乱炖",
+      "url": "https://zhuanlan.zhihu.com/p/116889239",
+      "summary": "正文从矢量、函数到离散及循环情形系统讲解卷积的定义、交换律、几何意义和计算例子。"
+    },
+    {
+      "title": "转置卷积(Transpose Convolution)",
+      "url": "https://zhuanlan.zhihu.com/p/115070523",
+      "summary": "正文具体定义卷积与转置卷积，并说明转置卷积等价于补零后使用翻转核的普通卷积。"
+    },
+    {
+      "title": "【GNN】万字长文带你入门 GCN",
+      "url": "https://zhuanlan.zhihu.com/p/120311352",
+      "summary": "正文给出连续与离散卷积定义，说明卷积定理以及先变换到频域后做卷积的计算优势。"
+    },
+    {
+      "title": "GCN中的等式证明",
+      "url": "https://zhuanlan.zhihu.com/p/121090537",
+      "summary": "正文证明谱域逐点相乘与图卷积的两种表达等价，从而解释图卷积在频域中的实现。"
+    },
+    {
+      "title": "图卷积网络(GCN)的谱分析",
+      "url": "https://zhuanlan.zhihu.com/p/124727955",
+      "summary": "正文给出连续、离散和二维卷积的积分或求和定义，并以时域卷积定理说明频域乘法求卷积。"
+    },
+    {
+      "title": "GCN 图卷积神经网络",
+      "url": "https://zhuanlan.zhihu.com/p/126113270",
+      "summary": "正文解释卷积的滤波与特征抽取过程，并推导图卷积的实现步骤。"
+    },
+    {
+      "title": "摆线的那些事儿——数学界的大型装逼事件",
+      "url": "https://zhuanlan.zhihu.com/p/126421949",
+      "summary": "正文识别阿贝尔积分方程为卷积，并运用卷积定理求等时降落曲线。"
+    },
+    {
+      "title": "【时空序列预测第八篇】时空序列预测模型之STGCN",
+      "url": "https://zhuanlan.zhihu.com/p/129854363",
+      "summary": "正文从图拉普拉斯矩阵特征分解出发讲解图卷积，并用切比雪夫多项式和一阶近似实现卷积核。"
+    },
+    {
+      "title": "南开大学程明明团队新作 | ResNet的又一改进：SCNet",
+      "url": "https://zhuanlan.zhihu.com/p/137368912",
+      "summary": "正文给出二维卷积的滤波器计算公式，并围绕卷积核拆分与特征融合解释 SCConv。"
+    },
+    {
+      "title": "轻松搞懂卷积",
+      "url": "https://zhuanlan.zhihu.com/p/137466111",
+      "summary": "正文从单位冲激分解、齐次性和叠加性推导 LTI 系统的离散卷积公式，并说明连续信号情形对应积分形式。"
+    },
+    {
+      "title": "算法学习笔记(35): 狄利克雷卷积",
+      "url": "https://zhuanlan.zhihu.com/p/137619492",
+      "summary": "正文给出狄利克雷卷积的除数求和定义，并系统证明交换律、结合律、分配律、单位元与逆元。"
+    },
+    {
+      "title": "随机变量和的分布——卷积公式的应用",
+      "url": "https://zhuanlan.zhihu.com/p/133690763",
+      "summary": "正文给出独立随机变量和的卷积公式，并通过一例与二重积分法对照应用。"
+    },
+    {
+      "title": "【调和分析】不同观点下的Fourier分析基础——Stein版",
+      "url": "https://zhuanlan.zhihu.com/p/144270552",
+      "summary": "正文定义卷积并证明卷积的 Fourier 变换等于两个 Fourier 变换的逐点乘积。"
+    },
+    {
+      "title": "从傅里叶级数到傅里叶变换 (From Fourier Series to Fourier transform)",
+      "url": "https://zhuanlan.zhihu.com/p/138531346",
+      "summary": "正文把卷积列为傅里叶变换的基本性质，并通过变量替换给出卷积定理的证明。"
+    },
+    {
+      "title": "史上最全的连续时间 Fourier 变换的性质及其证明（共22条），看到赚到！",
+      "url": "https://zhuanlan.zhihu.com/p/148484210",
+      "summary": "正文定义连续卷积并证明时域卷积对应频域乘积、时域乘积对应频域卷积。"
+    },
+    {
+      "title": "史上最全的卷积性质及其证明！(共10条)",
+      "url": "https://zhuanlan.zhihu.com/p/150737244",
+      "summary": "正文定义连续卷积并逐条证明交换性、结合性、微分与积分等性质，故对应卷积。"
+    },
+    {
+      "title": "读懂黎曼猜想（1）——莫比乌斯反演",
+      "url": "https://zhuanlan.zhihu.com/p/151302308",
+      "summary": "正文定义狄利克雷卷积，证明交换律和结合律，并用它统一推导莫比乌斯反演。"
+    },
+    {
+      "title": "公式墙(1)——Laplace Transform(拉普拉斯变换)",
+      "url": "https://zhuanlan.zhihu.com/p/152647974",
+      "summary": "正文给出卷积定义与卷积定理，把卷积的拉普拉斯变换化为两个像函数的乘积。"
+    },
+    {
+      "title": "卷积（背后意义、应用及计算）",
+      "url": "https://zhuanlan.zhihu.com/p/157435721",
+      "summary": "正文给出卷积积分公式，并从冲激分解、翻转平移和响应叠加解释卷积。"
+    },
+    {
+      "title": "随机变量分布问题的简便方法之一——公式法！",
+      "url": "https://zhuanlan.zhihu.com/p/162144400",
+      "summary": "正文给出独立随机变量之和的卷积密度公式，并列举分布可加性的例子。"
+    },
+    {
+      "title": "【骨骼行为识别】ST-GCN论文理解",
+      "url": "https://zhuanlan.zhihu.com/p/173726331",
+      "summary": "正文对比二维卷积与图卷积，并展开卷积核、感受野以及空间和时间特征的卷积提取。"
+    },
+    {
+      "title": "当数论遇上分析——拉马努金和与欧拉函数的故事",
+      "url": "https://zhuanlan.zhihu.com/p/166530236",
+      "summary": "正文将上述特殊 DFT 改写为 Dirichlet 卷积，并给出对应的卷积表达式。"
+    },
+    {
+      "title": "离散傅里叶变换、循环卷积与卷积定理",
+      "url": "https://zhuanlan.zhihu.com/p/176935055",
+      "summary": "正文给出离散序列的循环卷积定理，并证明频域逐元素乘积与时域循环卷积的对应关系。"
+    },
+    {
+      "title": "AI大语音（四）|  MFCC特征提取（深度解析）",
+      "url": "https://zhuanlan.zhihu.com/p/181718235",
+      "summary": "正文在语音特征提取中说明傅里叶变换把卷积转成频域乘法，再借助对数把乘性关系转为加性关系。"
+    },
+    {
+      "title": "IJCAI 2019 Graph WaveNet for Deep ST Graph",
+      "url": "https://zhuanlan.zhihu.com/p/186228206",
+      "summary": "正文定义图上的扩散卷积，说明前向、反向转移矩阵及多步传播如何聚合邻接节点的信息。"
+    },
+    {
+      "title": "一些数学分析不错的题目",
+      "url": "https://zhuanlan.zhihu.com/p/188768746",
+      "summary": "正文用光滑函数与紧集指示函数的积分构造磨光函数，并利用该卷积形式证明其光滑性和支集范围。"
+    },
+    {
+      "title": "什么是卷积？",
+      "url": "https://zhuanlan.zhihu.com/p/196786958",
+      "summary": "正文从时空响应叠加出发定义卷积，并讲解其离散形式、性质和反卷积。"
+    },
+    {
+      "title": "23. 卡尔曼滤波器详解——从零开始(3) Kalman Filter from Zero",
+      "url": "https://zhuanlan.zhihu.com/p/245728093",
+      "summary": "正文把 FIR 滤波器写成输入与冲激响应的离散卷积，并据此推导维纳滤波方程。"
+    },
+    {
+      "title": "Spatio-Temporal Graph Convolutional Networks 详解",
+      "url": "https://zhuanlan.zhihu.com/p/286445515",
+      "summary": "正文给出因果卷积、膨胀卷积和门控卷积层的公式，说明时序卷积的具体计算。"
+    },
+    {
+      "title": "Graph neural network综述:从deepwalk到GraphSAGE，GCN，GAT",
+      "url": "https://zhuanlan.zhihu.com/p/288322305",
+      "summary": "正文解释连续与离散卷积的翻转、平移和叠加过程，并区分卷积与互相关。"
+    },
+    {
+      "title": "图卷积网络原来是这么回事（三）——图滤波器与图卷积的设计",
+      "url": "https://zhuanlan.zhihu.com/p/297613044",
+      "summary": "正文从时域卷积定理出发定义谱图卷积，并说明邻域加权和与频域乘法两条实现路径。"
+    },
+    {
+      "title": "卷积公式使用详解",
+      "url": "https://zhuanlan.zhihu.com/p/325939315",
+      "summary": "正文推导连续型随机变量和的卷积公式，并用于重做分布密度例题。"
+    },
+    {
+      "title": "【伪科普向】万物趋向于正态分布——玩坏中心极限定理（内有大量动图）",
+      "url": "https://zhuanlan.zhihu.com/p/337186163",
+      "summary": "正文解释随机变量之和的概率密度对应卷积，并用重复卷积和自相关函数展示收敛到正态分布的过程。"
+    },
+    {
+      "title": "傅里叶思想漫谈：从希尔伯特空间到不确定性原理",
+      "url": "https://zhuanlan.zhihu.com/p/338428121",
+      "summary": "正文给出卷积定义并讲解卷积定理如何把时域卷积转化为频域乘积。"
+    },
+    {
+      "title": "PDE复习笔记(2)",
+      "url": "https://zhuanlan.zhihu.com/p/339883860",
+      "summary": "正文用基本解的时空卷积表示非齐次波动方程的解。"
+    },
+    {
+      "title": "【工具书向】工科生用的傅里叶变换性质大全与证明",
+      "url": "https://zhuanlan.zhihu.com/p/339281545",
+      "summary": "正文给出连续函数卷积的定义，并证明时域卷积与频域乘积之间的变换关系。"
+    },
+    {
+      "title": "图卷积网络 Graph Convolutional Network（GCN）的理解和详细推导",
+      "url": "https://zhuanlan.zhihu.com/p/341332382",
+      "summary": "正文从连续和离散卷积出发，借助卷积定理定义图卷积并讨论邻域信息聚合。"
+    },
+    {
+      "title": "（七）传递函数",
+      "url": "https://zhuanlan.zhihu.com/p/341457671",
+      "summary": "正文用机械手书写场景解释系统输出是输入轨迹与单位冲击响应的卷积。"
+    },
+    {
+      "title": "拉普拉斯(Laplace)变换在广义积分求值中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/343298799",
+      "summary": "正文定义函数卷积、陈述卷积定理，并用卷积定理计算积分及推广 Beta 积分公式。"
+    },
+    {
+      "title": "广义函数之狄拉克函数",
+      "url": "https://zhuanlan.zhihu.com/p/345809392",
+      "summary": "正文给出函数与狄拉克函数的卷积积分，并据此推出时间平移性质。"
+    },
+    {
+      "title": "调和分析第一阶段学习感悟",
+      "url": "https://zhuanlan.zhihu.com/p/349411049",
+      "summary": "正文用 Poisson 核与函数的卷积定义极大函数，并以 Dirichlet 核卷积研究 Fourier 级数。"
+    },
+    {
+      "title": "快速数论变换（NTT）超详解",
+      "url": "https://zhuanlan.zhihu.com/p/347726949",
+      "summary": "正文讨论 DFT 的循环卷积特性，并用 NTT 加速多项式乘法。"
+    },
+    {
+      "title": "《小学生都能看懂的三类斯特林数从入门到升天教程 》（含性质完整证明、斯特林反演、拉赫数）",
+      "url": "https://zhuanlan.zhihu.com/p/350774728",
+      "summary": "正文把快速计算平移多项式的双重求和化为卷积，并用多项式乘法加速计算。"
+    },
+    {
+      "title": "拉普拉斯变换与微分算子法",
+      "url": "https://zhuanlan.zhihu.com/p/350862476",
+      "summary": "正文明确写出卷积定理，并用时域卷积计算拉普拉斯逆变换。"
+    },
+    {
+      "title": "YOLOF：You Only Look One-level Feature（CVPR 2021）",
+      "url": "https://zhuanlan.zhihu.com/p/359462538",
+      "summary": "正文阐释空洞卷积如何扩大感受野，并用多个 dilation rate 组合处理不同尺度目标。"
+    },
+    {
+      "title": "离散时间傅里叶变换与离散傅里叶变换详解",
+      "url": "https://zhuanlan.zhihu.com/p/360925077",
+      "summary": "正文用卷积定理说明采样后频谱的周期延拓，展开了采样与卷积的关系。"
+    },
+    {
+      "title": "用上傅里叶变换，很快啊，AI几秒钟就能解出偏微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/367686910",
+      "summary": "正文明确指出傅里叶变换将时域卷积转化为频域乘积，并用于构造图/函数运算层。"
+    },
+    {
+      "title": "[GNN综述] 重新思考空域与谱域GNN之间的联系",
+      "url": "https://zhuanlan.zhihu.com/p/367774462",
+      "summary": "正文把图卷积解释为邻接聚合与谱域滤波，并推导低通、多项式和有理近似滤波器。"
+    },
+    {
+      "title": "MIMO通信的角域表示",
+      "url": "https://zhuanlan.zhihu.com/p/369340833",
+      "summary": "正文以时域卷积描述MIMO输入输出关系，并借此解释频域矩阵乘法的来源。"
+    },
+    {
+      "title": "GNN入门之路：02.谱域方法：Spectral CNN，ChebyNet，GCN",
+      "url": "https://zhuanlan.zhihu.com/p/369382428",
+      "summary": "正文由傅里叶域的逐点乘法定义图卷积，并拆解变换、滤波和逆变换步骤。"
+    },
+    {
+      "title": "解读模型压缩6：结构重参数化技术：进可暴力提性能，退可无损做压缩",
+      "url": "https://zhuanlan.zhihu.com/p/370438999",
+      "summary": "正文利用卷积的可加性合并 3×3、1×1 与恒等卷积分支，并推导卷积与批归一化融合后的等效卷积。"
+    },
+    {
+      "title": "Informer主要代码解读",
+      "url": "https://zhuanlan.zhihu.com/p/374936725",
+      "summary": "正文说明数据嵌入与蒸馏层都用一维卷积完成局部特征映射和序列压缩。"
+    },
+    {
+      "title": "“卷积”的形象理解",
+      "url": "https://zhuanlan.zhihu.com/p/379105834",
+      "summary": "正文从连续积分定义卷积，并以进食消化、图像卷积核和特征提取解释翻转、相乘、相加的过程。"
+    },
+    {
+      "title": "几何活动轮廓模型——CV、PS、LBF、LGDF与LIF",
+      "url": "https://zhuanlan.zhihu.com/p/383008864",
+      "summary": "正文用高斯核对图像做卷积平滑，并在 LBF 模型中用核加权积分定义局部能量。"
+    },
+    {
+      "title": "阿贝尔积分方程",
+      "url": "https://zhuanlan.zhihu.com/p/389094799",
+      "summary": "正文明确把积分方程的核与未知函数写成拉普拉斯变换下的卷积，并据此求出逆变换。"
+    },
+    {
+      "title": "2021年丘赛分析试题浅析",
+      "url": "https://zhuanlan.zhihu.com/p/389308721",
+      "summary": "正文证明 L1 与 L∞ 函数的卷积良定义且连续，并进一步用卷积证明正测度集合的差集含原点邻域。"
+    },
+    {
+      "title": "【NIPS 2020】StemGNN: Spectral Temporal Graph Neural Network for Multivariate Time-series Forecasting",
+      "url": "https://zhuanlan.zhihu.com/p/390773000",
+      "summary": "正文给出谱图卷积的 GFT、频域点积与逆变换公式，说明如何用卷积提取空间依赖。"
+    },
+    {
+      "title": "狄利克雷卷积和莫比乌斯反演",
+      "url": "https://zhuanlan.zhihu.com/p/390895860",
+      "summary": "正文定义狄利克雷卷积及其交换、结合、分配律，并给出常见卷积恒等式和狄利克雷逆。"
+    },
+    {
+      "title": "[现代控制理论1-1] 状态方程的建立",
+      "url": "https://zhuanlan.zhihu.com/p/398114249",
+      "summary": "正文先用输入信号与冲激响应的时域卷积描述单输入单输出系统。"
+    },
+    {
+      "title": "傅里叶变换的几个应用",
+      "url": "https://zhuanlan.zhihu.com/p/399012702",
+      "summary": "正文利用独立随机变量之和的概率密度卷积描述随机游走一步后的位置分布。"
+    },
+    {
+      "title": "地球Online使用了浮点数——分析学上的大数反例",
+      "url": "https://zhuanlan.zhihu.com/p/395311005",
+      "summary": "文章把积分表示为一串矩形脉冲连续卷积后的零点取值，以此说明卷积宽度的变化。"
+    },
+    {
+      "title": "输入整形(Input Shaping)",
+      "url": "https://zhuanlan.zhihu.com/p/402291172",
+      "summary": "正文把输入整形器描述为脉冲序列，并说明输入信号需与该序列卷积以生成整形信号。"
+    },
+    {
+      "title": "时间卷积网络TCN：CNN也可以处理时序数据并且比LSTM更好",
+      "url": "https://zhuanlan.zhihu.com/p/409710504",
+      "summary": "正文详细解释因果卷积、空洞卷积及感受野扩张，并比较卷积与循环序列模型的性能，对应卷积。"
+    },
+    {
+      "title": "CVPR2021-《DRConv》-即插即用！旷视孙剑、张祥雨团队提出动态区域感知的卷积，涨点显著！",
+      "url": "https://zhuanlan.zhihu.com/p/425361742",
+      "summary": "正文用张量和求和公式比较标准卷积与逐位置局部卷积，并定义区域共享滤波器的卷积输出。"
+    },
+    {
+      "title": "卷积和卷积定理",
+      "url": "https://zhuanlan.zhihu.com/p/428216241",
+      "summary": "正文把卷积解释为函数算子，并以独立随机变量和的分布说明卷积及交换律。"
+    },
+    {
+      "title": "记录今年看到的最🐮🍺的傅里叶变换",
+      "url": "https://zhuanlan.zhihu.com/p/430048585",
+      "summary": "正文把 Laplace 方程边值问题的解写成 Poisson 核与边界函数的卷积。"
+    },
+    {
+      "title": "概率论与随机过程8——特征函数，矩母函数与母函数",
+      "url": "https://zhuanlan.zhihu.com/p/437777250",
+      "summary": "正文用母函数把独立随机变量和的分布卷积转化为函数乘积，并说明卷积关系。"
+    },
+    {
+      "title": "梅林变换应用于贝塞尔函数",
+      "url": "https://zhuanlan.zhihu.com/p/439210335",
+      "summary": "正文单列一节给出梅林卷积公式，并说明可由它推出另一种卷积形式。"
+    },
+    {
+      "title": "什么是卷积",
+      "url": "https://zhuanlan.zhihu.com/p/440893420",
+      "summary": "正文从翻转平移后的重叠面积解释卷积定义，并用线性时不变系统说明响应叠加。"
+    },
+    {
+      "title": "无线通信基础2：深入理解OFDM（含Matlab代码）",
+      "url": "https://zhuanlan.zhihu.com/p/438568996",
+      "summary": "正文用信道冲激响应与发射信号的线性卷积、圆卷积对比，解释循环前缀如何消除符号间干扰并便于频域解调。"
+    },
+    {
+      "title": "Catalan-Qi数——越来越奇的卡特兰数",
+      "url": "https://zhuanlan.zhihu.com/p/457305852",
+      "summary": "正文把卡特兰递推中的柯西乘积解释为两组数列的离散卷积，并通过生成函数平方求解。"
+    },
+    {
+      "title": "CVPR2021 DRConv：即插即用！旷视孙剑、张祥雨团队提出动态区域感知的卷积，涨点显著！",
+      "url": "https://zhuanlan.zhihu.com/p/462523100",
+      "summary": "正文给出标准卷积、局部卷积和动态区域卷积的公式，解释滤波器在空间区域上的共享与分配。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】2.5 共轭空间·弱收敛·自反空间（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/477087888",
+      "summary": "正文定义卷积算子并借助 Young 不等式讨论其共轭算子。"
+    },
+    {
+      "title": "Sobolev空间(1)",
+      "url": "https://zhuanlan.zhihu.com/p/503020931",
+      "summary": "正文用卷积定义磨光算子，并以磨光函数的极限证明 Sobolev 函数逼近定理。"
+    },
+    {
+      "title": "神经网络与傅立叶变换有关系吗？",
+      "url": "https://zhuanlan.zhihu.com/p/510069211",
+      "summary": "正文用傅里叶变换把时域卷积写成频域乘积，并以 CNN 卷积层解释卷积定理。"
+    },
+    {
+      "title": "傅里叶变换用于神经网络",
+      "url": "https://zhuanlan.zhihu.com/p/521743461",
+      "summary": "正文用时域卷积等价于频域逐元素乘法解释卷积运算，并据此讨论在 CNN 中加速卷积。"
+    },
+    {
+      "title": "这篇文章能让你明白卷积",
+      "url": "https://zhuanlan.zhihu.com/p/526705694",
+      "summary": "正文用脉冲响应叠加解释卷积，并推导离散求和及连续积分形式。"
+    },
+    {
+      "title": "小波导论(一)(introduction to wavelet transform)",
+      "url": "https://zhuanlan.zhihu.com/p/535745362",
+      "summary": "正文以滑动窗口乘信号再积分的检波过程说明卷积操作，并由此引入小波变换。"
+    },
+    {
+      "title": "线性卷积，循环卷积（圆卷积），周期卷积——总结",
+      "url": "https://zhuanlan.zhihu.com/p/544177600",
+      "summary": "正文具体讲解线性卷积、循环卷积和周期卷积的定义、图解步骤及其相互关系。"
+    },
+    {
+      "title": "算法学习笔记(1)：FFT(快速傅里叶变换)",
+      "url": "https://zhuanlan.zhihu.com/p/567738394",
+      "summary": "正文以点值相乘实现多项式卷积，并将其应用于多项式乘法和高精度乘法。"
+    },
+    {
+      "title": "信号与系统笔记(二)：线性时不变系统、卷积",
+      "url": "https://zhuanlan.zhihu.com/p/577198722",
+      "summary": "正文从冲激分解出发给出离散卷积和、连续卷积积分及交换律、分配律和结合律。"
+    },
+    {
+      "title": "第四章 信号变换",
+      "url": "https://zhuanlan.zhihu.com/p/596209712",
+      "summary": "正文定义卷积的翻转平移乘积积分，并概述其单位元、延时和积分等性质。"
+    },
+    {
+      "title": "[个人总结] 傅里叶变换和信号处理",
+      "url": "https://zhuanlan.zhihu.com/p/597493751",
+      "summary": "正文陈述时域卷积与频域相乘的对应关系，并据此说明图像卷积可以实现滤波。"
+    },
+    {
+      "title": "数字信号处理期末复习(个人笔记)",
+      "url": "https://zhuanlan.zhihu.com/p/596426697",
+      "summary": "正文给出离散线性卷积和的定义，并展开翻褶移位、图解与对位相乘相加的计算方法。"
+    },
+    {
+      "title": "希尔伯特变换详解 (the Hilbert transform)",
+      "url": "https://zhuanlan.zhihu.com/p/609586133",
+      "summary": "正文从卷积积分定义希尔伯特变换，并利用卷积性质推导其在频域中的乘子。"
+    },
+    {
+      "title": "相关系数、自相关、互相关等概念理解",
+      "url": "https://zhuanlan.zhihu.com/p/613949451",
+      "summary": "正文给出互相关与自相关公式，并明确比较其与卷积在序列翻转上的区别。"
+    },
+    {
+      "title": "傅里叶变换的强大，远超你的想象，深挖其背后的数学原理和细节",
+      "url": "https://zhuanlan.zhihu.com/p/634486202",
+      "summary": "正文给出傅里叶变换的卷积公式，并说明如何用频域乘积分析函数卷积。"
+    },
+    {
+      "title": "机器学习与PDE（偏微分方程）",
+      "url": "https://zhuanlan.zhihu.com/p/642604029",
+      "summary": "正文写出核积分和连续卷积形式，说明 FNO 利用傅里叶卷积性质实现卷积型算子层。"
+    },
+    {
+      "title": "乱谈数学与控制",
+      "url": "https://zhuanlan.zhihu.com/p/643732141",
+      "summary": "正文把卷积列为与微分方程、传递函数并列的系统信号描述方式。"
+    },
+    {
+      "title": "数学物理方法-狄拉克函数(δ函数)",
+      "url": "https://zhuanlan.zhihu.com/p/669614573",
+      "summary": "正文推导 δ 函数与普通函数及另一个 δ 函数的卷积，说明其单位元和平移性质。"
+    },
+    {
+      "title": "自动控制原理总结",
+      "url": "https://zhuanlan.zhihu.com/p/675466143",
+      "summary": "正文明确给出卷积定义与拉氏变换卷积定理，并用卷积表示系统的零初始条件响应。"
+    },
+    {
+      "title": "LLM(25)：从控制系统到语言模型 —— Mamba 的前世今生",
+      "url": "https://zhuanlan.zhihu.com/p/680833040",
+      "summary": "正文把离散状态空间模型展开为以状态转移矩阵构造的卷积形式。"
+    },
+    {
+      "title": "数学的艺术 —— 拉马努金定理",
+      "url": "https://zhuanlan.zhihu.com/p/682014103",
+      "summary": "正文用离散卷积相乘计算位移算符的级数，并得到指数算符的加法性质。"
+    },
+    {
+      "title": "数学的艺术 —— 分数阶导数",
+      "url": "https://zhuanlan.zhihu.com/p/682040562",
+      "summary": "正文通过卷积性质把重复积分化为拉普拉斯域中的乘法，推导广义积分核。"
+    },
+    {
+      "title": "卷积的一种解释，自动控制原理教材似乎忽略了。",
+      "url": "https://zhuanlan.zhihu.com/p/687969512",
+      "summary": "正文从概率密度和线性时不变系统的脉冲响应出发，系统推导离散与连续卷积公式。"
+    },
+    {
+      "title": "一文看懂卷积的本质，不过是一个关于汉堡的故事",
+      "url": "https://zhuanlan.zhihu.com/p/699860124",
+      "summary": "正文用汉堡消化这一线性时不变系统解释连续与离散卷积的翻转、加权、求和过程。"
+    },
+    {
+      "title": "数学物理方法：格林函数求解偏微分方程 Mathematical Physics:Green's Theorem and Green's Function",
+      "url": "https://zhuanlan.zhihu.com/p/701660525",
+      "summary": "正文把非齐次方程的解表示为源项与格林函数的卷积。"
+    },
+    {
+      "title": "13236【昨日重现】用傅里叶变换玩转椭圆（上）",
+      "url": "https://zhuanlan.zhihu.com/p/705422359",
+      "summary": "正文将中点迭代构造为循环卷积，并通过卷积定理说明低通、带阻和高通滤波效果。"
+    },
+    {
+      "title": "拉普拉斯变换（Laplace Transform）",
+      "url": "https://zhuanlan.zhihu.com/p/14068366505",
+      "summary": "文中明确讨论拉普拉斯变换的卷积性质，并用阶跃响应和卷积关系说明其应用。"
+    },
+    {
+      "title": "理解脉冲函数（Impulse Function）和卷积（Convolution Integral）",
+      "url": "https://zhuanlan.zhihu.com/p/25704315862",
+      "summary": "正文从脉冲响应叠加推导卷积定义，并解释卷积如何计算线性时不变系统对任意输入的响应。"
+    },
+    {
+      "title": "数学的艺术 —— 梅林变换与Meijer-G函数",
+      "url": "https://zhuanlan.zhihu.com/p/32591195409",
+      "summary": "正文推导两个函数乘积的梅林变换，并明确指出其与卷积定理的对应关系。"
+    },
+    {
+      "title": "从拉马努金定理到梅杰的至高杰作",
+      "url": "https://zhuanlan.zhihu.com/p/1907911025984018168",
+      "summary": "正文把梅林变换的卷积公式作为组合两个函数积分的核心工具。"
+    },
+    {
+      "title": "二维情形Kakeya猜想的证明",
+      "url": "https://zhuanlan.zhihu.com/p/1922379021200626040",
+      "summary": "正文用平滑核与Radon变换的卷积定义平均Radon变换，并通过卷积的Fourier乘子性质作L∞估计。"
+    },
+    {
+      "title": "因为一份家庭作业，17岁少女解决了一个困扰数学界40年的难题",
+      "url": "https://zhuanlan.zhihu.com/p/1926036493668955306",
+      "summary": "正文说明反例证明借助普朗歇尔定理转化为卷积能量分析，并交代了点集的构造作用。"
+    },
+    {
+      "title": "流形上的热传导",
+      "url": "https://zhuanlan.zhihu.com/p/1969978687312077430",
+      "summary": "正文构造热核并将热方程解明确表示成热核与初始温度函数的卷积。"
+    },
+    {
+      "title": "一些关于反常积分的“天阶功法”",
+      "url": "https://zhuanlan.zhihu.com/p/2027409786493247554",
+      "summary": "正文展开频域卷积定理并计算相应函数的卷积积分。"
+    },
+    {
+      "title": "卷积最早是怎么出现的？",
+      "url": "https://zhuanlan.zhihu.com/p/2036609800721670244",
+      "summary": "正文将达朗贝尔公式中的积分项改写为矩形窗与初速度函数的卷积，并解释翻转、滑动、相乘和积分四个环节。"
+    },
+    {
+      "title": "盘点数学里的各种反演",
+      "url": "https://zhuanlan.zhihu.com/p/2041288151956723472",
+      "summary": "正文定义数列的狄利克雷卷积，并用生成函数乘法统一推导莫比乌斯反演。"
+    },
+    {
+      "title": "乘法怎么算最快？数学家为此研究了六十年",
+      "url": "https://zhuanlan.zhihu.com/p/2062505793505719792",
+      "summary": "正文介绍快速乘法如何把大整数乘法转化为卷积并利用 FFT 加速。"
+    }
+  ]
+}

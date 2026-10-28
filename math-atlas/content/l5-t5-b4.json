@@ -1,0 +1,786 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l5-t5-b4",
+  "sources": [
+    {
+      "title": "费马大定理的证明对科学界有什么样的实际意义？",
+      "url": "https://www.zhihu.com/answer/14922214",
+      "summary": "讨论椭圆曲线的模性、约化和半稳定性。原文混用“具有模性”与“模曲线”，模形式的作用群及定义也有不准确之处，宜作证明路线导读而非技术定义参考。"
+    },
+    {
+      "title": "数论中的 BSD 猜想是指什么?",
+      "url": "https://www.zhihu.com/answer/23302296",
+      "summary": "正文围绕「数论中的 BSD 猜想是指什么?」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "Galois 上同调有什么意义？",
+      "url": "https://www.zhihu.com/answer/44140174",
+      "summary": "正文解释Galois作用如何用于椭圆曲线有理点相关问题。"
+    },
+    {
+      "title": "Lurie 的 derived algebraic geometry 有多重要？",
+      "url": "https://www.zhihu.com/answer/45419470",
+      "summary": "正文以椭圆曲线的模空间作为导出代数几何的背景。"
+    },
+    {
+      "title": "谁能最简单的详解椭圆曲线算法，secp256k1 是如何生成公钥和私钥的？",
+      "url": "https://www.zhihu.com/answer/96016340",
+      "summary": "正文系统解释有限域上的椭圆曲线加法与公私钥生成。"
+    },
+    {
+      "title": "数论中的 BSD 猜想是指什么?",
+      "url": "https://www.zhihu.com/answer/113127717",
+      "summary": "正文围绕有理数域上的椭圆曲线，详细解释BSD猜想两部分及其证明进展。"
+    },
+    {
+      "title": "现代数论中岩泽理论的发展情况和趋势是怎样的？是否有广阔的前景？",
+      "url": "https://www.zhihu.com/answer/117846577",
+      "summary": "正文说明椭圆曲线的 p 进 L 函数与 Selmer 群如何进入推广后的主猜想。"
+    },
+    {
+      "title": "为什么费马大定理在数学史上的地位如此重要？",
+      "url": "https://www.zhihu.com/answer/121663103",
+      "summary": "正文定义椭圆曲线、判别式、有理点和挠点，并说明其模性与费马大定理的联系。"
+    },
+    {
+      "title": "为什么费马大定理在数学史上的地位如此重要？",
+      "url": "https://www.zhihu.com/answer/121854051",
+      "summary": "正文说明谷山－志村猜想把椭圆曲线的模p点数与模形式系数联系起来。"
+    },
+    {
+      "title": "勾股数有有限多组还是无限多组？",
+      "url": "https://www.zhihu.com/answer/123718411",
+      "summary": "正文把单位圆上两有理点生成第三有理点的方法推广到椭圆曲线。"
+    },
+    {
+      "title": "有哪些具有特殊性质的数字？",
+      "url": "https://www.zhihu.com/answer/134759209",
+      "summary": "正文用椭圆曲线复乘定理连接 j 函数、类数与接近整数现象。"
+    },
+    {
+      "title": "数学灵感真的很重要吗？在数学上，努力的意义何在？",
+      "url": "https://www.zhihu.com/answer/151431213",
+      "summary": "正文多处解释 Wiles 对椭圆方程及其模形式化的研究步骤。"
+    },
+    {
+      "title": "代数几何和数论的关系？",
+      "url": "https://www.zhihu.com/answer/182986166",
+      "summary": "正文把椭圆曲线定位为复分析、数论和代数几何的交界，建议初学者从此入手。"
+    },
+    {
+      "title": "除了 1 和 144，还有哪个斐波那契数是平方数?",
+      "url": "https://www.zhihu.com/answer/237076958",
+      "summary": "正文把斐波那契平方问题化为三次曲线整数点问题。"
+    },
+    {
+      "title": "如何评价恽之玮，张伟获 New Horizons 奖？",
+      "url": "https://www.zhihu.com/answer/273796981",
+      "summary": "正文解释 BSD 猜想如何联系椭圆曲线有理点与 L 函数解析信息。"
+    },
+    {
+      "title": "世界上大约有多少人可以完全看懂并理解怀尔斯对于费马大定理的证明？",
+      "url": "https://www.zhihu.com/answer/290933443",
+      "summary": "正文说明椭圆方程的模性如何连接费马方程与模形式。"
+    },
+    {
+      "title": "仍然在世的伟大数学家有哪些？",
+      "url": "https://www.zhihu.com/answer/302930152",
+      "summary": "正文说明 Mazur 定理完整刻画椭圆曲线有理挠点群。"
+    },
+    {
+      "title": "谁能最简单的详解椭圆曲线算法，secp256k1 是如何生成公钥和私钥的？",
+      "url": "https://www.zhihu.com/answer/308626466",
+      "summary": "正文从椭圆曲线上的加法和标量乘法解释ECC公私钥生成。"
+    },
+    {
+      "title": "是否存在三边都为有理数的三角形，其面积为 1？",
+      "url": "https://www.zhihu.com/answer/317341686",
+      "summary": "正文把有理三角形构造与一族椭圆曲线的有理点对应起来。"
+    },
+    {
+      "title": "95% 的人解不出这道题《史上最贱的数学题》能否用数学软件计算出来？",
+      "url": "https://www.zhihu.com/answer/323883323",
+      "summary": "正文将丢番图问题变换为 Weierstrass 形式的椭圆曲线。"
+    },
+    {
+      "title": "95% 的人解不出这道题《史上最贱的数学题》能否用数学软件计算出来？",
+      "url": "https://www.zhihu.com/answer/324979078",
+      "summary": "正文用程序实现精确的椭圆曲线加法与计算。"
+    },
+    {
+      "title": "这个代数问题是否对所有整数都有解？",
+      "url": "https://www.zhihu.com/answer/325508014",
+      "summary": "正文把代数问题转化为椭圆曲线上的整点问题。"
+    },
+    {
+      "title": "密码学中的RSA算法和椭圆曲线算法的加密过程是怎样的?",
+      "url": "https://www.zhihu.com/answer/325511510",
+      "summary": "正文定义 Weierstrass 方程和光滑条件，并说明椭圆曲线上的点如何构成加法群。"
+    },
+    {
+      "title": "密码学中的RSA算法和椭圆曲线算法的加密过程是怎样的?",
+      "url": "https://www.zhihu.com/answer/327758926",
+      "summary": "正文定义椭圆曲线并解释曲线上加法和点乘。"
+    },
+    {
+      "title": "数学中有哪些表面没有关系但是内在有深刻联系的问题？",
+      "url": "https://www.zhihu.com/answer/503973729",
+      "summary": "从上半平面上的模形式说明其与复椭圆曲线模空间和判别式的关系。"
+    },
+    {
+      "title": "如何看待高中生声称证明哥德巴赫猜想？",
+      "url": "https://www.zhihu.com/answer/561697065",
+      "summary": "正文解释费马大定理与椭圆曲线及模性问题的关联。"
+    },
+    {
+      "title": "如何编程判断一个数是否是质数？",
+      "url": "https://www.zhihu.com/answer/574767625",
+      "summary": "正文完整说明 ECPP 如何利用椭圆曲线群的阶和证书递归证明素性。"
+    },
+    {
+      "title": "数学家志村五郎于 2019 年 5 月 3 日逝世，如何评价他一生的经历与贡献?",
+      "url": "https://www.zhihu.com/answer/672045267",
+      "summary": "解释志村关于椭圆曲线模性及其算术应用的贡献。"
+    },
+    {
+      "title": "数学家志村五郎于 2019 年 5 月 3 日逝世，如何评价他一生的经历与贡献?",
+      "url": "https://www.zhihu.com/answer/673673926",
+      "summary": "说明谷山—志村猜想把有理数域上的椭圆曲线与模形式联系起来。"
+    },
+    {
+      "title": "几何（微分几何以上）与代数（抽象代数以上）在计算机、经济、金融上有什么应用？",
+      "url": "https://www.zhihu.com/answer/708304355",
+      "summary": "明确说明椭圆曲线在密码学中的应用。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/852407267",
+      "summary": "介绍证明与椭圆曲线、模形式的联系。"
+    },
+    {
+      "title": "维尔斯如何证明费马大定理？",
+      "url": "https://www.zhihu.com/answer/882372835",
+      "summary": "以 Frey 半稳定椭圆曲线作为关键对象。"
+    },
+    {
+      "title": "数学史上有哪些问题是通过构造出一套新的理论才得以解决的？必须要构造新的理论才能解决这些问题吗？",
+      "url": "https://www.zhihu.com/answer/1318800491",
+      "summary": "正文直接讲解“椭圆曲线”相关内容。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/1528151975",
+      "summary": "正文直接讨论椭圆曲线，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "哪些数学书让你相见恨晚？",
+      "url": "https://www.zhihu.com/answer/1580204804",
+      "summary": "正文明确聚焦椭圆曲线这一数论延伸主题。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/1703901099",
+      "summary": "正文用椭圆曲线上的有理点说明反直觉结论。"
+    },
+    {
+      "title": "数学界有哪些未解之谜？",
+      "url": "https://www.zhihu.com/answer/1824014330",
+      "summary": "正文以有理点、Mordell-Weil 定理和秩系统介绍椭圆曲线上的未解问题。"
+    },
+    {
+      "title": "如何让普通人明白数学有多复杂？",
+      "url": "https://www.zhihu.com/answer/1985232145",
+      "summary": "正文以椭圆曲线的巨大有理数解展示现代数学复杂度。"
+    },
+    {
+      "title": "如何让普通人明白数学有多复杂？",
+      "url": "https://www.zhihu.com/answer/1990404164",
+      "summary": "正文以简单外观的方程给出极其巨大的有理数解。"
+    },
+    {
+      "title": "你遇到的最难的一个数学题是什么？",
+      "url": "https://www.zhihu.com/answer/2109547309",
+      "summary": "正文说明求解过程依赖椭圆曲线与有理点方法。"
+    },
+    {
+      "title": "有哪些千年以上时间才解决的数学问题?",
+      "url": "https://www.zhihu.com/answer/2124886503",
+      "summary": "正文指出六元丢番图数组的证明使用了椭圆曲线工具。"
+    },
+    {
+      "title": "3³+4³+5³=6³，只是个巧合吗?",
+      "url": "https://www.zhihu.com/answer/2273767940",
+      "summary": "正文把连续立方和问题转化为椭圆曲线上的有理点问题。"
+    },
+    {
+      "title": "这是不是高考范围内最难的圆锥曲线问题，这题已经做到怀疑人生，大家有什么思路吗？",
+      "url": "https://www.zhihu.com/answer/2273988054",
+      "summary": "正文把二次对合变换的复合与椭圆曲线加法群对应起来。"
+    },
+    {
+      "title": "是否存在三边都为有理数的三角形，其面积为 1？",
+      "url": "https://www.zhihu.com/answer/2282911219",
+      "summary": "正文把有理边三角形问题转化为椭圆曲线上的有理点问题。"
+    },
+    {
+      "title": "求证：关于菲尔兹奖得主舒尔茨的这个非常特殊的说法，是否属实？",
+      "url": "https://www.zhihu.com/answer/2349611056",
+      "summary": "正文具体说明学习费马大定理证明时涉及的椭圆曲线上层主题。"
+    },
+    {
+      "title": "椭圆曲线中的椭圆是什么意思？",
+      "url": "https://www.zhihu.com/answer/2423007757",
+      "summary": "正文明确给出椭圆曲线的定义，并指出它与椭圆的二次曲线本质不同。"
+    },
+    {
+      "title": "复变函数中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2449436421",
+      "summary": "正文具体构造椭圆曲线并讨论复环与椭圆曲线的关系。"
+    },
+    {
+      "title": "什么是Seiberg-Witten理论？",
+      "url": "https://www.zhihu.com/answer/2458637263",
+      "summary": "正文把单值化数据对应到椭圆曲线周期积分的问题。"
+    },
+    {
+      "title": "能分享一道如果“注意不到”就出不来的数学题吗？",
+      "url": "https://www.zhihu.com/answer/2461348817",
+      "summary": "正文用椭圆曲线是否有理解释两个有理数立方和的限制。"
+    },
+    {
+      "title": "哪个瞬间让你觉得数学充满魅力？",
+      "url": "https://www.zhihu.com/answer/2470512023",
+      "summary": "正文说明现代证明通过构造椭圆曲线并使用 Abel 定理。"
+    },
+    {
+      "title": "如何证明方程 x³＋y³＝1145141919810 没有整数解？",
+      "url": "https://www.zhihu.com/answer/2480613230",
+      "summary": "把三次方程的和转化为椭圆曲线，计算曲线秩与生成元并讨论有理解。"
+    },
+    {
+      "title": "目前 x³＋y³＋z³＝42（x、y、z 均为整数）是怎么求解的？",
+      "url": "https://www.zhihu.com/answer/2565682154",
+      "summary": "正文把原方程化为特殊椭圆曲线 Mordell 曲线，并讨论其有限组整数解。"
+    },
+    {
+      "title": "a，b为自然数，b²-a³＝2089  的解是否有限?",
+      "url": "https://www.zhihu.com/answer/2648124170",
+      "summary": "把 b²-a³=2089 化为 Mordell 椭圆曲线，并用 Siegel 定理讨论整点有限性。"
+    },
+    {
+      "title": "方程 x³+1=2y² 是否有无穷组整数解？",
+      "url": "https://www.zhihu.com/answer/2659555278",
+      "summary": "把整数解问题化为 Mordell 曲线，并引用 Siegel 定理说明椭圆曲线整点有限。"
+    },
+    {
+      "title": "怎样求解不定方程x²-y³=45？",
+      "url": "https://www.zhihu.com/answer/2670995567",
+      "summary": "正文把方程改写为有理数域上的椭圆曲线，并用 Mordell-Weil 群判断有理点不存在。"
+    },
+    {
+      "title": "请问数学上有哪些令人赞叹的，简洁的名言或者结论？",
+      "url": "https://www.zhihu.com/answer/2684105711",
+      "summary": "正文重点讨论椭圆曲线有理点的有限性或无限性，并给出具体曲线及其有理点示例。"
+    },
+    {
+      "title": "你最欣赏哪位哪个数学家的工作，理由是什么？",
+      "url": "https://www.zhihu.com/answer/2687055402",
+      "summary": "正文集中列举 Elkies 在椭圆曲线上构造的高秩曲线、有理点及相关世界纪录。"
+    },
+    {
+      "title": "怀尔斯证明费马大定理的论文主要突破了当时的哪些技术难点？",
+      "url": "https://www.zhihu.com/answer/2699213054",
+      "summary": "正文由费马方程构造半稳定 Frey 椭圆曲线，并讨论其判别式、导子和模性。"
+    },
+    {
+      "title": "纯数学和理论物理，哪个难？",
+      "url": "https://www.zhihu.com/answer/2701015743",
+      "summary": "正文把半稳定椭圆曲线的模性定理作为证明费马大定理的关键环节。"
+    },
+    {
+      "title": "为什么费马大定理在数学史上的地位如此重要？",
+      "url": "https://www.zhihu.com/answer/2712661256",
+      "summary": "解释费马方程如何化为椭圆曲线，并联系模形式与谷山—志村猜想。"
+    },
+    {
+      "title": "做过最气的题是什么题？",
+      "url": "https://www.zhihu.com/answer/2832339252",
+      "summary": "正文给出大型正整数解，并具体说明把方程化为椭圆曲线、寻找有理点并迭代求正整数解的思路。"
+    },
+    {
+      "title": "代数几何应该怎样学？",
+      "url": "https://www.zhihu.com/answer/2937626356",
+      "summary": "正文解释亏格为 1 的三次曲线如何化为椭圆曲线，并讨论其群结构、倍乘映射和整点问题。"
+    },
+    {
+      "title": "数论问题困难性的根源是什么？",
+      "url": "https://www.zhihu.com/answer/2939196377",
+      "summary": "正文说明三次不定方程可化为亏格一的椭圆曲线，并讨论椭圆曲线的群结构、整点及 BSD 问题。"
+    },
+    {
+      "title": "数学中最著名的曲线和曲面分别是什么？",
+      "url": "https://www.zhihu.com/answer/2961227001",
+      "summary": "正文系统介绍椭圆曲线的 Weierstrass 方程、点加运算、不同数域上的结构及相关猜想。"
+    },
+    {
+      "title": "是否存在各棱长，面积和体积都是整数的四面体?",
+      "url": "https://www.zhihu.com/answer/3158163510",
+      "summary": "正文通过变量替换得到椭圆曲线，并利用其无穷阶有理点生成无穷多组解。"
+    },
+    {
+      "title": "能不能通俗的解释一下椭圆函数，就是那种只学了实分析和复分析基础的人也能理解的那种？",
+      "url": "https://www.zhihu.com/answer/3283286949",
+      "summary": "正文用 Weierstrass 函数构造复环面到三次曲线的映射，并说明亏格1紧黎曼面与椭圆曲线的关系。"
+    },
+    {
+      "title": "如何用通俗易懂的话来解释非对称加密?",
+      "url": "https://www.zhihu.com/answer/3292186152",
+      "summary": "正文在椭圆曲线上定义两点连线的加法，并讨论标量乘法及其逆向计算困难。"
+    },
+    {
+      "title": "数论与初等数论中有哪些重要，优雅，或是深刻的定理？",
+      "url": "https://www.zhihu.com/answer/3353570326",
+      "summary": "正文把二立方和问题化为 Weierstrass 方程，并讨论 Mordell-Weil 群、秩和 Selmer 群，实质涉及椭圆曲线。"
+    },
+    {
+      "title": "数学上能不能禁止用“显然”？",
+      "url": "https://www.zhihu.com/answer/3361730554",
+      "summary": "正文讲述谷山—志村猜想如何把有理数域上的椭圆曲线与模曲线联系起来，并成为费马大定理证明的关键。"
+    },
+    {
+      "title": "若m≠n，则m个连续整数的积可能等于n个连续整数的积吗？",
+      "url": "https://www.zhihu.com/answer/3363579149",
+      "summary": "正文将 2 项与 3 项乘积相等的特殊情形化为 Weierstraß 正规方程，并列出整数解以证明只有有限个解。"
+    },
+    {
+      "title": "有哪些观赏性很高的几何图形？",
+      "url": "https://www.zhihu.com/answer/3424488145",
+      "summary": "正文说明有奇点的三次曲面可表示射影空间中的椭圆曲线，并解释经过原点直线与其点的对应。"
+    },
+    {
+      "title": "「知乎杯」数学考试来啦！来测测你的数学水平是哪一级（小学/初中/高中）？",
+      "url": "https://www.zhihu.com/answer/3429505069",
+      "summary": "正文把分式不定方程转化为椭圆曲线，讨论其有理点、蛋形部分及有理点群。"
+    },
+    {
+      "title": "如何客观的评价日本这个国家？",
+      "url": "https://www.zhihu.com/answer/3456684037",
+      "summary": "正文展开谷山-志村猜想，说明有理椭圆曲线与模形式及 ζ 函数的联系。"
+    },
+    {
+      "title": "现代数论中岩泽理论的发展情况和趋势是怎样的？是否有广阔的前景？",
+      "url": "https://www.zhihu.com/answer/3480121213",
+      "summary": "正文以椭圆曲线的Selmer群、Tate-Shafarevich群和Mordell-Weil群为对象，实质介绍其Iwasawa理论及BSD相关问题。"
+    },
+    {
+      "title": "全球有那么多已tenure的数学家，为什么没人去验证望月的ABC？",
+      "url": "https://www.zhihu.com/answer/3506699255",
+      "summary": "正文明确把椭圆曲线的 Szpiro 猜想列为定理 A 的特例，并另节讨论挠点与 Galois 表示。"
+    },
+    {
+      "title": "课堂上传纸条如何防范中间人攻击？",
+      "url": "https://www.zhihu.com/answer/3527370053",
+      "summary": "正文以 y^2=x^3+7 定义曲线，并具体说明其点点相加、倍点和标量乘法规则，实质展开椭圆曲线。"
+    },
+    {
+      "title": "当今世界都有哪些悬而未决的数学问题？",
+      "url": "https://www.zhihu.com/answer/20650183811",
+      "summary": "正文给出同余数的定义、与椭圆曲线 E_n 的双射以及秩判定，实质说明同余数问题与椭圆曲线的联系。"
+    },
+    {
+      "title": "a/b+b/c+c/a=73是否存在正整数解？",
+      "url": "https://www.zhihu.com/answer/55574012846",
+      "summary": "正文把三次齐次不定方程化为椭圆曲线，利用秩、挠点群和生成元的倍点求正整数解。"
+    },
+    {
+      "title": "a/(b+c)+b/(a+c)+c/(a+b)=6 a b c是正整数 求 a b c？",
+      "url": "https://www.zhihu.com/answer/60781144321",
+      "summary": "正文将原方程转化为有理数域上的椭圆曲线，并用曲线理论及计算机求出正整数解。"
+    },
+    {
+      "title": "怎么让不懂数学的人体会到抽象代数的魅力？",
+      "url": "https://www.zhihu.com/answer/64229285811",
+      "summary": "正文附录围绕具有复乘法的椭圆曲线陈述潜在良好约化定理并给出证明概述。"
+    },
+    {
+      "title": "2024 年，数学领域都有哪些令人激动的新进展与重要发现？",
+      "url": "https://www.zhihu.com/answer/66459027393",
+      "summary": "正文具体介绍一条秩至少为29的有理数域椭圆曲线，并说明通过K3曲面切片寻找高秩曲线的过程。"
+    },
+    {
+      "title": "北大数学家袁新意论文登数学顶刊，统一了算术与几何 Bogomolov 猜想，有哪些意义？影响有多大？",
+      "url": "https://www.zhihu.com/answer/69367299949",
+      "summary": "正文具体解释椭圆曲线的群律、扭点、秩和 Mordell-Weil 定理。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/1901415703317295884",
+      "summary": "正文以广义椭圆曲线的模空间和 Tate 模为对象解释模形式及 Serre-Tate 理论。"
+    },
+    {
+      "title": "这个式子可能是一个正整数的平方吗？",
+      "url": "https://www.zhihu.com/answer/1903799716933764771",
+      "summary": "正文通过变量替换把原方程化为 y²=x³-432 的 Mordell 椭圆曲线，并求其整点。"
+    },
+    {
+      "title": "计算机学科用到的数学是否十分浅显，不涉及到高深的数学理论，比如抽象代数，代数拓扑，代数几何等?",
+      "url": "https://www.zhihu.com/answer/1911166654471190495",
+      "summary": "正文在数学基础与计算机科学对照中列明椭圆曲线用于 ECC 和同态加密。"
+    },
+    {
+      "title": "为什么一元五次方程的通用求解公式可以利用椭圆模函数表示？或者说，为什么特殊函数可以用来求解多项式方程？",
+      "url": "https://www.zhihu.com/answer/1920401326241719780",
+      "summary": "正文用复格构造环面、引入 j-不变量，讲解了椭圆曲线的复环面模型。"
+    },
+    {
+      "title": "哪位大佬帮帮我，找出以下方程的所有整数解？x^3+y^3+z^3＝9xyz？",
+      "url": "https://www.zhihu.com/answer/1922355461929283746",
+      "summary": "正文把 Hessian 曲线双有理化为短 Weierstrass 椭圆曲线，并利用挠点群、秩和生成元求原方程整数解。"
+    },
+    {
+      "title": "大家认为纯数学里最美丽漂亮的领域是哪个(如果只能选一个的话)？",
+      "url": "https://www.zhihu.com/answer/1938896914239169310",
+      "summary": "正文把随机椭圆曲线的秩及其统计分布列为算术统计的核心研究对象。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/1945580801283593475",
+      "summary": "正文定义椭圆曲线的点加法、挠点群与 Tate 模，并用于说明 Mordell-Weil 定理和 Frey 曲线。"
+    },
+    {
+      "title": "目前动力系统中还没有被解决的问题有哪些?",
+      "url": "https://www.zhihu.com/answer/1953802849168363654",
+      "summary": "正文介绍椭圆曲线有理挠点的 Mazur 定理，以及数域上的一致有界推广。"
+    },
+    {
+      "title": "超越数论近来的发展如何？",
+      "url": "https://www.zhihu.com/answer/1958335126061709263",
+      "summary": "正文以Weierstrass方程、实周期、Mordell-Weil秩和BSD猜想具体展开椭圆曲线。"
+    },
+    {
+      "title": "请问有哪些数学定理，一看名字就知道很滑稽好玩？",
+      "url": "https://www.zhihu.com/answer/1962539821948986878",
+      "summary": "正文以复环面、Weierstrass p 函数和 j 不变量构造虚二次域的类域，涉及椭圆曲线及模参数。"
+    },
+    {
+      "title": "素数分布欧拉用一维去思考，黎曼用二维去思考，有没有数学家在三维，甚至更高维度去思考素数分布的规律？",
+      "url": "https://www.zhihu.com/answer/1967587213496817583",
+      "summary": "正文具体说明椭圆曲线的 L 函数应与模形式的 L 函数对应。"
+    },
+    {
+      "title": "如何证明/证伪 方程 x^5-px+q=0 至多只有两个整数解(p和q是正整数)？",
+      "url": "https://www.zhihu.com/answer/1973171684006704460",
+      "summary": "正文将问题化为 Weierstrass 标准型椭圆曲线，并计算其 Mordell-Weil 群。"
+    },
+    {
+      "title": "数学史上有哪些问题是通过构造出一套新的理论才得以解决的？必须要构造新的理论才能解决这些问题吗？",
+      "url": "https://www.zhihu.com/answer/1973807644906116852",
+      "summary": "正文把椭圆曲线定义为满足特定三次方程的点的集合，并说明它是怀尔斯证明费马大定理所用现代理论的一部分。"
+    },
+    {
+      "title": "数学物理方程怎么那么难？",
+      "url": "https://www.zhihu.com/answer/1985879802742321818",
+      "summary": "正文展开魏尔斯特拉斯椭圆函数、复环面、椭圆曲线及模曲线的对应关系。"
+    },
+    {
+      "title": "2025年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/1989020733054161279",
+      "summary": "正文由 Weierstrass 椭圆函数对应的三次曲线出发，用直线与曲线的交点证明加法定理，实质涉及椭圆曲线的几何结构。"
+    },
+    {
+      "title": "如何找两个边长为整数的三角形，使它们的周长面积分别相等但不全等？",
+      "url": "https://www.zhihu.com/answer/1994159186603446808",
+      "summary": "正文用椭圆曲线的点群运算从已知有理三角形生成更多等周长、等面积的有理点。"
+    },
+    {
+      "title": "日本数学家望月新一证明了ABC猜想，你有什么想法呢？",
+      "url": "https://www.zhihu.com/answer/2007077452221022548",
+      "summary": "正文具体讨论椭圆曲线的半稳定约化、局部 Tate 参数和模 l Galois 表示。"
+    },
+    {
+      "title": "此不定积分是否有简捷做法？",
+      "url": "https://www.zhihu.com/answer/2010850350744229311",
+      "summary": "正文把被积函数联系到亏格 1 代数曲线的雅可比簇挠点，并用挠点阶数确定 Pell 方程解的次数。"
+    },
+    {
+      "title": "你知道哪些求圆周率的方法？",
+      "url": "https://www.zhihu.com/answer/2016222735127324058",
+      "summary": "正文从三次方程引入椭圆曲线，并在不同素数模下研究其解的个数。"
+    },
+    {
+      "title": "2026 阿贝尔奖颁给德国数学家法尔廷斯，他对数学有哪些重大贡献？",
+      "url": "https://www.zhihu.com/answer/2018112010039112395",
+      "summary": "正文说明亏格为 1 的曲线是椭圆曲线，并借 Mordell-Weil 定理讨论其有理点群的结构。"
+    },
+    {
+      "title": "2026 阿贝尔奖颁给德国数学家法尔廷斯，他对数学有哪些重大贡献？",
+      "url": "https://www.zhihu.com/answer/2018223932080178640",
+      "summary": "正文介绍椭圆曲线模性猜想的算术与几何表述，以及法尔廷斯证明两种表述等价的工作。"
+    },
+    {
+      "title": "2026 阿贝尔奖颁给德国数学家法尔廷斯，他对数学有哪些重大贡献？",
+      "url": "https://www.zhihu.com/answer/2018587325261689463",
+      "summary": "正文定义椭圆曲线及其群结构，并说明用有理点生成全部有理点的莫德尔定理。"
+    },
+    {
+      "title": "2026 阿贝尔奖颁给德国数学家法尔廷斯，他对数学有哪些重大贡献？",
+      "url": "https://www.zhihu.com/answer/2029570863251353605",
+      "summary": "正文以亏格说明椭圆曲线，并讨论其有理点群和相关有限性猜想。"
+    },
+    {
+      "title": "数学史上有哪些看似成立的算式形式猜想，最终被某个大数证明不成立？",
+      "url": "https://www.zhihu.com/answer/2033851236223558222",
+      "summary": "正文说明 Elkies 利用椭圆曲线有理点构造四次幂反例，并由此获得无穷多个反例。"
+    },
+    {
+      "title": "为什么现在数学系普遍不学椭圆函数、超几何函数等特殊函数？",
+      "url": "https://www.zhihu.com/answer/2036064238700123425",
+      "summary": "正文把双周期椭圆函数解释为复环面乃至椭圆曲线上的函数。"
+    },
+    {
+      "title": "如何评价数学家德利涅说，如果数学用技巧，说明人类没有真正理解?",
+      "url": "https://www.zhihu.com/answer/2041723641184899946",
+      "summary": "正文把历史解公式解释为费马三次曲线上的椭圆曲线点倍运算，并讨论有理点。"
+    },
+    {
+      "title": "如何证明这个奇妙的“黄金积分恒等式”？",
+      "url": "https://www.zhihu.com/answer/2046094456764502618",
+      "summary": "正文用椭圆曲线上的点加法及倍角关系推出积分之间的倍数恒等式。"
+    },
+    {
+      "title": "群论真的是伽罗瓦发明的吗？有没有代笔的可能性？",
+      "url": "https://www.zhihu.com/answer/2046544135914525307",
+      "summary": "正文把 Galois 的模方程与模表示研究路径同椭圆曲线及 Mordell 定理联系起来。"
+    },
+    {
+      "title": "用平面去截曲面z^3=x^3+y^3，能否截出所有三次曲线？",
+      "url": "https://www.zhihu.com/answer/2047439743546348213",
+      "summary": "正文展开光滑三次曲线的 Weierstrass 方程、j-不变量、模参数和群律，实质讨论椭圆曲线。"
+    },
+    {
+      "title": "代数数论：总集篇",
+      "url": "https://zhuanlan.zhihu.com/p/24312945",
+      "summary": "正文给出椭圆曲线方程、判别式和群结构，并介绍 Mordell-Weil、Mazur 与 Siegel 定理。"
+    },
+    {
+      "title": "KRONECKER’S  JUGENDTRAUM",
+      "url": "https://zhuanlan.zhihu.com/p/24286405",
+      "summary": "正文围绕复乘椭圆曲线的挠点、模函数与虚二次域最大 Abel 扩张解释 Kronecker 的青春之梦。"
+    },
+    {
+      "title": "关于离散子群的一些杂记",
+      "url": "https://zhuanlan.zhihu.com/p/27101218",
+      "summary": "正文用格与复环面联系椭圆曲线，并讨论 j 不变量、类不变量及椭圆曲线同构分类。"
+    },
+    {
+      "title": "群的上同调的简单性质",
+      "url": "https://zhuanlan.zhihu.com/p/27125121",
+      "summary": "正文对椭圆曲线取上同调，构造 Selmer 群和 Tate-Shafarevich 群并证明 Mordell-Weil 定理。"
+    },
+    {
+      "title": "椭圆曲线的一些基础性质",
+      "url": "https://zhuanlan.zhihu.com/p/27159180",
+      "summary": "正文系统介绍 Weierstrass 方程、判别式、群律、Mordell-Weil 定理、挠点和有限域点计数。"
+    },
+    {
+      "title": "一些计算有限域上方程解个数的例子",
+      "url": "https://zhuanlan.zhihu.com/p/27166806",
+      "summary": "正文单列 g=1 的椭圆曲线情形，计算 E:y^2=x^3-x 在 F_p 上的点数并讨论 a_p 与 L 函数。"
+    },
+    {
+      "title": "史上最贱的数学题",
+      "url": "https://zhuanlan.zhihu.com/p/33853851",
+      "summary": "正文把原方程化为魏尔斯特拉斯形式，并用椭圆曲线上的有理点与弦切加法寻找整数解。"
+    },
+    {
+      "title": "史上最贱的数学题",
+      "url": "https://zhuanlan.zhihu.com/p/33997468",
+      "summary": "正文把丢番图方程双有理化为椭圆曲线，并用弦切加法生成有理点，最终得到九倍点对应的正整数解。"
+    },
+    {
+      "title": "新手上路：实数上的椭圆曲线和群论",
+      "url": "https://zhuanlan.zhihu.com/p/34363494",
+      "summary": "正文由 Weierstrass 方程定义实椭圆曲线，并讲解其几何加法、代数加法和标量乘法。"
+    },
+    {
+      "title": "【多图预警】从零开始破解《史上最贱的数学题》",
+      "url": "https://zhuanlan.zhihu.com/p/33983565",
+      "summary": "正文以方程 y^2=x^3+ax+b 定义椭圆曲线，并通过弦切法构造更多有理点。"
+    },
+    {
+      "title": "椭圆曲线，模形式，模曲线，表示论，求和公式 (1)",
+      "url": "https://zhuanlan.zhihu.com/p/35100918",
+      "summary": "正文从L函数、模形式和模曲线讨论椭圆曲线的模性，并说明其与椭圆曲线分类的联系。"
+    },
+    {
+      "title": "椭圆曲线——克罗内克青春之梦",
+      "url": "https://zhuanlan.zhihu.com/p/35322943",
+      "summary": "正文从代数方程、j不变量、复环面和复乘等角度系统讨论椭圆曲线及其分类。"
+    },
+    {
+      "title": "ECC椭圆曲线加密算法：介绍",
+      "url": "https://zhuanlan.zhihu.com/p/36326221",
+      "summary": "正文给出椭圆曲线的方程、非奇点条件以及点集定义。"
+    },
+    {
+      "title": "André Weil(安德列.韦依)的一生（上）",
+      "url": "https://zhuanlan.zhihu.com/p/36913169",
+      "summary": "正文以 Mordell-Weil 定理说明椭圆曲线上有理点群的结构，并介绍 Weil 将其推广到亏格不小于 1 的代数曲线。"
+    },
+    {
+      "title": "André Weil(安德列.韦依)的一生（下）",
+      "url": "https://zhuanlan.zhihu.com/p/36915115",
+      "summary": "正文陈述 Taniyama-Shimura 猜想，并说明其对一类椭圆曲线的证明足以推出费马大定理。"
+    },
+    {
+      "title": "神秘的零知识证明之zkSNARK",
+      "url": "https://zhuanlan.zhihu.com/p/38205067",
+      "summary": "正文解释有限域椭圆曲线的生成点、离散对数难题和双线性对，并用其隐藏向量并验证二次约束。"
+    },
+    {
+      "title": "史上最贱的数学题：虽然这题看似简单 但你很可能解不来",
+      "url": "https://zhuanlan.zhihu.com/p/39715835",
+      "summary": "正文把三元三次丢番图方程化为魏尔斯特拉斯形式，并利用椭圆曲线有理点和弦切加法构造正整数解。"
+    },
+    {
+      "title": "谷山-志村-韦依猜想（上）",
+      "url": "https://zhuanlan.zhihu.com/p/40557310",
+      "summary": "正文从三次方程定义光滑椭圆曲线，并讨论 Weierstrass 形式、判别式、约化和群结构。"
+    },
+    {
+      "title": "看数学家打架是一种怎样的体验？",
+      "url": "https://zhuanlan.zhihu.com/p/45466956",
+      "summary": "正文说明如何把互素正整数满足的 ABC 方程转化为椭圆曲线问题。"
+    },
+    {
+      "title": "ECC椭圆曲线加密算法：有限域和离散对数",
+      "url": "https://zhuanlan.zhihu.com/p/44743146",
+      "summary": "正文在有限域上定义椭圆曲线，给出点加公式、阶、循环子群和基点选择。"
+    },
+    {
+      "title": "史上最贱的数学题 | Alon Amit",
+      "url": "https://zhuanlan.zhihu.com/p/59072397",
+      "summary": "正文把三元三次丢番图方程化为魏尔斯特拉斯形式，并利用椭圆曲线有理点和弦切加法构造正整数解。"
+    },
+    {
+      "title": "高代随记（一）从判别式与结式到椭圆函数j不变量",
+      "url": "https://zhuanlan.zhihu.com/p/77119428",
+      "summary": "正文以 Weierstrass 方程讨论椭圆曲线的判别式及 j 不变量。"
+    },
+    {
+      "title": "椭圆曲线密码学简介（二）：有限域的椭圆曲线及离散对数问题",
+      "url": "https://zhuanlan.zhihu.com/p/104531745",
+      "summary": "正文讲解有限域上椭圆曲线的定义、群阶、点加法和标量乘法。"
+    },
+    {
+      "title": "椭圆曲线En的zeta函数的计算",
+      "url": "https://zhuanlan.zhihu.com/p/138637522",
+      "summary": "正文计算有限域上椭圆曲线 y^2=x^3-n^2x 的点数及其同余 zeta 函数。"
+    },
+    {
+      "title": "零知识证明 - 椭圆曲线基础",
+      "url": "https://zhuanlan.zhihu.com/p/143122476",
+      "summary": "正文给出椭圆曲线的魏尔斯特拉斯方程、无穷远点、点加和标量乘法，并讨论其有限域上的循环子群。"
+    },
+    {
+      "title": "费马大定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/143263424",
+      "summary": "正文说明怀尔斯证明的关键是建立椭圆曲线与模形式之间的联系，并借助谷山-志村猜想的特例推出费马大定理。"
+    },
+    {
+      "title": "浙大哈佛剑桥学者联手破解数学界几十年的谜题，成果登上数学顶刊",
+      "url": "https://zhuanlan.zhihu.com/p/369531443",
+      "summary": "正文以椭圆曲线方程和点加法解释其对称结构及挠点概念，属于椭圆曲线的基本讨论。"
+    },
+    {
+      "title": "什么是模形式（草稿流简述）",
+      "url": "https://zhuanlan.zhihu.com/p/461315486",
+      "summary": "正文从复环面和三次数曲线引入椭圆曲线，介绍 Tate 模、Tate 曲线及其模性。"
+    },
+    {
+      "title": "费马的绝妙证明与椭圆曲线（Mordell-Weil定理）",
+      "url": "https://zhuanlan.zhihu.com/p/530601252",
+      "summary": "正文定义 Weierstrass 形式椭圆曲线、点加法群律并利用高度函数证明 Mordell-Weil 定理。"
+    },
+    {
+      "title": "黎曼曲面（1）  基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/554710707",
+      "summary": "正文由复平面模离散格群构造黎曼环面，并明确其与椭圆曲线的联系。"
+    },
+    {
+      "title": "一个关于椭圆曲线的世界数学难题，揭示了数学领域之间深层的联系",
+      "url": "https://zhuanlan.zhihu.com/p/578396926",
+      "summary": "正文系统介绍椭圆曲线方程、有理点、秩以及伯奇和斯温纳顿-戴尔猜想。"
+    },
+    {
+      "title": "菲尔兹奖得主再次突破数论难题：多少整数能写成2个有理数立方和？结论直接影响“千禧难题”之七",
+      "url": "https://zhuanlan.zhihu.com/p/588125628",
+      "summary": "正文说明两个有理数立方和问题属于椭圆曲线，并围绕其有理数解与相关猜想展开研究进展。"
+    },
+    {
+      "title": "巨大的数学谜团——椭圆曲线，代数、几何和数论的完美结合",
+      "url": "https://zhuanlan.zhihu.com/p/601650416",
+      "summary": "正文以有理点、秩和BSD猜想为主线介绍椭圆曲线及其数论意义。"
+    },
+    {
+      "title": "椭圆模函数（2）——Weierstrass的椭圆函数论",
+      "url": "https://zhuanlan.zhihu.com/p/603750259",
+      "summary": "正文由 Weierstrass 椭圆函数的微分方程导出标准三次方程，并明确指出它构成了椭圆曲线。"
+    },
+    {
+      "title": "这才是真正最顶尖的数学—L函数与朗兰兹计划，黎曼ζ函数只是其最简单的示例",
+      "url": "https://zhuanlan.zhihu.com/p/650279358",
+      "summary": "正文详细说明椭圆曲线方程、模p点数、L函数以及椭圆曲线与模形式之间的对应。"
+    },
+    {
+      "title": "这才是真正最顶尖的数学—L函数，黎曼ζ函数只是其最简单的示例",
+      "url": "https://zhuanlan.zhihu.com/p/672704574",
+      "summary": "正文从椭圆曲线方程的模素数解构造L函数，并说明其与模形式之间的对应。"
+    },
+    {
+      "title": "代数数论与代数几何的交织：椭圆曲线的算术理论",
+      "url": "https://zhuanlan.zhihu.com/p/673884242",
+      "summary": "正文详细讨论椭圆曲线方程、点加法、Mordell-Weil 群、BSD 猜想与模性定理。"
+    },
+    {
+      "title": "Motives：Grothendieck 的梦想",
+      "url": "https://zhuanlan.zhihu.com/p/681501229",
+      "summary": "正文用椭圆曲线的群结构、自同态环和 L 函数说明不同上同调理论，并联系 BSD 猜想。"
+    },
+    {
+      "title": "陶哲轩预测再成真！AI做出椭圆曲线难题重大发现，华人数学家接近千禧年大奖",
+      "url": "https://zhuanlan.zhihu.com/p/686371338",
+      "summary": "正文以方程 y^2=x^3+Ax+B 定义椭圆曲线，并进一步讨论有理点、秩、有限域和 a_p 序列。"
+    },
+    {
+      "title": "椭圆曲线秩的新记录",
+      "url": "https://zhuanlan.zhihu.com/p/720313525",
+      "summary": "正文给出一条具体椭圆曲线及其有理点、判别式和整点记录，并说明其秩至少为 29，属于椭圆曲线的实质讨论。"
+    },
+    {
+      "title": "浅说椭圆曲线",
+      "url": "https://zhuanlan.zhihu.com/p/30710954998",
+      "summary": "正文讲解椭圆曲线的标准方程、退化类型、复数环面模型、j 不变量、拐点和交点性质。"
+    },
+    {
+      "title": "师祖作《代数基本观念II》序",
+      "url": "https://zhuanlan.zhihu.com/p/2025734443080455450",
+      "summary": "正文由 Weierstrass 函数和双周期格构造复环面与椭圆曲线，并讨论其方程、判别式、L 函数和模性。"
+    },
+    {
+      "title": "Galois上同调与局部-整体原则的故事",
+      "url": "https://zhuanlan.zhihu.com/p/2025194104884139878",
+      "summary": "正文用椭圆曲线的主齐性空间和局部有理点定义 Tate-Shafarevich 群，说明其刻画局部-整体原则的失效。"
+    },
+    {
+      "title": "代数几何学与弦理论",
+      "url": "https://zhuanlan.zhihu.com/p/2050307410531825145",
+      "summary": "正文详细讨论亏格一曲线、Weierstrass 方程和其模空间的 J 不变量。"
+    },
+    {
+      "title": "科普：猫也能注意到 —— Γ函数的秘密花园",
+      "url": "https://zhuanlan.zhihu.com/p/2051672162260497844",
+      "summary": "正文把 Fermat motive 的周期与 CM 椭圆曲线及其周期联系起来。"
+    }
+  ]
+}

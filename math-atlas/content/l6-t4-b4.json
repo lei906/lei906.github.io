@@ -1,0 +1,1621 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l6-t4-b4",
+  "sources": [
+    {
+      "title": "在数学中一个非凸的最优化问题是什么意思？",
+      "url": "https://www.zhihu.com/answer/17347657",
+      "summary": "介绍凸集、凸目标和局部最优的意义，但凸函数不等号写反，应为≤；凸优化不必要求可行域闭合，某约束函数非凸也不足以断定实际可行域非凸。图片未读取。"
+    },
+    {
+      "title": "最优化问题中，牛顿法为什么比梯度下降法求解需要的迭代次数更少？",
+      "url": "https://www.zhihu.com/answer/39092381",
+      "summary": "正文从强凸条件、一二阶近似和线搜索推导牛顿法与梯度下降的收敛差别。"
+    },
+    {
+      "title": "如果对机器学习仅是以应用为目的的话，到底需要多少数学…，比如说微分流形，代数拓扑，泛函之类的需要懂吗？",
+      "url": "https://www.zhihu.com/answer/44030234",
+      "summary": "正文将凸优化列为机器学习的重要数学基础。"
+    },
+    {
+      "title": "机器学习中常常提到的正则化到底是什么意思？",
+      "url": "https://www.zhihu.com/answer/45397882",
+      "summary": "正文以岭估计目标函数说明正则项约束优化。"
+    },
+    {
+      "title": "为什么不同教材中凸函数和凹函数的定义是不同的?",
+      "url": "https://www.zhihu.com/answer/50926576",
+      "summary": "正文通过凸集和函数上方区域解释凸、凹函数定义差异。"
+    },
+    {
+      "title": "数字图像处理处理中的数学怎么提高？",
+      "url": "https://www.zhihu.com/answer/72078499",
+      "summary": "正文说明如何识别可转化为凸优化的问题。"
+    },
+    {
+      "title": "如何构建李雅普诺夫方程（或者说有什么构建方程的技巧吗）？",
+      "url": "https://www.zhihu.com/answer/74539139",
+      "summary": "正文把 Lyapunov 函数寻找转化为半正定规划并系统讲解凸优化。"
+    },
+    {
+      "title": "为什么nn的较大问题是会陷入局部最优时，不选用凸函数作为激活函数？",
+      "url": "https://www.zhihu.com/answer/77027608",
+      "summary": "正文用两层线性网络举例区分凸激活函数与凸优化目标。"
+    },
+    {
+      "title": "请证明：凸函数局部最优解就是全局最优?",
+      "url": "https://www.zhihu.com/answer/78367372",
+      "summary": "正文用凸组合严格证明凸函数的局部最优点必为全局最优点。"
+    },
+    {
+      "title": "交替方向乘子法（ADMM）算法的流程和原理是怎样的？",
+      "url": "https://www.zhihu.com/answer/82474155",
+      "summary": "正文说明 ADMM 适于分解和求解分布式凸优化问题。"
+    },
+    {
+      "title": "怎么理解二阶偏导与凸函数的Hessian矩阵是半正定的？",
+      "url": "https://www.zhihu.com/answer/85707932",
+      "summary": "正文给出凸函数的一阶与二阶判别条件。"
+    },
+    {
+      "title": "Linear least squares, Lasso,ridge regression有何本质区别？",
+      "url": "https://www.zhihu.com/answer/85813729",
+      "summary": "正文把 OLS 明确写成凸优化并讨论梯度下降和牛顿法。"
+    },
+    {
+      "title": "为什么我们要考虑线性规划的对偶问题？",
+      "url": "https://www.zhihu.com/answer/106474935",
+      "summary": "正文从线性规划推广到一般凸规划，解释弱对偶和强对偶。"
+    },
+    {
+      "title": "你见过哪些神一样的优化操作？",
+      "url": "https://www.zhihu.com/answer/110778731",
+      "summary": "正文讲述原始对偶内点法在凸优化中的提出、二阶收敛证明及后来的简化理解。"
+    },
+    {
+      "title": "是否所有的优化问题都可以转化成对偶问题？",
+      "url": "https://www.zhihu.com/answer/110807943",
+      "summary": "正文说明凸优化在正则条件下满足强对偶，并举出原始-对偶内点法。"
+    },
+    {
+      "title": "线性空间的对偶空间和优化里的拉格朗日对偶有什么关系？",
+      "url": "https://www.zhihu.com/answer/113740571",
+      "summary": "正文从闭凸集支撑超平面、共轭函数和扰动问题推导拉格朗日对偶。"
+    },
+    {
+      "title": "如何快速判断目标函数的凸性？",
+      "url": "https://www.zhihu.com/answer/118400738",
+      "summary": "正文系统总结透视函数、复合规则、降维和共轭表示等凹凸性判定技巧。"
+    },
+    {
+      "title": "不用Matlab MPC工具箱怎么编写MPC？",
+      "url": "https://www.zhihu.com/answer/118645471",
+      "summary": "正文把 MPC 离散后的约束问题交由凸优化和序列二次规划求解。"
+    },
+    {
+      "title": "分布的相似度（距离）用什么模型比较好？",
+      "url": "https://www.zhihu.com/answer/118705625",
+      "summary": "正文把最优传输写成线性规划，并介绍单纯形、内点法和 ADMM 等求解法。"
+    },
+    {
+      "title": "交替方向乘子法（ADMM）算法的流程和原理是怎样的？",
+      "url": "https://www.zhihu.com/answer/118715721",
+      "summary": "正文从带约束凸优化、拉格朗日对偶和增广拉格朗日法推导 ADMM 的交替更新流程。"
+    },
+    {
+      "title": "运筹学中应该如何理解互补松弛性。这条性质又该如何运用?",
+      "url": "https://www.zhihu.com/answer/123244103",
+      "summary": "正文说明互补松弛也适用于一般凸优化，并区分线性规划的严格互补性质。"
+    },
+    {
+      "title": "在整数规划中有哪些令人印象深刻的lower bound或者问题的性质？",
+      "url": "https://www.zhihu.com/answer/131031927",
+      "summary": "正文在可行域和线性规划框架中说明逐步加入负约化成本变量的原始—对偶优化算法。"
+    },
+    {
+      "title": "机器学习中常常提到的正则化到底是什么意思？",
+      "url": "https://www.zhihu.com/answer/131421690",
+      "summary": "正文把经验风险与正则项合并为优化目标，并讨论L1替代L0的可求解性。"
+    },
+    {
+      "title": "如何理解感知机学习算法的对偶形式？",
+      "url": "https://www.zhihu.com/answer/131591887",
+      "summary": "正文从损失函数最小化、梯度方向与参数更新解释感知机优化过程。"
+    },
+    {
+      "title": "相机位姿求解问题？",
+      "url": "https://www.zhihu.com/answer/132005467",
+      "summary": "正文构造重投影误差和ICP目标函数，并通过梯度、非线性优化求相机位姿。"
+    },
+    {
+      "title": "为什么凸优化这么重要？",
+      "url": "https://www.zhihu.com/answer/136736625",
+      "summary": "正文从几何、全局分析、可计算性和建模能力系统解释凸优化为何重要。"
+    },
+    {
+      "title": "在数学中一个非凸的最优化问题是什么意思？",
+      "url": "https://www.zhihu.com/answer/140478173",
+      "summary": "正文解释凸优化中局部最优等于全局最优的关键性质。"
+    },
+    {
+      "title": "如何理解勒让德变换？",
+      "url": "https://www.zhihu.com/answer/148105234",
+      "summary": "正文从凸函数切线的斜率与截距一一对应，直观解释勒让德变换的对偶表示。"
+    },
+    {
+      "title": "计算数学专业，想问一下目前计算数学哪个比较热门？",
+      "url": "https://www.zhihu.com/answer/155732379",
+      "summary": "正文介绍次梯度、近端梯度和 ADMM 等数值凸优化算法。"
+    },
+    {
+      "title": "为什么核范数能凸近似矩阵的秩？为什么核范数是凸的？",
+      "url": "https://www.zhihu.com/answer/164860598",
+      "summary": "正文用双共轭与凸包解释核范数为何是秩的最佳凸松弛。"
+    },
+    {
+      "title": "如何通俗地讲解对偶问题，尤其是拉格朗日对偶 lagrangian duality？",
+      "url": "https://www.zhihu.com/answer/166737708",
+      "summary": "正文用支撑超平面和凸集完整解释拉格朗日对偶的几何意义。"
+    },
+    {
+      "title": "梯度下降法和共轭梯度法有何异同？",
+      "url": "https://www.zhihu.com/answer/171336970",
+      "summary": "正文推导正定二次目标上的共轭梯度法，解释沿共轭方向分解并分别求极值。"
+    },
+    {
+      "title": "能否通俗的解释一下广义Benders分解过程？",
+      "url": "https://www.zhihu.com/answer/183288940",
+      "summary": "正文说明固定复杂变量后子问题关于另一变量为凸函数，并借对偶和切平面构造割。"
+    },
+    {
+      "title": "为什么 Non-Convex Optimization 受到了越来越大的关注？",
+      "url": "https://www.zhihu.com/answer/184453984",
+      "summary": "正文说明如何把几何规划由非凸问题变换为凸问题，并讨论凸性的坐标依赖。"
+    },
+    {
+      "title": "如何快速判断目标函数的凸性？",
+      "url": "https://www.zhihu.com/answer/195467291",
+      "summary": "正文解释 DCP 如何用原子库和凸性演算规则识别、变换凸优化问题。"
+    },
+    {
+      "title": "凸分析和凸优化有什么推荐的教材吗？",
+      "url": "https://www.zhihu.com/answer/200982153",
+      "summary": "正文区分凸分析与凸优化的研究对象，并按方向组织学习资料。"
+    },
+    {
+      "title": "为什么微观经济学中拉格朗日函数都用减号，而高等数学教材中都用加号？",
+      "url": "https://www.zhihu.com/answer/202609987",
+      "summary": "正文说明凸约束集和凸优化条件下拉格朗日解与原问题等价。"
+    },
+    {
+      "title": "如何理解Bregman divergence？",
+      "url": "https://www.zhihu.com/answer/209945856",
+      "summary": "正文从凸函数切线定义 Bregman 散度，并说明其在镜像下降与凸规划中的作用。"
+    },
+    {
+      "title": "罚函数法和拉格朗日乘子法的区别？",
+      "url": "https://www.zhihu.com/answer/228724913",
+      "summary": "正文系统比较惩罚函数、拉格朗日乘子、对偶、KKT 与增广拉格朗日方法。"
+    },
+    {
+      "title": "逻辑回归损失函数为什么使用最大似然估计而不用最小二乘法？",
+      "url": "https://www.zhihu.com/answer/231543702",
+      "summary": "正文以凸性解释最大似然目标更便于优化。"
+    },
+    {
+      "title": "非线性优化中的 KKT 条件该如何理解？",
+      "url": "https://www.zhihu.com/answer/235256926",
+      "summary": "正文从可行方向与梯度完整推导KKT优化条件。"
+    },
+    {
+      "title": "如何评价丘成桐团队关于GAN的论文?",
+      "url": "https://www.zhihu.com/answer/249054021",
+      "summary": "正文说明最优运输与凸代价函数如何给出生成器闭式解。"
+    },
+    {
+      "title": "为什么极大似然估计求导为 0 就是要求的值呢？",
+      "url": "https://www.zhihu.com/answer/269353169",
+      "summary": "正文利用凸函数和凹似然证明极大似然驻点是最大值。"
+    },
+    {
+      "title": "人们是如何想到奇异值分解的？",
+      "url": "https://www.zhihu.com/answer/272977924",
+      "summary": "正文从带等式约束的极值问题与 KKT 条件推导奇异值分解。"
+    },
+    {
+      "title": "Legendre-Fenchel 变换的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/280035913",
+      "summary": "正文解释 Fenchel 对偶在凸优化中的用途。"
+    },
+    {
+      "title": "神经网络的损失函数为什么是非凸的?",
+      "url": "https://www.zhihu.com/answer/296241429",
+      "summary": "正文通过 Hessian 沿方向的二阶导数判断目标函数非凸。"
+    },
+    {
+      "title": "如何理解 natural gradient descent?",
+      "url": "https://www.zhihu.com/answer/314354512",
+      "summary": "正文从带约束优化的角度推导自然梯度。"
+    },
+    {
+      "title": "神经网络中，为何不直接对损失函数求偏导后令其等于零，求出最优权重，而要使用梯度下降法（迭代）计算权重？",
+      "url": "https://www.zhihu.com/answer/317647590",
+      "summary": "正文分析非凸目标、局部最优和梯度下降的优化限制。"
+    },
+    {
+      "title": "运筹学与博弈论有哪些相交的地方？",
+      "url": "https://www.zhihu.com/answer/321428619",
+      "summary": "正文把混合策略最优反应明确建模为线性优化问题。"
+    },
+    {
+      "title": "如何理解变分不等式？",
+      "url": "https://www.zhihu.com/answer/334993310",
+      "summary": "正文将光滑凸优化写成单调变分不等式并推导最优条件。"
+    },
+    {
+      "title": "基础数学的非线性泛函分析研究什么？",
+      "url": "https://www.zhihu.com/answer/496053256",
+      "summary": "正文介绍凸性、紧性与拉格朗日乘子等优化方法。"
+    },
+    {
+      "title": "为什么SVM要用拉格朗日对偶算法来解问题？",
+      "url": "https://www.zhihu.com/answer/519104070",
+      "summary": "全文把 SVM 写成凸二次规划，解释 Lagrange 对偶、弱对偶、Slater 条件和强对偶。"
+    },
+    {
+      "title": "请问filippov解大概是什么意思？是怎么定义的？有什么作用？",
+      "url": "https://www.zhihu.com/answer/532993703",
+      "summary": "正文以凸函数的次微分构造非光滑梯度流，并讨论极小值与解的渐近收敛。"
+    },
+    {
+      "title": "为什么凸优化这么重要？",
+      "url": "https://www.zhihu.com/answer/542533797",
+      "summary": "正文解释凸函数使局部最优成为全局最优的关键性质。"
+    },
+    {
+      "title": "机器学习应补充哪些数学基础？",
+      "url": "https://www.zhihu.com/answer/564893704",
+      "summary": "说明机器学习中的偏导数、链式法则和凸优化相互关联。"
+    },
+    {
+      "title": "如何理解 Farkas 引理？",
+      "url": "https://www.zhihu.com/answer/565859435",
+      "summary": "通过凸锥分离证明 Farkas 引理并解释其在凸优化中的作用。"
+    },
+    {
+      "title": "ADMM算法的详细推导过程是什么？",
+      "url": "https://www.zhihu.com/answer/580226096",
+      "summary": "从增广拉格朗日法推导 ADMM 的交替更新并讨论收敛。"
+    },
+    {
+      "title": "SDP (半正定规划) 有什么形象的实例？怎么理解？",
+      "url": "https://www.zhihu.com/answer/604280099",
+      "summary": "正文介绍半正定规划的建模能力。"
+    },
+    {
+      "title": "运筹学单纯形法无界解的判定原理是什么？",
+      "url": "https://www.zhihu.com/answer/614782080",
+      "summary": "正文分析线性规划优化问题的无界性。"
+    },
+    {
+      "title": "运筹学（最优化理论）如何入门？",
+      "url": "https://www.zhihu.com/answer/618437135",
+      "summary": "正文系统介绍线性规划与凸优化。"
+    },
+    {
+      "title": "有什么理论复杂但是实现简单的算法？",
+      "url": "https://www.zhihu.com/answer/621217738",
+      "summary": "把权重更新推导为带熵正则项的凸优化问题。"
+    },
+    {
+      "title": "遇到一个具体的六轴机械臂，对其时间最优轨迹规划算法进行设计需要考虑哪些问题？",
+      "url": "https://www.zhihu.com/answer/651720444",
+      "summary": "说明凸优化方法能加入额外偏好并保持凸性。"
+    },
+    {
+      "title": "怎么判断一个优化问题是凸优化还是非凸优化？",
+      "url": "https://www.zhihu.com/answer/748981244",
+      "summary": "系统定义凸优化问题及其判别方法。"
+    },
+    {
+      "title": "怎么判断一个优化问题是凸优化还是非凸优化？",
+      "url": "https://www.zhihu.com/answer/762727073",
+      "summary": "从凸目标函数和凸可行域定义凸优化。"
+    },
+    {
+      "title": "神经网络的损失函数为什么是非凸的?",
+      "url": "https://www.zhihu.com/answer/769005628",
+      "summary": "用函数复合与截面反例解释凸性失效。"
+    },
+    {
+      "title": "推荐一本可以深入学习线性规划的书，我想要那种有介绍线性规划背后最优化数学理论的书。?",
+      "url": "https://www.zhihu.com/answer/792156656",
+      "summary": "从几何直观和代数证明介绍线性规划。"
+    },
+    {
+      "title": "如何通俗地讲解对偶问题，尤其是拉格朗日对偶 lagrangian duality？",
+      "url": "https://www.zhihu.com/answer/823769937",
+      "summary": "说明凸优化与 KKT、对偶问题。"
+    },
+    {
+      "title": "有哪些适合入门且较全面的运筹学书籍可以推荐一下吗？",
+      "url": "https://www.zhihu.com/answer/892896188",
+      "summary": "解释凸优化在运筹学中的位置与先修关系。"
+    },
+    {
+      "title": "如何学习凸优化中的连续凸逼近问题？",
+      "url": "https://www.zhihu.com/answer/919173270",
+      "summary": "正文完整解释连续凸逼近用一系列凸子问题求非凸问题驻点的迭代原理。"
+    },
+    {
+      "title": "如何理解压缩感知(compressive sensing)？",
+      "url": "https://www.zhihu.com/answer/934401746",
+      "summary": "正文解释以一范数最小化替代零范数最小化，使稀疏恢复成为可解优化问题。"
+    },
+    {
+      "title": "如何理解“L1范数是L0范数的最优凸近似”？",
+      "url": "https://www.zhihu.com/answer/954062882",
+      "summary": "正文从范数球、线性约束与稀疏解解释 L1 松弛为何形成凸优化近似。"
+    },
+    {
+      "title": "如何理解障碍李雅普诺夫函数？",
+      "url": "https://www.zhihu.com/answer/1055703620",
+      "summary": "正文以带 CLF/CBF 约束的二次规划构造安全控制器。"
+    },
+    {
+      "title": "函数的次梯度如何理解？",
+      "url": "https://www.zhihu.com/answer/1078802944",
+      "summary": "正文从凸函数支撑超平面出发解释次梯度。"
+    },
+    {
+      "title": "如何通俗地讲解对偶问题，尤其是拉格朗日对偶 lagrangian duality？",
+      "url": "https://www.zhihu.com/answer/1119054535",
+      "summary": "正文从凸集几何完整解释拉格朗日对偶、对偶间隙与强弱对偶。"
+    },
+    {
+      "title": "如何通俗地讲解对偶问题，尤其是拉格朗日对偶 lagrangian duality？",
+      "url": "https://www.zhihu.com/answer/1144183071",
+      "summary": "正文从资源交易的经济模型完整解释凸优化中的拉格朗日对偶。"
+    },
+    {
+      "title": "非线性优化中的 KKT 条件该如何理解？",
+      "url": "https://www.zhihu.com/answer/1156524865",
+      "summary": "正文实质讨论KKT条件与凸优化的关系。"
+    },
+    {
+      "title": "目前优化界中，能对最高多少次的目标函数进行优化？",
+      "url": "https://www.zhihu.com/answer/1198946477",
+      "summary": "正文说明SOS松弛转化为半正定凸优化。"
+    },
+    {
+      "title": "最优化：线搜索中有最速下降法、牛顿法、拟牛顿法、共轭梯度法，那么他们分别时候用啊？？",
+      "url": "https://www.zhihu.com/answer/1230863738",
+      "summary": "正文讨论数值优化的线搜索、阶梯矩阵与收敛方法。"
+    },
+    {
+      "title": "如何通俗易懂的解释LMI线性矩阵不等式？",
+      "url": "https://www.zhihu.com/answer/1248405047",
+      "summary": "正文将 LMI 用于控制与优化问题的数值求解。"
+    },
+    {
+      "title": "拉格朗日乘子λ和x交替迭代，所求结果不理想，这与什么有关，有什么优化建议？",
+      "url": "https://www.zhihu.com/answer/1256563445",
+      "summary": "正文指出替代方法的收敛性仍依赖目标函数凸性。"
+    },
+    {
+      "title": "如何理解 Farkas 引理？",
+      "url": "https://www.zhihu.com/answer/1371398531",
+      "summary": "正文用凸锥和凸集分离解释 Farkas 引理。"
+    },
+    {
+      "title": "《运筹学》,《线性规划》，《非线性规划》，《凸优化》，《最优化方法》这几门课程有什么区别和联系？",
+      "url": "https://www.zhihu.com/answer/1422652774",
+      "summary": "正文区分运筹学、凸优化和最优化课程的理论与算法侧重。"
+    },
+    {
+      "title": "本科应用数学，纠结考应用数学还是运筹学与控制论研究生，这两个有什么大的区别吗？（本人编程能力挺弱的）？",
+      "url": "https://www.zhihu.com/answer/1510203662",
+      "summary": "正文明确把凸优化列为运筹学方向的核心内容。"
+    },
+    {
+      "title": "原问题中约束条件部分加入拉格朗日作为对偶问题有什么问题？",
+      "url": "https://www.zhihu.com/answer/1552969000",
+      "summary": "正文在凸假设下讨论对偶函数与高效求解。"
+    },
+    {
+      "title": "随机优化、鲁棒优化和分布鲁棒优化有什么联系和区别？",
+      "url": "https://www.zhihu.com/answer/1601629506",
+      "summary": "正文直接讨论或应用该叶节点主题（鲁棒）。"
+    },
+    {
+      "title": "什么是梯度下降法？",
+      "url": "https://www.zhihu.com/answer/1639782992",
+      "summary": "正文围绕凸函数最小化介绍梯度下降。"
+    },
+    {
+      "title": "做好机器学习，数学要学到什么程度？",
+      "url": "https://www.zhihu.com/answer/1781641922",
+      "summary": "正文把优化算法列为机器学习核心数学基础。"
+    },
+    {
+      "title": "有哪些适合入门且较全面的运筹学书籍可以推荐一下吗？",
+      "url": "https://www.zhihu.com/answer/1837628198",
+      "summary": "正文专列凸优化教材并说明其框架与适用读者。"
+    },
+    {
+      "title": "《运筹学》,《线性规划》，《非线性规划》，《凸优化》，《最优化方法》这几门课程有什么区别和联系？",
+      "url": "https://www.zhihu.com/answer/1841918398",
+      "summary": "正文解释凸优化与非凸优化的分界及全局最优性质。"
+    },
+    {
+      "title": "目前最优控制问题有哪些数值算法？",
+      "url": "https://www.zhihu.com/answer/2029767202",
+      "summary": "正文介绍把非线性优化转化为凸优化问题求解。"
+    },
+    {
+      "title": "有哪些数学上的定理让你感觉「这不显然吗，这还用证明」？",
+      "url": "https://www.zhihu.com/answer/2075848646",
+      "summary": "正文陈述凸集分离定理并解释凸分析的几何意义。"
+    },
+    {
+      "title": "一个边长为10的正方形内最多可放入多少个直径为 1 的圆？",
+      "url": "https://www.zhihu.com/answer/2115892705",
+      "summary": "正文把圆包装问题写成DC规划并反复求解凸优化子问题。"
+    },
+    {
+      "title": "各种机器学习算法的应用场景分别是什么（比如朴素贝叶斯、决策树、K 近邻、SVM、逻辑回归最大熵模型）？",
+      "url": "https://www.zhihu.com/answer/2257111868",
+      "summary": "正文用罚项和范数解释岭回归、Lasso 与弹性网络的优化目标。"
+    },
+    {
+      "title": "《凸优化》这本书怎么学习或阅读？",
+      "url": "https://www.zhihu.com/answer/2258112117",
+      "summary": "正文围绕 Boyd《凸优化》的理论、应用和算法三部分说明学习重点。"
+    },
+    {
+      "title": "《凸优化》这本书怎么学习或阅读？",
+      "url": "https://www.zhihu.com/answer/2267529476",
+      "summary": "正文围绕 Boyd 的凸优化教材给出阅读方法。"
+    },
+    {
+      "title": "如何从零开始学习凸优化？",
+      "url": "https://www.zhihu.com/answer/2267537558",
+      "summary": "正文以课程覆盖的优化算法和机器学习应用解释凸优化学习内容。"
+    },
+    {
+      "title": "怎样克服神经网络训练中argmax的不可导性？",
+      "url": "https://www.zhihu.com/answer/2279251657",
+      "summary": "正文把不可导问题放在凸函数、光滑化与梯度优化的框架中处理。"
+    },
+    {
+      "title": "国内本科运筹学课程的教育都存在哪些问题？",
+      "url": "https://www.zhihu.com/answer/2287793335",
+      "summary": "正文用局部最优、可行下降方向和 KKT 条件解释凸优化理论。"
+    },
+    {
+      "title": "有哪些数学系看后久久不能平静的运筹学书籍？",
+      "url": "https://www.zhihu.com/answer/2302060657",
+      "summary": "正文讨论凸优化、线性锥优化及其可计算边界。"
+    },
+    {
+      "title": "有哪些数学系看后久久不能平静的运筹学书籍？",
+      "url": "https://www.zhihu.com/answer/2302232994",
+      "summary": "正文列出凸优化入门与数值优化资料。"
+    },
+    {
+      "title": "学好运筹学需要哪些基础？",
+      "url": "https://www.zhihu.com/answer/2328175490",
+      "summary": "正文用凸集和支撑超平面解释线性规划与凸优化。"
+    },
+    {
+      "title": "什么是最优传输理论?",
+      "url": "https://www.zhihu.com/answer/2413879235",
+      "summary": "正文直接讨论 L2 成本下传输代价函数的凸性及凸优化性质。"
+    },
+    {
+      "title": "《凸优化》这本书怎么学习或阅读？",
+      "url": "https://www.zhihu.com/answer/2431031810",
+      "summary": "正文定义凸优化问题并整理最优条件、松弛变量与局部最优性质。"
+    },
+    {
+      "title": "交替方向乘子法（ADMM）算法的流程和原理是怎样的？",
+      "url": "https://www.zhihu.com/answer/2445931405",
+      "summary": "正文把 ADMM 的拆分对象明确定位为两项凸函数之和。"
+    },
+    {
+      "title": "现代控制中最优控制如何入门，好的学习方法是什么？",
+      "url": "https://www.zhihu.com/answer/2461766739",
+      "summary": "正文直接以凸优化和 KKT 条件说明最优控制的结构。"
+    },
+    {
+      "title": "非凸优化（Non-convex optimization）领域有什么起到基石作用，极其重要的论文呢？",
+      "url": "https://www.zhihu.com/answer/2478799298",
+      "summary": "正文讨论非凸优化以及通过测地凸性转化问题。"
+    },
+    {
+      "title": "为什么 Non-Convex Optimization 受到了越来越大的关注？",
+      "url": "https://www.zhihu.com/answer/2479121106",
+      "summary": "正文比较凸优化带来的良好性质与非凸优化的理论困难。"
+    },
+    {
+      "title": "在控制、自动化领域，用到的最高深最先进的数学理论工具是什么？控制是否是工科里用到数学最多最深的领域？",
+      "url": "https://www.zhihu.com/answer/2644630108",
+      "summary": "建议控制理论研究者掌握随机方法或凸优化工具。"
+    },
+    {
+      "title": "为什么核范数能凸近似矩阵的秩？为什么核范数是凸的？",
+      "url": "https://www.zhihu.com/answer/2749917344",
+      "summary": "正文从凸泛函定义出发，先证核范数三角不等式，从而证明核范数凸性。"
+    },
+    {
+      "title": "为什么凸优化这么重要？",
+      "url": "https://www.zhihu.com/answer/2821060590",
+      "summary": "正文解释凸优化作为持续发展的领域，并讨论凸性、局部最优与全局最优及凸松弛对非凸优化的作用。"
+    },
+    {
+      "title": "有没有比较优秀的曲线平滑算法啦？求推荐?",
+      "url": "https://www.zhihu.com/answer/2845529536",
+      "summary": "正文以平方代价和线性位置约束构造二次规划，并通过数值求解器最小化目标函数。"
+    },
+    {
+      "title": "如何从零开始学习凸优化？",
+      "url": "https://www.zhihu.com/answer/2900977688",
+      "summary": "正文以 Boyd《凸优化》为线索，展开分离超平面、严格分离和支撑超平面等凸优化理论。"
+    },
+    {
+      "title": "为什么 Non-Convex Optimization 受到了越来越大的关注？",
+      "url": "https://www.zhihu.com/answer/2943390612",
+      "summary": "正文解释凸优化可获得全局最优，但把原非凸解集收缩到凸区域会牺牲候选解。"
+    },
+    {
+      "title": "计量经济学发论文有哪些常用的计量方法？",
+      "url": "https://www.zhihu.com/answer/2985704311",
+      "summary": "正文把支持向量机的训练问题明确归结为凸二次规划，并讨论相应求解算法。"
+    },
+    {
+      "title": "有哪些让人惊艳的经济学模型？",
+      "url": "https://www.zhihu.com/answer/2985724178",
+      "summary": "正文把支持向量机的训练问题明确归结为凸二次规划，并讨论相应求解算法。"
+    },
+    {
+      "title": "一般学凸优化要多久？",
+      "url": "https://www.zhihu.com/answer/3138297987",
+      "summary": "正文围绕凸函数的一二阶特征、强凸性、对偶和KKT条件展开凸优化知识框架。"
+    },
+    {
+      "title": "有什么理论复杂但是实现简单的算法？",
+      "url": "https://www.zhihu.com/answer/3142549409",
+      "summary": "正文具体讨论 ADMM 在凸优化中的收敛性与收敛速率，并延伸到非凸情形。"
+    },
+    {
+      "title": "你是什么时候对深度学习失去信心的？",
+      "url": "https://www.zhihu.com/answer/3157061590",
+      "summary": "正文借 Adam 收敛性证明的缺陷和一维凸优化反例，讨论优化器收敛性证明与实际表现。"
+    },
+    {
+      "title": "如何理解压缩感知(compressive sensing)？",
+      "url": "https://www.zhihu.com/answer/3197999600",
+      "summary": "正文以 L1 正则化重建目标和近端梯度下降为核心，逐步推导软阈值求解与可学习优化迭代。"
+    },
+    {
+      "title": "想要系统的学习博弈论应该了解哪些知识呢？",
+      "url": "https://www.zhihu.com/answer/3204875602",
+      "summary": "正文把凸性和线性规划用于博弈均衡求解，具体说明凸优化在博弈论中的作用。"
+    },
+    {
+      "title": "做控制理论的学术研究，怎样才叫“数学好”\"具有扎实的数学功底\"？",
+      "url": "https://www.zhihu.com/answer/3373745495",
+      "summary": "正文用二次型性能指标的凸性解释 LQR 最优控制为何较易处理，具体说明了凸优化与控制问题的联系。"
+    },
+    {
+      "title": "如何看待某本科生在 arXiv 声称破解千禧年数学难题 NP 完全问题?",
+      "url": "https://www.zhihu.com/answer/3500437517",
+      "summary": "正文把三着色判定转化为半正定规划，并对目标函数、半正定约束和对偶问题作逐条解读。"
+    },
+    {
+      "title": "如何看待某本科生在 arXiv 声称破解千禧年数学难题 NP 完全问题?",
+      "url": "https://www.zhihu.com/answer/3501188513",
+      "summary": "正文讨论凸规划并非都具多项式时间算法，并给出边界梯度等附加条件，属于凸优化的复杂度与方法边界。"
+    },
+    {
+      "title": "SDP (半正定规划) 有什么形象的实例？怎么理解？",
+      "url": "https://www.zhihu.com/answer/3504138018",
+      "summary": "正文进一步讨论半正定约束形成的 spectrahedron、对偶间隙与内点法，对应凸优化中的半正定规划。"
+    },
+    {
+      "title": "谁能通俗的解释一下为什么有人怀疑姜萍?",
+      "url": "https://www.zhihu.com/answer/3544206498",
+      "summary": "正文具体说明用无损凸优化把火箭着陆的非凸控制问题转化为凸优化问题。"
+    },
+    {
+      "title": "涟水县教体局回应「姜萍在学校月考成绩 83 分截图属实、预赛使用电脑是借的」，还有哪些内容值得关注？",
+      "url": "https://www.zhihu.com/answer/3544517235",
+      "summary": "正文具体说明用无损凸优化把火箭着陆的非凸控制问题转化为凸优化问题。"
+    },
+    {
+      "title": "如何理解勒让德变换？",
+      "url": "https://www.zhihu.com/answer/4092770110",
+      "summary": "正文把勒让德变换定义为凸函数上的最优化问题，并由凸性保证最大值点唯一。"
+    },
+    {
+      "title": "困扰数学界近 60 年的移动沙发问题疑似被 Jineon Baek 解决，如何看待其论文研究成果？",
+      "url": "https://www.zhihu.com/answer/46439127857",
+      "summary": "正文围绕沙发面积泛函的二次形式、整体凸性及Minkowski和上的松弛展开，以凸性论证全局最优。"
+    },
+    {
+      "title": "困扰数学界近 60 年的移动沙发问题疑似被 Jineon Baek 解决，如何看待其论文研究成果？",
+      "url": "https://www.zhihu.com/answer/46606913347",
+      "summary": "正文解释论文通过面积上界泛函的凹性以及最大点论证Gerver沙发的全局最优性，属于凸优化式的极值论证。"
+    },
+    {
+      "title": "是否所有的优化问题都可以转化成对偶问题？",
+      "url": "https://www.zhihu.com/answer/81635999906",
+      "summary": "正文以二重共轭、下半连续凸函数和弱对偶性解释 Rockafellian 对偶为何形成凸优化问题。"
+    },
+    {
+      "title": "非线性优化中的 KKT 条件该如何理解？",
+      "url": "https://www.zhihu.com/answer/82540720113",
+      "summary": "正文说明凸目标函数与仿射约束的判定，并专门讨论凸优化中 Slater 条件、KKT 解与全局最优的关系。"
+    },
+    {
+      "title": "非凸优化（Non-convex optimization）领域有什么起到基石作用，极其重要的论文呢？",
+      "url": "https://www.zhihu.com/answer/113085202686",
+      "summary": "正文系统解释凸集、凸函数与凸优化，并说明如何用测地凸性把部分非凸问题纳入凸优化框架。"
+    },
+    {
+      "title": "如何入门分布上的优化/Wasserstein gradient flow？",
+      "url": "https://www.zhihu.com/answer/1887117092492404497",
+      "summary": "正文将 KL 项刻画为测地凸但不光滑的负 Shannon 熵，并与光滑项组成复合凸优化问题。"
+    },
+    {
+      "title": "ICM2026报告人名单公布，大家有什么感想吗？",
+      "url": "https://www.zhihu.com/answer/1952952555719103203",
+      "summary": "正文利用能量泛函在 Wasserstein 几何中的凸性和位移凸性证明梯度流指数收敛。"
+    },
+    {
+      "title": "有哪些数学书可以被称为「神作」？",
+      "url": "https://www.zhihu.com/answer/1974775570052175621",
+      "summary": "正文说明凸优化作为独立分支用于求条件范围内的全局最优解，并介绍锥规划、内点法、半定规划等内容。"
+    },
+    {
+      "title": "如何构建一套完整的数学知识体系？",
+      "url": "https://www.zhihu.com/answer/2070195997192479867",
+      "summary": "正文具体讲解半正定松弛、拉格朗日对偶和KKT条件，并说明如何把非凸约束转化为凸优化模型。"
+    },
+    {
+      "title": "凸优化眼里的世界（一）",
+      "url": "https://zhuanlan.zhihu.com/p/19692149",
+      "summary": "正文以最大化似然为目标构造优化问题，并讨论似然函数的凹性与凸优化问题的关系。"
+    },
+    {
+      "title": "机器学习理论篇1：机器学习的数学基础",
+      "url": "https://zhuanlan.zhihu.com/p/25197792",
+      "summary": "正文给出凸集与凸函数定义，解释其在优化中的作用，并继续介绍梯度下降、牛顿法和拟牛顿法。"
+    },
+    {
+      "title": "CTR预测算法之FTRL-Proximal",
+      "url": "https://zhuanlan.zhihu.com/p/25315553",
+      "summary": "正文把 FTRL 目标拆成各坐标的 L1/L2 正则最小化问题，并用次梯度分析求闭式更新。"
+    },
+    {
+      "title": "学习笔记 - 拉格朗日函数",
+      "url": "https://zhuanlan.zhihu.com/p/26890210",
+      "summary": "正文围绕拉格朗日对偶、强对偶性、Slater 条件和 KKT 条件讨论凸优化。"
+    },
+    {
+      "title": "【学界】离散/整数/组合/非凸优化概述及其在AI的应用",
+      "url": "https://zhuanlan.zhihu.com/p/27429666",
+      "summary": "正文通过两点连线判断凸集，并说明凸优化的局部最优即全局最优及非凸优化难以求解的原因。"
+    },
+    {
+      "title": "从Nesterov的角度看：我们为什么要研究凸优化？",
+      "url": "https://zhuanlan.zhihu.com/p/27435669",
+      "summary": "正文以梯度法寻找全局最小值为动机，推导凸函数的一阶定义，并说明凸函数集合与这些最优性性质的等价关系。"
+    },
+    {
+      "title": "当我们谈论收敛速度时，我们都在谈什么？",
+      "url": "https://zhuanlan.zhihu.com/p/27644403",
+      "summary": "正文分别讨论梯度下降在凸、强凸和非凸目标下的收敛率，展示凸优化问题的复杂度差异。"
+    },
+    {
+      "title": "黑盒子凸优化，中心法和Khachiyan常数猜想",
+      "url": "https://zhuanlan.zhihu.com/p/27668621",
+      "summary": "正文系统比较重心法、外接椭球法和内接椭球法的体积收缩与收敛复杂度，讨论凸优化算法的效率。"
+    },
+    {
+      "title": "会当凌绝顶，一览众山小——谈谈人工智能里的最优化",
+      "url": "https://zhuanlan.zhihu.com/p/27713909",
+      "summary": "正文说明凸约束与凸目标构成凸优化问题，并指出其相对容易求解且常被优先构造。"
+    },
+    {
+      "title": "【分类战车SVM】第四话：拉格朗日对偶问题（原来这么简单，你也可以轻松学会）",
+      "url": "https://zhuanlan.zhihu.com/p/28804123",
+      "summary": "正文讲解弱对偶、对偶间隙、Slater 条件与强对偶，具体展开凸优化理论。"
+    },
+    {
+      "title": "共轭梯度法",
+      "url": "https://zhuanlan.zhihu.com/p/28623599",
+      "summary": "正文以对称正定矩阵定义凸二次规划，并证明共轭方向法的收敛性质。"
+    },
+    {
+      "title": "【学界】非凸转成凸、约束转无约－运筹学和支持向量机中的拉格朗日松弛法",
+      "url": "https://zhuanlan.zhihu.com/p/28958014",
+      "summary": "正文以对偶函数、弱对偶和强对偶为线索，说明如何用凸优化处理一般的非凸优化问题。"
+    },
+    {
+      "title": "深入机器学习系列17-BFGS & L-BFGS",
+      "url": "https://zhuanlan.zhihu.com/p/29672873",
+      "summary": "正文为处理 L1 正则化讲解凸函数、次导数、次微分和伪梯度，并接入 OWL-QN。"
+    },
+    {
+      "title": "深入机器学习系列21-最大熵模型",
+      "url": "https://zhuanlan.zhihu.com/p/29978153",
+      "summary": "正文把最大熵学习化为带约束优化，利用拉格朗日对偶、凸性、GIS 与 IIS 求解。"
+    },
+    {
+      "title": "机器学习数学：拉格朗日对偶问题",
+      "url": "https://zhuanlan.zhihu.com/p/31131842",
+      "summary": "正文在凸目标、凸不等式约束和仿射等式约束下讨论强对偶与 KKT 条件，实质展开了凸优化理论。"
+    },
+    {
+      "title": "简单理解线性规划的单纯形算法",
+      "url": "https://zhuanlan.zhihu.com/p/31644892",
+      "summary": "正文把线性规划作为凸集上的最优化问题，并利用基可行解与顶点关系迭代求最优解。"
+    },
+    {
+      "title": "【最优化】凸函数及它的一阶特征",
+      "url": "https://zhuanlan.zhihu.com/p/32778984",
+      "summary": "正文围绕凸函数定义、一阶凸性条件及其几何意义展开，是凸优化所依赖的核心函数理论。"
+    },
+    {
+      "title": "函数的凹凸性漫谈",
+      "url": "https://zhuanlan.zhihu.com/p/32481805",
+      "summary": "正文比较多种凸函数定义，并证明凸性、弦位置和切线位置之间的等价关系。"
+    },
+    {
+      "title": "【学界】运筹学之线性规划",
+      "url": "https://zhuanlan.zhihu.com/p/33213218",
+      "summary": "正文证明线性规划可行域为凸集、基可行解对应顶点，并据此说明最优解可在顶点取得。"
+    },
+    {
+      "title": "【学界】关于KKT条件的深入探讨",
+      "url": "https://zhuanlan.zhihu.com/p/33229011",
+      "summary": "正文说明在可微凸优化中 KKT 条件成为全局最优的充要条件。"
+    },
+    {
+      "title": "Mirror descent: 统一框架下的first order methods",
+      "url": "https://zhuanlan.zhihu.com/p/34299990",
+      "summary": "正文以凸目标与凸正则项为框架，推导凸优化中的 mirror descent 及单纯形上的具体更新。"
+    },
+    {
+      "title": "【学界/编码】凸优化算法 I: 内点法(interior point method)求解线性规划问题",
+      "url": "https://zhuanlan.zhihu.com/p/34426575",
+      "summary": "正文用障碍函数把线性规划转化为凸目标，并通过梯度、Hessian 和牛顿迭代求极小值。"
+    },
+    {
+      "title": "Copositive Programming简介",
+      "url": "https://zhuanlan.zhihu.com/p/34772469",
+      "summary": "正文以 copositive 矩阵和完全正矩阵刻画凸锥，推导混合二值二次规划的凸松弛。"
+    },
+    {
+      "title": "常见的关于momentum的误解（上）",
+      "url": "https://zhuanlan.zhihu.com/p/35323828",
+      "summary": "正文在强凸二次函数和Lipschitz连续梯度条件下分析梯度法及动量法，并讨论凸优化中的稳定性与参数选择。"
+    },
+    {
+      "title": "L1正则化与L2正则化",
+      "url": "https://zhuanlan.zhihu.com/p/35356992",
+      "summary": "正文通过凸目标等高线与范数约束区域的相切关系解释正则化优化解，并分析稀疏性。"
+    },
+    {
+      "title": "推导 | SVM详解（1）SVM基本型",
+      "url": "https://zhuanlan.zhihu.com/p/35755150",
+      "summary": "正文系统讲解凸集、凸函数、凸优化、拉格朗日乘子与对偶问题。"
+    },
+    {
+      "title": "凸优化笔记(1)Why凸优化以及几个基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/35805267",
+      "summary": "正文定义凸集、凸函数和凸优化问题，并解释局部最优为何成为全局最优。"
+    },
+    {
+      "title": "凸优化笔记(2)几类标准问题以及Linear Programming简介",
+      "url": "https://zhuanlan.zhihu.com/p/35814768",
+      "summary": "正文系统介绍凸优化标准问题的类别与包含关系，并进一步讲解线性规划的标准形式。"
+    },
+    {
+      "title": "凸优化笔记(4)Semi-Definite Programming简介",
+      "url": "https://zhuanlan.zhihu.com/p/36124850",
+      "summary": "正文介绍半定规划的标准形式、凸可行域，以及它和线性规划、二次规划的包含关系。"
+    },
+    {
+      "title": "理解 KKT 条件和对偶问题",
+      "url": "https://zhuanlan.zhihu.com/p/36621652",
+      "summary": "正文解释 KKT、Slater 条件、强对偶与凸优化之间的数学关系。"
+    },
+    {
+      "title": "拉格朗日对偶性",
+      "url": "https://zhuanlan.zhihu.com/p/38182879",
+      "summary": "正文讨论对偶问题的凸性、Slater 条件与 KKT 条件，并说明强对偶成立时可用对偶问题求解原问题。"
+    },
+    {
+      "title": "JuMP: 用Julia进行优化建模及求解",
+      "url": "https://zhuanlan.zhihu.com/p/40807662",
+      "summary": "正文讨论线性规划、二阶锥规划和 semidefinite programming relaxation，并用凸目标实例说明求解。"
+    },
+    {
+      "title": "机器学习（周志华）课后习题——第三章——线性模型",
+      "url": "https://zhuanlan.zhihu.com/p/43270830",
+      "summary": "正文依据Hessian矩阵半正定性判别凸函数，并解释原目标函数非凸而对数似然函数为凸。"
+    },
+    {
+      "title": "理解 logistic 回归",
+      "url": "https://zhuanlan.zhihu.com/p/44583106",
+      "summary": "正文证明训练目标函数的Hessian半正定，并据此判定其为无约束凸优化问题。"
+    },
+    {
+      "title": "逻辑回归 logistics regression 公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/44591359",
+      "summary": "正文说明逻辑回归损失函数为凸函数，并据此论证梯度下降能够收敛到全局最优。"
+    },
+    {
+      "title": "Farkas引理的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/29525513",
+      "summary": "正文通过凸集分离和线性表出，从几何上解释凸优化中的 Farkas 引理。"
+    },
+    {
+      "title": "A Survey on Non/Non-Smooth Convex optimization",
+      "url": "https://zhuanlan.zhihu.com/p/46952521",
+      "summary": "正文系统综述非光滑凸优化、非强凸优化和非凸优化的近期方法、收敛结果与研究方向。"
+    },
+    {
+      "title": "拉格朗日乘子法，KKT条件，对偶问题",
+      "url": "https://zhuanlan.zhihu.com/p/46944722",
+      "summary": "正文说明凸优化问题通常满足强对偶性，并用强弱对偶关系比较原问题与对偶问题。"
+    },
+    {
+      "title": "控制专业申请NSF资助新思路：LMI是ML",
+      "url": "https://zhuanlan.zhihu.com/p/50198215",
+      "summary": "正文通过变量替换消去矩阵乘积，把非凸学习问题改写成可用锥规划求解的凸优化问题。"
+    },
+    {
+      "title": "带约束凸优化最优解的存在条件——KKT条件(五)",
+      "url": "https://zhuanlan.zhihu.com/p/50230049",
+      "summary": "正文系统讲解带约束凸优化问题、对偶函数、弱强对偶和凸问题的 KKT 充要条件。"
+    },
+    {
+      "title": "带不等式约束凸优化问题的求解——内点法(七)",
+      "url": "https://zhuanlan.zhihu.com/p/50443123",
+      "summary": "正文利用可微对数障碍函数把凸不等式约束纳入目标，并讨论中心路径与原问题最优解的误差。"
+    },
+    {
+      "title": "非线性规划：ADMM",
+      "url": "https://zhuanlan.zhihu.com/p/50589262",
+      "summary": "正文在 f、g 为凸函数的分离目标上定义 ADMM，并说明其收敛条件及停止准则。"
+    },
+    {
+      "title": "【机器学习系列】一文详解凸函数和凸优化，干货满满",
+      "url": "https://zhuanlan.zhihu.com/p/51127402",
+      "summary": "正文系统定义凸集与凸函数，证明局部极小值为全局极小值，并介绍线性规划、二次规划和半正定规划等凸优化问题。"
+    },
+    {
+      "title": "一文搞懂支持向量机(SVM)算法",
+      "url": "https://zhuanlan.zhihu.com/p/52168498",
+      "summary": "正文把 SVM 的优化目标转化为凸二次目标的最小化问题并讨论约束求解。"
+    },
+    {
+      "title": "Duality in convex optimazation",
+      "url": "https://zhuanlan.zhihu.com/p/52544386",
+      "summary": "正文系统介绍拉格朗日对偶、弱对偶、强对偶、Slater 条件和 KKT 条件。"
+    },
+    {
+      "title": "非凸优化的基石2：Regularity Condition",
+      "url": "https://zhuanlan.zhihu.com/p/54032531",
+      "summary": "正文研究强凸光滑目标函数的 Hessian 条件及梯度下降线性收敛证明，对应凸优化。"
+    },
+    {
+      "title": "Convex Optimization——凸函数",
+      "url": "https://zhuanlan.zhihu.com/p/56876303",
+      "summary": "正文系统讲解凸函数的定义、判定条件、常见凸函数与凸优化中的基本性质。"
+    },
+    {
+      "title": "优化 | 半正定规划(SDP)的形象理解和基本原理",
+      "url": "https://zhuanlan.zhihu.com/p/59224927",
+      "summary": "正文系统介绍半正定规划这一特殊凸优化问题，并用矩阵变量、半正定锥和松弛方法展开其建模理论。"
+    },
+    {
+      "title": "凸优化、拉格朗日乘子法和KKT条件",
+      "url": "https://zhuanlan.zhihu.com/p/59928816",
+      "summary": "正文系统定义凸集和凸函数，并讲解凸优化、拉格朗日对偶、强对偶与 KKT 条件。"
+    },
+    {
+      "title": "支持向量机原理详解(四): KKT条件(Part I)",
+      "url": "https://zhuanlan.zhihu.com/p/62420593",
+      "summary": "正文讨论凸优化下 KKT 条件的充分必要性，并通过拉格朗日函数和对偶间隙为零给出完整推导。"
+    },
+    {
+      "title": "梯度下降在强凸/凸/非凸下的收敛速率证明",
+      "url": "https://zhuanlan.zhihu.com/p/66229525",
+      "summary": "正文以强凸和最优化条件为核心，区分凸性假设并推导相应迭代误差界。"
+    },
+    {
+      "title": "拉格朗日函数最优化问题",
+      "url": "https://zhuanlan.zhihu.com/p/67327634",
+      "summary": "正文给出凸函数与仿射约束下原问题和对偶问题最优值相等的条件，涉及凸优化。"
+    },
+    {
+      "title": "logistic回归，梯度下降法，牛顿法/IRLS算法",
+      "url": "https://zhuanlan.zhihu.com/p/67842740",
+      "summary": "正文用 Hessian 正定判定目标函数为凸函数，并说明该无约束凸优化问题可用迭代法求解。"
+    },
+    {
+      "title": "Mission Impossible：Rank类损失函数的直接优化",
+      "url": "https://zhuanlan.zhihu.com/p/69852955",
+      "summary": "正文用凸损失上界和下界构造可分解的凸优化目标，讨论其对偶梯度优化过程。"
+    },
+    {
+      "title": "面经之凸优化和非凸优化",
+      "url": "https://zhuanlan.zhihu.com/p/70127314",
+      "summary": "正文说明凸集上的凸函数最小化、局部与全局最优的关系、二阶导数判定以及非凸问题的凸化处理。"
+    },
+    {
+      "title": "凸优化综述(上)",
+      "url": "https://zhuanlan.zhihu.com/p/72660217",
+      "summary": "正文定义凸集和凸函数，给出凸优化问题的标准形式，并用反证法证明局部最优即全局最优。"
+    },
+    {
+      "title": "凸优化综述(下)",
+      "url": "https://zhuanlan.zhihu.com/p/73028673",
+      "summary": "正文系统讲解凸优化中的拉格朗日函数、对偶目标、互补松弛性和 KKT 条件。"
+    },
+    {
+      "title": "用人话讲明白支持向量机SVM（下）",
+      "url": "https://zhuanlan.zhihu.com/p/74484361",
+      "summary": "正文把最大间隔问题化为凸二次规划，并用拉格朗日乘数、KKT条件和二次型讨论其求解。"
+    },
+    {
+      "title": "【机器学习】支持向量机 SVM（非常详细）",
+      "url": "https://zhuanlan.zhihu.com/p/77750026",
+      "summary": "正文以拉格朗日乘子、强对偶和 KKT 条件推导 SVM 的约束优化问题与对偶形式。"
+    },
+    {
+      "title": "Metric Learning科普文",
+      "url": "https://zhuanlan.zhihu.com/p/80656461",
+      "summary": "正文推导无约束梯度下降和凸约束下的投影梯度下降，并说明度量学习中的凸优化求解。"
+    },
+    {
+      "title": "如何简单地理解低秩矩阵补全 (Low-rank matrix completion)?",
+      "url": "https://zhuanlan.zhihu.com/p/37179937",
+      "summary": "正文解释秩最小化非凸，并用核范数给出等价的凸优化松弛，再讨论其求解。"
+    },
+    {
+      "title": "机器学习工具（二）Notes of Optimal Transport",
+      "url": "https://zhuanlan.zhihu.com/p/82424946",
+      "summary": "正文说明加入熵正则化后得到无约束的凸优化问题，并利用 Lagrange 乘子推导最优运输解及其对偶问题。"
+    },
+    {
+      "title": "一步一步走向锥规划 - LP",
+      "url": "https://zhuanlan.zhihu.com/p/83327579",
+      "summary": "正文把线性规划置于凸优化和锥规划框架下，并讨论凸可行域与最优点的位置。"
+    },
+    {
+      "title": "一步一步走向锥规划 - QP",
+      "url": "https://zhuanlan.zhihu.com/p/83841138",
+      "summary": "正文用二次项矩阵的正定性说明二次规划何时为凸问题，并讨论凸、非凸情形下最优解与算法行为。"
+    },
+    {
+      "title": "机器学习必知必会：凸优化",
+      "url": "https://zhuanlan.zhihu.com/p/85408804",
+      "summary": "正文定义凸优化问题、解释其结构优势，并列举线性规划、二次规划和半正定规划等类型。"
+    },
+    {
+      "title": "Lasso优化：次梯度和近端梯度下降",
+      "url": "https://zhuanlan.zhihu.com/p/86824796",
+      "summary": "正文围绕不可微凸目标讲解次梯度、次微分优化条件、次梯度下降和近端梯度下降及其收敛性。"
+    },
+    {
+      "title": "SVM---这可能是最直白的推导了",
+      "url": "https://zhuanlan.zhihu.com/p/86290583",
+      "summary": "正文把最大间隔分类转化为带约束的凸优化问题，并继续讨论拉格朗日乘子、强对偶和KKT条件。"
+    },
+    {
+      "title": "求解稀疏优化问题1——增广拉格朗日方法+半光滑牛顿方法",
+      "url": "https://zhuanlan.zhihu.com/p/92230537",
+      "summary": "正文在f与g均为凸函数的框架下使用共轭、Moreau包络和对偶方法处理稀疏凸优化。"
+    },
+    {
+      "title": "不同条件下梯度方法的收敛性分析1——(Non)convex+(Non)smooth",
+      "url": "https://zhuanlan.zhihu.com/p/92385493",
+      "summary": "正文通过凸性、强凸性定义及步长分析，给出凸与强凸光滑情形下的收敛率，属于凸优化。"
+    },
+    {
+      "title": "原始对偶角度下的几类优化方法",
+      "url": "https://zhuanlan.zhihu.com/p/93283738",
+      "summary": "正文以线性约束凸问题为对象，推导对偶上升、增广拉格朗日及分裂迭代方法。"
+    },
+    {
+      "title": "机器学习 | 矩阵补全和奇异值软阈值算法",
+      "url": "https://zhuanlan.zhihu.com/p/93400890",
+      "summary": "正文说明秩最小化非凸，并以核范数给出凸优化松弛及其迭代求解。"
+    },
+    {
+      "title": "凸优化(一): 凸集",
+      "url": "https://zhuanlan.zhihu.com/p/94879910",
+      "summary": "正文系统讲解凸集、凸包、分离超平面和对偶锥，属于凸优化基础的实质内容。"
+    },
+    {
+      "title": "策略算法工程师之路-凸二次优化",
+      "url": "https://zhuanlan.zhihu.com/p/100041443",
+      "summary": "正文系统介绍凸集与凸函数，并说明凸优化局部最优即全局最优等核心性质。"
+    },
+    {
+      "title": "【凸优化笔记1】-仿射集、凸集和锥",
+      "url": "https://zhuanlan.zhihu.com/p/101948518",
+      "summary": "正文系统定义仿射集、凸集、凸组合、凸包和凸锥，并给出正定矩阵集合等凸性证明，属于凸优化基础。"
+    },
+    {
+      "title": "【凸优化笔记2】-凸函数、下水平集、范数",
+      "url": "https://zhuanlan.zhihu.com/p/102098039",
+      "summary": "正文系统讲解凸函数的定义、一阶与二阶判定条件及下水平集性质，给出凸优化中的核心判定方法。"
+    },
+    {
+      "title": "【凸优化笔记3】-凸优化问题、示性函数、共轭函数、对偶范数",
+      "url": "https://zhuanlan.zhihu.com/p/102361748",
+      "summary": "正文定义凸优化问题、可行域和最优点，并讨论其局部最优与全局最优的关系。"
+    },
+    {
+      "title": "【凸优化笔记4】-近端梯度下降（Proximal gradient descent）",
+      "url": "https://zhuanlan.zhihu.com/p/103161094",
+      "summary": "正文系统定义近端映射、梯度迭代和软阈值算子，并用于求解 Lasso 凸优化模型。"
+    },
+    {
+      "title": "【凸优化笔记5】-次梯度方法（Subgradient method）",
+      "url": "https://zhuanlan.zhihu.com/p/103359560",
+      "summary": "正文完整定义次梯度与次微分，给出最优性条件和迭代步长，并用 Lasso 软阈值实例说明不可导凸优化问题的求解。"
+    },
+    {
+      "title": "【凸优化笔记6】-拉格朗日对偶（Lagrange duality）、KKT条件",
+      "url": "https://zhuanlan.zhihu.com/p/103961917",
+      "summary": "正文系统讲解拉格朗日对偶、强对偶、Slater 条件、KKT 条件，并给出 lasso 凸优化实例。"
+    },
+    {
+      "title": "[CVX02] Convex Function",
+      "url": "https://zhuanlan.zhihu.com/p/106072155",
+      "summary": "正文围绕凸函数定义、一阶和二阶条件、上镜图及保凸运算展开，是凸优化课程中的核心理论基础。"
+    },
+    {
+      "title": "【凸优化笔记7】-交替方向乘子法（ADMM）",
+      "url": "https://zhuanlan.zhihu.com/p/106896627",
+      "summary": "正文针对目标和约束均为凸的优化问题推导 ADMM 与增广拉格朗日方法。"
+    },
+    {
+      "title": "低秩稀疏矩阵恢复算法整理与仿真",
+      "url": "https://zhuanlan.zhihu.com/p/114693135",
+      "summary": "正文通过核范数和稀疏范数作凸松弛，把非凸主成分追踪问题改写为凸优化问题。"
+    },
+    {
+      "title": "拉格朗日乘子法与对偶问题",
+      "url": "https://zhuanlan.zhihu.com/p/114574438",
+      "summary": "正文具体说明凸优化问题下对偶问题的性质、强对偶成立条件和最优对偶间隙。"
+    },
+    {
+      "title": "Lasso—原理及最优解",
+      "url": "https://zhuanlan.zhihu.com/p/116869931",
+      "summary": "正文利用目标函数的凸性解释坐标轴下降迭代收敛到全局最优，并展示带一范数约束的最优解几何。"
+    },
+    {
+      "title": "数值优化|笔记整理（1）——引入，线搜索：步长选取条件",
+      "url": "https://zhuanlan.zhihu.com/p/118443321",
+      "summary": "正文定义凸集与凸函数，并讲解凸优化中驻点和局部最小值成为全局最小值的性质。"
+    },
+    {
+      "title": "矩问题和分布式鲁棒优化：由阿里数学竞赛题说开...",
+      "url": "https://zhuanlan.zhihu.com/p/122168233",
+      "summary": "正文明确论证目标函数与线性约束构成凸优化问题，并借助对偶和乘子求显式解。"
+    },
+    {
+      "title": "凸优化笔记0：绪论",
+      "url": "https://zhuanlan.zhihu.com/p/125711395",
+      "summary": "正文定义凸函数与凸优化问题，概括判断凸性、转化问题和求解算法三个核心任务。"
+    },
+    {
+      "title": "凸优化笔记1：凸集 Convex Sets",
+      "url": "https://zhuanlan.zhihu.com/p/126072881",
+      "summary": "正文定义凸集、常见凸集和保凸变换，构成凸优化研究的基础。"
+    },
+    {
+      "title": "凸优化笔记6：共轭函数",
+      "url": "https://zhuanlan.zhihu.com/p/131601201",
+      "summary": "正文系统讲解共轭函数的定义、凸性、Fenchel不等式与Legendre变换，并列举多种共轭函数实例。"
+    },
+    {
+      "title": "凸优化笔记12：KKT条件",
+      "url": "https://zhuanlan.zhihu.com/p/135407092",
+      "summary": "正文讨论强对偶、Slater 条件以及凸问题中 KKT 作为全局最优充要条件的适用性。"
+    },
+    {
+      "title": "凸优化笔记15：梯度下降法",
+      "url": "https://zhuanlan.zhihu.com/p/137274399",
+      "summary": "正文系统讲解凸函数下梯度法的更新式、固定步长与线搜索、强凸收敛性以及BB方法。"
+    },
+    {
+      "title": "希尔伯特第十七问题与多项式优化",
+      "url": "https://zhuanlan.zhihu.com/p/138064866",
+      "summary": "正文把一维非负多项式的判定转化为半正定规划，并解释其凸优化求解框架。"
+    },
+    {
+      "title": "浅谈变分原理",
+      "url": "https://zhuanlan.zhihu.com/p/139018146",
+      "summary": "正文以 Euler-Lagrange 方程为核心，求解最短路径、最速降曲线和最小势能悬链线等优化问题。"
+    },
+    {
+      "title": "凸优化笔记16：次梯度",
+      "url": "https://zhuanlan.zhihu.com/p/139083837",
+      "summary": "正文针对不可导凸优化目标引入次梯度，讨论最优性条件、KKT 条件和最速下降方向。"
+    },
+    {
+      "title": "凸优化笔记18：近似点算子",
+      "url": "https://zhuanlan.zhihu.com/p/139624466",
+      "summary": "正文围绕非光滑凸优化引入近似点算子，并给出闭凸函数上的核心定义。"
+    },
+    {
+      "title": "一个模型预测控制（MPC）的简单实现",
+      "url": "https://zhuanlan.zhihu.com/p/141871796",
+      "summary": "正文展开二次型目标函数并整理成可用二次规划求解的标准形式。"
+    },
+    {
+      "title": "计算最优传输（Computational Optimal Transport）",
+      "url": "https://zhuanlan.zhihu.com/p/94978686",
+      "summary": "正文说明加入熵正则可使最优传输目标强凸并获得唯一解，同时讨论较小正则参数带来的数值稳定性权衡。"
+    },
+    {
+      "title": "数值优化（6）——拟牛顿法：SR1，BFGS，DFP，DM条件",
+      "url": "https://zhuanlan.zhihu.com/p/144736223",
+      "summary": "正文讨论 BFGS 在凸问题中的收敛条件，并以正则修正将非凸问题拉成凸问题。"
+    },
+    {
+      "title": "【优化】凸优化中的共轭函数",
+      "url": "https://zhuanlan.zhihu.com/p/147149073",
+      "summary": "正文在凸优化框架下定义共轭函数和双重共轭，并用支撑超平面解释其几何意义。"
+    },
+    {
+      "title": "数值优化|笔记整理（8）——带约束优化：引入，梯度投影法",
+      "url": "https://zhuanlan.zhihu.com/p/161390629",
+      "summary": "正文以凸集上的投影、驻点和凸函数一阶条件刻画凸约束优化的全局极小值。"
+    },
+    {
+      "title": "如何让SGD更稳更快？",
+      "url": "https://zhuanlan.zhihu.com/p/162977120",
+      "summary": "正文在 L-smooth 与强凸假设下推导收敛界，并讨论凸情形下 SVRG 的指数收敛。"
+    },
+    {
+      "title": "无约束凸优化|梯度下降、最速下降、牛顿下降和各种分析",
+      "url": "https://zhuanlan.zhihu.com/p/165619326",
+      "summary": "正文系统讨论凸优化中的下降方向、步长、梯度下降、最速下降和牛顿法及其收敛性质。"
+    },
+    {
+      "title": "数值优化|笔记整理（A）——线性规划中的单纯形法与内点法",
+      "url": "https://zhuanlan.zhihu.com/p/165930639",
+      "summary": "正文用严格凸的对数障碍函数转化线性规划，并讨论内点法的唯一极小值。"
+    },
+    {
+      "title": "模型预测控制-Introduction to Model Predictive Control",
+      "url": "https://zhuanlan.zhihu.com/p/169368155",
+      "summary": "正文区分线性模型对应的凸优化与非线性模型对应的非凸优化。"
+    },
+    {
+      "title": "数值优化|笔记整理（B）——二次规划（上）：Schur补方法，零空间法，激活集方法",
+      "url": "https://zhuanlan.zhihu.com/p/174245041",
+      "summary": "正文围绕凸二次规划的标准形式、最优性条件和激活集算法展开，明确介绍凸优化问题。"
+    },
+    {
+      "title": "共轭梯度法简介",
+      "url": "https://zhuanlan.zhihu.com/p/178461470",
+      "summary": "正文针对对称正定二次型展开凸二次目标的迭代求解与收敛分析。"
+    },
+    {
+      "title": "数值优化|笔记整理（C）——二次规划（下）：内点法；现代优化：罚项法，ALM，ADMM；习题课",
+      "url": "https://zhuanlan.zhihu.com/p/181718998",
+      "summary": "正文利用凸函数的一阶性质证明梯度单调性，并以凸二次目标和约束优化的 KKT 条件展开讨论。"
+    },
+    {
+      "title": "凸优化|笔记整理（1）——引入，优化实例分析，凸集举例与相关性质",
+      "url": "https://zhuanlan.zhihu.com/p/194308254",
+      "summary": "正文定义凸优化问题并证明其局部最优解就是全局最优解。"
+    },
+    {
+      "title": "21 有约束优化算法：增广拉格朗日法和ADMM",
+      "url": "https://zhuanlan.zhihu.com/p/199233872",
+      "summary": "正文在凸优化假设下介绍增广拉格朗日法和 ADMM 的约束处理、算法步骤及收敛性质。"
+    },
+    {
+      "title": "凸优化|笔记整理（2）——凸函数，强凸函数及相关拓展",
+      "url": "https://zhuanlan.zhihu.com/p/210252556",
+      "summary": "正文系统讲解凸函数的多种刻画、复合规则以及凸性对优化问题求解的意义。"
+    },
+    {
+      "title": "深度学习时代的不确定性优化（包含多阶段优化与learning-while-optimizing范式）",
+      "url": "https://zhuanlan.zhihu.com/p/211469934",
+      "summary": "正文说明场景优化的可行性与可解性如何依赖凸性，并讨论凸与非凸场景方法。"
+    },
+    {
+      "title": "凸优化|笔记整理（3）——梯度与次梯度：方法，性质与比较",
+      "url": "https://zhuanlan.zhihu.com/p/226381487",
+      "summary": "正文研究凸函数上的梯度下降与次梯度方法，并推导不同凸性和光滑性下的收敛速度。"
+    },
+    {
+      "title": "凸优化|笔记整理（4）——次梯度案例，加速梯度法，随机梯度下降法，近端梯度法引入",
+      "url": "https://zhuanlan.zhihu.com/p/237582181",
+      "summary": "正文系统讨论Nesterov加速、收敛界及次梯度案例，属于凸优化算法专题。"
+    },
+    {
+      "title": "凸优化|笔记整理（5）——近端梯度法：性质，延伸与案例分析；对偶性：引入与理解",
+      "url": "https://zhuanlan.zhihu.com/p/258138843",
+      "summary": "正文针对可微凸函数与非可微凸函数之和定义近端算子，并讨论凸优化算法的收敛与对偶性。"
+    },
+    {
+      "title": "凸优化|笔记整理（6）——对偶性：案例分析，强弱对偶性及理解，再看KKT条件",
+      "url": "https://zhuanlan.zhihu.com/p/259399116",
+      "summary": "正文系统讲解拉格朗日对偶、强弱对偶、Slater 条件、鞍点与 KKT 条件。"
+    },
+    {
+      "title": "凸优化|笔记整理（7）——对偶性延伸：对偶范数，共轭函数，双对偶；再看牛顿法",
+      "url": "https://zhuanlan.zhihu.com/p/260819137",
+      "summary": "正文系统讨论凸优化中的对偶范数、共轭函数、Fenchel 不等式和对偶问题构造。"
+    },
+    {
+      "title": "生成对抗网络（GAN）的数学原理全解",
+      "url": "https://zhuanlan.zhihu.com/p/261871560",
+      "summary": "正文定义凸共轭与 Fenchel 对偶，并用凸优化中的对偶表达式估计 f-散度。"
+    },
+    {
+      "title": "凸优化|笔记整理（8）——内点法中的屏障法与原始-对偶方法，近端牛顿方法",
+      "url": "https://zhuanlan.zhihu.com/p/264515249",
+      "summary": "正文系统讲解凸问题的对数屏障法、原始-对偶内点法、牛顿迭代及近端牛顿方法。"
+    },
+    {
+      "title": "凸优化理论：共轭函数",
+      "url": "https://zhuanlan.zhihu.com/p/265522736",
+      "summary": "正文讨论共轭函数、双共轭及芬切尔不等式，并明确用凸化后的双共轭问题求非凸优化问题的下界。"
+    },
+    {
+      "title": "凸优化|笔记整理（A）——坐标下降法，对偶上升法，再看增强拉格朗日法",
+      "url": "https://zhuanlan.zhihu.com/p/266625103",
+      "summary": "正文在凸性和光滑性条件下分析坐标下降与对偶上升，并讨论强凸、共轭和KKT条件。"
+    },
+    {
+      "title": "深入理解 | 稀疏表示与压缩感知",
+      "url": "https://zhuanlan.zhihu.com/p/266810087",
+      "summary": "正文用 L1 范数最小化替代不可解的 L0 问题，并指出前者是凸优化问题。"
+    },
+    {
+      "title": "凸优化|笔记整理（B）——再看交替方向乘子法（ADMM），Frank-Wolfe方法",
+      "url": "https://zhuanlan.zhihu.com/p/267542995",
+      "summary": "正文在凸集约束下分析Frank-Wolfe迭代的可行性，并比较凸优化算法与投影、近端方法的复杂度。"
+    },
+    {
+      "title": "L1正则化相比L2正则化更能得到稀疏解的巧妙解释",
+      "url": "https://zhuanlan.zhihu.com/p/259169382",
+      "summary": "正文分别求解带 L1、L2 正则项的凸优化目标，并比较二者取得零最优解的条件。"
+    },
+    {
+      "title": "金融数学第04讲（投资组合理论：不考虑无风险资产，有效前沿的推导）",
+      "url": "https://zhuanlan.zhihu.com/p/268157564",
+      "summary": "正文以给定收益率下最小化组合方差为约束优化问题，并用拉格朗日乘子推导有效前沿。"
+    },
+    {
+      "title": "最优化方法复习笔记（二）梯度下降法的全局收敛与收敛速率",
+      "url": "https://zhuanlan.zhihu.com/p/273726875",
+      "summary": "正文在光滑强凸条件下证明梯度下降的全局收敛并分析二次型与非二次型的收敛速率。"
+    },
+    {
+      "title": "机器学习中的数学理论2：近端梯度下降",
+      "url": "https://zhuanlan.zhihu.com/p/277041051",
+      "summary": "正文针对可微凸函数与不可微凸函数之和定义近端映射，并用于求解 Lasso 凸优化问题。"
+    },
+    {
+      "title": "报童问题及其求解",
+      "url": "https://zhuanlan.zhihu.com/p/281779832",
+      "summary": "正文通过二阶导数非负证明损失函数为凸函数并由一阶条件求全局最优。"
+    },
+    {
+      "title": "矩阵与数值计算（11）——共轭梯度法",
+      "url": "https://zhuanlan.zhihu.com/p/305670306",
+      "summary": "正文将线性方程组化为以对称正定矩阵定义二次型目标的最小化问题，并分析共轭方向迭代。"
+    },
+    {
+      "title": "机器学习-白板推导系列(六)-支持向量机SVM（Support Vector Machine）笔记",
+      "url": "https://zhuanlan.zhihu.com/p/335017540",
+      "summary": "正文把硬间隔 SVM 化为带线性约束的凸二次目标，并讨论强对偶及 Slater 条件。"
+    },
+    {
+      "title": "[广告-机制策略-混排]信息流场景中自然流量和广告流量混排机制",
+      "url": "https://zhuanlan.zhihu.com/p/345828169",
+      "summary": "正文在目标中加入二次项使之成为强凸问题，并利用 KKT 条件分析带约束的最优分配。"
+    },
+    {
+      "title": "篇幅达2840页、目录就有31页，这位华人小哥的博士论文堪比教材",
+      "url": "https://zhuanlan.zhihu.com/p/346836302",
+      "summary": "正文讨论线性规划停滞障碍的突破，并说明所得算法可推广到经验风险最小化等凸优化问题。"
+    },
+    {
+      "title": "凸优化修炼之路 | 超平面与半空间",
+      "url": "https://zhuanlan.zhihu.com/p/357254745",
+      "summary": "正文以超平面和半空间刻画凸优化中的基本可行区域，并解释对应不等式的几何意义。"
+    },
+    {
+      "title": "凸优化学习笔记（一）：仿射集、凸集、锥",
+      "url": "https://zhuanlan.zhihu.com/p/357661728",
+      "summary": "正文围绕凸目标函数和凸约束系统讲解凸优化，并展开仿射集、凸集、锥及凸包等基本结构。"
+    },
+    {
+      "title": "自动驾驶控制算法实例之模型预测控制（MPC）--从模型推导到代码实现（以Autoware为例）",
+      "url": "https://zhuanlan.zhihu.com/p/358836526",
+      "summary": "正文将该代价函数化为二次规划并用矩阵H、f求解，属于凸优化的典型二次规划应用。"
+    },
+    {
+      "title": "浅谈L2正则化为什么可以缓解过拟合",
+      "url": "https://zhuanlan.zhihu.com/p/361181741",
+      "summary": "正文从凸优化角度分析 Hessian 的正定性和目标函数的凸性，说明正则化保证唯一最小值。"
+    },
+    {
+      "title": "数值优化| 对偶问题及强弱对偶定理",
+      "url": "https://zhuanlan.zhihu.com/p/374268532",
+      "summary": "正文围绕约束凸优化构造Lagrange对偶，并证明弱对偶及讨论强对偶成立条件。"
+    },
+    {
+      "title": "最优控制（基本知识）",
+      "url": "https://zhuanlan.zhihu.com/p/415056536",
+      "summary": "正文围绕凸目标泛函、凸可行域、强凸性和 KKT 条件讨论最优控制的求解。"
+    },
+    {
+      "title": "【超详细公式推导】关于交叉熵损失函数（Cross-entropy）和 平方损失（MSE）的区别",
+      "url": "https://zhuanlan.zhihu.com/p/418345156",
+      "summary": "正文专门比较逻辑回归中均方损失的非凸性与交叉熵损失的凸性，并据此讨论优化难度和全局最优性。"
+    },
+    {
+      "title": "优化算法-3|增广拉格朗日函数(ALM)及其优化方法-ADMM算法、AMA算法",
+      "url": "https://zhuanlan.zhihu.com/p/419212384",
+      "summary": "正文用二次罚项改善约束优化的平滑性，并系统给出 ADMM 对分离凸目标的交替求解流程。"
+    },
+    {
+      "title": "不用l1核范数，伯克利NeurIPS spotlight带你看过参数化的稀疏低秩",
+      "url": "https://zhuanlan.zhihu.com/p/438203335",
+      "summary": "正文比较秩与零范数的非凸目标及其核范数、范数凸松弛，并证明相应的恢复等价性。"
+    },
+    {
+      "title": "形象理解拉格朗日乘子法",
+      "url": "https://zhuanlan.zhihu.com/p/440297403",
+      "summary": "正文给出混合约束问题的 KKT 必要条件，并说明凸规划中该条件的全局最优性。"
+    },
+    {
+      "title": "轨迹优化 | Minimum-jerk",
+      "url": "https://zhuanlan.zhihu.com/p/444159631",
+      "summary": "正文把 Jerk 积分写成二次型目标并加入线性约束，转化为二次规划后求解。"
+    },
+    {
+      "title": "ADMM算法原理详解",
+      "url": "https://zhuanlan.zhihu.com/p/448289351",
+      "summary": "正文从凸优化原问题、弱对偶与强对偶出发，推导对偶梯度、增广拉格朗日法和 ADMM。"
+    },
+    {
+      "title": "面试题解答6：逻辑斯蒂回归为什么使用交叉熵而不是MSE",
+      "url": "https://zhuanlan.zhihu.com/p/453411383",
+      "summary": "正文通过求一阶和二阶导数比较 MSE 与交叉熵损失的凸性，讨论非凸损失可能陷入局部最优的优化性质。"
+    },
+    {
+      "title": "最优传输简介",
+      "url": "https://zhuanlan.zhihu.com/p/458312488",
+      "summary": "正文指出 Kantorovich 问题的目标函数关于传输方案是凸函数，并据此研究最优解性质。"
+    },
+    {
+      "title": "【整数规划(六)】割平面法",
+      "url": "https://zhuanlan.zhihu.com/p/417036254",
+      "summary": "正文以整数点的凸包和线性规划松弛解释割平面法的凸优化几何思想。"
+    },
+    {
+      "title": "【QP Solver】OSQP原理",
+      "url": "https://zhuanlan.zhihu.com/p/463234528",
+      "summary": "正文以带线性约束的二次规划为目标问题，推导其 ADMM 形式、KKT 条件和有效约束抛光。"
+    },
+    {
+      "title": "【凸优化算法】两种视角看待Mirror Descent",
+      "url": "https://zhuanlan.zhihu.com/p/473071562",
+      "summary": "正文用严格凸生成函数构造 Bregman 散度，并论证 Mirror Descent 子问题保持凸性。"
+    },
+    {
+      "title": "使用二次规划方法优化车辆轨迹",
+      "url": "https://zhuanlan.zhihu.com/p/480127192",
+      "summary": "正文将引导线平滑和路径规划表述为带线性或二次目标和约束的二次规划问题，并使用 OSQP 求解。"
+    },
+    {
+      "title": "中科大凸优化1-4",
+      "url": "https://zhuanlan.zhihu.com/p/492643509",
+      "summary": "正文系统定义仿射集、凸集、凸组合、锥和凸锥，并讨论若干凸集例子。"
+    },
+    {
+      "title": "基于OBCA的开放空间路径规划",
+      "url": "https://zhuanlan.zhihu.com/p/507179474",
+      "summary": "正文用拉格朗日对偶推导障碍物距离约束，并说明凸原问题的最优解与对偶最优解关系。"
+    },
+    {
+      "title": "【中科大凸优化-10】弱对偶、强对偶、Slater条件及对偶问题的四种解释",
+      "url": "https://zhuanlan.zhihu.com/p/514876504",
+      "summary": "正文围绕凸问题定义弱对偶、强对偶和对偶间隙，并讲解 Slater 条件保证强对偶。"
+    },
+    {
+      "title": "【线性规划(五)】对偶理论",
+      "url": "https://zhuanlan.zhihu.com/p/522590887",
+      "summary": "正文以线性目标、线性等式约束和非负约束为对象，系统推导对偶、弱对偶和强对偶理论。"
+    },
+    {
+      "title": "[运动规划-自动驾驶]1.3 二次规划 QP",
+      "url": "https://zhuanlan.zhihu.com/p/527920446",
+      "summary": "正文通过二次型矩阵的半正定性说明目标函数的凸性、局部最优与全局最优关系。"
+    },
+    {
+      "title": "近端梯度(Proximal Gradient)下降算法的过程以及理解|ISTA算法|LASSO问题",
+      "url": "https://zhuanlan.zhihu.com/p/530839064",
+      "summary": "正文以凸函数分解定义优化问题，并利用软阈值和次梯度讨论 LASSO 的凸优化求解。"
+    },
+    {
+      "title": "【最优化(一)】最优化问题概述和分类",
+      "url": "https://zhuanlan.zhihu.com/p/534485974",
+      "summary": "正文专门比较凸优化与非凸优化，并说明凸优化中局部最优解就是全局最优解。"
+    },
+    {
+      "title": "分析学家用武器库",
+      "url": "https://zhuanlan.zhihu.com/p/522352953",
+      "summary": "正文讨论凸集分离、Farkas 引理、Kuhn-Tucker 条件和无穷维凸规划。"
+    },
+    {
+      "title": "KKT条件，原来如此简单 | 理论+算例实践",
+      "url": "https://zhuanlan.zhihu.com/p/556832103",
+      "summary": "正文明确说明目标函数和不等式约束均为凸函数时 KKT 条件成为全局最优的充要条件，并讨论凸优化问题的范围。"
+    },
+    {
+      "title": "智能反射面（IRS）在无线通信安全领域应用的论文复现",
+      "url": "https://zhuanlan.zhihu.com/p/586031037",
+      "summary": "正文将非凸分式问题转为半正定松弛问题，并用SDP求解和高斯随机化恢复相位。"
+    },
+    {
+      "title": "Optimal Control 课程总结思考（一）",
+      "url": "https://zhuanlan.zhihu.com/p/594769376",
+      "summary": "正文讨论 Hessian 正定与凸函数、全局最小值，并介绍非凸问题的正则化。"
+    },
+    {
+      "title": "无线通信中的分式规划（Fractional Programming）与Matlab实现",
+      "url": "https://zhuanlan.zhihu.com/p/599204238",
+      "summary": "正文围绕分式规划的非凸到凸转化、凹凸条件和迭代求解展开凸优化建模。"
+    },
+    {
+      "title": "MetaTech | 量化书单分享（上）",
+      "url": "https://zhuanlan.zhihu.com/p/611702496",
+      "summary": "正文具体介绍凸集、凸函数、拉格朗日对偶、KKT 条件以及牛顿法和内点法等凸优化理论与求解方法。"
+    },
+    {
+      "title": "梳理凸函数的六种判断方法及5个判定定理的证明过程",
+      "url": "https://zhuanlan.zhihu.com/p/613894504",
+      "summary": "正文围绕凸函数判定系统讲解凸优化的基础工具，并梳理定义、一阶与二阶条件及上境图判据。"
+    },
+    {
+      "title": "史上最详细单纯形法—从理解到计算(带约束规划问题)",
+      "url": "https://zhuanlan.zhihu.com/p/623374447",
+      "summary": "正文陈述线性规划可行域是凸集，并用极点与极方向讨论最优值位置。"
+    },
+    {
+      "title": "非线性优化概述",
+      "url": "https://zhuanlan.zhihu.com/p/625944423",
+      "summary": "正文专门讨论凸目标下的加速梯度、三次正则化牛顿法及相应收敛性结果。"
+    },
+    {
+      "title": "Lecture 10 非线性轨迹优化（DDP/iLQR法）",
+      "url": "https://zhuanlan.zhihu.com/p/629149697",
+      "summary": "正文讨论凸 MPC，用二阶锥、线性约束和 QP 求解火箭着陆及机器人控制问题。"
+    },
+    {
+      "title": "内点法介绍（Interior Point Method）",
+      "url": "https://zhuanlan.zhihu.com/p/645857471",
+      "summary": "正文在凸函数与 KKT 条件下推导对数障碍法，说明其用障碍项替代不等式约束的凸优化方法。"
+    },
+    {
+      "title": "路径规划算法概述",
+      "url": "https://zhuanlan.zhihu.com/p/650298888",
+      "summary": "正文解释利用参考路径开辟凸空间后建立线性约束，以凸优化取得全局最优且提高实时性。"
+    },
+    {
+      "title": "优化算法中的梯度流与微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/664979479",
+      "summary": "正文针对凸函数与强凸函数证明梯度流的收敛速率，并给出相应优化算法分析。"
+    },
+    {
+      "title": "Optimization-Based Collision Avoidance的公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/667368813",
+      "summary": "正文利用凸优化中的集合距离、分离超平面、共轭函数和强对偶，把障碍约束改写成可求解的优化形式。"
+    },
+    {
+      "title": "CBF控制障碍物函数（Control Barrier Function）",
+      "url": "https://zhuanlan.zhihu.com/p/672725648",
+      "summary": "正文比较非凸避障约束与分两阶段求解的凸二次规划，并说明凸性带来的可解性优势。"
+    },
+    {
+      "title": "吊打百度Apollo泊车方案的泊车方案",
+      "url": "https://zhuanlan.zhihu.com/p/686027296",
+      "summary": "正文把泊车轨迹问题转化为二阶锥规划并讨论对偶问题，属于凸优化建模与求解。"
+    },
+    {
+      "title": "控制障碍函数（Control Barrier Functions, CBF)",
+      "url": "https://zhuanlan.zhihu.com/p/703448704",
+      "summary": "正文明确给出带二次目标、线性输入约束和松弛变量的凸二次规划，并说明其用于实时安全控制。"
+    },
+    {
+      "title": "抛开姜萍事件的真假，让我们谈谈数学原本的样子",
+      "url": "https://zhuanlan.zhihu.com/p/705599967",
+      "summary": "正文介绍无损凸化技术把火箭着陆的非凸控制问题转化为凸优化问题，并说明其工程可行性。"
+    },
+    {
+      "title": "零阶优化算法",
+      "url": "https://zhuanlan.zhihu.com/p/709395175",
+      "summary": "正文针对光滑凸与强凸目标建立零阶算法的收敛定理和迭代复杂度。"
+    },
+    {
+      "title": "变分法的进一步应用：最优传输——Variational Wasserstein gradient flow",
+      "url": "https://zhuanlan.zhihu.com/p/709241572",
+      "summary": "正文将 JKO 步骤化为最小化问题，并利用凸函数的梯度及输入凸神经网络进行参数化优化。"
+    },
+    {
+      "title": "Lattice Planner与EM Planner简介",
+      "url": "https://zhuanlan.zhihu.com/p/891592717",
+      "summary": "正文具体讨论二次规划的曲率平滑，以及EM Planner以障碍物、道路中心和导数项构造约束的QP优化。"
+    },
+    {
+      "title": "数学的艺术 —— JK 定理",
+      "url": "https://zhuanlan.zhihu.com/p/2799763073",
+      "summary": "正文把最大内接椭球写成对数行列式目标与范数约束的凸优化问题，并推导对偶。"
+    },
+    {
+      "title": "最优化期末笔记——方法与例题",
+      "url": "https://zhuanlan.zhihu.com/p/11589049642",
+      "summary": "正文讲解凸函数判定、凸规划性质与 KKT 最优性条件，并以例题说明凸优化求解。"
+    },
+    {
+      "title": "最优控制求解器（1）",
+      "url": "https://zhuanlan.zhihu.com/p/14591598720",
+      "summary": "文中具体分析线性二次最优控制转成的凸二次规划，并讨论 active-set、内点法和 ADMM 等求解方法。"
+    },
+    {
+      "title": "KKT条件使用说明书：实战 · 避坑 · 反例",
+      "url": "https://zhuanlan.zhihu.com/p/19271359098",
+      "summary": "正文先判断目标与约束是否构成凸优化问题，并讨论 Slater 条件如何保证 KKT 解全局最优。"
+    },
+    {
+      "title": "三位数学家改写经典牛顿法！300年前算法一夜更新，收敛速度更快函数范围更广",
+      "url": "https://zhuanlan.zhihu.com/p/32636323579",
+      "summary": "正文用凸性、平方和与半定规划调整泰勒展开，核心属于凸优化方法。"
+    },
+    {
+      "title": "TAC顶刊论文复现——基于数据驱动的模型预测控制方法，无需系统辨识直接设计控制器（已开源）",
+      "url": "https://zhuanlan.zhihu.com/p/1906486768544495152",
+      "summary": "正文将控制问题表述为带终端约束和噪声松弛的凸优化问题并解释其鲁棒性。"
+    },
+    {
+      "title": "【深度学习数学基础 26】凸优化",
+      "url": "https://zhuanlan.zhihu.com/p/1916534947667220327",
+      "summary": "正文系统讲解凸集、凸函数、KKT 条件、拉格朗日对偶、次梯度与近端梯度方法。"
+    },
+    {
+      "title": "论文阅读: Convex Analysis of the Mean Field Langevin Dynamics",
+      "url": "https://zhuanlan.zhihu.com/p/1943972839322531599",
+      "summary": "正文讨论泛函强凸性、KL 散度下的类强凸条件和线性收敛率，核心属于凸优化分析。"
+    },
+    {
+      "title": "一个运行了80年的算法，我们现在才真正理解它？",
+      "url": "https://zhuanlan.zhihu.com/p/1963223439427995616",
+      "summary": "正文把线性目标与线性约束描述为多面体上的最优化，并讨论单纯形法沿顶点寻优。"
+    },
+    {
+      "title": "矩阵函数近似中的暴力美学",
+      "url": "https://zhuanlan.zhihu.com/p/2061851180347691815",
+      "summary": "正文将拟合系数问题转化为带约束的凸二次规划和线性规划，并借助凸优化工具求解。"
+    }
+  ]
+}

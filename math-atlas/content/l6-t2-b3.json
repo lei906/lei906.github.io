@@ -1,0 +1,1901 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l6-t2-b3",
+  "sources": [
+    {
+      "title": "球谐函数是什么？",
+      "url": "https://www.zhihu.com/answer/32666018",
+      "summary": "列出球谐函数在量子力学氢原子波函数中的应用。"
+    },
+    {
+      "title": "量子力学中为什么要引入复数，引入复数的意义是什么?",
+      "url": "https://www.zhihu.com/answer/33811674",
+      "summary": "正文以量子态、线性空间与基矢说明量子理论中的数学。"
+    },
+    {
+      "title": "费曼图展开是渐近展开在物理上意味着什么？",
+      "url": "https://www.zhihu.com/answer/35096217",
+      "summary": "正文以量子场论的微扰级数、瞬子和再求和讨论量子理论中的数学。"
+    },
+    {
+      "title": "泊松括号（Poisson bracket）是怎么量子化到李括号（Lie bracket）的？",
+      "url": "https://www.zhihu.com/answer/37428476",
+      "summary": "正文说明正则量子化把经典泊松括号与量子对易子联系起来。"
+    },
+    {
+      "title": "如何从正则对易关系 [x,p]=i\\hbar 推出正则动量算符的表达式？",
+      "url": "https://www.zhihu.com/answer/40428929",
+      "summary": "正文从正则对易关系讨论量子力学的算符表示。"
+    },
+    {
+      "title": "算子代数是一门怎样的数学分支？学习算子代数需要怎样的基础？",
+      "url": "https://www.zhihu.com/answer/42083784",
+      "summary": "正文说明算子代数在量子理论的用途。"
+    },
+    {
+      "title": "薛定谔方程是什么意思？",
+      "url": "https://www.zhihu.com/answer/54766370",
+      "summary": "正文系统讲解薛定谔方程、量子态演化与路径积分。"
+    },
+    {
+      "title": "把配分函数写成路径积分的形式是想干什么？",
+      "url": "https://www.zhihu.com/answer/74472709",
+      "summary": "正文以路径积分联系量子体系、经典统计体系和量子场论。"
+    },
+    {
+      "title": "如何理解拓扑超导和 Majorana 费米子？",
+      "url": "https://www.zhihu.com/answer/81847961",
+      "summary": "正文以 Kitaev 链、哈密顿量和拓扑相系统讲解量子凝聚态模型。"
+    },
+    {
+      "title": "粒子的自旋数是怎么得出来的，为什么有些是1/2，有些是1，2？可以用对称性求出来吗？",
+      "url": "https://www.zhihu.com/answer/92187439",
+      "summary": "正文以此解释量子理论中标量、旋量和矢量对应的自旋数。"
+    },
+    {
+      "title": "理论物理学家爱德华·威滕做了啥贡献，以致于他获得了数学界的菲尔兹奖？",
+      "url": "https://www.zhihu.com/answer/97134130",
+      "summary": "正文系统阐述超对称量子物理、BPS 态与流形精细结构之间的联系。"
+    },
+    {
+      "title": "单从理论上来看，量子力学是否可以抛弃复数，只用实数？",
+      "url": "https://www.zhihu.com/answer/100515580",
+      "summary": "正文围绕量子力学为何使用复数讨论数学表述与物理模型。"
+    },
+    {
+      "title": "什么是 Wilson Loop?",
+      "url": "https://www.zhihu.com/answer/103641604",
+      "summary": "正文把 Wilson loop 作为规范场中的规范不变量，并联系 AB 效应与纠缠熵。"
+    },
+    {
+      "title": "无限不循环（如 π、e）的存在是否也一定程度解释了世界的特性？",
+      "url": "https://www.zhihu.com/answer/116798251",
+      "summary": "正文以两类可测量基底、不可数状态空间和不可数到不可数的映射解释量子测量不能同时精确。"
+    },
+    {
+      "title": "量子蒙卡SSE算法是什么？",
+      "url": "https://www.zhihu.com/answer/119873786",
+      "summary": "正文把量子多体系统、哈密顿量与量子统计量转化为可计算的数学表达。"
+    },
+    {
+      "title": "如何理解 Hopf 代数？",
+      "url": "https://www.zhihu.com/answer/120683622",
+      "summary": "正文说明量子群在Yang-Baxter方程和逆量子散射中的物理应用。"
+    },
+    {
+      "title": "现代数学已经发展到瓶颈期了吗？",
+      "url": "https://www.zhihu.com/answer/143717334",
+      "summary": "正文讨论量子场论如何产生有限维理论没有的无穷维数学结构。"
+    },
+    {
+      "title": "费曼路径积分的数学严格化有哪些困难和进展?",
+      "url": "https://www.zhihu.com/answer/148016526",
+      "summary": "正文围绕费曼路径积分和 Wick 转动的数学严格化讨论量子理论中的分析问题。"
+    },
+    {
+      "title": "Instanton在理论物理中的作用是什么？",
+      "url": "https://www.zhihu.com/answer/148873718",
+      "summary": "正文解释规范场论瞬子、路径积分和共形场论对应，属于量子理论与数学交汇。"
+    },
+    {
+      "title": "为何光子的自旋决定了光的偏振？",
+      "url": "https://www.zhihu.com/answer/160745798",
+      "summary": "正文以电磁场角动量推导圆偏振光与光子自旋的量子对应关系。"
+    },
+    {
+      "title": "密度矩阵的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/174223353",
+      "summary": "正文在量子统计物理中以态、混合态和可观测量解释密度矩阵。"
+    },
+    {
+      "title": "如何理解本征值?",
+      "url": "https://www.zhihu.com/answer/174794698",
+      "summary": "正文解释线性厄米算符的本征态如何描述量子系统可能状态。"
+    },
+    {
+      "title": "Maxwell 方程组能描述光子吗？",
+      "url": "https://www.zhihu.com/answer/180000474",
+      "summary": "正文把麦克斯韦方程改写为矩阵形式，推导光子的自旋算子与量子数。"
+    },
+    {
+      "title": "量子力学中可观察量是 C*-algebra 的意义？",
+      "url": "https://www.zhihu.com/answer/180029797",
+      "summary": "正文系统解释量子力学可观察量与 C* 代数、自伴算子和谱投影的关系。"
+    },
+    {
+      "title": "什么是泛函重整化群？在 QCD 中有什么应用？",
+      "url": "https://www.zhihu.com/answer/180567672",
+      "summary": "正文以有效作用量和重整化群方程解释量子涨落的非微扰演化及其 QCD 应用。"
+    },
+    {
+      "title": "什么是deformation quantization？",
+      "url": "https://www.zhihu.com/answer/188266759",
+      "summary": "正文系统解释经典物理到量子理论的形变量子化，以及泊松括号与对易子的对应。"
+    },
+    {
+      "title": "什么是geometric quantization？",
+      "url": "https://www.zhihu.com/answer/188313479",
+      "summary": "正文从经典相空间、量子希尔伯特空间到 Toeplitz 算子系统讲解几何量子化。"
+    },
+    {
+      "title": "物理里有多少no go theorem引发的“血案”？",
+      "url": "https://www.zhihu.com/answer/189201471",
+      "summary": "正文在非对易时空与量子场论背景下解释规范群 no-go 定理。"
+    },
+    {
+      "title": "你所在数学领域的 big picture 是什么？",
+      "url": "https://www.zhihu.com/answer/190177707",
+      "summary": "正文专节讨论量子力学、量子场论及其对四维流形、扭结不变量和代数几何等领域的推动。"
+    },
+    {
+      "title": "你所在数学领域的 big picture 是什么？",
+      "url": "https://www.zhihu.com/answer/190247077",
+      "summary": "正文把范畴中的简单对象与张量积解释为量子粒子及其相互作用。"
+    },
+    {
+      "title": "如何理解路径积分（path integral）？",
+      "url": "https://www.zhihu.com/answer/203678757",
+      "summary": "正文从薛定谔演化算子推导路径积分，并说明其连接经典力学与量子力学。"
+    },
+    {
+      "title": "以下量子力学中平均值计算中为什么会出现一个矛盾的结果？",
+      "url": "https://www.zhihu.com/answer/245031131",
+      "summary": "正文用离散谱、连续谱和对易子解释量子力学平均值的表面矛盾。"
+    },
+    {
+      "title": "Grassmann number有多少个？",
+      "url": "https://www.zhihu.com/answer/245678911",
+      "summary": "正文用外代数、Berezin 积分和超模解释量子场论中的 Grassmann 数。"
+    },
+    {
+      "title": "spin ice 和 spin liquid 有什么异同？",
+      "url": "https://www.zhihu.com/answer/266403364",
+      "summary": "正文从经典与量子自旋冰出发，推导涌现规范场及低能量子理论。"
+    },
+    {
+      "title": "怎样利用 MATLAB 求一维含时薛定谔方程的数值解？",
+      "url": "https://www.zhihu.com/answer/278044905",
+      "summary": "正文从量子力学算符矩阵表示构造薛定谔方程演化。"
+    },
+    {
+      "title": "路径积分、重整化在数学上目前并没有严格的定义，为什么在物理学中却相当有效？",
+      "url": "https://www.zhihu.com/answer/310932293",
+      "summary": "正文从量子力学和量子场论说明路径积分的严格化与物理有效性。"
+    },
+    {
+      "title": "如何理解纠缠熵与共形场论的联系？",
+      "url": "https://www.zhihu.com/answer/319312448",
+      "summary": "正文解释量子场论中借助共形场论计算纠缠熵的方法。"
+    },
+    {
+      "title": "什么是 Batalin-Vilkovisky formalism？它在量子场论中有哪些应用？",
+      "url": "https://www.zhihu.com/answer/342035600",
+      "summary": "正文详细说明BV形式系统在量子场论、规范反常和量子化中的应用。"
+    },
+    {
+      "title": "有哪些数学系鄙视物理系的经典桥段？",
+      "url": "https://www.zhihu.com/answer/350006893",
+      "summary": "正文把矩阵和李代数表示用于解释量子角动量算符。"
+    },
+    {
+      "title": "什么是密度矩阵重整化群？",
+      "url": "https://www.zhihu.com/answer/353380088",
+      "summary": "正文讲解密度矩阵重整化群处理量子强关联系统的原理。"
+    },
+    {
+      "title": "为什么本征方程在物理中应用广泛？",
+      "url": "https://www.zhihu.com/answer/356432101",
+      "summary": "正文用哈密顿算子的本征分解和指数演化展示本征值问题在量子理论中的作用。"
+    },
+    {
+      "title": "如何广义地理解「所有自然数之和」？",
+      "url": "https://www.zhihu.com/answer/368581301",
+      "summary": "正文在量子场论卡西米尔效应中解释正规化。"
+    },
+    {
+      "title": "为什么 d+1 维经典模型对应于 d 维的量子模型？",
+      "url": "https://www.zhihu.com/answer/391772486",
+      "summary": "正文用路径积分与配分函数推导经典统计场论和量子统计的维数对应。"
+    },
+    {
+      "title": "纽结理论的前景如何？近年来有什么重要的发展？",
+      "url": "https://www.zhihu.com/answer/410720713",
+      "summary": "正文实质说明纽结理论与拓扑弦、Chern-Simons 理论的联系。"
+    },
+    {
+      "title": "如何理解Chern Simons场论?",
+      "url": "https://www.zhihu.com/answer/424497746",
+      "summary": "正文从凝聚态量子霍尔效应解释 Chern-Simons 场论。"
+    },
+    {
+      "title": "如何看待菲尔兹和阿贝尔奖双料得主 Michael Atiyah 宣称自己证明了黎曼猜想？",
+      "url": "https://www.zhihu.com/answer/497695852",
+      "summary": "正文解释ζ零点与量子能级的数学物理联系。"
+    },
+    {
+      "title": "不同时间哈密顿算符「是否对易」与「能否成功分离变量」两种说法是否等价？",
+      "url": "https://www.zhihu.com/answer/524416613",
+      "summary": "围绕含时哈密顿算符、对易关系和时间演化算符解释量子力学中的数学条件。"
+    },
+    {
+      "title": "什么是「本征值」？",
+      "url": "https://www.zhihu.com/answer/549306527",
+      "summary": "正文给出量子力学哈密顿算符的能量本征值实例。"
+    },
+    {
+      "title": "如何理解路径积分（path integral）？",
+      "url": "https://www.zhihu.com/answer/553941552",
+      "summary": "从量子态演化算符和传播子逐步推导费曼路径积分。"
+    },
+    {
+      "title": "如何理解幺正性？",
+      "url": "https://www.zhihu.com/answer/580126870",
+      "summary": "正文联系幺正变换与量子力学概率守恒。"
+    },
+    {
+      "title": "共形场论相关近些年有哪些重要工作？",
+      "url": "https://www.zhihu.com/answer/693797723",
+      "summary": "从二维共形场论讨论应力张量形变与能谱。"
+    },
+    {
+      "title": "如何理解这里关于重整化中高阶圈图修正的计算？",
+      "url": "https://www.zhihu.com/answer/699523252",
+      "summary": "从有效作用量与重整化讨论量子场论计算。"
+    },
+    {
+      "title": "自学数学物理方法是种什么体验？",
+      "url": "https://www.zhihu.com/answer/707405638",
+      "summary": "正文把本征值和本征函数追溯到波导模式及量子数，并继续讨论氢原子等问题。"
+    },
+    {
+      "title": "如何利用二次量子化方法推导 Hartree-Fock 方程？",
+      "url": "https://www.zhihu.com/answer/711341497",
+      "summary": "全文以二次量子化、哈密顿量和轨道推导Hartree-Fock方程。"
+    },
+    {
+      "title": "电子得到能量后为什么不能长存在高能轨道，而要再释放能量到低能轨道？",
+      "url": "https://www.zhihu.com/answer/746813975",
+      "summary": "从量子态与哈密顿量推导自发辐射衰变。"
+    },
+    {
+      "title": "热传导方程和薛定谔方程为什么这么像？",
+      "url": "https://www.zhihu.com/answer/791548387",
+      "summary": "由薛定谔方程的复系数解释波动解。"
+    },
+    {
+      "title": "为什么量子力学中，连续谱对应的是散射态，而分立谱对应的是束缚态？",
+      "url": "https://www.zhihu.com/answer/815322055",
+      "summary": "正文用自伴算子、本质谱和哈密顿量解释量子束缚态与离散谱的对应。"
+    },
+    {
+      "title": "为什么拓扑序一定要有 gap？gap 怎么让普通自旋液体变拓扑序的？",
+      "url": "https://www.zhihu.com/answer/877393735",
+      "summary": "正文用哈密顿量连续形变、能隙、长程纠缠与张量范畴解释拓扑量子相。"
+    },
+    {
+      "title": "如何理解几何相位 (Berry phase)？除了 AB 效应外，类似的通俗易懂的实验或者现象有哪些？",
+      "url": "https://www.zhihu.com/answer/879499276",
+      "summary": "从量子态沿参数闭合路径演化解释 Berry 相位。"
+    },
+    {
+      "title": "如何理解非厄米哈密顿算符？",
+      "url": "https://www.zhihu.com/answer/883035170",
+      "summary": "以非厄米哈密顿量及其 PT 对称性为物理对象。"
+    },
+    {
+      "title": "谁能解释一下啥叫随机？怎么证明随机？看我问题描述?",
+      "url": "https://www.zhihu.com/answer/886831856",
+      "summary": "讨论玻恩规则、波函数和量子随机性的诠释。"
+    },
+    {
+      "title": "一维的自旋链不存在拓扑序是已经实锤了吗？",
+      "url": "https://www.zhihu.com/answer/893831051",
+      "summary": "正文用矩阵乘积态、局部酉变换和量子相等价类解释一维有能隙自旋系统的拓扑序。"
+    },
+    {
+      "title": "如何推导康普顿散射公式？",
+      "url": "https://www.zhihu.com/answer/925350439",
+      "summary": "正文用能量、动量关系推导量子散射中的康普顿波长公式。"
+    },
+    {
+      "title": "如何理解薛定谔方程？",
+      "url": "https://www.zhihu.com/answer/963739462",
+      "summary": "正文从量子力学方程的结构和时间反演性质解释薛定谔方程。"
+    },
+    {
+      "title": "两个算符对易，应该怎么去理解？",
+      "url": "https://www.zhihu.com/answer/979714536",
+      "summary": "正文从量子力学的不确定性、可对易观测量和共同本征态展开。"
+    },
+    {
+      "title": "薛定谔方程与狄拉克方程的区别是什么？",
+      "url": "https://www.zhihu.com/answer/981462138",
+      "summary": "正文实质讨论两类量子方程的波函数、相对论性与传播性质。"
+    },
+    {
+      "title": "2019 年你所在的量子计算领域有哪些值得读的 paper？",
+      "url": "https://www.zhihu.com/answer/983960994",
+      "summary": "正文系统评述量子算法、量子复杂性与哈密顿量模拟等研究进展。"
+    },
+    {
+      "title": "Mathematica 到底有多厉害？",
+      "url": "https://www.zhihu.com/answer/1031217185",
+      "summary": "正文以量子场论产生湮灭算符为对象实现符号运算规则。"
+    },
+    {
+      "title": "如何读懂费曼图？",
+      "url": "https://www.zhihu.com/answer/1057721029",
+      "summary": "正文逐步推导量子场论费曼图顶点的读取和计算规则。"
+    },
+    {
+      "title": "如何读懂费曼图？",
+      "url": "https://www.zhihu.com/answer/1083930936",
+      "summary": "正文系统解释费曼图在量子场论中的数学来源与含义。"
+    },
+    {
+      "title": "CG系数的表格是怎么构成的？怎么查表？",
+      "url": "https://www.zhihu.com/answer/1088385669",
+      "summary": "正文解释角动量耦合中的CG系数及其计算结构。"
+    },
+    {
+      "title": "如何求任意 Hamiltonian 的 matrix product state?",
+      "url": "https://www.zhihu.com/answer/1127202896",
+      "summary": "正文围绕量子多体哈密顿量的 MPS/MPO 表示与基态求解。"
+    },
+    {
+      "title": "量子计算机有哪些算法和应用？",
+      "url": "https://www.zhihu.com/answer/1139921711",
+      "summary": "正文从量子控制完整推导QAOA并介绍量子门、量子态和基态应用。"
+    },
+    {
+      "title": "如何根据不确定关系式求一维谐振子的零点能？",
+      "url": "https://www.zhihu.com/answer/1159316742",
+      "summary": "正文以不确定关系推导一维量子谐振子的零点能。"
+    },
+    {
+      "title": "共形场论相关近些年有哪些重要工作？",
+      "url": "https://www.zhihu.com/answer/1164985309",
+      "summary": "正文系统推导共形场论的analytic bootstrap与反演公式。"
+    },
+    {
+      "title": "关于陈数、自旋陈数、谷陈数，它们是分别对应与三个模型的拓扑不变量吗？它们的区别和共同点是什么？",
+      "url": "https://www.zhihu.com/answer/1182400817",
+      "summary": "正文以量子哈密顿量、泡利矩阵和自旋算符推导陈数，属于量子理论的数学结构。"
+    },
+    {
+      "title": "可以留下一个优美的不等式吗？",
+      "url": "https://www.zhihu.com/answer/1182622608",
+      "summary": "正文以厄米算符、对易子和方差推导量子不确定性原理。"
+    },
+    {
+      "title": "求能带的时候为什么要从 k 空间变到实空间？",
+      "url": "https://www.zhihu.com/answer/1299339524",
+      "summary": "正文讨论量子体系的体边对应和拓扑不变量。"
+    },
+    {
+      "title": "如何用线性代数理解量子力学？",
+      "url": "https://www.zhihu.com/answer/1299881952",
+      "summary": "正文讨论量子态、算符与线性代数结构。"
+    },
+    {
+      "title": "请问你见过的最强的公式是什么？",
+      "url": "https://www.zhihu.com/answer/1306247955",
+      "summary": "正文直接讲解“量子理论与数学”相关内容。"
+    },
+    {
+      "title": "请问你见过的最强的公式是什么？",
+      "url": "https://www.zhihu.com/answer/1306524588",
+      "summary": "正文直接讲解“量子理论与数学”相关内容。"
+    },
+    {
+      "title": "拓扑熵到底是什么？",
+      "url": "https://www.zhihu.com/answer/1317697596",
+      "summary": "正文直接讲解“量子理论与数学”相关内容。"
+    },
+    {
+      "title": "何为叠加态，何为纠缠态？",
+      "url": "https://www.zhihu.com/answer/1325627013",
+      "summary": "正文以态矢量、纠缠态、纠缠熵解释量子理论与线性代数语言。"
+    },
+    {
+      "title": "拓扑序和（Lurie定义的）拓扑场论有什么联系和区别？",
+      "url": "https://www.zhihu.com/answer/1511388073",
+      "summary": "正文讨论拓扑序、量子态与量子场论的联系。"
+    },
+    {
+      "title": "什么是密度矩阵重整化群？",
+      "url": "https://www.zhihu.com/answer/1585609137",
+      "summary": "正文讨论量子多体态的压缩、变分与基态近似算法。"
+    },
+    {
+      "title": "BBO晶体的自发参量下转换过程是如何实现的？",
+      "url": "https://www.zhihu.com/answer/1601289577",
+      "summary": "正文直接讨论或应用该叶节点主题（量子）。"
+    },
+    {
+      "title": "科里奥利力能产生朗道能级吗？",
+      "url": "https://www.zhihu.com/answer/1649888503",
+      "summary": "正文用旋转系规范变换推导等效矢势与朗道能级条件。"
+    },
+    {
+      "title": "什么是波函数？",
+      "url": "https://www.zhihu.com/answer/1683349370",
+      "summary": "正文系统解释量子测量、谱分解与波函数坍缩。"
+    },
+    {
+      "title": "Hopf代数在物理学里有什么应用？",
+      "url": "https://www.zhihu.com/answer/1704899808",
+      "summary": "正文介绍 Hopf 代数在拓扑量子场论与量子相中的应用。"
+    },
+    {
+      "title": "如何看待中科大 26 岁教授陈杲攻克数学复微分几何领域世界难题？",
+      "url": "https://www.zhihu.com/answer/1757254075",
+      "summary": "正文解释规范场与粒子物理、杨-米尔斯理论的联系。"
+    },
+    {
+      "title": "2021 年 2 月 11 日美国数学家伊萨多·辛格去世，享年 96 岁，如何评价其一生的贡献？",
+      "url": "https://www.zhihu.com/answer/1774398722",
+      "summary": "正文解释指标定理与杨-米尔斯理论和纤维丛的联系。"
+    },
+    {
+      "title": "如何全面理解中心荷？",
+      "url": "https://www.zhihu.com/answer/1799837201",
+      "summary": "正文从共形场论和量子态相位解释中心荷。"
+    },
+    {
+      "title": "量子力学的Dirac符号系统优越性在哪，为什么不使用张量作为量子力学的数学语言基础？",
+      "url": "https://www.zhihu.com/answer/1842415584",
+      "summary": "正文从无穷维内积空间与张量指标运算讨论量子力学的数学语言。"
+    },
+    {
+      "title": "2020年你所在的量子计算领域有哪些值得读的 paper？",
+      "url": "https://www.zhihu.com/answer/1861931450",
+      "summary": "正文梳理量子计算论文及量子算法、复杂度和密码学方向。"
+    },
+    {
+      "title": "量子力学的Dirac符号系统优越性在哪，为什么不使用张量作为量子力学的数学语言基础？",
+      "url": "https://www.zhihu.com/answer/1878660010",
+      "summary": "正文讨论量子力学中 Dirac 符号与态矢空间的表达优势。"
+    },
+    {
+      "title": "内积是个什么物理过程，具体的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/1886054836",
+      "summary": "正文把态矢量、算符和 Gaussian measure 置于量子场论语境。"
+    },
+    {
+      "title": "inversion symmetry是指什么？",
+      "url": "https://www.zhihu.com/answer/1892417778",
+      "summary": "正文用泡利矩阵和哈密顿量讨论量子模型中的对称性。"
+    },
+    {
+      "title": "规范场论中的 SU(3)、SU(2)、SU(1) 到底指什么？",
+      "url": "https://www.zhihu.com/answer/1892647840",
+      "summary": "正文把内部空间转动解释为规范场变换。"
+    },
+    {
+      "title": "Clifford 代数是什么, 它和 Dirac 算子有什么关系?",
+      "url": "https://www.zhihu.com/answer/1899376043",
+      "summary": "正文从狄拉克方程和拉普拉斯算子开方引出克利福德代数。"
+    },
+    {
+      "title": "如何理解物理学中的“关联函数”的物理本质？其在不同物理分支中有哪些应用实例？",
+      "url": "https://www.zhihu.com/answer/1913189365",
+      "summary": "正文把传播子和关联函数联系到量子态的时间演化。"
+    },
+    {
+      "title": "非交换几何在物理学中有哪些应用？",
+      "url": "https://www.zhihu.com/answer/1938935028",
+      "summary": "正文具体讨论拓扑绝缘体与量子理论中的数学结构。"
+    },
+    {
+      "title": "同调群在拓扑以外有什么应用？",
+      "url": "https://www.zhihu.com/answer/1953744902",
+      "summary": "正文用同调和上同调解释量子理论与超对称模型。"
+    },
+    {
+      "title": "2022世界数学家大会报告名单公布，能介绍一小时报告的主要工作吗？",
+      "url": "https://www.zhihu.com/answer/1975648371",
+      "summary": "正文讨论量子物理模型与薛定谔算子谱理论的关系。"
+    },
+    {
+      "title": "奇异值分解（SVD）有哪些很厉害的应用？",
+      "url": "https://www.zhihu.com/answer/1994290319",
+      "summary": "正文讨论量子奇异值变换、振幅放大等量子计算应用。"
+    },
+    {
+      "title": "可以介绍一下广义布里渊区是如何引入的吗？",
+      "url": "https://www.zhihu.com/answer/2029394626",
+      "summary": "正文讨论非厄米量子系统中的能带、拓扑不变量与边界态。"
+    },
+    {
+      "title": "【量子力学】量子力学中为什么需要各种各样的绘景？",
+      "url": "https://www.zhihu.com/answer/2033196612",
+      "summary": "正文讨论量子力学中的薛定谔、海森堡和相互作用绘景。"
+    },
+    {
+      "title": "量子力学和 Lie 群、Lie 代数有什么关系？",
+      "url": "https://www.zhihu.com/answer/2039732258",
+      "summary": "正文解释李群表示在量子力学中的作用。"
+    },
+    {
+      "title": "非厄米哈密顿量有什么特点？",
+      "url": "https://www.zhihu.com/answer/2062096287",
+      "summary": "正文讨论非厄米量子系统的本征结构。"
+    },
+    {
+      "title": "如何简要介绍 sign problem in quantum Monte Carlo method？",
+      "url": "https://www.zhihu.com/answer/2065738434",
+      "summary": "正文用路径积分和哈密顿量解释符号问题。"
+    },
+    {
+      "title": "为什么我无法接受量子力学的微扰论？",
+      "url": "https://www.zhihu.com/answer/2066207326",
+      "summary": "正文以展开和迭代推导量子力学微扰论，并讨论量级整理。"
+    },
+    {
+      "title": "为什么我无法接受量子力学的微扰论？",
+      "url": "https://www.zhihu.com/answer/2067193546",
+      "summary": "正文把量子微扰论解释为线性代数中的近似对角化问题。"
+    },
+    {
+      "title": "数学中有什么难以置信的结论？",
+      "url": "https://www.zhihu.com/answer/2107140008",
+      "summary": "正文把湍流现象与纳维-斯托克斯方程联系起来。"
+    },
+    {
+      "title": "如何入门 Ads/CFT？",
+      "url": "https://www.zhihu.com/answer/2122417925",
+      "summary": "正文讨论AdS/CFT对偶和边界共形场论的生成泛函。"
+    },
+    {
+      "title": "数学史上你认为最丑陋的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2143606758",
+      "summary": "正文展示标准模型拉格朗日量及其物理数学形式。"
+    },
+    {
+      "title": "如何入门拓扑序方面理论?",
+      "url": "https://www.zhihu.com/answer/2195960670",
+      "summary": "正文介绍拓扑序、分数量子霍尔态、Chern-Simons 拓扑场论及其数学联系。"
+    },
+    {
+      "title": "bulk-edge correspondence是在说什么？",
+      "url": "https://www.zhihu.com/answer/2206765771",
+      "summary": "正文讨论拓扑序、拓扑场论与凝聚态物理中的体边对应。"
+    },
+    {
+      "title": "为什么变分法的教材这么少？还有变分处理的不是泛函么？为什么泛函的教材一点都不涉及这个？",
+      "url": "https://www.zhihu.com/answer/2210684791",
+      "summary": "正文由最小作用量原理推导薛定谔方程，讨论量子力学的数学形式。"
+    },
+    {
+      "title": "数学家如何理解产生和湮灭算符？",
+      "url": "https://www.zhihu.com/answer/2281880863",
+      "summary": "正文把微分算符与量子谐振子的湮灭算符联系起来。"
+    },
+    {
+      "title": "科研中量子场论的计算都使用哪来的程序？",
+      "url": "https://www.zhihu.com/answer/2292105991",
+      "summary": "正文系统介绍量子场论计算中的程序与数学方法。"
+    },
+    {
+      "title": "为什么成键轨道和反键轨道同时存在？",
+      "url": "https://www.zhihu.com/answer/2293841305",
+      "summary": "正文以量子化学的薛定谔方程和变分法解释轨道。"
+    },
+    {
+      "title": "听完曹则贤老师2021年的跨年科学演讲“云端脚下——从一元二次方程到规范场论”的你，作何感想？",
+      "url": "https://www.zhihu.com/answer/2296255408",
+      "summary": "正文讨论四元数、旋量与量子自旋之间的数学联系。"
+    },
+    {
+      "title": "怎么解氢原子薛定谔方程？",
+      "url": "https://www.zhihu.com/answer/2326851684",
+      "summary": "正文围绕量子力学核心方程和波函数展开。"
+    },
+    {
+      "title": "你们能用浅显的语言解释清楚广义函数的定义嘛？",
+      "url": "https://www.zhihu.com/answer/2347919121",
+      "summary": "正文说明广义函数概念源于量子力学中的脉冲描述。"
+    },
+    {
+      "title": "为何平面波可以用球Bessel函数展开？",
+      "url": "https://www.zhihu.com/answer/2365565349",
+      "summary": "正文把数学展开置于量子力学的波函数与角动量语境中解释。"
+    },
+    {
+      "title": "拓扑序，Laughlin波函数，共形场论，拓扑场论是怎么联系在一起的？",
+      "url": "https://www.zhihu.com/answer/2415848985",
+      "summary": "正文以 Chern-Simons、Ginzburg-Landau 理论解释 Laughlin 波函数与拓扑场论的数学物理联系。"
+    },
+    {
+      "title": "给定一个 Hamiltonian，如何推导出 Berry 曲率？",
+      "url": "https://www.zhihu.com/answer/2419749412",
+      "summary": "正文以哈密顿量、泡利矩阵和贝里曲率讨论量子体系的数学描述。"
+    },
+    {
+      "title": "为什么说麦克斯韦方程组是世上最完美的公式?",
+      "url": "https://www.zhihu.com/answer/2420840757",
+      "summary": "正文列举量子力学中的德布罗意关系、对易子和路径积分等数学表达。"
+    },
+    {
+      "title": "量子场论文献里下面这段高斯型积分的推导怎么来的啊？",
+      "url": "https://www.zhihu.com/answer/2434976766",
+      "summary": "正文以量子场论中的传播子和重整化解释该积分的用途。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/2441733140",
+      "summary": "正文以 Kontsevich 的形变量子化证明为核心主题，并联系数学物理。"
+    },
+    {
+      "title": "如何直观理解 Wigner 分布函数？",
+      "url": "https://www.zhihu.com/answer/2445605207",
+      "summary": "正文定义量子力学中的维格纳准概率分布并解释位置与动量表示。"
+    },
+    {
+      "title": "什么是Seiberg-Witten理论？",
+      "url": "https://www.zhihu.com/answer/2458637263",
+      "summary": "正文以 N=2 超对称杨米尔斯理论说明 Seiberg-Witten 理论的物理背景。"
+    },
+    {
+      "title": "很多老师都用1.01的365次方和0.99的365次方论证要坚持每天进步，可这个模型跟实际相符吗?",
+      "url": "https://www.zhihu.com/answer/2464701228",
+      "summary": "正文以薛定谔方程和路径积分说明数学在量子理论中的核心作用。"
+    },
+    {
+      "title": "当我们在问「为什么 Schrödinger 方程里有虚数 i」时，我们到底在问什么？",
+      "url": "https://www.zhihu.com/answer/2468995704",
+      "summary": "正文核心讨论量子理论中薛定谔方程使用虚数 i 的概念解释。"
+    },
+    {
+      "title": "如何理解 Hubbard 模型？",
+      "url": "https://www.zhihu.com/answer/2470635025",
+      "summary": "正文介绍 Hubbard 模型的量子多体背景与近期结论。"
+    },
+    {
+      "title": "自发对称破缺，戈尔斯通定理和希格斯机制的关系是什么？",
+      "url": "https://www.zhihu.com/answer/2514663651",
+      "summary": "从量子场论的对称性、守恒荷与真空简并出发，解释 Goldstone 定理及 Higgs 机制。"
+    },
+    {
+      "title": "如何数值计算量子多体系统的纠缠熵（或约化密度矩阵）？",
+      "url": "https://www.zhihu.com/answer/2546293335",
+      "summary": "讨论量子多体基态、Schmidt 分解、约化密度矩阵与 DMRG 重整化。"
+    },
+    {
+      "title": "韩裔许埈珥、乌克兰维娅佐夫斯卡等四位数学家获得 2022 菲尔兹奖，他们在各自领域做出了怎样的贡献？",
+      "url": "https://www.zhihu.com/answer/2560555660",
+      "summary": "正文把四维 Ising 模型与 phi^4 量子场论的标度极限联系起来，说明其均收敛为广义高斯过程。"
+    },
+    {
+      "title": "韩裔许埈珥、乌克兰维娅佐夫斯卡等四位数学家获得 2022 菲尔兹奖，他们在各自领域做出了怎样的贡献？",
+      "url": "https://www.zhihu.com/answer/2560575202",
+      "summary": "正文具体说明四维 phi^4 量子场论的势能形式，并介绍其标度极限收敛到高斯自由场的数学结果。"
+    },
+    {
+      "title": "对于含时哈密顿量，其演化算符的表达式中要出现编时算符（如下图），那什么情况下，编时算符可以去掉呢？",
+      "url": "https://www.zhihu.com/answer/2591618680",
+      "summary": "解释含时哈密顿量的演化算符、Dyson 级数与编时算符为何能消除不对易性。"
+    },
+    {
+      "title": "固体物理中的倒格子有什么用？",
+      "url": "https://www.zhihu.com/answer/2619208059",
+      "summary": "用量子力学哈密顿量、平移对易性和 Bloch 定理解释倒格子。"
+    },
+    {
+      "title": "能带如何与不可以约表示联系在一起？",
+      "url": "https://www.zhihu.com/answer/2647375714",
+      "summary": "用哈密顿量、本征波函数与对称群解释量子能带结构。"
+    },
+    {
+      "title": "为什么在量子力学一些非平方可积函数可以作为基底？",
+      "url": "https://www.zhihu.com/answer/2661567760",
+      "summary": "解释量子力学中动量、位置算符的特征函数及广义特征向量的数学框架。"
+    },
+    {
+      "title": "为什么说“旋量是矢量的平方根”？",
+      "url": "https://www.zhihu.com/answer/2682264261",
+      "summary": "正文给出两分量旋量及其在空间旋转下的变换公式，说明旋量表示通过泡利矩阵与三维矢量相联系。"
+    },
+    {
+      "title": "如何评价丘成桐？",
+      "url": "https://www.zhihu.com/answer/2966312075",
+      "summary": "正文回顾量子力学与量子场论中数学家参与的严格化工作，阐述量子理论与数学的联系。"
+    },
+    {
+      "title": "你第一次感觉到物理、数学与现实的联系是什么时候？",
+      "url": "https://www.zhihu.com/answer/3024943614",
+      "summary": "正文把定态薛定谔方程的求解解释为寻找哈密顿算符的本征函数基底，并联系线性代数中的算子与向量。"
+    },
+    {
+      "title": "一维SSH模型，考虑安德森无序，体态局域化之后，如何通过体态计算拓扑不变量？",
+      "url": "https://www.zhihu.com/answer/3091445128",
+      "summary": "正文以手征对称哈密顿量、本征态和投影建立一维 SSH 模型，并推导实空间拓扑不变量，属于量子理论中的数学表述。"
+    },
+    {
+      "title": "谈一谈对非厄米系统的认识?",
+      "url": "https://www.zhihu.com/answer/3102937061",
+      "summary": "正文解释厄米矩阵的实本征值如何保证量子力学可观测量的期望值为实数。"
+    },
+    {
+      "title": "关于广义对称性，目前有哪些重要的工作？",
+      "url": "https://www.zhihu.com/answer/3201751390",
+      "summary": "正文概述广义对称性由高一维拓扑序刻画，并指出群论与高阶群论不足，展开量子理论中的对称性和拓扑序数学联系。"
+    },
+    {
+      "title": "量子反常是否一定与积分测度的改变有关？",
+      "url": "https://www.zhihu.com/answer/3273354952",
+      "summary": "正文以 ABJ anomaly 和 't Hooft anomaly 为例，讨论量子化破坏经典对称性以及反常对低能有效理论的约束。"
+    },
+    {
+      "title": "数学界有哪些通俗易懂的 open problem？",
+      "url": "https://www.zhihu.com/answer/3288752261",
+      "summary": "正文把二维情形下的三个 MUB 对应到 qubit 的 X、Y、Z 基底，说明该量子信息问题中的数学结构。"
+    },
+    {
+      "title": "重整化中为什么要引入counterterm?",
+      "url": "https://www.zhihu.com/answer/3297594361",
+      "summary": "正文以截断尺度和有效拉格朗日量解释抵消项的来源，属于量子场论与数学形式化方法。"
+    },
+    {
+      "title": "21世纪规范场论的可积性有哪些重要工作？",
+      "url": "https://www.zhihu.com/answer/3317214966",
+      "summary": "正文说明4d N=4超对称规范场论的一圈反常量纲对应海森堡自旋链哈密顿量，并概述Bethe拟设与规范场论的数学联系。"
+    },
+    {
+      "title": "什么是约当-魏格纳（Jordan-Wigner）变换？",
+      "url": "https://www.zhihu.com/answer/3446278338",
+      "summary": "正文系统推导自旋算符与费米子算符的对应、Jordan-Wigner 弦及一维 XY 模型的求解，展示量子自旋模型的数学变换。"
+    },
+    {
+      "title": "如何了解 Open Quantum System 的前沿进展和研究现状？",
+      "url": "https://www.zhihu.com/answer/3457920866",
+      "summary": "正文围绕密度矩阵、量子通道和对称保护拓扑相展开开放量子系统中的数学结构。"
+    },
+    {
+      "title": "现代数学和理论物理已经发展到怎样一个令人震惊的水平了？",
+      "url": "https://www.zhihu.com/answer/3514312874",
+      "summary": "正文区分经典与量子 Chern-Simons 理论，并介绍量子版本对应的扩展拓扑量子场论。"
+    },
+    {
+      "title": "如何解决量子力学正则对易关系的\"[x,p]=ih=0\"悖论？",
+      "url": "https://www.zhihu.com/answer/3525739706",
+      "summary": "正文借助广义函数、狄拉克函数和无界算子精确解释量子力学对易关系中的数学结构。"
+    },
+    {
+      "title": "知乎上为什么有这么多学特殊函数论的大佬？",
+      "url": "https://www.zhihu.com/answer/3530469868",
+      "summary": "正文借一维谐振子的薛定谔方程和升降算符展开，说明 Hermite 多项式及其李代数结构在量子理论中的应用。"
+    },
+    {
+      "title": "如何评价俄罗斯数学家诺维科夫？",
+      "url": "https://www.zhihu.com/answer/3540254150",
+      "summary": "正文具体讨论杨-米尔斯方程、瞬子及其拓扑信息，呈现量子场论相关理论与数学的交叉。"
+    },
+    {
+      "title": "有哪些量子场论算圈图的技巧值得分享？",
+      "url": "https://www.zhihu.com/answer/27552625281",
+      "summary": "正文完整演示量子场论两圈 Feynman 积分的参数化、维数正规化和重整化计算。"
+    },
+    {
+      "title": "孔采维奇的数学工作对现代数学产生了哪些影响?",
+      "url": "https://www.zhihu.com/answer/35417456463",
+      "summary": "正文解释变形量化如何通过非交换代数描述经典力学到量子力学的转变，属于量子理论与数学的实质联系。"
+    },
+    {
+      "title": "密度算符为什么叫「密度」「算符」啊？他的意义是什么？",
+      "url": "https://www.zhihu.com/answer/44759418713",
+      "summary": "正文推导密度算符的演化方程，将量子对易子与经典泊松括号对应，并讨论其统计期望性质。"
+    },
+    {
+      "title": "哈密顿正则方程长的这么像 C-R 条件，我们是不是可以用一个复坐标代替广义坐标和广义动量?",
+      "url": "https://www.zhihu.com/answer/67002662375",
+      "summary": "正文把Schrödinger方程、波函数实虚部和哈密顿相流作具体比较，说明量子表述中的复结构类比。"
+    },
+    {
+      "title": "为何电子不会坠入原子核？",
+      "url": "https://www.zhihu.com/answer/106960209734",
+      "summary": "正文由径向级数截断得到离散能量量子化关系和能级，说明量子定态为何稳定而不连续坠落。"
+    },
+    {
+      "title": "你可以介绍一个冷门但改变世界的数学模型吗？",
+      "url": "https://www.zhihu.com/answer/128532865895",
+      "summary": "正文用哈密顿量、四维自旋态空间、单重态和三重态波函数分析量子模型，具体连接了量子理论与线性代数结构。"
+    },
+    {
+      "title": "如何理解拉格朗日力学的初衷？",
+      "url": "https://www.zhihu.com/answer/1913381688890884096",
+      "summary": "正文具体推导 Klein–Gordon 方程，并用 O(N) 标量场、自发对称性破缺和 Goldstone 模式说明量子场论中的数学结构。"
+    },
+    {
+      "title": "如何解释薛定谔方程无法伽利略变换？",
+      "url": "https://www.zhihu.com/answer/1928043996590113534",
+      "summary": "正文通过波函数变换和相位分析讲解量子力学中的伽利略协变性。"
+    },
+    {
+      "title": "为什么大自然不允许三元数结构出现？",
+      "url": "https://www.zhihu.com/answer/1937610904331067984",
+      "summary": "正文从量子力学中自伴算符的对称化乘积引入 Jordan 代数，并讨论其在粒子代和标准模型对称性中的应用。"
+    },
+    {
+      "title": "怎么用通俗的语言解释什么是费米子，什么是玻色子？",
+      "url": "https://www.zhihu.com/answer/1938186193817825535",
+      "summary": "正文用外积和几何并分别表示多费米子与多玻色子态，并据此解释泡利不相容原理的数学表述。"
+    },
+    {
+      "title": "有哪些物理学反哺数学的理论？",
+      "url": "https://www.zhihu.com/answer/1938282168590798884",
+      "summary": "正文以规范场论中的Seiberg-Witten方程为例，说明物理理论如何用于研究四维流形拓扑。"
+    },
+    {
+      "title": "量子力学中，以算符为自变量的函数为什么可以泰勒展开？",
+      "url": "https://www.zhihu.com/answer/1938361329367888750",
+      "summary": "正文以量子力学中的平移算符和动量算符为例，解释算子函数展开的数学条件。"
+    },
+    {
+      "title": "是否存在无法通过复数表示，必须通过四元数表达的波函数形式？",
+      "url": "https://www.zhihu.com/answer/1939668397458699588",
+      "summary": "正文系统讲解四元数、几何代数和时空代数如何重述自旋、狄拉克方程及量子力学中的复结构。"
+    },
+    {
+      "title": "如何理解量子力学中的不确定性原理？",
+      "url": "https://www.zhihu.com/answer/1942732612171962331",
+      "summary": "正文用厄米与反厄米算符的期望值、对易子和几何代数具体推导不确定性原理。"
+    },
+    {
+      "title": "如何评价数学物理学家Elliott H. Lieb？",
+      "url": "https://www.zhihu.com/answer/1952900093121394671",
+      "summary": "正文讨论长程 Ising 场论、共形流形和扰动不动点，展示量子场论中的数学结构与计算。"
+    },
+    {
+      "title": "数学中有哪些有趣的构造性证明？",
+      "url": "https://www.zhihu.com/answer/1955826129932910940",
+      "summary": "正文从量子力学的 Weyl 量子化与 Moyal 乘积出发，说明经典力学到量子力学的形式幂级数形变。"
+    },
+    {
+      "title": "要看懂杨-米尔斯场的理论，数学得学到什么程度？",
+      "url": "https://www.zhihu.com/answer/1965379792602920388",
+      "summary": "正文介绍 Yang-Mills 规范理论的物理来源及其数学化，属于量子理论与数学的交叉。"
+    },
+    {
+      "title": "一个人将数学，物理，计算机科学三门功夫聚合在一起是否威力无穷？",
+      "url": "https://www.zhihu.com/answer/1965835451932837211",
+      "summary": "正文用泡利-X 门、受控非门和希尔伯特空间说明布尔逻辑在量子计算中的数学表达。"
+    },
+    {
+      "title": "既然万物都是波，那么为什么物体在不受外力的情况下，会保持静止或沿着直线运动？",
+      "url": "https://www.zhihu.com/answer/1968653827214381364",
+      "summary": "正文从薛定谔方程、算符对易关系和期望值方程推导埃伦费斯特定理及其经典极限。"
+    },
+    {
+      "title": "物理学史上，有哪些伟大的工作，某个人不做，就会被推迟很久才能做出来？",
+      "url": "https://www.zhihu.com/answer/1970241826049990777",
+      "summary": "正文完整推导狄拉克方程、解释负能解和空穴理论，并说明其反粒子预言如何联系量子理论与数学。"
+    },
+    {
+      "title": "格林函数如何在凝聚态物理的量子场论中起作用？",
+      "url": "https://www.zhihu.com/answer/1974724862040884619",
+      "summary": "正文以路径积分、高斯积分、Wick 定理和费曼图构建凝聚态量子场论的微扰计算框架。"
+    },
+    {
+      "title": "量子力学里面各种升降算符是如何被想到的？",
+      "url": "https://www.zhihu.com/answer/1981395478772991847",
+      "summary": "正文从超对称量子力学出发构造伙伴哈密顿量与升降算符，解释量子体系能谱和本征态的代数结构。"
+    },
+    {
+      "title": "数学是人类发明的，还是宇宙本身的语言？",
+      "url": "https://www.zhihu.com/answer/2009499071505785795",
+      "summary": "正文叙述狄拉克方程从数学推出负能级解并预言正电子，展开量子理论与数学关系的案例。"
+    },
+    {
+      "title": "哪位菲尔兹奖得主的工作对你影响最大？",
+      "url": "https://www.zhihu.com/answer/2013198805877683165",
+      "summary": "正文详细构造超对称量子系统，用超电荷、哈密顿量和泛函积分推导指标定理，属于量子理论与数学的交叉。"
+    },
+    {
+      "title": "目前数学的符号体系有多混乱？",
+      "url": "https://www.zhihu.com/answer/2033866720083960195",
+      "summary": "正文解释 Dirac 方程的正负能量解及其对正电子的预言，具体讨论量子理论中的数学推导。"
+    },
+    {
+      "title": "为什么后人没有从傅里叶变换中发现不确定性原理？",
+      "url": "https://www.zhihu.com/answer/2048847276571998186",
+      "summary": "正文解释德布罗意关系、波函数概率诠释和动量算符如何把傅里叶不等式转化为量子不确定性原理。"
+    },
+    {
+      "title": "邓煜、王虹两位青年数学家获得 2026 年菲尔兹奖，如何理解他们获奖的意义和价值？",
+      "url": "https://www.zhihu.com/answer/2063876279464727955",
+      "summary": "正文说明薛定谔方程与粒子传播、方向叠加的联系，并以同一结构连接量子传播与挂谷问题。"
+    },
+    {
+      "title": "知友发现 2026 菲尔兹奖名单泄露，王虹、邓煜疑似双双获奖，如何看待这一信息？",
+      "url": "https://www.zhihu.com/answer/2063877218430870507",
+      "summary": "正文说明薛定谔方程与粒子传播、方向叠加的联系，并以同一结构连接量子传播与挂谷问题。"
+    },
+    {
+      "title": "王虹、邓煜获「菲尔兹奖」，这是中国籍数学家首次获得该奖，获得这个奖有多难？他们攻克了什么数学难题？",
+      "url": "https://www.zhihu.com/answer/2063881339825394412",
+      "summary": "正文说明薛定谔方程与粒子传播、方向叠加的联系，并以同一结构连接量子传播与挂谷问题。"
+    },
+    {
+      "title": "丘成桐谈几何：从黎曼、爱因斯坦到弦论",
+      "url": "https://zhuanlan.zhihu.com/p/20528427",
+      "summary": "正文把量子力学的数学基础追溯到无限维谱分析，并讨论规范场量子化的数学困难。"
+    },
+    {
+      "title": "由对称性到角动量（一）",
+      "url": "https://zhuanlan.zhihu.com/p/21108784",
+      "summary": "正文把角动量与旋转变换生成元联系起来，并用群表示解释轨道角动量量子数与自旋。"
+    },
+    {
+      "title": "含时薛定谔方程与定态薛定谔方程",
+      "url": "https://zhuanlan.zhihu.com/p/21678853",
+      "summary": "正文围绕量子力学中的薛定谔方程解释定态解、概率密度和叠加原理。"
+    },
+    {
+      "title": "量子人工智能笔记之量子深度学习",
+      "url": "https://zhuanlan.zhihu.com/p/21721627",
+      "summary": "正文具体构造量子态和拒绝抽样算法，以量子计算实现玻尔兹曼机训练。"
+    },
+    {
+      "title": "构造量子场论",
+      "url": "https://zhuanlan.zhihu.com/p/21721035",
+      "summary": "正文系统叙述 CQFT 的路径积分框架、Osterwalder-Schrader 与 Wightman 公理及其构造关系。"
+    },
+    {
+      "title": "深度解读：数学的本质与宇宙万物的关联",
+      "url": "https://zhuanlan.zhihu.com/p/22230431",
+      "summary": "正文讨论波函数、薛定谔方程、量子比特和量子场论与数学结构及物理直觉的关系。"
+    },
+    {
+      "title": "你是飞鸟？还是青蛙？ | 伟大数学物理学家的演讲",
+      "url": "https://zhuanlan.zhihu.com/p/23111281",
+      "summary": "正文以复数波函数、线性状态空间、李代数表示和算子环说明量子理论对数学结构的使用。"
+    },
+    {
+      "title": "Berry phase（几何相位）",
+      "url": "https://zhuanlan.zhihu.com/p/24110994",
+      "summary": "正文推导量子绝热演化中由参数空间闭合回路产生的 Berry 几何相位。"
+    },
+    {
+      "title": "规范场论初步总结",
+      "url": "https://zhuanlan.zhihu.com/p/25701869",
+      "summary": "正文系统推导 U(1) 与 SU(2) 规范场、Dirac 方程和 Higgs 机制，具体讨论量子场论所需的群表示与数学结构。"
+    },
+    {
+      "title": "从 Shor 算法到格密码学",
+      "url": "https://zhuanlan.zhihu.com/p/25462786",
+      "summary": "正文以隐含子群、量子测量和格问题串联量子算法与 LWE，展开量子计算背后的群论与格论数学。"
+    },
+    {
+      "title": "量子力学中的路径积分",
+      "url": "https://zhuanlan.zhihu.com/p/28532278",
+      "summary": "正文从薛定谔方程和传播子推导量子力学路径积分，并讨论其经典极限。"
+    },
+    {
+      "title": "超对称场论中的特殊函数（第1话）",
+      "url": "https://zhuanlan.zhihu.com/p/28949130",
+      "summary": "正文讲解超对称规范场论的配分函数如何用多重积分和特殊函数表示，并联系时空几何分解。"
+    },
+    {
+      "title": "超对称场论中的特殊函数（第2话）——傅里叶变换、sb 与镜像对称",
+      "url": "https://zhuanlan.zhihu.com/p/30106755",
+      "summary": "正文将特殊函数的代数、分析和积分性质用于三维超对称规范场论的镜像对称。"
+    },
+    {
+      "title": "数学简史：现代数学的五大应用",
+      "url": "https://zhuanlan.zhihu.com/p/30486512",
+      "summary": "正文讲解希尔伯特空间、谱理论和无界算子如何构成量子力学的严格数学基础。"
+    },
+    {
+      "title": "超对称场论中的特殊函数(第3话)——拓扑顶点与麦当劳函数",
+      "url": "https://zhuanlan.zhihu.com/p/32030968",
+      "summary": "正文以杨图、顶点因子和求和公式组织超对称规范理论的配分函数，具体展示量子场论问题中的数学表示与计算。"
+    },
+    {
+      "title": "《惰者集》：小平邦彦著",
+      "url": "https://zhuanlan.zhihu.com/p/32913229",
+      "summary": "正文用波函数、希尔伯特空间和态叠加原理具体讨论数学结构与量子力学的关系。"
+    },
+    {
+      "title": "自旋液体 in a nutshell（二）",
+      "url": "https://zhuanlan.zhihu.com/p/35845090",
+      "summary": "正文以海森堡模型为例讲解自旋算符的 slave-particle 分解、SU(2) 规范结构与 Majorana 平均场，属于量子理论的数学建模。"
+    },
+    {
+      "title": "旋量与洛伦兹变换",
+      "url": "https://zhuanlan.zhihu.com/p/36482403",
+      "summary": "正文从 SU(2) 表示和洛伦兹 boost 推出相对论波动方程与 Dirac 方程。"
+    },
+    {
+      "title": "狄拉克方程与氢原子的精确能级",
+      "url": "https://zhuanlan.zhihu.com/p/36791366",
+      "summary": "正文以狄拉克方程的哈密顿形式、角动量对易关系和本征态推导氢原子的精确能级。"
+    },
+    {
+      "title": "量子力学杂谈——Radon-Nikodym导数",
+      "url": "https://zhuanlan.zhihu.com/p/37379997",
+      "summary": "正文以 Radon-Nikodym 导数重整量子力学的位置和动量表象，并讨论波函数、谱族与连续谱。"
+    },
+    {
+      "title": "拓扑相里的拓扑到底有多拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/40311212",
+      "summary": "正文把量子哈密顿量的本征子空间转化为向量丛，以数学不变量分析拓扑相之间的差异。"
+    },
+    {
+      "title": "浅议现代数学物理对数学的影响",
+      "url": "https://zhuanlan.zhihu.com/p/40231587",
+      "summary": "正文解释量子场论为何需要非交换代数、无穷维结构和新数学工具，实质讨论量子理论与数学的关系。"
+    },
+    {
+      "title": "\"观察算符A与B可对易则能找到共同本征矢\"及其反命题",
+      "url": "https://zhuanlan.zhihu.com/p/42670295",
+      "summary": "正文以厄米算符、对易关系、态空间和共同本征矢讨论量子力学中的可对易观察算符。"
+    },
+    {
+      "title": "MP38：泛函分析与量子力学",
+      "url": "https://zhuanlan.zhihu.com/p/46403590",
+      "summary": "正文以量子力学中最常用的复平方可积空间为例，说明希尔伯特空间在量子理论中的应用。"
+    },
+    {
+      "title": "拓扑量子场论公理体系的介绍",
+      "url": "https://zhuanlan.zhihu.com/p/50157762",
+      "summary": "正文从量子场论的配分函数与拓扑不变量出发，系统介绍拓扑量子场论及其与几何拓扑的联系。"
+    },
+    {
+      "title": "关于薛定谔方程中波函数的含时演化",
+      "url": "https://zhuanlan.zhihu.com/p/50745076",
+      "summary": "正文围绕无限深方势阱的本征态、波函数时间演化和哈密顿算符展开量子力学与数学的联系。"
+    },
+    {
+      "title": "非简并微扰论的一二级修正梳理",
+      "url": "https://zhuanlan.zhihu.com/p/51579444",
+      "summary": "正文系统推导非简并量子微扰论的一二阶能量和态修正，属于量子理论的数学方法。"
+    },
+    {
+      "title": "表象变换的幺正算符怎么定义的? 为何说算符与态可以看作矩阵?",
+      "url": "https://zhuanlan.zhihu.com/p/52196787",
+      "summary": "正文以量子力学的基矢和表象变换为主线，具体推导态矢量与算符在不同表象间的表示关系。"
+    },
+    {
+      "title": "量子力学杂谈——广义函数与场算符",
+      "url": "https://zhuanlan.zhihu.com/p/55000537",
+      "summary": "正文用广义函数严格解释量子场算符和概率密度场算符，连接了量子理论与数学。"
+    },
+    {
+      "title": "二维陈绝缘体(2D Chern Insulator)：Qi-Wu-Zhang（QWZ）模型",
+      "url": "https://zhuanlan.zhihu.com/p/55005395",
+      "summary": "正文用哈密顿量、动量空间能带和有限实空间谱讨论量子自旋霍尔模型的边缘态，属于量子理论与数学。"
+    },
+    {
+      "title": "时间反演对称（TRS）保护下拓扑绝缘体（二）：如何理解“破坏”&“保护”",
+      "url": "https://zhuanlan.zhihu.com/p/56402783",
+      "summary": "正文以时间反演对称和 Kramers 边缘态解释拓扑绝缘体边缘态的受保护完全透射。"
+    },
+    {
+      "title": "量子力学杂谈——自伴扩张",
+      "url": "https://zhuanlan.zhihu.com/p/57593772",
+      "summary": "正文用哈密顿算子的自伴扩张说明量子力学中的合法边界条件和能量下界问题。"
+    },
+    {
+      "title": "超对称场论中的特殊函数 (第4话)：4d SCFT 、chiral algebra 与 ϑ 函数",
+      "url": "https://zhuanlan.zhihu.com/p/59425136",
+      "summary": "正文以Jacobi theta函数、格林函数和手征代数构造四维超对称共形场论与二维理论之间的对应，具体展示量子场论中的数学结构。"
+    },
+    {
+      "title": "量子力学杂谈——Stone定理",
+      "url": "https://zhuanlan.zhihu.com/p/60336596",
+      "summary": "正文将单参数酉群、自伴生成元与量子力学守恒量联系起来。"
+    },
+    {
+      "title": "粒子物理笔记——狄拉克方程（一）",
+      "url": "https://zhuanlan.zhihu.com/p/61338641",
+      "summary": "正文推导狄拉克方程的矩阵条件、概率流、角动量与自旋，属于量子理论的数学展开。"
+    },
+    {
+      "title": "关于构造k.p模型有效哈密顿量的一点入门基础",
+      "url": "https://zhuanlan.zhihu.com/p/61383396",
+      "summary": "正文从单电子薛定谔方程出发，把 k·p 项视为微扰，构造晶体价带的有效哈密顿量。"
+    },
+    {
+      "title": "Jordan-Wigner 变换",
+      "url": "https://zhuanlan.zhihu.com/p/62194463",
+      "summary": "正文以横场伊辛模型的量子多体系统为例，展示自旋算符到费米子算符的数学变换与能谱求解。"
+    },
+    {
+      "title": "利用IBM Q量子计算机做金融衍生品定价",
+      "url": "https://zhuanlan.zhihu.com/p/62262085",
+      "summary": "正文讲解密度矩阵、酉算符、量子相位估计和量子模拟，并用于复现量子主成分分析。"
+    },
+    {
+      "title": "回看线性代数：从坐标变换到量子力学中的表象",
+      "url": "https://zhuanlan.zhihu.com/p/57474380",
+      "summary": "正文把哈密顿算符的特征值问题与薛定谔方程联系起来，讨论量子力学中的表象变换。"
+    },
+    {
+      "title": "关于计算Berry phase的一些细节",
+      "url": "https://zhuanlan.zhihu.com/p/67615482",
+      "summary": "正文围绕 Hermitian 与非 Hermitian 哈密顿量讨论 Berry 相位的量子理论与数值计算。"
+    },
+    {
+      "title": "用狄拉克符号得到布洛赫定理",
+      "url": "https://zhuanlan.zhihu.com/p/70082418",
+      "summary": "正文用平移算符的本征态、对易关系和周期性边界条件证明量子力学中的布洛赫定理，实质展开量子理论中的数学结构。"
+    },
+    {
+      "title": "Notes on 2d topological gravity (Dijkgraaf-Witten)",
+      "url": "https://zhuanlan.zhihu.com/p/74092220",
+      "summary": "正文讨论二维拓扑量子引力的模空间、配分函数、引力反常和矩阵模型，属于量子理论与数学的交叉内容。"
+    },
+    {
+      "title": "不确定性关系的简单证明",
+      "url": "https://zhuanlan.zhihu.com/p/76793971",
+      "summary": "正文以厄米算符、内积和交换子证明量子力学的不确定性关系。"
+    },
+    {
+      "title": "矢量算符的对易子中的乘积究竟是什么运算?",
+      "url": "https://zhuanlan.zhihu.com/p/77030597",
+      "summary": "正文以量子力学位置、动量算符的对易子为例，解释算符次序这一数学结构的含义。"
+    },
+    {
+      "title": "单量子比特的布洛赫球(Bloch Sphere)表示",
+      "url": "https://zhuanlan.zhihu.com/p/80455104",
+      "summary": "正文从量子态、密度算符讲到布洛赫球，具体讨论量子力学中单量子比特的数学表示。"
+    },
+    {
+      "title": "Qutip 学习记录",
+      "url": "https://zhuanlan.zhihu.com/p/82539614",
+      "summary": "正文以哈密顿量和薛定谔方程为主线讲解量子系统的数学描述与演化，对应量子理论与数学。"
+    },
+    {
+      "title": "正则变换与哈密顿-雅可比理论 / 作用量竟做出这种事⋯ 背后原因令人暖心",
+      "url": "https://zhuanlan.zhihu.com/p/85001265",
+      "summary": "正文把作用量与波函数相位联系起来，并通过半经典极限说明薛定谔方程与哈密顿-雅可比方程的对应。"
+    },
+    {
+      "title": "Entanglement of Free-Fermion Systems",
+      "url": "https://zhuanlan.zhihu.com/p/82650010",
+      "summary": "正文从自由费米子紧束缚模型的密度算符和关联函数出发，讨论量子多体态的纠缠与拓扑性质。"
+    },
+    {
+      "title": "场论中的对称性与守恒律",
+      "url": "https://zhuanlan.zhihu.com/p/88636413",
+      "summary": "正文从场和坐标的无穷小变换、作用量不变性及欧拉-拉格朗日方程出发，完整证明诺特定理并导出能量、动量和角动量守恒。"
+    },
+    {
+      "title": "洛伦兹群的旋量表示",
+      "url": "https://zhuanlan.zhihu.com/p/89876878",
+      "summary": "正文从洛伦兹群表示构造旋量场和 Dirac 场拉氏量，体现量子场论中的数学表示。"
+    },
+    {
+      "title": "量子隐形传态(Quantum teleportation)",
+      "url": "https://zhuanlan.zhihu.com/p/91069177",
+      "summary": "正文完整展开 Bell 态、三粒子张量积、Bell 基测量和 Pauli 纠正推导，说明量子隐形传态这一量子信息过程。"
+    },
+    {
+      "title": "布洛赫球 (Bloch Sphere)",
+      "url": "https://zhuanlan.zhihu.com/p/90976246",
+      "summary": "正文用二维复向量、密度算符与泡利矩阵描述 qubit，并推导纯态和混合态的布洛赫球表示。"
+    },
+    {
+      "title": "量子逻辑门与任意幺正操作的表示",
+      "url": "https://zhuanlan.zhihu.com/p/91102999",
+      "summary": "正文以 qubit 的幺正演化为主线，给出逻辑门、旋转矩阵和任意态移动的门组合实现。"
+    },
+    {
+      "title": "量子平衡统计理论 I",
+      "url": "https://zhuanlan.zhihu.com/p/88528870",
+      "summary": "正文用密度算符、对易关系、求迹和哈密顿量推导量子平衡系综的数学结构。"
+    },
+    {
+      "title": "Haldane Model: From QSHE to QAHE",
+      "url": "https://zhuanlan.zhihu.com/p/95671849",
+      "summary": "正文以泡利矩阵哈密顿量、能带、陈数和边界态系统推导 Haldane 量子模型及其拓扑相变。"
+    },
+    {
+      "title": "无序金属系统中的有效场论",
+      "url": "https://zhuanlan.zhihu.com/p/99929122",
+      "summary": "正文用复制场、辅助场、鞍点近似和非线性σ模型推导无序金属的有效场论。"
+    },
+    {
+      "title": "φ^4理论的一圈图及其重整化",
+      "url": "https://zhuanlan.zhihu.com/p/98890279",
+      "summary": "正文完整展开 φ^4 量子场论的微扰计算，使用 Wick 收缩、费曼传播子和重整化处理多点函数。"
+    },
+    {
+      "title": "二维零场 Ising model 严格解",
+      "url": "https://zhuanlan.zhihu.com/p/101888542",
+      "summary": "正文把转移矩阵对应到一维量子自旋链的虚时演化，并引入泡利矩阵、Majorana 费米子及其算符关系完成求解。"
+    },
+    {
+      "title": "转移矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/102946317",
+      "summary": "正文把经典统计配分函数改写为由泡利矩阵构成的量子哈密顿量，建立经典有限温系统与量子模型之间的对应。"
+    },
+    {
+      "title": "超对称场论中的特殊函数 (第5话上)：胖次分解、特征标与SCFT",
+      "url": "https://zhuanlan.zhihu.com/p/103249044",
+      "summary": "正文以二维 Yang-Mills 理论构造配分函数，并说明其与拓扑场论及其他物理理论的对偶关系。"
+    },
+    {
+      "title": "为什么狄拉克方程中的矩阵是四维的？",
+      "url": "https://zhuanlan.zhihu.com/p/103613226",
+      "summary": "正文在狄拉克方程与克莱因-高登方程之间进行数学推导，并解释量子自旋表示决定矩阵维数。"
+    },
+    {
+      "title": "Wilson loop及其小圈展开",
+      "url": "https://zhuanlan.zhihu.com/p/113447896",
+      "summary": "正文用规范群生成元、路径有序指数和规范场张量定义并展开 Wilson loop，属于量子场论中的数学推导。"
+    },
+    {
+      "title": "Chern-Simons, WZW 模型 和 Jones 多项式 (1)",
+      "url": "https://zhuanlan.zhihu.com/p/114819569",
+      "summary": "正文用 Chern-Simons 作用量、规范变换、路径积分量子化和共形块解释量子场论与数学的联系。"
+    },
+    {
+      "title": "全息纠缠熵公式的推导",
+      "url": "https://zhuanlan.zhihu.com/p/114834703",
+      "summary": "正文系统推导量子场论全息纠缠熵与引力侧几何量之间的对应公式，属于量子理论中的数学推导。"
+    },
+    {
+      "title": "厄米算符与Dirac符号",
+      "url": "https://zhuanlan.zhihu.com/p/116848951",
+      "summary": "正文把 Dirac 符号、厄米算符和量子力学测量置于同一套线性代数框架中讲解。"
+    },
+    {
+      "title": "Chern-Simons, WZW 模型 和 Jones 多项式 (2)",
+      "url": "https://zhuanlan.zhihu.com/p/118438333",
+      "summary": "全文实质讨论 Chern-Simons 路径积分、WZW 模型及其数学不变量，属于量子理论与数学的交叉。"
+    },
+    {
+      "title": "Wigner分布的物理含义",
+      "url": "https://zhuanlan.zhihu.com/p/116022708",
+      "summary": "全文从量子化、相空间算符和准概率分布角度解释 Wigner 分布，属于量子理论与数学。"
+    },
+    {
+      "title": "表象理论",
+      "url": "https://zhuanlan.zhihu.com/p/132501137",
+      "summary": "正文从量子力学态矢量和算符出发，用共同本征基矢建立K表象并推广到连续本征值。"
+    },
+    {
+      "title": "FP鬼场和BRST对称性",
+      "url": "https://zhuanlan.zhihu.com/p/132096572",
+      "summary": "正文系统推导规范场的 FP 鬼场、BRST 变换、传播子及其量子场论作用量。"
+    },
+    {
+      "title": "从球坐标出发，推导角动量平方算符表达式",
+      "url": "https://zhuanlan.zhihu.com/p/136022582",
+      "summary": "正文在量子力学中定义角动量算符并完整推导其平方的球坐标表达式。"
+    },
+    {
+      "title": "布洛克球面(Bloch Sphere)的引入",
+      "url": "https://zhuanlan.zhihu.com/p/137612054",
+      "summary": "正文以 Bloch 球和泡利矩阵建立量子态与三维几何的对应。"
+    },
+    {
+      "title": "偏微分方程：一门揭示宇宙奥秘、改变世界面貌的科学",
+      "url": "https://zhuanlan.zhihu.com/p/149022967",
+      "summary": "正文以氢原子光谱为例说明薛定谔方程如何用偏微分方程连接量子理论与数学。"
+    },
+    {
+      "title": "Intro to Quantum Mechanics Griffiths（13）一维有限深方势阱",
+      "url": "https://zhuanlan.zhihu.com/p/148826956",
+      "summary": "正文对一维有限深方势阱应用薛定谔方程和边界条件，把允许能量化为超越方程并比较束缚态与散射态。"
+    },
+    {
+      "title": "WKB近似和一个一维势阱例子",
+      "url": "https://zhuanlan.zhihu.com/p/157246148",
+      "summary": "正文围绕一维定态薛定谔方程展开WKB近似、转折点连接和势阱能级量子化。"
+    },
+    {
+      "title": "随机量子化：(4) 从量化金融（Ornstein-Uhlenbeck）到量子场论（关联函数）",
+      "url": "https://zhuanlan.zhihu.com/p/159691255",
+      "summary": "正文用随机量子化计算量子场论的两点关联函数，并说明其与路径积分结果经Wick旋转后一致。"
+    },
+    {
+      "title": "7 拓扑量子场论 7.1 解读Atiyah公理",
+      "url": "https://zhuanlan.zhihu.com/p/161387163",
+      "summary": "正文介绍拓扑量子场论，并解释其关联函数在时空度规形变下不变以及对应流形的不变量。"
+    },
+    {
+      "title": "重整化群的地标",
+      "url": "https://zhuanlan.zhihu.com/p/162696781",
+      "summary": "正文讨论重整化群流、共形场论中心荷以及二维至四维的 c、F、a 函数单调性，属于量子场论中的数学结构。"
+    },
+    {
+      "title": "厄米算符、幺正算符与量子Noether定理",
+      "url": "https://zhuanlan.zhihu.com/p/164840236",
+      "summary": "正文用自共轭算子、酉变换和生成元等数学语言解释量子力学中的可观测量的运算结构。"
+    },
+    {
+      "title": "量子力学杂谈——格林函数",
+      "url": "https://zhuanlan.zhihu.com/p/165202026",
+      "summary": "正文用热核和Trotter乘积公式解释薛定谔方程路径积分及其数学严格化问题。"
+    },
+    {
+      "title": "经典拓扑激发——场论",
+      "url": "https://zhuanlan.zhihu.com/p/165589478",
+      "summary": "正文把同伦分类、拓扑电荷和守恒流应用到经典场论中的拓扑激发问题。"
+    },
+    {
+      "title": "浅谈Berry相位（一）——基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/166282369",
+      "summary": "正文把 Berry 相位、联络和曲率用于晶格能带理论中的 Bloch 函数与量子态演化。"
+    },
+    {
+      "title": "[数学物理]-δ函数",
+      "url": "https://zhuanlan.zhihu.com/p/166150375",
+      "summary": "正文用 δ 函数构造坐标和动量算符的连续谱本征函数、完备性关系及量子力学量的矩阵表示。"
+    },
+    {
+      "title": "量子场论前传--Dirac方程",
+      "url": "https://zhuanlan.zhihu.com/p/179057883",
+      "summary": "正文从相对论能量关系推导Dirac方程，并分析矩阵代数、共轭和正负能旋量解。"
+    },
+    {
+      "title": "[CFT] Kindergarten Entanglement Entropy",
+      "url": "https://zhuanlan.zhihu.com/p/182512728",
+      "summary": "正文用密度矩阵、偏迹和复本技巧计算量子纠缠熵，并以共形场论推导面积定律。"
+    },
+    {
+      "title": "经典自旋 XY 模型",
+      "url": "https://zhuanlan.zhihu.com/p/245706043",
+      "summary": "正文从Bose-Einstein凝聚的作用量出发，通过相位涨落、高斯积分和对偶变换推导XY模型与KT相变。"
+    },
+    {
+      "title": "量子态和密度矩阵，迹和偏迹的数学表示",
+      "url": "https://zhuanlan.zhihu.com/p/259306506",
+      "summary": "正文系统给出量子态、复合系统与纠缠的数学表示，说明线性代数结构如何描述量子理论。"
+    },
+    {
+      "title": "深度科普|从线性代数到量子力学(12)：表象变换",
+      "url": "https://zhuanlan.zhihu.com/p/186290568",
+      "summary": "正文把线性代数的基底变换用于量子态的位置与动量表象，讨论不确定性原理的数学来源。"
+    },
+    {
+      "title": "深度科普|从线性代数到量子力学(13): 不确定性关系的证明",
+      "url": "https://zhuanlan.zhihu.com/p/262294180",
+      "summary": "正文以态矢量、算符表象和傅里叶分析推导量子力学的位置动量不确定性关系。"
+    },
+    {
+      "title": "相空间中的量子力学",
+      "url": "https://zhuanlan.zhihu.com/p/265372164",
+      "summary": "正文系统讲解量子力学的 Wigner-Weyl 相空间表示、量子化、对易关系和半经典极限。"
+    },
+    {
+      "title": "Lieb-Robinson Bound",
+      "url": "https://zhuanlan.zhihu.com/p/266233990",
+      "summary": "正文围绕量子多体系统的局域哈密顿量证明信息传播上界及其基态关联衰减推论。"
+    },
+    {
+      "title": "量子力学的数学基础(2)",
+      "url": "https://zhuanlan.zhihu.com/p/266489606",
+      "summary": "正文用对易子、反对易子和相容可观测量描述量子算符，并结合态矢量与共同本征基推导测量性质。"
+    },
+    {
+      "title": "输运问题总结与练习（一）：二端体系",
+      "url": "https://zhuanlan.zhihu.com/p/269595149",
+      "summary": "正文围绕量子输运体系构造左右导线与中心区的哈密顿量，并用格林函数方法计算透射率和电导。"
+    },
+    {
+      "title": "超对称场论（一）",
+      "url": "https://zhuanlan.zhihu.com/p/287998371",
+      "summary": "正文构造超对称量子场论中的 Wess-Zumino 模型，并展开其作用量与守恒流。"
+    },
+    {
+      "title": "薛定谔方程与NS方程的联系",
+      "url": "https://zhuanlan.zhihu.com/p/293151367",
+      "summary": "正文以数学变换说明量子波函数变量与流体密度、速度势及压力项之间的对应关系。"
+    },
+    {
+      "title": "傅里叶思想漫谈：从希尔伯特空间到不确定性原理",
+      "url": "https://zhuanlan.zhihu.com/p/338428121",
+      "summary": "正文用傅里叶变换和算子对易关系解释量子不确定性原理的数学来源。"
+    },
+    {
+      "title": "费米黄金规则 Fermi's Golden Rule",
+      "url": "https://zhuanlan.zhihu.com/p/339809311",
+      "summary": "正文从含时薛定谔方程和微扰哈密顿量出发，推导量子跃迁概率与费米黄金规则。"
+    },
+    {
+      "title": "超对称世界里的小猪会梦见Morse理论吗？",
+      "url": "https://zhuanlan.zhihu.com/p/343088848",
+      "summary": "正文构造超对称量子力学模型，以超荷、Hamiltonian、Hilbert 空间和 Witten 指标分析基态。"
+    },
+    {
+      "title": "MATLAB | 一维薛定谔方程的数值解及势场中波包的演化",
+      "url": "https://zhuanlan.zhihu.com/p/343847938",
+      "summary": "正文从含时薛定谔方程出发计算量子波包，并由波函数模方得到概率密度及其随势场的演化。"
+    },
+    {
+      "title": "对升降算符的一些理解",
+      "url": "https://zhuanlan.zhihu.com/p/347519537",
+      "summary": "正文围绕量子力学中的升降算符，具体推导角动量分量与本征值以及一维谐振子能谱。"
+    },
+    {
+      "title": "陈省身高徒在美去世，师徒联手创立美国国家数学科学研究所，是他大范围“统一”数学和理论物理",
+      "url": "https://zhuanlan.zhihu.com/p/350616260",
+      "summary": "正文说明指数定理和纤维丛如何与规范场、量子物理中的狄拉克算子建立联系。"
+    },
+    {
+      "title": "狄拉克符号的运算规则",
+      "url": "https://zhuanlan.zhihu.com/p/356874717",
+      "summary": "正文以狄拉克符号、厄米算符和可观测量为主线讲解量子力学背后的数学结构。"
+    },
+    {
+      "title": "什么是几何量子化？",
+      "url": "https://zhuanlan.zhihu.com/p/362774447",
+      "summary": "正文系统讲解几何量子化中的预量子化、极化和自旋量子化，以及经典括号到量子对易子的过渡。"
+    },
+    {
+      "title": "路径积分的概率论直观",
+      "url": "https://zhuanlan.zhihu.com/p/372079693",
+      "summary": "正文用复数概率幅叠加阐明费曼路径积分的直观来源，并说明作用量与经典路径之间的关系。"
+    },
+    {
+      "title": "Lindblad 方程的三次量子化",
+      "url": "https://zhuanlan.zhihu.com/p/374837168",
+      "summary": "正文对费米子 Lindblad 方程作三次量子化，在算符 Fock 空间讨论开放量子系统的谱与演化。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / マボロシの旋量空间与哈人的 Clifford 代数",
+      "url": "https://zhuanlan.zhihu.com/p/373020066",
+      "summary": "正文以自旋系统的希尔伯特空间和转两圈复原现象说明旋量表示与量子理论的联系。"
+    },
+    {
+      "title": "从Atiyah-Singer指标定理到Clifford代数",
+      "url": "https://zhuanlan.zhihu.com/p/375469673",
+      "summary": "正文把指标定理、旋量丛、Clifford 代数与基本粒子的自旋表示联系起来。"
+    },
+    {
+      "title": "国科大QFT笔记(11): 诺特定理",
+      "url": "https://zhuanlan.zhihu.com/p/376271946",
+      "summary": "正文在经典场论框架中完整推导诺特定理、守恒流和守恒荷，并解释其在量子场论中的基础作用。"
+    },
+    {
+      "title": "什么是随机矩阵？",
+      "url": "https://zhuanlan.zhihu.com/p/378331453",
+      "summary": "正文用重核能谱、量子混沌和量子色动力学说明随机矩阵与量子理论之间的深刻联系。"
+    },
+    {
+      "title": "量子傅里叶变换 & 量子相位估计算法 简介",
+      "url": "https://zhuanlan.zhihu.com/p/380738264",
+      "summary": "正文系统介绍量子相位估计算法，包括受控幺正操作、逆量子傅里叶变换和误差条件。"
+    },
+    {
+      "title": "Jordan-Wigner 变换 速查页",
+      "url": "https://zhuanlan.zhihu.com/p/386386413",
+      "summary": "正文详细给出 Jordan-Wigner 变换的算符映射、矩阵表示和反对易关系，并说明其在费米子多体哈密顿量与量子计算中的用途。"
+    },
+    {
+      "title": "MATLAB | 定态薛定谔方程的数值解——以一维谐振子为例",
+      "url": "https://zhuanlan.zhihu.com/p/393374195",
+      "summary": "正文把量子谐振子的定态方程转化为矩阵本征问题并进行数值求解。"
+    },
+    {
+      "title": "两点关联函数里的其中一个时空点为啥是零? / Källén–Lehmann 谱表示与色散关系",
+      "url": "https://zhuanlan.zhihu.com/p/396673735",
+      "summary": "正文从量子场论的两点关联函数出发，利用完备性、谱密度和传播子推导 Källén–Lehmann 谱表示。"
+    },
+    {
+      "title": "从零开始构造 矩阵乘积态（Matrix product state, MPS）",
+      "url": "https://zhuanlan.zhihu.com/p/398424885",
+      "summary": "正文从虚拟纠缠对和投影构造量子态，推导矩阵乘积态表示及其纠缠熵面积律。"
+    },
+    {
+      "title": "格林函数、谱函数和态密度",
+      "url": "https://zhuanlan.zhihu.com/p/397762078",
+      "summary": "正文在量子力学中引入格林函数、谱函数和态密度，说明它们与哈密顿量本征态的关系。"
+    },
+    {
+      "title": "AKLT 态 及 AKLT 模型 简介",
+      "url": "https://zhuanlan.zhihu.com/p/396746729",
+      "summary": "正文构造量子多体 AKLT 态，并以其零空间投影算符构造具有能隙的父哈密顿量。"
+    },
+    {
+      "title": "算符乘积展开与使用 QCD 真空凝聚量表达的非微扰夸克传播子",
+      "url": "https://zhuanlan.zhihu.com/p/399377495",
+      "summary": "正文展开量子场论中的算符乘积、Gamma 矩阵代数与真空凝聚计算，讨论量子理论中的数学方法。"
+    },
+    {
+      "title": "二维 Jordan-Wigner 变换、统计规范场 与 分数统计 简介",
+      "url": "https://zhuanlan.zhihu.com/p/399541363",
+      "summary": "文章推导量子多体算符的换位关系、统计相位和规范场，属于量子理论中的数学变换。"
+    },
+    {
+      "title": "狄拉克伽马矩阵 (Dirac gamma matrices)",
+      "url": "https://zhuanlan.zhihu.com/p/399908095",
+      "summary": "正文围绕量子场论中的旋量、Dirac共轭和求迹公式展开gamma矩阵运算。"
+    },
+    {
+      "title": "多尺度纠缠重整化（MERA）算法 简介",
+      "url": "https://zhuanlan.zhihu.com/p/400245249",
+      "summary": "正文以量子多体态、纠缠熵和张量网络构造介绍 MERA，并讨论其与共形场论和全息几何的联系。"
+    },
+    {
+      "title": "稳定算符的量子力学: 4.特别篇:拓扑纠缠熵",
+      "url": "https://zhuanlan.zhihu.com/p/393822376",
+      "summary": "正文用 toric code 的稳定算符、基态简并和任意子激发讨论量子模型中的数学结构。"
+    },
+    {
+      "title": "Clifford 量子线路 及 Gottesman-Knill 定理 简介",
+      "url": "https://zhuanlan.zhihu.com/p/407097969",
+      "summary": "正文系统讲解 Clifford 量子线路、stabilizer 形式及 Gottesman-Knill 定理。"
+    },
+    {
+      "title": "传播子中那俩必须被刻在 DNA 上的恒等式",
+      "url": "https://zhuanlan.zhihu.com/p/409397025",
+      "summary": "正文推导量子场论中费曼传播子所依赖的两个恒等式，并解释其时序乘积和虚部含义。"
+    },
+    {
+      "title": "纠缠并发度与形成纠缠度",
+      "url": "https://zhuanlan.zhihu.com/p/411829089",
+      "summary": "正文用密度矩阵、本征值和熵定义量子纠缠判据及两种纠缠度量，属于量子理论中的数学方法。"
+    },
+    {
+      "title": "SSH模型：2.1 利用留数定理计算Zak相位",
+      "url": "https://zhuanlan.zhihu.com/p/412351674",
+      "summary": "正文以 SSH 模型的布洛赫哈密顿量、本征态和 Berry/Zak 相位讨论量子体系的拓扑性质。"
+    },
+    {
+      "title": "编时乘积与时间演化算符",
+      "url": "https://zhuanlan.zhihu.com/p/414506372",
+      "summary": "正文围绕哈密顿量、波函数、时间演化算符和幺正性展开量子理论的数学推导。"
+    },
+    {
+      "title": "大四(Part C)第一学期数学/物理学习计划，申请季信息汇总",
+      "url": "https://zhuanlan.zhihu.com/p/416228189",
+      "summary": "正文具体讨论量子化如何把相空间函数对应到希尔伯特空间上的自伴算子，并介绍预量子化与形变量子化。"
+    },
+    {
+      "title": "萌新向——如何用升降算符优雅地得到球谐函数",
+      "url": "https://zhuanlan.zhihu.com/p/419492575",
+      "summary": "正文在量子力学角动量框架中引入球谐函数，推导角动量算符、量子数及球谐函数的归一化表达式。"
+    },
+    {
+      "title": "三种方法计算一维谐振子的传播子与路径积分",
+      "url": "https://zhuanlan.zhihu.com/p/421524380",
+      "summary": "正文从时间演化算符和路径积分出发，完整推导一维谐振子的传播子，属于量子理论中的数学方法专题。"
+    },
+    {
+      "title": "从解析性得到两点关联函数的色散关系 / 施瓦兹反射原理 (Schwarz reflection principal)",
+      "url": "https://zhuanlan.zhihu.com/p/422978333",
+      "summary": "正文用复解析性、Schwarz 反射原理和留数围道推导量子场论两点关联函数的色散关系。"
+    },
+    {
+      "title": "Time reversal symmetry | 时间反演对称性",
+      "url": "https://zhuanlan.zhihu.com/p/424149489",
+      "summary": "正文从时间反演算符出发推导反线性变换、算符变换关系与 Kramers 简并定理，属于量子理论中的数学结构。"
+    },
+    {
+      "title": "数学的艺术 —— 变分法",
+      "url": "https://zhuanlan.zhihu.com/p/430355170",
+      "summary": "正文从作用量、广义动量和能量出发推导定态及含时薛定谔方程，并讨论哈密顿算符。"
+    },
+    {
+      "title": "从厄米方程到厄米多项式",
+      "url": "https://zhuanlan.zhihu.com/p/436428054",
+      "summary": "正文把厄米多项式用于一维量子谐振子，并由归一化条件推出相应波函数。"
+    },
+    {
+      "title": "量子光学自学笔记1：Froehlich-Nakajima 变换",
+      "url": "https://zhuanlan.zhihu.com/p/436474724",
+      "summary": "正文以量子光学哈密顿量为对象，推导中岛变换下的一阶和二阶耦合项及等效哈密顿量。"
+    },
+    {
+      "title": "坐标算符和动量算符在各自表象中的表示",
+      "url": "https://zhuanlan.zhihu.com/p/436867019",
+      "summary": "正文以量子力学坐标表象和动量表象为对象，推导两种表象间的算符表示。"
+    },
+    {
+      "title": "场论家用代数（第八话）：群论、非局域算符跟 θ 项有什么关系？",
+      "url": "https://zhuanlan.zhihu.com/p/443874179",
+      "summary": "正文把规范场论、线算符和 theta 项作为量子场论载体，系统讨论其中的群论与拓扑数学结构。"
+    },
+    {
+      "title": "Parton 张量网络态 和 MPO-MPS 方法 简介",
+      "url": "https://zhuanlan.zhihu.com/p/442656821",
+      "summary": "正文把量子多体态构造为投影费米海和 BCS 态，并推导其矩阵乘积算符与矩阵乘积态表示。"
+    },
+    {
+      "title": "谈谈 Weyl 量子化",
+      "url": "https://zhuanlan.zhihu.com/p/460165926",
+      "summary": "正文系统介绍 Weyl 量子化、Wigner-Weyl 变换和量子相空间表示。"
+    },
+    {
+      "title": "Solving Schrödinger Equation using Variational Method",
+      "url": "https://zhuanlan.zhihu.com/p/462246242",
+      "summary": "正文以无限深势阱的 Schrödinger 方程为实例，用选定基函数和变分法求近似本征值与本征函数。"
+    },
+    {
+      "title": "Hartree-Fock电子结构计算专用二次量子化方法",
+      "url": "https://zhuanlan.zhihu.com/p/463084075",
+      "summary": "正文从费米子产生和湮灭算符、Slater 行列式出发，推导单体与两体算符及量子哈密顿量。"
+    },
+    {
+      "title": "从代数扩张看狄拉克方程",
+      "url": "https://zhuanlan.zhihu.com/p/445702556",
+      "summary": "正文从矩阵代数扩张推导相对论量子力学的狄拉克方程及伽马矩阵结构。"
+    },
+    {
+      "title": "共形场论（conformal field theory）笔记",
+      "url": "https://zhuanlan.zhihu.com/p/473536902",
+      "summary": "正文以算子积展开和 Virasoro 代数系统讨论二维共形场论，属于量子场论中的数学结构。"
+    },
+    {
+      "title": "从线性代数到量子力学(21)：氢原子薛定谔方程求解过程赏析(下)",
+      "url": "https://zhuanlan.zhihu.com/p/456815029",
+      "summary": "正文完整展示了量子力学氢原子模型中微分方程、本征值和概率解释的数学推导。"
+    },
+    {
+      "title": "量子物理-索末菲椭圆轨道模型推导",
+      "url": "https://zhuanlan.zhihu.com/p/482230330",
+      "summary": "正文把玻尔量子化条件推广到径向量子数和角量子数，并用于索末菲氢原子轨道推导。"
+    },
+    {
+      "title": "MATLAB定态氢原子波函数可视化",
+      "url": "https://zhuanlan.zhihu.com/p/495429430",
+      "summary": "正文给出定态氢原子波函数及其径向、球谐分解，并据此实现电子轨道的数值可视化。"
+    },
+    {
+      "title": "Ising模型和全息对偶",
+      "url": "https://zhuanlan.zhihu.com/p/498420427",
+      "summary": "正文从 AdS3 渐近对称荷的 Dirac 括号出发，说明量子化后得到 Virasoro 代数并据此计算配分函数。"
+    },
+    {
+      "title": "赢场的神兔二象性",
+      "url": "https://zhuanlan.zhihu.com/p/499769990",
+      "summary": "正文把标量场做傅里叶分解为谐振子，并通过产生湮灭算符、对易关系和正则量子化讨论量子场。"
+    },
+    {
+      "title": "Krylov复杂度和量子混沌",
+      "url": "https://zhuanlan.zhihu.com/p/506124772",
+      "summary": "正文在算符 Hilbert 空间中构造 Krylov 基与 Lanczos 系数，用算符演化和量子混沌刻画 Krylov 复杂度。"
+    },
+    {
+      "title": "蝴蝶效应和信息扩散：",
+      "url": "https://zhuanlan.zhihu.com/p/506723723",
+      "summary": "正文用算符对易子、OTOC、二阶 Rényi 熵和三方互信息推导量子蝴蝶效应与信息扩散的定量联系。"
+    },
+    {
+      "title": "【量子力学+】C*-代数与态公设",
+      "url": "https://zhuanlan.zhihu.com/p/503883263",
+      "summary": "正文以代数态和算符对易关系刻画量子结构，并证明 Heisenberg 不确定性原理。"
+    },
+    {
+      "title": "一维横场Ising模型-1D Transverse Field Ising Model",
+      "url": "https://zhuanlan.zhihu.com/p/510995277",
+      "summary": "正文把一维横场Ising量子自旋链映射为费米子体系并精确求解能谱。"
+    },
+    {
+      "title": "从线性代数到量子力学(22)：氢原子模型的球对称性",
+      "url": "https://zhuanlan.zhihu.com/p/448734759",
+      "summary": "正文讨论欧氏空间、函数空间与量子态空间中的变换算符，展示线性代数与量子理论的联系。"
+    },
+    {
+      "title": "量子力学中实用的表象变换推导技巧",
+      "url": "https://zhuanlan.zhihu.com/p/526800581",
+      "summary": "正文把表象变换方法用于量子力学中的产生和湮灭算符，并推导其幺正变换关系。"
+    },
+    {
+      "title": "重整化 PT. 1 - 女孩子必须要明白的一些关于重整化的道理",
+      "url": "https://zhuanlan.zhihu.com/p/524922325",
+      "summary": "正文解释量子场论中正规化、重整化方案、截断与发散消除的数学物理框架。"
+    },
+    {
+      "title": "共形变换对称性——共形场论（CFT）基础",
+      "url": "https://zhuanlan.zhihu.com/p/556290082",
+      "summary": "正文系统讨论共形变换、量子场论中的共形对称性及两点关联函数的约束，属于量子理论与数学的交叉内容。"
+    },
+    {
+      "title": "Python解薛定谔方程（一维谐振子为例）",
+      "url": "https://zhuanlan.zhihu.com/p/578421135",
+      "summary": "正文以波函数、哈密顿算符、束缚态和无穷深势阱建立量子系统的数学描述。"
+    },
+    {
+      "title": "Michael Atiyah：二十世纪的数学发展回顾",
+      "url": "https://zhuanlan.zhihu.com/p/585865078",
+      "summary": "正文用一整节讨论量子场论对几何、拓扑、表示论和纽结不变量等数学分支的影响。"
+    },
+    {
+      "title": "不寻常的束缚态",
+      "url": "https://zhuanlan.zhihu.com/p/591727828",
+      "summary": "正文构造分段势阱与波函数反例，讨论能量条件、连续可微性和平方可积性对量子束缚态判据的影响。"
+    },
+    {
+      "title": "P, C 变换与旋量场及流算符的 P, C 宇称量子数",
+      "url": "https://zhuanlan.zhihu.com/p/591789284",
+      "summary": "正文在量子场论框架中定义宇称与电荷共轭变换，推导旋量场和流算符的变换规律及其量子数。"
+    },
+    {
+      "title": "张量算符、Wigner-Eckart定理及量子算符投影定理",
+      "url": "https://zhuanlan.zhihu.com/p/594118050",
+      "summary": "正文证明量子张量算符矩阵元可分解为 Clebsch-Gordan 系数与约化矩阵元之积。"
+    },
+    {
+      "title": "从线性代数到量子力学(27)：狄拉克方程(上)",
+      "url": "https://zhuanlan.zhihu.com/p/551272876",
+      "summary": "正文以矩阵和旋量构造狄拉克方程，并解释概率密度、协变性与量子态。"
+    },
+    {
+      "title": "量子力学笔记（十九）：幺正变换",
+      "url": "https://zhuanlan.zhihu.com/p/600733618",
+      "summary": "正文讨论量子态在不同力学量表象中的表示，以及表象之间的幺正变换。"
+    },
+    {
+      "title": "量子几何与Wannier函数局域化",
+      "url": "https://zhuanlan.zhihu.com/p/629079639",
+      "summary": "正文推导 Bloch 规范变换、Wannier spread functional 与量子几何张量的关系，属于量子理论中的数学表述。"
+    },
+    {
+      "title": "现代量子力学习题解答，Solutions to \"Modern Quantum Mechanics, Second Edition, J.J. Sakurai\" 第一章（自制）",
+      "url": "https://zhuanlan.zhihu.com/p/640847835",
+      "summary": "正文围绕量子力学中的自旋算符、测量概率和不确定性关系做题解，具体讨论量子态与算符的数学表示。"
+    },
+    {
+      "title": "“万恶”的数学符号，自学量子力学的梦魇，深入理解Bra-Ket符号",
+      "url": "https://zhuanlan.zhihu.com/p/641051692",
+      "summary": "正文以量子力学波函数和态向量为例，系统解释 Dirac 符号及其运算。"
+    },
+    {
+      "title": "非厄米理论基础&PT对称的非厄米矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/641103689",
+      "summary": "正文围绕 PT 对称非厄米量子系统，讨论宇称-时间对称、对称破缺及赝厄米性。"
+    },
+    {
+      "title": "笔记：数值计算陈数与Z2拓扑不变量方法",
+      "url": "https://zhuanlan.zhihu.com/p/641807526",
+      "summary": "正文从能带本征态定义 Berry connection、Berry curvature、陈数和 Z2 不变量，讨论其量子物理含义。"
+    },
+    {
+      "title": "顺滑地进入群论 (Ep.3) ——李群与李代数",
+      "url": "https://zhuanlan.zhihu.com/p/642654469",
+      "summary": "正文解释生成子的厄米化、角动量对易关系和泡利矩阵，展示李代数与量子力学算符的联系。"
+    },
+    {
+      "title": "一维中的拓扑相",
+      "url": "https://zhuanlan.zhihu.com/p/652428694",
+      "summary": "正文以 SSH 模型的本征态、贝里相和端点零模讨论量子体系中的拓扑相。"
+    },
+    {
+      "title": "方阵的偏迹（Partial Trace）",
+      "url": "https://zhuanlan.zhihu.com/p/653816083",
+      "summary": "正文将偏迹用于分解量子态密度矩阵，展示量子信息中的数学应用。"
+    },
+    {
+      "title": "拓扑凝聚态Chapter2.贝里相位(Berry Phase), 陈数(Chern Number)",
+      "url": "https://zhuanlan.zhihu.com/p/654304837",
+      "summary": "正文把陈数的不变性联系到量子系统能带、能隙和哈密顿量绝热变化。"
+    },
+    {
+      "title": "贝里联络，贝里相位和贝里曲率的几何解释",
+      "url": "https://zhuanlan.zhihu.com/p/661697145",
+      "summary": "正文以哈密顿量的低能本征态构造子丛，并用联络、曲率与陈数解释量子带结构中的几何和拓扑。"
+    },
+    {
+      "title": "氢原子求解",
+      "url": "https://zhuanlan.zhihu.com/p/668546494",
+      "summary": "正文完整推导氢原子量子束缚态的能级与归一化波函数。"
+    },
+    {
+      "title": "“万恶”的数学符号，自学量子力学的梦魇，深入理解Bra-Ket符号",
+      "url": "https://zhuanlan.zhihu.com/p/674700922",
+      "summary": "正文围绕量子态、希尔伯特空间和 Dirac 符号，说明量子理论所需的线性代数语言。"
+    },
+    {
+      "title": "量子力学中厄米共轭和厄米算符的性质",
+      "url": "https://zhuanlan.zhihu.com/p/680272134",
+      "summary": "正文以线性代数解释量子力学中的厄米共轭、本征值和正交性，属于量子理论中的数学结构。"
+    },
+    {
+      "title": "使用Mathematica学习量子力学(1/3): 理论推导",
+      "url": "https://zhuanlan.zhihu.com/p/689561457",
+      "summary": "正文用符号计算具体求解方势阱、谐振子本征态和非简并微扰，展示了量子理论中的数学计算。"
+    },
+    {
+      "title": "零基础入门物理中的泛函技术与泛函场论",
+      "url": "https://zhuanlan.zhihu.com/p/707425594",
+      "summary": "正文用量子场的算符、希尔伯特空间和路径积分说明量子理论与数学结构的联系。"
+    },
+    {
+      "title": "关于von Neumann无界算子工作的历史评注（上）",
+      "url": "https://zhuanlan.zhihu.com/p/708665587",
+      "summary": "正文讨论量子力学可观测量如何表示为 Hilbert 空间中的无界自伴算子及 Stieltjes 积分。"
+    },
+    {
+      "title": "使用Mathematica学习量子力学(3/3): 主方程",
+      "url": "https://zhuanlan.zhihu.com/p/690876150",
+      "summary": "正文从开放量子系统、约化密度矩阵与主方程讲解量子理论中的数学建模。"
+    },
+    {
+      "title": "DMRG 的原理",
+      "url": "https://zhuanlan.zhihu.com/p/1920278979",
+      "summary": "正文以海森堡自旋链为例说明量子多体系统的希尔伯特空间指数增长，并围绕其低能态做截断计算。"
+    },
+    {
+      "title": "2d CFT的纠缠熵计算",
+      "url": "https://zhuanlan.zhihu.com/p/18104829960",
+      "summary": "正文具体计算二维共形场论的 Renyi 熵与纠缠熵，并讨论其全息对偶和量子场论含义。"
+    },
+    {
+      "title": "群上同调和对称性保护拓扑序(SPT)",
+      "url": "https://zhuanlan.zhihu.com/p/28226675035",
+      "summary": "正文把群上同调用于对称保护拓扑相分类，结合量子自旋链、边缘态与场论解释数学和量子理论的关系。"
+    },
+    {
+      "title": "【万字】在Python当中绘制原子轨道",
+      "url": "https://zhuanlan.zhihu.com/p/1889521938914853892",
+      "summary": "正文把定态薛定谔方程的解、量子数与电子云概率密度联系起来，并用于计算和绘制轨道。"
+    },
+    {
+      "title": "使用Mathematica演示量子力学",
+      "url": "https://zhuanlan.zhihu.com/p/1899834824035921926",
+      "summary": "正文以方势阱、谐振势、中心力场和氢原子为例演示量子力学中的数学求解与可视化。"
+    },
+    {
+      "title": "用ChatGPT DeepResearch 一例(level-k SU(N) MTC)",
+      "url": "https://zhuanlan.zhihu.com/p/1903799153521328319",
+      "summary": "正文以 WZW 模型、Kac-Moody 代数和模 S 矩阵计算为例，说明量子场论与数学结构之间的联系。"
+    },
+    {
+      "title": "物理学中的高阶几何（三）——高阶几何量子化与 H 假设",
+      "url": "https://zhuanlan.zhihu.com/p/1932057139670671779",
+      "summary": "正文系统介绍普通与高阶几何量子化的预量子丛、Hilbert 空间构造及向经典场论量子化的推广。"
+    },
+    {
+      "title": "Notes on Quantum Field Theory",
+      "url": "https://zhuanlan.zhihu.com/p/1936806852265513688",
+      "summary": "正文以路径积分、经典场论、Chern-Simons 理论和规范对称性讲解量子场论中的数学结构。"
+    },
+    {
+      "title": "量子场论的数学 —— 以涌现的方式",
+      "url": "https://zhuanlan.zhihu.com/p/1993114129343464529",
+      "summary": "正文从 Yang-Mills 作用量出发推导量子场、规范相互作用与狄拉克方程，属于量子理论与数学的实质展开。"
+    },
+    {
+      "title": "规范场论：中国科学技术大学QFT(II)-考试题 SU(2)Yang-Mills理论的Wu-Yang磁单极子解",
+      "url": "https://zhuanlan.zhihu.com/p/1995961373381919190",
+      "summary": "正文完整计算 SU(2) Yang-Mills 理论中的 Wu-Yang 磁单极子，属于量子场论与数学的交叉应用。"
+    },
+    {
+      "title": "E.Witten的业绩II 深谷贤治",
+      "url": "https://zhuanlan.zhihu.com/p/2009321982374745022",
+      "summary": "正文系统讨论量子场论与几何、拓扑的对应，包括 Witten 用场论方法解释 Morse 理论和指标定理。"
+    },
+    {
+      "title": "要搞 Lorentz 指标结构的投影算符就算是拿 Mathematica 暴力解方程也就那么几秒钟的事儿",
+      "url": "https://zhuanlan.zhihu.com/p/2043326743751156721",
+      "summary": "正文讨论量子场论中不同自旋粒子的流算符、关联函数、极化求和与投影算符，并展开其数学推导。"
+    },
+    {
+      "title": "几何量子化Geometric Quantization",
+      "url": "https://zhuanlan.zhihu.com/p/2049242852186756553",
+      "summary": "正文概述如何从经典辛系统构造量子系统，并讨论量子化中的极化与修正。"
+    },
+    {
+      "title": "就做个正反粒子变换害搁那取特定表示呢? 你很野蛮知道吗? 在旋量大街, 别让我看到 C^T = C^†, 看到你 Weyl 表示必须给你拽掉, 必须撤你稿!",
+      "url": "https://zhuanlan.zhihu.com/p/2049455800079356223",
+      "summary": "正文从 Dirac 旋量场和荷共轭变换出发系统推导场论中的表示无关公式。"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l6-t5-b4",
+  "sources": [
+    {
+      "title": "有哪些离散数学/图论应用在数学/CS以外学科的例子？",
+      "url": "https://www.zhihu.com/answer/120561230",
+      "summary": "正文把图论、谱与矩阵应用于通信网络的经济性、有效性和可靠性设计。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/129140965",
+      "summary": "正文展示网络度数的采样偏差如何产生友谊悖论并解释现实应用。"
+    },
+    {
+      "title": "线性代数在你的学科里有什么应用？",
+      "url": "https://www.zhihu.com/answer/150549036",
+      "summary": "正文将网页链接关系构造成网络排序矩阵，属于网络中的数学应用。"
+    },
+    {
+      "title": "高中党，我朋友推崇「数学无用论」。本人十分热爱数学，如何有效反驳他们，彻底改变他们这种幼稚的想法？",
+      "url": "https://www.zhihu.com/answer/244593231",
+      "summary": "正文把图与网络的路径、着色和流问题联系到通信和电路。"
+    },
+    {
+      "title": "如何用UCINET算网络中心度只得出了网络图，没有如下图的列表数据（接近度、中间度、点度）？",
+      "url": "https://www.zhihu.com/answer/312809646",
+      "summary": "正文用UCINET演示社会网络图及度、接近度和中间度等网络中心性。"
+    },
+    {
+      "title": "六度分隔理论可以用什么数学模型证明？",
+      "url": "https://www.zhihu.com/answer/364884719",
+      "summary": "正文以随机网络模型解释六度分隔和小世界网络。"
+    },
+    {
+      "title": "华为为什么要招聘数学博士？",
+      "url": "https://www.zhihu.com/answer/580432972",
+      "summary": "用缓存与网络编码问题说明数学在通信网络中的实际作用。"
+    },
+    {
+      "title": "「低耦合，高内聚」真的好吗？",
+      "url": "https://www.zhihu.com/answer/835603438",
+      "summary": "正文进一步以信息传递效率和网络鲁棒性解释小世界网络的应用。"
+    },
+    {
+      "title": "「社交网络分析」SNA是门怎样的学科？",
+      "url": "https://www.zhihu.com/answer/1517662058",
+      "summary": "正文介绍策略性网络形成并用网络结构建模。"
+    },
+    {
+      "title": "能科普下随机图理论吗？",
+      "url": "https://www.zhihu.com/answer/1583944713",
+      "summary": "正文用随机图的连通性和度讨论六度分离与网络结构。"
+    },
+    {
+      "title": "如何理解「香农定理」，包含哪些内容，它的发现有什么意义？",
+      "url": "https://www.zhihu.com/answer/1759158425",
+      "summary": "正文解释带宽、信噪比与信道容量之间的关系。"
+    },
+    {
+      "title": "网络信息论 Network Information Theory 领域的研究有哪些进展？",
+      "url": "https://www.zhihu.com/answer/1761351023",
+      "summary": "正文围绕《网络信息论》介绍多用户网络中的信息论问题。"
+    },
+    {
+      "title": "数学在神经科学领域中比较成功的应用主要在哪些方面？",
+      "url": "https://www.zhihu.com/answer/2184815899",
+      "summary": "正文把神经元连接建模为图与有向网络并分析结构。"
+    },
+    {
+      "title": "六人定律是否真的成立？",
+      "url": "https://www.zhihu.com/answer/3361368643",
+      "summary": "正文用网络边数的指数增长解释关系层级扩展，并比较网络出现孤立部分的概率。"
+    },
+    {
+      "title": "如何看待姜萍把「ƶ̇=b」抄写成了「主=6」 ？",
+      "url": "https://www.zhihu.com/answer/3538720931",
+      "summary": "正文讨论 BA 无标度网络与博弈均衡网络，并比较小世界网络模拟中的直径变化。"
+    },
+    {
+      "title": "统计学中有没有防止调查对象乱回答、撒谎的手段？",
+      "url": "https://www.zhihu.com/answer/3621787885",
+      "summary": "正文用随机图的节点间连接概率和分组集合刻画人群接触网络，并据此建立调查模型。"
+    },
+    {
+      "title": "世界上任何两个人的社交圈，真的只相隔六个人吗?",
+      "url": "https://www.zhihu.com/answer/77100952591",
+      "summary": "正文用社交网络的连接数和六步路径估计解释小世界网络现象，并讨论重复连接与孤立节点的修正。"
+    },
+    {
+      "title": "正态分布是最自然的，但为什么人类社会中会出现「赢家通吃」现象呢？",
+      "url": "https://www.zhihu.com/answer/125111767601",
+      "summary": "正文把增长和优先连接机制应用到复杂网络演化，说明无尺度网络的数学生成过程。"
+    },
+    {
+      "title": "理论计算机科学（TCS）能否反哺纯数学？",
+      "url": "https://www.zhihu.com/answer/1949302943066067710",
+      "summary": "正文把集中器定义为输入输出顶点间的路径连接问题，并以边数最小化讨论网络结构。"
+    },
+    {
+      "title": "为什么我国的概率与统计学教科书里不怎么讲幂律分布？",
+      "url": "https://www.zhihu.com/answer/2012991976371431319",
+      "summary": "正文用优先连接和马太效应解释社交网络节点增长，说明网络结构如何产生幂律度分布。"
+    },
+    {
+      "title": "你可以介绍一个冷门但改变世界的数学模型吗？",
+      "url": "https://www.zhihu.com/answer/2026070730215897085",
+      "summary": "正文把网页链接网络建成状态转移模型，并通过平稳分布说明 PageRank 的网络数学应用。"
+    },
+    {
+      "title": "真正会数学建模的人有多厉害？",
+      "url": "https://www.zhihu.com/answer/2036859311540921399",
+      "summary": "正文把网页链接网络写成转移矩阵，并以随机游走的停留概率衡量和传递节点重要性。"
+    },
+    {
+      "title": "六人定律是否真的成立？",
+      "url": "https://www.zhihu.com/answer/2065482475967713731",
+      "summary": "正文进一步提出在不同社会结构中分析人脉链路的条数与长度分布，属于社会网络的数学建模。"
+    },
+    {
+      "title": "信息瀑布：论如何造谣",
+      "url": "https://zhuanlan.zhihu.com/p/20894784",
+      "summary": "正文建立网络顺序决策中的信息瀑布概率模型，推导信息级联形成及错误级联的概率。"
+    },
+    {
+      "title": "为什么你的朋友比你更受欢迎——生活中的运筹学【0】",
+      "url": "https://zhuanlan.zhihu.com/p/23302653",
+      "summary": "正文用朋友关系的邻接指示变量和朋友度数分析网络中的友谊悖论。"
+    },
+    {
+      "title": "Multi-Agent System控制(3)一致性控制",
+      "url": "https://zhuanlan.zhihu.com/p/32355053",
+      "summary": "正文在通信图中设计仅依赖邻居信息的一致性协议，属于网络中的数学建模与控制。"
+    },
+    {
+      "title": "JuMP: 用Julia进行优化建模及求解",
+      "url": "https://zhuanlan.zhihu.com/p/40807662",
+      "summary": "正文在有向网络上建立流守恒与容量约束，并讨论不确定边权下的鲁棒最小费用流。"
+    },
+    {
+      "title": "复杂网络中的统计物理（一）",
+      "url": "https://zhuanlan.zhihu.com/p/45193794",
+      "summary": "正文以拓扑、邻接矩阵和统计量建立复杂网络模型，并分析随机图上的传播动力学。"
+    },
+    {
+      "title": "MIT—线性代数笔记12 图、网络、关联矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/45853245",
+      "summary": "正文用关联矩阵和线性方程组表达电网络中的基尔霍夫电压、电流定律。"
+    },
+    {
+      "title": "幂律分布背后的数学逻辑，了解一下？",
+      "url": "https://zhuanlan.zhihu.com/p/49307989",
+      "summary": "正文用少数节点拥有大量连边、多数节点连边很少来解释无标度网络及其幂律度分布。"
+    },
+    {
+      "title": "【其实贼简单】拉普拉斯算子和拉普拉斯矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/67336297",
+      "summary": "正文以社交网络为网络模型，用边权刻画信息流通并把拉普拉斯矩阵用于网络分析。"
+    },
+    {
+      "title": "【深度学习】图神经网络与图卷积网络",
+      "url": "https://zhuanlan.zhihu.com/p/70028587",
+      "summary": "正文围绕图上消息传递、邻域聚合和节点嵌入，讲解网络结构中的数学传播与表示学习机制。"
+    },
+    {
+      "title": "解读三种经典GCN中的Parameter Sharing",
+      "url": "https://zhuanlan.zhihu.com/p/72373094",
+      "summary": "正文用邻接矩阵、度矩阵及其归一化刻画图上的邻域聚合，并说明多层结构扩展信息传播范围。"
+    },
+    {
+      "title": "图卷积网络GCN的理解与介绍",
+      "url": "https://zhuanlan.zhihu.com/p/90470499",
+      "summary": "正文以节点、邻接关系和邻居信息传播为核心，说明图上网络传播与表示更新的数学形式。"
+    },
+    {
+      "title": "图卷积神经网络系列：2. | 图傅里叶变换",
+      "url": "https://zhuanlan.zhihu.com/p/137897522",
+      "summary": "正文用图上相邻节点信号异号边的数量刻画特征向量的振荡程度，并以图拉普拉斯二次型定义网络信号的平滑程度。"
+    },
+    {
+      "title": "最小推荐系统: SimRank快速近似计算",
+      "url": "https://zhuanlan.zhihu.com/p/153334991",
+      "summary": "正文从条目与用户的消费关系图出发，通过邻接矩阵和随机游走式矩阵幂计算网络节点相似度。"
+    },
+    {
+      "title": "原创 | 斯坦福Machine Learning with Graphs 学习笔记(第二讲）",
+      "url": "https://zhuanlan.zhihu.com/p/205012648",
+      "summary": "正文以图结构和随机图模型分析真实网络的度分布、路径长度与局部集聚。"
+    },
+    {
+      "title": "Spatio-Temporal Graph Convolutional Networks 详解",
+      "url": "https://zhuanlan.zhihu.com/p/286445515",
+      "summary": "正文用拉普拉斯矩阵、邻接矩阵与切比雪夫多项式近似推导图上的谱卷积。"
+    },
+    {
+      "title": "图卷积网络原来是这么回事（一）——拉普拉斯矩阵初探",
+      "url": "https://zhuanlan.zhihu.com/p/290755442",
+      "summary": "正文以图中节点和边为对象定义图信号、平滑度与拉普拉斯算子，解释图网络处理非规则关系数据的基础。"
+    },
+    {
+      "title": "随机图模型",
+      "url": "https://zhuanlan.zhihu.com/p/300861555",
+      "summary": "正文用平均度、最短路径、直径和巨连通分支分析随机网络的小世界性质。"
+    },
+    {
+      "title": "基于图的异常检测",
+      "url": "https://zhuanlan.zhihu.com/p/359025580",
+      "summary": "正文具体介绍流式图抽样、图级嵌入和网络异常检测，展示网络结构上的数学建模。"
+    },
+    {
+      "title": "马尔科夫链, PageRank算法, 与代数图论",
+      "url": "https://zhuanlan.zhihu.com/p/367579738",
+      "summary": "正文把网页链接网络建模为有向图，并用马尔科夫链和转移矩阵计算网页重要度。"
+    },
+    {
+      "title": "伴读系列（3）：一阶连续时间系统的一致性算法",
+      "url": "https://zhuanlan.zhihu.com/p/376351836",
+      "summary": "正文研究网络拓扑与局部邻居信息如何决定多智能体网络的最终一致状态。"
+    },
+    {
+      "title": "无限大平面网格任意两点间的等效电阻",
+      "url": "https://zhuanlan.zhihu.com/p/376192419",
+      "summary": "正文以节点方程和积分变换推导无限平面电阻网络中任意两点间的等效电阻。"
+    },
+    {
+      "title": "R数据分析：网络分析的做法，原理和复现方法",
+      "url": "https://zhuanlan.zhihu.com/p/581641222",
+      "summary": "正文把变量组织为节点和边，并用强度、接近中心性及介数中心性刻画网络结构。"
+    },
+    {
+      "title": "无线通信中的分式规划（Fractional Programming）与Matlab实现",
+      "url": "https://zhuanlan.zhihu.com/p/599204238",
+      "summary": "正文建立蜂窝网络干扰、速率和功率约束模型，并用优化算法求解功率控制问题。"
+    },
+    {
+      "title": "MATLAB | 全网最详细网络图(图论图)绘制教程",
+      "url": "https://zhuanlan.zhihu.com/p/616246077",
+      "summary": "正文给出 PageRank 的迭代公式，并解释 Watts-Strogatz 随机网络、度数与网络中心性。"
+    },
+    {
+      "title": "2023年“华为杯”第二十届中国研究生数学建模A题一等奖+华为专项二等奖——经验介绍+赛题分析+优秀论文+word模板+总结复盘",
+      "url": "https://zhuanlan.zhihu.com/p/669523582",
+      "summary": "正文建立无线网络中节点冲突、隐藏节点、吞吐量和仿真模型，属于网络中的数学建模。"
+    }
+  ]
+}

@@ -1,0 +1,5686 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t9-b4",
+  "sources": [
+    {
+      "title": "一个比地球直径大 2000 米的钢环，是否能够悬浮在地球表面？",
+      "url": "https://www.zhihu.com/answer/16386801",
+      "summary": "在理想化地球与圆环模型下计算势能、建立拉格朗日运动方程并讨论平衡稳定性，展示微分方程建模；不据示意图断言现实材料可行性。"
+    },
+    {
+      "title": "常微分方程的通解包含所有的解吗？",
+      "url": "https://www.zhihu.com/answer/19226662",
+      "summary": "正文围绕「常微分方程的通解包含所有的解吗？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "微分方程解的稳定性与一致渐进稳定性的异同？",
+      "url": "https://www.zhihu.com/answer/20680098",
+      "summary": "正文围绕「微分方程解的稳定性与一致渐进稳定性的异同？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "分离变量法的适用范围？",
+      "url": "https://www.zhihu.com/answer/26224682",
+      "summary": "正文围绕“微分方程”给出直接说明。"
+    },
+    {
+      "title": "微分方程的通解和特解的定义？",
+      "url": "https://www.zhihu.com/answer/26300146",
+      "summary": "正文围绕“微分方程”给出直接说明。"
+    },
+    {
+      "title": "调和函数到底有什么意义？",
+      "url": "https://www.zhihu.com/answer/30053880",
+      "summary": "正文围绕“微分方程”给出说明、例证或方法。"
+    },
+    {
+      "title": "自适应控制改变控制参数的依据是什么？",
+      "url": "https://www.zhihu.com/answer/31178211",
+      "summary": "正文围绕“微分方程”给出说明、例证或方法。"
+    },
+    {
+      "title": "一道数学题：人的跑步方向一直指向猪多久能追上？",
+      "url": "https://www.zhihu.com/answer/36389441",
+      "summary": "正文将追及问题化为微分关系并求解。"
+    },
+    {
+      "title": "电气工程及其自动化专业学习复变函数课程有什么用？",
+      "url": "https://www.zhihu.com/answer/44117048",
+      "summary": "正文把动态过程建模为微分方程并讨论其计算。"
+    },
+    {
+      "title": "你在生活中用过最高端的数学知识是什么？",
+      "url": "https://www.zhihu.com/answer/46388672",
+      "summary": "正文从兰彻斯特平方律建立双方兵力变化的微分方程组。"
+    },
+    {
+      "title": "常微分方程的通解包含所有的解吗？",
+      "url": "https://www.zhihu.com/answer/47855009",
+      "summary": "正文用一阶常微分方程的奇解说明通解不包含所有解。"
+    },
+    {
+      "title": "高等数学（如 微分方程、极值、多元函数）在生活中有哪些应用？",
+      "url": "https://www.zhihu.com/answer/50567276",
+      "summary": "正文以独轮车状态随时间变化的模型解释微分方程。"
+    },
+    {
+      "title": "什么是「齐次」「非齐次」「线性」「非线性」？",
+      "url": "https://www.zhihu.com/answer/65202645",
+      "summary": "正文定义微分方程中齐次、线性与非线性的区分。"
+    },
+    {
+      "title": "为什么傅里叶变换如此有效？",
+      "url": "https://www.zhihu.com/answer/71062889",
+      "summary": "正文说明变换将高阶微分方程化为多项式方程。"
+    },
+    {
+      "title": "学习复变函数与积分变换有什么用途？",
+      "url": "https://www.zhihu.com/answer/72770148",
+      "summary": "正文以常微分和偏微分方程说明积分变换的用途。"
+    },
+    {
+      "title": "如何理解常微分方程解的延拓问题？",
+      "url": "https://www.zhihu.com/answer/73294094",
+      "summary": "正文系统解释常微分方程解的延拓及最大存在区间。"
+    },
+    {
+      "title": "《特殊函数概论》应该怎样使用？",
+      "url": "https://www.zhihu.com/answer/76808636",
+      "summary": "正文以二阶微分方程的线性无关解说明特殊函数书中的具体内容。"
+    },
+    {
+      "title": "如何理解logistic函数?",
+      "url": "https://www.zhihu.com/answer/78680948",
+      "summary": "正文从人口增长模型推导、求解并分析 Logistic 微分方程。"
+    },
+    {
+      "title": "不定积分理论不够完美怎么办？",
+      "url": "https://www.zhihu.com/answer/83698214",
+      "summary": "正文说明常微分方程从求解析解转向定性理论。"
+    },
+    {
+      "title": "如何对四旋翼飞行器进行精确的数学建模?",
+      "url": "https://www.zhihu.com/answer/84012518",
+      "summary": "正文建立四旋翼的二阶微分方程组并设计轨迹跟踪控制。"
+    },
+    {
+      "title": "把肉拿出去晒的时候想到的，一根钢丝，两端是固定绞支座。肉如何挂才能使钢丝在极限承载力之下挂更多的肉？",
+      "url": "https://www.zhihu.com/answer/86197901",
+      "summary": "正文建立悬索荷载的微分方程并求解不同分布下的绳形和拉力。"
+    },
+    {
+      "title": "控制研究中的「带宽」怎样理解？",
+      "url": "https://www.zhihu.com/answer/91671022",
+      "summary": "正文通过一阶、二阶系统的方程解和极点解释时域响应。"
+    },
+    {
+      "title": "如何看待一农民声称「推导出了世界上第一个悬链线计算公式」？",
+      "url": "https://www.zhihu.com/answer/95500254",
+      "summary": "正文说明悬链线方程由物理规律导出的二阶微分方程求得。"
+    },
+    {
+      "title": "理论物理学家爱德华·威滕做了啥贡献，以致于他获得了数学界的菲尔兹奖？",
+      "url": "https://www.zhihu.com/answer/97134130",
+      "summary": "正文具体解释 Seiberg-Witten 非线性微分方程及其解空间的几何信息。"
+    },
+    {
+      "title": "哪些书让你重新认识了数学？",
+      "url": "https://www.zhihu.com/answer/99959234",
+      "summary": "正文以该常微分方程结论为起点，实质讨论非光滑向量场下的适定性问题。"
+    },
+    {
+      "title": "如果把恋人关系看作是一个自治的非线性动力系统，它的稳定性问题大概可以分为几类进行讨论呢？",
+      "url": "https://www.zhihu.com/answer/101810041",
+      "summary": "全文把恋爱关系建模为线性与非线性常微分方程系统，并分析不动点、极限环。"
+    },
+    {
+      "title": "传递函数的零点、极点怎么解释，有什么用？",
+      "url": "https://www.zhihu.com/answer/105437428",
+      "summary": "正文用微分方程的通解和特解解释传递函数极点对应的系统模态。"
+    },
+    {
+      "title": "自然底数 e 的意义是什么？",
+      "url": "https://www.zhihu.com/answer/106247572",
+      "summary": "正文把增长率等于自身写成微分方程，并用它统一两种 e 的表达。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/106263920",
+      "summary": "正文以冷却、增长和振动过程说明指数函数与余弦满足的微分方程。"
+    },
+    {
+      "title": "偏微分方程中特征线法的原理是什么？",
+      "url": "https://www.zhihu.com/answer/107560719",
+      "summary": "正文沿特征线把偏微分方程化为常微分关系并求出初值问题解。"
+    },
+    {
+      "title": "如果不使用变分法，该怎样导出最速降线是旋轮线？",
+      "url": "https://www.zhihu.com/answer/112904628",
+      "summary": "正文由斯涅尔定律和能量关系得到摆线满足的微分方程。"
+    },
+    {
+      "title": "既然微分和积分互为逆运算，为什么积分比微分更难求解？",
+      "url": "https://www.zhihu.com/answer/113918971",
+      "summary": "正文指出求原函数等价于求一阶微分方程的解。"
+    },
+    {
+      "title": "虚数 i 是真实存在的吗？还是被人们创造出的数学工具？",
+      "url": "https://www.zhihu.com/answer/115052135",
+      "summary": "正文建立并求解小球运动的二阶常系数微分方程。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/116098808",
+      "summary": "正文从弹簧方程出发以幂级数求解二阶微分方程。"
+    },
+    {
+      "title": "Solow Model（索罗模型）中为何要做k=K/(AL)这样的变换？",
+      "url": "https://www.zhihu.com/answer/117165052",
+      "summary": "正文从时齐次与非时齐次微分方程出发，解释索罗模型变量变换如何消去显式时间依赖。"
+    },
+    {
+      "title": "不用Matlab MPC工具箱怎么编写MPC？",
+      "url": "https://www.zhihu.com/answer/118645471",
+      "summary": "正文用微分方程描述系统动力学，并说明线性和非线性系统的离散化。"
+    },
+    {
+      "title": "中学物理里的力学和电磁学都涉及大学微积分吗？该如何学习到这一部分的大学微积分？",
+      "url": "https://www.zhihu.com/answer/119284874",
+      "summary": "正文说明微分方程用于建立并求解物理中的实际模型。"
+    },
+    {
+      "title": "怎样通俗的理解变分法？ 最近在看维纳写的《控制论》里面提到，变分法用于解决极小值问题",
+      "url": "https://www.zhihu.com/answer/121769328",
+      "summary": "正文说明令泛函一阶变分为零后得到微分方程并求出极值曲线。"
+    },
+    {
+      "title": "电路分析中拉氏变换怎么理解？",
+      "url": "https://www.zhihu.com/answer/125555617",
+      "summary": "正文以大量常微分方程求解需求引出积分变换。"
+    },
+    {
+      "title": "线性微分方程与非线性微分方程的区别是什么？",
+      "url": "https://www.zhihu.com/answer/129537029",
+      "summary": "正文以一阶方程为例，解释线性微分方程对未知函数及其导数的一次性要求，并逐项对比非线性情形。"
+    },
+    {
+      "title": "如何理解波动方程的解的表达式（附描述）？",
+      "url": "https://www.zhihu.com/answer/133074925",
+      "summary": "正文用分离变量把波动方程化为两个常微分方程并讨论参数不同情形。"
+    },
+    {
+      "title": "关于 2016icpc 青岛站的 C 题，掰一根百奇的数学期望可以怎么解？",
+      "url": "https://www.zhihu.com/answer/133821371",
+      "summary": "正文把期望积分方程经移项、微分化为微分方程并求解。"
+    },
+    {
+      "title": "常数变易法思想的来源或本质是什么？",
+      "url": "https://www.zhihu.com/answer/134977454",
+      "summary": "正文从一阶线性非齐次方程出发，完整推导常数变易法如何分离齐次部分并降阶求解。"
+    },
+    {
+      "title": "三体问题无解，可能的误差来自于哪里？",
+      "url": "https://www.zhihu.com/answer/135092098",
+      "summary": "正文讨论三体与振动模型的微分方程、解析解和数值解之间的关系。"
+    },
+    {
+      "title": "有没有证明某函数不存在初等表示的一般思路？",
+      "url": "https://www.zhihu.com/answer/136265919",
+      "summary": "正文从微分域、Picard-Vessiot 扩张和微分 Galois 群系统讲解线性微分方程可解性。"
+    },
+    {
+      "title": "在英雄联盟中为什么要分上单，中单，打野，ADC和辅助这些角色？能证明这种阵容比其他阵容更有效吗？",
+      "url": "https://www.zhihu.com/answer/138396510",
+      "summary": "正文建立多人竞技过程的微分方程并解释变量与参数。"
+    },
+    {
+      "title": "是否存在重力场中使质点等速下滑的曲线或曲面？",
+      "url": "https://www.zhihu.com/answer/142801481",
+      "summary": "正文把受力条件化成含一、二阶导数的微分方程并作近似分析。"
+    },
+    {
+      "title": "波波夫 (POPOV)超稳定性理论该怎么理解？",
+      "url": "https://www.zhihu.com/answer/146479983",
+      "summary": "正文把连续时间状态微分方程与输入输出积分约束用于闭环系统稳定性分析。"
+    },
+    {
+      "title": "常微分方程的理论对偏微分方程的研究有没有帮助？",
+      "url": "https://www.zhihu.com/answer/146666447",
+      "summary": "正文说明常微分方程的存在性、长时间行为和动力系统方法如何推广。"
+    },
+    {
+      "title": "如何理解刘维尔定理？",
+      "url": "https://www.zhihu.com/answer/148917910",
+      "summary": "正文从常微分方程流推导雅可比体积变化，并应用到哈密顿方程组。"
+    },
+    {
+      "title": "Kalman滤波器，观测器都会导致phase shift吗？",
+      "url": "https://www.zhihu.com/answer/151326516",
+      "summary": "正文以连续线性系统状态方程和误差微分方程证明理想观测器无相位延迟。"
+    },
+    {
+      "title": "微分方程数值方法和偏微分方程有什么区别吗？",
+      "url": "https://www.zhihu.com/answer/154630733",
+      "summary": "正文围绕常微分与偏微分方程的离散数值解法进行完整比较。"
+    },
+    {
+      "title": "哪些看似毫不相干的事物具有相同的数学原理？",
+      "url": "https://www.zhihu.com/answer/157525832",
+      "summary": "正文用 Logistic 方程和 Lorenz 方程说明微分方程中的反馈、非线性与混沌。"
+    },
+    {
+      "title": "关于种群增长的“S”型曲线，这个有关增长率和增长速率的矛盾该怎么解释？",
+      "url": "https://www.zhihu.com/answer/162843282",
+      "summary": "正文给出逻辑斯蒂增长的微分方程并解释种群数量、时间和参数。"
+    },
+    {
+      "title": "累加的连续是积分，那么累乘的连续是什么？",
+      "url": "https://www.zhihu.com/answer/170490127",
+      "summary": "正文指出连续累乘的指数积分形式对应线性微分方程。"
+    },
+    {
+      "title": "常微分方程的有没有什么学习经验？",
+      "url": "https://www.zhihu.com/answer/190692876",
+      "summary": "正文解释常微分方程研究应从求解析解转向存在唯一性、稳定性等定性分析。"
+    },
+    {
+      "title": "非线性系统通过雅克比矩阵线性化的过程如何的实现？",
+      "url": "https://www.zhihu.com/answer/195145638",
+      "summary": "正文针对由微分方程构成的非线性系统推导局部线性近似。"
+    },
+    {
+      "title": "高中数学学那么多三角函数公式到底有什么用？",
+      "url": "https://www.zhihu.com/answer/198097265",
+      "summary": "正文具体讨论常微分方程在自动控制中的变换与建模。"
+    },
+    {
+      "title": "有哪些费解的抽象概念在遇到实际的应用场景之后就变得豁然开朗了？",
+      "url": "https://www.zhihu.com/answer/202790647",
+      "summary": "正文以微分方程被积分变换代数化说明实际应用。"
+    },
+    {
+      "title": "常微分方程的通解包含所有的解吗？",
+      "url": "https://www.zhihu.com/answer/209194337",
+      "summary": "正文从斜率场、通解和奇解完整解释常微分方程。"
+    },
+    {
+      "title": "牛顿在数学方面有多牛？",
+      "url": "https://www.zhihu.com/answer/222001259",
+      "summary": "正文解释牛顿把微分方程确立为描述物理规律的核心语言。"
+    },
+    {
+      "title": "解微分方程为什么会出现个 e？",
+      "url": "https://www.zhihu.com/answer/224563083",
+      "summary": "正文用微分方程定义指数函数并给出欧拉折线解的极限。"
+    },
+    {
+      "title": "解微分方程为什么会出现个 e？",
+      "url": "https://www.zhihu.com/answer/237992320",
+      "summary": "正文用幂级数法推导一阶线性微分方程的解。"
+    },
+    {
+      "title": "解微分方程为什么会出现个 e？",
+      "url": "https://www.zhihu.com/answer/238304260",
+      "summary": "正文通过积分迭代求解 dx/dt=x。"
+    },
+    {
+      "title": "你在生活中用过最高端的数学知识是什么？",
+      "url": "https://www.zhihu.com/answer/252228264",
+      "summary": "正文用联立常微分方程刻画双方情感变化，并解释解轨迹的周期性。"
+    },
+    {
+      "title": "如何理解数学，自然法则or工具？",
+      "url": "https://www.zhihu.com/answer/258086781",
+      "summary": "正文以抛物型线性微分方程同时解释扩散与热传导。"
+    },
+    {
+      "title": "有哪些时候你会觉得数学很有用？",
+      "url": "https://www.zhihu.com/answer/258628299",
+      "summary": "正文由鞅条件建立并求解相关 ODE。"
+    },
+    {
+      "title": "有哪些时候你会觉得数学很有用？",
+      "url": "https://www.zhihu.com/answer/258720196",
+      "summary": "正文将积分方程求导后解一阶微分方程。"
+    },
+    {
+      "title": "常微分方程的通解包含所有的解吗？",
+      "url": "https://www.zhihu.com/answer/265305995",
+      "summary": "正文定义常微分方程通解、证明线性方程通解结构并给出非线性反例。"
+    },
+    {
+      "title": "线性微分方程与非线性微分方程的区别是什么？",
+      "url": "https://www.zhihu.com/answer/266787269",
+      "summary": "正文定义并完整求解常系数齐次和非齐次线性微分方程。"
+    },
+    {
+      "title": "有哪些美丽或神奇的理科公式？",
+      "url": "https://www.zhihu.com/answer/267813453",
+      "summary": "正文把测地线方程组化为一阶微分方程并说明可数值模拟。"
+    },
+    {
+      "title": "有哪些「大众默认专家搞懂了，实际上没人能解释清楚」的例子？",
+      "url": "https://www.zhihu.com/answer/274645822",
+      "summary": "正文建立旋转软绳形状的微分方程模型。"
+    },
+    {
+      "title": "矩阵的迹到底有什么意义？",
+      "url": "https://www.zhihu.com/answer/281587700",
+      "summary": "正文把迹技巧应用于微分方程求解。"
+    },
+    {
+      "title": "Quant 通常需要什么样的教育背景和知识结构？",
+      "url": "https://www.zhihu.com/answer/282424819",
+      "summary": "正文把常微分方程作为拉普拉斯变换的具体应用。"
+    },
+    {
+      "title": "如何理解线性微分方程的「线性」？",
+      "url": "https://www.zhihu.com/answer/284747460",
+      "summary": "正文解释线性微分方程中未知函数与方程结构。"
+    },
+    {
+      "title": "什么是相空间？",
+      "url": "https://www.zhihu.com/answer/288523245",
+      "summary": "正文说明相空间把二阶常微分方程改写为一阶方程组以研究动力系统。"
+    },
+    {
+      "title": "类似于勒让德函数和贝塞尔函数的函数还有哪些？",
+      "url": "https://www.zhihu.com/answer/307232479",
+      "summary": "正文把特殊函数与二阶线性Sturm–Liouville型数学物理方程联系起来。"
+    },
+    {
+      "title": "大一，理解不了高数第一类第二类换元法，是不理解原理，有大神解答一下吗？",
+      "url": "https://www.zhihu.com/answer/319656003",
+      "summary": "正文随后以可分离变量微分方程为例，用变量替换与两端积分完成求解。"
+    },
+    {
+      "title": "学习常微分方程有什么好的参考书或教材？",
+      "url": "https://www.zhihu.com/answer/329856390",
+      "summary": "正文说明常微分方程存在唯一性、连续依赖和动力系统方向。"
+    },
+    {
+      "title": "线性微分方程与非线性微分方程的区别是什么？",
+      "url": "https://www.zhihu.com/answer/352025838",
+      "summary": "正文从叠加性解释线性与非线性微分方程的区别。"
+    },
+    {
+      "title": "如何评价俄罗斯数学家 Vladimir Igorevich Arnold 的数学成就？",
+      "url": "https://www.zhihu.com/answer/353457968",
+      "summary": "正文解释 KAM 理论通过反复线性化求解非线性微分方程。"
+    },
+    {
+      "title": "怎样理解微分流形中的 Frobenius 定理？",
+      "url": "https://www.zhihu.com/answer/353674449",
+      "summary": "正文把 Pfaff 微分方程组解的存在性作为定理用途。"
+    },
+    {
+      "title": "偏微分方程听不懂怎么办，完全理解不来，有什么简明易懂的书和视频吗？",
+      "url": "https://www.zhihu.com/answer/359999262",
+      "summary": "正文按初值、边界条件讲解微分方程求解。"
+    },
+    {
+      "title": "如何理解高等数学微分方程中的线性与齐次？",
+      "url": "https://www.zhihu.com/answer/360592024",
+      "summary": "正文系统区分线性、齐次微分方程并给出推导。"
+    },
+    {
+      "title": "经典力学当中波函数为什么也可以有虚部？",
+      "url": "https://www.zhihu.com/answer/364610700",
+      "summary": "正文从二阶线性微分方程的解空间解释波函数。"
+    },
+    {
+      "title": "如何求二阶常系数非齐次线性微分方程特解？",
+      "url": "https://www.zhihu.com/answer/366030747",
+      "summary": "正文完整推导二阶常系数非齐次线性微分方程。"
+    },
+    {
+      "title": "常微分方程的有没有什么学习经验？",
+      "url": "https://www.zhihu.com/answer/370038474",
+      "summary": "正文解释非线性常微分方程组的线性化和定性分析。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/379034034",
+      "summary": "正文以拉普拉斯算子的Dirichlet边值问题说明微分算子。"
+    },
+    {
+      "title": "为什么二阶微分方程有且仅有两个线性无关的解？三个不行吗？",
+      "url": "https://www.zhihu.com/answer/404519901",
+      "summary": "正文讲解n阶线性常微分方程基本解组与通解。"
+    },
+    {
+      "title": "拉普拉斯变换有什么用？",
+      "url": "https://www.zhihu.com/answer/429756124",
+      "summary": "正文用电路与控制系统说明微分方程模型和变换解法。"
+    },
+    {
+      "title": "是否存在可导函数f:R+→R+，使得f'(x)>f(x)^2？",
+      "url": "https://www.zhihu.com/answer/431167199",
+      "summary": "正文用常微分方程的爆炸判据和比较原理证明函数不存在。"
+    },
+    {
+      "title": "解非齐次一阶线性微分方程时，为什么先要解它的齐次方程？",
+      "url": "https://www.zhihu.com/answer/435992110",
+      "summary": "正文完整推导非齐次一阶线性微分方程的积分因子解法。"
+    },
+    {
+      "title": "什么是「齐次」「非齐次」「线性」「非线性」？",
+      "url": "https://www.zhihu.com/answer/436003494",
+      "summary": "正文区分变量齐次与导数齐次微分方程。"
+    },
+    {
+      "title": "如何理解路径积分（path integral）？",
+      "url": "https://www.zhihu.com/answer/454608123",
+      "summary": "正文从随机梯度运动方程得到连续作用量。"
+    },
+    {
+      "title": "如何评价俄罗斯数学家 Vladimir Igorevich Arnold 的数学成就？",
+      "url": "https://www.zhihu.com/answer/456700174",
+      "summary": "正文从Hamilton方程、Hamilton-Jacobi方程和ODE/PDE对比讲解动力系统。"
+    },
+    {
+      "title": "给你 10 亿美元，但会有一只蜗牛永远追杀你，你干不干？",
+      "url": "https://www.zhihu.com/answer/458158714",
+      "summary": "正文建立追及运动的耦合微分方程并进行数值求解。"
+    },
+    {
+      "title": "单摆微分方程会不会在未来如同方程 x＝cosx 一样得到解析解（即使是非初等的，但可以用显式表示）？",
+      "url": "https://www.zhihu.com/answer/474591678",
+      "summary": "正文从单摆微分方程推导雅克比椭圆函数形式的显式解。"
+    },
+    {
+      "title": "如何评价 2018 数学建模国赛？",
+      "url": "https://www.zhihu.com/answer/492242001",
+      "summary": "正文把穿衣传热问题建立为微分方程模型。"
+    },
+    {
+      "title": "为什么 n 阶线性齐次微分方程有 n 个线性无关的特解？",
+      "url": "https://www.zhihu.com/answer/522151250",
+      "summary": "把 n 阶线性齐次微分方程改写为一阶线性系统并解释解空间维数。"
+    },
+    {
+      "title": "不同时间哈密顿算符「是否对易」与「能否成功分离变量」两种说法是否等价？",
+      "url": "https://www.zhihu.com/answer/524416613",
+      "summary": "从含时薛定谔方程推导时间演化算符的微分方程与级数解。"
+    },
+    {
+      "title": "有限差分法和有限体积法的区别？",
+      "url": "https://www.zhihu.com/answer/531346316",
+      "summary": "说明两类方法如何把微分方程离散为代数方程组求解。"
+    },
+    {
+      "title": "请问filippov解大概是什么意思？是怎么定义的？有什么作用？",
+      "url": "https://www.zhihu.com/answer/532993703",
+      "summary": "全文系统讨论右端不连续微分方程及 Caratheodory、Filippov 等解。"
+    },
+    {
+      "title": "超螺旋滑模控制方法为什么能够减小抖振的发生？",
+      "url": "https://www.zhihu.com/answer/533024649",
+      "summary": "正文通过二阶动态误差方程解释超螺旋滑模如何降低抖振。"
+    },
+    {
+      "title": "「数理化生」四个学科间有哪些联系？",
+      "url": "https://www.zhihu.com/answer/536436458",
+      "summary": "正文以变力运动说明常微分方程如何从自然科学问题产生。"
+    },
+    {
+      "title": "这个荔枝弯曲的形状是否有曲线方程？",
+      "url": "https://www.zhihu.com/answer/555451879",
+      "summary": "建立大变形悬臂梁的非线性微分方程并给出边界条件。"
+    },
+    {
+      "title": "齐次方程的「齐次」代表什么？",
+      "url": "https://www.zhihu.com/answer/579775239",
+      "summary": "正文系统区分齐次与线性微分方程。"
+    },
+    {
+      "title": "累加的连续是积分，那么累乘的连续是什么？",
+      "url": "https://www.zhihu.com/answer/582269170",
+      "summary": "把矩阵值乘积积分与线性微分方程联系起来。"
+    },
+    {
+      "title": "为什么自动控制理论这么玄学？",
+      "url": "https://www.zhihu.com/answer/590207142",
+      "summary": "正文把自动控制建模归结为常微分方程。"
+    },
+    {
+      "title": "微积分能解决哪些在生活中遇到的实际问题？",
+      "url": "https://www.zhihu.com/answer/597232149",
+      "summary": "正文建立温升随时间变化的常微分方程。"
+    },
+    {
+      "title": "请问数值分析，数值计算方法，最优化计算方法这三门课有什么区别？",
+      "url": "https://www.zhihu.com/answer/626338485",
+      "summary": "说明常微分方程的数值解法属于数值计算课程的一部分。"
+    },
+    {
+      "title": "在地球上挖一条何种走向的隧道能使小球仅受引力作用不接触隧道壁从一端运动到另一端？",
+      "url": "https://www.zhihu.com/answer/636520980",
+      "summary": "建立隧道内运动的耦合常微分方程并写出解析通解。"
+    },
+    {
+      "title": "高阶线性微分方程的特征方程怎么来的？",
+      "url": "https://www.zhihu.com/answer/654587313",
+      "summary": "由指数试探解推导常系数高阶线性微分方程的特征方程。"
+    },
+    {
+      "title": "为什么大学物理要用积分和微分？",
+      "url": "https://www.zhihu.com/answer/660563124",
+      "summary": "把运动规律写成微分方程并求解。"
+    },
+    {
+      "title": "常数变易法思想的来源或本质是什么？",
+      "url": "https://www.zhihu.com/answer/663336777",
+      "summary": "从一阶线性微分方程推导积分因子求解法。"
+    },
+    {
+      "title": "怎样用微积分求变加速运动的位移？",
+      "url": "https://www.zhihu.com/answer/667530824",
+      "summary": "把加速度与速度关系写成可分离变量微分方程并求解。"
+    },
+    {
+      "title": "如何理解斜率场（slope fields）这个概念？",
+      "url": "https://www.zhihu.com/answer/668971849",
+      "summary": "把斜率场解释为微分方程在各点给出的方向。"
+    },
+    {
+      "title": "为什么有些函数经过二次求导后又回到了原函数？",
+      "url": "https://www.zhihu.com/answer/686997880",
+      "summary": "把二阶导等于原函数写成常微分方程并求通解。"
+    },
+    {
+      "title": "共形场论相关近些年有哪些重要工作？",
+      "url": "https://www.zhihu.com/answer/693797723",
+      "summary": "由形变参数建立能量的常微分方程。"
+    },
+    {
+      "title": "微分方程 已知特解如何确定通解?",
+      "url": "https://www.zhihu.com/answer/696971760",
+      "summary": "由已知特解推导二阶线性常微分方程通解。"
+    },
+    {
+      "title": "请教：刚体动力学中的欧拉方程是如何推导出来的？",
+      "url": "https://www.zhihu.com/answer/705009156",
+      "summary": "推导欧拉刚体运动微分方程。"
+    },
+    {
+      "title": "如何通俗地解释混沌理论（chaos）和分岔理论（bifurcation）？",
+      "url": "https://www.zhihu.com/answer/705405940",
+      "summary": "用常微分方程表达连续动力系统。"
+    },
+    {
+      "title": "解微分方程为什么会出现个 e？",
+      "url": "https://www.zhihu.com/answer/706433889",
+      "summary": "正文围绕这个一阶线性齐次微分方程逐步展开近似与精确求解。"
+    },
+    {
+      "title": "自学数学物理方法是种什么体验？",
+      "url": "https://www.zhihu.com/answer/707405638",
+      "summary": "正文比较常微分方程与偏微分方程的通解、特解和初边值问题。"
+    },
+    {
+      "title": "脑力有限，实在理解不了。齐次微分方程？",
+      "url": "https://www.zhihu.com/answer/714558997",
+      "summary": "定义齐次一阶微分方程并推导变量代换。"
+    },
+    {
+      "title": "一竖直旋转圆柱上连接一均质柔软有限长绳，稳定时绳是什么形状？",
+      "url": "https://www.zhihu.com/answer/732611277",
+      "summary": "建立旋转绳运动的常微分方程。"
+    },
+    {
+      "title": "一竖直旋转圆柱上连接一均质柔软有限长绳，稳定时绳是什么形状？",
+      "url": "https://www.zhihu.com/answer/746737923",
+      "summary": "把稳定形状归结为非线性二阶常微分方程。"
+    },
+    {
+      "title": "电子得到能量后为什么不能长存在高能轨道，而要再释放能量到低能轨道？",
+      "url": "https://www.zhihu.com/answer/746813975",
+      "summary": "由薛定谔方程整理出耦合的状态振幅微分方程，并进一步求得指数衰变解。"
+    },
+    {
+      "title": "有没有大神可以解释求微分中值定理时用微分方程构造辅助函数的原理？",
+      "url": "https://www.zhihu.com/answer/752399798",
+      "summary": "借一阶微分方程构造中值定理辅助函数。"
+    },
+    {
+      "title": "4个白牛分别在边长为a的正方形的四个顶点上，同时冲向顺时针的下一只白牛，如何用函数表达单只白牛的轨迹？",
+      "url": "https://www.zhihu.com/answer/753684705",
+      "summary": "在极坐标中直接建立运动微分方程。"
+    },
+    {
+      "title": "有质量的弹簧两端分别连接两个小球，如何求系统的振动周期？",
+      "url": "https://www.zhihu.com/answer/756136879",
+      "summary": "分离变量后得到常微分方程。"
+    },
+    {
+      "title": "微积分到底是什么?",
+      "url": "https://www.zhihu.com/answer/759641177",
+      "summary": "说明微分方程可描述系统变化并用于建模。"
+    },
+    {
+      "title": "如何求解微分方程 y\"+（y'）²-y＝0？",
+      "url": "https://www.zhihu.com/answer/778374174",
+      "summary": "正文多种方式求解二阶微分方程。"
+    },
+    {
+      "title": "解微分方程主要是在干什么事？为什么要解微分方程？",
+      "url": "https://www.zhihu.com/answer/781522377",
+      "summary": "用变速跑步解释常微分方程。"
+    },
+    {
+      "title": "如何理论计算多米诺骨牌推进速度？",
+      "url": "https://www.zhihu.com/answer/781806233",
+      "summary": "建立并求解骨牌运动的微分方程。"
+    },
+    {
+      "title": "初等函数之上有无定义「高等函数」？",
+      "url": "https://www.zhihu.com/answer/800217802",
+      "summary": "正文区分常微分方程与偏微分方程，并说明求解时引入 Green 函数和特殊函数。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/800470853",
+      "summary": "正文完整陈述并证明常微分方程中常用的 Grönwall 积分不等式。"
+    },
+    {
+      "title": "解微分方程主要是在干什么事？为什么要解微分方程？",
+      "url": "https://www.zhihu.com/answer/806113398",
+      "summary": "正文直接解释普通与偏微分方程的未知量是函数或多元函数，属于微分方程基础。"
+    },
+    {
+      "title": "如何评价2019年全国大学生数学建模竞赛？",
+      "url": "https://www.zhihu.com/answer/821917386",
+      "summary": "通过微分方程刻画动态过程。"
+    },
+    {
+      "title": "两端固定的纸张拱起所成曲线的方程是什么？",
+      "url": "https://www.zhihu.com/answer/844587517",
+      "summary": "正文从能量变分建立欧拉－伯努利梁微分方程并作摄动求解。"
+    },
+    {
+      "title": "如何用不失真的条件计算证明二阶装置系统阻尼比ζ=0.707最好？",
+      "url": "https://www.zhihu.com/answer/846689406",
+      "summary": "用状态方程描述受控系统。"
+    },
+    {
+      "title": "为什么 n 阶线性齐次微分方程有 n 个线性无关的特解？",
+      "url": "https://www.zhihu.com/answer/848179746",
+      "summary": "系统讨论线性常微分方程解的结构。"
+    },
+    {
+      "title": "偏微分方程中特征线法的原理是什么？",
+      "url": "https://www.zhihu.com/answer/883973687",
+      "summary": "把偏微分方程转化为一阶常微分方程组求解。"
+    },
+    {
+      "title": "求二阶常系数线性非齐次微分方程的特解的方法有哪些？",
+      "url": "https://www.zhihu.com/answer/887694929",
+      "summary": "完整推导二阶常系数非齐次线性微分方程特解。"
+    },
+    {
+      "title": "为什么线性微分方程的全解等于任意一特解加齐次解？",
+      "url": "https://www.zhihu.com/answer/889153565",
+      "summary": "推导一阶线性常微分方程通解。"
+    },
+    {
+      "title": "微分方程有多难学？",
+      "url": "https://www.zhihu.com/answer/892869089",
+      "summary": "系统解释各类常微分方程、初值问题和解法。"
+    },
+    {
+      "title": "指数分布的分布函数是怎么得到的？",
+      "url": "https://www.zhihu.com/answer/893242882",
+      "summary": "正文把无记忆性化为关于生存函数对数的微分方程，解方程后得到指数分布。"
+    },
+    {
+      "title": "如何理解「李群、李代数的初衷就是求解微分方程」？",
+      "url": "https://www.zhihu.com/answer/897370968",
+      "summary": "正文反复说明李群、李代数的发展动机与用途是求解微分方程，并给出薛定谔方程例子。"
+    },
+    {
+      "title": "齐次方程的「齐次」代表什么？",
+      "url": "https://www.zhihu.com/answer/931500959",
+      "summary": "正文逐类解释齐次微分方程的定义、结构特点及其与非齐次方程的区别。"
+    },
+    {
+      "title": "常微分方程的理论对偏微分方程的研究有没有帮助？",
+      "url": "https://www.zhihu.com/answer/935590983",
+      "summary": "正文说明常微分方程的流、局部可积性和动力系统方法如何服务于偏微分方程。"
+    },
+    {
+      "title": "有没有一种行之有效的方法可以将一种函数展开成另外一种函数的级数？",
+      "url": "https://www.zhihu.com/answer/949141748",
+      "summary": "正文把 Sturm-Liouville 问题作为常微分方程的边值问题展开讲解。"
+    },
+    {
+      "title": "怎样求微分方程通解，能不能详细一点？",
+      "url": "https://www.zhihu.com/answer/962015370",
+      "summary": "正文从齐次方程、分离变量和常数变易法推导一阶线性微分方程通解。"
+    },
+    {
+      "title": "机械工程控制基础怎么复习期末考试？",
+      "url": "https://www.zhihu.com/answer/974713807",
+      "summary": "正文通过一阶、二阶及高阶系统的微分方程分析时间响应。"
+    },
+    {
+      "title": "现在的计算机人工智能是否能解答数学题（高中数学以上知识）？",
+      "url": "https://www.zhihu.com/answer/976206184",
+      "summary": "正文推导一阶与二阶常微分方程成对训练数据的构造。"
+    },
+    {
+      "title": "关于传染病的数学模型有哪些？",
+      "url": "https://www.zhihu.com/answer/985150406",
+      "summary": "正文建立并分析 SI、SIS、SIR 等常微分方程模型。"
+    },
+    {
+      "title": "不用Matlab MPC工具箱怎么编写MPC？",
+      "url": "https://www.zhihu.com/answer/992874905",
+      "summary": "正文用系统微分方程进行滚动预测和数值积分。"
+    },
+    {
+      "title": "如何评价陈平教授的新书《代谢增长论》?",
+      "url": "https://www.zhihu.com/answer/1001964465",
+      "summary": "正文用常微分方程建模并分析平衡点和稳定性。"
+    },
+    {
+      "title": "矩阵、数列、微分方程的特征值是什么关系？",
+      "url": "https://www.zhihu.com/answer/1043383224",
+      "summary": "正文从常系数线性微分方程给出特征方程、两种根情形及通解，并从数列构造相应微分方程。"
+    },
+    {
+      "title": "单摆摆角大于 5° 时将作什么运动？",
+      "url": "https://www.zhihu.com/answer/1054273915",
+      "summary": "正文从单摆非线性微分方程推导精确周期。"
+    },
+    {
+      "title": "如何理解障碍李雅普诺夫函数？",
+      "url": "https://www.zhihu.com/answer/1055703620",
+      "summary": "正文用微分方程系统解释 Lyapunov 与 barrier 函数。"
+    },
+    {
+      "title": "冲击函数匹配法和奇异函数平衡分别是什么，有什么区别和联系？",
+      "url": "https://www.zhihu.com/answer/1076480071",
+      "summary": "正文从微分方程出发系统讲解冲击函数匹配与奇异函数平衡。"
+    },
+    {
+      "title": "什么叫齐次方程？什么叫齐次线性方程？两者的齐次为什么不是一回事?",
+      "url": "https://www.zhihu.com/answer/1084986089",
+      "summary": "正文区分齐次微分方程并讲解其变量代换求解。"
+    },
+    {
+      "title": "「动力系统」与「微分方程」的关系是什么？",
+      "url": "https://www.zhihu.com/answer/1099549350",
+      "summary": "正文系统比较动力系统与常微分方程的关系。"
+    },
+    {
+      "title": "是否存在这样一个初等函数：它的三阶导数是其本身，而一、二阶导数不是其本身？",
+      "url": "https://www.zhihu.com/answer/1127511475",
+      "summary": "正文建立三阶常微分方程、求特征根并写出通解。"
+    },
+    {
+      "title": "如何深刻理解存在和唯一性定理？",
+      "url": "https://www.zhihu.com/answer/1145670539",
+      "summary": "正文解释ODE初值问题的存在唯一性条件。"
+    },
+    {
+      "title": "如何解 yy''=1？",
+      "url": "https://www.zhihu.com/answer/1168829105",
+      "summary": "正文逐步求解二阶常微分方程并写出解集。"
+    },
+    {
+      "title": "如何解 yy''=1？",
+      "url": "https://www.zhihu.com/answer/1175582620",
+      "summary": "正文通过降阶、分离变量和积分完整求解非线性常微分方程。"
+    },
+    {
+      "title": "简谐运动的微分方程的解？",
+      "url": "https://www.zhihu.com/answer/1180861823",
+      "summary": "正文用降阶与特征方程两种方式求简谐运动微分方程。"
+    },
+    {
+      "title": "控制理论和控制工程的未来是什么?",
+      "url": "https://www.zhihu.com/answer/1191673983",
+      "summary": "正文围绕微分方程的稳定性、收敛性讨论控制理论。"
+    },
+    {
+      "title": "一个初中物理题目让我纠结了十年，是我错了吗？",
+      "url": "https://www.zhihu.com/answer/1197977197",
+      "summary": "正文建立并分析非线性振子常微分方程。"
+    },
+    {
+      "title": "各个领域中，有什么用核弹打蚊子（用高级技术解决简单问题）的经典案例？",
+      "url": "https://www.zhihu.com/answer/1201595403",
+      "summary": "正文以幂级数代入一阶微分方程，求系数递推和初值问题的解。"
+    },
+    {
+      "title": "放风筝时风筝线是弯曲的，这条曲线长什么样呢？",
+      "url": "https://www.zhihu.com/answer/1203615705",
+      "summary": "正文说明悬链线可由力学平衡建立微分方程。"
+    },
+    {
+      "title": "黎曼流形上的距离公式是否存在？",
+      "url": "https://www.zhihu.com/answer/1207065575",
+      "summary": "正文说明距离极值问题归结为测地线微分方程。"
+    },
+    {
+      "title": "放风筝时风筝线是弯曲的，这条曲线长什么样呢？",
+      "url": "https://www.zhihu.com/answer/1212138828",
+      "summary": "正文说明悬链线的微分方程建模。"
+    },
+    {
+      "title": "男生洗澡很久不出来会在干什么呢？",
+      "url": "https://www.zhihu.com/answer/1228006041",
+      "summary": "正文进一步建立水量增长的一阶微分方程并求解。"
+    },
+    {
+      "title": "学习机器人运动学，动力学需要哪些数学基础课程？",
+      "url": "https://www.zhihu.com/answer/1230323204",
+      "summary": "正文用微分方程建立机器人运动学与动力学模型。"
+    },
+    {
+      "title": "这个微分方程的通解怎么解？",
+      "url": "https://www.zhihu.com/answer/1242285746",
+      "summary": "正文求二阶常系数线性非齐次微分方程的通解。"
+    },
+    {
+      "title": "最优控制理论是什么？",
+      "url": "https://www.zhihu.com/answer/1278542624",
+      "summary": "正文把动态系统约束写成微分方程或方程组。"
+    },
+    {
+      "title": "如果只知道一个函数的导数还是它本身，而不知道e的存在，能不能推出e该函数是e的x幂，并得到e是多少？",
+      "url": "https://www.zhihu.com/answer/1308071621",
+      "summary": "正文直接讲解“微分方程”相关内容。"
+    },
+    {
+      "title": "f'(x)＝f(x＋1)有解吗？",
+      "url": "https://www.zhihu.com/answer/1322413394",
+      "summary": "正文直接讲解“微分方程”相关内容。"
+    },
+    {
+      "title": "如何求空气阻力与速度的平方成正比的斜抛运动轨迹方程？",
+      "url": "https://www.zhihu.com/answer/1329080006",
+      "summary": "正文建立空气阻力与速度平方成正比的运动微分方程组并求解轨迹。"
+    },
+    {
+      "title": "为什么 n 阶线性微分方程的通解由 n 个线性无关的特解线性组合构成，这与线性方程组有关系吗？",
+      "url": "https://www.zhihu.com/answer/1330591190",
+      "summary": "正文把高阶线性微分方程写成算子方程并讨论解空间维数。"
+    },
+    {
+      "title": "什么是欧拉方法（Euler's method）?",
+      "url": "https://www.zhihu.com/answer/1336544086",
+      "summary": "正文用欧拉方法离散求解微分方程初值问题。"
+    },
+    {
+      "title": "导数 dy/dx 是不是一个整体符号？",
+      "url": "https://www.zhihu.com/answer/1341221621",
+      "summary": "正文用导数和换元积分证明可分离变量微分方程的解法。"
+    },
+    {
+      "title": "如何从零开始准备大学生数学建模比赛？",
+      "url": "https://www.zhihu.com/answer/1364048610",
+      "summary": "正文把数学建模题化为微分方程，并用数值求解器求解。"
+    },
+    {
+      "title": "如何计算一个球形水滴在绕直径旋转的表面方程？",
+      "url": "https://www.zhihu.com/answer/1402659548",
+      "summary": "正文把旋转水滴形状化为含边界条件的微分方程。"
+    },
+    {
+      "title": "学完泛函分析可以做哪些事情？",
+      "url": "https://www.zhihu.com/answer/1408988033",
+      "summary": "正文用 Hilbert 空间投影定理解释泛函分析并求解最优控制中的微分方程约束。"
+    },
+    {
+      "title": "三角函数到底是怎么发展来的？",
+      "url": "https://www.zhihu.com/answer/1412008516",
+      "summary": "正文追溯三角函数与微分方程、傅里叶级数和欧拉公式的联系。"
+    },
+    {
+      "title": "如何看待大连理工大学九月份开学只针对学生的封闭式管理？",
+      "url": "https://www.zhihu.com/answer/1426163297",
+      "summary": "正文建立人员流动传染病模型比较封闭管理效果。"
+    },
+    {
+      "title": "如何证明这个反常积分?",
+      "url": "https://www.zhihu.com/answer/1432853225",
+      "summary": "正文直接讲解或推导“微分方程”相关内容。"
+    },
+    {
+      "title": "“唯二”这个词是对的吗？有什么可以完美替代它的词语吗？",
+      "url": "https://www.zhihu.com/answer/1442173486",
+      "summary": "正文直接讲解或推导“微分方程”相关内容。"
+    },
+    {
+      "title": "什么是特征方程？为什么不同的数学应用上都会出现它？它的作用是什么？",
+      "url": "https://www.zhihu.com/answer/1443837414",
+      "summary": "正文直接讲解或推导“微分方程”相关内容。"
+    },
+    {
+      "title": "三体运动的微分方程组是如何列的？既然它没解析解，能否写一下计算过程？",
+      "url": "https://www.zhihu.com/answer/1445978451",
+      "summary": "正文直接讲解或推导“微分方程”相关内容。"
+    },
+    {
+      "title": "三体运动的微分方程组是如何列的？既然它没解析解，能否写一下计算过程？",
+      "url": "https://www.zhihu.com/answer/1447443716",
+      "summary": "正文直接讲解或推导“微分方程”相关内容。"
+    },
+    {
+      "title": "如何评价2020数学建模国赛?",
+      "url": "https://www.zhihu.com/answer/1465678764",
+      "summary": "正文用热传导微分方程和差分方程建立炉温模型。"
+    },
+    {
+      "title": "花一整夜的时间解一个方程是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/1466157126",
+      "summary": "正文从方程解函数引出常微分方程并讨论求解。"
+    },
+    {
+      "title": "导函数 f'(x) 中含有函数 f(x)，怎么求 f(x)？",
+      "url": "https://www.zhihu.com/answer/1467423089",
+      "summary": "正文系统求解一阶线性常微分方程。"
+    },
+    {
+      "title": "如何看懂Ornstein-Uhlenbeck Process？",
+      "url": "https://www.zhihu.com/answer/1531412127",
+      "summary": "正文直接讨论微分方程，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "常数变易法思想的来源或本质是什么？",
+      "url": "https://www.zhihu.com/answer/1541204994",
+      "summary": "正文直接讨论微分方程，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "齐次方程的通解和非齐次方程特解之间的关系?",
+      "url": "https://www.zhihu.com/answer/1544557652",
+      "summary": "正文直接讨论微分方程，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "如何求解双导体球的极化？",
+      "url": "https://www.zhihu.com/answer/1547903684",
+      "summary": "正文用双球坐标系分离变量求解静电边值问题。"
+    },
+    {
+      "title": "常微分方程解对初值的连续依赖性，书上都是定理证明，能否举个最简的方程来说明下，它的解是怎么依赖初值的？",
+      "url": "https://www.zhihu.com/answer/1553359399",
+      "summary": "正文讨论常微分方程初值问题的解及其连续依赖性。"
+    },
+    {
+      "title": "欧拉公式是怎么发现的？证明感觉拿泰勒展开有一种钦定的意思，但不知道当初是怎么发现的?",
+      "url": "https://www.zhihu.com/answer/1576838614",
+      "summary": "正文把欧拉公式的实部和虚部化为二阶线性微分方程求解。"
+    },
+    {
+      "title": "大圆筒内有实心小圆柱体会怎样滚动？一年级女儿问的？",
+      "url": "https://www.zhihu.com/answer/1585517364",
+      "summary": "正文用拉格朗日函数和拉格朗日方程建立双圆筒滚动的非线性微分方程。"
+    },
+    {
+      "title": "f'(x)=f(f(x))这类迭代常微分方程是否有相应的方法求它们的性质？",
+      "url": "https://www.zhihu.com/answer/1588074763",
+      "summary": "正文直接讨论或应用该叶节点主题（微分方程）。"
+    },
+    {
+      "title": "sinx求导为什么是cosx？",
+      "url": "https://www.zhihu.com/answer/1590885177",
+      "summary": "正文直接讲解或使用该主题（一阶线性常微分方程组）。"
+    },
+    {
+      "title": "有没有符合f'(x)=f(x+1)的函数？",
+      "url": "https://www.zhihu.com/answer/1636072854",
+      "summary": "正文给出满足该函数微分方程的最简单零函数解。"
+    },
+    {
+      "title": "有没有符合f'(x)=f(x+1)的函数？",
+      "url": "https://www.zhihu.com/answer/1637287637",
+      "summary": "正文求解时滞型函数微分方程，并用复指数与 Lambert W 表示解。"
+    },
+    {
+      "title": "有没有符合f'(x)=f(x+1)的函数？",
+      "url": "https://www.zhihu.com/answer/1637307762",
+      "summary": "正文解释时滞微分方程与常微分、偏微分方程的区别及延拓解法。"
+    },
+    {
+      "title": "有没有符合f'(x)=f(x+1)的函数？",
+      "url": "https://www.zhihu.com/answer/1638115679",
+      "summary": "正文构造指数与三角函数乘积求解 f'(x)=f(x+1)。"
+    },
+    {
+      "title": "偏微分方程和常微分方程有什么不同？",
+      "url": "https://www.zhihu.com/answer/1666381686",
+      "summary": "正文比较常微分方程与偏微分方程的定义和性质。"
+    },
+    {
+      "title": "很多老师都用1.01的365次方和0.99的365次方论证要坚持每天进步，可这个模型跟实际相符吗?",
+      "url": "https://www.zhihu.com/answer/1669214010",
+      "summary": "正文用微分方程建模学习、记忆与遗忘过程。"
+    },
+    {
+      "title": "三体问题不可解，那清理三体星的文明是怎么打中的？",
+      "url": "https://www.zhihu.com/answer/1682388129",
+      "summary": "正文以非线性矢量微分方程组表述三体问题，并说明无解析解的含义及特殊可解情形。"
+    },
+    {
+      "title": "多元微积分中有偏导数，为什么没有偏积分的概念？",
+      "url": "https://www.zhihu.com/answer/1692132590",
+      "summary": "正文随后连续使用两次偏积分求出波动方程的通解，直接对应微分方程分支。"
+    },
+    {
+      "title": "有没有高中力学的题目，第一眼看着很简单，但做起来很难？",
+      "url": "https://www.zhihu.com/answer/1715077052",
+      "summary": "正文把软绳拉起的力学过程建模为微分方程。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/1715884520",
+      "summary": "正文通过受力分析建立柔链的微分方程。"
+    },
+    {
+      "title": "刘维尔公式是什么？",
+      "url": "https://www.zhihu.com/answer/1724519451",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "微分方程 y''＝y^(-2) 的通解是什么？",
+      "url": "https://www.zhihu.com/answer/1729988858",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "常微分方程的解中，C吸收绝对值的正负号是合理的吗？",
+      "url": "https://www.zhihu.com/answer/1761061570",
+      "summary": "正文具体分析常微分方程通解、特解和绝对值常数的取舍。"
+    },
+    {
+      "title": "高二刚刚学电磁部分，发现一个很特殊的运动，自己的能力列不出速度与时间关系，求大佬指教？",
+      "url": "https://www.zhihu.com/answer/1791526844",
+      "summary": "正文建立电磁运动的速度微分方程并求解。"
+    },
+    {
+      "title": "一个椭圆柱在地上做微小纯滚的周期是多少？",
+      "url": "https://www.zhihu.com/answer/1803442044",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "如何通过系统辨识获得伺服系统精确模型，在此基础上设计满足性能的控制器？",
+      "url": "https://www.zhihu.com/answer/1809914568",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "单侧加热无限大匀质物体， 能否在物体内部形成无数个温度峰值？",
+      "url": "https://www.zhihu.com/answer/1816770791",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "微分的特征方程和特征根到底是什么，怎么算？",
+      "url": "https://www.zhihu.com/answer/1834387233",
+      "summary": "正文围绕二阶常系数齐次微分方程推导解并说明不同根对应不同通解。"
+    },
+    {
+      "title": "如何看待「本文不必参考任何文献」的钱伟长先生？",
+      "url": "https://www.zhihu.com/answer/1840649794",
+      "summary": "正文围绕欧拉伯努利梁的非线性微分方程及近似解展开。"
+    },
+    {
+      "title": "微分方程与空间有何关系？",
+      "url": "https://www.zhihu.com/answer/1877957587",
+      "summary": "正文比较齐次与非齐次线性微分方程及其解空间。"
+    },
+    {
+      "title": "进化论怎么解释我经历的事件？",
+      "url": "https://www.zhihu.com/answer/1881214937",
+      "summary": "正文建立含浮力与阻力的下落速度微分方程并求解。"
+    },
+    {
+      "title": "如何将高阶线性微分方程与线性代数联系起来？",
+      "url": "https://www.zhihu.com/answer/1881441533",
+      "summary": "正文用线性算符和特征值方程求解高阶线性微分方程。"
+    },
+    {
+      "title": "如何将高阶线性微分方程与线性代数联系起来？",
+      "url": "https://www.zhihu.com/answer/1885678187",
+      "summary": "正文把高阶常微分方程化为一阶向量微分方程组。"
+    },
+    {
+      "title": "如何理解物理学中的“关联函数”的物理本质？其在不同物理分支中有哪些应用实例？",
+      "url": "https://www.zhihu.com/answer/1913189365",
+      "summary": "正文把格林函数定义为微分算符的逆核。"
+    },
+    {
+      "title": "微分方程中很多时候绝对值为什么会去掉，谁能总结一下所有情况？比如我拍的这个？",
+      "url": "https://www.zhihu.com/answer/1938013151",
+      "summary": "正文直接讨论并支撑「微分方程」相关内容。"
+    },
+    {
+      "title": "如何通俗易懂讲微扰法？",
+      "url": "https://www.zhihu.com/answer/1956805285",
+      "summary": "正文用微扰展开把非线性微分方程逐阶化为线性方程。"
+    },
+    {
+      "title": "什么是模态分析？",
+      "url": "https://www.zhihu.com/answer/1969258295",
+      "summary": "正文建立悬臂梁的偏微分振动方程。"
+    },
+    {
+      "title": "复数有什么用？感觉生活中完全用不到？",
+      "url": "https://www.zhihu.com/answer/1974851225",
+      "summary": "正文建立并求解描述电路的微分方程。"
+    },
+    {
+      "title": "只有 e^x 求导等于它本身吗？",
+      "url": "https://www.zhihu.com/answer/2027623768",
+      "summary": "正文把求导性质转化为一阶微分方程并求解。"
+    },
+    {
+      "title": "目前最优控制问题有哪些数值算法？",
+      "url": "https://www.zhihu.com/answer/2029767202",
+      "summary": "正文将最优控制离散为微分方程约束的轨迹优化问题。"
+    },
+    {
+      "title": "如何从爱因斯坦场方程求出kerr解？",
+      "url": "https://www.zhihu.com/answer/2030785209",
+      "summary": "正文围绕爱因斯坦场方程及其解展开。"
+    },
+    {
+      "title": "怎样理解倒三角算子 ∇ 作用于一个矢量？",
+      "url": "https://www.zhihu.com/answer/2079219102",
+      "summary": "正文联系 nabla 算符与静电场中的偏微分方程。"
+    },
+    {
+      "title": "抽象函数2f(x)f(y)＝f(x+y)+f(x-y)的通式是什么？？",
+      "url": "https://www.zhihu.com/answer/2093101132",
+      "summary": "正文把函数方程化为二阶线性微分方程分类求解。"
+    },
+    {
+      "title": "微分方程中奇解，通解，特解，所有解之间是什么关系呢？",
+      "url": "https://www.zhihu.com/answer/2100682237",
+      "summary": "正文解释微分方程的通解、特解、奇解与全部解之间的关系。"
+    },
+    {
+      "title": "你见过的最厉害的数学竞赛生，是怎么样的?",
+      "url": "https://www.zhihu.com/answer/2162782334",
+      "summary": "正文介绍韦东奕在偏微分方程与流体研究方面的成果。"
+    },
+    {
+      "title": "同为高龄中单，为什么faker还能晋级四强，而doinb只能拿个臭16强回家？",
+      "url": "https://www.zhihu.com/answer/2183175682",
+      "summary": "正文实际完整求解一阶微分方程，并利用初始条件得到特解。"
+    },
+    {
+      "title": "如果我能无条件解出任何微分方程解析解，会发生什么？",
+      "url": "https://www.zhihu.com/answer/2184780569",
+      "summary": "正文讨论微分方程解析解的存在、复杂度和求值问题。"
+    },
+    {
+      "title": "为什么变分法的教材这么少？还有变分处理的不是泛函么？为什么泛函的教材一点都不涉及这个？",
+      "url": "https://www.zhihu.com/answer/2210684791",
+      "summary": "正文用常微分方程、边界值问题和拉格朗日方程处理动力学模型。"
+    },
+    {
+      "title": "有没有靠谱儿的微分方程书籍推荐？",
+      "url": "https://www.zhihu.com/answer/2212574411",
+      "summary": "正文比较常微分方程、偏微分方程与随机微分方程的学习内容。"
+    },
+    {
+      "title": "2021年你的控制理论研究有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/2225376253",
+      "summary": "正文用微分方程建模线性定常控制系统的动态行为。"
+    },
+    {
+      "title": "如何理解「李群、李代数的初衷就是求解微分方程」？",
+      "url": "https://www.zhihu.com/answer/2252192396",
+      "summary": "正文说明李群方法用于把微分方程化为可积分形式。"
+    },
+    {
+      "title": "初学matlab需要什么基础吗？",
+      "url": "https://www.zhihu.com/answer/2253675127",
+      "summary": "正文用 dsolve 求解初值问题与线性微分方程组。"
+    },
+    {
+      "title": "如何直白通俗地理解PID控制算法？",
+      "url": "https://www.zhihu.com/answer/2260453030",
+      "summary": "正文用连续时间微分方程形式展开控制律。"
+    },
+    {
+      "title": "请问有大佬有倒向随机微分方程（bsde）相关比较详细易懂的notes、文献或者教材推荐吗？",
+      "url": "https://www.zhihu.com/answer/2266790220",
+      "summary": "正文推荐倒向随机微分方程的系统教材和讲义。"
+    },
+    {
+      "title": "数学家如何理解产生和湮灭算符？",
+      "url": "https://www.zhihu.com/answer/2281880863",
+      "summary": "正文用分离变量法求解一阶常微分方程。"
+    },
+    {
+      "title": "科研中量子场论的计算都使用哪来的程序？",
+      "url": "https://www.zhihu.com/answer/2292105991",
+      "summary": "正文说明通过微分方程及边界条件解析计算费曼积分。"
+    },
+    {
+      "title": "有没有一个函数求导后幂会变高？",
+      "url": "https://www.zhihu.com/answer/2303333012",
+      "summary": "正文建立 y'/y=x 的微分方程并用分离变量求解。"
+    },
+    {
+      "title": "一只鸟被装到铁笼子里从高处丢下，鸟会死吗？",
+      "url": "https://www.zhihu.com/answer/2313904703",
+      "summary": "正文建立笼子和鸟下落过程的微分方程模型。"
+    },
+    {
+      "title": "物理系的学生如何学习数学物理方法？",
+      "url": "https://www.zhihu.com/answer/2316031981",
+      "summary": "正文具体讨论偏微分方程分离变量、Legendre/Bessel 方程、格林函数和算子解法等。"
+    },
+    {
+      "title": "有且仅有函数e^x的导数与本身相等吗？如何证明？",
+      "url": "https://www.zhihu.com/answer/2320037795",
+      "summary": "正文把导函数等于自身的函数转化为微分方程并求解。"
+    },
+    {
+      "title": "如何用各学科专业知识拜年？",
+      "url": "https://www.zhihu.com/answer/2329040836",
+      "summary": "正文展示分离变量与边值条件求解偏微分方程。"
+    },
+    {
+      "title": "如何推导单摆周期公式？",
+      "url": "https://www.zhihu.com/answer/2333500689",
+      "summary": "正文从单摆受力建立非线性运动微分方程。"
+    },
+    {
+      "title": "如何求解微分方程 y\"+（y'）²-y＝0？",
+      "url": "https://www.zhihu.com/answer/2339679371",
+      "summary": "正文用李群与微分不变量对二阶非线性微分方程降阶求解。"
+    },
+    {
+      "title": "你见过最美的 MATLAB 绘图是什么？",
+      "url": "https://www.zhihu.com/answer/2350660517",
+      "summary": "正文演示常微分方程及初值问题的求解。"
+    },
+    {
+      "title": "为何平面波可以用球Bessel函数展开？",
+      "url": "https://www.zhihu.com/answer/2365565349",
+      "summary": "正文从自由粒子的定态薛定谔方程出发推导球面波展开。"
+    },
+    {
+      "title": "如何通俗易懂地解释HJB方程？",
+      "url": "https://www.zhihu.com/answer/2369469308",
+      "summary": "正文推导最优控制值函数所满足的 HJB 微分方程。"
+    },
+    {
+      "title": "特征方程是什么?",
+      "url": "https://www.zhihu.com/answer/2374931012",
+      "summary": "正文把常系数线性微分方程化为矩阵并解释其特征方程。"
+    },
+    {
+      "title": "解微分方程为什么会出现个 e？",
+      "url": "https://www.zhihu.com/answer/2385143511",
+      "summary": "正文围绕微分方程解中的指数函数展开推导。"
+    },
+    {
+      "title": "Gronwall不等式最初是为了解决什么问题？",
+      "url": "https://www.zhihu.com/answer/2390941191",
+      "summary": "正文追溯 Gronwall 不等式在常微分方程组解对参数连续依赖中的应用。"
+    },
+    {
+      "title": "什么是「齐次」「非齐次」「线性」「非线性」？",
+      "url": "https://www.zhihu.com/answer/2409274525",
+      "summary": "正文以微分方程为主线，逐项解释齐次、非齐次、线性与非线性。"
+    },
+    {
+      "title": "为什么天体轨道是圆锥曲线（椭圆、抛物线、双曲线）？",
+      "url": "https://www.zhihu.com/answer/2424106144",
+      "summary": "正文建立并求解径向轨道微分方程，得到圆锥曲线轨道。"
+    },
+    {
+      "title": "怎样才叫真正理解PID？",
+      "url": "https://www.zhihu.com/answer/2458011242",
+      "summary": "正文以微分方程和传递函数分析 PID 闭环系统。"
+    },
+    {
+      "title": "什么是Seiberg-Witten理论？",
+      "url": "https://www.zhihu.com/answer/2458637263",
+      "summary": "正文将问题转化为通过微分方程复现单值化和渐近行为。"
+    },
+    {
+      "title": "当物块与接触面的摩擦因数恒定已知时，最速降线还会是摆线吗？",
+      "url": "https://www.zhihu.com/answer/2470342979",
+      "summary": "正文用欧拉-拉格朗日方程把变分问题化为微分方程组。"
+    },
+    {
+      "title": "能不能用本科生也能听懂的话介绍一下现代PDE主要研究哪些内容?",
+      "url": "https://www.zhihu.com/answer/2478575907",
+      "summary": "正文讨论发展方程及用半群方法研究微分方程。"
+    },
+    {
+      "title": "韦东奕称「帮博士团队解决数学问题是假新闻」，谣言始作俑者道歉，如何看待类似的「造神」现象？",
+      "url": "https://www.zhihu.com/answer/2483940080",
+      "summary": "正文区分基础数学中的微分方程证明与具体求解。"
+    },
+    {
+      "title": "花一整夜的时间解一个方程是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/2495940785",
+      "summary": "正文完整讨论一组常微分方程的数值求解与时间演化。"
+    },
+    {
+      "title": "拉格朗日方程中，为什么说广义坐标不是时间的函数？",
+      "url": "https://www.zhihu.com/answer/2497290461",
+      "summary": "正文详细解释广义坐标、演化路径与作用量原理，并落到 Euler-Lagrange 运动方程。"
+    },
+    {
+      "title": "把肉拿出去晒的时候想到的，一根钢丝，两端是固定绞支座。肉如何挂才能使钢丝在极限承载力之下挂更多的肉？",
+      "url": "https://www.zhihu.com/answer/2506684480",
+      "summary": "正文由绳索受力平衡和边界条件建立二阶常微分方程，并在绳长约束下求解。"
+    },
+    {
+      "title": "如何求解滑块在带摩擦的圆弧面上的运动？",
+      "url": "https://www.zhihu.com/answer/2513856031",
+      "summary": "建立滑块在曲面上的非线性常微分方程组，并给出初值条件与解析解对照。"
+    },
+    {
+      "title": "diffusion model 最近在图像生成领域大红大紫，如何看待它的风头开始超过 GAN ？",
+      "url": "https://www.zhihu.com/answer/2523471980",
+      "summary": "说明扩散模型用随机微分方程做连续时间的采样与模拟。"
+    },
+    {
+      "title": "如何真正从本质上理解数学?",
+      "url": "https://www.zhihu.com/answer/2549205708",
+      "summary": "把工程客户的建模问题归结为微分方程并求解。"
+    },
+    {
+      "title": "如何求均匀带电旋转椭球的电势能？",
+      "url": "https://www.zhihu.com/answer/2549581918",
+      "summary": "通过求解 Poisson 方程得到格林函数的椭球坐标展开。"
+    },
+    {
+      "title": "如何将高阶线性微分方程与线性代数联系起来？",
+      "url": "https://www.zhihu.com/answer/2561627459",
+      "summary": "正文系统讨论高阶常系数齐次与非齐次线性微分方程及其通解结构。"
+    },
+    {
+      "title": "清华大学期末考试微积分难度和考研数学一微积分难度谁高？",
+      "url": "https://www.zhihu.com/answer/2566657304",
+      "summary": "用特征方程求齐次解并设置特解，完整求解二阶常系数线性微分方程。"
+    },
+    {
+      "title": "能不能从数学各个分支的例子谈谈层（sheaf）为什么重要？",
+      "url": "https://www.zhihu.com/answer/2568405182",
+      "summary": "讨论线性微分方程局部解、整体解与绕奇点延拓产生的单值化现象。"
+    },
+    {
+      "title": "复数的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/2588031235",
+      "summary": "比较实数与复数表示下一维声波方程的求解，说明复数解法的简化作用。"
+    },
+    {
+      "title": "如何以“废后喝下毒酒前，含泪问我‘你会解偏微分方程组吗？’”为开头写一个故事？",
+      "url": "https://www.zhihu.com/answer/2622381004",
+      "summary": "以扩散方程为例展示用微分方程建模浓度随时间和空间变化。"
+    },
+    {
+      "title": "牛顿莱布尼茨公式的证明很精巧，我很好奇当初他们的发现过程是怎么样的?",
+      "url": "https://www.zhihu.com/answer/2631042792",
+      "summary": "介绍莱布尼茨在常微分方程分离变量、线性方程与等时问题上的工作。"
+    },
+    {
+      "title": "如何理解「李群、李代数的初衷就是求解微分方程」？",
+      "url": "https://www.zhihu.com/answer/2639750919",
+      "summary": "把 Riccati 方程等微分方程表述为李方程并用对称性求解。"
+    },
+    {
+      "title": "参加数学建模国赛，需要掌握哪些模型和算法？",
+      "url": "https://www.zhihu.com/answer/2645490164",
+      "summary": "列出 ODE、SDE、DDE、DAE、PDE 与差分方程等动态模型。"
+    },
+    {
+      "title": "如何理解控制的精髓?",
+      "url": "https://www.zhihu.com/answer/2649779589",
+      "summary": "从微分方程、频域和状态空间角度解释控制系统的建模与分析。"
+    },
+    {
+      "title": "有一些超级难的算法比如遗传算法，蚁群算法，看了数学建模国赛感觉好难写，那些人怎么写出来的?",
+      "url": "https://www.zhihu.com/answer/2657240477",
+      "summary": "讨论常微分方程与偏微分方程模型的数值求解方法。"
+    },
+    {
+      "title": "日后想学金融工程，数值分析和随机过程更推荐上哪一门课呢？",
+      "url": "https://www.zhihu.com/answer/2658739468",
+      "summary": "讨论随机微分方程的离散化、步长选择与 Milstein、Euler 等数值解法。"
+    },
+    {
+      "title": "数学建模中最重要的算法有哪些？",
+      "url": "https://www.zhihu.com/answer/2670009439",
+      "summary": "正文介绍了微分方程建模、常微分方程数值解和偏微分方程数值解。"
+    },
+    {
+      "title": "2022数学建模国赛ABCDE题怎么分析?",
+      "url": "https://www.zhihu.com/answer/2674633717",
+      "summary": "正文给出常微分方程和混合微分方程的初值问题形式及欧拉、改进欧拉数值迭代方法。"
+    },
+    {
+      "title": "怎么证明单摆周期公式？",
+      "url": "https://www.zhihu.com/answer/2694972732",
+      "summary": "正文在小摆角近似下建立并求解二阶常微分方程，得到简谐运动解和周期公式。"
+    },
+    {
+      "title": "如何理解量子物理或统计物理中几乎无处不在的 exp(-E/kT) ？",
+      "url": "https://www.zhihu.com/answer/2709634032",
+      "summary": "由函数方程导出并积分微分方程，最终得到指数函数形式。"
+    },
+    {
+      "title": "如何评价 8 岁郭承曦和 11 岁郭承光精通电动力学、流体力学、量子化学、常微分方程等许多理工专业课？",
+      "url": "https://www.zhihu.com/answer/2711458017",
+      "summary": "讨论常微分方程讲解中积分因子法与伯努利方程化归的严谨性。"
+    },
+    {
+      "title": "机器人控制在实际中用到了动力学控制吗？",
+      "url": "https://www.zhihu.com/answer/2715215158",
+      "summary": "建立平面欠驱动倒立摆的动力学方程并用于控制设计。"
+    },
+    {
+      "title": "仅有概率论数理统计基础要如何达到能应用Ornstein-Uhlenbeck过程的程度?",
+      "url": "https://www.zhihu.com/answer/2757050138",
+      "summary": "正文比较ODE、PDE与SDE的解析可解性，并列举线性方程、热传导方程等少数可解析情形，实质讨论微分方程。"
+    },
+    {
+      "title": "求解方程时，人们为什么不接受无解情况，而为方程有意义而发明一些如虚数等新的数的概念？",
+      "url": "https://www.zhihu.com/answer/2757866840",
+      "summary": "正文以二阶常系数齐次微分方程为应用，说明复特征根如何导出实值三角函数振动解。"
+    },
+    {
+      "title": "什么是最速曲线的原理？",
+      "url": "https://www.zhihu.com/answer/2768689823",
+      "summary": "正文由能量守恒、折射定律和速度关系推出倒摆线的微分方程，并进一步给出参数方程和时间演化。"
+    },
+    {
+      "title": "如何求微分方程 y″ + y = 0 的通解？",
+      "url": "https://www.zhihu.com/answer/2787054766",
+      "summary": "正文通过引入复指数因子、积分并整理任意常数，完整求出二阶线性微分方程 y''+y=0 的通解。"
+    },
+    {
+      "title": "如何求微分方程 y″ + y = 0 的通解？",
+      "url": "https://www.zhihu.com/answer/2790605413",
+      "summary": "正文把二阶初值问题化为一阶系统，并通过迭代与极限得到含任意初值的解。"
+    },
+    {
+      "title": "自动控制方面的大牛们都有哪些主要贡献？",
+      "url": "https://www.zhihu.com/answer/2817278165",
+      "summary": "正文说明麦克斯韦用微分方程建立调速器动态模型，并以特征方程根的实部判断系统稳定性。"
+    },
+    {
+      "title": "我是大一的，今年学大学物理，感觉好难好奇怪啊，就是各种矢量求微分求积分总感觉很奇怪，感觉大物好难？",
+      "url": "https://www.zhihu.com/answer/2829865855",
+      "summary": "正文定义微分方程，完整求解可分离变量方程和简谐振动对应的二阶微分方程。"
+    },
+    {
+      "title": "微分几何中为什么定义指数映射？",
+      "url": "https://www.zhihu.com/answer/2834638998",
+      "summary": "正文把指数映射解释成积分曲线问题，并明确指出测地指数映射对应求解二阶测地微分方程。"
+    },
+    {
+      "title": "禁e^x-1，tanx，sinx，arctanx，arcsinx，㏑（1+x），√2（1-cosx）？",
+      "url": "https://www.zhihu.com/answer/2866647137",
+      "summary": "正文构造积分因子 g(x)=e^{-x}f(x)，把一阶微分方程化为常函数并求出通解。"
+    },
+    {
+      "title": "请教一下大神这个微分方程怎么解?",
+      "url": "https://www.zhihu.com/answer/2920887255",
+      "summary": "正文围绕原微分方程两次选择换元并化简方程来说明求解思路。"
+    },
+    {
+      "title": "为什么有人喜欢偏微分方程？",
+      "url": "https://www.zhihu.com/answer/2938765824",
+      "summary": "正文围绕微分方程的研究体验，举例说明换元、离散化和不等式估计等求解与分析手段。"
+    },
+    {
+      "title": "sin（x）求四次导数还是原函数，和e^（x）的性质相似，这和欧拉公式有关系吗？",
+      "url": "https://www.zhihu.com/answer/2959799087",
+      "summary": "正文构造二阶常系数齐次微分方程，借助特征方程求通解并用初始条件确定特解。"
+    },
+    {
+      "title": "sin（x）求四次导数还是原函数，和e^（x）的性质相似，这和欧拉公式有关系吗？",
+      "url": "https://www.zhihu.com/answer/2962223878",
+      "summary": "正文建立带初值条件的一阶微分方程组，并以其唯一解定义正弦和余弦。"
+    },
+    {
+      "title": "两端固定的纸张拱起所成曲线的方程是什么？",
+      "url": "https://www.zhihu.com/answer/2970744309",
+      "summary": "正文把拱起纸张建模为Euler弹性线，推导角度满足的单摆型微分方程并讨论边界条件与数值求解。"
+    },
+    {
+      "title": "关于微分方程如何理解?",
+      "url": "https://www.zhihu.com/answer/2974607196",
+      "summary": "正文推导一阶线性微分方程的积分因子法，并得到包含任意常数的一阶线性方程通解。"
+    },
+    {
+      "title": "如何通俗直白地理解卡尔曼滤波算法？",
+      "url": "https://www.zhihu.com/answer/2983629923",
+      "summary": "正文由离散状态差得到连续状态方程，并用微分方程解释滤波器的动态。"
+    },
+    {
+      "title": "一道微分方程，哪位小朋友会解？",
+      "url": "https://www.zhihu.com/answer/2991164054",
+      "summary": "正文从二阶微分方程出发，连续换元并分离变量，逐步求出一阶量与因变量的关系。"
+    },
+    {
+      "title": "求助怎么解这两个微分方程?",
+      "url": "https://www.zhihu.com/answer/2992852001",
+      "summary": "正文针对含 y' 的一阶方程令 p=y sec x 换元，分离变量后求出通解。"
+    },
+    {
+      "title": "1²+2²+…+n²求和公式的推导有哪些方法?",
+      "url": "https://www.zhihu.com/answer/3049162544",
+      "summary": "正文说明可把平方和问题转化为带初始条件的二阶微分方程，并通过求其解得到求和公式。"
+    },
+    {
+      "title": "控制系统的零点和极点的本质是什么？",
+      "url": "https://www.zhihu.com/answer/3061195927",
+      "summary": "正文利用 e^{st} 各阶导数仍为同型函数，说明线性微分方程经拉普拉斯变换后化为代数方程。"
+    },
+    {
+      "title": "微分方程没有解析解可以说明人类数学体系有缺陷吗？",
+      "url": "https://www.zhihu.com/answer/3076651896",
+      "summary": "正文区分微分方程没有解析解与没有解，说明其解需要初等函数以外的表达或近似方法。"
+    },
+    {
+      "title": "如何直观理解欧拉公式？",
+      "url": "https://www.zhihu.com/answer/3077725665",
+      "summary": "正文说明微分方程由局部运动规律推导整体运动，并实际以dy/dx=iy求解指数表示。"
+    },
+    {
+      "title": "为什么感觉有些数学证明看起来像猜到的一样，总是不讲为什么？",
+      "url": "https://www.zhihu.com/answer/3092670138",
+      "summary": "正文把 H-surfaces 的临界条件写成带附加项的调和映照方程，具体讨论了这类微分方程的结构。"
+    },
+    {
+      "title": "傅里叶变换、拉普拉斯变换、Z 变换的联系是什么？为什么要进行这些变换？",
+      "url": "https://www.zhihu.com/answer/3141100255",
+      "summary": "正文具体说明拉普拉斯变换求解线性微分方程的代数和逆变换流程。"
+    },
+    {
+      "title": "微分方程f'(x)=f(f(x))有非平凡解吗？",
+      "url": "https://www.zhihu.com/answer/3150082038",
+      "summary": "正文把 f'(x)=f(f(x)) 归为迭代微分方程，并通过幂函数假设、求导与迭代求出两类显式解。"
+    },
+    {
+      "title": "有没有符合f'(x)=f(x+1)的函数？",
+      "url": "https://www.zhihu.com/answer/3156612640",
+      "summary": "正文研究函数与其导数移位相等的方程，给出一般构造、基本面解以及初值和积分常数对应的解集。"
+    },
+    {
+      "title": "微积分到底是什么?",
+      "url": "https://www.zhihu.com/answer/3192007606",
+      "summary": "正文定义一阶微分方程，并讨论初值条件、解析解、数值解及其应用。"
+    },
+    {
+      "title": "变分法的基本原理是什么？",
+      "url": "https://www.zhihu.com/answer/3193263235",
+      "summary": "正文由最速降线的首次积分得到常微分方程，并通过参数代换求出摆线解。"
+    },
+    {
+      "title": "想要系统的学习博弈论应该了解哪些知识呢？",
+      "url": "https://www.zhihu.com/answer/3204875602",
+      "summary": "正文说明演化博弈用常微分方程构造动力系统，微分博弈还用偏微分方程构造 HJB 方程。"
+    },
+    {
+      "title": "哈密顿力学的辛几何算法，在现今结构计算当中的应用程度如何？",
+      "url": "https://www.zhihu.com/answer/3234934361",
+      "summary": "正文从广义坐标、广义动量和哈密顿量出发描述哈密顿微分方程系统及其相流。"
+    },
+    {
+      "title": "控制中拉普拉斯变换是如何推出来的？",
+      "url": "https://www.zhihu.com/answer/3239465899",
+      "summary": "正文讨论微分和微分方程组求解困难，并说明变换到频域后可将微分运算化为代数运算。"
+    },
+    {
+      "title": "为什么物理里省略高阶小量是在数学上严格相等，这里的严格证明过程是什么？",
+      "url": "https://www.zhihu.com/answer/3249391530",
+      "summary": "正文把单摆运动化为角度函数θ(t)的微分方程，并利用余项比较后近似求解周期。"
+    },
+    {
+      "title": "数分的核心是什么？为什么说数分重要？",
+      "url": "https://www.zhihu.com/answer/3251201200",
+      "summary": "正文以线性微分方程解的存在性定理为例，把微分方程化为积分方程并构造其解。"
+    },
+    {
+      "title": "学数学要怎样才可以把书中的定理全部推出来？",
+      "url": "https://www.zhihu.com/answer/3257638668",
+      "summary": "正文以常微分方程中的皮卡存在唯一性定理为例，比较积分序列与不动点压缩映射两种证明思路。"
+    },
+    {
+      "title": "复数在电路中有什么作用？",
+      "url": "https://www.zhihu.com/answer/3288849992",
+      "summary": "正文通过 RLC 电路建立二阶微分方程，并讨论齐次方程通解与非齐次方程特解的求法。"
+    },
+    {
+      "title": "算形状因子时，碰到了这个积分，应该怎么积（已解决）？",
+      "url": "https://www.zhihu.com/answer/3295964952",
+      "summary": "正文通过构造并求解 f''(t)-f(t)=0 的二阶常微分方程来完成积分证明。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3309812137",
+      "summary": "正文说明常微分方程课程中的解与存在唯一性工具，并具体讲解用矩阵指数描述微分方程组。"
+    },
+    {
+      "title": "如何理解扩散模型中的SDE？",
+      "url": "https://www.zhihu.com/answer/3315930820",
+      "summary": "正文把扩散模型的前向过程写成 Itô 随机微分方程，并进一步推导反向方程，实质讲解了一类微分方程建模。"
+    },
+    {
+      "title": "如何理解欧拉-拉格朗日方程、哈密顿原理、哈密顿正则方程、哈密顿-雅可比方程之间的内在联系与不同？",
+      "url": "https://www.zhihu.com/answer/3326995897",
+      "summary": "正文由拉格朗日函数和欧拉-拉格朗日方程导出未知轨迹满足的微分方程，并结合边界条件求解。"
+    },
+    {
+      "title": "研究生pde方向，读研前要学会哪些课程？",
+      "url": "https://www.zhihu.com/answer/3328794322",
+      "summary": "正文具体列出皮卡迭代、解的存在唯一性以及解对初值的连续可微性等常微分方程理论。"
+    },
+    {
+      "title": "偏微分方程如何理解？",
+      "url": "https://www.zhihu.com/answer/3332220243",
+      "summary": "正文通过联系与区分常微分方程和偏微分方程，说明微分方程所描述的变化率关系。"
+    },
+    {
+      "title": "如何直白通俗地理解PID控制算法？",
+      "url": "https://www.zhihu.com/answer/3351120998",
+      "summary": "正文给出以车辆位置、航向和速度为状态变量、含时间导数项的运动学微分方程组。"
+    },
+    {
+      "title": "是否存在一个增函数和一个减函数互为导数?",
+      "url": "https://www.zhihu.com/answer/3378701717",
+      "summary": "正文把互为导数的增减函数问题化为二阶微分方程 y''=y，并给出通解和一组特解。"
+    },
+    {
+      "title": "如何理解 Mamba 模型 Selective State Spaces?",
+      "url": "https://www.zhihu.com/answer/3407426487",
+      "summary": "正文从连续状态方程出发，通过导数、积分和常微分方程求解讨论离散化，实质讲解微分方程及其在 SSM 中的应用。"
+    },
+    {
+      "title": "扩散模型中的Reverse Time SDE是怎么推导得到的呢？",
+      "url": "https://www.zhihu.com/answer/3421808487",
+      "summary": "正文从正向随机微分方程出发，借助对应的常微分方程推导逆向随机微分方程。"
+    },
+    {
+      "title": "如何通俗易懂地解释HJB方程？",
+      "url": "https://www.zhihu.com/answer/3429118538",
+      "summary": "正文以受控 ODE 描述系统动力学，并推出 HJB 偏微分方程以及沿最优轨迹递推的常微分方程。"
+    },
+    {
+      "title": "线性代数特征值到底是个什么东西？",
+      "url": "https://www.zhihu.com/answer/3452012695",
+      "summary": "正文以 y′′−y′=0 为例求指数特解，再把它化为一阶微分方程组和矩阵形式讨论通解。"
+    },
+    {
+      "title": "流体力学前沿都在研究什么内容？",
+      "url": "https://www.zhihu.com/answer/3456758233",
+      "summary": "正文以重调和方程、二维 Stokes 方程和复解析解为核心讨论微分方程的求解。"
+    },
+    {
+      "title": "模型预测控制（MPC）渐进稳定性是怎么证明的？",
+      "url": "https://www.zhihu.com/answer/3467865320",
+      "summary": "正文通过受控系统的 Lyapunov 函数导数、水平集和 ODE 约束讨论反馈控制与最优控制的稳定性。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/3477201708",
+      "summary": "正文讨论三体问题的微分方程阶数与求解积分，并叙述欧拉求解常系数线性微分方程及处理引力摄动。"
+    },
+    {
+      "title": "请教滑模控制的本质是什么？",
+      "url": "https://www.zhihu.com/answer/3512625377",
+      "summary": "正文讨论含符号切换的微分方程右端不满足Lipschitz条件、缺少经典解及需要非连续分析。"
+    },
+    {
+      "title": "参加数学建模用 MATLAB，还是 Python？",
+      "url": "https://www.zhihu.com/answer/3514130127",
+      "summary": "正文以二阶线性微分方程为例，说明先求齐次方程通解和特解，再用 MATLAB 求解。"
+    },
+    {
+      "title": "有没有一个函数求导后幂会变高？",
+      "url": "https://www.zhihu.com/answer/3521971075",
+      "summary": "正文先建立导函数等于原函数乘幂的微分方程，再通过分离变量和积分求解该方程。"
+    },
+    {
+      "title": "数学系和物理系学生有什么差别？",
+      "url": "https://www.zhihu.com/answer/3524511793",
+      "summary": "正文展示分离变量并积分求解 dy/y=dx，同时说明常微分方程中积分常数符号合并的写法。"
+    },
+    {
+      "title": "如何评价俄罗斯数学家诺维科夫？",
+      "url": "https://www.zhihu.com/answer/3540254150",
+      "summary": "正文以 KdV 方程为例说明周期边界下解与谱结构的关系，实质涉及微分方程及其解。"
+    },
+    {
+      "title": "如何看待姜萍把「ƶ̇=b」抄写成了「主=6」 ？",
+      "url": "https://www.zhihu.com/answer/3540709912",
+      "summary": "正文把偏微分方程问题沿特征方向化为常微分方程，在 s=-t 时回代初值并求得 u(x,t)。"
+    },
+    {
+      "title": "如何看待姜萍把「ƶ̇=b」抄写成了「主=6」 ？",
+      "url": "https://www.zhihu.com/answer/3542753336",
+      "summary": "正文在求解传输方程时把问题化为常微分方程，并解释衰减项对应变化的解。"
+    },
+    {
+      "title": "有没有大佬知道姜萍事件，假如一个人从“高等数学”学到“偏微分方程”需要读多少书，付出多大的努力？",
+      "url": "https://www.zhihu.com/answer/3546999572",
+      "summary": "正文以二阶偏微分方程的分类说明微分方程研究对象的类型广度。"
+    },
+    {
+      "title": "数学上的有天赋是什么样的?",
+      "url": "https://www.zhihu.com/answer/3569454008",
+      "summary": "正文用自治微分方程组、相轨迹、平衡点和极限环介绍微分方程的定性理论。"
+    },
+    {
+      "title": "（5368）除f(x) = eˣ 外，是否存在一个函数，满足原函数=二阶导数？",
+      "url": "https://www.zhihu.com/answer/3573370633",
+      "summary": "正文用零函数及其一阶、二阶导数均为零验证其原函数等于二阶导数，给出了一个微分方程特解。"
+    },
+    {
+      "title": "1/lnx的导数是-1/xln²x，x²/2的导数是x，求(xlnx-x)/2ln²x的原函数？",
+      "url": "https://www.zhihu.com/answer/3587454054",
+      "summary": "正文在复数域分解常微分方程，分别求解两个一阶线性齐次方程并合并得到原方程通解。"
+    },
+    {
+      "title": "为什么要研究矩阵的特征值和特征向量？",
+      "url": "https://www.zhihu.com/answer/3623132935",
+      "summary": "正文把二阶常系数线性微分方程转化为一阶系统，并说明矩阵特征值如何用于写出方程解。"
+    },
+    {
+      "title": "分离的变量为啥是相乘的形式？",
+      "url": "https://www.zhihu.com/answer/3623488396",
+      "summary": "正文完整说明从齐次线性方程的特征解到结合边界条件求分离变量解的微分方程方法。"
+    },
+    {
+      "title": "为什么工程技术中存在大量的经验公式？",
+      "url": "https://www.zhihu.com/answer/4024844771",
+      "summary": "正文对照含 sin θ 的非线性单摆方程与线性化方程，并用小角度范围说明两者计算难度差异。"
+    },
+    {
+      "title": "如何求解微分方程：y'' + coswt y = 0?",
+      "url": "https://www.zhihu.com/answer/4730883537",
+      "summary": "正文从二阶线性马丢方程出发，说明周期系数方程及其周期解，并用微扰法构造解。"
+    },
+    {
+      "title": "拉普拉斯变换的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/5098586382",
+      "summary": "正文利用微分性质和质量-弹簧系统的微分方程，演示如何经拉普拉斯变换求解系统响应。"
+    },
+    {
+      "title": "如何解单摆方程？",
+      "url": "https://www.zhihu.com/answer/8800778047",
+      "summary": "正文建立单摆的非线性运动方程，并给出由椭圆函数表达的精确解。"
+    },
+    {
+      "title": "为什么行星的运行轨道都是椭圆的?",
+      "url": "https://www.zhihu.com/answer/14293339924",
+      "summary": "正文从行星运动方程出发，通过换元与化简得到二阶常微分方程并求解轨道通解。"
+    },
+    {
+      "title": "为什么概率论越往现代发展感觉越让人感到迷惑？",
+      "url": "https://www.zhihu.com/answer/23893716480",
+      "summary": "正文构造了一个关于未知函数的常微分方程，并给出其在积分形式下的解。"
+    },
+    {
+      "title": "简谐振动公式是怎么推导的？",
+      "url": "https://www.zhihu.com/answer/25826817504",
+      "summary": "正文从弹簧振子的牛顿第二定律导出二阶运动方程，并结合初始条件求位移通解。"
+    },
+    {
+      "title": "如何看待《数学物理方法》逼疯一群又一群学生?",
+      "url": "https://www.zhihu.com/answer/35978024106",
+      "summary": "正文给出常微分方程边界值问题，并用边界条件和分离变量法说明偏微分方程如何化为常微分方程。"
+    },
+    {
+      "title": "MATLAB在逐渐被Python淘汰吗？",
+      "url": "https://www.zhihu.com/answer/40529040446",
+      "summary": "正文通过改进欧拉法、ode45 和 ode15s 等实验讨论常微分方程的解析与数值求解。"
+    },
+    {
+      "title": "从事复杂系统科学（非线性动力学）研究需要很强的数学能力吗？",
+      "url": "https://www.zhihu.com/answer/57220171718",
+      "summary": "正文列举非线性系统的线性化、中心流形、Poincaré 映射及非线性发展型偏微分方程等分析方法。"
+    },
+    {
+      "title": "球坐标拉普拉斯方程的分离变量，可以根据球对称性预言特征函数的形式吗？",
+      "url": "https://www.zhihu.com/answer/62105986124",
+      "summary": "正文围绕拉普拉斯方程和亥姆霍兹方程的分离变量，讨论不同正交坐标系中的分离常数及本征函数。"
+    },
+    {
+      "title": "拉普拉斯变换是什么意思，原理是什么？",
+      "url": "https://www.zhihu.com/answer/63190113585",
+      "summary": "正文用拉普拉斯变换求解系统微分方程，并区分零输入响应与零状态响应。"
+    },
+    {
+      "title": "哈密顿正则方程长的这么像 C-R 条件，我们是不是可以用一个复坐标代替广义坐标和广义动量?",
+      "url": "https://www.zhihu.com/answer/67002662375",
+      "summary": "正文从哈密顿正则方程出发，解释相流、近复结构以及与Cauchy-Riemann方程的对应。"
+    },
+    {
+      "title": "2024年你的控制理论研究有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/70114789467",
+      "summary": "正文把常微分方程及其轨线作为控制理论研究与状态空间描述的核心对象，并讨论参数变化对系统轨线的影响。"
+    },
+    {
+      "title": "想要系统地学习扩散模型，应该怎么去做？",
+      "url": "https://www.zhihu.com/answer/77984546305",
+      "summary": "正文解释随机微分方程与确定性微分方程在扩散模型采样中的对应和一可逆性条件。"
+    },
+    {
+      "title": "常微分方程的特征方程，本质是什么？",
+      "url": "https://www.zhihu.com/answer/90755118072",
+      "summary": "正文比较常系数齐次线性微分方程与递推数列，并解释二者通解结构为何相同。"
+    },
+    {
+      "title": "○÷25=○-864，○代表同一个数，○是多少？",
+      "url": "https://www.zhihu.com/answer/95849240586",
+      "summary": "正文构造关于未知量随时间演化的微分方程，求出通解并讨论稳态解。"
+    },
+    {
+      "title": "怎么向 5 岁孩子解释水滴落在水面的涟漪？",
+      "url": "https://www.zhihu.com/answer/96350960019",
+      "summary": "正文以二维波动方程为例，说明其变量含义并给出用于时间推进的离散更新式。"
+    },
+    {
+      "title": "为什么给学生讲了很多遍她都不会？",
+      "url": "https://www.zhihu.com/answer/98934812348",
+      "summary": "正文给出二阶线性微分方程并逐项解释它由函数的一阶、二阶导数与原函数构成。"
+    },
+    {
+      "title": "常微分方程的特征方程，本质是什么？",
+      "url": "https://www.zhihu.com/answer/102659432549",
+      "summary": "正文把高阶线性微分方程化为一阶线性微分方程组，并通过解耦与坐标变换解释其求解。"
+    },
+    {
+      "title": "是否存在一种框架来统一代数几何与微分几何？",
+      "url": "https://www.zhihu.com/answer/102755497208",
+      "summary": "正文围绕 Picard–Fuchs 方程及其导出、p进、量子等推广说明代数与数论中的微分方程研究。"
+    },
+    {
+      "title": "你都有哪些压箱底的测试题，是目前的推理模型做不出来的？",
+      "url": "https://www.zhihu.com/answer/104145583824",
+      "summary": "正文分析一个二阶非自治常微分方程，尝试化为一阶系统，并讨论平衡解、渐近行为和奇点可能；末尾还纠正了错误的爆破判断。"
+    },
+    {
+      "title": "为何电子不会坠入原子核？",
+      "url": "https://www.zhihu.com/answer/106960209734",
+      "summary": "正文通过 u(r)=rR(r) 把径向方程化为类似一维定态薛定谔方程的常微分方程。"
+    },
+    {
+      "title": "（5368）除f(x) = eˣ 外，是否存在一个函数，满足原函数=二阶导数？",
+      "url": "https://www.zhihu.com/answer/110999101668",
+      "summary": "正文建立并求解 y''-y=0，再将通解推广到 n 阶常系数齐次微分方程，核心是微分方程求解。"
+    },
+    {
+      "title": "rectified flow和flow matching有区别吗？",
+      "url": "https://www.zhihu.com/answer/116162682565",
+      "summary": "正文以常微分方程描述数据的连续流动，并借助Picard-Lindelöf定理解释轨迹的存在唯一与不相交。"
+    },
+    {
+      "title": "状态观测器的本质是什么？如何通俗的理解状态观测器？",
+      "url": "https://www.zhihu.com/answer/119679239677",
+      "summary": "正文以非线性误差动态微分方程为核心，构造扩展状态观测器并讨论其固定时间收敛。"
+    },
+    {
+      "title": "如果把傅里叶变换突然一键删除，世界上会发生什么变化？",
+      "url": "https://www.zhihu.com/answer/1888868718425134475",
+      "summary": "正文说明常系数二阶线性微分方程可用复指数特征函数的叠加来求解，并给出具体例子。"
+    },
+    {
+      "title": "为什么构造的李雅普诺夫函数可以说明原系统的稳定性？",
+      "url": "https://www.zhihu.com/answer/1894364316033069709",
+      "summary": "正文围绕常微分方程平衡点的定性分析，解释Lyapunov函数和稳定性定理为何能判断系统稳定。"
+    },
+    {
+      "title": "diffusion和llm该往哪个走？",
+      "url": "https://www.zhihu.com/answer/1897944308230910392",
+      "summary": "正文把离散扩散的连续极限写成正向与反向随机微分方程，并讨论概率流 ODE。"
+    },
+    {
+      "title": "如何理解微分平坦性(Differential Flatness)?",
+      "url": "https://www.zhihu.com/answer/1900350283839697360",
+      "summary": "正文以状态微分方程描述控制系统，并用平坦输出及其有限阶导数重建状态和控制输入。"
+    },
+    {
+      "title": "扩散模型中，Flow Matching的训练方式相比于 DDPM 训练方法有何优势？",
+      "url": "https://www.zhihu.com/answer/1901890967210010209",
+      "summary": "正文把流匹配的样本生成表述为求解学习所得漂移场决定的常微分方程。"
+    },
+    {
+      "title": "信号与系统去掉数学还有什么内容？",
+      "url": "https://www.zhihu.com/answer/1902519868605039874",
+      "summary": "说明如何由基尔霍夫定律和元件伏安关系把电路列写为线性微分方程。"
+    },
+    {
+      "title": "如何求微分方程 y″ + y = 0 的通解？",
+      "url": "https://www.zhihu.com/answer/1902726792969708146",
+      "summary": "用求导算子的幂级数展开分别计算二阶线性微分方程的特解与齐次解。"
+    },
+    {
+      "title": "某种程度上来讲，g与π²是不是非常地接近？",
+      "url": "https://www.zhihu.com/answer/1903450590417249830",
+      "summary": "正文从单摆受力写出角位移关于时间的二阶微分方程，并借助能量关系求角速度。"
+    },
+    {
+      "title": "假如你获得了可以瞬间求解任何偏微分方程的能力，你会做什么？",
+      "url": "https://www.zhihu.com/answer/1907662930742322537",
+      "summary": "正文讨论用常微分方程模拟任意图灵机程序及其计算能力，属于微分方程建模。"
+    },
+    {
+      "title": "为什么会定义矩阵的迹？",
+      "url": "https://www.zhihu.com/answer/1909010720248542994",
+      "summary": "以常微分方程描述向量场的流，并用其线性化推导散度对应的体积变化率。"
+    },
+    {
+      "title": "伽罗瓦理论能否以某种方式用于微分方程？",
+      "url": "https://www.zhihu.com/answer/1914178352085988347",
+      "summary": "正文说明线性 ODE 的可积分解、Liouville 扩张及相应微分 Galois 群判定条件。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/1914804902045126959",
+      "summary": "正文由 LCR 电路建立二阶常系数线性微分方程，并用特征根分过阻尼、临界阻尼和欠阻尼讨论解。"
+    },
+    {
+      "title": "韦东奕近期在数学顶级期刊发文《超临界散焦非线性波动方程的爆破现象研究》，怎样评价这一研究？",
+      "url": "https://www.zhihu.com/answer/1916432541734404193",
+      "summary": "正文说明自相似解如何把偏微分方程问题化为常微分方程问题，实质涉及微分方程的转化求解。"
+    },
+    {
+      "title": "李普希兹条件为什么能保证ODE解的存在唯一性？Lipschitz条件可否减弱？",
+      "url": "https://www.zhihu.com/answer/1918562807064008125",
+      "summary": "正文围绕一阶常微分方程的解存在唯一性展开，陈述 Picard-Lindelöf 和 Cauchy-Peano 定理并比较条件。"
+    },
+    {
+      "title": "为什么现在数学系普遍不学椭圆函数、超几何函数等特殊函数？",
+      "url": "https://www.zhihu.com/answer/1918818319676478955",
+      "summary": "正文从圆盘散热的二阶方程出发做变量代换，化为贝塞尔方程并解释其解和常数回代。"
+    },
+    {
+      "title": "为什么现在数学系普遍不学椭圆函数、超几何函数等特殊函数？",
+      "url": "https://www.zhihu.com/answer/1919127690650322796",
+      "summary": "正文把 E-函数刻画为满足线性微分方程的形式幂级数，并说明该条件等价于系数满足递推关系。"
+    },
+    {
+      "title": "此微分方程怎么解?",
+      "url": "https://www.zhihu.com/answer/1921130506625483473",
+      "summary": "正文用参数化和曲线族包络具体求解常微分方程的通解与奇解，并得到包络线方程。"
+    },
+    {
+      "title": "黎曼有哪些冷门但是精彩的成果？",
+      "url": "https://www.zhihu.com/answer/1924936233987085602",
+      "summary": "正文从极小曲面方程导出关于 r 与 f 的常微分方程组，并把所得方程识别为可分离变量方程来求解。"
+    },
+    {
+      "title": "x''=sin（x）这个微分方程如何求解。？",
+      "url": "https://www.zhihu.com/answer/1924998825573090182",
+      "summary": "正文把二阶单摆方程通过能量积分降阶，并按能量范围给出一阶方程及椭圆函数解。"
+    },
+    {
+      "title": "如何解释薛定谔方程无法伽利略变换？",
+      "url": "https://www.zhihu.com/answer/1928043996590113534",
+      "summary": "正文以坐标变换后保持薛定谔方程形式为目标推导含时微分方程。"
+    },
+    {
+      "title": "如何通俗地理解解析解和数值解？",
+      "url": "https://www.zhihu.com/answer/1928890330276663444",
+      "summary": "正文用弹跳运动说明解析解恰好满足原始微分方程，而数值方法则改写问题以便算术求解。"
+    },
+    {
+      "title": "现代数学和理论物理已经发展到怎样一个令人震惊的水平了？",
+      "url": "https://www.zhihu.com/answer/1928906521925886769",
+      "summary": "正文系统讨论微分方程解的存在唯一性、正则性，并介绍波动方程、热传导方程和位势方程的常用解法。"
+    },
+    {
+      "title": "计算方法解微分方程的一种方法为谱方法，哪位牛哥可以通俗的讲解一下原理，思路和方法？",
+      "url": "https://www.zhihu.com/answer/1928908173483434044",
+      "summary": "正文以常微分方程和偏微分方程的数值求解为目标，解释谱方法在光滑问题上的高精度优势。"
+    },
+    {
+      "title": "求所有满足性质f(x+y)f(x-y)=f(x)^2-f(y)^2的函数f(x)？",
+      "url": "https://www.zhihu.com/answer/1929710186970460808",
+      "summary": "正文把函数方程化为 f''(x)=Kf(x) 的二阶线性微分方程，并据其形式给出解族。"
+    },
+    {
+      "title": "已知f(x-y)+f(x+y)=f(x)f(y)求f(x)?",
+      "url": "https://www.zhihu.com/answer/1930084661142488394",
+      "summary": "正文把函数方程化归为二阶常系数线性齐次微分方程，并给出通解与特解。"
+    },
+    {
+      "title": "王朝周期律的根本是什么？",
+      "url": "https://www.zhihu.com/answer/1930953221926532275",
+      "summary": "正文建立人口与不满度的耦合非线性微分方程，并通过不动点及其长期行为分析模型的稳定性。"
+    },
+    {
+      "title": "能否把导数推广到任意阶（分数阶、实数阶、甚至是复数阶）？",
+      "url": "https://www.zhihu.com/answer/1931305675214034261",
+      "summary": "正文比较扩散方程和波动方程的时间导数阶数，并构造统一的分数阶波动扩散方程。"
+    },
+    {
+      "title": "在足够高的均匀重力场顶部抛出一小球做匀加速直线运动，小球的速度在足够接近光速时会是什么运动状态？",
+      "url": "https://www.zhihu.com/answer/1933268331688887211",
+      "summary": "正文建立含洛伦兹因子的动量微分方程，再积分求解速度、位移与运动时间。"
+    },
+    {
+      "title": "如何理解平方反比引力中的悬链线？",
+      "url": "https://www.zhihu.com/answer/1935829679991923526",
+      "summary": "正文由受力平衡建立刚性、弹性及引力场悬链线的二阶微分方程并求解析解。"
+    },
+    {
+      "title": "如果正弦、余弦函数的定义是泰勒公式形式，那怎样推导出原始的结论?",
+      "url": "https://www.zhihu.com/answer/1939734496283956522",
+      "summary": "正文利用 f''=-f 的二阶微分方程及平移解证明两角和差公式。"
+    },
+    {
+      "title": "一根长度为1的木棒，在垂直的墙角内滑动，则木棒由竖直变为水平的过程中，木棒扫过的面积是多少呢？",
+      "url": "https://www.zhihu.com/answer/1941353956111552921",
+      "summary": "正文构造对应木棒运动的常微分方程，并区分其通解与包络给出的奇解。"
+    },
+    {
+      "title": "线性代数特征值到底是个什么东西？",
+      "url": "https://www.zhihu.com/answer/1942241401027933285",
+      "summary": "正文以二阶常系数振动方程为例，将微分算子作用后的特征函数和特征值同矩阵情形作对照。"
+    },
+    {
+      "title": "有什么降维打击高中题目的例子？",
+      "url": "https://www.zhihu.com/answer/1946558096840294586",
+      "summary": "正文求解二阶回复力方程，并用同一方程的通解结构推导三角函数和差公式。"
+    },
+    {
+      "title": "有一百万只鸡，每次从有腿的鸡中抽取一只砍掉一条腿，重复一百万次，最后数学期望下还有多少完好的鸡？",
+      "url": "https://www.zhihu.com/answer/1950672341639074237",
+      "summary": "正文建立两脚鸡、一脚鸡比例随时间变化的微分方程组，并由解得最终比例。"
+    },
+    {
+      "title": "有一百万只鸡，每次从有腿的鸡中抽取一只砍掉一条腿，重复一百万次，最后数学期望下还有多少完好的鸡？",
+      "url": "https://www.zhihu.com/answer/1951337060079208366",
+      "summary": "正文建立完好鸡、独脚鸡与脚总数随时间变化的微分方程，并用初始条件求解各状态数量。"
+    },
+    {
+      "title": "有一百万只鸡，每次从有腿的鸡中抽取一只砍掉一条腿，重复一百万次，最后数学期望下还有多少完好的鸡？",
+      "url": "https://www.zhihu.com/answer/1951561235943367312",
+      "summary": "正文在大样本极限下把概率更新写成关于单腿鸡和完好鸡占比的常微分方程组，并求解该方程。"
+    },
+    {
+      "title": "有一百万只鸡，每次从有腿的鸡中抽取一只砍掉一条腿，重复一百万次，最后数学期望下还有多少完好的鸡？",
+      "url": "https://www.zhihu.com/answer/1951653263205200776",
+      "summary": "正文给出完好鸡与单腿鸡数量之间的微分方程并求解其比例。"
+    },
+    {
+      "title": "哪些数学知识可以用于艺术创作当中？",
+      "url": "https://www.zhihu.com/answer/1952125676653123172",
+      "summary": "正文对含 dy/dx 的积分等式两边求导，得到二阶微分方程并继续求解，实质讲解微分方程建模。"
+    },
+    {
+      "title": "什么是「龙格—库塔方法」？",
+      "url": "https://www.zhihu.com/answer/1952429262616368347",
+      "summary": "正文围绕常微分方程缺少解析解时的求解问题，给出了逐步计算近似解的数值方法。"
+    },
+    {
+      "title": "有没有一个函数求导后幂会变高？",
+      "url": "https://www.zhihu.com/answer/1953609093454468496",
+      "summary": "正文讨论 Airy 方程和一般高阶线性微分方程的级数解及 Airy 函数。"
+    },
+    {
+      "title": "差分方程有没有可能通过某种变换成为连续方程（如微分方程）？",
+      "url": "https://www.zhihu.com/answer/1959008524643336764",
+      "summary": "正文构造线性常系数时滞微分方程并解释其移位算子如何对应差分方程的微分算子。"
+    },
+    {
+      "title": "你最讨厌的数学定理是哪个？",
+      "url": "https://www.zhihu.com/answer/1959246669284632358",
+      "summary": "正文由万有引力建立三体周期轨道的二阶常微分方程，并讨论其解析求解与稳定性。"
+    },
+    {
+      "title": "除了f(x)=e^x以外，还有没有其他的函数导数是本身的？",
+      "url": "https://www.zhihu.com/answer/1960410987342571430",
+      "summary": "正文以 f'(x)=f(x) 这一阶常微分方程为对象，完整演示分离变量求解过程。"
+    },
+    {
+      "title": "为什么用开环传函判断闭环系统的稳定性？",
+      "url": "https://www.zhihu.com/answer/1961003444233015431",
+      "summary": "正文用线性常微分方程解的实部衰减解释闭环极点位于左半平面时系统稳定。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/1961021265935570823",
+      "summary": "正文说明微分方程可理解为一系列三角测量的总和，并举例电磁学、量子力学和人口模型中的方程。"
+    },
+    {
+      "title": "物理学史上，有哪些伟大的工作，某个人不做，就会被推迟很久才能做出来？",
+      "url": "https://www.zhihu.com/answer/1970241826049990777",
+      "summary": "正文由相对论能量关系推导克莱因-戈登方程，并据此说明改为一阶狄拉克方程所解决的方程结构问题。"
+    },
+    {
+      "title": "格林函数如何在凝聚态物理的量子场论中起作用？",
+      "url": "https://www.zhihu.com/answer/1974724862040884619",
+      "summary": "正文用满足微分算子方程和狄拉克源的格林函数构造线性微分方程的通解。"
+    },
+    {
+      "title": "哪些看似毫不相干的事物具有相同的数学原理？",
+      "url": "https://www.zhihu.com/answer/1974913252715688840",
+      "summary": "正文以热传导方程说明扩散过程，并进一步联系 Black-Scholes 方程和扩散模型。"
+    },
+    {
+      "title": "拉普拉斯变换的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/1975476715900920510",
+      "summary": "正文说明变换的核心作用是把时域微分方程转为频域代数方程，并指出拉普拉斯变换广泛用于微分方程求解。"
+    },
+    {
+      "title": "有没有符合f'(x)=f(x+1)的函数？",
+      "url": "https://www.zhihu.com/answer/1976403181027234847",
+      "summary": "正文讨论 f'(x)=f(x+1) 这一超前微分方程的非因果特性，并与时滞方程作比较。"
+    },
+    {
+      "title": "勒让德多项式的意义？",
+      "url": "https://www.zhihu.com/answer/1976781741302772973",
+      "summary": "正文通过 x=cosθ 把角向方程化为勒让德微分方程，并用级数解及端点正则条件解释多项式解。"
+    },
+    {
+      "title": "如何计算一维等概率随机游走中曾经最远到达距离的期望？",
+      "url": "https://www.zhihu.com/answer/1979397333759317658",
+      "summary": "正文将随机游走的存活概率对应到带吸收边界的一维热传导方程，并比较镜像解与谱解。"
+    },
+    {
+      "title": "球谐函数是什么？",
+      "url": "https://www.zhihu.com/answer/1979930066906539831",
+      "summary": "正文把 Laplace 方程通过分离变量化为球面 Laplace 算子的特征方程，并由其特征函数得到球谐函数。"
+    },
+    {
+      "title": "线性代数特征值到底是个什么东西？",
+      "url": "https://www.zhihu.com/answer/1981810315567051268",
+      "summary": "正文求解 dy/dt=Ay 型线性微分方程，说明特征值和特征向量如何决定指数解、稳定性与振荡。"
+    },
+    {
+      "title": "线性代数特征值到底是个什么东西？",
+      "url": "https://www.zhihu.com/answer/1982559561807307059",
+      "summary": "正文以兔狐Lotka–Volterra耦合方程组为具体例子，讨论微分方程的变量耦合与解耦。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/1984965687203099842",
+      "summary": "正文从几何与光学推导过渡到欧拉-拉格朗日方程，并最终整理出摆线满足的微分方程。"
+    },
+    {
+      "title": "数学物理方程怎么那么难？",
+      "url": "https://www.zhihu.com/answer/1985879802742321818",
+      "summary": "正文系统讨论二阶常微分方程、特征值问题及其解的构造，属于微分方程的实质讲解。"
+    },
+    {
+      "title": "如何看待《数学物理方法》逼疯一群又一群学生?",
+      "url": "https://www.zhihu.com/answer/1986536846805735071",
+      "summary": "正文给出 Sturm-Liouville 二阶线性微分方程的一般形式、边界条件及特征函数性质。"
+    },
+    {
+      "title": "是否存在两个代数相关但均为超越函数的亚纯函数使得它们满足这个微分方程？",
+      "url": "https://www.zhihu.com/answer/1986880601907806514",
+      "summary": "正文围绕一个复解析微分方程，借助 Nevanlinna 理论证明不存在所要求的超越亚纯函数解。"
+    },
+    {
+      "title": "有一百万只鸡，每次从有腿的鸡中抽取一只砍掉一条腿，重复一百万次，最后数学期望下还有多少完好的鸡？",
+      "url": "https://www.zhihu.com/answer/1988621612786934888",
+      "summary": "正文根据两脚鸡与一脚鸡比例的变化率建立关系，并求解所得微分方程。"
+    },
+    {
+      "title": "如何理解「李群、李代数的初衷就是求解微分方程」？",
+      "url": "https://www.zhihu.com/answer/1992290356713259459",
+      "summary": "正文围绕用连续对称性分类微分方程、降低方程阶数并最终求积展开核心论述。"
+    },
+    {
+      "title": "x''=sin（x）这个微分方程如何求解。？",
+      "url": "https://www.zhihu.com/answer/1992448375283540860",
+      "summary": "正文把二阶微分方程化为一阶系统，并用哈密顿量和相平面等值线讨论解的类型。"
+    },
+    {
+      "title": "这个积分可以用初等函数表示吗?",
+      "url": "https://www.zhihu.com/answer/2000200012844532865",
+      "summary": "正文把初等原函数的存在性化为有理函数域上的线性微分方程组，并用其无解性推进证明。"
+    },
+    {
+      "title": "如何理解「李群、李代数的初衷就是求解微分方程」？",
+      "url": "https://www.zhihu.com/answer/2000339978065057387",
+      "summary": "正文说明李群来自研究微分方程的连续对称性，并解释对称性如何用于降阶和保持结构的数值积分。"
+    },
+    {
+      "title": "线性代数特征值到底是个什么东西？",
+      "url": "https://www.zhihu.com/answer/2004255783580374314",
+      "summary": "正文把求导算子与矩阵类比，说明用指数特征函数和特征值求解线性微分方程。"
+    },
+    {
+      "title": "对sin（sin（sinx））求不定积分的结果是多少？",
+      "url": "https://www.zhihu.com/answer/2004563129921713024",
+      "summary": "正文把初等积分问题化为一阶线性微分方程的系数匹配问题，并分析该方程在扩张域中的可解性。"
+    },
+    {
+      "title": "已知f(x-y)+f(x+y)=f(x)f(y)求f(x)?",
+      "url": "https://www.zhihu.com/answer/2006486041788424598",
+      "summary": "正文由泰勒系数关系导出二阶常微分方程，再按特征根符号分类求解。"
+    },
+    {
+      "title": "随机微分方程与普通微分方程有什么区别？",
+      "url": "https://www.zhihu.com/answer/2008206088646980905",
+      "summary": "正文从 ODE 的基本形式和确定性轨迹出发，说明 SDE 在趋势项上加入随机噪声，并进一步讨论扩散模型中的前向 SDE 与概率流 ODE。"
+    },
+    {
+      "title": "如何理解坎托罗维奇最优传输理论本质是无穷维的线性规划问题?",
+      "url": "https://www.zhihu.com/answer/2011816795095446936",
+      "summary": "正文从一阶ODE的流映射推出Liouville连续性方程，实质讲解微分方程与流的联系。"
+    },
+    {
+      "title": "微积分体系几百年前就建立起来了，为什么我们现在学习它仍存在困难？",
+      "url": "https://www.zhihu.com/answer/2015820199081846080",
+      "summary": "正文以 dy/dx=f(x)g(y) 为例，说明微分方程中分离变量并分别积分的做法。"
+    },
+    {
+      "title": "以测度为基础的高等概率论和普通的概率论到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/2019834726597281108",
+      "summary": "正文写出布朗运动驱动的随机微分方程，并说明伊藤积分及伊藤引理如何处理不可导路径。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/2024421529098756242",
+      "summary": "正文说明变化率与当前状态成比例的一阶微分方程，其解含自然指数函数。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/2029272145620942878",
+      "summary": "正文用 dy/dt=k y 统一描述增长与衰减，并讨论该类微分方程的解。"
+    },
+    {
+      "title": "你可以介绍一个冷门但改变世界的数学模型吗？",
+      "url": "https://www.zhihu.com/answer/2029375414963848353",
+      "summary": "正文给出 BSDE 的微分形式，并通过积分、终值条件和伊藤引理推导风险中性定价解。"
+    },
+    {
+      "title": "海洋深处有一个空心球半径为a，突然破碎，海水充满球体需要多久？",
+      "url": "https://www.zhihu.com/answer/2031523902430638716",
+      "summary": "正文把球泡径向运动写成常微分方程，并结合初始条件积分求解海水充满所需时间。"
+    },
+    {
+      "title": "哪些看似毫不相干的事物具有相同的数学原理？",
+      "url": "https://www.zhihu.com/answer/2034433817230979473",
+      "summary": "正文以 logistic、SIR、Bass 和自催化等微分方程说明增长与饱和如何形成 S 形曲线。"
+    },
+    {
+      "title": "真正会数学建模的人有多厉害？",
+      "url": "https://www.zhihu.com/answer/2036859311540921399",
+      "summary": "正文用能量守恒建立室温变化的微分方程，再说明反馈控制与离散化求解。"
+    },
+    {
+      "title": "该如何通俗易懂的向小孩子解释自然对数的底 e 的意义？",
+      "url": "https://www.zhihu.com/answer/2041841069361475794",
+      "summary": "正文列出 dy/dt=ky 并说明细菌繁殖、放射性衰变、冷却和 RC 电路的指数型解与 e 的关系。"
+    },
+    {
+      "title": "格林函数法的本质是什么?",
+      "url": "https://www.zhihu.com/answer/2043065460460081259",
+      "summary": "正文说明非齐次微分方程的通解由特解与齐次解叠加得到，并讨论边界条件如何确定具体解。"
+    },
+    {
+      "title": "算符 这个概念是数学家提出来的？还是物理学家提出来的？",
+      "url": "https://www.zhihu.com/answer/2044729101253080573",
+      "summary": "正文把微分运算写成算子 D，通过算子因式分解和部分分式方法求解线性微分方程。"
+    },
+    {
+      "title": "变分法的基本原理是什么？",
+      "url": "https://www.zhihu.com/answer/2047057859070914928",
+      "summary": "正文从变分条件推出欧拉-拉格朗日方程，把泛函极值问题转化为微分方程，实质涉及微分方程建模。"
+    },
+    {
+      "title": "很多老师都用1.01的365次方和0.99的365次方论证要坚持每天进步，可这个模型跟实际相符吗?",
+      "url": "https://www.zhihu.com/answer/2056768098947032810",
+      "summary": "正文建立学习增长、容量限制、遗忘和疲劳的微分方程，并求出逻辑斯蒂方程及平衡点。"
+    },
+    {
+      "title": "三角函数到底是什么东西 ，不就是一个比值吗？为什么有那么多莫名其妙的东西?",
+      "url": "https://www.zhihu.com/answer/2058866105142219891",
+      "summary": "正文指出正弦和余弦是振动微分方程的解，并据此解释周期运动与波动。"
+    },
+    {
+      "title": "邓煜、王虹两位青年数学家获得 2026 年菲尔兹奖，如何理解他们获奖的意义和价值？",
+      "url": "https://www.zhihu.com/answer/2063876279464727955",
+      "summary": "正文具体解释如何由微观粒子的牛顿运动经过玻尔兹曼方程推出宏观流体方程，属于微分方程建模与尺度极限的讲解。"
+    },
+    {
+      "title": "知友发现 2026 菲尔兹奖名单泄露，王虹、邓煜疑似双双获奖，如何看待这一信息？",
+      "url": "https://www.zhihu.com/answer/2063877218430870507",
+      "summary": "正文具体解释如何由微观粒子的牛顿运动经过玻尔兹曼方程推出宏观流体方程，属于微分方程建模与尺度极限的讲解。"
+    },
+    {
+      "title": "王虹、邓煜获「菲尔兹奖」，这是中国籍数学家首次获得该奖，获得这个奖有多难？他们攻克了什么数学难题？",
+      "url": "https://www.zhihu.com/answer/2063881339825394412",
+      "summary": "正文具体解释如何由微观粒子的牛顿运动经过玻尔兹曼方程推出宏观流体方程，属于微分方程建模与尺度极限的讲解。"
+    },
+    {
+      "title": "每次从 [0,1] 中随机选一个实数, 当某一步选到的数小于上一步的数时就停止选取,求停时的数的期望？",
+      "url": "https://www.zhihu.com/answer/2066069969226430309",
+      "summary": "正文在求平均停止步数时导出并求解带初值条件的微分方程。"
+    },
+    {
+      "title": "北大数院 07 级苏炜杰获颁「统计学界的诺贝尔奖」，2026年度考普斯奖，如何理解他的成果和获奖意义？",
+      "url": "https://www.zhihu.com/answer/2069143821762422396",
+      "summary": "正文说明把加速梯度法的离散迭代取连续极限，可建立常微分方程来分析算法。"
+    },
+    {
+      "title": "如何构建一套完整的数学知识体系？",
+      "url": "https://www.zhihu.com/answer/2070195997192479867",
+      "summary": "正文用状态空间方程、泰勒线性化、相平面与分岔理论说明常微分方程描述工程动态系统。"
+    },
+    {
+      "title": "寻找开普勒问题中的首次积分",
+      "url": "https://zhuanlan.zhihu.com/p/20684078",
+      "summary": "正文从轨道运动的矢量微分方程出发，通过多个首次积分给方程降阶并重新导出轨道方程。"
+    },
+    {
+      "title": "变分法简介Part 1.（Calculus of Variations）",
+      "url": "https://zhuanlan.zhihu.com/p/20718489",
+      "summary": "正文通过对变分积分分部积分并令其为零，导出了控制极值函数的 Euler-Lagrange 微分方程。"
+    },
+    {
+      "title": "变分法近似解法 Part 1.----Rayleigh-Ritz Method",
+      "url": "https://zhuanlan.zhihu.com/p/20882021",
+      "summary": "正文说明变分最小化问题可转化为带边界条件的偏微分方程，并围绕这一等价关系展开近似求解。"
+    },
+    {
+      "title": "限制性三体问题初探——雅可比积分",
+      "url": "https://zhuanlan.zhihu.com/p/21337940",
+      "summary": "正文围绕限制性三体问题的耦合运动方程展开，并通过对该微分方程组积分得到雅可比积分。"
+    },
+    {
+      "title": "限制性三体问题初探——拉格朗日点",
+      "url": "https://zhuanlan.zhihu.com/p/21391333",
+      "summary": "正文建立圆型限制性三体问题的运动微分方程，并通过令速度和加速度为零求系统的平衡点。"
+    },
+    {
+      "title": "含时薛定谔方程与定态薛定谔方程",
+      "url": "https://zhuanlan.zhihu.com/p/21678853",
+      "summary": "正文完整说明了由定态方程求含时薛定谔方程解的方法。"
+    },
+    {
+      "title": "期权定价的常用数值方法",
+      "url": "https://zhuanlan.zhihu.com/p/21903917",
+      "summary": "正文介绍 Black-Scholes 等随机模型对应的 PDE、终值与边值条件和倒向方程，并比较其定价数值解。"
+    },
+    {
+      "title": "边界条件",
+      "url": "https://zhuanlan.zhihu.com/p/22001969",
+      "summary": "正文区分初始条件、边界条件和边值问题，并说明 Dirichlet、Neumann、Robin 三类边界条件的形式。"
+    },
+    {
+      "title": "变分法近似解法 Part 2.----Strong Form Galerkin",
+      "url": "https://zhuanlan.zhihu.com/p/22457731",
+      "summary": "正文把变分问题化为四阶微分方程，并完整演示带边界条件的PDE近似求解。"
+    },
+    {
+      "title": "变分法近似解法 Part 3.---Weak Form Galerkin",
+      "url": "https://zhuanlan.zhihu.com/p/22603421",
+      "summary": "正文围绕带边界条件的微分方程推导弱形式，并给出近似求解过程。"
+    },
+    {
+      "title": "漫谈Simulink: 隐式和显式的Solver",
+      "url": "https://zhuanlan.zhihu.com/p/23232577",
+      "summary": "正文以常微分方程为例解释显式和隐式求解器如何离散未知函数并推进数值解。"
+    },
+    {
+      "title": "【自动控制原理】1.传递函数",
+      "url": "https://zhuanlan.zhihu.com/p/23617272",
+      "summary": "正文说明线性系统的输入输出可由微分方程描述，并由此定义传递函数和分析系统稳定性。"
+    },
+    {
+      "title": "帮你快速入门MATLAB",
+      "url": "https://zhuanlan.zhihu.com/p/24231719",
+      "summary": "正文说明常微分方程和初始条件的输入方式，并用三个一阶方程展示符号求解。"
+    },
+    {
+      "title": "数学建模思想方法大全及方法适用范围",
+      "url": "https://zhuanlan.zhihu.com/p/24532547",
+      "summary": "正文以变量变化率和导数建立微分方程模型，并说明精确求解和定性分析。"
+    },
+    {
+      "title": "力学（六）—哈密顿力学之哈密顿方程与泊松括号",
+      "url": "https://zhuanlan.zhihu.com/p/24627496",
+      "summary": "正文从拉格朗日方程推导哈密顿方程，并说明两种运动方程表述的等价性。"
+    },
+    {
+      "title": "几类一阶常微分方程的求解",
+      "url": "https://zhuanlan.zhihu.com/p/25514827",
+      "summary": "正文定义常微分方程及其通解、特解，并分别讲解可分离变量、齐次、线性与全微分方程。"
+    },
+    {
+      "title": "常系数二阶线性齐次微分方程的求解",
+      "url": "https://zhuanlan.zhihu.com/p/25518193",
+      "summary": "正文从常系数二阶线性齐次微分方程出发，用特征方程和线性无关特解讨论三种根情形并给出通解。"
+    },
+    {
+      "title": "专栏：“分析的那些事”总纲",
+      "url": "https://zhuanlan.zhihu.com/p/25933450",
+      "summary": "正文说明可用压缩不动点定理证明一类常微分方程解的存在性和唯一性。"
+    },
+    {
+      "title": "0.2 泛函分析简史(1)",
+      "url": "https://zhuanlan.zhihu.com/p/25935855",
+      "summary": "正文以二阶常微分方程为例，说明其可转化为积分方程并给出相应的解表达式。"
+    },
+    {
+      "title": "控制系统建模",
+      "url": "https://zhuanlan.zhihu.com/p/26099408",
+      "summary": "正文用弹簧阻尼质量块和电路的状态方程建立线性时不变系统的微分方程模型。"
+    },
+    {
+      "title": "（I）Banach空间和不动点定理 2 : 不动点定理和钟摆问题",
+      "url": "https://zhuanlan.zhihu.com/p/26365534",
+      "summary": "正文把钟摆运动写成非线性常微分方程，并通过不动点定理证明其初值问题解的存在性。"
+    },
+    {
+      "title": "力学（十二）——微振动(一)",
+      "url": "https://zhuanlan.zhihu.com/p/27260347",
+      "summary": "正文从单自由度系统的拉格朗日方程推出 m 与 k 的二阶微分方程，并通过频率条件求振动解。"
+    },
+    {
+      "title": "(1)Lyapunov直接法与间接法, why",
+      "url": "https://zhuanlan.zhihu.com/p/27662523",
+      "summary": "正文围绕微分方程解的稳定性定义 Lyapunov 直接法与线性化间接法，并说明它们如何避免求出解析解。"
+    },
+    {
+      "title": "一种随机微分方程数值模拟的另类方法",
+      "url": "https://zhuanlan.zhihu.com/p/28628912",
+      "summary": "正文以漂移项和随机扰动项定义一维随机微分方程，并讨论其Stratonovich形式。"
+    },
+    {
+      "title": "俗称考研数学里“万金油”的微分方程，究竟可以粘哪些知识点？（1）",
+      "url": "https://zhuanlan.zhihu.com/p/28860572",
+      "summary": "正文以例题讲解一阶线性非齐次微分方程的通解、初值和求解方法。"
+    },
+    {
+      "title": "【翻译搬运】SciPy-Python科学算法库",
+      "url": "https://zhuanlan.zhihu.com/p/30011154",
+      "summary": "正文说明常微分方程的标准形式、初值条件，并以复摆和阻尼振荡器演示数值求解。"
+    },
+    {
+      "title": "(2)Autonomous System的稳定性定义",
+      "url": "https://zhuanlan.zhihu.com/p/30106573",
+      "summary": "正文围绕自治与非自治微分方程定义平衡点和李雅普诺夫稳定性，实质讨论微分方程解的长期行为。"
+    },
+    {
+      "title": "(3)Lyapunov函数与Autonomous System的稳定性判别",
+      "url": "https://zhuanlan.zhihu.com/p/30106590",
+      "summary": "正文用李雅普诺夫函数及其导数判定自治微分系统平衡点的局部和全局稳定性。"
+    },
+    {
+      "title": "《Quantitative Finance》读书笔记4：随机微积分初步",
+      "url": "https://zhuanlan.zhihu.com/p/30292226",
+      "summary": "正文定义随机微分方程，说明确定性漂移项与随机增量项的组合，并给出几何布朗运动等模型。"
+    },
+    {
+      "title": "笔记：初等微几（曲线论、曲面论、第一、二基本型）",
+      "url": "https://zhuanlan.zhihu.com/p/30538009",
+      "summary": "正文说明曲线与曲面基本定理通过常微分或偏微分方程组的存在唯一性来证明。"
+    },
+    {
+      "title": "Logit模型和Logistic模型有什么区别？",
+      "url": "https://zhuanlan.zhihu.com/p/30659982",
+      "summary": "正文建立并求解资源受限人口增长的 Logistic 微分方程，属于微分方程建模与求解。"
+    },
+    {
+      "title": "(4)La Salle不变集原理与渐近稳定",
+      "url": "https://zhuanlan.zhihu.com/p/31925435",
+      "summary": "正文围绕自治微分系统的轨迹、平衡点和吸引域，讲解拉萨尔不变集原理及渐近稳定结论。"
+    },
+    {
+      "title": "2. 信号与线性系统——信号的分解",
+      "url": "https://zhuanlan.zhihu.com/p/31921889",
+      "summary": "正文说明零状态响应可通过微分方程求解，并用转移算子、特征根和初值讨论冲激响应。"
+    },
+    {
+      "title": "五次方程微分方程解法",
+      "url": "https://zhuanlan.zhihu.com/p/32404214",
+      "summary": "正文把五次方程转化为同解微分方程，求解该线性常微分后得到五个根的表达式。"
+    },
+    {
+      "title": "变分法与分析力学的基本知识",
+      "url": "https://zhuanlan.zhihu.com/p/32821695",
+      "summary": "正文通过变分和分部积分导出欧拉-拉格朗日微分方程，并用其求解最速降线与有心力场运动。"
+    },
+    {
+      "title": "由万有引力定律推导行星椭圆轨道",
+      "url": "https://zhuanlan.zhihu.com/p/32937290",
+      "summary": "正文从极坐标运动方程换元得到二阶常系数线性微分方程，并求出通解以恢复椭圆轨道。"
+    },
+    {
+      "title": "数学各个研究方向简介",
+      "url": "https://zhuanlan.zhihu.com/p/32950646",
+      "summary": "正文定义常微分方程，并讨论通解、特解、定解条件以及存在唯一性等基本内容。"
+    },
+    {
+      "title": "Itô扩散过程与PDE解的概率表示",
+      "url": "https://zhuanlan.zhihu.com/p/33082763",
+      "summary": "正文由布朗运动引入随机微分方程，并讨论其积分定义、解析解与解的存在唯一性。"
+    },
+    {
+      "title": "微分中值定理证明题中构造辅助函数的方法",
+      "url": "https://zhuanlan.zhihu.com/p/33271753",
+      "summary": "正文把目标等式视为微分方程，求解后去掉常数项以构造辅助函数。"
+    },
+    {
+      "title": "（一）引言及索洛模型",
+      "url": "https://zhuanlan.zhihu.com/p/33627801",
+      "summary": "正文建立单位有效劳动资本随投资和折旧变化的微分方程，并分析稳态及其稳定性。"
+    },
+    {
+      "title": "宏观经济笔记（1）：经济动态系统",
+      "url": "https://zhuanlan.zhihu.com/p/20679152",
+      "summary": "正文比较连续与离散时间动态系统，并用微分方程、差分迭代和欧拉法说明状态变量如何演化。"
+    },
+    {
+      "title": "(二)动态优化--汉密尔顿函数（最优控制）和HJB方程（动态规划）",
+      "url": "https://zhuanlan.zhihu.com/p/33741559",
+      "summary": "正文把最优控制条件转为二阶非齐次微分方程，并通过特征根、特解和初值条件求通解。"
+    },
+    {
+      "title": "微分方程和矩阵指数【MIT线代第二十三课】",
+      "url": "https://zhuanlan.zhihu.com/p/33867542",
+      "summary": "正文概述把一阶线性常微分方程写成矩阵形式，用对角化和特征值解耦求解，并把高阶方程降阶。"
+    },
+    {
+      "title": "[转载]自动控制的故事（下）",
+      "url": "https://zhuanlan.zhihu.com/p/34048637",
+      "summary": "正文具体解释状态空间如何把高阶微分方程化为一阶微分方程组，并讨论连续与离散控制模型。"
+    },
+    {
+      "title": "拉格朗日方程",
+      "url": "https://zhuanlan.zhihu.com/p/34260779",
+      "summary": "正文由拉格朗日量导出动力学微分方程，并通过中心力场、耦合振子和转动细杆等例子求解运动方程。"
+    },
+    {
+      "title": "四阶龙格库塔法",
+      "url": "https://zhuanlan.zhihu.com/p/34261490",
+      "summary": "正文以四阶龙格库塔法逐步计算常微分方程及方程组的数值解，并用天体运动方程演示。"
+    },
+    {
+      "title": "随机分析的应用 (一)：简单随机量的计算",
+      "url": "https://zhuanlan.zhihu.com/p/34639255",
+      "summary": "正文把连续时间问题化为二阶常微分方程，并用边界条件求解。"
+    },
+    {
+      "title": "[学习心得]---浅谈一阶非齐次线性常微分方程的特解——积分因子法",
+      "url": "https://zhuanlan.zhihu.com/p/35016788",
+      "summary": "正文讨论一阶非齐次线性常微分方程，并用积分因子法求其通解和特解。"
+    },
+    {
+      "title": "傅立叶变换求解偏微分方程和积分方程",
+      "url": "https://zhuanlan.zhihu.com/p/35062896",
+      "summary": "正文通过傅里叶变换把微分和积分方程化为代数或常微分方程后求解。"
+    },
+    {
+      "title": "用python解决高数所有计算题--sympy求解极限、积分、微分、二元一次方程等",
+      "url": "https://zhuanlan.zhihu.com/p/35150541",
+      "summary": "正文使用 dsolve 求解含未知函数的微分方程并给出显式通解。"
+    },
+    {
+      "title": "4.6 微扰论、无穷求和与费曼图",
+      "url": "https://zhuanlan.zhihu.com/p/34971431",
+      "summary": "正文把多光子微扰展开中的无穷态求和转化为二阶线性非齐次微分方程，并具体讨论该方程在传播子计算中的用法。"
+    },
+    {
+      "title": "二阶常系数齐次微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/35278737",
+      "summary": "正文通过指数试探解和特征方程完整讲解二阶常系数齐次微分方程的通解分类与推导。"
+    },
+    {
+      "title": "狄拉克方程与氢原子的精确能级",
+      "url": "https://zhuanlan.zhihu.com/p/36791366",
+      "summary": "正文将狄拉克方程化为耦合的径向本征方程，经变量替换和消元得到可求解的微分方程。"
+    },
+    {
+      "title": "自动控制总结：第二章、控制系统的数学模型",
+      "url": "https://zhuanlan.zhihu.com/p/37348216",
+      "summary": "正文系统说明控制系统微分方程的建立步骤，并把微分方程与传递函数模型相互对应。"
+    },
+    {
+      "title": "自动控制总结：第三章：线性系统的时域分析",
+      "url": "https://zhuanlan.zhihu.com/p/37360308",
+      "summary": "正文从一阶、二阶线性微分方程建立系统模型，并按特征根类型分析动态响应。"
+    },
+    {
+      "title": "机器人的轨迹规划与自动导引",
+      "url": "https://zhuanlan.zhihu.com/p/38391238",
+      "summary": "正文用状态空间微分方程描述机器人位姿误差，并通过离散化迭代实现轨迹跟踪。"
+    },
+    {
+      "title": "（回忆大学所学）常微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/38573924",
+      "summary": "正文系统介绍常微分方程的概念、阶数、通解，并分类讲解多种一阶和二阶方程的解法。"
+    },
+    {
+      "title": "Koopman 分析在动力系统中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/42407497",
+      "summary": "正文以非线性常微分动力系统为对象，并推导离散采样后的状态演化关系。"
+    },
+    {
+      "title": "Young-Laplace方程的应用",
+      "url": "https://zhuanlan.zhihu.com/p/42473736",
+      "summary": "正文把 Young-Laplace 方程改写为弧长参数下的常微分方程组，并用打靶法处理边界条件。"
+    },
+    {
+      "title": "助力国赛 | 第4弹 灰色预测",
+      "url": "https://zhuanlan.zhihu.com/p/42718637",
+      "summary": "正文完整介绍 GM(1,1) 的累加生成、一阶线性微分方程建模、参数求解和预测还原步骤。"
+    },
+    {
+      "title": "PD控制器的另一解释与应用(一)",
+      "url": "https://zhuanlan.zhihu.com/p/43238446",
+      "summary": "正文用弹簧阻尼模型建立二阶微分方程，按特征根分类求解并用于PD控制。"
+    },
+    {
+      "title": "MP3：SO(2)的求导：算子谱分析和复结构",
+      "url": "https://zhuanlan.zhihu.com/p/43986106",
+      "summary": "正文用二阶求导方程统一解释简谐振动、指数增长和阻尼振动等线性微分方程。"
+    },
+    {
+      "title": "复杂网络中的统计物理（一）",
+      "url": "https://zhuanlan.zhihu.com/p/45193794",
+      "summary": "正文建立疾病传播的微分方程，并继续加入邻接矩阵和度分布推导稳态不动点方程。"
+    },
+    {
+      "title": "学习微积分/高等数学（持续更新）",
+      "url": "https://zhuanlan.zhihu.com/p/45203159",
+      "summary": "正文按特征根情形求解一阶与二阶微分方程，并用初值确定齐次解与特解。"
+    },
+    {
+      "title": "正弦曲线/正弦波的直观解释",
+      "url": "https://zhuanlan.zhihu.com/p/45761661",
+      "summary": "正文把正弦和余弦概括为加速度与当前位置方向相反的微分方程，并比较其与指数增长方程的差别。"
+    },
+    {
+      "title": "MIT—线性代数笔记11 矩阵空间、秩1矩阵和小世界图",
+      "url": "https://zhuanlan.zhihu.com/p/45840821",
+      "summary": "正文给出二阶微分方程的通解，并把解空间解释为具有一组基的向量空间。"
+    },
+    {
+      "title": "自然对数的底“e”到底是怎么来的？",
+      "url": "https://zhuanlan.zhihu.com/p/45846342",
+      "summary": "正文建立并求解纳皮尔运动模型对应的微分方程。"
+    },
+    {
+      "title": "MIT—线性代数笔记23 微分方程和矩阵指数",
+      "url": "https://zhuanlan.zhihu.com/p/45932307",
+      "summary": "正文求解常系数线性微分方程组，并讨论稳态、衰减和二阶方程的一阶化。"
+    },
+    {
+      "title": "拉普拉斯方程不同坐标系下的表示",
+      "url": "https://zhuanlan.zhihu.com/p/47662483",
+      "summary": "正文推导拉普拉斯方程在一般坐标系下的微分算子表示，并具体写出球坐标形式。"
+    },
+    {
+      "title": "控制理论学习笔记（4）——一阶系统和二阶系统",
+      "url": "https://zhuanlan.zhihu.com/p/48169298",
+      "summary": "正文系统讨论一阶和二阶线性微分方程的标准形式，并由特征根分析系统响应。"
+    },
+    {
+      "title": "控制理论学习笔记（7）——状态空间（state space）",
+      "url": "https://zhuanlan.zhihu.com/p/48661812",
+      "summary": "从三阶微分方程引出状态变量与状态方程，说明用一阶微分方程组表示动态系统。"
+    },
+    {
+      "title": "1维上的Malliavin分析初步",
+      "url": "https://zhuanlan.zhihu.com/p/49269815",
+      "summary": "正文定义并求解线性随机微分方程，以得到Ornstein-Uhlenbeck过程的显式解。"
+    },
+    {
+      "title": "机电工程师应该了解哪些数学和物理知识？",
+      "url": "https://zhuanlan.zhihu.com/p/48738703",
+      "summary": "正文以常微分方程和偏微分方程描述机电系统中的连续变化，并介绍求解思路。"
+    },
+    {
+      "title": "控制专业申请NSF资助新思路：LMI是ML",
+      "url": "https://zhuanlan.zhihu.com/p/50198215",
+      "summary": "正文以线性状态方程刻画受控动力系统，并通过选择反馈控制律使状态轨线收敛到原点。"
+    },
+    {
+      "title": "球谐光照与PRT学习笔记（三）：球谐函数",
+      "url": "https://zhuanlan.zhihu.com/p/50208005",
+      "summary": "正文给出勒让德微分方程及其有界解条件，并说明该方程在球坐标求解拉普拉斯方程时出现。"
+    },
+    {
+      "title": "扩展卡尔曼滤波(EKF)之非线性系统的线性化",
+      "url": "https://zhuanlan.zhihu.com/p/50620063",
+      "summary": "正文围绕非线性状态微分方程展开，并讨论其在操作点附近的线性化方程。"
+    },
+    {
+      "title": "关于薛定谔方程中波函数的含时演化",
+      "url": "https://zhuanlan.zhihu.com/p/50745076",
+      "summary": "正文把薛定谔方程改写成偏微分方程形式，并与扩散方程的解和时间演化作比较。"
+    },
+    {
+      "title": "有心力作用下的轨道微分方程 (Binet公式)",
+      "url": "https://zhuanlan.zhihu.com/p/51311714",
+      "summary": "正文从牛顿第二定律和极坐标运动方程推导Binet轨道微分方程。"
+    },
+    {
+      "title": "关于勒让德变换 / 从拉格朗日方程到哈密顿正则方程",
+      "url": "https://zhuanlan.zhihu.com/p/51903123",
+      "summary": "正文从拉格朗日运动方程和勒让德变换推导哈密顿量，并得到描述系统演化的一阶运动方程组。"
+    },
+    {
+      "title": "期权(一)：几何布朗运动、伊藤公式与股价的解",
+      "url": "https://zhuanlan.zhihu.com/p/52023747",
+      "summary": "正文用几何布朗运动建立股价微分方程，结合伊藤公式和积分推导其显式解。"
+    },
+    {
+      "title": "数值分析学习笔记（七）",
+      "url": "https://zhuanlan.zhihu.com/p/52439947",
+      "summary": "正文系统讨论一阶常微分方程初值问题及高阶方程化为一阶方程组后的数值求解。"
+    },
+    {
+      "title": "用微分方程破解所有大学单中值定理题＆所有高中12题导数构造函数型题",
+      "url": "https://zhuanlan.zhihu.com/p/52526954",
+      "summary": "正文把中值定理中的等式转化为微分方程，并由其通解反推出辅助函数。"
+    },
+    {
+      "title": "正态分布推导过程",
+      "url": "https://zhuanlan.zhihu.com/p/52808762",
+      "summary": "正文对乘积关系求导得到微分方程，并用分离变量法求解函数形式。"
+    },
+    {
+      "title": "一种绕开e^x求导得到n阶线性齐次常系数微分方程的特解的方法",
+      "url": "https://zhuanlan.zhihu.com/p/53469040",
+      "summary": "正文研究常系数线性齐次微分方程在指数型非齐次项下的特解，并推广到 n 阶方程。"
+    },
+    {
+      "title": "浅谈KAM定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/53304713",
+      "summary": "正文从哈密顿正则方程和相流出发，介绍可积系统、微扰系统及KAM定理所研究的动力系统解。"
+    },
+    {
+      "title": "MIT—微分方程笔记01 图解法",
+      "url": "https://zhuanlan.zhihu.com/p/53848566",
+      "summary": "正文以 y'=f(x,y) 的一阶常微分方程为主线，讲解方向场和积分曲线这两种几何表示。"
+    },
+    {
+      "title": "一阶倒立摆的PID控制和LQR控制",
+      "url": "https://zhuanlan.zhihu.com/p/54071212",
+      "summary": "正文对倒立摆进行受力分析与线性化，得到小车和摆角的微分方程模型。"
+    },
+    {
+      "title": "DDPG中的Ornstein-Uhlenbeck过程怎么理解？",
+      "url": "https://zhuanlan.zhihu.com/p/54670989",
+      "summary": "正文写出OU过程的随机微分方程，并说明漂移项使状态向均值回归、噪声项驱动波动。"
+    },
+    {
+      "title": "Adjoint Method",
+      "url": "https://zhuanlan.zhihu.com/p/56159173",
+      "summary": "正文对时间相关约束建立状态演化 ODE，并说明通过反向求解乘子 ODE 计算梯度。"
+    },
+    {
+      "title": "有限元分析（FEA）是个什么东东",
+      "url": "https://zhuanlan.zhihu.com/p/56326567",
+      "summary": "正文对比常微分方程与偏微分方程的描述对象，并用振动方程和热传导方程举例。"
+    },
+    {
+      "title": "动力学蒙特卡洛算法",
+      "url": "https://zhuanlan.zhihu.com/p/56917127",
+      "summary": "正文把概率演化写成主方程或Fokker-Planck方程，并在衰变与化学反应例子中求解相应的微分方程。"
+    },
+    {
+      "title": "MP101：泛函分析补习班(5)：算子半群",
+      "url": "https://zhuanlan.zhihu.com/p/56266672",
+      "summary": "正文从常微分方程和矩阵微分方程的指数解出发，推广到算子微分方程的初值问题。"
+    },
+    {
+      "title": "遐思：线性微分方程通解的本质",
+      "url": "https://zhuanlan.zhihu.com/p/57817241",
+      "summary": "正文解释n阶齐次线性微分方程通解由n个线性无关解线性组合构成，并讨论非齐次情形。"
+    },
+    {
+      "title": "什么是二次型最优控制",
+      "url": "https://zhuanlan.zhihu.com/p/58134063",
+      "summary": "正文将控制系统写成状态微分方程，并以状态方程讨论稳定性、极点配置与反馈控制器的构造。"
+    },
+    {
+      "title": "粒子物理笔记——狄拉克方程（一）",
+      "url": "https://zhuanlan.zhihu.com/p/61338641",
+      "summary": "正文从相对论能量关系构造狄拉克方程，先得到其微分形式，再化为四维协变形式。"
+    },
+    {
+      "title": "如何用辛几何描写刚体定点转动",
+      "url": "https://zhuanlan.zhihu.com/p/61513727",
+      "summary": "正文推导欧拉运动学和动力学方程，并把刚体定点转动统一为相空间中的微分方程。"
+    },
+    {
+      "title": "拉格朗日量与哈密顿量--分析力学入门",
+      "url": "https://zhuanlan.zhihu.com/p/62258210",
+      "summary": "正文得到拉格朗日方程这一运动微分方程，并说明它与牛顿第二定律的对应。"
+    },
+    {
+      "title": "图形学中的表面追踪",
+      "url": "https://zhuanlan.zhihu.com/p/62412131",
+      "summary": "正文通过水平集的对流偏微分方程演化符号距离函数并重构表面，具体展示了微分方程的应用。"
+    },
+    {
+      "title": "高数笔记-常系数非齐次微分方程的解法",
+      "url": "https://zhuanlan.zhihu.com/p/64558412",
+      "summary": "正文通过特征方程求二阶常系数非齐次线性微分方程的齐次通解，并分别构造指数项与余弦项的特解。"
+    },
+    {
+      "title": "高数笔记-常系数非齐次线性微分方程(二)",
+      "url": "https://zhuanlan.zhihu.com/p/64581169",
+      "summary": "正文由特征根求二阶常系数非齐次线性微分方程的齐次通解，再通过待定系数求得一个特解。"
+    },
+    {
+      "title": "金融随机分析——随机积分与伊藤引理",
+      "url": "https://zhuanlan.zhihu.com/p/65054050",
+      "summary": "正文用伊藤引理推导股价和对数价格满足的随机微分方程，并验证 Vasicek 利率方程的解。"
+    },
+    {
+      "title": "微分方程数值解法|专题（1）——常微分方程的有限差分方法",
+      "url": "https://zhuanlan.zhihu.com/p/65179097",
+      "summary": "正文从一阶常微分方程初值问题出发，介绍有限差分数值解及其稳定性。"
+    },
+    {
+      "title": "考研高数某些技巧（不断更新中）",
+      "url": "https://zhuanlan.zhihu.com/p/63657490",
+      "summary": "正文给出常系数非齐次线性方程的特解公式，并通过代换把一类一阶方程化为齐次方程。"
+    },
+    {
+      "title": "从动力学角度看优化算法：GAN的第三个阶段",
+      "url": "https://zhuanlan.zhihu.com/p/65953336",
+      "summary": "正文把梯度下降训练改写为常微分方程组，并用动力系统方法分析生成器与判别器的收敛。"
+    },
+    {
+      "title": "布朗运动基本方程",
+      "url": "https://zhuanlan.zhihu.com/p/67229061",
+      "summary": "正文对布朗粒子方程取系综平均并化为关于均方位移的二阶常微分方程求解。"
+    },
+    {
+      "title": "什么是最速降线？它又有何奇妙的性质呢？",
+      "url": "https://zhuanlan.zhihu.com/p/68140784",
+      "summary": "正文由能量守恒得到一阶非线性微分方程，并用分离变量和参数代换求出摆线参数解。"
+    },
+    {
+      "title": "机械振动理论(1)-单自由度系统",
+      "url": "https://zhuanlan.zhihu.com/p/69223633",
+      "summary": "正文建立单自由度系统的二阶微分方程，并由特征根给出时域解和初始条件响应。"
+    },
+    {
+      "title": "机械振动理论(2)-多自由度系统",
+      "url": "https://zhuanlan.zhihu.com/p/69232370",
+      "summary": "正文建立多自由度系统的二阶动力学微分方程组，并讨论拉氏域解和频域响应。"
+    },
+    {
+      "title": "数学分析笔记（九）——连续映射的一般理论",
+      "url": "https://zhuanlan.zhihu.com/p/56222743",
+      "summary": "正文把初值问题写成积分解算子，应用压缩映射原理证明常微分方程解的存在唯一性。"
+    },
+    {
+      "title": "身边的微分方程 (0)：序曲",
+      "url": "https://zhuanlan.zhihu.com/p/66085740",
+      "summary": "正文以弹簧振子为例建立二阶线性常微分方程，并讨论通解与初始条件。"
+    },
+    {
+      "title": "身边的微分方程 (1)：自然常数e的身世之谜",
+      "url": "https://zhuanlan.zhihu.com/p/48350238",
+      "summary": "正文围绕一阶线性齐次微分方程说明建立、分离变量求解和初值确定过程。"
+    },
+    {
+      "title": "3.微分方程与线性化方法 – 合理性探讨",
+      "url": "https://zhuanlan.zhihu.com/p/70343185",
+      "summary": "正文从常微分方程的通解与特解讲到系统响应、零输入与零状态响应，并分析线性化误差。"
+    },
+    {
+      "title": "4. 传递函数",
+      "url": "https://zhuanlan.zhihu.com/p/70345660",
+      "summary": "正文由三阶线性常微分方程推导传递函数，并用特征根讨论极点和响应模态。"
+    },
+    {
+      "title": "微分方程公式总结上！",
+      "url": "https://zhuanlan.zhihu.com/p/56466991",
+      "summary": "正文系统整理一阶线性、齐次、伯努利、全微分及可降阶高阶微分方程的解法。"
+    },
+    {
+      "title": "具有形式不变性的高阶微分",
+      "url": "https://zhuanlan.zhihu.com/p/70866374",
+      "summary": "正文讨论由高阶微分构造的微分方程，并用二阶电路冲激响应说明建模过程。"
+    },
+    {
+      "title": "身边的微分方程 (2)：Logistic曲线与物种兴衰",
+      "url": "https://zhuanlan.zhihu.com/p/66901788",
+      "summary": "正文建立受资源限制的Logistic微分方程，分析增长率与种群数量的关系，并求解其函数。"
+    },
+    {
+      "title": "多自由度小振动系统初步(1)-绪论",
+      "url": "https://zhuanlan.zhihu.com/p/71855288",
+      "summary": "正文建立并求解多自由度无阻尼振动的矩阵微分方程，给出系统随时间的运动解。"
+    },
+    {
+      "title": "如何理解飞机的五种飞行模态",
+      "url": "https://zhuanlan.zhihu.com/p/72599326",
+      "summary": "正文以状态方程和平衡点线性化系统讲解线性微分方程及相图分析。"
+    },
+    {
+      "title": "数学领域分类",
+      "url": "https://zhuanlan.zhihu.com/p/74481149",
+      "summary": "正文用量与变化率之间的关系界定微分方程的研究对象。"
+    },
+    {
+      "title": "偏微分方程笔记(1)——输运方程",
+      "url": "https://zhuanlan.zhihu.com/p/74576825",
+      "summary": "正文通过特征曲线把传输方程化为常微分方程，并分别求解齐次与非齐次初值问题。"
+    },
+    {
+      "title": "偏微分方程笔记(2)——Laplace(位势)方程的基本解",
+      "url": "https://zhuanlan.zhihu.com/p/75732103",
+      "summary": "正文把径向Laplace方程化为二阶常微分方程，并分别求解二维和高维情形。"
+    },
+    {
+      "title": "从物理角度理解加速梯度下降",
+      "url": "https://zhuanlan.zhihu.com/p/73441350",
+      "summary": "正文把带动量梯度下降在步长趋零时近似为二阶微分方程，并用阻尼振荡解释收敛行为。"
+    },
+    {
+      "title": "微分方程公式总结下！",
+      "url": "https://zhuanlan.zhihu.com/p/56472139",
+      "summary": "正文系统总结二阶及高阶线性微分方程的解结构与常系数非齐次方程特解形式。"
+    },
+    {
+      "title": "带领高中生数学科研的一段经历——2016年的PRIMES历程与感想",
+      "url": "https://zhuanlan.zhihu.com/p/78410618",
+      "summary": "正文把离散曲线缩短流化为常微分方程组，并用非线性 ODE 的定性理论和相图分析三角形演化。"
+    },
+    {
+      "title": "滑模控制器最强解析",
+      "url": "https://zhuanlan.zhihu.com/p/78549442",
+      "summary": "正文建立木块的状态方程，设计滑模面和趋近律，并用 Lyapunov 条件分析状态收敛，属于微分方程建模与动态系统求解的应用。"
+    },
+    {
+      "title": "2. 状态空间方程的解 Solution of State-Space Equations",
+      "url": "https://zhuanlan.zhihu.com/p/78664433",
+      "summary": "正文完整求解齐次与非齐次状态空间方程，给出状态转移矩阵和含输入的积分形式解，属于微分方程方法。"
+    },
+    {
+      "title": "傅里叶变换的性质及基本应用",
+      "url": "https://zhuanlan.zhihu.com/p/78775455",
+      "summary": "正文用傅里叶变换把微分方程化为代数方程，并通过反变换求出具体解。"
+    },
+    {
+      "title": "有限元学习心得（一）",
+      "url": "https://zhuanlan.zhihu.com/p/79987509",
+      "summary": "正文明确以微分方程求解为目标，区分强形式、边界条件和弱形式。"
+    },
+    {
+      "title": "偏微分方程笔记(5)——热传导方程的基本解",
+      "url": "https://zhuanlan.zhihu.com/p/80214720",
+      "summary": "正文围绕热传导方程的定解条件、基本解和初值问题展开完整的微分方程求解。"
+    },
+    {
+      "title": "【转】数学体系主要分支",
+      "url": "https://zhuanlan.zhihu.com/p/80717901",
+      "summary": "正文系统介绍常微分方程的定义、通解与特解、存在唯一性和近似解，属于微分方程分支。"
+    },
+    {
+      "title": "用Python数值求解偏微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/81488678",
+      "summary": "正文从一阶常微分方程出发，讲解 RC 回路、热传导方程及其数值求解过程。"
+    },
+    {
+      "title": "微分方程通杀篇",
+      "url": "https://zhuanlan.zhihu.com/p/81567184",
+      "summary": "正文系统总结一阶微分方程的分离变量、线性方程、伯努利方程和换元降阶，以及二阶常系数非齐次方程求解。"
+    },
+    {
+      "title": "请大家一起来解这个微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/81640766",
+      "summary": "正文把特殊 Riccati 方程经代换化为二阶线性常微分方程，借助 Bessel 方程求解后再逆变换。"
+    },
+    {
+      "title": "机械振动理论(3)-解析实模态分析",
+      "url": "https://zhuanlan.zhihu.com/p/82211194",
+      "summary": "正文建立二阶常系数线性微分方程组，并使用指数型解求模态响应。"
+    },
+    {
+      "title": "机械振动理论(5)-解析复模态分析",
+      "url": "https://zhuanlan.zhihu.com/p/82789629",
+      "summary": "正文运用状态空间把多自由度振动方程化为一阶微分方程组，并求解指数形式响应。"
+    },
+    {
+      "title": "简单易读的动力系统：从流到李雅普诺夫指数",
+      "url": "https://zhuanlan.zhihu.com/p/83082587",
+      "summary": "正文把动力系统定义为坐标的时间导数由坐标和时间函数给出的微分方程组，并讨论自治方程、流和 Liouville 公式，实质展开微分方程动力系统。"
+    },
+    {
+      "title": "简单易懂的动力系统：庞加莱映射定义的周期性演化",
+      "url": "https://zhuanlan.zhihu.com/p/83323162",
+      "summary": "正文以 Van der Pol 微分方程组的流、相图和 Poincare 映射讨论解轨道的周期演化。"
+    },
+    {
+      "title": "如何区分线性系统与非线性系统",
+      "url": "https://zhuanlan.zhihu.com/p/84365683",
+      "summary": "正文用微分方程给出线性系统的判别方式，并区分系统输入输出的线性关系。"
+    },
+    {
+      "title": "偏微分方程笔记(8)——波动方程的d'Alembert公式, Kirchhoff公式",
+      "url": "https://zhuanlan.zhihu.com/p/84755975",
+      "summary": "正文系统推导一维、高维波动方程的解，并与其他微分方程的求解性质作比较。"
+    },
+    {
+      "title": "关于LaSalle不变集定理的一个问题",
+      "url": "https://zhuanlan.zhihu.com/p/84639564",
+      "summary": "正文针对自治微分方程系统讲解 LaSalle 不变集定理及稳定子集判定。"
+    },
+    {
+      "title": "正则变换与哈密顿-雅可比理论 / 作用量竟做出这种事⋯ 背后原因令人暖心",
+      "url": "https://zhuanlan.zhihu.com/p/85001265",
+      "summary": "正文讨论正则变换如何保持哈密顿正则方程的形式，并用于构造守恒量，涉及微分方程的结构变换。"
+    },
+    {
+      "title": "偏微分方程笔记(9)——高维、非齐次波动方程的解，Huygens原理",
+      "url": "https://zhuanlan.zhihu.com/p/85092136",
+      "summary": "正文系统讨论高维波动方程的初始值问题，并通过变换、降维和积分表示求解。"
+    },
+    {
+      "title": "微分方程(1)-基本概念及分类",
+      "url": "https://zhuanlan.zhihu.com/p/85151812",
+      "summary": "正文给出微分方程、常微分方程、阶数、通解以及初值和边界值问题的基本分类与定义。"
+    },
+    {
+      "title": "现代控制理论线性系统入门(一)状态方程描述下的动态系统",
+      "url": "https://zhuanlan.zhihu.com/p/82621398",
+      "summary": "正文把动态系统写成一阶常微分方程组，并用电路、机械臂和倒立摆说明建模与线性化。"
+    },
+    {
+      "title": "微分方程(2)-一阶常微分方程的解法",
+      "url": "https://zhuanlan.zhihu.com/p/85229526",
+      "summary": "正文系统讲解可分离变量、齐次、恰当、线性和伯努利五类一阶常微分方程及其求解步骤。"
+    },
+    {
+      "title": "微分方程(3)-线性微分方程解的结构",
+      "url": "https://zhuanlan.zhihu.com/p/85230665",
+      "summary": "正文系统讲解线性常微分方程的齐次解、非齐次解和通解结构，属于微分方程的核心理论。"
+    },
+    {
+      "title": "现代控制理论线性系统入门(二)状态变量的解和渐近稳定性",
+      "url": "https://zhuanlan.zhihu.com/p/85137646",
+      "summary": "正文系统推导线性自治及非齐次状态微分方程的解。"
+    },
+    {
+      "title": "现代控制理论线性系统入门(四)能控性和能观性",
+      "url": "https://zhuanlan.zhihu.com/p/85772766",
+      "summary": "正文围绕线性时不变系统的状态微分方程展开，并利用其解推导能控性和能观性判据。"
+    },
+    {
+      "title": "【泛函基础 1.4】Banach 不动点定理",
+      "url": "https://zhuanlan.zhihu.com/p/86233206",
+      "summary": "正文把初值问题写成积分算子，用压缩映射证明微分方程局部解的存在唯一性。"
+    },
+    {
+      "title": "现代控制理论线性系统入门(八)最优控制——LQR控制器",
+      "url": "https://zhuanlan.zhihu.com/p/87070103",
+      "summary": "正文由HJB方程推导Riccati矩阵微分方程，并讨论倒向积分求解。"
+    },
+    {
+      "title": "从微分方程的级数解到两个特殊方程（1）：关于平凡点的解",
+      "url": "https://zhuanlan.zhihu.com/p/87530520",
+      "summary": "正文系统讲解二阶齐次线性常微分方程在平凡点处的待定系数幂级数解法。"
+    },
+    {
+      "title": "从微分方程的级数解到两个特殊方程（2）：关于奇点的解",
+      "url": "https://zhuanlan.zhihu.com/p/87592246",
+      "summary": "正文讨论二阶常微分方程在规则奇点和不规则奇点处的级数解、指标方程及另一特解求法。"
+    },
+    {
+      "title": "从微分方程的级数解到两个特殊方程（3）：贝塞尔方程（一）",
+      "url": "https://zhuanlan.zhihu.com/p/87624884",
+      "summary": "正文从贝塞尔方程出发，在规则奇点处求级数解并构造第一类和第二类贝塞尔函数通解。"
+    },
+    {
+      "title": "从微分方程的级数解到两个特殊方程（4）：贝塞尔方程（二）",
+      "url": "https://zhuanlan.zhihu.com/p/87807655",
+      "summary": "正文通过变量代换把气体方程、广义贝塞尔方程等多类二阶变系数微分方程化为标准贝塞尔方程并求通解。"
+    },
+    {
+      "title": "从微分方程的级数解到两个特殊方程（5）：勒让德方程",
+      "url": "https://zhuanlan.zhihu.com/p/88140502",
+      "summary": "正文系统讨论勒让德方程的幂级数解、通解结构以及连带勒让德方程的变换。"
+    },
+    {
+      "title": "偏微分方程笔记(11)——分离变量法初探",
+      "url": "https://zhuanlan.zhihu.com/p/88503170",
+      "summary": "正文将偏微分方程分离为时间与空间方向的常微分方程，并由初始和边界条件组合出原方程的解。"
+    },
+    {
+      "title": "现代控制理论线性系统入门(九)设计状态观测器",
+      "url": "https://zhuanlan.zhihu.com/p/87613138",
+      "summary": "正文由系统状态方程推导估计误差随时间演化的微分方程，并用其稳定性判断观测器是否有效。"
+    },
+    {
+      "title": "算子大法好：二阶非齐次微分方程特解",
+      "url": "https://zhuanlan.zhihu.com/p/89350923",
+      "summary": "正文系统讨论二阶非齐次微分方程的通解结构、特解公式及指数响应规则。"
+    },
+    {
+      "title": "现代控制理论线性系统入门(十)轨迹追踪反馈控制",
+      "url": "https://zhuanlan.zhihu.com/p/88673187",
+      "summary": "正文以状态空间微分方程描述线性系统，并推导轨迹追踪误差的动态方程。"
+    },
+    {
+      "title": "微分几何笔记(3) ——  Frenet标架及Frenet方程组",
+      "url": "https://zhuanlan.zhihu.com/p/89937768",
+      "summary": "正文导出 Frenet 方程组，并用微分方程解的存在唯一性讨论给定曲率的曲线。"
+    },
+    {
+      "title": "偏微分方程笔记(12)——特征线法初探",
+      "url": "https://zhuanlan.zhihu.com/p/92052454",
+      "summary": "正文把偏微分方程沿参数曲线化为关于未知函数和导数的常微分方程组，并示范求解。"
+    },
+    {
+      "title": "fluid(流） 方法图像配准简介",
+      "url": "https://zhuanlan.zhihu.com/p/90593936",
+      "summary": "正文给出图像随速度场演化的平流偏微分方程，并说明其离散推进形式和初始条件。"
+    },
+    {
+      "title": "利用含参积分求一个积分奇异值",
+      "url": "https://zhuanlan.zhihu.com/p/92437331",
+      "summary": "正文将含参积分转化为二阶常系数线性微分方程，并用特征方程与边界条件求解。"
+    },
+    {
+      "title": "【笔记】常微分方程基本定理（上）",
+      "url": "https://zhuanlan.zhihu.com/p/93337082",
+      "summary": "正文围绕初值问题展开解的存在唯一性、连续依赖性和参数可微性等微分方程基本定理。"
+    },
+    {
+      "title": "《偏微分方程的类型及求解》（一）",
+      "url": "https://zhuanlan.zhihu.com/p/93733930",
+      "summary": "正文通过分离变量把偏微分方程化为常微分方程，并系统讨论定解条件与求解。"
+    },
+    {
+      "title": "BS公式——热方程推导法",
+      "url": "https://zhuanlan.zhihu.com/p/93677341",
+      "summary": "正文通过变量替换把该微分方程化为热方程，并逐步求出期权定价解。"
+    },
+    {
+      "title": "现代控制系统-状态空间模型",
+      "url": "https://zhuanlan.zhihu.com/p/94196880",
+      "summary": "正文以连续状态的导数或离散状态变化量建立状态空间微分方程和差分方程。"
+    },
+    {
+      "title": "一阶非齐次线性微分方程 - 推导通解公式，不使用常数变易法",
+      "url": "https://zhuanlan.zhihu.com/p/94543219",
+      "summary": "正文以一阶非齐次线性微分方程为例，通过乘积分因子并积分推导其通解公式。"
+    },
+    {
+      "title": "视觉惯性里程计的IMU预积分模型",
+      "url": "https://zhuanlan.zhihu.com/p/90213963",
+      "summary": "正文建立位置、速度和姿态关于时间的微分方程，再积分得到相邻时刻的运动状态。"
+    },
+    {
+      "title": "常微分方程学习笔记(1)",
+      "url": "https://zhuanlan.zhihu.com/p/95920395",
+      "summary": "正文系统介绍一阶微分方程的几何意义、恰当方程、变量分离、一阶线性方程和积分因子等解法。"
+    },
+    {
+      "title": "常微分方程学习笔记(2)",
+      "url": "https://zhuanlan.zhihu.com/p/96005329",
+      "summary": "围绕一阶微分方程初值问题的存在性与唯一性，讲解 Picard 定理、Peano 定理及其证明思路。"
+    },
+    {
+      "title": "偏微分方程笔记(13)——Fourier变换求PDE",
+      "url": "https://zhuanlan.zhihu.com/p/96829926",
+      "summary": "正文通过傅里叶变换把热传导偏微分方程化为常微分方程，再作逆变换求得基本解。"
+    },
+    {
+      "title": "用 Python 来研究数学 --- SymPy 符号工具包介绍",
+      "url": "https://zhuanlan.zhihu.com/p/96738286",
+      "summary": "正文给出常微分方程和偏微分方程的符号求解及方程类型识别示例。"
+    },
+    {
+      "title": "对一阶非齐次线性微分方程的常数变易法的一次释疑",
+      "url": "https://zhuanlan.zhihu.com/p/95404828",
+      "summary": "正文完整推导一阶非齐次线性微分方程的常数变易法，并解释齐次通解与特解的叠加。"
+    },
+    {
+      "title": "恰当微分方程及分项组合法",
+      "url": "https://zhuanlan.zhihu.com/p/97912827",
+      "summary": "正文系统讲解恰当微分方程的判定、求解函数构造及分项组合法。"
+    },
+    {
+      "title": "AI拿下高数一血，求解微分方程、不定积分只需1秒，成绩远超Matlab",
+      "url": "https://zhuanlan.zhihu.com/p/98174049",
+      "summary": "正文展开一阶和二阶常微分方程及其解的生成方法，属于微分方程建模内容。"
+    },
+    {
+      "title": "机器人机械结构之倒立摆模型",
+      "url": "https://zhuanlan.zhihu.com/p/97064180",
+      "summary": "正文对小车倒立摆作受力分析，并由牛顿第二定律推导小车位移、摆角及其二阶导数满足的动力学微分方程。"
+    },
+    {
+      "title": "为什么“水池注水“这道小学数学题不符合物理规律？",
+      "url": "https://zhuanlan.zhihu.com/p/99024949",
+      "summary": "正文分别建立匀速注水和随水位变化的排水模型，再把两者组合成水位随时间变化的微分方程。"
+    },
+    {
+      "title": "第七章——微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/99271908",
+      "summary": "正文系统说明微分方程的阶、通解和初值问题，并讲解可分离变量、齐次、一阶线性、可降阶及常系数线性方程的解法。"
+    },
+    {
+      "title": "理论力学笔记（一）：变分法",
+      "url": "https://zhuanlan.zhihu.com/p/99890863",
+      "summary": "正文对最速降线应用欧拉-拉格朗日方程，得到并求解决定轨迹的微分方程。"
+    },
+    {
+      "title": "【笔记】常微分方程基本定理（中）",
+      "url": "https://zhuanlan.zhihu.com/p/99897426",
+      "summary": "正文讨论常微分方程解的延伸、最大存在区间及边界处解的渐进行为。"
+    },
+    {
+      "title": "考前突击笔记：《信号与系统》",
+      "url": "https://zhuanlan.zhihu.com/p/100027292",
+      "summary": "正文分别用齐次解和变换法求解连续微分方程与离散差分方程，并合成零输入与零状态响应。"
+    },
+    {
+      "title": "符号计算中的深度学习方法",
+      "url": "https://zhuanlan.zhihu.com/p/102257127",
+      "summary": "正文说明一阶和二阶常微分方程训练数据的生成，并通过消去积分常数构造方程和解的配对。"
+    },
+    {
+      "title": "3.1-Hodgkin-Huxley (HH) 模型",
+      "url": "https://zhuanlan.zhihu.com/p/102770891",
+      "summary": "正文建立膜电位与钠、钾通道门控变量的微分方程组，并给出门控方程的解及多种神经元变体参数。"
+    },
+    {
+      "title": "基于EKF的航姿解算(AHRS)",
+      "url": "https://zhuanlan.zhihu.com/p/103617763",
+      "summary": "正文依据四元数微分方程建立离散状态转移模型，并据此预测姿态四元数和陀螺仪偏置。"
+    },
+    {
+      "title": "四元数微分方程的推导和解算实现",
+      "url": "https://zhuanlan.zhihu.com/p/103623879",
+      "summary": "正文从旋转四元数求导推导四元数微分方程，并讨论其连续形式和离散求解。"
+    },
+    {
+      "title": "保角变换",
+      "url": "https://zhuanlan.zhihu.com/p/103691161",
+      "summary": "正文把平面静电问题化为二维泊松方程，并通过保角变换转换边界条件后求解。"
+    },
+    {
+      "title": "传染病的数学模型",
+      "url": "https://zhuanlan.zhihu.com/p/103974270",
+      "summary": "正文建立 SI、SIS、SIR 常微分方程模型，并通过求解或动力系统分析讨论感染人数的变化。"
+    },
+    {
+      "title": "经典传染病的SIR模型（基于MATLAB）",
+      "url": "https://zhuanlan.zhihu.com/p/104072104",
+      "summary": "正文建立 SIR 人群转移的微分方程模型，并用 MATLAB 的 ode45 求解和解释模型行为。"
+    },
+    {
+      "title": "用Python实现经典传染病模型",
+      "url": "https://zhuanlan.zhihu.com/p/104091330",
+      "summary": "正文逐一定义 SI、SIS、SIR、SEIR 等传染病微分方程，并用 Python 数值求解。"
+    },
+    {
+      "title": "在家宅着也能抵抗肺炎！玩一玩SEIR传染病模型",
+      "url": "https://zhuanlan.zhihu.com/p/104268573",
+      "summary": "正文从 SI、SIS、SIR 推到 SEIR，并给出各仓室人数变化的微分方程。"
+    },
+    {
+      "title": "常微分方程学习笔记(9)",
+      "url": "https://zhuanlan.zhihu.com/p/105161670",
+      "summary": "正文系统讲解动力系统、相图、奇点、稳定性、极限环与分支，并以多类自治微分方程为例。"
+    },
+    {
+      "title": "MIT 18.03 微分方程笔记 常微分方程组（六）：极限环与混沌",
+      "url": "https://zhuanlan.zhihu.com/p/105651140",
+      "summary": "正文围绕非线性一阶微分自治方程组讲解轨迹、临界点和极限环，并用庞加莱-本迪克松定理及具体系统判断周期轨道的存在性。"
+    },
+    {
+      "title": "微积分笔记：若干种常微分方程解法",
+      "url": "https://zhuanlan.zhihu.com/p/106282675",
+      "summary": "正文讲解一阶线性方程与二阶线性常微分方程的解法，利用特征方程区分实根、重根和复根并写出对应通解。"
+    },
+    {
+      "title": "VIO中的IMU数值积分与IMU预积分",
+      "url": "https://zhuanlan.zhihu.com/p/107032156",
+      "summary": "正文以带初值的微分方程为对象，讲解姿态、速度和位置的离散积分与预积分。"
+    },
+    {
+      "title": "MIT—微分方程笔记20 拉氏变换求解线性常微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/107466016",
+      "summary": "正文把二阶线性微分方程变换为代数方程，代入初值求解后再作反变换，完整演示了微分方程的求解流程。"
+    },
+    {
+      "title": "（五）反步控制零基础讲解",
+      "url": "https://zhuanlan.zhihu.com/p/108401400",
+      "summary": "正文把反步控制写成状态变量的一阶微分方程组，并通过逐步设计使误差系统渐进稳定。"
+    },
+    {
+      "title": "随机微分方程入门（一）布朗运动与伊藤积分的引出",
+      "url": "https://zhuanlan.zhihu.com/p/108866971",
+      "summary": "正文从含噪声的微分方程出发，引入随机微分方程及其积分形式。"
+    },
+    {
+      "title": "数列、矩阵与微分方程的特征值",
+      "url": "https://zhuanlan.zhihu.com/p/109529158",
+      "summary": "正文以二阶常系数线性微分方程为例，说明特征根方程、通解结构及与数列递推的对应关系。"
+    },
+    {
+      "title": "数值计算（三）matlab求解一般的偏微分方程组",
+      "url": "https://zhuanlan.zhihu.com/p/110277324",
+      "summary": "正文给出偏微分方程组的 Matlab 求解调用方式、初始条件和边界条件，并展示完整代码。"
+    },
+    {
+      "title": "Python数值计算——Scipy库的应用",
+      "url": "https://zhuanlan.zhihu.com/p/110877796",
+      "summary": "正文讨论一阶常微分方程组的数值求解，并说明二阶方程化为一阶状态方程的方法。"
+    },
+    {
+      "title": "Python数值计算----------二维波动方程有限差分解",
+      "url": "https://zhuanlan.zhihu.com/p/111640958",
+      "summary": "正文围绕波浪方程的控制方程、初始条件、边界条件和时间推进求解展开。"
+    },
+    {
+      "title": "下一代矩阵法&微分方程稳定性——以SIR系列为例",
+      "url": "https://zhuanlan.zhihu.com/p/111752410",
+      "summary": "正文建立 SIR、SIRS 和 SEIR 的微分方程组，并通过平衡点分析讨论传染病模型的稳定性。"
+    },
+    {
+      "title": "随机微分方程入门（二）Ito积分",
+      "url": "https://zhuanlan.zhihu.com/p/110413917",
+      "summary": "正文给出随机微分形式及其复合函数的 Ito 微分公式，说明随机微分方程的计算基础。"
+    },
+    {
+      "title": "Malliavin 分析（一）",
+      "url": "https://zhuanlan.zhihu.com/p/110868603",
+      "summary": "正文研究随机微分方程强解的存在唯一性与正则性，并进一步讨论非适应线性随机微分方程。"
+    },
+    {
+      "title": "某些常见微分方程的一般解法（工具向）",
+      "url": "https://zhuanlan.zhihu.com/p/114266956",
+      "summary": "正文系统整理分离变量、齐次、变量替换、线性、伯努利、恰当及可降阶等微分方程解法，并给出多个参数解例题。"
+    },
+    {
+      "title": "高等数学系列R之三：拉氏变换",
+      "url": "https://zhuanlan.zhihu.com/p/114535104",
+      "summary": "正文给出用拉普拉斯变换和反变换求解带初值的线性常系数微分方程的步骤与实例。"
+    },
+    {
+      "title": "【简明自控】为什么特征方程如此重要",
+      "url": "https://zhuanlan.zhihu.com/p/115199985",
+      "summary": "正文将实际系统建模为微分方程，再由方程和传递函数分析稳定性、准确性与快速性。"
+    },
+    {
+      "title": "自抗扰控制理论（一）ADRC的原理",
+      "url": "https://zhuanlan.zhihu.com/p/115283894",
+      "summary": "正文以二阶系统的微分方程和扩展状态方程建立自抗扰控制的观测器模型。"
+    },
+    {
+      "title": "一个菜鸟初学者的哈密顿力学笔记",
+      "url": "https://zhuanlan.zhihu.com/p/115188080",
+      "summary": "正文从拉格朗日函数推导哈密顿正则方程，并讨论运动积分与相空间体积演化。"
+    },
+    {
+      "title": "线性系统理论（一）状态空间描述",
+      "url": "https://zhuanlan.zhihu.com/p/114516587",
+      "summary": "正文把高阶系统微分方程转换为一阶微分方程组以建立状态空间模型。"
+    },
+    {
+      "title": "非线性系统（一）极限环",
+      "url": "https://zhuanlan.zhihu.com/p/121678858",
+      "summary": "正文以二维非线性微分方程系统讲解极限环的稳定性、闭环性质与存在性判定。"
+    },
+    {
+      "title": "我们从不骗你，除非......你不懂物理",
+      "url": "https://zhuanlan.zhihu.com/p/122560610",
+      "summary": "正文为坠落系统选择广义坐标、建立拉格朗日方程并数值求解随时间的运动状态。"
+    },
+    {
+      "title": "微分方程中的几个基础概念",
+      "url": "https://zhuanlan.zhihu.com/p/123859732",
+      "summary": "正文定义微分方程，并按自变量、线性性、齐次性和阶数说明其基本分类。"
+    },
+    {
+      "title": "非线性控制（二）相平面法",
+      "url": "https://zhuanlan.zhihu.com/p/119390532",
+      "summary": "正文以相平面轨线分析二阶常微分方程，并讨论平衡点、稳定性和极限环。"
+    },
+    {
+      "title": "从数学发现到物理难题——分数微积分的推导与应用",
+      "url": "https://zhuanlan.zhihu.com/p/124627581",
+      "summary": "正文把等时降落问题转化为Abel积分方程和可分离变量微分方程，积分后得到摆线参数方程。"
+    },
+    {
+      "title": "摆线的那些事儿——数学界的大型装逼事件",
+      "url": "https://zhuanlan.zhihu.com/p/126421949",
+      "summary": "正文建立简谐运动微分方程，并据此分析等时降落问题。"
+    },
+    {
+      "title": "《现代控制理论基础》— 2 什么是状态与状态空间",
+      "url": "https://zhuanlan.zhihu.com/p/127922258",
+      "summary": "正文用一阶微分方程定义状态方程，并以 RLC 电路建立具体状态空间微分方程。"
+    },
+    {
+      "title": "偏微分方程-基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/129141939",
+      "summary": "正文以弦的动量守恒和张力分析为建模步骤，推导出一维弦振动及波动微分方程。"
+    },
+    {
+      "title": "数值常微分方程-欧拉法与龙格-库塔法",
+      "url": "https://zhuanlan.zhihu.com/p/131303043",
+      "summary": "正文从一阶常微分方程初值问题出发，推导欧拉法和龙格-库塔法的迭代公式。"
+    },
+    {
+      "title": "常微分方程的微分算子法",
+      "url": "https://zhuanlan.zhihu.com/p/132651937",
+      "summary": "正文把二阶线性微分方程写成微分算子多项式作用形式，并给出指数输入、移位和重根情形下的特解公式。"
+    },
+    {
+      "title": "聊聊常微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/133156785",
+      "summary": "正文给出常微分方程的定义、分类、历史、求解方法与定性理论框架。"
+    },
+    {
+      "title": "Apollo5.0 控制模块-MPC入门学习笔记4",
+      "url": "https://zhuanlan.zhihu.com/p/133223753",
+      "summary": "正文建立车辆运动的连续状态空间方程，以状态变量的一阶微分方程描述状态演化。"
+    },
+    {
+      "title": "简谐振动运动方程的推导",
+      "url": "https://zhuanlan.zhihu.com/p/133809744",
+      "summary": "正文把简谐振动写成二阶常微分方程，并通过特征根和复共轭条件求通解。"
+    },
+    {
+      "title": "有限元方法：从代码入手(6)",
+      "url": "https://zhuanlan.zhihu.com/p/133893199",
+      "summary": "正文以一阶线性常微分方程为例，逐步构造其有限元离散和数值求解过程。"
+    },
+    {
+      "title": "傅科摆——你真的了解吗？",
+      "url": "https://zhuanlan.zhihu.com/p/133758222",
+      "summary": "正文把傅科摆运动化为二阶齐次线性常系数微分方程，并求特征根与通解。"
+    },
+    {
+      "title": "拉普拉斯变换的那些事儿——定义、性质与Airy常微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/128812880",
+      "summary": "正文用拉普拉斯变换把二阶线性常系数方程化为代数方程，并进一步求解 Airy 方程。"
+    },
+    {
+      "title": "也许你需要的是一点微分方程……",
+      "url": "https://zhuanlan.zhihu.com/p/134197935",
+      "summary": "正文将原不等式问题转化为关于根和的一阶微分方程初值问题，再通过射线方向场估计证明不等式。"
+    },
+    {
+      "title": "一个有意思的数学分析题",
+      "url": "https://zhuanlan.zhihu.com/p/134233403",
+      "summary": "正文把代数根的求和估计转化为一阶常微分方程初值问题，并引用比较定理证明尖锐上界。"
+    },
+    {
+      "title": "受迫振动与共振",
+      "url": "https://zhuanlan.zhihu.com/p/135856012",
+      "summary": "正文建立受迫阻尼振子的二阶常系数非齐次微分方程，分别求齐次通解与特解并叠加得到运动。"
+    },
+    {
+      "title": "[科普文]——Laplace变换与Fourier变换之间有何关系？",
+      "url": "https://zhuanlan.zhihu.com/p/130933080",
+      "summary": "正文由牛顿定律建立弹簧振子方程，求特征根和通解以分析三类阻尼振动。"
+    },
+    {
+      "title": "2020美赛A题(2)-预测模型",
+      "url": "https://zhuanlan.zhihu.com/p/135452032",
+      "summary": "正文由一次累加序列建立灰色预测的微分方程，并求解离散预测公式及检验模型。"
+    },
+    {
+      "title": "认识流场模态分解（data-driven）",
+      "url": "https://zhuanlan.zhihu.com/p/137926789",
+      "summary": "正文以动力系统方程和 Galerkin 投影说明模型降阶方法。"
+    },
+    {
+      "title": "单摆周期的公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/138339027",
+      "summary": "正文从能量守恒推出角度随时间的微分方程并求解周期。"
+    },
+    {
+      "title": "闲聊系列（六）聊聊控制理论",
+      "url": "https://zhuanlan.zhihu.com/p/138565523",
+      "summary": "正文以多变量锅炉控制为例说明建立微分方程并进一步化为状态空间方程的过程。"
+    },
+    {
+      "title": "浅谈变分原理",
+      "url": "https://zhuanlan.zhihu.com/p/139018146",
+      "summary": "正文把变分极值条件化为 Euler-Lagrange 二阶微分方程，并通过降阶、换元和边界条件求出具体曲线。"
+    },
+    {
+      "title": "偏微分1 | 弦振动方程",
+      "url": "https://zhuanlan.zhihu.com/p/139238713",
+      "summary": "正文给出弦振动微分方程，并进一步推广到二维、三维以及带外力的形式。"
+    },
+    {
+      "title": "20. LQR控制器— 线性二次型调节器 Linear Quadratic Regulator",
+      "url": "https://zhuanlan.zhihu.com/p/139145957",
+      "summary": "正文用状态微分方程描述被控系统，并由Riccati矩阵微分方程求解反馈控制。"
+    },
+    {
+      "title": "随机微积分 (13) 伊藤过程、随机微分方程SDE",
+      "url": "https://zhuanlan.zhihu.com/p/140075707",
+      "summary": "正文给出随机微分方程的微分形式，并推导几何布朗运动这一常见随机微分方程的解。"
+    },
+    {
+      "title": "串讲：观测器（Observer）：龙贝格和滑模LO，SMO",
+      "url": "https://zhuanlan.zhihu.com/p/140722264",
+      "summary": "正文把系统微分方程改写为状态方程并分析状态误差所满足的微分方程。"
+    },
+    {
+      "title": "自动驾驶感知融合-无迹卡尔曼滤波(Lidar&Radar)",
+      "url": "https://zhuanlan.zhihu.com/p/141059329",
+      "summary": "正文由 CTRV 状态变化率建立差分方程，并通过积分推导车辆运动模型。"
+    },
+    {
+      "title": "串讲：观测器（Observer）：扩展状态观测器ESO",
+      "url": "https://zhuanlan.zhihu.com/p/141039243",
+      "summary": "正文建立扩展状态的微分方程，并通过误差方程和李雅普诺夫稳定性分析观测器。"
+    },
+    {
+      "title": "串讲：观测器（Observer）：降阶观测器RO",
+      "url": "https://zhuanlan.zhihu.com/p/141374122",
+      "summary": "正文把控制对象写成状态微分方程，并推导未知状态误差所满足的微分方程。"
+    },
+    {
+      "title": "关于开普勒三大定律的理解和证明",
+      "url": "https://zhuanlan.zhihu.com/p/136265256",
+      "summary": "正文建立行星轨道的二阶常微分方程，并通过换元和特征方程求出轨道解。"
+    },
+    {
+      "title": "多传感器融合定位理论基础（八）：基于滤波的融合方法",
+      "url": "https://zhuanlan.zhihu.com/p/141403156",
+      "summary": "正文列出误差状态的一阶微分方程组，并将其离散化后用于滤波预测与更新。"
+    },
+    {
+      "title": "一个模型预测控制（MPC）的简单实现",
+      "url": "https://zhuanlan.zhihu.com/p/141871796",
+      "summary": "正文以滑块受力的动力学方程建立状态空间模型并进行离散化预测。"
+    },
+    {
+      "title": "数学建模常用算法——传染病模型（一）SI模型",
+      "url": "https://zhuanlan.zhihu.com/p/141875765",
+      "summary": "正文由每日新增感染人数建立 SI 模型的微分方程，并求解感染比例的 Logistic 曲线。"
+    },
+    {
+      "title": "神经受控微分方程：非规则时间序列预测新SOTA",
+      "url": "https://zhuanlan.zhihu.com/p/142341434",
+      "summary": "正文以受控微分方程描述不规则采样时间序列的连续动态，并讨论初始条件与解的建模。"
+    },
+    {
+      "title": "Banach不动点定理及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/142563803",
+      "summary": "正文用Picard映射和Banach不动点定理证明常微分方程初值问题解的存在唯一性。"
+    },
+    {
+      "title": "专栏 | 显式和隐式的区别",
+      "url": "https://zhuanlan.zhihu.com/p/142790420",
+      "summary": "正文以初值问题 y'=-y+x+1 为例，分别用前向和后向欧拉法推导迭代公式并比较计算结果，实质讨论了微分方程求解。"
+    },
+    {
+      "title": "串讲：控制理论：自适应控制（APC）",
+      "url": "https://zhuanlan.zhihu.com/p/143338232",
+      "summary": "正文建立被控对象与参考模型的状态微分方程，并通过误差动力学设计自适应控制律。"
+    },
+    {
+      "title": "初三党搞积日常（1）",
+      "url": "https://zhuanlan.zhihu.com/p/143678105",
+      "summary": "正文由参数积分的四阶导数得到常系数微分方程，再求通解和初值条件以完成积分计算。"
+    },
+    {
+      "title": "变分法（一）泛函极值必要条件、拉格朗日引理、欧拉方程",
+      "url": "https://zhuanlan.zhihu.com/p/144470526",
+      "summary": "正文推导极值曲线的欧拉方程，并针对多类特殊泛函求解相应微分方程。"
+    },
+    {
+      "title": "计算流体力学 | 偏微分方程的数学性质",
+      "url": "https://zhuanlan.zhihu.com/p/143745059",
+      "summary": "正文通过特征线把一阶偏微分方程转化为沿特征线的常微分方程或方程组。"
+    },
+    {
+      "title": "[5](含源码)基于非线性模型预测控制(NMPC)的四旋翼轨迹跟踪",
+      "url": "https://zhuanlan.zhihu.com/p/144823874",
+      "summary": "正文以拉格朗日方法推导状态随时间演化的动力学微分方程，并将其作为控制模型约束。"
+    },
+    {
+      "title": "微分方程(十六、十七)相平面、平衡点",
+      "url": "https://zhuanlan.zhihu.com/p/145473738",
+      "summary": "正文由线性微分方程组定义相平面、相轨迹和平衡点，并分析相轨迹与平衡点的稳定性。"
+    },
+    {
+      "title": "模型预测控制——绪论（1）",
+      "url": "https://zhuanlan.zhihu.com/p/146036918",
+      "summary": "正文以状态微分方程建立动态系统模型，并推导线性时不变模型及其卷积形式解。"
+    },
+    {
+      "title": "高阶常系数线性微分方程解法",
+      "url": "https://zhuanlan.zhihu.com/p/146679886",
+      "summary": "正文按特征根情形求齐次通解，并用待定系数法求非齐次特解，完整示范了二阶常系数线性微分方程的解法。"
+    },
+    {
+      "title": "随机最优控制(Stochastic Optimal Control)的一个应用",
+      "url": "https://zhuanlan.zhihu.com/p/146964017",
+      "summary": "正文用 Ito 引理展开 Bellman 方程并代入最优配置的一阶条件，推导出 HJB 偏微分方程。"
+    },
+    {
+      "title": "串讲：控制理论：全状态反馈控制（FSFB）",
+      "url": "https://zhuanlan.zhihu.com/p/147230711",
+      "summary": "正文围绕线性状态微分方程展开，分析状态动力学项并通过状态反馈改变闭环方程。"
+    },
+    {
+      "title": "求导后等于自身的函数仅有exp(x)吗？",
+      "url": "https://zhuanlan.zhihu.com/p/147425265",
+      "summary": "正文把问题表述为一阶微分方程 f'(x)=f(x)，并得出其解为 ce^x。"
+    },
+    {
+      "title": "续浅谈变分原理：运动常数、拉格朗日乘子法",
+      "url": "https://zhuanlan.zhihu.com/p/148762023",
+      "summary": "正文给出 Euler-Lagrange 方程并通过乘子构造第一积分，将二阶微分方程降为一阶方程求解。"
+    },
+    {
+      "title": "用MatCont分析非线性动力学方程组（一）",
+      "url": "https://zhuanlan.zhihu.com/p/148825090",
+      "summary": "正文以非线性微分方程为例，讨论平衡点、稳定性、参数延拓与叉式分岔。"
+    },
+    {
+      "title": "偏微分方程：一门揭示宇宙奥秘、改变世界面貌的科学",
+      "url": "https://zhuanlan.zhihu.com/p/149022967",
+      "summary": "正文通过常微分方程与偏微分方程的对照说明含导数方程的基本含义。"
+    },
+    {
+      "title": "灰色预测法",
+      "url": "https://zhuanlan.zhihu.com/p/149339270",
+      "summary": "正文建立GM(1,1)灰色微分方程，给出其白化微分方程、参数估计和预测响应的求解过程。"
+    },
+    {
+      "title": "从自然常数e到电容充电的遐想",
+      "url": "https://zhuanlan.zhihu.com/p/149536512",
+      "summary": "正文由电容电流与电阻电流相等的微分关系逐步建立RC充电方程并推导电压解。"
+    },
+    {
+      "title": "由拉普拉斯变换到传递函数",
+      "url": "https://zhuanlan.zhihu.com/p/146769901",
+      "summary": "正文用拉普拉斯变换把线性微分方程化为代数方程并求解初值问题。"
+    },
+    {
+      "title": "一类有趣的三角级数",
+      "url": "https://zhuanlan.zhihu.com/p/149819969",
+      "summary": "正文把三角级数转化为带初值条件的高阶微分方程并求出多项式解。"
+    },
+    {
+      "title": "六种方法计算拉普拉斯（Laplace）积分",
+      "url": "https://zhuanlan.zhihu.com/p/150468571",
+      "summary": "正文对含参积分两次求导得到二阶常微分方程，并由初值条件解出原积分。"
+    },
+    {
+      "title": "数值计算中的分析方法",
+      "url": "https://zhuanlan.zhihu.com/p/152143042",
+      "summary": "正文以前向欧拉和后向欧拉为例分析微分方程数值解的相容性与稳定性。"
+    },
+    {
+      "title": "球谐光照——球谐函数",
+      "url": "https://zhuanlan.zhihu.com/p/153352797",
+      "summary": "正文继续将球函数方程分离为两个常微分方程，并分别讨论周期解与连带勒让德方程。"
+    },
+    {
+      "title": "The Laplacian of (1/r),格林函数与泊松方程",
+      "url": "https://zhuanlan.zhihu.com/p/154094937",
+      "summary": "正文把泊松方程看成点源响应叠加，用格林函数积分表示微分方程的解。"
+    },
+    {
+      "title": "粗鄙之语系列一: ADRC/关于ADRC的一些个人观点",
+      "url": "https://zhuanlan.zhihu.com/p/156228260",
+      "summary": "正文把线性 TD 写成二阶状态空间微分方程，并用该模型分析滤波、超调和稳定性。"
+    },
+    {
+      "title": "WKB近似和一个一维势阱例子",
+      "url": "https://zhuanlan.zhihu.com/p/157246148",
+      "summary": "正文从定态薛定谔微分方程出发推导WKB波函数，并利用边界条件求能量本征值。"
+    },
+    {
+      "title": "施图姆-刘维尔理论 (Sturm–Liouville theory )",
+      "url": "https://zhuanlan.zhihu.com/p/156941491",
+      "summary": "正文讲解二阶线性常微分方程的施图姆-刘维尔形式及其本征值问题。"
+    },
+    {
+      "title": "预测模型——灰色预测",
+      "url": "https://zhuanlan.zhihu.com/p/161037242",
+      "summary": "正文将灰生成序列用于建立近似微分方程模型，并由白化方程解出预测公式。"
+    },
+    {
+      "title": "浅谈用Matlab求解微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/162296418",
+      "summary": "正文分别演示微分方程解析解、初值问题、边值问题和方程组的求解。"
+    },
+    {
+      "title": "假期搞积——拉普拉斯积分的随想",
+      "url": "https://zhuanlan.zhihu.com/p/162857258",
+      "summary": "正文把积分对参数连续求导，导出 J^(4)(c)+J(c)=0 并通过该微分方程求积分值。"
+    },
+    {
+      "title": "【HFT】HJB方程与最优执行问题",
+      "url": "https://zhuanlan.zhihu.com/p/161632470",
+      "summary": "正文把状态变量满足的微分动态代入价值函数条件，推导控制问题的微分方程。"
+    },
+    {
+      "title": "数学建模国赛A题（偏物理）必胜套路",
+      "url": "https://zhuanlan.zhihu.com/p/161881861",
+      "summary": "正文从质量、密度和压强变化关系建立微分方程，并化简为压力随时间变化的导数方程。"
+    },
+    {
+      "title": "PDE有限差分方法(14)——守恒律方程基本理论",
+      "url": "https://zhuanlan.zhihu.com/p/164675240",
+      "summary": "正文以含时间和空间偏导数的守恒律方程为核心，系统研究其解和间断传播。"
+    },
+    {
+      "title": "【2】变分法基础&欧拉-拉格朗日方程的导出",
+      "url": "https://zhuanlan.zhihu.com/p/168789203",
+      "summary": "正文从最小作用量原理推导 Euler-Lagrange 运动微分方程及其方程组形式。"
+    },
+    {
+      "title": "MATLAB求解微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/181650727",
+      "summary": "正文讲解用 MATLAB 的 dsolve 求常微分方程及方程组的解析解，并给出初值问题示例。"
+    },
+    {
+      "title": "常微分方程的常见题型与解法",
+      "url": "https://zhuanlan.zhihu.com/p/183766716",
+      "summary": "正文系统分类常微分方程，并讲解可分离变量、齐次、线性、伯努利和高阶方程的常见解法。"
+    },
+    {
+      "title": "万字长文看够幂级数",
+      "url": "https://zhuanlan.zhihu.com/p/186219101",
+      "summary": "正文把二阶微分方程 y''+y=0 的解设成幂级数，合并系数得到递推关系并求出通解。"
+    },
+    {
+      "title": "一天学完数学物理方法（在写了，写完复制粘贴）",
+      "url": "https://zhuanlan.zhihu.com/p/191695417",
+      "summary": "正文以级数方法讨论二阶线性常微分方程的常点、正则奇点及 Bessel 方程解，展开微分方程解法。"
+    },
+    {
+      "title": "常微分方程笔记（一） 初等积分法",
+      "url": "https://zhuanlan.zhihu.com/p/199873033",
+      "summary": "正文系统梳理变量分离、一阶线性、Bernoulli、Riccati 和恰当微分方程等常微分方程解法。"
+    },
+    {
+      "title": "常微分方程笔记（二） 解的存在唯一性定理",
+      "url": "https://zhuanlan.zhihu.com/p/203193794",
+      "summary": "正文讨论一阶初值问题解的存在唯一性，并介绍 Picard、Peano 定理及积分曲线的延伸。"
+    },
+    {
+      "title": "考研数学的奇技淫巧——常微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/204919576",
+      "summary": "正文讲解欧拉方程的特征方程、齐次通解和非齐次特解的结构与求法。"
+    },
+    {
+      "title": "打靶法(shooting method)求两点边值问题(TPBVP)",
+      "url": "https://zhuanlan.zhihu.com/p/219837338",
+      "summary": "正文以二阶常微分方程的两点边值条件为对象，讨论线性叠加和用初值轨迹满足终端约束的方法。"
+    },
+    {
+      "title": "利用matlab求解偏微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/225886001",
+      "summary": "正文以热传导方程和波动方程为例，给出偏微分方程及相应的定解条件。"
+    },
+    {
+      "title": "单个神经元的简单模型：Leaky integrate and fire (LIF) model",
+      "url": "https://zhuanlan.zhihu.com/p/254972010",
+      "summary": "正文把 LIF 神经元的被动膜电位建模为一阶微分方程，并求解阈值到达时间与发放率。"
+    },
+    {
+      "title": "贝塞尔函数、勒让德函数及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/258444208",
+      "summary": "正文把贝塞尔函数和勒让德函数分别定义为贝塞尔方程与勒让德方程的解。"
+    },
+    {
+      "title": "Gronwall不等式",
+      "url": "https://zhuanlan.zhihu.com/p/262498407",
+      "summary": "正文说明该不等式用于常微分方程解的存在唯一性及函数上界估计，并用到微分不等式。"
+    },
+    {
+      "title": "机械臂操作控制基础(一)",
+      "url": "https://zhuanlan.zhihu.com/p/264809240",
+      "summary": "正文把机械臂 PD/PID 控制系统化为二阶微分方程，并由参数分析稳定性和稳态误差。"
+    },
+    {
+      "title": "平均场博弈论(Mean-field Games)简介",
+      "url": "https://zhuanlan.zhihu.com/p/265578530",
+      "summary": "正文用状态常微分方程描述个体演化，再由均衡轨迹导出概率分布满足的传输方程。"
+    },
+    {
+      "title": "用 python 学哈密顿力学 (1)",
+      "url": "https://zhuanlan.zhihu.com/p/265946306",
+      "summary": "正文把哈密顿方程写成常微分方程初值问题，并用 odeint 求解谐振子轨道。"
+    },
+    {
+      "title": "简单聊聊Heston Model",
+      "url": "https://zhuanlan.zhihu.com/p/267968467",
+      "summary": "正文由 Heston 偏微分方程导出常微分方程组，并利用 Riccati 方程求解其特征函数。"
+    },
+    {
+      "title": "[顾樵 数学物理方法] Chap.2 分离变量法",
+      "url": "https://zhuanlan.zhihu.com/p/163513897",
+      "summary": "正文以两端固定弦振动为例，把时空偏微分方程分离为关于 x、t 的常微分方程，并据此构造本征解和一般解。"
+    },
+    {
+      "title": "[顾樵 数学物理方法] Chap.10 行波法",
+      "url": "https://zhuanlan.zhihu.com/p/268232574",
+      "summary": "正文用行波法求波动方程通解、达朗贝尔公式以及非齐次方程的特解。"
+    },
+    {
+      "title": "经典辛几何基础(一)",
+      "url": "https://zhuanlan.zhihu.com/p/270256287",
+      "summary": "正文由哈密顿函数的相流推导正则方程，说明运动路径是相应微分方程系统的积分曲线。"
+    },
+    {
+      "title": "解决一个预测类数学建模问题有哪些模型可以用？",
+      "url": "https://zhuanlan.zhihu.com/p/272184351",
+      "summary": "正文明确定义机理建模，并以微分方程刻画对象随时间和空间的变化与预测。"
+    },
+    {
+      "title": "Graph neural network综述:从deepwalk到GraphSAGE，GCN，GAT",
+      "url": "https://zhuanlan.zhihu.com/p/288322305",
+      "summary": "正文从链条上的热传播方程讲到图上热传播方程，说明其对应的微分方程形式。"
+    },
+    {
+      "title": "求和函数的教程（方浩老师强化课笔记）",
+      "url": "https://zhuanlan.zhihu.com/p/297962184",
+      "summary": "正文把由递推系数定义的幂级数转化为一阶线性微分方程，再求解得到和函数。"
+    },
+    {
+      "title": "常微分方程：（第四章） 高阶微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/299363360",
+      "summary": "正文系统讲解高阶线性常微分方程的基本解组、常数变易、特征根法、欧拉方程与降阶解法。"
+    },
+    {
+      "title": "常微分方程：（第五章）线性微分方程组",
+      "url": "https://zhuanlan.zhihu.com/p/302391345",
+      "summary": "正文讲解线性微分方程组的存在唯一性、通解结构、常数变易法和常系数方程组求解。"
+    },
+    {
+      "title": "常微分方程：（第六章）非线性微分方程：1、2节",
+      "url": "https://zhuanlan.zhihu.com/p/302699936",
+      "summary": "正文讨论非线性微分方程的线性近似、零解稳定性、李雅普诺夫函数和相平面轨线性态。"
+    },
+    {
+      "title": "[SWF] MSCKF-Based Visual-Wheel Odometry 轮速视觉融合里程计",
+      "url": "https://zhuanlan.zhihu.com/p/270670373",
+      "summary": "正文列出一阶常微分方程组，用欧拉积分传播车辆位姿和速度状态。"
+    },
+    {
+      "title": "游戏引擎 | 有限元基础作业",
+      "url": "https://zhuanlan.zhihu.com/p/307017910",
+      "summary": "正文围绕带齐次 Dirichlet 边界的泊松方程 -Δu=f，构造弱形式并验证离散解。"
+    },
+    {
+      "title": "微分方程VS机器学习，实例讲解二者异同",
+      "url": "https://zhuanlan.zhihu.com/p/311886981",
+      "summary": "正文以纳维-斯托克斯、SIR 和 logistic 方程等实例讲解微分方程建模、求解及其与数据模型的区别。"
+    },
+    {
+      "title": "[顾樵 数学物理方法] Chap.9 施图姆-刘维尔理论；若干特殊方程的导出；二阶ODE级数解法基础",
+      "url": "https://zhuanlan.zhihu.com/p/313031234",
+      "summary": "正文系统讲解二阶线性常微分方程的常点、奇点、正则奇点及幂级数解法。"
+    },
+    {
+      "title": "𝑷𝒓𝒆𝒄𝒆𝒔𝒔𝒊𝒐𝒏 𝒐𝒇 𝒕𝒉𝒆 𝒑𝒆𝒓𝒊𝒉𝒆𝒍𝒊𝒐𝒏 𝒐𝒇 𝑴𝒆𝒓𝒄𝒖𝒓𝒚'𝒔 𝒐𝒓𝒃𝒊𝒕",
+      "url": "https://zhuanlan.zhihu.com/p/321848761",
+      "summary": "正文将轨道化为二阶微分方程，再通过牛顿近似做修正并求近日点进动。"
+    },
+    {
+      "title": "状态空间方程的离散化",
+      "url": "https://zhuanlan.zhihu.com/p/326930724",
+      "summary": "正文从连续状态空间中的非齐次微分方程出发，利用状态转移矩阵求出其解后再离散化。"
+    },
+    {
+      "title": "数值分析知识点总结（四）",
+      "url": "https://zhuanlan.zhihu.com/p/335080432",
+      "summary": "正文以一阶常微分方程初值问题为对象，比较 Euler、梯形和 Runge-Kutta 等求解方法。"
+    },
+    {
+      "title": "聊一聊兰彻斯特方程（附加一个推导的很无聊的崩溃系数）",
+      "url": "https://zhuanlan.zhihu.com/p/335140442",
+      "summary": "正文以兰彻斯特方程的兵力变化微分方程为主线，分线性律和平方律建立战斗模型，并推导引入崩溃系数后的战斗结束时间。"
+    },
+    {
+      "title": "金融数学第10讲（期权定价：二叉树方法，B-S公式）",
+      "url": "https://zhuanlan.zhihu.com/p/330957457",
+      "summary": "正文把股票价格变化写成带漂移项和随机项的微分方程，并用它推导衍生品动态。"
+    },
+    {
+      "title": "微分方程—总结（24.12.20）",
+      "url": "https://zhuanlan.zhihu.com/p/336937737",
+      "summary": "正文按方程类型总结一阶、可降阶和高阶线性微分方程的分离变量与求解方法。"
+    },
+    {
+      "title": "理解伴随法(Adjoint Method)在Neural ODE中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/337575425",
+      "summary": "正文把离散网络连续化为神经常微分方程，并由链式法则推导伴随状态满足的反向 ODE。"
+    },
+    {
+      "title": "【微分方程】机车启动问题与Lambert W函数的应用",
+      "url": "https://zhuanlan.zhihu.com/p/337620106",
+      "summary": "正文从恒定功率启动条件建立一阶非线性常微分方程，定性分析速度变化并求出含初值条件的解。"
+    },
+    {
+      "title": "多重网格法 (Multigrid Method) 简述和示例",
+      "url": "https://zhuanlan.zhihu.com/p/337970166",
+      "summary": "正文以二阶微分方程和边界条件为例，逐步用离散迭代与多重网格求数值解。"
+    },
+    {
+      "title": "二阶线性微分方程解的结构",
+      "url": "https://zhuanlan.zhihu.com/p/338120777",
+      "summary": "正文围绕二阶线性微分方程展开齐次解线性组合、Wronski 行列式、特解与通解的结构关系。"
+    },
+    {
+      "title": "PDE复习笔记(2)",
+      "url": "https://zhuanlan.zhihu.com/p/339883860",
+      "summary": "正文用算子分解和行波代换把一维波动方程化为一阶方程或可积形式，并求出通解。"
+    },
+    {
+      "title": "偏微分方程与特征线法",
+      "url": "https://zhuanlan.zhihu.com/p/340161952",
+      "summary": "正文把偏微分方程化为特征方程组，并实际求解这些微分方程得到通解。"
+    },
+    {
+      "title": "ABAQUS用户子程序UMAT不正经教程（六）：应力的数值积分方法",
+      "url": "https://zhuanlan.zhihu.com/p/341634133",
+      "summary": "正文把增量应力应变关系写成常微分方程，并比较显式欧拉、隐式欧拉和四阶龙格库塔法。"
+    },
+    {
+      "title": "Mahony姿态解算算法笔记（一）",
+      "url": "https://zhuanlan.zhihu.com/p/342703388",
+      "summary": "正文建立四元数随角速度变化的常微分方程，并给出离散迭代求解方法。"
+    },
+    {
+      "title": "【ODE】常微分方程期末复习题",
+      "url": "https://zhuanlan.zhihu.com/p/343217259",
+      "summary": "正文连续求解齐次、伯努利、全微分、隐式及高阶线性常微分方程，并演示微分方程组消元降次。"
+    },
+    {
+      "title": "随机动力学（1）---两大重要的随机微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/343129740",
+      "summary": "正文从受随机激励的振动方程出发，定义随机微分方程并比较 Ito 与 Stratonovich 形式。"
+    },
+    {
+      "title": "MATLAB | 一维薛定谔方程的数值解及势场中波包的演化",
+      "url": "https://zhuanlan.zhihu.com/p/343847938",
+      "summary": "正文把含时薛定谔方程作为演化微分方程处理，构造初态并迭代求解波函数的实部和虚部。"
+    },
+    {
+      "title": "滑模控制的一些思考-有限时间收敛和离散滑模控制的时延问题",
+      "url": "https://zhuanlan.zhihu.com/p/346671826",
+      "summary": "正文通过一阶和二阶微分方程的轨迹讨论渐进收敛与有限时间收敛，并据此设计滑模控制。"
+    },
+    {
+      "title": "应用随机过程|第6章 连续时间参数马尔科夫链",
+      "url": "https://zhuanlan.zhihu.com/p/348173810",
+      "summary": "正文推导 Kolmogorov 向前、向后微分方程，并用积分因子求解所得微分方程。"
+    },
+    {
+      "title": "“不讲武德”的物理模考",
+      "url": "https://zhuanlan.zhihu.com/p/348709022",
+      "summary": "正文先把电磁感应过程化为关于冲量的一阶非齐次线性微分方程，再用其通解求速度。"
+    },
+    {
+      "title": "微分方程第五节 可降阶的高阶微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/349013196",
+      "summary": "正文系统讲解高阶微分方程的三类降阶代换、重复积分与初值求解方法，并完成三个例题。"
+    },
+    {
+      "title": "《常微分方程》（丁同仁）习题解答",
+      "url": "https://zhuanlan.zhihu.com/p/349087997",
+      "summary": "正文系统给出常微分方程习题解答，涵盖恰当方程判据、一阶线性方程、积分因子、存在唯一性、奇解和包络。"
+    },
+    {
+      "title": "微分方程第六节 高阶线性微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/349349241",
+      "summary": "正文讨论二阶及高阶线性微分方程的解的结构、齐次非齐次解关系、叠加原理和常数变易法。"
+    },
+    {
+      "title": "微分方程第七节 常系数齐次线性微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/349527153",
+      "summary": "正文系统讲解二阶常系数齐次线性微分方程，利用特征方程和根的分类求通解及初值问题特解。"
+    },
+    {
+      "title": "微分方程第八节 常系数非齐次线性微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/349864011",
+      "summary": "正文系统讲解常系数非齐次线性微分方程的特解形式和待定系数求法。"
+    },
+    {
+      "title": "微分方程第九节*   欧拉方程",
+      "url": "https://zhuanlan.zhihu.com/p/349911260",
+      "summary": "正文讲解欧拉微分方程的定义，并通过自变量变换将其化为常系数线性微分方程求解。"
+    },
+    {
+      "title": "第 1 章 统计力学的基本概念 D. Coarse-Grained Dynamics",
+      "url": "https://zhuanlan.zhihu.com/p/349523787",
+      "summary": "正文从朗之万方程和矩展开推导 Fokker-Planck 方程及扩散方程。"
+    },
+    {
+      "title": "高数笔记——微分方程（寒假整理）待续...",
+      "url": "https://zhuanlan.zhihu.com/p/351175119",
+      "summary": "正文分类讲解一阶线性、齐次、伯努利及可降阶微分方程的构造和解法，并讨论二阶常系数方程。"
+    },
+    {
+      "title": "拉普拉斯变换与微分算子法",
+      "url": "https://zhuanlan.zhihu.com/p/350862476",
+      "summary": "正文用拉普拉斯变换和逆变换求解常微分方程，并与微分算子法逐类对照。"
+    },
+    {
+      "title": "欧拉公式在微积分中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/351255357",
+      "summary": "正文用复指数法求常系数非齐次线性微分方程的特解与通解。"
+    },
+    {
+      "title": "三大偏微分方程之热方程",
+      "url": "https://zhuanlan.zhihu.com/p/351771905",
+      "summary": "正文通过可分离变量的常微分方程说明指数型时间因子，并据此求解一维热方程。"
+    },
+    {
+      "title": "二阶变系数线性常微分方程的求解",
+      "url": "https://zhuanlan.zhihu.com/p/352960264",
+      "summary": "正文系统给出二阶变系数线性常微分方程的猜根、降阶和常数变易求解步骤。"
+    },
+    {
+      "title": "Gerald:ODEs&Dynamical Systems使用攻略",
+      "url": "https://zhuanlan.zhihu.com/p/354148315",
+      "summary": "正文围绕常微分方程教材展开，概述初值问题、线性方程、周期解和向量场等核心内容。"
+    },
+    {
+      "title": "随机微分方程的模拟（一）",
+      "url": "https://zhuanlan.zhihu.com/p/354688060",
+      "summary": "正文围绕随机微分方程建立 Euler-Maruyama 与 Milstein 数值近似，并讨论隐式和 Runge-Kutta 方法。"
+    },
+    {
+      "title": "特征向量与特征值的几何意义(2): 微分方程-相平面图",
+      "url": "https://zhuanlan.zhihu.com/p/355088340",
+      "summary": "正文把兔狐数量变化写成微分方程组，并通过求解特征值分析长期演化。"
+    },
+    {
+      "title": "Black-Scholes-Merton期权定价模型和Feynman Kac公式",
+      "url": "https://zhuanlan.zhihu.com/p/354405859",
+      "summary": "正文通过动态复制、无风险对冲和风险中性估值推导 Black-Scholes 微分方程。"
+    },
+    {
+      "title": "变分法笔记(1)——古典变分问题的例子",
+      "url": "https://zhuanlan.zhihu.com/p/356909790",
+      "summary": "正文把 Euler-Lagrange 方程化为二阶完全非线性常微分方程，并用分离变量法求解悬链线和最速降线。"
+    },
+    {
+      "title": "【变分计算1】欧拉-拉格朗日方程",
+      "url": "https://zhuanlan.zhihu.com/p/356288730",
+      "summary": "正文说明泛函极值条件转化为带边界条件的二阶非线性常微分方程。"
+    },
+    {
+      "title": "常微分方程(3):伯努利方程",
+      "url": "https://zhuanlan.zhihu.com/p/357079905",
+      "summary": "正文给出伯努利方程的标准形式，并通过变量替换化为一阶线性微分方程后求通解。"
+    },
+    {
+      "title": "现代控制理论：速成/不求甚解版(上)",
+      "url": "https://zhuanlan.zhihu.com/p/356938640",
+      "summary": "正文用有限维线性常微分方程组建立状态空间模型，并通过矩阵表达式讨论其演化。"
+    },
+    {
+      "title": "常数项级数求和总结",
+      "url": "https://zhuanlan.zhihu.com/p/357350424",
+      "summary": "正文通过构造和函数所满足的微分方程来求解幂级数和函数，实质使用了微分方程方法。"
+    },
+    {
+      "title": "经典力学简介",
+      "url": "https://zhuanlan.zhihu.com/p/358475341",
+      "summary": "正文从最小作用量原理推导 Euler-Lagrange 方程，并由 Legendre 变换得到 Hamilton 方程。"
+    },
+    {
+      "title": "自动驾驶控制算法实例之模型预测控制（MPC）--从模型推导到代码实现（以Autoware为例）",
+      "url": "https://zhuanlan.zhihu.com/p/358836526",
+      "summary": "正文从车辆运动学状态微分方程出发，经线性化与离散化得到MPC状态空间模型。"
+    },
+    {
+      "title": "模型预测控制（MPC）倒立摆作业实操（一）",
+      "url": "https://zhuanlan.zhihu.com/p/359413484",
+      "summary": "正文把小车倒立摆的非线性动力学方程改写为状态空间微分方程，并进一步离散化和数值积分。"
+    },
+    {
+      "title": "常微分方程(1)：常微分方程的基本解法",
+      "url": "https://zhuanlan.zhihu.com/p/363987756",
+      "summary": "正文定义常微分方程并系统讲解恰当方程、变量分离、常数变易、伯努利与黎卡提等解法。"
+    },
+    {
+      "title": "1 特殊函数 (scipy.special)",
+      "url": "https://zhuanlan.zhihu.com/p/365968306",
+      "summary": "正文把艾里函数与贝塞尔函数分别定义为相应常微分方程的解，并给出贝塞尔方程及通解。"
+    },
+    {
+      "title": "论电力电子控制中PR和PI的等价性",
+      "url": "https://zhuanlan.zhihu.com/p/367480484",
+      "summary": "正文由控制器传递函数写出二阶时域微分方程，并利用一阶、二阶导数完成等价性推导。"
+    },
+    {
+      "title": "应用随机分析基础",
+      "url": "https://zhuanlan.zhihu.com/p/365684990",
+      "summary": "正文以随机利率满足的微分方程建模，并对 Vasicek 随机微分方程进行求解。"
+    },
+    {
+      "title": "专题七MATLAB符号计算",
+      "url": "https://zhuanlan.zhihu.com/p/369362805",
+      "summary": "正文给出符号求常微分方程通解、特解和方程组的方法，并求解传染病模型。"
+    },
+    {
+      "title": "干货来了丨是谁推动美国数学跻身世界前列？",
+      "url": "https://zhuanlan.zhihu.com/p/369607058",
+      "summary": "正文讨论三体问题对应的微分方程定性理论，并说明周期轨存在性结果的意义。"
+    },
+    {
+      "title": "深度学习求解偏微分方程系列二：Weak Adversarial Networks",
+      "url": "https://zhuanlan.zhihu.com/p/370346518",
+      "summary": "正文把偏微分方程弱解转化为算子范数最小化及 min-max 优化问题。"
+    },
+    {
+      "title": "Dynamic Movement Primitives介绍及Python实现与UR5机械臂仿真",
+      "url": "https://zhuanlan.zhihu.com/p/370813641",
+      "summary": "正文以一个二阶微分方程作为DMP的核心，并继续给出正则系统的一阶微分方程和轨迹学习方程。"
+    },
+    {
+      "title": "常微分方程专题一(超全)",
+      "url": "https://zhuanlan.zhihu.com/p/372091725",
+      "summary": "正文系统讲解一阶线性方程、恰当方程、二阶常系数方程及微分算子解法，并给出大量求解例题。"
+    },
+    {
+      "title": "利用微分方程法构造辅助函数的进一步探索",
+      "url": "https://zhuanlan.zhihu.com/p/372195576",
+      "summary": "正文把待证结论改写为微分方程，通过求通解、消去常数或降阶来寻找辅助函数，并给出多道证明例题。"
+    },
+    {
+      "title": "悬链线方程的推导",
+      "url": "https://zhuanlan.zhihu.com/p/372248176",
+      "summary": "正文通过小段绳子的受力平衡建立悬链线二阶微分方程，再分离变量求解曲线。"
+    },
+    {
+      "title": "浅谈微分方程与线性代数的联系",
+      "url": "https://zhuanlan.zhihu.com/p/372585257",
+      "summary": "正文从含未知函数及其导数的方程出发，讲解线性微分方程组的特征值分解与通解。"
+    },
+    {
+      "title": "基于牛头人的Lorenz吸引子",
+      "url": "https://zhuanlan.zhihu.com/p/373945748",
+      "summary": "正文从二维线性系统出发，建立三维非线性微分方程组并通过无量纲化化为Lorenz方程。"
+    },
+    {
+      "title": "Lindblad 方程的三次量子化",
+      "url": "https://zhuanlan.zhihu.com/p/374837168",
+      "summary": "正文围绕 Lindblad 主方程的求解推导密度算符演化；该主方程本身是描述开放量子系统的微分方程。"
+    },
+    {
+      "title": "非线性扰动观测器NDOB的推导与实例",
+      "url": "https://zhuanlan.zhihu.com/p/375599009",
+      "summary": "正文由非线性系统的导数方程设计扰动估计误差的动态趋近律，并推导可实现的观测器微分方程。"
+    },
+    {
+      "title": "偏微分方程求解——分离变量法",
+      "url": "https://zhuanlan.zhihu.com/p/376107702",
+      "summary": "正文先给出一般二维微分方程，再通过代换和边界条件把它拆成两个一元微分方程求解。"
+    },
+    {
+      "title": "伴读系列（3）：一阶连续时间系统的一致性算法",
+      "url": "https://zhuanlan.zhihu.com/p/376351836",
+      "summary": "正文建立一阶连续时间状态方程，并分析其稳态与收敛过程。"
+    },
+    {
+      "title": "二阶常系数线性微分方程的计算公式及几个问题",
+      "url": "https://zhuanlan.zhihu.com/p/376577306",
+      "summary": "正文按特征根类型给出二阶常系数线性微分方程的齐次通解与非齐次特解构造方法。"
+    },
+    {
+      "title": "数值分析(11)：常微分方程的数值解法之Euler法",
+      "url": "https://zhuanlan.zhihu.com/p/376910421",
+      "summary": "正文讨论一阶常微分方程初值问题的存在唯一性，以及显式、隐式 Euler 和梯形等数值解法。"
+    },
+    {
+      "title": "悬链线问题的数值解",
+      "url": "https://zhuanlan.zhihu.com/p/377559711",
+      "summary": "正文通过能量泛函的欧拉-拉格朗日方程导出悬链线和最小旋转曲面满足的微分方程。"
+    },
+    {
+      "title": "非线性微分方程的近似解析求解——摄动法",
+      "url": "https://zhuanlan.zhihu.com/p/377732510",
+      "summary": "正文以小参数幂级数拆分非线性微分方程，并逐阶求解抛石问题和温度分布问题的近似解。"
+    },
+    {
+      "title": "数值分析(12)：Rung-Kutta法及单步法的收敛性和稳定性分析",
+      "url": "https://zhuanlan.zhihu.com/p/378479776",
+      "summary": "正文以常微分方程模型方程分析单步法的舍入误差传播和稳定区域。"
+    },
+    {
+      "title": "二阶常系数线性非齐次微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/379278400",
+      "summary": "正文说明二阶常系数线性非齐次微分方程的通解由齐次方程通解与一个特解相加构成。"
+    },
+    {
+      "title": "数学王子的壮举——高斯分布推导详解",
+      "url": "https://zhuanlan.zhihu.com/p/379805764",
+      "summary": "正文由 g(x)=f'(x)/f(x)=cx 建立一阶线性微分方程，并求解得到正态密度的指数形式。"
+    },
+    {
+      "title": "数学的艺术 (2) —— 高斯积分",
+      "url": "https://zhuanlan.zhihu.com/p/379848030",
+      "summary": "正文通过拉普拉斯变换把热传导问题化为二阶常系数常微分方程并求其解。"
+    },
+    {
+      "title": "拉普拉斯算子",
+      "url": "https://zhuanlan.zhihu.com/p/376436061",
+      "summary": "正文通过变量分离得到二阶常系数齐次线性微分方程，并用特征方程分类写出通解。"
+    },
+    {
+      "title": "几何活动轮廓模型——CV、PS、LBF、LGDF与LIF",
+      "url": "https://zhuanlan.zhihu.com/p/383008864",
+      "summary": "正文用水平集函数的演化偏微分方程描述轮廓线的曲率扩散和迭代过程。"
+    },
+    {
+      "title": "人口增长模型Matlab实现",
+      "url": "https://zhuanlan.zhihu.com/p/386132081",
+      "summary": "正文建立并比较 Malthus 指数增长与 Logistic 阻滞增长模型，说明增长率随人口变化的建模假设。"
+    },
+    {
+      "title": "常微分方程的常数变易法",
+      "url": "https://zhuanlan.zhihu.com/p/387631989",
+      "summary": "正文推导一阶、高阶线性非齐次微分方程及线性微分方程组的常数变易解法。"
+    },
+    {
+      "title": "0. 渲染一个施瓦西黑洞及其平面吸积盘",
+      "url": "https://zhuanlan.zhihu.com/p/389402727",
+      "summary": "正文从测地线方程化简出光子的二阶常微分方程，并讨论初值、边值和数值求解。"
+    },
+    {
+      "title": "3.2 一篇文章搞明白各种响应：稳态响应、瞬态响应...",
+      "url": "https://zhuanlan.zhihu.com/p/390650796",
+      "summary": "正文建立有阻尼弹簧振子的二阶常系数微分方程，并逐步求齐次解、特解和满足初值的完整解。"
+    },
+    {
+      "title": "什么是微分方程、自治微分方程、平衡点和相直线？",
+      "url": "https://zhuanlan.zhihu.com/p/390893470",
+      "summary": "正文从反求导函数引入微分方程，并用牛顿冷却与 Logistic 模型分析平衡点和相直线。"
+    },
+    {
+      "title": "控制理论基础知识",
+      "url": "https://zhuanlan.zhihu.com/p/390814032",
+      "summary": "正文给出线性系统与一阶常系数非齐次微分方程的显式解公式。"
+    },
+    {
+      "title": "MATLAB | 定态薛定谔方程的数值解——以一维谐振子为例",
+      "url": "https://zhuanlan.zhihu.com/p/393374195",
+      "summary": "正文建立一维定态薛定谔方程，并通过离散哈密顿算符数值求解。"
+    },
+    {
+      "title": "二阶常系数微分方程的解",
+      "url": "https://zhuanlan.zhihu.com/p/392763925",
+      "summary": "正文从标准形式、特征方程和特征根出发，说明二阶常系数齐次与非齐次线性微分方程的判定及通解求法。"
+    },
+    {
+      "title": "从泛函到无人机控制[2]—欧拉-拉格朗日方程",
+      "url": "https://zhuanlan.zhihu.com/p/393705893",
+      "summary": "正文由欧拉-拉格朗日条件得到关于位置函数的高阶微分方程，再结合边界条件求其多项式解。"
+    },
+    {
+      "title": "偏微分方程(四)——格林函数(Green's function)",
+      "url": "https://zhuanlan.zhihu.com/p/394104835",
+      "summary": "正文以泊松方程及其 Dirichlet 边值条件为对象，构造格林函数并证明解的表达公式。"
+    },
+    {
+      "title": "量化研究员面试圣经刷题笔记6-2.6 概率、随机微积分|150 Most Frequently Asked Questions on Quant Interviews",
+      "url": "https://zhuanlan.zhihu.com/p/396919954",
+      "summary": "正文给出 Itô 随机微分方程及其积分形式，并说明强解存在唯一性条件，实质讨论随机微分方程。"
+    },
+    {
+      "title": "[现代控制理论1-1] 状态方程的建立",
+      "url": "https://zhuanlan.zhihu.com/p/398114249",
+      "summary": "正文用一阶向量微分方程建立系统的状态方程，并据此说明动态系统的时域建模。"
+    },
+    {
+      "title": "格林函数、谱函数和态密度",
+      "url": "https://zhuanlan.zhihu.com/p/397762078",
+      "summary": "正文以含点源的格林函数方程定义激发响应关系，并连接到定态薛定谔方程的非平衡形式。"
+    },
+    {
+      "title": "傅里叶变换的几个应用",
+      "url": "https://zhuanlan.zhihu.com/p/399012702",
+      "summary": "正文对特征函数作时间展开，得到并求解描述布朗运动概率密度演化的一阶偏微分方程。"
+    },
+    {
+      "title": "2018年上海交通大学第一学期高数A类期末考试题及答案解析",
+      "url": "https://zhuanlan.zhihu.com/p/400346951",
+      "summary": "正文通过齐次换元求一阶微分方程通解，并用特征重根确定二阶常系数线性微分方程的参数。"
+    },
+    {
+      "title": "随机微分方程笔记（二）布朗运动及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/400802316",
+      "summary": "正文给出几何布朗运动所满足的随机微分方程，并说明其解的形式，作为随机微分方程章节的实例。"
+    },
+    {
+      "title": "Python: 显式有限差分求解一维对流方程",
+      "url": "https://zhuanlan.zhihu.com/p/403593394",
+      "summary": "正文围绕一维对流偏微分方程展开，给出方程、解析解和多种数值离散格式。"
+    },
+    {
+      "title": "148分煜神学长考研数学结论笔记-微分方程解题思路总结(节选)（第七期）",
+      "url": "https://zhuanlan.zhihu.com/p/404198621",
+      "summary": "正文归纳常微分方程中的 u=y/x、交换自变量因变量及 u=y^2 等换元方法，并把方程化为可分离或一阶线性形式。"
+    },
+    {
+      "title": "随机微分方程笔记（四）随机微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/405174311",
+      "summary": "正文系统给出随机微分方程的一般形式，并通过积分因子、Ito 引理和实例讲解求解方法。"
+    },
+    {
+      "title": "【考研数学】常系数非齐次线性微分方程特解系数求解（大幅简化计算、提高正确率）",
+      "url": "https://zhuanlan.zhihu.com/p/405834590",
+      "summary": "正文把二阶常系数非齐次线性微分方程化为关于待定多项式 A 的方程，再比较系数求特解。"
+    },
+    {
+      "title": "[微分方程]你真的明白微分方程的解了吗?",
+      "url": "https://zhuanlan.zhihu.com/p/409619526",
+      "summary": "正文具体讨论微分方程的通解、特解、奇解、任意常数及初值条件的含义，对应微分方程。"
+    },
+    {
+      "title": "微分方程数值求解——有限差分法",
+      "url": "https://zhuanlan.zhihu.com/p/411798670",
+      "summary": "正文从一阶常微分方程和二维偏微分方程出发，展示有限差分法的离散与求解流程。"
+    },
+    {
+      "title": "关于常数变易法的一点思考",
+      "url": "https://zhuanlan.zhihu.com/p/412260728",
+      "summary": "正文围绕一阶非齐次线性微分方程推导常数变易法，说明待定函数形式的来源。"
+    },
+    {
+      "title": "为什么传递函数极点可以判断系统稳定性",
+      "url": "https://zhuanlan.zhihu.com/p/412430695",
+      "summary": "正文比较特征根的不同情形与微分方程通解形式，并据此解释系统稳定性。"
+    },
+    {
+      "title": "线性常系数微分方程组的矩阵解法",
+      "url": "https://zhuanlan.zhihu.com/p/413185999",
+      "summary": "正文完整求解一阶及二阶线性常系数微分方程组，并应用到耦合振动运动方程。"
+    },
+    {
+      "title": "Evans偏微分方程第二章习题答案",
+      "url": "https://zhuanlan.zhihu.com/p/414344729",
+      "summary": "正文用特征线法求解一阶线性偏微分方程的初值问题，并得到显式解的指数形式。"
+    },
+    {
+      "title": "编时乘积与时间演化算符",
+      "url": "https://zhuanlan.zhihu.com/p/414506372",
+      "summary": "正文从含时薛定谔微分方程出发，通过积分和迭代构造时间演化算符的级数解。"
+    },
+    {
+      "title": "UE4中的阻尼弹簧平滑",
+      "url": "https://zhuanlan.zhihu.com/p/412291354",
+      "summary": "正文建立阻尼弹簧的二阶线性微分方程，并按欠阻尼、临界阻尼和过阻尼分别求出解析解。"
+    },
+    {
+      "title": "萌新向——如何用升降算符优雅地得到球谐函数",
+      "url": "https://zhuanlan.zhihu.com/p/419492575",
+      "summary": "正文通过分离变量和升降算符把二阶微分方程化为可积分的一阶微分方程，从而构造各阶球谐函数。"
+    },
+    {
+      "title": "数学建模灰色预测GM(1,1)模型",
+      "url": "https://zhuanlan.zhihu.com/p/421156968",
+      "summary": "正文把灰色预测转化为构建并求解累加序列的一阶常微分方程，具体展开了微分方程建模方法。"
+    },
+    {
+      "title": "欧拉法(Euler)求解常微分方程的Matlab程序及案例",
+      "url": "https://zhuanlan.zhihu.com/p/422074759",
+      "summary": "正文先定义常微分方程和一阶初值问题，再以具体方程演示数值求解。"
+    },
+    {
+      "title": "2021-2022丘成桐数学领军计划一试试题解答(分析部分)",
+      "url": "https://zhuanlan.zhihu.com/p/422457200",
+      "summary": "正文围绕二阶微分不等式展开 Sturm 比较方法，并用反证与积分恒等式确定最小零点间距。"
+    },
+    {
+      "title": "矩阵指数函数 |专题（1）",
+      "url": "https://zhuanlan.zhihu.com/p/422545081",
+      "summary": "正文从一阶线性常系数微分方程出发，说明矩阵指数给出其解的构造方式。"
+    },
+    {
+      "title": "[现代控制理论1-2] 状态方程的标准形式与解",
+      "url": "https://zhuanlan.zhihu.com/p/424195290",
+      "summary": "正文推导连续 LTI 状态微分方程的通解，并说明通过 Laplace 变换求解的方法。"
+    },
+    {
+      "title": "零输入响应与零状态响应、自由响应与强迫相应、暂态响应与稳态响应",
+      "url": "https://zhuanlan.zhihu.com/p/426493101",
+      "summary": "正文围绕线性微分方程，比较齐次解与特解、零输入与零状态、自由与强迫以及暂态与稳态响应。"
+    },
+    {
+      "title": "四阶龙格库塔法(Runge-Kutta)求解常微分方程的Matlab程序及案例",
+      "url": "https://zhuanlan.zhihu.com/p/427409568",
+      "summary": "正文以显式欧拉、隐式欧拉、两步欧拉与四阶龙格库塔等格式求解一阶常微分方程初值问题，并讨论截断误差。"
+    },
+    {
+      "title": "数学的艺术 —— 变分法",
+      "url": "https://zhuanlan.zhihu.com/p/430355170",
+      "summary": "正文推导并应用 Euler-Lagrange 方程，把力学系统化为微分方程后求单摆、落体和轨道方程。"
+    },
+    {
+      "title": "线性微分方程的利器-微分算子法(超详细讲解)",
+      "url": "https://zhuanlan.zhihu.com/p/429780174",
+      "summary": "正文系统讲解微分算子法，并针对七类非齐次项求解高阶线性微分方程的特解。"
+    },
+    {
+      "title": "《自动控制原理》课程总结",
+      "url": "https://zhuanlan.zhihu.com/p/433503655",
+      "summary": "正文围绕线性定常系统的微分方程、特征根和时域解展开，解释稳定系统的收敛条件。"
+    },
+    {
+      "title": "不定积分的一些技巧总结",
+      "url": "https://zhuanlan.zhihu.com/p/433177635",
+      "summary": "正文在一个力学例子中通过链式法则把物理关系化为关于速度平方的一阶线性微分方程，并给出其解。"
+    },
+    {
+      "title": "随机微分方程学习笔记I：随机分析中的伊藤公式",
+      "url": "https://zhuanlan.zhihu.com/p/434589422",
+      "summary": "正文用漂移项与布朗运动项定义伊藤过程，并在该随机微分方程结构上推导变换后的微分方程。"
+    },
+    {
+      "title": "常(偏)微分方程的数值求解（欧拉法、改进欧拉法、龙格-库塔法、亚当姆斯法）",
+      "url": "https://zhuanlan.zhihu.com/p/435769998",
+      "summary": "正文从常微分方程和偏微分方程的定义、阶数及初值问题出发，讲解这些方程的离散数值求解。"
+    },
+    {
+      "title": "机器人中的李群和李代数（一）——基础知识",
+      "url": "https://zhuanlan.zhihu.com/p/435445206",
+      "summary": "正文由旋转矩阵的导数建立关于 R 的微分方程并解得指数映射。"
+    },
+    {
+      "title": "【常微分方程】积分因子法",
+      "url": "https://zhuanlan.zhihu.com/p/436015309",
+      "summary": "正文围绕恰当微分方程和积分因子，给出判别、求解及积分因子构造方法。"
+    },
+    {
+      "title": "高级宏观与动态优化：汉密尔顿方程（Hamilton Equation）",
+      "url": "https://zhuanlan.zhihu.com/p/436150206",
+      "summary": "正文把最优控制条件化为一阶微分方程组和边界条件，并求解资本与消费的动态运动。"
+    },
+    {
+      "title": "从厄米方程到厄米多项式",
+      "url": "https://zhuanlan.zhihu.com/p/436428054",
+      "summary": "正文从量子谐振子方程推出厄米微分方程，并以级数法研究其解和边界条件。"
+    },
+    {
+      "title": "模态叠加法的基本原理及其Matlab实现方法",
+      "url": "https://zhuanlan.zhihu.com/p/437671045",
+      "summary": "正文围绕振动常微分方程组的解耦、初值变换和响应求解展开模态叠加方法。"
+    },
+    {
+      "title": "常微分方程的MATLAB求解",
+      "url": "https://zhuanlan.zhihu.com/p/438752297",
+      "summary": "正文以常微分方程及其方程组为对象，分别讲解解析解和数值初值问题的求解。"
+    },
+    {
+      "title": "常微分方程的MATLAB求解——手写龙格-库塔法（R-K法）模板、一般步骤",
+      "url": "https://zhuanlan.zhihu.com/p/440555255",
+      "summary": "正文把高阶方程化为一阶方程组，并据此建立初值问题与数值求解流程。"
+    },
+    {
+      "title": "matlab拯救高数",
+      "url": "https://zhuanlan.zhihu.com/p/439775517",
+      "summary": "正文分别求解二阶线性方程、初值问题和一阶微分方程组，并给出通解或特解。"
+    },
+    {
+      "title": "从素数到微分方程——离散与连续的究极缝合",
+      "url": "https://zhuanlan.zhihu.com/p/444225847",
+      "summary": "正文把光滑数计数的迭代关系化为 Dickman 函数的差分微分方程并讨论其初值。"
+    },
+    {
+      "title": "GAMES103笔记 Lecture5 基于物理的布料模拟（Physics-based Cloth Simulation）",
+      "url": "https://zhuanlan.zhihu.com/p/441088912",
+      "summary": "正文把布料网格建模为受弹簧力作用的动力学系统，通过显式或隐式时间积分更新位置和速度。"
+    },
+    {
+      "title": "什么是龙格库塔？常微分方程的数值解法",
+      "url": "https://zhuanlan.zhihu.com/p/452525470",
+      "summary": "正文从常微分方程的积分形式出发，讲解欧拉法、改进欧拉法及 Runge-Kutta 格式。"
+    },
+    {
+      "title": "定积分的计算与题型总结",
+      "url": "https://zhuanlan.zhihu.com/p/453108063",
+      "summary": "正文把含积分上限函数的方程化为微分方程，并示范求解一阶线性微分方程。"
+    },
+    {
+      "title": "四元数EKF姿态更新算法",
+      "url": "https://zhuanlan.zhihu.com/p/454155643",
+      "summary": "正文给出四元数随时间变化的微分方程，并据此离散化得到状态过程模型。"
+    },
+    {
+      "title": "欧拉公式的一种推导方法",
+      "url": "https://zhuanlan.zhihu.com/p/454285878",
+      "summary": "正文将复数函数的导数关系化为一阶可分离变量微分方程并求其解。"
+    },
+    {
+      "title": "2021年12月29日清华大学本科生微积分考试",
+      "url": "https://zhuanlan.zhihu.com/p/455199100",
+      "summary": "正文通过换元把欧拉方程化为常系数方程，并求出二阶线性非齐次微分方程的通解。"
+    },
+    {
+      "title": "数学物理方程（2）——分离变量法",
+      "url": "https://zhuanlan.zhihu.com/p/453610241",
+      "summary": "正文先复习二阶线性常系数微分方程的特征根与通解，再在分离变量后求解对应的时间常微分方程。"
+    },
+    {
+      "title": "【高数笔记】微分方程及其求解（一）",
+      "url": "https://zhuanlan.zhihu.com/p/453830266",
+      "summary": "正文讲解可分离变量、齐次、一阶线性及可降阶高阶微分方程的识别与通解求法。"
+    },
+    {
+      "title": "2022年1月13日中国科学技术大学2021年秋季学期数学分析B1期末考试题",
+      "url": "https://zhuanlan.zhihu.com/p/456963180",
+      "summary": "正文求二阶线性常系数非齐次微分方程的通解，由特征根与特解构成完整解。"
+    },
+    {
+      "title": "朗斯基行列式与双元积分",
+      "url": "https://zhuanlan.zhihu.com/p/457382709",
+      "summary": "正文利用二阶线性微分方程两个解的朗斯基行列式证明其为常数。"
+    },
+    {
+      "title": "常微分方程知识点总结",
+      "url": "https://zhuanlan.zhihu.com/p/457496785",
+      "summary": "正文按章节梳理常微分方程的初等解法、存在唯一性、高阶方程和线性方程组。"
+    },
+    {
+      "title": "常数变易法",
+      "url": "https://zhuanlan.zhihu.com/p/458900137",
+      "summary": "正文从一阶、二阶到三阶非齐次线性微分方程演示常数变易法，并说明伯努利方程的化归。"
+    },
+    {
+      "title": "几类贝塞尔(Bessel)函数的常用渐近展开及推导",
+      "url": "https://zhuanlan.zhihu.com/p/461886640",
+      "summary": "正文从贝塞尔、虚宗量和球贝塞尔等微分方程出发定义各类解，并讨论其线性无关组合。"
+    },
+    {
+      "title": "用 Python 做科学计算(工具篇)—— scipy 使用指南",
+      "url": "https://zhuanlan.zhihu.com/p/462806946",
+      "summary": "正文用 odeint 求解一阶和二阶常微分方程，并示范把二阶方程化为一阶方程组。"
+    },
+    {
+      "title": "氢原子波函数的数学推导（含归一化）",
+      "url": "https://zhuanlan.zhihu.com/p/465206626",
+      "summary": "正文从薛定谔方程分离出径向常微分方程，并通过变量替换、渐近分析和级数解处理氢原子情形。"
+    },
+    {
+      "title": "高等数学知识点回顾（上册）",
+      "url": "https://zhuanlan.zhihu.com/p/467583784",
+      "summary": "正文定义微分方程的阶、通解和特解，并展开可分离变量、齐次、一阶线性、高阶常系数及欧拉方程。"
+    },
+    {
+      "title": "积分从入门到精通（一）:双元法原理",
+      "url": "https://zhuanlan.zhihu.com/p/472781562",
+      "summary": "正文先回顾一阶恰当方程、全微分与积分因子，再将其迁移到不定积分计算。"
+    },
+    {
+      "title": "[朗道力学笔记]（一）运动方程",
+      "url": "https://zhuanlan.zhihu.com/p/474899930",
+      "summary": "正文由最小作用量原理推出拉格朗日方程及多自由度二阶微分方程组。"
+    },
+    {
+      "title": "赢系统与陈平稳赢性（Winning System & Champion Stability）",
+      "url": "https://zhuanlan.zhihu.com/p/476479094",
+      "summary": "正文把赢状态写成连续或离散状态空间微分方程，并讨论解的存在唯一性、平衡点及稳定性。"
+    },
+    {
+      "title": "Mathematica 程序包 OGRe 广义相对论计算 汉化帮助文档",
+      "url": "https://zhuanlan.zhihu.com/p/476655667",
+      "summary": "正文由曲线 Lagrangian 的欧拉–拉格朗日方程生成测地线微分方程组，并讨论不同的参数化形式。"
+    },
+    {
+      "title": "球坐标系下拉普拉斯方程",
+      "url": "https://zhuanlan.zhihu.com/p/474386730",
+      "summary": "正文分离变量后得到欧拉方程、二阶常系数方程和连带勒让德方程，并讨论其解。"
+    },
+    {
+      "title": "高数笔记（二）对常数变易法的原理的探讨和延申",
+      "url": "https://zhuanlan.zhihu.com/p/478014455",
+      "summary": "正文讨论一阶非齐次线性微分方程的通解，比较常数变易法、齐次方程和积分因子法。"
+    },
+    {
+      "title": "2.2 全微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/481698118",
+      "summary": "正文定义全微分方程，并说明其通解可由原函数给出，属于微分方程求解。"
+    },
+    {
+      "title": "从线性代数到量子力学(21)：氢原子薛定谔方程求解过程赏析(下)",
+      "url": "https://zhuanlan.zhihu.com/p/456815029",
+      "summary": "正文将氢原子薛定谔方程分离变量并约化为径向常微分方程，再求其解。"
+    },
+    {
+      "title": "量子物理-索末菲椭圆轨道模型推导",
+      "url": "https://zhuanlan.zhihu.com/p/482230330",
+      "summary": "正文从运动方程消去时间，换元 u=r^{-1} 并推导有心力场的 Binet 公式。"
+    },
+    {
+      "title": "二阶线性微分方程的解法",
+      "url": "https://zhuanlan.zhihu.com/p/486666468",
+      "summary": "正文按特征根三种情形给出二阶常系数线性方程通解，并讨论非齐次与变系数方程解法。"
+    },
+    {
+      "title": "量子力学之路（3）——球谐函数，近代数学中最著名的函数之一",
+      "url": "https://zhuanlan.zhihu.com/p/488242089",
+      "summary": "正文将径向方程识别为欧拉-柯西方程，并通过级数法推导勒让德型方程的解。"
+    },
+    {
+      "title": "高数常用公式",
+      "url": "https://zhuanlan.zhihu.com/p/488813794",
+      "summary": "正文归纳可分离变量、伯努利、全微分及二阶常系数线性微分方程的求解公式。"
+    },
+    {
+      "title": "[电动力学]球坐标系下拉普拉斯方程的求解",
+      "url": "https://zhuanlan.zhihu.com/p/492694563",
+      "summary": "正文通过两次分离变量把球坐标拉普拉斯方程化为欧拉方程、常系数方程和连带勒让德方程。"
+    },
+    {
+      "title": "电磁辐射公式的推导（一）—— 基本思路",
+      "url": "https://zhuanlan.zhihu.com/p/492869104",
+      "summary": "正文将含时波动方程与格林函数方程统一，并区分推迟势与超前势。"
+    },
+    {
+      "title": "天体运动轨道（椭圆，抛物线，双曲线）开普勒三定律",
+      "url": "https://zhuanlan.zhihu.com/p/485009891",
+      "summary": "正文引入 u=1/r 与角动量守恒式，得到关于 u 和极角的二阶微分方程并求解。"
+    },
+    {
+      "title": "控制李亚普诺夫函数(Control Lyapunov Function, CLF)",
+      "url": "https://zhuanlan.zhihu.com/p/493456068",
+      "summary": "正文从自治系统状态方程出发，引入控制输入并分析控制系统的渐近稳定性。"
+    },
+    {
+      "title": "有限元方法（FEM）学习笔记（1）",
+      "url": "https://zhuanlan.zhihu.com/p/499454118",
+      "summary": "正文以二阶微分方程边值问题为例，给出解析解并据此讨论数值离散与函数空间。"
+    },
+    {
+      "title": "Physics-informed neural networks(PINNs)入门介绍",
+      "url": "https://zhuanlan.zhihu.com/p/500827425",
+      "summary": "正文区分常微分方程与偏微分方程，说明初值和边界条件，并讨论数值求解方法。"
+    },
+    {
+      "title": "ODE|常系数一阶线性微分方程组：一般理论",
+      "url": "https://zhuanlan.zhihu.com/p/497250221",
+      "summary": "正文系统求解常系数一阶线性微分方程组，并给出齐次与非齐次方程的通解。"
+    },
+    {
+      "title": "ODE|解的延拓与最大存在区间",
+      "url": "https://zhuanlan.zhihu.com/p/493325441",
+      "summary": "正文讨论微分方程解的延拓、不可延拓解、最大存在区间及先验估计。"
+    },
+    {
+      "title": "动力学模态分解 (Dynamic Mode Decomposition, DMD) 学习",
+      "url": "https://zhuanlan.zhihu.com/p/501969800",
+      "summary": "正文从连续和离散动态系统出发，用线性微分方程的解与状态转移近似原系统。"
+    },
+    {
+      "title": "ODE|奇解与包络",
+      "url": "https://zhuanlan.zhihu.com/p/492929321",
+      "summary": "正文围绕一阶隐式微分方程定义奇解，讨论 p-判别式和包络的联系。"
+    },
+    {
+      "title": "什么是随机积分？（简版）",
+      "url": "https://zhuanlan.zhihu.com/p/501641647",
+      "summary": "正文把扩散过程写成漂移项与随机项驱动的随机微分方程形式并作推广。"
+    },
+    {
+      "title": "四元数与姿态解算完全解析及资料汇总",
+      "url": "https://zhuanlan.zhihu.com/p/505123676",
+      "summary": "正文给出四元数微分方程的一阶龙格库塔更新式，并用角速度迭代四元数。"
+    },
+    {
+      "title": "最优控制理论串烧-极小值原理-LQR-MPC-QP-EMPC",
+      "url": "https://zhuanlan.zhihu.com/p/506187033",
+      "summary": "正文由受控系统的状态方程和哈密顿正则方程导出黎卡提微分方程，并据此确定最优反馈矩阵。"
+    },
+    {
+      "title": "常微分方程笔记（二）",
+      "url": "https://zhuanlan.zhihu.com/p/508854623",
+      "summary": "正文系统讨论一阶常微分方程的线素场、初值问题、解的存在唯一性、延展和奇解。"
+    },
+    {
+      "title": "理论力学——拉格朗日方程的简单推导",
+      "url": "https://zhuanlan.zhihu.com/p/510345870",
+      "summary": "正文由虚功原理和广义坐标逐步推导质点组的拉格朗日运动方程及其保守形式。"
+    },
+    {
+      "title": "算法与高频交易：随机控制基础（一）",
+      "url": "https://zhuanlan.zhihu.com/p/509281280",
+      "summary": "正文由动态规划原理和Itô公式推导Hamilton-Jacobi-Bellman方程。"
+    },
+    {
+      "title": "浅谈积分方程（1）——认识积分方程",
+      "url": "https://zhuanlan.zhihu.com/p/511229863",
+      "summary": "正文通过带初值二阶微分方程两次积分，将其化为第二类 Volterra 积分方程。"
+    },
+    {
+      "title": "计算流体力学：有限差分法(FDM)、有限元法(FEM)和有限体积法(FVM)思想概述",
+      "url": "https://zhuanlan.zhihu.com/p/516229051",
+      "summary": "正文从二阶一维微分方程及其边界条件出发，展示有限差分和有限元如何构造数值解。"
+    },
+    {
+      "title": "统计套利的基石：Ornstein–Uhlenbeck Process",
+      "url": "https://zhuanlan.zhihu.com/p/521243637",
+      "summary": "正文以随机微分方程定义 OU 过程，并用积分因子求出它的闭式解。"
+    },
+    {
+      "title": "高等数学知识点回顾（下册）（4）",
+      "url": "https://zhuanlan.zhihu.com/p/523940005",
+      "summary": "正文说明把微分方程的解设为幂级数并逐项比较同次幂系数，具体给出微分方程的级数求解法。"
+    },
+    {
+      "title": "同济版高等数学知识点回顾（上册）",
+      "url": "https://zhuanlan.zhihu.com/p/526041629",
+      "summary": "正文系统讲解一阶、高阶和常系数线性微分方程、通解结构与常用解法。"
+    },
+    {
+      "title": "谈谈《自然哲学的数学原理》",
+      "url": "https://zhuanlan.zhihu.com/p/534982242",
+      "summary": "正文推导 Binet 方程，说明如何在极坐标下把轨道问题化为关于 1/r 的微分方程。"
+    },
+    {
+      "title": "波动方程|非齐次问题：Duhamel原理",
+      "url": "https://zhuanlan.zhihu.com/p/530990067",
+      "summary": "正文把非齐次波动方程转化为求齐次方程通解和特解的问题，并给出具体求解过程。"
+    },
+    {
+      "title": "什么是Fokker-Planck方程？",
+      "url": "https://zhuanlan.zhihu.com/p/535688931",
+      "summary": "正文用含漂移项和布朗运动噪声的随机微分方程描述扩散过程，并讨论稳定解。"
+    },
+    {
+      "title": "一阶线性微分方程的通解",
+      "url": "https://zhuanlan.zhihu.com/p/537253058",
+      "summary": "正文区分一阶线性齐次与非齐次微分方程，并完整讲解分离变量和常数变易法的求解流程。"
+    },
+    {
+      "title": "微分方程-伯努利方程",
+      "url": "https://zhuanlan.zhihu.com/p/537346356",
+      "summary": "正文说明伯努利方程是非线性微分方程，并通过除以幂函数和换元把它化为一阶线性方程求解。"
+    },
+    {
+      "title": "自我检测---积分",
+      "url": "https://zhuanlan.zhihu.com/p/534506333",
+      "summary": "由函数增量关系建立一阶微分方程并通过分离变量和初值求解析解。"
+    },
+    {
+      "title": "限价订单簿建模-01-Level-I Quotes & Hidden Liquidity",
+      "url": "https://zhuanlan.zhihu.com/p/539521159",
+      "summary": "正文为价格上涨概率建立二阶偏微分方程，并给出队列耗尽时对应的边界条件。"
+    },
+    {
+      "title": "二阶常系数线性微分方程怎么设特解？",
+      "url": "https://zhuanlan.zhihu.com/p/541524652",
+      "summary": "正文由特征方程讨论齐次方程通解，并系统给出两类非齐次方程的特解设法与叠加原理。"
+    },
+    {
+      "title": "[非线性动力学] Lyapunov稳定性理论",
+      "url": "https://zhuanlan.zhihu.com/p/541772198",
+      "summary": "正文研究非线性微分方程定态解的稳定性，并以多种分岔方程和 Logistic 映射说明解随参数的变化。"
+    },
+    {
+      "title": "伽辽金法学习（Galerkin）一",
+      "url": "https://zhuanlan.zhihu.com/p/543086700",
+      "summary": "正文用满足边界条件的基函数展开位移场，并以加权残差方程近似求解平衡微分方程。"
+    },
+    {
+      "title": "简单的偏微分方程解法汇总",
+      "url": "https://zhuanlan.zhihu.com/p/549037473",
+      "summary": "正文沿特征线把偏微分方程化为常微分方程并给出定解问题的求解过程。"
+    },
+    {
+      "title": "生成扩散模型漫谈（四）：DDIM = 高观点DDPM",
+      "url": "https://zhuanlan.zhihu.com/p/549366342",
+      "summary": "正文把确定性 DDIM 采样极限化为常微分方程，并联系欧拉法和 Runge-Kutta 方法。"
+    },
+    {
+      "title": "数理方程：波动方程",
+      "url": "https://zhuanlan.zhihu.com/p/554198234",
+      "summary": "正文讲授一阶微分方程的特征线法，并用它将偏微分方程转化为常微分方程求解。"
+    },
+    {
+      "title": "数理方程(完结)：分离变量法",
+      "url": "https://zhuanlan.zhihu.com/p/556082352",
+      "summary": "正文以分离变量法完整求解波动方程初边值问题，并讨论边界条件与常微分方程的解。"
+    },
+    {
+      "title": "宇宙会重现吗？——聊聊庞加莱回归",
+      "url": "https://zhuanlan.zhihu.com/p/556400035",
+      "summary": "正文写出哈密顿运动方程，并通过相空间映射和雅可比行列式论证其保测性质。"
+    },
+    {
+      "title": "Neural ODE，这个世界终究是连续的",
+      "url": "https://zhuanlan.zhihu.com/p/554790455",
+      "summary": "正文由微分方程的定义讲起，并用常微分方程刻画 Neural ODE 的前向与反向过程。"
+    },
+    {
+      "title": "扩散模型(Diffusion Model)首篇综述-Diffusion Models: A Comprehensive Survey of Methods and Applications",
+      "url": "https://zhuanlan.zhihu.com/p/562389931",
+      "summary": "正文把连续扩散过程写成正向和逆向随机微分方程，并讨论其离散化求解。"
+    },
+    {
+      "title": "扩散模型与朗之万动力学和随机微分方程的关系",
+      "url": "https://zhuanlan.zhihu.com/p/562654949",
+      "summary": "正文把无限步加噪的离散扩散推广为随机过程，并说明其可由随机微分方程描述。"
+    },
+    {
+      "title": "【民科】微分dx、dy表示什么含义？不定积分为什么含有dx？把一个量设为dx又是什么意思？",
+      "url": "https://zhuanlan.zhihu.com/p/564065107",
+      "summary": "正文从牛顿第二定律建立速度与位置满足的微分方程，并用分离变量和积分求解。"
+    },
+    {
+      "title": "分析力学（理论力学）变分原理",
+      "url": "https://zhuanlan.zhihu.com/p/565357008",
+      "summary": "正文从变分积分出发推导欧拉-拉格朗日方程，并在约束下得到含乘子的方程。"
+    },
+    {
+      "title": "第一类Bessel函数的渐近展开",
+      "url": "https://zhuanlan.zhihu.com/p/567495915",
+      "summary": "正文从 Bessel 方程出发，定义其第一类解并通过幂级数方法展开后续推导。"
+    },
+    {
+      "title": "扩散模型：方法与应用综述（Diffusion Models: A Comprehensive Survey of Methods and Applications）",
+      "url": "https://zhuanlan.zhihu.com/p/573627573",
+      "summary": "正文比较扩散对应的随机微分方程与概率流常微分方程，并讨论数值求解器。"
+    },
+    {
+      "title": "索菲斯·李：视力欠佳，却看到数学和物理中最深刻的结构之一",
+      "url": "https://zhuanlan.zhihu.com/p/575726569",
+      "summary": "正文说明微分方程描述量的变化率，并展开李如何利用方程解的对称变换研究其可解性。"
+    },
+    {
+      "title": "对于“微分算子法”的理解",
+      "url": "https://zhuanlan.zhihu.com/p/576626479",
+      "summary": "正文系统讲解用微分算子求线性常微分方程特解及算子性质，属于微分方程解法。"
+    },
+    {
+      "title": "信号与系统笔记(二)：线性时不变系统、卷积",
+      "url": "https://zhuanlan.zhihu.com/p/577198722",
+      "summary": "正文用一阶线性非齐次微分方程分别求零输入齐次解与零状态特解，具体涉及微分方程。"
+    },
+    {
+      "title": "Python解薛定谔方程（一维谐振子为例）",
+      "url": "https://zhuanlan.zhihu.com/p/578421135",
+      "summary": "正文从含时薛定谔方程分离变量得到定态微分方程，并讨论边值问题和多种数值解法。"
+    },
+    {
+      "title": "【积分变换】利用拉普拉斯(Laplace)变换求解微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/579561439",
+      "summary": "正文完整演示把微分方程变换为代数方程、代入初值求解再作逆变换的微分方程求解流程。"
+    },
+    {
+      "title": "“不可能存在的人”——庞加莱，所有数学领域的大师",
+      "url": "https://zhuanlan.zhihu.com/p/579818685",
+      "summary": "正文具体介绍庞加莱把分析方法用于微分方程、周期解和 n 体问题，并说明这些方程在物理研究中的作用。"
+    },
+    {
+      "title": "高等数学 | 考研数学 | 微分方程总结",
+      "url": "https://zhuanlan.zhihu.com/p/580375148",
+      "summary": "正文系统分类并讲解可分离变量、齐次、一阶线性及二阶常系数微分方程，给出通解与特解的求解结构。"
+    },
+    {
+      "title": "家用微分几何 (第四话) 联络与平移",
+      "url": "https://zhuanlan.zhihu.com/p/584836761",
+      "summary": "正文把测地线条件写成联络系数满足的常微分方程组并解释其几何意义。"
+    },
+    {
+      "title": "一文解释 Diffusion Model (二) Score-based SDE 理论推导",
+      "url": "https://zhuanlan.zhihu.com/p/589106222",
+      "summary": "正文从离散加噪推导漂移与扩散项，建立随机微分方程并进一步转换为常微分方程。"
+    },
+    {
+      "title": "理解扩散模型(3):随机微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/589466244",
+      "summary": "正文给出随机微分方程的漂移项、扩散项和逆向方程，并讨论其求解与概率流常微分方程转换。"
+    },
+    {
+      "title": "数学物理方程--波动方程",
+      "url": "https://zhuanlan.zhihu.com/p/594560115",
+      "summary": "正文通过特征曲线变换把二阶方程化为波动方程标准型，并用分离变量法求解。"
+    },
+    {
+      "title": "高中导数：从入门进阶为入土",
+      "url": "https://zhuanlan.zhihu.com/p/600452142",
+      "summary": "正文从一阶线性齐次微分方程的通解出发构造辅助函数，并用于处理导数不等式。"
+    },
+    {
+      "title": "从线性代数到量子力学(27)：狄拉克方程(上)",
+      "url": "https://zhuanlan.zhihu.com/p/551272876",
+      "summary": "正文围绕狄拉克方程的构造、复共轭方程和概率流守恒展开偏微分方程推导。"
+    },
+    {
+      "title": "椭圆模函数（1）——椭圆、单摆、双周期",
+      "url": "https://zhuanlan.zhihu.com/p/600455081",
+      "summary": "正文建立单摆的能量方程，通过分离变量求解运动微分方程并解释其周期。"
+    },
+    {
+      "title": "从微积分到数学物理方法（3.1）：勒让德方程与勒让德多项式",
+      "url": "https://zhuanlan.zhihu.com/p/581321690",
+      "summary": "正文讨论二阶线性齐次常微分方程的幂级数解法，并对勒让德方程作系数递推和端点收敛分析。"
+    },
+    {
+      "title": "AI与PDE（八）：Koopman算子的理论框架",
+      "url": "https://zhuanlan.zhihu.com/p/603855350",
+      "summary": "正文从自治微分方程出发，通过升维把非线性动力系统改写为线性演化方程。"
+    },
+    {
+      "title": "椭圆模函数（2）——Weierstrass的椭圆函数论",
+      "url": "https://zhuanlan.zhihu.com/p/603750259",
+      "summary": "正文利用 Laurent 展开和 Liouville 定理推导 Weierstrass 椭圆函数满足的微分方程。"
+    },
+    {
+      "title": "偏微分方程PDE笔记整理",
+      "url": "https://zhuanlan.zhihu.com/p/607507517",
+      "summary": "正文通过乘 u_t、分部积分和 Gronwall 不等式建立波动方程的能量估计与唯一性。"
+    },
+    {
+      "title": "基于最优控制的轨迹优化方法",
+      "url": "https://zhuanlan.zhihu.com/p/609321584",
+      "summary": "正文以状态方程和微分方程约束描述系统动力学，并说明 collocation 将其离散为代数约束。"
+    },
+    {
+      "title": "信号与系统  冲激函数匹配法",
+      "url": "https://zhuanlan.zhihu.com/p/610917780",
+      "summary": "正文围绕含冲激项的一阶和二阶微分方程，用待定系数匹配求初始状态跳变。"
+    },
+    {
+      "title": "朗斯基双元的一些结论",
+      "url": "https://zhuanlan.zhihu.com/p/611945968",
+      "summary": "正文以二阶线性微分方程 p''=Ap、q''=Bq 的解为对象，推导积分公式及特例。"
+    },
+    {
+      "title": "如何理解三类PDE(椭圆, 抛物, 双曲)？",
+      "url": "https://zhuanlan.zhihu.com/p/613707579",
+      "summary": "正文给出波动方程，并说明它用于描述声波、弹性波和重力波等传播现象。"
+    },
+    {
+      "title": "偏微分方程的常见解法——特征线法",
+      "url": "https://zhuanlan.zhihu.com/p/615877383",
+      "summary": "正文把一阶和二阶偏微分方程转化为常微分方程或标准形式，并给出通解与初值处理。"
+    },
+    {
+      "title": "矩阵指数exp(A)的19种计算方法",
+      "url": "https://zhuanlan.zhihu.com/p/610887072",
+      "summary": "正文把矩阵指数视为线性常微分方程组 x'=Ax 的解，并介绍单步和多步求解方法。"
+    },
+    {
+      "title": "常微分方程：Picard定理与Peano定理（解的存在性与唯一性）",
+      "url": "https://zhuanlan.zhihu.com/p/619571644",
+      "summary": "正文围绕一阶常微分方程初值问题，证明Picard定理和Peano定理。"
+    },
+    {
+      "title": "现代控制理论期末复习笔记（必考题型归纳速成）",
+      "url": "https://zhuanlan.zhihu.com/p/620250888",
+      "summary": "正文系统讲解如何把高阶微分方程改写为状态方程，并求解齐次与非齐次状态方程。"
+    },
+    {
+      "title": "Diffusion学习笔记（四）——概率流ODE（Probability flow ODE）",
+      "url": "https://zhuanlan.zhihu.com/p/622771940",
+      "summary": "正文推导扩散过程对应的概率流常微分方程，并说明 DDIM 是其一个特例。"
+    },
+    {
+      "title": "微分方程数值求解——有限差分法",
+      "url": "https://zhuanlan.zhihu.com/p/623534485",
+      "summary": "正文从一阶常微分方程出发建立有限差分格式，并将其推广到偏微分方程数值求解。"
+    },
+    {
+      "title": "Lecture 1 系统状态方程、平衡点与稳定性",
+      "url": "https://zhuanlan.zhihu.com/p/629135263",
+      "summary": "正文把连续系统写成状态微分方程，并以单摆方程说明状态、输入和平衡点的定义。"
+    },
+    {
+      "title": "常微分方程：经典方程解法/公式整理",
+      "url": "https://zhuanlan.zhihu.com/p/632905054",
+      "summary": "正文系统整理分离变量、变量代换、一阶线性、隐式及高阶线性等常微分方程的解法，并给出通解公式。"
+    },
+    {
+      "title": "【最优控制】最优控制的数值解法",
+      "url": "https://zhuanlan.zhihu.com/p/634738565",
+      "summary": "正文对状态微分方程做欧拉、梯形和龙格库塔离散化，形成轨迹约束。"
+    },
+    {
+      "title": "二阶常系数非齐次线性微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/633483096",
+      "summary": "正文系统推导二阶常系数齐次与非齐次线性微分方程的通解和初值问题解。"
+    },
+    {
+      "title": "Logistic（逻辑斯蒂）函数浅谈",
+      "url": "https://zhuanlan.zhihu.com/p/630739668",
+      "summary": "正文从 Malthus 模型推出 Logistic 微分方程，并通过初始条件求出其解析解。"
+    },
+    {
+      "title": "从数学得到的方法论",
+      "url": "https://zhuanlan.zhihu.com/p/637769635",
+      "summary": "正文建立弹簧振子的二阶微分方程，并由方程的解推导运动规律。"
+    },
+    {
+      "title": "Diffusion学习笔记（十二）——Rectified Flow",
+      "url": "https://zhuanlan.zhihu.com/p/638118847",
+      "summary": "正文把生成过程写成常微分方程，并借助 Fokker-Planck 方程的等价性推导速度场。"
+    },
+    {
+      "title": "梯度流：探索通往最小值之路",
+      "url": "https://zhuanlan.zhihu.com/p/639138983",
+      "summary": "正文取学习率趋零的极限把梯度下降写成 ODE，并继续推导 Wasserstein 梯度流和 Fokker-Planck 方程。"
+    },
+    {
+      "title": "一个令人惊叹的数学恒等式，一个天才的发现，一个意想不到的结果",
+      "url": "https://zhuanlan.zhihu.com/p/640928533",
+      "summary": "正文把无限和转化为幂级数，建立并求解含导数的微分方程，以证明拉马努金恒等式。"
+    },
+    {
+      "title": "数学的灵魂——微分方程，彻底理解4种微分方程，洞悉自然的奥秘",
+      "url": "https://zhuanlan.zhihu.com/p/641289082",
+      "summary": "正文系统区分常微分方程和偏微分方程，并讲解阶、线性、齐次性和系数分类。"
+    },
+    {
+      "title": "最优控制中的动态规划 - 倒推法, LQR, iLQR",
+      "url": "https://zhuanlan.zhihu.com/p/641716246",
+      "summary": "正文由连续时间状态微分方程和初值条件出发，用欧拉法得到离散状态方程。"
+    },
+    {
+      "title": "三种等距螺线的统一与差异",
+      "url": "https://zhuanlan.zhihu.com/p/643937547",
+      "summary": "正文由中心距随转过角度匀速增长的变化率建立等距螺线的微分方程并求解。"
+    },
+    {
+      "title": "变分法：从原理到应用",
+      "url": "https://zhuanlan.zhihu.com/p/653627629",
+      "summary": "正文由最速降线问题导出常微分方程，并用参数代换求解摆线轨迹。"
+    },
+    {
+      "title": "乱谈数学与控制",
+      "url": "https://zhuanlan.zhihu.com/p/643732141",
+      "summary": "正文区分常微分方程和偏微分方程描述的集中、分布参数系统，并讨论系统响应与稳定性。"
+    },
+    {
+      "title": "现代控制理论——稳定性分析（Lyapunov）",
+      "url": "https://zhuanlan.zhihu.com/p/655831714",
+      "summary": "正文把二阶振动微分方程写成状态方程，并用微分方程和李雅普诺夫函数分析稳定性。"
+    },
+    {
+      "title": "物理学家用随机过程：笔记",
+      "url": "https://zhuanlan.zhihu.com/p/658736406",
+      "summary": "正文建立随机微分方程，推导 Ito 公式、线性方程解及均值与方差方程，并与确定性的常微分方程作比较。"
+    },
+    {
+      "title": "二阶微分方程的一些解法总结",
+      "url": "https://zhuanlan.zhihu.com/p/659721861",
+      "summary": "正文从常系数齐次方程设指数解得到特征方程，再按实根、重根和共轭虚根分类给出通解。"
+    },
+    {
+      "title": "[线性RNN系列]  Mamba: S4史诗级升级",
+      "url": "https://zhuanlan.zhihu.com/p/661237120",
+      "summary": "正文给出状态空间模型的连续微分方程形式，并说明用零阶保持将其离散为递推系统。"
+    },
+    {
+      "title": "贝塞尔函数推导（Bessel function）",
+      "url": "https://zhuanlan.zhihu.com/p/662781878",
+      "summary": "正文用广义幂级数方法求解贝塞尔微分方程并讨论其两类解和通解。"
+    },
+    {
+      "title": "现代控制理论-状态空间与状态方程",
+      "url": "https://zhuanlan.zhihu.com/p/663445112",
+      "summary": "正文以状态空间微分方程组为对象，讲解状态演化、方程求解和系统稳定性。"
+    },
+    {
+      "title": "自抗扰控制-ADRC",
+      "url": "https://zhuanlan.zhihu.com/p/664345718",
+      "summary": "正文把一阶被控对象写成含扰动的状态微分方程，并据此构造跟踪微分器和观测器。"
+    },
+    {
+      "title": "优化算法中的梯度流与微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/664979479",
+      "summary": "正文把梯度下降解释为常微分方程的欧拉离散，并分析梯度流的收敛性质。"
+    },
+    {
+      "title": "最优控制：基本概念、最优问题解法、LQR实例以及结合RL",
+      "url": "https://zhuanlan.zhihu.com/p/667035802",
+      "summary": "正文以状态空间微分方程描述受控系统，并讨论连续系统离散化及数值积分。"
+    },
+    {
+      "title": "高等数学知识点总结-几种典型微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/667764627",
+      "summary": "正文系统讲解可分离变量、齐次、线性、伯努利、可降阶和高阶常系数等微分方程及其求解例题。"
+    },
+    {
+      "title": "氢原子求解",
+      "url": "https://zhuanlan.zhihu.com/p/668546494",
+      "summary": "正文将偏微分方程化为径向和角向的常微分方程，并借助特殊函数求解。"
+    },
+    {
+      "title": "DiffusionModel-基于SDE的score based model原理与推导",
+      "url": "https://zhuanlan.zhihu.com/p/670791318",
+      "summary": "正文用随机微分方程统一描述扩散过程，并推导对应的反向方程。"
+    },
+    {
+      "title": "醉美公式：格林公式的应用——格林函数法",
+      "url": "https://zhuanlan.zhihu.com/p/673759727",
+      "summary": "正文围绕泊松方程及其边值条件说明微分方程如何转化为积分表达式。"
+    },
+    {
+      "title": "论Fredholm积分方程的谱",
+      "url": "https://zhuanlan.zhihu.com/p/674145372",
+      "summary": "正文从带边界条件的常微分方程出发，解释其解和特征值问题如何转化为积分方程。"
+    },
+    {
+      "title": "万字长文+详细公式推导解读扩散模型的经典论文",
+      "url": "https://zhuanlan.zhihu.com/p/674019932",
+      "summary": "正文把DDIM采样重写为常微分方程并指出其欧拉解法，据此讨论用更高阶数值方法加速采样。"
+    },
+    {
+      "title": "常微分方程习题选集",
+      "url": "https://zhuanlan.zhihu.com/p/675359800",
+      "summary": "正文用十五道例题系统求解常微分方程，并讨论有界性、存在唯一性、稳定性与周期解。"
+    },
+    {
+      "title": "自动控制原理总结",
+      "url": "https://zhuanlan.zhihu.com/p/675466143",
+      "summary": "正文用线性微分方程建立系统模型，并由状态方程和矩阵指数求解连续线性系统。"
+    },
+    {
+      "title": "控制理论——预设性能控制（Prescribed Performance Control）",
+      "url": "https://zhuanlan.zhihu.com/p/678524219",
+      "summary": "正文针对非线性多输入多输出微分方程系统设计预设性能控制器，并通过误差变换研究闭环动态。"
+    },
+    {
+      "title": "当教室突然安静——扰动，突变与回复",
+      "url": "https://zhuanlan.zhihu.com/p/679862117",
+      "summary": "正文构建含时反馈、阈值和突变的动态方程，并解释系统在扰动后的稳定与回复机制。"
+    },
+    {
+      "title": "Mamba系列日积月累（一）：状态空间模型SSM的离散化过程推导",
+      "url": "https://zhuanlan.zhihu.com/p/680534665",
+      "summary": "正文连续时间状态空间模型的核心是由状态、输入及其导数构成的微分方程，并据此研究动态系统。"
+    },
+    {
+      "title": "概率的艺术：Diffusion Model理论推导",
+      "url": "https://zhuanlan.zhihu.com/p/680813516",
+      "summary": "正文把离散扩散过程推广到 Ito 随机微分方程，并推导反向随机微分方程。"
+    },
+    {
+      "title": "LLM(25)：从控制系统到语言模型 —— Mamba 的前世今生",
+      "url": "https://zhuanlan.zhihu.com/p/680833040",
+      "summary": "正文从连续状态微分方程出发，通过极限、Tustin 和零阶保持三种方式离散化。"
+    },
+    {
+      "title": "从常微分方程角度算积分∫e^{αx}sinβx dx的一个有趣方法",
+      "url": "https://zhuanlan.zhihu.com/p/682469709",
+      "summary": "正文把待积函数看作常系数齐次线性微分方程的解，并借特征方程求积分。"
+    },
+    {
+      "title": "有限元分析为什么需要代数拓扑？",
+      "url": "https://zhuanlan.zhihu.com/p/683009268",
+      "summary": "正文写出 Stokes 偏微分方程及其弱形式，并围绕其有限元离散和求解条件展开。"
+    },
+    {
+      "title": "文生图之SD3：迈向transformer时代",
+      "url": "https://zhuanlan.zhihu.com/p/686273242",
+      "summary": "正文用常微分方程描述 Flow Matching 的向量场，并说明通过 ODE 求解器生成样本。"
+    },
+    {
+      "title": "变分法原理及应用1：入门，欧拉-拉格朗日方程（最终版）",
+      "url": "https://zhuanlan.zhihu.com/p/687390783",
+      "summary": "正文由最速降线和悬链线问题导出二阶微分方程，并解出摆线与双曲函数。"
+    },
+    {
+      "title": "中学生都能读懂的李群和李代数Ⅱ（适合物理宝宝体质）",
+      "url": "https://zhuanlan.zhihu.com/p/686249091",
+      "summary": "正文通过线性常微分方程及其初值问题推导旋转轨迹和指数映射。"
+    },
+    {
+      "title": "[证明/注解/延伸] Lyapunov稳定性定理，渐近稳定，吸引域的估计",
+      "url": "https://zhuanlan.zhihu.com/p/687819056",
+      "summary": "正文以常微分方程系统为对象定义平衡点、稳定性和吸引域。"
+    },
+    {
+      "title": "泊松积分的计算",
+      "url": "https://zhuanlan.zhihu.com/p/679535718",
+      "summary": "正文对积分参数求导后建立一阶微分方程，并求其解得到一般泊松积分公式。"
+    },
+    {
+      "title": "深入解析Flow Matching技术",
+      "url": "https://zhuanlan.zhihu.com/p/685921518",
+      "summary": "正文把连续归一化流写成常微分方程，并解释向量场与轨迹求解。"
+    },
+    {
+      "title": "MATLAB如何进行公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/689630325",
+      "summary": "正文演示了常微分方程通解和带初值条件特解的求法。"
+    },
+    {
+      "title": "Diffusion学习笔记（十六）——扩散桥，更高级的条件控制",
+      "url": "https://zhuanlan.zhihu.com/p/672779929",
+      "summary": "正文推导扩散桥的随机微分方程、逆向SDE和概率流ODE。"
+    },
+    {
+      "title": "使用Mathematica学习量子力学(1/3): 理论推导",
+      "url": "https://zhuanlan.zhihu.com/p/689561457",
+      "summary": "正文根据有限深方势阱的分区势能建立定态微分方程，并结合边界连续性求束缚态解。"
+    },
+    {
+      "title": "Score-based SDE 扩散生成模型从入门到出师系列(一)：用随机微分方程建模图像生成任务并统一分数和扩散模型",
+      "url": "https://zhuanlan.zhihu.com/p/689276382",
+      "summary": "正文用伊藤随机微分方程统一扩散与逆向采样过程，实质讲解微分方程建模、训练目标和求解方法。"
+    },
+    {
+      "title": "数物方程方法概述",
+      "url": "https://zhuanlan.zhihu.com/p/692464498",
+      "summary": "正文系统介绍二阶微分方程标准化、分离变量、行波法和格林函数等求解方法。"
+    },
+    {
+      "title": "微分方程——巅峰之作！一道题包含微分方程所有知识。欧拉！将指数函数运用到极致的男人，及求解二阶齐次线性微分方程通解的另一种解法",
+      "url": "https://zhuanlan.zhihu.com/p/693268285",
+      "summary": "正文通过二阶非齐次变系数方程讲解齐次通解、特解、线性无关解和欧拉换元等微分方程方法。"
+    },
+    {
+      "title": "Diffusion学习笔记（十七）——最优传输与Wasserstein距离",
+      "url": "https://zhuanlan.zhihu.com/p/693277831",
+      "summary": "正文把 Wasserstein 上界整理为非齐次一阶线性微分方程，并用常数变易法完成证明。"
+    },
+    {
+      "title": "80岁的公园大爷问我 DPMsolver 是什么然后我给他写了这个他说哦我看懂了",
+      "url": "https://zhuanlan.zhihu.com/p/695718570",
+      "summary": "正文把扩散过程写成随机微分方程，并推导对应的逆向 SDE、概率流 ODE 与解析增量公式。"
+    },
+    {
+      "title": "[ICML 2024] Unifying Bayesian Flow Networks and Diffusion Models",
+      "url": "https://zhuanlan.zhihu.com/p/697344073",
+      "summary": "正文用线性随机微分方程及其反向方程统一贝叶斯流网络和扩散模型，并推导概率流常微分方程。"
+    },
+    {
+      "title": "常用特殊函数总结 及其部分性质",
+      "url": "https://zhuanlan.zhihu.com/p/698350651",
+      "summary": "正文按微分方程定义并列举超几何、贝塞尔、修正贝塞尔、艾里、拉梅和马丢等特殊函数及其通解。"
+    },
+    {
+      "title": "Diffusion Model与SDE、ODE之间的联系",
+      "url": "https://zhuanlan.zhihu.com/p/698737562",
+      "summary": "正文从常微分方程的定义、初值条件讲到欧拉数值解，并进一步推导扩散模型对应的概率流 ODE。"
+    },
+    {
+      "title": "数学物理方法：格林函数求解偏微分方程 Mathematical Physics:Green's Theorem and Green's Function",
+      "url": "https://zhuanlan.zhihu.com/p/701660525",
+      "summary": "正文以伴随算符、格林公式和边界条件构造微分方程解的积分表达式。"
+    },
+    {
+      "title": "一种AL-iLQR的框架实现和应用",
+      "url": "https://zhuanlan.zhihu.com/p/703259867",
+      "summary": "正文从车辆动力学的微分状态方程出发，讨论离散化、泰勒线性化和前向积分。"
+    },
+    {
+      "title": "相对论 (1) —— 变分原理基础",
+      "url": "https://zhuanlan.zhihu.com/p/704575236",
+      "summary": "正文由作用量变分推导测地线方程，并把行星轨道化为二阶微分方程，实质讲解微分方程建模。"
+    },
+    {
+      "title": "考研数学【中值定理证明】最常考的题型，如何【构造辅助函数？】超详细、超通俗讲解",
+      "url": "https://zhuanlan.zhihu.com/p/705601437",
+      "summary": "正文通过解一阶可分离变量微分方程确定还原法所需的辅助因子，并完整演示了求解过程。"
+    },
+    {
+      "title": "Bourgain的魔法：2024年丘赛题与双线性Strichartz估计",
+      "url": "https://zhuanlan.zhihu.com/p/705939921",
+      "summary": "正文将丘赛题等价改写为一维齐次 Schrödinger 方程 Cauchy 问题，并围绕其解展开估计。"
+    },
+    {
+      "title": "Consistency Model和Latent Consistency Model解读",
+      "url": "https://zhuanlan.zhihu.com/p/706862530",
+      "summary": "正文以概率流常微分方程及其数值求解刻画扩散模型的逆向去噪与一致性推导。"
+    },
+    {
+      "title": "视采样为优化问题 - 以Langevin Diffusion为例",
+      "url": "https://zhuanlan.zhihu.com/p/707732711",
+      "summary": "正文写出 Langevin 过程对应的 Fokker-Planck 方程，并据此分析概率分布的平衡态。"
+    },
+    {
+      "title": "讨论LQR的三种解法以及各自的复杂度计算",
+      "url": "https://zhuanlan.zhihu.com/p/708673581",
+      "summary": "正文从双积分器状态微分方程出发讨论最优控制问题，并对连续系统进行离散化。"
+    },
+    {
+      "title": "大学生数学竞赛官方的一个超级难数学分析题.",
+      "url": "https://zhuanlan.zhihu.com/p/713155563",
+      "summary": "正文最终建立二阶线性微分方程并求出通解，再代回原函数方程确定参数。"
+    },
+    {
+      "title": "变分法的第一课",
+      "url": "https://zhuanlan.zhihu.com/p/713250956",
+      "summary": "正文把欧拉-拉格朗日条件整理为二阶常微分方程，并用它求解最短路径和最速降线。"
+    },
+    {
+      "title": "任意引力场下的匀质弹簧的自重伸长",
+      "url": "https://zhuanlan.zhihu.com/p/713316165",
+      "summary": "正文从弹簧微元受力建立二阶微分方程，结合边界条件分别求出常力场与离心力场下的伸长解。"
+    },
+    {
+      "title": "使用Mathematica学习量子力学(3/3): 主方程",
+      "url": "https://zhuanlan.zhihu.com/p/690876150",
+      "summary": "正文围绕Lindblad主方程讲解开放量子系统的演化、稳态和数值求解。"
+    },
+    {
+      "title": "最优控制与强化学习：定义，概念解析和技术学习路线",
+      "url": "https://zhuanlan.zhihu.com/p/717519816",
+      "summary": "正文说明连续时间系统由常微分方程描述，并进一步讨论随机微分方程及其离散化。"
+    },
+    {
+      "title": "从最优传输视角剖析Flow Matching：解密Flux/SD3背后的原理",
+      "url": "https://zhuanlan.zhihu.com/p/716824087",
+      "summary": "正文用连续性方程和常微分方程描述概率测度与样本随时间演化的流。"
+    },
+    {
+      "title": "十分钟理解Sampler：从DDPM到Rectified Flow",
+      "url": "https://zhuanlan.zhihu.com/p/720151915",
+      "summary": "正文用常微分方程定义从初始噪声分布到数据分布的连续映射，并比较 DDPM 与流模型的轨迹。"
+    },
+    {
+      "title": "FLUX.1 原理与源码解析",
+      "url": "https://zhuanlan.zhihu.com/p/741939590",
+      "summary": "正文用 ODE 定义连续流、用 SDE 描述扩散与反向过程，并以 ODE 求解器完成生成采样。"
+    },
+    {
+      "title": "【高数】伽马函数详解",
+      "url": "https://zhuanlan.zhihu.com/p/765113913",
+      "summary": "正文构造辅助函数建立并求解微分方程，再由系数得到伽马函数的递推式。"
+    },
+    {
+      "title": "四阶龙格库塔法（Runge-Kutta）的直观解释",
+      "url": "https://zhuanlan.zhihu.com/p/795048670",
+      "summary": "正文以初值问题为对象，解释用逐点斜率预测微分方程数值解的过程。"
+    },
+    {
+      "title": "扩散模型，直线真的重要吗？！提出Rectified Diffusion, 重新思考Rectified Flow",
+      "url": "https://zhuanlan.zhihu.com/p/880760492",
+      "summary": "正文把扩散采样写成ODE轨迹，并讨论其一阶化、精确ODE解和路径耦合对轨迹的影响。"
+    },
+    {
+      "title": "扩散模型去伪求真，Straightness Is Not Your Need？！",
+      "url": "https://zhuanlan.zhihu.com/p/884824542",
+      "summary": "正文把扩散采样写成ODE轨迹，并讨论其一阶化、精确ODE解和路径耦合对轨迹的影响。"
+    },
+    {
+      "title": "扩散模型去伪求真，直线真的重要吗？！Rectified Diffusion，重新思考Rectified Flow",
+      "url": "https://zhuanlan.zhihu.com/p/889632332",
+      "summary": "正文把扩散采样写成ODE轨迹，并讨论其一阶化、精确ODE解和路径耦合对轨迹的影响。"
+    },
+    {
+      "title": "乱谈数学与控制（续）正本清源",
+      "url": "https://zhuanlan.zhihu.com/p/698176373",
+      "summary": "正文解释把高阶微分方程化为状态空间中的一阶 ODE 组，并说明向量场语言对定性分析的作用。"
+    },
+    {
+      "title": "底层码农视角下的最优传输（1）",
+      "url": "https://zhuanlan.zhihu.com/p/3137537490",
+      "summary": "正文推导不可压缩流体的连续性方程和欧拉方程，并用连续方程解释质量输运。"
+    },
+    {
+      "title": "理论力学——流形上的拉格朗日力学",
+      "url": "https://zhuanlan.zhihu.com/p/3664297922",
+      "summary": "正文由流形上作用量的极值条件推导拉格朗日方程组，并讨论非自治系统。"
+    },
+    {
+      "title": "通俗易懂的Flow Matching原理解读（附核心公式推导和源代码）",
+      "url": "https://zhuanlan.zhihu.com/p/4116861550",
+      "summary": "正文用随时间的速度场和常微分方程定义概率流，并通过数值积分实现分布变换。"
+    },
+    {
+      "title": "数学的艺术 —— 从递推序列到微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/7100724724",
+      "summary": "正文将递推差分方程连续化为一阶微分方程，并求解其渐近解。"
+    },
+    {
+      "title": "[Diffusion 2] 整流流 Rectified Flow 理论简介",
+      "url": "https://zhuanlan.zhihu.com/p/9361591521",
+      "summary": "正文以常微分方程定义流模型，并用 Euler 离散化近似其轨迹。"
+    },
+    {
+      "title": "变分法求解液滴形状-1",
+      "url": "https://zhuanlan.zhihu.com/p/10347604734",
+      "summary": "正文从Euler-Lagrange方程推导二阶非线性方程并利用不显含自变量求首次积分。"
+    },
+    {
+      "title": "基于flow的生成模型的前世今生",
+      "url": "https://zhuanlan.zhihu.com/p/10764455963",
+      "summary": "正文把离散归一化流推广为连续时间常微分方程，并推导逆ODE、连续性方程和瞬时变量替换公式。"
+    },
+    {
+      "title": "【论文解读】流匹配（Flow Matching）：生成模型的新范式",
+      "url": "https://zhuanlan.zhihu.com/p/11194467268",
+      "summary": "正文以时间相关矢量场定义的常微分方程刻画连续归一化流及概率密度演化。"
+    },
+    {
+      "title": "一文贯通Diffusion原理：DDPM、DDIM和Flow Matching",
+      "url": "https://zhuanlan.zhihu.com/p/12591930520",
+      "summary": "正文以速度场和常微分方程定义flow，并用ODE轨迹解释DDIM及Flow Matching。"
+    },
+    {
+      "title": "拉普拉斯变换（Laplace Transform）",
+      "url": "https://zhuanlan.zhihu.com/p/14068366505",
+      "summary": "文中使用拉普拉斯变换求解线性微分方程，并区分零输入响应和零状态响应。"
+    },
+    {
+      "title": "生成扩散模型漫谈（二十七）：将步长作为条件输入",
+      "url": "https://zhuanlan.zhihu.com/p/14614652709",
+      "summary": "文中从直线插值轨迹推导常微分方程，并以该 ODE 描述扩散模型从噪声到样本的变换。"
+    },
+    {
+      "title": "解最简单的方程——艾里(Airy)函数的构造",
+      "url": "https://zhuanlan.zhihu.com/p/15360914353",
+      "summary": "正文把二阶常微分方程变换为一阶方程，再逆变换构造 Airy 函数解，实质讲解了微分方程的求解。"
+    },
+    {
+      "title": "完整总结！用母函数方法破解线性递推数列难题",
+      "url": "https://zhuanlan.zhihu.com/p/16731477484",
+      "summary": "正文把递推关系转化为母函数满足的微分方程，再解方程取得系数信息。"
+    },
+    {
+      "title": "数学三大核心领域：代数、几何、分析及其主要分支学科相关历史发展（数学人必藏）",
+      "url": "https://zhuanlan.zhihu.com/p/17219637421",
+      "summary": "正文给出常微分方程和偏微分方程的定义，并梳理方程分类、解法和定性理论的发展。"
+    },
+    {
+      "title": "山东大学 (泰山学堂,潘承洞班) 数学分析(1) 2024-2025年期中考试",
+      "url": "https://zhuanlan.zhihu.com/p/16950070337",
+      "summary": "正文通过导数恒等式和局部存在性分析讨论非线性一阶微分方程解的爆破现象。"
+    },
+    {
+      "title": "S型增长及一元弱酸碱分布系数也和双曲正切函数有关？2025八省联考数学试题的视野拓展",
+      "url": "https://zhuanlan.zhihu.com/p/17911423011",
+      "summary": "正文建立逻辑斯谛微分方程，分离变量并求解，解释了资源受限种群增长的 S 型曲线。"
+    },
+    {
+      "title": "Conditional Flow Matching (1): 常微分方程ODE、欧拉方法和Neural ODE",
+      "url": "https://zhuanlan.zhihu.com/p/19524967216",
+      "summary": "正文从一阶常微分方程、初值问题的积分解到 Euler 数值迭代，实质介绍 ODE 的求解。"
+    },
+    {
+      "title": "调试学生",
+      "url": "https://zhuanlan.zhihu.com/p/21483727091",
+      "summary": "正文以二阶导数、一阶导数和函数所构成的知识依赖说明微分方程的含义。"
+    },
+    {
+      "title": "高显的魔法书——（一）变分法",
+      "url": "https://zhuanlan.zhihu.com/p/24664799401",
+      "summary": "正文系统推导欧拉-拉格朗日微分方程，并讨论哪些微分方程能写成该形式。"
+    },
+    {
+      "title": "微分方程?我将以算子形态出击",
+      "url": "https://zhuanlan.zhihu.com/p/30442780216",
+      "summary": "正文以微分算子法系统求解多类非齐次线性微分方程，并给出理论推导和十个特解例题。"
+    },
+    {
+      "title": "Conditional Flow Matching (3): 条件流匹配CFM和基于最优传输Optimal Transport的OT-CFM",
+      "url": "https://zhuanlan.zhihu.com/p/31678282905",
+      "summary": "正文围绕transport equation及常微分方程流场展开连续标准流的求解。"
+    },
+    {
+      "title": "复杂系统的分岔理论（Bifurcation Theory）",
+      "url": "https://zhuanlan.zhihu.com/p/31412391297",
+      "summary": "正文以含参常微分方程族为对象，分析参数变化如何改变平衡点和周期解。"
+    },
+    {
+      "title": "哈密顿力学：相空间的几何学",
+      "url": "https://zhuanlan.zhihu.com/p/1888557744551884327",
+      "summary": "正文由勒让德变换推导哈密顿正则方程，把它作为描述相空间运动轨迹的微分方程组。"
+    },
+    {
+      "title": "几何控制理论",
+      "url": "https://zhuanlan.zhihu.com/p/1892483929988114312",
+      "summary": "正文以仿射控制系统的状态微分方程为核心，讨论轨迹、可及性及哈密顿动力学。"
+    },
+    {
+      "title": "论变分法的数学原理",
+      "url": "https://zhuanlan.zhihu.com/p/4075759976",
+      "summary": "正文推导欧拉-拉格朗日方程，并通过求解该微分方程得到速降曲线的摆线参数方程。"
+    },
+    {
+      "title": "强化学习最优性条件的哈密顿动力学解释",
+      "url": "https://zhuanlan.zhihu.com/p/1896180231359931356",
+      "summary": "正文解释 HJB 偏微分方程以及状态、协态满足的哈密顿正则微分方程。"
+    },
+    {
+      "title": "通过梯度近似寻找Normalization的替代品",
+      "url": "https://zhuanlan.zhihu.com/p/1898130339102167956",
+      "summary": "正文把梯度近似转化为可分离微分方程，分别求解得到 tanh 型和 ISRU 型函数。"
+    },
+    {
+      "title": "使用Mathematica演示量子力学",
+      "url": "https://zhuanlan.zhihu.com/p/1899834824035921926",
+      "summary": "正文给出并求解定态及含时薛定谔方程，展示不同势场中的解。"
+    },
+    {
+      "title": "Flow Matching vs Diffusion",
+      "url": "https://zhuanlan.zhihu.com/p/1899990566399358270",
+      "summary": "正文以随机微分方程描述扩散，并用连续流的速度场常微分方程定义流匹配采样。"
+    },
+    {
+      "title": "(已完结)2025丘成桐大学生数学竞赛分析组教学式答案+超完整细节.",
+      "url": "https://zhuanlan.zhihu.com/p/1908138349262270859",
+      "summary": "正文通过变量代换与特征方程完整求出了带初值的三阶线性微分方程。"
+    },
+    {
+      "title": "IMU预积分 (解闷版)",
+      "url": "https://zhuanlan.zhihu.com/p/1911921324726649326",
+      "summary": "正文从连续时间运动学方程出发离散积分旋转、速度和位置，并推导递推关系。"
+    },
+    {
+      "title": "解析某大学爆难微积分期末试题",
+      "url": "https://zhuanlan.zhihu.com/p/1916554475704934811",
+      "summary": "正文用特征方程处理常系数齐次方程，并说明非齐次特解、降阶变换和一阶线性方程的求法。"
+    },
+    {
+      "title": "物理竞赛解题技巧杂谈——微扰摄动法",
+      "url": "https://zhuanlan.zhihu.com/p/1915462735212311760",
+      "summary": "正文用逐阶展开和消除共振项求解受微扰微分方程，并据此修正大角度单摆的运动周期。"
+    },
+    {
+      "title": "算子的幂级数展开法求解变系数微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/1921124903458955470",
+      "summary": "正文用求导与积分算子的幂级数展开求解变系数一、二阶微分方程，并讨论齐次解与特解。"
+    },
+    {
+      "title": "物竞随意谈|天体运动和散射：人是要纵横宇宙的！",
+      "url": "https://zhuanlan.zhihu.com/p/1924428357208113288",
+      "summary": "正文推导并求解比耐方程，用它确定有心力场中的轨道，属于微分方程建模与求解。"
+    },
+    {
+      "title": "算子法解变系数微分方程从矩阵角度的理解——微分算子平移公式",
+      "url": "https://zhuanlan.zhihu.com/p/1934902289627329372",
+      "summary": "正文围绕一阶变系数微分方程引入算子平移公式，并用它求通解及证明刘维尔公式。"
+    },
+    {
+      "title": "悬链线荟萃",
+      "url": "https://zhuanlan.zhihu.com/p/1935821677473805281",
+      "summary": "正文建立刚性、弹性及引力场中悬链线的受力方程，并求解相应的常微分方程。"
+    },
+    {
+      "title": "《辛拓扑导论》 1.1 Hamilton 力学",
+      "url": "https://zhuanlan.zhihu.com/p/1937949334206419743",
+      "summary": "正文从 Euler-Lagrange 方程推导 Hamilton 方程，并定义其解流。"
+    },
+    {
+      "title": "论文阅读: Convex Analysis of the Mean Field Langevin Dynamics",
+      "url": "https://zhuanlan.zhihu.com/p/1943972839322531599",
+      "summary": "正文从噪声梯度下降导出随机微分方程，并通过 Fokker–Planck 方程分析分布的演化。"
+    },
+    {
+      "title": "什么是泛函",
+      "url": "https://zhuanlan.zhihu.com/p/1944492482160231905",
+      "summary": "正文写出欧拉-拉格朗日微分方程并据此化简、求解摆线参数方程。"
+    },
+    {
+      "title": "数学专题：六千字让你会解常微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/1940538454355215714",
+      "summary": "正文系统讲解可分离变量方程、一阶线性方程、二阶与高阶常系数线性方程及微分方程组的通解求法。"
+    },
+    {
+      "title": "从零开始理解球谐函数: 数学理论到编程实践",
+      "url": "https://zhuanlan.zhihu.com/p/1946520403292955133",
+      "summary": "正文分离拉普拉斯方程后分别求解角向与径向常微分方程，并通过特征方程得到通解。"
+    },
+    {
+      "title": "2025秋季求真书院分析博资考个人解答",
+      "url": "https://zhuanlan.zhihu.com/p/1949760538574828439",
+      "summary": "正文求解带周期边界条件的二阶线性常微分方程并讨论共振情形。"
+    },
+    {
+      "title": "抽象函数万能法——微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/1948799052339708957",
+      "summary": "正文从积分因子讲到一阶线性微分方程通解，并给出把抽象函数不等式转化为微分方程的例题。"
+    },
+    {
+      "title": "Gronwall 不等式及其 Bootstrap 证明",
+      "url": "https://zhuanlan.zhihu.com/p/1962634220917751956",
+      "summary": "正文把积分不等式化为带初始条件的一阶线性微分方程，并用积分因子求得显式上界函数。"
+    },
+    {
+      "title": "利用Sturm-Liouville问题构造满足导数跃变条件的正交函数族——分离变量法",
+      "url": "https://zhuanlan.zhihu.com/p/1975563883155588145",
+      "summary": "正文介绍 Sturm-Liouville 二阶线性微分方程、边界条件和权重正交性，并用它构造分段杆振动问题的特征函数。"
+    },
+    {
+      "title": "dx/ dy​到底是不是分数？为什么老师教你的「分离变量法」其实是个谎言？",
+      "url": "https://zhuanlan.zhihu.com/p/1976609136851575790",
+      "summary": "正文以常微分方程 dy/dx=y/x 为例，比较形式分离变量与严格求解步骤，并得到 y=kx。"
+    },
+    {
+      "title": "从泛函分析到哈密顿方程",
+      "url": "https://zhuanlan.zhihu.com/p/1982794356860674068",
+      "summary": "正文由作用量驻值条件推导欧拉-拉格朗日方程及哈密顿正则方程，属于微分方程建模。"
+    },
+    {
+      "title": "规范场论：中国科学技术大学QFT(II)-考试题 SU(2)Yang-Mills理论的Wu-Yang磁单极子解",
+      "url": "https://zhuanlan.zhihu.com/p/1995961373381919190",
+      "summary": "正文由场作用量变分导出吴-杨方程，并分析其标度不变性、渐近解与边界磁通量。"
+    },
+    {
+      "title": "微分域简介",
+      "url": "https://zhuanlan.zhihu.com/p/1997544570687350222",
+      "summary": "正文研究一阶线性微分方程组、Picard-Vessiot 扩张和 Liouvillian 可解性。"
+    },
+    {
+      "title": "二维世界真的存在元素周期表吗",
+      "url": "https://zhuanlan.zhihu.com/p/2004224014701311652",
+      "summary": "正文对二维库仑势下的径向方程作代换和边界分析，求其本征值性质。"
+    },
+    {
+      "title": "数学里说的“齐次”和“非齐次”到底是啥？",
+      "url": "https://zhuanlan.zhihu.com/p/2005685167713432787",
+      "summary": "正文用一阶和二阶线性常微分方程解释齐次、非齐次以及特解加齐次通解的分解。"
+    },
+    {
+      "title": "卷积最早是怎么出现的？",
+      "url": "https://zhuanlan.zhihu.com/p/2036609800721670244",
+      "summary": "正文完整推导一维波动方程的通解并代入初值条件得到达朗贝尔公式。"
+    },
+    {
+      "title": "2026 年 “印度高考”（JEE Advanced）部分试题解析",
+      "url": "https://zhuanlan.zhihu.com/p/2041688931981341604",
+      "summary": "正文用分离变量法、换元法和积分因子法求解两道一阶微分方程并结合初值得到解。"
+    }
+  ]
+}

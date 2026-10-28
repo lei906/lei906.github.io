@@ -1,0 +1,341 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l7-t1-b4",
+  "sources": [
+    {
+      "title": "动力系统和数论之间有什么超常的关系？",
+      "url": "https://www.zhihu.com/answer/84126532",
+      "summary": "正文把动力系统猜想的特例与素数定理联系起来。"
+    },
+    {
+      "title": "数学史上有哪些看似成立的算式形式猜想，最终被某个大数证明不成立？",
+      "url": "https://www.zhihu.com/answer/112720796",
+      "summary": "正文讨论素数定理之后Li(x)与素数计数函数符号变化的深层结果和上界改进。"
+    },
+    {
+      "title": "数学史上有哪些比较著名的猜想因为有反例的存在而没有成为定理？",
+      "url": "https://www.zhihu.com/answer/172849726",
+      "summary": "正文介绍素数计数函数与对数积分函数差值变号这一素数分布的深入问题。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/179074066",
+      "summary": "正文从素数定理出发，以加权概率分布改进素数间隔估计，属于素数定理之后的研究方法。"
+    },
+    {
+      "title": "哪些看似与图论无关的问题可用图论模型解决？",
+      "url": "https://www.zhihu.com/answer/180496658",
+      "summary": "正文讨论 Green–Tao 定理、素数稀疏性以及相对 Szemerédi 定理，属于素数定理之后的研究。"
+    },
+    {
+      "title": "数论中有哪些形式简单却难以证明的问题或猜想？",
+      "url": "https://www.zhihu.com/answer/215836086",
+      "summary": "正文从素数定理之后的密度、间隔和等差数列问题展开。"
+    },
+    {
+      "title": "数学史里有什么数学家的故事让人回味无穷？",
+      "url": "https://www.zhihu.com/answer/267526952",
+      "summary": "正文系统叙述素数定理的渐近公式、解析证明与初等证明发展。"
+    },
+    {
+      "title": "数学界如何评价陈景润？",
+      "url": "https://www.zhihu.com/answer/315952604",
+      "summary": "正文讨论相邻素数间隔与对数尺度的现代结果。"
+    },
+    {
+      "title": "如果有一天上帝给了数学家素数的通项公式，这会对数学界有什么影响？",
+      "url": "https://www.zhihu.com/answer/342465609",
+      "summary": "正文用第n个素数约为nln(n)说明素数定理的渐近背景。"
+    },
+    {
+      "title": "如何看待黎曼猜想疑似被Michael Atiyah证明？",
+      "url": "https://www.zhihu.com/answer/495513637",
+      "summary": "正文讲述黎曼ζ函数研究推进素数定理的历史。"
+    },
+    {
+      "title": "如何看待菲尔兹和阿贝尔奖双料得主 Michael Atiyah 宣称自己证明了黎曼猜想？",
+      "url": "https://www.zhihu.com/answer/495633570",
+      "summary": "正文说明零点研究与素数定理的关系。"
+    },
+    {
+      "title": "除了黎曼猜想，数学界还有哪些至今尚未得到证实的猜想？",
+      "url": "https://www.zhihu.com/answer/498542169",
+      "summary": "正文说明Green-Tao关于素数等差数列的进展。"
+    },
+    {
+      "title": "有没有哪些数学猜想是验证到很大的数以后才发现是错的？",
+      "url": "https://www.zhihu.com/answer/521730251",
+      "summary": "正文以素数定理的渐近估计与 Skewes 数讨论素数分布研究。"
+    },
+    {
+      "title": "数学史上有哪些比较著名的猜想因为有反例的存在而没有成为定理？",
+      "url": "https://www.zhihu.com/answer/532399491",
+      "summary": "正文介绍素数定理之后关于计数误差符号与反例区间的结果。"
+    },
+    {
+      "title": "两相邻素数的最大间距能够多大？",
+      "url": "https://www.zhihu.com/answer/623965043",
+      "summary": "介绍素数最大间隔的已知下界、猜想及伪随机方法。"
+    },
+    {
+      "title": "黎曼猜想（Riemann hypothesis）是什么？有什么用？",
+      "url": "https://www.zhihu.com/answer/638869523",
+      "summary": "从素数定理到显式公式说明猜想对素数计数误差的改进。"
+    },
+    {
+      "title": "5,11,17,23…数列中质数个数为何似乎总比7,13,19,25…数列中的多？",
+      "url": "https://www.zhihu.com/answer/645444360",
+      "summary": "用算术级数中的素数定理与广义黎曼猜想描述素数赛跑。"
+    },
+    {
+      "title": "最难的数学有多难？",
+      "url": "https://www.zhihu.com/answer/719641887",
+      "summary": "说明ζ函数无零区域与质数定理及误差项的联系。"
+    },
+    {
+      "title": "可以找到两个质数，他们的比值最接近 π 吗？",
+      "url": "https://www.zhihu.com/answer/805456456",
+      "summary": "正文写出素数定理的渐近公式，并完整推导任意正实数可由素数比任意逼近的后续结论。"
+    },
+    {
+      "title": "质数分布有没有规律？",
+      "url": "https://www.zhihu.com/answer/1681067790",
+      "summary": "正文解释素数定理与第n个素数的渐近分布。"
+    },
+    {
+      "title": "以黎曼猜想成立为前提的数学命题有哪些？",
+      "url": "https://www.zhihu.com/answer/1692590159",
+      "summary": "正文单列该条并说明在黎曼假设下可进一步得到素数分布区间的结果，对应素数定理之后的延伸。"
+    },
+    {
+      "title": "高斯到底有多厉害？",
+      "url": "https://www.zhihu.com/answer/1758797698",
+      "summary": "正文介绍高斯发现素数分布与素数定理。"
+    },
+    {
+      "title": "为什么前N个自然数的最小公倍数约等于e^N?",
+      "url": "https://www.zhihu.com/answer/1805442119",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "10的100次方内的素数的中位数在什么范围内，你可以估算到多高的精度?",
+      "url": "https://www.zhihu.com/answer/1830214130",
+      "summary": "正文在素数定理之后进一步用黎曼猜想给出误差估计。"
+    },
+    {
+      "title": "高斯素数有类似于素数定理的分布律吗？",
+      "url": "https://www.zhihu.com/answer/1881003925",
+      "summary": "正文把高斯素数分布与经典素数定理进行类比。"
+    },
+    {
+      "title": "深夜刷数学题是一种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/1899919821",
+      "summary": "正文讲述作者尝试证明素数定理的经历。"
+    },
+    {
+      "title": "数论中有哪些形式简单却难以证明的问题或猜想？",
+      "url": "https://www.zhihu.com/answer/1911793884",
+      "summary": "正文讨论大素数判定和素数分布相关困难。"
+    },
+    {
+      "title": "在学生时期独立地探索出自己的数学发现，是什么体验？",
+      "url": "https://www.zhihu.com/answer/1969177810",
+      "summary": "正文给出素数定理的历史形式和新证明方法。"
+    },
+    {
+      "title": "本人高中生疑似发现质数个数分布规律，下一步应该怎么做?",
+      "url": "https://www.zhihu.com/answer/2002897240",
+      "summary": "正文以素数定理作为评价渐进估计的基准。"
+    },
+    {
+      "title": "如果答案是1，那么问题可以有多难?",
+      "url": "https://www.zhihu.com/answer/2031631408",
+      "summary": "正文引用关于素数间隔的已知界并由此提出改进猜想。"
+    },
+    {
+      "title": "你最喜欢的数学定理是什么？",
+      "url": "https://www.zhihu.com/answer/2090924273",
+      "summary": "正文说明素数定理的结论、证明历史与应用。"
+    },
+    {
+      "title": "有哪些虽然正确但却没啥用的公式？",
+      "url": "https://www.zhihu.com/answer/2147208776",
+      "summary": "正文介绍能生成全部素数的二十六元多项式及其计算困难。"
+    },
+    {
+      "title": "如何评价数海钓鱼将钓鱼题广泛传播的行为?",
+      "url": "https://www.zhihu.com/answer/2260591243",
+      "summary": "正文把题目的第一问识别为素数定理。"
+    },
+    {
+      "title": "两相邻素数的最大间距能够多大？",
+      "url": "https://www.zhihu.com/answer/2667206998",
+      "summary": "正文在素数定理之后进一步讨论相邻素数间距下界及目前最好的结果，属于素数定理之后的进展。"
+    },
+    {
+      "title": "什么是「黎曼猜想」？",
+      "url": "https://www.zhihu.com/answer/2700847706",
+      "summary": "正文具体解释素数计数函数、素数定理的渐近表述及其与对数积分的关系。"
+    },
+    {
+      "title": "哪个瞬间让你觉得数学充满魅力？",
+      "url": "https://www.zhihu.com/answer/2706261237",
+      "summary": "正文在素数定理之后继续讨论 Li(x) 近似、误差符号变化、Skewes 数及 π(x) 的上下界。"
+    },
+    {
+      "title": "葛立恒数减去G63所得到的数设为a，则a与葛立恒数之间存在质数吗？",
+      "url": "https://www.zhihu.com/answer/2830873855",
+      "summary": "正文以素数定理估计巨大整数区间内素数出现概率，并讨论该启发式结论不能构成严格证明。"
+    },
+    {
+      "title": "可以介绍一下算术组合/加性组合的发展历程以及北美优势学校/教授吗？",
+      "url": "https://www.zhihu.com/answer/2997711281",
+      "summary": "正文用素数密度描述素数分布，并进一步介绍素数中存在任意长等差数列的 Green-Tao 定理。"
+    },
+    {
+      "title": "数学中，有哪些常数被发现时被认为是无理数，结果最后被证实是个有理数，只不过它的分母极大？",
+      "url": "https://www.zhihu.com/answer/128107131955",
+      "summary": "正文由素数密度与素数计数近似引入勒让德常数，并说明切比雪夫、阿达马和普桑对素数定理的推进。"
+    },
+    {
+      "title": "黎曼猜想为什么难以解决？",
+      "url": "https://www.zhihu.com/answer/1930405760799576266",
+      "summary": "正文梳理素数定理从切比雪夫上下界、黎曼显式公式到零点无零区与误差项优化的后续发展。"
+    },
+    {
+      "title": "目前数学各方向最前沿都在研究什么问题？",
+      "url": "https://www.zhihu.com/answer/1936568947051836563",
+      "summary": "正文从素数定理给出的平均间距出发，讨论最大素数间隙及相关猜想的后续进展。"
+    },
+    {
+      "title": "请问中国剩余定理（孙子定理）有什么用途，又有什么直观的意义吗？",
+      "url": "https://www.zhihu.com/answer/1938355934440190922",
+      "summary": "正文讨论素数定理之后由独立随机模型引出的素数间距预测及其系统性偏差。"
+    },
+    {
+      "title": "有哪些时刻，让你觉得数学很美？",
+      "url": "https://www.zhihu.com/answer/1952738129451677041",
+      "summary": "正文以素数定理给出的平均间距为基准，继续讨论素数间距的波动、大间距定理和 Cramér 模型。"
+    },
+    {
+      "title": "黎曼猜想为什么难以解决？",
+      "url": "https://www.zhihu.com/answer/1952892319490639676",
+      "summary": "正文比较 Li(x) 与实际素数计数，讨论素数定理近似和误差项中的周期波动。"
+    },
+    {
+      "title": "为什么哥德巴赫猜想难以用传统方法证明？",
+      "url": "https://www.zhihu.com/answer/2044821371503563026",
+      "summary": "正文用素数定理估计素数密度和表示数对数量，并解释其误差精度为何仍不足以证明强猜想。"
+    },
+    {
+      "title": "黎曼猜想为什么难以解决？",
+      "url": "https://www.zhihu.com/answer/2048505950164759190",
+      "summary": "正文从素数定理的主项出发，讲解其误差界及黎曼猜想如何强化为平方根级误差。"
+    },
+    {
+      "title": "黎曼猜想为什么难以解决？",
+      "url": "https://www.zhihu.com/answer/2048802364035950416",
+      "summary": "正文讲解素数定理的主项、无零区域和误差控制，说明它在黎曼猜想研究中的地位。"
+    },
+    {
+      "title": "素数间的大间隔(Large gaps between primes)",
+      "url": "https://zhuanlan.zhihu.com/p/20046958",
+      "summary": "正文综述素数定理之后关于大间隔下界的一系列改进和 Erdős 悬赏问题。"
+    },
+    {
+      "title": "Sarnak的Möbius Disjointness猜想",
+      "url": "https://zhuanlan.zhihu.com/p/22974087",
+      "summary": "正文说明Möbius部分和的次线性估计与素数定理等价，并进一步讨论进入Möbius不交性猜想的素数分布问题。"
+    },
+    {
+      "title": "从巴塞尔问题到黎曼\\zeta函数",
+      "url": "https://zhuanlan.zhihu.com/p/27342701",
+      "summary": "正文从欧拉乘积和素数倒数级数推出素数分布密度，并得到素数定理的渐近形式。"
+    },
+    {
+      "title": "黎曼猜想跟素数分布有怎样的联系",
+      "url": "https://zhuanlan.zhihu.com/p/45240901",
+      "summary": "正文在素数定理之后继续讨论其误差项，并说明黎曼猜想对应的平方根级误差等价命题。"
+    },
+    {
+      "title": "理解黎曼猜想（四）得救之道，就在其中 | 袁岚峰",
+      "url": "https://zhuanlan.zhihu.com/p/49454034",
+      "summary": "正文继质数定理之后讨论零点位置如何修正素数计数函数的近似，并给出十万亿个零点的进展。"
+    },
+    {
+      "title": "总有一天，人类会骄傲地发出这串数字：2,3,5,7,11…… | 科技袁人",
+      "url": "https://zhuanlan.zhihu.com/p/51894303",
+      "summary": "正文讨论素数计数函数π(x)与对数积分Li(x)的大小关系，并介绍符号翻转及斯丘兹数，展开素数定理之后的定量问题。"
+    },
+    {
+      "title": "《生活大爆炸》即将完结时，谢尔顿猜想被证明出来了！",
+      "url": "https://zhuanlan.zhihu.com/p/65464177",
+      "summary": "正文用素数定理估计第n个素数的规模，并据此把可具积性的素数限制在46位以内。"
+    },
+    {
+      "title": "读懂黎曼猜想（4）——素数定理",
+      "url": "https://zhuanlan.zhihu.com/p/245863421",
+      "summary": "正文逐步推导素数计数函数与对数积分渐近等价，给出了素数定理的内容和推导脉络。"
+    },
+    {
+      "title": "当数论遇上分析（3）——数论函数的加权平均、切比雪夫定理以及埃氏筛",
+      "url": "https://zhuanlan.zhihu.com/p/272483362",
+      "summary": "正文证明切比雪夫型上下界，得到弱于素数定理但与其一致的素数计数估计。"
+    },
+    {
+      "title": "读懂黎曼猜想（5）——精确公式和素数计数函数的渐近展开",
+      "url": "https://zhuanlan.zhihu.com/p/336672384",
+      "summary": "正文先补全素数定理的严谨证明，再继续推导素数计数函数的精确公式与渐近展开。"
+    },
+    {
+      "title": "一文搞懂黎曼假设，解析数论的里程碑，质数理论的珠穆朗玛",
+      "url": "https://zhuanlan.zhihu.com/p/349349332",
+      "summary": "正文在素数定理之后继续用非平凡零点构造显式公式，讨论素数计数误差项及后续研究。"
+    },
+    {
+      "title": "读懂黎曼猜想（11【完结篇】）——等差数列素数定理的余项（Siegel-Walfisz定理）",
+      "url": "https://zhuanlan.zhihu.com/p/412127981",
+      "summary": "正文在素数定理基础上给出等差数列素数分布的 Siegel-Walfisz 余项与适用范围。"
+    },
+    {
+      "title": "素数间距问题（1）——以素数定理为起点",
+      "url": "https://zhuanlan.zhihu.com/p/530390491",
+      "summary": "正文以素数定理估计第 n 个素数，并由素数间距前缀和推出两种间距路线。"
+    },
+    {
+      "title": "我的三个猜想",
+      "url": "https://zhuanlan.zhihu.com/p/558930604",
+      "summary": "正文借助 Dirichlet 定理和 Beatty 划分提出并讨论素数计数渐近分布猜想。"
+    },
+    {
+      "title": "Siegel零点与等差数列上的素数分布",
+      "url": "https://zhuanlan.zhihu.com/p/582900416",
+      "summary": "正文讲解等差数列素数定理的渐近式、误差项以及 Page 定理的适用范围。"
+    },
+    {
+      "title": "素数定理的证明（友好型，已完结）",
+      "url": "https://zhuanlan.zhihu.com/p/631308191",
+      "summary": "正文系统证明素数定理并讨论其等价积分表述与素数分布推论，对应素数定理之后的深入数论议题。"
+    },
+    {
+      "title": "论素数定理的误差项",
+      "url": "https://zhuanlan.zhihu.com/p/654730509",
+      "summary": "正文专门证明素数定理误差项的大 O 与单边估计不能低于由 zeta 零点决定的速度。"
+    },
+    {
+      "title": "黎曼猜想获显著突破，陶哲轩：方法巧妙且意想不到！36岁菲尔兹奖得主新成果",
+      "url": "https://zhuanlan.zhihu.com/p/701756208",
+      "summary": "正文具体说明零点密度界如何限制并推进短区间素数定理的参数范围。"
+    },
+    {
+      "title": "一枚「弃子」打破80年黎曼猜想纪录！菲尔兹奖得主MIT大拿联手，陶哲轩转赞",
+      "url": "https://zhuanlan.zhihu.com/p/709113867",
+      "summary": "正文说明零密度界限改进后，几乎所有短区间内素数定理可证明的范围也随之扩大。"
+    },
+    {
+      "title": "两千年，换来一句本质真言：素数不是随机，但像极了随机",
+      "url": "https://zhuanlan.zhihu.com/p/1907673367827448552",
+      "summary": "正文在素数定理之后继续介绍 Green-Tao 定理及证明长素数等差数列的三层结构思想。"
+    }
+  ]
+}

@@ -1,0 +1,1306 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l2-t4-b5",
+  "sources": [
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/14654627",
+      "summary": "通过不断细分增长周期的细胞类比解释常数 e。依据可见正文归类；“增长的极限”只适用于其设定模型，细胞分裂是数学类比。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/29543086",
+      "summary": "正文围绕“自然对数的底数 e”给出说明、例证或方法。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/30108382",
+      "summary": "正文围绕“自然对数的底数 e”给出说明、例证或方法。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/35473303",
+      "summary": "正文从自然对数与极限构造解释自然底数 e。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/58204645",
+      "summary": "正文以连续复利的极限解释自然底数 e 的来源。"
+    },
+    {
+      "title": "e=2.718… 是怎么算出来的？",
+      "url": "https://www.zhihu.com/answer/68164631",
+      "summary": "正文以导数斜率定义自然常数 e。"
+    },
+    {
+      "title": "为什么这个世界诸多公式与自然常数e有关?",
+      "url": "https://www.zhihu.com/answer/74624189",
+      "summary": "正文用连续增长极限解释自然对数底 e。"
+    },
+    {
+      "title": "自然底数 e 的意义是什么？",
+      "url": "https://www.zhihu.com/answer/106247572",
+      "summary": "正文由连续增长、极限和幂级数两条路线解释自然底数 e 的来源与意义。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/106263920",
+      "summary": "正文从连续增长和变化率出发推导自然底数，并说明其连续增长的来源。"
+    },
+    {
+      "title": "如何证明n！大于((n+1)/e)^n？",
+      "url": "https://www.zhihu.com/answer/106990554",
+      "summary": "证明以自然底数 e 的经典不等式为起点并用于阶乘估计。"
+    },
+    {
+      "title": "数学中以 e 为底的指数函数 f(x)=exp(x) 求导后为什么还是它本身？",
+      "url": "https://www.zhihu.com/answer/110075760",
+      "summary": "正文从导数特性和极限定义解释自然对数底e的特殊性。"
+    },
+    {
+      "title": "y=e^x 有什么特殊性吗？它与三角函数等函数有什么关系？",
+      "url": "https://www.zhihu.com/answer/110173647",
+      "summary": "正文从导数特性和极限定义解释自然对数底e的特殊性。"
+    },
+    {
+      "title": "y=e^x 无限求导每一次都等于自身有什么深层含义或是实际应用吗？",
+      "url": "https://www.zhihu.com/answer/110174443",
+      "summary": "正文从导数特性和极限定义解释自然对数底e的特殊性。"
+    },
+    {
+      "title": "怎么向小学生解释欧拉公式 e^(πi)+1=0？",
+      "url": "https://www.zhihu.com/answer/112520932",
+      "summary": "正文以连续增长、自然变化和极限构造长篇解释自然底数e的来源。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/117872319",
+      "summary": "正文借连续复利的极限说明自然对数底 e 的来源与数值。"
+    },
+    {
+      "title": "怎么向小学生解释欧拉公式 e^(πi)+1=0？",
+      "url": "https://www.zhihu.com/answer/135331130",
+      "summary": "正文用连续复利模型解释自然对数底 e 是增长的极限。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/138494651",
+      "summary": "正文构造数字排列近似并明确识别其极限为常数 e。"
+    },
+    {
+      "title": "布丰用投针实验估计了 π 值，那么用什么简单方法可以估计自然对数的底数 e 的值？",
+      "url": "https://www.zhihu.com/answer/221873815",
+      "summary": "正文设计随机实验并证明事件概率收敛到自然对数底数倒数。"
+    },
+    {
+      "title": "布丰用投针实验估计了 π 值，那么用什么简单方法可以估计自然对数的底数 e 的值？",
+      "url": "https://www.zhihu.com/answer/221923783",
+      "summary": "正文给出以随机数累加实验估计 e 的方法。"
+    },
+    {
+      "title": "解微分方程为什么会出现个 e？",
+      "url": "https://www.zhihu.com/answer/224563083",
+      "summary": "正文把 e 解释为指数函数在 1 处的取值。"
+    },
+    {
+      "title": "解微分方程为什么会出现个 e？",
+      "url": "https://www.zhihu.com/answer/237992320",
+      "summary": "正文从幂级数解微分方程引出并定义自然指数函数。"
+    },
+    {
+      "title": "解微分方程为什么会出现个 e？",
+      "url": "https://www.zhihu.com/answer/238304260",
+      "summary": "正文由迭代得到指数函数幂级数并解释自然常数相关函数。"
+    },
+    {
+      "title": "穿过一片麦田，去捡一个最大的麦穗，且不能回头、更换，在何处决定捡到大麦穗的可能性最大？",
+      "url": "https://www.zhihu.com/answer/242680202",
+      "summary": "正文说明最优比例为自然常数 e 的倒数并给出求导推导。"
+    },
+    {
+      "title": "穿过一片麦田，去捡一个最大的麦穗，且不能回头、更换，在何处决定捡到大麦穗的可能性最大？",
+      "url": "https://www.zhihu.com/answer/242869171",
+      "summary": "正文由积分近似和求导得到最佳比例 1/e。"
+    },
+    {
+      "title": "不用洛必达法则和泰勒公式，如何求：当 x→0 时，x/ln(1+x)的极限？",
+      "url": "https://www.zhihu.com/answer/251092492",
+      "summary": "正文把该极限化为自然对数底数 e 的定义。"
+    },
+    {
+      "title": "不用洛必达法则和泰勒公式，如何求：当 x→0 时，x/ln(1+x)的极限？",
+      "url": "https://www.zhihu.com/answer/251229159",
+      "summary": "正文说明选取极限使对数为 1，从而定义自然底数 e。"
+    },
+    {
+      "title": "怎么计算lim(x->+∞)（1+1/x）^x的值，也就是e的值？",
+      "url": "https://www.zhihu.com/answer/305160256",
+      "summary": "正文用单调有界准则、二项式展开与夹逼严格构造自然常数 e。"
+    },
+    {
+      "title": "e 的虚数次方如何定义？",
+      "url": "https://www.zhihu.com/answer/323805405",
+      "summary": "正文说明自然底数 e 的级数定义。"
+    },
+    {
+      "title": "如何理解傅里叶变换公式？",
+      "url": "https://www.zhihu.com/answer/325895339",
+      "summary": "正文解释以 e 为底函数在复数旋转中的特殊性质。"
+    },
+    {
+      "title": "（1+1/n）^n的极限为e，怎么求？",
+      "url": "https://www.zhihu.com/answer/344136661",
+      "summary": "正文明确给出e的极限与无穷级数表达。"
+    },
+    {
+      "title": "怎么推导或证明 e^x 的导数是自身？",
+      "url": "https://www.zhihu.com/answer/443056690",
+      "summary": "正文由单调有界数列定义并构造自然常数e。"
+    },
+    {
+      "title": "怎么推导或证明 e^x 的导数是自身？",
+      "url": "https://www.zhihu.com/answer/456180485",
+      "summary": "正文比较自然常数e的级数与极限定义。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/474798837",
+      "summary": "正文用连续复利的极限展开自然常数e。"
+    },
+    {
+      "title": "你学过的中小学教材中最坑爹的课文是哪一篇？",
+      "url": "https://www.zhihu.com/answer/503283524",
+      "summary": "用无穷级数解释自然常数 e 的一种来源，并批评教材只给小数值不说明定义。"
+    },
+    {
+      "title": "有没有这样的函数，其一阶导等于1，二阶导等于2，三阶导等于3，n阶导等于n，n一直趋于无穷大？",
+      "url": "https://www.zhihu.com/answer/504181204",
+      "summary": "利用 e^x 的幂级数识别最终构造出的函数。"
+    },
+    {
+      "title": "有哪些神奇的数学巧合？",
+      "url": "https://www.zhihu.com/answer/520185341",
+      "summary": "正文给出自然对数底 e 的极限定义并联系复利。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/521814000",
+      "summary": "从极限、指数函数自导性和幂级数解释自然常数 e 的数学意义。"
+    },
+    {
+      "title": "怎么推导或证明 e^x 的导数是自身？",
+      "url": "https://www.zhihu.com/answer/525899588",
+      "summary": "从对数求导与反函数导数推出自然指数函数的导数仍为自身。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/543973396",
+      "summary": "正文从自然对数的反函数定义 e，并进一步解释其增长极限和微分方程意义。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/547588113",
+      "summary": "正文用连续复利和自然增长极限解释自然常数 e。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/548459361",
+      "summary": "正文从导数不变性质推导并定义自然常数 e。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/549673994",
+      "summary": "正文以连续复合增长直观定义自然常数 e。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/550020825",
+      "summary": "正文从固定和的分拆乘积最大问题解释 e 的特殊性。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/550828858",
+      "summary": "从指数函数的导数不动点推导自然常数 e 的存在与核心性质。"
+    },
+    {
+      "title": "有没有可能把 π 或 e 等无理数当成 1，这样就能使许多定理显而易见？",
+      "url": "https://www.zhihu.com/answer/562066166",
+      "summary": "正文明确讨论 e 作为无量纲数学常数的性质。"
+    },
+    {
+      "title": "有没有可能把 π 或 e 等无理数当成 1，这样就能使许多定理显而易见？",
+      "url": "https://www.zhihu.com/answer/562875607",
+      "summary": "正文用极限定义 e，并说明把它改写成 1 只会改变符号而不会使定理变得显然。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/680750541",
+      "summary": "证明目标无穷乘积的极限等于自然常数 e。"
+    },
+    {
+      "title": "解微分方程为什么会出现个 e？",
+      "url": "https://www.zhihu.com/answer/706433889",
+      "summary": "正文用重要极限得到自然常数 e，并以该极限说明 e 在解中的出现。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/708727036",
+      "summary": "从重复抽样的极限推导自然常数e。"
+    },
+    {
+      "title": "对数是用来描述什么的？",
+      "url": "https://www.zhihu.com/answer/727162100",
+      "summary": "把自然对数定义为以 e 为底的对数。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/734311844",
+      "summary": "正文由复利问题引出收敛到 e 的极限并说明其数值。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/741926684",
+      "summary": "正文由复利结算引出收敛到 e 的极限，并说明其数值与意义。"
+    },
+    {
+      "title": "数学上有比欧拉公式还美的公式吗？",
+      "url": "https://www.zhihu.com/answer/828756838",
+      "summary": "以复利极限解释自然常数 e。"
+    },
+    {
+      "title": "在没有计算机的时代，是如何制作对数表的？",
+      "url": "https://www.zhihu.com/answer/837994059",
+      "summary": "正文由制表底数过渡到极限，并明确解释自然对数底数 e 的由来。"
+    },
+    {
+      "title": "如果费曼或者牛顿再世，能够在规定时间内解决高考数学或者物理的压轴题吗？",
+      "url": "https://www.zhihu.com/answer/865756921",
+      "summary": "讲解自然底数由复利极限产生的历史与含义。"
+    },
+    {
+      "title": "如何证明e为无理数?",
+      "url": "https://www.zhihu.com/answer/868684204",
+      "summary": "正文利用阶乘级数证明自然对数底数 e 不是有理数。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/948679093",
+      "summary": "正文从复利极限、微分方程和增长规律解释自然底数 e 的来源。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/952877469",
+      "summary": "正文用连续增长极限推导自然常数 e，并解释其增长含义。"
+    },
+    {
+      "title": "√3＋1 和自然底数 e 的值怎么比较？",
+      "url": "https://www.zhihu.com/answer/977997070",
+      "summary": "正文由 e 的级数展开与几何级数放缩比较 e 和根式。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1066267726",
+      "summary": "正文围绕自然对数底数e的级数表示及无理性展开。"
+    },
+    {
+      "title": "1/(n+1)与ln(1+1/n)怎样比较大小？",
+      "url": "https://www.zhihu.com/answer/1149123729",
+      "summary": "正文用e的经典数列逼近夹逼对数。"
+    },
+    {
+      "title": "公式相声真的一无是处吗?",
+      "url": "https://www.zhihu.com/answer/1149920939",
+      "summary": "正文从连续复利的极限解释自然常数e。"
+    },
+    {
+      "title": "除了π，e，0.618，还有没有其他一些有特殊意义的数？",
+      "url": "https://www.zhihu.com/answer/1162373861",
+      "summary": "正文通过求导证明该极值点与自然常数e的倒数相同。"
+    },
+    {
+      "title": "如何证明 lim(n→+∞) (1+1/n)^n＝e？",
+      "url": "https://www.zhihu.com/answer/1334984377",
+      "summary": "正文从指数函数的导数与自然底数 e 的极限定义展开推导。"
+    },
+    {
+      "title": "导数公式是怎么来的，人教选修 2-2 没有给出证明，有点奇怪？",
+      "url": "https://www.zhihu.com/answer/1412498275",
+      "summary": "正文从极限、无穷小和运算法则推导导数公式，并引入自然常数 e。"
+    },
+    {
+      "title": "为什么背诵 π 前1000位的人多，而背诵 e 的人却几乎找不到？",
+      "url": "https://www.zhihu.com/answer/1437327880",
+      "summary": "正文直接讲解或推导“自然对数的底数 e”相关内容。"
+    },
+    {
+      "title": "为什么背诵 π 前1000位的人多，而背诵 e 的人却几乎找不到？",
+      "url": "https://www.zhihu.com/answer/1441671857",
+      "summary": "正文直接讲解或推导“自然对数的底数 e”相关内容。"
+    },
+    {
+      "title": "请问 e^π 和 π^e 哪个大？",
+      "url": "https://www.zhihu.com/answer/1523976866",
+      "summary": "正文以自然对数的底e为关键分界点比较指数大小。"
+    },
+    {
+      "title": "e 是怎么算的？",
+      "url": "https://www.zhihu.com/answer/1525900437",
+      "summary": "正文直接讨论自然对数的底数 e，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "实数在自然界有用吗？",
+      "url": "https://www.zhihu.com/answer/1543745098",
+      "summary": "正文直接讨论自然对数的底数 e，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "为什么 e^x 的麦克劳林展开式等于 1＋x＋x²/2 可以直接运用？",
+      "url": "https://www.zhihu.com/answer/1616133506",
+      "summary": "正文专门推导指数函数 e 的幂级数展开。"
+    },
+    {
+      "title": "为什么离 n!/e 最近的整数是 n-1 的倍数？",
+      "url": "https://www.zhihu.com/answer/1644235878",
+      "summary": "正文用 e 的泰勒展开证明 n!/e 与错排数的最近整数关系。"
+    },
+    {
+      "title": "为什么计算机不用e进制，按道理说e进制难道不是最高效的吗？",
+      "url": "https://www.zhihu.com/answer/1654973216",
+      "summary": "正文用底数经济度解释自然对数底 e 的极值意义。"
+    },
+    {
+      "title": "数学中的自然常数 e 是怎么来的？",
+      "url": "https://www.zhihu.com/answer/1680715180",
+      "summary": "正文用复利极限说明自然常数e的来源。"
+    },
+    {
+      "title": "理论推翻，0.9…9 真的等于 1 吗？",
+      "url": "https://www.zhihu.com/answer/1714684953",
+      "summary": "正文把相关极限化简为自然常数的底数 e。"
+    },
+    {
+      "title": "有哪些方法可以计算自然常数 e？",
+      "url": "https://www.zhihu.com/answer/1725872392",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1747555102",
+      "summary": "正文直接讨论或推导「自然对数的底数 e」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "e^6≈π^4+π^5有什么数学背景吗？",
+      "url": "https://www.zhihu.com/answer/1778150920",
+      "summary": "正文列举涉及自然常数 e 的近似与巧合。"
+    },
+    {
+      "title": "欧拉到底有多厉害？",
+      "url": "https://www.zhihu.com/answer/1803245813",
+      "summary": "正文用独立小节给出 e 的极限和级数定义，并说明欧拉采用符号 e、将其作为自然对数底及研究其无理数性质。"
+    },
+    {
+      "title": "为什么前N个自然数的最小公倍数约等于e^N?",
+      "url": "https://www.zhihu.com/answer/1805442119",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1908574020",
+      "summary": "正文通过 e 的极限刻画比较两个相邻整数幂。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/1949095822",
+      "summary": "正文通过自然对数的底数 e 的估计证明不等式。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/1950270038",
+      "summary": "正文用自然对数估计 e 的幂。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/1950886172",
+      "summary": "正文用 e 的数值下界和指数估计证明不等式。"
+    },
+    {
+      "title": "a^x次方如何求导，网上的解说我看的自己好像没学过数学似的？",
+      "url": "https://www.zhihu.com/answer/1968492731",
+      "summary": "正文通过自然常数 e 的极限定义完成推导。"
+    },
+    {
+      "title": "数学中，类似 π、e 的独立的常数还有哪些？",
+      "url": "https://www.zhihu.com/answer/1991627707",
+      "summary": "正文讨论Lévy常数与e、π的关系。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/1999855762",
+      "summary": "正文利用指数函数与连分数估计e^π。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/2001425342",
+      "summary": "正文用连分数估计e的幂。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/2005180518",
+      "summary": "正文围绕 e 的指数引出 Gelfond 常数。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/2005266778",
+      "summary": "正文以 e 的近似值完成指数比较。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/2005638531",
+      "summary": "正文使用自然常数 e 的数值估计完成不等式。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/2011782772",
+      "summary": "正文通过微积分计算得到以 e 表示的追赶时间。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/2015884805",
+      "summary": "正文计算错排问题极限并得到自然常数 e。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/2112824706",
+      "summary": "正文把 e 与圆周率等作为超越数和可计算数的典型例子。"
+    },
+    {
+      "title": "除了 π、e 等这些常数，还有哪些伟大的常数？他们的意义都是什么？为什么都是无理数呢？",
+      "url": "https://www.zhihu.com/answer/2117818262",
+      "summary": "正文系统介绍Euler-Mascheroni常数、Gamma函数和相关极限。"
+    },
+    {
+      "title": "洛必达法则为何成为禁术？",
+      "url": "https://www.zhihu.com/answer/2268895983",
+      "summary": "正文强调这个极限本身是自然对数底数 e 的一种定义。"
+    },
+    {
+      "title": "我今年 14 岁，想了一个数学思路，把数学各领域的联系写出来了，这个思路有什么问题吗？",
+      "url": "https://www.zhihu.com/answer/2308593455",
+      "summary": "正文以极限定义、增长累积量、指数函数及其导数集中展开对自然对数底 e 的解释。"
+    },
+    {
+      "title": "如何在数学试卷上调戏阅卷人？",
+      "url": "https://www.zhihu.com/answer/2315801791",
+      "summary": "正文利用 e 的极限表达式与 1/e 的下界完成比较。"
+    },
+    {
+      "title": "为什么背诵 π 前1000位的人多，而背诵 e 的人却几乎找不到？",
+      "url": "https://www.zhihu.com/answer/2361506639",
+      "summary": "正文从自然增长和自然对数解释自然常数 e 的含义。"
+    },
+    {
+      "title": "解微分方程为什么会出现个 e？",
+      "url": "https://www.zhihu.com/answer/2385143511",
+      "summary": "正文从数列极限严格定义自然对数的底数 e。"
+    },
+    {
+      "title": "马克思的一生中有没有发生过一些特别有趣的事？",
+      "url": "https://www.zhihu.com/answer/2448716867",
+      "summary": "正文使用自然指数函数的一阶展开定义其局部线性近似。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/2495624065",
+      "summary": "正文从自然对数、欧拉数和近似值入手，专文讨论自然底数 e。"
+    },
+    {
+      "title": "欧拉公式是怎么发现的？证明感觉拿泰勒展开有一种钦定的意思，但不知道当初是怎么发现的?",
+      "url": "https://www.zhihu.com/answer/2586297166",
+      "summary": "以极限定义自然对数的底数 e，并把它延拓到实数域和复数域。"
+    },
+    {
+      "title": "如何理解 π⁴+π⁵≈e⁶？",
+      "url": "https://www.zhihu.com/answer/2617984216",
+      "summary": "以 e⁶ 与 π 的幂次近似为例，判断无理数恒等式是否只是巧合。"
+    },
+    {
+      "title": "自然对数的底e有什么自然意义?",
+      "url": "https://www.zhihu.com/answer/2635749914",
+      "summary": "从复利、极限、级数、无理数与正态分布多角度讲解自然常数 e。"
+    },
+    {
+      "title": "我的寝室号是520，请问如何用下北泽常数、e、π来表示？",
+      "url": "https://www.zhihu.com/answer/2640228248",
+      "summary": "用自然常数 e 与其他常数组合构造结果为 520 的取整表达式。"
+    },
+    {
+      "title": "我的寝室号是520，请问如何用下北泽常数、e、π来表示？",
+      "url": "https://www.zhihu.com/answer/2640458514",
+      "summary": "通过定义 B=520-π-e 把 520 写成含自然常数 e 的恒等式。"
+    },
+    {
+      "title": "欧拉公式是定义的还是推导出来的？",
+      "url": "https://www.zhihu.com/answer/2648808375",
+      "summary": "从自然常数 e 的极限定义出发延拓 e^x 与 e^z。"
+    },
+    {
+      "title": "有什么很牛逼的无理数？",
+      "url": "https://www.zhihu.com/answer/2712886108",
+      "summary": "把随机变量和首次超过 1 的期望问题转化为自然对数底数 e 的证明。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/2716483302",
+      "summary": "正文明确指出所接近的重要极限是自然对数的底 e，并给出约值用于比较。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/2741361457",
+      "summary": "正文以指数函数求导后形式不变这一性质解释自然对数的底数 e 为何频繁出现。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2756020498",
+      "summary": "正文用泰勒多项式构造辅助函数并导出整数严格夹逼矛盾，完整证明自然对数底数 e 为无理数。"
+    },
+    {
+      "title": "觉得《数学分析》的“严谨”没有必要，不想学怎么办?",
+      "url": "https://www.zhihu.com/answer/2778235734",
+      "summary": "正文用有理数数列 (1+1/n)^n 的极限定义 e，并进一步说明如何由该数列构造戴德金分割。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/2897612581",
+      "summary": "正文通过不断增加复利计算的分割份数，展示结果趋于2.72，并指出该稳定值就是自然指数e。"
+    },
+    {
+      "title": "学泰勒公式一开始就不明白，为什么 n 次多项式可以提高与 f(x) 的近似程度？",
+      "url": "https://www.zhihu.com/answer/2973482228",
+      "summary": "正文由指数函数的无穷级数展开推出自然对数底数 e 的级数表示及任意精度近似。"
+    },
+    {
+      "title": "洛必达是一个伟大的数学家吗？",
+      "url": "https://www.zhihu.com/answer/3039641621",
+      "summary": "正文由连续复利的结算周期缩短引出自然常数 e，并给出其近似值和无理性。"
+    },
+    {
+      "title": "阿里巴巴全球数学竞赛参赛选手95后快递小哥，曾用两周证明欧拉常数公式，你身边有这样的数学隐藏高手吗？",
+      "url": "https://www.zhihu.com/answer/3059627982",
+      "summary": "正文说明让增量趋于零、取其倒数作指数的极限就是自然对数的底 e，并用计算器数例引出该极限。"
+    },
+    {
+      "title": "如何证明e³＞20?",
+      "url": "https://www.zhihu.com/answer/3128151854",
+      "summary": "正文通过积分恒等式证明 e³−20 为正，从而给出关于自然对数底数 e 的数值不等式。"
+    },
+    {
+      "title": "e，π，γ，φ怎么算二十四点？",
+      "url": "https://www.zhihu.com/answer/3269432090",
+      "summary": "正文把 e 作为超越数使用，并在 e^π 的上下取整构造中解释为何要借取整得到整数。"
+    },
+    {
+      "title": "如何优雅的证明π＞e?",
+      "url": "https://www.zhihu.com/answer/3299381143",
+      "summary": "正文通过级数放缩证明自然对数底数e小于3，并用于后续常数大小比较。"
+    },
+    {
+      "title": "如何优雅的证明π＞e?",
+      "url": "https://www.zhihu.com/answer/3300718219",
+      "summary": "正文给出自然常数e的无穷级数表示，并用对应级数为正推出e小于3。"
+    },
+    {
+      "title": "如何优雅的证明π＞e?",
+      "url": "https://www.zhihu.com/answer/3300884681",
+      "summary": "正文用e的阶乘倒数和与较粗级数比较，得到e小于3。"
+    },
+    {
+      "title": "如何优雅的证明π＞e?",
+      "url": "https://www.zhihu.com/answer/3301110388",
+      "summary": "正文用自然指数与底数 e 的关系，将 π 的下界转化为指数式并证明 π 大于 e。"
+    },
+    {
+      "title": "如何注意力涣散地证明 e^{π√163} 小于262 53741 26407 68744？",
+      "url": "https://www.zhihu.com/answer/3312015121",
+      "summary": "正文给出 e^{π√163} 的拉马努金恒等表示和误差的连分数展开，用特殊指数值的近整数性质证明目标不等式。"
+    },
+    {
+      "title": "泰勒公式最初是如何想到的?",
+      "url": "https://www.zhihu.com/answer/3313231250",
+      "summary": "正文由指数函数的泰勒级数在 1 处取值得到自然对数底数的级数，并说明任意精度逼近。"
+    },
+    {
+      "title": "如何优雅地证明 ln 2 + lg 2 < 1？",
+      "url": "https://www.zhihu.com/answer/3314210303",
+      "summary": "正文把关于自然对数的估计转化为以 e 为底的指数比较，并以 e 的级数下界完成证明。"
+    },
+    {
+      "title": "如何证明 e<1+√3？",
+      "url": "https://www.zhihu.com/answer/3364351281",
+      "summary": "正文给出 e-1 的简单连分数展开，并以它作为证明关于 e 的不等式的核心表示。"
+    },
+    {
+      "title": "欧拉导出过哪些名气不大但精妙的定理？",
+      "url": "https://www.zhihu.com/answer/3438861986",
+      "summary": "正文用幂级数定义指数函数并得到自然对数的底数 e，还介绍了它的复利背景。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/3439586168",
+      "summary": "正文借助复利极限例子介绍自然常数 e 的数值和来源。"
+    },
+    {
+      "title": "为什么 2718281828459045/1000000000000000 如此接近 e？",
+      "url": "https://www.zhihu.com/answer/3443410878",
+      "summary": "正文用数字 1 至 9 各一次构造指数表达式 x，并讨论它与自然对数的底数 e 的极高接近程度。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/3546316325",
+      "summary": "正文给出自然对数底数 e 的十进制近似值，并用它计算 e 的平方以完成比较。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/3547089169",
+      "summary": "正文利用自然对数底数 e 大于 2.7 的数值事实及其平方下界完成比较。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/3547244617",
+      "summary": "正文通过令 x=2 得到 e^2>7，从而证明 e>根号 7，具体讨论了自然对数的底数 e。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/3548090646",
+      "summary": "正文以自然对数 ln7 的近似值小于 2 为关键步骤，完成 e 与根号 7 的大小比较，涉及自然对数的底数 e。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/3548285795",
+      "summary": "正文通过论证 e² 的级数截断和等于 7，证明 e 大于根号 7，核心对象是自然对数的底数 e。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/3548990702",
+      "summary": "正文利用所得概率严格小于 1 推出 e²>7，实质完成了关于自然对数底数 e 的大小证明。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/3552335739",
+      "summary": "正文借助 e 的幂的级数下界完成 e²>7 的估计，并由此得到自然对数底数 e 与根号 7 的大小关系。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/3552519776",
+      "summary": "正文用 e 大于 2.7 的十进制近似值估计 e²，并由此讨论自然对数底数 e 的大小。"
+    },
+    {
+      "title": "如何证明2π+e>9?",
+      "url": "https://www.zhihu.com/answer/3555540539",
+      "summary": "正文用自然对数底数 e 大于 2.718 的下界推导目标不等式。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/3562150150",
+      "summary": "正文以该数列的单调收敛极限定义自然对数的底数 e，并用其有限项作为下界证明 e 大于根号 7。"
+    },
+    {
+      "title": "如何注意力充足地证明e为无理数？",
+      "url": "https://www.zhihu.com/answer/3571416364",
+      "summary": "正文从 e 的阶乘级数表示出发，利用其各项结构完成关于 e 的无理性证明。"
+    },
+    {
+      "title": "(e+1)^(e-1)和(e-1)^(e+1)谁更大?",
+      "url": "https://www.zhihu.com/answer/3571427286",
+      "summary": "正文把两个含 e 的幂式比较化为同一函数取值比较，并利用 e 的范围完成大小判断。"
+    },
+    {
+      "title": "在你不能证明e+π是无理数之前，有人问你这是有理数还是无理数，你选什么（看补充）？",
+      "url": "https://www.zhihu.com/answer/3582121747",
+      "summary": "正文具体回顾自然对数底数 e 的连分数展开，并分析其第二类最佳逼近与渐近增长率。"
+    },
+    {
+      "title": "能否只用π就表示出无理数e？",
+      "url": "https://www.zhihu.com/answer/3590516187",
+      "summary": "正文给出用π构成的无穷级数形式表示自然对数的底数e，并讨论该表示是否非同凡。"
+    },
+    {
+      "title": "能否只用π就表示出无理数e？",
+      "url": "https://www.zhihu.com/answer/3590918784",
+      "summary": "正文由欧拉公式特例把自然对数的底数e表示成以π构成的复指数形式。"
+    },
+    {
+      "title": "能否只用π就表示出无理数e？",
+      "url": "https://www.zhihu.com/answer/3591578305",
+      "summary": "正文用圆周率π及阶乘、幂和根号符号给出了自然对数的底数e的显式表达式。"
+    },
+    {
+      "title": "能否只用π就表示出无理数e？",
+      "url": "https://www.zhihu.com/answer/3591789104",
+      "summary": "正文依据 Stirling 公式给出由圆周率π和极限表示自然对数的底数e的公式，并同时列出e的级数表达。"
+    },
+    {
+      "title": "能否只用π就表示出无理数e？",
+      "url": "https://www.zhihu.com/answer/3592134710",
+      "summary": "正文给出了只用圆周率π及四则运算和根号构造自然对数的底数e的显式恒等式。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/3631427419",
+      "summary": "正文通过不断缩短复利计息周期并计算 (1+1/n)^n 的数值，说明其结果趋于自然对数的底数 e。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/34421869185",
+      "summary": "正文以自然数阶乘倒数之和解释自然对数底数e的核心特性及其离散与连续的联系。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/36641984955",
+      "summary": "正文用连续复利式的增殖上限解释常数 e 的意义，对应自然对数的底数 e 的通俗理解。"
+    },
+    {
+      "title": "是否可以由 aᵃ=bᵇ 推出 a=b？为什么？",
+      "url": "https://www.zhihu.com/answer/39233342085",
+      "summary": "正文推导 x^x 的极小值恰在 x=1/e 取得，并由此解释该底数相关数值的特殊作用。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/40441505552",
+      "summary": "正文解释自然常数 e 与圆周率通过三角函数和欧拉公式产生的联系。"
+    },
+    {
+      "title": "如何证明2π+e>9?",
+      "url": "https://www.zhihu.com/answer/46175744383",
+      "summary": "正文用自然常数 e 的数值下界 2.718 参与求和，说明 2π+e 大于 9。"
+    },
+    {
+      "title": "欧拉公式是定义的还是推导出来的？",
+      "url": "https://www.zhihu.com/answer/46502637363",
+      "summary": "正文从自然底数的极限定义出发，分别延拓到实数域和复数域，实质讨论自然对数的底数e。"
+    },
+    {
+      "title": "在不使用任何数字的情况下，如何表达数字 100？",
+      "url": "https://www.zhihu.com/answer/103047347171",
+      "summary": "正文用极限定义 e，并在符号系统中构造 e 的无数字表示。"
+    },
+    {
+      "title": "如何通俗地解释泰勒公式？",
+      "url": "https://www.zhihu.com/answer/109932828963",
+      "summary": "正文由 e^x 的泰勒级数在无穷大收敛半径下得出 e 的无穷级数并说明可近似到任意精度。"
+    },
+    {
+      "title": "（5368）除f(x) = eˣ 外，是否存在一个函数，满足原函数=二阶导数？",
+      "url": "https://www.zhihu.com/answer/110999101668",
+      "summary": "正文指出指数函数 e^x 与 e^{-x} 的导数仍是同类指数函数，并据此给出 y''=y 的通解。"
+    },
+    {
+      "title": "怎么向小学生解释欧拉公式 e^(πi)+1=0？",
+      "url": "https://www.zhihu.com/answer/113533732802",
+      "summary": "正文由极限定义自然底数 e，讨论其收敛性并逐步延拓指数式的定义域，实质讲解自然对数底数。"
+    },
+    {
+      "title": "泰勒级数是如何推导出来的？",
+      "url": "https://www.zhihu.com/answer/121097127740",
+      "summary": "正文把 e^x 展开成无穷级数，令 x=1 后取足够多项来计算自然常数 e 的任意精度近似。"
+    },
+    {
+      "title": "自然对数的底e有什么自然意义?",
+      "url": "https://www.zhihu.com/answer/121639291443",
+      "summary": "正文以复利极限引入自然常数 e，给出数值并系统讨论它的来源、级数表示和应用。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/126636642371",
+      "summary": "正文利用涉及e的恒等式及正值积分证明e平方大于7，从而说明e与根号7的大小关系。"
+    },
+    {
+      "title": "如何巧妙证明 3e＞8 (e 是自然对数底数)?",
+      "url": "https://www.zhihu.com/answer/1913741838461941428",
+      "summary": "正文给出自然对数的底数 e 的阶乘倒数级数，并计算前四项得到大于 8/3 的下界。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/1916903147193996868",
+      "summary": "正文用平移群的指数映射引入指数函数，并说明 e^x 是平移无穷小生成元的本征函数。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/1917079079007528358",
+      "summary": "正文给出自然对数底数 e 的近似值和基本身份，并用连续增长说明其来源。"
+    },
+    {
+      "title": "为什么说欧拉公式很「神」？",
+      "url": "https://www.zhihu.com/answer/1918082627174371436",
+      "summary": "正文以复利、繁殖和放射性衰变说明自然常数 e 与连续增长、衰减及变化率的关系。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/1922311194619933210",
+      "summary": "正文以每代按 1/x 稳定增长且无穷多代不发散的极限过程解释自然对数的底数 e。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/1922545323122860252",
+      "summary": "正文把自然常数 e 与连续系统的变化联系起来，说明公式中出现 e 的原因。"
+    },
+    {
+      "title": "1/x的积分为什么是ln|x|+C，为什么会和e相关?",
+      "url": "https://www.zhihu.com/answer/1924784742668141351",
+      "summary": "正文以 e 本位和指数函数 e^x 为出发点解释幂函数积分的统一形式，实质展开自然对数的底数 e 的作用。"
+    },
+    {
+      "title": "数学这门学科有多有趣？",
+      "url": "https://www.zhihu.com/answer/1948017075575587602",
+      "summary": "正文说明 e 是自然常数，并以其指数函数导数等于自身这一性质作为欧拉公式推导基础。"
+    },
+    {
+      "title": "理论计算机科学（TCS）能否反哺纯数学？",
+      "url": "https://www.zhihu.com/answer/1949070284117225953",
+      "summary": "正文展示用梯度下降与排斥力优化发现的 e 连分数公式，并比较其与传统泰勒展开的收敛速度。"
+    },
+    {
+      "title": "关于质数的一个猜想，n趋向正无穷时，（p1×p2×...×pn）^(1/pn)的极限存在吗？",
+      "url": "https://www.zhihu.com/answer/1952877807668541281",
+      "summary": "正文通过 primorial 的渐近式取 n 次方根，证明所给极限等于自然对数的底数 e。"
+    },
+    {
+      "title": "除了f(x)=e^x以外，还有没有其他的函数导数是本身的？",
+      "url": "https://www.zhihu.com/answer/1960410987342571430",
+      "summary": "正文说明自然对数的底数 e 是约为 2.71828 的超越数，并概述它对自然指数函数的作用。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/1969410590519858227",
+      "summary": "正文把 e 定义为连续复利增长的极限，并说明指数函数的导数等于自身。"
+    },
+    {
+      "title": "该如何通俗易懂的向小孩子解释自然对数的底 e 的意义？",
+      "url": "https://www.zhihu.com/answer/1969682668208783774",
+      "summary": "正文以对数函数的积分形式和指数函数满足 f'(x)=f(x) 的性质说明自然底数 e 的特殊性。"
+    },
+    {
+      "title": "该如何通俗易懂的向小孩子解释自然对数的底 e 的意义？",
+      "url": "https://www.zhihu.com/answer/1970561477514618486",
+      "summary": "正文用不断缩短结算周期的复利过程说明连续增长的极限，并由此引出自然对数的底数e。"
+    },
+    {
+      "title": "河南复赛第四题左边不等式有没有比较简单的证明？",
+      "url": "https://www.zhihu.com/answer/1976286482424669308",
+      "summary": "正文围绕自然对数底数 e 的上下界估计进行取倒数和放缩。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1987122775924704901",
+      "summary": "正文推导出最优预观察比例为 1/e，说明常数 e 是该优化问题的临界值。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1987170736398434353",
+      "summary": "正文完成指数分布尾概率积分并得到 1/e，说明常数 e 在该概率计算中的具体来源。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1987230940272013480",
+      "summary": "正文明确指出 1/e 是给定幂式当 n 趋于无穷时的极限常数。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1987231820144734598",
+      "summary": "正文在最优压力点代入指数模型，得到含自然对数底数 e 的生存概率并据此计算阈值。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1987319188881158541",
+      "summary": "正文把 37% 数据、泊松参数和 1/e 的数值联系起来，解释 e^{-1} 在该模型中的来源。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1987463731882513310",
+      "summary": "正文从极限定义、连续增长和复利角度解释自然底数 e 的来源与含义。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1987478602531509471",
+      "summary": "正文通过各评价体系均失败的概率极限推导出常数 e 的倒数。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/1987574638969119134",
+      "summary": "正文以细胞分裂、病毒扩散、冷却和衰变说明自然底数 e 对应连续增长或衰减。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1988025036678918700",
+      "summary": "正文通过含参数 n 的极限推广说明自然底数 e 的指数形式及 1/e 并非必然。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1988095623006806522",
+      "summary": "正文用多个数值巧合及其可调参数批评对 1/e 规律的误读，说明自然底数的出现需要具体模型支撑。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1991294212570900197",
+      "summary": "正文引用 (1+1/n)^n 趋近自然常数 e 的近似，作为比较幂式大小的快捷估算。"
+    },
+    {
+      "title": "人类为什么需要创造虚数？",
+      "url": "https://www.zhihu.com/answer/1999891273520264395",
+      "summary": "正文以不是任何常规多项式方程的根说明自然对数底数e的超越性及其历史认识。"
+    },
+    {
+      "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
+      "url": "https://www.zhihu.com/answer/2021931984646095623",
+      "summary": "正文以多个定义和增长场景介绍自然对数的底数 e，并给出其标准极限表达式。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/2022671733056907222",
+      "summary": "正文通过泰勒展开研究 (1+x)^(1/x) 在 x=0 附近的值，并据此讨论自然对数的底数 e。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/2024421529098756242",
+      "summary": "正文从复利极限定义自然常数 e，并用指数函数导数等于自身解释其普遍出现。"
+    },
+    {
+      "title": "数学中，类似 π、e 的独立的常数还有哪些？",
+      "url": "https://www.zhihu.com/answer/2028139486073070190",
+      "summary": "正文明确给出自然对数底数 e 的符号、近似值以及它作为增长和自然对数基础的作用。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/2028952616571248821",
+      "summary": "正文围绕自然常数 e 的来源展开，说明它如何从极限、求导、积分和复数运算中共同出现，并解释“自然”的含义。"
+    },
+    {
+      "title": "如何优雅地证明e<sqrt(3)+1？",
+      "url": "https://www.zhihu.com/answer/2028965864410551729",
+      "summary": "正文利用自然常数 e 的级数表示并把无穷尾项整体放缩，得到 e 的上界。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/2029205655584548716",
+      "summary": "正文以连续复利模型推导自然常数 e 的极限定义，并解释它为何被称为自然常数。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/2029272145620942878",
+      "summary": "正文说明 e 的指数函数求导仍等于自身，并围绕这一性质解释自然对数的底数。"
+    },
+    {
+      "title": "人们专门弄了一个自然对数函数的底数 e，是为什么？",
+      "url": "https://www.zhihu.com/answer/2029287763460007201",
+      "summary": "正文以无穷级数定义自然常数 e，并用复利极限和连续变化解释其自然性。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/2030221740849223530",
+      "summary": "正文解释自然常数 e 与连续变化、指数函数及微分方程的关系。"
+    },
+    {
+      "title": "该如何通俗易懂的向小孩子解释自然对数的底 e 的意义？",
+      "url": "https://www.zhihu.com/answer/2041841069361475794",
+      "summary": "正文用几何路径、单位增长速度的极限和复利过程解释自然对数的底数 e。"
+    },
+    {
+      "title": "有哪些看起来简洁却很难的数学题？",
+      "url": "https://www.zhihu.com/answer/2049264423324365211",
+      "summary": "正文回顾欧拉以连分数证明自然对数的底数 e 为无理数。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/2063213203727947460",
+      "summary": "正文用不断细分时间仍保持结果一致解释 e 对应连续变化的自洽性，具体讨论自然对数底数 e 的意义。"
+    },
+    {
+      "title": "证明经典函数（1+1/n）的n次方有界，我这样证明问题出在哪？",
+      "url": "https://www.zhihu.com/answer/2069758130582446399",
+      "summary": "正文指出应从讨论序列的单调有界性入手引出自然对数的底数 e，实质说明了 e 的一种严格引入路径。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/2075476775593829114",
+      "summary": "正文从连续复利极限及导数为自身的性质解释自然对数底数 e。"
+    },
+    {
+      "title": "我也许明白了“自然”到底意味着什么",
+      "url": "https://zhuanlan.zhihu.com/p/24022405",
+      "summary": "正文从变化率不依赖外部信息的角度解释 e^x 的自相似增长及自然常数 e 的含义。"
+    },
+    {
+      "title": "自然常数的奥秘",
+      "url": "https://zhuanlan.zhihu.com/p/24319229",
+      "summary": "正文用复利过程说明自然底数 e 是连续翻倍增长的极限。"
+    },
+    {
+      "title": "小时候的猜想与实践——通过尺子琢磨出 e（2.718...）",
+      "url": "https://zhuanlan.zhihu.com/p/24427943",
+      "summary": "正文从计算尺刻度和反复细分乘法区间出发，通过(1+1/n)^n的增长得到自然常数 e。"
+    },
+    {
+      "title": "两个重要极限",
+      "url": "https://zhuanlan.zhihu.com/p/25048945",
+      "summary": "正文展开 (1+1/n)^n，证明数列单调有界后把其极限定义为自然对数的底数 e。"
+    },
+    {
+      "title": "由根号2的根号2的根号2...次方次方引发的讨论",
+      "url": "https://zhuanlan.zhihu.com/p/25150820",
+      "summary": "正文由相切条件推导临界常数并得到最大收敛值 e，展开自然对数底数 e 的数学意义。"
+    },
+    {
+      "title": "泊松分布 (Poisson Distributions) 的推导",
+      "url": "https://zhuanlan.zhihu.com/p/26263743",
+      "summary": "正文用连续复利的存款收益逼近过程解释自然对数的底数 e 的极限意义。"
+    },
+    {
+      "title": "中学篇 No. 18：脑洞",
+      "url": "https://zhuanlan.zhihu.com/p/26896745",
+      "summary": "正文列出自然常数 e 的无穷级数，并指出这一表示与一般函数的泰勒展开有关。"
+    },
+    {
+      "title": "中学篇 No. 37：自然法则",
+      "url": "https://zhuanlan.zhihu.com/p/27306852",
+      "summary": "正文用自然底数 e 的指数函数描述对数螺线，并讨论 e^x 的极限表达和欧拉的贡献。"
+    },
+    {
+      "title": "中学篇 No. 38：工匠精神",
+      "url": "https://zhuanlan.zhihu.com/p/27336225",
+      "summary": "正文用阶乘级数把 e^x 从局部展开推广到整个实数域，并进一步定义复指数。"
+    },
+    {
+      "title": "【高等数学】两个重要的极限",
+      "url": "https://zhuanlan.zhihu.com/p/29625654",
+      "summary": "正文把 (1+1/x)^x 趋于 e 作为核心极限公式，并展示它在指数型极限变形中的作用。"
+    },
+    {
+      "title": "一文介绍机器学习中基本的数学符号",
+      "url": "https://zhuanlan.zhihu.com/p/35488953",
+      "summary": "正文介绍自然常数 e、自然指数函数和自然对数，并说明它们描述持续增长的用途。"
+    },
+    {
+      "title": "数学分析外篇（一）",
+      "url": "https://zhuanlan.zhihu.com/p/36757772",
+      "summary": "正文以 e 为无理数、超越数为例，并由 e^{ln 2}=2 推导 ln 2 的无理性与超越性。"
+    },
+    {
+      "title": "什么是导数——高中生的简易导数入门手册",
+      "url": "https://zhuanlan.zhihu.com/p/38170057",
+      "summary": "正文通过导数定义引出极限 (1+t)^(1/t)，并由此定义自然对数的底数 e 及其指数函数求导性质。"
+    },
+    {
+      "title": "数学分析笔记（三）——极限与连续",
+      "url": "https://zhuanlan.zhihu.com/p/38570344",
+      "summary": "正文通过数列单调有界证明重要极限，并将其定义为自然对数的底数 e。"
+    },
+    {
+      "title": "被众人膜拜的欧拉恒等式是个什么东东？",
+      "url": "https://zhuanlan.zhihu.com/p/40302967",
+      "summary": "正文把自然常数 e 定义为连续变化极限，并由复指数绕单位圆的几何形态解释其作用。"
+    },
+    {
+      "title": "自然常数“e”，工程中的自然数“1”",
+      "url": "https://zhuanlan.zhihu.com/p/40317763",
+      "summary": "正文通过连续复利模型和极限推导自然常数 e，解释其数值及连续变化的含义。"
+    },
+    {
+      "title": "自然对数的底“e”到底是怎么来的？",
+      "url": "https://zhuanlan.zhihu.com/p/45846342",
+      "summary": "正文从对数表、极限和求导三个角度解释常数 e 的来源。"
+    },
+    {
+      "title": "如何证明e是超越数",
+      "url": "https://zhuanlan.zhihu.com/p/47709039",
+      "summary": "正文围绕自然常数 e 的超越性，给出 Hermite 的完整证明思路。"
+    },
+    {
+      "title": "自然底数e怎么就“自然”了？",
+      "url": "https://zhuanlan.zhihu.com/p/48391055",
+      "summary": "正文从细菌分裂和连续复利增长出发，说明增长次数趋于无穷时余额逼近自然常数 e。"
+    },
+    {
+      "title": "\"上帝公式\"(欧拉公式)真的神到无法触碰？",
+      "url": "https://zhuanlan.zhihu.com/p/48392958",
+      "summary": "正文用连续复利解释自然底数 e，并把它作为复指数增长推导的基础。"
+    },
+    {
+      "title": "为什么说\"对数\"可以延长天文学家寿命？",
+      "url": "https://zhuanlan.zhihu.com/p/48393525",
+      "summary": "正文以自然底数 e 和连续复利模型为出发点，解释自然对数的含义与计算。"
+    },
+    {
+      "title": "为什么e^x 的导数是还是其自身？",
+      "url": "https://zhuanlan.zhihu.com/p/48678377",
+      "summary": "围绕自然底数 e 说明其来源，并推导其指数函数的特殊求导性质。"
+    },
+    {
+      "title": "七大神秘的数学常数",
+      "url": "https://zhuanlan.zhihu.com/p/52480460",
+      "summary": "正文用 (1+1/x)^x 的极限引出自自然底数 e，并说明其无理性及微积分用途。"
+    },
+    {
+      "title": "关于e的思考",
+      "url": "https://zhuanlan.zhihu.com/p/64359661",
+      "summary": "正文用指数不等式、反复开方和数值逼近讨论自然常数 e 的取值与来源。"
+    },
+    {
+      "title": "如何证明著名的π与e是无理数？",
+      "url": "https://zhuanlan.zhihu.com/p/68095343",
+      "summary": "正文先给出 e 的级数表达，再证明 e 及正整数次幂 e^k 都不可能是有理数。"
+    },
+    {
+      "title": "身边的微分方程 (1)：自然常数e的身世之谜",
+      "url": "https://zhuanlan.zhihu.com/p/48350238",
+      "summary": "正文用复利极限和微分方程近似解解释自然常数 e 的定义及来源。"
+    },
+    {
+      "title": "【“数”你好看】求导",
+      "url": "https://zhuanlan.zhihu.com/p/70443521",
+      "summary": "正文在推导导数等于自身的指数函数时，以该极限定义自然对数的底数 e。"
+    },
+    {
+      "title": "谷歌造出拉马努金机：几毫秒求解数学常数，无需任何先验信息",
+      "url": "https://zhuanlan.zhihu.com/p/72462506",
+      "summary": "正文把自然对数的底 e 作为可由连分数表示并快速逼近的基本常数之一进行说明。"
+    },
+    {
+      "title": "﻿从无理数中算出整数--形形色色的“近整数”",
+      "url": "https://zhuanlan.zhihu.com/p/77005867",
+      "summary": "正文围绕e的幂与π的组合讨论近整数，并说明e^π的超越性。"
+    },
+    {
+      "title": "初学讲义之高中数学七：对数",
+      "url": "https://zhuanlan.zhihu.com/p/80872763",
+      "summary": "正文用数列极限定义自然对数的底 e，说明它是无理数并介绍以 e 为底的对数记号。"
+    },
+    {
+      "title": "如何让8岁表妹1分钟明白：e^π和π^e谁大的问题？",
+      "url": "https://zhuanlan.zhihu.com/p/107677027",
+      "summary": "正文用银行存款复利不断细分结算周期，说明收益趋于自然对数底数 e。"
+    },
+    {
+      "title": "自然常数e为什么这么重要?",
+      "url": "https://zhuanlan.zhihu.com/p/114266598",
+      "summary": "正文通过复利和连续结算的增长过程说明自然常数 e 是有限增长极限，并给出其数值。"
+    },
+    {
+      "title": "【组合计数】错排问题",
+      "url": "https://zhuanlan.zhihu.com/p/137941999",
+      "summary": "正文把错排公式与自然对数底e的指数函数麦克劳林展开联系起来，并由此得到n!与错排数之比的极限。"
+    },
+    {
+      "title": "从自然常数e到电容充电的遐想",
+      "url": "https://zhuanlan.zhihu.com/p/149536512",
+      "summary": "正文以自然常数e的极限定义作为推导起点。"
+    },
+    {
+      "title": "由方程 x^x^x^x^ ... = 4 引发的讨论 —— 无穷迭代幂次大探险",
+      "url": "https://zhuanlan.zhihu.com/p/168578462",
+      "summary": "正文求出无穷迭代幂次的收敛域端点 e^{-e} 与 e^{1/e}，并用自然常数 e 刻画有解边界。"
+    },
+    {
+      "title": "速学微积分(5/9) 洛必达法则",
+      "url": "https://zhuanlan.zhihu.com/p/259898001",
+      "summary": "正文以重要极限定义自然对数的底数 e，并解释其名称由来。"
+    },
+    {
+      "title": "如何发展自己的数学直觉",
+      "url": "https://zhuanlan.zhihu.com/p/104354419",
+      "summary": "正文用复利和连续增长解释自然常数 e，并联系其级数、微分方程与自然对数定义。"
+    },
+    {
+      "title": "第七讲 极限存在准则和两个重要极限",
+      "url": "https://zhuanlan.zhihu.com/p/264539009",
+      "summary": "正文由单调有界数列证明第二个重要极限，并说明该极限定义自然对数的底数 e。"
+    },
+    {
+      "title": "数学分析Mathematical Analysis笔记整理 第三章 极限与连续",
+      "url": "https://zhuanlan.zhihu.com/p/262934873",
+      "summary": "正文证明数列单调有界并由此定义自然对数的底数 e，说明其来源和数值。"
+    },
+    {
+      "title": "自然常数 e 为什么冠以 “自然” 二字。",
+      "url": "https://zhuanlan.zhihu.com/p/301680334",
+      "summary": "正文以自然常数 e 为主题，结合宝箱中奖概率、连续复利和对数螺线解释其定义及自然性。"
+    },
+    {
+      "title": "三大重要常数：π、e、欧拉常数的由来",
+      "url": "https://zhuanlan.zhihu.com/p/350972841",
+      "summary": "正文以数列极限定义自然对数的底数 e，并用几何平均不等式证明该数列单调有界。"
+    },
+    {
+      "title": "【高等数学】极限存在准则  两个重要极限",
+      "url": "https://zhuanlan.zhihu.com/p/355228120",
+      "summary": "正文将这一重要极限及其变形作为自然对数底数 e 的定义性极限来讲解。"
+    },
+    {
+      "title": "自然常数 e 的定义",
+      "url": "https://zhuanlan.zhihu.com/p/469223561",
+      "summary": "正文从复利极限出发定义自然常数 e，并说明极限式、级数式和导数式三种定义等价。"
+    },
+    {
+      "title": "自然常数e是怎么来的？",
+      "url": "https://zhuanlan.zhihu.com/p/503503589",
+      "summary": "正文以复利拆分例子解释序列随拆分次数增加而趋近的自然增长极限，并据此给出自然常数 e。"
+    },
+    {
+      "title": "讲透泰勒公式，让你成为高手！",
+      "url": "https://zhuanlan.zhihu.com/p/508226290",
+      "summary": "正文由e^x的无穷级数展开和无穷收敛半径得到e的级数表示及任意精度近似。"
+    },
+    {
+      "title": "数学揭秘：玄之又玄的自然底数e为何神奇又“自然”？",
+      "url": "https://zhuanlan.zhihu.com/p/518345382",
+      "summary": "正文以定义、历史、级数和多种性质系统介绍自然对数底数 e，说明其数值与来源。"
+    },
+    {
+      "title": "宝藏！欧拉公式如此直观易懂！",
+      "url": "https://zhuanlan.zhihu.com/p/534742027",
+      "summary": "正文从自然底数的极限定义出发，推导并延拓指数 e 的表达式。"
+    },
+    {
+      "title": "常用级数汇总（无穷篇）",
+      "url": "https://zhuanlan.zhihu.com/p/555981969",
+      "summary": "正文由e^x的泰勒展开代入x=-1得到1/e，并继续推导多个含e的级数和。"
+    },
+    {
+      "title": "瓦里斯(Wallis)公式和斯特林(Stirling)公式",
+      "url": "https://zhuanlan.zhihu.com/p/592186859",
+      "summary": "正文从对数积分的极限得到自然常数 e，并在斯特林公式中确定 e 的指数尺度。"
+    },
+    {
+      "title": "数学界最著名、最伟大、最美丽的公式之一——欧拉公式",
+      "url": "https://zhuanlan.zhihu.com/p/623881967",
+      "summary": "正文介绍自然常数 e 的发现背景、数值和由复利指数增长引出的意义。"
+    },
+    {
+      "title": "【优雅技巧】如何优雅地“注意到”关于e、π的不等式",
+      "url": "https://zhuanlan.zhihu.com/p/669285539",
+      "summary": "正文用 e 的连分数近似和定积分证明 e 的上下界，并系统讨论涉及 e 的不等式。"
+    },
+    {
+      "title": "欧拉公式的几种推导方法",
+      "url": "https://zhuanlan.zhihu.com/p/673935577",
+      "summary": "正文围绕自然底数 e 的极限定义讨论其数列与函数形式。"
+    },
+    {
+      "title": "为了庆祝π day，我们给π 介绍了一个对象？|happy π day",
+      "url": "https://zhuanlan.zhihu.com/p/687058009",
+      "summary": "正文用极限定义自然常数 e，并介绍其历史与常见公式。"
+    },
+    {
+      "title": "π就是“空间的节奏”，e是“时间的节奏”",
+      "url": "https://zhuanlan.zhihu.com/p/1953904068587155729",
+      "summary": "正文把 e 定义为自然对数的底数，说明连续复利、指数增长及其导数性质。"
+    },
+    {
+      "title": "微积分的本质",
+      "url": "https://zhuanlan.zhihu.com/p/1967689983981777766",
+      "summary": "正文从连续复利和极限引入自然常数 e，并给出其数值意义。"
+    },
+    {
+      "title": "神奇的指数",
+      "url": "https://zhuanlan.zhihu.com/p/1974859624567046154",
+      "summary": "正文介绍自然常数 e 的发现、命名和极限定义，并进一步讨论其级数表达式。"
+    }
+  ]
+}

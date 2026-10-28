@@ -1,0 +1,3761 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l5-t1-b1",
+  "sources": [
+    {
+      "title": "为什么「除以一个数等于乘以它的倒数」（底层的数学意义是什么）？",
+      "url": "https://www.zhihu.com/answer/32574859",
+      "summary": "用群的单位元和逆元解释除法等于乘以倒数。"
+    },
+    {
+      "title": "三维的布拉伐格子（Bravais lattice in 3D）为什么只有 14 种？",
+      "url": "https://www.zhihu.com/answer/34992900",
+      "summary": "正文以 Bravais 格子的有限旋转自同构群进行分类。"
+    },
+    {
+      "title": "如何理解巴那赫－塔斯基悖论（Banach-Tarski paradox）？",
+      "url": "https://www.zhihu.com/answer/37153805",
+      "summary": "正文将悖论根源归于 SO(3) 的自由群子群性质。"
+    },
+    {
+      "title": "数学专业的学生的毕业论文是怎样的？",
+      "url": "https://www.zhihu.com/answer/41769260",
+      "summary": "正文涉及有限群研究。"
+    },
+    {
+      "title": "一个立方体，每个面涂上黑色或白色，总共多少种不同的涂法？",
+      "url": "https://www.zhihu.com/answer/42108730",
+      "summary": "正文解释置换群和 Burnside 定理。"
+    },
+    {
+      "title": "可约群表示是什么？",
+      "url": "https://www.zhihu.com/answer/42650190",
+      "summary": "正文解释群表示。"
+    },
+    {
+      "title": "如何直观地理解群论？",
+      "url": "https://www.zhihu.com/answer/43448525",
+      "summary": "正文用几何对称、变换复合和群作用直观介绍群。"
+    },
+    {
+      "title": "如何直观地理解群论？",
+      "url": "https://www.zhihu.com/answer/43623199",
+      "summary": "正文澄清群由封闭变换操作刻画，而不只等同于几何对称。"
+    },
+    {
+      "title": "群论研究结构，「结构」一词是什么意思？跟数学有什么关系？",
+      "url": "https://www.zhihu.com/answer/62076400",
+      "summary": "正文从群定义、同构和抽象运算解释代数结构。"
+    },
+    {
+      "title": "群论研究结构，「结构」一词是什么意思？跟数学有什么关系？",
+      "url": "https://www.zhihu.com/answer/63523779",
+      "summary": "正文将群解释为对运算规律的抽象，并举同余加法例子。"
+    },
+    {
+      "title": "如何看待那些研究数学的人，数学到底有没有作用？",
+      "url": "https://www.zhihu.com/answer/72370499",
+      "summary": "正文定义群在集合上的作用并说明其用于研究群的结构。"
+    },
+    {
+      "title": "抽象代数里模是用来干什么的，感觉学的好乱啊？",
+      "url": "https://www.zhihu.com/answer/73719171",
+      "summary": "正文从对称和变换群解释群。"
+    },
+    {
+      "title": "为什么数学中一定要强调加法交换律？",
+      "url": "https://www.zhihu.com/answer/74647759",
+      "summary": "正文以封闭、结合律、单位元和逆元定义群。"
+    },
+    {
+      "title": "有哪些反直觉的数学现象？",
+      "url": "https://www.zhihu.com/answer/80664055",
+      "summary": "正文按阶数统计有限群的同构类型并讨论 1024 阶群。"
+    },
+    {
+      "title": "可以解释一下密码学中什么叫双线性配对吗？",
+      "url": "https://www.zhihu.com/answer/82350855",
+      "summary": "正文用三个循环群定义双线性配对并列出其性质。"
+    },
+    {
+      "title": "二阶正交矩阵可以根据纯旋转与否来分类，能具体解释一下吗？",
+      "url": "https://www.zhihu.com/answer/85104524",
+      "summary": "正文验证 SO(2) 的群结构并讨论子群、陪集与商群。"
+    },
+    {
+      "title": "工科生学习微分几何和李群学习的建议？",
+      "url": "https://www.zhihu.com/answer/89652188",
+      "summary": "正文从旋转复合不交换说明三维旋转应以群结构建模。"
+    },
+    {
+      "title": "粒子的自旋数是怎么得出来的，为什么有些是1/2，有些是1，2？可以用对称性求出来吗？",
+      "url": "https://www.zhihu.com/answer/92187439",
+      "summary": "正文围绕洛伦兹群、SU(2)及其二重覆盖关系展开群结构推导。"
+    },
+    {
+      "title": "为什么实际旋转角度是四元数里面的角度的两倍？有什么数学上的原因吗？",
+      "url": "https://www.zhihu.com/answer/93762542",
+      "summary": "正文说明单位四元数构成群，并推导其旋转表示的二重覆盖关系。"
+    },
+    {
+      "title": "谁能最简单的详解椭圆曲线算法，secp256k1 是如何生成公钥和私钥的？",
+      "url": "https://www.zhihu.com/answer/96016340",
+      "summary": "正文说明椭圆曲线点在所定义加法下构成有限循环群。"
+    },
+    {
+      "title": "Clifford 代数是什么, 它和 Dirac 算子有什么关系?",
+      "url": "https://www.zhihu.com/answer/96172330",
+      "summary": "正文以 Spin(n) 对 SO(n) 的覆盖关系说明流形的结构群。"
+    },
+    {
+      "title": "抽象代数教育可以在初高中引入吗？",
+      "url": "https://www.zhihu.com/answer/99209982",
+      "summary": "正文以群同态和群同构重新解释高中指数与对数内容，实质使用了群概念。"
+    },
+    {
+      "title": "学习代数的过程中，你掌握了哪些非平凡的例子？",
+      "url": "https://www.zhihu.com/answer/99756739",
+      "summary": "正文用正方体旋转构成置换群，并进一步推导群作用、轨道和稳定元。"
+    },
+    {
+      "title": "学习代数的过程中，你掌握了哪些非平凡的例子？",
+      "url": "https://www.zhihu.com/answer/101586014",
+      "summary": "正文通过编织群、置换群、SO(3) 与 SU(2) 的有限子群具体解释群结构。"
+    },
+    {
+      "title": "在数学或是计算机科学中，有什么优美的结论会有一些小的特例不满足？",
+      "url": "https://www.zhihu.com/answer/107845273",
+      "summary": "正文给出对称群自同构群的一条带例外结论，核心对象是群。"
+    },
+    {
+      "title": "如何理解有限单群分类定理？",
+      "url": "https://www.zhihu.com/answer/114702081",
+      "summary": "正文通过 Leech 格点点群与 Conway 群讲解有限单群发现史。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/115078072",
+      "summary": "正文把特殊正交群作为代数对象并说明其旋转含义。"
+    },
+    {
+      "title": "什么才是代数？",
+      "url": "https://www.zhihu.com/answer/122295995",
+      "summary": "正文说明五次方程研究如何引入群，并把群界定为满足运算律的对象集合。"
+    },
+    {
+      "title": "为何从一元五次方程开始就没有由有限次加、减、乘、除、开方运算构成的求根公式了？",
+      "url": "https://www.zhihu.com/answer/122354482",
+      "summary": "正文把五次方程不可根式解归因于五阶交错群的结构，并提到二十面体群对称性。"
+    },
+    {
+      "title": "如何给高中生解释群论？",
+      "url": "https://www.zhihu.com/answer/123680054",
+      "summary": "正文以二面体群、置换群、模3加法、同态同构和群作用解释群的结构。"
+    },
+    {
+      "title": "为什么会想到用异或来算SG函数？它的本质是什么？",
+      "url": "https://www.zhihu.com/answer/125184901",
+      "summary": "正文在游戏等价类上构造加法并验证其形成阿贝尔群。"
+    },
+    {
+      "title": "如何直观地理解群论？",
+      "url": "https://www.zhihu.com/answer/127659716",
+      "summary": "正文从集合与运算、四条群公理、正方形对称群和同构系统讲解群。"
+    },
+    {
+      "title": "商空间的本质如何理解？",
+      "url": "https://www.zhihu.com/answer/131112183",
+      "summary": "正文以整数模3和群除以正规子群解释代数商结构。"
+    },
+    {
+      "title": "有没有证明某函数不存在初等表示的一般思路？",
+      "url": "https://www.zhihu.com/answer/136265919",
+      "summary": "正文说明微分 Galois 群是 GL_n(C) 的代数子群，并以可解群刻画 Liouville 扩张。"
+    },
+    {
+      "title": "为何从一元五次方程开始就没有由有限次加、减、乘、除、开方运算构成的求根公式了？",
+      "url": "https://www.zhihu.com/answer/147582213",
+      "summary": "正文用五次置换群不可解与正规子群、商群的可解性说明群论判据。"
+    },
+    {
+      "title": "为何从一元五次方程开始就没有由有限次加、减、乘、除、开方运算构成的求根公式了？",
+      "url": "https://www.zhihu.com/answer/151649630",
+      "summary": "正文构造 S5、A5 及交换子层级，实质讲解置换群在方程可解性中的作用。"
+    },
+    {
+      "title": "为何从一元五次方程开始就没有由有限次加、减、乘、除、开方运算构成的求根公式了？",
+      "url": "https://www.zhihu.com/answer/151839928",
+      "summary": "正文从对称操作四性质出发定义群，并进一步讲解子群、正规子群、商群与可解群。"
+    },
+    {
+      "title": "为什么两个负数相乘等于一个正数，而不是等于负数？",
+      "url": "https://www.zhihu.com/answer/153066675",
+      "summary": "正文由加法、单位元和逆元定义阿贝尔群并说明减法来源。"
+    },
+    {
+      "title": "一个四人女生宿舍究竟能建多少个群？",
+      "url": "https://www.zhihu.com/answer/156964145",
+      "summary": "正文按阶数给出 1 至 4 阶群的同构分类，实质讨论群。"
+    },
+    {
+      "title": "动力系统和数论之间有什么超常的关系？",
+      "url": "https://www.zhihu.com/answer/175818881",
+      "summary": "正文大量使用李群、格子群及群作用刻画齐性动力系统和数论问题。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/177805667",
+      "summary": "正文对有限除环的乘法群使用共轭类方程完成证明。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/178041350",
+      "summary": "正文以乒乓引理和群作用说明如何证明矩阵生成的子群是自由群。"
+    },
+    {
+      "title": "有哪些听起来很厉害的专业术语？",
+      "url": "https://www.zhihu.com/answer/184784644",
+      "summary": "正文给出群的四条公理，并以整数加法解释阿贝尔群与交换律。"
+    },
+    {
+      "title": "历史上都有哪些名人的死亡方式比较离奇苦逼？",
+      "url": "https://www.zhihu.com/answer/187173988",
+      "summary": "正文说明伽罗瓦以群论研究方程可解条件及其历史意义。"
+    },
+    {
+      "title": "关于密码学有限域的乘法逆的问题？",
+      "url": "https://www.zhihu.com/answer/188767505",
+      "summary": "正文完整列出结合律、单位元和逆元，并用整数、有理数及模n集合举例。"
+    },
+    {
+      "title": "物理里有多少no go theorem引发的“血案”？",
+      "url": "https://www.zhihu.com/answer/189201471",
+      "summary": "正文用 U(N) 与 SU(N) 规范群分析群封闭性条件。"
+    },
+    {
+      "title": "有哪些人品很差而个人成就很高的名人？",
+      "url": "https://www.zhihu.com/answer/189353715",
+      "summary": "正文解释群是基础代数结构，以及环、域和模如何在群上增加运算与公理。"
+    },
+    {
+      "title": "何为分析方法、代数方法、几何方法、拓扑方法？",
+      "url": "https://www.zhihu.com/answer/194031701",
+      "summary": "正文定义覆盖变换群和模群，并用模群对 Teichmüller 空间分类。"
+    },
+    {
+      "title": "你所在数学领域的 big picture 是什么？",
+      "url": "https://www.zhihu.com/answer/201081140",
+      "summary": "正文研究高秩群、格子群及其在齐性空间和流形上的群作用。"
+    },
+    {
+      "title": "请问陪集、左陪集、商群、正规子群该如何理解？",
+      "url": "https://www.zhihu.com/answer/204840915",
+      "summary": "正文用等价类比喻解释陪集、商群和正规子群。"
+    },
+    {
+      "title": "商空间的本质如何理解？",
+      "url": "https://www.zhihu.com/answer/205757445",
+      "summary": "正文说明群论中的商集、子群和陪集与商空间的对应。"
+    },
+    {
+      "title": "请问该如何理解群的作用、轨道稳定子定理和西罗定理呀？",
+      "url": "https://www.zhihu.com/answer/206887144",
+      "summary": "正文从群作用、轨道、稳定子群及凯莱定理系统解释群的具体实现。"
+    },
+    {
+      "title": "什么是 spin geometry？",
+      "url": "https://www.zhihu.com/answer/211864145",
+      "summary": "正文解释Spin(n)与SO(n)的二重覆叠群关系。"
+    },
+    {
+      "title": "李代数(Lie algebra)有哪些应用？",
+      "url": "https://www.zhihu.com/answer/231057253",
+      "summary": "正文以等距变换群说明几何中的李群来源。"
+    },
+    {
+      "title": "什么是对称性？",
+      "url": "https://www.zhihu.com/answer/233085089",
+      "summary": "正文用对称群和群作用统一刻画图形对称。"
+    },
+    {
+      "title": "如何通俗地解释欧拉角？之后为何要引入四元数？",
+      "url": "https://www.zhihu.com/answer/236636664",
+      "summary": "正文用Spin群作为SO群的万有覆叠解释三维旋转。"
+    },
+    {
+      "title": "螺旋轴和滑移面是如何保护晶体里 Dirac 点的产生的？",
+      "url": "https://www.zhihu.com/answer/238613168",
+      "summary": "正文按平移群陪集分解晶体空间群并研究群作用。"
+    },
+    {
+      "title": "群论和拓扑学有什么关系？",
+      "url": "https://www.zhihu.com/answer/239375386",
+      "summary": "正文解释拓扑空间的基本群与拓扑群。"
+    },
+    {
+      "title": "如何利用群论的知识解决三阶魔方？",
+      "url": "https://www.zhihu.com/answer/254980625",
+      "summary": "正文以魔方群及逐级子群解释 Thistlethwaite 还原算法。"
+    },
+    {
+      "title": "有哪些答案很简单而过程十分复杂的问题？",
+      "url": "https://www.zhihu.com/answer/263311976",
+      "summary": "正文介绍有限简单群分类定理的结论类别与庞大证明规模。"
+    },
+    {
+      "title": "如何理解 Van-Kampen 定理？",
+      "url": "https://www.zhihu.com/answer/275323329",
+      "summary": "正文解释群范畴中的自由积与共合积。"
+    },
+    {
+      "title": "流形、微分几何研究的具体是什么？能不能用简单的话总结一下？",
+      "url": "https://www.zhihu.com/answer/277132694",
+      "summary": "正文解释群论作为刻画几何对称性的工具。"
+    },
+    {
+      "title": "你最喜欢的一句数学界的名言是什么？",
+      "url": "https://www.zhihu.com/answer/278460811",
+      "summary": "正文明确说明伽罗瓦在方程可解性工作中使用并开创群论。"
+    },
+    {
+      "title": "数学家面对复杂的数学算式时，还能把它和直观的概念联系在一起吗？",
+      "url": "https://www.zhihu.com/answer/280702026",
+      "summary": "正文以正十二面体对称性具体说明群。"
+    },
+    {
+      "title": "模2，x^7+1=(x^4+x^2+x+1)(x^3+x+1) 是如何分解得到的呢？",
+      "url": "https://www.zhihu.com/answer/289744787",
+      "summary": "正文说明多项式根在乘法下构成循环群。"
+    },
+    {
+      "title": "我们为什么要研究群表示？",
+      "url": "https://www.zhihu.com/answer/306923917",
+      "summary": "正文从群对集合、线性空间与范畴的作用解释群概念。"
+    },
+    {
+      "title": "我们为什么要研究群表示？",
+      "url": "https://www.zhihu.com/answer/306957397",
+      "summary": "正文讨论紧群、拓扑群和群概型本身的重建。"
+    },
+    {
+      "title": "这个代数问题是否对所有整数都有解？",
+      "url": "https://www.zhihu.com/answer/325508014",
+      "summary": "正文定义椭圆曲线上点的加法结构。"
+    },
+    {
+      "title": "密码学中的RSA算法和椭圆曲线算法的加密过程是怎样的?",
+      "url": "https://www.zhihu.com/answer/325511510",
+      "summary": "正文列出封闭性、结合性、单位元和逆元，并定义椭圆曲线点加法形成的阿贝尔群。"
+    },
+    {
+      "title": "如何评价球面卷积神经网络(Spherical CNNs)？",
+      "url": "https://www.zhihu.com/answer/332308804",
+      "summary": "正文用群论框架解释等变卷积。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/343993660",
+      "summary": "正文研究SL2商空间、格子群及其对角作用。"
+    },
+    {
+      "title": "数学中的「平凡」「非平凡」「退化」是什么含义？",
+      "url": "https://www.zhihu.com/answer/345977627",
+      "summary": "正文以只有一个元素的群解释平凡对象。"
+    },
+    {
+      "title": "哪段代码最能代表程序员的暴力美学？",
+      "url": "https://www.zhihu.com/answer/357812235",
+      "summary": "正文用状态群、子群与陪集说明穷举降维。"
+    },
+    {
+      "title": "数学中的“怪兽群”是什么概念？",
+      "url": "https://www.zhihu.com/answer/358979421",
+      "summary": "正文从有限群、正规子群、单群一路解释魔群。"
+    },
+    {
+      "title": "能否绝对地区分出虚数 i 与 -i？",
+      "url": "https://www.zhihu.com/answer/362979575",
+      "summary": "正文以整数加法群的同构说明代数结构对称性。"
+    },
+    {
+      "title": "科学史上有哪些令人惋惜的遗憾？",
+      "url": "https://www.zhihu.com/answer/374983540",
+      "summary": "正文说明伽罗瓦首先用群描述置换结构。"
+    },
+    {
+      "title": "科学史上有哪些令人惋惜的遗憾？",
+      "url": "https://www.zhihu.com/answer/375709856",
+      "summary": "正文说明群概念及群论由伽罗瓦工作发展。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/379066251",
+      "summary": "正文讨论一般群作用动力系统中的熵。"
+    },
+    {
+      "title": "自然数到底是否包括「0」？",
+      "url": "https://www.zhihu.com/answer/391452712",
+      "summary": "正文由半群、幺半群和群说明零作为加法单位元的作用。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/393002787",
+      "summary": "正文用模乘法群和群阶证明欧拉定理。"
+    },
+    {
+      "title": "如何看待 Oded Regev 荣获 2018 年哥德尔奖？",
+      "url": "https://www.zhihu.com/answer/437454719",
+      "summary": "正文为格密码相关数学结构引入群的概念。"
+    },
+    {
+      "title": "在代数、几何、分析、拓扑上学得好的人各有什么思维特点？",
+      "url": "https://www.zhihu.com/answer/444510192",
+      "summary": "正文以实数加法群与正实数乘法群的同构解释抽象结构。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/472397585",
+      "summary": "正文构造自由群及其作用来完成Banach-Tarski分解。"
+    },
+    {
+      "title": "如何（直观地）的理解同态和同构？",
+      "url": "https://www.zhihu.com/answer/487914082",
+      "summary": "正文以自然数的不同进制表示解释同构保持代数结构。"
+    },
+    {
+      "title": "有哪些看似荒谬的事，却有着合理的数学解释？",
+      "url": "https://www.zhihu.com/answer/488193637",
+      "summary": "正文用旋转群中的自由群解释 Banach-Tarski 现象。"
+    },
+    {
+      "title": "如何（直观地）的理解同态和同构？",
+      "url": "https://www.zhihu.com/answer/488445108",
+      "summary": "正文以群、商群和同态核解释同态与同构。"
+    },
+    {
+      "title": "什么是群胚(groupoid)？",
+      "url": "https://www.zhihu.com/answer/521329199",
+      "summary": "以群与群胚的关系、基本群和一族群的分解解释群结构。"
+    },
+    {
+      "title": "同构和同态有什么区别，它们可以用在哪些方面？",
+      "url": "https://www.zhihu.com/answer/526247988",
+      "summary": "以群为例说明同态保持运算、同构还要求双射，并解释商群与像。"
+    },
+    {
+      "title": "群论在数学分析中的应用？",
+      "url": "https://www.zhihu.com/answer/533095544",
+      "summary": "正文以紧李群为对象解释 Peter-Weyl 定理及其群论含义。"
+    },
+    {
+      "title": "如何理解「观点越高，事情越显得简单」这句话？",
+      "url": "https://www.zhihu.com/answer/533255138",
+      "summary": "正文给出群论视角下费马小定理成为拉格朗日定理推论的具体例子。"
+    },
+    {
+      "title": "有哪些令人为之惊叹的数学题目？",
+      "url": "https://www.zhihu.com/answer/536954168",
+      "summary": "正文给出特殊线性群换位子群的群论命题及等价矩阵表述。"
+    },
+    {
+      "title": "如何才能在高考前证明哥德巴赫猜想？",
+      "url": "https://www.zhihu.com/answer/561042170",
+      "summary": "正文实际展开了 21 阶群的 Sylow 子群分类论证。"
+    },
+    {
+      "title": "群论在数学分析中的应用？",
+      "url": "https://www.zhihu.com/answer/571960670",
+      "summary": "正文讲解拓扑群与群上的傅里叶分析。"
+    },
+    {
+      "title": "存在可以遍历三阶魔方所有情况的公式吗？",
+      "url": "https://www.zhihu.com/answer/573334611",
+      "summary": "正文把魔方状态与操作组织为群并分析遍历问题。"
+    },
+    {
+      "title": "如何编程判断一个数是否是质数？",
+      "url": "https://www.zhihu.com/answer/574767625",
+      "summary": "正文用乘法群及其二次、高次扩张的阶解释 n±1 方法和 APR-CL。"
+    },
+    {
+      "title": "有没有可能把 π 或 e 等无理数当成 1，这样就能使许多定理显而易见？",
+      "url": "https://www.zhihu.com/answer/578264375",
+      "summary": "正文从乘法群的单位元解释 1。"
+    },
+    {
+      "title": "博士即将毕业或已经毕业的你，做出了哪些科研贡献？",
+      "url": "https://www.zhihu.com/answer/579043493",
+      "summary": "正文讲解有限阿贝尔群上的加法组合研究。"
+    },
+    {
+      "title": "如何看待李群、李代数在机器人控制中的应用？",
+      "url": "https://www.zhihu.com/answer/586560160",
+      "summary": "把机器人位姿与刚体运动描述为李群上的状态。"
+    },
+    {
+      "title": "特殊函数有什么用？",
+      "url": "https://www.zhihu.com/answer/586828153",
+      "summary": "说明超几何函数等特殊函数会在半单李群的表示中自然出现。"
+    },
+    {
+      "title": "三阶魔方公式的最大周期是多少？对应的公式是什么？",
+      "url": "https://www.zhihu.com/answer/602534687",
+      "summary": "正文用置换群和半直积描述魔方状态群。"
+    },
+    {
+      "title": "一个猜想未被严谨证明也未被证伪时能否运用到科学研究或生产生活中？",
+      "url": "https://www.zhihu.com/answer/620249424",
+      "summary": "正文以有限阿贝尔群解释取模运算结构。"
+    },
+    {
+      "title": "群论解决问题的实例有哪些？",
+      "url": "https://www.zhihu.com/answer/645131488",
+      "summary": "把十二平均律移调建模为循环群对三和弦集合的作用。"
+    },
+    {
+      "title": "Galois理论包含了哪些东西？",
+      "url": "https://www.zhihu.com/answer/647553265",
+      "summary": "说明 Galois 群对素理想的群作用。"
+    },
+    {
+      "title": "戊基、己基、庚基有多少种同分异构体？有什么规律么？",
+      "url": "https://www.zhihu.com/answer/661571148",
+      "summary": "把分子对称操作组织成群作用。"
+    },
+    {
+      "title": "R^n与R^m作为abel加法群是同构的吗？(m≠n)？",
+      "url": "https://www.zhihu.com/answer/675202342",
+      "summary": "把实数加法群视为有理数域上的向量空间并构造群同构。"
+    },
+    {
+      "title": "数学该不该被踢出高考？数学有什么用处？",
+      "url": "https://www.zhihu.com/answer/736199111",
+      "summary": "正文以爱尔兰根纲领、李群和物理化学应用实质展开群论的作用。"
+    },
+    {
+      "title": "orbifold和groupoid有没有人了解？",
+      "url": "https://www.zhihu.com/answer/752357005",
+      "summary": "从群作用解释 orbifold 的局部模型。"
+    },
+    {
+      "title": "为何从一元五次方程开始就没有由有限次加、减、乘、除、开方运算构成的求根公式了？",
+      "url": "https://www.zhihu.com/answer/777776655",
+      "summary": "正文从对称群、子群、正规子群讲到可解群，为根式可解性提供群论判据。"
+    },
+    {
+      "title": "如何简要解释为什么五次多项式方程没有根式解？",
+      "url": "https://www.zhihu.com/answer/778207648",
+      "summary": "把多项式可解性归结为对称群的可解性。"
+    },
+    {
+      "title": "数学这门学科有多有趣？",
+      "url": "https://www.zhihu.com/answer/793899681",
+      "summary": "以正则性引理给出有限群上有界函数的结构分解。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/795337611",
+      "summary": "用四个矩阵元素的乘法规律构造不变量，并明确指出它们组成克莱因四元群。"
+    },
+    {
+      "title": "有哪些看起来很简单但做起来很难的数学题？",
+      "url": "https://www.zhihu.com/answer/833416049",
+      "summary": "正文明确给出群、共轭类及群同态诱导映射的群论问题。"
+    },
+    {
+      "title": "你买过哪些好玩的玩具？",
+      "url": "https://www.zhihu.com/answer/860311655",
+      "summary": "以魔方的对称性说明群论在益智玩具中的体现。"
+    },
+    {
+      "title": "一次函数 k+b=4         2k+b=2       这个怎么解呀？",
+      "url": "https://www.zhihu.com/answer/878883993",
+      "summary": "正文给出群的集合、二元运算、单位元与逆元的完整定义。"
+    },
+    {
+      "title": "怎么理解有理数系数五次及以上多项式方程无根式解？",
+      "url": "https://www.zhihu.com/answer/884144030",
+      "summary": "正文由群的定义展开到对称群、置换群、子群、可解群及相关例子。"
+    },
+    {
+      "title": "数学中有哪些最复杂的领域或最抽象的领域，复杂或抽象到什么程度？",
+      "url": "https://www.zhihu.com/answer/890545033",
+      "summary": "从正方形对称性构造二面体群并解释群同态。"
+    },
+    {
+      "title": "分母（除数）为什么不能为 0？",
+      "url": "https://www.zhihu.com/answer/910931148",
+      "summary": "正文从半群、幺元、零元和逆元的群论定义证明零元不存在逆元，因此不能作除数。"
+    },
+    {
+      "title": "如何通俗地解释李群和李代数的关系？",
+      "url": "https://www.zhihu.com/answer/931315125",
+      "summary": "正文具体核验 SO(3) 的封闭性、结合性、幺元和逆元等群公理。"
+    },
+    {
+      "title": "有理数和乘法运算构成阿贝尔群吗？",
+      "url": "https://www.zhihu.com/answer/931494998",
+      "summary": "正文给出阿贝尔群五条性质，并逐项判断有理数乘法为何不构成群。"
+    },
+    {
+      "title": "群论研究结构，「结构」一词是什么意思？跟数学有什么关系？",
+      "url": "https://www.zhihu.com/answer/965194367",
+      "summary": "正文用模 6 算术和直积实例解释群结构与同构。"
+    },
+    {
+      "title": "李群方面有什么推荐的书？各有何特色？",
+      "url": "https://www.zhihu.com/answer/969244135",
+      "summary": "正文分层说明李群、子群、同态和群表示理论。"
+    },
+    {
+      "title": "现在你有n个黑珠，n个白珠（珠子不分序号），请问你能做出多少种不同的珠串？(用含n的式子表达并证明）？",
+      "url": "https://www.zhihu.com/answer/1005550268",
+      "summary": "正文实质运用置换群作用、循环分解与不动点。"
+    },
+    {
+      "title": "为什么魔方做一系列有规律的动作最后永远会复原?",
+      "url": "https://www.zhihu.com/answer/1046488174",
+      "summary": "正文从群定义、有限群与元素阶推导魔方动作周期。"
+    },
+    {
+      "title": "为什么魔方做一系列有规律的动作最后永远会复原?",
+      "url": "https://www.zhihu.com/answer/1046815938",
+      "summary": "正文用置换与轮换群结构解释魔方动作的周期。"
+    },
+    {
+      "title": "度量几何是什么，为什么不用联络和曲率，是哪些人创立发展呢？",
+      "url": "https://www.zhihu.com/answer/1048711439",
+      "summary": "正文实质解释群与空间的几何作用。"
+    },
+    {
+      "title": "为什么魔方做一系列有规律的动作最后永远会复原?",
+      "url": "https://www.zhihu.com/answer/1051237474",
+      "summary": "正文把魔方动作表示为置换并用群论计算周期。"
+    },
+    {
+      "title": "77 的 88 次方的末位数字是多少？",
+      "url": "https://www.zhihu.com/answer/1054419573",
+      "summary": "正文把模乘法群及循环群结构用于计算。"
+    },
+    {
+      "title": "精通线性代数是种怎样的体验？怎样才能称得上精通线性代数？",
+      "url": "https://www.zhihu.com/answer/1076319255",
+      "summary": "正文围绕有限域上的群及其表示展开。"
+    },
+    {
+      "title": "抽象代数中，各种「代数结构」从何起源？",
+      "url": "https://www.zhihu.com/answer/1101112214",
+      "summary": "正文从离散对称性及代数方程解的对称性解释群概念的历史来源。"
+    },
+    {
+      "title": "为什么四则运算的运用这么广泛？",
+      "url": "https://www.zhihu.com/answer/1106316926",
+      "summary": "正文完整定义群、逆元并解释群方程的求解。"
+    },
+    {
+      "title": "怎样理解高等代数里的群环域、向量空间等抽象概念？",
+      "url": "https://www.zhihu.com/answer/1128484392",
+      "summary": "正文由封闭性、结合律、中性元与逆元逐步定义群。"
+    },
+    {
+      "title": "怎样理解高等代数里的群环域、向量空间等抽象概念？",
+      "url": "https://www.zhihu.com/answer/1139118948",
+      "summary": "正文逐步解释群的封闭性、结合律、单位元与逆元。"
+    },
+    {
+      "title": "为何平面波可以用球Bessel函数展开？",
+      "url": "https://www.zhihu.com/answer/1152642423",
+      "summary": "正文以李群表示统一解释特殊函数来源。"
+    },
+    {
+      "title": "2+2为什么等于4而不是22，加号的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1182956134",
+      "summary": "正文给出群的结合、单位元和逆元结构。"
+    },
+    {
+      "title": "(G/H)×H是否同构于G？",
+      "url": "https://www.zhihu.com/answer/1191221004",
+      "summary": "正文用商群、子群、半直积与内直积分析同构条件。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/1241792001",
+      "summary": "正文介绍怪兽群、模形式和 Monstrous Moonshine。"
+    },
+    {
+      "title": "如何（通过实例）理解李群上的积分？",
+      "url": "https://www.zhihu.com/answer/1278623323",
+      "summary": "正文明确以群结构定义李群并结合群作用。"
+    },
+    {
+      "title": "如何评价某留学生说“亚洲人数学能力其实很差”的vlog？",
+      "url": "https://www.zhihu.com/answer/1323847223",
+      "summary": "正文直接讲解“群”相关内容。"
+    },
+    {
+      "title": "如何通俗的解释什么是群论？",
+      "url": "https://www.zhihu.com/answer/1332967292",
+      "summary": "正文以旋转、封闭性和同构直观解释群论。"
+    },
+    {
+      "title": "高中数学竞赛中蕴含着怎样的大学数学?",
+      "url": "https://www.zhihu.com/answer/1347652047",
+      "summary": "正文指出 Polya 计数原理使用了群作用和轨道公式。"
+    },
+    {
+      "title": "你最钦佩的数学天才是谁？",
+      "url": "https://www.zhihu.com/answer/1354706471",
+      "summary": "正文介绍克莱因以对称群统一划分几何的观点。"
+    },
+    {
+      "title": "如何证明下面的整除关系成立？",
+      "url": "https://www.zhihu.com/answer/1371768768",
+      "summary": "正文把旋转操作组织为置换群并利用群作用计数。"
+    },
+    {
+      "title": "如何构建一套完整的数学知识体系？",
+      "url": "https://www.zhihu.com/answer/1397642008",
+      "summary": "正文由群定义展开到环、域和代数结构，并说明抽象代数规则可跨对象复用。"
+    },
+    {
+      "title": "有哪些有趣的数学史？",
+      "url": "https://www.zhihu.com/answer/1398085861",
+      "summary": "正文介绍伽罗瓦开创群论。"
+    },
+    {
+      "title": "初学抽代，觉得书上的定理都能掌握，但是课后习题往往一点思路都没有，应该怎么解决?",
+      "url": "https://www.zhihu.com/answer/1398346995",
+      "summary": "正文用有限群分类例子说明抽象代数学习。"
+    },
+    {
+      "title": "如何从数学角度证明魔方复原存在必可解策略？",
+      "url": "https://www.zhihu.com/answer/1427904169",
+      "summary": "正文用群作用与符号系统讨论魔方复原策略。"
+    },
+    {
+      "title": "伽罗瓦理论究竟讲了什么？为什么其中用到了群论的知识？",
+      "url": "https://www.zhihu.com/answer/1444625573",
+      "summary": "正文直接讲解或推导“群”相关内容。"
+    },
+    {
+      "title": "体现具体与抽象相结合的数学例子有哪些？",
+      "url": "https://www.zhihu.com/answer/1496092005",
+      "summary": "正文直接给出与「群」相关的解释、推导或应用。"
+    },
+    {
+      "title": "中国不教逻辑学吗？为什么？",
+      "url": "https://www.zhihu.com/answer/1510639585",
+      "summary": "正文以有限群扩张与李群为例说明逻辑在群论中的应用。"
+    },
+    {
+      "title": "你在做物理或数学中的哪个科研方向？大致在研究什么？",
+      "url": "https://www.zhihu.com/answer/1524336665",
+      "summary": "正文研究在有限群和局部紧群上扩展集的极值结构。"
+    },
+    {
+      "title": "为什么群元素要相乘，而不是其他运算呢？",
+      "url": "https://www.zhihu.com/answer/1525060643",
+      "summary": "正文直接讨论群，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "为什么感觉群论学起来比数学分析之类难好多？",
+      "url": "https://www.zhihu.com/answer/1528483514",
+      "summary": "正文直接讨论群，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "为什么感觉群论学起来比数学分析之类难好多？",
+      "url": "https://www.zhihu.com/answer/1529474210",
+      "summary": "正文直接讨论群，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "教儿子减法，个位不够要向十位借，儿子问「十位不肯借怎么办」该如何回答？",
+      "url": "https://www.zhihu.com/answer/1559289368",
+      "summary": "正文用群扩张与二阶上同调解释十进制的进位和借位。"
+    },
+    {
+      "title": "为什么感觉群论学起来比数学分析之类难好多？",
+      "url": "https://www.zhihu.com/answer/1561695090",
+      "summary": "正文从抽象二元运算解释群论的学习难点。"
+    },
+    {
+      "title": "114514 阶的群有哪几类？",
+      "url": "https://www.zhihu.com/answer/1582796331",
+      "summary": "正文用 Sylow 定理、正规子群与半直积分类 114514 阶群。"
+    },
+    {
+      "title": "有哪些值得推荐的《抽象代数》（近世代数）教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1605627327",
+      "summary": "正文直接讨论或应用该叶节点主题（抽象代数）。"
+    },
+    {
+      "title": "你最满意自己的科研成果是什么？",
+      "url": "https://www.zhihu.com/answer/1621502988",
+      "summary": "正文研究局部紧群中小倍增集合的群结构刻画。"
+    },
+    {
+      "title": "抽象代数、同调代数、交换代数、代数拓扑有什么关系？",
+      "url": "https://www.zhihu.com/answer/1645299517",
+      "summary": "正文梳理抽象代数作为群环域基础语言的地位。"
+    },
+    {
+      "title": "伽罗瓦理论到底想干什么？",
+      "url": "https://www.zhihu.com/answer/1653445249",
+      "summary": "正文用伽罗瓦对应联系域扩张与群链。"
+    },
+    {
+      "title": "有哪些值得推荐的《抽象代数》（近世代数）教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1680350028",
+      "summary": "正文讨论通过群论等例子学习抽象代数。"
+    },
+    {
+      "title": "Hopf代数在物理学里有什么应用？",
+      "url": "https://www.zhihu.com/answer/1704899808",
+      "summary": "正文把 Hopf 代数视为群所描述对称性的推广。"
+    },
+    {
+      "title": "如何（通过实例）理解李群上的积分？",
+      "url": "https://www.zhihu.com/answer/1705368106",
+      "summary": "正文以群结构与流形结构共同解释李群积分。"
+    },
+    {
+      "title": "湍流是否具有对称性或者存在某些对称破缺？",
+      "url": "https://www.zhihu.com/answer/1712722594",
+      "summary": "正文定义群并用对称群分析纳维－斯托克斯方程。"
+    },
+    {
+      "title": "为什么晶体只有 230 种空间结构？",
+      "url": "https://www.zhihu.com/answer/1723787508",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "近世代数里的直积和直和有什么区别，看起来感觉差不多耶?",
+      "url": "https://www.zhihu.com/answer/1756713932",
+      "summary": "正文用群、交换群与一般集合说明直积和直和的结构差异。"
+    },
+    {
+      "title": "Zm*何时为循环群？",
+      "url": "https://www.zhihu.com/answer/1757066500",
+      "summary": "正文完整证明模素数幂单位群何时成为循环群。"
+    },
+    {
+      "title": "伽罗瓦理论究竟讲了什么？为什么其中用到了群论的知识？",
+      "url": "https://www.zhihu.com/answer/1761015155",
+      "summary": "正文说明置换群和群论如何用于研究方程根的对称性。"
+    },
+    {
+      "title": "数学界为何走向抽象？",
+      "url": "https://www.zhihu.com/answer/1765881681",
+      "summary": "正文用群论说明抽象如何统一不同具体对象。"
+    },
+    {
+      "title": "如何求二面体群Dn的所有正规子群？",
+      "url": "https://www.zhihu.com/answer/1769878519",
+      "summary": "正文系统分类二面体群的正规子群与共轭类。"
+    },
+    {
+      "title": "准备着手学习代数，问下Artin的《代数》如何，还有就是中译版怎么样，谢谢?",
+      "url": "https://www.zhihu.com/answer/1770640017",
+      "summary": "正文给出群同构与群论入门的重点建议。"
+    },
+    {
+      "title": "如何找出对称群S₄的所有正规子群？",
+      "url": "https://www.zhihu.com/answer/1787813673",
+      "summary": "正文通过共轭类划分求对称群 S4 的全部正规子群。"
+    },
+    {
+      "title": "请问为什么数学中不废除除号“÷”？",
+      "url": "https://www.zhihu.com/answer/1814415131",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "多次试图学习抽象代数，但屡屡受挫，该怎么办？",
+      "url": "https://www.zhihu.com/answer/1863445521",
+      "summary": "正文用数论例子说明群、环、域等抽象结构。"
+    },
+    {
+      "title": "洛伦兹变换为什么是线性的，如何推导出它是线性的？",
+      "url": "https://www.zhihu.com/answer/1889380524",
+      "summary": "正文讨论 Lorentz 群、Poincaré 群及 O(3) 群的变换结构。"
+    },
+    {
+      "title": "规范场论中的 SU(3)、SU(2)、SU(1) 到底指什么？",
+      "url": "https://www.zhihu.com/answer/1892647840",
+      "summary": "正文用保持模长不变的变换说明 U(1)、SU(2)、SU(3) 的群结构。"
+    },
+    {
+      "title": "这个交错群的子群有哪些？",
+      "url": "https://www.zhihu.com/answer/1907585703",
+      "summary": "正文分类交错群 A4 的全部子群及正规子群。"
+    },
+    {
+      "title": "有什么游戏精巧地利用了数学？",
+      "url": "https://www.zhihu.com/answer/1943806606",
+      "summary": "正文明确以置换群研究魔方。"
+    },
+    {
+      "title": "正二十面体有 43380 种不同的展开图，这是怎么求的？",
+      "url": "https://www.zhihu.com/answer/1953423440",
+      "summary": "正文用十二面体图的自同构群除去重复展开图。"
+    },
+    {
+      "title": "任何一个群是否都是某个拓扑空间的基本群？",
+      "url": "https://www.zhihu.com/answer/1982281446",
+      "summary": "正文构造以任意给定群为基本群的拓扑空间。"
+    },
+    {
+      "title": "Dynkin diagram会在数学的哪些问题中出现，出现的原因是什么？",
+      "url": "https://www.zhihu.com/answer/1987009598",
+      "summary": "正文用有限群和表示分类解释Dynkin图。"
+    },
+    {
+      "title": "如何让普通人明白数学有多复杂？",
+      "url": "https://www.zhihu.com/answer/1991641113",
+      "summary": "正文介绍有限群分类和奇阶群可解定理。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/2039804122",
+      "summary": "正文以怪兽群与 J 函数系数解释著名数学巧合。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/2085420495",
+      "summary": "正文在模素数乘法下发现循环群、陪集与重排结构。"
+    },
+    {
+      "title": "代数拓扑为什么研究同调？",
+      "url": "https://www.zhihu.com/answer/2090743631",
+      "summary": "正文用群、群同态与商群构造同调群。"
+    },
+    {
+      "title": "哪些数学书让你相见恨晚？",
+      "url": "https://www.zhihu.com/answer/2116481026",
+      "summary": "正文以作者学习抽象代数的经历说明群与对称性的关系，并接着联系 Galois 理论。"
+    },
+    {
+      "title": "如何直观地理解群论？",
+      "url": "https://www.zhihu.com/answer/2144799707",
+      "summary": "正文用旋转与伸缩变换几何解释群、陪集、正规子群、商群和同态。"
+    },
+    {
+      "title": "既然有“群作用”，那有没有“环作用”、“域作用”？",
+      "url": "https://www.zhihu.com/answer/2146128070",
+      "summary": "正文从群同态和可逆变换解释群作用及其与几何运动的关系。"
+    },
+    {
+      "title": "有限群论这个研究方向前景如何?",
+      "url": "https://www.zhihu.com/answer/2210389404",
+      "summary": "正文概述有限群、有限单群分类、可解群、置换群和线性群。"
+    },
+    {
+      "title": "怎样评价布尔巴基学派？",
+      "url": "https://www.zhihu.com/answer/2235295456",
+      "summary": "正文从封闭运算和集合结构解释群论的基本观点。"
+    },
+    {
+      "title": "群论和拓扑的关系是什么？群论本来就是拓扑的一种形式？",
+      "url": "https://www.zhihu.com/answer/2241656301",
+      "summary": "正文比较群代数对象与拓扑对象的结构差异。"
+    },
+    {
+      "title": "有哪些不借助变换群的观点就很难解答的欧氏几何问题？",
+      "url": "https://www.zhihu.com/answer/2250358582",
+      "summary": "正文用三维旋转群的有限子群给正多面体分类。"
+    },
+    {
+      "title": "如何理解「李群、李代数的初衷就是求解微分方程」？",
+      "url": "https://www.zhihu.com/answer/2252192396",
+      "summary": "正文把解集的不变性表述为单参数连续变换群。"
+    },
+    {
+      "title": "伽罗瓦理论究竟讲了什么？为什么其中用到了群论的知识？",
+      "url": "https://www.zhihu.com/answer/2274203529",
+      "summary": "正文用群论解释方程根式可解性及伽罗瓦群。"
+    },
+    {
+      "title": "既然有“群作用”，那有没有“环作用”、“域作用”？",
+      "url": "https://www.zhihu.com/answer/2284564462",
+      "summary": "正文从群作用的定义分析为什么没有直接对应的环作用。"
+    },
+    {
+      "title": "在四维或更高维的空间中，该如何定义转动？",
+      "url": "https://www.zhihu.com/answer/2309288700",
+      "summary": "正文把高维旋转写成特殊正交群并讨论群结构。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/2321485606",
+      "summary": "正文叙述伽罗瓦提出群概念并发展群论。"
+    },
+    {
+      "title": "表示论都在做什么？几何表示论是什么？",
+      "url": "https://www.zhihu.com/answer/2365818346",
+      "summary": "正文通过两组满足群结构的线性变换解释群与群表示的关系。"
+    },
+    {
+      "title": "群论中第一同构定理和第二同构定理有哪些比较容易理解的应用？",
+      "url": "https://www.zhihu.com/answer/2380575434",
+      "summary": "正文证明群的第一、第二同构定理并解释其结构。"
+    },
+    {
+      "title": "法国为什么数学这么强？",
+      "url": "https://www.zhihu.com/answer/2409468584",
+      "summary": "正文在拉格朗日的方程研究脉络中说明其置换群思想成为后来群论的重要先驱。"
+    },
+    {
+      "title": "如何可视化地表现一个群？",
+      "url": "https://www.zhihu.com/answer/2412144811",
+      "summary": "正文以Cayley图与环图可视化群及其循环子群，属于群结构说明。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2442638023",
+      "summary": "正文说明有限群的合成列及单因子唯一分解。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2442763046",
+      "summary": "正文围绕群同态基本定理及其核、像和商群解释展开。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2443363324",
+      "summary": "正文给出有限非交换群在全部子群正规时的群结构分类。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2447759464",
+      "summary": "正文以拟随机群的不可约表示维数和集合乘法均匀性解释群论结论。"
+    },
+    {
+      "title": "群表示理论为什么主要研究特征标（矩阵的迹）而不是其他的一些不变量？",
+      "url": "https://www.zhihu.com/answer/2455249696",
+      "summary": "正文引用凯莱定理，把群与变换群联系起来。"
+    },
+    {
+      "title": "历史上有哪些令人可惜的天才？",
+      "url": "https://www.zhihu.com/answer/2476856847",
+      "summary": "正文从正方形的旋转与反射引入群的定义，并说明整数加法也构成群。"
+    },
+    {
+      "title": "如何评价人教版高中数学的选修3-*及以后的课本？",
+      "url": "https://www.zhihu.com/answer/2489651498",
+      "summary": "介绍选修教材中的对称与群，并将其定位为抽象代数入门。"
+    },
+    {
+      "title": "2022年度邵逸夫奖已经揭晓，谁能介绍一下数学科学奖的两位得主？",
+      "url": "https://www.zhihu.com/answer/2499989932",
+      "summary": "正文以近似群为例讨论群的子集在乘法下接近封闭的结构。"
+    },
+    {
+      "title": "一个高中生的疑问：数学究竟是自然界本就存在的某种联系，还是我们人类的创造？",
+      "url": "https://www.zhihu.com/answer/2509894851",
+      "summary": "正文用对称、群作用和轨道解释群概念，说明群并非只是四条抽象公理。"
+    },
+    {
+      "title": "学习代数应该遵从怎样的顺序和教材？",
+      "url": "https://www.zhihu.com/answer/2511316829",
+      "summary": "正文讨论有限群论的证明技巧特点，并建议非群论方向按需补学。"
+    },
+    {
+      "title": "存在比加法更“低级”的运算吗？",
+      "url": "https://www.zhihu.com/answer/2544267821",
+      "summary": "构造新的二元运算并验证交换律、结合律、分配律与单位元等代数运算性质。"
+    },
+    {
+      "title": "人类永远无法证明这个人看到的蓝色跟另一个人看到的蓝色是一样的，这个说法对吗？",
+      "url": "https://www.zhihu.com/answer/2563719908",
+      "summary": "正文用两个单元素群的具体例子说明群对象可以同构，却在集合编码层面仍是不同对象。"
+    },
+    {
+      "title": "能不能定义一个数 𝐼，与 0 的乘积等于 1？",
+      "url": "https://www.zhihu.com/answer/2566684122",
+      "summary": "给出群的定义，并用转向操作和矩阵作用的例子说明单位、逆元与群作用结合律。"
+    },
+    {
+      "title": "高中数学学那么多三角函数公式到底有什么用？",
+      "url": "https://www.zhihu.com/answer/2572017203",
+      "summary": "从图形对称变换引出等价关系与群的单位元、逆元、封闭性和结合律。"
+    },
+    {
+      "title": "群论的精髓、基本套路、用途是什么？",
+      "url": "https://www.zhihu.com/answer/2588712857",
+      "summary": "用相似、分解与顺序三种直观解释群论和非交换群的结构思想。"
+    },
+    {
+      "title": "做数学不同方向的人各有什么特点？",
+      "url": "https://www.zhihu.com/answer/2596415926",
+      "summary": "用 U(1) 群说明不同数学方向会从群结构出发形成不同理解。"
+    },
+    {
+      "title": "是否存在两个周期函数f(x)和g(x)，使得它们的和f(x)+g(x)≡x？",
+      "url": "https://www.zhihu.com/answer/2603766108",
+      "summary": "把实数集按 Z[√2] 的平移划分等价类，利用商群结构完成构造。"
+    },
+    {
+      "title": "如何通俗地解释李群和李代数的关系？",
+      "url": "https://www.zhihu.com/answer/2612548870",
+      "summary": "列出群的封闭性、幺元、逆元和结合律四条公理，并说明李群结构。"
+    },
+    {
+      "title": "固体物理中的倒格子有什么用？",
+      "url": "https://www.zhihu.com/answer/2619208059",
+      "summary": "把晶格平移对称操作组成阿贝尔群，并用群作用约化晶体问题。"
+    },
+    {
+      "title": "高斯作出正 17 边形的依据是什么？",
+      "url": "https://www.zhihu.com/answer/2625164779",
+      "summary": "计算伽罗瓦群的阶、生成元、循环结构与全部子群。"
+    },
+    {
+      "title": "怎样理解希尔伯特的名言“我们必须知道 我们必将知道”？",
+      "url": "https://www.zhihu.com/answer/2632589999",
+      "summary": "以 SL_n 群作用定义不变量多项式并研究不变量子代数。"
+    },
+    {
+      "title": "如何理解「李群、李代数的初衷就是求解微分方程」？",
+      "url": "https://www.zhihu.com/answer/2639750919",
+      "summary": "把微分同胚群与矩阵群作为李群，讨论群作用、稳定子与李约化。"
+    },
+    {
+      "title": "《原神》须弥新地图中的人物名称，是否有在暗示战双帕弥什的库洛？",
+      "url": "https://www.zhihu.com/answer/2645797447",
+      "summary": "从 Burnside 周期群问题引出 Kurosh 的代数局部有限性问题。"
+    },
+    {
+      "title": "你见过最有趣的数学笑话是什么？",
+      "url": "https://www.zhihu.com/answer/2647125095",
+      "summary": "用四条公理介绍群：封闭性、结合律、单位元与逆元。"
+    },
+    {
+      "title": "“加法群R同构于R^2”，这个结论是否依赖选择公理？",
+      "url": "https://www.zhihu.com/answer/2647347133",
+      "summary": "讨论实数加法群与平面加法群的同构、Baire 可测性与连续同构。"
+    },
+    {
+      "title": "能带如何与不可以约表示联系在一起？",
+      "url": "https://www.zhihu.com/answer/2647375714",
+      "summary": "研究哈密顿量对称群、D4 点群及其不可约表示。"
+    },
+    {
+      "title": "为什么裤子前后穿反了不能通过“把裤腰旋转180度”的方式调整（而裙子可以）？",
+      "url": "https://www.zhihu.com/answer/2662479197",
+      "summary": "用保持裤子形状不变的对称群及其 SO(2) 离散子群解释旋转裤腰的可行性。"
+    },
+    {
+      "title": "计算机专业有必要学好离散数学吗？",
+      "url": "https://www.zhihu.com/answer/2667298886",
+      "summary": "正文单独论述群论与代数系统如何抽象无法化为节点和边的状态关系，并用模运算构造具体代数系统。"
+    },
+    {
+      "title": "如何评价菲尔兹奖得主埃菲·杰曼诺夫全职加盟南方科技大学?",
+      "url": "https://www.zhihu.com/answer/2676696365",
+      "summary": "正文介绍了泽尔马诺夫解决限制 Burnside 问题这一群论核心成果，属于群论发展历史的具体讲解。"
+    },
+    {
+      "title": "怎样学习抽象代数？",
+      "url": "https://www.zhihu.com/answer/2715810325",
+      "summary": "说明群的定义如何从推广证明与寻找最简代数结构中自然产生。"
+    },
+    {
+      "title": "小学数学为什么不从集合论学起？",
+      "url": "https://www.zhihu.com/answer/2731927600",
+      "summary": "正文给出群运算的封闭性、结合律、幺元和逆元定义，并说明交换群即阿贝尔群，实质讲解了群这一代数结构。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/2733305834",
+      "summary": "正文叙述 Conway 与 Thompson 从 Leech 格发现 Co1、Co2、Co3 三个有限单群并给出其阶数。"
+    },
+    {
+      "title": "为什么伽罗瓦 19 岁就发明的群论，绝大多数那个专业的研究生终其一生都学不会？",
+      "url": "https://www.zhihu.com/answer/2734490955",
+      "summary": "正文用整数加法构成阿贝尔群这一具体例子说明加法交换律，并以此作为笑点。"
+    },
+    {
+      "title": "为什么裤子前后穿反了不能通过“把裤腰旋转180度”的方式调整（而裙子可以）？",
+      "url": "https://www.zhihu.com/answer/2746584583",
+      "summary": "正文把裤子的旋转问题表述为圆周群的作用，并讨论该作用的孤立不动点。"
+    },
+    {
+      "title": "一般一元五次方程没有根式解的秘密究竟在哪里？花费人类近三百年.?",
+      "url": "https://www.zhihu.com/answer/2747581893",
+      "summary": "正文用排列复合定义置换并说明置换群、子群和正规子群链，是群结构的实质展开。"
+    },
+    {
+      "title": "掌握什么思想会让你的数学水平有质的飞跃?",
+      "url": "https://www.zhihu.com/answer/2779634407",
+      "summary": "正文把群与抽象代数置于传统数学和现代结构数学的分界处，并说明群的对称性如何联系物理规律。"
+    },
+    {
+      "title": "为何从一元五次方程开始就没有由有限次加、减、乘、除、开方运算构成的求根公式了？",
+      "url": "https://www.zhihu.com/answer/2790699466",
+      "summary": "正文把保持结构不变的对称操作收集成群，并解释群的抽象性质。"
+    },
+    {
+      "title": "2022年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/2793325439",
+      "summary": "正文提出群上不变度量的长度谱命题，并讨论双曲群、一般群和相对双曲群情形。"
+    },
+    {
+      "title": "应用数学的研究领域有哪些？",
+      "url": "https://www.zhihu.com/answer/2808858299",
+      "summary": "正文说明群论研究带可逆结合运算的集合，并举矩阵群和几何图形对称群作为核心例子。"
+    },
+    {
+      "title": "有哪些数学上的定理让你感觉「这不显然吗，这还用证明」？",
+      "url": "https://www.zhihu.com/answer/2846865446",
+      "summary": "正文陈述 Schreier 定理，并概述把自由群实现为图的商的基本群后证明其子群仍自由。"
+    },
+    {
+      "title": "神经网络的万能逼近定理已经发展到什么地步了？",
+      "url": "https://www.zhihu.com/answer/2876413006",
+      "summary": "正文定义群在向量与张量上的作用，并利用 Cayley 定理讨论有限置换群及其不变性。"
+    },
+    {
+      "title": "我们在数学中为什么要引入复数？",
+      "url": "https://www.zhihu.com/answer/2885317558",
+      "summary": "正文运用 Sylow 定理和 p-群的正规群列，把 Galois 扩张的域问题转化为群的问题。"
+    },
+    {
+      "title": "在数学的不同领域中，有哪些定理用抽象废话的视角去看实质就是Yoneda lemma?",
+      "url": "https://www.zhihu.com/answer/2895719016",
+      "summary": "正文陈述Cayley定理，并把群的左乘作用实现为对称群中的置换子群。"
+    },
+    {
+      "title": "你见过哪些构思巧妙，令你眼界大开的数学问题？",
+      "url": "https://www.zhihu.com/answer/2904477498",
+      "summary": "正文用生成元及其逆元组成自由群元素，并通过替换为单位元验证不同钉子的消去条件。"
+    },
+    {
+      "title": "数学系的学生能硬核到什么程度？",
+      "url": "https://www.zhihu.com/answer/2905594619",
+      "summary": "正文把魔群解释为最大的散在单群，并结合群元素、单位元与群同态讨论其结构。"
+    },
+    {
+      "title": "球谐函数是什么？",
+      "url": "https://www.zhihu.com/answer/2931277533",
+      "summary": "正文从群表示空间和群作用出发，讨论 SO(3) 的表示及其在函数空间上的作用。"
+    },
+    {
+      "title": "数学中最著名的曲线和曲面分别是什么？",
+      "url": "https://www.zhihu.com/answer/2961227001",
+      "summary": "正文说明椭圆曲线上的点加法构成交换群，并比较其复数域、实数域和有理数域上的群结构。"
+    },
+    {
+      "title": "现代的数学研究抽象到了哪种地步？",
+      "url": "https://www.zhihu.com/answer/2976110636",
+      "summary": "正文从方程根的对称变换出发，讲述群概念的形成。"
+    },
+    {
+      "title": "为什么基本群一般是非交换的？",
+      "url": "https://www.zhihu.com/answer/2978678410",
+      "summary": "正文以纽结群乘积的不可交换关系解释基本群一般非交换，属于群及非交换结构的内容。"
+    },
+    {
+      "title": "现代的数学研究抽象到了哪种地步？",
+      "url": "https://www.zhihu.com/answer/2992635383",
+      "summary": "正文列举整数加法、实数乘法、旋转与魔方操作，逐项解释并统一抽象出群的封闭性、结合律、单位元和逆元。"
+    },
+    {
+      "title": "数学界为何走向抽象？",
+      "url": "https://www.zhihu.com/answer/2994672637",
+      "summary": "正文说明高次方程复根的对称性可由变换体现，而这些变换构成的集合引出了群。"
+    },
+    {
+      "title": "为什么数学家会提出群的上同调？",
+      "url": "https://www.zhihu.com/answer/3030875537",
+      "summary": "正文从基本群 G 出发解释群的同调，并把一维同调具体表示为群对其交换子子群的商群。"
+    },
+    {
+      "title": "为什么一道几何题不添加辅助线就做不出来，添加了才做的出来，添加辅助线后多了条件吗?",
+      "url": "https://www.zhihu.com/answer/3058410962",
+      "summary": "正文明确给出群在封闭性、结合性、单位元和逆元方面的定义条件，并用群解释消元法。"
+    },
+    {
+      "title": "抽象代数世界难题有哪些?",
+      "url": "https://www.zhihu.com/answer/3062188574",
+      "summary": "正文讨论逆 Galois 问题中有限群作为 Galois 群的实现，并列出涉及无挠群与群环的 Kaplansky 猜想。"
+    },
+    {
+      "title": "代数系统有哪些？群、环、域、格之外还有吗？",
+      "url": "https://www.zhihu.com/answer/3067989091",
+      "summary": "正文按运算性质和公理强弱定义原群、半群、幺半群、准群等类群结构，并说明这些结构同群的关系。"
+    },
+    {
+      "title": "如何直观地理解商群，理想？",
+      "url": "https://www.zhihu.com/answer/3080860170",
+      "summary": "正文以实数模整数和交换子子群为例，说明商群如何消去子群的影响并得到交换化。"
+    },
+    {
+      "title": "无法理解高等数学怎么办？",
+      "url": "https://www.zhihu.com/answer/3100267532",
+      "summary": "正文叙述伽罗瓦从高次方程根的对称变换出发，研究这些变换构成的集合，从而引出群概念。"
+    },
+    {
+      "title": "为什么说“旋量是矢量的平方根”？",
+      "url": "https://www.zhihu.com/answer/3101029714",
+      "summary": "正文以 SO(n)、Spin(n) 和二重覆盖群说明旋量与旋转群之间的群结构关系。"
+    },
+    {
+      "title": "有哪些算法惊艳到了你？",
+      "url": "https://www.zhihu.com/answer/3115956271",
+      "summary": "正文指出单位根群是循环群，并说明生成元的幂构成扩域空间的一组基。"
+    },
+    {
+      "title": "抽象代数、同调代数、交换代数、代数拓扑有什么关系？",
+      "url": "https://www.zhihu.com/answer/3127810932",
+      "summary": "正文以加法交换律和结合律说明如何从形式运算规则抽象出群。"
+    },
+    {
+      "title": "全体无理数在什么合成法则下构成群？",
+      "url": "https://www.zhihu.com/answer/3162117718",
+      "summary": "正文回答无理数如何通过双射诱导新合成法则构成群，并说明该法则保持群结构。"
+    },
+    {
+      "title": "恢复任意一个魔方的最少步数最多为多少？",
+      "url": "https://www.zhihu.com/answer/3163266029",
+      "summary": "正文说明研究者借助群论和陪集把魔方的巨量状态分组，从而降低枚举与求解规模。"
+    },
+    {
+      "title": "如何看待法国的数学水平？",
+      "url": "https://www.zhihu.com/answer/3165875770",
+      "summary": "正文从变换复合与逆变换定义群，并用该定义解释抽象群的来源和凯莱定理。"
+    },
+    {
+      "title": "交换律、结合律、分配律的本质是什么？",
+      "url": "https://www.zhihu.com/answer/3203257254",
+      "summary": "正文围绕群论为何把运算律放入定义，说明群与对称变换的关系以及抽象化的动机。"
+    },
+    {
+      "title": "交换律、结合律、分配律的本质是什么？",
+      "url": "https://www.zhihu.com/answer/3205321336",
+      "summary": "正文用群论中的集合、运算、逆元素和结合律解释抽象代数结构，说明结合律如何把动作视为可组合的群元素。"
+    },
+    {
+      "title": "魔方的数学理论基础是什么？",
+      "url": "https://www.zhihu.com/answer/3212848189",
+      "summary": "正文给出群的封闭性、结合律、恒元和逆元定义，并说明魔方操作在复合运算下构成群。"
+    },
+    {
+      "title": "现代数学已经发展到瓶颈期了吗？",
+      "url": "https://www.zhihu.com/answer/3215794699",
+      "summary": "正文具体评述了有限单群分类、散在群和魔群及其与模函数等领域的联系。"
+    },
+    {
+      "title": "辫群是什么？",
+      "url": "https://www.zhihu.com/answer/3228002665",
+      "summary": "正文用简单辫子及生成关系给出辫子群的群表示，具体展开了一个群的定义。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/3248141589",
+      "summary": "正文用自由群、满同态及第一同构定理证明任意群同构于自由群对正规子群的商群，并说明生成元与生成关系。"
+    },
+    {
+      "title": "如图，如果向量可以是弯的？",
+      "url": "https://www.zhihu.com/answer/3255262295",
+      "summary": "正文由环路同伦类定义基本群，并逐项说明道路类运算封闭、满足结合律且有单位元。"
+    },
+    {
+      "title": "三维旋转群SO（3）的有限子群，想要了解这个问题，应该看什么书或者资料？",
+      "url": "https://www.zhihu.com/answer/3256677757",
+      "summary": "正文通过群在球面上的作用、轨道和稳定化子证明 SO(3) 的有限子群分类。"
+    },
+    {
+      "title": "为什么n阶及以下的有限非阿贝尔群数量在n=64突增？",
+      "url": "https://www.zhihu.com/answer/3274003965",
+      "summary": "正文比较有限阿贝尔群与非阿贝尔群的同构类数量，并说明 p^k 阶有限群数量的快速增长估计。"
+    },
+    {
+      "title": "平面国的人会如何描述“绕z轴转动”的自由度？",
+      "url": "https://www.zhihu.com/answer/3311177677",
+      "summary": "正文用 SO(n) 表示 n 维转动群，并以子群结构解释三维与四维转动的关系。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3314867429",
+      "summary": "正文围绕非阿贝尔群上的集合增长结论及有限群上的相关问题介绍研究进展。"
+    },
+    {
+      "title": "现代科学的基石，或者说逻辑和理性的基石是什么？",
+      "url": "https://www.zhihu.com/answer/3327615524",
+      "summary": "正文从封闭性、结合律、恒等元和逆元说明群的定义，并以三角形对称变换作为具体例子。"
+    },
+    {
+      "title": "李群的基本群是怎么算出来的？",
+      "url": "https://www.zhihu.com/answer/3331646284",
+      "summary": "正文具体讨论特殊正交群等李群的群作用，并借轨道与稳定子分解研究这些群的结构。"
+    },
+    {
+      "title": "为什么数学家会提出群的上同调？",
+      "url": "https://www.zhihu.com/answer/3344522446",
+      "summary": "正文用群作用概括对称性的表达方式，并以群上同调讨论群在算术与几何中的作用。"
+    },
+    {
+      "title": "既然加法是基于群论的，为什么小学不先学群论？",
+      "url": "https://www.zhihu.com/answer/3363966565",
+      "summary": "正文说明整数加法构成阿贝尔群，并讨论加法教学之后引入群概念的关系。"
+    },
+    {
+      "title": "既然加法是基于群论的，为什么小学不先学群论？",
+      "url": "https://www.zhihu.com/answer/3364809131",
+      "summary": "正文把群论概括为对交换律、结合律、逆元和单位元等运算律的抽象，并讨论由此区分代数结构。"
+    },
+    {
+      "title": "既然加法是基于群论的，为什么小学不先学群论？",
+      "url": "https://www.zhihu.com/answer/3365885989",
+      "summary": "正文明确指出整数加法构成阿贝尔群，并用群结构解释交换律。"
+    },
+    {
+      "title": "既然加法是基于群论的，为什么小学不先学群论？",
+      "url": "https://www.zhihu.com/answer/3368068683",
+      "summary": "正文以整数加法说明阿贝尔群，并继续讨论子群、陪集和商群。"
+    },
+    {
+      "title": "请问解方程 2k⁴+9k³-9k+2=0 时，如何想到换元令 u=k-1/k？",
+      "url": "https://www.zhihu.com/answer/3380518541",
+      "summary": "正文用四元方程的 S4 对称群及寻找 C2 子群降次，说明群与子群在方程求解中的作用。"
+    },
+    {
+      "title": "如果伽罗瓦穿越到现今的北大数院，会被竞赛大神碾压吗？",
+      "url": "https://www.zhihu.com/answer/3381012305",
+      "summary": "正文回顾伽罗瓦年少创立群论、论文多年未被理解的历史，突出其开创群论的贡献及延迟认可。"
+    },
+    {
+      "title": "抽象代数的发展历史是怎样的？",
+      "url": "https://www.zhihu.com/answer/3394618192",
+      "summary": "正文结合一元高次方程的根式解问题，说明由多项式构造的伽罗瓦群同构于置换群，实质讲解了群论在代数方程研究中的作用。"
+    },
+    {
+      "title": "令人血压升高的群论错误使用方法都有什么？",
+      "url": "https://www.zhihu.com/answer/3397344757",
+      "summary": "正文系统讨论正规子群、商群、换位子群、群自同构和群展示等常见误区，实质讲解有限群的结构与同构。"
+    },
+    {
+      "title": "如何通俗理解一个数学命题既不能证明又不能证伪？",
+      "url": "https://www.zhihu.com/answer/3405990633",
+      "summary": "正文以群公理不能证明交换律为例，说明群未必交换且抽象公理不刻画唯一结构。"
+    },
+    {
+      "title": "2023 年，有哪些科研成果值得载入教科书？",
+      "url": "https://www.zhihu.com/answer/3408865309",
+      "summary": "正文以子群、陪集和近似子群刻画 PFR 猜想中的集合结构，实质讨论群论方法。"
+    },
+    {
+      "title": "如何用一句话证明你是数学系的？",
+      "url": "https://www.zhihu.com/answer/3416191188",
+      "summary": "正文给出群的具体定义，包括非空集合、二元运算、结合律、单位元与逆元。"
+    },
+    {
+      "title": "Clifford 代数是什么, 它和 Dirac 算子有什么关系?",
+      "url": "https://www.zhihu.com/answer/3424221986",
+      "summary": "正文由Clifford代数的偶乘积定义Spin群，并讨论其到SO(V)的群同态和覆叠结构。"
+    },
+    {
+      "title": "如何证明叉乘只存在R^3、R^7中？",
+      "url": "https://www.zhihu.com/answer/3424254624",
+      "summary": "正文用 Hurwitz/Jordan 代数的自同构群以及 Dynkin 图分类，解释叉乘只在 R^3、R^7 出现的代数结构来源。"
+    },
+    {
+      "title": "「数学之美」有什么例子？",
+      "url": "https://www.zhihu.com/answer/3426985252",
+      "summary": "正文用 SO_3 的有限子群分类说明正多面体旋转对称群，并导出五类正多面体。"
+    },
+    {
+      "title": "伽罗瓦理论究竟讲了什么？为什么其中用到了群论的知识？",
+      "url": "https://www.zhihu.com/answer/3427723999",
+      "summary": "正文完整给出群的公理，并用魔方操作、置换、子群和群作用解释群论概念。"
+    },
+    {
+      "title": "哪些数学公式让你觉得真的会有「神明」存在？",
+      "url": "https://www.zhihu.com/answer/3432263652",
+      "summary": "正文把群解释为对称的描述，并讨论有限单群分类、26 个散在单群及其阶数。"
+    },
+    {
+      "title": "为何从一元五次方程开始就没有由有限次加、减、乘、除、开方运算构成的求根公式了？",
+      "url": "https://www.zhihu.com/answer/3442323646",
+      "summary": "正文具体讨论置换之间如何复合、群乘法如何从陪集等价类中被发现，以及群结构的作用。"
+    },
+    {
+      "title": "如何了解 Open Quantum System 的前沿进展和研究现状？",
+      "url": "https://www.zhihu.com/answer/3457920866",
+      "summary": "正文以对称群、群扩张和短正合列组织混态相的分类，包含明确的具体群结构。"
+    },
+    {
+      "title": "是否存在一套动作，使得对于任意状态的魔方，只需要重复该动作到一定次数，都一定能还原？",
+      "url": "https://www.zhihu.com/answer/3517145243",
+      "summary": "正文以魔方操作构成置换群为线索，说明循环群、阿贝尔群与非阿贝尔魔方群的结构关系。"
+    },
+    {
+      "title": "怎么理解凯莱定理，每一个群都同构于一个变换群？",
+      "url": "https://www.zhihu.com/answer/3520123585",
+      "summary": "正文陈述并证明凯莱定理，说明任意群都可嵌入对称群的子群，属于群结构的基本结论。"
+    },
+    {
+      "title": "群论真的是伽罗瓦发明的吗？有没有代笔的可能性？",
+      "url": "https://www.zhihu.com/answer/3541540001",
+      "summary": "正文从三次、四次方程求根和五次方程不可解问题讲到置换思想，实质梳理了群论的问题起源与发展脉络。"
+    },
+    {
+      "title": "群论真的是伽罗瓦发明的吗？有没有代笔的可能性？",
+      "url": "https://www.zhihu.com/answer/3542067371",
+      "summary": "正文指出伽罗瓦处理的是置换群，并借凯莱定理说明它与一般群的关系。"
+    },
+    {
+      "title": "如何激怒一位数学爱好者？",
+      "url": "https://www.zhihu.com/answer/3561763447",
+      "summary": "正文以群元素和陪集等式说明 gH=kH 不能像普通元素等式那样直接消去，属于群论中的陪集性质。"
+    },
+    {
+      "title": "如何评价国际数学奥林匹克竞赛 IMO 2024 的试题？",
+      "url": "https://www.zhihu.com/answer/3567942198",
+      "summary": "正文具体利用不动点构成的子群、商群和陪集分析函数性质，实质涉及群结构思想。"
+    },
+    {
+      "title": "伽罗瓦理论究竟讲了什么？为什么其中用到了群论的知识？",
+      "url": "https://www.zhihu.com/answer/3572206393",
+      "summary": "正文定义群、子群、陪集、正规子群和群同态，并证明拉格朗日定理等群论基础结论。"
+    },
+    {
+      "title": "有哪些看起来简洁却很难的数学题？",
+      "url": "https://www.zhihu.com/answer/3572456778",
+      "summary": "正文以奇阶定理说明奇数阶群必为可解群，并指出其证明超过250页。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/3612752774",
+      "summary": "正文列举商群同构、自同构群、循环群判定及Feit-Thompson定理等群论结论。"
+    },
+    {
+      "title": "直积、直和、笛卡尔积、张量积的区别是什么，在科普书上看到的，求一个直观的通俗解释？",
+      "url": "https://www.zhihu.com/answer/3627193575",
+      "summary": "正文给出群的直积运算，并通过投影、同态和泛性质说明直积与直和的区别。"
+    },
+    {
+      "title": "如何求n维实特殊线性群SL(n,R)的所有正规子群？",
+      "url": "https://www.zhihu.com/answer/3637691913",
+      "summary": "正文完整证明 SL(n,R) 的正规子群分类，并分奇偶维数讨论其结果。"
+    },
+    {
+      "title": "如果伽罗瓦穿越到现今的北大数院，会被竞赛大神碾压吗？",
+      "url": "https://www.zhihu.com/answer/4055739018",
+      "summary": "正文以非零系数下的映射为例，说明自同构性质如何使一族映射构成群。"
+    },
+    {
+      "title": "伽罗瓦理论到底想干什么？",
+      "url": "https://www.zhihu.com/answer/4203116945",
+      "summary": "正文把所有保持基域不变的自同构组成自同构群，并具体讨论二阶群和六阶非交换群。"
+    },
+    {
+      "title": "如何评价拉格朗日在数学史上的地位和人类史上的地位？",
+      "url": "https://www.zhihu.com/answer/4753964076",
+      "summary": "正文明确陈述有限群及其子群阶的拉格朗日定理，并说明其证明费马小定理等应用。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/15708916248",
+      "summary": "正文给出群的二元运算、结合律、单位元和逆元的完整定义，并解释其性质。"
+    },
+    {
+      "title": "群论和拓扑学有什么关系？",
+      "url": "https://www.zhihu.com/answer/16159633138",
+      "summary": "正文给出群的结合律、单位元和逆元定义，并以矩阵群、对称群、二面体群、循环群及群同态等内容系统展开群论。"
+    },
+    {
+      "title": "有没有真子群全部是有限群的无限群？",
+      "url": "https://www.zhihu.com/answer/18101660863",
+      "summary": "正文讨论真子群全为有限群的无限交换与非交换群，并涉及 Prüfer 群、局部有限群和 Tarski monster。"
+    },
+    {
+      "title": "精通群论是怎样一种体验？",
+      "url": "https://www.zhihu.com/answer/20652411209",
+      "summary": "正文系统给出群的公理定义、单位元与逆元性质，并讨论子群、商群、群作用和同态等群论内容。"
+    },
+    {
+      "title": "作为纯数的重要分支，概率论在国内的发展为什么这么滞后？",
+      "url": "https://www.zhihu.com/answer/24656324428",
+      "summary": "正文以群为例讨论随机选取元素后封闭结构被破坏，以及从集合重新构造群所遇到的困难。"
+    },
+    {
+      "title": "高中阶段自己独立思考硬刚写出来的题和直接看答案，二者效果上有什么区别?",
+      "url": "https://www.zhihu.com/answer/27273297219",
+      "summary": "正文讨论自同构群、内自同构群，并以 S3 的等边三角形变换及复合顺序深化群的理解。"
+    },
+    {
+      "title": "群作用到底厉害在哪里？",
+      "url": "https://www.zhihu.com/answer/31432738493",
+      "summary": "正文以代数群在代数簇上的作用为主线，说明平移分量如何避免纤维积产生额外维数。"
+    },
+    {
+      "title": "为什么数学家会提出群的上同调？",
+      "url": "https://www.zhihu.com/answer/39916922274",
+      "summary": "正文从群 G 及其整数群环上的模 A 出发定义系数群上同调。"
+    },
+    {
+      "title": "可以举例说明多项式的伽罗瓦群吗?",
+      "url": "https://www.zhihu.com/answer/40452647499",
+      "summary": "正文以伽罗瓦群的自同构、子群及正规子群结构解释群与中间域的对应关系。"
+    },
+    {
+      "title": "粒子自旋到底是个运动性质还是几何性质？",
+      "url": "https://www.zhihu.com/answer/58607407128",
+      "summary": "正文把连续变换及其矩阵构成的对象说明为连续群，并以旋转群为例讨论群结构。"
+    },
+    {
+      "title": "a/(b+c)+b/(a+c)+c/(a+b)=6 a b c是正整数 求 a b c？",
+      "url": "https://www.zhihu.com/answer/60781144321",
+      "summary": "正文利用 Mordell-Weil 定理说明椭圆曲线有理点构成有限生成交换群，并讨论挠点群、秩与生成元。"
+    },
+    {
+      "title": "球坐标拉普拉斯方程的分离变量，可以根据球对称性预言特征函数的形式吗？",
+      "url": "https://www.zhihu.com/answer/62105986124",
+      "summary": "正文构造三维转动群的矩阵表示，并用群论分析空间转动与方程解的对称变换。"
+    },
+    {
+      "title": "2024 年，数学领域都有哪些令人激动的新进展与重要发现？",
+      "url": "https://www.zhihu.com/answer/66459027393",
+      "summary": "正文概述有限单群及其例外李型群极大子群分类的进展，并置于群论分类问题背景中。"
+    },
+    {
+      "title": "北大数学家袁新意论文登数学顶刊，统一了算术与几何 Bogomolov 猜想，有哪些意义？影响有多大？",
+      "url": "https://www.zhihu.com/answer/69367299949",
+      "summary": "正文通过割线切线与无穷远点定义椭圆曲线上的加法，并说明其交换群结构如何产生扭点和秩。"
+    },
+    {
+      "title": "如何把画框挂在三颗钉子上，使得去掉任意一颗钉子，画框都会掉下去？",
+      "url": "https://www.zhihu.com/answer/71975736903",
+      "summary": "正文把绕钉子的方向编码为生成元及其逆元，并通过自由群词中的相消判断挂画是否脱落。"
+    },
+    {
+      "title": "Hurwitz定理怎样证明？",
+      "url": "https://www.zhihu.com/answer/87653921776",
+      "summary": "正文构造矩阵群 G，研究其中心、换位子群、共轭类和群同态，并用群论完成 Hurwitz 定理第一部分的关键整除证明。"
+    },
+    {
+      "title": "如何真正从本质上理解数学?",
+      "url": "https://www.zhihu.com/answer/88308177111",
+      "summary": "正文围绕封闭性、结合律、单位元和逆元逐项解释群，并用技能组合的类比说明各条运算规则。"
+    },
+    {
+      "title": "蛇年将至，如何用你的兴趣/专业技能画一条蛇？",
+      "url": "https://www.zhihu.com/answer/89296443495",
+      "summary": "正文定义辫群的生成元与关系，说明其到置换群的群同态，并以同态的核定义单纯辫群。"
+    },
+    {
+      "title": "如何评价清华大学求真书院推出的「杰出少年数学示范班」?",
+      "url": "https://www.zhihu.com/answer/92292250347",
+      "summary": "正文具体介绍正规子群、置换群、换位子群和可解群，并用正十二面体对称群说明群的结构。"
+    },
+    {
+      "title": "数学的本质究竟是什么？",
+      "url": "https://www.zhihu.com/answer/92835475393",
+      "summary": "正文逐项用协作例子解释群的封闭性、结合律、单位元和逆元四条公理。"
+    },
+    {
+      "title": "数学的本质是什么?",
+      "url": "https://www.zhihu.com/answer/92843230048",
+      "summary": "正文以舞蹈动作组合为例说明群的封闭性、结合律、单位元和逆元。"
+    },
+    {
+      "title": "你认为有哪些研究生阶段才教的东西完全可以放到本科甚至高中来学习？",
+      "url": "https://www.zhihu.com/answer/92871760196",
+      "summary": "正文主张用三阶魔方操作和晶体对称操作作为群论入门，并讨论群论与线性代数、表示论的联系。"
+    },
+    {
+      "title": "数学本质是什么？",
+      "url": "https://www.zhihu.com/answer/101070015270",
+      "summary": "正文说明群的封闭性、结合律、单位元和逆元，并讨论其应用。"
+    },
+    {
+      "title": "代数系统有哪些？群、环、域、格之外还有吗？",
+      "url": "https://www.zhihu.com/answer/109358751940",
+      "summary": "正文给出群作为带有逆元运算的幺半群的代数结构定义。"
+    },
+    {
+      "title": "如何只用线性空间的8条性质证明，对任何数乘定义，R不是C上的线性空间？",
+      "url": "https://www.zhihu.com/answer/111221360153",
+      "summary": "正文把 R 和 C 视为 Q-线性空间，并利用二者作为 Abel 群的同构及自同态构造数乘，实质使用了群结构与群同构。"
+    },
+    {
+      "title": "有哪些数学定理今天看起来很平凡，但在当时的证明却很困难？",
+      "url": "https://www.zhihu.com/answer/113510497708",
+      "summary": "正文给出有限群的 Cauchy 定理及证明，用有限群上的循环群作用推出素因子对应的同阶元素存在，实质讲解有限群结构。"
+    },
+    {
+      "title": "拓扑学的思想能帮助我们理解哪些日常现象？",
+      "url": "https://www.zhihu.com/answer/125217508081",
+      "summary": "正文将正实数的乘法结构作为歧义群，指出其群运算和单位元，并进一步使用 Z₂ 群表示歧义。"
+    },
+    {
+      "title": "数学中的美体现在哪里?",
+      "url": "https://www.zhihu.com/answer/125898814310",
+      "summary": "正文以群和群同构为例，说明保持运算结构的双射以及群对多种对称结构的统一描述。"
+    },
+    {
+      "title": "群论和拓扑学有什么关系？",
+      "url": "https://www.zhihu.com/answer/129992063047",
+      "summary": "正文把柯西方程的解视为加法群同态，并讨论何种群同态会自动连续。"
+    },
+    {
+      "title": "拓扑学的思想能帮助我们理解哪些日常现象？",
+      "url": "https://www.zhihu.com/answer/130067647109",
+      "summary": "正文证明单位四元数群 Sp(1) 是 SO(3) 的单连通二重覆盖，并给出 Sp(1)/{±1} 与 SO(3) 的同构。"
+    },
+    {
+      "title": "群论和拓扑学有什么关系？",
+      "url": "https://www.zhihu.com/answer/130098740059",
+      "summary": "正文定义群同态与同构，并证明基本群在同胚下诱导同构。"
+    },
+    {
+      "title": "如何直观地理解群论？",
+      "url": "https://www.zhihu.com/answer/130442397667",
+      "summary": "正文给出群的集合与二元运算定义，并逐条解释封闭性、结合性、单位元和逆元。"
+    },
+    {
+      "title": "数学中的群、环、域三者的严格数学定义是什么？",
+      "url": "https://www.zhihu.com/answer/131254225704",
+      "summary": "正文给出群的封闭性、结合律、单位元和逆元四条公理，并说明阿贝尔群等性质。"
+    },
+    {
+      "title": "在数学学习中，你遇到过哪些有趣的同构？",
+      "url": "https://www.zhihu.com/answer/1892636829179696368",
+      "summary": "正文证明阶为 p^2 的群分别同构于循环群或两个 p 阶群直积，实质讨论了有限群结构。"
+    },
+    {
+      "title": "为什么网上基本没有关于 n 元 n 方程的研究？",
+      "url": "https://www.zhihu.com/answer/1896700049133626559",
+      "summary": "正文把五次方程研究引向群论，说明群论以结构研究代替计算并归类数学运算。"
+    },
+    {
+      "title": "如何看待高中生提出一元十次方程求根公式？",
+      "url": "https://www.zhihu.com/answer/1896700055940982263",
+      "summary": "正文把五次方程研究引向群论，说明群论以结构研究代替计算并归类数学运算。"
+    },
+    {
+      "title": "如何评价2025年4月20日丘成桐数学水平考试?",
+      "url": "https://www.zhihu.com/answer/1897292114561332647",
+      "summary": "正文具体讨论对称群、交错群、共轭类、中心化子和群作用，并据此计算 A_7 的共轭类。"
+    },
+    {
+      "title": "为什么三角函数只与开平方有关，有没有开3，4...次方的?",
+      "url": "https://www.zhihu.com/answer/1897439071191687514",
+      "summary": "正文使用循环群、正规列和群扩张说明单位根方程根式解的结构。"
+    },
+    {
+      "title": "群的半直积的定义为何这么奇怪？",
+      "url": "https://www.zhihu.com/answer/1899054872776668527",
+      "summary": "正文用欧氏变换的旋转、平移及其乘法关系说明半直积如何把两个群耦合起来，并给出 E(3) 的半直积结构。"
+    },
+    {
+      "title": "人类可探索的数学会不会因为证明长过人类脑容量而穷尽？",
+      "url": "https://www.zhihu.com/answer/1901816035583194533",
+      "summary": "正文给出有限单群的定义，并概述通过分类无平凡正规子群的有限群来研究群结构。"
+    },
+    {
+      "title": "如果伽罗瓦穿越到现今的北大数院，会被竞赛大神碾压吗？",
+      "url": "https://www.zhihu.com/answer/1906312730320810622",
+      "summary": "正文具体陈述素数阶可解传递群的结构定理，并涉及Sylow子群、可解群和单群等群论性质。"
+    },
+    {
+      "title": "计算机学科用到的数学是否十分浅显，不涉及到高深的数学理论，比如抽象代数，代数拓扑，代数几何等?",
+      "url": "https://www.zhihu.com/answer/1911166654471190495",
+      "summary": "正文指出椭圆曲线密码直接建立在阿贝尔群结构之上，并以群论作为所需代数基础。"
+    },
+    {
+      "title": "如何证明拓扑群的基本群是阿贝尔群？",
+      "url": "https://www.zhihu.com/answer/1916367207140692396",
+      "summary": "正文利用拓扑群乘法与道路拼接两种群运算满足的分配律，完整证明基本群是阿贝尔群。"
+    },
+    {
+      "title": "如果允许使用对数 ，一般的一元五次方程能有代数解吗？",
+      "url": "https://www.zhihu.com/answer/1916655542388134571",
+      "summary": "正文具体定义闭合路径引起的根置换所构成的单值性群，并说明一般五次方程的该群是 S_5 且不可解。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/1916903147193996868",
+      "summary": "正文从平移群 T(1) 的群元素及其作用出发，并继续用 SO(2)、U(1)、SU(2) 和 SO(3) 举例说明群结构。"
+    },
+    {
+      "title": "圆和球的公式含 π，为什么到四维超球就变成 π² 了，三维为什么没有 √π？",
+      "url": "https://www.zhihu.com/answer/1918297644419220196",
+      "summary": "正文以特殊正交群 SO(n)、极大环面及其秩解释高维球体的旋转对称结构。"
+    },
+    {
+      "title": "为什么一元五次方程的通用求解公式可以利用椭圆模函数表示？或者说，为什么特殊函数可以用来求解多项式方程？",
+      "url": "https://www.zhihu.com/answer/1920401326241719780",
+      "summary": "正文说明正二十面体的六十种旋转构成群，并证明它与 A_5 同构。"
+    },
+    {
+      "title": "六次方程的根能否用五次方程的解表达?",
+      "url": "https://www.zhihu.com/answer/1920641727884133052",
+      "summary": "正文具体使用对称群、交错群、正规子群和商群判定复合域扩张的群结构。"
+    },
+    {
+      "title": "为什么伽罗瓦 19 岁就发明的群论，绝大多数那个专业的研究生终其一生都学不会？",
+      "url": "https://www.zhihu.com/answer/1923314360878629688",
+      "summary": "正文具体解释群、正规子群、商群、单群和合成列，并用置换群的分解说明方程的根式可解性。"
+    },
+    {
+      "title": "为什么伽罗瓦 19 岁就发明的群论，绝大多数那个专业的研究生终其一生都学不会？",
+      "url": "https://www.zhihu.com/answer/1924598752955578084",
+      "summary": "正文从有限群、有限单群分类和无穷群等层面讨论群论的深度与复杂性。"
+    },
+    {
+      "title": "有谁知道伽罗瓦用来证明一元五次方程所提到的预解式的结构吗？",
+      "url": "https://www.zhihu.com/answer/1926367975935550302",
+      "summary": "正文用根的置换构成对称群，并以稳定子群和轨道稳定子定理分析群作用。"
+    },
+    {
+      "title": "为什么课本上计算 Galois 群都是先求出根再计算的（不可解的除外）？",
+      "url": "https://www.zhihu.com/answer/1926427500826846761",
+      "summary": "正文以对称群、交错群及各类子群组织不同次数方程的伽罗瓦群分类。"
+    },
+    {
+      "title": "掌握什么思想会让你的数学水平有质的飞跃?",
+      "url": "https://www.zhihu.com/answer/1928190449547449106",
+      "summary": "正文以整数加法说明单位元、逆元和结合律所定义的群结构。"
+    },
+    {
+      "title": "交换律、结合律、分配律的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1930038450851153049",
+      "summary": "正文明确给出群公理，并展开非交换群的商群、同态核、共轭类和类方程。"
+    },
+    {
+      "title": "如果换一个合适的数系，是否会成功地发现质数出现的规律性？",
+      "url": "https://www.zhihu.com/answer/1930795510085706887",
+      "summary": "正文介绍群的生成元、关系式、词问题与不可判定性，并用于构造整数群环。"
+    },
+    {
+      "title": "物理系的数学课与数学系的数学课有多少区别？",
+      "url": "https://www.zhihu.com/answer/1931295573564175995",
+      "summary": "正文以群论学习为例，说明物理方向如何围绕群表示及对称性应用来学习群。"
+    },
+    {
+      "title": "掌握什么思想会让你的数学水平有质的飞跃?",
+      "url": "https://www.zhihu.com/answer/1931298770039054433",
+      "summary": "正文用子群和陪集被合并为一点的方式解释商群构造所体现的群结构思想。"
+    },
+    {
+      "title": "为什么大自然不允许三元数结构出现？",
+      "url": "https://www.zhihu.com/answer/1937610904331067984",
+      "summary": "正文围绕 Albert 代数的自同构群展开，并继续说明 G₂、SO(8) 与若干对称群的置换及子群关系。"
+    },
+    {
+      "title": "是否存在无法通过复数表示，必须通过四元数表达的波函数形式？",
+      "url": "https://www.zhihu.com/answer/1939668397458699588",
+      "summary": "正文用单位四元数构成的 Sp(1)、SU(2) 及其同构关系解释自旋群结构，并讨论非交换性。"
+    },
+    {
+      "title": "你在教材中看到过最长的证明是什么？",
+      "url": "https://www.zhihu.com/answer/1940756613515437251",
+      "summary": "正文定义有限单群并回顾有限单群分类，具体讲解群及正规子群的结构。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/1940757019842830496",
+      "summary": "正文围绕有限单群作为群的构建基石展开，并说明其在有限群结构中的作用。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/1945580801283593475",
+      "summary": "正文通过正方形的旋转与反射构成二面体群，并验证群的公理、子群和半直积结构。"
+    },
+    {
+      "title": "在世界上还没有一个人成功还原魔方的时候如何证明魔方可还原？",
+      "url": "https://www.zhihu.com/answer/1945615293666787789",
+      "summary": "正文建立魔方群并验证封闭性、结合律、单位元和逆元，再用群公理证明魔方可还原。"
+    },
+    {
+      "title": "在世界上还没有一个人成功还原魔方的时候如何证明魔方可还原？",
+      "url": "https://www.zhihu.com/answer/1945860827451225092",
+      "summary": "正文用反向拧回魔方和魔方群说明群的逆元、生成元与单位元。"
+    },
+    {
+      "title": "为什么规范对称性不是对称性？",
+      "url": "https://www.zhihu.com/answer/1947050546440672144",
+      "summary": "正文把传统全局对称性解释为单对象群上的自同构，并通过群与群胚的区别说明规范对称性的结构。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/1948662202425910150",
+      "summary": "正文用有限群元素的幂序列最终回到单位元来说明群结构，并讨论生成元和元素复合是否可交换。"
+    },
+    {
+      "title": "如何通俗理解burnside引理?",
+      "url": "https://www.zhihu.com/answer/1952070962695603275",
+      "summary": "正文用群在有限集上的作用、不动点和稳定子通过双计数证明 Burnside 引理，实质展开有限群作用。"
+    },
+    {
+      "title": "如何证明：“从任意一个中心为单位的有限群G出发，一步一步地做群的自同构群，有限步后必终止”？",
+      "url": "https://www.zhihu.com/answer/1954719398955836891",
+      "summary": "正文定义有限群的自同构塔，并用次正规子群、中心化子和幂零正规子群给出 Wielandt 定理的证明思路。"
+    },
+    {
+      "title": "数学中有哪些有趣的构造性证明？",
+      "url": "https://www.zhihu.com/answer/1956642549780419769",
+      "summary": "正文解释单群在群论中的基本组件地位，并按四类结构概述有限单群分类定理。"
+    },
+    {
+      "title": "怎么单单从代数的角度理解三个Z的free product可以同构嵌入两个Z的自由积？",
+      "url": "https://www.zhihu.com/answer/1957745332604637436",
+      "summary": "正文从自由群元素计数引入负的“阶”，并用群欧拉示性数及指数、分解公式进行严谨化，实质讨论群。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/1957850105232195720",
+      "summary": "正文完整讲解拉格朗日定理的群、子群和陪集分解思想，属于群论核心内容。"
+    },
+    {
+      "title": "怎么让不懂数学的人体会到抽象代数的魅力？",
+      "url": "https://www.zhihu.com/answer/1958579174592716917",
+      "summary": "正文以壁画群及其 17 种同构类为例，说明群论如何描述和分类平面密铺的对称性。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/1961540859301439161",
+      "summary": "正文解释有限群若生成元不足便无法生成全群，并以群的生成说明群元素不能任意写成若干幂的简单乘积。"
+    },
+    {
+      "title": "为什么感觉群论学起来比数学分析之类难好多？",
+      "url": "https://www.zhihu.com/answer/1962578302125478661",
+      "summary": "正文用三条公理定义群，并强调群论研究抽象结构关系而非具体元素或运算。"
+    },
+    {
+      "title": "数学中，「代数」和「分析」的方法分别是什么？有什么不同？",
+      "url": "https://www.zhihu.com/answer/1962889213210001882",
+      "summary": "正文以群、环、域为例说明现代代数研究的抽象结构，并介绍群运算所满足的公理。"
+    },
+    {
+      "title": "要看懂杨-米尔斯场的理论，数学得学到什么程度？",
+      "url": "https://www.zhihu.com/answer/1963019608496796153",
+      "summary": "正文以平移、旋转和反射等变换构成李群，并定义李群在流形上的右作用。"
+    },
+    {
+      "title": "群论的精髓、基本套路、用途是什么？",
+      "url": "https://www.zhihu.com/answer/1968054395439646561",
+      "summary": "正文给出群的封闭性、结合律、单位元和逆元公理，并用整数加法与非零实数乘法举例。"
+    },
+    {
+      "title": "为什么实际旋转角度是四元数里面的角度的两倍？有什么数学上的原因吗？",
+      "url": "https://www.zhihu.com/answer/1969031908693353344",
+      "summary": "正文讨论单位四元数群、SO(3) 和 SU(2)，并解释它们之间的双覆盖群关系。"
+    },
+    {
+      "title": "关于欧拉角万向锁一直搞不明白万向锁为啥会形成？",
+      "url": "https://www.zhihu.com/answer/1970513655700369438",
+      "summary": "正文把万向锁解释为欧拉角描述旋转群SO(3)时的参数化奇点，并讨论特定角度下自由度退化。"
+    },
+    {
+      "title": "数学这个专业难度高吗?",
+      "url": "https://www.zhihu.com/answer/1971200106561790857",
+      "summary": "正文列出群的封闭性、结合律、单位元和逆元四条公理，并以整数、非零实数及正方形对称变换为例。"
+    },
+    {
+      "title": "数学专业是不是最难学的？",
+      "url": "https://www.zhihu.com/answer/1971200260886987942",
+      "summary": "正文列出群的封闭性、结合律、单位元和逆元四条公理，并以整数、非零实数及正方形对称变换为例。"
+    },
+    {
+      "title": "数论是如何与几何相结合的？",
+      "url": "https://www.zhihu.com/answer/1971578808101495072",
+      "summary": "正文陈述并证明实二次域代数整数环的单位群是无穷阶群，利用格点和同余构造无穷多个单位。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/1971597831421818234",
+      "summary": "正文给出群的封闭性、结合律、单位元和逆元定义，并说明群论在对称性与密码学中的应用。"
+    },
+    {
+      "title": "数学史上有哪些问题是通过构造出一套新的理论才得以解决的？必须要构造新的理论才能解决这些问题吗？",
+      "url": "https://www.zhihu.com/answer/1973807644906116852",
+      "summary": "正文说明群论引入群、子群、正规子群和商群等概念，并以群的结构研究对称性与可解性。"
+    },
+    {
+      "title": "直积、直和、张量积到底是怎么回事?",
+      "url": "https://www.zhihu.com/answer/1976463049096464313",
+      "summary": "正文用群的直积、投影和同态解释直积与直和的泛性质，并比较无穷直积和直和。"
+    },
+    {
+      "title": "正弦函数倍角公式、勒让德倍乘公式、伯努利倍元公式，为何它们长得如此相像，这是否意味着有某种底层联系？",
+      "url": "https://www.zhihu.com/answer/1985151377182318853",
+      "summary": "正文把倍乘映射的周期结构描述为有限循环群的直极限，并讨论有理数模1群及其挠点。"
+    },
+    {
+      "title": "如何理解「李群、李代数的初衷就是求解微分方程」？",
+      "url": "https://www.zhihu.com/answer/1992290356713259459",
+      "summary": "正文比较有限置换群与连续变换群，并以 SO(2)、SO(3) 说明李群的群结构。"
+    },
+    {
+      "title": "分析为什么不被看作代数呢?",
+      "url": "https://www.zhihu.com/answer/1994085353984917603",
+      "summary": "正文给出群的公理定义，并以二面体群说明群论研究对称结构。"
+    },
+    {
+      "title": "数学上有没有“除了一个特例，其他所有情况都成立”的定理？",
+      "url": "https://www.zhihu.com/answer/1996229333476451068",
+      "summary": "正文给出对称群自同构群等于内自同构群且除 n=6 外完善的群论结论。"
+    },
+    {
+      "title": "小明要算账，但是计算器上的+和×坏了，要计算50×36怎么办？",
+      "url": "https://www.zhihu.com/answer/1998458869056311926",
+      "summary": "正文给出群的非空子集在乘法与逆运算下封闭的子群判别条件，并说明其依据。"
+    },
+    {
+      "title": "在数学或是计算机科学中，有什么优美的结论会有一些小的特例不满足？",
+      "url": "https://www.zhihu.com/answer/2011524920111281327",
+      "summary": "正文围绕有限群、Sylow p-子群及其个数展开，说明群结构中的一类例外事实。"
+    },
+    {
+      "title": "怎么让不懂数学的人体会到抽象代数的魅力？",
+      "url": "https://www.zhihu.com/answer/2014409002403005260",
+      "summary": "正文以两种完美洗牌生成的置换群为核心，讨论其阶、k重传递性以及有限单群结构。"
+    },
+    {
+      "title": "你所知道的最优美的几何定理是什么？",
+      "url": "https://www.zhihu.com/answer/2016612690127241876",
+      "summary": "正文定义有限群及其两个子群满足共轭类交集大小相等的Gassmann三元组，并用群论条件构造等谱空间。"
+    },
+    {
+      "title": "25岁天才少女创业公司估值 110 亿，专攻能自动验证计算机代码的 AI 系统，这个创业想法潜力在哪？",
+      "url": "https://www.zhihu.com/answer/2024482349304267125",
+      "summary": "正文给出群与其子群的左右陪集之间一一对应的完整构造，并说明无限群情形同样成立。"
+    },
+    {
+      "title": "怎么让不懂数学的人体会到抽象代数的魅力？",
+      "url": "https://www.zhihu.com/answer/2030723554241684411",
+      "summary": "正文说明有限单群是群论中的基本构件，并介绍有限单群的分类结果。"
+    },
+    {
+      "title": "为什么现在数学系普遍不学椭圆函数、超几何函数等特殊函数？",
+      "url": "https://www.zhihu.com/answer/2030918774531024818",
+      "summary": "正文列出群的公理，并以加法、模运算和旋转翻转等例子解释群所捕捉的共同结构。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2031361976304133439",
+      "summary": "正文以方程两根的交换对称为例说明群结构，并以 A₅ 的结构性质解释不可解性。"
+    },
+    {
+      "title": "如何直观地理解群论？",
+      "url": "https://www.zhihu.com/answer/2031371469540828905",
+      "summary": "正文从整数加法、图形对称等例子提炼结合律、单位元和逆元，完整给出群的公理定义。"
+    },
+    {
+      "title": "几何群论的发展前景怎么样？",
+      "url": "https://www.zhihu.com/answer/2031887840901063350",
+      "summary": "正文解释几何群论以无限群为主体、通过 Cayley 图让有限生成群作用于度量空间，并讨论双曲群等群论对象。"
+    },
+    {
+      "title": "数学学到什么程度可以进行下一部分的学习了？",
+      "url": "https://www.zhihu.com/answer/2033689777535502325",
+      "summary": "正文通过整数加法、矩阵乘法和置换等实例说明群作为抽象共同结构的观点。"
+    },
+    {
+      "title": "目前数学的符号体系有多混乱？",
+      "url": "https://www.zhihu.com/answer/2033866720083960195",
+      "summary": "正文从矩阵乘法的交换性、单位元和逆元问题出发，说明群、环、域等抽象代数结构的直觉来源。"
+    },
+    {
+      "title": "如何真正从本质上理解数学?",
+      "url": "https://www.zhihu.com/answer/2033930915211130012",
+      "summary": "正文交代群的封闭性、结合律、单位元和逆元四条公理形成的抽象与历史动机。"
+    },
+    {
+      "title": "数学里的「良定义（well-defined）」的定义是什么？",
+      "url": "https://www.zhihu.com/answer/2034282341800097458",
+      "summary": "正文用商群陪集乘法和正规子群条件说明群运算为何必须检验代表元无关性。"
+    },
+    {
+      "title": "有什么看似复杂但实际上很简单的数学题？",
+      "url": "https://www.zhihu.com/answer/2035821430311534933",
+      "summary": "正文以同构及阶、子群、正规子群等结构特征说明群的研究方式。"
+    },
+    {
+      "title": "为什么现在数学系普遍不学椭圆函数、超几何函数等特殊函数？",
+      "url": "https://www.zhihu.com/answer/2036064238700123425",
+      "summary": "正文用格点群作用和商空间解释椭圆函数的双周期性。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/2036366427746201759",
+      "summary": "正文把方程根的对称性抽象为群结构，并以可解性判别根式可解性。"
+    },
+    {
+      "title": "如何理解矩阵的「秩」？",
+      "url": "https://www.zhihu.com/answer/2037090082625172473",
+      "summary": "正文用整数加法群和立方体旋转群解释群的元素可由少数生成元组合产生。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2037187460006940866",
+      "summary": "正文用方程根的置换及封闭性、结合律、单位元和逆元说明群这一代数结构如何出现。"
+    },
+    {
+      "title": "在微分几何中, 什么是 holonomy？如何用holonomy 思考几何问题?",
+      "url": "https://www.zhihu.com/answer/2038036518619575358",
+      "summary": "正文定义和乐群与局部和乐群，并讨论它们作为李群的结构、连通分支及球面例子。"
+    },
+    {
+      "title": "如何理解群论以及群论有什么比较典型易懂的应用？",
+      "url": "https://www.zhihu.com/answer/2039699118596027532",
+      "summary": "正文给出群的公理化定义，并用钟表加法、正方形对称群和魔方说明群运算。"
+    },
+    {
+      "title": "为什么你会喜欢数学？",
+      "url": "https://www.zhihu.com/answer/2041977525983769047",
+      "summary": "正文用整数加法、魔方转动、晶体与粒子对称说明群公理提炼共同结构并统一多个对象。"
+    },
+    {
+      "title": "数学的本质究竟是什么？",
+      "url": "https://www.zhihu.com/answer/2046022339025020736",
+      "summary": "正文给出封闭性、结合律、单位元和逆元，并据此定义群。"
+    },
+    {
+      "title": "怎么深刻理解范畴论的妙处？",
+      "url": "https://www.zhihu.com/answer/2048063895764465652",
+      "summary": "正文列出群公理和实例，并从可逆变换与单位元解释群和幺半群的区别。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2051930604892066841",
+      "summary": "正文讨论散在单群、马蒂厄群及其自同构群，说明群所表达的对称结构。"
+    },
+    {
+      "title": "已知f(x+y)=f(x)g(y)+g(x)f(y)……能推出f(x),g(x)是三角函数吗？",
+      "url": "https://www.zhihu.com/answer/2062217629490852408",
+      "summary": "正文把原函数方程等价改写为实数加法群到复乘法群的群同态，并据此讨论抽象同态。"
+    },
+    {
+      "title": "如何评价今年王虹、邓煜可能同时创纪录拿到菲尔兹奖？",
+      "url": "https://www.zhihu.com/answer/2063597613107221965",
+      "summary": "正文陈述 Hilbert–Smith 猜想，说明局部紧群在流形上的忠实连续作用必为李群，并介绍其证明结合群作用和映射类群。"
+    },
+    {
+      "title": "如何通俗地理解纤维丛？",
+      "url": "https://www.zhihu.com/answer/2069123341584163489",
+      "summary": "正文用旋转、缩放、矩阵变换和对称操作说明纤维转换由结构群组织。"
+    },
+    {
+      "title": "乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2074105195517236186",
+      "summary": "正文由乘法需求的结合律、单位元和逆元概括出群等抽象代数结构。"
+    },
+    {
+      "title": "由对称性到角动量（一）",
+      "url": "https://zhuanlan.zhihu.com/p/21108784",
+      "summary": "正文比较 SO(3) 与 SU(2) 的群结构、同构关系和覆盖关系，展开连续群的具体分析。"
+    },
+    {
+      "title": "一篇用来劝退的伪安利文（中）",
+      "url": "https://zhuanlan.zhihu.com/p/22348210",
+      "summary": "正文从半群出发给出群的幺元和逆元条件，并以四元素排列群说明有限群实例。"
+    },
+    {
+      "title": "专栏简介与群表示论",
+      "url": "https://zhuanlan.zhihu.com/p/22970906",
+      "summary": "正文从群的定义出发，展开子群、陪集、正规子群、商群、合成序列和可解群等群论结构。"
+    },
+    {
+      "title": "代数拓扑（一）",
+      "url": "https://zhuanlan.zhihu.com/p/23221460",
+      "summary": "正文定义闭路类在复合下构成的群，并用群同态和群同构研究基本群。"
+    },
+    {
+      "title": "<群论>对左陪集关系的理解",
+      "url": "https://zhuanlan.zhihu.com/p/23886266",
+      "summary": "正文从封闭性、单位元和逆元定义群及子群，随后用群中逆元运算构造左陪集等价关系。"
+    },
+    {
+      "title": "我喜欢的一些简洁明快的证明",
+      "url": "https://zhuanlan.zhihu.com/p/24546623",
+      "summary": "正文利用置换表示、符号映射和陪集证明有限群存在指数为二的子群。"
+    },
+    {
+      "title": "一点具体的东西——Sn的自同构",
+      "url": "https://zhuanlan.zhihu.com/p/24764617",
+      "summary": "正文系统讨论对称群的自同构、共轭类、内自同构及例外情形 S6，属于群论内容。"
+    },
+    {
+      "title": "Cole与有限单群(I)",
+      "url": "https://zhuanlan.zhihu.com/p/25301636",
+      "summary": "正文系统讨论有限单群按阶分类，使用 Sylow 定理、群作用和置换表示推进分类论证。"
+    },
+    {
+      "title": "从 Shor 算法到格密码学",
+      "url": "https://zhuanlan.zhihu.com/p/25462786",
+      "summary": "正文把周期寻找抽象为有限交换群及陪集上的隐含子群问题，并讨论对称群和二面体群等非交换情形。"
+    },
+    {
+      "title": "正规化子和中心化子",
+      "url": "https://zhuanlan.zhihu.com/p/26077940",
+      "summary": "正文在群结构中定义中心化子和正规化子，并通过交换关系及正规子群解释二者的联系与区别。"
+    },
+    {
+      "title": "借助Mathematica和Magma体验伽罗瓦理论",
+      "url": "https://zhuanlan.zhihu.com/p/26436790",
+      "summary": "正文通过置换群的最大正规子群降链及其阶数判断伽罗瓦群是否可解。"
+    },
+    {
+      "title": "这两个本可以成为大数学家的天才，竟被同一个大教授所坑，双双英年早逝",
+      "url": "https://zhuanlan.zhihu.com/p/26506467",
+      "summary": "正文给出群的代数结构定位，并说明环、域和模可由群添加运算与公理构成。"
+    },
+    {
+      "title": "关于有限群/紧李群表示的一些笔记",
+      "url": "https://zhuanlan.zhihu.com/p/27041214",
+      "summary": "正文围绕有限群表示、群作用轨道和不可约特征标展开，并给出单群与共轭类性质。"
+    },
+    {
+      "title": "关于离散子群的一些杂记",
+      "url": "https://zhuanlan.zhihu.com/p/27101218",
+      "summary": "正文分类 SO(3) 的有限子群，并讨论格、GL(n,Q) 有限子群及 Fuchsian 群等群结构。"
+    },
+    {
+      "title": "关于黎曼几何与李群拓扑的一些杂记",
+      "url": "https://zhuanlan.zhihu.com/p/27111431",
+      "summary": "正文讨论紧连通李群、其极大紧子群、Weyl 群及基于李代数的结构分类。"
+    },
+    {
+      "title": "关于子群计数的一些杂记",
+      "url": "https://zhuanlan.zhihu.com/p/27114598",
+      "summary": "正文利用群作用、Sylow 定理和置换表示系统讨论有限生成群的子群计数。"
+    },
+    {
+      "title": "椭圆曲线的一些基础性质",
+      "url": "https://zhuanlan.zhihu.com/p/27159180",
+      "summary": "正文用割线、切线和无穷远点定义椭圆曲线点加法，并讨论其交换群、子群与 Abel 群结构。"
+    },
+    {
+      "title": "四元数——基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/27471300",
+      "summary": "正文逐项讨论单位四元数乘法的封闭性、结合律、单位元和逆元素，实质涉及群结构。"
+    },
+    {
+      "title": "伽罗瓦理论之美",
+      "url": "https://zhuanlan.zhihu.com/p/28023009",
+      "summary": "正文给出封闭性、结合律、单位元和逆元四条公理并用整数加法与魔方操作举例说明群。"
+    },
+    {
+      "title": "以魔方为例，介绍一种解决扭转谜题的系统性方法",
+      "url": "https://zhuanlan.zhihu.com/p/28180658",
+      "summary": "正文以操作对易子、3-轮换、共轭和置换奇偶性组织魔方复原方法，实质使用群作用。"
+    },
+    {
+      "title": "双曲空间上的群作用与动力系统",
+      "url": "https://zhuanlan.zhihu.com/p/28186692",
+      "summary": "正文系统讨论SL(2,R)对双曲平面的传递保距作用、稳定子群及离散子群。"
+    },
+    {
+      "title": "无法“解”出的方程——论一般五次方程没有求根公式",
+      "url": "https://zhuanlan.zhihu.com/p/28275788",
+      "summary": "正文研究根置换集合 S5、A5 及对易子，并用置换结构刻画求根公式的层次。"
+    },
+    {
+      "title": "紧黎曼面的自同构群",
+      "url": "https://zhuanlan.zhihu.com/p/28598072",
+      "summary": "正文围绕紧黎曼面的全纯自同构群，讨论有限群实现、群作用及Hurwitz上界。"
+    },
+    {
+      "title": "宇宙的往事②离群之人--伽罗瓦",
+      "url": "https://zhuanlan.zhihu.com/p/30427937",
+      "summary": "正文给出群的封闭性、结合律、恒元和逆元四条定义，并说明群论研究这种代数结构。"
+    },
+    {
+      "title": "抽象代数|笔记整理（1）——群，子群，同态",
+      "url": "https://zhuanlan.zhihu.com/p/30384157",
+      "summary": "正文系统定义群并展开子群、置换群、循环群、同态和正规子群等群论概念与定理。"
+    },
+    {
+      "title": "抽象代数|笔记整理（2）——同构，划分，陪集",
+      "url": "https://zhuanlan.zhihu.com/p/30496016",
+      "summary": "正文系统定义群同构、自同构和陪集，并用群同态核证明陪集划分及相关计数性质。"
+    },
+    {
+      "title": "抽象代数|笔记整理（3）——陪集与阶，直积，商群，群作用",
+      "url": "https://zhuanlan.zhihu.com/p/30668738",
+      "summary": "正文系统讲解群乘积、陪集与指数、直积、正规子群、商群、同构定理和群作用及其证明。"
+    },
+    {
+      "title": "基础群论(一): 商群相关",
+      "url": "https://zhuanlan.zhihu.com/p/30739747",
+      "summary": "正文系统定义群中的陪集、正规子群和商群，并陈述 Lagrange 定理与多条同构定理及其应用。"
+    },
+    {
+      "title": "抽象代数|笔记整理（4）——轨道，中心，西罗子群",
+      "url": "https://zhuanlan.zhihu.com/p/30797590",
+      "summary": "正文定义共轭、迷向群、轨道及西罗 p 子群，系统讲解群作用和有限群结构。"
+    },
+    {
+      "title": "基础群论(二): 群作用",
+      "url": "https://zhuanlan.zhihu.com/p/30745421",
+      "summary": "正文从群作用与置换表示出发，讲解轨道、稳定化子、轨道-稳定化子定理及共轭作用。"
+    },
+    {
+      "title": "抽象代数|笔记整理（5）——群阶数，西罗定理",
+      "url": "https://zhuanlan.zhihu.com/p/30845557",
+      "summary": "正文系统定义有限群、子群、正规子群与单群，并完整证明西罗三定理及相关群结构命题。"
+    },
+    {
+      "title": "二阶有限单群",
+      "url": "https://zhuanlan.zhihu.com/p/31072748",
+      "summary": "正文给出群的结合律、单位元、逆元定义，并进一步解释子群、正规子群和二阶有限单群。"
+    },
+    {
+      "title": "[译] zkSNARKs（零知识证明）简述",
+      "url": "https://zhuanlan.zhihu.com/p/31780893",
+      "summary": "正文说明群中生成器可由其幂遍历群元素，并利用群阶和该生成关系构造密码学编码。"
+    },
+    {
+      "title": "第三讲：三维空间的刚体运动",
+      "url": "https://zhuanlan.zhihu.com/p/32937868",
+      "summary": "正文用正交且行列式为 1 的矩阵定义特殊正交群 SO(n)，并进一步构造特殊欧式群 SE(3)。"
+    },
+    {
+      "title": "第四讲：李群和李代数",
+      "url": "https://zhuanlan.zhihu.com/p/33156814",
+      "summary": "正文给出群的代数定义，并逐项解释封闭性、结合律、幺元和逆元。"
+    },
+    {
+      "title": "范畴论学习笔记1：基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/33920955",
+      "summary": "正文定义群的结合律、单位元与逆元，并进一步介绍群同态、同构、子群和商群。"
+    },
+    {
+      "title": "新手上路：实数上的椭圆曲线和群论",
+      "url": "https://zhuanlan.zhihu.com/p/34363494",
+      "summary": "正文定义群的封闭性、结合律、单位元和逆元，并说明椭圆曲线上的点如何组成阿贝尔群。"
+    },
+    {
+      "title": "p-可除群的一些基本性质(I):起源",
+      "url": "https://zhuanlan.zhihu.com/p/34416038",
+      "summary": "正文把 p 可除群定义为满足相容正合关系的有限交换 p 群概形列，并解释其 p 挠群结构。"
+    },
+    {
+      "title": "语言背后的代数学（七）：数学结构",
+      "url": "https://zhuanlan.zhihu.com/p/35196235",
+      "summary": "正文从半群和幺半群逐步加入幺元与逆元条件来定义群，并讨论群同态与群同构。"
+    },
+    {
+      "title": "ECC椭圆曲线加密算法：介绍",
+      "url": "https://zhuanlan.zhihu.com/p/36326221",
+      "summary": "正文先说明群的封闭性、结合律、单位元和逆元，再构造椭圆曲线点群。"
+    },
+    {
+      "title": "拓扑学Ⅱ|笔记整理（7）——基本群",
+      "url": "https://zhuanlan.zhihu.com/p/37070641",
+      "summary": "正文验证道路类乘法的结合律、逆元和单位元，从而构造满足群公理的基本群。"
+    },
+    {
+      "title": "数学分析笔记（二）——实数理论",
+      "url": "https://zhuanlan.zhihu.com/p/38393931",
+      "summary": "正文用结合律、单位元和逆元三条性质正式定义群，并说明交换群。"
+    },
+    {
+      "title": "交换群、域和有序域",
+      "url": "https://zhuanlan.zhihu.com/p/39281734",
+      "summary": "正文用封闭运算、交换律、结合律、单位元和逆元定义交换群，并给出整数、有限域等具体例子。"
+    },
+    {
+      "title": "1.2 外代数",
+      "url": "https://zhuanlan.zhihu.com/p/40321372",
+      "summary": "正文系统讲解置换、轮换、对换、置换复合、对称群和群作用，并用这些群运算构造交错化算子。"
+    },
+    {
+      "title": "谷山-志村-韦依猜想（上）",
+      "url": "https://zhuanlan.zhihu.com/p/40557310",
+      "summary": "正文定义椭圆曲线上的直线交点与对称点加法，并说明单位元、逆元及有限生成 Abel 群。"
+    },
+    {
+      "title": "FFT(快速傅里叶变换)0基础详解！附NTT（ACM/OI）",
+      "url": "https://zhuanlan.zhihu.com/p/40505277",
+      "summary": "正文在 NTT 前定义子群、生成子群和原根，并简述拉格朗日定理，实质讨论群的基本结构。"
+    },
+    {
+      "title": "MP1：重温高等数学：复平面与Euler公式",
+      "url": "https://zhuanlan.zhihu.com/p/42639576",
+      "summary": "正文用封闭运算、结合律、单位元和逆元定义群，并说明交换群与加法群的结构。"
+    },
+    {
+      "title": "MP2：平面旋转群SO(2)",
+      "url": "https://zhuanlan.zhihu.com/p/43974422",
+      "summary": "正文验证旋转矩阵在矩阵乘法下具有单位元、逆元和交换性，从而构成一个 Abel 群。"
+    },
+    {
+      "title": "MP6：几何与物理I：微分流形上的分析力学",
+      "url": "https://zhuanlan.zhihu.com/p/44008969",
+      "summary": "正文以SO(2)的参数表示、群同态和子群关系说明平面旋转群及其自由度。"
+    },
+    {
+      "title": "实数的定义",
+      "url": "https://zhuanlan.zhihu.com/p/45225730",
+      "summary": "正文由结合律、单位元、逆元等性质给出群的定义，并区分 Abel 群等代数结构。"
+    },
+    {
+      "title": "MP21：代数加油站(1)：同态的像与核、闭与恰当",
+      "url": "https://zhuanlan.zhihu.com/p/44758141",
+      "summary": "正文讲解商群、群同态定理以及同态的像与核，并用平行投影说明其群论含义。"
+    },
+    {
+      "title": "MP22：同调群",
+      "url": "https://zhuanlan.zhihu.com/p/44776557",
+      "summary": "正文把同调群解释为核模像的商群，并借助 Abel 群、子群和第一同态定理说明构造。"
+    },
+    {
+      "title": "益智玩具有几种-混乱博物馆",
+      "url": "https://zhuanlan.zhihu.com/p/45597785",
+      "summary": "正文以魔方状态变化和对称性为例说明群论为何适合研究这类置换。"
+    },
+    {
+      "title": "【理论】再论上帝之数",
+      "url": "https://zhuanlan.zhihu.com/p/47205847",
+      "summary": "正文把魔方全部状态视为群，并用逐级降群的子群链解释最少步还原算法的构造。"
+    },
+    {
+      "title": "从零开始一起学习SLAM | 为啥需要李群与李代数？",
+      "url": "https://zhuanlan.zhihu.com/p/47330137",
+      "summary": "正文解释群的封闭性、结合律、幺元和逆元，并列举旋转矩阵群与变换矩阵群。"
+    },
+    {
+      "title": "MP67：典型群(1)：拓扑性质",
+      "url": "https://zhuanlan.zhihu.com/p/51199404",
+      "summary": "正文以群乘法、逆运算和群结构定义拓扑群，并讨论一般线性群、正交群等典型群。"
+    },
+    {
+      "title": "MP69：典型群(3)：三维空间的旋转，Pauli矩阵、四元数、SO(3)~RP3、SU(2)~S3",
+      "url": "https://zhuanlan.zhihu.com/p/51684298",
+      "summary": "正文以二维和三维旋转为线索讨论 SO(3)、SU(2) 等典型群及其代数表示。"
+    },
+    {
+      "title": "密码学入门（一）",
+      "url": "https://zhuanlan.zhihu.com/p/52208681",
+      "summary": "正文列出群的封闭性、结合律、单位元和逆元四条公理，并将群论作为公钥密码的基础。"
+    },
+    {
+      "title": "谈谈奇妙的巴拿赫-塔斯基分球悖论",
+      "url": "https://zhuanlan.zhihu.com/p/52154376",
+      "summary": "正文构造二元生成旋转变换群，按生成元分类并用群作用划分球面。"
+    },
+    {
+      "title": "代数大补丸 I",
+      "url": "https://zhuanlan.zhihu.com/p/53167765",
+      "summary": "正文以整数加群和平凡群为例，介绍群、子群、同态和自同态的基本结构。"
+    },
+    {
+      "title": "抽象代数学习笔记（一）",
+      "url": "https://zhuanlan.zhihu.com/p/56197053",
+      "summary": "正文通过模 n 加法、自同态和同余关系具体说明有限循环群及其商代数结构。"
+    },
+    {
+      "title": "群表示的一个应用——Burnside定理",
+      "url": "https://zhuanlan.zhihu.com/p/56602292",
+      "summary": "正文围绕有限群的共轭类、中心、正规子群和 Sylow 子群展开，并证明特定阶数群的可解性。"
+    },
+    {
+      "title": "【理论篇】三阶魔方4.33千亿亿种变化是怎么计算出来的？",
+      "url": "https://zhuanlan.zhihu.com/p/57444167",
+      "summary": "正文用置换群中的偶置换解释为何不能单独交换一对棱块，并据此排除不可复原状态。"
+    },
+    {
+      "title": "ECC椭圆曲线加密算法：有限域和离散对数",
+      "url": "https://zhuanlan.zhihu.com/p/44743146",
+      "summary": "正文说明有限域上的椭圆曲线点集形成阿贝尔群，并给出单位元和逆元规则。"
+    },
+    {
+      "title": "纤维丛(1)",
+      "url": "https://zhuanlan.zhihu.com/p/57954768",
+      "summary": "正文以结构群、自由传递的右作用和转换函数定义G-主丛，并讨论结构群的限制与扩张。"
+    },
+    {
+      "title": "关于构造k.p模型有效哈密顿量的一点入门基础",
+      "url": "https://zhuanlan.zhihu.com/p/61383396",
+      "summary": "正文以金刚石结构的 O_h 点群为框架，利用群的对称操作约束三带有效哈密顿量。"
+    },
+    {
+      "title": "抽象代数学习笔记（四）",
+      "url": "https://zhuanlan.zhihu.com/p/62387972",
+      "summary": "正文系统讲解群同态与同构、像与核、陪集和共轭，并给出相关证明与习题。"
+    },
+    {
+      "title": "抽象代数学习笔记（七）",
+      "url": "https://zhuanlan.zhihu.com/p/63987575",
+      "summary": "正文定义置换群及其复合运算，并系统讨论轮换分解、奇偶置换、交错群、阶与共轭类。"
+    },
+    {
+      "title": "1. 姿态的表示方法",
+      "url": "https://zhuanlan.zhihu.com/p/67305147",
+      "summary": "正文指出旋转矩阵在乘法下构成 SO(3) 群，并讨论群乘法不交换。"
+    },
+    {
+      "title": "流形上的卷积",
+      "url": "https://zhuanlan.zhihu.com/p/67381155",
+      "summary": "正文给出群的封闭性、单位元、逆元和结合律定义，并具体讨论阿贝尔群、SO(n) 与循环群。"
+    },
+    {
+      "title": "模形式笔记（一）",
+      "url": "https://zhuanlan.zhihu.com/p/72504500",
+      "summary": "正文定义模群与同余子群，并证明模群由两个矩阵元素生成。"
+    },
+    {
+      "title": "数学领域分类",
+      "url": "https://zhuanlan.zhihu.com/p/74481149",
+      "summary": "正文把群、环、域说明为研究数及函数集合等对象结构性质的抽象代数系统。"
+    },
+    {
+      "title": "魔方与群论（一）(不要被标题吓到，高中生就可以看）",
+      "url": "https://zhuanlan.zhihu.com/p/75057811",
+      "summary": "正文完整定义群的封闭性、结合律、单位元和逆元，并讨论阿贝尔群及多种群的例子。"
+    },
+    {
+      "title": "魔方与群论（三）(人类使用交换子，神仙减少生成元）",
+      "url": "https://zhuanlan.zhihu.com/p/76071120",
+      "summary": "正文讲解子群、生成元、群展示、群的阶、同构和直积等群论概念。"
+    },
+    {
+      "title": "李群和李代数（一）：刚体的三维运动",
+      "url": "https://zhuanlan.zhihu.com/p/76959511",
+      "summary": "正文指出三维旋转构成非交换群 SO3，并以此说明旋转不能直接按向量空间方法线性化。"
+    },
+    {
+      "title": "五次及以上方程不可解，到底什么意思？|解方程系列4",
+      "url": "https://zhuanlan.zhihu.com/p/77243138",
+      "summary": "正文用对称群 S_n 及其可解性刻画方程能否根式求解。"
+    },
+    {
+      "title": "如何证明五次及以上方程无根式解？|解方程系列5",
+      "url": "https://zhuanlan.zhihu.com/p/77583443",
+      "summary": "正文系统介绍二元运算、群公理、对称群、子群、同构和可解群，为证明五次方程无根式解建立群论基础。"
+    },
+    {
+      "title": "瞎扯伽罗华群论思想",
+      "url": "https://zhuanlan.zhihu.com/p/78506062",
+      "summary": "正文给出群的封闭性、结合律、单位元和逆元四项公理，并用整数、置换和旋转说明群结构。"
+    },
+    {
+      "title": "自由群的定义及相关",
+      "url": "https://zhuanlan.zhihu.com/p/79479443",
+      "summary": "正文从生成元集、循环群和同态基本定理出发，定义自由群并证明相关群同态性质。"
+    },
+    {
+      "title": "充满对称性的计数——Burnside引理与Polya定理",
+      "url": "https://zhuanlan.zhihu.com/p/80261375",
+      "summary": "正文从封闭性、结合律、单位元和逆元四项公理定义置换群，并用群作用推导计数定理。"
+    },
+    {
+      "title": "李群和李代数（四）：姿态估计小结",
+      "url": "https://zhuanlan.zhihu.com/p/87438999",
+      "summary": "正文以群运算、幺元、逆元和结合律刻画李群的代数结构，并解释群作用保持流形内元素。"
+    },
+    {
+      "title": "群论在机器学习中的应用(I)：G-共变神经网络",
+      "url": "https://zhuanlan.zhihu.com/p/89849709",
+      "summary": "正文系统定义群、群作用与表示，并借助群结构刻画对称性，直接对应群这一代数结构。"
+    },
+    {
+      "title": "洛伦兹群的旋量表示",
+      "url": "https://zhuanlan.zhihu.com/p/89876878",
+      "summary": "正文从保持度规的矩阵出发定义连续洛伦兹群，属于群的具体讨论。"
+    },
+    {
+      "title": "8. IMU 姿态估计的新方法",
+      "url": "https://zhuanlan.zhihu.com/p/92743692",
+      "summary": "正文围绕 SO(3) 群及其切空间展开姿态滤波方法，说明群的几何结构带来的建模限制。"
+    },
+    {
+      "title": "【举例子详细分析】为什么交错群A4的阶为12，但没有阶为6的子群？——拉格朗日定理和西罗定理",
+      "url": "https://zhuanlan.zhihu.com/p/94692505",
+      "summary": "正文从交错群及其置换元素出发，借助陪集和子群阶证明A4不存在六阶子群。"
+    },
+    {
+      "title": "能解出这道题，你就是数学天才！",
+      "url": "https://zhuanlan.zhihu.com/p/96063757",
+      "summary": "说明置换是集合到自身的双射，并在函数合成下形成对称群或置换群。"
+    },
+    {
+      "title": "高中生也看得懂(并不)的群表示论（1）",
+      "url": "https://zhuanlan.zhihu.com/p/97477760",
+      "summary": "正文给出群公理、群同态和子群等定义，并讨论Cayley定理。"
+    },
+    {
+      "title": "无序金属系统中的有效场论",
+      "url": "https://zhuanlan.zhihu.com/p/99929122",
+      "summary": "正文分析复制与时间反演空间中的对称群变化、陪集空间及自发对称破缺。"
+    },
+    {
+      "title": "Potts模型简介",
+      "url": "https://zhuanlan.zhihu.com/p/101045691",
+      "summary": "正文利用辫群生成元及其代数关系，把纽结括号多项式的拆解转化为 Temperley-Lieb 代数计算。"
+    },
+    {
+      "title": "为什么狄拉克方程中的矩阵是四维的？",
+      "url": "https://zhuanlan.zhihu.com/p/103613226",
+      "summary": "正文把 Gamma 矩阵的交换关系抽象成由四个生成元构成的 32 阶有限群，并分析其群元素、共轭类和不可约表示。"
+    },
+    {
+      "title": "给非数学家看的Galois理论(译)",
+      "url": "https://zhuanlan.zhihu.com/p/103801449",
+      "summary": "正文从根的置换引入群，并具体讲解封闭性、单位元、逆元和群运算。"
+    },
+    {
+      "title": "椭圆曲线密码学简介（二）：有限域的椭圆曲线及离散对数问题",
+      "url": "https://zhuanlan.zhihu.com/p/104531745",
+      "summary": "正文详细讨论有限域椭圆曲线的点加法、阶、子群和循环子群等群结构。"
+    },
+    {
+      "title": "常微分方程学习笔记(9)",
+      "url": "https://zhuanlan.zhihu.com/p/105161670",
+      "summary": "正文证明流映射的复合满足单位元、结合与逆元性质，并将其解释为单参数变换群。"
+    },
+    {
+      "title": "【射影几何】第六谈——代数学下的射影变换",
+      "url": "https://zhuanlan.zhihu.com/p/104581782",
+      "summary": "正文从封闭性、结合律、单位元和逆元定义群，并以群结构组织射影变换。"
+    },
+    {
+      "title": "Paillier加密算法的推导",
+      "url": "https://zhuanlan.zhihu.com/p/106340045",
+      "summary": "正文讨论剩余类乘法群的子群、元素阶、双射与群同态，并用群结构刻画复合剩余类问题。"
+    },
+    {
+      "title": "降群法学习与思考：不用公式还原魔方",
+      "url": "https://zhuanlan.zhihu.com/p/111623841",
+      "summary": "正文定义魔方群，逐项解释封闭性、结合律、单位元和逆元，并用群逐级还原魔方。"
+    },
+    {
+      "title": "坐标变换(4)—旋转矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/113975973",
+      "summary": "正文逐项给出封闭性、结合律、幺元和逆元，并用它们验证三维旋转矩阵构成特殊正交群。"
+    },
+    {
+      "title": "数学史上最重要的4大数学思想",
+      "url": "https://zhuanlan.zhihu.com/p/120243982",
+      "summary": "正文介绍群和置换群的产生，以及群论推动代数学转向结构研究并连接其他数学分支。"
+    },
+    {
+      "title": "算法学习笔记(33): 拓展欧拉定理",
+      "url": "https://zhuanlan.zhihu.com/p/131536831",
+      "summary": "正文验证模 m 的缩剩余类构成群，并借助拉格朗日定理由群元素阶数推出欧拉定理。"
+    },
+    {
+      "title": "「 生活太重要了，不能太过严肃 」：生命游戏之父、最神奇的数学家John Conway",
+      "url": "https://zhuanlan.zhihu.com/p/132537219",
+      "summary": "正文用较长篇幅叙述康威研究李奇晶格、寻找其24维对称群并由此形成Conway群的数学史。"
+    },
+    {
+      "title": "Smith 标准型与同调群的一般计算",
+      "url": "https://zhuanlan.zhihu.com/p/136244778",
+      "summary": "正文用阿贝尔群、子群、商群和有限生成群结构说明链复形同调群。"
+    },
+    {
+      "title": "单纯同调群",
+      "url": "https://zhuanlan.zhihu.com/p/137677583",
+      "summary": "正文构造链群、闭链群和边缘链群等交换群，并通过商群得到同调群。"
+    },
+    {
+      "title": "零知识证明 - 椭圆曲线基础",
+      "url": "https://zhuanlan.zhihu.com/p/143122476",
+      "summary": "正文在椭圆曲线点集上定义加法，并逐项说明封闭性、结合律、单位元、逆元和交换律，构成阿贝尔群。"
+    },
+    {
+      "title": "Monstrous Moonshine",
+      "url": "https://zhuanlan.zhihu.com/p/143083992",
+      "summary": "正文围绕有限单群分类中的最大散在单群怪兽群展开，介绍其阶以及它与模形式的意外联系。"
+    },
+    {
+      "title": "微分几何笔记(10) —— 纤维丛",
+      "url": "https://zhuanlan.zhihu.com/p/149740999",
+      "summary": "正文定义拓扑群及右群作用，并以群作用构造主丛和伴生纤维丛。"
+    },
+    {
+      "title": "代数学发展的4个阶段：算术、初等代数、高等代数、抽象代数",
+      "url": "https://zhuanlan.zhihu.com/p/149807328",
+      "summary": "正文指出群论研究对称性，并说明其以结构研究替代计算而对抽象代数形成产生重要影响。"
+    },
+    {
+      "title": "从被忽视到大放异彩，这个理论经历了什么？！！",
+      "url": "https://zhuanlan.zhihu.com/p/150835148",
+      "summary": "正文以等边三角形的六种对称操作说明封闭集合及 S3 群，故对应群。"
+    },
+    {
+      "title": "给大一学生的 Lie 代数 II",
+      "url": "https://zhuanlan.zhihu.com/p/150888844",
+      "summary": "正文对照群与 Lie 代数的概念，并通过矩阵群的单位元切空间解释二者联系，故对应群。"
+    },
+    {
+      "title": "一篇彻底搞懂傅里叶变换及其背后原理",
+      "url": "https://zhuanlan.zhihu.com/p/151226805",
+      "summary": "正文用加法、乘法和旋转说明群的作用及复合关系，属于对群概念的直观展开。"
+    },
+    {
+      "title": "读懂黎曼猜想（1）——莫比乌斯反演",
+      "url": "https://zhuanlan.zhihu.com/p/151302308",
+      "summary": "正文验证满足 f(1) 非零的数论函数在狄利克雷卷积下构成交换群。"
+    },
+    {
+      "title": "基本群的定义及性质",
+      "url": "https://zhuanlan.zhihu.com/p/154313613",
+      "summary": "正文从道路类的结合律和单位元出发构造基本群，明确展示了群结构的形成过程。"
+    },
+    {
+      "title": "群论的创立：两个少年天才的接力",
+      "url": "https://zhuanlan.zhihu.com/p/157126167",
+      "summary": "正文用封闭性、结合律、单位元和逆元完整说明群的定义，并给出整数和矩阵等群例。"
+    },
+    {
+      "title": "(船新系列)近世代数学习笔记(1)",
+      "url": "https://zhuanlan.zhihu.com/p/161492268",
+      "summary": "正文系统讲解群的定义、子群、循环群、陪集和群同构，并给出多条证明，是完整的群论内容。"
+    },
+    {
+      "title": "Lattice学习笔记03：Dual Lattice（对偶格）",
+      "url": "https://zhuanlan.zhihu.com/p/161889613",
+      "summary": "正文把格视为加法子群，讨论商群、陪集以及用对偶基表示格模后的群元素。"
+    },
+    {
+      "title": "二个段子",
+      "url": "https://zhuanlan.zhihu.com/p/162743165",
+      "summary": "正文借微信群列出封闭性、结合律、单位元和逆元四条群公理，并由此解释群和子群的构造。"
+    },
+    {
+      "title": "【抽象代数】1. 群的定义与基本性质",
+      "url": "https://zhuanlan.zhihu.com/p/162840687",
+      "summary": "正文完整讲解群的定义、单位元与逆元等基本性质，并展开循环群和置换群等例子。"
+    },
+    {
+      "title": "【抽象代数】2. 子群、陪集与Lagrange定理，群同态与群同构",
+      "url": "https://zhuanlan.zhihu.com/p/163072724",
+      "summary": "正文系统讲解群论中的子群、陪集、Lagrange 定理、群同态与群同构及共轭结构。"
+    },
+    {
+      "title": "【抽象代数】3. 正规子群、商群、群同态基本定理",
+      "url": "https://zhuanlan.zhihu.com/p/163548084",
+      "summary": "正文系统讲解正规子群、商群、群同态和群同构基本定理，属于群论的核心内容。"
+    },
+    {
+      "title": "【抽象代数】4. 群直积与有限Abel群的分类",
+      "url": "https://zhuanlan.zhihu.com/p/164613288",
+      "summary": "正文系统讨论群的外直积、内直积、有限 Abel 群基本定理及其同构分类。"
+    },
+    {
+      "title": "【抽象代数】5. 置换群、单群、可解群、自同构群、自由群",
+      "url": "https://zhuanlan.zhihu.com/p/164799373",
+      "summary": "正文系统讲解置换群、单群、可解群、自同构群与自由群，并给出多项群论定理及其证明。"
+    },
+    {
+      "title": "【抽象代数】6. 群作用与Sylow定理",
+      "url": "https://zhuanlan.zhihu.com/p/165163924",
+      "summary": "正文系统讲解群作用、轨道与稳定子，并给出Sylow三定理及其在有限群中的应用。"
+    },
+    {
+      "title": "经典拓扑激发——场论",
+      "url": "https://zhuanlan.zhihu.com/p/165589478",
+      "summary": "正文借助同伦群与整数加群、模二整数群等同构说明拓扑荷的离散取值。"
+    },
+    {
+      "title": "近世代数学习笔记(4)",
+      "url": "https://zhuanlan.zhihu.com/p/166074594",
+      "summary": "正文用群作用证明Sylow三条定理，并进一步讲解自由群、群表现及有限生成Abel群结构，系统展开群论。"
+    },
+    {
+      "title": "抽代杂谈(13): 二面体群",
+      "url": "https://zhuanlan.zhihu.com/p/189591022",
+      "summary": "正文系统讲解二面体群的生成元与关系、半直积结构、子群、可解性、共轭类和自同构。"
+    },
+    {
+      "title": "Algebra Chapter 0书评 以及某个没上过代数课的人关于代数的碎碎念",
+      "url": "https://zhuanlan.zhihu.com/p/198236806",
+      "summary": "正文解释凯莱定理、群作用及“群就是对称”的结构观点。"
+    },
+    {
+      "title": "【抽象代数】11. 域的扩张",
+      "url": "https://zhuanlan.zhihu.com/p/193099591",
+      "summary": "正文定义域扩域上的自同构群，并利用群结构讨论单扩域保持基域的域同构。"
+    },
+    {
+      "title": "代数Artin(十六): 伽罗瓦理论（完结）",
+      "url": "https://zhuanlan.zhihu.com/p/204677227",
+      "summary": "正文用对称群对变量和多项式根的置换作用研究对称函数、子群与伽罗瓦群。"
+    },
+    {
+      "title": "动量空间里的共形场论",
+      "url": "https://zhuanlan.zhihu.com/p/219090674",
+      "summary": "正文以共形群及其平移、旋转、缩放和特殊共形变换说明群结构，并讨论对应的群不变性。"
+    },
+    {
+      "title": "群论(1): 群, 同构定理, 循环群",
+      "url": "https://zhuanlan.zhihu.com/p/104512460",
+      "summary": "正文系统复习群、子群、正规子群和商群，并证明多项同构定理与循环群性质。"
+    },
+    {
+      "title": "群论(2): 群作用, Sylow定理",
+      "url": "https://zhuanlan.zhihu.com/p/259969952",
+      "summary": "正文系统讲解群在集合上的作用、轨道与稳定子，并进一步证明 Sylow 定理。"
+    },
+    {
+      "title": "群论(3): 置换群",
+      "url": "https://zhuanlan.zhihu.com/p/260378483",
+      "summary": "正文系统讲解置换群、循环分解、置换符号、共轭类、生成元及正规子群。"
+    },
+    {
+      "title": "宝宝的群半直积复习",
+      "url": "https://zhuanlan.zhihu.com/p/261323095",
+      "summary": "正文通过短正合列、正规子群、截面和共轭作用系统讲解半直积及其群同构。"
+    },
+    {
+      "title": "群论(5): 换位子群与可解群",
+      "url": "https://zhuanlan.zhihu.com/p/262126128",
+      "summary": "正文从换位子和换位子群出发，讨论可解群、正规列与合成列及相关群论证明。"
+    },
+    {
+      "title": "抽象代数2-3 群元素的阶和循环群",
+      "url": "https://zhuanlan.zhihu.com/p/262254610",
+      "summary": "正文系统讲解群元素的阶、由元素幂生成的循环群及其结构、生成元和子群定理。"
+    },
+    {
+      "title": "魔方中的数学31-完美限制群的结构",
+      "url": "https://zhuanlan.zhihu.com/p/262695314",
+      "summary": "正文定义随机全色魔方群、位置群与方向群，并证明其正规子群、商群和半直积结构。"
+    },
+    {
+      "title": "抽象代数2-4 置换群和变换群",
+      "url": "https://zhuanlan.zhihu.com/p/265505611",
+      "summary": "正文以对称群、置换群和左平移映射证明凯莱定理，说明任意群都可嵌入双射变换群，属于群论的具体展开。"
+    },
+    {
+      "title": "算法学习笔记(54): Pólya定理",
+      "url": "https://zhuanlan.zhihu.com/p/265991683",
+      "summary": "正文定义群的封闭性、结合律、单位元和逆元，并以置换群及其复合运算作为 Pólya 定理的基础。"
+    },
+    {
+      "title": "用 python 学哈密顿力学 (1)",
+      "url": "https://zhuanlan.zhihu.com/p/265946306",
+      "summary": "正文说明满足辛条件的变换矩阵构成辛群，并检验具体数值格式是否属于该群。"
+    },
+    {
+      "title": "一份给初学者的群环域讲义(一)：群",
+      "url": "https://zhuanlan.zhihu.com/p/265517305",
+      "summary": "正文从结合运算、单位元和逆元定义群，并进一步讲解子群、同态、对称群与群作用。"
+    },
+    {
+      "title": "抽象代数3-3群同态基本定理及应用",
+      "url": "https://zhuanlan.zhihu.com/p/295392085",
+      "summary": "正文讲解群同态的核与像、自然同态、商群以及第一至第三同构基本定理。"
+    },
+    {
+      "title": "[知乎年度最长科普文]—上帝公式 e^(iπ)=-1 与群论有什么关系？",
+      "url": "https://zhuanlan.zhihu.com/p/303377401",
+      "summary": "正文从整数加法出发给出群的定义，并继续讲解单位元、逆元、同态、置换群与群作用。"
+    },
+    {
+      "title": "《结构及衍射》第八节：点群",
+      "url": "https://zhuanlan.zhihu.com/p/314534491",
+      "summary": "正文给出群的封闭性、结合律、单位元与逆元定义，并说明阿贝尔群。"
+    },
+    {
+      "title": "一道并不trivial的群论题",
+      "url": "https://zhuanlan.zhihu.com/p/320768687",
+      "summary": "正文在由生成元 x、y 及其关系给出的群中反复搬运和合并元素，利用群逆元与幂运算推出 x、y 都等于单位元。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / 群表示理论",
+      "url": "https://zhuanlan.zhihu.com/p/314567658",
+      "summary": "正文讨论群中心、同态核和正规子群，并由此说明单群的非平凡表示必忠实。"
+    },
+    {
+      "title": "猫和老鼠（范畴和代数）",
+      "url": "https://zhuanlan.zhihu.com/p/337638518",
+      "summary": "正文把群刻画为只有一个对象且态射均可逆的范畴，并列出群与范畴在单位元、逆元、同态等概念上的对应关系。"
+    },
+    {
+      "title": "抽象代数教学体系的探索 I",
+      "url": "https://zhuanlan.zhihu.com/p/338294403",
+      "summary": "正文以数域的自同构集合说明群在乘法与求逆下封闭，并把它定义为 Galois 群。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / 群表示论下的正交性与完备性",
+      "url": "https://zhuanlan.zhihu.com/p/337650698",
+      "summary": "正文系统讨论有限群的表示、共轭类与不可约表示数目之间的群论关系。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / 李群 (Lie group) 的定义与常见李群",
+      "url": "https://zhuanlan.zhihu.com/p/340870993",
+      "summary": "正文先以群的乘法、逆元和连续子群为基础定义并讨论李群。"
+    },
+    {
+      "title": "图论笔记 | Graph Theory Notes",
+      "url": "https://zhuanlan.zhihu.com/p/341461345",
+      "summary": "正文具体说明图自同构在置换乘法下构成群，并讨论自同构群、凯莱图与群结构的联系。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / SU(2) 与 SO(3) 的梦幻联动",
+      "url": "https://zhuanlan.zhihu.com/p/341625428",
+      "summary": "正文具体讨论SO(3)与SU(2)的群结构、同态、同态核和共轭类，展示连续群的运算与分类。"
+    },
+    {
+      "title": "抽象代数习题整理",
+      "url": "https://zhuanlan.zhihu.com/p/342564768",
+      "summary": "正文集中讨论群作用的定义、核、忠实性、传递性、稳定化子以及Sylow子群共轭作用等群论对象。"
+    },
+    {
+      "title": "对已复原的魔方一直重复同一组操作，是否一定能复原",
+      "url": "https://zhuanlan.zhihu.com/p/343205264",
+      "summary": "正文研究封闭置换操作的有限周期，通过环长最小公倍数说明重复操作形成的循环结构。"
+    },
+    {
+      "title": "关于群的半直积分解",
+      "url": "https://zhuanlan.zhihu.com/p/343697266",
+      "summary": "正文定义半直积运算与同态作用，证明分解定理，并用它分类若干有限群，属于群论内容。"
+    },
+    {
+      "title": "场论家用几何与代数（第一话）：李代数的崛起",
+      "url": "https://zhuanlan.zhihu.com/p/344738859",
+      "summary": "正文用封闭性、结合律、单位元和逆元解释群，并进一步引入由连续参数刻画作用的李群。"
+    },
+    {
+      "title": "第三讲   生成元  李代数",
+      "url": "https://zhuanlan.zhihu.com/p/346461588",
+      "summary": "正文定义群的封闭性、结合律、单位元和逆元，并以 U(1)、SO(3)、SU(2) 等群为例。"
+    },
+    {
+      "title": "一个Brunn-Minkowski不等式",
+      "url": "https://zhuanlan.zhihu.com/p/347098927",
+      "summary": "正文把欧氏空间中的Minkowski和推广到局部紧群，并用群结构与紧子群解释新的扩张现象。"
+    },
+    {
+      "title": "II.图的同构",
+      "url": "https://zhuanlan.zhihu.com/p/347566986",
+      "summary": "正文把顶点重标号组织成置换群，并用群作用和 Burnside 引理计数图的等价类。"
+    },
+    {
+      "title": "抽象人的学习笔记：陪集与商群",
+      "url": "https://zhuanlan.zhihu.com/p/350631795",
+      "summary": "正文从子群、陪集和正规子群讲起，并用集合乘法构造商群。"
+    },
+    {
+      "title": "《小学生都能看懂的群论从入门到升天教程》 《群论全家桶》算法竞赛相关",
+      "url": "https://zhuanlan.zhihu.com/p/350711725",
+      "summary": "正文给出群的四条公理及子群定义，并把这些结构用于置换群。"
+    },
+    {
+      "title": "群论(9): 群扩张与半直积",
+      "url": "https://zhuanlan.zhihu.com/p/260619863",
+      "summary": "正文围绕群的内外半直积、正规子群、群同态、群扩张与分裂扩张展开证明和构造。"
+    },
+    {
+      "title": "处理小阶群的技巧, 15阶以下群的分类",
+      "url": "https://zhuanlan.zhihu.com/p/260343968",
+      "summary": "正文证明小阶群元素性质并逐一分类15阶以下群，实质展开有限群结构。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / 李群对应的李代数与可爱又迷人的伴随表示",
+      "url": "https://zhuanlan.zhihu.com/p/348680652",
+      "summary": "正文从群表示的同态结构出发讨论群与矩阵群之间的对应，并用于李群及其覆盖关系。"
+    },
+    {
+      "title": "李群和李代数 —— 名字听起来很猛其实也没那么复杂",
+      "url": "https://zhuanlan.zhihu.com/p/358455662",
+      "summary": "正文逐条解释群所需的封闭性、结合律、幺元和逆元，并以整数加法等例子说明群结构。"
+    },
+    {
+      "title": "如何证明 Sylow 定理",
+      "url": "https://zhuanlan.zhihu.com/p/358852225",
+      "summary": "正文完整讨论有限群的Sylow子群存在性、共轭与计数证明，属于群论。"
+    },
+    {
+      "title": "[张量系列DLC] 洛伦兹变换分量系数的指标能被闵氏度规升降吗?",
+      "url": "https://zhuanlan.zhihu.com/p/365457613",
+      "summary": "正文给出洛伦兹群、幺正群和不定正交群的群元条件，并讨论这些群的条件如何统一。"
+    },
+    {
+      "title": "你真的会解方程吗？",
+      "url": "https://zhuanlan.zhihu.com/p/371512575",
+      "summary": "正文以方程解的交换和自同构为例，说明对称变换的集合及复合关系构成群。"
+    },
+    {
+      "title": "【群论】从洛伦兹变换到洛伦兹群",
+      "url": "https://zhuanlan.zhihu.com/p/372120033",
+      "summary": "正文从保持时空度规不变的旋转、反射和洛伦兹变换出发，讨论这些对称变换形成的群及其表示。"
+    },
+    {
+      "title": "伽罗瓦：致夏瓦利尔的信——论群、方程和阿贝尔积分",
+      "url": "https://zhuanlan.zhihu.com/p/372623732",
+      "summary": "正文通过方程根的置换群、群的真分解及 G=H+HS… 等关系展开群论论证。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / 浅谈洛伦兹群 (Lorentz group) 与洛伦兹代数",
+      "url": "https://zhuanlan.zhihu.com/p/370828021",
+      "summary": "正文给出洛伦兹群的保度规定义、连通分支与子群关系，实质讲解群结构。"
+    },
+    {
+      "title": "【梦幻联动】家用微分几何与代数：李群",
+      "url": "https://zhuanlan.zhihu.com/p/374246397",
+      "summary": "正文回顾李群的群结构，并实质展开左、右平移、伴随作用、自同构群及内自同构。"
+    },
+    {
+      "title": "【群论】物理人的李群和李代数",
+      "url": "https://zhuanlan.zhihu.com/p/374482622",
+      "summary": "正文从封闭性、结合律、恒元和逆元定义群，并继续讲解子群、同态与正规子群。"
+    },
+    {
+      "title": "Serre：Finite Groups: An Introduction使用攻略",
+      "url": "https://zhuanlan.zhihu.com/p/375273535",
+      "summary": "正文围绕有限群的子群、群作用、Sylow 定理、可解群与幂零群展开章节导读。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / マボロシの旋量空间与哈人的 Clifford 代数",
+      "url": "https://zhuanlan.zhihu.com/p/373020066",
+      "summary": "正文讨论 SU(2)、SO(3) 和 Spin 群之间的关系，并用二重覆盖解释旋量群。"
+    },
+    {
+      "title": "【群论入门】(1)：起源与应用",
+      "url": "https://zhuanlan.zhihu.com/p/375536437",
+      "summary": "正文梳理群概念从方程、数论与非欧几何中抽象出来的过程，并说明其在多领域的应用。"
+    },
+    {
+      "title": "【群论入门】(2)：模算术",
+      "url": "https://zhuanlan.zhihu.com/p/376118280",
+      "summary": "正文沿模算术的封闭性、单位元、逆和结合律逐项抽象出群的定义。"
+    },
+    {
+      "title": "伽罗瓦理论概述（四、一元高次方程的解法本质）",
+      "url": "https://zhuanlan.zhihu.com/p/376242058",
+      "summary": "正文把三次方程根的六个置换连同置换运算组织成对称群S_3，并分析其作用。"
+    },
+    {
+      "title": "伽罗瓦理论概述（七、伽罗瓦理论）",
+      "url": "https://zhuanlan.zhihu.com/p/376626159",
+      "summary": "正文研究根置换在系数域上保持不变时形成的伽罗瓦群，并利用正规子群与可解群判定方程。"
+    },
+    {
+      "title": "【群论入门】(3): 群的定义",
+      "url": "https://zhuanlan.zhihu.com/p/377775196",
+      "summary": "正文由模算术、三角形变换和向量子空间归纳封闭性、恒等元、逆与结合律，并据此给出群的形式定义。"
+    },
+    {
+      "title": "【群论入门】(4):  二元运算与Cayley表",
+      "url": "https://zhuanlan.zhihu.com/p/378065690",
+      "summary": "正文以 Cayley 表介绍群的阶、恒等元、逆元和交换性，并用多个小群例子展开群结构。"
+    },
+    {
+      "title": "【群论入门】(5): 子群、陪集、正规子群与商群",
+      "url": "https://zhuanlan.zhihu.com/p/378039151",
+      "summary": "正文从群出发讲解子群、陪集、正规子群与商群，并推导陪集构成商群所需的正规性条件。"
+    },
+    {
+      "title": "一般群上的Cauchy-Davenport定理",
+      "url": "https://zhuanlan.zhihu.com/p/378751518",
+      "summary": "正文以一般群的 Minkowski 和为核心，比较整数群、循环群与局部紧群上的集合扩张定理。"
+    },
+    {
+      "title": "【群论入门】(6)：循环群",
+      "url": "https://zhuanlan.zhihu.com/p/379019757",
+      "summary": "正文以旋转对称为例介绍循环群、生成元、群的阶及循环群为阿贝尔群的证明。"
+    },
+    {
+      "title": "【群论入门】(8) 同态",
+      "url": "https://zhuanlan.zhihu.com/p/379782437",
+      "summary": "正文给出群同态定义、保持乘法结构的关系，并用加法群、乘法群和单位圆群举例。"
+    },
+    {
+      "title": "2021 年春季学期总结",
+      "url": "https://zhuanlan.zhihu.com/p/382295808",
+      "summary": "正文用模 100 的点名序列和模 101 的幂序列具体说明循环群、生成元及与模数互素的条件。"
+    },
+    {
+      "title": "【群论入门】(9) Kernel / Image与零空间/列空间",
+      "url": "https://zhuanlan.zhihu.com/p/382505062",
+      "summary": "正文定义同态的核与像，证明核包含恒等元并讨论正规子群、陪集及同构第一定理。"
+    },
+    {
+      "title": "群论观点下的费尔马小定理",
+      "url": "https://zhuanlan.zhihu.com/p/382764463",
+      "summary": "正文从封闭性、结合律、单位元和逆元定义群，并讨论阿贝尔群、子群、陪集和商群。"
+    },
+    {
+      "title": "抽象代数：关于置换群的自同构与内自同构——异常的数字6(1)",
+      "url": "https://zhuanlan.zhihu.com/p/344532610",
+      "summary": "正文定义置换群的自同构和内自同构，并用共轭类、阶和群同态证明相关群论命题。"
+    },
+    {
+      "title": "抽代杂谈(14)：自由群",
+      "url": "https://zhuanlan.zhihu.com/p/386370338",
+      "summary": "正文从既约字和连接运算具体构造自由群，并讨论其群结构、自由积、群展示与泛性质。"
+    },
+    {
+      "title": "Galois理论(1)：Galois理论基本定理",
+      "url": "https://zhuanlan.zhihu.com/p/386946413",
+      "summary": "正文定义域扩张的自同构群，并通过其子群、阶和不动点集合展开 Galois 群的作用。"
+    },
+    {
+      "title": "Non-abelian Cohomology I: Torsors",
+      "url": "https://zhuanlan.zhihu.com/p/386412772",
+      "summary": "正文以群作用定义 torsor，并用非交换群及其主丛分类一阶非交换上同调。"
+    },
+    {
+      "title": "De Aequatione Cauchii 有关柯西方程的碎碎念",
+      "url": "https://zhuanlan.zhihu.com/p/387296915",
+      "summary": "正文把柯西方程解释为实数加群到自身的同态，并讨论自同态群的结构。"
+    },
+    {
+      "title": "拓扑学(3)",
+      "url": "https://zhuanlan.zhihu.com/p/391068265",
+      "summary": "正文由闭路类构造基本群，验证群运算，并讨论诱导同态和同构。"
+    },
+    {
+      "title": "视觉SLAM学习之李群李代数",
+      "url": "https://zhuanlan.zhihu.com/p/388778282",
+      "summary": "正文把旋转矩阵和刚体变换组织成李群，并讲解群元素及其连续光滑结构。"
+    },
+    {
+      "title": "在位姿估计问题中应用李群/流形的发展脉络、动机与直觉(框架草稿)",
+      "url": "https://zhuanlan.zhihu.com/p/395372419",
+      "summary": "正文以旋转群和特殊欧氏群为例解释李群的群结构及其在位姿估计中的作用。"
+    },
+    {
+      "title": "【群论入门】(10)： 排列与对称群",
+      "url": "https://zhuanlan.zhihu.com/p/402197369",
+      "summary": "正文说明置换在复合下满足封闭性、恒等元、逆和结合律，并介绍对称群、凯莱定理与交错群。"
+    },
+    {
+      "title": "一文读懂抽象代数(1): Polya计数原理",
+      "url": "https://zhuanlan.zhihu.com/p/404310081",
+      "summary": "正文定义群作用与轨道，利用对称群作用于染色集合，并证明和实例化 Burnside 引理。"
+    },
+    {
+      "title": "Clifford 量子线路 及 Gottesman-Knill 定理 简介",
+      "url": "https://zhuanlan.zhihu.com/p/407097969",
+      "summary": "正文从 stabilizer 的乘法封闭性引出群，并进一步讨论 Pauli 群和 Clifford 群。"
+    },
+    {
+      "title": "最好玩的群论",
+      "url": "https://zhuanlan.zhihu.com/p/409903787",
+      "summary": "正文用通俗例子定义集合上的二元运算，并逐项解释群的封闭性、结合律、单位元和逆元四个条件。"
+    },
+    {
+      "title": "私房笔记 | 群论一些基础概念的直观理解",
+      "url": "https://zhuanlan.zhihu.com/p/412861917",
+      "summary": "正文以连续变换群为例系统讲解群的陪集、正规子群、商群、直积以及群同态和同构。"
+    },
+    {
+      "title": "有限域的结构(1): 有限域的特点",
+      "url": "https://zhuanlan.zhihu.com/p/416128323",
+      "summary": "正文证明有限域非零元乘法群是循环群，并引入本原元说明单代数扩张。"
+    },
+    {
+      "title": "从一元二次方程到群论(8)：拉格朗日的贡献",
+      "url": "https://zhuanlan.zhihu.com/p/416000760",
+      "summary": "正文用根的全排列和循环置换说明对称性与置换后的取值数量，并由此引出拉格朗日群论思想。"
+    },
+    {
+      "title": "从一元二次方程到群论(10)：伽罗华理论",
+      "url": "https://zhuanlan.zhihu.com/p/417397566",
+      "summary": "正文通过 C7、阿贝尔群、置换及其复合运算具体解释群、子群与可解群的结构。"
+    },
+    {
+      "title": "场论家用代数（第六话）：李群、李代数、格点、表示与第一同伦群",
+      "url": "https://zhuanlan.zhihu.com/p/422003721",
+      "summary": "正文讨论 SU(2) 的中心、子群以及 SO(3) 作为商群的结构，实质展开了群与子群、商群的关系。"
+    },
+    {
+      "title": "习题集形式的稍进阶群论笔记 3：陪集分解",
+      "url": "https://zhuanlan.zhihu.com/p/420807311",
+      "summary": "正文系统讨论群与子群的陪集分解、Lagrange 定理、正规化子、共轭子群和双陪集。"
+    },
+    {
+      "title": "通过神秘的“魔群月光猜想”，探究数论、代数和弦理论之间不可思议的联系",
+      "url": "https://zhuanlan.zhihu.com/p/425870024",
+      "summary": "正文从图形对称操作引入群，并围绕有限单群、散在单群及魔群讲解群结构。"
+    },
+    {
+      "title": "解方程有什么难的？",
+      "url": "https://zhuanlan.zhihu.com/p/426555310",
+      "summary": "正文验证单位根集合在乘法下封闭且每个元素都有逆元，并由此说明其形成群结构。"
+    },
+    {
+      "title": "范畴逻辑 I——逻辑与数学结构的对应",
+      "url": "https://zhuanlan.zhihu.com/p/426945839",
+      "summary": "正文具体给出群的乘法和逆元公理，并用交换图及有限笛卡尔积范畴解释群结构。"
+    },
+    {
+      "title": "首届丘成桐女子中学生数学竞赛 - 笔试试题与解题参考",
+      "url": "https://zhuanlan.zhihu.com/p/428638271",
+      "summary": "正文讨论单位复数乘法群的有限子群，并证明其生成元与循环群结构。"
+    },
+    {
+      "title": "机器人中的李群和李代数（一）——基础知识",
+      "url": "https://zhuanlan.zhihu.com/p/435445206",
+      "summary": "正文给出群的定义和四条公理，并以整数加法为例说明。"
+    },
+    {
+      "title": "点群熊夫利(schoenflies)符号的光速记忆法",
+      "url": "https://zhuanlan.zhihu.com/p/436456001",
+      "summary": "正文按第一类点群、反演并集与同构关系解释 Schoenflies 符号，并系统归纳各点群的构成。"
+    },
+    {
+      "title": "【群论】有限交换群的结构定理",
+      "url": "https://zhuanlan.zhihu.com/p/437687542",
+      "summary": "正文系统证明有限交换群的结构定理，包括分解为 p 群、循环直和及唯一分类。"
+    },
+    {
+      "title": "场论家用代数（第八话）：群论、非局域算符跟 θ 项有什么关系？",
+      "url": "https://zhuanlan.zhihu.com/p/443874179",
+      "summary": "正文围绕规范群、表示格点、中心与线算符分类展开群论结构的讨论。"
+    },
+    {
+      "title": "正方体11种展开图严格证明",
+      "url": "https://zhuanlan.zhihu.com/p/446420829",
+      "summary": "正文识别正方体的等距对称群，说明群作用和轨道，并用 Burnside 引理计数。"
+    },
+    {
+      "title": "五次代数方程不可解证明概述，号称高中生也能看懂~~~",
+      "url": "https://zhuanlan.zhihu.com/p/451373884",
+      "summary": "正文介绍置换群、群公理、同态、核、正规子群、商群和可解群，并用于方程可解性分析。"
+    },
+    {
+      "title": "近世代数知识框架（期末总复习）持续更新",
+      "url": "https://zhuanlan.zhihu.com/p/454558040",
+      "summary": "正文系统列出群的定义、子群、陪集、正规子群和商群等群论内容。"
+    },
+    {
+      "title": "复变函数与复平面变换",
+      "url": "https://zhuanlan.zhihu.com/p/472348377",
+      "summary": "正文说明莫比乌斯变换的复合封闭、恒等映射和逆变换，从而解释其群结构。"
+    },
+    {
+      "title": "李群与李代数",
+      "url": "https://zhuanlan.zhihu.com/p/476262865",
+      "summary": "正文先给出群的封闭性、结合律、单位元和逆元四条公理，并据此讨论旋转矩阵与变换矩阵。"
+    },
+    {
+      "title": "群论[02]：对称群，交错群",
+      "url": "https://zhuanlan.zhihu.com/p/478338468",
+      "summary": "正文给出全变换群、对称群和置换群的定义，并证明确置换可分解为互不相交的轮换。"
+    },
+    {
+      "title": "李代数——物理学中最重要工具之一，一个最简单的解释",
+      "url": "https://zhuanlan.zhihu.com/p/480456136",
+      "summary": "正文通过整数加法、除法以及旋转对称的例子说明群的运算和封闭要求，并区分离散与连续变换群。"
+    },
+    {
+      "title": "月光下的数学——魔群月光猜想",
+      "url": "https://zhuanlan.zhihu.com/p/492286303",
+      "summary": "正文介绍有限单群分类，并重点讨论最大散在单群魔群的阶与结构。"
+    },
+    {
+      "title": "「调赢分析 (Harmonic Win-analysis)」：赢理论大厦出现乌云了？！我们会赢下去的！",
+      "url": "https://zhuanlan.zhihu.com/p/493749277",
+      "summary": "正文介绍交换群公理、循环群和有限交换群分解为循环群乘积的结构定理。"
+    },
+    {
+      "title": "关于 SL(2, Z) 的模形式",
+      "url": "https://zhuanlan.zhihu.com/p/506841837",
+      "summary": "正文定义二阶整数模群 SL(2,Z)，说明其有限生成性并研究矩阵群在复平面上的作用。"
+    },
+    {
+      "title": "Sylow定理及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/520765483",
+      "summary": "正文以有限群、p 子群、共轭作用、正规子群和群同态为主体，证明 Sylow 定理并用于有限群分类。"
+    },
+    {
+      "title": "Clifford 代数与正交群",
+      "url": "https://zhuanlan.zhihu.com/p/522923856",
+      "summary": "正文定义 Clifford 群、特殊 Clifford 群、Pin 群和 Spin 群，并研究它们与正交群的覆叠关系。"
+    },
+    {
+      "title": "应用密码学 | 离散对数问题（Discrete logarithm Problem）",
+      "url": "https://zhuanlan.zhihu.com/p/523658036",
+      "summary": "正文说明模素数原根生成有限循环群，其幂与全部非零剩余类一一对应。"
+    },
+    {
+      "title": "费马的绝妙证明与椭圆曲线（Mordell-Weil定理）",
+      "url": "https://zhuanlan.zhihu.com/p/530601252",
+      "summary": "正文由弦切构造定义椭圆曲线加法，并验证该运算形成交换群。"
+    },
+    {
+      "title": "离散数学期末复习知识点总结",
+      "url": "https://zhuanlan.zhihu.com/p/533801720",
+      "summary": "正文系统整理群、子群、陪集、循环群、置换群和同态等群论基本概念。"
+    },
+    {
+      "title": "物理学中的群论 · 入门篇  第一章：有限群",
+      "url": "https://zhuanlan.zhihu.com/p/539510930",
+      "summary": "正文系统讲解有限群的乘法表、生成元、循环群与二面体群，并讨论陪集、商群、单群和合成列。"
+    },
+    {
+      "title": "二次位姿估计问题（QPEP）第一讲：全局最优解",
+      "url": "https://zhuanlan.zhihu.com/p/548380256",
+      "summary": "正文以特殊正交群 SO(3) 和特殊欧拉群 SE(3) 约束旋转与刚体位姿。"
+    },
+    {
+      "title": "暴算洛伦兹群",
+      "url": "https://zhuanlan.zhihu.com/p/548699798",
+      "summary": "正文具体构造群同态并利用核与商群说明 SL2(C) 对洛伦兹群主支的双重覆盖。"
+    },
+    {
+      "title": "Note：张量积、直积、直和、Cartesian积与Kronecker积的区别与联系【物理向】",
+      "url": "https://zhuanlan.zhihu.com/p/556129070",
+      "summary": "正文在群的 Cartesian 积上按分量定义乘法与单位元，说明两个群的直积仍构成一个群。"
+    },
+    {
+      "title": "伽罗瓦理论基本定理——群论和域论之间的一座桥梁",
+      "url": "https://zhuanlan.zhihu.com/p/559318226",
+      "summary": "正文从群公理出发讲解子群、陪集、正规子群、群同态和同构，为伽罗瓦群作准备。"
+    },
+    {
+      "title": "抽象代数笔记：换位子群、可解群、单群",
+      "url": "https://zhuanlan.zhihu.com/p/573186989",
+      "summary": "正文系统讲解交换子群、商群、可解群递降群列和单群，属于群论结构。"
+    },
+    {
+      "title": "伽罗华理论（完整复现）",
+      "url": "https://zhuanlan.zhihu.com/p/571800192",
+      "summary": "由本原元及其极小多项式的根构造 K-自同构群，并讨论子群、正规子群与可解群。"
+    },
+    {
+      "title": "索菲斯·李：视力欠佳，却看到数学和物理中最深刻的结构之一",
+      "url": "https://zhuanlan.zhihu.com/p/575726569",
+      "summary": "正文用圆的连续旋转群 SO(2) 和含反射的 O(2) 说明有限群、无限群及群变换的复合。"
+    },
+    {
+      "title": "抽象代数笔记：群在集合上的作用、轨道稳定子定理",
+      "url": "https://zhuanlan.zhihu.com/p/575436817",
+      "summary": "正文定义群在集合上的作用，并以置换群、二面体群和正方体旋转群为例说明群元素如何作用于集合。"
+    },
+    {
+      "title": "几何学(I)期中复习",
+      "url": "https://zhuanlan.zhihu.com/p/577621514",
+      "summary": "正文讨论平移、旋转、反射、仿射变换的复合，并给出仿射群与等距变换群的半直积结构。"
+    },
+    {
+      "title": "一个关于椭圆曲线的世界数学难题，揭示了数学领域之间深层的联系",
+      "url": "https://zhuanlan.zhihu.com/p/578396926",
+      "summary": "正文用弦与反射定义椭圆曲线有理点上的加法，并说明其构成交换群和有限生成群。"
+    },
+    {
+      "title": "“不可能存在的人”——庞加莱，所有数学领域的大师",
+      "url": "https://zhuanlan.zhihu.com/p/579818685",
+      "summary": "正文用线性分式变换的复合、恒等变换和逆变换说明置换集合形成群，并讨论该无限群下不变的自守函数。"
+    },
+    {
+      "title": "如何自底向上地建立起对 Monad 的理解",
+      "url": "https://zhuanlan.zhihu.com/p/579141325",
+      "summary": "正文从原群、半群和幺半群逐步定义群，并说明结合律、单位元与逆元条件。"
+    },
+    {
+      "title": "Michael Atiyah：二十世纪的数学发展回顾",
+      "url": "https://zhuanlan.zhihu.com/p/585865078",
+      "summary": "正文回顾群论在二十世纪的发展，并具体讨论李群、表示、有限单群分类及魔群。"
+    },
+    {
+      "title": "【群论】入门笔记-Chapter7-三维空间中的旋转-SO(3)",
+      "url": "https://zhuanlan.zhihu.com/p/587115931",
+      "summary": "正文验证旋转矩阵乘法、单位元和逆元，具体构造并解释 SO(3) 群的群结构。"
+    },
+    {
+      "title": "伽罗瓦理论基本定理——群论和域论之间的一座桥梁",
+      "url": "https://zhuanlan.zhihu.com/p/587666476",
+      "summary": "正文系统介绍群、子群、陪集、正规子群和群同态，并用其证明伽罗瓦理论基本定理。"
+    },
+    {
+      "title": "数学很难的原因之一是，很多简单的概念被推广到了难以理解的程度",
+      "url": "https://zhuanlan.zhihu.com/p/587901031",
+      "summary": "正文把模 p 的非零剩余类解释成群，并用子群和拉格朗日定理证明费马小定理。"
+    },
+    {
+      "title": "原根的概念、性质及其存在性",
+      "url": "https://zhuanlan.zhihu.com/p/591377528",
+      "summary": "正文把模 m 的可逆元视为有限乘法群，并把原根解释为该循环群的生成元。"
+    },
+    {
+      "title": "Lie群和Lie代数  Ⅰ",
+      "url": "https://zhuanlan.zhihu.com/p/590419258",
+      "summary": "正文从群与群作用出发定义李群，并讨论轨道、稳定子群和群同态。"
+    },
+    {
+      "title": "巨大的数学谜团——椭圆曲线，代数、几何和数论的完美结合",
+      "url": "https://zhuanlan.zhihu.com/p/601650416",
+      "summary": "正文定义椭圆曲线上点的几何加法，并解释其组成以无穷远点为单位元的阿贝尔群。"
+    },
+    {
+      "title": "法国最伟大的数学家之一——柯西，以无与伦比的创造力，拯救了现代数学",
+      "url": "https://zhuanlan.zhihu.com/p/603538133",
+      "summary": "正文给出群的运算、结合律、恒等元与逆元公设，并通过置换乘法表、子群和抽象群解释群论。"
+    },
+    {
+      "title": "辛空间，辛变换，辛群",
+      "url": "https://zhuanlan.zhihu.com/p/606731586",
+      "summary": "正文定义辛群，并讨论辛群与特殊线性群之间的子群关系。"
+    },
+    {
+      "title": "群论学习(21):群的自同构群",
+      "url": "https://zhuanlan.zhihu.com/p/609356744",
+      "summary": "正文围绕群的自同构展开，证明自同构群构成群，并讨论中心、内自同构和商群。"
+    },
+    {
+      "title": "群论应用：一元五次方程为什么没有求根公式？",
+      "url": "https://zhuanlan.zhihu.com/p/614342677",
+      "summary": "正文定义导出列、换位子群、正规子群和可解群，并用群结构判定根式可解性。"
+    },
+    {
+      "title": "代数学引论（聂灵沼 丁石孙 著）部分习题解答（前四章）",
+      "url": "https://zhuanlan.zhihu.com/p/619645312",
+      "summary": "正文大量证明群元素的阶、子群、正规子群、同态和可解群等群论命题。"
+    },
+    {
+      "title": "计算多项式的Galois群",
+      "url": "https://zhuanlan.zhihu.com/p/622822909",
+      "summary": "正文讨论 Galois 群作为根集置换群子群，并用到 S_n、A_n、D_4、C_4 与四元群等群结构。"
+    },
+    {
+      "title": "李群是什么——几何与代数的结合（一）",
+      "url": "https://zhuanlan.zhihu.com/p/617130089",
+      "summary": "正文从集合、二元运算和运算规律出发说明群这一代数结构，并用于定义李群。"
+    },
+    {
+      "title": "傅里叶变换的强大，远超你的想象，深挖其背后的数学原理和细节",
+      "url": "https://zhuanlan.zhihu.com/p/634486202",
+      "summary": "正文以二元素群、循环群和阿贝尔群说明对称性与傅里叶分解的群论背景。"
+    },
+    {
+      "title": "关于二面体群",
+      "url": "https://zhuanlan.zhihu.com/p/640881932",
+      "summary": "正文系统讲解二面体群的定义、阶、共轭类、中心、换位子群、正规子群、自同构和子群结构。"
+    },
+    {
+      "title": "顺滑地进入群论 (Ep.2) ——U(1), SO(2), SO(3), SU(2)",
+      "url": "https://zhuanlan.zhihu.com/p/641253805",
+      "summary": "正文通过二维和三维旋转、复数、四元数及幺正矩阵具体介绍 O(2)、SO(2)、U(1)、SO(3)、SU(2) 等群。"
+    },
+    {
+      "title": "李群是什么——几何与代数的结合",
+      "url": "https://zhuanlan.zhihu.com/p/641464195",
+      "summary": "正文从群运算出发定义李群，并证明子群、同态、核和像的李群性质。"
+    },
+    {
+      "title": "顺滑地进入群论 (Ep.3) ——李群与李代数",
+      "url": "https://zhuanlan.zhihu.com/p/642654469",
+      "summary": "正文以连续对称性为线索介绍李群中的幺元、群元素乘法、封闭性和覆盖关系。"
+    },
+    {
+      "title": "群、环、域和向量空间这些代数结构的进化过程",
+      "url": "https://zhuanlan.zhihu.com/p/526012988",
+      "summary": "正文从封闭性、结合律、单位元和逆元逐步构造群，并解释阿贝尔群的交换性。"
+    },
+    {
+      "title": "李群初步：SU(2)群和SO(3)群",
+      "url": "https://zhuanlan.zhihu.com/p/643235749",
+      "summary": "正文定义群同态，并研究SU(2)与SO(3)两个非阿贝尔李群之间的同态和二对一映射。"
+    },
+    {
+      "title": "白话伽罗华理论",
+      "url": "https://zhuanlan.zhihu.com/p/646017546",
+      "summary": "正文通过克莱因四群、对称群及其子群和商群结构实质展开群论概念。"
+    },
+    {
+      "title": "现代数学的基石—李理论，这就是你彻底理解它的方式，一定让你茅塞顿开",
+      "url": "https://zhuanlan.zhihu.com/p/652585224",
+      "summary": "正文以封闭性、结合律、恒等元和逆元介绍群，并用对称变换给出实例。"
+    },
+    {
+      "title": "丘赛代数方向个人赛群论部分选做",
+      "url": "https://zhuanlan.zhihu.com/p/653252677",
+      "summary": "正文围绕类方程、群中心、西罗定理、群同态和特定阶群展开群论的结论与方法。"
+    },
+    {
+      "title": "通俗易懂的椭圆函数",
+      "url": "https://zhuanlan.zhihu.com/p/654478596",
+      "summary": "正文把周期函数的值结构抽象为群，并逐项说明封闭性、结合律、逆元和单位元。"
+    },
+    {
+      "title": "SLAM中使用李群和李代数的直觉",
+      "url": "https://zhuanlan.zhihu.com/p/657261293",
+      "summary": "正文从旋转矩阵的复合和可逆性出发说明群的定义，并引出特殊正交群。"
+    },
+    {
+      "title": "Galois理论：为什么五次方程没有根式解",
+      "url": "https://zhuanlan.zhihu.com/p/667865281",
+      "summary": "正文完整给出群的封闭性、幺元、逆元和结合律公理，并据此证明幺元与逆元的唯一性。"
+    },
+    {
+      "title": "伽罗瓦理论基本定理——群论和域论之间的一座桥梁",
+      "url": "https://zhuanlan.zhihu.com/p/609782043",
+      "summary": "正文系统定义群、子群、陪集、正规子群、同态与商群。"
+    },
+    {
+      "title": "现代数学的基石—李理论，这就是你彻底理解它的方式，茅塞顿开！",
+      "url": "https://zhuanlan.zhihu.com/p/672559202",
+      "summary": "正文具体解释群的封闭性、结合律、恒等元和逆元，并以三角形对称性和矩阵群为例。"
+    },
+    {
+      "title": "论数学及其结构逻辑",
+      "url": "https://zhuanlan.zhihu.com/p/673413880",
+      "summary": "正文具体定义群，并说明封闭性、结合律、单位元、逆元以及阿贝尔群和半群等结构。"
+    },
+    {
+      "title": "伽罗瓦理论",
+      "url": "https://zhuanlan.zhihu.com/p/675477823",
+      "summary": "正文把根的置换组成群，讨论子群、正规子群和可解群，并证明相关群论性质。"
+    },
+    {
+      "title": "巴拿赫 - 塔斯基分球“悖论”的证明",
+      "url": "https://zhuanlan.zhihu.com/p/675480111",
+      "summary": "正文用自由群及其在球面上的群作用构造有限分割，并讨论旋转群同构。"
+    },
+    {
+      "title": "李群是什么——几何与代数的结合",
+      "url": "https://zhuanlan.zhihu.com/p/662576340",
+      "summary": "正文以群和光滑流形的结合定义李群，并系统展开李群、李子群及群同态。"
+    },
+    {
+      "title": "1000阶以内群不是单群的证明",
+      "url": "https://zhuanlan.zhihu.com/p/676324714",
+      "summary": "正文系统运用 Sylow 定理、共轭作用和正规子群判定有限群是否为单群。"
+    },
+    {
+      "title": "彻底理解现代数学的基石—李理论",
+      "url": "https://zhuanlan.zhihu.com/p/676548568",
+      "summary": "正文从封闭性、结合律、恒等元和逆元四项公理介绍群，并以正三角形对称性说明群结构。"
+    },
+    {
+      "title": "物理学中的群论 · 入门篇 第三章：转动变换群",
+      "url": "https://zhuanlan.zhihu.com/p/677643396",
+      "summary": "正文逐条验证转动矩阵的封闭性、结合律、单位元和逆元，构造 SO(2) 群。"
+    },
+    {
+      "title": "速通伽罗瓦",
+      "url": "https://zhuanlan.zhihu.com/p/679689692",
+      "summary": "正文用 S5、A5、正规子群与阿贝尔商群说明可解群，并据此证明五次方程不可根式求解。"
+    },
+    {
+      "title": "顺滑地进入拓扑物理-同调代数篇 (Ep.1)",
+      "url": "https://zhuanlan.zhihu.com/p/683291688",
+      "summary": "正文验证链群的加法、单位元和逆元，并明确链群是自由阿贝尔群。"
+    },
+    {
+      "title": "中学生都能读懂的李群和李代数Ⅰ（适合物理宝宝体质）",
+      "url": "https://zhuanlan.zhihu.com/p/684801875",
+      "summary": "正文以旋转群、反射群和正交群为例，说明连续群及二维正交群的子群分解。"
+    },
+    {
+      "title": "陶哲轩预测再成真！AI做出椭圆曲线难题重大发现，华人数学家接近千禧年大奖",
+      "url": "https://zhuanlan.zhihu.com/p/686371338",
+      "summary": "正文通过两点连线与 x 轴反射定义椭圆曲线上的加法，并说明全部解形成群。"
+    },
+    {
+      "title": "中学生都能读懂的李群和李代数Ⅱ（适合物理宝宝体质）",
+      "url": "https://zhuanlan.zhihu.com/p/686249091",
+      "summary": "正文从常矩阵生成的旋转矩阵引出单参数子群这一群结构。"
+    },
+    {
+      "title": "写在Galois之前：一元五次以上方程为何无求根公式，高中生都能看懂的Galois理论——从Lagrange到Galois.",
+      "url": "https://zhuanlan.zhihu.com/p/689503545",
+      "summary": "正文定义 Galois 群及其子群，并用置换群和可解群解释方程根式可解性。"
+    },
+    {
+      "title": "何种n能使每个n阶群都是循环群",
+      "url": "https://zhuanlan.zhihu.com/p/692927702",
+      "summary": "正文围绕 n 阶群何时必为循环群展开，构造非循环群并用子群、商群和中心等群论结论完成证明。"
+    },
+    {
+      "title": "数学中最难以置信的成果之一是“李群”，从一粒沙中看整个世界",
+      "url": "https://zhuanlan.zhihu.com/p/699302161",
+      "summary": "正文从连续群、局部群结构、中心与内自同构讨论李群的整体性质。"
+    },
+    {
+      "title": "和一个令人好奇的Galois 群愉快玩耍",
+      "url": "https://zhuanlan.zhihu.com/p/708013542",
+      "summary": "正文围绕 PGL(2,5) 与 S5 同构、S6 外自同构、共轭子群和 3-可迁性展开具体群论分析。"
+    },
+    {
+      "title": "一些成分复杂的代数题",
+      "url": "https://zhuanlan.zhihu.com/p/708452183",
+      "summary": "正文用传递群作用、轨道稳定化子、Sylow 子群和正规子群分析群结构并证明单性。"
+    },
+    {
+      "title": "最高级的数学——范畴论，这是你轻松理解它的最好方式",
+      "url": "https://zhuanlan.zhihu.com/p/709883301",
+      "summary": "正文用封闭性、结合性、单位元和逆元完整说明群结构及其历史来源。"
+    },
+    {
+      "title": "什么是测度——一些常见的测度",
+      "url": "https://zhuanlan.zhihu.com/p/670589989",
+      "summary": "正文通过群、拓扑群和左平移不变性介绍哈尔测度的结构背景。"
+    },
+    {
+      "title": "理论力学——流形上的拉格朗日力学",
+      "url": "https://zhuanlan.zhihu.com/p/3664297922",
+      "summary": "正文系统介绍群、子群、正规子群、商群、群同态及单参数变换群。"
+    },
+    {
+      "title": "迎新年——2025阶群是可解群吗？",
+      "url": "https://zhuanlan.zhihu.com/p/15698925186",
+      "summary": "正文通过Sylow子群计数和正规化子讨论2025阶群的可解性，并使用有限p-群可解这一群论结论。"
+    },
+    {
+      "title": "Galois群的计算方法",
+      "url": "https://zhuanlan.zhihu.com/p/18086930202",
+      "summary": "正文把 Galois 群实现为根的置换群，并讨论 S_n、A_n、二面体群等具体群及其生成结构。"
+    },
+    {
+      "title": "耗时一个月，终于弄懂一点伽罗瓦理论了——N次代数方程的求根公式问题",
+      "url": "https://zhuanlan.zhihu.com/p/21642106810",
+      "summary": "正文给出置换群、正规子群链和群阶等概念及其在方程求解中的作用。"
+    },
+    {
+      "title": "高显的魔法书——（三）转动理论",
+      "url": "https://zhuanlan.zhihu.com/p/25066751850",
+      "summary": "正文介绍转动群 SO(D)、特殊幺正群 SU(2) 及其群结构。"
+    },
+    {
+      "title": "「Sylvester-Schur 定理」与一个哈佛大学的博资考问题",
+      "url": "https://zhuanlan.zhihu.com/p/25421384214",
+      "summary": "正文运用 Sylow 第一定理和素数区间结论构造并确定对称群 p-子群的阶。"
+    },
+    {
+      "title": "再耗时半个月，进一步弄明白了伽罗瓦理论了是为什么",
+      "url": "https://zhuanlan.zhihu.com/p/24037889392",
+      "summary": "正文把域的自同构组织成群，讨论子群和正规子群链，并联系可解群。"
+    },
+    {
+      "title": "私房笔记 | 藏在正三角形里的群与群表示（Prelude）",
+      "url": "https://zhuanlan.zhihu.com/p/19638958891",
+      "summary": "正文以正三角形的 D3 变换为例展开群元、乘法、子群与共轭类等群论结构。"
+    },
+    {
+      "title": "2025「数学界诺奖」阿贝尔奖公布！78岁日本数学巨匠重塑对称理论摘桂冠",
+      "url": "https://zhuanlan.zhihu.com/p/1888550760217821617",
+      "summary": "正文用多边形的旋转与反射说明群的对称性含义，并交代群在数学中的基本作用。"
+    },
+    {
+      "title": "SL₂(𝔽₃) 的 Sylow 子群 （2025中科大考研复试题）",
+      "url": "https://zhuanlan.zhihu.com/p/1888684854847206201",
+      "summary": "正文围绕特殊线性群 SL2(F3) 的群阶与 Sylow 3-子群展开，并列举元素的阶和循环子群。"
+    },
+    {
+      "title": "【从零开始的群世界生活】群表示论",
+      "url": "https://zhuanlan.zhihu.com/p/1897658906228003368",
+      "summary": "正文从群同态、共轭类与群代数出发，研究有限群元素生成的结构及其表示。"
+    },
+    {
+      "title": "反思数学本科教学：我们到底需要知道什么？（代数篇）",
+      "url": "https://zhuanlan.zhihu.com/p/1899990986324672998",
+      "summary": "正文以 GL2、GL3、交换化子、子群和商群等具体内容讨论群论学习。"
+    },
+    {
+      "title": "伽罗瓦的遗产——为什么五次方程不可解？",
+      "url": "https://zhuanlan.zhihu.com/p/1896598222820061785",
+      "summary": "正文从置换及其复合定义置换群和对称群，并用根的自同构置换解释伽罗瓦群。"
+    },
+    {
+      "title": "抽象代数（二）：常见的代数结构",
+      "url": "https://zhuanlan.zhihu.com/p/1902131427748876728",
+      "summary": "正文从置换的复合和逆置换抽象出群公理，并讲解有限群、交换群、循环群与二面体群。"
+    },
+    {
+      "title": "抽象代数（三）：群论——从入门到入土",
+      "url": "https://zhuanlan.zhihu.com/p/1902390487056355775",
+      "summary": "正文系统讲解群的定义、子群、陪集、同态、群作用和西罗定理等群论内容。"
+    },
+    {
+      "title": "李群李代数基础速通与SU(N)代数",
+      "url": "https://zhuanlan.zhihu.com/p/1907220352679010944",
+      "summary": "正文从封闭性、结合律、单位元和逆元四条公理定义群，并讨论群的参数化与表示。"
+    },
+    {
+      "title": "阿贝尔-鲁菲尼定理——为什么五次多项式没有求根公式？",
+      "url": "https://zhuanlan.zhihu.com/p/1907889134044938818",
+      "summary": "正文定义正规子群、可解群和伽罗瓦群，并用群链与对称群、交错群完成不可解性论证。"
+    },
+    {
+      "title": "抽象代数（五）：为什么五次方程无法用根式求解？",
+      "url": "https://zhuanlan.zhihu.com/p/1906844590964715776",
+      "summary": "正文由根的置换和自同构引入群，并讨论可解群与正规子群链。"
+    },
+    {
+      "title": "从小学的乘法交换律也是不成立的？",
+      "url": "https://zhuanlan.zhihu.com/p/1953211354119926327",
+      "summary": "正文从非交换乘法引出群的四条公理、阿贝尔群与非阿贝尔群，并以矩阵群和旋转群说明结构。"
+    },
+    {
+      "title": "抽象代数(朱富海、邓少强)1.1课后习题",
+      "url": "https://zhuanlan.zhihu.com/p/1953934505904706512",
+      "summary": "正文以大量抽象代数练习判定半群、幺半群和群，并证明矩阵群、对称群等群结构。"
+    },
+    {
+      "title": "五次方程为什么无根式解？",
+      "url": "https://zhuanlan.zhihu.com/p/1961872530676613290",
+      "summary": "正文给出群公理，并展开对称群、循环群、交换子、正规子群和可解群。"
+    },
+    {
+      "title": "群论 I  群的起源与伽罗瓦理论",
+      "url": "https://zhuanlan.zhihu.com/p/1972358819930702916",
+      "summary": "正文从方程根的置换和同余类运算引出群的封闭、结合、单位元与逆元结构，并讨论子群、正规子群和置换群。"
+    },
+    {
+      "title": "James Arthur：迹公式极简简史",
+      "url": "https://zhuanlan.zhihu.com/p/1978776508899283826",
+      "summary": "正文以矩阵乘法群 SL(2,R) 及其离散子群为出发点，讨论该群对上半平面的作用与轨道空间。"
+    },
+    {
+      "title": "有了四元数，再也不怕 SO(3) 和 SU(2)",
+      "url": "https://zhuanlan.zhihu.com/p/1985023719861662449",
+      "summary": "正文把三维旋转的全体构成 SO(3)，并讨论 SO(3) 与 SU(2) 的群元关系。"
+    },
+    {
+      "title": "线性代数1：群，域，复数介绍",
+      "url": "https://zhuanlan.zhihu.com/p/1988475163122087156",
+      "summary": "正文逐条解释群的封闭性、结合律、单位元和逆元，并讨论阿贝尔群、置换群及同构。"
+    },
+    {
+      "title": "关于消去律的段子",
+      "url": "https://zhuanlan.zhihu.com/p/1989340142515807231",
+      "summary": "正文由结合律、单位元和逆元证明左右消去律，并讨论若干等价的群定义。"
+    },
+    {
+      "title": "几何群论与低维拓扑：Profinite Rigidity(投射有限刚性）",
+      "url": "https://zhuanlan.zhihu.com/p/1992001129765172500",
+      "summary": "正文系统讨论剩余有限群、有限商群、投射有限完备化与群的投射有限刚性。"
+    },
+    {
+      "title": "表示论的考古学",
+      "url": "https://zhuanlan.zhihu.com/p/1999132281340716942",
+      "summary": "文章以循环群 C_3 和对称群 S_3 为例，说明群元素、生成关系及群代数的结构。"
+    },
+    {
+      "title": "法式大题赏析: Gromov多项式增长定理",
+      "url": "https://zhuanlan.zhihu.com/p/1989126528571840081",
+      "summary": "正文系统讨论有限生成群、幂零群、交换子、商群与多项式增长之间的关系。"
+    },
+    {
+      "title": "管你长啥样儿，，要就只想导几下的话导就完了, 尤其场论吧你用不着解析式的时候就别瞎比嗯刚解析式了. 我这儿顺带还给 MMA 了下··· 噢开头还有些顺直时空里的鸡毛蒜皮，，",
+      "url": "https://zhuanlan.zhihu.com/p/2014612843698356275",
+      "summary": "正文给出 Lorentz 群的定义，并证明其元素与逆变换的指标关系。"
+    },
+    {
+      "title": "“数分高代”视角下的散在单群（1）——模11下的叉乘奇迹与 Janko 第一单群",
+      "url": "https://zhuanlan.zhihu.com/p/2028216671819581256",
+      "summary": "正文围绕七维叉乘自同构群的运算、子群阶数和生成元展开群论讨论。"
+    },
+    {
+      "title": "“数分高代”视角下的散在单群（2）——“满天星”下的 Rudvalis 单群",
+      "url": "https://zhuanlan.zhihu.com/p/2028216938887754563",
+      "summary": "正文把问题的最后一步解释为求图的置换自同构群并验证其单性。"
+    },
+    {
+      "title": "李群李代数（一）·群到李群 李群到李代数 导子",
+      "url": "https://zhuanlan.zhihu.com/p/2033618384642888018",
+      "summary": "正文从有限群和离散群出发，引入拓扑与光滑结构来研究连续群。"
+    },
+    {
+      "title": "群论是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/2059578479746851551",
+      "summary": "正文系统定义群的四条公理、说明其含义，并以旋转和翻转的对称群作为具体实例。"
+    },
+    {
+      "title": "张量与群论（Jeevanjee）—— 群、李群与李代数",
+      "url": "https://zhuanlan.zhihu.com/p/2060379218127725134",
+      "summary": "正文完整定义群公理，推导基本性质，并系统介绍置换群、矩阵群和等距群等实例。"
+    }
+  ]
+}

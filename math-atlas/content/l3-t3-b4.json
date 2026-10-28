@@ -1,0 +1,1301 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t3-b4",
+  "sources": [
+    {
+      "title": "散度公式在柱坐标下的表述是如何推导的？有什么简单的方法吗？",
+      "url": "https://www.zhihu.com/answer/19282200",
+      "summary": "正文围绕「散度公式在柱坐标下的表述是如何推导的？有什么简单的方法吗？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "一道数学题：人的跑步方向一直指向猪多久能追上？",
+      "url": "https://www.zhihu.com/answer/36424483",
+      "summary": "正文使用极坐标处理追及问题。"
+    },
+    {
+      "title": "数学上积分结果的本质是什么？",
+      "url": "https://www.zhihu.com/answer/46737035",
+      "summary": "正文演示以极坐标积分计算一般平面图形面积。"
+    },
+    {
+      "title": "你认为你所在学科最杰出的思想是什么？",
+      "url": "https://www.zhihu.com/answer/54485706",
+      "summary": "正文用二维极坐标把高斯二重积分化简。"
+    },
+    {
+      "title": "为什么这个世界诸多公式与自然常数e有关?",
+      "url": "https://www.zhihu.com/answer/74624189",
+      "summary": "正文利用极角、极径和复数三角表示讨论极坐标。"
+    },
+    {
+      "title": "Hough变换,同一条直线上的点对应的(r,θ)都是相同的，怎么理解？",
+      "url": "https://www.zhihu.com/answer/82100453",
+      "summary": "正文用极坐标参数化直线并解释霍夫空间中的点线对偶。"
+    },
+    {
+      "title": "极坐标下的二重积分，二次积分下每次积分的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/110135036",
+      "summary": "正文从圆环切片推导极坐标面积微元，并进一步讨论球极坐标。"
+    },
+    {
+      "title": "此图像的参数方程应该是什么？",
+      "url": "https://www.zhihu.com/answer/111914069",
+      "summary": "正文从椭圆极坐标方程调节角频率与离心率，构造给定曲线的参数表示。"
+    },
+    {
+      "title": "在边长为 1 的正方形中随机取三个点，构成三角形的面积的数学期望是多少？",
+      "url": "https://www.zhihu.com/answer/121287017",
+      "summary": "正文在圆内情形改用以边界点为原点的极坐标简化面积表达。"
+    },
+    {
+      "title": "什么是频响函数FRF？",
+      "url": "https://www.zhihu.com/answer/121887256",
+      "summary": "正文说明幅值与相位是复数在极坐标下的表示。"
+    },
+    {
+      "title": "两个定积分相乘的运算法则是什么？它们的积分上下限都一样，能把积分号提出来吗？",
+      "url": "https://www.zhihu.com/answer/136174319",
+      "summary": "高斯积分推导中明确把直角坐标变换为极坐标完成计算。"
+    },
+    {
+      "title": "如何解读清华大学基科61男生的一副横幅？",
+      "url": "https://www.zhihu.com/answer/150254680",
+      "summary": "正文用 MATLAB 极坐标函数绘制给定 r(θ) 曲线，属于极坐标应用。"
+    },
+    {
+      "title": "如何解读清华大学基科61男生的一副横幅？",
+      "url": "https://www.zhihu.com/answer/150637485",
+      "summary": "正文在极坐标坐标轴上绘制 r(θ) 曲线并替换三角函数观察结果。"
+    },
+    {
+      "title": "极坐标下的二重积分，二次积分下每次积分的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/172064969",
+      "summary": "正文完整解释从直角坐标到极坐标的二重积分换元及其面积伸缩。"
+    },
+    {
+      "title": "有没有人能用人类的语言告诉我，相似矩阵有什么用？",
+      "url": "https://www.zhihu.com/answer/174887899",
+      "summary": "正文以直角坐标到极坐标的换元类比为何要寻找更简单的基。"
+    },
+    {
+      "title": "如何用代码画出一只齿轮？",
+      "url": "https://www.zhihu.com/answer/238215859",
+      "summary": "正文把齿轮边界写为半径随转角变化的极坐标曲线。"
+    },
+    {
+      "title": "如何用代码画出一只齿轮？",
+      "url": "https://www.zhihu.com/answer/239002345",
+      "summary": "正文推导齿轮渐开线并用极坐标绘制各段曲线。"
+    },
+    {
+      "title": "关于极坐标下弧线长度的求法？",
+      "url": "https://www.zhihu.com/answer/240169118",
+      "summary": "正文从极坐标微小弧段推导弧长微元。"
+    },
+    {
+      "title": "如何用代码画出一只齿轮？",
+      "url": "https://www.zhihu.com/answer/240606738",
+      "summary": "正文用极坐标方式绘制周期性齿轮轮廓。"
+    },
+    {
+      "title": "有哪些美丽或神奇的理科公式？",
+      "url": "https://www.zhihu.com/answer/252187265",
+      "summary": "正文用半径和转角参数在平面上生成植物排列。"
+    },
+    {
+      "title": "封闭图形内一点到边上所有点的平均距离是多少？",
+      "url": "https://www.zhihu.com/answer/305239623",
+      "summary": "正文转换到极坐标后把距离平均化为角变量积分。"
+    },
+    {
+      "title": "如何画心形函数？",
+      "url": "https://www.zhihu.com/answer/321708066",
+      "summary": "正文给出极坐标下的心形曲线表达。"
+    },
+    {
+      "title": "e 的虚数次方如何定义？",
+      "url": "https://www.zhihu.com/answer/323805405",
+      "summary": "正文把复数写成极坐标形式完成推导。"
+    },
+    {
+      "title": "二元函数全微分判别式下面的 ρ 有什么具体意义呢？",
+      "url": "https://www.zhihu.com/answer/347217412",
+      "summary": "正文把二元问题改用极坐标表示。"
+    },
+    {
+      "title": "数学家笛卡尔有一个爱情公式r=a(1-sinθ)有人把它解出来吗？",
+      "url": "https://www.zhihu.com/answer/386704558",
+      "summary": "正文给出心形线的极坐标方程及对应参数方程。"
+    },
+    {
+      "title": "已知一个椭圆 在椭圆内随机取点应该如何实现？ 我用的fortran 其它语言有什么方便的函数吗？",
+      "url": "https://www.zhihu.com/answer/411613846",
+      "summary": "正文在极坐标中均匀取角度和半径平方根生成圆盘点。"
+    },
+    {
+      "title": "如何用十分中二的方式解数学题？",
+      "url": "https://www.zhihu.com/answer/423859659",
+      "summary": "正文将积分区域改写为极坐标形式求解。"
+    },
+    {
+      "title": "使用柱坐标和球坐标计算三重积分时，如何确定积分的上下限？",
+      "url": "https://www.zhihu.com/answer/465033277",
+      "summary": "正文解释极坐标中角度与半径积分范围的确定。"
+    },
+    {
+      "title": "如何用c语言画函数？",
+      "url": "https://www.zhihu.com/answer/483568196",
+      "summary": "正文给出极坐标心脏线的绘制方法。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/492736595",
+      "summary": "正文把复数写成极坐标的模长与幅角形式。"
+    },
+    {
+      "title": "求解答高数极坐标系下二重积分上下限怎么确定？每次做题都不能正确写出，或推荐一些老师讲解这块儿的视频？",
+      "url": "https://www.zhihu.com/answer/516794161",
+      "summary": "正文以旋转射线、极角和极径系统讲解极坐标下区域表示。"
+    },
+    {
+      "title": "在 Mathematica 中，你认为哪些强大命令是你相见恨晚的？",
+      "url": "https://www.zhihu.com/answer/545934834",
+      "summary": "正文把直角坐标变量变换为极坐标进行计算。"
+    },
+    {
+      "title": "你听过最美的网名是什么？",
+      "url": "https://www.zhihu.com/answer/619491092",
+      "summary": "正文给出心形曲线的极坐标方程。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/649863288",
+      "summary": "在极坐标方程中列式求动椭圆与直线关系。"
+    },
+    {
+      "title": "怎么化二次积分为极坐标形式的积分？",
+      "url": "https://www.zhihu.com/answer/660569709",
+      "summary": "通过极坐标变换重写平面区域。"
+    },
+    {
+      "title": "极坐标怎么与直角坐标系相互转化？",
+      "url": "https://www.zhihu.com/answer/685606271",
+      "summary": "给出极坐标与直角坐标的双向转换公式并演示例题。"
+    },
+    {
+      "title": "如何通俗地理解极坐标？",
+      "url": "https://www.zhihu.com/answer/733616148",
+      "summary": "用到原点距离和极轴夹角定义极坐标。"
+    },
+    {
+      "title": "4个白牛分别在边长为a的正方形的四个顶点上，同时冲向顺时针的下一只白牛，如何用函数表达单只白牛的轨迹？",
+      "url": "https://www.zhihu.com/answer/753684705",
+      "summary": "用极坐标写追逐轨迹的等角螺线。"
+    },
+    {
+      "title": "n维球坐标变化下的Jacobi行列式怎么计算？",
+      "url": "https://www.zhihu.com/answer/781120941",
+      "summary": "完整推导n维球坐标的雅可比因子。"
+    },
+    {
+      "title": "为什么复数可以用自然对数的底e和三角函数来表示？",
+      "url": "https://www.zhihu.com/answer/820245700",
+      "summary": "由直角坐标和极坐标关系转换复数表示。"
+    },
+    {
+      "title": "一条直线是只有一个方程吗？",
+      "url": "https://www.zhihu.com/answer/855422917",
+      "summary": "说明同一直线还可用极坐标表达。"
+    },
+    {
+      "title": "1/(1+sinx)² 的积分怎么积？",
+      "url": "https://www.zhihu.com/answer/954121119",
+      "summary": "正文先把被积式解释为极坐标曲线扫过的面积，再转换到直角坐标系求解。"
+    },
+    {
+      "title": "直角坐标与极坐标的互化中，为什么 dxdy=rdrdθ？",
+      "url": "https://www.zhihu.com/answer/997070509",
+      "summary": "正文从极坐标变换式推导面积元 dxdy=rdrdθ。"
+    },
+    {
+      "title": "内摆线的参数方程怎么推导？",
+      "url": "https://www.zhihu.com/answer/1112556567",
+      "summary": "正文给出心形线极坐标表示。"
+    },
+    {
+      "title": "请问有没有大神知道复数的极坐标形式如何进行加、减、乘、除运算？",
+      "url": "https://www.zhihu.com/answer/1114341569",
+      "summary": "正文解释复数直角坐标与极坐标形式之间的转换。"
+    },
+    {
+      "title": "弧长的极坐标式计算公式为啥不能是这样？",
+      "url": "https://www.zhihu.com/answer/1187334542",
+      "summary": "正文以极坐标中的半径与角度微元推导弧长，并与面积微元对比。"
+    },
+    {
+      "title": "你见过哪些构思巧妙，令你眼界大开的数学问题？",
+      "url": "https://www.zhihu.com/answer/1272068658",
+      "summary": "正文以极坐标代换完成二重积分。"
+    },
+    {
+      "title": "心形线r=a(1+cosθ)绕极轴旋转一周产生立体的体积是多少?",
+      "url": "https://www.zhihu.com/answer/1345835369",
+      "summary": "正文在极坐标方程下讨论心形线绕极轴旋转所得立体的体积。"
+    },
+    {
+      "title": "如何证明坐标变换中的雅可比行列式？",
+      "url": "https://www.zhihu.com/answer/1346421063",
+      "summary": "正文以直角坐标到极坐标的变换为例说明雅可比面积因子。"
+    },
+    {
+      "title": "极坐标怎么与直角坐标系相互转化？",
+      "url": "https://www.zhihu.com/answer/1445407366",
+      "summary": "正文直接讲解或推导“极坐标”相关内容。"
+    },
+    {
+      "title": "椭圆普通方程怎么化成极坐标？",
+      "url": "https://www.zhihu.com/answer/1445447645",
+      "summary": "正文直接讲解或推导“极坐标”相关内容。"
+    },
+    {
+      "title": "中心不在原点的圆的极坐标方程怎么写？",
+      "url": "https://www.zhihu.com/answer/1445497407",
+      "summary": "正文直接讲解或推导“极坐标”相关内容。"
+    },
+    {
+      "title": "直角坐标与极坐标的互化中，为什么 dxdy=rdrdθ？",
+      "url": "https://www.zhihu.com/answer/1447917992",
+      "summary": "正文直接讲解或推导“极坐标”相关内容。"
+    },
+    {
+      "title": "怎么证明dxdy=rdrdθ（极坐标换元）？",
+      "url": "https://www.zhihu.com/answer/1448300567",
+      "summary": "正文直接讲解或推导“极坐标”相关内容。"
+    },
+    {
+      "title": "拉普拉斯方程极坐标形式是怎么推导出来的啊？",
+      "url": "https://www.zhihu.com/answer/1448320600",
+      "summary": "正文直接讲解或推导“极坐标”相关内容。"
+    },
+    {
+      "title": "极坐标下的二重积分，积分公式里的rdr是如何来的？",
+      "url": "https://www.zhihu.com/answer/1448810549",
+      "summary": "正文直接讲解或推导“极坐标”相关内容。"
+    },
+    {
+      "title": "已知 (x－2)²＋(y＋1)²＝9，求 2x²＋y² 的最值，求大佬怎么做？",
+      "url": "https://www.zhihu.com/answer/1504247901",
+      "summary": "正文以极坐标参数化圆上坐标来改写目标函数。"
+    },
+    {
+      "title": "圆内均匀随机地取三个点，三点确定的新圆在旧圆内的概率是多少？",
+      "url": "https://www.zhihu.com/answer/1512708820",
+      "summary": "正文用极坐标表示单位圆盘上的随机点。"
+    },
+    {
+      "title": "极坐标方程的曲率公式如何推导？",
+      "url": "https://www.zhihu.com/answer/1601946171",
+      "summary": "正文直接讨论或应用该叶节点主题（极坐标）。"
+    },
+    {
+      "title": "为什么二重积分极坐标变换多一个r?",
+      "url": "https://www.zhihu.com/answer/1785537562",
+      "summary": "正文解释二重积分极坐标变换中的坐标映射。"
+    },
+    {
+      "title": "一个椭圆柱在地上做微小纯滚的周期是多少？",
+      "url": "https://www.zhihu.com/answer/1803442044",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "一个朋友给的函数(x²+y²)³=x²y²什么意思(｡･ˇ_ˇ･｡:)？",
+      "url": "https://www.zhihu.com/answer/1810190302",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "二重积分中给出极坐标D区域，如何转化为直角坐标？",
+      "url": "https://www.zhihu.com/answer/1868876708",
+      "summary": "正文通过 x=r cosθ、y=r sinθ 把极坐标区域改写成直角坐标不等式。"
+    },
+    {
+      "title": "伽马函数中，Γ(1/2)=√π 怎么来的？",
+      "url": "https://www.zhihu.com/answer/1904275526",
+      "summary": "正文把二重积分换成极坐标完成计算。"
+    },
+    {
+      "title": "函数 y=x² 的图像绕原点顺时针旋转 45° 后，对应的表达式是什么？",
+      "url": "https://www.zhihu.com/answer/2038084395",
+      "summary": "正文用极坐标求旋转后的曲线方程。"
+    },
+    {
+      "title": "如何用定义证明1/x是双曲线？(F1-F2＝2a)？",
+      "url": "https://www.zhihu.com/answer/2058925663",
+      "summary": "正文用极坐标分析圆锥曲线。"
+    },
+    {
+      "title": "二重积分在极坐标系下怎么转换积分顺序？",
+      "url": "https://www.zhihu.com/answer/2191748469",
+      "summary": "正文用极坐标圆弧层解释二重积分的积分顺序与上下限。"
+    },
+    {
+      "title": "如何计算一卷卫生纸的长度？",
+      "url": "https://www.zhihu.com/answer/2218565438",
+      "summary": "正文用极坐标曲线和弧长公式计算卷纸长度。"
+    },
+    {
+      "title": "MATLAB 有什么奇技淫巧？",
+      "url": "https://www.zhihu.com/answer/2255765893",
+      "summary": "正文用极坐标转换计算周期单元的径向函数。"
+    },
+    {
+      "title": "高考数学中，解析几何大题计算量很大，得分率不高，有没有方法可以减小计算量，快速解答题目？",
+      "url": "https://www.zhihu.com/answer/2283618892",
+      "summary": "正文系统推导并应用圆锥曲线的极坐标方程。"
+    },
+    {
+      "title": "如何用向量表示圆锥曲线?",
+      "url": "https://www.zhihu.com/answer/2288064939",
+      "summary": "正文说明已知焦点的向量表示与极坐标坐标形式之间的关系。"
+    },
+    {
+      "title": "高考数学中，解析几何大题计算量很大，得分率不高，有没有方法可以减小计算量，快速解答题目？",
+      "url": "https://www.zhihu.com/answer/2303353215",
+      "summary": "正文讨论解析几何中的参数方程与极坐标方法。"
+    },
+    {
+      "title": "数学建模国赛是数据题简单还是偏物理的题简单？",
+      "url": "https://www.zhihu.com/answer/2318864548",
+      "summary": "正文用极坐标描述抛物面和径向伸缩建模。"
+    },
+    {
+      "title": "直角坐标与极坐标的互化中，为什么 dxdy=rdrdθ？",
+      "url": "https://www.zhihu.com/answer/2374425677",
+      "summary": "正文从极坐标面积微元 r dr dθ 解释坐标变换的雅可比因子。"
+    },
+    {
+      "title": "为什么天体轨道是圆锥曲线（椭圆、抛物线、双曲线）？",
+      "url": "https://www.zhihu.com/answer/2424106144",
+      "summary": "正文以天体为原点建立极坐标并分解径向与横向加速度。"
+    },
+    {
+      "title": "这道三角函数积分怎么运算，实在没有太好的思路?",
+      "url": "https://www.zhihu.com/answer/2435226319",
+      "summary": "正文把积分解释为极坐标半径函数围成区域的面积。"
+    },
+    {
+      "title": "什么时候可以用极坐标法求二重极限？",
+      "url": "https://www.zhihu.com/answer/2454774580",
+      "summary": "正文说明极坐标代换可用的范围及角度必须覆盖完整圆周。"
+    },
+    {
+      "title": "你用matplotlib画出过哪些令人惊艳的图形？",
+      "url": "https://www.zhihu.com/answer/2467684802",
+      "summary": "正文使用极坐标的极角和极径来绘制半圆形量角器。"
+    },
+    {
+      "title": "解析几何的高考题都是怎么出出来的？",
+      "url": "https://www.zhihu.com/answer/2521073968",
+      "summary": "给出圆锥曲线的极坐标方程并用它处理焦点弦长度问题。"
+    },
+    {
+      "title": "极坐标方程的曲率公式如何推导？",
+      "url": "https://www.zhihu.com/answer/2577106597",
+      "summary": "在极坐标表示下计算速度、加速度与曲率半径。"
+    },
+    {
+      "title": "数学系课程中，《解析几何》到底有什么用？",
+      "url": "https://www.zhihu.com/answer/2590200028",
+      "summary": "以极坐标表示为例说明合适的坐标表示能显著简化计算并影响算法复杂度。"
+    },
+    {
+      "title": "若X和Y独立同正态分布，那么(X^2+Y^2)/(X+Y)服从怎样的分布？",
+      "url": "https://www.zhihu.com/answer/2678254202",
+      "summary": "正文令 X=rcosθ、Y=rsinθ，把二维区域和概率积分改写到极坐标下计算。"
+    },
+    {
+      "title": "1/2阶导数是什么？",
+      "url": "https://www.zhihu.com/answer/2710572218",
+      "summary": "把二重积分由直角坐标换为极坐标，计算 Gamma 函数相关积分。"
+    },
+    {
+      "title": "能否出一道数学题，涵盖高中所有知识点?",
+      "url": "https://www.zhihu.com/answer/2798990583",
+      "summary": "正文在极坐标下写出复数乘法中模相乘、辐角相加的公式，并用该形式化简题目对象。"
+    },
+    {
+      "title": "请问各位数学大佬，这道题目是否可用抛物线几何性质简化运算？",
+      "url": "https://www.zhihu.com/answer/2865904092",
+      "summary": "正文定义由两个极角构成的双极坐标，并类比极坐标说明其周期性和极径。"
+    },
+    {
+      "title": "sin（x）求四次导数还是原函数，和e^（x）的性质相似，这和欧拉公式有关系吗？",
+      "url": "https://www.zhihu.com/answer/2963331781",
+      "summary": "正文明确说明 re^{iθ} 是复数在极坐标下用半径和辐角表示的方式。"
+    },
+    {
+      "title": "战场上士兵是如何报敌方坐标？",
+      "url": "https://www.zhihu.com/answer/3070666339",
+      "summary": "正文用参考方向、旋转角和距离确定目标位置，实质说明了角度加距离的极坐标定位方式。"
+    },
+    {
+      "title": "有没有分数边形，例如正3.5边形？",
+      "url": "https://www.zhihu.com/answer/3487329046",
+      "summary": "正文明确采用极坐标 (r,θ) 表示平面点，并据此构造正多边形的边方程。"
+    },
+    {
+      "title": "为什么圆的面积公式导数是其周长公式？",
+      "url": "https://www.zhihu.com/answer/3569206852",
+      "summary": "正文用极坐标变换把圆域上的面积分化为半径与角度的参数积分。"
+    },
+    {
+      "title": "如何评价 2024 数学建模国赛？",
+      "url": "https://www.zhihu.com/answer/3620354223",
+      "summary": "正文以阿基米德螺线为例建立极坐标方程、弧长与角度之间的对应，并用极坐标表示整条板凳龙的位置。"
+    },
+    {
+      "title": "如何评价 2024 数学建模国赛？",
+      "url": "https://www.zhihu.com/answer/3621579614",
+      "summary": "正文明确以极坐标下的半径与角度关系把盘龙螺线化为一变量模型。"
+    },
+    {
+      "title": "为什么行星的运行轨道都是椭圆的?",
+      "url": "https://www.zhihu.com/answer/14293339924",
+      "summary": "正文采用径向距离和极角表示行星位置，推导出极坐标形式的圆锥曲线轨道方程。"
+    },
+    {
+      "title": "为什么曼德勃罗集中间有心形线?",
+      "url": "https://www.zhihu.com/answer/54897148460",
+      "summary": "正文附录推导心形线的极坐标方程，并把外摆线参数式化为常见的极坐标形式。"
+    },
+    {
+      "title": "求a+b+√a^2+b^2最小值?",
+      "url": "https://www.zhihu.com/answer/66999210388",
+      "summary": "正文把约束变量转为极坐标参数，利用正弦和余弦表示条件并求出最小值。"
+    },
+    {
+      "title": "求问这个六重积分怎么算?",
+      "url": "https://www.zhihu.com/answer/69049695063",
+      "summary": "正文在外层积分中采用球坐标形式的三重极坐标换元完成计算。"
+    },
+    {
+      "title": "圆锥曲线的本质是什么？",
+      "url": "https://www.zhihu.com/answer/78016052484",
+      "summary": "正文给出圆锥曲线统一极坐标方程，并在讨论垂轨迹时转换到极坐标表示。"
+    },
+    {
+      "title": "数学中有哪些问题放到更大的空间/对象里解决起来变简单的例子？",
+      "url": "https://www.zhihu.com/answer/1900934628648416013",
+      "summary": "正文把二维正态密度从直角坐标变换到极坐标，并利用面积元中的 r 因子化简积分。"
+    },
+    {
+      "title": "新版的高中数学教材为什么要删掉极坐标系？",
+      "url": "https://www.zhihu.com/answer/1907531960093513012",
+      "summary": "正文以圆周运动为例说明极坐标用半径和角度表示位置，固定半径后只需研究角度变化。"
+    },
+    {
+      "title": "新版的高中数学教材为什么要删掉极坐标系？",
+      "url": "https://www.zhihu.com/answer/1907535334906004634",
+      "summary": "正文说明极坐标可用于研究圆锥曲线，并指出三类圆锥曲线在极坐标下具有相同形式的方程。"
+    },
+    {
+      "title": "新版的高中数学教材为什么要删掉极坐标系？",
+      "url": "https://www.zhihu.com/answer/1908697133244192592",
+      "summary": "明确把极坐标作为曲线坐标的特例，并讨论用统一坐标方法处理各类坐标系。"
+    },
+    {
+      "title": "怎么判断一个孩子有没有数学天赋？",
+      "url": "https://www.zhihu.com/answer/1933522192638911036",
+      "summary": "正文用半径和角度给出复数的极坐标形式，并说明实部、虚部与模长和幅角的关系。"
+    },
+    {
+      "title": "怎样看出一个人有数学天赋？",
+      "url": "https://www.zhihu.com/answer/1933522657170682119",
+      "summary": "正文用半径和角度给出复数的极坐标形式，并说明实部、虚部与模长和幅角的关系。"
+    },
+    {
+      "title": "为什么欧拉公式被称为世界上最完美的公式了？",
+      "url": "https://www.zhihu.com/answer/1933542278623896911",
+      "summary": "正文用半径和角度给出复数的极坐标形式，并说明实部、虚部与模长和幅角的关系。"
+    },
+    {
+      "title": "有什么在圆内均匀随机取一个点的方法吗？",
+      "url": "https://www.zhihu.com/answer/1947775524647731954",
+      "summary": "正文用极坐标变换把圆内取点转化为角度与半径平方的采样问题。"
+    },
+    {
+      "title": "面积微分dxdy为什么是叉乘？",
+      "url": "https://www.zhihu.com/answer/1958192955027338969",
+      "summary": "正文具体给出极坐标变换的矩阵及面积元素 r dr dtheta，说明极坐标下积分雅可比为 r。"
+    },
+    {
+      "title": "数学是人类发明的，还是宇宙本身的语言？",
+      "url": "https://www.zhihu.com/answer/1970293803148644585",
+      "summary": "正文把复数写成半径乘上余弦加正弦虚部乘单位虚数的形式，并用直角三角形的边解释极坐标分解。"
+    },
+    {
+      "title": "求在单位圆内随机三角形构成面积的期望？",
+      "url": "https://www.zhihu.com/answer/2002072719882216582",
+      "summary": "正文把圆内随机点改写为极坐标，以极径和辐角表示面积行列式及积分区域。"
+    },
+    {
+      "title": "谷歌干崩内存股价的TurboQuant 论文被 RaBitQ 作者指出存在严重错误，怎么理解？",
+      "url": "https://www.zhihu.com/answer/2021671166532756431",
+      "summary": "正文说明 TurboQuant 将旋转后的多维向量由直角坐标转为极坐标，并据此讨论量化后的参数共享与内存开销。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/2024421529098756242",
+      "summary": "正文具体写出直角坐标到极坐标的面积元变换，并演示角度积分产生二倍圆周率。"
+    },
+    {
+      "title": "虚数还能再开根号吗？",
+      "url": "https://www.zhihu.com/answer/2025519017675245485",
+      "summary": "正文用长度和角度表示复平面中的复数，并解释模长、辐角及角度旋转对乘幂运算的作用。"
+    },
+    {
+      "title": "为什么在极坐标变换中dxdy等于rdrdθ？",
+      "url": "https://www.zhihu.com/answer/2036087759522240222",
+      "summary": "正文以极坐标系为例说明二重积分的坐标表达和面积微元换元。"
+    },
+    {
+      "title": "x^4＋x^2＋1 如何因式分解？",
+      "url": "https://www.zhihu.com/answer/2040860386837128600",
+      "summary": "正文用复数的模长和主幅角计算平方根，以确定四个复根并完成实数域分解。"
+    },
+    {
+      "title": "我们在数学中为什么要引入复数？",
+      "url": "https://www.zhihu.com/answer/2052736816206423099",
+      "summary": "正文用模长和辐角描述复平面中的点，并给出复数的极坐标形式。"
+    },
+    {
+      "title": "你收藏了哪些堪称艺术品的数学等式？",
+      "url": "https://www.zhihu.com/answer/2063492920116884888",
+      "summary": "正文推导正方形的极坐标方程，并用极坐标、参数方程和复数运算构造多种平面闭曲线。"
+    },
+    {
+      "title": "为敬畏生命而生—南丁格尔玫瑰图",
+      "url": "https://zhuanlan.zhihu.com/p/24877192",
+      "summary": "正文把南丁格尔玫瑰图解释为基于极坐标的圆形直方图，并用 0 到 360 度的角度区间构造各数据扇区。"
+    },
+    {
+      "title": "复变函数与积分变换 简明笔记(二)：复变函数基础",
+      "url": "https://zhuanlan.zhihu.com/p/25044385",
+      "summary": "正文通过复平面中的模与幅角建立三角表示，并明确类比直角坐标与极坐标的转化。"
+    },
+    {
+      "title": "球面上的均匀分布：采样与格点",
+      "url": "https://zhuanlan.zhihu.com/p/26052376",
+      "summary": "正文写出直角坐标到极坐标的变换、雅可比行列式和面积元，并用其构造圆盘均匀采样。"
+    },
+    {
+      "title": "圆锥曲线的焦点弦长公式",
+      "url": "https://zhuanlan.zhihu.com/p/26171337",
+      "summary": "正文给出抛物线及圆锥曲线统一极坐标方程，并直接代入求焦点弦长。"
+    },
+    {
+      "title": "椭圆的准圆（圆与椭圆“切线”和“两直线垂直”的引论）",
+      "url": "https://zhuanlan.zhihu.com/p/26262777",
+      "summary": "正文把椭圆上的点写成极坐标形式，用极径表示两条垂直半径并求三角形面积范围。"
+    },
+    {
+      "title": "圆锥曲线极坐标系的特殊应用",
+      "url": "https://zhuanlan.zhihu.com/p/26763647",
+      "summary": "正文以圆锥曲线焦点为极点建立极坐标系，讨论左右焦点建系时径向项系数的变化并用其解题，故对应极坐标。"
+    },
+    {
+      "title": "中学篇 No. 37：自然法则",
+      "url": "https://zhuanlan.zhihu.com/p/27306852",
+      "summary": "正文用极坐标方程 r=ae^{bθ} 描述等角螺线，并分析极角与固定夹角的几何关系。"
+    },
+    {
+      "title": "由万有引力定律推导行星椭圆轨道",
+      "url": "https://zhuanlan.zhihu.com/p/32937290",
+      "summary": "正文把极点取在椭圆焦点并完整推导圆锥曲线的极坐标方程，属于极坐标的实质应用。"
+    },
+    {
+      "title": "用Python把图做的好看点：用Matplotlib画个环形图",
+      "url": "https://zhuanlan.zhihu.com/p/34163956",
+      "summary": "正文用极坐标中的角度和半径解释环形图的弧形绘制，并据此换算每段弧的起点和长度。"
+    },
+    {
+      "title": "球坐标系",
+      "url": "https://zhuanlan.zhihu.com/p/34275771",
+      "summary": "正文定义球坐标的三个分量、取值范围及其与直角坐标系的对应关系，属于坐标空间中的曲线坐标。"
+    },
+    {
+      "title": "圆锥曲线的极坐标方程",
+      "url": "https://zhuanlan.zhihu.com/p/34276445",
+      "summary": "正文以极坐标给出圆锥曲线方程，并讨论离心率和半通径对曲线形状与大小的控制。"
+    },
+    {
+      "title": "极坐标中的速度和加速度",
+      "url": "https://zhuanlan.zhihu.com/p/34287009",
+      "summary": "正文从极坐标位置及其随时间变化出发，推导向径和横向的坐标表示与运动分量。"
+    },
+    {
+      "title": "经典力学——正交曲线坐标系",
+      "url": "https://zhuanlan.zhihu.com/p/35162526",
+      "summary": "正文以柱坐标为例推导度规系数、线元矢量、速度和加速度的分量表达。"
+    },
+    {
+      "title": "【高等数学】二重积分化累次积分方法",
+      "url": "https://zhuanlan.zhihu.com/p/38594716",
+      "summary": "正文讲解极坐标与直角坐标的转换、极坐标面积微元及极坐标下的积分区域表示。"
+    },
+    {
+      "title": "多变量微积分-第十四讲-二重积分中的变量替换",
+      "url": "https://zhuanlan.zhihu.com/p/42254583",
+      "summary": "正文把极坐标变换作为二重积分变量替换的例子，联系坐标映射与面积元变化。"
+    },
+    {
+      "title": "不同坐标系下基矢量的关系",
+      "url": "https://zhuanlan.zhihu.com/p/50491649",
+      "summary": "正文具体给出直角坐标与极坐标的参数关系，并进一步列出球坐标的坐标参数化。"
+    },
+    {
+      "title": "有心力作用下的轨道微分方程 (Binet公式)",
+      "url": "https://zhuanlan.zhihu.com/p/51311714",
+      "summary": "正文建立极坐标系，并用极径与极角表示速度、加速度和有心力轨道。"
+    },
+    {
+      "title": "Nabla 算符 ∇ 的运算律以及常用公式",
+      "url": "https://zhuanlan.zhihu.com/p/52834609",
+      "summary": "正文给出Nabla算符在极坐标或柱坐标中的分量表达和运算形式。"
+    },
+    {
+      "title": "高中数学坐标系与参数方程知识点总结，建议收藏！！",
+      "url": "https://zhuanlan.zhihu.com/p/54093748",
+      "summary": "正文定义极点、极轴、极径和极角，并说明平面点的极坐标表示。"
+    },
+    {
+      "title": "【001】椭圆中的“射影圆”问题",
+      "url": "https://zhuanlan.zhihu.com/p/54661040",
+      "summary": "正文建立以O为极点的极坐标系，将椭圆方程化为ρ与θ的关系并完成证明。"
+    },
+    {
+      "title": "呆哥数学坐标系与参数方程【1】",
+      "url": "https://zhuanlan.zhihu.com/p/54762409",
+      "summary": "正文定义极点、极轴、极径和极角，并说明平面点可用极坐标表示，直接讲解极坐标系。"
+    },
+    {
+      "title": "极坐标方程与直角坐标方程的互化",
+      "url": "https://zhuanlan.zhihu.com/p/55877880",
+      "summary": "正文说明把直角坐标方程代入极坐标关系，是极坐标系中表示和转换曲线方程的方法。"
+    },
+    {
+      "title": "直线的极坐标方程",
+      "url": "https://zhuanlan.zhihu.com/p/55877974",
+      "summary": "正文定义极点、极轴、极径和极角，并说明如何用极坐标描述平面点。"
+    },
+    {
+      "title": "圆的极坐标方程",
+      "url": "https://zhuanlan.zhihu.com/p/55878203",
+      "summary": "正文以极径和极角的关系表示不同位置的圆，直接讲解圆的极坐标方程。"
+    },
+    {
+      "title": "倾斜角——解析几何中难题清道夫~",
+      "url": "https://zhuanlan.zhihu.com/p/57043408",
+      "summary": "正文给出圆锥曲线的统一极坐标方程，并用其推导过焦点的弦长。"
+    },
+    {
+      "title": "第八章 重积分 第二节 二重积分的性质和计算",
+      "url": "https://zhuanlan.zhihu.com/p/56359087",
+      "summary": "正文说明直角坐标到极坐标的变换，并据此给出二重积分的极坐标计算式。"
+    },
+    {
+      "title": "【平面几何】平面几何中用于计算的定理",
+      "url": "https://zhuanlan.zhihu.com/p/62692416",
+      "summary": "正文建立焦点为原点的极坐标方程，并结合焦点与准线距离推导圆锥曲线表达。"
+    },
+    {
+      "title": "【圆锥曲线】解决圆锥曲线问题的平面几何方法",
+      "url": "https://zhuanlan.zhihu.com/p/62701807",
+      "summary": "正文把焦点移到极坐标原点，用圆锥曲线极坐标方程求解过焦点的弦。"
+    },
+    {
+      "title": "【洛谷日报#142】计算几何初步",
+      "url": "https://zhuanlan.zhihu.com/p/68617952",
+      "summary": "正文用 atan2 求向量极角并按极角排序，服务于半平面交算法。"
+    },
+    {
+      "title": "如何理解复数的四则运算？",
+      "url": "https://zhuanlan.zhihu.com/p/68763358",
+      "summary": "正文用复平面的模与幅角表示复数，并借助极坐标解释复数乘除后的模长和角度变化。"
+    },
+    {
+      "title": "使用科学计算器计算复数与相量（基础篇）",
+      "url": "https://zhuanlan.zhihu.com/p/68880025",
+      "summary": "正文说明复数的极坐标形式，并通过 Pol、Rec 函数讲解直角坐标与极坐标之间的相互转换。"
+    },
+    {
+      "title": "使用科学计算器计算复数与相量（提高篇）",
+      "url": "https://zhuanlan.zhihu.com/p/69167650",
+      "summary": "正文用模和辐角的相量极坐标形式表示复数，并通过旋转解释复数的 n 次方根。"
+    },
+    {
+      "title": "一个心形线引发的故事",
+      "url": "https://zhuanlan.zhihu.com/p/69353260",
+      "summary": "正文从心形线的极坐标方程出发，利用关于 x 轴对称和角度范围分析并描点绘图。"
+    },
+    {
+      "title": "多元微积分——直观理解重积分区域的坐标系变换",
+      "url": "https://zhuanlan.zhihu.com/p/71242040",
+      "summary": "正文给出极坐标与直角坐标的变换关系，并据此推导极坐标下的二重积分。"
+    },
+    {
+      "title": "正态分布的系数中为何会有π？",
+      "url": "https://zhuanlan.zhihu.com/p/74735645",
+      "summary": "正文利用水平集为圆这一性质改用极坐标，并给出面积元与积分变量的对应关系。"
+    },
+    {
+      "title": "圆中四鸭属于一个半圆的概率",
+      "url": "https://zhuanlan.zhihu.com/p/77489865",
+      "summary": "正文用圆周上的角度表示鸭子位置，把半圆条件转化为角度跨度和旋转扫描问题。"
+    },
+    {
+      "title": "有趣的追及问题——猫能追上老鼠吗？",
+      "url": "https://zhuanlan.zhihu.com/p/80701068",
+      "summary": "正文在极坐标中建立 r 与 θ 的关系，并据 cos θ=R/(Vr) 识别最佳逃跑直线。"
+    },
+    {
+      "title": "旋转之一 - 复数与2D旋转",
+      "url": "https://zhuanlan.zhihu.com/p/85321120",
+      "summary": "正文用模与辐角把复数写成极坐标形式 r(cos theta+i sin theta)。"
+    },
+    {
+      "title": "《偏微分方程的类型及求解》（一）",
+      "url": "https://zhuanlan.zhihu.com/p/93733930",
+      "summary": "正文把二维拉普拉斯算子化为极坐标形式，并在圆域上用极坐标分离变量求解。"
+    },
+    {
+      "title": "线性代数之——复数矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/94300315",
+      "summary": "正文用模长与极角表示复数，并据此解释复数乘法对应模长相乘、极角相加。"
+    },
+    {
+      "title": "多元函数求极限方法总结",
+      "url": "https://zhuanlan.zhihu.com/p/98921951",
+      "summary": "通过令 x 和 y 为极坐标分量，将二重极限转化为对极径的极限并处理含角度因子的情形。"
+    },
+    {
+      "title": "一般坐标系下的梯度散度旋度及拉普拉斯形式",
+      "url": "https://zhuanlan.zhihu.com/p/101046437",
+      "summary": "正文计算极坐标的度量因子，并具体给出极坐标下拉普拉斯算子的形式。"
+    },
+    {
+      "title": "如何推导旋转矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/102814853",
+      "summary": "正文先用极坐标的角度和半径表示点，再通过角度加法公式推导旋转坐标公式。"
+    },
+    {
+      "title": "浅谈圆锥曲线中的高级技巧",
+      "url": "https://zhuanlan.zhihu.com/p/103123814",
+      "summary": "正文推导焦点为极点时的圆锥曲线极坐标方程，并将其用于焦半径和焦点弦长。"
+    },
+    {
+      "title": "高中圆锥曲线解题技巧之面积问题(十)",
+      "url": "https://zhuanlan.zhihu.com/p/109995786",
+      "summary": "正文以焦点为极点建立极坐标，并推导椭圆的统一极坐标方程和焦半径公式。"
+    },
+    {
+      "title": "【学习小结】高中数学——复数",
+      "url": "https://zhuanlan.zhihu.com/p/110840104",
+      "summary": "正文用模和辐角把复数写成极坐标与指数形式，并解释复数乘法的旋转意义。"
+    },
+    {
+      "title": "曲线族的包络线",
+      "url": "https://zhuanlan.zhihu.com/p/118474711",
+      "summary": "正文把包络线的直角坐标方程转换为极坐标方程，再用极坐标区域积分。"
+    },
+    {
+      "title": "对雅可比矩阵的理解",
+      "url": "https://zhuanlan.zhihu.com/p/123934469",
+      "summary": "正文从直角坐标与极坐标的变换关系推出面积微元的变化。"
+    },
+    {
+      "title": "n维空间中的球面坐标变换",
+      "url": "https://zhuanlan.zhihu.com/p/128580414",
+      "summary": "正文在 R^n 中引入半径和角度参数，给出 n 维球面坐标变换。"
+    },
+    {
+      "title": "圆锥曲线一些结论的推导",
+      "url": "https://zhuanlan.zhihu.com/p/129353744",
+      "summary": "正文在圆锥曲线半径、弦长和定点问题中建立极坐标系并推导极坐标方程。"
+    },
+    {
+      "title": "全网最好的讲解：联络系数-克氏符-克里斯托费尔符号 - Christoffel Symbol",
+      "url": "https://zhuanlan.zhihu.com/p/139405304",
+      "summary": "正文逐点构造极坐标到笛卡尔坐标的变换、局部基向量及其随坐标变化产生的导数。"
+    },
+    {
+      "title": "圆锥曲线的焦半径公式总结（一）",
+      "url": "https://zhuanlan.zhihu.com/p/139795564",
+      "summary": "正文以焦点、准线和极角推导抛物线焦半径，并给出极坐标方程及其求焦点弦的应用。"
+    },
+    {
+      "title": "关于开普勒三大定律的理解和证明",
+      "url": "https://zhuanlan.zhihu.com/p/136265256",
+      "summary": "正文选择极坐标表示椭圆轨道，并推导以焦点为极点的极坐标方程。"
+    },
+    {
+      "title": "二重积分的计算",
+      "url": "https://zhuanlan.zhihu.com/p/141754234",
+      "summary": "正文说明极坐标二重积分中角度和极轴范围的确定方法。"
+    },
+    {
+      "title": "极坐标与直角坐标二重积分转换",
+      "url": "https://zhuanlan.zhihu.com/p/142220637",
+      "summary": "正文给出直角坐标与极坐标的转换关系，并用极坐标变量计算面积微元。"
+    },
+    {
+      "title": "二重极限的最强解法——极坐标代换法！！！",
+      "url": "https://zhuanlan.zhihu.com/p/143541324",
+      "summary": "正文系统介绍极坐标代换，并利用极径和极角分析二重极限的趋近值与路径。"
+    },
+    {
+      "title": "线积分与面积分（1）：从拉梅系数开始",
+      "url": "https://zhuanlan.zhihu.com/p/149863110",
+      "summary": "正文从正交曲线坐标出发，推导极坐标、柱坐标和球坐标的拉梅系数及线元。"
+    },
+    {
+      "title": "参数方程漫谈",
+      "url": "https://zhuanlan.zhihu.com/p/161286380",
+      "summary": "正文给出圆锥曲线的统一极坐标方程，并由焦点弦倾角推导抛物线参数式。"
+    },
+    {
+      "title": "换元法：换元到底改变了什么？",
+      "url": "https://zhuanlan.zhihu.com/p/163552620",
+      "summary": "正文用极坐标代换把二重积分化为径向和角度积分，说明了极坐标方法。"
+    },
+    {
+      "title": "浅谈误差函数 erf(x)",
+      "url": "https://zhuanlan.zhihu.com/p/164894362",
+      "summary": "正文明确把直角坐标下的积分区域改写成极坐标下的角度与半径区域。"
+    },
+    {
+      "title": "高等数学七：重积分的计算及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/169945412",
+      "summary": "正文把极坐标及椭圆广义极坐标作为二重积分换元的典型例子。"
+    },
+    {
+      "title": "微积分II 多重积分换元法15.8 (23)",
+      "url": "https://zhuanlan.zhihu.com/p/171701301",
+      "summary": "正文给出直角坐标与极坐标的变换关系，并推导极坐标面积元 r dr dθ。"
+    },
+    {
+      "title": "度量张量的本质及详解（高阶）——全网最好的讲解",
+      "url": "https://zhuanlan.zhihu.com/p/190104245",
+      "summary": "正文以极坐标到直角坐标的变换为例，用局部基向量及其偏导数说明协变与逆变坐标系。"
+    },
+    {
+      "title": "拉普拉斯算子的极坐标、柱坐标和球坐标表示",
+      "url": "https://zhuanlan.zhihu.com/p/193094897",
+      "summary": "正文从极坐标变换及雅可比行列式出发，逐步推导二维 Laplace 算子的极坐标形式。"
+    },
+    {
+      "title": "通过GH再现傅里叶变换可视化",
+      "url": "https://zhuanlan.zhihu.com/p/198910715",
+      "summary": "正文把函数曲线缠绕到圆上，具体说明直角坐标横轴到弧度及极坐标半径的转换。"
+    },
+    {
+      "title": "（四十八）通俗易懂理解——霍夫变换原理",
+      "url": "https://zhuanlan.zhihu.com/p/203292567",
+      "summary": "正文改用极坐标中的 ρ、θ 参数表示直线，并通过参数投票确定共线点。"
+    },
+    {
+      "title": "看懂蒙特卡洛积分(一) 概率分布变换与随机采样",
+      "url": "https://zhuanlan.zhihu.com/p/191487550",
+      "summary": "正文用极坐标到直角坐标的变换及雅可比行列式转换概率密度，并推导单位圆、球面采样。"
+    },
+    {
+      "title": "关于极坐标",
+      "url": "https://zhuanlan.zhihu.com/p/203377553",
+      "summary": "正文完整定义极点、极轴、极径和极角，并通过曲线、区域和变换计算讲清极坐标。"
+    },
+    {
+      "title": "【自主招生】三道2020年清华大学强基计划数学题",
+      "url": "https://zhuanlan.zhihu.com/p/212269110",
+      "summary": "正文对 x^2+y^2≤1 约束下的齐次二次式作极坐标代换，将问题化为三角函数最值。"
+    },
+    {
+      "title": "常见坐标系下梯度、散度、旋度和拉普拉斯算子的形式",
+      "url": "https://zhuanlan.zhihu.com/p/330753273",
+      "summary": "正文给出柱坐标和球坐标下的微分算子表达式，具体说明极坐标类坐标系的换元形式。"
+    },
+    {
+      "title": "任意坐标系统的梯度、散度、旋度与Laplacian(1)：极坐标",
+      "url": "https://zhuanlan.zhihu.com/p/349388970",
+      "summary": "正文以极坐标的径向和角向单位向量、弧长微元及坐标变换推导梯度算符。"
+    },
+    {
+      "title": "任意坐标系统的梯度、散度与旋度(2)：拉梅系数",
+      "url": "https://zhuanlan.zhihu.com/p/349656518",
+      "summary": "正文以极坐标延伸出的柱面坐标和球面坐标为例，推导坐标变换的拉梅系数。"
+    },
+    {
+      "title": "三大偏微分方程之首：拉普拉斯方程(1)",
+      "url": "https://zhuanlan.zhihu.com/p/350388376",
+      "summary": "正文把直角坐标解改写为极坐标形式，并利用径向与角向表示推导拉普拉斯方程的通解。"
+    },
+    {
+      "title": "简单的开普勒第二定律推导 Derivation of Kepler's Second Law",
+      "url": "https://zhuanlan.zhihu.com/p/350849528",
+      "summary": "正文先介绍极坐标及其与直角坐标的转换，再用径向和角向分量推导行星运动。"
+    },
+    {
+      "title": "灵感乍现（四）——极坐标系中的“导数”",
+      "url": "https://zhuanlan.zhihu.com/p/362131000",
+      "summary": "正文以极径关于极角的函数为对象，讨论极坐标系中的切向量和单位向量。"
+    },
+    {
+      "title": "【论文复现】An Efficient Representation for Irradiance Environment Maps",
+      "url": "https://zhuanlan.zhihu.com/p/363600898",
+      "summary": "正文给出球面坐标与直角坐标的三元转换式，并在单位球面上化简光照计算。"
+    },
+    {
+      "title": "拉普拉斯算子",
+      "url": "https://zhuanlan.zhihu.com/p/376436061",
+      "summary": "正文详细求极坐标变量对直角坐标的一阶、二阶偏导，并导出极坐标形式。"
+    },
+    {
+      "title": "深度科普 | 用几何视角学相对论(18): 度规张量(下)",
+      "url": "https://zhuanlan.zhihu.com/p/380546800",
+      "summary": "正文利用直角坐标与极坐标的变换及微分关系推导平面极坐标下的度规。"
+    },
+    {
+      "title": "超强换元法，二重积分计算的核武器！（雅可比行列式超通俗讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/382301310",
+      "summary": "正文以极坐标变换具体计算雅可比行列式，得到面积微元 dxdy 与 rdrdθ 的关系。"
+    },
+    {
+      "title": "【论文复现】A Survey of Efficient Representations for Independent Unit Vectors",
+      "url": "https://zhuanlan.zhihu.com/p/384232048",
+      "summary": "正文先分析球面极坐标中角度采样导致点密度不均，再以此提出矩形坐标映射。"
+    },
+    {
+      "title": "笛卡尔，不行！黎曼，行！",
+      "url": "https://zhuanlan.zhihu.com/p/391375499",
+      "summary": "正文用极径和辐角描述复平面中的点，并据极坐标分析平方根的分支。"
+    },
+    {
+      "title": "重积分 第二节 二重积分的计算法",
+      "url": "https://zhuanlan.zhihu.com/p/392461670",
+      "summary": "正文把直角坐标变量改写为极径和极角，并推导极坐标下的面积元素。"
+    },
+    {
+      "title": "秒杀判断某些二元函数的连续，可偏导，可微问题+秒求出某类二元函数极限的结论",
+      "url": "https://zhuanlan.zhihu.com/p/395482784",
+      "summary": "正文把二元趋近化为半径趋近零、角度遍历区间的极坐标过程，并用它证明极限结论。"
+    },
+    {
+      "title": "inversioner版高中数学课本(2)——第四章：平面解析几何",
+      "url": "https://zhuanlan.zhihu.com/p/399971862",
+      "summary": "正文定义极径、极角和极坐标，并推导其与直角坐标的互化及曲线方程。"
+    },
+    {
+      "title": "复变函数——柯西-黎曼方程浅谈",
+      "url": "https://zhuanlan.zhihu.com/p/402448450",
+      "summary": "正文将z写成极坐标形式，推导柯西-黎曼方程的r与θ形式及拉普拉斯方程极坐标形式。"
+    },
+    {
+      "title": "【圆锥曲线】第二定义以及焦半径倾斜角式、坐标式及相关推论",
+      "url": "https://zhuanlan.zhihu.com/p/404187145",
+      "summary": "正文用焦点出发的极径长度及其与焦点轴正方向的夹角表示圆锥曲线焦半径，并推导统一形式。"
+    },
+    {
+      "title": "数学分析基础",
+      "url": "https://zhuanlan.zhihu.com/p/392256186",
+      "summary": "正文定义极径、极角及极坐标与直角坐标的互换公式，并说明参数曲线表示。"
+    },
+    {
+      "title": "【圆锥曲线】聊聊椭圆的一个冷门性质",
+      "url": "https://zhuanlan.zhihu.com/p/420953515",
+      "summary": "正文用极径和极角表示椭圆上的三点，并把椭圆方程改写为极坐标下的径向关系。"
+    },
+    {
+      "title": "《高等数学》二重积分计算（极坐标）",
+      "url": "https://zhuanlan.zhihu.com/p/429125747",
+      "summary": "正文用距离与角度定义极坐标，并给出其到直角坐标的转换关系。"
+    },
+    {
+      "title": "高斯积分的几种证明",
+      "url": "https://zhuanlan.zhihu.com/p/435149768",
+      "summary": "正文把直角坐标下的二重积分化为半径和角度表示的极坐标积分，从而得到 pi 的因子。"
+    },
+    {
+      "title": "定积分的几何、物理应用总结",
+      "url": "https://zhuanlan.zhihu.com/p/454590522",
+      "summary": "正文推导极坐标曲线围成区域面积、弧微分和弧长积分公式。"
+    },
+    {
+      "title": "《糕等电动力学》——03正交曲线坐标系",
+      "url": "https://zhuanlan.zhihu.com/p/390662905",
+      "summary": "正文以极坐标作为二维正交曲线坐标系实例，并给出柱坐标的径向与角向转换及坐标线解释。"
+    },
+    {
+      "title": "极坐标系和球坐标系下的速度和加速度推导",
+      "url": "https://zhuanlan.zhihu.com/p/452360389",
+      "summary": "正文以极坐标的位置矢量、单位基向量和运动分量展开推导。"
+    },
+    {
+      "title": "拒绝直角坐标系！纯极坐标解题小结",
+      "url": "https://zhuanlan.zhihu.com/p/461149203",
+      "summary": "正文在极坐标中定义极径和极角，推导直线、圆的方程，并用极坐标解交点与最值问题。"
+    },
+    {
+      "title": "哈密顿与拉普拉斯算符在柱坐标与球坐标下的形式",
+      "url": "https://zhuanlan.zhihu.com/p/463059528",
+      "summary": "正文从柱坐标和球坐标的极径、极角与方位角关系出发推导微分算符。"
+    },
+    {
+      "title": "物理人的平面极坐标系以及运动描述",
+      "url": "https://zhuanlan.zhihu.com/p/463591300",
+      "summary": "正文定义平面极坐标的径向与角向基矢量，并讨论坐标随位置变化的关系。"
+    },
+    {
+      "title": "【圆锥曲线】神奇的方法——类极坐标解决线段长度问题",
+      "url": "https://zhuanlan.zhihu.com/p/463741636",
+      "summary": "正文定义带正负长度的类极坐标，并讨论其倾斜角、径向坐标与直角坐标的互换。"
+    },
+    {
+      "title": "球谐可视化（sh visualization）",
+      "url": "https://zhuanlan.zhihu.com/p/466774017",
+      "summary": "正文定义球面角并给出球坐标与笛卡尔坐标的互换公式，实质讲解了球坐标表示。"
+    },
+    {
+      "title": "量子物理-索末菲椭圆轨道模型推导",
+      "url": "https://zhuanlan.zhihu.com/p/482230330",
+      "summary": "正文在极坐标下比较轨道通解与椭圆方程，并由此求离心率和半轴。"
+    },
+    {
+      "title": "使用格拉姆角场(GAF)将时间序列数据转换为图像",
+      "url": "https://zhuanlan.zhihu.com/p/485185601",
+      "summary": "正文具体说明极点、极轴、半径和夹角如何共同表示平面点的极坐标。"
+    },
+    {
+      "title": "大学数学-复变函数笔记",
+      "url": "https://zhuanlan.zhihu.com/p/488268246",
+      "summary": "正文说明复数的模与辐角，并推导极形式下的复数乘除公式。"
+    },
+    {
+      "title": "天体运动轨道（椭圆，抛物线，双曲线）开普勒三定律",
+      "url": "https://zhuanlan.zhihu.com/p/485009891",
+      "summary": "正文以中心天体为原点建立极坐标系，在径向和横向加速度下推导行星轨道方程。"
+    },
+    {
+      "title": "高等数学知识点回顾（下册）（2）",
+      "url": "https://zhuanlan.zhihu.com/p/494757739",
+      "summary": "正文给出直角坐标到极坐标的转换、极坐标面积元素以及极坐标下的二重积分公式。"
+    },
+    {
+      "title": "高等数学——为什么面积微元不可以直接代换？",
+      "url": "https://zhuanlan.zhihu.com/p/495582964",
+      "summary": "正文以直角坐标到极坐标的面积元变换为例，解释极坐标下的二重积分微元。"
+    },
+    {
+      "title": "【高等数学】三重积分计算原理Ⅱ：柱坐标",
+      "url": "https://zhuanlan.zhihu.com/p/499585427",
+      "summary": "正文把柱坐标定义为在保持 z 不变时把 x、y 改写为极径和极角，并据此确定积分范围。"
+    },
+    {
+      "title": "二重积分笔记（复习自用）",
+      "url": "https://zhuanlan.zhihu.com/p/500389427",
+      "summary": "正文用极坐标变换和射线穿入穿出边界的方法确定极径、极角范围来计算二重积分。"
+    },
+    {
+      "title": "理论力学——五大坐标系下的速度与加速度纯理论推导",
+      "url": "https://zhuanlan.zhihu.com/p/501885025",
+      "summary": "正文从极坐标基向量求导出发，推导径向、横向速度与加速度分量。"
+    },
+    {
+      "title": "信号处理专业必读：是复数但并不复杂的正交信号（万字长文）",
+      "url": "https://zhuanlan.zhihu.com/p/503472041",
+      "summary": "正文用模长与相位角表示复数在复平面中的位置，具体展开复数的极坐标形式。"
+    },
+    {
+      "title": "求二重极限时, 极坐标代换究竟该怎么用?",
+      "url": "https://zhuanlan.zhihu.com/p/503998713",
+      "summary": "正文说明极坐标代换需要径向变量与角度变量共同取极限，并讨论角度取值范围。"
+    },
+    {
+      "title": "玻尔兹曼方程及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/507176592",
+      "summary": "正文通过极坐标换元处理第一象限上的高斯型二重积分。"
+    },
+    {
+      "title": "谈谈《自然哲学的数学原理》",
+      "url": "https://zhuanlan.zhihu.com/p/534982242",
+      "summary": "正文把牛顿的有心力几何构造改写为极坐标量，并用径向与角向分量解释轨道问题。"
+    },
+    {
+      "title": "自我检测---积分",
+      "url": "https://zhuanlan.zhihu.com/p/534506333",
+      "summary": "用极坐标与直角坐标的转换处理极坐标曲线面积和对数螺线切线。"
+    },
+    {
+      "title": "高数技巧 | 考研数学必备曲线合集",
+      "url": "https://zhuanlan.zhihu.com/p/544505476",
+      "summary": "正文说明极坐标的定位方式，并给出极坐标与直角坐标的互化公式。"
+    },
+    {
+      "title": "【锥线的艺术】圆锥曲线极坐标的合法化证明",
+      "url": "https://zhuanlan.zhihu.com/p/547305354",
+      "summary": "正文给出椭圆、双曲线和抛物线以焦点为原点的极坐标方程并说明焦准距。"
+    },
+    {
+      "title": "弧长公式--拒绝死记硬背",
+      "url": "https://zhuanlan.zhihu.com/p/572027656",
+      "summary": "正文在极坐标方程下把曲线参数化，分别用间接与直接微元法推导极坐标弧长公式。"
+    },
+    {
+      "title": "《复分析：可视化方法》",
+      "url": "https://zhuanlan.zhihu.com/p/577069768",
+      "summary": "正文用极坐标模长与辐角表示复数和复数乘法，说明这种坐标标记便于处理旋转。"
+    },
+    {
+      "title": "信号与系统笔记(七)：Z变换",
+      "url": "https://zhuanlan.zhihu.com/p/581687260",
+      "summary": "正文用复平面极坐标的半径和角度描述 z、收敛半径及单位圆关系。"
+    },
+    {
+      "title": "图形渲染（16）：你绝B看不懂的PBR(1)——筑基·数学",
+      "url": "https://zhuanlan.zhihu.com/p/587345263",
+      "summary": "正文从二维极坐标延伸到三维球坐标，用角度与半径表示点和方向。"
+    },
+    {
+      "title": "高等数学常用曲线(二)——星形线",
+      "url": "https://zhuanlan.zhihu.com/p/591627726",
+      "summary": "正文给出星形线的极坐标方程，并用极坐标积分计算弧长和面积。"
+    },
+    {
+      "title": "高等数学常用曲线(四)——双纽线",
+      "url": "https://zhuanlan.zhihu.com/p/594056722",
+      "summary": "正文从双纽线定义得到极坐标方程，并用极坐标曲线公式计算弧长、面积和旋转体。"
+    },
+    {
+      "title": "高等数学常用曲线(六)",
+      "url": "https://zhuanlan.zhihu.com/p/595262895",
+      "summary": "正文用极坐标方程和相应参数范围表示阿基米德螺线及多类玫瑰线。"
+    },
+    {
+      "title": "球极坐标系下的梯度表达式推导",
+      "url": "https://zhuanlan.zhihu.com/p/596865041",
+      "summary": "正文给出球极坐标与笛卡尔坐标的相互转换公式。"
+    },
+    {
+      "title": "双极坐标系与中学解析几何",
+      "url": "https://zhuanlan.zhihu.com/p/602228253",
+      "summary": "正文定义双极坐标与广义双极坐标，讨论其周期、极点选择并推导极径和距离公式。"
+    },
+    {
+      "title": "五连杆运动学解算与VMC",
+      "url": "https://zhuanlan.zhihu.com/p/613007726",
+      "summary": "正文把末端的直角坐标转换为极坐标，并继续讨论沿半径方向的推力与力矩。"
+    },
+    {
+      "title": "拂晓的安魂曲：一个从极坐标系开始的故事（1）",
+      "url": "https://zhuanlan.zhihu.com/p/618879570",
+      "summary": "正文系统讲解极坐标的坐标含义、坐标变换和圆锥曲线的极坐标方程。"
+    },
+    {
+      "title": "三种等距螺线的统一与差异",
+      "url": "https://zhuanlan.zhihu.com/p/643937547",
+      "summary": "正文以极径和转角表示阿基米德螺线、渐开线等曲线，并比较它们的极坐标方程。"
+    },
+    {
+      "title": "数学分析3笔记——重积分、曲线积分、曲面积分",
+      "url": "https://zhuanlan.zhihu.com/p/662323528",
+      "summary": "正文给出平面极坐标、柱坐标与球坐标下的变换和雅可比因子，并用于积分计算。"
+    },
+    {
+      "title": "Zernike多项式介绍及Matlab实现（与Zemax完全一致）",
+      "url": "https://zhuanlan.zhihu.com/p/667867516",
+      "summary": "正文在单位圆孔径上把直角坐标转换为极坐标，再用径向变量与角变量构造 Zernike 多项式。"
+    },
+    {
+      "title": "如何更好地理解复数（complex  numbers）",
+      "url": "https://zhuanlan.zhihu.com/p/675736675",
+      "summary": "正文比较笛卡尔坐标和极坐标，说明极坐标更适合复数的乘除法。"
+    },
+    {
+      "title": "inversioner高中数学课本(5)——第一章：圆锥曲线",
+      "url": "https://zhuanlan.zhihu.com/p/679979666",
+      "summary": "正文建立以焦点为极点的极坐标，推导圆锥曲线统一方程并用它解决几何问题。"
+    },
+    {
+      "title": "二重积分计算思路与方法总结",
+      "url": "https://zhuanlan.zhihu.com/p/689823925",
+      "summary": "正文讲解极坐标变换、面积元素以及极坐标下二重积分的计算。"
+    },
+    {
+      "title": "极坐标系中的微分",
+      "url": "https://zhuanlan.zhihu.com/p/688763445",
+      "summary": "正文从极坐标表示出发独立推导面积、弧长、切线和曲率公式，实质讲解极坐标微分。"
+    },
+    {
+      "title": "坐标变换法宝——雅可比（Jacobi）行列式",
+      "url": "https://zhuanlan.zhihu.com/p/717067503",
+      "summary": "正文专门推导直角坐标到极坐标的变换，并算出二重积分中的雅可比因子 r。"
+    },
+    {
+      "title": "【解析几何】 关于蒙日圆的探索",
+      "url": "https://zhuanlan.zhihu.com/p/1969041422",
+      "summary": "正文在求法线交点轨线时改用极坐标，并写出相应的极坐标方程和对称性判断。"
+    },
+    {
+      "title": "五大积分：三重积分、第一二类曲线积分、第一二类曲面积分",
+      "url": "https://zhuanlan.zhihu.com/p/2390927445",
+      "summary": "正文推导极坐标曲线的弧微分与线积分公式，并用极坐标计算二重积分。"
+    },
+    {
+      "title": "Qwen 类O1模型 QwQ 野生评测",
+      "url": "https://zhuanlan.zhihu.com/p/9493513804",
+      "summary": "正文利用极径、极角与直角坐标的转换关系，具体求解极坐标方程对应的曲线。"
+    },
+    {
+      "title": "卡西欧计算器fx-991CN CW,fx-999CN CW的使用方法",
+      "url": "https://zhuanlan.zhihu.com/p/15236757985",
+      "summary": "正文具体说明直角坐标与极坐标之间的双向转换方法。"
+    },
+    {
+      "title": "游戏开发爱好者所需的基础数学知识",
+      "url": "https://zhuanlan.zhihu.com/p/17792738283",
+      "summary": "正文用半径和角度描述单位圆上的点，并明确给出极坐标系的对应关系。"
+    },
+    {
+      "title": "拉梅系数与坐标变换",
+      "url": "https://zhuanlan.zhihu.com/p/31984064315",
+      "summary": "正文具体推导柱坐标和球坐标的基、拉梅系数及坐标转换。"
+    },
+    {
+      "title": "物竞随意谈|天体运动和散射：人是要纵横宇宙的！",
+      "url": "https://zhuanlan.zhihu.com/p/1924428357208113288",
+      "summary": "正文用极坐标表示圆锥曲线，并说明极轴与焦点位置如何决定方程中的正负号。"
+    },
+    {
+      "title": "深入浅出复数与欧拉公式：如何用“旋转”思想理解波与振荡？（非常好懂，有高中知识即可）",
+      "url": "https://zhuanlan.zhihu.com/p/1927112895092757042",
+      "summary": "正文引入模和幅角构成的极坐标形式，并以幅角相加、模长相乘解释复数乘法。"
+    },
+    {
+      "title": "悬链线荟萃",
+      "url": "https://zhuanlan.zhihu.com/p/1935821677473805281",
+      "summary": "正文在平方反比引力场中使用极坐标表示位置、切向与径向分量并推出轨道方程。"
+    },
+    {
+      "title": "深入骨髓的解剖欧拉公式，能否直观的理解它决定了你是否有成为数学家的潜质",
+      "url": "https://zhuanlan.zhihu.com/p/1947858186544587421",
+      "summary": "正文给出复数 r(cosθ+isinθ) 的极坐标形式，并用半径和转角解释其几何意义。"
+    },
+    {
+      "title": "2025#December~积分题合集",
+      "url": "https://zhuanlan.zhihu.com/p/1973395738429001733",
+      "summary": "正文用极坐标半径和角度表示单位圆盘内的点，并据此写出面积元与积分。"
+    },
+    {
+      "title": "二维世界真的存在元素周期表吗",
+      "url": "https://zhuanlan.zhihu.com/p/2004224014701311652",
+      "summary": "正文以极坐标表示二维位置，并据此分离径向与角向变量。"
+    }
+  ]
+}

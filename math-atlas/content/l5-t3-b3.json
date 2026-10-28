@@ -1,0 +1,2976 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l5-t3-b3",
+  "sources": [
+    {
+      "title": "数学体系是怎么构成的？各分支间是怎么联系的？",
+      "url": "https://www.zhihu.com/answer/15267593",
+      "summary": "较详细比较有限维与无限维空间、范数、算子和谱，介绍泛函分析。正文对完备性条件、巴拿赫空间及代数的部分表述有误，不能作为严谨定义教材。"
+    },
+    {
+      "title": "如何用一句话概括拓扑学、泛函分析、实变函数讲的是什么？",
+      "url": "https://www.zhihu.com/answer/20924603",
+      "summary": "正文围绕「如何用一句话概括拓扑学、泛函分析、实变函数讲的是什么？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "数学与物理领域有哪些糟糕的术语？",
+      "url": "https://www.zhihu.com/answer/27555140",
+      "summary": "正文围绕“泛函分析”给出说明、例证或方法。"
+    },
+    {
+      "title": "泛函分析有什么好的教材？",
+      "url": "https://www.zhihu.com/answer/27889350",
+      "summary": "正文围绕“泛函分析”给出说明、例证或方法。"
+    },
+    {
+      "title": "实变泛函都是很容易的课，为何说「实变函数学十遍，泛函分析心犯寒」？",
+      "url": "https://www.zhihu.com/answer/29505213",
+      "summary": "正文围绕“泛函分析”给出说明、例证或方法。"
+    },
+    {
+      "title": "算子这个词的来源以及意义，有什么作用，为什么可以这样用？",
+      "url": "https://www.zhihu.com/answer/29702293",
+      "summary": "正文围绕“泛函分析”给出说明、例证或方法。"
+    },
+    {
+      "title": "物理系适合的张量教材还有变分法教材?",
+      "url": "https://www.zhihu.com/answer/33197931",
+      "summary": "正文以函数空间、泛函和微分算子解释变分法，适合泛函分析。"
+    },
+    {
+      "title": "functional analysis为什么翻译成泛函分析？",
+      "url": "https://www.zhihu.com/answer/35710528",
+      "summary": "正文解释泛函以函数或空间元素为自变量并映射到数。"
+    },
+    {
+      "title": "请推荐英文微积分、数学分析基础教材？",
+      "url": "https://www.zhihu.com/answer/40656125",
+      "summary": "正文推荐泛函分析教材。"
+    },
+    {
+      "title": "算子代数是一门怎样的数学分支？学习算子代数需要怎样的基础？",
+      "url": "https://www.zhihu.com/answer/42083784",
+      "summary": "正文介绍算子代数与泛函分析基础。"
+    },
+    {
+      "title": "非数学专业的本科生，如何自学专业数学？",
+      "url": "https://www.zhihu.com/answer/43066516",
+      "summary": "正文提及泛函分析的后续学习。"
+    },
+    {
+      "title": "为什么高斯模型混合模型（GMM）理论上可以拟合任意形状的概率分布呢？",
+      "url": "https://www.zhihu.com/answer/43614290",
+      "summary": "正文把逼近结论置于无限维函数空间和连续泛函的论证中。"
+    },
+    {
+      "title": "如果对机器学习仅是以应用为目的的话，到底需要多少数学…，比如说微分流形，代数拓扑，泛函之类的需要懂吗？",
+      "url": "https://www.zhihu.com/answer/44265538",
+      "summary": "正文说明函数空间与RKHS在核方法和正则化中的作用。"
+    },
+    {
+      "title": "在泛函和偏微等学科中，为什么要引进「弱」的概念？",
+      "url": "https://www.zhihu.com/answer/44461234",
+      "summary": "正文解释弱拓扑较范数拓扑更弱，从而便于极限封闭与解存在。"
+    },
+    {
+      "title": "函数的内积为什么要这么定义？",
+      "url": "https://www.zhihu.com/answer/46306828",
+      "summary": "正文从函数内积把连续函数视为向量，并给出带权积分。"
+    },
+    {
+      "title": "函数的内积为什么要这么定义？",
+      "url": "https://www.zhihu.com/answer/48219859",
+      "summary": "正文从函数空间、内积和积分说明函数内积的构造动机。"
+    },
+    {
+      "title": "除纳什均衡以外，约翰·纳什（John Nash）在数学及其它领域还有哪些贡献？",
+      "url": "https://www.zhihu.com/answer/49066277",
+      "summary": "正文说明 Nash-Moser 隐函数定理在泛函分析中的位置。"
+    },
+    {
+      "title": "如何高效地计算 sin(x) 与 cos(x) 的值？",
+      "url": "https://www.zhihu.com/answer/52117572",
+      "summary": "正文在函数内积空间中用正交投影求最佳多项式逼近。"
+    },
+    {
+      "title": "你认为你所在学科最杰出的思想是什么？",
+      "url": "https://www.zhihu.com/answer/54474537",
+      "summary": "正文以 Riesz-Kakutani 定理和 Banach 空间说明泛函分析的表示思想。"
+    },
+    {
+      "title": "学完泛函分析可以做哪些事情？",
+      "url": "https://www.zhihu.com/answer/60917996",
+      "summary": "正文概述本科泛函分析的对象、定理来源和应用边界。"
+    },
+    {
+      "title": "定态波函数的本征函数族是完备的？",
+      "url": "https://www.zhihu.com/answer/68085513",
+      "summary": "正文明确介绍无界自伴算子谱分解这一泛函分析定理。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/76521510",
+      "summary": "正文从线性泛函、对偶基和双对偶解释有限维对偶空间。"
+    },
+    {
+      "title": "微分、差分和变分的概念有什么异同？",
+      "url": "https://www.zhihu.com/answer/77472961",
+      "summary": "正文从函数空间、泛函和 Frechet 微分解释变分。"
+    },
+    {
+      "title": "学习经济要达到怎样的数学水平？",
+      "url": "https://www.zhihu.com/answer/78222420",
+      "summary": "正文以线性泛函解释价格体系，并继续展开Banach/Hilbert空间、Hahn-Banach定理等泛函分析内容。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/78896833",
+      "summary": "正文从有界线性泛函、双对偶与自反性解释对偶空间。"
+    },
+    {
+      "title": "数学本科生看调和分析需要哪些基础课程？有哪些参考书推荐？",
+      "url": "https://www.zhihu.com/answer/82717432",
+      "summary": "正文列举 Sobolev、Hardy、Besov 等函数空间及算子有界性。"
+    },
+    {
+      "title": "数学或者自然科学中有哪些理论技巧一经提出就大大化简了过去某些问题很困难繁琐的解答？",
+      "url": "https://www.zhihu.com/answer/87247881",
+      "summary": "正文详细讨论 Frechet/Banach/Hölder 函数空间及 Nash-Moser 方法。"
+    },
+    {
+      "title": "精通线性代数是种怎样的体验？怎样才能称得上精通线性代数？",
+      "url": "https://www.zhihu.com/answer/91934478",
+      "summary": "正文以对偶算子和模的观点说明深入学习线性代数所需的泛函与代数工具。"
+    },
+    {
+      "title": "该怎么理解泛函以及变分？是一种什么思想，老师讲的听不懂。？",
+      "url": "https://www.zhihu.com/answer/91979824",
+      "summary": "全文以泛函分析和变分原理为对象建立直观定义。"
+    },
+    {
+      "title": "如何理解矩阵对矩阵求导？",
+      "url": "https://www.zhihu.com/answer/100027812",
+      "summary": "正文以泛函分析的一般导数定义统一有限维矩阵求导和函数空间求导。"
+    },
+    {
+      "title": "数学中为什么要定义各种空间？",
+      "url": "https://www.zhihu.com/answer/108587384",
+      "summary": "正文以统一不同问题为动机，系统解释泛函分析的空间、算子和四大定理。"
+    },
+    {
+      "title": "有哪些牛逼的线性空间、它们的基是什么？",
+      "url": "https://www.zhihu.com/answer/110271329",
+      "summary": "正文从Fréchet空间、Schwartz空间及对偶分布空间系统解释泛函分析中的函数空间。"
+    },
+    {
+      "title": "线性空间的对偶空间和优化里的拉格朗日对偶有什么关系？",
+      "url": "https://www.zhihu.com/answer/113740571",
+      "summary": "正文以对偶空间、共轭函数和双对偶给出泛函分析层面的优化解释。"
+    },
+    {
+      "title": "具体哪里会用到泛函分析和测度论？",
+      "url": "https://www.zhihu.com/answer/115886896",
+      "summary": "正文系统讨论线性与非线性泛函分析在积分方程、动力系统、PDE和控制理论中的用途。"
+    },
+    {
+      "title": "数学好的人在思考数学题时的一般流程是怎样的？",
+      "url": "https://www.zhihu.com/answer/115936877",
+      "summary": "正文用 Baire 纲定理在函数空间中证明不可导函数存在。"
+    },
+    {
+      "title": "实变、泛函、抽代、拓扑，哪几门对于非纯数专业更加有用？",
+      "url": "https://www.zhihu.com/answer/120597047",
+      "summary": "正文指出泛函分析在控制理论中的基础作用。"
+    },
+    {
+      "title": "数学硕士/博士研究生阶段有哪些定理/论文/理论让你为之振奋？",
+      "url": "https://www.zhihu.com/answer/125188257",
+      "summary": "正文举例说明以泛函分析中的范数估计与紧性证明上同调有限维。"
+    },
+    {
+      "title": "普通人对于现代数学各个分支的理解难度，从高到低排名是怎样的？",
+      "url": "https://www.zhihu.com/answer/126541867",
+      "summary": "正文讨论多种函数空间、算子谱理论及其在 PDE 研究中的作用，属于泛函分析内容。"
+    },
+    {
+      "title": "如何理解范数的等价性？",
+      "url": "https://www.zhihu.com/answer/130046581",
+      "summary": "正文从向量大小、性质估计和范数间相互控制解释有限维范数等价的实际意义，属于泛函分析基础。"
+    },
+    {
+      "title": "所有偏微分方程（PDE）解析解都找到的话，对科学界有什么影响？",
+      "url": "https://www.zhihu.com/answer/131118562",
+      "summary": "正文指出PDE存在性必须在不同函数空间中定义和证明，体现泛函分析框架。"
+    },
+    {
+      "title": "PDE 中的先验估计是什么意思？",
+      "url": "https://www.zhihu.com/answer/131200650",
+      "summary": "正文以泛函分析中的弱收敛、有界序列子列和Sobolev空间说明先验估计机制。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/132756971",
+      "summary": "正文最终把对偶空间元素明确为线性泛函，属于泛函分析的基础对象。"
+    },
+    {
+      "title": "实变、泛函、抽代、拓扑，哪几门对于非纯数专业更加有用？",
+      "url": "https://www.zhihu.com/answer/137346086",
+      "summary": "正文解释泛函分析在工程、物理、微分方程与计算数学中的应用。"
+    },
+    {
+      "title": "所谓的数学品位是什么？",
+      "url": "https://www.zhihu.com/answer/137717730",
+      "summary": "正文以泛函分析统一积分方程、弹性力学与物理问题说明其应用价值。"
+    },
+    {
+      "title": "数学本科生看调和分析需要哪些基础课程？有哪些参考书推荐？",
+      "url": "https://www.zhihu.com/answer/141010171",
+      "summary": "正文以 Banach 代数与算子框架解释调和分析中的泛函分析方法。"
+    },
+    {
+      "title": "如何理解矩阵转置和求逆的可交换性？",
+      "url": "https://www.zhihu.com/answer/141069184",
+      "summary": "正文明确说明把算子视为空间是泛函分析的一般方法。"
+    },
+    {
+      "title": "数学可能有穷尽的一天吗？",
+      "url": "https://www.zhihu.com/answer/143887137",
+      "summary": "正文说明希尔伯特空间工作如何被发展成泛函分析。"
+    },
+    {
+      "title": "一条处处连续却处处不可微（换言之具有分形性质）的函数曲线是否存在一种更广义的导数？",
+      "url": "https://www.zhihu.com/answer/146269997",
+      "summary": "正文把广义导数解释为测试函数空间上的连续线性泛函，属于泛函分析内容。"
+    },
+    {
+      "title": "常微分方程的理论对偏微分方程的研究有没有帮助？",
+      "url": "https://www.zhihu.com/answer/146666447",
+      "summary": "算子半群、函数空间与无界算子的表述实质属于泛函分析框架。"
+    },
+    {
+      "title": "能不能把泛函简单地理解为函数？",
+      "url": "https://www.zhihu.com/answer/148611460",
+      "summary": "正文以多个反例比较泛函与有限维函数的连续性和有界性，属于泛函分析讲解。"
+    },
+    {
+      "title": "能不能把泛函简单地理解为函数？",
+      "url": "https://www.zhihu.com/answer/148748516",
+      "summary": "正文从定义域和值域依次区分函数、泛函和算子，属于泛函分析的基础概念。"
+    },
+    {
+      "title": "有界和一致有界？",
+      "url": "https://www.zhihu.com/answer/149951335",
+      "summary": "正文用两个函数列说明逐个有界与一致有界的区别，属于泛函分析基础。"
+    },
+    {
+      "title": "数学系本科生如何学好实变函数与泛函分析？",
+      "url": "https://www.zhihu.com/answer/151499682",
+      "summary": "正文解释泛函分析的前置知识、典型定理与 PDE 应用。"
+    },
+    {
+      "title": "数学系本科生如何学好实变函数与泛函分析？",
+      "url": "https://www.zhihu.com/answer/151550619",
+      "summary": "正文依次展开范数空间、Banach空间、Hilbert空间、线性泛函大定理及算子方程应用。"
+    },
+    {
+      "title": "如何比较Besov 空间与Sobolev 空间？",
+      "url": "https://www.zhihu.com/answer/159618804",
+      "summary": "正文用 Littlewood–Paley 分解比较 Sobolev 与 Besov 函数空间，并联系泛函分析。"
+    },
+    {
+      "title": "有哪些在你的数学领域里很有用的技巧？",
+      "url": "https://www.zhihu.com/answer/164816796",
+      "summary": "正文讲解稠密性、对偶、固定点与先验估计等泛函分析方法。"
+    },
+    {
+      "title": "读 PDE 方向的数学博士是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/165657813",
+      "summary": "正文说明泛函分析是 PDE 研究的重要基础。"
+    },
+    {
+      "title": "PDE(基础方向、流体)和CFD(计算方向)该选哪个？",
+      "url": "https://www.zhihu.com/answer/168205388",
+      "summary": "正文把泛函分析和 Sobolev 空间作为 PDE 的核心前置工具。"
+    },
+    {
+      "title": "如何理解分析中的各种正则性？",
+      "url": "https://www.zhihu.com/answer/170006731",
+      "summary": "正文说明弱导数、函数空间与泛函分析工具如何帮助证明方程解存在。"
+    },
+    {
+      "title": "用分离变量法来解 PDE 的合理性何在？",
+      "url": "https://www.zhihu.com/answer/175156730",
+      "summary": "正文采用算子半群、正规算子与无限维空间的泛函分析框架解释PDE。"
+    },
+    {
+      "title": "变分法与泛函分析这门课知识框架的思维导图是什么？",
+      "url": "https://www.zhihu.com/answer/181218614",
+      "summary": "正文区分线性泛函分析与变分法所属的非线性泛函分析，并说明课程侧重。"
+    },
+    {
+      "title": "变分法与泛函分析这门课知识框架的思维导图是什么？",
+      "url": "https://www.zhihu.com/answer/181261464",
+      "summary": "正文从变分法的来源、算子理论到非线性泛函分析给出完整知识框架。"
+    },
+    {
+      "title": "如何理解希尔伯特空间？",
+      "url": "https://www.zhihu.com/answer/184073198",
+      "summary": "正文用线性空间、范数、内积和完备性的层级关系解释泛函分析的空间体系。"
+    },
+    {
+      "title": "如何通俗解释谱分解？谱分解有哪几种方法？",
+      "url": "https://www.zhihu.com/answer/194975519",
+      "summary": "正文从算子代数、函数演算和投影值测度解释正规算子的谱分解。"
+    },
+    {
+      "title": "如何理解路径积分（path integral）？",
+      "url": "https://www.zhihu.com/answer/203678757",
+      "summary": "正文把作用量视为函数空间上的积分型泛函并讨论路径积分。"
+    },
+    {
+      "title": "为什么变分法的教材这么少？还有变分处理的不是泛函么？为什么泛函的教材一点都不涉及这个？",
+      "url": "https://www.zhihu.com/answer/207610075",
+      "summary": "正文把现代变分学定位为非线性泛函分析的重要分支。"
+    },
+    {
+      "title": "从泛函分析入手作为数学系的学习路径是否可行？",
+      "url": "https://www.zhihu.com/answer/207688035",
+      "summary": "正文系统说明泛函分析的学习前置、作用与局限。"
+    },
+    {
+      "title": "学习偏微分方程需要具备什么基础知识？",
+      "url": "https://www.zhihu.com/answer/223171993",
+      "summary": "正文解释泛函分析在弱解、估计和偏微分方程方法中的基础作用。"
+    },
+    {
+      "title": "做数学不同方向的人各有什么特点？",
+      "url": "https://www.zhihu.com/answer/231308117",
+      "summary": "正文区分泛函分析中的抽象方法与估计技巧。"
+    },
+    {
+      "title": "证明完备性有没有套路可言？",
+      "url": "https://www.zhihu.com/answer/231880746",
+      "summary": "正文用闭算子、对偶空间和弱拓扑讨论完备性。"
+    },
+    {
+      "title": "如何评价 Stein 的分析系列（数学）？",
+      "url": "https://www.zhihu.com/answer/234434292",
+      "summary": "正文涉及纲定理、奇异积分算子及其泛函框架。"
+    },
+    {
+      "title": "拓扑向量空间的理论在数学内外有什么应用？",
+      "url": "https://www.zhihu.com/answer/235962383",
+      "summary": "正文从弱收敛、连续线性泛函与算子方法讨论泛函分析。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/238256207",
+      "summary": "正文以张量幂技巧说明 Riesz-Thorin 定理中的范数估计。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/238553923",
+      "summary": "正文总结泛函分析中的闭图、开映射和 Hahn-Banach 等核心工具。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/245737718",
+      "summary": "正文证明 Cotlar 几乎正交引理并用于奇异积分算子有界性。"
+    },
+    {
+      "title": "Fourier变换和算子谱理论之间有没有直接的数学关系？",
+      "url": "https://www.zhihu.com/answer/250058631",
+      "summary": "正文系统构造自伴算子谱分类与酉等价。"
+    },
+    {
+      "title": "关于逆映射定理的证明？",
+      "url": "https://www.zhihu.com/answer/253022853",
+      "summary": "正文将不动点证明推广到无限维空间与非线性泛函分析。"
+    },
+    {
+      "title": "为什么测度论要建立在σ-代数上？",
+      "url": "https://www.zhihu.com/answer/259982491",
+      "summary": "正文讨论函数空间对偶、charge、regular measure 与 Banach lattice。"
+    },
+    {
+      "title": "对于数学研究生来说，（在你的方向）「打基础」到什么地步可以开始做研究了？",
+      "url": "https://www.zhihu.com/answer/264472282",
+      "summary": "正文讨论用泛函分析、算子理论处理偏微分方程。"
+    },
+    {
+      "title": "学习SPDE的先行课程和知识?",
+      "url": "https://www.zhihu.com/answer/279315929",
+      "summary": "正文把泛函分析列为构造随机偏微分方程理论的核心基础。"
+    },
+    {
+      "title": "为什么求极限没有逆运算？",
+      "url": "https://www.zhihu.com/answer/285128545",
+      "summary": "正文在泛函分析框架中把收敛数列组成线性空间。"
+    },
+    {
+      "title": "大学数学如何培养数学思维？",
+      "url": "https://www.zhihu.com/answer/291203048",
+      "summary": "正文说明 delta 的严格对象是分布或线性泛函，并引向泛函分析。"
+    },
+    {
+      "title": "现代数学是不是比大学数学中优雅的结论少了很多？",
+      "url": "https://www.zhihu.com/answer/304710445",
+      "summary": "正文说明 Sobolev 空间、嵌入与分析估计在 PDE 理论中的作用。"
+    },
+    {
+      "title": "路径积分、重整化在数学上目前并没有严格的定义，为什么在物理学中却相当有效？",
+      "url": "https://www.zhihu.com/answer/310732261",
+      "summary": "正文说明泛函分析是严格化傅里叶方法所形成的重要理论。"
+    },
+    {
+      "title": "数学中为什么要定义各种空间？",
+      "url": "https://www.zhihu.com/answer/312558158",
+      "summary": "正文以泛函分析为例解释抽象空间统一重复论证的作用。"
+    },
+    {
+      "title": "为什么要研究非交换几何？",
+      "url": "https://www.zhihu.com/answer/313656406",
+      "summary": "正文以C*代数和Gelfand表示定理说明非交换几何的泛函分析背景。"
+    },
+    {
+      "title": "为什么要研究非交换几何？",
+      "url": "https://www.zhihu.com/answer/313665967",
+      "summary": "正文回顾冯诺依曼代数和 C* 代数的发展，并把非交换几何放到泛函分析的算子代数框架中。"
+    },
+    {
+      "title": "数学中为什么要定义各种空间？",
+      "url": "https://www.zhihu.com/answer/325039308",
+      "summary": "正文从解方程和不同度量解释泛函分析中的函数空间。"
+    },
+    {
+      "title": "范数的大小比较有什么意义？",
+      "url": "https://www.zhihu.com/answer/328110179",
+      "summary": "正文从范数、对偶与自反性说明泛函分析中的空间结构。"
+    },
+    {
+      "title": "《陶哲轩实分析》 里的内容是属于数学分析还是实分析？为什么有人推荐用这本书来入门数分？",
+      "url": "https://www.zhihu.com/answer/329814816",
+      "summary": "正文说明泛函分析的空间理论在分析问题中的作用。"
+    },
+    {
+      "title": "读 Evans 的 PDE 前需要哪些预备知识？",
+      "url": "https://www.zhihu.com/answer/364232063",
+      "summary": "正文说明泛函分析与非线性泛函分析在 PDE 中的作用。"
+    },
+    {
+      "title": "一个可积函数乘以一个可积函数是否还是可积函数？",
+      "url": "https://www.zhihu.com/answer/375829838",
+      "summary": "正文使用 Hölder 不等式和函数范数估计乘积积分。"
+    },
+    {
+      "title": "范数对于数学的意义？1范数、2范数、无穷范数该怎么用？",
+      "url": "https://www.zhihu.com/answer/389440726",
+      "summary": "正文讨论赋范空间及范数作为空间距离结构的意义。"
+    },
+    {
+      "title": "为什么泛函分析要研究学习各种代数？",
+      "url": "https://www.zhihu.com/answer/392444017",
+      "summary": "正文从Banach代数、算子与函数空间说明泛函分析研究对象。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/403979266",
+      "summary": "正文用算子半群、傅里叶乘子和向量值调和分析展开泛函分析工具。"
+    },
+    {
+      "title": "为什么紧支集在分析里面这么重要？",
+      "url": "https://www.zhihu.com/answer/407987048",
+      "summary": "正文在 Lp 空间中用紧支集函数的稠密性完成逼近论证。"
+    },
+    {
+      "title": "鞅(Martingale)在现代算子理论当中的作用？",
+      "url": "https://www.zhihu.com/answer/415396095",
+      "summary": "正文研究 Lp 空间上的有界线性算子及其向 Banach 空间的推广。"
+    },
+    {
+      "title": "做（学）数学分析的人会看不起用直观思维理解一些定理的人吗？",
+      "url": "https://www.zhihu.com/answer/419280612",
+      "summary": "正文以算子延拓、自反性和一致有界原理说明分析直觉。"
+    },
+    {
+      "title": "抽象调和分析可以取代经典调和分析吗？",
+      "url": "https://www.zhihu.com/answer/429769711",
+      "summary": "正文比较抽象调和分析与经典调和分析的对象和方法。"
+    },
+    {
+      "title": "「泛函」究竟是什么意思？",
+      "url": "https://www.zhihu.com/answer/440887518",
+      "summary": "正文区分函数、算子和泛函并给出泛函定义。"
+    },
+    {
+      "title": "到底哪种观点正确。究竟是「积分比微分更难计算」，还是「微分比积分更难计算」？",
+      "url": "https://www.zhihu.com/answer/449258476",
+      "summary": "正文从线性算子的定义域、有界性和闭图像比较微分与积分。"
+    },
+    {
+      "title": "到底哪种观点正确。究竟是「积分比微分更难计算」，还是「微分比积分更难计算」？",
+      "url": "https://www.zhihu.com/answer/449815180",
+      "summary": "正文以Sobolev不等式和扰动估计说明分析算子观点。"
+    },
+    {
+      "title": "学习数学分析，怎么样才算得上是精通呢？",
+      "url": "https://www.zhihu.com/answer/454157412",
+      "summary": "正文以L1范数收敛与几乎处处收敛说明高阶分析观点。"
+    },
+    {
+      "title": "数学中的各种空间，C1，C2，C零无穷，H1-0，L2这类都分别是什么意思？",
+      "url": "https://www.zhihu.com/answer/457508044",
+      "summary": "正文逐项解释 C、H、L2 等典型函数空间，属于泛函分析基础内容。"
+    },
+    {
+      "title": "为何这么多人称赞指标定理？",
+      "url": "https://www.zhihu.com/answer/470379556",
+      "summary": "正文用自伴Laplace算子、谱与解析挠率说明算子分析。"
+    },
+    {
+      "title": "索博列夫他的嵌入定理是什么意思，跟连续函数空间关系是什么，有什么用？所有的定理我都知道？",
+      "url": "https://www.zhihu.com/answer/483427738",
+      "summary": "正文解释Sobolev空间、Holder空间和泛函分析工具。"
+    },
+    {
+      "title": "可以不借助随机过程和 Feyman-Kac 公式理解抛物 PDE 吗？",
+      "url": "https://www.zhihu.com/answer/493254983",
+      "summary": "正文以泛函分析和算子理论研究抛物 PDE。"
+    },
+    {
+      "title": "高等代数中出现的对偶空间的对偶到底是什么？而拓扑意义下的对偶又是什么？",
+      "url": "https://www.zhihu.com/answer/495735538",
+      "summary": "正文从泛函分析角度定义对偶系统及其诱导拓扑。"
+    },
+    {
+      "title": "基础数学的非线性泛函分析研究什么？",
+      "url": "https://www.zhihu.com/answer/496053256",
+      "summary": "正文系统介绍非线性泛函分析的主要板块。"
+    },
+    {
+      "title": "向量为什么作用那么大、那么好用、且与其他数学工具之间配合的那么好？",
+      "url": "https://www.zhihu.com/answer/497078784",
+      "summary": "正文说明函数作为向量后如何进入泛函分析。"
+    },
+    {
+      "title": "怎样理解fredholm alternative theorem？",
+      "url": "https://www.zhihu.com/answer/502277881",
+      "summary": "从无限维空间中的紧算子、核和值域解释 Fredholm 二择一定理，属于泛函分析内容。"
+    },
+    {
+      "title": "算子，算符，函数各是什么东西？各自运算有什么特征？相互之间什么关系？",
+      "url": "https://www.zhihu.com/answer/512653150",
+      "summary": "正文系统说明线性与非线性算子、变分方法及线性泛函分析。"
+    },
+    {
+      "title": "有哪些神奇的数学巧合？",
+      "url": "https://www.zhihu.com/answer/527084456",
+      "summary": "通过构造处处不连续、处处不可微等反直觉函数展示函数空间现象。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/527159916",
+      "summary": "列举并解释处处连续但处处不可导等分析学中的病态函数。"
+    },
+    {
+      "title": "历史上有哪些如神一般存在的人物？",
+      "url": "https://www.zhihu.com/answer/533591482",
+      "summary": "正文把无界自共轭算子谱理论与泛函分析的形成联系起来。"
+    },
+    {
+      "title": "分析学方向如何深入学习后续课程？",
+      "url": "https://www.zhihu.com/answer/542694480",
+      "summary": "正文系统列出泛函分析的基础定理与后续方向。"
+    },
+    {
+      "title": "分析学方向如何深入学习后续课程？",
+      "url": "https://www.zhihu.com/answer/543053232",
+      "summary": "正文讨论泛函分析、调和分析及其交叉方向。"
+    },
+    {
+      "title": "神经网络为什么可以（理论上）拟合任何函数？",
+      "url": "https://www.zhihu.com/answer/544132881",
+      "summary": "正文从泛函分析中的 Stone–Weierstrass 定理解释神经网络逼近。"
+    },
+    {
+      "title": "该怎么理解泛函以及变分？是一种什么思想，老师讲的听不懂。？",
+      "url": "https://www.zhihu.com/answer/546078085",
+      "summary": "正文从函数空间与算子定义泛函，并推导泛函导数。"
+    },
+    {
+      "title": "数学家 Elias M. Stein 逝世，如何总结他的工作？",
+      "url": "https://www.zhihu.com/answer/559356694",
+      "summary": "讨论 Lp、Sobolev 空间、线性算子插值和极大算子的有界性。"
+    },
+    {
+      "title": "如何评价数学家让·布尔甘（Jean Bourgain）？",
+      "url": "https://www.zhihu.com/answer/562972156",
+      "summary": "正文讨论算子估计、随机分析与泛函分析之间的联系。"
+    },
+    {
+      "title": "有哪些优秀的高等代数教材？",
+      "url": "https://www.zhihu.com/answer/563225927",
+      "summary": "正文说明线性代数到泛函分析的延伸。"
+    },
+    {
+      "title": "测度论和泛函分析有什么关系？",
+      "url": "https://www.zhihu.com/answer/575518800",
+      "summary": "正文从可测函数空间解释泛函分析基础。"
+    },
+    {
+      "title": "里斯表示定理？",
+      "url": "https://www.zhihu.com/answer/593244290",
+      "summary": "正文以向量、算子和泛函的比喻讲解里斯表示定理。"
+    },
+    {
+      "title": "如今泛函分析方向真的已经没有什么可挖的了吗？当年Grothendieck为什么说泛函分析已经死了？",
+      "url": "https://www.zhihu.com/answer/594462730",
+      "summary": "正文概括泛函分析的主要研究方向。"
+    },
+    {
+      "title": "直视克苏鲁中邪神后的疯狂到底是指什么？",
+      "url": "https://www.zhihu.com/answer/611711865",
+      "summary": "正文讨论 Stone-Weierstrass 定理及连续函数代数。"
+    },
+    {
+      "title": "历史上有哪些著名的数学定理在当时证明非常冗长，但是用现代的观点简洁明了？",
+      "url": "https://www.zhihu.com/answer/622512888",
+      "summary": "说明 Banach 代数的 Gelfand 理论可简化 Wiener 定理证明。"
+    },
+    {
+      "title": "微分方程中的算子解法为什么不普遍使用？",
+      "url": "https://www.zhihu.com/answer/629741984",
+      "summary": "把算子半群、傅里叶乘子和 UMD 空间置于泛函分析框架。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/649692656",
+      "summary": "以稠密子集上的连续线性映射延拓概括泛函分析方法。"
+    },
+    {
+      "title": "有哪些关于偏微分方程和算子的较透彻的书籍？",
+      "url": "https://www.zhihu.com/answer/714140048",
+      "summary": "围绕泛函分析中的闭算子与算子谱评价教材。"
+    },
+    {
+      "title": "在数学系是一种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/717426450",
+      "summary": "讨论实变之后的赋范、内积和共轭空间。"
+    },
+    {
+      "title": "测度论和泛函分析有什么关系？",
+      "url": "https://www.zhihu.com/answer/723184756",
+      "summary": "以有界线性泛函、谱理论和直积分说明泛函分析与测度论的联系。"
+    },
+    {
+      "title": "初等函数之上有无定义「高等函数」？",
+      "url": "https://www.zhihu.com/answer/800217802",
+      "summary": "正文用曲线长度和最速降线说明函数到数的映射，并指出变分法与函数空间两个研究方向。"
+    },
+    {
+      "title": "你最钦佩的数学天才是谁？",
+      "url": "https://www.zhihu.com/answer/820644071",
+      "summary": "在 Sobolev 函数空间中讨论光滑映射的稠密性。"
+    },
+    {
+      "title": "学随机分析需要把实分析和泛函学的很深吗?",
+      "url": "https://www.zhihu.com/answer/827088113",
+      "summary": "说明随机分析需要度量空间、Banach 与 Hilbert 空间。"
+    },
+    {
+      "title": "如何通俗的解释希尔伯特空间，它具有特别的性质么，如果有是什么？",
+      "url": "https://www.zhihu.com/answer/854736301",
+      "summary": "正文以距离、范数和内积说明泛函分析如何用几何方法研究函数空间。"
+    },
+    {
+      "title": "什么是邻域?",
+      "url": "https://www.zhihu.com/answer/860393389",
+      "summary": "把邻域推广到无限维函数空间。"
+    },
+    {
+      "title": "学完泛函分析可以做哪些事情？",
+      "url": "https://www.zhihu.com/answer/912876572",
+      "summary": "正文直接解释泛函分析把微积分从有限维推广到无限维，并讨论其学习应用。"
+    },
+    {
+      "title": "学完泛函分析可以做哪些事情？",
+      "url": "https://www.zhihu.com/answer/925885174",
+      "summary": "正文从实分析、概率、傅里叶、优化和方程多方面说明泛函分析的作用。"
+    },
+    {
+      "title": "学完泛函分析可以做哪些事情？",
+      "url": "https://www.zhihu.com/answer/926330900",
+      "summary": "正文解释算子、泛函及其在PDE弱解、变分法和数学物理中的应用。"
+    },
+    {
+      "title": "有没有一种行之有效的方法可以将一种函数展开成另外一种函数的级数？",
+      "url": "https://www.zhihu.com/answer/949141748",
+      "summary": "正文用内积空间、正交函数系和 Sturm-Liouville 理论说明一般函数展开。"
+    },
+    {
+      "title": "如何记忆这两种形式的柯西不等式？",
+      "url": "https://www.zhihu.com/answer/986133847",
+      "summary": "正文从线性空间、内积与函数空间系统解释柯西不等式。"
+    },
+    {
+      "title": "怎样理解弱拓扑概念？",
+      "url": "https://www.zhihu.com/answer/1005478907",
+      "summary": "正文在泛函分析框架讨论弱收敛、对偶与优化解存在性。"
+    },
+    {
+      "title": "一个无穷维线性空间的所有基都是等势的吗？",
+      "url": "https://www.zhihu.com/answer/1035473620",
+      "summary": "正文区分Hamel基、Hilbert基与Schauder基并讨论无限维空间。"
+    },
+    {
+      "title": "泛函分析应该如何学习?",
+      "url": "https://www.zhihu.com/answer/1067414453",
+      "summary": "正文系统说明线性与非线性泛函分析的对象、基础和学习方法。"
+    },
+    {
+      "title": "「泛函」究竟是什么意思？",
+      "url": "https://www.zhihu.com/answer/1084800409",
+      "summary": "正文从线性泛函与无限维空间系统解释泛函分析。"
+    },
+    {
+      "title": "为什么要对函数列和函数项级数引入一致收敛的概念?",
+      "url": "https://www.zhihu.com/answer/1090430373",
+      "summary": "正文明确从函数空间与范数观点解释一致收敛。"
+    },
+    {
+      "title": "现在的数学都在研究什么？有哪些前沿领域与研究？",
+      "url": "https://www.zhihu.com/answer/1154901698",
+      "summary": "正文说明泛函分析研究有限维及无限维线性空间。"
+    },
+    {
+      "title": "傅里叶级数为什么会收敛到原函数？",
+      "url": "https://www.zhihu.com/answer/1169344044",
+      "summary": "正文用内积、L2范数和正交函数系展开泛函分析式证明。"
+    },
+    {
+      "title": "调和分析方向是什么？",
+      "url": "https://www.zhihu.com/answer/1226666177",
+      "summary": "正文同时讨论算子、函数空间和 Lp 有界性等泛函分析内容。"
+    },
+    {
+      "title": "Stein 大神的 4 本分析有顺序吗？",
+      "url": "https://www.zhihu.com/answer/1256327788",
+      "summary": "正文把泛函分析作为实分析后续并介绍其核心主题。"
+    },
+    {
+      "title": "学习偏微分方程需要具备什么基础知识？",
+      "url": "https://www.zhihu.com/answer/1269890226",
+      "summary": "正文说明现代 PDE 在 Sobolev 空间上使用泛函变分求弱解。"
+    },
+    {
+      "title": "数学的泛函分析应该怎么学？",
+      "url": "https://www.zhihu.com/answer/1282031166",
+      "summary": "正文讨论泛函分析与其他分析分支的联系及学习方法。"
+    },
+    {
+      "title": "Yosida-Hile定理以许多Banach值的函数的C1表示什么意思？",
+      "url": "https://www.zhihu.com/answer/1287089836",
+      "summary": "正文给出泛函分析视角和算子半群学习资料。"
+    },
+    {
+      "title": "利用对偶的办法证明算子有界性的依据是什么？",
+      "url": "https://www.zhihu.com/answer/1299433305",
+      "summary": "正文用对偶空间证明积分算子有界性。"
+    },
+    {
+      "title": "如何进一步入门泛函分析？",
+      "url": "https://www.zhihu.com/answer/1313209744",
+      "summary": "正文直接讲解“泛函分析”相关内容。"
+    },
+    {
+      "title": "学习经济学应该掌握哪些数学工具或是学习哪些数学理论？",
+      "url": "https://www.zhihu.com/answer/1327693840",
+      "summary": "正文具体说明线性泛函分析、Hahn-Banach 定理和无限维最优化。"
+    },
+    {
+      "title": "为什么 n 阶线性微分方程的通解由 n 个线性无关的特解线性组合构成，这与线性方程组有关系吗？",
+      "url": "https://www.zhihu.com/answer/1330591190",
+      "summary": "正文从函数空间、线性算子和核的维数解释无穷维线性代数。"
+    },
+    {
+      "title": "你所读的数学方向，有哪些短小精干的讲义或者教材？",
+      "url": "https://www.zhihu.com/answer/1343255234",
+      "summary": "正文推荐非线性泛函分析入门讲义及其适用范围。"
+    },
+    {
+      "title": "学随机分析需要把实分析和泛函学的很深吗?",
+      "url": "https://www.zhihu.com/answer/1369352329",
+      "summary": "正文以伊藤等距和随机最优控制说明泛函分析的作用。"
+    },
+    {
+      "title": "基础数学中，非线性泛函分析这一方向是否还有研究前景？",
+      "url": "https://www.zhihu.com/answer/1370804348",
+      "summary": "正文综述非线性泛函分析的方法、前景和预备知识。"
+    },
+    {
+      "title": "如何构建一套完整的数学知识体系？",
+      "url": "https://www.zhihu.com/answer/1397642008",
+      "summary": "正文具体讨论无限维函数空间、赋范空间、内积空间、巴拿赫空间、希尔伯特空间和算子。"
+    },
+    {
+      "title": "泛函分析有什么好的教材？",
+      "url": "https://www.zhihu.com/answer/1403176979",
+      "summary": "正文系统比较泛函分析教材及其应用方向。"
+    },
+    {
+      "title": "学完泛函分析可以做哪些事情？",
+      "url": "https://www.zhihu.com/answer/1408988033",
+      "summary": "正文用 Hilbert 空间投影定理解释泛函分析并求解最优控制中的微分方程约束。"
+    },
+    {
+      "title": "从应用的角度上来看，数学上为什么要研究无穷维空间？",
+      "url": "https://www.zhihu.com/answer/1426022817",
+      "summary": "正文从偏微分方程与函数空间解释无穷维空间的作用。"
+    },
+    {
+      "title": "atiyah singer 指标定理的学习路径是怎样的？",
+      "url": "https://www.zhihu.com/answer/1463141930",
+      "summary": "正文说明指标定理需要泛函分析与算子理论。"
+    },
+    {
+      "title": "atiyah singer 指标定理的学习路径是怎样的？",
+      "url": "https://www.zhihu.com/answer/1467527776",
+      "summary": "正文用泛函分析中的映射介绍指标定理。"
+    },
+    {
+      "title": "关于数学系有哪些好的视频？",
+      "url": "https://www.zhihu.com/answer/1468712416",
+      "summary": "正文推荐泛函分析课程并说明学习顺序。"
+    },
+    {
+      "title": "数学中的「分析」是什么意思？",
+      "url": "https://www.zhihu.com/answer/1482481107",
+      "summary": "正文直接给出与「泛函分析」相关的解释、推导或应用。"
+    },
+    {
+      "title": "微积分之后，现代数学有哪些新的革命性工具？近年来物理理论没有突破，是不是微积分不够用了？",
+      "url": "https://www.zhihu.com/answer/1515171941",
+      "summary": "正文把函数视为无穷维空间中的点以介绍泛函分析。"
+    },
+    {
+      "title": "怎样理解函数列的子列？",
+      "url": "https://www.zhihu.com/answer/1560140555",
+      "summary": "正文在连续函数空间上定义范数并讨论序列收敛与紧性。"
+    },
+    {
+      "title": "下面这个积分明明可以积分为什么Mathematica说它发散？",
+      "url": "https://www.zhihu.com/answer/1564052887",
+      "summary": "正文在 Schwartz 函数空间上定义广义函数与线性泛函。"
+    },
+    {
+      "title": "为什么有限维赋范线性空间中的范数是等价的？",
+      "url": "https://www.zhihu.com/answer/1564610976",
+      "summary": "正文证明有限维赋范空间中任意范数与欧氏范数等价。"
+    },
+    {
+      "title": "有哪些值得推荐的《泛函分析》教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1566994657",
+      "summary": "正文集中推荐泛函分析教材与参考书。"
+    },
+    {
+      "title": "你见过最恶心的函数是什么？",
+      "url": "https://www.zhihu.com/answer/1575923359",
+      "summary": "正文围绕检验函数空间上的连续线性泛函定义分布与广义函数。"
+    },
+    {
+      "title": "请问对实变函数感兴趣研究生可以选择数学的哪个方向？",
+      "url": "https://www.zhihu.com/answer/1636788420",
+      "summary": "正文系统介绍调和分析中的算子、泛函与函数空间。"
+    },
+    {
+      "title": "机器学习的理论方向 PhD 是否真的会接触那么多现代数学（黎曼几何、代数拓扑之类）？",
+      "url": "https://www.zhihu.com/answer/1662038519",
+      "summary": "正文具体列举分析模型所需的实变与泛函工具。"
+    },
+    {
+      "title": "有什么很牛逼的无理数？",
+      "url": "https://www.zhihu.com/answer/1675868557",
+      "summary": "正文用泛函分析和重整化解释周期收敛。"
+    },
+    {
+      "title": "2020 年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/1685759302",
+      "summary": "正文讨论 Sobolev 不等式稳定性这一泛函分析研究。"
+    },
+    {
+      "title": "（动力系统 + 拓扑学 + 抽象代数）和（泛函分析 + 实变函数 + 复分析和解析几何）有哪些联系？",
+      "url": "https://www.zhihu.com/answer/1687152836",
+      "summary": "正文说明 C* 代数与泛函、算子代数的联系。"
+    },
+    {
+      "title": "PDE 中的先验估计是什么意思？",
+      "url": "https://www.zhihu.com/answer/1696421962",
+      "summary": "正文用泛函分析中的弱收敛和函数空间证明存在性。"
+    },
+    {
+      "title": "如何向高一学生解释向量的意义？",
+      "url": "https://www.zhihu.com/answer/1715564486",
+      "summary": "正文把平方可积函数空间视为带内积的向量空间。"
+    },
+    {
+      "title": "如何厘清泛函分析的脉络？",
+      "url": "https://www.zhihu.com/answer/1723202800",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "如何厘清泛函分析的脉络？",
+      "url": "https://www.zhihu.com/answer/1723314736",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "为什么统计学习算法中常讨论KL距离?",
+      "url": "https://www.zhihu.com/answer/1802286253",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "求推荐一本泛函分析的教材适合工科初学者?",
+      "url": "https://www.zhihu.com/answer/1809186276",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "下面这个积分明明可以积分为什么Mathematica说它发散？",
+      "url": "https://www.zhihu.com/answer/1813343370",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "有什么专业的难度是被严重低估的？",
+      "url": "https://www.zhihu.com/answer/1814838943",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "最优控制理论看不懂，请问除了高等数学和线性代数外，还需要哪些基础知识呢？",
+      "url": "https://www.zhihu.com/answer/1829836322",
+      "summary": "正文说明严格学习最优控制所需的泛函分析、变分和对偶空间基础。"
+    },
+    {
+      "title": "最优控制(optimal control)与最优化(optimization)有什么区别？",
+      "url": "https://www.zhihu.com/answer/1831161592",
+      "summary": "正文用 Banach 空间、对偶空间与拉格朗日泛函统一两类优化。"
+    },
+    {
+      "title": "量子力学的Dirac符号系统优越性在哪，为什么不使用张量作为量子力学的数学语言基础？",
+      "url": "https://www.zhihu.com/answer/1842415584",
+      "summary": "正文说明 Dirac 符号背后的无穷维空间需要泛函分析。"
+    },
+    {
+      "title": "怎么逐步学习 PDE？",
+      "url": "https://www.zhihu.com/answer/1872527968",
+      "summary": "正文把 Sobolev 空间、弱导数和 Lax–Milgram 置于泛函分析背景。"
+    },
+    {
+      "title": "有哪些适合物理、力学专业学习的实分析、泛函分析、PDE等方向数学书或讲义？",
+      "url": "https://www.zhihu.com/answer/1878415387",
+      "summary": "正文说明从集合论、线性代数到泛函分析的课程和教材结构。"
+    },
+    {
+      "title": "复变函数、实分析、复分析、数学分析是什么关系？",
+      "url": "https://www.zhihu.com/answer/1880296129",
+      "summary": "正文把广义数学分析描述为本科泛函分析前的分析学知识。"
+    },
+    {
+      "title": "如何将高阶线性微分方程与线性代数联系起来？",
+      "url": "https://www.zhihu.com/answer/1881441533",
+      "summary": "正文把函数加法和数乘定义为函数空间结构并联系泛函分析。"
+    },
+    {
+      "title": "内积是个什么物理过程，具体的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/1886054836",
+      "summary": "正文从离散和连续内积、算符内积讨论泛函分析结构。"
+    },
+    {
+      "title": "偏微分方程领域有人在做一般性的解析解的理论吗？",
+      "url": "https://www.zhihu.com/answer/1893833119",
+      "summary": "正文把泛函分析、先验估计和微局部分析列为 PDE 的共性工具。"
+    },
+    {
+      "title": "如何理解物理学中的“关联函数”的物理本质？其在不同物理分支中有哪些应用实例？",
+      "url": "https://www.zhihu.com/answer/1913189365",
+      "summary": "正文用函数空间、算符和逆算符解释格林函数。"
+    },
+    {
+      "title": "如何评价「泛函、映射、算子、变换都是函数，是搞数学的人骗普通人的把戏」这一说法？实际情况如何？",
+      "url": "https://www.zhihu.com/answer/1938577403",
+      "summary": "正文直接讨论并支撑「泛函分析」相关内容。"
+    },
+    {
+      "title": "如何评价「泛函、映射、算子、变换都是函数，是搞数学的人骗普通人的把戏」这一说法？实际情况如何？",
+      "url": "https://www.zhihu.com/answer/1938690565",
+      "summary": "正文把函数空间到数域的映射解释为泛函。"
+    },
+    {
+      "title": "非交换几何在物理学中有哪些应用？",
+      "url": "https://www.zhihu.com/answer/1938935028",
+      "summary": "正文以 C*-代数和算子 K 理论说明非交换几何的泛函分析基础。"
+    },
+    {
+      "title": "如何评价「泛函、映射、算子、变换都是函数，是搞数学的人骗普通人的把戏」这一说法？实际情况如何？",
+      "url": "https://www.zhihu.com/answer/1938974754",
+      "summary": "正文明确给出泛函的定义和向量空间背景。"
+    },
+    {
+      "title": "拓扑学能解决哪些分析学无法解决的问题？",
+      "url": "https://www.zhihu.com/answer/1942662189",
+      "summary": "正文以泛函、水平集和临界点说明非线性泛函分析方法。"
+    },
+    {
+      "title": "勒让德多项式的意义？",
+      "url": "https://www.zhihu.com/answer/1946664547",
+      "summary": "正文用函数空间内积和正交化构造勒让德多项式。"
+    },
+    {
+      "title": "有哪些数学系鄙视物理系的经典桥段？",
+      "url": "https://www.zhihu.com/answer/1954956384",
+      "summary": "正文讨论希尔伯特空间上的无界算子和本征态问题。"
+    },
+    {
+      "title": "有哪些值得推荐的《泛函分析》教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1957990082",
+      "summary": "正文比较泛函分析教材并说明其与 PDE、优化和控制论的联系。"
+    },
+    {
+      "title": "有哪些值得推荐的《泛函分析》教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1959498617",
+      "summary": "正文根据测度论、泛函与算子理论水平推荐学习资料。"
+    },
+    {
+      "title": "2022世界数学家大会报告名单公布，能介绍一小时报告的主要工作吗？",
+      "url": "https://www.zhihu.com/answer/1975648371",
+      "summary": "正文在泛函分析框架下研究自伴算子谱理论。"
+    },
+    {
+      "title": "「泛函」究竟是什么意思？",
+      "url": "https://www.zhihu.com/answer/2028685548",
+      "summary": "正文用函数作为变量解释泛函与泛函分析。"
+    },
+    {
+      "title": "数学永远领先这个世界 200 年，这句话对吗？",
+      "url": "https://www.zhihu.com/answer/2074331955",
+      "summary": "正文联系函数逼近与 Stone-Weierstrass 定理。"
+    },
+    {
+      "title": "有哪些数学上的定理让你感觉「这不显然吗，这还用证明」？",
+      "url": "https://www.zhihu.com/answer/2075848646",
+      "summary": "正文以欧氏空间、凸集与线性泛函表述分离定理。"
+    },
+    {
+      "title": "哪些数学书让你相见恨晚？",
+      "url": "https://www.zhihu.com/answer/2101808567",
+      "summary": "正文介绍教材覆盖的巴拿赫空间、希尔伯特空间和泛函分析内容。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/2110009942",
+      "summary": "正文指出对偶空间在泛函分析中的推广与有界线性泛函。"
+    },
+    {
+      "title": "哪些数学书让你相见恨晚？",
+      "url": "https://www.zhihu.com/answer/2116481026",
+      "summary": "正文具体评价 Elementary Functional Analysis 的内容和难度，并指出它覆盖泛函分析三大定理。"
+    },
+    {
+      "title": "实变函数，泛函分析，拓扑学中重要的定理概念有哪些？",
+      "url": "https://www.zhihu.com/answer/2128239584",
+      "summary": "正文系统列举泛函分析中的重要定理及其应用。"
+    },
+    {
+      "title": "有什么关于索伯列夫空间的数学书?",
+      "url": "https://www.zhihu.com/answer/2139568339",
+      "summary": "正文说明学习 Sobolev 空间需要泛函分析基础并列举相关教材。"
+    },
+    {
+      "title": "在泛函和偏微等学科中，为什么要引进「弱」的概念？",
+      "url": "https://www.zhihu.com/answer/2147629918",
+      "summary": "正文用连续线性泛函解释无限维空间中的弱收敛及其与范数收敛的区别。"
+    },
+    {
+      "title": "数学的泛函分析应该怎么学？",
+      "url": "https://www.zhihu.com/answer/2159766534",
+      "summary": "正文讨论泛函分析的学习路径及应用动机。"
+    },
+    {
+      "title": "变分自动编码器中的变分是什么意思，和泛函中的变分概念一样吗？",
+      "url": "https://www.zhihu.com/answer/2182858345",
+      "summary": "正文解释变分就是求泛函极值，并说明变分自编码器中的用法。"
+    },
+    {
+      "title": "Malliavin分析入门教材推荐?另，随机动态规划与随机变分的关系是怎样的?",
+      "url": "https://www.zhihu.com/answer/2194036527",
+      "summary": "正文用 Fréchet 导数、Gâteaux 导数和泛函极值联系变分与 Malliavin 分析。"
+    },
+    {
+      "title": "非线性分析教材看了下张恭庆先生的非线性分析的方法，变分法，感觉太吃力了，有什么入门教材推荐吗？",
+      "url": "https://www.zhihu.com/answer/2200380366",
+      "summary": "正文说明从变分学到非线性分析需要泛函分析、几何与拓扑基础。"
+    },
+    {
+      "title": "为什么变分法的教材这么少？还有变分处理的不是泛函么？为什么泛函的教材一点都不涉及这个？",
+      "url": "https://www.zhihu.com/answer/2210684791",
+      "summary": "正文把变分问题明确放到泛函分析框架中。"
+    },
+    {
+      "title": "如何看待 arXiv2111.02792 对黎曼猜想的证明？",
+      "url": "https://www.zhihu.com/answer/2218364087",
+      "summary": "正文用广义函数、分布、Schwartz 空间和泛函分析解释整数构造。"
+    },
+    {
+      "title": "Gram-Schmidt 正交化多项式？",
+      "url": "https://www.zhihu.com/answer/2237122042",
+      "summary": "正文把多项式函数视为函数空间中的向量，并用正交投影解释函数降维与最佳近似。"
+    },
+    {
+      "title": "目前数学的符号体系有多混乱？",
+      "url": "https://www.zhihu.com/answer/2246719201",
+      "summary": "正文用 Sobolev 空间说明分析分支中的同一符号。"
+    },
+    {
+      "title": "在泛函和偏微等学科中，为什么要引进「弱」的概念？",
+      "url": "https://www.zhihu.com/answer/2254231820",
+      "summary": "正文从泛函与拓扑角度解释弱导数和弱收敛动机。"
+    },
+    {
+      "title": "如何评价数海钓鱼将钓鱼题广泛传播的行为?",
+      "url": "https://www.zhihu.com/answer/2259821508",
+      "summary": "正文用有界一致连续函数空间和微分估计刻画问题。"
+    },
+    {
+      "title": "能否彻底从代数角度定义微分和积分？",
+      "url": "https://www.zhihu.com/answer/2265180255",
+      "summary": "正文在 Banach 空间范畴中构造泛函分析式积分刻画。"
+    },
+    {
+      "title": "泛函分析的精髓、基本套路、用途是什么？",
+      "url": "https://www.zhihu.com/answer/2266751223",
+      "summary": "正文用 Lax-Milgram 定理说明泛函分析在 PDE 中的用途。"
+    },
+    {
+      "title": "Banach空间和Hilbert空间上的共轭算子有什么区别？",
+      "url": "https://www.zhihu.com/answer/2275765284",
+      "summary": "正文比较 Hilbert 与 Banach 空间中的共轭算子。"
+    },
+    {
+      "title": "这个等式右边的极化恒等式是怎么得到的?",
+      "url": "https://www.zhihu.com/answer/2280447076",
+      "summary": "正文在内积空间与算子语境中完整推导极化恒等式。"
+    },
+    {
+      "title": "2021 年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/2288530127",
+      "summary": "正文具体回顾泛函分析课程中 Banach 空间、Hilbert 空间和有界线性算子等内容。"
+    },
+    {
+      "title": "泛函分析的精髓、基本套路、用途是什么？",
+      "url": "https://www.zhihu.com/answer/2304909703",
+      "summary": "正文系统列举泛函分析核心定理和应用。"
+    },
+    {
+      "title": "有哪些值得推荐的数学分析教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/2323850847",
+      "summary": "正文将泛函分析列为分析学主干后续课程，并推荐相应教材。"
+    },
+    {
+      "title": "学好运筹学需要哪些基础？",
+      "url": "https://www.zhihu.com/answer/2328175490",
+      "summary": "正文说明线性规划、支撑超平面与泛函分析理论的关系。"
+    },
+    {
+      "title": "如何速成泛函分析？",
+      "url": "https://www.zhihu.com/answer/2344584880",
+      "summary": "正文以课程笔记系统介绍泛函分析。"
+    },
+    {
+      "title": "你们能用浅显的语言解释清楚广义函数的定义嘛？",
+      "url": "https://www.zhihu.com/answer/2347919121",
+      "summary": "正文用连续线性泛函定义广义函数。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/2359367092",
+      "summary": "正文用线性泛函、对偶基和函数空间解释对偶空间。"
+    },
+    {
+      "title": "纯数而言，你觉得分析更难还是代数更难？",
+      "url": "https://www.zhihu.com/answer/2362257427",
+      "summary": "正文把严肃泛函分析列为从事分析前沿研究的关键课程。"
+    },
+    {
+      "title": "为何平面波可以用球Bessel函数展开？",
+      "url": "https://www.zhihu.com/answer/2365565349",
+      "summary": "正文用正交完备基展开解释函数空间中的平面波分解。"
+    },
+    {
+      "title": "狄拉克delta函数作为一种\"广义的连续单位矩阵\"存在着逆吗?",
+      "url": "https://www.zhihu.com/answer/2393194856",
+      "summary": "正文用线性泛函和核函数解释狄拉克 delta 函数。"
+    },
+    {
+      "title": "统计学专业很需要数学天赋吗？",
+      "url": "https://www.zhihu.com/answer/2398000925",
+      "summary": "正文说明高维回归需要函数空间与泛函分析工具。"
+    },
+    {
+      "title": "数学中，「代数」和「分析」的方法分别是什么？有什么不同？",
+      "url": "https://www.zhihu.com/answer/2415079757",
+      "summary": "正文随后以距离空间、赋范线性空间、内积空间和正交说明泛函分析如何结合代数与分析。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/2419060609",
+      "summary": "正文说明毕业论文研究 Q 空间的拟共形不变性，属于函数空间与泛函分析主题。"
+    },
+    {
+      "title": "AI，ML 方向的博士新生如何针对性地复习(或重新学习)一遍数学？",
+      "url": "https://www.zhihu.com/answer/2426419908",
+      "summary": "正文明确列出泛函分析在概率图模型、变分贝叶斯和泛化性研究中的关联。"
+    },
+    {
+      "title": "量子场论文献里下面这段高斯型积分的推导怎么来的啊？",
+      "url": "https://www.zhihu.com/answer/2434976766",
+      "summary": "正文把源项积分解释为作用于场变量的线性泛函。"
+    },
+    {
+      "title": "(f∘g)(x) = f(g(x)) 究竟是否需要证明？",
+      "url": "https://www.zhihu.com/answer/2468133975",
+      "summary": "正文用 Hilbert 空间上有界自伴随算子的连续泛函演算构造反例。"
+    },
+    {
+      "title": "(f∘g)(x) = f(g(x)) 究竟是否需要证明？",
+      "url": "https://www.zhihu.com/answer/2473536891",
+      "summary": "正文详细澄清函数演算并非函数直接作用于算子，而是有界 Borel 函数到算子空间的映射。"
+    },
+    {
+      "title": "能不能用本科生也能听懂的话介绍一下现代PDE主要研究哪些内容?",
+      "url": "https://www.zhihu.com/answer/2478151043",
+      "summary": "正文说明偏微分方程研究需要函数空间和算子理论。"
+    },
+    {
+      "title": "能不能用本科生也能听懂的话介绍一下现代PDE主要研究哪些内容?",
+      "url": "https://www.zhihu.com/answer/2478575907",
+      "summary": "正文说明泛函分析工具对偏微分方程发展的影响。"
+    },
+    {
+      "title": "高斯过程说它是非参数模型，这点怎么理解？",
+      "url": "https://www.zhihu.com/answer/2497801273",
+      "summary": "正文用泛函分析中的再生核希尔伯特空间理论解释高斯过程。"
+    },
+    {
+      "title": "有人说数学天才「能看到函数的函数的函数」，这是怎样一种体验？",
+      "url": "https://www.zhihu.com/answer/2524946651",
+      "summary": "用线性空间二次对偶与泛函说明泛函分析中的对偶结构。"
+    },
+    {
+      "title": "数学中的泛函分析难度有多高？",
+      "url": "https://www.zhihu.com/answer/2538848379",
+      "summary": "比较泛函分析与变分学、谱论、算子代数等方向的难度。"
+    },
+    {
+      "title": "数学的泛函分析应该怎么学？",
+      "url": "https://www.zhihu.com/answer/2543332652",
+      "summary": "从函数空间、算子、线性泛函与无穷维推广系统介绍泛函分析。"
+    },
+    {
+      "title": "什么数学领域研究随尺度变化而变化的性质？",
+      "url": "https://www.zhihu.com/answer/2550036345",
+      "summary": "讨论 C*-代数、Roe 代数等泛函分析对象作为粗等价不变量。"
+    },
+    {
+      "title": "可以留下一个优美的不等式吗？",
+      "url": "https://www.zhihu.com/answer/2604669872",
+      "summary": "在 L^p 空间中陈述并证明 Hölder、Minkowski 等泛函分析基本不等式。"
+    },
+    {
+      "title": "什么是孤子？什么是孤子解？",
+      "url": "https://www.zhihu.com/answer/2611055050",
+      "summary": "用 Lax 对、伪微分算子和算子分数阶构造 KdV hierarchy。"
+    },
+    {
+      "title": "复变函数中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2611158145",
+      "summary": "说明 C*-代数上的 K 理论、算子 K 群与拓扑 K 理论的关系。"
+    },
+    {
+      "title": "张恭庆的《泛函分析》好在哪里？",
+      "url": "https://www.zhihu.com/answer/2611626967",
+      "summary": "解释泛函分析以拓扑线性空间和实际问题为背景的理论体系与应用。"
+    },
+    {
+      "title": "想要自学实变函数与泛函分析该选择哪本教材呢？",
+      "url": "https://www.zhihu.com/answer/2642176896",
+      "summary": "比较该教材与作者此前泛函分析教材的依赖关系和内容安排。"
+    },
+    {
+      "title": "对于金融工程和金融数学，数值计算更有用，还是泛函分析更有用？",
+      "url": "https://www.zhihu.com/answer/2661365044",
+      "summary": "解释泛函分析、算子与函数空间在金融数学上游理论中的作用。"
+    },
+    {
+      "title": "为什么在量子力学一些非平方可积函数可以作为基底？",
+      "url": "https://www.zhihu.com/answer/2661567760",
+      "summary": "使用 Schwartz 函数、对偶空间与 tempered distribution 构造广义函数空间。"
+    },
+    {
+      "title": "在控制、自动化领域，用到的最高深最先进的数学理论工具是什么？控制是否是工科里用到数学最多最深的领域？",
+      "url": "https://www.zhihu.com/answer/2662949362",
+      "summary": "讨论泛函分析、实变与算子理论在控制理论中的应用深度。"
+    },
+    {
+      "title": "分析学方向如何深入学习后续课程？",
+      "url": "https://www.zhihu.com/answer/2677548122",
+      "summary": "正文系统梳理泛函分析的发展、与算子代数和表示论的联系，以及在 PDE 中的应用。"
+    },
+    {
+      "title": "请大神比较一下folland的实分析和rudin的实分析与复分析中的实分析部分？",
+      "url": "https://www.zhihu.com/answer/2701818970",
+      "summary": "正文讨论两书与泛函分析的衔接，并说明 Hilbert 空间 Riesz 定理在 Radon-Nikodym 定理证明中的应用。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2772738612",
+      "summary": "正文把实数视为有理数域上的无限维向量空间，并用 Hamel 基底构造病态可加函数。"
+    },
+    {
+      "title": "2022年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/2794552144",
+      "summary": "正文具体比较标准 Sobolev 空间与各向异性 Sobolev 空间，并说明函数空间选择对适定性和估计设计的影响。"
+    },
+    {
+      "title": "应用数学的研究领域有哪些？",
+      "url": "https://www.zhihu.com/answer/2808858299",
+      "summary": "正文把泛函分析解释为对函数空间和算子映射的研究，并提及度量、导数和对偶性的推广。"
+    },
+    {
+      "title": "泛函分析与微分几何有什么关系？",
+      "url": "https://www.zhihu.com/answer/2841106060",
+      "summary": "正文说明概率空间作为无穷维空间时，需要把泛函分析作为无穷维线性代数来处理切空间与余切空间的关系。"
+    },
+    {
+      "title": "既然勒贝格积分是黎曼积分的改进，那为什么还要学黎曼积分？淘汰黎曼积分，直接学勒贝格积分不好吗？",
+      "url": "https://www.zhihu.com/answer/2848430030",
+      "summary": "正文用向量值积分、算子光滑化和 Stone 定理说明泛函分析中的积分与表示方法。"
+    },
+    {
+      "title": "泛函分析在统计学中有什么应用？",
+      "url": "https://www.zhihu.com/answer/2897790456",
+      "summary": "正文以函数型数据估计为例，说明参数位于无穷维函数空间，并讨论算子理论、估计量弱收敛及两步估计等泛函分析应用。"
+    },
+    {
+      "title": "赋范线性空间中，对任意闭子空间A，是否都存在闭子空间B，使得它们的直和是全空间？",
+      "url": "https://www.zhihu.com/answer/2901783328",
+      "summary": "正文围绕泛函分析中的闭子空间直和问题，介绍补子空间存在性及相关经典结果。"
+    },
+    {
+      "title": "函数和泛函的区别是什么？",
+      "url": "https://www.zhihu.com/answer/2933002860",
+      "summary": "正文把泛函定义为以函数为输入、以数为输出的映射，并讨论其与复合函数的区别。"
+    },
+    {
+      "title": "Hahn Banach定理有哪些精彩的应用？",
+      "url": "https://www.zhihu.com/answer/2980584147",
+      "summary": "正文讲解有界线性泛函的延拓、次线性泛函和 Hahn-Banach 定理的证明，并推导分离超平面定理及其经济学应用，属于泛函分析的核心内容。"
+    },
+    {
+      "title": "二十世纪到现在，数学有什么重要的成果？谁给科普一下?",
+      "url": "https://www.zhihu.com/answer/2981286833",
+      "summary": "正文解释算子和泛函的关系，并介绍 Hilbert 空间、Banach 空间、谱分解和广义函数等泛函分析发展。"
+    },
+    {
+      "title": "如何通俗解释指标定理？",
+      "url": "https://www.zhihu.com/answer/2982001771",
+      "summary": "正文用泛函分析中的 Fredholm 算子指标解释指标定理的分析指标及其解空间维数。"
+    },
+    {
+      "title": "能不能把一切数学分支全部代数化？",
+      "url": "https://www.zhihu.com/answer/2985303312",
+      "summary": "正文解释 C*-代数、自伴算子、Gelfand 变换及泛函演算，属于泛函分析的核心内容。"
+    },
+    {
+      "title": "为啥我觉得测度论干巴巴的好无聊啊？",
+      "url": "https://www.zhihu.com/answer/3003946879",
+      "summary": "正文以 C*-代数、范数、谱和 Gelfand 表示说明泛函分析中的代数与函数空间理论。"
+    },
+    {
+      "title": "现代偏微分方程的学习路径大概是什么呢？",
+      "url": "https://www.zhihu.com/answer/3007138485",
+      "summary": "正文列出线性算子、谱理论以及 Banach 和 Hilbert 空间理论等泛函分析核心内容，并说明其在偏微分方程中的作用。"
+    },
+    {
+      "title": "有没有符合f'(x)=f(x+1)的函数？",
+      "url": "https://www.zhihu.com/answer/3156612640",
+      "summary": "正文定义 Schwartz 函数空间，并通过复合 tan 的映射分析解空间与函数空间之间的对应关系。"
+    },
+    {
+      "title": "有哪些值得数学系本科生一读的经典数学论文？",
+      "url": "https://www.zhihu.com/answer/3230336449",
+      "summary": "正文说明 L2 方法借助泛函分析中的 Hilbert 空间正交分解和 Graph Norm 证明存在性。"
+    },
+    {
+      "title": "能说一本或几本在你在学数学路上对你影响最大的一本书吗？",
+      "url": "https://www.zhihu.com/answer/3243590474",
+      "summary": "正文说明该书用 Hahn-Banach 定理证明 Runge 逼近，体现了泛函分析工具在复分析中的应用。"
+    },
+    {
+      "title": "如何评价「泛函、映射、算子、变换都是函数，是搞数学的人骗普通人的把戏」这一说法？实际情况如何？",
+      "url": "https://www.zhihu.com/answer/3268349392",
+      "summary": "正文说明泛函以函数为自变量、取标量值，并讨论变分法中的泛函与连续函数性质的类比。"
+    },
+    {
+      "title": "想学好研究生泛函分析，需要那些先修课？",
+      "url": "https://www.zhihu.com/answer/3283326294",
+      "summary": "正文讨论 Banach 空间、Hilbert 空间、对偶空间和 Hahn-Banach 延拓等泛函分析的核心内容。"
+    },
+    {
+      "title": "atiyah singer 指标定理的学习路径是怎样的？",
+      "url": "https://www.zhihu.com/answer/3297606749",
+      "summary": "正文以C*-代数短正合列、Fredholm指标和伪微分算子说明指标定理的分析侧框架。"
+    },
+    {
+      "title": "泰勒展开为什么能从一点推整个函数?",
+      "url": "https://www.zhihu.com/answer/3308868712",
+      "summary": "正文把函数视为无穷维空间中的点，以 1、x、x² 等作为基来解释泰勒展开的泛函分析观点。"
+    },
+    {
+      "title": "数学的泛函分析应该怎么学？",
+      "url": "https://www.zhihu.com/answer/3321373552",
+      "summary": "正文系统介绍泛函分析研究函数空间上的泛函、算子与极限，并说明其变分问题和积分方程背景。"
+    },
+    {
+      "title": "研究生pde方向，读研前要学会哪些课程？",
+      "url": "https://www.zhihu.com/answer/3328794322",
+      "summary": "正文强调线性算子、范数、希尔伯特空间和基本定理，实质说明了泛函分析的核心学习内容。"
+    },
+    {
+      "title": "学完泛函分析可以做哪些事情？",
+      "url": "https://www.zhihu.com/answer/3335287542",
+      "summary": "正文以证券定价为例说明连续线性泛函和 Riesz 表现定理在无穷维空间中的应用，属于泛函分析。"
+    },
+    {
+      "title": "请问组合学、图论乃至离散数学领域的国内外知名学者有哪些？",
+      "url": "https://www.zhihu.com/answer/3339455735",
+      "summary": "正文把离散立方体上的 Banach 空间值函数作为研究对象，并讨论向量值泛函不等式。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3344498205",
+      "summary": "正文把微分方程写成无穷维函数空间中的线性算子特征值问题，比较不同空间中的谱拓扑并引出Fredholm积分方程。"
+    },
+    {
+      "title": "目前调和分析研究前景如何 ？",
+      "url": "https://www.zhihu.com/answer/3355109457",
+      "summary": "正文具体区分古典调和分析关注的函数空间分解、刻画与奇异积分算子等，属于泛函分析语境。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/3365050586",
+      "summary": "正文明确用线性泛函、线性映射和有限维对偶空间解释对偶空间概念，属于泛函分析的入门直觉。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/3375778113",
+      "summary": "正文以无穷维空间中的紧性反例说明 weak-* 拓扑和 Banach-Alaoglu 定理，并联系泛函分析中极小元存在性的论证。"
+    },
+    {
+      "title": "泛函分析与微分几何有什么关系？",
+      "url": "https://www.zhihu.com/answer/3377249580",
+      "summary": "正文从函数空间上的函数、线性泛函和变分法说明泛函分析的研究对象与方法。"
+    },
+    {
+      "title": "学习辛几何（symplectic geometry）需要哪些数学基础?",
+      "url": "https://www.zhihu.com/answer/3387245957",
+      "summary": "正文说明 Floer 同调和 J 全纯曲线需要 Sobolev 理论、Fredholm 理论、非线性泛函分析与 Banach 流形。"
+    },
+    {
+      "title": "如何厘清泛函分析的脉络？",
+      "url": "https://www.zhihu.com/answer/3429869037",
+      "summary": "正文以函数空间和算子为核心梳理泛函分析的空间层级、算子分类、几何与演化理论。"
+    },
+    {
+      "title": "数学分析的基本手段有哪些？",
+      "url": "https://www.zhihu.com/answer/3460356920",
+      "summary": "正文说明软分析借助泛函分析、拓扑学和不动点定理在抽象空间中推出结论，涉及泛函分析的方法定位。"
+    },
+    {
+      "title": "你在教材中看到过最长的证明是什么？",
+      "url": "https://www.zhihu.com/answer/3500468785",
+      "summary": "正文回顾交换 C* 代数、极大理想空间和可乘线性泛函，为日冕问题建立泛函分析框架。"
+    },
+    {
+      "title": "学完泛函分析可以做哪些事情？",
+      "url": "https://www.zhihu.com/answer/3561306795",
+      "summary": "正文围绕泛函分析把函数视为点、研究函数空间与算子方程，并联系变分法和偏微分方程展开说明。"
+    },
+    {
+      "title": "为什么rudin实分析里有很多泛函分析的东西?",
+      "url": "https://www.zhihu.com/answer/3616520032",
+      "summary": "正文以 L^p 空间、表示定理和算子谱分解为例，具体说明泛函分析的抽象框架及其实例。"
+    },
+    {
+      "title": "对偶空间的起源是什么？",
+      "url": "https://www.zhihu.com/answer/3619810585",
+      "summary": "正文讨论无内积的赋范空间如何借对偶泛函、弱收敛和弱拓扑建立分析结构。"
+    },
+    {
+      "title": "各种算子理论，包括Koopman算子，还有近年来结合机器学习的算子等，是什么，用来干嘛的，有前途吗？",
+      "url": "https://www.zhihu.com/answer/3619896576",
+      "summary": "正文把 Koopman 算子解释为联系当前观测与下一时刻观测的线性算子，并用它把复杂动力系统转化为可处理的线性问题，属于算子理论而非仅提及名称。"
+    },
+    {
+      "title": "分离的变量为啥是相乘的形式？",
+      "url": "https://www.zhihu.com/answer/3623488396",
+      "summary": "正文把函数视为线性空间中的向量，并讨论微分算子、函数特征向量及解空间基底的观点。"
+    },
+    {
+      "title": "为什么对于无穷维的线性空间需要引入拓扑来讨论？",
+      "url": "https://www.zhihu.com/answer/3629669820",
+      "summary": "正文以有界与无界算子的本质差异说明无穷维泛函分析不能照搬有限维矩阵直觉。"
+    },
+    {
+      "title": "为什么拉格朗日子流形在辛几何中如此重要?",
+      "url": "https://www.zhihu.com/answer/3944331321",
+      "summary": "正文引入Hilbert空间上的对称稠定闭算子，讨论Gelfand-Robbin商、自伴扩张及其Lagrangian图像，属于泛函分析。"
+    },
+    {
+      "title": "可以简明扼要地讲解一下测度论及其意义吗?",
+      "url": "https://www.zhihu.com/answer/4227597836",
+      "summary": "正文从函数空间的完备性出发讨论测度和积分，并明确联系泛函分析中的结果。"
+    },
+    {
+      "title": "我想要未来进行随机分析的相关研究，能否给我一个学习路线 比如需要哪些知识以及参考书?",
+      "url": "https://www.zhihu.com/answer/7252502934",
+      "summary": "正文把Banach、Hilbert和L^p空间及线性泛函分析基础定理列为随机分析所需的泛函分析内容。"
+    },
+    {
+      "title": "为什么高维空间下距离度量逐渐失效？",
+      "url": "https://www.zhihu.com/answer/34008371643",
+      "summary": "正文用有限维与无穷维线性空间中范数所诱导拓扑的差异，讨论度量在高维及无穷维中的意义。"
+    },
+    {
+      "title": "泛函分析的方法能简化数学分析里面哪些题目?",
+      "url": "https://www.zhihu.com/answer/43208987228",
+      "summary": "正文以泛函分析中的共鸣定理解释连续函数傅里叶级数为何可能存在发散点。"
+    },
+    {
+      "title": "大家说一个数学分支很“硬”（比如PDE），或者很“软”（比如代数），这里所谓软硬的区别到底是什么？",
+      "url": "https://www.zhihu.com/answer/79365704078",
+      "summary": "正文比较硬分析中的积分估计与软分析的抽象框架，并以泛函分析、Lax-Milgram 定理和变分形式具体说明这一分析方法。"
+    },
+    {
+      "title": "科研如何做出自己欣赏的工作？",
+      "url": "https://www.zhihu.com/answer/83437712100",
+      "summary": "正文围绕 W^{1,p} Sobolev 函数的延拓区域，讨论延拓算子、对偶条件和 Whitney 延拓，实质涉及函数空间分析。"
+    },
+    {
+      "title": "有哪些数学定理今天看起来很平凡，但在当时的证明却很困难？",
+      "url": "https://www.zhihu.com/answer/113510497708",
+      "summary": "正文以开映射定理和一致有界原理为例，说明 Baire 纲定理在泛函分析证明中的作用。"
+    },
+    {
+      "title": "数学中有哪些表面没有关系但是内在有深刻联系的问题？",
+      "url": "https://www.zhihu.com/answer/114344801381",
+      "summary": "正文用 C* 代数、卷积、对合及其在 Hilbert 空间上的表示构造非交换空间，实质涉及算子代数式的泛函分析工具。"
+    },
+    {
+      "title": "线性代数的本质是什么，它的线性体现在哪？",
+      "url": "https://www.zhihu.com/answer/1892690459647776659",
+      "summary": "正文说明函数空间和序列空间上的线性算子如何延续有限维线性代数，并提及谱定理等泛函分析工具。"
+    },
+    {
+      "title": "研究几何拓扑的人是如何研究 moduli space 或者 teichmuller space 的？",
+      "url": "https://www.zhihu.com/answer/1896604415009465042",
+      "summary": "正文使用无穷维 Sard 定理、Fredholm 算子及其指标来处理 Hilbert 流形之间的映射与模空间维数，属于泛函分析方法的实质应用。"
+    },
+    {
+      "title": "数学中有哪些问题放到更大的空间/对象里解决起来变简单的例子？",
+      "url": "https://www.zhihu.com/answer/1899774061652968375",
+      "summary": "正文在 Sobolev 空间和 L² 空间中构造算子估计，用泛函分析把偏微分方程问题化为不等式。"
+    },
+    {
+      "title": "如何理解拉格朗日力学的初衷？",
+      "url": "https://www.zhihu.com/answer/1913381688890884096",
+      "summary": "正文把泛函、函数空间与对函数求变分作为核心，解释如何从函数空间中的极值导出场方程，实质展开了泛函分析的基本对象。"
+    },
+    {
+      "title": "上海高考作文题「专转传」有哪些有意思的梗？",
+      "url": "https://www.zhihu.com/answer/1915507850979054168",
+      "summary": "正文具体定义 Sobolev、L∞ 与 Hölder 三类赋范函数空间，并询问它们之间的嵌入关系，属于泛函分析中的函数空间与嵌入问题。"
+    },
+    {
+      "title": "明明复变函数更加的复杂且自由度更加的高，为何它比实变函数更易学？",
+      "url": "https://www.zhihu.com/answer/1916182336845886847",
+      "summary": "正文介绍 Lp 空间、范数、Holder 与 Minkowski 不等式、完备性和 Banach 空间，进入泛函分析的预备内容。"
+    },
+    {
+      "title": "我感觉我对数学的求知欲在下降，怎么办？",
+      "url": "https://www.zhihu.com/answer/1916968908222624420",
+      "summary": "正文具体说明泛函分析以无穷维向量和算子组织分析框架。"
+    },
+    {
+      "title": "李普希兹条件为什么能保证ODE解的存在唯一性？Lipschitz条件可否减弱？",
+      "url": "https://www.zhihu.com/answer/1918562807064008125",
+      "summary": "正文把 ODE 解转化为积分算子的不动点，并用 Banach 压缩映射和 Arzelà-Ascoli 定理说明存在性结论。"
+    },
+    {
+      "title": "分析学方向如何深入学习后续课程？",
+      "url": "https://www.zhihu.com/answer/1925584739567403552",
+      "summary": "正文把泛函分析与非线性泛函分析列为分析学主干，讨论无穷维隐函数定理及 Nash-Moser 理论等工具。"
+    },
+    {
+      "title": "17 岁高中生构造反例推翻 Mizohata-Takeuchi 猜想，这项工作的价值和意义有哪些？",
+      "url": "https://www.zhihu.com/answer/1926683968209683909",
+      "summary": "正文在函数空间上用 L^p、L^q 与加权 L^2 范数陈述延拓算子的有界估计和限制性问题。"
+    },
+    {
+      "title": "无穷级数求和从哪一层面破坏了加法的对称性？",
+      "url": "https://www.zhihu.com/answer/1930660386694202718",
+      "summary": "正文用有界与无界算子、算子定义域和范数不等式分析无限级数重排为何失去稳定性。"
+    },
+    {
+      "title": "有哪些用代数方法解决分析问题的有趣例子?",
+      "url": "https://www.zhihu.com/answer/1931661666816337023",
+      "summary": "正文以 Wiener 定理、Fredholm 指标、闭子空间与商空间以及张量幂技巧讨论泛函分析中的代数方法。"
+    },
+    {
+      "title": "分析和拓扑的关系到底有多大？",
+      "url": "https://www.zhihu.com/answer/1932498729472071644",
+      "summary": "正文在函数空间上定义 Toeplitz 与 Fredholm 算子，并以指标定理联系算子分析量与拓扑量。"
+    },
+    {
+      "title": "如何在流形上面做傅里叶分析？",
+      "url": "https://www.zhihu.com/answer/1934981747839312507",
+      "summary": "正文通过特征函数与 L^2 完备正交基讨论函数空间的谱分解和收敛。"
+    },
+    {
+      "title": "泛函分析的精髓、基本套路、用途是什么？",
+      "url": "https://www.zhihu.com/answer/1936737317852255626",
+      "summary": "正文概括泛函分析从具体问题抽取统一框架，并以无穷维线性与非线性理论说明其基本套路和用途。"
+    },
+    {
+      "title": "量子力学中，以算符为自变量的函数为什么可以泰勒展开？",
+      "url": "https://www.zhihu.com/answer/1938361329367888750",
+      "summary": "正文通过谱定理、有界与无界算子和算子函数演算展开泛函分析中的核心方法。"
+    },
+    {
+      "title": "谁可以罗列一下无限维空间具有哪些不同于有限维空间的性质？究竟是什么造成了这些差别?",
+      "url": "https://www.zhihu.com/answer/1945535588783587827",
+      "summary": "正文比较无限维空间中的范数收敛与无界算子，具体讨论泛函分析中的核心性质。"
+    },
+    {
+      "title": "现在数学最前沿研究哪些问题？",
+      "url": "https://www.zhihu.com/answer/1947278068851905970",
+      "summary": "正文说明复 Banach 空间上有界线性算子的不变子空间问题，并比较有限维与无限维泛函分析情形。"
+    },
+    {
+      "title": "数学中有哪些问题放到更大的空间/对象里解决起来变简单的例子？",
+      "url": "https://www.zhihu.com/answer/1950719251284472515",
+      "summary": "正文以狄利克雷能量泛函为例，讲解变分问题的泛函定义、直接法及弱解存在性，属于泛函分析。"
+    },
+    {
+      "title": "最小二乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1950856474285814245",
+      "summary": "正文使用希尔伯特空间、值域、正交补与伴随算子重构最小二乘问题，属于泛函分析方法的展开。"
+    },
+    {
+      "title": "如何证明下面这个普普通通的积分不等式?",
+      "url": "https://www.zhihu.com/answer/1952539955663470981",
+      "summary": "正文在 L² 函数空间上研究积分算子、算子范数、自伴性和希尔伯特算子。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/1968730414249117411",
+      "summary": "正文从线性泛函和结构对应系统解释有限维对偶空间及零化子、商空间关系。"
+    },
+    {
+      "title": "勒让德多项式的意义？",
+      "url": "https://www.zhihu.com/answer/1976781741302772973",
+      "summary": "正文从泛函分析视角说明勒让德多项式构成正交完备函数系，可展开球面上的轴对称平方可积函数。"
+    },
+    {
+      "title": "矩阵是线性代数的核心吗？我是否可以这样理解线性代数？",
+      "url": "https://www.zhihu.com/answer/1980328511689475452",
+      "summary": "正文说明无限维空间中矩阵乘法需要收敛性，并指出必须借助范数和泛函分析处理算子。"
+    },
+    {
+      "title": "为什么对于无穷维的线性空间需要引入拓扑来讨论？",
+      "url": "https://www.zhihu.com/answer/1984535009391038976",
+      "summary": "正文讨论无穷维空间中强拓扑、弱拓扑和弱*拓扑在收敛性与紧致性之间的取舍，属于泛函分析的核心议题。"
+    },
+    {
+      "title": "数学中的泛函分析难度有多高？",
+      "url": "https://www.zhihu.com/answer/1985454101018998485",
+      "summary": "正文以课程难度和学习方式为核心讨论泛函分析，并说明其所需基础。"
+    },
+    {
+      "title": "数学物理方程怎么那么难？",
+      "url": "https://www.zhihu.com/answer/1985879802742321818",
+      "summary": "正文用自伴算子、谱测度和谱分解建立泛函分析框架，并据此处理微分算子。"
+    },
+    {
+      "title": "是不是所有的线性变换都有对应的矩阵？",
+      "url": "https://www.zhihu.com/answer/1988398142350182316",
+      "summary": "正文进一步讨论无限维空间中的 Hamel 基、Schauder 基与算子表示困难，展开泛函分析所处理的无限维问题。"
+    },
+    {
+      "title": "黎曼猜想为什么难以解决？",
+      "url": "https://www.zhihu.com/answer/1991726147512316011",
+      "summary": "正文讨论用希尔伯特空间上的自伴算子谱解释 Zeta 零点，属于泛函分析中算子谱方法的应用。"
+    },
+    {
+      "title": "分析为什么不被看作代数呢?",
+      "url": "https://www.zhihu.com/answer/1994085353984917603",
+      "summary": "正文讨论巴拿赫空间、希尔伯特空间及算子，并以投影定理说明泛函分析对象。"
+    },
+    {
+      "title": "如果让你选择一条冷门，简单易懂且优美的数学结论，你会选择哪条？",
+      "url": "https://www.zhihu.com/answer/2001292719184704570",
+      "summary": "正文在 Banach 空间上陈述山路定理，说明 Palais-Smale 紧性条件及临界值的存在。"
+    },
+    {
+      "title": "如何通俗解释指标定理？",
+      "url": "https://www.zhihu.com/answer/2002268393487762557",
+      "summary": "正文具体讨论 Fredholm 算子的核空间、余核空间及其有限维指标，属于泛函分析中的算子理论。"
+    },
+    {
+      "title": "学习数学时，什么时候该停止考虑“几何意义”?",
+      "url": "https://www.zhihu.com/answer/2011461338786992257",
+      "summary": "正文说明泛函分析把函数视为向量，以内积刻画函数之间的正交关系。"
+    },
+    {
+      "title": "如何看待丘成桐曾说：世界上所有的数学都是在微积分和线性代数上的变化?",
+      "url": "https://www.zhihu.com/answer/2019131220915680113",
+      "summary": "正文具体说明泛函分析把函数视为空间中的点，并把微积分、谱理论和正交分解推广到函数空间。"
+    },
+    {
+      "title": "学习数学时，什么时候该停止考虑“几何意义”?",
+      "url": "https://www.zhihu.com/answer/2021670558799021568",
+      "summary": "正文系统介绍函数空间、线性泛函、弱导数和伴随算子等泛函分析内容。"
+    },
+    {
+      "title": "如果让你讲泛函分析，你会怎么讲？",
+      "url": "https://www.zhihu.com/answer/2022603580406859391",
+      "summary": "正文按有界与无界线性算子、算子半群、非线性算子和泛函微积分组织泛函分析的学习路径。"
+    },
+    {
+      "title": "你觉得有什么数学定理中含有哲理？",
+      "url": "https://www.zhihu.com/answer/2025038410214064557",
+      "summary": "正文具体讨论线性泛函延拓、Dirac δ 作为连续线性泛函、弱收敛及凸集超平面分离。"
+    },
+    {
+      "title": "数学中，「代数」和「分析」的方法分别是什么？有什么不同？",
+      "url": "https://www.zhihu.com/answer/2028602986054558333",
+      "summary": "正文说明希尔伯特如何把函数空间、微分算子和微分方程重写为向量空间及算子问题。"
+    },
+    {
+      "title": "数学中的「分析」是什么意思？",
+      "url": "https://www.zhihu.com/answer/2032255206692479548",
+      "summary": "正文说明泛函分析把函数空间视为几何对象，研究无限维空间中的连续、紧与可逆算子。"
+    },
+    {
+      "title": "证明完备性有没有套路可言？",
+      "url": "https://www.zhihu.com/answer/2032417728112367428",
+      "summary": "正文系统讨论泛函分析中闭算子、图范数、闭子空间和完备性的证明套路。"
+    },
+    {
+      "title": "测度论和泛函分析有什么关系？",
+      "url": "https://www.zhihu.com/answer/2032888788322612002",
+      "summary": "正文系统讨论函数空间、连续线性泛函、算子、对偶和谱，并说明它们与测度论的结合。"
+    },
+    {
+      "title": "把[0，1]这个区间里的所有实数相加，得出的结果是无穷大吗？",
+      "url": "https://www.zhihu.com/answer/2034276129486403002",
+      "summary": "正文用无限维矩阵、算子定义域以及 Hamel/Schauder 基说明泛函分析中必须补充拓扑和收敛结构。"
+    },
+    {
+      "title": "如何理解开集、闭集、有界、完全有界、紧集、列紧集、自列紧集、稠密、完备等概念，学泛函，被这些概念绕晕？",
+      "url": "https://www.zhihu.com/answer/2035002239228585697",
+      "summary": "正文以一致有界、开映射、闭图像等定理说明泛函分析如何依赖完备性、紧性和稠密性。"
+    },
+    {
+      "title": "为什么对于无穷维的线性空间需要引入拓扑来讨论？",
+      "url": "https://www.zhihu.com/answer/2035038060119848624",
+      "summary": "正文讨论连续线性泛函、对偶空间以及 Hahn-Banach 等泛函分析核心对象为何依赖拓扑。"
+    },
+    {
+      "title": "为什么现在数学系普遍不学椭圆函数、超几何函数等特殊函数？",
+      "url": "https://www.zhihu.com/answer/2036064238700123425",
+      "summary": "正文说明结构主义转向把具体函数纳入函数空间，并由此引出泛函分析。"
+    },
+    {
+      "title": "俄罗斯的数学教育为什么那么强大？",
+      "url": "https://www.zhihu.com/answer/2036377147053446743",
+      "summary": "正文说明盖尔范德以巴拿赫代数联系多个分析领域，属于泛函分析发展。"
+    },
+    {
+      "title": "算符 这个概念是数学家提出来的？还是物理学家提出来的？",
+      "url": "https://www.zhihu.com/answer/2044729101253080573",
+      "summary": "正文比较微分算子、积分算子与线性变换，并用矩阵、特征函数和积分方程说明现代算子概念的统一，属于泛函分析视角。"
+    },
+    {
+      "title": "如何求1/(2+n²)的无穷级数?",
+      "url": "https://www.zhihu.com/answer/2054232018779641117",
+      "summary": "正文把级数表示为 Laplacian 预解式的迹，并使用谱定理、算子半群及其迹展开求和。"
+    },
+    {
+      "title": "1/2阶导数是什么？",
+      "url": "https://www.zhihu.com/answer/2057130089268225956",
+      "summary": "正文讨论无限维线性算子的函数演算、定义域、谱与自伴性，说明这些条件决定分数阶导数的唯一性。"
+    },
+    {
+      "title": "为什么微积分、线性代数学起来这么割裂，用起来却是统一的，如何克服这一问题？",
+      "url": "https://www.zhihu.com/answer/2068567110083680042",
+      "summary": "正文说明泛函分析如何以函数空间、算子和谱统一微积分、线性代数、概率与微分方程。"
+    },
+    {
+      "title": "如何构建一套完整的数学知识体系？",
+      "url": "https://www.zhihu.com/answer/2070195997192479867",
+      "summary": "正文比较有限维向量与无穷维函数空间，讨论巴拿赫空间、希尔伯特空间及其在信号处理中的应用。"
+    },
+    {
+      "title": "2.3 微积分的进化（3）——挤挤更健康",
+      "url": "https://zhuanlan.zhihu.com/p/20521510",
+      "summary": "正文从有限维内积空间推广到无穷维，讨论对偶空间、弱收敛、弱紧性和 Riesz 表示。"
+    },
+    {
+      "title": "2.4 微积分的进化（4）——死道友不死贫道",
+      "url": "https://zhuanlan.zhihu.com/p/20560536",
+      "summary": "正文以紧支撑光滑函数为检验函数，通过分部积分定义分布及其无穷阶分布导数。"
+    },
+    {
+      "title": "2.6* 微积分的进化（6）——高维光滑函数的超进化：条条大道通罗马",
+      "url": "https://zhuanlan.zhihu.com/p/20641394",
+      "summary": "正文用 L^2 闭包、弱导数与绝对连续线共同刻画 Sobolev 空间，并讨论光滑逼近，属于函数空间与泛函分析方法。"
+    },
+    {
+      "title": "2.7* 微积分的进化（7）——从牛顿到庞加莱",
+      "url": "https://zhuanlan.zhihu.com/p/20704015",
+      "summary": "正文以 Sobolev 空间的积分不等式为主线，并说明 Poincare 不等式在函数空间研究中的核心地位。"
+    },
+    {
+      "title": "2.8* 微积分的进化（8）——一人得道 鸡犬上天",
+      "url": "https://zhuanlan.zhihu.com/p/20729644",
+      "summary": "正文以 Poincare、Sobolev-Poincare、Gagliardo-Nirenberg-Sobolev 不等式和 Sobolev 嵌入为主线，讲解 W^{1,p} 函数空间及其正则性提升。"
+    },
+    {
+      "title": "2.9* 微积分的进化（9）——进化仍在继续",
+      "url": "https://zhuanlan.zhihu.com/p/20826548",
+      "summary": "正文概述 Sobolev 空间在偏微分方程、共形映射和几何拓扑中的应用，体现函数空间理论的分析作用。"
+    },
+    {
+      "title": "有限元基础——从入门到放弃",
+      "url": "https://zhuanlan.zhihu.com/p/21377606",
+      "summary": "正文借助泛函、弱上半连续、对偶空间和G导数说明变分问题解的存在性与必要条件。"
+    },
+    {
+      "title": "构造量子场论",
+      "url": "https://zhuanlan.zhihu.com/p/21721035",
+      "summary": "正文在 Schwartz 函数与分布空间上讨论对偶、Frechet 拓扑、连续正定特征泛函及算子值分布。"
+    },
+    {
+      "title": "一篇用来劝退的伪安利文（上）",
+      "url": "https://zhuanlan.zhihu.com/p/22311037",
+      "summary": "正文概述泛函分析如何把函数视为线性空间元素，并借助范数、内积和完备性研究函数。"
+    },
+    {
+      "title": "浅谈条件期望",
+      "url": "https://zhuanlan.zhihu.com/p/23670286",
+      "summary": "正文用 L2 子空间上的正交投影证明条件期望存在，并以 L2 变量逼近处理 L1 情形，属于泛函分析方法。"
+    },
+    {
+      "title": "测度论（一）",
+      "url": "https://zhuanlan.zhihu.com/p/23977693",
+      "summary": "正文讨论 L^p 空间、Riesz 表示定理和条件期望算子，把测度与积分用于泛函分析框架。"
+    },
+    {
+      "title": "线性代数在数学领域中的一些微小应用例子",
+      "url": "https://zhuanlan.zhihu.com/p/24095655",
+      "summary": "正文用 Hilbert 空间上的 Riesz 表示定理说明连续线性泛函可由内积表示，并讨论对偶空间思维。"
+    },
+    {
+      "title": "我喜欢的一些简洁明快的证明",
+      "url": "https://zhuanlan.zhihu.com/p/24546623",
+      "summary": "正文在 Banach 空间及其连续线性泛函空间中证明单位球的弱星紧性。"
+    },
+    {
+      "title": "专栏：“分析的那些事”总纲",
+      "url": "https://zhuanlan.zhihu.com/p/25933450",
+      "summary": "正文以范数空间、度量空间、空间完备性和核心定理组织泛函分析的整体学习框架。"
+    },
+    {
+      "title": "0.2 泛函分析简史(1)",
+      "url": "https://zhuanlan.zhihu.com/p/25935855",
+      "summary": "正文以积分方程和抽象空间的发展为主线，梳理泛函分析从具体问题到公理化理论的形成。"
+    },
+    {
+      "title": "0.3 泛函分析简史（2）：泛函分析的名字怎么来的？",
+      "url": "https://zhuanlan.zhihu.com/p/25960075",
+      "summary": "正文从曲面面积最小问题解释泛函是输入函数并输出数值的对象，并以它说明变分法。"
+    },
+    {
+      "title": "泛函分析简史（3）： 继承者们！",
+      "url": "https://zhuanlan.zhihu.com/p/26112911",
+      "summary": "正文从希尔伯特双线性形式、ℓ²与L²空间到巴拿赫空间上的算子，梳理泛函分析研究函数空间及映射的主线。"
+    },
+    {
+      "title": "（I）Banach空间和不动点定理 （1）",
+      "url": "https://zhuanlan.zhihu.com/p/26346061",
+      "summary": "正文以赋范线性空间、连续函数空间和L^p空间为主线展开泛函分析的基础概念。"
+    },
+    {
+      "title": "（I）Banach空间和不动点定理 2 : 不动点定理和钟摆问题",
+      "url": "https://zhuanlan.zhihu.com/p/26365534",
+      "summary": "正文在度量空间框架中陈述并证明Banach不动点定理，再将其用于存在性问题。"
+    },
+    {
+      "title": "（I）Banach空间和不动点定理 3: 紧性",
+      "url": "https://zhuanlan.zhihu.com/p/26519111",
+      "summary": "正文从泛函分析视角说明紧性如何帮助处理无限维空间中的连续泛函、存在性与最值问题。"
+    },
+    {
+      "title": "（I）Banach空间和不动点定理 4: Schauder 不动点及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/26651162",
+      "summary": "正文在Banach空间框架下讨论紧算子、Schauder不动点及其在积分方程和微分方程中的应用，具体展开泛函分析内容。"
+    },
+    {
+      "title": "剖析Minkowski不等式的证明",
+      "url": "https://zhuanlan.zhihu.com/p/26693450",
+      "summary": "正文围绕 Lp 空间范数的 Minkowski 不等式给出代数证明，并通过切平面直观说明 Hölder 不等式，属于泛函分析核心内容。"
+    },
+    {
+      "title": "无穷维统计模型的数学基础（1.1）：非参数统计模型简介",
+      "url": "https://zhuanlan.zhihu.com/p/26647952",
+      "summary": "正文以 L2、ℓ2 函数空间和概率分布距离为例，说明非参数统计必须使用泛函分析工具。"
+    },
+    {
+      "title": "泛函分析（一）",
+      "url": "https://zhuanlan.zhihu.com/p/25472639",
+      "summary": "正文系统梳理函数空间、有界线性算子、弱收敛及泛函分析三大定理，构成泛函分析的基础讲解。"
+    },
+    {
+      "title": "2 希尔伯特空间：序言",
+      "url": "https://zhuanlan.zhihu.com/p/27016104",
+      "summary": "正文把投影定理、Riesz 表示定理和 Lax-Milgram 定理列为泛函分析的核心结果。"
+    },
+    {
+      "title": "一些简单的小结论",
+      "url": "https://zhuanlan.zhihu.com/p/27081423",
+      "summary": "正文系统整理距离空间、赋范线性空间、有界线性算子及谱理论，构成泛函分析的核心内容。"
+    },
+    {
+      "title": "一些和数学分析有些关系的杂记",
+      "url": "https://zhuanlan.zhihu.com/p/27156295",
+      "summary": "正文在 Banach 空间范畴中讨论正合列、对偶算子、Hahn-Banach 定理与自反性。"
+    },
+    {
+      "title": "5-6月学习小结",
+      "url": "https://zhuanlan.zhihu.com/p/27450247",
+      "summary": "正文从 Sobolev 弱解和算子半群讲到 Fredholm 算子、C*-代数、谱测度与谱分解。"
+    },
+    {
+      "title": "有穷维和无穷维空间的差别——从\"B-W\"定理到Arzelà–Ascoli定理",
+      "url": "https://zhuanlan.zhihu.com/p/28925945",
+      "summary": "正文比较有限维与无穷维空间，讨论范数、有界序列和 Arzelà-Ascoli 定理。"
+    },
+    {
+      "title": "分析笔记-Schwartz空间的Fourier变换理论",
+      "url": "https://zhuanlan.zhihu.com/p/29014123",
+      "summary": "正文在函数空间、半范数、对偶空间和有界线性泛函框架下处理广义函数及其 Fourier 变换。"
+    },
+    {
+      "title": "笔记：变分法-从Poisson方程谈起",
+      "url": "https://zhuanlan.zhihu.com/p/29420890",
+      "summary": "正文在函数空间中定义能量泛函，并用方向导数、范数和 Gateaux 微分验证泛函导数的定义。"
+    },
+    {
+      "title": "非线性科学中的现代数学方法：综述",
+      "url": "https://zhuanlan.zhihu.com/p/29474510",
+      "summary": "正文说明无穷维泛函优化仍适用 Kuhn-Tucker 定理，并援引 Hahn-Banach 定理与 Frechet 微分等泛函分析工具。"
+    },
+    {
+      "title": "泛函分析观点下的随机积分 (一)：L2鞅与变差",
+      "url": "https://zhuanlan.zhihu.com/p/32301412",
+      "summary": "正文以L2有界鞅和H2空间的内积、等距结构构造Itô积分理论，明确采用泛函分析框架。"
+    },
+    {
+      "title": "泛函分析观点下的随机积分 (二)：Itô积分与等距",
+      "url": "https://zhuanlan.zhihu.com/p/32447056",
+      "summary": "正文从泛函分析视角利用 Riesz 表示定理和特征性质构造 Itô 积分，并证明其为线性等距。"
+    },
+    {
+      "title": "泛函分析观点下的随机积分 (三)：局部鞅与半鞅",
+      "url": "https://zhuanlan.zhihu.com/p/32659917",
+      "summary": "正文在 L2 和 H2 等函数空间中构造随机积分，并利用停时截断和等距映射扩展积分理论。"
+    },
+    {
+      "title": "变分法与分析力学的基本知识",
+      "url": "https://zhuanlan.zhihu.com/p/32821695",
+      "summary": "正文把作用量视为以函数为自变量的泛函，并以泛函变分推导欧拉-拉格朗日方程。"
+    },
+    {
+      "title": "泛函分析，九阴真经",
+      "url": "https://zhuanlan.zhihu.com/p/33413827",
+      "summary": "正文以度量空间、赋范空间和内积空间为线索，讨论算子、泛函、对偶空间与谱分解，系统介绍泛函分析的核心对象。"
+    },
+    {
+      "title": "狄拉克δ函数",
+      "url": "https://zhuanlan.zhihu.com/p/35803345",
+      "summary": "正文明确把狄拉克 δ 函数定位为泛函分析中的广义函数或分布，并用函数列和积分给出其严格描述。"
+    },
+    {
+      "title": "非线性泛函分析导论（一）:变分法与Sobolev空间",
+      "url": "https://zhuanlan.zhihu.com/p/34483954",
+      "summary": "正文以泛函、极值问题、F-微分和临界点理论组织非线性泛函分析的入门讨论。"
+    },
+    {
+      "title": "非线性泛函分析导论（二）：变分问题的拓扑结构",
+      "url": "https://zhuanlan.zhihu.com/p/37695456",
+      "summary": "正文讨论 Sobolev 空间、泛函临界点、Ekeland 变分原理与非线性泛函分析。"
+    },
+    {
+      "title": "非线性泛函分析导论（序言）：实践中的变分问题",
+      "url": "https://zhuanlan.zhihu.com/p/37779109",
+      "summary": "正文概述非线性泛函分析的核心主题、前置理论及其从线性算子向非线性问题的发展。"
+    },
+    {
+      "title": "变分法理解1——泛函简介",
+      "url": "https://zhuanlan.zhihu.com/p/41573146",
+      "summary": "正文定义以函数为输入、以标量为输出的泛函，并区分泛函、函数与算子，属于泛函分析的基础概念。"
+    },
+    {
+      "title": "变分法理解2——基本方法",
+      "url": "https://zhuanlan.zhihu.com/p/41810184",
+      "summary": "正文以函数类、可取函数和极值函数为核心对象，系统讨论泛函极值问题及变分的求法。"
+    },
+    {
+      "title": "变分法理解3——例题求解",
+      "url": "https://zhuanlan.zhihu.com/p/42202045",
+      "summary": "正文以泛函和欧拉-拉格朗日方程为核心，完整推导最短路径与最速降线两个变分问题。"
+    },
+    {
+      "title": "度量空间、赋范线性空间和拓扑空间的辨析",
+      "url": "https://zhuanlan.zhihu.com/p/42381836",
+      "summary": "正文说明赋范线性空间的加法、数乘和范数公理，并比较距离、范数及相应收敛性。"
+    },
+    {
+      "title": "MP3：SO(2)的求导：算子谱分析和复结构",
+      "url": "https://zhuanlan.zhihu.com/p/43986106",
+      "summary": "正文把求导视为函数空间上的线性算子，并通过算子谱问题分析微分方程。"
+    },
+    {
+      "title": "MP4：对偶、逆变与协变",
+      "url": "https://zhuanlan.zhihu.com/p/43749205",
+      "summary": "正文定义对偶空间与线性泛函，并用双线性映射、对偶基和 Riesz 引理讨论自对偶结构。"
+    },
+    {
+      "title": "MP38：泛函分析与量子力学",
+      "url": "https://zhuanlan.zhihu.com/p/46403590",
+      "summary": "正文把函数空间、线性算子和算子范数作为主线，介绍泛函分析的基本对象与方法。"
+    },
+    {
+      "title": "从共鸣定理谈起",
+      "url": "https://zhuanlan.zhihu.com/p/48490417",
+      "summary": "正文从赋范空间和映射集合的视角讨论有界线性算子，并围绕共鸣定理展开泛函分析。"
+    },
+    {
+      "title": "从闭图像定理看算子的有界和连续",
+      "url": "https://zhuanlan.zhihu.com/p/49276709",
+      "summary": "正文围绕闭图像定理比较闭算子与连续线性算子，属于泛函分析中的算子理论。"
+    },
+    {
+      "title": "1维上的Malliavin分析初步",
+      "url": "https://zhuanlan.zhihu.com/p/49269815",
+      "summary": "正文讨论弱导数、Sobolev空间、伴随算子和半群，并据此证明Poincare不等式。"
+    },
+    {
+      "title": "球谐光照与PRT学习笔记（三）：球谐函数",
+      "url": "https://zhuanlan.zhihu.com/p/50208005",
+      "summary": "正文把函数看作无穷维向量，以函数内积、正交基和投影展开函数，展开函数空间中的分析方法。"
+    },
+    {
+      "title": "量子力学杂谈——广义函数与场算符",
+      "url": "https://zhuanlan.zhihu.com/p/55000537",
+      "summary": "正文把广义函数定义为基本函数空间上的连续线性泛函，并讨论弱极限与广义函数运算，属于泛函分析。"
+    },
+    {
+      "title": "调和分析（一）",
+      "url": "https://zhuanlan.zhihu.com/p/49211182",
+      "summary": "正文研究函数空间上的有界线性算子、插值和奇异积分算子，属于泛函分析的核心内容。"
+    },
+    {
+      "title": "调和分析中的迁移法 （1）",
+      "url": "https://zhuanlan.zhihu.com/p/55229617",
+      "summary": "正文在 Lp 函数空间上研究群表示算子和卷积算子的有界性，属于泛函分析中的算子范数问题。"
+    },
+    {
+      "title": "有限元分析（FEA）是个什么东东",
+      "url": "https://zhuanlan.zhihu.com/p/56326567",
+      "summary": "正文用基函数张成有限维函数空间，并通过内积投影近似原函数和微分方程解。"
+    },
+    {
+      "title": "MP101：泛函分析补习班(5)：算子半群",
+      "url": "https://zhuanlan.zhihu.com/p/56266672",
+      "summary": "正文在泛函分析框架下定义强连续算子半群、无穷小生成元及Hille-Yosida定理。"
+    },
+    {
+      "title": "量子力学杂谈——自伴扩张",
+      "url": "https://zhuanlan.zhihu.com/p/57593772",
+      "summary": "正文在泛函分析中讲解闭对称算子的亏指数、自伴扩张及Friedrichs扩张定理。"
+    },
+    {
+      "title": "谱积分以及谱分解的理解",
+      "url": "https://zhuanlan.zhihu.com/p/58996259",
+      "summary": "正文从内积、投影、共轭算子和谱测度引出谱分解，系统梳理泛函分析中希尔伯特空间算子的研究路线。"
+    },
+    {
+      "title": "量子力学杂谈——Stone定理",
+      "url": "https://zhuanlan.zhihu.com/p/60336596",
+      "summary": "正文在希尔伯特空间上讨论酉算子、强收敛和 Stone 定理，属于泛函分析内容。"
+    },
+    {
+      "title": "可逆ResNet：极致的暴力美学",
+      "url": "https://zhuanlan.zhihu.com/p/60479586",
+      "summary": "正文用压缩映射、Cauchy 列与巴拿赫不动点定理证明逆迭代的收敛性。"
+    },
+    {
+      "title": "数学分析笔记（九）——连续映射的一般理论",
+      "url": "https://zhuanlan.zhihu.com/p/56222743",
+      "summary": "正文在完备度量空间中证明压缩映射存在唯一不动点，并讨论迭代收敛速度和参数稳定性。"
+    },
+    {
+      "title": "杨氏不等式，赫尔德不等式，闵可夫斯基不等式的证明",
+      "url": "https://zhuanlan.zhihu.com/p/70315155",
+      "summary": "正文证明杨氏、赫尔德和闵可夫斯基不等式，并据此讨论 L^p 空间的范数与线性结构。"
+    },
+    {
+      "title": "数学基础之Karhunen–Loève展开（专注于Mercer定理的RKHS引论）",
+      "url": "https://zhuanlan.zhihu.com/p/77418542",
+      "summary": "正文用 Riesz 表示定理联系连续线性泛函与再生核，并展开积分算子、Mercer 谱分解及其证明。"
+    },
+    {
+      "title": "【泛函基础 1.1】度量空间的定义",
+      "url": "https://zhuanlan.zhihu.com/p/82233915",
+      "summary": "正文定义度量空间及其公理，并证明数列、序列和函数空间上的度量性质，涉及 Hölder 与 Minkowski 不等式，属于泛函分析基础。"
+    },
+    {
+      "title": "【泛函基础 1.2】开集和闭集",
+      "url": "https://zhuanlan.zhihu.com/p/82329820",
+      "summary": "正文在度量空间中证明开集、闭集、闭包及连续映射等基本定理，属于泛函分析基础。"
+    },
+    {
+      "title": "【泛函基础 1.4】Banach 不动点定理",
+      "url": "https://zhuanlan.zhihu.com/p/86233206",
+      "summary": "正文在完备度量空间中证明 Banach 不动点定理及迭代误差估计，属于泛函分析核心内容。"
+    },
+    {
+      "title": "【泛函基础 2.2】赋范空间和 Banach 空间",
+      "url": "https://zhuanlan.zhihu.com/p/87785242",
+      "summary": "正文系统讲解赋范空间、范数诱导度量、线性算子、完备化与 Schauder 基，属于泛函分析基础内容。"
+    },
+    {
+      "title": "什么是希尔伯特空间？",
+      "url": "https://zhuanlan.zhihu.com/p/88946250",
+      "summary": "正文系统铺设线性空间、内积、柯西列和完备空间的概念链，属于泛函分析中函数空间的基础定义。"
+    },
+    {
+      "title": "【泛函基础 2.4】有界线性算子",
+      "url": "https://zhuanlan.zhihu.com/p/90075848",
+      "summary": "正文系统讲解赋范空间之间的线性算子、算子范数、有界性、连续性与延拓。"
+    },
+    {
+      "title": "泛函分析学习笔记 I：线性算子",
+      "url": "https://zhuanlan.zhihu.com/p/90734643",
+      "summary": "正文系统讲解泛函分析中的线性算子及其连续性和有界性，并补全相关定义与定理证明。"
+    },
+    {
+      "title": "【泛函基础 3.1】内积空间",
+      "url": "https://zhuanlan.zhihu.com/p/91201310",
+      "summary": "正文系统讲解内积空间的定义、范数、不等式、连续性和完备化等泛函分析基础。"
+    },
+    {
+      "title": "fluid(流） 方法图像配准简介",
+      "url": "https://zhuanlan.zhihu.com/p/90593936",
+      "summary": "正文用Sobolev空间的范数、对偶空间分解和Green函数说明速度场的平滑约束。"
+    },
+    {
+      "title": "【泛函基础 3.2】 正交补及正交投影",
+      "url": "https://zhuanlan.zhihu.com/p/91269948",
+      "summary": "正文在内积空间和Hilbert空间中讲解正交补、最佳逼近与完全集，并给出相关性质的证明。"
+    },
+    {
+      "title": "泛函分析学习笔记 V：共轭空间 & 自反空间",
+      "url": "https://zhuanlan.zhihu.com/p/92483203",
+      "summary": "正文定义共轭空间、共轭算子和弱收敛等，并讨论相关定理，属于泛函分析的核心内容。"
+    },
+    {
+      "title": "线性算子的谱理解之一：谱定义的理解",
+      "url": "https://zhuanlan.zhihu.com/p/93888049",
+      "summary": "正文在有界线性算子框架下系统辨析正则点、谱点、近似谱和剩余谱，属于泛函分析内容。"
+    },
+    {
+      "title": "【泛函基础 4.1】Hahn-Bannach 定理",
+      "url": "https://zhuanlan.zhihu.com/p/93694399",
+      "summary": "正文系统陈述并证明 Hahn-Banach 定理及其保范延拓、分离点和共轭算子推论，属于泛函分析核心内容。"
+    },
+    {
+      "title": "偏微分方程笔记(14)——Banach空间与Hilbert空间简介",
+      "url": "https://zhuanlan.zhihu.com/p/97360087",
+      "summary": "正文以范数、完备性、有界线性算子和对偶空间等概念介绍泛函分析基础。"
+    },
+    {
+      "title": "Baire纲定理和泛函分析基本定理（2）（开映射定理）",
+      "url": "https://zhuanlan.zhihu.com/p/97351494",
+      "summary": "正文利用Baire纲定理证明Banach空间间满射有界线性算子的开映射定理，并推出逆算子定理。"
+    },
+    {
+      "title": "偏微分方程笔记(15)——Lp空间, Hölder空间, 磨光子",
+      "url": "https://zhuanlan.zhihu.com/p/97713317",
+      "summary": "正文系统定义 Lp 与 Hölder 函数空间及其范数，并用完备性证明研究函数空间结构。"
+    },
+    {
+      "title": "【泛函基础 4.3】强收敛与弱收敛",
+      "url": "https://zhuanlan.zhihu.com/p/97442266",
+      "summary": "正文系统讲解赋范空间中的强收敛、弱收敛及其等价条件，属于泛函分析核心内容。"
+    },
+    {
+      "title": "偏微分方程笔记(16)——弱导数、Sobolev空间",
+      "url": "https://zhuanlan.zhihu.com/p/98143530",
+      "summary": "正文系统定义弱导数、弱导数唯一性及Sobolev空间中的收敛，属于泛函分析中的函数空间理论。"
+    },
+    {
+      "title": "泛函分析期末总结(已凉)",
+      "url": "https://zhuanlan.zhihu.com/p/99125898",
+      "summary": "正文按章节汇总 Hahn-Banach、一致有界、开映射、弱拓扑、Lp空间和算子谱等泛函分析核心定理。"
+    },
+    {
+      "title": "【泛函基础】复习",
+      "url": "https://zhuanlan.zhihu.com/p/100075509",
+      "summary": "正文概述从度量空间到赋范、Banach、内积和Hilbert空间，并说明算子与泛函的研究对象。"
+    },
+    {
+      "title": "泛函分析笔记（1）距离空间的基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/104933396",
+      "summary": "正文从距离公理出发系统讨论距离空间、函数空间中的收敛及其基本性质。"
+    },
+    {
+      "title": "从点列收敛问题看泛函分析的内容",
+      "url": "https://zhuanlan.zhihu.com/p/104003128",
+      "summary": "正文从各种收敛概念的共同空间框架说明泛函分析如何统一分析问题。"
+    },
+    {
+      "title": "无限维赋范线性空间与有限维的区别",
+      "url": "https://zhuanlan.zhihu.com/p/105887214",
+      "summary": "正文系统讨论无限维赋范空间中的列紧性、弱收敛、完备性和补空间，是泛函分析的核心内容。"
+    },
+    {
+      "title": "泛函分析笔记（19）对偶空间与伴随算子",
+      "url": "https://zhuanlan.zhihu.com/p/108388982",
+      "summary": "正文系统讲解有界线性泛函构成的对偶空间、二次对偶与典范映射，属于泛函分析的核心内容。"
+    },
+    {
+      "title": "什么是线性空间的对偶空间？",
+      "url": "https://zhuanlan.zhihu.com/p/109065073",
+      "summary": "正文从线性函数定义对偶空间，给出其对偶基并证明有限维对偶空间与原空间维数相同，属于泛函分析的基础内容。"
+    },
+    {
+      "title": "深度科普|从线性代数到量子力学(7)：当函数变身向量",
+      "url": "https://zhuanlan.zhihu.com/p/105460303",
+      "summary": "正文在图示化推导中构造无穷维函数向量空间，并讨论其内积与正交基底。"
+    },
+    {
+      "title": "希尔伯特空间",
+      "url": "https://zhuanlan.zhihu.com/p/113197869",
+      "summary": "正文通过距离、范数、内积和完备性定义函数空间，直接讨论泛函分析基础。"
+    },
+    {
+      "title": "Malliavin 分析（一）",
+      "url": "https://zhuanlan.zhihu.com/p/110868603",
+      "summary": "正文系统使用稠定闭算子、图模、Banach 空间和算子半群，构造并研究 Malliavin 分析的泛函框架。"
+    },
+    {
+      "title": "分析力学笔记（n）最速降线与变分法",
+      "url": "https://zhuanlan.zhihu.com/p/123319444",
+      "summary": "正文从函数到标量的映射定义泛函，并在泛函空间中讨论扰动和极值。"
+    },
+    {
+      "title": "形变定理和山路引理",
+      "url": "https://zhuanlan.zhihu.com/p/137244997",
+      "summary": "正文以实泛函、导映射、Palais-Smale条件和临界值为基础，展开泛函分析中的形变定理与山路引理。"
+    },
+    {
+      "title": "浅谈变分原理",
+      "url": "https://zhuanlan.zhihu.com/p/139018146",
+      "summary": "正文把函数映射到定积分极值，讨论泛函的变分、Euler-Lagrange 方程及其应用，属于变分法与泛函分析的基础内容。"
+    },
+    {
+      "title": "谢惠民习题讲义部分答案以及数分讲义习题整理",
+      "url": "https://zhuanlan.zhihu.com/p/139608291",
+      "summary": "正文在L^p函数空间中给出Minkowski三角不等式，并借助Holder不等式完成范数证明。"
+    },
+    {
+      "title": "张量代数 - 何为张量？",
+      "url": "https://zhuanlan.zhihu.com/p/141629622",
+      "summary": "正文定义线性函数、证明对偶空间基，并讨论线性泛函及其表示。"
+    },
+    {
+      "title": "Banach不动点定理及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/142563803",
+      "summary": "正文在完备度量空间中证明压缩映射存在唯一不动点，并讨论映射与函数空间，属于泛函分析。"
+    },
+    {
+      "title": "变分法（一）泛函极值必要条件、拉格朗日引理、欧拉方程",
+      "url": "https://zhuanlan.zhihu.com/p/144470526",
+      "summary": "正文定义泛函及其连续性、变分和极值，给出变分法的基本泛函分析框架。"
+    },
+    {
+      "title": "泛函分析笔记02-紧和列紧",
+      "url": "https://zhuanlan.zhihu.com/p/158226822",
+      "summary": "正文系统定义距离空间中的紧集、列紧集、完全有界与可分性，并讨论 Ascoli-Arzela 定理。"
+    },
+    {
+      "title": "实分析笔记——Lp空间",
+      "url": "https://zhuanlan.zhihu.com/p/159125371",
+      "summary": "正文定义有界线性算子和对偶空间，并完整讨论Lp对偶表示为Lq的Riesz表示定理。"
+    },
+    {
+      "title": "终篇：变分法中的代数拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/163200117",
+      "summary": "正文用 Banach 空间上的泛函、Palais-Smale 条件、形变定理和临界群研究变分问题。"
+    },
+    {
+      "title": "泛函分析 01 绪论(上)",
+      "url": "https://zhuanlan.zhihu.com/p/165162743",
+      "summary": "正文从有限维空间推广到无穷维空间，说明泛函分析研究函数与运算及空间收敛性。"
+    },
+    {
+      "title": "【2】变分法基础&欧拉-拉格朗日方程的导出",
+      "url": "https://zhuanlan.zhihu.com/p/168789203",
+      "summary": "正文以函数空间上的泛函、变分导数和极值条件为基本对象。"
+    },
+    {
+      "title": "evans的pde的读书报告",
+      "url": "https://zhuanlan.zhihu.com/p/191175092",
+      "summary": "正文说明利用泛函分析工具处理 Sobolev 空间中的对象，并以泛函分析定理讨论椭圆方程弱解。"
+    },
+    {
+      "title": "分布及其 Fourier 变换",
+      "url": "https://zhuanlan.zhihu.com/p/207003515",
+      "summary": "正文用连续线性泛函定义分布，讨论对偶空间、收敛和 Fourier 变换，属于泛函分析的实质内容。"
+    },
+    {
+      "title": "聊一聊Frechet导数、Gateaux导数、Hadamard导数",
+      "url": "https://zhuanlan.zhihu.com/p/252802697",
+      "summary": "正文在赋范线性空间之间定义有界线性算子，并讨论 Frechet、Gateaux 和 Hadamard 可微性。"
+    },
+    {
+      "title": "泛函分析(1)：赋范线性空间",
+      "url": "https://zhuanlan.zhihu.com/p/254872545",
+      "summary": "正文从范数的定义出发建立赋范线性空间，并讨论完备化、线性算子与函数空间的泛函分析结构。"
+    },
+    {
+      "title": "对偶空间(1)：空间、基与映射",
+      "url": "https://zhuanlan.zhihu.com/p/259859651",
+      "summary": "正文定义线性泛函与对偶空间，并继续研究对偶基、对偶映射及核像关系。"
+    },
+    {
+      "title": "Lieb-Robinson Bound",
+      "url": "https://zhuanlan.zhihu.com/p/266233990",
+      "summary": "正文使用算符对易子、幺正演化和范数估计完成 Lieb-Robinson 界证明，体现函数空间上的算子分析。"
+    },
+    {
+      "title": "[泛函分析手记] 1.9 压缩映射原理",
+      "url": "https://zhuanlan.zhihu.com/p/269264508",
+      "summary": "正文定义压缩映射并完整证明 Banach 不动点定理，随后用其研究积分方程。"
+    },
+    {
+      "title": "泛函分析（二）第一章 距离空间",
+      "url": "https://zhuanlan.zhihu.com/p/269474071",
+      "summary": "正文系统讲解距离空间、完备化、列紧性及压缩映射等泛函分析基础内容。"
+    },
+    {
+      "title": "Big Rudin：Real And Complex Analysis使用攻略上（实分析部分）",
+      "url": "https://zhuanlan.zhihu.com/p/285429591",
+      "summary": "正文介绍 Banach 空间、有界线性算子、Hilbert 空间及 Hahn-Banach 定理等泛函分析主题。"
+    },
+    {
+      "title": "老师不会教你的理(biàn)论(fēn)力(yuán)学(lǐ)part3.泛函与变分",
+      "url": "https://zhuanlan.zhihu.com/p/268326255",
+      "summary": "正文定义泛函、函数距离和线性泛函，并以变分和极值条件说明泛函分析中的核心概念。"
+    },
+    {
+      "title": "泛函分析：1.3 闭集、可分性、列紧性",
+      "url": "https://zhuanlan.zhihu.com/p/288231983",
+      "summary": "正文在距离空间中定义闭集、接触点和聚点，并解释闭集对极限运算封闭。"
+    },
+    {
+      "title": "泛函分析：1.4 完备的距离空间",
+      "url": "https://zhuanlan.zhihu.com/p/288237144",
+      "summary": "正文讨论距离空间中的 Cauchy 列、完备性与完备化，属于泛函分析的基础内容。"
+    },
+    {
+      "title": "第一章 一般正交多项式性质",
+      "url": "https://zhuanlan.zhihu.com/p/270620896",
+      "summary": "正文用自共轭算子、内积正交性和算子特征向量等泛函分析观点证明正交多项式的性质。"
+    },
+    {
+      "title": "[顾樵 数学物理方法] Chap.9 施图姆-刘维尔理论；若干特殊方程的导出；二阶ODE级数解法基础",
+      "url": "https://zhuanlan.zhihu.com/p/313031234",
+      "summary": "正文定义伴随算符和自伴算符，并以其性质为线索讨论本征函数展开，实质涉及泛函分析。"
+    },
+    {
+      "title": "Riesz表示定理、Lax-Milgram定理及二阶线性椭圆方程弱解的存在性定理",
+      "url": "https://zhuanlan.zhihu.com/p/334767002",
+      "summary": "正文用有界强制双线性型证明 Lax-Milgram 定理，并以泛函分析工具处理算子方程。"
+    },
+    {
+      "title": "紧性I:  Arzela-Ascoli定理、Shauder、Rellich-Kondrachov",
+      "url": "https://zhuanlan.zhihu.com/p/334803450",
+      "summary": "正文系统证明 Arzela-Ascoli、Rellich-Kondrachov 等函数空间紧性定理并讨论其应用。"
+    },
+    {
+      "title": "函数空间正交基(Orthogonal Bases)",
+      "url": "https://zhuanlan.zhihu.com/p/336779418",
+      "summary": "正文讨论无穷维函数空间的正交基、内积以及函数展开，属于泛函分析基础内容。"
+    },
+    {
+      "title": "紧性II: Banach-Alaoglu定理",
+      "url": "https://zhuanlan.zhihu.com/p/334803931",
+      "summary": "正文系统讨论赋范空间的弱收敛、弱星收敛及紧性定理，属于泛函分析。"
+    },
+    {
+      "title": "泛函分析(5): Hahn-Banach定理",
+      "url": "https://zhuanlan.zhihu.com/p/336765666",
+      "summary": "正文在赋范线性空间中陈述 Hahn-Banach 延拓定理，证明其实数形式并推导连续线性泛函的保范延拓推论。"
+    },
+    {
+      "title": "Big Rudin：Real And Complex Analysis使用攻略下（复分析部分）",
+      "url": "https://zhuanlan.zhihu.com/p/338097316",
+      "summary": "正文强调 Hahn-Banach、表示定理、Banach 代数和算子等泛函分析工具在具体分析问题中的应用。"
+    },
+    {
+      "title": "Minkowski不等式的三种证明（及吐槽）",
+      "url": "https://zhuanlan.zhihu.com/p/340839618",
+      "summary": "正文在 L^p 范数框架下陈述 Minkowski 不等式，并用 Hölder、对偶表示和 Jensen 不等式给出三种证明。"
+    },
+    {
+      "title": "第五章  共轭空间和共轭算子",
+      "url": "https://zhuanlan.zhihu.com/p/341685805",
+      "summary": "正文系统讲解赋范空间上的有界线性泛函延拓、共轭空间和弱收敛，是泛函分析的实质内容。"
+    },
+    {
+      "title": "消失的紧性——分析学中的紧集",
+      "url": "https://zhuanlan.zhihu.com/p/343228278",
+      "summary": "正文讨论赋范空间、弱收敛、自反空间、Sobolev 空间和紧嵌入等泛函分析概念。"
+    },
+    {
+      "title": "广义函数之狄拉克函数",
+      "url": "https://zhuanlan.zhihu.com/p/345809392",
+      "summary": "正文用普通函数序列和检验函数上的积分作用定义广义函数，属于广义函数与分布理论。"
+    },
+    {
+      "title": "狄拉克 delta 函数（严谨定义）",
+      "url": "https://zhuanlan.zhihu.com/p/346808172",
+      "summary": "正文在泛函分析框架下把狄拉克 δ 解释为广义函数或分布，并用函数列的极限严格刻画。"
+    },
+    {
+      "title": "调和分析第一阶段学习感悟",
+      "url": "https://zhuanlan.zhihu.com/p/349411049",
+      "summary": "正文系统概述 Lp、Hp、Sobolev 等函数空间以及范数、完备性和算子有界性的泛函分析方法。"
+    },
+    {
+      "title": "l^p空间和L^P空间",
+      "url": "https://zhuanlan.zhihu.com/p/349718788",
+      "summary": "正文系统讨论赋范线性空间、范数公理、完备化以及函数空间中的范数。"
+    },
+    {
+      "title": "泛函分析(7): 弱收敛",
+      "url": "https://zhuanlan.zhihu.com/p/348809164",
+      "summary": "正文系统定义并证明赋范空间中的弱收敛、弱*收敛及算子拓扑，核心属于泛函分析。"
+    },
+    {
+      "title": "复分析小结（十一）",
+      "url": "https://zhuanlan.zhihu.com/p/351533568",
+      "summary": "正文以 Hardy 空间、径向极限和 Fatou 定理讨论解析函数的边界映射，属于泛函分析中的函数空间论证。"
+    },
+    {
+      "title": "泛函分析（四）第三章 内积空间与Hilbert空间",
+      "url": "https://zhuanlan.zhihu.com/p/352578045",
+      "summary": "正文把欧氏空间的距离、角度、内积和正交推广到一般线性空间，属于泛函分析的核心内容。"
+    },
+    {
+      "title": "Arzela-Ascoli 定理",
+      "url": "https://zhuanlan.zhihu.com/p/356661617",
+      "summary": "正文系统定义列紧性、完全有界、一致有界和等度连续，并证明连续函数空间中的 Arzelà-Ascoli 定理。"
+    },
+    {
+      "title": "一些泛函的结论与练习（一）",
+      "url": "https://zhuanlan.zhihu.com/p/361679494",
+      "summary": "正文讨论赋范空间的对偶、Hahn-Banach定理、零化子、自反性和 l_p 空间对偶结构。"
+    },
+    {
+      "title": "什么是再生核希尔伯特空间 Reproducing Kernel Hilbert Space（RKHS)",
+      "url": "https://zhuanlan.zhihu.com/p/361851872",
+      "summary": "正文用有界求值泛函和Riesz表示定理推导再生核及其再生性质，属于泛函分析内容。"
+    },
+    {
+      "title": "泛函分析知识体系梳理",
+      "url": "https://zhuanlan.zhihu.com/p/362006321",
+      "summary": "正文梳理泛函分析中的线性拓扑空间、线性算子、对偶空间、谱分析和非线性分析框架。"
+    },
+    {
+      "title": "【数学知识】再生希尔伯特空间与核函数讲解",
+      "url": "https://zhuanlan.zhihu.com/p/363788364",
+      "summary": "正文从线性空间、赋范空间、内积空间讲到函数空间，并以核函数展开泛函空间结构。"
+    },
+    {
+      "title": "【论文复现】An Efficient Representation for Irradiance Environment Maps",
+      "url": "https://zhuanlan.zhihu.com/p/363600898",
+      "summary": "正文把球面函数按球谐基展开，利用正交完备性和系数内积完成函数空间分析。"
+    },
+    {
+      "title": "Bergman 空间与 Bergman 核 - 丘赛2014分析个人赛第6题",
+      "url": "https://zhuanlan.zhihu.com/p/364568773",
+      "summary": "正文用有界线性泛函、Riesz 表示定理和再生核证明 Bergman 核的存在性与唯一性。"
+    },
+    {
+      "title": "泛函分析（七）第六章 线性算子的谱理论",
+      "url": "https://zhuanlan.zhihu.com/p/365254746",
+      "summary": "正文系统讲解线性算子正则点、谱集、谱半径以及有界和紧算子的谱性质。"
+    },
+    {
+      "title": "从Riesz表示定理证明Radon-Nikodym定理",
+      "url": "https://zhuanlan.zhihu.com/p/370530096",
+      "summary": "正文以有界线性泛函与对偶空间为主线，说明 Riesz 表示定理在测度论中的应用。"
+    },
+    {
+      "title": "Sobolev的主要嵌入定理",
+      "url": "https://zhuanlan.zhihu.com/p/373803117",
+      "summary": "正文讨论Sobolev空间与Lp、Lq空间之间的连续嵌入，并研究Riesz位势算子的有界性。"
+    },
+    {
+      "title": "阿贝尔积分方程",
+      "url": "https://zhuanlan.zhihu.com/p/389094799",
+      "summary": "正文用函数类比向量、核函数类比算子，并说明范数、算子逆、内积和正交基等概念严格化后形成泛函分析。"
+    },
+    {
+      "title": "2021年丘赛分析试题浅析",
+      "url": "https://zhuanlan.zhihu.com/p/389308721",
+      "summary": "正文在 Sobolev 函数空间上讨论 Laplace 算子、有界逆算子和 Banach 不动点定理，具体使用泛函分析。"
+    },
+    {
+      "title": "实变函数补充（2）：L^p空间的完备性与可分性",
+      "url": "https://zhuanlan.zhihu.com/p/389323582",
+      "summary": "正文在赋范线性空间框架下证明 Lp 空间的完备性和可分性，属于泛函分析的函数空间理论。"
+    },
+    {
+      "title": "从泛函到无人机控制[2]—欧拉-拉格朗日方程",
+      "url": "https://zhuanlan.zhihu.com/p/393705893",
+      "summary": "正文以积分泛函和欧拉-拉格朗日方程为核心，推导高阶变分条件并求解轨迹函数。"
+    },
+    {
+      "title": "欧氏空间：贝塞尔（Bessel）不等式",
+      "url": "https://zhuanlan.zhihu.com/p/394419526",
+      "summary": "正文把函数视为函数空间中的向量并定义积分模长，以泛函分析视角讨论正交展开。"
+    },
+    {
+      "title": "泛函分析总结",
+      "url": "https://zhuanlan.zhihu.com/p/403856995",
+      "summary": "正文系统总结泛函分析中的距离空间、赋范空间、内积空间、有界线性算子和谱理论。"
+    },
+    {
+      "title": "注孤生的空间——有趣的泛函小例子",
+      "url": "https://zhuanlan.zhihu.com/p/404552953",
+      "summary": "正文在无穷维函数空间中研究连续投影、闭子空间和补空间，构造并证明 c0 在 l∞ 中不可补。"
+    },
+    {
+      "title": "【番外】我的研究方向概述",
+      "url": "https://zhuanlan.zhihu.com/p/407587709",
+      "summary": "正文概述 Sobolev 空间、Q 空间、容量与函数空间延拓区域的研究问题及若干完整刻画结果，涉及泛函分析。"
+    },
+    {
+      "title": "最优控制（基本知识）",
+      "url": "https://zhuanlan.zhihu.com/p/415056536",
+      "summary": "正文使用 Hilbert 空间、Sobolev 空间、有界线性算子和弱紧性证明最优控制解的存在唯一性。"
+    },
+    {
+      "title": "分析中三个常用不等式——Young、Holder、Minkowski不等式",
+      "url": "https://zhuanlan.zhihu.com/p/416959152",
+      "summary": "正文定义 L^p 函数空间、L^∞ 空间及其范数，并把三个经典不等式放入函数空间框架中讲解。"
+    },
+    {
+      "title": "随机偏微分方程--Stochastic heat equation",
+      "url": "https://zhuanlan.zhihu.com/p/421235218",
+      "summary": "正文使用自反 Banach 空间、Banach-Alaoglu 紧性和 Besov 空间估计证明解的存在唯一性，实质运用泛函分析。"
+    },
+    {
+      "title": "偏微分方程(十六)——Sobolev空间定义及性质",
+      "url": "https://zhuanlan.zhihu.com/p/429550330",
+      "summary": "正文定义 Sobolev 空间及其范数，讨论弱导数并证明空间的完备性。"
+    },
+    {
+      "title": "不确定性量化（Uncertainty Qunatification）",
+      "url": "https://zhuanlan.zhihu.com/p/445448562",
+      "summary": "正文在随机 Sobolev 空间与张量积空间中引用 Lax-Milgram 定理讨论偏微分方程解的存在唯一性。"
+    },
+    {
+      "title": "一页纸讲解泛函积分",
+      "url": "https://zhuanlan.zhihu.com/p/450241104",
+      "summary": "正文介绍函数空间积分元、路径积分离散化和高斯积分，属于泛函积分的基础内容。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】0 目录&泛函分析是在干甚么事情？",
+      "url": "https://zhuanlan.zhihu.com/p/453727076",
+      "summary": "正文以距离、范数、内积、收敛性和线性算子谱理论概括泛函分析的研究对象。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】1.1 压缩映像原理（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/453968069",
+      "summary": "正文系统讲解距离空间、完备性和Banach压缩映像原理，属于泛函分析的核心内容。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】1.2 完备化（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/455434613",
+      "summary": "正文定义等距同构、稠密子集和完备化空间，并解释把基本列极限补入原空间以形成完备度量空间，属于泛函分析中的空间完备化。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】1.3 列紧集（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/457399432",
+      "summary": "正文在泛函分析课程中讲解无穷维函数空间的列紧性及相关定理。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】1.4 线性赋范空间（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/459003972",
+      "summary": "正文系统讨论线性赋范空间、范数、范数等价、有限维性质与最佳逼近，属于泛函分析的核心内容。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】1.5 凸集与不动点（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/460462916",
+      "summary": "正文在一般线性空间中讲解凸集、凸包和 Minkowski 泛函，并用它们研究连续性与不动点定理。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】2.3 纲与开映像定理（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/463889203",
+      "summary": "正文系统讲解泛函分析中的 Baire 纲、开映射、闭图像和一致有界等基本定理。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】2.4 Hahn-Banach定理（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/464961608",
+      "summary": "正文讲解 Hahn-Banach 延拓定理及其几何形式，并借助超平面分离说明有界线性泛函的性质。"
+    },
+    {
+      "title": "泛函分析 初步总结",
+      "url": "https://zhuanlan.zhihu.com/p/469533751",
+      "summary": "正文系统梳理距离空间、赋范空间、内积空间、线性算子及其连续性、完备性和基本定理。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】1.6 内积空间（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/461812555",
+      "summary": "正文作为泛函分析讲义章节，系统讲解内积空间、范数、正交、完备性、最佳逼近和同构等核心内容。"
+    },
+    {
+      "title": "（全网独家发布）傅里叶级数（一）——正交性与完备性（全网首篇证明完备性）的证明、傅里叶变换的直观解释以及相关结论在广义积分甚至勒贝积分下的若干深入补充讨论",
+      "url": "https://zhuanlan.zhihu.com/p/472769406",
+      "summary": "正文把函数视为无限维向量，定义函数内积，并以正交基展开讨论函数空间中的完备性。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】2.5 共轭空间·弱收敛·自反空间（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/477087888",
+      "summary": "正文讲解共轭空间、共轭算子、弱收敛和相关表示定理，属于泛函分析核心内容。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】2.6 线性算子的谱（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/482580129",
+      "summary": "正文系统讲解预解集、谱集、谱半径及谱存在性，属于泛函分析中的谱理论。"
+    },
+    {
+      "title": "Sobolev空间(1)",
+      "url": "https://zhuanlan.zhihu.com/p/503020931",
+      "summary": "正文在弱导数和 Lp 空间基础上构造 Sobolev 空间并讨论其逼近、扩张与迹。"
+    },
+    {
+      "title": "二阶椭圆方程(1)",
+      "url": "https://zhuanlan.zhihu.com/p/504055470",
+      "summary": "正文在泛函分析框架下使用双线性形式、对偶积、Lax-Milgram 定理和紧算子求解 PDE。"
+    },
+    {
+      "title": "【量子力学+】C*-代数与态公设",
+      "url": "https://zhuanlan.zhihu.com/p/503883263",
+      "summary": "正文介绍 Banach 代数、C*-代数、表示及 Gelfand-Naimark 定理，属于泛函分析。"
+    },
+    {
+      "title": "变分法综述",
+      "url": "https://zhuanlan.zhihu.com/p/370557604",
+      "summary": "正文在 Banach-Finsler 流形上研究泛函、相对同调群与临界群，并给出 Morse 理论和畴数结果，实质使用泛函分析。"
+    },
+    {
+      "title": "希尔伯特空间几何意义上的理解",
+      "url": "https://zhuanlan.zhihu.com/p/507615438",
+      "summary": "正文讨论Riesz表示、投影算子、共轭算子和谱分解，并解释有界线性算子的结构。"
+    },
+    {
+      "title": "线性泛函与陈平不等式（Linear functional and Champion inequality）",
+      "url": "https://zhuanlan.zhihu.com/p/526145044",
+      "summary": "正文定义线性泛函及其可加性、齐次性，并用上确界和下确界研究向量比较问题。"
+    },
+    {
+      "title": "Lebesgue-Radon-Nikodym定理",
+      "url": "https://zhuanlan.zhihu.com/p/526492250",
+      "summary": "正文把积分表示设为线性泛函，利用表示定理与算子估计证明Radon-Nikodym导数存在。"
+    },
+    {
+      "title": "为什么求导运算是反厄米？",
+      "url": "https://zhuanlan.zhihu.com/p/531532034",
+      "summary": "正文用算符共轭定义、函数空间内积和分部积分说明求导算符为何是反厄米的。"
+    },
+    {
+      "title": "压缩映射",
+      "url": "https://zhuanlan.zhihu.com/p/541364325",
+      "summary": "正文系统证明压缩映射的连续性和 Banach 不动点定理，并讨论迭代序列的唯一极限与误差估计。"
+    },
+    {
+      "title": "Green-Tao 定理 (1): 准备, 记号和 Gowers 范数",
+      "url": "https://zhuanlan.zhihu.com/p/537038260",
+      "summary": "正文定义函数空间上的L^q与Gowers范数，并证明三角不等式、单调性和正定性。"
+    },
+    {
+      "title": "分析学家用武器库",
+      "url": "https://zhuanlan.zhihu.com/p/522352953",
+      "summary": "正文系统列举泛函分析三大定理、函数空间、算子谱、半群与不动点定理，实质展开泛函分析框架。"
+    },
+    {
+      "title": "（泛函分析中的）谱理论速成",
+      "url": "https://zhuanlan.zhihu.com/p/566107266",
+      "summary": "正文系统整理有界线性算子的谱、谱结构定理和谱演算等泛函分析内容。"
+    },
+    {
+      "title": "分析学笔记：几乎所有的连续函数都无处可微",
+      "url": "https://zhuanlan.zhihu.com/p/587698717",
+      "summary": "正文把连续函数空间视为完备赋范空间，并应用泛函分析中的 Baire 纲定理完成存在性证明。"
+    },
+    {
+      "title": "什么是指标定理",
+      "url": "https://zhuanlan.zhihu.com/p/590047367",
+      "summary": "正文定义无限维空间中的 Fredholm 算子及其指标，并通过核、余核的维数讨论算子性质。"
+    },
+    {
+      "title": "AI与PDE（八）：Koopman算子的理论框架",
+      "url": "https://zhuanlan.zhihu.com/p/603855350",
+      "summary": "正文把 Koopman 理论置于函数空间上的线性算子框架，分析其谱结构及无限维实现困难。"
+    },
+    {
+      "title": "Baire纲定理(Baire Category Theorem)",
+      "url": "https://zhuanlan.zhihu.com/p/612181451",
+      "summary": "正文给出 Baire 纲定理的完整证明，并讨论一致有界原理、开映射定理和闭图像定理等泛函分析结论。"
+    },
+    {
+      "title": "现代函数分析学的核心——巴拿赫空间，一个令人惊叹的数学结构",
+      "url": "https://zhuanlan.zhihu.com/p/622785580",
+      "summary": "正文以巴拿赫空间、连续线性算子、伴算子与 C*-代数讨论泛函分析的核心结构。"
+    },
+    {
+      "title": "泛函中常用的几个定理",
+      "url": "https://zhuanlan.zhihu.com/p/632621418",
+      "summary": "正文集中讲解泛函分析中的 Arzela-Ascoli、Banach-Alaoglu、紧算子及 Sobolev 嵌入定理。"
+    },
+    {
+      "title": "张量是什么——张量计算入门",
+      "url": "https://zhuanlan.zhihu.com/p/616816590",
+      "summary": "正文讨论线性泛函、对偶空间与对偶基底，并进一步定义多重线性泛函和张量内积范数。"
+    },
+    {
+      "title": "梯度流：探索通往最小值之路",
+      "url": "https://zhuanlan.zhihu.com/p/639138983",
+      "summary": "正文以输入为函数的泛函为入口，讨论变分导数和泛函在概率密度空间上的梯度流。"
+    },
+    {
+      "title": "数学大厦轰然倒塌？……奇怪的的内积“悖论”",
+      "url": "https://zhuanlan.zhihu.com/p/659083412",
+      "summary": "正文用线性泛函和由基定义的算子构造内积，并分析其对偶运算在无限维空间中的连续性。"
+    },
+    {
+      "title": "无孔不入：数学中的稠密",
+      "url": "https://zhuanlan.zhihu.com/p/659374891",
+      "summary": "正文在连续函数空间中定义上确界范数，并解释 Stone-Weierstrass 定理中的稠密逼近。"
+    },
+    {
+      "title": "泛函分析笔记",
+      "url": "https://zhuanlan.zhihu.com/p/669724017",
+      "summary": "正文从度量空间、算子定理、对偶空间和谱理论等方面系统介绍泛函分析。"
+    },
+    {
+      "title": "如何学习泛函分析",
+      "url": "https://zhuanlan.zhihu.com/p/671556530",
+      "summary": "正文从函数空间、泛函、算子、变分法和积分方程系统介绍泛函分析的研究对象与方法。"
+    },
+    {
+      "title": "论Fredholm积分方程的谱",
+      "url": "https://zhuanlan.zhihu.com/p/674145372",
+      "summary": "正文在无穷维函数空间和线性算子框架下讨论 Fredholm 积分方程及其谱，属于泛函分析内容。"
+    },
+    {
+      "title": "分析学概论",
+      "url": "https://zhuanlan.zhihu.com/p/677152460",
+      "summary": "正文随后系统讨论度量空间、赋范空间、算子、弱收敛和谱理论，是从空间与算子角度展开的泛函分析。"
+    },
+    {
+      "title": "实变函数&泛函分析补充: lp空间",
+      "url": "https://zhuanlan.zhihu.com/p/677055495",
+      "summary": "正文集中讨论序列空间 ell^p、对偶空间、自反性、弱收敛和算子谱，属于函数空间视角下的泛函分析。"
+    },
+    {
+      "title": "Cauchy-Schwarz不等式之本质与意义",
+      "url": "https://zhuanlan.zhihu.com/p/684887322",
+      "summary": "正文讨论平方和空间、Holder 与 Riesz 表示及 Lp 空间完备性，并说明它们在泛函分析中的作用。"
+    },
+    {
+      "title": "漫谈数学中的各种空间：度量空间，线性空间，度量线性空间，赋范线性空间，内积空间，欧几里得空间，巴拿赫空间，希尔伯特空间，再生核希尔伯特空间",
+      "url": "https://zhuanlan.zhihu.com/p/684643954",
+      "summary": "正文系统梳理赋范空间、内积空间、函数空间及完备性，并以函数的无穷维向量表示说明函数空间。"
+    },
+    {
+      "title": "证据下界（ELBO）、EM算法、变分推断、变分自编码器（VAE）和混合高斯模型（GMM）",
+      "url": "https://zhuanlan.zhihu.com/p/685814830",
+      "summary": "正文明确用泛函及其极值解释变分和变分推断，构成泛函分析视角下的方法讲解。"
+    },
+    {
+      "title": "三种常见的Poincaré不等式及其证明",
+      "url": "https://zhuanlan.zhihu.com/p/686652949",
+      "summary": "正文给出经典、Poincaré–Wirtinger 及零集占比三种 Poincaré 不等式的陈述与证明，并使用 W^{1,p} 与 L^p 范数。"
+    },
+    {
+      "title": "MIT牛人解说数学体系（转载）",
+      "url": "https://zhuanlan.zhihu.com/p/688530839",
+      "summary": "正文系统比较有限维与无限维空间，并介绍赋范空间、巴拿赫空间和希尔伯特空间。"
+    },
+    {
+      "title": "备课随感",
+      "url": "https://zhuanlan.zhihu.com/p/695921774",
+      "summary": "正文以有界线性泛函、对偶空间和弱紧性解释 L^p 空间证明中的泛函分析观点。"
+    },
+    {
+      "title": "Arnold猜想，Morse同调与Floer同调介绍",
+      "url": "https://zhuanlan.zhihu.com/p/695740656",
+      "summary": "正文用 W^{1,p}、L^p、Fredholm 算子、Banach 丛和 Sard-Smale 定理展开 Morse 与 Floer 理论的泛函分析框架。"
+    },
+    {
+      "title": "Bourgain的魔法：2024年丘赛题与双线性Strichartz估计",
+      "url": "https://zhuanlan.zhihu.com/p/705939921",
+      "summary": "正文以 L^2 等距同构、对偶论证和范数估计证明泛函分析中的双线性 Strichartz 不等式。"
+    },
+    {
+      "title": "零基础入门物理中的泛函技术与泛函场论",
+      "url": "https://zhuanlan.zhihu.com/p/707425594",
+      "summary": "正文通过函数空间、泛函积分和变分导数解释泛函及其运算，并将其用于场论计算。"
+    },
+    {
+      "title": "关于von Neumann无界算子工作的历史评注（上）",
+      "url": "https://zhuanlan.zhihu.com/p/708665587",
+      "summary": "正文以无界自伴算子、谱投影、Cayley 变换和谱分解为核心，重构泛函分析中的算子谱理论。"
+    },
+    {
+      "title": "Decoupling方法及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/708972420",
+      "summary": "正文从赋范空间与 Hilbert 空间中的范数不等式出发，讨论函数空间上的 decoupling 常数和估计。"
+    },
+    {
+      "title": "Brezis-Lieb引理与一个变分问题",
+      "url": "https://zhuanlan.zhihu.com/p/709364053",
+      "summary": "正文用 Lp 自反性、弱收敛、Mazur 引理和 Sobolev 嵌入证明 Brezis-Lieb 引理。"
+    },
+    {
+      "title": "Bourgain的魔法：环面Schrödinger方程与格点计数",
+      "url": "https://zhuanlan.zhihu.com/p/3354586577",
+      "summary": "正文使用函数空间范数、对偶和 L2 正交估计说明 Fourier decoupling 的分析机制。"
+    },
+    {
+      "title": "A Compact Course on Linear PDEs 食用指南",
+      "url": "https://zhuanlan.zhihu.com/p/5391807145",
+      "summary": "正文以弱解、Lax-Milgram定理和Sobolev空间说明泛函分析在椭圆PDE中的核心作用。"
+    },
+    {
+      "title": "反思数学本科教学：我们到底需要知道什么？（分析篇）",
+      "url": "https://zhuanlan.zhihu.com/p/17252527652",
+      "summary": "正文使用赋范空间、有界泛函与有界算子的延拓来统一分析运算，属于泛函分析方法。"
+    },
+    {
+      "title": "线性代数中的几何观念是如何诞生的",
+      "url": "https://zhuanlan.zhihu.com/p/20521571570",
+      "summary": "正文以 Hilbert 空间、Banach 空间、对偶空间和紧算子为主线说明线性映射观念的泛函分析背景。"
+    },
+    {
+      "title": "偏微分方程中一些常用的不等式",
+      "url": "https://zhuanlan.zhihu.com/p/28931370611",
+      "summary": "正文系统给出 Sobolev 嵌入和内插不等式，讨论 W^{k,p} 与 L^q 等函数空间之间的关系。"
+    },
+    {
+      "title": "阿兰·孔涅和他的非交换几何世界",
+      "url": "https://zhuanlan.zhihu.com/p/1889982156417238420",
+      "summary": "正文定义冯·诺伊曼代数，并介绍其在算子代数、因子分类和非交换几何中的作用。"
+    },
+    {
+      "title": "变分法在机器学习中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/1890543649474971025",
+      "summary": "正文定义泛函并系统推导 Euler 方程、变分算子及多元变分问题。"
+    },
+    {
+      "title": "分析学拾遗-Soblev空间的一些直观",
+      "url": "https://zhuanlan.zhihu.com/p/1891989748182139695",
+      "summary": "正文从弱导数、变分法基本原理、Sobolev 范数和弱紧性介绍 Sobolev 空间中的泛函分析工具。"
+    },
+    {
+      "title": "论变分法的数学原理",
+      "url": "https://zhuanlan.zhihu.com/p/4075759976",
+      "summary": "正文定义泛函及其变分，并证明变分与求导、微分和积分可交换次序。"
+    },
+    {
+      "title": "(已完结)2025丘成桐大学生数学竞赛分析组教学式答案+超完整细节.",
+      "url": "https://zhuanlan.zhihu.com/p/1908138349262270859",
+      "summary": "正文用 H^1 函数的光滑紧支逼近、梯度收敛和积分类不等式证明分析估计。"
+    },
+    {
+      "title": "偏微分方程的发展史",
+      "url": "https://zhuanlan.zhihu.com/p/1912102771236267096",
+      "summary": "正文介绍索伯列夫空间中的弱解框架，属于泛函分析处理微分方程的核心内容。"
+    },
+    {
+      "title": "什么是泛函",
+      "url": "https://zhuanlan.zhihu.com/p/1944492482160231905",
+      "summary": "正文从函数空间到数域的映射定义泛函，并用能量、积分和最速降线说明其结构。"
+    },
+    {
+      "title": "2025秋季求真书院分析博资考个人解答",
+      "url": "https://zhuanlan.zhihu.com/p/1949760538574828439",
+      "summary": "正文证明函数空间紧嵌入并构造反例，讨论 Banach 空间映射的紧性。"
+    },
+    {
+      "title": "“数学分析”的7个段位，从极限到谱理论：这条路，既艰难又美丽",
+      "url": "https://zhuanlan.zhihu.com/p/1951136401660805620",
+      "summary": "正文从函数间距离、范数、完备性和算子谱理论串起泛函分析的研究对象。"
+    },
+    {
+      "title": "从泛函分析到哈密顿方程",
+      "url": "https://zhuanlan.zhihu.com/p/1982794356860674068",
+      "summary": "正文定义在函数空间上的泛函，并以作用量泛函和一阶变分说明其构造。"
+    },
+    {
+      "title": "法式大题赏析: Gromov多项式增长定理",
+      "url": "https://zhuanlan.zhihu.com/p/1989126528571840081",
+      "summary": "正文在 Lipschitz 调和函数空间上构造半范数、商范数和群不变结构，并使用泛函分析论证。"
+    },
+    {
+      "title": "积分不等式证明的四位一体——变分、Green 函数、配方、谱方法，以及 Sobolev 空间如何统一起来（1）理论篇",
+      "url": "https://zhuanlan.zhihu.com/p/2035038868374804228",
+      "summary": "正文以 Sobolev 空间、弱收敛、紧嵌入和算子理论统一解释变分与谱方法。"
+    },
+    {
+      "title": "无穷维空间里的秩序：泛函分析入门",
+      "url": "https://zhuanlan.zhihu.com/p/2047966979009651330",
+      "summary": "正文系统介绍泛函分析如何把函数空间、距离、内积、算子、对偶空间与谱理论组织起来。"
+    },
+    {
+      "title": "函数、泛函、算子、函子：数学抽象的四级台阶",
+      "url": "https://zhuanlan.zhihu.com/p/2047997630098170642",
+      "summary": "正文把函数空间到实数域的映射解释为泛函，并以面积和弧长积分举例。"
+    }
+  ]
+}

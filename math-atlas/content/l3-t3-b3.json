@@ -1,0 +1,4556 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t3-b3",
+  "sources": [
+    {
+      "title": "欧氏距离和余弦相似度的区别是什么？",
+      "url": "https://www.zhihu.com/answer/12484020",
+      "summary": "用向量的距离和夹角解释欧氏距离与余弦相似度的区别，并给出评分向量示例。"
+    },
+    {
+      "title": "如何理解希尔伯特空间？",
+      "url": "https://www.zhihu.com/answer/13508959",
+      "summary": "解释三维向量的分量、内积、长度和夹角，并以此类比函数的内积。"
+    },
+    {
+      "title": "点乘和叉乘的区别是什么？",
+      "url": "https://www.zhihu.com/answer/17112284",
+      "summary": "比较点积和三维叉积的输出及垂直、法向量用途；原文把点积直接等同投影长度漏了另一个向量的模，只有向单位方向向量点乘才给有向投影长度。"
+    },
+    {
+      "title": "用向量证明余弦定理是否存在逻辑错误？",
+      "url": "https://www.zhihu.com/answer/30835395",
+      "summary": "正文围绕“向量”给出说明、例证或方法。"
+    },
+    {
+      "title": "如何推导匀速圆周运动向心力公式？",
+      "url": "https://www.zhihu.com/answer/31765763",
+      "summary": "正文围绕“向量”给出说明、例证或方法。"
+    },
+    {
+      "title": "为什么一般把向量定义为列向量？",
+      "url": "https://www.zhihu.com/answer/32499596",
+      "summary": "以列向量和矩阵作用的复合解释向量书写约定。"
+    },
+    {
+      "title": "如何形象地理解四元数？",
+      "url": "https://www.zhihu.com/answer/33971127",
+      "summary": "正文以三维向量、纯四元数和旋转说明其几何表示。"
+    },
+    {
+      "title": "三矢量叉乘展开成点乘的公式如何证明？",
+      "url": "https://www.zhihu.com/answer/35033704",
+      "summary": "正文给出三矢量叉乘展开为点乘的多种证明。"
+    },
+    {
+      "title": "向量内积外积，为啥要叫「内」「外」？",
+      "url": "https://www.zhihu.com/answer/35803670",
+      "summary": "正文解释向量内积、外积的降阶与升阶含义。"
+    },
+    {
+      "title": "可否用较容易理解的方式解释一下向量空间、欧氏空间呢？",
+      "url": "https://www.zhihu.com/answer/37140675",
+      "summary": "正文以运算规则解释向量空间，并说明向量概念的抽象扩展。"
+    },
+    {
+      "title": "有哪些大学的定理、公式、概念、方法等可以应用于高中解题或帮助高中生深入理解知识？",
+      "url": "https://www.zhihu.com/answer/39667261",
+      "summary": "正文通过向量叉积求平面的法向量。"
+    },
+    {
+      "title": "为何向量没有除法运算？",
+      "url": "https://www.zhihu.com/answer/43399062",
+      "summary": "正文以点积与叉积的逆运算不唯一说明向量没有通常的除法。"
+    },
+    {
+      "title": "为什么梯度是偏微分的矢量和？",
+      "url": "https://www.zhihu.com/answer/50446867",
+      "summary": "正文将梯度写成偏导数基向量组成的向量。"
+    },
+    {
+      "title": "如何在三角形（比如正三角形）里随机取点？",
+      "url": "https://www.zhihu.com/answer/53131190",
+      "summary": "正文以三角形顶点向量给出随机点构造。"
+    },
+    {
+      "title": "线性代数有什么用？学习线性代数的意义在哪？",
+      "url": "https://www.zhihu.com/answer/74463428",
+      "summary": "正文随后定义内积、范数、距离、正交和正交基，并说明向量在坐标系中的表示。"
+    },
+    {
+      "title": "在高中的学习中，有哪一瞬间你觉得自己真正懂了一个对高考卷解题有大用的东西？",
+      "url": "https://www.zhihu.com/answer/83392974",
+      "summary": "正文用叉积计算平面法向量并解释垂直性。"
+    },
+    {
+      "title": "在高中的学习中，有哪一瞬间你觉得自己真正懂了一个对高考卷解题有大用的东西？",
+      "url": "https://www.zhihu.com/answer/83750216",
+      "summary": "正文讲解以法向量和向量共线处理立体几何。"
+    },
+    {
+      "title": "在高中的学习中，有哪一瞬间你觉得自己真正懂了一个对高考卷解题有大用的东西？",
+      "url": "https://www.zhihu.com/answer/83828613",
+      "summary": "正文给出由平面截距或两向量计算法向量的公式。"
+    },
+    {
+      "title": "为什么人类想象不出四维的空间？",
+      "url": "https://www.zhihu.com/answer/86078604",
+      "summary": "正文用基向量、内积和线性组合定义 n 维空间。"
+    },
+    {
+      "title": "面试官问「异面直线距离」是什么心态？",
+      "url": "https://www.zhihu.com/answer/89750991",
+      "summary": "正文用方向向量叉积与点积给出异面直线距离公式。"
+    },
+    {
+      "title": "线性代数中，向量空间的子空间的“和”与“直和”，这两个概念的区别是什么？",
+      "url": "https://www.zhihu.com/answer/90548565",
+      "summary": "全文用向量的唯一分解和线性无关解释子空间的直和。"
+    },
+    {
+      "title": "为什么实际旋转角度是四元数里面的角度的两倍？有什么数学上的原因吗？",
+      "url": "https://www.zhihu.com/answer/93762542",
+      "summary": "正文用虚四元数的基、点积和叉积展开三维向量运算。"
+    },
+    {
+      "title": "数学中关于集合、空间、数域概念的关系？",
+      "url": "https://www.zhihu.com/answer/94981893",
+      "summary": "正文实质解释向量、数域及其在空间计算中的基础作用。"
+    },
+    {
+      "title": "正交与线性无关？",
+      "url": "https://www.zhihu.com/answer/96959207",
+      "summary": "正文用内积严格证明非零正交向量必线性无关。"
+    },
+    {
+      "title": "如何理解矩阵对矩阵求导？",
+      "url": "https://www.zhihu.com/answer/99942869",
+      "summary": "正文将矩阵按列拉伸为向量以定义导数。"
+    },
+    {
+      "title": "0 范数、1 范数、2 范数有什么区别？",
+      "url": "https://www.zhihu.com/answer/102907063",
+      "summary": "正文系统定义向量的 1、2、无穷及 p 范数。"
+    },
+    {
+      "title": "矩阵乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/103520656",
+      "summary": "正文用向量点乘、基底、坐标和投影解释矩阵乘法。"
+    },
+    {
+      "title": "子式或者余子式有什么对应的几何或者物理含义？",
+      "url": "https://www.zhihu.com/answer/109118907",
+      "summary": "正文把行列式的列视为向量，并用向量张成的面积和体积作解释。"
+    },
+    {
+      "title": "斯托克斯公式的意义?",
+      "url": "https://www.zhihu.com/answer/112510197",
+      "summary": "正文以三维向量场的分量、旋度和环量解释斯托克斯公式。"
+    },
+    {
+      "title": "在高中的学习中，有哪一瞬间你觉得自己真正懂了一个对高考卷解题有大用的东西？",
+      "url": "https://www.zhihu.com/answer/115403684",
+      "summary": "正文在平面图形题中用向量坐标法完成求解。"
+    },
+    {
+      "title": "如何理解统计学中「自由度」这个概念？",
+      "url": "https://www.zhihu.com/answer/115599650",
+      "summary": "正文用观测向量向两个正交子空间的投影描述自由维度。"
+    },
+    {
+      "title": "复向量的内积,想不明白?",
+      "url": "https://www.zhihu.com/answer/116880195",
+      "summary": "正文定义复向量的两种典范内积并通过例子计算。"
+    },
+    {
+      "title": "什么才是代数？",
+      "url": "https://www.zhihu.com/answer/122295995",
+      "summary": "正文用平面与空间向量说明相同运算律如何抽象出共同代数结构。"
+    },
+    {
+      "title": "线性代数中的线性相关或无关到底是什么意思？秩又是什么东西？秩相同意味着什么？",
+      "url": "https://www.zhihu.com/answer/124415519",
+      "summary": "正文从向量间约束、张成空间的维数解释线性相关与线性无关。"
+    },
+    {
+      "title": "线性代数中的线性相关或无关到底是什么意思？秩又是什么东西？秩相同意味着什么？",
+      "url": "https://www.zhihu.com/answer/124420568",
+      "summary": "正文用岗位可替代性类比向量的线性相关、无关和秩。"
+    },
+    {
+      "title": "线性代数中的线性相关或无关到底是什么意思？秩又是什么东西？秩相同意味着什么？",
+      "url": "https://www.zhihu.com/answer/124421671",
+      "summary": "正文用 RGB 向量具体解释线性表示、线性相关和基底。"
+    },
+    {
+      "title": "线性代数有什么用？学习线性代数的意义在哪？",
+      "url": "https://www.zhihu.com/answer/124940442",
+      "summary": "正文说明选定基后向量刻画线性空间对象，矩阵刻画运动。"
+    },
+    {
+      "title": "有哪些数学问题有经典的物理学证明或解释？",
+      "url": "https://www.zhihu.com/answer/125662282",
+      "summary": "正文用面向量及其在三个坐标轴的投影解释面积平方关系。"
+    },
+    {
+      "title": "如何理解Householder变换和Givens旋转?",
+      "url": "https://www.zhihu.com/answer/125819331",
+      "summary": "正文用法向量、内积和指定向量说明高维镜面反射。"
+    },
+    {
+      "title": "如何理解傅里叶变换公式？",
+      "url": "https://www.zhihu.com/answer/125937307",
+      "summary": "正文先用有限维向量分解类比函数空间中的傅里叶展开。"
+    },
+    {
+      "title": "二阶行列式与三阶行列数有着怎样的几何意义?",
+      "url": "https://www.zhihu.com/answer/125942527",
+      "summary": "正文把行列式的列抽成向量并用其组合构造平行四边形。"
+    },
+    {
+      "title": "有哪些数学问题有经典的物理学证明或解释？",
+      "url": "https://www.zhihu.com/answer/125950914",
+      "summary": "正文把三角函数和式解释为均匀分布力向量合力在指定方向的投影。"
+    },
+    {
+      "title": "如何简单的理解n维空间？",
+      "url": "https://www.zhihu.com/answer/128750534",
+      "summary": "正文把 n 维向量解释为用 n 个方面描述对象的语言与工具。"
+    },
+    {
+      "title": "二阶张量怎么理解？",
+      "url": "https://www.zhihu.com/answer/131665380",
+      "summary": "正文把一阶张量解释为有一个方向的矢量，并用力和加速度举例。"
+    },
+    {
+      "title": "相机位姿求解问题？",
+      "url": "https://www.zhihu.com/answer/132005467",
+      "summary": "正文以齐次坐标、叉积、共面向量和旋转平移描述二维与三维匹配点几何。"
+    },
+    {
+      "title": "引出向量空间这个概念的目的和意义是什么",
+      "url": "https://www.zhihu.com/answer/133196907",
+      "summary": "正文解释向量空间如何统一欧氏向量、函数空间和微分方程解空间。"
+    },
+    {
+      "title": "以自己的专业知识打别人的脸是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/133743482",
+      "summary": "正文用平移顺序和对应平行四边形说明向量位移相加的结果不变。"
+    },
+    {
+      "title": "如何理解矩阵相乘的几何意义或现实意义？",
+      "url": "https://www.zhihu.com/answer/135658852",
+      "summary": "正文详细解释向量内积、投影、基和不同坐标表示。"
+    },
+    {
+      "title": "范数对于数学的意义？1范数、2范数、无穷范数该怎么用？",
+      "url": "https://www.zhihu.com/answer/136376374",
+      "summary": "正文解释向量范数把向量映射为可比较的实数，并以二维向量为例说明。"
+    },
+    {
+      "title": "向量点乘的 x1x2 + y1y2 与 |a||b|cosθ 是如何联系起来的？",
+      "url": "https://www.zhihu.com/answer/139757906",
+      "summary": "正文用分量相乘求和解释向量点积及投影。"
+    },
+    {
+      "title": "向量点乘的 x1x2 + y1y2 与 |a||b|cosθ 是如何联系起来的？",
+      "url": "https://www.zhihu.com/answer/139939836",
+      "summary": "正文由内积定义向量长度与夹角。"
+    },
+    {
+      "title": "如何理解线性空间这一概念？",
+      "url": "https://www.zhihu.com/answer/140270125",
+      "summary": "正文逐项定义带加法和数乘运算、满足封闭性与八条公理的线性空间，实质阐释向量空间概念。"
+    },
+    {
+      "title": "n维空间里的n个向量的最小夹角的最大值是什么？",
+      "url": "https://www.zhihu.com/answer/144382568",
+      "summary": "正文把夹角极值改写为单位向量内积问题并构造向量组。"
+    },
+    {
+      "title": "如何用向量（a，b，c）和（x，y，z）表示向量（ax，by，cz）？",
+      "url": "https://www.zhihu.com/answer/157147862",
+      "summary": "正文用向量长度、内积与坐标旋转说明内蕴量。"
+    },
+    {
+      "title": "怎样用c语言画一个\"三维的球体\"？",
+      "url": "https://www.zhihu.com/answer/158984012",
+      "summary": "正文用表面位置向量、法向量和光源方向的内积计算明暗。"
+    },
+    {
+      "title": "什么是张量 (tensor)？",
+      "url": "https://www.zhihu.com/answer/159591975",
+      "summary": "正文从向量空间、对偶空间和基底展开构造张量。"
+    },
+    {
+      "title": "如何理解皮尔逊相关系数（Pearson Correlation Coefficient）？",
+      "url": "https://www.zhihu.com/answer/174098489",
+      "summary": "正文从向量内积、模和夹角推导余弦相似度，再联系相关系数。"
+    },
+    {
+      "title": "平面束方程如何得来？",
+      "url": "https://www.zhihu.com/answer/174934195",
+      "summary": "正文用两个法向量的线性组合解释过同一直线的全部平面。"
+    },
+    {
+      "title": "如何看待学霸君的高考机器人 Aidam 高考全国文科数学卷考了 134 分？",
+      "url": "https://www.zhihu.com/answer/181721111",
+      "summary": "正文围绕直线方向向量、平面法向量与点积为零检查机器人解题逻辑。"
+    },
+    {
+      "title": "为什么内积在复数向量空间中不具有交换性？",
+      "url": "https://www.zhihu.com/answer/182304800",
+      "summary": "正文从向量长度和范数的需求解释复向量内积的共轭线性。"
+    },
+    {
+      "title": "如何理解矩阵的「秩」？",
+      "url": "https://www.zhihu.com/answer/183836013",
+      "summary": "正文以成比例的三维向量解释线性相关。"
+    },
+    {
+      "title": "有哪些高中教材不要求但高考解题时非常好用的知识？",
+      "url": "https://www.zhihu.com/answer/189754871",
+      "summary": "正文给出空间向量叉乘公式，并说明如何计算平面法向量。"
+    },
+    {
+      "title": "空间向量叉乘的概念与数学应用。？",
+      "url": "https://www.zhihu.com/answer/190775208",
+      "summary": "正文从内积、外积、分量公式和几何方向系统讲解三维向量运算。"
+    },
+    {
+      "title": "矩阵和向量组和线性方程组之间的关系是什么？",
+      "url": "https://www.zhihu.com/answer/202231378",
+      "summary": "正文从基向量张成空间解释坐标和向量表示。"
+    },
+    {
+      "title": "欧氏距离和余弦相似度的区别是什么？",
+      "url": "https://www.zhihu.com/answer/207795500",
+      "summary": "正文推导单位向量归一化后欧氏距离与余弦相似度的等价关系。"
+    },
+    {
+      "title": "线性代数中，特征值与特征向量在代数和几何层面的实际意义是什么？",
+      "url": "https://www.zhihu.com/answer/220603139",
+      "summary": "正文从向量长度、方向与共线关系解释特征方向。"
+    },
+    {
+      "title": "多人一起喊口号为什么声音会放大？",
+      "url": "https://www.zhihu.com/answer/232744699",
+      "summary": "正文把多个声源振幅建模为随机方向单位向量之和。"
+    },
+    {
+      "title": "多人一起喊口号为什么声音会放大？",
+      "url": "https://www.zhihu.com/answer/232993812",
+      "summary": "正文把非相干声音抽象成高维向量并讨论夹角。"
+    },
+    {
+      "title": "什么是过完备字典？",
+      "url": "https://www.zhihu.com/answer/236054067",
+      "summary": "正文解释基向量线性叠加与表示系数不唯一。"
+    },
+    {
+      "title": "如何通俗地解释欧拉角？之后为何要引入四元数？",
+      "url": "https://www.zhihu.com/answer/236808639",
+      "summary": "正文以向量形式表达旋转轴与四元数。"
+    },
+    {
+      "title": "如何直观形象、生动有趣地给文科学生介绍傅里叶变换？",
+      "url": "https://www.zhihu.com/answer/252715189",
+      "summary": "正文把傅里叶系数解释为无限维向量在一组基下的坐标。"
+    },
+    {
+      "title": "迹的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/255818053",
+      "summary": "正文从向量与基出发说明线性变换的坐标表示。"
+    },
+    {
+      "title": "矩阵求逆的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/258039410",
+      "summary": "正文说明向量在不同基下表示不同而对象不变。"
+    },
+    {
+      "title": "如何形象地理解曲线积分在区域 G 内与路径无关？",
+      "url": "https://www.zhihu.com/answer/264103413",
+      "summary": "正文以二维矢量场、路径矢量和点积建立几何直观。"
+    },
+    {
+      "title": "线性代数对物理学有什么帮助？",
+      "url": "https://www.zhihu.com/answer/264278863",
+      "summary": "正文从方向和大小解释二维、三维及高维向量。"
+    },
+    {
+      "title": "高考数学你真的掌握了吗     这本书怎么样？",
+      "url": "https://www.zhihu.com/answer/273519377",
+      "summary": "正文说明向量条件可转写为坐标关系并用于解析几何解题。"
+    },
+    {
+      "title": "协变张量和逆变张量有何区别？仅仅是上下标的区别吗？",
+      "url": "https://www.zhihu.com/answer/285609840",
+      "summary": "正文以位移、梯度等矢量解释协变与逆变分量。"
+    },
+    {
+      "title": "数学中为什么要定义各种空间？",
+      "url": "https://www.zhihu.com/answer/301410236",
+      "summary": "正文定义矢量空间并给出函数、算子和箭头等实例。"
+    },
+    {
+      "title": "高中数学解三角形什么方法好用？",
+      "url": "https://www.zhihu.com/answer/309530055",
+      "summary": "正文说明通过转化为向量求解三角形。"
+    },
+    {
+      "title": "如何手写标量、向量、矩阵、张量？",
+      "url": "https://www.zhihu.com/answer/311078854",
+      "summary": "正文介绍向量的手写记号及其与标量的区分。"
+    },
+    {
+      "title": "如何证明单位矢量关于时间的导数为角速度与该矢量的叉乘?",
+      "url": "https://www.zhihu.com/answer/314866543",
+      "summary": "正文定义角速度矢量并用叉乘推导单位矢量导数。"
+    },
+    {
+      "title": "你知道哪些反常识的知识？",
+      "url": "https://www.zhihu.com/answer/321615891",
+      "summary": "正文用向量关系解释几何结论。"
+    },
+    {
+      "title": "如何直观地理解线性变换？",
+      "url": "https://www.zhihu.com/answer/324041266",
+      "summary": "正文说明向量是描述对象的一组具体数字。"
+    },
+    {
+      "title": "如何理解傅里叶变换公式？",
+      "url": "https://www.zhihu.com/answer/334686351",
+      "summary": "正文把正弦余弦解释为函数向量并定义函数点积。"
+    },
+    {
+      "title": "为什么在矢量分析中，梯度无旋，旋度无散？",
+      "url": "https://www.zhihu.com/answer/341117833",
+      "summary": "正文用高斯与斯托克斯公式解释矢量场的散度和旋度。"
+    },
+    {
+      "title": "有谁可以介绍一下下， 什么是projection matrix （投影矩阵），以及它的性质？",
+      "url": "https://www.zhihu.com/answer/341425237",
+      "summary": "正文从一个向量投影到另一向量的几何问题开始推导。"
+    },
+    {
+      "title": "范数对于数学的意义？1范数、2范数、无穷范数该怎么用？",
+      "url": "https://www.zhihu.com/answer/348520078",
+      "summary": "正文具体说明用范数比较向量与矩阵。"
+    },
+    {
+      "title": "如何理解皮尔逊相关系数（Pearson Correlation Coefficient）？",
+      "url": "https://www.zhihu.com/answer/349132554",
+      "summary": "正文以两个向量建立相关系数计算。"
+    },
+    {
+      "title": "怎样理解微分流形中的 Frobenius 定理？",
+      "url": "https://www.zhihu.com/answer/353674449",
+      "summary": "正文用光滑切矢量场及其线性组合给出等价描述。"
+    },
+    {
+      "title": "矩阵的转置的意义是什么？",
+      "url": "https://www.zhihu.com/answer/356540744",
+      "summary": "正文用向量、列空间与内积解释转置。"
+    },
+    {
+      "title": "线性代数线性相关怎么理解？",
+      "url": "https://www.zhihu.com/answer/357665778",
+      "summary": "正文用向量抵消直观解释线性相关。"
+    },
+    {
+      "title": "傅里叶级数和傅里叶变换是什么关系？",
+      "url": "https://www.zhihu.com/answer/358423678",
+      "summary": "正文把函数在三角基下的系数解释为向量坐标。"
+    },
+    {
+      "title": "空间曲线的切向量？",
+      "url": "https://www.zhihu.com/answer/360805243",
+      "summary": "正文用法向量叉乘构造空间曲线切向量。"
+    },
+    {
+      "title": "一个矩阵列满秩意味着什么，能全面总结吗？",
+      "url": "https://www.zhihu.com/answer/361012060",
+      "summary": "正文用列向量的线性无关和张成空间解释秩。"
+    },
+    {
+      "title": "如何判断向量组是否线性相关？",
+      "url": "https://www.zhihu.com/answer/362452648",
+      "summary": "正文从线性组合为零定义向量组相关性。"
+    },
+    {
+      "title": "高等代数研究线性空间的意义是什么呢？",
+      "url": "https://www.zhihu.com/answer/362779904",
+      "summary": "正文讨论向量、基与坐标表示。"
+    },
+    {
+      "title": "如何理解矩阵转置和求逆的可交换性？",
+      "url": "https://www.zhihu.com/answer/363052047",
+      "summary": "正文用向量内积和正交补给出几何解释。"
+    },
+    {
+      "title": "特征工程中的「归一化」有什么作用？",
+      "url": "https://www.zhihu.com/answer/370658612",
+      "summary": "正文从向量按比例压缩和平移解释数据缩放。"
+    },
+    {
+      "title": "点乘和叉乘的区别是什么？",
+      "url": "https://www.zhihu.com/answer/370967464",
+      "summary": "正文解释向量叉乘的方向、模和点叉乘应用。"
+    },
+    {
+      "title": "如何通俗易懂地解释外微分？",
+      "url": "https://www.zhihu.com/answer/372583138",
+      "summary": "正文把一形式解释为向量场，并用梯度和旋度连接经典向量微积分。"
+    },
+    {
+      "title": "施密特正交化的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/385374833",
+      "summary": "正文从向量空间、基、投影和点积推导施密特正交化。"
+    },
+    {
+      "title": "范数对于数学的意义？1范数、2范数、无穷范数该怎么用？",
+      "url": "https://www.zhihu.com/answer/389440726",
+      "summary": "正文从向量分量定义不同p范数并解释长度量度。"
+    },
+    {
+      "title": "若向量组A可以由向量组B线性表示，为何r（A）<=r（B）?",
+      "url": "https://www.zhihu.com/answer/391597858",
+      "summary": "正文用极大线性无关组解释向量组可表示关系。"
+    },
+    {
+      "title": "为什么本质矩阵５自由度，基础矩阵７自由度，单应矩阵８自由度？",
+      "url": "https://www.zhihu.com/answer/401695352",
+      "summary": "正文把单应矩阵解释为二维射影空间中的线性变换。"
+    },
+    {
+      "title": "什么是张量 (tensor)？",
+      "url": "https://www.zhihu.com/answer/447498656",
+      "summary": "正文说明向量在不同基下坐标变化而几何对象不变。"
+    },
+    {
+      "title": "如何理解拉格朗日乘子法？",
+      "url": "https://www.zhihu.com/answer/457058079",
+      "summary": "正文用法向量线性组合解释多约束情形。"
+    },
+    {
+      "title": "散度和旋度的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/466153996",
+      "summary": "正文用位矢、点积和叉积推导散度与旋度。"
+    },
+    {
+      "title": "本质矩阵和基础矩阵的区别是什么？",
+      "url": "https://www.zhihu.com/answer/466669565",
+      "summary": "正文以三个位移向量共面导出矩阵约束。"
+    },
+    {
+      "title": "二重积分，三重积分，曲线积分中被积函数的意义是什么？",
+      "url": "https://www.zhihu.com/answer/471076892",
+      "summary": "正文说明向量场上的线积分及其物理意义。"
+    },
+    {
+      "title": "二次型的意义是什么？有什么应用？",
+      "url": "https://www.zhihu.com/answer/472891521",
+      "summary": "正文以不同基底下的向量长度平方解释二次型。"
+    },
+    {
+      "title": "用微积分怎么证明勾股定理？",
+      "url": "https://www.zhihu.com/answer/476344027",
+      "summary": "正文由内积定义向量夹角与正交。"
+    },
+    {
+      "title": "第一型曲线积分，第二型曲线积分，第一型曲面积分，第二型曲面积分，二重积分，三重积分之间的内外联系。?",
+      "url": "https://www.zhihu.com/answer/476955301",
+      "summary": "正文用切向量与法向量说明两类积分间的余弦代换。"
+    },
+    {
+      "title": "如何画石墨烯的第一布里渊区？",
+      "url": "https://www.zhihu.com/answer/476974026",
+      "summary": "正文用基矢和倒格矢构造石墨烯布里渊区。"
+    },
+    {
+      "title": "向量为什么作用那么大、那么好用、且与其他数学工具之间配合的那么好？",
+      "url": "https://www.zhihu.com/answer/497078784",
+      "summary": "正文解释向量及向量空间的本质是线性结构。"
+    },
+    {
+      "title": "有什么好的椭圆双曲线抛物线类解题技巧？",
+      "url": "https://www.zhihu.com/answer/531392091",
+      "summary": "把垂直、角度和面积条件系统转成向量数量积与坐标关系。"
+    },
+    {
+      "title": "怎样直观的理解「极大无关组」，以及极大无关组的求法？",
+      "url": "https://www.zhihu.com/answer/536660172",
+      "summary": "正文从向量能否被其他向量线性表示解释极大无关组。"
+    },
+    {
+      "title": "怎样直观的理解「极大无关组」，以及极大无关组的求法？",
+      "url": "https://www.zhihu.com/answer/536858632",
+      "summary": "正文从向量组张成空间、维数与基解释极大无关组。"
+    },
+    {
+      "title": "线性代数为什么叫线性代数？",
+      "url": "https://www.zhihu.com/answer/540170610",
+      "summary": "正文以向量旋转为例解释矩阵表示。"
+    },
+    {
+      "title": "有哪些高中教材不要求但高考解题时非常好用的知识？",
+      "url": "https://www.zhihu.com/answer/540270963",
+      "summary": "正文用向量叉乘与右手坐标系统一判断物理矢量方向。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/541701737",
+      "summary": "正文用行向量与列向量的配对直观解释对偶向量空间。"
+    },
+    {
+      "title": "矩阵转置的几何意义和物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/541974826",
+      "summary": "正文持续使用向量空间、基与对偶向量来建立解释。"
+    },
+    {
+      "title": "怎么理解虚数和复数？",
+      "url": "https://www.zhihu.com/answer/542742130",
+      "summary": "正文把复数解释为具有大小和方向的平面向量。"
+    },
+    {
+      "title": "对曲面面积公式（偏微分方程）怎么理解？",
+      "url": "https://www.zhihu.com/answer/558561224",
+      "summary": "用两个切向量的向量积推导曲面面积公式。"
+    },
+    {
+      "title": "非齐次线性方程组通解的结构如何理解？",
+      "url": "https://www.zhihu.com/answer/643835072",
+      "summary": "把方程解表示为空间中的向量与子空间。"
+    },
+    {
+      "title": "为什么会有 i 这一虚数？可以求出 i 的值吗？",
+      "url": "https://www.zhihu.com/answer/649029143",
+      "summary": "把复数解释为复平面中兼有长度和方向的向量。"
+    },
+    {
+      "title": "有哪些初中校内不会讲、但解题时非常好用的知识和技巧？",
+      "url": "https://www.zhihu.com/answer/650596152",
+      "summary": "定义向量加减、数乘、点积与基底，并用来解平面几何题。"
+    },
+    {
+      "title": "求两异面直线间的距离的方法?",
+      "url": "https://www.zhihu.com/answer/664182141",
+      "summary": "用方向向量和公垂线表示两异面直线距离。"
+    },
+    {
+      "title": "空间向量如何求点到直线距离？",
+      "url": "https://www.zhihu.com/answer/668978444",
+      "summary": "用方向向量与叉积公式计算空间点到直线距离。"
+    },
+    {
+      "title": "曲面的三个偏导数为什么能表示法向量？",
+      "url": "https://www.zhihu.com/answer/674631170",
+      "summary": "用梯度向量与切向量正交解释法线。"
+    },
+    {
+      "title": "非齐次线性方程组有三个线性无关解是什么意思？",
+      "url": "https://www.zhihu.com/answer/684975181",
+      "summary": "把每个方程组解解释为向量并定义线性无关。"
+    },
+    {
+      "title": "矩阵和线性变换怎么理解？",
+      "url": "https://www.zhihu.com/answer/687634403",
+      "summary": "说明向量由一组基向量线性组合表示。"
+    },
+    {
+      "title": "如何直观形象地理解方向导数与梯度以及它们之间的关系？",
+      "url": "https://www.zhihu.com/answer/688053762",
+      "summary": "把梯度定义为由偏导数组成、指向增长最快方向的向量。"
+    },
+    {
+      "title": "如何通俗地解释欧氏空间？",
+      "url": "https://www.zhihu.com/answer/699570097",
+      "summary": "用内积定义欧氏空间的距离与角度。"
+    },
+    {
+      "title": "请教：刚体动力学中的欧拉方程是如何推导出来的？",
+      "url": "https://www.zhihu.com/answer/705009156",
+      "summary": "以角动量、角速度和叉积向量推导刚体方程。"
+    },
+    {
+      "title": "线性代数为什么学校老师讲得那么复杂，考研老师却讲得如此精辟？",
+      "url": "https://www.zhihu.com/answer/706315503",
+      "summary": "把列图像解释为向量线性组合。"
+    },
+    {
+      "title": "格林公式的物理意义和几何意义是什么？为什么格林公式与路径无关？",
+      "url": "https://www.zhihu.com/answer/706368491",
+      "summary": "用梯度、旋度和散度解释外微分对应关系。"
+    },
+    {
+      "title": "如何巧记「积化和差」与「和差化积」公式？",
+      "url": "https://www.zhihu.com/answer/716228478",
+      "summary": "用向量投影给出三角恒等式的几何解释。"
+    },
+    {
+      "title": "怎样速成线性代数？",
+      "url": "https://www.zhihu.com/answer/717719551",
+      "summary": "正文说明线性相关性的判断和证明，并在示例中实际计算向量组。"
+    },
+    {
+      "title": "怎样通俗地理解线性相关与线性无关？",
+      "url": "https://www.zhihu.com/answer/725628748",
+      "summary": "从向量线性组合解释线性相关与线性无关。"
+    },
+    {
+      "title": "矩阵乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/727385709",
+      "summary": "从基向量和线性组合解释向量空间。"
+    },
+    {
+      "title": "矩阵乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/728075625",
+      "summary": "从单位向量和内积建立变换直觉。"
+    },
+    {
+      "title": "希尔伯特空间、内积空间的定义有什么关系和区别？",
+      "url": "https://www.zhihu.com/answer/731866608",
+      "summary": "用向量内积和正交结构解释空间。"
+    },
+    {
+      "title": "如何直观理解矩阵和线性代数？",
+      "url": "https://www.zhihu.com/answer/734162947",
+      "summary": "从向量、基与线性组合建立几何直觉。"
+    },
+    {
+      "title": "为什么对曲线的参数方程分别求导就是曲线在该点的切向量?",
+      "url": "https://www.zhihu.com/answer/735826519",
+      "summary": "用三坐标分速度的向量合成说明方向。"
+    },
+    {
+      "title": "怎么理解拟阵（matroid）？",
+      "url": "https://www.zhihu.com/answer/740466359",
+      "summary": "用向量组线性无关解释拟阵公理。"
+    },
+    {
+      "title": "奇异值的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/740565206",
+      "summary": "解释左右奇异向量及其几何投影。"
+    },
+    {
+      "title": "中国义务教育阶段和普通高中教育中的科目都有哪些失败之处？",
+      "url": "https://www.zhihu.com/answer/743763374",
+      "summary": "用洛伦兹力说明向量叉积的物理联系。"
+    },
+    {
+      "title": "如何透彻理解多重积分、格林公式、曲线积分等内容而不是只会套用计算公式做计算题？",
+      "url": "https://www.zhihu.com/answer/746121388",
+      "summary": "用向量场及切向量解释线积分。"
+    },
+    {
+      "title": "有没有一道题是从小学，一直做到初中，高中，大学，甚至工作？",
+      "url": "https://www.zhihu.com/answer/774431275",
+      "summary": "用正交向量内积推出勾股关系。"
+    },
+    {
+      "title": "矩阵乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/775628907",
+      "summary": "用行列向量内积解释矩阵乘法。"
+    },
+    {
+      "title": "如何理解线性代数？",
+      "url": "https://www.zhihu.com/answer/785751751",
+      "summary": "把输入输出对象统一解释为向量。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/794457085",
+      "summary": "以正交向量内积证明平方关系。"
+    },
+    {
+      "title": "向心力的公式是F=mv2/r，这个是怎么证出来的？",
+      "url": "https://www.zhihu.com/answer/809513762",
+      "summary": "正文另用位置、速度和角速度矢量的叉乘与投影推导切向、法向加速度。"
+    },
+    {
+      "title": "线性代数是做什么而发展出来的？",
+      "url": "https://www.zhihu.com/answer/821660263",
+      "summary": "把矩阵列解释为向量并讨论线性相关。"
+    },
+    {
+      "title": "对两个信号做互相关的目的和结果是什么？",
+      "url": "https://www.zhihu.com/answer/822469294",
+      "summary": "把离散信号视为向量并以夹角衡量相似性。"
+    },
+    {
+      "title": "曲面的三个偏导数为什么能表示法向量？",
+      "url": "https://www.zhihu.com/answer/830263186",
+      "summary": "把三个偏导数组成切平面的法向量。"
+    },
+    {
+      "title": "我想问问，怎么通俗易懂的解释一下线性代数中基础解系的概念？",
+      "url": "https://www.zhihu.com/answer/848333353",
+      "summary": "用向量及线性组合解释解空间。"
+    },
+    {
+      "title": "点积和叉乘的出现背景是什么？",
+      "url": "https://www.zhihu.com/answer/849798008",
+      "summary": "从力矩和方向解释叉积与点积的向量含义。"
+    },
+    {
+      "title": "请问高数中梯度为什么和法向量相等呢？",
+      "url": "https://www.zhihu.com/answer/852194722",
+      "summary": "用内积为零说明梯度与切向量正交。"
+    },
+    {
+      "title": "为什么A的行列式不等于0  A满秩?",
+      "url": "https://www.zhihu.com/answer/856530761",
+      "summary": "以行、列向量和基解释空间维度。"
+    },
+    {
+      "title": "ABC 均为n阶矩阵 ab=c 且b可逆，为什么有c的列向量组与a的列向量组等价？",
+      "url": "https://www.zhihu.com/answer/857860508",
+      "summary": "逐列展开矩阵乘积证明向量组等价。"
+    },
+    {
+      "title": "怎么推导向量数量积的坐标公式呢？",
+      "url": "https://www.zhihu.com/answer/883863521",
+      "summary": "从坐标分解推导向量点积公式。"
+    },
+    {
+      "title": "为什么两个矩阵乘积的行列式的值等于矩阵行列式的乘积？",
+      "url": "https://www.zhihu.com/answer/884812875",
+      "summary": "用两个单位向量构成的正方形解释矩阵变换。"
+    },
+    {
+      "title": "在求向量组的极大线性无关组时，为什么要将向量竖着放，然后对所构成的矩阵进行初等行变换？",
+      "url": "https://www.zhihu.com/answer/891810162",
+      "summary": "核心对象是向量组及其线性组合。"
+    },
+    {
+      "title": "不同方向的角速度可以向量叠加吗？",
+      "url": "https://www.zhihu.com/answer/893878739",
+      "summary": "正文区分数学向量与物理矢量，并用向量公理解释角速度为何可按向量处理。"
+    },
+    {
+      "title": "欧氏距离和余弦相似度的区别是什么？",
+      "url": "https://www.zhihu.com/answer/901605017",
+      "summary": "正文从向量模长与夹角比较欧氏距离和余弦相似度，并推导归一化后的单调关系。"
+    },
+    {
+      "title": "线性代数到底应该怎么学？",
+      "url": "https://www.zhihu.com/answer/907015513",
+      "summary": "正文具体解释向量的表示、基向量、线性无关与向量空间维度。"
+    },
+    {
+      "title": "如果一个向量组可以由另一个向量组线性表示，那么它们的秩是否相同？",
+      "url": "https://www.zhihu.com/answer/929668341",
+      "summary": "正文从向量组的秩、最大线性无关组和相互线性表出解释向量组之间的关系。"
+    },
+    {
+      "title": "如果一个向量组可以由另一个向量组线性表示，那么它们的秩是否相同？",
+      "url": "https://www.zhihu.com/answer/942447697",
+      "summary": "正文围绕向量组的线性表示、张成空间与秩的大小关系展开。"
+    },
+    {
+      "title": "坐标向量平行公式是什么？",
+      "url": "https://www.zhihu.com/answer/955923380",
+      "summary": "正文给出平面与空间向量平行、垂直的坐标判定公式。"
+    },
+    {
+      "title": "为什么相量（不是数学中的向量）还有点乘和叉乘？",
+      "url": "https://www.zhihu.com/answer/1015978914",
+      "summary": "正文按向量空间公理解释相量为何是向量。"
+    },
+    {
+      "title": "用向量证明余弦定理是否存在逻辑错误？",
+      "url": "https://www.zhihu.com/answer/1035177016",
+      "summary": "正文比较高中与线性代数视角下向量内积定义。"
+    },
+    {
+      "title": "标量的梯度描述的物理意义是什么？矢量有没有梯度？如果有，它的物理意义又是什么？",
+      "url": "https://www.zhihu.com/answer/1043618492",
+      "summary": "正文从三维向量点乘出发讲解梯度。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1050977678",
+      "summary": "正文用三个方向单位向量推导核心不等式。"
+    },
+    {
+      "title": "能不能通俗地解释一下线性空间？",
+      "url": "https://www.zhihu.com/answer/1064622776",
+      "summary": "正文用对加法和数乘封闭直观解释向量线性空间。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/1066881153",
+      "summary": "正文系统使用向量空间、哈默基和线性组合构造周期函数。"
+    },
+    {
+      "title": "怎么反驳：10元=100毛=10毛X10毛=1元X1元=1元？",
+      "url": "https://www.zhihu.com/answer/1069663855",
+      "summary": "正文用向量和单位向量形式化不同单位量的加法。"
+    },
+    {
+      "title": "为什么向量的数量积公式是 a·b＝|a|·|b|·cosθ？",
+      "url": "https://www.zhihu.com/answer/1084731446",
+      "summary": "正文从投影与几何意义推导向量点积公式。"
+    },
+    {
+      "title": "参数方程中t的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/1094581117",
+      "summary": "正文用向量函数表示参数曲线及其运动。"
+    },
+    {
+      "title": "如果你是阿里巴巴数学竞赛的出题官，你会出什么题目？",
+      "url": "https://www.zhihu.com/answer/1098332401",
+      "summary": "正文将矩阵行解释为Hamming空间中的向量点。"
+    },
+    {
+      "title": "为什么四则运算的运用这么广泛？",
+      "url": "https://www.zhihu.com/answer/1103932274",
+      "summary": "正文从向量空间公理解释向量运算。"
+    },
+    {
+      "title": "怎样直观的理解「极大无关组」，以及极大无关组的求法？",
+      "url": "https://www.zhihu.com/answer/1104039545",
+      "summary": "正文用空间维数直观解释极大线性无关组。"
+    },
+    {
+      "title": "有没有对隐函数求导公式的几何理解？",
+      "url": "https://www.zhihu.com/answer/1112573849",
+      "summary": "正文把梯度与曲线切向量的关系写成向量点积。"
+    },
+    {
+      "title": "为什么平面曲线在一点处法向量就是偏导数?",
+      "url": "https://www.zhihu.com/answer/1131408076",
+      "summary": "正文通过向量点积为零推出偏导向量是法向量。"
+    },
+    {
+      "title": "正方体的体对角线垂直吗？",
+      "url": "https://www.zhihu.com/answer/1145570235",
+      "summary": "正文用向量内积判断正方体两条体对角线不正交。"
+    },
+    {
+      "title": "什么是正交？",
+      "url": "https://www.zhihu.com/answer/1150521445",
+      "summary": "正文用向量内积与投影解释高维正交。"
+    },
+    {
+      "title": "曲面法向量的方向余弦怎么求？与曲面的侧是否有关系？",
+      "url": "https://www.zhihu.com/answer/1179979203",
+      "summary": "正文围绕法向量的内外侧选取及其方向余弦展开，核心概念是向量而非解析几何。"
+    },
+    {
+      "title": "为什么多数向量可以用少数向量线性表示，意味着多数向量线性相关?",
+      "url": "https://www.zhihu.com/answer/1196497601",
+      "summary": "正文从向量张成空间的维数解释线性相关与线性无关。"
+    },
+    {
+      "title": "方向导数最大值怎么求?",
+      "url": "https://www.zhihu.com/answer/1258461631",
+      "summary": "正文把方向导数写成梯度向量与方向单位向量的点积。"
+    },
+    {
+      "title": "两向量场的叉乘的旋度怎么计算？",
+      "url": "https://www.zhihu.com/answer/1274938780",
+      "summary": "正文用三矢量叉积公式和下标表示计算向量场叉乘的旋度。"
+    },
+    {
+      "title": "电路中的相量（Phasor）是向量（Vector）吗？",
+      "url": "https://www.zhihu.com/answer/1302309262",
+      "summary": "正文比较相量与二维实向量的结构。"
+    },
+    {
+      "title": "你能写出你认为既简洁又很酷的公式么？",
+      "url": "https://www.zhihu.com/answer/1305362818",
+      "summary": "正文推导向量三重积的拉格朗日公式。"
+    },
+    {
+      "title": "图二这个公式怎么得出？",
+      "url": "https://www.zhihu.com/answer/1315506197",
+      "summary": "正文直接讲解“向量”相关内容。"
+    },
+    {
+      "title": "一个向量乘它的转置，其几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/1420483558",
+      "summary": "正文用内积和外积矩阵比较向量乘转置的几何意义。"
+    },
+    {
+      "title": "为什么薛定谔方程的解本来是一堆复杂的函数，但是到了左矢右矢里面就变成了向量中的一堆数字？",
+      "url": "https://www.zhihu.com/answer/1421358075",
+      "summary": "正文从希尔伯特空间基展开解释薛定谔方程解与向量表示。"
+    },
+    {
+      "title": "点乘，叉乘，内积，外积之间都是什么关系？怎么用？",
+      "url": "https://www.zhihu.com/answer/1459785562",
+      "summary": "正文系统比较点积、叉积、内积和外积的定义与几何意义。"
+    },
+    {
+      "title": "如何理解皮尔逊相关系数（Pearson Correlation Coefficient）？",
+      "url": "https://www.zhihu.com/answer/1474391532",
+      "summary": "正文把相关系数表示为向量余弦和内积。"
+    },
+    {
+      "title": "矢量的点乘和叉乘是什么？",
+      "url": "https://www.zhihu.com/answer/1507148900",
+      "summary": "正文系统解释向量点乘与叉乘的计算和几何意义。"
+    },
+    {
+      "title": "⊙▽⊙=1/2▽(⊙·⊙)是什么意思？",
+      "url": "https://www.zhihu.com/answer/1528630450",
+      "summary": "正文直接讨论向量，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "高考数学向量有哪些二级结论？",
+      "url": "https://www.zhihu.com/answer/1541679314",
+      "summary": "正文直接讨论向量，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "梯度（gradient）到底是个什么东西？物理意义和数学意义分别是什么？",
+      "url": "https://www.zhihu.com/answer/1693484231",
+      "summary": "正文把梯度定义为有方向和大小的向量。"
+    },
+    {
+      "title": "如何向高一学生解释向量的意义？",
+      "url": "https://www.zhihu.com/answer/1715564486",
+      "summary": "正文从几何计算、高维空间和数据表示解释向量。"
+    },
+    {
+      "title": "为何向量没有除法运算？",
+      "url": "https://www.zhihu.com/answer/1720260789",
+      "summary": "正文从数乘和内积的映射类型解释向量没有通常除法。"
+    },
+    {
+      "title": "向量奔驰定理有哪些证明?",
+      "url": "https://www.zhihu.com/answer/1785724801",
+      "summary": "正文以向量线性组合和面积比证明奔驰定理。"
+    },
+    {
+      "title": "直线点向式方程如何改成一般式？",
+      "url": "https://www.zhihu.com/answer/1792197529",
+      "summary": "正文用方向向量表示空间直线。"
+    },
+    {
+      "title": "线性代数中的线性相关或无关到底是什么意思？秩又是什么东西？秩相同意味着什么？",
+      "url": "https://www.zhihu.com/answer/1901685277",
+      "summary": "正文从共线和线性组合定义线性相关与线性无关。"
+    },
+    {
+      "title": "向量组等价和矩阵等价的本质区别是什么？",
+      "url": "https://www.zhihu.com/answer/1905659861",
+      "summary": "正文用互相线性表示和秩比较向量组的等价。"
+    },
+    {
+      "title": "向量组等价和矩阵等价的本质区别是什么？",
+      "url": "https://www.zhihu.com/answer/1906955585",
+      "summary": "正文用相互线性表示和合成秩刻画向量组等价。"
+    },
+    {
+      "title": "什么叫正交变换?为什么要正交变换？",
+      "url": "https://www.zhihu.com/answer/1948791132",
+      "summary": "正文用向量之间的作用说明正交变换。"
+    },
+    {
+      "title": "1 不可以被 3 除尽，但为什么圆可以被三等分？",
+      "url": "https://www.zhihu.com/answer/1958303736",
+      "summary": "正文说明数组只是向量在特定基下的坐标表示。"
+    },
+    {
+      "title": "是否对于函数y=e^x上任意三点构成的三角形都是钝角三角形？若正确，请予以证明；若错误，请说明理由？",
+      "url": "https://www.zhihu.com/answer/1964416296",
+      "summary": "正文用向量点积判断三角形内角为钝角。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/1965182839",
+      "summary": "正文用向量力的平衡解释三角函数关系。"
+    },
+    {
+      "title": "如何从数学上确定手性？",
+      "url": "https://www.zhihu.com/answer/2004148534",
+      "summary": "正文用叉乘和定向解释左右手性。"
+    },
+    {
+      "title": "三根表针，两两互为 120° 是几点？",
+      "url": "https://www.zhihu.com/answer/2047624238",
+      "summary": "正文用向量和为零刻画三针两两夹角 120 度。"
+    },
+    {
+      "title": "请问为什么 sin（A+B）=sinAcosB+cosAsinB，有没有详细推导呢？",
+      "url": "https://www.zhihu.com/answer/2074014153",
+      "summary": "正文用单位向量点积与夹角余弦推出三角恒等式。"
+    },
+    {
+      "title": "怎样理解倒三角算子 ∇ 作用于一个矢量？",
+      "url": "https://www.zhihu.com/answer/2079219102",
+      "summary": "正文把 nabla 当作算符矢量并解释与普通矢量的区别。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2079759458",
+      "summary": "正文用向量加法和点积解释平移与坐标变换。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2080397128",
+      "summary": "正文以向量、内积和三角不等式展开线性空间。"
+    },
+    {
+      "title": "如何向高一学生解释向量的意义？",
+      "url": "https://www.zhihu.com/answer/2082627593",
+      "summary": "正文用有向线段的平移等价类严谨定义平面向量。"
+    },
+    {
+      "title": "象棋中的马能把棋盘每一个格都跳完吗？",
+      "url": "https://www.zhihu.com/answer/2103225870",
+      "summary": "正文把象棋马步写成向量并研究其线性组合。"
+    },
+    {
+      "title": "计算商品embedding然后平均得到用户embedding，会不会存在这种问题？",
+      "url": "https://www.zhihu.com/answer/2107002181",
+      "summary": "正文以向量点平均和高维空间距离进行几何解释。"
+    },
+    {
+      "title": "计算商品embedding然后平均得到用户embedding，会不会存在这种问题？",
+      "url": "https://www.zhihu.com/answer/2107561627",
+      "summary": "正文从高维向量点平均和距离关系解释维度直觉。"
+    },
+    {
+      "title": "为什么 Bert 的三个 Embedding 可以进行相加？",
+      "url": "https://www.zhihu.com/answer/2108264167",
+      "summary": "正文把嵌入相加解释为不同空间线性映射到同一向量空间。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/2110009942",
+      "summary": "正文从有限维向量空间和线性变换的基础出发介绍对偶。"
+    },
+    {
+      "title": "如何理解并区分线性空间、向量空间、矩阵空间这三个数学概念？",
+      "url": "https://www.zhihu.com/answer/2110144459",
+      "summary": "正文系统解释向量空间、子空间和列空间。"
+    },
+    {
+      "title": "怎么巧记施密特正交公式？如图。？",
+      "url": "https://www.zhihu.com/answer/2124439346",
+      "summary": "正文从向量内积和正交分解解释Gram-Schmidt正交化。"
+    },
+    {
+      "title": "虚数存在的意义是什么？",
+      "url": "https://www.zhihu.com/answer/2140845322",
+      "summary": "正文用复平面向量及其旋转解释复数加法与乘法的几何意义。"
+    },
+    {
+      "title": "线性代数到底是什么？",
+      "url": "https://www.zhihu.com/answer/2146712028",
+      "summary": "正文以向量和向量组的组合关系解释线性代数的研究对象。"
+    },
+    {
+      "title": "向量的投影是什么？",
+      "url": "https://www.zhihu.com/answer/2173396269",
+      "summary": "正文系统讲解向量向直线、平面和空间投影的计算。"
+    },
+    {
+      "title": "怎么巧记施密特正交公式？如图。？",
+      "url": "https://www.zhihu.com/answer/2204004842",
+      "summary": "正文从向量投影推导施密特正交化公式，并在二维和三维空间中示例。"
+    },
+    {
+      "title": "如何衡量两组向量的相似度，有什么好的方法？",
+      "url": "https://www.zhihu.com/answer/2260755496",
+      "summary": "正文用向量夹角余弦解释向量相似度。"
+    },
+    {
+      "title": "在 △ABC 中，求证：cos A + cos B + cos C ≤ 1.5？",
+      "url": "https://www.zhihu.com/answer/2273530974",
+      "summary": "正文用三个单位向量的平方非负证明余弦不等式。"
+    },
+    {
+      "title": "双塔模型最后一层为什么都进行L2 Norm？",
+      "url": "https://www.zhihu.com/answer/2274732251",
+      "summary": "正文用向量内积、长度和余弦相似度解释 L2 归一化的几何意义。"
+    },
+    {
+      "title": "为什么 n - r = 基础解系的个数？",
+      "url": "https://www.zhihu.com/answer/2277347746",
+      "summary": "正文把基础解系解释为解向量组的极大线性无关组。"
+    },
+    {
+      "title": "如何用向量表示圆锥曲线?",
+      "url": "https://www.zhihu.com/answer/2288064939",
+      "summary": "正文给出过三点圆锥曲线和已知焦点圆锥曲线的向量表示。"
+    },
+    {
+      "title": "向量为什么作用那么大、那么好用、且与其他数学工具之间配合的那么好？",
+      "url": "https://www.zhihu.com/answer/2293789195",
+      "summary": "正文把向量解释为高维坐标并说明其运算与应用。"
+    },
+    {
+      "title": "角速度是矢量还是标量？",
+      "url": "https://www.zhihu.com/answer/2299057902",
+      "summary": "正文从张量对偶与坐标变换解释角速度的赝向量性质。"
+    },
+    {
+      "title": "当前的数学语言还有什么可以改进的地方?",
+      "url": "https://www.zhihu.com/answer/2316097465",
+      "summary": "正文讨论字母上加箭头的向量符号在近代才流行。"
+    },
+    {
+      "title": "在四维或更高维的空间中，该如何定义转动？",
+      "url": "https://www.zhihu.com/answer/2317649037",
+      "summary": "正文从向量和线性子空间出发构造高维旋转。"
+    },
+    {
+      "title": "听说线性代数可以在高中降维打击数列、圆锥曲线，具体是怎么应用的？",
+      "url": "https://www.zhihu.com/answer/2318429267",
+      "summary": "正文用向量内积、距离和夹角处理几何与统计计算。"
+    },
+    {
+      "title": "为什么部分大一学生认为线性代数听不懂？",
+      "url": "https://www.zhihu.com/answer/2321460797",
+      "summary": "正文明确把向量列为线性代数的核心对象。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/2341087571",
+      "summary": "正文从向量内积解释 Cauchy-Schwarz 不等式及其几何形式。"
+    },
+    {
+      "title": "Bert中的词向量各向异性具体什么意思啊？",
+      "url": "https://www.zhihu.com/answer/2353153090",
+      "summary": "正文用向量空间中的方向分布解释各向异性。"
+    },
+    {
+      "title": "若零向量没有方向，那它还是向量吗？",
+      "url": "https://www.zhihu.com/answer/2393088500",
+      "summary": "正文从线性空间公理给出向量及零向量的严格定义。"
+    },
+    {
+      "title": "为什么美国中小学生学的数学比我们简单，美国人却还能做出超级牛的东西？",
+      "url": "https://www.zhihu.com/answer/2395460021",
+      "summary": "正文强调向量在几何表达和程序化应用中的价值。"
+    },
+    {
+      "title": "如何理解斯密特正交化法？",
+      "url": "https://www.zhihu.com/answer/2402822636",
+      "summary": "正文从向量空间的一组基出发，构造两两正交的向量组。"
+    },
+    {
+      "title": "为什么天体轨道是圆锥曲线（椭圆、抛物线、双曲线）？",
+      "url": "https://www.zhihu.com/answer/2424106144",
+      "summary": "正文用位置向量与力向量的叉积为零证明角动量守恒。"
+    },
+    {
+      "title": "设计embedding维数的时候有什么讲究？",
+      "url": "https://www.zhihu.com/answer/2442192637",
+      "summary": "正文以单位向量和随机子空间投影说明高维向量的近似行为。"
+    },
+    {
+      "title": "为什么batch内负采样以后，只对正样本算CEloss？",
+      "url": "https://www.zhihu.com/answer/2471440296",
+      "summary": "正文使用用户与物品语义向量的余弦相似度构造训练分数。"
+    },
+    {
+      "title": "深度学习attention机制中的Q,K,V分别是从哪来的？",
+      "url": "https://www.zhihu.com/answer/2473804749",
+      "summary": "正文把 token embedding 作为向量，并讨论向量在表示空间中的位置。"
+    },
+    {
+      "title": "花一整夜的时间解一个方程是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/2495940785",
+      "summary": "正文把角动量与离心率写成向量分量并展开计算。"
+    },
+    {
+      "title": "能不能用纯代数方法证明勾股定理？",
+      "url": "https://www.zhihu.com/answer/2496830882",
+      "summary": "正文用向量内积定义长度、距离与夹角，并推广到一般欧氏空间。"
+    },
+    {
+      "title": "拉格朗日恒等式为什么被称为二维勾股定理？",
+      "url": "https://www.zhihu.com/answer/2509408995",
+      "summary": "正文从平面向量的点乘、叉乘和模长关系推导拉格朗日恒等式。"
+    },
+    {
+      "title": "如何求解下述向量表达式？",
+      "url": "https://www.zhihu.com/answer/2512871396",
+      "summary": "用矢量恒等式与 Levi-Civita 符号推导梯度、叉积和点乘的混合运算公式。"
+    },
+    {
+      "title": "如何直观形象地理解梯度、散度、旋度？",
+      "url": "https://www.zhihu.com/answer/2577700310",
+      "summary": "用向量场的通量、环量和分量分解解释散度与旋度的几何意义。"
+    },
+    {
+      "title": "如何通俗理解矩阵左乘和右乘的区别？",
+      "url": "https://www.zhihu.com/answer/2613365732",
+      "summary": "用坐标轴投影和点乘解释向量在不同坐标系中的表示与转换。"
+    },
+    {
+      "title": "请问信号与系统中傅里叶变换要理解到什么程度?或者说傅里叶变换在这门学科中是什么地位?",
+      "url": "https://www.zhihu.com/answer/2647481225",
+      "summary": "用向量空间与正交基的视角理解函数展开和 Parseval 定理。"
+    },
+    {
+      "title": "为什么在矢量分析中，梯度无旋，旋度无散？",
+      "url": "https://www.zhihu.com/answer/2663399910",
+      "summary": "从四元数出发系统讲解向量、向量加法、数乘、内积与外积。"
+    },
+    {
+      "title": "向量点乘的实质是什么？",
+      "url": "https://www.zhihu.com/answer/2663409261",
+      "summary": "从四元数与向量乘法出发，解释数量积、内积和外积的定义及几何意义。"
+    },
+    {
+      "title": "如何直观形象地理解梯度、散度、旋度？",
+      "url": "https://www.zhihu.com/answer/2663436569",
+      "summary": "从四元数与向量乘法出发，解释向量的数乘、内积和外积。"
+    },
+    {
+      "title": "为什么要学《机器人学导论》 这本书？",
+      "url": "https://www.zhihu.com/answer/2673726358",
+      "summary": "正文系统使用坐标向量、向量加法和叉乘推导关节速度，并强调不同坐标系中的向量运算条件。"
+    },
+    {
+      "title": "为什么说“旋量是矢量的平方根”？",
+      "url": "https://www.zhihu.com/answer/2682264261",
+      "summary": "正文用泡利矩阵给出旋量的双线性型，并明确说明该量构成三维空间矢量。"
+    },
+    {
+      "title": "你见过什么复杂到让你目瞪口呆的公式？",
+      "url": "https://www.zhihu.com/answer/2696840094",
+      "summary": "正文强调矢量场不能拆成互不相关的三个标量方程，并展示球坐标下各分量的相互耦合。"
+    },
+    {
+      "title": "为什么部分大一学生认为线性代数听不懂？",
+      "url": "https://www.zhihu.com/answer/2717788528",
+      "summary": "正文从平面和空间向量推广说明一般向量的引入动机。"
+    },
+    {
+      "title": "怎样通俗地理解线性相关与线性无关？",
+      "url": "https://www.zhihu.com/answer/2733938411",
+      "summary": "正文把 RGB 颜色写成向量，并用向量加法和线性组合解释颜色混合，进而定义线性相关与线性无关。"
+    },
+    {
+      "title": "散度和旋度的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/2747752390",
+      "summary": "正文追溯向量的起源，并用有向线段和四元数解释向量及其运算。"
+    },
+    {
+      "title": "看到一个说法说速度是vector而动量是covector，有什么好的解释吗？",
+      "url": "https://www.zhihu.com/answer/2760403804",
+      "summary": "正文把广义速度明确解释为切空间中的向量，并据此区分速度与动量。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2766027839",
+      "summary": "正文用向量叉积和Jacobi恒等式刻画球面三角形的几何关系，并据此证明三垂线共点。"
+    },
+    {
+      "title": "平面上n个随机单位向量之和的长度小于1的概率是多少？",
+      "url": "https://www.zhihu.com/answer/2837622869",
+      "summary": "正文把随机单位向量首尾相接，并用每次位移向量相加后的模长解释所求概率。"
+    },
+    {
+      "title": "将「小黑子露出鸡脚了」中的「鸡」和「黑」交换变为「小鸡子露出黑脚了」，这是什么语言现象？",
+      "url": "https://www.zhihu.com/answer/2869882514",
+      "summary": "正文把八个字的排列表示成向量，并用八个基向量描述两个字序之间的转换。"
+    },
+    {
+      "title": "向量内积的结果为什么是数而不是向量?",
+      "url": "https://www.zhihu.com/answer/2877858837",
+      "summary": "正文把向量视为特殊矩阵，并通过向量对应的映射及其与内积映射的复合解释向量内积为何得到实数。"
+    },
+    {
+      "title": "能否将“奔驰定理”推广至高维空间中？",
+      "url": "https://www.zhihu.com/answer/2919526164",
+      "summary": "正文以三维向量叉积解释奔驰定理，并把叉积与楔积的 Hodge 星对偶联系起来推广到一般向量空间。"
+    },
+    {
+      "title": "函数和泛函的区别是什么？",
+      "url": "https://www.zhihu.com/answer/2933002860",
+      "summary": "正文用坐标标号映射解释三维空间中的向量可看作定义在三个标号上的函数。"
+    },
+    {
+      "title": "你第一次感觉到物理、数学与现实的联系是什么时候？",
+      "url": "https://www.zhihu.com/answer/3024943614",
+      "summary": "正文把离散化后的函数写成向量形式，并用向量内积解释函数正交。"
+    },
+    {
+      "title": "线性代数有什么用？学习线性代数的意义在哪？",
+      "url": "https://www.zhihu.com/answer/3050350031",
+      "summary": "正文说明矩阵由行向量和列向量构成，并以每个样本或特征解释向量含义。"
+    },
+    {
+      "title": "为什么一道几何题不添加辅助线就做不出来，添加了才做的出来，添加辅助线后多了条件吗?",
+      "url": "https://www.zhihu.com/answer/3058635402",
+      "summary": "正文以比较两条直线的方向向量证明平行，具体展示向量在解析几何中的应用。"
+    },
+    {
+      "title": "如何形象地理解四元数？",
+      "url": "https://www.zhihu.com/answer/3074942168",
+      "summary": "正文以三维向量绕指定轴旋转为问题，使用向量方向、分量和投影推导旋转关系。"
+    },
+    {
+      "title": "为什么说“旋量是矢量的平方根”？",
+      "url": "https://www.zhihu.com/answer/3101029714",
+      "summary": "正文从旋转群作用和变换规律出发解释三维矢量，而非只把矢量看成三个数组成的数组。"
+    },
+    {
+      "title": "transformer中q,k相乘求相似度时为什么不用除以二者的模？",
+      "url": "https://www.zhihu.com/answer/3241211528",
+      "summary": "正文用模长、单位向量、夹角和点积分解解释向量相似度以及归一化会丢掉的信息。"
+    },
+    {
+      "title": "高中数学有没有什么比较牛 X 的公式？",
+      "url": "https://www.zhihu.com/answer/3250791743",
+      "summary": "正文系统列出并证明极化恒等式、分点恒等式等多个向量恒等式，还用它们计算向量点积。"
+    },
+    {
+      "title": "三角形\"四心\"向量形式怎么记?总是记混？",
+      "url": "https://www.zhihu.com/answer/3252495917",
+      "summary": "正文集中列出并用向量加法、数量积和模长关系表示三角形的重心、垂心、内心和外心。"
+    },
+    {
+      "title": "西方数学是建立在中国古代数学上的吗？",
+      "url": "https://www.zhihu.com/answer/3272746930",
+      "summary": "正文借麦克斯韦方程组的表示演变说明向量及其坐标表示的历史。"
+    },
+    {
+      "title": "微积分与线性代数有关系吗？",
+      "url": "https://www.zhihu.com/answer/3306662593",
+      "summary": "正文区分向量代数与相关领域，并具体说明向量及其加法、数乘、点积和叉积等运算。"
+    },
+    {
+      "title": "如何证明这个导数难题?",
+      "url": "https://www.zhihu.com/answer/3306890081",
+      "summary": "正文构造两个平面向量，利用点积、夹角余弦和模长关系完成同一代数不等式证明。"
+    },
+    {
+      "title": "有哪些大学数学知识能在高中数学中用到？",
+      "url": "https://www.zhihu.com/answer/3318660546",
+      "summary": "正文通过代数余子式构造与两个向量都垂直的向量，系统解释叉乘及其法向量应用。"
+    },
+    {
+      "title": "6岁女儿问为什么负数乘以负数得正数，有啥通俗易懂的答案？",
+      "url": "https://www.zhihu.com/answer/3324256011",
+      "summary": "正文以向量乘以负一对应旋转 180 度，说明该乘法的几何作用。"
+    },
+    {
+      "title": "《线性代数应该这样学》（《Linear Algebra Done Right》）这本书到底好在哪儿？",
+      "url": "https://www.zhihu.com/answer/3335613252",
+      "summary": "正文比较从代数元组构造向量与先由几何基础建立向量基、再用坐标转述的方法。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/3365050586",
+      "summary": "正文以线性独立的系数向量为基说明二维向量空间，并讨论解向量与基的对应关系。"
+    },
+    {
+      "title": "九省联考数学圆锥曲线大题，感觉学的极点极线等派不上用场，求妙解？",
+      "url": "https://www.zhihu.com/answer/3369271700",
+      "summary": "正文引入四个向量表示各点，并用叉积分别计算三角形和四边形面积以完成面积比例证明。"
+    },
+    {
+      "title": "如何看待北大副教授李植和答主质点关于数学物理的学术观点交锋？",
+      "url": "https://www.zhihu.com/answer/3376124678",
+      "summary": "正文用笛卡尔坐标和极坐标中的不同分量说明向量本身与坐标表示的区别，具体展开了向量的坐标变换观点。"
+    },
+    {
+      "title": "有哪些信、达、不雅的翻译？",
+      "url": "https://www.zhihu.com/answer/3399102650",
+      "summary": "正文以“有方向的量”说明 vector 的含义，并联系数学中的“向量”和“基向量”等术语。"
+    },
+    {
+      "title": "这个柯西-施瓦茨不等式(Cauchy-Schwarz inequality)的证明方法是如何想出来的？",
+      "url": "https://www.zhihu.com/answer/3417667668",
+      "summary": "正文用向量内积、长度、夹角与投影解释柯西不等式，并讨论其几何意义。"
+    },
+    {
+      "title": "如何理解傅里叶变换公式？",
+      "url": "https://www.zhihu.com/answer/3426007561",
+      "summary": "正文用箭头、伸缩和相加解释向量，并用向量在基底上的投影说明坐标表示。"
+    },
+    {
+      "title": "我一直很好奇，高中数学考试每次145+的人怎么做到的？",
+      "url": "https://www.zhihu.com/answer/3470526785",
+      "summary": "正文展开讲解向量的表示、可平移性、平面向量基本定理和坐标化运算。"
+    },
+    {
+      "title": "外微分形式为什么要是反对称的？Cartan当年为什么要这样定义？",
+      "url": "https://www.zhihu.com/answer/3486678510",
+      "summary": "正文给出三维向量外积的定义、代数性质及其与平行四边形面积和右手定向的几何意义。"
+    },
+    {
+      "title": "生活即教育，你在生活中学到了什么？",
+      "url": "https://www.zhihu.com/answer/3506832312",
+      "summary": "正文用坐标表示向量，并解释平行、垂直、基、正交基、内积以及二维到高维的张成。"
+    },
+    {
+      "title": "数学考试为了尊严,你会选择不建系的做法吗?",
+      "url": "https://www.zhihu.com/answer/3510086801",
+      "summary": "正文用三个不共面的空间向量可组成一组基说明坐标系的向量基础。"
+    },
+    {
+      "title": "为什么线性代数如此复杂？",
+      "url": "https://www.zhihu.com/answer/3510296041",
+      "summary": "正文由向量的线性表示、线性无关和极大无关组讨论向量组与空间维数。"
+    },
+    {
+      "title": "李代数为何要满足 Jacobi identity？",
+      "url": "https://www.zhihu.com/answer/3535339676",
+      "summary": "正文从向量的大小、方向和位置出发，解释平移不变性、位置增量与速度，具体展开了向量概念。"
+    },
+    {
+      "title": "有没有哪些数学题的某一步处理堪称神来之笔？",
+      "url": "https://www.zhihu.com/answer/3549091740",
+      "summary": "正文以平面单位向量及其子集和为基本对象，构造点集并分析向量和对应的平面点。"
+    },
+    {
+      "title": "线性代数究竟是为解决什么问题而生的?",
+      "url": "https://www.zhihu.com/answer/3556758378",
+      "summary": "正文用旋转坐标系下同一有向线段的分量变化，具体说明向量的几何不变性。"
+    },
+    {
+      "title": "你读过的书中，哪本对你的影响最大？",
+      "url": "https://www.zhihu.com/answer/3579877841",
+      "summary": "正文讨论平面向量是有向线段、具有加法与数乘，并提出从几何角度定义向量除法，对应向量叶节点。"
+    },
+    {
+      "title": "为什么有的人怎么努力也学不好高中数学？",
+      "url": "https://www.zhihu.com/answer/3585538740",
+      "summary": "正文解释向量的坐标表示、基底、内积以及平行和垂直关系，说明其在解析几何中的用途。"
+    },
+    {
+      "title": "高中阶段自己独立思考硬刚写出来的题和直接看答案，二者效果上有什么区别?",
+      "url": "https://www.zhihu.com/answer/3636281806",
+      "summary": "正文用平移不变的性质解释向量法求点到直线距离为何能够跳过求交点坐标而简化运算。"
+    },
+    {
+      "title": "如何评价新版Claude Sonnet 3.5?",
+      "url": "https://www.zhihu.com/answer/13140492775",
+      "summary": "正文用向量混合积表示四面体体积，并通过叉乘与点乘完成计算。"
+    },
+    {
+      "title": "为什么全国通用高中数学课本章建跃主编在教学论文中犯基本概念错误？",
+      "url": "https://www.zhihu.com/answer/31772786156",
+      "summary": "正文从向量空间运算、多项式与坐标实例、基和线性相关等角度系统解释向量及其多种实现。"
+    },
+    {
+      "title": "llama.cpp里面的Q8_0,Q6_K_M,Q4_K_M量化原理是什么？",
+      "url": "https://www.zhihu.com/answer/41304255700",
+      "summary": "正文把多个权重组成高维向量，通过计算与码字的距离来编码和近似重建，展开了矢量表示及其运算。"
+    },
+    {
+      "title": "为什么高维空间下距离度量逐渐失效？",
+      "url": "https://www.zhihu.com/answer/62648611549",
+      "summary": "正文用向量点积和模长定义余弦相似度，并讨论高维随机向量趋于正交。"
+    },
+    {
+      "title": "最短的路径一定是直线吗？",
+      "url": "https://www.zhihu.com/answer/126681682864",
+      "summary": "正文把n元实数组定义为欧几里得空间的向量，并具体给出向量加法、数乘和Lp范数。"
+    },
+    {
+      "title": "A,B,C,D,E,F 是单位圆上依次排列的六个点，如何证明向量之和 AB+CD+EF 的模 ≤ 2？",
+      "url": "https://www.zhihu.com/answer/127659417043",
+      "summary": "正文把三个向量之和转化为同一直线上的投影，再通过投影向量相加证明模长上界，具体讲解了向量的分解与合成。"
+    },
+    {
+      "title": "有哪些数学理论最初被认为「毫无用处」，却在某个领域意外成为关键技术支柱？",
+      "url": "https://www.zhihu.com/answer/128776917467",
+      "summary": "正文把复数对应到复平面上的点和向量，并用模长缩放、辐角旋转解释复数乘除的几何意义。"
+    },
+    {
+      "title": "如何求3sinA+4sinB+18sinC的最大值？",
+      "url": "https://www.zhihu.com/answer/130858024177",
+      "summary": "正文通过构造三个平面向量并利用差的平方非负，给出嵌入不等式的一种完整向量证明。"
+    },
+    {
+      "title": "在数学学习中，你遇到过哪些有趣的同构？",
+      "url": "https://www.zhihu.com/answer/1891929981900276784",
+      "summary": "正文通过内积诱导的对偶同构来回转换向量与余向量，并进一步讨论切向量场和余切向量场。"
+    },
+    {
+      "title": "函数在某点的「梯度」和「微分」有什么不同？",
+      "url": "https://www.zhihu.com/answer/1893361872088068410",
+      "summary": "正文通过梯度、内积和线性算子解释向量的分量、方向以及与余向量的对偶关系。"
+    },
+    {
+      "title": "对一个正方体选其中一个体对角线，绕着该体对角线轴旋转，所经过的空间除去两端圆锥，剩下的侧边曲线是何?",
+      "url": "https://www.zhihu.com/answer/1897035395390219991",
+      "summary": "正文建立空间向量表示，利用向量加法、共面条件与点积垂直条件求截面圆半径。"
+    },
+    {
+      "title": "线性代数的发明过程和意义是什么？",
+      "url": "https://www.zhihu.com/answer/1897099735728373873",
+      "summary": "正文具体讲解向量的坐标表示、缩放与平行四边形法则式的求和。"
+    },
+    {
+      "title": "如何形象地理解四元数？",
+      "url": "https://www.zhihu.com/answer/1908595712100376715",
+      "summary": "把单位四元数的虚部解释为表示旋转轴方向的三维向量。"
+    },
+    {
+      "title": "√3+√5=3.9681……,如果知道足够多位数的小数点数字，能反推出这个无理数就是√3+√5吗？",
+      "url": "https://www.zhihu.com/answer/1919840748259488224",
+      "summary": "正文构造由多项式系数和带惩罚项的函数值组成的向量，用向量长度衡量候选代数方程的误差。"
+    },
+    {
+      "title": "哈密顿四元数是如何开平方的？",
+      "url": "https://www.zhihu.com/answer/1929330402138493580",
+      "summary": "正文把四元数拆成标量部分和三维向量部分，利用向量共线与模长关系完成开方。"
+    },
+    {
+      "title": "傅里叶变换，乘以一个复指数函数，然后积分，为何就提取出了频率信号？",
+      "url": "https://www.zhihu.com/answer/1929658247654114902",
+      "summary": "正文把连续实值函数视为无限维向量空间中的向量，并解释其坐标与内积。"
+    },
+    {
+      "title": "掌握什么思想会让你的数学水平有质的飞跃?",
+      "url": "https://www.zhihu.com/answer/1931298770039054433",
+      "summary": "正文解释向量只保留大小和方向，并据此说明向量平移、坐标表示和加减法。"
+    },
+    {
+      "title": "除了使用洛伦兹度规，还有什么数学模型能让光速不变？",
+      "url": "https://www.zhihu.com/answer/1931801429498127707",
+      "summary": "正文用切向量及其范数刻画世界线速度，并把光速不变写成任意向量的范数在变换下保持不变。"
+    },
+    {
+      "title": "线性代数的本质是什么，它的线性体现在哪？",
+      "url": "https://www.zhihu.com/answer/1933116618860377551",
+      "summary": "正文从加法和数乘的封闭性定义向量空间，并用多项式与声波说明向量不必是几何箭头。"
+    },
+    {
+      "title": "速度是矢量，那么速度的平方是不是矢量呢？",
+      "url": "https://www.zhihu.com/answer/1933176570379478653",
+      "summary": "正文用四元数乘法分解出标量部与矢量部，解释点乘、叉乘及速度矢量平方的来源。"
+    },
+    {
+      "title": "为什么大自然不允许三元数结构出现？",
+      "url": "https://www.zhihu.com/answer/1937610904331067984",
+      "summary": "正文用三个基矩阵张成的三维实向量空间说明代数元素的空间结构及维度。"
+    },
+    {
+      "title": "怎么用通俗的语言解释什么是费米子，什么是玻色子？",
+      "url": "https://www.zhihu.com/answer/1938186193817825535",
+      "summary": "正文具体讨论标量与向量的乘法、内积、外积以及平行和正交向量之间的关系。"
+    },
+    {
+      "title": "为什么高维空间下距离度量逐渐失效？",
+      "url": "https://www.zhihu.com/answer/1938650080556094177",
+      "summary": "正文用图像向量、欧氏距离、点积和余弦相似度具体解释向量表示与相似度计算。"
+    },
+    {
+      "title": "怎么在一个晚上搞定线性代数？",
+      "url": "https://www.zhihu.com/answer/1943101968374530493",
+      "summary": "正文把向量解释为具有方向和长度的空间箭头，并用坐标表示、夹角和余弦相似度展开这一观点。"
+    },
+    {
+      "title": "为什么我们在镜子中看到的自己是左右颠倒，而不是上下颠倒？",
+      "url": "https://www.zhihu.com/answer/1946399577868591513",
+      "summary": "正文以矢量与赝矢量的区别解释镜子中的方向为什么表现为左右颠倒。"
+    },
+    {
+      "title": "如何理解线性代数？",
+      "url": "https://www.zhihu.com/answer/1948348588015986531",
+      "summary": "正文用空间中的点或有向箭头解释向量，并强调其位置、方向和大小。"
+    },
+    {
+      "title": "精通线性代数是种怎样的体验？怎样才能称得上精通线性代数？",
+      "url": "https://www.zhihu.com/answer/1953465723763532888",
+      "summary": "正文把向量解释为空间中的几何对象，并进一步讨论向量空间、基、坐标和高维词向量。"
+    },
+    {
+      "title": "大学线性代数听不懂，有什么自学的方法（初学者）？",
+      "url": "https://www.zhihu.com/answer/1955622787315143831",
+      "summary": "正文把向量解释为空间中的箭头，并用方向和长度描述向量，再讨论其在矩阵作用下的变化。"
+    },
+    {
+      "title": "如何评价人教 A 版数学教材主编章建跃指出「有些劣质教辅资料制造出的理论名词，懂数学的人都看不懂」？",
+      "url": "https://www.zhihu.com/answer/1956879536764486648",
+      "summary": "正文以极化恒等式说明如何用向量和的范数计算两个向量的内积。"
+    },
+    {
+      "title": "线性代数的核心思维可以用通俗的例子说明吗?",
+      "url": "https://www.zhihu.com/answer/1959545792357471073",
+      "summary": "正文用坐标、模长、方向和加法具体解释二维向量。"
+    },
+    {
+      "title": "为什么几何数学在大学里消失了？",
+      "url": "https://www.zhihu.com/answer/1960635940738401813",
+      "summary": "正文从有向线段引入向量，并说明向量、内积和线性变换等几何概念的代数抽象。"
+    },
+    {
+      "title": "线性代数中的线性相关或无关到底是什么意思？秩又是什么东西？秩相同意味着什么？",
+      "url": "https://www.zhihu.com/answer/1960794373403939206",
+      "summary": "正文以员工协作说明向量可通过线性组合张成向量空间，并解释线性相关与线性无关。"
+    },
+    {
+      "title": "如何求函数y=e^x与y=lnx的最近距离？",
+      "url": "https://www.zhihu.com/answer/1978716289968145791",
+      "summary": "正文用切向量与连接向量的点积为零表达两条切线同向且连接线段垂直于切线。"
+    },
+    {
+      "title": "线性代数究竟是为解决什么问题而生的?",
+      "url": "https://www.zhihu.com/answer/1980211489823543799",
+      "summary": "正文用用户画像、RGB 颜色和词嵌入说明向量是有序数列，并以其描述状态和语义关系。"
+    },
+    {
+      "title": "你听过导师最有水平的一句话是什么？",
+      "url": "https://www.zhihu.com/answer/1981108749386142115",
+      "summary": "正文定义张量场的梯度、散度与旋度并给出多项运算恒等式，具体讲授了向量场的微分运算。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1984397147613978969",
+      "summary": "正文把二维向量拆成两个基向量的线性组合，并用列向量的组合解释矩阵作用于向量的结果。"
+    },
+    {
+      "title": "矩阵的奇异值与特征值有什么相似之处与区别之处？",
+      "url": "https://www.zhihu.com/answer/1985167626855522901",
+      "summary": "正文用逆变矢量与协变矢量的缩并解释矩阵向量乘法和线性算子的作用。"
+    },
+    {
+      "title": "三角函数的公式这么多，就算会推也记不住，你是怎样记住它们的？",
+      "url": "https://www.zhihu.com/answer/2002147327192880868",
+      "summary": "正文通过两个单位向量的数量积及其坐标表达推导余弦和角公式。"
+    },
+    {
+      "title": "高中几何中的“奔驰定理”是否和向量辛形式有联系？",
+      "url": "https://www.zhihu.com/answer/2003115686088704181",
+      "summary": "把二维向量写成坐标，通过向量与辛形式的乘积关系推导奔驰定理中的线性关系系数。"
+    },
+    {
+      "title": "学习数学时，什么时候该停止考虑“几何意义”?",
+      "url": "https://www.zhihu.com/answer/2011461338786992257",
+      "summary": "正文以线性方程组的列向量线性组合解释向量空间中的张成关系。"
+    },
+    {
+      "title": "掌握什么思想会让你的数学水平有质的飞跃?",
+      "url": "https://www.zhihu.com/answer/2014363396879972095",
+      "summary": "正文用高维向量表征文本和图片，并以夹角和余弦相似度解释语义相关性的几何含义。"
+    },
+    {
+      "title": "线性代数究竟是为解决什么问题而生的?",
+      "url": "https://www.zhihu.com/answer/2016463933767197055",
+      "summary": "正文把位置、图像和关节角等成组数据统一视为向量，解释其整体表示作用。"
+    },
+    {
+      "title": "线性代数究竟是为解决什么问题而生的?",
+      "url": "https://www.zhihu.com/answer/2016914765264462940",
+      "summary": "正文把向量解释为空间中的坐标或有向线段，并用高维状态向量描述多变量系统。"
+    },
+    {
+      "title": "线性代数究竟是为解决什么问题而生的?",
+      "url": "https://www.zhihu.com/answer/2017362680575447876",
+      "summary": "正文把用户的多维特征解释为高维空间中的向量，并用其夹角和点积衡量相似度。"
+    },
+    {
+      "title": "如何证明叉乘只存在R^3、R^7中？",
+      "url": "https://www.zhihu.com/answer/2018897594160543719",
+      "summary": "正文从垂直性、面积公式和内积出发严格定义叉乘这一向量运算。"
+    },
+    {
+      "title": "谷歌干崩内存股价的TurboQuant 论文被 RaBitQ 作者指出存在严重错误，怎么理解？",
+      "url": "https://www.zhihu.com/answer/2021671166532756431",
+      "summary": "正文比较多维向量的随机正交旋转、分量化表示与内积估计，具体讨论了向量在压缩检索中的表示和计算。"
+    },
+    {
+      "title": "线性代数究竟是为解决什么问题而生的?",
+      "url": "https://www.zhihu.com/answer/2027469756047922904",
+      "summary": "正文把向量定义为空间中有方向的量，并以电影特征向量说明其表示方式。"
+    },
+    {
+      "title": "最小二乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2032014571423129706",
+      "summary": "正文把观测值和自变量写成 n 维向量，以线性组合、内积和正交投影解释数据拟合。"
+    },
+    {
+      "title": "如何理解傅里叶变换公式？",
+      "url": "https://www.zhihu.com/answer/2032015899369136693",
+      "summary": "正文以向量内积和基分解类比函数投影，说明傅里叶变换如何求各频率基上的系数。"
+    },
+    {
+      "title": "有哪些生物学上的事实，没有一定生物学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/2033103768020070414",
+      "summary": "正文用气味混合不服从向量加法说明嗅觉空间缺少内积、角度和投影等向量空间结构。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2038239999410311964",
+      "summary": "正文以一组向量张成的平行多面体为几何对象，引入多重线性、反对称和归一化来定义体积。"
+    },
+    {
+      "title": "角速度为什么是个矢量？",
+      "url": "https://www.zhihu.com/answer/2047306573060498447",
+      "summary": "正文从空间反演和三维分量的角度解释角速度为何是赝矢量，并区分其与普通矢量的变换性质。"
+    },
+    {
+      "title": "角速度为什么是个矢量？",
+      "url": "https://www.zhihu.com/answer/2047402370318046180",
+      "summary": "正文解释角速度在三维中为何可与向量同构，并通过分量、叉积和空间反演区分赝矢量与真矢量。"
+    },
+    {
+      "title": "如何用100颗相同石头实现最大计数范围？",
+      "url": "https://www.zhihu.com/answer/2051842752875336656",
+      "summary": "正文以两个基向量线性表示平面点，并利用向量关系构造可读取的坐标。"
+    },
+    {
+      "title": "张量的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2056356643504387769",
+      "summary": "正文从向量空间公理、基、维数和向量元素出发系统引入张量。"
+    },
+    {
+      "title": "精通线性代数的人是个什么境界？",
+      "url": "https://www.zhihu.com/answer/2072119763686499473",
+      "summary": "正文用余弦式距离相似度、特征空间投影和 embedding 解释向量表示、向量空间距离及其实际用途。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/2073366495921554380",
+      "summary": "正文用向量描述三维空间中的旋转强度和旋转轴，并由向量场的旋度引出局部环量。"
+    },
+    {
+      "title": "矩阵的秩与行列式的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/19609459",
+      "summary": "正文把两个有序矢量的张成面积表示为多线性、反对称的映射。"
+    },
+    {
+      "title": "最全三角函数公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/20102140",
+      "summary": "正文用单位向量的坐标和点积推出余弦差角公式，再据此导出其他三角恒等式。"
+    },
+    {
+      "title": "寻找开普勒问题中的首次积分",
+      "url": "https://zhuanlan.zhihu.com/p/20684078",
+      "summary": "正文反复使用点乘、叉乘与拉普拉斯矢量，并由其与角动量矢量的正交关系确定轨道平面。"
+    },
+    {
+      "title": "谈谈线性代数这门课程有什么用",
+      "url": "https://zhuanlan.zhihu.com/p/20745625",
+      "summary": "正文以状态向量为例说明列向量、分量、矩阵转置以及用单个符号表示多个变量。"
+    },
+    {
+      "title": "番外——关于张量计算（Index notation）",
+      "url": "https://zhuanlan.zhihu.com/p/20783300",
+      "summary": "正文从基向量与坐标分量出发表示向量，再推广到高阶张量并使用重复下标求和。"
+    },
+    {
+      "title": "10373 高中立体几何向量法全攻略",
+      "url": "https://zhuanlan.zhihu.com/p/22503943",
+      "summary": "正文系统讲解点积、叉积的定义、坐标公式、运算律以及用法向量表示平面。"
+    },
+    {
+      "title": "掰开揉碎推导Normal Equation",
+      "url": "https://zhuanlan.zhihu.com/p/22757336",
+      "summary": "正文把误差向量、投影向量与目标向量作正交分解，并用内积条件求投影系数，展开了向量投影方法。"
+    },
+    {
+      "title": "如何生动有趣的入门线性代数",
+      "url": "https://zhuanlan.zhihu.com/p/23054096",
+      "summary": "正文把向量解释为有顺序的数字因素并区分行列向量，作为后文组合与线性变换的基础。"
+    },
+    {
+      "title": "矩阵变换坐标系 深入理解",
+      "url": "https://zhuanlan.zhihu.com/p/23130870",
+      "summary": "正文把各基向量表示成另一坐标系中的坐标，并用向量的加权和完成空间转换。"
+    },
+    {
+      "title": "优化笔记：正n边形顶点",
+      "url": "https://zhuanlan.zhihu.com/p/23190188",
+      "summary": "正文把三角递推解释为对二维矢量反复施加固定角度旋转。"
+    },
+    {
+      "title": "晶体结构5——倒格子     布里渊区",
+      "url": "https://zhuanlan.zhihu.com/p/24242724",
+      "summary": "正文用正格基矢的线性组合、点积和叉积定义倒格矢并讨论其与正格矢的对应关系。"
+    },
+    {
+      "title": "大学数学（高数线代）直观理解（二）",
+      "url": "https://zhuanlan.zhihu.com/p/24248727",
+      "summary": "正文通过线性无关、极大线性无关组和秩解释如何由一组向量构筑 n 维空间。"
+    },
+    {
+      "title": "线性方程组之二：行向量观点",
+      "url": "https://zhuanlan.zhihu.com/p/24966266",
+      "summary": "正文把点乘推广为内积，讨论高维向量的内积、夹角和正交关系。"
+    },
+    {
+      "title": "换个角度“聊”线性代数（一）",
+      "url": "https://zhuanlan.zhihu.com/p/25024799",
+      "summary": "正文解释向量的几何与坐标表示，并通过线性组合讨论两个或三个向量张成空间的维数。"
+    },
+    {
+      "title": "(七)利用斜坐标系解决向量难题上",
+      "url": "https://zhuanlan.zhihu.com/p/25050686",
+      "summary": "正文以两个不共线基底向量表示任意平面向量，说明斜坐标与向量线性组合的关系。"
+    },
+    {
+      "title": "(八)用斜坐标系解决向量难题下",
+      "url": "https://zhuanlan.zhihu.com/p/25052351",
+      "summary": "正文以两个向量为坐标基建立斜坐标系，并用向量等式表示点的坐标。"
+    },
+    {
+      "title": "相关性能否传递？",
+      "url": "https://zhuanlan.zhihu.com/p/25082134",
+      "summary": "正文给出相关系数等于对应向量夹角余弦的几何解释，并讨论平行、反向和垂直情形。"
+    },
+    {
+      "title": "[补充]向量的一些知识",
+      "url": "https://zhuanlan.zhihu.com/p/25156569",
+      "summary": "正文从平面法向量和行列式定义三维向量叉乘，并用叉乘求空间面积与体积。"
+    },
+    {
+      "title": "2017.02.25 恒等式解决问题",
+      "url": "https://zhuanlan.zhihu.com/p/25434273",
+      "summary": "正文用向量内积恒等式把目标量平方差化，并据此求平面向量内积的最小值。"
+    },
+    {
+      "title": "三角形的面积公式八叙",
+      "url": "https://zhuanlan.zhihu.com/p/25793392",
+      "summary": "正文用两边向量叉积的模解释平行四边形面积，并据此得到空间三角形面积公式，实质使用向量运算。"
+    },
+    {
+      "title": "线性代数的直觉理解（1）",
+      "url": "https://zhuanlan.zhihu.com/p/25624675",
+      "summary": "正文讨论向量的坐标表示，强调必须搭配基底才能描述线性空间中的对象与线性组合。"
+    },
+    {
+      "title": "四面体体积公式",
+      "url": "https://zhuanlan.zhihu.com/p/26140241",
+      "summary": "正文利用三个空间向量的混合积解释并推导四面体体积的行列式表达式。"
+    },
+    {
+      "title": "通信中正交的含义",
+      "url": "https://zhuanlan.zhihu.com/p/26193196",
+      "summary": "正文用内积、范数和夹角的联系解释向量正交，并把函数与信号表示为向量空间中的对象。"
+    },
+    {
+      "title": "直线方程的各种形式",
+      "url": "https://zhuanlan.zhihu.com/p/26263309",
+      "summary": "正文用方向向量和法向量表示直线，并以向量平行、垂直和点积判断直线关系。"
+    },
+    {
+      "title": "【线性变换/矩阵及乘法】- 图解线性代数 03",
+      "url": "https://zhuanlan.zhihu.com/p/26591729",
+      "summary": "正文以基向量为基准解释向量的线性表示，并据此演示线性变换后的坐标。"
+    },
+    {
+      "title": "浅谈张量分解（四）：外积、Kronecker积和张量积",
+      "url": "https://zhuanlan.zhihu.com/p/26774182",
+      "summary": "正文用标准基展开向量张量积，比较向量外积与Kronecker积并说明其等价关系，故对应向量。"
+    },
+    {
+      "title": "机器学习和统计学中常见的距离和相似度度量",
+      "url": "https://zhuanlan.zhihu.com/p/27305237",
+      "summary": "正文以向量为对象定义欧氏距离、闵可夫斯基距离和余弦相似度等度量。"
+    },
+    {
+      "title": "矮胖增肥，瘦高增高！--巧记向量组线性相关无关的9大结论！（务必耐心阅读！）",
+      "url": "https://zhuanlan.zhihu.com/p/27364533",
+      "summary": "正文以向量组能否相互表示讨论线性相关与秩的关系，实质讲解了向量组这一线性代数对象。"
+    },
+    {
+      "title": "四元数——旋转",
+      "url": "https://zhuanlan.zhihu.com/p/27541307",
+      "summary": "正文系统使用向量的内积、外积、模长和共面关系推导旋转，并专门说明二重外积公式。"
+    },
+    {
+      "title": "带你读机器学习经典(二): An Introduction to Statistical Learning (Chapter 3.1 线性回归)",
+      "url": "https://zhuanlan.zhihu.com/p/27609785",
+      "summary": "正文定义向量之间的距离度量，并用二维和三维向量例子比较曼哈顿、欧氏和闵可夫斯基距离。"
+    },
+    {
+      "title": "L1范数与L2范数的区别",
+      "url": "https://zhuanlan.zhihu.com/p/28023308",
+      "summary": "正文以二维向量长度为例定义范数，并系统比较 L0、L1、L2 范数，属于向量的长度与范数概念。"
+    },
+    {
+      "title": "MIT线性代数课程精细笔记[第一课]",
+      "url": "https://zhuanlan.zhihu.com/p/28277072",
+      "summary": "正文用列向量的线性组合表示方程组右端向量，并以此说明列图像求解。"
+    },
+    {
+      "title": "MIT线性代数课程精细笔记[第五课]",
+      "url": "https://zhuanlan.zhihu.com/p/28863518",
+      "summary": "正文以向量加法和数乘的封闭性定义向量空间，并进一步说明子空间与列空间。"
+    },
+    {
+      "title": "向量之极化恒等式",
+      "url": "https://zhuanlan.zhihu.com/p/29494507",
+      "summary": "正文由向量和的平方与差的平方推出极化恒等式，并用它处理数量积问题。"
+    },
+    {
+      "title": "奔驰定理",
+      "url": "https://zhuanlan.zhihu.com/p/29556273",
+      "summary": "正文给出单位圆上三点向量恒等式，并用向量系数与三角形面积的对应关系建立推广。"
+    },
+    {
+      "title": "降维打击-观察高维世界",
+      "url": "https://zhuanlan.zhihu.com/p/27204291",
+      "summary": "正文把图像摊平成向量，并用 784 维向量表示数据，说明高维数据的向量化表示。"
+    },
+    {
+      "title": "MIT线性代数课程精细笔记[第九课]",
+      "url": "https://zhuanlan.zhihu.com/p/29903948",
+      "summary": "正文以向量组的线性相关、生成空间、基和维数为主线讲解向量空间。"
+    },
+    {
+      "title": "基本子空间|MIT线性代数课程精细笔记[第十课]",
+      "url": "https://zhuanlan.zhihu.com/p/29953781",
+      "summary": "正文说明向量空间可由满足线性运算规则的矩阵组成，并讨论其子空间与基。"
+    },
+    {
+      "title": "怎样区分充分性、必要性",
+      "url": "https://zhuanlan.zhihu.com/p/29991897",
+      "summary": "正文用向量加法证明三向量构成三角形与和为零向量等价，实质讲解了向量的关系与运算。"
+    },
+    {
+      "title": "知识图谱向量化表示",
+      "url": "https://zhuanlan.zhihu.com/p/30320631",
+      "summary": "正文把实体和关系表示为低维向量，并以向量间距离描述知识图谱三元组。"
+    },
+    {
+      "title": "专家坐堂：机器学习中对核函数的理解",
+      "url": "https://zhuanlan.zhihu.com/p/30445271",
+      "summary": "正文以内积作为特征空间中衡量向量相似度的运算，并解释核函数对高维内积的替代。"
+    },
+    {
+      "title": "第八课：向量的范数",
+      "url": "https://zhuanlan.zhihu.com/p/30279795",
+      "summary": "正文从向量范数的定义、性质与常见范数出发，系统讲解如何用范数度量向量大小。"
+    },
+    {
+      "title": "【MIT线代十四课笔记】-正交向量与子空间",
+      "url": "https://zhuanlan.zhihu.com/p/30515094",
+      "summary": "正文定义向量正交与子空间正交，并说明相交的非零子空间不能互相正交。"
+    },
+    {
+      "title": "行列式就是体积/面积？——（一）",
+      "url": "https://zhuanlan.zhihu.com/p/30443024",
+      "summary": "正文定义向量内积、长度和夹角，并用列向量、向量加法及正交化展开二维几何计算。"
+    },
+    {
+      "title": "用 C 语言画光（三）：形状",
+      "url": "https://zhuanlan.zhihu.com/p/30816284",
+      "summary": "正文用法向量和点积表示平面，并通过向量投影推导线段、胶囊形等距离函数。"
+    },
+    {
+      "title": "正交矩阵和 Gram-Schmidt 正交化[MIT线代第十七课]",
+      "url": "https://zhuanlan.zhihu.com/p/30954790",
+      "summary": "正文从标准正交向量和向量投影入手，说明 Gram-Schmidt 正交化如何逐步构造正交基。"
+    },
+    {
+      "title": "用 C 语言画光（四）：反射",
+      "url": "https://zhuanlan.zhihu.com/p/30961545",
+      "summary": "正文通过入射方向、单位法线和点积推导镜面反射矢量，并用几何矢量完成反射计算。"
+    },
+    {
+      "title": "（一）矩阵乘法",
+      "url": "https://zhuanlan.zhihu.com/p/31339735",
+      "summary": "正文从内积与投影出发解释向量的几何表示，并说明用基上的投影坐标刻画向量。"
+    },
+    {
+      "title": "（五）理解矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/31387216",
+      "summary": "正文解释线性空间中的对象如何通过选取基与坐标表示成向量。"
+    },
+    {
+      "title": "理解矩阵（个人认为这是关于矩阵最精彩的理解，推荐）",
+      "url": "https://zhuanlan.zhihu.com/p/31540555",
+      "summary": "正文说明基和坐标把线性空间中的对象编码成向量。"
+    },
+    {
+      "title": "线性代数（二）如何理解矩阵乘法",
+      "url": "https://zhuanlan.zhihu.com/p/32133330",
+      "summary": "正文用自然基展开向量，并说明矩阵作用可看作保持坐标而改变基，从而呈现向量坐标的变化。"
+    },
+    {
+      "title": "从一篇ICLR'2017被拒论文谈起：行走在GAN的Latent Space",
+      "url": "https://zhuanlan.zhihu.com/p/32135185",
+      "summary": "正文从向量投影和向量加法推导高维球面线性插值公式，并用向量路径解释潜空间采样。"
+    },
+    {
+      "title": "第三讲：三维空间的刚体运动",
+      "url": "https://zhuanlan.zhihu.com/p/32937868",
+      "summary": "正文定义向量的坐标表示，并具体讲解内积、外积及其几何意义。"
+    },
+    {
+      "title": "向量的线性表示、线性相关、线性无关",
+      "url": "https://zhuanlan.zhihu.com/p/32986536",
+      "summary": "正文定义向量的线性组合，并解释线性相关与线性无关的向量组含义。"
+    },
+    {
+      "title": "【读论文】Trans系列知识表示学习方法梳理",
+      "url": "https://zhuanlan.zhihu.com/p/32993044",
+      "summary": "正文以实体和关系的低维向量表示描述三元组关系，并用向量和与范数构造训练目标。"
+    },
+    {
+      "title": "为什么梯度的负方向是局部下降最快的方向？",
+      "url": "https://zhuanlan.zhihu.com/p/33260455",
+      "summary": "正文用位移向量与梯度向量的点积取最大值来证明最速上升方向。"
+    },
+    {
+      "title": "将线性代数形象化（五） · 点积、叉乘与对偶性",
+      "url": "https://zhuanlan.zhihu.com/p/33413224",
+      "summary": "正文从坐标计算、投影和夹角解释向量点积，并进一步定义和解释叉乘的几何意义及运算性质。"
+    },
+    {
+      "title": "【不等式】柯西不等式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/33710316",
+      "summary": "正文把两组实数构造成向量，利用向量数量积与模长关系证明柯西不等式。"
+    },
+    {
+      "title": "用C++暴力求出正方体中放置的最大正方形",
+      "url": "https://zhuanlan.zhihu.com/p/33757524",
+      "summary": "正文用位置向量表示正方形对角线半段，并通过垂直关系和向量距离约束求解最大值。"
+    },
+    {
+      "title": "一个圆锥曲线的切线问题——蒙日圆",
+      "url": "https://zhuanlan.zhihu.com/p/33816873",
+      "summary": "正文把两条切线互相垂直转化为两个方向向量的内积为零，并用内积展开推导轨迹。"
+    },
+    {
+      "title": "矩阵的四个子空间及其联系",
+      "url": "https://zhuanlan.zhihu.com/p/34056351",
+      "summary": "正文用列向量组的线性组合、内积和正交关系解释矩阵子空间。"
+    },
+    {
+      "title": "【平面向量】三角形中超好用的“奔驰定理”",
+      "url": "https://zhuanlan.zhihu.com/p/34180741",
+      "summary": "正文给出并证明三角形内一点的向量加权恒等式，再用于求面积和各类三角形中心关系。"
+    },
+    {
+      "title": "投影矩阵与最小二乘法",
+      "url": "https://zhuanlan.zhihu.com/p/34208141",
+      "summary": "正文从向量在直线上的正交投影出发，利用误差向量与方向向量垂直推导投影公式。"
+    },
+    {
+      "title": "球坐标系",
+      "url": "https://zhuanlan.zhihu.com/p/34275771",
+      "summary": "正文用球坐标的单位矢量构造正交归一基底，并说明三维向量的分量表示和两方向夹角的计算。"
+    },
+    {
+      "title": "球坐标与直角坐标的转换",
+      "url": "https://zhuanlan.zhihu.com/p/34485962",
+      "summary": "正文推导球坐标与直角坐标两组单位正交基之间的向量变换关系。"
+    },
+    {
+      "title": "“广义相对论的钥匙：张量”专题之一",
+      "url": "https://zhuanlan.zhihu.com/p/34617350",
+      "summary": "正文把向量解释为不依赖基底选择的几何对象，并说明其坐标随基底改变而改变。"
+    },
+    {
+      "title": "“广义相对论的钥匙：张量”专题之二",
+      "url": "https://zhuanlan.zhihu.com/p/34776782",
+      "summary": "正文把向量解释为与基无关的几何对象，并推导不同基下坐标向量的转换规则。"
+    },
+    {
+      "title": "这是一份文科生都能看懂的线性代数简介",
+      "url": "https://zhuanlan.zhihu.com/p/35151309",
+      "summary": "正文用有序数组定义向量，并说明矩阵与向量相乘时各分量的线性组合计算。"
+    },
+    {
+      "title": "经典力学——正交曲线坐标系",
+      "url": "https://zhuanlan.zhihu.com/p/35162526",
+      "summary": "正文定义曲线坐标的基矢、单位基矢、线元及两点距离的向量表示。"
+    },
+    {
+      "title": "“广义相对论的钥匙：张量”专题之三",
+      "url": "https://zhuanlan.zhihu.com/p/35307112",
+      "summary": "正文从向量空间的基和向量出发说明向量是张量，并讨论向量的坐标表示。"
+    },
+    {
+      "title": "矢量叉乘分配律的几何证明",
+      "url": "https://zhuanlan.zhihu.com/p/35395525",
+      "summary": "正文通过空间投影、叉乘模长与绕轴旋转的关系证明向量叉乘对加法满足分配律。"
+    },
+    {
+      "title": "三矢量的混合积",
+      "url": "https://zhuanlan.zhihu.com/p/35395605",
+      "summary": "正文定义三个向量的混合积，并借助叉乘方向说明轮换不变、换序变号以及平行六面体体积意义。"
+    },
+    {
+      "title": "高等代数笔记整理（一）",
+      "url": "https://zhuanlan.zhihu.com/p/35567667",
+      "summary": "正文定义 n 维向量、向量加法和数量乘法，并讨论线性表出与线性无关。"
+    },
+    {
+      "title": "向量范数与矩阵范数",
+      "url": "https://zhuanlan.zhihu.com/p/35897775",
+      "summary": "正文定义 1、2、p、无穷与零范数，并用它们度量向量长度和距离。"
+    },
+    {
+      "title": "并矢，外积与二阶张量",
+      "url": "https://zhuanlan.zhihu.com/p/35845462",
+      "summary": "正文通过列向量、行向量及基向量讨论两个矢量的外积和分量表示。"
+    },
+    {
+      "title": "机器学习的数学基础-（二、线性代数）",
+      "url": "https://zhuanlan.zhihu.com/p/36584206",
+      "summary": "正文讨论向量组的线性表示、内积、基变换及 Schmidt 正交化。"
+    },
+    {
+      "title": "（大四）现代张量分析（1）",
+      "url": "https://zhuanlan.zhihu.com/p/36856300",
+      "summary": "正文用协变基与逆变基分解平面矢量，并讨论协变分量、逆变分量及对偶基关系。"
+    },
+    {
+      "title": "法向量求解方法总结",
+      "url": "https://zhuanlan.zhihu.com/p/37634441",
+      "summary": "正文以内积、外积和向量坐标运算求平面法向量，并据此计算二面角的余弦。"
+    },
+    {
+      "title": "梯度的方向为什么是函数值增加最快的方向？",
+      "url": "https://zhuanlan.zhihu.com/p/38525412",
+      "summary": "正文把方向导数写成梯度向量与方向单位向量的内积，并用夹角判断变化率最大方向。"
+    },
+    {
+      "title": "如何理解傅立叶级数",
+      "url": "https://zhuanlan.zhihu.com/p/38733636",
+      "summary": "正文用正交单位基说明向量的线性组合与投影分解，并将同一分解思想推广到 n 维和无限维空间。"
+    },
+    {
+      "title": "一篇文章透彻解读聚类分析（附数据和R代码）",
+      "url": "https://zhuanlan.zhihu.com/p/37856153",
+      "summary": "正文把观测表示为多维向量，并具体定义 Minkowski、Euclidean、Manhattan 等向量距离及标准化计算。"
+    },
+    {
+      "title": "14、范数、内积、归一、正交化、标准正交(Schmidt化）",
+      "url": "https://zhuanlan.zhihu.com/p/39448632",
+      "summary": "正文说明空间向量具有长度和夹角，并用内积定义范数、归一化和正交关系。"
+    },
+    {
+      "title": "1.1 光滑函数、函数芽、导数、切向量、向量场",
+      "url": "https://zhuanlan.zhihu.com/p/40287232",
+      "summary": "正文把切向量表示为偏导算子，讨论切空间、向量场以及向量场作用于光滑函数的结果。"
+    },
+    {
+      "title": "傅里叶变换后面的到底有什么小秘密",
+      "url": "https://zhuanlan.zhihu.com/p/40396861",
+      "summary": "正文从三维向量的正交基与内积出发，说明坐标系数就是向量在各基方向上的投影。"
+    },
+    {
+      "title": "数学分析笔记整理（二）",
+      "url": "https://zhuanlan.zhihu.com/p/36274583",
+      "summary": "正文在 R^n 上定义向量加法、数量乘法、内积和模，并证明范数三角不等式。"
+    },
+    {
+      "title": "详解双抛物面环境映射",
+      "url": "https://zhuanlan.zhihu.com/p/40784734",
+      "summary": "正文用入射向量、法向量、点积和向量反射公式证明抛物线及抛物面的统一反射性质。"
+    },
+    {
+      "title": "线性代数入门",
+      "url": "https://zhuanlan.zhihu.com/p/41951467",
+      "summary": "正文系统定义向量及其加减、点乘、叉乘、归一化，并用几何意义解释运算。"
+    },
+    {
+      "title": "《线性代数》讲义02：从「高斯消元法」谈几个重要概念",
+      "url": "https://zhuanlan.zhihu.com/p/42385219",
+      "summary": "正文将每个方程的系数视作向量，并解释其加法、数乘和交换操作。"
+    },
+    {
+      "title": "使用余弦相似度算法计算文本相似度",
+      "url": "https://zhuanlan.zhihu.com/p/43396514",
+      "summary": "正文把文本词频表示为向量，并以两向量夹角的余弦衡量个体相似度。"
+    },
+    {
+      "title": "矩阵的列秩为什么等于行秩",
+      "url": "https://zhuanlan.zhihu.com/p/43973082",
+      "summary": "正文从列向量的线性独立性和张成空间出发，比较行空间与列空间的维数。"
+    },
+    {
+      "title": "MP4：对偶、逆变与协变",
+      "url": "https://zhuanlan.zhihu.com/p/43749205",
+      "summary": "正文区分列向量与对偶行向量，讨论基变换下向量坐标的逆变和协变规则。"
+    },
+    {
+      "title": "MP5：内积、外积、面积、Hermite内积、辛内积",
+      "url": "https://zhuanlan.zhihu.com/p/43612010",
+      "summary": "正文从向量夹角和平面面积出发讲解内积与外积，并给出二者在多维实向量中的统一表示。"
+    },
+    {
+      "title": "5-6 MIT线性代数---向量空间、子空间、列空间、零空间",
+      "url": "https://zhuanlan.zhihu.com/p/44099504",
+      "summary": "正文从线性组合封闭性定义向量空间，并讨论过原点的直线、平面和零子空间。"
+    },
+    {
+      "title": "Gap5：方向导数、偏导数、梯度、全微分",
+      "url": "https://zhuanlan.zhihu.com/p/43792478",
+      "summary": "正文定义标量场和向量场，并通过向量内积解释方向导数与梯度之间的关系。"
+    },
+    {
+      "title": "einsum满足你一切需要：深度学习中的爱因斯坦求和约定",
+      "url": "https://zhuanlan.zhihu.com/p/44954540",
+      "summary": "正文用 einsum 下标具体演示向量点积以及矩阵-向量乘法，实质涉及向量运算。"
+    },
+    {
+      "title": "三维旋转：欧拉角、四元数、旋转矩阵、轴角之间的转换",
+      "url": "https://zhuanlan.zhihu.com/p/45404840",
+      "summary": "正文对向量作平行与垂直方向的正交分解，并用点积、叉积推导绕轴旋转公式。"
+    },
+    {
+      "title": "MIT—线性代数笔记01 行图像和列图像",
+      "url": "https://zhuanlan.zhihu.com/p/45708880",
+      "summary": "正文把 Ax 解释为矩阵各列向量的线性组合，并讨论列向量是否张成整个空间。"
+    },
+    {
+      "title": "MIT—线性代数笔记05 转置、置换和空间",
+      "url": "https://zhuanlan.zhihu.com/p/45804907",
+      "summary": "正文定义向量空间、子空间和列空间，并用线性组合与对线性运算封闭说明空间结构。"
+    },
+    {
+      "title": "MIT—线性代数笔记06 列空间和零空间",
+      "url": "https://zhuanlan.zhihu.com/p/45810014",
+      "summary": "正文从加法和数乘封闭性定义向量空间与子空间，并讨论过原点的直线、平面及其交集。"
+    },
+    {
+      "title": "MIT—线性代数笔记07 求解Ax=0：主变量，特解",
+      "url": "https://zhuanlan.zhihu.com/p/45815011",
+      "summary": "正文说明零空间由特解向量张成，并把自由列数解释为零空间维数。"
+    },
+    {
+      "title": "MIT—线性代数笔记08 求解Ax=b：可解性与结构",
+      "url": "https://zhuanlan.zhihu.com/p/45816772",
+      "summary": "正文把 Ax=b 的解集描述为穿过特解且平行于零空间的仿射集合，并解释其与子空间的区别。"
+    },
+    {
+      "title": "MIT—线性代数笔记09 线性无关，基和维数",
+      "url": "https://zhuanlan.zhihu.com/p/45822595",
+      "summary": "正文用向量的线性组合解释张成空间，并进一步给出基与维数的定义。"
+    },
+    {
+      "title": "MIT—线性代数笔记10 四个基本子空间",
+      "url": "https://zhuanlan.zhihu.com/p/45826349",
+      "summary": "正文用列向量的线性组合构造列空间，并讨论其基与维数。"
+    },
+    {
+      "title": "MIT—线性代数笔记13 复习一",
+      "url": "https://zhuanlan.zhihu.com/p/45855579",
+      "summary": "正文讨论多个向量张成子空间时基的个数与子空间维数的关系。"
+    },
+    {
+      "title": "MIT—线性代数笔记14 正交向量与正交子空间",
+      "url": "https://zhuanlan.zhihu.com/p/45861456",
+      "summary": "正文用点积、向量范数和勾股关系定义并判断两个向量是否正交。"
+    },
+    {
+      "title": "MIT—线性代数笔记15 子空间投影",
+      "url": "https://zhuanlan.zhihu.com/p/45862922",
+      "summary": "正文以向量 a、b 及其正交关系解释最近点和投影。"
+    },
+    {
+      "title": "MIT—线性代数笔记17 正交矩阵和施密特正交化",
+      "url": "https://zhuanlan.zhihu.com/p/45869142",
+      "summary": "正文定义标准正交向量并说明其单位长度、正交性与线性无关性。"
+    },
+    {
+      "title": "用C++编写一个简单的光栅化渲染器：3D篇",
+      "url": "https://zhuanlan.zhihu.com/p/45757899",
+      "summary": "正文用三维向量表示点和方向，通过齐次坐标区分平移作用并推导坐标变换。"
+    },
+    {
+      "title": "线性代数学习总结（上）",
+      "url": "https://zhuanlan.zhihu.com/p/46061802",
+      "summary": "正文用行向量、列向量及其线性组合表达方程组和投影关系。"
+    },
+    {
+      "title": "向量场的介绍",
+      "url": "https://zhuanlan.zhihu.com/p/46362611",
+      "summary": "正文把向量场的每个点对应到速度向量，具体讲解向量的大小、方向和分量。"
+    },
+    {
+      "title": "乾坤大挪移——巧解向量多动点问题",
+      "url": "https://zhuanlan.zhihu.com/p/47168117",
+      "summary": "正文用向量分解、模长不等式和数量积计算证明多动点问题中的最值。"
+    },
+    {
+      "title": "线性代数之——向量空间",
+      "url": "https://zhuanlan.zhihu.com/p/50066691",
+      "summary": "正文从二维和三维空间的向量及其坐标表示切入，并用线性组合刻画向量空间和子空间。"
+    },
+    {
+      "title": "高等代数|复习提纲（1）——矩阵与方程组",
+      "url": "https://zhuanlan.zhihu.com/p/50362479",
+      "summary": "正文讨论 n 维列向量的线性组合、线性相关与线性无关，并用秩刻画向量组的信息冗余。"
+    },
+    {
+      "title": "不同坐标系下基矢量的关系",
+      "url": "https://zhuanlan.zhihu.com/p/50491649",
+      "summary": "正文把点的位置矢量对坐标求偏导得到协变基矢量，并推导单位基矢量之间的相互表示。"
+    },
+    {
+      "title": "几个简单不等式的直观说明",
+      "url": "https://zhuanlan.zhihu.com/p/51013702",
+      "summary": "正文把柯西不等式中的数列视为向量，并用向量模长与点积的关系说明该不等式。"
+    },
+    {
+      "title": "有心力作用下的轨道微分方程 (Binet公式)",
+      "url": "https://zhuanlan.zhihu.com/p/51311714",
+      "summary": "正文用位矢、速度、加速度向量及极坐标单位向量分解描述质点的平面运动。"
+    },
+    {
+      "title": "高考数学二级结论大总结",
+      "url": "https://zhuanlan.zhihu.com/p/51473580",
+      "summary": "正文系统汇总向量的点积、极化恒等式、共线与三角形四心等结论。"
+    },
+    {
+      "title": "快速求解法向量的第三种方法——借零构造法",
+      "url": "https://zhuanlan.zhihu.com/p/52064996",
+      "summary": "正文围绕空间向量的垂直关系和点积构造法向量，并说明含零坐标向量的快捷构造方法。"
+    },
+    {
+      "title": "表象变换的幺正算符怎么定义的? 为何说算符与态可以看作矩阵?",
+      "url": "https://zhuanlan.zhihu.com/p/52196787",
+      "summary": "正文把抽象态矢量在选定基下的分量排成列矩阵，借此具体解释基向量的坐标表示与内积。"
+    },
+    {
+      "title": "[如何让人人都理解复分析（一）]---曲线积分",
+      "url": "https://zhuanlan.zhihu.com/p/52347499",
+      "summary": "正文用点积解释矢量的投影，并据此说明变力沿曲线所做的功。"
+    },
+    {
+      "title": "高考数学二级结论——平面向量",
+      "url": "https://zhuanlan.zhihu.com/p/51586221",
+      "summary": "正文系统讲解平面向量的数量积、投影、极化恒等式、共线与三角形位置关系。"
+    },
+    {
+      "title": "Nabla 算符 ∇ 的运算律以及常用公式",
+      "url": "https://zhuanlan.zhihu.com/p/52834609",
+      "summary": "正文把Nabla定义为分量形式的矢量微分算符，并列出多种乘积运算公式。"
+    },
+    {
+      "title": "[如何让人人都理解复分析（二）]---Cauchy积分定理",
+      "url": "https://zhuanlan.zhihu.com/p/52815876",
+      "summary": "正文将复函数实部和虚部组成二维向量场，用旋度等向量场性质进行讨论。"
+    },
+    {
+      "title": "深入理解傅立叶变换（番外）.傅里叶级数的意义",
+      "url": "https://zhuanlan.zhihu.com/p/52977221",
+      "summary": "正文用向量内积、正交基底和投影和作类比，具体解释周期函数在正交函数基上的分解。"
+    },
+    {
+      "title": "不等式的证明方法小结",
+      "url": "https://zhuanlan.zhihu.com/p/53516242",
+      "summary": "正文用向量 OA、OB、BA 和三角形两边之和大于第三边，证明二维向量的三角不等式。"
+    },
+    {
+      "title": "MP86：辛(symplectic)的起源(1)：三角函数的线性性与Hermite内积",
+      "url": "https://zhuanlan.zhihu.com/p/53815689",
+      "summary": "正文用平面实向量的坐标、长度和夹角推导内积与外积，并检验二者的双线性性质。"
+    },
+    {
+      "title": "MP88：辛(symplectic)的起源(3)：辛矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/53832002",
+      "summary": "正文把复 n 维向量展开为实 2n 维向量，并比较实向量表示与复向量表示下的内积。"
+    },
+    {
+      "title": "高等代数|复习提纲（2）——线性空间与映射",
+      "url": "https://zhuanlan.zhihu.com/p/53909822",
+      "summary": "正文由线性空间的基、坐标与线性组合展开，说明矩阵和多项式等对象都可视为向量。"
+    },
+    {
+      "title": "99%的人都不知道抛物线里有个神秘的梯形...",
+      "url": "https://zhuanlan.zhihu.com/p/55017066",
+      "summary": "正文用向量数量积证明两条连线互相垂直，实际展开了向量方法。"
+    },
+    {
+      "title": "[深度科普] 张量：理解相对论的必备语言 (下)",
+      "url": "https://zhuanlan.zhihu.com/p/53926267",
+      "summary": "正文先解释列向量和行向量在基底变换下的坐标分量规则，再推广到张量。"
+    },
+    {
+      "title": "线性独立——线性代数旅程（二）",
+      "url": "https://zhuanlan.zhihu.com/p/55511265",
+      "summary": "正文从向量的线性组合和 span 出发定义线性相关与线性无关，实质讲解了向量及其线性组合。"
+    },
+    {
+      "title": "为什么法向加速度等于v^2/r",
+      "url": "https://zhuanlan.zhihu.com/p/56144489",
+      "summary": "正文把速度分解为切向量与主法向方向，利用向量点积证明法向加速度与切向垂直。"
+    },
+    {
+      "title": "为什么用PCA做点云法线估计？",
+      "url": "https://zhuanlan.zhihu.com/p/56541912",
+      "summary": "正文用向量投影解释点到平面的距离，并把向量分解和正交方向用于法线估计。"
+    },
+    {
+      "title": "三维空间绕任意轴旋转矩阵的推导",
+      "url": "https://zhuanlan.zhihu.com/p/56587491",
+      "summary": "正文用向量投影、垂直分量和叉积分解三维向量，并据此推导绕任意轴旋转后的向量。"
+    },
+    {
+      "title": "[深度科普] 度规与时空(上)：从二次型的几何直观说起",
+      "url": "https://zhuanlan.zhihu.com/p/53933076",
+      "summary": "正文以向量在基底中的分量、协变分量和逆变分量构造与坐标无关的向量长度公式。"
+    },
+    {
+      "title": "数学竞赛题的一些线性代数思想",
+      "url": "https://zhuanlan.zhihu.com/p/56916181",
+      "summary": "正文用0-1向量表示集合、用点积表示交集大小，并通过线性无关性建立维数上界。"
+    },
+    {
+      "title": "张量分析笔记（一）",
+      "url": "https://zhuanlan.zhihu.com/p/56850779",
+      "summary": "正文以协变基与逆变基分解任意向量，推导向量的分量、点积、模长和夹角公式。"
+    },
+    {
+      "title": "力学进阶版（一）——复习微分形式（上）",
+      "url": "https://zhuanlan.zhihu.com/p/57328202",
+      "summary": "正文从逆变矢量和协变矢量的定义、基展开及变换规则系统讲解矢量概念。"
+    },
+    {
+      "title": "重心坐标（Barycentric coordinates）",
+      "url": "https://zhuanlan.zhihu.com/p/58199366",
+      "summary": "正文用三个顶点位置的加权线性组合表示三角形内任意点，并据此定义重心坐标。"
+    },
+    {
+      "title": "张量分析笔记（二）",
+      "url": "https://zhuanlan.zhihu.com/p/57431006",
+      "summary": "正文用协变基、逆变基及两种分量表示同一矢量，并推导矢量分量在新旧坐标间的转换关系。"
+    },
+    {
+      "title": "[深度科普] 度规与时空(中)：光速不变背后的时空几何",
+      "url": "https://zhuanlan.zhihu.com/p/57457263",
+      "summary": "正文解释向量的协变与逆变分量如何由度规互换，并用统一模方公式展示坐标无关性。"
+    },
+    {
+      "title": "[PnP]PnP问题之EPnP解法",
+      "url": "https://zhuanlan.zhihu.com/p/59070440",
+      "summary": "正文以三维向量的线性组合和齐次重心坐标表示点，并据此构造EPnP求解。"
+    },
+    {
+      "title": "深夜肝出来的——（文）立体几何解题新思路",
+      "url": "https://zhuanlan.zhihu.com/p/59552219",
+      "summary": "正文讲解空间向量的坐标差、数量积与垂直关系，并用向量刻画线面位置关系。"
+    },
+    {
+      "title": "解析几何（一）【叉乘为啥这样定义】",
+      "url": "https://zhuanlan.zhihu.com/p/60356761",
+      "summary": "正文通过两个向量张成的平行四边形面积解释叉积向量的模长。"
+    },
+    {
+      "title": "卷积、互相关与自相关",
+      "url": "https://zhuanlan.zhihu.com/p/62292503",
+      "summary": "正文从向量点积、投影与做功的含义出发建立函数内积的直觉。"
+    },
+    {
+      "title": "人脸识别损失函数(Center-Loss、A-Softmax、AM-Softmax、ArcFace)",
+      "url": "https://zhuanlan.zhihu.com/p/62680658",
+      "summary": "正文把分类得分写成特征向量与权重向量的点积，并据此推导余弦间隔损失。"
+    },
+    {
+      "title": "直观上理解“梯度”与“法向量”的关系",
+      "url": "https://zhuanlan.zhihu.com/p/62718992",
+      "summary": "正文用切向与法向的分解说明梯度向量为何垂直于水平集曲线。"
+    },
+    {
+      "title": "张量分析笔记（五）",
+      "url": "https://zhuanlan.zhihu.com/p/61908838",
+      "summary": "正文定义张量矢积，并推导任意两矢量的分量式、反交换律、混合积和双重矢积。"
+    },
+    {
+      "title": "初中几何：三角形三条高交于同一点的证明及其思路",
+      "url": "https://zhuanlan.zhihu.com/p/63478122",
+      "summary": "正文把高分解为向量加减，利用点积为零等价于垂直来完成第三条高的证明。"
+    },
+    {
+      "title": "【“数”你好看】点到直线与面的距离公式",
+      "url": "https://zhuanlan.zhihu.com/p/63499708",
+      "summary": "正文先用点积和单位向量计算投影长度，再把点到直线或平面的最短距离解释为在法向量上的投影。"
+    },
+    {
+      "title": "异面直线的距离",
+      "url": "https://zhuanlan.zhihu.com/p/63857984",
+      "summary": "正文用直线方向向量的叉积构造公垂方向，并给出参数方程和向量投影两种距离算法。"
+    },
+    {
+      "title": "左手坐标系 vs 右手坐标系",
+      "url": "https://zhuanlan.zhihu.com/p/64707259",
+      "summary": "正文给出三维向量叉乘的分量式，并用左手定则和右手定则说明结果向量在不同坐标系中的朝向。"
+    },
+    {
+      "title": "爱因斯坦求和约定",
+      "url": "https://zhuanlan.zhihu.com/p/46006162",
+      "summary": "正文通过爱因斯坦求和约定表示向量的分量，并利用 Kronecker delta 和 Ricci 符号推导点积与叉积。"
+    },
+    {
+      "title": "三角形重心坐标",
+      "url": "https://zhuanlan.zhihu.com/p/65495373",
+      "summary": "正文用两个边向量的线性组合表示三角形内的点，并解释相应系数关系。"
+    },
+    {
+      "title": "SLAM中线特征的参数化和求导",
+      "url": "https://zhuanlan.zhihu.com/p/65674067",
+      "summary": "正文用方向向量与平面法向量构成六维 Plücker 表示，并说明这种向量形式便于初始化和空间变换。"
+    },
+    {
+      "title": "从傅里叶变换进阶到小波变换（一）",
+      "url": "https://zhuanlan.zhihu.com/p/66189212",
+      "summary": "正文以二维向量的内积和投影说明正交坐标如何表示向量，再类比到傅里叶基函数。"
+    },
+    {
+      "title": "【“数”你好看】向量点乘(Scalar product)",
+      "url": "https://zhuanlan.zhihu.com/p/66674587",
+      "summary": "正文给出向量点乘的坐标式与几何式，并用余弦定理证明二者等价，还讨论垂直和平行性质。"
+    },
+    {
+      "title": "什么是范数？",
+      "url": "https://zhuanlan.zhihu.com/p/67120415",
+      "summary": "正文以 Lp、L0、L1、L2 等范数说明如何刻画向量的大小和向量间距离。"
+    },
+    {
+      "title": "1. 姿态的表示方法",
+      "url": "https://zhuanlan.zhihu.com/p/67305147",
+      "summary": "正文以旋转前后向量的关系定义二维和三维旋转，并给出旋转公式。"
+    },
+    {
+      "title": "机器学习必知必会：正则化",
+      "url": "https://zhuanlan.zhihu.com/p/67931198",
+      "summary": "正文比较 L0、L1、L2 范数及系数向量的长度，说明正则项如何约束参数向量。"
+    },
+    {
+      "title": "reoriented normal blend注解",
+      "url": "https://zhuanlan.zhihu.com/p/68375439",
+      "summary": "正文以法向量为对象，利用旋转轴、点积和叉积构造四元数来旋转次法线向量。"
+    },
+    {
+      "title": "【洛谷日报#142】计算几何初步",
+      "url": "https://zhuanlan.zhihu.com/p/68617952",
+      "summary": "正文系统讲解向量加减、数乘、点积、叉积、模长及其几何运用。"
+    },
+    {
+      "title": "如何理解复数的四则运算？",
+      "url": "https://zhuanlan.zhihu.com/p/68763358",
+      "summary": "正文把复数视为复平面向量，并用平行四边形和三角形法则解释复数加减法。"
+    },
+    {
+      "title": "已知任意一个四面体的六条棱长，如何求出其体积？",
+      "url": "https://zhuanlan.zhihu.com/p/69047293",
+      "summary": "正文讲解矢量内积、外积与混合积及其几何意义，并用这些运算联系平行六面体体积。"
+    },
+    {
+      "title": "贝塞尔(Bézier)曲线-之一",
+      "url": "https://zhuanlan.zhihu.com/p/72595018",
+      "summary": "正文把多项式曲线的系数表示解释为基向量的线性组合。"
+    },
+    {
+      "title": "渲染管线中的法线变换矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/72734738",
+      "summary": "正文利用切线向量、法线向量和点积为零的条件推导法线应采用的变换。"
+    },
+    {
+      "title": "【IB】直线与平面的向量表示",
+      "url": "https://zhuanlan.zhihu.com/p/73397884",
+      "summary": "正文用位置向量、方向向量和参数表示二维及三维空间中的直线与平面。"
+    },
+    {
+      "title": "SLAM中面特征的参数化",
+      "url": "https://zhuanlan.zhihu.com/p/71924149",
+      "summary": "正文用单位法向量和到原点的有向距离表示三维平面，并讨论其坐标变换。"
+    },
+    {
+      "title": "【IB】线线角、线面角、面面角",
+      "url": "https://zhuanlan.zhihu.com/p/73727598",
+      "summary": "正文用方向向量和法向量的点乘及模长公式计算线线角、线面角和面面角。"
+    },
+    {
+      "title": "如何理解飞机的五种飞行模态",
+      "url": "https://zhuanlan.zhihu.com/p/72599326",
+      "summary": "正文以向量在坐标轴上的正交分解说明复杂运动如何化为各方向分量。"
+    },
+    {
+      "title": "用人话讲明白支持向量机SVM（下）",
+      "url": "https://zhuanlan.zhihu.com/p/74484361",
+      "summary": "正文具体定义n维向量的Lp范数，并用2-范数表示点到超平面的欧氏距离。"
+    },
+    {
+      "title": "线性代数(3.1) -- 行列式 (隐藏在\"大公式\"背后的真相)",
+      "url": "https://zhuanlan.zhihu.com/p/74499640",
+      "summary": "正文用两条直线的法向量及其张成的平行四边形面积解释线性方程组解的几何条件。"
+    },
+    {
+      "title": "矩阵论记号约定",
+      "url": "https://zhuanlan.zhihu.com/p/75236945",
+      "summary": "正文定义列向量，并约定向量范数、正交、投影与张成空间等运算。"
+    },
+    {
+      "title": "线性代数-线性空间的知识梳理1",
+      "url": "https://zhuanlan.zhihu.com/p/75966048",
+      "summary": "正文定义n维向量空间，解释向量加法、数乘、行向量与列向量。"
+    },
+    {
+      "title": "矢量算符的对易子中的乘积究竟是什么运算?",
+      "url": "https://zhuanlan.zhihu.com/p/77030597",
+      "summary": "正文通过比较内积、外积和并矢，具体说明矢量算符对易子中的乘积应如何理解。"
+    },
+    {
+      "title": "文本相似度度量——词移距离（WMD）",
+      "url": "https://zhuanlan.zhihu.com/p/76958536",
+      "summary": "正文说明word2vec把词映射为稠密向量，并以词向量间的欧氏距离衡量语义距离。"
+    },
+    {
+      "title": "四元数和旋转(Quaternion & rotation)",
+      "url": "https://zhuanlan.zhihu.com/p/78987582",
+      "summary": "正文先建立向量点积、叉积与投影，再用这些向量运算推导绕轴旋转。"
+    },
+    {
+      "title": "矩阵分析(一)：空间变换与基变换",
+      "url": "https://zhuanlan.zhihu.com/p/69069042",
+      "summary": "正文说明同一向量在不同基向量下的坐标换算，并推导两组基之间的过渡矩阵。"
+    },
+    {
+      "title": "矩阵乘法和向量乘法",
+      "url": "https://zhuanlan.zhihu.com/p/79760117",
+      "summary": "正文定义向量点积、外积和叉积，说明结果类型、坐标公式及点积和叉积的几何意义。"
+    },
+    {
+      "title": "知识图谱嵌入(KGE)：方法和应用的综述",
+      "url": "https://zhuanlan.zhihu.com/p/80149671",
+      "summary": "正文以连续向量空间中的实体和关系表示为核心，并用向量平移和距离定义事实的合理性。"
+    },
+    {
+      "title": "张量分析（一）——逆变与协变",
+      "url": "https://zhuanlan.zhihu.com/p/81400046",
+      "summary": "正文用一组基向量表示向量P，并通过其坐标及与基向量的点积说明逆变分量和协变分量。"
+    },
+    {
+      "title": "【“数”你好看】三角函数两角和差公式",
+      "url": "https://zhuanlan.zhihu.com/p/81418332",
+      "summary": "正文利用单位圆上两个向量的点乘证明余弦差角公式，再推得其余和差公式。"
+    },
+    {
+      "title": "线性代数总结 第四章 线性方程组",
+      "url": "https://zhuanlan.zhihu.com/p/56821179",
+      "summary": "正文定义 n 维向量、向量加法与数乘，并讲解线性组合、线性相关、基和向量组的秩。"
+    },
+    {
+      "title": "线性代数 第四章 线性方程组 第六节线性方程组解的结构（最重要是基础解系求解过程解读）",
+      "url": "https://zhuanlan.zhihu.com/p/56845843",
+      "summary": "正文把线性方程组每一列未知数系数解释为列向量，并讨论向量组的线性表出。"
+    },
+    {
+      "title": "考研线性代数公式整理(不断更新中)",
+      "url": "https://zhuanlan.zhihu.com/p/80690520",
+      "summary": "正文专列矩阵与向量一节，讲解矩阵乘列向量的展开以及向量内积的坐标表示。"
+    },
+    {
+      "title": "初学讲义之高中数学十三：向量入门",
+      "url": "https://zhuanlan.zhihu.com/p/82960855",
+      "summary": "正文由方向和模介绍平面向量，并展开坐标表示、加减、数乘及几何应用。"
+    },
+    {
+      "title": "余弦距离与欧式距离",
+      "url": "https://zhuanlan.zhihu.com/p/84643138",
+      "summary": "正文以向量夹角、模长归一化和坐标例子比较余弦距离与欧氏距离对方向及数值差异的刻画。"
+    },
+    {
+      "title": "初学讲义之高中数学十四：向量的数量积",
+      "url": "https://zhuanlan.zhihu.com/p/84459766",
+      "summary": "正文从坐标公式、余弦定理和投影解释向量数量积的几何意义及运算法则，实质讲解向量运算。"
+    },
+    {
+      "title": "旋转之二 - 三维空间中的旋转:罗德里格旋转公式",
+      "url": "https://zhuanlan.zhihu.com/p/85862903",
+      "summary": "正文先用正交投影把三维向量分解，再利用点积和叉积推导旋转后的向量。"
+    },
+    {
+      "title": "什么是dx——无穷小量的原理",
+      "url": "https://zhuanlan.zhihu.com/p/86272706",
+      "summary": "正文通过向量点乘、法向量和切向量分析空间几何对象。"
+    },
+    {
+      "title": "为什么高维空间下距离度量逐渐失效？",
+      "url": "https://zhuanlan.zhihu.com/p/87134706",
+      "summary": "正文给出向量范数的定义，比较 L1、L2、Lp 和 L∞ 范数，并据此讨论高维距离度量。"
+    },
+    {
+      "title": "旋转之八 - 旋转的插值（四元数）",
+      "url": "https://zhuanlan.zhihu.com/p/87418561",
+      "summary": "正文把单位四元数视为四维向量，利用向量点乘、夹角和模长关系推导旋转插值。"
+    },
+    {
+      "title": "方程组的几何解释 [MIT线代第一课pdf下载]",
+      "url": "https://zhuanlan.zhihu.com/p/87873464",
+      "summary": "正文把未知量组成向量，并以列向量的线性组合解释方程组。"
+    },
+    {
+      "title": "什么是希尔伯特空间？",
+      "url": "https://zhuanlan.zhihu.com/p/88946250",
+      "summary": "正文具体列出向量加法、数乘和八条线性空间公理，并用它们说明希尔伯特空间中的向量结构。"
+    },
+    {
+      "title": "微分几何笔记(2) —— 曲线的参数化",
+      "url": "https://zhuanlan.zhihu.com/p/89934333",
+      "summary": "正文定义切空间、沿曲线向量场和切向量场，并使用向量描述曲线的局部几何。"
+    },
+    {
+      "title": "向量的数量积、向量积与混合积及其应用内容总结",
+      "url": "https://zhuanlan.zhihu.com/p/91312584",
+      "summary": "正文系统总结向量的数量积、向量积和混合积的定义、运算规律及几何应用。"
+    },
+    {
+      "title": "向量点乘（内积）和叉乘（外积、向量积）概念及几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/91311929",
+      "summary": "正文讲解向量点乘和叉乘的公式、方向关系、投影与法向量等几何意义。"
+    },
+    {
+      "title": "向量的内积与外积",
+      "url": "https://zhuanlan.zhihu.com/p/91342476",
+      "summary": "正文讲解向量内积与外积的公式和几何意义，包括夹角、投影、法向量和面积。"
+    },
+    {
+      "title": "向量的向量积",
+      "url": "https://zhuanlan.zhihu.com/p/91318694",
+      "summary": "正文定义向量并系统讲解数量积、向量积、混合积和双重向量积及其运算性质。"
+    },
+    {
+      "title": "矩阵的本质 (1) 线性空间的概念",
+      "url": "https://zhuanlan.zhihu.com/p/91983418",
+      "summary": "正文从直角坐标系出发解释向量的加法与数量乘法，并抽象出线性空间中的向量概念。"
+    },
+    {
+      "title": "度规张量（Metric Tensor）以及它的本质",
+      "url": "https://zhuanlan.zhihu.com/p/94862461",
+      "summary": "正文以二维斜角坐标系的基向量点乘构造度量张量，并用向量点乘计算长度。"
+    },
+    {
+      "title": "一道中科大少年班选拔题",
+      "url": "https://zhuanlan.zhihu.com/p/95752871",
+      "summary": "正文将行列式形式的式子解释为向量点乘，并利用垂直向量和夹角正弦化为面积表达式。"
+    },
+    {
+      "title": "线性代数的本质",
+      "url": "https://zhuanlan.zhihu.com/p/96443919",
+      "summary": "从公理定义向量空间，并讲解向量范数、内积及函数作为向量的例子。"
+    },
+    {
+      "title": "图形学中的基本变换(Basic Transforms)",
+      "url": "https://zhuanlan.zhihu.com/p/96717729",
+      "summary": "正文区分点与方向向量，并利用向量加法和矩阵乘法说明平移对二者的不同作用。"
+    },
+    {
+      "title": "傅里叶变换系列学习（1）----从线性变换说起",
+      "url": "https://zhuanlan.zhihu.com/p/96521358",
+      "summary": "正文具体讲解向量、基、内积和正交基，并用它们说明傅里叶系数的求解。"
+    },
+    {
+      "title": "四元数(Quaternions)",
+      "url": "https://zhuanlan.zhihu.com/p/97186723",
+      "summary": "正文利用向量点乘与叉积推导四元数乘法、旋转轴和向量间旋转。"
+    },
+    {
+      "title": "梯度、散度、旋度",
+      "url": "https://zhuanlan.zhihu.com/p/97545154",
+      "summary": "正文把梯度解释为向量场，并借助向量形式说明方向、内积和场中的变化。"
+    },
+    {
+      "title": "二维旋转矩阵与向量旋转",
+      "url": "https://zhuanlan.zhihu.com/p/98007510",
+      "summary": "正文以标准正交基表示二维向量，并比较旋转前后的向量表达。"
+    },
+    {
+      "title": "矢量与场论 | 场论",
+      "url": "https://zhuanlan.zhihu.com/p/98229591",
+      "summary": "正文用矢量线、矢量面等概念刻画矢量场，展开讲解了向量的空间表达。"
+    },
+    {
+      "title": "一般坐标系下的梯度散度旋度及拉普拉斯形式",
+      "url": "https://zhuanlan.zhihu.com/p/101046437",
+      "summary": "正文定义曲线坐标的单位基向量，并推导矢量场的散度与旋度公式。"
+    },
+    {
+      "title": "[机器学习]常用距离定义与计算",
+      "url": "https://zhuanlan.zhihu.com/p/101277851",
+      "summary": "正文系统给出切比雪夫、曼哈顿、欧氏和闵可夫斯基等向量间距离的定义与公式。"
+    },
+    {
+      "title": "张量(一)：对偶基，协变量，逆变量",
+      "url": "https://zhuanlan.zhihu.com/p/101946523",
+      "summary": "正文从三维空间中的任意矢量和一组基出发，讲解向量的分量表示与对偶基。"
+    },
+    {
+      "title": "【凸优化笔记2】-凸函数、下水平集、范数",
+      "url": "https://zhuanlan.zhihu.com/p/102098039",
+      "summary": "正文用范数刻画向量长度和向量间距离，并逐一介绍常用的向量范数和矩阵范数。"
+    },
+    {
+      "title": "线性代数精华——向量的线性相关",
+      "url": "https://zhuanlan.zhihu.com/p/102621223",
+      "summary": "正文从向量定义讲到向量组的线性表示、线性相关与基，系统展开线性代数中的向量及其空间结构。"
+    },
+    {
+      "title": "浅谈圆锥曲线中的高级技巧",
+      "url": "https://zhuanlan.zhihu.com/p/103123814",
+      "summary": "正文定义二维向量叉乘，用于计算三角形和平行四边形面积并简化几何运算。"
+    },
+    {
+      "title": "张量分析傻瓜入门（翻译）：三、指标记号（指标的位置很重要！）",
+      "url": "https://zhuanlan.zhihu.com/p/103366867",
+      "summary": "正文用上指标表示向量分量，并把向量等式改写为分量形式的指标表达式。"
+    },
+    {
+      "title": "线性代数精华——从正交向量到正交矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/103636446",
+      "summary": "正文系统讲解向量内积、夹角、正交向量组、规范正交基及施密特正交化。"
+    },
+    {
+      "title": "圆锥曲线题目的三维矢量解法",
+      "url": "https://zhuanlan.zhihu.com/p/103884912",
+      "summary": "正文提出以三维矢量整体描述点和线，并说明用矢量运算替代逐分量代数计算的方法。"
+    },
+    {
+      "title": "咸鱼的微积分笔记——条件极值，拉格朗日乘数法",
+      "url": "https://zhuanlan.zhihu.com/p/103976631",
+      "summary": "正文通过向量垂直与点乘为零证明约束曲线和等高线的切向量方向一致。"
+    },
+    {
+      "title": "圆锥曲线第一节：矢量和对偶矢量",
+      "url": "https://zhuanlan.zhihu.com/p/104253403",
+      "summary": "正文从几何箭头和有序数组出发，讲解抽象矢量与矢量空间、基及坐标表示。"
+    },
+    {
+      "title": "圆锥曲线第七节：椭圆、双曲线和抛物线;极点极线",
+      "url": "https://zhuanlan.zhihu.com/p/104559252",
+      "summary": "正文用点矢、线矢及升降指标论证极点与极线的对偶关系。"
+    },
+    {
+      "title": "圆锥曲线第十节：二次点列与二次对合",
+      "url": "https://zhuanlan.zhihu.com/p/105200550",
+      "summary": "正文用三维点矢量、点积和叉积表示二次曲线上的点及交比计算。"
+    },
+    {
+      "title": "【姿态表示】旋转向量、旋转矩阵、欧拉角、四元数",
+      "url": "https://zhuanlan.zhihu.com/p/93563218",
+      "summary": "正文把旋转向量定义为方向沿旋转轴、长度等于转角的三维向量，并解释其几何含义。"
+    },
+    {
+      "title": "用七大姑八大姨了解向量组的秩",
+      "url": "https://zhuanlan.zhihu.com/p/105540647",
+      "summary": "正文用线性表出和极大无关组解释向量组等价，并由此定义向量组的秩。"
+    },
+    {
+      "title": "【“数”你好看】柯西不等式Cauchy-Schwarts Inequality",
+      "url": "https://zhuanlan.zhihu.com/p/107477843",
+      "summary": "正文用向量点乘和内积与模长的关系给出柯西不等式的向量证明。"
+    },
+    {
+      "title": "坐标变换(2)—不同坐标系下的变换",
+      "url": "https://zhuanlan.zhihu.com/p/108789534",
+      "summary": "正文用列向量表示空间点，并通过单位向量点积和投影计算其在不同坐标轴上的分量。"
+    },
+    {
+      "title": "高中数学三角函数公式大全，竞赛高考都适用（含公式推导）",
+      "url": "https://zhuanlan.zhihu.com/p/109342493",
+      "summary": "正文利用单位圆上两向量的坐标和点积同时表达内积，从而推导两角差的余弦公式。"
+    },
+    {
+      "title": "深度科普|从线性代数到量子力学(7)：当函数变身向量",
+      "url": "https://zhuanlan.zhihu.com/p/105460303",
+      "summary": "正文把函数离散化为数组并通过内积、正交和线性组合说明函数具有向量性质。"
+    },
+    {
+      "title": "【国际数学竞赛】任意多边形面积计算公式",
+      "url": "https://zhuanlan.zhihu.com/p/110025234",
+      "summary": "正文定义向量叉乘，并用叉乘模长解释三角形和平行四边形面积。"
+    },
+    {
+      "title": "张量傻瓜版入门",
+      "url": "https://zhuanlan.zhihu.com/p/110568377",
+      "summary": "正文借助度规及其逆张量定义成对矢量，并用上下标区分极点和极线所对应的矢量。"
+    },
+    {
+      "title": "为什么你天天只看见四元数和八元数？",
+      "url": "https://zhuanlan.zhihu.com/p/110997893",
+      "summary": "正文用四元数虚部定义三维向量叉积并给出计算示例，同时讨论七维叉积。"
+    },
+    {
+      "title": "用向量的方法来解决抛物线",
+      "url": "https://zhuanlan.zhihu.com/p/111074909",
+      "summary": "正文先解释向量数量积和外积的几何意义，再用向量共线、投影和数量积转化并求解抛物线问题。"
+    },
+    {
+      "title": "对于向量和矩阵的理解",
+      "url": "https://zhuanlan.zhihu.com/p/111337479",
+      "summary": "正文从坐标、箭头、加法和数乘解释向量，并讨论线性组合与张成空间。"
+    },
+    {
+      "title": "矩阵理论-1范数、2范数、无穷范数的通俗理解？",
+      "url": "https://zhuanlan.zhihu.com/p/111762323",
+      "summary": "正文用向量到原点的距离解释范数，并比较 1 范数、2 范数和无穷范数对向量的不同度量方式。"
+    },
+    {
+      "title": "梯度、方向导数与等值面",
+      "url": "https://zhuanlan.zhihu.com/p/111723231",
+      "summary": "正文用速度向量、单位方向向量及向量内积表达方向导数，并讨论两向量夹角的余弦。"
+    },
+    {
+      "title": "线性代数的本质(7)--点积",
+      "url": "https://zhuanlan.zhihu.com/p/112216204",
+      "summary": "正文从定义、投影和正负性展开讲解向量点积。"
+    },
+    {
+      "title": "数学分析笔记（rudin）",
+      "url": "https://zhuanlan.zhihu.com/p/112841533",
+      "summary": "正文定义向量坐标、内积、模长及欧几里得空间，实质展开了向量概念。"
+    },
+    {
+      "title": "希尔伯特空间",
+      "url": "https://zhuanlan.zhihu.com/p/113197869",
+      "summary": "正文从向量加法、数乘和公理出发定义一般向量空间。"
+    },
+    {
+      "title": "向量的奇技淫巧——斜坐标系",
+      "url": "https://zhuanlan.zhihu.com/p/113998064",
+      "summary": "正文以基向量表示任意向量，推导斜坐标系中的数量积公式并用它解决向量题。"
+    },
+    {
+      "title": "线性代数本质(9)--基变换",
+      "url": "https://zhuanlan.zhihu.com/p/114084418",
+      "summary": "正文通过具体向量在两个基下的坐标，说明换基前后表示的是同一个向量。"
+    },
+    {
+      "title": "一道向量题一题多解引起的思考",
+      "url": "https://zhuanlan.zhihu.com/p/114153698",
+      "summary": "正文围绕一个垂心向量题，使用向量线性组合、数量积和垂心性质给出多种解法。"
+    },
+    {
+      "title": "【1.1】线性代数的故事，从矢量开始",
+      "url": "https://zhuanlan.zhihu.com/p/114252177",
+      "summary": "正文从列向量出发解释向量的元素、加法、数乘和线性组合，并用几何箭头表示二维与三维向量。"
+    },
+    {
+      "title": "【解析几何】向量定比分点与圆锥曲线",
+      "url": "https://zhuanlan.zhihu.com/p/114334094",
+      "summary": "正文用向量定比分点关系建立坐标公式，并反复用于处理线段上的比例问题。"
+    },
+    {
+      "title": "平面向量的奇技淫巧——斜坐标系的一系列低级研究",
+      "url": "https://zhuanlan.zhihu.com/p/116519502",
+      "summary": "正文在斜坐标系中推导两点距离、向量内积、点到直线距离和奔驰定理，并用于平面向量问题。"
+    },
+    {
+      "title": "卷积大乱炖",
+      "url": "https://zhuanlan.zhihu.com/p/116889239",
+      "summary": "正文先定义向量的张量积，再通过矩阵反对角线求和构造两个向量的卷积。"
+    },
+    {
+      "title": "深入浅出Word2Vec原理解析",
+      "url": "https://zhuanlan.zhihu.com/p/114538417",
+      "summary": "正文把词语表示为固定长度向量，并通过向量空间中的距离讨论语义和语法相似性。"
+    },
+    {
+      "title": "【解析几何】定点定值问题中的因式分解",
+      "url": "https://zhuanlan.zhihu.com/p/120415505",
+      "summary": "正文用向量点积为零表达 PA 与 PB 垂直，并据此得到坐标条件、分析零向量造成的非等价转换。"
+    },
+    {
+      "title": "【解析几何】圆锥曲线与向量有关的问题(2)",
+      "url": "https://zhuanlan.zhihu.com/p/123004152",
+      "summary": "正文把向量共线条件转化为坐标关系，再与圆锥曲线方程结合求解。"
+    },
+    {
+      "title": "【解析几何】圆锥曲线与向量有关的问题(3)",
+      "url": "https://zhuanlan.zhihu.com/p/123007877",
+      "summary": "正文将和式向量结构转化为坐标关系，代入圆锥曲线方程完成证明与范围计算。"
+    },
+    {
+      "title": "偏微分方程预备知识-梯度，散度，旋度",
+      "url": "https://zhuanlan.zhihu.com/p/130491422",
+      "summary": "正文系统讨论数量场和向量场，并使用向量内积、叉积及向量函数描述场。"
+    },
+    {
+      "title": "从球坐标出发，推导角动量平方算符表达式",
+      "url": "https://zhuanlan.zhihu.com/p/136022582",
+      "summary": "正文用位置矢量与动量矢量的叉乘定义角动量算符，并依据球坐标基矢展开运算。"
+    },
+    {
+      "title": "如何理解施密特（Schmidt）正交化",
+      "url": "https://zhuanlan.zhihu.com/p/136627868",
+      "summary": "正文通过向量投影和逐次扣除投影分量，讲解施密特正交化得到正交基的方法。"
+    },
+    {
+      "title": "基础篇1: CFD中的矢量",
+      "url": "https://zhuanlan.zhihu.com/p/112585207",
+      "summary": "正文系统讲解矢量的分量表示、模、加法、数乘、点乘和叉乘等基本运算。"
+    },
+    {
+      "title": "L1和L2 详解(范数、损失函数、正则化)",
+      "url": "https://zhuanlan.zhihu.com/p/137073968",
+      "summary": "正文以n维特征向量为例定义L2范数及多种向量距离，实质讲解了向量的长度与距离。"
+    },
+    {
+      "title": "解析几何中的不等式利器——柯西（Cauchy）不等式",
+      "url": "https://zhuanlan.zhihu.com/p/137532280",
+      "summary": "正文用向量点积、模长和夹角的余弦关系证明柯西不等式。"
+    },
+    {
+      "title": "基础篇2: 梯度、散度与旋度",
+      "url": "https://zhuanlan.zhihu.com/p/136836187",
+      "summary": "正文说明梯度是矢量场，并给出方向导数、点乘和矢量叉乘的具体表达。"
+    },
+    {
+      "title": "工具类|常见的距离算法和相似度计算方法",
+      "url": "https://zhuanlan.zhihu.com/p/138107999",
+      "summary": "正文用向量点积和模长定义余弦相似度，并解释其取值与方向差异。"
+    },
+    {
+      "title": "布洛克球面(Bloch Sphere)的引入",
+      "url": "https://zhuanlan.zhihu.com/p/137612054",
+      "summary": "正文把二维态矢量映射为三维单位矢量，并讨论其投影与合成。"
+    },
+    {
+      "title": "基础篇3：张量的基本概念与表示法",
+      "url": "https://zhuanlan.zhihu.com/p/136836158",
+      "summary": "正文从标量和矢量推广到高阶张量，并讲解自由标、哑标和爱因斯坦求和约定。"
+    },
+    {
+      "title": "全网最好的讲解：联络系数-克氏符-克里斯托费尔符号 - Christoffel Symbol",
+      "url": "https://zhuanlan.zhihu.com/p/139405304",
+      "summary": "正文用切空间中的点和局部基向量说明向量、向量加法以及同一向量在不同局部坐标表示下的关系。"
+    },
+    {
+      "title": "关于开普勒三大定律的理解和证明",
+      "url": "https://zhuanlan.zhihu.com/p/136265256",
+      "summary": "正文用极坐标单位矢量及其导数分解行星速度和加速度，并引出叉乘形式的角动量守恒。"
+    },
+    {
+      "title": "基础篇4:张量的运算及矢量梯度、张量散度",
+      "url": "https://zhuanlan.zhihu.com/p/139105732",
+      "summary": "正文从矢量并矢积出发，讲解向量点乘及其与张量、矩阵表示之间的关系。"
+    },
+    {
+      "title": "深入理解旋转矩阵和平移向量的本质",
+      "url": "https://zhuanlan.zhihu.com/p/141597984",
+      "summary": "正文区分向量与点，说明向量具有方向和大小，只有选定坐标系后才用坐标表示。"
+    },
+    {
+      "title": "从对极几何恢复相机运动",
+      "url": "https://zhuanlan.zhihu.com/p/141799551",
+      "summary": "正文从内积和外积的几何意义出发，讲解向量的点乘与叉乘。"
+    },
+    {
+      "title": "二阶张量和四阶张量的Voigt标记详解",
+      "url": "https://zhuanlan.zhihu.com/p/141934089",
+      "summary": "正文通过把二阶应力、应变张量的独立成分重排为一维向量，展示Voigt表记中的向量化表示。"
+    },
+    {
+      "title": "向量，矩阵和张量的导数 | 简单的数学",
+      "url": "https://zhuanlan.zhihu.com/p/142668996",
+      "summary": "正文以行向量和列向量为例，逐元素推导向量关于向量的导数。"
+    },
+    {
+      "title": "从EMD、WMD到WRD：文本向量序列的相似度计算",
+      "url": "https://zhuanlan.zhihu.com/p/142598021",
+      "summary": "正文把句子表示为词向量序列，并以向量间欧氏距离和余弦距离构造文本相似度。"
+    },
+    {
+      "title": "计算机图形学一：基础变换矩阵总结(缩放，旋转，位移)",
+      "url": "https://zhuanlan.zhihu.com/p/144323332",
+      "summary": "正文用二维和三维向量的坐标、叉乘及坐标轴构造解释旋转前后的向量关系。"
+    },
+    {
+      "title": "计算机图形学补充1：重心坐标(barycentric coordinates)详解及其作用",
+      "url": "https://zhuanlan.zhihu.com/p/144360079",
+      "summary": "正文用三个顶点坐标的加权线性组合定义平面点的重心坐标。"
+    },
+    {
+      "title": "如何理解超平面？",
+      "url": "https://zhuanlan.zhihu.com/p/145706435",
+      "summary": "正文利用法向量与平面内向量的点积为零建立超平面方程，并用向量投影推导点到超平面的距离。"
+    },
+    {
+      "title": "奇技淫巧系列：向量叉乘",
+      "url": "https://zhuanlan.zhihu.com/p/148780358",
+      "summary": "正文从点乘对照引入三维向量叉乘，讲解其模、方向、坐标计算及求平面法向量的应用。"
+    },
+    {
+      "title": "[线性代数] 1 引入内积空间的想法和意义",
+      "url": "https://zhuanlan.zhihu.com/p/148949131",
+      "summary": "正文在一般向量空间上定义内积、范数和正交，并讨论标准正交基与 Gram-Schmidt 正交化。"
+    },
+    {
+      "title": "SLAM线特征学习（1）——基本的线特征表示与优化推导",
+      "url": "https://zhuanlan.zhihu.com/p/149028042",
+      "summary": "正文用方向向量与法向量表示空间直线，并通过叉积和正交关系展开推导。"
+    },
+    {
+      "title": "对第一/二型曲线/曲面积分的小总结",
+      "url": "https://zhuanlan.zhihu.com/p/149352265",
+      "summary": "正文把第二型积分解释为向量场与切向量或法向量的点积，并说明按坐标轴分解投影的计算方法。"
+    },
+    {
+      "title": "点到线或面的距离公式",
+      "url": "https://zhuanlan.zhihu.com/p/149698499",
+      "summary": "正文用法向量与点积投影计算垂线向量长度，从而得到距离公式。"
+    },
+    {
+      "title": "线性空间的基和维数",
+      "url": "https://zhuanlan.zhihu.com/p/150982198",
+      "summary": "正文定义线性空间中的向量组，并系统讲解线性相关、线性无关及向量组的线性表出。"
+    },
+    {
+      "title": "基变换和坐标变换",
+      "url": "https://zhuanlan.zhihu.com/p/151192770",
+      "summary": "正文用同一向量的不同坐标表示说明向量与坐标分量在坐标系变换中的区别。"
+    },
+    {
+      "title": "机器学习基础（一）——稀疏表示",
+      "url": "https://zhuanlan.zhihu.com/p/151901026",
+      "summary": "正文用基向量线性表示空间向量来说明过完备字典，并用向量的线性组合解释稀疏表示。"
+    },
+    {
+      "title": "《Linear Algebra Done Right》线性代数复习及部分习题解答（1.A）",
+      "url": "https://zhuanlan.zhihu.com/p/152079929",
+      "summary": "正文定义 F^n 中向量的坐标加法与数乘，并从位移叠加和伸缩角度解释向量运算。"
+    },
+    {
+      "title": "高考前最后3分，爱要不要！",
+      "url": "https://zhuanlan.zhihu.com/p/156881503",
+      "summary": "正文完整讲解用三个首尾衔接的向量求两个平面法向量，并据此计算二面角余弦。"
+    },
+    {
+      "title": "线积分与面积分（1）：从拉梅系数开始",
+      "url": "https://zhuanlan.zhihu.com/p/149863110",
+      "summary": "正文用局部坐标基底表示径矢和向量场，并推导两组基底之间的正交变换。"
+    },
+    {
+      "title": "线性代数基础——矩阵和向量乘法",
+      "url": "https://zhuanlan.zhihu.com/p/158597326",
+      "summary": "正文把多套房面积组成列向量，与参数矩阵相乘，用一个表达式同时计算多个线性模型结果。"
+    },
+    {
+      "title": "RayMarching入门",
+      "url": "https://zhuanlan.zhihu.com/p/158713630",
+      "summary": "正文用点与球心向量的差、长度和分量极值计算有向距离，并用向量表示光照法线。"
+    },
+    {
+      "title": "欧几里得空间定义与基本性质",
+      "url": "https://zhuanlan.zhihu.com/p/158881771",
+      "summary": "正文以向量内积定义欧几里得空间，并展开长度、夹角、正交和三角不等式。"
+    },
+    {
+      "title": "平面向量笔记",
+      "url": "https://zhuanlan.zhihu.com/p/158871110",
+      "summary": "正文系统展开平面向量基底表示、等值线、奔驰定理和极化恒等式及其变形。"
+    },
+    {
+      "title": "点积相似度、余弦相似度、欧几里得相似度",
+      "url": "https://zhuanlan.zhihu.com/p/159244903",
+      "summary": "正文以向量夹角和模长展开点积、余弦与欧几里得相似度，并比较不同向量相似度度量的性质。"
+    },
+    {
+      "title": "向量、函数向量、再生核希尔伯特空间、核技巧",
+      "url": "https://zhuanlan.zhihu.com/p/161376521",
+      "summary": "正文从向量的线性组合与正交基出发，定义向量内积并将其用于相似度。"
+    },
+    {
+      "title": "Lattice学习笔记03：Dual Lattice（对偶格）",
+      "url": "https://zhuanlan.zhihu.com/p/161889613",
+      "summary": "正文以格点向量和向量点积定义对偶格，并用对偶向量构造原格的分层。"
+    },
+    {
+      "title": "线性代数（十五）标准正交基（Orthonormal Bases）和Gram-Schmidt正交化",
+      "url": "https://zhuanlan.zhihu.com/p/162732832",
+      "summary": "正文从正交且单位长度的向量定义标准正交基，并进一步说明向量投影。"
+    },
+    {
+      "title": "方向角与方向余弦",
+      "url": "https://zhuanlan.zhihu.com/p/163807527",
+      "summary": "正文定义方向角与方向余弦，并用向量坐标表示与向量同方向的单位向量。"
+    },
+    {
+      "title": "一个对四元数旋转的简单推导",
+      "url": "https://zhuanlan.zhihu.com/p/166674954",
+      "summary": "正文用纯四元数的点积、叉积、向量分解和正交分量推导三维旋转。"
+    },
+    {
+      "title": "等值线漫谈",
+      "url": "https://zhuanlan.zhihu.com/p/168054302",
+      "summary": "正文以平面向量基底和分解系数为常数解释等和线、等差线及相关轨迹。"
+    },
+    {
+      "title": "立体几何大题——向量法专题（空间直角坐标系构建）",
+      "url": "https://zhuanlan.zhihu.com/p/172477744",
+      "summary": "正文把空间直角坐标系的建立作为向量法求解立体几何角问题的统一基础。"
+    },
+    {
+      "title": "2D凸多边形碰撞检测算法（一） - SAT",
+      "url": "https://zhuanlan.zhihu.com/p/176667175",
+      "summary": "正文把最短的穿透深度组织成具有起点、终点、大小和方向的穿透矢量，并据此平移物体完成分离。"
+    },
+    {
+      "title": "高等数学八：（2）格林公式",
+      "url": "https://zhuanlan.zhihu.com/p/179142163",
+      "summary": "正文定义速度矢量场并解释矢量沿外法线的分量、通量及散度，属于向量概念的应用。"
+    },
+    {
+      "title": "立体几何大题——向量法（二面角）专题",
+      "url": "https://zhuanlan.zhihu.com/p/192396809",
+      "summary": "正文以平面法向量和空间直角坐标为工具，具体说明用向量夹角及其与二面角的互补关系求二面角。"
+    },
+    {
+      "title": "度量张量的本质及详解（高阶）——全网最好的讲解",
+      "url": "https://zhuanlan.zhihu.com/p/190104245",
+      "summary": "正文从点乘、向量分解和对偶基出发，解释向量分量如何由内积与对偶坐标系确定。"
+    },
+    {
+      "title": "浅谈：拉梅系数那些事儿",
+      "url": "https://zhuanlan.zhihu.com/p/194241346",
+      "summary": "正文把弧微分展开为带正交基向量和拉梅系数的向量分量。"
+    },
+    {
+      "title": "N-S方程篇6：动量方程",
+      "url": "https://zhuanlan.zhihu.com/p/194295071",
+      "summary": "正文以速度矢量的并积、散度和分量形式描述动量通量。"
+    },
+    {
+      "title": "谈谈向量在曲面上的平行移动 (1) —— 平行移动与测地线",
+      "url": "https://zhuanlan.zhihu.com/p/229096672",
+      "summary": "正文用局部标架表示曲面上的向量与向量场，并在切平面和法向量方向分解其变化。"
+    },
+    {
+      "title": "矩阵基础 | 向量范数与矩阵范数",
+      "url": "https://zhuanlan.zhihu.com/p/265713608",
+      "summary": "正文定义向量的 0、1、2、无穷范数，并用二维、三维和 N 维向量长度解释其度量意义。"
+    },
+    {
+      "title": "3D图形学线代基础",
+      "url": "https://zhuanlan.zhihu.com/p/265976702",
+      "summary": "正文系统讲解向量的模、加减、点乘、叉乘及其几何意义，并结合三维空间中的位移和法向量展开。"
+    },
+    {
+      "title": "平面的方程",
+      "url": "https://zhuanlan.zhihu.com/p/267722955",
+      "summary": "正文以平面基底、法向量和数量积为零刻画线面垂直，并用向量投影推导点到平面的距离。"
+    },
+    {
+      "title": "坐标变换与基变换——左乘与右乘",
+      "url": "https://zhuanlan.zhihu.com/p/295576029",
+      "summary": "正文从向量空间的基与坐标出发，说明向量在不同坐标系中的表示及其变换。"
+    },
+    {
+      "title": "矩阵本质-基变换与线性变换",
+      "url": "https://zhuanlan.zhihu.com/p/296265380",
+      "summary": "正文以不依赖坐标系存在的向量为起点，区分向量实体与其在不同基下的坐标表示。"
+    },
+    {
+      "title": "定比分点(不设线)",
+      "url": "https://zhuanlan.zhihu.com/p/301400288",
+      "summary": "正文用平面向量的线性关系和坐标分量表示共线点之间的定比分点条件。"
+    },
+    {
+      "title": "《结构及衍射》第六节：倒易空间",
+      "url": "https://zhuanlan.zhihu.com/p/308861737",
+      "summary": "正文通过点积、叉乘定义倒基矢，并说明倒格矢可表示晶面法线及晶面间距。"
+    },
+    {
+      "title": "矩阵乘法核心思想（1）：列空间",
+      "url": "https://zhuanlan.zhihu.com/p/327042762",
+      "summary": "正文展开列向量的线性组合、张成、基和正交基，说明矩阵乘法与向量空间的关系。"
+    },
+    {
+      "title": "正交投影的一点总结",
+      "url": "https://zhuanlan.zhihu.com/p/330652546",
+      "summary": "正文从向量在单个向量方向上的投影出发，利用内积推导投影向量。"
+    },
+    {
+      "title": "关于线面角、二面角、线线角、任意四面体外接球、四面体体积等公式 及一个由空间余弦定理导出的向量恒等式",
+      "url": "https://zhuanlan.zhihu.com/p/331855018",
+      "summary": "正文用空间向量数量积推导两直线夹角公式和一般向量恒等式。"
+    },
+    {
+      "title": "[张量系列DLC] 矢量混合运算 / Levi-Civita 符号与 Kronecker delta",
+      "url": "https://zhuanlan.zhihu.com/p/331738362",
+      "summary": "正文在三维实空间中以基底和分量定义向量叉乘，并推导混合积的指标形式。"
+    },
+    {
+      "title": "格密码基础 1（Lecture 1，Lattices）",
+      "url": "https://zhuanlan.zhihu.com/p/334421256",
+      "summary": "正文以线性无关向量的整数线性组合定义格，并讨论基向量和向量张成的空间。"
+    },
+    {
+      "title": "线性代数中的基础概念(1)：常见符号表示，向量范数与矩阵范数",
+      "url": "https://zhuanlan.zhihu.com/p/336136833",
+      "summary": "正文定义列向量、内积与外积，并系统介绍向量范数及其度量距离的含义。"
+    },
+    {
+      "title": "高数(上)笔记——向量代数与空间解析几何",
+      "url": "https://zhuanlan.zhihu.com/p/336699646",
+      "summary": "正文系统讲解向量加减、数乘、内积、叉乘和混合积及其运算性质。"
+    },
+    {
+      "title": "机器学习中“距离与相似度”计算汇总",
+      "url": "https://zhuanlan.zhihu.com/p/336946131",
+      "summary": "正文用向量点积、模长和夹角公式具体定义并解释余弦相似度。"
+    },
+    {
+      "title": "算法学习笔记(63): 计算几何基础",
+      "url": "https://zhuanlan.zhihu.com/p/338057154",
+      "summary": "正文实现向量加减、数乘、点乘、叉乘和长度计算，并用这些运算描述几何关系。"
+    },
+    {
+      "title": "进阶指标运算 - 废除矩阵空间的固定对应",
+      "url": "https://zhuanlan.zhihu.com/p/339120822",
+      "summary": "正文讨论矢量与其对偶矢量、基矢和分量表示，说明不必把矢量空间固定绑定到列矩阵空间。"
+    },
+    {
+      "title": "线性代数的本质（一）",
+      "url": "https://zhuanlan.zhihu.com/p/339768839",
+      "summary": "正文从有向线段和坐标表示出发，讲解向量加法、数乘、线性组合、基与张成空间。"
+    },
+    {
+      "title": "高中生如何理解向量？",
+      "url": "https://zhuanlan.zhihu.com/p/340139444",
+      "summary": "正文用线性空间公理定义向量，并以数组、多项式和函数空间说明向量的抽象含义。"
+    },
+    {
+      "title": "算法学习笔记(65): 凸包",
+      "url": "https://zhuanlan.zhihu.com/p/340442313",
+      "summary": "正文用两个向量的叉乘判断旋转方向，并据此说明凸包扫描算法中的向量运算。"
+    },
+    {
+      "title": "【回归本源】1.3-向量叉乘",
+      "url": "https://zhuanlan.zhihu.com/p/342679387",
+      "summary": "正文系统讲解三维向量叉乘的坐标公式、几何意义、性质与方向判定。"
+    },
+    {
+      "title": "四元数的两个公式",
+      "url": "https://zhuanlan.zhihu.com/p/343095440",
+      "summary": "正文以四元数的标量部分和三维向量部分组织乘法，并使用内积、外积与旋转轴推导球面插值。"
+    },
+    {
+      "title": "《Linear Algebra Done Right》Ch1 Vector Spaces 1.A",
+      "url": "https://zhuanlan.zhihu.com/p/344936333",
+      "summary": "正文定义 F^n 中向量的加法、零元和标量乘法。"
+    },
+    {
+      "title": "【高中数学·圆锥曲线】初探仿射变换",
+      "url": "https://zhuanlan.zhihu.com/p/346484955",
+      "summary": "正文用位置向量的外积表示三角形面积，并据坐标行列式计算仿射变换前后的面积比。"
+    },
+    {
+      "title": "向量内积外积的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/348308540",
+      "summary": "正文系统定义向量的内积与外积，推导其坐标公式并解释点乘、叉乘的性质和几何意义。"
+    },
+    {
+      "title": "浅谈美妙的三角换元",
+      "url": "https://zhuanlan.zhihu.com/p/350166986",
+      "summary": "正文构造两个平面向量，并用向量内积的上界求分式三角函数的值域。"
+    },
+    {
+      "title": "矩阵乘法核心思想（5）：内积与外积",
+      "url": "https://zhuanlan.zhihu.com/p/350470257",
+      "summary": "正文用列向量与行向量的外积构造秩一矩阵，并说明所得行空间、列空间及其向量方向。"
+    },
+    {
+      "title": "从零开始的高中数学——向量(上)",
+      "url": "https://zhuanlan.zhihu.com/p/350622845",
+      "summary": "正文系统展开向量的模、加减、数乘、内积和投影等概念与运算。"
+    },
+    {
+      "title": "数据科学中常见的9种距离度量方法，内含欧氏距离、切比雪夫距离等",
+      "url": "https://zhuanlan.zhihu.com/p/350744027",
+      "summary": "正文通过向量夹角与点积解释余弦相似度及其适用的高维数据场景。"
+    },
+    {
+      "title": "线性代数“正交”全家桶(1) 正交向量与基",
+      "url": "https://zhuanlan.zhihu.com/p/351028051",
+      "summary": "正文用内积和标准正交基说明向量的正交性、分解与投影，并给出标准基实例。"
+    },
+    {
+      "title": "线性代数：四、向量的内积与内积空间",
+      "url": "https://zhuanlan.zhihu.com/p/350620954",
+      "summary": "正文系统讲解向量的模、内积、投影和正交关系，并给出坐标形式及夹角公式。"
+    },
+    {
+      "title": "矢量乘积法则的简洁证明",
+      "url": "https://zhuanlan.zhihu.com/p/353243862",
+      "summary": "正文用矢量点积、叉积与行列式的对应关系解释这些符号，并以此推导矢量场的散度和旋度恒等式。"
+    },
+    {
+      "title": "距离相似度计算总结（欧式距离、余弦相似度、杰卡德、互信息等18种）",
+      "url": "https://zhuanlan.zhihu.com/p/354289511",
+      "summary": "正文用向量夹角定义余弦相似度，并比较其与欧氏距离在方向和长度度量上的差异。"
+    },
+    {
+      "title": "【4.1】线性代数基本定理（中）：矩阵四个基本空间与正交补",
+      "url": "https://zhuanlan.zhihu.com/p/348358376",
+      "summary": "正文用内积为零和夹角九十度解释两个矢量正交的代数与几何意义。"
+    },
+    {
+      "title": "向量代数与空间解析几何 第四节 空间直线及其方程",
+      "url": "https://zhuanlan.zhihu.com/p/356903732",
+      "summary": "正文用方向向量和法向量刻画直线方向，并通过向量的点积或分量比例判断夹角、平行与垂直。"
+    },
+    {
+      "title": "[前置内容] 从映射到张量",
+      "url": "https://zhuanlan.zhihu.com/p/356975719",
+      "summary": "正文从线性空间的加法与数乘出发，展开定义了矢量、线性相关、基矢和内积。"
+    },
+    {
+      "title": "凸优化修炼之路 | 超平面与半空间",
+      "url": "https://zhuanlan.zhihu.com/p/357254745",
+      "summary": "正文用向量内积和投影解释超平面方程，并讨论向量正交。"
+    },
+    {
+      "title": "狄拉克符号的运算规则",
+      "url": "https://zhuanlan.zhihu.com/p/356874717",
+      "summary": "正文把量子态的左矢、右矢明确对应到线性代数中的行矢量和列矢量。"
+    },
+    {
+      "title": "inversioner版高中数学课本(2)——第二章：向量",
+      "url": "https://zhuanlan.zhihu.com/p/358640097",
+      "summary": "正文系统讲解向量的定义、加减、数乘、数量积、坐标表示以及平面和空间向量。"
+    },
+    {
+      "title": "坐标系中三角形的面积公式",
+      "url": "https://zhuanlan.zhihu.com/p/358835665",
+      "summary": "正文分别利用向量投影、点积和叉积推导坐标三角形的面积公式。"
+    },
+    {
+      "title": "終 · 一步到位的张量指标运算",
+      "url": "https://zhuanlan.zhihu.com/p/359082678",
+      "summary": "正文从基矢展开、对偶矢量、内积和分量变换系统讲解矢量与对偶矢量的运算。"
+    },
+    {
+      "title": "Minkowski时空中一个有趣不等式的证明",
+      "url": "https://zhuanlan.zhihu.com/p/359371658",
+      "summary": "正文在 Minkowski 空间中利用四维向量的内积、正交关系与类时性证明不等式。"
+    },
+    {
+      "title": "向量点乘与叉乘的概念及几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/359975221",
+      "summary": "正文系统讲解向量点乘与叉乘的代数公式、几何意义及夹角关系。"
+    },
+    {
+      "title": "玩转矢量分析公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/360034439",
+      "summary": "正文用分量与 Levi-Civita 记号表示向量叉积，并推导多种向量恒等式。"
+    },
+    {
+      "title": "微积分：九、曲线积分与曲面积分",
+      "url": "https://zhuanlan.zhihu.com/p/360488316",
+      "summary": "正文把梯度解释为从空间坐标到空间向量的一类向量函数，并继续讨论向量场的散度与旋度。"
+    },
+    {
+      "title": "一文学会 Pytorch 中的 einsum",
+      "url": "https://zhuanlan.zhihu.com/p/361209187",
+      "summary": "正文以向量内积和外积等实例讲解向量运算如何由爱因斯坦求和统一表达。"
+    },
+    {
+      "title": "inversioner版高中数学课本(2)——第三章：复数",
+      "url": "https://zhuanlan.zhihu.com/p/361653318",
+      "summary": "正文把复数对应到复平面中的点和向量，用向量直观解释复数的加减、数乘和模不等式。"
+    },
+    {
+      "title": "两角和差的正余弦公式的若干证明方法",
+      "url": "https://zhuanlan.zhihu.com/p/361839484",
+      "summary": "正文利用单位圆上向量的坐标、夹角和点积直接推出两角差的余弦公式。"
+    },
+    {
+      "title": "向量运算与应用",
+      "url": "https://zhuanlan.zhihu.com/p/362035810",
+      "summary": "正文系统讲解向量表示、模、加减、数乘、点积、叉积及投影等向量运算。"
+    },
+    {
+      "title": "矩阵运算与常用矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/362082020",
+      "summary": "正文将向量写成列矩阵，并用矩阵乘法表示向量点积和叉积。"
+    },
+    {
+      "title": "向量外积在初等数学中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/360696570",
+      "summary": "正文解释三维向量外积的长度、方向和坐标公式，并讨论法向量与面积意义。"
+    },
+    {
+      "title": "方向导数和梯度概念理解",
+      "url": "https://zhuanlan.zhihu.com/p/363358887",
+      "summary": "正文用方向向量、内积和等值线法向量解释梯度这一向量及其几何意义。"
+    },
+    {
+      "title": "Minkowski不等式和Holder不等式的直观证明",
+      "url": "https://zhuanlan.zhihu.com/p/364904244",
+      "summary": "正文在 n 维向量空间中构造 p 范数，并借助对偶矢量、点积与切平面给出不等式的几何解释。"
+    },
+    {
+      "title": "有限体积法（2）数学基础——向量",
+      "url": "https://zhuanlan.zhihu.com/p/365051614",
+      "summary": "正文讲解向量的点乘、叉乘、模、三重积以及 nabla 算子作用后的向量运算。"
+    },
+    {
+      "title": "深度科普 | 用几何视角学相对论(15): 逆变与协变",
+      "url": "https://zhuanlan.zhihu.com/p/356143550",
+      "summary": "正文讨论向量在坐标基、斜交基和对偶基下的分量表示及内积。"
+    },
+    {
+      "title": "贝塞尔曲线与曲面（Bezier Curve and Surface）的详细介绍与代码实现",
+      "url": "https://zhuanlan.zhihu.com/p/366678047",
+      "summary": "正文用控制顶点和连接向量表达曲线的趋势、坐标及交互修改过程。"
+    },
+    {
+      "title": "曲面的参数方程",
+      "url": "https://zhuanlan.zhihu.com/p/367637158",
+      "summary": "正文用两条参数曲线的切向量作叉积，推导曲面法向量与外积表达式。"
+    },
+    {
+      "title": "[番外] 主动与被动 / 逆变与协变",
+      "url": "https://zhuanlan.zhihu.com/p/371277329",
+      "summary": "正文区分矢量本身与其坐标分量，并解释基矢改变时同一矢量的分量如何满足变换关系。"
+    },
+    {
+      "title": "向量代数：二重外积公式的一个证明",
+      "url": "https://zhuanlan.zhihu.com/p/371492016",
+      "summary": "正文证明向量二重外积恒等式，并利用向量线性运算、数量积和叉积展开推导。"
+    },
+    {
+      "title": "图形渲染基础：光栅化算法",
+      "url": "https://zhuanlan.zhihu.com/p/370059588",
+      "summary": "正文用三维向量的点积、外积和重心坐标完成三角形光栅化与方向判断。"
+    },
+    {
+      "title": "【预印版】从几何直观的角度带你理解傅里叶级数/变换（一）——内积、投影、傅里叶级数",
+      "url": "https://zhuanlan.zhihu.com/p/378322950",
+      "summary": "正文从向量内积和夹角出发，推导投影分量及向量在正交基上的展开。"
+    },
+    {
+      "title": "正交变换最强总结笔记，解决每一个考研线代人的理解难关",
+      "url": "https://zhuanlan.zhihu.com/p/382012427",
+      "summary": "正文分别计算正交变换前后的向量长度、内积和夹角，证明这些向量几何量保持不变。"
+    },
+    {
+      "title": "【论文复现】A Survey of Efficient Representations for Independent Unit Vectors",
+      "url": "https://zhuanlan.zhihu.com/p/384232048",
+      "summary": "正文利用单位方向向量、八面体方程和归一化完成球面坐标与二维纹理坐标的互转。"
+    },
+    {
+      "title": "经典且美妙——柯西不等式",
+      "url": "https://zhuanlan.zhihu.com/p/390699365",
+      "summary": "正文构造两个实向量，用点积与夹角余弦的关系给出柯西不等式的一种证明。"
+    },
+    {
+      "title": "向量与三角形四心",
+      "url": "https://zhuanlan.zhihu.com/p/389070614",
+      "summary": "正文以平面向量及其线性运算、数量积建立三角形重心、垂心、内心和外心的判定结论。"
+    },
+    {
+      "title": "[数学科普]：何如用一个方程统一 Maxwell 方程组？",
+      "url": "https://zhuanlan.zhihu.com/p/393255127",
+      "summary": "正文从欧氏空间中的向量、基、内积和外积出发构造 Clifford 乘积。"
+    },
+    {
+      "title": "译稿 | 通往相对论的数学之门(6)：逆变向量与协变向量",
+      "url": "https://zhuanlan.zhihu.com/p/392439210",
+      "summary": "正文通过逆变分量、协变分量和对偶基底讲解同一向量的不同表示。"
+    },
+    {
+      "title": "矩阵变换的本质 --- 欧拉角与矩阵与万向锁问题",
+      "url": "https://zhuanlan.zhihu.com/p/394141773",
+      "summary": "正文把坐标和变换都解释为向量的数组，以向量分解和基向量变换说明矩阵作用。"
+    },
+    {
+      "title": "一篇搞定！GAMES101现代计算机图形学入门（全）",
+      "url": "https://zhuanlan.zhihu.com/p/394932478",
+      "summary": "正文讲解向量的点乘、叉乘和投影，并说明它们在图形学判定与坐标构造中的作用。"
+    },
+    {
+      "title": "inversioner版高中数学课本(2)——第四章：平面解析几何",
+      "url": "https://zhuanlan.zhihu.com/p/399971862",
+      "summary": "正文用方向向量、点积、叉积和投影推导直线夹角及点到直线距离。"
+    },
+    {
+      "title": "从零构建光栅器，tinyrenderer笔记（下）",
+      "url": "https://zhuanlan.zhihu.com/p/400791821",
+      "summary": "正文用齐次坐标区分向量与点，并通过叉积构造正交基和处理几何变换。"
+    },
+    {
+      "title": "高维空间（High-Dimensional Space）及其特性",
+      "url": "https://zhuanlan.zhihu.com/p/403678066",
+      "summary": "正文讨论高维单位球随机向量的长度与内积界，并得出高维向量近似两两正交。"
+    },
+    {
+      "title": "有限体积法(Finite Volume Method)：数学基础",
+      "url": "https://zhuanlan.zhihu.com/p/406405950",
+      "summary": "正文解释向量的分量表示、范数、加法及列向量形式，为有限体积法建立向量基础。"
+    },
+    {
+      "title": "第三章：向量空间和子空间",
+      "url": "https://zhuanlan.zhihu.com/p/408469135",
+      "summary": "正文定义向量空间和子空间，并讨论线性组合、张成、基与维度。"
+    },
+    {
+      "title": "2.1 线性相关、线性无关｜《线性代数》",
+      "url": "https://zhuanlan.zhihu.com/p/411455683",
+      "summary": "正文从向量线性组合的零系数方程定义线性相关与线性无关，并讨论其基本性质。"
+    },
+    {
+      "title": "线性代数/矩阵的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/411758474",
+      "summary": "正文从向量相加、数乘、基与张成空间展开向量，说明基向量的线性组合如何生成空间。"
+    },
+    {
+      "title": "图形学中常见的数学困惑",
+      "url": "https://zhuanlan.zhihu.com/p/413224014",
+      "summary": "正文具体给出三维向量叉乘的分量公式和行列式表示，并用叉乘判断坐标轴方向。"
+    },
+    {
+      "title": "让人惊叹的Johnson-Lindenstrauss引理：理论篇",
+      "url": "https://zhuanlan.zhihu.com/p/413581747",
+      "summary": "正文围绕向量的范数、内积和相对距离展开，并证明内积版 JL 引理。"
+    },
+    {
+      "title": "注意力机制到底在做什么，Q/K/V怎么来的？一文读懂Attention注意力机制",
+      "url": "https://zhuanlan.zhihu.com/p/414084879",
+      "summary": "正文解释向量点乘的几何意义，并用点乘结果衡量两个向量的相似度。"
+    },
+    {
+      "title": "课堂小记(11)：异面直线的距离计算",
+      "url": "https://zhuanlan.zhihu.com/p/413755608",
+      "summary": "正文建立空间向量并利用法向量与两条方向向量的点乘为零求出平面法向量。"
+    },
+    {
+      "title": "C++矩阵库Eigen的用法",
+      "url": "https://zhuanlan.zhihu.com/p/414383770",
+      "summary": "正文同时说明行向量与列向量的类型、元素访问、分块和矩阵向量乘法操作。"
+    },
+    {
+      "title": "SPH算法简介（一）: 数学基础",
+      "url": "https://zhuanlan.zhihu.com/p/416155024",
+      "summary": "正文以标量场和矢量场为入口，解释哈密顿算子的梯度与点积运算。"
+    },
+    {
+      "title": "保研面试/考研复试线性代数问题整理",
+      "url": "https://zhuanlan.zhihu.com/p/421166540",
+      "summary": "正文讲解向量空间、基与维数、线性相关和正交向量，实质展开向量概念。"
+    },
+    {
+      "title": "KDD2021｜重排｜小红书在推荐多样化的实践——SSD",
+      "url": "https://zhuanlan.zhihu.com/p/421248970",
+      "summary": "正文用物品嵌入向量、内积与 Gram-Schmidt 正交化计算多样性，具体展开向量运算。"
+    },
+    {
+      "title": "外微分（Exterior Calculus）是什么 - 1？",
+      "url": "https://zhuanlan.zhihu.com/p/369432975",
+      "summary": "正文从余向量、向量楔积、对偶基和坐标变换讲起，具体解释向量及其对偶结构。"
+    },
+    {
+      "title": "MIT助理教授赵宇飞团队登数学四大顶刊，华人作者中两位是本科生，最小的是00后",
+      "url": "https://zhuanlan.zhihu.com/p/422407713",
+      "summary": "正文把等角线表示为单位向量，并通过两两内积的正负及数值研究夹角关系。"
+    },
+    {
+      "title": "标量函数、向量函数和矩阵函数",
+      "url": "https://zhuanlan.zhihu.com/p/423376954",
+      "summary": "正文以多元价格函数为例，把多个自变量组成向量输入，并反复给出向量值函数的记号与例子。"
+    },
+    {
+      "title": "线性代数知识点",
+      "url": "https://zhuanlan.zhihu.com/p/422251943",
+      "summary": "正文系统讨论向量组线性相关性、向量空间、内积、长度、范数和正交性。"
+    },
+    {
+      "title": "反设直线一定简单吗？",
+      "url": "https://zhuanlan.zhihu.com/p/433455902",
+      "summary": "正文通过计算向量内积为零来证明两向量垂直，并把结论用于解析几何中的定角问题。"
+    },
+    {
+      "title": "线性代数（个人总结篇一）",
+      "url": "https://zhuanlan.zhihu.com/p/437355001",
+      "summary": "正文用线性组合解释向量组的线性表示和相关性，并讨论基变换、内积和正交化。"
+    },
+    {
+      "title": "Mahony姿态解算算法详解",
+      "url": "https://zhuanlan.zhihu.com/p/438724546",
+      "summary": "正文以重力方向与归一化加速度的叉积计算姿态误差，并解释单位向量夹角的几何意义。"
+    },
+    {
+      "title": "爱因斯坦求和约定推导矢量分析公式",
+      "url": "https://zhuanlan.zhihu.com/p/438852209",
+      "summary": "正文用分量和基矢表示向量，并以 Einstein 求和约定推导点积、叉乘及混合积。"
+    },
+    {
+      "title": "矢量运算中常用恒等式的总结",
+      "url": "https://zhuanlan.zhihu.com/p/441455680",
+      "summary": "正文系统列出点乘、叉乘、三重积等矢量代数恒等式及其矩阵表达。"
+    },
+    {
+      "title": "前沿计量方法 | 粒状工具变量（GIV）",
+      "url": "https://zhuanlan.zhihu.com/p/444375114",
+      "summary": "正文定义元素向量并说明如何赋权，进而构造普通均值与加权均值。"
+    },
+    {
+      "title": "反对称矩阵的基本性质",
+      "url": "https://zhuanlan.zhihu.com/p/435306687",
+      "summary": "正文从向量叉乘出发，系统列出叉乘交换次序、自叉乘、混合积和向量三重积等向量性质。"
+    },
+    {
+      "title": "一文带你直观理解线性变换",
+      "url": "https://zhuanlan.zhihu.com/p/446758762",
+      "summary": "正文以二维基向量及其落点解释任意向量在线性变换前后的坐标表示，涉及向量与基。"
+    },
+    {
+      "title": "（超详细！）计算机图形学 入门篇 1. 变换矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/448115462",
+      "summary": "正文解释向量点乘的投影几何意义、叉乘方向以及用叉乘判断点与三角形的位置关系。"
+    },
+    {
+      "title": "现代计算机图形学基础一：线性代数与空间变换",
+      "url": "https://zhuanlan.zhihu.com/p/449575856",
+      "summary": "正文实质讲解向量点积、叉积及其几何意义和在图形学中的判断应用。"
+    },
+    {
+      "title": "拉格朗日恒等式在圆锥曲线化简中的妙用",
+      "url": "https://zhuanlan.zhihu.com/p/450089282",
+      "summary": "正文用向量模、内积和外积解释二维拉格朗日恒等式，并将其用于坐标计算。"
+    },
+    {
+      "title": "[数学]罗德里格旋转公式（Rodrigues' rotation formula）",
+      "url": "https://zhuanlan.zhihu.com/p/451579313",
+      "summary": "正文将旋转向量分解为平行和垂直分量，并用叉积、内积推出旋转公式，实质讲解三维向量运算。"
+    },
+    {
+      "title": "奔驰定理与四心问题",
+      "url": "https://zhuanlan.zhihu.com/p/447117584",
+      "summary": "正文以平面向量线性关系陈述并证明奔驰定理，还讨论面积分割与向量系数。"
+    },
+    {
+      "title": "有了四元数，再也不怕矢量分析",
+      "url": "https://zhuanlan.zhihu.com/p/454348525",
+      "summary": "正文系统使用点积、叉积和四元数乘法证明矢量恒等式，展示向量运算之间的关系。"
+    },
+    {
+      "title": "【数学】线性代数知识点总结（精炼版）",
+      "url": "https://zhuanlan.zhihu.com/p/453305373",
+      "summary": "正文用线性组合、线性表示和线性相关性定义系统讲解向量组，并引入向量空间与基。"
+    },
+    {
+      "title": "《糕等电动力学》——03正交曲线坐标系",
+      "url": "https://zhuanlan.zhihu.com/p/390662905",
+      "summary": "正文把坐标线的单位切向量定义为局部坐标基矢，并推导其与直角坐标基矢的矩阵变换。"
+    },
+    {
+      "title": "极坐标系和球坐标系下的速度和加速度推导",
+      "url": "https://zhuanlan.zhihu.com/p/452360389",
+      "summary": "正文用直角坐标分量表示极坐标和球坐标的单位基向量。"
+    },
+    {
+      "title": "inversioner版高中数学课本(2)——第五章：空间解析几何",
+      "url": "https://zhuanlan.zhihu.com/p/458330889",
+      "summary": "正文以方向向量、法向量、内积和向量积推导空间直线与平面的解析表达。"
+    },
+    {
+      "title": "向量恒等式",
+      "url": "https://zhuanlan.zhihu.com/p/460016687",
+      "summary": "正文系统整理向量回路、互换系数、极化、分点和余弦等恒等式，并用内积与向量运算证明和应用。"
+    },
+    {
+      "title": "哈密顿与拉普拉斯算符在柱坐标与球坐标下的形式",
+      "url": "https://zhuanlan.zhihu.com/p/463059528",
+      "summary": "正文推导柱坐标和球坐标的基向量及其与笛卡尔基向量的矩阵变换。"
+    },
+    {
+      "title": "物理人的平面极坐标系以及运动描述",
+      "url": "https://zhuanlan.zhihu.com/p/463591300",
+      "summary": "正文以矢量的模定义单位基矢量，并解释径向、角向单位矢量的正交关系。"
+    },
+    {
+      "title": "定比分点应用合辑全集——向量与解析几何的结晶",
+      "url": "https://zhuanlan.zhihu.com/p/466194209",
+      "summary": "正文以向量定比分点公式为主线，讲解向量方向、比值与三点共线定理在多类问题中的应用。"
+    },
+    {
+      "title": "高等代数(丘维声著）笔记目录",
+      "url": "https://zhuanlan.zhihu.com/p/466678575",
+      "summary": "正文具体讨论向量空间的子空间、线性相关与无关、极大线性无关组、基和维数，对应向量。"
+    },
+    {
+      "title": "【奇技淫巧】梅涅劳斯定理在高中数学的应用举例",
+      "url": "https://zhuanlan.zhihu.com/p/467210970",
+      "summary": "正文利用定比分点和向量线性运算求交点位置，并把几何条件转化为向量数量积。"
+    },
+    {
+      "title": "斯托克斯公式（Stokes' theorem）",
+      "url": "https://zhuanlan.zhihu.com/p/472958564",
+      "summary": "正文以三维矢量场的环流量和极限定义旋度，并展开直角坐标分量的计算。"
+    },
+    {
+      "title": "惯性离心力和科里奥利力的最简导出，转动系下的“求导法则”",
+      "url": "https://zhuanlan.zhihu.com/p/476048436",
+      "summary": "正文从任意矢量在旋转系与静止系中的变化关系出发，利用叉积推导转动坐标下的矢量变换。"
+    },
+    {
+      "title": "高等数学知识点回顾（下册）（1）",
+      "url": "https://zhuanlan.zhihu.com/p/476956752",
+      "summary": "正文系统讲解向量的线性运算、数量积、向量积和混合积及其坐标表达。"
+    },
+    {
+      "title": "矢量—理解通量",
+      "url": "https://zhuanlan.zhihu.com/p/467096837",
+      "summary": "正文用向量场与面积法向量的点积解释投影和穿过测量面的通量。"
+    },
+    {
+      "title": "参数方程表示曲面求法向量",
+      "url": "https://zhuanlan.zhihu.com/p/481722441",
+      "summary": "正文构造两个切向量，并说明其叉积就是参数曲面的法向量。"
+    },
+    {
+      "title": "几何代数入门(上）：从点积和叉积开始",
+      "url": "https://zhuanlan.zhihu.com/p/481951051",
+      "summary": "正文系统定义点积、叉积和外积，讨论其交换性、几何意义及向量分解。"
+    },
+    {
+      "title": "如何理解施密特正交化",
+      "url": "https://zhuanlan.zhihu.com/p/485838766",
+      "summary": "正文以向量的投影、减法和正交条件推导施密特正交化公式，并推广到高维向量空间。"
+    },
+    {
+      "title": "天体运动轨道（椭圆，抛物线，双曲线）开普勒三定律",
+      "url": "https://zhuanlan.zhihu.com/p/485009891",
+      "summary": "正文由 r×F=0 推出角动量守恒，并用掠面面积与角动量的关系证明开普勒第二定律，具体展开向量叉积。"
+    },
+    {
+      "title": "高等数学知识点回顾（下册）（3）",
+      "url": "https://zhuanlan.zhihu.com/p/494102183",
+      "summary": "正文用有向曲面的法向量定义通量，并解释向量场的散度及高斯公式。"
+    },
+    {
+      "title": "点到直线距离公式的十种推导方法",
+      "url": "https://zhuanlan.zhihu.com/p/495716947",
+      "summary": "正文在法二中用直线方向向量、法向量和向量投影推导点到直线距离。"
+    },
+    {
+      "title": "用人话解释（一）——矩阵、行列式与秩",
+      "url": "https://zhuanlan.zhihu.com/p/496118586",
+      "summary": "正文把向量、点和列空间放在坐标系中解释线性变换及方程解的结构。"
+    },
+    {
+      "title": "理论力学——五大坐标系下的速度与加速度纯理论推导",
+      "url": "https://zhuanlan.zhihu.com/p/501885025",
+      "summary": "正文以向量及其随时间求导统一表达不同坐标系中的位置、速度和加速度。"
+    },
+    {
+      "title": "在赢空间中证明陈平不等式(Proof of Champion Inequality in Win Space)",
+      "url": "https://zhuanlan.zhihu.com/p/502741577",
+      "summary": "正文把消费分配表示为多维向量，并用向量分量的平方和定义总赢值。"
+    },
+    {
+      "title": "隐函数的几何应用：切线，法平面，法线，切平面",
+      "url": "https://zhuanlan.zhihu.com/p/504031588",
+      "summary": "正文以切向量及其与法平面方向向量的内积关系推导法平面方程。"
+    },
+    {
+      "title": "四元数与姿态解算完全解析及资料汇总",
+      "url": "https://zhuanlan.zhihu.com/p/505123676",
+      "summary": "正文用加速度与重力向量的叉积构造姿态误差，解释叉积的方向和大小如何用于修正陀螺。"
+    },
+    {
+      "title": "看完本文, 彻底理解张量(下)",
+      "url": "https://zhuanlan.zhihu.com/p/508715717",
+      "summary": "正文从矢量空间出发定义度规和内积，并讨论矢量与对偶矢量的对应。"
+    },
+    {
+      "title": "考研数学中的一些非典型公式定理整理（持续更新）",
+      "url": "https://zhuanlan.zhihu.com/p/510394533",
+      "summary": "正文系统整理向量点积、叉乘、混合积及其在距离和共面判断中的应用。"
+    },
+    {
+      "title": "高等数学之向量代数与空间解析几何知识汇总",
+      "url": "https://zhuanlan.zhihu.com/p/509529450",
+      "summary": "正文讲解数量积、向量积和混合积的定义、性质、坐标表示及几何意义。"
+    },
+    {
+      "title": "向量和矩阵中的各种乘积总结",
+      "url": "https://zhuanlan.zhihu.com/p/514053520",
+      "summary": "正文逐一解释点积、外积和叉积的运算规则、结果类型及几何意义。"
+    },
+    {
+      "title": "没有什么不能用数学表达",
+      "url": "https://zhuanlan.zhihu.com/p/517970375",
+      "summary": "正文用候选人评分为例说明多维向量、正交维度、向量长度及内积空间。"
+    },
+    {
+      "title": "【解析几何】遇事不决，柯西立决——柯西不等式在圆锥曲线上的化简（1）",
+      "url": "https://zhuanlan.zhihu.com/p/518035713",
+      "summary": "正文用二维向量的数量积与模长关系证明柯西不等式，再将其用于坐标点之间的估计。"
+    },
+    {
+      "title": "拉格朗日恒等式",
+      "url": "https://zhuanlan.zhihu.com/p/522285332",
+      "summary": "正文先定义二维向量的内积、外积及其模长和夹角关系，并以坐标公式展开向量运算。"
+    },
+    {
+      "title": "从线性代数到量子力学(22)：氢原子模型的球对称性",
+      "url": "https://zhuanlan.zhihu.com/p/448734759",
+      "summary": "正文把态矢量视为抽象空间中的向量，并写出旋转变换算符作用其上的线性形式。"
+    },
+    {
+      "title": "简单易懂的罗德里格斯公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/525316968",
+      "summary": "正文用向量分解、点积和叉积推导绕指定轴的旋转向量公式。"
+    },
+    {
+      "title": "《张量分析》第一章习题解答",
+      "url": "https://zhuanlan.zhihu.com/p/510419021",
+      "summary": "正文以点积、叉积、三重积和线性相关为对象，解答向量恒等式及几何关系的证明题。"
+    },
+    {
+      "title": "亥姆霍兹定理（向量微积分基本定理）",
+      "url": "https://zhuanlan.zhihu.com/p/530667847",
+      "summary": "正文围绕矢量场的旋度、散度及其分解构造并解释向量场表示。"
+    },
+    {
+      "title": "点到空间直线的距离公式",
+      "url": "https://zhuanlan.zhihu.com/p/530692282",
+      "summary": "正文以方向向量、点积和叉积推导点到空间直线的距离公式。"
+    },
+    {
+      "title": "一二型曲线曲面积分的意义及其联系的解答",
+      "url": "https://zhuanlan.zhihu.com/p/533840825",
+      "summary": "正文用切线的单位方向向量和曲面的单位法向量说明曲线、曲面积分中的方向余弦。"
+    },
+    {
+      "title": "计算第二类曲线/曲面积分的全新方法——“余面积公式”",
+      "url": "https://zhuanlan.zhihu.com/p/536218380",
+      "summary": "正文以向量场表示力场，并利用向量点乘、叉乘及其与法向量的关系推导积分公式。"
+    },
+    {
+      "title": "向量外积（叉积、叉乘）在任意度量（度规）矩阵、任意维数空间上任意多个向量上的推广（前人基础之上的巨大突破）",
+      "url": "https://zhuanlan.zhihu.com/p/536376353",
+      "summary": "正文把二维叉积推广到任意维、任意多个向量，并用分量解释这些向量张成体积的几何意义。"
+    },
+    {
+      "title": "旋转的表示",
+      "url": "https://zhuanlan.zhihu.com/p/539134962",
+      "summary": "正文从平面向量的坐标旋转出发，使用叉积构造正交坐标轴并推导任意轴旋转。"
+    },
+    {
+      "title": "什么是数学中的各种空间：线性空间、度量空间、赋范空间、内积空间、欧几里得空间、希尔伯特空间、巴拿赫空间？",
+      "url": "https://zhuanlan.zhihu.com/p/541226732",
+      "summary": "正文以加法、数乘和八条公理定义线性空间，并明确把其称为向量空间。"
+    },
+    {
+      "title": "四元数的球面线性插值（slerp）",
+      "url": "https://zhuanlan.zhihu.com/p/538653027",
+      "summary": "正文把单位四元数视为球面向量，用点积确定夹角并以向量线性组合推导球面插值公式。"
+    },
+    {
+      "title": "什么是梯度、散度和旋度？",
+      "url": "https://zhuanlan.zhihu.com/p/541334083",
+      "summary": "正文区分数量场与向量场，并讨论梯度、散度和旋度作为向量或标量的运算及几何意义。"
+    },
+    {
+      "title": "不等式与三角，复数，向量空间，数论（高中知识,但是大学生也可以看）",
+      "url": "https://zhuanlan.zhihu.com/p/542425130",
+      "summary": "正文以向量内积和夹角解释排序不等式，并用于文本词频相关性的度量。"
+    },
+    {
+      "title": "einsum is all you needed",
+      "url": "https://zhuanlan.zhihu.com/p/542625230",
+      "summary": "正文通过向量内积、外积和高阶张量缩并解释指标相乘与求和。"
+    },
+    {
+      "title": "无伤速通高中数学之立体几何（一）：浅谈空间向量与空间解析几何在立体几何截面及内切外接球问题中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/547075849",
+      "summary": "正文把空间向量、法向量和叉乘作为核心工具，用于求平面并处理立体几何问题。"
+    },
+    {
+      "title": "张量运算入门",
+      "url": "https://zhuanlan.zhihu.com/p/547791133",
+      "summary": "正文展开矢量的并矢积，用列向量与行向量相乘得到分量矩阵。"
+    },
+    {
+      "title": "“拉马努金复生才能解决”：E₈格与装球问题",
+      "url": "https://zhuanlan.zhihu.com/p/550260557",
+      "summary": "正文用向量空间的基、整数线性组合和内积定义格，并以向量关系解释 E8 格。"
+    },
+    {
+      "title": "【染上你的颜色】从零开始的计算机图形学（手把手教你写着色算法之平直着色法，Gouraud着色法，Phong着色法）",
+      "url": "https://zhuanlan.zhihu.com/p/544694958",
+      "summary": "正文以向量差、叉积、单位化和点积计算三角形的法向量及光照方向。"
+    },
+    {
+      "title": "Chapter 1:给高中生的线性代数讲义&高中数学补丁之不等式&一份给高中生的自由学习指南-数学篇",
+      "url": "https://zhuanlan.zhihu.com/p/556143576",
+      "summary": "正文系统讲解 R^n 的加法、标量乘法、向量空间公理、子空间与向量定义。"
+    },
+    {
+      "title": "无形之物——流形",
+      "url": "https://zhuanlan.zhihu.com/p/556192850",
+      "summary": "正文先详细定义仿射空间中的向量与坐标，再把线性无关向量用于构造切空间。"
+    },
+    {
+      "title": "【数学分析笔记】14.2 第二类曲线积分和第二类曲面积分",
+      "url": "https://zhuanlan.zhihu.com/p/559596381",
+      "summary": "正文用位移、切向量、法向量和点乘解释第二类曲线与曲面积分的构造。"
+    },
+    {
+      "title": "Note：张量积、直积、直和、Cartesian积与Kronecker积的区别与联系【物理向】",
+      "url": "https://zhuanlan.zhihu.com/p/556129070",
+      "summary": "正文用两个向量空间基矢的两两张量积构造新基矢，并讨论张量积空间的线性组合与维数。"
+    },
+    {
+      "title": "什么是向量",
+      "url": "https://zhuanlan.zhihu.com/p/556191589",
+      "summary": "正文通过四元数的标量与向量分解引入向量，并展开向量的加减、数乘、内积和外积。"
+    },
+    {
+      "title": "【民科】微分dx、dy表示什么含义？不定积分为什么含有dx？把一个量设为dx又是什么意思？",
+      "url": "https://zhuanlan.zhihu.com/p/564065107",
+      "summary": "正文用向量点乘展开曲线积分，并正交分解电场和曲面法向量解释通量积分。"
+    },
+    {
+      "title": "什么是四维矢量",
+      "url": "https://zhuanlan.zhihu.com/p/557477003",
+      "summary": "正文以分量在坐标系变换下如何变化来定义矢量，强调矢量本身不依赖坐标系。"
+    },
+    {
+      "title": "几何学(I)期中复习",
+      "url": "https://zhuanlan.zhihu.com/p/577621514",
+      "summary": "正文复习二重外积、Jacobi 恒等式、混合积及 Lagrange 恒等式等向量代数结论。"
+    },
+    {
+      "title": "线性代数大一期中复习练习题",
+      "url": "https://zhuanlan.zhihu.com/p/581653090",
+      "summary": "正文用向量共面、直线方向向量和叉积相关内容组织立体几何练习。"
+    },
+    {
+      "title": "解析几何中的点差法与定比点差法",
+      "url": "https://zhuanlan.zhihu.com/p/589479984",
+      "summary": "正文把向量共线关系展开为二维坐标等式，并据此证明定比分点坐标公式。"
+    },
+    {
+      "title": "四元数与旋转",
+      "url": "https://zhuanlan.zhihu.com/p/442146306",
+      "summary": "正文把四元数虚单位对应到三维坐标轴向量，并用点积、叉积和向量旋转解释四元数运算。"
+    },
+    {
+      "title": "【立体几何】爆算技巧",
+      "url": "https://zhuanlan.zhihu.com/p/594663455",
+      "summary": "正文讲解空间向量的叉乘、法向量、向量夹角和平行六面体体积。"
+    },
+    {
+      "title": "物理入门级の矢量与张量~矢量分析",
+      "url": "https://zhuanlan.zhihu.com/p/595866126",
+      "summary": "正文先区分标量与矢量，并用大小和方向说明矢量的数学表示。"
+    },
+    {
+      "title": "球极坐标系下的梯度表达式推导",
+      "url": "https://zhuanlan.zhihu.com/p/596865041",
+      "summary": "正文说明球极坐标和笛卡尔坐标基矢量之间的相互表示。"
+    },
+    {
+      "title": "Nyanw的高中数学笔记本（整理有用的常见二级结论 / 容易考的一些定义）",
+      "url": "https://zhuanlan.zhihu.com/p/551766950",
+      "summary": "正文用向量关系刻画三角形重心、内心、垂心和外心，并列出奔驰定理等向量结论。"
+    },
+    {
+      "title": "【平面向量】从等和线到等差线及等商线",
+      "url": "https://zhuanlan.zhihu.com/p/605043284",
+      "summary": "正文通过更换平面向量基底、调整坐标系数并利用等和线求解取值范围，实质讲解了向量分解与坐标变换。"
+    },
+    {
+      "title": "矢量分析公式证明集合(矢量积，矢量微积分，曲线坐标系)",
+      "url": "https://zhuanlan.zhihu.com/p/608194392",
+      "summary": "正文从分量表示出发讲解点积、叉积、三重积及其坐标证明。"
+    },
+    {
+      "title": "【立体几何】更好的建系：轴截距与法向量",
+      "url": "https://zhuanlan.zhihu.com/p/612457394",
+      "summary": "正文以向量点积解释法向量垂直于直线，并将点法式和截距式用于空间平面的法向量求解。"
+    },
+    {
+      "title": "梯度、散度、旋度总结",
+      "url": "https://zhuanlan.zhihu.com/p/613141493",
+      "summary": "正文用向量场与路径微元的点积定义环量，并给出散度和旋度定理。"
+    },
+    {
+      "title": "矩阵分解—特征值分解与奇异值分解",
+      "url": "https://zhuanlan.zhihu.com/p/613284889",
+      "summary": "正文解释向量基、张成空间和坐标基变换，并用于理解矩阵分解。"
+    },
+    {
+      "title": "通俗理解方向导数、梯度|学习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/613651124",
+      "summary": "正文由各偏导数组成梯度向量，并解释其方向、模长以及沿梯度方向的几何意义。"
+    },
+    {
+      "title": "1.2 向量的基本运算（加减、数乘）",
+      "url": "https://zhuanlan.zhihu.com/p/615940607",
+      "summary": "正文通过三角形与平行四边形法则、坐标分量运算和运算律讲解向量的加法、减法与数乘。"
+    },
+    {
+      "title": "1.4 向量的点乘运算（内积）",
+      "url": "https://zhuanlan.zhihu.com/p/616207329",
+      "summary": "正文从几何定义和坐标分量两方面讲解向量内积，并用它判断夹角大小及向量是否垂直。"
+    },
+    {
+      "title": "矢量分析-常见矢量恒等式推导",
+      "url": "https://zhuanlan.zhihu.com/p/620271370",
+      "summary": "正文用分量和爱因斯坦求和约定展开向量的点积、叉积及多重积恒等式。"
+    },
+    {
+      "title": "相关系数、自相关、互相关等概念理解",
+      "url": "https://zhuanlan.zhihu.com/p/613949451",
+      "summary": "正文从向量内积、投影和夹角角度解释互相关与自相关所衡量的相似性。"
+    },
+    {
+      "title": "如何度量数据的稀疏程度？",
+      "url": "https://zhuanlan.zhihu.com/p/628938132",
+      "summary": "正文直接讨论稀疏向量，引入 L1/L2 范数指标并证明其齐次性、单调性与拼接性质。"
+    },
+    {
+      "title": "线性代数的本质（完整版）",
+      "url": "https://zhuanlan.zhihu.com/p/629986822",
+      "summary": "从运动、缩放和线性组合的几何意义解释向量及基向量。"
+    },
+    {
+      "title": "散度定理—向量微积分的基本定理，深入理解其背后的思想和直觉",
+      "url": "https://zhuanlan.zhihu.com/p/638829775",
+      "summary": "正文具体定义矢量场、曲面面积元及其标量积，说明通量只取与曲面垂直方向的分量。"
+    },
+    {
+      "title": "数据科学中使用的 17 种相似性和相异性度量",
+      "url": "https://zhuanlan.zhihu.com/p/638840273",
+      "summary": "正文把文档频数表示为向量，通过点积和模长计算夹角余弦来衡量方向相似性。"
+    },
+    {
+      "title": "张量是什么——张量计算入门",
+      "url": "https://zhuanlan.zhihu.com/p/616816590",
+      "summary": "正文从向量空间、基底、维数和线性映射讲起，把张量表述为向量的高阶推广。"
+    },
+    {
+      "title": "张量分析入门（一）—— 从坐标变换说起",
+      "url": "https://zhuanlan.zhihu.com/p/648165775",
+      "summary": "正文以向量在基变换下保持不变、分量相应改变为主线引入张量及其坐标表示。"
+    },
+    {
+      "title": "Levi-Civita符号的计算",
+      "url": "https://zhuanlan.zhihu.com/p/651063147",
+      "summary": "正文以Einstein求和约定和Levi-Civita符号计算向量的点乘、叉乘及三重向量恒等式。"
+    },
+    {
+      "title": "张量分析入门（三）—— 对偶空间",
+      "url": "https://zhuanlan.zhihu.com/p/652481992",
+      "summary": "正文从列向量和余向量出发，解释向量空间中元素的坐标表示及抽象向量观念。"
+    },
+    {
+      "title": "方阵的偏迹（Partial Trace）",
+      "url": "https://zhuanlan.zhihu.com/p/653816083",
+      "summary": "正文用 Ket、Bra 和列向量解释量子态并讨论其内积。"
+    },
+    {
+      "title": "行列式在高中数学中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/655273179",
+      "summary": "正文用代数余子式定义三维叉乘，并用它求平面法向量和证明空间向量关系。"
+    },
+    {
+      "title": "线性代数中矩阵的本质",
+      "url": "https://zhuanlan.zhihu.com/p/659791641",
+      "summary": "正文用三维向量、单位向量和点积计算点在相机坐标系各轴上的分量。"
+    },
+    {
+      "title": "电动力学：矢量分析总结",
+      "url": "https://zhuanlan.zhihu.com/p/671325293",
+      "summary": "正文系统讲解向量的表示、加法、数乘、点积和叉积，属于向量概念与运算的系统阐述。"
+    },
+    {
+      "title": "“万恶”的数学符号，自学量子力学的梦魇，深入理解Bra-Ket符号",
+      "url": "https://zhuanlan.zhihu.com/p/674700922",
+      "summary": "正文把波函数离散为状态向量，具体讲解 ket、bra 以及向量内积和外积。"
+    },
+    {
+      "title": "双曲线中的仿射变换(Part I 伸缩变换)",
+      "url": "https://zhuanlan.zhihu.com/p/668884276",
+      "summary": "正文在线点距、方向向量、弦矢和点积运算中使用向量表达几何量与变换关系。"
+    },
+    {
+      "title": "通俗易懂：向量乘法与矩阵乘法",
+      "url": "https://zhuanlan.zhihu.com/p/675303373",
+      "summary": "正文从几何和坐标两种视角定义向量，并展开数量积、向量积、平行与垂直判定。"
+    },
+    {
+      "title": "如何更好地理解复数（complex  numbers）",
+      "url": "https://zhuanlan.zhihu.com/p/675736675",
+      "summary": "正文将复数视为从原点出发的向量，并用旋转和缩放解释其乘法。"
+    },
+    {
+      "title": "极光杯（二）柯西不等式 椭圆到椭圆外一点的最小距离",
+      "url": "https://zhuanlan.zhihu.com/p/675811359",
+      "summary": "正文把隐藏的点积条件翻译为投影长度比较，从而确定最小距离点。"
+    },
+    {
+      "title": "六边形地图格实现过程一览",
+      "url": "https://zhuanlan.zhihu.com/p/676554085",
+      "summary": "正文用顶点位置和偏移向量计算相邻六边形之间的边、三角形及颜色过渡区域。"
+    },
+    {
+      "title": "格林定理：数学界的重要里程碑，理论与实践完美融合的微积分奇迹",
+      "url": "https://zhuanlan.zhihu.com/p/677150890",
+      "summary": "正文先解释平面向量场的逐点向量表示，再用旋度描述其局部旋转，为格林定理建立向量分析语义。"
+    },
+    {
+      "title": "直角坐标系和球坐标系",
+      "url": "https://zhuanlan.zhihu.com/p/678050785",
+      "summary": "正文求出球坐标三个单位向量在直角坐标基下的分量表示。"
+    },
+    {
+      "title": "深刻理解线性代数的本质--线性空间的积与商",
+      "url": "https://zhuanlan.zhihu.com/p/681060611",
+      "summary": "正文用向量空间积增加维度，并具体定义积空间的向量加法、数乘、基与维数。"
+    },
+    {
+      "title": "Kronecker符号和Levi-Civita符号（非常详细）",
+      "url": "https://zhuanlan.zhihu.com/p/683424753",
+      "summary": "正文用 Kronecker 符号表示向量点乘，并用 Levi-Civita 符号表示三维向量叉乘。"
+    },
+    {
+      "title": "通俗易懂：基变换和坐标变换",
+      "url": "https://zhuanlan.zhihu.com/p/683873038",
+      "summary": "正文从线性无关向量与基的线性组合出发，解释同一空间中的点如何由不同基表示。"
+    },
+    {
+      "title": "通俗易懂：什么是正交矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/684677360",
+      "summary": "正文从点乘为零定义向量正交，并用向量组和正交基解释该几何条件。"
+    },
+    {
+      "title": "漫谈数学中的各种空间：度量空间，线性空间，度量线性空间，赋范线性空间，内积空间，欧几里得空间，巴拿赫空间，希尔伯特空间，再生核希尔伯特空间",
+      "url": "https://zhuanlan.zhihu.com/p/684643954",
+      "summary": "正文从向量加法和数乘的封闭性及八条线性性质出发定义线性空间。"
+    },
+    {
+      "title": "真一文搞懂：内积、外积及其衍生（内积：点积、数量积、标量积；外积：叉积、叉乘、向量积、张量积）",
+      "url": "https://zhuanlan.zhihu.com/p/685184693",
+      "summary": "正文讲解向量点积的坐标与几何表示、投影、夹角和正交关系。"
+    },
+    {
+      "title": "Is Cosine-Similarity of Embeddings Really About Similarity?全文翻译&解读",
+      "url": "https://zhuanlan.zhihu.com/p/686771590",
+      "summary": "正文以夹角余弦和归一化点积给出余弦相似度定义，并分析嵌入向量相似性。"
+    },
+    {
+      "title": "曲面的切平面与法线",
+      "url": "https://zhuanlan.zhihu.com/p/687501708",
+      "summary": "正文定义曲面法向量，并由切向量与该法向量的正交关系推出切平面和法线方程。"
+    },
+    {
+      "title": "茅塞顿开，这才是矩阵变换的本质，小学生都能轻松理解",
+      "url": "https://zhuanlan.zhihu.com/p/688566901",
+      "summary": "正文通过向量、平行线和协向量之间的关系给出转置的可视化解释。"
+    },
+    {
+      "title": "关于三角形四心坐标公式的探究（爆算）",
+      "url": "https://zhuanlan.zhihu.com/p/689988911",
+      "summary": "正文建立重心、内心、垂心和外心的向量关系，并用广义定比分点公式推出各点坐标。"
+    },
+    {
+      "title": "《线性代数》——基变换，线性变换，过渡矩阵，逆矩阵的本质",
+      "url": "https://zhuanlan.zhihu.com/p/697296661",
+      "summary": "正文从列向量的基表示出发，解释同一坐标在不同基下的含义及基向量的线性组合。"
+    },
+    {
+      "title": "梯度、散度、旋度的理解以及Green、Gauss、Stokes 公式直观解释",
+      "url": "https://zhuanlan.zhihu.com/p/697866889",
+      "summary": "正文从数量场和向量场出发，用梯度的方向与大小解释向量场，并介绍散度、旋度及通量、环量。"
+    },
+    {
+      "title": "矩阵 秩的不等式总结",
+      "url": "https://zhuanlan.zhihu.com/p/700713907",
+      "summary": "正文以行、列向量组的极大线性无关组和线性表示解释矩阵的秩。"
+    },
+    {
+      "title": "向量与代数（一）：两种角度理解点积和叉积",
+      "url": "https://zhuanlan.zhihu.com/p/699929617",
+      "summary": "正文从几何与代数两种角度讲解向量的点积、叉积、性质及坐标计算公式。"
+    },
+    {
+      "title": "2D碰撞检测算法——SAT",
+      "url": "https://zhuanlan.zhihu.com/p/710005447",
+      "summary": "正文用向量点乘计算多边形顶点在候选轴上的投影范围，并据此判定相交。"
+    },
+    {
+      "title": "独家 | 线性代数：每个数据科学家的必知概念（上）",
+      "url": "https://zhuanlan.zhihu.com/p/711855479",
+      "summary": "正文从物理、计算机和数学三种视角定义向量，并讲解单位向量、加法、数乘和点积。"
+    },
+    {
+      "title": "如何理解数学中的梯度？",
+      "url": "https://zhuanlan.zhihu.com/p/715528167",
+      "summary": "正文把梯度表示为由偏导数组成的向量，并通过与单位方向向量的点积和投影解释方向导数。"
+    },
+    {
+      "title": "一个让人惊艳的算法——CORDIC算法介绍",
+      "url": "https://zhuanlan.zhihu.com/p/717126119",
+      "summary": "正文通过反复旋转二维向量并观察纵坐标符号来确定下一步旋转方向。"
+    },
+    {
+      "title": "请问为什么 sin(α-β) = sinαcosβ - cosαsinβ ，有没有详细推导呢？",
+      "url": "https://zhuanlan.zhihu.com/p/717449167",
+      "summary": "正文系统定义平面向量的内积与外积，并用它们的坐标分量和几何意义进行推导。"
+    },
+    {
+      "title": "龙格-楞次矢量（Runge-Lenz Vector)及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/712561325",
+      "summary": "正文定义龙格-楞次矢量，并用叉积、分量和守恒性推导说明其性质及轨道应用，是对向量的实质展开。"
+    },
+    {
+      "title": "【圆锥曲线】变换主元：一种解题的新思路",
+      "url": "https://zhuanlan.zhihu.com/p/823334033",
+      "summary": "正文将共线向量关系化为坐标比例，并以向量系数为主元建立二次方程。"
+    },
+    {
+      "title": "解析几何——定比分点证明极点极线",
+      "url": "https://zhuanlan.zhihu.com/p/2090362882",
+      "summary": "正文以向量线性组合、定比分点和共线条件贯穿整个极点极线证明。"
+    },
+    {
+      "title": "五大积分：三重积分、第一二类曲线积分、第一二类曲面积分",
+      "url": "https://zhuanlan.zhihu.com/p/2390927445",
+      "summary": "正文通过切向量、法向量和点乘解释第二类曲线、曲面积分的方向性及投影关系。"
+    },
+    {
+      "title": "线性代数知识点总结（全网最全）",
+      "url": "https://zhuanlan.zhihu.com/p/9338829172",
+      "summary": "正文用线性组合、线性相关与线性无关以及最大无关组讨论向量组。"
+    },
+    {
+      "title": "【圆锥曲线】怎么学好圆锥曲线——思路技巧",
+      "url": "https://zhuanlan.zhihu.com/p/11101633192",
+      "summary": "正文把向量数量积为零的条件展开为坐标方程，并用垂直向量关系证明圆锥曲线结论。"
+    },
+    {
+      "title": "圆锥曲线张量法",
+      "url": "https://zhuanlan.zhihu.com/p/11299092000",
+      "summary": "正文定义点矢、线矢及其点乘、叉乘和混合积，并解释这些运算的几何意义。"
+    },
+    {
+      "title": "【锥线的艺术】拉格朗日恒等式",
+      "url": "https://zhuanlan.zhihu.com/p/11884653548",
+      "summary": "正文用向量的数量积、外积和向量形式的三角形面积公式解释恒等式及其几何应用。"
+    },
+    {
+      "title": "游戏开发爱好者所需的基础数学知识",
+      "url": "https://zhuanlan.zhihu.com/p/17792738283",
+      "summary": "正文讲解向量的坐标表示、模、加减、单位化和按比例缩放等基本运算。"
+    },
+    {
+      "title": "Hurwitz定理——向量叉乘居然只能在三维和七维空间中定义！？",
+      "url": "https://zhuanlan.zhihu.com/p/24562904392",
+      "summary": "正文讨论向量叉积的双线性、垂直性和模长性质，并证明非平凡叉积只能在三维和七维定义。"
+    },
+    {
+      "title": "入土版爱因斯坦求和约定",
+      "url": "https://zhuanlan.zhihu.com/p/27731804998",
+      "summary": "正文用爱因斯坦求和约定表示点乘、叉乘和混合积，并推导向量三重积公式，具体讲解了向量运算。"
+    },
+    {
+      "title": "【几何不等式】嵌入不等式与一类三角不等式",
+      "url": "https://zhuanlan.zhihu.com/p/32182999343",
+      "summary": "正文构造三个平面向量，并由向量差的平方非负证明嵌入不等式。"
+    },
+    {
+      "title": "精彩立体几何小题，漂亮的无图建系法处理点到平面距离（深圳中学2025二阶二次+海南2025二诊）",
+      "url": "https://zhuanlan.zhihu.com/p/1892879834394380098",
+      "summary": "正文给出向量投影数量和投影向量的定义与公式，并用向量点到平面距离求解立体几何问题。"
+    },
+    {
+      "title": "立体几何秘技——三面角的各种实用结论",
+      "url": "https://zhuanlan.zhihu.com/p/1894077834076614806",
+      "summary": "正文用方向向量、单位法向量和叉积表示三面角的线面关系，并推出第一余弦定理的向量形式。"
+    },
+    {
+      "title": "CFG-Zero*：流匹配时代的新版 Classifier-Free Guidance",
+      "url": "https://zhuanlan.zhihu.com/p/1900992872293066379",
+      "summary": "正文把 CFG 输出解释为平面向量，以向量投影、内积和距离最短推导缩放系数。"
+    },
+    {
+      "title": "关于向量的一点思考",
+      "url": "https://zhuanlan.zhihu.com/p/1910617531099640214",
+      "summary": "正文从有序数组出发重新解释向量的定义、线性运算和内积。"
+    },
+    {
+      "title": "线性代数怎么入门？——（上）",
+      "url": "https://zhuanlan.zhihu.com/p/1917950917346590855",
+      "summary": "正文从有序实数组定义向量，讲解加法、数乘、长度和基向量线性组合，构成后续线性代数讨论的基础。"
+    },
+    {
+      "title": "平面方程——解决截面问题的一大法宝",
+      "url": "https://zhuanlan.zhihu.com/p/1920819726776500526",
+      "summary": "正文用方向向量的叉积求平面法向量，并以法向量刻画平面的方向。"
+    },
+    {
+      "title": "向量微积分图示法",
+      "url": "https://zhuanlan.zhihu.com/p/27414315720",
+      "summary": "正文用自由指标和连线图解向量、数量积、叉积及向量恒等式。"
+    },
+    {
+      "title": "梯度、散度、旋度：场论的语言",
+      "url": "https://zhuanlan.zhihu.com/p/1925119483590185657",
+      "summary": "正文用向量场的通量解释散度，并进一步给出旋度和斯托克斯定理中的向量运算。"
+    },
+    {
+      "title": "物竞随意谈|天体运动和散射：人是要纵横宇宙的！",
+      "url": "https://zhuanlan.zhihu.com/p/1924428357208113288",
+      "summary": "正文定义龙格楞次矢量并通过对时间求导说明其守恒性，具体展开向量运算。"
+    },
+    {
+      "title": "傅里叶多边形分解",
+      "url": "https://zhuanlan.zhihu.com/p/571964658",
+      "summary": "正文把多边形顶点分解为规范多边形顶点的矢量和，并用复平面向量叠加解释分解。"
+    },
+    {
+      "title": "2025年北京大学强基计划数学试题个人解答",
+      "url": "https://zhuanlan.zhihu.com/p/1935999112823703157",
+      "summary": "正文用向量模长、内积和夹角余弦展开范数条件，联立约束后求向量线性组合的最大模长。"
+    },
+    {
+      "title": "中国科大2025年新生入学考试 数学试题",
+      "url": "https://zhuanlan.zhihu.com/p/1945205622040683942",
+      "summary": "正文把各数对写成平面向量，通过模长、内积和平方展开证明向量形式的三角不等式及取等条件。"
+    },
+    {
+      "title": "2025年数学建模国赛A第一二问",
+      "url": "https://zhuanlan.zhihu.com/p/1947282433000084453",
+      "summary": "正文用三维位置向量构造导弹到目标轮廓六个点的位移向量，并以范数和叉积计算距离。"
+    },
+    {
+      "title": "欧拉公式的一种崭新的直观几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/1980189059025486197",
+      "summary": "正文具体分析 cosθ、isinθ 等算符对任意二维向量的镜像、旋转与投影作用。"
+    },
+    {
+      "title": "如何理解矩阵的四个基本空间",
+      "url": "https://zhuanlan.zhihu.com/p/1981778010244944796",
+      "summary": "正文反复使用向量、点积、正交补和子空间分解来刻画矩阵的四个基本空间。"
+    },
+    {
+      "title": "为什么在高维空间中，任意两个向量几乎都是“垂直”的？",
+      "url": "https://zhuanlan.zhihu.com/p/1985066644423341296",
+      "summary": "正文用点积和范数定义向量夹角，并分析高维随机向量的方向。"
+    },
+    {
+      "title": "哈密顿算子 梯度 散度 旋度 拉普拉斯算子 详解",
+      "url": "https://zhuanlan.zhihu.com/p/1999480505826026089",
+      "summary": "文章用向量点乘和叉乘解释散度与旋度，并分析三维矢量场的几何和物理意义。"
+    },
+    {
+      "title": "线性代数的本质 3Blue1Brown",
+      "url": "https://zhuanlan.zhihu.com/p/2009191750485435220",
+      "summary": "正文从几何箭头以及加法和数乘出发解释向量，并进一步推广到抽象向量空间。"
+    },
+    {
+      "title": "管你长啥样儿，，要就只想导几下的话导就完了, 尤其场论吧你用不着解析式的时候就别瞎比嗯刚解析式了. 我这儿顺带还给 MMA 了下··· 噢开头还有些顺直时空里的鸡毛蒜皮，，",
+      "url": "https://zhuanlan.zhihu.com/p/2014612843698356275",
+      "summary": "正文定义协变与逆变四维向量，并用度规升降指标和描述 Lorentz 变换。"
+    },
+    {
+      "title": "2026西藏山南市高三一诊数学第3、4、6、8、10、11、15、16、17、19题——总均分27？清北线85？你是猴子派来搞笑的吗？",
+      "url": "https://zhuanlan.zhihu.com/p/2020824054504900601",
+      "summary": "正文借助向量垂直和平行条件分析数列选项并构造反例。"
+    },
+    {
+      "title": "宝宝用微分几何与纤维丛（连载中）",
+      "url": "https://zhuanlan.zhihu.com/p/2041538717177926508",
+      "summary": "正文从向量空间、对偶空间和自然同构出发建立协变与逆变向量概念。"
+    }
+  ]
+}

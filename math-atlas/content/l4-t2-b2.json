@@ -1,0 +1,346 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l4-t2-b2",
+  "sources": [
+    {
+      "title": "微积分里「一致连续」「一致收敛」里的「一致」是什么意思？",
+      "url": "https://www.zhihu.com/answer/21444564",
+      "summary": "正文围绕「微积分里「一致连续」「一致收敛」里的「一致」是什么意思？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "函数连续和一致连续有什么区别？开区间上的连续函数不一定是一致连续的，为什么？",
+      "url": "https://www.zhihu.com/answer/55063985",
+      "summary": "正文以量词定义对比连续和一致连续，并说明全局的 delta 条件。"
+    },
+    {
+      "title": "函数连续和一致连续有什么区别？开区间上的连续函数不一定是一致连续的，为什么？",
+      "url": "https://www.zhihu.com/answer/132985572",
+      "summary": "正文给出一致连续的量词定义、几何直觉，并以 1/x 解释连续不必一致连续。"
+    },
+    {
+      "title": "函数连续和一致连续有什么区别？开区间上的连续函数不一定是一致连续的，为什么？",
+      "url": "https://www.zhihu.com/answer/133063999",
+      "summary": "正文对比点态连续与区间上的一致连续，并用开区间中的 1/x 说明差异。"
+    },
+    {
+      "title": "函数连续和一致连续有什么区别？开区间上的连续函数不一定是一致连续的，为什么？",
+      "url": "https://www.zhihu.com/answer/133090731",
+      "summary": "正文用斜率、端点和无限振动的几何直觉解释一致连续为何比连续更强。"
+    },
+    {
+      "title": "利普希茨连续的几何意义是什么？怎么较好的理解它呢？",
+      "url": "https://www.zhihu.com/answer/151391605",
+      "summary": "正文从斜率一致有界和全局增长解释 Lipschitz 连续及其与一致连续的关系。"
+    },
+    {
+      "title": "最近在网上流传一组MIT的微分方程课的图，请教一下各位大佬，这种难度的积分在美国人看来真的有那么难吗？",
+      "url": "https://www.zhihu.com/answer/170349175",
+      "summary": "正文以证明 sin(x²) 不一致连续为例，强调一致连续与连续的概念差异。"
+    },
+    {
+      "title": "有哪些让人眼前一亮的函数？",
+      "url": "https://www.zhihu.com/answer/192847312",
+      "summary": "正文以 Cantor 函数区分一致连续与绝对连续。"
+    },
+    {
+      "title": "你最喜欢的数学定理是什么？",
+      "url": "https://www.zhihu.com/answer/195875384",
+      "summary": "正文在边界连续性证明中使用紧集上的连续函数一致连续性。"
+    },
+    {
+      "title": "利用微分法计算定积分的结果是真实值吗?",
+      "url": "https://www.zhihu.com/answer/287269644",
+      "summary": "正文利用闭区间连续函数的一致连续性控制各小区间振幅，从而给出误差估计。"
+    },
+    {
+      "title": "函数的一致连续性？",
+      "url": "https://www.zhihu.com/answer/298361374",
+      "summary": "正文给出一致连续定义，并用有限覆盖解释闭区间连续必一致连续。"
+    },
+    {
+      "title": "Bernstein 多项式是怎么想出来的？",
+      "url": "https://www.zhihu.com/answer/374362395",
+      "summary": "正文用一致连续性控制小偏差事件内的函数增量，是逼近误差估计的关键步骤。"
+    },
+    {
+      "title": "自学数学是到底要学些什么？",
+      "url": "https://www.zhihu.com/answer/490452972",
+      "summary": "正文通过反例解释一致连续相较连续性的必要性。"
+    },
+    {
+      "title": "高等数学里的概念和定义，为什么不能再简单些呢？",
+      "url": "https://www.zhihu.com/answer/532203071",
+      "summary": "正文用连续与一致连续的区分说明严格极限语言的作用。"
+    },
+    {
+      "title": "数学学习或研究中，你见过哪些有意思的反例？",
+      "url": "https://www.zhihu.com/answer/568288359",
+      "summary": "用反例区分连续与一致连续。"
+    },
+    {
+      "title": "连续和一致连续到底是什么意思？见问题？",
+      "url": "https://www.zhihu.com/answer/852699974",
+      "summary": "用量词差异解释连续与一致连续。"
+    },
+    {
+      "title": "Holder连续在某种意义下可以看成分数阶可微吗？",
+      "url": "https://www.zhihu.com/answer/1087332512",
+      "summary": "正文证明并梳理Holder连续与一致连续的包含关系。"
+    },
+    {
+      "title": "通俗地讲讲「连续」、「一致连续」、「Holder连续」、「Lipschitz连续」有什么区别？",
+      "url": "https://www.zhihu.com/answer/1191602357",
+      "summary": "正文比较连续、一致连续、Hölder 连续与 Lipschitz 连续的包含关系。"
+    },
+    {
+      "title": "对于大学数学中的一些概念、定理，感觉很显然，例如极限什么的，有必要那么严谨地学习证明吗？",
+      "url": "https://www.zhihu.com/answer/1338204478",
+      "summary": "正文用连续与一致连续的反例说明严谨定义的必要性。"
+    },
+    {
+      "title": "连续的周期函数都有最小正周期吗？",
+      "url": "https://www.zhihu.com/answer/2089965044",
+      "summary": "正文用一致连续性证明非常值连续周期函数存在最小正周期。"
+    },
+    {
+      "title": "小偷能逃出无数个警察的包围圈吗？",
+      "url": "https://www.zhihu.com/answer/2177494493",
+      "summary": "正文用 Lipschitz 连续推出一致连续，并据此证明路径可连续延拓。"
+    },
+    {
+      "title": "高一开学，同学在讨论偏导函数、四阶导数，我该怎么办？",
+      "url": "https://www.zhihu.com/answer/2642516083",
+      "summary": "说明一致连续与普通连续的区别，并用 1/x 的例子解释。"
+    },
+    {
+      "title": "怎么理解根号x的一致连续性？",
+      "url": "https://www.zhihu.com/answer/3339769928",
+      "summary": "正文以 Hölder 条件和根号函数说明一致连续不必是 Lipschitz 连续，并展开其判定与例子。"
+    },
+    {
+      "title": "数学系有必要上数学史这门课吗？",
+      "url": "https://www.zhihu.com/answer/3389250948",
+      "summary": "正文从数学史角度说明柯西未清楚区分连续与一致连续，并指出直到魏尔斯特拉斯才形成正确认识。"
+    },
+    {
+      "title": "拓扑学上的紧致性怎样理解？有何运用？",
+      "url": "https://www.zhihu.com/answer/1963634109835346476",
+      "summary": "正文解释紧致性如何把连续函数的局部控制拼接为全局一致连续，实质讨论一致连续。"
+    },
+    {
+      "title": "如何形象理解直觉主义为什么不承认排中律？",
+      "url": "https://www.zhihu.com/answer/1993183350744188411",
+      "summary": "正文具体解释连续统、全函数连续性以及扇形定理如何得到闭区间上的一致连续性。"
+    },
+    {
+      "title": "为什么数学上一些显而易见的事情数学家们也要编个定理出来？",
+      "url": "https://www.zhihu.com/answer/2055682265150235933",
+      "summary": "正文构造连续有界的sin x²函数并证明其不一致连续，具体讨论一致连续的条件边界。"
+    },
+    {
+      "title": "有穷维和无穷维空间的差别——从\"B-W\"定理到Arzelà–Ascoli定理",
+      "url": "https://zhuanlan.zhihu.com/p/28925945",
+      "summary": "正文用 ε-δ 条件定义函数列的等度连续，并明确比较其与单个函数一致连续的区别。"
+    },
+    {
+      "title": "(3)Lyapunov函数与Autonomous System的稳定性判别",
+      "url": "https://zhuanlan.zhihu.com/p/30106590",
+      "summary": "正文专门解释一致连续，并用它陈述Barbalat引理中导数趋于零的条件。"
+    },
+    {
+      "title": "如何理解一致连续性",
+      "url": "https://zhuanlan.zhihu.com/p/33020088",
+      "summary": "正文对比连续与一致连续，并用闭区间上的有限覆盖定理说明连续可推出一致连续。"
+    },
+    {
+      "title": "数学分析笔记（三）——极限与连续",
+      "url": "https://zhuanlan.zhihu.com/p/38570344",
+      "summary": "正文给出一致连续的 ε-δ 定义，并借有限覆盖证明闭区间上的 Heine-Cantor 定理。"
+    },
+    {
+      "title": "数学分析笔记（五）——积分",
+      "url": "https://zhuanlan.zhihu.com/p/39826928",
+      "summary": "正文利用闭区间连续函数的一致连续性控制振幅和，证明连续函数黎曼可积。"
+    },
+    {
+      "title": "数分随记（二）一些关于一致连续的命题整理",
+      "url": "https://zhuanlan.zhihu.com/p/56160881",
+      "summary": "正文围绕一致连续的等价刻画、Lipschitz 条件及有限区间上的命题展开，并用柯西列说明其全局性质。"
+    },
+    {
+      "title": "数学分析笔记（九）——连续映射的一般理论",
+      "url": "https://zhuanlan.zhihu.com/p/56222743",
+      "summary": "正文先以振幅和 ε-δ 条件定义一致连续，再证明紧集上的连续映射必一致连续。"
+    },
+    {
+      "title": "如何通俗的解释函数的一致连续性？",
+      "url": "https://zhuanlan.zhihu.com/p/87515532",
+      "summary": "正文用ε-δ定义比较点连续、整体连续和一致连续，说明δ须统一适应定义域内的两点。"
+    },
+    {
+      "title": "函数的连续与一致连续有何不同？",
+      "url": "https://zhuanlan.zhihu.com/p/87720274",
+      "summary": "正文对比连续性中依赖 x_0 的 delta 与一致连续中只依赖 epsilon 的公共 delta。"
+    },
+    {
+      "title": "微积分期末笔记：反常积分收敛性",
+      "url": "https://zhuanlan.zhihu.com/p/101310338",
+      "summary": "正文利用一致连续性证明反常积分收敛可推出被积函数趋于零，并强调该条件不可省略。"
+    },
+    {
+      "title": "复变函数学习笔记(1)",
+      "url": "https://zhuanlan.zhihu.com/p/113823530",
+      "summary": "正文给出复变函数一致连续的 ε-δ 定义，并证明紧集上的连续函数一致连续。"
+    },
+    {
+      "title": "Weierstrass逼近定理",
+      "url": "https://zhuanlan.zhihu.com/p/146181157",
+      "summary": "证明从闭区间连续函数的一致连续性出发，控制 Bernoulli 样本均值靠近原函数值时的误差。"
+    },
+    {
+      "title": "一致收敛与收敛有什么区别？",
+      "url": "https://zhuanlan.zhihu.com/p/149270064",
+      "summary": "正文通过能否选取统一δ来解释一致连续，并与逐点连续比较。"
+    },
+    {
+      "title": "一致连续性性质总结",
+      "url": "https://zhuanlan.zhihu.com/p/150982948",
+      "summary": "正文给出一致连续与不一致连续的 epsilon-delta 定义，系统讨论并证明其性质与复合判定。"
+    },
+    {
+      "title": "函数在无穷区间上连续+无穷处极限存在证明一致连续性问题总结",
+      "url": "https://zhuanlan.zhihu.com/p/151375578",
+      "summary": "正文从定义出发证明无穷区间上连续且无穷远处极限存在的函数一致连续，并给出多种变形。"
+    },
+    {
+      "title": "泛函分析笔记02-紧和列紧",
+      "url": "https://zhuanlan.zhihu.com/p/158226822",
+      "summary": "正文比较一致连续、等度连续及函数族整体一致性，并用 sin(nx) 说明二者差别。"
+    },
+    {
+      "title": "渣渣胡的数分笔记--含参变量积分（1）",
+      "url": "https://zhuanlan.zhihu.com/p/292895684",
+      "summary": "正文利用闭矩形上连续函数的一致连续性证明含参积分的连续性。"
+    },
+    {
+      "title": "函数的一致连续与其导数的联系",
+      "url": "https://zhuanlan.zhihu.com/p/294287315",
+      "summary": "正文给出一致连续的 ε-δ 定义，并分别证明 sin x 与 sin(1/x) 的一致连续性结论。"
+    },
+    {
+      "title": "Rendering (Signed) Distance Function",
+      "url": "https://zhuanlan.zhihu.com/p/345227118",
+      "summary": "正文由范数三角不等式推出有向距离函数满足 Lipschitz 条件，并据此说明其一致连续性。"
+    },
+    {
+      "title": "Arzela-Ascoli 定理",
+      "url": "https://zhuanlan.zhihu.com/p/356661617",
+      "summary": "正文专门辨析等度连续与一致连续，说明等度连续是对函数族整体性质的刻画。"
+    },
+    {
+      "title": "数学分析Mathematical Analysis笔记整理 第九章 再论实数系",
+      "url": "https://zhuanlan.zhihu.com/p/356736033",
+      "summary": "正文陈述并证明闭区间上连续函数必一致连续的康托定理。"
+    },
+    {
+      "title": "等度连续",
+      "url": "https://zhuanlan.zhihu.com/p/362154056",
+      "summary": "正文定义等度连续，并明确说明它蕴含函数族中每个函数一致连续，反之不成立。"
+    },
+    {
+      "title": "A probabilistic proof of Weierstrass approximation theorem",
+      "url": "https://zhuanlan.zhihu.com/p/371556088",
+      "summary": "正文利用连续函数在闭区间上的一致连续性按距离分类估计逼近误差，并完成 Bernstein 多项式证明。"
+    },
+    {
+      "title": "函数序列的Dini定理(狄尼定理)",
+      "url": "https://zhuanlan.zhihu.com/p/375518650",
+      "summary": "正文定义一致连续，并用闭区间上连续函数的一致连续性证明 Dini 定理。"
+    },
+    {
+      "title": "控制理论基础知识",
+      "url": "https://zhuanlan.zhihu.com/p/390814032",
+      "summary": "正文定义利普希茨条件并解释其比通常连续更强，限制函数值的变化速度。"
+    },
+    {
+      "title": "中科大2021夏令营数分高代",
+      "url": "https://zhuanlan.zhihu.com/p/391906272",
+      "summary": "正文利用凸函数单调性、端点极限和 Cantor 定理证明有界凸函数在开区间上一致连续。"
+    },
+    {
+      "title": "函数的一致连续性专题",
+      "url": "https://zhuanlan.zhihu.com/p/403881218",
+      "summary": "正文以 ε-δ 定义系统讲解一致连续性，并证明复合、运算、Lipschitz 条件和康托尔定理等性质。"
+    },
+    {
+      "title": "数学分析中的反例（2）——连续和一致连续",
+      "url": "https://zhuanlan.zhihu.com/p/438031346",
+      "summary": "正文定义并证明多个函数在给定区间上不一致连续，核心概念是一致连续性。"
+    },
+    {
+      "title": "什么是利普希茨条件？",
+      "url": "https://zhuanlan.zhihu.com/p/442896922",
+      "summary": "正文定义局部与全局利普希茨条件，并明确比较其与一致连续、连续可微之间的强弱关系。"
+    },
+    {
+      "title": "数学分析笔记——紧集与连续函数",
+      "url": "https://zhuanlan.zhihu.com/p/455454615",
+      "summary": "正文以反证法和紧集中的收敛子列证明定义在紧集上的连续函数必为一致连续。"
+    },
+    {
+      "title": "凸函数的性质",
+      "url": "https://zhuanlan.zhihu.com/p/544371942",
+      "summary": "正文证明凸函数在开区间内局部满足 Lipschitz 条件，由此得到局部一致连续。"
+    },
+    {
+      "title": "四川大学实变与复变期末考试题解答",
+      "url": "https://zhuanlan.zhihu.com/p/635839581",
+      "summary": "正文利用连续函数的一致性控制同一平移量下各点的函数值差，具体应用了一致连续。"
+    },
+    {
+      "title": "简单理解一致连续与连续的区别",
+      "url": "https://zhuanlan.zhihu.com/p/642408308",
+      "summary": "正文通过 1/x 在开区间上的例子比较逐点连续与一致连续，说明“同一误差界适用于所有点”的差别。"
+    },
+    {
+      "title": "自动化所面试问题整理",
+      "url": "https://zhuanlan.zhihu.com/p/644760396",
+      "summary": "正文给出 ε-δ 定义，并比较一致连续与普通逐点连续中 δ 的依赖关系。"
+    },
+    {
+      "title": "一个处处不满足Hölder条件的连续函数",
+      "url": "https://zhuanlan.zhihu.com/p/675057799",
+      "summary": "正文构造连续函数并证明其在一维定义域上一致连续。"
+    },
+    {
+      "title": "南科大 2024 秋数学分析 I 期中",
+      "url": "https://zhuanlan.zhihu.com/p/6228945485",
+      "summary": "正文证明连续函数在远离零点时其倒函数仍一致连续，直接讨论了一致连续性。"
+    },
+    {
+      "title": "2024年武汉大学数学分析(1)期中考试个人解答",
+      "url": "https://zhuanlan.zhihu.com/p/7239169950",
+      "summary": "正文通过构造趋于无穷且函数值差也不趋于零的两列点，具体否定了一致连续性。"
+    },
+    {
+      "title": "2024年湘潭大学韶峰班大一选拔考试 数学分析试题个人解答",
+      "url": "https://zhuanlan.zhihu.com/p/8297151330",
+      "summary": "正文利用有限覆盖定理证明闭区间上的连续函数一致连续。"
+    },
+    {
+      "title": "Montel定理的完整证明",
+      "url": "https://zhuanlan.zhihu.com/p/15842498282",
+      "summary": "正文证明函数族在紧子集上等度连续，同一个δ统一控制族中所有函数的两点距离，对应一致连续性思想。"
+    },
+    {
+      "title": "山东大学 (泰山学堂,潘承洞班) 数学分析(1) 2024-2025年期中考试",
+      "url": "https://zhuanlan.zhihu.com/p/16950070337",
+      "summary": "正文用反证法和零点存在性证明连续函数的绝对值一致连续时，原函数也一致连续。"
+    },
+    {
+      "title": "实数完备性八大定理的56条互证",
+      "url": "https://zhuanlan.zhihu.com/p/1921765239738856903",
+      "summary": "正文专节证明闭区间连续函数的一致连续性，并用区间套、有限覆盖、致密性和确界原理给出多种证法。"
+    }
+  ]
+}

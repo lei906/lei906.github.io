@@ -1,0 +1,93 @@
+:root {
+  color-scheme: dark;
+  --text: #eaf5f5;
+  --muted: #acc6d1;
+  --surface: 26%;
+  --ease: cubic-bezier(.22,1,.36,1);
+  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  font-synthesis: none;
+}
+* { box-sizing: border-box; }
+html { background: #080f1d; }
+body { margin: 0; min-width: 320px; color: var(--text); }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { font: inherit; color: inherit; cursor: pointer; }
+button:focus-visible, a:focus-visible { outline: 2px solid #ade7e5; outline-offset: 5px; }
+[hidden] { display: none !important; }
+.topbar { height: 76px; padding: 0 40px; display: flex; align-items: center; gap: 48px; background: #080f1d; }
+.brand { font: 24px "Songti SC","STSong",Georgia,serif; color: var(--text); text-decoration: none; white-space: nowrap; }
+.brand-caption { font-size: 12px; color: #a2bdcb; }
+.topbar-hint { margin-left: auto; font-size: 14px; color: #c5d8df; }
+.demo-badge { font-size: 13px; color: #acc6d1; white-space: nowrap; }
+.workspace { position: relative; }
+.iceberg-viewport { position: relative; height: max(700px, calc(100dvh - 76px)); overflow: hidden; isolation: isolate; background: #0b2136; }
+.scene { position: absolute; inset: 0; transform-origin: 0 0; will-change: transform; }
+.iceberg-art { position: absolute; inset: 0; background: linear-gradient(#cce6ea 0% 26%, #176173 26% 40%, #144760 40% 54%, #112f47 54% 68%, #0b1b30 68% 82%, #080f1d 82%); transition: filter 620ms var(--ease); }
+.art-surface, .art-underwater { position: absolute; left: 18%; right: 0; overflow: hidden; mask-image: linear-gradient(90deg,transparent,black 12%,black 97%,transparent); }
+.art-surface { top: 0; height: var(--surface); }
+.art-underwater { top: var(--surface); bottom: 0; }
+.iceberg-art img { position: absolute; width: 100%; max-width: none; pointer-events: none; user-select: none; }
+.art-surface img { height: 454.5455%; top: 0; }
+.art-underwater img { height: 128.2051%; top: -28.2051%; }
+.depth-bands { position: absolute; inset: 0; pointer-events: none; }
+.band { position: absolute; left: 0; width: 100%; border-top: 1px solid #b3dae142; }
+.band-intro { top: 0; height: 26%; background: linear-gradient(90deg,#d7ece84d,transparent 48%); border: 0; }
+.band-foundation { top: 26%; height: 14%; background: #0a596514; border-top: 2px solid #d0f3f2bd; box-shadow: 0 -3px 9px #c5f6f529; }
+.band-advanced { top: 40%; height: 14%; background: #0b41652b; }
+.band-higher { top: 54%; height: 14%; background: #091f3e45; }
+.band-abstract { top: 68%; height: 14%; background: #050f2466; }
+.band-frontier { top: 82%; height: 18%; background: linear-gradient(#040b1866,#050b167d); }
+.map-intro { position: absolute; top: 14px; left: 40px; margin: 0; font-size: 16px; color: #2a5463; }
+.waterline-caption { position: absolute; right: 8%; top: calc(var(--surface) - 42px); color: #244c60; font-size: 13px; }
+.map-footer { position: absolute; left: 40px; right: 40px; bottom: 16px; display: flex; justify-content: space-between; gap: 20px; color: #b0c6d1; font-size: 12px; }
+.nodes-layer { position: absolute; inset: 0; }
+.node { position: absolute; width: 44px; height: 44px; padding: 0; border: 0; border-radius: 50%; background: transparent; transform: translate(-50%,-50%); text-align: left; }
+.node-orb { position: absolute; left: 19px; top: 19px; width: 6px; height: 6px; border-radius: 50%; background: #ecfaff; box-shadow: 0 0 6px #002f4d; transition: box-shadow 160ms, transform 160ms; }
+.node-label { position: absolute; left: 37px; top: 50%; transform: translateY(-50%); font: 22px/1.4 "Songti SC","STSong",Georgia,serif; white-space: nowrap; color: #f3fbfc; text-shadow: 0 1px 5px #002039,0 0 14px #002039; }
+.node[data-depth="intro"] .node-label { color: #113b4e; text-shadow: 0 1px 5px #e6f7f5; }
+.node[data-depth="intro"] .node-orb { background: #234c5b; box-shadow: none; }
+.node:hover .node-orb { transform: scale(1.4); box-shadow: 0 0 0 9px #b9ede730; }
+.node:hover .node-label { text-decoration: underline; text-underline-offset: 6px; }
+.has-selection .scene .nodes-layer, .has-selection .layer-labels, .has-selection .map-intro, .has-selection .waterline-caption, .has-selection .map-footer { visibility: hidden; }
+.has-selection .iceberg-art { filter: brightness(.43) saturate(.75); }
+.has-selection .depth-bands { opacity: .32; }
+.focus-ui { position: absolute; inset: 0; z-index: 5; pointer-events: none; }
+.viewport-toolbar { position: absolute; left: 32px; right: 32px; top: var(--ui-top,20px); display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.viewport-toolbar p { font-size: 14px; color: #d9ebed; margin: 0; text-shadow: 0 1px 4px #081423; }
+.back-button, .read-discussions, .return-to-map { min-height: 44px; border: 1px solid #87b9c16b; padding: 10px 16px; background: #0b2133ed; color: #e8f4f5; pointer-events: auto; }
+.focus-layer, .graph-lines { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.graph-lines path { fill: none; stroke: #bce5e9a8; stroke-width: 1.25; animation: line-in .4s .45s both; }
+.graph-lines .information-link { stroke: #acc6d17a; stroke-dasharray: 4 7; }
+@keyframes line-in { from { opacity: 0; } to { opacity: 1; } }
+.focus-node { position: absolute; width: 44px; height: 44px; transform: translate(-50%,-50%); border: 0; border-radius: 50%; padding: 0; background: transparent; pointer-events: auto; }
+.focus-node .node-label { font-size: 20px; }
+.focus-node small { position: absolute; top: 49px; left: 50%; transform: translateX(-50%); white-space: nowrap; font-size: 12px; color: #b6d0d9; }
+.focus-node:not(.selected) .node-label { left: 50%; top: -9px; transform: translate(-50%,-100%); }
+.focus-node.is-static { pointer-events: none; }
+.focus-node.selected { cursor: default; }
+.focus-node.selected::before, .focus-node.selected::after { content: ""; position: absolute; inset: -18px; border: 1px solid #b7e4e87a; border-radius: 50%; pointer-events: none; }
+.focus-node.selected::after { inset: -34px; border-color: #b7e4e826; }
+.focus-node.selected .node-orb { width: 12px; height: 12px; left: 16px; top: 16px; background: #c1f4e7; }
+.focus-node.selected .node-label { font-size: 30px; }
+.focus-node.label-left .node-label { left: auto; right: 37px; }
+.focus-node.selected .current-label { left: 37px; top: 46px; transform: none; color: #bde8df; font-size: 11px; letter-spacing: .08em; }
+.focus-node.selected.label-left .current-label { left: auto; right: 37px; }
+.focus-node.is-action { width: 152px; height: 68px; border: 1px solid #a9e6df; border-radius: 6px; background: #102f3ef5; padding: 10px 14px; text-align: left; box-shadow: 0 4px 18px #020d2380; transition: background 160ms, border-color 160ms, box-shadow 160ms; }
+.focus-node.is-action .node-orb { display: none; }
+.focus-node.is-action .node-label { position: static; display: block; transform: none; font-size: 19px; line-height: 1.35; text-shadow: none; }
+.focus-node.is-action small { position: static; display: block; transform: none; margin-top: 4px; font-size: 11px; color: #bde8df; }
+.focus-node.is-action::after { content: "→"; position: absolute; right: 12px; bottom: 10px; color: #c1f4e7; }
+.focus-node.is-action:hover, .focus-node.is-action:focus-visible { background: #215366; border-color: #e1fff5; box-shadow: 0 0 0 3px #b9ede726,0 6px 24px #020d2380; }
+.focus-node.is-action:active { background: #2b6473; }
+.focus-node.is-static .node-label { color: #c1d2da; font: 16px/1.4 "PingFang SC","Microsoft YaHei",sans-serif; }
+.focus-node.is-static .node-orb { background: #0d2634; border: 1px solid #b6cbd5; border-radius: 0; transform: rotate(45deg); box-shadow: none; }
+.focus-node.is-static small { top: 38px; font-size: 11px; color: #b2c5cf; }
+.zoom-controls { position: absolute; right: 28px; top: calc(var(--ui-top,20px) + 60px); display: flex; border: 1px solid #91c3cf66; background: #0c1e30e6; pointer-events: auto; }
+.zoom-controls button { border: 0; width: 44px; height: 44px; font-size: 22px; background: transparent; }
+.zoom-controls button:disabled { opacity: .35; cursor: default; }
+.read-discussions { position: absolute; right: 28px; top: var(--ui-bottom,600px); }
+.minimap { position: absolute; left: 32px; top: var(--ui-bottom,600px); display: flex; align-items: center; gap: 14px; padding: 8px 12px; background: #0a192de8; border: 1px solid #8ac2cc55; font-size: 12px; }
+.mini-bands { display: grid; width: 32px; gap: 2px; }
+.mini-bands i { height: 4px; background: #7ba8bb4d; }
+.mini-bands i.is-active { background: #c1f4e7; }
+.sr-only { position: absolute; top: 0; left: 0; margin: 0; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }

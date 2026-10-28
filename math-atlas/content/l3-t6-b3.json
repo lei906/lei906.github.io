@@ -1,0 +1,5841 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t6-b3",
+  "sources": [
+    {
+      "title": "线性到底是什么意思？",
+      "url": "https://www.zhihu.com/answer/13923890",
+      "summary": "用齐次性和可加性两个条件简要定义线性，帮助区分线性映射与非线性映射。"
+    },
+    {
+      "title": "线性到底是什么意思？",
+      "url": "https://www.zhihu.com/answer/13925174",
+      "summary": "围绕可加性、齐次性区分线性映射与仿射映射。原文对特征值和非线性问题的延伸说法有不严谨之处。"
+    },
+    {
+      "title": "如何理解线性代数？",
+      "url": "https://www.zhihu.com/answer/15407109",
+      "summary": "用平面点坐标变换解释矩阵乘法、复合和逆变换的几何意义。原文对单位矩阵的描述漏写非对角元为零，阅读时需补足。"
+    },
+    {
+      "title": "如何通俗地讲解「仿射变换」？",
+      "url": "https://www.zhihu.com/answer/15790507",
+      "summary": "用缩放、旋转、反射解释线性变换，并区别平移与仿射变换；“扭成任意形状”过度概括。图片矩阵未读取，依据文字坐标例子关联。"
+    },
+    {
+      "title": "什么是「齐次」「非齐次」「线性」「非线性」？",
+      "url": "https://www.zhihu.com/answer/16058431",
+      "summary": "讨论矩阵变换与共线性，但混淆齐次坐标上的射影变换和原平面线性变换；线性变换并非不保平行，退化变换也可能把直线压成点。"
+    },
+    {
+      "title": "请形象地说明Matrix is close to singular是怎样的？",
+      "url": "https://www.zhihu.com/answer/16568267",
+      "summary": "借旋转及单方向压缩的矩阵解释线性变换、可逆性与奇异情形，给出直观几何模型。"
+    },
+    {
+      "title": "乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/17651961",
+      "summary": "把矩阵乘法解释为不同维线性空间间映射的复合，说明乘法次序的意义。后文把整数倍乘称为加法群的作用并不准确，不能作为群作用定义。"
+    },
+    {
+      "title": "为何微小角位移是矢量，角位移不是呢？",
+      "url": "https://www.zhihu.com/answer/22819236",
+      "summary": "正文围绕「为何微小角位移是矢量，角位移不是呢？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "复数的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/27293131",
+      "summary": "正文围绕“线性变换”给出说明、例证或方法。"
+    },
+    {
+      "title": "奇异值的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/28007137",
+      "summary": "正文围绕“线性变换”给出说明、例证或方法。"
+    },
+    {
+      "title": "无法理解高等数学怎么办？",
+      "url": "https://www.zhihu.com/answer/30978423",
+      "summary": "正文围绕“线性变换”给出说明、例证或方法。"
+    },
+    {
+      "title": "矩阵乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/31050145",
+      "summary": "正文围绕“线性变换”给出说明、例证或方法。"
+    },
+    {
+      "title": "行列式的意义是什么？",
+      "url": "https://www.zhihu.com/answer/32488447",
+      "summary": "以矩阵对应的线性变换说明面积比的来源。"
+    },
+    {
+      "title": "为什么一般把向量定义为列向量？",
+      "url": "https://www.zhihu.com/answer/32499596",
+      "summary": "通过 B(A(x)) 的复合说明线性映射与矩阵乘法的顺序。"
+    },
+    {
+      "title": "行列式的意义是什么？",
+      "url": "https://www.zhihu.com/answer/32525286",
+      "summary": "以线性变换造成的体积比解释行列式的几何意义。"
+    },
+    {
+      "title": "微分符号 dx、dy 表示什么含义？",
+      "url": "https://www.zhihu.com/answer/32964119",
+      "summary": "说明微分是定义域切空间到值域切空间的线性映射。"
+    },
+    {
+      "title": "洛伦兹变换为什么是线性的，如何推导出它是线性的？",
+      "url": "https://www.zhihu.com/answer/34018456",
+      "summary": "正文从可逆坐标变换推导洛伦兹变换的线性性质。"
+    },
+    {
+      "title": "什么是张量 (tensor)？",
+      "url": "https://www.zhihu.com/answer/35090661",
+      "summary": "正文以线性变换、对偶空间和多线性代数说明张量。"
+    },
+    {
+      "title": "什么是张量 (tensor)？",
+      "url": "https://www.zhihu.com/answer/38936600",
+      "summary": "正文以向量、矩阵到高阶张量说明张量表达线性映射关系。"
+    },
+    {
+      "title": "为什么矩阵能分块运算?",
+      "url": "https://www.zhihu.com/answer/40693747",
+      "summary": "正文把矩阵视为线性变换的表示。"
+    },
+    {
+      "title": "可约群表示是什么？",
+      "url": "https://www.zhihu.com/answer/42650190",
+      "summary": "正文连接线性变换与群作用。"
+    },
+    {
+      "title": "什么是张量 (tensor)？",
+      "url": "https://www.zhihu.com/answer/43301304",
+      "summary": "正文从多线性映射、对偶空间和方阵说明张量与线性变换的关系。"
+    },
+    {
+      "title": "为什么引入齐次坐标的变换矩阵可以表示平移呢？",
+      "url": "https://www.zhihu.com/answer/43847213",
+      "summary": "正文说明齐次坐标把平移并入矩阵变换，便于复合。"
+    },
+    {
+      "title": "复变函数和实二元函数有什么区别？",
+      "url": "https://www.zhihu.com/answer/46100518",
+      "summary": "正文把实二元函数可导描述为局部线性变换。"
+    },
+    {
+      "title": "奇异值的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/53804902",
+      "summary": "正文将矩阵作用明确解释为线性变换的拉伸与旋转。"
+    },
+    {
+      "title": "矩阵的奇异值与特征值有什么相似之处与区别之处？",
+      "url": "https://www.zhihu.com/answer/54788626",
+      "summary": "正文解释线性变换中的旋转、缩放和投影。"
+    },
+    {
+      "title": "线性代数从矩阵和行列式入门真的是最恰当的学习方法吗？",
+      "url": "https://www.zhihu.com/answer/64586428",
+      "summary": "正文将线性空间中的运动解释为线性变换，并说明矩阵表示。"
+    },
+    {
+      "title": "如何理解矩阵不能相似对角化？",
+      "url": "https://www.zhihu.com/answer/66612941",
+      "summary": "正文用基与伸缩解释相似对角化对应的线性变换。"
+    },
+    {
+      "title": "矩阵相似的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/67426927",
+      "summary": "正文解释相似矩阵是同一线性变换在不同基下的描述。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/69790713",
+      "summary": "正文以线性变换解释行列式的几何意义。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/70687817",
+      "summary": "正文明确将矩阵所表示的映射定义为线性变换。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/70741531",
+      "summary": "正文说明方阵可表示空间到自身的线性变换。"
+    },
+    {
+      "title": "线性代数有什么用？学习线性代数的意义在哪？",
+      "url": "https://www.zhihu.com/answer/74463428",
+      "summary": "正文说明矩阵将一点映射为另一点，并以旋转和投影作为线性变换实例。"
+    },
+    {
+      "title": "矩阵与行列式有什么区别?",
+      "url": "https://www.zhihu.com/answer/75635431",
+      "summary": "正文从向量空间和换基角度解释矩阵对应的线性变换。"
+    },
+    {
+      "title": "如何理解雅克比矩阵？",
+      "url": "https://www.zhihu.com/answer/76610395",
+      "summary": "正文将雅可比矩阵解释为切空间基之间的线性变换。"
+    },
+    {
+      "title": "如何理解线性代数？",
+      "url": "https://www.zhihu.com/answer/81272831",
+      "summary": "正文解释线性变换选择基后可由矩阵表示。"
+    },
+    {
+      "title": "为什么directX里表示三维坐标要建一个4*4的矩阵？",
+      "url": "https://www.zhihu.com/answer/83199096",
+      "summary": "正文解释矩阵如何表示旋转、平移与缩放等线性变换。"
+    },
+    {
+      "title": "你觉得比较好的线性代数学习路径是什么？",
+      "url": "https://www.zhihu.com/answer/84427882",
+      "summary": "正文把线性代数概括为向量空间之间的线性映射。"
+    },
+    {
+      "title": "二阶正交矩阵可以根据纯旋转与否来分类，能具体解释一下吗？",
+      "url": "https://www.zhihu.com/answer/85104524",
+      "summary": "正文把相似矩阵解释为同一线性变换在不同基下的描述。"
+    },
+    {
+      "title": "如何理解矩阵特征值？",
+      "url": "https://www.zhihu.com/answer/85155697",
+      "summary": "正文明确说明矩阵乘法描述线性变换。"
+    },
+    {
+      "title": "线性变换的矩阵为什么要强调在这组基下?",
+      "url": "https://www.zhihu.com/answer/88697757",
+      "summary": "正文从基向量像、复合映射和换基系统解释线性变换。"
+    },
+    {
+      "title": "矩阵的奇异值与特征值有什么相似之处与区别之处？",
+      "url": "https://www.zhihu.com/answer/89140627",
+      "summary": "正文把奇异值分解解释为旋转、缩放、投影三种线性变换。"
+    },
+    {
+      "title": "循环卷积和线性卷积在信号处理中的意义是什么？",
+      "url": "https://www.zhihu.com/answer/93515223",
+      "summary": "正文把 DFT 视为正交线性变换并说明逆变换重建。"
+    },
+    {
+      "title": "为什么实际旋转角度是四元数里面的角度的两倍？有什么数学上的原因吗？",
+      "url": "https://www.zhihu.com/answer/93762542",
+      "summary": "正文完整证明单位四元数的共轭作用给出三维空间中的旋转变换。"
+    },
+    {
+      "title": "数学中关于集合、空间、数域概念的关系？",
+      "url": "https://www.zhihu.com/answer/94981893",
+      "summary": "正文用积分区域化简和变换不变量说明变换的作用。"
+    },
+    {
+      "title": "如何理解矩阵特征值？",
+      "url": "https://www.zhihu.com/answer/95423320",
+      "summary": "正文以空间向量变换说明特征分解的含义。"
+    },
+    {
+      "title": "如何理解矩阵对矩阵求导？",
+      "url": "https://www.zhihu.com/answer/100027812",
+      "summary": "导数被严格表述为赋范向量空间之间的有界线性算子。"
+    },
+    {
+      "title": "矩阵乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/103520656",
+      "summary": "正文把矩阵乘法解释为向量空间投影、坐标变换和重构。"
+    },
+    {
+      "title": "线性代数有什么用？学习线性代数的意义在哪？",
+      "url": "https://www.zhihu.com/answer/107487676",
+      "summary": "正文把线性代数运算解释为空间中的线性变换和投影。"
+    },
+    {
+      "title": "特征值和特征向量的意义？",
+      "url": "https://www.zhihu.com/answer/108122083",
+      "summary": "正文把矩阵 A 解释为对向量实施拉伸但保持特定方向的线性变换。"
+    },
+    {
+      "title": "数学中以 e 为底的指数函数 f(x)=exp(x) 求导后为什么还是它本身？",
+      "url": "https://www.zhihu.com/answer/110075760",
+      "summary": "正文给出线性变换的可加性和齐次性，并把导数算子解释为线性变换。"
+    },
+    {
+      "title": "极坐标下的二重积分，二次积分下每次积分的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/110135036",
+      "summary": "正文用局部线性变换和全微分公式推导一般坐标变换下的微元关系。"
+    },
+    {
+      "title": "y=e^x 有什么特殊性吗？它与三角函数等函数有什么关系？",
+      "url": "https://www.zhihu.com/answer/110173647",
+      "summary": "正文给出线性变换的可加性和齐次性，并把微分运算解释为线性变换。"
+    },
+    {
+      "title": "y=e^x 无限求导每一次都等于自身有什么深层含义或是实际应用吗？",
+      "url": "https://www.zhihu.com/answer/110174443",
+      "summary": "正文给出线性变换的可加性和齐次性，并把微分运算解释为线性变换。"
+    },
+    {
+      "title": "机器学习中引入L2范数的意义是什么？",
+      "url": "https://www.zhihu.com/answer/110308255",
+      "summary": "正文把矩阵乘向量解释为沿特征向量方向的伸缩变换。"
+    },
+    {
+      "title": "线性代数为什么学校老师讲得那么复杂，考研老师却讲得如此精辟？",
+      "url": "https://www.zhihu.com/answer/111578684",
+      "summary": "正文说明线性映射、正交变换及其几何不变量的意义。"
+    },
+    {
+      "title": "无限不循环（如 π、e）的存在是否也一定程度解释了世界的特性？",
+      "url": "https://www.zhihu.com/answer/116798251",
+      "summary": "正文把乘π及量子测量基底变换解释为线性映射，并用子空间不能映回自身说明表示限制。"
+    },
+    {
+      "title": "迹的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/118753126",
+      "summary": "正文解释线性变换的迹如何反映固定分量以及换基后的作用。"
+    },
+    {
+      "title": "奇异值的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/119044790",
+      "summary": "正文把矩阵视为线性变换，并用奇异值分解解释变换的作用与压缩应用。"
+    },
+    {
+      "title": "主成分分析PCA算法：为什么去均值以后的高维矩阵乘以其协方差矩阵的特征向量矩阵就是“投影”？",
+      "url": "https://www.zhihu.com/answer/120499954",
+      "summary": "正文把矩阵变换分解为旋转、轴向缩放和旋转，直观解释线性变换。"
+    },
+    {
+      "title": "线性代数中，特征值与特征向量在代数和几何层面的实际意义是什么？",
+      "url": "https://www.zhihu.com/answer/120540926",
+      "summary": "正文把一般矩阵作用直观分解为旋转与沿轴缩放。"
+    },
+    {
+      "title": "线性代数与高等代数的区别是什么？",
+      "url": "https://www.zhihu.com/answer/123753729",
+      "summary": "正文从抽象线性空间到线性变换再到坐标矩阵解释课程结构。"
+    },
+    {
+      "title": "线性代数中的线性相关或无关到底是什么意思？秩又是什么东西？秩相同意味着什么？",
+      "url": "https://www.zhihu.com/answer/124415519",
+      "summary": "正文从线性变换的像空间、核空间和维数关系解释秩与线性约束。"
+    },
+    {
+      "title": "线性代数有什么用？学习线性代数的意义在哪？",
+      "url": "https://www.zhihu.com/answer/124940442",
+      "summary": "正文解释线性变换、基变换和相似矩阵之间的关系。"
+    },
+    {
+      "title": "如何理解Householder变换和Givens旋转?",
+      "url": "https://www.zhihu.com/answer/125819331",
+      "summary": "正文把 Householder 解释为镜面反射线性变换，把 Givens 解释为平面旋转变换。"
+    },
+    {
+      "title": "相似矩阵和合同矩阵以及矩阵等价的关系？怎样区别",
+      "url": "https://www.zhihu.com/answer/126556990",
+      "summary": "正文把矩阵相似解释为同一线性变换在不同基下的矩阵表示。"
+    },
+    {
+      "title": "如何计算旋转后的图形的坐标点？",
+      "url": "https://www.zhihu.com/answer/128611985",
+      "summary": "正文把绕任意中心旋转写成矩阵线性部分加平移的仿射变换。"
+    },
+    {
+      "title": "线性代数有什么用？学习线性代数的意义在哪？",
+      "url": "https://www.zhihu.com/answer/129695705",
+      "summary": "正文把线性代数概括为任意维空间中描述状态及状态变化的规则，体现线性变换的应用直觉。"
+    },
+    {
+      "title": "机器学习中SVD和PCA一直没有搞的特别清楚，应该如何理解呢？",
+      "url": "https://www.zhihu.com/answer/131029607",
+      "summary": "正文把PCA表示为用正交基对数据矩阵进行变换并实现降维。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/132756971",
+      "summary": "正文定义线性空间、线性映射及映射的加法和数乘，实质讲解线性变换。"
+    },
+    {
+      "title": "引出向量空间这个概念的目的和意义是什么",
+      "url": "https://www.zhihu.com/answer/133196907",
+      "summary": "正文说明脱离矩阵表示后如何把变换理解为线性映射，实质解释线性变换抽象。"
+    },
+    {
+      "title": "如何理解矩阵相乘的几何意义或现实意义？",
+      "url": "https://www.zhihu.com/answer/135658852",
+      "summary": "正文把矩阵解释为线性变换，并说明乘法实现基变换与降维。"
+    },
+    {
+      "title": "机器学习有很多关于核函数的说法，核函数的定义和作用是什么？",
+      "url": "https://www.zhihu.com/answer/136142870",
+      "summary": "正文把非线性数据映射到高维空间，再以点积实现线性划分，实质解释空间映射变换。"
+    },
+    {
+      "title": "相比于耳熟能详的微积分发展史，为什么我们较少听说过线性代数的发展史？线性代数是如何发展的？",
+      "url": "https://www.zhihu.com/answer/136278707",
+      "summary": "正文说明线性空间、线性变换与解析几何如何由方程问题发展出来。"
+    },
+    {
+      "title": "矩阵乘法的结合律本质上为什么成立？",
+      "url": "https://www.zhihu.com/answer/136332400",
+      "summary": "正文把矩阵作用解释为依次旋转、剪切、拉伸的线性变换复合。"
+    },
+    {
+      "title": "在高中的学习中，有哪一瞬间你觉得自己真正懂了一个对高考卷解题有大用的东西？",
+      "url": "https://www.zhihu.com/answer/136511251",
+      "summary": "正文以坐标旋转和椭圆变换直观探索线性变换。"
+    },
+    {
+      "title": "相似的矩阵一定合同吗？",
+      "url": "https://www.zhihu.com/answer/137061418",
+      "summary": "正文把相似和合同视为不同矩阵变换并分析正交变换条件。"
+    },
+    {
+      "title": "看机器学习论文时，看不懂数学公式怎么办？",
+      "url": "https://www.zhihu.com/answer/137902676",
+      "summary": "正文把机器学习建模解释为建立向量空间并作映射变换。"
+    },
+    {
+      "title": "仿射函数、线性函数的区别？",
+      "url": "https://www.zhihu.com/answer/138010074",
+      "summary": "正文把 Ax+b 解释为从 k 维到 m 维空间的映射关系。"
+    },
+    {
+      "title": "向量点乘的 x1x2 + y1y2 与 |a||b|cosθ 是如何联系起来的？",
+      "url": "https://www.zhihu.com/answer/139757906",
+      "summary": "正文说明线性变换由基向量的像决定。"
+    },
+    {
+      "title": "列空间和行空间到底是什么关系？",
+      "url": "https://www.zhihu.com/answer/139787675",
+      "summary": "正文把矩阵解释为从行空间到列空间的映射。"
+    },
+    {
+      "title": "如何理解矩阵转置和求逆的可交换性？",
+      "url": "https://www.zhihu.com/answer/141069184",
+      "summary": "正文把矩阵或算子理解为作用于空间的线性映射。"
+    },
+    {
+      "title": "n维空间里的n个向量的最小夹角的最大值是什么？",
+      "url": "https://www.zhihu.com/answer/144382568",
+      "summary": "正文把最终构造解释为向正交补空间的投影线性变换。"
+    },
+    {
+      "title": "把线性空间分解为不变子空间的直和有何用处？",
+      "url": "https://www.zhihu.com/answer/144502844",
+      "summary": "正文把矩阵作用解释为各特征方向上的伸缩或旋转伸缩。"
+    },
+    {
+      "title": "线性代数特征值到底是个什么东西？",
+      "url": "https://www.zhihu.com/answer/144559732",
+      "summary": "正文解释矩阵变换如何改变向量长度与方向。"
+    },
+    {
+      "title": "软件工程专业的大一学生，不明白学习高数和线代的意义在哪？",
+      "url": "https://www.zhihu.com/answer/148833807",
+      "summary": "正文把三维模型投影、平移和旋转解释为矩阵表示的线性变换。"
+    },
+    {
+      "title": "线性代数在你的学科里有什么应用？",
+      "url": "https://www.zhihu.com/answer/149936073",
+      "summary": "正文把机械臂连杆坐标变换写成矩阵连乘，展示线性变换的机器人应用。"
+    },
+    {
+      "title": "线性代数在你的学科里有什么应用？",
+      "url": "https://www.zhihu.com/answer/150549036",
+      "summary": "正文把概率分配过程定义为线性变换并写成矩阵迭代。"
+    },
+    {
+      "title": "如何学习高等代数？高等代数注重定理证明吗？学习数分需要会各种证明，高代也这样吗？高代注重计算吗？",
+      "url": "https://www.zhihu.com/answer/153927825",
+      "summary": "正文把矩阵理解为线性变换在不同基下的表示，并解释相似变换。"
+    },
+    {
+      "title": "如何正确理解群论中的同态基本定理？",
+      "url": "https://www.zhihu.com/answer/154155831",
+      "summary": "正文从线性空间同态定理解释核、像、商空间与线性映射之间的对应。"
+    },
+    {
+      "title": "线性代数与高等代数的区别是什么？",
+      "url": "https://www.zhihu.com/answer/155467613",
+      "summary": "正文强调高等代数的核心是线性空间与线性变换。"
+    },
+    {
+      "title": "如何用向量（a，b，c）和（x，y，z）表示向量（ax，by，cz）？",
+      "url": "https://www.zhihu.com/answer/157147862",
+      "summary": "正文说明坐标旋转由正交矩阵实现，并用反例展示所求操作不是内蕴线性操作。"
+    },
+    {
+      "title": "如何通俗地讲解「仿射变换」？",
+      "url": "https://www.zhihu.com/answer/157400568",
+      "summary": "正文从几何和代数两方面解释仿射变换是线性变换加平移。"
+    },
+    {
+      "title": "如何理解导数的概念 ?",
+      "url": "https://www.zhihu.com/answer/159589897",
+      "summary": "正文说明多元导数可视作保持共面的线性变换。"
+    },
+    {
+      "title": "什么是张量 (tensor)？",
+      "url": "https://www.zhihu.com/answer/159591975",
+      "summary": "正文把张量定义为多重线性映射，并解释分量随基底的变换规律。"
+    },
+    {
+      "title": "线性代数有什么用？学习线性代数的意义在哪？",
+      "url": "https://www.zhihu.com/answer/160189535",
+      "summary": "正文把线性代数解释为在不同基和空间中变换对象表示。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/162550802",
+      "summary": "正文从旋转、推移和基的变化建立线性变换的几何直观。"
+    },
+    {
+      "title": "如何理解矩阵的「秩」？",
+      "url": "https://www.zhihu.com/answer/167612272",
+      "summary": "正文把秩解释为线性变换后空间的维度，并用多个矩阵作图说明。"
+    },
+    {
+      "title": "曲面积分跟二重积分意义有啥不同?",
+      "url": "https://www.zhihu.com/answer/171861232",
+      "summary": "正文用向量被变换后方向与长度的变化解释线性变换。"
+    },
+    {
+      "title": "极坐标下的二重积分，二次积分下每次积分的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/172064969",
+      "summary": "正文明确把坐标换元局部化为线性变换并解释其伸缩作用。"
+    },
+    {
+      "title": "如何理解本征值?",
+      "url": "https://www.zhihu.com/answer/174794698",
+      "summary": "正文把本征问题置于线性体系中，并用线性组合描述一般性质。"
+    },
+    {
+      "title": "有没有人能用人类的语言告诉我，相似矩阵有什么用？",
+      "url": "https://www.zhihu.com/answer/174887899",
+      "summary": "正文指出相似矩阵是在不同基下描述同一个线性变换，并推导换基公式。"
+    },
+    {
+      "title": "如何理解矩阵特征值？",
+      "url": "https://www.zhihu.com/answer/181864044",
+      "summary": "正文从矩阵对向量的旋转和拉伸解释线性变换及基变换。"
+    },
+    {
+      "title": "二次型的意义是什么？有什么应用？",
+      "url": "https://www.zhihu.com/answer/195435181",
+      "summary": "正文把矩阵解释为旋转、拉伸等线性运动，并用于圆锥曲线规范化。"
+    },
+    {
+      "title": "矩阵和向量组和线性方程组之间的关系是什么？",
+      "url": "https://www.zhihu.com/answer/202231378",
+      "summary": "正文用旋转矩阵和基向量运动解释矩阵作为线性变换。"
+    },
+    {
+      "title": "矩阵乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/204058188",
+      "summary": "正文以基变换和坐标切换解释矩阵作用。"
+    },
+    {
+      "title": "为何线性代数的「determinant」被翻译成「行列式」？",
+      "url": "https://www.zhihu.com/answer/206017827",
+      "summary": "正文说明线性变换在行列式非零或为零时对空间维数的影响。"
+    },
+    {
+      "title": "怎么理解秩定理？",
+      "url": "https://www.zhihu.com/answer/209308562",
+      "summary": "正文先从线性映射的秩和像空间解释秩定理的非线性推广。"
+    },
+    {
+      "title": "为什么矩阵行秩等于列秩？",
+      "url": "https://www.zhihu.com/answer/213039290",
+      "summary": "正文把矩阵乘向量解释为空间旋转、压缩等线性变换。"
+    },
+    {
+      "title": "说话人识别中取到i-vector之后怎么做分类？i-vector又是如何推导？",
+      "url": "https://www.zhihu.com/answer/215215119",
+      "summary": "正文解释T矩阵把高维统计量线性映射到低维i-vector。"
+    },
+    {
+      "title": "怎么通俗地理解张量？",
+      "url": "https://www.zhihu.com/answer/219443547",
+      "summary": "正文从线性变换的复合与张量积解释其作用空间和维数差异。"
+    },
+    {
+      "title": "线性代数中，特征值与特征向量在代数和几何层面的实际意义是什么？",
+      "url": "https://www.zhihu.com/answer/220603139",
+      "summary": "正文把矩阵乘向量解释为线性空间的变换。"
+    },
+    {
+      "title": "奇异值的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/225371236",
+      "summary": "正文用单位圆变椭圆解释矩阵线性变换的旋转、拉伸和投影。"
+    },
+    {
+      "title": "在把有限推广到无限情形时，你遇到过哪些困难，或者证明过程出现过哪些问题？",
+      "url": "https://www.zhihu.com/answer/226415091",
+      "summary": "正文讨论有限维和无限维线性变换、矩阵表示与谱的差异。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/235672121",
+      "summary": "正文把对偶空间定义为线性泛函的空间。"
+    },
+    {
+      "title": "如何通俗地解释欧拉角？之后为何要引入四元数？",
+      "url": "https://www.zhihu.com/answer/236808639",
+      "summary": "正文把三维方向变化写成矩阵作用。"
+    },
+    {
+      "title": "怎样通俗易懂地解释反卷积？",
+      "url": "https://www.zhihu.com/answer/244259122",
+      "summary": "正文把卷积写成线性算子并用其逆算子恢复输入。"
+    },
+    {
+      "title": "谁能把虚数描述下？",
+      "url": "https://www.zhihu.com/answer/244319250",
+      "summary": "正文把乘以虚数解释为平面旋转这一线性变换。"
+    },
+    {
+      "title": "Jordan标准形的本质是什么？",
+      "url": "https://www.zhihu.com/answer/248047255",
+      "summary": "正文把线性变换视作多项式模并用相似关系分类。"
+    },
+    {
+      "title": "为什么实对称矩阵一定能对角化？",
+      "url": "https://www.zhihu.com/answer/249465919",
+      "summary": "正文把矩阵对角化表述为正交基下的线性变换表示。"
+    },
+    {
+      "title": "为什么矩阵能用来表示角的旋转？",
+      "url": "https://www.zhihu.com/answer/252724399",
+      "summary": "正文明确把旋转矩阵解释为对向量施加的线性变换。"
+    },
+    {
+      "title": "可微与可导有区别吗？",
+      "url": "https://www.zhihu.com/answer/252839751",
+      "summary": "正文将微分解释为映射的局部线性近似。"
+    },
+    {
+      "title": "迹的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/255818053",
+      "summary": "正文把矩阵解释为指定基下的线性变换。"
+    },
+    {
+      "title": "什么时候让你体会到大学专业没白学?",
+      "url": "https://www.zhihu.com/answer/256101983",
+      "summary": "正文把照片校正建模为透视投影变换。"
+    },
+    {
+      "title": "矩阵求逆的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/258039410",
+      "summary": "正文把矩阵乘法解释为对坐标系或向量施加变换。"
+    },
+    {
+      "title": "迹的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/258637739",
+      "summary": "正文从线性映射、矩阵作用与乘法推广迹操作。"
+    },
+    {
+      "title": "线性代数对物理学有什么帮助？",
+      "url": "https://www.zhihu.com/answer/264278863",
+      "summary": "正文把矩阵直观解释为对空间做旋转和缩放的线性变换。"
+    },
+    {
+      "title": "空间里能否找到一个正方体和一个平面，使得正方体各顶点到平面的距离恰好为零至七这八个整数？",
+      "url": "https://www.zhihu.com/answer/265828098",
+      "summary": "正文通过构造线性变换把立方体距离问题降到二维坐标问题。"
+    },
+    {
+      "title": "线性微分方程与非线性微分方程的区别是什么？",
+      "url": "https://www.zhihu.com/answer/266787269",
+      "summary": "正文从代数与几何两方面说明微分算子是线性变换。"
+    },
+    {
+      "title": "如何形象地理解矩阵的相似与合同？",
+      "url": "https://www.zhihu.com/answer/267076354",
+      "summary": "正文说明同一线性变换在不同基下的矩阵相似关系。"
+    },
+    {
+      "title": "线性代数中讲多项式的意义何在？",
+      "url": "https://www.zhihu.com/answer/270793887",
+      "summary": "正文把线性方程组、矩阵和基变换统一到线性映射。"
+    },
+    {
+      "title": "为什么求极限没有逆运算？",
+      "url": "https://www.zhihu.com/answer/285128545",
+      "summary": "正文说明极限运算是该空间上的线性泛函。"
+    },
+    {
+      "title": "协变张量和逆变张量有何区别？仅仅是上下标的区别吗？",
+      "url": "https://www.zhihu.com/answer/285609840",
+      "summary": "正文推导不同基底下坐标的线性变换关系。"
+    },
+    {
+      "title": "如何证明单位矢量关于时间的导数为角速度与该矢量的叉乘?",
+      "url": "https://www.zhihu.com/answer/314866543",
+      "summary": "正文用坐标变换矩阵说明不同坐标系间的线性变换。"
+    },
+    {
+      "title": "大一，理解不了高数第一类第二类换元法，是不理解原理，有大神解答一下吗？",
+      "url": "https://www.zhihu.com/answer/319656003",
+      "summary": "正文把椭圆积分中的伸缩代换写成矩阵，说明其是可逆的平面线性变换。"
+    },
+    {
+      "title": "如何直观地理解线性变换？",
+      "url": "https://www.zhihu.com/answer/324041266",
+      "summary": "正文从坐标与基的变化直观解释线性变换。"
+    },
+    {
+      "title": "机器视觉的相机标定到底是什么？",
+      "url": "https://www.zhihu.com/answer/335573627",
+      "summary": "正文把坐标系转换和单应性明确写为线性变换。"
+    },
+    {
+      "title": "线性代数与高等代数的区别是什么？",
+      "url": "https://www.zhihu.com/answer/341059316",
+      "summary": "正文区分线性代数与数学系高等代数，并具体指出后者强调线性变换及其与矩阵的联系。"
+    },
+    {
+      "title": "有谁可以介绍一下下， 什么是projection matrix （投影矩阵），以及它的性质？",
+      "url": "https://www.zhihu.com/answer/341425237",
+      "summary": "正文将投影矩阵解释为把任意向量映到指定直线的线性操作。"
+    },
+    {
+      "title": "线性微分方程与非线性微分方程的区别是什么？",
+      "url": "https://www.zhihu.com/answer/352025838",
+      "summary": "正文用加性和一次齐性定义线性运算与系统。"
+    },
+    {
+      "title": "矩阵的转置的意义是什么？",
+      "url": "https://www.zhihu.com/answer/356540744",
+      "summary": "正文把矩阵明确解释为线性空间之间的映射。"
+    },
+    {
+      "title": "高等代数研究线性空间的意义是什么呢？",
+      "url": "https://www.zhihu.com/answer/362779904",
+      "summary": "正文把矩阵的核心意义解释为线性变换。"
+    },
+    {
+      "title": "如何理解矩阵转置和求逆的可交换性？",
+      "url": "https://www.zhihu.com/answer/363052047",
+      "summary": "正文从线性映射及对偶变换解释转置。"
+    },
+    {
+      "title": "特征工程中的「归一化」有什么作用？",
+      "url": "https://www.zhihu.com/answer/370658612",
+      "summary": "正文把归一化和标准化推导为缩放加平移的线性变换。"
+    },
+    {
+      "title": "多维高斯分布是如何由一维发展而来的？",
+      "url": "https://www.zhihu.com/answer/385944057",
+      "summary": "正文把坐标投影写成正交矩阵线性变换。"
+    },
+    {
+      "title": "R^2 与 C 的区别在哪里？为什么有数学家认为复数用 a+bi 表示不好？",
+      "url": "https://www.zhihu.com/answer/413220928",
+      "summary": "正文把复数极形式解释为旋转与伸缩线性变换。"
+    },
+    {
+      "title": "R^2 与 C 的区别在哪里？为什么有数学家认为复数用 a+bi 表示不好？",
+      "url": "https://www.zhihu.com/answer/414599247",
+      "summary": "正文以复线性变换对应二维实线性变换解释微分差异。"
+    },
+    {
+      "title": "如何直观的理解线性代数中伴随算子（矩阵） 、自伴算子（矩阵）、正规算子（矩阵）？",
+      "url": "https://www.zhihu.com/answer/420551413",
+      "summary": "正文把算子分解为对子空间的旋转与伸缩。"
+    },
+    {
+      "title": "主成分分析法是什么意思？能不能用简单的话解释一下？",
+      "url": "https://www.zhihu.com/answer/432025686",
+      "summary": "正文把主成分解释为对原变量的线性组合与坐标变换。"
+    },
+    {
+      "title": "求解全微分的意义？最好感性一点的认识",
+      "url": "https://www.zhihu.com/answer/433504539",
+      "summary": "正文以线性变换解释切线与切平面的关系。"
+    },
+    {
+      "title": "怎么通俗地理解张量？",
+      "url": "https://www.zhihu.com/answer/436168258",
+      "summary": "正文通过坐标变换不变性解释张量结构。"
+    },
+    {
+      "title": "微分到底是什么意思？实际意义是什么？",
+      "url": "https://www.zhihu.com/answer/440242420",
+      "summary": "正文把微分算子解释为函数空间之间的线性映射。"
+    },
+    {
+      "title": "什么是张量 (tensor)？",
+      "url": "https://www.zhihu.com/answer/447498656",
+      "summary": "正文用不同基下的矩阵表示解释线性映射的不变对象。"
+    },
+    {
+      "title": "数学家和物理学家是怎么得到灵感解决问题的？",
+      "url": "https://www.zhihu.com/answer/459985620",
+      "summary": "正文明确说明矩阵与有限维线性变换的对应关系。"
+    },
+    {
+      "title": "本质矩阵和基础矩阵的区别是什么？",
+      "url": "https://www.zhihu.com/answer/466669565",
+      "summary": "正文说明矩阵分解得到坐标变换的应用。"
+    },
+    {
+      "title": "二次型的意义是什么？有什么应用？",
+      "url": "https://www.zhihu.com/answer/472891521",
+      "summary": "正文推导坐标变换下度规矩阵的变换关系。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/473516077",
+      "summary": "正文用线性变换的体积伸缩解释行列式。"
+    },
+    {
+      "title": "行列式的意义是什么？",
+      "url": "https://www.zhihu.com/answer/473516328",
+      "summary": "正文用线性变换后的维数和可逆性解释行列式。"
+    },
+    {
+      "title": "如何通俗易懂地讲解什么是 PCA（主成分分析）？",
+      "url": "https://www.zhihu.com/answer/481966094",
+      "summary": "正文用坐标旋转和线性组合解释主元变换。"
+    },
+    {
+      "title": "如何判断一个数列是否能够得到初等的通项公式？",
+      "url": "https://www.zhihu.com/answer/484687208",
+      "summary": "正文用线性变换观点解释一类分式递推。"
+    },
+    {
+      "title": "线性和非线性的区别是什么？",
+      "url": "https://www.zhihu.com/answer/486551119",
+      "summary": "正文用齐次性与可加性解释线性映射。"
+    },
+    {
+      "title": "为什么矩阵行秩等于列秩？",
+      "url": "https://www.zhihu.com/answer/487062890",
+      "summary": "正文利用行向量与列向量的线性组合关系比较空间维数。"
+    },
+    {
+      "title": "高等代数中出现的对偶空间的对偶到底是什么？而拓扑意义下的对偶又是什么？",
+      "url": "https://www.zhihu.com/answer/495735538",
+      "summary": "正文以双线性泛函解释向量空间的对偶结构。"
+    },
+    {
+      "title": "向量为什么作用那么大、那么好用、且与其他数学工具之间配合的那么好？",
+      "url": "https://www.zhihu.com/answer/497078784",
+      "summary": "正文以加法、数乘和线性算子解释线性结构。"
+    },
+    {
+      "title": "内积、点积、数量积有何区别？",
+      "url": "https://www.zhihu.com/answer/500765641",
+      "summary": "正文比较内积、点积及其诱导的范数结构。"
+    },
+    {
+      "title": "如何理解矩阵的「秩」？",
+      "url": "https://www.zhihu.com/answer/500813812",
+      "summary": "正文用向量线性相关与无关定义秩。"
+    },
+    {
+      "title": "如何评价线性代数的几个理解层次？",
+      "url": "https://www.zhihu.com/answer/500851741",
+      "summary": "正文解释线性算子在各数学领域的普遍性。"
+    },
+    {
+      "title": "怎样理解fredholm alternative theorem？",
+      "url": "https://www.zhihu.com/answer/502277881",
+      "summary": "以有限维线性算子的核与像的维数关系作为 Fredholm 理论的出发点。"
+    },
+    {
+      "title": "如何理解矩阵的「秩」？",
+      "url": "https://www.zhihu.com/answer/526170885",
+      "summary": "将矩阵与线性变换等同，并用值域和核解释信息保留与丢失。"
+    },
+    {
+      "title": "线性代数有什么用？学习线性代数的意义在哪？",
+      "url": "https://www.zhihu.com/answer/528543339",
+      "summary": "强调线性代数的重点是理解线性空间、线性变换和矩阵运算的意义。"
+    },
+    {
+      "title": "数学上经常说「线性代数、线性空间、线性变换、……」，到底何为线性？为什么在诸多概念中反复强调？",
+      "url": "https://www.zhihu.com/answer/530456740",
+      "summary": "以叠加性和齐次性定义线性变换，并解释拆分输入的意义。"
+    },
+    {
+      "title": "高等代数研究的主线是什么？",
+      "url": "https://www.zhihu.com/answer/532263667",
+      "summary": "正文实质讨论线性算子、基底与矩阵表示之间的关系。"
+    },
+    {
+      "title": "为什么有了导数还会去定义出微分？",
+      "url": "https://www.zhihu.com/answer/534390212",
+      "summary": "正文把微分解释为不依赖坐标的线性映射。"
+    },
+    {
+      "title": "线性代数为什么叫线性代数？",
+      "url": "https://www.zhihu.com/answer/540170610",
+      "summary": "正文说明线性变换由一组基向量的像决定。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/541701737",
+      "summary": "正文从线性泛函及其作用解释对偶空间。"
+    },
+    {
+      "title": "矩阵转置的几何意义和物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/541974826",
+      "summary": "正文以线性变换、对偶映射与基表示解释转置。"
+    },
+    {
+      "title": "正交矩阵的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/542217031",
+      "summary": "正文用保持欧氏距离的线性变换概括正交矩阵的几何意义。"
+    },
+    {
+      "title": "为何矩阵特征值乘积等于矩阵行列式值？",
+      "url": "https://www.zhihu.com/answer/546156773",
+      "summary": "正文从线性变换各方向缩放推导特征值乘积与行列式关系。"
+    },
+    {
+      "title": "什么是「本征值」？",
+      "url": "https://www.zhihu.com/answer/549306527",
+      "summary": "正文把本征值解释为线性变换下的方向缩放。"
+    },
+    {
+      "title": "正交矩阵的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/552179956",
+      "summary": "把正交矩阵乘向量解释为坐标系变换并给出换轴实例。"
+    },
+    {
+      "title": "如何从代数和几何的角度分别理解矩阵？",
+      "url": "https://www.zhihu.com/answer/555171490",
+      "summary": "用投影、旋转、伸缩和对称说明线性变换的代数与几何意义。"
+    },
+    {
+      "title": "有哪些优秀的高等代数教材？",
+      "url": "https://www.zhihu.com/answer/563225927",
+      "summary": "正文说明进阶教材以线性空间和线性算子为核心。"
+    },
+    {
+      "title": "如何通俗易懂地讲解什么是 PCA（主成分分析）？",
+      "url": "https://www.zhihu.com/answer/571906771",
+      "summary": "正文把二维数据投影到一维方向来解释线性降维。"
+    },
+    {
+      "title": "如何理解幺正性？",
+      "url": "https://www.zhihu.com/answer/580126870",
+      "summary": "正文说明有限维与无限维线性变换的表示差异。"
+    },
+    {
+      "title": "如何通俗易懂地讲解什么是 PCA（主成分分析）？",
+      "url": "https://www.zhihu.com/answer/583063178",
+      "summary": "把 PCA 中的坐标旋转解释为矩阵表示的线性变换。"
+    },
+    {
+      "title": "迹的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/586836350",
+      "summary": "把换基下的共轭变换与内蕴线性变换联系起来。"
+    },
+    {
+      "title": "如何直观的理解线性代数中伴随算子（矩阵） 、自伴算子（矩阵）、正规算子（矩阵）？",
+      "url": "https://www.zhihu.com/answer/589463797",
+      "summary": "正文把矩阵运算对应到有限维线性算子。"
+    },
+    {
+      "title": "里斯表示定理？",
+      "url": "https://www.zhihu.com/answer/593244290",
+      "summary": "正文用向量空间和算子解释线性泛函。"
+    },
+    {
+      "title": "一个空间中勾股定理不存在，而变成了 c^4=a^4+b^4，甚至有更高的指数，那么这是一种什么空间？",
+      "url": "https://www.zhihu.com/answer/593625315",
+      "summary": "正文计算旋转在线性空间中对范数的影响。"
+    },
+    {
+      "title": "洛伦兹变换是如何导出的呢？",
+      "url": "https://www.zhihu.com/answer/594534126",
+      "summary": "正文从线性变换与时空坐标推导洛伦兹变换。"
+    },
+    {
+      "title": "为什么傅里叶变换可以把时域信号变为频域信号？",
+      "url": "https://www.zhihu.com/answer/601588854",
+      "summary": "正文类比线性代数的坐标变换解释傅里叶变换。"
+    },
+    {
+      "title": "有没有较完善高效的视锥剔除算法？",
+      "url": "https://www.zhihu.com/answer/614248155",
+      "summary": "正文用矩阵完成坐标变换。"
+    },
+    {
+      "title": "(lnx)'＝1/x，为什么 (ln3)'≠1/3？",
+      "url": "https://www.zhihu.com/answer/623134253",
+      "summary": "把求导、代入和常值嵌入都表述为线性映射并讨论复合。"
+    },
+    {
+      "title": "矩阵的实际应用有哪些？",
+      "url": "https://www.zhihu.com/answer/630264303",
+      "summary": "以坐标系过渡说明矩阵乘法表示解析几何变换。"
+    },
+    {
+      "title": "正交矩阵是旋转矩阵吗？有文档证明了旋转矩阵是正交矩阵，那反过来，正交矩阵都是旋转矩阵吗？",
+      "url": "https://www.zhihu.com/answer/638946850",
+      "summary": "把矩阵左乘解释为坐标系的旋转或镜面反射。"
+    },
+    {
+      "title": "雅可比行列式该如何理解?",
+      "url": "https://www.zhihu.com/answer/639295875",
+      "summary": "把雅可比矩阵解释为局部线性映射及切空间基底。"
+    },
+    {
+      "title": "为什么会有 i 这一虚数？可以求出 i 的值吗？",
+      "url": "https://www.zhihu.com/answer/649029143",
+      "summary": "把乘以复数解释为模长缩放与幅角旋转的线性变换。"
+    },
+    {
+      "title": "为什么我们要区分相互同构的对象？如何回避这个问题？",
+      "url": "https://www.zhihu.com/answer/657284601",
+      "summary": "以直和分解中的典范映射说明线性结构。"
+    },
+    {
+      "title": "矩阵的2范数与F范数有什么区别？",
+      "url": "https://www.zhihu.com/answer/665832998",
+      "summary": "把二范数解释为线性变换对向量长度的最大放大率。"
+    },
+    {
+      "title": "为什么要引入“若尔当标准型”？",
+      "url": "https://www.zhihu.com/answer/666039817",
+      "summary": "把对角化与若尔当化解释为矩阵标准化变换。"
+    },
+    {
+      "title": "《线性代数应该这样学》（《Linear Algebra Done Right》）这本书到底好在哪儿？",
+      "url": "https://www.zhihu.com/answer/666804796",
+      "summary": "指出线性映射而非机械矩阵计算是线性代数主体。"
+    },
+    {
+      "title": "如何证明AB的转置等于B的转置乘以A的转置？",
+      "url": "https://www.zhihu.com/answer/681637100",
+      "summary": "把矩阵乘向量解释为列向量的线性组合与映射。"
+    },
+    {
+      "title": "矩阵和线性变换怎么理解？",
+      "url": "https://www.zhihu.com/answer/687634403",
+      "summary": "定义线性变换并解释矩阵如何作用于向量空间。"
+    },
+    {
+      "title": "线性代数为什么学校老师讲得那么复杂，考研老师却讲得如此精辟？",
+      "url": "https://www.zhihu.com/answer/689759141",
+      "summary": "把线性代数主线概括为坐标、空间、映射和变换。"
+    },
+    {
+      "title": "数学上为何要定义笛卡尔乘积？用来解决哪些问题？",
+      "url": "https://www.zhihu.com/answer/690763446",
+      "summary": "说明线性算子是向量空间之间的映射。"
+    },
+    {
+      "title": "线性代数中，向量（vector）为什么用列（column）而不是行（row）来表示？",
+      "url": "https://www.zhihu.com/answer/690961518",
+      "summary": "把矩阵解释为作用于向量的线性算子。"
+    },
+    {
+      "title": "线性代数怎么学啊，好难啊。？",
+      "url": "https://www.zhihu.com/answer/695067704",
+      "summary": "由向量空间、核与像系统解释线性映射。"
+    },
+    {
+      "title": "怎么评价北大版的《高等代数》？",
+      "url": "https://www.zhihu.com/answer/710316680",
+      "summary": "正文以幂零线性变换解释Jordan标准形。"
+    },
+    {
+      "title": "矩阵乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/727385709",
+      "summary": "把矩阵理解为线性映射和运动描述。"
+    },
+    {
+      "title": "矩阵乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/728075625",
+      "summary": "把矩阵作用解释为线性变换。"
+    },
+    {
+      "title": "如何直观理解矩阵和线性代数？",
+      "url": "https://www.zhihu.com/answer/734162947",
+      "summary": "把矩阵解释为线性变换的表示及其复合。"
+    },
+    {
+      "title": "奇异值的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/740565206",
+      "summary": "把SVD解释为不同维空间间的线性变换。"
+    },
+    {
+      "title": "为什么相似矩阵的特征值相同，但是特征向量不一定相同?",
+      "url": "https://www.zhihu.com/answer/743447271",
+      "summary": "用换基解释相似矩阵。"
+    },
+    {
+      "title": "直角坐标系Oxy内的平移变换能写成二阶矩阵与平面向量乘积的形式吗？",
+      "url": "https://www.zhihu.com/answer/753898853",
+      "summary": "把平移写成齐次坐标下的仿射变换。"
+    },
+    {
+      "title": "矩阵乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/775628907",
+      "summary": "把矩阵乘法解释为线性变换与坐标转换。"
+    },
+    {
+      "title": "如何理解统计学中「自由度」这个概念？",
+      "url": "https://www.zhihu.com/answer/784045148",
+      "summary": "把最小二乘拟合解释为线性投影。"
+    },
+    {
+      "title": "如何理解线性代数？",
+      "url": "https://www.zhihu.com/answer/785751751",
+      "summary": "把矩阵作用解释为线性变换。"
+    },
+    {
+      "title": "我觉得考研线代很难，该怎么办？",
+      "url": "https://www.zhihu.com/answer/785796491",
+      "summary": "以坐标系变化解释矩阵的线性变换。"
+    },
+    {
+      "title": "用配方法化二次型为标准型时候，配方有什么技巧吗？有些人题需要花费半小时以上。然后试卷做不完了？",
+      "url": "https://www.zhihu.com/answer/794489332",
+      "summary": "用变量替换消去交叉项并改变坐标。"
+    },
+    {
+      "title": "奇异值的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/801023732",
+      "summary": "正文把 SVD 解释为旋转、缩放与投影组成的线性变换分解。"
+    },
+    {
+      "title": "线性代数对于计算机专业的作用是什么呢？",
+      "url": "https://www.zhihu.com/answer/830454911",
+      "summary": "明确把矩阵理解为一种变换。"
+    },
+    {
+      "title": "我想问问，怎么通俗易懂的解释一下线性代数中基础解系的概念？",
+      "url": "https://www.zhihu.com/answer/848333353",
+      "summary": "把求解理解为线性空间及其子空间。"
+    },
+    {
+      "title": "如何通俗的解释希尔伯特空间，它具有特别的性质么，如果有是什么？",
+      "url": "https://www.zhihu.com/answer/854736301",
+      "summary": "正文从函数空间之间的映射说明线性算子，并举出矩阵和傅里叶变换。"
+    },
+    {
+      "title": "为什么A的行列式不等于0  A满秩?",
+      "url": "https://www.zhihu.com/answer/856530761",
+      "summary": "把矩阵乘法解释为保持或降低维数的线性变换。"
+    },
+    {
+      "title": "请问伴随矩阵在几何空间的意义是什么？",
+      "url": "https://www.zhihu.com/answer/856925715",
+      "summary": "把矩阵及其伴随理解为空间压缩与复原变换。"
+    },
+    {
+      "title": "ABC 均为n阶矩阵 ab=c 且b可逆，为什么有c的列向量组与a的列向量组等价？",
+      "url": "https://www.zhihu.com/answer/857860508",
+      "summary": "说明可逆矩阵使两组列向量可互相线性表示。"
+    },
+    {
+      "title": "怎么证明 一个线性变换是单射的充分必要条件是它是满射？",
+      "url": "https://www.zhihu.com/answer/879417836",
+      "summary": "用核、像和维数定理证明有限维线性变换的单射满射等价。"
+    },
+    {
+      "title": "线性代数对于计算机专业的作用是什么呢？",
+      "url": "https://www.zhihu.com/answer/884065709",
+      "summary": "说明图形平移、旋转、拉伸等线性变换可由矩阵实现。"
+    },
+    {
+      "title": "在求向量组的极大线性无关组时，为什么要将向量竖着放，然后对所构成的矩阵进行初等行变换？",
+      "url": "https://www.zhihu.com/answer/891810162",
+      "summary": "把线性相关性置于向量空间与变换下分析。"
+    },
+    {
+      "title": "不同方向的角速度可以向量叠加吗？",
+      "url": "https://www.zhihu.com/answer/893878739",
+      "summary": "正文用旋转矩阵描述三维旋转并推导无穷小旋转，实质讲解线性变换。"
+    },
+    {
+      "title": "为什么只有实对称矩阵可以用正交矩阵对角化？",
+      "url": "https://www.zhihu.com/answer/894735795",
+      "summary": "正文把左乘矩阵解释为对空间的剪切、旋转和伸缩，并讨论换基后的变换，属于线性变换。"
+    },
+    {
+      "title": "线性代数到底应该怎么学？",
+      "url": "https://www.zhihu.com/answer/907015513",
+      "summary": "正文把矩阵解释为线性变换，并用伸缩、旋转、投影等例子说明变换效果。"
+    },
+    {
+      "title": "如何理解压缩感知(compressive sensing)？",
+      "url": "https://www.zhihu.com/answer/934401746",
+      "summary": "正文把压缩感知表述为测量矩阵作用下的线性逆问题并讨论零空间。"
+    },
+    {
+      "title": "线性代数有什么用？学习线性代数的意义在哪？",
+      "url": "https://www.zhihu.com/answer/941855650",
+      "summary": "正文从线性问题、向量空间和矩阵函数系统解释线性变换的用途。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/948578640",
+      "summary": "正文通过线性泛函、基与坐标解释向量空间的对偶空间及自然配对。"
+    },
+    {
+      "title": "矩阵的可交换性有什么几何意义吗？",
+      "url": "https://www.zhihu.com/answer/951716285",
+      "summary": "正文把矩阵视作线性变换，解释不同作用次序得到同一椭球的几何意义。"
+    },
+    {
+      "title": "如何理解线性系统理论的能控性和能观性？",
+      "url": "https://www.zhihu.com/answer/962195744",
+      "summary": "正文用矩阵对向量的拉伸、旋转解释系统能控性。"
+    },
+    {
+      "title": "线性代数有什么用？学习线性代数的意义在哪？",
+      "url": "https://www.zhihu.com/answer/998543755",
+      "summary": "正文实质解释透视、旋转和平移的线性变换表示。"
+    },
+    {
+      "title": "洛伦兹变换为什么是线性的，如何推导出它是线性的？",
+      "url": "https://www.zhihu.com/answer/1017422840",
+      "summary": "正文从惯性系、空间均匀性和各向同性完整推导线性坐标变换。"
+    },
+    {
+      "title": "如何直观理解矩阵和线性代数？",
+      "url": "https://www.zhihu.com/answer/1023650088",
+      "summary": "正文从映射视角解释矩阵乘法和线性变换。"
+    },
+    {
+      "title": "大一数学系学生学习高等代数感到困难怎么办？",
+      "url": "https://www.zhihu.com/answer/1064767649",
+      "summary": "正文把线性映射在给定基下表示为矩阵，并解释可逆性。"
+    },
+    {
+      "title": "为什么向量的数量积公式是 a·b＝|a|·|b|·cosθ？",
+      "url": "https://www.zhihu.com/answer/1084731446",
+      "summary": "正文用可加性和数乘性解释该投影变换的线性性质。"
+    },
+    {
+      "title": "如何看待阿里巴巴全球数学竞赛第二轮题目?",
+      "url": "https://www.zhihu.com/answer/1100396071",
+      "summary": "正文用相似线性算子、特征值和特征向量解释不动点。"
+    },
+    {
+      "title": "为什么四则运算的运用这么广泛？",
+      "url": "https://www.zhihu.com/answer/1106316926",
+      "summary": "正文从保持线性结构的同态解释线性映射。"
+    },
+    {
+      "title": "斜椭圆的表达式是什么啊，求大佬告知。必粉。？",
+      "url": "https://www.zhihu.com/answer/1116489491",
+      "summary": "正文用旋转矩阵表示坐标线性变换并代入椭圆方程。"
+    },
+    {
+      "title": "MATLAB在机器人上怎么应用?",
+      "url": "https://www.zhihu.com/answer/1121254963",
+      "summary": "正文解释坐标变换矩阵如何描述机器人运动。"
+    },
+    {
+      "title": "如何衡量两个「任意数据集」间的相似度？",
+      "url": "https://www.zhihu.com/answer/1139918449",
+      "summary": "正文用左右线性变换定义并优化数据集相似度。"
+    },
+    {
+      "title": "笛卡尔积和张量积有什么区别？",
+      "url": "https://www.zhihu.com/answer/1141642584",
+      "summary": "正文用万有性质把双线性映射线性化并证明张量积唯一性。"
+    },
+    {
+      "title": "有什么理论复杂但是实现简单的算法？",
+      "url": "https://www.zhihu.com/answer/1148832134",
+      "summary": "正文解释从高维到低维的随机线性投影。"
+    },
+    {
+      "title": "SLAM的滑动窗口算法中，在边缘化时，高斯牛顿法的信息矩阵为什么是 优化变量协方差的逆？",
+      "url": "https://www.zhihu.com/answer/1166821333",
+      "summary": "正文用矩阵线性变换传播高斯变量及协方差。"
+    },
+    {
+      "title": "怎样理解广义相对论中的张量有关的这套符号体系？",
+      "url": "https://www.zhihu.com/answer/1167706914",
+      "summary": "正文从基变换和坐标变换解释张量的线性变换规律。"
+    },
+    {
+      "title": "汤家凤的线代课真的不如李永乐吗？",
+      "url": "https://www.zhihu.com/answer/1182319237",
+      "summary": "正文明确解释相似矩阵与线性变换的关系。"
+    },
+    {
+      "title": "如何直观理解特征值与特征向量的意义？",
+      "url": "https://www.zhihu.com/answer/1207566352",
+      "summary": "正文从不变方向解释线性变换。"
+    },
+    {
+      "title": "机器人学中旋量和D-H参数法孰优孰劣？",
+      "url": "https://www.zhihu.com/answer/1226129460",
+      "summary": "正文以齐次变换矩阵和指数映射比较机器人运动学表示。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/1227020831",
+      "summary": "正文以张量幂技巧把高维估计取根并消除常数。"
+    },
+    {
+      "title": "为什么部分大一学生认为线性代数听不懂？",
+      "url": "https://www.zhihu.com/answer/1269842323",
+      "summary": "正文指出线性空间与线性变换应是线性代数核心。"
+    },
+    {
+      "title": "如何通俗理解矩阵的秩？",
+      "url": "https://www.zhihu.com/answer/1285935910",
+      "summary": "正文把矩阵乘列向量解释为线性映射并表示像空间维数。"
+    },
+    {
+      "title": "为什么部分大一学生认为线性代数听不懂？",
+      "url": "https://www.zhihu.com/answer/1292237694",
+      "summary": "正文用线性映射解释矩阵和矩阵乘法。"
+    },
+    {
+      "title": "如何用线性代数理解量子力学？",
+      "url": "https://www.zhihu.com/answer/1299881952",
+      "summary": "正文用线性空间和线性变换解释量子力学。"
+    },
+    {
+      "title": "如何评价某留学生说“亚洲人数学能力其实很差”的vlog？",
+      "url": "https://www.zhihu.com/answer/1324505997",
+      "summary": "正文直接讲解“线性变换”相关内容。"
+    },
+    {
+      "title": "如何理解线性代数？",
+      "url": "https://www.zhihu.com/answer/1324710119",
+      "summary": "正文直接讲解“线性变换”相关内容。"
+    },
+    {
+      "title": "为什么正交矩阵的转置矩阵与逆矩阵相等？",
+      "url": "https://www.zhihu.com/answer/1332249198",
+      "summary": "正文从保持模长的线性变换解释正交矩阵。"
+    },
+    {
+      "title": "我想问问，怎么通俗易懂的解释一下线性代数中基础解系的概念？",
+      "url": "https://www.zhihu.com/answer/1356861472",
+      "summary": "正文用奇异值分解和坐标变换说明基础解系的表示。"
+    },
+    {
+      "title": "矩阵等价与向量组等价有什么区别？假如矩阵等价再细分为矩阵行等价和矩阵列等价呢？",
+      "url": "https://www.zhihu.com/answer/1357035521",
+      "summary": "正文用按行或按列分块把向量组与矩阵联系起来。"
+    },
+    {
+      "title": "既然现实世界是非线性的，那么线性方程和线性规划能解决的问题岂非太少？",
+      "url": "https://www.zhihu.com/answer/1388637338",
+      "summary": "正文解释线性化为何能保留非线性系统的重要性质。"
+    },
+    {
+      "title": "为什么directX里表示三维坐标要建一个4*4的矩阵？",
+      "url": "https://www.zhihu.com/answer/1398427077",
+      "summary": "正文解释线性变换的几何性质。"
+    },
+    {
+      "title": "为什么要引入矩阵这个数学工具？它能简化哪些不用矩阵会复杂的问题？",
+      "url": "https://www.zhihu.com/answer/1408186794",
+      "summary": "正文用旋转矩阵解释线性变换。"
+    },
+    {
+      "title": "为什么要引入矩阵这个数学工具？它能简化哪些不用矩阵会复杂的问题？",
+      "url": "https://www.zhihu.com/answer/1411289392",
+      "summary": "正文从线性变换在基下的表示解释矩阵定义及矩阵乘法。"
+    },
+    {
+      "title": "如何理解矩阵相乘的几何意义或现实意义？",
+      "url": "https://www.zhihu.com/answer/1438946275",
+      "summary": "正文直接讲解或推导“线性变换”相关内容。"
+    },
+    {
+      "title": "人们是如何想到奇异值分解的？",
+      "url": "https://www.zhihu.com/answer/1447844961",
+      "summary": "正文直接讲解或推导“线性变换”相关内容。"
+    },
+    {
+      "title": "矩阵的转置的意义是什么？",
+      "url": "https://www.zhihu.com/answer/1461112350",
+      "summary": "正文从对偶映射解释矩阵转置这一线性映射。"
+    },
+    {
+      "title": "atiyah singer 指标定理的学习路径是怎样的？",
+      "url": "https://www.zhihu.com/answer/1467527776",
+      "summary": "正文从线性映射和维数定理直观解释指标。"
+    },
+    {
+      "title": "相似的矩阵一定合同吗？",
+      "url": "https://www.zhihu.com/answer/1470176924",
+      "summary": "正文把相似矩阵解释为同一线性变换在不同基下的表示。"
+    },
+    {
+      "title": "为什么矩阵能用来表示角的旋转？",
+      "url": "https://www.zhihu.com/answer/1474710412",
+      "summary": "正文把旋转解释为平面上的线性或仿射变换。"
+    },
+    {
+      "title": "如何理解矩阵相乘的几何意义或现实意义？",
+      "url": "https://www.zhihu.com/answer/1481012022",
+      "summary": "正文直接给出与「线性变换」相关的解释、推导或应用。"
+    },
+    {
+      "title": "哈密尔顿-凯莱定理的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1492261319",
+      "summary": "正文直接给出与「线性变换」相关的解释、推导或应用。"
+    },
+    {
+      "title": "如何理解矩阵相乘的几何意义或现实意义？",
+      "url": "https://www.zhihu.com/answer/1502266262",
+      "summary": "正文明确指出矩阵只是线性映射的表示工具。"
+    },
+    {
+      "title": "如何形象地理解矩阵的相似与合同？",
+      "url": "https://www.zhihu.com/answer/1516344394",
+      "summary": "正文解释相似矩阵是同一线性变换在不同基下的表示。"
+    },
+    {
+      "title": "为什么矩阵内积的定义包含一个迹运算？",
+      "url": "https://www.zhihu.com/answer/1521521561",
+      "summary": "正文把矩阵内积类比于向量内积。"
+    },
+    {
+      "title": "矩阵等价与向量组等价有什么区别？假如矩阵等价再细分为矩阵行等价和矩阵列等价呢？",
+      "url": "https://www.zhihu.com/answer/1521526999",
+      "summary": "正文区分矩阵作为映射与向量组两种视角。"
+    },
+    {
+      "title": "两个矩阵等价的充分条件与必要条件是什么？由两个矩阵等价能推出什么？",
+      "url": "https://www.zhihu.com/answer/1547293727",
+      "summary": "正文通过满秩线性变换和子空间投影解释矩阵等价关系。"
+    },
+    {
+      "title": "怎么评价北大版的《高等代数》？",
+      "url": "https://www.zhihu.com/answer/1567307493",
+      "summary": "正文讨论线性变换作为线性代数核心主题。"
+    },
+    {
+      "title": "什么叫正交变换?为什么要正交变换？",
+      "url": "https://www.zhihu.com/answer/1585251213",
+      "summary": "正文说明正交变换是保持长度、内积与夹角的线性变换。"
+    },
+    {
+      "title": "怎么解释「正定矩阵」？",
+      "url": "https://www.zhihu.com/answer/1609935584",
+      "summary": "正文直接讨论或应用该叶节点主题（线性变换）。"
+    },
+    {
+      "title": "谁来讲讲线性代数的历史？",
+      "url": "https://www.zhihu.com/answer/1616127314",
+      "summary": "正文讲述线性代数由数组和矩阵抽象为线性变换。"
+    },
+    {
+      "title": "过渡矩阵的定义是什么?",
+      "url": "https://www.zhihu.com/answer/1624783147",
+      "summary": "正文从两组基的线性表示定义基变换。"
+    },
+    {
+      "title": "如何理解矩阵相乘的几何意义或现实意义？",
+      "url": "https://www.zhihu.com/answer/1633506906",
+      "summary": "正文用坐标变换和线性映射解释矩阵乘法。"
+    },
+    {
+      "title": "哈密尔顿-凯莱定理的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1640345494",
+      "summary": "正文用线性变换的不变子空间链给出定理本质。"
+    },
+    {
+      "title": "为什么两个相似矩阵的特征值相同？",
+      "url": "https://www.zhihu.com/answer/1663504272",
+      "summary": "正文用相似变换解释特征向量的对应关系。"
+    },
+    {
+      "title": "获得多个旋转矩阵，如何获得平均旋转？",
+      "url": "https://www.zhihu.com/answer/1683258444",
+      "summary": "正文在旋转矩阵空间上求平均，涉及矩阵变换和距离。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1715560331",
+      "summary": "正文用旋转和拉伸说明线性变换。"
+    },
+    {
+      "title": "什么是张量 (tensor)？",
+      "url": "https://www.zhihu.com/answer/1732557045",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "怎么通俗地理解张量？",
+      "url": "https://www.zhihu.com/answer/1736012174",
+      "summary": "正文直接讨论或推导「线性变换」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "有哪些数学教材是你深恶痛绝、绝不推荐的？",
+      "url": "https://www.zhihu.com/answer/1743055189",
+      "summary": "正文直接讨论或推导「线性变换」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "矩阵乘法不满足交换律的现实意义是什么？",
+      "url": "https://www.zhihu.com/answer/1784322165",
+      "summary": "正文把旋转操作解释为线性变换及其矩阵表示。"
+    },
+    {
+      "title": "如何看待全国高中数学教材的内容调整？",
+      "url": "https://www.zhihu.com/answer/1785246735",
+      "summary": "正文以线性变换说明映射语言对线性代数的必要性。"
+    },
+    {
+      "title": "如果你来讲物理类《线性代数》课程，你会如何设计？",
+      "url": "https://www.zhihu.com/answer/1790888257",
+      "summary": "正文强调用线性映射统一理解物理对象。"
+    },
+    {
+      "title": "如何通俗理解矩阵左乘和右乘的区别？",
+      "url": "https://www.zhihu.com/answer/1795936185",
+      "summary": "正文把矩阵乘法解释为对向量的线性变换和列组合。"
+    },
+    {
+      "title": "矩阵是线性代数的核心吗？我是否可以这样理解线性代数？",
+      "url": "https://www.zhihu.com/answer/1805794712",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "如何学习高等代数？高等代数注重定理证明吗？学习数分需要会各种证明，高代也这样吗？高代注重计算吗？",
+      "url": "https://www.zhihu.com/answer/1805883039",
+      "summary": "正文实质讨论了线性算子的不变子空间与正规算子，直接对应线性变换分支。"
+    },
+    {
+      "title": "为啥得线性无关才能对角化，从几何意义上怎么理解，多谢大神?",
+      "url": "https://www.zhihu.com/answer/1809589693",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "一直不解，为什么如此定义矩阵的乘法，为什么这样一种怪异的乘法规则却能够在实践中发挥如此巨大的功效？",
+      "url": "https://www.zhihu.com/answer/1810814935",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "矩阵合同的本质是什么，在坐标系或者基中？",
+      "url": "https://www.zhihu.com/answer/1813248091",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1817377445",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "线性代数向量空间要怎么理解？",
+      "url": "https://www.zhihu.com/answer/1818018746",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "如何直观的解释像空间与核空间？线性映射和矩阵？",
+      "url": "https://www.zhihu.com/answer/1818763024",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "矩阵相似的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/1820983970",
+      "summary": "正文从基底与坐标表示出发解释线性变换的矩阵为何依赖基。"
+    },
+    {
+      "title": "矩阵和向量组和线性方程组之间的关系是什么？",
+      "url": "https://www.zhihu.com/answer/1823516700",
+      "summary": "正文从空间映射和矩阵秩解释线性变换与方程组解的关系。"
+    },
+    {
+      "title": "行列式和矩阵的意义到底是什么？",
+      "url": "https://www.zhihu.com/answer/1841865903",
+      "summary": "正文把矩阵乘法解释为若干向量按系数组合得到新向量的线性变换。"
+    },
+    {
+      "title": "为什么部分大一学生认为线性代数听不懂？",
+      "url": "https://www.zhihu.com/answer/1845724935",
+      "summary": "正文以向量空间和线性变换说明线性代数的概念主线。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1850257823",
+      "summary": "正文把矩阵解释为空间之间的线性映射。"
+    },
+    {
+      "title": "为什么要研究矩阵的特征值和特征向量？",
+      "url": "https://www.zhihu.com/answer/1857241733",
+      "summary": "正文把矩阵视为状态之间的线性变换。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/1861083476",
+      "summary": "正文把高阶微分定义在切空间之间的线性映射上。"
+    },
+    {
+      "title": "如何理解几何重数和代数重数？",
+      "url": "https://www.zhihu.com/answer/1876727913",
+      "summary": "正文把几何重数解释为特征向量解空间维数并联系线性变换对角化。"
+    },
+    {
+      "title": "能不能通俗地解释一下线性空间？",
+      "url": "https://www.zhihu.com/answer/1876771900",
+      "summary": "正文从向量加法和标量乘法公理通俗解释线性空间及子空间。"
+    },
+    {
+      "title": "微分方程与空间有何关系？",
+      "url": "https://www.zhihu.com/answer/1877957587",
+      "summary": "正文把非齐次方程解空间解释为齐次解空间经平移得到的仿射变换。"
+    },
+    {
+      "title": "量子力学的Dirac符号系统优越性在哪，为什么不使用张量作为量子力学的数学语言基础？",
+      "url": "https://www.zhihu.com/answer/1878660010",
+      "summary": "正文把配边和态矢空间之间的关系解释为线性映射。"
+    },
+    {
+      "title": "为什么矩阵左乘是行变换，右乘是列变换?",
+      "url": "https://www.zhihu.com/answer/1880462559",
+      "summary": "正文从列向量的线性组合解释矩阵左右乘对应行变换和列变换。"
+    },
+    {
+      "title": "如何将高阶线性微分方程与线性代数联系起来？",
+      "url": "https://www.zhihu.com/answer/1881441533",
+      "summary": "正文把微分算符及其线性组合解释为函数空间上的线性变换。"
+    },
+    {
+      "title": "如何将高阶线性微分方程与线性代数联系起来？",
+      "url": "https://www.zhihu.com/answer/1885678187",
+      "summary": "正文把微分方程状态写成向量并由矩阵线性变换描述演化。"
+    },
+    {
+      "title": "《线性代数应该这样学》（《Linear Algebra Done Right》）这本书到底好在哪儿？",
+      "url": "https://www.zhihu.com/answer/1886414383",
+      "summary": "正文强调该书在线性空间舞台上研究线性映射。"
+    },
+    {
+      "title": "洛伦兹变换为什么是线性的，如何推导出它是线性的？",
+      "url": "https://www.zhihu.com/answer/1889380524",
+      "summary": "正文由时空均匀性推出连续参考系变换为仿射并讨论线性化。"
+    },
+    {
+      "title": "为什么三体中歌者文明使用二向箔而不是四向箔？",
+      "url": "https://www.zhihu.com/answer/1900247085",
+      "summary": "正文用矩阵作用说明三维球体的缩放和降维变换。"
+    },
+    {
+      "title": "向量组等价和矩阵等价的本质区别是什么？",
+      "url": "https://www.zhihu.com/answer/1906955585",
+      "summary": "正文把向量组的相互表示写成可逆线性变换。"
+    },
+    {
+      "title": "如何理解左特征向量与右特征向量？",
+      "url": "https://www.zhihu.com/answer/1910151083",
+      "summary": "正文把矩阵乘法解释为基变换所诱导的线性变换。"
+    },
+    {
+      "title": "这个代数怎么去想呢？",
+      "url": "https://www.zhihu.com/answer/1921067991",
+      "summary": "正文直接讨论并支撑「线性变换」相关内容。"
+    },
+    {
+      "title": "矩阵的转置的意义是什么？",
+      "url": "https://www.zhihu.com/answer/1936553516",
+      "summary": "正文直接讨论并支撑「线性变换」相关内容。"
+    },
+    {
+      "title": "什么叫正交变换?为什么要正交变换？",
+      "url": "https://www.zhihu.com/answer/1948791132",
+      "summary": "正文把正交变换作为保持长度、内积和夹角的线性变换。"
+    },
+    {
+      "title": "有谁能告诉我什么是线性，什么是非线性？",
+      "url": "https://www.zhihu.com/answer/1972487588",
+      "summary": "正文用要素相互作用与否区分线性与非线性。"
+    },
+    {
+      "title": "如何理解张量积的泛性质？",
+      "url": "https://www.zhihu.com/answer/1976754163",
+      "summary": "正文从线性空间与双线性映射解释张量积构造。"
+    },
+    {
+      "title": "协变张量和逆变张量有何区别？仅仅是上下标的区别吗？",
+      "url": "https://www.zhihu.com/answer/1985602706",
+      "summary": "正文从基变换和分量变换解释协变、逆变。"
+    },
+    {
+      "title": "如何评价【LGR-087】洛谷 7 月月赛？",
+      "url": "https://www.zhihu.com/answer/1998538740",
+      "summary": "正文用F_2上的向量空间和线性组合完成证明。"
+    },
+    {
+      "title": "厄米算符A和酉算符S存在一一对应关系S=exp(iA)，这个关系意味着什么？",
+      "url": "https://www.zhihu.com/answer/2021876735",
+      "summary": "正文把有限维线性算符视为矩阵并研究其指数。"
+    },
+    {
+      "title": "函数 y=x² 的图像绕原点顺时针旋转 45° 后，对应的表达式是什么？",
+      "url": "https://www.zhihu.com/answer/2037406500",
+      "summary": "正文把图像旋转写成线性变换。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2079759458",
+      "summary": "正文用3D图形中的旋转、缩放、平移解释矩阵作为线性变换。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2080397128",
+      "summary": "正文解释矩阵与线性空间上的线性变换之间的对应。"
+    },
+    {
+      "title": "如何证明r(AB)大于等于r(A)+r(B)-n？",
+      "url": "https://www.zhihu.com/answer/2092513415",
+      "summary": "正文把矩阵乘积视为复合线性变换并用核空间分析秩。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/2110009942",
+      "summary": "正文系统解释对偶空间、线性函数和自然同构。"
+    },
+    {
+      "title": "如何理解并区分线性空间、向量空间、矩阵空间这三个数学概念？",
+      "url": "https://www.zhihu.com/answer/2110144459",
+      "summary": "正文把零空间解释为矩阵映射压缩到零的向量空间。"
+    },
+    {
+      "title": "如何证明莫比乌斯反演？",
+      "url": "https://www.zhihu.com/answer/2114743812",
+      "summary": "正文把整除偏序上的反演写成矩阵和张量积结构。"
+    },
+    {
+      "title": "请问这个高代题怎么证明呢？",
+      "url": "https://www.zhihu.com/answer/2116743486",
+      "summary": "正文围绕幂等矩阵的线性变换与对称性展开证明。"
+    },
+    {
+      "title": "怎么巧记施密特正交公式？如图。？",
+      "url": "https://www.zhihu.com/answer/2124439346",
+      "summary": "正文用线性无关向量、线性组合和变换步骤解释正交化过程。"
+    },
+    {
+      "title": "如何理解矩阵里面的“Range Space”和“Nullspace”概念？",
+      "url": "https://www.zhihu.com/answer/2124819215",
+      "summary": "正文把矩阵乘法视作列向量的线性组合。"
+    },
+    {
+      "title": "线性变换与基变换是什么关系？是一个矩阵的两种理解角度么？",
+      "url": "https://www.zhihu.com/answer/2125937040",
+      "summary": "正文系统区分基变换与线性变换并说明过渡矩阵。"
+    },
+    {
+      "title": "为什么说用矩阵定义线性映射是一个糟糕的观点？",
+      "url": "https://www.zhihu.com/answer/2126120289",
+      "summary": "正文比较矩阵表示与基无关的线性映射观点。"
+    },
+    {
+      "title": "为什么要定义张量积?",
+      "url": "https://www.zhihu.com/answer/2127894944",
+      "summary": "正文从双线性映射的等价类与泛性质构造张量积，并说明其线性映射作用。"
+    },
+    {
+      "title": "为什么说用矩阵定义线性映射是一个糟糕的观点？",
+      "url": "https://www.zhihu.com/answer/2132010652",
+      "summary": "正文反对把矩阵当作线性映射的定义，强调映射本身不依赖基。"
+    },
+    {
+      "title": "有哪些值得推荐的《线性代数》入门书籍？",
+      "url": "https://www.zhihu.com/answer/2141257538",
+      "summary": "正文比较矩阵计算与线性变换的几何观点，并据此评价教材。"
+    },
+    {
+      "title": "线性代数到底是什么？",
+      "url": "https://www.zhihu.com/answer/2146712028",
+      "summary": "正文把线性代数概括为研究矩阵对向量所表示的线性变换关系。"
+    },
+    {
+      "title": "秩相等的两个向量组，加什么条件可推出等价?",
+      "url": "https://www.zhihu.com/answer/2157271515",
+      "summary": "正文用线性表出和线性空间解释向量组等价。"
+    },
+    {
+      "title": "n+1个n维向量必线性相关怎么理解？",
+      "url": "https://www.zhihu.com/answer/2161670664",
+      "summary": "正文用线性表示解释 n+1 个 n 维向量必相关。"
+    },
+    {
+      "title": "为什么SLAM中很多使用四元数而不使用李代数？优势是什么？",
+      "url": "https://www.zhihu.com/answer/2186309129",
+      "summary": "正文用旋转矩阵、四元数乘法和正则化比较不同旋转线性表示。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2191984453",
+      "summary": "正文用伸缩、旋转和投影矩阵说明线性映射的几何作用。"
+    },
+    {
+      "title": "怎么巧记施密特正交公式？如图。？",
+      "url": "https://www.zhihu.com/answer/2204004842",
+      "summary": "正文用向量组、张成空间和线性组合解释正交基的构造。"
+    },
+    {
+      "title": "线代大佬救救我这个笨蛋，解向量和基础解系的解向量到底是什么？",
+      "url": "https://www.zhihu.com/answer/2206805872",
+      "summary": "正文把基础解系理解为解空间的基向量组。"
+    },
+    {
+      "title": "随着时间推移，国内移民潮会渐渐消失吗？会出现移民回流潮吗？",
+      "url": "https://www.zhihu.com/answer/2234038464",
+      "summary": "正文以线性变换和基下的矩阵表示说明非奇异的等价条件。"
+    },
+    {
+      "title": "Gram-Schmidt 正交化多项式？",
+      "url": "https://www.zhihu.com/answer/2237122042",
+      "summary": "正文从向量空间的正交投影和线性组合说明降维映射。"
+    },
+    {
+      "title": "矩阵为什么能解方程？",
+      "url": "https://www.zhihu.com/answer/2245681481",
+      "summary": "正文把矩阵乘法解释为空间映射并分析逆映射。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/2260792391",
+      "summary": "正文把对偶空间解释为线性映射空间并讨论其与原空间的关系。"
+    },
+    {
+      "title": "如何优雅地学习线性代数？",
+      "url": "https://www.zhihu.com/answer/2266809743",
+      "summary": "正文用空间变换解释矩阵乘法。"
+    },
+    {
+      "title": "有哪些值得推荐的《线性代数》入门书籍？",
+      "url": "https://www.zhihu.com/answer/2268394489",
+      "summary": "正文用把矩阵看成作用于空间向量的函数来解释线性代数的几何意义。"
+    },
+    {
+      "title": "线性代数的发明过程和意义是什么？",
+      "url": "https://www.zhihu.com/answer/2280056839",
+      "summary": "正文把矩阵乘法解释为一组向量到新向量的线性组合过程。"
+    },
+    {
+      "title": "怎么在一个晚上搞定线性代数？",
+      "url": "https://www.zhihu.com/answer/2287034303",
+      "summary": "正文解释矩阵与线性变换之间的联系。"
+    },
+    {
+      "title": "听完曹则贤老师2021年的跨年科学演讲“云端脚下——从一元二次方程到规范场论”的你，作何感想？",
+      "url": "https://www.zhihu.com/answer/2296255408",
+      "summary": "正文辨析线性代数、四元数和 Clifford 代数的关系。"
+    },
+    {
+      "title": "不使用范畴论，如何刻画一个线性映射是“自然”的？",
+      "url": "https://www.zhihu.com/answer/2297940187",
+      "summary": "正文用对偶空间和线性同构解释自然映射。"
+    },
+    {
+      "title": "如何理解Transformer论文中的positional encoding，和三角函数有什么关系？",
+      "url": "https://www.zhihu.com/answer/2301693596",
+      "summary": "正文说明位置编码可通过旋转矩阵实现线性变换。"
+    },
+    {
+      "title": "如何理解矩阵的复数特征值和特征向量？",
+      "url": "https://www.zhihu.com/answer/2301707318",
+      "summary": "正文通过换基把原线性变换写成旋转矩阵乘以伸缩倍数。"
+    },
+    {
+      "title": "在四维或更高维的空间中，该如何定义转动？",
+      "url": "https://www.zhihu.com/answer/2309288700",
+      "summary": "正文用矩阵和正交阵表示线性旋转变换。"
+    },
+    {
+      "title": "在四维或更高维的空间中，该如何定义转动？",
+      "url": "https://www.zhihu.com/answer/2317649037",
+      "summary": "正文利用线性变换和旋转矩阵定义高维空间转动。"
+    },
+    {
+      "title": "请问傅里叶为什么会折磨电子类学生？",
+      "url": "https://www.zhihu.com/answer/2336226486",
+      "summary": "正文用线性代数的正交基展开解释傅里叶级数。"
+    },
+    {
+      "title": "工科生对数学的把握程度要多深？",
+      "url": "https://www.zhihu.com/answer/2336999192",
+      "summary": "正文直接介绍线性空间与线性映射是线性代数核心概念。"
+    },
+    {
+      "title": "矩阵乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2339303734",
+      "summary": "正文从齐次性与可加性说明矩阵乘法表示线性变换。"
+    },
+    {
+      "title": "协方差矩阵有什么意义？",
+      "url": "https://www.zhihu.com/answer/2345357497",
+      "summary": "正文把协方差解释为线性变换后的分布形状。"
+    },
+    {
+      "title": "旋转矩阵为何左乘是相对固定坐标系，右乘是相对当前坐标系？",
+      "url": "https://www.zhihu.com/answer/2354372507",
+      "summary": "正文推导全局与局部坐标系下旋转矩阵的左乘右乘规律。"
+    },
+    {
+      "title": "线性代数的发明过程和意义是什么？",
+      "url": "https://www.zhihu.com/answer/2354590149",
+      "summary": "正文解释线性变换保持直线并固定原点。"
+    },
+    {
+      "title": "旋转矩阵为何左乘是相对固定坐标系，右乘是相对当前坐标系？",
+      "url": "https://www.zhihu.com/answer/2354982075",
+      "summary": "正文用矩阵乘法顺序解释固定坐标系与当前坐标系中的复合变换。"
+    },
+    {
+      "title": "表示论都在做什么？几何表示论是什么？",
+      "url": "https://www.zhihu.com/answer/2365818346",
+      "summary": "正文把对象识别中的旋转翻转解释为线性变换，并用它引入表示论。"
+    },
+    {
+      "title": "工科生对数学的把握程度要多深？",
+      "url": "https://www.zhihu.com/answer/2368770095",
+      "summary": "正文用旋转矩阵、仿射变换和几何投影解释线性代数的应用背景。"
+    },
+    {
+      "title": "《线性代数应该这样学》（《Linear Algebra Done Right》）这本书到底好在哪儿？",
+      "url": "https://www.zhihu.com/answer/2369397362",
+      "summary": "正文用线性映射解释线性代数证明并获得更直观的结论。"
+    },
+    {
+      "title": "群论中第一同构定理和第二同构定理有哪些比较容易理解的应用？",
+      "url": "https://www.zhihu.com/answer/2380575434",
+      "summary": "正文把群同构定理应用到有限维向量空间的线性映射与维数关系。"
+    },
+    {
+      "title": "如何理解斯密特正交化法？",
+      "url": "https://www.zhihu.com/answer/2402822636",
+      "summary": "正文完整推导施密特正交化，并说明其通过投影构造正交基。"
+    },
+    {
+      "title": "线性代数究竟是什么？",
+      "url": "https://www.zhihu.com/answer/2442249161",
+      "summary": "正文用线性空间之间的映射解释矩阵为何成为研究线性代数的基本工具。"
+    },
+    {
+      "title": "群表示理论为什么主要研究特征标（矩阵的迹）而不是其他的一些不变量？",
+      "url": "https://www.zhihu.com/answer/2455249696",
+      "summary": "正文明确说明矩阵表示线性变换。"
+    },
+    {
+      "title": "如何评价 2022 阿里巴巴数学竞赛题目？",
+      "url": "https://www.zhihu.com/answer/2457683141",
+      "summary": "正文第 7 题明确构造反射线性变换并证明其性质。"
+    },
+    {
+      "title": "如何直观的理解线性代数中伴随算子（矩阵） 、自伴算子（矩阵）、正规算子（矩阵）？",
+      "url": "https://www.zhihu.com/answer/2480556059",
+      "summary": "用奇异值分解解释线性变换及其伴随在正交基上的旋转与拉伸作用。"
+    },
+    {
+      "title": "为什么部分大一学生认为线性代数听不懂？",
+      "url": "https://www.zhihu.com/answer/2486814941",
+      "summary": "把矩阵乘法理解为对空间的线性拉扯变换，并讨论复合变换。"
+    },
+    {
+      "title": "矩阵相似的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/2492228112",
+      "summary": "正文把相似矩阵解释为同一线性映射在不同基下的表达。"
+    },
+    {
+      "title": "听说线性代数可以在高中降维打击数列、圆锥曲线，具体是怎么应用的？",
+      "url": "https://www.zhihu.com/answer/2495825768",
+      "summary": "正文用线性空间、基和子空间的观点解释数列与圆锥曲线问题。"
+    },
+    {
+      "title": "协方差矩阵有什么意义？",
+      "url": "https://www.zhihu.com/answer/2501415844",
+      "summary": "正文讨论白数据经旋转和缩放线性变换后，协方差矩阵如何随变换改变。"
+    },
+    {
+      "title": "张量积（tensor product）有哪些有趣的性质和例子？",
+      "url": "https://www.zhihu.com/answer/2502305714",
+      "summary": "正文把矩阵迹的相似不变性转化为线性变换空间 End(V) 与张量空间同构的问题。"
+    },
+    {
+      "title": "这道解析几何题为什么这样写不给分？",
+      "url": "https://www.zhihu.com/answer/2506026330",
+      "summary": "正文讨论仿射变换及其逆变换对平面直线和三角形的作用。"
+    },
+    {
+      "title": "我们可不可以抛弃复数的概念，而代之以一个矢量？",
+      "url": "https://www.zhihu.com/answer/2530696244",
+      "summary": "把复导数视为旋转加数乘这一特殊线性变换，比较其与一般线性变换的差异。"
+    },
+    {
+      "title": "一直不解，为什么如此定义矩阵的乘法，为什么这样一种怪异的乘法规则却能够在实践中发挥如此巨大的功效？",
+      "url": "https://www.zhihu.com/answer/2534949152",
+      "summary": "从线性组合和 y=Ax 的角度解释线性变换与线性映射的含义。"
+    },
+    {
+      "title": "听说线性代数可以在高中降维打击数列、圆锥曲线，具体是怎么应用的？",
+      "url": "https://www.zhihu.com/answer/2553680969",
+      "summary": "正文把射影变换解释为三维向量空间中的可逆线性变换，并说明它保持共线与共点关系。"
+    },
+    {
+      "title": "矩阵左乘，右乘到底是什么意思？",
+      "url": "https://www.zhihu.com/answer/2555026674",
+      "summary": "正文以有限维线性空间的基和坐标说明线性变换的矩阵表示，推导基变换与坐标变换公式。"
+    },
+    {
+      "title": "如何将高阶线性微分方程与线性代数联系起来？",
+      "url": "https://www.zhihu.com/answer/2561627459",
+      "summary": "正文验证求导算子满足可加性与齐次性，从而将其视为函数空间上的线性变换。"
+    },
+    {
+      "title": "高中数学学那么多三角函数公式到底有什么用？",
+      "url": "https://www.zhihu.com/answer/2572017203",
+      "summary": "把复数乘法写成线性变换与矩阵，并用链式法则的矩阵形式解释柯西-黎曼条件。"
+    },
+    {
+      "title": "为什么实对称矩阵一定能对角化？",
+      "url": "https://www.zhihu.com/answer/2582735434",
+      "summary": "在标准正交基下把厄米矩阵解释为厄米线性变换，并利用正交补不变子空间推进证明。"
+    },
+    {
+      "title": "线性代数究竟是为解决什么问题而生的?",
+      "url": "https://www.zhihu.com/answer/2598363381",
+      "summary": "从列向量与系数矩阵的作用解释线性变换、伸缩和秩的几何意义。"
+    },
+    {
+      "title": "多元微积分之前是否有必要先上线性代数？",
+      "url": "https://www.zhihu.com/answer/2609219508",
+      "summary": "把全微分、复合求导和坐标变换解释为线性映射与基变换。"
+    },
+    {
+      "title": "如何通俗理解矩阵左乘和右乘的区别？",
+      "url": "https://www.zhihu.com/answer/2613365732",
+      "summary": "从局部到全局坐标系说明左乘右乘对应的线性变换与参考系选择。"
+    },
+    {
+      "title": "请问信号与系统中傅里叶变换要理解到什么程度?或者说傅里叶变换在这门学科中是什么地位?",
+      "url": "https://www.zhihu.com/answer/2647481225",
+      "summary": "用线性变换的特征向量解释 LTI 系统为何保持复指数频率。"
+    },
+    {
+      "title": "为什么要学《机器人学导论》 这本书？",
+      "url": "https://www.zhihu.com/answer/2673726358",
+      "summary": "正文把雅可比矩阵解释为关节速度到末端速度的线性变换，并讨论奇异位形与逆变换。"
+    },
+    {
+      "title": "一直不解，为什么如此定义矩阵的乘法，为什么这样一种怪异的乘法规则却能够在实践中发挥如此巨大的功效？",
+      "url": "https://www.zhihu.com/answer/2687307391",
+      "summary": "正文用矩阵反复左乘状态向量来描述流程状态的线性变换，并解释其计算优势。"
+    },
+    {
+      "title": "如何从代数和几何的角度分别理解矩阵？",
+      "url": "https://www.zhihu.com/answer/2687378519",
+      "summary": "正文说明方阵可表示线性空间上的线性变换，一般矩阵可表示不同线性空间之间的线性映射。"
+    },
+    {
+      "title": "线性代数的发明过程和意义是什么？",
+      "url": "https://www.zhihu.com/answer/2708435503",
+      "summary": "从线性空间、基与线性变换解释线性代数的研究对象和统一框架。"
+    },
+    {
+      "title": "为什么部分大一学生认为线性代数听不懂？",
+      "url": "https://www.zhihu.com/answer/2717788528",
+      "summary": "正文指出向量上的线性变换可由矩阵表示，并以此连接线性空间与矩阵。"
+    },
+    {
+      "title": "求问各位数学大佬，定积分的积分表达式中的dx到底有没有含义，到底是不是自变量的微分？",
+      "url": "https://www.zhihu.com/answer/2718271748",
+      "summary": "正文把微分解释为一点处的局部线性映射，并以换基说明同一映射在不同坐标下的表示。"
+    },
+    {
+      "title": "为什么矩阵行秩等于列秩？",
+      "url": "https://www.zhihu.com/answer/2725921008",
+      "summary": "正文把矩阵视为线性变换，并具体说明借助对偶空间和对偶线性变换证明行秩等于列秩的思路。"
+    },
+    {
+      "title": "如何理解根子空间，以及空间分解第一定理？",
+      "url": "https://www.zhihu.com/answer/2735490414",
+      "summary": "正文从线性变换 A 的多项式作用出发，推导核空间的直和分解和向量空间的准素分解。"
+    },
+    {
+      "title": "如何通俗的解释“酉空间”？",
+      "url": "https://www.zhihu.com/answer/2737846339",
+      "summary": "正文以不同基底和过渡矩阵说明同一个线性变换在不同基下如何由相似矩阵表示。"
+    },
+    {
+      "title": "Jordan标准形的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2744808789",
+      "summary": "正文从线性变换在基矢上的作用出发，讨论若尔当块、幂零子空间及基的重新选取。"
+    },
+    {
+      "title": "洛伦兹变换为什么是线性的，如何推导出它是线性的？",
+      "url": "https://www.zhihu.com/answer/2775714681",
+      "summary": "正文在有限维线性空间上利用非退化双线性型和满射条件证明保持该型的映射必为线性映射，并据此推出洛伦兹变换的线性性。"
+    },
+    {
+      "title": "椭圆的一般式方程是怎样的？",
+      "url": "https://www.zhihu.com/answer/2795035916",
+      "summary": "正文把正交变换解释为保持长度、内积、夹角和面积不变的坐标线性变换，并用于曲线标准化。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2830715804",
+      "summary": "正文先以单变量比例缩放为例，再推广到多维线性映射，用线性变换解释微分的意义。"
+    },
+    {
+      "title": "广义相对论开篇就看不懂，比如符号Λ是什么？",
+      "url": "https://www.zhihu.com/answer/2858150515",
+      "summary": "正文用对矢量先变换再平移说明该符号表示线性变换及其复合作用。"
+    },
+    {
+      "title": "什么是「本征值」？",
+      "url": "https://www.zhihu.com/answer/2865043467",
+      "summary": "正文把橡胶片拉伸解释为对箭头的变换，并区分方向改变与仅按比例伸缩的向量。"
+    },
+    {
+      "title": "将「小黑子露出鸡脚了」中的「鸡」和「黑」交换变为「小鸡子露出黑脚了」，这是什么语言现象？",
+      "url": "https://www.zhihu.com/answer/2869882514",
+      "summary": "正文定义把一种字序映射为另一种字序的线性变换，并指出交换字位对应一次初等行变换。"
+    },
+    {
+      "title": "神经网络的万能逼近定理已经发展到什么地步了？",
+      "url": "https://www.zhihu.com/answer/2876413006",
+      "summary": "正文定义满足群作用的线性等变层与不变层，并以仿射变换的张量形式具体展开网络结构。"
+    },
+    {
+      "title": "向量内积的结果为什么是数而不是向量?",
+      "url": "https://www.zhihu.com/answer/2877858837",
+      "summary": "正文以 A 定义从 R^n 到 R^m 的线性变换为起点，说明矩阵乘法与线性变换复合之间的关系。"
+    },
+    {
+      "title": "有什么比较好的矩阵论，矩阵分析的课程或者书本可以学习？",
+      "url": "https://www.zhihu.com/answer/2904683854",
+      "summary": "正文说明线性变换可用矩阵表示，并讨论正交变换、压缩与还原向量等具体应用。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2947334961",
+      "summary": "正文以旋转矩阵作用于向量为例，说明矩阵可以对向量作旋转变换。"
+    },
+    {
+      "title": "sin（x）求四次导数还是原函数，和e^（x）的性质相似，这和欧拉公式有关系吗？",
+      "url": "https://www.zhihu.com/answer/2962223878",
+      "summary": "正文比较旋转矩阵与微分算子，并用线性空间性质解释二者的对应关系。"
+    },
+    {
+      "title": "为什么好多人都认为丘维声的高等代数编写的不好呢?",
+      "url": "https://www.zhihu.com/answer/2964942952",
+      "summary": "正文用线性映射的像的维度解释相似矩阵秩不变，并讨论可逆映射与同构。"
+    },
+    {
+      "title": "如何直观理解特征值与特征向量的意义？",
+      "url": "https://www.zhihu.com/answer/2966272862",
+      "summary": "正文把矩阵作用解释为向量分解后的缩放与旋转，并从特征向量说明线性变换。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2968758635",
+      "summary": "正文把矩阵乘法解释为点的移动、基坐标变换以及旋转和缩放等变换。"
+    },
+    {
+      "title": "矩阵是线性代数的核心吗？我是否可以这样理解线性代数？",
+      "url": "https://www.zhihu.com/answer/2968883577",
+      "summary": "正文从列向量线性组合和几何移动解释 Ax=b 所表达的线性变换。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2976348964",
+      "summary": "正文用旋转矩阵乘伸缩因子解释矩阵所表示的线性变换。"
+    },
+    {
+      "title": "学《线性代数》有什么好书?",
+      "url": "https://www.zhihu.com/answer/2993646473",
+      "summary": "正文用方形网格变形以及共线、共点性质说明线性变换产生的几何效果。"
+    },
+    {
+      "title": "哈密尔顿-凯莱定理的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2996313226",
+      "summary": "正文把方阵 A 视为 R^n 到 R^n 的线性映射，并通过 p(A)v 赋予其模作用。"
+    },
+    {
+      "title": "什么是张量 (tensor)？",
+      "url": "https://www.zhihu.com/answer/3006259841",
+      "summary": "正文说明张量积把多重线性映射化为张量积空间上的唯一线性映射，并给出相关同构。"
+    },
+    {
+      "title": "矩阵中，为什么AB＝AC时，当A可逆时，B＝C？",
+      "url": "https://www.zhihu.com/answer/3026724353",
+      "summary": "正文从空间旋转、拉伸和压缩解释矩阵对应的几何变换，并讨论可逆变换能够通过反操作恢复原状态。"
+    },
+    {
+      "title": "有没有哪些数学过程是不可逆的？",
+      "url": "https://www.zhihu.com/answer/3034952829",
+      "summary": "正文把方阵作用到一组向量上视为线性变换，并以可逆时仍保持线性无关和满秩来说明这种变换保持维数。"
+    },
+    {
+      "title": "线性代数有什么用？学习线性代数的意义在哪？",
+      "url": "https://www.zhihu.com/answer/3050350031",
+      "summary": "正文从几何视角说明矩阵作用为线性变换，并用单位圆变成椭圆展示变换效果。"
+    },
+    {
+      "title": "如何形象地理解四元数？",
+      "url": "https://www.zhihu.com/answer/3074942168",
+      "summary": "正文把四元数左乘和右乘解释为两个二维平面上的旋转，并说明组合左右乘可控制旋转的平面。"
+    },
+    {
+      "title": "如何画三角形的面积最大的内切椭圆？",
+      "url": "https://www.zhihu.com/answer/3090675767",
+      "summary": "正文写出平面仿射变换矩阵，并利用其及逆矩阵在三角形与正三角形之间变换点、圆和椭圆。"
+    },
+    {
+      "title": "谈一谈对非厄米系统的认识?",
+      "url": "https://www.zhihu.com/answer/3102937061",
+      "summary": "正文多次利用相似变换和幺正变换构造同谱矩阵，并说明其与 Jordan 标准型的关系。"
+    },
+    {
+      "title": "请问如何学好现代数学，如拓扑、李代数、群论、张量分析之类。感觉现代数学威力强大，但是好难理解？",
+      "url": "https://www.zhihu.com/answer/3107186937",
+      "summary": "正文从线性方程组抽象出线性空间与线性变换，并说明矩阵作为线性变换的表示。"
+    },
+    {
+      "title": "大家有没有卡尔曼滤波Kalman Filter的实用经验？",
+      "url": "https://www.zhihu.com/answer/3114764336",
+      "summary": "正文以观测映射和状态预测说明上一状态到下一状态、状态到观测之间的线性变换，并给出对应的映射矩阵。"
+    },
+    {
+      "title": "线性代数到底是什么？",
+      "url": "https://www.zhihu.com/answer/3117627141",
+      "summary": "正文用网格在变换后保持平行等距来直观说明线性变换，并展开其与矩阵表示的关系。"
+    },
+    {
+      "title": "全体无理数在什么合成法则下构成群？",
+      "url": "https://www.zhihu.com/answer/3162117718",
+      "summary": "正文解释线性空间换基后同一线性映射会得到不同矩阵，实质是在讲线性变换的坐标表示。"
+    },
+    {
+      "title": "不定积分符号为什么是∫dx？为什么要加一个dx？是不是多此一举了？",
+      "url": "https://www.zhihu.com/answer/3175915812",
+      "summary": "正文把微分与积分解释为互为逆运算的线性变换，并在线性空间中说明其结构。"
+    },
+    {
+      "title": "为什么方阵的特征分解和奇异值分解结果差异很大？",
+      "url": "https://www.zhihu.com/answer/3214311796",
+      "summary": "正文把矩阵解释为线性变换，并用旋转与沿坐标轴缩放说明特征值分解和奇异值分解的变换差异。"
+    },
+    {
+      "title": "微分符号，dx，dy到底是什么含义？",
+      "url": "https://www.zhihu.com/answer/3219921506",
+      "summary": "正文把参数曲面切空间中的基底组合解释为线性映射，并讨论余矢与对偶矢量空间。"
+    },
+    {
+      "title": "复变函数积分有没有比较直观的意义？",
+      "url": "https://www.zhihu.com/answer/3219933541",
+      "summary": "正文把复数乘法解释为按模长缩放并按辐角旋转的线性变换，并以之构造复积分的直观图像。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/3223976141",
+      "summary": "正文构造二阶矩阵表示共轭映射，并把复函数理解为 R² 到 R² 的特殊线性变换。"
+    },
+    {
+      "title": "线性代数部分只学Introduction to linear algebra是否足够？",
+      "url": "https://www.zhihu.com/answer/3224484339",
+      "summary": "正文明确指出现代线性代数研究的本质是线性变换或线性映射，而非矩阵和行列式。"
+    },
+    {
+      "title": "数学上有哪些非常奇葩的证明？",
+      "url": "https://www.zhihu.com/answer/3232945939",
+      "summary": "正文用整数矩阵构造可逆线性映射，并考察它把整数格点送到整数格点的作用。"
+    },
+    {
+      "title": "线性代数到底是什么？",
+      "url": "https://www.zhihu.com/answer/3254243445",
+      "summary": "正文以三维模型旋转对应矩阵乘法为例，说明矩阵乘法可实现几何模型的空间变换。"
+    },
+    {
+      "title": "如何评价「泛函、映射、算子、变换都是函数，是搞数学的人骗普通人的把戏」这一说法？实际情况如何？",
+      "url": "https://www.zhihu.com/answer/3268349392",
+      "summary": "正文讨论函数空间到自身的线性映射、算子范数和函数演算，说明把线性映射视作函数带来的统一处理。"
+    },
+    {
+      "title": "傅里叶变换有哪些具体的应用？",
+      "url": "https://www.zhihu.com/answer/3305626094",
+      "summary": "正文用复数权重的线性层和矩阵映射具体说明频域特征所经历的线性变换。"
+    },
+    {
+      "title": "微积分与线性代数有关系吗？",
+      "url": "https://www.zhihu.com/answer/3306662593",
+      "summary": "正文从保持加法和数乘的定义出发，解释矩阵乘法如何实现旋转与缩放等线性变换。"
+    },
+    {
+      "title": "如何简单易懂的讲解MPC控制（模型预测控制）原理？",
+      "url": "https://www.zhihu.com/answer/3310294152",
+      "summary": "正文以 xbar{i+1} = A*xbar{i} + B*ubar{i} 给出状态演化约束，具体体现了矩阵定义的状态线性变换。"
+    },
+    {
+      "title": "平面国的人会如何描述“绕z轴转动”的自由度？",
+      "url": "https://www.zhihu.com/answer/3311177677",
+      "summary": "正文把转动定义为欧氏空间的保距线性变换，并以正交变换统一描述不同维度的转动。"
+    },
+    {
+      "title": "如何直观理解矩阵和线性代数？",
+      "url": "https://www.zhihu.com/answer/3323084397",
+      "summary": "正文把矩阵乘法解释为对矢量的旋转和缩放，并明确概括线性变换保持共线映射的性质。"
+    },
+    {
+      "title": "大家觉得高等代数中哪个定理最重要呢？",
+      "url": "https://www.zhihu.com/answer/3339041157",
+      "summary": "正文从旋转、反射与伸缩三种作用解释一般线性变换的几何意义。"
+    },
+    {
+      "title": "大家觉得高等代数中哪个定理最重要呢？",
+      "url": "https://www.zhihu.com/answer/3341297968",
+      "summary": "正文以哈密顿-凯莱定理说明线性变换被其特征多项式零化，并展开这种算子性质的作用。"
+    },
+    {
+      "title": "如何理解陈纪修版数学分析中对微分的定义?",
+      "url": "https://www.zhihu.com/answer/3346394611",
+      "summary": "正文把函数在一点的微分解释为由该点导数定义的线性映射，并联系其对偶空间中的线性变换。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/3365050586",
+      "summary": "正文把对偶空间解释为系数基向量到目标数的线性映射函数集合，并用映射等价性说明其结构。"
+    },
+    {
+      "title": "为什么好多人都认为丘维声的高等代数编写的不好呢?",
+      "url": "https://www.zhihu.com/answer/3401372160",
+      "summary": "正文说明线性变换更换基底后，其表示矩阵相似，突出了表示矩阵与线性变换之间的关系。"
+    },
+    {
+      "title": "什么是「Hodge 理论」？",
+      "url": "https://www.zhihu.com/answer/3403065869",
+      "summary": "正文用Qp向量空间上的线性自同构和子空间选取来刻画p-adic Hodge对象。"
+    },
+    {
+      "title": "f(f(f(f(x))))=x 且 f(f(x))≠x 有没有这样的函数，怎么构造？",
+      "url": "https://www.zhihu.com/answer/3408137603",
+      "summary": "正文用二维旋转矩阵及其在射影直线上的作用建立迭代周期，实质讨论线性变换。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/3415446771",
+      "summary": "正文用旋转矩阵作用于点的坐标，并级联多个旋转将输入角逐步变换到目标角度。"
+    },
+    {
+      "title": "线性代数特征值到底是个什么东西？",
+      "url": "https://www.zhihu.com/answer/3452012695",
+      "summary": "正文把绕原点旋转以及沿坐标轴拉伸解释为线性变换，并联系坐标系之间的对应关系。"
+    },
+    {
+      "title": "如何评价2024阿里巴巴数学竞赛预选赛试题?",
+      "url": "https://www.zhihu.com/answer/3466474557",
+      "summary": "正文用迹为零的二阶矩阵讨论线性映射如何作用于平面格点，并分析像格点的形状与稠密性。"
+    },
+    {
+      "title": "如果你要向一位学过初级的抽象代数的本科生推销数学工具「正合序列」，你会如何介绍它？",
+      "url": "https://www.zhihu.com/answer/3472387515",
+      "summary": "正文把矩阵解释为有限维向量空间之间线性映射在某组基下的表示，并分析其核、像和对偶映射。"
+    },
+    {
+      "title": "如果以后做代数方向,是不是完全没有必要学数分和高代?",
+      "url": "https://www.zhihu.com/answer/3485273515",
+      "summary": "正文把复数乘法解释为二维向量上的线性变换，并用矩阵表示该变换。"
+    },
+    {
+      "title": "为什么线性代数如此复杂？",
+      "url": "https://www.zhihu.com/answer/3510296041",
+      "summary": "正文用旋转变换和一般二维变换说明矩阵可以作为线性变换的表示。"
+    },
+    {
+      "title": "听说线性代数能够降维打击高中数学，是否有必要学？如何学？",
+      "url": "https://www.zhihu.com/answer/3522851829",
+      "summary": "正文用正交变换把二次型化成标准形，并利用变换后的坐标关系求原表达式的范围。"
+    },
+    {
+      "title": "怎么在一个晚上搞定线性代数？",
+      "url": "https://www.zhihu.com/answer/3525646127",
+      "summary": "正文用旋转矩阵和二维一般矩阵说明线性变换的矩阵表示。"
+    },
+    {
+      "title": "线性代数究竟是为解决什么问题而生的?",
+      "url": "https://www.zhihu.com/answer/3556758378",
+      "summary": "正文说明线性变换在不同坐标系下的表示矩阵相似，并讨论基和过渡矩阵。"
+    },
+    {
+      "title": "《线性代数应该这样学》（《Linear Algebra Done Right》）这本书到底好在哪儿？",
+      "url": "https://www.zhihu.com/answer/3556939309",
+      "summary": "正文评价该书从向量空间和线性映射入手的教学顺序及其对线性代数的定位。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/3583331681",
+      "summary": "正文用正交变换把二次型化为对角标准形，说明该变换保持平方和约束。"
+    },
+    {
+      "title": "为什么很多学生在课本上没学懂的数学知识在3blue1brown上却学懂了？",
+      "url": "https://www.zhihu.com/answer/3588775202",
+      "summary": "正文通过矩阵作用前后的向量变化，具体解释矩阵所表示的线性变换。"
+    },
+    {
+      "title": "为什么 sin15°=sin45°-sin30° 是错误的？",
+      "url": "https://www.zhihu.com/answer/3618272436",
+      "summary": "正文用齐次性和叠加性定义线性映射，并给出缩放向量与向量相加时映射应满足的等式。"
+    },
+    {
+      "title": "对偶空间的起源是什么？",
+      "url": "https://www.zhihu.com/answer/3619810585",
+      "summary": "正文把对偶空间元素解释为从向量空间映到数域的线性函数，并由此模拟内积。"
+    },
+    {
+      "title": "为什么要研究矩阵的特征值和特征向量？",
+      "url": "https://www.zhihu.com/answer/3623132935",
+      "summary": "正文用旋转轴和缩放倍率解释特征向量、特征值所刻画的矩阵线性变换几何意义。"
+    },
+    {
+      "title": "如何求n维实特殊线性群SL(n,R)的所有正规子群？",
+      "url": "https://www.zhihu.com/answer/3637691913",
+      "summary": "正文用同一线性变换在不同基下的矩阵解释初等矩阵的相似关系。"
+    },
+    {
+      "title": "一直不解，为什么如此定义矩阵的乘法，为什么这样一种怪异的乘法规则却能够在实践中发挥如此巨大的功效？",
+      "url": "https://www.zhihu.com/answer/25985795468",
+      "summary": "正文把矩阵解释为线性算子的表示，并由两个线性算子的复合推出矩阵乘法的定义。"
+    },
+    {
+      "title": "为什么特征值之和会等于矩阵的迹？",
+      "url": "https://www.zhihu.com/answer/26691389028",
+      "summary": "正文以坐标变换下的同一线性变换解释相似矩阵，并说明基变换对应共轭矩阵。"
+    },
+    {
+      "title": "sin²x+cos²x=1，两边开根号是不是 sinx+cosx=1?",
+      "url": "https://www.zhihu.com/answer/39337954836",
+      "summary": "正文以根号、对数、指数和余弦函数不满足可加性为例，说明非线性的函数不能按线性映射分配运算。"
+    },
+    {
+      "title": "洛伦兹变换是如何导出的呢？",
+      "url": "https://www.zhihu.com/answer/62187670875",
+      "summary": "正文把洛伦兹变换表述为保持闵可夫斯基度规不变的线性变换，并具体求解其二维矩阵形式。"
+    },
+    {
+      "title": "线性变换的定义中，「齐次性」是否多余？",
+      "url": "https://www.zhihu.com/answer/75035829123",
+      "summary": "正文逐项定义可加性与一次齐次性，并证明二者缺一不可，还通过有理数域、Hamel 基底和柯西函数方程说明仅有可加性不足以推出线性。"
+    },
+    {
+      "title": "Hurwitz定理怎样证明？",
+      "url": "https://www.zhihu.com/answer/87653921776",
+      "summary": "正文把欧几里得空间中的乘法算子 m_x 作为线性映射，并用其矩阵研究模长保持条件。"
+    },
+    {
+      "title": "常微分方程的特征方程，本质是什么？",
+      "url": "https://www.zhihu.com/answer/90755118072",
+      "summary": "正文把递推指标平移和求导都抽象为线性算子，用算子多项式因式分解统一两类方程。"
+    },
+    {
+      "title": "常微分方程的特征方程，本质是什么？",
+      "url": "https://www.zhihu.com/answer/102659432549",
+      "summary": "正文用线性算符和坐标变换解释矩阵作用，说明线性变换在微分方程解耦中的意义。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/105715323325",
+      "summary": "正文用拉伸、旋转、反射等空间作用解释乘法，并据此区分加法的平移与乘法的线性变换。"
+    },
+    {
+      "title": "R^2 与 C 的区别在哪里？为什么有数学家认为复数用 a+bi 表示不好？",
+      "url": "https://www.zhihu.com/answer/106320056300",
+      "summary": "正文用满足 J 平方等于负一的实线性自同构刻画复结构，并由它定义复标量乘法。"
+    },
+    {
+      "title": "为什么可以把线性空间 V 看成是它对偶空间 V* 的对偶空间？",
+      "url": "https://www.zhihu.com/answer/127304525278",
+      "summary": "正文讨论对偶操作如何把线性映射变为反向的拉回映射，并解释有限维空间的对偶与双对偶关系。"
+    },
+    {
+      "title": "线性代数中有很多矩阵分解方法，如何理解它们的区别和联系？",
+      "url": "https://www.zhihu.com/answer/127320053467",
+      "summary": "正文从旋转、缩放、剪切和投影等基本变换角度解释矩阵分解对应的线性变换。"
+    },
+    {
+      "title": "抽象代数里模是用来干什么的，感觉学的好乱啊？",
+      "url": "https://www.zhihu.com/answer/129383856415",
+      "summary": "正文以参数化线性映射的核、余核及纤维维数变化为例解释模的必要性。"
+    },
+    {
+      "title": "如果把傅里叶变换突然一键删除，世界上会发生什么变化？",
+      "url": "https://www.zhihu.com/answer/1888868718425134475",
+      "summary": "正文解释微分算子保持函数线性叠加，并以此说明线性算子的作用方式。"
+    },
+    {
+      "title": "线性代数的本质是什么，它的线性体现在哪？",
+      "url": "https://www.zhihu.com/answer/1892690459647776659",
+      "summary": "正文用齐次性和叠加性定义线性映射，并从几何形变角度解释线性变换的作用。"
+    },
+    {
+      "title": "线性代数的发明过程和意义是什么？",
+      "url": "https://www.zhihu.com/answer/1897099735728373873",
+      "summary": "正文从旋转等例子解释线性变换的几何含义，以及变换后基向量如何生成新坐标。"
+    },
+    {
+      "title": "f(a＋b) = f(a) + f(b) 一定说明 f(x) 是一次函数吗？",
+      "url": "https://www.zhihu.com/answer/1898579414926750798",
+      "summary": "正文明确给出线性映射的可加性与一次齐次性两个条件，并讨论二者缺一不可。"
+    },
+    {
+      "title": "交换律、结合律、分配律的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1903555212221878534",
+      "summary": "正文用三个基矢上的对换操作解释矩阵对应线性变换，并说明映射次序导致矩阵乘法不满足交换律。"
+    },
+    {
+      "title": "为什么会定义矩阵的迹？",
+      "url": "https://www.zhihu.com/answer/1909010720248542994",
+      "summary": "把矩阵视为线性变换的无穷小扰动，并据此解释迹的几何意义。"
+    },
+    {
+      "title": "Jordan标准形的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1911725426012819849",
+      "summary": "正文以线性变换、filtration、子空间直和和循环不变子空间组织整个 Jordan 标准形讨论。"
+    },
+    {
+      "title": "哈密顿-凯莱定理最简洁的证明是哪一个？",
+      "url": "https://www.zhihu.com/answer/1916236459037418139",
+      "summary": "正文用线性变换在基底下的矩阵表示及零同态，推出特征多项式代入线性变换后为零。"
+    },
+    {
+      "title": "如何评价数学家德利涅说，如果数学用技巧，说明人类没有真正理解?",
+      "url": "https://www.zhihu.com/answer/1919335411089666708",
+      "summary": "正文给出线性变换保持线性组合的定义，并说明矩阵列向量正是各基向量在线性变换下的像。"
+    },
+    {
+      "title": "Jordan标准形的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1922271423528932190",
+      "summary": "正文以线性算子及其多项式环模表示为主线，说明有限维线性变换的分类观点。"
+    },
+    {
+      "title": "如何牢记二次曲线的不变量？",
+      "url": "https://www.zhihu.com/answer/1927887505774065180",
+      "summary": "正文把坐标旋转解释为矩阵的正交相似变换，并据此说明不变量。"
+    },
+    {
+      "title": "掌握什么思想会让你的数学水平有质的飞跃?",
+      "url": "https://www.zhihu.com/answer/1928190449547449106",
+      "summary": "正文把线性变换解释为保持向量加法与数乘结构的映射。"
+    },
+    {
+      "title": "傅里叶变换，乘以一个复指数函数，然后积分，为何就提取出了频率信号？",
+      "url": "https://www.zhihu.com/answer/1929658247654114902",
+      "summary": "正文从向正交基投影出发，把函数在傅里叶基上的系数解释为函数空间中的投影。"
+    },
+    {
+      "title": "除了使用洛伦兹度规，还有什么数学模型能让光速不变？",
+      "url": "https://www.zhihu.com/answer/1931801429498127707",
+      "summary": "正文把光速不变条件转化为线性变换的雅可比矩阵保持零锥不变，并讨论洛伦兹变换这一特殊线性变换。"
+    },
+    {
+      "title": "线性代数的本质是什么，它的线性体现在哪？",
+      "url": "https://www.zhihu.com/answer/1933116618860377551",
+      "summary": "正文用可加性与齐次性定义线性变换，并解释它保持网格线的平行和等距。"
+    },
+    {
+      "title": "如何加深对矩阵乘法的理解?",
+      "url": "https://www.zhihu.com/answer/1936774120734949934",
+      "summary": "正文通过新旧基与图形变化说明左乘矩阵对应线性变换，并区分向量变换与坐标变换的视角。"
+    },
+    {
+      "title": "怎么用通俗的语言解释什么是费米子，什么是玻色子？",
+      "url": "https://www.zhihu.com/answer/1938186193817825535",
+      "summary": "正文把几何变换解释为线性变换，并以矩阵表示缩放、旋转、剪切和投影。"
+    },
+    {
+      "title": "线性代数特征值到底是个什么东西？",
+      "url": "https://www.zhihu.com/answer/1942241401027933285",
+      "summary": "正文用平面箭头变为新箭头说明了线性变换的几何作用。"
+    },
+    {
+      "title": "怎么在一个晚上搞定线性代数？",
+      "url": "https://www.zhihu.com/answer/1943101968374530493",
+      "summary": "正文把线性代数概括为研究空间和变换的学问，并说明矩阵乘法对应连续两次线性变换。"
+    },
+    {
+      "title": "为什么我们在镜子中看到的自己是左右颠倒，而不是上下颠倒？",
+      "url": "https://www.zhihu.com/answer/1946399577868591513",
+      "summary": "正文把照镜子表述为正交相似于对角矩阵的反射变换，并计算矢量与其楔积在变换下的变化。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1946605824576300491",
+      "summary": "正文用拉伸、旋转和切变说明矩阵如何统一变换空间中的点，并据此解释矩阵乘法。"
+    },
+    {
+      "title": "如何理解线性代数？",
+      "url": "https://www.zhihu.com/answer/1948348588015986531",
+      "summary": "正文以空间和变换为核心解释矩阵乘法，说明多个矩阵相乘对应连续空间变换的复合。"
+    },
+    {
+      "title": "为什么会定义矩阵的迹？",
+      "url": "https://www.zhihu.com/answer/1951985256400938400",
+      "summary": "正文用相似矩阵在不同基底下描述同一线性变换，说明迹为何是变换的不变量。"
+    },
+    {
+      "title": "线性代数的核心思想是什么？",
+      "url": "https://www.zhihu.com/answer/1953229287663592858",
+      "summary": "正文把Ax=b解释为矩阵A将向量x变换成新向量b，并列举旋转、伸缩和剪切等线性变换。"
+    },
+    {
+      "title": "精通线性代数是种怎样的体验？怎样才能称得上精通线性代数？",
+      "url": "https://www.zhihu.com/answer/1953465723763532888",
+      "summary": "正文以旋转、拉伸、投影和奇异压缩说明矩阵作为线性变换的几何意义。"
+    },
+    {
+      "title": "线性代数究竟是为解决什么问题而生的?",
+      "url": "https://www.zhihu.com/answer/1953592857278514551",
+      "summary": "正文用缩放和旋转矩阵说明矩阵如何对平面上的向量和图形进行线性变换。"
+    },
+    {
+      "title": "看 b 站 UP 主 @3Blue1Brown 的视频有哪些收获？",
+      "url": "https://www.zhihu.com/answer/1953754614613665167",
+      "summary": "正文把矩阵乘法解释为空间变换的叠加，并把矩阵视为旋转、拉伸和剪切等动作。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/1953866858785646334",
+      "summary": "正文以局部线性空间之间的线性变换作为贯穿微分、积分与坐标变换的核心观点。"
+    },
+    {
+      "title": "大学线性代数听不懂，有什么自学的方法（初学者）？",
+      "url": "https://www.zhihu.com/answer/1955622787315143831",
+      "summary": "正文把矩阵解释为把输入向量变为输出向量的空间变换动作，并给出拉伸和旋转的几何直观。"
+    },
+    {
+      "title": "自学线性代数推荐什么教材？",
+      "url": "https://www.zhihu.com/answer/1956314679484847132",
+      "summary": "正文用空间网格的拉伸、旋转和压缩解释线性变换，并把矩阵说明为这种操作的编码。"
+    },
+    {
+      "title": "面积微分dxdy为什么是叉乘？",
+      "url": "https://www.zhihu.com/answer/1958192955027338969",
+      "summary": "正文把曲面映射的局部微分解释为线性变换，并用其矩阵刻画局部的面积缩放。"
+    },
+    {
+      "title": "学完了线性代数，有进阶的书籍推荐吗？",
+      "url": "https://www.zhihu.com/answer/1958229061378741428",
+      "summary": "正文区分矩阵计算与作为抽象语言的线性变换，并说明矩阵依赖所选基底来表示线性算子。"
+    },
+    {
+      "title": "线性代数的核心思维可以用通俗的例子说明吗?",
+      "url": "https://www.zhihu.com/answer/1959545792357471073",
+      "summary": "正文把矩阵作用解释为把输入向量转换为输出向量的线性变换。"
+    },
+    {
+      "title": "1/2阶导数是什么？",
+      "url": "https://www.zhihu.com/answer/1960323676097475125",
+      "summary": "正文将求导视为线性算子，通过基底扩充和算子矩阵表示讨论其平方根。"
+    },
+    {
+      "title": "对偶空间的引入是为了解决什么问题？",
+      "url": "https://www.zhihu.com/answer/1960515105918816714",
+      "summary": "正文构造对偶线性映射，并说明其在任意基下的矩阵都是原线性映射矩阵的转置。"
+    },
+    {
+      "title": "如何通俗理解矩阵的秩？",
+      "url": "https://www.zhihu.com/answer/1960654464542278079",
+      "summary": "正文把矩阵作用解释为把 n 维空间线性映射到 m 维空间，并从像空间维度说明秩。"
+    },
+    {
+      "title": "线性代数中的线性相关或无关到底是什么意思？秩又是什么东西？秩相同意味着什么？",
+      "url": "https://www.zhihu.com/answer/1960794373403939206",
+      "summary": "正文从直线、可加性和齐次性说明线性运算，并把研究对象概括为具有直线性质的空间与变换。"
+    },
+    {
+      "title": "如何直观地理解线性变换？",
+      "url": "https://www.zhihu.com/answer/1961181994990928897",
+      "summary": "正文用加法和标量乘法定义线性映射，并从代数与几何两方面解释线性变换如何保持结构。"
+    },
+    {
+      "title": "奇异值的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/1961394434160722276",
+      "summary": "正文把奇异值分解解释为先旋转坐标、再沿主方向伸缩、最后旋转到输出空间的线性变换。"
+    },
+    {
+      "title": "为什么线性方程组、递推公式求通项解、微分方程等等，都有齐次和非齐次这一说法，而且还有通解和特解？",
+      "url": "https://www.zhihu.com/answer/1964480661453796969",
+      "summary": "正文以线性算子的核与像为核心，讨论线性方程的解空间、自由度以及可解性。"
+    },
+    {
+      "title": "为何三维旋转只有三个自由度却用四元数来表示？",
+      "url": "https://www.zhihu.com/answer/1965833616077616957",
+      "summary": "正文通过旋转矩阵、反对称矩阵和指数映射说明三维旋转的线性变换表示。"
+    },
+    {
+      "title": "在数学的学习过程中，你见过最妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/1966976289459119098",
+      "summary": "正文给 Hom_R(M,M) 中的自同态定义模结构，并证明有限生成模上的满射 R-线性映射必为同构。"
+    },
+    {
+      "title": "为什么外微分恰好能表达梯度、旋度、散度？",
+      "url": "https://www.zhihu.com/answer/1968515165336080742",
+      "summary": "正文把导数理解为线性映射，并用雅可比矩阵表示其局部线性结构。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/1968730414249117411",
+      "summary": "正文用矩阵表示线性映射的拉回，并说明转置矩阵就是该拉回的表示。"
+    },
+    {
+      "title": "为什么实际旋转角度是四元数里面的角度的两倍？有什么数学上的原因吗？",
+      "url": "https://www.zhihu.com/answer/1969031908693353344",
+      "summary": "正文用单位四元数的共轭变换推导三维旋转，并联系旋转矩阵和罗德里格斯公式。"
+    },
+    {
+      "title": "矩阵的转置的意义是什么？",
+      "url": "https://www.zhihu.com/answer/1969468833736680478",
+      "summary": "正文把行向量右乘矩阵视为线性变换，再求其左乘列向量约定下的矩阵表示并解释转置的来源。"
+    },
+    {
+      "title": "中国数学博士的基础课明明上得比美国的多，为什么学术水平和基础还是美国好呢？",
+      "url": "https://www.zhihu.com/answer/1974482783062738806",
+      "summary": "正文借教材视角说明线性代数研究线性变换，而矩阵是选定基底后对线性变换的一种表示。"
+    },
+    {
+      "title": "外微分形式为什么要是反对称的？Cartan当年为什么要这样定义？",
+      "url": "https://www.zhihu.com/answer/1975210151096119634",
+      "summary": "正文用雅可比矩阵解释导数的线性映射作用，并分解其旋转、缩放与剪切部分。"
+    },
+    {
+      "title": "听说线性代数可以在高中降维打击数列、圆锥曲线，具体是怎么应用的？",
+      "url": "https://www.zhihu.com/answer/1976037648910026181",
+      "summary": "正文用矩阵作用于向量后的伸缩和方向不变来解释线性变换及特征向量的几何意义。"
+    },
+    {
+      "title": "如何评价 Qwen 门控注意力Gated Attention获得 NeurIPS 最佳论文？",
+      "url": "https://www.zhihu.com/answer/1977704293055354744",
+      "summary": "正文明确指出线性变换的合成仍为线性变换，并据此分析值投影与输出投影的复合。"
+    },
+    {
+      "title": "千问斩获NeurIPS 2025最佳论文，为国内唯一获奖团队，论文提到的注意力门控机制解决了哪些问题？",
+      "url": "https://www.zhihu.com/answer/1978128608980669240",
+      "summary": "正文用 W_V 与 W_O 的复合说明注意力中的线性映射及其低秩瓶颈。"
+    },
+    {
+      "title": "如何评价 Qwen 门控注意力Gated Attention获得 NeurIPS 最佳论文？",
+      "url": "https://www.zhihu.com/answer/1978179919344338830",
+      "summary": "正文用两个线性映射的复合及合成矩阵的秩，解释注意力模块的低秩表达瓶颈。"
+    },
+    {
+      "title": "如何评价 Qwen 门控注意力Gated Attention获得 NeurIPS 最佳论文？",
+      "url": "https://www.zhihu.com/answer/1978422159417295815",
+      "summary": "正文分析 Value 投影与输出投影的连续线性变换，说明复合映射的低秩瓶颈如何被非线性门控打破。"
+    },
+    {
+      "title": "线性代数究竟是为解决什么问题而生的?",
+      "url": "https://www.zhihu.com/answer/1980211489823543799",
+      "summary": "正文用缩放矩阵和旋转矩阵具体说明矩阵如何作用于向量并实现线性变换。"
+    },
+    {
+      "title": "矩阵是线性代数的核心吗？我是否可以这样理解线性代数？",
+      "url": "https://www.zhihu.com/answer/1980328511689475452",
+      "summary": "正文以保持线性组合为核心定义线性映射，并用复合映射推导矩阵乘法。"
+    },
+    {
+      "title": "线性代数特征值到底是个什么东西？",
+      "url": "https://www.zhihu.com/answer/1981810315567051268",
+      "summary": "正文把矩阵乘法解释为对向量的拉伸、旋转和剪切，并以此说明线性变换的几何效果。"
+    },
+    {
+      "title": "怎么通俗地解释svd奇异值分解以及作用？",
+      "url": "https://www.zhihu.com/answer/1982017415928881372",
+      "summary": "正文通过矩阵作用于单位圆后得到椭圆，具体解释旋转、伸缩和翻转组成的线性变换过程。"
+    },
+    {
+      "title": "线性代数特征值到底是个什么东西？",
+      "url": "https://www.zhihu.com/answer/1982559561807307059",
+      "summary": "正文把实数矩阵视为线性变换，并解释其作用在向量上产生旋转和伸缩。"
+    },
+    {
+      "title": "如何理解特征值为复数的情况？",
+      "url": "https://www.zhihu.com/answer/1982961316143579388",
+      "summary": "正文以旋转矩阵作用向量为例，具体说明线性变换保留或改变方向以及分解子空间的过程。"
+    },
+    {
+      "title": "为什么很多学生在课本上没学懂的数学知识在3blue1brown上却学懂了？",
+      "url": "https://www.zhihu.com/answer/1983290823815763083",
+      "summary": "正文明确指出线性代数以线性映射为核心，并把矩阵操作解释为线性映射的表示。"
+    },
+    {
+      "title": "线性代数中的内积空间到底是什么意思？？？",
+      "url": "https://www.zhihu.com/answer/1983367204813697959",
+      "summary": "正文通过矩阵的像空间、核空间及其正交补关系解释线性变换的子空间结构。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1984397147613978969",
+      "summary": "正文用基向量去向、网格保持平行等性质说明矩阵对应的线性变换，并讨论升维和降维。"
+    },
+    {
+      "title": "为什么方阵的特征分解和奇异值分解结果差异很大？",
+      "url": "https://www.zhihu.com/answer/1984946182594787313",
+      "summary": "正文用输入向量到输出向量的旋转和伸缩说明矩阵作用，并比较两种基下的线性变换。"
+    },
+    {
+      "title": "为什么方阵的特征分解和奇异值分解结果差异很大？",
+      "url": "https://www.zhihu.com/answer/1985000662656910046",
+      "summary": "正文把矩阵视为对单位圆或单位球面的线性变换，并用旋转、伸缩解释其几何效果。"
+    },
+    {
+      "title": "矩阵的奇异值与特征值有什么相似之处与区别之处？",
+      "url": "https://www.zhihu.com/answer/1985167626855522901",
+      "summary": "正文把矩阵解释为线性算子，分析其对线性空间的作用以及坐标变换下的相似变换。"
+    },
+    {
+      "title": "奇异值的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/1985502589501080176",
+      "summary": "正文把矩阵 A 对向量的作用解释为线性变换，并由此计算变换后向量的长度。"
+    },
+    {
+      "title": "有哪些“真懂和真不懂的都是A,半懂不懂的才是B”的例子？",
+      "url": "https://www.zhihu.com/answer/1986354148065711352",
+      "summary": "正文具体讨论矩阵表示线性映射的条件，以及把矩阵等同于线性变换造成的误读。"
+    },
+    {
+      "title": "掌握什么思想会让你的数学水平有质的飞跃?",
+      "url": "https://www.zhihu.com/answer/1986445025454866482",
+      "summary": "正文用嵌入、投影和 LoRA 的低秩子空间解释矩阵乘法所表达的线性变换。"
+    },
+    {
+      "title": "线性代数中有很多矩阵分解方法，如何理解它们的区别和联系？",
+      "url": "https://www.zhihu.com/answer/1987638614050488910",
+      "summary": "正文把矩阵理解为旋转、拉伸和剪切向量的线性变换，并以分解展示其几何作用。"
+    },
+    {
+      "title": "为什么矩阵变换都是线性变换？",
+      "url": "https://www.zhihu.com/answer/1988036168231711008",
+      "summary": "正文用向量加法和标量乘法的保持性定义线性变换，并从基向量作用推导其完整描述。"
+    },
+    {
+      "title": "是不是所有的线性变换都有对应的矩阵？",
+      "url": "https://www.zhihu.com/answer/1988398142350182316",
+      "summary": "正文以多项式空间的求导算子为例，验证其线性性并讨论线性变换与矩阵表示的对应关系。"
+    },
+    {
+      "title": "矩阵为什么能解方程？",
+      "url": "https://www.zhihu.com/answer/1992654415094641727",
+      "summary": "正文用降维和零空间解释矩阵对输入空间的整体变换，突出线性映射的几何意义。"
+    },
+    {
+      "title": "为什么线性代数里只讨论到二次型，没有三次型，四次型，甚至 n 次型？",
+      "url": "https://www.zhihu.com/answer/1993847611866767813",
+      "summary": "正文以合同变换区分可处理的二次型与高次型，解释二次型为何仍接近线性变换问题。"
+    },
+    {
+      "title": "Jacobian矩阵和Hessian矩阵的作用是什么？",
+      "url": "https://www.zhihu.com/answer/1995037756607456843",
+      "summary": "正文把 Jacobian 解释为在一点附近近似原非线性映射的线性映射。"
+    },
+    {
+      "title": "为什么很多学生在课本上没学懂的数学知识在3blue1brown上却学懂了？",
+      "url": "https://www.zhihu.com/answer/1997796143464215866",
+      "summary": "正文以拉伸、旋转和剪切展开线性变换，并强调矩阵是这类空间变换的表示。"
+    },
+    {
+      "title": "线性代数是很实用的学科，为什么国内的砖家能写出狗屁不通的线性代数教材？",
+      "url": "https://www.zhihu.com/answer/2002507168197416068",
+      "summary": "正文明确说明矩阵乘法对应线性变换的复合，并用多次空间变换解释其几何意义。"
+    },
+    {
+      "title": "线性代数特征值到底是个什么东西？",
+      "url": "https://www.zhihu.com/answer/2004255783580374314",
+      "summary": "正文以方向是否改变说明线性变换，并用特征向量作基把复杂变换化简为轴向缩放。"
+    },
+    {
+      "title": "如何才能真正理解微积分的核心思想，而不是仅仅停留在计算层面？",
+      "url": "https://www.zhihu.com/answer/2006862774140162127",
+      "summary": "正文用一维乘法以及二维拉伸、旋转和剪切具体说明线性变换对空间的作用。"
+    },
+    {
+      "title": "学习数学时，什么时候该停止考虑“几何意义”?",
+      "url": "https://www.zhihu.com/answer/2011461338786992257",
+      "summary": "正文用旋转、拉伸、剪切和压缩描述线性算子对高维空间的变换作用。"
+    },
+    {
+      "title": "掌握什么思想会让你的数学水平有质的飞跃?",
+      "url": "https://www.zhihu.com/answer/2011520191645914617",
+      "summary": "正文把矩阵与向量乘法解释为对空间进行拉伸、旋转和压缩的线性变换。"
+    },
+    {
+      "title": "掌握什么思想会让你的数学水平有质的飞跃?",
+      "url": "https://www.zhihu.com/answer/2014363396879972095",
+      "summary": "正文把矩阵乘法解释为对空间进行拉伸、压缩、旋转和投影，并联系线性层与跨模态映射。"
+    },
+    {
+      "title": "你遇到过的最难的积分题目是什么？",
+      "url": "https://www.zhihu.com/answer/2014807363983532279",
+      "summary": "正文定义从多项式系数空间到取值空间的线性变换，并用其 Jacobi 矩阵变换积分测度。"
+    },
+    {
+      "title": "怎么理解虚数和复数？",
+      "url": "https://www.zhihu.com/answer/2015321086917641788",
+      "summary": "正文将虚数单位对应到平面旋转矩阵，并用旋转说明复数乘法的线性变换意义。"
+    },
+    {
+      "title": "线性代数究竟是为解决什么问题而生的?",
+      "url": "https://www.zhihu.com/answer/2016463933767197055",
+      "summary": "正文说明矩阵乘法用于表达多个线性变换复合后共同作用于空间的效果。"
+    },
+    {
+      "title": "如何评价2026年求真书院Pi节挑战赛？",
+      "url": "https://www.zhihu.com/answer/2016477474876319313",
+      "summary": "正文构造多项式求值线性映射，并用秩-零化度定理比较定义域维数、核维数与像空间秩。"
+    },
+    {
+      "title": "线性代数究竟是为解决什么问题而生的?",
+      "url": "https://www.zhihu.com/answer/2016506193850426813",
+      "summary": "正文解释矩阵乘法要保证复合多个线性变换与一次总变换的结果一致。"
+    },
+    {
+      "title": "线性代数究竟是为解决什么问题而生的?",
+      "url": "https://www.zhihu.com/answer/2016914765264462940",
+      "summary": "正文具体说明矩阵乘向量的拉伸、旋转和剪切意义，并讨论矩阵乘法对应的变换复合顺序。"
+    },
+    {
+      "title": "线性代数究竟是为解决什么问题而生的?",
+      "url": "https://www.zhihu.com/answer/2017362680575447876",
+      "summary": "正文用大语言模型中的权重矩阵说明矩阵乘法将词向量映射到新的注意力空间。"
+    },
+    {
+      "title": "虚数的现实、物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/2017498671030232930",
+      "summary": "正文用二维旋转矩阵表示复平面中的旋转，并说明它与乘以虚数 i 的作用一致。"
+    },
+    {
+      "title": "矩阵方程 AX+XB=C 的解怎么表达？",
+      "url": "https://www.zhihu.com/answer/2018436999774753825",
+      "summary": "正文把左右乘矩阵解释为矩阵空间上的线性算子，并用其复合研究方程。"
+    },
+    {
+      "title": "如何证明叉乘只存在R^3、R^7中？",
+      "url": "https://www.zhihu.com/answer/2018897594160543719",
+      "summary": "正文把叉乘与单位向量作用定义为线性变换，并用其反自伴性限制空间维数。"
+    },
+    {
+      "title": "如何看待丘成桐曾说：世界上所有的数学都是在微积分和线性代数上的变化?",
+      "url": "https://www.zhihu.com/answer/2019131220915680113",
+      "summary": "正文以向量、矩阵、特征值和线性变换说明线性代数处理结构与表示的框架。"
+    },
+    {
+      "title": "线性代数究竟是为解决什么问题而生的?",
+      "url": "https://www.zhihu.com/answer/2027469756047922904",
+      "summary": "正文明确说明矩阵乘向量对应空间中的旋转、拉伸和压缩等几何变换。"
+    },
+    {
+      "title": "如何评价Gilbert Strang最新的《线性代数》（第6版） 中文版？",
+      "url": "https://www.zhihu.com/answer/2028455231076222888",
+      "summary": "正文用列向量的基本步法和未知数步数解释矩阵所表达的线性组合与空间变换。"
+    },
+    {
+      "title": "为什么微积分、线性代数学起来这么割裂，用起来却是统一的，如何克服这一问题？",
+      "url": "https://www.zhihu.com/answer/2029893596904726557",
+      "summary": "正文把矩阵乘向量解释为拉伸、旋转或投影，并说明矩阵乘法表示连续的空间变换。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2030407309009084992",
+      "summary": "正文用单位立方体在连续线性变换下的体积倍数解释矩阵乘法与行列式乘法性质。"
+    },
+    {
+      "title": "为什么微积分、线性代数学起来这么割裂，用起来却是统一的，如何克服这一问题？",
+      "url": "https://www.zhihu.com/answer/2031740674672939206",
+      "summary": "正文用拉伸、旋转和剪切解释矩阵作为线性变换，并通过 SVD 说明复杂变换的几何分解。"
+    },
+    {
+      "title": "最小二乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2032014571423129706",
+      "summary": "正文把最小二乘解释为把观测向量投影到模型子空间，说明该线性投影如何给出最佳逼近。"
+    },
+    {
+      "title": "矩阵乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2032745439678681276",
+      "summary": "正文用拉伸、旋转、剪切和翻转说明矩阵表示线性变换，矩阵乘法表示变换的复合。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2034383880728343103",
+      "summary": "正文把映射的微分解释为切空间之间的线性映射，并说明链式法则就是线性映射的复合。"
+    },
+    {
+      "title": "如果让你重新开始学数学，你的学习路线会怎么选择?",
+      "url": "https://www.zhihu.com/answer/2034938624437900405",
+      "summary": "正文把矩阵乘法解释为线性变换的组合，并借此说明线代与模型计算的连接。"
+    },
+    {
+      "title": "为什么微积分、线性代数学起来这么割裂，用起来却是统一的，如何克服这一问题？",
+      "url": "https://www.zhihu.com/answer/2034949054698878220",
+      "summary": "正文用应力与位移等例子说明线性映射为何需要用矩阵刻画。"
+    },
+    {
+      "title": "为什么微积分、线性代数学起来这么割裂，用起来却是统一的，如何克服这一问题？",
+      "url": "https://www.zhihu.com/answer/2035407769394787314",
+      "summary": "正文把矩阵乘法解释为线性映射复合，并用转置与伴随说明矩阵求导中的线性结构。"
+    },
+    {
+      "title": "有什么看似复杂但实际上很简单的数学题？",
+      "url": "https://www.zhihu.com/answer/2035821430311534933",
+      "summary": "正文用换基后矩阵变化、结构量不变来说明线性变换的本质。"
+    },
+    {
+      "title": "如何理解矩阵的「秩」？",
+      "url": "https://www.zhihu.com/answer/2037090082625172473",
+      "summary": "正文说明矩阵作为线性变换会把高维空间压缩，而秩是像空间的维数。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2038239999410311964",
+      "summary": "正文把矩阵视为线性变换，说明该变换对任意图形体积的统一缩放比例由行列式决定。"
+    },
+    {
+      "title": "线性代数在你的学科里有什么应用？",
+      "url": "https://www.zhihu.com/answer/2038726682018838125",
+      "summary": "正文先解释线性函数的可加性与齐次性，再说明线性变换及神经网络中的线性层。"
+    },
+    {
+      "title": "特征值的模的最大值为何称为“谱半径”？是有什么几何含义吗？",
+      "url": "https://www.zhihu.com/answer/2039770693294940861",
+      "summary": "正文说明线性变换在特征向量方向上只作缩放，在复数情形可叠加旋转，并用 A^n 展示反复作用效果。"
+    },
+    {
+      "title": "有没有什么东西画完三视图还没办法确定的?",
+      "url": "https://www.zhihu.com/answer/2050396045767713946",
+      "summary": "正文把各方向的视图表示为正交投影映射，并在最后一个证明中利用线性无关的投影恢复顶点。"
+    },
+    {
+      "title": "线性代数中有很多矩阵分解方法，如何理解它们的区别和联系？",
+      "url": "https://www.zhihu.com/answer/2053889993135880133",
+      "summary": "正文从拉伸、旋转、压缩和错切等几何作用出发解释矩阵及各类分解的含义。"
+    },
+    {
+      "title": "张量的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2056356643504387769",
+      "summary": "正文详细定义线性映射、值域、零空间和同构，并以矩阵作为线性映射的表示。"
+    },
+    {
+      "title": "1/2阶导数是什么？",
+      "url": "https://www.zhihu.com/answer/2057130089268225956",
+      "summary": "正文把求导和积分视为线性算子，并借助算子的幂与函数演算解释分数阶运算。"
+    },
+    {
+      "title": "为什么矩阵的零空间叫做“核”？",
+      "url": "https://www.zhihu.com/answer/2057965507156914295",
+      "summary": "正文将矩阵核解释为线性映射中被压成全零的输入方向，并说明核向量造成的输出不可区分性。"
+    },
+    {
+      "title": "我想问一下-1的平方根怎么就是i了，那反过来验算，一个数的平方怎么可能是负数呢？",
+      "url": "https://www.zhihu.com/answer/2058818184715712432",
+      "summary": "正文将乘以虚数单位解释为逆时针旋转 90 度，并说明复数对应二维线性变换。"
+    },
+    {
+      "title": "如何评价 OpenAI 新模型 GPT-5.6 Sol Ultra，在不到一小时内证明循环双覆盖猜想？",
+      "url": "https://www.zhihu.com/answer/2060310855439356517",
+      "summary": "正文说明线性映射的像空间与对偶空间湮灭子的关系，并以此作为证明中的线性代数工具。"
+    },
+    {
+      "title": "如何评价 OpenAI 新模型 GPT-5.6 Sol Ultra，在不到一小时内证明循环双覆盖猜想？",
+      "url": "https://www.zhihu.com/answer/2060700642419676188",
+      "summary": "正文通过线性函数构成的湮灭子空间及其二次湮灭关系，展示证明所需的基础线性代数工具。"
+    },
+    {
+      "title": "为什么微积分、线性代数学起来这么割裂，用起来却是统一的，如何克服这一问题？",
+      "url": "https://www.zhihu.com/answer/2068567110083680042",
+      "summary": "正文把导数视为线性映射，并用线性映射复合与矩阵乘法说明链式法则。"
+    },
+    {
+      "title": "如果让你重新开始学数学，你的学习路线会怎么选择?",
+      "url": "https://www.zhihu.com/answer/2069292252602668811",
+      "summary": "正文把矩阵解释为线性映射在选定基下的表示，并据此建立线性代数直觉。"
+    },
+    {
+      "title": "有没有学数学的大佬给我讲一些非常牛逼的东西，震撼一下我这个非数学系的大学生？",
+      "url": "https://www.zhihu.com/answer/2070075819712688508",
+      "summary": "正文解释求导保持线性运算，并把微分算子视为作用在函数向量上的无穷维线性变换。"
+    },
+    {
+      "title": "乘法的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2074105195517236186",
+      "summary": "正文把矩阵解释为线性变换，并通过变换复合说明矩阵乘法的结构和类型约束。"
+    },
+    {
+      "title": "矩阵的秩与行列式的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/19609459",
+      "summary": "正文用线性变换前后体积和线性无关性说明行列式非零与可逆的关系，并解释秩。"
+    },
+    {
+      "title": "谈谈线性代数这门课程有什么用",
+      "url": "https://zhuanlan.zhihu.com/p/20745625",
+      "summary": "正文把方阵乘法 Ax=y 解释为把 n 维向量 X 线性变换成向量 Y。"
+    },
+    {
+      "title": "线性代数勾搭数据分析【2】",
+      "url": "https://zhuanlan.zhihu.com/p/21334217",
+      "summary": "正文把矩阵乘法解释为对向量或对象施加线性变换，并用拉伸例子说明。"
+    },
+    {
+      "title": "PCA的数学原理(转)",
+      "url": "https://zhuanlan.zhihu.com/p/21580949",
+      "summary": "正文系统解释基变换、矩阵乘法以及矩阵作为向量空间线性变换的表示。"
+    },
+    {
+      "title": "当我们在学线代的时候，我们究竟在学什么？",
+      "url": "https://zhuanlan.zhihu.com/p/22121735",
+      "summary": "正文用空间中的运动解释线性变换，并说明选定基后可用矩阵描述同一个变换。"
+    },
+    {
+      "title": "一篇用来劝退的伪安利文（中）",
+      "url": "https://zhuanlan.zhihu.com/p/22348210",
+      "summary": "正文用矩阵表示线性映射，并介绍自同态、线性变换、Jordan 标准型和内积空间中的特殊变换。"
+    },
+    {
+      "title": "如何生动有趣的入门线性代数",
+      "url": "https://zhuanlan.zhihu.com/p/23054096",
+      "summary": "正文把线性变换定义为由矩阵实现的映射，并用矩阵乘法说明向量空间的变换。"
+    },
+    {
+      "title": "矩阵变换坐标系 深入理解",
+      "url": "https://zhuanlan.zhihu.com/p/23130870",
+      "summary": "正文把矩阵各列解释为变换后的坐标轴，并用矩阵乘法说明点从旧坐标系到新坐标系的线性变换。"
+    },
+    {
+      "title": "【数据降维】主成分分析法",
+      "url": "https://zhuanlan.zhihu.com/p/23299597",
+      "summary": "正文把 PCA 解释为对原始特征施加线性变换，生成新的线性组合变量。"
+    },
+    {
+      "title": "串讲 线性代数、概率、熵",
+      "url": "https://zhuanlan.zhihu.com/p/23361299",
+      "summary": "正文用物体位置和决定状态的多维因素说明线性代数用于描述任意维度空间中的状态变化，对应线性变换这一核心作用。"
+    },
+    {
+      "title": "我理解的傅里叶变换",
+      "url": "https://zhuanlan.zhihu.com/p/23739221",
+      "summary": "正文用线性组合保持性定义线性映射，并进一步解释双线性，作为内积与傅里叶基展开的基础。"
+    },
+    {
+      "title": "Learn R  |  数据降维之主成分分析（上）",
+      "url": "https://zhuanlan.zhihu.com/p/23776251",
+      "summary": "正文把 PCA 定义为对原始数据作线性变换并将坐标轴旋转到新方向，以构造主成分。"
+    },
+    {
+      "title": "看了这篇文章你还不能理解对偶空间算我输",
+      "url": "https://zhuanlan.zhihu.com/p/23871517",
+      "summary": "正文把 V 上全体线性函数组成对偶空间，并讨论 V 与双重对偶 V** 的自然同构，围绕线性映射及对偶构造展开。"
+    },
+    {
+      "title": "线性代数在数学领域中的一些微小应用例子",
+      "url": "https://zhuanlan.zhihu.com/p/24095655",
+      "summary": "正文以有限维线性映射、伴随映射及其核维数关系说明线性变换的指标定理特例。"
+    },
+    {
+      "title": "我也许明白了“自然”到底意味着什么",
+      "url": "https://zhuanlan.zhihu.com/p/24022405",
+      "summary": "正文比较线性空间到对偶空间及双对偶空间的变换，说明基选择与自然同构的区别。"
+    },
+    {
+      "title": "[十]椭圆的「压缩变换」",
+      "url": "https://zhuanlan.zhihu.com/p/25054251",
+      "summary": "正文把坐标缩放视为变换，并证明向量的线性组合系数在压缩前后保持不变。"
+    },
+    {
+      "title": "机器学习中的矩阵/向量求导",
+      "url": "https://zhuanlan.zhihu.com/p/25063314",
+      "summary": "正文说明可用线性变换的求导法则替代向量对矩阵求导，并解释其在反向传播场景中的便利。"
+    },
+    {
+      "title": "神TM线性代数——再看《线性代数的本质》",
+      "url": "https://zhuanlan.zhihu.com/p/25309638",
+      "summary": "正文用矩阵左乘和列向量组合说明矩阵如何表示线性变换。"
+    },
+    {
+      "title": "流形学习之 PCA与FA",
+      "url": "https://zhuanlan.zhihu.com/p/25713005",
+      "summary": "正文把降维描述为矩阵乘法实现的线性映射，并围绕映射矩阵与重构误差讨论 PCA 和 FA。"
+    },
+    {
+      "title": "机器学习系列-SVD篇",
+      "url": "https://zhuanlan.zhihu.com/p/25801478",
+      "summary": "正文从矩阵乘法对向量的旋转和伸缩效果解释线性变换，并说明特征方向如何刻画变换。"
+    },
+    {
+      "title": "矩阵的特征：特征值，特征向量，行列式，trace",
+      "url": "https://zhuanlan.zhihu.com/p/25955676",
+      "summary": "正文把矩阵乘法解释为对平面向量施加映射，并通过方向与模长的变化分析多次变换。"
+    },
+    {
+      "title": "线性代数的直觉理解（1）",
+      "url": "https://zhuanlan.zhihu.com/p/25624675",
+      "summary": "正文用 Ma=b 的两种解释和矩阵乘法说明同一对象在线性变换及不同坐标系下的表达。"
+    },
+    {
+      "title": "用数学编辑3D模型（三）- Subspace Mesh Deformation",
+      "url": "https://zhuanlan.zhihu.com/p/26153181",
+      "summary": "正文把子空间优化解释为变量替换，并以线性映射 WP 将控制网格坐标变换到模型坐标。"
+    },
+    {
+      "title": "【线性变换/矩阵及乘法】- 图解线性代数 03",
+      "url": "https://zhuanlan.zhihu.com/p/26591729",
+      "summary": "正文通过基向量运动、直线与平行性保持及空间伸缩翻转讲解线性变换的几何意义。"
+    },
+    {
+      "title": "【秩 / 列空间 / 零空间】- 图解线性代数 09",
+      "url": "https://zhuanlan.zhihu.com/p/26942211",
+      "summary": "正文把矩阵乘法解释为线性变换，并用列向量张成的空间说明变换后的维数变化。"
+    },
+    {
+      "title": "关于线性代数的一些杂记",
+      "url": "https://zhuanlan.zhihu.com/p/27059903",
+      "summary": "正文用 PID 上的模分解推出有理标准型，并以此分析矩阵迹与换位子的关系。"
+    },
+    {
+      "title": "《小王爱迁移》系列之二：联合分布适配(JDA)方法简介",
+      "url": "https://zhuanlan.zhihu.com/p/27336930",
+      "summary": "正文把迁移目标写成寻找矩阵 A 对数据作线性变换，并约束变换前后数据方差不变。"
+    },
+    {
+      "title": "四元数——旋转",
+      "url": "https://zhuanlan.zhihu.com/p/27541307",
+      "summary": "正文把三维向量表示为纯四元数，并以单位四元数和其共轭实施保模长的旋转变换。"
+    },
+    {
+      "title": "Dimensionality Reduction——LDA线性判别分析原理篇",
+      "url": "https://zhuanlan.zhihu.com/p/27899927",
+      "summary": "正文把矩阵 W 解释为把原始特征空间投影到 K 维空间的线性投影变换。"
+    },
+    {
+      "title": "YJango的Batch Normalization--介绍",
+      "url": "https://zhuanlan.zhihu.com/p/27938792",
+      "summary": "正文先对批量矩阵作仿射线性变换，再进入 Batch Normalization 的标准化和缩放平移步骤。"
+    },
+    {
+      "title": "MIT线性代数课程精细笔记[第二课]",
+      "url": "https://zhuanlan.zhihu.com/p/28325166",
+      "summary": "正文把对矩阵各行实施的消元操作表示为单位阵变形后左乘的线性变换。"
+    },
+    {
+      "title": "有限域挂谷问题",
+      "url": "https://zhuanlan.zhihu.com/p/28359827",
+      "summary": "正文把多项式限制到 K 上的取值构造为线性映射，利用单射性和维数比较得到集合大小下界。"
+    },
+    {
+      "title": "神经网络中数学知识简易梳理",
+      "url": "https://zhuanlan.zhihu.com/p/27664917",
+      "summary": "正文把矩阵乘向量解释为坐标系的整体线性变换，并讨论连续变换顺序。"
+    },
+    {
+      "title": "【数学课堂】为什么学线性代数",
+      "url": "https://zhuanlan.zhihu.com/p/29322393",
+      "summary": "正文用旋转矩阵和拉伸压缩矩阵说明线性变换如何作用于整个二维空间及图像坐标。"
+    },
+    {
+      "title": "第二课：酉空间的分解与投影",
+      "url": "https://zhuanlan.zhihu.com/p/29312940",
+      "summary": "正文定义线性变换并用幂等条件 T^2=T 刻画投影，也说明其与投影矩阵的对应。"
+    },
+    {
+      "title": "第三课：正交投影",
+      "url": "https://zhuanlan.zhihu.com/p/29437461",
+      "summary": "正文用线性变换及其值域与核刻画沿特定子空间的投影。"
+    },
+    {
+      "title": "降维打击-观察高维世界",
+      "url": "https://zhuanlan.zhihu.com/p/27204291",
+      "summary": "正文把 PCA 定义为正交化线性变换及坐标系统变换，作为降维方法的核心。"
+    },
+    {
+      "title": "第五课：初等矩阵及酉矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/29916475",
+      "summary": "正文以此定义正交变换和酉变换，并说明它们保内积、长度、夹角和形状。"
+    },
+    {
+      "title": "知识图谱向量化表示",
+      "url": "https://zhuanlan.zhihu.com/p/30320631",
+      "summary": "正文用关系相关矩阵把实体向量投影到关系空间，属于以线性变换构造嵌入。"
+    },
+    {
+      "title": "机器学习算法实践-标准与局部加权线性回归",
+      "url": "https://zhuanlan.zhihu.com/p/30422174",
+      "summary": "正文用向特征矩阵列空间的投影解释线性回归的最小二乘解。"
+    },
+    {
+      "title": "如何理解不同特征值对应的特征向量线性无关？",
+      "url": "https://zhuanlan.zhihu.com/p/30454490",
+      "summary": "正文从几何角度把特征向量解释为矩阵变换中只伸缩不旋转的方向。"
+    },
+    {
+      "title": "第十课：算子范数（一）",
+      "url": "https://zhuanlan.zhihu.com/p/30538362",
+      "summary": "正文研究矩阵作用于任意向量后的范数估计，并用算子范数刻画线性映射的伸缩上界。"
+    },
+    {
+      "title": "谈线性代数里面的正交变换和复习线代的感悟",
+      "url": "https://zhuanlan.zhihu.com/p/30542390",
+      "summary": "正文列举正交变换保点、线、平行、夹角和长度等性质，并通过三角形剖分说明它保持图形形状。"
+    },
+    {
+      "title": "如何理解相似矩阵？",
+      "url": "https://zhuanlan.zhihu.com/p/31003468",
+      "summary": "正文从点的映射和矩阵乘法解释线性变换，并以镜面反转说明矩阵对平面各点的作用。"
+    },
+    {
+      "title": "（一）矩阵乘法",
+      "url": "https://zhuanlan.zhihu.com/p/31339735",
+      "summary": "正文把基矩阵乘向量解释为坐标变换，并据此说明矩阵表示线性变换。"
+    },
+    {
+      "title": "（五）理解矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/31387216",
+      "summary": "正文给出线性变换的保线性定义，并说明选定基后可用矩阵作用于向量来描述该变换。"
+    },
+    {
+      "title": "理解矩阵（个人认为这是关于矩阵最精彩的理解，推荐）",
+      "url": "https://zhuanlan.zhihu.com/p/31540555",
+      "summary": "正文在选定基后，用矩阵具体表示并实施线性变换。"
+    },
+    {
+      "title": "线性代数（二）如何理解矩阵乘法",
+      "url": "https://zhuanlan.zhihu.com/p/32133330",
+      "summary": "正文将矩阵视为从向量空间到向量空间的映射，并解释直线在线性映射下仍保持为直线。"
+    },
+    {
+      "title": "PCA主成分分析学习总结",
+      "url": "https://zhuanlan.zhihu.com/p/32412043",
+      "summary": "正文通过基变换矩阵P和Y=PX说明矩阵乘法如何把样本映射到新的表示空间。"
+    },
+    {
+      "title": "第三讲：三维空间的刚体运动",
+      "url": "https://zhuanlan.zhihu.com/p/32937868",
+      "summary": "正文把不同坐标系间保持长度和方向的刚体运动表述为旋转与平移组成的欧式变换。"
+    },
+    {
+      "title": "第四讲：李群和李代数",
+      "url": "https://zhuanlan.zhihu.com/p/33156814",
+      "summary": "正文把空间点的旋转写成矩阵作用，并据此讨论旋转对向量的导数与扰动模型。"
+    },
+    {
+      "title": "将线性代数形象化（五） · 点积、叉乘与对偶性",
+      "url": "https://zhuanlan.zhihu.com/p/33413224",
+      "summary": "正文强调向量可作为线性变换的载体，通过二维到数轴的投影和对偶性解释线性变换与向量对偶的关系。"
+    },
+    {
+      "title": "线性代数之[线性变换]",
+      "url": "https://zhuanlan.zhihu.com/p/33572698",
+      "summary": "正文定义线性变换，系统讨论其加法、乘法、逆变换、值域与核以及不变子空间。"
+    },
+    {
+      "title": "数模系列(7)：Fisher判别分析（Fisher Discriminant Analysis）",
+      "url": "https://zhuanlan.zhihu.com/p/33742983",
+      "summary": "正文用内积定义从特征空间到判别直线的线性投影，并解释投影值的几何含义。"
+    },
+    {
+      "title": "矩阵的四个子空间及其联系",
+      "url": "https://zhuanlan.zhihu.com/p/34056351",
+      "summary": "正文把矩阵方程解释为从行空间所在空间到列空间所在空间的线性映射。"
+    },
+    {
+      "title": "矩阵对角化与奇异值分解",
+      "url": "https://zhuanlan.zhihu.com/p/34281291",
+      "summary": "正文把矩阵乘法解释为向量空间之间的线性变换，并用矩阵表示不同基下的同一变换。"
+    },
+    {
+      "title": "“广义相对论的钥匙：张量”专题之一",
+      "url": "https://zhuanlan.zhihu.com/p/34617350",
+      "summary": "正文以从 R² 到 R² 的线性映射为例，说明映射本身不依赖基底而矩阵表示随基底变化。"
+    },
+    {
+      "title": "“广义相对论的钥匙：张量”专题之二",
+      "url": "https://zhuanlan.zhihu.com/p/34776782",
+      "summary": "正文用互逆矩阵描述两组基及其坐标之间的线性变换，并讨论协变和逆变关系。"
+    },
+    {
+      "title": "《深度学习》“花书”的佐餐，线性代数就从这份笔记开始吧",
+      "url": "https://zhuanlan.zhihu.com/p/35076333",
+      "summary": "正文说明矩阵可作为线性变换的工具，并以矩阵作用于特征向量得到同向新向量作为直观解释。"
+    },
+    {
+      "title": "“广义相对论的钥匙：张量”专题之三",
+      "url": "https://zhuanlan.zhihu.com/p/35307112",
+      "summary": "正文将余向量解释为输入向量并输出实数的线性函数，并讨论它在换基下的作用与表示。"
+    },
+    {
+      "title": "从零开始学习「张氏相机标定法」（二）单应矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/35309172",
+      "summary": "正文把单应性解释为世界坐标到像素坐标的映射变换，并讨论其矩阵表示。"
+    },
+    {
+      "title": "【解析几何】椭圆的内接三角形：奇妙的定值",
+      "url": "https://zhuanlan.zhihu.com/p/35317430",
+      "summary": "正文用伸缩仿射变换把椭圆化为单位圆，并依据面积伸缩关系完成三角形面积的证明。"
+    },
+    {
+      "title": "【计算机视觉】1. 张正友平面标定法",
+      "url": "https://zhuanlan.zhihu.com/p/36371959",
+      "summary": "正文把旋转和平移统一成坐标变换，并推导齐次变换矩阵的复合关系。"
+    },
+    {
+      "title": "（大四）现代张量分析（1）",
+      "url": "https://zhuanlan.zhihu.com/p/36856300",
+      "summary": "正文给出基变换矩阵并推导矢量分量在两组基之间的转换关系，实质讲解坐标变换。"
+    },
+    {
+      "title": "圆锥曲线的伸缩变换与几何定理的推广",
+      "url": "https://zhuanlan.zhihu.com/p/37072584",
+      "summary": "正文把椭圆作 x/a、y/b 的伸缩变换化为单位圆，并推导面积、斜率和长度的变化规律。"
+    },
+    {
+      "title": "Spatial Transformer Networks",
+      "url": "https://zhuanlan.zhihu.com/p/37110107",
+      "summary": "正文把平移、缩放、旋转和剪切统一写成矩阵形式的仿射变换，并说明变换参数的作用。"
+    },
+    {
+      "title": "理解Jacobian和Hessian",
+      "url": "https://zhuanlan.zhihu.com/p/37306749",
+      "summary": "正文从仿射变换出发，把Jacobian解释为非线性向量函数在某点的最佳线性变换矩阵。"
+    },
+    {
+      "title": "麻省理工线性代数笔记（十九）-特征值和特征向量",
+      "url": "https://zhuanlan.zhihu.com/p/37600888",
+      "summary": "正文从寻找线性变换后方向不变的向量入手，解释特征向量与线性变换的关系。"
+    },
+    {
+      "title": "麻省理工线性代数笔记（二十）-矩阵对角化",
+      "url": "https://zhuanlan.zhihu.com/p/37664416",
+      "summary": "正文从换基角度解释对角化，说明变换前后的线性变换本质相同。"
+    },
+    {
+      "title": "主成分分析（PCA）原理详解",
+      "url": "https://zhuanlan.zhihu.com/p/37777074",
+      "summary": "正文说明PCA把数据由n维特征映射到k维正交特征空间，形成线性投影变换。"
+    },
+    {
+      "title": "最小二乘法（least sqaure method）",
+      "url": "https://zhuanlan.zhihu.com/p/38128785",
+      "summary": "正文把观测向量到列空间的正交投影作为最小二乘解的核心几何解释。"
+    },
+    {
+      "title": "6、零空间概念，Ax=0",
+      "url": "https://zhuanlan.zhihu.com/p/38136449",
+      "summary": "正文用变换后落到原点的向量集合解释线性变换的核，并说明核是原空间的子空间。"
+    },
+    {
+      "title": "14、范数、内积、归一、正交化、标准正交(Schmidt化）",
+      "url": "https://zhuanlan.zhihu.com/p/39448632",
+      "summary": "正文以 A 为正交阵定义 Y=AX 所给出的正交变换，并强调它保持内积不变。"
+    },
+    {
+      "title": "1.1 光滑函数、函数芽、导数、切向量、向量场",
+      "url": "https://zhuanlan.zhihu.com/p/40287232",
+      "summary": "正文定义线性映射与同构，并证明切空间到点导数空间的方向导数映射是同构。"
+    },
+    {
+      "title": "奇异值分解【MIT线代第三十课】",
+      "url": "https://zhuanlan.zhihu.com/p/40976849",
+      "summary": "正文把奇异值分解解释为行空间正交基到列空间正交基的线性变换，并讨论变换方向与特征向量的关联。"
+    },
+    {
+      "title": "21、二次型、合同关系、惯性指数、标准型、规范型，XTAX",
+      "url": "https://zhuanlan.zhihu.com/p/41287534",
+      "summary": "正文把二次型的线性替换 X=PY 解释为可逆线性变换，并推导合同矩阵 B=P^T A P。"
+    },
+    {
+      "title": "线性代数入门",
+      "url": "https://zhuanlan.zhihu.com/p/41951467",
+      "summary": "正文从矩阵乘向量和连续矩阵乘法的几何意义出发，讲解旋转、缩放、错切和齐次变换。"
+    },
+    {
+      "title": "Koopman 分析在动力系统中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/42407497",
+      "summary": "正文通过函数空间上的线性 Koopman 算子及其不变子空间，把非线性动力系统转化为线性表示。"
+    },
+    {
+      "title": "用行列式的几何意义来理解行列式的十大性质",
+      "url": "https://zhuanlan.zhihu.com/p/42484037",
+      "summary": "正文把矩阵视为线性变换，并用面积或体积的缩放解释可逆性、乘法和转置性质。"
+    },
+    {
+      "title": "\"观察算符A与B可对易则能找到共同本征矢\"及其反命题",
+      "url": "https://zhuanlan.zhihu.com/p/42670295",
+      "summary": "正文借助固定空间内的线性变换与子空间对角化解释共同本征矢的构造。"
+    },
+    {
+      "title": "奇异值的物理意义",
+      "url": "https://zhuanlan.zhihu.com/p/42896542",
+      "summary": "正文从单位圆到椭圆的几何变化说明矩阵对应线性变换。"
+    },
+    {
+      "title": "MP1：重温高等数学：复平面与Euler公式",
+      "url": "https://zhuanlan.zhihu.com/p/42639576",
+      "summary": "正文把复数乘法解释为单位圆上的平面旋转，并用旋转矩阵说明其线性变换意义。"
+    },
+    {
+      "title": "MP2：平面旋转群SO(2)",
+      "url": "https://zhuanlan.zhihu.com/p/43974422",
+      "summary": "正文把平面旋转看作只由旋转角决定的向量线性变换。"
+    },
+    {
+      "title": "MP4：对偶、逆变与协变",
+      "url": "https://zhuanlan.zhihu.com/p/43749205",
+      "summary": "正文用基矩阵的变化推导坐标的逆变规律，并在 SO(2) 旋转下说明坐标反向旋转。"
+    },
+    {
+      "title": "Gap4：线性代数基本慨念",
+      "url": "https://zhuanlan.zhihu.com/p/43792297",
+      "summary": "正文以货币基变换为例说明坐标系数与基的逆变关系，并定义基变换下保持双线性形式不变的协变规则。"
+    },
+    {
+      "title": "数据分析方法——主成分分析（PCA）",
+      "url": "https://zhuanlan.zhihu.com/p/44453206",
+      "summary": "正文通过坐标平移和旋转变换构造主元，并用正交矩阵表示该线性变换。"
+    },
+    {
+      "title": "三维旋转：欧拉角、四元数、旋转矩阵、轴角之间的转换",
+      "url": "https://zhuanlan.zhihu.com/p/45404840",
+      "summary": "正文把旋转视为用矩阵左乘向量并作用于三维向量的变换，讨论主动旋转与复合顺序。"
+    },
+    {
+      "title": "用C++编写一个简单的光栅化渲染器：3D篇",
+      "url": "https://zhuanlan.zhihu.com/p/45757899",
+      "summary": "正文用缩放、旋转和平移矩阵及其组合顺序讲解三维点与坐标系的线性变换。"
+    },
+    {
+      "title": "MIT—线性代数笔记28 相似矩阵和若尔当标准型",
+      "url": "https://zhuanlan.zhihu.com/p/46087288",
+      "summary": "正文把相似矩阵解释为同一线性变换在不同基下的矩阵表示。"
+    },
+    {
+      "title": "线性代数学习总结（上）",
+      "url": "https://zhuanlan.zhihu.com/p/46061802",
+      "summary": "正文把矩阵乘法解释为空间到空间的作用，并讨论值域、投影和特征方向。"
+    },
+    {
+      "title": "MIT—线性代数笔记29 奇异值分解",
+      "url": "https://zhuanlan.zhihu.com/p/46100282",
+      "summary": "正文把矩阵乘以向量解释为行空间到列空间的线性变换，并寻找适配基。"
+    },
+    {
+      "title": "马氏距离(Mahalanobis Distance)",
+      "url": "https://zhuanlan.zhihu.com/p/46626607",
+      "summary": "正文具体说明如何通过旋转和缩放坐标线性变换把马氏距离化为欧氏距离。"
+    },
+    {
+      "title": "详解方差分析表(ANOVA)(一) —— 线性回归与矩阵代数.回顾",
+      "url": "https://zhuanlan.zhihu.com/p/47175790",
+      "summary": "正文把 Hat 矩阵作用解释为向设计矩阵列空间的正投影线性变换。"
+    },
+    {
+      "title": "深入了解PCA",
+      "url": "https://zhuanlan.zhihu.com/p/47858230",
+      "summary": "正文以正交矩阵把高维样本映射到低维空间，展开了PCA所依赖的线性变换。"
+    },
+    {
+      "title": "从共鸣定理谈起",
+      "url": "https://zhuanlan.zhihu.com/p/48490417",
+      "summary": "正文定义赋范空间之间的线性算子，并以有界性判别和算子收敛说明线性变换的性质。"
+    },
+    {
+      "title": "Neighbourhood Component Analysis",
+      "url": "https://zhuanlan.zhihu.com/p/48371593",
+      "summary": "正文把矩阵 A 同时解释为参数映射和降维变换，通过 Ax 将样本投影到低维空间。"
+    },
+    {
+      "title": "如何做主成分分析和因子分析？它们的区别与联系在哪里？",
+      "url": "https://zhuanlan.zhihu.com/p/49481213",
+      "summary": "正文把主成分分析解释为坐标轴旋转和正交线性变换，并讨论变换后的新变量。"
+    },
+    {
+      "title": "Cayley-Hamilton 定理",
+      "url": "https://zhuanlan.zhihu.com/p/49119054",
+      "summary": "正文围绕线性变换的特征多项式展开，并通过扩张标量和商模给出定理证明。"
+    },
+    {
+      "title": "高等代数|复习提纲（1）——矩阵与方程组",
+      "url": "https://zhuanlan.zhihu.com/p/50362479",
+      "summary": "正文把矩阵乘法与初等行变换对应起来，说明左乘初等矩阵如何对矩阵施行变换。"
+    },
+    {
+      "title": "不同坐标系下基矢量的关系",
+      "url": "https://zhuanlan.zhihu.com/p/50491649",
+      "summary": "正文用系数矩阵及其逆矩阵完成直角坐标基矢量与极坐标基矢量之间的变换。"
+    },
+    {
+      "title": "机器人位姿描述与坐标变换",
+      "url": "https://zhuanlan.zhihu.com/p/50514528",
+      "summary": "正文通过左乘与右乘变换矩阵解释固定坐标系和动坐标系下的旋转复合。"
+    },
+    {
+      "title": "球谐光照与PRT学习笔记（四）：球谐函数的性质与球谐旋转",
+      "url": "https://zhuanlan.zhihu.com/p/50699527",
+      "summary": "正文用旋转矩阵作用于同一阶球谐系数，实质讲解球谐空间中的线性变换。"
+    },
+    {
+      "title": "线性代数之——特征值和特征向量",
+      "url": "https://zhuanlan.zhihu.com/p/51011531",
+      "summary": "正文以矩阵乘向量后方向的保持或改变解释线性变换的特征方向与实际作用。"
+    },
+    {
+      "title": "一种简易的旋转球谐函数系数的方法",
+      "url": "https://zhuanlan.zhihu.com/p/51267461",
+      "summary": "正文指出球谐系数旋转是线性变换，并分别按每一阶构造对应的旋转系数矩阵。"
+    },
+    {
+      "title": "线性空间直和分解随笔",
+      "url": "https://zhuanlan.zhihu.com/p/51289866",
+      "summary": "正文定义直和并证明核空间、根子空间等在线性变换下的直和分解，讨论如何把空间分成更小空间研究。"
+    },
+    {
+      "title": "干货 | 万字长文带你复习线性代数！",
+      "url": "https://zhuanlan.zhihu.com/p/52013163",
+      "summary": "正文把矩阵乘法解释为向量到向量及不同坐标系之间的线性变换。"
+    },
+    {
+      "title": "表象变换的幺正算符怎么定义的? 为何说算符与态可以看作矩阵?",
+      "url": "https://zhuanlan.zhihu.com/p/52196787",
+      "summary": "正文把同一算符在不同基上的作用解释为线性变换，并通过变换矩阵、共轭转置和相似变换实现换基。"
+    },
+    {
+      "title": "矩阵分解 (乘法篇)",
+      "url": "https://zhuanlan.zhihu.com/p/52984150",
+      "summary": "正文把对角、三角和正交因子分别解释为缩放、切变和旋转，讨论矩阵乘法对应的几何变换。"
+    },
+    {
+      "title": "可视化理解四元数，愿你不再掉头发",
+      "url": "https://zhuanlan.zhihu.com/p/53872740",
+      "summary": "正文把四元数左乘解释为伸缩与四维旋转的复合，并用左右乘共轭构造三维空间旋转。"
+    },
+    {
+      "title": "高等代数|复习提纲（2）——线性空间与映射",
+      "url": "https://zhuanlan.zhihu.com/p/53909822",
+      "summary": "正文系统讲解线性映射、表示矩阵、像与核以及线性变换的维数关系。"
+    },
+    {
+      "title": "常见的矩阵秩(不)等式及其各种证明",
+      "url": "https://zhuanlan.zhihu.com/p/55206421",
+      "summary": "正文用线性空间、核与像及线性映射重新证明 Sylvester、Frobenius 等秩不等式。"
+    },
+    {
+      "title": "[深度科普] 张量：理解相对论的必备语言 (下)",
+      "url": "https://zhuanlan.zhihu.com/p/53926267",
+      "summary": "正文从二维坐标旋转推广到四维洛伦兹变换，说明张量分量如何随线性坐标变换变化。"
+    },
+    {
+      "title": "详细推导PCA算法",
+      "url": "https://zhuanlan.zhihu.com/p/55297233",
+      "summary": "正文解释正交基变换引起的旋转与伸缩，并用变换矩阵描述坐标系的线性变换。"
+    },
+    {
+      "title": "为什么用PCA做点云法线估计？",
+      "url": "https://zhuanlan.zhihu.com/p/56541912",
+      "summary": "正文把 PCA 描述为正交基变换，并以变换后坐标中的方差解释点集的最佳表达。"
+    },
+    {
+      "title": "三维空间绕任意轴旋转矩阵的推导",
+      "url": "https://zhuanlan.zhihu.com/p/56587491",
+      "summary": "正文分别计算三个基向量经过旋转后的像，再由这些像得到对应的线性变换矩阵。"
+    },
+    {
+      "title": "[深度科普] 度规与时空(上)：从二次型的几何直观说起",
+      "url": "https://zhuanlan.zhihu.com/p/53933076",
+      "summary": "正文详细说明直角与斜角坐标系之间的基底变换、坐标变换矩阵以及二次型的协变变换规律。"
+    },
+    {
+      "title": "为什么无法直接求解Rendering Equation",
+      "url": "https://zhuanlan.zhihu.com/p/56443239",
+      "summary": "正文用线性算子表示积分和微分操作，并通过算子方程及 Neumann 级数展开分析反射传输。"
+    },
+    {
+      "title": "力学进阶版（一）——复习微分形式（上）",
+      "url": "https://zhuanlan.zhihu.com/p/57328202",
+      "summary": "正文把线性变换表示为二阶混变张量，并说明它如何把一个矢量映射为另一个矢量。"
+    },
+    {
+      "title": "遐思：线性微分方程通解的本质",
+      "url": "https://zhuanlan.zhihu.com/p/57817241",
+      "summary": "正文把微分算子与基函数组合视为线性变换，用T*C=0解释齐次线性方程的结构。"
+    },
+    {
+      "title": "深入理解PCA与SVD的关系",
+      "url": "https://zhuanlan.zhihu.com/p/58064462",
+      "summary": "正文用变换矩阵 P 将样本从 n 维映射到 k 维，并解释该线性变换实现降维与压缩。"
+    },
+    {
+      "title": "python应用：机器学习--主成分分析PCA",
+      "url": "https://zhuanlan.zhihu.com/p/58253325",
+      "summary": "正文把 PCA 定义为向一组新的正交基作线性映射，并用矩阵乘法解释降维后的坐标变换。"
+    },
+    {
+      "title": "SVD奇异值分解的数学涵义及其应用实例",
+      "url": "https://zhuanlan.zhihu.com/p/57803955",
+      "summary": "正文把矩阵视为线性变换，并借助 SVD 将其解释为旋转、拉伸、再旋转的复合过程。"
+    },
+    {
+      "title": "主成分分析(PCA)的详细解释",
+      "url": "https://zhuanlan.zhihu.com/p/58663947",
+      "summary": "正文把主成分解释为新的坐标轴，并通过坐标重新定向和线性组合完成降维。"
+    },
+    {
+      "title": "谱积分以及谱分解的理解",
+      "url": "https://zhuanlan.zhihu.com/p/58996259",
+      "summary": "正文把投影和算子谱分解解释为线性变换在正交直交基上的分解与重组。"
+    },
+    {
+      "title": "张量分析笔记（二）",
+      "url": "https://zhuanlan.zhihu.com/p/57431006",
+      "summary": "正文把并矢解释为对矢量作线性变换的算子，并讨论其点积、缩并和与矩阵作用的等价关系。"
+    },
+    {
+      "title": "一文让你通俗理解奇异值分解",
+      "url": "https://zhuanlan.zhihu.com/p/59324612",
+      "summary": "正文用拉伸、旋转和正交基解释矩阵对向量的线性变换，并据此说明特征方向与奇异方向的几何含义。"
+    },
+    {
+      "title": "线性变换（一）【直观理解线性变换】",
+      "url": "https://zhuanlan.zhihu.com/p/60209876",
+      "summary": "正文从坐标系网格的保持关系直观解释线性变换，并给出保持加法与数乘的定义和性质。"
+    },
+    {
+      "title": "解析几何（一）【叉乘为啥这样定义】",
+      "url": "https://zhuanlan.zhihu.com/p/60356761",
+      "summary": "正文用三维到一维的线性变换及其对偶向量解释叉乘定义为什么成立。"
+    },
+    {
+      "title": "回看线性代数：从坐标变换到量子力学中的表象",
+      "url": "https://zhuanlan.zhihu.com/p/57474380",
+      "summary": "正文从基矢和坐标变换出发，把矩阵视为线性变换在不同基下的表示。"
+    },
+    {
+      "title": "多元高斯分布概率密度推导",
+      "url": "https://zhuanlan.zhihu.com/p/62606437",
+      "summary": "正文用正交方向上的投影和坐标变换说明如何消除变量间的相关性。"
+    },
+    {
+      "title": "什么是本征函数？",
+      "url": "https://zhuanlan.zhihu.com/p/63626566",
+      "summary": "正文把矩阵理解成线性变换，将向量映为同方向缩放后的向量，并把这一关系推广到微分算子上的本征函数。"
+    },
+    {
+      "title": "如何理解共轭梯度法?",
+      "url": "https://zhuanlan.zhihu.com/p/64227658",
+      "summary": "正文把矩阵 A 对向量的作用解释为线性变换，并以 A 定义共轭内积和共轭正交。"
+    },
+    {
+      "title": "Linear.1 谱定理（Spectral Theorem ）通往PCA和SVD的基石.(T-B)",
+      "url": "https://zhuanlan.zhihu.com/p/65314970",
+      "summary": "正文以自伴随线性变换及其正交对角化陈述实谱定理，并梳理证明结构。"
+    },
+    {
+      "title": "SLAM中线特征的参数化和求导",
+      "url": "https://zhuanlan.zhihu.com/p/65674067",
+      "summary": "正文说明同一空间直线可在 Plücker 坐标和正交表示间转换，以坐标变换服务于初始化与优化。"
+    },
+    {
+      "title": "MATLAB画图技巧：让魔方转起来！",
+      "url": "https://zhuanlan.zhihu.com/p/65852036",
+      "summary": "正文用旋转矩阵左乘 Transform 对象的矩阵来旋转立方体层，实际应用了三维线性变换。"
+    },
+    {
+      "title": "视觉伺服(Visual Servo)",
+      "url": "https://zhuanlan.zhihu.com/p/66520286",
+      "summary": "正文把雅可比矩阵解释为向量函数的最优线性逼近，并用它关联相机运动与图像点速度。"
+    },
+    {
+      "title": "手把手教你将矩阵画成张量网络图",
+      "url": "https://zhuanlan.zhihu.com/p/67074661",
+      "summary": "正文以输入空间和输出空间刻画矩阵作为线性映射，并用边的缩并表示映射复合。"
+    },
+    {
+      "title": "reoriented normal blend注解",
+      "url": "https://zhuanlan.zhihu.com/p/68375439",
+      "summary": "正文展开 r=qpq* 的旋转作用及四元数乘法，说明了一个具体的向量线性变换。"
+    },
+    {
+      "title": "【洛谷日报#142】计算几何初步",
+      "url": "https://zhuanlan.zhihu.com/p/68617952",
+      "summary": "正文通过三角恒等变换推导向量旋转后的坐标公式，展示了平面旋转变换。"
+    },
+    {
+      "title": "如何理解复数的四则运算？",
+      "url": "https://zhuanlan.zhihu.com/p/68763358",
+      "summary": "正文推出复数乘法会使模长相乘、幅角相加，将其解释为平面上的拉伸与旋转变换。"
+    },
+    {
+      "title": "多自由度小振动系统初步(1)-绪论",
+      "url": "https://zhuanlan.zhihu.com/p/71855288",
+      "summary": "正文通过规范正交基矩阵把原坐标和速度变换为简正坐标，说明线性基变换在解方程中的作用。"
+    },
+    {
+      "title": "渲染管线中的法线变换矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/72734738",
+      "summary": "正文以模型矩阵、视图矩阵和投影矩阵说明坐标空间之间的线性变换链。"
+    },
+    {
+      "title": "如何理解飞机的五种飞行模态",
+      "url": "https://zhuanlan.zhihu.com/p/72599326",
+      "summary": "正文用特征向量改变坐标基并简化矩阵所描述的线性系统，实质展开了基变换。"
+    },
+    {
+      "title": "[2]世界、相机、图像坐标系之间的转换(三维重建)",
+      "url": "https://zhuanlan.zhihu.com/p/75076326",
+      "summary": "正文把坐标转换拆成旋转、平移和齐次矩阵复合，并讨论二维及三维旋转的线性表示。"
+    },
+    {
+      "title": "单应性Homography估计：从传统算法到深度学习",
+      "url": "https://zhuanlan.zhihu.com/p/74597564",
+      "summary": "正文用矩阵乘法统一旋转和平移，并区分刚体、仿射及透视变换。"
+    },
+    {
+      "title": "Jordan标准型：根子空间+准素分解，幂零变换+循环分解，Weyr特征，A与A^T相似",
+      "url": "https://zhuanlan.zhihu.com/p/75745789",
+      "summary": "正文从复向量空间上的线性变换出发，通过核空间和值域研究其准素分解与循环分解。"
+    },
+    {
+      "title": "李群和李代数（一）：刚体的三维运动",
+      "url": "https://zhuanlan.zhihu.com/p/76959511",
+      "summary": "正文把旋转表示为作用在坐标向量上的旋转矩阵，并推导旋转和刚体变换的矩阵形式。"
+    },
+    {
+      "title": "从希尔伯特空间的角度看线性变换的一般思想和问题",
+      "url": "https://zhuanlan.zhihu.com/p/76969134",
+      "summary": "正文用特征基下的坐标拉伸、旋转和降维解释一般线性变换的作用。"
+    },
+    {
+      "title": "【机器学习】降维——PCA（非常详细）",
+      "url": "https://zhuanlan.zhihu.com/p/77151308",
+      "summary": "正文把以基向量为行构成的矩阵作用解释为将数据列向量变换到新基空间。"
+    },
+    {
+      "title": "1 Introduction of Koopman theory",
+      "url": "https://zhuanlan.zhihu.com/p/77438448",
+      "summary": "正文把非线性离散动力系统的状态演化提升为对观测函数的线性变换，并说明有限维近似思路。"
+    },
+    {
+      "title": "2 动态模态分解(DMD) 近似 Koopman算符",
+      "url": "https://zhuanlan.zhihu.com/p/77519115",
+      "summary": "正文把当前状态到下一状态的演化建模为矩阵 A 所表示的线性映射，并通过相似矩阵近似该映射。"
+    },
+    {
+      "title": "2. 状态空间方程的解 Solution of State-Space Equations",
+      "url": "https://zhuanlan.zhihu.com/p/78664433",
+      "summary": "正文把矩阵指数解释为随时间变化的线性变换，并用状态转移矩阵刻画初始向量在状态空间中的演化。"
+    },
+    {
+      "title": "傅里叶变换的性质及基本应用",
+      "url": "https://zhuanlan.zhihu.com/p/78775455",
+      "summary": "正文把傅里叶积分变换解释为作用在函数空间上的线性变换。"
+    },
+    {
+      "title": "四元数和旋转(Quaternion & rotation)",
+      "url": "https://zhuanlan.zhihu.com/p/78987582",
+      "summary": "正文把旋转视为保持长度、夹角和手性的三维线性变换，并证明四元数共轭作用满足该关系。"
+    },
+    {
+      "title": "矩阵分析(一)：空间变换与基变换",
+      "url": "https://zhuanlan.zhihu.com/p/69069042",
+      "summary": "正文从标准基向量被映射为 u、v 出发，说明矩阵乘法如何实现坐标空间中的线性变换。"
+    },
+    {
+      "title": "矩阵分析(二)：从特征值到奇异值",
+      "url": "https://zhuanlan.zhihu.com/p/69069183",
+      "summary": "正文从空间变换和基变换角度解释线性映射，说明不同基下同一线性变换的矩阵表示。"
+    },
+    {
+      "title": "理解相似矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/80208967",
+      "summary": "正文通过两个基空间和坐标变化解释相似变换，说明相似矩阵是同一线性变换在不同基下的表示。"
+    },
+    {
+      "title": "谱图理论(spectral graph theory)",
+      "url": "https://zhuanlan.zhihu.com/p/80817719",
+      "summary": "正文把矩阵视为线性变换，用反复乘以矩阵后的方向变化解释特征向量。"
+    },
+    {
+      "title": "图像的仿射变换",
+      "url": "https://zhuanlan.zhihu.com/p/80852438",
+      "summary": "正文把仿射变换解释为线性变换与平移的组合，并给出矩阵作用在坐标向量上的公式。"
+    },
+    {
+      "title": "如何理解正定矩阵和半正定矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/81169491",
+      "summary": "正文把矩阵乘法解释为对向量按指定方向进行缩放或翻转的线性变换，并据此直观说明正定性。"
+    },
+    {
+      "title": "线性代数总结 第四章 线性方程组",
+      "url": "https://zhuanlan.zhihu.com/p/56821179",
+      "summary": "正文定义基之间的过渡矩阵和坐标变换公式，说明同一向量在两组基下坐标的线性变换关系。"
+    },
+    {
+      "title": "机械振动理论(3)-解析实模态分析",
+      "url": "https://zhuanlan.zhihu.com/p/82211194",
+      "summary": "正文用模态振型矩阵实施坐标变换，并通过逆变换在物理坐标和模态坐标之间转换。"
+    },
+    {
+      "title": "浅谈线性变换和矩阵之间的关系",
+      "url": "https://zhuanlan.zhihu.com/p/83201626",
+      "summary": "正文从线性变换在一组基下的像出发，通过基向量坐标建立其矩阵表示，并讨论同一线性变换换基后的矩阵关系。"
+    },
+    {
+      "title": "浅谈矩阵的相似对角化（一）",
+      "url": "https://zhuanlan.zhihu.com/p/83224613",
+      "summary": "正文从线性变换在不同基下的矩阵出发，将寻找对角矩阵的问题转化为选择适当基并求解线性变换的特征向量。"
+    },
+    {
+      "title": "如何区分线性系统与非线性系统",
+      "url": "https://zhuanlan.zhihu.com/p/84365683",
+      "summary": "正文以比例性和叠加性定义函数及系统的线性性，并讨论如何据此判断线性关系。"
+    },
+    {
+      "title": "Real-Time Polygonal-Light with LTC",
+      "url": "https://zhuanlan.zhihu.com/p/84714602",
+      "summary": "正文定义线性变换球面分布，并推导变换前后分布之间的关系。"
+    },
+    {
+      "title": "为什么行列式为零，向量组就线性相关",
+      "url": "https://zhuanlan.zhihu.com/p/84778855",
+      "summary": "正文用线性变换对面积和体积的作用解释行列式，并联结向量组的线性相关。"
+    },
+    {
+      "title": "PCA（主成分分析）原理推导",
+      "url": "https://zhuanlan.zhihu.com/p/84946694",
+      "summary": "正文把降维解释为样本向量在选定方向上的线性投影。"
+    },
+    {
+      "title": "欧拉角细节/旋转顺序/内旋外旋",
+      "url": "https://zhuanlan.zhihu.com/p/85108850",
+      "summary": "正文讨论多次旋转的次序、内旋外旋及矩阵乘法表示，说明不同线性变换组合的等价关系。"
+    },
+    {
+      "title": "现代控制理论线性系统入门(一)状态方程描述下的动态系统",
+      "url": "https://zhuanlan.zhihu.com/p/82621398",
+      "summary": "正文定义线性函数和线性系统，并说明矩阵如何表示状态与输入到输出的线性关系。"
+    },
+    {
+      "title": "旋转之一 - 复数与2D旋转",
+      "url": "https://zhuanlan.zhihu.com/p/85321120",
+      "summary": "正文把复数乘法解释为二维旋转与缩放的线性变换，并导出旋转矩阵。"
+    },
+    {
+      "title": "现代控制理论线性系统入门(四)能控性和能观性",
+      "url": "https://zhuanlan.zhihu.com/p/85772766",
+      "summary": "正文通过可逆坐标变换矩阵把SISO系统化为能控标准型和能观标准型。"
+    },
+    {
+      "title": "旋转之二 - 三维空间中的旋转:罗德里格旋转公式",
+      "url": "https://zhuanlan.zhihu.com/p/85862903",
+      "summary": "正文构造三维空间中绕定轴旋转的向量映射，并推导罗德里格旋转公式。"
+    },
+    {
+      "title": "旋转之三 - 旋转矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/86223712",
+      "summary": "正文把旋转解释为保持轴方向不变的线性变换，并用矩阵作用揭示旋转轴。"
+    },
+    {
+      "title": "附笔记pdf下载，MIT线性代数课程精细笔记[第二课]",
+      "url": "https://zhuanlan.zhihu.com/p/88272838",
+      "summary": "正文把行消元操作写成乘以初等矩阵，从而用矩阵乘法表示对矩阵施行的线性变换。"
+    },
+    {
+      "title": "算子大法好：二阶非齐次微分方程特解",
+      "url": "https://zhuanlan.zhihu.com/p/89350923",
+      "summary": "正文明确定义微分算子L并证明其保持函数线性组合，体现函数空间上的线性变换性质。"
+    },
+    {
+      "title": "微分几何笔记(1) —— 预备知识",
+      "url": "https://zhuanlan.zhihu.com/p/89925647",
+      "summary": "正文证明等距变换可写成平移与正交线性变换的复合，并推广 Mazur-Ulam 定理。"
+    },
+    {
+      "title": "人工智能中的线性代数：如何理解并更好地应用它",
+      "url": "https://zhuanlan.zhihu.com/p/90119323",
+      "summary": "正文解释线性映射保持线性组合，并用矩阵描述向量在不同基之间的变换。"
+    },
+    {
+      "title": "雅可比矩阵、黑森矩阵、泰勒展开式",
+      "url": "https://zhuanlan.zhihu.com/p/90496291",
+      "summary": "正文把雅可比矩阵解释为多元向量函数在一点附近的最佳线性逼近。"
+    },
+    {
+      "title": "多元正态分布简介",
+      "url": "https://zhuanlan.zhihu.com/p/90272131",
+      "summary": "正文推导多元正态变量经向量或矩阵线性变换后的均值与协方差。"
+    },
+    {
+      "title": "泛函分析学习笔记 I：线性算子",
+      "url": "https://zhuanlan.zhihu.com/p/90734643",
+      "summary": "正文给出线性算子满足可加性与齐次性的定义，并讨论其连续性，实质对应线性变换。"
+    },
+    {
+      "title": "量子逻辑门与任意幺正操作的表示",
+      "url": "https://zhuanlan.zhihu.com/p/91102999",
+      "summary": "正文将一位门解释为布洛赫球面上点的移动，并用 Hadamard 与相移门复合实现目标旋转。"
+    },
+    {
+      "title": "PCA(主成分分析) 和 SVD (奇异值分解)",
+      "url": "https://zhuanlan.zhihu.com/p/92507652",
+      "summary": "正文把 SVD 的矩阵分解解释为旋转与缩放的复合，并据此讨论矩阵对空间的作用。"
+    },
+    {
+      "title": "Unity中常用矩阵的推导",
+      "url": "https://zhuanlan.zhihu.com/p/93022039",
+      "summary": "正文从线性变换定义出发推导缩放、旋转和仿射变换矩阵，并讨论变换顺序。"
+    },
+    {
+      "title": "做控制要知道的刚体旋转知识（一）轴角法",
+      "url": "https://zhuanlan.zhihu.com/p/94584704",
+      "summary": "正文具体解释用单位轴向量和旋转角描述三维坐标系旋转及其表示方法。"
+    },
+    {
+      "title": "做控制要知道的刚体旋转知识（二）四元数",
+      "url": "https://zhuanlan.zhihu.com/p/94853040",
+      "summary": "正文解释单位四元数如何表示空间旋转、合成连续旋转，以及用共轭完成向量旋转。"
+    },
+    {
+      "title": "度规张量（Metric Tensor）以及它的本质",
+      "url": "https://zhuanlan.zhihu.com/p/94862461",
+      "summary": "正文围绕基变换矩阵解释斜角坐标到直角坐标的线性变换及向量长度保持计算。"
+    },
+    {
+      "title": "线代主要知识点",
+      "url": "https://zhuanlan.zhihu.com/p/94538301",
+      "summary": "正文说明二次型在可逆线性变换下的矩阵合同关系及标准型化。"
+    },
+    {
+      "title": "特征值和特征向量",
+      "url": "https://zhuanlan.zhihu.com/p/95836870",
+      "summary": "正文把矩阵解释为线性变换，并通过向量方向和缩放描述特征向量的几何意义。"
+    },
+    {
+      "title": "线代笔记（二）：线性方程组的三种视角",
+      "url": "https://zhuanlan.zhihu.com/p/96387085",
+      "summary": "以矩阵对向量的线性变换解释方程可解性、满秩、降维和逆变换。"
+    },
+    {
+      "title": "线性代数的本质",
+      "url": "https://zhuanlan.zhihu.com/p/96443919",
+      "summary": "以线性映射的加法保持和数乘保持性质统一解释矩阵、微分与积分。"
+    },
+    {
+      "title": "图形学中的基本变换(Basic Transforms)",
+      "url": "https://zhuanlan.zhihu.com/p/96717729",
+      "summary": "正文从线性变换的加法和数乘条件出发，推导二维旋转矩阵并讨论变换复合。"
+    },
+    {
+      "title": "两种常见的点云配准方法ICP&NDT",
+      "url": "https://zhuanlan.zhihu.com/p/96908474",
+      "summary": "正文把点云配准表述为寻找旋转和平移变换，使变换后的对应点误差最小。"
+    },
+    {
+      "title": "四元数(Quaternions)",
+      "url": "https://zhuanlan.zhihu.com/p/97186723",
+      "summary": "正文用单位四元数的共轭乘积表示并连接三维旋转线性变换。"
+    },
+    {
+      "title": "二维旋转矩阵与向量旋转",
+      "url": "https://zhuanlan.zhihu.com/p/98007510",
+      "summary": "正文通过动静坐标系与基向量的同步旋转解释向量旋转所对应的线性变换。"
+    },
+    {
+      "title": "做控制要知道的刚体旋转知识（四）旋转矩阵/方向余弦矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/98676459",
+      "summary": "正文把点绕坐标轴的旋转写成矩阵乘法，并由二维旋转推广到三维坐标变换和旋转复合。"
+    },
+    {
+      "title": "如何解读 SIMCA 主成分分析（PCA）的结果？",
+      "url": "https://zhuanlan.zhihu.com/p/96677251",
+      "summary": "正文用坐标轴旋转变换解释主成分如何以更少维度表示样本差异。"
+    },
+    {
+      "title": "机器人雅可比矩阵的理解和常用公式",
+      "url": "https://zhuanlan.zhihu.com/p/100798276",
+      "summary": "正文说明雅可比矩阵如何把关节空间速度线性变换为末端笛卡尔空间速度。"
+    },
+    {
+      "title": "电子科技大学矩阵理论复习笔记 矩阵理论 第一章 从入门到入土",
+      "url": "https://zhuanlan.zhihu.com/p/101886426",
+      "summary": "正文把投影解释为由一个空间到另一个空间的线性变换，并以 Ax=b 说明其矩阵作用。"
+    },
+    {
+      "title": "张量(一)：对偶基，协变量，逆变量",
+      "url": "https://zhuanlan.zhihu.com/p/101946523",
+      "summary": "正文把两组基之间的变换写成可逆线性映射，并据此推导坐标变换关系。"
+    },
+    {
+      "title": "一条狗的量子力学笔记——第四章 态和力学量的表象",
+      "url": "https://zhuanlan.zhihu.com/p/102010363",
+      "summary": "正文用幺正矩阵同时变换态矢量和算符矩阵，说明不同表象之间的线性变换。"
+    },
+    {
+      "title": "二维零场 Ising model 严格解",
+      "url": "https://zhuanlan.zhihu.com/p/101888542",
+      "summary": "正文通过对 Majorana 算符作线性变换，使一次量子化转移矩阵化为二乘二分块并据此求谱。"
+    },
+    {
+      "title": "「秩-零化度定理」(Rank-Nullity Theorem)",
+      "url": "https://zhuanlan.zhihu.com/p/102521072",
+      "summary": "正文定义线性变换的核与值域，并从矩阵和变换两个角度证明秩-零化度定理。"
+    },
+    {
+      "title": "如何推导旋转矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/102814853",
+      "summary": "正文从新旧坐标系方位关系解释坐标旋转，并指出可由旋转矩阵把旧坐标变换为新坐标。"
+    },
+    {
+      "title": "基于EKF的航姿解算(AHRS)",
+      "url": "https://zhuanlan.zhihu.com/p/103617763",
+      "summary": "正文用旋转矩阵在导航系和载体坐标系之间变换加速度与磁场向量，并进一步融合姿态估计。"
+    },
+    {
+      "title": "看到椭圆就仿射？浅谈仿射变换的正确使用方式",
+      "url": "https://zhuanlan.zhihu.com/p/103913880",
+      "summary": "正文具体推导坐标缩放变换对斜率、长度和图形关系的影响，体现仿射坐标变换的作用。"
+    },
+    {
+      "title": "傅里叶变换",
+      "url": "https://zhuanlan.zhihu.com/p/104079068",
+      "summary": "正文用正交基和坐标表示解释傅里叶级数中的基底展开。"
+    },
+    {
+      "title": "圆锥曲线第一节：矢量和对偶矢量",
+      "url": "https://zhuanlan.zhihu.com/p/104253403",
+      "summary": "正文定义矢量空间上的线性函数，构造对偶空间与对偶基，讨论线性映射之间的自然配对。"
+    },
+    {
+      "title": "圆锥曲线第二节：张量和指标缩并",
+      "url": "https://zhuanlan.zhihu.com/p/104253515",
+      "summary": "正文把 (1,1) 型张量解释为矢量空间到自身的线性映射，并对应矩阵乘法和单位映射。"
+    },
+    {
+      "title": "三维点云配准 -- ICP 算法原理及推导",
+      "url": "https://zhuanlan.zhihu.com/p/104735380",
+      "summary": "正文把点云配准建模为旋转和平移作用下的刚体坐标变换。"
+    },
+    {
+      "title": "线性代数精华——矩阵的特征值与特征向量",
+      "url": "https://zhuanlan.zhihu.com/p/104980382",
+      "summary": "正文用线性变换后方向不变、仅长度改变来解释特征向量的几何意义。"
+    },
+    {
+      "title": "EWA滤波",
+      "url": "https://zhuanlan.zhihu.com/p/105167411",
+      "summary": "正文把圆的坐标变量经 M 映射到以两条纹理轴为基的坐标系，实质是二维线性变换。"
+    },
+    {
+      "title": "『恋数』椭圆与不等式的那些事儿",
+      "url": "https://zhuanlan.zhihu.com/p/105224480",
+      "summary": "正文解释矩阵乘法可表示线性变换和坐标变换，并将其用于二次型标准化。"
+    },
+    {
+      "title": "线性代数总结 第六章 第二部分 曲面和二次曲面（附图）",
+      "url": "https://zhuanlan.zhihu.com/p/56933963",
+      "summary": "正文用正交变换改变坐标，消去二次型的交叉项并判别曲面类型。"
+    },
+    {
+      "title": "【知识图谱】Knowledge Graph Embedding: A Survey",
+      "url": "https://zhuanlan.zhihu.com/p/106024679",
+      "summary": "正文通过关系专属矩阵把头尾实体投影到另一空间，实质使用线性变换实现不同关系下的实体表示。"
+    },
+    {
+      "title": "特征值和特征向量Eigenvalue & Eigenvector",
+      "url": "https://zhuanlan.zhihu.com/p/107118598",
+      "summary": "正文用坐标互换和旋转矩阵解释矩阵对向量的线性变换。"
+    },
+    {
+      "title": "泛函分析笔记（19）对偶空间与伴随算子",
+      "url": "https://zhuanlan.zhihu.com/p/108388982",
+      "summary": "正文构造对偶空间之间的伴随映射，并证明其为有界线性算子且保持算子范数、兼容复合运算。"
+    },
+    {
+      "title": "坐标变换(2)—不同坐标系下的变换",
+      "url": "https://zhuanlan.zhihu.com/p/108789534",
+      "summary": "正文把坐标变换定义为同一向量在不同坐标系中的重新表示，并推导旋转矩阵乘法及齐次变换矩阵。"
+    },
+    {
+      "title": "10. SISO反馈控制器设计 (1)：状态反馈控制 State Feedback Control",
+      "url": "https://zhuanlan.zhihu.com/p/108753324",
+      "summary": "正文通过非奇异矩阵的相似变换把系统化为能控标准型，是在矩阵表示下讨论线性变换。"
+    },
+    {
+      "title": "形象理解二维傅里叶变换",
+      "url": "https://zhuanlan.zhihu.com/p/110026009",
+      "summary": "正文把傅里叶变换解释为在正交复指数基上的投影，并由基系数叠加还原原信号。"
+    },
+    {
+      "title": "学好线性代数，我推荐这本书",
+      "url": "https://zhuanlan.zhihu.com/p/110896551",
+      "summary": "正文在介绍教材第三章时说明线性映射是向量空间之间的自然映射，并在选定基后由矩阵表示。"
+    },
+    {
+      "title": "对于向量和矩阵的理解",
+      "url": "https://zhuanlan.zhihu.com/p/111337479",
+      "summary": "正文用网格、基向量和复合变换解释线性变换的几何含义。"
+    },
+    {
+      "title": "线性代数的本质(7)--点积",
+      "url": "https://zhuanlan.zhihu.com/p/112216204",
+      "summary": "正文以多维空间到一维空间的映射解释点积和投影变换。"
+    },
+    {
+      "title": "QR分解",
+      "url": "https://zhuanlan.zhihu.com/p/112327923",
+      "summary": "正文用投影、反射和正交矩阵解释旋转等线性变换及其矩阵形式。"
+    },
+    {
+      "title": "Diagonalization 矩阵对角化",
+      "url": "https://zhuanlan.zhihu.com/p/113501803",
+      "summary": "正文把矩阵对向量的作用解释为坐标的线性变换，并据此推导对角化关系。"
+    },
+    {
+      "title": "坐标变换(4)—旋转矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/113975973",
+      "summary": "正文把旋转矩阵用于向量与坐标系的参考系变换，并给出同一向量的基变换计算。"
+    },
+    {
+      "title": "线性代数本质(9)--基变换",
+      "url": "https://zhuanlan.zhihu.com/p/114084418",
+      "summary": "正文用 A^{-1}MA 解释同一线性变换在不同基下如何换一种坐标语言表示。"
+    },
+    {
+      "title": "线性代数的本质(10)-特征值与特征向量",
+      "url": "https://zhuanlan.zhihu.com/p/114392447",
+      "summary": "正文比较矩阵列所依赖的坐标描述与不依赖坐标系的特征向量描述，并用三维旋转轴说明线性变换。"
+    },
+    {
+      "title": "矩阵的几种分解方式 - 加强版",
+      "url": "https://zhuanlan.zhihu.com/p/115381559",
+      "summary": "正文把正交矩阵解释为保持距离的线性变换，并讨论旋转、镜射及其群结构。"
+    },
+    {
+      "title": "线性系统理论（一）状态空间描述",
+      "url": "https://zhuanlan.zhihu.com/p/114516587",
+      "summary": "正文说明状态空间的坐标变换是通过非奇异线性变换化简系统表示。"
+    },
+    {
+      "title": "厄米算符与Dirac符号",
+      "url": "https://zhuanlan.zhihu.com/p/116848951",
+      "summary": "正文把算符解释为函数空间之间的线性变换，并讨论其选取基后的矩阵表示。"
+    },
+    {
+      "title": "转置卷积(Transpose Convolution)",
+      "url": "https://zhuanlan.zhihu.com/p/115070523",
+      "summary": "正文把卷积写成矩阵 C 作用于展平输入的线性映射，并以转置矩阵实现反向尺寸扩展。"
+    },
+    {
+      "title": "正交矩阵学习小结",
+      "url": "https://zhuanlan.zhihu.com/p/120170892",
+      "summary": "正文定义保持内积不变的正交变换，说明其在标准正交基下的矩阵是正交矩阵，并用它区分旋转和镜像变换。"
+    },
+    {
+      "title": "如何优雅地编码文本中的位置信息？三种positional encoding方法简述",
+      "url": "https://zhuanlan.zhihu.com/p/121126531",
+      "summary": "正文把位置 pos+k 的编码写成固定矩阵乘以前一位置编码，说明该变换是线性变换。"
+    },
+    {
+      "title": "[图形学笔记]推导投影矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/122411512",
+      "summary": "正文用矩阵左乘坐标向量，具体说明视锥体压缩和坐标标准化所对应的线性变换。"
+    },
+    {
+      "title": "相机模型中四个坐标系的关系",
+      "url": "https://zhuanlan.zhihu.com/p/125006810",
+      "summary": "正文把世界坐标系到相机坐标系的变换拆解为旋转、平移以及后续投影和缩放。"
+    },
+    {
+      "title": "对雅可比矩阵的理解",
+      "url": "https://zhuanlan.zhihu.com/p/123934469",
+      "summary": "正文以邻域内的线性近似刻画非线性变换，并解释基矢在线性变换下的变化。"
+    },
+    {
+      "title": "问题引导的代数学: 行列式的多样性",
+      "url": "https://zhuanlan.zhihu.com/p/126678527",
+      "summary": "正文把矩阵视为空间上的线性变换，并用变换前后体积比解释行列式的几何意义。"
+    },
+    {
+      "title": "什么是张量(tensor)？",
+      "url": "https://zhuanlan.zhihu.com/p/121429834",
+      "summary": "正文通过旋转矩阵定义坐标变换，并证明张量在该线性变换下保持整体不变。"
+    },
+    {
+      "title": "Frobenius不等式与sylvester不等式",
+      "url": "https://zhuanlan.zhihu.com/p/129064037",
+      "summary": "正文利用线性映射的像、核和维数公式证明秩不等式，并由此推出 Sylvester 不等式。"
+    },
+    {
+      "title": "【2.3】正式谈谈矩阵的乘法和矩阵的逆",
+      "url": "https://zhuanlan.zhihu.com/p/126548944",
+      "summary": "正文把矩阵乘法解释为线性变换，并以逆矩阵恢复被变换的向量来阐释其逆作用。"
+    },
+    {
+      "title": "矩阵相乘的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/133631891",
+      "summary": "正文把线性方程组表示的坐标映射解释为从一个空间到另一个空间的线性变换。"
+    },
+    {
+      "title": "矩阵分析与应用（一，矩阵基础知识）",
+      "url": "https://zhuanlan.zhihu.com/p/132681782",
+      "summary": "正文给出线性映射和线性变换的矩阵表示，并讨论 Jordan 标准型及正交、酉、Hermite 变换。"
+    },
+    {
+      "title": "Sylvester方程的可解性——W.E.Roth定理",
+      "url": "https://zhuanlan.zhihu.com/p/136885202",
+      "summary": "正文把 X 到 AX-XB 视为线性映射，并从核与满射性讨论 Sylvester 方程的唯一可解性。"
+    },
+    {
+      "title": "直观理解！你一定要读一下的“矩阵和线性代数入门”",
+      "url": "https://zhuanlan.zhihu.com/p/137112358",
+      "summary": "正文把矩阵解释为线性空间之间的线性变换，并用拉伸、压缩、投影和复合变换说明其作用。"
+    },
+    {
+      "title": "理解矩阵的相似对角化",
+      "url": "https://zhuanlan.zhihu.com/p/138285148",
+      "summary": "正文从换基角度解释相似对角化，说明对角矩阵是同一线性变换在更简单基下的表示。"
+    },
+    {
+      "title": "线性代数复习笔记(1)",
+      "url": "https://zhuanlan.zhihu.com/p/138282175",
+      "summary": "正文定义线性空间的同构与同态并讨论其保持的线性结构。"
+    },
+    {
+      "title": "评价模型一秒懂（2）",
+      "url": "https://zhuanlan.zhihu.com/p/139433078",
+      "summary": "正文用线性变换解释主成分分析如何把相关变量转换为不相关变量并降维。"
+    },
+    {
+      "title": "如何理解二次型的线性替换",
+      "url": "https://zhuanlan.zhihu.com/p/139794652",
+      "summary": "正文用二阶矩阵定义二次型的坐标替换，并强调非退化替换是换基而非改变图形本身。"
+    },
+    {
+      "title": "数学基础 | 矩阵分解及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/140089850",
+      "summary": "正文把 SVD 解释为旋转、非负缩放和旋转三个线性映射步骤。"
+    },
+    {
+      "title": "SPSS主成分分析 | 指标权重值计算真的不难！（上）",
+      "url": "https://zhuanlan.zhihu.com/p/141188583",
+      "summary": "正文把主成分分析解释为对相关变量施行线性变换并降维。"
+    },
+    {
+      "title": "深入理解旋转矩阵和平移向量的本质",
+      "url": "https://zhuanlan.zhihu.com/p/141597984",
+      "summary": "正文把坐标系中的点写成P1=RP2并据此讲解刚体运动的旋转与平移变换。"
+    },
+    {
+      "title": "从对极几何恢复相机运动",
+      "url": "https://zhuanlan.zhihu.com/p/141799551",
+      "summary": "正文利用坐标系旋转和平移实现向量转换，并据此建立相机运动关系。"
+    },
+    {
+      "title": "理解二次型的标准形和惯性定理",
+      "url": "https://zhuanlan.zhihu.com/p/141824840",
+      "summary": "正文用非退化线性替换解释二次型标准化的坐标变换过程。"
+    },
+    {
+      "title": "张量代数 - 何为张量？",
+      "url": "https://zhuanlan.zhihu.com/p/141629622",
+      "summary": "正文从线性映射出发定义多重线性函数并解释张量的映射含义。"
+    },
+    {
+      "title": "一个例子看懂二次型的三种线性替换的区别",
+      "url": "https://zhuanlan.zhihu.com/p/142063353",
+      "summary": "正文围绕二次型的非退化线性替换，比较配方、合同变换和正交替换三种坐标变换。"
+    },
+    {
+      "title": "如何理解矩阵特征值的意义?",
+      "url": "https://zhuanlan.zhihu.com/p/142597513",
+      "summary": "正文把矩阵和算子理解为线性变换，并说明特征向量在变换下只发生固定倍数伸缩。"
+    },
+    {
+      "title": "正交矩阵之旋转矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/143056551",
+      "summary": "正文把矩阵解释为标准正交基确定的线性变换，并说明行列式为 1 的正交矩阵对应保持定向的旋转。"
+    },
+    {
+      "title": "SPSS数据分析1——主成分分析",
+      "url": "https://zhuanlan.zhihu.com/p/143324362",
+      "summary": "正文把主成分分析定义为通过正交线性变换把相关变量压缩成互不相关的主成分。"
+    },
+    {
+      "title": "计算机图形学一：基础变换矩阵总结(缩放，旋转，位移)",
+      "url": "https://zhuanlan.zhihu.com/p/144323332",
+      "summary": "正文把缩放、剪切和旋转统一写成矩阵乘法，并推导二维与三维旋转矩阵。"
+    },
+    {
+      "title": "LSA潜在语义分析的原理、公式推导和应用",
+      "url": "https://zhuanlan.zhihu.com/p/144367432",
+      "summary": "正文把矩阵奇异值分解解释为由两次旋转和一次坐标轴缩放构成的线性变换。"
+    },
+    {
+      "title": "【2.7】P矩阵：置换矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/144347366",
+      "summary": "正文说明左右乘置换矩阵分别重排行与列，本质上是对矩阵作线性变换。"
+    },
+    {
+      "title": "机器人工程师进阶之路（六）旋量法（上）",
+      "url": "https://zhuanlan.zhihu.com/p/144144300",
+      "summary": "正文用旋转矩阵表示绕空间固定轴或各坐标轴的转动，实质说明了旋转型的线性变换。"
+    },
+    {
+      "title": "给大一学生的 Lie 代数",
+      "url": "https://zhuanlan.zhihu.com/p/144789716",
+      "summary": "正文把方阵推广为一般线性空间上的线性变换，并通过换基和线性映射解释括积与导子。"
+    },
+    {
+      "title": "欧拉角和旋转矩阵之间的转换",
+      "url": "https://zhuanlan.zhihu.com/p/144032401",
+      "summary": "正文比较不同旋转次序的矩阵表示，说明内外旋组合对应同一线性变换。"
+    },
+    {
+      "title": "微分几何笔记(8) —— 切向量，切空间",
+      "url": "https://zhuanlan.zhihu.com/p/145193962",
+      "summary": "正文将光滑映射的微分定义为切空间之间的线性映射，并推导其复合、恒等和同构性质。"
+    },
+    {
+      "title": "比泰勒展开更牛的函数近似？？！!",
+      "url": "https://zhuanlan.zhihu.com/p/146365699",
+      "summary": "正文利用有限维内积空间到子空间的正交投影，构造目标函数在多项式子空间中的最近点。"
+    },
+    {
+      "title": "图傅里叶变换",
+      "url": "https://zhuanlan.zhihu.com/p/147687999",
+      "summary": "正文把图傅里叶变换具体定义为投影矩阵乘以图信号，并讨论其在不同图结构下的变换作用。"
+    },
+    {
+      "title": "[线性代数] 4 Jordan标准形的意义",
+      "url": "https://zhuanlan.zhihu.com/p/148242004",
+      "summary": "正文从线性变换在一组基上的伸缩作用解释对角化和Jordan标准形的意义。"
+    },
+    {
+      "title": "SLAM线特征学习（1）——基本的线特征表示与优化推导",
+      "url": "https://zhuanlan.zhihu.com/p/149028042",
+      "summary": "正文给出世界坐标系到相机坐标系的齐次矩阵变换，并解释其中的旋转和平移作用。"
+    },
+    {
+      "title": "[线性代数] 2 内积空间上的算子，谱定理",
+      "url": "https://zhuanlan.zhihu.com/p/149167337",
+      "summary": "正文从线性映射的可对角化与好基选择出发，解释自伴和正规算子的结构。"
+    },
+    {
+      "title": "高斯映射与 Weingarten 映射",
+      "url": "https://zhuanlan.zhihu.com/p/149536723",
+      "summary": "正文把Weingarten变换定义为切空间上的线性映射，并说明只需确定它在线性空间基底上的作用。"
+    },
+    {
+      "title": "\"Linformer\" 拍了拍 \"被吊打的Transformers 后浪们\"",
+      "url": "https://zhuanlan.zhihu.com/p/149890569",
+      "summary": "正文用线性投影把键值矩阵映射到低维空间，从而降低自注意力计算量。"
+    },
+    {
+      "title": "主成分分析(principal component analysis)",
+      "url": "https://zhuanlan.zhihu.com/p/150097862",
+      "summary": "正文以坐标旋转和投影解释如何把高维数据表示到新的低维坐标中。"
+    },
+    {
+      "title": "浅谈λ—矩阵与矩阵的若尔当标准形",
+      "url": "https://zhuanlan.zhihu.com/p/150194821",
+      "summary": "正文从线性变换的特征矩阵出发，讨论矩阵与线性变换在取基后的联系。"
+    },
+    {
+      "title": "从被忽视到大放异彩，这个理论经历了什么？！！",
+      "url": "https://zhuanlan.zhihu.com/p/150835148",
+      "summary": "正文说明矩阵作用在向量上产生伸缩、旋转等线性变换，故对应线性变换。"
+    },
+    {
+      "title": "给大一学生的 Lie 代数 II",
+      "url": "https://zhuanlan.zhihu.com/p/150888844",
+      "summary": "正文用固定元素的括积构造 Lie 代数上的线性变换，并讨论其核、像和同态性质，故对应线性变换。"
+    },
+    {
+      "title": "基变换和坐标变换",
+      "url": "https://zhuanlan.zhihu.com/p/151192770",
+      "summary": "正文以旋转和 A 逆矩阵乘 M 乘 A 解释同一线性变换在不同基下的表示。"
+    },
+    {
+      "title": "“拨开迷雾”，如何判定矩阵相似？",
+      "url": "https://zhuanlan.zhihu.com/p/151231495",
+      "summary": "正文通过基变换和坐标代换说明相似矩阵表示同一个线性变换在不同基下的矩阵。"
+    },
+    {
+      "title": "线性变换的矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/151376080",
+      "summary": "正文系统讲解线性变换在给定基下的表示矩阵、运算对应关系及换基后的相似关系。"
+    },
+    {
+      "title": "线性代数预习自学笔记-20：特征值的重数",
+      "url": "https://zhuanlan.zhihu.com/p/152625629",
+      "summary": "正文定义不变子空间，并证明特征向量张成的子空间在线性算子作用下保持不变。"
+    },
+    {
+      "title": "线性变换的值域与核",
+      "url": "https://zhuanlan.zhihu.com/p/153467121",
+      "summary": "正文系统讲解线性变换的值域、核、秩和零度，并证明维数公式和单满射等价性。"
+    },
+    {
+      "title": "降维方法小结和理解：PCA、LDA、MDS、ISOMAP、SNE、T-SNE、AutoEncoder",
+      "url": "https://zhuanlan.zhihu.com/p/157482881",
+      "summary": "正文明确把PCA描述为改变坐标系统的线性变换，并由此解释主成分投影。"
+    },
+    {
+      "title": "线性代数预习自学笔记-21：根子空间分解",
+      "url": "https://zhuanlan.zhihu.com/p/158921693",
+      "summary": "正文以线性算子的核、像、不变子空间和限制算子为主线证明根子空间分解。"
+    },
+    {
+      "title": "六种常见数据降维方法简介及代码实现",
+      "url": "https://zhuanlan.zhihu.com/p/159285110",
+      "summary": "正文把 PCA 表述为选择新坐标方向的线性变换并据此实现降维。"
+    },
+    {
+      "title": "复数的实矩阵表示",
+      "url": "https://zhuanlan.zhihu.com/p/160270375",
+      "summary": "正文证明保持该类矩阵结构的线性变换只能由同形式二阶矩阵左乘表示，并讨论唯一性。"
+    },
+    {
+      "title": "2020年考研数学一 (20)",
+      "url": "https://zhuanlan.zhihu.com/p/161228498",
+      "summary": "正文把坐标变换写成矩阵乘向量的形式，并通过 Q 转置与原矩阵相乘描述该正交线性变换。"
+    },
+    {
+      "title": "Lattice学习笔记01：格的简介",
+      "url": "https://zhuanlan.zhihu.com/p/161411204",
+      "summary": "正文说明可用线性变换作用于整数格并得到新格，随后以基矩阵刻画这一变换。"
+    },
+    {
+      "title": "考研线性代数 解题方法汇总（非知识点汇总）",
+      "url": "https://zhuanlan.zhihu.com/p/161687318",
+      "summary": "正文讨论相似矩阵、相似对角化、特征向量和正交变换等线性变换的矩阵表示问题。"
+    },
+    {
+      "title": "线性代数预习自学笔记-22：若尔当标准型",
+      "url": "https://zhuanlan.zhihu.com/p/161551117",
+      "summary": "正文在向量空间上选择特征向量链作为基，以研究线性算子在该基下的矩阵表示。"
+    },
+    {
+      "title": "Lattice学习笔记03：Dual Lattice（对偶格）",
+      "url": "https://zhuanlan.zhihu.com/p/161889613",
+      "summary": "正文用线性变换定义对偶空间与对偶格，并推导旋转和缩放变换下对偶格的对应关系。"
+    },
+    {
+      "title": "【科普】如何正确理解特征值与特征向量",
+      "url": "https://zhuanlan.zhihu.com/p/165382601",
+      "summary": "正文把矩阵解释为线性变换，并用空间中的伸缩方向说明特征分解。"
+    },
+    {
+      "title": "矩阵等价的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/165762481",
+      "summary": "正文把矩阵等价解释为两侧可逆线性变换下的空间投影与线性组合关系。"
+    },
+    {
+      "title": "一个对四元数旋转的简单推导",
+      "url": "https://zhuanlan.zhihu.com/p/166674954",
+      "summary": "正文把四元数共轭三明治乘法解释为绕轴旋转的线性变换，并解释二分之一角公式的来源。"
+    },
+    {
+      "title": "FOC中的Clarke变换和Park变换详解（动图+推导+仿真+附件代码）",
+      "url": "https://zhuanlan.zhihu.com/p/172484981",
+      "summary": "正文把 Clarke 和 Park 变换定义为三相、两相静止及旋转坐标系之间的线性坐标变换。"
+    },
+    {
+      "title": "原来我被骗了好多年: 浅谈二次曲线的旋转和标准化问题",
+      "url": "https://zhuanlan.zhihu.com/p/176901368",
+      "summary": "正文把曲线旋转解释为正交矩阵作用，并说明它保持图形形状而改变坐标轴方向。"
+    },
+    {
+      "title": "【线代笔记】行列式的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/183758221",
+      "summary": "正文把行列式解释为线性变换对面积或体积的伸缩因子，并讨论反射与定向变化。"
+    },
+    {
+      "title": "3维旋转矩阵推导与助记",
+      "url": "https://zhuanlan.zhihu.com/p/183973440",
+      "summary": "正文用矩阵乘法分别刻画同一坐标系中的向量旋转和坐标系旋转，并说明两者的互逆关系。"
+    },
+    {
+      "title": "欧拉角旋转",
+      "url": "https://zhuanlan.zhihu.com/p/186299280",
+      "summary": "正文以旋转矩阵的左右乘顺序描述刚体坐标系的连续旋转复合，实质讲解三维空间的线性变换。"
+    },
+    {
+      "title": "线性代数（十九）线性变换 (Linear Transformation)",
+      "url": "https://zhuanlan.zhihu.com/p/187411029",
+      "summary": "正文从线性定义出发说明向量和空间如何被变换，并用伸缩、投影、镜像和旋转具体解释线性变换。"
+    },
+    {
+      "title": "度量张量的本质及详解（高阶）——全网最好的讲解",
+      "url": "https://zhuanlan.zhihu.com/p/190104245",
+      "summary": "正文用基向量的读数矩阵描述原坐标系到对偶坐标系的坐标变换，并说明变换矩阵如何保持向量表示。"
+    },
+    {
+      "title": "《Linear Algebra Done Right》线性代数复习及部分习题解答（3.C）",
+      "url": "https://zhuanlan.zhihu.com/p/191608767",
+      "summary": "正文定义线性映射在给定基下的矩阵，并通过具体变换说明矩阵各列的含义。"
+    },
+    {
+      "title": "相对论：多次换系的Wigner Rotation",
+      "url": "https://zhuanlan.zhihu.com/p/216448381",
+      "summary": "正文用矩阵合成分解连续洛伦兹变换，说明其结果等价于一次合成变换与一次坐标旋转，并推导旋转角和 Thomas 进动。"
+    },
+    {
+      "title": "学好线性代数和矩阵论需要大脑内存",
+      "url": "https://zhuanlan.zhihu.com/p/222175605",
+      "summary": "正文把向量函数对向量变量的 Jacobian 矩阵解释为线性变换的矩阵表示，并给出其求导公式。"
+    },
+    {
+      "title": "泛函分析(1)：赋范线性空间",
+      "url": "https://zhuanlan.zhihu.com/p/254872545",
+      "summary": "正文以线性算子定义一般线性变换，并证明原点连续性等价于有界性，进而用算子范数刻画连续线性变换。"
+    },
+    {
+      "title": "对偶空间(1)：空间、基与映射",
+      "url": "https://zhuanlan.zhihu.com/p/259859651",
+      "summary": "正文以线性映射为核心定义对偶映射，并说明其复合与线性性质。"
+    },
+    {
+      "title": "杂谈：椭圆面积的四次推导",
+      "url": "https://zhuanlan.zhihu.com/p/261069422",
+      "summary": "正文用矩阵 A 把单位圆盘线性变换为椭圆，并据此完成面积推导。"
+    },
+    {
+      "title": "深度科普|从线性代数到量子力学(12)：表象变换",
+      "url": "https://zhuanlan.zhihu.com/p/186290568",
+      "summary": "正文以两组基底之间的线性叠加和矩阵乘法推导同一向量的坐标变换。"
+    },
+    {
+      "title": "为什么非要引入函数的奇偶性不可？",
+      "url": "https://zhuanlan.zhihu.com/p/262168415",
+      "summary": "正文把函数分解为奇偶函数之和解释为投影，并讨论投影的值域、核及直和分解。"
+    },
+    {
+      "title": "矩阵的四大基础子空间",
+      "url": "https://zhuanlan.zhihu.com/p/262588495",
+      "summary": "正文把矩阵视为线性变换，分析输入与输出空间、零空间以及信息损失和可逆性。"
+    },
+    {
+      "title": "深入浅出线性判别分析（LDA，从理论到代码实现）",
+      "url": "https://zhuanlan.zhihu.com/p/264578345",
+      "summary": "正文把正交投影解释为把高维样本映射到一维方向，并据此实现降维。"
+    },
+    {
+      "title": "矩阵基础 | 向量范数与矩阵范数",
+      "url": "https://zhuanlan.zhihu.com/p/265713608",
+      "summary": "正文从矩阵作用于向量所施加的线性变换出发，把诱导范数解释为该变换的最大放大倍数。"
+    },
+    {
+      "title": "3D图形学线代基础",
+      "url": "https://zhuanlan.zhihu.com/p/265976702",
+      "summary": "正文以旋转、缩放和组合变换为例解释矩阵乘法如何表示线性变换，并区分线性变换与平移。"
+    },
+    {
+      "title": "直角坐标系转换公式",
+      "url": "https://zhuanlan.zhihu.com/p/283015520",
+      "summary": "正文用旋转矩阵和齐次坐标表示坐标系的平移旋转变换，并推广到三维欧拉角旋转。"
+    },
+    {
+      "title": "深刻地认识特征值",
+      "url": "https://zhuanlan.zhihu.com/p/290788390",
+      "summary": "正文通过基变换和过渡矩阵推导相似关系，说明相似矩阵对应同一线性变换。"
+    },
+    {
+      "title": "坐标变换与基变换——左乘与右乘",
+      "url": "https://zhuanlan.zhihu.com/p/295576029",
+      "summary": "正文通过过渡矩阵及左右乘规则解释基变换和同一向量的坐标变换。"
+    },
+    {
+      "title": "矩阵本质-基变换与线性变换",
+      "url": "https://zhuanlan.zhihu.com/p/296265380",
+      "summary": "正文从基向量的像构造变换矩阵，说明线性变换如何把坐标系中的一个向量映射为另一个向量。"
+    },
+    {
+      "title": "数据预处理：归一化和标准化",
+      "url": "https://zhuanlan.zhihu.com/p/296252799",
+      "summary": "正文把归一化和标准化解释为对向量按比例缩放并平移的线性变换，并比较两种变换的公式与适用场景。"
+    },
+    {
+      "title": "深入理解 | CP、Tucker分解",
+      "url": "https://zhuanlan.zhihu.com/p/302453223",
+      "summary": "正文把 Tucker 的模式积解释为沿指定张量维度施加线性变换并可实现降维。"
+    },
+    {
+      "title": "MSCKF（四）——FEJ（能观性）的详细推导",
+      "url": "https://zhuanlan.zhihu.com/p/304889273",
+      "summary": "正文把误差状态传播和观测模型写成矩阵作用于状态向量的线性化变换。"
+    },
+    {
+      "title": "《Linear Algebra Done Right》线性代数复习及部分习题解答（3.F）",
+      "url": "https://zhuanlan.zhihu.com/p/281404595",
+      "summary": "正文系统讨论线性映射的对偶映射、零空间、值域及其复合运算性质。"
+    },
+    {
+      "title": "深度科普|用几何视角学相对论(4): 洛仑兹变换",
+      "url": "https://zhuanlan.zhihu.com/p/266509750",
+      "summary": "正文从二维旋转变换出发，用双曲函数构造四维时空中的线性变换。"
+    },
+    {
+      "title": "一文解释 矩阵特征分解",
+      "url": "https://zhuanlan.zhihu.com/p/314464267",
+      "summary": "正文把矩阵作用解释为向量的旋转、拉伸等线性变换，并说明特征方向保持不变。"
+    },
+    {
+      "title": "克拉克 (Clark) 变换中等幅值 (2/3) 和等功率 (sqrt(2/3)) 变换的公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/317347351",
+      "summary": "正文把三相时域分量到 αβ 静止分量的坐标变换写成矩阵作用，并推导等幅值与等功率变换的系数。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / 群表示理论",
+      "url": "https://zhuanlan.zhihu.com/p/314567658",
+      "summary": "正文把群元实现为表示空间上的线性变换，并讨论不变子空间。"
+    },
+    {
+      "title": "正交投影的一点总结",
+      "url": "https://zhuanlan.zhihu.com/p/330652546",
+      "summary": "正文把投影定义为到子空间上的线性映射，并讨论其投影性质。"
+    },
+    {
+      "title": "直观理解矩阵（转载自孟岩）",
+      "url": "https://zhuanlan.zhihu.com/p/333386099",
+      "summary": "正文阐述线性变换如何依赖基的选择表示为矩阵，并用相似矩阵说明同一变换的不同表示。"
+    },
+    {
+      "title": "最优化方法复习笔记（六）共轭梯度法",
+      "url": "https://zhuanlan.zhihu.com/p/338838078",
+      "summary": "正文通过空间线性变换解释正交方向为何转化为关于 Hessian 矩阵共轭的方向，并据此推导共轭条件。"
+    },
+    {
+      "title": "线性变换——线性代数的本质（二）",
+      "url": "https://zhuanlan.zhihu.com/p/340301080",
+      "summary": "正文从基线保持和网格变形入手，说明线性变换的几何意义及作用方式。"
+    },
+    {
+      "title": "[张量系列DLC] 直积和张量积有何区别? 矩阵和矩阵的张量积怎么还是个矩阵?",
+      "url": "https://zhuanlan.zhihu.com/p/340956105",
+      "summary": "正文讨论向量空间上的积映射，强调张量积诱导的映射必须满足双线性，并用指标记号说明其线性结构。"
+    },
+    {
+      "title": "卡尔曼滤波最完整公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/341440139",
+      "summary": "正文用状态转移矩阵和观测矩阵描述线性系统的状态演化与观测映射。"
+    },
+    {
+      "title": "Mahony姿态解算算法笔记（一）",
+      "url": "https://zhuanlan.zhihu.com/p/342703388",
+      "summary": "正文用旋转矩阵表示机体坐标系与大地坐标系之间的线性坐标变换。"
+    },
+    {
+      "title": "四元数的两个公式",
+      "url": "https://zhuanlan.zhihu.com/p/343095440",
+      "summary": "正文用四元数及其逆对位置向量作共轭作用表示定点转动，属于四元数实现的旋转线性变换。"
+    },
+    {
+      "title": "从零开始学图形学：MVP Transformation",
+      "url": "https://zhuanlan.zhihu.com/p/343532009",
+      "summary": "正文把平移、旋转以及 MVP 过程解释为坐标的矩阵变换及其组合，具体讲解线性变换的表示。"
+    },
+    {
+      "title": "5.数据预处理—数据标准化（三）",
+      "url": "https://zhuanlan.zhihu.com/p/343692147",
+      "summary": "正文在给出多种标准化公式后说明其压缩、平移和保持数值顺序的性质，实质对应线性变换。"
+    },
+    {
+      "title": "多元统计课程笔记（1）多元统计基本知识",
+      "url": "https://zhuanlan.zhihu.com/p/345000878",
+      "summary": "正文通过伸缩旋转解释矩阵乘法，并用坐标变换推导马氏距离。"
+    },
+    {
+      "title": "一个矩阵正定(Possitive definite) 到底能说明什么，能解决什么问题？",
+      "url": "https://zhuanlan.zhihu.com/p/345077039",
+      "summary": "正文把正定矩阵类比为标量正系数，用矩阵作用于向量后的方向关系解释这一线性变换。"
+    },
+    {
+      "title": "李宏毅-线代总结(一)",
+      "url": "https://zhuanlan.zhihu.com/p/345918282",
+      "summary": "正文把矩阵和线性系统视为线性变换，并用数乘保持、加法保持以及矩阵复合解释线性性。"
+    },
+    {
+      "title": "矩阵乘法核心思想（3）：零空间",
+      "url": "https://zhuanlan.zhihu.com/p/350076095",
+      "summary": "正文把矩阵零空间解释为线性映射的核，并讨论其与行空间的正交关系。"
+    },
+    {
+      "title": "矩阵乘法核心思想（4）：左零空间",
+      "url": "https://zhuanlan.zhihu.com/p/350127114",
+      "summary": "正文把零空间解释为线性映射的核，并讨论商映射及其核。"
+    },
+    {
+      "title": "数学知识学习之——商空间(Quotient Spaces)",
+      "url": "https://zhuanlan.zhihu.com/p/350169265",
+      "summary": "正文定义从向量空间到商空间的商映射，并证明商映射和诱导映射均为线性映射。"
+    },
+    {
+      "title": "利用LTC实现实时多边形面积光",
+      "url": "https://zhuanlan.zhihu.com/p/350694154",
+      "summary": "正文解释线性变换如何改变球面分布形状，并给出变换与逆变换的方向映射公式。"
+    },
+    {
+      "title": "粗暴理解谱分解（特征值分解），投影算子，正规矩阵对角化",
+      "url": "https://zhuanlan.zhihu.com/p/353753888",
+      "summary": "正文把矩阵乘法解释为线性变换，并用投影算子和子空间说明其作用。"
+    },
+    {
+      "title": "矩阵乘法核心思想(6)：特征向量与特征值的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/353774689",
+      "summary": "正文把矩阵乘法定义为输入向量到输出向量的线性变换，并从几何角度分解为缩放和旋转。"
+    },
+    {
+      "title": "奇异值与特征值辨析",
+      "url": "https://zhuanlan.zhihu.com/p/353637184",
+      "summary": "正文用矩阵作用于单位向量并把单位圆变换成椭圆来解释线性变换的旋转、拉伸与方向变化。"
+    },
+    {
+      "title": "[前置内容] 从映射到张量",
+      "url": "https://zhuanlan.zhihu.com/p/356975719",
+      "summary": "正文明确给出线性变换定义及其加法、数乘条件，并说明方阵如何表示线性变换。"
+    },
+    {
+      "title": "狄拉克符号的运算规则",
+      "url": "https://zhuanlan.zhihu.com/p/356874717",
+      "summary": "正文讨论算符作用于态矢及其厄米共轭规则，展示了复向量空间中的线性算符。"
+    },
+    {
+      "title": "图形学基础 - 变换 - 三维旋转基础",
+      "url": "https://zhuanlan.zhihu.com/p/357648559",
+      "summary": "正文用矩阵描述两个定向之间的旋转变换，并比较矩阵、欧拉角、指数映射和四元数等表示。"
+    },
+    {
+      "title": "寻思一下雅可比(Jacobi)矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/358198222",
+      "summary": "正文把矩阵解释为线性映射，并说明基向量去向如何决定整个空间的像。"
+    },
+    {
+      "title": "終 · 一步到位的张量指标运算",
+      "url": "https://zhuanlan.zhihu.com/p/359082678",
+      "summary": "正文以线性变换作为张量，并用指标缩并统一解释其对矢量及对偶矢量的作用。"
+    },
+    {
+      "title": "【论文复现】Real-Time Polygonal-Light Shading with Linearly Transformed Cosines",
+      "url": "https://zhuanlan.zhihu.com/p/360040187",
+      "summary": "正文讲解用线性变换矩阵改写球面分布，并通过变换后的向量表示简化面光源积分。"
+    },
+    {
+      "title": "深入理解 | 超详细行列式讲解",
+      "url": "https://zhuanlan.zhihu.com/p/360292803",
+      "summary": "正文把矩阵视为线性变换，通过面积体积变化解释行列式的缩放作用。"
+    },
+    {
+      "title": "防自己老年痴呆——最小二乘法",
+      "url": "https://zhuanlan.zhihu.com/p/353768731",
+      "summary": "正文把最小二乘解释为在矩阵列空间中寻找向量的线性组合，并构造投影到该子空间的线性映射。"
+    },
+    {
+      "title": "矩阵运算与常用矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/362082020",
+      "summary": "正文说明矩阵乘向量可实现对称、缩放等变换，并以变换矩阵展示其作用。"
+    },
+    {
+      "title": "线性代数的本质（转发）",
+      "url": "https://zhuanlan.zhihu.com/p/362462011",
+      "summary": "正文通过基和矩阵表示详细解释线性变换及其与坐标系变换的等价关系。"
+    },
+    {
+      "title": "【论文复现】An Efficient Representation for Irradiance Environment Maps",
+      "url": "https://zhuanlan.zhihu.com/p/363600898",
+      "summary": "正文用 Wigner 矩阵作用于同一阶球谐系数，实质讲解球谐空间中的旋转变换。"
+    },
+    {
+      "title": "你可能不需要BERT-flow：一个线性变换媲美BERT-flow",
+      "url": "https://zhuanlan.zhihu.com/p/364513670",
+      "summary": "正文把 BERT 句向量的白化明确实现为均值平移与矩阵乘法构成的线性变换。"
+    },
+    {
+      "title": "线性代数极简入门",
+      "url": "https://zhuanlan.zhihu.com/p/360522408",
+      "summary": "正文从函数和映射角度解释矩阵，并通过基变换讨论同一线性映射在不同基下的矩阵。"
+    },
+    {
+      "title": "[张量系列DLC] 洛伦兹变换分量系数的指标能被闵氏度规升降吗?",
+      "url": "https://zhuanlan.zhihu.com/p/365457613",
+      "summary": "正文把洛伦兹变换表述为由保度规条件约束的线性变换，并讨论其旋转、Boost及矩阵对应。"
+    },
+    {
+      "title": "深度科普 | 用几何视角学相对论(15): 逆变与协变",
+      "url": "https://zhuanlan.zhihu.com/p/356143550",
+      "summary": "正文通过基变换与坐标变换的互逆关系区分逆变和协变分量。"
+    },
+    {
+      "title": "论电力电子控制中PR和PI的等价性",
+      "url": "https://zhuanlan.zhihu.com/p/367480484",
+      "summary": "正文从线性变换视角解释Park变换是保内积的正交变换，并据此说明能量守恒。"
+    },
+    {
+      "title": "从实对称矩阵串联线性代数几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/369016840",
+      "summary": "正文以拉伸、旋转和剪切解释矩阵对坐标的作用，并从几何角度说明线性变换。"
+    },
+    {
+      "title": "【6.1】特征值，特征向量和矩阵对角化",
+      "url": "https://zhuanlan.zhihu.com/p/367212032",
+      "summary": "正文从矩阵乘向量如何改变方向解释线性变换，并据此定义保持方向的特征向量。"
+    },
+    {
+      "title": "[番外] 主动与被动 / 逆变与协变",
+      "url": "https://zhuanlan.zhihu.com/p/371277329",
+      "summary": "正文把洛伦兹变换解释为矢量空间上的线性变换，并比较主动变换与坐标基底变换两种观点。"
+    },
+    {
+      "title": "【群论】从洛伦兹变换到洛伦兹群",
+      "url": "https://zhuanlan.zhihu.com/p/372120033",
+      "summary": "正文用矩阵表示绕三个坐标轴的旋转、反射和洛伦兹Boost，并比较这些线性变换对四矢量的作用。"
+    },
+    {
+      "title": "浅谈微分方程与线性代数的联系",
+      "url": "https://zhuanlan.zhihu.com/p/372585257",
+      "summary": "正文把微分算子 D 解释为函数空间上的线性运算，并与线性变换及矩阵表示联系起来。"
+    },
+    {
+      "title": "与数分抢戏",
+      "url": "https://zhuanlan.zhihu.com/p/374052229",
+      "summary": "正文以导数算子为函数空间线性变换的例子，讨论其不变子空间并引出Fourier级数。"
+    },
+    {
+      "title": "渲染管线中MVP矩阵的推导",
+      "url": "https://zhuanlan.zhihu.com/p/373489211",
+      "summary": "正文从三维点的缩放、旋转与平移推导变换矩阵，重点讨论线性变换及其复合顺序。"
+    },
+    {
+      "title": "主成分分析结果分析及stata操作",
+      "url": "https://zhuanlan.zhihu.com/p/374185145",
+      "summary": "正文把主成分分析解释为通过线性变换提取较少的重要变量，说明了其降维思路。"
+    },
+    {
+      "title": "图形渲染基础：光栅化算法",
+      "url": "https://zhuanlan.zhihu.com/p/370059588",
+      "summary": "正文把旋转、缩放、平移和投影统一表示为齐次坐标下的线性变换矩阵。"
+    },
+    {
+      "title": "spss主成分分析（Principal Component Analysis，PCA）及结果解读",
+      "url": "https://zhuanlan.zhihu.com/p/376799094",
+      "summary": "正文把主成分分析的降维解释为对原始变量作线性组合和坐标旋转变换。"
+    },
+    {
+      "title": "从几何看线性代数(2)：矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/380382716",
+      "summary": "正文把矩阵视为对空间基向量的变换，并通过非方阵说明升维、降维和变换的叠加。"
+    },
+    {
+      "title": "正交变换最强总结笔记，解决每一个考研线代人的理解难关",
+      "url": "https://zhuanlan.zhihu.com/p/382012427",
+      "summary": "正文把正交变换定义为左乘正交矩阵的线性变换，并通过长度、内积和夹角不变说明其几何作用。"
+    },
+    {
+      "title": "【群论入门】(9) Kernel / Image与零空间/列空间",
+      "url": "https://zhuanlan.zhihu.com/p/382505062",
+      "summary": "正文通过矩阵乘法定义线性映射，讨论该映射的核、像及维数关系。"
+    },
+    {
+      "title": "仿射变换的基础",
+      "url": "https://zhuanlan.zhihu.com/p/380494625",
+      "summary": "正文给出伸缩、旋转、反射和平移的坐标变换公式，并将它们统一为可逆仿射变换。"
+    },
+    {
+      "title": "CORDIC算法原理详解",
+      "url": "https://zhuanlan.zhihu.com/p/384524393",
+      "summary": "正文把坐标旋转写成旋转矩阵及其连乘，解释如何用小角度变换逼近目标旋转。"
+    },
+    {
+      "title": "【opencv实践】仿射变换和透视变换",
+      "url": "https://zhuanlan.zhihu.com/p/387408410",
+      "summary": "正文用矩阵表示平移、缩放、旋转和错切，并推导二维仿射变换及其矩阵参数。"
+    },
+    {
+      "title": "De Aequatione Cauchii 有关柯西方程的碎碎念",
+      "url": "https://zhuanlan.zhihu.com/p/387296915",
+      "summary": "正文证明在基上的任意取值可唯一延拓为线性变换，并用它刻画实数作为有理数域上向量空间的自同态。"
+    },
+    {
+      "title": "Haar 小波——原理",
+      "url": "https://zhuanlan.zhihu.com/p/386322623",
+      "summary": "正文把一维序列分解到 Haar 尺度函数和小波函数构成的基上，说明正交投影、系数变换及无损逆变换。"
+    },
+    {
+      "title": "一文弄懂为啥(n-1)s^2/σ^2是服从n-1个自由度的卡方分布（正交变换的应用）",
+      "url": "https://zhuanlan.zhihu.com/p/390043144",
+      "summary": "正文证明正交变换保持独立标准正态性，并借助该线性变换结论化简二次型。"
+    },
+    {
+      "title": "我们都被困在了2018年的仁川",
+      "url": "https://zhuanlan.zhihu.com/p/390433558",
+      "summary": "正文利用正交合同变换下的线性同构，把实对称矩阵问题化为对角矩阵情形。"
+    },
+    {
+      "title": "深入理解欧氏距离和马氏距离",
+      "url": "https://zhuanlan.zhihu.com/p/390876896",
+      "summary": "正文比较从基向量列到特征向量的两种线性变换理解，说明矩阵及其特征分解的几何意义。"
+    },
+    {
+      "title": "把双曲线仿射成反比例函数和对勾函数（自研）",
+      "url": "https://zhuanlan.zhihu.com/p/380355158",
+      "summary": "正文用旋转和反射变换证明一类对勾函数可由标准双曲线变换得到。"
+    },
+    {
+      "title": "[数学科普]：何如用一个方程统一 Maxwell 方程组？",
+      "url": "https://zhuanlan.zhihu.com/p/393255127",
+      "summary": "正文用 Clifford 旋转因子表示二维和三维空间中向量的旋转变换。"
+    },
+    {
+      "title": "译稿 | 通往相对论的数学之门(6)：逆变向量与协变向量",
+      "url": "https://zhuanlan.zhihu.com/p/392439210",
+      "summary": "正文把坐标变换解释为基底变换，并比较逆变分量与协变分量的变换规律。"
+    },
+    {
+      "title": "矩阵变换的本质 --- 欧拉角与矩阵与万向锁问题",
+      "url": "https://zhuanlan.zhihu.com/p/394141773",
+      "summary": "正文从基向量被缩放和旋转后坐标空间整体改变的角度解释线性变换，并给出旋转矩阵的推导。"
+    },
+    {
+      "title": "一篇搞定！GAMES101现代计算机图形学入门（全）",
+      "url": "https://zhuanlan.zhihu.com/p/394932478",
+      "summary": "正文通过缩放、切变、旋转和齐次坐标具体讲解二维与三维线性及仿射变换。"
+    },
+    {
+      "title": "狄拉克伽马矩阵 (Dirac gamma matrices)",
+      "url": "https://zhuanlan.zhihu.com/p/399908095",
+      "summary": "正文把代数表示解释为到线性空间上线性变换集合的同态映射，并据此讨论矩阵表示。"
+    },
+    {
+      "title": "从零构建光栅器，tinyrenderer笔记（下）",
+      "url": "https://zhuanlan.zhihu.com/p/400791821",
+      "summary": "正文从单位正方形的变换推导一般线性变换和旋转矩阵，并说明复合变换的矩阵乘法。"
+    },
+    {
+      "title": "坐标转换 看这篇就够了",
+      "url": "https://zhuanlan.zhihu.com/p/404773542",
+      "summary": "正文连续相乘旋转矩阵得到复合变换，并讨论左乘、右乘与变换合成。"
+    },
+    {
+      "title": "线性代数——二次型",
+      "url": "https://zhuanlan.zhihu.com/p/407010460",
+      "summary": "正文把圆到椭圆的旋转与拉伸解释为线性变换，并用变量代换连接两个二次型。"
+    },
+    {
+      "title": "特征值和特征向量到底是个啥？能做什么用？",
+      "url": "https://zhuanlan.zhihu.com/p/410678449",
+      "summary": "正文用同一向量在不同坐标系下的表示解释矩阵变换，强调变换前后是同一几何对象的不同坐标表达。"
+    },
+    {
+      "title": "线性代数/矩阵的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/411758474",
+      "summary": "正文把矩阵乘法解释为对空间的相继线性变换，并用变换顺序解释矩阵乘法不交换。"
+    },
+    {
+      "title": "图形学中常见的数学困惑",
+      "url": "https://zhuanlan.zhihu.com/p/413224014",
+      "summary": "正文比较先旋转后平移与先平移后旋转，说明仿射变换的矩阵复合顺序会改变结果。"
+    },
+    {
+      "title": "让人惊叹的Johnson-Lindenstrauss引理：理论篇",
+      "url": "https://zhuanlan.zhihu.com/p/413581747",
+      "summary": "正文说明 JL 引理通过随机线性投影将向量降到对数维空间并保持相对距离。"
+    },
+    {
+      "title": "注意力机制到底在做什么，Q/K/V怎么来的？一文读懂Attention注意力机制",
+      "url": "https://zhuanlan.zhihu.com/p/414084879",
+      "summary": "正文将输入矩阵与三组参数矩阵相乘得到 Q、K、V 的过程解释为线性变换。"
+    },
+    {
+      "title": "白化变换：PCA白化、ZCA白化",
+      "url": "https://zhuanlan.zhihu.com/p/414275930",
+      "summary": "正文把白化定义为线性变换，并解释 PCA 与 ZCA 白化中的旋转和缩放操作。"
+    },
+    {
+      "title": "从一道清华数院推免题回顾高等代数的一个重要内容",
+      "url": "https://zhuanlan.zhihu.com/p/414746808",
+      "summary": "正文把 X 映射到 AX-XB 视为矩阵空间上的线性变换，并用满射与单射的等价性完成证明。"
+    },
+    {
+      "title": "【转载】让你快速理解线性代数的本质",
+      "url": "https://zhuanlan.zhihu.com/p/415073222",
+      "summary": "正文以位移、拉伸、旋转和高维空间形变说明矩阵所表示的线性变换。"
+    },
+    {
+      "title": "关于行列式的理解：雅可比行列式是如何被定义出来的？",
+      "url": "https://zhuanlan.zhihu.com/p/416193677",
+      "summary": "正文把变换前后微分体元之比解释为雅可比行列式，并联系线性变换的常数放缩比例。"
+    },
+    {
+      "title": "高等代数到底讲了什么",
+      "url": "https://zhuanlan.zhihu.com/p/423655721",
+      "summary": "正文把高等代数的主线解释为研究线性空间中的变换，并以换基、对角化和不变子空间说明线性变换。"
+    },
+    {
+      "title": "[现代控制理论1-2] 状态方程的标准形式与解",
+      "url": "https://zhuanlan.zhihu.com/p/424195290",
+      "summary": "正文通过状态空间的线性变换和转换矩阵构造能控、能观、对角及 Jordan 标准型。"
+    },
+    {
+      "title": "​数学是所有科学的女王，如果你打算放弃数学，请先看看这篇文章",
+      "url": "https://zhuanlan.zhihu.com/p/427412971",
+      "summary": "正文指出导数与积分是线性运算符，可用线性代数的分解、相加和特征值工具来分析，体现线性变换思想。"
+    },
+    {
+      "title": "椭圆仿射成圆合辑全集",
+      "url": "https://zhuanlan.zhihu.com/p/416079998",
+      "summary": "正文系统使用伸缩、平移和旋转等仿射变换，并说明直线、平行性、相切性和面积比等不变量。"
+    },
+    {
+      "title": "浙江大学2021-2022学年秋冬学期《线性代数Ⅰ（H）》期中考试部分试题与参考解答",
+      "url": "https://zhuanlan.zhihu.com/p/432645093",
+      "summary": "正文围绕线性变换的像、核、矩阵表示和可逆性给出多项计算与证明。"
+    },
+    {
+      "title": "三分钟理解线性变换",
+      "url": "https://zhuanlan.zhihu.com/p/433350768",
+      "summary": "正文从代数可加性与齐次性、几何直线和原点保持两个角度解释线性变换。"
+    },
+    {
+      "title": "R语言进行PCA(主成分分析)",
+      "url": "https://zhuanlan.zhihu.com/p/433947355",
+      "summary": "正文将原始数据投影到主成分轴，说明该重定向可由标准化数据与特征向量矩阵相乘完成。"
+    },
+    {
+      "title": "量子光学自学笔记1：Froehlich-Nakajima 变换",
+      "url": "https://zhuanlan.zhihu.com/p/436474724",
+      "summary": "正文用幺正变换与 BCH 展开改写哈密顿量，并通过对易关系求变换生成元。"
+    },
+    {
+      "title": "坐标算符和动量算符在各自表象中的表示",
+      "url": "https://zhuanlan.zhihu.com/p/436867019",
+      "summary": "正文从坐标和动量基矢下的矩阵元出发，用基变换推导同一算符在另一表象中的线性表示。"
+    },
+    {
+      "title": "如何看懂主成分分析PCA图",
+      "url": "https://zhuanlan.zhihu.com/p/436725000",
+      "summary": "正文说明 PCA 通过正交变换把原变量转成主成分，并以 n 维到 r 维的投影解释降维。"
+    },
+    {
+      "title": "模态叠加法的基本原理及其Matlab实现方法",
+      "url": "https://zhuanlan.zhihu.com/p/437671045",
+      "summary": "正文把物理坐标到模态坐标的线性变换作为解耦和求解系统的核心步骤。"
+    },
+    {
+      "title": "理解和分析协方差矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/438029034",
+      "summary": "正文把协方差矩阵解释为伸缩与旋转的线性变换，并进一步讨论白化变换和 PCA。"
+    },
+    {
+      "title": "Mahony姿态解算算法详解",
+      "url": "https://zhuanlan.zhihu.com/p/438724546",
+      "summary": "正文推导四元数对应的旋转矩阵，并用正交矩阵描述导航系与机体系之间的旋转变换。"
+    },
+    {
+      "title": "高维概率论 (5) 降维大法 Johnson-Lindenstrauss Lemma",
+      "url": "https://zhuanlan.zhihu.com/p/440459519",
+      "summary": "正文用正交投影矩阵和尺度缩放构造由高维到低维的线性降维变换，并说明其保持距离的误差界。"
+    },
+    {
+      "title": "洛伦兹变换各种形式（公式+矩阵）",
+      "url": "https://zhuanlan.zhihu.com/p/444974597",
+      "summary": "正文把坐标转动解释为正交归一基上的线性变换，并说明正交矩阵与转动的关系。"
+    },
+    {
+      "title": "一文带你直观理解线性变换",
+      "url": "https://zhuanlan.zhihu.com/p/446758762",
+      "summary": "正文从保持加法和数乘的定义出发，结合旋转、伸缩、投影等几何运动讲解线性变换。"
+    },
+    {
+      "title": "直观线性代数之克莱默法则是怎么回事？",
+      "url": "https://zhuanlan.zhihu.com/p/447606270",
+      "summary": "正文将矩阵乘法描述为对整个线性空间的拉伸与压缩，解释线性变换的几何效果。"
+    },
+    {
+      "title": "（超详细！）计算机图形学 入门篇 1. 变换矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/448115462",
+      "summary": "正文以二维和三维变换矩阵说明线性变换、齐次坐标和平移的组合，并借助奇异值分解解释变换分解。"
+    },
+    {
+      "title": "奇异值分解（SVD）",
+      "url": "https://zhuanlan.zhihu.com/p/448767610",
+      "summary": "正文把 SVD 几何解释为对单位正交基先旋转、再沿奇异值方向缩放、最后旋转的线性变换。"
+    },
+    {
+      "title": "现代计算机图形学基础一：线性代数与空间变换",
+      "url": "https://zhuanlan.zhihu.com/p/449575856",
+      "summary": "正文比较线性变换与平移，并通过齐次坐标把仿射变换统一为矩阵线性变换。"
+    },
+    {
+      "title": "[数学]罗德里格旋转公式（Rodrigues' rotation formula）",
+      "url": "https://zhuanlan.zhihu.com/p/451579313",
+      "summary": "正文把绕固定轴旋转解释为将任意输入向量映射为新向量的三维旋转变换。"
+    },
+    {
+      "title": "考研数学——求任意二次型矩阵的合同变换",
+      "url": "https://zhuanlan.zhihu.com/p/454847217",
+      "summary": "正文围绕可逆线性变换 C 以及 C^TAC 为标准形展开推导，说明变换矩阵如何由初等矩阵乘积构造。"
+    },
+    {
+      "title": "向量化(Vectorization) & 克罗内克积(Kronecker)",
+      "url": "https://zhuanlan.zhihu.com/p/457055092",
+      "summary": "正文把矩阵按列堆叠的向量化视为线性变换，并证明向量化对矩阵线性组合保持线性。"
+    },
+    {
+      "title": "幂等矩阵的性质与应用",
+      "url": "https://zhuanlan.zhihu.com/p/457417086",
+      "summary": "正文借助核与像的直和分解，证明幂等矩阵可对角化。"
+    },
+    {
+      "title": "【笔记】3Blue1Brown线性代数的本质",
+      "url": "https://zhuanlan.zhihu.com/p/457858293",
+      "summary": "正文以向量和基的几何变化解释线性变换，并把矩阵乘法解释为变换的复合。"
+    },
+    {
+      "title": "矩阵视角下的Transformer详解（附代码）",
+      "url": "https://zhuanlan.zhihu.com/p/462410907",
+      "summary": "正文通过权重矩阵对输入向量作线性变换，说明 Query、Key、Value 和多头表示的构造过程。"
+    },
+    {
+      "title": "奇异值分解总结 (Summary on SVD)",
+      "url": "https://zhuanlan.zhihu.com/p/463298440",
+      "summary": "正文从几何角度把矩阵乘法解释为旋转、伸缩等线性变换的复合。"
+    },
+    {
+      "title": "仿射变换（Affine Transformation）在2D和3D坐标下的变换矩阵和性质及齐次坐标系（Homogeneous Coordinates）的应用",
+      "url": "https://zhuanlan.zhihu.com/p/465490024",
+      "summary": "正文系统讲解平移、旋转、缩放和剪切的仿射变换，并用矩阵乘法表示这些线性变换及其复合。"
+    },
+    {
+      "title": "一文读懂PCA分析 （原理、算法、解释和可视化）",
+      "url": "https://zhuanlan.zhihu.com/p/467281058",
+      "summary": "正文说明原变量经特征向量线性组合得到主成分，实质展开了线性变换与坐标变换。"
+    },
+    {
+      "title": "(四)圆锥曲线，抛物线是个极限圆",
+      "url": "https://zhuanlan.zhihu.com/p/488093033",
+      "summary": "正文用坐标轴伸缩的仿射变换改变斜率与线段长度关系，再把局部圆结论用于抛物线。"
+    },
+    {
+      "title": "用人话解释（一）——矩阵、行列式与秩",
+      "url": "https://zhuanlan.zhihu.com/p/496118586",
+      "summary": "正文以基向量跃迁和矩阵乘法系统解释线性变换。"
+    },
+    {
+      "title": "【7.2】矩阵的左逆，右逆和伪逆",
+      "url": "https://zhuanlan.zhihu.com/p/479352437",
+      "summary": "正文把矩阵乘法解释为向量空间之间的变换，并通过行空间、列空间和投影讨论能否逆变换。"
+    },
+    {
+      "title": "四元数与姿态解算完全解析及资料汇总",
+      "url": "https://zhuanlan.zhihu.com/p/505123676",
+      "summary": "正文把单位四元数表示的空间旋转比作正交变换，强调只旋转不拉伸。"
+    },
+    {
+      "title": "看完本文, 彻底理解张量(下)",
+      "url": "https://zhuanlan.zhihu.com/p/508715717",
+      "summary": "正文讨论线性变换、正交变换和幺正变换及其保持内积的条件。"
+    },
+    {
+      "title": "一维横场Ising模型-1D Transverse Field Ising Model",
+      "url": "https://zhuanlan.zhihu.com/p/510995277",
+      "summary": "正文把Bogoliubov变换解释为保持费米子反对易关系的特殊基变换，并用它完成对角化。"
+    },
+    {
+      "title": "解读文献里的那些图——主成分分析图（PCA）",
+      "url": "https://zhuanlan.zhihu.com/p/515622979",
+      "summary": "正文以正交变换和原始变量的线性组合解释主成分如何构造，并用于数据降维。"
+    },
+    {
+      "title": "【高等代数(丘维声著）笔记】6.5线性变换在不同基下的矩阵之间的关系",
+      "url": "https://zhuanlan.zhihu.com/p/518247752",
+      "summary": "正文系统阐述基变换下线性变换的矩阵如何变化，并说明线性变换的秩、迹和行列式与基无关。"
+    },
+    {
+      "title": "从线性代数到量子力学(22)：氢原子模型的球对称性",
+      "url": "https://zhuanlan.zhihu.com/p/448734759",
+      "summary": "正文把旋转定义为作用在向量、态矢量和函数上的线性变换，并用相似变换说明哈密顿算符形式保持不变。"
+    },
+    {
+      "title": "简单易懂的罗德里格斯公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/525316968",
+      "summary": "正文说明绕轴旋转是作用在向量上的线性变换，并给出对应的旋转矩阵表示。"
+    },
+    {
+      "title": "量子力学中实用的表象变换推导技巧",
+      "url": "https://zhuanlan.zhihu.com/p/526800581",
+      "summary": "正文讲解基表象变换、变换矩阵元以及幺正变换之间的线性代数关系。"
+    },
+    {
+      "title": "《张量分析》第一章习题解答",
+      "url": "https://zhuanlan.zhihu.com/p/510419021",
+      "summary": "正文推导张量分量在坐标变换下的转换关系，并验证对称性、反对称性等变换性质。"
+    },
+    {
+      "title": "【线性规划(七)】内点法",
+      "url": "https://zhuanlan.zhihu.com/p/528000562",
+      "summary": "正文利用随迭代点变化的线性变换及逆变换把搜索点移到可行域中心，并推导变换后的搜索方向。"
+    },
+    {
+      "title": "特征值与若尔当标准型是高等代数的灵魂！是宝藏！",
+      "url": "https://zhuanlan.zhihu.com/p/524602374",
+      "summary": "正文以线性空间和基矢为载体推导同一线性变换在不同基下的矩阵关系。"
+    },
+    {
+      "title": "狭义相对论中洛伦兹变换的推导(保姆级教程)",
+      "url": "https://zhuanlan.zhihu.com/p/528405826",
+      "summary": "正文依据惯性系条件证明洛伦兹变换为线性坐标变换，并推导其矩阵形式和逆变换。"
+    },
+    {
+      "title": "【高等代数(丘维声著）笔记】6.8线性变换的不变子空间",
+      "url": "https://zhuanlan.zhihu.com/p/529066941",
+      "summary": "正文系统讲解线性变换的不变子空间、限制变换以及分块对角化的条件。"
+    },
+    {
+      "title": "【高等代数】线性空间的同构",
+      "url": "https://zhuanlan.zhihu.com/p/536146120",
+      "summary": "正文定义保持加法与数乘的双射为线性空间同构，并证明其保持线性相关性、基和维数。"
+    },
+    {
+      "title": "多元统计分析期末复习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/537880991",
+      "summary": "将主成分分析概括为通过线性组合和线性变换实现降维。"
+    },
+    {
+      "title": "旋转的表示",
+      "url": "https://zhuanlan.zhihu.com/p/539134962",
+      "summary": "正文用矩阵乘法表示绕坐标轴及任意轴的旋转变换，并推导复合旋转公式。"
+    },
+    {
+      "title": "强袭斜率和积一般形式——定值定点及其轨迹方程",
+      "url": "https://zhuanlan.zhihu.com/p/541273655",
+      "summary": "正文把定点坐标写成含可逆系数矩阵和平移的仿射变换，并利用行列式非零说明点、直线和曲线的一一对应。"
+    },
+    {
+      "title": "深度解析拉格朗日乘子法，让你成为高手",
+      "url": "https://zhuanlan.zhihu.com/p/542402242",
+      "summary": "正文以基矢扩充、过渡矩阵和坐标变换构造约束子空间中的二次型。"
+    },
+    {
+      "title": "《计算机视觉中的多视图几何》阅读笔记",
+      "url": "https://zhuanlan.zhihu.com/p/542677027",
+      "summary": "正文用非奇异矩阵刻画保持共线性的投影变换，并讨论变换的层次。"
+    },
+    {
+      "title": "为什么“双对偶空间”更自然？",
+      "url": "https://zhuanlan.zhihu.com/p/546110565",
+      "summary": "正文定义线性映射的对偶映射，并通过追图证明双对偶映射与线性映射相容。"
+    },
+    {
+      "title": "暴算洛伦兹群",
+      "url": "https://zhuanlan.zhihu.com/p/548699798",
+      "summary": "正文由二阶复矩阵的共轭作用诱导闵可夫斯基空间上的线性变换，并研究其群结构。"
+    },
+    {
+      "title": "【染上你的颜色】从零开始的计算机图形学（手把手教你写着色算法之平直着色法，Gouraud着色法，Phong着色法）",
+      "url": "https://zhuanlan.zhihu.com/p/544694958",
+      "summary": "正文利用仿射变换的线性插值性质计算三角形内部点的深度。"
+    },
+    {
+      "title": "图形学：正交/透视投影矩阵的推导（多个思路）",
+      "url": "https://zhuanlan.zhihu.com/p/554093703",
+      "summary": "正文把观察空间到标准设备坐标的转换拆成齐次坐标矩阵乘法，并解释透视除法与坐标映射。"
+    },
+    {
+      "title": "对偶空间，对偶向量和对偶基",
+      "url": "https://zhuanlan.zhihu.com/p/561344033",
+      "summary": "正文从线性函数、对偶基和对偶空间的对偶展开线性映射及其坐标表示。"
+    },
+    {
+      "title": "（泛函分析中的）谱理论速成",
+      "url": "https://zhuanlan.zhihu.com/p/566107266",
+      "summary": "正文讨论 Banach 空间上的有界线性算子、算子范数及其复合形成的 Banach 代数。"
+    },
+    {
+      "title": "什么是四维矢量",
+      "url": "https://zhuanlan.zhihu.com/p/557477003",
+      "summary": "正文推导平面分量在新旧坐标系间的变换式，并把它推广到洛伦兹坐标变换。"
+    },
+    {
+      "title": "解几的追本溯“圆”",
+      "url": "https://zhuanlan.zhihu.com/p/566065666",
+      "summary": "先说明仿射变换的线性坐标作用及保平行性质，再据此推导椭圆问题中的斜率与面积关系。"
+    },
+    {
+      "title": "《复分析：可视化方法》",
+      "url": "https://zhuanlan.zhihu.com/p/577069768",
+      "summary": "正文把乘以复数解释为以原点为中心、同时放大并旋转整个平面的线性变换。"
+    },
+    {
+      "title": "【群论】入门笔记-Chapter7-三维空间中的旋转-SO(3)",
+      "url": "https://zhuanlan.zhihu.com/p/587115931",
+      "summary": "正文把三维旋转定义为保持矢量长度的线性变换，并推导其矩阵作用方式。"
+    },
+    {
+      "title": "简单的二次方程中，隐藏了极为重要且深奥的数学思想——不变性",
+      "url": "https://zhuanlan.zhihu.com/p/590707936",
+      "summary": "正文具体研究分式变量替换对二次方程系数和判别式的影响，并讨论变换的组合。"
+    },
+    {
+      "title": "【圆锥曲线】奇技淫巧——仿射法在椭圆定点定值问题中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/590888690",
+      "summary": "正文反复使用坐标缩放这一仿射变换，把椭圆化为圆并研究变换后的斜率与定点关系。"
+    },
+    {
+      "title": "从线性代数到量子力学(27)：狄拉克方程(上)",
+      "url": "https://zhuanlan.zhihu.com/p/551272876",
+      "summary": "正文以二维基向量旋转为例讨论坐标表示的逆变规律，并区分协变向量与逆变向量。"
+    },
+    {
+      "title": "量子力学笔记（十九）：幺正变换",
+      "url": "https://zhuanlan.zhihu.com/p/600733618",
+      "summary": "正文通过两组基矢详细说明坐标变换矩阵以及它如何作用到整个矢量空间。"
+    },
+    {
+      "title": "浅谈关于圆锥曲线问题的仿射变换",
+      "url": "https://zhuanlan.zhihu.com/p/602684656",
+      "summary": "正文说明横纵坐标的不同比例放缩由对角矩阵表示，并用其行列式解释面积在线性变换下的变化。"
+    },
+    {
+      "title": "颜色的数学理论III——色度图、普朗克轨迹与色温",
+      "url": "https://zhuanlan.zhihu.com/p/601350463",
+      "summary": "正文通过可逆矩阵在 RGB 与 XYZ 两组基之间变换三刺激值，并解释颜色空间的基变换。"
+    },
+    {
+      "title": "辛空间，辛变换，辛群",
+      "url": "https://zhuanlan.zhihu.com/p/606731586",
+      "summary": "正文定义保持反对称双线性形式的辛变换，并研究其在辛正交基下的矩阵表示。"
+    },
+    {
+      "title": "【高等量子力学笔记】3.直和和直积",
+      "url": "https://zhuanlan.zhihu.com/p/611420230",
+      "summary": "正文定义向量空间的直和与直积，并说明对应线性算符的作用、加法和合成规则。"
+    },
+    {
+      "title": "五连杆运动学解算与VMC",
+      "url": "https://zhuanlan.zhihu.com/p/613007726",
+      "summary": "正文把雅可比矩阵解释为关节空间微分到工作空间微分的线性变换。"
+    },
+    {
+      "title": "矩阵分解—特征值分解与奇异值分解",
+      "url": "https://zhuanlan.zhihu.com/p/613284889",
+      "summary": "正文把矩阵解释为线性变换，并通过基变换和 SVD 的旋转伸缩解释变换结构。"
+    },
+    {
+      "title": "怎样理解线性代数",
+      "url": "https://zhuanlan.zhihu.com/p/617709719",
+      "summary": "正文把矩阵乘法解释为列向量的缩放、组合与线性变换。"
+    },
+    {
+      "title": "矩阵论 --- 期末复习",
+      "url": "https://zhuanlan.zhihu.com/p/621520926",
+      "summary": "正文把 Householder 与 Givens 矩阵解释为反射和旋转变换，并用于矩阵化简。"
+    },
+    {
+      "title": "哈密顿-凯莱定理的有趣证明",
+      "url": "https://zhuanlan.zhihu.com/p/622369107",
+      "summary": "正文把矩阵视为线性变换，并利用基向量与线性变换矩阵运算给出代数证明。"
+    },
+    {
+      "title": "11.8 什么是矩阵对角化",
+      "url": "https://zhuanlan.zhihu.com/p/627105666",
+      "summary": "正文把相似矩阵解释为不同坐标系下观察同一线性变换，并说明对角化对应简化该变换。"
+    },
+    {
+      "title": "醍醐灌顶，这才是所有线性代数老师应该教给你的，矩阵的知识！",
+      "url": "https://zhuanlan.zhihu.com/p/627577786",
+      "summary": "正文用旋转、缩放和矩阵乘法解释线性变换保持共线关系的几何特征。"
+    },
+    {
+      "title": "线性代数的本质（完整版）",
+      "url": "https://zhuanlan.zhihu.com/p/629986822",
+      "summary": "通过网格、基向量与矩阵乘法系统讲解线性变换及其复合。"
+    },
+    {
+      "title": "坐标旋转变换公式的推导",
+      "url": "https://zhuanlan.zhihu.com/p/631899064",
+      "summary": "正文把旋转后的坐标写成原坐标的线性组合，实质上给出旋转这一线性变换。"
+    },
+    {
+      "title": "张量是什么——张量计算入门",
+      "url": "https://zhuanlan.zhihu.com/p/616816590",
+      "summary": "正文定义线性映射、零空间、值域和同构，并说明多重线性映射可转化为线性映射。"
+    },
+    {
+      "title": "“万恶”的数学符号，自学量子力学的梦魇，深入理解Bra-Ket符号",
+      "url": "https://zhuanlan.zhihu.com/p/641051692",
+      "summary": "正文用投影算符的完备性实现 ket 向量的基变换，并推广到连续基。"
+    },
+    {
+      "title": "非厄米理论基础&PT对称的非厄米矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/641103689",
+      "summary": "正文设有专节讨论非厄米相似变换，说明相似变换保持谱并用于构造同谱矩阵。"
+    },
+    {
+      "title": "一篇文章, 解决你对多元函数的一切疑惑(从0发明雅可比行列式)",
+      "url": "https://zhuanlan.zhihu.com/p/641614164",
+      "summary": "正文将微小区域的微分映射解释为线性变换，并以其矩阵研究面积和曲线、曲面积分换元。"
+    },
+    {
+      "title": "李群初步：SU(2)群和SO(3)群",
+      "url": "https://zhuanlan.zhihu.com/p/643235749",
+      "summary": "正文借助相似变换和矩阵指数把两个转动合成为一个作用于向量的线性转动。"
+    },
+    {
+      "title": "自动化所面试问题整理",
+      "url": "https://zhuanlan.zhihu.com/p/644760396",
+      "summary": "正文把投影视为线性变换，解释其线性性、幂等性与零空间性质。"
+    },
+    {
+      "title": "线性代数(Linear Algebra)学习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/641433373",
+      "summary": "正文把矩阵乘法解释为向量空间中的旋转、伸缩等线性变换，并联系特征向量讨论。"
+    },
+    {
+      "title": "张量分析入门（一）—— 从坐标变换说起",
+      "url": "https://zhuanlan.zhihu.com/p/648165775",
+      "summary": "正文具体推导基变换与向量分量变换互为逆变换，解释线性变换下的坐标变化。"
+    },
+    {
+      "title": "张量分析入门（三）—— 对偶空间",
+      "url": "https://zhuanlan.zhihu.com/p/652481992",
+      "summary": "正文把对偶空间定义为到实数域的线性函数集合，并讨论线性函数及其对偶关系。"
+    },
+    {
+      "title": "重置双元+简单构型+部分\"新成果\"的证明",
+      "url": "https://zhuanlan.zhihu.com/p/653230069",
+      "summary": "正文将二次型的正交变换用于标准化积分分母，从而分离变量完成积分。"
+    },
+    {
+      "title": "线性代数中的「伪逆」详谈",
+      "url": "https://zhuanlan.zhihu.com/p/656761644",
+      "summary": "正文把矩阵 Ax 解释为从行空间到列空间的一一线性映射，并利用该映射理解伪逆。"
+    },
+    {
+      "title": "《特征值与特征向量、矩阵相似对角化、二次型》个人笔记",
+      "url": "https://zhuanlan.zhihu.com/p/659161802",
+      "summary": "正文解释相似矩阵表示同一线性变换在不同基下的矩阵，并讨论对角化和正交相似对角化。"
+    },
+    {
+      "title": "线性代数中矩阵的本质",
+      "url": "https://zhuanlan.zhihu.com/p/659791641",
+      "summary": "正文用旋转、缩放、平移与投影矩阵说明矩阵如何表示并复合三维空间变换。"
+    },
+    {
+      "title": "机器人理论基础：相似变换与连续旋转的左乘/右乘",
+      "url": "https://zhuanlan.zhihu.com/p/660742175",
+      "summary": "正文用旋转在不同坐标系下的矩阵表示解释线性变换，并推导连续旋转的前乘与后乘规则。"
+    },
+    {
+      "title": "厄米特矩阵（Hermitian Matrix）",
+      "url": "https://zhuanlan.zhihu.com/p/663929827",
+      "summary": "正文用复内积说明正交与酉变换保持长度，并以其矩阵形式推导特征值模为一。"
+    },
+    {
+      "title": "《3D Gaussian Splatting for Real-Time Radiance Field Rendering》3D高斯的理论理解",
+      "url": "https://zhuanlan.zhihu.com/p/664725693",
+      "summary": "正文用世界到相机及屏幕映射的雅可比矩阵变换三维协方差，说明投影对应的线性变换。"
+    },
+    {
+      "title": "简单易懂，说人话理解矩阵和特征值特征向量",
+      "url": "https://zhuanlan.zhihu.com/p/673532604",
+      "summary": "正文把矩阵乘法解释为向量在变换作用下的位置或坐标变化。"
+    },
+    {
+      "title": "通俗易懂：马氏距离（举例）",
+      "url": "https://zhuanlan.zhihu.com/p/674071134",
+      "summary": "正文把马氏距离的计算解释为平移、旋转和伸缩三类矩阵变换，说明各变换的数据处理效果。"
+    },
+    {
+      "title": "“万恶”的数学符号，自学量子力学的梦魇，深入理解Bra-Ket符号",
+      "url": "https://zhuanlan.zhihu.com/p/674700922",
+      "summary": "正文用投影矩阵和单位分解说明状态向量的基变换与线性投影。"
+    },
+    {
+      "title": "双曲线中的仿射变换(Part I 伸缩变换)",
+      "url": "https://zhuanlan.zhihu.com/p/668884276",
+      "summary": "正文把水平竖直伸缩写成坐标线性变换，分析其中保持不变的几何关系与发生比例变化的量。"
+    },
+    {
+      "title": "通俗易懂：向量乘法与矩阵乘法",
+      "url": "https://zhuanlan.zhihu.com/p/675303373",
+      "summary": "正文把矩阵左乘列向量解释为对称、伸缩和旋转等几何变换。"
+    },
+    {
+      "title": "物理学中的群论 · 入门篇 第三章：转动变换群",
+      "url": "https://zhuanlan.zhihu.com/p/677643396",
+      "summary": "正文把二维和三维转动表述为作用在矢量上的线性变换矩阵。"
+    },
+    {
+      "title": "从离散到连续——简明易懂地导出傅立叶变换的各种公式",
+      "url": "https://zhuanlan.zhihu.com/p/676313875",
+      "summary": "正文以基变换解释傅立叶展开，并通过坐标变换矩阵推导变换公式。"
+    },
+    {
+      "title": "物理学家做的数学推导",
+      "url": "https://zhuanlan.zhihu.com/p/678954912",
+      "summary": "正文把积分视为形式幂级数空间上的线性变换，以恒等变换减积分算子并借助算子级数求其逆。"
+    },
+    {
+      "title": "「特征值分解」和「奇异值分解」的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/679790588",
+      "summary": "正文把矩阵分解解释为基变换、旋转和拉伸的复合，实质讲解矩阵对应的线性变换。"
+    },
+    {
+      "title": "深刻理解线性代数的本质---线性映射和矩阵对应关系",
+      "url": "https://zhuanlan.zhihu.com/p/680199799",
+      "summary": "正文讲解线性映射的基表示、矩阵表示及不同基选择对同一映射的影响。"
+    },
+    {
+      "title": "通俗易懂：基变换和坐标变换",
+      "url": "https://zhuanlan.zhihu.com/p/683873038",
+      "summary": "正文具体讲解同一向量空间中的基变换，以及向量在变换后的坐标系中如何改变表示。"
+    },
+    {
+      "title": "通俗易懂：什么是相似矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/684473914",
+      "summary": "正文用轴对称、旋转以及不同基下的同一映射来具体说明矩阵所表示的线性变换。"
+    },
+    {
+      "title": "通俗易懂：什么是正交矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/684677360",
+      "summary": "正文把正交矩阵视为旋转变换，结合坐标变换和具体矩阵乘法验证长度与夹角保持不变。"
+    },
+    {
+      "title": "从几何意义上理解四元数",
+      "url": "https://zhuanlan.zhihu.com/p/684379741",
+      "summary": "正文把四元数乘法解释为四维和三维中的旋转映射，并用 qpq^{-1} 抵消形变、保留旋转。"
+    },
+    {
+      "title": "通俗易懂：什么是对角矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/684828942",
+      "summary": "正文把左右乘对角矩阵分别解释为对向量分量和矩阵列向量的伸缩变换。"
+    },
+    {
+      "title": "通俗易懂：矩阵对角化",
+      "url": "https://zhuanlan.zhihu.com/p/684220530",
+      "summary": "正文从相似矩阵和基变换角度说明对角化前后的矩阵表示同一个线性变换。"
+    },
+    {
+      "title": "看图学大模型：从绝对位置编码到旋转位置编码(RoPE)，初中生能看懂，甚至会认表就能看懂：）",
+      "url": "https://zhuanlan.zhihu.com/p/687525842",
+      "summary": "正文证明正弦位置编码可由与相对位置有关的线性变换表示。"
+    },
+    {
+      "title": "茅塞顿开，这才是矩阵变换的本质，小学生都能轻松理解",
+      "url": "https://zhuanlan.zhihu.com/p/688566901",
+      "summary": "正文从线性映射出发定义转置，并用协向量和测量等价解释变换矩阵。"
+    },
+    {
+      "title": "一些特殊分块矩阵的行列式",
+      "url": "https://zhuanlan.zhihu.com/p/688604557",
+      "summary": "正文用线性变换的复合来说明矩阵乘积及其行列式关系。"
+    },
+    {
+      "title": "《线性代数》——基变换，线性变换，过渡矩阵，逆矩阵的本质",
+      "url": "https://zhuanlan.zhihu.com/p/697296661",
+      "summary": "正文具体解释基变换、过渡矩阵及旋转伸张等线性变换的几何特征。"
+    },
+    {
+      "title": "SpinQuant: 用旋转矩阵去除LLM outliers的量化方法，其上限明显高于GPTQ和SmoothQuant两类方法",
+      "url": "https://zhuanlan.zhihu.com/p/701646738",
+      "summary": "正文说明如何用旋转矩阵改变表示并平滑大语言模型中的离群点。"
+    },
+    {
+      "title": "向量与代数（一）：两种角度理解点积和叉积",
+      "url": "https://zhuanlan.zhihu.com/p/699929617",
+      "summary": "正文定义线性变换，用基向量的像表示变换，并以对偶向量重新解释点积和叉积。"
+    },
+    {
+      "title": "「彻底理解张量」系列补充内容: 更加优雅的张量理解之泛性质(Universal Property)",
+      "url": "https://zhuanlan.zhihu.com/p/706252457",
+      "summary": "正文用多重线性映射和指标缩并具体解释 (1,1) 型张量如何对应 V 到 V 的线性变换。"
+    },
+    {
+      "title": "向量与代数（四）：神奇的外微分",
+      "url": "https://zhuanlan.zhihu.com/p/700740094",
+      "summary": "正文把向量函数在一点附近的微分解释为线性变换，并用矩阵表示该变换。"
+    },
+    {
+      "title": "一些成分复杂的代数题",
+      "url": "https://zhuanlan.zhihu.com/p/708452183",
+      "summary": "正文借助对偶映射的单射性证明线性映射为满射，并用核空间说明泛函属于对偶基张成。"
+    },
+    {
+      "title": "抽象代数观点下的标准型理论",
+      "url": "https://zhuanlan.zhihu.com/p/708807118",
+      "summary": "正文把线性变换作用于向量定义为 F[x]-模作用，并据此研究标准型。"
+    },
+    {
+      "title": "线性代数中的暴力美学",
+      "url": "https://zhuanlan.zhihu.com/p/717440138",
+      "summary": "正文从线性变换在基矩阵上的取值出发刻画整个变换，并与交换子变换 AX-XA 比较。"
+    },
+    {
+      "title": "圆锥曲线第四定义——射影定义",
+      "url": "https://zhuanlan.zhihu.com/p/717709067",
+      "summary": "正文将极点极线解释为对偶平面间的射影变换，并进一步研究其对合及复合变换。"
+    },
+    {
+      "title": "ICML 2025 || LLM 量化新篇章，4-bit 权重激活量化几乎无损！FlatQuant 的平坦之道",
+      "url": "https://zhuanlan.zhihu.com/p/899259762",
+      "summary": "正文用可学习仿射变换平衡权重和激活值，并分析正交变换不能改变模长等变换性质。"
+    },
+    {
+      "title": "VQ的旋转技巧：梯度直通估计的一般推广",
+      "url": "https://zhuanlan.zhihu.com/p/5428292489",
+      "summary": "正文将归一化向量之间的旋转写成正交变换，并分析相应线性变换对梯度方向和尺度的影响。"
+    },
+    {
+      "title": "机器人运动学建模方法（上）：DH参数法",
+      "url": "https://zhuanlan.zhihu.com/p/15964694881",
+      "summary": "正文将坐标变换解释为作用在三维点上的线性变换，并利用链式乘积计算末端位姿。"
+    },
+    {
+      "title": "线性代数中的几何观念是如何诞生的",
+      "url": "https://zhuanlan.zhihu.com/p/20521571570",
+      "summary": "正文从线性替代和矩阵复合讲到 Banach 空间上的紧算子，系统梳理线性映射观念的形成。"
+    },
+    {
+      "title": "Hurwitz定理——向量叉乘居然只能在三维和七维空间中定义！？",
+      "url": "https://zhuanlan.zhihu.com/p/24562904392",
+      "summary": "正文由双线性积构造线性变换，并利用其正交性和特征子空间推进维数限制。"
+    },
+    {
+      "title": "高显的魔法书——（三）转动理论",
+      "url": "https://zhuanlan.zhihu.com/p/25066751850",
+      "summary": "正文把转动定义成保持欧氏度规的线性变换，并进一步研究角速度与坐标变换。"
+    },
+    {
+      "title": "北京大学实验班高代2期中压轴题首发解析",
+      "url": "https://zhuanlan.zhihu.com/p/1893257050915582761",
+      "summary": "正文围绕线性变换 A 的非平凡不变子空间、循环向量及其张成空间展开引理和反证证明。"
+    },
+    {
+      "title": "初中数学の魔法禁书目录",
+      "url": "https://zhuanlan.zhihu.com/p/1899941563582358506",
+      "summary": "正文定义二维旋转矩阵，并具体演示它如何变换点的坐标与直线。"
+    },
+    {
+      "title": "上海交大线性代数期中钓鱼题的初等解法",
+      "url": "https://zhuanlan.zhihu.com/p/1902323907001824230",
+      "summary": "正文选取新的基并写出线性映射的矩阵表示，以此实现分块降阶和归纳证明。"
+    },
+    {
+      "title": "旋转矩阵在LLM量化中的使用",
+      "url": "https://zhuanlan.zhihu.com/p/1908961205546095160",
+      "summary": "正文说明正交旋转作用于激活和权重后保持矩阵乘法结果不变。"
+    },
+    {
+      "title": "线性代数怎么入门？——（上）",
+      "url": "https://zhuanlan.zhihu.com/p/1917950917346590855",
+      "summary": "正文给出线性变换保持加法与数乘的定义，并说明它完全由基向量的像所决定。"
+    },
+    {
+      "title": "算子的幂级数展开法求解变系数微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/1921124903458955470",
+      "summary": "正文把函数空间上的求导和积分视为线性算子，给出它们在选定基下的线性变换矩阵。"
+    },
+    {
+      "title": "山东大学 (泰山学堂,潘承洞班) 高等代数(2) 2024-2025年期末考试",
+      "url": "https://zhuanlan.zhihu.com/p/1922235568210835202",
+      "summary": "正文讨论复线性空间上的线性变换、极小多项式、有理标准型和几何作用。"
+    },
+    {
+      "title": "[圆锥曲线]曲线系——筛选思想与基底思想",
+      "url": "https://zhuanlan.zhihu.com/p/1933138931517486985",
+      "summary": "正文通过旋转消去交叉项并用平移化简一般二次曲线方程，实质应用坐标线性变换。"
+    },
+    {
+      "title": "算子法解变系数微分方程从矩阵角度的理解——微分算子平移公式",
+      "url": "https://zhuanlan.zhihu.com/p/1934902289627329372",
+      "summary": "正文通过函数基底的变换及矩阵相似关系解释微分算子平移公式。"
+    },
+    {
+      "title": "李代数钓鱼题下放考研数学，解答堪比博士论文",
+      "url": "https://zhuanlan.zhihu.com/p/1942163620495591301",
+      "summary": "正文逐步证明该线性变换为双射并保持幂零性与矩阵秩。"
+    },
+    {
+      "title": "平移算子在代数上的严格证明&一个求导算子分解式的导出",
+      "url": "https://zhuanlan.zhihu.com/p/1952403851014576090",
+      "summary": "正文通过过渡矩阵联系两组基，并证明同一线性变换的两种矩阵表示相同。"
+    },
+    {
+      "title": "探寻矩阵的本质——Jordan标准型",
+      "url": "https://zhuanlan.zhihu.com/p/1917010925040439525",
+      "summary": "正文通过线性变换的值域、核、不变子空间与矩阵表示解释 Jordan 结构。"
+    },
+    {
+      "title": "欧拉公式的一种崭新的直观几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/1980189059025486197",
+      "summary": "正文把旋转、镜像和投影解释为作用于二维实向量的线性算符。"
+    },
+    {
+      "title": "如何理解矩阵的四个基本空间",
+      "url": "https://zhuanlan.zhihu.com/p/1981778010244944796",
+      "summary": "正文从输入空间到输出空间的映射解释矩阵，并证明行空间到列空间的诱导映射是双射。"
+    },
+    {
+      "title": "有了四元数，再也不怕 SO(3) 和 SU(2)",
+      "url": "https://zhuanlan.zhihu.com/p/1985023719861662449",
+      "summary": "正文把 SU(2) 在 su(2) 上的伴随作用解释为线性变换并计算其旋转效果。"
+    },
+    {
+      "title": "如何只用线性代数得到微分几何",
+      "url": "https://zhuanlan.zhihu.com/p/1996609978740531264",
+      "summary": "正文把矩阵乘向量解释为基向量的线性组合，并据此进行切空间基变换。"
+    },
+    {
+      "title": "复数的矩阵表示：一个打通几何、代数与分析的独特视角",
+      "url": "https://zhuanlan.zhihu.com/p/2004102115732247961",
+      "summary": "正文把复数乘法解释为二维旋转与均匀缩放的复合，并用雅可比矩阵说明局部线性作用。"
+    },
+    {
+      "title": "微分的本质：从“变化率”到“线性映射”的飞跃",
+      "url": "https://zhuanlan.zhihu.com/p/2007391930762432746",
+      "summary": "正文以最佳线性近似为主线解释微分、梯度与链式法则，核心是线性映射及其复合。"
+    },
+    {
+      "title": "线性代数的本质 3Blue1Brown",
+      "url": "https://zhuanlan.zhihu.com/p/2009191750485435220",
+      "summary": "正文用网格变形和基向量去向直观解释线性变换的几何含义。"
+    },
+    {
+      "title": "华罗庚玩转矩阵的技巧",
+      "url": "https://zhuanlan.zhihu.com/p/2027339298702209442",
+      "summary": "正文讨论矩阵在相合、酉相合、正交及辛相似等线性变换下的标准型与分类。"
+    },
+    {
+      "title": "“数分高代”视角下的散在单群（1）——模11下的叉乘奇迹与 Janko 第一单群",
+      "url": "https://zhuanlan.zhihu.com/p/2028216671819581256",
+      "summary": "正文用矩阵表示并验证七维叉乘自同构所对应的线性变换。"
+    },
+    {
+      "title": "李群李代数（一）·群到李群 李群到李代数 导子",
+      "url": "https://zhuanlan.zhihu.com/p/2033618384642888018",
+      "summary": "正文通过共轭映射的微分定义伴随作用，并把它解释为李代数上的线性变换。"
+    },
+    {
+      "title": "旋度为什么长这个形式？——Jacobi矩阵视角的解释",
+      "url": "https://zhuanlan.zhihu.com/p/2036870713215276341",
+      "summary": "正文把 Jacobi 矩阵的两部分解释为局部伸缩和旋转两类线性变换。"
+    },
+    {
+      "title": "宝宝用微分几何与纤维丛（连载中）",
+      "url": "https://zhuanlan.zhihu.com/p/2041538717177926508",
+      "summary": "正文具体推导线性基变换下向量、对偶向量与张量分量的变换规律。"
+    },
+    {
+      "title": "2026年中科大数学夏令营试题（数分高代部分，剩下的部分之后更新）（首发）",
+      "url": "https://zhuanlan.zhihu.com/p/2042022401777689704",
+      "summary": "正文研究曲线在线性变换下的像，并利用变换矩阵和面积伸缩因子计算像椭圆面积。"
+    },
+    {
+      "title": "线性代数中为何引入四大基本空间？",
+      "url": "https://zhuanlan.zhihu.com/p/2042336369582788778",
+      "summary": "正文以输入空间到输出空间的映射解释矩阵作为线性变换如何保留、消去和产生方向。"
+    },
+    {
+      "title": "无穷维空间里的秩序：泛函分析入门",
+      "url": "https://zhuanlan.zhihu.com/p/2047966979009651330",
+      "summary": "正文把函数视作向量并研究函数空间之间的线性算子，以有界性刻画算子的连续性。"
+    },
+    {
+      "title": "张量与群论（Jeevanjee）—— 群、李群与李代数",
+      "url": "https://zhuanlan.zhihu.com/p/2060379218127725134",
+      "summary": "正文以保持 Hermite 形式的线性算子为核心对象，讨论其矩阵表示、群结构以及生成元。"
+    }
+  ]
+}

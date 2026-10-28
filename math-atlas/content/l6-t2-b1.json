@@ -1,0 +1,2901 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l6-t2-b1",
+  "sources": [
+    {
+      "title": "球谐函数是什么？",
+      "url": "https://www.zhihu.com/answer/32666018",
+      "summary": "说明球谐函数用于拉普拉斯与赫姆霍兹方程的解。"
+    },
+    {
+      "title": "数学院的本科生到底要学完多少内容？",
+      "url": "https://www.zhihu.com/answer/33106947",
+      "summary": "将偏微分方程列为数学本科基础能力的核心训练。"
+    },
+    {
+      "title": "为什么 空间二阶导（拉普拉斯算子）这么重要？",
+      "url": "https://www.zhihu.com/answer/35022987",
+      "summary": "正文用 Hodge-Laplace 理论联系拉普拉斯算子与偏微分方程。"
+    },
+    {
+      "title": "偏微分方程可不可以用级数展开直接解？",
+      "url": "https://www.zhihu.com/answer/35230502",
+      "summary": "正文给出偏微分方程幂级数解的解析条件与局部存在唯一性结论。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/37754342",
+      "summary": "正文以椭圆型偏微分方程正则性证明为例讨论能量估计与迭代方法。"
+    },
+    {
+      "title": "偏微分方程领域有人在做一般性的解析解的理论吗？",
+      "url": "https://www.zhihu.com/answer/39716859",
+      "summary": "正文从适定性、整体解、爆破和渐近行为等问题概括偏微分方程研究。"
+    },
+    {
+      "title": "大学数学系学什么？",
+      "url": "https://www.zhihu.com/answer/41666311",
+      "summary": "正文以先验估计和正则性分析具体说明偏微分方程研究解的性质。"
+    },
+    {
+      "title": "有限元方法的核心思想是什么？",
+      "url": "https://www.zhihu.com/answer/43989189",
+      "summary": "正文说明有限元处理带边界条件的偏微分方程问题。"
+    },
+    {
+      "title": "除纳什均衡以外，约翰·纳什（John Nash）在数学及其它领域还有哪些贡献？",
+      "url": "https://www.zhihu.com/answer/49066277",
+      "summary": "正文详细解释纳什对椭圆型二阶偏微分方程正则性的研究。"
+    },
+    {
+      "title": "比较高深的数学在经济学有哪些运用相当漂亮？",
+      "url": "https://www.zhihu.com/answer/50293788",
+      "summary": "正文说明金融模型使用常微分和偏微分方程。"
+    },
+    {
+      "title": "偏微分方程可不可以用级数展开直接解？",
+      "url": "https://www.zhihu.com/answer/51795194",
+      "summary": "正文分析偏微分方程的幂级数解法、热方程及适用限制。"
+    },
+    {
+      "title": "通过亥姆霍兹方程是如何推导出球面波表达式的？",
+      "url": "https://www.zhihu.com/answer/61489643",
+      "summary": "正文从亥姆霍兹方程在球坐标下分离变量推导球面波。"
+    },
+    {
+      "title": "学习复变函数与积分变换有什么用途？",
+      "url": "https://www.zhihu.com/answer/71838030",
+      "summary": "正文明确说明偏微分方程的解常由三角级数构成。"
+    },
+    {
+      "title": "如何看待那些研究数学的人，数学到底有没有作用？",
+      "url": "https://www.zhihu.com/answer/72393942",
+      "summary": "正文直接说明计算流体力学与偏微分方程的关系。"
+    },
+    {
+      "title": "花一整夜的时间解一个方程是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/72430379",
+      "summary": "正文将所解问题概括为薛定谔方程。"
+    },
+    {
+      "title": "离散数学讲些什么内容？在计算机科学有什么应用？该怎么学好？",
+      "url": "https://www.zhihu.com/answer/75274905",
+      "summary": "正文说明通过差分或有限元把偏微分方程离散并转化为代数方程。"
+    },
+    {
+      "title": "有限元方法的核心思想是什么？",
+      "url": "https://www.zhihu.com/answer/77527697",
+      "summary": "正文说明通过变分和近似函数求解带边界条件的偏微分方程。"
+    },
+    {
+      "title": "球谐函数是什么？",
+      "url": "https://www.zhihu.com/answer/85462194",
+      "summary": "正文从波动方程分离变量推导球谐函数。"
+    },
+    {
+      "title": "有限元弱形式a(u,v)=f(v)中的v？",
+      "url": "https://www.zhihu.com/answer/85921068",
+      "summary": "正文从守恒定律推导 PDE 并将其转换为弱积分形式。"
+    },
+    {
+      "title": "分离变量法的理论基础？",
+      "url": "https://www.zhihu.com/answer/89587506",
+      "summary": "正文从 Sturm-Liouville 完备本征函数解释偏微分方程分离变量法。"
+    },
+    {
+      "title": "欧拉方程求解是否比N-S方程更加困难？如果是，为什么？",
+      "url": "https://www.zhihu.com/answer/90469133",
+      "summary": "正文比较可压缩与不可压缩 Euler、Navier–Stokes 方程的多维弱解和正则性。"
+    },
+    {
+      "title": "哪些书让你重新认识了数学？",
+      "url": "https://www.zhihu.com/answer/99959234",
+      "summary": "正文说明以偏微分方程反解常微分方程问题，并由此形成新的研究领域。"
+    },
+    {
+      "title": "偏微分方程中特征线法的原理是什么？",
+      "url": "https://www.zhihu.com/answer/107560719",
+      "summary": "正文以一阶双曲型对流方程完整推导偏微分方程的特征线法。"
+    },
+    {
+      "title": "数学中为什么要定义各种空间？",
+      "url": "https://www.zhihu.com/answer/108587384",
+      "summary": "正文解释索伯列夫空间如何处理椭圆型、抛物型偏微分方程的弱解。"
+    },
+    {
+      "title": "是否存在三维空间的保角变换？",
+      "url": "https://www.zhihu.com/answer/113562085",
+      "summary": "正文说明通过 Ricci 曲率计算得到共形因子的偏微分方程组。"
+    },
+    {
+      "title": "具体哪里会用到泛函分析和测度论？",
+      "url": "https://www.zhihu.com/answer/115886896",
+      "summary": "正文多处说明泛函分析为线性、非线性偏微分方程及变分问题提供理论工具。"
+    },
+    {
+      "title": "从对数学的贡献上来讲，丘成桐有多厉害？",
+      "url": "https://www.zhihu.com/answer/116355197",
+      "summary": "正文明确说明 PDE 方法在几何分析证明中的作用。"
+    },
+    {
+      "title": "现代数学上有哪些难题，解决后可以立刻推动人类文明飞跃？",
+      "url": "https://www.zhihu.com/answer/120157165",
+      "summary": "正文说明偏微分方程组缺少通用解析解对多学科计算造成的限制。"
+    },
+    {
+      "title": "麦克斯韦方程组的解在什么意义下是唯一的？特别的，怎样由麦克斯韦方程推出毕奥-萨伐尔定律？",
+      "url": "https://www.zhihu.com/answer/121596160",
+      "summary": "正文讨论麦克斯韦偏微分方程在边界条件下的唯一性，并推导静磁场积分解。"
+    },
+    {
+      "title": "金融衍生品定价有哪些基本方法？",
+      "url": "https://www.zhihu.com/answer/124841153",
+      "summary": "正文展开Ito展开、无套利关系和BS方程，并讨论边界条件及有限差分数值求解。"
+    },
+    {
+      "title": "Kolmogorov（柯尔莫哥洛夫）至少让实用概率论停滞了三四十年，试评价这一观点？",
+      "url": "https://www.zhihu.com/answer/125527745",
+      "summary": "正文说明通过分析偏微分生成元的性质研究扩散过程，并连接到Black-Scholes模型。"
+    },
+    {
+      "title": "数学硕士/博士研究生阶段有哪些定理/论文/理论让你为之振奋？",
+      "url": "https://www.zhihu.com/answer/125686418",
+      "summary": "正文系统介绍 Yamabe 方程这一临界椭圆 PDE 及黏性解、估计和逼近方法。"
+    },
+    {
+      "title": "普通人对于现代数学各个分支的理解难度，从高到低排名是怎样的？",
+      "url": "https://www.zhihu.com/answer/126479989",
+      "summary": "正文解释 PDE 的来源、研究难度和不同方程需要不同处理方法。"
+    },
+    {
+      "title": "普通人对于现代数学各个分支的理解难度，从高到低排名是怎样的？",
+      "url": "https://www.zhihu.com/answer/126541867",
+      "summary": "正文实质说明非线性、非局部 PDE 的分析难点及所需工具。"
+    },
+    {
+      "title": "历史上有哪些著名的数学定理在当时证明非常冗长，但是用现代的观点简洁明了？",
+      "url": "https://www.zhihu.com/answer/127886710",
+      "summary": "正文把 Calabi 猜想证明约化为非线性椭圆方程先验估计，并列出逐步约化路线。"
+    },
+    {
+      "title": "随机分析、随机控制等科目在量化投资、计算金融方向有哪些应用？",
+      "url": "https://www.zhihu.com/answer/127948559",
+      "summary": "正文描述用 HJB 偏微分方程求最优资金配置，并展示所得线性 PDE。"
+    },
+    {
+      "title": "你研究的数学领域有哪些重要但不出名的猜想？",
+      "url": "https://www.zhihu.com/answer/129854976",
+      "summary": "正文把平均曲率流类比线性抛物方程、热方程并讨论弱解与奇点处理，属于偏微分方程应用。"
+    },
+    {
+      "title": "什么是 bochner 技巧？",
+      "url": "https://www.zhihu.com/answer/130901493",
+      "summary": "正文把Bochner技巧概括为转而研究Laplacian并利用椭圆、抛物方程理论获得估计。"
+    },
+    {
+      "title": "在你学习数学时有过怎样「顿悟」的经历？",
+      "url": "https://www.zhihu.com/answer/130943843",
+      "summary": "正文以Carleman估计为例说明偏微分方程学习需要亲自计算并理解方法结构。"
+    },
+    {
+      "title": "所有偏微分方程（PDE）解析解都找到的话，对科学界有什么影响？",
+      "url": "https://www.zhihu.com/answer/131118562",
+      "summary": "正文解释偏微分方程没有解析解仍可能有弱解、黏性解或熵解，并强调边界与函数空间。"
+    },
+    {
+      "title": "为什么说「复分析理论」是本科所学数学中最漂亮最和谐的理论？",
+      "url": "https://www.zhihu.com/answer/131174426",
+      "summary": "正文把Cauchy–Riemann、Laplace、Beltrami等方程及椭圆算子用于解释复解析函数性质。"
+    },
+    {
+      "title": "PDE 中的先验估计是什么意思？",
+      "url": "https://www.zhihu.com/answer/131200650",
+      "summary": "正文完整解释PDE先验估计如何通过有限维逼近、统一估计和取极限证明解的存在。"
+    },
+    {
+      "title": "如何理解波动方程的解的表达式（附描述）？",
+      "url": "https://www.zhihu.com/answer/133074925",
+      "summary": "正文从传播波函数推导二阶线性偏微分波动方程，并说明边初值条件。"
+    },
+    {
+      "title": "如何学好数学物理方程？",
+      "url": "https://www.zhihu.com/answer/136618984",
+      "summary": "正文介绍数学物理方程中的波动、热与位势方程及分离变量、积分变换和格林函数方法。"
+    },
+    {
+      "title": "实变、泛函、抽代、拓扑，哪几门对于非纯数专业更加有用？",
+      "url": "https://www.zhihu.com/answer/137346086",
+      "summary": "正文说明泛函分析是偏微分方程的重要基础工具。"
+    },
+    {
+      "title": "数学是人为创造还是自然的规律？",
+      "url": "https://www.zhihu.com/answer/143236650",
+      "summary": "正文以热传导和反应扩散共享同类方程说明偏微分方程的建模普适性。"
+    },
+    {
+      "title": "为什么自然科学里很多公式符合平方反比定律，为什么指数是 2 不是 3？",
+      "url": "https://www.zhihu.com/answer/145037727",
+      "summary": "正文把场的散度条件化为拉普拉斯偏微分方程，并给出不同维数下的基本解。"
+    },
+    {
+      "title": "常微分方程的理论对偏微分方程的研究有没有帮助？",
+      "url": "https://www.zhihu.com/answer/146666447",
+      "summary": "正文把含时间的偏微分方程转为函数空间上的无限维常微分方程并写出积分方程。"
+    },
+    {
+      "title": "数学系本科生如何学好实变函数与泛函分析？",
+      "url": "https://www.zhihu.com/answer/151550619",
+      "summary": "正文把偏微分方程列为泛函分析最重要的应用，并用椭圆型方程说明对偶方法。"
+    },
+    {
+      "title": "拓扑学上的紧致性怎样理解？有何运用？",
+      "url": "https://www.zhihu.com/answer/152191189",
+      "summary": "正文说明用紧性和逼近方程证明偏微分方程解存在的思路。"
+    },
+    {
+      "title": "微分方程数值方法和偏微分方程有什么区别吗？",
+      "url": "https://www.zhihu.com/answer/154630733",
+      "summary": "正文详述偏微分方程数值求解的差分、有限元、谱方法及维数灾难。"
+    },
+    {
+      "title": "计算数学专业，想问一下目前计算数学哪个比较热门？",
+      "url": "https://www.zhihu.com/answer/155732379",
+      "summary": "正文列出并解释偏微分方程数值解的差分、有限元与有限体积路线。"
+    },
+    {
+      "title": "格林函数的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/158572403",
+      "summary": "正文从点源、边界条件和叠加原理解释格林函数求解非齐次数学物理方程。"
+    },
+    {
+      "title": "有哪些在你的数学领域里很有用的技巧？",
+      "url": "https://www.zhihu.com/answer/164816796",
+      "summary": "正文将这些工具用于偏微分方程的边界算子、存在性和逼近。"
+    },
+    {
+      "title": "读 PDE 方向的数学博士是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/165657813",
+      "summary": "正文从空间、估计、算子和论文实践描述 PDE 研究方法。"
+    },
+    {
+      "title": "有哪些在你的数学领域里很有用的技巧？",
+      "url": "https://www.zhihu.com/answer/166213115",
+      "summary": "正文具体说明分部积分在 PDE 和相关分析方法中的作用。"
+    },
+    {
+      "title": "读 PDE 方向的数学博士是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/166713693",
+      "summary": "正文从分析、数值、物理来源与职业实践概述偏微分方程研究。"
+    },
+    {
+      "title": "PDE(基础方向、流体)和CFD(计算方向)该选哪个？",
+      "url": "https://www.zhihu.com/answer/168205388",
+      "summary": "正文详述偏微分方程入门教材、估计、空间和非线性方程工具。"
+    },
+    {
+      "title": "如何理解分析中的各种正则性？",
+      "url": "https://www.zhihu.com/answer/170006731",
+      "summary": "正文通过弱解、正则性和最大正则性解释 PDE 解空间的核心问题。"
+    },
+    {
+      "title": "你最钦佩的数学天才是谁？",
+      "url": "https://www.zhihu.com/answer/170547372",
+      "summary": "正文说明纳什嵌入方法、椭圆方程与纳什—墨瑟定理的 PDE 贡献。"
+    },
+    {
+      "title": "如何理解本征值?",
+      "url": "https://www.zhihu.com/answer/174794698",
+      "summary": "正文解释本征函数法如何用于求解偏微分方程并联系分离变量。"
+    },
+    {
+      "title": "用分离变量法来解 PDE 的合理性何在？",
+      "url": "https://www.zhihu.com/answer/175156730",
+      "summary": "正文从算子、正交基和半群解释分离变量法求偏微分方程为何有效。"
+    },
+    {
+      "title": "为什么没有听说金融工程出身的人从BSmodel的角度去理解热传导？但物理出身的从热传导的角度理解BS？",
+      "url": "https://www.zhihu.com/answer/175986083",
+      "summary": "正文把Black-Scholes方程化为热传导偏微分方程并解释边界与初值。"
+    },
+    {
+      "title": "到今天为止，数学都有那些分支？它们的联系又是什么？",
+      "url": "https://www.zhihu.com/answer/177087417",
+      "summary": "正文指出偏微分方程既是分析的重大主题，也用于描述物理过程并进入几何等纯数学领域。"
+    },
+    {
+      "title": "请问代数分析是什么样的领域？在几何学方面有什么应用嘛？",
+      "url": "https://www.zhihu.com/answer/185287102",
+      "summary": "正文以 Fuchs 方程、解层和 D 模解释微分方程如何被代数化研究。"
+    },
+    {
+      "title": "代数几何是否对 PDE 的研究有启发？",
+      "url": "https://www.zhihu.com/answer/185732342",
+      "summary": "正文从 Hermitian–Yang–Mills 方程出发说明几何如何提出并约束可解的 PDE。"
+    },
+    {
+      "title": "房间内有 100 人，每人有 100 块，每分钟随机给另一个人 1 块，最后房间内的财富分布怎样？",
+      "url": "https://www.zhihu.com/answer/197181699",
+      "summary": "正文把随机游走方程与离散热传导偏微分方程对应。"
+    },
+    {
+      "title": "如何入门几何分析？",
+      "url": "https://www.zhihu.com/answer/206802352",
+      "summary": "正文强调线性椭圆方程等 PDE 技术是几何分析的基础。"
+    },
+    {
+      "title": "如何入门几何分析？",
+      "url": "https://www.zhihu.com/answer/206904994",
+      "summary": "正文介绍以 PDE 研究几何的几何分析方向。"
+    },
+    {
+      "title": "数学硕士/博士研究生阶段有哪些定理/论文/理论让你为之振奋？",
+      "url": "https://www.zhihu.com/answer/210353510",
+      "summary": "正文介绍曲率猜想、二维非线性薛定谔方程和孤子分解等 PDE 研究成果。"
+    },
+    {
+      "title": "为什么理工科更看重“闭合解”和“解析解”，其次考虑给出“迭代格式”的“数值解”？",
+      "url": "https://www.zhihu.com/answer/212617879",
+      "summary": "正文解释偏微分方程解析解在理解解性质和物理现象中的作用。"
+    },
+    {
+      "title": "在哪个瞬间你觉得「我的高数没有白学」?",
+      "url": "https://www.zhihu.com/answer/213486227",
+      "summary": "正文围绕麦克斯韦方程组的积分与微分形式及求解学习展开。"
+    },
+    {
+      "title": "学习偏微分方程需要具备什么基础知识？",
+      "url": "https://www.zhihu.com/answer/223171993",
+      "summary": "正文分层说明学习偏微分方程需要的分析基础和常见求解工具。"
+    },
+    {
+      "title": "做数学不同方向的人各有什么特点？",
+      "url": "https://www.zhihu.com/answer/231221774",
+      "summary": "正文具体说明偏微分方程估计与迭代的工作方式。"
+    },
+    {
+      "title": "做数学不同方向的人各有什么特点？",
+      "url": "https://www.zhihu.com/answer/231308117",
+      "summary": "正文围绕偏微分方程的变分法、算子法和估计展开。"
+    },
+    {
+      "title": "拓扑向量空间的理论在数学内外有什么应用？",
+      "url": "https://www.zhihu.com/answer/235962383",
+      "summary": "正文解释弱拓扑在Galerkin、变分和单调算子解法中的作用。"
+    },
+    {
+      "title": "陶哲轩这篇关于 N-S 方程的证明具体是得出了什么结论，对 CFD 会有什么深远影响吗？",
+      "url": "https://www.zhihu.com/answer/245429084",
+      "summary": "正文将 Navier-Stokes 方程转为含双线性算子的抽象偏微分方程。"
+    },
+    {
+      "title": "对于数学研究生来说，（在你的方向）「打基础」到什么地步可以开始做研究了？",
+      "url": "https://www.zhihu.com/answer/264472282",
+      "summary": "正文具体介绍偏微分方程研究所需的分析工具与后续学习方式。"
+    },
+    {
+      "title": "本科偏微分方程学习中如何规避大量的计算？",
+      "url": "https://www.zhihu.com/answer/266393057",
+      "summary": "正文解释偏微分方程证明中的分部积分、估计、Galerkin 逼近和正则性验证。"
+    },
+    {
+      "title": "数学这门学科有多有趣？",
+      "url": "https://www.zhihu.com/answer/269800016",
+      "summary": "正文说明丘成桐证明 Calabi 猜想主要依赖偏微分方程估计。"
+    },
+    {
+      "title": "数学里的那些技巧是怎么想出来的？",
+      "url": "https://www.zhihu.com/answer/272504770",
+      "summary": "正文说明复杂偏微分方程估计如何依赖辅助函数构造。"
+    },
+    {
+      "title": "偏微分方程有哪些前沿的研究课题？",
+      "url": "https://www.zhihu.com/answer/275324541",
+      "summary": "正文按椭圆、双曲、非局部等方向综述偏微分方程前沿。"
+    },
+    {
+      "title": "学习SPDE的先行课程和知识?",
+      "url": "https://www.zhihu.com/answer/278044953",
+      "summary": "正文给出最基本线性 SPDE 及其半群积分解。"
+    },
+    {
+      "title": "学习SPDE的先行课程和知识?",
+      "url": "https://www.zhihu.com/answer/279315929",
+      "summary": "正文系统说明随机偏微分方程所需的偏微分方程基础。"
+    },
+    {
+      "title": "如何学习以及评价Gilbarg-Trudinger的书？",
+      "url": "https://www.zhihu.com/answer/285876755",
+      "summary": "正文围绕椭圆偏微分方程正则性理论给出学习方法。"
+    },
+    {
+      "title": "谁有希望获得 2018 菲尔兹奖?",
+      "url": "https://www.zhihu.com/answer/297668401",
+      "summary": "正文具体讨论候选数学家在椭圆与抛物偏微分方程中的正则性成果。"
+    },
+    {
+      "title": "偏微分方程解的存在唯一性吗？",
+      "url": "https://www.zhihu.com/answer/303056388",
+      "summary": "正文系统说明把偏微分方程化为积分方程和不动点问题以证明存在唯一性。"
+    },
+    {
+      "title": "现代数学是不是比大学数学中优雅的结论少了很多？",
+      "url": "https://www.zhihu.com/answer/304710445",
+      "summary": "正文具体解释现代偏微分方程以弱解、估计和正则性提升处理存在性。"
+    },
+    {
+      "title": "数学中为什么要定义各种空间？",
+      "url": "https://www.zhihu.com/answer/325039308",
+      "summary": "正文以偏微分方程求解说明函数空间的来源。"
+    },
+    {
+      "title": "数学中的「平凡」「非平凡」「退化」是什么含义？",
+      "url": "https://www.zhihu.com/answer/345977627",
+      "summary": "正文将退化概念用于二阶线性偏微分方程分类。"
+    },
+    {
+      "title": "为什么本征方程在物理中应用广泛？",
+      "url": "https://www.zhihu.com/answer/356432101",
+      "summary": "正文说明分离变量和叠加原理如何把偏微分方程问题转化为本征值问题。"
+    },
+    {
+      "title": "偏微分方程听不懂怎么办，完全理解不来，有什么简明易懂的书和视频吗？",
+      "url": "https://www.zhihu.com/answer/359999262",
+      "summary": "正文建立波动、热传导、位势三类偏微分方程框架。"
+    },
+    {
+      "title": "读 Evans 的 PDE 前需要哪些预备知识？",
+      "url": "https://www.zhihu.com/answer/364232063",
+      "summary": "正文按 Evans 分部说明学习偏微分方程的预备知识。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/379034034",
+      "summary": "正文讨论椭圆微分算子及其边值问题。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/403979266",
+      "summary": "正文系统讲解Banach空间上的发展方程及其对多类偏微分方程的概括。"
+    },
+    {
+      "title": "如何自己编程实现流体数值模拟？",
+      "url": "https://www.zhihu.com/answer/418053694",
+      "summary": "正文说明求解流体问题需要掌握三类 PDE 与数值格式。"
+    },
+    {
+      "title": "本科偏微分方程学习中如何规避大量的计算？",
+      "url": "https://www.zhihu.com/answer/419376362",
+      "summary": "正文说明 PDE 研究依赖分部积分、不等式估计和大量计算。"
+    },
+    {
+      "title": "如何评价俄罗斯数学家 Vladimir Igorevich Arnold 的数学成就？",
+      "url": "https://www.zhihu.com/answer/456700174",
+      "summary": "正文比较ODE与PDE并讨论变分原理和弱解。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/459172194",
+      "summary": "正文用反应扩散偏微分方程解释动物花纹形成。"
+    },
+    {
+      "title": "索博列夫他的嵌入定理是什么意思，跟连续函数空间关系是什么，有什么用？所有的定理我都知道？",
+      "url": "https://www.zhihu.com/answer/483427738",
+      "summary": "正文用非线性偏微分方程说明Sobolev嵌入对解存在性的用途。"
+    },
+    {
+      "title": "北大数学系田刚的学问到底怎么样？",
+      "url": "https://www.zhihu.com/answer/485661331",
+      "summary": "正文说明复杂 Monge-Ampère 方程在几何分析中的作用。"
+    },
+    {
+      "title": "hormander的L^2 方法在辛几何中的发展？",
+      "url": "https://www.zhihu.com/answer/487767585",
+      "summary": "正文说明拟全纯曲线理论对非线性 PDE 的依赖。"
+    },
+    {
+      "title": "如何评价 2018 数学建模国赛？",
+      "url": "https://www.zhihu.com/answer/492242001",
+      "summary": "正文围绕热防护服建模中的微分方程求解展开。"
+    },
+    {
+      "title": "可以不借助随机过程和 Feyman-Kac 公式理解抛物 PDE 吗？",
+      "url": "https://www.zhihu.com/answer/493254983",
+      "summary": "正文用算子半群与热核理解抛物型偏微分方程。"
+    },
+    {
+      "title": "读应用数学 PhD 是一种什么样的体验？",
+      "url": "https://www.zhihu.com/answer/495492804",
+      "summary": "正文说明应用数学以偏微分方程建立物理模型。"
+    },
+    {
+      "title": "如何评价 2018 数学建模国赛？",
+      "url": "https://www.zhihu.com/answer/495954791",
+      "summary": "正文使用一维导热偏微分方程建立服装传热模型。"
+    },
+    {
+      "title": "基础数学的非线性泛函分析研究什么？",
+      "url": "https://www.zhihu.com/answer/496053256",
+      "summary": "正文说明不动点、单调算子等方法在PDE存在性中的应用。"
+    },
+    {
+      "title": "在 UCLA 上陶哲轩的课是什么感受？",
+      "url": "https://www.zhihu.com/answer/511241813",
+      "summary": "正文详细提到偏微分方程、解的适定性、能量估计等分析内容。"
+    },
+    {
+      "title": "有哪些随机方法应用于确定性数学的例子？",
+      "url": "https://www.zhihu.com/answer/511549487",
+      "summary": "正文从半椭圆算子、热方程到 HJB 方程，系统展示偏微分方程的概率表示。"
+    },
+    {
+      "title": "请问拉普拉斯算子如何进行坐标变换？",
+      "url": "https://www.zhihu.com/answer/515014730",
+      "summary": "通过狄利克雷原理和欧拉—拉格朗日方程得到拉普拉斯方程，涉及 PDE。"
+    },
+    {
+      "title": "关于整体微分几何？",
+      "url": "https://www.zhihu.com/answer/535744325",
+      "summary": "正文说明整体微分几何中的典范度量问题转化为非线性偏微分方程。"
+    },
+    {
+      "title": "使用局部坐标处理微分流形是必须的吗？",
+      "url": "https://www.zhihu.com/answer/541960126",
+      "summary": "正文说明局部坐标下的微分几何如何转化为偏微分方程问题。"
+    },
+    {
+      "title": "如何理解路径积分（path integral）？",
+      "url": "https://www.zhihu.com/answer/553941552",
+      "summary": "给出抛物型 PDE 的概率表示并说明其与倒向随机微分方程的关系。"
+    },
+    {
+      "title": "机器学习或者深度学习能替代有限元么？",
+      "url": "https://www.zhihu.com/answer/575686388",
+      "summary": "正文围绕 PDE 求解比较有限元与学习方法。"
+    },
+    {
+      "title": "除了黎曼猜想，数学界还有哪些至今尚未得到证实的猜想？",
+      "url": "https://www.zhihu.com/answer/586090741",
+      "summary": "介绍调和函数与椭圆型偏微分方程中的未决问题。"
+    },
+    {
+      "title": "微积分能解决哪些在生活中遇到的实际问题？",
+      "url": "https://www.zhihu.com/answer/587108070",
+      "summary": "以流体和扩散等模型说明微积分产生的偏微分方程应用。"
+    },
+    {
+      "title": "数学领域中PDE方向算是比较好做研究吗？",
+      "url": "https://www.zhihu.com/answer/587384523",
+      "summary": "讨论偏微分方程研究的应用范围、入门门槛与前沿难度。"
+    },
+    {
+      "title": "为什么自动控制理论这么玄学？",
+      "url": "https://www.zhihu.com/answer/590207142",
+      "summary": "正文比较常微分方程与偏微分方程求解。"
+    },
+    {
+      "title": "PDE(基础方向、流体)和CFD(计算方向)该选哪个？",
+      "url": "https://www.zhihu.com/answer/602048951",
+      "summary": "正文比较 PDE/CFD 中实际流动求解。"
+    },
+    {
+      "title": "请问数值分析，数值计算方法，最优化计算方法这三门课有什么区别？",
+      "url": "https://www.zhihu.com/answer/626338485",
+      "summary": "明确偏微分方程数值解通常单独开课。"
+    },
+    {
+      "title": "数学家乌伦贝克获 2019 年度阿贝尔奖，成为该奖首位女性得主，她在现代几何分析等领域有哪些成就？",
+      "url": "https://www.zhihu.com/answer/628105755",
+      "summary": "说明偏微分方程方法如何建立极小曲面存在性与正则性。"
+    },
+    {
+      "title": "微分方程中的算子解法为什么不普遍使用？",
+      "url": "https://www.zhihu.com/answer/629741984",
+      "summary": "介绍算子半群和函数演算处理偏微分方程存在性与正则性。"
+    },
+    {
+      "title": "怎样的数学问题叫一个好问题？",
+      "url": "https://www.zhihu.com/answer/698763571",
+      "summary": "把极小曲面方程作为非线性偏微分方程研究。"
+    },
+    {
+      "title": "自学数学物理方法是种什么体验？",
+      "url": "https://www.zhihu.com/answer/707405638",
+      "summary": "正文具体讨论三类偏微分方程、初边值条件及其主要求解方法。"
+    },
+    {
+      "title": "有什么数理方程的书籍推荐？",
+      "url": "https://www.zhihu.com/answer/708775447",
+      "summary": "所推荐书目围绕偏微分方程及数学物理方程。"
+    },
+    {
+      "title": "你身边有哪些神人？",
+      "url": "https://www.zhihu.com/answer/712722001",
+      "summary": "说明傅里叶在热理论中用边界条件解微分方程。"
+    },
+    {
+      "title": "有哪些关于偏微分方程和算子的较透彻的书籍？",
+      "url": "https://www.zhihu.com/answer/714140048",
+      "summary": "书目重点覆盖偏微分方程。"
+    },
+    {
+      "title": "为什么国内做偏微分方程（PDE）的人这么多，而且招学生非常快？",
+      "url": "https://www.zhihu.com/answer/741482476",
+      "summary": "正文围绕偏微分方程数值研究中的稳定性、适定性、收敛阶及不同类型方程展开。"
+    },
+    {
+      "title": "一竖直旋转圆柱上连接一均质柔软有限长绳，稳定时绳是什么形状？",
+      "url": "https://www.zhihu.com/answer/746737923",
+      "summary": "建立含偏导的连续绳运动方程。"
+    },
+    {
+      "title": "有质量的弹簧两端分别连接两个小球，如何求系统的振动周期？",
+      "url": "https://www.zhihu.com/answer/756136879",
+      "summary": "建立弹簧连续介质的波动偏微分方程。"
+    },
+    {
+      "title": "数学入门，进阶，专业书籍？",
+      "url": "https://www.zhihu.com/answer/781510442",
+      "summary": "以工程和力学说明偏微分方程应用。"
+    },
+    {
+      "title": "解微分方程主要是在干什么事？为什么要解微分方程？",
+      "url": "https://www.zhihu.com/answer/781522377",
+      "summary": "用室温时空变化解释偏微分方程。"
+    },
+    {
+      "title": "热传导方程和薛定谔方程为什么这么像？",
+      "url": "https://www.zhihu.com/answer/791548387",
+      "summary": "比较热方程与薛定谔方程两类偏微分方程。"
+    },
+    {
+      "title": "能否尽量通俗地解释一下，最前沿的数学成就有哪些？",
+      "url": "https://www.zhihu.com/answer/802151535",
+      "summary": "正文专段介绍椭圆偏微分方程的谱、正则性和稳定解等公开问题。"
+    },
+    {
+      "title": "CFD高精度格式的分类方法？",
+      "url": "https://www.zhihu.com/answer/845526126",
+      "summary": "以偏微分方程的数值求解为核心对象。"
+    },
+    {
+      "title": "偏微分方程中特征线法的原理是什么？",
+      "url": "https://www.zhihu.com/answer/883973687",
+      "summary": "完整推导一阶非线性偏微分方程的特征线法。"
+    },
+    {
+      "title": "如何看待中南大学数学院一位博士读博期间发表了 40 多篇论文？",
+      "url": "https://www.zhihu.com/answer/901646712",
+      "summary": "正文解释偏微分方程的来源、分析工具与人为改条件批量发文的研究生态。"
+    },
+    {
+      "title": "衍射现象是怎么产生的？",
+      "url": "https://www.zhihu.com/answer/902522417",
+      "summary": "正文由亥姆霍兹偏微分方程、格林函数和边界积分推导基尔霍夫衍射理论。"
+    },
+    {
+      "title": "偏微分方程中特征线法的原理是什么？",
+      "url": "https://www.zhihu.com/answer/928751035",
+      "summary": "正文解释如何沿特征线把一阶偏微分方程化为常微分方程。"
+    },
+    {
+      "title": "常微分方程的理论对偏微分方程的研究有没有帮助？",
+      "url": "https://www.zhihu.com/answer/935590983",
+      "summary": "正文深入讨论 Hamilton-Jacobi、Schrodinger、波与反应扩散等偏微分方程理论。"
+    },
+    {
+      "title": "如何评价韦东奕博士期间的工作？",
+      "url": "https://www.zhihu.com/answer/937192043",
+      "summary": "正文实质介绍流体稳定性 PDE 研究及若干代表性问题和成果。"
+    },
+    {
+      "title": "一句话的信息量能大到什么程度？",
+      "url": "https://www.zhihu.com/answer/958002142",
+      "summary": "正文逐步展开偏微分方程教材省略的计算。"
+    },
+    {
+      "title": "如何理解薛定谔方程？",
+      "url": "https://www.zhihu.com/answer/963739462",
+      "summary": "正文从 PDE 角度分析薛定谔方程的分类、基本解和初值问题。"
+    },
+    {
+      "title": "齐次/非齐次偏微分方程组，所谓齐次与非齐次到底有何实在意义?",
+      "url": "https://www.zhihu.com/answer/968575032",
+      "summary": "正文解释齐次与非齐次在线性偏微分方程中的数乘不变性。"
+    },
+    {
+      "title": "如果有一个初三学生说他懂微积分，我该怎么㨃他？",
+      "url": "https://www.zhihu.com/answer/981020939",
+      "summary": "正文用波动方程的适定性说明偏微分方程属于微积分的深入内容。"
+    },
+    {
+      "title": "薛定谔方程与狄拉克方程的区别是什么？",
+      "url": "https://www.zhihu.com/answer/981462138",
+      "summary": "正文从 PDE 分类、基本解和能量估计比较薛定谔与狄拉克方程。"
+    },
+    {
+      "title": "关于传染病的数学模型有哪些？",
+      "url": "https://www.zhihu.com/answer/983027378",
+      "summary": "正文建立带扩散项的传染病偏微分方程并解释变量与边界条件。"
+    },
+    {
+      "title": "和辛几何比较起来，为什么切触几何（contact geometry）目前很少有人研究？",
+      "url": "https://www.zhihu.com/answer/1036118680",
+      "summary": "正文实质讨论Hamilton-Jacobi偏微分方程及其几何结构。"
+    },
+    {
+      "title": "偏微分方程可不可以用级数展开直接解？",
+      "url": "https://www.zhihu.com/answer/1071169993",
+      "summary": "正文系统区分偏微分方程类型、问题提法及级数解的适用条件。"
+    },
+    {
+      "title": "如何区分偏微分方程中线性、半线性、拟线性和非线性？",
+      "url": "https://www.zhihu.com/answer/1080149747",
+      "summary": "正文系统区分线性、半线性、拟线性和完全非线性偏微分方程。"
+    },
+    {
+      "title": "「动力系统」与「微分方程」的关系是什么？",
+      "url": "https://www.zhihu.com/answer/1099549350",
+      "summary": "正文说明偏微分方程关注解的存在性和正则性。"
+    },
+    {
+      "title": "有什么理论复杂但是实现简单的算法？",
+      "url": "https://www.zhihu.com/answer/1121718346",
+      "summary": "正文通过 Feynman–Kac、热方程和 Fokker–Planck 方程解释 SDE 与 PDE 的对应。"
+    },
+    {
+      "title": "如果你来讲数学物理方法课，你会如何设计？",
+      "url": "https://www.zhihu.com/answer/1145639023",
+      "summary": "正文讨论偏微分方程性质、级数法和格林函数教学。"
+    },
+    {
+      "title": "你见过哪些有趣的偏微分方程组?",
+      "url": "https://www.zhihu.com/answer/1175242142",
+      "summary": "全文系统介绍趋化模型的偏微分方程、爆破、稳态与稳定性。"
+    },
+    {
+      "title": "流形方向的学生还有必要选PDE吗？",
+      "url": "https://www.zhihu.com/answer/1190372620",
+      "summary": "正文说明几何分析中椭圆方程、正则性和梯度估计的必要性。"
+    },
+    {
+      "title": "偏微分方程（PDE）能够给不同数学领域哪些有用信息？",
+      "url": "https://www.zhihu.com/answer/1251857255",
+      "summary": "正文用波动、热、调和及几何方程说明 PDE 的来源和理论作用。"
+    },
+    {
+      "title": "偏微分方程（PDE）能够给不同数学领域哪些有用信息？",
+      "url": "https://www.zhihu.com/answer/1252091599",
+      "summary": "正文以 Hamilton-Jacobi 方程粘性解关联几何、辛几何和最优传输。"
+    },
+    {
+      "title": "学习偏微分方程需要具备什么基础知识？",
+      "url": "https://www.zhihu.com/answer/1269890226",
+      "summary": "正文列出本科与现代偏微分方程的主要研究对象。"
+    },
+    {
+      "title": "偏微分方程领域现在有哪些活跃的大牛，都是做什么方向的？",
+      "url": "https://www.zhihu.com/answer/1281981741",
+      "summary": "正文综述偏微分方程多个活跃方向及其分析工具。"
+    },
+    {
+      "title": "什么是有限元?",
+      "url": "https://www.zhihu.com/answer/1298462011",
+      "summary": "正文说明有限元用于偏微分方程边值问题。"
+    },
+    {
+      "title": "如何从几何的角度来理解（乃至求解）微分方程？",
+      "url": "https://www.zhihu.com/answer/1361098860",
+      "summary": "正文从特征线、粘性解和 Hamilton-Jacobi 方程讨论偏微分方程。"
+    },
+    {
+      "title": "为什么要引入矩阵这个数学工具？它能简化哪些不用矩阵会复杂的问题？",
+      "url": "https://www.zhihu.com/answer/1409269443",
+      "summary": "正文从矩阵表示、圆周率计算、偏微分方程数值化和线性方程组说明矩阵的作用。"
+    },
+    {
+      "title": "为什么薛定谔方程的解本来是一堆复杂的函数，但是到了左矢右矢里面就变成了向量中的一堆数字？",
+      "url": "https://www.zhihu.com/answer/1421358075",
+      "summary": "正文从希尔伯特空间基展开解释薛定谔方程解与向量表示。"
+    },
+    {
+      "title": "从应用的角度上来看，数学上为什么要研究无穷维空间？",
+      "url": "https://www.zhihu.com/answer/1426022817",
+      "summary": "正文从偏微分方程与函数空间解释无穷维空间的作用。"
+    },
+    {
+      "title": "拉普拉斯方程极坐标形式是怎么推导出来的啊？",
+      "url": "https://www.zhihu.com/answer/1448320600",
+      "summary": "正文直接讲解或推导“偏微分方程”相关内容。"
+    },
+    {
+      "title": "请问Kobayashi那样的微分几何风格和利用PDE研究的微分几何有什么区别?",
+      "url": "https://www.zhihu.com/answer/1499881385",
+      "summary": "正文直接给出与「偏微分方程」相关的解释、推导或应用。"
+    },
+    {
+      "title": "你在做物理或数学中的哪个科研方向？大致在研究什么？",
+      "url": "https://www.zhihu.com/answer/1525203405",
+      "summary": "正文直接讨论偏微分方程，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "请问二阶偏微分方程是怎么求特征方程的呢？",
+      "url": "https://www.zhihu.com/answer/1578792742",
+      "summary": "正文从二阶偏微分方程出发，用特征方程寻找特征线。"
+    },
+    {
+      "title": "如何从偏微分方程边值问题出发理解有限元方法的原理？",
+      "url": "https://www.zhihu.com/answer/1584776137",
+      "summary": "正文从偏微分方程边值问题推导弱形式。"
+    },
+    {
+      "title": "如何将PDE数值解的知识应用于衍生品定价？",
+      "url": "https://www.zhihu.com/answer/1602377856",
+      "summary": "正文直接讨论或应用该叶节点主题（PDE）。"
+    },
+    {
+      "title": "用算子半群方法研究偏微分方程的解，现在还有人做吗？关于算子半群理论应该学到什么程度？",
+      "url": "https://www.zhihu.com/answer/1627324496",
+      "summary": "正文讨论算子半群作为偏微分方程研究工具。"
+    },
+    {
+      "title": "菲尔兹奖设立以来，有哪些没有拿菲尔兹奖的数学家，他们的数学贡献并不比菲尔兹奖获得者弱？",
+      "url": "https://www.zhihu.com/answer/1652358332",
+      "summary": "正文介绍数学家在偏微分方程与应用数学中的贡献。"
+    },
+    {
+      "title": "有哪些值得推荐的《偏微分方程》教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1664277675",
+      "summary": "正文推荐偏微分方程与Sobolev空间教材。"
+    },
+    {
+      "title": "偏微分方程和常微分方程有什么不同？",
+      "url": "https://www.zhihu.com/answer/1666381686",
+      "summary": "正文定义偏微分方程并讨论其类型与背景。"
+    },
+    {
+      "title": "（动力系统 + 拓扑学 + 抽象代数）和（泛函分析 + 实变函数 + 复分析和解析几何）有哪些联系？",
+      "url": "https://www.zhihu.com/answer/1687152836",
+      "summary": "正文讨论函数空间与算子理论对 PDE 的作用。"
+    },
+    {
+      "title": "PDE 中的先验估计是什么意思？",
+      "url": "https://www.zhihu.com/answer/1696421962",
+      "summary": "正文系统解释 PDE 先验估计、Galerkin 方法与存在性。"
+    },
+    {
+      "title": "要完全理解球谐函数，需要什么基础的数学知识？",
+      "url": "https://www.zhihu.com/answer/1710057781",
+      "summary": "正文把球谐函数联系到偏微分方程的球面求解。"
+    },
+    {
+      "title": "湍流是否具有对称性或者存在某些对称破缺？",
+      "url": "https://www.zhihu.com/answer/1712722594",
+      "summary": "正文从对称群和偏微分方程讨论湍流。"
+    },
+    {
+      "title": "如何看待中科大 26 岁教授陈杲攻克数学复微分几何领域世界难题？",
+      "url": "https://www.zhihu.com/answer/1755808703",
+      "summary": "正文围绕 J-equation 的可解性、稳定性及其证明结构展开。"
+    },
+    {
+      "title": "如何看待中科大 26 岁教授陈杲攻克数学复微分几何领域世界难题？",
+      "url": "https://www.zhihu.com/answer/1756211992",
+      "summary": "正文梳理 J-equation 的可解性、稳定性与证明结构。"
+    },
+    {
+      "title": "如何看待中科大 26 岁教授陈杲攻克数学复微分几何领域世界难题？",
+      "url": "https://www.zhihu.com/answer/1757116144",
+      "summary": "正文解释该方程的可解性、稳定性条件及其背景。"
+    },
+    {
+      "title": "如何看待中科大 26 岁教授陈杲攻克数学复微分几何领域世界难题？",
+      "url": "https://www.zhihu.com/answer/1757254075",
+      "summary": "正文梳理杨-米尔斯方程、规范场和几何方程的关系。"
+    },
+    {
+      "title": "如何看待中科大 26 岁教授陈杲攻克数学复微分几何领域世界难题？",
+      "url": "https://www.zhihu.com/answer/1757650521",
+      "summary": "正文把 Kähler-Einstein 度量存在问题转化为偏微分方程求解。"
+    },
+    {
+      "title": "为什么几何分析方向的华人数学学者很多？",
+      "url": "https://www.zhihu.com/answer/1784788156",
+      "summary": "正文讨论几何分析与偏微分方程研究群体的关系。"
+    },
+    {
+      "title": "有限元分析时是网格画的越细越精确吗？",
+      "url": "https://www.zhihu.com/answer/1811586732",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "单侧加热无限大匀质物体， 能否在物体内部形成无数个温度峰值？",
+      "url": "https://www.zhihu.com/answer/1816770791",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "国外偏微分方程有哪些优秀的入门教材？",
+      "url": "https://www.zhihu.com/answer/1819579376",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "雷诺平均 Navier Stokes 方程的平均推导与大涡模拟方程的平均推导有何不同?",
+      "url": "https://www.zhihu.com/answer/1829012465",
+      "summary": "正文对比平均场方程与小尺度粗粒化方程，讨论湍流模型封闭问题。"
+    },
+    {
+      "title": "皮克定理有哪些证明？",
+      "url": "https://www.zhihu.com/answer/1830843614",
+      "summary": "正文利用热传导的稳态思想构造皮克定理证明。"
+    },
+    {
+      "title": "为什么 空间二阶导（拉普拉斯算子）这么重要？",
+      "url": "https://www.zhihu.com/answer/1831093667",
+      "summary": "正文由拉普拉斯算子过渡到 Poisson 与 Laplace 方程。"
+    },
+    {
+      "title": "怎么逐步学习 PDE？",
+      "url": "https://www.zhihu.com/answer/1872527968",
+      "summary": "正文系统讨论偏微分方程古典理论、弱解及椭圆、抛物、双曲方程。"
+    },
+    {
+      "title": "如何评价2021年第三届阿里巴巴全球数学竞赛？",
+      "url": "https://www.zhihu.com/answer/1893630512",
+      "summary": "正文进一步把人口年龄结构模型写成偏微分方程。"
+    },
+    {
+      "title": "偏微分方程领域有人在做一般性的解析解的理论吗？",
+      "url": "https://www.zhihu.com/answer/1893833119",
+      "summary": "正文系统讨论偏微分方程是否具有统一理论及其具体理论工具。"
+    },
+    {
+      "title": "数学物理方程怎么那么难？",
+      "url": "https://www.zhihu.com/answer/1911660584",
+      "summary": "正文系统介绍三类典型偏微分方程及分类。"
+    },
+    {
+      "title": "北大数学天才韦东奕手拿馒头矿泉水受访，他在数学领域取得了哪些成就？给我们哪些启示？",
+      "url": "https://www.zhihu.com/answer/1915166481",
+      "summary": "正文直接讨论并支撑「偏微分方程」相关内容。"
+    },
+    {
+      "title": "北大数学天才韦东奕手拿馒头矿泉水受访，他在数学领域取得了哪些成就？给我们哪些启示？",
+      "url": "https://www.zhihu.com/answer/1915664033",
+      "summary": "正文直接讨论并支撑「偏微分方程」相关内容。"
+    },
+    {
+      "title": "微局部分析是在研究些什么？",
+      "url": "https://www.zhihu.com/answer/1918449486",
+      "summary": "正文直接讨论并支撑「偏微分方程」相关内容。"
+    },
+    {
+      "title": "想了解一下有没有研究ns方程的专著？",
+      "url": "https://www.zhihu.com/answer/1925424834",
+      "summary": "正文直接讨论并支撑「偏微分方程」相关内容。"
+    },
+    {
+      "title": "2022世界数学家大会报告名单公布，能介绍一小时报告的主要工作吗？",
+      "url": "https://www.zhihu.com/answer/1926536632",
+      "summary": "正文直接讨论并支撑「偏微分方程」相关内容。"
+    },
+    {
+      "title": "请业内人士聊聊韦东奕现在的科研状况，能不能获得菲尔兹奖？",
+      "url": "https://www.zhihu.com/answer/1927061000",
+      "summary": "正文直接讨论并支撑「偏微分方程」相关内容。"
+    },
+    {
+      "title": "有没有使用机器学习(比如神经网络)求解偏微分方程的例子？",
+      "url": "https://www.zhihu.com/answer/2058856487",
+      "summary": "正文介绍神经网络求解偏微分方程的方法。"
+    },
+    {
+      "title": "请问什么数值方法可以解这个四阶的偏微分方程？",
+      "url": "https://www.zhihu.com/answer/2089058091",
+      "summary": "正文针对四阶偏微分方程讨论边界条件、弱形式与数值解。"
+    },
+    {
+      "title": "请问什么数值方法可以解这个四阶的偏微分方程？",
+      "url": "https://www.zhihu.com/answer/2102222873",
+      "summary": "正文用PINN求解四阶偏微分方程并构造各边界与方程损失。"
+    },
+    {
+      "title": "如何入门 Ads/CFT？",
+      "url": "https://www.zhihu.com/answer/2122417925",
+      "summary": "正文把边界场构型转化为带边界条件的偏微分方程问题。"
+    },
+    {
+      "title": "有什么关于索伯列夫空间的数学书?",
+      "url": "https://www.zhihu.com/answer/2139568339",
+      "summary": "正文把 Sobolev 空间定位为现代偏微分方程的基本工具。"
+    },
+    {
+      "title": "数学系本科生，该如何在看书和研究型学习中找到平衡？",
+      "url": "https://www.zhihu.com/answer/2185243612",
+      "summary": "正文把椭圆 PDE、Monge-Ampère 方程等列为几何分析的必备工具。"
+    },
+    {
+      "title": "数学系本科生，该如何在看书和研究型学习中找到平衡？",
+      "url": "https://www.zhihu.com/answer/2185412832",
+      "summary": "正文讨论偏微分方程课程应如何逐步学习。"
+    },
+    {
+      "title": "有限元方法的核心思想是什么？",
+      "url": "https://www.zhihu.com/answer/2193505408",
+      "summary": "正文说明有限元用于离散求解弹性力学中的偏微分方程。"
+    },
+    {
+      "title": "非线性分析教材看了下张恭庆先生的非线性分析的方法，变分法，感觉太吃力了，有什么入门教材推荐吗？",
+      "url": "https://www.zhihu.com/answer/2200380366",
+      "summary": "正文把偏微分方程列为变分与非线性分析的预备基础。"
+    },
+    {
+      "title": "如何看待中国科大陈秀雄团队成功证明「凯勒几何」两大核心猜想？这有多厉害？",
+      "url": "https://www.zhihu.com/answer/2205547179",
+      "summary": "正文比较四阶非线性偏微分方程与二阶复 Monge-Ampère 方程。"
+    },
+    {
+      "title": "有没有靠谱儿的微分方程书籍推荐？",
+      "url": "https://www.zhihu.com/answer/2212574411",
+      "summary": "正文专门推荐偏微分方程的理论与应用教材。"
+    },
+    {
+      "title": "中国科大陈秀雄团队成功证明[凯勒几何]两大核心猜想，这具体解决的是什么问题？这两大猜想有什么意义吗？",
+      "url": "https://www.zhihu.com/answer/2216392998",
+      "summary": "正文说明团队通过求解四阶完全非线性椭圆方程证明两项核心猜想。"
+    },
+    {
+      "title": "大家知道的最长（复杂）的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2247351647",
+      "summary": "正文讨论场方程作为偏微分方程组的解析和数值求解困难。"
+    },
+    {
+      "title": "在泛函和偏微等学科中，为什么要引进「弱」的概念？",
+      "url": "https://www.zhihu.com/answer/2254231820",
+      "summary": "正文从偏微分方程的弱解和守恒律解释引入弱概念。"
+    },
+    {
+      "title": "泛函分析的精髓、基本套路、用途是什么？",
+      "url": "https://www.zhihu.com/answer/2266751223",
+      "summary": "正文以 Neumann 边界椭圆问题作为偏微分方程实例。"
+    },
+    {
+      "title": "Black-Scholes期权定价模型推导需要哪些数学知识？",
+      "url": "https://www.zhihu.com/answer/2281223104",
+      "summary": "正文围绕 Black-Scholes 偏微分方程与二叉树极限推导定价公式。"
+    },
+    {
+      "title": "如何使用 GPU 加速计算流体力学（CFD）？",
+      "url": "https://www.zhihu.com/answer/2295577028",
+      "summary": "正文说明CFD的核心是求解纳维－斯托克斯偏微分方程。"
+    },
+    {
+      "title": "求欧拉方程（流体动力学）最基本得原理及介绍？",
+      "url": "https://www.zhihu.com/answer/2295587326",
+      "summary": "正文从可压缩欧拉方程出发讨论偏微分方程数值解。"
+    },
+    {
+      "title": "如何理解坡印廷定理的推导过程？",
+      "url": "https://www.zhihu.com/answer/2296619033",
+      "summary": "正文由麦克斯韦方程组推导坡印廷定理这一电磁场偏微分方程。"
+    },
+    {
+      "title": "如何看待数学大神韦东奕的讲课方式难以理解学生纷纷退课，课堂教学应该采取什么样的互动方式？",
+      "url": "https://www.zhihu.com/answer/2301870867",
+      "summary": "正文说明相关研究属于偏微分方程中的 Navier-Stokes 方程方向。"
+    },
+    {
+      "title": "泛函分析的精髓、基本套路、用途是什么？",
+      "url": "https://www.zhihu.com/answer/2304909703",
+      "summary": "正文说明泛函分析定理在偏微分方程中的用途。"
+    },
+    {
+      "title": "怎么解氢原子薛定谔方程？",
+      "url": "https://www.zhihu.com/answer/2326851684",
+      "summary": "正文把薛定谔方程作为偏微分方程并讨论求解方法。"
+    },
+    {
+      "title": "如何用各学科专业知识拜年？",
+      "url": "https://www.zhihu.com/answer/2329040836",
+      "summary": "正文用泊松方程及边值条件构造偏微分方程贺岁题。"
+    },
+    {
+      "title": "什么叫降维打击？",
+      "url": "https://www.zhihu.com/answer/2375868788",
+      "summary": "正文通过麦克斯韦方程组变形推导出电场和磁场满足的波动方程。"
+    },
+    {
+      "title": "电子匀速圆周运动会发生辐射吗，发生辐射的条件是什么？",
+      "url": "https://www.zhihu.com/answer/2383447903",
+      "summary": "正文从麦克斯韦方程推导波动型偏微分方程并讨论辐射。"
+    },
+    {
+      "title": "作为数学PhD，你本科时额外学了哪些数学内容？",
+      "url": "https://www.zhihu.com/answer/2429217133",
+      "summary": "正文说明本科阶段的研究与偏微分方程论文阅读经历。"
+    },
+    {
+      "title": "很多老师都用1.01的365次方和0.99的365次方论证要坚持每天进步，可这个模型跟实际相符吗?",
+      "url": "https://www.zhihu.com/answer/2464701228",
+      "summary": "正文把离散递推推广为连续微分方程并讨论矩阵指数解。"
+    },
+    {
+      "title": "如何理解傅里叶变换公式？",
+      "url": "https://www.zhihu.com/answer/2467892330",
+      "summary": "正文由质量守恒推导扩散方程，并指出热传导方程具有相同形式。"
+    },
+    {
+      "title": "能不能用本科生也能听懂的话介绍一下现代PDE主要研究哪些内容?",
+      "url": "https://www.zhihu.com/answer/2478151043",
+      "summary": "正文概括现代偏微分方程研究的存在性、唯一性与正则性问题。"
+    },
+    {
+      "title": "能不能用本科生也能听懂的话介绍一下现代PDE主要研究哪些内容?",
+      "url": "https://www.zhihu.com/answer/2478575907",
+      "summary": "正文概述现代偏微分方程的存在性、唯一性、稳定性及主要研究方向。"
+    },
+    {
+      "title": "丘成桐是现在第一厉害的数学家吗？为什么说在哈佛，他一人就是一个数学系？",
+      "url": "https://www.zhihu.com/answer/2480732502",
+      "summary": "说明丘成桐跟随导师长期讨论偏微分方程，并成为非线性偏微分方程领军人物。"
+    },
+    {
+      "title": "有哪些时刻，让你觉得数学很美？",
+      "url": "https://www.zhihu.com/answer/2501010436",
+      "summary": "正文用 Hodge 分解讨论椭圆型偏微分方程解空间与流形拓扑的关系。"
+    },
+    {
+      "title": "丘成桐是几何分析的奠基人么？",
+      "url": "https://www.zhihu.com/answer/2523519457",
+      "summary": "说明几何分析把非线性偏微分方程用于几何难题。"
+    },
+    {
+      "title": "花一整夜的时间解一个方程是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/2528943608",
+      "summary": "把场方程化为高度非线性的二阶偏微分方程组并逐步求解未知度规函数。"
+    },
+    {
+      "title": "大家说一个数学分支很“硬”（比如PDE），或者很“软”（比如代数），这里所谓软硬的区别到底是什么？",
+      "url": "https://www.zhihu.com/answer/2539693598",
+      "summary": "以非线性偏微分方程方法证明卡拉比猜想说明数学分支的“硬”。"
+    },
+    {
+      "title": "如何求均匀带电旋转椭球的电势能？",
+      "url": "https://www.zhihu.com/answer/2549581918",
+      "summary": "在椭球坐标下写出拉普拉斯算子并用分离变量法求解。"
+    },
+    {
+      "title": "广义相对论场方程看上去很简洁，但是实际上这个方程到底有多复杂？",
+      "url": "https://www.zhihu.com/answer/2571031046",
+      "summary": "指出爱因斯坦方程本质上是度规的二阶非线性偏微分方程组，并讨论解析与数值求解。"
+    },
+    {
+      "title": "如何自己编程实现流体数值模拟？",
+      "url": "https://www.zhihu.com/answer/2595608868",
+      "summary": "以对流扩散偏微分方程为起点，逐步推导有限体积离散格式。"
+    },
+    {
+      "title": "准（计算）数学直博生要为研究生阶段做哪些准备？",
+      "url": "https://www.zhihu.com/answer/2608233530",
+      "summary": "以磁流体方程、Euler 方程和 Burgers 方程为例学习偏微分方程的数值求解。"
+    },
+    {
+      "title": "什么是孤子？什么是孤子解？",
+      "url": "https://www.zhihu.com/answer/2611055050",
+      "summary": "系统介绍 KdV、KP 等孤子方程、孤子解及其可积结构。"
+    },
+    {
+      "title": "如何以“废后喝下毒酒前，含泪问我‘你会解偏微分方程组吗？’”为开头写一个故事？",
+      "url": "https://www.zhihu.com/answer/2622381004",
+      "summary": "用对流扩散方程说明偏微分方程的初边值问题、边界条件与初始条件。"
+    },
+    {
+      "title": "计算流体力学(CFD)的前景怎么样？",
+      "url": "https://www.zhihu.com/answer/2625299723",
+      "summary": "以热方程和 Navier-Stokes 方程为例讨论偏微分方程数值格式设计。"
+    },
+    {
+      "title": "为什么一个二元函数一定可以分解成两个一元函数的乘积?",
+      "url": "https://www.zhihu.com/answer/2644448572",
+      "summary": "解释分离变量法先用乘积特解作基，再用级数和表示偏微分方程通解。"
+    },
+    {
+      "title": "2022数学建模国赛ABCDE题怎么分析?",
+      "url": "https://www.zhihu.com/answer/2674633717",
+      "summary": "正文以有边界条件的热传导偏微分方程为例，说明有限差分离散和边界条件选择。"
+    },
+    {
+      "title": "分析学方向如何深入学习后续课程？",
+      "url": "https://www.zhihu.com/answer/2677548122",
+      "summary": "正文具体说明泛函分析与索伯列夫空间、广义函数及非线性方法在偏微分方程研究中的作用。"
+    },
+    {
+      "title": "为什么有人喜欢偏微分方程？",
+      "url": "https://www.zhihu.com/answer/2711004797",
+      "summary": "介绍偏微分方程的来源、调和函数刘维尔定理与椭圆问题的正则性估计。"
+    },
+    {
+      "title": "2022年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/2794552144",
+      "summary": "正文围绕可压缩无粘流体的自由边界偏微分方程，讨论局部适定性、非线性能量估计及零表面张力极限。"
+    },
+    {
+      "title": "应用数学的研究领域有哪些？",
+      "url": "https://www.zhihu.com/answer/2808858299",
+      "summary": "正文区分偏微分方程与常微分方程，说明其未知函数含多个变量，并联系解的存在性和物理应用。"
+    },
+    {
+      "title": "PDE有哪些好的可以入门的教材？",
+      "url": "https://www.zhihu.com/answer/2915951065",
+      "summary": "正文说明教材后半部分依次处理椭圆、抛物和双曲方程，并概述守恒律等偏微分方程进阶主题。"
+    },
+    {
+      "title": "为什么有人喜欢偏微分方程？",
+      "url": "https://www.zhihu.com/answer/2938765824",
+      "summary": "正文讨论偏微分方程在图像处理中的应用，并举例说明拉普拉斯算子的泊松方程、离散化和流体波动。"
+    },
+    {
+      "title": "数学研究者如何从研究中找到人生的意义？",
+      "url": "https://www.zhihu.com/answer/2969116655",
+      "summary": "正文具体解释随机偏微分方程的含义，并以 KPZ 方程说明白噪声项和正则化处理。"
+    },
+    {
+      "title": "偏微分方程对金融外汇 利率等衍生品进行估值   推荐那些理论或实践著作  多谢?",
+      "url": "https://www.zhihu.com/answer/2981115018",
+      "summary": "正文列举期权定价中的自由边界问题、多维定价、跳跃扩散 PIDE、利率衍生品 PDE 和对流-扩散方程，具体说明偏微分方程在金融定价中的应用。"
+    },
+    {
+      "title": "如何通俗解释指标定理？",
+      "url": "https://www.zhihu.com/answer/2982001771",
+      "summary": "正文具体说明椭圆型、抛物型和双曲型微分算子，以及指标定理所讨论的椭圆型偏微分方程组。"
+    },
+    {
+      "title": "分析方向的研究生，对代数需要掌握到什么程度？",
+      "url": "https://www.zhihu.com/answer/3000925295",
+      "summary": "正文以非线性椭圆方程为例，说明对称性、群作用和临界点方法在偏微分方程解研究中的应用。"
+    },
+    {
+      "title": "现代偏微分方程的学习路径大概是什么呢？",
+      "url": "https://www.zhihu.com/answer/3007138485",
+      "summary": "正文围绕弱解存在性、正则性估计、算子半群和变分方法展开现代偏微分方程理论，属于偏微分方程的实质介绍。"
+    },
+    {
+      "title": "女生对男孩说：在火堆旁是不可能感受不到温暖的。是代表着什么？",
+      "url": "https://www.zhihu.com/answer/3009398404",
+      "summary": "正文给出三维热方程初边值问题与 Cauchy 问题的不同衰减率，并强调热传导过程的不可逆性，属于偏微分方程的具体性质。"
+    },
+    {
+      "title": "为什么“北大数学天才”韦东奕至今仍未取得任何实质性成就却被封神？",
+      "url": "https://www.zhihu.com/answer/3012899724",
+      "summary": "正文把 N-S 方程界定为描述流体运动的偏微分方程组，并讨论其解的理论理解尚不完整。"
+    },
+    {
+      "title": "数值pde与深度学习结合是未来发展方向吗？",
+      "url": "https://www.zhihu.com/answer/3079219074",
+      "summary": "正文围绕偏微分方程的数值求解比较有限元、有限体积和谱方法，并讨论 PINN 等学习型求解器。"
+    },
+    {
+      "title": "PDE 中的先验估计是什么意思？",
+      "url": "https://www.zhihu.com/answer/3089714234",
+      "summary": "正文说明 PDE 先验估计起源于非线性椭圆方程研究，并区分先验估计求存在性与 Bootstrap 方法求正则性的作用。"
+    },
+    {
+      "title": "为什么有人喜欢偏微分方程？",
+      "url": "https://www.zhihu.com/answer/3101346724",
+      "summary": "正文以拟共形映射正则性和 Beltrami 方程为例，说明偏微分方程在分析与几何问题中的作用。"
+    },
+    {
+      "title": "计算流体力学中有限差分法、有限体积法和有限元法的区别是什么？",
+      "url": "https://www.zhihu.com/answer/3207824803",
+      "summary": "正文围绕对流扩散型偏微分方程，推导有限体积法在控制单元上的积分守恒形式。"
+    },
+    {
+      "title": "如何理解扩散模型中的SDE？",
+      "url": "https://www.zhihu.com/answer/3230281054",
+      "summary": "正文把扩散模型的前向与反向过程统一写成随机微分方程，并推导连续时间的演化形式。"
+    },
+    {
+      "title": "有哪些值得数学系本科生一读的经典数学论文？",
+      "url": "https://www.zhihu.com/answer/3230336449",
+      "summary": "正文以 Yang-Mills 联络和偏微分算子方程为例，说明几何存在性问题如何化为微分方程求解。"
+    },
+    {
+      "title": "能介绍一下数学家卡拉比吗？",
+      "url": "https://www.zhihu.com/answer/3252902815",
+      "summary": "正文说明卡拉比猜想可归结为复蒙日—安培方程，并讨论先验估值、边值问题和边界正则性。"
+    },
+    {
+      "title": "目前数学各方向最前沿都在研究什么问题？",
+      "url": "https://www.zhihu.com/answer/3288749665",
+      "summary": "正文按流体与色散主题列举偏微分方程前沿突破，并列出 2023 年四大期刊的 PDE 论文。"
+    },
+    {
+      "title": "2023 年，数学领域都有哪些令人激动的新进展与重要发现？",
+      "url": "https://www.zhihu.com/answer/3317280934",
+      "summary": "正文具体讨论哈密顿-雅可比方程及其不可微情形，并解释用粘性解这一弱解概念处理偏微分方程。"
+    },
+    {
+      "title": "研究生pde方向，读研前要学会哪些课程？",
+      "url": "https://www.zhihu.com/answer/3328794322",
+      "summary": "正文展开抛物与椭圆方程、Nash-Moser 和 De Giorgi 迭代、Holder 与 Schauder 估计等偏微分方程内容。"
+    },
+    {
+      "title": "偏微分方程如何理解？",
+      "url": "https://www.zhihu.com/answer/3332220243",
+      "summary": "正文给出偏微分方程的定义，并按椭圆型、双曲型和抛物型分类介绍其典型方程与物理含义。"
+    },
+    {
+      "title": "丘成桐在数学研究中的成就有什么？",
+      "url": "https://www.zhihu.com/answer/3348086391",
+      "summary": "正文具体提到证明实与复 Monge-Ampère 方程解的存在性，对应偏微分方程方向。"
+    },
+    {
+      "title": "国内外工业软件的差距在哪？如何赶上？",
+      "url": "https://www.zhihu.com/answer/3423770199",
+      "summary": "正文讨论椭圆型偏微分方程、弱解、Poisson方程和非线性Yamabe方程的求解难点。"
+    },
+    {
+      "title": "在有限元方法中，为什么弱形式总和分部积分挂钩？ ?",
+      "url": "https://www.zhihu.com/answer/3444680919",
+      "summary": "正文以一维泊松方程及齐次 Dirichlet 条件为例，讨论偏微分方程边值问题的弱形式。"
+    },
+    {
+      "title": "流体力学前沿都在研究什么内容？",
+      "url": "https://www.zhihu.com/answer/3456758233",
+      "summary": "正文实质讨论二维重调和方程与低速流体对应的偏微分方程及其边界条件求法。"
+    },
+    {
+      "title": "数学系的你，谈谈你研究方向的经典著作以及研读其的经历吧?",
+      "url": "https://www.zhihu.com/answer/3461242503",
+      "summary": "正文围绕不可压缩欧拉方程的自由边界问题展开适定性、能量估计和边界方程推导，实质讨论了偏微分方程。"
+    },
+    {
+      "title": "17岁中专女生超越一众名校生，全球排名 12 闯入 2024 阿里全球数赛决赛，如何评价她的数学水平？",
+      "url": "https://www.zhihu.com/answer/3529518433",
+      "summary": "正文以分离变量法和 Green 函数求解对称性偏微分方程为例，说明偏微分方程的初等解法。"
+    },
+    {
+      "title": "知乎上为什么有这么多学特殊函数论的大佬？",
+      "url": "https://www.zhihu.com/answer/3530469868",
+      "summary": "正文说明 Laplace 等偏微分方程在柱坐标、球坐标中用分离变量法求解，并对应产生各类特殊函数。"
+    },
+    {
+      "title": "如何看待姜萍火后Evans的偏微分方程销量爆增？",
+      "url": "https://www.zhihu.com/answer/3531861312",
+      "summary": "正文介绍 Evans 后段所用索伯列夫空间、能量方法、广义导数和弱解，说明偏微分方程的现代分析框架。"
+    },
+    {
+      "title": "如何评价 2024 年阿里全球数学竞赛决赛试题？难度怎么样？",
+      "url": "https://www.zhihu.com/answer/3539761806",
+      "summary": "正文围绕 Poisson 型边值问题讨论解在区域内部的值与边界条件、源项的关系，属于偏微分方程问题的分析。"
+    },
+    {
+      "title": "如何看待姜萍把「ƶ̇=b」抄写成了「主=6」 ？",
+      "url": "https://www.zhihu.com/answer/3540709912",
+      "summary": "正文重述并完整求解带输运项与衰减项的一阶线性齐次偏微分方程初值问题。"
+    },
+    {
+      "title": "如何看待姜萍把「ƶ̇=b」抄写成了「主=6」 ？",
+      "url": "https://www.zhihu.com/answer/3542753336",
+      "summary": "正文完整讨论传输型偏微分方程，并用特征线法分别求解齐次、非齐次和有衰减项的问题。"
+    },
+    {
+      "title": "有没有大佬知道姜萍事件，假如一个人从“高等数学”学到“偏微分方程”需要读多少书，付出多大的努力？",
+      "url": "https://www.zhihu.com/answer/3546999572",
+      "summary": "正文系统说明偏微分方程按类型和研究问题划分，并区分软分析、硬分析及几何分析等研究路线。"
+    },
+    {
+      "title": "分离的变量为啥是相乘的形式？",
+      "url": "https://www.zhihu.com/answer/3623488396",
+      "summary": "正文以弦振动方程为例，引入偏微分算子的共同特征函数并讨论其分离变量解。"
+    },
+    {
+      "title": "数学家Richard Hamilton去世了，如何评价他的学术贡献？",
+      "url": "https://www.zhihu.com/answer/4180962574",
+      "summary": "正文把里奇流解释为曲率满足的非线性热方程，并讨论其长期演化。"
+    },
+    {
+      "title": "高一开学，同学在讨论偏导函数、四阶导数，我该怎么办？",
+      "url": "https://www.zhihu.com/answer/8377306796",
+      "summary": "正文以细杆和薄板横振动中的四阶偏微分方程为例，说明高阶导数在偏微分方程建模中的应用。"
+    },
+    {
+      "title": "如何看待《数学物理方法》逼疯一群又一群学生?",
+      "url": "https://www.zhihu.com/answer/35978024106",
+      "summary": "正文从波动方程出发，讨论二阶线性偏微分方程的变换、分类与求解。"
+    },
+    {
+      "title": "MATLAB能干什么啊，为什么它会被美国禁止？",
+      "url": "https://www.zhihu.com/answer/44534662572",
+      "summary": "正文给出二维时变波动方程、边界和初始条件，并讲解其散度形式及求解流程。"
+    },
+    {
+      "title": "代数几何是否对 PDE 的研究有启发？",
+      "url": "https://www.zhihu.com/answer/78790765545",
+      "summary": "正文具体介绍微局部分析、傅里叶积分算子和 PDE 奇点传播定理。"
+    },
+    {
+      "title": "数学家 Luis A. Caffarelli 有哪些成就？",
+      "url": "https://www.zhihu.com/answer/88272633754",
+      "summary": "正文具体介绍自由边界、障碍问题、完全非线性椭圆方程和分数阶方程等偏微分方程研究方向及其正则性结果。"
+    },
+    {
+      "title": "怎么向 5 岁孩子解释水滴落在水面的涟漪？",
+      "url": "https://www.zhihu.com/answer/96350960019",
+      "summary": "正文从二维波动偏微分方程出发，对时间和空间二阶导数作中心差分并合成离散方程。"
+    },
+    {
+      "title": "数学系和物理系学生有什么差别？",
+      "url": "https://www.zhihu.com/answer/106326047550",
+      "summary": "正文针对一个由两个线性偏微分方程组成的系统，把解集转化为微分算子商模与同态的计算。"
+    },
+    {
+      "title": "为何电子不会坠入原子核？",
+      "url": "https://www.zhihu.com/answer/106960209734",
+      "summary": "正文给出氢原子定态薛定谔偏微分方程，并在球坐标下用分离变量法化为径向与角向方程。"
+    },
+    {
+      "title": "为什么神经网络可以解偏微分方程，是什么原理？",
+      "url": "https://www.zhihu.com/answer/1889286733096538790",
+      "summary": "正文把求解偏微分方程表述为在函数空间中逼近其解函数，并讨论微分方程残差和边界条件残差。"
+    },
+    {
+      "title": "2025 年阿贝尔奖授予日本数学家柏原正树，他对数学领域有哪些贡献，其研究都有哪些应用？",
+      "url": "https://www.zhihu.com/answer/1892657339556943257",
+      "summary": "正文具体说明了 D-模和代数分析如何用代数与复分析工具研究线性偏微分方程组。"
+    },
+    {
+      "title": "研究几何拓扑的人是如何研究 moduli space 或者 teichmuller space 的？",
+      "url": "https://www.zhihu.com/answer/1896604415009465042",
+      "summary": "正文以 Yang-Mills、Seiberg-Witten 和 Hitchin 方程为例，讨论 PDE 解空间商去群作用所形成的模空间及其形变。"
+    },
+    {
+      "title": "哈密顿正则方程长的这么像 C-R 条件，我们是不是可以用一个复坐标代替广义坐标和广义动量?",
+      "url": "https://www.zhihu.com/answer/1897570176406364565",
+      "summary": "正文具体区分一阶椭圆 Cauchy-Riemann 方程与一阶非线性哈密顿常微分方程。"
+    },
+    {
+      "title": "数学中有哪些问题放到更大的空间/对象里解决起来变简单的例子？",
+      "url": "https://www.zhihu.com/answer/1899774061652968375",
+      "summary": "正文以寻找 PDE 光滑解为主线，说明完备化、弱解和正则性理论如何用于证明 PDE 解存在。"
+    },
+    {
+      "title": "如何评价观点“数学就是把简单的事情复杂化”？",
+      "url": "https://www.zhihu.com/answer/1901688786783541192",
+      "summary": "正文具体推导极小图满足的二阶非线性偏微分方程，并进一步说明其复分析和几何工具。"
+    },
+    {
+      "title": "用一个非常强的定理证明一个很弱的结论是怎么样的?",
+      "url": "https://www.zhihu.com/answer/1908061077234751246",
+      "summary": "正文以 Jorgens 的全平面偏微分方程定理和 Levy 变换给出 Bernstein 定理的 PDE 证明。"
+    },
+    {
+      "title": "Resnet到底在解决一个什么问题呢？",
+      "url": "https://www.zhihu.com/answer/1908455808313844440",
+      "summary": "正文把监督学习目标与控制方程的解联系起来，并以刚性 PDE 的尺度分离解释梯度传播困难。"
+    },
+    {
+      "title": "如何理解拉格朗日力学的初衷？",
+      "url": "https://www.zhihu.com/answer/1913381688890884096",
+      "summary": "正文从拉格朗日密度和变分原理推出波动方程，并继续讨论高阶导数与多场偏微分方程组。"
+    },
+    {
+      "title": "有限元的未来是什么样的？",
+      "url": "https://www.zhihu.com/answer/1915075294655678100",
+      "summary": "正文从偏微分方程的变分形式出发，说明有限元是利用有限维问题数值求解 PDE 的方法。"
+    },
+    {
+      "title": "韦东奕近期在数学顶级期刊发文《超临界散焦非线性波动方程的爆破现象研究》，怎样评价这一研究？",
+      "url": "https://www.zhihu.com/answer/1916244771929826192",
+      "summary": "正文给出超临界散焦非线性波动方程及在特定维数、非线性指数下出现有限时间爆破的结论。"
+    },
+    {
+      "title": "韦东奕近期在数学顶级期刊发文《超临界散焦非线性波动方程的爆破现象研究》，怎样评价这一研究？",
+      "url": "https://www.zhihu.com/answer/1916432541734404193",
+      "summary": "正文具体解释散焦非线性波动方程的临界指标、爆破结论以及转化为流体方程的分析策略。"
+    },
+    {
+      "title": "计算方法解微分方程的一种方法为谱方法，哪位牛哥可以通俗的讲解一下原理，思路和方法？",
+      "url": "https://www.zhihu.com/answer/1929536321979938047",
+      "summary": "正文将带 Dirichlet 边界的 Poisson 方程写成弱形式，并用有限基函数展开求数值解。"
+    },
+    {
+      "title": "大家认为纯数学里最美丽漂亮的领域是哪个(如果只能选一个的话)？",
+      "url": "https://www.zhihu.com/answer/1939021702395859862",
+      "summary": "正文围绕偏微分方程展开，说明其与几何、测度、调和分析和代数等领域的联系，并讨论弱解及椭圆型方程迭代方法。"
+    },
+    {
+      "title": "麦克斯韦方程组可以用一个公式表示吗？",
+      "url": "https://www.zhihu.com/answer/1941527394356828001",
+      "summary": "正文以时空代数和微分形式推导麦克斯韦方程组，并将其表述为关于电磁场的一阶偏微分方程。"
+    },
+    {
+      "title": "什么是「椭圆型微分算子」？它有什么重要性呢?",
+      "url": "https://www.zhihu.com/answer/1942984712063779223",
+      "summary": "正文通过环面 Poisson 方程定义椭圆型偏微分算子，并以主象征非退化解释椭圆性对解方程的作用。"
+    },
+    {
+      "title": "什么是「椭圆型微分算子」？它有什么重要性呢?",
+      "url": "https://www.zhihu.com/answer/1943028987434624065",
+      "summary": "正文给出二阶线性偏微分算子的一般形式，并从最高阶主部解释椭圆型方程的分类和稳态性质。"
+    },
+    {
+      "title": "四元数函数可以成为复变函数的延拓吗？",
+      "url": "https://www.zhihu.com/answer/1944718259300603296",
+      "summary": "正文把柯西－黎曼条件写成偏微分方程，并进一步构造四元数的柯西－黎曼－富特条件。"
+    },
+    {
+      "title": "如何看待朝鲜国家科学院数学研究所发布 arXiv 论文称千禧年难题纳维-斯托克斯方程已被攻克？",
+      "url": "https://www.zhihu.com/answer/1944943668055249212",
+      "summary": "正文以弱解、能量不等式、先验估计和 Sobolev 空间介绍偏微分方程的正则性分析。"
+    },
+    {
+      "title": "哪个方向是当前数学界最热门的方向？",
+      "url": "https://www.zhihu.com/answer/1945803419437757895",
+      "summary": "正文把偏微分方程列为分析方向的核心内容，并讨论其适定性、光滑性与数值解法。"
+    },
+    {
+      "title": "数学中有哪些问题放到更大的空间/对象里解决起来变简单的例子？",
+      "url": "https://www.zhihu.com/answer/1950719251284472515",
+      "summary": "正文从欧拉-拉格朗日方程、弱导数和弱解讲到偏微分方程解的存在性和正则性，实质讨论了 PDE 方法。"
+    },
+    {
+      "title": "如何评价数学物理学家Elliott H. Lieb？",
+      "url": "https://www.zhihu.com/answer/1952900093121394671",
+      "summary": "正文写出含分数阶拉普拉斯算子的非线性方程，并借助鞍点与 Borel 重求和研究其解。"
+    },
+    {
+      "title": "ICM2026报告人名单公布，大家有什么感想吗？",
+      "url": "https://www.zhihu.com/answer/1952952555719103203",
+      "summary": "正文把 Fokker-Planck、Porous Medium 和 Fast Diffusion 等偏微分方程统一解释为 Wasserstein 梯度流。"
+    },
+    {
+      "title": "要看懂杨-米尔斯场的理论，数学得学到什么程度？",
+      "url": "https://www.zhihu.com/answer/1965379792602920388",
+      "summary": "正文把 Yang-Mills 方程作为椭圆偏微分方程，讨论解的存在性、正则性和形变。"
+    },
+    {
+      "title": "2025ICCM数学奖揭晓，王虹、袁新意、邓煜获金奖，他们对数学有哪些贡献？有望拿2026菲尔兹奖吗？",
+      "url": "https://www.zhihu.com/answer/1966505084390212221",
+      "summary": "正文讨论从非线性薛定谔方程、牛顿力学到玻尔兹曼方程的动力学极限，并以偏微分方程描述该过程。"
+    },
+    {
+      "title": "2025ICCM数学奖揭晓，王虹、袁新意、邓煜获金奖，他们对数学有哪些贡献？有望拿2026菲尔兹奖吗？",
+      "url": "https://www.zhihu.com/answer/1967738946369860903",
+      "summary": "正文以非线性薛定谔方程为核心，讨论随机初值下偏微分方程解的存在性与正则性。"
+    },
+    {
+      "title": "为学习几何分析，应该读哪本书学习偏微分方程？",
+      "url": "https://www.zhihu.com/answer/1976127581171500459",
+      "summary": "正文明确把椭圆偏微分方程及 Fredholm 理论作为几何分析的基本工具并给出学习顺序。"
+    },
+    {
+      "title": "勒让德多项式的意义？",
+      "url": "https://www.zhihu.com/answer/1976781741302772973",
+      "summary": "正文从拉普拉斯方程出发，在球坐标中分离径向与角向部分，并解释球对称边值问题产生的勒让德方程。"
+    },
+    {
+      "title": "球谐函数是什么？",
+      "url": "https://www.zhihu.com/answer/1979930066906539831",
+      "summary": "正文围绕三维 Laplace 偏微分方程和球面上的特征值方程展开，具体推导球谐函数及其正交基结构。"
+    },
+    {
+      "title": "数学物理方程怎么那么难？",
+      "url": "https://www.zhihu.com/answer/1985879802742321818",
+      "summary": "正文从线性偏微分方程的分离变量出发，讨论数学物理方程的谱型分类与求解框架。"
+    },
+    {
+      "title": "如何看待《数学物理方法》逼疯一群又一群学生?",
+      "url": "https://www.zhihu.com/answer/1986536846805735071",
+      "summary": "正文用分离变量法求解波动偏微分方程，并分别得到时间与空间两个常微分方程。"
+    },
+    {
+      "title": "调和分析在21世纪有哪些重大突破？",
+      "url": "https://www.zhihu.com/answer/1987951078415828834",
+      "summary": "正文具体讨论了调和分析中的 decoupling 如何用于波方程局部光滑问题，并梳理相关 PDE 估计的进展。"
+    },
+    {
+      "title": "如何看待数学期刊的论文越来越长的情况？",
+      "url": "https://www.zhihu.com/answer/1988082321279178490",
+      "summary": "正文展开 PDE 解模空间的光滑性、紧性和维数等分析步骤，并说明这些步骤为何造成论文很长。"
+    },
+    {
+      "title": "数学中有哪些通过升高维度巧妙证明或解题的方法？",
+      "url": "https://www.zhihu.com/answer/1988693120360158156",
+      "summary": "正文具体讨论偏微分方程中的粘性消失法，以及加入粘性项后取极限恢复原方程解。"
+    },
+    {
+      "title": "丘成桐培养过哪些出色的学生？",
+      "url": "https://www.zhihu.com/answer/1992521436594721713",
+      "summary": "正文具体说明Calabi猜想的证明依赖非线性复Monge-Ampère方程和偏微分方程估计。"
+    },
+    {
+      "title": "如何评价丘成桐说:农村孩子很难成为大科学家！因为童年遇不到好老师！能成为做题家就不错了(图)？",
+      "url": "https://www.zhihu.com/answer/1992521524905779254",
+      "summary": "正文具体说明证明过程需要求解复Monge-Ampère方程并攻克相关先验估计。"
+    },
+    {
+      "title": "计算流体力学中有限差分法、有限体积法和有限元法的区别是什么？",
+      "url": "https://www.zhihu.com/answer/2014732718244651444",
+      "summary": "正文围绕泊松方程和扩散型椭圆方程的边界条件、弱形式及离散格式展开。"
+    },
+    {
+      "title": "你可以介绍一个冷门但改变世界的数学模型吗？",
+      "url": "https://www.zhihu.com/answer/2028625889261305995",
+      "summary": "正文利用伊藤引理推导 Black-Scholes-Merton 偏微分方程，并说明期权定价由此转化为 PDE 问题。"
+    },
+    {
+      "title": "海洋深处有一个空心球半径为a，突然破碎，海水充满球体需要多久？",
+      "url": "https://www.zhihu.com/answer/2031523902430638716",
+      "summary": "正文从不可压缩连续性方程和径向欧拉方程出发，建立球对称流动的压力与速度关系。"
+    },
+    {
+      "title": "复变函数中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2031721995323299119",
+      "summary": "正文说明全纯函数自动满足拉普拉斯方程，并由此获得最大值原理、平均值性质等偏微分方程性质。"
+    },
+    {
+      "title": "数学中的「分析」是什么意思？",
+      "url": "https://www.zhihu.com/answer/2032255206692479548",
+      "summary": "正文专节讨论偏微分方程的存在性、唯一性、正则性、稳定性、奇异性与长时行为。"
+    },
+    {
+      "title": "俄罗斯的数学教育为什么那么强大？",
+      "url": "https://www.zhihu.com/answer/2036377147053446743",
+      "summary": "正文说明索伯列夫空间和广义导数如何为偏微分方程提供新的研究框架。"
+    },
+    {
+      "title": "过去五年，你的控制理论研究有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/2037470378231080182",
+      "summary": "正文以 HJB 方程讨论高维状态下的数值求解，并提出沿状态稀疏分解该偏微分方程的思路。"
+    },
+    {
+      "title": "格林函数法的本质是什么?",
+      "url": "https://www.zhihu.com/answer/2043065460460081259",
+      "summary": "正文以拉普拉斯算子等线性微分算子说明格林函数所满足的方程，并用于求解带边界条件的偏微分问题。"
+    },
+    {
+      "title": "知友发现 2026 菲尔兹奖名单泄露，王虹、邓煜疑似双双获奖，如何看待这一信息？",
+      "url": "https://www.zhihu.com/answer/2060247268117296865",
+      "summary": "正文具体介绍了硬球模型中玻尔兹曼方程长时间有效性的证明成果，属于偏微分方程研究方向。"
+    },
+    {
+      "title": "邓煜、王虹两位青年数学家获得 2026 年菲尔兹奖，如何理解他们获奖的意义和价值？",
+      "url": "https://www.zhihu.com/answer/2061892946413220527",
+      "summary": "正文具体说明如何从微观牛顿力学严格导出玻尔兹曼方程，并继续得到流体偏微分方程。"
+    },
+    {
+      "title": "邓煜、王虹两位青年数学家获得 2026 年菲尔兹奖，如何理解他们获奖的意义和价值？",
+      "url": "https://www.zhihu.com/answer/2062260354273612808",
+      "summary": "正文叙述从稀薄气体硬球系统推导玻尔兹曼方程及流体欧拉、Navier-Stokes-Fourier 方程的突破，涉及偏微分方程在物理建模中的来源。"
+    },
+    {
+      "title": "如何评价扩散方程被证明是与狭义相对论兼容的？",
+      "url": "https://www.zhihu.com/answer/2062497250224486247",
+      "summary": "正文围绕扩散偏微分方程的时间一阶、空间二阶结构，讨论其洛伦兹不变性及满足相对论的精确解。"
+    },
+    {
+      "title": "王虹、邓煜两位中国数学家首获菲尔兹奖，具有怎样里程碑式的意义？对中国数学意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062973679391217514",
+      "summary": "正文具体说明从微观粒子定律严格推导玻尔兹曼方程和宏观流体方程这一偏微分方程核心问题。"
+    },
+    {
+      "title": "邓煜、王虹两位青年数学家获得 2026 年菲尔兹奖，如何理解他们获奖的意义和价值？",
+      "url": "https://www.zhihu.com/answer/2063737858645554140",
+      "summary": "正文具体介绍非线性偏微分方程、波湍流与动理学中从微观动力学严格推导宏观方程的工作。"
+    },
+    {
+      "title": "邓煜、王虹两位青年数学家获得 2026 年菲尔兹奖，如何理解他们获奖的意义和价值？",
+      "url": "https://www.zhihu.com/answer/2063746024439648414",
+      "summary": "正文围绕希尔伯特第六问题，说明如何从微观粒子遵循的牛顿定律严格推导流体动力学方程，属于偏微分方程建模与推导。"
+    },
+    {
+      "title": "邓煜、王虹两位青年数学家获得 2026 年菲尔兹奖，如何理解他们获奖的意义和价值？",
+      "url": "https://www.zhihu.com/answer/2063746780114821138",
+      "summary": "正文以微观粒子碰撞到宏观流体规律的连接概括邓煜在希尔伯特第六问题上的工作，涉及流体动力学方程的数学推导。"
+    },
+    {
+      "title": "邓煜、王虹两位青年数学家获得 2026 年菲尔兹奖，如何理解他们获奖的意义和价值？",
+      "url": "https://www.zhihu.com/answer/2063750823755229123",
+      "summary": "正文具体说明研究通过长时间尺度下硬球粒子系统严格推导玻尔兹曼方程，属于偏微分方程的动力学极限问题。"
+    },
+    {
+      "title": "统计学有没有很接近纯数前沿的理论？",
+      "url": "https://www.zhihu.com/answer/2075283529018222179",
+      "summary": "正文讨论随机偏微分方程在粗糙噪声下对解、乘积和正则性的重新定义。"
+    },
+    {
+      "title": "2.6* 微积分的进化（6）——高维光滑函数的超进化：条条大道通罗马",
+      "url": "https://zhuanlan.zhihu.com/p/20641394",
+      "summary": "正文把狄利克雷能量极小问题化为带边值条件的调和函数，并在分布意义下得到拉普拉斯方程。"
+    },
+    {
+      "title": "2.8* 微积分的进化（8）——一人得道 鸡犬上天",
+      "url": "https://zhuanlan.zhihu.com/p/20729644",
+      "summary": "正文说明 Sobolev 估计如何结合 Caccioppoli 不等式迭代证明椭圆偏微分方程弱解的正则性。"
+    },
+    {
+      "title": "2.9* 微积分的进化（9）——进化仍在继续",
+      "url": "https://zhuanlan.zhihu.com/p/20826548",
+      "summary": "正文解释变分问题直接解法、弱紧性、弱解存在性和正则性如何联系偏微分方程理论。"
+    },
+    {
+      "title": "基于水平集的拓扑优化方法概述",
+      "url": "https://zhuanlan.zhihu.com/p/21305414",
+      "summary": "正文把界面表示为水平集函数的零水平集，并给出由偏微分方程驱动的界面演化过程。"
+    },
+    {
+      "title": "含时薛定谔方程与定态薛定谔方程",
+      "url": "https://zhuanlan.zhihu.com/p/21678853",
+      "summary": "正文给出一维含时薛定谔偏微分方程，并用分离变量法化为常微分方程求解。"
+    },
+    {
+      "title": "一篇用来劝退的伪安利文（上）",
+      "url": "https://zhuanlan.zhihu.com/p/22311037",
+      "summary": "正文界定偏微分方程并讨论解的存在性、唯一性和数值近似等研究目标。"
+    },
+    {
+      "title": "期权定价笔记",
+      "url": "https://zhuanlan.zhihu.com/p/22754445",
+      "summary": "正文从伊藤引理和无套利关系推导 Black-Scholes 偏微分方程，并讨论其边界条件与数值求解。"
+    },
+    {
+      "title": "你的第一个有限元求解器：仅十行 MATLAB",
+      "url": "https://zhuanlan.zhihu.com/p/26768467",
+      "summary": "正文从泊松方程的狄利克雷边值问题出发，写出其强形式与弱形式并进行数值求解，故对应偏微分方程。"
+    },
+    {
+      "title": "笔记：变分法-从Poisson方程谈起",
+      "url": "https://zhuanlan.zhihu.com/p/29420890",
+      "summary": "正文以 Poisson 方程的 Dirichlet 问题为例，把偏微分方程解的存在性转化为能量泛函临界点的存在性。"
+    },
+    {
+      "title": "分析笔记-调和函数及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/31601750",
+      "summary": "正文围绕 Laplace 方程的解展开，证明调和函数的均值性质、极值原理和 Liouville 定理等。"
+    },
+    {
+      "title": "数学各个研究方向简介",
+      "url": "https://zhuanlan.zhihu.com/p/32950646",
+      "summary": "正文给出偏微分方程定义，并以弦振动方程为例说明方程类型、定解条件和常用解法。"
+    },
+    {
+      "title": "用人工神经网络求解微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/33046347",
+      "summary": "正文针对偏微分方程构造试探解，并以拉普拉斯方程和边界条件为例求解。"
+    },
+    {
+      "title": "Itô扩散过程与PDE解的概率表示",
+      "url": "https://zhuanlan.zhihu.com/p/33082763",
+      "summary": "正文具体建立带边界条件的热方程型 Dirichlet 问题并证明其概率表示。"
+    },
+    {
+      "title": "Hörmander 的亚椭圆性定理",
+      "url": "https://zhuanlan.zhihu.com/p/34117281",
+      "summary": "正文陈述 Hörmander 亚椭圆性定理，并以退化的演化方程说明其正则性估计和偏微分算子应用。"
+    },
+    {
+      "title": "和曲面相关的偏微分方程 (一)",
+      "url": "https://zhuanlan.zhihu.com/p/34686546",
+      "summary": "正文以 Beltrami 方程和 Cauchy-Riemann 方程为例，讨论偏微分方程在复结构问题中的应用。"
+    },
+    {
+      "title": "傅立叶变换求解偏微分方程和积分方程",
+      "url": "https://zhuanlan.zhihu.com/p/35062896",
+      "summary": "正文具体以空间傅里叶变换求解一维波动偏微分方程。"
+    },
+    {
+      "title": "非线性泛函分析导论（一）:变分法与Sobolev空间",
+      "url": "https://zhuanlan.zhihu.com/p/34483954",
+      "summary": "正文把变分法与临界点存在性直接用于拟线性或非线性偏微分方程解的存在性。"
+    },
+    {
+      "title": "计算流体力学——从原理到代码（四）：有限体积法与Godunov Scheme 初步",
+      "url": "https://zhuanlan.zhihu.com/p/36781801",
+      "summary": "正文从流体守恒方程与 Burgers 方程的微分和积分形式讨论双曲偏微分方程的弱解。"
+    },
+    {
+      "title": "非线性泛函分析导论（序言）：实践中的变分问题",
+      "url": "https://zhuanlan.zhihu.com/p/37779109",
+      "summary": "正文以 Poisson 方程为例推导其弱形式，说明偏微分方程可作为变分问题的 Euler-Lagrange 方程。"
+    },
+    {
+      "title": "布朗运动、伊藤引理、BS 公式（后篇）",
+      "url": "https://zhuanlan.zhihu.com/p/38294971",
+      "summary": "正文通过伊藤引理和 Delta 对冲推导 Black-Scholes 偏微分方程及其边界条件。"
+    },
+    {
+      "title": "机电工程师应该了解哪些数学和物理知识？",
+      "url": "https://zhuanlan.zhihu.com/p/48738703",
+      "summary": "正文解释偏微分方程如何描述随时间和空间变化的场，并讨论波动、输运和扩散方程。"
+    },
+    {
+      "title": "偏微分方程的特性及三种分类",
+      "url": "https://zhuanlan.zhihu.com/p/52849477",
+      "summary": "正文讨论二阶拟线性非齐次偏微分方程的特征线、依赖区域和三类判别。"
+    },
+    {
+      "title": "有限元分析（FEA）是个什么东东",
+      "url": "https://zhuanlan.zhihu.com/p/56326567",
+      "summary": "正文介绍连续体的偏微分方程、边界条件与初始条件，并讨论其定解问题。"
+    },
+    {
+      "title": "开会后的一点随便的想法",
+      "url": "https://zhuanlan.zhihu.com/p/59649778",
+      "summary": "正文说明极小曲面与几何流的研究大量借助 PDE 工具，并讨论方程、椭圆问题与奇点，实质涉及偏微分方程。"
+    },
+    {
+      "title": "电子云的形状原来是这么来的？!",
+      "url": "https://zhuanlan.zhihu.com/p/62675246",
+      "summary": "正文以球坐标 Laplace 方程为例，利用分离变量推导球谐函数及其偏微分方程结构。"
+    },
+    {
+      "title": "微分方程数值解法|专题（2）——偏微分方程的有限差分方法",
+      "url": "https://zhuanlan.zhihu.com/p/65247362",
+      "summary": "正文分别建立热方程、波动方程与 Laplace 方程的有限差分格式及其稳定性条件。"
+    },
+    {
+      "title": "从泊松方程的解法，聊到泊松图像融合",
+      "url": "https://zhuanlan.zhihu.com/p/68349210",
+      "summary": "正文从泊松方程出发，说明其退化形式和求解思路，属于偏微分方程的实质性讲解。"
+    },
+    {
+      "title": "身边的微分方程 (0)：序曲",
+      "url": "https://zhuanlan.zhihu.com/p/66085740",
+      "summary": "正文明确说明偏微分方程的构成，并以薛定谔方程讨论初始条件和边界条件。"
+    },
+    {
+      "title": "CFD: FDM，数值耗散(dissipation)和数值色散(dispersion)随笔",
+      "url": "https://zhuanlan.zhihu.com/p/71219134",
+      "summary": "正文以线性无粘 Burgers 偏微分方程为控制方程分析有限差分数值误差。"
+    },
+    {
+      "title": "如何理解飞机的五种飞行模态",
+      "url": "https://zhuanlan.zhihu.com/p/72599326",
+      "summary": "正文从弦振动的偏微分方程出发，用时空分离得到振动模态及其固有频率。"
+    },
+    {
+      "title": "偏微分方程笔记(1)——输运方程",
+      "url": "https://zhuanlan.zhihu.com/p/74576825",
+      "summary": "正文定义一阶线性偏微分方程，讨论其特征线、初值问题和非齐次源项。"
+    },
+    {
+      "title": "偏微分方程笔记(2)——Laplace(位势)方程的基本解",
+      "url": "https://zhuanlan.zhihu.com/p/75732103",
+      "summary": "正文系统定义Laplace与Poisson方程，推导基本解并证明Poisson方程解公式。"
+    },
+    {
+      "title": "偏微分方程笔记(3)——调和函数的性质",
+      "url": "https://zhuanlan.zhihu.com/p/76409082",
+      "summary": "正文系统证明调和函数的平均值性质、最大值原理、导数估计、唯一性和Liouville定理，属于偏微分方程理论。"
+    },
+    {
+      "title": "[转载]最全数学各个分支简介",
+      "url": "https://zhuanlan.zhihu.com/p/78185955",
+      "summary": "正文说明偏微分方程的多元函数和偏导数定义，并讨论定解条件、分类与主要解法。"
+    },
+    {
+      "title": "有限元入门 Part 1.",
+      "url": "https://zhuanlan.zhihu.com/p/36792913",
+      "summary": "正文从线弹性平衡方程出发，通过试函数和分部积分推导其弱形式及边界条件。"
+    },
+    {
+      "title": "偏微分方程笔记(4)——Laplace方程的Green函数",
+      "url": "https://zhuanlan.zhihu.com/p/79718056",
+      "summary": "正文以 Laplace 方程的边值问题为对象，推导 Green 函数表示公式以及半空间和球上的 Poisson 公式。"
+    },
+    {
+      "title": "偏微分方程笔记(5)——热传导方程的基本解",
+      "url": "https://zhuanlan.zhihu.com/p/80214720",
+      "summary": "正文系统讨论热传导偏微分方程、基本解，以及齐次和非齐次初值问题的求解。"
+    },
+    {
+      "title": "偏微分方程笔记(6)——热传导方程的平均值性质",
+      "url": "https://zhuanlan.zhihu.com/p/80567520",
+      "summary": "正文围绕热传导方程证明平均值性质、强最大值原理以及有界和无界区域的解唯一性。"
+    },
+    {
+      "title": "【转】数学体系主要分支",
+      "url": "https://zhuanlan.zhihu.com/p/80717901",
+      "summary": "正文解释偏微分方程的多变量与偏导数定义、方程类型以及初始和边界定解条件。"
+    },
+    {
+      "title": "用Python数值求解偏微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/81488678",
+      "summary": "正文建立二阶抛物型偏微分方程的差分格式，并具体求解一维热传导方程。"
+    },
+    {
+      "title": "偏微分方程笔记(8)——波动方程的d'Alembert公式, Kirchhoff公式",
+      "url": "https://zhuanlan.zhihu.com/p/84755975",
+      "summary": "正文以波动方程为主线，给出初值问题、d'Alembert公式及高维解公式。"
+    },
+    {
+      "title": "正则变换与哈密顿-雅可比理论 / 作用量竟做出这种事⋯ 背后原因令人暖心",
+      "url": "https://zhuanlan.zhihu.com/p/85001265",
+      "summary": "正文以哈密顿-雅可比方程为核心，展示其生成、作用量表示以及向薛定谔方程的极限联系，属于偏微分方程内容。"
+    },
+    {
+      "title": "偏微分方程笔记(9)——高维、非齐次波动方程的解，Huygens原理",
+      "url": "https://zhuanlan.zhihu.com/p/85092136",
+      "summary": "正文分别求解奇数维、偶数维和非齐次波动方程，并讨论 Huygens 原理，属于偏微分方程的解法。"
+    },
+    {
+      "title": "微分方程(1)-基本概念及分类",
+      "url": "https://zhuanlan.zhihu.com/p/85151812",
+      "summary": "正文通过含两个独立变量的波动方程例子说明偏微分方程，并与常微分方程作区分。"
+    },
+    {
+      "title": "偏微分方程笔记(10)——能量方法初探",
+      "url": "https://zhuanlan.zhihu.com/p/85186454",
+      "summary": "正文用能量方法证明位势方程、热传导方程和波动方程解的唯一性及有限传播速度。"
+    },
+    {
+      "title": "从微分方程的级数解到两个特殊方程（5）：勒让德方程",
+      "url": "https://zhuanlan.zhihu.com/p/88140502",
+      "summary": "正文以球坐标薛定谔方程为例作分离变量，导出径向、方位角和极角三个常微分方程。"
+    },
+    {
+      "title": "偏微分方程笔记(11)——分离变量法初探",
+      "url": "https://zhuanlan.zhihu.com/p/88503170",
+      "summary": "正文以波动方程和热传导方程为例，完整演示偏微分方程的分离变量求解与边界条件处理。"
+    },
+    {
+      "title": "偏微分方程笔记(12)——特征线法初探",
+      "url": "https://zhuanlan.zhihu.com/p/92052454",
+      "summary": "正文围绕一阶偏微分方程建立特征方程、边界条件与特征线求解流程。"
+    },
+    {
+      "title": "《偏微分方程的类型及求解》（一）",
+      "url": "https://zhuanlan.zhihu.com/p/93733930",
+      "summary": "正文讲解波动方程、热传导方程和拉普拉斯方程的定解问题及求解方法。"
+    },
+    {
+      "title": "BS公式——热方程推导法",
+      "url": "https://zhuanlan.zhihu.com/p/93677341",
+      "summary": "正文从动态复制组合和伊藤引理推导 Black-Scholes-Merton 偏微分方程。"
+    },
+    {
+      "title": "偏微分方程笔记(13)——Fourier变换求PDE",
+      "url": "https://zhuanlan.zhihu.com/p/96829926",
+      "summary": "正文具体求解带初值的齐次热传导方程，并写出由热核卷积表示的显式解。"
+    },
+    {
+      "title": "偏微分方程课程精华总结",
+      "url": "https://zhuanlan.zhihu.com/p/96989917",
+      "summary": "正文系统梳理偏微分方程的分类、定解条件、波动方程、热传导方程及调和方程等内容。"
+    },
+    {
+      "title": "偏微分方程笔记(16)——弱导数、Sobolev空间",
+      "url": "https://zhuanlan.zhihu.com/p/98143530",
+      "summary": "正文以构造PDE弱解所需的正则性为动机，建立弱导数与Sobolev空间框架。"
+    },
+    {
+      "title": "保角变换",
+      "url": "https://zhuanlan.zhihu.com/p/103691161",
+      "summary": "正文围绕二维拉普拉斯方程、泊松方程及其在保角坐标变换下的定解问题展开推导。"
+    },
+    {
+      "title": "泊松表面重建详解",
+      "url": "https://zhuanlan.zhihu.com/p/107653198",
+      "summary": "正文由最小二乘能量和变分欧拉公式导出以拉普拉斯算子、散度表示的泊松方程，并作为离散求解的核心。"
+    },
+    {
+      "title": "数值计算（三）matlab求解一般的偏微分方程组",
+      "url": "https://zhuanlan.zhihu.com/p/110277324",
+      "summary": "正文具体写出 pdepe 可处理的偏微分方程标准形式，并说明其对一维空间和时间求解。"
+    },
+    {
+      "title": "Python数值计算----------二维波动方程有限差分解",
+      "url": "https://zhuanlan.zhihu.com/p/111640958",
+      "summary": "正文以二维波动方程为例说明偏微分方程所描述的空间与时间演化。"
+    },
+    {
+      "title": "Mean field games",
+      "url": "https://zhuanlan.zhihu.com/p/111714414",
+      "summary": "正文具体给出HJB方程与Fokker-Planck方程耦合的偏微分方程组，并讨论其存在性、唯一性与弱解。"
+    },
+    {
+      "title": "PDE有限差分方法(1)——全显格式与全隐格式",
+      "url": "https://zhuanlan.zhihu.com/p/114298630",
+      "summary": "正文以一维热传导方程为例，说明初边值问题的网格离散、显格式、隐格式和周期边值推广。"
+    },
+    {
+      "title": "一个菜鸟初学者的哈密顿力学笔记",
+      "url": "https://zhuanlan.zhihu.com/p/115188080",
+      "summary": "正文给出哈密顿-雅可比偏微分方程，并讲解其完全积分与分离变量求解方法。"
+    },
+    {
+      "title": "微分方程中的几个基础概念",
+      "url": "https://zhuanlan.zhihu.com/p/123859732",
+      "summary": "正文区分常微分与偏微分方程，说明偏微分方程含多个自变量并列举典型应用。"
+    },
+    {
+      "title": "强化学习与李雅普诺夫稳定判据的关系",
+      "url": "https://zhuanlan.zhihu.com/p/128516003",
+      "summary": "正文由离散价值迭代推广到连续最优控制，并导出 Hamilton-Jacobi-Bellman 偏微分方程。"
+    },
+    {
+      "title": "偏微分方程-基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/129141939",
+      "summary": "正文讲解偏微分方程的阶数、线性分类、齐次性及初始和边界条件，并引出波动方程。"
+    },
+    {
+      "title": "分数阶Fokker-Planck方程（一）Lévy 过程",
+      "url": "https://zhuanlan.zhihu.com/p/123155988",
+      "summary": "正文给出一维、多维及欠阻尼情形的分数阶Fokker-Planck方程，并讨论稳态分布形式。"
+    },
+    {
+      "title": "偏微分方程基础——特征线法/行波法/达朗贝尔法",
+      "url": "https://zhuanlan.zhihu.com/p/131346770",
+      "summary": "正文系统讲解一阶和二阶偏微分方程的特征线法、变量代换及一维波动方程的达朗贝尔公式。"
+    },
+    {
+      "title": "偏微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/134189701",
+      "summary": "正文以梯度、散度、旋度、拉普拉斯算子为基础，讲解偏微分方程的分类、边值条件、调和函数及其变分来源。"
+    },
+    {
+      "title": "Code and Finance 4 期权定价之有限差分法",
+      "url": "https://zhuanlan.zhihu.com/p/136027192",
+      "summary": "正文构造无风险投资组合并推导期权价格的偏微分方程，再讨论其数值求解。"
+    },
+    {
+      "title": "有限差分法（1）—构造差分格式及稳定性分析",
+      "url": "https://zhuanlan.zhihu.com/p/136269281",
+      "summary": "正文讨论偏微分方程无法解析求解时如何离散为差分方程，并分析相应的稳定条件。"
+    },
+    {
+      "title": "CFD理论基础——显格式和隐格式",
+      "url": "https://zhuanlan.zhihu.com/p/136564204",
+      "summary": "正文讨论热传导方程这一偏微分方程如何通过有限差分转为可推进计算的差分方程。"
+    },
+    {
+      "title": "期权定价2-BS公式&希腊值",
+      "url": "https://zhuanlan.zhihu.com/p/137938792",
+      "summary": "正文通过构造无风险对冲组合并消去随机项，完整推导Black-Scholes偏微分方程。"
+    },
+    {
+      "title": "分离变量法解拉普拉斯方程",
+      "url": "https://zhuanlan.zhihu.com/p/138014489",
+      "summary": "正文用分离变量假设把拉普拉斯偏微分方程拆成常微分方程，并在多种坐标系中构造通解。"
+    },
+    {
+      "title": "偏微分1 | 弦振动方程",
+      "url": "https://zhuanlan.zhihu.com/p/139238713",
+      "summary": "正文从弦的张力与动量定理出发，推导一维弦振动这一典型的偏微分方程。"
+    },
+    {
+      "title": "Fokker-Planck Equation",
+      "url": "https://zhuanlan.zhihu.com/p/142216870",
+      "summary": "正文从概率密度连续性方程和随机力出发推导 Fokker-Planck 偏微分方程。"
+    },
+    {
+      "title": "偏微分方程基础——分离变量法",
+      "url": "https://zhuanlan.zhihu.com/p/138032373",
+      "summary": "正文对一维波动方程建立初边值问题，完整推导分离变量、特征值问题、级数叠加和系数求解，并说明非齐次情形。"
+    },
+    {
+      "title": "计算流体力学 | 偏微分方程的数学性质",
+      "url": "https://zhuanlan.zhihu.com/p/143745059",
+      "summary": "正文系统讨论偏微分方程的特征线法、类型分类、边界条件、影响区域和弱解。"
+    },
+    {
+      "title": "计算流体力学 | 差分方法",
+      "url": "https://zhuanlan.zhihu.com/p/144718181",
+      "summary": "正文围绕一维对流方程和热传导方程，具体构造偏微分方程的显式、隐式及时空离散格式。"
+    },
+    {
+      "title": "有限差分法（3）——差分格式",
+      "url": "https://zhuanlan.zhihu.com/p/146122878",
+      "summary": "正文以单波偏微分方程为对象，对空间项和时间项离散并推进数值求解。"
+    },
+    {
+      "title": "偏微分方程：一门揭示宇宙奥秘、改变世界面貌的科学",
+      "url": "https://zhuanlan.zhihu.com/p/149022967",
+      "summary": "正文围绕偏微分方程的定义、主要类型、典型方程及应用展开系统介绍。"
+    },
+    {
+      "title": "PDE有限差分方法(10)——边界条件离散方法",
+      "url": "https://zhuanlan.zhihu.com/p/149680131",
+      "summary": "正文以热传导偏微分方程为例讨论 Dirichlet、Neumann 和 Robin 边界条件的离散。"
+    },
+    {
+      "title": "球谐光照——球谐函数",
+      "url": "https://zhuanlan.zhihu.com/p/153352797",
+      "summary": "正文从三维拉普拉斯方程出发，具体演示球面坐标下的分离变量求解过程。"
+    },
+    {
+      "title": "The Laplacian of (1/r),格林函数与泊松方程",
+      "url": "https://zhuanlan.zhihu.com/p/154094937",
+      "summary": "正文明确研究泊松方程，利用格林函数求得一般源项下的偏微分方程解。"
+    },
+    {
+      "title": "N-S方程篇5：连续性方程的推导(续)",
+      "url": "https://zhuanlan.zhihu.com/p/156993969",
+      "summary": "正文由流体微元的通量和质量守恒推导守恒型与非守恒型连续性偏微分方程。"
+    },
+    {
+      "title": "伽辽金法 (Galerkin method)介绍",
+      "url": "https://zhuanlan.zhihu.com/p/161372939",
+      "summary": "正文围绕抛物型偏微分方程写出弱形式，并在有限维子空间中求近似解。"
+    },
+    {
+      "title": "终篇：变分法中的代数拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/163200117",
+      "summary": "正文从一个非线性椭圆型偏微分方程出发，将其弱解表述为泛函临界点。"
+    },
+    {
+      "title": "【HFT】HJB方程与最优执行问题",
+      "url": "https://zhuanlan.zhihu.com/p/161632470",
+      "summary": "正文由连续时间的动态规划推导出 HJB 方程，并明确指出它是一个偏微分方程。"
+    },
+    {
+      "title": "PDE有限差分方法(14)——守恒律方程基本理论",
+      "url": "https://zhuanlan.zhihu.com/p/164675240",
+      "summary": "正文围绕一维标量双曲守恒律阐述特征线、弱解、激波、Rankine-Hugoniot 条件和熵条件。"
+    },
+    {
+      "title": "量子力学杂谈——格林函数",
+      "url": "https://zhuanlan.zhihu.com/p/165202026",
+      "summary": "正文具体讨论偏微分方程初值问题的格林函数、基本解及热核构造。"
+    },
+    {
+      "title": "数值偏微分方程-差分法（Python）",
+      "url": "https://zhuanlan.zhihu.com/p/164627678",
+      "summary": "正文以五点差分格式离散拉普拉斯方程，并讨论截断误差和边界条件。"
+    },
+    {
+      "title": "泛函微分推导膜形变方程",
+      "url": "https://zhuanlan.zhihu.com/p/165947191",
+      "summary": "正文对膜的自由能泛函作变分，推导包含平均曲率和高斯曲率的偏微分形状方程。"
+    },
+    {
+      "title": "【2】变分法基础&欧拉-拉格朗日方程的导出",
+      "url": "https://zhuanlan.zhihu.com/p/168789203",
+      "summary": "正文通过积分变分和分部积分证明泛函驻点条件等价于 Laplace 偏微分方程。"
+    },
+    {
+      "title": "格子玻尔兹曼方法（LBM）学习：等温不可压缩流体流动问题（附MATLAB代码）",
+      "url": "https://zhuanlan.zhihu.com/p/172591068",
+      "summary": "正文以偏微分方程描述流场速度与压力的时空变化，并讨论连续方程与动量守恒方程。"
+    },
+    {
+      "title": "evans的pde的读书报告",
+      "url": "https://zhuanlan.zhihu.com/p/191175092",
+      "summary": "正文围绕 Evans 教材梳理偏微分方程的函数空间、弱解、存在唯一性和正则性等求解框架。"
+    },
+    {
+      "title": "N-S方程篇6：动量方程",
+      "url": "https://zhuanlan.zhihu.com/p/194295071",
+      "summary": "正文由积分守恒关系得到动量方程对应的微分形式，属于偏微分方程建模。"
+    },
+    {
+      "title": "利用MATLABpdetool解偏微分方程——以数学建模2018A题为例",
+      "url": "https://zhuanlan.zhihu.com/p/194162724",
+      "summary": "正文建立多层热传导偏微分方程组并说明边界条件、初始条件与衔接条件。"
+    },
+    {
+      "title": "球谐函数之一-球坐标系下的拉普拉斯方程",
+      "url": "https://zhuanlan.zhihu.com/p/237500760",
+      "summary": "正文讨论笛卡尔坐标下的拉普拉斯方程，并推导其球坐标形式，属于偏微分方程。"
+    },
+    {
+      "title": "利用matlab求解偏微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/225886001",
+      "summary": "正文先按椭圆型、抛物型和双曲型分类偏微分方程，并列写对应方程与初始条件。"
+    },
+    {
+      "title": "有限元超精简入门教程",
+      "url": "https://zhuanlan.zhihu.com/p/265144262",
+      "summary": "正文把一维和二维热传导作为核心算例，展示偏微分方程的弱形式和有限元离散求解。"
+    },
+    {
+      "title": "平均场博弈论(Mean-field Games)简介",
+      "url": "https://zhuanlan.zhihu.com/p/265578530",
+      "summary": "正文推导 Hamilton-Jacobi-Bellman 方程与传输方程，二者组成平均场博弈的耦合偏微分方程组。"
+    },
+    {
+      "title": "[顾樵 数学物理方法] Chap.2 分离变量法",
+      "url": "https://zhuanlan.zhihu.com/p/163513897",
+      "summary": "正文系统处理一维和二维波动方程、热传导方程等偏微分方程的定解问题。"
+    },
+    {
+      "title": "[顾樵 数学物理方法] Chap.10 行波法",
+      "url": "https://zhuanlan.zhihu.com/p/268232574",
+      "summary": "正文具体讨论一维和三维波动方程的特征线、依赖区间与泊松公式。"
+    },
+    {
+      "title": "Black-Scholes 模型学习框架",
+      "url": "https://zhuanlan.zhihu.com/p/265727886",
+      "summary": "正文利用伊藤公式和对冲组合推导 Black-Scholes 偏微分方程，并说明其终值条件。"
+    },
+    {
+      "title": "薛定谔方程与NS方程的联系",
+      "url": "https://zhuanlan.zhihu.com/p/293151367",
+      "summary": "正文通过分解复波函数并整理实部与虚部，推导出与流体力学方程对应的偏微分方程。"
+    },
+    {
+      "title": "用python实现简单的有限元方法（二）",
+      "url": "https://zhuanlan.zhihu.com/p/307349459",
+      "summary": "正文以带边界条件的一维 Poisson 方程为例，说明偏微分方程的离散与数值求解过程。"
+    },
+    {
+      "title": "[顾樵 数学物理方法] Chap.9 施图姆-刘维尔理论；若干特殊方程的导出；二阶ODE级数解法基础",
+      "url": "https://zhuanlan.zhihu.com/p/313031234",
+      "summary": "正文从三维拉普拉斯方程和亥姆霍兹方程出发，在球坐标、柱坐标中分离变量导出特殊方程。"
+    },
+    {
+      "title": "Riesz表示定理、Lax-Milgram定理及二阶线性椭圆方程弱解的存在性定理",
+      "url": "https://zhuanlan.zhihu.com/p/334767002",
+      "summary": "正文定义二阶线性椭圆方程的弱解，并证明弱解存在性及正则性定理。"
+    },
+    {
+      "title": "紧性II: Banach-Alaoglu定理",
+      "url": "https://zhuanlan.zhihu.com/p/334803931",
+      "summary": "正文把 p-Laplacian 偏微分方程转化为能量泛函极小问题并说明弱解存在性。"
+    },
+    {
+      "title": "PDE复习笔记(1)",
+      "url": "https://zhuanlan.zhihu.com/p/338426133",
+      "summary": "正文系统讲解偏微分方程的定义、定解条件、适定性、叠加原理、一阶拟线性方程和二阶方程分类，是偏微分方程主题的复习笔记。"
+    },
+    {
+      "title": "浅析Burgers 方程",
+      "url": "https://zhuanlan.zhihu.com/p/339649042",
+      "summary": "正文围绕 Burgers 方程，推导 Cole-Hopf 变换到线性热方程的方法，并求出激波结构与初值问题的解。"
+    },
+    {
+      "title": "PDE复习笔记(2)",
+      "url": "https://zhuanlan.zhihu.com/p/339883860",
+      "summary": "正文集中讲解波动方程等偏微分方程的初值问题、边值问题及多种经典求解法。"
+    },
+    {
+      "title": "偏微分方程与特征线法",
+      "url": "https://zhuanlan.zhihu.com/p/340161952",
+      "summary": "正文讲解一阶偏微分方程及特征线法，并通过多个初值和边界条件例题求解析解。"
+    },
+    {
+      "title": "消失的紧性——分析学中的紧集",
+      "url": "https://zhuanlan.zhihu.com/p/343228278",
+      "summary": "正文具体说明弱解、紧嵌入、变分方法与单调性方法在偏微分方程存在性证明中的作用。"
+    },
+    {
+      "title": "MATLAB | 一维薛定谔方程的数值解及势场中波包的演化",
+      "url": "https://zhuanlan.zhihu.com/p/343847938",
+      "summary": "正文针对一维含时薛定谔偏微分方程，介绍差分格式、边界条件以及不同势场下的数值演化。"
+    },
+    {
+      "title": "随机动力学（2）---Fokker Planck Kolmogorov 方程",
+      "url": "https://zhuanlan.zhihu.com/p/344968725",
+      "summary": "正文推导并解释偏微分方程形式的 FPK 方程，讨论其漂移、扩散项和边界条件。"
+    },
+    {
+      "title": "Evans笔记1.5---格林公式",
+      "url": "https://zhuanlan.zhihu.com/p/347551007",
+      "summary": "正文推导拉普拉斯的格林表示公式和格林恒等式，给出偏微分方程理论中的基本积分表示。"
+    },
+    {
+      "title": "三大偏微分方程之首：拉普拉斯方程(1)",
+      "url": "https://zhuanlan.zhihu.com/p/350388376",
+      "summary": "正文围绕拉普拉斯方程的定义、调和函数、边界条件与通解展开，具体讲解了一类椭圆型偏微分方程。"
+    },
+    {
+      "title": "期权定价PDE的稳定性分析",
+      "url": "https://zhuanlan.zhihu.com/p/350589820",
+      "summary": "正文以Black-Scholes方程为对象，说明变量代换后化为热传导方程，并设置边界和终值条件求解。"
+    },
+    {
+      "title": "显示和隐式有限差分法的区别",
+      "url": "https://zhuanlan.zhihu.com/p/351071478",
+      "summary": "正文以一个含时间和空间偏导数的方程为例，说明偏微分方程在网格上的有限差分离散。"
+    },
+    {
+      "title": "三大偏微分方程之热方程",
+      "url": "https://zhuanlan.zhihu.com/p/351771905",
+      "summary": "正文围绕热方程这一偏微分方程展开，说明温度随时间与空间扩散的机制并讨论初边值问题的求解。"
+    },
+    {
+      "title": "什么是有限元(FEM)",
+      "url": "https://zhuanlan.zhihu.com/p/350368062",
+      "summary": "正文以二维声波偏微分方程为对象，结合初边值条件构造弱形式并进行空间与时间离散。"
+    },
+    {
+      "title": "Black-Scholes-Merton期权定价模型和Feynman Kac公式",
+      "url": "https://zhuanlan.zhihu.com/p/354405859",
+      "summary": "正文陈述并证明 Feynman-Kac 公式，把抛物型偏微分方程的解表示成随机过程的条件期望。"
+    },
+    {
+      "title": "深度学习求解偏微分方程系列一：Deep Galerkin Method",
+      "url": "https://zhuanlan.zhihu.com/p/359328643",
+      "summary": "正文围绕带初始条件和边界条件的偏微分方程，介绍 Deep Galerkin Method 的求解原理。"
+    },
+    {
+      "title": "用上傅里叶变换，很快啊，AI几秒钟就能解出偏微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/367686910",
+      "summary": "正文围绕偏微分方程求解，对比传统数值求解器与基于神经网络算子的加速方法。"
+    },
+    {
+      "title": "有限体积法（13）离散化过程",
+      "url": "https://zhuanlan.zhihu.com/p/367445221",
+      "summary": "正文以守恒型传输方程为例，给出积分形式、散度定理转换和半离散守恒方程，属于偏微分方程的离散应用。"
+    },
+    {
+      "title": "【游戏流体力学基础及Unity代码（十五）】线性有限元及弹性物体模拟",
+      "url": "https://zhuanlan.zhihu.com/p/369505527",
+      "summary": "正文给出一维和二维线性扩散方程，并用有限元方法建立弱形式、离散矩阵和边界条件。"
+    },
+    {
+      "title": "深度学习求解偏微分方程系列二：Weak Adversarial Networks",
+      "url": "https://zhuanlan.zhihu.com/p/370346518",
+      "summary": "正文以 Poisson 方程和一般二阶椭圆型方程为例，推导并求解偏微分方程的弱形式。"
+    },
+    {
+      "title": "什么是弱形式？",
+      "url": "https://zhuanlan.zhihu.com/p/372941239",
+      "summary": "正文以一维稳态传热方程为例，讲解如何通过积分和分部积分构造微分方程的弱形式。"
+    },
+    {
+      "title": "偏微分方程求解——分离变量法",
+      "url": "https://zhuanlan.zhihu.com/p/376107702",
+      "summary": "正文系统讲解偏微分方程的分离变量法，并举一维热传导初边值问题完整求解。"
+    },
+    {
+      "title": "数学的艺术 (2) —— 高斯积分",
+      "url": "https://zhuanlan.zhihu.com/p/379848030",
+      "summary": "正文建立热传导偏微分方程的初始与边界条件，并通过变换得到扩散核形式的解。"
+    },
+    {
+      "title": "拉普拉斯算子",
+      "url": "https://zhuanlan.zhihu.com/p/376436061",
+      "summary": "正文以拉普拉斯方程为对象，讨论其解、边界条件以及与泊松方程和调和函数的关系。"
+    },
+    {
+      "title": "应用数学新时代的曙光",
+      "url": "https://zhuanlan.zhihu.com/p/380554963",
+      "summary": "正文讨论偏微分方程在应用数学中的中心地位、高维瓶颈以及神经网络求解方法。"
+    },
+    {
+      "title": "Evans：Partial Differential Equations使用攻略(上)",
+      "url": "https://zhuanlan.zhihu.com/p/385221944",
+      "summary": "正文围绕 Laplace、热、波和传输等方程讨论边值问题、初值演化及偏微分方程的基本理论。"
+    },
+    {
+      "title": "2021年丘赛分析试题浅析",
+      "url": "https://zhuanlan.zhihu.com/p/389308721",
+      "summary": "正文讨论调和方程以及含非线性项的半线性椭圆偏微分方程，并证明弱解的存在唯一性。"
+    },
+    {
+      "title": "偏微分方程(二)——拉普拉斯方程之基本解",
+      "url": "https://zhuanlan.zhihu.com/p/390553118",
+      "summary": "正文介绍拉普拉斯方程、泊松方程及基本解，并证明卷积形式的泊松方程解。"
+    },
+    {
+      "title": "偏微分方程(三)——平均值公式及调和函数性质",
+      "url": "https://zhuanlan.zhihu.com/p/392032581",
+      "summary": "正文围绕 Laplace 方程与调和函数，证明平均值公式、逆均值公式、强极值原理、Liouville 定理和 Harnack 不等式。"
+    },
+    {
+      "title": "偏微分方程(四)——格林函数(Green's function)",
+      "url": "https://zhuanlan.zhihu.com/p/394104835",
+      "summary": "正文围绕泊松方程边值问题定义格林函数，证明其对称性与一般表示，并推导半空间和球域上的泊松核。"
+    },
+    {
+      "title": "COMSOL - PDE的弱形式（Weak Form PDE）",
+      "url": "https://zhuanlan.zhihu.com/p/393792086",
+      "summary": "正文把偏微分方程的弱形式拆成域内体积分与边界积分，并解释相应边界条件。"
+    },
+    {
+      "title": "Python：SIMPLE法求解CFD中的方腔流示例",
+      "url": "https://zhuanlan.zhihu.com/p/401585175",
+      "summary": "正文把压力校正与连续性条件化为泊松方程，并对其边界条件和离散形式展开讨论。"
+    },
+    {
+      "title": "Python: 显式有限差分求解一维对流方程",
+      "url": "https://zhuanlan.zhihu.com/p/403593394",
+      "summary": "正文针对一维对流方程进行显式有限差分离散，分别给出空间、时间离散和稳定性条件。"
+    },
+    {
+      "title": "【番外】我的研究方向概述",
+      "url": "https://zhuanlan.zhihu.com/p/407587709",
+      "summary": "正文专门概述非线性椭圆方程、p-调和和无穷调和方程解的正则性及其相关公开问题。"
+    },
+    {
+      "title": "北大数院校友最新成果登数学四大顶刊，偏微分方程突破，可用于W-GAN，现已回国任教中科大",
+      "url": "https://zhuanlan.zhihu.com/p/409305141",
+      "summary": "正文以蒙日-安培方程为中心，介绍其与最优传输的联系，以及存在性、唯一性和整体光滑性研究的突破。"
+    },
+    {
+      "title": "微分方程数值求解——有限差分法",
+      "url": "https://zhuanlan.zhihu.com/p/411798670",
+      "summary": "正文具体离散二维泊松方程，并把方法用于枝晶固化的相场偏微分方程模拟。"
+    },
+    {
+      "title": "二阶线性偏微分方程的分类与简化",
+      "url": "https://zhuanlan.zhihu.com/p/409744039",
+      "summary": "正文从二阶线性偏微分方程的一般形式出发，通过特征线和变量代换将其化为标准形式并分类。"
+    },
+    {
+      "title": "Evans偏微分方程第二章习题答案",
+      "url": "https://zhuanlan.zhihu.com/p/414344729",
+      "summary": "正文围绕偏微分方程习题讨论传输方程、Laplace 方程、中值公式和极值原理。"
+    },
+    {
+      "title": "最优控制（基本知识）",
+      "url": "https://zhuanlan.zhihu.com/p/415056536",
+      "summary": "正文把椭圆偏微分方程作为状态约束，并讨论其弱解、正则性及伴随方程。"
+    },
+    {
+      "title": "随机偏微分方程--Stochastic heat equation",
+      "url": "https://zhuanlan.zhihu.com/p/421235218",
+      "summary": "正文围绕一维环面上的随机热方程，拆分并讨论非线性与线性偏微分方程。"
+    },
+    {
+      "title": "中科大陈秀雄团队成功证明凯勒几何两大核心猜想，研究登上《美国数学会杂志》",
+      "url": "https://zhuanlan.zhihu.com/p/428599426",
+      "summary": "正文说明陈秀雄团队通过四阶完全非线性椭圆方程的先验估计与存在性证明解决几何猜想。"
+    },
+    {
+      "title": "物理模拟-流体：Smoothed Particle Hydrodynamics（一）",
+      "url": "https://zhuanlan.zhihu.com/p/426566636",
+      "summary": "正文围绕连续性方程和压力泊松方程展开，说明偏微分方程的算子分裂与离散求解。"
+    },
+    {
+      "title": "记录今年看到的最🐮🍺的傅里叶变换",
+      "url": "https://zhuanlan.zhihu.com/p/430048585",
+      "summary": "正文构造半空间 Laplace 方程的边值问题，并用 Green 函数和电像法求其解。"
+    },
+    {
+      "title": "球谐函数可视化 | 直观理解球谐展开",
+      "url": "https://zhuanlan.zhihu.com/p/430163791",
+      "summary": "正文从球坐标 Laplace 偏微分方程的变量分离出发，讨论角向方程的解、正交性和展开性质。"
+    },
+    {
+      "title": "数学的艺术 —— 变分法",
+      "url": "https://zhuanlan.zhihu.com/p/430355170",
+      "summary": "正文以作用量推导 Hamilton-Jacobi 偏微分方程，并借此得到能量守恒和定态波动方程。"
+    },
+    {
+      "title": "加州理工华人博士提出傅里叶神经算子，偏微分方程提速1000倍，告别超算！",
+      "url": "https://zhuanlan.zhihu.com/p/430782504",
+      "summary": "正文先定义偏微分方程，再比较传统离散求解和数据驱动求解偏微分方程的方法。"
+    },
+    {
+      "title": "研0纪实：一维间断Galerkin方法(DG)",
+      "url": "https://zhuanlan.zhihu.com/p/439772431",
+      "summary": "正文以线性双曲守恒律为模型建立弱形式，讨论熵不等式、稳定性和数值求解。"
+    },
+    {
+      "title": "用 numpy 实现一个简单的 Rayleigh-Bénard 对流模式吧！",
+      "url": "https://zhuanlan.zhihu.com/p/441884153",
+      "summary": "正文从二维耦合方程组推导涡度、位温与压力诊断量的偏微分方程，并说明边界条件和数值求解流程。"
+    },
+    {
+      "title": "不确定性量化（Uncertainty Qunatification）",
+      "url": "https://zhuanlan.zhihu.com/p/445448562",
+      "summary": "正文从随机粒子碰撞和布朗运动出发建立随机热方程，并进一步讨论带随机源项的椭圆型偏微分方程。"
+    },
+    {
+      "title": "数学物理方程（2）——分离变量法",
+      "url": "https://zhuanlan.zhihu.com/p/453610241",
+      "summary": "正文用分离变量法求解一维波动、热传导和矩形域拉普拉斯方程等多类偏微分方程。"
+    },
+    {
+      "title": "最优传输简介",
+      "url": "https://zhuanlan.zhihu.com/p/458312488",
+      "summary": "正文把平均场规划问题化为 Hamilton-Jacobi 方程与连续性方程组成的前向-后向偏微分方程组。"
+    },
+    {
+      "title": "衍射计算中使用的各个衍射公式分析推导",
+      "url": "https://zhuanlan.zhihu.com/p/459182237",
+      "summary": "正文从 Helmholtz 方程出发，用格林函数、边界条件和近似方法推导多种衍射积分公式。"
+    },
+    {
+      "title": "Matlab快速入门（十）求解偏微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/474291803",
+      "summary": "正文介绍偏微分方程的定义与三类数学物理方程，并用热方程算例说明定解问题。"
+    },
+    {
+      "title": "球坐标系下拉普拉斯方程",
+      "url": "https://zhuanlan.zhihu.com/p/474386730",
+      "summary": "正文推导球坐标形式的拉普拉斯偏微分方程，并通过两次分离变量化为常微分方程。"
+    },
+    {
+      "title": "量子力学之路（3）——球谐函数，近代数学中最著名的函数之一",
+      "url": "https://zhuanlan.zhihu.com/p/488242089",
+      "summary": "正文在球坐标中分解并求解拉普拉斯方程，讨论径向、方位和天顶方程。"
+    },
+    {
+      "title": "[广义相对论笔记]（五）史瓦西真空解、时空拖曳的绘制",
+      "url": "https://zhuanlan.zhihu.com/p/491835878",
+      "summary": "正文通过对称性与真空假设化简爱因斯坦场方程，并推导史瓦西真空解。"
+    },
+    {
+      "title": "[电动力学]球坐标系下拉普拉斯方程的求解",
+      "url": "https://zhuanlan.zhihu.com/p/492694563",
+      "summary": "正文推导球坐标拉普拉斯偏微分方程并求出其分离变量通解。"
+    },
+    {
+      "title": "电磁辐射公式的推导（一）—— 基本思路",
+      "url": "https://zhuanlan.zhihu.com/p/492869104",
+      "summary": "正文推导电磁场波动偏微分方程，并用格林函数求推迟势。"
+    },
+    {
+      "title": "【高频交易】限价订单薄的建模",
+      "url": "https://zhuanlan.zhihu.com/p/493037384",
+      "summary": "正文通过泰勒展开得到连续极限下的 Fokker–Planck 漂移扩散方程，并用其求解稳态分布。"
+    },
+    {
+      "title": "Physics-informed neural networks(PINNs)入门介绍",
+      "url": "https://zhuanlan.zhihu.com/p/500827425",
+      "summary": "正文解释偏微分方程的含义，并以扩散反应方程、波动方程和 PINNs 求解为例展开说明。"
+    },
+    {
+      "title": "二阶椭圆方程(1)",
+      "url": "https://zhuanlan.zhihu.com/p/504055470",
+      "summary": "正文集中讨论二阶椭圆偏微分方程的弱解、能量估计及存在性定理。"
+    },
+    {
+      "title": "研0纪实：ENO/WENO重构",
+      "url": "https://zhuanlan.zhihu.com/p/508154960",
+      "summary": "正文以一维标量守恒律和 Burgers 方程为例，介绍有限体积与有限差分数值解法。"
+    },
+    {
+      "title": "算法与高频交易：随机控制基础（一）",
+      "url": "https://zhuanlan.zhihu.com/p/509281280",
+      "summary": "正文把无穷小时间极限写成含生成元的HJB偏微分方程，并用它求解Merton问题。"
+    },
+    {
+      "title": "神经网络算子(2)——Green函数的逼近",
+      "url": "https://zhuanlan.zhihu.com/p/511248645",
+      "summary": "正文从PDE的Green函数积分表示出发，讨论Laplace和Helmholtz方程的求解。"
+    },
+    {
+      "title": "计算流体力学：有限差分法(FDM)、有限元法(FEM)和有限体积法(FVM)思想概述",
+      "url": "https://zhuanlan.zhihu.com/p/516229051",
+      "summary": "正文以有限差分和有限元离散化求解偏微分方程，并处理狄利克雷与诺伊曼边界条件。"
+    },
+    {
+      "title": "波动方程|非齐次问题：Duhamel原理",
+      "url": "https://zhuanlan.zhihu.com/p/530990067",
+      "summary": "正文系统推导非齐次波动方程及初边值问题的 Duhamel 原理，属于偏微分方程的求解方法。"
+    },
+    {
+      "title": "什么是Fokker-Planck方程？",
+      "url": "https://zhuanlan.zhihu.com/p/535688931",
+      "summary": "正文由伊藤引理和分部积分推导 Fokker-Planck 偏微分方程，并说明其对偶方程。"
+    },
+    {
+      "title": "变分的概念及一阶变分简单应用",
+      "url": "https://zhuanlan.zhihu.com/p/545071587",
+      "summary": "正文以简支梁振动为例，从能量泛函变分推导含空间与时间偏导数的控制方程。"
+    },
+    {
+      "title": "分析学家用武器库",
+      "url": "https://zhuanlan.zhihu.com/p/522352953",
+      "summary": "正文讨论偏微分方程解的存在性、正则性、弱解提升及常用估计。"
+    },
+    {
+      "title": "简单的偏微分方程解法汇总",
+      "url": "https://zhuanlan.zhihu.com/p/549037473",
+      "summary": "正文系统讲解一阶偏微分方程特征线法、二阶方程分类、分离变量和球坐标拉普拉斯方程。"
+    },
+    {
+      "title": "数理方程：波动方程",
+      "url": "https://zhuanlan.zhihu.com/p/554198234",
+      "summary": "正文系统求解一维、二维和三维波动方程的初值问题，给出 D'Alembert、Poisson 等公式。"
+    },
+    {
+      "title": "数理方程(完结)：分离变量法",
+      "url": "https://zhuanlan.zhihu.com/p/556082352",
+      "summary": "正文专门讲解偏微分方程的分离变量法，用波动方程和热传导方程展示求解流程。"
+    },
+    {
+      "title": "什么是四维矢量",
+      "url": "https://zhuanlan.zhihu.com/p/557477003",
+      "summary": "正文通过洛伦兹规范把电磁势方程化简为达朗贝尔波动方程，并讨论其洛伦兹协变性。"
+    },
+    {
+      "title": "大二学生都会的球谐函数",
+      "url": "https://zhuanlan.zhihu.com/p/572840876",
+      "summary": "正文围绕球坐标拉普拉斯方程作分离变量，导出球函数方程和连带勒让德方程。"
+    },
+    {
+      "title": "华人数学家死磕欧拉方程10年，用计算机找到了让它失效的“奇点”",
+      "url": "https://zhuanlan.zhihu.com/p/584258367",
+      "summary": "正文围绕无黏性流体中的欧拉偏微分方程展开，介绍其方程对象、长期演化预测和奇点爆破问题。"
+    },
+    {
+      "title": "（翻译尝试）Interview with Mikio Sato",
+      "url": "https://zhuanlan.zhihu.com/p/582680255",
+      "summary": "正文介绍用 D-模和完整系统统一描述线性及非线性偏微分方程的分析纲领。"
+    },
+    {
+      "title": "MATLAB手搓有限元代码",
+      "url": "https://zhuanlan.zhihu.com/p/592671493",
+      "summary": "正文针对 Laplace 特征值边值问题推导变分形式并进行离散求解。"
+    },
+    {
+      "title": "数学物理方程--波动方程",
+      "url": "https://zhuanlan.zhihu.com/p/594560115",
+      "summary": "正文系统讨论二阶偏微分方程的分类、标准型和波动方程的求解。"
+    },
+    {
+      "title": "从微积分到数学物理方法（3.1）：勒让德方程与勒让德多项式",
+      "url": "https://zhuanlan.zhihu.com/p/581321690",
+      "summary": "正文从球坐标拉普拉斯方程出发，通过两级分离变量推导球函数方程及相应的偏微分方程。"
+    },
+    {
+      "title": "偏微分方程约束下的优化控制问题（PDE-constrained optimal control problems）",
+      "url": "https://zhuanlan.zhihu.com/p/603466432",
+      "summary": "正文具体讨论椭圆方程、非线性泊松方程等偏微分方程约束，以及相应的状态和伴随方程。"
+    },
+    {
+      "title": "偏微分方程PDE笔记整理",
+      "url": "https://zhuanlan.zhihu.com/p/607507517",
+      "summary": "正文系统整理波动方程、热传导方程和 Poisson 方程的求解方法与极值估计。"
+    },
+    {
+      "title": "如何理解三类PDE(椭圆, 抛物, 双曲)？",
+      "url": "https://zhuanlan.zhihu.com/p/613707579",
+      "summary": "正文系统介绍拉普拉斯、热传导和波动等偏微分方程，并讲解椭圆、抛物、双曲三类的判据与性质。"
+    },
+    {
+      "title": "偏微分方程的常见解法——特征线法",
+      "url": "https://zhuanlan.zhihu.com/p/615877383",
+      "summary": "正文用特征线法求解一阶线性偏微分方程，并通过特征变量化简二阶波动方程，导出达朗贝尔公式。"
+    },
+    {
+      "title": "Diffusion学习笔记（四）——概率流ODE（Probability flow ODE）",
+      "url": "https://zhuanlan.zhihu.com/p/622771940",
+      "summary": "正文从随机微分方程出发推导 Fokker-Planck 偏微分方程，并用它描述边际概率密度随时间的演化。"
+    },
+    {
+      "title": "微分方程数值求解——有限差分法",
+      "url": "https://zhuanlan.zhihu.com/p/623534485",
+      "summary": "正文把二维泊松方程离散为代数方程组，并进一步数值求解含相场和温度场的偏微分方程。"
+    },
+    {
+      "title": "泛函中常用的几个定理",
+      "url": "https://zhuanlan.zhihu.com/p/632621418",
+      "summary": "正文最后以变分直接法组合弱紧性和紧嵌入，证明 Dirichlet 偏微分方程问题解的存在唯一性。"
+    },
+    {
+      "title": "数学的灵魂——微分方程，彻底理解4种微分方程，洞悉自然的奥秘",
+      "url": "https://zhuanlan.zhihu.com/p/641289082",
+      "summary": "正文以波动方程为例，说明偏微分方程包含多个自变量及其偏导数。"
+    },
+    {
+      "title": "机器学习与PDE（偏微分方程）",
+      "url": "https://zhuanlan.zhihu.com/p/642604029",
+      "summary": "正文以 Burgers 方程和初边值条件说明用 PDE 残差训练 PINN，并用多个偏微分方程比较 FNO 的效果。"
+    },
+    {
+      "title": "计算数学研究生的入门编程-科学计算导引",
+      "url": "https://zhuanlan.zhihu.com/p/641120589",
+      "summary": "正文以热方程和泊松方程为中心，给出方程、边界条件及差分或有限元离散后的求解模型。"
+    },
+    {
+      "title": "Riemann映射定理与Dirichlet原理",
+      "url": "https://zhuanlan.zhihu.com/p/660824424",
+      "summary": "正文把 Riemann 映射定理转化为 Laplace 方程的 Dirichlet 边值问题并展开其证明思路。"
+    },
+    {
+      "title": "氢原子求解",
+      "url": "https://zhuanlan.zhihu.com/p/668546494",
+      "summary": "正文通过分离变量求不含时薛定谔偏微分方程，并分别求解径向与角向方程。"
+    },
+    {
+      "title": "神经算子（三）：一种非均匀数据下参数偏微分方程学习的通用框架",
+      "url": "https://zhuanlan.zhihu.com/p/669608398",
+      "summary": "正文围绕参数化偏微分方程学习参数函数到方程解的映射。"
+    },
+    {
+      "title": "偏微分方程 思想发展过程",
+      "url": "https://zhuanlan.zhihu.com/p/669048850",
+      "summary": "正文按历史与思想脉络讨论偏微分方程，并具体介绍守恒方程、波动方程、调和方程及弱解。"
+    },
+    {
+      "title": "醉美公式：格林公式的应用——格林函数法",
+      "url": "https://zhuanlan.zhihu.com/p/673759727",
+      "summary": "正文完整介绍格林函数法，以点源方程和格林公式求解泊松型偏微分方程。"
+    },
+    {
+      "title": "深入解析Flow Matching技术",
+      "url": "https://zhuanlan.zhihu.com/p/685921518",
+      "summary": "正文引入连续性偏微分方程，并说明概率流守恒对应的方程。"
+    },
+    {
+      "title": "数物方程方法概述",
+      "url": "https://zhuanlan.zhihu.com/p/692464498",
+      "summary": "正文以波动方程和传导方程为例，讨论二阶偏微分方程的分类、特征线与标准形式。"
+    },
+    {
+      "title": "Arnold猜想，Morse同调与Floer同调介绍",
+      "url": "https://zhuanlan.zhihu.com/p/695740656",
+      "summary": "正文把 Floer 流线写成扰动 Cauchy-Riemann 型偏微分方程，并讨论其正则性、紧致性和横截性。"
+    },
+    {
+      "title": "数学物理方法：格林函数求解偏微分方程 Mathematical Physics:Green's Theorem and Green's Function",
+      "url": "https://zhuanlan.zhihu.com/p/701660525",
+      "summary": "正文系统推导格林函数，并用它求解泊松方程及椭圆型、抛物型和双曲型偏微分方程。"
+    },
+    {
+      "title": "ICLR 2024 | 高斯过程求解 高频+混合尺度 PDE",
+      "url": "https://zhuanlan.zhihu.com/p/702160584",
+      "summary": "正文讨论高频和混合尺度偏微分方程的求解困难，并提出高斯过程代理求解方法。"
+    },
+    {
+      "title": "Bourgain的魔法：2024年丘赛题与双线性Strichartz估计",
+      "url": "https://zhuanlan.zhihu.com/p/705939921",
+      "summary": "正文以 Schrödinger 偏微分方程 Cauchy 问题的解为核心对象，证明其双线性 Strichartz 估计。"
+    },
+    {
+      "title": "Decoupling方法及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/708972420",
+      "summary": "正文在平环面上写出自由粒子的 Schrödinger 方程，并利用 decoupling 给出其解的 Strichartz 估计。"
+    },
+    {
+      "title": "Brezis-Lieb引理与一个变分问题",
+      "url": "https://zhuanlan.zhihu.com/p/709364053",
+      "summary": "正文把 Brezis-Lieb 引理用于临界椭圆边值问题，讨论其极小化子的存在性。"
+    },
+    {
+      "title": "变分法的进一步应用：最优传输——Variational Wasserstein gradient flow",
+      "url": "https://zhuanlan.zhihu.com/p/709241572",
+      "summary": "正文具体讨论 Fokker-Planck 方程和多孔介质方程作为不同能量泛函的 Wasserstein 梯度流。"
+    },
+    {
+      "title": "变分法的第一课",
+      "url": "https://zhuanlan.zhihu.com/p/713250956",
+      "summary": "正文由二元变分给出极小曲面方程，并进一步从弦振动能量推导波方程。"
+    },
+    {
+      "title": "姜萍精通的偏微分方程，到底是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/718090351",
+      "summary": "正文说明偏微分方程按椭圆、抛物、双曲型分类，并概述其定性理论、数值求解和随机推广。"
+    },
+    {
+      "title": "从最优传输视角剖析Flow Matching：解密Flux/SD3背后的原理",
+      "url": "https://zhuanlan.zhihu.com/p/716824087",
+      "summary": "正文由变量替换推导 Monge-Ampère 偏微分方程，用它联系最优传输映射与两个概率密度。"
+    },
+    {
+      "title": "Bourgain的魔法：环面Schrödinger方程与格点计数",
+      "url": "https://zhuanlan.zhihu.com/p/3354586577",
+      "summary": "正文以环面上的 Schrödinger 偏微分方程为对象，证明其解的 Strichartz 估计。"
+    },
+    {
+      "title": "A Compact Course on Linear PDEs 食用指南",
+      "url": "https://zhuanlan.zhihu.com/p/5391807145",
+      "summary": "正文具体介绍二阶线性椭圆、抛物和双曲方程及其弱形式、适定性和正则性。"
+    },
+    {
+      "title": "扩散模型 vs. 最优传输",
+      "url": "https://zhuanlan.zhihu.com/p/11439249557",
+      "summary": "正文用 Fokker-Planck 方程描述概率密度随时间的演化，并讨论其与最优传输连续路径的联系。"
+    },
+    {
+      "title": "微分几何视角下的电动力学【更高更妙的电动力学·1】",
+      "url": "https://zhuanlan.zhihu.com/p/21808352165",
+      "summary": "正文从拉氏量变分推导麦克斯韦方程组，并将其写成偏微分方程形式。"
+    },
+    {
+      "title": "偏微分方程中一些常用的不等式",
+      "url": "https://zhuanlan.zhihu.com/p/28931370611",
+      "summary": "正文集中列举 Young、Hölder、Sobolev、Poincaré 等 PDE 常用不等式，并说明它们用于正则性与稳定性分析。"
+    },
+    {
+      "title": "数学的艺术 —— 梅林变换与Meijer-G函数",
+      "url": "https://zhuanlan.zhihu.com/p/32591195409",
+      "summary": "正文通过梅林变换把一个二阶偏微分方程化为常微分方程，再以逆变换和留数定理求得通解。"
+    },
+    {
+      "title": "【万字】在Python当中绘制原子轨道",
+      "url": "https://zhuanlan.zhihu.com/p/1889521938914853892",
+      "summary": "正文围绕氢原子定态薛定谔这一线性偏微分方程进行变量分离和求解。"
+    },
+    {
+      "title": "使用Mathematica演示量子力学",
+      "url": "https://zhuanlan.zhihu.com/p/1899834824035921926",
+      "summary": "正文讨论三维中心力场中定态薛定谔偏微分方程的分离变量及径向方程。"
+    },
+    {
+      "title": "ICLR2025：又一种被“重新发明”的PINN",
+      "url": "https://zhuanlan.zhihu.com/p/1901726601416255423",
+      "summary": "正文比较 SPINN、ASPINN 与 PIG 三类可学习基函数网络，说明它们如何表示并求解偏微分方程。"
+    },
+    {
+      "title": "偏微分方程的发展史",
+      "url": "https://zhuanlan.zhihu.com/p/1912102771236267096",
+      "summary": "正文按历史脉络介绍波动方程、热方程和拉普拉斯方程等偏微分方程及其理论发展。"
+    },
+    {
+      "title": "韦东奕论文登数学顶刊，将散焦方程的爆破性研究扩展至d≥4",
+      "url": "https://zhuanlan.zhihu.com/p/1916878493129610960",
+      "summary": "正文解释超临界散焦非线性波动方程、临界指数和有限时间爆破，并概述模相位分解与自相似解等证明思路。"
+    },
+    {
+      "title": "从零开始理解球谐函数: 数学理论到编程实践",
+      "url": "https://zhuanlan.zhihu.com/p/1946520403292955133",
+      "summary": "正文定义二维拉普拉斯偏微分方程，以稳态温度场解释各项含义，并通过分离变量求得圆谐函数。"
+    },
+    {
+      "title": "2025秋季求真书院分析博资考个人解答",
+      "url": "https://zhuanlan.zhihu.com/p/1949760538574828439",
+      "summary": "正文用特征线法求解一阶偏微分方程，并确定解的最大存在区域。"
+    },
+    {
+      "title": "“数学分析”的7个段位，从极限到谱理论：这条路，既艰难又美丽",
+      "url": "https://zhuanlan.zhihu.com/p/1951136401660805620",
+      "summary": "正文把 Sobolev 空间与弱导数用于证明偏微分方程解的存在性、唯一性。"
+    },
+    {
+      "title": "麦克斯韦方程组与光的波动方程推导过程",
+      "url": "https://zhuanlan.zhihu.com/p/1962182489297651268",
+      "summary": "正文对电磁场方程取旋度和时间导数，利用矢量恒等式推导出电场与磁场的波动偏微分方程。"
+    },
+    {
+      "title": "流形上的热传导",
+      "url": "https://zhuanlan.zhihu.com/p/1969978687312077430",
+      "summary": "正文由能量泛函和梯度导出黎曼流形上的热方程，并通过特征展开求解这一抛物型偏微分方程。"
+    },
+    {
+      "title": "利用Sturm-Liouville问题构造满足导数跃变条件的正交函数族——分离变量法",
+      "url": "https://zhuanlan.zhihu.com/p/1975563883155588145",
+      "summary": "正文处理分密度拼接杆的一维波动方程，以分离变量、接口连续条件和正交展开求整个杆的振动解。"
+    },
+    {
+      "title": "非平衡稳态系统有效力的分解本质上是Hodge 分解",
+      "url": "https://zhuanlan.zhihu.com/p/1978438021671035746",
+      "summary": "正文推导连续时间 Fokker-Planck 偏微分方程的微分形式，并在圆环上求解相应的稳态方程。"
+    },
+    {
+      "title": "量子场论的数学 —— 以涌现的方式",
+      "url": "https://zhuanlan.zhihu.com/p/1993114129343464529",
+      "summary": "正文通过作用量变分导出克莱因-戈登波动方程，并进一步讨论薛定谔方程等偏微分方程。"
+    },
+    {
+      "title": "二维世界真的存在元素周期表吗",
+      "url": "https://zhuanlan.zhihu.com/p/2004224014701311652",
+      "summary": "正文从时间无关薛定谔方程出发，用分离变量把偏微分方程拆成角向与径向方程。"
+    },
+    {
+      "title": "数学里说的“齐次”和“非齐次”到底是啥？",
+      "url": "https://zhuanlan.zhihu.com/p/2005685167713432787",
+      "summary": "正文以拉普拉斯方程、泊松方程和 Dirichlet、Neumann 边界条件解释偏微分方程中的齐次性。"
+    },
+    {
+      "title": "不写代码也能做前沿研究？聊聊形式化 PDE 这个新方向",
+      "url": "https://zhuanlan.zhihu.com/p/2025580283496277191",
+      "summary": "正文具体介绍 De Giorgi-Nash-Moser 理论、弱解局部有界性、Harnack 不等式和 Hölder 正则性等偏微分方程内容。"
+    },
+    {
+      "title": "卷积最早是怎么出现的？",
+      "url": "https://zhuanlan.zhihu.com/p/2036609800721670244",
+      "summary": "正文从一维波动偏微分方程出发，使用特征线变量替换和初值条件求解。"
+    },
+    {
+      "title": "2026菲尔兹奖预测——韩媒东亚科学（Donga Science）预测2026四位菲尔兹奖得主杰克・索恩、雅各布・齐默尔曼、王虹、邓煜",
+      "url": "https://zhuanlan.zhihu.com/p/2056717381280577078",
+      "summary": "正文介绍从微观粒子运动到宏观流体模型的跨尺度推导及其偏微分方程背景。"
+    }
+  ]
+}

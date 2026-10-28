@@ -1,0 +1,4166 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t4-b3",
+  "sources": [
+    {
+      "title": "有哪些数学知识与人们的生活常识不符？",
+      "url": "https://www.zhihu.com/answer/16259622",
+      "summary": "介绍圣彼得堡悖论，区分钱的数学期望与参与游戏的主观价值；在公平硬币和无上限支付的理想模型下，期望发散而非只是很大。"
+    },
+    {
+      "title": "统计学中「矩」这个概念是怎么引入的？它为什么被称为矩？它与物理意义上的矩有什么相同与不同？",
+      "url": "https://www.zhihu.com/answer/16538392",
+      "summary": "以随机变量关于指定点的幂的期望定义矩，并说明一阶原点矩是数学期望；偏度、峰度通常指标准化矩，超额峰度还要减3，不能直接等同原始中心矩。"
+    },
+    {
+      "title": "什么是无偏估计？",
+      "url": "https://www.zhihu.com/answer/23470969",
+      "summary": "正文围绕“期望”给出直接说明。"
+    },
+    {
+      "title": "平均值为什么被叫做期望值？",
+      "url": "https://www.zhihu.com/answer/28763802",
+      "summary": "正文围绕“期望”给出说明、例证或方法。"
+    },
+    {
+      "title": "三国杀中曹冲「称象」所获牌数期望是多少？",
+      "url": "https://www.zhihu.com/answer/29908220",
+      "summary": "正文围绕“期望”给出说明、例证或方法。"
+    },
+    {
+      "title": "期望效用和期望值的效用两者的具体概念和差别是什么？",
+      "url": "https://www.zhihu.com/answer/32617794",
+      "summary": "区分确定性期望值的效用与随机结果的期望效用。"
+    },
+    {
+      "title": "期望和平均数有什么区别？",
+      "url": "https://www.zhihu.com/answer/39780528",
+      "summary": "正文区分实验前由分布给出的期望与实验后样本平均数。"
+    },
+    {
+      "title": "期望和平均数有什么区别？",
+      "url": "https://www.zhihu.com/answer/39864399",
+      "summary": "正文通过两面硬币例子清楚区分理论期望和实验样本平均数。"
+    },
+    {
+      "title": "概率论中，「矩」（moment）的实际含义是什么？高阶矩表示数据的哪些状态？",
+      "url": "https://www.zhihu.com/answer/41191649",
+      "summary": "正文以炮弹落点说明期望和各阶矩。"
+    },
+    {
+      "title": "理想细绳随机切为n段，为什么最短段长度的期望为原长的1/n²？",
+      "url": "https://www.zhihu.com/answer/47800953",
+      "summary": "正文计算随机切分后最短段的数学期望。"
+    },
+    {
+      "title": "理想细绳随机切为n段，为什么最短段长度的期望为原长的1/n²？",
+      "url": "https://www.zhihu.com/answer/47803012",
+      "summary": "正文用全期望公式递推随机切分中最短绳长度的期望。"
+    },
+    {
+      "title": "理想细绳随机切为n段，为什么最短段长度的期望为原长的1/n²？",
+      "url": "https://www.zhihu.com/answer/47826806",
+      "summary": "正文计算顺序统计量比值的期望。"
+    },
+    {
+      "title": "有限次机会掷骰子，取最后一次的数值，什么样的策略能使数字的期望值最大？",
+      "url": "https://www.zhihu.com/answer/48200793",
+      "summary": "正文以有限次掷骰的最优停止策略逐步计算最终收益的期望。"
+    },
+    {
+      "title": "为什么是4舍5入？4舍6入5取偶又是什么样的机制？",
+      "url": "https://www.zhihu.com/answer/57191665",
+      "summary": "正文以舍入误差的期望解释四舍五入和五取偶的无偏性。"
+    },
+    {
+      "title": "什么是无偏估计？",
+      "url": "https://www.zhihu.com/answer/66720389",
+      "summary": "正文以样本均值期望等于总体均值定义无偏估计。"
+    },
+    {
+      "title": "什么是无偏估计？",
+      "url": "https://www.zhihu.com/answer/67748062",
+      "summary": "正文用样本均值期望解释无偏估计。"
+    },
+    {
+      "title": "切比雪夫不等式到底是个什么概念?",
+      "url": "https://www.zhihu.com/answer/69332546",
+      "summary": "正文在切比雪夫不等式中定义期望和分布函数。"
+    },
+    {
+      "title": "为什么正态分布的充分统计量是均值和方差？",
+      "url": "https://www.zhihu.com/answer/69664871",
+      "summary": "正文明确给出正态总体均值参数。"
+    },
+    {
+      "title": "概率论中各种分布的内在联系？",
+      "url": "https://www.zhihu.com/answer/71764671",
+      "summary": "正文以期望形式给出矩母函数定义。"
+    },
+    {
+      "title": "什么叫做状态占优、一阶随机占优、二阶随机占优以及三阶随机占优？",
+      "url": "https://www.zhihu.com/answer/72651008",
+      "summary": "正文反复比较彩票的期望收益与期望效用。"
+    },
+    {
+      "title": "大偏差技术是什么？",
+      "url": "https://www.zhihu.com/answer/73023896",
+      "summary": "正文由伯努利序列前 n 项和的期望引出偏差。"
+    },
+    {
+      "title": "人寿推出了一个恋爱保险，十年内和心上人领证结婚会收到一万朵玫瑰花，试用数学建模或其他方式分析其可行性?",
+      "url": "https://www.zhihu.com/answer/74307614",
+      "summary": "正文计算二项变量的期望以判断盈利。"
+    },
+    {
+      "title": "为什么分母从n变成n-1之后，就从【有偏估计】变成了【无偏估计】？",
+      "url": "https://www.zhihu.com/answer/76525265",
+      "summary": "正文说明样本均值的期望等于总体均值。"
+    },
+    {
+      "title": "人类能够在3天内学完概率论与数理统计前五章吗（龙永红，高等教育出版社第三版）?",
+      "url": "https://www.zhihu.com/answer/79535272",
+      "summary": "正文把期望列为随机变量数字特征的重点。"
+    },
+    {
+      "title": "美国强力球（PowerBall）彩票中奖概率是多少？",
+      "url": "https://www.zhihu.com/answer/81293859",
+      "summary": "正文由各奖概率与奖金计算彩票期望值。"
+    },
+    {
+      "title": "概率论中，「矩」（moment）的实际含义是什么？高阶矩表示数据的哪些状态？",
+      "url": "https://www.zhihu.com/answer/81589544",
+      "summary": "正文说明均值是一阶矩并表示位置。"
+    },
+    {
+      "title": "为什么考试很多人不及格时，老师会将学生的实际分数开根号再乘 10 让大家及格？这个算法是怎样来的？",
+      "url": "https://www.zhihu.com/answer/81630543",
+      "summary": "正文用期望位置设定调分后的平均分。"
+    },
+    {
+      "title": "怎样理解随机过程中鞅的停时？",
+      "url": "https://www.zhihu.com/answer/90242270",
+      "summary": "正文说明鞅在适当停时下的期望保持为初始期望。"
+    },
+    {
+      "title": "如何用简单的例子解释什么是 Generalized Method of Moments (GMM)？",
+      "url": "https://www.zhihu.com/answer/90486270",
+      "summary": "正文以矩条件 E(g)=0 和样本矩估计参数，核心使用期望。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/90886492",
+      "summary": "正文多次通过期望收益分析纽康姆、骰子及硬币赌博悖论。"
+    },
+    {
+      "title": "如何理解 Black-Scholes 期权定价模型？",
+      "url": "https://www.zhihu.com/answer/91107913",
+      "summary": "正文把期权价值解释为未来现金流期望值的贴现现值。"
+    },
+    {
+      "title": "如何用简单的例子解释什么是 Generalized Method of Moments (GMM)？",
+      "url": "https://www.zhihu.com/answer/91484566",
+      "summary": "正文围绕总体矩与样本矩建立矩估计和GMM条件，具体估计均值等参数。"
+    },
+    {
+      "title": "如何用简单的例子解释什么是 Generalized Method of Moments (GMM)？",
+      "url": "https://www.zhihu.com/answer/92940470",
+      "summary": "正文把条件期望、无条件期望与矩条件作为 GMM 的核心。"
+    },
+    {
+      "title": "条件方差公式的直观解释？",
+      "url": "https://www.zhihu.com/answer/95444053",
+      "summary": "正文以条件期望定义回归函数和残差。"
+    },
+    {
+      "title": "什么是汤普森采样（Thompson sampling）？",
+      "url": "https://www.zhihu.com/answer/96392474",
+      "summary": "正文通过预测正确数的期望比较概率匹配与贝叶斯决策，并给出期望回报公式。"
+    },
+    {
+      "title": "数学或者自然科学中有哪些理论技巧一经提出就大大化简了过去某些问题很困难繁琐的解答？",
+      "url": "https://www.zhihu.com/answer/99387540",
+      "summary": "正文通过指示变量求素因数个数的期望。"
+    },
+    {
+      "title": "机器学习中的 Bias（偏差）、Error（误差）、Variance（方差）有什么区别和联系？",
+      "url": "https://www.zhihu.com/answer/99541217",
+      "summary": "正文讨论预测误差及交叉验证统计量的期望。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/100003445",
+      "summary": "正文利用期望可加性推导排列固定点个数的期望，给出完整计算思路。"
+    },
+    {
+      "title": "如果人说他/她集齐了十二个星座的前任，我们应该如何估计他/她前任的数量？",
+      "url": "https://www.zhihu.com/answer/102676904",
+      "summary": "正文用集齐星座的 coupon collector 模型说明期望线性性且不要求独立。"
+    },
+    {
+      "title": "什么是数学期望？",
+      "url": "https://www.zhihu.com/answer/102851352",
+      "summary": "正文用公平硬币赌博中长期平均收益为零解释数学期望。"
+    },
+    {
+      "title": "如何计算「一自称集齐 4 个血型的前女友的男性」的前女友的具体数量？",
+      "url": "https://www.zhihu.com/answer/102894397",
+      "summary": "全文用期望线性性分解并计算集齐四类球所需次数的期望。"
+    },
+    {
+      "title": "如果人说他/她集齐了十二个星座的前任，我们应该如何估计他/她前任的数量？",
+      "url": "https://www.zhihu.com/answer/102895497",
+      "summary": "模拟结果围绕集齐全部类别所需次数的期望值。"
+    },
+    {
+      "title": "如何计算「一自称集齐 4 个血型的前女友的男性」的前女友的具体数量？",
+      "url": "https://www.zhihu.com/answer/103718034",
+      "summary": "正文由恰好集齐的概率分布推导女友数量的期望值。"
+    },
+    {
+      "title": "如何计算「一自称集齐 4 个血型的前女友的男性」的前女友的具体数量？",
+      "url": "https://www.zhihu.com/answer/104202911",
+      "summary": "正文直接计算达到目标所需前女友数量的期望值。"
+    },
+    {
+      "title": "为什么方差要定义成平方？这么定义有什么利弊？如果把方差定义成 |X－E(X)|，这又有什么利弊？",
+      "url": "https://www.zhihu.com/answer/106394300",
+      "summary": "正文用样本围绕期望值的距离解释期望在方差定义中的基准作用。"
+    },
+    {
+      "title": "求球面上随机均匀分布的三点所围的球面三角形的面积的期望？",
+      "url": "https://www.zhihu.com/answer/107078695",
+      "summary": "正文以八个对称球面区域的等期望推出三角形面积期望。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/119762992",
+      "summary": "正文明确比较策略能否提高奖金期望值，并计算不同情形的成功概率。"
+    },
+    {
+      "title": "在边长为 1 的正方形中随机取三个点，构成三角形的面积的数学期望是多少？",
+      "url": "https://www.zhihu.com/answer/121287017",
+      "summary": "正文完整计算正方形和圆内随机三角形面积的数学期望。"
+    },
+    {
+      "title": "为什么随机梯度下降方法能够收敛？",
+      "url": "https://www.zhihu.com/answer/122359602",
+      "summary": "正文把总体损失与梯度写成随机样本上的期望。"
+    },
+    {
+      "title": "如何通俗理解 beta 分布？",
+      "url": "https://www.zhihu.com/answer/123261564",
+      "summary": "正文根据更新后的Beta分布计算击球率的数学期望。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/124536306",
+      "summary": "正文计算等待时间期望并用对称性得到前后车辆平均间隔。"
+    },
+    {
+      "title": "信息熵是什么？",
+      "url": "https://www.zhihu.com/answer/124805730",
+      "summary": "正文把熵解释为编码长度随机量的期望值。"
+    },
+    {
+      "title": "金融衍生品定价有哪些基本方法？",
+      "url": "https://www.zhihu.com/answer/124841153",
+      "summary": "正文从到期支付的折现期望构造定价公式，并给出欧式看涨期权的具体计算。"
+    },
+    {
+      "title": "Kolmogorov（柯尔莫哥洛夫）至少让实用概率论停滞了三四十年，试评价这一观点？",
+      "url": "https://www.zhihu.com/answer/125456642",
+      "summary": "正文说明连续随机变量的期望可视为对测度的积分。"
+    },
+    {
+      "title": "Kolmogorov（柯尔莫哥洛夫）至少让实用概率论停滞了三四十年，试评价这一观点？",
+      "url": "https://www.zhihu.com/answer/125527745",
+      "summary": "正文以加权平均为起点，展开一般期望的积分表达及其在概率测度上的理解。"
+    },
+    {
+      "title": "如果人说他/她集齐了十二个星座的前任，我们应该如何估计他/她前任的数量？",
+      "url": "https://www.zhihu.com/answer/125686675",
+      "summary": "正文用调和数公式计算收齐十二类对象所需次数的期望。"
+    },
+    {
+      "title": "有哪些算法惊艳到了你？",
+      "url": "https://www.zhihu.com/answer/125756108",
+      "summary": "正文用期望证明随机划分得到最大切二分之一近似，并分析 GW 期望保证。"
+    },
+    {
+      "title": "甲藏起一枚 10 或 20 戈比的硬币，乙猜对则得到硬币，猜错则给甲 15 戈比。双方最优策略是什么？",
+      "url": "https://www.zhihu.com/answer/125802687",
+      "summary": "正文明确区分收益与期望，并按概率评估博弈收益。"
+    },
+    {
+      "title": "有哪些数学问题有经典的物理学证明或解释？",
+      "url": "https://www.zhihu.com/answer/126035963",
+      "summary": "正文以随机边长下最小匹配和的期望为求解目标。"
+    },
+    {
+      "title": "这个赌局的漏洞在哪里？",
+      "url": "https://www.zhihu.com/answer/127504419",
+      "summary": "正文按收益与损失的概率加权说明翻倍赌法的最终期望为零。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/129140965",
+      "summary": "正文比较本人朋友数与朋友的朋友数的期望。"
+    },
+    {
+      "title": "如何通俗易懂地解释「协方差」与「相关系数」的概念？",
+      "url": "https://www.zhihu.com/answer/129508585",
+      "summary": "正文反复使用期望中心化变量并澄清投资学中期望收益率的含义。"
+    },
+    {
+      "title": "「罗马法官问题」的最佳策略是什么？",
+      "url": "https://www.zhihu.com/answer/130025256",
+      "summary": "正文多次计算不同混合策略下的期望收益，并用无差异条件求混合概率。"
+    },
+    {
+      "title": "样本方差公式是如何推导出来的？",
+      "url": "https://www.zhihu.com/answer/130217781",
+      "summary": "正文通过期望的线性性计算样本均值和样本方差估计量的期望，以此完成无偏性修正。"
+    },
+    {
+      "title": "关于 2016icpc 青岛站的 C 题，掰一根百奇的数学期望可以怎么解？",
+      "url": "https://www.zhihu.com/answer/133821371",
+      "summary": "正文建立掰断过程的期望递推积分方程并求得期望次数。"
+    },
+    {
+      "title": "如何通俗解释委托代理理论，主要是里面的模型如何简单理解？",
+      "url": "https://www.zhihu.com/answer/134235471",
+      "summary": "正文以期望效用和期望收益构造代理人、委托人的决策模型。"
+    },
+    {
+      "title": "如何评价文化部新规：「网游需公示道具抽取或合成概率」？",
+      "url": "https://www.zhihu.com/answer/134834992",
+      "summary": "正文反复推导抽卡、集卡与强化次数的数学期望，并解释期望不是必然结果。"
+    },
+    {
+      "title": "如何评价文化部新规：「网游需公示道具抽取或合成概率」？",
+      "url": "https://www.zhihu.com/answer/135031911",
+      "summary": "正文以达到收集目标所需抽数为随机量，明确通过首达分布计算期望。"
+    },
+    {
+      "title": "贝叶斯学派与频率学派有何不同？",
+      "url": "https://www.zhihu.com/answer/139100761",
+      "summary": "正文推导并使用 Poisson 分布的期望性质。"
+    },
+    {
+      "title": "如何理解条件期望？",
+      "url": "https://www.zhihu.com/answer/139908506",
+      "summary": "正文从局部平均的角度解释条件期望的本质。"
+    },
+    {
+      "title": "概率论中，「矩」（moment）的实际含义是什么？高阶矩表示数据的哪些状态？",
+      "url": "https://www.zhihu.com/answer/143316942",
+      "summary": "正文说明一阶矩即期望并给出积分表达与直观含义。"
+    },
+    {
+      "title": "600 个人站一排，每次随机淘汰一个奇数位的人，几号最安全？",
+      "url": "https://www.zhihu.com/answer/144612718",
+      "summary": "正文区分最后存活概率和存活回合数期望。"
+    },
+    {
+      "title": "600 个人站一排，每次随机淘汰一个奇数位的人，几号最安全？",
+      "url": "https://www.zhihu.com/answer/144619265",
+      "summary": "正文比较不同编号存活轮数的数学期望。"
+    },
+    {
+      "title": "概率论中，「矩」（moment）的实际含义是什么？高阶矩表示数据的哪些状态？",
+      "url": "https://www.zhihu.com/answer/151157559",
+      "summary": "正文从一阶原点矩定义并解释随机变量期望。"
+    },
+    {
+      "title": "纽科姆悖论真的是逻辑悖论吗？",
+      "url": "https://www.zhihu.com/answer/152502178",
+      "summary": "正文分别计算选一个箱子和选两个箱子的期望收益，用于比较两种决策。"
+    },
+    {
+      "title": "为什么具有遍历性的随机过程一定是平稳的？",
+      "url": "https://www.zhihu.com/answer/154533016",
+      "summary": "正文说明遍历过程的时间平均等于集合统计平均。"
+    },
+    {
+      "title": "为什么在金融领域，用几何平均来代替算术平均更为严谨？这两个平均数有什么本质上的不同吗？",
+      "url": "https://www.zhihu.com/answer/155682746",
+      "summary": "正文从期望的可加性解释算术平均对加性变量的无偏意义。"
+    },
+    {
+      "title": "最大似然估计和最小二乘法怎么理解？",
+      "url": "https://www.zhihu.com/answer/161722019",
+      "summary": "正文说明估计正态分布参数后即可得到期望。"
+    },
+    {
+      "title": "皇上后宫佳丽三千，皇上从第一天开始每天随机挑选一个宠幸，恰好宠幸完所有佳丽的天数的期望是多少？",
+      "url": "https://www.zhihu.com/answer/162035021",
+      "summary": "正文逐阶段计算等待时间的期望，再用期望可加性得到总天数。"
+    },
+    {
+      "title": "皇上后宫佳丽三千，皇上从第一天开始每天随机挑选一个宠幸，恰好宠幸完所有佳丽的天数的期望是多少？",
+      "url": "https://www.zhihu.com/answer/162100850",
+      "summary": "正文把收集齐全部类别所需次数拆成分阶段等待量并求总期望。"
+    },
+    {
+      "title": "有哪些必赢的赌局？",
+      "url": "https://www.zhihu.com/answer/171988326",
+      "summary": "正文逐项计算双方收益期望，并用期望相等求出混合策略。"
+    },
+    {
+      "title": "你认识的赌徒，后来怎么样了？",
+      "url": "https://www.zhihu.com/answer/178560940",
+      "summary": "正文计算公平与不公平赌局的期望值并据凯利公式确定下注。"
+    },
+    {
+      "title": "有哪些必赢的赌局？",
+      "url": "https://www.zhihu.com/answer/178562167",
+      "summary": "正文计算公平与不公平赌局的期望值并据凯利公式确定下注。"
+    },
+    {
+      "title": "赌场有哪些看似不起眼，实则心机颇深的设计？",
+      "url": "https://www.zhihu.com/answer/178975883",
+      "summary": "正文把凯利公式分子解释为期望值，并据此比较公平、负期望和正期望赌局。"
+    },
+    {
+      "title": "为什么样本方差（sample variance）的分母是 n-1？",
+      "url": "https://www.zhihu.com/answer/184835147",
+      "summary": "正文推导样本方差估计量的期望等于总体方差。"
+    },
+    {
+      "title": "在什么条件下，最大似然估计值是无偏估计？",
+      "url": "https://www.zhihu.com/answer/189144448",
+      "summary": "正文解释函数的期望通常不等于期望的函数，并用于无偏估计判断。"
+    },
+    {
+      "title": "怎么来理解Γ分布？",
+      "url": "https://www.zhihu.com/answer/191286772",
+      "summary": "正文用期望说明伽玛分布参数与指数分布累加的关系。"
+    },
+    {
+      "title": "如何尽可能精确地称量 π 斤肉？",
+      "url": "https://www.zhihu.com/answer/194028284",
+      "summary": "正文逐粒计算落入圆内的期望质量，并由期望可加得到总期望。"
+    },
+    {
+      "title": "你知道的最冷的冷知识是什么？",
+      "url": "https://www.zhihu.com/answer/207820586",
+      "summary": "正文用期望计算比较两种闰年规则的年均天数误差。"
+    },
+    {
+      "title": "泊松分布的现实意义是什么，为什么现实生活多数服从于泊松分布？",
+      "url": "https://www.zhihu.com/answer/208718584",
+      "summary": "正文以几何分布和泊松分布解释期望的含义。"
+    },
+    {
+      "title": "二项分布、泊松分布和正态分布的区别及联系?",
+      "url": "https://www.zhihu.com/answer/208718886",
+      "summary": "正文解释二项和几何分布中期望的公式与决策含义。"
+    },
+    {
+      "title": "二项分布 几何分布 超几何分布 应该怎么区分？",
+      "url": "https://www.zhihu.com/answer/208719040",
+      "summary": "正文具体说明二项分布期望的公式和含义。"
+    },
+    {
+      "title": "假设赌博输赢的概率都是 50％，那么长期赌博的人为什么仍然会更容易倾家荡产而不是收益均衡？",
+      "url": "https://www.zhihu.com/answer/209932822",
+      "summary": "正文用鞅性质解释未来预期财富等于当前财富。"
+    },
+    {
+      "title": "假设赌博输赢的概率都是 50％，那么长期赌博的人为什么仍然会更容易倾家荡产而不是收益均衡？",
+      "url": "https://www.zhihu.com/answer/209943993",
+      "summary": "正文从每轮期望之和推导公平赌博的总盈利期望为零和最终胜率。"
+    },
+    {
+      "title": "如何理解Bregman divergence？",
+      "url": "https://www.zhihu.com/answer/209945856",
+      "summary": "正文以随机变量期望是平均散度唯一极小点刻画 Bregman 散度。"
+    },
+    {
+      "title": "请问资产组合中的有效边界怎么定义？",
+      "url": "https://www.zhihu.com/answer/212345334",
+      "summary": "正文用各股票期望收益率构造有效边界。"
+    },
+    {
+      "title": "信息熵是什么？",
+      "url": "https://www.zhihu.com/answer/223017546",
+      "summary": "正文以赛马编码实例计算确定随机变量所需问题数的期望。"
+    },
+    {
+      "title": "若在某国，该国每户家庭都重男轻女，都要至少生出一个儿子才不再生，那最后该国男女比例为多少?",
+      "url": "https://www.zhihu.com/answer/226944325",
+      "summary": "正文通过递归方程计算每户女孩数量的期望。"
+    },
+    {
+      "title": "比特币挖矿一定要用计算机吗？用纸笔来计算可行吗？",
+      "url": "https://www.zhihu.com/answer/229054679",
+      "summary": "正文用全网算力比例和伯努利概型估算一天内挖矿成功所需速度。"
+    },
+    {
+      "title": "做数学不同方向的人各有什么特点？",
+      "url": "https://www.zhihu.com/answer/231575510",
+      "summary": "正文从可观测信息解释条件期望的由来。"
+    },
+    {
+      "title": "多人一起喊口号为什么声音会放大？",
+      "url": "https://www.zhihu.com/answer/232744699",
+      "summary": "正文给出该随机向量和长度的期望量级。"
+    },
+    {
+      "title": "多人一起喊口号为什么声音会放大？",
+      "url": "https://www.zhihu.com/answer/232993812",
+      "summary": "正文用随机夹角余弦的期望解释能量叠加。"
+    },
+    {
+      "title": "统计学中「矩」这个概念是怎么引入的？它为什么被称为矩？它与物理意义上的矩有什么相同与不同？",
+      "url": "https://www.zhihu.com/answer/233262673",
+      "summary": "正文以力矩类比解释期望是一阶矩。"
+    },
+    {
+      "title": "为什么有人说《暗黑破坏神 3》中的随机是「伪随机」？",
+      "url": "https://www.zhihu.com/answer/233788603",
+      "summary": "正文通过期望校准伪随机分布参数。"
+    },
+    {
+      "title": "期望迭代法则具体指的是什么？",
+      "url": "https://www.zhihu.com/answer/237378170",
+      "summary": "正文定义、证明并应用全期望公式。"
+    },
+    {
+      "title": "如何计算「一自称集齐 4 个血型的前女友的男性」的前女友的具体数量？",
+      "url": "https://www.zhihu.com/answer/239699803",
+      "summary": "正文把收集齐 n 类对象所需次数写成期望并推导。"
+    },
+    {
+      "title": "穿过一片麦田，去捡一个最大的麦穗，且不能回头、更换，在何处决定捡到大麦穗的可能性最大？",
+      "url": "https://www.zhihu.com/answer/242523749",
+      "summary": "正文以未来麦穗最大值的期望决定是否停止。"
+    },
+    {
+      "title": "大数定律具体是个什么概念？",
+      "url": "https://www.zhihu.com/answer/245487255",
+      "summary": "正文定义期望并用骰子收益计算加权平均。"
+    },
+    {
+      "title": "切比雪夫不等式到底是个什么概念?",
+      "url": "https://www.zhihu.com/answer/248693398",
+      "summary": "正文用收入与分布实例解释期望在概率界中的作用。"
+    },
+    {
+      "title": "积分与级数的联系有哪些？",
+      "url": "https://www.zhihu.com/answer/251065232",
+      "summary": "正文说明概率测度下的积分就是数学期望。"
+    },
+    {
+      "title": "为什么喝醉的人可以走回家，喝醉的鸟却不能飞回家？",
+      "url": "https://www.zhihu.com/answer/254620904",
+      "summary": "正文把返回次数写成指示变量之和并计算其期望。"
+    },
+    {
+      "title": "为什么喝醉的人可以走回家，喝醉的鸟却不能飞回家？",
+      "url": "https://www.zhihu.com/answer/255549103",
+      "summary": "正文明确计算随机游走经过原点次数的期望。"
+    },
+    {
+      "title": "房间内有 100 人，每人有 100 块，每分钟随机给另一个人 1 块，最后房间内的财富分布怎样？",
+      "url": "https://www.zhihu.com/answer/256130999",
+      "summary": "正文以初始平均财富保持不变说明无偏随机游走的期望特征。"
+    },
+    {
+      "title": "对于任取的1<=i,j<=n，gcd(i,j)的数学期望是多少？",
+      "url": "https://www.zhihu.com/answer/257798727",
+      "summary": "正文计算最大公约数随机变量的概率分布与期望。"
+    },
+    {
+      "title": "有哪些时候你会觉得数学很有用？",
+      "url": "https://www.zhihu.com/answer/258628299",
+      "summary": "正文计算程序返回值和停时的期望。"
+    },
+    {
+      "title": "有哪些时候你会觉得数学很有用？",
+      "url": "https://www.zhihu.com/answer/258720196",
+      "summary": "正文对随机累加程序分情况建立期望函数。"
+    },
+    {
+      "title": "为什么我国看数据都是用平均数，不是去用中位数？",
+      "url": "https://www.zhihu.com/answer/264701289",
+      "summary": "正文区分总体期望与总体中位数，并说明对称分布下二者相等。"
+    },
+    {
+      "title": "为什么极大似然估计求导为 0 就是要求的值呢？",
+      "url": "https://www.zhihu.com/answer/269353169",
+      "summary": "正文说明配分函数梯度等于充分统计量的期望。"
+    },
+    {
+      "title": "有哪些悖论一下子就吸引了你？",
+      "url": "https://www.zhihu.com/answer/270172770",
+      "summary": "正文计算双信封问题的条件期望并指出错误变量混用。"
+    },
+    {
+      "title": "以测度为基础的高等概率论和普通的概率论到底有什么区别？",
+      "url": "https://www.zhihu.com/answer/278904450",
+      "summary": "正文以条件期望为例说明测度语言在随机变量期望中的作用。"
+    },
+    {
+      "title": "如何理解VAR（向量自回归）模型中的广义脉冲响应函数？",
+      "url": "https://www.zhihu.com/answer/285216594",
+      "summary": "正文用条件信息下的期望递推未来值。"
+    },
+    {
+      "title": "如何通俗易懂地解释「协方差」与「相关系数」的概念？",
+      "url": "https://www.zhihu.com/answer/287792087",
+      "summary": "正文用均值即期望替代配对点，推导协方差的计算思想。"
+    },
+    {
+      "title": "样本方差为什么除以n-1(关于自由度的疑问）？",
+      "url": "https://www.zhihu.com/answer/289715220",
+      "summary": "正文说明样本均值和样本方差的期望等于总体参数。"
+    },
+    {
+      "title": "你在生活中用过最高端的数学知识是什么？",
+      "url": "https://www.zhihu.com/answer/298279360",
+      "summary": "正文构造比赛收益函数并逐项计算不同出场策略的期望。"
+    },
+    {
+      "title": "封闭图形内一点到边上所有点的平均距离是多少？",
+      "url": "https://www.zhihu.com/answer/305239623",
+      "summary": "正文把曲线上均匀取点的距离定义为期望并求单位圆情形。"
+    },
+    {
+      "title": "怎样理解和区分中心极限定理与大数定律？",
+      "url": "https://www.zhihu.com/answer/306763552",
+      "summary": "正文说明样本均值为何能估计总体期望。"
+    },
+    {
+      "title": "蜜蜂在蜂巢随机游走一百步后离原点的距离期望是多少？",
+      "url": "https://www.zhihu.com/answer/312234333",
+      "summary": "正文推导随机游走距离的期望求和式与渐近式。"
+    },
+    {
+      "title": "为什么样本方差（sample variance）的分母是 n-1？",
+      "url": "https://www.zhihu.com/answer/312670291",
+      "summary": "正文反复用期望计算说明估计量的无偏性。"
+    },
+    {
+      "title": "如何理解 natural gradient descent?",
+      "url": "https://www.zhihu.com/answer/314354512",
+      "summary": "正文解释 Fisher 矩阵与对数概率 Hessian 期望的关系。"
+    },
+    {
+      "title": "圆上任选三点组成三角形，这个三角形是锐角、钝角和直角三角形的概率分别是多少？",
+      "url": "https://www.zhihu.com/answer/314415214",
+      "summary": "正文将随机弧长问题表述为期望值计算。"
+    },
+    {
+      "title": "样本方差的自由度是n-1，为何总体的自由度就是n？在求总体方差时，难道不也要用到总体的均值吗？",
+      "url": "https://www.zhihu.com/answer/324758432",
+      "summary": "正文以总体期望为中心解释偏差约束。"
+    },
+    {
+      "title": "有哪些「年轻人最好要接触」的东西？",
+      "url": "https://www.zhihu.com/answer/324926712",
+      "summary": "正文计算硬币游戏的期望收益。"
+    },
+    {
+      "title": "圆周率里包含你的银行卡密码吗？",
+      "url": "https://www.zhihu.com/answer/329851843",
+      "summary": "正文推导收集全部数字组合所需位数的期望。"
+    },
+    {
+      "title": "怎么通俗易懂地解释EM算法并且举个例子?",
+      "url": "https://www.zhihu.com/answer/332157872",
+      "summary": "正文把 ELBO 写为对隐变量对数联合概率的期望。"
+    },
+    {
+      "title": "Metropolis 蒙特卡罗方法、动力学蒙特卡罗方法、分子动力学方法这三种模拟方法有何特点与差异？",
+      "url": "https://www.zhihu.com/answer/333052138",
+      "summary": "正文用重要采样公式解释从样本加权平均估计期望。"
+    },
+    {
+      "title": "UMVUE（一致最小方差无偏估计）的求法是什么？",
+      "url": "https://www.zhihu.com/answer/334480877",
+      "summary": "正文围绕无偏估计量的期望等式推导UMVUE。"
+    },
+    {
+      "title": "你在生活中用过最高端的数学知识是什么？",
+      "url": "https://www.zhihu.com/answer/341039742",
+      "summary": "正文用逃票、诚信和彩票的收益计算解释期望值。"
+    },
+    {
+      "title": "请教一道算法题的思路？",
+      "url": "https://www.zhihu.com/answer/346648638",
+      "summary": "正文用递推关系计算留存人数的期望。"
+    },
+    {
+      "title": "请教一道算法题的思路？",
+      "url": "https://www.zhihu.com/answer/346673702",
+      "summary": "正文解释期望的线性性质不要求随机变量独立。"
+    },
+    {
+      "title": "有哪些解决完之后让你拍案叫绝的算法问题？",
+      "url": "https://www.zhihu.com/answer/352860728",
+      "summary": "正文推导随机重排条件下剩余白格数的期望。"
+    },
+    {
+      "title": "这种解法错在哪里：生男生女概率各 50％，每个家庭都生到第一个男孩就不再生，那么产生的男女比例是多少？",
+      "url": "https://www.zhihu.com/answer/354094133",
+      "summary": "正文解释比例的期望与总体比例为何具有不同统计意义。"
+    },
+    {
+      "title": "这种解法错在哪里：生男生女概率各 50％，每个家庭都生到第一个男孩就不再生，那么产生的男女比例是多少？",
+      "url": "https://www.zhihu.com/answer/355515481",
+      "summary": "正文分析比例期望不存在以及加权平均的区别。"
+    },
+    {
+      "title": "Bernstein 多项式是怎么想出来的？",
+      "url": "https://www.zhihu.com/answer/374362395",
+      "summary": "正文把 Bernstein 多项式直接写成随机变量函数的期望，并据此分析逼近误差。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/390236745",
+      "summary": "正文逐项计算双方收益期望并构造净期望。"
+    },
+    {
+      "title": "灭霸使用了什么样的随机数生成方法来保证公平？",
+      "url": "https://www.zhihu.com/answer/392552917",
+      "summary": "正文计算二项模型下死亡数量的期望。"
+    },
+    {
+      "title": "参数估计的无偏性和相合性有什么区别？",
+      "url": "https://www.zhihu.com/answer/395129298",
+      "summary": "正文以估计量期望解释无偏性。"
+    },
+    {
+      "title": "广义线性模型中, 联系函数(link function) 的作用是不是就是将不是正态分布的Y转换成正态分布？",
+      "url": "https://www.zhihu.com/answer/402258374",
+      "summary": "正文从指数族对数似然推导条件期望。"
+    },
+    {
+      "title": "什么是无偏估计？",
+      "url": "https://www.zhihu.com/answer/404391738",
+      "summary": "正文以抽样均值的期望解释无偏估计。"
+    },
+    {
+      "title": "如何证明快速排序法的平均复杂度为 Θ(nlogn)？",
+      "url": "https://www.zhihu.com/answer/406278523",
+      "summary": "正文以时间期望定义平均复杂度。"
+    },
+    {
+      "title": "装备每次升级的概率为 1%，第 100 次失败后必定成功，则装备的实际升级概率为多少？",
+      "url": "https://www.zhihu.com/answer/406668619",
+      "summary": "正文列出成功所需次数的分布并计算平均次数。"
+    },
+    {
+      "title": "目前统计学在国内外的发展现状是怎样的？都有哪些分支？今后的研究方向大致是向哪里走？",
+      "url": "https://www.zhihu.com/answer/418718693",
+      "summary": "正文通过Rao-Blackwell定理使用条件期望构造保持无偏性的改进估计量。"
+    },
+    {
+      "title": "关于凯丽公式的问题？",
+      "url": "https://www.zhihu.com/answer/421327203",
+      "summary": "正文用期望收益刻画重复赌局的长期优势。"
+    },
+    {
+      "title": "前景理论的具体内容是什么？有哪些具体的应用？",
+      "url": "https://www.zhihu.com/answer/426873386",
+      "summary": "正文用多组风险选择实验比较期望收益与主观决策。"
+    },
+    {
+      "title": "什么是商业模式?",
+      "url": "https://www.zhihu.com/answer/427008627",
+      "summary": "正文计算硬币博弈中单轮收益的数学期望。"
+    },
+    {
+      "title": "如何理解 Jensen 不等式？",
+      "url": "https://www.zhihu.com/answer/436465144",
+      "summary": "正文把 Jensen 不等式改写为随机变量期望形式。"
+    },
+    {
+      "title": "给你 10 亿美元，但会有一只蜗牛永远追杀你，你干不干？",
+      "url": "https://www.zhihu.com/answer/458158714",
+      "summary": "正文建立几何型等待时间模型并计算寿命期望。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/459111173",
+      "summary": "正文分别计算生男生女数量的数学期望。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/461029852",
+      "summary": "正文分析两信封悖论中条件分布对期望的影响。"
+    },
+    {
+      "title": "为什么团队合作类竞技游戏单排普遍会产生难以爬出鱼塘的现象？",
+      "url": "https://www.zhihu.com/answer/463593829",
+      "summary": "正文计算不同情形下胜场数的期望。"
+    },
+    {
+      "title": "样本方差公式是如何推导出来的？",
+      "url": "https://www.zhihu.com/answer/463953325",
+      "summary": "正文使用期望证明样本方差估计量无偏。"
+    },
+    {
+      "title": "如何理解鲁棒滤波器的概念？",
+      "url": "https://www.zhihu.com/answer/504458124",
+      "summary": "说明卡尔曼滤波用条件期望估计当前状态，并写出预测与修正递推。"
+    },
+    {
+      "title": "什么是泊松过程？",
+      "url": "https://www.zhihu.com/answer/518927298",
+      "summary": "正文使用单位时间到达率和数学期望建立参数关系。"
+    },
+    {
+      "title": "如何理解条件期望？",
+      "url": "https://www.zhihu.com/answer/526042622",
+      "summary": "用独立同分布变量的对称性和可加性推导条件期望。"
+    },
+    {
+      "title": "如何理解条件期望？",
+      "url": "https://www.zhihu.com/answer/528291516",
+      "summary": "把条件期望解释为随机变量空间中的正交投影并推导相应性质。"
+    },
+    {
+      "title": "如何简单易懂地解释狄利克雷过程（Dirichlet Process）？",
+      "url": "https://www.zhihu.com/answer/533132532",
+      "summary": "正文推导狄利克雷过程各区域测度的期望。"
+    },
+    {
+      "title": "统计学中引入自由度的意义是什么？",
+      "url": "https://www.zhihu.com/answer/540670733",
+      "summary": "正文围绕均值、期望和方差展开推导。"
+    },
+    {
+      "title": "什么是「最小二乘法」？",
+      "url": "https://www.zhihu.com/answer/549972357",
+      "summary": "正文明确给出偶然误差期望为零的性质。"
+    },
+    {
+      "title": "两个独立的正态分布相加减的实际意义是什么？",
+      "url": "https://www.zhihu.com/answer/550203789",
+      "summary": "正文给出正态变量相加减后的均值变化。"
+    },
+    {
+      "title": "凯利公式具体是怎么推导出来的？",
+      "url": "https://www.zhihu.com/answer/557781066",
+      "summary": "用期望计算固定赔率下的资产演化和长期增长率。"
+    },
+    {
+      "title": "黑箱里有n个小球，编号为1, 2, ..., n，随机抽一个球的号码是10，能获得什么关于n的信息？",
+      "url": "https://www.zhihu.com/answer/564136701",
+      "summary": "用平方损失下的条件期望说明最小均方误差估计。"
+    },
+    {
+      "title": "如果炸弹每秒钟爆炸概率提高一点，从数学期望上来看最有可能在哪一秒爆炸？",
+      "url": "https://www.zhihu.com/answer/611822195",
+      "summary": "正文推导爆炸时间的数学期望。"
+    },
+    {
+      "title": "为什么现在的男生追女生追到一半就不追了？",
+      "url": "https://www.zhihu.com/answer/616225765",
+      "summary": "正文比较不同情形下随机增长率的期望。"
+    },
+    {
+      "title": "和女朋友在商场走丢了，随机乱逛和守在特定地点等候，哪个相遇的概率更高？",
+      "url": "https://www.zhihu.com/answer/618131634",
+      "summary": "正文讨论二维随机游走返回时间的期望。"
+    },
+    {
+      "title": "有哪些看起来很难但做起来很简单的数学题？",
+      "url": "https://www.zhihu.com/answer/631136418",
+      "summary": "把一阶矩为零解释为标准化后的期望条件。"
+    },
+    {
+      "title": "假设有个游戏，你可以无偿获得五千元，但有百万分之一的几率会当场毙命。那么你会玩多少次游戏？",
+      "url": "https://www.zhihu.com/answer/639751606",
+      "summary": "用概率加权的效用函数解释期望效用决策。"
+    },
+    {
+      "title": "假设有个游戏，你可以无偿获得五千元，但有百万分之一的几率会当场毙命。那么你会玩多少次游戏？",
+      "url": "https://www.zhihu.com/answer/639770325",
+      "summary": "按奖金、损失和状态计算期望收益并模拟退出时间。"
+    },
+    {
+      "title": "怎样用通俗易懂的文字解释正态分布及其意义？",
+      "url": "https://www.zhihu.com/answer/641619684",
+      "summary": "说明正态分布位置参数是期望。"
+    },
+    {
+      "title": "象棋中的概率问题：在有去除的拿去的情况下，以最优策略猜去除棋子的颜色，问最后得到猜测正确的期望？",
+      "url": "https://www.zhihu.com/answer/642802219",
+      "summary": "求出最优策略猜对数的期望闭式和渐近值。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/654756069",
+      "summary": "计算不同事件结果的期望。"
+    },
+    {
+      "title": "在一个 1*1 的正方形随机选两个点，如何求这两个点的期望欧几里得距离？",
+      "url": "https://www.zhihu.com/answer/658077539",
+      "summary": "通过积分或模拟计算两点距离的期望。"
+    },
+    {
+      "title": "指数分布公式的含义是什么？",
+      "url": "https://www.zhihu.com/answer/673838656",
+      "summary": "通过积分计算指数分布期望。"
+    },
+    {
+      "title": "有限次机会掷骰子，取最后一次的数值，什么样的策略能使数字的期望值最大？",
+      "url": "https://www.zhihu.com/answer/674039383",
+      "summary": "按各点数概率加权计算策略期望收益。"
+    },
+    {
+      "title": "有什么将卡尔曼滤波讲得透彻的书籍或资料？",
+      "url": "https://www.zhihu.com/answer/677409115",
+      "summary": "用条件期望得到状态的最优估计。"
+    },
+    {
+      "title": "在赌场每次下注的金额都是之前输的金额的2.5倍，只要赢一把就可以翻本，是不是不必赢？",
+      "url": "https://www.zhihu.com/answer/681491092",
+      "summary": "逐局计算倍投策略的期望收益并揭示有限资金风险。"
+    },
+    {
+      "title": "电梯使用后回到一楼或者停留当前层，哪个最合理？",
+      "url": "https://www.zhihu.com/answer/683431540",
+      "summary": "按不同乘客出现模式计算平均等待时间。"
+    },
+    {
+      "title": "在赌场每次下注的金额都是之前输的金额的2.5倍，只要赢一把就可以翻本，是不是不必赢？",
+      "url": "https://www.zhihu.com/answer/683560169",
+      "summary": "用小利概率与破产损失计算倍投策略的负期望。"
+    },
+    {
+      "title": "连续型随机变量的数学期望公式定义是怎么来的？",
+      "url": "https://www.zhihu.com/answer/684841685",
+      "summary": "通过分割、近似、求和与极限推导连续期望积分公式。"
+    },
+    {
+      "title": "不考虑年龄差，星座人数均等，不提前知道生肖星座，集齐12星座和12生肖前男友，平均需要谈多少个男朋友？",
+      "url": "https://www.zhihu.com/answer/690886023",
+      "summary": "计算收集齐全所需次数的期望。"
+    },
+    {
+      "title": "赌博不是应该有接近50%的胜率吗，为何现实却是「十赌九输」？",
+      "url": "https://www.zhihu.com/answer/704369191",
+      "summary": "用鞅与上鞅关系分析资金期望变化。"
+    },
+    {
+      "title": "如何通俗地理解概率论中的「极大似然估计法」?",
+      "url": "https://www.zhihu.com/answer/707507256",
+      "summary": "把 KL 散度改写成对数概率的期望。"
+    },
+    {
+      "title": "控制变量是如何被“控制”的？",
+      "url": "https://www.zhihu.com/answer/709963273",
+      "summary": "以条件期望解释控制变量后的效应。"
+    },
+    {
+      "title": "控制变量是如何被“控制”的？",
+      "url": "https://www.zhihu.com/answer/713957284",
+      "summary": "在条件外生性下用条件期望推导OLS估计。"
+    },
+    {
+      "title": "十个人赛跑第一名和一百人赛跑的第十名，谁厉害？",
+      "url": "https://www.zhihu.com/answer/719761440",
+      "summary": "计算随机抽样后名次的期望。"
+    },
+    {
+      "title": "十个人赛跑第一名和一百人赛跑的第十名，谁厉害？",
+      "url": "https://www.zhihu.com/answer/720012487",
+      "summary": "推导第k个次序统计量的期望公式。"
+    },
+    {
+      "title": "100人坐飞机，第一个乘客在座位中随便选一个坐下，第100人正确坐到自己坐位的概率是？",
+      "url": "https://www.zhihu.com/answer/728206399",
+      "summary": "用期望可加性计算平均坐对人数。"
+    },
+    {
+      "title": "「卡方分布」是什么？",
+      "url": "https://www.zhihu.com/answer/729785501",
+      "summary": "正文把卡方分布的期望列为一项具体性质。"
+    },
+    {
+      "title": "大部分机器学习算法具有随机性，只需多次实验求平均值即可吗？",
+      "url": "https://www.zhihu.com/answer/746533382",
+      "summary": "从期望解释重复实验取平均。"
+    },
+    {
+      "title": "为什么绝大部分人赌博必输？",
+      "url": "https://www.zhihu.com/answer/750282525",
+      "summary": "用期望收益分析赌局。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/757572803",
+      "summary": "用双信封例子辨析错误期望计算。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/759188438",
+      "summary": "正文用各结果概率加权求和计算击败怪物的平均攻击次数。"
+    },
+    {
+      "title": "时间序列和回归分析有什么本质区别？",
+      "url": "https://www.zhihu.com/answer/766466816",
+      "summary": "从条件期望定义回归分析。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/767073342",
+      "summary": "正文对比资产正期望与长期个体结果，说明期望不能单独判断长期增长。"
+    },
+    {
+      "title": "淘宝上代抽王者荣耀的荣耀水晶是真的吗？",
+      "url": "https://www.zhihu.com/answer/771128004",
+      "summary": "通过各次成功概率加权计算期望次数。"
+    },
+    {
+      "title": "怎么看待「学数学没啥用，买菜难道还用得上微积分」的理论？",
+      "url": "https://www.zhihu.com/answer/771747527",
+      "summary": "正文把不同需求量下的收益按概率加总，以期望作为采购决策目标。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/777567811",
+      "summary": "完整推导等待时间的数学期望。"
+    },
+    {
+      "title": "如何理解统计学中「自由度」这个概念？",
+      "url": "https://www.zhihu.com/answer/784045148",
+      "summary": "通过残差平方和期望推导无偏估计。"
+    },
+    {
+      "title": "概率论中，「矩」（moment）的实际含义是什么？高阶矩表示数据的哪些状态？",
+      "url": "https://www.zhihu.com/answer/786691547",
+      "summary": "把一阶矩解释为均值。"
+    },
+    {
+      "title": "时间序列和回归分析有什么本质区别？",
+      "url": "https://www.zhihu.com/answer/789952978",
+      "summary": "用期望刻画无偏估计量。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/811093321",
+      "summary": "正文用骰子收益例子定义并计算数学期望，并解释其决策意义。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/820961981",
+      "summary": "正文分别计算两种等待次数的数学期望，并据此判断游戏规则是否公平。"
+    },
+    {
+      "title": "利率模型里的Vasicek模型和CIR模型的期望方差如何计算，两个模型分别有什么优缺点？",
+      "url": "https://www.zhihu.com/answer/844206726",
+      "summary": "正文推导 Vasicek 与 CIR 模型的期望并比较两者均值。"
+    },
+    {
+      "title": "如何理解三大抽样分布?",
+      "url": "https://www.zhihu.com/answer/846692080",
+      "summary": "解释分布的数学期望与样本均值。"
+    },
+    {
+      "title": "二项分布的期望np方差npq怎么推导出来的？",
+      "url": "https://www.zhihu.com/answer/870207173",
+      "summary": "正文逐步展开二项分布求和式并推出期望为 np。"
+    },
+    {
+      "title": "对数正态分布的期望和方差如何推导？",
+      "url": "https://www.zhihu.com/answer/885169399",
+      "summary": "正文明确把期望写成积分并完成换元和计算。"
+    },
+    {
+      "title": "如何直观理解马尔可夫不等式？",
+      "url": "https://www.zhihu.com/answer/893484654",
+      "summary": "通过期望控制尾概率。"
+    },
+    {
+      "title": "按下一个按钮你可以获得1000美元但是有千万分之一的概率你会当场去世你会怎么做?按按钮次数无限？",
+      "url": "https://www.zhihu.com/answer/897107587",
+      "summary": "正文计算无限与有限按键次数下的期望收益。"
+    },
+    {
+      "title": "请通俗地解释下“鞅”？",
+      "url": "https://www.zhihu.com/answer/929146452",
+      "summary": "条件期望是全文定义鞅、公平赌博并推导平均收益为零的核心工具。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/968379259",
+      "summary": "正文逐项计算下注回报期望并解释庄家优势。"
+    },
+    {
+      "title": "平均多少个 [a, b] 间的随机数之和才大于 c？",
+      "url": "https://www.zhihu.com/answer/993867184",
+      "summary": "正文计算随机数累加越过阈值所需次数的期望。"
+    },
+    {
+      "title": "每天连续掷硬币，直到连续出现两次正面就停止，第二天继续，连续一年时间，掷出正面的期望值是多少？",
+      "url": "https://www.zhihu.com/answer/994138810",
+      "summary": "正文建立递推方程计算连续正面出现前的期望投掷次数。"
+    },
+    {
+      "title": "平均多少个 [a, b] 间的随机数之和才大于 c？",
+      "url": "https://www.zhihu.com/answer/1003693408",
+      "summary": "正文计算首次越界时间的期望。"
+    },
+    {
+      "title": "经验分布函数期望和方差怎么证明？",
+      "url": "https://www.zhihu.com/answer/1043141207",
+      "summary": "正文逐项推导经验分布函数的期望。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/1061317246",
+      "summary": "正文计算不同策略下的期望收益并由此求均衡概率。"
+    },
+    {
+      "title": "对数正态分布的期望和方差如何推导？",
+      "url": "https://www.zhihu.com/answer/1086917069",
+      "summary": "正文逐步计算对数正态随机变量的期望。"
+    },
+    {
+      "title": "如果你是阿里巴巴数学竞赛的出题官，你会出什么题目？",
+      "url": "https://www.zhihu.com/answer/1098131794",
+      "summary": "正文持续以感染、治愈和死亡人数的期望作为模型目标。"
+    },
+    {
+      "title": "在一个群体中检出所有携带新冠病毒的人，采用什么策略时，平均检测的次数最少？",
+      "url": "https://www.zhihu.com/answer/1099806792",
+      "summary": "正文建立组合检测次数的期望公式。"
+    },
+    {
+      "title": "气体分子平均自由程公式中，平均相对速率为何是平均速率的根号2倍？",
+      "url": "https://www.zhihu.com/answer/1143773783",
+      "summary": "正文由相对速度分布计算其均值。"
+    },
+    {
+      "title": "二项分布、泊松分布和正态分布的区别及联系?",
+      "url": "https://www.zhihu.com/answer/1146286595",
+      "summary": "正文给出伯努利变量的数学期望。"
+    },
+    {
+      "title": "有什么理论复杂但是实现简单的算法？",
+      "url": "https://www.zhihu.com/answer/1148832134",
+      "summary": "正文使用期望和大数定律推导随机投影性质。"
+    },
+    {
+      "title": "最近刚接触计量经济学，学得不是很懂，求教一些学习方法？",
+      "url": "https://www.zhihu.com/answer/1150417367",
+      "summary": "正文以无条件期望和条件期望区分因果与相关，并用迭代期望证明 OLS 无偏性。"
+    },
+    {
+      "title": "为什么样本方差（sample variance）的分母是 n-1？",
+      "url": "https://www.zhihu.com/answer/1154243425",
+      "summary": "正文用期望定义并验证均值估计的无偏性。"
+    },
+    {
+      "title": "怎样计算圆内任意两点间距离的期望值？",
+      "url": "https://www.zhihu.com/answer/1170179102",
+      "summary": "正文由距离分布积分计算平均距离。"
+    },
+    {
+      "title": "偏态分布的左偏右偏如何理解？",
+      "url": "https://www.zhihu.com/answer/1198933137",
+      "summary": "正文比较均值与众数位置来解释偏态。"
+    },
+    {
+      "title": "赌博真的能赢回本吗?",
+      "url": "https://www.zhihu.com/answer/1240051709",
+      "summary": "正文用输赢概率和期望值说明长期赌博不利。"
+    },
+    {
+      "title": "为什么叫几何分布和超几何分布？",
+      "url": "https://www.zhihu.com/answer/1275366068",
+      "summary": "正文推导几何分布期望并给出应用。"
+    },
+    {
+      "title": "有什么数学定理一般人都觉得是常识，但严谨证明起来却挺费力的？",
+      "url": "https://www.zhihu.com/answer/1388956340",
+      "summary": "正文回顾数学期望并用于大数定律。"
+    },
+    {
+      "title": "定义数学期望的时候为什么一定要求级数满足绝对收敛呢？",
+      "url": "https://www.zhihu.com/answer/1416559757",
+      "summary": "正文用级数重排和条件收敛解释数学期望要求绝对收敛。"
+    },
+    {
+      "title": "一个计数器，按下一次有50%概率+1，有50%概率-1，平均按下多少次可以使结果为8？",
+      "url": "https://www.zhihu.com/answer/1425693082",
+      "summary": "正文用首达时讨论随机游走期望次数。"
+    },
+    {
+      "title": "如果你不停地掷骰子，连续掷出两次六点平均需要掷多少次，怎么算?",
+      "url": "https://www.zhihu.com/answer/1427551471",
+      "summary": "正文用条件期望方程计算连续两次六点的平均掷骰次数。"
+    },
+    {
+      "title": "一个计数器，按下一次有50%概率+1，有50%概率-1，平均按下多少次可以使结果为8？",
+      "url": "https://www.zhihu.com/answer/1431235045",
+      "summary": "正文用首达时和 Wald 方程计算随机游走命中期望。"
+    },
+    {
+      "title": "一个计数器，按下一次有50%概率+1，有50%概率-1，平均按下多少次可以使结果为8？",
+      "url": "https://www.zhihu.com/answer/1431243320",
+      "summary": "正文用鞅与首达时证明一维随机游走命中 8 的期望不存在。"
+    },
+    {
+      "title": "一个计数器，按下一次有50%概率+1，有50%概率-1，平均按下多少次可以使结果为8？",
+      "url": "https://www.zhihu.com/answer/1436050235",
+      "summary": "正文直接讲解或推导“期望”相关内容。"
+    },
+    {
+      "title": "淘宝上代抽王者荣耀的荣耀水晶是真的吗？",
+      "url": "https://www.zhihu.com/answer/1457200232",
+      "summary": "正文用数学期望计算抽中荣耀水晶所需抽数。"
+    },
+    {
+      "title": "如何通俗解释大数定律？",
+      "url": "https://www.zhihu.com/answer/1460964988",
+      "summary": "正文用随机变量的数学期望陈述大数定律。"
+    },
+    {
+      "title": "一个数从1开始，每次各有50%的概率乘0.9或者乘1.1，重复足够多的次数以后，情况会如何？",
+      "url": "https://www.zhihu.com/answer/1496281843",
+      "summary": "正文直接给出与「期望」相关的解释、推导或应用。"
+    },
+    {
+      "title": "一个数从1开始，每次各有50%的概率乘0.9或者乘1.1，重复足够多的次数以后，情况会如何？",
+      "url": "https://www.zhihu.com/answer/1497838005",
+      "summary": "正文直接给出与「期望」相关的解释、推导或应用。"
+    },
+    {
+      "title": "一个数从1开始，每次各有50%的概率乘0.9或者乘1.1，重复足够多的次数以后，情况会如何？",
+      "url": "https://www.zhihu.com/answer/1497965882",
+      "summary": "正文直接给出与「期望」相关的解释、推导或应用。"
+    },
+    {
+      "title": "一个数从1开始，每次各有50%的概率乘0.9或者乘1.1，重复足够多的次数以后，情况会如何？",
+      "url": "https://www.zhihu.com/answer/1499896600",
+      "summary": "正文明确给出离散随机变量数学期望的求和定义。"
+    },
+    {
+      "title": "假设有重女轻男的M国。每个家庭会都想生女孩。若生出了n个男孩，则会尽可能生出n个女孩，男女比例怎么算？",
+      "url": "https://www.zhihu.com/answer/1535229540",
+      "summary": "正文直接讨论期望，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "3个白球 4个黑球 不放回 白球得一元 黑球减一元 可以选择任何时候停止游戏 最佳策略是？",
+      "url": "https://www.zhihu.com/answer/1546060790",
+      "summary": "正文以条件期望递推计算继续或停止的最优收益。"
+    },
+    {
+      "title": "如果X服从正态分布N(μ,σ²)，|X|的数学期望怎么求？",
+      "url": "https://www.zhihu.com/answer/1570624091",
+      "summary": "正文完整推导正态随机变量绝对值的数学期望。"
+    },
+    {
+      "title": "一般正态分布的k阶（如三阶和四阶）中心矩和原点矩如何算？",
+      "url": "https://www.zhihu.com/answer/1701126738",
+      "summary": "正文用积分和伽马函数计算正态分布中心矩与原点矩。"
+    },
+    {
+      "title": "为什么八省联考数学19题答案0.6恰好等于0.1+0.2+0.3？",
+      "url": "https://www.zhihu.com/answer/1701625793",
+      "summary": "正文以此定理解释 0.6 等于三个部件调整概率之和，并以计数变量的期望完成题目计算。"
+    },
+    {
+      "title": "蜗牛从10米深的井底爬，白天爬一米，晚上下落x米，其中x为[0,2]米的随机数，那么爬上的期望是多少？",
+      "url": "https://www.zhihu.com/answer/1748311911",
+      "summary": "正文直接讨论或推导「期望」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "参数估计的无偏性和相合性有什么区别？",
+      "url": "https://www.zhihu.com/answer/1759452853",
+      "summary": "正文用期望解释估计量分布的中心。"
+    },
+    {
+      "title": "N个人通过石头剪刀布决出一个胜者所需要的轮数的数学期望是多少？",
+      "url": "https://www.zhihu.com/answer/1764114345",
+      "summary": "正文通过概率递推计算决出胜者所需轮数的期望。"
+    },
+    {
+      "title": "寿命为什么不符合指数分布？",
+      "url": "https://www.zhihu.com/answer/1807061352",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "二项分布的期望np方差npq怎么推导出来的？",
+      "url": "https://www.zhihu.com/answer/1837324609",
+      "summary": "正文给出二项分布期望的完整推导结论。"
+    },
+    {
+      "title": "有一个盒子，把钱放进去有一半的概率变成双倍，也有一半的概率钱会消失，你会放钱进去吗？",
+      "url": "https://www.zhihu.com/answer/1924058899",
+      "summary": "正文直接讨论并支撑「期望」相关内容。"
+    },
+    {
+      "title": "一个数从1开始，每次各有50%的概率乘0.9或者乘1.1，重复足够多的次数以后，情况会如何？",
+      "url": "https://www.zhihu.com/answer/1982952609",
+      "summary": "正文详细计算乘法过程的期望。"
+    },
+    {
+      "title": "十赌九输这句话有根据吗?",
+      "url": "https://www.zhihu.com/answer/1992137336",
+      "summary": "正文计算单次赌博的期望并揭示期望与长期收益差异。"
+    },
+    {
+      "title": "为什么样本均值分布服从自由度n的卡方分布，而样本方差分布服从自由度n-1的分布？",
+      "url": "https://www.zhihu.com/answer/2002007751",
+      "summary": "正文计算样本均值和样本方差的分布。"
+    },
+    {
+      "title": "为什么几乎所有游戏都不愿意把概率（命中率）做成真实的概率？",
+      "url": "https://www.zhihu.com/answer/2012172394",
+      "summary": "正文明确分析抽奖机制下的数学期望。"
+    },
+    {
+      "title": "为什么几乎所有游戏都不愿意把概率（命中率）做成真实的概率？",
+      "url": "https://www.zhihu.com/answer/2012830756",
+      "summary": "正文明确计算并讨论无限期望。"
+    },
+    {
+      "title": "为什么几乎所有游戏都不愿意把概率（命中率）做成真实的概率？",
+      "url": "https://www.zhihu.com/answer/2016757521",
+      "summary": "正文用放回与不放回抽样比较概率与期望体验。"
+    },
+    {
+      "title": "为什么几乎所有游戏都不愿意把概率（命中率）做成真实的概率？",
+      "url": "https://www.zhihu.com/answer/2030308545",
+      "summary": "正文把保底抽卡机制与数学期望联系起来。"
+    },
+    {
+      "title": "怎样算原神up池到第x抽才出up角色的概率（1≤x≤180）？",
+      "url": "https://www.zhihu.com/answer/2055077716",
+      "summary": "正文用存活概率递推期望。"
+    },
+    {
+      "title": "为什么傅里叶变换可以把时域信号变为频域信号？",
+      "url": "https://www.zhihu.com/answer/2136801931",
+      "summary": "正文用期望和矩生成函数说明分布信息如何由各阶矩刻画。"
+    },
+    {
+      "title": "如何通俗的理解概率密度函数？",
+      "url": "https://www.zhihu.com/answer/2251981592",
+      "summary": "正文用密度积分定义连续随机变量的期望。"
+    },
+    {
+      "title": "考试砸了回到家，母亲打我的概率是 1/2，父亲打我的概率也是 1/2，那我被打的概率是多少？",
+      "url": "https://www.zhihu.com/answer/2275093177",
+      "summary": "正文通过事件组合计算被打概率和被打次数的期望。"
+    },
+    {
+      "title": "一根 1m 长的玻璃棒，摔倒地上断成 3 段，最短一段的平均值是多少？",
+      "url": "https://www.zhihu.com/answer/2279152561",
+      "summary": "正文用几何区域的质心和锥体维度计算最短线段的期望。"
+    },
+    {
+      "title": "一根 1m 长的玻璃棒，摔倒地上断成 3 段，最短一段的平均值是多少？",
+      "url": "https://www.zhihu.com/answer/2279214780",
+      "summary": "正文直接给出随机折断模型中极端次序统计量的期望。"
+    },
+    {
+      "title": "一根 1m 长的玻璃棒，摔倒地上断成 3 段，最短一段的平均值是多少？",
+      "url": "https://www.zhihu.com/answer/2281387599",
+      "summary": "正文从次序统计量和概率密度出发计算最短线段的期望。"
+    },
+    {
+      "title": "一根 1m 长的玻璃棒，摔倒地上断成 3 段，最短一段的平均值是多少？",
+      "url": "https://www.zhihu.com/answer/2281511902",
+      "summary": "正文通过几何区域体积比与积分求出最短线段的期望。"
+    },
+    {
+      "title": "考试砸了回到家，母亲打我的概率是 1/2，父亲打我的概率也是 1/2，那我被打的概率是多少？",
+      "url": "https://www.zhihu.com/answer/2292338789",
+      "summary": "正文利用泊松分布的均值与参数关系计算期望。"
+    },
+    {
+      "title": "一根 1m 长的玻璃棒，摔倒地上断成 3 段，最短一段的平均值是多少？",
+      "url": "https://www.zhihu.com/answer/2306725166",
+      "summary": "正文用几何区域重心求最短一段长度的期望。"
+    },
+    {
+      "title": "一根 1m 长的玻璃棒，摔倒地上断成 3 段，最短一段的平均值是多少？",
+      "url": "https://www.zhihu.com/answer/2307031697",
+      "summary": "正文用均匀区域上的体积比计算最短段长度的期望。"
+    },
+    {
+      "title": "一根 1m 长的玻璃棒，摔倒地上断成 3 段，最短一段的平均值是多少？",
+      "url": "https://www.zhihu.com/answer/2309553818",
+      "summary": "正文对最短一段的概率密度积分，严格计算其数学期望为 1/n²。"
+    },
+    {
+      "title": "卡尔曼滤波（Kalman Filter）有哪些推导方式？",
+      "url": "https://www.zhihu.com/answer/2313713745",
+      "summary": "正文通过最小化估计方差推导加权平均的期望估计。"
+    },
+    {
+      "title": "如何通俗直白地理解卡尔曼滤波算法？",
+      "url": "https://www.zhihu.com/answer/2313715541",
+      "summary": "正文用方差最小化推导测量融合的最优估计。"
+    },
+    {
+      "title": "深度学习如何高效地找到最优超参数组合？",
+      "url": "https://www.zhihu.com/answer/2315816859",
+      "summary": "正文用期望提升作为选择下一组超参数的采集函数。"
+    },
+    {
+      "title": "概率论中，「矩」（moment）的实际含义是什么？高阶矩表示数据的哪些状态？",
+      "url": "https://www.zhihu.com/answer/2319043296",
+      "summary": "正文从期望和方差引入更高阶矩的含义。"
+    },
+    {
+      "title": "随机变量的函数期望？",
+      "url": "https://www.zhihu.com/answer/2328308673",
+      "summary": "正文深入证明随机变量函数的期望公式。"
+    },
+    {
+      "title": "你能一句话说清楚期权隐含波动率是个什么东西吗？",
+      "url": "https://www.zhihu.com/answer/2330038283",
+      "summary": "正文以概率加权和及期望解释期权理论价格。"
+    },
+    {
+      "title": "假设赌博输赢的概率都是 50％，那么长期赌博的人为什么仍然会更容易倾家荡产而不是收益均衡？",
+      "url": "https://www.zhihu.com/answer/2359489645",
+      "summary": "正文以连输概率和资金损失计算赌博结果的数学期望。"
+    },
+    {
+      "title": "一个每天都会变的六位数密码，每天一次输入机会，输入正确能得到500万，请问多少天能得到它？",
+      "url": "https://www.zhihu.com/answer/2366391693",
+      "summary": "正文建立尝试次数的概率递推，并按期望定义计算首次成功所需天数。"
+    },
+    {
+      "title": "600 个人站一排，每次随机淘汰一个奇数位的人，几号最安全？",
+      "url": "https://www.zhihu.com/answer/2368973082",
+      "summary": "正文把淘汰轮数建模为随机变量，并递推计算其数学期望。"
+    },
+    {
+      "title": "如何用数学知识解答「在进行社区大规模核酸检测时，分成几人一组进行混检效率最高」？",
+      "url": "https://www.zhihu.com/answer/2410235229",
+      "summary": "正文完整计算检测次数的数学期望。"
+    },
+    {
+      "title": "如何用数学知识解答「在进行社区大规模核酸检测时，分成几人一组进行混检效率最高」？",
+      "url": "https://www.zhihu.com/answer/2411517075",
+      "summary": "正文用感染概率计算一组混检的期望检验次数。"
+    },
+    {
+      "title": "概率分布就很好，为什么还要提出概率密度的概念？",
+      "url": "https://www.zhihu.com/answer/2452717368",
+      "summary": "正文把连续型随机变量期望定义为加权平均并给出积分公式。"
+    },
+    {
+      "title": "协方差的公式是怎么推导出来的？",
+      "url": "https://www.zhihu.com/answer/2458047250",
+      "summary": "正文推导协方差并用期望形式给出定义。"
+    },
+    {
+      "title": "一个数从1开始，每次各有50%的概率乘0.9或者乘1.1，重复足够多的次数以后，情况会如何？",
+      "url": "https://www.zhihu.com/answer/2469812123",
+      "summary": "正文用二项式定理计算随机连乘结果的期望。"
+    },
+    {
+      "title": "考试砸了回到家，母亲打我的概率是 1/2，父亲打我的概率也是 1/2，那我被打的概率是多少？",
+      "url": "https://www.zhihu.com/answer/2475943443",
+      "summary": "正文定义并计算离散随机变量的期望。"
+    },
+    {
+      "title": "如何计算保底抽奖概率模型的概率？",
+      "url": "https://www.zhihu.com/answer/2479704033",
+      "summary": "正文由概率生成函数求导计算期望抽数。"
+    },
+    {
+      "title": "有没有哪些数学题的某一步处理堪称神来之笔？",
+      "url": "https://www.zhihu.com/answer/2488205979",
+      "summary": "用状态转移建立期望方程，计算连续出现指定次数正面的抛硬币期望次数。"
+    },
+    {
+      "title": "为什么游戏里的都是伪随机，做不出真随机？希望来个简单易懂的解释？",
+      "url": "https://www.zhihu.com/answer/2498859316",
+      "summary": "正文用暴击概率说明对随机事件次数的直觉期望与实际概率的差异。"
+    },
+    {
+      "title": "一副牌洗一遍，位置没发生变化的张数，数学期望是多少？",
+      "url": "https://www.zhihu.com/answer/2507171446",
+      "summary": "正文用二元生成函数提取固定点数量的期望，并计算得到 1。"
+    },
+    {
+      "title": "一副牌洗一遍，位置没发生变化的张数，数学期望是多少？",
+      "url": "https://www.zhihu.com/answer/2507313980",
+      "summary": "正文用期望的线性性质直接得出 n 张牌平均有 1 张留在原位。"
+    },
+    {
+      "title": "有一个盒子，把钱放进去有一半的概率变成双倍，也有一半的概率钱会消失，你会放钱进去吗？",
+      "url": "https://www.zhihu.com/answer/2547203571",
+      "summary": "分析双倍或归零赌局的期望，并用倍投策略计算盈亏与概率。"
+    },
+    {
+      "title": "甲乙两个人猜拳，甲被限定只能出两个手势，两个人都绝顶聪明，乙赢的次数会更多吗？",
+      "url": "https://www.zhihu.com/answer/2562894766",
+      "summary": "正文按各结果概率和得分计算每局平均收益，用期望值比较不同策略。"
+    },
+    {
+      "title": "10%闪避率和10%减伤哪个实战里更强？",
+      "url": "https://www.zhihu.com/answer/2569494830",
+      "summary": "用闪避概率、可承受刀数的期望和天花板函数比较闪避与减伤的收益。"
+    },
+    {
+      "title": "甲乙两个人猜拳，甲被限定只能出两个手势，两个人都绝顶聪明，乙赢的次数会更多吗？",
+      "url": "https://www.zhihu.com/answer/2569991934",
+      "summary": "由混合策略概率计算双方每局收益的期望，得到乙的期望收益更高。"
+    },
+    {
+      "title": "transformer中，attention矩阵的计算为什么要除以dk^(1/2)呢？请先看问题描述？",
+      "url": "https://www.zhihu.com/answer/2666737042",
+      "summary": "在零均值和单位方差假设下计算点积的均值，说明缩放前均值为零。"
+    },
+    {
+      "title": "每个人提出一个 100 以内的实数，数最接近所有人平均值一半的获胜，应该提出哪个数？",
+      "url": "https://www.zhihu.com/answer/2675435143",
+      "summary": "正文按各类人群比例对其选择值加权，建立方程求整体平均选择。"
+    },
+    {
+      "title": "若X和Y独立同正态分布，那么(X^2+Y^2)/(X+Y)服从怎样的分布？",
+      "url": "https://www.zhihu.com/answer/2680190865",
+      "summary": "正文在近似正态模型中给出均值参数，并用它描述目标变量的中心位置。"
+    },
+    {
+      "title": "强化学习中action value减去state value之后怎么就减小了方差，方差不是不变吗？",
+      "url": "https://www.zhihu.com/answer/2695297743",
+      "summary": "正文以期望估计的采样方差为对象，推导 baseline 不改变估计值而降低估计误差。"
+    },
+    {
+      "title": "有什么很牛逼的无理数？",
+      "url": "https://www.zhihu.com/answer/2712886108",
+      "summary": "通过 N 的分布列计算 E(N)，证明期望值等于 e。"
+    },
+    {
+      "title": "为什么游戏里的都是伪随机，做不出真随机？希望来个简单易懂的解释？",
+      "url": "https://www.zhihu.com/answer/2716628214",
+      "summary": "正文用暴击例子说明把 50% 概率误解为固定次数结果，讨论随机事件的期望直觉与实际单次概率。"
+    },
+    {
+      "title": "中国人均预期寿命真的有77.93岁那么高吗?",
+      "url": "https://www.zhihu.com/answer/2721196775",
+      "summary": "正文把预期寿命定义为某年龄段人群预期还能存活的年数，并用生存总人年数除以尚存人数计算。"
+    },
+    {
+      "title": "数学学习或研究中，你见过哪些有意思的反例？",
+      "url": "https://www.zhihu.com/answer/2726271931",
+      "summary": "正文讨论期望线性成立所需的有限性条件，并给出三个随机变量版本中期望因组合方式不同而不相等的例子。"
+    },
+    {
+      "title": "圆周率里包含你的银行卡密码吗？",
+      "url": "https://www.zhihu.com/answer/2751974117",
+      "summary": "正文把凑齐全部六位数组合建模为奖券收集问题，并计算所需位数的数学期望。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/2774059612",
+      "summary": "正文用交点数的期望和期望线性性推导蒲丰投针的相交概率。"
+    },
+    {
+      "title": "如果我有 2^(-n) 概率获得 2^n 元，那获得钱的数学期望值应该是无穷，但实际不是这样，为什么？",
+      "url": "https://www.zhihu.com/answer/2789083568",
+      "summary": "正文根据概率论中的期望定义说明圣彼得堡游戏中随机收益的期望为正无穷。"
+    },
+    {
+      "title": "E(Y|X)这个符号的含义究竟是什么？",
+      "url": "https://www.zhihu.com/answer/2790824428",
+      "summary": "正文先给出条件期望的求和定义，再把 E(X|Y) 定义为关于 Y 可测的随机变量。"
+    },
+    {
+      "title": "如果我有 2^(-n) 概率获得 2^n 元，那获得钱的数学期望值应该是无穷，但实际不是这样，为什么？",
+      "url": "https://www.zhihu.com/answer/2793720084",
+      "summary": "正文计算截断期望为 N 并令 N 趋于无穷，说明圣彼得堡游戏的数学期望发散。"
+    },
+    {
+      "title": "求问这个六重积分怎么算?",
+      "url": "https://www.zhihu.com/answer/2806297115",
+      "summary": "正文把原六重积分解释为距离倒数随机变量的期望，再通过径向分布计算该期望。"
+    },
+    {
+      "title": "朝地上随意扔一根周长 1 米的环形软绳，绳子包围的面积平均多大？",
+      "url": "https://www.zhihu.com/answer/2808141645",
+      "summary": "正文在无穷维球面上用积分表示曲线面积的期望并讨论其定义。"
+    },
+    {
+      "title": "数学题：​屋子里有15个人，一共23道杠，请问几人阴几人阳？",
+      "url": "https://www.zhihu.com/answer/2808703162",
+      "summary": "正文由假阳性率和假阴性率推出单次检测的期望关系，再对15人的阳性指示变量求和并算得约9人阳性。"
+    },
+    {
+      "title": "概率论的核心逻辑有哪些？",
+      "url": "https://www.zhihu.com/answer/2860203719",
+      "summary": "正文指出概率论借助勒贝格积分严格定义随机变量的期望。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/2897612581",
+      "summary": "正文把连续中奖的奖励瓶数按概率求和，给出一般中奖率下平均中奖瓶数公式，属于期望的应用。"
+    },
+    {
+      "title": "扫雷高级出现8的概率是多少?",
+      "url": "https://www.zhihu.com/answer/2902797580",
+      "summary": "正文末尾用期望可加性说明单个位置出现 8 的概率之和正是棋盘上出现 8 的个数的期望。"
+    },
+    {
+      "title": "平均多少个 [a, b] 间的随机数之和才大于 c？",
+      "url": "https://www.zhihu.com/answer/2910702560",
+      "summary": "正文以随机取数达到目标和的次数为随机变量，利用各可能次数乘概率求和来推导所需次数的期望。"
+    },
+    {
+      "title": "若X服从正态分布，则X的正弦值(sin)、余弦值(cos)是否存在一个概率密度函数(PDF)?",
+      "url": "https://www.zhihu.com/answer/2938141929",
+      "summary": "正文利用正态变量的特征函数，取实部和虚部推导正弦、余弦变换后的数学期望。"
+    },
+    {
+      "title": "为什么ELBO变分推断中，我们认为后验分布很难求？",
+      "url": "https://www.zhihu.com/answer/2985031683",
+      "summary": "正文以 q(z|x) 下对联合概率比值的期望定义 ELBO，并推导其不超过证据对数。"
+    },
+    {
+      "title": "扔骰子直到出现数字 6，骰子点数之和的数学期望是多少？",
+      "url": "https://www.zhihu.com/answer/2993034042",
+      "summary": "正文先按平均六回合估算期望总点数，再用几何型无穷级数严格计算到 21。"
+    },
+    {
+      "title": "如果你有1/G(63)的概率将你的生命延长G(64)年，1-1/G(63)的概率立刻死掉，你接受吗?",
+      "url": "https://www.zhihu.com/answer/3075224172",
+      "summary": "正文按照概率与寿命结果写出期望值 E = G(64) / G(63)，并据此讨论是否接受这个选择。"
+    },
+    {
+      "title": "《我的世界》中的铁砧理论上能使用多少次？",
+      "url": "https://www.zhihu.com/answer/3084394810",
+      "summary": "正文推导几何分布的期望为一除以成功概率，代入百分之十二后得到单阶段期望并相加求出总期望。"
+    },
+    {
+      "title": "如果你有1/G(63)的概率将你的生命延长G(64)年，1-1/G(63)的概率立刻死掉，你接受吗?",
+      "url": "https://www.zhihu.com/answer/3139539484",
+      "summary": "正文逐轮计算奖金与概率的乘积，说明每轮期望收益均为 1，并进一步讨论总期望对决策的含义。"
+    },
+    {
+      "title": "一个人扔六面的骰子，数值1到6，扔到几就向前走几格，可以无限扔，问他恰好走到第2023格的概率是多少?",
+      "url": "https://www.zhihu.com/answer/3175804224",
+      "summary": "正文以可选步长的平均值即数学期望为核心，给出恰好停靠在远距离格点的概率约为期望倒数。"
+    },
+    {
+      "title": "如果每个人都必须在两种颜色之间选择一种：红色还是蓝色？",
+      "url": "https://www.zhihu.com/answer/3178084109",
+      "summary": "正文把其他人的红蓝选择视为概率分布，按三种人数关系分别计算自己选择红或蓝时的活死人结果，并比较数学期望。"
+    },
+    {
+      "title": "为什么受过高等教育的人也会信教？",
+      "url": "https://www.zhihu.com/answer/3227186903",
+      "summary": "正文设定事件概率和不同结果收益，并按概率论中的期望比较帕斯卡赌注的总收益。"
+    },
+    {
+      "title": "8 月全国彩票销售增长 53.6%，前八月彩票销售超3700 亿，增长 51.6%，哪些信息值得关注？",
+      "url": "https://www.zhihu.com/answer/3228143685",
+      "summary": "正文用每投入一百元的中奖回报计算彩票的预期收益与亏损。"
+    },
+    {
+      "title": "除了方差，还有什么数字特征可以描述随机变量的离散程度?",
+      "url": "https://www.zhihu.com/answer/3288542236",
+      "summary": "正文给出离散测度与概率密度下随机变量的均值积分表达式，并据此定义期望。"
+    },
+    {
+      "title": "一个角色有33%的暴击率，每两次连续的攻击都不暴击时，第3次攻击必定暴击，怎么计算她的平均暴击率呀？",
+      "url": "https://www.zhihu.com/answer/3319532295",
+      "summary": "正文把每次暴击记为更新报酬，分别定义 E(R) 与 E(X) 并代入计算期望。"
+    },
+    {
+      "title": "一个角色有33%的暴击率，每两次连续的攻击都不暴击时，第3次攻击必定暴击，怎么计算她的平均暴击率呀？",
+      "url": "https://www.zhihu.com/answer/3324324375",
+      "summary": "正文计算暴击状态首次返回所需步数的期望，并由其倒数得到平均暴击率。"
+    },
+    {
+      "title": "如果我有 2^(-n) 概率获得 2^n 元，那获得钱的数学期望值应该是无穷，但实际不是这样，为什么？",
+      "url": "https://www.zhihu.com/answer/3335822848",
+      "summary": "正文计算该随机变量的期望级数，说明其发散到无穷并讨论实际收益直觉。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/3336291557",
+      "summary": "正文直接计算平方随机变量的期望，并以此确定平方和平均值的集中中心。"
+    },
+    {
+      "title": "如何看待《少女前线2》黛烟活动追缉第三关要求投10次骰子，点数总和不小于33？",
+      "url": "https://www.zhihu.com/answer/3339495200",
+      "summary": "正文用十次骰子点数总和的数学期望为 35 来讨论活动阈值，是期望概念的具体应用。"
+    },
+    {
+      "title": "原神抽卡中的综合概率指的是什么？",
+      "url": "https://www.zhihu.com/answer/3343322370",
+      "summary": "正文给出几何分布的期望公式，并用倒数估计五星角色的平均命中概率。"
+    },
+    {
+      "title": "某海鲜馆为回报顾客开展了活动，每次光顾均可以获得“我爱吃鱼”中任意一张牌，那么光顾次数的期望是多少？",
+      "url": "https://www.zhihu.com/answer/3373376633",
+      "summary": "正文分别用 Min-Max 容斥和泊松过程推导集齐一套及多套卡片的期望抽数，是完整的期望计算。"
+    },
+    {
+      "title": "连续抛了10000次硬币，每次正反概率1/2，问最多几连正的概率最大？",
+      "url": "https://www.zhihu.com/answer/3444769341",
+      "summary": "用片段计数的期望确定泊松分布参数，并由该期望计算最大连正长度的概率。"
+    },
+    {
+      "title": "如何理解 MSELoss ？",
+      "url": "https://www.zhihu.com/answer/3449214848",
+      "summary": "正文用条件期望表示同一输入下的最优预测，并在外取期望后推导 MSE 的分解。"
+    },
+    {
+      "title": "连续抛了10000次硬币，每次正反概率1/2，问最多几连正的概率最大？",
+      "url": "https://www.zhihu.com/answer/3450867006",
+      "summary": "正文以指定连续长度事件出现次数的期望介于一次和两次之间作为建立近似方程的判据。"
+    },
+    {
+      "title": "“剪刀石头布”游戏中，出什么胜算最大？",
+      "url": "https://www.zhihu.com/answer/3490613919",
+      "summary": "正文建立收益矩阵并写出双方期望收益，按获胜、平局和失败计算具体期望值。"
+    },
+    {
+      "title": "一门百发百中的大炮和一百门百发一中的大炮对射，最可能的结果是什么？",
+      "url": "https://www.zhihu.com/answer/3510534560",
+      "summary": "正文用 E=Σ aP(kill=a) 明确定义并计算可换掉大炮数量的期望值。"
+    },
+    {
+      "title": "泊松分布的现实意义是什么，为什么现实生活多数服从于泊松分布？",
+      "url": "https://www.zhihu.com/answer/3516101700",
+      "summary": "正文用等待时间和平均试验次数具体解释几何分布与指数分布的数学期望。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/3548990702",
+      "summary": "正文明确以每年 2 个作为泊松分布的期望参数，并用 λ=2 得到概率 7/e²。"
+    },
+    {
+      "title": "如果每天有1%的概率死亡，50天后解除并获得10万人民币，你参加吗？",
+      "url": "https://www.zhihu.com/answer/3569437024",
+      "summary": "正文先计算连续存活五十天的概率，再用奖金乘以该概率计算方案的条件收益期望。"
+    },
+    {
+      "title": "百分之一概率跟六百分之六概率，实际发生的几率一样吗？",
+      "url": "https://www.zhihu.com/answer/3581528025",
+      "summary": "正文区分单次试验关注波动、多次重复关注期望，并据此讨论彩票的负期望。"
+    },
+    {
+      "title": "我好像发现了一个统计学上的规律，有人能给出证明吗？",
+      "url": "https://www.zhihu.com/answer/3585013787",
+      "summary": "正文围绕取整后的正态样本讨论观测误差的偏差，指出该误差通常不是关于零的无偏估计。"
+    },
+    {
+      "title": "我好像发现了一个统计学上的规律，有人能给出证明吗？",
+      "url": "https://www.zhihu.com/answer/3586550783",
+      "summary": "正文将四舍五入误差的期望写成密度函数的积分，并围绕该期望为常数展开计算。"
+    },
+    {
+      "title": "我好像发现了一个统计学上的规律，有人能给出证明吗？",
+      "url": "https://www.zhihu.com/answer/3588361656",
+      "summary": "正文计算量化输出的期望及其相对真实亮度的偏差，并讨论该偏差在一个量化周期内的平均是否为零。"
+    },
+    {
+      "title": "如果我有一个葫芦原本可以饮用X次，每次饮用葫芦有概率p不消耗次数，葫芦可以饮用次数的期望是多少？",
+      "url": "https://www.zhihu.com/answer/3608998804",
+      "summary": "正文由每次消耗次数的概率推出葫芦饮用次数的期望，并用求和恒等式重新计算验证。"
+    },
+    {
+      "title": "如何评价第三方网站统计的原神5.0上半卡池小保底不歪率仅为50.49%?",
+      "url": "https://www.zhihu.com/answer/3610387853",
+      "summary": "正文计算几何分布的平均抛掷次数 E(X)=1/p，并用它说明停止策略不会改变最终抛到正面的概率。"
+    },
+    {
+      "title": "Diffusion中去噪过程为什么不用q(xt-1|xt)而是q(xt-1|xt,x0)?",
+      "url": "https://www.zhihu.com/answer/11042186867",
+      "summary": "正文以均方误差最小化解释条件期望为何是 diffusion 去噪模型的预测目标。"
+    },
+    {
+      "title": "如何证明如下概率论不等式？",
+      "url": "https://www.zhihu.com/answer/27576175435",
+      "summary": "正文利用期望与示性函数把概率和下界转化为二阶矩、一阶矩之间的关系。"
+    },
+    {
+      "title": "今天看到一个路边小游戏，参与一次一块钱，可以指定一个方向（顺时针或者逆时针），如何可以提高赢得概率？",
+      "url": "https://www.zhihu.com/answer/28946481294",
+      "summary": "正文将每个结果的概率与收益相乘后求和，明确计算并比较两种选择下的期望收益。"
+    },
+    {
+      "title": "为什么高维空间下距离度量逐渐失效？",
+      "url": "https://www.zhihu.com/answer/62648611549",
+      "summary": "正文推导高维随机点间平方距离的期望，说明其随维数线性增长。"
+    },
+    {
+      "title": "你们觉得数字 1 2 3 4 5 6 7 8 9 10 分别是什么颜色的？",
+      "url": "https://www.zhihu.com/answer/67685166974",
+      "summary": "正文以RGB分量均值概括70份样本的整体颜色趋势，体现平均值或期望的统计思想。"
+    },
+    {
+      "title": "如何评价《崩坏·星穹铁道》于2025年1月1日的3.0前瞻直播？",
+      "url": "https://www.zhihu.com/answer/69393727037",
+      "summary": "正文比较两种抽奖方案的每日期望收益，并用各结果概率计算总收益期望。"
+    },
+    {
+      "title": "如果你有资格给中学生们增加一门课，你会给他们增加什么课？",
+      "url": "https://www.zhihu.com/answer/76281648777",
+      "summary": "正文定义期望值的算法，并以彩票中奖概率和奖金为例计算长期平均回报。"
+    },
+    {
+      "title": "一个按钮，按下50%概率把你所有资产*0.1，50%概率把你所有资产*9，那么这个按钮应该按吗？",
+      "url": "https://www.zhihu.com/answer/85456804387",
+      "summary": "正文用各结果收益与其概率的加权和定义资产乘数的期望，并分析期望随按压次数增长。"
+    },
+    {
+      "title": "为什么几乎所有游戏都不愿意把概率（命中率）做成真实的概率？",
+      "url": "https://www.zhihu.com/answer/90885358054",
+      "summary": "正文写出几何分布的期望级数并计算得到一点成功概率的倒数。"
+    },
+    {
+      "title": "能不能分享一些反直觉的概率论问题?",
+      "url": "https://www.zhihu.com/answer/98150559392",
+      "summary": "正文定义随机变量并用期望计算赌局的理论收益。"
+    },
+    {
+      "title": "如果若干个赌徒一直赌下去，直至资金亏完，赌博过程中的最高资金是多少？",
+      "url": "https://www.zhihu.com/answer/124600768894",
+      "summary": "正文围绕最高资金的期望展开推导，并讨论其与初始资金、单局期望和步长的关系。"
+    },
+    {
+      "title": "有哪些看似简单但极其实用的估计方法？它们如何悄悄解决现实难题？",
+      "url": "https://www.zhihu.com/answer/129044761457",
+      "summary": "正文把蒙特卡洛的第一步明确表述为构造模型并将待求解量转化为随机变量的期望。"
+    },
+    {
+      "title": "如果若干个赌徒一直赌下去，直至资金亏完，赌博过程中的最高资金是多少？",
+      "url": "https://www.zhihu.com/answer/130476785034",
+      "summary": "正文利用条件期望和停时计算资金过程的期望，并分析最高资金均值的发散性。"
+    },
+    {
+      "title": "强化学习中action value减去state value之后怎么就减小了方差，方差不是不变吗？",
+      "url": "https://www.zhihu.com/answer/1891095552030115567",
+      "summary": "正文把状态价值解释为动作价值的条件期望，并用它构造优势函数。"
+    },
+    {
+      "title": "“100%概率获得200万”和“99%概率获得2个亿”，你选哪个？",
+      "url": "https://www.zhihu.com/answer/1892665472685696417",
+      "summary": "正文在概率收益选择中比较期望式的加权收益，并引入边际效益与心理负担来修正决策。"
+    },
+    {
+      "title": "“100%概率获得200万”和“99%概率获得2个亿”，你选哪个？",
+      "url": "https://www.zhihu.com/answer/1895883046076535756",
+      "summary": "正文把 99% 概率获得 2 亿元的集体结果平摊，得出人均趋近于 1.98 亿元，实际展示了概率收益的期望计算。"
+    },
+    {
+      "title": "费雪信息 (Fisher information) 的直观意义是什么？",
+      "url": "https://www.zhihu.com/answer/1900425982919278733",
+      "summary": "正文用得分函数的期望为零推出 Fisher 信息等于得分函数平方的期望。"
+    },
+    {
+      "title": "两把武器，一把攻击1～5，一把2～4，从数据角度，哪把更厉害？",
+      "url": "https://www.zhihu.com/answer/1905755715102024070",
+      "summary": "正文分别计算两把武器的溢出伤害期望，并以期望值判断实际所需伤害和攻击次数。"
+    },
+    {
+      "title": "0-100猜数字，可以知道大了小了，那第一次应该猜50还是64还是63？",
+      "url": "https://www.zhihu.com/answer/1907862044130149495",
+      "summary": "正文把猜中、猜大、猜小三种结果按概率加权求平均，直接计算猜测次数的期望。"
+    },
+    {
+      "title": "为什么高维空间下距离度量逐渐失效？",
+      "url": "https://www.zhihu.com/answer/1937918472811177650",
+      "summary": "正文计算坐标差和距离平方的期望，并用期望随维数线性增长说明典型距离尺度。"
+    },
+    {
+      "title": "为什么高维空间下距离度量逐渐失效？",
+      "url": "https://www.zhihu.com/answer/1938568554292184103",
+      "summary": "正文求出随机点对距离平方的期望为2dσ²，并据此分析其随维度增长的行为。"
+    },
+    {
+      "title": "如何理解法图（Fatou）引理？",
+      "url": "https://www.zhihu.com/answer/1947426162881075159",
+      "summary": "正文把 Fatou 引理改写为随机变量期望的形式，并用平均值解释不等号两侧的含义。"
+    },
+    {
+      "title": "为什么理论上掷三个骰子，掷出豹子的概率是1/36（三骰面相同），但实际生活中，感觉概率明显要低得多？",
+      "url": "https://www.zhihu.com/answer/1949171886987645247",
+      "summary": "正文把 36 次解释为单次概率 1/36 所对应的数学期望，并区分期望值与获得高把握所需的重复次数。"
+    },
+    {
+      "title": "有一百万只鸡，每次从有腿的鸡中抽取一只砍掉一条腿，重复一百万次，最后数学期望下还有多少完好的鸡？",
+      "url": "https://www.zhihu.com/answer/1950653918443966989",
+      "summary": "正文围绕最终完好鸡数量的数学期望，并通过重复随机模拟的平均值估计比例。"
+    },
+    {
+      "title": "有一百万只鸡，每次从有腿的鸡中抽取一只砍掉一条腿，重复一百万次，最后数学期望下还有多少完好的鸡？",
+      "url": "https://www.zhihu.com/answer/1950672341639074237",
+      "summary": "正文直接求最终完好鸡数量在期望意义下的比例，并给出 0.3178N。"
+    },
+    {
+      "title": "为什么理论上掷三个骰子，掷出豹子的概率是1/36（三骰面相同），但实际生活中，感觉概率明显要低得多？",
+      "url": "https://www.zhihu.com/answer/1950951646243853915",
+      "summary": "正文以平均获胜次数为中心比较实际结果，并讨论试验次数增加时期望值线性增长。"
+    },
+    {
+      "title": "有一百万只鸡，每次从有腿的鸡中抽取一只砍掉一条腿，重复一百万次，最后数学期望下还有多少完好的鸡？",
+      "url": "https://www.zhihu.com/answer/1951561235943367312",
+      "summary": "正文计算每一步增量的数学期望，并据此更新两类鸡的期望占比。"
+    },
+    {
+      "title": "请问正态分布公式是如何发现或计算出来的？",
+      "url": "https://www.zhihu.com/answer/1968862550155306934",
+      "summary": "正文把期望值解释为大量实验结果的理论平均值，并通过对对称样本求平均得到 μ。"
+    },
+    {
+      "title": "一根 1m 长的玻璃棒，摔倒地上断成 3 段，最短一段的平均值是多少？",
+      "url": "https://www.zhihu.com/answer/1974996845127308941",
+      "summary": "正文将最短段平均值写成各段长度最小值的期望，并利用排列对称性求期望。"
+    },
+    {
+      "title": "为什么“人均预期寿命”是比“平均死亡年龄”更有价值的指标?",
+      "url": "https://www.zhihu.com/answer/1976824750887159560",
+      "summary": "正文用两个人群规模的加权平均建立方程，说明总体平均指标如何由各群体平均值与人数比例共同决定。"
+    },
+    {
+      "title": "泊松分布的现实意义是什么，为什么现实生活多数服从于泊松分布？",
+      "url": "https://www.zhihu.com/answer/1978118133635097669",
+      "summary": "正文以级数求导等方法逐项推导几何分布及多种分布的期望。"
+    },
+    {
+      "title": "如何计算一维等概率随机游走中曾经最远到达距离的期望？",
+      "url": "https://www.zhihu.com/answer/1979397333759317658",
+      "summary": "正文利用尾概率求和公式给出历史最远距离期望的精确级数表达式。"
+    },
+    {
+      "title": "我好像发现了一个统计学上的规律，有人能给出证明吗？",
+      "url": "https://www.zhihu.com/answer/1981026225045664314",
+      "summary": "正文定义量化后随机变量的均值偏差，并通过积分计算其期望。"
+    },
+    {
+      "title": "我好像发现了一个统计学上的规律，有人能给出证明吗？",
+      "url": "https://www.zhihu.com/answer/1981327516930158630",
+      "summary": "正文将量化偏差定义为量化后变量的期望减原均值，并通过傅里叶级数计算该期望。"
+    },
+    {
+      "title": "概率是不是一个伪概念，就和宗教一样?",
+      "url": "https://www.zhihu.com/answer/1983610720231892078",
+      "summary": "正文用下一局期望收益解释为何依赖历史结果的投注策略不能保证盈利。"
+    },
+    {
+      "title": "为什么分母从n变成n-1之后，就从【有偏估计】变成了【无偏估计】？",
+      "url": "https://www.zhihu.com/answer/1984547785727566624",
+      "summary": "正文对离差平方和等式取期望，推导出其期望为 (n-1)σ²，从而证明除以 n-1 才能得到总体方差的无偏估计。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1987170736398434353",
+      "summary": "正文把指数分布参数 μ 解释为全社会平均财富，即该随机变量的期望值。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1987319188881158541",
+      "summary": "正文用 λ=np 表示二项分布的期望，并解释其为人均有效缓冲次数。"
+    },
+    {
+      "title": "美国斩杀线为什么刚好在1/e附近？",
+      "url": "https://www.zhihu.com/answer/1988095623006806522",
+      "summary": "正文给出随机分配模型中最大占用数的期望渐近估计，并用模拟数据比较该期望。"
+    },
+    {
+      "title": "有一百万只鸡，每次从有腿的鸡中抽取一只砍掉一条腿，重复一百万次，最后数学期望下还有多少完好的鸡？",
+      "url": "https://www.zhihu.com/answer/1988621612786934888",
+      "summary": "正文估计大量重复抽取后两脚鸡的长期比例，并用大样本模拟计算该过程的期望结果。"
+    },
+    {
+      "title": "人为什么会随年龄而保守?",
+      "url": "https://www.zhihu.com/answer/1988988948022857994",
+      "summary": "正文以未来折扣回报之和的期望作为优化目标，定义并解释基廷斯指数。"
+    },
+    {
+      "title": "有一百万只鸡，每次从有腿的鸡中抽取一只砍掉一条腿，重复一百万次，最后数学期望下还有多少完好的鸡？",
+      "url": "https://www.zhihu.com/answer/1997461316059804240",
+      "summary": "正文将所求转化为完好鸡数的期望，并利用分布列点乘求和求数学期望。"
+    },
+    {
+      "title": "单位圆上随意取三点，那么这三点围成三角形面积的期望是多少？",
+      "url": "https://www.zhihu.com/answer/1998773962084202393",
+      "summary": "正文用每个三角形面积乘其古典概率并求和，计算单位圆上随机三角形的面积期望。"
+    },
+    {
+      "title": "正态分布的公式是怎么推出来的？",
+      "url": "https://www.zhihu.com/answer/2001848323745789365",
+      "summary": "正文定义连续随机变量的期望，并说明大量重复实验结果的平均值趋近于对称中心 μ。"
+    },
+    {
+      "title": "求在单位圆内随机三角形构成面积的期望？",
+      "url": "https://www.zhihu.com/answer/2002072719882216582",
+      "summary": "正文以全空间积分除以概率测度求随机三角形面积的期望，并在条件期望中利用期望的线性性。"
+    },
+    {
+      "title": "如何求P(AB)-P(A)P(B)的取值范围？",
+      "url": "https://www.zhihu.com/answer/2014747461978169600",
+      "summary": "正文由示性函数两种取值的概率计算其期望，并进一步利用乘积的期望求联合事件概率。"
+    },
+    {
+      "title": "不断抛掷一枚均匀硬币，直到连续出现314次正面时停止，抛掷次数的期望是多少？",
+      "url": "https://www.zhihu.com/answer/2014757442941113662",
+      "summary": "正文借每轮成功的概率倒数求得期望轮数，再换算成总抛掷次数的期望。"
+    },
+    {
+      "title": "不断抛掷一枚均匀硬币，直到连续出现314次正面时停止，抛掷次数的期望是多少？",
+      "url": "https://www.zhihu.com/answer/2015063075607307413",
+      "summary": "正文把达到连续 n 个正面的平均等待次数定义为期望，并通过条件期望建立方程。"
+    },
+    {
+      "title": "有了方差为什么还需要标准差？",
+      "url": "https://www.zhihu.com/answer/2015995526022198403",
+      "summary": "正文利用期望的平移性推导标准化随机变量的期望值，说明常数平移如何作用于随机变量。"
+    },
+    {
+      "title": "有没有比较有用但中学不学的数学定理？",
+      "url": "https://www.zhihu.com/answer/2016728489156424284",
+      "summary": "正文推导方差与二阶矩的关系，并把P到一组点的平方距离写成到均值点距离与方差之和。"
+    },
+    {
+      "title": "波动率、隐含波动率到底是什么?",
+      "url": "https://www.zhihu.com/answer/2019579059529610161",
+      "summary": "正文用重复实验平均值和加权求和定义期望，并讨论样本均值向真实期望收敛。"
+    },
+    {
+      "title": "如果我有 2^(-n) 概率获得 2^n 元，那获得钱的数学期望值应该是无穷，但实际不是这样，为什么？",
+      "url": "https://www.zhihu.com/answer/2028217491197829674",
+      "summary": "正文计算圣彼得堡彩票收益概率与金额的乘积之和，说明其期望为无穷大。"
+    },
+    {
+      "title": "你可以介绍一个冷门但改变世界的数学模型吗？",
+      "url": "https://www.zhihu.com/answer/2028625889261305995",
+      "summary": "正文比较金融随机变量函数的期望变化，指出波动率和二阶导数共同产生伊藤修正项。"
+    },
+    {
+      "title": "有哪些令人为之惊叹的数学题目？",
+      "url": "https://www.zhihu.com/answer/2030799306660238016",
+      "summary": "正文以两个信封游戏中换与不换的期望收益比较，分析悖论中期望计算的前提错误。"
+    },
+    {
+      "title": "一个人蠢起来能有多蠢？",
+      "url": "https://www.zhihu.com/answer/2034374068921701973",
+      "summary": "正文计算单局平均奖罚为负十六元，并解释均值受小概率大金额事件拉高。"
+    },
+    {
+      "title": "如何理解条件期望？",
+      "url": "https://www.zhihu.com/answer/2037304093081872064",
+      "summary": "正文从古典条件平均出发，说明现代条件期望仍是在各信息区域上取值并按局部积分匹配。"
+    },
+    {
+      "title": "随机过程中，怎样较为通俗地理解「停时」这个概念（书上的一般都是公理化的定义，不好理解）？",
+      "url": "https://www.zhihu.com/answer/2037988104154386564",
+      "summary": "正文从公平赌博的期望定义出发，计算倍赌策略的总收益和期望收益，并通过反例说明无界性条件。"
+    },
+    {
+      "title": "鞅到底是什么？能否用通俗的话语来解释一下？",
+      "url": "https://www.zhihu.com/answer/2038304851088646470",
+      "summary": "正文用条件期望等于当前值解释鞅的公平性，并说明未来估计与当前状态的关系。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/2041077770424427359",
+      "summary": "正文用一万个平行赌局计算每一局的算术平均收益，明确解释并区分期望值。"
+    },
+    {
+      "title": "什么是反事实分析呀？",
+      "url": "https://www.zhihu.com/answer/2045199666086662715",
+      "summary": "正文分别计算采取与不采取防范措施时的期望损失，并由此推导汉德公式的决策条件。"
+    },
+    {
+      "title": "概率（Probability）的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2051224003885393649",
+      "summary": "正文以样本空间上的积分给出随机变量的期望公式，说明期望可在概率公理体系中计算。"
+    },
+    {
+      "title": "概率（Probability）的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2052625091071047667",
+      "summary": "正文明确把期望定义为随机变量关于概率测度的勒贝格积分。"
+    },
+    {
+      "title": "统计学中「矩」这个概念是怎么引入的？它为什么被称为矩？它与物理意义上的矩有什么相同与不同？",
+      "url": "https://www.zhihu.com/answer/2052934968792429320",
+      "summary": "正文把数据的一阶矩解释为均值，并说明用前五阶矩列方程进行参数估计。"
+    },
+    {
+      "title": "每次从 [0,1] 中随机选一个实数, 当某一步选到的数小于上一步的数时就停止选取,求停时的数的期望？",
+      "url": "https://www.zhihu.com/answer/2066069969226430309",
+      "summary": "正文以条件期望建立函数方程，并据此求最终停时取值的期望。"
+    },
+    {
+      "title": "香农是如何想到信息论的？",
+      "url": "https://www.zhihu.com/answer/2067759178983248069",
+      "summary": "正文把香农熵明确解释为各结果自信息量按概率加权得到的期望，并代入手算例说明平均信息量。"
+    },
+    {
+      "title": "是否存在四个不全相等的实数，使得它们的中位数、平均数、极差和方差恰好是这四个数？",
+      "url": "https://www.zhihu.com/answer/2069855811816502157",
+      "summary": "正文把平均数作为四个统计量之一，并用四个数的和除以四建立方程参与求解。"
+    },
+    {
+      "title": "做一个有头脑的赌徒",
+      "url": "https://zhuanlan.zhihu.com/p/19816652",
+      "summary": "正文计算轮盘赌不同下注策略的期望收益，并说明改变策略可改变胜率但不能改变期望。"
+    },
+    {
+      "title": "线性模型的异方差问题",
+      "url": "https://zhuanlan.zhihu.com/p/20046060",
+      "summary": "正文讨论条件期望不为零无法直接检验，并用它判断遗漏变量造成的估计偏差。"
+    },
+    {
+      "title": "每次均匀随机走0-1米，走100米需要几次？",
+      "url": "https://zhuanlan.zhihu.com/p/20056219",
+      "summary": "正文给出跨过给定距离所需步数的期望近似公式，并代入单步期望长度求出一百米的期望步数。"
+    },
+    {
+      "title": "10036 赌徒的长征(3)——鞅的停时定理",
+      "url": "https://zhuanlan.zhihu.com/p/20280190",
+      "summary": "正文区分无条件期望与给定历史后的条件期望，并用其推导鞅在有限时刻的期望不变。"
+    },
+    {
+      "title": "凯利公式（Kelly Criterion）",
+      "url": "https://zhuanlan.zhihu.com/p/21084686",
+      "summary": "正文用赢输概率和对应收益计算下注的期望收益，并据此比较不同下注比例。"
+    },
+    {
+      "title": "求敏感度（Greeks或Sensitivities）的常用算法",
+      "url": "https://zhuanlan.zhihu.com/p/21335779",
+      "summary": "正文从定价值的期望表示出发，推导似然比率估计量，展开了随机变量期望的应用。"
+    },
+    {
+      "title": "玩转贝叶斯分析",
+      "url": "https://zhuanlan.zhihu.com/p/22455079",
+      "summary": "正文在贝叶斯决策中用后验分布计算条件期望，再选择期望收益最大的行动。"
+    },
+    {
+      "title": "期权定价笔记",
+      "url": "https://zhuanlan.zhihu.com/p/22754445",
+      "summary": "正文用到期收益的期望与折现因子表示期权当前价格，具体计算和研究随机变量期望。"
+    },
+    {
+      "title": "VAE(2)——基本思想",
+      "url": "https://zhuanlan.zhihu.com/p/22464764",
+      "summary": "正文把对数边缘似然分解为 q(z) 下似然的期望与 KL 项，并用期望和 KL 的优化解释变分下界。"
+    },
+    {
+      "title": "广义线性模型（Generalized Linear Model）",
+      "url": "https://zhuanlan.zhihu.com/p/22876460",
+      "summary": "正文把 GLM 的预测函数建立在响应变量关于输入的条件期望上，并用该假设推导具体模型输出。"
+    },
+    {
+      "title": "金融学界无人不知的资本资产定价模型",
+      "url": "https://zhuanlan.zhihu.com/p/23034246",
+      "summary": "正文把资产预期收益拆成无风险收益与风险补偿，并说明预期收益由市场敏感度 β 决定。"
+    },
+    {
+      "title": "为什么你的朋友比你更受欢迎——生活中的运筹学【0】",
+      "url": "https://zhuanlan.zhihu.com/p/23302653",
+      "summary": "正文用离散随机变量的期望比较个人朋友数与朋友的朋友数。"
+    },
+    {
+      "title": "浅谈条件期望",
+      "url": "https://zhuanlan.zhihu.com/p/23670286",
+      "summary": "正文把条件概率表述为示性函数的条件期望，并继续讨论条件期望作为随机变量的含义。"
+    },
+    {
+      "title": "鞅与停时与赌徒必胜策略与生男生女（上）",
+      "url": "https://zhuanlan.zhihu.com/p/24460319",
+      "summary": "正文由鞅的条件期望等式推出各时刻期望不变，从而把鞅解释为公平过程。"
+    },
+    {
+      "title": "鞅与停时与赌徒必胜策略与生男生女（下）",
+      "url": "https://zhuanlan.zhihu.com/p/24673131",
+      "summary": "正文以停止时刻的期望和初始期望相等解释公平赌博，并用可选停时定理讨论赌徒策略。"
+    },
+    {
+      "title": "统计基础篇之十二：怎么理解正态分布(一)",
+      "url": "https://zhuanlan.zhihu.com/p/24732117",
+      "summary": "正文把正态分布的 μ 明确解释为均值，并说明均值决定分布曲线的位置。"
+    },
+    {
+      "title": "我为什么买彩票——战胜大乐透 中级篇",
+      "url": "https://zhuanlan.zhihu.com/p/24894380",
+      "summary": "正文按不同修正情形计算彩票中奖收益的期望值，并据此比较购买策略的收益。"
+    },
+    {
+      "title": "令人拍案叫绝的Wasserstein GAN",
+      "url": "https://zhuanlan.zhihu.com/p/25071913",
+      "summary": "正文用联合分布下的样本距离期望定义 Wasserstein 距离。"
+    },
+    {
+      "title": "克里金(Kriging)插值的原理与公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/25377842",
+      "summary": "正文把普通克里金的均一期望假设用于无偏条件推导。"
+    },
+    {
+      "title": "变分自编码器（VAEs）",
+      "url": "https://zhuanlan.zhihu.com/p/25401928",
+      "summary": "正文在变分下界中计算分布期望，并用蒙特卡罗采样估计该期望。"
+    },
+    {
+      "title": "一道数学题：个体理性与群体非理性",
+      "url": "https://zhuanlan.zhihu.com/p/25706188",
+      "summary": "正文把带随机折现因子的期望矩记为 F_t，并通过比较相邻期望的比值研究总体折现行为。"
+    },
+    {
+      "title": "期望最大化(EM)算法真如用起来那么简单？",
+      "url": "https://zhuanlan.zhihu.com/p/25799397",
+      "summary": "正文引入隐变量分布 Qi，把似然下界中的加权和解释为数学期望，并据此完成 EM 推导。"
+    },
+    {
+      "title": "通过几个例子理解博弈论与纳什均衡",
+      "url": "https://zhuanlan.zhihu.com/p/25781797",
+      "summary": "正文为混合策略设定概率并计算双方在不同出法下的期望收益，据此判断是否参与游戏。"
+    },
+    {
+      "title": "强化学习入门 第四讲 时间差分法（TD方法）",
+      "url": "https://zhuanlan.zhihu.com/p/25913410",
+      "summary": "正文从期望角度说明蒙特卡罗估计无偏、时间差分估计因使用估计值而有偏。"
+    },
+    {
+      "title": "那些你知道的和你不知道的性质(I):从简单的一维高斯分布讲起",
+      "url": "https://zhuanlan.zhihu.com/p/24874304",
+      "summary": "正文围绕高斯随机变量的均值展开，说明正态分布由均值与方差确定，并给出和差的均值规律。"
+    },
+    {
+      "title": "通俗理解条件熵",
+      "url": "https://zhuanlan.zhihu.com/p/26551798",
+      "summary": "正文明确指出条件熵是对各条件类别下 Y 的熵按 X 的取值概率求数学期望。"
+    },
+    {
+      "title": "读了本文，你就懂了概率分布",
+      "url": "https://zhuanlan.zhihu.com/p/26810566",
+      "summary": "正文用抽奖收益与成本说明期望公式，并据此比较两套方案的平均结果。"
+    },
+    {
+      "title": "实时渲染中的软阴影技术",
+      "url": "https://zhuanlan.zhihu.com/p/26853641",
+      "summary": "正文由两侧深度及其概率推导遮挡深度的期望，并用于后续概率上界计算。"
+    },
+    {
+      "title": "赌徒谬误：赌博与大数定律丨张天蓉专栏",
+      "url": "https://zhuanlan.zhihu.com/p/26929562",
+      "summary": "正文以轮盘和圣彼得堡游戏为例，按结果概率加权计算收益期望值。"
+    },
+    {
+      "title": "均值、众数、中位数不同分布中的值比较",
+      "url": "https://zhuanlan.zhihu.com/p/27095801",
+      "summary": "正文说明均值受极端值拉动而变化，并据此解释偏态分布中均值与中位数的位置关系。"
+    },
+    {
+      "title": "几何分布和二项分布",
+      "url": "https://zhuanlan.zhihu.com/p/27648686",
+      "summary": "正文定义数学期望，并列出几何分布与二项分布的期望公式。"
+    },
+    {
+      "title": "Black-Schole公式中N(d1)到底有什么意义",
+      "url": "https://zhuanlan.zhihu.com/p/27918823",
+      "summary": "正文给出同一随机过程在两种概率测度下的期望值变换关系，并用它推导期权定价中的两项。"
+    },
+    {
+      "title": "《强化学习》第二讲 马尔科夫决策过程",
+      "url": "https://zhuanlan.zhihu.com/p/28084942",
+      "summary": "正文用条件期望定义马尔科夫奖励过程在给定状态下的价值函数。"
+    },
+    {
+      "title": "从1~N的整数中随机选M个",
+      "url": "https://zhuanlan.zhihu.com/p/28109468",
+      "summary": "正文利用几何分布均值计算得到新随机元素所需的平均抽样次数。"
+    },
+    {
+      "title": "常用不等式",
+      "url": "https://zhuanlan.zhihu.com/p/28250221",
+      "summary": "正文以期望和函数凹凸性陈述詹森不等式，并说明期望形式与上下界估计。"
+    },
+    {
+      "title": "一文秒懂概率分布",
+      "url": "https://zhuanlan.zhihu.com/p/28309212",
+      "summary": "正文给出二项分布和几何分布的期望公式，并用抛硬币、投资与表白次数解释期望含义。"
+    },
+    {
+      "title": "从贝叶斯定理到概率分布：综述概率论基本定义",
+      "url": "https://zhuanlan.zhihu.com/p/29503509",
+      "summary": "正文给出多个分布的期望公式，并用均值解释随机变量的集中趋势。"
+    },
+    {
+      "title": "一道有趣的条件概率题（解答）",
+      "url": "https://zhuanlan.zhihu.com/p/29576756",
+      "summary": "正文计算掷骰停止次数的条件期望，得到答案为3/2。"
+    },
+    {
+      "title": "《Quantitative Finance》读书笔记4：随机微积分初步",
+      "url": "https://zhuanlan.zhihu.com/p/30292226",
+      "summary": "正文用条件期望定义鞅性质，并通过随机游走财富过程解释其含义。"
+    },
+    {
+      "title": "高斯混合模型（GMM）",
+      "url": "https://zhuanlan.zhihu.com/p/30483076",
+      "summary": "正文把高斯分布参数解释为数据均值与期望，并在 EM 的 E 步中实际计算隐变量责任的期望。"
+    },
+    {
+      "title": "特征函数期权定价法1",
+      "url": "https://zhuanlan.zhihu.com/p/26790717",
+      "summary": "正文构造伪概率密度 f^*(x)，把看涨期权价格中的 I1 化为新测度下的期望。"
+    },
+    {
+      "title": "机器学习入门：重要的概念---信息熵（Shannon’s Entropy Model）",
+      "url": "https://zhuanlan.zhihu.com/p/30854084",
+      "summary": "正文先定义数学期望，再把信息量按结果概率加权求和，从而把信息熵解释为平均信息量。"
+    },
+    {
+      "title": "别去赌场了，你永远赢不了“凯利公式”",
+      "url": "https://zhuanlan.zhihu.com/p/31265564",
+      "summary": "正文具体定义赌博及投资中的期望值，并用其正负决定是否下注。"
+    },
+    {
+      "title": "如何战胜大乐透 高级篇",
+      "url": "https://zhuanlan.zhihu.com/p/31702103",
+      "summary": "正文依据各等级奖金的概率和金额计算彩票购买返奖的数学期望。"
+    },
+    {
+      "title": "人人都会做的普特南试题（William Lowell Putnam Mathematical Competition）（1）",
+      "url": "https://zhuanlan.zhihu.com/p/32456812",
+      "summary": "正文把局部最大值总数的平均拆成各位置指示变量的期望和，并利用线性期望求出结果。"
+    },
+    {
+      "title": "高斯混合模型(GMM)的两种详解及简化",
+      "url": "https://zhuanlan.zhihu.com/p/33265462",
+      "summary": "正文定义在隐变量后验分布下对数联合概率的条件期望，并据此执行 EM 的 E 步。"
+    },
+    {
+      "title": "OLS 线性回归的性质：高斯马尔科夫定理",
+      "url": "https://zhuanlan.zhihu.com/p/34119477",
+      "summary": "正文用估计量期望定义偏差和无偏性，并逐步计算OLS估计的期望。"
+    },
+    {
+      "title": "期望和均值的区别",
+      "url": "https://zhuanlan.zhihu.com/p/34150914",
+      "summary": "正文区分样本均值与随机变量期望，并说明样本量增大时均值趋近期望。"
+    },
+    {
+      "title": "随机分析的应用 (一)：简单随机量的计算",
+      "url": "https://zhuanlan.zhihu.com/p/34639255",
+      "summary": "正文通过可行停时和鞅性质计算随机游走退出时间的期望。"
+    },
+    {
+      "title": "从最大似然到EM算法：一致的理解方式",
+      "url": "https://zhuanlan.zhihu.com/p/34711589",
+      "summary": "正文解释 EM 算法 E 步如何对隐变量的条件分布求期望并构造 Q 函数。"
+    },
+    {
+      "title": "02.[必读]均值、方差、标准差",
+      "url": "https://zhuanlan.zhihu.com/p/35435231",
+      "summary": "正文把期望解释为大量重复试验后的预期均值，并按各取值概率加权计算随机变量期望。"
+    },
+    {
+      "title": "EM算法",
+      "url": "https://zhuanlan.zhihu.com/p/35698329",
+      "summary": "正文专节定义离散型和连续型随机变量的数学期望，并将其用于 Jensen 不等式和 EM 下界的推导。"
+    },
+    {
+      "title": "计量经济学证明常需要用的一些定理",
+      "url": "https://zhuanlan.zhihu.com/p/35756859",
+      "summary": "正文通过积分展开证明迭代期望定律，即无条件期望等于条件期望的加权平均。"
+    },
+    {
+      "title": "Wasserstein距离在生成模型中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/35879231",
+      "summary": "正文以联合分布下搬运距离的期望下确界定义 Wasserstein 距离。"
+    },
+    {
+      "title": "基于物理的环境光渲染一",
+      "url": "https://zhuanlan.zhihu.com/p/34741174",
+      "summary": "正文分别给出离散和连续随机变量期望的计算式，并列出期望的线性性质。"
+    },
+    {
+      "title": "帕斯卡分布：两个数学期望，一个方差？",
+      "url": "https://zhuanlan.zhihu.com/p/36270529",
+      "summary": "正文把帕斯卡变量拆成若干独立几何变量之和，利用期望线性性推导其数学期望。"
+    },
+    {
+      "title": "最优拍卖机制的数学原理",
+      "url": "https://zhuanlan.zhihu.com/p/36301325",
+      "summary": "正文用期望收益描述买家和卖家在拍卖机制下的目标，并据此推导最优机制。"
+    },
+    {
+      "title": "人人都懂EM算法",
+      "url": "https://zhuanlan.zhihu.com/p/36331115",
+      "summary": "正文给出离散和连续随机变量的期望公式，并以条件期望解释 EM 算法中的 E 步。"
+    },
+    {
+      "title": "机器学习的数学基础-（三、概率论和数理统计）",
+      "url": "https://zhuanlan.zhihu.com/p/36584335",
+      "summary": "正文分别用求和与积分定义离散型和连续型随机变量的数学期望。"
+    },
+    {
+      "title": "计量经济学 | 从最简单的模型开始",
+      "url": "https://zhuanlan.zhihu.com/p/37058255",
+      "summary": "正文计算斜率与截距估计量的条件期望，论证估计量无偏。"
+    },
+    {
+      "title": "马尔可夫链蒙特卡罗算法（MCMC）",
+      "url": "https://zhuanlan.zhihu.com/p/37121528",
+      "summary": "正文把接受拒绝采样所需迭代次数视为随机变量，计算其期望并用于分析采样效率。"
+    },
+    {
+      "title": "GAN+文本生成：让文本以假乱真（上）",
+      "url": "https://zhuanlan.zhihu.com/p/36880287",
+      "summary": "正文用期望损失定义生成器与判别器的对抗目标，并在策略梯度部分以期望累计奖励刻画生成模型优化目标。"
+    },
+    {
+      "title": "初学机器学习：直观解读KL散度的数学概念",
+      "url": "https://zhuanlan.zhihu.com/p/37452654",
+      "summary": "正文由牙齿数量计算样本期望，并解释二项分布的均值 np 及其含义。"
+    },
+    {
+      "title": "几种常见的概率分布小结",
+      "url": "https://zhuanlan.zhihu.com/p/37839831",
+      "summary": "正文以抛硬币说明期望可用于事前估计结果并辅助决策。"
+    },
+    {
+      "title": "理解Gamma分布、Beta分布与Dirichlet分布",
+      "url": "https://zhuanlan.zhihu.com/p/37976562",
+      "summary": "正文通过积分推导Beta分布均值，并给出Dirichlet分布各分量的期望。"
+    },
+    {
+      "title": "概率论与统计学：离散型和连续型随机变量的概率分布",
+      "url": "https://zhuanlan.zhihu.com/p/38224194",
+      "summary": "正文给出离散随机变量期望的求和公式，并计算多种离散与连续分布的期望。"
+    },
+    {
+      "title": "凯利公式，从赌场到量化投资",
+      "url": "https://zhuanlan.zhihu.com/p/38279377",
+      "summary": "正文以最大化期末资金对数收益率的期望为目标推导并解释凯利公式。"
+    },
+    {
+      "title": "布朗运动、伊藤引理、BS 公式（后篇）",
+      "url": "https://zhuanlan.zhihu.com/p/38294971",
+      "summary": "正文把欧式期权价格写成到期收益期望的无风险折现，并据此推导 Black-Scholes 公式。"
+    },
+    {
+      "title": "伊藤引理 --- 浅述",
+      "url": "https://zhuanlan.zhihu.com/p/38820889",
+      "summary": "正文利用标准正态变量平方的期望为 1，计算并解释随机增量平方项的期望量级。"
+    },
+    {
+      "title": "用 Quantile Regression 分析变量相关性",
+      "url": "https://zhuanlan.zhihu.com/p/40681570",
+      "summary": "正文从最小二乘目标推导样本均值，并把线性回归的解解释为条件期望。"
+    },
+    {
+      "title": "深入浅出正态分布，大数定律，中心极限定理",
+      "url": "https://zhuanlan.zhihu.com/p/40813565",
+      "summary": "正文以风险选择的计算引入期望，并用它比较不同结果的加权平均并解释分布的固定数字特征。"
+    },
+    {
+      "title": "EM算法详解",
+      "url": "https://zhuanlan.zhihu.com/p/40991784",
+      "summary": "正文以条件概率构造完整数据对数似然的期望，并把 E 步定义为计算该条件期望。"
+    },
+    {
+      "title": "重要性采样（Importance Sampling）",
+      "url": "https://zhuanlan.zhihu.com/p/41217212",
+      "summary": "正文从原分布下的期望出发，推导用替代分布采样后以重要性权重估计期望的公式。"
+    },
+    {
+      "title": "概率机器人——扩展卡尔曼滤波、无迹卡尔曼滤波",
+      "url": "https://zhuanlan.zhihu.com/p/41767489",
+      "summary": "正文以采样点加权求和给出变换后随机变量的均值估计，并写出相应的期望公式。"
+    },
+    {
+      "title": "从基础入手理解计量模型和识别（二）",
+      "url": "https://zhuanlan.zhihu.com/p/43606376",
+      "summary": "正文利用误差期望为零的条件，通过观测变量的期望识别线性模型的截距。"
+    },
+    {
+      "title": "回归分析|笔记整理（1）——引入，一元线性回归（上）",
+      "url": "https://zhuanlan.zhihu.com/p/45149297",
+      "summary": "正文把回归函数定义为给定自变量的条件期望，并利用期望证明回归系数估计的无偏性。"
+    },
+    {
+      "title": "概率论学习笔记（四）",
+      "url": "https://zhuanlan.zhihu.com/p/45720457",
+      "summary": "正文从概率加权平均出发定义离散型与连续型随机变量的数学期望，并系统推导其性质和应用。"
+    },
+    {
+      "title": "反常识！房间内每个人随机给别人 1 元，你猜不到最后会发生什么...",
+      "url": "https://zhuanlan.zhihu.com/p/46090330",
+      "summary": "正文从每人每轮损失一元、期望收入一元出发分析随机财富转移模型。"
+    },
+    {
+      "title": "2019 校园招聘算法面试概率题",
+      "url": "https://zhuanlan.zhihu.com/p/46592195",
+      "summary": "正文通过骰子点数收益的期望，分析顾客最多愿意支付的游戏成本。"
+    },
+    {
+      "title": "最大似然估计（MLE） & 最大后验概率估计（MAP）",
+      "url": "https://zhuanlan.zhihu.com/p/46737512",
+      "summary": "正文通过正态分布似然函数最大化，推导总体期望的样本均值估计。"
+    },
+    {
+      "title": "回归分析|笔记整理（3）——多元正态分布理论（上）",
+      "url": "https://zhuanlan.zhihu.com/p/46665398",
+      "summary": "正文定义随机向量的均值向量，证明期望线性性，并给出二次型期望公式。"
+    },
+    {
+      "title": "双信悖论的解释与最优策略",
+      "url": "https://zhuanlan.zhihu.com/p/48544384",
+      "summary": "正文分别计算保留与交换两种策略的数学期望，并比较是否应交换信封。"
+    },
+    {
+      "title": "R统计学(01): 伯努利分布、二项分布",
+      "url": "https://zhuanlan.zhihu.com/p/49267988",
+      "summary": "正文用重复试验的样本均值逼近理论值来说明二项分布的期望。"
+    },
+    {
+      "title": "【强化学习技术 28】GAE",
+      "url": "https://zhuanlan.zhihu.com/p/45107835",
+      "summary": "正文通过优势估计的期望是否等于 Q^\\pi 分析无偏性及 gamma-just 条件。"
+    },
+    {
+      "title": "数据融合——高斯分布的特性",
+      "url": "https://zhuanlan.zhihu.com/p/50738318",
+      "summary": "正文以均值刻画高斯分布的中心位置，并推导高斯乘积后的加权均值。"
+    },
+    {
+      "title": "计量经济学：一元线性回归导入",
+      "url": "https://zhuanlan.zhihu.com/p/51181991",
+      "summary": "正文用同一自变量下的条件均值 E(Y|X) 建立总体回归函数，并解释个体偏差如何转化为随机干扰项。"
+    },
+    {
+      "title": "金融学笔记：从方差到两基金分离，简单的资产组合选择理论",
+      "url": "https://zhuanlan.zhihu.com/p/51107308",
+      "summary": "正文定义资产收益的期望向量，并把投资组合期望收益写成收益期望与份额向量的内积。"
+    },
+    {
+      "title": "中美合拍的西游记到底何时开机？——谈概率论中的几何分布",
+      "url": "https://zhuanlan.zhihu.com/p/52672363",
+      "summary": "正文把平均等待时间转化为几何分布的期望，并推导期望为成功概率的倒数。"
+    },
+    {
+      "title": "Kelly 公式",
+      "url": "https://zhuanlan.zhihu.com/p/52712583",
+      "summary": "正文建立下注后资产变量并推导其数学期望，用期望判断投注机会是否有利。"
+    },
+    {
+      "title": "从0到1：批量规范化Batch Normalization(原理篇)",
+      "url": "https://zhuanlan.zhihu.com/p/52736691",
+      "summary": "正文推导标准化变量减去批均值后的期望为零，并用期望运算说明规范化效果。"
+    },
+    {
+      "title": "计量经济学：一元线性回归最小二乘估计（OLS）及其检验",
+      "url": "https://zhuanlan.zhihu.com/p/52741405",
+      "summary": "正文利用随机干扰项的零条件均值推导估计量期望，证明最小二乘估计的无偏性。"
+    },
+    {
+      "title": "正态分布推导过程",
+      "url": "https://zhuanlan.zhihu.com/p/52808762",
+      "summary": "正文通过概率密度函数的奇偶性和连续积分说明正态分布的均值计算。"
+    },
+    {
+      "title": "年龄估计技术综述",
+      "url": "https://zhuanlan.zhihu.com/p/53229759",
+      "summary": "正文把 Softmax 分类概率与年龄标签加权求和，明确用离散分布的期望值完成年龄估计。"
+    },
+    {
+      "title": "数理统计笔记·统计学三大分布",
+      "url": "https://zhuanlan.zhihu.com/p/53463133",
+      "summary": "正文分别给出卡方、t 和 F 分布的期望存在条件与期望值，并用于证明统计量的分布。"
+    },
+    {
+      "title": "贝叶斯优化(Bayesian Optimization)深入理解",
+      "url": "https://zhuanlan.zhihu.com/p/53826787",
+      "summary": "正文把改进概率和期望改进定义为收益函数的条件期望，并据此选择采集函数最大的参数点。"
+    },
+    {
+      "title": "对采样的理解",
+      "url": "https://zhuanlan.zhihu.com/p/46096712",
+      "summary": "正文把估计分布期望列为采样的用途，并说明重要性采样通过积分计算期望。"
+    },
+    {
+      "title": "生成对抗网络(GAN) 背后的数学理论",
+      "url": "https://zhuanlan.zhihu.com/p/54096381",
+      "summary": "正文把最大似然目标写成样本期望并展开为积分，再转化到 KL 散度最小化。"
+    },
+    {
+      "title": "点估计——什么是统计量？",
+      "url": "https://zhuanlan.zhihu.com/p/55129304",
+      "summary": "正文以估计量的期望等于待估参数定义无偏估计，并用样本均值等例子解释。"
+    },
+    {
+      "title": "待解: 麦穗问题最大化期望",
+      "url": "https://zhuanlan.zhihu.com/p/55293882",
+      "summary": "正文把麦穗问题转化为最大化最终得分期望，并推导不同预拒绝人数下的期望。"
+    },
+    {
+      "title": "参数估计(一).矩估计法",
+      "url": "https://zhuanlan.zhihu.com/p/55780975",
+      "summary": "正文以总体矩和样本矩的期望关系为核心，讲解用样本矩替换总体矩来估计参数。"
+    },
+    {
+      "title": "【统计推断】剖析回归的本质，详解依存关系中最简单的线性回归模型",
+      "url": "https://zhuanlan.zhihu.com/p/55240092",
+      "summary": "正文推导条件期望是均方误差准则下的最优预测函数，并讨论条件矩建模。"
+    },
+    {
+      "title": "Independent set&its applications in coding theory",
+      "url": "https://zhuanlan.zhihu.com/p/55932619",
+      "summary": "正文引入随机指示变量并利用期望的线性性估计独立集大小的存在性下界。"
+    },
+    {
+      "title": "漫谈split sum approximate",
+      "url": "https://zhuanlan.zhihu.com/p/56063836",
+      "summary": "正文把归一化权重下的加权求和解释为入射亮度的期望，并用期望恒等式连接两种求和形式。"
+    },
+    {
+      "title": "一篮子股票的相关性建模",
+      "url": "https://zhuanlan.zhihu.com/p/56237366",
+      "summary": "正文计算两个相关正态变量的最大值期望，并用积分推导其随相关性变化的解析式。"
+    },
+    {
+      "title": "抛硬币问题的鞅解法",
+      "url": "https://zhuanlan.zhihu.com/p/57196228",
+      "summary": "正文把首次出现 HHT 所需次数 N 作为随机变量，利用分步条件期望建立方程并求出 E(N)=8。"
+    },
+    {
+      "title": "【闲话】数学家庞加莱与面包的故事",
+      "url": "https://zhuanlan.zhihu.com/p/58055121",
+      "summary": "正文把面包平均重量 1000g 解释为正态随机变量的期望，并用于判断样本均值是否异常。"
+    },
+    {
+      "title": "时间序列分析 自协方差/自相关系数/偏自相关系数",
+      "url": "https://zhuanlan.zhihu.com/p/59089924",
+      "summary": "正文定义时间和随机变量的均值，并以其作为协方差与自相关公式的中心量。"
+    },
+    {
+      "title": "卡尔曼滤波（3）-- EKF, UKF",
+      "url": "https://zhuanlan.zhihu.com/p/59681380",
+      "summary": "正文用 Sigma 点的加权统计估计非线性变换结果的均值。"
+    },
+    {
+      "title": "统计学——样本方差公式的由来",
+      "url": "https://zhuanlan.zhihu.com/p/60230248",
+      "summary": "正文用重复抽样均值的平均和数学期望讨论无偏性，明确展开期望在估计中的作用。"
+    },
+    {
+      "title": "计量经济学笔记：普通最小二乘法 OLS，与高斯 - 马尔可夫定理",
+      "url": "https://zhuanlan.zhihu.com/p/60233029",
+      "summary": "正文利用误差项的条件期望假设计算估计量的期望，从而证明 OLS 的无偏性。"
+    },
+    {
+      "title": "矩母函数、正态分布、二次型",
+      "url": "https://zhuanlan.zhihu.com/p/61828433",
+      "summary": "正文证明矩母函数在零点的各阶导数给出随机变量各阶原点矩，并用于求二次型的期望。"
+    },
+    {
+      "title": "数据融合之卡尔曼滤波示例",
+      "url": "https://zhuanlan.zhihu.com/p/62246762",
+      "summary": "正文具体解释高斯分布均值和方差在状态估计中的含义，并用于融合测量信息。"
+    },
+    {
+      "title": "Monte Carlo数学原理",
+      "url": "https://zhuanlan.zhihu.com/p/61611088",
+      "summary": "正文推导蒙特卡洛估计量的数学期望，并据此说明估计的无偏性。"
+    },
+    {
+      "title": "采样方法(Sampling Method)",
+      "url": "https://zhuanlan.zhihu.com/p/62730810",
+      "summary": "正文把采样目标定义为函数在概率分布下的期望，并给出样本均值的无偏估计公式。"
+    },
+    {
+      "title": "概率论中的“矩”是什么意思",
+      "url": "https://zhuanlan.zhihu.com/p/57802400",
+      "summary": "正文从力矩的加权平均出发解释原点矩，并明确说明期望是一阶矩。"
+    },
+    {
+      "title": "如何理解时间序列的平稳性？",
+      "url": "https://zhuanlan.zhihu.com/p/64757964",
+      "summary": "正文把均值不随时间变化列为弱平稳条件，并用随机游走的常数期望解释其含义。"
+    },
+    {
+      "title": "【AP统计】期望E(X)与方差Var(X)",
+      "url": "https://zhuanlan.zhihu.com/p/64859161",
+      "summary": "正文给出离散型和连续型随机变量的期望公式，并证明期望的线性性与独立变量乘积性质。"
+    },
+    {
+      "title": "期望在高中数学竞赛中的一些应用举例",
+      "url": "https://zhuanlan.zhihu.com/p/64970384",
+      "summary": "正文让圆周点等概率取遍全圆，以距离和的连续期望证明存在距离和超过60的点。"
+    },
+    {
+      "title": "【IB】概率母函数(Probability generating functions)",
+      "url": "https://zhuanlan.zhihu.com/p/67140977",
+      "summary": "正文证明期望等于概率母函数在 1 处的一阶导数，并用该方法计算离散分布均值。"
+    },
+    {
+      "title": "一道机器学习岗位面试题：平均要抛多少次硬币，才能出现连续两次正面向上？",
+      "url": "https://zhuanlan.zhihu.com/p/68358814",
+      "summary": "正文将首次成功和连续 k 次成功的平均试验次数记为随机变量期望并逐层求解。"
+    },
+    {
+      "title": "系综统计理论II.正则系综",
+      "url": "https://zhuanlan.zhihu.com/p/68501468",
+      "summary": "正文用各量子态的概率加权求和计算平均内能，展示了离散随机变量的期望计算。"
+    },
+    {
+      "title": "系综统计理论III.巨正则系综",
+      "url": "https://zhuanlan.zhihu.com/p/68755686",
+      "summary": "正文以巨正则分布对粒子数加权求和得到平均粒子数，并用同类求和计算平均能量。"
+    },
+    {
+      "title": "概率论复习笔记(5)——Chebyshev不等式",
+      "url": "https://zhuanlan.zhihu.com/p/69525106",
+      "summary": "正文以随机变量的期望为中心表述 Chebyshev 不等式，并用示性函数的期望和矩条件完成证明与应用。"
+    },
+    {
+      "title": "【统计学进阶知识（一）】深入理解Beta分布：从定义到公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/69606875",
+      "summary": "正文利用 Beta 函数积分逐步推导 Beta 分布的期望为 alpha 除以 alpha 与 beta 之和。"
+    },
+    {
+      "title": "函数、概率、信息的基础串讲",
+      "url": "https://zhuanlan.zhihu.com/p/69889316",
+      "summary": "正文给出离散随机变量期望的加权求和公式，并代入肉类价格和对应概率计算平均价格。"
+    },
+    {
+      "title": "最优传输理论在计量经济学里的应用",
+      "url": "https://zhuanlan.zhihu.com/p/74641429",
+      "summary": "正文把最优匹配写成对联合随机变量目标函数的期望最大化，并利用对偶期望说明最优性。"
+    },
+    {
+      "title": "别再赌博了，你永远赢不了“凯利公式”",
+      "url": "https://zhuanlan.zhihu.com/p/74814704",
+      "summary": "正文用获胜概率、失败概率和赔率计算赌局的期望值，并据此推导凯利投注比例。"
+    },
+    {
+      "title": "接受拒绝采样（Acceptance-Rejection Sampling）",
+      "url": "https://zhuanlan.zhihu.com/p/75264565",
+      "summary": "正文计算成功采样所需迭代次数的期望为 c，并据此说明选择较小常数 c 的理由。"
+    },
+    {
+      "title": "期权定价基础之一:测度变换",
+      "url": "https://zhuanlan.zhihu.com/p/73725169",
+      "summary": "正文先给出离散求和定义，再以勒贝格积分给出随机变量期望的一般定义。"
+    },
+    {
+      "title": "关于微积分买菜问题的补充说明",
+      "url": "https://zhuanlan.zhihu.com/p/76457304",
+      "summary": "正文按两种需求情形及其概率计算平均利润，用加权平均说明期望收益。"
+    },
+    {
+      "title": "最通俗易懂的白话狄利克雷过程(Dirichlet Process）\b",
+      "url": "https://zhuanlan.zhihu.com/p/76991275",
+      "summary": "正文计算G在任意分割上的期望，说明其期望等于基础分布G_0。"
+    },
+    {
+      "title": "大数定理的通俗理解（辛钦、伯努利、切比雪夫大数定理）",
+      "url": "https://zhuanlan.zhihu.com/p/77312635",
+      "summary": "正文把大数定律概括为样本算术平均值趋近数学期望。"
+    },
+    {
+      "title": "【机器学习】EM——期望最大（非常详细）",
+      "url": "https://zhuanlan.zhihu.com/p/78311644",
+      "summary": "正文通过抛硬币隐变量示例按概率加权正面和反面次数来计算期望贡献。"
+    },
+    {
+      "title": "概率论笔记(10)——条件期望",
+      "url": "https://zhuanlan.zhihu.com/p/79050943",
+      "summary": "正文定义条件期望并逐条证明全期望、线性性、单调性、平滑性等期望性质。"
+    },
+    {
+      "title": "方差、标准差、均方差、均方误差（MSE）区别总结",
+      "url": "https://zhuanlan.zhihu.com/p/83410946",
+      "summary": "正文把 E(X) 定义为随机变量或统计数据的均值，并说明它在方差公式中的作用。"
+    },
+    {
+      "title": "变分自编码器介绍、推导及实现",
+      "url": "https://zhuanlan.zhihu.com/p/83865427",
+      "summary": "正文从采样后的期望重建对数似然推导变分下界，明确解释第一项为何对应期望意义下的重建概率。"
+    },
+    {
+      "title": "数理统计|笔记整理（1）——引入，重要分布函数，特征函数及计算",
+      "url": "https://zhuanlan.zhihu.com/p/70018601",
+      "summary": "正文给出伽马分布和贝塔分布等随机变量的期望公式，并用重期望与条件分布计算具体期望。"
+    },
+    {
+      "title": "EM算法原理及推导",
+      "url": "https://zhuanlan.zhihu.com/p/85236423",
+      "summary": "正文以隐变量条件分布下的期望构造 Q 函数，并由期望下界推导 EM 的 E 步。"
+    },
+    {
+      "title": "多元统计之Cochran定理",
+      "url": "https://zhuanlan.zhihu.com/p/85314314",
+      "summary": "正文计算正态二次型的期望，并通过积分推导非中心卡方变量的矩母函数。"
+    },
+    {
+      "title": "辉煌的中心极限定理",
+      "url": "https://zhuanlan.zhihu.com/p/85233692",
+      "summary": "正文定义随机变量的期望和矩，并通过特征函数在零点的导数联系各阶矩。"
+    },
+    {
+      "title": "均值、方差、标准差、协方差、相关系数的概念及意义",
+      "url": "https://zhuanlan.zhihu.com/p/86181679",
+      "summary": "正文给出均值即期望的计算公式，并用样本中心点解释其统计意义。"
+    },
+    {
+      "title": "强化学习--贝尔曼方程",
+      "url": "https://zhuanlan.zhihu.com/p/86525700",
+      "summary": "正文把状态价值函数和动作价值函数定义为累计回报的期望，并推导其递归形式。"
+    },
+    {
+      "title": "你知道快速排序的方差么？",
+      "url": "https://zhuanlan.zhihu.com/p/87785418",
+      "summary": "正文对随机划分位置求条件期望，得到快速排序平均耗时的期望递推式及渐近表达式。"
+    },
+    {
+      "title": "二项分布的均值与方差公式的推导",
+      "url": "https://zhuanlan.zhihu.com/p/89366172",
+      "summary": "正文陈述并利用二项分布随机变量的期望公式，作为方差推导中的求和化简依据。"
+    },
+    {
+      "title": "数理统计|笔记整理（4）——估计量的简单性质：矩估计，极大似然估计",
+      "url": "https://zhuanlan.zhihu.com/p/87796459",
+      "summary": "正文计算估计量的一阶矩，并用期望判断估计量是否无偏。"
+    },
+    {
+      "title": "k个独立同分布随机变量的最小值的期望",
+      "url": "https://zhuanlan.zhihu.com/p/89693831",
+      "summary": "正文以均匀分布最小值为例说明并计算了随机变量的期望。"
+    },
+    {
+      "title": "正态分布上的期望之旅（一）",
+      "url": "https://zhuanlan.zhihu.com/p/87561292",
+      "summary": "正文把函数在正态分布下的积分解释为函数值的期望，并推导多项式情形的计算方法。"
+    },
+    {
+      "title": "数理统计：常用分布族参数及其函数的UMVUE——求法和有效性",
+      "url": "https://zhuanlan.zhihu.com/p/90692773",
+      "summary": "正文用估计量与零的无偏估计之间的期望和相关性来寻找一致最小方差无偏估计。"
+    },
+    {
+      "title": "数理统计|笔记整理（5）——估计量的进阶性质（1）：统计判决函数，UMRUE，Fisher信息量",
+      "url": "https://zhuanlan.zhihu.com/p/89868315",
+      "summary": "正文以期望定义统计判决的风险函数，并用期望展开风险、均方误差和条件期望等推导。"
+    },
+    {
+      "title": "Generalized Method of Moments",
+      "url": "https://zhuanlan.zhihu.com/p/92490417",
+      "summary": "正文用总体期望定义矩条件，并以样本均值估计总体矩，明确区分总体均值与样本均值。"
+    },
+    {
+      "title": "医学统计学 — 基础篇（入门必读）",
+      "url": "https://zhuanlan.zhihu.com/p/93554818",
+      "summary": "正文以年龄数据解释均数及其在一组测量结果中的表示。"
+    },
+    {
+      "title": "数理统计|笔记整理（6）——常见分布族，估计量的进阶性质（2）：UMVUE，UMRUE相关计算",
+      "url": "https://zhuanlan.zhihu.com/p/91730443",
+      "summary": "正文反复利用期望构造无偏估计，并比较估计量的均值性质。"
+    },
+    {
+      "title": "《常见随机过程》（一）",
+      "url": "https://zhuanlan.zhihu.com/p/93836989",
+      "summary": "正文以均值函数和期望公式描述各类随机过程的一阶数字特征。"
+    },
+    {
+      "title": "条件分布与条件期望",
+      "url": "https://zhuanlan.zhihu.com/p/93938795",
+      "summary": "正文定义条件期望，证明重期望公式，并用矿井逃生的递推例子计算平均时间。"
+    },
+    {
+      "title": "图上的随机游走算法 I: hitting time精确解的数学推导与程序实现",
+      "url": "https://zhuanlan.zhihu.com/p/94407509",
+      "summary": "正文由概率生成函数的一阶矩推导 hitting time 的期望值，并给出数值算法和实例结果。"
+    },
+    {
+      "title": "第六章 参数估计-矩估计：通过课后题理解矩估计",
+      "url": "https://zhuanlan.zhihu.com/p/94449192",
+      "summary": "正文以总体期望和样本均值等矩构造矩方程，说明用样本矩替换总体矩的参数估计方法。"
+    },
+    {
+      "title": "BS公式——鞅定价推导法",
+      "url": "https://zhuanlan.zhihu.com/p/95538708",
+      "summary": "正文推导对数正态分布的期望，并用贴现终值的期望验证鞅性质及计算期权价格。"
+    },
+    {
+      "title": "常用分布",
+      "url": "https://zhuanlan.zhihu.com/p/94181395",
+      "summary": "正文逐类给出二项、泊松、超几何、正态等分布的数学期望，并解释均值的含义。"
+    },
+    {
+      "title": "强化学习：为什么对累积奖励减去baseline项能起到减小方差的作用？",
+      "url": "https://zhuanlan.zhihu.com/p/98506549",
+      "summary": "正文利用期望的线性性质和状态条件概率展开基线项，证明减去依赖当前状态的 baseline 不改变策略梯度的期望。"
+    },
+    {
+      "title": "游戏数值——关于各种强化公式",
+      "url": "https://zhuanlan.zhihu.com/p/100668781",
+      "summary": "正文用随机掉落和逐级强化问题计算首次收集、升级及强化成功所需次数的数学期望。"
+    },
+    {
+      "title": "概率论及数理统计——个人笔记",
+      "url": "https://zhuanlan.zhihu.com/p/101775745",
+      "summary": "正文分别用求和与积分定义离散型、连续型随机变量的数学期望，并列出线性性质。"
+    },
+    {
+      "title": "如何感性地理解EM算法？",
+      "url": "https://zhuanlan.zhihu.com/p/102275054",
+      "summary": "正文以隐变量概率为权重计算正面和反面的期望计数，再用这些期望更新两枚硬币的概率。"
+    },
+    {
+      "title": "为什么频繁交易的人大多数在股市上都赔钱了？一个有趣的小数学游戏也许可以解答",
+      "url": "https://zhuanlan.zhihu.com/p/103200652",
+      "summary": "正文具体计算单次收益期望，并与多次乘性增长的长期结果进行比较。"
+    },
+    {
+      "title": "前景理论与股票收益 (I)",
+      "url": "https://zhuanlan.zhihu.com/p/103548438",
+      "summary": "正文以结果价值和概率权重构造累积前景理论的期望价值，并用 TK 值研究股票未来预期收益。"
+    },
+    {
+      "title": "为什么不把EM算法说清楚？",
+      "url": "https://zhuanlan.zhihu.com/p/105564568",
+      "summary": "正文把含隐变量似然的下界写成后验分布下的期望，并由该期望构造 EM 的 E 步。"
+    },
+    {
+      "title": "茆诗松的概率论与数理统计（第六章）",
+      "url": "https://zhuanlan.zhihu.com/p/105064486",
+      "summary": "正文以均方误差的数学期望定义估计量优劣，并通过期望展开偏差与方差两部分。"
+    },
+    {
+      "title": "统计学习--详解Hoeffding不等式",
+      "url": "https://zhuanlan.zhihu.com/p/106840151",
+      "summary": "正文以数学期望定义矩量母函数，并用期望计算马尔可夫界、切尔诺夫界和霍夫丁界。"
+    },
+    {
+      "title": "ICLR-20 | 旷视研究院提出MABN：解决小批量训练BN不稳定的问题",
+      "url": "https://zhuanlan.zhihu.com/p/107637497",
+      "summary": "正文说明批归一化以全训练数据的期望和方差估计总体统计量。"
+    },
+    {
+      "title": "超几何分布的数学期望与方差推导",
+      "url": "https://zhuanlan.zhihu.com/p/107869924",
+      "summary": "正文利用期望定义和组合恒等式逐步化简，推出超几何分布的数学期望。"
+    },
+    {
+      "title": "如何快速理解马尔科夫链蒙特卡洛法？",
+      "url": "https://zhuanlan.zhihu.com/p/108621943",
+      "summary": "正文把积分写成概率密度下的期望，并以随机样本均值近似该期望。"
+    },
+    {
+      "title": "随机采样方法整理与讲解（MCMC、Gibbs Sampling等）",
+      "url": "https://zhuanlan.zhihu.com/p/109978580",
+      "summary": "正文说明通过从分布抽样并对函数值取平均来近似随机变量函数的期望。"
+    },
+    {
+      "title": "负二项分布及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/111632687",
+      "summary": "正文利用几何分布独立和推导负二项分布的期望，并用全期望公式解释其混合分布意义。"
+    },
+    {
+      "title": "概率论在日常生活中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/112151701",
+      "summary": "正文计算押注游戏的期望所得与净收益期望，并用负期望说明该赌博规则不公平。"
+    },
+    {
+      "title": "彻底搞懂EM算法",
+      "url": "https://zhuanlan.zhihu.com/p/117576899",
+      "summary": "正文在E步中具体计算潜变量指示量的期望，并把它作为M步最大化目标的一部分。"
+    },
+    {
+      "title": "概率论与统计学1——谈谈那些令人头疼的概率分布",
+      "url": "https://zhuanlan.zhihu.com/p/124020096",
+      "summary": "正文在二项、Beta、高斯、均匀、泊松等分布中列出期望公式，并讨论均值估计。"
+    },
+    {
+      "title": "线性回归方程与相关系数的推导",
+      "url": "https://zhuanlan.zhihu.com/p/127323116",
+      "summary": "正文先从一元数学期望推广到二元函数期望，并列出期望的线性性质用于后续推导。"
+    },
+    {
+      "title": "概率论与统计学2——深入理解高斯分布",
+      "url": "https://zhuanlan.zhihu.com/p/125619927",
+      "summary": "正文用均值向量 E(x) 表示多元高斯分布各维度的期望。"
+    },
+    {
+      "title": "Code and Finance 2 蒙特卡洛模拟期权定价",
+      "url": "https://zhuanlan.zhihu.com/p/134759744",
+      "summary": "正文把欧式期权价格写成到期收益的期望并按无风险利率折现，实质使用期望定价。"
+    },
+    {
+      "title": "Python在财务会计工作中的应用【举例】",
+      "url": "https://zhuanlan.zhihu.com/p/136815955",
+      "summary": "正文给出证券组合期望报酬率的加权求和公式，并用程序逐项相乘后求和实现该计算。"
+    },
+    {
+      "title": "【推荐系统经典论文(九)】谷歌双塔模型",
+      "url": "https://zhuanlan.zhihu.com/p/137538147",
+      "summary": "正文把流式频率递推解释为随机变量均值的在线估计，并推导其误差收敛。"
+    },
+    {
+      "title": "期权定价2-BS公式&希腊值",
+      "url": "https://zhuanlan.zhihu.com/p/137938792",
+      "summary": "正文在风险中性框架下把到期收益的积分写成期望，并据正态分布期望推导看涨、看跌期权定价。"
+    },
+    {
+      "title": "用命分析概率型生成函数(PGF)——谈一类具有特殊性质的生成函数在算法竞赛中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/138290902",
+      "summary": "正文由概率型生成函数的一阶导数推导随机变量的期望。"
+    },
+    {
+      "title": "用一个”栗子“讲清楚泊松分布",
+      "url": "https://zhuanlan.zhihu.com/p/139114702",
+      "summary": "正文用二项分布的期望 np 定义泊松参数 lambda，并据此替换单时间段概率 p。"
+    },
+    {
+      "title": "Kalman filter 的推导及代码(1) -- 最小二乘法",
+      "url": "https://zhuanlan.zhihu.com/p/139781326",
+      "summary": "正文通过期望判断估计量无偏，并继续用期望推导误差协方差的更新。"
+    },
+    {
+      "title": "一个有意思的概率问题，“集卡问题”",
+      "url": "https://zhuanlan.zhihu.com/p/140537355",
+      "summary": "正文以收集齐全部卡片所需包数的期望为目标，推导出期望的调和级数表达式。"
+    },
+    {
+      "title": "关于时齐马尔科夫链的吸收态的两个重要公式",
+      "url": "https://zhuanlan.zhihu.com/p/141788195",
+      "summary": "正文推导首次进入吸收态的期望步数方程并求解两个具体模型。"
+    },
+    {
+      "title": "概率学角度分析双色球中奖概率",
+      "url": "https://zhuanlan.zhihu.com/p/142332075",
+      "summary": "正文结合各奖级奖金和中奖概率计算每注彩票的期望回报。"
+    },
+    {
+      "title": "概率论中常见分布的数学期望、方差及其特征函数推导——连续性随机变量",
+      "url": "https://zhuanlan.zhihu.com/p/143837626",
+      "summary": "正文给出常见连续分布的数学期望结论，并用卡方分布为例计算。"
+    },
+    {
+      "title": "常见概率分布的期望和方差推导",
+      "url": "https://zhuanlan.zhihu.com/p/145615691",
+      "summary": "正文对二项、泊松、几何和超几何分布分别写出期望求和式并完成推导。"
+    },
+    {
+      "title": "蒙特卡洛积分",
+      "url": "https://zhuanlan.zhihu.com/p/146144853",
+      "summary": "正文解释连续随机变量的期望定义，并用估计量期望等于积分真值证明蒙特卡洛估计无偏。"
+    },
+    {
+      "title": "随机最优控制(Stochastic Optimal Control)的一个应用",
+      "url": "https://zhuanlan.zhihu.com/p/146964017",
+      "summary": "正文以条件期望构造 Bellman 递归，将其作为随机最优控制中评价未来收益的目标。"
+    },
+    {
+      "title": "期望、方差的性质",
+      "url": "https://zhuanlan.zhihu.com/p/147214759",
+      "summary": "正文分别给出离散型和连续型期望的定义，并系统整理期望的线性与独立性性质。"
+    },
+    {
+      "title": "【从入门到放弃】线性回归",
+      "url": "https://zhuanlan.zhihu.com/p/147297924",
+      "summary": "正文定义理论最优模型及期望损失，并通过条件期望展开偏差与方差分析。"
+    },
+    {
+      "title": "如何通俗的理解矩母函数",
+      "url": "https://zhuanlan.zhihu.com/p/148408669",
+      "summary": "正文把一阶及高阶矩定义为随机变量幂的期望，并以均值和矩母函数的零点导数求期望。"
+    },
+    {
+      "title": "博弈论笔记(二)：混合策略博弈及其纳什均衡",
+      "url": "https://zhuanlan.zhihu.com/p/148772400",
+      "summary": "正文说明如何按各博弈结果出现的概率加权求和，计算玩家的期望收益。"
+    },
+    {
+      "title": "面试中的常见概率题",
+      "url": "https://zhuanlan.zhihu.com/p/149093983",
+      "summary": "正文用状态方程和递推分别计算骰子、染色与游戏升级等随机过程的期望时间。"
+    },
+    {
+      "title": "统计学公式",
+      "url": "https://zhuanlan.zhihu.com/p/149803866",
+      "summary": "正文用加权和与积分定义离散型和连续型随机变量的数学期望。"
+    },
+    {
+      "title": "经典模型1. ADF: 增量贝叶斯与在线学习（Online Bayesian Learning）",
+      "url": "https://zhuanlan.zhihu.com/p/150187256",
+      "summary": "正文通过一阶矩匹配要求近似分布与理想后验的期望相等，并据此导出参数更新。"
+    },
+    {
+      "title": "PR Sampling Ⅰ: 蒙特卡洛采样、重要性采样及python实现",
+      "url": "https://zhuanlan.zhihu.com/p/150693309",
+      "summary": "正文把待估积分写成概率分布下的期望，再用样本均值构造估计量。"
+    },
+    {
+      "title": "离散型概率分布——几何分布",
+      "url": "https://zhuanlan.zhihu.com/p/151007104",
+      "summary": "正文定义期望为结果与概率乘积之和，并用打靶得分和几何分布的例子计算期望。"
+    },
+    {
+      "title": "离散型概率分布——二项分布",
+      "url": "https://zhuanlan.zhihu.com/p/145930394",
+      "summary": "正文给出二项分布期望公式，并以四题盲猜的成功次数为例计算期望。"
+    },
+    {
+      "title": "数理统计第十讲（极大似然估计步骤与性质）",
+      "url": "https://zhuanlan.zhihu.com/p/152614797",
+      "summary": "正文计算极大次序统计量的期望以判断估计量的无偏性并构造纠偏估计。"
+    },
+    {
+      "title": "数理统计第12讲（Rao-blackwell定理，零无偏估计法，完备性）",
+      "url": "https://zhuanlan.zhihu.com/p/153328936",
+      "summary": "正文利用全期望公式和条件期望说明 Rao-Blackwell 化后的统计量保持无偏。"
+    },
+    {
+      "title": "数理统计第13讲（Basu定理，L-S定理，求UMVUE的方法）",
+      "url": "https://zhuanlan.zhihu.com/p/154076886",
+      "summary": "正文以无偏性和条件期望刻画一致最小方差无偏估计，并推导 L-S 定理给出的条件期望形式。"
+    },
+    {
+      "title": "数理统计第14讲（UMVUE典型难题，Fisher信息量，C-R不等式）",
+      "url": "https://zhuanlan.zhihu.com/p/154336015",
+      "summary": "正文用示性函数的期望表示分布函数值，并通过条件期望构造相应 UMVUE。"
+    },
+    {
+      "title": "数理统计第16讲（贝叶斯点估计：先验信息，先验分布，后验分布）",
+      "url": "https://zhuanlan.zhihu.com/p/155827279",
+      "summary": "正文将后验分布的期望作为参数的点估计，并通过二项分布示例计算该期望。"
+    },
+    {
+      "title": "离散型概率分布——泊松分布",
+      "url": "https://zhuanlan.zhihu.com/p/151773692",
+      "summary": "正文明确给出泊松分布的期望公式，并用一周平均投诉次数说明参数λ就是期望。"
+    },
+    {
+      "title": "从中山大学王晓玮事件到德国坦克问题",
+      "url": "https://zhuanlan.zhihu.com/p/158085371",
+      "summary": "正文推导样本最大序号的分布并计算其期望，由此得到总体最大值的无偏估计量。"
+    },
+    {
+      "title": "机器学习准则（期望风险、经验风险、结构风险）",
+      "url": "https://zhuanlan.zhihu.com/p/159189617",
+      "summary": "正文把期望风险解释为损失函数在联合分布下的数学期望，并给出积分表达。"
+    },
+    {
+      "title": "数学建模笔记——评价类模型之熵权法",
+      "url": "https://zhuanlan.zhihu.com/p/161372016",
+      "summary": "正文明确把离散信息熵解释为各事件信息量按概率加权后的期望。"
+    },
+    {
+      "title": "计量经济学第二讲（一元线性回归模型：回归分析概述，基本假定，参数估计）",
+      "url": "https://zhuanlan.zhihu.com/p/151602755",
+      "summary": "正文以条件期望定义总体回归函数，并在无偏性证明中使用随机误差的期望。"
+    },
+    {
+      "title": "理解期望、方差常见公式",
+      "url": "https://zhuanlan.zhihu.com/p/161505873",
+      "summary": "正文给出离散随机变量期望的加权和定义，并讲解期望线性性及独立变量乘积期望。"
+    },
+    {
+      "title": "如何让SGD更稳更快？",
+      "url": "https://zhuanlan.zhihu.com/p/162977120",
+      "summary": "正文对随机样本梯度取期望，以分析 SGD 的下降过程。"
+    },
+    {
+      "title": "统计知识（一）MMD Maximum Mean Discrepancy 最大均值差异",
+      "url": "https://zhuanlan.zhihu.com/p/163839117",
+      "summary": "正文把 MMD 写成映射函数期望的上确界，并用核均值嵌入表示该期望。"
+    },
+    {
+      "title": "【Math】概率论常用分布大全",
+      "url": "https://zhuanlan.zhihu.com/p/164883777",
+      "summary": "正文逐一给出各常见分布的期望，并说明正态分布的期望参数为 mu。"
+    },
+    {
+      "title": "“氪金”中的统计学：以和平精英特斯拉抽奖为例",
+      "url": "https://zhuanlan.zhihu.com/p/165133705",
+      "summary": "正文以数学期望衡量抽奖成本和碎片收益，并比较不同策略下的平均成本。"
+    },
+    {
+      "title": "卡尔曼增益推导",
+      "url": "https://zhuanlan.zhihu.com/p/165570020",
+      "summary": "正文利用随机变量的期望和独立性展开误差协方差矩阵，并据此推导卡尔曼增益。"
+    },
+    {
+      "title": "随机过程学习笔记(1)：指数分布与泊松过程",
+      "url": "https://zhuanlan.zhihu.com/p/165909489",
+      "summary": "正文定义随机变量的期望并计算指数分布、泊松分布及到达时间的期望。"
+    },
+    {
+      "title": "二项分布与负二项分布的均值与方差推导",
+      "url": "https://zhuanlan.zhihu.com/p/166653762",
+      "summary": "正文分别用求和方法、矩母函数和伯努利试验分解推导二项分布与负二项分布的期望。"
+    },
+    {
+      "title": "概率论复习(4): 正态分布",
+      "url": "https://zhuanlan.zhihu.com/p/180071279",
+      "summary": "正文证明正态变量的数学期望，并利用标准化与期望性质推广到一般参数。"
+    },
+    {
+      "title": "红包悖论",
+      "url": "https://zhuanlan.zhihu.com/p/188653598",
+      "summary": "正文定义并计算给定观察金额时另一红包金额的条件期望，以此解释红包悖论。"
+    },
+    {
+      "title": "博弈论笔记(五)：相关均衡",
+      "url": "https://zhuanlan.zhihu.com/p/193127814",
+      "summary": "正文分别写出遵守与偏离约定时的期望收益，以比较结果刻画相关均衡条件。"
+    },
+    {
+      "title": "王者荣耀荣耀水晶抽奖概率，计算告诉你需要多少抽能中",
+      "url": "https://zhuanlan.zhihu.com/p/220631766",
+      "summary": "正文用 ∑p(i)i 计算抽取次数期望，并在线性概率假设下给出数值结果。"
+    },
+    {
+      "title": "那些跟高斯分布有些相似的概率分布【1】：Student-t Distribution初探",
+      "url": "https://zhuanlan.zhihu.com/p/226581586",
+      "summary": "正文通过期望计算说明样本均值是总体均值的无偏估计。"
+    },
+    {
+      "title": "Google Deep pLTV 用户付费预估深度模型笔记",
+      "url": "https://zhuanlan.zhihu.com/p/250851222",
+      "summary": "正文利用对数正态分布的期望公式 exp(mu+sigma^2/2) 计算条件平均付费金额和预测 LTV。"
+    },
+    {
+      "title": "23. 卡尔曼滤波器详解——从零开始(3) Kalman Filter from Zero",
+      "url": "https://zhuanlan.zhihu.com/p/245728093",
+      "summary": "正文通过最小化期望平方误差，得到最优估计等于后验分布期望的结论。"
+    },
+    {
+      "title": "概率论——大数定律与中心极限定理",
+      "url": "https://zhuanlan.zhihu.com/p/259280292",
+      "summary": "正文通过示性函数求期望，建立随机变量期望与事件概率之间的联系。"
+    },
+    {
+      "title": "深度科普|从线性代数到量子力学(13): 不确定性关系的证明",
+      "url": "https://zhuanlan.zhihu.com/p/262294180",
+      "summary": "正文由测量结果的概率分布定义期望值，并给出离散与连续情形的期望公式。"
+    },
+    {
+      "title": "差分隐私之Composition Theorem（一）",
+      "url": "https://zhuanlan.zhihu.com/p/264779199",
+      "summary": "正文利用隐私损失的期望与矩生成函数，推导组合机制的隐私参数上界。"
+    },
+    {
+      "title": "卡方分布的概率密度函数和它的一些衍生问题",
+      "url": "https://zhuanlan.zhihu.com/p/268756365",
+      "summary": "正文通过原点矩计算给出卡方分布期望 EY=n，并解释了矩与分布参数自由度的关系。"
+    },
+    {
+      "title": "为什么随机游走的醉汉不会返回原点？",
+      "url": "https://zhuanlan.zhihu.com/p/269844061",
+      "summary": "正文计算单步与第 n 步随机游走位置的数学期望。"
+    },
+    {
+      "title": "【决策模型】马尔可夫决策过程",
+      "url": "https://zhuanlan.zhihu.com/p/271221558",
+      "summary": "正文用条件期望定义奖励、回报和状态价值函数，并推导贝尔曼方程。"
+    },
+    {
+      "title": "马尔可夫决策过程MDP -- 强化学习基础（1）",
+      "url": "https://zhuanlan.zhihu.com/p/273449285",
+      "summary": "正文用累计折扣回报的数学期望定义状态价值和动作价值，并给出相应 Bellman 关系。"
+    },
+    {
+      "title": "概率论与统计学4——随机过程（Stochastic Processes）",
+      "url": "https://zhuanlan.zhihu.com/p/274771068",
+      "summary": "正文利用期望的可加性推导第 k 次成功所需时间的期望，并计算伯努利与泊松过程的期望。"
+    },
+    {
+      "title": "报童问题及其求解",
+      "url": "https://zhuanlan.zhihu.com/p/281779832",
+      "summary": "正文用期望损失表示报童模型的脱销与滞销总损失。"
+    },
+    {
+      "title": "Black-Scholes 模型学习框架",
+      "url": "https://zhuanlan.zhihu.com/p/265727886",
+      "summary": "正文通过风险中性测度下的条件期望给出期权现值，并实际计算欧式看涨期权价格。"
+    },
+    {
+      "title": "决策树与不确定性决策方案（最小后悔）选择准则（管理学）计算题",
+      "url": "https://zhuanlan.zhihu.com/p/303344387",
+      "summary": "正文用各结果概率乘收益并求和得到期望收益，再据期望值比较不同方案。"
+    },
+    {
+      "title": "复读关于LPR期权定价的较新成果论文1——背景，形式以及Skellam分布性质",
+      "url": "https://zhuanlan.zhihu.com/p/307633902",
+      "summary": "正文由泊松差解释均值，并通过矩母函数和累积量母函数推导期望。"
+    },
+    {
+      "title": "ICML高引论文，一个好的工作是怎样的",
+      "url": "https://zhuanlan.zhihu.com/p/323959089",
+      "summary": "正文把校准误差定义为置信度与准确率之差的期望并展开其分桶公式。"
+    },
+    {
+      "title": "混合高斯模型-EM算法",
+      "url": "https://zhuanlan.zhihu.com/p/326055752",
+      "summary": "正文利用随机变量的期望形式叙述 Jensen 不等式并构造对数似然下界。"
+    },
+    {
+      "title": "从贝叶斯滤波到无迹卡尔曼滤波",
+      "url": "https://zhuanlan.zhihu.com/p/328541130",
+      "summary": "正文通过给 sigma 点赋权并求加权均值来估计变换后随机变量的期望。"
+    },
+    {
+      "title": "数学小白都能看懂的数学期望讲解",
+      "url": "https://zhuanlan.zhihu.com/p/330669300",
+      "summary": "正文系统定义离散随机变量的数学期望，证明线性性质与独立乘积性质，并用多个问题计算期望。"
+    },
+    {
+      "title": "金融数学第10讲（期权定价：二叉树方法，B-S公式）",
+      "url": "https://zhuanlan.zhihu.com/p/330957457",
+      "summary": "正文用风险中性概率计算衍生品预期收益，再按无风险利率贴现得到价格。"
+    },
+    {
+      "title": "关于Performer的一些笔记",
+      "url": "https://zhuanlan.zhihu.com/p/336457103",
+      "summary": "正文把高斯核的积分表示为随机变量期望，再用采样近似说明随机特征方法。"
+    },
+    {
+      "title": "统计学(1)|白话统计学发展(含统计学必知必会)",
+      "url": "https://zhuanlan.zhihu.com/p/336456193",
+      "summary": "正文以算术平均数说明如何用一个统计值概括一组数据的平均水平。"
+    },
+    {
+      "title": "Rademacher复杂度&VC维-最通俗的类比讲解",
+      "url": "https://zhuanlan.zhihu.com/p/337298338",
+      "summary": "正文围绕真实期望损失与经验损失之差定义泛化误差，并用期望控制其上界。"
+    },
+    {
+      "title": "概率论笔记(12)——鞅、停时、鞅不等式",
+      "url": "https://zhuanlan.zhihu.com/p/337979050",
+      "summary": "正文把条件期望代入鞅定义并取期望，证明鞅期望恒定以及上下鞅期望的单调性。"
+    },
+    {
+      "title": "一文看懂蒙特卡洛采样方法",
+      "url": "https://zhuanlan.zhihu.com/p/338103692",
+      "summary": "正文用从目标分布抽取的大量样本及其函数值的平均值估计数学期望。"
+    },
+    {
+      "title": "随机过程|笔记整理（5）——无限状态马尔科夫链的进一步探讨，泊松过程引入，复合泊松过程",
+      "url": "https://zhuanlan.zhihu.com/p/339121930",
+      "summary": "正文使用重期望公式计算复合泊松过程的均值，并给出条件期望拆分公式的证明。"
+    },
+    {
+      "title": "概率论：三、随机变量的期望和方差",
+      "url": "https://zhuanlan.zhihu.com/p/343367455",
+      "summary": "正文定义离散与连续随机变量的数学期望，并讲解其线性性质及随机变量函数的期望。"
+    },
+    {
+      "title": "机器学习-白板推导系列(十)-EM算法（Expectation Maximization）学习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/343353302",
+      "summary": "正文把 E 步具体定义为在给定观测和后验下求完整数据对数概率的条件期望。"
+    },
+    {
+      "title": "VAE中的重参数化技巧-reparameterization trick",
+      "url": "https://zhuanlan.zhihu.com/p/344938643",
+      "summary": "正文推导期望与梯度交换，并给出梯度的蒙特卡洛估计。"
+    },
+    {
+      "title": "多元统计课程笔记（1）多元统计基本知识",
+      "url": "https://zhuanlan.zhihu.com/p/345000878",
+      "summary": "正文推导欧氏距离和马氏距离的期望表达式。"
+    },
+    {
+      "title": "随机过程|笔记整理（B）——鞅的引入，性质与举例。可选停时定理",
+      "url": "https://zhuanlan.zhihu.com/p/345820722",
+      "summary": "正文用条件期望刻画鞅的未来期望等于当前值，并借重期望公式推导鞅的长期期望性质。"
+    },
+    {
+      "title": "机器学习-白板推导系列(十二)-变分推断（Variational Inference）笔记",
+      "url": "https://zhuanlan.zhihu.com/p/345597656",
+      "summary": "正文将对数似然等式两边对 q(Z) 取期望，并把结果分解为期望形式的 ELBO 与 KL 散度。"
+    },
+    {
+      "title": "应用随机过程|第1章 概率论与随机过程的基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/347239352",
+      "summary": "正文用Riemann-Stieltjes积分定义数学期望，并说明条件期望与全期望公式。"
+    },
+    {
+      "title": "形象理解协方差矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/349802953",
+      "summary": "正文给出数学期望的定义，并以期望表达协方差和方差。"
+    },
+    {
+      "title": "因果推断学习3 --- 随机试验",
+      "url": "https://zhuanlan.zhihu.com/p/351283791",
+      "summary": "正文用期望定义平均处理效应，并说明随机试验下可由条件期望估计因果效应。"
+    },
+    {
+      "title": "茆诗松《高等数理统计》课后习题解答(1)第1章·基本概念·1-20题",
+      "url": "https://zhuanlan.zhihu.com/p/109757832",
+      "summary": "正文多次计算 Gamma、对数正态、逆 Gamma、非中心 F 与 t 分布的期望。"
+    },
+    {
+      "title": "随机过程笔记（三）Poisson过程",
+      "url": "https://zhuanlan.zhihu.com/p/353084053",
+      "summary": "正文用重期望和条件期望计算带随机索赔次数的贴现总额及复合泊松过程的均值。"
+    },
+    {
+      "title": "茆诗松《高等数理统计》课后习题解答(4)第2章·点估计·1-10题",
+      "url": "https://zhuanlan.zhihu.com/p/353663407",
+      "summary": "正文反复计算随机变量与估计量的期望，并用期望等于参数证明多个估计量无偏。"
+    },
+    {
+      "title": "真香的多元随机向量基础篇（均值与方差）",
+      "url": "https://zhuanlan.zhihu.com/p/354951327",
+      "summary": "正文定义矩阵期望，并证明随机变量经常量矩阵线性组合后期望的运算性质。"
+    },
+    {
+      "title": "数字世界逼近现实世界——浅谈分布近似与最大似然估计",
+      "url": "https://zhuanlan.zhihu.com/p/355150033",
+      "summary": "正文回顾连续与离散随机变量的数学期望，并给出基于样本近似的表达式。"
+    },
+    {
+      "title": "统计学与物理中的「矩」",
+      "url": "https://zhuanlan.zhihu.com/p/355838840",
+      "summary": "正文通过质心、加权平均和连续积分解释一阶矩就是随机变量的数学期望。"
+    },
+    {
+      "title": "抽样调查第02讲（简单随机抽样SRS：定义，简单估计量及其性质）",
+      "url": "https://zhuanlan.zhihu.com/p/356060582",
+      "summary": "正文通过多种求期望的方法证明简单随机抽样中样本均值对总体均值无偏。"
+    },
+    {
+      "title": "GAE——泛化优势估计",
+      "url": "https://zhuanlan.zhihu.com/p/356447099",
+      "summary": "正文用状态值函数和动作值函数的期望定义优势函数，并讨论其无偏估计。"
+    },
+    {
+      "title": "从GAN到W-GAN的“硬核拆解”（一）：初识GAN",
+      "url": "https://zhuanlan.zhihu.com/p/356099204",
+      "summary": "正文用样本平均解释随机变量函数的数学期望，并将似然目标改写成期望形式。"
+    },
+    {
+      "title": "深入理解一下Generalized Focal Loss v1 & v2",
+      "url": "https://zhuanlan.zhihu.com/p/357415257",
+      "summary": "正文用离散分布的概率加权和计算边界框期望，并将其用于定位与分类训练。"
+    },
+    {
+      "title": "抽样调查第03讲（简单随机抽样SRS：比率估计、回归估计、确定样本容量）",
+      "url": "https://zhuanlan.zhihu.com/p/357618368",
+      "summary": "正文通过对样本方差求数学期望并代入样本均值的方差，证明它无偏估计总体方差。"
+    },
+    {
+      "title": "从GAN到W-GAN的“硬核拆解”（三）：沃瑟斯坦距离",
+      "url": "https://zhuanlan.zhihu.com/p/358330515",
+      "summary": "正文将 Wasserstein 距离改写为联合分布下位移范数的期望下确界。"
+    },
+    {
+      "title": "对数正态分布",
+      "url": "https://zhuanlan.zhihu.com/p/360165720",
+      "summary": "正文通过换元积分逐步推导对数正态随机变量的期望公式。"
+    },
+    {
+      "title": "重要性采样和多重重要性采样在路径追踪中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/360420413",
+      "summary": "正文通过对多重要性采样估计量取期望，证明满足权重条件时估计量无偏。"
+    },
+    {
+      "title": "【趣味】高考题中隐藏的“赌博模型”",
+      "url": "https://zhuanlan.zhihu.com/p/360958929",
+      "summary": "正文用赢钱概率、赔率和下注成本计算游戏每次的预期收益，并据此讨论正负期望下的下注策略。"
+    },
+    {
+      "title": "茆诗松《高等数理统计》课后习题解答(7)第2章·点估计·31-40题",
+      "url": "https://zhuanlan.zhihu.com/p/364873543",
+      "summary": "正文计算矩估计量、次序统计量和条件期望，并据此讨论估计量的无偏性。"
+    },
+    {
+      "title": "茆诗松《高等数理统计》课后习题解答(8)第2章·点估计·41-50题",
+      "url": "https://zhuanlan.zhihu.com/p/366977293",
+      "summary": "正文通过积分换元具体计算拉普拉斯分布的期望并用于矩估计。"
+    },
+    {
+      "title": "如何通俗的理解bootstrap，自举法，自助法",
+      "url": "https://zhuanlan.zhihu.com/p/367338935",
+      "summary": "正文把总体均值写成关于分布 CDF 的统计泛函，并用样本均值作为其插入估计。"
+    },
+    {
+      "title": "茆诗松《高等数理统计》课后习题解答(10)第3章·假设检验·1-10题",
+      "url": "https://zhuanlan.zhihu.com/p/368411095",
+      "summary": "正文通过密度函数比较证明两个随机变量期望的大小关系，并在指数族问题中计算统计量期望。"
+    },
+    {
+      "title": "EM算法详解",
+      "url": "https://zhuanlan.zhihu.com/p/367714302",
+      "summary": "正文详细说明E步如何计算隐变量的条件期望，并用该期望更新参数完成极大化。"
+    },
+    {
+      "title": "蒙特卡罗方法详解",
+      "url": "https://zhuanlan.zhihu.com/p/369099011",
+      "summary": "正文用样本函数值的平均估计数学期望，并将结果用于近似积分。"
+    },
+    {
+      "title": "随机过程：一、随机过程的分布及其特征",
+      "url": "https://zhuanlan.zhihu.com/p/371832715",
+      "summary": "正文定义均值函数并给出其公式，同时解释它描述随机过程在各时刻的中心位置。"
+    },
+    {
+      "title": "炸金花的策略分析",
+      "url": "https://zhuanlan.zhihu.com/p/373116633",
+      "summary": "正文按手牌联合分布对各结果加权，计算加注策略下的收益期望。"
+    },
+    {
+      "title": "投资中最重要的公式之——凯利公式",
+      "url": "https://zhuanlan.zhihu.com/p/375054959",
+      "summary": "正文指出凯利公式中的盈损加权部分正是单次投注收益的数学期望。"
+    },
+    {
+      "title": "数据建模与分析第10讲（蒙特卡洛法、MCMC、Metropolis-Hasting）",
+      "url": "https://zhuanlan.zhihu.com/p/374851855",
+      "summary": "正文把样本均值作为随机变量及其函数数学期望的估计。"
+    },
+    {
+      "title": "强化学习笔记 - 贝尔曼方程（Bellman Equation）",
+      "url": "https://zhuanlan.zhihu.com/p/381821556",
+      "summary": "正文把策略目标写为随机轨迹回报的期望，并用条件期望定义状态值和动作值，进而推导贝尔曼方程。"
+    },
+    {
+      "title": "两道有趣的高中数学题",
+      "url": "https://zhuanlan.zhihu.com/p/396611508",
+      "summary": "正文先给出数学期望的定义式，再通过分布列、生成函数和递推关系求随机变量的期望。"
+    },
+    {
+      "title": "实分析笔记（五）：概率论基础",
+      "url": "https://zhuanlan.zhihu.com/p/397058725",
+      "summary": "正文以概率空间积分定义期望，并给出离散型、连续型以及函数变换后的计算公式。"
+    },
+    {
+      "title": "大白话谈因果系列文章（二）因果效应估计及论文介绍",
+      "url": "https://zhuanlan.zhihu.com/p/397974913",
+      "summary": "正文用个体处理效应的总体期望定义平均处理效应 ATE，并给出求和形式。"
+    },
+    {
+      "title": "随机树的直径：最遥远的彼方真的遥不可及吗？",
+      "url": "https://zhuanlan.zhihu.com/p/398621082",
+      "summary": "正文以随机树的直径期望为核心问题，计算高度期望并得到渐近结果。"
+    },
+    {
+      "title": "随机微分方程笔记（二）布朗运动及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/400802316",
+      "summary": "正文计算布朗运动增量的条件期望和几何布朗运动的期望，并用矩母函数提示这些期望的计算。"
+    },
+    {
+      "title": "随机变量的特征函数及应用",
+      "url": "https://zhuanlan.zhihu.com/p/358618882",
+      "summary": "正文由特征函数在原点的导数给出各阶矩公式，并用它计算多种分布的数学期望。"
+    },
+    {
+      "title": "变分推断与 Amortized 变分推断",
+      "url": "https://zhuanlan.zhihu.com/p/402237111",
+      "summary": "正文把不可计算的积分改写为在 q 分布下的期望，并由期望的对数不等式推导 ELBO。"
+    },
+    {
+      "title": "走进贝叶斯统计（二）—— 共轭先验分布",
+      "url": "https://zhuanlan.zhihu.com/p/401626004",
+      "summary": "正文推导后验数学期望为先验均值与样本均值的加权和，并解释有效样本量对权重的影响。"
+    },
+    {
+      "title": "随机微分方程笔记（四）随机微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/405174311",
+      "summary": "正文专门推导随机过程期望所满足的常微分方程，并给出期望的计算公式与实例。"
+    },
+    {
+      "title": "一万字的统计学知识大梳理",
+      "url": "https://zhuanlan.zhihu.com/p/413705766",
+      "summary": "正文定义随机事件的期望，并用各结果及其概率解释其综合代表值含义。"
+    },
+    {
+      "title": "不太确定的话，来个混沌多项式展开吧.py",
+      "url": "https://zhuanlan.zhihu.com/p/414661101",
+      "summary": "正文以指数分布均值为例，并用多项式混沌展开的系数计算随机响应的期望。"
+    },
+    {
+      "title": "高等概率论：条件期望、条件方差与条件协方差的性质",
+      "url": "https://zhuanlan.zhihu.com/p/360005737",
+      "summary": "正文系统列出条件期望的线性性、双期望定理、独立性、凸性以及最小均方误差等性质。"
+    },
+    {
+      "title": "EM算法, GMM",
+      "url": "https://zhuanlan.zhihu.com/p/419442202",
+      "summary": "正文明确把 EM 的更新目标写成关于隐变量的条件期望，并通过期望化简推导算法单调性。"
+    },
+    {
+      "title": "纳什均衡的存在性证明",
+      "url": "https://zhuanlan.zhihu.com/p/378846601",
+      "summary": "正文给出混合策略效用期望的求和公式，并据此比较玩家改换策略前后的收益。"
+    },
+    {
+      "title": "MCMC与贝叶斯推断简介：从入门到放弃",
+      "url": "https://zhuanlan.zhihu.com/p/420214359",
+      "summary": "正文以大数定律说明样本均值收敛于数学期望，并把蒙特卡洛估计和贝叶斯后验期望估计连接起来。"
+    },
+    {
+      "title": "集中不等式 (Concentration Inequalities)",
+      "url": "https://zhuanlan.zhihu.com/p/424198728",
+      "summary": "正文以非负随机变量的期望为起点，给出 Markov、Hoeffding 等集中不等式及证明。"
+    },
+    {
+      "title": "时间序列分析基础-定义、均值、方差、自协方差及相关性",
+      "url": "https://zhuanlan.zhihu.com/p/424609116",
+      "summary": "正文定义时间序列的均值函数，给出样本均值估计并讨论弱平稳条件下的常均值。"
+    },
+    {
+      "title": "增益模型（Uplift Model）的基础介绍 —— 估算ITE",
+      "url": "https://zhuanlan.zhihu.com/p/425898510",
+      "summary": "正文用干预组与对照组潜在结果的条件下期望之差定义 CATE，并据此展开个体处理效应的估计。"
+    },
+    {
+      "title": "Donald Rubin的因果推断学术贡献：超出统计学范畴的划时代影响",
+      "url": "https://zhuanlan.zhihu.com/p/427710922",
+      "summary": "正文用潜在结果的期望差定义并解释群体层面的平均因果效应。"
+    },
+    {
+      "title": "Tweedie损失函数保姆级推导过程",
+      "url": "https://zhuanlan.zhihu.com/p/438439576",
+      "summary": "正文用条件期望和全期望公式推导复合泊松－伽马随机变量的期望。"
+    },
+    {
+      "title": "概率论知识点总结",
+      "url": "https://zhuanlan.zhihu.com/p/438651864",
+      "summary": "正文给出连续型随机变量数学期望的积分定义，并列出常见分布的期望公式。"
+    },
+    {
+      "title": "EM算法：Expection Maximum, 期望最大法",
+      "url": "https://zhuanlan.zhihu.com/p/439081824",
+      "summary": "正文把隐变量的后验概率作为权重构造加权估计，明确将 EM 的 E 步解释为求期望。"
+    },
+    {
+      "title": "随机过程（一）——泊松过程",
+      "url": "https://zhuanlan.zhihu.com/p/439185099",
+      "summary": "正文由泊松分布的概率质量函数计算过程的均值函数并得到 λt。"
+    },
+    {
+      "title": "Inequalities: 马尔可夫与切比雪夫不等式",
+      "url": "https://zhuanlan.zhihu.com/p/441266472",
+      "summary": "正文从随机变量的期望出发陈述马尔可夫不等式，并给出离散与积分两种证明。"
+    },
+    {
+      "title": "Dropout视角下的MLM和MAE：一些新的启发",
+      "url": "https://zhuanlan.zhihu.com/p/443248807",
+      "summary": "正文用期望的加权和计算伯努利变量的各阶矩，并把训练完成后的最优预测解释为模型平均。"
+    },
+    {
+      "title": "什么是矩生成函数（MGF）？",
+      "url": "https://zhuanlan.zhihu.com/p/444510045",
+      "summary": "正文通过 MGF 在零点的导数得到数学期望，并进一步用导数求各阶矩。"
+    },
+    {
+      "title": "不确定性量化（Uncertainty Qunatification）",
+      "url": "https://zhuanlan.zhihu.com/p/445448562",
+      "summary": "正文把随机场的期望定义为对概率空间的积分，并通过取期望得到确定性的偏微分方程。"
+    },
+    {
+      "title": "年终别去赌：你永远赢不了“凯利公式”",
+      "url": "https://zhuanlan.zhihu.com/p/453096001",
+      "summary": "正文用获胜概率与赔率计算期望值，并据此讨论期望为正、为零或为负时的下注决策。"
+    },
+    {
+      "title": "置信区间与预测区间是同一个吗？",
+      "url": "https://zhuanlan.zhihu.com/p/366307027",
+      "summary": "正文解释条件期望作为回归方程，并推导估计值的期望。"
+    },
+    {
+      "title": "期末复习——概率论与数理统计基本概念总结",
+      "url": "https://zhuanlan.zhihu.com/p/457874295",
+      "summary": "正文给出离散型和连续型随机变量的数学期望定义、计算式与线性性质。"
+    },
+    {
+      "title": "通俗科普文：贝叶斯优化与SMBO、高斯过程回归、TPE",
+      "url": "https://zhuanlan.zhihu.com/p/459110020",
+      "summary": "正文定义期望改进为关于候选超参数的期望，并用其大小选择下一组参数。"
+    },
+    {
+      "title": "概率论和数理统计知识点总结",
+      "url": "https://zhuanlan.zhihu.com/p/472605235",
+      "summary": "正文分别给出离散型和连续型随机变量的数学期望公式，并整理期望的基本性质。"
+    },
+    {
+      "title": "样本方差中的自由度是什么？：严格证明为什么计算样本方差时要除以n-1",
+      "url": "https://zhuanlan.zhihu.com/p/472962286",
+      "summary": "正文以估计量的期望展开无偏性证明，并计算样本方差估计的期望。"
+    },
+    {
+      "title": "Fisher Information Matrix",
+      "url": "https://zhuanlan.zhihu.com/p/474994301",
+      "summary": "正文把 Fisher 信息定义为 score function 二阶矩的期望，并给出经验期望的计算式。"
+    },
+    {
+      "title": "深入理解强化学习（二）- 强化学习问题",
+      "url": "https://zhuanlan.zhihu.com/p/478618174",
+      "summary": "正文把累积收益在状态处的期望定义为状态值函数，并进一步讨论 Q 值与贝尔曼期望方程。"
+    },
+    {
+      "title": "【概率论】蒲丰投针问题",
+      "url": "https://zhuanlan.zhihu.com/p/479953215",
+      "summary": "正文在 Barbier 证明中把针的交点数视为随机量，利用期望的线性性求出交点数的期望。"
+    },
+    {
+      "title": "正态分布（高斯分布）学习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/481760712",
+      "summary": "正文用掷骰子例子解释期望作为结果按概率加权的平均，并区分经验均值。"
+    },
+    {
+      "title": "无迹卡尔曼滤波UKF的理解与应用（附Matlab实例）",
+      "url": "https://zhuanlan.zhihu.com/p/482392082",
+      "summary": "正文用 Sigma 点的加权和计算状态预测均值，并给出相应的均值权重公式。"
+    },
+    {
+      "title": "强化学习中“策略梯度定理”的规范表达、推导与讨论",
+      "url": "https://zhuanlan.zhihu.com/p/490373525",
+      "summary": "正文把策略梯度目标写成轨迹回报期望，并推导两种含状态与动作期望的等价形式。"
+    },
+    {
+      "title": "【策略梯度定理】推导、证明、深入理解与代码实现",
+      "url": "https://zhuanlan.zhihu.com/p/491647161",
+      "summary": "正文把策略梯度的状态动作求和改写为期望，并解释对应的状态概率分布。"
+    },
+    {
+      "title": "Empirical Market Microstructure：实证市场微观结构 Part I",
+      "url": "https://zhuanlan.zhihu.com/p/481016328",
+      "summary": "正文用条件期望计算买卖报价，并以期望收益最大化分析知情交易者的最优需求量。"
+    },
+    {
+      "title": "朴实无华，万字统计学知识大梳理，建议收藏！",
+      "url": "https://zhuanlan.zhihu.com/p/498941630",
+      "summary": "正文解释期望如何综合各种结果及其发生概率，并用事件代表值说明其含义。"
+    },
+    {
+      "title": "对数正态分布（Log-Normal Distribution）",
+      "url": "https://zhuanlan.zhihu.com/p/490650039",
+      "summary": "正文通过积分推导对数正态分布的期望，并解释分布参数对均值的影响。"
+    },
+    {
+      "title": "二项分布期望和方差推导",
+      "url": "https://zhuanlan.zhihu.com/p/502063938",
+      "summary": "正文利用二项分布概率之和为 1 的换元关系完成期望公式的推导。"
+    },
+    {
+      "title": "0-1 分布、二项分布（期望与方差）",
+      "url": "https://zhuanlan.zhihu.com/p/503538267",
+      "summary": "正文给出二项分布的期望 np，并通过组合数恒等式和求和推导该结果。"
+    },
+    {
+      "title": "泊松分布（定义、期望、方差、例题）",
+      "url": "https://zhuanlan.zhihu.com/p/503553610",
+      "summary": "正文明确给出泊松分布期望为 λ，并从概率质量函数出发完成级数求和证明。"
+    },
+    {
+      "title": "均匀分布（定义、期望、方差）",
+      "url": "https://zhuanlan.zhihu.com/p/503555444",
+      "summary": "正文给出均匀分布的期望为区间中点，并由概率密度函数直接计算验证。"
+    },
+    {
+      "title": "正态分布、标准正态分布（定义、期望、方差、例题）",
+      "url": "https://zhuanlan.zhihu.com/p/503557666",
+      "summary": "正文给出正态分布期望为 μ，并通过概率密度积分展开证明该结论。"
+    },
+    {
+      "title": "直观理解Law of Total Variance(方差分解公式)",
+      "url": "https://zhuanlan.zhihu.com/p/507900722",
+      "summary": "正文用分组均值和积分推导说明重期望公式，展开条件期望的基本性质。"
+    },
+    {
+      "title": "统计套利的基石：Ornstein–Uhlenbeck Process",
+      "url": "https://zhuanlan.zhihu.com/p/521243637",
+      "summary": "正文对 OU 过程的闭式解取期望，并利用 Itô 积分的鞅性得到各时刻的期望公式。"
+    },
+    {
+      "title": "图兰定理——极值图论的开端",
+      "url": "https://zhuanlan.zhihu.com/p/528662514",
+      "summary": "正文通过随机置换构造随机团基数，并利用指示变量期望的线性性完成概率证明。"
+    },
+    {
+      "title": "【概率论】各种概率分布汇总",
+      "url": "https://zhuanlan.zhihu.com/p/517424307",
+      "summary": "正文解释期望与分布位置参数的关系，并给出多种分布的期望计算。"
+    },
+    {
+      "title": "期望、方差、协方差性质总结与证明",
+      "url": "https://zhuanlan.zhihu.com/p/541777186",
+      "summary": "正文从定义出发证明期望的线性性、可加性、独立可乘性与单调性等基本性质。"
+    },
+    {
+      "title": "概率论笔记（四）概率分布的下期望和方差的公式总结",
+      "url": "https://zhuanlan.zhihu.com/p/547918825",
+      "summary": "正文以加权平均解释离散型和连续型随机变量的数学期望并总结其性质。"
+    },
+    {
+      "title": "六、GAE 广义优势估计",
+      "url": "https://zhuanlan.zhihu.com/p/549145459",
+      "summary": "正文用估计量的期望解释无偏性，并在蒙特卡洛与时序差分估计中比较偏差。"
+    },
+    {
+      "title": "【游戏数值策划】抽奖模型的设计与分析",
+      "url": "https://zhuanlan.zhihu.com/p/534645684",
+      "summary": "正文用中奖概率与价值计算平均中奖次数、平均奖品价值和性价比，实际运用了数学期望。"
+    },
+    {
+      "title": "【浅谈】样本方差的分母“n”为什么要改为“n-1”",
+      "url": "https://zhuanlan.zhihu.com/p/550427703",
+      "summary": "正文分别计算分母为 n 和 n-1 的样本方差期望，以期望是否等于真实方差判断无偏性。"
+    },
+    {
+      "title": "概率论和机器学习中的不等式（一）",
+      "url": "https://zhuanlan.zhihu.com/p/538654580",
+      "summary": "正文由期望给出尾部概率上界，并用期望分解证明马尔可夫、佩利-齐格蒙德等不等式。"
+    },
+    {
+      "title": "我的三个猜想",
+      "url": "https://zhuanlan.zhihu.com/p/558930604",
+      "summary": "正文把高维正方体内随机两点的距离作为随机变量并讨论其数学期望。"
+    },
+    {
+      "title": "概率论和机器学习中的不等式",
+      "url": "https://zhuanlan.zhihu.com/p/559551933",
+      "summary": "正文从马尔可夫不等式开始，用随机变量的期望控制尾部概率。"
+    },
+    {
+      "title": "深入浅出Sampling-Argmax",
+      "url": "https://zhuanlan.zhihu.com/p/564050500",
+      "summary": "正文明确指出Soft-Argmax是在计算离散概率分布的期望，并比较“期望的误差”和“误差的期望”的损失。"
+    },
+    {
+      "title": "一文解释 Diffusion Model (一) DDPM 理论推导",
+      "url": "https://zhuanlan.zhihu.com/p/565901160",
+      "summary": "正文通过期望、均值和方差展开似然下界与高斯分布 KL 散度，化为均值匹配目标。"
+    },
+    {
+      "title": "Fisher Information matrix(FIM)的性质，与Hessian, KL divergence的关联",
+      "url": "https://zhuanlan.zhihu.com/p/563212799",
+      "summary": "正文证明 score function 的期望为零，并以其协方差定义 Fisher 信息矩阵。"
+    },
+    {
+      "title": "量化面试-看看绿皮书（一）",
+      "url": "https://zhuanlan.zhihu.com/p/567830725",
+      "summary": "正文通过插入间隔分析扑克牌位置，计算首次抽到 ACE 所需张数的期望。"
+    },
+    {
+      "title": "Straight-through estimator (STE) 解读",
+      "url": "https://zhuanlan.zhihu.com/p/570322025",
+      "summary": "正文用随机量化的概率平均值解释STE的求导，实质展开了离散随机变量的期望。"
+    },
+    {
+      "title": "概率论4.3-原点矩和中心距",
+      "url": "https://zhuanlan.zhihu.com/p/570470390",
+      "summary": "正文定义k阶原点矩并明确指出一阶原点矩就是随机变量的期望。"
+    },
+    {
+      "title": "一篇文章讲清楚交叉熵和KL散度",
+      "url": "https://zhuanlan.zhihu.com/p/573385147",
+      "summary": "正文明确把信息熵解释为惊喜度的期望，并用概率加权求和与积分给出期望。"
+    },
+    {
+      "title": "极值分布与广义极值分布（GEV）",
+      "url": "https://zhuanlan.zhihu.com/p/576922526",
+      "summary": "正文给出 Gumbel 分布的均值公式及参数含义，具体讨论该分布的期望。"
+    },
+    {
+      "title": "小学生的魔法之旅——Erdős距离问题",
+      "url": "https://zhuanlan.zhihu.com/p/570132996",
+      "summary": "正文用随机选点后的期望边数、顶点数和交叉数建立不等式，估计图的交叉数下界。"
+    },
+    {
+      "title": "数学期望大于零的游戏一定能赚钱吗",
+      "url": "https://zhuanlan.zhihu.com/p/579732711",
+      "summary": "正文以公平抛硬币和圣彼得堡游戏说明期望收益如何决定长期收益，并计算不同停止条件下的破产概率。"
+    },
+    {
+      "title": "概率论相关的积分知识及一些计算技巧",
+      "url": "https://zhuanlan.zhihu.com/p/580198395",
+      "summary": "正文利用正态密度积分和标准化换元，逐步计算正态随机变量的期望。"
+    },
+    {
+      "title": "【概率论】常见分布的性质",
+      "url": "https://zhuanlan.zhihu.com/p/580841851",
+      "summary": "正文为各离散型和连续型随机变量列出期望公式，例如二项分布期望为np，并计算其他分布的期望。"
+    },
+    {
+      "title": "彻底解决双信悖论",
+      "url": "https://zhuanlan.zhihu.com/p/582631411",
+      "summary": "正文计算条件期望，并据此比较保留原红包和交换红包的长期期望收益。"
+    },
+    {
+      "title": "金融quant面试题与阿里数学竞赛",
+      "url": "https://zhuanlan.zhihu.com/p/583154768",
+      "summary": "正文为收集虎、生、威三个字符建立各状态的条件期望方程并求出首达时间的总期望。"
+    },
+    {
+      "title": "由浅入深理解 Fisher 信息（2）——从10种不同的角度和深度理解 Fisher information",
+      "url": "https://zhuanlan.zhihu.com/p/589311732",
+      "summary": "正文利用 Score 函数期望为零化简其方差，从而得到 Fisher 信息等于 Score 平方的期望。"
+    },
+    {
+      "title": "【强化学习】多臂老虎机的上置信界算法（全网最通俗）",
+      "url": "https://zhuanlan.zhihu.com/p/589652397",
+      "summary": "正文计算伯努利奖励变量的期望，说明它等于按钮获得奖励的真实概率 p。"
+    },
+    {
+      "title": "随机过程学习笔记（1）- Gambling Problem赌徒问题",
+      "url": "https://zhuanlan.zhihu.com/p/590513240",
+      "summary": "正文构造停时的条件期望递推，并分公平与非公平情形求出游戏结束时间的期望。"
+    },
+    {
+      "title": "随机过程学习笔记（2）- Random Walks随机游走问题",
+      "url": "https://zhuanlan.zhihu.com/p/590771816",
+      "summary": "正文利用增量的期望线性计算随机游走位置的期望，并进一步通过概率生成函数求首次归零时间期望。"
+    },
+    {
+      "title": "一文解释 经验贝叶斯估计, Tweedie's formula",
+      "url": "https://zhuanlan.zhihu.com/p/594007789",
+      "summary": "正文把最小均方误差估计解释为后验均值，并据此后验期望推导 Robbins、James-Stein 和 Tweedie 估计。"
+    },
+    {
+      "title": "关于次序统计量的概率密度函数以及联合概率密度函数",
+      "url": "https://zhuanlan.zhihu.com/p/595063134",
+      "summary": "正文在均匀分布例题中分别计算最小值和最大值的期望，再求其和。"
+    },
+    {
+      "title": "鞅论（Martingales）与随机逼近（Stochastic approximation）",
+      "url": "https://zhuanlan.zhihu.com/p/595113029",
+      "summary": "正文用赌局筹码的条件期望保持不变量解释鞅，并给出可选抽样下的期望不变性质。"
+    },
+    {
+      "title": "统计思维系列课程01：解读数据",
+      "url": "https://zhuanlan.zhihu.com/p/595273755",
+      "summary": "正文系统讲解算术平均、几何平均、调和平均及中位数和众数等集中趋势指标。"
+    },
+    {
+      "title": "概率分布是什么——一些常见的概率分布（一）",
+      "url": "https://zhuanlan.zhihu.com/p/615272674",
+      "summary": "正文给出多种分布的均值公式，并用期望记号计算伯努利分布的均值。"
+    },
+    {
+      "title": "泊松分布——直观理解、应用示例、推导过程",
+      "url": "https://zhuanlan.zhihu.com/p/623446041",
+      "summary": "正文说明泊松分布的速率参数就是事件数的期望值，并用二项分布均值进行解释。"
+    },
+    {
+      "title": "量子蒙特卡洛算法小结（1）",
+      "url": "https://zhuanlan.zhihu.com/p/620123820",
+      "summary": "正文把积分和配分函数求和统一解释为对随机变量求期望，并以样本均值近似。"
+    },
+    {
+      "title": "闲聊因果效应（2）: 理解因果效应的计算以及PSM、IPW",
+      "url": "https://zhuanlan.zhihu.com/p/622399450",
+      "summary": "正文把平均处理效应写成两个干预结果的期望之差，并使用条件期望推导其估计。"
+    },
+    {
+      "title": "C.R.Rao：统计学的一百年",
+      "url": "https://zhuanlan.zhihu.com/p/632291879",
+      "summary": "正文说明 Rao-Blackwell 化通过对充分统计量取条件期望改善估计量，涉及条件期望与均方误差。"
+    },
+    {
+      "title": "KDD‘22  阿里｜DESCN: Deep Entire Space Cross Networks | 多任务、端到端、IPW的共舞",
+      "url": "https://zhuanlan.zhihu.com/p/629853695",
+      "summary": "正文以潜在结果的条件下期望定义个体因果效应，并据此推导可估计量。"
+    },
+    {
+      "title": "概率论及数理统计笔记(自用)",
+      "url": "https://zhuanlan.zhihu.com/p/646376019",
+      "summary": "正文给出离散和连续随机变量的数学期望定义、计算方法及重期望公式。"
+    },
+    {
+      "title": "原神概率论：材料合成天赋选10%双倍还是25%返还？",
+      "url": "https://zhuanlan.zhihu.com/p/648950822",
+      "summary": "正文分别用分布列、等比数列和条件期望递推计算两种策略的期望产出。"
+    },
+    {
+      "title": "因果推断（一）：因果推断两大框架及因果效应",
+      "url": "https://zhuanlan.zhihu.com/p/652174282",
+      "summary": "正文用潜在结果的期望差定义平均因果效应，并通过具体表格计算其数值。"
+    },
+    {
+      "title": "统计学中最反直觉的悖论—斯坦悖论，用中国茶叶的价格来更准确地预测墨尔本的降雨概率？",
+      "url": "https://zhuanlan.zhihu.com/p/655464162",
+      "summary": "正文用期望对全部可能样本上的均方误差取平均，比较不同估计量。"
+    },
+    {
+      "title": "一文详解贝叶斯优化（Bayesian Optimization）原理",
+      "url": "https://zhuanlan.zhihu.com/p/662879942",
+      "summary": "正文以条件期望作为预测值，并进一步推导期望改进采集函数。"
+    },
+    {
+      "title": "强化学习-重要性采样-Importance Sampling",
+      "url": "https://zhuanlan.zhihu.com/p/669378380",
+      "summary": "正文围绕目标分布与采样分布下的期望推导重要性权重和加权样本均值估计。"
+    },
+    {
+      "title": "高级计量笔记：GMM广义矩方法",
+      "url": "https://zhuanlan.zhihu.com/p/672482646",
+      "summary": "正文以样本均值近似 E(Y) 和 E(Y²)，系统使用一阶、二阶总体矩与样本矩构造估计量。"
+    },
+    {
+      "title": "GAE（Generalized Advantage Estimation）理解及推导",
+      "url": "https://zhuanlan.zhihu.com/p/675309680",
+      "summary": "正文把优势函数解释为未来回报期望，并用状态价值函数和回报估计构造期望优势。"
+    },
+    {
+      "title": "原神概率论：从抽卡概率模型到更新定理",
+      "url": "https://zhuanlan.zhihu.com/p/675316602",
+      "summary": "正文计算抽数期望并用期望倒数解释长期出货率与游戏公布的综合作概率。"
+    },
+    {
+      "title": "AAAI'24「快手」观看时长建模：CREAD",
+      "url": "https://zhuanlan.zhihu.com/p/678883395",
+      "summary": "正文通过生存函数积分和离散分桶近似观看时长的期望，并据此给出恢复后的预测。"
+    },
+    {
+      "title": "因果推断之Doubly Robust Regression",
+      "url": "https://zhuanlan.zhihu.com/p/682351612",
+      "summary": "正文以条件期望定义个体化平均处理效应，并以其期望作为估计目标。"
+    },
+    {
+      "title": "扩散模型(Diffusion Model)奠基之作：DDPM 论文解读",
+      "url": "https://zhuanlan.zhihu.com/p/682840224",
+      "summary": "正文从样本平均推得最大似然估计中的数学期望，并写出连续随机变量的期望表达式。"
+    },
+    {
+      "title": "状态转移建立方程——马尔科夫链无穷递推背景的概率与期望计算",
+      "url": "https://zhuanlan.zhihu.com/p/687181549",
+      "summary": "正文定义剩余局数随机变量，通过状态转移建立数学期望方程并求解。"
+    },
+    {
+      "title": "一文带你理解样本方差为什么下面要除以n-1",
+      "url": "https://zhuanlan.zhihu.com/p/689008493",
+      "summary": "正文利用数学期望的线性性展开无偏估计证明中的各项。"
+    },
+    {
+      "title": "LLM推理加速: Speculative Decoding 概述",
+      "url": "https://zhuanlan.zhihu.com/p/690504053",
+      "summary": "正文推导投机解码每轮预期生成token数及对应加速比。"
+    },
+    {
+      "title": "重要性采样(Importance Sampling)",
+      "url": "https://zhuanlan.zhihu.com/p/695130713",
+      "summary": "正文从数学期望的积分表达出发，定义经典蒙特卡洛估计和重要性采样估计，并讨论无偏性与相合性。"
+    },
+    {
+      "title": "概率论-泊松分布详解（狗都能看懂）",
+      "url": "https://zhuanlan.zhihu.com/p/695325687",
+      "summary": "正文明确解释二项分布中期望值 E(X)=np 的含义，并用具体人数与概率说明期望如何计算和解读。"
+    },
+    {
+      "title": "UE5.4 Lumen中的ReSTIR Gather (上) 全网最细RIS无偏性证明",
+      "url": "https://zhuanlan.zhihu.com/p/703950102",
+      "summary": "正文定义连续型随机变量的期望，说明线性性质并据此证明估计量的无偏性。"
+    },
+    {
+      "title": "统计学的基石之一——中心极限定理，竟然可以用泰勒定理来证明",
+      "url": "https://zhuanlan.zhihu.com/p/707767424",
+      "summary": "正文定义各阶矩和中心矩，并用期望的线性规则由矩生成函数提取期望所对应的矩。"
+    },
+    {
+      "title": "零阶优化算法",
+      "url": "https://zhuanlan.zhihu.com/p/709395175",
+      "summary": "正文通过随机扰动的期望、二阶矩与条件期望推导梯度估计和收敛结论。"
+    },
+    {
+      "title": "揭秘百家乐：为什么无论多少钱都会输的精光？赌徒能从赌场中赢钱吗？",
+      "url": "https://zhuanlan.zhihu.com/p/717254155",
+      "summary": "正文用数学期望计算庄家、闲家和局的平均回报，并解释赌场优势。"
+    },
+    {
+      "title": "生成式模型汇总！一文带你从隐变量模型到 VAE, GAN, Flow 到 Diffusion Model 全懂完（）",
+      "url": "https://zhuanlan.zhihu.com/p/721196823",
+      "summary": "正文将隐变量积分解释为期望，并用采样平均估计该期望和积分。"
+    },
+    {
+      "title": "算法学习笔记(35)：鞅与停时定理",
+      "url": "https://zhuanlan.zhihu.com/p/721900819",
+      "summary": "正文用条件期望推导停时定理，并以 E(τ)=E(Φ(A0))−Φ(Aτ) 求期望停止时间。"
+    },
+    {
+      "title": "Gamma分布和Beta分布的关系",
+      "url": "https://zhuanlan.zhihu.com/p/4798265277",
+      "summary": "正文计算 Gamma、Beta 和次序统计量的期望，并用条件期望处理比值。"
+    },
+    {
+      "title": "一类Hilbert型不等式的通解（二次型）",
+      "url": "https://zhuanlan.zhihu.com/p/6523031271",
+      "summary": "正文通过独立同分布变量和三角恒等式计算并证明含数学期望的绝对值矩不等式。"
+    },
+    {
+      "title": "一文贯通Diffusion原理：DDPM、DDIM和Flow Matching",
+      "url": "https://zhuanlan.zhihu.com/p/12591930520",
+      "summary": "正文以条件期望和回归损失学习逆向分布均值，并进一步改为直接估计E[x0|x_t]。"
+    },
+    {
+      "title": "系统分析师第二版pdf教程+第二章学习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/21418293765",
+      "summary": "正文分别给出离散型和连续型随机变量的数学期望公式，并说明其线性性质。"
+    },
+    {
+      "title": "蒙特卡洛(MC) vs 时序差分(TD) vs 广义优势估计(GAE)",
+      "url": "https://zhuanlan.zhihu.com/p/22431139619",
+      "summary": "正文用未来折扣奖励的期望定义状态值和动作值函数。"
+    },
+    {
+      "title": "一个有趣的强化学习小引理",
+      "url": "https://zhuanlan.zhihu.com/p/24036381625",
+      "summary": "正文以累计期望奖励为核心量，推导其关于策略的梯度并讨论不同策略期望回报之差。"
+    },
+    {
+      "title": "线性伯努利工厂 Linear Bernoulli Factory",
+      "url": "https://zhuanlan.zhihu.com/p/30882088370",
+      "summary": "正文以有限期望抛掷次数为核心目标，分析伯努利工厂算法并给出期望停机时间上界。"
+    },
+    {
+      "title": "从神经网络逼近理论到极值组合中的“概率方法”",
+      "url": "https://zhuanlan.zhihu.com/p/1947445307978810451",
+      "summary": "正文反复计算随机变量及其平方的数学期望，并由期望界推出存在性结论。"
+    },
+    {
+      "title": "从超鞅到 Ville 不等式：久赌必输的概率保证",
+      "url": "https://zhuanlan.zhihu.com/p/1951293471341130141",
+      "summary": "正文用每局财富变化的期望值说明公平鞅与庄家优势超鞅的差别。"
+    },
+    {
+      "title": "n个正态随机数的最大值的渐近估计",
+      "url": "https://zhuanlan.zhihu.com/p/1974633530932868962",
+      "summary": "正文分别用指数矩、拉普拉斯近似和逆累积分布方法估计正态样本最大值的数学期望。"
+    },
+    {
+      "title": "Flow Matching与MeanFlow, Improved MeanFlow的数学基础",
+      "url": "https://zhuanlan.zhihu.com/p/1980939388402811254",
+      "summary": "正文用条件期望定义边际速度，并据此说明 Flow Matching 损失的最优解。"
+    },
+    {
+      "title": "2025#December~积分题合集",
+      "url": "https://zhuanlan.zhihu.com/p/1973395738429001733",
+      "summary": "正文定义单位圆盘随机点距离的期望，并由联合密度把积分改写为期望计算。"
+    },
+    {
+      "title": "随机场论中的 Kac-Rice 公式简介",
+      "url": "https://zhuanlan.zhihu.com/p/1986765772161324393",
+      "summary": "正文以条件期望推导随机场水平集测度、临界点数量和临界点指标的期望。"
+    },
+    {
+      "title": "网红题：求P(AB)-P(A)P(B)的取值范围",
+      "url": "https://zhuanlan.zhihu.com/p/2007954821114783550",
+      "summary": "正文计算示性变量乘积的期望，把事件交集概率表示为期望。"
+    },
+    {
+      "title": "如何给一个期望收益为正无穷的彩票定价",
+      "url": "https://zhuanlan.zhihu.com/p/2028214737876303986",
+      "summary": "正文围绕圣彼得堡彩票的发散期望展开并据此提出新的定价模型。"
+    },
+    {
+      "title": "为什么概率论教材里的数学期望要写成 ∫ X(ω) dP(ω)？直接用 ∫ x f(x) dx 不行吗？",
+      "url": "https://zhuanlan.zhihu.com/p/2035078598298703072",
+      "summary": "正文以样本空间上的积分定义随机变量的数学期望，并与密度函数公式作比较。"
+    },
+    {
+      "title": "2026 年 “印度高考”（JEE Advanced）部分试题解析",
+      "url": "https://zhuanlan.zhihu.com/p/2041688931981341604",
+      "summary": "正文列出随机变量 X 的取值与概率，并按加权和计算其数学期望。"
+    }
+  ]
+}

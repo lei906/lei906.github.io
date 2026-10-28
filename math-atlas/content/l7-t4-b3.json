@@ -1,0 +1,871 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l7-t4-b3",
+  "sources": [
+    {
+      "title": "如何理解亚历山大·格罗滕迪克？",
+      "url": "https://www.zhihu.com/answer/33094038",
+      "summary": "介绍以谱序列计算复合导出函子的同调代数框架。"
+    },
+    {
+      "title": "做代数方向研究生的底线要求有哪些？",
+      "url": "https://www.zhihu.com/answer/33261081",
+      "summary": "正文直接讨论同调代数的学习内容。"
+    },
+    {
+      "title": "数学专业的学生的毕业论文是怎样的？",
+      "url": "https://www.zhihu.com/answer/41769260",
+      "summary": "正文涉及同调群和谱序列。"
+    },
+    {
+      "title": "学习代数几何需要怎样的基础？",
+      "url": "https://www.zhihu.com/answer/41994440",
+      "summary": "正文涉及上同调、导出范畴等同调代数路线。"
+    },
+    {
+      "title": "代数拓扑为何引入 正合、正合序列 这些概念？",
+      "url": "https://www.zhihu.com/answer/44103555",
+      "summary": "正文以de Rham复形说明正合、核像与上同调。"
+    },
+    {
+      "title": "哪些数学定理在直觉上是对的，但证明起来很困难？",
+      "url": "https://www.zhihu.com/answer/46511881",
+      "summary": "正文说明这些拓扑定理的简洁证明需要同调。"
+    },
+    {
+      "title": "拓扑学究竟是一种什么样的学科？",
+      "url": "https://www.zhihu.com/answer/49330372",
+      "summary": "正文用同调代数计算不同维数洞的个数。"
+    },
+    {
+      "title": "留数的上同调解释是什么？",
+      "url": "https://www.zhihu.com/answer/72294116",
+      "summary": "正文以局部上同调、Ext和对偶性解释留数。"
+    },
+    {
+      "title": "自学抽象代数有哪些相关资料值得推荐？",
+      "url": "https://www.zhihu.com/answer/82860045",
+      "summary": "正文明确介绍链复形、同调与正合列等同调代数语言。"
+    },
+    {
+      "title": "数学或者自然科学中有哪些理论技巧一经提出就大大化简了过去某些问题很困难繁琐的解答？",
+      "url": "https://www.zhihu.com/answer/87265618",
+      "summary": "正文解释层范畴成为 Abel 范畴后可以开展上同调。"
+    },
+    {
+      "title": "同调与上同调？",
+      "url": "https://www.zhihu.com/answer/89091058",
+      "summary": "正文解释上同调的反变函子、乘积结构和对偶复形。"
+    },
+    {
+      "title": "代数拓扑为什么研究同调？",
+      "url": "https://www.zhihu.com/answer/123321429",
+      "summary": "正文把同调代数解释为链复形上的同伦论，并详细讨论导范畴与消解。"
+    },
+    {
+      "title": "homological mirror symmetry是研究什么的？",
+      "url": "https://www.zhihu.com/answer/134083187",
+      "summary": "正文以同调代数、导出范畴和 Fukaya 范畴系统说明同调镜像对称。"
+    },
+    {
+      "title": "如何自学同调代数？",
+      "url": "https://www.zhihu.com/answer/172566686",
+      "summary": "正文由同调代数研究者给出教材选择、抽象性和后续理论的学习建议。"
+    },
+    {
+      "title": "有哪些听起来很厉害的专业术语？",
+      "url": "https://www.zhihu.com/answer/181458278",
+      "summary": "正文解释同调、上同调、链复形与对偶前缀的术语来源，属于同调代数基础。"
+    },
+    {
+      "title": "如何理解代数拓扑中的谱序列？",
+      "url": "https://www.zhihu.com/answer/181520842",
+      "summary": "正文详细说明链复形、双分次、微分与谱序列各页之间的同调代数结构。"
+    },
+    {
+      "title": "请问代数分析是什么样的领域？在几何学方面有什么应用嘛？",
+      "url": "https://www.zhihu.com/answer/185287102",
+      "summary": "正文解释复形、拟同构、上同调识别与交叉同调等同调代数语言。"
+    },
+    {
+      "title": "如何理解Maurer-Cartan形式？",
+      "url": "https://www.zhihu.com/answer/189305448",
+      "summary": "正文用上同调类、Hochschild cochain 与同调镜像对称说明形变理论的同调框架。"
+    },
+    {
+      "title": "你所在数学领域的 big picture 是什么？",
+      "url": "https://www.zhihu.com/answer/190177707",
+      "summary": "正文专节解释拓扑同调、Hilbert合系、层上同调以及同调群在多个分支中的应用。"
+    },
+    {
+      "title": "你所在数学领域的 big picture 是什么？",
+      "url": "https://www.zhihu.com/answer/190309098",
+      "summary": "正文以 Hochschild 上同调、导出范畴和镜像对称说明同调方法。"
+    },
+    {
+      "title": "如何评价 Bott 和 Tu 写的代数拓扑？",
+      "url": "https://www.zhihu.com/answer/192610918",
+      "summary": "正文围绕上同调、dg 代数、层和导出结构讨论代数拓扑的代数模型。"
+    },
+    {
+      "title": "如何理解 Čech 同调与上同调？",
+      "url": "https://www.zhihu.com/answer/218869097",
+      "summary": "正文用链复形、同调群、正合性和反向系统解释修正方法。"
+    },
+    {
+      "title": "代数拓扑中的同调论(Homology Theory)应该怎么学？",
+      "url": "https://www.zhihu.com/answer/231625162",
+      "summary": "正文讨论链复形及其与拓扑空间、单纯集合的范畴联系。"
+    },
+    {
+      "title": "Green公式，Gauss公式，Stokes公式除了反映各种积分之间的联系，还蕴含什么更加深刻的内容？",
+      "url": "https://www.zhihu.com/answer/233521665",
+      "summary": "正文把积分解释为两个链复形之间的链映射。"
+    },
+    {
+      "title": "代数拓扑里同调群的系数是要说明什么？",
+      "url": "https://www.zhihu.com/answer/274739245",
+      "summary": "正文明确用链复形、张量积与导出函子描述同调构造。"
+    },
+    {
+      "title": "在本科数学阶段你学过最有趣的一门数学课是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/286568159",
+      "summary": "正文讨论同调与上同调工具及其公理化。"
+    },
+    {
+      "title": "你所在的领域（数学和或物理）有哪些令你觉得新颖理论或工具？",
+      "url": "https://www.zhihu.com/answer/295271500",
+      "summary": "正文以 Koszul 对偶研究 Calabi–Yau completion 和 Fukaya 范畴。"
+    },
+    {
+      "title": "导出非交换代数几何是做什么？",
+      "url": "https://www.zhihu.com/answer/306831018",
+      "summary": "正文讨论上同调、导出范畴与Calabi–Yau范畴的关系。"
+    },
+    {
+      "title": "数学研究者一般需要用到数学软件吗？",
+      "url": "https://www.zhihu.com/answer/307727235",
+      "summary": "正文以接触同调、dg代数和Calabi–Yau completion说明同调代数方法。"
+    },
+    {
+      "title": "如何理解perverse sheaves?有哪些motivation?有什么好的reference?",
+      "url": "https://www.zhihu.com/answer/319494987",
+      "summary": "正文系统讨论层上同调、相交上同调及其推广。"
+    },
+    {
+      "title": "如何理解庞加莱对偶（Poincare Duality）?",
+      "url": "https://www.zhihu.com/answer/321148551",
+      "summary": "正文用导出范畴、双模和上同调表达对偶结构。"
+    },
+    {
+      "title": "代数几何是不是被神化了？",
+      "url": "https://www.zhihu.com/answer/326794126",
+      "summary": "正文讨论复形之间的拟同构与退化证明。"
+    },
+    {
+      "title": "高等代数学完后该看的高级代数入门参考书？",
+      "url": "https://www.zhihu.com/answer/331089760",
+      "summary": "正文解释同调代数在后续数学学习中的基础作用。"
+    },
+    {
+      "title": "导出范畴如何决定代数簇的结构，类型？",
+      "url": "https://www.zhihu.com/answer/333423706",
+      "summary": "正文实质解释光滑性、维数等如何成为同调性质。"
+    },
+    {
+      "title": "什么是 Batalin-Vilkovisky formalism？它在量子场论中有哪些应用？",
+      "url": "https://www.zhihu.com/answer/342035600",
+      "summary": "正文把BV形式系统解释为同调微扰论并用同调、上同调描述动力学。"
+    },
+    {
+      "title": "什么是晶体上同调论？",
+      "url": "https://www.zhihu.com/answer/344549913",
+      "summary": "正文实质使用复形与上同调进行推导。"
+    },
+    {
+      "title": "Homology 和 Homotopy 能在多大程度上完全决定一个流形的拓扑？",
+      "url": "https://www.zhihu.com/answer/364643763",
+      "summary": "正文实质使用上同调、复形与 Steenrod 运算区分空间。"
+    },
+    {
+      "title": "如何评价俄罗斯数学家 Vladimir Igorevich Arnold 的数学成就？",
+      "url": "https://www.zhihu.com/answer/370436048",
+      "summary": "正文讨论 Floer 上同调、长正合列与范畴化。"
+    },
+    {
+      "title": "如何自学同调代数？",
+      "url": "https://www.zhihu.com/answer/408607048",
+      "summary": "正文通过层、表示与专题学习解释同调代数的作用。"
+    },
+    {
+      "title": "纽结理论的前景如何？近年来有什么重要的发展？",
+      "url": "https://www.zhihu.com/answer/410552449",
+      "summary": "正文从同调与层论角度解释 knot contact homology。"
+    },
+    {
+      "title": "hormander的L^2 方法在辛几何中的发展？",
+      "url": "https://www.zhihu.com/answer/487767585",
+      "summary": "正文讨论 Floer 上同调及相关代数结构。"
+    },
+    {
+      "title": "提一个入门问题，为什么要研究投射模和投射预解？",
+      "url": "https://www.zhihu.com/answer/498641580",
+      "summary": "正文用自由预解和正合列解释同调方法。"
+    },
+    {
+      "title": "在几何的学习中如何调整对细节的关注程度？",
+      "url": "https://www.zhihu.com/answer/506681399",
+      "summary": "具体讨论导出范畴、三角结构、Hochschild 上同调和 A∞ 结构在证明中的作用。"
+    },
+    {
+      "title": "如何理解庞加莱对偶（Poincare Duality）?",
+      "url": "https://www.zhihu.com/answer/510806604",
+      "summary": "用同调、上同调、正合列与复形的代数结构说明对偶定理的证明框架。"
+    },
+    {
+      "title": "有点基础的本科生应该如何理解现代代数？",
+      "url": "https://www.zhihu.com/answer/512485733",
+      "summary": "以 injective、projective、flat module 和 exactness 说明同调代数中的范畴方法。"
+    },
+    {
+      "title": "代数拓扑中Acyclic Models有什么几何意义?",
+      "url": "https://www.zhihu.com/answer/522115467",
+      "summary": "正文用链复形、同调消失和链映射讨论无环模型方法。"
+    },
+    {
+      "title": "抽象代数、交换代数、同调代数、群表示论、李代数、代数拓扑的学习顺序应该是怎样的？",
+      "url": "https://www.zhihu.com/answer/531884350",
+      "summary": "正文实质说明同调代数与阿贝尔范畴和链复形的关系。"
+    },
+    {
+      "title": "什么是 Batalin-Vilkovisky formalism？它在量子场论中有哪些应用？",
+      "url": "https://www.zhihu.com/answer/544756245",
+      "summary": "正文从 Hochschild 复形、微分与循环上同调展开。"
+    },
+    {
+      "title": "怎么理解导出范畴？",
+      "url": "https://www.zhihu.com/answer/547239020",
+      "summary": "正文解释链复形、同调群、Ext 函子与导出范畴。"
+    },
+    {
+      "title": "怎么理解导出范畴？",
+      "url": "https://www.zhihu.com/answer/547598897",
+      "summary": "正文明确讨论导出范畴如何统一与简化同调代数。"
+    },
+    {
+      "title": "现代数学的潮流是什么？",
+      "url": "https://www.zhihu.com/answer/551618682",
+      "summary": "实质讨论 Hochschild 同调、循环同调及其与几何形式的对应。"
+    },
+    {
+      "title": "李代数为何要满足 Jacobi identity？",
+      "url": "https://www.zhihu.com/answer/602187501",
+      "summary": "正文使用分次空间与同调次数定义高阶括号。"
+    },
+    {
+      "title": "如何理解庞加莱对偶（Poincare Duality）?",
+      "url": "https://www.zhihu.com/answer/622957674",
+      "summary": "把 En 代数与余代数的 Koszul 对偶纳入庞加莱对偶框架。"
+    },
+    {
+      "title": "数学中有哪些让你感到赏心悦目或是震惊的构造手法？",
+      "url": "https://www.zhihu.com/answer/686793634",
+      "summary": "在导出范畴和无界复形中实现无限次复合。"
+    },
+    {
+      "title": "为何要引入同伦群，同伦群可以解决什么问题？",
+      "url": "https://www.zhihu.com/answer/824237024",
+      "summary": "借助同调群与上同调工具刻画空间。"
+    },
+    {
+      "title": "Čech上同调的几何直观是什么，当时是怎么想到的？",
+      "url": "https://www.zhihu.com/answer/885852208",
+      "summary": "正文用复形与上同调语言组织局部到整体的信息。"
+    },
+    {
+      "title": "Čech上同调的几何直观是什么，当时是怎么想到的？",
+      "url": "https://www.zhihu.com/answer/933360650",
+      "summary": "正文用 Cech complex、上同调与长正合列解释容斥原理的范畴化。"
+    },
+    {
+      "title": "群的上同调可以解决哪些引入上同调语言以前完全无能为力的问题？",
+      "url": "https://www.zhihu.com/answer/959224190",
+      "summary": "正文给出群同调的导出函子定义和 bar resolution。"
+    },
+    {
+      "title": "哪些数学书让你相见恨晚？",
+      "url": "https://www.zhihu.com/answer/980619149",
+      "summary": "正文以导出范畴和多种上同调理论解释 SGA5 方法的统一性。"
+    },
+    {
+      "title": "表示论都在做什么？几何表示论是什么？",
+      "url": "https://www.zhihu.com/answer/1542060824",
+      "summary": "正文直接讨论同调代数，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "导出范畴在代数几何里有什么应用？",
+      "url": "https://www.zhihu.com/answer/1599506816",
+      "summary": "正文直接讨论或应用该叶节点主题（导出范畴）。"
+    },
+    {
+      "title": "抽象代数、同调代数、交换代数、代数拓扑有什么关系？",
+      "url": "https://www.zhihu.com/answer/1645299517",
+      "summary": "正文解释同调代数的复形、核与像结构。"
+    },
+    {
+      "title": "如何学习上同调中的乘积？",
+      "url": "https://www.zhihu.com/answer/1770608583",
+      "summary": "正文从链复形和同调群构造乘法结构。"
+    },
+    {
+      "title": "如何评价Hatcher的代数拓扑？",
+      "url": "https://www.zhihu.com/answer/1817740439",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "求证：关于菲尔兹奖得主舒尔茨的这个非常特殊的说法，是否属实？",
+      "url": "https://www.zhihu.com/answer/1868396017",
+      "summary": "正文提到高阶研究中需要的同调代数等相关课程。"
+    },
+    {
+      "title": "微局部分析是在研究些什么？",
+      "url": "https://www.zhihu.com/answer/1918449486",
+      "summary": "正文直接讨论并支撑「同调代数」相关内容。"
+    },
+    {
+      "title": "层的上同调、导出函子的几何直观是什么？",
+      "url": "https://www.zhihu.com/answer/1975915372",
+      "summary": "正文从导出函子、消解与上同调解释层的上同调。"
+    },
+    {
+      "title": "思考问题时总是不懂得把正合列和张量积用起来，该怎么办？",
+      "url": "https://www.zhihu.com/answer/1990066767",
+      "summary": "正文讨论正合列、张量积等代数证明技巧的熟练使用。"
+    },
+    {
+      "title": "2022世界数学家大会报告名单公布，能介绍一小时报告的主要工作吗？",
+      "url": "https://www.zhihu.com/answer/2090597007",
+      "summary": "正文讨论导出范畴、例外集与同调代数工具。"
+    },
+    {
+      "title": "如果你要向一位学过初级的抽象代数的本科生推销数学工具「正合序列」，你会如何介绍它？",
+      "url": "https://www.zhihu.com/answer/2187719603",
+      "summary": "正文从 Abel 范畴、核像与商对象系统介绍正合列及同调代数工具。"
+    },
+    {
+      "title": "Grothendieck 时代的代数几何与在这之前的古典代数几何之间最大的区别是否就是范畴论的引入？",
+      "url": "https://www.zhihu.com/answer/2207042047",
+      "summary": "正文详细讨论 sheaf 上同调、导出函子和同调代数发展。"
+    },
+    {
+      "title": "怎么理解导出范畴？",
+      "url": "https://www.zhihu.com/answer/2242851468",
+      "summary": "正文以拟同构、三角范畴和复形局部化讲解同调代数。"
+    },
+    {
+      "title": "怎么形象地理解对偶空间（Dual Vector Space）？",
+      "url": "https://www.zhihu.com/answer/2260792391",
+      "summary": "正文用 Ext 函子说明对偶函子的同调代数扩展。"
+    },
+    {
+      "title": "2021 年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/2288530127",
+      "summary": "正文实际展开同调代数所学的 Abel 范畴、伴随函子、极限和正合函子等概念。"
+    },
+    {
+      "title": "2021 年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/2293273391",
+      "summary": "正文详细讨论同调代数教材、导出函子和谱序列。"
+    },
+    {
+      "title": "如何评价 2022 年沃尔夫数学奖得主乔治·卢斯蒂格（George Lusztig）的数学贡献？",
+      "url": "https://www.zhihu.com/answer/2348105930",
+      "summary": "正文把表示论与相交同调等几何工具联系起来。"
+    },
+    {
+      "title": "如何寻找共形场论中的中心扩张和中心荷？",
+      "url": "https://www.zhihu.com/answer/2356237920",
+      "summary": "正文用二上同调分类李代数的中心扩张。"
+    },
+    {
+      "title": "如何上手 Lurie 的 SAG（Spectral Algebraic Geometry）？",
+      "url": "https://www.zhihu.com/answer/2402516337",
+      "summary": "正文以同调代数作为学习谱代数几何的前置背景。"
+    },
+    {
+      "title": "作为数学PhD，你本科时额外学了哪些数学内容？",
+      "url": "https://www.zhihu.com/answer/2429217133",
+      "summary": "正文列出同调代数与上同调教材和学习内容。"
+    },
+    {
+      "title": "请问一下入门代数拓扑需要哪些方面的知识？",
+      "url": "https://www.zhihu.com/answer/2491165680",
+      "summary": "正文用复形、同调群和导出范畴说明同调代数在代数拓扑中的作用。"
+    },
+    {
+      "title": "能否举例说明在处理代数问题的时候范畴语言为我们带来了哪些便利？",
+      "url": "https://www.zhihu.com/answer/2506449190",
+      "summary": "正文系统讨论 Abel 范畴上的同调代数、导出函子、导出范畴和谱序列。"
+    },
+    {
+      "title": "如何理解棱镜上同调（prismatic cohomology)？",
+      "url": "https://www.zhihu.com/answer/2524549119",
+      "summary": "用导出函子、Čech 复形与上同调代数刻画棱镜上同调。"
+    },
+    {
+      "title": "韩裔许埈珥、乌克兰维娅佐夫斯卡等四位数学家获得 2022 菲尔兹奖，他们在各自领域做出了怎样的贡献？",
+      "url": "https://www.zhihu.com/answer/2559985231",
+      "summary": "介绍 June Huh 将霍奇理论用于组合学，并讨论组合相交上同调与 KL 多项式。"
+    },
+    {
+      "title": "能不能从数学各个分支的例子谈谈层（sheaf）为什么重要？",
+      "url": "https://www.zhihu.com/answer/2568152044",
+      "summary": "从 Mittag-Leffler 问题的局部到整体障碍出发，引入层、上链和层上同调。"
+    },
+    {
+      "title": "能不能从数学各个分支的例子谈谈层（sheaf）为什么重要？",
+      "url": "https://www.zhihu.com/answer/2568405182",
+      "summary": "用局部常值层、单值化群和德拉姆上同调说明微分方程解空间的整体障碍。"
+    },
+    {
+      "title": "为什么当今数学教材写的跟天书一样，根本看不懂？",
+      "url": "https://www.zhihu.com/answer/2570621145",
+      "summary": "介绍 Abel 范畴、复形、导出范畴和谱序列等同调代数核心内容。"
+    },
+    {
+      "title": "怎样学习抽象代数？",
+      "url": "https://www.zhihu.com/answer/2715810325",
+      "summary": "用有限生成阿贝尔群分类中的短正合列说明同调代数工具的来源。"
+    },
+    {
+      "title": "哪些数学书让你相见恨晚？",
+      "url": "https://www.zhihu.com/answer/2734976526",
+      "summary": "正文具体说明同调代数在代数拓扑与代数几何中的作用，并解释同调与上同调如何从几何对象获取信息。"
+    },
+    {
+      "title": "为什么所有的科学都是用微观来解释宏观，而不能用宏观解释微观？",
+      "url": "https://www.zhihu.com/answer/2837990731",
+      "summary": "正文介绍 Hilbert 关系谱系与拓扑同调思想融合成同调代数，并延伸到上同调、群论和李代数中的同调。"
+    },
+    {
+      "title": "数学家尤里·曼宁(Yuri Manin)去世,如何评价他对数学做出的贡献?",
+      "url": "https://www.zhihu.com/answer/2843271582",
+      "summary": "正文用复形、微分及导出微分合成零的条件定义可积联络，展示了同调代数的复形方法。"
+    },
+    {
+      "title": "若要学习Motivic Homotopy，代数几何需要学到什么程度？",
+      "url": "https://www.zhihu.com/answer/2858171809",
+      "summary": "正文指出所需同调代数工具包括导出函子和超上同调，并说明其用于把同调代数问题转化为同伦论处理。"
+    },
+    {
+      "title": "若要学习Motivic Homotopy，代数拓扑需要学到什么程度？",
+      "url": "https://www.zhihu.com/answer/2871512680",
+      "summary": "正文具体讨论谱序列及其 exact couples 的两种构造，并说明它们在 motivic 语境中的对应结构。"
+    },
+    {
+      "title": "范畴论诞生前的同调代数是怎样的？",
+      "url": "https://www.zhihu.com/answer/2886268850",
+      "summary": "正文系统叙述同调代数由拓扑与代数内部问题发展而来的历史，并说明导出函子、Ext 与 Tor 等核心工具。"
+    },
+    {
+      "title": "同调代数解决问题的逻辑是什么？",
+      "url": "https://www.zhihu.com/answer/2936749881",
+      "summary": "正文解释同调代数如何通过链复形的拟同构、导出范畴和消解来构造并计算不变量。"
+    },
+    {
+      "title": "数学专业的学生的毕业论文是怎样的？",
+      "url": "https://www.zhihu.com/answer/2961122555",
+      "summary": "正文用 Koszul resolution、cdga、cofibration 与 quasi-isomorphism 等工具进行同调构造。"
+    },
+    {
+      "title": "同调代数到底是在做什么？",
+      "url": "https://www.zhihu.com/answer/2969378832",
+      "summary": "正文从自由模分解出发构造模的无限正合列，说明同调代数如何用简单对象序列研究复杂模。"
+    },
+    {
+      "title": "同调代数到底是在做什么？",
+      "url": "https://www.zhihu.com/answer/2983096168",
+      "summary": "正文追溯同调代数从组合式同调发展并推广到多学科的过程，系统说明其统一框架与用途。"
+    },
+    {
+      "title": "哈密尔顿-凯莱定理的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2996313226",
+      "summary": "正文构造短正合列并把它作为 Cayley-Hamilton 定理和 Jordan 分解的统一框架，具体使用了同调代数方法。"
+    },
+    {
+      "title": "为什么数学家会提出群的上同调？",
+      "url": "https://www.zhihu.com/answer/3030875537",
+      "summary": "正文主题是群同调的构造与解释，说明群如何通过拓扑空间及其同调群获得代数值。"
+    },
+    {
+      "title": "如何评价Dummit的《抽象代数》?",
+      "url": "https://www.zhihu.com/answer/3053769224",
+      "summary": "正文评述该章从链复形、长正合列到用 projective resolution 构造导出函子的组织方式，核心涉同调代数。"
+    },
+    {
+      "title": "为什么要研究平展上同调？平展上同调有哪些应用？",
+      "url": "https://www.zhihu.com/answer/3117782394",
+      "summary": "正文说明平展上同调通过层上同调和右导出函子定义，并讨论短正合列与 Picard 群，涉及同调代数方法。"
+    },
+    {
+      "title": "为什么要研究平展上同调？平展上同调有哪些应用？",
+      "url": "https://www.zhihu.com/answer/3119759427",
+      "summary": "正文用 Cech 上同调与谱序列的收敛关系说明如何计算上同调，属于同调代数中的核心方法。"
+    },
+    {
+      "title": "如何成为一个数学家？",
+      "url": "https://www.zhihu.com/answer/3123945798",
+      "summary": "正文说明从拟阵直接构造上同调环并利用其代数性质证明对数凹性，具体呈现了同调代数方法。"
+    },
+    {
+      "title": "抽象代数、同调代数、交换代数、代数拓扑有什么关系？",
+      "url": "https://www.zhihu.com/answer/3127810932",
+      "summary": "正文通过自由模、子模、短序列与同调群构造具体介绍了同调代数的研究对象。"
+    },
+    {
+      "title": "有哪些值得数学系本科生一读的经典数学论文？",
+      "url": "https://www.zhihu.com/answer/3230336449",
+      "summary": "正文讨论 Grothendieck 的同调代数论文，比较 flasque resolution 与 Cech 方法处理层上同调。"
+    },
+    {
+      "title": "为什么数学家会提出群的上同调？",
+      "url": "https://www.zhihu.com/answer/3344522446",
+      "summary": "正文把群上同调解释为局部系上同调的特例，并讨论上同调如何承载算术信息，属于同调代数的上同调方法。"
+    },
+    {
+      "title": "如何通俗地解释李群和李代数的关系？",
+      "url": "https://www.zhihu.com/answer/3387941702",
+      "summary": "正文明确构造上链复形，以 d^2=0 定义复形的上同调并计算一阶、二阶上同调的代数含义。"
+    },
+    {
+      "title": "说说你们对同调代数的理解？",
+      "url": "https://www.zhihu.com/answer/3391702506",
+      "summary": "正文以自由模分解、生成元关系和信息恢复解释同调代数的核心思想，并说明其在模及其他范畴中的应用。"
+    },
+    {
+      "title": "有哪些讲类域论比较好的书或者讲义？",
+      "url": "https://www.zhihu.com/answer/3432493903",
+      "summary": "正文具体用群作用复形、同伦不变量与余不变量、Norm map 和同伦余核解释 Tate 上同调的构造，属于同调代数。"
+    },
+    {
+      "title": "如果你要向一位学过初级的抽象代数的本科生推销数学工具「正合序列」，你会如何介绍它？",
+      "url": "https://www.zhihu.com/answer/3452621220",
+      "summary": "正文从链复形、相邻映射复合为零和局部正合出发，介绍正合列与同调结构的基本思想。"
+    },
+    {
+      "title": "说说你们对同调代数的理解？",
+      "url": "https://www.zhihu.com/answer/3452775865",
+      "summary": "正文按历史阶段介绍复形、导出函子、Abel范畴、导出范畴和谱序列等同调代数核心工具。"
+    },
+    {
+      "title": "数学史上有哪些数字或规模很大的反例？",
+      "url": "https://www.zhihu.com/answer/3468243411",
+      "summary": "正文借助导出函子、短正合列和 colim¹ 构造 Roos 定理的反例，实质使用同调代数方法。"
+    },
+    {
+      "title": "如果你要向一位学过初级的抽象代数的本科生推销数学工具「正合序列」，你会如何介绍它？",
+      "url": "https://www.zhihu.com/answer/3472387515",
+      "summary": "正文用正合列和对偶函子证明秩定理，并指出衡量函子不正合程度正是同调代数的课题。"
+    },
+    {
+      "title": "有没有“问题导向的同调代数”式的学习资料？",
+      "url": "https://www.zhihu.com/answer/3485948302",
+      "summary": "正文从模扩张和短正合列引出 Ext 群，并逐步讨论投射模、内射模、蛇形引理与导出函子。"
+    },
+    {
+      "title": "1500多页的Higher Algebra怎样学？",
+      "url": "https://www.zhihu.com/answer/3529798492",
+      "summary": "正文指出入门章节系统涉及无穷范畴版本的三角范畴、导出范畴与谱序列，并给出相应同调理论前置。"
+    },
+    {
+      "title": "能介绍一下解析叠(Analytic Stacks)吗？它与实langlands有什么联系呢？",
+      "url": "https://www.zhihu.com/answer/3592978697",
+      "summary": "正文从导出范畴、上同调群和三对伴随函子讲到六函子形式主义，并据此构造解析叠的同调代数结构。"
+    },
+    {
+      "title": "如何理解Yoneda lemma（米田引理）的重要性？",
+      "url": "https://www.zhihu.com/answer/3611858855",
+      "summary": "正文用正合列等价类定义Ext，讨论Schanuel-Yoneda长正合列及其连接态射，具体展开同调代数内容。"
+    },
+    {
+      "title": "为什么数学家会提出群的上同调？",
+      "url": "https://www.zhihu.com/answer/39916922274",
+      "summary": "正文通过 Ext 定义群上同调，解释投射消解、Bar 消解与导出函子的计算。"
+    },
+    {
+      "title": "2024你的数学研究和学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/67688840327",
+      "summary": "正文以Mayer-Vietoris、Ext、Tor及万有系数正合列说明同调代数方法。"
+    },
+    {
+      "title": "2024你的数学研究和学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/69353173582",
+      "summary": "正文讨论导出范畴、导出函子、三角范畴及概型对偶中的同调代数方法。"
+    },
+    {
+      "title": "什么是Koszul对偶？",
+      "url": "https://www.zhihu.com/answer/71583379191",
+      "summary": "正文以投射消解、右导出函子、DG 代数和 Bar 构造系统讲解 Koszul 对偶，属于同调代数的方法与构造。"
+    },
+    {
+      "title": "目前有哪些解释复杂系统“涌现性”的理论？",
+      "url": "https://www.zhihu.com/answer/88766425594",
+      "summary": "正文系统讲解正合列、解消、上同调和导出函子如何量化非正合程度。"
+    },
+    {
+      "title": "数学系和物理系学生有什么差别？",
+      "url": "https://www.zhihu.com/answer/106326047550",
+      "summary": "正文使用自由解消、Koszul 复形、Ext 和双复形计算求解偏微分方程组，属于同调代数方法。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/1901415703317295884",
+      "summary": "正文通过 Ext 群计算和 de Rham 上同调与 Hodge 滤过说明 Serre-Tate 映射。"
+    },
+    {
+      "title": "在数学学习中，你遇到过哪些有趣的同构？",
+      "url": "https://www.zhihu.com/answer/1906766976250012358",
+      "summary": "正文定义上链复形间的准同构，并以准同构局部化构造导出范畴，属于同调代数中的导出方法。"
+    },
+    {
+      "title": "Representation Theory(表示论)与Algebraic Geometry(代数几何)在(理论，但不仅限理论)物理上有什么联合应用?",
+      "url": "https://www.zhihu.com/answer/1916647314275148744",
+      "summary": "正文回顾强 Macdonald 猜想如何用李代数上同调表达，并提到用欧拉示性数连接两种计数方式。"
+    },
+    {
+      "title": "现代数学和理论物理已经发展到怎样一个令人震惊的水平了？",
+      "url": "https://www.zhihu.com/answer/1928906521925886769",
+      "summary": "正文从边缘算子满足 dn+1·dn=0 出发构造链复形，并讲解同调群、群上同调及多种上同调理论。"
+    },
+    {
+      "title": "如何形象的理解上同调？",
+      "url": "https://www.zhihu.com/answer/1939298383446639535",
+      "summary": "正文从 δ²=0、闭元素和恰当元素的子集关系出发构造上同调群，具体呈现了同调代数中的链复形与商群方法。"
+    },
+    {
+      "title": "正弦函数倍角公式、勒让德倍乘公式、伯努利倍元公式，为何它们长得如此相像，这是否意味着有某种底层联系？",
+      "url": "https://www.zhihu.com/answer/1985151377182318853",
+      "summary": "正文把倍元关系约束的解集刻画为群作用下的零阶上同调空间，并据此讨论解空间结构。"
+    },
+    {
+      "title": "2025年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/1987205129812849160",
+      "summary": "正文说明 Ext 群如何给出模空间的切空间与阻碍，并用其消失性判断模空间几何。"
+    },
+    {
+      "title": "如何理解棱镜上同调（prismatic cohomology)？",
+      "url": "https://www.zhihu.com/answer/1987732946162046334",
+      "summary": "正文给出取截面并施加右导出函子以得到上同调的构造步骤，涉及同调代数工具。"
+    },
+    {
+      "title": "Čech上同调的几何直观是什么，当时是怎么想到的？",
+      "url": "https://www.zhihu.com/answer/1990211184687866984",
+      "summary": "正文写出 Čech 链复形和 coboundary 映射，讨论非阿贝尔层为何不能照搬上同调定义及长正合列，实质涉及同调代数。"
+    },
+    {
+      "title": "如何看待 Grothendieck 思考数学问题不依赖具体例子？",
+      "url": "https://www.zhihu.com/answer/1992641799131518659",
+      "summary": "正文具体讨论阿贝尔范畴、单射分解、导出函子和谱序列等同调代数工具。"
+    },
+    {
+      "title": "怎么记住斯托克斯公式（Stokes' theorem）？",
+      "url": "https://www.zhihu.com/answer/2009676587440829614",
+      "summary": "正文用余等化子、双复形和总复形解释余端，并把 Stokes 关系提升为上同调构造。"
+    },
+    {
+      "title": "如何理解「每一种形变理论都对应一个微分分次李代数 (DGLA)」？",
+      "url": "https://www.zhihu.com/answer/2032780009392313714",
+      "summary": "正文以 Hochschild、Kodaira-Spencer 和 Chevalley-Eilenberg 上链复形说明上同调如何刻画形变与障碍。"
+    },
+    {
+      "title": "群的上同调的简单性质",
+      "url": "https://zhuanlan.zhihu.com/p/27125121",
+      "summary": "正文通过左正合函子的右导出函子和 Ext 定义群上同调，并给出长正合列与消解计算。"
+    },
+    {
+      "title": "5-6月学习小结",
+      "url": "https://zhuanlan.zhihu.com/p/27450247",
+      "summary": "正文比较导出范畴与经典导出函子，并进一步讨论三角结构、t-结构以及局部上同调的计算。"
+    },
+    {
+      "title": "射影概形",
+      "url": "https://zhuanlan.zhihu.com/p/32702584",
+      "summary": "正文计算射影概形的层上同调，说明有限性与消没定理，并用 Ext 群表述 Serre 对偶。"
+    },
+    {
+      "title": "Kunneth公式",
+      "url": "https://zhuanlan.zhihu.com/p/32996799",
+      "summary": "正文把空间积的同调计算化为链复形张量积，并使用 Tor、短正合列和谱序列等同调代数工具。"
+    },
+    {
+      "title": "Kaledin-Lehn猜想",
+      "url": "https://zhuanlan.zhihu.com/p/38145268",
+      "summary": "正文以导出 Hom 复形构成的微分分次代数形式性为核心，讨论 Fourier-Mukai 函子与 dg 增强。"
+    },
+    {
+      "title": "MP20：单形、复形、链群和边界算子",
+      "url": "https://zhuanlan.zhihu.com/p/44758074",
+      "summary": "正文定义链群与边界算子，并明确以链映射构成的同态序列引出同调代数处理方式。"
+    },
+    {
+      "title": "MP21：代数加油站(1)：同态的像与核、闭与恰当",
+      "url": "https://zhuanlan.zhihu.com/p/44758141",
+      "summary": "正文以像、核、余像、余核以及闭与恰当形式讲解同调代数所需的基础语言。"
+    },
+    {
+      "title": "MP22：同调群",
+      "url": "https://zhuanlan.zhihu.com/p/44776557",
+      "summary": "正文给出链复形、二次边界为零、闭链与边缘链的条件，并定义同调群。"
+    },
+    {
+      "title": "QLS代数及其辛几何应用",
+      "url": "https://zhuanlan.zhihu.com/p/45837896",
+      "summary": "正文以Koszul对偶、微分分次代数和导出Hom为核心讨论QLS代数与A无穷代数。"
+    },
+    {
+      "title": "层论-基本概念",
+      "url": "https://zhuanlan.zhihu.com/p/57538422",
+      "summary": "正文定义层同态、正合列、复形和分解，并联系茎、上同调及Cech上同调理论。"
+    },
+    {
+      "title": "Relative Calabi-Yau completion",
+      "url": "https://zhuanlan.zhihu.com/p/60857879",
+      "summary": "正文以 relative Hochschild cycle、negative cyclic homology 和 dg functor 构造 relative Calabi-Yau completion，实质涉及同调代数。"
+    },
+    {
+      "title": "DG范畴（一）",
+      "url": "https://zhuanlan.zhihu.com/p/60333219",
+      "summary": "正文以复形、同调群、三角范畴和导出范畴为背景，定义态射空间为复形的DG范畴。"
+    },
+    {
+      "title": "从代数几何到导出代数几何：复形的几何",
+      "url": "https://zhuanlan.zhihu.com/p/86655844",
+      "summary": "正文以链复形、导出范畴、导出函子和 Dold-Kan 对应为主线讲解同调代数方法。"
+    },
+    {
+      "title": "【抽象代数】17. 模的定义与基本性质，子模与商模，模同态与模同构",
+      "url": "https://zhuanlan.zhihu.com/p/267010541",
+      "summary": "正文定义正合列和短正合列，并用像与核的关系说明同调代数中的正合性工具。"
+    },
+    {
+      "title": "Homological Algebra and Commutative Algebra",
+      "url": "https://zhuanlan.zhihu.com/p/268175784",
+      "summary": "正文以正合列、消解和导出函子为主线，具体讨论 Ext、Tor、abelian category 与谱序列。"
+    },
+    {
+      "title": "Algebraic Geometry: The Roots of Scheme I",
+      "url": "https://zhuanlan.zhihu.com/p/330793163",
+      "summary": "正文展开同调代数、导出函子和层上同调的发展及其在代数几何中的作用。"
+    },
+    {
+      "title": "拉格朗日相交Floer理论, I",
+      "url": "https://zhuanlan.zhihu.com/p/343282399",
+      "summary": "正文构造满足 d²=0 的上链复形并讨论 Morse 上同调的链映射与同构。"
+    },
+    {
+      "title": "Non-abelian Cohomology I: Torsors",
+      "url": "https://zhuanlan.zhihu.com/p/386412772",
+      "summary": "正文使用复形、同调群、正合列、Ext 与 Tor，并讨论非交换群层的一阶上同调分类。"
+    },
+    {
+      "title": "以范畴论窥高等数学",
+      "url": "https://zhuanlan.zhihu.com/p/443804053",
+      "summary": "正文构造杠复形、链复形和上链复形，并讨论 Hochschild 同调与上同调。"
+    },
+    {
+      "title": "瞎写一点代数拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/442976804",
+      "summary": "正文讨论同调、上同调、长正合序列、导出函子及其与同伦理论的联系。"
+    },
+    {
+      "title": "🐟的数学笔记：de Rham 上同调",
+      "url": "https://zhuanlan.zhihu.com/p/499745122",
+      "summary": "正文以链复形、外微分、像与核及上同调类系统介绍上同调代数结构。"
+    },
+    {
+      "title": "代数赢学1 (Algebraic Winnology I)",
+      "url": "https://zhuanlan.zhihu.com/p/503068844",
+      "summary": "正文虽以戏谑名称表述，但实质定义链复形、边缘同态、同调群、链映射与长正合列。"
+    },
+    {
+      "title": "解析几何初步：导论",
+      "url": "https://zhuanlan.zhihu.com/p/518774618",
+      "summary": "正文从 Abel 层复形、拟同构和内射复形出发定义超上同调，实质使用同调代数方法。"
+    },
+    {
+      "title": "形变理论漫谈",
+      "url": "https://zhuanlan.zhihu.com/p/523108260",
+      "summary": "正文系统构造余切复形，联系切空间与阻碍理论，并介绍单纯代数、导出函子和 Quillen 同调。"
+    },
+    {
+      "title": "用同调证明化学的不饱和度公式",
+      "url": "https://zhuanlan.zhihu.com/p/571116125",
+      "summary": "正文以链复形和同调群重写不饱和度公式，并借助秩零化度定理证明两种定义等价。"
+    },
+    {
+      "title": "（翻译尝试）Interview with Mikio Sato",
+      "url": "https://zhuanlan.zhihu.com/p/582680255",
+      "summary": "正文以同调方法、导出范畴以及 Hom 和 Ext 函子解释微分方程系统的解与可解性。"
+    },
+    {
+      "title": "Michael Atiyah：二十世纪的数学发展回顾",
+      "url": "https://zhuanlan.zhihu.com/p/585865078",
+      "summary": "正文讨论链复形式关系、理想与层上同调，并说明拓扑同调与代数理论融合成同调代数。"
+    },
+    {
+      "title": "几何、拓扑、分析综合第三篇——同调论",
+      "url": "https://zhuanlan.zhihu.com/p/599147967",
+      "summary": "正文构造链群、闭链群、边缘链群和同调群，并进一步讨论 de Rham 上同调与层上同调。"
+    },
+    {
+      "title": "代数拓扑：同调（一）",
+      "url": "https://zhuanlan.zhihu.com/p/614393640",
+      "summary": "正文以Abel群链复形、核与像的商构造同调群，并讨论同调类。"
+    },
+    {
+      "title": "交换代数与同调代数(2025.03.28)",
+      "url": "https://zhuanlan.zhihu.com/p/673874483",
+      "summary": "正文以交换代数笔记为背景，系统列出并展开 Abel 范畴、导出函子、Ext 与长正合列等同调代数内容。"
+    },
+    {
+      "title": "顺滑地进入拓扑物理-同调代数篇 (Ep.1)",
+      "url": "https://zhuanlan.zhihu.com/p/683291688",
+      "summary": "正文从链群、边界映射、闭链群和边界群出发搭建同调代数的基本概念框架。"
+    },
+    {
+      "title": "Arnold猜想，Morse同调与Floer同调介绍",
+      "url": "https://zhuanlan.zhihu.com/p/695740656",
+      "summary": "正文定义 Floer 复形、边缘算子与同调群，并讨论链映射、同调不变性和同构。"
+    },
+    {
+      "title": "Calabi-Yau 4-fold的DT古典理论的奠基",
+      "url": "https://zhuanlan.zhihu.com/p/706470086",
+      "summary": "正文使用 perfect complex、Ext 群、余切复形和消解构造障碍理论，实质运用了同调代数工具。"
+    },
+    {
+      "title": "扭结理论——抽象思维的极限，人类智力的巅峰，这是你最好的入门文章",
+      "url": "https://zhuanlan.zhihu.com/p/710555890",
+      "summary": "正文介绍Khovanov同调如何由链复形、分级模和微分构造结不变量，并联系同调代数。"
+    },
+    {
+      "title": "同调代数杂烩",
+      "url": "https://zhuanlan.zhihu.com/p/12371654454",
+      "summary": "文中用投射消解、正合列和导出函子系统讲解 Ext 与 Tor 的同调代数构造。"
+    },
+    {
+      "title": "基于Ext函子的PID上有限生成模的分类",
+      "url": "https://zhuanlan.zhihu.com/p/26667038331",
+      "summary": "正文用Ext函子、正合列和投射分解证明PID上有限生成模的结构定理，是具体的同调代数方法。"
+    },
+    {
+      "title": "你也能发明谱序列(全文译注)",
+      "url": "https://zhuanlan.zhihu.com/p/1982416169773335219",
+      "summary": "正文从链复形、滤过、边缘映射和高阶同调逐步构造谱序列，属于同调代数的核心内容。"
+    },
+    {
+      "title": "Galois上同调与局部-整体原则的故事",
+      "url": "https://zhuanlan.zhihu.com/p/2025194104884139878",
+      "summary": "正文用 Ext 函子、投射分解、长正合列和杯积构造群上同调，属于同调代数方法的具体展开。"
+    }
+  ]
+}

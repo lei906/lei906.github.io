@@ -1,0 +1,2291 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l5-t2-b5",
+  "sources": [
+    {
+      "title": "代数拓扑 微分拓扑 微分几何 代数几何 交换代数  微分流形？",
+      "url": "https://www.zhihu.com/answer/26771912",
+      "summary": "正文围绕“代数拓扑”给出直接说明。"
+    },
+    {
+      "title": "有哪些美丽或神奇的理科公式？",
+      "url": "https://www.zhihu.com/answer/32516992",
+      "summary": "用欧拉示性数、同调群与正合列串联代数拓扑中的公式。"
+    },
+    {
+      "title": "如何迅速掌握拓扑学精髓？",
+      "url": "https://www.zhihu.com/answer/33883867",
+      "summary": "正文以单纯复形说明代数拓扑中的同调和上同调。"
+    },
+    {
+      "title": "数学专业的学生的毕业论文是怎样的？",
+      "url": "https://www.zhihu.com/answer/41769260",
+      "summary": "正文举同调研究方向。"
+    },
+    {
+      "title": "学习代数几何需要怎样的基础？",
+      "url": "https://www.zhihu.com/answer/41994440",
+      "summary": "正文列出代数拓扑作为相关基础。"
+    },
+    {
+      "title": "几何拓扑（geometric topology）这个数学分支，主要包含哪些内容？",
+      "url": "https://www.zhihu.com/answer/42867573",
+      "summary": "正文不仅列出代数拓扑工具，还以同调群、CW复形和Floer同伦等具体讨论其应用。"
+    },
+    {
+      "title": "代数拓扑为何引入 正合、正合序列 这些概念？",
+      "url": "https://www.zhihu.com/answer/44103555",
+      "summary": "正文直接把该复形放在代数拓扑与de Rham上同调的语境中。"
+    },
+    {
+      "title": "Lurie 的 derived algebraic geometry 有多重要？",
+      "url": "https://www.zhihu.com/answer/45419470",
+      "summary": "正文讨论spectrum及同伦群，连接代数拓扑与代数几何。"
+    },
+    {
+      "title": "拓扑学究竟是一种什么样的学科？",
+      "url": "https://www.zhihu.com/answer/49330372",
+      "summary": "正文说明代数拓扑将空间和连续映射转成群与同态。"
+    },
+    {
+      "title": "中国的大环境对科学家产生过很大的影响吗？",
+      "url": "https://www.zhihu.com/answer/65311243",
+      "summary": "正文解释吴文俊的代数拓扑工作，并说明示性类与同伦不变量的关系。"
+    },
+    {
+      "title": "代数拓扑为什么研究同调？",
+      "url": "https://www.zhihu.com/answer/73447893",
+      "summary": "正文解释同调如何记录局部差别并形成拓扑不变量。"
+    },
+    {
+      "title": "你为什么选择读基础数学？",
+      "url": "https://www.zhihu.com/answer/77305754",
+      "summary": "正文具体回顾从同调定义、K 理论到丛分类的代数拓扑课程内容。"
+    },
+    {
+      "title": "代数拓扑中的同调和上同调有哪些联系？",
+      "url": "https://www.zhihu.com/answer/78270412",
+      "summary": "正文从链复形定义同调、上同调并说明万有系数定理关系。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/85060171",
+      "summary": "正文以 Brouwer 不动点定理说明圆盘连续自映射的拓扑结论。"
+    },
+    {
+      "title": "为什么经济学专业要学拓扑学？",
+      "url": "https://www.zhihu.com/answer/88898887",
+      "summary": "正文说明代数拓扑及同调群用于不动点和经济均衡理论。"
+    },
+    {
+      "title": "同调与上同调？",
+      "url": "https://www.zhihu.com/answer/89091058",
+      "summary": "正文从拓扑空间范畴、链与边界解释同调和上同调。"
+    },
+    {
+      "title": "流形上的微分形式有何深层次意义？",
+      "url": "https://www.zhihu.com/answer/91486843",
+      "summary": "正文以de Rham复型、闭合子流形和示性类说明微分形式与拓扑信息的联系。"
+    },
+    {
+      "title": "数学学习或研究中，你见过哪些有意思的反例？",
+      "url": "https://www.zhihu.com/answer/112074072",
+      "summary": "正文讨论同调球、基本群、嵌入和结同调等代数拓扑反例。"
+    },
+    {
+      "title": "实变、泛函、抽代、拓扑，哪几门对于非纯数专业更加有用？",
+      "url": "https://www.zhihu.com/answer/120597047",
+      "summary": "正文介绍持续同调这一代数拓扑概念在传感器、机器人和材料中的应用。"
+    },
+    {
+      "title": "代数拓扑为什么研究同调？",
+      "url": "https://www.zhihu.com/answer/123321429",
+      "summary": "正文从同伦不变量、单纯集合、链复形与同调系统说明代数拓扑的研究框架。"
+    },
+    {
+      "title": "一个数学自学中遇到的问题？",
+      "url": "https://www.zhihu.com/answer/124140113",
+      "summary": "正文用映射度、球体扩张和同调方法串起 Brouwer 不动点定理的证明思路。"
+    },
+    {
+      "title": "学代数是否应该把自己“洗脑”了学？",
+      "url": "https://www.zhihu.com/answer/124624824",
+      "summary": "正文以基本无穷群胚、基本群和高阶同伦群说明代数拓扑中的抽象实例。"
+    },
+    {
+      "title": "如何评价陈省身的数学成就？",
+      "url": "https://www.zhihu.com/answer/126472975",
+      "summary": "正文解释示性类、上同调类及 Chern–Simons 不变量之间的拓扑联系。"
+    },
+    {
+      "title": "怎样评价庞加莱（Henri Poincaré）？",
+      "url": "https://www.zhihu.com/answer/126735813",
+      "summary": "正文从庞加莱的奠基工作说明基本群、同调群如何成为现代拓扑的基础语言。"
+    },
+    {
+      "title": "对于拓扑的了解？",
+      "url": "https://www.zhihu.com/answer/144478672",
+      "summary": "正文解释代数拓扑用基本群、同伦群、同调群等不变量区分拓扑空间。"
+    },
+    {
+      "title": "热爱数学是一种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/149604987",
+      "summary": "正文以 Noether 用同调群和正合列重新理解 Betti 数为例，涉及代数拓扑思想。"
+    },
+    {
+      "title": "谁来帮忙细细总结一下 20 世纪几何学的发展进程？",
+      "url": "https://www.zhihu.com/answer/162218230",
+      "summary": "正文解释代数拓扑的基本群、同调群、同伦群为何成为现代微分几何工具。"
+    },
+    {
+      "title": "吴文俊院士于2017年5月7日去世，如何评价他的数学贡献？",
+      "url": "https://www.zhihu.com/answer/166137572",
+      "summary": "正文说明吴公式、同伦不变性和球面近复结构等代数拓扑成果。"
+    },
+    {
+      "title": "吴文俊院士于2017年5月7日去世，如何评价他的数学贡献？",
+      "url": "https://www.zhihu.com/answer/166256996",
+      "summary": "正文从吴类、上同调、二次型细讲其在代数拓扑和低维拓扑中的作用。"
+    },
+    {
+      "title": "吴文俊院士于2017年5月7日去世，如何评价他的数学贡献？",
+      "url": "https://www.zhihu.com/answer/166622204",
+      "summary": "正文定义吴类和吴公式，并解释 Steenrod 运算及流形嵌入背景。"
+    },
+    {
+      "title": "你最钦佩的数学天才是谁？",
+      "url": "https://www.zhihu.com/answer/170486167",
+      "summary": "正文说明庞加莱以同调群、基本群等工具开创拓扑学。"
+    },
+    {
+      "title": "为何说 K-理论是一种「上同调理论」？",
+      "url": "https://www.zhihu.com/answer/171497823",
+      "summary": "正文明确把拓扑K理论、稳定同伦与代数K理论的构造放在代数拓扑框架中比较。"
+    },
+    {
+      "title": "如何理解代数拓扑中的谱序列？",
+      "url": "https://www.zhihu.com/answer/181520842",
+      "summary": "正文从 CW 复形过滤和同调群解释谱序列如何用局部同调计算整体同调。"
+    },
+    {
+      "title": "请问代数分析是什么样的领域？在几何学方面有什么应用嘛？",
+      "url": "https://www.zhihu.com/answer/185287102",
+      "summary": "正文通过局部系统、交叉同调和构造层解释代数拓扑在代数分析中的作用。"
+    },
+    {
+      "title": "如何评价 Bott 和 Tu 写的代数拓扑？",
+      "url": "https://www.zhihu.com/answer/192203733",
+      "summary": "正文从微分形式、de Rham 上同调、谱序列与示性类辨析代数拓扑路径。"
+    },
+    {
+      "title": "如何评价 Bott 和 Tu 写的代数拓扑？",
+      "url": "https://www.zhihu.com/answer/192610918",
+      "summary": "正文解释 de Rham 模型怎样用微分形式赋予代数拓扑不变量几何意义。"
+    },
+    {
+      "title": "什么是 spin geometry？",
+      "url": "https://www.zhihu.com/answer/211864145",
+      "summary": "正文用拓扑障碍类与指标定理联系流形拓扑。"
+    },
+    {
+      "title": "如何理解 Čech 同调与上同调？",
+      "url": "https://www.zhihu.com/answer/218869097",
+      "summary": "正文从开覆盖、Čech nerve、极限与公理系统构造Čech上下同调。"
+    },
+    {
+      "title": "代数拓扑中的同调论(Homology Theory)应该怎么学？",
+      "url": "https://www.zhihu.com/answer/231625162",
+      "summary": "正文系统解释奇异同调、单纯同调与链复形。"
+    },
+    {
+      "title": "Green公式，Gauss公式，Stokes公式除了反映各种积分之间的联系，还蕴含什么更加深刻的内容？",
+      "url": "https://www.zhihu.com/answer/233521665",
+      "summary": "正文从de Rham复形和奇异上链复形解释Stokes公式。"
+    },
+    {
+      "title": "概率论或测度论与拓扑学有什么交叉的研究方向吗？",
+      "url": "https://www.zhihu.com/answer/254610139",
+      "summary": "正文说明马氏链绕圈性质与基本群、代数拓扑的关联。"
+    },
+    {
+      "title": "比开方更高级的运算能否扩充复数域？",
+      "url": "https://www.zhihu.com/answer/270223143",
+      "summary": "正文说明用上同调与 K 理论证明可除代数维数限制。"
+    },
+    {
+      "title": "陈数（Chern number）与卷绕数（winding number）的区别与联系？",
+      "url": "https://www.zhihu.com/answer/271983200",
+      "summary": "正文用同调、陈类、映射度与拉回丛系统解释陈数和卷绕数的联系。"
+    },
+    {
+      "title": "代数拓扑里同调群的系数是要说明什么？",
+      "url": "https://www.zhihu.com/answer/274739245",
+      "summary": "正文从同调系数、链复形、谱与广义同调理论解释代数拓扑中的系数。"
+    },
+    {
+      "title": "如何理解 Van-Kampen 定理？",
+      "url": "https://www.zhihu.com/answer/275323329",
+      "summary": "正文从基本群、基本群胚及开覆盖解释 Seifert–van Kampen 定理。"
+    },
+    {
+      "title": "如何学习点集拓扑学？",
+      "url": "https://www.zhihu.com/answer/275849454",
+      "summary": "正文解释代数拓扑用同调群等不变量区分空间。"
+    },
+    {
+      "title": "数学中有哪些典型的不变量？研究不变量的意义是什么？",
+      "url": "https://www.zhihu.com/answer/277322431",
+      "summary": "正文用基本群、同调群和 K 理论说明拓扑不变量。"
+    },
+    {
+      "title": "在本科数学阶段你学过最有趣的一门数学课是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/286568159",
+      "summary": "正文系统介绍代数拓扑中的基本群、同调与上同调。"
+    },
+    {
+      "title": "Homology 和 Homotopy 能在多大程度上完全决定一个流形的拓扑？",
+      "url": "https://www.zhihu.com/answer/292609570",
+      "summary": "正文以同调群、同伦群和示性类讨论代数拓扑如何区分空间。"
+    },
+    {
+      "title": "winding number 的计算公式是怎么来的？",
+      "url": "https://www.zhihu.com/answer/308955775",
+      "summary": "正文把卷绕数解释为闭曲线绕原点圈数的拓扑不变量。"
+    },
+    {
+      "title": "winding number 的计算公式是怎么来的？",
+      "url": "https://www.zhihu.com/answer/310180428",
+      "summary": "正文从Berry相位、卷绕数和Chern数解释拓扑不变量联系。"
+    },
+    {
+      "title": "如何理解perverse sheaves?有哪些motivation?有什么好的reference?",
+      "url": "https://www.zhihu.com/answer/319494987",
+      "summary": "正文从相交上同调和几何拓扑解释偏屈层的首要动机。"
+    },
+    {
+      "title": "如何理解庞加莱对偶（Poincare Duality）?",
+      "url": "https://www.zhihu.com/answer/321148551",
+      "summary": "正文从同调、上同调与 Floer 上同调系统解释庞加莱对偶。"
+    },
+    {
+      "title": "高等代数学完后该看的高级代数入门参考书？",
+      "url": "https://www.zhihu.com/answer/331089760",
+      "summary": "正文说明多种现代数学观念源于代数拓扑。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/338917813",
+      "summary": "正文通过同调类、上同调类乘积和虚拟基本类定义曲线计数不变量。"
+    },
+    {
+      "title": "图论有哪些方向分支？",
+      "url": "https://www.zhihu.com/answer/341917897",
+      "summary": "正文说明图作为1-complex并使用同调群研究cycle与cut空间。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/342000763",
+      "summary": "正文用同胚分类、同调群和欧拉示性数描述流形拓扑。"
+    },
+    {
+      "title": "Homology 和 Homotopy 能在多大程度上完全决定一个流形的拓扑？",
+      "url": "https://www.zhihu.com/answer/364643763",
+      "summary": "正文以同调环、Steenrod 运算和 E∞ 代数讲解代数拓扑。"
+    },
+    {
+      "title": "一个 n 维空间可以被 a 个 m 维超平面分割成多少块图形？",
+      "url": "https://www.zhihu.com/answer/385890255",
+      "summary": "正文用上同调长正合列与Thom同构求超平面补集连通分支数。"
+    },
+    {
+      "title": "纽结理论的前景如何？近年来有什么重要的发展？",
+      "url": "https://www.zhihu.com/answer/410552449",
+      "summary": "正文以接触同调构造纽结不变量，属于代数拓扑方法。"
+    },
+    {
+      "title": "纽结理论的前景如何？近年来有什么重要的发展？",
+      "url": "https://www.zhihu.com/answer/410720713",
+      "summary": "正文讨论 categorification 与 knot homology。"
+    },
+    {
+      "title": "如何证明椭圆是封闭图形？",
+      "url": "https://www.zhihu.com/answer/449269175",
+      "summary": "正文用Alexander对偶、同调和上同调分析曲线分离平面。"
+    },
+    {
+      "title": "Gromov-Witten不变量是什么？",
+      "url": "https://www.zhihu.com/answer/474257097",
+      "summary": "正文通过同调类、上同调环和量子上同调定义Gromov-Witten不变量。"
+    },
+    {
+      "title": "本科学习拓扑有哪些值得分享的学习经验？",
+      "url": "https://www.zhihu.com/answer/486276057",
+      "summary": "正文给出代数拓扑教材与后续学习方向。"
+    },
+    {
+      "title": "hormander的L^2 方法在辛几何中的发展？",
+      "url": "https://www.zhihu.com/answer/487767585",
+      "summary": "正文把 Gromov-Witten 理论与几何、拓扑结构相连。"
+    },
+    {
+      "title": "如何理解庞加莱对偶（Poincare Duality）?",
+      "url": "https://www.zhihu.com/answer/510806604",
+      "summary": "从同调、紧支集上同调、Mayer–Vietoris 正合列解释庞加莱对偶的局部到整体机制。"
+    },
+    {
+      "title": "拓扑是什么概念？",
+      "url": "https://www.zhihu.com/answer/521920422",
+      "summary": "以球面向量场、毛球定理、同伦论和 K 理论展示代数拓扑问题与方法。"
+    },
+    {
+      "title": "代数拓扑中Acyclic Models有什么几何意义?",
+      "url": "https://www.zhihu.com/answer/522115467",
+      "summary": "从单纯对象、链复形、同调函子和模型范畴解释 acyclic models 在代数拓扑中的作用。"
+    },
+    {
+      "title": "抽象代数、交换代数、同调代数、群表示论、李代数、代数拓扑的学习顺序应该是怎样的？",
+      "url": "https://www.zhihu.com/answer/531884350",
+      "summary": "正文把代数拓扑设为学习范畴论和同伦思想的核心应用场景。"
+    },
+    {
+      "title": "关于整体微分几何？",
+      "url": "https://www.zhihu.com/answer/535744325",
+      "summary": "正文用上同调类和示性类连接微分几何与代数拓扑。"
+    },
+    {
+      "title": "如何看待阿里的全球数学竞赛？",
+      "url": "https://www.zhihu.com/answer/538575225",
+      "summary": "正文实际使用同调长正合列等代数拓扑工具。"
+    },
+    {
+      "title": "如何通俗易懂地解释外微分？",
+      "url": "https://www.zhihu.com/answer/541419722",
+      "summary": "正文从链、上链、边界算子和微分形式解释 de Rham 同调结构。"
+    },
+    {
+      "title": "什么是 Batalin-Vilkovisky formalism？它在量子场论中有哪些应用？",
+      "url": "https://www.zhihu.com/answer/544756245",
+      "summary": "正文把 BV 算子与弦拓扑、循环上同调联系起来。"
+    },
+    {
+      "title": "怎么理解导出范畴？",
+      "url": "https://www.zhihu.com/answer/547239020",
+      "summary": "正文联系拓扑空间、CW 复形、Kan 复形和代数拓扑。"
+    },
+    {
+      "title": "现代数学的潮流是什么？",
+      "url": "https://www.zhihu.com/answer/551618682",
+      "summary": "把 Floer 理论、辛上同调和 Fukaya 范畴放在现代拓扑工具链中解释。"
+    },
+    {
+      "title": "如何理解庞加莱对偶（Poincare Duality）?",
+      "url": "https://www.zhihu.com/answer/622957674",
+      "summary": "从广义同调、上同调和因子化同调解释庞加莱对偶。"
+    },
+    {
+      "title": "如何理解Atiyah-Bott localization?",
+      "url": "https://www.zhihu.com/answer/629057682",
+      "summary": "用等变上同调、扭元与不动点集解释 Atiyah-Bott 局部化。"
+    },
+    {
+      "title": "数学本科生学一门课（比如代数几何2）到一半时失去动机不感兴趣了，应该如何决定是继续肝还是放弃掉学别的？",
+      "url": "https://www.zhihu.com/answer/645273365",
+      "summary": "说明上同调公理、导出函子和 étale 上同调怎样连接拓扑与代数几何。"
+    },
+    {
+      "title": "Galois理论包含了哪些东西？",
+      "url": "https://www.zhihu.com/answer/647553265",
+      "summary": "把 Galois 对应与覆盖空间、étale 上同调作结构类比。"
+    },
+    {
+      "title": "抽象代数、同调代数、交换代数、代数拓扑有什么关系？",
+      "url": "https://www.zhihu.com/answer/711276380",
+      "summary": "正文明确说明代数拓扑以代数结构研究拓扑结构，并交代同调理论与它的联系。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/717444019",
+      "summary": "引用上同调与Thom同构给出代数拓扑版本。"
+    },
+    {
+      "title": "数学有哪些领域完全不涉及微积分？",
+      "url": "https://www.zhihu.com/answer/734483109",
+      "summary": "正文说明代数拓扑借助群计算研究空间性质，并提到谱序列仍需极限思想。"
+    },
+    {
+      "title": "数学中有什么难以置信的结论？",
+      "url": "https://www.zhihu.com/answer/758519291",
+      "summary": "通过贝蒂数和同调群介绍代数拓扑不变量。"
+    },
+    {
+      "title": "旋度为零的场一定是某个数量场的梯度吗？",
+      "url": "https://www.zhihu.com/answer/820233976",
+      "summary": "正文用基本群、同调群、上同调和 de Rham 上同调分析闭形式何时恰当。"
+    },
+    {
+      "title": "你最钦佩的数学天才是谁？",
+      "url": "https://www.zhihu.com/answer/820644071",
+      "summary": "把解析稠密问题转化为拓扑延拓问题。"
+    },
+    {
+      "title": "为何要引入同伦群，同伦群可以解决什么问题？",
+      "url": "https://www.zhihu.com/answer/824237024",
+      "summary": "使用 CW 复形、同调和障碍理论研究拓扑。"
+    },
+    {
+      "title": "Čech上同调的几何直观是什么，当时是怎么想到的？",
+      "url": "https://www.zhihu.com/answer/885852208",
+      "summary": "通过开覆盖、上同调群和黏合数据解释 Čech 上同调。"
+    },
+    {
+      "title": "头发上的漩涡可以弄掉吗？",
+      "url": "https://www.zhihu.com/answer/915489213",
+      "summary": "正文用欧拉示性数、同调群与毛球定理解释发旋，属于代数拓扑的实质应用。"
+    },
+    {
+      "title": "在即将过去的 2019 年中，你所在的数学领域有哪些突破？",
+      "url": "https://www.zhihu.com/answer/948948600",
+      "summary": "正文讨论四维庞加莱猜想、等变同伦论和流形拓扑等研究进展。"
+    },
+    {
+      "title": "群的上同调可以解决哪些引入上同调语言以前完全无能为力的问题？",
+      "url": "https://www.zhihu.com/answer/959224190",
+      "summary": "正文解释 K(G,1)、基本群和同伦论中的代数拓扑应用。"
+    },
+    {
+      "title": "如何评价陈省身？",
+      "url": "https://www.zhihu.com/answer/1116196240",
+      "summary": "正文明确说明陈省身连接微分几何与代数拓扑的工作。"
+    },
+    {
+      "title": "高一学生如何入门拓扑学？",
+      "url": "https://www.zhihu.com/answer/1159998490",
+      "summary": "正文明确说明代数拓扑在拓扑学习序列中的位置。"
+    },
+    {
+      "title": "代数拓扑里面什么叫做spectrum？",
+      "url": "https://www.zhihu.com/answer/1246906469",
+      "summary": "正文以谱和谱同伦范畴系统解释稳定同伦及代数拓扑。"
+    },
+    {
+      "title": "代数拓扑跟数论与算术几何有什么关系？",
+      "url": "https://www.zhihu.com/answer/1268150669",
+      "summary": "正文解释代数拓扑如何为上同调与同伦论提供可计算框架。"
+    },
+    {
+      "title": "学习偏微分方程需要具备什么基础知识？",
+      "url": "https://www.zhihu.com/answer/1269890226",
+      "summary": "正文说明临界点存在性会用到同调论等代数拓扑工具。"
+    },
+    {
+      "title": "你所读的数学方向，有哪些短小精干的讲义或者教材？",
+      "url": "https://www.zhihu.com/answer/1343255234",
+      "summary": "正文推荐 Milnor 拓扑书并说明同调理论、莫尔斯理论等代数拓扑预备知识。"
+    },
+    {
+      "title": "如何评价菲尔兹奖得主 Vladimir Voevodsky？",
+      "url": "https://www.zhihu.com/answer/1403609386",
+      "summary": "正文介绍 motivic cohomology 与代数拓扑。"
+    },
+    {
+      "title": "目标微分几何的本科生是否有必要学习抽象代数几何？",
+      "url": "https://www.zhihu.com/answer/1412823508",
+      "summary": "正文比较代数几何、微分几何与代数拓扑的学习关系。"
+    },
+    {
+      "title": "数学中，有哪些方程和思想让你体会到了美感？",
+      "url": "https://www.zhihu.com/answer/1465518660",
+      "summary": "正文用拓扑不变量限制流形上动力系统。"
+    },
+    {
+      "title": "atiyah singer 指标定理的学习路径是怎样的？",
+      "url": "https://www.zhihu.com/answer/1467527776",
+      "summary": "正文把指标定理放在几何与拓扑理论中介绍。"
+    },
+    {
+      "title": "哪些数学书让你相见恨晚？",
+      "url": "https://www.zhihu.com/answer/1469318149",
+      "summary": "正文重点介绍一本文拓扑学专著。"
+    },
+    {
+      "title": "什么是「Hodge 理论」？",
+      "url": "https://www.zhihu.com/answer/1563368083",
+      "summary": "正文介绍复 Hodge 理论中的上同调分解。"
+    },
+    {
+      "title": "你的领域有哪些让人不明觉厉的术语？",
+      "url": "https://www.zhihu.com/answer/1579416509",
+      "summary": "正文用亏格与同调群说明拓扑曲面的直观分类概念。"
+    },
+    {
+      "title": "有哪些值得推荐的《拓扑学》教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1626940410",
+      "summary": "正文另列代数拓扑教材与参考书。"
+    },
+    {
+      "title": "抽象代数、同调代数、交换代数、代数拓扑有什么关系？",
+      "url": "https://www.zhihu.com/answer/1645299517",
+      "summary": "正文梳理代数拓扑中同调与同伦的发展。"
+    },
+    {
+      "title": "怎样比较好的理解陈类（Chern classes）?",
+      "url": "https://www.zhihu.com/answer/1647941785",
+      "summary": "正文把陈类解释为上同调类与分类映射的拉回。"
+    },
+    {
+      "title": "数学中的哪些分支密切依赖于空间思维或想象力？",
+      "url": "https://www.zhihu.com/answer/1652922719",
+      "summary": "正文比较代数拓扑、交换图与空想能力。"
+    },
+    {
+      "title": "几何拓扑是否还是一个有前途的领域，学习需要怎样的基础？",
+      "url": "https://www.zhihu.com/answer/1663864064",
+      "summary": "正文讨论几何拓扑的细分方向与学习基础。"
+    },
+    {
+      "title": "几何拓扑是否还是一个有前途的领域，学习需要怎样的基础？",
+      "url": "https://www.zhihu.com/answer/1664991130",
+      "summary": "正文介绍低维拓扑的研究内容与前景。"
+    },
+    {
+      "title": "几何拓扑是否还是一个有前途的领域，学习需要怎样的基础？",
+      "url": "https://www.zhihu.com/answer/1665045895",
+      "summary": "正文系统讨论低维拓扑的工具与研究环境。"
+    },
+    {
+      "title": "几何拓扑是否还是一个有前途的领域，学习需要怎样的基础？",
+      "url": "https://www.zhihu.com/answer/1665103126",
+      "summary": "正文概述规范理论在低维拓扑中的研究进展。"
+    },
+    {
+      "title": "如何评价Hatcher的代数拓扑？",
+      "url": "https://www.zhihu.com/answer/1667052397",
+      "summary": "正文评价代数拓扑教材的内容与阅读方式。"
+    },
+    {
+      "title": "在高等数学重积分中，格林公式、高斯公式、斯托克斯公式的关联是什么样的？",
+      "url": "https://www.zhihu.com/answer/1676055669",
+      "summary": "正文把路径无关与格林、高斯、斯托克斯公式联系到上同调。"
+    },
+    {
+      "title": "如何评价这个人自称初一自学高等数学并秀优越?",
+      "url": "https://www.zhihu.com/answer/1690354415",
+      "summary": "正文使用同调群与 Stokes 定理讨论周期。"
+    },
+    {
+      "title": "拓扑学有什么书目推荐？",
+      "url": "https://www.zhihu.com/answer/1699573855",
+      "summary": "正文给出代数拓扑教材阅读顺序。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/1715884520",
+      "summary": "正文给出毛绒球定理的同伦与映射度证明。"
+    },
+    {
+      "title": "微分符号 dx、dy 表示什么含义？",
+      "url": "https://www.zhihu.com/answer/1739183680",
+      "summary": "正文直接讨论或推导「代数拓扑」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "如何学习上同调中的乘积？",
+      "url": "https://www.zhihu.com/answer/1770608583",
+      "summary": "正文系统解释上同调中的 cup product、相交和环结构。"
+    },
+    {
+      "title": "2021 年 2 月 11 日美国数学家伊萨多·辛格去世，享年 96 岁，如何评价其一生的贡献？",
+      "url": "https://www.zhihu.com/answer/1774398722",
+      "summary": "正文介绍 Atiyah-Singer 指标定理及其跨领域影响。"
+    },
+    {
+      "title": "哪些数学命题曾经长期被误认为是正确的，但之后被严格证明是错的？",
+      "url": "https://www.zhihu.com/answer/1774871848",
+      "summary": "正文用 Hopf fibration 说明球面高阶同伦群的非平凡性。"
+    },
+    {
+      "title": "如何评价Hatcher的代数拓扑？",
+      "url": "https://www.zhihu.com/answer/1817740439",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "计算出拓扑空间的同伦群或是同调群之后能知道些什么东西？",
+      "url": "https://www.zhihu.com/answer/1844602268",
+      "summary": "正文解释同伦群和同调群如何编码拓扑空间信息。"
+    },
+    {
+      "title": "李群的基本群是怎么算出来的？",
+      "url": "https://www.zhihu.com/answer/1847848022",
+      "summary": "正文使用同伦群长正合列计算基本群。"
+    },
+    {
+      "title": "量子力学的Dirac符号系统优越性在哪，为什么不使用张量作为量子力学的数学语言基础？",
+      "url": "https://www.zhihu.com/answer/1878660010",
+      "summary": "正文把路径积分与配边结构联系到拓扑不变量。"
+    },
+    {
+      "title": "什么样的神经科学/心理学涉及到图论（Graph Theory）和拓扑学（Topology）呢?",
+      "url": "https://www.zhihu.com/answer/1938381579",
+      "summary": "正文直接讨论并支撑「代数拓扑」相关内容。"
+    },
+    {
+      "title": "非交换几何在物理学中有哪些应用？",
+      "url": "https://www.zhihu.com/answer/1938935028",
+      "summary": "正文用 K 理论和循环同调等代数拓扑工具研究非交换几何对象。"
+    },
+    {
+      "title": "学习代数拓扑哪本教材好？",
+      "url": "https://www.zhihu.com/answer/1943736990",
+      "summary": "正文具体讨论代数拓扑中的纤维化、同调与同伦教材内容。"
+    },
+    {
+      "title": "同调群在拓扑以外有什么应用？",
+      "url": "https://www.zhihu.com/answer/1953744902",
+      "summary": "正文以复形、核和像定义同调并联系 de Rham 上同调。"
+    },
+    {
+      "title": "如何评价 2021 阿里巴巴数学竞赛决赛试题？",
+      "url": "https://www.zhihu.com/answer/1963409884",
+      "summary": "正文用长正合列、Lefschetz 对偶和万有系数定理求解拓扑题。"
+    },
+    {
+      "title": "层的上同调、导出函子的几何直观是什么？",
+      "url": "https://www.zhihu.com/answer/1975915372",
+      "summary": "正文把层上同调放在代数拓扑和同伦型语言中理解。"
+    },
+    {
+      "title": "任何一个群是否都是某个拓扑空间的基本群？",
+      "url": "https://www.zhihu.com/answer/1982281446",
+      "summary": "正文使用CW复形和粘贴胞腔的代数拓扑构造。"
+    },
+    {
+      "title": "微分形式有什么实际上的用处？难道它仅仅是为了一个表示形式上的方便吗？相关内容的书籍有什么推荐？",
+      "url": "https://www.zhihu.com/answer/1997677074",
+      "summary": "正文讨论外微分导出de Rham上同调。"
+    },
+    {
+      "title": "在高等数学重积分中，格林公式、高斯公式、斯托克斯公式的关联是什么样的？",
+      "url": "https://www.zhihu.com/answer/2006921486",
+      "summary": "正文用微分形式与外微分解释经典积分定理。"
+    },
+    {
+      "title": "如何确定K3曲面的betti数和hodge数?",
+      "url": "https://www.zhihu.com/answer/2025280891",
+      "summary": "正文使用 Betti 数和 Poincare 对偶描述 K3 曲面的代数拓扑。"
+    },
+    {
+      "title": "学习代数拓扑需要什么前置知识？",
+      "url": "https://www.zhihu.com/answer/2071892272",
+      "summary": "正文明确说明代数拓扑的课程前置关系。"
+    },
+    {
+      "title": "能不能从数学各个分支的例子谈谈层（sheaf）为什么重要？",
+      "url": "https://www.zhihu.com/answer/2081387907",
+      "summary": "正文说明层上同调如何把局部信息整合为拓扑整体信息。"
+    },
+    {
+      "title": "代数拓扑为什么研究同调？",
+      "url": "https://www.zhihu.com/answer/2090743631",
+      "summary": "正文从链群、边界映射和商群直观解释同调群。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/2103786419",
+      "summary": "正文通过黎曼曲面的覆叠和Deck群连接Galois理论与代数拓扑。"
+    },
+    {
+      "title": "学习无穷范畴需要哪些前置知识？",
+      "url": "https://www.zhihu.com/answer/2108451300",
+      "summary": "正文把稳定同伦、spectra和Goodwillie calculus作为学习切入点。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/2124662911",
+      "summary": "正文讨论高维拓扑、同调和庞加莱猜想的拓扑研究。"
+    },
+    {
+      "title": "实变函数，泛函分析，拓扑学中重要的定理概念有哪些？",
+      "url": "https://www.zhihu.com/answer/2128239584",
+      "summary": "正文列举正合序列、同调群和欧拉示性数等代数拓扑内容。"
+    },
+    {
+      "title": "数学中，有哪些方程和思想让你体会到了美感？",
+      "url": "https://www.zhihu.com/answer/2159103827",
+      "summary": "正文用胞腔复形、临界点与同调解释 Morse 理论的拓扑意义。"
+    },
+    {
+      "title": "数学的旨趣是什么？数学到底在干什么？",
+      "url": "https://www.zhihu.com/answer/2162172555",
+      "summary": "正文以拓扑、代数几何等说明数学中的分类问题。"
+    },
+    {
+      "title": "如果你要向一位学过初级的抽象代数的本科生推销数学工具「正合序列」，你会如何介绍它？",
+      "url": "https://www.zhihu.com/answer/2187719603",
+      "summary": "正文以正合列和 snake/five lemma 引出同调群与代数拓扑中的同调方法。"
+    },
+    {
+      "title": "bulk-edge correspondence是在说什么？",
+      "url": "https://www.zhihu.com/answer/2206765771",
+      "summary": "正文以融合范畴、模张量范畴和函子刻画体边对应。"
+    },
+    {
+      "title": "如何看待「禁止用没学过的知识解题」这样的要求？",
+      "url": "https://www.zhihu.com/answer/2237940035",
+      "summary": "正文用单纯复形、同伦等价和欧拉示性数完成组合恒等式证明。"
+    },
+    {
+      "title": "群论和拓扑的关系是什么？群论本来就是拓扑的一种形式？",
+      "url": "https://www.zhihu.com/answer/2241656301",
+      "summary": "正文说明如何用群等代数对象研究拓扑结构。"
+    },
+    {
+      "title": "怎么理解导出范畴？",
+      "url": "https://www.zhihu.com/answer/2242851468",
+      "summary": "正文说明三角范畴局部化在稳定同伦中的应用。"
+    },
+    {
+      "title": "能否以高等背景出一道高中数学题？",
+      "url": "https://www.zhihu.com/answer/2243519927",
+      "summary": "正文说明题目背景来自复向量丛与陈示性类。"
+    },
+    {
+      "title": "目前数学的符号体系有多混乱？",
+      "url": "https://www.zhihu.com/answer/2246719201",
+      "summary": "正文用上同调群说明几何拓扑中的符号歧义。"
+    },
+    {
+      "title": "如何评价Hatcher的代数拓扑？",
+      "url": "https://www.zhihu.com/answer/2271028516",
+      "summary": "正文评价代数拓扑教材的理论展开和直观证明风格。"
+    },
+    {
+      "title": "2021 年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/2288530127",
+      "summary": "正文随后展开代数拓扑中的长正合列、万有系数定理、Poincaré 对偶和上同调环等内容。"
+    },
+    {
+      "title": "几何方面有类似卓里奇、科斯特利金之类的“入门级厚书”吗?",
+      "url": "https://www.zhihu.com/answer/2314785583",
+      "summary": "正文介绍代数拓扑标准教材及其内容特点。"
+    },
+    {
+      "title": "最数学的计算机科学方向有哪些？",
+      "url": "https://www.zhihu.com/answer/2326460570",
+      "summary": "正文以同调群、贝蒂数等代数拓扑工具介绍拓扑数据分析。"
+    },
+    {
+      "title": "为什么会说 Stokes 公式是显然的？",
+      "url": "https://www.zhihu.com/answer/2383184719",
+      "summary": "正文讨论斯托克斯定理在有向流形和边缘算子上的拓扑推广。"
+    },
+    {
+      "title": "如何评价美国数学家苏利文（Dennis Parnell Sullivan）获 2022 年阿贝尔奖？",
+      "url": "https://www.zhihu.com/answer/2405222814",
+      "summary": "正文介绍苏利文在代数拓扑与有理同伦论中的贡献。"
+    },
+    {
+      "title": "拓扑学究竟是一种什么样的学科？",
+      "url": "https://www.zhihu.com/answer/2412443287",
+      "summary": "正文解释代数拓扑通过同伦群和同调群研究空间的拓扑结构。"
+    },
+    {
+      "title": "拓扑学究竟是一种什么样的学科？",
+      "url": "https://www.zhihu.com/answer/2412711320",
+      "summary": "正文用基本群、同调群和欧拉示性数具体说明代数拓扑如何构造拓扑不变量。"
+    },
+    {
+      "title": "2022 年阿贝尔奖公布，81 岁数学家、拓扑学大师苏利文一人获奖，你有哪些祝福送给他？",
+      "url": "https://www.zhihu.com/answer/2417694924",
+      "summary": "正文系统介绍苏利文在代数拓扑及多个拓扑分支中的开创性贡献。"
+    },
+    {
+      "title": "拓扑领域有哪些美妙的工作？",
+      "url": "https://www.zhihu.com/answer/2424523286",
+      "summary": "正文以 Adams 猜想、同伦纤维序列、K-理论和上同调举例代数拓扑经典成果。"
+    },
+    {
+      "title": "作为数学PhD，你本科时额外学了哪些数学内容？",
+      "url": "https://www.zhihu.com/answer/2429217133",
+      "summary": "正文回顾本科额外学习代数拓扑及其研究生课程的完整经历。"
+    },
+    {
+      "title": "如何评价Hatcher的代数拓扑？",
+      "url": "https://www.zhihu.com/answer/2430411378",
+      "summary": "正文围绕代数拓扑教材 Hatcher 的定义、证明和习题展开评价。"
+    },
+    {
+      "title": "代数拓扑和代数几何有什么区别与联系吗？",
+      "url": "https://www.zhihu.com/answer/2450469229",
+      "summary": "正文以 Lefschetz 纤维化、同调单值变换和复 Morse 理论说明代数拓扑在代数几何中的应用。"
+    },
+    {
+      "title": "请问一下入门代数拓扑需要哪些方面的知识？",
+      "url": "https://www.zhihu.com/answer/2491165680",
+      "summary": "正文解释代数拓扑通过构造代数不变量研究拓扑空间。"
+    },
+    {
+      "title": "仍然在世的伟大数学家有哪些？",
+      "url": "https://www.zhihu.com/answer/2499504355",
+      "summary": "正文介绍模型范畴与抽象同伦理论方面的贡献。"
+    },
+    {
+      "title": "有哪些时刻，让你觉得数学很美？",
+      "url": "https://www.zhihu.com/answer/2501010436",
+      "summary": "正文讨论奇异同调、de Rham 上同调及二者的对偶性。"
+    },
+    {
+      "title": "什么是霍奇猜想，它的证明会给数学带来什么发展？",
+      "url": "https://www.zhihu.com/answer/2526779745",
+      "summary": "解释拓扑空间在连续变形下的等价关系与霍奇猜想的关系。"
+    },
+    {
+      "title": "陈数（Chern number）与卷绕数（winding number）的区别与联系？",
+      "url": "https://www.zhihu.com/answer/2542166418",
+      "summary": "用复 Grassmannian 的同伦群分类拓扑能带并解释陈数与卷绕数。"
+    },
+    {
+      "title": "你最喜欢的数学定理是什么？",
+      "url": "https://www.zhihu.com/answer/2544589817",
+      "summary": "以环面同调群与基本群说明拓扑对象可提炼为代数对象。"
+    },
+    {
+      "title": "什么数学领域研究随尺度变化而变化的性质？",
+      "url": "https://www.zhihu.com/answer/2550036345",
+      "summary": "讨论渐近维数等不变量用于区分空间的拓扑与几何性质。"
+    },
+    {
+      "title": "能不能从数学各个分支的例子谈谈层（sheaf）为什么重要？",
+      "url": "https://www.zhihu.com/answer/2568152044",
+      "summary": "把局部解的粘合障碍解释为 cocycle，并用一阶上同调群描述障碍是否消失。"
+    },
+    {
+      "title": "如何评价Hatcher的代数拓扑？",
+      "url": "https://www.zhihu.com/answer/2591038649",
+      "summary": "评价 Hatcher 代数拓扑教材的证明风格、同伦与上同调体系及逻辑缺口。"
+    },
+    {
+      "title": "复变函数中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2611158145",
+      "summary": "介绍拓扑 K 理论、向量丛分类、同伦群与 Bott 周期性。"
+    },
+    {
+      "title": "为什么裤子前后穿反了不能通过“把裤腰旋转180度”的方式调整（而裙子可以）？",
+      "url": "https://www.zhihu.com/answer/2661776541",
+      "summary": "用一阶同调群的生成元及映射度说明两个裤腿边缘不同调，从而不同伦。"
+    },
+    {
+      "title": "为什么裤子前后穿反了不能通过“把裤腰旋转180度”的方式调整（而裙子可以）？",
+      "url": "https://www.zhihu.com/answer/2662800360",
+      "summary": "用裤管曲面的一阶同调群生成元及其交换关系证明翻转操作导致矛盾。"
+    },
+    {
+      "title": "代数拓扑方向研究生最底线基础是什么？",
+      "url": "https://www.zhihu.com/answer/2678174273",
+      "summary": "正文列举同伦、同调、曲面拓扑、谱序列、示性类和K理论等核心内容，界定代数拓扑的学习范围。"
+    },
+    {
+      "title": "如何评价华中科技大学数学中心郇真的文章被顶刊 Acta Mathematica 接收？",
+      "url": "https://www.zhihu.com/answer/2710712248",
+      "summary": "介绍准椭圆同调学与椭圆同调、代数拓扑及数学物理的关联。"
+    },
+    {
+      "title": "哪些数学书让你相见恨晚？",
+      "url": "https://www.zhihu.com/answer/2734976526",
+      "summary": "正文说明代数拓扑以连通性、同胚等拓扑不变量为起点继续寻找有效不变量，展开其基本研究对象与方法。"
+    },
+    {
+      "title": "为什么裤子前后穿反了不能通过“把裤腰旋转180度”的方式调整（而裙子可以）？",
+      "url": "https://www.zhihu.com/answer/2746584583",
+      "summary": "正文用 Poincaré-Hopf 定理和 Euler 示性数证明群作用不动点的数量限制。"
+    },
+    {
+      "title": "2022年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/2793325439",
+      "summary": "正文用 Gromov 模和代表同调类曲面的最小亏格解释二维同调类的拓扑复杂度。"
+    },
+    {
+      "title": "你自己做出的第一个发表的纯数研究结果的研究过程如何？",
+      "url": "https://www.zhihu.com/answer/2820876936",
+      "summary": "正文以 Betti 数和同调群描述随机生长集合中的洞，并说明如何计算各阶同调群来证明下界。"
+    },
+    {
+      "title": "如何向刚修完复变与拓扑课程的本科生科普Riemann-Roch定理的重要意义？",
+      "url": "https://www.zhihu.com/answer/2833113957",
+      "summary": "正文把定理改写为层上同调的欧拉示性数恒等式，并使用亏格这一拓扑不变量解释其意义。"
+    },
+    {
+      "title": "为什么所有的科学都是用微观来解释宏观，而不能用宏观解释微观？",
+      "url": "https://www.zhihu.com/answer/2837990731",
+      "summary": "正文说明同调论以线性不变量和同调群从拓扑空间提取洞等信息，属于代数拓扑的方法。"
+    },
+    {
+      "title": "一个矩形自转一圈是一个圆柱，一个立方体在四维空间自转一圈得到的是什么？",
+      "url": "https://www.zhihu.com/answer/2844906113",
+      "summary": "正文借助Künneth公式计算边界三维流形的简约同调群，并据各维同调群解释其存在不同维数的洞。"
+    },
+    {
+      "title": "有哪些数学上的定理让你感觉「这不显然吗，这还用证明」？",
+      "url": "https://www.zhihu.com/answer/2846865446",
+      "summary": "正文利用覆盖空间和基本群这一代数拓扑工具，把自由群的子群实现为某个覆盖图的基本群。"
+    },
+    {
+      "title": "若要学习Motivic Homotopy，代数拓扑需要学到什么程度？",
+      "url": "https://www.zhihu.com/answer/2871512680",
+      "summary": "正文系统列出经典同伦论、稳定同伦论、谱序列和 motivic homotopy 的学习路径与核心工具，属于代数拓扑主题的展开。"
+    },
+    {
+      "title": "范畴论诞生前的同调代数是怎样的？",
+      "url": "https://www.zhihu.com/answer/2886268850",
+      "summary": "正文以链复形、同调群、上同调群和拓扑不变量为例，实质介绍了代数拓扑的同调思想。"
+    },
+    {
+      "title": "你见过哪些构思巧妙，令你眼界大开的数学问题？",
+      "url": "https://www.zhihu.com/answer/2904477498",
+      "summary": "正文计算去两点平面的基本群为两个整数群的自由积，并据此构造摘任一钉子即脱落的绕法。"
+    },
+    {
+      "title": "微软德国称下周将发布 GPT-4，将涵盖语音、视频等多模态，还有哪些信息值得关注？",
+      "url": "https://www.zhihu.com/answer/2929901396",
+      "summary": "正文用球面的 de Rham 上同调消失和体积积分非零构成矛盾，证明球面不能承载辛形式。"
+    },
+    {
+      "title": "有没有“代数组合”这样的分支？如果有，主要是研究什么？",
+      "url": "https://www.zhihu.com/answer/2931339552",
+      "summary": "正文介绍旗流形上同调类、Schubert 胞腔分解以及 Schubert 类构成上同调加性基。"
+    },
+    {
+      "title": "为什么经济学专业要学拓扑学？",
+      "url": "https://www.zhihu.com/answer/2951765787",
+      "summary": "正文通过单纯形剖分、Brouwer不动点定理和上半连续凸值映射证明Kakutani不动点定理，属于代数拓扑的不动点理论。"
+    },
+    {
+      "title": "同调代数到底是在做什么？",
+      "url": "https://www.zhihu.com/answer/2969378832",
+      "summary": "正文说明同调代数起源于代数拓扑，并具体提到单纯同调、奇异同调及用单形链分解拓扑空间。"
+    },
+    {
+      "title": "代数拓扑和几何分析之间有什么联系吗？",
+      "url": "https://www.zhihu.com/answer/2977838021",
+      "summary": "正文用 Gauss-Bonnet 定理说明曲率积分与欧拉示性数之间的代数拓扑联系。"
+    },
+    {
+      "title": "为什么基本群一般是非交换的？",
+      "url": "https://www.zhihu.com/answer/2978678410",
+      "summary": "正文把纽结投影的生成元与关系归因于 Van Kampen 定理，讲解代数拓扑中的基本群计算方法。"
+    },
+    {
+      "title": "二十世纪到现在，数学有什么重要的成果？谁给科普一下?",
+      "url": "https://www.zhihu.com/answer/2981286833",
+      "summary": "正文具体梳理同调群、同伦论、纤维丛、示性类、指标定理和低维流形研究，属于代数拓扑的发展综述。"
+    },
+    {
+      "title": "如何通俗解释指标定理？",
+      "url": "https://www.zhihu.com/answer/2982001771",
+      "summary": "正文以拓扑 K 理论、相对上同调群和 Thom 同构说明指标定理的拓扑指标构造。"
+    },
+    {
+      "title": "同调代数到底是在做什么？",
+      "url": "https://www.zhihu.com/answer/2983096168",
+      "summary": "正文用亏格等拓扑不变量区分球面和环面，并把曲面的拓扑研究转化为复形结构。"
+    },
+    {
+      "title": "能不能把一切数学分支全部代数化？",
+      "url": "https://www.zhihu.com/answer/2985303312",
+      "summary": "正文通过 Serre-Swan 定理和 K 理论说明向量丛的几何信息可以转成代数拓扑信息。"
+    },
+    {
+      "title": "分析方向的研究生，对代数需要掌握到什么程度？",
+      "url": "https://www.zhihu.com/answer/3000925295",
+      "summary": "正文具体说明奇异同调群、临界同调群和 Morse 型数在研究泛函临界点及水平集拓扑变化中的作用。"
+    },
+    {
+      "title": "拓扑学的动机和核心是什么？",
+      "url": "https://www.zhihu.com/answer/3002504534",
+      "summary": "正文以平面环与圆的洞为例，说明用基本群等代数结构区分拓扑对象，并概括代数拓扑借助代数工具研究拓扑性质。"
+    },
+    {
+      "title": "谁创立了代数拓扑学？",
+      "url": "https://www.zhihu.com/answer/3013326011",
+      "summary": "正文说明庞加莱将闭路族代数化为基本群，并由此讲述代数拓扑的创立和基本群例子。"
+    },
+    {
+      "title": "为什么数学家会提出群的上同调？",
+      "url": "https://www.zhihu.com/answer/3030875537",
+      "summary": "正文用拓扑空间的同调群定义基本群的同调群，并说明其不依赖具体构造空间。"
+    },
+    {
+      "title": "真的会有人觉得数学或者物理公式很美吗？凭心而论，不要为了培养兴趣硬逼着自己去发现它的美?",
+      "url": "https://www.zhihu.com/answer/3039388543",
+      "summary": "正文进一步讨论 de Rham 定理，说明流形上的微分形式与拓扑信息通过同构相联系。"
+    },
+    {
+      "title": "为什么我感觉代数几何是伪几何，本质上是代数？",
+      "url": "https://www.zhihu.com/answer/3047417910",
+      "summary": "正文以亏格、拓扑不变量和概型上同调为例，说明代数几何中如何保留并研究代数化的拓扑结构。"
+    },
+    {
+      "title": "如果让你来讲《微分几何》课程，你会如何设计？",
+      "url": "https://www.zhihu.com/answer/3052995181",
+      "summary": "正文把流形拓扑落实为 de Rham 上同调，并在后续使用 Thom 同构和 K 理论组织代数拓扑内容。"
+    },
+    {
+      "title": "为什么庞加莱猜想这种问题需要证明，数学家们到底是为了什么？",
+      "url": "https://www.zhihu.com/answer/3082713635",
+      "summary": "正文用同调群区分流形，并提出是否需要更精细不变量来识别潜在的非球三维流形。"
+    },
+    {
+      "title": "一维SSH模型，考虑安德森无序，体态局域化之后，如何通过体态计算拓扑不变量？",
+      "url": "https://www.zhihu.com/answer/3091445128",
+      "summary": "正文说明哈密顿量与平带哈密顿量同伦等价，并进一步用绕数、Bott 指标等代数拓扑不变量刻画拓扑相。"
+    },
+    {
+      "title": "请问学习路线吗？低维拓扑有什么?",
+      "url": "https://www.zhihu.com/answer/3096446295",
+      "summary": "正文用同调类、上同调类、上积与相交形式说明四维流形中的代数拓扑观点。"
+    },
+    {
+      "title": "为什么要研究平展上同调？平展上同调有哪些应用？",
+      "url": "https://www.zhihu.com/answer/3119759427",
+      "summary": "正文讨论奇异上同调与 Cech 上同调的计算联系，并说明 good cover 如何决定流形的上同调信息。"
+    },
+    {
+      "title": "抽象代数、同调代数、交换代数、代数拓扑有什么关系？",
+      "url": "https://www.zhihu.com/answer/3127810932",
+      "summary": "正文明确展开代数拓扑的同调论与同伦论两条研究路径及其映射思想。"
+    },
+    {
+      "title": "现代数学已经发展到瓶颈期了吗？",
+      "url": "https://www.zhihu.com/answer/3215794699",
+      "summary": "正文以同调群和示性类为例，说明拓扑不变量如何融合代数、微分几何与拓扑信息，实质介绍了代数拓扑的核心对象。"
+    },
+    {
+      "title": "有哪些形式简单，很有美感，但是理论上很重要的数学结论？",
+      "url": "https://www.zhihu.com/answer/3224923177",
+      "summary": "正文以 Poincaré-Hopf 定理说明紧流形上向量场零点的指标和等于欧拉示性数，属于代数拓扑。"
+    },
+    {
+      "title": "辫群是什么？",
+      "url": "https://www.zhihu.com/answer/3228002665",
+      "summary": "正文构造复平面上点的构形空间，并通过道路和基本群研究其拓扑结构。"
+    },
+    {
+      "title": "如何上手 Lurie 的 SAG（Spectral Algebraic Geometry）？",
+      "url": "https://www.zhihu.com/answer/3241760637",
+      "summary": "正文多处说明稳定同伦论如何通过高阶代数影响谱代数几何及其椭圆上同调应用。"
+    },
+    {
+      "title": "如图，如果向量可以是弯的？",
+      "url": "https://www.zhihu.com/answer/3255262295",
+      "summary": "正文以道路类、同伦和基本群为线索，解释代数拓扑如何构造拓扑不变量来区分空间。"
+    },
+    {
+      "title": "量子反常是否一定与积分测度的改变有关？",
+      "url": "https://www.zhihu.com/answer/3273354952",
+      "summary": "正文用群上同调类 H^{3}(BG,U(1)) 对结合子相位分类，并说明可由 H^{2} 修正引入离散挠率。"
+    },
+    {
+      "title": "怎样比较好的理解陈类（Chern classes）?",
+      "url": "https://www.zhihu.com/answer/3273392462",
+      "summary": "正文把陈类解释为延拓向量丛截面的障碍类，并说明第一陈类位于二阶上同调群。"
+    },
+    {
+      "title": "atiyah singer 指标定理的学习路径是怎样的？",
+      "url": "https://www.zhihu.com/answer/3297606749",
+      "summary": "正文用K理论、Bott周期性、示性类和Chern character说明Atiyah-Singer指标定理的拓扑指标。"
+    },
+    {
+      "title": "什么样的拓扑空间中任何一个自身到自身的连续映射必有不动点？",
+      "url": "https://www.zhihu.com/answer/3300444210",
+      "summary": "正文用CW复形嵌入与收缩论证紧可缩复形的不动点性质，属于代数拓扑方法。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3309812137",
+      "summary": "正文明确说明代数拓扑把拓扑空间问题转化为群论问题，并以基本群的应用为例。"
+    },
+    {
+      "title": "目前数学各方向最前沿都在研究什么问题？",
+      "url": "https://www.zhihu.com/answer/3311247480",
+      "summary": "正文把 Quantum Modularity Conjecture 置于量子拓扑中，说明其与纽结不变量等多类拓扑对象相关。"
+    },
+    {
+      "title": "李群的基本群是怎么算出来的？",
+      "url": "https://www.zhihu.com/answer/3331646284",
+      "summary": "正文以纤维丛和同伦正合序列计算常见李群的基本群，系统讨论代数拓扑方法。"
+    },
+    {
+      "title": "为什么数学家会提出群的上同调？",
+      "url": "https://www.zhihu.com/answer/3344522446",
+      "summary": "正文以代数曲线的庞加莱对偶解释 Tate-Nakayama 对偶，并联系局部系上同调和基本群。"
+    },
+    {
+      "title": "当今世界数学已经发展到本科生难以理解的地步了吗？",
+      "url": "https://www.zhihu.com/answer/3370376039",
+      "summary": "正文用同调类、上同调类和 de Rham 理论说明复分析与代数拓扑之间的对应关系。"
+    },
+    {
+      "title": "如何理解Chern–Simons form和Chern–Simons theory？",
+      "url": "https://www.zhihu.com/answer/3385978782",
+      "summary": "正文用第二陈类与基本类配对得到整数不变量，并把平坦联络联系到基本群表示和Floer同调，属于代数拓扑内容。"
+    },
+    {
+      "title": "学习辛几何（symplectic geometry）需要哪些数学基础?",
+      "url": "https://www.zhihu.com/answer/3387245957",
+      "summary": "正文专门讨论代数拓扑基础，指出 de Rham 上同调、陈类和同伦群在辛几何中的用途。"
+    },
+    {
+      "title": "如何通俗地解释李群和李代数的关系？",
+      "url": "https://www.zhihu.com/answer/3387941702",
+      "summary": "正文证明紧连通李群的 de Rham 上同调与其李代数的上同调同构，并讨论等变上同调。"
+    },
+    {
+      "title": "最近在学数论 泛函 射影几何 怎么感觉数学也是草台班子？",
+      "url": "https://www.zhihu.com/answer/3394853769",
+      "summary": "正文描述代数拓扑从单纯同调、CW 同调到上同调公理化定义的具体发展过程。"
+    },
+    {
+      "title": "国内外工业软件的差距在哪？如何赶上？",
+      "url": "https://www.zhihu.com/answer/3423770199",
+      "summary": "正文用示性类、de Rham上同调、Hodge分解和上同调障碍分析光滑标架场的整体构造。"
+    },
+    {
+      "title": "如果你要向一位学过初级的抽象代数的本科生推销数学工具「正合序列」，你会如何介绍它？",
+      "url": "https://www.zhihu.com/answer/3452621220",
+      "summary": "正文用同调群、正合性和弱可缩性解释链复形理论如何连接代数拓扑与同伦结构。"
+    },
+    {
+      "title": "说说你们对同调代数的理解？",
+      "url": "https://www.zhihu.com/answer/3452775865",
+      "summary": "正文梳理奇异同调群、同调群公理和长正合序列如何从代数拓扑发展为独立代数工具。"
+    },
+    {
+      "title": "数学的不同分支里有哪些同调论呢？这些同调论又是怎样相互联系和转化的呢？",
+      "url": "https://www.zhihu.com/answer/3462363257",
+      "summary": "正文从临界点、链群、边界映射和同调群完整构造 Morse 同调，并说明其与奇异同调、胞腔同调的联系。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/3474737073",
+      "summary": "正文展开代数拓扑中的不动点与对径点定理、上同调应用，并概览庞加莱对偶的多种拓扑证明。"
+    },
+    {
+      "title": "如何理解近复结构(Almost Complex Structure)？",
+      "url": "https://www.zhihu.com/answer/3494606886",
+      "summary": "正文通过同伦正合列、阻碍类、上同调与示性类系统分析近复结构的提升障碍。"
+    },
+    {
+      "title": "如何理解丘成桐“中国数学水平不如美国1940年代”?",
+      "url": "https://www.zhihu.com/answer/3495473959",
+      "summary": "正文说明莱夫谢茨在代数拓扑中的工作，并具体指出其推动同调和同伦理论发展。"
+    },
+    {
+      "title": "「代数几何」是一门什么样的学科，经历了怎样的发展，与其他数学分支的关系是怎样的？",
+      "url": "https://www.zhihu.com/answer/3496557878",
+      "summary": "正文具体讲解同调、上同调、杯积、庞加莱对偶与基本类如何给出相交数公式。"
+    },
+    {
+      "title": "如何确定K3曲面的betti数和hodge数?",
+      "url": "https://www.zhihu.com/answer/3509134268",
+      "summary": "正文用陈类、Euler 类、庞加莱对偶和相交形式计算 K3 的 Betti 数及符号差，展开代数拓扑方法。"
+    },
+    {
+      "title": "女朋友学音乐的，给我备注 B大调音阶 是什么含义呢？",
+      "url": "https://www.zhihu.com/answer/3512247627",
+      "summary": "正文通过上同调直和、Betti数与欧拉特征的关系解释该记号的代数拓扑含义。"
+    },
+    {
+      "title": "现代数学和理论物理已经发展到怎样一个令人震惊的水平了？",
+      "url": "https://www.zhihu.com/answer/3514312874",
+      "summary": "正文以 Pontryagin 示性类、四维流形的边界和示性类积分解释 Chern-Simons 不变量。"
+    },
+    {
+      "title": "近几年数学和物理学有什么重大突破吗，或者前沿都在研究什么呢?",
+      "url": "https://www.zhihu.com/answer/3516018637",
+      "summary": "正文系统介绍代数拓扑中 Kervaire 不变量、色同伦和谱序列等近期成果与方法。"
+    },
+    {
+      "title": "如何评价俄罗斯数学家诺维科夫？",
+      "url": "https://www.zhihu.com/answer/3540254150",
+      "summary": "正文具体说明诺维科夫建立的谱序列及其在稳定同伦群研究中的作用，对应代数拓扑。"
+    },
+    {
+      "title": "留数定理能和安培环路定理联系起来吗？",
+      "url": "https://www.zhihu.com/answer/3545219558",
+      "summary": "正文用一阶 de Rham 上同调及其与基本群表示的对偶解释留数定理和安培环路定理。"
+    },
+    {
+      "title": "有没有一本书，讲述了数学的整个起源发展史？",
+      "url": "https://www.zhihu.com/answer/3550262865",
+      "summary": "正文说明同调群与上同调群是代数拓扑的核心对象，并介绍其在流形和奇点研究中的作用。"
+    },
+    {
+      "title": "如果我们不是生活在R^3里，而是生活在RP^3或者其他3维流形里面，会有什么不同呢？",
+      "url": "https://www.zhihu.com/answer/3582929756",
+      "summary": "正文用 R^3 的万有复叠空间、单连通性与商群作用解释这些空间如何分类，属于代数拓扑中的覆盖空间方法。"
+    },
+    {
+      "title": "本科生自学微分流形有哪些资料推荐？",
+      "url": "https://www.zhihu.com/answer/3586291169",
+      "summary": "正文由微分形式、de Rham 复形和闭而恰当的形式引出上同调，并联系奇异同调论证拓扑不变量。"
+    },
+    {
+      "title": "Jordan曲线定理为何不平凡？",
+      "url": "https://www.zhihu.com/answer/3621144892",
+      "summary": "正文给出亏格曲面的同调群、Hurewicz 定理及基本群交换化的关系，展开了代数拓扑内容。"
+    },
+    {
+      "title": "为什么数学家会提出群的上同调？",
+      "url": "https://www.zhihu.com/answer/39916922274",
+      "summary": "正文构造分类空间 BG 和单纯复形，并说明代数与拓扑上同调计算本质相同。"
+    },
+    {
+      "title": "留数定理的本质是什么？",
+      "url": "https://www.zhihu.com/answer/45414049465",
+      "summary": "正文通过基本群、 Abel 化与一阶同调群的关系解释留数定理的代数拓扑结构。"
+    },
+    {
+      "title": "从事复杂系统科学（非线性动力学）研究需要很强的数学能力吗？",
+      "url": "https://www.zhihu.com/answer/57220171718",
+      "summary": "正文说明可用 Poincaré-Hopf 定理、Euler 示性数和同调群等代数拓扑工具研究动力系统的均衡与轨线性质。"
+    },
+    {
+      "title": "粒子自旋到底是个运动性质还是几何性质？",
+      "url": "https://www.zhihu.com/answer/58607407128",
+      "summary": "正文讨论覆盖群、基本道路类及稳定同伦问题的背景，属于代数拓扑的直观展开。"
+    },
+    {
+      "title": "请问自学拓扑有什么路线？",
+      "url": "https://www.zhihu.com/answer/61648708745",
+      "summary": "正文用函子把拓扑空间转成代数对象，具体说明代数拓扑借助代数不变量研究空间结构的思路。"
+    },
+    {
+      "title": "哈密顿正则方程长的这么像 C-R 条件，我们是不是可以用一个复坐标代替广义坐标和广义动量?",
+      "url": "https://www.zhihu.com/answer/67002662375",
+      "summary": "正文比较Dolbeault与de Rham上同调，并说明伪全纯曲线线性化算子的指标与模空间维数。"
+    },
+    {
+      "title": "2024你的数学研究和学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/67688840327",
+      "summary": "正文系统梳理基本群、单纯复形、同调群、闭曲面分类与不动点定理，属于代数拓扑。"
+    },
+    {
+      "title": "一个球面怎么实现内外翻转，而中途没有褶皱或者折痕？",
+      "url": "https://www.zhihu.com/answer/75390195860",
+      "summary": "正文用二标架 Stiefel 流形的二阶同伦群是否为零来判断浸入之间的正则同伦类，属于代数拓扑不变量方法。"
+    },
+    {
+      "title": "如何评价Hatcher的代数拓扑？",
+      "url": "https://www.zhihu.com/answer/78574235174",
+      "summary": "正文围绕代数拓扑的计算方法、同调同伦与函子性展开教材评价。"
+    },
+    {
+      "title": "如何评价清华大学求真书院推出的「杰出少年数学示范班」?",
+      "url": "https://www.zhihu.com/answer/92292250347",
+      "summary": "正文以基本群、覆叠空间和单值化群解释拓扑方法证明代数定理的机制，属于代数拓扑内容。"
+    },
+    {
+      "title": "Inventiones mathematicae上都发表过哪些经典论文?",
+      "url": "https://www.zhihu.com/answer/109898168527",
+      "summary": "正文说明文章通过上同调环决定紧凯勒流形的实同伦型，涉及代数拓扑中的上同调思想。"
+    },
+    {
+      "title": "代数拓扑和代数几何有什么区别与联系吗？",
+      "url": "https://www.zhihu.com/answer/118242241797",
+      "summary": "正文用全纯 Morse 理论的形变引理和消失同调类研究复流形的同调变化，具体展开代数拓扑方法。"
+    },
+    {
+      "title": "代数拓扑为什么研究同调？",
+      "url": "https://www.zhihu.com/answer/121529076518",
+      "summary": "正文从同伦论与同调论两条主线系统讨论代数拓扑如何用代数不变量分类拓扑空间，并以同调和上同调贯穿全文。"
+    },
+    {
+      "title": "代数基本定理有哪些不同的证明方法？",
+      "url": "https://www.zhihu.com/answer/123021793062",
+      "summary": "正文以卷绕数、映射度和基本群同态介绍用于证明的代数拓扑工具。"
+    },
+    {
+      "title": "在数学的学习过程中，你见过最妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/123637366164",
+      "summary": "正文用超平面排列的区域、面、欧拉示性数和 Möbius inversion 等拓扑工具证明组合学结论。"
+    },
+    {
+      "title": "拓扑学的思想能帮助我们理解哪些日常现象？",
+      "url": "https://www.zhihu.com/answer/125217508081",
+      "summary": "正文用代数拓扑中的 Čech 上同调、cocycle 和 coboundary 严格分析不可能图形。"
+    },
+    {
+      "title": "数学中的美体现在哪里?",
+      "url": "https://www.zhihu.com/answer/125898814310",
+      "summary": "正文说明代数拓扑借助基本群等拓扑不变量把空间分类问题转化为代数问题。"
+    },
+    {
+      "title": "微分流形、微分拓扑、黎曼几何、代数拓扑的关系是什么，学习顺序如何？",
+      "url": "https://www.zhihu.com/answer/127223192168",
+      "summary": "正文解释代数拓扑用函子把拓扑空间转成代数对象，并借助代数工具研究拓扑性质。"
+    },
+    {
+      "title": "拓扑学的思想能帮助我们理解哪些日常现象？",
+      "url": "https://www.zhihu.com/answer/130067647109",
+      "summary": "正文用基本群、环道同伦类和覆盖理论证明 π1(SO(3)) 同构于 Z2。"
+    },
+    {
+      "title": "群论和拓扑学有什么关系？",
+      "url": "https://www.zhihu.com/answer/130098740059",
+      "summary": "正文完整构造基本群，证明其群结构、路径连通下的同构以及同胚不变量性质。"
+    },
+    {
+      "title": "群论和拓扑学有什么关系？",
+      "url": "https://www.zhihu.com/answer/130576931904",
+      "summary": "正文说明拓扑需要代数化才能被严格表述和计算，并明确代数拓扑是群论与拓扑结合的核心学科。"
+    },
+    {
+      "title": "为什么代数拓扑是有效的？",
+      "url": "https://www.zhihu.com/answer/1889402656340021621",
+      "summary": "正文具体说明代数拓扑用同伦群、同调群等函子保留部分信息，把空间分类转化成群论或环论计算。"
+    },
+    {
+      "title": "在数学学习中，你遇到过哪些有趣的同构？",
+      "url": "https://www.zhihu.com/answer/1892636829179696368",
+      "summary": "正文定义基本群并解释单位圆上绕圈的同伦类如何与整数加法群同构。"
+    },
+    {
+      "title": "有哪些并不是很离谱的数学伪证，但是得到的结论却是一眼假的？",
+      "url": "https://www.zhihu.com/answer/1893262948908134871",
+      "summary": "正文用向量丛、主丛、对角截面和稳定等价构造一个 K 理论相关伪证。"
+    },
+    {
+      "title": "研究几何拓扑的人是如何研究 moduli space 或者 teichmuller space 的？",
+      "url": "https://www.zhihu.com/answer/1896604415009465042",
+      "summary": "正文构造形变复形，用 H^1 和 H^2 上同调刻画切空间与形变障碍，并讨论指标和拓扑不变量，展开代数拓扑工具。"
+    },
+    {
+      "title": "哈密顿正则方程长的这么像 C-R 条件，我们是不是可以用一个复坐标代替广义坐标和广义动量?",
+      "url": "https://www.zhihu.com/answer/1897570176406364565",
+      "summary": "正文由回路空间上的 Floer 方程及其解的计数解释 Floer 同调边界映射。"
+    },
+    {
+      "title": "代数拓扑和黎曼几何有什么联系吗?",
+      "url": "https://www.zhihu.com/answer/1899722174597694743",
+      "summary": "正文用基本群、高阶同伦群和 Betti 数等代数不变量研究流形拓扑，体现了代数拓扑的方法。"
+    },
+    {
+      "title": "为什么代数拓扑是有效的？",
+      "url": "https://www.zhihu.com/answer/1900138265111172504",
+      "summary": "正文说明如何经由良好覆盖、神经和几何实现把拓扑问题转化为有限组合问题，再构造代数拓扑不变量。"
+    },
+    {
+      "title": "为什么封闭立体图形的「顶点数-棱数+面数＝2」？",
+      "url": "https://www.zhihu.com/answer/1902130880698384913",
+      "summary": "正文把 v-e+f 推广为 Euler 示性数，讨论亏格关系和有限单纯复形上的交替和。"
+    },
+    {
+      "title": "怎样比较好的理解陈类（Chern classes）?",
+      "url": "https://www.zhihu.com/answer/1902838135097898042",
+      "summary": "正文用分类空间和universal bundle的上同调环构造复向量丛的陈类，具体展开了代数拓扑视角。"
+    },
+    {
+      "title": "如何阅读Hatcher的代数拓扑？",
+      "url": "https://www.zhihu.com/answer/1907799388698420085",
+      "summary": "正文按基本群、同调、上同调和高阶同伦群组织教学内容，具体讨论代数拓扑课程主线。"
+    },
+    {
+      "title": "计算机学科用到的数学是否十分浅显，不涉及到高深的数学理论，比如抽象代数，代数拓扑，代数几何等?",
+      "url": "https://www.zhihu.com/answer/1911166654471190495",
+      "summary": "正文说明拓扑数据分析使用同调群和持久同调分析高维数据结构，对应代数拓扑。"
+    },
+    {
+      "title": "对现在的年轻人来说，选择代数拓扑是否比低维拓扑前沿（如Floer theory等）更有前途?",
+      "url": "https://www.zhihu.com/answer/1913029390343844649",
+      "summary": "正文具体讨论代数拓扑的抽象性、同伦论与 K 理论等前沿方向及其学习和研究门槛。"
+    },
+    {
+      "title": "如何评价2025年上海高考语文作文？",
+      "url": "https://www.zhihu.com/answer/1915051022910461284",
+      "summary": "正文解释基本群把拓扑空间联系到群，并进一步提到构造相应空间及其同调群，属于代数拓扑的核心对应。"
+    },
+    {
+      "title": "如何证明拓扑群的基本群是阿贝尔群？",
+      "url": "https://www.zhihu.com/answer/1916367207140692396",
+      "summary": "正文以基本群函子及其在拓扑群上的结构保持性质组织证明，属于代数拓扑中基本群的应用。"
+    },
+    {
+      "title": "特征簇(character variety)为什么重要？",
+      "url": "https://www.zhihu.com/answer/1916442663818879034",
+      "summary": "正文用基本群到结构群的发展表示刻画几何结构，并讨论离散忠实表示与双曲结构的关系。"
+    },
+    {
+      "title": "Homology 和 Homotopy 能在多大程度上完全决定一个流形的拓扑？",
+      "url": "https://www.zhihu.com/answer/1923720723953849406",
+      "summary": "正文以圈、边界和形式加减解释同调群，体现代数拓扑将几何问题代数化的方法。"
+    },
+    {
+      "title": "分析学方向如何深入学习后续课程？",
+      "url": "https://www.zhihu.com/answer/1925584739567403552",
+      "summary": "正文主张非线性分析应结合代数拓扑，具体讨论同调、上同调、正合列和 Mayer-Vietoris 序列等工具。"
+    },
+    {
+      "title": "苏联当年有多少应该拿菲尔兹奖的数学家被黑了？",
+      "url": "https://www.zhihu.com/answer/1936157843532276387",
+      "summary": "正文接着介绍上同调环及其作为现代代数拓扑核心工具的意义，实质涉及代数拓扑。"
+    },
+    {
+      "title": "有哪些物理学反哺数学的理论？",
+      "url": "https://www.zhihu.com/answer/1938282168590798884",
+      "summary": "正文用上同调、相交型和符号差等拓扑不变量分析四维流形的拓扑结构。"
+    },
+    {
+      "title": "最抽象的数学方向是哪个？",
+      "url": "https://www.zhihu.com/answer/1938601411601474184",
+      "summary": "正文说明代数拓扑如何用群、环和同调群等代数不变量研究几何与拓扑空间。"
+    },
+    {
+      "title": "如何形象的理解上同调？",
+      "url": "https://www.zhihu.com/answer/1939298383446639535",
+      "summary": "正文用闭链、恰当链及其商群定义上同调群，并说明 de Rham 上同调如何用微分形式探测流形的拓扑障碍。"
+    },
+    {
+      "title": "有哪些数学理论最初被认为「毫无用处」，却在某个领域意外成为关键技术支柱？",
+      "url": "https://www.zhihu.com/answer/1943042322918007481",
+      "summary": "正文通过塞弗特曲面、同调基闭路和环绕数构造亚历山大多项式，并介绍琼斯多项式等代数值不变量。"
+    },
+    {
+      "title": "请问有什么悬而未决几十年最终被证伪的数学猜想吗？",
+      "url": "https://www.zhihu.com/answer/1946501379645474473",
+      "summary": "正文解释基本群与环路变形、有限生成的关系，并用它连接流形的几何条件与拓扑复杂度。"
+    },
+    {
+      "title": "哪个方向是当前数学界最热门的方向？",
+      "url": "https://www.zhihu.com/answer/1946884968501452960",
+      "summary": "正文以持续同调和Betti数分析高维数据中的洞与环，说明代数拓扑思想的数据分析应用。"
+    },
+    {
+      "title": "数学学习或研究中，你见过哪些有意思的反例？",
+      "url": "https://www.zhihu.com/answer/1951507184077747009",
+      "summary": "正文计算基本群和第一 Betti 数，并用 Kähler 流形 Betti 数的奇偶限制排除 Kähler 结构。"
+    },
+    {
+      "title": "如何理解微分几何中各种各样的“可积性”条件（Integrability）？",
+      "url": "https://www.zhihu.com/answer/1956160628860393060",
+      "summary": "正文用 de Rham 群刻画局部可解问题提升为全局解时存在的拓扑障碍，属于代数拓扑方法。"
+    },
+    {
+      "title": "为什么外微分恰好能表达梯度、旋度、散度？",
+      "url": "https://www.zhihu.com/answer/1968074723092063010",
+      "summary": "正文构造奇异同调群与 de Rham 上同调群，并用 de Rham 定理说明二者的同构关系。"
+    },
+    {
+      "title": "利用现代数学或物理学方法研究神经科学，有哪些方向和成果？",
+      "url": "https://www.zhihu.com/answer/1968837762762400954",
+      "summary": "正文具体介绍持久同调通过单纯复形、Betti 数和不同尺度下洞的出生消亡计算拓扑特征。"
+    },
+    {
+      "title": "为什么实际旋转角度是四元数里面的角度的两倍？有什么数学上的原因吗？",
+      "url": "https://www.zhihu.com/answer/1969031908693353344",
+      "summary": "正文从射影空间和双覆盖说明旋转群的拓扑流形结构，属于代数拓扑中的覆叠讨论。"
+    },
+    {
+      "title": "如何评价陈省身？",
+      "url": "https://www.zhihu.com/answer/1975263415565041821",
+      "summary": "正文说明陈氏示性类作为纤维丛的拓扑不变量，连接了微分几何与代数拓扑。"
+    },
+    {
+      "title": "纽结(Knots)的同痕不变量有哪些？",
+      "url": "https://www.zhihu.com/answer/1979176789487134638",
+      "summary": "正文说明由 Jones 多项式范畴化得到 Khovanov homology，并讨论多种纽结同调不变量及其区分能力。"
+    },
+    {
+      "title": "代数几何是什么样的几何？",
+      "url": "https://www.zhihu.com/answer/1980229808970547927",
+      "summary": "正文比较常值层的层上同调与奇异上同调，并说明代数簇需要平展拓扑和上同调来提取拓扑信息。"
+    },
+    {
+      "title": "你最讨厌的拓扑空间是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/1980609437032019415",
+      "summary": "正文借助 Serre 谱序列、上同调正合序列和第二惠特尼类，证明 Wu 流形对应的示性类非零。"
+    },
+    {
+      "title": "什么是「Hodge 理论」？",
+      "url": "https://www.zhihu.com/answer/1981620692215674763",
+      "summary": "正文使用同调类、de Rham上同调、Hodge分解和Hodge滤过来组织几何分类，具体涉及代数拓扑工具。"
+    },
+    {
+      "title": "如何评价顾险峰教授的计算共形几何？",
+      "url": "https://www.zhihu.com/answer/1984912210032628159",
+      "summary": "正文展开单纯复形、链复形、同调群和 de Rham 上同调，并说明连续映射如何诱导同调群同态。"
+    },
+    {
+      "title": "如何看待数学期刊的论文越来越长的情况？",
+      "url": "https://www.zhihu.com/answer/1988082321279178490",
+      "summary": "正文具体说明几何拓扑研究如何计数非线性 PDE 的解来构造新的拓扑不变量，并比较其与已有不变量的关系。"
+    },
+    {
+      "title": "2025年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/1989020733054161279",
+      "summary": "正文借零调模型法、链同伦和 Künneth 公式讲解代数拓扑中乘积空间同调的计算机制。"
+    },
+    {
+      "title": "Čech上同调的几何直观是什么，当时是怎么想到的？",
+      "url": "https://www.zhihu.com/answer/1990211184687866984",
+      "summary": "正文从开覆盖、转移函数和局部到整体的障碍出发，说明 Čech 上同调类如何分类复线丛，属于代数拓扑中的上同调讨论。"
+    },
+    {
+      "title": "如何看待 Grothendieck 思考数学问题不依赖具体例子？",
+      "url": "https://www.zhihu.com/answer/1992641799131518659",
+      "summary": "正文讨论层上同调、拓扑斯上同调以及用它们提取空间拓扑不变量的思路。"
+    },
+    {
+      "title": "如何通俗解释指标定理？",
+      "url": "https://www.zhihu.com/answer/2002268393487762557",
+      "summary": "正文把核与余核维数之差解释为只受拓扑控制的指标，并借此介绍 Atiyah-Singer 指标定理的拓扑含义。"
+    },
+    {
+      "title": "复变函数如图，为什么只有n=1时，积分为2πi（我知道她是怎么算出来的，但是这是否有什么别的意义)？",
+      "url": "https://www.zhihu.com/answer/2005981886632198719",
+      "summary": "正文回顾 Betti 数、同调、基本群和复叠空间对应关系，说明庞加莱如何以代数工具建立代数拓扑。"
+    },
+    {
+      "title": "怎么记住斯托克斯公式（Stokes' theorem）？",
+      "url": "https://www.zhihu.com/answer/2009676587440829614",
+      "summary": "正文把边界与微分形式的关系写成链复形交换图，并用余端构造 de Rham 上同调。"
+    },
+    {
+      "title": "grassmann流形是微分流形么，如何证明？",
+      "url": "https://www.zhihu.com/answer/2013764194714001541",
+      "summary": "正文利用主丛纤维化和同伦群长正合列推导Grassmann流形的拓扑信息，具体展开代数拓扑方法。"
+    },
+    {
+      "title": "甚麽是 Morse 同调 (Morse homology)?",
+      "url": "https://www.zhihu.com/answer/2016054132071478730",
+      "summary": "正文以 Morse 函数的临界点构造链群和边界算子，说明 Morse 同调与链复形的建立。"
+    },
+    {
+      "title": "伽罗瓦理论究竟讲了什么？为什么其中用到了群论的知识？",
+      "url": "https://www.zhihu.com/answer/2031355298905069104",
+      "summary": "正文说明代数拓扑通过基本群和同调群等代数对象研究空间结构。"
+    },
+    {
+      "title": "有什么看似复杂但实际上很简单的数学题？",
+      "url": "https://www.zhihu.com/answer/2035821430311534933",
+      "summary": "正文把洞数、基本群和同调群作为连续变形下的拓扑不变量展开。"
+    },
+    {
+      "title": "俄罗斯的数学教育为什么那么强大？",
+      "url": "https://www.zhihu.com/answer/2036377147053446743",
+      "summary": "正文具体说明亚历山德罗夫借助抽象代数方法推进拓扑学研究。"
+    },
+    {
+      "title": "如何理解矩阵的「秩」？",
+      "url": "https://www.zhihu.com/answer/2037090082625172473",
+      "summary": "正文用同调群、贝蒂数和欧拉示性数解释如何把空间拓扑压缩为有限不变量。"
+    },
+    {
+      "title": "什么叫降维打击？",
+      "url": "https://www.zhihu.com/answer/2040804314298460030",
+      "summary": "正文列举基本群、同调群和上同调环，并把它们作为描述洞及其相互作用的拓扑不变量。"
+    },
+    {
+      "title": "如何评价望月新一？",
+      "url": "https://www.zhihu.com/answer/2055918670598123984",
+      "summary": "正文解释IUT的anabelian几何研究与基本群、étale上同调的联系，对应代数拓扑。"
+    },
+    {
+      "title": "在高等数学重积分中，格林公式、高斯公式、斯托克斯公式的关联是什么样的？",
+      "url": "https://www.zhihu.com/answer/2071197776260633894",
+      "summary": "正文由闭形式与恰当形式讲解德拉姆上同调，并说明其与奇异上同调和贝蒂数的关系。"
+    },
+    {
+      "title": "如何看待Brendle关于Hopf猜想的文章？",
+      "url": "https://www.zhihu.com/answer/2073938758618161783",
+      "summary": "正文用 Euler 示性数、Betti 数和 Morse 理论说明曲率对拓扑不变量及同调信息的约束。"
+    },
+    {
+      "title": "如何看待Levent Alpoge发布的S^6的复结构构造的论文？",
+      "url": "https://www.zhihu.com/answer/2075157549691815102",
+      "summary": "正文说明通过计算基本群与整系数同调识别同伦六维球面，实际使用了代数拓扑中的基本群和同调方法。"
+    },
+    {
+      "title": "如何看待Levent Alpoge发布的S^6的复结构构造的论文？",
+      "url": "https://www.zhihu.com/answer/2075192663998047772",
+      "summary": "正文计算基本群、整系数同调和 Hurewicz–Whitehead 关系，以此证明所得流形同伦等价于 S6。"
+    },
+    {
+      "title": "有没有学数学的大佬给我讲一些非常牛逼的东西，震撼一下我这个非数学系的大学生？",
+      "url": "https://www.zhihu.com/answer/2075328287761614038",
+      "summary": "正文用闭形式与恰当形式、拓扑洞和德拉姆上同调解释局部微积分如何反映整体拓扑。"
+    },
+    {
+      "title": "关于”代数几何“方向的一些简单介绍",
+      "url": "https://zhuanlan.zhihu.com/p/19719683",
+      "summary": "正文解释代数拓扑的上同调群如何编码流形的分割与粘回信息，并概览层上同调。"
+    },
+    {
+      "title": "2.9* 微积分的进化（9）——进化仍在继续",
+      "url": "https://zhuanlan.zhihu.com/p/20826548",
+      "summary": "正文讨论 de Rham 上同调、调和形式与 Hodge 分解，并说明 Sobolev 理论在代数拓扑中的应用。"
+    },
+    {
+      "title": "3.1 De Rham上同调（1）—— 爸爸去哪儿",
+      "url": "https://zhuanlan.zhihu.com/p/21573734",
+      "summary": "正文以偏导数方程解的存在性为引子，围绕 De Rham 上同调所属的代数拓扑主题展开。"
+    },
+    {
+      "title": "3.2 De Rham上同调（2）—— 先来一口试试",
+      "url": "https://zhuanlan.zhihu.com/p/21599488",
+      "summary": "正文用梯度与旋度算子核和像的商空间定义 De Rham 上同调，并解释其揭示区域拓扑性质的意义。"
+    },
+    {
+      "title": "3.3 De Rham上同调（3）—— 简单才好",
+      "url": "https://zhuanlan.zhihu.com/p/21787531",
+      "summary": "正文从向量值函数的曲面积分引入楔积与微分形式，定义外微分 d 及商空间 H^k(U)，具体给出 de Rham 上同调。"
+    },
+    {
+      "title": "预备篇：范畴与函子",
+      "url": "https://zhuanlan.zhihu.com/p/23206745",
+      "summary": "正文以范畴和函子构造拓扑不变量，说明用基本群、同调群等代数对象研究拓扑空间。"
+    },
+    {
+      "title": "代数拓扑（一）",
+      "url": "https://zhuanlan.zhihu.com/p/23221460",
+      "summary": "正文系统讲解以基本群和奇异同调群作为代数不变量研究拓扑空间。"
+    },
+    {
+      "title": "代数数论(十四):素数、测地线、扭结",
+      "url": "https://zhuanlan.zhihu.com/p/24912510",
+      "summary": "正文用 étale 基本群、étale 上同调和 Poincaré 对偶说明代数整数环与三维流形的代数拓扑类比。"
+    },
+    {
+      "title": "首届国家最高科技奖得主吴文俊院士逝世 享年98岁",
+      "url": "https://zhuanlan.zhihu.com/p/26761679",
+      "summary": "正文回顾吴文俊的学术生平，并具体介绍其在代数拓扑中研究示性类、示嵌类及拓扑不变量的贡献，故对应代数拓扑。"
+    },
+    {
+      "title": "关于光滑映射的一些杂记",
+      "url": "https://zhuanlan.zhihu.com/p/26981969",
+      "summary": "正文构造 Morse 链复形和边缘算子，说明其同调群与单纯同调一致并用于计算拓扑不变量。"
+    },
+    {
+      "title": "关于笔记/文章/博客的一些收集",
+      "url": "https://zhuanlan.zhihu.com/p/27022655",
+      "summary": "正文解释 Grothendieck 谱序列，并列出 Leray、Hochschild-Serre 及层上同调等代数拓扑应用。"
+    },
+    {
+      "title": "关于黎曼几何与李群拓扑的一些杂记",
+      "url": "https://zhuanlan.zhihu.com/p/27111431",
+      "summary": "正文通过纤维丛、同伦群、上同调环和分类空间系统讨论紧李群的代数拓扑。"
+    },
+    {
+      "title": "群的上同调的简单性质",
+      "url": "https://zhuanlan.zhihu.com/p/27125121",
+      "summary": "正文通过分类空间把群上同调解释为分类空间的拓扑上同调，并计算圆周、自由群和 RP∞ 等例子。"
+    },
+    {
+      "title": "本科Senior thesis的中文摘要",
+      "url": "https://zhuanlan.zhihu.com/p/27168096",
+      "summary": "正文讨论四维流形的相交形式、上同调与瞬子模空间同调类，并概述 Donaldson 不变量这一代数拓扑成果。"
+    },
+    {
+      "title": "非线性科学中的现代数学方法：综述",
+      "url": "https://zhuanlan.zhihu.com/p/29474510",
+      "summary": "正文介绍 Poincare-Hopf 定理、Brouwer 度与同调群维数之间的联系，属于代数拓扑方法的应用。"
+    },
+    {
+      "title": "拓扑数据分析－持续同调（一）",
+      "url": "https://zhuanlan.zhihu.com/p/31734839",
+      "summary": "正文以单纯复形、拓扑不变量和维托里斯-里普斯复形为持续同调与代数拓扑应用作系统铺垫。"
+    },
+    {
+      "title": "非正曲率空间上的几个问题",
+      "url": "https://zhuanlan.zhihu.com/p/32897097",
+      "summary": "正文使用基本群、奇异同调、基本类与单纯体积定义讨论流形的代数拓扑不变量。"
+    },
+    {
+      "title": "Kunneth公式",
+      "url": "https://zhuanlan.zhihu.com/p/32996799",
+      "summary": "正文以积空间的同调群为问题，系统讲解奇异同调、上同调和 Kunneth 公式的拓扑版本。"
+    },
+    {
+      "title": "韦依猜想",
+      "url": "https://zhuanlan.zhihu.com/p/36801489",
+      "summary": "正文说明上同调与 Betti 数如何把有限域点计数和复代数簇拓扑联系起来。"
+    },
+    {
+      "title": "韦依猜想（总）",
+      "url": "https://zhuanlan.zhihu.com/p/37335129",
+      "summary": "正文引入Lefschetz不动点定理和韦依上同调公理，用上同调解释Zeta函数与点计数。"
+    },
+    {
+      "title": "韦依猜想",
+      "url": "https://zhuanlan.zhihu.com/p/37341356",
+      "summary": "正文定义韦依上同调公理，列出Betti、de Rham、平展和晶体上同调并推导不动点计数。"
+    },
+    {
+      "title": "非线性泛函分析导论（二）：变分问题的拓扑结构",
+      "url": "https://zhuanlan.zhihu.com/p/37695456",
+      "summary": "正文系统介绍 Brouwer 映射度、同伦不变性与 Kronecker 存在性等代数拓扑工具。"
+    },
+    {
+      "title": "拓扑学Ⅱ|笔记整理（7）——基本群",
+      "url": "https://zhuanlan.zhihu.com/p/37070641",
+      "summary": "正文系统定义道路类、基本群及其诱导同态，并用提升和圈数计算圆周的基本群。"
+    },
+    {
+      "title": "拓扑相里的拓扑到底有多拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/40311212",
+      "summary": "正文用复线丛、陈类、等变上同调和映射度解释拓扑相的判别，属于代数拓扑方法的应用。"
+    },
+    {
+      "title": "MP17：几何与物理II：现代视野下的电动力学",
+      "url": "https://zhuanlan.zhihu.com/p/44618929",
+      "summary": "正文引入边界算子、闭形式、恰当形式和de Rham上同调，并把Stokes定理表示为同调与上同调的内积关系。"
+    },
+    {
+      "title": "MP19：拓扑加油站(1)：道路连通、同伦、基本群",
+      "url": "https://zhuanlan.zhihu.com/p/44083782",
+      "summary": "正文由道路等价类构造基本群，并用同伦范畴到Abel群范畴的函子说明代数拓扑方法。"
+    },
+    {
+      "title": "MP20：单形、复形、链群和边界算子",
+      "url": "https://zhuanlan.zhihu.com/p/44758074",
+      "summary": "正文系统讲解单形、单纯复形和剖分，并说明这些结构如何为同调群提供代数拓扑基础。"
+    },
+    {
+      "title": "MP22：同调群",
+      "url": "https://zhuanlan.zhihu.com/p/44776557",
+      "summary": "正文从链群、边界算子和闭链/边缘链出发构造同调群，并用球面和环面例子解释拓扑洞。"
+    },
+    {
+      "title": "QLS代数及其辛几何应用",
+      "url": "https://zhuanlan.zhihu.com/p/45837896",
+      "summary": "正文用Chekanov-Eliashberg代数与Legendrian contact homology刻画Fukaya代数之间的对偶。"
+    },
+    {
+      "title": "区域不变定理",
+      "url": "https://zhuanlan.zhihu.com/p/46090354",
+      "summary": "正文从 Brouwer 不动点定理和零点稳定性出发，沿代数拓扑相关背景证明区域不变定理。"
+    },
+    {
+      "title": "Hopf纤维化简述",
+      "url": "https://zhuanlan.zhihu.com/p/49203161",
+      "summary": "正文以 S3 到 S2 的 Hopf 纤维化为主线，讨论球面、纤维丛和同伦性质这一代数拓扑主题。"
+    },
+    {
+      "title": "毛球定理简述及证明",
+      "url": "https://zhuanlan.zhihu.com/p/49491334",
+      "summary": "正文围绕球面上连续非零切向量场不存在的代数拓扑定理展开证明与应用。"
+    },
+    {
+      "title": "拓扑量子场论公理体系的介绍",
+      "url": "https://zhuanlan.zhihu.com/p/50157762",
+      "summary": "正文联系 Morse 理论、Floer 同调、同调与上同调模等概念，讨论用场论方法构造拓扑不变量。"
+    },
+    {
+      "title": "Morse理论",
+      "url": "https://zhuanlan.zhihu.com/p/57502165",
+      "summary": "正文系统介绍CW复形、胞腔黏着、Morse不等式及其同调依据，属于代数拓扑的展开。"
+    },
+    {
+      "title": "纤维丛(1)",
+      "url": "https://zhuanlan.zhihu.com/p/57954768",
+      "summary": "正文利用同伦群正合列和分类空间对主丛作同伦分类，并给出万有丛的分类定理。"
+    },
+    {
+      "title": "在无穷远处平坦的辛流形",
+      "url": "https://zhuanlan.zhihu.com/p/60623051",
+      "summary": "正文以同调群、基本群、相交数和 h 配边等拓扑工具研究辛流形的拓扑限制。"
+    },
+    {
+      "title": "【指点江山】2019丘赛几何&拓扑团体试题部分解答",
+      "url": "https://zhuanlan.zhihu.com/p/63167302",
+      "summary": "正文用上同调、Poincaré 对偶、Lefschetz 不动点公式和纤维丛长正合列计算拓扑不变量。"
+    },
+    {
+      "title": "非正曲率流形的Gromov模",
+      "url": "https://zhuanlan.zhihu.com/p/63682670",
+      "summary": "正文用实系数同调类、基本类、cycle 的下确界和有界上同调研究 Gromov 模，属于代数拓扑。"
+    },
+    {
+      "title": "Notes on 2d topological gravity (Dijkgraaf-Witten)",
+      "url": "https://zhuanlan.zhihu.com/p/74092220",
+      "summary": "正文使用模空间、复线丛、第一陈类和上同调类积分定义关联函数，核心方法属于代数拓扑。"
+    },
+    {
+      "title": "[转载]现代数学 | 清华学霸带你理清现代数学脉络",
+      "url": "https://zhuanlan.zhihu.com/p/79523248",
+      "summary": "正文以基本群和拓扑不变量说明如何用群论、正合列等代数工具研究连续变形。"
+    },
+    {
+      "title": "代拓中的示性类",
+      "url": "https://zhuanlan.zhihu.com/p/107047988",
+      "summary": "正文以主丛、分类空间和上同调系统讲解示性类，核心属于代数拓扑。"
+    },
+    {
+      "title": "繁星客栈拾遗（十五年前的数学和八卦帖）",
+      "url": "https://zhuanlan.zhihu.com/p/107392381",
+      "summary": "正文解释 Morse 理论、Floer 同调、Atiyah-Floer 猜想以及 Casson 不变量与链复形的联系。"
+    },
+    {
+      "title": "非厄米系统的一些拓扑性质",
+      "url": "https://zhuanlan.zhihu.com/p/108505672",
+      "summary": "正文构造非 Bloch 缠绕数并据此讨论拓扑相变与体边对应，属于代数拓扑中的不变量思想。"
+    },
+    {
+      "title": "Chern-Simons, WZW 模型 和 Jones 多项式 (2)",
+      "url": "https://zhuanlan.zhihu.com/p/118438333",
+      "summary": "文章用平坦 KZ 联络的 holonomy 构造辫群的线性表示，并据此得到扭结不变量。"
+    },
+    {
+      "title": "Smith 标准型与同调群的一般计算",
+      "url": "https://zhuanlan.zhihu.com/p/136244778",
+      "summary": "正文以球面和轮胎面的单纯形剖分计算各阶同调群，展示代数拓扑中的曲面区分方法。"
+    },
+    {
+      "title": "单纯同调群",
+      "url": "https://zhuanlan.zhihu.com/p/137677583",
+      "summary": "正文从单纯复形、链群和边缘算子出发定义单纯同调群，并说明其拓扑不变性及计算示例。"
+    },
+    {
+      "title": "代数拓扑笔记(1) —— 胞腔复形",
+      "url": "https://zhuanlan.zhihu.com/p/138181088",
+      "summary": "正文系统定义胞腔复形与骨架，并用基本群、同调群和欧拉示性数说明其代数拓扑用途。"
+    },
+    {
+      "title": "最优控制、次黎曼几何与 Floer 同调",
+      "url": "https://zhuanlan.zhihu.com/p/141844086",
+      "summary": "正文利用道路空间、相对同调和极限构造讨论 Floer 型同调及 Morse 不等式。"
+    },
+    {
+      "title": "卷绕数和高斯-博内定理",
+      "url": "https://zhuanlan.zhihu.com/p/148342710",
+      "summary": "正文把欧拉示性数与亏格、曲面拓扑联系起来，并用其解释高斯-博内公式的拓扑不变量。"
+    },
+    {
+      "title": "闭曲面的分类及曲面的三角剖分",
+      "url": "https://zhuanlan.zhihu.com/p/147532659",
+      "summary": "正文通过复形单形数与欧拉示性数讨论曲面三角剖分，并计算常见闭曲面的拓扑不变量。"
+    },
+    {
+      "title": "基本群的定义及性质",
+      "url": "https://zhuanlan.zhihu.com/p/154313613",
+      "summary": "正文系统定义基本群、连续映射诱导的同态及其同伦不变性，属于代数拓扑的核心内容。"
+    },
+    {
+      "title": "(CW复形)胞腔复形",
+      "url": "https://zhuanlan.zhihu.com/p/156161408",
+      "summary": "正文系统讲解 CW 复形的胞腔黏着结构、骨架、子复形与具体例子，属于代数拓扑。"
+    },
+    {
+      "title": "经济均衡的微分方法",
+      "url": "https://zhuanlan.zhihu.com/p/159120731",
+      "summary": "正文利用同调论给出的欧拉示性数，并通过 Poincare-Hopf 定理推导经济均衡个数。"
+    },
+    {
+      "title": "7 拓扑量子场论 7.1 解读Atiyah公理",
+      "url": "https://zhuanlan.zhihu.com/p/161387163",
+      "summary": "正文通过流形、边界、配边和粘合构造拓扑不变量，属于代数拓扑式的不变量框架。"
+    },
+    {
+      "title": "二个段子",
+      "url": "https://zhuanlan.zhihu.com/p/162743165",
+      "summary": "正文通过球面和环面的基本群计算说明闭路按同伦分类，具体展开了代数拓扑中的拓扑不变量。"
+    },
+    {
+      "title": "终篇：变分法中的代数拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/163200117",
+      "summary": "正文把水平集拓扑结构的变化转化为临界同调群，并使用切除与相对同调论证临界点存在。"
+    },
+    {
+      "title": "经典拓扑激发——场论",
+      "url": "https://zhuanlan.zhihu.com/p/165589478",
+      "summary": "正文具体使用基本群、同伦群等代数拓扑不变量研究拓扑空间分类。"
+    },
+    {
+      "title": "微分拓扑（一）",
+      "url": "https://zhuanlan.zhihu.com/p/83480241",
+      "summary": "正文通过同调群、Betti 数、Euler 示性数和 Lefschetz 数研究流形的代数拓扑性质。"
+    },
+    {
+      "title": "Quillen的伟大工作:复配边与形式群",
+      "url": "https://zhuanlan.zhihu.com/p/180553431",
+      "summary": "正文围绕复配边谱、复定向上同调、谱序列和 Quillen 定理系统介绍代数拓扑中的计算与对应关系。"
+    },
+    {
+      "title": "场论里的拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/185078928",
+      "summary": "正文构造基本群与高阶同伦群，用它们区分圆盘、圆周和环面并研究拓扑守恒量。"
+    },
+    {
+      "title": "Algebraic Topology I: 对教材跟概念的一些论述",
+      "url": "https://zhuanlan.zhihu.com/p/260821664",
+      "summary": "正文解释代数拓扑以函子连接拓扑空间和代数结构，并比较同调、同伦及空间分类的教材叙述。"
+    },
+    {
+      "title": "Homological Algebra and Commutative Algebra",
+      "url": "https://zhuanlan.zhihu.com/p/268175784",
+      "summary": "正文比较单纯、奇异和胞腔同调，并说明同调公理、Mayer-Vietoris 序列及系数同调。"
+    },
+    {
+      "title": "分析和代数学原理(20)：Poincaré对偶",
+      "url": "https://zhuanlan.zhihu.com/p/270772261",
+      "summary": "正文构造 de Rham 链复形和上同调，并证明 Mayer-Vietoris 长正合列。"
+    },
+    {
+      "title": "胞腔同调(Cellular Homology)的一些笔记",
+      "url": "https://zhuanlan.zhihu.com/p/295424416",
+      "summary": "正文从 CW 复形构造胞腔链复形和边界算子，并用它计算曲面与复投影空间的同调群。"
+    },
+    {
+      "title": "超对称世界里的小猪会梦见Morse理论吗？",
+      "url": "https://zhuanlan.zhihu.com/p/343088848",
+      "summary": "正文把超荷识别为外微分，将 Q 上同调对应 de Rham 上同调，并由此得到 Betti 数与 Euler 示性数。"
+    },
+    {
+      "title": "拉格朗日相交Floer理论, I",
+      "url": "https://zhuanlan.zhihu.com/p/343282399",
+      "summary": "正文以 Morse 同调和奇异上同调构造流形的代数拓扑不变量。"
+    },
+    {
+      "title": "陈省身高徒在美去世，师徒联手创立美国国家数学科学研究所，是他大范围“统一”数学和理论物理",
+      "url": "https://zhuanlan.zhihu.com/p/350616260",
+      "summary": "正文介绍阿蒂亚-辛格指数定理，说明解析指数与拓扑指数相等以及拓扑和分析的交叉。"
+    },
+    {
+      "title": "Gauss-Bonnet 定理",
+      "url": "https://zhuanlan.zhihu.com/p/363694199",
+      "summary": "正文使用球面的同调群、上同调群、映射度和 Poincare-Hopf 指标展开代数拓扑论证。"
+    },
+    {
+      "title": "法语数学文献阅读速成",
+      "url": "https://zhuanlan.zhihu.com/p/363901859",
+      "summary": "正文翻译并讲解流形的同调关系、连接阶数和 Betti 数，并以球面与环面说明计数。"
+    },
+    {
+      "title": "Etale Theory I: Etale Cohomology An Introduction",
+      "url": "https://zhuanlan.zhihu.com/p/364923718",
+      "summary": "正文比较 etale 与经典拓扑的上同调，并讨论 etale 上同调、Galois 上同调及基本群相关的同调信息。"
+    },
+    {
+      "title": "最难理解的世界数学难题——霍奇猜想，拓扑学上空的一朵乌云",
+      "url": "https://zhuanlan.zhihu.com/p/371834249",
+      "summary": "正文用同调群、上同调群和霍奇分解说明子簇的类为何落在霍奇类中，属于代数拓扑内容。"
+    },
+    {
+      "title": "从Atiyah-Singer指标定理到Clifford代数",
+      "url": "https://zhuanlan.zhihu.com/p/375469673",
+      "summary": "正文用 de Rham 上同调、调和形式、Betti 数和 Todd 类说明解析指标与拓扑指标。"
+    },
+    {
+      "title": "Non-abelian Cohomology I: Torsors",
+      "url": "https://zhuanlan.zhihu.com/p/386412772",
+      "summary": "正文从奇异同调、上同调、万有系数定理和分类空间展开非交换上同调的一阶理论。"
+    },
+    {
+      "title": "拓扑学(3)",
+      "url": "https://zhuanlan.zhihu.com/p/391068265",
+      "summary": "正文以同伦、道路类和基本群为入口介绍代数拓扑，并计算圆周与球面的基本群。"
+    },
+    {
+      "title": "拓扑学(4)",
+      "url": "https://zhuanlan.zhihu.com/p/394087016",
+      "summary": "正文证明同伦等价诱导基本群同构，并用形变收缩核计算平环、挖去直线的空间等基本群，属于代数拓扑。"
+    },
+    {
+      "title": "柯尔莫戈洛夫（Kolmogorov）工作成就列表",
+      "url": "https://zhuanlan.zhihu.com/p/419637919",
+      "summary": "正文在数学成就综述中具体指出柯尔莫戈洛夫引入上同调、杯积和上同调环，对应代数拓扑分支。"
+    },
+    {
+      "title": "场论家用代数（第六话）：李群、李代数、格点、表示与第一同伦群",
+      "url": "https://zhuanlan.zhihu.com/p/422003721",
+      "summary": "正文用 cocharacter 格点与 coroot 格点的商刻画基本群，并以代数拓扑结构连结李群。"
+    },
+    {
+      "title": "场论家用代数（第八话）：群论、非局域算符跟 θ 项有什么关系？",
+      "url": "https://zhuanlan.zhihu.com/p/443874179",
+      "summary": "正文取商得到基本群，并以同伦类、示性类和指标定理分类规范场论的算符。"
+    },
+    {
+      "title": "拓扑学解密大法，(看了也不一定能学会？| 正经玩",
+      "url": "https://zhuanlan.zhihu.com/p/446967230",
+      "summary": "正文具体定义三维闭合曲线的绕数，并说明它是拓扑不变量及顺逆时针圈数的代数和，属于代数拓扑的核心对象。"
+    },
+    {
+      "title": "瞎写一点代数拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/442976804",
+      "summary": "正文以同伦群和上同调群为主线讲解代数拓扑的不变量和计算。"
+    },
+    {
+      "title": "“XJTU数学僧刷书参考”计划草稿——拓扑学·代数拓扑",
+      "url": "https://zhuanlan.zhihu.com/p/464774118",
+      "summary": "正文系统介绍代数拓扑讲义中的基本群、奇异同调、胞腔同调、上同调及几何应用。"
+    },
+    {
+      "title": "🐟的数学笔记：de Rham 上同调",
+      "url": "https://zhuanlan.zhihu.com/p/499745122",
+      "summary": "正文定义闭形式、恰当形式及 de Rham 上同调群，并联系同调群与 Stokes 定理。"
+    },
+    {
+      "title": "代数赢学2 (Algebraic Winnology II)",
+      "url": "https://zhuanlan.zhihu.com/p/506723218",
+      "summary": "正文以拓扑空间的开覆盖构造上链复形、边缘同态和正向极限，形式化讲解层系数同调这一代数拓扑构造。"
+    },
+    {
+      "title": "变分法综述",
+      "url": "https://zhuanlan.zhihu.com/p/370557604",
+      "summary": "正文以水平集的同调群、长正合序列、切除定理和拓扑度探测临界点，属于代数拓扑方法。"
+    },
+    {
+      "title": "解析几何初步：导论",
+      "url": "https://zhuanlan.zhihu.com/p/518774618",
+      "summary": "正文使用 de Rham 上同调、奇异上同调、Betti 上同调和层上同调讨论复流形的拓扑不变量。"
+    },
+    {
+      "title": "Weil猜想(0)：方程的解和有限域上的Riemann猜想",
+      "url": "https://zhuanlan.zhihu.com/p/532320893",
+      "summary": "正文用 Betti 数、Lefschetz 不动点定理、Poincaré 对偶和平展上同调解释 Weil 猜想的证明框架。"
+    },
+    {
+      "title": "基本群的计算：实战篇",
+      "url": "https://zhuanlan.zhihu.com/p/514042805",
+      "summary": "正文通过覆叠空间、积空间、Seifert-van Kampen定理和自由群计算多类拓扑空间的基本群。"
+    },
+    {
+      "title": "定向角度看同调群（一）",
+      "url": "https://zhuanlan.zhihu.com/p/546132781",
+      "summary": "正文定义链群和边缘算子，以闭链群模恰当链群构造同调群，并计算环面与球面的同调群。"
+    },
+    {
+      "title": "分析学家用武器库",
+      "url": "https://zhuanlan.zhihu.com/p/522352953",
+      "summary": "正文附录定义奇异链群、边界算子、同调群和上同调群，并给出正合序列与切除定理。"
+    },
+    {
+      "title": "拓扑学基础与Gauss-Bonnet定理最速传说",
+      "url": "https://zhuanlan.zhihu.com/p/551634049",
+      "summary": "正文讲解链群、同调群和 Euler-Poincare 示性数，属于代数拓扑的不变量方法。"
+    },
+    {
+      "title": "有限域上代数簇的Riemann猜想：Deligne的证明",
+      "url": "https://zhuanlan.zhihu.com/p/555728644",
+      "summary": "正文用Frobenius不动点、Lefschetz迹公式和ℓ-进上同调把有理点计数转化为代数拓扑问题。"
+    },
+    {
+      "title": "阻碍理论与示性类",
+      "url": "https://zhuanlan.zhihu.com/p/560872792",
+      "summary": "正文用上同调阻碍类解释整体截面、欧拉类和 Stiefel-Whitney 类的构造，属于代数拓扑。"
+    },
+    {
+      "title": "算术拓扑的初步理论",
+      "url": "https://zhuanlan.zhihu.com/p/563347112",
+      "summary": "正文具体讨论平展上同调、基本群、映射锥、Lefschetz上同调及其长正合列，属于代数拓扑方法。"
+    },
+    {
+      "title": "同调",
+      "url": "https://zhuanlan.zhihu.com/p/569823213",
+      "summary": "正文系统构造同调类、链复形、边界算子及同调群，并进一步解释对偶上同调和 Poincaré 对偶。"
+    },
+    {
+      "title": "用同调证明化学的不饱和度公式",
+      "url": "https://zhuanlan.zhihu.com/p/571116125",
+      "summary": "正文定义无向图的链复形、边界映射和同调群，并解释H0与H1的几何含义。"
+    },
+    {
+      "title": "你可能永远无法想象，一个三维数学问题远比其他任意维问题复杂",
+      "url": "https://zhuanlan.zhihu.com/p/577305233",
+      "summary": "正文用欧拉示性数、色数和可定向性等拓扑不变量讨论闭曲面分类，属于代数拓扑。"
+    },
+    {
+      "title": "计算共形几何-微分几何",
+      "url": "https://zhuanlan.zhihu.com/p/582999071",
+      "summary": "正文用高斯-博内定理和离散版本说明曲率积分与曲面拓扑不变量之间的联系。"
+    },
+    {
+      "title": "Michael Atiyah：二十世纪的数学发展回顾",
+      "url": "https://zhuanlan.zhihu.com/p/585865078",
+      "summary": "正文把同调群描述为从拓扑空间提取洞与可加线性不变量的代数拓扑工具。"
+    },
+    {
+      "title": "什么是指标定理",
+      "url": "https://zhuanlan.zhihu.com/p/590047367",
+      "summary": "正文以 Atiyah-Singer 指标定理为中心，联系算子解析指标、Euler 示性数与流形拓扑不变量。"
+    },
+    {
+      "title": "几何、拓扑、分析综合第三篇——同调论",
+      "url": "https://zhuanlan.zhihu.com/p/599147967",
+      "summary": "正文系统介绍代数拓扑中的同调思想，从七桥问题、Euler 数和 Betti 数推进到同调群与上同调。"
+    },
+    {
+      "title": "拓扑示性类——陈类（预备知识1）",
+      "url": "https://zhuanlan.zhihu.com/p/596626447",
+      "summary": "正文系统介绍欧拉类、Thom 同构以及复射影空间上同调环，为陈类理论建立代数拓扑基础。"
+    },
+    {
+      "title": "计算共形几何",
+      "url": "https://zhuanlan.zhihu.com/p/592437872",
+      "summary": "正文系统介绍代数拓扑把拓扑问题转化为基本群和同调群等代数结构，并讨论其算法应用。"
+    },
+    {
+      "title": "代数拓扑：同调（一）",
+      "url": "https://zhuanlan.zhihu.com/p/614393640",
+      "summary": "正文系统引入链、边界同态、单纯同调和奇异同调，核心是代数拓扑中的同调群。"
+    },
+    {
+      "title": "陈类(Chern class)简介",
+      "url": "https://zhuanlan.zhihu.com/p/620837984",
+      "summary": "正文系统讲解复矢量丛陈类作为上同调示性类的公理、自然性、可加性及其分类作用。"
+    },
+    {
+      "title": "从伽罗瓦理论到代数基本群——谈谈伽罗瓦范畴",
+      "url": "https://zhuanlan.zhihu.com/p/650751371",
+      "summary": "正文以基本群、覆叠空间和fundamental group定理作为Galois范畴的核心拓扑模型。"
+    },
+    {
+      "title": "深入浅出的《拓扑学和张量分析》期末考试再也不用愁！",
+      "url": "https://zhuanlan.zhihu.com/p/651490954",
+      "summary": "正文系统介绍闭形式、恰当形式、德拉姆上同调和庞加莱引理，属于代数拓扑。"
+    },
+    {
+      "title": "给宝宝看的《基础拓扑学讲义》（尤承业）笔记与思考",
+      "url": "https://zhuanlan.zhihu.com/p/645110618",
+      "summary": "正文展开基本群、诱导同态、Van-Kampen 定理及单纯同调群。"
+    },
+    {
+      "title": "拓扑凝聚态Chapter2.贝里相位(Berry Phase), 陈数(Chern Number)",
+      "url": "https://zhuanlan.zhihu.com/p/654304837",
+      "summary": "正文从离散 Berry 流定义陈数，说明其整数性和绝热变化下的拓扑不变性。"
+    },
+    {
+      "title": "【Proof-Trivial】从三角形到流形 —— 陈省身",
+      "url": "https://zhuanlan.zhihu.com/p/667277846",
+      "summary": "正文系统讨论链、边缘、贝蒂数、同调与德勒姆上同调，说明这些工具用于研究流形的整体拓扑不变量。"
+    },
+    {
+      "title": "【Proof-Trivial】数学史大纲 —— 丘成桐",
+      "url": "https://zhuanlan.zhihu.com/p/667472774",
+      "summary": "正文概述代数拓扑学的奠基过程，并列举同调、上同调、同伦群和庞加莱对偶等核心工具。"
+    },
+    {
+      "title": "布劳威尔和他的不动点定理",
+      "url": "https://zhuanlan.zhihu.com/p/670752246",
+      "summary": "正文利用基本群、诱导同态和收缩映射完成不动点定理的代数拓扑证明。"
+    },
+    {
+      "title": "n-范畴与上同调",
+      "url": "https://zhuanlan.zhihu.com/p/673725307",
+      "summary": "正文讨论同伦 n-类型、基本群胚、Postnikov 塔及空间与群胚的同伦等价。"
+    },
+    {
+      "title": "球中之球：穿越多维度的探索之旅",
+      "url": "https://zhuanlan.zhihu.com/p/675938015",
+      "summary": "正文讨论球面间映射的同伦群、Freudenthal 稳定化及稳定同伦群的猜想研究。"
+    },
+    {
+      "title": "顺滑地进入拓扑物理-同调代数篇 (Ep.1)",
+      "url": "https://zhuanlan.zhihu.com/p/683291688",
+      "summary": "正文用欧拉特征、单纯复形和链复形说明如何把拓扑空间转化为可计算的代数结构。"
+    },
+    {
+      "title": "有限元分析为什么需要代数拓扑？",
+      "url": "https://zhuanlan.zhihu.com/p/683009268",
+      "summary": "正文用 de Rham 上同调、复形和泡复形说明代数拓扑如何指导三维 Stokes 有限元构造。"
+    },
+    {
+      "title": "6大数学分支，织就一张纠缠的思想网，成为人类最强大的创造",
+      "url": "https://zhuanlan.zhihu.com/p/683784425",
+      "summary": "正文说明代数拓扑通过给拓扑形状附加群来把拓扑性质转化为代数性质。"
+    },
+    {
+      "title": "微分几何在工业软件中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/686045801",
+      "summary": "正文使用纤维丛示性类、de Rham 上同调和 Hodge 分解构造全局标架场。"
+    },
+    {
+      "title": "从微积分到上同调（1）：引入",
+      "url": "https://zhuanlan.zhihu.com/p/685282573",
+      "summary": "正文用无旋与有势的差异定义一阶上同调群，并以闭曲线探测开集孔洞。"
+    },
+    {
+      "title": "Arnold猜想，Morse同调与Floer同调介绍",
+      "url": "https://zhuanlan.zhihu.com/p/695740656",
+      "summary": "正文构造 Morse 同调并说明其同构于流形的奇异同调，进而搭建 Arnold 猜想的证明框架。"
+    },
+    {
+      "title": "数学界常见名词介绍（只介绍纯数学）",
+      "url": "https://zhuanlan.zhihu.com/p/826323323",
+      "summary": "正文介绍代数拓扑由同调论和同伦论构成，并说明其现代研究重心和发展脉络。"
+    },
+    {
+      "title": "同调代数杂烩",
+      "url": "https://zhuanlan.zhihu.com/p/12371654454",
+      "summary": "文中以链复形、边界映射和同调群说明空间拓扑不变量的代数计算。"
+    },
+    {
+      "title": "一些拓扑小题(持续更新中)",
+      "url": "https://zhuanlan.zhihu.com/p/19198396929",
+      "summary": "正文用弱同伦等价、同调群和上同调环计算拓扑不变量，并借助 Steenrod 平方区分空间，属于代数拓扑。"
+    },
+    {
+      "title": "跟平展爆了: 最神人的S^1同伦群算法",
+      "url": "https://zhuanlan.zhihu.com/p/20497594639",
+      "summary": "正文用上同调、切除序列、Poincare 对偶和 Brown 表示计算空间同调群，属于代数拓扑。"
+    },
+    {
+      "title": "双环面的万有覆叠",
+      "url": "https://zhuanlan.zhihu.com/p/28472196597",
+      "summary": "正文通过覆叠空间、基本群生成元及其关系研究双环面，属于代数拓扑中的覆叠空间与基本群内容。"
+    },
+    {
+      "title": "几何：曲率与流形性质的关联，与拓扑、分析的交叉",
+      "url": "https://zhuanlan.zhihu.com/p/27671093467",
+      "summary": "正文以基本群和有限展示群说明高维流形的拓扑不可判定性，连接了拓扑与代数拓扑。"
+    },
+    {
+      "title": "群上同调和对称性保护拓扑序(SPT)",
+      "url": "https://zhuanlan.zhihu.com/p/28226675035",
+      "summary": "正文具体定义二阶与三阶群上同调、上闭链和上边缘，并用分类空间说明其代数拓扑含义。"
+    },
+    {
+      "title": "代数拓扑碎碎念（一）：从映射度说起",
+      "url": "https://zhuanlan.zhihu.com/p/1902309432039290485",
+      "summary": "正文以球面同调群诱导同态定义映射度，并系统讨论局部映射度、同调长正合列与定向定理。"
+    },
+    {
+      "title": "物理学中的高阶几何（三）——高阶几何量子化与 H 假设",
+      "url": "https://zhuanlan.zhihu.com/p/1932057139670671779",
+      "summary": "正文用谱、球面与映射的同伦类定义广义上同调，并把球面谱给出的上同伦用于电荷量子化。"
+    },
+    {
+      "title": "Notes on Quantum Field Theory",
+      "url": "https://zhuanlan.zhihu.com/p/1936806852265513688",
+      "summary": "正文定义微分形式构成的链复形、de Rham 上同调与紧支集上同调，并用 Cartan 公式证明 Poincaré 引理。"
+    },
+    {
+      "title": "莫比乌斯带可以有多粗？",
+      "url": "https://zhuanlan.zhihu.com/p/1952511246264927869",
+      "summary": "正文以 Borsuk-Ulam 连续奇映射零点定理证明莫比乌斯纸带必然存在 T 形图案。"
+    },
+    {
+      "title": "非平衡稳态系统有效力的分解本质上是Hodge 分解",
+      "url": "https://zhuanlan.zhihu.com/p/1978438021671035746",
+      "summary": "正文用第一上同调群刻画拓扑环流是否可能存在，并解释高阶调和部分与基本闭环的联系。"
+    },
+    {
+      "title": "你也能发明谱序列(全文译注)",
+      "url": "https://zhuanlan.zhihu.com/p/1982416169773335219",
+      "summary": "正文把抽象单纯复形及其单纯同调作为应用对象，通过谱序列计算并比较子复形同调。"
+    },
+    {
+      "title": "几何群论与低维拓扑：Profinite Rigidity(投射有限刚性）",
+      "url": "https://zhuanlan.zhihu.com/p/1992001129765172500",
+      "summary": "正文以基本群、有限商群、一维同调和三维流形群为工具讨论几何群论与低维拓扑。"
+    },
+    {
+      "title": "E.Witten的业绩II 深谷贤治",
+      "url": "https://zhuanlan.zhihu.com/p/2009321982374745022",
+      "summary": "正文说明 Morse 理论可用临界点研究流形同调，并进一步推导 Morse 不等式和上同调计算，属于代数拓扑内容。"
+    },
+    {
+      "title": "在你看不见的角落，数学家们正在努力驯服126维的“怪兽”？",
+      "url": "https://zhuanlan.zhihu.com/p/2025531068988564367",
+      "summary": "正文以稳定同伦群、高阶实 K 理论和不变量为关键工具，说明 Kervaire 不变量问题的解决过程。"
+    }
+  ]
+}

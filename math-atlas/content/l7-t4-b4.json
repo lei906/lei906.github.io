@@ -1,0 +1,951 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l7-t4-b4",
+  "sources": [
+    {
+      "title": "做代数方向研究生的底线要求有哪些？",
+      "url": "https://www.zhihu.com/answer/33261081",
+      "summary": "正文直接讨论环论与表示论的预备知识。"
+    },
+    {
+      "title": "表示论都在做什么？几何表示论是什么？",
+      "url": "https://www.zhihu.com/answer/39453997",
+      "summary": "正文系统介绍群、李代数和结合代数的表示，以及几何表示论的研究方式。"
+    },
+    {
+      "title": "可约群表示是什么？",
+      "url": "https://www.zhihu.com/answer/42650190",
+      "summary": "正文以矩阵表示定义群表示。"
+    },
+    {
+      "title": "拓扑绝缘体的 Z_2 拓扑不变量有什么意义？",
+      "url": "https://www.zhihu.com/answer/75653121",
+      "summary": "正文从 Clifford 代数不可约表示及其扩充解释拓扑分类。"
+    },
+    {
+      "title": "李群的伴随表示如何理解？",
+      "url": "https://www.zhihu.com/answer/82662725",
+      "summary": "正文从李群到李代数上的线性变换定义伴随表示。"
+    },
+    {
+      "title": "球谐函数是什么？",
+      "url": "https://www.zhihu.com/answer/85545939",
+      "summary": "正文把球谐函数解释为 SO(3) 不可约表示的基。"
+    },
+    {
+      "title": "粒子的自旋数是怎么得出来的，为什么有些是1/2，有些是1，2？可以用对称性求出来吗？",
+      "url": "https://www.zhihu.com/answer/92187439",
+      "summary": "正文具体用成对的半整数标记群表示，并由此区分不同表示类型。"
+    },
+    {
+      "title": "Clifford 代数是什么, 它和 Dirac 算子有什么关系?",
+      "url": "https://www.zhihu.com/answer/96172330",
+      "summary": "正文区分可由 SO(n) 提升的表示与 Clifford 代数给出的 Spinor 表示。"
+    },
+    {
+      "title": "迹的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/118753126",
+      "summary": "正文说明群表示中的迹、特征标与不动点数量之间的联系。"
+    },
+    {
+      "title": "为什么费马大定理在数学史上的地位如此重要？",
+      "url": "https://www.zhihu.com/answer/121854051",
+      "summary": "正文反复用群同态、特征标与矩阵迹表述伽罗瓦表示。"
+    },
+    {
+      "title": "怎样定义一种运算来构造一个qq 群？",
+      "url": "https://www.zhihu.com/answer/123479480",
+      "summary": "正文说明拟量子群的表示是其在向量空间上的作用。"
+    },
+    {
+      "title": "各类科研领域中哪些公式，原理或定律的推出，用到了有趣的思维方式？",
+      "url": "https://www.zhihu.com/answer/123648201",
+      "summary": "正文解释Kazhdan-Lusztig猜想在有限维李代数表示范畴中计算重数的问题。"
+    },
+    {
+      "title": "动力系统和数论之间有什么超常的关系？",
+      "url": "https://www.zhihu.com/answer/175818881",
+      "summary": "正文陈述Margulis表示超刚性定理并说明其如何导出算术性结果。"
+    },
+    {
+      "title": "你所在数学领域的 big picture 是什么？",
+      "url": "https://www.zhihu.com/answer/190247077",
+      "summary": "正文说明模张量范畴如何从量子群、VOA 等代数结构的表示构造。"
+    },
+    {
+      "title": "如何通俗地解释欧拉角？之后为何要引入四元数？",
+      "url": "https://www.zhihu.com/answer/236636664",
+      "summary": "正文从投影表示提升到Spin群的普通表示。"
+    },
+    {
+      "title": "螺旋轴和滑移面是如何保护晶体里 Dirac 点的产生的？",
+      "url": "https://www.zhihu.com/answer/238613168",
+      "summary": "正文推导非共形空间群诱导的点群射影表示。"
+    },
+    {
+      "title": "迹的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/258637739",
+      "summary": "正文用表示论中的对偶表示与张量积解释矩阵迹。"
+    },
+    {
+      "title": "我们为什么要研究群表示？",
+      "url": "https://www.zhihu.com/answer/306923917",
+      "summary": "正文系统解释线性表示、拓扑群表示及范畴上的群作用。"
+    },
+    {
+      "title": "我们为什么要研究群表示？",
+      "url": "https://www.zhihu.com/answer/306957397",
+      "summary": "正文从重建观点系统说明如何由全部线性表示恢复群。"
+    },
+    {
+      "title": "Representation Theory(表示论)与Algebraic Geometry(代数几何)在(理论，但不仅限理论)物理上有什么联合应用?",
+      "url": "https://www.zhihu.com/answer/329213093",
+      "summary": "正文具体讨论超共形理论中的表示论结构。"
+    },
+    {
+      "title": "现代代数学都在做些什么？有哪些主要的研究方向？",
+      "url": "https://www.zhihu.com/answer/332180411",
+      "summary": "正文把表示论列为现代代数学的主要研究方向。"
+    },
+    {
+      "title": "数学中的“怪兽群”是什么概念？",
+      "url": "https://www.zhihu.com/answer/358979421",
+      "summary": "正文解释魔群的线性表示及不可约表示维数。"
+    },
+    {
+      "title": "如何自学同调代数？",
+      "url": "https://www.zhihu.com/answer/408607048",
+      "summary": "正文以箭图表示等材料说明表示论入口。"
+    },
+    {
+      "title": "结合代数表示论重要吗？与其他数学或者物理分支有何联系？",
+      "url": "https://www.zhihu.com/answer/439367184",
+      "summary": "正文把拉格朗日子流形分类转化为结合代数有限维不可约表示分类。"
+    },
+    {
+      "title": "数学中有哪些表面没有关系但是内在有深刻联系的问题？",
+      "url": "https://www.zhihu.com/answer/485527425",
+      "summary": "正文讲解自守表示与数论对象之间的对应。"
+    },
+    {
+      "title": "数学中有哪些表面没有关系但是内在有深刻联系的问题？",
+      "url": "https://www.zhihu.com/answer/503973729",
+      "summary": "具体讨论模形式对应自守表示及其局部分量、Hecke 作用与 tempered 性。"
+    },
+    {
+      "title": "有点基础的本科生应该如何理解现代代数？",
+      "url": "https://www.zhihu.com/answer/512710419",
+      "summary": "正文从群作用、诱导表示到量子力学中的 SO(3)、SU(2) 解释表示论。"
+    },
+    {
+      "title": "有哪些神奇的数学巧合？",
+      "url": "https://www.zhihu.com/answer/528341490",
+      "summary": "用魔群最小忠实表示的维数与模函数系数间的对应解释 moonshine。"
+    },
+    {
+      "title": "抽象代数、交换代数、同调代数、群表示论、李代数、代数拓扑的学习顺序应该是怎样的？",
+      "url": "https://www.zhihu.com/answer/531884350",
+      "summary": "正文比较群代数模与群到范畴的函子两种表示论视角。"
+    },
+    {
+      "title": "群论在数学分析中的应用？",
+      "url": "https://www.zhihu.com/answer/533095544",
+      "summary": "正文定义矩阵系数时实质使用并说明有限维群表示。"
+    },
+    {
+      "title": "搞理论物理的人数学要学到什么程度？",
+      "url": "https://www.zhihu.com/answer/571032869",
+      "summary": "正文把表示论列为理论物理所需工具。"
+    },
+    {
+      "title": "群论在数学分析中的应用？",
+      "url": "https://www.zhihu.com/answer/571960670",
+      "summary": "正文介绍群表示与 Peter-Weyl 分解。"
+    },
+    {
+      "title": "无穷维（李）代数的表示有哪些经典的理论和文献？",
+      "url": "https://www.zhihu.com/answer/589598149",
+      "summary": "正文系统梳理无限维李代数表示理论。"
+    },
+    {
+      "title": "模形式如何入门？",
+      "url": "https://www.zhihu.com/answer/618233013",
+      "summary": "正文讨论自守表示方向的学习材料。"
+    },
+    {
+      "title": "什么是 Simpson correspondence？我们为什么还要研究 p-adic 版本的？",
+      "url": "https://www.zhihu.com/answer/718933797",
+      "summary": "核心内容是基本群表示与Higgs丛的对应。"
+    },
+    {
+      "title": "顶点算子代数在做什么？",
+      "url": "https://www.zhihu.com/answer/770136923",
+      "summary": "围绕不可约表示及其重数说明研究问题。"
+    },
+    {
+      "title": "维尔斯如何证明费马大定理？",
+      "url": "https://www.zhihu.com/answer/882372835",
+      "summary": "讨论椭圆曲线等分点产生的模表示。"
+    },
+    {
+      "title": "精通线性代数是种怎样的体验？怎样才能称得上精通线性代数？",
+      "url": "https://www.zhihu.com/answer/1076319255",
+      "summary": "正文实质讨论一般线性群表示的分解与表示论问题。"
+    },
+    {
+      "title": "朗兰兹纲领对现代数学有何影响？",
+      "url": "https://www.zhihu.com/answer/1257624872",
+      "summary": "正文把朗兰兹纲领的一侧解释为表示论与调和分析对象。"
+    },
+    {
+      "title": "表示论都在做什么？几何表示论是什么？",
+      "url": "https://www.zhihu.com/answer/1542060824",
+      "summary": "正文直接讨论表示论，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "哪些数学书让你相见恨晚？",
+      "url": "https://www.zhihu.com/answer/1575963011",
+      "summary": "正文详细讨论几何表示论教材及其核心表示论主题。"
+    },
+    {
+      "title": "代数表示论方向前景如何，坚持该方向是否正确？",
+      "url": "https://www.zhihu.com/answer/1608386408",
+      "summary": "正文直接讨论或应用该叶节点主题（表示论）。"
+    },
+    {
+      "title": "（动力系统 + 拓扑学 + 抽象代数）和（泛函分析 + 实变函数 + 复分析和解析几何）有哪些联系？",
+      "url": "https://www.zhihu.com/answer/1687152836",
+      "summary": "正文提到表示论可用于 C* 代数研究。"
+    },
+    {
+      "title": "如何（通过实例）理解李群上的积分？",
+      "url": "https://www.zhihu.com/answer/1705368106",
+      "summary": "正文用不可约表示的特征标正交性建立李群积分公式。"
+    },
+    {
+      "title": "如何学习高等代数？高等代数注重定理证明吗？学习数分需要会各种证明，高代也这样吗？高代注重计算吗？",
+      "url": "https://www.zhihu.com/answer/1805883039",
+      "summary": "正文明确解释表示论所研究的同时对角化和公共不变子空间问题。"
+    },
+    {
+      "title": "有什么比较好的专门讲伽罗瓦表示的入门教材推荐？",
+      "url": "https://www.zhihu.com/answer/1897892128",
+      "summary": "正文说明伽罗瓦表示学习需要有限群表示论和模论基础。"
+    },
+    {
+      "title": "Clifford 代数是什么, 它和 Dirac 算子有什么关系?",
+      "url": "https://www.zhihu.com/answer/1899376043",
+      "summary": "正文讨论旋量群、李代数与克利福德代数的表示关系。"
+    },
+    {
+      "title": "数论中的 Tate thesis 大致的作用是什么？",
+      "url": "https://www.zhihu.com/answer/1963657862",
+      "summary": "正文把表示论方法用于类域论和 Langlands 纲领。"
+    },
+    {
+      "title": "Dynkin diagram会在数学的哪些问题中出现，出现的原因是什么？",
+      "url": "https://www.zhihu.com/answer/1987009598",
+      "summary": "正文列举Dynkin图在表示论、箭图和根系分类中的出现。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2080397128",
+      "summary": "正文解释群等抽象对象的矩阵表示和忠实表示。"
+    },
+    {
+      "title": "表示论和微分几何有什么关联？",
+      "url": "https://www.zhihu.com/answer/2097790370",
+      "summary": "正文说明李群的无穷维酉表示如何导出动力系统混合性。"
+    },
+    {
+      "title": "表示论和微分几何有什么关联？",
+      "url": "https://www.zhihu.com/answer/2101748790",
+      "summary": "正文以对称空间和Selberg迹公式说明表示论与微分几何的联系。"
+    },
+    {
+      "title": "如何评价四川大学数学学院付昌建老师?",
+      "url": "https://www.zhihu.com/answer/2156916360",
+      "summary": "正文介绍付昌建在代数表示论领域的研究。"
+    },
+    {
+      "title": "2021 年震撼到你的十大科学科技新闻是什么？",
+      "url": "https://www.zhihu.com/answer/2252904008",
+      "summary": "正文把 AI 辅助成果放入表示论和高维对称性的语境中。"
+    },
+    {
+      "title": "如何看待法国著名数学家、2002 年菲尔兹奖得主 Laurent Lafforgue 宣布加入华为？",
+      "url": "https://www.zhihu.com/answer/2260496594",
+      "summary": "正文把群表示论列为朗兰兹纲领统一的分支之一。"
+    },
+    {
+      "title": "你所读的（基础）数学方向，有哪些不错的讲义/Notes/Polycopiés/Skript？",
+      "url": "https://www.zhihu.com/answer/2282381652",
+      "summary": "正文反复以代数群的表示范畴作为 Langlands 对应的一侧。"
+    },
+    {
+      "title": "如何评价Deligne？",
+      "url": "https://www.zhihu.com/answer/2315418202",
+      "summary": "正文明确讨论 Deligne 成果对表示论方向的影响。"
+    },
+    {
+      "title": "如何评价 2022 年沃尔夫数学奖得主乔治·卢斯蒂格（George Lusztig）的数学贡献？",
+      "url": "https://www.zhihu.com/answer/2341057206",
+      "summary": "正文介绍 Lusztig 在有限李型群表示论中的核心贡献。"
+    },
+    {
+      "title": "如何评价 2022 年沃尔夫数学奖得主乔治·卢斯蒂格（George Lusztig）的数学贡献？",
+      "url": "https://www.zhihu.com/answer/2348105930",
+      "summary": "正文系统解释 Lusztig 在表示论中的贡献。"
+    },
+    {
+      "title": "表示论都在做什么？几何表示论是什么？",
+      "url": "https://www.zhihu.com/answer/2365818346",
+      "summary": "正文直接概括表示论的目标，并以物体识别中的变换集合引入群表示。"
+    },
+    {
+      "title": "作为数学PhD，你本科时额外学了哪些数学内容？",
+      "url": "https://www.zhihu.com/answer/2429217133",
+      "summary": "正文具体说明群表示论讨论班及所用教材。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2447759464",
+      "summary": "正文用一维表示解释阿贝尔群缺少随机性，并讨论不可约表示维数。"
+    },
+    {
+      "title": "群表示理论为什么主要研究特征标（矩阵的迹）而不是其他的一些不变量？",
+      "url": "https://www.zhihu.com/answer/2455249696",
+      "summary": "正文直接解释群表示论以分类表示为任务。"
+    },
+    {
+      "title": "非凸优化（Non-convex optimization）领域有什么起到基石作用，极其重要的论文呢？",
+      "url": "https://www.zhihu.com/answer/2478799298",
+      "summary": "正文明确将优化问题置于群表示与表示论语境中。"
+    },
+    {
+      "title": "固体物理中的倒格子有什么用？",
+      "url": "https://www.zhihu.com/answer/2619208059",
+      "summary": "通过平移群的幺正不可约表示和 Pontryagin 对偶分类 Bloch 波函数。"
+    },
+    {
+      "title": "以后想走基础数学表示论方向，有什么推荐的书籍吗？",
+      "url": "https://www.zhihu.com/answer/2623313407",
+      "summary": "解释表示论如何用矩阵和分析工具具体化抽象代数结构。"
+    },
+    {
+      "title": "以后想走基础数学表示论方向，有什么推荐的书籍吗？",
+      "url": "https://www.zhihu.com/answer/2625483066",
+      "summary": "按李型群、局部域、自守表示和李群表示给出表示论学习路线。"
+    },
+    {
+      "title": "能带如何与不可以约表示联系在一起？",
+      "url": "https://www.zhihu.com/answer/2647375714",
+      "summary": "用不可约表示解释能级简并与能带的对称性分类。"
+    },
+    {
+      "title": "分析学方向如何深入学习后续课程？",
+      "url": "https://www.zhihu.com/answer/2677548122",
+      "summary": "正文多处讨论抽象分析、算子代数及调和分析同表示论的交叉，并将表示论视为深入学习的重要方向。"
+    },
+    {
+      "title": "怀尔斯证明费马大定理的论文主要突破了当时的哪些技术难点？",
+      "url": "https://www.zhihu.com/answer/2699213054",
+      "summary": "正文利用椭圆曲线的 Tate 模构造 Galois 表示，并以模性提升讨论表示与模形式的关系。"
+    },
+    {
+      "title": "如何评价华中科技大学数学中心郇真的文章被顶刊 Acta Mathematica 接收？",
+      "url": "https://www.zhihu.com/answer/2710712248",
+      "summary": "说明论文研究李 2 群的 2-表示及 2-向量丛模型。"
+    },
+    {
+      "title": "群和群表示在概率统计中有什么应用？",
+      "url": "https://www.zhihu.com/answer/2792878243",
+      "summary": "正文指出 Schur 多项式是对称群不可约特征，并用它连接表示论、代数组合与可积概率。"
+    },
+    {
+      "title": "既然有“群作用”，那有没有“环作用”、“域作用”？",
+      "url": "https://www.zhihu.com/answer/2896364741",
+      "summary": "正文指出模、作用和表示在相应语境下表达同一种结构，并具体解释群表示是群代数作用在向量空间上。"
+    },
+    {
+      "title": "数学系的学生能硬核到什么程度？",
+      "url": "https://www.zhihu.com/answer/2905594619",
+      "summary": "正文给出群矩阵表示的映射定义，并用群同态说明如何以矩阵描述群元素之间的关系。"
+    },
+    {
+      "title": "球谐函数是什么？",
+      "url": "https://www.zhihu.com/answer/2931277533",
+      "summary": "正文用最高权理论分解 SO(3) 的表示空间，并系统构造球谐函数的一组完备基。"
+    },
+    {
+      "title": "有没有“代数组合”这样的分支？如果有，主要是研究什么？",
+      "url": "https://www.zhihu.com/answer/2931339552",
+      "summary": "正文说明 Schur 多项式可视为 GL(n,C) 不可约表示的 character，并以半标准杨表展开其组合计算。"
+    },
+    {
+      "title": "二十世纪到现在，数学有什么重要的成果？谁给科普一下?",
+      "url": "https://www.zhihu.com/answer/2981286833",
+      "summary": "正文说明群表示论如何把群运算对应到矩阵乘法，并进一步讨论无限维表示及非交换调和分析的发展。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/3002050067",
+      "summary": "正文概述通过几何对象的同调群构造代数作用，从而得到不可约表示，并联系表示论中的 Fock space。"
+    },
+    {
+      "title": "如何评价Dummit的《抽象代数》?",
+      "url": "https://www.zhihu.com/answer/3053769224",
+      "summary": "正文说明 Wedderburn 定理作为半单代数等价条件如何分类有限群的复表示，属于表示论内容。"
+    },
+    {
+      "title": "为什么说“旋量是矢量的平方根”？",
+      "url": "https://www.zhihu.com/answer/3101029714",
+      "summary": "正文把矢量和旋量分别定义为 SO(n) 的矢量表示与 Spin(n) 的旋量表示，并讨论二者变换关系。"
+    },
+    {
+      "title": "辫群是什么？",
+      "url": "https://www.zhihu.com/answer/3228002665",
+      "summary": "正文说明辫子群通过 Artin 表示作用在自由群上，并指出该表示是忠实的。"
+    },
+    {
+      "title": "如何上手 Lurie 的 SAG（Spectral Algebraic Geometry）？",
+      "url": "https://www.zhihu.com/answer/3241760637",
+      "summary": "正文具体说明导出叠、形变理论、形式模问题和 Tannaka 对偶在表示论及几何朗兰兹中的应用。"
+    },
+    {
+      "title": "能通俗地介绍下Kazhdan-Lusztig理论吗？",
+      "url": "https://www.zhihu.com/answer/3307481116",
+      "summary": "正文系统介绍 Kazhdan-Lusztig 猜想如何用 Hecke 代数和 canonical basis 计算无穷维表示的特征。"
+    },
+    {
+      "title": "抽象代数的发展历史是怎样的？",
+      "url": "https://www.zhihu.com/answer/3394618192",
+      "summary": "正文解释表示论以具体空间上的作用刻画抽象代数结构，并以群的同态、置换表示和环上的模具体说明这一思想。"
+    },
+    {
+      "title": "Clifford 代数是什么, 它和 Dirac 算子有什么关系?",
+      "url": "https://www.zhihu.com/answer/3424221986",
+      "summary": "正文定义Spin表示和旋量，讨论不可约复表示以及Spin(3)、Spin(4)的具体表示。"
+    },
+    {
+      "title": "为什么韩国看起来好卷，却少有著名科学家？",
+      "url": "https://www.zhihu.com/answer/3461544481",
+      "summary": "正文解释水晶基把复杂表示结构化为图，并说明其在组合表示论及数学物理、数论中的应用，实质介绍了表示论。"
+    },
+    {
+      "title": "如何评价2024阿里巴巴数学竞赛预选赛试题?",
+      "url": "https://www.zhihu.com/answer/3466474557",
+      "summary": "正文把具体计算转化为 sl2 的齐次多项式表示，并用标准 H 的特征值解释题设参数。"
+    },
+    {
+      "title": "有没有“问题导向的同调代数”式的学习资料？",
+      "url": "https://www.zhihu.com/answer/3485948302",
+      "summary": "正文以有限维箭图代数的 Ext 为例，并概述 Auslander-Reiten 理论等表示论内容。"
+    },
+    {
+      "title": "知乎上为什么有这么多学特殊函数论的大佬？",
+      "url": "https://www.zhihu.com/answer/3530469868",
+      "summary": "正文以无限维 Hilbert 空间中的矩阵作用具体给出 Heisenberg 代数表示，并进一步用特殊函数构造群表示。"
+    },
+    {
+      "title": "如何评价 2024 年阿里全球数学竞赛决赛试题？难度怎么样？",
+      "url": "https://www.zhihu.com/answer/3539140392",
+      "summary": "正文围绕群模、直和分解及其唯一提升展开表示论问题，并用平凡作用情形检查结论。"
+    },
+    {
+      "title": "如何评价 2024 年阿里全球数学竞赛决赛试题？难度怎么样？",
+      "url": "https://www.zhihu.com/answer/3539371096",
+      "summary": "正文具体讨论模表示及其直和分解在有限提升中的保持与提升问题。"
+    },
+    {
+      "title": "日本数学水平怎么样？",
+      "url": "https://www.zhihu.com/answer/3575298957",
+      "summary": "正文解释水晶基如何以图和向量空间表示复杂结构，并联系组合表示论与表示论猜想。"
+    },
+    {
+      "title": "什么是「Nonabelian Hodge theory」?",
+      "url": "https://www.zhihu.com/answer/47204403805",
+      "summary": "正文将平坦联络的 holonomy 化为基本群的酉表示，并讨论表示簇、特征簇和不可约表示。"
+    },
+    {
+      "title": "为什么傅里叶级数要用三角函数族来定义？",
+      "url": "https://www.zhihu.com/answer/69427325725",
+      "summary": "正文以 Peter-Weyl 定理、不可约酉表示和矩阵系数系统说明傅里叶展开的表示论来源。"
+    },
+    {
+      "title": "数学中有哪些表面没有关系但是内在有深刻联系的问题？",
+      "url": "https://www.zhihu.com/answer/75742755445",
+      "summary": "正文定义李代数表示并说明如何用表示及不变内积生成纽结不变量，实质展开表示论。"
+    },
+    {
+      "title": "Hurwitz定理怎样证明？",
+      "url": "https://www.zhihu.com/answer/87653921776",
+      "summary": "正文具体分析有限群 G 的不可约复线性表示个数与维数，并由此推出 n 的整除条件。"
+    },
+    {
+      "title": "目前有哪些解释复杂系统“涌现性”的理论？",
+      "url": "https://www.zhihu.com/answer/88766425594",
+      "summary": "正文以 Quiver 表示、矩阵态射和内射解消具体讨论线性系统的表示论。"
+    },
+    {
+      "title": "如何直观地理解群论？",
+      "url": "https://www.zhihu.com/answer/130442397667",
+      "summary": "正文进一步解释有限群如何用矩阵表示，并讨论不可约表示及其直和分解。"
+    },
+    {
+      "title": "朗兰兹纲领对现代数学有何影响？",
+      "url": "https://www.zhihu.com/answer/1890914422777702115",
+      "summary": "正文解释自守尖点表示、伽罗瓦群的有限维表示以及 Hecke 代数表示之间的对应。"
+    },
+    {
+      "title": "2025 年阿贝尔奖授予日本数学家柏原正树，他对数学领域有哪些贡献，其研究都有哪些应用？",
+      "url": "https://www.zhihu.com/answer/1892657339556943257",
+      "summary": "正文解释表示论以向量空间上的线性变换研究代数结构，并介绍晶体基与卡日丹-卢斯蒂格猜想等工作。"
+    },
+    {
+      "title": "如何评价Weil的数学工作以及具有他风格的代数几何？",
+      "url": "https://www.zhihu.com/answer/1899263557658453585",
+      "summary": "正文介绍 metaplectic 群、韦伊表示、Siegel 公式及典型群上的局部—整体结果，属于表示论主题。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/1901415703317295884",
+      "summary": "正文构造模形式附带的二维 Galois 表示，并详细讨论其在 p 处的分歧与温顺分歧条件。"
+    },
+    {
+      "title": "特征簇(character variety)为什么重要？",
+      "url": "https://www.zhihu.com/answer/1916442663818879034",
+      "summary": "正文研究基本群表示的等价类及其模空间，并说明 character variety 汇集互不等价的基本群表示。"
+    },
+    {
+      "title": "Representation Theory(表示论)与Algebraic Geometry(代数几何)在(理论，但不仅限理论)物理上有什么联合应用?",
+      "url": "https://www.zhihu.com/answer/1916647314275148744",
+      "summary": "正文从 Dyson 常数项恒等式进入 Macdonald 猜想，并系统介绍其在表示论中的根、基本次数和 q,t 推广。"
+    },
+    {
+      "title": "Jordan标准形的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1922271423528932190",
+      "summary": "正文明确把 Jordan 标准形问题表述为有限维非半单表示的分类，并讨论不可约与不可分解表示。"
+    },
+    {
+      "title": "为什么二次互反律很重要？三次四次互反律，各种互反律的意义是什么？",
+      "url": "https://www.zhihu.com/answer/1927679613745731513",
+      "summary": "正文用伽罗瓦群的矩阵表示与共轭类的迹，说明表示论如何连接群结构和算术指纹。"
+    },
+    {
+      "title": "交换律、结合律、分配律的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1930038450851153049",
+      "summary": "正文解释群表示论把抽象群元素转化为线性矩阵，并提到不可约表示揭示对称性。"
+    },
+    {
+      "title": "物理系的数学课与数学系的数学课有多少区别？",
+      "url": "https://www.zhihu.com/answer/1931295573564175995",
+      "summary": "正文具体列举群表示在哈密顿对称性、能带简并和 SU(2) 自旋等问题中的表示论应用。"
+    },
+    {
+      "title": "如何在流形上面做傅里叶分析？",
+      "url": "https://www.zhihu.com/answer/1934981747839312507",
+      "summary": "正文用 Peter-Weyl 定理说明不可约酉表示的矩阵系数构成平方可积函数空间的正交基。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/1945580801283593475",
+      "summary": "正文围绕 l-adic Galois 表示、模形式与特征形式展开，具体介绍表示论在数论中的应用。"
+    },
+    {
+      "title": "数学中有哪些有趣的构造性证明？",
+      "url": "https://www.zhihu.com/answer/1956642549780419769",
+      "summary": "正文用不可约表示刻画群的性质，并以魔群不可约表示的维度和魔群月光说明表示论作用。"
+    },
+    {
+      "title": "为什么日本已经三十多年没有菲尔兹奖且没有热门候选而中国却是大热门？",
+      "url": "https://www.zhihu.com/answer/1961860746876004289",
+      "summary": "正文说明量子群表示在 q 趋于 0 时的组合编码，并介绍水晶基、水晶图及全局基理论，属于表示论。"
+    },
+    {
+      "title": "素数分布欧拉用一维去思考，黎曼用二维去思考，有没有数学家在三维，甚至更高维度去思考素数分布的规律？",
+      "url": "https://www.zhihu.com/answer/1967587213496817583",
+      "summary": "正文用对称群、表示论和高维对称空间上的振动说明算术对象的对应结构。"
+    },
+    {
+      "title": "球谐函数是什么？",
+      "url": "https://www.zhihu.com/answer/1979930066906539831",
+      "summary": "正文用 SO(3) 表示、sl(2,C) 的最高权分类和 Schur 引理系统解释表示论方法。"
+    },
+    {
+      "title": "球谐函数是什么？",
+      "url": "https://www.zhihu.com/answer/1980807561004483720",
+      "summary": "正文用群的酉表示、K-不变向量和不可约表示解释球函数的统一表示论框架。"
+    },
+    {
+      "title": "2025年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/1984130953640187149",
+      "summary": "正文展开有限李型群与局部约化群表示的直和分解、抛物诱导和融合映射。"
+    },
+    {
+      "title": "世界上大约有多少人可以完全看懂并理解怀尔斯对于费马大定理的证明？",
+      "url": "https://www.zhihu.com/answer/1998742025940518042",
+      "summary": "正文研究 Galois 群到二阶一般线性群的不可约表示，并讨论其形变空间。"
+    },
+    {
+      "title": "农历马年到了，有哪些和「马」有关的数学问题？",
+      "url": "https://www.zhihu.com/answer/2009778890948747361",
+      "summary": "正文把 j-不变量及 K3 椭圆亏格的系数与魔群、马蒂厄群的不可约表示联系起来。"
+    },
+    {
+      "title": "为什么现在数学系普遍不学椭圆函数、超几何函数等特殊函数？",
+      "url": "https://www.zhihu.com/answer/2030918774531024818",
+      "summary": "正文具体解释表示论以群在线性空间上的作用研究群结构。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2037187460006940866",
+      "summary": "正文以 SU3 群表示分类强子并说明标准模型是规范群的表示理论，展开了表示论的关键思想。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/2051930604892066841",
+      "summary": "正文把物理中的系数序列解释成马蒂厄群不可约表示的维数，涉及表示论。"
+    },
+    {
+      "title": "由对称性到角动量（一）",
+      "url": "https://zhuanlan.zhihu.com/p/21108784",
+      "summary": "正文使用 Casimir 算符和升降算符推导 SU(2) 的不可约表示、谱与表示维数。"
+    },
+    {
+      "title": "专栏简介与群表示论",
+      "url": "https://zhuanlan.zhihu.com/p/22970906",
+      "summary": "正文系统讲解群表示与群作用的等价性、不可约表示、特征标、张量积和诱导表示。"
+    },
+    {
+      "title": "线性代数在数学领域中的一些微小应用例子",
+      "url": "https://zhuanlan.zhihu.com/p/24095655",
+      "summary": "正文把群表示论解释为从抽象群到可逆线性变换的同态，并举例说明其应用。"
+    },
+    {
+      "title": "迹公式 Trace Formula (1)",
+      "url": "https://zhuanlan.zhihu.com/p/24164311",
+      "summary": "正文从群的不可约表示分解讲到 Arthur-Selberg 迹公式的几何面、谱面及特征标积分。"
+    },
+    {
+      "title": "我喜欢的一些简洁明快的证明",
+      "url": "https://zhuanlan.zhihu.com/p/24546623",
+      "summary": "正文用不可约表示的特征标与代数整数证明表示维数整除群阶。"
+    },
+    {
+      "title": "迹公式 Trace Formula (2)",
+      "url": "https://zhuanlan.zhihu.com/p/24700620",
+      "summary": "正文把迹公式谱面按尖点、连续和剩余表示分解，并据此处理 Hecke 特征值。"
+    },
+    {
+      "title": "关于笔记/文章/博客的一些收集",
+      "url": "https://zhuanlan.zhihu.com/p/27022655",
+      "summary": "正文用不可约复特征标和 Schur 引理推导有限群元素是否为换位子的判据。"
+    },
+    {
+      "title": "关于有限群/紧李群表示的一些笔记",
+      "url": "https://zhuanlan.zhihu.com/p/27041214",
+      "summary": "正文系统讲解有限群不可约表示的特征标表、正交关系、诱导表示和置换表示。"
+    },
+    {
+      "title": "5-6月学习小结",
+      "url": "https://zhuanlan.zhihu.com/p/27450247",
+      "summary": "正文具体构造 Heisenberg 群表示、Weil 表示和既约对偶对，并陈述局部 theta 对应及其应用。"
+    },
+    {
+      "title": "李群李代数及其表示：总集篇",
+      "url": "https://zhuanlan.zhihu.com/p/32991992",
+      "summary": "正文系统讨论半单李代数的表示、最高权、Verma 模和紧李群表示。"
+    },
+    {
+      "title": "从张量到球谐函数的Maxwell-Sylvester表示法",
+      "url": "https://zhuanlan.zhihu.com/p/35102154",
+      "summary": "正文从 SO(3) 的调和多项式空间与张量积出发，系统构造不可约表示并讨论其约化。"
+    },
+    {
+      "title": "椭圆曲线，模形式，模曲线，表示论，求和公式 (1)",
+      "url": "https://zhuanlan.zhihu.com/p/35100918",
+      "summary": "正文用Galois表示与自守表示概括椭圆曲线和模形式之间的表示论对应。"
+    },
+    {
+      "title": "旋量与洛伦兹变换",
+      "url": "https://zhuanlan.zhihu.com/p/36482403",
+      "summary": "正文围绕洛伦兹群的不可约表示、旋量表示及张量积分解展开。"
+    },
+    {
+      "title": "数论（8）——类域论",
+      "url": "https://zhuanlan.zhihu.com/p/41728490",
+      "summary": "正文定义 n 维 Galois 表示，并用表示的特征多项式构造 Artin L 函数。"
+    },
+    {
+      "title": "MP64：经典规范场(1)：纤维丛",
+      "url": "https://zhuanlan.zhihu.com/p/46502211",
+      "summary": "正文定义群在向量空间上的线性表示，并用表示构造 G-丛及规范群作用。"
+    },
+    {
+      "title": "球谐光照与PRT学习笔记（四）：球谐函数的性质与球谐旋转",
+      "url": "https://zhuanlan.zhihu.com/p/50699527",
+      "summary": "正文以旋转群的不可约表示和 Wigner 矩阵说明球谐子空间的表示论结构。"
+    },
+    {
+      "title": "群表示的一个应用——Burnside定理",
+      "url": "https://zhuanlan.zhihu.com/p/56602292",
+      "summary": "正文以不可约复表示、特征标、特征标正交关系和群代数元素为核心完成 Burnside 定理的证明。"
+    },
+    {
+      "title": "关于构造k.p模型有效哈密顿量的一点入门基础",
+      "url": "https://zhuanlan.zhihu.com/p/61383396",
+      "summary": "正文把 Γ 点三重简并 Bloch 波函数作为 O_h 的不可约表示基，并用直积分解与选择定则消去矩阵元。"
+    },
+    {
+      "title": "群论在机器学习中的应用(I)：G-共变神经网络",
+      "url": "https://zhuanlan.zhihu.com/p/89849709",
+      "summary": "正文展开群表示的约化、不可约表示、同构与 Schur 引理，属于表示论的完整讨论。"
+    },
+    {
+      "title": "洛伦兹群的旋量表示",
+      "url": "https://zhuanlan.zhihu.com/p/89876878",
+      "summary": "正文系统构造 Weyl、矢量及 Dirac 等洛伦兹群表示，核心属于表示论。"
+    },
+    {
+      "title": "高中生也看得懂(并不)的群表示论（1）",
+      "url": "https://zhuanlan.zhihu.com/p/97477760",
+      "summary": "正文系统介绍群表示、子表示、不可约表示、直和分解及Maschke定理。"
+    },
+    {
+      "title": "超对称场论中的特殊函数 (第5话上)：胖次分解、特征标与SCFT",
+      "url": "https://zhuanlan.zhihu.com/p/103249044",
+      "summary": "正文展开不可约表示的特征标、正交关系和完备性，并用表示论基底求解场论。"
+    },
+    {
+      "title": "为什么狄拉克方程中的矩阵是四维的？",
+      "url": "https://zhuanlan.zhihu.com/p/103613226",
+      "summary": "正文用有限群的不可约表示维数和特征标平方和确定表示维数，从而证明 Gamma 矩阵只能取四维表示。"
+    },
+    {
+      "title": "Chern-Simons, WZW 模型 和 Jones 多项式 (2)",
+      "url": "https://zhuanlan.zhihu.com/p/118438333",
+      "summary": "文章展开仿射李代数的可积最高权表示、张量积融合维度和 conformal block 的表示结构。"
+    },
+    {
+      "title": "Monstrous Moonshine",
+      "url": "https://zhuanlan.zhihu.com/p/143083992",
+      "summary": "正文把怪兽群既约表示维度的生成函数与模形式 J 的傅里叶系数对应，具体讨论无限维分次表示。"
+    },
+    {
+      "title": "从被忽视到大放异彩，这个理论经历了什么？！！",
+      "url": "https://zhuanlan.zhihu.com/p/150835148",
+      "summary": "正文定义给每个群元素分配相容矩阵的表示，并说明特征标表，故对应表示论。"
+    },
+    {
+      "title": "典型单纯李代数的表示",
+      "url": "https://zhuanlan.zhihu.com/p/183154789",
+      "summary": "正文以张量表示、张量杨表和权图系统构造 SU、SO、USp 各典型李代数的不可约表示。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / 群表示理论",
+      "url": "https://zhuanlan.zhihu.com/p/314567658",
+      "summary": "正文系统讲解群表示、不可约表示、Schur 引理与表示分解。"
+    },
+    {
+      "title": "抽象代数教学体系的探索 I",
+      "url": "https://zhuanlan.zhihu.com/p/338294403",
+      "summary": "正文介绍把抽象群作用到线性空间上、实现为矩阵群并表示理论的核心思路。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / 群表示论下的正交性与完备性",
+      "url": "https://zhuanlan.zhihu.com/p/337650698",
+      "summary": "正文证明不可约表示矩阵元的正交性与完备性，并据此刻画群表示空间。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / SU(2) 与 SO(3) 的梦幻联动",
+      "url": "https://zhuanlan.zhihu.com/p/341625428",
+      "summary": "正文定义SU(2)群元在三维实向量空间上诱导的线性变换D(U)，并证明其构成同态，属于群表示。"
+    },
+    {
+      "title": "场论家用几何与代数（第二话）：李代数与理想",
+      "url": "https://zhuanlan.zhihu.com/p/344908879",
+      "summary": "正文定义保李括号的李代数线性表示，并解释伴随表示及其与理想和不可约性的联系。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / SU(2) 的全体不可约表示与李群上的积分",
+      "url": "https://zhuanlan.zhihu.com/p/342592239",
+      "summary": "正文构造SU(2)的复线性表示，并证明其全体不可约表示的正交归一性与完备性。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / 李群对应的李代数与可爱又迷人的伴随表示",
+      "url": "https://zhuanlan.zhihu.com/p/348680652",
+      "summary": "正文系统讲解李群和李代数的表示、伴随作用与伴随表示，并给出 SU(2) 的具体表示。"
+    },
+    {
+      "title": "什么是几何量子化？",
+      "url": "https://zhuanlan.zhihu.com/p/362774447",
+      "summary": "正文用自旋-j表示、全纯线丛截面和Borel-Weil-Bott定理讨论半单李群的表示构造。"
+    },
+    {
+      "title": "简单情况下的Siegel-Weil公式",
+      "url": "https://zhuanlan.zhihu.com/p/362772812",
+      "summary": "正文以Weil表示、oscillator表示、dual pair和theta lift组织Siegel-Weil公式的证明。"
+    },
+    {
+      "title": "Humphreys:Intro. to Lie Alg.s&Rep. th.使用攻略",
+      "url": "https://zhuanlan.zhihu.com/p/367827883",
+      "summary": "正文概述半单李代数的权、不可约表示分类、Freudenthal重数公式和Weyl特征公式。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / 浅谈洛伦兹群 (Lorentz group) 与洛伦兹代数",
+      "url": "https://zhuanlan.zhihu.com/p/370828021",
+      "summary": "正文利用复化和直和分解讨论洛伦兹代数的表示，核心涉及表示论。"
+    },
+    {
+      "title": "Serre：Finite Groups: An Introduction使用攻略",
+      "url": "https://zhuanlan.zhihu.com/p/375273535",
+      "summary": "正文概述有限群表示、特征标、群代数以及 Frobenius-Schur 定理等表示论内容。"
+    },
+    {
+      "title": "群论 (Group Theory) 终极速成 / マボロシの旋量空间与哈人的 Clifford 代数",
+      "url": "https://zhuanlan.zhihu.com/p/373020066",
+      "summary": "正文定义线性表示，并讨论 SU(2)、SO(3)、Clifford 代数与旋量表示的关系。"
+    },
+    {
+      "title": "从Atiyah-Singer指标定理到Clifford代数",
+      "url": "https://zhuanlan.zhihu.com/p/375469673",
+      "summary": "正文按 Poincare 群不可约表示的自旋类型说明标量、旋量和矢量粒子的分类。"
+    },
+    {
+      "title": "AKLT 态 及 AKLT 模型 简介",
+      "url": "https://zhuanlan.zhihu.com/p/396746729",
+      "summary": "正文反复使用 SU(2) 的不可约表示张量分解、Clebsch-Gordan 变换和自旋表示解释 AKLT 态。"
+    },
+    {
+      "title": "狄拉克伽马矩阵 (Dirac gamma matrices)",
+      "url": "https://zhuanlan.zhihu.com/p/399908095",
+      "summary": "正文讨论Cl(1,3)的16维表示空间、旋量表示以及Weyl、Dirac和Majorana等价表示。"
+    },
+    {
+      "title": "场论家用代数（第六话）：李群、李代数、格点、表示与第一同伦群",
+      "url": "https://zhuanlan.zhihu.com/p/422003721",
+      "summary": "正文围绕有限维不可约表示、最高权及其与李群表示的关系展开表示论讨论。"
+    },
+    {
+      "title": "Nature最新封面：两大数学难题被AI突破！DeepMind YYDS",
+      "url": "https://zhuanlan.zhihu.com/p/440373532",
+      "summary": "正文说明表示论中的不可约表示、KL 多项式及组合不变性猜想，并讨论 AI 发现的结构关系。"
+    },
+    {
+      "title": "月光下的数学——魔群月光猜想",
+      "url": "https://zhuanlan.zhihu.com/p/492286303",
+      "summary": "正文以魔群的不可约线性表示及魔群模解释其与j不变量的联系。"
+    },
+    {
+      "title": "洛伦兹群的矢量表示，生成元及李代数",
+      "url": "https://zhuanlan.zhihu.com/p/519398968",
+      "summary": "正文把群元对应为矩阵，系统构造洛伦兹群的生成元和矢量表示，并推导生成元的矩阵表达式。"
+    },
+    {
+      "title": "Clifford 代数与正交群",
+      "url": "https://zhuanlan.zhihu.com/p/522923856",
+      "summary": "正文通过 Clifford 代数及其群作用于向量空间，构造正交群和洛伦兹群对应的表示。"
+    },
+    {
+      "title": "暴算洛伦兹群",
+      "url": "https://zhuanlan.zhihu.com/p/548699798",
+      "summary": "正文用矢量和旋量表示、张量积及左右手外尔旋量解释洛伦兹群表示的结构。"
+    },
+    {
+      "title": "Lie群和Lie代数  Ⅰ",
+      "url": "https://zhuanlan.zhihu.com/p/590419258",
+      "summary": "正文定义李群的线性表示和李代数的表示，并说明其保持原运算结构。"
+    },
+    {
+      "title": "张量算符、Wigner-Eckart定理及量子算符投影定理",
+      "url": "https://zhuanlan.zhihu.com/p/594118050",
+      "summary": "正文用转动下的 D 矩阵、不可约张量算符和 Clebsch-Gordan 系数展开角动量表示理论。"
+    },
+    {
+      "title": "共形场论杂记：紧致化标量，Z2-orbifold",
+      "url": "https://zhuanlan.zhihu.com/p/600264927",
+      "summary": "正文从顶点算符的 u(1) 模式代数出发构造表示、最高权态和 Verma 模。"
+    },
+    {
+      "title": "关于二面体群",
+      "url": "https://zhuanlan.zhihu.com/p/640881932",
+      "summary": "正文构造二面体群的全部不可约复表示并计算特征标，还讨论实表示与有理表示。"
+    },
+    {
+      "title": "顺滑地进入群论 (Ep.2) ——U(1), SO(2), SO(3), SU(2)",
+      "url": "https://zhuanlan.zhihu.com/p/641253805",
+      "summary": "正文用矩阵表示旋转群并构造 SU(2) 对 SO(3) 的二重覆盖，讨论群与其表示之间的关系。"
+    },
+    {
+      "title": "丘赛代数方向个人赛群论部分选做",
+      "url": "https://zhuanlan.zhihu.com/p/653252677",
+      "summary": "正文定义置换表示并由此说明凯莱定理，是表示论中群作用于集合的基本构造。"
+    },
+    {
+      "title": "Langlands Program：代数数论，代数几何，群表示论的大统一",
+      "url": "https://zhuanlan.zhihu.com/p/674911228",
+      "summary": "正文介绍有限群与无穷拓扑群的 Galois 表示、不可约表示及表示论在互反律中的作用。"
+    },
+    {
+      "title": "Peter Scholze的数学之路",
+      "url": "https://zhuanlan.zhihu.com/p/678098398",
+      "summary": "正文描述通过群作用空间及上同调联系两类群的表示理论。"
+    },
+    {
+      "title": "同调代数杂烩",
+      "url": "https://zhuanlan.zhihu.com/p/12371654454",
+      "summary": "文中讨论群代数、半单性和不可约表示，并说明如何用 Artin-Wedderburn 定理研究群表示。"
+    },
+    {
+      "title": "私房笔记 | 藏在正三角形里的群与群表示（Prelude）",
+      "url": "https://zhuanlan.zhihu.com/p/19638958891",
+      "summary": "正文定义可约与不可约表示，列出 D3 的不可约表示并讨论特征标正交定理。"
+    },
+    {
+      "title": "2025「数学界诺奖」阿贝尔奖公布！78岁日本数学巨匠重塑对称理论摘桂冠",
+      "url": "https://zhuanlan.zhihu.com/p/1888550760217821617",
+      "summary": "正文解释表示论如何描述群对空间的作用，并进一步介绍晶体基和量子群框架。"
+    },
+    {
+      "title": "21世纪最伟大的数学成果，几何朗兰兹猜想证明，建造了一个新世界",
+      "url": "https://zhuanlan.zhihu.com/p/1892992399829079380",
+      "summary": "正文把几何朗兰兹的标签解释为基本群的表示，并以表示与 eigensheaf 的配对说明核心构造。"
+    },
+    {
+      "title": "【从零开始的群世界生活】群表示论",
+      "url": "https://zhuanlan.zhihu.com/p/1897658906228003368",
+      "summary": "正文系统讲解线性表示、不可约表示、特征标、Schur 引理和特征标正交性。"
+    },
+    {
+      "title": "James Arthur：迹公式极简简史",
+      "url": "https://zhuanlan.zhihu.com/p/1978776508899283826",
+      "summary": "正文通过群作用在希尔伯特空间上的不可约分解定义自守表示，并把表示谱与 Hecke 算子联系起来。"
+    },
+    {
+      "title": "有了四元数，再也不怕 SO(3) 和 SU(2)",
+      "url": "https://zhuanlan.zhihu.com/p/1985023719861662449",
+      "summary": "正文明确把 su(2) 上的伴随作用称为 SU(2) 的伴随表示，并用其联系三维旋转。"
+    },
+    {
+      "title": "表示论的考古学",
+      "url": "https://zhuanlan.zhihu.com/p/1999132281340716942",
+      "summary": "文章以群矩阵和群行列式为线索，讲解不可约表示、特征标及其与群代数分解的关系。"
+    },
+    {
+      "title": "法式大题赏析: Gromov多项式增长定理",
+      "url": "https://zhuanlan.zhihu.com/p/1989126528571840081",
+      "summary": "正文把群作用到 Lipschitz 调和函数空间，并分析其线性表示、商表示和像群。"
+    },
+    {
+      "title": "几何量子化Geometric Quantization",
+      "url": "https://zhuanlan.zhihu.com/p/2049242852186756553",
+      "summary": "正文以不可约表示、极化截面和 Schur 引理说明量子化中的表示论构造。"
+    },
+    {
+      "title": "就做个正反粒子变换害搁那取特定表示呢? 你很野蛮知道吗? 在旋量大街, 别让我看到 C^T = C^†, 看到你 Weyl 表示必须给你拽掉, 必须撤你稿!",
+      "url": "https://zhuanlan.zhihu.com/p/2049455800079356223",
+      "summary": "正文借助 Clifford 代数的不可约表示、表示等价和 Schur 引理重述旋量理论。"
+    }
+  ]
+}

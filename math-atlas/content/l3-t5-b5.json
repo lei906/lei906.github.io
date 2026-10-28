@@ -1,0 +1,5271 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t5-b5",
+  "sources": [
+    {
+      "title": "为什么如果二元连续函数在有界闭区域内部 只有唯一一个极值点 且这个极值点是极大值点，那么 他不一定是最大值点？",
+      "url": "https://www.zhihu.com/answer/15353495",
+      "summary": "通过二元函数的内部极值和边界最大值讨论多元情形；“没有极小值”应按内部局部极值理解，不能据此否认闭区域上的最小值。"
+    },
+    {
+      "title": "微积分中，符号 d 与符号 ∂ 的区别是什么？",
+      "url": "https://www.zhihu.com/answer/21497265",
+      "summary": "正文围绕「微积分中，符号 d 与符号 ∂ 的区别是什么？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "在图像处理中，散度 div 具体的作用是什么？",
+      "url": "https://www.zhihu.com/answer/28341708",
+      "summary": "正文围绕“多元微积分”给出说明、例证或方法。"
+    },
+    {
+      "title": "向量/矩阵导数是属于哪个学科的内容？有什么好的教材/资料可以推荐？",
+      "url": "https://www.zhihu.com/answer/30666104",
+      "summary": "正文围绕“多元微积分”给出说明、例证或方法。"
+    },
+    {
+      "title": "如何直观形象地理解梯度、散度、旋度？",
+      "url": "https://www.zhihu.com/answer/31526009",
+      "summary": "正文围绕“多元微积分”给出说明、例证或方法。"
+    },
+    {
+      "title": "一阶微分形式不变性怎样理解？",
+      "url": "https://www.zhihu.com/answer/37149355",
+      "summary": "正文用二元函数全微分解释一阶微分形式不变性。"
+    },
+    {
+      "title": "多元函数中可微与可导的直观区别是什么？",
+      "url": "https://www.zhihu.com/answer/40303765",
+      "summary": "正文以切平面直观区分多元函数可微与偏导。"
+    },
+    {
+      "title": "Jacobi行列式的意思是什么？它有哪些用法？",
+      "url": "https://www.zhihu.com/answer/43321790",
+      "summary": "正文解释雅可比行列式是坐标变换局部体积比，并联系多元积分换元。"
+    },
+    {
+      "title": "有哪些直观的现象，最终被数学证明是错误的?",
+      "url": "https://www.zhihu.com/answer/46472545",
+      "summary": "正文列举二元函数偏导存在却不可导的反直觉例子。"
+    },
+    {
+      "title": "多元函数中，为什么 AC-B² 可以判定极值？AC-B² 这个判别式是怎么来的？",
+      "url": "https://www.zhihu.com/answer/47344055",
+      "summary": "正文以Jacobian和Hessian解释二元函数极值判别。"
+    },
+    {
+      "title": "哪些高端大气的数学定理可以简洁地证明高中数学压轴题和大轴题？",
+      "url": "https://www.zhihu.com/answer/47639362",
+      "summary": "正文以Hessian矩阵判别多元函数极值点。"
+    },
+    {
+      "title": "为什么梯度是偏微分的矢量和？",
+      "url": "https://www.zhihu.com/answer/50446867",
+      "summary": "正文从方向导数推导多元函数的梯度与最大变化率。"
+    },
+    {
+      "title": "一个关于偏导数公式的问题：∂u和∂v为什么不能约去？",
+      "url": "https://www.zhihu.com/answer/53673399",
+      "summary": "正文解释多元复合函数偏导不能直接约分，并给出全微分形式。"
+    },
+    {
+      "title": "如何理解三维曲面的法线向量公式？",
+      "url": "https://www.zhihu.com/answer/57764660",
+      "summary": "正文以方向导数和梯度说明等值曲面法向量。"
+    },
+    {
+      "title": "有限元中什么是等参单元？",
+      "url": "https://www.zhihu.com/answer/77635688",
+      "summary": "正文用二维积分、偏导和雅可比说明坐标变换计算。"
+    },
+    {
+      "title": "如何理解雅克比矩阵？",
+      "url": "https://www.zhihu.com/answer/77898641",
+      "summary": "正文用二维积分的坐标和面积变换解释雅可比因子。"
+    },
+    {
+      "title": "怎么理解二阶偏导与凸函数的Hessian矩阵是半正定的？",
+      "url": "https://www.zhihu.com/answer/85707932",
+      "summary": "正文从多元函数梯度、偏导和 Hessian 讨论凸性。"
+    },
+    {
+      "title": "求解全微分的意义？最好感性一点的认识",
+      "url": "https://www.zhihu.com/answer/92461667",
+      "summary": "全文解释二元函数全微分及切平面线性化，属于多元微积分。"
+    },
+    {
+      "title": "微分和导数的关系是什么？两者的几何意义有什么不同？为什么要定义微分 ?",
+      "url": "https://www.zhihu.com/answer/95428294",
+      "summary": "正文用多元微积分中的方向导数、微分形式解释微分。"
+    },
+    {
+      "title": "怎样理解格林公式和高斯公式？格林公式和高斯公式在物理或者其他领域有什么意义？",
+      "url": "https://www.zhihu.com/answer/99213280",
+      "summary": "正文把点线关系推广到线面关系，讨论偏导和高维积分。"
+    },
+    {
+      "title": "如何理解矩阵对矩阵求导？",
+      "url": "https://www.zhihu.com/answer/100027812",
+      "summary": "正文把梯度、雅可比和矩阵到矩阵求导统一为高维空间中的导数。"
+    },
+    {
+      "title": "复连通区域运用格林公式？",
+      "url": "https://www.zhihu.com/answer/105113519",
+      "summary": "正文通过分割复连通区域并抵消公共边界线积分，推导格林公式在多连通区域中的用法。"
+    },
+    {
+      "title": "如何理解拉格朗日乘子法？",
+      "url": "https://www.zhihu.com/answer/105273125",
+      "summary": "正文使用二元函数梯度、法向量和方程组说明多元微积分中的约束极值。"
+    },
+    {
+      "title": "如何理解拉格朗日乘子法？",
+      "url": "https://www.zhihu.com/answer/105588901",
+      "summary": "正文以二元函数梯度和法向量说明约束极值的多元微积分条件。"
+    },
+    {
+      "title": "有哪些形式简单，很有美感，但是理论上很重要的数学结论？",
+      "url": "https://www.zhihu.com/answer/106075872",
+      "summary": "正文统一解释微积分基本定理、格林公式和高斯散度定理，是多元微积分内容。"
+    },
+    {
+      "title": "斯托克斯公式的意义?",
+      "url": "https://www.zhihu.com/answer/112510197",
+      "summary": "正文处理三维曲面上的向量场、投影曲面与多元积分关系。"
+    },
+    {
+      "title": "最优化问题中，牛顿法为什么比梯度下降法求解需要的迭代次数更少？",
+      "url": "https://www.zhihu.com/answer/113542871",
+      "summary": "正文用偏导向量与 Hessian 矩阵讲解高维函数极值。"
+    },
+    {
+      "title": "一个月内学好复变函数可行吗？",
+      "url": "https://www.zhihu.com/answer/114670934",
+      "summary": "正文把复函数写成二元实函数并推导偏微分与柯西黎曼条件。"
+    },
+    {
+      "title": "高中导数和大学导数的联系，学习部分大学导数是否对高考导数难题有帮助？",
+      "url": "https://www.zhihu.com/answer/114785256",
+      "summary": "正文介绍二元函数的偏导数及驻点求法。"
+    },
+    {
+      "title": "微分和导数的关系是什么？两者的几何意义有什么不同？为什么要定义微分 ?",
+      "url": "https://www.zhihu.com/answer/115256411",
+      "summary": "正文说明高维导数需指定求导方向，而微分只依赖点。"
+    },
+    {
+      "title": "如何通俗地理解格林公式?",
+      "url": "https://www.zhihu.com/answer/121304990",
+      "summary": "正文从二元向量值函数和偏导推导格林公式的向量表达。"
+    },
+    {
+      "title": "格林公式的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/121308396",
+      "summary": "正文以二元向量场、偏导和区域边界推导格林公式。"
+    },
+    {
+      "title": "工作被效率更高的机器抢了是什么体验？",
+      "url": "https://www.zhihu.com/answer/122405700",
+      "summary": "正文明确把区域面积写成二重积分，并说明与边界积分的联系。"
+    },
+    {
+      "title": "自动微分法（Automatic differentiation）是如何用C++实现的？",
+      "url": "https://www.zhihu.com/answer/123290631",
+      "summary": "正文区分偏导和全导，并给出Jacobian、Hessian及张量形式。"
+    },
+    {
+      "title": "如果函数的一个变量完全由另一个变量决定，那么这函数关于这两个变量的各自的偏导还有什么意义？",
+      "url": "https://www.zhihu.com/answer/130914170",
+      "summary": "正文解释二元函数变量受约束后如何用链式法则求沿曲线的变化率，是多元微积分的实质应用。"
+    },
+    {
+      "title": "为什么曲面积分里面的ds = (1 + zx² + zy²) ½dxdy呢？",
+      "url": "https://www.zhihu.com/answer/134203246",
+      "summary": "正文从曲面微元在三个坐标面的投影推导曲面积分面积元，属于多元微积分。"
+    },
+    {
+      "title": "两个定积分相乘的运算法则是什么？它们的积分上下限都一样，能把积分号提出来吗？",
+      "url": "https://www.zhihu.com/answer/136174319",
+      "summary": "正文将一维高斯积分平方转为平面二重积分，属于多元微积分应用。"
+    },
+    {
+      "title": "如何直观形象地理解方向导数与梯度以及它们之间的关系？",
+      "url": "https://www.zhihu.com/answer/142096153",
+      "summary": "正文解释偏导数是多元函数沿坐标轴方向的变化率。"
+    },
+    {
+      "title": "为什么自然科学里很多公式符合平方反比定律，为什么指数是 2 不是 3？",
+      "url": "https://www.zhihu.com/answer/145037727",
+      "summary": "推导实质使用向量场、散度、梯度和曲面积分等多元微积分工具。"
+    },
+    {
+      "title": "求解全微分的意义？最好感性一点的认识",
+      "url": "https://www.zhihu.com/answer/152231899",
+      "summary": "正文从一元微分推广到二元曲面，解释全微分与切平面。"
+    },
+    {
+      "title": "关于偏导数复合函数的定义，是否存在矛盾？",
+      "url": "https://www.zhihu.com/answer/152461197",
+      "summary": "正文以坐标系和链式法则系统澄清多元复合函数的偏导数定义。"
+    },
+    {
+      "title": "多元函数中可微与可导的直观区别是什么？",
+      "url": "https://www.zhihu.com/answer/153515600",
+      "summary": "正文从空间曲线、切线和切平面系统解释多元函数的偏微分与全微分。"
+    },
+    {
+      "title": "什么是全导数？",
+      "url": "https://www.zhihu.com/answer/154857139",
+      "summary": "正文用参数曲线、方向导数和切平面系统解释多元函数的全导数。"
+    },
+    {
+      "title": "如何理解雅可比式？",
+      "url": "https://www.zhihu.com/answer/155904509",
+      "summary": "正文从多元函数微分和变量代换解释雅可比式，属于多元微积分。"
+    },
+    {
+      "title": "向量函数的求导问题？",
+      "url": "https://www.zhihu.com/answer/156905379",
+      "summary": "正文系统区分标量、向量和矩阵之间的多元求导。"
+    },
+    {
+      "title": "如何理解导数的概念 ?",
+      "url": "https://www.zhihu.com/answer/159589897",
+      "summary": "正文把导数推广到多元函数的方向导数与切平面。"
+    },
+    {
+      "title": "为什么曲面积分里面的ds = (1 + zx² + zy²) ½dxdy呢？",
+      "url": "https://www.zhihu.com/answer/165585609",
+      "summary": "正文以切平面、雅可比矩阵和二重积分推导曲面面积公式。"
+    },
+    {
+      "title": "格林公式的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/165988374",
+      "summary": "正文把平面区域分割为微小矩形，解释格林公式中边界线积分与内部二重积分的关系。"
+    },
+    {
+      "title": "曲面积分跟二重积分意义有啥不同?",
+      "url": "https://www.zhihu.com/answer/171861232",
+      "summary": "正文围绕二重、三重、曲线与曲面积分说明多元积分区域及计算转换。"
+    },
+    {
+      "title": "极坐标下的二重积分，二次积分下每次积分的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/172064969",
+      "summary": "正文以二重积分和坐标变换解释多元微积分中的面积微元变化。"
+    },
+    {
+      "title": "大一数学分析学习是偏证明还是偏计算？",
+      "url": "https://www.zhihu.com/answer/173769427",
+      "summary": "正文实质讨论偏导、链式法则、条件极值、重积分和曲面积分的重要性。"
+    },
+    {
+      "title": "为什么导数和微分的英日文术语如此混乱？",
+      "url": "https://www.zhihu.com/answer/191717201",
+      "summary": "正文解释多元函数中偏微分、全微分、可导与可微的区别。"
+    },
+    {
+      "title": "非线性系统通过雅克比矩阵线性化的过程如何的实现？",
+      "url": "https://www.zhihu.com/answer/195145638",
+      "summary": "正文由多元函数偏导数写出二元非线性系统在平衡点附近的一阶线性化。"
+    },
+    {
+      "title": "如何理解拉格朗日乘子法？",
+      "url": "https://www.zhihu.com/answer/195801088",
+      "summary": "正文把多元约束极值写成包含偏导条件的拉格朗日函数。"
+    },
+    {
+      "title": "如何直观形象地理解方向导数与梯度以及它们之间的关系？",
+      "url": "https://www.zhihu.com/answer/198887937",
+      "summary": "正文从曲面可微、偏导和平面近似直观解释梯度方向。"
+    },
+    {
+      "title": "格林公式的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/200732957",
+      "summary": "正文讨论曲线积分、曲面积分、二重积分和三重积分之间的多元积分转换。"
+    },
+    {
+      "title": "怎样理解格林公式和高斯公式？格林公式和高斯公式在物理或者其他领域有什么意义？",
+      "url": "https://www.zhihu.com/answer/201236590",
+      "summary": "正文具体说明曲面积分化二重积分或三重积分的多元积分过程。"
+    },
+    {
+      "title": "为什么微观经济学中拉格朗日函数都用减号，而高等数学教材中都用加号？",
+      "url": "https://www.zhihu.com/answer/202609987",
+      "summary": "正文使用多元偏导、一阶条件和包络定理分析乘子的符号。"
+    },
+    {
+      "title": "怎么理解秩定理？",
+      "url": "https://www.zhihu.com/answer/209435396",
+      "summary": "正文在多元微分学语境解释局部坐标、反函数定理和秩定理。"
+    },
+    {
+      "title": "在哪个瞬间你觉得「我的高数没有白学」?",
+      "url": "https://www.zhihu.com/answer/213486227",
+      "summary": "正文说明为理解麦克斯韦方程学习多元微积分并用于物理推导。"
+    },
+    {
+      "title": "如何理解矩阵对矩阵求导？",
+      "url": "https://www.zhihu.com/answer/221129395",
+      "summary": "正文实质讨论多变量之间的偏导及其排列约定。"
+    },
+    {
+      "title": "第一型曲线积分，第二型曲线积分，第一型曲面积分，第二型曲面积分，二重积分，三重积分之间的内外联系。?",
+      "url": "https://www.zhihu.com/answer/233485710",
+      "summary": "正文把三重积分解释为三维体区域上的积分。"
+    },
+    {
+      "title": "Tensorflow 是如何求导的？",
+      "url": "https://www.zhihu.com/answer/239468705",
+      "summary": "正文说明多元反向传播实际计算雅可比矩阵。"
+    },
+    {
+      "title": "可微与可导有区别吗？",
+      "url": "https://www.zhihu.com/answer/252839751",
+      "summary": "正文讨论从 R^m 到 R^n 的多元向量函数及全导数。"
+    },
+    {
+      "title": "同济版《高等数学》有什么缺陷？",
+      "url": "https://www.zhihu.com/answer/261544595",
+      "summary": "正文具体讨论多元函数偏导符号及其与空间解析几何的衔接。"
+    },
+    {
+      "title": "如何形象地理解曲线积分在区域 G 内与路径无关？",
+      "url": "https://www.zhihu.com/answer/264103413",
+      "summary": "正文使用多元函数链式法则和混合偏导判断梯度场。"
+    },
+    {
+      "title": "微分到底是什么意思？实际意义是什么？",
+      "url": "https://www.zhihu.com/answer/276684374",
+      "summary": "正文解释多元函数的偏导、偏微分和全微分。"
+    },
+    {
+      "title": "什么是全导数？",
+      "url": "https://www.zhihu.com/answer/276813234",
+      "summary": "正文区分全导数与多元函数的偏导、偏微分、全微分。"
+    },
+    {
+      "title": "如何通俗易懂地解释外微分？",
+      "url": "https://www.zhihu.com/answer/277640953",
+      "summary": "正文用梯度、全微分、旋度和散度解释多元微积分中的外微分。"
+    },
+    {
+      "title": "高等数学全是教微积分，为什么不索性叫微积分而要叫高等数学？",
+      "url": "https://www.zhihu.com/answer/283152414",
+      "summary": "正文明确区分一元函数与多元函数的微积分内容。"
+    },
+    {
+      "title": "微分、导数、积分，这三者之间，有没有联系？",
+      "url": "https://www.zhihu.com/answer/287361075",
+      "summary": "正文解释多元函数全微分是各自变量微分的总和。"
+    },
+    {
+      "title": "偏导数、微分、以及导数到底有什么关系和区别？",
+      "url": "https://www.zhihu.com/answer/288270304",
+      "summary": "正文系统解释多元函数的方向导数、梯度、偏导与全微分。"
+    },
+    {
+      "title": "数学分析究竟在讲些什么？",
+      "url": "https://www.zhihu.com/answer/328053682",
+      "summary": "正文解释曲线积分、二重积分和高维积分的意义。"
+    },
+    {
+      "title": "为什么科技水平提高了，人却没有更轻松？",
+      "url": "https://www.zhihu.com/answer/346153899",
+      "summary": "正文用二元效用函数展开多变量优化推导。"
+    },
+    {
+      "title": "二元函数全微分判别式下面的 ρ 有什么具体意义呢？",
+      "url": "https://www.zhihu.com/answer/347217412",
+      "summary": "正文用二元微分中的局部平面解释多元微积分。"
+    },
+    {
+      "title": "空间曲线的切向量？",
+      "url": "https://www.zhihu.com/answer/360805243",
+      "summary": "正文通过偏导与多元曲面求切向量。"
+    },
+    {
+      "title": "多元复合函数求导 与 隐函数求导法则之间的关系？",
+      "url": "https://www.zhihu.com/answer/371050399",
+      "summary": "正文明确讨论多元复合函数求导。"
+    },
+    {
+      "title": "请问二重积分的换元法中，雅克比矩阵是怎么转化成雅克比行列式的？",
+      "url": "https://www.zhihu.com/answer/377056640",
+      "summary": "正文指出重积分换元的核心是面积微元在变量变换前后的比例伸缩。"
+    },
+    {
+      "title": "为什么二元函数在点（x，y）的全增量可以用带高阶无穷小的表达式表示？这个高阶无穷小怎么来的？",
+      "url": "https://www.zhihu.com/answer/384391042",
+      "summary": "正文从二元函数全增量、偏导与切平面解释可微。"
+    },
+    {
+      "title": "怎么从几何上理解 偏导数连续 函数必可微？",
+      "url": "https://www.zhihu.com/answer/390907205",
+      "summary": "正文用两个偏导连续来直观说明二元函数存在切平面。"
+    },
+    {
+      "title": "如何推导麦克斯韦关系式？",
+      "url": "https://www.zhihu.com/answer/408219832",
+      "summary": "正文从全微分和状态函数偏导推导麦克斯韦关系式。"
+    },
+    {
+      "title": "如何用十分中二的方式解数学题？",
+      "url": "https://www.zhihu.com/answer/424943659",
+      "summary": "正文实质计算并讨论二元函数的极限与可微性。"
+    },
+    {
+      "title": "如何记忆球坐标和柱坐标下的散度，旋度公式?",
+      "url": "https://www.zhihu.com/answer/432143100",
+      "summary": "正文给出向量微积分中的散度与旋度表达式。"
+    },
+    {
+      "title": "求解全微分的意义？最好感性一点的认识",
+      "url": "https://www.zhihu.com/answer/433504539",
+      "summary": "正文从多元函数局部变化解释全微分。"
+    },
+    {
+      "title": "如何理解拉格朗日乘子法？",
+      "url": "https://www.zhihu.com/answer/439626832",
+      "summary": "正文使用二元函数偏导、梯度和等高线处理极值。"
+    },
+    {
+      "title": "微分到底是什么意思？实际意义是什么？",
+      "url": "https://www.zhihu.com/answer/440242420",
+      "summary": "正文系统说明多元函数偏导、全微分和自然基底。"
+    },
+    {
+      "title": "如何理解偏微分和全微分？",
+      "url": "https://www.zhihu.com/answer/441638297",
+      "summary": "正文以曲面、偏导和方向导数解释多元微分。"
+    },
+    {
+      "title": "Jacobi（雅可比）行列式它的几何意义是什么啊？",
+      "url": "https://www.zhihu.com/answer/442119197",
+      "summary": "正文使用二元偏导矩阵刻画坐标变换。"
+    },
+    {
+      "title": "雅可比行列式?",
+      "url": "https://www.zhihu.com/answer/442131829",
+      "summary": "正文讨论多元函数偏导组成的雅可比矩阵。"
+    },
+    {
+      "title": "如何理解拉格朗日乘子法？",
+      "url": "https://www.zhihu.com/answer/457058079",
+      "summary": "正文以偏导、梯度和多个约束处理多元极值。"
+    },
+    {
+      "title": "使用柱坐标和球坐标计算三重积分时，如何确定积分的上下限？",
+      "url": "https://www.zhihu.com/answer/465033277",
+      "summary": "正文把一维、二维积分方法推广到三维多元积分。"
+    },
+    {
+      "title": "散度和旋度的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/466153996",
+      "summary": "正文从多元梯度运算推导散度和旋度公式。"
+    },
+    {
+      "title": "偏导数在一点连续是什么意思？",
+      "url": "https://www.zhihu.com/answer/466284848",
+      "summary": "正文从多元函数连续性解释偏导数在一点连续。"
+    },
+    {
+      "title": "二重积分，三重积分，曲线积分中被积函数的意义是什么？",
+      "url": "https://www.zhihu.com/answer/471076892",
+      "summary": "正文从二重积分推广到三重积分解释多维积分。"
+    },
+    {
+      "title": "微积分中，一重积分和二重积分都可以求面积，而二重积分和三重积分都可以求体积，它们之间有什么不同？",
+      "url": "https://www.zhihu.com/answer/471086853",
+      "summary": "正文说明三重积分可表示三维物体质量或体积。"
+    },
+    {
+      "title": "数学分析中最重要的定理是哪个？为什么？",
+      "url": "https://www.zhihu.com/answer/489889295",
+      "summary": "正文列举微积分基本定理在多维中的推广。"
+    },
+    {
+      "title": "如何直观理解二元函数在某一点可微而偏导不连续？",
+      "url": "https://www.zhihu.com/answer/490974828",
+      "summary": "正文用二元函数图像解释可微性。"
+    },
+    {
+      "title": "怎么从几何上理解 偏导数连续 函数必可微？",
+      "url": "https://www.zhihu.com/answer/511732777",
+      "summary": "全文用曲面、偏导数、切平面和误差项解释多元函数可微及偏导连续的充分条件。"
+    },
+    {
+      "title": "请问拉普拉斯算子如何进行坐标变换？",
+      "url": "https://www.zhihu.com/answer/512611611",
+      "summary": "柱坐标和球坐标的拉普拉斯算子均由多元链式法则及偏导数展开。"
+    },
+    {
+      "title": "请问拉普拉斯算子如何进行坐标变换？",
+      "url": "https://www.zhihu.com/answer/515014730",
+      "summary": "全文推导极坐标、球坐标下梯度、积分和拉普拉斯算子，属于多元微积分。"
+    },
+    {
+      "title": "求解答高数极坐标系下二重积分上下限怎么确定？每次做题都不能正确写出，或推荐一些老师讲解这块儿的视频？",
+      "url": "https://www.zhihu.com/answer/516794161",
+      "summary": "二重积分区域、变量替换和面积元属于多元微积分。"
+    },
+    {
+      "title": "如何直观理解三重积分？",
+      "url": "https://www.zhihu.com/answer/535064066",
+      "summary": "正文从三维坐标中的密度函数说明多重积分的对象。"
+    },
+    {
+      "title": "在 Mathematica 中，你认为哪些强大命令是你相见恨晚的？",
+      "url": "https://www.zhihu.com/answer/545934834",
+      "summary": "正文演示多元偏导在极坐标变换下的符号计算。"
+    },
+    {
+      "title": "怎么解释「正定矩阵」？",
+      "url": "https://www.zhihu.com/answer/552481133",
+      "summary": "说明 Hessian 由多元函数二阶偏导组成并用于判断极值类型。"
+    },
+    {
+      "title": "对曲面面积公式（偏微分方程）怎么理解？",
+      "url": "https://www.zhihu.com/answer/558561224",
+      "summary": "用全微分和偏导构造曲面局部面积元素。"
+    },
+    {
+      "title": "机器学习应补充哪些数学基础？",
+      "url": "https://www.zhihu.com/answer/564893704",
+      "summary": "解释多变量微积分在梯度、反向传播和模型训练中的作用。"
+    },
+    {
+      "title": "《普林斯顿微积分》适合考研用吗？",
+      "url": "https://www.zhihu.com/answer/590745458",
+      "summary": "正文指出教材未覆盖多元微积分。"
+    },
+    {
+      "title": "什么是梯度下降法？",
+      "url": "https://www.zhihu.com/answer/606831354",
+      "summary": "正文讨论多元函数的梯度与二阶近似。"
+    },
+    {
+      "title": "能不能请数学业界人士实锤丁小平微积分错误?",
+      "url": "https://www.zhihu.com/answer/630303382",
+      "summary": "说明一元微分的线性映射定义可推广到高维和微分形式。"
+    },
+    {
+      "title": "为什么偏导函数存在会不连续？",
+      "url": "https://www.zhihu.com/answer/631157318",
+      "summary": "区分偏导、方向导数和全微分在多元函数中的关系。"
+    },
+    {
+      "title": "能不能请数学业界人士实锤丁小平微积分错误?",
+      "url": "https://www.zhihu.com/answer/631444321",
+      "summary": "讨论一元微分定义推广到二元函数时的偏微分表达。"
+    },
+    {
+      "title": "函数 y＝(x!)^(1/x) 的图像为什么类似于一条直线（如图）？",
+      "url": "https://www.zhihu.com/answer/635145150",
+      "summary": "讨论参数偏导与积分号交换的条件。"
+    },
+    {
+      "title": "雅可比行列式该如何理解?",
+      "url": "https://www.zhihu.com/answer/639295875",
+      "summary": "用线性主部定义多元可微并推导雅可比矩阵。"
+    },
+    {
+      "title": "一元函数和二元函数，可微和可导有什么区别？",
+      "url": "https://www.zhihu.com/answer/648403926",
+      "summary": "将一元线性近似推广到二元曲面的切平面与全微分。"
+    },
+    {
+      "title": "二重积分为什么既能求面积又能求体积？三重积分为什么既能求体积又能求质量？面积不是普通积分求出来的吗？",
+      "url": "https://www.zhihu.com/answer/657223888",
+      "summary": "把重积分解释为高维区域上的累加。"
+    },
+    {
+      "title": "在一个 1*1 的正方形随机选两个点，如何求这两个点的期望欧几里得距离？",
+      "url": "https://www.zhihu.com/answer/658077539",
+      "summary": "把两个点的四个坐标写成多重积分。"
+    },
+    {
+      "title": "怎么化二次积分为极坐标形式的积分？",
+      "url": "https://www.zhihu.com/answer/660569709",
+      "summary": "用面积微元处理多元积分换元。"
+    },
+    {
+      "title": "偏导数、偏微分以及全微分的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/660767728",
+      "summary": "用曲面切平面和线性近似解释偏导与全微分。"
+    },
+    {
+      "title": "怎么从几何上理解 偏导数连续 函数必可微？",
+      "url": "https://www.zhihu.com/answer/665436741",
+      "summary": "从偏导连续推出局部线性近似与全微分存在。"
+    },
+    {
+      "title": "曲面的三个偏导数为什么能表示法向量？",
+      "url": "https://www.zhihu.com/answer/674631170",
+      "summary": "由二元曲面的偏导数求切平面法向量。"
+    },
+    {
+      "title": "如何证明在一个偏导存在，另一个偏导连续的条件下二元函数的可微性？",
+      "url": "https://www.zhihu.com/answer/676021647",
+      "summary": "严格证明偏导数满足给定条件时二元函数可微。"
+    },
+    {
+      "title": "高中数学有没有什么比较牛 X 的公式？",
+      "url": "https://www.zhihu.com/answer/680324062",
+      "summary": "说明多元函数极值的偏导必要条件及 Hessian 判别背景。"
+    },
+    {
+      "title": "如何理解高等数学里的可微、可导和连续性之间的关系？",
+      "url": "https://www.zhihu.com/answer/680832797",
+      "summary": "给出多元可微定义并说明可微蕴含偏导存在。"
+    },
+    {
+      "title": "如何直观形象地理解方向导数与梯度以及它们之间的关系？",
+      "url": "https://www.zhihu.com/answer/688053762",
+      "summary": "以切平面和各方向切线解释二元函数可微及方向导数。"
+    },
+    {
+      "title": "为什么 sin(x²)+sin(y²)=1 的图像这么复杂？",
+      "url": "https://www.zhihu.com/answer/692389802",
+      "summary": "将两个自变量的正弦叠加作为二元函数分析。"
+    },
+    {
+      "title": "为什么 sin(x²)+sin(y²)=1 的图像这么复杂？",
+      "url": "https://www.zhihu.com/answer/696628193",
+      "summary": "把方程推广到三维变量。"
+    },
+    {
+      "title": "多元函数中，为什么 AC-B² 可以判定极值？AC-B² 这个判别式是怎么来的？",
+      "url": "https://www.zhihu.com/answer/699188243",
+      "summary": "用 Hessian 二次型判断二元函数极值。"
+    },
+    {
+      "title": "为什么 sin(x²)+sin(y²)=1 的图像这么复杂？",
+      "url": "https://www.zhihu.com/answer/702272548",
+      "summary": "通过偏导分析二元曲面。"
+    },
+    {
+      "title": "格林公式的物理意义和几何意义是什么？为什么格林公式与路径无关？",
+      "url": "https://www.zhihu.com/answer/706368491",
+      "summary": "使用偏导、全微分和二重积分处理二元场。"
+    },
+    {
+      "title": "三边为 10 的四边形，如何使之面积最大？",
+      "url": "https://www.zhihu.com/answer/708177766",
+      "summary": "对两个角变量分别求偏导并联立驻点条件。"
+    },
+    {
+      "title": "什么是范霍夫奇点？",
+      "url": "https://www.zhihu.com/answer/714182760",
+      "summary": "以多元函数驻点和Hessian分类范霍夫奇点。"
+    },
+    {
+      "title": "多元函数中，为什么 AC-B² 可以判定极值？AC-B² 这个判别式是怎么来的？",
+      "url": "https://www.zhihu.com/answer/724529428",
+      "summary": "从二阶偏导组成的矩阵判断多元函数极值。"
+    },
+    {
+      "title": "多元函数微分学中的混合偏导数的几何意义是什么?",
+      "url": "https://www.zhihu.com/answer/734013524",
+      "summary": "用二元函数的方向变化解释混合偏导。"
+    },
+    {
+      "title": "如何透彻理解多重积分、格林公式、曲线积分等内容而不是只会套用计算公式做计算题？",
+      "url": "https://www.zhihu.com/answer/746121388",
+      "summary": "系统讲解多元向量场、梯度场与势函数。"
+    },
+    {
+      "title": "一竖直旋转圆柱上连接一均质柔软有限长绳，稳定时绳是什么形状？",
+      "url": "https://www.zhihu.com/answer/746737923",
+      "summary": "用多变量参数方程描述空间曲线。"
+    },
+    {
+      "title": "怎么判断一个优化问题是凸优化还是非凸优化？",
+      "url": "https://www.zhihu.com/answer/748981244",
+      "summary": "用多元梯度与Hessian判别凸性。"
+    },
+    {
+      "title": "二阶混合偏导数的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/773244434",
+      "summary": "正文以方向二阶导解释混合偏导。"
+    },
+    {
+      "title": "n维球坐标变化下的Jacobi行列式怎么计算？",
+      "url": "https://www.zhihu.com/answer/781120941",
+      "summary": "通过多元偏导构造坐标变换雅可比。"
+    },
+    {
+      "title": "多元函数微分中为什么引入聚点概念？",
+      "url": "https://www.zhihu.com/answer/786664028",
+      "summary": "把极限定义推广到二元函数。"
+    },
+    {
+      "title": "如何理清楚多元函数的偏导数连续性和可微的关系呢？",
+      "url": "https://www.zhihu.com/answer/789210293",
+      "summary": "将一元反例推广到二元函数。"
+    },
+    {
+      "title": "二重积分的对称性问题，有人可以告诉我为什么吗?",
+      "url": "https://www.zhihu.com/answer/798174297",
+      "summary": "正文以体积解释二重积分及其对称性。"
+    },
+    {
+      "title": "初等函数之上有无定义「高等函数」？",
+      "url": "https://www.zhihu.com/answer/800217802",
+      "summary": "正文继续展开偏导数、方向导数、梯度和多重积分，说明多元函数如何扩展微积分。"
+    },
+    {
+      "title": "如何理解偏微分和全微分？",
+      "url": "https://www.zhihu.com/answer/801458945",
+      "summary": "用两个自变量对成绩的影响类比偏微分与全微分。"
+    },
+    {
+      "title": "怎么判断二重积分是x型还是y型？",
+      "url": "https://www.zhihu.com/answer/803910192",
+      "summary": "正文详细说明二重积分按 x 型或 y 型化为不同次序的累次积分。"
+    },
+    {
+      "title": "二重积分到底该怎么理解？",
+      "url": "https://www.zhihu.com/answer/821701089",
+      "summary": "由一元面积推广到二元体积和三重积分。"
+    },
+    {
+      "title": "如何通俗地讲解对偶问题，尤其是拉格朗日对偶 lagrangian duality？",
+      "url": "https://www.zhihu.com/answer/823769937",
+      "summary": "讨论多变量函数的梯度与约束条件。"
+    },
+    {
+      "title": "如何更好的理解两类曲线积分之间的联系？",
+      "url": "https://www.zhihu.com/answer/827440469",
+      "summary": "说明曲面积分按三个坐标方向分解。"
+    },
+    {
+      "title": "曲面的三个偏导数为什么能表示法向量？",
+      "url": "https://www.zhihu.com/answer/830263186",
+      "summary": "对三元函数作局部线性化。"
+    },
+    {
+      "title": "隐函数利用公式求偏导为什么Z对X不求？可以详细的讲讲其中的道理，谢谢！？",
+      "url": "https://www.zhihu.com/answer/844305433",
+      "summary": "正文围绕隐函数求偏导时变量与常量的区分讲解多元微积分。"
+    },
+    {
+      "title": "考研数一，在第一型第二型曲线曲面积分中，什么时候能将边界函数带入被积函数？",
+      "url": "https://www.zhihu.com/answer/851178938",
+      "summary": "以积分区域维数解释多重积分。"
+    },
+    {
+      "title": "请问高数中梯度为什么和法向量相等呢？",
+      "url": "https://www.zhihu.com/answer/852194722",
+      "summary": "在多元隐函数曲面上讨论梯度。"
+    },
+    {
+      "title": "为什么曲线要分为第一类曲线和第二类曲线？",
+      "url": "https://www.zhihu.com/answer/868011323",
+      "summary": "正文从质量与做功的物理模型推导两类曲线积分并解释其区别，属于多元微积分。"
+    },
+    {
+      "title": "可导，可微，可积，连续的关系是什么？然后，它们各自的充要条件是什么？",
+      "url": "https://www.zhihu.com/answer/884790711",
+      "summary": "用偏导存在与连续条件讨论多元可微性。"
+    },
+    {
+      "title": "隐函数怎么求导？",
+      "url": "https://www.zhihu.com/answer/887498947",
+      "summary": "围绕二元隐式关系保留 y 进行求导。"
+    },
+    {
+      "title": "圆的面积 S 与半径的平方 R² 成正比，是从数学上的严格证明，还是一种数学直觉？",
+      "url": "https://www.zhihu.com/answer/891331985",
+      "summary": "正文定义偏导数，并用含偏导与 Jacobi 行列式的二重积分处理二维参数区域。"
+    },
+    {
+      "title": "怎么证明函数在一个区间内连续？",
+      "url": "https://www.zhihu.com/answer/893526237",
+      "summary": "比较一元区间连续与多元区域连续。"
+    },
+    {
+      "title": "方向导数与偏导数有什么联系？",
+      "url": "https://www.zhihu.com/answer/898138156",
+      "summary": "正文比较方向导数与偏导数的单侧、双侧定义，并给出圆锥函数反例。"
+    },
+    {
+      "title": "这个第二型曲面积分用书上的方法怎么做不出正确结果，第二型曲面积分转化成重积分怎么理解？",
+      "url": "https://www.zhihu.com/answer/945800911",
+      "summary": "正文把第二型曲面积分投影并转化为二重积分进行计算。"
+    },
+    {
+      "title": "直角坐标与极坐标的互化中，为什么 dxdy=rdrdθ？",
+      "url": "https://www.zhihu.com/answer/997070509",
+      "summary": "正文讲解多元积分的变量替换。"
+    },
+    {
+      "title": "标量的梯度描述的物理意义是什么？矢量有没有梯度？如果有，它的物理意义又是什么？",
+      "url": "https://www.zhihu.com/answer/1043618492",
+      "summary": "正文系统解释梯度、雅可比矩阵与多元微分。"
+    },
+    {
+      "title": "怎么理解“二元函数可微推不出偏导数连续”？",
+      "url": "https://www.zhihu.com/answer/1064174576",
+      "summary": "正文通过偏导、全微分与不同趋近路径严格分析二元函数可微性。"
+    },
+    {
+      "title": "10000⁴ 和 4¹⁰⁰⁰⁰，怎样比较大小？",
+      "url": "https://www.zhihu.com/answer/1082100821",
+      "summary": "正文用二元函数的偏导数分析底数和指数对函数的影响。"
+    },
+    {
+      "title": "参数方程中t的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/1094581117",
+      "summary": "正文进一步实质讲解多元标量场的方向导数、梯度、散度与旋度。"
+    },
+    {
+      "title": "在用公式法对多元隐函数求导时(∂z/∂x=-Fx/Fy),对求Fx时的z为什么不当做z是x函数处理?",
+      "url": "https://www.zhihu.com/answer/1099636934",
+      "summary": "正文用偏导定义说明多元变量的独立性。"
+    },
+    {
+      "title": "如何通俗的理解多元函数可微的条件？",
+      "url": "https://www.zhihu.com/answer/1110608712",
+      "summary": "正文解释多元函数可微与各方向导数存在之间的关系。"
+    },
+    {
+      "title": "有没有对隐函数求导公式的几何理解？",
+      "url": "https://www.zhihu.com/answer/1112573849",
+      "summary": "正文用全微分和多元函数局部基推导隐函数切方向。"
+    },
+    {
+      "title": "为什么平面曲线在一点处法向量就是偏导数?",
+      "url": "https://www.zhihu.com/answer/1131408076",
+      "summary": "正文用全微分解释隐式曲线梯度与切线正交。"
+    },
+    {
+      "title": "格林公式教材上的证明是否存在漏洞？",
+      "url": "https://www.zhihu.com/answer/1137927784",
+      "summary": "正文比较格林公式一般情形的多种证明。"
+    },
+    {
+      "title": "怎么从几何上理解 偏导数连续 函数必可微？",
+      "url": "https://www.zhihu.com/answer/1142459689",
+      "summary": "正文用曲面截面直观解释偏导连续与多元可微。"
+    },
+    {
+      "title": "怎么区分偏导数，全导数和全微分？",
+      "url": "https://www.zhihu.com/answer/1157784871",
+      "summary": "正文从多元函数系统解释偏导、全导数和全微分。"
+    },
+    {
+      "title": "为什么计算圆的周长与面积、球的表面积与体积，使用的都是 π，而不是三个不同的数？是偶然还是必然？",
+      "url": "https://www.zhihu.com/answer/1168599460",
+      "summary": "正文用n维高斯积分和径向换元推导高维球体积。"
+    },
+    {
+      "title": "为什么 空间二阶导（拉普拉斯算子）这么重要？",
+      "url": "https://www.zhihu.com/answer/1168914135",
+      "summary": "正文将一维离散二阶导数推广为二维偏导和拉普拉斯算子。"
+    },
+    {
+      "title": "在二重积分中怎么样判断积分区域的对称性以及被积函数的奇偶性。例如积分区域D：x²＋y²≤4的对称性？",
+      "url": "https://www.zhihu.com/answer/1203802564",
+      "summary": "正文从积分区域与被积函数对称性处理二重积分。"
+    },
+    {
+      "title": "累次积分的换序怎么解决，不太理解？",
+      "url": "https://www.zhihu.com/answer/1214379484",
+      "summary": "正文完整讲解二重积分与累次积分换序。"
+    },
+    {
+      "title": "球面坐标计算三重积分公式怎么来的？",
+      "url": "https://www.zhihu.com/answer/1214935745",
+      "summary": "正文推导球面坐标三重积分的微元变换。"
+    },
+    {
+      "title": "二重积分到底该怎么理解？",
+      "url": "https://www.zhihu.com/answer/1217472384",
+      "summary": "正文从面密度解释二重积分并演示计算方法。"
+    },
+    {
+      "title": "如何直观理解三重积分？",
+      "url": "https://www.zhihu.com/answer/1234073425",
+      "summary": "正文用三重积分、投影和截面法计算空间区域。"
+    },
+    {
+      "title": "二阶混合偏导数的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/1241988078",
+      "summary": "正文从截线、偏导函数图像解释混合偏导数。"
+    },
+    {
+      "title": "请问在定积分里面为什么求曲线围成面积时可以直接用f(x)dx，而求旋转曲面面积的时候dx要换成ds？",
+      "url": "https://www.zhihu.com/answer/1246214010",
+      "summary": "正文用微元法解释定积分的几何与曲面测度思想。"
+    },
+    {
+      "title": "二次型求导的推导过程是什么?",
+      "url": "https://www.zhihu.com/answer/1249823137",
+      "summary": "正文用微分法则逐步推导二次型对向量的导数。"
+    },
+    {
+      "title": "你最喜欢的公式/定理是？",
+      "url": "https://www.zhihu.com/answer/1255764955",
+      "summary": "正文以 Stokes 公式说明高维微积分基本定理及流形推广。"
+    },
+    {
+      "title": "方向导数最大值怎么求?",
+      "url": "https://www.zhihu.com/answer/1258461631",
+      "summary": "正文用偏导数、方向余弦和向量点积推导方向导数最大值。"
+    },
+    {
+      "title": "高一没上过竞赛，看了一个月微积分。今天早上尝试后自己推出了球体积公式，大概什么水平?",
+      "url": "https://www.zhihu.com/answer/1269664375",
+      "summary": "正文用切片、累次积分和密度函数检验对多元微积分的理解。"
+    },
+    {
+      "title": "你见过哪些构思巧妙，令你眼界大开的数学问题？",
+      "url": "https://www.zhihu.com/answer/1272068658",
+      "summary": "正文用升维后的多元积分解决一元积分。"
+    },
+    {
+      "title": "两向量场的叉乘的旋度怎么计算？",
+      "url": "https://www.zhihu.com/answer/1274938780",
+      "summary": "正文从高等数学与张量运算两个角度展开向量微积分推导。"
+    },
+    {
+      "title": "力学中许多方程都采用微元体推导，这种方法是否严谨？",
+      "url": "https://www.zhihu.com/answer/1329273844",
+      "summary": "正文对六面体区域使用散度定理、多元泰勒展开和极限推导场方程。"
+    },
+    {
+      "title": "拉格朗日第二类方程里的广义速度与广义坐标无关吗？",
+      "url": "https://www.zhihu.com/answer/1330033628",
+      "summary": "正文用多元函数复合、偏导数和链式法则解释广义坐标与速度的独立性。"
+    },
+    {
+      "title": "解决导数含参不等式分参或直接讨论依据的是什么？",
+      "url": "https://www.zhihu.com/answer/1333767247",
+      "summary": "正文说明更换主元的思想来源于大学里的偏导数。"
+    },
+    {
+      "title": "x^x 的导数怎么算？",
+      "url": "https://www.zhihu.com/answer/1344620646",
+      "summary": "正文从赋范空间中的线性映射、全微分和偏导数解释多元导数。"
+    },
+    {
+      "title": "心形线r=a(1+cosθ)绕极轴旋转一周产生立体的体积是多少?",
+      "url": "https://www.zhihu.com/answer/1345835369",
+      "summary": "正文把旋转体体积理解为二维微元绕轴扫出的体积并说明二重积分。"
+    },
+    {
+      "title": "如何证明坐标变换中的雅可比行列式？",
+      "url": "https://www.zhihu.com/answer/1346421063",
+      "summary": "正文从全微分、矩阵变换和面积微元推导雅可比行列式。"
+    },
+    {
+      "title": "可微推不出偏导数连续？",
+      "url": "https://www.zhihu.com/answer/1367213539",
+      "summary": "正文辨析多元函数可微、偏导数存在与偏导数连续之间的关系。"
+    },
+    {
+      "title": "直角坐标与极坐标的互化中，为什么 dxdy=rdrdθ？",
+      "url": "https://www.zhihu.com/answer/1447917992",
+      "summary": "正文直接讲解或推导“多元微积分”相关内容。"
+    },
+    {
+      "title": "怎么证明dxdy=rdrdθ（极坐标换元）？",
+      "url": "https://www.zhihu.com/answer/1448300567",
+      "summary": "正文直接讲解或推导“多元微积分”相关内容。"
+    },
+    {
+      "title": "拉普拉斯方程极坐标形式是怎么推导出来的啊？",
+      "url": "https://www.zhihu.com/answer/1448320600",
+      "summary": "正文直接讲解或推导“多元微积分”相关内容。"
+    },
+    {
+      "title": "极坐标下的二重积分，积分公式里的rdr是如何来的？",
+      "url": "https://www.zhihu.com/answer/1448810549",
+      "summary": "正文直接讲解或推导“多元微积分”相关内容。"
+    },
+    {
+      "title": "二阶混合偏导相等的条件是什么？证明过程。。?",
+      "url": "https://www.zhihu.com/answer/1492186999",
+      "summary": "正文直接给出与「多元微积分」相关的解释、推导或应用。"
+    },
+    {
+      "title": "如何理解隐函数的定义？",
+      "url": "https://www.zhihu.com/answer/1494859885",
+      "summary": "正文直接给出与「多元微积分」相关的解释、推导或应用。"
+    },
+    {
+      "title": "⊙▽⊙=1/2▽(⊙·⊙)是什么意思？",
+      "url": "https://www.zhihu.com/answer/1528630450",
+      "summary": "正文直接讨论多元微积分，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "圆内均匀随机地取三个点，三点确定的新圆在旧圆内的概率是多少？",
+      "url": "https://www.zhihu.com/answer/1532661204",
+      "summary": "正文直接讨论多元微积分，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "如何理解隐函数组定理中，函数行列式（Jacobi行列式）的偏导形式（r(F,G)/r(u,v)）?",
+      "url": "https://www.zhihu.com/answer/1545070592",
+      "summary": "正文直接讨论多元微积分，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "考研数一，在第一型第二型曲线曲面积分中，什么时候能将边界函数带入被积函数？",
+      "url": "https://www.zhihu.com/answer/1547677624",
+      "summary": "正文区分重积分、曲线积分和曲面积分的变量替换规则。"
+    },
+    {
+      "title": "为什么格林公式里有个负号，而高斯公式没有负号?",
+      "url": "https://www.zhihu.com/answer/1562365544",
+      "summary": "正文比较高维微积分中的 Green 与 Gauss 公式及边界积分。"
+    },
+    {
+      "title": "为什么二阶混合偏导数都连续的函数，更换求偏导顺序，二阶混合偏导值不变？",
+      "url": "https://www.zhihu.com/answer/1565655990",
+      "summary": "正文从多元函数的偏导、梯度和旋度解释混合偏导。"
+    },
+    {
+      "title": "微分和导数的关系是什么？两者的几何意义有什么不同？为什么要定义微分 ?",
+      "url": "https://www.zhihu.com/answer/1566294926",
+      "summary": "正文用多元函数的线性近似和切平面解释可微性。"
+    },
+    {
+      "title": "有哪些直观的现象，最终被数学证明是错误的?",
+      "url": "https://www.zhihu.com/answer/1584795633",
+      "summary": "正文指出混合偏导数可交换次序需要导数连续这一多元微积分条件。"
+    },
+    {
+      "title": "向心力加速度公式 a=v²/r 是怎么推导出来的（要详细过程）？",
+      "url": "https://www.zhihu.com/answer/1589638539",
+      "summary": "正文直接讨论或应用该叶节点主题（参数曲线）。"
+    },
+    {
+      "title": "梯度（gradient）到底是个什么东西？物理意义和数学意义分别是什么？",
+      "url": "https://www.zhihu.com/answer/1607285093",
+      "summary": "正文直接讨论或应用该叶节点主题（梯度）。"
+    },
+    {
+      "title": "二重积分与曲面积分有什么区别？",
+      "url": "https://www.zhihu.com/answer/1621452252",
+      "summary": "正文比较重积分和曲面积分的几何对象。"
+    },
+    {
+      "title": "格林公式为什么不对称啊？",
+      "url": "https://www.zhihu.com/answer/1636345842",
+      "summary": "正文通过外微分统一 Green、Gauss 和 Stokes 公式。"
+    },
+    {
+      "title": "如何通俗易懂地解释外微分？",
+      "url": "https://www.zhihu.com/answer/1648117495",
+      "summary": "正文从曲线曲面积分引入外积和外微分形式。"
+    },
+    {
+      "title": "牛顿的数学知识储备如何？",
+      "url": "https://www.zhihu.com/answer/1648158620",
+      "summary": "正文把时间积分泛函化为多元积分并求极值。"
+    },
+    {
+      "title": "如何直观理解多元函数中偏导数连续、可微、连续、偏导数存在四个命题之间的（不）可推关系？",
+      "url": "https://www.zhihu.com/answer/1655206097",
+      "summary": "正文以切平面和截交曲线解释多元函数的偏导、可微与连续关系。"
+    },
+    {
+      "title": "应该怎么理解隐函数定理？",
+      "url": "https://www.zhihu.com/answer/1682126197",
+      "summary": "正文从显函数、隐函数和偏导条件解释隐函数定理。"
+    },
+    {
+      "title": "多元微积分中有偏导数，为什么没有偏积分的概念？",
+      "url": "https://www.zhihu.com/answer/1692132590",
+      "summary": "正文定义多元函数的偏积分，并以任意函数项说明它和一元不定积分的关键差异，属于多元微积分的实质讨论。"
+    },
+    {
+      "title": "梯度（gradient）到底是个什么东西？物理意义和数学意义分别是什么？",
+      "url": "https://www.zhihu.com/answer/1693484231",
+      "summary": "正文系统解释偏导数、方向导数与梯度。"
+    },
+    {
+      "title": "曲面的三个偏导数为什么能表示法向量？",
+      "url": "https://www.zhihu.com/answer/1695512231",
+      "summary": "正文用隐函数的链式求导说明曲面法向量。"
+    },
+    {
+      "title": "大家如何理解这张数学/物理梗图？",
+      "url": "https://www.zhihu.com/answer/1704731900",
+      "summary": "正文借梗解释偏导、方向导数和梯度。"
+    },
+    {
+      "title": "如何处理这道含参三重积分？",
+      "url": "https://www.zhihu.com/answer/1707575485",
+      "summary": "正文系统处理含参三重积分的换元与累次积分。"
+    },
+    {
+      "title": "请问这个三重积分怎么计算？",
+      "url": "https://www.zhihu.com/answer/1708026964",
+      "summary": "正文系统处理含参三重积分的换元与累次积分。"
+    },
+    {
+      "title": "∫cosx²dx怎么求？",
+      "url": "https://www.zhihu.com/answer/1716845514",
+      "summary": "正文用含参二重积分和极坐标计算反常积分。"
+    },
+    {
+      "title": "如何理解矩阵对矩阵求导？",
+      "url": "https://www.zhihu.com/answer/1748076922",
+      "summary": "正文直接讨论或推导「多元微积分」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "如何计算妹红的二重积分？",
+      "url": "https://www.zhihu.com/answer/1760578520",
+      "summary": "正文构造球坐标变换并计算雅可比行列式。"
+    },
+    {
+      "title": "对于非数学专业来说，微积分和线性代数会有很大的关系吗？",
+      "url": "https://www.zhihu.com/answer/1764082925",
+      "summary": "正文系统解释线性代数对多元微积分与可微性的作用。"
+    },
+    {
+      "title": "为什么该图形红蓝面积相等?",
+      "url": "https://www.zhihu.com/answer/1765415681",
+      "summary": "正文用二元函数偏导数证明面积变化率为零。"
+    },
+    {
+      "title": "为什么二重积分极坐标变换多一个r?",
+      "url": "https://www.zhihu.com/answer/1785537562",
+      "summary": "正文用雅可比行列式解释二重积分换元多出因子 r。"
+    },
+    {
+      "title": "梯度（gradient）到底是个什么东西？物理意义和数学意义分别是什么？",
+      "url": "https://www.zhihu.com/answer/1827501472",
+      "summary": "正文以多元函数和方向导数解释梯度的方向与大小。"
+    },
+    {
+      "title": "为什么 空间二阶导（拉普拉斯算子）这么重要？",
+      "url": "https://www.zhihu.com/answer/1831093667",
+      "summary": "正文用多元函数的差分、球面平均和梯度解释拉普拉斯算子。"
+    },
+    {
+      "title": "是怎么求出来的？",
+      "url": "https://www.zhihu.com/answer/1843583231",
+      "summary": "正文讨论二重积分区域、换元和多元积分计算。"
+    },
+    {
+      "title": "一个无限大的平板产生的万有引力是多少？",
+      "url": "https://www.zhihu.com/answer/1853457059",
+      "summary": "正文通过面积微元和对称性计算无限大平板的引力。"
+    },
+    {
+      "title": "偏导数存在和连续分别怎么证明?",
+      "url": "https://www.zhihu.com/answer/1854138971",
+      "summary": "正文区分多元函数偏导存在与连续，并说明定义式证明。"
+    },
+    {
+      "title": "三重积分什么时候用先一后二，什么时候用先二后一呢？",
+      "url": "https://www.zhihu.com/answer/1857782618",
+      "summary": "正文按投影区域和截面形状选择三重积分次序。"
+    },
+    {
+      "title": "大二本科生的《数学物理方法》课程应该包含哪些内容？应该拓展到什么程度？",
+      "url": "https://www.zhihu.com/answer/1863160399",
+      "summary": "正文明确包含偏导、重积分、泰勒展开与向量微积分。"
+    },
+    {
+      "title": "怎么判断二重积分是x型还是y型？",
+      "url": "https://www.zhihu.com/answer/1864634731",
+      "summary": "正文用穿线法判断二重积分区域类型并化为累次积分。"
+    },
+    {
+      "title": "二重积分中给出极坐标D区域，如何转化为直角坐标？",
+      "url": "https://www.zhihu.com/answer/1868876708",
+      "summary": "正文把极坐标二重积分转换成直角坐标下的两种累次积分。"
+    },
+    {
+      "title": "第二类曲面积分用投影法求的时候正负怎么判断？",
+      "url": "https://www.zhihu.com/answer/1877138892",
+      "summary": "正文通过曲面法向量与投影方向判断第二类曲面积分符号。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/1887487579",
+      "summary": "正文用微分形式和外微分解释多元函数全微分。"
+    },
+    {
+      "title": "三重积分什么时候用先一后二，什么时候用先二后一呢？",
+      "url": "https://www.zhihu.com/answer/1887765359",
+      "summary": "正文系统比较三重积分的投影法、截面法和不同坐标系。"
+    },
+    {
+      "title": "什么叫对方程两端求全微分啊？",
+      "url": "https://www.zhihu.com/answer/1896033454",
+      "summary": "正文用隐函数和偏导数解释多元方程的微分。"
+    },
+    {
+      "title": "想请教各位老师，多元函数中二阶偏导数的几何意义？以及二阶混合偏导数的几何意义到底是什么？",
+      "url": "https://www.zhihu.com/answer/1924176638",
+      "summary": "正文直接讨论并支撑「多元微积分」相关内容。"
+    },
+    {
+      "title": "二重积分怎么交换次序？",
+      "url": "https://www.zhihu.com/answer/1940315812",
+      "summary": "正文讨论二重积分及其向三重积分、曲面积分的推广。"
+    },
+    {
+      "title": "曲面积分怎么换dydz成dxdy?",
+      "url": "https://www.zhihu.com/answer/1974157404",
+      "summary": "正文讲解曲面积分微元与法向量方向余弦的转换。"
+    },
+    {
+      "title": "你遇到的最难的一个数学题是什么？",
+      "url": "https://www.zhihu.com/answer/1987636300",
+      "summary": "正文是多元几何体的体积与微元问题。"
+    },
+    {
+      "title": "第二类曲面积分化为二重积分时微元是怎么转化的？",
+      "url": "https://www.zhihu.com/answer/1990420746",
+      "summary": "正文解释曲面积分的方向余弦和二重积分换元。"
+    },
+    {
+      "title": "微分形式有什么实际上的用处？难道它仅仅是为了一个表示形式上的方便吗？相关内容的书籍有什么推荐？",
+      "url": "https://www.zhihu.com/answer/1997677074",
+      "summary": "正文说明微分形式在积分、场论公式和几何中的应用。"
+    },
+    {
+      "title": "请问abaqus里面几何非线性nlgeom开与不开，内部算法有什么区别吗？",
+      "url": "https://www.zhihu.com/answer/2004164896",
+      "summary": "正文用位移梯度和二阶项区分柯西应变与格林应变。"
+    },
+    {
+      "title": "在高等数学重积分中，格林公式、高斯公式、斯托克斯公式的关联是什么样的？",
+      "url": "https://www.zhihu.com/answer/2006921486",
+      "summary": "正文以微分形式统一格林、高斯和斯托克斯公式。"
+    },
+    {
+      "title": "请问这道题能不能带值计算？",
+      "url": "https://www.zhihu.com/answer/2044482145",
+      "summary": "正文在多元函数中令偏导为零求极值。"
+    },
+    {
+      "title": "为什么在海战中打中司令塔的可能性微乎其微，二战中的战舰仍然要给舰桥最好的保护呢？",
+      "url": "https://www.zhihu.com/answer/2068748821",
+      "summary": "正文以多变量函数偏导衡量各部位装甲体积的边际收益。"
+    },
+    {
+      "title": "怎样理解倒三角算子 ∇ 作用于一个矢量？",
+      "url": "https://www.zhihu.com/answer/2079219102",
+      "summary": "正文用多元偏导解释散度与拉普拉斯算符。"
+    },
+    {
+      "title": "CES效用函数推导?",
+      "url": "https://www.zhihu.com/answer/2152848754",
+      "summary": "正文用偏导数和多变量函数解释边际替代率。"
+    },
+    {
+      "title": "曲面积分学不上了，怎么办呀？看书感觉也懂，但一做题目就蒙了。而且一题目有好几种解法，不准选哪种方法。？",
+      "url": "https://www.zhihu.com/answer/2154232415",
+      "summary": "正文归纳第二型曲面积分的投影、换面等多种解法。"
+    },
+    {
+      "title": "二重积分在极坐标系下怎么转换积分顺序？",
+      "url": "https://www.zhihu.com/answer/2191748469",
+      "summary": "正文完整讨论二重积分在极坐标下的换元与累次积分。"
+    },
+    {
+      "title": "Jacobian矩阵和Hessian矩阵的作用是什么？",
+      "url": "https://www.zhihu.com/answer/2198273249",
+      "summary": "正文定义 Jacobian 与 Hessian，并解释多元导数的几何意义。"
+    },
+    {
+      "title": "质心和形心到底是哪个公式?",
+      "url": "https://www.zhihu.com/answer/2219888244",
+      "summary": "正文把立体形心计算联系到二重积分和三重积分。"
+    },
+    {
+      "title": "怎么理解立体角，立体角的意义是什么，能不能通过平面角作为工具去理解立体角？",
+      "url": "https://www.zhihu.com/answer/2266950884",
+      "summary": "正文用多元积分中的球坐标面积元推出立体角微元。"
+    },
+    {
+      "title": "你觉得定积分有什么意义？",
+      "url": "https://www.zhihu.com/answer/2270506821",
+      "summary": "正文由多个变量与不同坐标系扩展到多重积分和曲线曲面积分。"
+    },
+    {
+      "title": "如何理解坡印廷定理的推导过程？",
+      "url": "https://www.zhihu.com/answer/2296619033",
+      "summary": "正文使用向量微积分和散度定理推导能量守恒形式。"
+    },
+    {
+      "title": "曲面中某点切平面的法向量为什么等于该点的偏导数?能否重点从几何上验证?",
+      "url": "https://www.zhihu.com/answer/2301357863",
+      "summary": "正文从曲面方程、切向量和偏导数解释切平面法向量。"
+    },
+    {
+      "title": "中国大陆应该如何武力统一台湾？",
+      "url": "https://www.zhihu.com/answer/2309152419",
+      "summary": "正文使用二重积分和数值积分完成多维体积计算。"
+    },
+    {
+      "title": "pytorch是如何实现对loss进行反向传播计算梯度的？",
+      "url": "https://www.zhihu.com/answer/2314879837",
+      "summary": "正文使用多变量偏导数和链式法则组织计算图反向传播。"
+    },
+    {
+      "title": "如何理解矩阵对矩阵求导？",
+      "url": "https://www.zhihu.com/answer/2324685119",
+      "summary": "正文列出标量、向量和矩阵之间求导的多元微积分公式。"
+    },
+    {
+      "title": "如何用各学科专业知识拜年？",
+      "url": "https://www.zhihu.com/answer/2329454842",
+      "summary": "正文通过参数曲面、叉积与通量计算展示多元微积分。"
+    },
+    {
+      "title": "工科生对数学的把握程度要多深？",
+      "url": "https://www.zhihu.com/answer/2336999192",
+      "summary": "正文概括微积分对复杂问题线性化、积分和取极限的方法。"
+    },
+    {
+      "title": "物理计算过程中，对高阶小量的约去究竟是物理层面上的近似，还是数学层面上的严格相等？",
+      "url": "https://www.zhihu.com/answer/2337578782",
+      "summary": "正文直接解释多元函数全微分的线性主部。"
+    },
+    {
+      "title": "如何理解曲线积分？",
+      "url": "https://www.zhihu.com/answer/2341811167",
+      "summary": "正文把曲线积分与一元积分和多元微积分联系起来。"
+    },
+    {
+      "title": "美术工作者如何点亮TA的技术（Technical ）技能树？",
+      "url": "https://www.zhihu.com/answer/2356306675",
+      "summary": "正文用半球可见性函数积分解释环境光遮蔽。"
+    },
+    {
+      "title": "直角坐标与极坐标的互化中，为什么 dxdy=rdrdθ？",
+      "url": "https://www.zhihu.com/answer/2374425677",
+      "summary": "正文严格微分 x=r cosθ、y=r sinθ 推导多元积分面积微元。"
+    },
+    {
+      "title": "梯度（gradient）到底是个什么东西？物理意义和数学意义分别是什么？",
+      "url": "https://www.zhihu.com/answer/2375596780",
+      "summary": "正文用山坡、方向导数和等高线解释多元函数的梯度及其几何意义。"
+    },
+    {
+      "title": "矢量点乘梯度算符和梯度算符点乘矢量是不是一样的？",
+      "url": "https://www.zhihu.com/answer/2376988543",
+      "summary": "正文用作用顺序解释向量点乘梯度算符与梯度算符点乘向量的差别。"
+    },
+    {
+      "title": "为什么会说 Stokes 公式是显然的？",
+      "url": "https://www.zhihu.com/answer/2383184719",
+      "summary": "正文用微分形式解释多元微积分中的斯托克斯公式。"
+    },
+    {
+      "title": "怎样理解二重积分的对称性?",
+      "url": "https://www.zhihu.com/answer/2387098272",
+      "summary": "正文按积分区域关于坐标轴、原点和直线对称的情形讨论二重积分。"
+    },
+    {
+      "title": "怎样评价华东师大《数学分析》？",
+      "url": "https://www.zhihu.com/answer/2391173229",
+      "summary": "正文讨论多元函数微分、线性近似以及多元微积分的组织方式。"
+    },
+    {
+      "title": "学电动力学过了半个学期，不会推导磁偶极子的磁场分布公式怎么办？",
+      "url": "https://www.zhihu.com/answer/2397598584",
+      "summary": "正文通过向量势、旋度和散度恒等式推导磁偶极子的磁场。"
+    },
+    {
+      "title": "如何通俗易懂地解释外微分？",
+      "url": "https://www.zhihu.com/answer/2398504189",
+      "summary": "正文以梯度、散度、旋度的统一解释多元微积分中的微分形式。"
+    },
+    {
+      "title": "三重积分的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/2404655343",
+      "summary": "正文在三维区域上积分体密度，解释多元微积分中的三重积分意义。"
+    },
+    {
+      "title": "AI，ML 方向的博士新生如何针对性地复习(或重新学习)一遍数学？",
+      "url": "https://www.zhihu.com/answer/2426419908",
+      "summary": "正文直接说明反向传播对多元偏导的需求，对应多元微积分。"
+    },
+    {
+      "title": "偏导函数连续明明只是x，y两个方向上的连续，为什么它这么强可以推出全微分的存在呢?",
+      "url": "https://www.zhihu.com/answer/2429060794",
+      "summary": "正文从二维邻域和全微分定义解释多元函数可微性的充分条件。"
+    },
+    {
+      "title": "什么时候可以用极坐标法求二重极限？",
+      "url": "https://www.zhihu.com/answer/2454774580",
+      "summary": "正文以二元函数的重极限为例讲解多元微积分中的极限方法。"
+    },
+    {
+      "title": "为什么我无法理解一些大部分人显而易见的东西？",
+      "url": "https://www.zhihu.com/answer/2486462969",
+      "summary": "指出多重积分换元需要讨论映射是否单射、Jacobi 行列式是否退化以及积分区域。"
+    },
+    {
+      "title": "二维随机变量的边缘密度函数的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/2503091181",
+      "summary": "正文用二元概率密度曲面和固定 x 的截面积分解释边缘密度，涉及多元积分。"
+    },
+    {
+      "title": "已知实数x，y满足 x² + y² = 1，如何求 (ax + b)(cy + d) 的取值范围？",
+      "url": "https://www.zhihu.com/answer/2539461100",
+      "summary": "用二元函数的拉格朗日乘数法处理约束极值。"
+    },
+    {
+      "title": "计算\"可形变的弹性绳\"的悬链线方程算不下去了，该问题存在初等函数形式的解吗？",
+      "url": "https://www.zhihu.com/answer/2540632427",
+      "summary": "对含多个广义坐标的势能函数求偏导并解平衡方程组。"
+    },
+    {
+      "title": "柯西黎曼条件的本质以及几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/2540945033",
+      "summary": "把复变函数视为 R² 到 R² 的实光滑映射，通过 Jacobian 与偏导比较实部虚部。"
+    },
+    {
+      "title": "柯西黎曼条件的本质以及几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/2541139659",
+      "summary": "对二元实函数 u(x,y)、v(x,y) 分别取偏导，比较水平与竖直方向的变化。"
+    },
+    {
+      "title": "e^x 与 lnx 的最短距离是多少？",
+      "url": "https://www.zhihu.com/answer/2542983183",
+      "summary": "对两点距离平方的二元函数分别求偏导并联立。"
+    },
+    {
+      "title": "如何求均匀带电旋转椭球的电势能？",
+      "url": "https://www.zhihu.com/answer/2549581918",
+      "summary": "用椭球坐标变换、雅可比行列式与多重积分计算电势能。"
+    },
+    {
+      "title": "如何直观形象地理解梯度、散度、旋度？",
+      "url": "https://www.zhihu.com/answer/2577700310",
+      "summary": "从偏导数、方向导数、通量和环量出发推导梯度、散度与旋度。"
+    },
+    {
+      "title": "Lagrange 是怎么想出来Lagrange乘子法的？",
+      "url": "https://www.zhihu.com/answer/2584665110",
+      "summary": "系统讲解多元函数梯度、条件极值的一阶与二阶必要条件。"
+    },
+    {
+      "title": "隐函数怎么求导？",
+      "url": "https://www.zhihu.com/answer/2592581985",
+      "summary": "用偏导数与链式法则给出隐函数求导公式，并以椭圆切线斜率为例。"
+    },
+    {
+      "title": "多元微积分之前是否有必要先上线性代数？",
+      "url": "https://www.zhihu.com/answer/2609219508",
+      "summary": "系统说明多元微分、重积分与向量分析如何用线性代数解释。"
+    },
+    {
+      "title": "高一开学，同学在讨论偏导函数、四阶导数，我该怎么办？",
+      "url": "https://www.zhihu.com/answer/2643319978",
+      "summary": "讨论偏导数与拉格朗日乘数法在高中和多元微积分中的位置。"
+    },
+    {
+      "title": "为什么在矢量分析中，梯度无旋，旋度无散？",
+      "url": "https://www.zhihu.com/answer/2663399910",
+      "summary": "用通量、环量与极限定义散度、旋度和梯度，并推导高斯公式与斯托克斯公式。"
+    },
+    {
+      "title": "向量点乘的实质是什么？",
+      "url": "https://www.zhihu.com/answer/2663409261",
+      "summary": "用偏导、通量与环量解释散度、旋度和梯度，并推导高斯公式与斯托克斯公式。"
+    },
+    {
+      "title": "如何直观形象地理解梯度、散度、旋度？",
+      "url": "https://www.zhihu.com/answer/2663436569",
+      "summary": "用通量、环量与偏导极限直观解释散度、旋度和梯度。"
+    },
+    {
+      "title": "为什么要使用无迹卡尔曼滤波和扩展卡尔曼滤波，他们与卡尔曼滤波相比优点在哪？",
+      "url": "https://www.zhihu.com/answer/2672690505",
+      "summary": "正文把矩阵状态方程视为多元函数组合，并通过偏导数构造雅可比矩阵。"
+    },
+    {
+      "title": "为什么要学《机器人学导论》 这本书？",
+      "url": "https://www.zhihu.com/answer/2673726358",
+      "summary": "正文以各变量偏导数组成雅可比矩阵，讨论多元向量函数的导数与速度传递。"
+    },
+    {
+      "title": "有哪些值得推荐的数学分析教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/2674662330",
+      "summary": "正文展开多元函数微分学中的隐函数定理，并讨论重积分换元及流形上的积分。"
+    },
+    {
+      "title": "你见过什么复杂到让你目瞪口呆的公式？",
+      "url": "https://www.zhihu.com/answer/2696840094",
+      "summary": "正文用各变量的二阶偏导数展开拉普拉斯算符，并讨论矢量函数的二阶微分运算。"
+    },
+    {
+      "title": "求问各位数学大佬，定积分的积分表达式中的dx到底有没有含义，到底是不是自变量的微分？",
+      "url": "https://www.zhihu.com/answer/2718271748",
+      "summary": "正文以三元标量函数的全微分展开多元函数微分，并给出雅可比矩阵形式的基变换。"
+    },
+    {
+      "title": "老师说链式法则里某个 dy/dx 不能理解为 dy 除以 dx，为什么？",
+      "url": "https://www.zhihu.com/answer/2737251422",
+      "summary": "指出多元函数中偏导数不能当作普通微商，并解释多元链式法则的风险。"
+    },
+    {
+      "title": "散度和旋度的物理意义是什么？",
+      "url": "https://www.zhihu.com/answer/2747752390",
+      "summary": "正文系统定义散度、旋度与梯度，并推导高斯公式和斯托克斯公式。"
+    },
+    {
+      "title": "怎么记住斯托克斯公式（Stokes' theorem）？",
+      "url": "https://www.zhihu.com/answer/2774294674",
+      "summary": "正文用环量面密度定义旋度，再由面元累加和边界相消导出斯托克斯公式，属于多元微积分。"
+    },
+    {
+      "title": "怎么记住斯托克斯公式（Stokes' theorem）？",
+      "url": "https://www.zhihu.com/answer/2774477397",
+      "summary": "正文用旋度和环量的关系解释斯托克斯公式，说明曲面内部旋度累积等于边界环量。"
+    },
+    {
+      "title": "如何通俗地解释泰勒公式？",
+      "url": "https://www.zhihu.com/answer/2785809587",
+      "summary": "正文单独展开多元函数泰勒公式，并写出二元函数到二阶的偏导数项。"
+    },
+    {
+      "title": "求问这个六重积分怎么算?",
+      "url": "https://www.zhihu.com/answer/2806297115",
+      "summary": "正文通过球面几何和积分求出两点的联合距离分布，从而计算六重积分。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2830715804",
+      "summary": "正文通过多变量函数的定义域和值域说明微分是 R^n 到 R^m 的线性映射，实质解释了多元微分。"
+    },
+    {
+      "title": "如何求解这个与 波兰中学生无穷电阻网络 有关的三重积分？",
+      "url": "https://www.zhihu.com/answer/2835107636",
+      "summary": "正文围绕立方区域上的三重积分进行变量展开、降维和多重积分计算。"
+    },
+    {
+      "title": "刚开始学导数，是不是求导有这样的规律？",
+      "url": "https://www.zhihu.com/answer/2860443429",
+      "summary": "正文以多元向量函数为对象，写出各变量和中间函数之间的偏导关系，属于多元微积分。"
+    },
+    {
+      "title": "请问一个文科生应该怎样获得文明社会所应该具有的理科科学素养？",
+      "url": "https://www.zhihu.com/answer/2862496877",
+      "summary": "正文给出一元微积分概念向多维推广的具体路径，并提到多元函数的导数与高阶信息。"
+    },
+    {
+      "title": "准研一，导师让学习pytroch，之前没接触过机器学习，是直接学pytorch还是先学机器学习？",
+      "url": "https://www.zhihu.com/answer/2862750258",
+      "summary": "正文说明入门深度学习需要掌握多元函数偏导数和梯度下降。"
+    },
+    {
+      "title": "刚开始学导数，是不是求导有这样的规律？",
+      "url": "https://www.zhihu.com/answer/2864672151",
+      "summary": "正文给出多元函数全微分由各偏导数与自变量微分线性组合而成的公式。"
+    },
+    {
+      "title": "球谐函数是什么？",
+      "url": "https://www.zhihu.com/answer/2931277533",
+      "summary": "正文把三维 Laplace 算符分离为径向项与球面角向项，并用偏导算符研究其本征函数。"
+    },
+    {
+      "title": "hessian矩阵的特征向量有什么含义？",
+      "url": "https://www.zhihu.com/answer/2963597775",
+      "summary": "正文用二元函数的梯度、二阶偏导和二次近似判断临界点类型，属于多元微积分方法。"
+    },
+    {
+      "title": "如何理解矩阵对矩阵求导？",
+      "url": "https://www.zhihu.com/answer/2968754025",
+      "summary": "正文从标量求导推广到向量和矩阵的偏导，并说明多维求导的布局与链式规则。"
+    },
+    {
+      "title": "要入行机器学习是不是非学数学不可？要学到什么程度，如何才能提高数学水平？",
+      "url": "https://www.zhihu.com/answer/3002690154",
+      "summary": "正文指出机器学习更依赖多元微积分，并以梯度、黑塞矩阵和多元高斯分布说明其用途。"
+    },
+    {
+      "title": "偏导函数连续明明只是x，y两个方向上的连续，为什么它这么强可以推出全微分的存在呢?",
+      "url": "https://www.zhihu.com/answer/3005519269",
+      "summary": "正文以线性近似定义多元函数可微，并用余项、中值定理和偏导数连续性证明可微性定理。"
+    },
+    {
+      "title": "真的会有人觉得数学或者物理公式很美吗？凭心而论，不要为了培养兴趣硬逼着自己去发现它的美?",
+      "url": "https://www.zhihu.com/answer/3039388543",
+      "summary": "正文解释定理把 n 维区域上的积分与 n-1 维边界上的积分联系起来，突出多元积分的边界关系。"
+    },
+    {
+      "title": "有没有谁通俗的讲一下Denoising score matching?",
+      "url": "https://www.zhihu.com/answer/3057023165",
+      "summary": "正文把 score 解释为对数概率密度对输入向量的偏导数与梯度方向，并代入高斯密度推导其具体形式。"
+    },
+    {
+      "title": "怎么更好的理解拉格朗日乘数法？",
+      "url": "https://www.zhihu.com/answer/3062648837",
+      "summary": "正文用二元函数的梯度和约束曲线讨论条件极值，属于多元微积分中梯度与极值方法的应用。"
+    },
+    {
+      "title": "初中竞赛：x+y+z=1，求xy+2yz+3zx的最大值？",
+      "url": "https://www.zhihu.com/answer/3126662505",
+      "summary": "正文对拉格朗日函数分别求各变量和乘子的偏导，并联立偏导方程组求驻点。"
+    },
+    {
+      "title": "海塞（Hessian）矩阵是否有特殊几何意义？",
+      "url": "https://www.zhihu.com/answer/3144383101",
+      "summary": "正文以多元标量函数的二阶偏导数定义 Hessian，并讨论混合偏导和极值判别。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/3172635732",
+      "summary": "正文在n元函数及其偏导框架中构造并可继续微分，具体讨论多元函数的二阶微分。"
+    },
+    {
+      "title": "变分法的基本原理是什么？",
+      "url": "https://www.zhihu.com/answer/3193263235",
+      "summary": "正文通过三维空间函数的增量展开和一阶微分推出驻点处梯度为零，实质讲解多元函数的极值必要条件。"
+    },
+    {
+      "title": "微分符号，dx，dy到底是什么含义？",
+      "url": "https://www.zhihu.com/answer/3219921506",
+      "summary": "正文通过二元函数的全微分公式和隐函数 F(x,y)=c 的求导，具体展开多元微积分。"
+    },
+    {
+      "title": "条件扩散模型是如何保证模型学到条件的？",
+      "url": "https://www.zhihu.com/answer/3234439146",
+      "summary": "正文对条件对数密度的多维梯度进行分解，并将分类器梯度加入噪声预测和均值更新。"
+    },
+    {
+      "title": "微积分与线性代数有关系吗？",
+      "url": "https://www.zhihu.com/answer/3306662593",
+      "summary": "正文介绍向量微积分对多元函数进行微分和积分，并讨论梯度、散度和旋度。"
+    },
+    {
+      "title": "积分符号∫你们都是怎么念的，比如∫xdx，念作斜summa、长s，还是积分？",
+      "url": "https://www.zhihu.com/answer/3325209240",
+      "summary": "正文列举多重、曲线、曲面和体积积分，解释各积分符号及记号中的区域和积分变量。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3344498205",
+      "summary": "正文讨论调和函数的Dirichlet问题，并把其解与最小化梯度平方积分的变分问题联系起来。"
+    },
+    {
+      "title": "一根长度为1的木棒，在垂直的墙角内滑动，则木棒由竖直变为水平的过程中，木棒扫过的面积是多少呢？",
+      "url": "https://www.zhihu.com/answer/3383795241",
+      "summary": "正文对含两个坐标和一个参数的直线族方程求偏导，并用所得关系消去参数求包络线。"
+    },
+    {
+      "title": "微积分到底是什么?",
+      "url": "https://www.zhihu.com/answer/3400174969",
+      "summary": "正文比较一元与多元情形，借偏导数和切平面线性近似解释多元函数的可微性。"
+    },
+    {
+      "title": "格林公式是在什么背景下被想出来的？",
+      "url": "https://www.zhihu.com/answer/3413681176",
+      "summary": "正文给出格林公式并利用偏导数和二重积分推导边界曲线积分与小矩形区域积分的关系。"
+    },
+    {
+      "title": "扩散模型中的Reverse Time SDE是怎么推导得到的呢？",
+      "url": "https://www.zhihu.com/answer/3421808487",
+      "summary": "正文在 d 维空间中使用偏导、梯度和散度运算整理 Fokker–Planck 方程。"
+    },
+    {
+      "title": "如何通俗地理解格林公式?",
+      "url": "https://www.zhihu.com/answer/3428880414",
+      "summary": "正文使用二元函数、偏导数、曲线积分和二重积分解释格林公式，属于多元微积分中的积分定理。"
+    },
+    {
+      "title": "如何通俗易懂地解释HJB方程？",
+      "url": "https://www.zhihu.com/answer/3429118538",
+      "summary": "正文用最优代价对状态和时间的偏导、全导数及链式关系推导 HJB 方程，实际使用多元微积分。"
+    },
+    {
+      "title": "二重积分到底该怎么理解？",
+      "url": "https://www.zhihu.com/answer/3451967650",
+      "summary": "正文先以黎曼和逼近曲顶柱体体积，再借助平面区域细分和极限引入多元函数的二重积分。"
+    },
+    {
+      "title": "如何理解拉格朗日乘子法？",
+      "url": "https://www.zhihu.com/answer/3461576941",
+      "summary": "正文用多元函数的微分、偏导数和独立变量讨论极值条件，具体展开了多元微积分方法。"
+    },
+    {
+      "title": "有没有谁通俗的讲一下Denoising score matching?",
+      "url": "https://www.zhihu.com/answer/3483500738",
+      "summary": "正文计算多维对数概率密度的偏导与再求导，将 score matching 目标解释为 Hessian 的迹。"
+    },
+    {
+      "title": "如果以后做代数方向,是不是完全没有必要学数分和高代?",
+      "url": "https://www.zhihu.com/answer/3485273515",
+      "summary": "正文用二元函数的局部最佳线性近似和雅可比矩阵解释复可微条件，属于多元微分方法。"
+    },
+    {
+      "title": "外微分形式为什么要是反对称的？Cartan当年为什么要这样定义？",
+      "url": "https://www.zhihu.com/answer/3486678510",
+      "summary": "正文用外微分推导 Green、Gauss 和空间 Stokes 公式的统一形式，属于多元微积分。"
+    },
+    {
+      "title": "“剪刀石头布”游戏中，出什么胜算最大？",
+      "url": "https://www.zhihu.com/answer/3490613919",
+      "summary": "正文对二元期望函数求偏导，并利用偏导数的符号和零点分析最优策略。"
+    },
+    {
+      "title": "老师说链式法则里某个 dy/dx 不能理解为 dy 除以 dx，为什么？",
+      "url": "https://www.zhihu.com/answer/3515205737",
+      "summary": "正文用三个变量互相依赖的偏导乘积关系，具体讨论多元函数偏导数与全微分的差异。"
+    },
+    {
+      "title": "别人问我的这个积分怎么做？",
+      "url": "https://www.zhihu.com/answer/3524606025",
+      "summary": "正文进一步写出多元三重积分，并说明通过直角坐标、球坐标和对称性变换处理该积分。"
+    },
+    {
+      "title": "17岁中专女生超越一众名校生，全球排名 12 闯入 2024 阿里全球数赛决赛，如何评价她的数学水平？",
+      "url": "https://www.zhihu.com/answer/3529190678",
+      "summary": "正文明确说明偏微分方程教材前四章需要以数学分析为基础，并具体强调多元微积分和散度定理的先修作用。"
+    },
+    {
+      "title": "如何理解二次型的几何意义？",
+      "url": "https://www.zhihu.com/answer/3533982584",
+      "summary": "正文用Hessian矩阵和正定性给出多元函数驻点处的极值判定。"
+    },
+    {
+      "title": "如何看待姜萍把「ƶ̇=b」抄写成了「主=6」 ？",
+      "url": "https://www.zhihu.com/answer/3540709912",
+      "summary": "正文定义二元函数 u(x,t) 沿参数路径 z(s) 的复合函数，并用偏导和链式法则化简方程。"
+    },
+    {
+      "title": "如何看待姜萍把「ƶ̇=b」抄写成了「主=6」 ？",
+      "url": "https://www.zhihu.com/answer/3542753336",
+      "summary": "正文使用梯度和多元链式法则处理关于空间与时间变量的函数。"
+    },
+    {
+      "title": "为什么圆的面积公式导数是其周长公式？",
+      "url": "https://www.zhihu.com/answer/3569206852",
+      "summary": "正文给出 n 维球上的多重积分公式，并以球体积与表面积为例说明多元微积分结论。"
+    },
+    {
+      "title": "本科生自学微分流形有哪些资料推荐？",
+      "url": "https://www.zhihu.com/answer/3586291169",
+      "summary": "正文以切向量作微分算子、微分形式和斯托克斯公式为线索，重构并推广多元微积分。"
+    },
+    {
+      "title": "高一开学，同学在讨论偏导函数、四阶导数，我该怎么办？",
+      "url": "https://www.zhihu.com/answer/4084922148",
+      "summary": "正文把含两个正参数的函数不等式转化为多变量问题，并对其中一个变量求导完成证明。"
+    },
+    {
+      "title": "如何理解勒让德变换？",
+      "url": "https://www.zhihu.com/answer/4092770110",
+      "summary": "正文把单变量勒让德变换推广到向量、多元凸函数及对偶空间，并讨论相应的雅可比矩阵条件。"
+    },
+    {
+      "title": "“鱼越大，鱼就越小”的推理过程中犯了什么错误?",
+      "url": "https://www.zhihu.com/answer/4710155074",
+      "summary": "正文设出三个变量并计算各偏导数的正负关系，用多变量偏导语言分析“鱼越大鱼越小”的悖论。"
+    },
+    {
+      "title": "二次型为什么被放到线性代数中？",
+      "url": "https://www.zhihu.com/answer/16787641696",
+      "summary": "正文通过Hessian矩阵的正定性系统讨论二元及多元函数极值判别。"
+    },
+    {
+      "title": "微分符号 dx、dy 表示什么含义？",
+      "url": "https://www.zhihu.com/answer/23293335943",
+      "summary": "解释二元函数微分以切平面作线性近似，并讨论可偏导不保证可微。"
+    },
+    {
+      "title": "有哪些量子场论算圈图的技巧值得分享？",
+      "url": "https://www.zhihu.com/answer/27552625281",
+      "summary": "正文处理两个圈动量上的多维积分，并通过变量替换化为重积分。"
+    },
+    {
+      "title": "x+y+z=2，x²+y²+z²=2，如何用高中方法求 xyz 最值？",
+      "url": "https://www.zhihu.com/answer/46260469625",
+      "summary": "正文对含 x、y、z 的拉格朗日乘子函数计算各变量偏导并建立偏导方程组。"
+    },
+    {
+      "title": "如果高考成绩用各科分数乘积而不是总和，会发生什么？",
+      "url": "https://www.zhihu.com/answer/60181892651",
+      "summary": "正文计算二元参数化后函数关于 c 的二阶偏导并据此判断函数下凸。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/61817143134",
+      "summary": "正文通过二重积分的区域变换和雅可比行列式计算积分值，展示多元微积分方法。"
+    },
+    {
+      "title": "求问这个六重积分怎么算?",
+      "url": "https://www.zhihu.com/answer/69049695063",
+      "summary": "正文以固定变量、逐层积分的方式讲解单位球上的六重积分计算。"
+    },
+    {
+      "title": "海塞（Hessian）矩阵是否有特殊几何意义？",
+      "url": "https://www.zhihu.com/answer/94587580311",
+      "summary": "正文系统讨论多元函数二阶导、Hessian矩阵和切平面，属于多元微积分。"
+    },
+    {
+      "title": "条件扩散模型是如何保证模型学到条件的？",
+      "url": "https://www.zhihu.com/answer/123676103525",
+      "summary": "正文对高维样本变量求对数概率的梯度，并据梯度分解解释引导项的构造。"
+    },
+    {
+      "title": "有哪些题目看着简单，但实际上做起来非常「折磨人」？",
+      "url": "https://www.zhihu.com/answer/129823870896",
+      "summary": "正文建立二重积分并先算内层积分、再代入外层积分完成平面区域上的计算。"
+    },
+    {
+      "title": "在数学学习中，你遇到过哪些有趣的同构？",
+      "url": "https://www.zhihu.com/answer/1891929981900276784",
+      "summary": "正文用梯度、散度和旋度的定义及恒等式，说明三维向量微积分如何统一为外微分语言。"
+    },
+    {
+      "title": "函数在某点的「梯度」和「微分」有什么不同？",
+      "url": "https://www.zhihu.com/answer/1893361872088068410",
+      "summary": "正文给出多元函数微分由各偏导数线性组合而成的公式，并说明梯度与微分的联系，实质讲解多元微积分。"
+    },
+    {
+      "title": "二重积分到底该怎么理解？",
+      "url": "https://www.zhihu.com/answer/1898584919166420591",
+      "summary": "正文系统讲解二重、三重积分的几何意义、切片累加以及投影法和截面法。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/1900338771829978785",
+      "summary": "正文利用二重积分对拼接区域的可加性，把大矩形积分拆成小矩形积分之和。"
+    },
+    {
+      "title": "一辈子没有学过微积分会不会遗憾？",
+      "url": "https://www.zhihu.com/answer/1903088089477411244",
+      "summary": "正文系统讲解二重、三重积分及第一类曲线积分，并用投影、截面和逐次降维处理多元积分。"
+    },
+    {
+      "title": "为什么会定义矩阵的迹？",
+      "url": "https://www.zhihu.com/answer/1909010720248542994",
+      "summary": "用 Jacobian 的迹定义散度，并解释向量场对局部体积的膨胀或压缩。"
+    },
+    {
+      "title": "格林公式、姆巴佩公式、伊布公式，你认为最让当事球员尴尬的是哪个？",
+      "url": "https://www.zhihu.com/answer/1913247039405401375",
+      "summary": "正文给出格林公式及 P、Q 需要一阶连续偏导数的适用条件，属于多元微积分中的平面积分定理。"
+    },
+    {
+      "title": "如何评价 2025 高考数学试卷？今年题目难度如何？有哪些变化？",
+      "url": "https://www.zhihu.com/answer/1915088622748669101",
+      "summary": "正文把目标写成含 x 与参数 φ 的二元函数，对其求偏导数并据此消去内层最大值。"
+    },
+    {
+      "title": "如何解释薛定谔方程无法伽利略变换？",
+      "url": "https://www.zhihu.com/answer/1928043996590113534",
+      "summary": "正文写出含时间和空间偏导、梯度与拉普拉斯算子的多维波函数方程。"
+    },
+    {
+      "title": "掌握什么思想会让你的数学水平有质的飞跃?",
+      "url": "https://www.zhihu.com/answer/1928190449547449106",
+      "summary": "正文通过外微分统一解释多元微积分中梯度、旋度和散度的恒等式。"
+    },
+    {
+      "title": "求所有满足性质f(x+y)f(x-y)=f(x)^2-f(y)^2的函数f(x)？",
+      "url": "https://www.zhihu.com/answer/1929710186970460808",
+      "summary": "正文对二元函数两侧依次求偏导并计算混合偏导，得到只含二阶导数的关系。"
+    },
+    {
+      "title": "已知f(x-y)+f(x+y)=f(x)f(y)求f(x)?",
+      "url": "https://www.zhihu.com/answer/1930084661142488394",
+      "summary": "正文对方程两边关于y求二阶偏导，再把y取零以消去变量得到常微分方程。"
+    },
+    {
+      "title": "王朝周期律的根本是什么？",
+      "url": "https://www.zhihu.com/answer/1930953221926532275",
+      "summary": "正文计算各状态变量变化率的偏导数组成雅可比矩阵，并用它分析不动点附近的局部动力学。"
+    },
+    {
+      "title": "一根长度为1的木棒，在垂直的墙角内滑动，则木棒由竖直变为水平的过程中，木棒扫过的面积是多少呢？",
+      "url": "https://www.zhihu.com/answer/1941353956111552921",
+      "summary": "正文对含坐标和参数的曲线族求偏导，并联立方程消去参数得到包络线。"
+    },
+    {
+      "title": "钱学森说「人就算再笨还能学不会微积分吗」，难道智力正常的人都能学会微积分吗？",
+      "url": "https://www.zhihu.com/answer/1941988341718417730",
+      "summary": "正文具体描述了把二维区域上的运动问题建成二重积分、确定边界条件并求解的过程。"
+    },
+    {
+      "title": "在高等数学重积分中，格林公式、高斯公式、斯托克斯公式的关联是什么样的？",
+      "url": "https://www.zhihu.com/answer/1942166791028708804",
+      "summary": "正文从微积分基本定理讲到格林、斯托克斯和高斯公式，系统展示多元积分中区域内部与边界的关系。"
+    },
+    {
+      "title": "钱学森说「人就算再笨还能学不会微积分吗」，难道智力正常的人都能学会微积分吗？",
+      "url": "https://www.zhihu.com/answer/1943703268703340105",
+      "summary": "正文继续介绍利用计算工具处理二重积分和三重积分。"
+    },
+    {
+      "title": "请问这个积分要用什么方法计算？",
+      "url": "https://www.zhihu.com/answer/1950523313416807972",
+      "summary": "正文通过多复变量系数提取、雅可比换元和二重轮廓积分完成证明，实质使用多元微积分方法。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/1952818826044506449",
+      "summary": "正文用广义斯托克斯定理统一讨论散度定理、格林公式及高维积分与边界积分的关系。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/1953866858785646334",
+      "summary": "正文展开高维函数的梯度、雅可比矩阵、复合求导和拉格朗日乘子等多元微积分内容。"
+    },
+    {
+      "title": "Fourier分析对后续数学学习有何帮助?",
+      "url": "https://www.zhihu.com/answer/1956968803494765484",
+      "summary": "正文在R^n上讨论连续函数及其C^1可微性，用多元函数的梯度和高阶导数构造Sobolev范数。"
+    },
+    {
+      "title": "面积微分dxdy为什么是叉乘？",
+      "url": "https://www.zhihu.com/answer/1958192955027338969",
+      "summary": "正文把可微曲面视为局部线性化映射并计算面积缩放，实质讨论多元微积分的曲面积分。"
+    },
+    {
+      "title": "房间内有 100 人，每人有 100 块，每分钟随机给另一个人 1 块，最后房间内的财富分布怎样？",
+      "url": "https://www.zhihu.com/answer/1962182873164543991",
+      "summary": "正文对多变量的对数排列数求全微分，结合人数守恒和乘子条件推导极值分布。"
+    },
+    {
+      "title": "为什么外微分恰好能表达梯度、旋度、散度？",
+      "url": "https://www.zhihu.com/answer/1965110106451588550",
+      "summary": "正文通过梯度、旋度和散度的线积分、面积分与体积分公式展开多元微积分内容。"
+    },
+    {
+      "title": "为什么外微分恰好能表达梯度、旋度、散度？",
+      "url": "https://www.zhihu.com/answer/1968074723092063010",
+      "summary": "正文定义梯度、旋度与散度，并用方向导数、曲线积分、曲面积分和体积分系统展开多元微积分。"
+    },
+    {
+      "title": "为什么外微分恰好能表达梯度、旋度、散度？",
+      "url": "https://www.zhihu.com/answer/1968515165336080742",
+      "summary": "正文系统讨论向量场的梯度、散度、旋度及其与外微分的关系。"
+    },
+    {
+      "title": "请问正态分布公式是如何发现或计算出来的？",
+      "url": "https://www.zhihu.com/answer/1968862550155306934",
+      "summary": "正文用二元函数图像和切片方式详细解释偏导数的意义及计算方法。"
+    },
+    {
+      "title": "全纯函数会表现出不同于实可微函数的性质的根本原因是什么？",
+      "url": "https://www.zhihu.com/answer/1970384878777397283",
+      "summary": "正文用可微映射、Jacobian退化和隐函数定理比较全纯函数与一般多变量可微函数，解释开映射性质。"
+    },
+    {
+      "title": "为什么微积分那么难学？",
+      "url": "https://www.zhihu.com/answer/1972264492445459884",
+      "summary": "正文把梯度解释为多元函数的导数，并说明其向量方向与函数值增长的关系。"
+    },
+    {
+      "title": "外微分形式为什么要是反对称的？Cartan当年为什么要这样定义？",
+      "url": "https://www.zhihu.com/answer/1975210151096119634",
+      "summary": "正文由向量场雅可比矩阵的反对称部分得到旋度，并联系 Stokes 定理。"
+    },
+    {
+      "title": "如何直观形象地理解梯度、散度、旋度？",
+      "url": "https://www.zhihu.com/answer/1976210792266362989",
+      "summary": "正文通过微小位移导致的向量场分量变化，解释散度与旋度的几何意义及计算。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/1977800909607179320",
+      "summary": "正文用极坐标下的二重积分计算高斯积分，是多元积分的应用。"
+    },
+    {
+      "title": "如何求函数y=e^x与y=lnx的最近距离？",
+      "url": "https://www.zhihu.com/answer/1978716289968145791",
+      "summary": "正文把两点距离写成二元函数，并用两个偏导数为零建立极值条件。"
+    },
+    {
+      "title": "怎么解决这个广义积分呢？",
+      "url": "https://www.zhihu.com/answer/1978953818533274607",
+      "summary": "正文把原积分展开成三重积分，确定积分区域、交换积分次序并逐层求值。"
+    },
+    {
+      "title": "球谐函数是什么？",
+      "url": "https://www.zhihu.com/answer/1979930066906539831",
+      "summary": "正文在多维极坐标和球坐标中展开 Laplace 算子，并讨论径向、角向偏导项及分离变量。"
+    },
+    {
+      "title": "你听过导师最有水平的一句话是什么？",
+      "url": "https://www.zhihu.com/answer/1981108749386142115",
+      "summary": "正文用张量场的梯度、散度、旋度和体积分转曲面积分的形式推导魔法场，实质展开了多元微积分运算。"
+    },
+    {
+      "title": "为什么外微分恰好能表达梯度、旋度、散度？",
+      "url": "https://www.zhihu.com/answer/1986948505189770164",
+      "summary": "正文具体写出并比较一元、二维和三维向量微积分中的梯度、散度、旋度公式。"
+    },
+    {
+      "title": "Jacobian矩阵和Hessian矩阵的作用是什么？",
+      "url": "https://www.zhihu.com/answer/1995037756607456843",
+      "summary": "正文用局部线性近似和二阶泰勒展开解释多元函数的 Jacobian 与 Hessian，属于多元微积分。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2000337379244938009",
+      "summary": "正文用矩阵乘法和链式法则说明多元复合函数的导数，并讨论多重积分中的微分形式。"
+    },
+    {
+      "title": "正态分布的公式是怎么推出来的？",
+      "url": "https://www.zhihu.com/answer/2001848323745789365",
+      "summary": "正文专门讲解二元函数的偏导数与偏导函数，并用各偏导为零求极大值来完成多参数似然推导。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2003431213382247368",
+      "summary": "讨论多元函数的全微分、偏导数、雅可比矩阵及高阶微分在多元情形下的含义。"
+    },
+    {
+      "title": "如何才能真正理解微积分的核心思想，而不是仅仅停留在计算层面？",
+      "url": "https://www.zhihu.com/answer/2006862774140162127",
+      "summary": "正文用雅可比矩阵和任意方向的变化说明多元微分的局部线性结构。"
+    },
+    {
+      "title": "有哪些数学问题有经典的物理学证明或解释？",
+      "url": "https://www.zhihu.com/answer/2011976896502585275",
+      "summary": "正文用两个变量函数的偏导数建立极值条件，属于多元微积分。"
+    },
+    {
+      "title": "微积分体系几百年前就建立起来了，为什么我们现在学习它仍存在困难？",
+      "url": "https://www.zhihu.com/answer/2015062701626373287",
+      "summary": "正文以数十亿参数的模型为例，说明偏导数方程和多维梯度在多元微积分中的角色。"
+    },
+    {
+      "title": "莱布尼兹发明的微积分符号比牛顿的好在啥地方？",
+      "url": "https://www.zhihu.com/answer/2015439093702611876",
+      "summary": "正文讨论多元函数的偏导关系、雅可比矩阵以及多维变量下求导符号的表达问题。"
+    },
+    {
+      "title": "微积分体系几百年前就建立起来了，为什么我们现在学习它仍存在困难？",
+      "url": "https://www.zhihu.com/answer/2017660904855057770",
+      "summary": "正文把梯度解释为导数向高维空间的推广，并讨论反向传播和梯度消失。"
+    },
+    {
+      "title": "既然x²＝x+x+…+x（x个x），那为啥两边求导结果不同？",
+      "url": "https://www.zhihu.com/answer/2019487571642689164",
+      "summary": "正文定义二元函数 f(x,y)，计算两个偏导数并利用多元复合函数求导解释原题。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/2023492927855306472",
+      "summary": "正文对二元多项式求偏导，并用二阶偏导构成的行列式及两个函数的雅可比行列式表达其他多项式。"
+    },
+    {
+      "title": "既然x+2＝3的解是x＝1，那为啥两边求导的结果不同？",
+      "url": "https://www.zhihu.com/answer/2028227818316738611",
+      "summary": "正文借助 x²+y²=1 的局部隐函数关系说明隐函数求导为何能对两个变量组成的方程操作。"
+    },
+    {
+      "title": "为什么微积分、线性代数学起来这么割裂，用起来却是统一的，如何克服这一问题？",
+      "url": "https://www.zhihu.com/answer/2029893596904726557",
+      "summary": "正文以偏导数构成雅可比矩阵，解释多输入多输出函数在局部如何线性化。"
+    },
+    {
+      "title": "正态分布的公式是怎么推出来的？",
+      "url": "https://www.zhihu.com/answer/2030057684679009723",
+      "summary": "正文把平面上的二重积分化为极坐标下的累次积分，计算二维正态密度的归一化因子。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2030407309009084992",
+      "summary": "正文通过光滑映射的雅可比矩阵说明多元积分换元时局部面积如何按行列式伸缩。"
+    },
+    {
+      "title": "为什么微积分、线性代数学起来这么割裂，用起来却是统一的，如何克服这一问题？",
+      "url": "https://www.zhihu.com/answer/2031740674672939206",
+      "summary": "正文用梯度、雅可比矩阵和海森矩阵说明多变量函数极值及高维函数几何。"
+    },
+    {
+      "title": "为什么几乎所有教科书上对微分的讲解都不明不白？",
+      "url": "https://www.zhihu.com/answer/2034383880728343103",
+      "summary": "正文用偏导数展开多元函数全微分，并以雅可比矩阵和 Hessian 矩阵说明多元导数。"
+    },
+    {
+      "title": "为什么微积分、线性代数学起来这么割裂，用起来却是统一的，如何克服这一问题？",
+      "url": "https://www.zhihu.com/answer/2034949054698878220",
+      "summary": "正文具体解释了多元函数在一点附近用线性映射近似，并以雅可比矩阵表示这种局部线性化。"
+    },
+    {
+      "title": "为什么微积分、线性代数学起来这么割裂，用起来却是统一的，如何克服这一问题？",
+      "url": "https://www.zhihu.com/answer/2035407769394787314",
+      "summary": "正文具体讲解多元函数全导数、方向导数、梯度、雅可比矩阵和链式法则。"
+    },
+    {
+      "title": "为什么在极坐标变换中dxdy等于rdrdθ？",
+      "url": "https://www.zhihu.com/answer/2036087759522240222",
+      "summary": "正文用面积微元、坐标变量和一般换元公式解释二重积分，属于多元微积分的实质内容。"
+    },
+    {
+      "title": "为什么不是函数的曲线也可以求导？",
+      "url": "https://www.zhihu.com/answer/2040390165999396222",
+      "summary": "正文用二元函数的全微分和偏导数刻画等高线的切线方向，属于多元微积分应用。"
+    },
+    {
+      "title": "将五块砖头叠起来，最多能超出桌面边缘多远？",
+      "url": "https://www.zhihu.com/answer/2043037100929463004",
+      "summary": "正文对含两个广义坐标的增广势能分别求偏导，并由偏导数为零得到力与力矩平衡。"
+    },
+    {
+      "title": "格林函数法的本质是什么?",
+      "url": "https://www.zhihu.com/answer/2043065460460081259",
+      "summary": "正文利用格林第二恒等式把高维积分中的微分运算转移到格林函数上，属于多元微积分方法。"
+    },
+    {
+      "title": "在数学的学习过程中，你见过最妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/2061866846765289640",
+      "summary": "正文把一维求和升维成二重积分，并通过区域旋转和分段积分完成计算。"
+    },
+    {
+      "title": "如何评价 2026 复旦插班生高等数学考试难度？",
+      "url": "https://www.zhihu.com/answer/2061991016937346470",
+      "summary": "正文通过链式法则计算复合函数的二阶与三阶偏导数，并结合二重积分和曲面积分完成多元微积分题。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062544960491099389",
+      "summary": "正文对三元多项式映射逐分量求偏导并展开化简，用雅可比行列式完成多元微积分计算。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062553411367736705",
+      "summary": "正文把一元导数推广为由多元偏导构成的雅可比矩阵，并由此说明高维可逆性问题。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062555470427060136",
+      "summary": "正文用各分量对多个变量的偏导数构造雅可比矩阵，并展开多元映射的精确计算核验。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062583805983166925",
+      "summary": "正文以三元函数映射为例讲解偏导数构成的雅可比矩阵及其局部可逆性。"
+    },
+    {
+      "title": "如何评价雅可比猜想被提出了一个看似并不十分复杂的反例？",
+      "url": "https://www.zhihu.com/answer/2062826211135565879",
+      "summary": "正文用多元函数的偏导和雅可比行列式解释反例为何满足常数雅可比条件。"
+    },
+    {
+      "title": "把一个正方体随机往天上一扔，它落在阳光下的影子，平均面积是多少？",
+      "url": "https://www.zhihu.com/answer/2070067108277494474",
+      "summary": "正文把平均投影面积写成球面上的积分，并通过交换球面与表面的二重积分完成推导。"
+    },
+    {
+      "title": "在高等数学重积分中，格林公式、高斯公式、斯托克斯公式的关联是什么样的？",
+      "url": "https://www.zhihu.com/answer/2071197776260633894",
+      "summary": "正文用格林、高斯和斯托克斯公式说明高维区域积分与其低维边界积分之间的转换。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/2073366495921554380",
+      "summary": "正文用环量、通量、偏导数和多重积分逐步讲解 Green、Stokes 与 Gauss 三个多元微积分定理。"
+    },
+    {
+      "title": "2.6* 微积分的进化（6）——高维光滑函数的超进化：条条大道通罗马",
+      "url": "https://zhuanlan.zhihu.com/p/20641394",
+      "summary": "正文以梯度、散度、格林恒等式和拉普拉斯算子处理三维区域上的能量与边值问题，展开多元微积分运算。"
+    },
+    {
+      "title": "番外——关于张量计算（Index notation）",
+      "url": "https://zhuanlan.zhihu.com/p/20783300",
+      "summary": "正文使用指标记号统一计算标量与向量场的一阶偏导、梯度和散度。"
+    },
+    {
+      "title": "3.1 De Rham上同调（1）—— 爸爸去哪儿",
+      "url": "https://zhuanlan.zhihu.com/p/21573734",
+      "summary": "正文讨论二元函数的偏导数、方向导数及可积条件，并用积分构造满足两个偏导条件的函数。"
+    },
+    {
+      "title": "3.2 De Rham上同调（2）—— 先来一口试试",
+      "url": "https://zhuanlan.zhihu.com/p/21599488",
+      "summary": "正文系统使用梯度、旋度和散度算子，并讨论二元、三元开集上的向量场关系与偏导条件。"
+    },
+    {
+      "title": "神经网络反向传播的数学原理",
+      "url": "https://zhuanlan.zhihu.com/p/22473137",
+      "summary": "正文把矩阵和向量求导建立在多元微分与链式法则上，并讨论转置和维数相容调整。"
+    },
+    {
+      "title": "梯度、散度与旋度",
+      "url": "https://zhuanlan.zhihu.com/p/22654688",
+      "summary": "正文用偏导算符定义多变量标量场和向量场的梯度、散度与旋度，具体讲解了多元微分运算。"
+    },
+    {
+      "title": "诺特定理",
+      "url": "https://zhuanlan.zhihu.com/p/23047259",
+      "summary": "正文用拉格朗日密度、场及其梯度、散度的变分关系推导守恒流，实质应用多元微积分。"
+    },
+    {
+      "title": "高等数学（3）——多元微积分",
+      "url": "https://zhuanlan.zhihu.com/p/23299731",
+      "summary": "正文系统展开偏导、全微分、梯度以及多元积分的概念和应用。"
+    },
+    {
+      "title": "0.04毫米的真实",
+      "url": "https://zhuanlan.zhihu.com/p/23471245",
+      "summary": "正文说明能量梯度和海森矩阵、力与雅可比矩阵之间的偏导关系，体现多变量微积分。"
+    },
+    {
+      "title": "Stokes公式的证明",
+      "url": "https://zhuanlan.zhihu.com/p/23870023",
+      "summary": "正文在多元积分的背景下定义微分形式积分与有向单形边界，并利用拉回、Fubini 定理证明广义 Stokes 公式。"
+    },
+    {
+      "title": "【量化课堂】无约束的非线性规划问题 -- 线搜索方法",
+      "url": "https://zhuanlan.zhihu.com/p/23562000",
+      "summary": "正文用多元函数的梯度、海塞矩阵和二阶判别条件分析局部极小点，是多元微积分优化的直接应用。"
+    },
+    {
+      "title": "大学数学（高数线代）直观理解（一）",
+      "url": "https://zhuanlan.zhihu.com/p/24174101",
+      "summary": "正文以二元函数的各变量变化率为例子解释偏导数、全微分及其相加关系。"
+    },
+    {
+      "title": "曲线积分、曲面积分的本质探究",
+      "url": "https://zhuanlan.zhihu.com/p/24528903",
+      "summary": "正文通过偏导数和二重积分解释平面区域中的流量变化，并由此讨论格林公式。"
+    },
+    {
+      "title": "矩阵求导术（上）",
+      "url": "https://zhuanlan.zhihu.com/p/24709748",
+      "summary": "正文把标量对向量的梯度、矩阵内积和全微分联系起来，实质讲解多元微分。"
+    },
+    {
+      "title": "力学（六）—哈密顿力学之哈密顿方程与泊松括号",
+      "url": "https://zhuanlan.zhihu.com/p/24627496",
+      "summary": "正文通过全微分、偏导数和链式运算消去变量，具体展开力学量的微分关系。"
+    },
+    {
+      "title": "浅谈张量分解（一）：如何简单地进行张量分解？",
+      "url": "https://zhuanlan.zhihu.com/p/24798389",
+      "summary": "正文对含多个变量与索引的目标函数逐变量求偏导数，并据此得到梯度更新公式，具体应用了多元微积分。"
+    },
+    {
+      "title": "矩阵求导术（下）",
+      "url": "https://zhuanlan.zhihu.com/p/24863977",
+      "summary": "正文把多变量一阶和二阶导数推广到矩阵变量，并具体计算 Hessian 与新牛顿法更新。"
+    },
+    {
+      "title": "为什么梯度反方向是函数值局部下降最快的方向？",
+      "url": "https://zhuanlan.zhihu.com/p/24913912",
+      "summary": "正文引入偏导数与方向导数，并用偏导向量证明梯度方向给出多元函数局部最大变化率。"
+    },
+    {
+      "title": "拉格朗日的妙招",
+      "url": "https://zhuanlan.zhihu.com/p/25052639",
+      "summary": "正文明确解释拉格朗日乘数法方程中的偏导数，并按多元函数求驻点。"
+    },
+    {
+      "title": "(九)「拉格朗日乘数法」与高考不等式",
+      "url": "https://zhuanlan.zhihu.com/p/25053038",
+      "summary": "正文定义多元函数及其偏导数，并说明固定其他变量即可研究单个变量的变化。"
+    },
+    {
+      "title": "复变函数与积分变换 简明笔记(三)：解析函数与柯西黎曼条件",
+      "url": "https://zhuanlan.zhihu.com/p/25057029",
+      "summary": "正文比较复可导与实二元函数可微、可偏导，并利用实部和虚部的偏导数推导柯西黎曼方程。"
+    },
+    {
+      "title": "一道二元函数极值问题的思考",
+      "url": "https://zhuanlan.zhihu.com/p/25071645",
+      "summary": "正文通过固定一个变量、先讨论另一个变量的变化，把二元函数极值问题化为一元二次函数问题。"
+    },
+    {
+      "title": "【量化课堂】拉格朗日乘子",
+      "url": "https://zhuanlan.zhihu.com/p/25097008",
+      "summary": "正文用多元函数的梯度、水平集和偏导数推导约束极值的梯度平行条件。"
+    },
+    {
+      "title": "【偏导/方向导数/梯度】- 图解高等数学系列 04",
+      "url": "https://zhuanlan.zhihu.com/p/25356063",
+      "summary": "正文比较二元函数的偏导、任意方向导数和梯度，说明多变量函数在不同方向上的变化率。"
+    },
+    {
+      "title": "多元函数的连续性、偏导数和全微分",
+      "url": "https://zhuanlan.zhihu.com/p/25428133",
+      "summary": "正文用二元函数定义连续性、偏导数和全微分，并说明全增量与全微分叠加原理，实质讲解多元微积分。"
+    },
+    {
+      "title": "第一类和第二类曲线积分",
+      "url": "https://zhuanlan.zhihu.com/p/25500465",
+      "summary": "正文介绍第二类曲线积分并用格林定理联系平面闭区域上的二重积分与边界曲线积分。"
+    },
+    {
+      "title": "【第一类曲面积分】- 图解高等数学 17",
+      "url": "https://zhuanlan.zhihu.com/p/26032981",
+      "summary": "正文利用曲面在坐标平面上的投影、法向量夹角和面积元关系推导曲面积分公式。"
+    },
+    {
+      "title": "点到直线距离公式的几种推导",
+      "url": "https://zhuanlan.zhihu.com/p/26307123",
+      "summary": "正文把最短距离转化为受直线方程约束的二元函数极值问题，并求偏导方程组。"
+    },
+    {
+      "title": "学习笔记 - 拉格朗日函数",
+      "url": "https://zhuanlan.zhihu.com/p/26890210",
+      "summary": "正文用偏导、梯度和法向量共线解释约束极值的一阶条件。"
+    },
+    {
+      "title": "挖洞法？抠点法？阉割法？格林公式究竟怎么玩？(含奇点的第二类曲线积分，格林公式如何用？)",
+      "url": "https://zhuanlan.zhihu.com/p/27259226",
+      "summary": "正文在多元函数积分框架中比较格林、高斯和斯托克斯公式，并重点讨论带奇点区域的曲线积分计算。"
+    },
+    {
+      "title": "中学篇 No. 41：最小二乘法",
+      "url": "https://zhuanlan.zhihu.com/p/27477607",
+      "summary": "正文进入多元微积分，用偏导数为零的必要条件求解双变量最小二乘目标函数。"
+    },
+    {
+      "title": "非凸优化基石：Lipschitz Condition",
+      "url": "https://zhuanlan.zhihu.com/p/27554191",
+      "summary": "正文用梯度、Hessian、内积与范数给出多元函数的二次和三次包络不等式及证明。"
+    },
+    {
+      "title": "会当凌绝顶，一览众山小——谈谈人工智能里的最优化",
+      "url": "https://zhuanlan.zhihu.com/p/27713909",
+      "summary": "正文用梯度矢量与Hessian矩阵描述多维函数的上升方向和二阶信息，并据此构造迭代优化方向。"
+    },
+    {
+      "title": "为什么梯度的方向与等高线切线方向垂直？",
+      "url": "https://zhuanlan.zhihu.com/p/27731819",
+      "summary": "正文用二元函数的偏导数、等高线切线斜率和梯度公式作比较，论证梯度方向与等高线切线垂直。"
+    },
+    {
+      "title": "【不务正业2】高中化学-勒夏特列原理的学习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/27987523",
+      "summary": "正文用多元熵函数的偏导、二阶偏导和黑塞矩阵正定性推出勒夏特列原理的数学不等式，实质使用了多元微积分。"
+    },
+    {
+      "title": "拉帮结派的第一类曲面积分，10年磨一剑，究竟有多大的杀伤力？(自行测试1999、2010两道真题便知！)",
+      "url": "https://zhuanlan.zhihu.com/p/28033578",
+      "summary": "正文用两道真题详细演示第一类曲面积分的曲面代换、投影和二重积分计算，串联多元函数微分学与重积分。"
+    },
+    {
+      "title": "谁能快速破解第二型曲面积分？唯我高斯公式！（附2009年真题解法分析！）",
+      "url": "https://zhuanlan.zhihu.com/p/28033924",
+      "summary": "正文讲解第二类曲面积分的定向与投影计算，并具体说明如何补面后使用高斯公式化为三重积分。"
+    },
+    {
+      "title": "重积分换元公式与面积公式",
+      "url": "https://zhuanlan.zhihu.com/p/27494078",
+      "summary": "正文系统讨论开集、微分同胚和重积分换元，并推广到几何测度论的面积公式。"
+    },
+    {
+      "title": "MATLAB 笔记：蒙特卡洛方法",
+      "url": "https://zhuanlan.zhihu.com/p/28133690",
+      "summary": "正文建立球体与圆柱面所围立体的二重积分和多变量条件，并给出数值模拟。"
+    },
+    {
+      "title": "俗称考研数学里“万金油”的微分方程，究竟可以粘哪些知识点？（1）",
+      "url": "https://zhuanlan.zhihu.com/p/28860572",
+      "summary": "正文将一元微分方程与圆域上的二重积分综合求解。"
+    },
+    {
+      "title": "深入机器学习系列17-BFGS & L-BFGS",
+      "url": "https://zhuanlan.zhihu.com/p/29672873",
+      "summary": "正文用梯度、二阶偏导和 Hessian 矩阵刻画多元目标函数的局部近似与牛顿方向。"
+    },
+    {
+      "title": "零基础学SVM-Support Vector Machine(二)",
+      "url": "https://zhuanlan.zhihu.com/p/29865057",
+      "summary": "正文对含多个变量的拉格朗日函数分别求偏导并令其为零，以完成极小值推导。"
+    },
+    {
+      "title": "用 C 语言画光（四）：反射",
+      "url": "https://zhuanlan.zhihu.com/p/30961545",
+      "summary": "正文解释梯度指向标量场的最大变化方向，并用偏导数和中心差分计算距离场法线。"
+    },
+    {
+      "title": "分析笔记-调和函数及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/31601750",
+      "summary": "正文使用偏导、梯度以及 Green 公式和散度定理处理多元积分。"
+    },
+    {
+      "title": "通俗易懂了解机器学习中的“回归”和“梯度下降方法”（二）",
+      "url": "https://zhuanlan.zhihu.com/p/31167453",
+      "summary": "正文把双参数损失函数画成曲面，并通过对两个参数求偏导确定梯度方向。"
+    },
+    {
+      "title": "【预测算法】 线性回归原理及R语言实现",
+      "url": "https://zhuanlan.zhihu.com/p/31668592",
+      "summary": "正文用二元函数的一阶偏导求极值来推导最小二乘回归参数。"
+    },
+    {
+      "title": "多元函数的偏导数、方向导数、梯度以及微分之间的关系思考",
+      "url": "https://zhuanlan.zhihu.com/p/31942912",
+      "summary": "正文系统比较偏导数、方向导数、梯度、全微分和切平面，并解释多元函数变化的不同描述方式。"
+    },
+    {
+      "title": "微积分：微分形式",
+      "url": "https://zhuanlan.zhihu.com/p/32212561",
+      "summary": "正文在R^n中定义微分、切映射、k-形式的外积与拉回，并用多元微分Df说明坐标表达。"
+    },
+    {
+      "title": "多元变量函数，泰勒如何展开？（泰勒展开）",
+      "url": "https://zhuanlan.zhihu.com/p/32274749",
+      "summary": "正文从多元函数出发构造沿线段的一元函数，并用梯度、Hessian和链式法则推导展开式。"
+    },
+    {
+      "title": "拉普拉斯算子",
+      "url": "https://zhuanlan.zhihu.com/p/32792219",
+      "summary": "正文用二元函数的二阶偏导和离散差分定义拉普拉斯算子，并讨论滤波器与图像锐化。"
+    },
+    {
+      "title": "想学微积分？征服高等数学，但害怕公式？来个动画版微积分读本吧",
+      "url": "https://zhuanlan.zhihu.com/p/32908769",
+      "summary": "正文把一元泰勒展开推广到二元函数，说明其通过多项式曲面逼近原函数曲面。"
+    },
+    {
+      "title": "为什么梯度的负方向是局部下降最快的方向？",
+      "url": "https://zhuanlan.zhihu.com/p/33260455",
+      "summary": "正文以方向导数和全微分刻画多元函数沿不同方向的变化率，并识别其中为梯度的向量。"
+    },
+    {
+      "title": "【最优化】鞍点介绍",
+      "url": "https://zhuanlan.zhihu.com/p/33340316",
+      "summary": "正文用梯度、二阶偏导数和不同方向上的局部极值解释多变量函数鞍点，具体展开了多元微积分概念。"
+    },
+    {
+      "title": "【最优化】无约束优化方法-牛顿法",
+      "url": "https://zhuanlan.zhihu.com/p/33544363",
+      "summary": "正文使用梯度、二阶偏导数矩阵和海塞矩阵正定性判断牛顿方向是否为多元函数的下降方向。"
+    },
+    {
+      "title": "(17)李导数与李括号",
+      "url": "https://zhuanlan.zhihu.com/p/33381200",
+      "summary": "正文用标量函数的梯度和向量场的 Jacobian 定义 Lie 导数，并沿系统轨迹反复求导。"
+    },
+    {
+      "title": "这道题有四种解法，你知道么？",
+      "url": "https://zhuanlan.zhihu.com/p/33804276",
+      "summary": "正文构造含约束项与拉格朗日乘子的多元函数，并列偏导方程求条件极值。"
+    },
+    {
+      "title": "拉格朗日方程",
+      "url": "https://zhuanlan.zhihu.com/p/34260779",
+      "summary": "正文具体说明拉格朗日量对广义坐标及其时间导数求偏导，并代入方程得到各方向运动方程。"
+    },
+    {
+      "title": "球坐标系中的梯度散度旋度及拉普拉斯",
+      "url": "https://zhuanlan.zhihu.com/p/34343187",
+      "summary": "正文列出球坐标中梯度、散度、旋度和拉普拉斯算符的完整表达式，属于多元微积分中的向量微分运算。"
+    },
+    {
+      "title": "【学界/编码】凸优化算法 I: 内点法(interior point method)求解线性规划问题",
+      "url": "https://zhuanlan.zhihu.com/p/34426575",
+      "summary": "正文推导多变量函数的梯度与 Hessian，并利用一阶条件和牛顿迭代求多元极值。"
+    },
+    {
+      "title": "经典力学——正交曲线坐标系",
+      "url": "https://zhuanlan.zhihu.com/p/35162526",
+      "summary": "正文使用多元偏导、链式求导和偏导次序互换推导曲线坐标中的加速度分量。"
+    },
+    {
+      "title": "拉格朗日乘子法",
+      "url": "https://zhuanlan.zhihu.com/p/29525538",
+      "summary": "正文在多元目标函数和约束曲面上使用梯度、切平面及正交子空间进行局部线性化证明。"
+    },
+    {
+      "title": "10935 梯度、散度、旋度、Jacobian、Hessian、Laplacian 的关系图",
+      "url": "https://zhuanlan.zhihu.com/p/35323714",
+      "summary": "正文用Nabla算符统一解释梯度、散度、旋度和Jacobian等多元微分运算及其组合。"
+    },
+    {
+      "title": "多元函数如何求极限",
+      "url": "https://zhuanlan.zhihu.com/p/35886925",
+      "summary": "正文讨论二元函数的极限求法，并用夹逼准则判断函数在原点的极限和连续性。"
+    },
+    {
+      "title": "曲线积分的计算方法如何来记忆",
+      "url": "https://zhuanlan.zhihu.com/p/36053889",
+      "summary": "正文把二元函数沿平面曲线的两类积分统一为参数代入，并说明其参数化计算结构。"
+    },
+    {
+      "title": "线性代数~向量对向量的求导",
+      "url": "https://zhuanlan.zhihu.com/p/36448789",
+      "summary": "正文把矩阵乘法展开为多个多元函数，并说明向量值函数对向量变量逐分量求导及其排列方式。"
+    },
+    {
+      "title": "线性回归与最小二乘法",
+      "url": "https://zhuanlan.zhihu.com/p/36910496",
+      "summary": "正文对含两个参数的误差平方和函数求偏导并令梯度为零，讲解多元函数极值的求法。"
+    },
+    {
+      "title": "再闲谈波动率1——Vega到底是什么东西",
+      "url": "https://zhuanlan.zhihu.com/p/36942658",
+      "summary": "正文用对价格、标的和波动率的偏导及二阶混合偏导定义 Delta、Vega 与 Vanna 等敏感度。"
+    },
+    {
+      "title": "理解Jacobian和Hessian",
+      "url": "https://zhuanlan.zhihu.com/p/37306749",
+      "summary": "正文系统讨论向量函数、偏导数、梯度、Jacobian和Hessian，并给出二阶偏导矩阵定义。"
+    },
+    {
+      "title": "理解牛顿法",
+      "url": "https://zhuanlan.zhihu.com/p/37588590",
+      "summary": "正文把一元情形推广到多元函数，使用梯度向量和 Hessian 矩阵描述二阶近似与迭代。"
+    },
+    {
+      "title": "麻省理工线性代数笔记（二十四）-正定矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/37854768",
+      "summary": "正文把多元函数极值条件写成二阶偏导矩阵正定，具体展开多元微积分判定。"
+    },
+    {
+      "title": "Karush-Kuhn-Tucker (KKT)条件",
+      "url": "https://zhuanlan.zhihu.com/p/38163970",
+      "summary": "正文使用多变量偏导数、梯度和 Lagrangian 函数构造约束优化驻点条件。"
+    },
+    {
+      "title": "梯度的方向为什么是函数值增加最快的方向？",
+      "url": "https://zhuanlan.zhihu.com/p/38525412",
+      "summary": "正文依次讲解偏导数、方向导数和梯度，并证明梯度方向是多元函数值增加最快的方向。"
+    },
+    {
+      "title": "【高等数学】二重积分化累次积分方法",
+      "url": "https://zhuanlan.zhihu.com/p/38594716",
+      "summary": "正文从定义、几何意义和积分区域出发，系统讲解二元函数在平面区域上的二重积分。"
+    },
+    {
+      "title": "如何通俗理解全微分",
+      "url": "https://zhuanlan.zhihu.com/p/38967869",
+      "summary": "正文把全微分解释为用切平面替代曲面，并用偏导数切线和任意方向切线说明其几何条件。"
+    },
+    {
+      "title": "偏导，全微分，方向导数与梯度，各自有不同风景！",
+      "url": "https://zhuanlan.zhihu.com/p/39059717",
+      "summary": "正文区分偏导、全微分、方向导数，并说明梯度向量指向方向导数最大的最陡方向。"
+    },
+    {
+      "title": "伊藤引理 --- 浅述",
+      "url": "https://zhuanlan.zhihu.com/p/38820889",
+      "summary": "正文用二元函数 G(X,t) 的偏导数、全微分和二阶混合偏导展开随机情形下的微分。"
+    },
+    {
+      "title": "拉格朗日乘数法理解",
+      "url": "https://zhuanlan.zhihu.com/p/39354973",
+      "summary": "正文用二元函数的全微分和梯度相切条件证明约束极值点满足梯度成比例的关系。"
+    },
+    {
+      "title": "雅可比矩阵和雅可比行列式",
+      "url": "https://zhuanlan.zhihu.com/p/39762178",
+      "summary": "正文以多元向量值函数及其偏导数组成的雅可比矩阵刻画局部空间变换。"
+    },
+    {
+      "title": "多元变量微积分-第六讲-多元函数等值面图、偏导数",
+      "url": "https://zhuanlan.zhihu.com/p/40520573",
+      "summary": "正文固定一个变量、改变另一个变量说明偏导数，并用切平面解释全微分，实质讲解多元微积分。"
+    },
+    {
+      "title": "BP神经网络：最快速的理解（二）",
+      "url": "https://zhuanlan.zhihu.com/p/40623863",
+      "summary": "正文用偏导数求多元目标函数的最值，并提到依赖矩阵的链式求导法则。"
+    },
+    {
+      "title": "详解双抛物面环境映射",
+      "url": "https://zhuanlan.zhihu.com/p/40784734",
+      "summary": "正文计算二元函数的两个偏导切向量，并通过叉积求抛物面的法向量。"
+    },
+    {
+      "title": "多元变量微积分-第八讲-求导链式法则",
+      "url": "https://zhuanlan.zhihu.com/p/41380717",
+      "summary": "正文系统给出全导数链式法则，说明多路影响相加并推广到更多变量。"
+    },
+    {
+      "title": "曲率的意义和推导",
+      "url": "https://zhuanlan.zhihu.com/p/41795324",
+      "summary": "正文用参数曲线、切向量、导数和极限比值完成多元微积分视角下的曲率推导。"
+    },
+    {
+      "title": "多变量微积分-第十四讲-二重积分中的变量替换",
+      "url": "https://zhuanlan.zhihu.com/p/42254583",
+      "summary": "正文讲解二重积分作线性及一般变量替换时面积元如何变化，并用雅可比行列式处理缩放比例。"
+    },
+    {
+      "title": "[优化] Gauss-Newton非线性最小二乘算法",
+      "url": "https://zhuanlan.zhihu.com/p/42383070",
+      "summary": "正文对向量值非线性函数求雅可比矩阵，并通过矩阵乘法和线性方程获得参数增量。"
+    },
+    {
+      "title": "多元函数可微、可导、连续的关系",
+      "url": "https://zhuanlan.zhihu.com/p/42504140",
+      "summary": "正文比较多元函数的连续、偏导存在与可微三种性质，并说明可微能推出另外二者。"
+    },
+    {
+      "title": "深度学习中的优化算法",
+      "url": "https://zhuanlan.zhihu.com/p/43506482",
+      "summary": "正文定义多元函数梯度与Hessian矩阵，并用多元泰勒展开分析优化问题。"
+    },
+    {
+      "title": "机器学习（周志华）课后习题——第三章——线性模型",
+      "url": "https://zhuanlan.zhihu.com/p/43270830",
+      "summary": "正文用二阶导数和Hessian矩阵半正定性判定多元函数的凸性。"
+    },
+    {
+      "title": "MP9：重新认识向量场：方向导数、偏导数、梯度",
+      "url": "https://zhuanlan.zhihu.com/p/44115400",
+      "summary": "正文系统说明多元函数的方向导数、偏导数和梯度，并用内积写出方向导数与偏导系数的线性组合。"
+    },
+    {
+      "title": "Gap5：方向导数、偏导数、梯度、全微分",
+      "url": "https://zhuanlan.zhihu.com/p/43792478",
+      "summary": "正文把一元微积分推广到多元标量场，依次讲解方向导数、偏导数、梯度和全微分。"
+    },
+    {
+      "title": "数学分析笔记（八）——多变量函数微分学（进阶）",
+      "url": "https://zhuanlan.zhihu.com/p/43234672",
+      "summary": "正文系统讲解多元函数的隐函数定理、反函数定理、秩定理、切空间和条件极值。"
+    },
+    {
+      "title": "拉普拉斯方程不同坐标系下的表示",
+      "url": "https://zhuanlan.zhihu.com/p/47662483",
+      "summary": "正文用基矢量、梯度和散度推导拉普拉斯算子，并在球坐标中展示其分量形式。"
+    },
+    {
+      "title": "Neighbourhood Component Analysis",
+      "url": "https://zhuanlan.zhihu.com/p/48371593",
+      "summary": "正文对含矩阵参数的目标函数求偏导，使用矩阵微积分推导梯度并说明不同表达式的等价性。"
+    },
+    {
+      "title": "矩阵求导的理解（重要！）",
+      "url": "https://zhuanlan.zhihu.com/p/50319086",
+      "summary": "正文把多元梯度写成全微分内积，并推广到向量和矩阵变量的链式求导。"
+    },
+    {
+      "title": "带不等式约束凸优化问题的求解——内点法(七)",
+      "url": "https://zhuanlan.zhihu.com/p/50443123",
+      "summary": "正文用目标函数的梯度、Hessian 和等式约束下的 Newton 方法求解多元优化问题。"
+    },
+    {
+      "title": "扩展卡尔曼滤波(EKF)之非线性系统的线性化",
+      "url": "https://zhuanlan.zhihu.com/p/50620063",
+      "summary": "正文用各状态变量和控制变量的一阶偏导组成雅克比矩阵，具体展开了多元向量函数的微分。"
+    },
+    {
+      "title": "图拉普拉斯算子为何定义为D-W",
+      "url": "https://zhuanlan.zhihu.com/p/50742283",
+      "summary": "正文从多元函数的非混合二阶偏导出发，离散化二阶差分后类比得到图上的拉普拉斯算子。"
+    },
+    {
+      "title": "【机器学习系列】一文详解凸函数和凸优化，干货满满",
+      "url": "https://zhuanlan.zhihu.com/p/51127402",
+      "summary": "正文用多元函数的二阶偏导、Hessian 矩阵和泰勒公式刻画凸性。"
+    },
+    {
+      "title": "关于勒让德变换 / 从拉格朗日方程到哈密顿正则方程",
+      "url": "https://zhuanlan.zhihu.com/p/51903123",
+      "summary": "正文从多元函数全微分和偏导数出发交换自由变量，解释勒让德变换的构造及性质。"
+    },
+    {
+      "title": "笔记 | 什么是Gradient Descent",
+      "url": "https://zhuanlan.zhihu.com/p/52003491",
+      "summary": "正文把梯度解释为多元函数变化率最大的方向向量，并联系导数、偏导数和方向导数理解其含义。"
+    },
+    {
+      "title": "[如何让人人都理解复分析（一）]---曲线积分",
+      "url": "https://zhuanlan.zhihu.com/p/52347499",
+      "summary": "正文在标量场和矢量场中定义空间曲线积分，并解释曲线积分与功和截面积的关系。"
+    },
+    {
+      "title": "偏微分方程的特性及三种分类",
+      "url": "https://zhuanlan.zhihu.com/p/52849477",
+      "summary": "正文利用多元函数的二阶偏导、链式法则和特征值讨论偏微分方程的分类。"
+    },
+    {
+      "title": "Nabla 算符 ∇ 的运算律以及常用公式",
+      "url": "https://zhuanlan.zhihu.com/p/52834609",
+      "summary": "正文结合偏导、乘积求导和矢量运算推导梯度、散度、旋度等多元微积分公式。"
+    },
+    {
+      "title": "[如何让人人都理解复分析（二）]---Cauchy积分定理",
+      "url": "https://zhuanlan.zhihu.com/p/52815876",
+      "summary": "正文使用偏导数、二维旋度和曲线积分处理复函数实部与虚部，属于多元微积分方法。"
+    },
+    {
+      "title": "由琴生不等式展开的一个讨论——Z-F不等式",
+      "url": "https://zhuanlan.zhihu.com/p/53779636",
+      "summary": "正文借助偏导数和二阶偏导符号讨论多元函数的凹凸性，并据此推广多元琴生不等式。"
+    },
+    {
+      "title": "非凸优化的基石2：Regularity Condition",
+      "url": "https://zhuanlan.zhihu.com/p/54032531",
+      "summary": "正文使用梯度、Hessian 矩阵不等式和积分基本定理推导一阶条件，展开多元微积分工具的应用。"
+    },
+    {
+      "title": "对数均值不等式的证明及双变量处理",
+      "url": "https://zhuanlan.zhihu.com/p/56267343",
+      "summary": "正文把双变量函数的一方视作常数，对另一方求偏导，并由偏导符号判断单调性。"
+    },
+    {
+      "title": "非线性优化方法小结-(最小二乘，梯度下降，高斯牛顿, LM)",
+      "url": "https://zhuanlan.zhihu.com/p/56598915",
+      "summary": "正文用雅可比矩阵和海森矩阵描述多元函数的一阶、二阶导数，并比较不同优化迭代。"
+    },
+    {
+      "title": "Convex Optimization——凸函数",
+      "url": "https://zhuanlan.zhihu.com/p/56876303",
+      "summary": "正文用梯度和Hessian矩阵给出一阶、二阶凸性判据，具体讨论多元函数的导数与曲率。"
+    },
+    {
+      "title": "张量分析笔记（一）",
+      "url": "https://zhuanlan.zhihu.com/p/56850779",
+      "summary": "正文以矢径对多个坐标的偏导数和雅可比矩阵建立曲线坐标的局部基，属于多元微分。"
+    },
+    {
+      "title": "偏导数与全微分",
+      "url": "https://zhuanlan.zhihu.com/p/57435179",
+      "summary": "正文从二元函数定义出发，讲解偏导数、全微分、复合函数链式法则及多元函数与一元函数的差异。"
+    },
+    {
+      "title": "力学进阶版（一）——复习微分形式（上）",
+      "url": "https://zhuanlan.zhihu.com/p/57328202",
+      "summary": "正文用外微分统一解释多元微积分中的梯度、旋度、散度及相关积分公式。"
+    },
+    {
+      "title": "为什么负梯度是函数值减小的最快方向",
+      "url": "https://zhuanlan.zhihu.com/p/57601606",
+      "summary": "正文定义多元函数的方向导数，并借梯度分析函数沿不同方向的变化率。"
+    },
+    {
+      "title": "Normalization Flow (标准化流) 总结",
+      "url": "https://zhuanlan.zhihu.com/p/59615785",
+      "summary": "正文把一维导数推广到高维雅可比行列式，并用它计算非线性变量变换。"
+    },
+    {
+      "title": "第八章 重积分 第二节 二重积分的性质和计算",
+      "url": "https://zhuanlan.zhihu.com/p/56359087",
+      "summary": "正文讲解二元函数在有界平面区域上的累次积分，并给出极坐标与换元计算。"
+    },
+    {
+      "title": "详解正规方程（Normal Equation）",
+      "url": "https://zhuanlan.zhihu.com/p/60719445",
+      "summary": "正文要求对多元代价函数求偏导并令梯度各分量为零，用多元微积分推导极值条件。"
+    },
+    {
+      "title": "对面积的曲面积分（第一型曲面积分）和对坐标的的曲面积分（第二型曲面积分）的理解与区别",
+      "url": "https://zhuanlan.zhihu.com/p/56425283",
+      "summary": "正文用多变量函数、偏导数和投影区域计算两类曲面积分，并给出两者关系。"
+    },
+    {
+      "title": "齐次函数的欧拉定理与其一推论",
+      "url": "https://zhuanlan.zhihu.com/p/61111531",
+      "summary": "正文讨论多变量齐次函数的偏导关系，并证明欧拉定理及其偏导次数推论。"
+    },
+    {
+      "title": "关于  Δr^-1=-4πδ(r)  的证明",
+      "url": "https://zhuanlan.zhihu.com/p/61368951",
+      "summary": "正文用梯度、散度、高斯公式以及体积分到曲面积分的变换证明三维倒数的拉普拉斯恒等式。"
+    },
+    {
+      "title": "【高等数学】多元复合函数求导的基本方法",
+      "url": "https://zhuanlan.zhihu.com/p/61585348",
+      "summary": "正文系统讲解多元复合函数和隐函数的一阶、二阶偏导计算，并用多个例子展开链式法则。"
+    },
+    {
+      "title": "多元函数幂级数展开的 n 种常用等价形式",
+      "url": "https://zhuanlan.zhihu.com/p/62386078",
+      "summary": "正文把一元展开推广到二元及任意多元函数，并写出偏导数构成的多元幂级数。"
+    },
+    {
+      "title": "人脸识别损失函数(Center-Loss、A-Softmax、AM-Softmax、ArcFace)",
+      "url": "https://zhuanlan.zhihu.com/p/62680658",
+      "summary": "正文通过 Center-Loss 的梯度计算说明损失函数如何反向传播并更新类中心。"
+    },
+    {
+      "title": "直观上理解“梯度”与“法向量”的关系",
+      "url": "https://zhuanlan.zhihu.com/p/62718992",
+      "summary": "正文从方向导数和梯度出发解释二元、三元函数梯度与等高线或等值面法向量的关系。"
+    },
+    {
+      "title": "电子云的形状原来是这么来的？!",
+      "url": "https://zhuanlan.zhihu.com/p/62675246",
+      "summary": "正文对三元函数作偏导与坐标变换，并分离径向和角向变量求解多变量问题。"
+    },
+    {
+      "title": "里奇微积分(Ricci Calculus)：一种计算张量求导的简单方法",
+      "url": "https://zhuanlan.zhihu.com/p/63176747",
+      "summary": "正文以 x^T A x 等为例展开向量和矩阵的求导步骤，属于多元微分与矩阵微分的结合。"
+    },
+    {
+      "title": "两类欧拉积分",
+      "url": "https://zhuanlan.zhihu.com/p/63225812",
+      "summary": "正文通过极坐标和雅可比换元把两个一元积分组成二重积分，证明 Beta 与 Gamma 函数的关系。"
+    },
+    {
+      "title": "梯度下降算法 线性回归拟合（附Python/Matlab/Julia源代码）",
+      "url": "https://zhuanlan.zhihu.com/p/63799123",
+      "summary": "正文用偏导数组成多元函数梯度，并演示二元函数沿梯度反方向的迭代下降。"
+    },
+    {
+      "title": "如何理解共轭梯度法?",
+      "url": "https://zhuanlan.zhihu.com/p/64227658",
+      "summary": "正文以多维二次型为例推导梯度与全微分，并用偏导和方向导数说明求极值过程。"
+    },
+    {
+      "title": "考研高数某些技巧（不断更新中）",
+      "url": "https://zhuanlan.zhihu.com/p/63657490",
+      "summary": "正文比较隐函数直接求偏导、公式法和全微分法，并计算二阶混合偏导与二重积分。"
+    },
+    {
+      "title": "详解Pytorch 自动微分里的（vector-Jacobian product）",
+      "url": "https://zhuanlan.zhihu.com/p/65609544",
+      "summary": "正文从多元向量值函数出发解释各分量对自变量的偏导如何汇成 Jacobian，并用具体数值验算。"
+    },
+    {
+      "title": "SLAM中线特征的参数化和求导",
+      "url": "https://zhuanlan.zhihu.com/p/65674067",
+      "summary": "正文按链式法则分解线重投影误差对相机状态、直线表示和四个参数的雅可比，属于多变量函数求导。"
+    },
+    {
+      "title": "二重积分换元法、雅可比行列式",
+      "url": "https://zhuanlan.zhihu.com/p/65953562",
+      "summary": "正文用两个方向的偏导数向量叉乘，把二重积分的面积元改写为 dudv 乘以雅可比行列式。"
+    },
+    {
+      "title": "虚拟对抗训练：一种新颖的半监督学习正则化方法",
+      "url": "https://zhuanlan.zhihu.com/p/66389797",
+      "summary": "正文利用对输入扰动向量的梯度和海森矩阵作二阶泰勒展开，推导对抗扰动方向。"
+    },
+    {
+      "title": "方向导数公式的证明 【有瑕疵！！！】",
+      "url": "https://zhuanlan.zhihu.com/p/66996168",
+      "summary": "正文给出二元函数方向导数公式，并用拉格朗日中值定理尝试把方向导数拆成偏导数与方向余弦的组合。"
+    },
+    {
+      "title": "拉格朗日函数最优化问题",
+      "url": "https://zhuanlan.zhihu.com/p/67327634",
+      "summary": "正文以二元函数为例，通过偏导数和约束构造拉格朗日方程组求条件极值。"
+    },
+    {
+      "title": "【其实贼简单】拉普拉斯算子和拉普拉斯矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/67336297",
+      "summary": "正文从梯度与散度定义拉普拉斯算子，并说明它衡量多元函数梯度的变化。"
+    },
+    {
+      "title": "笔记 || 梯度法与最速下降法的本质区别",
+      "url": "https://zhuanlan.zhihu.com/p/67564794",
+      "summary": "正文用多元目标函数的梯度、方向导数和 Hessian 解释两类下降方法。"
+    },
+    {
+      "title": "05 -- 常见单元的形函数和坐标变换",
+      "url": "https://zhuanlan.zhihu.com/p/67454027",
+      "summary": "正文由自然坐标到整体坐标的偏微分和雅可比矩阵求形函数导数，涉及多元微积分。"
+    },
+    {
+      "title": "Softmax与交叉熵损失的实现及求导",
+      "url": "https://zhuanlan.zhihu.com/p/67759205",
+      "summary": "正文把输出视为多个输入经指数和共享分母形成的多元复合函数，利用偏导与链式法则求出 Softmax 梯度。"
+    },
+    {
+      "title": "[论文笔记]Poincaré Embeddings & Hierarchical Represent",
+      "url": "https://zhuanlan.zhihu.com/p/68104722",
+      "summary": "正文讨论多元损失函数在黎曼空间中的微分，并通过度量张量转换为欧氏微分后做梯度更新。"
+    },
+    {
+      "title": "logistic回归，梯度下降法，牛顿法/IRLS算法",
+      "url": "https://zhuanlan.zhihu.com/p/67842740",
+      "summary": "正文通过偏导和链式法则计算 logistic 函数梯度与 Hessian，支撑牛顿方向和凸性判断。"
+    },
+    {
+      "title": "从泊松方程的解法，聊到泊松图像融合",
+      "url": "https://zhuanlan.zhihu.com/p/68349210",
+      "summary": "正文用二维偏导数的和定义拉普拉斯算子，并讨论图像上的离散多变量微分。"
+    },
+    {
+      "title": "热力学与统计物理知识大纲-PT. 1",
+      "url": "https://zhuanlan.zhihu.com/p/69562371",
+      "summary": "正文系统使用多元函数的偏导、全微分、复合函数求导和二阶混合偏导推导热力学关系。"
+    },
+    {
+      "title": "【数学】多元函数微分学",
+      "url": "https://zhuanlan.zhihu.com/p/69706782",
+      "summary": "正文详细讨论二元函数的偏导、可微、复合函数链式求导、隐函数求导和高阶偏导。"
+    },
+    {
+      "title": "多元微积分——直观理解重积分区域的坐标系变换",
+      "url": "https://zhuanlan.zhihu.com/p/71242040",
+      "summary": "正文系统讲解二重、三重积分在直角、柱面和球面坐标系中的面积或体积微元变换与计算公式。"
+    },
+    {
+      "title": "多元微积分——曲线、曲面积分的几何、物理意义，以及积分间的联系",
+      "url": "https://zhuanlan.zhihu.com/p/71288536",
+      "summary": "正文推导曲线积分和曲面积分化为单积分或二重积分的公式，并解释两类积分的几何、物理意义及相互联系。"
+    },
+    {
+      "title": "多元微积分——环量、旋度与格林、斯托克斯公式，通量、散度与高斯公式",
+      "url": "https://zhuanlan.zhihu.com/p/71503766",
+      "summary": "正文从环量、旋度、通量和散度推导格林、斯托克斯与高斯公式，属于多元微积分。"
+    },
+    {
+      "title": "格林公式——在你来之前我就已经…",
+      "url": "https://zhuanlan.zhihu.com/p/71582821",
+      "summary": "正文先用矩形参数化证明格林公式，再用外微分将其统一为广义斯托克斯公式。"
+    },
+    {
+      "title": "数学分析复习——偏导数（1）",
+      "url": "https://zhuanlan.zhihu.com/p/70902218",
+      "summary": "正文系统整理多元函数的全微分、梯度、高阶微分、向量值函数和复合函数链式法则。"
+    },
+    {
+      "title": "凸优化综述(上)",
+      "url": "https://zhuanlan.zhihu.com/p/72660217",
+      "summary": "正文通过梯度、Hessian 和二阶泰勒展开推导多变量凸函数的二阶条件。"
+    },
+    {
+      "title": "【论文笔记】DARTS公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/73037439",
+      "summary": "正文对含偏导数的复合目标逐步应用链式法则，展开验证集损失对结构参数和模型参数的二阶导数。"
+    },
+    {
+      "title": "Deep Kernel Density Estimation",
+      "url": "https://zhuanlan.zhihu.com/p/73426787",
+      "summary": "正文对多变量高斯参数求梯度，并使用Score Matching中的一阶和二阶偏导进行估计。"
+    },
+    {
+      "title": "【高等数学】三重积分的计算原理",
+      "url": "https://zhuanlan.zhihu.com/p/72994664",
+      "summary": "正文系统讲解三重积分的投影法和截面法，包括积分区域与累次积分限的确定。"
+    },
+    {
+      "title": "复变函数（1）——导数、解析与保形，柯西-黎曼方程的可视化直观理解",
+      "url": "https://zhuanlan.zhihu.com/p/74528525",
+      "summary": "正文把复变函数拆成两个二元实函数，利用多元微分和偏导数推出柯西-黎曼方程。"
+    },
+    {
+      "title": "偏微分方程笔记(1)——输运方程",
+      "url": "https://zhuanlan.zhihu.com/p/74576825",
+      "summary": "正文定义多元函数的空间梯度和时间偏导，并沿参数曲线用链式求导计算方向导数。"
+    },
+    {
+      "title": "莫比乌斯带的参数方程是怎么来的？它又为什么没有方向呢？",
+      "url": "https://zhuanlan.zhihu.com/p/75237170",
+      "summary": "正文通过偏导数构造曲面切向量，再用叉积求单位法向量，展开多元微积分计算。"
+    },
+    {
+      "title": "各种归一化实现及梯度推导——Batch、Layer、Instance、Switchable Norm",
+      "url": "https://zhuanlan.zhihu.com/p/74907399",
+      "summary": "正文把归一化输出写成多元复合函数，逐步应用链式法则求输入、均值和方差的偏导。"
+    },
+    {
+      "title": "偏微分方程笔记(2)——Laplace(位势)方程的基本解",
+      "url": "https://zhuanlan.zhihu.com/p/75732103",
+      "summary": "正文用偏导数和链式法则计算径向函数的Laplacian，属于多元微积分应用。"
+    },
+    {
+      "title": "偏微分方程笔记(3)——调和函数的性质",
+      "url": "https://zhuanlan.zhihu.com/p/76409082",
+      "summary": "正文反复使用散度定理、偏导、多重积分和极坐标变换研究调和函数，实质依赖多元微积分。"
+    },
+    {
+      "title": "[超多干货！]条件极值问题的方法整合介绍",
+      "url": "https://zhuanlan.zhihu.com/p/80131115",
+      "summary": "正文定义多元函数和偏导数，并通过对拉格朗日函数求偏导建立条件极值方程组。"
+    },
+    {
+      "title": "（三十九）通俗易懂理解——卡尔曼滤波与扩展卡尔曼滤波",
+      "url": "https://zhuanlan.zhihu.com/p/81404580",
+      "summary": "正文对多个状态变量求一阶偏导并将雅可比矩阵作为扩展卡尔曼滤波的测量矩阵。"
+    },
+    {
+      "title": "偏导数的定义及其计算",
+      "url": "https://zhuanlan.zhihu.com/p/82470946",
+      "summary": "正文由一元函数变化率推广到多元函数，并给出偏导数的定义与计算思路。"
+    },
+    {
+      "title": "[数值计算] 数据拟合——非线性最小二乘法",
+      "url": "https://zhuanlan.zhihu.com/p/83320557",
+      "summary": "正文对多元残差逐分量求偏导，构造雅可比矩阵和梯度，并讨论二阶偏导项。"
+    },
+    {
+      "title": "全微分形式的不变性以及应用（3个例子）",
+      "url": "https://zhuanlan.zhihu.com/p/83943539",
+      "summary": "正文从一元微分形式推广到二元函数的全微分形式不变性，并讨论复合函数的可微条件。"
+    },
+    {
+      "title": "最小二乘法详细推导",
+      "url": "https://zhuanlan.zhihu.com/p/84133777",
+      "summary": "正文通过分别对截距和斜率求偏导并令其为零，展示多变量误差函数的极值求解。"
+    },
+    {
+      "title": "偏微分方程笔记(8)——波动方程的d'Alembert公式, Kirchhoff公式",
+      "url": "https://zhuanlan.zhihu.com/p/84755975",
+      "summary": "正文通过散度定理和球面积分讨论拉普拉斯算子，体现多元微积分方法。"
+    },
+    {
+      "title": "拉普拉斯矩阵与拉普拉斯算子的关系",
+      "url": "https://zhuanlan.zhihu.com/p/85287578",
+      "summary": "正文从梯度与散度定义多元拉普拉斯算子，并推导其在二维笛卡尔坐标中的形式。"
+    },
+    {
+      "title": "机器学习必知必会：凸优化",
+      "url": "https://zhuanlan.zhihu.com/p/85408804",
+      "summary": "正文给出多变量函数的梯度与海森矩阵，并说明一阶切平面条件和二阶半正定条件。"
+    },
+    {
+      "title": "拉普拉斯矩阵的含义",
+      "url": "https://zhuanlan.zhihu.com/p/84649941",
+      "summary": "正文先介绍梯度、散度和二阶微分算子，再将其离散化推广到图上的拉普拉斯矩阵。"
+    },
+    {
+      "title": "什么是dx——无穷小量的原理",
+      "url": "https://zhuanlan.zhihu.com/p/86272706",
+      "summary": "正文围绕全微分形式不变性、偏导和雅可比换元系统讲解多元微积分。"
+    },
+    {
+      "title": "从格林公式到柯西公式",
+      "url": "https://zhuanlan.zhihu.com/p/86297231",
+      "summary": "正文用偏导数和旋度讨论平面及三维区域上的线积分、面积分以及斯托克斯公式。"
+    },
+    {
+      "title": "二重积分和累次积分（二次积分）",
+      "url": "https://zhuanlan.zhihu.com/p/89206438",
+      "summary": "正文解释二维同时求和的二重积分与按先后次序计算的累次积分之间的关系，并讨论换序和换元。"
+    },
+    {
+      "title": "最小二乘法",
+      "url": "https://zhuanlan.zhihu.com/p/89373759",
+      "summary": "正文通过对多个变量分别求偏导并解一阶条件，具体运用了多变量微积分。"
+    },
+    {
+      "title": "线性回归之最小二乘法",
+      "url": "https://zhuanlan.zhihu.com/p/90073632",
+      "summary": "正文将多参数损失视为多元函数，并通过分别求偏导和令偏导为零求极小值。"
+    },
+    {
+      "title": "雅可比矩阵、黑森矩阵、泰勒展开式",
+      "url": "https://zhuanlan.zhihu.com/p/90496291",
+      "summary": "正文从多变量向量函数的偏导数出发，讲解雅可比矩阵、黑塞矩阵及多元泰勒展开。"
+    },
+    {
+      "title": "矩阵求导与矩阵微分",
+      "url": "https://zhuanlan.zhihu.com/p/90802394",
+      "summary": "正文将多元函数微分推广到矩阵变量和函数矩阵，并推导矩阵形式的全微分关系。"
+    },
+    {
+      "title": "Green、Gauss、Stokes公式",
+      "url": "https://zhuanlan.zhihu.com/p/91467628",
+      "summary": "正文展开空间区域上的三重积分与边界曲面积分、曲面积分与边界曲线积分的关系。"
+    },
+    {
+      "title": "如何在知乎中优雅地写数学公式吗？如何在知乎直接贴 markdown 文件？",
+      "url": "https://zhuanlan.zhihu.com/p/91626718",
+      "summary": "正文用梯度、偏导数和二阶偏导系统说明多变量实值函数的黑塞矩阵。"
+    },
+    {
+      "title": "多维随机变量函数的分布",
+      "url": "https://zhuanlan.zhihu.com/p/91778595",
+      "summary": "正文用二重积分、偏导数和雅可比行列式处理二维随机变量的联合密度变换。"
+    },
+    {
+      "title": "高斯拉普拉斯算子（Laplacian of Gaussian, LoG）",
+      "url": "https://zhuanlan.zhihu.com/p/92143464",
+      "summary": "正文以二维二阶偏导数和混合偏导连续条件定义拉普拉斯算子，实质展开了多元微分运算。"
+    },
+    {
+      "title": "从欧拉-拉格朗日方程到理论力学和全变分约束降噪",
+      "url": "https://zhuanlan.zhihu.com/p/93350544",
+      "summary": "正文把单变量泛函推广到二元函数，使用偏导数和分部积分推导高维欧拉-拉格朗日方程。"
+    },
+    {
+      "title": "（四十六）OpenCV HOG+SVM的物体检测",
+      "url": "https://zhuanlan.zhihu.com/p/94934407",
+      "summary": "正文实质展开偏导数、方向导数与多元函数梯度，并说明梯度方向和最大变化率。"
+    },
+    {
+      "title": "常微分方程学习笔记(1)",
+      "url": "https://zhuanlan.zhihu.com/p/95920395",
+      "summary": "正文讨论二元函数的偏导数、全微分、曲线积分与路径无关条件。"
+    },
+    {
+      "title": "作为影子价格的拉格朗日乘数，及其数理渊源",
+      "url": "https://zhuanlan.zhihu.com/p/96133788",
+      "summary": "用多元函数的偏导条件、雅可比行列式和隐函数关系推导最优值对约束参数的敏感度。"
+    },
+    {
+      "title": "两种常见的点云配准方法ICP&NDT",
+      "url": "https://zhuanlan.zhihu.com/p/96908474",
+      "summary": "正文对多元目标函数计算梯度与海森矩阵，并用牛顿法迭代求点云配准的位姿。"
+    },
+    {
+      "title": "梯度、散度、旋度",
+      "url": "https://zhuanlan.zhihu.com/p/97545154",
+      "summary": "正文用偏导数、切平面和梯度讲解多元函数的线性近似及散度与旋度。"
+    },
+    {
+      "title": "格林公式：形式与推广",
+      "url": "https://zhuanlan.zhihu.com/p/98017196",
+      "summary": "正文讲解格林公式的旋度与散度形式，并推广到斯托克斯公式和高斯公式。"
+    },
+    {
+      "title": "恰当微分方程及分项组合法",
+      "url": "https://zhuanlan.zhihu.com/p/97912827",
+      "summary": "正文利用二元函数全微分和偏导数解释分项组合法，并以多个二元微分式示范凑微分。"
+    },
+    {
+      "title": "矢量与场论 | 场论",
+      "url": "https://zhuanlan.zhihu.com/p/98229591",
+      "summary": "正文系统讲解方向导数、梯度、通量、散度和旋度，属于多元函数的微分与积分。"
+    },
+    {
+      "title": "矢量与场论 | 哈密顿算子",
+      "url": "https://zhuanlan.zhihu.com/p/98614295",
+      "summary": "正文定义哈密顿算子并系统给出梯度、散度、旋度、格林公式和斯托克斯公式，属于多元微积分中的向量场运算。"
+    },
+    {
+      "title": "多元函数求极限方法总结",
+      "url": "https://zhuanlan.zhihu.com/p/98921951",
+      "summary": "集中讲解二元函数的二重极限定义、计算方法、不存在性判断及二重积分应用。"
+    },
+    {
+      "title": "机器人雅可比矩阵的理解和常用公式",
+      "url": "https://zhuanlan.zhihu.com/p/100798276",
+      "summary": "正文从一维函数导数推广到多变量向量函数的雅可比矩阵，并用于多关节速度分析。"
+    },
+    {
+      "title": "一般坐标系下的梯度散度旋度及拉普拉斯形式",
+      "url": "https://zhuanlan.zhihu.com/p/101046437",
+      "summary": "正文系统整理多变量场论中的梯度、散度、旋度及拉普拉斯算子，并转换到曲线坐标。"
+    },
+    {
+      "title": "IBL推导及实现",
+      "url": "https://zhuanlan.zhihu.com/p/95865910",
+      "summary": "正文通过半球上的多维积分和球面参数化，推导环境光照的数值积分近似。"
+    },
+    {
+      "title": "保角变换",
+      "url": "https://zhuanlan.zhihu.com/p/103691161",
+      "summary": "正文由柯西-黎曼偏导关系推出实部、虚部满足拉普拉斯方程，并用梯度正交性解释等值线关系。"
+    },
+    {
+      "title": "咸鱼的微积分笔记——梯度、法向量",
+      "url": "https://zhuanlan.zhihu.com/p/103772018",
+      "summary": "正文用偏导、全微分和方向导数解释梯度增长最快的方向，并区分函数梯度与等值线法向量的定义域。"
+    },
+    {
+      "title": "咸鱼的微积分笔记——无条件极值",
+      "url": "https://zhuanlan.zhihu.com/p/103854947",
+      "summary": "正文讨论二元函数的一阶、二阶偏导以及沿任意方向考察极值的条件。"
+    },
+    {
+      "title": "咸鱼的微积分笔记——条件极值，拉格朗日乘数法",
+      "url": "https://zhuanlan.zhihu.com/p/103976631",
+      "summary": "正文用二元函数的梯度、等高线和约束曲线解释条件极值的多元微积分原理。"
+    },
+    {
+      "title": "15分钟搞定Softmax Loss求导",
+      "url": "https://zhuanlan.zhihu.com/p/105758059",
+      "summary": "正文使用链式法则处理标量、向量以及 Jacobian 之间的多变量求导，并核对各偏导结果的维度，属于多元微积分。"
+    },
+    {
+      "title": "[CVX02] Convex Function",
+      "url": "https://zhuanlan.zhihu.com/p/106072155",
+      "summary": "正文在多元函数上使用梯度、Hessian矩阵及二阶可微条件刻画凸性，实质运用了多元微积分。"
+    },
+    {
+      "title": "二元函数的连续、可偏导、可微、偏导数连续之间的关系",
+      "url": "https://zhuanlan.zhihu.com/p/108071470",
+      "summary": "正文系统比较二元函数连续、可偏导与可微的关系，并证明偏导数连续是函数可微的充分条件。"
+    },
+    {
+      "title": "如何将二重积分化为二次积分以及交换二次积分的次序？",
+      "url": "https://zhuanlan.zhihu.com/p/109410287",
+      "summary": "正文把平面区域微分为矩形微元，用先积块成条、再积条成片的微元法解释二重积分，属于多元微积分。"
+    },
+    {
+      "title": "对二元函数的粗糙理解{连续，可微，可偏导（偏微分），各方向导数存在，偏导连续（连续可偏导）}",
+      "url": "https://zhuanlan.zhihu.com/p/107834536",
+      "summary": "正文系统梳理二元函数连续、可微、偏导数、方向导数和偏导连续之间的关系。"
+    },
+    {
+      "title": "普通最小二乘法的推导证明",
+      "url": "https://zhuanlan.zhihu.com/p/109986821",
+      "summary": "正文对含多个参数的损失函数分别求偏导并令其为零，以推导一元回归参数。"
+    },
+    {
+      "title": "数值求导和自动求导",
+      "url": "https://zhuanlan.zhihu.com/p/109755675",
+      "summary": "正文解释多元向量函数的雅可比矩阵、海森矩阵及利用稀疏结构降低计算量。"
+    },
+    {
+      "title": "多元函数的泰勒展开式",
+      "url": "https://zhuanlan.zhihu.com/p/110146436",
+      "summary": "正文用梯度与 Hessian 矩阵具体表达多元函数的二阶泰勒展开。"
+    },
+    {
+      "title": "偏导连续、偏导存在、连续、可微，之间的关系",
+      "url": "https://zhuanlan.zhihu.com/p/110305413",
+      "summary": "正文梳理二元函数的偏导连续、偏导存在、连续和可微之间的关系。"
+    },
+    {
+      "title": "积分“秘宝”——雅克比行列式",
+      "url": "https://zhuanlan.zhihu.com/p/111501020",
+      "summary": "正文说明雅可比行列式在极坐标、球坐标及其他变量代换多元积分中的换算作用。"
+    },
+    {
+      "title": "评分卡基础—逻辑回归算法理解",
+      "url": "https://zhuanlan.zhihu.com/p/111260930",
+      "summary": "正文定义多元函数的偏导数与梯度，并据此计算损失函数的最速下降方向。"
+    },
+    {
+      "title": "梯度、方向导数与等值面",
+      "url": "https://zhuanlan.zhihu.com/p/111723231",
+      "summary": "正文围绕多元函数的偏导数构造梯度，并借助方向导数说明梯度与等值面垂直。"
+    },
+    {
+      "title": "用拉格朗日乘数法在高中数学里乱搞的几个例子",
+      "url": "https://zhuanlan.zhihu.com/p/113045591",
+      "summary": "正文多次构造拉格朗日函数并对多个变量求偏导，实质使用多元微积分。"
+    },
+    {
+      "title": "CV学习笔记（十三）：图像梯度",
+      "url": "https://zhuanlan.zhihu.com/p/113397988",
+      "summary": "正文从二元函数偏导与方向导数解释梯度，再将其用于离散图像函数的梯度计算。"
+    },
+    {
+      "title": "梯度，散度，旋度，拉普拉斯算子的相关认知",
+      "url": "https://zhuanlan.zhihu.com/p/113413972",
+      "summary": "正文比较偏导、方向导数、梯度、散度、旋度和拉普拉斯算子，集中讲解多元函数微分运算。"
+    },
+    {
+      "title": "复合函数求偏导数的奥义",
+      "url": "https://zhuanlan.zhihu.com/p/114408042",
+      "summary": "正文通过隐函数和复合函数求导推导偏导关系，重点辨析全导数与偏导数，并说明求偏导时其余变量保持不变。"
+    },
+    {
+      "title": "热力学中偏导数的化简与表示小结",
+      "url": "https://zhuanlan.zhihu.com/p/115068655",
+      "summary": "正文系统讲解多元函数的偏导数及倒数、轮换、复合运算规则，并用特性函数把热力学偏导数化为所选自变量的偏导数。"
+    },
+    {
+      "title": "【高考压轴题】2008年江西理科数学压轴题",
+      "url": "https://zhuanlan.zhihu.com/p/116490544",
+      "summary": "正文构造二元函数，计算偏导和二阶偏导，并用边界值与极值分析说明原不等式的上界。"
+    },
+    {
+      "title": "多元函数的极值与其求法",
+      "url": "https://zhuanlan.zhihu.com/p/117560599",
+      "summary": "正文系统讨论二元函数的偏导数、驻点和二阶偏导判别条件，属于多元微积分。"
+    },
+    {
+      "title": "导数、梯度、 Jacobian、Hessian",
+      "url": "https://zhuanlan.zhihu.com/p/117657125",
+      "summary": "正文由一元导数推广到多元梯度，并继续给出雅可比矩阵和黑塞矩阵的多元微分形式。"
+    },
+    {
+      "title": "数值优化|笔记整理（1）——引入，线搜索：步长选取条件",
+      "url": "https://zhuanlan.zhihu.com/p/118443321",
+      "summary": "正文讲解多元实值函数的梯度、海塞矩阵、方向导数及极值必要条件。"
+    },
+    {
+      "title": "曲线族的包络线",
+      "url": "https://zhuanlan.zhihu.com/p/118474711",
+      "summary": "文章以多元函数对参数求偏导并消参的条件计算曲线族的包络线。"
+    },
+    {
+      "title": "复变函数的导数",
+      "url": "https://zhuanlan.zhihu.com/p/108998452",
+      "summary": "正文用实部和虚部的偏导数及 C-R 方程研究复函数可导性，并讨论调和函数。"
+    },
+    {
+      "title": "复分析(1)-实可微和复可微",
+      "url": "https://zhuanlan.zhihu.com/p/125452898",
+      "summary": "正文先复习R^n可微、方向导数和偏导数，并给出方向导数与雅可比矩阵的关系。"
+    },
+    {
+      "title": "对雅可比矩阵的理解",
+      "url": "https://zhuanlan.zhihu.com/p/123934469",
+      "summary": "正文用雅可比矩阵解释多元坐标变换中的微分换元和面积微元。"
+    },
+    {
+      "title": "什么是张量(tensor)？",
+      "url": "https://zhuanlan.zhihu.com/p/121429834",
+      "summary": "正文用指标和张量运算展开梯度、散度、旋度并证明多元向量微积分恒等式。"
+    },
+    {
+      "title": "非线性最小二乘",
+      "url": "https://zhuanlan.zhihu.com/p/124934931",
+      "summary": "正文利用残差的雅克比矩阵和海森矩阵表示目标函数的一阶、二阶导数。"
+    },
+    {
+      "title": "n维空间中的球面坐标变换",
+      "url": "https://zhuanlan.zhihu.com/p/128580414",
+      "summary": "正文用多元坐标变换和 Jacobian 体积元处理 n 维球体积分。"
+    },
+    {
+      "title": "偏微分方程预备知识-梯度，散度，旋度",
+      "url": "https://zhuanlan.zhihu.com/p/130491422",
+      "summary": "正文讲解多元函数的梯度、散度、旋度和拉普拉斯算子，并解释全微分与各算子的性质。"
+    },
+    {
+      "title": "直角坐标、球坐标和柱坐标下梯度、散度和拉普拉斯算子",
+      "url": "https://zhuanlan.zhihu.com/p/133788964",
+      "summary": "正文集中列出直角、柱和球坐标系中梯度、散度与拉普拉斯算子的多元微分表达式。"
+    },
+    {
+      "title": "【分析力学】电磁场中带电粒子的Lagrange量和Hamilton量",
+      "url": "https://zhuanlan.zhihu.com/p/133679808",
+      "summary": "正文具体展开矢量恒等式、梯度与旋度运算，并通过多元函数链式法则改写带电粒子在电磁场中的动力学方程。"
+    },
+    {
+      "title": "连续介质力学基础：雷诺输运方程",
+      "url": "https://zhuanlan.zhihu.com/p/135314110",
+      "summary": "正文以多元函数、区域积分、偏导与散度完成雷诺输运方程推导，属于多元微积分应用。"
+    },
+    {
+      "title": "从球坐标出发，推导角动量平方算符表达式",
+      "url": "https://zhuanlan.zhihu.com/p/136022582",
+      "summary": "正文对球坐标基矢作多元偏导，并利用链式求导展开二阶微分算符得到最终表达式。"
+    },
+    {
+      "title": "热容，定压热容，定容热容，比热容",
+      "url": "https://zhuanlan.zhihu.com/p/136678843",
+      "summary": "正文用状态方程、全微分和偏导数链式关系推导热容关系，实质应用了多元微积分。"
+    },
+    {
+      "title": "曲线曲面积分这一章应该掌握的内容（已含考研内容）",
+      "url": "https://zhuanlan.zhihu.com/p/137622415",
+      "summary": "正文把曲线曲面积分与多维散度、旋度及高斯、斯托克斯公式联系起来。"
+    },
+    {
+      "title": "矩阵求导简介",
+      "url": "https://zhuanlan.zhihu.com/p/137702347",
+      "summary": "正文系统讲解向量与标量、向量与向量之间的求导，并以雅可比矩阵表示多元向量函数的线性近似。"
+    },
+    {
+      "title": "用人话讲明白梯度下降Gradient Descent（以求解多元线性回归参数为例）",
+      "url": "https://zhuanlan.zhihu.com/p/137713040",
+      "summary": "正文用偏导数向量定义多元函数的梯度，并据此判断函数下降方向。"
+    },
+    {
+      "title": "民科吧见闻录25(Part C)——郭德强数学·前篇",
+      "url": "https://zhuanlan.zhihu.com/p/131501298",
+      "summary": "正文具体推导多元函数全微分、偏导数及隐函数求导关系，并分析微分写法导致的错误。"
+    },
+    {
+      "title": "分离变量法解拉普拉斯方程",
+      "url": "https://zhuanlan.zhihu.com/p/138014489",
+      "summary": "正文先给出曲线坐标下的梯度、散度、旋度和拉普拉斯算子表达式，再用它们转换到直角、球和柱坐标系。"
+    },
+    {
+      "title": "基础篇2: 梯度、散度与旋度",
+      "url": "https://zhuanlan.zhihu.com/p/136836187",
+      "summary": "正文系统讲解标量场梯度、矢量场散度与旋度的定义和几何意义，属于多元微积分。"
+    },
+    {
+      "title": "线性无关的子集个数为什么一定会先增加后减少呢？",
+      "url": "https://zhuanlan.zhihu.com/p/138191803",
+      "summary": "正文用多元函数的方向导数、Hessian 与对数凸性建立并证明组合对数凸结论。"
+    },
+    {
+      "title": "Hessian矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/138334587",
+      "summary": "正文用多元函数的偏导数定义 Jacobian，并进一步组织二阶偏导。"
+    },
+    {
+      "title": "数学笔记|特殊函数(2):Beta函数",
+      "url": "https://zhuanlan.zhihu.com/p/138638963",
+      "summary": "正文把二重积分化为极坐标，以半径和角度的代换完成Beta函数与Gamma函数的证明。"
+    },
+    {
+      "title": "凸优化笔记16：次梯度",
+      "url": "https://zhuanlan.zhihu.com/p/139083837",
+      "summary": "正文在向量空间中讨论支撑超平面、凸函数的方向导数及其与次梯度的关系，属于多元微积分与凸分析。"
+    },
+    {
+      "title": "流形 (Manifolds): An Introduction -- (0) 一些预备知识",
+      "url": "https://zhuanlan.zhihu.com/p/139460753",
+      "summary": "正文定义多变量 C^k 函数及其偏导数，并在定理证明中使用多元链式法则。"
+    },
+    {
+      "title": "谢惠民习题讲义部分答案以及数分讲义习题整理",
+      "url": "https://zhuanlan.zhihu.com/p/139608291",
+      "summary": "正文用Green公式、极坐标和对称性计算曲线积分、曲面积分及多重积分。"
+    },
+    {
+      "title": "猴子也能听懂的三重积分换序问题",
+      "url": "https://zhuanlan.zhihu.com/p/141579115",
+      "summary": "正文先交换三重积分的两层变量次序，再画出三维区域分块并得到新的累次积分。"
+    },
+    {
+      "title": "基础篇4:张量的运算及矢量梯度、张量散度",
+      "url": "https://zhuanlan.zhihu.com/p/139105732",
+      "summary": "正文给出矢量梯度和张量散度的偏导表达式，并说明张量散度的结果是矢量。"
+    },
+    {
+      "title": "华莱士（Wallis）公式",
+      "url": "https://zhuanlan.zhihu.com/p/141660122",
+      "summary": "正文通过确定平面区域和累次积分上下限，具体计算了一个二重积分。"
+    },
+    {
+      "title": "二重积分的计算",
+      "url": "https://zhuanlan.zhihu.com/p/141754234",
+      "summary": "正文系统讲解二重积分在直角坐标和极坐标下的计算及积分次序选择。"
+    },
+    {
+      "title": "极坐标与直角坐标二重积分转换",
+      "url": "https://zhuanlan.zhihu.com/p/142220637",
+      "summary": "正文从多元向量值函数的雅可比矩阵出发，解释多变量积分换元的体积伸缩。"
+    },
+    {
+      "title": "你对YOLOV3损失函数真的理解正确了吗？",
+      "url": "https://zhuanlan.zhihu.com/p/142408168",
+      "summary": "正文利用链式法则分别推导softmax各输出对多个神经元输入的偏导数。"
+    },
+    {
+      "title": "向量，矩阵和张量的导数 | 简单的数学",
+      "url": "https://zhuanlan.zhihu.com/p/142668996",
+      "summary": "正文把多元数组求导化为逐元素偏导数，并用雅可比矩阵和链式法则处理多变量映射。"
+    },
+    {
+      "title": "基础篇5:几个重要的积分定理",
+      "url": "https://zhuanlan.zhihu.com/p/143240681",
+      "summary": "正文把格林定理推广到三维，讲解梯度场、旋度、散度和含参积分等多元微积分定理。"
+    },
+    {
+      "title": "二重极限的最强解法——极坐标代换法！！！",
+      "url": "https://zhuanlan.zhihu.com/p/143541324",
+      "summary": "正文讲解二元函数在不同路径趋近时的二重极限，并以多组例子判断极限是否存在。"
+    },
+    {
+      "title": "做题笔记：多元函数求导的链式法则",
+      "url": "https://zhuanlan.zhihu.com/p/144625188",
+      "summary": "正文通过多元复合函数和变量代换具体计算偏导数及二阶偏导。"
+    },
+    {
+      "title": "让向量、矩阵和张量的求导更简洁些吧",
+      "url": "https://zhuanlan.zhihu.com/p/144756543",
+      "summary": "正文系统讲解向量、矩阵和张量的多维求导、雅可比矩阵及多元链式法则。"
+    },
+    {
+      "title": "东南大学2020年5月30日高数月考20道积分题的详细解答",
+      "url": "https://zhuanlan.zhihu.com/p/144936398",
+      "summary": "正文综合使用格林、高斯和 Stokes 公式计算曲线、曲面积分及向量场通量，属于多元微积分。"
+    },
+    {
+      "title": "全微分的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/145424358",
+      "summary": "正文由一元微分推进到二元函数的全增量与全微分，并用偏导数和切平面解释其几何意义。"
+    },
+    {
+      "title": "导数与微分到底有什么区别？",
+      "url": "https://zhuanlan.zhihu.com/p/145620564",
+      "summary": "正文进一步讨论多元函数的线性逼近、各方向导数与偏导数存在的差异，说明多元可微性的条件。"
+    },
+    {
+      "title": "多元函数的泰勒级数",
+      "url": "https://zhuanlan.zhihu.com/p/146371408",
+      "summary": "正文利用多元链式法则和偏导数表示二阶近似，并推广到任意多元函数的泰勒展开。"
+    },
+    {
+      "title": "n重积分——n维球体的体积",
+      "url": "https://zhuanlan.zhihu.com/p/147794191",
+      "summary": "正文使用多维区域分割、坐标伸缩和换元把高维体积化为低一维球体体积。"
+    },
+    {
+      "title": "续浅谈变分原理：运动常数、拉格朗日乘子法",
+      "url": "https://zhuanlan.zhihu.com/p/148762023",
+      "summary": "正文用多元函数的梯度与法向量解释约束极值点的相切条件，并推广到多个约束。"
+    },
+    {
+      "title": "Euler-Lagrange Equation (欧拉-拉格朗日方程)推导",
+      "url": "https://zhuanlan.zhihu.com/p/148949128",
+      "summary": "正文随即用链式法则、分部积分和对扰动变量求导完成推导，具体展开了多元微分与积分方法。"
+    },
+    {
+      "title": "偏微分方程：一门揭示宇宙奥秘、改变世界面貌的科学",
+      "url": "https://zhuanlan.zhihu.com/p/149022967",
+      "summary": "正文先解释多元函数、偏导数和二阶偏导数，再由此引出偏微分方程。"
+    },
+    {
+      "title": "对第一/二型曲线/曲面积分的小总结",
+      "url": "https://zhuanlan.zhihu.com/p/149352265",
+      "summary": "正文系统讲解多元微积分中的曲线与曲面积分，并用格林、斯托克斯和高斯公式讨论边界积分转换。"
+    },
+    {
+      "title": "咸鱼的微积分笔记——斯托克斯公式，旋度",
+      "url": "https://zhuanlan.zhihu.com/p/149652881",
+      "summary": "正文通过环量、曲面积分和偏导推出斯托克斯公式，并定义向量场的旋度。"
+    },
+    {
+      "title": "特殊的复变函数：解析函数",
+      "url": "https://zhuanlan.zhihu.com/p/149487928",
+      "summary": "正文对柯西-黎曼方程继续求偏导，证明解析函数的实部和虚部都是调和函数。"
+    },
+    {
+      "title": "变分法：理解变分",
+      "url": "https://zhuanlan.zhihu.com/p/150870563",
+      "summary": "正文推导二重及多重积分形式的欧拉-拉格朗日公式，具体使用偏导数和格林公式。"
+    },
+    {
+      "title": "The Laplacian of (1/r),格林函数与泊松方程",
+      "url": "https://zhuanlan.zhihu.com/p/154094937",
+      "summary": "正文在球坐标下计算拉普拉斯算子并作体积分，结合散度定理证明 1/r 的拉普拉斯为狄拉克函数。"
+    },
+    {
+      "title": "优化-拉格朗日乘子法",
+      "url": "https://zhuanlan.zhihu.com/p/154517678",
+      "summary": "正文用多元函数的梯度与约束曲面的正交关系推导最优性条件，属于多元微积分方法。"
+    },
+    {
+      "title": "拉梅系数在矢量分析中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/155620740",
+      "summary": "正文借助拉梅系数系统推导曲线坐标系中的梯度、散度、旋度和拉普拉斯算子，属于多元微积分。"
+    },
+    {
+      "title": "线积分与面积分（1）：从拉梅系数开始",
+      "url": "https://zhuanlan.zhihu.com/p/149863110",
+      "summary": "正文利用偏导与全微分计算线元、面积微元和体积微元，为曲线坐标下的多元积分换元作准备。"
+    },
+    {
+      "title": "ICML20 | 连续Pareto优化与多任务学习",
+      "url": "https://zhuanlan.zhihu.com/p/159000150",
+      "summary": "正文用偏导数组成的 Hessian 矩阵和梯度子空间说明多变量函数的二阶近似。"
+    },
+    {
+      "title": "复数的实矩阵表示",
+      "url": "https://zhuanlan.zhihu.com/p/160270375",
+      "summary": "正文把矩阵函数的可微条件化为对实虚部变量的偏导数关系，从而推出柯西-黎曼方程。"
+    },
+    {
+      "title": "二重积分-交换积分次序",
+      "url": "https://zhuanlan.zhihu.com/p/161200153",
+      "summary": "正文用平面区域的不等式描述处理二元积分的积分区域，并给出交换次序后的区域边界。"
+    },
+    {
+      "title": "数值优化|笔记整理（8）——带约束优化：引入，梯度投影法",
+      "url": "https://zhuanlan.zhihu.com/p/161390629",
+      "summary": "正文使用多元函数的梯度、Hessian、Taylor 展开和限制 Hessian 推导局部最优条件。"
+    },
+    {
+      "title": "计量经济学第四讲（多元线性回归模型：基本假定，参数估计，统计检验）",
+      "url": "https://zhuanlan.zhihu.com/p/161624435",
+      "summary": "正文对残差平方和关于参数向量求偏导，并给出矩阵二次型求导规则以导出正规方程。"
+    },
+    {
+      "title": "Python实现自动微分(Automatic Differentiation)",
+      "url": "https://zhuanlan.zhihu.com/p/161635270",
+      "summary": "正文以二元函数为例计算偏导数，并说明反向模式一次取得所有输入梯度。"
+    },
+    {
+      "title": "斯托克斯定理(Stokes’Theorem)",
+      "url": "https://zhuanlan.zhihu.com/p/161870854",
+      "summary": "正文说明斯托克斯定理把有向曲面的曲面积分与其边界曲线的线积分联系起来，并交代曲面定向和边界正向。"
+    },
+    {
+      "title": "散度定理(Divergence Theorem)",
+      "url": "https://zhuanlan.zhihu.com/p/161880950",
+      "summary": "正文先给出斯托克斯公式的向量形式，再把它推广为三维区域边界上的散度定理并说明其积分关系。"
+    },
+    {
+      "title": "随机变量分布问题的简便方法之一——公式法！",
+      "url": "https://zhuanlan.zhihu.com/p/162144400",
+      "summary": "正文利用二重积分换元和雅可比行列式推导二维到二维随机变量的联合密度。"
+    },
+    {
+      "title": "绳船模型中的加速度关系及全导数的运用",
+      "url": "https://zhuanlan.zhihu.com/p/162845298",
+      "summary": "正文定义多元复合函数的全导数，说明偏导数分解并应用它推导船与绳的加速度关系。"
+    },
+    {
+      "title": "数值优化|笔记整理（9）——非线性规划的极值性质，KKT条件",
+      "url": "https://zhuanlan.zhihu.com/p/163527928",
+      "summary": "正文用多元函数的梯度、方向导数、Taylor 展开和约束 Jacobian 推导一阶与二阶最优性条件。"
+    },
+    {
+      "title": "浅谈误差函数 erf(x)",
+      "url": "https://zhuanlan.zhihu.com/p/164894362",
+      "summary": "正文通过二重积分并转换到极坐标，计算高斯型积分的关键积分值。"
+    },
+    {
+      "title": "无约束凸优化|梯度下降、最速下降、牛顿下降和各种分析",
+      "url": "https://zhuanlan.zhihu.com/p/165619326",
+      "summary": "正文用梯度、Hessian 矩阵和二阶 Taylor 展开分析多元目标函数，属于多元微积分的具体应用。"
+    },
+    {
+      "title": "三重积分-对称性",
+      "url": "https://zhuanlan.zhihu.com/p/165455327",
+      "summary": "正文利用积分区域关于坐标平面的奇偶对称性，将三重积分化为半区域积分或零。"
+    },
+    {
+      "title": "三重积分-交换积分次序",
+      "url": "https://zhuanlan.zhihu.com/p/166076040",
+      "summary": "正文重新描述三重积分的空间区域和投影边界，系统交换三个积分变量的次序。"
+    },
+    {
+      "title": "Pytorch中的backward函数",
+      "url": "https://zhuanlan.zhihu.com/p/168748668",
+      "summary": "正文通过多元向量函数逐列计算梯度，说明高维输出的求导方式。"
+    },
+    {
+      "title": "高等数学七：重积分的计算及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/169945412",
+      "summary": "正文讨论二元和三元函数在区域上的积分性质、计算次序及曲面面积。"
+    },
+    {
+      "title": "第二类积分转换到第一类积分的方法",
+      "url": "https://zhuanlan.zhihu.com/p/174656773",
+      "summary": "正文把曲线积分的转换推广到空间曲面积分，使用偏导、面积元和外积关系处理多元积分。"
+    },
+    {
+      "title": "微积分II 多重积分换元法15.8 (23)",
+      "url": "https://zhuanlan.zhihu.com/p/171701301",
+      "summary": "正文讨论二元、三元函数的变量替换、积分区域变换以及多重积分中的雅可比修正。"
+    },
+    {
+      "title": "分子动力学入门（10分钟版）",
+      "url": "https://zhuanlan.zhihu.com/p/180123374",
+      "summary": "正文用多变量标量势能的负梯度给出三维粒子体系的力与加速度。"
+    },
+    {
+      "title": "高等数学八：（2）格林公式",
+      "url": "https://zhuanlan.zhihu.com/p/179142163",
+      "summary": "正文通过 P、Q 的连续偏导数、旋度和二重积分给出格林公式，并延伸到散度与拉普拉斯算子。"
+    },
+    {
+      "title": "高等数学八：（3）曲线积分与路径无关的条件",
+      "url": "https://zhuanlan.zhihu.com/p/182439874",
+      "summary": "正文利用格林公式、二重积分和混合偏导数把平面曲线积分转化为多元函数原函数问题。"
+    },
+    {
+      "title": "一些数学分析不错的题目",
+      "url": "https://zhuanlan.zhihu.com/p/188768746",
+      "summary": "正文讨论多元映射的 Jacobian、重积分换元、Hessian 二次型及其在微分同胚和渐近积分中的应用。"
+    },
+    {
+      "title": "关于导数和偏导数的一点思考",
+      "url": "https://zhuanlan.zhihu.com/p/189411141",
+      "summary": "正文通过球面隐式方程说明多元函数偏导构成法向量，并区分偏导与直接求导的处理方式。"
+    },
+    {
+      "title": "拉普拉斯算子的极坐标、柱坐标和球坐标表示",
+      "url": "https://zhuanlan.zhihu.com/p/193094897",
+      "summary": "正文具体计算多元复合函数的偏导数与二阶偏导数，并用链式法则和乘积法则变换 Laplace 算子。"
+    },
+    {
+      "title": "浅谈：拉梅系数那些事儿",
+      "url": "https://zhuanlan.zhihu.com/p/194241346",
+      "summary": "正文系统推导正交曲线坐标下的梯度、散度、旋度及拉普拉斯算子。"
+    },
+    {
+      "title": "N-S方程篇6：动量方程",
+      "url": "https://zhuanlan.zhihu.com/p/194295071",
+      "summary": "正文使用物质导数、梯度与散度等多元微积分运算推导流体动量变化。"
+    },
+    {
+      "title": "考研数学高数公式知识点整理",
+      "url": "https://zhuanlan.zhihu.com/p/200968718",
+      "summary": "正文用偏导数和全微分给出多元函数为常数的判定，并讲解隐函数求导的雅可比方法。"
+    },
+    {
+      "title": "凸优化|笔记整理（2）——凸函数，强凸函数及相关拓展",
+      "url": "https://zhuanlan.zhihu.com/p/210252556",
+      "summary": "正文用梯度、海塞矩阵和二阶 Taylor 展开说明多变量函数的凸性与极小值条件。"
+    },
+    {
+      "title": "关于极坐标",
+      "url": "https://zhuanlan.zhihu.com/p/203377553",
+      "summary": "正文用多元链式法则推导偏导变换、Laplace 算子和二重、三重积分坐标变换。"
+    },
+    {
+      "title": "说说牛顿迭代 -- 方法篇",
+      "url": "https://zhuanlan.zhihu.com/p/218676280",
+      "summary": "正文使用梯度、Jacobian、Hessian 和二阶展开处理多元函数，具体展开了多元微积分的导数结构。"
+    },
+    {
+      "title": "流形微分几何(1)——流形的定义",
+      "url": "https://zhuanlan.zhihu.com/p/219810650",
+      "summary": "正文使用复合函数求导和方向导数定义，把切矢量表示为偏导算子，展开了多元微积分内容。"
+    },
+    {
+      "title": "逐渐有微积分的味了：余切空间（结尾有感想性的见解）",
+      "url": "https://zhuanlan.zhihu.com/p/222338086",
+      "summary": "正文以切向量作用于光滑函数定义微分，并与多元函数的全微分公式作对应。"
+    },
+    {
+      "title": "球谐函数之一-球坐标系下的拉普拉斯方程",
+      "url": "https://zhuanlan.zhihu.com/p/237500760",
+      "summary": "正文用变换规则和链式法则求多元复合函数的一阶、二阶偏导，并组装球坐标 Laplacian。"
+    },
+    {
+      "title": "到底什么是微分？什么是几何？",
+      "url": "https://zhuanlan.zhihu.com/p/247771385",
+      "summary": "正文从多元函数在一点的全微分及偏导数展开，并在坐标变换下重新审视该表达式。"
+    },
+    {
+      "title": "浅谈外微分形式",
+      "url": "https://zhuanlan.zhihu.com/p/252456098",
+      "summary": "正文把梯度、旋度、散度和 Green、Gauss、Stokes 公式纳入多变量微积分与外微分形式框架。"
+    },
+    {
+      "title": "聊一聊Frechet导数、Gateaux导数、Hadamard导数",
+      "url": "https://zhuanlan.zhihu.com/p/252802697",
+      "summary": "正文先定义多元函数方向导数，再将其推广为 Gateaux 导数并比较不同可微概念。"
+    },
+    {
+      "title": "反函数和隐函数定理",
+      "url": "https://zhuanlan.zhihu.com/p/259826897",
+      "summary": "正文通过 Jacobian 矩阵的可逆性陈述并示例应用反函数定理和隐函数定理，属于多元微积分。"
+    },
+    {
+      "title": "杂谈：椭圆面积的四次推导",
+      "url": "https://zhuanlan.zhihu.com/p/261069422",
+      "summary": "正文使用格林公式把椭圆区域上的二重积分化为边界曲线积分。"
+    },
+    {
+      "title": "机器学习中的数学理论1：三步搞定矩阵求导",
+      "url": "https://zhuanlan.zhihu.com/p/262751195",
+      "summary": "正文以多元函数的全微分和梯度为起点，推导矩阵微积分、链式法则及 Hessian。"
+    },
+    {
+      "title": "矩阵求导的本质与分子布局、分母布局的本质（矩阵求导——本质篇）",
+      "url": "https://zhuanlan.zhihu.com/p/263777564",
+      "summary": "正文把矩阵求导归结为多元函数对各分量的偏导，并讨论 Jacobian 与梯度布局。"
+    },
+    {
+      "title": "用 python 学哈密顿力学 (1)",
+      "url": "https://zhuanlan.zhihu.com/p/265946306",
+      "summary": "正文从哈密顿量的偏导数推导位置与动量的运动方程，具体讲解多元函数的偏导计算。"
+    },
+    {
+      "title": "多元微积分和一元微积分是否有本质区别，如果有，区别在哪？",
+      "url": "https://zhuanlan.zhihu.com/p/268026047",
+      "summary": "正文比较一元导数和多元方向导数、偏导数及可微性，并给出所有方向导数存在仍不可微的反例。"
+    },
+    {
+      "title": "最小二乘法多项式曲线拟合数学原理及其 C++ 实现",
+      "url": "https://zhuanlan.zhihu.com/p/268884807",
+      "summary": "正文把残差平方和视为多元函数，利用偏导、全微分与链式法则推导最小二乘解。"
+    },
+    {
+      "title": "微观经济理论（MWG）：消费者选择（Chapter2）",
+      "url": "https://zhuanlan.zhihu.com/p/269256985",
+      "summary": "正文用偏导数、梯度和雅可比矩阵推导需求函数对财富与价格的比较静态关系。"
+    },
+    {
+      "title": "民科吧见闻录25(Part G)——拿洛伦兹变换推勾股定理的郭德强",
+      "url": "https://zhuanlan.zhihu.com/p/266509262",
+      "summary": "正文辨析多变量表达式的全微分，并给出对坐标平方分别求微分后再组合的正确结果。"
+    },
+    {
+      "title": "柯布道格拉斯生产函数及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/274620470",
+      "summary": "正文分别对资本和劳动求偏导得到边际产量，并继续用偏导推导边际替代率和替代弹性。"
+    },
+    {
+      "title": "矩阵求导公式的数学推导（矩阵求导——基础篇）",
+      "url": "https://zhuanlan.zhihu.com/p/273729929",
+      "summary": "正文从向量变元和矩阵变元的实值标量函数出发，逐项推导梯度、乘积、商等多元微分公式。"
+    },
+    {
+      "title": "图卷积网络原来是这么回事（一）——拉普拉斯矩阵初探",
+      "url": "https://zhuanlan.zhihu.com/p/290755442",
+      "summary": "正文从欧氏空间二阶微分算子离散化引出图拉普拉斯差分算子，并讨论图上的梯度与总变差。"
+    },
+    {
+      "title": "矩阵求导公式的数学推导（矩阵求导——进阶篇）",
+      "url": "https://zhuanlan.zhihu.com/p/288541909",
+      "summary": "正文将矩阵变元视为多元函数，利用偏导数和全微分建立矩阵求导方法。"
+    },
+    {
+      "title": "最优化方法复习笔记（三）牛顿法及其收敛性分析",
+      "url": "https://zhuanlan.zhihu.com/p/293951317",
+      "summary": "正文把一元牛顿迭代推广到多元目标函数，使用梯度和Hessian矩阵构造多维搜索方向。"
+    },
+    {
+      "title": "条件极值与拉格朗日乘数法",
+      "url": "https://zhuanlan.zhihu.com/p/296445326",
+      "summary": "正文利用二元、三元函数的偏导数和梯度及其与曲线法向的关系推导条件极值。"
+    },
+    {
+      "title": "MSCKF（四）——FEJ（能观性）的详细推导",
+      "url": "https://zhuanlan.zhihu.com/p/304889273",
+      "summary": "正文对旋转、位置和速度状态构造观测雅可比矩阵，实际计算多个变量的偏导数。"
+    },
+    {
+      "title": "矩阵与数值计算（7）——矩阵的微积分",
+      "url": "https://zhuanlan.zhihu.com/p/304851455",
+      "summary": "正文讨论标量函数相对于向量和矩阵变量的偏导，并列出二次型等多元矩阵微分公式。"
+    },
+    {
+      "title": "对称矩阵的求导，以多元正态分布的极大似然估计为例（矩阵求导——补充篇）",
+      "url": "https://zhuanlan.zhihu.com/p/305171795",
+      "summary": "正文从矩阵变元的多元函数出发，利用全微分、链式关系和矩阵微分推导对称矩阵变元的标量函数导数。"
+    },
+    {
+      "title": "隐函数定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/291415147",
+      "summary": "正文完整陈述并证明向量值多元函数的隐函数定理，讨论偏导数、雅可比矩阵可逆性与隐函数求导公式。"
+    },
+    {
+      "title": "用 python 实现简单的有限元算法（三）",
+      "url": "https://zhuanlan.zhihu.com/p/314246948",
+      "summary": "正文通过二维坐标变换、雅可比矩阵和链式法则，把形函数对自然坐标的偏导转换为对 x、y 的偏导。"
+    },
+    {
+      "title": "混合高斯模型-EM算法",
+      "url": "https://zhuanlan.zhihu.com/p/326055752",
+      "summary": "正文列出矩阵与向量求导公式，并用它们完成多变量 GMM 的 M 步最大化。"
+    },
+    {
+      "title": "教你写一个Pytorch动态计算图自动求导的迷你框架",
+      "url": "https://zhuanlan.zhihu.com/p/328550101",
+      "summary": "正文讲解标量对矩阵的偏导、全微分和复合函数求导，属于多变量微积分。"
+    },
+    {
+      "title": "常见坐标系下梯度、散度、旋度和拉普拉斯算子的形式",
+      "url": "https://zhuanlan.zhihu.com/p/330753273",
+      "summary": "正文系统列出梯度、散度、旋度和拉普拉斯算子，属于多元微积分中的向量微分算子。"
+    },
+    {
+      "title": "\"迟序杯\"几道积分解答",
+      "url": "https://zhuanlan.zhihu.com/p/332240317",
+      "summary": "正文把一重积分平方化为二重积分，再利用极坐标和变量代换求值。"
+    },
+    {
+      "title": "kaysen学长：二元微分，连续、可微、可偏导、偏导连续的超强通俗解析！",
+      "url": "https://zhuanlan.zhihu.com/p/331732466",
+      "summary": "正文重点辨析二元函数的连续、可微、可偏导和偏导连续，并以切平面、全微分及震荡曲面说明多元微分关系。"
+    },
+    {
+      "title": "关于包络线的简单小结",
+      "url": "https://zhuanlan.zhihu.com/p/336452528",
+      "summary": "正文利用多元函数对三个变量的偏导数推导包络满足的联立条件，实质运用了多元微积分。"
+    },
+    {
+      "title": "金融数学第10讲（期权定价：二叉树方法，B-S公式）",
+      "url": "https://zhuanlan.zhihu.com/p/330957457",
+      "summary": "正文对含股票价格和时间的期权函数应用伊藤公式，展开一阶与二阶偏导项。"
+    },
+    {
+      "title": "快速理解梯度，散度和旋度",
+      "url": "https://zhuanlan.zhihu.com/p/336928427",
+      "summary": "正文系统给出梯度、散度、旋度的多元微分定义，并推导梯度的散度与旋度的散度等复合运算。"
+    },
+    {
+      "title": "知识碎片1.格林第二公式",
+      "url": "https://zhuanlan.zhihu.com/p/338714047",
+      "summary": "正文使用 nabla 算子的乘积法则和高斯公式推导格林第一公式，再由两式相减证明格林第二公式。"
+    },
+    {
+      "title": "曲线积分与曲面积分",
+      "url": "https://zhuanlan.zhihu.com/p/338915365",
+      "summary": "正文用切向量叉积和曲面偏导数推导面积微元，处理曲面积分并介绍格林公式与高斯公式。"
+    },
+    {
+      "title": "隐函数存在定理",
+      "url": "https://zhuanlan.zhihu.com/p/340439233",
+      "summary": "正文围绕多元函数的偏导数、隐函数存在唯一性及其隐式求导展开几何解释和证明。"
+    },
+    {
+      "title": "干货 | 机械臂的雅可比矩阵这么厉害，怎么把它求出来呢？（雅可比矩阵中篇）",
+      "url": "https://zhuanlan.zhihu.com/p/341805201",
+      "summary": "正文用位置向量对多个关节变量求得偏导矩阵，并讨论不同坐标系之间的向量求导转换。"
+    },
+    {
+      "title": "武汉大学2021年考研数学分析真题完整解答",
+      "url": "https://zhuanlan.zhihu.com/p/342395769",
+      "summary": "正文讨论二元函数在原点的连续性、偏导数和可微性，并用全增量极限完成证明。"
+    },
+    {
+      "title": "BP反向传播矩阵推导图示详解",
+      "url": "https://zhuanlan.zhihu.com/p/342424874",
+      "summary": "正文从标量损失对矩阵变量的偏导和多元链式法则入手，逐步推导多层网络的梯度。"
+    },
+    {
+      "title": "时间序列预测损失函数 DTW, Soft-DTW, DILATE",
+      "url": "https://zhuanlan.zhihu.com/p/346674141",
+      "summary": "正文利用链式法则、雅可比矩阵和 Hessian 矩阵推导多元序列损失对输入的梯度。"
+    },
+    {
+      "title": "Evans笔记1.5---格林公式",
+      "url": "https://zhuanlan.zhihu.com/p/347551007",
+      "summary": "正文系统回顾多元微积分中的 Gauss-Green 公式、散度定理和分部积分公式并给出推导。"
+    },
+    {
+      "title": "Del算符与梯度、散度、旋度与Laplacian",
+      "url": "https://zhuanlan.zhihu.com/p/349328782",
+      "summary": "正文用偏导算符统一解释梯度、散度、旋度和拉普拉斯算符，并讨论其多元微积分含义与应用。"
+    },
+    {
+      "title": "任意坐标系统的梯度、散度、旋度与Laplacian(1)：极坐标",
+      "url": "https://zhuanlan.zhihu.com/p/349388970",
+      "summary": "正文对二元函数 f(r, phi) 使用全微分、链式法则和偏导，推导极坐标下的梯度与 Laplacian 定义。"
+    },
+    {
+      "title": "任意坐标系统的梯度、散度与旋度(2)：拉梅系数",
+      "url": "https://zhuanlan.zhihu.com/p/349656518",
+      "summary": "正文推导并对比任意曲线坐标下的梯度、散度和旋度公式，核心内容是多元微积分中的向量微分算子。"
+    },
+    {
+      "title": "向量矩阵的偏导计算，看这篇就够了！",
+      "url": "https://zhuanlan.zhihu.com/p/349469914",
+      "summary": "正文系统推导向量对向量、向量对矩阵和矩阵对矩阵的偏导及链式法则，属于多元微积分。"
+    },
+    {
+      "title": "对微分形式不变性的理解",
+      "url": "https://zhuanlan.zhihu.com/p/350936061",
+      "summary": "正文比较多变量偏导与坐标无关的微分，并用雅可比矩阵推导链式法则、反函数和隐函数关系。"
+    },
+    {
+      "title": "条件极值杀手——拉格朗日乘数法",
+      "url": "https://zhuanlan.zhihu.com/p/352106770",
+      "summary": "正文说明二元函数的驻点、偏导必要条件及二阶偏导极值判定，讲解多元函数极值理论。"
+    },
+    {
+      "title": "理解Jacobian矩阵与行列式",
+      "url": "https://zhuanlan.zhihu.com/p/352438848",
+      "summary": "正文说明 Jacobian 由多元函数的偏导数组成，描述局部输入变化对输出的敏感度。"
+    },
+    {
+      "title": "经济学篇5-效用函数分类（用CES统一CD,完全替代与完全互补）",
+      "url": "https://zhuanlan.zhihu.com/p/353206619",
+      "summary": "正文利用二元函数的全微分和偏导关系推导柯布-道格拉斯效用函数的边际替代率。"
+    },
+    {
+      "title": "矢量乘积法则的简洁证明",
+      "url": "https://zhuanlan.zhihu.com/p/353243862",
+      "summary": "正文以分量、爱因斯坦求和约定、Kronecker delta和Levi-Civita符号证明梯度、散度与旋度的乘积及二次微分恒等式，实质展开多元微积分。"
+    },
+    {
+      "title": "私房笔记 | 微分形式的直观理解(上) (Prelude)",
+      "url": "https://zhuanlan.zhihu.com/p/353886699",
+      "summary": "正文用微分形式统一解释三元函数的梯度、向量场的旋度和散度，并完成相应的外微分计算。"
+    },
+    {
+      "title": "经济学篇9：经济学凹函数与拟凹函数许多人理不清（拟凹性，凸性）",
+      "url": "https://zhuanlan.zhihu.com/p/355826726",
+      "summary": "正文用一阶偏导、二阶偏导与全微分判断二元函数的拟凹性。"
+    },
+    {
+      "title": "简单粗暴地推导Taylor公式的各种形式",
+      "url": "https://zhuanlan.zhihu.com/p/356937760",
+      "summary": "正文讨论多元函数的梯度、Hessian 矩阵及向量值函数的多元泰勒展开。"
+    },
+    {
+      "title": "寻思一下雅可比(Jacobi)矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/358198222",
+      "summary": "正文讨论多元向量函数的局部线性化、全微分及一阶偏导数组成的雅可比矩阵。"
+    },
+    {
+      "title": "记一道爆难的类Dirichlet积分",
+      "url": "https://zhuanlan.zhihu.com/p/358938711",
+      "summary": "正文以第一象限上的二重积分为主线，通过累次积分、换元和对称性完成求解。"
+    },
+    {
+      "title": "模型预测控制（MPC）倒立摆作业实操（一）",
+      "url": "https://zhuanlan.zhihu.com/p/359413484",
+      "summary": "正文具体计算非线性倒立摆方程对状态变量的偏导数，并用雅可比矩阵完成平衡点附近的线性化。"
+    },
+    {
+      "title": "高中数学导数大题常用技巧——放缩浅谈（一）",
+      "url": "https://zhuanlan.zhihu.com/p/359071922",
+      "summary": "正文说明偏导数把其他变量视为常量，并通过主元变换先研究参数变量来求解多变量最值问题。"
+    },
+    {
+      "title": "玩转矢量分析公式推导",
+      "url": "https://zhuanlan.zhihu.com/p/360034439",
+      "summary": "正文借助分量求导推导梯度、散度和旋度运算公式，属于多元微积分的矢量分析。"
+    },
+    {
+      "title": "微积分：七、多元函数微分学",
+      "url": "https://zhuanlan.zhihu.com/p/348455980",
+      "summary": "正文系统定义全微分、偏导数、方向导数与梯度，推导链式法则并讨论多元泰勒公式和极值，构成多元微积分主体。"
+    },
+    {
+      "title": "微积分：九、曲线积分与曲面积分",
+      "url": "https://zhuanlan.zhihu.com/p/360488316",
+      "summary": "正文讲曲线与曲面积分、格林/高斯/斯托克斯公式，并以偏导构造梯度、散度和旋度，讨论向量场。"
+    },
+    {
+      "title": "多元隐函数求导方法",
+      "url": "https://zhuanlan.zhihu.com/p/360760828",
+      "summary": "正文通过隐函数存在定理讨论多元隐函数的偏导计算，强调求导时变量间的函数依赖关系。"
+    },
+    {
+      "title": "方向导数和梯度概念辨析",
+      "url": "https://zhuanlan.zhihu.com/p/360884968",
+      "summary": "正文辨析多元函数方向导数与梯度的定义和几何意义，并说明方向导数为梯度与单位方向向量的内积。"
+    },
+    {
+      "title": "复变函数论：二、解析函数",
+      "url": "https://zhuanlan.zhihu.com/p/357338756",
+      "summary": "正文把复变函数拆成两个二元实函数，利用偏导数、梯度和二维可微条件证明柯西-黎曼方程。"
+    },
+    {
+      "title": "函数极限不存在的证明方法（考虑一元、二元函数极限情形）",
+      "url": "https://zhuanlan.zhihu.com/p/361337157",
+      "summary": "正文讨论二元函数沿直线或曲线路径的极限，并用多变量例题说明判断方法。"
+    },
+    {
+      "title": "多元函数微分法及其应用 第五节 隐函数的求导公式",
+      "url": "https://zhuanlan.zhihu.com/p/361759163",
+      "summary": "正文以多元复合函数求导推导隐函数的一阶、二阶偏导数及方程组情形。"
+    },
+    {
+      "title": "用 Python 做数学建模",
+      "url": "https://zhuanlan.zhihu.com/p/362092403",
+      "summary": "正文用一阶偏导求驻点，并按 Hessian 矩阵特征值判断多元函数极值。"
+    },
+    {
+      "title": "两种方法证明二元函数极值取得的充分性",
+      "url": "https://zhuanlan.zhihu.com/p/362415195",
+      "summary": "正文通过方向导数讨论二元函数驻点附近的极值条件，属于多元微积分。"
+    },
+    {
+      "title": "多元函数微分法及其应用 *第九节  二元函数的泰勒公式",
+      "url": "https://zhuanlan.zhihu.com/p/363311391",
+      "summary": "正文以偏导数、二阶展开和极值充分条件系统讨论多元函数的局部近似与判定。"
+    },
+    {
+      "title": "方向导数和梯度概念理解",
+      "url": "https://zhuanlan.zhihu.com/p/363358887",
+      "summary": "正文从二元函数出发解释方向导数的含义、计算及其与偏导数的联系。"
+    },
+    {
+      "title": "[Table] 矩阵微积分",
+      "url": "https://zhuanlan.zhihu.com/p/363859569",
+      "summary": "正文详细讨论多元函数的梯度、Jacobian、Hessian、链式法则和矩阵求导，属于多元微积分。"
+    },
+    {
+      "title": "有限体积法（2）数学基础——向量",
+      "url": "https://zhuanlan.zhihu.com/p/365051614",
+      "summary": "正文在多变量标量场和向量场上定义并推导梯度、散度、旋度及拉普拉斯算子。"
+    },
+    {
+      "title": "第二型曲线曲面积分的轮换对称性",
+      "url": "https://zhuanlan.zhihu.com/p/367441793",
+      "summary": "正文专门讲解第二型曲线与曲面积分的对称和轮换对称性，并通过投影及球面积分例题计算多元积分。"
+    },
+    {
+      "title": "曲面的参数方程",
+      "url": "https://zhuanlan.zhihu.com/p/367637158",
+      "summary": "正文通过偏导数、雅可比行列式和切向量系统讲解参数曲面的法向与面积元。"
+    },
+    {
+      "title": "猴子也能看懂的取整函数积分专题",
+      "url": "https://zhuanlan.zhihu.com/p/367773930",
+      "summary": "正文将积分技巧推广到二重及多重积分，使用累次积分和分部积分化简，直接展开多元积分方法。"
+    },
+    {
+      "title": "复变函数基本概念与定理",
+      "url": "https://zhuanlan.zhihu.com/p/367122899",
+      "summary": "正文把复可微性化为实部和虚部的偏导及雅可比矩阵条件，从而推出柯西-黎曼方程。"
+    },
+    {
+      "title": "GNN入门之路: 01.图拉普拉斯矩阵的定义、推导、性质、应用",
+      "url": "https://zhuanlan.zhihu.com/p/368878987",
+      "summary": "正文从多元函数偏导数出发定义连续与离散拉普拉斯算子，再将其推广到图上的节点信号。"
+    },
+    {
+      "title": "有关摆线的定积分大汇总",
+      "url": "https://zhuanlan.zhihu.com/p/368763681",
+      "summary": "正文在摆线区域上实际计算二重积分，并用重积分求平面图形质心。"
+    },
+    {
+      "title": "轮换对称性",
+      "url": "https://zhuanlan.zhihu.com/p/371226059",
+      "summary": "正文系统讨论二重积分与三重积分中交换变量后积分区域不变的情形，属于多元微积分方法。"
+    },
+    {
+      "title": "5道积分好题",
+      "url": "https://zhuanlan.zhihu.com/p/373677588",
+      "summary": "正文使用二重积分、区域变换和雅可比行列式计算多元积分与极限。"
+    },
+    {
+      "title": "场论——《正交曲线坐标系及拉梅系数》",
+      "url": "https://zhuanlan.zhihu.com/p/374519275",
+      "summary": "正文由空间曲线坐标和拉梅系数推导梯度、体元及球坐标下的拉普拉斯算符，属于多元微积分。"
+    },
+    {
+      "title": "理解L1, L2正则化的正确姿势",
+      "url": "https://zhuanlan.zhihu.com/p/376000306",
+      "summary": "正文把正则化问题解释为原始损失与正则惩罚之间的优化平衡，并借等高线讨论最优解位置。"
+    },
+    {
+      "title": "【面试看这篇就够了】L1、L2正则化理解",
+      "url": "https://zhuanlan.zhihu.com/p/376282535",
+      "summary": "正文把正则化写成原目标函数加惩罚项的优化问题，并比较不同惩罚项对最优解的影响。"
+    },
+    {
+      "title": "Hessian矩阵和极值判断",
+      "url": "https://zhuanlan.zhihu.com/p/377754969",
+      "summary": "正文讨论多维输入标量输出函数的梯度、方向导数和二阶偏导组合。"
+    },
+    {
+      "title": "变分法(3)——不同类型的泛函变分",
+      "url": "https://zhuanlan.zhihu.com/p/378853696",
+      "summary": "正文把变分推广到二元函数及其偏导数，并用格林公式推导多变量欧拉方程。"
+    },
+    {
+      "title": "数学的艺术 (2) —— 高斯积分",
+      "url": "https://zhuanlan.zhihu.com/p/379848030",
+      "summary": "正文把一维积分平方成二重积分，并利用极坐标面积微元完成多元积分变换。"
+    },
+    {
+      "title": "拉普拉斯算子",
+      "url": "https://zhuanlan.zhihu.com/p/376436061",
+      "summary": "正文用链式法则和二阶偏导系统推导二维、三维拉普拉斯算子及其坐标表示。"
+    },
+    {
+      "title": "超强换元法，二重积分计算的核武器！（雅可比行列式超通俗讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/382301310",
+      "summary": "正文用多元函数的连续微分近似计算坐标变换后微元面积，并以雅可比行列式表示面积伸缩比例。"
+    },
+    {
+      "title": "第二型曲面积分解法小整合",
+      "url": "https://zhuanlan.zhihu.com/p/383350072",
+      "summary": "正文通过单位法向量、偏导映射、投影区域和球面坐标处理多元积分及曲面积分。"
+    },
+    {
+      "title": "二元函数连续性、可导性与可微性",
+      "url": "https://zhuanlan.zhihu.com/p/385780535",
+      "summary": "正文讨论二元函数连续性、偏导存在与全微分之间的关系并给出相应反例。"
+    },
+    {
+      "title": "偏微分方程(二)——拉普拉斯方程之基本解",
+      "url": "https://zhuanlan.zhihu.com/p/390553118",
+      "summary": "正文对径向函数逐分量求一阶和二阶偏导，利用拉普拉斯算子化为常微分方程。"
+    },
+    {
+      "title": "Implicit Normalizing Flows",
+      "url": "https://zhuanlan.zhihu.com/p/391827018",
+      "summary": "正文运用隐函数定理和 Jacobian 逆矩阵推导模型参数的梯度计算。"
+    },
+    {
+      "title": "中科大2021夏令营数分高代",
+      "url": "https://zhuanlan.zhihu.com/p/391906272",
+      "summary": "正文通过含参变量积分求一阶、二阶导数并建立恒等关系，属于多元微积分中的参数积分方法。"
+    },
+    {
+      "title": "偏微分方程(三)——平均值公式及调和函数性质",
+      "url": "https://zhuanlan.zhihu.com/p/392032581",
+      "summary": "正文对高维球面和球体上的积分、径向求导、偏导及多重泰勒展开进行计算与估计。"
+    },
+    {
+      "title": "重积分 第二节 二重积分的计算法",
+      "url": "https://zhuanlan.zhihu.com/p/392461670",
+      "summary": "正文通过二维积分区域、积分次序和边界函数讲解多元函数在平面区域上的积分。"
+    },
+    {
+      "title": "通过极限判断二元函数极值的题型--秒杀小结论（附带880，1000，1800相关例题）",
+      "url": "https://zhuanlan.zhihu.com/p/393246756",
+      "summary": "正文讨论二元函数的连续性、二元极限和局部极值判定。"
+    },
+    {
+      "title": "从泛函到无人机控制[2]—欧拉-拉格朗日方程",
+      "url": "https://zhuanlan.zhihu.com/p/393705893",
+      "summary": "正文把单变量泛函推广到 x、y 等多个函数，并以偏导数写出各变量对应的联立变分方程。"
+    },
+    {
+      "title": "偏微分方程(四)——格林函数(Green's function)",
+      "url": "https://zhuanlan.zhihu.com/p/394104835",
+      "summary": "正文在带洞区域上反复使用格林公式、法向导数和边界积分估计来消去未知导数。"
+    },
+    {
+      "title": "秒杀判断某些二元函数的连续，可偏导，可微问题+秒求出某类二元函数极限的结论",
+      "url": "https://zhuanlan.zhihu.com/p/395482784",
+      "summary": "正文集中讨论二元函数在一点的连续性、偏导数存在性与可微性，并证明相应判别条件。"
+    },
+    {
+      "title": "【欧派极值定理】什么样的欧派体积最大？证明：表面积恒定时，球形的欧派体积最大",
+      "url": "https://zhuanlan.zhihu.com/p/396021735",
+      "summary": "正文通过曲面法向量、曲面积分元、投影面积和二重积分推导体积关系，实质展开多元微积分。"
+    },
+    {
+      "title": "高数学习笔记（2）——曲面积分",
+      "url": "https://zhuanlan.zhihu.com/p/397567813",
+      "summary": "正文使用偏导数、曲面法向量和坐标投影把曲面积分化为二重积分，并系统给出高斯公式与斯托克斯公式。"
+    },
+    {
+      "title": "148分煜神学长考研数学结论笔记-重积分章节解题技巧总结（第六期）",
+      "url": "https://zhuanlan.zhihu.com/p/397442198",
+      "summary": "正文通过二元坐标变换、雅可比行列式和二重积分换元系统讲解多元积分的快速计算方法。"
+    },
+    {
+      "title": "曲线积分与曲面积分 第一节 对弧长的曲线积分",
+      "url": "https://zhuanlan.zhihu.com/p/399265719",
+      "summary": "正文把积分区域从平面或空间区域限定到曲线、曲面，并进一步推导三维曲线积分。"
+    },
+    {
+      "title": "线性回归和最小二乘估计（浅显易懂，值得收藏）",
+      "url": "https://zhuanlan.zhihu.com/p/401044047",
+      "summary": "正文对含两个参数的残差平方和分别求偏导并令其为零，用多元微分求最小二乘估计。"
+    },
+    {
+      "title": "几何中的微分形式是什么？Hodge星算子又是什么意思？",
+      "url": "https://zhuanlan.zhihu.com/p/401207597",
+      "summary": "正文以多元积分的面积微元和变量替换为例，说明坐标变换与 Jacobi 行列式的作用。"
+    },
+    {
+      "title": "详细解析深度学习中的 Lipschitz 条件",
+      "url": "https://zhuanlan.zhihu.com/p/389024283",
+      "summary": "正文使用多元函数的 Jacobian、Hessian、梯度积分和二范数处理向量值函数。"
+    },
+    {
+      "title": "复变函数——柯西-黎曼方程浅谈",
+      "url": "https://zhuanlan.zhihu.com/p/402448450",
+      "summary": "正文对二元实值分量使用偏导数和链式法则，推导复变函数导数的柯西-黎曼方程。"
+    },
+    {
+      "title": "基于Gamma伽玛函数表示的超椭圆面积、超椭球体积公式以及向n维的推广",
+      "url": "https://zhuanlan.zhihu.com/p/402456862",
+      "summary": "正文采用先求平面截面面积再沿第三维积分的多重积分方法推导体积公式。"
+    },
+    {
+      "title": "数学技巧篇32：二元函数极限的几种求法",
+      "url": "https://zhuanlan.zhihu.com/p/403503934",
+      "summary": "正文以二元函数的邻域逼近、连续性和变量代换为例，实质展开多元微积分中的极限计算。"
+    },
+    {
+      "title": "有限体积法(Finite Volume Method)：数学基础",
+      "url": "https://zhuanlan.zhihu.com/p/406405950",
+      "summary": "正文推导梯度、格林、斯托克斯、高斯和莱布尼兹积分定理，系统讲解多元积分与向量微积分。"
+    },
+    {
+      "title": "积分关系定理（格林公式、高斯公式、斯托克斯公式）",
+      "url": "https://zhuanlan.zhihu.com/p/408911169",
+      "summary": "正文陈述格林、高斯和斯托克斯公式，并借助外积、外微分及边界算子说明多元积分公式之间的统一关系。"
+    },
+    {
+      "title": "数学分析Mathematical Analysis笔记整理 第十七章 隐函数存在定理",
+      "url": "https://zhuanlan.zhihu.com/p/410729940",
+      "summary": "正文系统讲解多变量隐函数存在定理，包括连续偏导、非零条件、隐函数求导和隐函数组。"
+    },
+    {
+      "title": "Evans偏微分方程第二章习题答案",
+      "url": "https://zhuanlan.zhihu.com/p/414344729",
+      "summary": "正文使用梯度、Hessian 矩阵和 Laplace 算子证明调和函数的极值原理。"
+    },
+    {
+      "title": "Nagumo定理的解释与证明",
+      "url": "https://zhuanlan.zhihu.com/p/415174774",
+      "summary": "正文用多元函数的梯度、方向导数与内积关系解释状态轨迹为何指向集合内部。"
+    },
+    {
+      "title": "SPH算法简介（一）: 数学基础",
+      "url": "https://zhuanlan.zhihu.com/p/416155024",
+      "summary": "正文定义多元函数偏导数、梯度、散度和拉普拉斯算子，说明其在空间场中的含义。"
+    },
+    {
+      "title": "关于行列式的理解：雅可比行列式是如何被定义出来的？",
+      "url": "https://zhuanlan.zhihu.com/p/416193677",
+      "summary": "正文用多元函数偏导数矩阵和雅可比行列式描述非线性空间变换的局部线性化。"
+    },
+    {
+      "title": "保研面试/考研复试高等数学问题整理",
+      "url": "https://zhuanlan.zhihu.com/p/421169592",
+      "summary": "正文讲解多元函数微分、偏导数和梯度，并进一步说明散度与旋度。"
+    },
+    {
+      "title": "偏微分和全微分完全指南",
+      "url": "https://zhuanlan.zhihu.com/p/421141103",
+      "summary": "正文区分多元函数的全微分与偏微分，明确偏导需固定其他变量，并通过复合函数和循环偏导关系展开讨论。"
+    },
+    {
+      "title": "2021-2022丘成桐数学领军计划一试试题解答(分析部分)",
+      "url": "https://zhuanlan.zhihu.com/p/422457200",
+      "summary": "正文把二重黎曼和极限化为正方形区域上的二元积分，并计算该积分。"
+    },
+    {
+      "title": "空间曲面的切平面和法线",
+      "url": "https://zhuanlan.zhihu.com/p/423346625",
+      "summary": "正文给出空间曲面 F(x,y,z)=0 的法向量、法线方程与切平面方程，并用球面切平面作几何说明。"
+    },
+    {
+      "title": "第一型曲面积分在参数方程形式下的计算",
+      "url": "https://zhuanlan.zhihu.com/p/423415945",
+      "summary": "正文用参数方程、偏导数和雅可比行列式求面积微元，再以二重积分换元计算多元积分。"
+    },
+    {
+      "title": "隐函数存在定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/427763701",
+      "summary": "正文显式使用二元函数的连续偏导数和偏导数非零条件，并讨论隐函数存在后的 F_x。"
+    },
+    {
+      "title": "隐函数求二阶导数",
+      "url": "https://zhuanlan.zhihu.com/p/429084297",
+      "summary": "正文用全导数、偏导数与链式关系推导隐函数二阶导，并强调多元函数求导时固定另一变量。"
+    },
+    {
+      "title": "方向导数 梯度grad 散度div 旋度rot",
+      "url": "https://zhuanlan.zhihu.com/p/429044399",
+      "summary": "正文说明方向导数、梯度、散度和旋度的对象类型，并用流体源汇解释散度的向量场含义。"
+    },
+    {
+      "title": "物理模拟-流体：Smoothed Particle Hydrodynamics（一）",
+      "url": "https://zhuanlan.zhihu.com/p/426566636",
+      "summary": "正文用随体导数、梯度、散度和拉普拉斯算子描述多元向量场的变化并推导连续性关系。"
+    },
+    {
+      "title": "方向导数存在时偏导数却可能不存在",
+      "url": "https://zhuanlan.zhihu.com/p/430125622",
+      "summary": "正文用二元绝对值函数在原点处比较方向导数与偏导数，具体展开多元函数的偏导定义。"
+    },
+    {
+      "title": "球谐函数可视化 | 直观理解球谐展开",
+      "url": "https://zhuanlan.zhihu.com/p/430163791",
+      "summary": "正文给出球坐标 Laplace 算子的角向偏微分表达式，并说明分离变量后得到球谐函数方程。"
+    },
+    {
+      "title": "曲面的切平面的推导过程的逻辑",
+      "url": "https://zhuanlan.zhihu.com/p/431391146",
+      "summary": "正文用隐式方程和复合函数求导推导曲面切平面的法向量与点法式方程。"
+    },
+    {
+      "title": "关于第十三届全国大学生数学竞赛(非数)的分析",
+      "url": "https://zhuanlan.zhihu.com/p/432806758",
+      "summary": "正文用隐函数偏导公式计算二元函数的偏导数，并处理多重积分等多元微积分问题。"
+    },
+    {
+      "title": "第十三届CMC全国大学生数学竞赛（非数学类）试题及答案解析",
+      "url": "https://zhuanlan.zhihu.com/p/432819737",
+      "summary": "正文用多元隐函数求导公式计算两个偏导数，并进一步处理二重积分。"
+    },
+    {
+      "title": "学物理真能去二次元吗? / 怎么这个也算高数啊?",
+      "url": "https://zhuanlan.zhihu.com/p/433548322",
+      "summary": "正文详细区分多元函数的偏导数、全微分和全导数，并讨论多重积分与积分换序。"
+    },
+    {
+      "title": "随机微分方程学习笔记I：随机分析中的伊藤公式",
+      "url": "https://zhuanlan.zhihu.com/p/434589422",
+      "summary": "正文从二元函数全微分和二阶偏导展开伊藤公式，并进一步给出高维情形下的交叉二阶项。"
+    },
+    {
+      "title": "高斯积分的几种证明",
+      "url": "https://zhuanlan.zhihu.com/p/435149768",
+      "summary": "正文将高斯积分的平方写成二元函数在平面上的二重积分，并通过变量替换完成计算。"
+    },
+    {
+      "title": "【常微分方程】积分因子法",
+      "url": "https://zhuanlan.zhihu.com/p/436015309",
+      "summary": "正文用 P、Q 的偏导数相等判定恰当微分方程，并构造含偏导积分的势函数。"
+    },
+    {
+      "title": "爱因斯坦求和约定推导矢量分析公式",
+      "url": "https://zhuanlan.zhihu.com/p/438852209",
+      "summary": "正文系统推导梯度、散度、旋度与拉普拉斯算子的乘积公式和恒等式。"
+    },
+    {
+      "title": "形象理解拉格朗日乘子法",
+      "url": "https://zhuanlan.zhihu.com/p/440297403",
+      "summary": "正文用多元函数的梯度、偏导与等高线关系解释等式和不等式约束下的拉格朗日乘子法。"
+    },
+    {
+      "title": "荧光区域积分法（FRI）——在MATLAB中实现",
+      "url": "https://zhuanlan.zhihu.com/p/440755336",
+      "summary": "正文用激发－发射平面上的二重积分及其离散双重求和计算三维荧光矩阵的区域体积。"
+    },
+    {
+      "title": "矢量运算中常用恒等式的总结",
+      "url": "https://zhuanlan.zhihu.com/p/441455680",
+      "summary": "正文展开梯度、散度、旋度和拉普拉斯算子以及相应的高阶微分恒等式。"
+    },
+    {
+      "title": "求e的-x的平方的积分的两种解法",
+      "url": "https://zhuanlan.zhihu.com/p/442211162",
+      "summary": "正文把二维平面上的指数积分化为二重积分，再通过极坐标和径向积分完成计算。"
+    },
+    {
+      "title": "为什么 Pi 会出现在正态分布的方程中？",
+      "url": "https://zhuanlan.zhihu.com/p/443045618",
+      "summary": "正文用两个变量的高度组合构造三维曲面，以二重积分和径向分割说明高维积分技巧。"
+    },
+    {
+      "title": "GAMES103笔记 Lecture5 基于物理的布料模拟（Physics-based Cloth Simulation）",
+      "url": "https://zhuanlan.zhihu.com/p/441088912",
+      "summary": "正文对弹簧势能求位置梯度和 Hessian，并用正定性分析隐式积分的稳定性，实质使用多元微积分。"
+    },
+    {
+      "title": "谈谈自动微分",
+      "url": "https://zhuanlan.zhihu.com/p/451134915",
+      "summary": "正文将多变量复合函数的偏导链式法则用于神经网络各层，逐层计算参数和输入的梯度。"
+    },
+    {
+      "title": "性价比极高的公式",
+      "url": "https://zhuanlan.zhihu.com/p/452415452",
+      "summary": "正文将多元微积分中的梯度、散度、旋度和拉普拉斯算子推广到正交曲线坐标系。"
+    },
+    {
+      "title": "数学基础 | 正交曲线坐标系中梯度、散度、旋度的理解与记忆",
+      "url": "https://zhuanlan.zhihu.com/p/452461912",
+      "summary": "正文用线元、通量和环量解释梯度、散度、旋度及拉普拉斯算子在曲线坐标中的形式。"
+    },
+    {
+      "title": "有了四元数，再也不怕矢量分析",
+      "url": "https://zhuanlan.zhihu.com/p/454348525",
+      "summary": "正文引入 nabla 算子并推导梯度、散度、旋度及拉普拉斯算子满足的多元微积分公式。"
+    },
+    {
+      "title": "求多元函数条件极值的简化方法——“秩方法\"",
+      "url": "https://zhuanlan.zhihu.com/p/455971302",
+      "summary": "正文用偏导数、全微分和雅可比矩阵处理带约束的二元及多元函数极值，系统展开多元微分与极值条件。"
+    },
+    {
+      "title": "《糕等电动力学》——03正交曲线坐标系",
+      "url": "https://zhuanlan.zhihu.com/p/390662905",
+      "summary": "正文系统推导正交曲线坐标系中的梯度、散度、旋度和拉普拉斯算符。"
+    },
+    {
+      "title": "极坐标系和球坐标系下的速度和加速度推导",
+      "url": "https://zhuanlan.zhihu.com/p/452360389",
+      "summary": "正文通过偏导数和复合求导推导球坐标下的速度与加速度。"
+    },
+    {
+      "title": "大白话的增量理论下弹塑性刚度矩阵推导方法",
+      "url": "https://zhuanlan.zhihu.com/p/458881595",
+      "summary": "正文对应力状态的屈服函数作全微分，并使用应力和硬化参数的偏导以及梯度方向进行推导。"
+    },
+    {
+      "title": "哈密顿与拉普拉斯算符在柱坐标与球坐标下的形式",
+      "url": "https://zhuanlan.zhihu.com/p/463059528",
+      "summary": "正文给出梯度与拉普拉斯算符在柱坐标、球坐标中的完整链式法则推导和最终表达式。"
+    },
+    {
+      "title": "外微分（Exterior Calculus）是什么 - 2？",
+      "url": "https://zhuanlan.zhihu.com/p/422016329",
+      "summary": "正文把多元微积分中的旋度、散度、梯度和拉普拉斯算子改写为外微分形式并推导积分公式。"
+    },
+    {
+      "title": "氢原子波函数的数学推导（含归一化）",
+      "url": "https://zhuanlan.zhihu.com/p/465206626",
+      "summary": "正文在球坐标中展开拉普拉斯算子，依次分离径向与角向变量并求解多元偏微分方程。"
+    },
+    {
+      "title": "多元实变赢函数的基本理论与实际应用",
+      "url": "https://zhuanlan.zhihu.com/p/467472693",
+      "summary": "正文定义多元函数及其偏导数极限，并用偏导数比较收入和物价变化对目标函数的影响，核心是多变量微分方法。"
+    },
+    {
+      "title": "斯托克斯公式（Stokes' theorem）",
+      "url": "https://zhuanlan.zhihu.com/p/472958564",
+      "summary": "正文讲解斯托克斯公式中曲面积分与边界线积分的关系，并由格林公式给出推导记忆路径。"
+    },
+    {
+      "title": "Fisher Information Matrix",
+      "url": "https://zhuanlan.zhihu.com/p/474994301",
+      "summary": "正文用对数似然的一阶梯度、二阶 Hessian 及其期望解释 Fisher 信息。"
+    },
+    {
+      "title": "如何通俗理解梯度的含义",
+      "url": "https://zhuanlan.zhihu.com/p/476348343",
+      "summary": "正文通过方向导数、等高线和投影解释多元函数中梯度的方向及其与最大高度增长率的关系。"
+    },
+    {
+      "title": "高等数学知识点回顾（下册）（1）",
+      "url": "https://zhuanlan.zhihu.com/p/476956752",
+      "summary": "正文展开多元函数的偏导数、全微分、可微条件及连续、偏导和可微之间的关系。"
+    },
+    {
+      "title": "球坐标系下拉普拉斯方程",
+      "url": "https://zhuanlan.zhihu.com/p/474386730",
+      "summary": "正文通过链式法则展开二阶偏导，推导球坐标下的拉普拉斯算子。"
+    },
+    {
+      "title": "矢量—理解通量",
+      "url": "https://zhuanlan.zhihu.com/p/467096837",
+      "summary": "正文讨论非常量矢量场下的曲面分割、法向量与多重积分，属于多元微积分应用。"
+    },
+    {
+      "title": "二重积分的计算",
+      "url": "https://zhuanlan.zhihu.com/p/478923322",
+      "summary": "正文讨论二重积分的区域分型、累次积分和偏变量处理，具体展开多元微积分计算。"
+    },
+    {
+      "title": "【多重积分】二重积分的轮换对称性",
+      "url": "https://zhuanlan.zhihu.com/p/479008389",
+      "summary": "正文围绕二重积分的轮换对称性，展开多元积分的计算和证明。"
+    },
+    {
+      "title": "二重积分-交换积分次序",
+      "url": "https://zhuanlan.zhihu.com/p/480803126",
+      "summary": "正文具体讲解 X 型、Y 型平面区域上的二重积分换序及积分上下限的确定方法。"
+    },
+    {
+      "title": "2.2 全微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/481698118",
+      "summary": "正文以二元函数的偏导数和全微分条件刻画路径无关性，展开多元微积分内容。"
+    },
+    {
+      "title": "参数方程表示曲面求法向量",
+      "url": "https://zhuanlan.zhihu.com/p/481722441",
+      "summary": "正文对参数曲面方程取微分，利用链式法则合并偏导系数并推导法向量。"
+    },
+    {
+      "title": "score matching （个人理解）",
+      "url": "https://zhuanlan.zhihu.com/p/485023846",
+      "summary": "正文对多维变量使用梯度、偏导数和 Hessian 对角线，并通过分部积分化简 score matching 目标。"
+    },
+    {
+      "title": "通俗理解多元函数的全微分",
+      "url": "https://zhuanlan.zhihu.com/p/485956707",
+      "summary": "正文从切平面和线性主部出发，推导二元函数增量与偏导数表示的全微分。"
+    },
+    {
+      "title": "非常详细的线性回归原理讲解",
+      "url": "https://zhuanlan.zhihu.com/p/488128941",
+      "summary": "正文把损失视为二元函数，并对参数求偏导、令偏导数为零以寻找最小值。"
+    },
+    {
+      "title": "机器人学杂谈（1）——图解机器人雅可比矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/488570642",
+      "summary": "正文以多关节机器人末端位姿为例，说明雅可比矩阵通过偏导数实现多变量关系的局部线性化。"
+    },
+    {
+      "title": "一个难度欺诈的最值问题",
+      "url": "https://zhuanlan.zhihu.com/p/488541719",
+      "summary": "正文补充用拉格朗日乘子求条件极值，并比较约束条件下的候选极值点。"
+    },
+    {
+      "title": "通俗理解方向导数与梯度",
+      "url": "https://zhuanlan.zhihu.com/p/488961148",
+      "summary": "正文从偏导数和方向导数出发，用内积解释梯度为何指向方向导数最大的方向。"
+    },
+    {
+      "title": "高等数学知识点回顾（下册）（3）",
+      "url": "https://zhuanlan.zhihu.com/p/494102183",
+      "summary": "正文围绕二重、三重、曲线和曲面积分展开，属于多元微积分的积分方法。"
+    },
+    {
+      "title": "高等数学知识点回顾（下册）（2）",
+      "url": "https://zhuanlan.zhihu.com/p/494757739",
+      "summary": "正文系统讲解多元复合函数求导、隐函数求导、方向导数、梯度、极值和多重积分。"
+    },
+    {
+      "title": "外微分简介",
+      "url": "https://zhuanlan.zhihu.com/p/495419839",
+      "summary": "正文以多元向量值函数的可微性定义雅可比矩阵，并推导坐标变换与多元积分体积元。"
+    },
+    {
+      "title": "高等数学——为什么面积微元不可以直接代换？",
+      "url": "https://zhuanlan.zhihu.com/p/495582964",
+      "summary": "正文通过自变量的微分与函数微分之别解释多元积分换元中面积微元不能逐项直接代入。"
+    },
+    {
+      "title": "生成模型(三):Flow-based model",
+      "url": "https://zhuanlan.zhihu.com/p/499009240",
+      "summary": "正文以多元函数的一阶偏导、Jacobian矩阵和反函数定理处理多维变换。"
+    },
+    {
+      "title": "生成模型(四):扩散模型",
+      "url": "https://zhuanlan.zhihu.com/p/499206074",
+      "summary": "正文以概率密度对输入向量的梯度作为得分函数，并据此构造采样更新。"
+    },
+    {
+      "title": "2021-2022年数学分析II期中考试解析",
+      "url": "https://zhuanlan.zhihu.com/p/499710884",
+      "summary": "正文讨论二元函数的极限、连续性与可微性，并用偏导数和路径判定计算问题。"
+    },
+    {
+      "title": "【高等数学】三重积分计算原理Ⅱ：柱坐标",
+      "url": "https://zhuanlan.zhihu.com/p/499585427",
+      "summary": "正文以体密度在整个空间区域上的累积解释三重积分，并给出化成三次积分的计算方法。"
+    },
+    {
+      "title": "用变分原理推导测地线方程",
+      "url": "https://zhuanlan.zhihu.com/p/500798248",
+      "summary": "正文对含度规与坐标导数的线长泛函作变分，并用分部积分处理多元函数的变分推导。"
+    },
+    {
+      "title": "2022年清华大学微积分A2期中试题及解析",
+      "url": "https://zhuanlan.zhihu.com/p/501412120",
+      "summary": "正文讨论多元函数的极限、连续性、偏导数、可微性、切平面和方向导数。"
+    },
+    {
+      "title": "求二重极限时, 极坐标代换究竟该怎么用?",
+      "url": "https://zhuanlan.zhihu.com/p/503998713",
+      "summary": "正文系统讨论二元函数重极限及极坐标代换的适用条件，属于多元微积分。"
+    },
+    {
+      "title": "隐函数的几何应用：切线，法平面，法线，切平面",
+      "url": "https://zhuanlan.zhihu.com/p/504031588",
+      "summary": "正文用全微分、偏导数和梯度讨论空间曲线的切线与曲面的法向量。"
+    },
+    {
+      "title": "多元函数的泰勒展开",
+      "url": "https://zhuanlan.zhihu.com/p/490766872",
+      "summary": "正文使用高阶偏导和张量记号讨论多变量函数的二阶及更高阶局部近似。"
+    },
+    {
+      "title": "重积分计算的一种全新方法——Cherry积分公式",
+      "url": "https://zhuanlan.zhihu.com/p/505793321",
+      "summary": "正文以二元、三元函数的积分区域、梯度法向量和曲面微元为例推导多元积分的计算框架。"
+    },
+    {
+      "title": "二元函数连续、偏导数、方向导数和可微的推导关系及反例",
+      "url": "https://zhuanlan.zhihu.com/p/511836888",
+      "summary": "正文围绕二元函数的连续、偏导数、方向导数与可微性，建立各性质之间的蕴含关系并解释几何含义。"
+    },
+    {
+      "title": "重积分全新的计算方法——余面积公式法",
+      "url": "https://zhuanlan.zhihu.com/p/517859563",
+      "summary": "正文利用二元函数全微分、偏导数、弧微分和二重积分推导余面积公式，属于多元微积分。"
+    },
+    {
+      "title": "2022年四川大学数学竞赛题目解析（非数组）",
+      "url": "https://zhuanlan.zhihu.com/p/521223193",
+      "summary": "正文把分段区域上的体积写成二重积分，分区域计算后对含参积分求导。"
+    },
+    {
+      "title": "【数学分析笔记】12.1 偏导数与全微分",
+      "url": "https://zhuanlan.zhihu.com/p/523725269",
+      "summary": "正文以偏导数、方向导数、全微分、梯度和高阶偏导数为主要内容，系统展开多元函数的微分理论。"
+    },
+    {
+      "title": "球坐标系下的nabla算子和拉普拉斯算子",
+      "url": "https://zhuanlan.zhihu.com/p/526499264",
+      "summary": "正文通过多元偏导和链式法则，由直角坐标推导球坐标下的nabla算子及拉普拉斯算子。"
+    },
+    {
+      "title": "无伤速通高中数学之不等式（二）：浅谈拉格朗日乘数法在不等式中应用",
+      "url": "https://zhuanlan.zhihu.com/p/527560212",
+      "summary": "正文说明拉格朗日乘数法用于带约束的多元极值，并讨论构造拉格朗日函数和求偏导方程。"
+    },
+    {
+      "title": "亥姆霍兹定理（向量微积分基本定理）",
+      "url": "https://zhuanlan.zhihu.com/p/530667847",
+      "summary": "正文利用散度、旋度、梯度和曲面积分证明矢量场的亥姆霍兹分解。"
+    },
+    {
+      "title": "一二型曲线曲面积分的意义及其联系的解答",
+      "url": "https://zhuanlan.zhihu.com/p/533840825",
+      "summary": "正文解释第一型和第二型曲线积分、曲面积分的意义及两类积分之间的转换关系。"
+    },
+    {
+      "title": "计算第二类曲线/曲面积分的全新方法——“余面积公式”",
+      "url": "https://zhuanlan.zhihu.com/p/536218380",
+      "summary": "正文使用偏导、曲线与曲面积分及高斯、斯托克斯公式推导多元微积分中的余面积公式。"
+    },
+    {
+      "title": "考研高数丨连续，可导，可微，导函数连续，条件总结",
+      "url": "https://zhuanlan.zhihu.com/p/536794763",
+      "summary": "正文具体说明二元函数偏导数的定义，以及多元函数可微和偏导连续的条件。"
+    },
+    {
+      "title": "一类与平均值有关的n重积分极限问题（上）",
+      "url": "https://zhuanlan.zhihu.com/p/536979529",
+      "summary": "正文围绕 n 元函数在 n 维单位立方体上的重积分展开计算、估计和变量换元。"
+    },
+    {
+      "title": "方向导数怎么求（计算公式直接代）",
+      "url": "https://zhuanlan.zhihu.com/p/539530037",
+      "summary": "正文给出二元、三元函数沿指定方向的方向导数公式，并用三元函数例题计算偏导数和方向余弦。"
+    },
+    {
+      "title": "多元微积分——多元函数的微分、方向导数与梯度",
+      "url": "https://zhuanlan.zhihu.com/p/541102676",
+      "summary": "正文定义二元函数可微性，推导偏导、方向导数和梯度，并说明梯度方向使函数增长最快。"
+    },
+    {
+      "title": "什么是梯度、散度和旋度？",
+      "url": "https://zhuanlan.zhihu.com/p/541334083",
+      "summary": "正文系统定义并推导梯度、散度和旋度，以通量、环量及偏导解释向量场的多元微积分运算。"
+    },
+    {
+      "title": "深度解析拉格朗日乘子法，让你成为高手",
+      "url": "https://zhuanlan.zhihu.com/p/542402242",
+      "summary": "正文系统讲解多元函数的梯度、方向变化率及其与等值面垂直的几何意义。"
+    },
+    {
+      "title": "怎样理解隐函数求导？",
+      "url": "https://zhuanlan.zhihu.com/p/543417597",
+      "summary": "正文用偏导数和链式法则推导隐函数求导公式 y'=-F_x/F_y。"
+    },
+    {
+      "title": "如何对积分求导？",
+      "url": "https://zhuanlan.zhihu.com/p/547766124",
+      "summary": "正文进一步推导二重、三重积分及线积分和曲面积分的求导公式。"
+    },
+    {
+      "title": "张量运算入门",
+      "url": "https://zhuanlan.zhihu.com/p/547791133",
+      "summary": "正文由此推导含偏导数的矢量梯度和张量散度，属于多元微分运算。"
+    },
+    {
+      "title": "转动惯量的详细计算(二)---三维空间图形",
+      "url": "https://zhuanlan.zhihu.com/p/541244610",
+      "summary": "正文把三维体分割为薄片、圆环或球壳，并多次用三重积分和曲面积分计算转动惯量。"
+    },
+    {
+      "title": "什么是微积分",
+      "url": "https://zhuanlan.zhihu.com/p/555504130",
+      "summary": "正文扩展到二元函数的偏导数、偏微分、全增量与全微分，并给出全微分公式。"
+    },
+    {
+      "title": "【数学分析笔记】14.1 第一类曲线积分和第一类曲面积分",
+      "url": "https://zhuanlan.zhihu.com/p/558130896",
+      "summary": "正文讨论空间曲线与曲面上的积分和曲面面积公式，属于多元微积分内容。"
+    },
+    {
+      "title": "【数学分析笔记】14.2 第二类曲线积分和第二类曲面积分",
+      "url": "https://zhuanlan.zhihu.com/p/559596381",
+      "summary": "正文把第二类曲面积分化为有向投影上的二重积分并演示计算。"
+    },
+    {
+      "title": "【数学分析笔记】14.3 Green公式 、Gauss公式和Stokes公式",
+      "url": "https://zhuanlan.zhihu.com/p/560915962",
+      "summary": "正文讲解 Green、Gauss 和 Stokes 公式在平面及空间区域上的积分关系，属于多元微积分。"
+    },
+    {
+      "title": "什么是向量",
+      "url": "https://zhuanlan.zhihu.com/p/556191589",
+      "summary": "正文推导散度与旋度的直角坐标表达式，并讲解高斯公式和斯托克斯公式等多元微积分结论。"
+    },
+    {
+      "title": "【民科】微分dx、dy表示什么含义？不定积分为什么含有dx？把一个量设为dx又是什么意思？",
+      "url": "https://zhuanlan.zhihu.com/p/564065107",
+      "summary": "正文展开二重积分、第二类曲线积分和第二类曲面积分的微元及定向计算。"
+    },
+    {
+      "title": "考研数学高分的归纳总结——大道至简！",
+      "url": "https://zhuanlan.zhihu.com/p/565017049",
+      "summary": "正文通过极坐标代换和不同趋近路径分析二重极限的存在性。"
+    },
+    {
+      "title": "分析力学（理论力学）变分原理",
+      "url": "https://zhuanlan.zhihu.com/p/565357008",
+      "summary": "正文将单个未知函数推广到多个变量，并用偏导数和分部积分推导相应条件。"
+    },
+    {
+      "title": "Fisher Information matrix(FIM)的性质，与Hessian, KL divergence的关联",
+      "url": "https://zhuanlan.zhihu.com/p/563212799",
+      "summary": "正文通过对数似然、梯度和 Hessian 说明 Fisher 信息矩阵与多变量二阶导数及局部曲率的关系。"
+    },
+    {
+      "title": "保研面试/考研复试数学问题整理（cs/ai 等工科专业）",
+      "url": "https://zhuanlan.zhihu.com/p/567252248",
+      "summary": "正文概述多元函数极值、梯度、散度、旋度以及格林、高斯和斯托克斯公式。"
+    },
+    {
+      "title": "什么是四维矢量",
+      "url": "https://zhuanlan.zhihu.com/p/557477003",
+      "summary": "正文在附录使用复合函数链式法则计算二阶偏导，并据此证明达朗贝尔算子的不变性。"
+    },
+    {
+      "title": "大二学生都会的球谐函数",
+      "url": "https://zhuanlan.zhihu.com/p/572840876",
+      "summary": "正文把直角坐标下的拉普拉斯方程化为球坐标形式，并用偏导运算和分离变量求球谐函数。"
+    },
+    {
+      "title": "高数强化·二重积分·普通对称性&轮换对称性",
+      "url": "https://zhuanlan.zhihu.com/p/573539849",
+      "summary": "正文把累次积分化为二重积分，并用区域对称性计算含两个变量的积分。"
+    },
+    {
+      "title": "梯度下降详解（主观理解+推导证明+例题）",
+      "url": "https://zhuanlan.zhihu.com/p/580645925",
+      "summary": "正文由多元函数方向导数推出梯度与偏导方向，并说明梯度的模是最大方向导数的值。"
+    },
+    {
+      "title": "图形渲染（16）：你绝B看不懂的PBR(1)——筑基·数学",
+      "url": "https://zhuanlan.zhihu.com/p/587345263",
+      "summary": "正文把一维微元推广到面积上的二重分割，并解释面积与立体角上的多重积分。"
+    },
+    {
+      "title": "高斯积分，各种Gauss积分",
+      "url": "https://zhuanlan.zhihu.com/p/594921489",
+      "summary": "正文将二重高斯积分推广到 n 重积分，并讨论任意二次型指数的多维高斯积分及变量替换。"
+    },
+    {
+      "title": "物理入门级の矢量与张量~矢量分析",
+      "url": "https://zhuanlan.zhihu.com/p/595866126",
+      "summary": "正文用梯度、散度、旋度和拉普拉斯算子讲解标量场与矢量场的多元微分运算。"
+    },
+    {
+      "title": "球极坐标系下的梯度表达式推导",
+      "url": "https://zhuanlan.zhihu.com/p/596865041",
+      "summary": "正文利用坐标变换和偏导数完整推导球坐标下的梯度表达式。"
+    },
+    {
+      "title": "图像生成别只知道扩散模型(Diffusion Models)，还有基于梯度去噪的分数模型：NCSN(Noise Conditional Score Networks)",
+      "url": "https://zhuanlan.zhihu.com/p/597490389",
+      "summary": "正文把分数解释为对数概率密度的梯度向量场，并计算 Jacobian、迹和高维偏导。"
+    },
+    {
+      "title": "微分形式简介",
+      "url": "https://zhuanlan.zhihu.com/p/600380123",
+      "summary": "正文用方向导数、偏导、全微分和 Jacobian 行列式处理多元微积分及坐标变换。"
+    },
+    {
+      "title": "外微分形式",
+      "url": "https://zhuanlan.zhihu.com/p/605577804",
+      "summary": "正文讲解多元偏导、全微分、重积分以及 Green、Stokes、Gauss 积分定理。"
+    },
+    {
+      "title": "矢量分析公式证明集合(矢量积，矢量微积分，曲线坐标系)",
+      "url": "https://zhuanlan.zhihu.com/p/608194392",
+      "summary": "正文讲解梯度、散度、旋度及其乘积规则、二阶导数和曲线坐标表达式。"
+    },
+    {
+      "title": "五连杆运动学解算与VMC",
+      "url": "https://zhuanlan.zhihu.com/p/613007726",
+      "summary": "正文对多变量运动学函数求偏导和全微分，以推导各方向的雅可比项。"
+    },
+    {
+      "title": "梯度、散度、旋度总结",
+      "url": "https://zhuanlan.zhihu.com/p/613141493",
+      "summary": "正文列出三维散度定理和 Stokes 定理，用偏导数和多重积分描述场在区域内的变化。"
+    },
+    {
+      "title": "梳理凸函数的六种判断方法及5个判定定理的证明过程",
+      "url": "https://zhuanlan.zhihu.com/p/613894504",
+      "summary": "正文以梯度和 Hessian 矩阵为核心陈述并证明多元函数的一阶、二阶凸性条件。"
+    },
+    {
+      "title": "通俗理解方向导数、梯度|学习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/613651124",
+      "summary": "正文从偏导数出发定义多元函数的方向导数，并说明梯度给出函数值增长最快的方向。"
+    },
+    {
+      "title": "Riemann积分整理",
+      "url": "https://zhuanlan.zhihu.com/p/619534704",
+      "summary": "正文将Riemann和与Darboux和推广到高维区间，并介绍Fubini累次积分。"
+    },
+    {
+      "title": "积分中值定理详述",
+      "url": "https://zhuanlan.zhihu.com/p/614978825",
+      "summary": "正文进一步讨论二重积分中值定理、二维区域积分以及曲线和曲面积分中的推广。"
+    },
+    {
+      "title": "矢量分析-常见矢量恒等式推导",
+      "url": "https://zhuanlan.zhihu.com/p/620271370",
+      "summary": "正文使用梯度、散度、旋度和重积分推导常见矢量恒等式及高斯、斯托克斯公式的推论。"
+    },
+    {
+      "title": "傅里叶变换的强大，远超你的想象，深挖其背后的数学原理和细节",
+      "url": "https://zhuanlan.zhihu.com/p/634486202",
+      "summary": "正文在欧氏空间定义拉普拉斯算子，并通过多元函数的平面波展开解释其作用。"
+    },
+    {
+      "title": "散度定理—向量微积分的基本定理，深入理解其背后的思想和直觉",
+      "url": "https://zhuanlan.zhihu.com/p/638829775",
+      "summary": "正文解释散度、表面积分和体积积分，并说明散度定理连接区域内部与边界通量。"
+    },
+    {
+      "title": "梯度流：探索通往最小值之路",
+      "url": "https://zhuanlan.zhihu.com/p/639138983",
+      "summary": "正文从光滑函数的梯度出发推导下降方向、带约束更新和一阶近似。"
+    },
+    {
+      "title": "一篇文章, 解决你对多元函数的一切疑惑(从0发明雅可比行列式)",
+      "url": "https://zhuanlan.zhihu.com/p/641614164",
+      "summary": "正文把多元函数理解为高维空间之间的映射，并用局部线性化解释全微分和换元。"
+    },
+    {
+      "title": "【规划控制】iLQR 入门（新手向）",
+      "url": "https://zhuanlan.zhihu.com/p/643510030",
+      "summary": "正文展开多元函数的梯度、Hessian及混合偏导，用于状态与控制变量的局部二次近似。"
+    },
+    {
+      "title": "拉格朗日乘数法在高中数学中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/646393570",
+      "summary": "正文从多元函数出发解释偏导数，并把其他自变量视为常数进行求导。"
+    },
+    {
+      "title": "微分几何中的 tangent vector（矢量/切矢量/切矢/切向量）到底是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/425000058",
+      "summary": "正文用多元函数的全微分、偏导数和雅可比矩阵说明切矢坐标表示及局部线性性的来源。"
+    },
+    {
+      "title": "关于多元函数 可微 可导 连续 和偏导数连续之间的关系",
+      "url": "https://zhuanlan.zhihu.com/p/646912111",
+      "summary": "正文系统讨论多元函数的可微、连续、偏导存在及偏导连续之间的关系。"
+    },
+    {
+      "title": "一般二重极限的路径取法——最小单位元+公共路径法",
+      "url": "https://zhuanlan.zhihu.com/p/648080280",
+      "summary": "正文以二元函数的路径趋近、聚点和目标函数展开讨论二重极限，属于多元微积分内容。"
+    },
+    {
+      "title": "隐函数定理的三种证明",
+      "url": "https://zhuanlan.zhihu.com/p/648232832",
+      "summary": "正文讨论欧式空间中多变量连续可微映射的隐函数存在性及隐函数求导公式。"
+    },
+    {
+      "title": "Levi-Civita符号的计算",
+      "url": "https://zhuanlan.zhihu.com/p/651063147",
+      "summary": "正文用偏导算符计算旋度的旋度，并推导其分解为梯度散度项与向量Laplacian的恒等式。"
+    },
+    {
+      "title": "球面积分",
+      "url": "https://zhuanlan.zhihu.com/p/653316446",
+      "summary": "正文通过球坐标参数和二维积分微元推导球面面积的二重积分。"
+    },
+    {
+      "title": "变分法：从原理到应用",
+      "url": "https://zhuanlan.zhihu.com/p/653627629",
+      "summary": "正文用多元函数的一阶微分和梯度说明高维驻点条件，作为变分推导的铺垫。"
+    },
+    {
+      "title": "数学分析3笔记——重积分、曲线积分、曲面积分",
+      "url": "https://zhuanlan.zhihu.com/p/662323528",
+      "summary": "正文讲解多元函数的重积分、曲线与曲面积分，并通过 Green、Gauss、Stokes 公式联系不同类型积分。"
+    },
+    {
+      "title": "反向传播最佳总结——一篇文章读懂神经网络反向传播",
+      "url": "https://zhuanlan.zhihu.com/p/662487898",
+      "summary": "正文把高维参数集合上的损失函数作为多元函数，并讲解梯度与逐变量偏导。"
+    },
+    {
+      "title": "An Efficient Spatial-Temporal Trajectory Planner(基于微分平坦轨迹规划)",
+      "url": "https://zhuanlan.zhihu.com/p/666418492",
+      "summary": "正文对多变量状态、约束和目标函数逐项求偏导，并使用链式法则推导梯度。"
+    },
+    {
+      "title": "电动力学：矢量分析总结",
+      "url": "https://zhuanlan.zhihu.com/p/671325293",
+      "summary": "正文具体展开多变量函数的梯度、散度、旋度及其积分定理，是多变量微积分的实质讲解。"
+    },
+    {
+      "title": "醉美公式：格林公式的应用——格林函数法",
+      "url": "https://zhuanlan.zhihu.com/p/673759727",
+      "summary": "正文推导第一、第二格林公式，并解释曲面积分与体积分之间的转换。"
+    },
+    {
+      "title": "向量求导法则——如何快速学会并记住",
+      "url": "https://zhuanlan.zhihu.com/p/670359569",
+      "summary": "正文讲解向量求导的维度布局、转置处理与由标量导数倒推公式，属于多元微积分中的向量求导。"
+    },
+    {
+      "title": "李群是什么——几何与代数的结合",
+      "url": "https://zhuanlan.zhihu.com/p/662576340",
+      "summary": "正文先定义欧氏空间中向量值函数的可导性与偏导数，并借助隐函数定理讨论曲面。"
+    },
+    {
+      "title": "格林定理：数学界的重要里程碑，理论与实践完美融合的微积分奇迹",
+      "url": "https://zhuanlan.zhihu.com/p/677150890",
+      "summary": "正文用线积分、二维旋度、重积分和黎曼和式解释格林定理，并给出具体区域上的计算示例，属于多元微积分。"
+    },
+    {
+      "title": "直角坐标系和球坐标系",
+      "url": "https://zhuanlan.zhihu.com/p/678050785",
+      "summary": "正文以无穷小位移推导一般坐标及球坐标下的梯度、散度、旋度和拉普拉斯算子。"
+    },
+    {
+      "title": "彭家贵《微分几何》习题解答（习题三）",
+      "url": "https://zhuanlan.zhihu.com/p/678285300",
+      "summary": "正文反复对曲面的参数表示求偏导、计算切向量和法向量，并用偏导构造第一、第二基本形式。"
+    },
+    {
+      "title": "为初学者提供一个更好理解拉格朗日乘数法的思路",
+      "url": "https://zhuanlan.zhihu.com/p/683208918",
+      "summary": "正文用二元函数的全微分、方向导数和隐函数切线方向解释约束极值的几何条件。"
+    },
+    {
+      "title": "窗户上的公式｜格林公式的推导",
+      "url": "https://zhuanlan.zhihu.com/p/684166681",
+      "summary": "正文在二元区域上引入二重积分、偏导数、曲线积分和区域边界，构造格林公式的多元微积分解法。"
+    },
+    {
+      "title": "从微积分到上同调（1）：引入",
+      "url": "https://zhuanlan.zhihu.com/p/685282573",
+      "summary": "正文系统定义梯度、旋度、散度并借助路径积分和 Stokes 公式讨论势函数存在性。"
+    },
+    {
+      "title": "曲面的切平面与法线",
+      "url": "https://zhuanlan.zhihu.com/p/687501708",
+      "summary": "正文用多元函数全导数和偏导数证明曲面过同一点的曲线切线共面。"
+    },
+    {
+      "title": "泊松积分的计算",
+      "url": "https://zhuanlan.zhihu.com/p/679535718",
+      "summary": "正文通过二重积分和分离变量计算旋转体体积，从而求得高斯积分。"
+    },
+    {
+      "title": "二重积分计算思路与方法总结",
+      "url": "https://zhuanlan.zhihu.com/p/689823925",
+      "summary": "正文详细讨论二重积分的区域表示、换序、对称性和变限求导。"
+    },
+    {
+      "title": "已知:a²+b²=1，求(a+1)(b+2)最大值.",
+      "url": "https://zhuanlan.zhihu.com/p/693157375",
+      "summary": "正文构造含约束的拉格朗日函数，通过对各变量求偏导并消去乘数来求解条件极值。"
+    },
+    {
+      "title": "Diffusion学习笔记（十七）——最优传输与Wasserstein距离",
+      "url": "https://zhuanlan.zhihu.com/p/693277831",
+      "summary": "正文对概率泛函使用变分导数、梯度和 Euler-Lagrange 方程，推导 W-2 梯度流。"
+    },
+    {
+      "title": "梯度、散度、旋度的理解以及Green、Gauss、Stokes 公式直观解释",
+      "url": "https://zhuanlan.zhihu.com/p/697866889",
+      "summary": "正文以偏导算子统一讲解多元函数的梯度、散度、旋度，并用体积微元和曲面积分解释 Gauss、Green、Stokes 公式。"
+    },
+    {
+      "title": "试题解析 | 2024年浙江省大学生高等数学（微积分）竞赛（数学类、工科类）",
+      "url": "https://zhuanlan.zhihu.com/p/699803657",
+      "summary": "正文由参数方程确定二元隐函数，求一阶偏导后再求混合偏导。"
+    },
+    {
+      "title": "从LQR算法到iLQR算法",
+      "url": "https://zhuanlan.zhihu.com/p/699912273",
+      "summary": "正文对多维状态与控制量的目标函数求偏导并令导数为零，推导最优控制增量。"
+    },
+    {
+      "title": "隐函数定理有关问题的完整总结，一文带你搞懂！",
+      "url": "https://zhuanlan.zhihu.com/p/700041939",
+      "summary": "正文围绕多元可微映射、雅可比矩阵、隐函数与逆映射的全局性质组织证明题。"
+    },
+    {
+      "title": "数学物理方法：格林函数求解偏微分方程 Mathematical Physics:Green's Theorem and Green's Function",
+      "url": "https://zhuanlan.zhihu.com/p/701660525",
+      "summary": "正文用二阶偏导算子、体积分和曲面积分推出第二格林公式，并作为求解方程的积分工具。"
+    },
+    {
+      "title": "黎曼几何(1):黎曼度量",
+      "url": "https://zhuanlan.zhihu.com/p/701769327",
+      "summary": "正文把多元微积分中的梯度、散度、散度定理和 Laplace 算子推广到黎曼流形。"
+    },
+    {
+      "title": "相对论 (1) —— 变分原理基础",
+      "url": "https://zhuanlan.zhihu.com/p/704575236",
+      "summary": "正文从二元函数的偏增量与偏导数讲到全微分，并扩展到多元函数和张量形式，实质讲解了多元微积分。"
+    },
+    {
+      "title": "如何理解方向导数｜马同学图解微积分",
+      "url": "https://zhuanlan.zhihu.com/p/706755006",
+      "summary": "正文定义二元和三元函数的方向导数，用极限与偏导数推导计算公式，并讨论其与可微性的关系。"
+    },
+    {
+      "title": "二重积分的顶级做法，5秒一个，卷赢别人！！",
+      "url": "https://zhuanlan.zhihu.com/p/707367293",
+      "summary": "正文围绕多元函数在二维区域上的二重积分展开，说明区域、被积函数和面积元之间的关系。"
+    },
+    {
+      "title": "向量与代数（四）：神奇的外微分",
+      "url": "https://zhuanlan.zhihu.com/p/700740094",
+      "summary": "正文用全微分和偏导数构造向量函数的导矩阵，并讨论方向导数与多重积分换元。"
+    },
+    {
+      "title": "MATLAB | 如何使用MATLAB优雅的推公式，全网最全MATLAB符号表达式使用教程",
+      "url": "https://zhuanlan.zhihu.com/p/708163774",
+      "summary": "正文以二元函数 log(1+x^2+y^2) 为对象进行多变量泰勒展开。"
+    },
+    {
+      "title": "变分法的第一课",
+      "url": "https://zhuanlan.zhihu.com/p/713250956",
+      "summary": "正文把变分推广到二元函数及偏导数，推导高维欧拉-拉格朗日方程和极小曲面条件。"
+    },
+    {
+      "title": "如何理解数学中的梯度？",
+      "url": "https://zhuanlan.zhihu.com/p/715528167",
+      "summary": "正文从二元函数可微性出发证明方向导数公式，并讨论偏导数、梯度和方向导数之间的关系。"
+    },
+    {
+      "title": "坐标变换法宝——雅可比（Jacobi）行列式",
+      "url": "https://zhuanlan.zhihu.com/p/717067503",
+      "summary": "正文用偏导数和微元展开讲解多变量坐标变换，并以二重积分换元作为核心应用。"
+    },
+    {
+      "title": "FLUX.1 原理与源码解析",
+      "url": "https://zhuanlan.zhihu.com/p/741939590",
+      "summary": "正文通过向量场、梯度散度和连续性 PDE 建立流映射与概率密度演化的关系。"
+    },
+    {
+      "title": "五大积分：三重积分、第一二类曲线积分、第一二类曲面积分",
+      "url": "https://zhuanlan.zhihu.com/p/2390927445",
+      "summary": "正文系统讲解三重积分、曲线积分和曲面积分的计算，以及格林、高斯和斯托克斯公式。"
+    },
+    {
+      "title": "微分动态规划(DDP)的推导",
+      "url": "https://zhuanlan.zhihu.com/p/20541213218",
+      "summary": "正文对多变量函数计算雅可比、梯度和 Hessian，并用矩阵形式展开多元导数。"
+    },
+    {
+      "title": "增广拉格朗日 iLQR 轨迹优化",
+      "url": "https://zhuanlan.zhihu.com/p/20849151745",
+      "summary": "正文持续计算状态与控制变量的偏导、梯度和 Hessian 块矩阵，并进行多元二阶展开。"
+    },
+    {
+      "title": "数学的艺术 —— 从贝塞尔函数到椭圆积分",
+      "url": "https://zhuanlan.zhihu.com/p/21291808603",
+      "summary": "正文把一个三重积分化为累次积分并逐层计算，是多元积分方法的具体应用。"
+    },
+    {
+      "title": "微分几何视角下的电动力学【更高更妙的电动力学·1】",
+      "url": "https://zhuanlan.zhihu.com/p/21808352165",
+      "summary": "正文在四维时空上用偏导场、多重积分和变分推导场方程。"
+    },
+    {
+      "title": "高显的魔法书——（一）变分法",
+      "url": "https://zhuanlan.zhihu.com/p/24664799401",
+      "summary": "正文把单变量泛函推广到依赖 f(x,t) 的二元函数，并得到含两个偏导数的欧拉-拉格朗日方程。"
+    },
+    {
+      "title": "什么是梯度？为什么梯度下降？一篇就够了（真）",
+      "url": "https://zhuanlan.zhihu.com/p/30289841250",
+      "summary": "正文用多元函数的线性近似、偏导数和方向导数解释梯度及方向变化率。"
+    },
+    {
+      "title": "微分形式不变性是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/31918080039",
+      "summary": "正文用多元函数的雅可比矩阵讲解反函数定理和隐函数定理的微分形式。"
+    },
+    {
+      "title": "拉梅系数与坐标变换",
+      "url": "https://zhuanlan.zhihu.com/p/31984064315",
+      "summary": "正文系统推导曲线坐标下的梯度、散度、旋度和拉普拉斯算子。"
+    },
+    {
+      "title": "哈密顿力学：相空间的几何学",
+      "url": "https://zhuanlan.zhihu.com/p/1888557744551884327",
+      "summary": "正文用偏导、全微分、链式法则和相速度散度完成能量关系及刘维尔定理的推导。"
+    },
+    {
+      "title": "【万字】在Python当中绘制原子轨道",
+      "url": "https://zhuanlan.zhihu.com/p/1889521938914853892",
+      "summary": "正文解释径向与角向部分的球坐标积分、球谐函数正交归一化以及三维网格计算。"
+    },
+    {
+      "title": "场论算出 Delta 函数的导数我就你吗很警惕",
+      "url": "https://zhuanlan.zhihu.com/p/31173265290",
+      "summary": "正文使用多维全空间积分、偏导链式法则和分部积分处理场论中的微分与积分关系。"
+    },
+    {
+      "title": "强化学习最优性条件的哈密顿动力学解释",
+      "url": "https://zhuanlan.zhihu.com/p/1896180231359931356",
+      "summary": "正文用偏导数、多元函数曲面法向量和 Legendre 变换解释价值函数与协态变量的关系。"
+    },
+    {
+      "title": "通过梯度近似寻找Normalization的替代品",
+      "url": "https://zhuanlan.zhihu.com/p/1898130339102167956",
+      "summary": "正文计算 RMS Norm 的向量值函数雅可比矩阵，并通过保留对角部分近似该多元梯度。"
+    },
+    {
+      "title": "解析某大学爆难微积分期末试题",
+      "url": "https://zhuanlan.zhihu.com/p/1916554475704934811",
+      "summary": "正文计算二重极限、隐函数偏导、路径积分和曲面积分，并使用高斯定理处理多元积分。"
+    },
+    {
+      "title": "Coxeter型积分（1）",
+      "url": "https://zhuanlan.zhihu.com/p/1917597677597734176",
+      "summary": "正文将对数积分升维为三重积分，并用二重积分、极坐标换元和换元积分完成证明。"
+    },
+    {
+      "title": "二能级系统 Berry curvature 的详细计算",
+      "url": "https://zhuanlan.zhihu.com/p/1917729182105974175",
+      "summary": "正文对含多个参数分量的函数反复使用一阶、二阶偏导和混合偏导化简 Berry 曲率。"
+    },
+    {
+      "title": "向量微积分图示法",
+      "url": "https://zhuanlan.zhihu.com/p/27414315720",
+      "summary": "正文具体展开标量场与向量场的梯度、散度和旋度，并证明多元向量微积分恒等式。"
+    },
+    {
+      "title": "梯度、散度、旋度：场论的语言",
+      "url": "https://zhuanlan.zhihu.com/p/1925119483590185657",
+      "summary": "正文从方向导数的定义推出其与梯度的关系，实质讲解了多元函数的梯度。"
+    },
+    {
+      "title": "数学专题：九千字让你会算微积分",
+      "url": "https://zhuanlan.zhihu.com/p/1892285042069328479",
+      "summary": "正文介绍偏导数、高阶偏导数和多元函数极值的计算，属于多元微积分内容。"
+    },
+    {
+      "title": "从零开始理解球谐函数: 数学理论到编程实践",
+      "url": "https://zhuanlan.zhihu.com/p/1946520403292955133",
+      "summary": "正文解释一阶与二阶偏导数的含义，并用偏导数组合验证二维拉普拉斯方程。"
+    },
+    {
+      "title": "永磁同步电机MTPA+弱磁控制",
+      "url": "https://zhuanlan.zhihu.com/p/1949505445858383519",
+      "summary": "正文构造多元拉格朗日函数，通过分别求偏导数并令其为零来消去乘子。"
+    },
+    {
+      "title": "傅里叶级数之吉伯斯现象（Gibbs phenomenon）",
+      "url": "https://zhuanlan.zhihu.com/p/1954297421271131152",
+      "summary": "正文对傅里叶级数的部分和求导并令导数为零，以定位过冲峰值的横坐标。"
+    },
+    {
+      "title": "抽象函数万能法——微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/1948799052339708957",
+      "summary": "正文定义多元函数与偏导数，并给出多变量函数逐变量求导的例子。"
+    },
+    {
+      "title": "麦克斯韦方程组与光的波动方程推导过程",
+      "url": "https://zhuanlan.zhihu.com/p/1962182489297651268",
+      "summary": "正文用偏导数定义散度和旋度，并以微小立方体及旋转桨轮解释多元向量微积分运算。"
+    },
+    {
+      "title": "2025年中国科学技术大学数学分析试题（个人解题）",
+      "url": "https://zhuanlan.zhihu.com/p/1979925439570011526",
+      "summary": "正文使用二重积分、曲面积分、柱坐标和 Gauss 公式求解多元微积分问题。"
+    },
+    {
+      "title": "Flow Matching与MeanFlow, Improved MeanFlow的数学基础",
+      "url": "https://zhuanlan.zhihu.com/p/1980939388402811254",
+      "summary": "正文详细拆分时间和状态偏导，并解释多元链式法则对应的 Jacobian-vector product。"
+    },
+    {
+      "title": "2025#December~积分题合集",
+      "url": "https://zhuanlan.zhihu.com/p/1973395738429001733",
+      "summary": "正文把四重积分中的距离被积函数转化为平面点的欧氏距离，并讨论重积分的几何与概率解释。"
+    },
+    {
+      "title": "哈密顿算子 梯度 散度 旋度 拉普拉斯算子 详解",
+      "url": "https://zhuanlan.zhihu.com/p/1999480505826026089",
+      "summary": "文章系统定义梯度、散度、旋度和拉普拉斯算子，并讨论偏导、二阶导数及体积分与曲面积分公式。"
+    },
+    {
+      "title": "记一个简单的问题：两个相邻单位立方体之间的吸引力",
+      "url": "https://zhuanlan.zhihu.com/p/2006664558891271770",
+      "summary": "正文对两个三维区域中的所有质量微元建立多变量力函数并进行高维积分。"
+    },
+    {
+      "title": "微分的本质：从“变化率”到“线性映射”的飞跃",
+      "url": "https://zhuanlan.zhihu.com/p/2007391930762432746",
+      "summary": "正文把微分推广到多变量向量值函数，并讨论雅可比、方向导数和高维链式法则。"
+    },
+    {
+      "title": "[实变函数，实分析] C^1微分同胚下的n维Lebesgue积分换元公式",
+      "url": "https://zhuanlan.zhihu.com/p/2013730682275395465",
+      "summary": "正文从多元重积分换元公式出发，将该结论推广到 n 维 Lebesgue 积分。"
+    },
+    {
+      "title": "科普：猫也能看懂的代数几何——Fermat 四次曲面",
+      "url": "https://zhuanlan.zhihu.com/p/2017385512927782057",
+      "summary": "正文利用偏导数、全微分和切平面讨论曲线曲面的光滑性。"
+    },
+    {
+      "title": "管你长啥样儿，，要就只想导几下的话导就完了, 尤其场论吧你用不着解析式的时候就别瞎比嗯刚解析式了. 我这儿顺带还给 MMA 了下··· 噢开头还有些顺直时空里的鸡毛蒜皮，，",
+      "url": "https://zhuanlan.zhihu.com/p/2014612843698356275",
+      "summary": "正文使用链式法则和偏导数反复推导矢量平方函数的各阶张量导数。"
+    },
+    {
+      "title": "卷积最早是怎么出现的？",
+      "url": "https://zhuanlan.zhihu.com/p/2036609800721670244",
+      "summary": "正文用多元链式法则转换偏导数，计算波动方程的二阶偏导。"
+    },
+    {
+      "title": "旋度为什么长这个形式？——Jacobi矩阵视角的解释",
+      "url": "https://zhuanlan.zhihu.com/p/2036870713215276341",
+      "summary": "正文通过多元函数的 Taylor 展开、偏导数与 Jacobi 矩阵分析向量场的局部变化。"
+    },
+    {
+      "title": "2026年中科大数学夏令营试题（数分高代部分，剩下的部分之后更新）（首发）",
+      "url": "https://zhuanlan.zhihu.com/p/2042022401777689704",
+      "summary": "正文用极坐标计算二重积分，并用偏导上界估计二元函数在正方形上的积分。"
+    },
+    {
+      "title": "“波兰中学生”积分化为级数",
+      "url": "https://zhuanlan.zhihu.com/p/2056063942938595551",
+      "summary": "正文对二重积分作线性变量替换并计算对应的 Jacobian 与新积分区域。"
+    },
+    {
+      "title": "突发！让张益唐苦熬7年的雅可比猜想，Fable 5竟一夜推翻证伪",
+      "url": "https://zhuanlan.zhihu.com/p/2062820026344912746",
+      "summary": "正文用多元向量值函数的偏导和雅可比行列式解释反例为何满足局部可逆条件。"
+    },
+    {
+      "title": "Fable 5 找到雅可比猜想的反例背后：我们关心的七个问题",
+      "url": "https://zhuanlan.zhihu.com/p/2063656703304921759",
+      "summary": "正文给出三元多项式映射，并通过分别求偏导得到雅可比矩阵及其行列式。"
+    },
+    {
+      "title": "一道泰勒猫觉得怪石嶙峋的不等式问题推广——势理论",
+      "url": "https://zhuanlan.zhihu.com/p/2070899210254398163",
+      "summary": "正文用对数势的 Hessian、偏导数和驻点条件分析多元函数的最大值。"
+    }
+  ]
+}

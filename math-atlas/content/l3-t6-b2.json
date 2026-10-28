@@ -1,0 +1,3121 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t6-b2",
+  "sources": [
+    {
+      "title": "如何理解线性代数？",
+      "url": "https://www.zhihu.com/answer/15407109",
+      "summary": "把行列式与线性变换的面积伸缩及可逆性联系起来。严格说面积倍率是行列式绝对值，符号还记录定向；原文表述有所简化。"
+    },
+    {
+      "title": "数学家最初发明行列式和矩阵是为了解决什么问题？",
+      "url": "https://www.zhihu.com/answer/18801939",
+      "summary": "正文围绕「数学家最初发明行列式和矩阵是为了解决什么问题？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "行列式的意义是什么？",
+      "url": "https://www.zhihu.com/answer/32488447",
+      "summary": "说明行列式可理解为线性变换前后的面积比。"
+    },
+    {
+      "title": "行列式的意义是什么？",
+      "url": "https://www.zhihu.com/answer/32525286",
+      "summary": "从克拉默法则、交替多线性和有向体积解释行列式。"
+    },
+    {
+      "title": "同济大学出版社的线性代数感觉不适合刚接触的同学，求推荐同类教材?",
+      "url": "https://www.zhihu.com/answer/33261702",
+      "summary": "正文用几何体积直观解释行列式及其性质。"
+    },
+    {
+      "title": "大一高数矩阵伴随方阵AA*=A*A=|A|E是为什么？",
+      "url": "https://www.zhihu.com/answer/33682316",
+      "summary": "正文用行列式按行展开推导伴随矩阵公式。"
+    },
+    {
+      "title": "1、2、3、8、26…… 下一个数是什么？",
+      "url": "https://www.zhihu.com/answer/42341666",
+      "summary": "正文用范德蒙行列式说明方程有解。"
+    },
+    {
+      "title": "Jacobi行列式的意思是什么？它有哪些用法？",
+      "url": "https://www.zhihu.com/answer/43321790",
+      "summary": "正文解释行列式的有向面积或体积比例意义。"
+    },
+    {
+      "title": "行列式与矩阵之间的深刻联系是什么？",
+      "url": "https://www.zhihu.com/answer/55057263",
+      "summary": "正文将行列式定义为交替多线性函数并给出矩阵行列式公式。"
+    },
+    {
+      "title": "行列式与矩阵之间的深刻联系是什么？",
+      "url": "https://www.zhihu.com/answer/55267007",
+      "summary": "正文用有向高维体积和线性变换解释行列式。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/69790713",
+      "summary": "正文给出行列式的几何、代数定义和应用。"
+    },
+    {
+      "title": "n阶方阵中可逆矩阵和不可逆矩阵哪个多？",
+      "url": "https://www.zhihu.com/answer/70126012",
+      "summary": "正文用行列式为零刻画不可逆矩阵。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/70687817",
+      "summary": "正文将行列式解释为线性变换后的体积放大率。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/70733658",
+      "summary": "正文给出行列式作为反对称线性函数的定义性描述。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/70741531",
+      "summary": "正文将二、三阶行列式分别解释为有向面积与体积。"
+    },
+    {
+      "title": "外微分形式为什么要是反对称的？Cartan当年为什么要这样定义？",
+      "url": "https://www.zhihu.com/answer/72886808",
+      "summary": "正文由雅可比行列式的反对称性解释微分形式。"
+    },
+    {
+      "title": "迹的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/73374603",
+      "summary": "正文说明该恒等式在最高阶时得到行列式。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/75562143",
+      "summary": "正文围绕有限维和微分算子的行列式给出定义、性质与例子。"
+    },
+    {
+      "title": "矩阵与行列式有什么区别?",
+      "url": "https://www.zhihu.com/answer/75635431",
+      "summary": "正文定义行列式并说明有向体积和可逆性含义。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/77205428",
+      "summary": "正文给出行列式作为列线性、反对称、规范数量函数的等价定义与证明。"
+    },
+    {
+      "title": "如何理解雅克比矩阵？",
+      "url": "https://www.zhihu.com/answer/77898641",
+      "summary": "正文把雅可比行列式解释为参数变换前后面积比。"
+    },
+    {
+      "title": "如何理解代数中的伴随矩阵这一工具？",
+      "url": "https://www.zhihu.com/answer/80869018",
+      "summary": "正文把伴随矩阵与行列式、外代数联系起来。"
+    },
+    {
+      "title": "如何理解线性代数？",
+      "url": "https://www.zhihu.com/answer/81272831",
+      "summary": "正文解释行列式绝对值的几何体积意义。"
+    },
+    {
+      "title": "二阶正交矩阵可以根据纯旋转与否来分类，能具体解释一下吗？",
+      "url": "https://www.zhihu.com/answer/85104524",
+      "summary": "正文用行列式正负区分旋转与翻折。"
+    },
+    {
+      "title": "精通线性代数是种怎样的体验？怎样才能称得上精通线性代数？",
+      "url": "https://www.zhihu.com/answer/91934478",
+      "summary": "正文具体给出行列式的现代代数和古典几何两种理解。"
+    },
+    {
+      "title": "物理学与数学中有哪些特别有意义的名词？",
+      "url": "https://www.zhihu.com/answer/99536331",
+      "summary": "正文明确用行列式为零刻画奇异矩阵。"
+    },
+    {
+      "title": "有2n+1个实数，它们其中任意2n个数都可以等分成两组使两组数的和相等，证明这2n+1个数都相等？",
+      "url": "https://www.zhihu.com/answer/105672732",
+      "summary": "正文通过子矩阵行列式非零证明原矩阵的秩。"
+    },
+    {
+      "title": "子式或者余子式有什么对应的几何或者物理含义？",
+      "url": "https://www.zhihu.com/answer/109118907",
+      "summary": "正文从平行多面体体积解释行列式、余子式及按行展开的几何意义。"
+    },
+    {
+      "title": "极坐标下的二重积分，二次积分下每次积分的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/110135036",
+      "summary": "正文通过平行多面体体积证明雅各比行列式就是多重积分换元的体积因子。"
+    },
+    {
+      "title": "行列式的意义是什么？",
+      "url": "https://www.zhihu.com/answer/110251634",
+      "summary": "正文用三维例子把行列式解释为由坐标向量张成的体积。"
+    },
+    {
+      "title": "det(AB)=det(A)det(B)有简单证法吗？",
+      "url": "https://www.zhihu.com/answer/111251804",
+      "summary": "正文以行变换、上三角阵和矩阵乘法逐步证明行列式的乘法公式。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/116046207",
+      "summary": "正文用二维向量乘法公式呈现行列式的无字证明。"
+    },
+    {
+      "title": "如何证明正定矩阵的行列式不大于其对角线元素之积 ( Hadamard 第二不等式）？",
+      "url": "https://www.zhihu.com/answer/117033651",
+      "summary": "正文给出四种方法证明正定矩阵的行列式界。"
+    },
+    {
+      "title": "非齐次线性方程组的解与行列式的关系？",
+      "url": "https://www.zhihu.com/answer/118720489",
+      "summary": "正文说明只有方阵有行列式，并限定行列式判据的适用范围。"
+    },
+    {
+      "title": "二阶行列式与三阶行列数有着怎样的几何意义?",
+      "url": "https://www.zhihu.com/answer/125942527",
+      "summary": "正文系统解释二阶与三阶行列式的有向面积和体积意义。"
+    },
+    {
+      "title": "为什么要公理化实数，而不是从自然数导出？",
+      "url": "https://www.zhihu.com/answer/126754251",
+      "summary": "正文用多重线性、交错、归一三条性质公理化刻画行列式。"
+    },
+    {
+      "title": "矩阵与行列式有什么区别?",
+      "url": "https://www.zhihu.com/answer/133997610",
+      "summary": "正文把行列式解释为由矩阵计算得到的属性，并说明其判定作用。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/135768782",
+      "summary": "正文从迹、特征值与特征多项式多个角度解释行列式的结构意义。"
+    },
+    {
+      "title": "相比于耳熟能详的微积分发展史，为什么我们较少听说过线性代数的发展史？线性代数是如何发展的？",
+      "url": "https://www.zhihu.com/answer/136278707",
+      "summary": "正文把行列式列为线性代数的主要组成并介绍其专门发展史。"
+    },
+    {
+      "title": "为什么我感觉大学的数学教材总是以比较难理解的方式来讲述呢，然后自己明白后觉得完全可以说得更通俗易懂？",
+      "url": "https://www.zhihu.com/answer/137492426",
+      "summary": "正文以有向高维体积解释行列式及行列式为零与矩阵不可逆的关系。"
+    },
+    {
+      "title": "如何理解这个哈密顿凯莱定理的证明？",
+      "url": "https://www.zhihu.com/answer/153402620",
+      "summary": "正文讨论交换环上行列式的定义及其在证明中的性质。"
+    },
+    {
+      "title": "如何理解雅可比式？",
+      "url": "https://www.zhihu.com/answer/155904509",
+      "summary": "正文说明雅可比矩阵为方阵时的行列式及其体积意义。"
+    },
+    {
+      "title": "已知三棱锥所有棱长的长，可以直接用公式求出该三棱锥体积么？",
+      "url": "https://www.zhihu.com/answer/157057636",
+      "summary": "正文用 Cayley–Menger 行列式和初等变换推导四面体体积公式。"
+    },
+    {
+      "title": "为什么会定义矩阵的迹？",
+      "url": "https://www.zhihu.com/answer/161191362",
+      "summary": "正文用二维面积和三维体积解释行列式。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/162550802",
+      "summary": "正文把行列式解释为线性变换的面积或体积伸缩因子，并讨论正负与零。"
+    },
+    {
+      "title": "有人能解释一下伽罗瓦域和GF(2^8)吗？",
+      "url": "https://www.zhihu.com/answer/170701841",
+      "summary": "正文以Vandermonde行列式非零说明矩阵可逆和数据恢复的唯一性。"
+    },
+    {
+      "title": "极坐标下的二重积分，二次积分下每次积分的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/172064969",
+      "summary": "正文利用雅可比行列式作为线性变换的面积伸缩因子推导换元公式。"
+    },
+    {
+      "title": "为何线性代数的「determinant」被翻译成「行列式」？",
+      "url": "https://www.zhihu.com/answer/206017827",
+      "summary": "正文从体积缩放与降维解释行列式的几何本质。"
+    },
+    {
+      "title": "构造拉格朗日函数有何意义？",
+      "url": "https://www.zhihu.com/answer/216212036",
+      "summary": "正文以系数矩阵行列式为零推出条件极值方程。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/246698700",
+      "summary": "正文把行列式解释为向量张成平行多面体的有向体积。"
+    },
+    {
+      "title": "迹的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/255818053",
+      "summary": "正文解释行列式作为线性变换伸缩比例及相似不变量。"
+    },
+    {
+      "title": "十天之内如何逆袭线性代数和高数？",
+      "url": "https://www.zhihu.com/answer/255917443",
+      "summary": "正文说明用行列式与克拉默法则处理方程组。"
+    },
+    {
+      "title": "线性代数对物理学有什么帮助？",
+      "url": "https://www.zhihu.com/answer/264278863",
+      "summary": "正文用体积压扁为零解释行列式为零的几何意义。"
+    },
+    {
+      "title": "常微分方程的通解包含所有的解吗？",
+      "url": "https://www.zhihu.com/answer/265305995",
+      "summary": "正文以 Wronskian 行列式非零证明解的线性无关和常数可唯一确定。"
+    },
+    {
+      "title": "人们是如何想到奇异值分解的？",
+      "url": "https://www.zhihu.com/answer/272977924",
+      "summary": "正文通过系数矩阵奇异与行列式为零导出奇异值条件。"
+    },
+    {
+      "title": "矩阵的迹到底有什么意义？",
+      "url": "https://www.zhihu.com/answer/281587700",
+      "summary": "正文用体积直观解释行列式。"
+    },
+    {
+      "title": "范德蒙特行列式究竟是干什么用的？",
+      "url": "https://www.zhihu.com/answer/310254061",
+      "summary": "正文以范德蒙行列式定义基本斜对称多项式并说明其生成作用。"
+    },
+    {
+      "title": "数学中的「平凡」「非平凡」「退化」是什么含义？",
+      "url": "https://www.zhihu.com/answer/345977627",
+      "summary": "正文用行列式为零说明退化情形。"
+    },
+    {
+      "title": "为什么特征值之和会等于矩阵的迹？",
+      "url": "https://www.zhihu.com/answer/355418803",
+      "summary": "正文从行列式定义展开特征方程。"
+    },
+    {
+      "title": "空间曲线的切向量？",
+      "url": "https://www.zhihu.com/answer/360805243",
+      "summary": "正文明确用二阶雅可比行列式表达叉乘分量。"
+    },
+    {
+      "title": "如何判断向量组是否线性相关？",
+      "url": "https://www.zhihu.com/answer/362452648",
+      "summary": "正文用行列式非零判定线性无关。"
+    },
+    {
+      "title": "行列式的逆序数定义是怎么想出来的？",
+      "url": "https://www.zhihu.com/answer/368297107",
+      "summary": "正文从逆序数奇偶性推导 n 阶行列式展开符号。"
+    },
+    {
+      "title": "多重积分中的变量代换公式中，为何雅克比行列式需取其绝对值？",
+      "url": "https://www.zhihu.com/answer/397049828",
+      "summary": "正文解释雅可比行列式取绝对值与定向反转的关系。"
+    },
+    {
+      "title": "代数余子式怎么来的，为什么会有这个定义？",
+      "url": "https://www.zhihu.com/answer/399580215",
+      "summary": "正文由逆序数定义逐步推导行列式子式与代数余子式。"
+    },
+    {
+      "title": "歌者文明想把自己降维二维化，二维化有什么好处？降维后还能把自己升回三维或四维吗？",
+      "url": "https://www.zhihu.com/answer/399957575",
+      "summary": "正文陈述行列式为零的矩阵不可逆这一判据。"
+    },
+    {
+      "title": "为什么二阶微分方程有且仅有两个线性无关的解？三个不行吗？",
+      "url": "https://www.zhihu.com/answer/404519901",
+      "summary": "正文用Wronsky与Vandermonde行列式判断线性无关。"
+    },
+    {
+      "title": "为什么特征值之和会等于矩阵的迹？",
+      "url": "https://www.zhihu.com/answer/435657618",
+      "summary": "正文用行列式展开确定特征多项式的次高项系数。"
+    },
+    {
+      "title": "Jacobi（雅可比）行列式它的几何意义是什么啊？",
+      "url": "https://www.zhihu.com/answer/442119197",
+      "summary": "正文定义雅可比行列式并解释其面积伸缩意义。"
+    },
+    {
+      "title": "雅可比行列式?",
+      "url": "https://www.zhihu.com/answer/442131829",
+      "summary": "正文解释方阵雅可比行列式的体积比率。"
+    },
+    {
+      "title": "数学家和物理学家是怎么得到灵感解决问题的？",
+      "url": "https://www.zhihu.com/answer/459985620",
+      "summary": "正文介绍行列式与体积的联系。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/473516077",
+      "summary": "正文从定向体积解释行列式及其性质。"
+    },
+    {
+      "title": "行列式的意义是什么？",
+      "url": "https://www.zhihu.com/answer/473516328",
+      "summary": "正文从定向体积解释行列式及其十大性质。"
+    },
+    {
+      "title": "数学中有哪些表面没有关系但是内在有深刻联系的问题？",
+      "url": "https://www.zhihu.com/answer/503357108",
+      "summary": "给出正定矩阵行列式不等式，并说明其被用于证明 Mostow 刚性。"
+    },
+    {
+      "title": "为何矩阵特征值乘积等于矩阵行列式值？",
+      "url": "https://www.zhihu.com/answer/546156773",
+      "summary": "正文以有向体积的总体缩放解释行列式。"
+    },
+    {
+      "title": "什么是「本征值」？",
+      "url": "https://www.zhihu.com/answer/549306527",
+      "summary": "正文通过特征行列式等于零求特征值。"
+    },
+    {
+      "title": "如何从代数和几何的角度分别理解矩阵？",
+      "url": "https://www.zhihu.com/answer/555171490",
+      "summary": "说明行列式绝对值表示高维平行多面体体积。"
+    },
+    {
+      "title": "怎样判断一个矩阵可逆？",
+      "url": "https://www.zhihu.com/answer/570964914",
+      "summary": "正文以行列式非零刻画矩阵可逆。"
+    },
+    {
+      "title": "有哪些令人为之惊叹的数学题目？",
+      "url": "https://www.zhihu.com/answer/588878063",
+      "summary": "正文用行列式表达和相似变换完成证明。"
+    },
+    {
+      "title": "行列式的逆序数定义是怎么想出来的？",
+      "url": "https://www.zhihu.com/answer/589376055",
+      "summary": "正文以斜对称、多重线性和正规化公理刻画行列式。"
+    },
+    {
+      "title": "正交矩阵有哪些性质？",
+      "url": "https://www.zhihu.com/answer/591036241",
+      "summary": "正文给出正交矩阵的行列式性质。"
+    },
+    {
+      "title": "线性代数，矩阵 A 的伴随矩阵的伴随矩阵等于什么？",
+      "url": "https://www.zhihu.com/answer/611951215",
+      "summary": "正文用行列式和伴随矩阵恒等式分情形证明。"
+    },
+    {
+      "title": "为何矩阵特征值乘积等于矩阵行列式值？",
+      "url": "https://www.zhihu.com/answer/613955775",
+      "summary": "正文由特征多项式常数项得到行列式与特征值乘积。"
+    },
+    {
+      "title": "能不能请数学业界人士实锤丁小平微积分错误?",
+      "url": "https://www.zhihu.com/answer/631675088",
+      "summary": "用行列式解释外积所表示的高维体积元。"
+    },
+    {
+      "title": "正交矩阵是旋转矩阵吗？有文档证明了旋转矩阵是正交矩阵，那反过来，正交矩阵都是旋转矩阵吗？",
+      "url": "https://www.zhihu.com/answer/638946850",
+      "summary": "通过行列式为正负一划分纯旋转与含反射的正交变换。"
+    },
+    {
+      "title": "雅可比行列式该如何理解?",
+      "url": "https://www.zhihu.com/answer/639295875",
+      "summary": "以行列式刻画多元变换的体积缩放和降维。"
+    },
+    {
+      "title": "我是学数学的，每次看物理书总有种不严谨的感觉怎么办？",
+      "url": "https://www.zhihu.com/answer/648488341",
+      "summary": "在通量计算中用行列式与 Laplace 展开整理混合积。"
+    },
+    {
+      "title": "高阶线性微分方程的特征方程怎么来的？",
+      "url": "https://www.zhihu.com/answer/654587313",
+      "summary": "把非零解存在条件写成系数矩阵行列式为零。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/680816095",
+      "summary": "用三阶、四阶行列式判定共线并计算体积。"
+    },
+    {
+      "title": "线性代数到底应该怎么学？",
+      "url": "https://www.zhihu.com/answer/689345373",
+      "summary": "正文把行列式解释为矩阵变换前后的面积或体积比例。"
+    },
+    {
+      "title": "线性代数中的秩怎么算？",
+      "url": "https://www.zhihu.com/answer/692652798",
+      "summary": "利用子式与行列式刻画秩。"
+    },
+    {
+      "title": "如何证明行列式的拉普拉斯定理？",
+      "url": "https://www.zhihu.com/answer/697867199",
+      "summary": "完整证明行列式按行列展开公式。"
+    },
+    {
+      "title": "怎样速成线性代数？",
+      "url": "https://www.zhihu.com/answer/717719551",
+      "summary": "正文具体列出常见的行列式计算类型、性质和考试取舍。"
+    },
+    {
+      "title": "初等行变换和初等列变换什么情况下可以混合使用？",
+      "url": "https://www.zhihu.com/answer/740773335",
+      "summary": "明确说明行列式可混用行列变换。"
+    },
+    {
+      "title": "最高阶非零子式是什么意思？怎么求？",
+      "url": "https://www.zhihu.com/answer/741771914",
+      "summary": "直接定义子行列式和最高阶非零子式。"
+    },
+    {
+      "title": "有质量的弹簧两端分别连接两个小球，如何求系统的振动周期？",
+      "url": "https://www.zhihu.com/answer/756136879",
+      "summary": "由齐次线性方程组非零解要求行列式为零。"
+    },
+    {
+      "title": "n维球坐标变化下的Jacobi行列式怎么计算？",
+      "url": "https://www.zhihu.com/answer/781120941",
+      "summary": "以行列式变换计算雅可比。"
+    },
+    {
+      "title": "如何理解或是证明柯西-比内公式？",
+      "url": "https://www.zhihu.com/answer/781374335",
+      "summary": "利用行列式多重线性与斜对称性证明公式。"
+    },
+    {
+      "title": "如何理解线性代数？",
+      "url": "https://www.zhihu.com/answer/785751751",
+      "summary": "用行列式刻画矩阵变换强弱。"
+    },
+    {
+      "title": "我觉得考研线代很难，该怎么办？",
+      "url": "https://www.zhihu.com/answer/785796491",
+      "summary": "用面积和体积直观解释行列式。"
+    },
+    {
+      "title": "为什么（单根不是重根）特征值对应的线性无关的特征向量只有一个?",
+      "url": "https://www.zhihu.com/answer/790037578",
+      "summary": "用行列式变换得到特征多项式。"
+    },
+    {
+      "title": "怎么把普通行列式转为三角行列式求解?",
+      "url": "https://www.zhihu.com/answer/825259240",
+      "summary": "用初等行列变换把一般行列式化为三角行列式。"
+    },
+    {
+      "title": "为什么行列式的某一行所有元素与另一行对应元素的代数余子式的乘积之和等于零?",
+      "url": "https://www.zhihu.com/answer/840257000",
+      "summary": "正文用替换一行后产生两行相同的行列式，解释余子式乘积和为零。"
+    },
+    {
+      "title": "为什么 n 阶线性齐次微分方程有 n 个线性无关的特解？",
+      "url": "https://www.zhihu.com/answer/848179746",
+      "summary": "用 Wronskian 行列式判断线性无关。"
+    },
+    {
+      "title": "范德蒙行列式怎么算？",
+      "url": "https://www.zhihu.com/answer/850342275",
+      "summary": "陈述 Vandermonde 行列式公式及其证明思路。"
+    },
+    {
+      "title": "为什么A的行列式不等于0  A满秩?",
+      "url": "https://www.zhihu.com/answer/856530761",
+      "summary": "解释行列式非零、满秩和可逆的等价关系。"
+    },
+    {
+      "title": "为何矩阵特征值乘积等于矩阵行列式值？",
+      "url": "https://www.zhihu.com/answer/860223585",
+      "summary": "用行列式展开分析特征多项式的系数。"
+    },
+    {
+      "title": "为什么两个矩阵乘积的行列式的值等于矩阵行列式的乘积？",
+      "url": "https://www.zhihu.com/answer/884812875",
+      "summary": "证明两个矩阵乘积的行列式等于行列式之积。"
+    },
+    {
+      "title": "圆的面积 S 与半径的平方 R² 成正比，是从数学上的严格证明，还是一种数学直觉？",
+      "url": "https://www.zhihu.com/answer/891331985",
+      "summary": "正文解释二阶行列式的几何意义，并将 Jacobi 行列式解释为平面区域的变化率。"
+    },
+    {
+      "title": "一般的四阶(甚至更多)行列式怎么计算?",
+      "url": "https://www.zhihu.com/answer/897071535",
+      "summary": "正文定义代数余子式并讲解按行列展开与行列变换计算高阶行列式。"
+    },
+    {
+      "title": "线性代数到底应该怎么学？",
+      "url": "https://www.zhihu.com/answer/907015513",
+      "summary": "正文从面积和空间伸缩角度解释行列式，并讨论行列式为零与矩阵不可逆的关系。"
+    },
+    {
+      "title": "请问伴随矩阵在几何空间的意义是什么？",
+      "url": "https://www.zhihu.com/answer/951628967",
+      "summary": "正文用余子式、代数余子式和行列式推导伴随矩阵公式。"
+    },
+    {
+      "title": "二阶方阵的伴随矩阵怎么求？",
+      "url": "https://www.zhihu.com/answer/958781174",
+      "summary": "正文说明代数余子式和行列式在伴随矩阵计算中的作用。"
+    },
+    {
+      "title": "直角坐标与极坐标的互化中，为什么 dxdy=rdrdθ？",
+      "url": "https://www.zhihu.com/answer/997070509",
+      "summary": "正文用雅可比行列式解释面积元变化。"
+    },
+    {
+      "title": "线性代数有什么用？学习线性代数的意义在哪？",
+      "url": "https://www.zhihu.com/answer/998543755",
+      "summary": "正文用行列式大小与符号判断点和多边形的位置关系。"
+    },
+    {
+      "title": "如何直观理解矩阵和线性代数？",
+      "url": "https://www.zhihu.com/answer/1023650088",
+      "summary": "正文专节解释行列式与矩阵性质的关系。"
+    },
+    {
+      "title": "为什么部分大一学生认为线性代数听不懂？",
+      "url": "https://www.zhihu.com/answer/1028179071",
+      "summary": "正文实质追问行列式定义、计算与方阵性质。"
+    },
+    {
+      "title": "为什么部分大一学生认为线性代数听不懂？",
+      "url": "https://www.zhihu.com/answer/1040960180",
+      "summary": "正文从有向体积与公理化定义详细重构行列式。"
+    },
+    {
+      "title": "行列式的拉普拉斯定理如何按多行（列）展开？",
+      "url": "https://www.zhihu.com/answer/1101920267",
+      "summary": "正文逐一定义子式、余子式和代数余子式并解释拉普拉斯展开。"
+    },
+    {
+      "title": "为什么行列式的某一行所有元素与另一行对应元素的代数余子式的乘积之和等于零?",
+      "url": "https://www.zhihu.com/answer/1124739747",
+      "summary": "正文用行列式行变换和按行展开解释代数余子式恒等式。"
+    },
+    {
+      "title": "我表弟初一上学期，自己推出二元一次方程解法。他是不是有数学天赋?",
+      "url": "https://www.zhihu.com/answer/1175112786",
+      "summary": "正文描述从消元推广并自行推出行列式表达。"
+    },
+    {
+      "title": "行列式的初等变换能行变换和列变换一起用吗？",
+      "url": "https://www.zhihu.com/answer/1185823425",
+      "summary": "正文解释行列式计算中行、列初等变换的用法。"
+    },
+    {
+      "title": "导数 dy/dx 是不是一个整体符号？",
+      "url": "https://www.zhihu.com/answer/1210093939",
+      "summary": "正文用行列式多重线性与体积解释张量。"
+    },
+    {
+      "title": "如何求椭球体积？",
+      "url": "https://www.zhihu.com/answer/1226371105",
+      "summary": "正文用仿射变换的行列式推导椭圆面积和椭球体积。"
+    },
+    {
+      "title": "迹的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/1242409833",
+      "summary": "正文用行列式展开解释矩阵迹与体积变化率。"
+    },
+    {
+      "title": "为什么部分大一学生认为线性代数听不懂？",
+      "url": "https://www.zhihu.com/answer/1292237694",
+      "summary": "正文用面积压缩比解释行列式。"
+    },
+    {
+      "title": "为什么行列式恰好能表示体积？",
+      "url": "https://www.zhihu.com/answer/1296684249",
+      "summary": "正文用体积性质证明行列式表示体积。"
+    },
+    {
+      "title": "伴随矩阵的穿脱原理如何证明？（AB）的伴随等于B的伴随乘A的伴随？",
+      "url": "https://www.zhihu.com/answer/1326257558",
+      "summary": "正文把比内-柯西公式作为证明伴随矩阵恒等式的主要矩阵工具。"
+    },
+    {
+      "title": "为什么 n 阶线性微分方程的通解由 n 个线性无关的特解线性组合构成，这与线性方程组有关系吗？",
+      "url": "https://www.zhihu.com/answer/1330591190",
+      "summary": "正文用 Wronskian 行列式论证特解的线性无关性。"
+    },
+    {
+      "title": "如何证明坐标变换中的雅可比行列式？",
+      "url": "https://www.zhihu.com/answer/1346421063",
+      "summary": "正文用雅可比矩阵行列式解释坐标变换中的面积和体积放缩。"
+    },
+    {
+      "title": "为什么系数行列式不等于 0，线性方程组只有零解？",
+      "url": "https://www.zhihu.com/answer/1354211921",
+      "summary": "正文把系数行列式是否为零作为方程组解结构的判据。"
+    },
+    {
+      "title": "伴随矩阵的特征值与原矩阵的特征值的关系？",
+      "url": "https://www.zhihu.com/answer/1400724839",
+      "summary": "正文使用矩阵行列式计算伴随矩阵特征值。"
+    },
+    {
+      "title": "数学领域有哪些经典的笑话？",
+      "url": "https://www.zhihu.com/answer/1455374800",
+      "summary": "正文以矩阵是否为退化矩阵讨论行列式。"
+    },
+    {
+      "title": "点乘，叉乘，内积，外积之间都是什么关系？怎么用？",
+      "url": "https://www.zhihu.com/answer/1459785562",
+      "summary": "正文用三阶行列式表示并计算向量叉积。"
+    },
+    {
+      "title": "如何理解隐函数组定理中，函数行列式（Jacobi行列式）的偏导形式（r(F,G)/r(u,v)）?",
+      "url": "https://www.zhihu.com/answer/1545070592",
+      "summary": "正文直接讨论行列式，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "诸如 {1，1，1，3，5，9，17，···} 三个数相加，即斐波那契数列的变式，存在通项公式吗？",
+      "url": "https://www.zhihu.com/answer/1551206932",
+      "summary": "正文用 Vandermonde 行列式证明初值可唯一确定通项系数。"
+    },
+    {
+      "title": "如何理解克拉默法则？",
+      "url": "https://www.zhihu.com/answer/1600307380",
+      "summary": "正文直接讨论或应用该叶节点主题（行列式）。"
+    },
+    {
+      "title": "考完了第十二届大学生数学竞赛，你有什么感受？",
+      "url": "https://www.zhihu.com/answer/1609514981",
+      "summary": "正文直接讨论或应用该叶节点主题（det）。"
+    },
+    {
+      "title": "怎么解释「正定矩阵」？",
+      "url": "https://www.zhihu.com/answer/1609935584",
+      "summary": "正文直接讨论或应用该叶节点主题（行列式）。"
+    },
+    {
+      "title": "谁来讲讲线性代数的历史？",
+      "url": "https://www.zhihu.com/answer/1616127314",
+      "summary": "正文说明行列式用于预先判断方程组的解。"
+    },
+    {
+      "title": "行列式的几何意义是什么？",
+      "url": "https://www.zhihu.com/answer/1624841935",
+      "summary": "正文用线性映射后的有向体积解释行列式。"
+    },
+    {
+      "title": "矩阵的逆要怎么计算？",
+      "url": "https://www.zhihu.com/answer/1626959467",
+      "summary": "正文把行列式作为逆矩阵计算的分母。"
+    },
+    {
+      "title": "哈密尔顿-凯莱定理的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1636767376",
+      "summary": "正文从特征多项式的行列式定义进入该定理。"
+    },
+    {
+      "title": "行列式不为零能说明什么？等于零又说明什么？",
+      "url": "https://www.zhihu.com/answer/1642759300",
+      "summary": "正文用满秩和几何体积解释行列式是否为零。"
+    },
+    {
+      "title": "如何用十分中二的方式解数学题？",
+      "url": "https://www.zhihu.com/answer/1659290597",
+      "summary": "正文求特定三对角矩阵的行列式。"
+    },
+    {
+      "title": "精通线性代数是种怎样的体验？怎样才能称得上精通线性代数？",
+      "url": "https://www.zhihu.com/answer/1690219645",
+      "summary": "正文把行列式列为线性代数核心基础。"
+    },
+    {
+      "title": "线性代数中的线性相关或无关到底是什么意思？秩又是什么东西？秩相同意味着什么？",
+      "url": "https://www.zhihu.com/answer/1706220690",
+      "summary": "正文用非零子式最大阶数定义矩阵的秩。"
+    },
+    {
+      "title": "代数余子式怎么来的，为什么会有这个定义？",
+      "url": "https://www.zhihu.com/answer/1727362273",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "有什么答案为5201314的高阶行列式（四阶以上）?",
+      "url": "https://www.zhihu.com/answer/1729706763",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "有哪些数学教材是你深恶痛绝、绝不推荐的？",
+      "url": "https://www.zhihu.com/answer/1743055189",
+      "summary": "正文直接讨论或推导「行列式」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "如何看待中科大 26 岁教授陈杲攻克数学复微分几何领域世界难题？",
+      "url": "https://www.zhihu.com/answer/1756987459",
+      "summary": "正文引用矩阵行列式恒等式并解释其使用场景。"
+    },
+    {
+      "title": "对于非数学专业来说，微积分和线性代数会有很大的关系吗？",
+      "url": "https://www.zhihu.com/answer/1764082925",
+      "summary": "正文解释重积分换元为何需要雅可比行列式。"
+    },
+    {
+      "title": "为什么二重积分极坐标变换多一个r?",
+      "url": "https://www.zhihu.com/answer/1785537562",
+      "summary": "正文把面积缩放归结为雅可比行列式。"
+    },
+    {
+      "title": "矩阵是线性代数的核心吗？我是否可以这样理解线性代数？",
+      "url": "https://www.zhihu.com/answer/1805794712",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "行列式和矩阵的意义到底是什么？",
+      "url": "https://www.zhihu.com/answer/1841865903",
+      "summary": "正文用有向面积和体积解释行列式的几何意义。"
+    },
+    {
+      "title": "微积分与线性代数有关系吗？",
+      "url": "https://www.zhihu.com/answer/1856444617",
+      "summary": "正文用线性方程组和行列式解释隐函数组。"
+    },
+    {
+      "title": "泡利矩阵的迹为什么是零？",
+      "url": "https://www.zhihu.com/answer/1885075484",
+      "summary": "正文用 det(e^A)=e^{tr A} 联系行列式与迹。"
+    },
+    {
+      "title": "《线性代数应该这样学》（《Linear Algebra Done Right》）这本书到底好在哪儿？",
+      "url": "https://www.zhihu.com/answer/1886414383",
+      "summary": "正文说明该书把行列式放到最后并联系分析和换元。"
+    },
+    {
+      "title": "为什么三体中歌者文明使用二向箔而不是四向箔？",
+      "url": "https://www.zhihu.com/answer/1900247085",
+      "summary": "正文用矩阵可逆性解释降维过程中信息不可恢复。"
+    },
+    {
+      "title": "为什么矩阵的 K 重特征值至多有 K 个线性无关的特征向量？",
+      "url": "https://www.zhihu.com/answer/2000715793",
+      "summary": "正文通过取行列式计算特征多项式重数。"
+    },
+    {
+      "title": "拉格朗日乘数法求解有什么技巧吗？",
+      "url": "https://www.zhihu.com/answer/2081177602",
+      "summary": "正文用线性方程组有非零解的系数行列式条件求 λ。"
+    },
+    {
+      "title": "如何评价人教版新编的高中数学选修用书？",
+      "url": "https://www.zhihu.com/answer/2102738046",
+      "summary": "正文用平行体赋号体积解释行列式和有序基底。"
+    },
+    {
+      "title": "介绍一下Hadamard猜想及其进展？",
+      "url": "https://www.zhihu.com/answer/2231025748",
+      "summary": "正文陈述 Hadamard 定理，以矩阵行列式上界解释 Hadamard 矩阵。"
+    },
+    {
+      "title": "随着时间推移，国内移民潮会渐渐消失吗？会出现移民回流潮吗？",
+      "url": "https://www.zhihu.com/answer/2234038464",
+      "summary": "正文把非零行列式作为非奇异矩阵和唯一解等价条件之一。"
+    },
+    {
+      "title": "为什么部分大一学生认为线性代数听不懂？",
+      "url": "https://www.zhihu.com/answer/2273591157",
+      "summary": "正文讨论线性代数教材先讲行列式造成的理解障碍。"
+    },
+    {
+      "title": "怎么在一个晚上搞定线性代数？",
+      "url": "https://www.zhihu.com/answer/2287034303",
+      "summary": "正文列出行列式的定义、性质与计算方法。"
+    },
+    {
+      "title": "2022 这个数字在数学意义上有什么特别的，为什么？",
+      "url": "https://www.zhihu.com/answer/2293753968",
+      "summary": "正文以三阶矩阵行列式计数说明2022的特殊性。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/2333979382",
+      "summary": "正文利用系数矩阵行列式与克拉姆法则解出待定系数。"
+    },
+    {
+      "title": "直角坐标与极坐标的互化中，为什么 dxdy=rdrdθ？",
+      "url": "https://www.zhihu.com/answer/2374425677",
+      "summary": "正文用外积和行列式解释面积微元变换系数。"
+    },
+    {
+      "title": "为什么部分大一学生认为线性代数听不懂？",
+      "url": "https://www.zhihu.com/answer/2414517256",
+      "summary": "正文以教材中行列式和代数余子式的组织方式为具体讨论对象。"
+    },
+    {
+      "title": "有哪些关于高数的表情包？",
+      "url": "https://www.zhihu.com/answer/2424241806",
+      "summary": "正文用行列式为零推出方阵不可逆。"
+    },
+    {
+      "title": "什么是曲率和曲率半径？",
+      "url": "https://www.zhihu.com/answer/2427885028",
+      "summary": "正文用行列式表示两向量张成的有向面积，并据此计算曲率圆半径。"
+    },
+    {
+      "title": "线性代数究竟是什么？",
+      "url": "https://www.zhihu.com/answer/2442249161",
+      "summary": "正文说明行列式的核心作用是判定线性算子可逆性并研究其核。"
+    },
+    {
+      "title": "斜椭圆怎么从一般方程转化为参数方程？",
+      "url": "https://www.zhihu.com/answer/2461929045",
+      "summary": "正文用判别式矩阵的行列式分析二次曲线。"
+    },
+    {
+      "title": "为什么部分大一学生认为线性代数听不懂？",
+      "url": "https://www.zhihu.com/answer/2486814941",
+      "summary": "把行列式解释为向量张成空间的面积或体积，并说明行列式为零时的降维。"
+    },
+    {
+      "title": "这道解析几何题为什么这样写不给分？",
+      "url": "https://www.zhihu.com/answer/2506026330",
+      "summary": "正文用变换矩阵的行列式 ad-bc 非零说明仿射变换可逆。"
+    },
+    {
+      "title": "有哪些数学专业表情包?",
+      "url": "https://www.zhihu.com/answer/2567500903",
+      "summary": "用行列式为零判断方阵不可逆，构成“不存在”的表情包梗。"
+    },
+    {
+      "title": "有没有一种神经网络结构能同时求得其概率密度函数？",
+      "url": "https://www.zhihu.com/answer/2570089398",
+      "summary": "说明归一化流通过 Jacobian 行列式对数的可计算性实现密度变换。"
+    },
+    {
+      "title": "多元微积分之前是否有必要先上线性代数？",
+      "url": "https://www.zhihu.com/answer/2609219508",
+      "summary": "指出雅可比行列式与隐函数定理、克拉默公式之间的行列式联系。"
+    },
+    {
+      "title": "在控制、自动化领域，用到的最高深最先进的数学理论工具是什么？控制是否是工科里用到数学最多最深的领域？",
+      "url": "https://www.zhihu.com/answer/2644630108",
+      "summary": "以伴随矩阵和行列式求逆估计随机矩阵的概率界。"
+    },
+    {
+      "title": "在微积分教材一开始直接引入 epsilon-delta 语言是否有利？",
+      "url": "https://www.zhihu.com/answer/2672555141",
+      "summary": "正文具体比较从低阶到一般阶行列式的教学顺序及其与后续矩阵内容的衔接。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2692425804",
+      "summary": "正文从映射、函数、几何解释和行列展开等视角讨论行列式的定义与本质，明确对应行列式。"
+    },
+    {
+      "title": "为什么部分大一学生认为线性代数听不懂？",
+      "url": "https://www.zhihu.com/answer/2701936215",
+      "summary": "正文强调行列式应与矩阵及其结构结合理解，指出脱离矩阵讲行列式缺乏意义。"
+    },
+    {
+      "title": "有哪些让你惊为天人的数学证明?",
+      "url": "https://www.zhihu.com/answer/2746590176",
+      "summary": "正文以 Cauchy-Binet 公式为例讨论行列式乘积的推广，并联系 Laplace 展开及其应用。"
+    },
+    {
+      "title": "除了黎曼猜想，数学界还有哪些至今尚未得到证实的猜想？",
+      "url": "https://www.zhihu.com/answer/2785869220",
+      "summary": "正文围绕正负一矩阵的行列式最大上界展开，并说明 Hadamard 矩阵达到该上界。"
+    },
+    {
+      "title": "有限元方法的核心思想是什么？",
+      "url": "https://www.zhihu.com/answer/2823793090",
+      "summary": "正文利用雅可比行列式与三角形面积的几何关系计算单元面积和后续积分。"
+    },
+    {
+      "title": "「Not even wrong」是什么意思？",
+      "url": "https://www.zhihu.com/answer/2888110753",
+      "summary": "正文通过把矩阵记号换成行列式后得到的错误等式，说明行列式不能像矩阵一样逐项相加。"
+    },
+    {
+      "title": "大家有理解变分推断Normalizing Flows的吗?",
+      "url": "https://www.zhihu.com/answer/2922112527",
+      "summary": "正文用雅可比矩阵行列式完成密度变换，并利用三角矩阵行列式简化似然计算。"
+    },
+    {
+      "title": "齐次方程零解是什么意思呢？",
+      "url": "https://www.zhihu.com/answer/2930648989",
+      "summary": "正文用行列式是否为零判定齐次方程组只有零解还是存在非零解，并解释其与降秩的关系。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2947334961",
+      "summary": "正文说明行列式与矩阵可逆性、线性映射同构之间的关系，并给出二阶和三阶行列式。"
+    },
+    {
+      "title": "hessian矩阵的特征向量有什么含义？",
+      "url": "https://www.zhihu.com/answer/2963597775",
+      "summary": "正文解释 Hessian 的行列式等于特征值乘积，并用它判断临界点类型和描述面积缩放。"
+    },
+    {
+      "title": "如何直观理解特征值与特征向量的意义？",
+      "url": "https://www.zhihu.com/answer/2966272862",
+      "summary": "正文说明行列式为零、秩不足与非零零空间维度之间的关系。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2968758635",
+      "summary": "正文用列向量张成的体积解释行列式，并说明线性相关时行列式退化为零。"
+    },
+    {
+      "title": "矩阵是线性代数的核心吗？我是否可以这样理解线性代数？",
+      "url": "https://www.zhihu.com/answer/2968883577",
+      "summary": "正文用向量张成的体积解释行列式，并说明线性相关时其值为零。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2976348964",
+      "summary": "正文计算二阶矩阵的行列式，并说明它等于对应复数模长的平方。"
+    },
+    {
+      "title": "多项式的牛顿公式证明思路是怎样的？",
+      "url": "https://www.zhihu.com/answer/2992017343",
+      "summary": "正文把多项式判别式写成 Vandermonde 行列式平方，并用幂和矩阵的行列式进行计算。"
+    },
+    {
+      "title": "哈密尔顿-凯莱定理的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2996313226",
+      "summary": "正文用 det(XI-A)、伴随矩阵与正合列推导特征矩阵的行列式多项式作用为零。"
+    },
+    {
+      "title": "要入行机器学习是不是非学数学不可？要学到什么程度，如何才能提高数学水平？",
+      "url": "https://www.zhihu.com/answer/3002690154",
+      "summary": "正文解释行列式表示线性变换对面积或体积的缩放，并联系矩阵可逆性、求逆和解线性方程组。"
+    },
+    {
+      "title": "如果A+B=90，A÷B=17，AB各多少?",
+      "url": "https://www.zhihu.com/answer/3031260197",
+      "summary": "正文显式计算二阶矩阵 M 的行列式为 -18，并用它求逆矩阵。"
+    },
+    {
+      "title": "为什么说“旋量是矢量的平方根”？",
+      "url": "https://www.zhihu.com/answer/3101029714",
+      "summary": "正文用行列式为零刻画 2×2 矩阵能够分解为两个列向量的条件。"
+    },
+    {
+      "title": "线性代数到底是什么？",
+      "url": "https://www.zhihu.com/answer/3117627141",
+      "summary": "正文以二维面积和三维体积的变化解释行列式表示的伸缩倍率，并说明负值对应定向翻转。"
+    },
+    {
+      "title": "行列式与矩阵是如何被发明出来的？",
+      "url": "https://www.zhihu.com/answer/3124855545",
+      "summary": "正文追溯行列式从方程组条件到现代记号的形成，并介绍克拉默法则中的行列式表示。"
+    },
+    {
+      "title": "如何看待法国的数学水平？",
+      "url": "https://www.zhihu.com/answer/3165875770",
+      "summary": "正文用平行多面体的有向体积解释行列式，说明其几何含义而非只给代数公式。"
+    },
+    {
+      "title": "A、B为n阶矩阵，且E-AB可逆，如何证明E-BA也是可逆的？",
+      "url": "https://www.zhihu.com/answer/3191847051",
+      "summary": "正文利用行列式的乘法性质推导 E-AB 与 E-BA 的行列式相等。"
+    },
+    {
+      "title": "戴克斯特拉算法（Dijkstra）的本质是贪心，还是动态规划？",
+      "url": "https://www.zhihu.com/answer/3277987537",
+      "summary": "正文用关联矩阵各子方阵行列式只能取 0、1 或 -1 的论证，保证线性规划基解为整数。"
+    },
+    {
+      "title": "范盛金的三次方程求根公式是真的吗？",
+      "url": "https://www.zhihu.com/answer/3286128308",
+      "summary": "正文计算循环矩阵的特征值，并用行列式等于特征值乘积得到所需多项式恒等式。"
+    },
+    {
+      "title": "有哪些大学数学知识能在高中数学中用到？",
+      "url": "https://www.zhihu.com/answer/3318660546",
+      "summary": "正文从二阶定义出发，讲解行列式计算、余子式与代数余子式、Laplace 展开及 Sylvester 行列式。"
+    },
+    {
+      "title": "《线性代数应该这样学》（《Linear Algebra Done Right》）这本书到底好在哪儿？",
+      "url": "https://www.zhihu.com/answer/3332946775",
+      "summary": "正文说明新版借助多线性代数重新定义行列式，交代了行列式的构造方式。"
+    },
+    {
+      "title": "你做过最抽象的事情是什么？",
+      "url": "https://www.zhihu.com/answer/3351596124",
+      "summary": "正文把乘法作用写成基向量上的矩阵 M，并由 (aI−M)b=0 推出 det(aI−M)=0、得到首一特征多项式。"
+    },
+    {
+      "title": "如果A+B=90，A÷B=17，AB各多少?",
+      "url": "https://www.zhihu.com/answer/3389258406",
+      "summary": "正文计算二阶系数矩阵的行列式，并用行列式与伴随矩阵求逆后解出方程组。"
+    },
+    {
+      "title": "为什么好多人都认为丘维声的高等代数编写的不好呢?",
+      "url": "https://www.zhihu.com/answer/3401372160",
+      "summary": "正文具体批评行列式概念的组合定义引入方式，并讨论 Laplace 定理及辛矩阵行列式的证明安排。"
+    },
+    {
+      "title": "这个柯西-施瓦茨不等式(Cauchy-Schwarz inequality)的证明方法是如何想出来的？",
+      "url": "https://www.zhihu.com/answer/3417667668",
+      "summary": "正文引入 Gram 行列式，以它重写柯西不等式并解释平行四边形面积、Hadamard 不等式和线性相关性。"
+    },
+    {
+      "title": "如何理解拉格朗日乘子法？",
+      "url": "https://www.zhihu.com/answer/3461576941",
+      "summary": "正文把雅可比行列式非零与约束梯度矩阵满秩联系起来，用其保证乘子消元推导可进行。"
+    },
+    {
+      "title": "《线性代数应该这样学》（《Linear Algebra Done Right》）这本书到底好在哪儿？",
+      "url": "https://www.zhihu.com/answer/3556939309",
+      "summary": "正文明确评价行列式在线性代数中的作用，并批评教材刻意回避行列式。"
+    },
+    {
+      "title": "三角形三边长分别为√13、√10、√17，则面积是多少？",
+      "url": "https://www.zhihu.com/answer/3570161611",
+      "summary": "正文用顶点坐标组成的行列式计算三角形面积，并逐步化为二阶行列式。"
+    },
+    {
+      "title": "如何用计算机程序生成三个和为1的随机正数？",
+      "url": "https://www.zhihu.com/answer/3574225263",
+      "summary": "正文利用排序变量到相邻差变量的逆变换 Jacobian 行列式为 1，证明所得随机向量的概率密度保持不变。"
+    },
+    {
+      "title": "做过最气的题是什么题？",
+      "url": "https://www.zhihu.com/answer/3597168832",
+      "summary": "正文用广义初等变换得到行列式递推关系，并由正定矩阵的相应阶主子式推导行列式上界。"
+    },
+    {
+      "title": "数学史上你认为最丑陋的公式是什么？",
+      "url": "https://www.zhihu.com/answer/3597643886",
+      "summary": "正文给出由六条棱长表示的四面体体积公式，并明确指出这个复杂公式可以视为行列式展开。"
+    },
+    {
+      "title": "有哪些看起来简洁却很难的数学题？",
+      "url": "https://www.zhihu.com/answer/3623383917",
+      "summary": "正文证明方阵 A、B 在给定矩阵等式下行列式相等，属于行列式命题的证明。"
+    },
+    {
+      "title": "如何求n维实特殊线性群SL(n,R)的所有正规子群？",
+      "url": "https://www.zhihu.com/answer/3637691913",
+      "summary": "正文使用行列式的乘法性质计算中间矩阵的特征多项式，从而证明它有特征值 1。"
+    },
+    {
+      "title": "为什么部分大一学生认为线性代数听不懂？",
+      "url": "https://www.zhihu.com/answer/3988493051",
+      "summary": "正文由二元方程组的分母推出二阶行列式，并说明行列式非零与逆矩阵存在、方程可解的关系。"
+    },
+    {
+      "title": "你做过最恶心的数学题是什么？",
+      "url": "https://www.zhihu.com/answer/4744252369",
+      "summary": "正文讨论五阶行列式的计算困难，并通过代入特殊值求出行列式的二次多项式。"
+    },
+    {
+      "title": "明治维新这段恶劣的历史为什么能够上课本?",
+      "url": "https://www.zhihu.com/answer/6663634796",
+      "summary": "正文说明关孝和在研究多元高次方程组时提出行列式雏形，并给出二至四阶行列式计算方法。"
+    },
+    {
+      "title": "为什么美国中小学生学的数学比我们简单，美国人却还能做出超级牛的东西？",
+      "url": "https://www.zhihu.com/answer/10492253513",
+      "summary": "正文以行列式为何如此定义为核心例子，区分定义动机与后续计算公式，并提到其不变性诉求。"
+    },
+    {
+      "title": "如何优雅的证明：坐标系内任意多边形的各顶点横纵坐标若都是有理数，则面积一定是有理数？",
+      "url": "https://www.zhihu.com/answer/24397485124",
+      "summary": "正文给出由三阶行列式表示的三角形面积公式，并据此完成有理点三角形的面积计算。"
+    },
+    {
+      "title": "这种矩阵可逆吗？",
+      "url": "https://www.zhihu.com/answer/95327602872",
+      "summary": "正文给出希尔伯特矩阵行列式的乘积公式，并将其作为可逆性论证的一部分。"
+    },
+    {
+      "title": "高中数学基础可以直接学线性代数吗？",
+      "url": "https://www.zhihu.com/answer/97305747954",
+      "summary": "正文说明行列式可用于判断二元一次方程组是否有解。"
+    },
+    {
+      "title": "线性代数的发明过程和意义是什么？",
+      "url": "https://www.zhihu.com/answer/1897099735728373873",
+      "summary": "正文指出线性变换矩阵的行列式表示面积缩放比例，并联系线性代数的应用。"
+    },
+    {
+      "title": "如何评价2025年4月20日丘成桐数学水平考试?",
+      "url": "https://www.zhihu.com/answer/1897292114561332647",
+      "summary": "正文利用分块矩阵计算行列式递推，并在秩一矩阵问题中使用行列式化简求和。"
+    },
+    {
+      "title": "为什么会定义矩阵的迹？",
+      "url": "https://www.zhihu.com/answer/1909010720248542994",
+      "summary": "说明行列式描述线性变换造成的平行多面体有向体积变化率。"
+    },
+    {
+      "title": "Jordan标准形的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1911725426012819849",
+      "summary": "正文通过计算特征行列式得到矩阵的特征值，并继续确定 Jordan 块结构。"
+    },
+    {
+      "title": "哈密顿-凯莱定理最简洁的证明是哪一个？",
+      "url": "https://www.zhihu.com/answer/1916236459037418139",
+      "summary": "正文利用行列式为零给出定理证明的核心等式，并进一步使用伴随矩阵满足的行列式恒等式。"
+    },
+    {
+      "title": "如何牢记二次曲线的不变量？",
+      "url": "https://www.zhihu.com/answer/1927887505774065180",
+      "summary": "正文以 Q 和 M 的行列式定义二次曲线的类型与退化不变量。"
+    },
+    {
+      "title": "为什么要构造出范德蒙行列式？",
+      "url": "https://www.zhihu.com/answer/1929117604213134709",
+      "summary": "正文通过插值解的唯一性比较系数，推出范德蒙德行列式的递推式和完整乘积公式。"
+    },
+    {
+      "title": "怎么在一个晚上搞定线性代数？",
+      "url": "https://www.zhihu.com/answer/1943101968374530493",
+      "summary": "正文要求通过二维例子观察行列式与面积缩放比例之间的关系，解释了行列式的几何意义。"
+    },
+    {
+      "title": "复杂系统的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1945882749807341603",
+      "summary": "正文计算雅可比矩阵及其行列式，并用行列式判断映射可逆和面积收缩。"
+    },
+    {
+      "title": "有什么降维打击高中题目的例子？",
+      "url": "https://www.zhihu.com/answer/1946558096840294586",
+      "summary": "正文用 Cayley–Menger 行列式表示单纯形的高维体积，并取二维情形推导海伦公式。"
+    },
+    {
+      "title": "矩阵的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1946605824576300491",
+      "summary": "正文将行列式解释为线性变换造成的面积或体积伸缩率，并说明行列式为零对应空间降维。"
+    },
+    {
+      "title": "有什么在圆内均匀随机取一个点的方法吗？",
+      "url": "https://www.zhihu.com/answer/1947775524647731954",
+      "summary": "正文计算极坐标换元的 Jacobian 行列式，并用归纳法得到 n 维体积元的行列式公式。"
+    },
+    {
+      "title": "为什么椭圆和圆相差这么大?",
+      "url": "https://www.zhihu.com/answer/1949431172946986921",
+      "summary": "正文用 I2、I3 等行列式的符号和零性对二次曲线进行系统分类。"
+    },
+    {
+      "title": "线性代数究竟是为解决什么问题而生的?",
+      "url": "https://www.zhihu.com/answer/1953592857278514551",
+      "summary": "正文用面积和体积的放大、压扁解释行列式的几何意义，并联系可逆性。"
+    },
+    {
+      "title": "大学线性代数听不懂，有什么自学的方法（初学者）？",
+      "url": "https://www.zhihu.com/answer/1955622787315143831",
+      "summary": "正文用面积缩放解释行列式，并说明行列式为零时空间被压扁、变换不可逆。"
+    },
+    {
+      "title": "自学线性代数推荐什么教材？",
+      "url": "https://www.zhihu.com/answer/1956314679484847132",
+      "summary": "正文把行列式解释为面积或体积的缩放比例，并由行列式为零说明降维和不可逆。"
+    },
+    {
+      "title": "面积微分dxdy为什么是叉乘？",
+      "url": "https://www.zhihu.com/answer/1958192955027338969",
+      "summary": "正文通过矩阵及其转置乘积的行列式计算线性变换对面积的缩放系数，涉及雅可比行列式。"
+    },
+    {
+      "title": "外微分形式为什么要是反对称的？Cartan当年为什么要这样定义？",
+      "url": "https://www.zhihu.com/answer/1958574384257176356",
+      "summary": "正文用向量构成的行列式计算叉积，并借 det(AB)=det(A)det(B) 证明基底定向关系的传递性。"
+    },
+    {
+      "title": "对偶空间的引入是为了解决什么问题？",
+      "url": "https://www.zhihu.com/answer/1960515105918816714",
+      "summary": "正文用 Gram 矩阵的行列式表示平行多面体体积的平方，给出行列式的几何解释。"
+    },
+    {
+      "title": "如何直观地理解线性变换？",
+      "url": "https://www.zhihu.com/answer/1961181994990928897",
+      "summary": "正文用行列式的绝对值和正负分别解释面积或体积缩放比与空间定向，展开行列式意义。"
+    },
+    {
+      "title": "在数学的学习过程中，你见过最妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/1966976289459119098",
+      "summary": "正文显式构造系数矩阵的行列式 D，并证明该行列式算子恒为零。"
+    },
+    {
+      "title": "全纯函数会表现出不同于实可微函数的性质的根本原因是什么？",
+      "url": "https://www.zhihu.com/answer/1970384878777397283",
+      "summary": "正文实际计算Cauchy-Riemann条件下Jacobian行列式，说明其非负性如何阻止局部折叠并保证开性。"
+    },
+    {
+      "title": "关于欧拉角万向锁一直搞不明白万向锁为啥会形成？",
+      "url": "https://www.zhihu.com/answer/1970513655700369438",
+      "summary": "正文把行列式为零与雅可比矩阵秩下降、参数化奇异及独立自由度丢失直接联系起来。"
+    },
+    {
+      "title": "如何评价谷歌在2025年11月18日凌晨发布的gemini3.0pro模型？",
+      "url": "https://www.zhihu.com/answer/1974554669629061042",
+      "summary": "正文展开矩阵的主子式与行列式计算，用行列式和主子式的符号判定半正定性。"
+    },
+    {
+      "title": "一根 1m 长的玻璃棒，摔倒地上断成 3 段，最短一段的平均值是多少？",
+      "url": "https://www.zhihu.com/answer/1974996845127308941",
+      "summary": "正文通过差分矩阵的行列式上界及取等条件证明上述构造几乎唯一。"
+    },
+    {
+      "title": "为什么很多大学生都学不会高等数学？",
+      "url": "https://www.zhihu.com/answer/1978617928741037337",
+      "summary": "正文给出二阶逆矩阵公式，并用行列式作为逆矩阵的缩放因子。"
+    },
+    {
+      "title": "矩阵是线性代数的核心吗？我是否可以这样理解线性代数？",
+      "url": "https://www.zhihu.com/answer/1980328511689475452",
+      "summary": "正文用多重线性性和反对称性展开行列式，解释其作为有向体积比例因子的含义。"
+    },
+    {
+      "title": "为什么说“人们只会记住第一名”，理由依据是什么？",
+      "url": "https://www.zhihu.com/answer/1985385882379888237",
+      "summary": "正文介绍行列式定义的提出者以及行列式与矩阵概念的历史关系。"
+    },
+    {
+      "title": "如何理解矩阵特征值？",
+      "url": "https://www.zhihu.com/answer/1986857366755496017",
+      "summary": "正文解释行列式作为面积或体积缩放比例的几何意义，并据此推出可逆性与特征方程。"
+    },
+    {
+      "title": "如何看待网络博主声称牛顿就是李善兰、李善兰发明了微积分、《自然哲学的数学原理》产生于1902年之后？",
+      "url": "https://www.zhihu.com/answer/1990945418545213827",
+      "summary": "正文解释莱布尼茨与关孝和如何用行列式条件判定线性方程组有解，并联系系数矩阵与增广矩阵的秩。"
+    },
+    {
+      "title": "矩阵二次型的本质是什么?",
+      "url": "https://www.zhihu.com/answer/1999425176522204067",
+      "summary": "正文具体讨论前导主子式、全部主子式与实对称矩阵正定或半正定的判定关系。"
+    },
+    {
+      "title": "线性代数是很实用的学科，为什么国内的砖家能写出狗屁不通的线性代数教材？",
+      "url": "https://www.zhihu.com/answer/2002507168197416068",
+      "summary": "正文把行列式解释为面积或体积的缩放因子，并用降维说明行列式为零与不可逆的关系。"
+    },
+    {
+      "title": "高中几何中的“奔驰定理”是否和向量辛形式有联系？",
+      "url": "https://www.zhihu.com/answer/2003115686088704181",
+      "summary": "用二阶行列式定义二维辛形式，并把它解释为有向面积和向量叉积。"
+    },
+    {
+      "title": "学习数学时，什么时候该停止考虑“几何意义”?",
+      "url": "https://www.zhihu.com/answer/2011461338786992257",
+      "summary": "正文把行列式解释为空间变换造成的体积缩放，并说明行列式为零时的维度坍缩。"
+    },
+    {
+      "title": "你遇到过的最难的积分题目是什么？",
+      "url": "https://www.zhihu.com/answer/2014807363983532279",
+      "summary": "正文计算多项式根坐标变换的 Jacobi 行列式，并明确将其化为范德蒙行列式与判别式。"
+    },
+    {
+      "title": "线性代数究竟是为解决什么问题而生的?",
+      "url": "https://www.zhihu.com/answer/2016506193850426813",
+      "summary": "正文明确说明行列式用于判断体积缩放、矩阵可逆性和方向变化。"
+    },
+    {
+      "title": "线性代数究竟是为解决什么问题而生的?",
+      "url": "https://www.zhihu.com/answer/2016914765264462940",
+      "summary": "正文用体积缩放解释行列式，并说明行列式为零时空间被压扁、信息丢失且变换不可逆。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2030407309009084992",
+      "summary": "正文把行列式解释为带符号面积或体积，并由多重线性、交替性和归一化三条公理推出行列式公式。"
+    },
+    {
+      "title": "为什么在极坐标变换中dxdy等于rdrdθ？",
+      "url": "https://www.zhihu.com/answer/2036087759522240222",
+      "summary": "正文把坐标换元的面积因子写成雅可比行列式，并解释其有向面积意义。"
+    },
+    {
+      "title": "行列式的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2038239999410311964",
+      "summary": "正文从有向体积与线性变换出发，实质解释行列式及其乘法、可逆性等性质。"
+    },
+    {
+      "title": "角速度为什么是个矢量？",
+      "url": "https://www.zhihu.com/answer/2047306573060498447",
+      "summary": "正文用坐标变换矩阵的行列式正负号描述赝矢量与真矢量的差异，并展开行列式在张量变换中的作用。"
+    },
+    {
+      "title": "用平面去截曲面z^3=x^3+y^3，能否截出所有三次曲线？",
+      "url": "https://www.zhihu.com/answer/2047439743546348213",
+      "summary": "正文用矩阵的秩和行列式判定二次曲线是否光滑，并用 Hessian 行列式定位三次曲线的九个拐点。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062544960491099389",
+      "summary": "正文计算并讨论雅可比行列式恒为 -2，借此说明局部非零条件不能保证多项式映射整体可逆。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062553411367736705",
+      "summary": "正文定义雅可比行列式并以其非零常数条件陈述猜想，随后利用行列式和点碰撞验证反例。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062555470427060136",
+      "summary": "正文把雅可比行列式恒为 -2 作为映射的局部可逆条件，并据此分析反例及其计算证明。"
+    },
+    {
+      "title": "如何评价雅可比猜想被提出了一个看似并不十分复杂的反例？",
+      "url": "https://www.zhihu.com/answer/2062562321587820317",
+      "summary": "正文具体计算多项式映射的雅可比矩阵行列式，并验证其常数非零值。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062583805983166925",
+      "summary": "正文定义雅可比行列式，并解释它表示映射在一点的局部缩放比例。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062613987456463172",
+      "summary": "正文定义雅可比矩阵为偏导数矩阵，并用其行列式为非零常数来表述雅可比猜想及反例条件。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062689575080816969",
+      "summary": "正文用雅可比行列式非零解释局部可逆与全局可逆的差别，并联系反例成立所需的条件。"
+    },
+    {
+      "title": "如何评价雅可比猜想被提出了一个看似并不十分复杂的反例？",
+      "url": "https://www.zhihu.com/answer/2062826211135565879",
+      "summary": "正文以雅可比行列式恒等于非零常数作为反例满足猜想前提的核心条件。"
+    },
+    {
+      "title": "如何评价雅可比猜想被提出了一个看似并不十分复杂的反例？",
+      "url": "https://www.zhihu.com/answer/2062878910656812667",
+      "summary": "正文用三维映射的雅可比行列式恒等于负二来确认其满足 Keller 映射条件。"
+    },
+    {
+      "title": "邓煜、王虹两位青年数学家获得 2026 年菲尔兹奖，如何理解他们获奖的意义和价值？",
+      "url": "https://www.zhihu.com/answer/2063220627004191335",
+      "summary": "正文给出雅可比行列式由偏导数组成且为非零常数的条件，以此陈述雅可比猜想。"
+    },
+    {
+      "title": "矩阵的秩与行列式的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/19609459",
+      "summary": "正文以面积和体积解释行列式的几何意义，并说明交换行列导致的符号变化。"
+    },
+    {
+      "title": "当我们在学线代的时候，我们究竟在学什么？",
+      "url": "https://zhuanlan.zhihu.com/p/22121735",
+      "summary": "正文具体解释行列式作为体积变化系数和定向标志的几何意义，并列出多种等价定义。"
+    },
+    {
+      "title": "10373 高中立体几何向量法全攻略",
+      "url": "https://zhuanlan.zhihu.com/p/22503943",
+      "summary": "正文给出二阶与三阶行列式的计算及有向面积、平行六面体有向体积的几何意义。"
+    },
+    {
+      "title": "矩阵求导术（上）",
+      "url": "https://zhuanlan.zhihu.com/p/24709748",
+      "summary": "正文给出行列式的微分公式，并利用该公式计算对数行列式相关函数的导数。"
+    },
+    {
+      "title": "[十]椭圆的「压缩变换」",
+      "url": "https://zhuanlan.zhihu.com/p/25054251",
+      "summary": "正文用二阶行列式表示三角形面积，并据此证明压缩变换使面积按固定比例变化。"
+    },
+    {
+      "title": "[补充]向量的一些知识",
+      "url": "https://zhuanlan.zhihu.com/p/25156569",
+      "summary": "正文用二阶行列式定义并记忆向量叉乘坐标，进而计算三角形和三棱锥体积。"
+    },
+    {
+      "title": "神TM线性代数——再看《线性代数的本质》",
+      "url": "https://zhuanlan.zhihu.com/p/25309638",
+      "summary": "正文把行列式解释为线性变换后的测度，并说明行列式为零和负值分别对应降维与翻面。"
+    },
+    {
+      "title": "矩阵的秩的三种定义",
+      "url": "https://zhuanlan.zhihu.com/p/25589573",
+      "summary": "正文先用非零子式的最高阶数定义矩阵的秩，并联系方阵行列式判断满秩或降秩。"
+    },
+    {
+      "title": "三角形的面积公式八叙",
+      "url": "https://zhuanlan.zhihu.com/p/25793392",
+      "summary": "正文把坐标面积公式写成二阶、三阶行列式，并用行列式乘法和行列式性质推导由三条直线系数表示的面积。"
+    },
+    {
+      "title": "矩阵的特征：特征值，特征向量，行列式，trace",
+      "url": "https://zhuanlan.zhihu.com/p/25955676",
+      "summary": "正文把二维矩阵的行列式解释为基向量映成向量所张平行四边形的面积，并说明满秩、零行列式和体积推广的关系。"
+    },
+    {
+      "title": "四面体体积公式",
+      "url": "https://zhuanlan.zhihu.com/p/26140241",
+      "summary": "正文反复构造三阶、四阶和五阶行列式来表示四面体体积，并展开行列式得到棱长公式。"
+    },
+    {
+      "title": "分块矩阵行列式公式",
+      "url": "https://zhuanlan.zhihu.com/p/26285415",
+      "summary": "正文集中讲解分块矩阵行列式的展开公式及其可交换条件下的变形。"
+    },
+    {
+      "title": "【线性变换/矩阵及乘法】- 图解线性代数 03",
+      "url": "https://zhuanlan.zhihu.com/p/26591729",
+      "summary": "正文用二维面积和三维体积的变化倍率解释行列式，并讨论负值所对应的翻转。"
+    },
+    {
+      "title": "关于线性代数的一些杂记",
+      "url": "https://zhuanlan.zhihu.com/p/27059903",
+      "summary": "正文用本原单位根、特征值和有限群特征标计算循环矩阵及群矩阵的行列式。"
+    },
+    {
+      "title": "重积分换元公式与面积公式",
+      "url": "https://zhuanlan.zhihu.com/p/27494078",
+      "summary": "正文以 Jacobi 行列式的绝对值刻画微分映射前后的体积伸缩。"
+    },
+    {
+      "title": "量子力学中的路径积分",
+      "url": "https://zhuanlan.zhihu.com/p/28532278",
+      "summary": "正文通过行列展开和递推关系计算路径积分中的矩阵行列式。"
+    },
+    {
+      "title": "思考(1)矩阵的特征值、特征向量、代数重数、几何重数与相似对角化",
+      "url": "https://zhuanlan.zhihu.com/p/30658304",
+      "summary": "正文通过特征多项式 det(λI-A) 的根求特征值，并用其重数定义代数重数。"
+    },
+    {
+      "title": "行列式就是体积/面积？——（一）",
+      "url": "https://zhuanlan.zhihu.com/p/30443024",
+      "summary": "正文由一维和二维情形出发，用正交化和投影解释行列式绝对值所表示的面积及行列式的方向性。"
+    },
+    {
+      "title": "行列式介绍[MIT线代第十八九课]",
+      "url": "https://zhuanlan.zhihu.com/p/32007844",
+      "summary": "正文讲解行列式作为方阵数值特征、可逆性判据、性质以及代数余子式展开。"
+    },
+    {
+      "title": "将线性代数形象化（五） · 点积、叉乘与对偶性",
+      "url": "https://zhuanlan.zhihu.com/p/33413224",
+      "summary": "正文把叉乘大小解释为平行四边形面积，并用带符号面积、平行六面体体积和行列式推导叉乘公式。"
+    },
+    {
+      "title": "八大类型行列式及其解法",
+      "url": "https://zhuanlan.zhihu.com/p/34685081",
+      "summary": "正文逐类讲解箭型、范德蒙德型、三对角型等行列式的展开与化简算法。"
+    },
+    {
+      "title": "正交矩阵与正规矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/34897603",
+      "summary": "正文利用行列式乘法公式推导正交矩阵行列式只能为 1 或 -1。"
+    },
+    {
+      "title": "三矢量的混合积",
+      "url": "https://zhuanlan.zhihu.com/p/35395605",
+      "summary": "正文把三个向量的混合积展开为三阶行列式，并用行列式换行变号证明混合积的轮换性质。"
+    },
+    {
+      "title": "从零开始推导多元高斯分布",
+      "url": "https://zhuanlan.zhihu.com/p/36522776",
+      "summary": "正文计算协方差矩阵行列式，并将它用于多元高斯密度函数的归一化。"
+    },
+    {
+      "title": "机器学习的数学基础-（二、线性代数）",
+      "url": "https://zhuanlan.zhihu.com/p/36584206",
+      "summary": "正文系统整理行列式展开、乘积性质、范德蒙行列式及其与特征值的关系。"
+    },
+    {
+      "title": "线性代数（三）行列式的来历",
+      "url": "https://zhuanlan.zhihu.com/p/37111386",
+      "summary": "正文介绍二阶、三阶到 n 阶行列式的定义，并说明用全排列与逆序数统一表达。"
+    },
+    {
+      "title": "理解Jacobian和Hessian",
+      "url": "https://zhuanlan.zhihu.com/p/37306749",
+      "summary": "正文定义Jacobian行列式，并用单位正方形像的伸缩说明其几何意义。"
+    },
+    {
+      "title": "对称矩阵及正定性【MIT线代第二十六课】",
+      "url": "https://zhuanlan.zhihu.com/p/37362255",
+      "summary": "正文定义各阶子行列式，并把所有子行列式为正列为正定矩阵的判定条件。"
+    },
+    {
+      "title": "麻省理工线性代数笔记（十九）-特征值和特征向量",
+      "url": "https://zhuanlan.zhihu.com/p/37600888",
+      "summary": "正文以具体矩阵说明特征值之积等于矩阵行列式，并讨论该关系。"
+    },
+    {
+      "title": "麻省理工线性代数笔记（二十四）-正定矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/37854768",
+      "summary": "正文指出正定矩阵主元与行列式均为正，并将行列式作为判定条件之一。"
+    },
+    {
+      "title": "为什么矩阵特征值之和等于矩阵的迹",
+      "url": "https://zhuanlan.zhihu.com/p/39313619",
+      "summary": "正文用行列式按不同行不同列展开的定义定位特征多项式中 n-1 次项的系数。"
+    },
+    {
+      "title": "雅可比矩阵和雅可比行列式",
+      "url": "https://zhuanlan.zhihu.com/p/39762178",
+      "summary": "正文定义方阵情形的雅可比行列式，并具体解释它表示坐标变换前后面积微元的比率。"
+    },
+    {
+      "title": "1.2 外代数",
+      "url": "https://zhuanlan.zhihu.com/p/40321372",
+      "summary": "正文从多重线性与交错性定义行列式，并证明楔积作用在基向量上等于相应矩阵的行列式。"
+    },
+    {
+      "title": "细水长flow之NICE：流模型的基本概念与实现",
+      "url": "https://zhuanlan.zhihu.com/p/41912710",
+      "summary": "正文利用三角矩阵行列式等于对角元乘积的性质，使流模型雅可比行列式及对数似然易于计算。"
+    },
+    {
+      "title": "凸函数与凹函数",
+      "url": "https://zhuanlan.zhihu.com/p/41951590",
+      "summary": "正文把凸性不等式改写为三阶行列式，并用行列式解释三角形有向面积。"
+    },
+    {
+      "title": "多变量微积分-第十四讲-二重积分中的变量替换",
+      "url": "https://zhuanlan.zhihu.com/p/42254583",
+      "summary": "正文用变换矩阵的行列式绝对值解释面积元缩放，并推广为一般情形的雅可比行列式。"
+    },
+    {
+      "title": "用行列式的几何意义来理解行列式的十大性质",
+      "url": "https://zhuanlan.zhihu.com/p/42484037",
+      "summary": "正文以平行多面体的定向体积为核心解释行列式，并由此推导行列式的十条性质。"
+    },
+    {
+      "title": "22、正定矩阵、正定二次型、半负定",
+      "url": "https://zhuanlan.zhihu.com/p/42557392",
+      "summary": "正文用行列式的正负和零值判定正定、半正定矩阵，并给出二阶矩阵的实例。"
+    },
+    {
+      "title": "flow-based生成模型",
+      "url": "https://zhuanlan.zhihu.com/p/43157737",
+      "summary": "正文利用三角矩阵行列式的易算性构造可逆流模型。"
+    },
+    {
+      "title": "MIT—线性代数笔记18 行列式及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/45874742",
+      "summary": "正文系统讲解行列式的定义、基本性质和计算方法。"
+    },
+    {
+      "title": "MIT—线性代数笔记19 行列式公式和代数余子式",
+      "url": "https://zhuanlan.zhihu.com/p/45879034",
+      "summary": "正文从行列式性质推出一般展开公式并讲解代数余子式。"
+    },
+    {
+      "title": "MIT—线性代数笔记20 克莱姆法则、逆矩阵、体积",
+      "url": "https://zhuanlan.zhihu.com/p/45889796",
+      "summary": "正文把行列式解释为平行六面体体积并用于面积证明。"
+    },
+    {
+      "title": "线性代数学习总结（上）",
+      "url": "https://zhuanlan.zhihu.com/p/46061802",
+      "summary": "正文用行列式是否为零判断矩阵可逆性及方程组解的结构。"
+    },
+    {
+      "title": "Cayley-Hamilton 定理",
+      "url": "https://zhuanlan.zhihu.com/p/49119054",
+      "summary": "正文用外代数定义线性变换的行列式，并说明其与矩阵行列式一致。"
+    },
+    {
+      "title": "矩阵求导的理解（重要！）",
+      "url": "https://zhuanlan.zhihu.com/p/50319086",
+      "summary": "正文给出行列式的矩阵微分公式，并据此推导可逆矩阵的行列式及对数行列式导数。"
+    },
+    {
+      "title": "矩阵的相关概念及公式汇总",
+      "url": "https://zhuanlan.zhihu.com/p/50431187",
+      "summary": "正文由方阵定义行列式，并以代数余子式和伴随矩阵说明行列式与可逆性的关系。"
+    },
+    {
+      "title": "高等代数|复习提纲（1）——矩阵与方程组",
+      "url": "https://zhuanlan.zhihu.com/p/50362479",
+      "summary": "正文用按行列展开、代数余子式、拉普拉斯定理和初等变换讲解行列式计算方法与性质。"
+    },
+    {
+      "title": "线性代数之——行列式及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/50912180",
+      "summary": "正文由基本性质推导行列式在交换、线性、消元、三角矩阵与乘积下的运算法则。"
+    },
+    {
+      "title": "线性代数之——特征值和特征向量",
+      "url": "https://zhuanlan.zhihu.com/p/51011531",
+      "summary": "正文利用行列式为零刻画奇异矩阵，并据此建立特征方程求特征值。"
+    },
+    {
+      "title": "快速求解法向量的第三种方法——借零构造法",
+      "url": "https://zhuanlan.zhihu.com/p/52064996",
+      "summary": "正文介绍二阶、三阶行列式及代数余子式展开，并用行列式法计算平面法向量。"
+    },
+    {
+      "title": "干货 | 万字长文带你复习线性代数！",
+      "url": "https://zhuanlan.zhihu.com/p/52013163",
+      "summary": "正文解释行列式的几何含义、性质、代数余子式计算以及行列式与可逆性的关系。"
+    },
+    {
+      "title": "偏微分方程的特性及三种分类",
+      "url": "https://zhuanlan.zhihu.com/p/52849477",
+      "summary": "正文以系数矩阵行列式区分椭圆型、抛物型和双曲型偏微分方程。"
+    },
+    {
+      "title": "GCD矩阵知多少",
+      "url": "https://zhuanlan.zhihu.com/p/53447466",
+      "summary": "正文研究 GCD 矩阵的 Smith 行列式，说明可用初等行变换或矩阵分解证明其等于欧拉函数值之积。"
+    },
+    {
+      "title": "拟阵及应用（二）",
+      "url": "https://zhuanlan.zhihu.com/p/54072907",
+      "summary": "正文以范德蒙德矩阵的非零行列式证明均匀拟阵的独立集性质。"
+    },
+    {
+      "title": "微分几何随记（六）浅谈外微分形式",
+      "url": "https://zhuanlan.zhihu.com/p/56178297",
+      "summary": "正文用二阶和三阶行列式计算平行四边形面积与平行六面体体积，并说明高维推广。"
+    },
+    {
+      "title": "时间反演对称（TRS）保护下拓扑绝缘体（二）：如何理解“破坏”&“保护”",
+      "url": "https://zhuanlan.zhihu.com/p/56402783",
+      "summary": "正文利用反射矩阵的反对称性及其行列式性质，证明奇数维反射矩阵必然奇异。"
+    },
+    {
+      "title": "数学竞赛题的一些线性代数思想",
+      "url": "https://zhuanlan.zhihu.com/p/56916181",
+      "summary": "正文陈述Vandermonde行列式并按列展开目标行列式，利用行列式符号导出数论与组合结论。"
+    },
+    {
+      "title": "张量分析笔记（一）",
+      "url": "https://zhuanlan.zhihu.com/p/56850779",
+      "summary": "正文计算三阶度量行列式，并利用行列式证明协变与逆变度量矩阵互为逆矩阵。"
+    },
+    {
+      "title": "克拉默法则",
+      "url": "https://zhuanlan.zhihu.com/p/57944485",
+      "summary": "正文给出系数行列式及替换列所得行列式的计算，并用行列式性质完成克拉默法则证明。"
+    },
+    {
+      "title": "Normalization Flow (标准化流) 总结",
+      "url": "https://zhuanlan.zhihu.com/p/59615785",
+      "summary": "正文用线性变换后面积的伸缩说明矩阵行列式及其体积变化含义。"
+    },
+    {
+      "title": "线性代数第一章 行列式 思维导图",
+      "url": "https://zhuanlan.zhihu.com/p/60124266",
+      "summary": "正文明确说明行列式是一种算式，其主要目标是计算行列式的值，并强调借助性质简化计算，对应行列式分支。"
+    },
+    {
+      "title": "解析几何（一）【叉乘为啥这样定义】",
+      "url": "https://zhuanlan.zhihu.com/p/60356761",
+      "summary": "正文利用行列式表示平行六面体的有向体积，并据此说明混合积。"
+    },
+    {
+      "title": "可逆ResNet：极致的暴力美学",
+      "url": "https://zhuanlan.zhihu.com/p/60479586",
+      "summary": "正文将流模型似然中的雅可比行列式计算归结为矩阵行列式与迹。"
+    },
+    {
+      "title": "多元高斯分布概率密度推导",
+      "url": "https://zhuanlan.zhihu.com/p/62606437",
+      "summary": "正文利用对角协方差矩阵的行列式计算高斯密度的归一化因子。"
+    },
+    {
+      "title": "张量分析笔记（五）",
+      "url": "https://zhuanlan.zhihu.com/p/61908838",
+      "summary": "正文用置换符号和 Lagrange 展开表示行列式，并说明交换两列会改变符号。"
+    },
+    {
+      "title": "【数学】宇哥线代九讲笔记",
+      "url": "https://zhuanlan.zhihu.com/p/63624783",
+      "summary": "正文从逆序数、余子式展开和七条性质系统讲解行列式，并用对角线、拉普拉斯和范德蒙德行列式举例计算。"
+    },
+    {
+      "title": "重心坐标系",
+      "url": "https://zhuanlan.zhihu.com/p/63951993",
+      "summary": "正文反复用行列式为零判定点共线、直线共点或平行，并联立行列式计算完成几何证题。"
+    },
+    {
+      "title": "算法｜图论 2W字知识点整理（超全面）",
+      "url": "https://zhuanlan.zhihu.com/p/64836188",
+      "summary": "正文陈述矩阵树定理，说明基尔霍夫矩阵删去一行一列后的行列式给出生成树数量。"
+    },
+    {
+      "title": "爱因斯坦求和约定",
+      "url": "https://zhuanlan.zhihu.com/p/46006162",
+      "summary": "正文用 Levi-Civita 符号和 Kronecker delta 给出三阶行列式的指标表达式，并计算置换符号。"
+    },
+    {
+      "title": "二重积分换元法、雅可比行列式",
+      "url": "https://zhuanlan.zhihu.com/p/65953562",
+      "summary": "正文说明雅可比矩阵的行列式如何成为二重积分换元时的面积伸缩因子。"
+    },
+    {
+      "title": "幂零矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/68859453",
+      "summary": "正文把幂零性等价刻画为特征行列式恒等于 λ^n，并据此证明行列式相关问题。"
+    },
+    {
+      "title": "已知任意一个四面体的六条棱长，如何求出其体积？",
+      "url": "https://zhuanlan.zhihu.com/p/69047293",
+      "summary": "正文把混合积写成三阶行列式，并说明该行列式对应向量张成的平行六面体体积。"
+    },
+    {
+      "title": "机械振动理论(2)-多自由度系统",
+      "url": "https://zhuanlan.zhihu.com/p/69232370",
+      "summary": "正文用动刚度矩阵的行列式定义系统特征方程，并由其根确定系统极点。"
+    },
+    {
+      "title": "实对称矩阵A正定的充要条件",
+      "url": "https://zhuanlan.zhihu.com/p/69351875",
+      "summary": "正文把所有顺序主子式为正列为正定矩阵的等价条件，并利用顺序主子矩阵的行列式推进证明。"
+    },
+    {
+      "title": "热力学与统计物理知识大纲-PT. 1",
+      "url": "https://zhuanlan.zhihu.com/p/69562371",
+      "summary": "正文详细定义雅可比行列式，并用行列式性质证明变量替换和互逆关系。"
+    },
+    {
+      "title": "多自由度小振动系统初步(1)-绪论",
+      "url": "https://zhuanlan.zhihu.com/p/71855288",
+      "summary": "正文利用非零本征向量对应行列式为零的条件，展开三阶行列式并据此求简正频率。"
+    },
+    {
+      "title": "行列式的计算方法专题小结",
+      "url": "https://zhuanlan.zhihu.com/p/73811610",
+      "summary": "正文用按行列展开、加行列、拆分、参数法等多种技巧完整计算了多类行列式。"
+    },
+    {
+      "title": "线性代数(3.1) -- 行列式 (隐藏在\"大公式\"背后的真相)",
+      "url": "https://zhuanlan.zhihu.com/p/74499640",
+      "summary": "正文系统解释行列式的判别作用、几何面积意义、展开公式和七条性质。"
+    },
+    {
+      "title": "矩阵论记号约定",
+      "url": "https://zhuanlan.zhihu.com/p/75236945",
+      "summary": "正文给出行列式定义，并进一步介绍子式、代数余子式和复合矩阵的行列式。"
+    },
+    {
+      "title": "行列式的定义究竟是怎么来的？",
+      "url": "https://zhuanlan.zhihu.com/p/76526424",
+      "summary": "正文解释了行列式定义如何从判断线性方程组解的需要中自然产生。"
+    },
+    {
+      "title": "线性代数总结 第一章 行列式",
+      "url": "https://zhuanlan.zhihu.com/p/56619566",
+      "summary": "正文定义 n 阶行列式，并系统讲述逆序数、性质和按行列展开等计算规则。"
+    },
+    {
+      "title": "高代随记（一）从判别式与结式到椭圆函数j不变量",
+      "url": "https://zhuanlan.zhihu.com/p/77119428",
+      "summary": "正文把两个多项式的系数矩阵行列式定义结式，并用行列式表示判别式。"
+    },
+    {
+      "title": "Schur补与矩阵打洞，SMW求逆公式，分块矩阵与行列式(不)等式",
+      "url": "https://zhuanlan.zhihu.com/p/78884647",
+      "summary": "正文证明分块半正定矩阵的 Fischer 行列式不等式，并讨论 Schur 补与行列式恒等式。"
+    },
+    {
+      "title": "矩阵分析(一)：空间变换与基变换",
+      "url": "https://zhuanlan.zhihu.com/p/69069042",
+      "summary": "正文用面积、方向翻转和零行列式解释行列式的几何意义及其与满秩的关系。"
+    },
+    {
+      "title": "线性代数总结 第四章 线性方程组",
+      "url": "https://zhuanlan.zhihu.com/p/56821179",
+      "summary": "正文利用行列式是否为零判定方阵对应的齐次线性方程组是否存在非零解。"
+    },
+    {
+      "title": "机械振动理论(3)-解析实模态分析",
+      "url": "https://zhuanlan.zhihu.com/p/82211194",
+      "summary": "正文借助系数行列式为零的条件建立特征方程并展开求解。"
+    },
+    {
+      "title": "考研线性代数公式整理(不断更新中)",
+      "url": "https://zhuanlan.zhihu.com/p/80690520",
+      "summary": "正文讲解行列式转置、范德蒙行列式和分块行列式，并给出相应计算例题。"
+    },
+    {
+      "title": "SymPy符号计算-让Python帮我们推公式",
+      "url": "https://zhuanlan.zhihu.com/p/83822118",
+      "summary": "正文对含符号参数的矩阵调用行列式计算并得到相应符号结果。"
+    },
+    {
+      "title": "为什么行列式为零，向量组就线性相关",
+      "url": "https://zhuanlan.zhihu.com/p/84778855",
+      "summary": "正文从面积和体积缩放解释行列式的意义，并说明行列式为零的几何后果。"
+    },
+    {
+      "title": "微分方程(3)-线性微分方程解的结构",
+      "url": "https://zhuanlan.zhihu.com/p/85230665",
+      "summary": "正文定义 Wronskian 行列式，并用系数行列式与齐次线性方程组的关系判断解组线性相关性。"
+    },
+    {
+      "title": "[学习笔记]共轭转置矩阵与伴随矩阵都用A*表示合理吗？",
+      "url": "https://zhuanlan.zhihu.com/p/87330558",
+      "summary": "正文利用伴随矩阵与逆矩阵的关系取行列式，推出两者相等的条件并讨论正交矩阵情形。"
+    },
+    {
+      "title": "多维随机变量函数的分布",
+      "url": "https://zhuanlan.zhihu.com/p/91778595",
+      "summary": "正文以雅可比行列式及其绝对值完成随机变量变量变换公式的推导。"
+    },
+    {
+      "title": "1908.03795的白话翻译",
+      "url": "https://zhuanlan.zhihu.com/p/91988629",
+      "summary": "正文用代数余子式和行列式表示矩阵逆，并通过约去奇异因子完成公式推导。"
+    },
+    {
+      "title": "【圆锥曲线】二次曲线方程与形状的关系",
+      "url": "https://zhuanlan.zhihu.com/p/91649187",
+      "summary": "正文用二次项系数矩阵的行列式 AC-B² 的符号判定椭圆、抛物线与双曲线。"
+    },
+    {
+      "title": "线性代数之——正定矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/93392382",
+      "summary": "正文用行列式与左上行列式判别正定和半正定矩阵，并联系特征值乘积。"
+    },
+    {
+      "title": "线代主要知识点",
+      "url": "https://zhuanlan.zhihu.com/p/94538301",
+      "summary": "正文系统列出行列式定义、性质、代数余子式和克拉默法则。"
+    },
+    {
+      "title": "特征值和特征向量",
+      "url": "https://zhuanlan.zhihu.com/p/95836870",
+      "summary": "正文给出矩阵行列式等于其特征值乘积的关系，用于联系矩阵不变量与特征值。"
+    },
+    {
+      "title": "图形学中的基本变换(Basic Transforms)",
+      "url": "https://zhuanlan.zhihu.com/p/96717729",
+      "summary": "正文用行列式判断镜像矩阵，并解释错切矩阵行列式为1对应体积不变。"
+    },
+    {
+      "title": "伴随矩阵及用法",
+      "url": "https://zhuanlan.zhihu.com/p/99203786",
+      "summary": "正文把矩阵可逆、非奇异和行列式非零联系起来，并以行列式判定矩阵是否可逆。"
+    },
+    {
+      "title": "线性代数精华——讲透矩阵的初等变换与矩阵的秩",
+      "url": "https://zhuanlan.zhihu.com/p/101361582",
+      "summary": "正文通过初等变换后的零行和行列式性质，说明秩小于阶数时行列式为零。"
+    },
+    {
+      "title": "看到椭圆就仿射？浅谈仿射变换的正确使用方式",
+      "url": "https://zhuanlan.zhihu.com/p/103913880",
+      "summary": "正文用变换矩阵的行列式解释仿射变换前后面积的缩放比例。"
+    },
+    {
+      "title": "原来线性代数--行列式可以这样理解",
+      "url": "https://zhuanlan.zhihu.com/p/104030758",
+      "summary": "正文从二阶、三阶行列式的定义和对角线展开讲到 n 阶行列式展开项。"
+    },
+    {
+      "title": "线性代数精华——矩阵的特征值与特征向量",
+      "url": "https://zhuanlan.zhihu.com/p/104980382",
+      "summary": "正文通过特征行列式为零建立特征方程，并用特征值乘积等于行列式作总结。"
+    },
+    {
+      "title": "圆锥曲线第十节：二次点列与二次对合",
+      "url": "https://zhuanlan.zhihu.com/p/105200550",
+      "summary": "正文利用混合积的行列式表达和行列式乘法定理化简交比并消去辅助点。"
+    },
+    {
+      "title": "『恋数』椭圆与不等式的那些事儿",
+      "url": "https://zhuanlan.zhihu.com/p/105224480",
+      "summary": "正文说明用二阶行列式建立特征方程，并通过行列式求出二次型的特征值。"
+    },
+    {
+      "title": "不作标题党，想学“线性代数”的再点！！线性代数之--“逆矩阵”",
+      "url": "https://zhuanlan.zhihu.com/p/106099842",
+      "summary": "正文讲解方阵行列式的意义、性质和代数余子式，并用行列式展开推导伴随矩阵相关结论。"
+    },
+    {
+      "title": "特征值和特征向量Eigenvalue & Eigenvector",
+      "url": "https://zhuanlan.zhihu.com/p/107118598",
+      "summary": "正文利用行列式为零建立特征方程，并以二阶矩阵为例求出特征值。"
+    },
+    {
+      "title": "矩阵树定理（Matrix-tree Theorem）笔记",
+      "url": "https://zhuanlan.zhihu.com/p/108209378",
+      "summary": "正文用 Binet-Cauchy 公式展开拉普拉斯主子式，并依据行列式是否为正负一证明生成树计数等于该行列式。"
+    },
+    {
+      "title": "【国际数学竞赛】任意多边形面积计算公式",
+      "url": "https://zhuanlan.zhihu.com/p/110025234",
+      "summary": "正文将三维向量叉乘写成行列式形式，并用于证明鞋带公式。"
+    },
+    {
+      "title": "对于向量和矩阵的理解",
+      "url": "https://zhuanlan.zhihu.com/p/111337479",
+      "summary": "正文把行列式解释为面积或体积缩放比例，并讨论符号、零值与乘法性质。"
+    },
+    {
+      "title": "坐标变换(4)—旋转矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/113975973",
+      "summary": "正文利用三列向量的混合积推导旋转矩阵行列式等于 1，并据此说明其保持右手性。"
+    },
+    {
+      "title": "线性代数的本质(10)-特征值与特征向量",
+      "url": "https://zhuanlan.zhihu.com/p/114392447",
+      "summary": "正文把特征值方程转化为行列式等于零，并解释行列式为零对应线性变换将空间压缩到更低维。"
+    },
+    {
+      "title": "矩阵的几种分解方式 - 加强版",
+      "url": "https://zhuanlan.zhihu.com/p/115381559",
+      "summary": "正文由正交矩阵定义推导其行列式只能是正负一，并用行列式区分旋转与瑕旋转。"
+    },
+    {
+      "title": "导数、梯度、 Jacobian、Hessian",
+      "url": "https://zhuanlan.zhihu.com/p/117657125",
+      "summary": "正文解释雅可比行列式是微小形状改变的比值，并给出矩阵行列式的概念。"
+    },
+    {
+      "title": "正交矩阵学习小结",
+      "url": "https://zhuanlan.zhihu.com/p/120170892",
+      "summary": "正文把行列式等于正负一列为正交矩阵的判定性质，并联系旋转矩阵与特征值乘积讨论。"
+    },
+    {
+      "title": "对雅可比矩阵的理解",
+      "url": "https://zhuanlan.zhihu.com/p/123934469",
+      "summary": "正文通过线性变换后平行四边形的面积说明行列式是面积缩放因子。"
+    },
+    {
+      "title": "问题引导的代数学: 行列式的多样性",
+      "url": "https://zhuanlan.zhihu.com/p/126678527",
+      "summary": "正文从线性方程组、完全展开、多重线性函数、外积和体积等多个角度实质讲解行列式及其性质。"
+    },
+    {
+      "title": "n维空间中的球面坐标变换",
+      "url": "https://zhuanlan.zhihu.com/p/128580414",
+      "summary": "正文显式构造 Jacobian 行列式并化简为径向因子与各角向正弦因子之积。"
+    },
+    {
+      "title": "【2.3】正式谈谈矩阵的乘法和矩阵的逆",
+      "url": "https://zhuanlan.zhihu.com/p/126548944",
+      "summary": "正文给出二阶矩阵行列式公式，并用其非零性作为矩阵可逆的充要条件。"
+    },
+    {
+      "title": "FP鬼场和BRST对称性",
+      "url": "https://zhuanlan.zhihu.com/p/132096572",
+      "summary": "正文用规范固定雅可比矩阵的行列式修正路径积分，并把它改写成费米子高斯积分。"
+    },
+    {
+      "title": "矩阵分析与应用（一，矩阵基础知识）",
+      "url": "https://zhuanlan.zhihu.com/p/132681782",
+      "summary": "正文说明方阵行列式与奇异性、特征值乘积的关系，并将其列为矩阵性能指标。"
+    },
+    {
+      "title": "连续介质力学基础：雷诺输运方程",
+      "url": "https://zhuanlan.zhihu.com/p/135314110",
+      "summary": "正文用行列式性质计算雅可比行列式的时间导数，得到其导数等于行列式乘以速度散度。"
+    },
+    {
+      "title": "基础篇1: CFD中的矢量",
+      "url": "https://zhuanlan.zhihu.com/p/112585207",
+      "summary": "正文用三阶行列式计算矢量叉乘，并通过混合积的行列式形式表示平行六面体体积。"
+    },
+    {
+      "title": "直观理解！你一定要读一下的“矩阵和线性代数入门”",
+      "url": "https://zhuanlan.zhihu.com/p/137112358",
+      "summary": "正文用平行四边形或平行六面体的面积、体积解释行列式，并据此判断矩阵可逆性。"
+    },
+    {
+      "title": "线性代数复习笔记(1)",
+      "url": "https://zhuanlan.zhihu.com/p/138282175",
+      "summary": "正文给出行列式的函数定义、计算性质和几何意义。"
+    },
+    {
+      "title": "结构方程模型(Structural Equation Model, SEM)",
+      "url": "https://zhuanlan.zhihu.com/p/138837728",
+      "summary": "正文解释方阵行列式的可逆性意义，并说明行列式为零会导致SEM计算失败。"
+    },
+    {
+      "title": "代数基础 | Kronecker积",
+      "url": "https://zhuanlan.zhihu.com/p/139335389",
+      "summary": "正文专门讨论 Kronecker 积的行列式恒等式，并用二阶与三阶矩阵的例子验证。"
+    },
+    {
+      "title": "矩阵求导的Trace Trick",
+      "url": "https://zhuanlan.zhihu.com/p/141652188",
+      "summary": "正文给出矩阵行列式微分的迹公式，并说明其中X#为伴随矩阵。"
+    },
+    {
+      "title": "极坐标与直角坐标二重积分转换",
+      "url": "https://zhuanlan.zhihu.com/p/142220637",
+      "summary": "正文用雅可比行列式表示面积微元的伸缩比，并将其用于极坐标二重积分。"
+    },
+    {
+      "title": "正交矩阵之旋转矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/143056551",
+      "summary": "正文通过二阶和三阶正交矩阵的列向量位置及混合积，解释行列式正负与坐标基定向的关系。"
+    },
+    {
+      "title": "Flow三部曲: NICE, Real NVP, Glow",
+      "url": "https://zhuanlan.zhihu.com/p/142567194",
+      "summary": "正文把二维线性变换的面积缩放因子 ad-bc 解释为雅可比矩阵行列式，并推广到多维密度变换。"
+    },
+    {
+      "title": "行列式微分形式的推导",
+      "url": "https://zhuanlan.zhihu.com/p/144255438",
+      "summary": "正文从代数余子式和行列式展开出发，完整推导矩阵行列式的迹形式微分公式。"
+    },
+    {
+      "title": "计算机图形学补充1：重心坐标(barycentric coordinates)详解及其作用",
+      "url": "https://zhuanlan.zhihu.com/p/144360079",
+      "summary": "正文利用二阶行列式的绝对值表示向量所围面积，并进一步计算重心坐标。"
+    },
+    {
+      "title": "线性代数总结（1）",
+      "url": "https://zhuanlan.zhihu.com/p/141528726",
+      "summary": "正文系统介绍排列、行列式展开、余子式、拉普拉斯定理和范德蒙行列式。"
+    },
+    {
+      "title": "伴随矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/149035761",
+      "summary": "正文通过代数余子式定义伴随矩阵，并重点推导伴随矩阵和原矩阵的行列式关系。"
+    },
+    {
+      "title": "浅谈λ—矩阵与矩阵的若尔当标准形",
+      "url": "https://zhuanlan.zhihu.com/p/150194821",
+      "summary": "正文利用λ矩阵的行列式和各级子式定义秩、行列式因子及不变因子。"
+    },
+    {
+      "title": "关于线性代数三阶行列式运算法则的推导（二）",
+      "url": "https://zhuanlan.zhihu.com/p/150581803",
+      "summary": "正文在消元推导中具体展开三项乘积及其符号组合，并最终得到三阶行列式分母形式。"
+    },
+    {
+      "title": "“绝境之下”，如何求解矩阵的特征值？",
+      "url": "https://zhuanlan.zhihu.com/p/151003013",
+      "summary": "正文用特征多项式的行列式形式展开计算三阶矩阵的特征值，实质使用了行列式计算。"
+    },
+    {
+      "title": "关于二阶线性递推数列的一些新玩意",
+      "url": "https://zhuanlan.zhihu.com/p/154539444",
+      "summary": "正文把递推数列关系写成行列式，并通过行列式消元推导通项和数列间恒等式。"
+    },
+    {
+      "title": "复数的实矩阵表示",
+      "url": "https://zhuanlan.zhihu.com/p/160270375",
+      "summary": "正文计算复数对应矩阵的行列式，并由非零行列式讨论矩阵可逆性。"
+    },
+    {
+      "title": "2020年考研数学一 (20)",
+      "url": "https://zhuanlan.zhihu.com/p/161228498",
+      "summary": "正文利用正交合同保持行列式和迹的性质建立方程组，由此确定二次型矩阵的参数。"
+    },
+    {
+      "title": "范德蒙行列式",
+      "url": "https://zhuanlan.zhihu.com/p/161300510",
+      "summary": "正文给出范德蒙行列式的结构、计算公式，并通过逐行相减和提取公因式证明其值。"
+    },
+    {
+      "title": "Lattice学习笔记01：格的简介",
+      "url": "https://zhuanlan.zhihu.com/p/161411204",
+      "summary": "正文把格的行列式解释为基向量平行多面体的体积，并说明更换基时该行列式不变。"
+    },
+    {
+      "title": "一个利用矩阵打洞技巧的题目（抛砖引玉）",
+      "url": "https://zhuanlan.zhihu.com/p/161630040",
+      "summary": "正文通过分块初等变换和行列式乘性计算矩阵打洞后的行列式，从而证明辛矩阵行列式为 1。"
+    },
+    {
+      "title": "考研线性代数 解题方法汇总（非知识点汇总）",
+      "url": "https://zhuanlan.zhihu.com/p/161687318",
+      "summary": "正文分门别类讲解行列式的消零、展开、加边、归纳、递推和抽象行列式计算。"
+    },
+    {
+      "title": "Stokes定理八讲——第1讲 微分外乘积(楔积)的反交换律",
+      "url": "https://zhuanlan.zhihu.com/p/165510139",
+      "summary": "正文用 Jacobi 行列式在行置换下的符号变化证明微分外积的反交换律，实质展开的是行列式性质。"
+    },
+    {
+      "title": "Normalizing Flow(上篇)",
+      "url": "https://zhuanlan.zhihu.com/p/165577850",
+      "summary": "正文把行列式解释为空间体积缩放倍数，并以 Jacobi 行列式连接坐标变换与概率密度变换。"
+    },
+    {
+      "title": "两个多项式的结式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/165459547",
+      "summary": "正文用 Sylvester 行列式定义多项式结式，并以行列式为零判别公共因式。"
+    },
+    {
+      "title": "高代→打洞原理整理01",
+      "url": "https://zhuanlan.zhihu.com/p/166156751",
+      "summary": "正文通过左乘、右乘分块消去证明分块行列式化为三角块形式，并用于行列式乘积公式。"
+    },
+    {
+      "title": "数学手册1-Levi-Civita符号",
+      "url": "https://zhuanlan.zhihu.com/p/166633095",
+      "summary": "正文用三阶行列式表示两个Levi-Civita符号的乘积，并分情况给出行列式恒等式证明。"
+    },
+    {
+      "title": "高等数学七：重积分的计算及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/169945412",
+      "summary": "正文给出二重、三重积分换元中的雅可比行列式并计算常见坐标变换的行列式。"
+    },
+    {
+      "title": "微积分II 多重积分换元法15.8 (23)",
+      "url": "https://zhuanlan.zhihu.com/p/171701301",
+      "summary": "正文用二阶、三阶雅可比行列式表示面积元和体积元的伸缩因子，并代入换元公式。"
+    },
+    {
+      "title": "【线代笔记】行列式的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/183758221",
+      "summary": "正文从一阶到 n 阶讲解行列式，并用有向面积、有向体积和乘积项解释其几何意义。"
+    },
+    {
+      "title": "考研数学的奇技淫巧——常微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/204919576",
+      "summary": "正文用由解函数及其各阶导数组成的朗斯基行列式实施常数变易法。"
+    },
+    {
+      "title": "关于极坐标",
+      "url": "https://zhuanlan.zhihu.com/p/203377553",
+      "summary": "正文计算极坐标和球坐标变换的 Jacobi 行列式，并用其确定面积与体积微元。"
+    },
+    {
+      "title": "高等代数导引——给新生",
+      "url": "https://zhuanlan.zhihu.com/p/219998193",
+      "summary": "正文从二、三元线性方程组的解表达式归纳行列式与 Cramer 法则，并联系可逆矩阵的判定。"
+    },
+    {
+      "title": "克莱姆法则及行列式的几何解释",
+      "url": "https://zhuanlan.zhihu.com/p/245312128",
+      "summary": "正文用平行四边形面积或平行六面体体积解释行列式，并据此说明行列式的性质。"
+    },
+    {
+      "title": "线代公式知识点整理",
+      "url": "https://zhuanlan.zhihu.com/p/260444940",
+      "summary": "正文列出分块矩阵行列式的计算公式，并整理行列式与逆矩阵的相关结论。"
+    },
+    {
+      "title": "杂谈：椭圆面积的四次推导",
+      "url": "https://zhuanlan.zhihu.com/p/261069422",
+      "summary": "正文利用线性变换的行列式绝对值给出面积缩放关系，并据此求椭圆面积。"
+    },
+    {
+      "title": "3D图形学线代基础",
+      "url": "https://zhuanlan.zhihu.com/p/265976702",
+      "summary": "正文把行列式解释为基向量变换后形成的带符号面积或体积，并说明二维和一般方阵的计算。"
+    },
+    {
+      "title": "[高代习题课拓展] 反对称阵的Pfaffian",
+      "url": "https://zhuanlan.zhihu.com/p/269149418",
+      "summary": "正文结合反对称阵的 Pfaffian 与行列式变换，解释辛矩阵行列式恒为 1。"
+    },
+    {
+      "title": "𝑬𝒊𝒏𝒔𝒕𝒆𝒊𝒏 𝑭𝒊𝒆𝒍𝒅 𝑬𝒒𝒖𝒂𝒕𝒊𝒐𝒏'𝒔 𝑫𝒆𝒓𝒊𝒗𝒂𝒕𝒊𝒐𝒏",
+      "url": "https://zhuanlan.zhihu.com/p/270935069",
+      "summary": "正文利用行列式与代数余子式的关系推导度规行列式的变分公式。"
+    },
+    {
+      "title": "QM - 路径积分 (Path Integral) PT. 2 - 求解实例",
+      "url": "https://zhuanlan.zhihu.com/p/270684456",
+      "summary": "正文用行列式计算特征多项式在零点的值，从而得到全部特征值之积。"
+    },
+    {
+      "title": "深刻地认识特征值",
+      "url": "https://zhuanlan.zhihu.com/p/290788390",
+      "summary": "正文用特征行列式定义特征多项式，并在幂等矩阵例子中计算相关行列式。"
+    },
+    {
+      "title": "矩阵求导公式的数学推导（矩阵求导——进阶篇）",
+      "url": "https://zhuanlan.zhihu.com/p/288541909",
+      "summary": "正文用行列式按行展开和伴随矩阵推导行列式的矩阵微分公式。"
+    },
+    {
+      "title": "矩阵乘积的行列式等于行列式的乘积 |AB|=|A||B|",
+      "url": "https://zhuanlan.zhihu.com/p/297827171",
+      "summary": "正文利用分块三角矩阵的行列式性质，完整证明矩阵乘积的行列式等于两个行列式之积。"
+    },
+    {
+      "title": "对称矩阵的求导，以多元正态分布的极大似然估计为例（矩阵求导——补充篇）",
+      "url": "https://zhuanlan.zhihu.com/p/305171795",
+      "summary": "正文专门推导对称矩阵行列式及其对数对矩阵的微分与导数公式。"
+    },
+    {
+      "title": "线代笔记——矩阵的特征值与特征向量",
+      "url": "https://zhuanlan.zhihu.com/p/307881886",
+      "summary": "正文用特征矩阵的行列式构造特征多项式，并以行列式为零求全部特征值。"
+    },
+    {
+      "title": "一文解释 矩阵特征分解",
+      "url": "https://zhuanlan.zhihu.com/p/314464267",
+      "summary": "正文利用 (λI-A)v=0 有非零解时行列式为零，建立特征方程求特征值。"
+    },
+    {
+      "title": "隐函数定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/291415147",
+      "summary": "正文利用行列式按行拆分与展开、代数余子式及连续性，证明雅可比矩阵的行列式在邻域内非零。"
+    },
+    {
+      "title": "用 python 实现简单的有限元算法（三）",
+      "url": "https://zhuanlan.zhihu.com/p/314246948",
+      "summary": "正文用行列式计算三角形面积，并把雅可比行列式解释为坐标变换的面积缩放因子。"
+    },
+    {
+      "title": "伴随矩阵秩与原矩阵秩的关系",
+      "url": "https://zhuanlan.zhihu.com/p/325760180",
+      "summary": "正文利用行列式非零及伴随矩阵行列式公式判断满秩情形下伴随矩阵的秩。"
+    },
+    {
+      "title": "数值分析知识点总结（二）",
+      "url": "https://zhuanlan.zhihu.com/p/330320094",
+      "summary": "正文定义由内积组成的Gram行列式，并通过矩阵方程证明其非零与函数族线性无关的等价性。"
+    },
+    {
+      "title": "线性代数极简史",
+      "url": "https://zhuanlan.zhihu.com/p/331587570",
+      "summary": "正文解释行列式的几何意义以及行列式为零与线性依赖、不可逆之间的关系。"
+    },
+    {
+      "title": "直观理解矩阵（转载自孟岩）",
+      "url": "https://zhuanlan.zhihu.com/p/333386099",
+      "summary": "正文给出方阵行列式作为其列向量张成的 n 维平行体体积的几何解释。"
+    },
+    {
+      "title": "矩阵小技巧之【摄动法】",
+      "url": "https://zhuanlan.zhihu.com/p/333397432",
+      "summary": "正文通过行列式的多项式根说明摄动矩阵可逆，并用摄动极限证明分块行列式恒等式。"
+    },
+    {
+      "title": "[张量系列DLC] 矢量混合运算 / Levi-Civita 符号与 Kronecker delta",
+      "url": "https://zhuanlan.zhihu.com/p/331738362",
+      "summary": "正文用 Levi-Civita 符号展开行列式并推导若干缩并恒等式。"
+    },
+    {
+      "title": "格密码基础 1（Lecture 1，Lattices）",
+      "url": "https://zhuanlan.zhihu.com/p/334421256",
+      "summary": "正文定义格的行列式，并证明它不依赖基选择及其与格点密度的关系。"
+    },
+    {
+      "title": "矩阵可逆的几个充要条件",
+      "url": "https://zhuanlan.zhihu.com/p/334822347",
+      "summary": "正文把行列式非零列为矩阵可逆的充要条件，并借助伴随矩阵说明其联系。"
+    },
+    {
+      "title": "行列式计算题方法大全",
+      "url": "https://zhuanlan.zhihu.com/p/336163363",
+      "summary": "正文按题型总结化三角形、连加、拆分、展开和加边等多种行列式计算方法。"
+    },
+    {
+      "title": "《高等代数》7关于行列式的一些简单性质及其证明",
+      "url": "https://zhuanlan.zhihu.com/p/336625083",
+      "summary": "正文从逆序数给出行列式定义，并逐条证明线性、反对称、零行及余子式等性质。"
+    },
+    {
+      "title": "高数(上)笔记——向量代数与空间解析几何",
+      "url": "https://zhuanlan.zhihu.com/p/336699646",
+      "summary": "正文用三阶行列式写出向量叉乘和混合积，并据此判断共面与计算体积。"
+    },
+    {
+      "title": "反对称矩阵的奥秘",
+      "url": "https://zhuanlan.zhihu.com/p/336798018",
+      "summary": "正文讨论反对称矩阵行列式，证明奇数阶行列式为零并用 Pfaffian 表示平方。"
+    },
+    {
+      "title": "固体力学-张量分析基础",
+      "url": "https://zhuanlan.zhihu.com/p/337312214",
+      "summary": "正文借助置换符号给出矩阵行列式的指标表达式，并说明相应的行列式恒等式。"
+    },
+    {
+      "title": "比内-柯西(Binet-Cauchy)公式的证明与应用",
+      "url": "https://zhuanlan.zhihu.com/p/337464214",
+      "summary": "正文系统陈述并证明比内-柯西行列式展开公式，使用子式与行列式乘积求和。"
+    },
+    {
+      "title": "行列式计算方法大全：二",
+      "url": "https://zhuanlan.zhihu.com/p/342529955",
+      "summary": "正文系统介绍降阶公式、Cauchy-Binet公式和矩阵乘积拆分等行列式计算方法，并配例题推导。"
+    },
+    {
+      "title": "【回归本源】1.3-向量叉乘",
+      "url": "https://zhuanlan.zhihu.com/p/342679387",
+      "summary": "正文用三阶行列式表示并展开叉乘公式，实质说明了行列式的一种向量计算用途。"
+    },
+    {
+      "title": "高等代数，前进四！——高代实验班习题课设计（2020秋）",
+      "url": "https://zhuanlan.zhihu.com/p/339385421",
+      "summary": "正文用整节整理三对角、Vandermonde、Cauchy 与 Dedekind 等行列式的计算和展开方法。"
+    },
+    {
+      "title": "灵感乍现（二）——n倍角公式的通项公式",
+      "url": "https://zhuanlan.zhihu.com/p/348083797",
+      "summary": "正文把n倍角公式写成三对角行列式，并利用行列式按行展开得到递推关系。"
+    },
+    {
+      "title": "利用LTC实现实时多边形面积光",
+      "url": "https://zhuanlan.zhihu.com/p/350694154",
+      "summary": "正文通过矩阵的行列式推导方向分布变换的雅可比，并用于球面测度转换。"
+    },
+    {
+      "title": "基于流的生成模型-Flow based generative models",
+      "url": "https://zhuanlan.zhihu.com/p/351479696",
+      "summary": "正文解释行列式表示面积或体积的缩放比例，并据此推导概率密度变换。"
+    },
+    {
+      "title": "知乎上的热门“数学”问题（一）：计算",
+      "url": "https://zhuanlan.zhihu.com/p/351796146",
+      "summary": "正文把插值条件化为以待定系数为未知量的线性方程组，并通过非零系数行列式证明解的唯一性。"
+    },
+    {
+      "title": "理解Jacobian矩阵与行列式",
+      "url": "https://zhuanlan.zhihu.com/p/352438848",
+      "summary": "正文解释方阵 Jacobian 的行列式是坐标变换的面积或体积缩放因子。"
+    },
+    {
+      "title": "矩阵乘法核心思想(6)：特征向量与特征值的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/353774689",
+      "summary": "正文通过行列式等于零说明齐次特征方程存在非零解，并据此建立特征值的判别条件。"
+    },
+    {
+      "title": "一看就懂的多重共线性",
+      "url": "https://zhuanlan.zhihu.com/p/355241680",
+      "summary": "正文用矩阵行列式为零解释精确共线性时正规方程无法求出唯一估计。"
+    },
+    {
+      "title": "坐标系中三角形的面积公式",
+      "url": "https://zhuanlan.zhihu.com/p/358835665",
+      "summary": "正文用坐标差的二阶行列式表示一般三角形面积，并证明其与三维混合积等价。"
+    },
+    {
+      "title": "最著名的数学电影——《心灵捕手》，求解电影中的图论难题",
+      "url": "https://zhuanlan.zhihu.com/p/359394170",
+      "summary": "正文使用行列式、余子式和克莱默法则计算矩阵逆，从而得到路径生成函数。"
+    },
+    {
+      "title": "克莱默(Cramer)法则简单应用",
+      "url": "https://zhuanlan.zhihu.com/p/358768731",
+      "summary": "正文利用齐次线性方程组有非零解的判定，令系数矩阵行列式为零并展开计算所需关系。"
+    },
+    {
+      "title": "深入理解 | 超详细行列式讲解",
+      "url": "https://zhuanlan.zhihu.com/p/360292803",
+      "summary": "正文从二阶面积和三阶体积解释行列式，并整理行列式的公式与性质。"
+    },
+    {
+      "title": "多元函数微分法及其应用 第五节 隐函数的求导公式",
+      "url": "https://zhuanlan.zhihu.com/p/361759163",
+      "summary": "正文以雅可比行列式非零作为方程组能够局部确定隐函数的关键条件。"
+    },
+    {
+      "title": "矩阵运算与常用矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/362082020",
+      "summary": "正文用排列和逆序数定义行列式，推导三阶展开并说明行列式的基本性质。"
+    },
+    {
+      "title": "向量外积在初等数学中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/360696570",
+      "summary": "正文把外积坐标公式转化为二阶行列式，用于简化笔算。"
+    },
+    {
+      "title": "矩阵解题技巧总结",
+      "url": "https://zhuanlan.zhihu.com/p/363689730",
+      "summary": "正文把抽象矩阵行列式与矩阵变换、正交矩阵及分块计算等技巧联系起来。"
+    },
+    {
+      "title": "[Table] 矩阵微积分",
+      "url": "https://zhuanlan.zhihu.com/p/363859569",
+      "summary": "正文明确给出矩阵行列式对矩阵元素求偏导的余子式公式及复合行列式的求导结果。"
+    },
+    {
+      "title": "线性代数极简入门",
+      "url": "https://zhuanlan.zhihu.com/p/360522408",
+      "summary": "正文用有向面积解释行列式，介绍余子式、拉普拉斯展开及行列式的运算性质。"
+    },
+    {
+      "title": "基于Amos路径分析的输出结果参数详解",
+      "url": "https://zhuanlan.zhihu.com/p/366040568",
+      "summary": "正文解释协方差矩阵行列式接近零与变量近似线性依赖、参数估计困难之间的联系。"
+    },
+    {
+      "title": "【6.1】特征值，特征向量和矩阵对角化",
+      "url": "https://zhuanlan.zhihu.com/p/367212032",
+      "summary": "正文用行列式定义特征多项式，并证明特征值之积等于矩阵行列式。"
+    },
+    {
+      "title": "“自然数幂和”计算的8种方法，从初等数学到高等数学",
+      "url": "https://zhuanlan.zhihu.com/p/375794611",
+      "summary": "正文以范德蒙行列式证明系数矩阵满秩、线性方程组存在唯一解，并展示行列式表达式。"
+    },
+    {
+      "title": "流形上的均匀采样(一)——理论",
+      "url": "https://zhuanlan.zhihu.com/p/376386495",
+      "summary": "正文用格拉姆行列式及其平方根刻画非方阵参数化造成的面积和体积缩放。"
+    },
+    {
+      "title": "Hadamard不等式（含行列式）的若干证明方法",
+      "url": "https://zhuanlan.zhihu.com/p/377664850",
+      "summary": "正文围绕方阵行列式证明 Hadamard 不等式，并运用代数余子式和行列式乘法性质。"
+    },
+    {
+      "title": "超强换元法，二重积分计算的核武器！（雅可比行列式超通俗讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/382301310",
+      "summary": "正文写出雅可比行列式，计算其绝对值作为二重积分换元的面积缩放因子，并给出多个二阶行列式实例。"
+    },
+    {
+      "title": "仿射变换的基础",
+      "url": "https://zhuanlan.zhihu.com/p/380494625",
+      "summary": "正文用系数矩阵行列式非零刻画仿射变换可逆性，并说明面积比等于行列式绝对值。"
+    },
+    {
+      "title": "(线性代数)1.1.6 克莱姆法则",
+      "url": "https://zhuanlan.zhihu.com/p/385162853",
+      "summary": "正文用系数行列式 D 和替换列得到的 Dj 表示方程组的解。"
+    },
+    {
+      "title": "22考研数学高数强化各章节哪个老师讲得最好？最全总结！",
+      "url": "https://zhuanlan.zhihu.com/p/395704360",
+      "summary": "正文具体解释雅可比行列式在隐函数偏导和重积分换元中的作用。"
+    },
+    {
+      "title": "拉格朗日插值公式的推导及应用——范德蒙德方阵的逆矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/397342283",
+      "summary": "正文给出范德蒙德行列式及其乘积公式，并利用行列式非零证明插值方程组有唯一解。"
+    },
+    {
+      "title": "148分煜神学长考研数学结论笔记-重积分章节解题技巧总结（第六期）",
+      "url": "https://zhuanlan.zhihu.com/p/397442198",
+      "summary": "正文把椭圆坐标变换的雅可比写成二阶行列式并计算为 abr，用于二重积分换元。"
+    },
+    {
+      "title": "三阶行列式",
+      "url": "https://zhuanlan.zhihu.com/p/398844156",
+      "summary": "正文说明三阶行列式的行列索引约定，讲解对角线展开公式并用例题计算其值。"
+    },
+    {
+      "title": "几何中的微分形式是什么？Hodge星算子又是什么意思？",
+      "url": "https://zhuanlan.zhihu.com/p/401207597",
+      "summary": "正文用行列式解释有向面积和体积的反对称性，并推广为楔积。"
+    },
+    {
+      "title": "原神稻妻地区雷方块解谜的一个线性代数视角",
+      "url": "https://zhuanlan.zhihu.com/p/402823116",
+      "summary": "正文计算矩阵行列式在模 4 环中为可逆元，据此判断矩阵可逆并求出逆矩阵。"
+    },
+    {
+      "title": "【整数规划(二)】整数规划中的\"简单\"问题之全单模矩阵(totally unimodular matrix)",
+      "url": "https://zhuanlan.zhihu.com/p/408803563",
+      "summary": "正文以所有子方阵行列式只能为0或正负1来定义全单模矩阵，并用克莱默法则证明整数最优解。"
+    },
+    {
+      "title": "证明方阵乘积的行列式：|AB|=|A||B|",
+      "url": "https://zhuanlan.zhihu.com/p/411519466",
+      "summary": "正文利用分块矩阵的拉普拉斯展开完整证明方阵乘积的行列式等于行列式之积。"
+    },
+    {
+      "title": "推荐系统：多样性（Diversity）BGS / MMR / DPP / MGS",
+      "url": "https://zhuanlan.zhihu.com/p/411553235",
+      "summary": "正文用核矩阵子式的行列式定义行列式点过程，并以行列式解释推荐集合的多样性。"
+    },
+    {
+      "title": "严格主对角占优矩阵的正定性",
+      "url": "https://zhuanlan.zhihu.com/p/411791134",
+      "summary": "正文以行列式非零为关键中间结论，并通过连续函数论证行列式大于零。"
+    },
+    {
+      "title": "线性代数/矩阵的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/411758474",
+      "summary": "正文逐步用基向量变换围成的面积说明矩阵行列式表示平面单位面积的缩放倍数。"
+    },
+    {
+      "title": "【转载】让你快速理解线性代数的本质",
+      "url": "https://zhuanlan.zhihu.com/p/415073222",
+      "summary": "正文通过单位方块经矩阵变换后的面积变化解释行列式的几何意义。"
+    },
+    {
+      "title": "关于行列式的理解：雅可比行列式是如何被定义出来的？",
+      "url": "https://zhuanlan.zhihu.com/p/416193677",
+      "summary": "正文从外积和有向面积出发推出行列式定义，并解释其大小与正负的几何含义。"
+    },
+    {
+      "title": "伴随矩阵定义及6个性质的证明",
+      "url": "https://zhuanlan.zhihu.com/p/420215318",
+      "summary": "正文用代数余子式和替换行列式的性质说明不同行元素的余子式展开和为零，具体讨论行列式性质。"
+    },
+    {
+      "title": "保研面试/考研复试线性代数问题整理",
+      "url": "https://zhuanlan.zhihu.com/p/421166540",
+      "summary": "正文定义余子式并以行列式表示空间体积，说明行列式与零体积、可逆性的关系。"
+    },
+    {
+      "title": "4.3 矩阵分块运算｜《线性代数》",
+      "url": "https://zhuanlan.zhihu.com/p/422710424",
+      "summary": "正文利用齐次线性方程组存在非零解与列向量线性相关的关系，证明两矩阵乘积为零时至少一个行列式为零。"
+    },
+    {
+      "title": "线性代数知识点",
+      "url": "https://zhuanlan.zhihu.com/p/422251943",
+      "summary": "正文定义行列式与代数余子式，整理展开法则、行列式性质并给出克拉默法则。"
+    },
+    {
+      "title": "行列式的应用(克拉默法则)",
+      "url": "https://zhuanlan.zhihu.com/p/427848913",
+      "summary": "正文解释系数行列式 D 以及用常数项替换某一列得到 D1 至 Dn 的行列式构造。"
+    },
+    {
+      "title": "分块矩阵的初等变换及其在行列式中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/426963097",
+      "summary": "正文通过分块初等变换化块三角矩阵，推导 Schur 补及分块矩阵行列式公式。"
+    },
+    {
+      "title": "矩阵的几种运算换序和乘积再运算规律总结",
+      "url": "https://zhuanlan.zhihu.com/p/430505141",
+      "summary": "正文证明逆、幂、伴随与行列式的组合公式，并反复使用乘积行列式性质。"
+    },
+    {
+      "title": "2020年11月杭州电子科技大学线性代数期中考试题及解析",
+      "url": "https://zhuanlan.zhihu.com/p/432965523",
+      "summary": "正文用行列式是否为零判断方阵可逆，并推导数乘、逆矩阵与伴随矩阵的行列式关系。"
+    },
+    {
+      "title": "线性代数（个人总结篇一）",
+      "url": "https://zhuanlan.zhihu.com/p/437355001",
+      "summary": "正文解释行列式的几何意义，并归纳展开、分块和范德蒙行列式等计算方法。"
+    },
+    {
+      "title": "有理分式函数积分——“基函数”组合积分法",
+      "url": "https://zhuanlan.zhihu.com/p/438044011",
+      "summary": "正文计算线性方程组的系数行列式并运用克拉默法则得到积分之间的线性组合。"
+    },
+    {
+      "title": "爱因斯坦求和约定推导矢量分析公式",
+      "url": "https://zhuanlan.zhihu.com/p/438852209",
+      "summary": "正文用 Kronecker 与 Levi-Civita 符号的行列式表示证明指标恒等式。"
+    },
+    {
+      "title": "零基础看懂RLE（Residual Log-likelihood Estimation）|姿态估计ICCV 2021 Oral",
+      "url": "https://zhuanlan.zhihu.com/p/440567782",
+      "summary": "正文在随机变量映射的密度变换中引入雅可比行列式的绝对值，作为坐标变换后的归一化因子。"
+    },
+    {
+      "title": "行列式和迹(3)：迹是行列式的微分",
+      "url": "https://zhuanlan.zhihu.com/p/444533267",
+      "summary": "正文从单位矩阵附近的曲线展开推导行列式微分等于矩阵的迹，核心内容对应行列式。"
+    },
+    {
+      "title": "正方体11种展开图严格证明",
+      "url": "https://zhuanlan.zhihu.com/p/446420829",
+      "summary": "正文用 Laplace 矩阵的主子式和矩阵-树定理计算生成树数量，实质应用行列式。"
+    },
+    {
+      "title": "直观线性代数之克莱默法则是怎么回事？",
+      "url": "https://zhuanlan.zhihu.com/p/447606270",
+      "summary": "正文用面积和空间体积的伸缩直观解释行列式的几何意义及行列式为零时的降维现象。"
+    },
+    {
+      "title": "【数学】线性代数知识点总结（精炼版）",
+      "url": "https://zhuanlan.zhihu.com/p/453305373",
+      "summary": "正文从全排列和逆序数定义行列式，并列出转置、换行、倍加等行列式性质与展开法则。"
+    },
+    {
+      "title": "幂等矩阵的性质与应用",
+      "url": "https://zhuanlan.zhihu.com/p/457417086",
+      "summary": "正文证明幂等矩阵的行列式只能为 0 或 1。"
+    },
+    {
+      "title": "朗斯基行列式与双元积分",
+      "url": "https://zhuanlan.zhihu.com/p/457382709",
+      "summary": "正文以二阶朗斯基行列式为核心对象并推导其性质。"
+    },
+    {
+      "title": "《线性代数》知识点汇总",
+      "url": "https://zhuanlan.zhihu.com/p/457894126",
+      "summary": "正文定义行列式，列出展开式与行列式公式，并说明其运算性质。"
+    },
+    {
+      "title": "inversioner版高中数学课本(2)——第五章：空间解析几何",
+      "url": "https://zhuanlan.zhihu.com/p/458330889",
+      "summary": "正文用由法向量组成的三阶行列式和混合积判断三个平面是否交于唯一一点。"
+    },
+    {
+      "title": "范德蒙行列式在高中解析几何的一个应用",
+      "url": "https://zhuanlan.zhihu.com/p/460944699",
+      "summary": "正文以范德蒙行列式的展开式为基础，结合行列式性质和三角形坐标面积公式进行计算。"
+    },
+    {
+      "title": "【笔记】3Blue1Brown线性代数的本质",
+      "url": "https://zhuanlan.zhihu.com/p/457858293",
+      "summary": "正文用面积缩放和空间取向解释行列式，并给出二阶、三阶行列式的计算。"
+    },
+    {
+      "title": "线性代数：矩阵运算常用公式",
+      "url": "https://zhuanlan.zhihu.com/p/465456550",
+      "summary": "正文单列行列式公式，给出其与特征值、转置、逆、数乘和幂运算的关系。"
+    },
+    {
+      "title": "高等代数(丘维声著）笔记目录",
+      "url": "https://zhuanlan.zhihu.com/p/466678575",
+      "summary": "正文归纳行列式的定义、性质、展开定理和克莱姆法则，并讨论乘积行列式，属于行列式。"
+    },
+    {
+      "title": "高等代数笔记(一)行列式",
+      "url": "https://zhuanlan.zhihu.com/p/467420320",
+      "summary": "正文系统讲解行列式的定义、性质、展开、Vandermonde 行列式及几何意义。"
+    },
+    {
+      "title": "高等代数与不等式(1): (半)正定性的判定",
+      "url": "https://zhuanlan.zhihu.com/p/480136265",
+      "summary": "正文计算 Cauchy、Vandermonde 等行列式，并依据主子式判定矩阵半正定或正定。"
+    },
+    {
+      "title": "【矩阵论】拉普拉斯定理及简单应用",
+      "url": "https://zhuanlan.zhihu.com/p/476039087",
+      "summary": "正文定义子式、余子式和代数余子式，陈述并证明行列式的拉普拉斯展开定理，还计算分块行列式。"
+    },
+    {
+      "title": "石墨烯的能带结构",
+      "url": "https://zhuanlan.zhihu.com/p/493348267",
+      "summary": "正文写出 C_A、C_B 的系数矩阵，并用系数行列式为零得到久期方程。"
+    },
+    {
+      "title": "生成模型(三):Flow-based model",
+      "url": "https://zhuanlan.zhihu.com/p/499009240",
+      "summary": "正文定义行列式并说明其几何扩张含义、可逆性判据和乘积性质。"
+    },
+    {
+      "title": "用人话解释（一）——矩阵、行列式与秩",
+      "url": "https://zhuanlan.zhihu.com/p/496118586",
+      "summary": "正文用面积、体积缩放和方向解释行列式，并推导其基本性质。"
+    },
+    {
+      "title": "ODE|常系数一阶线性微分方程组：一般理论",
+      "url": "https://zhuanlan.zhihu.com/p/497250221",
+      "summary": "正文详细推导行列式求导，并用 Wronsky 行列式和 Liouville 公式判断解组线性无关。"
+    },
+    {
+      "title": "2022年清华大学微积分A2期中试题及解析",
+      "url": "https://zhuanlan.zhihu.com/p/501412120",
+      "summary": "正文计算二维逆映射的 Jacobi 矩阵及其行列式。"
+    },
+    {
+      "title": "【高等代数(丘维声著）笔记】4.4矩阵的分块",
+      "url": "https://zhuanlan.zhihu.com/p/504641272",
+      "summary": "正文通过分块上三角矩阵的行列式为对角块乘积说明分块初等矩阵可逆，并讨论分块行列式。"
+    },
+    {
+      "title": "看完本文, 彻底理解张量(下)",
+      "url": "https://zhuanlan.zhihu.com/p/508715717",
+      "summary": "正文从 Levi-Civita 张量完整定义并推导行列式及其乘法性质。"
+    },
+    {
+      "title": "《数理赢学ABC》赢麻乐大一统理论：67万亿挣取指南 (The ABC of Winnolism: Grand Winified Theories)",
+      "url": "https://zhuanlan.zhihu.com/p/510336227",
+      "summary": "正文引入行列式并说明三角形行列式的计算、线性方程组的可解性及零行列式。"
+    },
+    {
+      "title": "《张量分析》第一章习题解答",
+      "url": "https://zhuanlan.zhihu.com/p/510419021",
+      "summary": "正文通过置换符号展开矩阵乘积的行列式，并证明行列式乘法及线性相关判据。"
+    },
+    {
+      "title": "向量外积（叉积、叉乘）在任意度量（度规）矩阵、任意维数空间上任意多个向量上的推广（前人基础之上的巨大突破）",
+      "url": "https://zhuanlan.zhihu.com/p/536376353",
+      "summary": "正文以二维叉积为例证明行列式的绝对值表示向量张成的面积，并推广到高维平行多面体体积。"
+    },
+    {
+      "title": "由一道小学数学题引发的思考",
+      "url": "https://zhuanlan.zhihu.com/p/546245398",
+      "summary": "正文把割补面积关系写成矩阵，通过行列式与行列变换判断这些面积组合不能解出目标区域。"
+    },
+    {
+      "title": "暴算洛伦兹群",
+      "url": "https://zhuanlan.zhihu.com/p/548699798",
+      "summary": "正文利用矩阵作用前后行列式相同来证明保度规性质，并由行列式为 1 定义 SL2(C)。"
+    },
+    {
+      "title": "【染上你的颜色】从零开始的计算机图形学（手把手教你写着色算法之平直着色法，Gouraud着色法，Phong着色法）",
+      "url": "https://zhuanlan.zhihu.com/p/544694958",
+      "summary": "正文通过系数行列式非零证明重心坐标的存在唯一性。"
+    },
+    {
+      "title": "南开大学2022年高代压轴题——方阵AB与BA相似的充要条件",
+      "url": "https://zhuanlan.zhihu.com/p/552147996",
+      "summary": "正文以行列式形式给出 AB 与 BA 的特征多项式相等，并进一步强化到相似性。"
+    },
+    {
+      "title": "线性代数导学（七）：快速计算二阶矩阵的逆和特征值",
+      "url": "https://zhuanlan.zhihu.com/p/558667088",
+      "summary": "正文把除以二阶矩阵行列式作为快速求逆算法的核心步骤。"
+    },
+    {
+      "title": "【高等代数】矩阵正负定的判别方式",
+      "url": "https://zhuanlan.zhihu.com/p/559964310",
+      "summary": "正文利用特征值与迹、行列式的关系，并用顺序主子式准则判断矩阵正定性。"
+    },
+    {
+      "title": "矩阵重点知识-矩阵的秩知识点总结",
+      "url": "https://zhuanlan.zhihu.com/p/562994521",
+      "summary": "正文用 r 阶行列式即矩阵的 r 阶子式来定义秩，并据行列式是否为零区分满秩与降秩矩阵。"
+    },
+    {
+      "title": "【线性代数】行列式也内卷？——计算有趣的螺旋行列式的值",
+      "url": "https://zhuanlan.zhihu.com/p/565375513",
+      "summary": "正文定义内外螺旋行列式，利用行列变换降阶并推导其解析值。"
+    },
+    {
+      "title": "算法学习笔记(1)：FFT(快速傅里叶变换)",
+      "url": "https://zhuanlan.zhihu.com/p/567738394",
+      "summary": "正文利用范德蒙行列式非零证明插值方程组满秩并保证系数唯一。"
+    },
+    {
+      "title": "循环矩阵的行列式计算",
+      "url": "https://zhuanlan.zhihu.com/p/574124520",
+      "summary": "利用特征值乘积公式推导循环矩阵的行列式，并给出单位根形式的显式计算。"
+    },
+    {
+      "title": "线性代数大一期中复习练习题",
+      "url": "https://zhuanlan.zhihu.com/p/581653090",
+      "summary": "正文归纳行列式降阶、分块行列式和Vandermonde行列式等计算公式与题目。"
+    },
+    {
+      "title": "由浅入深理解 Fisher 信息（3）——从10种不同的角度和深度理解 Fisher information",
+      "url": "https://zhuanlan.zhihu.com/p/589321752",
+      "summary": "正文把 Fisher 信息矩阵的行列式作为优化指标，并用其是否为零判断参数不可观或不可估计。"
+    },
+    {
+      "title": "关于线性代数教材",
+      "url": "https://zhuanlan.zhihu.com/p/589816230",
+      "summary": "正文解释行列式名称及其判定线性方程组是否有非平凡解的初始作用。"
+    },
+    {
+      "title": "数学选读01：矩阵的主子式与顺序主子式",
+      "url": "https://zhuanlan.zhihu.com/p/594455595",
+      "summary": "正文用主子式和顺序主子式的符号判定矩阵正定、负定与半定。"
+    },
+    {
+      "title": "【立体几何】爆算技巧",
+      "url": "https://zhuanlan.zhihu.com/p/594663455",
+      "summary": "正文把三个空间向量组成的混合积写成三阶行列式，并用其绝对值求平行六面体体积。"
+    },
+    {
+      "title": "高斯积分，各种Gauss积分",
+      "url": "https://zhuanlan.zhihu.com/p/594921489",
+      "summary": "正文用雅可比行列式以及矩阵 K 的行列式 detK 完成变量替换并给出积分公式。"
+    },
+    {
+      "title": "微分形式简介",
+      "url": "https://zhuanlan.zhihu.com/p/600380123",
+      "summary": "正文把微分形式的外积定义为分量行列式，并由行列式性质推出反交换与零平方。"
+    },
+    {
+      "title": "辛空间，辛变换，辛群",
+      "url": "https://zhuanlan.zhihu.com/p/606731586",
+      "summary": "正文借助 Pfaffian 证明辛变换的行列式恒等于 1，并讨论其行列式性质。"
+    },
+    {
+      "title": "朗斯基双元的一些结论",
+      "url": "https://zhuanlan.zhihu.com/p/611945968",
+      "summary": "正文定义二阶朗斯基行列式，并证明其在函数乘积与和上的行列式恒等式。"
+    },
+    {
+      "title": "怎样理解线性代数",
+      "url": "https://zhuanlan.zhihu.com/p/617709719",
+      "summary": "正文用列向量张成空间的体积解释行列式，并说明线性相关时行列式为零。"
+    },
+    {
+      "title": "矢量分析-常见矢量恒等式推导",
+      "url": "https://zhuanlan.zhihu.com/p/620271370",
+      "summary": "正文用 Kronecker 符号构成行列式表示 Levi-Civita 符号，并据此化简向量恒等式。"
+    },
+    {
+      "title": "矩阵论 --- 期末复习",
+      "url": "https://zhuanlan.zhihu.com/p/621520926",
+      "summary": "正文利用行列式刻画相似不变量，并讨论 Householder 矩阵行列式、三角分解和矩阵函数。"
+    },
+    {
+      "title": "哈密顿-凯莱定理的有趣证明",
+      "url": "https://zhuanlan.zhihu.com/p/622369107",
+      "summary": "正文围绕矩阵特征多项式和行列式展开定理陈述，并用伴随矩阵完成代数证明。"
+    },
+    {
+      "title": "10.3 行列式的性质（重要）",
+      "url": "https://zhuanlan.zhihu.com/p/624653636",
+      "summary": "正文系统列出行列式转置、换行变号、线性分解、倍加不变和乘法定理等性质。"
+    },
+    {
+      "title": "11.5 特征值与矩阵的迹",
+      "url": "https://zhuanlan.zhihu.com/p/626222949",
+      "summary": "正文明确给出方阵行列式与全部特征值乘积之间的定量关系。"
+    },
+    {
+      "title": "线性代数的本质（完整版）",
+      "url": "https://zhuanlan.zhihu.com/p/629986822",
+      "summary": "用面积或体积的缩放倍数解释行列式，并联系定向与线性相关。"
+    },
+    {
+      "title": "常微分方程：经典方程解法/公式整理",
+      "url": "https://zhuanlan.zhihu.com/p/632905054",
+      "summary": "正文以 Wronsky 行列式判别解组线性相关与无关，并给出刘维尔公式。"
+    },
+    {
+      "title": "数院转专业考试题—高代几何",
+      "url": "https://zhuanlan.zhihu.com/p/637890181",
+      "summary": "正文计算矩阵行列式，并用其结果判断参数取值下方程组的解。"
+    },
+    {
+      "title": "一篇文章, 解决你对多元函数的一切疑惑(从0发明雅可比行列式)",
+      "url": "https://zhuanlan.zhihu.com/p/641614164",
+      "summary": "正文用雅可比行列式表示面积和体积元在换元时的伸缩倍数，并讨论符号对应的翻转。"
+    },
+    {
+      "title": "概率论与数理统计——正态分布的推导",
+      "url": "https://zhuanlan.zhihu.com/p/645373893",
+      "summary": "正文通过行列式、主子式和矩阵行列式恒等式判断系数矩阵的秩。"
+    },
+    {
+      "title": "我对矩阵的秩的全部理解！",
+      "url": "https://zhuanlan.zhihu.com/p/646474719",
+      "summary": "正文用最高阶非零子式定义矩阵的秩，并借助行列式所表示的有向测度解释秩。"
+    },
+    {
+      "title": "线性代数(Linear Algebra)学习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/641433373",
+      "summary": "正文从排列定义、代数展开和几何体积解释行列式，并讨论其性质与计算方法。"
+    },
+    {
+      "title": "Levi-Civita符号的计算",
+      "url": "https://zhuanlan.zhihu.com/p/651063147",
+      "summary": "正文把Levi-Civita符号的缩并展开写成三阶或二阶行列式，并说明其代数余子式关系。"
+    },
+    {
+      "title": "多项式插值：拉格朗日插值法(Lagrange Approximation)",
+      "url": "https://zhuanlan.zhihu.com/p/645788465",
+      "summary": "正文用范德蒙行列式非零证明插值方程组有唯一解，从而证明插值多项式唯一。"
+    },
+    {
+      "title": "行列式在高中数学中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/655273179",
+      "summary": "正文从二阶、三阶行列式定义讲到代数余子式和 Laplace 展开，并给出具体计算。"
+    },
+    {
+      "title": "行列式按行（列）展开（拉普拉斯定理）",
+      "url": "https://zhuanlan.zhihu.com/p/656764667",
+      "summary": "正文定义余子式和代数余子式，并完整证明行列式按一行或一列展开的拉普拉斯定理。"
+    },
+    {
+      "title": "二阶微分方程的一些解法总结",
+      "url": "https://zhuanlan.zhihu.com/p/659721861",
+      "summary": "正文定义由两个解及其一阶导数组成的朗斯基行列式，并用其非零性实施参数变易法。"
+    },
+    {
+      "title": "一些有意思的行列式",
+      "url": "https://zhuanlan.zhihu.com/p/663461869",
+      "summary": "正文反复通过按行展开、构造新行列式和提取因子计算多类 n 阶行列式。"
+    },
+    {
+      "title": "12995 这种「傻瓜矩阵乘法」是怎么构造出来的？",
+      "url": "https://zhuanlan.zhihu.com/p/668590548",
+      "summary": "正文通过 B-10I 的行列式与伴随矩阵写出逆矩阵并求出 A，利用行列式条件筛选整数解。"
+    },
+    {
+      "title": "电动力学：矢量分析总结",
+      "url": "https://zhuanlan.zhihu.com/p/671325293",
+      "summary": "正文用行列式统一表示叉积和标量三重积，并给出其分量展开，实质使用了行列式。"
+    },
+    {
+      "title": "高等代数：正定矩阵及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/673933967",
+      "summary": "正文用主子式和分块矩阵证明正定矩阵的行列式不等式及相关性质。"
+    },
+    {
+      "title": "双曲线中的仿射变换(Part I 伸缩变换)",
+      "url": "https://zhuanlan.zhihu.com/p/668884276",
+      "summary": "正文给出行列式定义，并用映射前后面积之比说明二阶矩阵行列式的几何意义。"
+    },
+    {
+      "title": "高代I期末考试题",
+      "url": "https://zhuanlan.zhihu.com/p/675616420",
+      "summary": "正文考察反对称矩阵合同形式与主子式，并证明含行列式的特征多项式不等式。"
+    },
+    {
+      "title": "行列式的几种特殊计算技巧",
+      "url": "https://zhuanlan.zhihu.com/p/676794395",
+      "summary": "正文围绕行列式计算列出降阶、三角化、递推、分拆和特征值等具体方法。"
+    },
+    {
+      "title": "拉普拉斯(Laplace)定理",
+      "url": "https://zhuanlan.zhihu.com/p/681565760",
+      "summary": "正文完整陈述并证明行列式的 Laplace 展开定理，给出子式和代数余子式展开。"
+    },
+    {
+      "title": "Kronecker符号和Levi-Civita符号（非常详细）",
+      "url": "https://zhuanlan.zhihu.com/p/683424753",
+      "summary": "正文使用 Levi-Civita 符号统一表示行列式展开，并通过列置换解释每一项的符号。"
+    },
+    {
+      "title": "通俗易懂：什么是对角矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/684828942",
+      "summary": "正文给出对角矩阵行列式的计算方法，直接对应行列式叶节点。"
+    },
+    {
+      "title": "Cauchy-Schwarz不等式之本质与意义",
+      "url": "https://zhuanlan.zhihu.com/p/684887322",
+      "summary": "正文引入 Gram 行列式，把长度、最短距离和平行四边形面积统一到行列式及其几何意义中。"
+    },
+    {
+      "title": "真一文搞懂：内积、外积及其衍生（内积：点积、数量积、标量积；外积：叉积、叉乘、向量积、张量积）",
+      "url": "https://zhuanlan.zhihu.com/p/685184693",
+      "summary": "正文用行列式给出叉积和楔积的坐标计算，实际讲解并使用了行列式。"
+    },
+    {
+      "title": "一些特殊分块矩阵的行列式",
+      "url": "https://zhuanlan.zhihu.com/p/688604557",
+      "summary": "正文以线性变换的伸缩倍数解释行列式，并推导多类分块矩阵的行列式公式。"
+    },
+    {
+      "title": "深入解析Flow Matching技术",
+      "url": "https://zhuanlan.zhihu.com/p/685921518",
+      "summary": "正文使用变量变换公式中的雅可比行列式描述随机向量密度如何变化。"
+    },
+    {
+      "title": "分块矩阵、分块初等变换、分块初等矩阵相关(结合考研真题)",
+      "url": "https://zhuanlan.zhihu.com/p/689933416",
+      "summary": "正文说明分块初等变换对行列式的影响并用分块行列式证明恒等式。"
+    },
+    {
+      "title": "你未曾见过的n倍角公式",
+      "url": "https://zhuanlan.zhihu.com/p/697744715",
+      "summary": "正文把 cos nθ 与 sin nθ 分别写成三对角行列式，并按最后一行展开得到关系。"
+    },
+    {
+      "title": "矩阵 秩的不等式总结",
+      "url": "https://zhuanlan.zhihu.com/p/700713907",
+      "summary": "正文利用最高阶非零子式及其对应的行列式讨论矩阵和伴随矩阵的秩。"
+    },
+    {
+      "title": "向量与代数（一）：两种角度理解点积和叉积",
+      "url": "https://zhuanlan.zhihu.com/p/699929617",
+      "summary": "正文用三阶行列式表示叉积，并以有向体积说明叉积与行列式的几何关系。"
+    },
+    {
+      "title": "向量与代数（四）：神奇的外微分",
+      "url": "https://zhuanlan.zhihu.com/p/700740094",
+      "summary": "正文定义导矩阵的雅可比行列式，并以它解释空间伸缩和多重积分换元中的角色。"
+    },
+    {
+      "title": "坐标变换法宝——雅可比（Jacobi）行列式",
+      "url": "https://zhuanlan.zhihu.com/p/717067503",
+      "summary": "正文通过坐标变换下微元向量叉积推导雅可比行列式，解释了它作为积分换元因子的来源。"
+    },
+    {
+      "title": "FLUX.1 原理与源码解析",
+      "url": "https://zhuanlan.zhihu.com/p/741939590",
+      "summary": "正文说明变量替换中的 Jacobian 行列式及其连乘，用来跟踪概率密度的归一化缩放。"
+    },
+    {
+      "title": "数学的艺术 —— JK 定理",
+      "url": "https://zhuanlan.zhihu.com/p/2799763073",
+      "summary": "正文用行列式及其微分表示椭球体积缩放，并进入对数行列式的优化目标。"
+    },
+    {
+      "title": "线性代数知识点总结（全网最全）",
+      "url": "https://zhuanlan.zhihu.com/p/9338829172",
+      "summary": "正文系统列出行列式的性质、代数余子式、展开定理与常用恒等式。"
+    },
+    {
+      "title": "山东大学2024级高等代数I期末试题个人解答",
+      "url": "https://zhuanlan.zhihu.com/p/16363899344",
+      "summary": "正文通过第三类分块矩阵初等变换化简并证明分块行列式恒等式。"
+    },
+    {
+      "title": "让我们彻底解决一类圆锥曲线定点问题吧……",
+      "url": "https://zhuanlan.zhihu.com/p/17686529745",
+      "summary": "正文把二次曲线齐次部分写成矩阵，并由秩不等式导出三阶行列式为零的退化判据。"
+    },
+    {
+      "title": "入土版爱因斯坦求和约定",
+      "url": "https://zhuanlan.zhihu.com/p/27731804998",
+      "summary": "正文利用行列式证明 Levi-Civita 符号的缩并恒等式，并解释行列式展开与指标运算。"
+    },
+    {
+      "title": "拉梅系数与坐标变换",
+      "url": "https://zhuanlan.zhihu.com/p/31984064315",
+      "summary": "正文用行列式计算坐标变换的体积元，并以雅可比行列式给出重积分换元。"
+    },
+    {
+      "title": "SL₂(𝔽₃) 的 Sylow 子群 （2025中科大考研复试题）",
+      "url": "https://zhuanlan.zhihu.com/p/1888684854847206201",
+      "summary": "正文用行列式的乘法性质构造群同态，并通过行列式等于一的条件计算矩阵群元素。"
+    },
+    {
+      "title": "北京大学实验班高代2期中压轴题首发解析",
+      "url": "https://zhuanlan.zhihu.com/p/1893257050915582761",
+      "summary": "证明通过矩阵次对角线元素控制高阶行列式因子，再以不变因子个数推出矛盾。"
+    },
+    {
+      "title": "上海交大线性代数期中钓鱼题的初等解法",
+      "url": "https://zhuanlan.zhihu.com/p/1902323907001824230",
+      "summary": "正文最终把待证非负行列式改写成实矩阵平方对应的分块行列式并分解证明。"
+    },
+    {
+      "title": "丘赛的线代",
+      "url": "https://zhuanlan.zhihu.com/p/1906061414273089977",
+      "summary": "正文利用矩阵乘积的行列式性质与共轭配对证明多个矩阵行列式不等式。"
+    },
+    {
+      "title": "线性代数怎么入门？——（上）",
+      "url": "https://zhuanlan.zhihu.com/p/1917950917346590855",
+      "summary": "正文用单位体积在变换前后的倍率解释行列式，并推导可逆性、乘法等性质。"
+    },
+    {
+      "title": "山东大学 (泰山学堂,潘承洞班) 高等代数(2) 2024-2025年期末考试",
+      "url": "https://zhuanlan.zhihu.com/p/1922235568210835202",
+      "summary": "正文用上三角化与克罗内克积证明关于矩阵特征多项式的行列式恒等式。"
+    },
+    {
+      "title": "《辛拓扑导论》 1.1 Hamilton 力学",
+      "url": "https://zhuanlan.zhihu.com/p/1937949334206419743",
+      "summary": "正文借助辛形式与体积形式证明所有辛矩阵的行列式均为 1。"
+    },
+    {
+      "title": "13709 带你发现那个 71 次多项式的根 —— 康威常数",
+      "url": "https://zhuanlan.zhihu.com/p/1968614461909766747",
+      "summary": "正文用行列式定义衰变矩阵的特征多项式，并通过因式分解得到包含最大特征值的 71 次因子。"
+    },
+    {
+      "title": "如何用张量图解决射影几何问题",
+      "url": "https://zhuanlan.zhihu.com/p/1977091508206342436",
+      "summary": "正文用三点或三线构成的行列式 bracket 表述共线、共点关系，并在张量展开中反复使用。"
+    },
+    {
+      "title": "表示论的考古学",
+      "url": "https://zhuanlan.zhihu.com/p/1999132281340716942",
+      "summary": "文章具体计算群行列式，并利用不可约表示和矩阵行列式将其分解为若干因子。"
+    },
+    {
+      "title": "复数的矩阵表示：一个打通几何、代数与分析的独特视角",
+      "url": "https://zhuanlan.zhihu.com/p/2004102115732247961",
+      "summary": "正文计算表示矩阵的行列式为 a²+b²，说明行列式对应复数模的平方并导出模的乘法性质。"
+    },
+    {
+      "title": "线性代数的本质 3Blue1Brown",
+      "url": "https://zhuanlan.zhihu.com/p/2009191750485435220",
+      "summary": "正文通过单位正方形和平行四边形面积解释行列式的缩放比例及定向意义。"
+    },
+    {
+      "title": "DeltaNet的核心逆矩阵的元素总是在[-1, 1]内",
+      "url": "https://zhuanlan.zhihu.com/p/2009371877773185157",
+      "summary": "正文利用单位下三角矩阵行列式为1，通过伴随矩阵公式显式表示逆矩阵元素。"
+    },
+    {
+      "title": "[实变函数，实分析] C^1微分同胚下的n维Lebesgue积分换元公式",
+      "url": "https://zhuanlan.zhihu.com/p/2013730682275395465",
+      "summary": "正文先对可逆线性变换证明积分公式，并利用行列式缩放和初等矩阵完成基础情形。"
+    },
+    {
+      "title": "华罗庚玩转矩阵的技巧",
+      "url": "https://zhuanlan.zhihu.com/p/2027339298702209442",
+      "summary": "正文专门介绍利用分块展开、Schur 补和恒等式简化行列式计算，并讨论相关行列式不等式。"
+    },
+    {
+      "title": "2026年中科大数学夏令营试题（数分高代部分，剩下的部分之后更新）（首发）",
+      "url": "https://zhuanlan.zhihu.com/p/2042022401777689704",
+      "summary": "正文利用分块矩阵、矩阵 J 与行列式乘法公式证明分块行列式恒等式。"
+    },
+    {
+      "title": "突发！让张益唐苦熬7年的雅可比猜想，Fable 5竟一夜推翻证伪",
+      "url": "https://zhuanlan.zhihu.com/p/2062820026344912746",
+      "summary": "正文明确指出所给映射的雅可比行列式恒为非零常数，并据此检验猜想前提。"
+    },
+    {
+      "title": "Fable 5 找到雅可比猜想的反例背后：我们关心的七个问题",
+      "url": "https://zhuanlan.zhihu.com/p/2063656703304921759",
+      "summary": "正文解释雅可比行列式的局部体积倍率含义，并据此说明局部可逆而非全局可逆。"
+    }
+  ]
+}

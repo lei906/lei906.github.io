@@ -1,0 +1,806 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l6-t5-b3",
+  "sources": [
+    {
+      "title": "真正意义的随机数生成器存在吗？",
+      "url": "https://www.zhihu.com/answer/14120357",
+      "summary": "比较伪随机、物理熵源和密码学安全随机数，说明不可预测性与密钥生成的联系；把系统随机设备直接归为真随机过于简化，操作系统实现描述也仅代表原文时期。"
+    },
+    {
+      "title": "电脑取随机数是什么原理，是真正的随机数吗？",
+      "url": "https://www.zhihu.com/answer/15097735",
+      "summary": "讨论种子可预测性、外部噪声和系统熵池，为理解安全随机数提供背景。统计随机不等于密码学安全，系统随机设备与具体接口属于原文时期的描述。"
+    },
+    {
+      "title": "如何评价一个伪随机数生成算法的优劣？",
+      "url": "https://www.zhihu.com/answer/16482344",
+      "summary": "区分统计性质与密码学不可预测性，讨论伪随机发生器的安全要求；所列标准是历史介绍，文末推荐的mt_rand不能因此视为密码学安全随机源。"
+    },
+    {
+      "title": "密码学算法有哪些经典的书值得推荐？",
+      "url": "https://www.zhihu.com/answer/26284472",
+      "summary": "正文围绕“密码学”给出直接说明。"
+    },
+    {
+      "title": "求大触们推荐一些比较系统的关于密码加密解密的书籍？",
+      "url": "https://www.zhihu.com/answer/29934113",
+      "summary": "正文围绕“密码学”给出说明、例证或方法。"
+    },
+    {
+      "title": "有哪些方法可以让其他人知道我拥有的秘密，且可以通过验证加以证明，却不必公布我拥有的秘密内容？",
+      "url": "https://www.zhihu.com/answer/31084455",
+      "summary": "正文围绕“密码学”给出说明、例证或方法。"
+    },
+    {
+      "title": "是否存在一个字符串，它的md5值是其自身？",
+      "url": "https://www.zhihu.com/answer/33733811",
+      "summary": "正文围绕 MD5 哈希的自引用与构造问题讨论，适合密码学。"
+    },
+    {
+      "title": "你所在或了解的领域有哪些技术上不是很复杂，但创意非常好，很有原创性的研究？",
+      "url": "https://www.zhihu.com/answer/37609933",
+      "summary": "正文用色盲辨别两球的交互过程解释零知识证明不泄露知识的特点。"
+    },
+    {
+      "title": "《模仿游戏》中艾伦·图灵是如何破译英格玛的？",
+      "url": "https://www.zhihu.com/answer/41739506",
+      "summary": "正文系统说明替换密码、恩格玛机与破解。"
+    },
+    {
+      "title": "有没有办法使得十个人中至少六个人同时在场才能打开保险箱？",
+      "url": "https://www.zhihu.com/answer/46864692",
+      "summary": "正文讲解门限秘密共享方案与Shamir方案。"
+    },
+    {
+      "title": "真正的数学应用和纯粹数学（从小学到大学）存在着什么关联？",
+      "url": "https://www.zhihu.com/answer/49096532",
+      "summary": "正文列举椭圆曲线密码学及编码等现实应用。"
+    },
+    {
+      "title": "有没有办法使得十个人中至少六个人同时在场才能打开保险箱？",
+      "url": "https://www.zhihu.com/answer/57674310",
+      "summary": "正文将六人开启保险箱问题构造为秘密共享方案。"
+    },
+    {
+      "title": "如何用通俗易懂的话来解释非对称加密?",
+      "url": "https://www.zhihu.com/answer/57721969",
+      "summary": "正文通过锁与钥匙类比解释公钥加密、私钥和可信第三方。"
+    },
+    {
+      "title": "离散数学讲些什么内容？在计算机科学有什么应用？该怎么学好？",
+      "url": "https://www.zhihu.com/answer/74954244",
+      "summary": "正文以素数乘积分解困难解释不对称加密的数学基础。"
+    },
+    {
+      "title": "离散数学讲些什么内容？在计算机科学有什么应用？该怎么学好？",
+      "url": "https://www.zhihu.com/answer/75581269",
+      "summary": "正文以 RSA 为例连接有限域、模运算与密码系统。"
+    },
+    {
+      "title": "程序员对图灵的认识是怎样的?",
+      "url": "https://www.zhihu.com/answer/77553131",
+      "summary": "正文较完整讲述图灵参与破译 Enigma 与战争密码工作的经历。"
+    },
+    {
+      "title": "你所记得的最牛的烧脑谜题是什么？",
+      "url": "https://www.zhihu.com/answer/81666318",
+      "summary": "正文展示用字母频率和词形逐步破解替换密码。"
+    },
+    {
+      "title": "可以解释一下密码学中什么叫双线性配对吗？",
+      "url": "https://www.zhihu.com/answer/82350855",
+      "summary": "正文讲解双线性配对在密钥交换和基于身份加密中的应用。"
+    },
+    {
+      "title": "如何评价 Diffie 和 Hellman 获 2016 年图灵奖？",
+      "url": "https://www.zhihu.com/answer/90315976",
+      "summary": "全文梳理公钥密码学、密钥交换、RSA、离散对数和格密码的发展与原理。"
+    },
+    {
+      "title": "谁能最简单的详解椭圆曲线算法，secp256k1 是如何生成公钥和私钥的？",
+      "url": "https://www.zhihu.com/answer/96016340",
+      "summary": "正文讲解椭圆曲线公钥密码的安全原理和计算过程。"
+    },
+    {
+      "title": "质数在生活中有什么用？",
+      "url": "https://www.zhihu.com/answer/97910637",
+      "summary": "正文以 RSA 说明质数在加密安全中的用途。"
+    },
+    {
+      "title": "算法数据结构中有哪些奇技淫巧？",
+      "url": "https://www.zhihu.com/answer/98429848",
+      "summary": "正文完整讲解姚氏协议、不经意传输和 RSA 支撑的安全计算。"
+    },
+    {
+      "title": "历史上有什么东西一直被摆在不重要的位置，后来突然发现它的用途，而后被广泛使用呢？",
+      "url": "https://www.zhihu.com/answer/105503942",
+      "summary": "正文解释 RSA 利用大质数乘积分解困难来保障公钥密码安全。"
+    },
+    {
+      "title": "数论在计算机科学中有哪些精彩的应用？",
+      "url": "https://www.zhihu.com/answer/113359990",
+      "summary": "正文以 RSA 公钥系统完整说明数论如何支撑加密、解密与数字签名。"
+    },
+    {
+      "title": "两个人如何通过电话「扔硬币」？",
+      "url": "https://www.zhihu.com/answer/119327735",
+      "summary": "正文把相乘容易、因数分解困难的性质联系到 RSA 公钥加密原理。"
+    },
+    {
+      "title": "两个人如何通过电话「扔硬币」？",
+      "url": "https://www.zhihu.com/answer/119343068",
+      "summary": "正文讲解基于计算困难性与可验证性的密码协议思想。"
+    },
+    {
+      "title": "实变、泛函、抽代、拓扑，哪几门对于非纯数专业更加有用？",
+      "url": "https://www.zhihu.com/answer/120597047",
+      "summary": "正文明确说明抽象代数可用于密码学与编码理论。"
+    },
+    {
+      "title": "有哪些令人拍案叫绝的算法？",
+      "url": "https://www.zhihu.com/answer/131344319",
+      "summary": "正文用薪资平均、色盲球和图同构三个例子解释零知识证明的交互验证思想。"
+    },
+    {
+      "title": "有哪些具有特殊性质的数字？",
+      "url": "https://www.zhihu.com/answer/134770643",
+      "summary": "正文说明密码学需要判定大整数是否为素数及相应算法背景。"
+    },
+    {
+      "title": "多次使用“一次性密钥”(one-time pad)为什么不安全？",
+      "url": "https://www.zhihu.com/answer/135803396",
+      "summary": "正文推导重复使用一次性密码本时两密文异或会消去密钥，并用图片直观展示信息泄露。"
+    },
+    {
+      "title": "有哪些方法可以让其他人知道我拥有的秘密，且可以通过验证加以证明，却不必公布我拥有的秘密内容？",
+      "url": "https://www.zhihu.com/answer/140709267",
+      "summary": "正文从秘密证明问题解释交互式证明的密码学用途。"
+    },
+    {
+      "title": "RSA 生成公私钥时质数是怎么选的？",
+      "url": "https://www.zhihu.com/answer/141149088",
+      "summary": "正文具体讲解 RSA 密钥生成中对大质数的要求。"
+    },
+    {
+      "title": "姚期智院士有哪些学术贡献？",
+      "url": "https://www.zhihu.com/answer/147792433",
+      "summary": "正文用姚氏百万富翁问题详细解释不暴露输入的安全多方计算与非对称加密流程。"
+    },
+    {
+      "title": "在当下，数学家是否没有物理学家、化学家重要？",
+      "url": "https://www.zhihu.com/answer/151136455",
+      "summary": "正文具体说明欧拉推广费马小定理构成 RSA 加密解密的原理之一。"
+    },
+    {
+      "title": "比特币挖矿一定要用计算机吗？用纸笔来计算可行吗？",
+      "url": "https://www.zhihu.com/answer/228766214",
+      "summary": "正文解释 RSA 安全性依赖大整数质因数分解困难。"
+    },
+    {
+      "title": "比特币挖矿一定要用计算机吗？用纸笔来计算可行吗？",
+      "url": "https://www.zhihu.com/answer/228897634",
+      "summary": "正文逐步说明比特币双重 SHA-256 区块哈希及工作量证明条件。"
+    },
+    {
+      "title": "比特币挖矿一定要用计算机吗？用纸笔来计算可行吗？",
+      "url": "https://www.zhihu.com/answer/229054679",
+      "summary": "正文解释 SHA-256 哈希、不等式目标和穷举式工作量证明。"
+    },
+    {
+      "title": "微分流形之类的听起来很高端的数学分支有实用价值吗？",
+      "url": "https://www.zhihu.com/answer/265650390",
+      "summary": "正文以银行广泛使用 RSA 保障交易安全说明密码学应用。"
+    },
+    {
+      "title": "Quant 通常需要什么样的教育背景和知识结构？",
+      "url": "https://www.zhihu.com/answer/282424819",
+      "summary": "正文具体给出基于背包问题的加密方案。"
+    },
+    {
+      "title": "RSA的公钥和私钥到底哪个才是用来加密和哪个用来解密？",
+      "url": "https://www.zhihu.com/answer/289390742",
+      "summary": "正文完整演示 RSA 密钥生成、加密与解密流程。"
+    },
+    {
+      "title": "谁能最简单的详解椭圆曲线算法，secp256k1 是如何生成公钥和私钥的？",
+      "url": "https://www.zhihu.com/answer/308626466",
+      "summary": "正文用离散对数困难直观说明椭圆曲线公钥密码与密钥交换。"
+    },
+    {
+      "title": "密码学中的RSA算法和椭圆曲线算法的加密过程是怎样的?",
+      "url": "https://www.zhihu.com/answer/325511510",
+      "summary": "正文由椭圆曲线上的点乘正向易算、离散对数反向困难，推导 ECC 公私钥和加解密流程。"
+    },
+    {
+      "title": "密码学中的RSA算法和椭圆曲线算法的加密过程是怎样的?",
+      "url": "https://www.zhihu.com/answer/327758926",
+      "summary": "正文系统说明离散对数、RSA 与椭圆曲线公钥密码。"
+    },
+    {
+      "title": "如果有一天上帝给了数学家素数的通项公式，这会对数学界有什么影响？",
+      "url": "https://www.zhihu.com/answer/341932598",
+      "summary": "正文解释素性判定、整数分解、RSA及Shor算法之间的关系。"
+    },
+    {
+      "title": "如何看待 Oded Regev 荣获 2018 年哥德尔奖？",
+      "url": "https://www.zhihu.com/answer/437454719",
+      "summary": "正文系统讲解公钥密码、后量子密码与格密码方案。"
+    },
+    {
+      "title": "有哪些事实没有一定计算机知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/482500320",
+      "summary": "正文说明现代信息安全依赖大整数乘法易而质因数分解难。"
+    },
+    {
+      "title": "用于加密的超大素数是怎么得到的？",
+      "url": "https://www.zhihu.com/answer/487014940",
+      "summary": "正文将大素数生成与 RSA 加密应用相连。"
+    },
+    {
+      "title": "个人觉得抛硬币并不是真正的随机事件，和抛硬币时候的各种状态参量有关系，那么到底什么是真正的随机？",
+      "url": "https://www.zhihu.com/answer/489091464",
+      "summary": "正文从公钥加密的计算限制解释随机性。"
+    },
+    {
+      "title": "一般密码10个数字和26个字母组合如果我或有关重要部门造了50新字母，黑客键盘上没有这些字母如何破解？",
+      "url": "https://www.zhihu.com/answer/492497372",
+      "summary": "正文讲解古典替换密码及其破解方法。"
+    },
+    {
+      "title": "黎曼猜想（Riemann hypothesis）是什么？有什么用？",
+      "url": "https://www.zhihu.com/answer/496220045",
+      "summary": "正文完整讲解基于素数和欧拉定理的公钥加密流程。"
+    },
+    {
+      "title": "如何看待科研 idea 相撞现象普遍？",
+      "url": "https://www.zhihu.com/answer/526276692",
+      "summary": "解释哈希碰撞、生日攻击及密码函数为何需要足够大的输入范围。"
+    },
+    {
+      "title": "有哪些网络安全上的事实，没有一定安全知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/534768362",
+      "summary": "正文以完整数值例子解释 RSA 公钥加密与私钥解密。"
+    },
+    {
+      "title": "一个猜想未被严谨证明也未被证伪时能否运用到科学研究或生产生活中？",
+      "url": "https://www.zhihu.com/answer/620249424",
+      "summary": "正文解释伪随机生成器在密码系统中的应用。"
+    },
+    {
+      "title": "几何（微分几何以上）与代数（抽象代数以上）在计算机、经济、金融上有什么应用？",
+      "url": "https://www.zhihu.com/answer/708304355",
+      "summary": "正文列举代数结构在密码与编码中的应用。"
+    },
+    {
+      "title": "王小云获得 2019 未来科学大奖，成为首位女性得主，她在密码学方面有哪些贡献？",
+      "url": "https://www.zhihu.com/answer/816351163",
+      "summary": "正文具体解释哈希碰撞攻击、MD5/SHA-1 破解及新密码标准的设计。"
+    },
+    {
+      "title": "王小云获得 2019 未来科学大奖，成为首位女性得主，她在密码学方面有哪些贡献？",
+      "url": "https://www.zhihu.com/answer/817907119",
+      "summary": "正文访谈详细解释哈希函数攻击、密码算法标准及密码破解的计算复杂度。"
+    },
+    {
+      "title": "怎么在不公布证明的情况下让世人相信我证明了「哥猜」?",
+      "url": "https://www.zhihu.com/answer/836672605",
+      "summary": "正文以图三染色交互协议解释零知识证明的完备性、稳健性与隐私性。"
+    },
+    {
+      "title": "有没有可以隐秘表达暗恋的短句？",
+      "url": "https://www.zhihu.com/answer/943491283",
+      "summary": "正文把字符编码为数字并设计一套只有双方知道规则的隐藏消息方法。"
+    },
+    {
+      "title": "我是数学专业本科生，想往密码学这方面发展，该学习哪些内容？",
+      "url": "https://www.zhihu.com/answer/967502308",
+      "summary": "正文系统说明现代密码学、可证明安全和格密码所需知识。"
+    },
+    {
+      "title": "2019 年你所在的量子计算领域有哪些值得读的 paper？",
+      "url": "https://www.zhihu.com/answer/983960994",
+      "summary": "正文专节解释量子安全的 Fiat-Shamir、零知识证明和弱抛币等密码协议。"
+    },
+    {
+      "title": "用什么思路可以解这个密码？",
+      "url": "https://www.zhihu.com/answer/1183501836",
+      "summary": "正文解释密文样本不足时密码无法唯一破解的基本限制。"
+    },
+    {
+      "title": "如果有一个人见到一个整数就能立刻分解质因数，那么这个人怎样才能发挥他的最大价值?",
+      "url": "https://www.zhihu.com/answer/1293502590",
+      "summary": "正文解释 RSA 对整数分解困难性的依赖。"
+    },
+    {
+      "title": "男生发晚安用拼音「wanan」是什么意思？",
+      "url": "https://www.zhihu.com/answer/1327302148",
+      "summary": "正文具体分析栅格、凯撒、棋盘和摩尔斯等多种密码变换。"
+    },
+    {
+      "title": "精通密码学的人是怎么设置密码的？",
+      "url": "https://www.zhihu.com/answer/1484776386",
+      "summary": "正文直接给出与「密码学」相关的解释、推导或应用。"
+    },
+    {
+      "title": "这密码怎么解？",
+      "url": "https://www.zhihu.com/answer/1655823950",
+      "summary": "正文把点划符号转为二进制、十进制和字母完成密码解码。"
+    },
+    {
+      "title": "如何在一个月内入门密码学？",
+      "url": "https://www.zhihu.com/answer/1728393237",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "能否通俗地解释下密码学中的归约证明？",
+      "url": "https://www.zhihu.com/answer/1737942968",
+      "summary": "正文直接讨论或推导「密码学」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "如何看待 RSA 加密系统疑被破解？",
+      "url": "https://www.zhihu.com/answer/1761512942",
+      "summary": "正文分析疑似 RSA 分解方法、格约简错误与密码安全性。"
+    },
+    {
+      "title": "如何看待这位知友提出的这个声称只有他能解的问题？",
+      "url": "https://www.zhihu.com/answer/1895147714",
+      "summary": "正文以两个大素数乘积的因式分解为核心例子。"
+    },
+    {
+      "title": "计算复杂性理论是否具有足够的现实意义，如今有哪些比较「现实」的应用？",
+      "url": "https://www.zhihu.com/answer/1909765916",
+      "summary": "正文以 LWE 等困难假设说明现代密码学的基础。"
+    },
+    {
+      "title": "如何评价CCPC 2020 Final？",
+      "url": "https://www.zhihu.com/answer/1913672142",
+      "summary": "正文说明密码学题从 Feistel 构造伪随机置换。"
+    },
+    {
+      "title": "如何看待教育部规定「教师不得公开学生成绩和排名」？这一规定具有哪些意义？",
+      "url": "https://www.zhihu.com/answer/1917470916",
+      "summary": "正文直接讨论并支撑「密码学」相关内容。"
+    },
+    {
+      "title": "Alice 和 Bob 各有一个 0-9 的数，他们怎样能在不暴露自己数的前提下知道双方数字是否相同？",
+      "url": "https://www.zhihu.com/answer/1972373416",
+      "summary": "正文用随机数拆分和第三方求和实现不泄露输入的保密比较协议。"
+    },
+    {
+      "title": "质数在生活中有什么用？",
+      "url": "https://www.zhihu.com/answer/1978845236",
+      "summary": "正文用素数构造RSA式加解密与密钥交换。"
+    },
+    {
+      "title": "同学给我发了个密码，请问各位大神如何解?",
+      "url": "https://www.zhihu.com/answer/2075089800",
+      "summary": "正文分层使用培根、凯撒和栅栏密码进行解密。"
+    },
+    {
+      "title": "数学证明费了这么大劲把这些东西证明出来，对一个人的人生、对我们身处其中的这个世界，到底有什么影响呢？",
+      "url": "https://www.zhihu.com/answer/2151113606",
+      "summary": "正文以椭圆曲线密码等实例说明数学的应用。"
+    },
+    {
+      "title": "任何密码都可以用各种各样方式算出来，只是时间问题。如果是这样的话，那不是很不安全吗？",
+      "url": "https://www.zhihu.com/answer/2193306224",
+      "summary": "正文讨论密码破解的计算代价、密钥长度与安全性的关系。"
+    },
+    {
+      "title": "既然微分和积分互为逆运算，为什么积分比微分更难求解？",
+      "url": "https://www.zhihu.com/answer/2325433722",
+      "summary": "正文用乘法容易、因式分解困难解释单向函数与 RSA。"
+    },
+    {
+      "title": "有哪些很难的数学题，答案是 629，宿舍当门牌用？",
+      "url": "https://www.zhihu.com/answer/2330612725",
+      "summary": "正文完整介绍 Shamir 门限秘密共享方案。"
+    },
+    {
+      "title": "有什么好看的数学书推荐么？",
+      "url": "https://www.zhihu.com/answer/2406731875",
+      "summary": "正文依次讨论替换密码、密码机、RSA 和量子密码，介绍密码学发展。"
+    },
+    {
+      "title": "历史上意大利有哪些伟大的发明呢？",
+      "url": "https://www.zhihu.com/answer/2457862121",
+      "summary": "正文进一步解释阿尔贝蒂密码的两张密码表、内外盘结构及其密码学意义。"
+    },
+    {
+      "title": "为什么游戏里的都是伪随机，做不出真随机？希望来个简单易懂的解释？",
+      "url": "https://www.zhihu.com/answer/2573892672",
+      "summary": "讨论密码学私钥生成对真随机性的需求，以及伪随机序列被预测的安全风险。"
+    },
+    {
+      "title": "量子计算机是不是完全是骗局？",
+      "url": "https://www.zhihu.com/answer/2767797573",
+      "summary": "正文以 RSA、ECC 和陷门函数说明大数分解与椭圆曲线离散对数的加密思路及其被量子计算破解的风险。"
+    },
+    {
+      "title": "数学中最著名的曲线和曲面分别是什么？",
+      "url": "https://www.zhihu.com/answer/2961227001",
+      "summary": "正文具体介绍椭圆曲线数字签名及 SM2、SM9 等密码学应用。"
+    },
+    {
+      "title": "公布他人身份证号的 SHA256 哈希码违法吗？",
+      "url": "https://www.zhihu.com/answer/3012615956",
+      "summary": "正文围绕 SHA256 哈希值讨论不可逆性和多解问题，实质说明哈希函数的密码学性质。"
+    },
+    {
+      "title": "如何用通俗易懂的话来解释非对称加密?",
+      "url": "https://www.zhihu.com/answer/3292186152",
+      "summary": "正文通过交换公钥并共享同一秘密点，解释椭圆曲线 Diffie-Hellman 密钥协商的基本机制。"
+    },
+    {
+      "title": "在群聊中如何实现一对一的加密私聊？",
+      "url": "https://www.zhihu.com/answer/3317229679",
+      "summary": "正文完整讲解Diffie-Hellman密钥交换流程，并说明其安全性依赖离散对数问题且易受中间人攻击。"
+    },
+    {
+      "title": "密码学问题：如何在不泄露未来信息的情况下，证明自己能预知未来?",
+      "url": "https://www.zhihu.com/answer/3349888177",
+      "summary": "正文用先公布明文哈希、后揭示明文的方式，说明如何借助抗碰撞哈希在不泄露未来信息时作出承诺。"
+    },
+    {
+      "title": "密码学问题：如何在不泄露未来信息的情况下，证明自己能预知未来?",
+      "url": "https://www.zhihu.com/answer/3351532292",
+      "summary": "正文给出先公布 SHA-256 哈希、稍后公开原文的承诺方案，用于在不泄露内容时证明预先知道结果。"
+    },
+    {
+      "title": "如何评价 2024 年九省联考数学最后一题考察初等数论？",
+      "url": "https://www.zhihu.com/answer/3369688429",
+      "summary": "正文以 El Gamal 公钥加密为例，解释离散对数、DDH 假设和解密公式如何保证密码系统安全。"
+    },
+    {
+      "title": "课堂上传纸条如何防范中间人攻击？",
+      "url": "https://www.zhihu.com/answer/3527370053",
+      "summary": "正文利用椭圆曲线离散对数困难构造双方共享密钥，说明中间人难以由公开点推导共享秘密，对应基于椭圆曲线的密钥交换。"
+    },
+    {
+      "title": "绝大多数的数学难题在生活中是用不上的，为什么人们还在不断地探索和求解？",
+      "url": "https://www.zhihu.com/answer/4587948425",
+      "summary": "正文具体解释 RSA 公钥加密依赖素数分解困难性，并指出其核心思想来自欧拉定理和模运算。"
+    },
+    {
+      "title": "课堂上传纸条如何防范中间人攻击？",
+      "url": "https://www.zhihu.com/answer/98124298275",
+      "summary": "正文讲利用公开交换值和各自私钥计算共同密钥的密码协议。"
+    },
+    {
+      "title": "如果高中生能证明出黎曼猜想，会被清华北大数学系保送吗？",
+      "url": "https://www.zhihu.com/answer/128220679442",
+      "summary": "正文以这一单向计算困难解释 RSA 公钥加密的基本数学依据。"
+    },
+    {
+      "title": "md5加密结果是有限的，但整数是无限的，所以一定有两个整数的md5加密结果是一样的，怎么找出两个数？",
+      "url": "https://www.zhihu.com/answer/129624843702",
+      "summary": "正文具体讲解王小云团队对MD5的差分碰撞攻击、约束方程及密码学安全影响。"
+    },
+    {
+      "title": "黎曼猜想（Riemann hypothesis）是什么？有什么用？",
+      "url": "https://www.zhihu.com/answer/1888695022947365849",
+      "summary": "正文以素数缺乏已知简单规律导致破解需要大量运算，说明素数在密码密钥中的应用。"
+    },
+    {
+      "title": "如果黎曼猜想被证明出来了，会对世界产生怎么样的影响？",
+      "url": "https://www.zhihu.com/answer/1888706537637246370",
+      "summary": "正文以素数缺乏已知简单规律导致破解需要大量运算，说明素数在密码密钥中的应用。"
+    },
+    {
+      "title": "计算机学科用到的数学是否十分浅显，不涉及到高深的数学理论，比如抽象代数，代数拓扑，代数几何等?",
+      "url": "https://www.zhihu.com/answer/1911166654471190495",
+      "summary": "正文以 RSA 的模算术和椭圆曲线密码为例，说明密码学与高等数学的具体联系。"
+    },
+    {
+      "title": "哪个方向是当前数学界最热门的方向？",
+      "url": "https://www.zhihu.com/answer/1946884968501452960",
+      "summary": "正文讨论后量子密码与零知识证明如何依赖格、椭圆曲线对、多项式承诺等数论和代数工具。"
+    },
+    {
+      "title": "群论中最令你惊艳的结论是什么？为什么？",
+      "url": "https://www.zhihu.com/answer/1957850105232195720",
+      "summary": "正文具体说明Diffie-Hellman密钥交换依赖有限循环群及离散对数问题，并解释大素数阶子群的安全作用。"
+    },
+    {
+      "title": "如何评价 CMU学者提出的认知复杂度（Epiplexity）理论？",
+      "url": "https://www.zhihu.com/answer/1994748367415301652",
+      "summary": "正文说明单向函数与伪随机数生成器可互相转换，并据此讨论从数据估计 Epiplexity 与区分伪随机序列的关系。"
+    },
+    {
+      "title": "A×A＋A=272，求A，有没有简单的方法，适合三年级小朋友的思维方式？",
+      "url": "https://www.zhihu.com/answer/2030017328847529071",
+      "summary": "正文具体讨论 Enigma 的字母圈、转轮结构与 DES 差分分析，说明密码分析如何利用变换中的结构信息。"
+    },
+    {
+      "title": "有哪些数学理论最初被认为「毫无用处」，却在某个领域意外成为关键技术支柱？",
+      "url": "https://www.zhihu.com/answer/2030208164780577095",
+      "summary": "正文介绍公私钥、RSA 与非对称加密，并说明素数分解困难性如何支撑加密方案。"
+    },
+    {
+      "title": "历史上有哪些「无用之事」，最后却影响深远？",
+      "url": "https://www.zhihu.com/answer/2051710278211990858",
+      "summary": "正文说明数论中的素数、模运算、离散对数等工具如何构成现代公钥密码学及互联网安全基础设施。"
+    },
+    {
+      "title": "什么科学发现起初看似无用，但后来证明非常重要？",
+      "url": "https://www.zhihu.com/answer/2073758080194687259",
+      "summary": "正文解释 RSA 如何利用大数分解困难实现加密，并成为互联网安全的基础。"
+    },
+    {
+      "title": "清华门口的【红牛谜题】真的那么难吗？",
+      "url": "https://zhuanlan.zhihu.com/p/19981858",
+      "summary": "正文讲解数字与字母替换、凯撒密码、摩尔斯电码和猪圈密码，并用这些编码规则破解谜题。"
+    },
+    {
+      "title": "数学中的战争，战争中的数学——漫谈密码（2）",
+      "url": "https://zhuanlan.zhihu.com/p/21328730",
+      "summary": "正文系统介绍古典替换与变位密码，并继续讲解现代对称加密的 ECB、CBC、DES 与 AES。"
+    },
+    {
+      "title": "数学中的战争，战争中的数学——漫谈密码（3）",
+      "url": "https://zhuanlan.zhihu.com/p/21401118",
+      "summary": "正文系统介绍公钥密码体系，并以 RSA 的密钥生成、加密、解密和数字签名讲解其数学原理。"
+    },
+    {
+      "title": "如何通过电话完成一次公平的抛硬币游戏？",
+      "url": "https://zhuanlan.zhihu.com/p/22214013",
+      "summary": "正文把大素数乘法容易、分解困难的性质联系到 RSA 公钥加密原理。"
+    },
+    {
+      "title": "从 Shor 算法到格密码学",
+      "url": "https://zhuanlan.zhihu.com/p/25462786",
+      "summary": "正文围绕 Shor 算法对 RSA 等密码假设的冲击，介绍抗量子密码与 LWE 格密码的困难假设。"
+    },
+    {
+      "title": "用密码学玩暗军棋 -- 闲聊多方计算",
+      "url": "https://zhuanlan.zhihu.com/p/25770963",
+      "summary": "正文以百万富翁问题讲解双方在不泄露输入时比较大小，并推广到安全多方计算的保密函数求值。"
+    },
+    {
+      "title": "扒一扒随机数（Random Number）的诞生历史",
+      "url": "https://zhuanlan.zhihu.com/p/25888319",
+      "summary": "正文说明密码安全伪随机数生成器对 SSL 的重要性，并解释可预测种子会导致服务器流量被解密。"
+    },
+    {
+      "title": "零知识证明：一个略微严肃的科普",
+      "url": "https://zhuanlan.zhihu.com/p/29491567",
+      "summary": "正文讲解交互证明与零知识证明的机制、安全性直觉和密码学应用。"
+    },
+    {
+      "title": "浅谈哈希证明系统",
+      "url": "https://zhuanlan.zhihu.com/p/29962617",
+      "summary": "正文系统讲了哈希证明系统的定义、构造性质及密码学应用，属于密码学中的证明系统。"
+    },
+    {
+      "title": "[译] zkSNARKs（零知识证明）简述",
+      "url": "https://zhuanlan.zhihu.com/p/31780893",
+      "summary": "正文详细拆解zkSNARKs的多项式编码、同态加密、零知识移位和证明验证流程，实质讲解密码学中的零知识证明。"
+    },
+    {
+      "title": "质数和网络安全",
+      "url": "https://zhuanlan.zhihu.com/p/33036924",
+      "summary": "正文以两个大质数之积和质因数分解困难解释 RSA 加密的应用原理。"
+    },
+    {
+      "title": "从傅立叶变换到盲水印（中）——图片盲水印实现",
+      "url": "https://zhuanlan.zhihu.com/p/33526455",
+      "summary": "正文用能量系数和随机变换组成密钥，并分析盲水印在无密钥情况下难以去除或替换的加密性质及抗攻击能力。"
+    },
+    {
+      "title": "这个数学题我做可以，但世界毁灭了别怪我。",
+      "url": "https://zhuanlan.zhihu.com/p/33537805",
+      "summary": "正文以大整数因数分解为核心解释 RSA 的安全性，并讨论 P=NP 被证明后可能对 RSA 加密造成的冲击。"
+    },
+    {
+      "title": "一个数独引发的惨案：零知识证明（Zero-Knowledge Proof）",
+      "url": "https://zhuanlan.zhihu.com/p/34072069",
+      "summary": "正文用数独卡片协议解释承诺、随机挑战和重复验证，并区分交互式零知识证明与交互式参数设置。"
+    },
+    {
+      "title": "ECC椭圆曲线加密算法：介绍",
+      "url": "https://zhuanlan.zhihu.com/p/36326221",
+      "summary": "正文围绕 ECC 的安全性、离散对数难题和标量乘法展开密码学讨论。"
+    },
+    {
+      "title": "神秘的零知识证明之zkSNARK",
+      "url": "https://zhuanlan.zhihu.com/p/38205067",
+      "summary": "正文完整讲解 zkSNARK 如何把计算转换为约束并用隐藏解向量的证明让验证者完成验证，属于密码学协议。"
+    },
+    {
+      "title": "密钥分享Secret Sharing介绍",
+      "url": "https://zhuanlan.zhihu.com/p/44999983",
+      "summary": "正文系统讲解密钥分享、Shamir 阈值方案及安全乘法，属于密码学中的多方安全计算。"
+    },
+    {
+      "title": "“黎曼猜想”推翻区块链加密算法？",
+      "url": "https://zhuanlan.zhihu.com/p/45117702",
+      "summary": "正文具体解释单向函数、离散对数、RSA 公钥加密及大整数分解在密码安全中的作用。"
+    },
+    {
+      "title": "【后量子密码】主要构造技术、对比和应用",
+      "url": "https://zhuanlan.zhihu.com/p/45662344",
+      "summary": "正文系统比较基于哈希、编码、多变量和格的抗量子密码构造、困难问题与应用。"
+    },
+    {
+      "title": "【后量子密码】基于格 (RLWE) 问题的密钥交换协议和原理",
+      "url": "https://zhuanlan.zhihu.com/p/45880224",
+      "summary": "正文定义格上的困难问题与 RLWE，并讲解基于其困难性的密钥交换协议、错误消除和安全性。"
+    },
+    {
+      "title": "质因数分解与量子计算机",
+      "url": "https://zhuanlan.zhihu.com/p/47093938",
+      "summary": "正文以 RSA 的公私钥和密文解密为例，说明大整数质因数分解困难性如何支撑加密安全性。"
+    },
+    {
+      "title": "密码学入门（一）",
+      "url": "https://zhuanlan.zhihu.com/p/52208681",
+      "summary": "正文介绍古典密码、对称密码、公钥密码、RSA、签名和安全协议等密码学核心内容。"
+    },
+    {
+      "title": "ECC椭圆曲线加密算法：有限域和离散对数",
+      "url": "https://zhuanlan.zhihu.com/p/44743146",
+      "summary": "正文以椭圆曲线离散对数问题解释ECC安全性及与DSA等密码方案的关系。"
+    },
+    {
+      "title": "“绝对安全”的量子密码 | 袁岚峰",
+      "url": "https://zhuanlan.zhihu.com/p/65637193",
+      "summary": "正文比较传统密码与量子密码，具体讲解异或、一次性便笺、密钥分发及其安全条件和攻击边界。"
+    },
+    {
+      "title": "趣说密码学（五）秘密共享方案——shamir,中国剩余定理,Brickell和Blakley",
+      "url": "https://zhuanlan.zhihu.com/p/95362628",
+      "summary": "正文以阈值秘密共享为主线，概括 Shamir、中国剩余定理、Brickell 和 Blakley 等密码学方案的基本思想。"
+    },
+    {
+      "title": "从零开始学习 zk-SNARK（一）——多项式的性质与证明",
+      "url": "https://zhuanlan.zhihu.com/p/99260386",
+      "summary": "正文围绕 zk-SNARK 的完整性、可靠性和零知识性质，构造并分析多项式证明协议及其密码学工具。"
+    },
+    {
+      "title": "Secure multi-party computation (MPC) 介绍",
+      "url": "https://zhuanlan.zhihu.com/p/100648606",
+      "summary": "正文系统介绍安全多方计算，并讲解秘密分享、不经意传输、混淆电路和零知识证明等密码学方法。"
+    },
+    {
+      "title": "椭圆曲线密码学简介（二）：有限域的椭圆曲线及离散对数问题",
+      "url": "https://zhuanlan.zhihu.com/p/104531745",
+      "summary": "正文以椭圆曲线循环子群和离散对数难题说明椭圆曲线密码学的基本原理。"
+    },
+    {
+      "title": "Paillier加密算法的推导",
+      "url": "https://zhuanlan.zhihu.com/p/106340045",
+      "summary": "正文从困难性假设推导Paillier的公钥、私钥、加密和解密算法，属于密码学构造与安全性分析的实质讲解。"
+    },
+    {
+      "title": "古典密码及其运用与破译分析",
+      "url": "https://zhuanlan.zhihu.com/p/107502618",
+      "summary": "正文系统讲解多类古典密码的加密、传递安全与破译思路，属于密码学的具体应用。"
+    },
+    {
+      "title": "维吉尼亚密码的原理及破解",
+      "url": "https://zhuanlan.zhihu.com/p/111611977",
+      "summary": "正文解释维吉尼亚密码的多表代换机制，并完整介绍 Kasiski 测试和重合指数等破译方法。"
+    },
+    {
+      "title": "Shor 算法-无门槛学习！",
+      "url": "https://zhuanlan.zhihu.com/p/139329165",
+      "summary": "正文具体讲解 RSA 的公私钥构造、加解密流程，以及 Shor 算法对 RSA 安全性的威胁。"
+    },
+    {
+      "title": "零知识证明 - 椭圆曲线基础",
+      "url": "https://zhuanlan.zhihu.com/p/143122476",
+      "summary": "正文把有限域椭圆曲线上的离散对数困难性作为零知识证明的基础，并说明标量乘法和逆运算的不对称性。"
+    },
+    {
+      "title": "差分隐私（三）- 指数，高斯，拉普拉斯机制",
+      "url": "https://zhuanlan.zhihu.com/p/144318152",
+      "summary": "正文讲解数值查询的拉普拉斯与高斯机制、非数值查询的指数机制，以及隐私预算对数据保护的影响。"
+    },
+    {
+      "title": "零知识证明Zero-Knowledge Proof介绍",
+      "url": "https://zhuanlan.zhihu.com/p/144847471",
+      "summary": "正文介绍零知识证明的完备性、可靠性、零知识性，以及离散对数协议和 zkSNARKs 等密码学构造。"
+    },
+    {
+      "title": "浅谈零知识证明之二：简短无交互证明（SNARK）",
+      "url": "https://zhuanlan.zhihu.com/p/150246147",
+      "summary": "正文以SNARK的电路约束、Setup、Prove和Verify流程讲解零知识证明系统的构造。"
+    },
+    {
+      "title": "浅谈零知识证明之三：zkSNARK证明体系的实现",
+      "url": "https://zhuanlan.zhihu.com/p/150752963",
+      "summary": "正文完整讲解 zkSNARK 的完整性、知识证明、简短性和零知识等密码学要求及构造流程。"
+    },
+    {
+      "title": "初探全同态加密之二：格密码学与LWE问题",
+      "url": "https://zhuanlan.zhihu.com/p/150920501",
+      "summary": "正文介绍格密码学、LWE 困难问题、Diffie-Hellman 对比及 Regev 公钥加密，故对应密码学。"
+    },
+    {
+      "title": "零知识证明介绍",
+      "url": "https://zhuanlan.zhihu.com/p/152065162",
+      "summary": "正文定义零知识证明，并以交互式色盲游戏和非交互式数独协议具体说明密码学证明的完备性、可靠性与零知识性。"
+    },
+    {
+      "title": "Lattice学习笔记01：格的简介",
+      "url": "https://zhuanlan.zhihu.com/p/161411204",
+      "summary": "正文以时间线介绍格在密码学中的 LLL、LWE、单向函数和同态加密等构造，属于格密码学的应用讲解。"
+    },
+    {
+      "title": "Lattice学习笔记02：格中难题",
+      "url": "https://zhuanlan.zhihu.com/p/161622928",
+      "summary": "正文讲解格上的 SVP、CVP 与 SIVP 难题及其规约，并说明如何借助格点解码在有噪信道中恢复消息。"
+    },
+    {
+      "title": "Lattice学习笔记04：SIS与LWE问题",
+      "url": "https://zhuanlan.zhihu.com/p/162006921",
+      "summary": "正文讲解q阶随机格上的SIS单向函数与LWE困难问题及其密码学规约。"
+    },
+    {
+      "title": "格密码学进阶02：Lattice Trapdoors Cont'd（格中陷门下篇）",
+      "url": "https://zhuanlan.zhihu.com/p/191442957",
+      "summary": "正文完整讲解格陷门下 SIS 与 LWE 单向函数的构造、反函数求解及安全性考虑。"
+    },
+    {
+      "title": "差分隐私之Composition Theorem（一）",
+      "url": "https://zhuanlan.zhihu.com/p/264779199",
+      "summary": "正文讲解用于保护数据个体隐私的差分隐私组合定理及其安全参数。"
+    },
+    {
+      "title": "老顽童香农的传奇一生",
+      "url": "https://zhuanlan.zhihu.com/p/268734541",
+      "summary": "正文介绍香农的保密通信论文及其以数学和信息论研究密码学、奠定现代密码理论的工作。"
+    },
+    {
+      "title": "随机数大家都会用，但是你知道生成随机数的算法吗？",
+      "url": "https://zhuanlan.zhihu.com/p/273230064",
+      "summary": "正文讨论伪随机数算法的可预测性与安全性，并以 RSA 所依赖的大整数因式分解难题说明密码算法的安全基础。"
+    },
+    {
+      "title": "格密码基础 1（Lecture 1，Lattices）",
+      "url": "https://zhuanlan.zhihu.com/p/334421256",
+      "summary": "正文从格的数学定义和基出发，介绍格密码及其同态加密应用背景。"
+    },
+    {
+      "title": "CKKS同态加密算法简介",
+      "url": "https://zhuanlan.zhihu.com/p/366965077",
+      "summary": "正文系统说明CKKS同态加密的编码、加解密、同态乘法和重缩放机制。"
+    },
+    {
+      "title": "属性基加密系列（细粒度访问控制）",
+      "url": "https://zhuanlan.zhihu.com/p/386078331",
+      "summary": "正文介绍属性基加密的分类、密钥与密文策略以及细粒度访问控制机制。"
+    },
+    {
+      "title": "密码学基础体系",
+      "url": "https://zhuanlan.zhihu.com/p/467282919",
+      "summary": "正文系统讲解对称密码、公钥密码、哈希和数字签名，并展开 RSA 与 ElGamal 的数学构造。"
+    },
+    {
+      "title": "应用密码学 | 离散对数问题（Discrete logarithm Problem）",
+      "url": "https://zhuanlan.zhihu.com/p/523658036",
+      "summary": "正文以离散对数困难性解释 ElGamal 和 Diffie-Hellman 等公钥密码算法的安全基础。"
+    },
+    {
+      "title": "（期末迅速复习）信息论与编码笔记",
+      "url": "https://zhuanlan.zhihu.com/p/538856461",
+      "summary": "正文比较对称和非对称密码体制，并给出加解密函数及其互逆关系。"
+    },
+    {
+      "title": "刚刚，图灵奖揭晓！史上首位数学和计算机最高奖“双料王”出现了",
+      "url": "https://zhuanlan.zhihu.com/p/691813924",
+      "summary": "正文具体解释了零知识证明及其在安全加密和 NP 问题中的应用。"
+    },
+    {
+      "title": "数学奇迹：“我证明了黎曼猜想”，不告诉你证明过程，也能让你信",
+      "url": "https://zhuanlan.zhihu.com/p/1898941711239082910",
+      "summary": "正文通过地图三染色交互、NP 完全归约和模拟器解释零知识证明机制及其密码学应用。"
+    },
+    {
+      "title": "数学家用两千年，换来一句本质真言：素数不是随机，但像极了随机",
+      "url": "https://zhuanlan.zhihu.com/p/1921242945425736655",
+      "summary": "正文以Diffie-Hellman和模幂单向性说明大素数及离散对数困难性在密码系统中的作用。"
+    }
+  ]
+}

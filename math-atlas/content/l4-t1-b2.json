@@ -1,0 +1,3076 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l4-t1-b2",
+  "sources": [
+    {
+      "title": "一个关于数学归纳法的悖论问题：到底是第 N 天有 N 个红眼睛自杀，还是什么都不会发生？",
+      "url": "https://www.zhihu.com/answer/17720557",
+      "summary": "用最早行动日和反转眼色作不可区分性反证。后半协议有实质漏洞：只按所见红眼人数行动会让蓝眼者也行动，不能据此证明几乎合法；最早日需跨全部配置取最小值。"
+    },
+    {
+      "title": "怎样证明根号 3 是无理数？",
+      "url": "https://www.zhihu.com/answer/21650472",
+      "summary": "正文围绕「怎样证明根号 3 是无理数？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "如何高贵冷艳地写数学分析证明题？",
+      "url": "https://www.zhihu.com/answer/32822195",
+      "summary": "建议将定理否定形式用于反证法。"
+    },
+    {
+      "title": "有哪些大学的定理、公式、概念、方法等可以应用于高中解题或帮助高中生深入理解知识？",
+      "url": "https://www.zhihu.com/answer/39646400",
+      "summary": "正文以磁石检验珠子说明从假设导出矛盾的反证法思路。"
+    },
+    {
+      "title": "存在绝对正确的道理吗？",
+      "url": "https://www.zhihu.com/answer/81532692",
+      "summary": "正文用自指否定推出矛盾来说明反证法。"
+    },
+    {
+      "title": "历史上有什么东西一直被摆在不重要的位置，后来突然发现它的用途，而后被广泛使用呢？",
+      "url": "https://www.zhihu.com/answer/100183599",
+      "summary": "正文明确用否定第五公设并寻找矛盾的方式解释反证法。"
+    },
+    {
+      "title": "直线和圆上的点，哪个更多？",
+      "url": "https://www.zhihu.com/answer/101450394",
+      "summary": "正文假设实数可列，再用对角构造得到排列外实数完成反证。"
+    },
+    {
+      "title": "欧几里德的第五公设可靠吗？",
+      "url": "https://www.zhihu.com/answer/113804677",
+      "summary": "正文明确说明罗巴切夫斯基通过设立矛盾命题尝试反证。"
+    },
+    {
+      "title": "勾股数有有限多组还是无限多组？",
+      "url": "https://www.zhihu.com/answer/123718411",
+      "summary": "正文取最小正整数解后构造更小解，以无穷递降产生矛盾。"
+    },
+    {
+      "title": "有没有哪个素数可以以多种方式写成两个正整数的平方和？",
+      "url": "https://www.zhihu.com/answer/132830982",
+      "summary": "正文假设同一素数有两种平方和表示，连续推出整除关系并导出矛盾，是完整反证。"
+    },
+    {
+      "title": "有哪些具有特殊性质的数字？",
+      "url": "https://www.zhihu.com/answer/135039728",
+      "summary": "归纳步通过假设 n+1 不特殊导出其为最小不特殊数、从而又特殊的矛盾，实质使用反证。"
+    },
+    {
+      "title": "两个实数之间有无穷多个数，那么一个实数旁边难道不是像一串珠子一样紧挨着另一个数字吗？",
+      "url": "https://www.zhihu.com/answer/136019026",
+      "summary": "正文首先假设 0 有下一个实数并取其中点导出矛盾，展示标准反证。"
+    },
+    {
+      "title": "是否存在R^0.5这样的空间?",
+      "url": "https://www.zhihu.com/answer/137298024",
+      "summary": "正文假设空间存在，再由删点后的连通性差异推出矛盾。"
+    },
+    {
+      "title": "是否存在一条能且只能用反证法证明的命题？",
+      "url": "https://www.zhihu.com/answer/137798918",
+      "summary": "正文比较最小逻辑、直觉逻辑与经典逻辑，说明反证法依赖爆炸原理和排中律。"
+    },
+    {
+      "title": "是否存在一条能且只能用反证法证明的命题？",
+      "url": "https://www.zhihu.com/answer/137938900",
+      "summary": "正文严密区分反证法、否证法和逆否证法，并证明反证法与排中律等价。"
+    },
+    {
+      "title": "教科书上有哪些令你触动的话？",
+      "url": "https://www.zhihu.com/answer/146253033",
+      "summary": "正文引用并解释反证法把对方结论全盘接受后导出矛盾的力量。"
+    },
+    {
+      "title": "经常出现在数学证明中的「不妨设」根据是什么？如何培养这种「不妨设」、「假设」的能力？",
+      "url": "https://www.zhihu.com/answer/148513316",
+      "summary": "正文解释反证法从否定结论出发推出矛盾的逻辑。"
+    },
+    {
+      "title": "能否用不同大小的小正方形拼出一个大正方形 ？",
+      "url": "https://www.zhihu.com/answer/148583508",
+      "summary": "正文假设完美立方体存在并导出有限小立方体需无限递归的矛盾。"
+    },
+    {
+      "title": "线性代数在你的学科里有什么应用？",
+      "url": "https://www.zhihu.com/answer/149805428",
+      "summary": "正文假设小三角形数过少并通过连续平移得到消失矛盾，使用反证法。"
+    },
+    {
+      "title": "是否存在一条能且只能用反证法证明的命题？",
+      "url": "https://www.zhihu.com/answer/172850424",
+      "summary": "正文区分日常证明与形式系统证明，系统分析反证法何时为显式或可容许规则。"
+    },
+    {
+      "title": "大家有没有小时候的一些猜想结果有的科学家和你想的一样，而且去证实？或者谈谈你们小时候的猜想！？",
+      "url": "https://www.zhihu.com/answer/235845410",
+      "summary": "正文通过互相矛盾的命题组合进行逻辑排除。"
+    },
+    {
+      "title": "方程 cos(x) = x 的唯一实数解是不是超越数？",
+      "url": "https://www.zhihu.com/answer/255089763",
+      "summary": "正文假设根为代数数并推出与超越数定理矛盾。"
+    },
+    {
+      "title": "数字 12 为何如此特殊？",
+      "url": "https://www.zhihu.com/answer/262080088",
+      "summary": "正文用“最小的不特殊自然数”构造反证悖论。"
+    },
+    {
+      "title": "数学里有哪些精彩的伪证？",
+      "url": "https://www.zhihu.com/answer/262161078",
+      "summary": "正文用反证法构造“不能用二十个汉字表达”的自指矛盾。"
+    },
+    {
+      "title": "只有可去间断点的函数的可去间断点是否是至多可数的？",
+      "url": "https://www.zhihu.com/answer/269158102",
+      "summary": "正文分类后假设不可数并构造矛盾完成证明。"
+    },
+    {
+      "title": "是否存在非零整数 a，b，c，使 ae+bπ+c=0？",
+      "url": "https://www.zhihu.com/answer/269942043",
+      "summary": "正文分别假设关系存在与不存在，通过反证分析结论。"
+    },
+    {
+      "title": "数学里的那些技巧是怎么想出来的？",
+      "url": "https://www.zhihu.com/answer/272600004",
+      "summary": "正文明确从反证假设出发逐步寻找矛盾。"
+    },
+    {
+      "title": "世界上大约有多少人可以完全看懂并理解怀尔斯对于费马大定理的证明？",
+      "url": "https://www.zhihu.com/answer/290933443",
+      "summary": "正文明确把最终证明总结为反证法。"
+    },
+    {
+      "title": "将一副扑克（去掉大小王）围成一圈，使每相邻四张的和均为 28。若无解，如何证明？",
+      "url": "https://www.zhihu.com/answer/291603390",
+      "summary": "正文先假设扑克排列成立，再由周期相等推出第五张重复而导出矛盾。"
+    },
+    {
+      "title": "数字华容道有何解法？",
+      "url": "https://www.zhihu.com/answer/294967478",
+      "summary": "正文假设反序状态可复原，再由对换次数奇偶矛盾证明其无解。"
+    },
+    {
+      "title": "如何积 1/ln(x)？",
+      "url": "https://www.zhihu.com/answer/306550276",
+      "summary": "正文通过比较多项式根的重数导出矛盾，完成不可积性的反证。"
+    },
+    {
+      "title": "两角乘积的三角函数是什么？",
+      "url": "https://www.zhihu.com/answer/310556297",
+      "summary": "正文假设展开函数存在并导出sin x=sin 2x的矛盾。"
+    },
+    {
+      "title": "为什么开区间不适用闭区间套定理？(从完备公理出发)？",
+      "url": "https://www.zhihu.com/answer/313164361",
+      "summary": "正文假设公共点存在，再由极限定义导出矛盾。"
+    },
+    {
+      "title": "如何证明根号 2 是无理数？",
+      "url": "https://www.zhihu.com/answer/339637605",
+      "summary": "正文先假设根号2有理，再推出互素条件矛盾。"
+    },
+    {
+      "title": "圆周率里包含你的银行卡密码吗？",
+      "url": "https://www.zhihu.com/answer/340425463",
+      "summary": "正文给出完整的反证过程，从平方后推出公因数 2，最后与互质假设矛盾。"
+    },
+    {
+      "title": "在由勾股数组成的直角三角形中，除斜边所对直角为 90º 外，其余两角是否都不为整数角？",
+      "url": "https://www.zhihu.com/answer/349286889",
+      "summary": "正文以反证法把原命题强化为有理角度的正弦、余弦至少一个无理，并由此完成证明。"
+    },
+    {
+      "title": "数理逻辑的技术性成果对哲学问题有什么影响？",
+      "url": "https://www.zhihu.com/answer/372070934",
+      "summary": "正文把两个原则化为基数不等式并导出矛盾。"
+    },
+    {
+      "title": "如何证明一个数学命题的不可证性？",
+      "url": "https://www.zhihu.com/answer/403142684",
+      "summary": "正文多次通过导出零等于一的矛盾证明不可证。"
+    },
+    {
+      "title": "如何理解拜占庭将军问题？",
+      "url": "https://www.zhihu.com/answer/429936053",
+      "summary": "正文用不可区分节点视角的矛盾完成拜占庭共识下界证明。"
+    },
+    {
+      "title": "是否存在可导函数f:R+→R+，使得f'(x)>f(x)^2？",
+      "url": "https://www.zhihu.com/answer/430990613",
+      "summary": "正文假设函数存在，再借中值定理推出函数值矛盾。"
+    },
+    {
+      "title": "如何用十分中二的方式解数学题？",
+      "url": "https://www.zhihu.com/answer/432227090",
+      "summary": "正文明确用反证法设置并导出矛盾。"
+    },
+    {
+      "title": "是否存在导数等于反函数的连续函数？",
+      "url": "https://www.zhihu.com/answer/440083898",
+      "summary": "正文假设连续解存在，再由变号矛盾证明不存在。"
+    },
+    {
+      "title": "是否存在可导函数f:R+→R+，使得f'(x)>f(x)^2？",
+      "url": "https://www.zhihu.com/answer/443810528",
+      "summary": "正文假设函数存在并推出正数小于零的矛盾。"
+    },
+    {
+      "title": "如何评价哥德尔对上帝存在的本体论证明？",
+      "url": "https://www.zhihu.com/answer/447417994",
+      "summary": "正文采用反证法并展示原始定义如何导出矛盾。"
+    },
+    {
+      "title": "用三个汉字能描述的最大的数是多少？",
+      "url": "https://www.zhihu.com/answer/480707499",
+      "summary": "正文假设最大数存在，再用加一得到更大数而推出矛盾。"
+    },
+    {
+      "title": "如何看待 9 月 24 日 Michael Atiyah 在海德堡获奖者论坛上对黎曼猜想的现场宣讲？",
+      "url": "https://www.zhihu.com/answer/497695658",
+      "summary": "正文说明预印本采用反证法假设反例零点。"
+    },
+    {
+      "title": "如何用十分中二的方式解数学题？",
+      "url": "https://www.zhihu.com/answer/509858660",
+      "summary": "使用反证法：假设立方根 2 为有理数，再由费马大定理的 n=3 情形导出矛盾。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/516414276",
+      "summary": "正文对两序列无交和无遗漏均明确使用反证法推导矛盾。"
+    },
+    {
+      "title": "为什么没有最大的锐角？",
+      "url": "https://www.zhihu.com/answer/525168754",
+      "summary": "假设存在最大锐角，再取它与直角的平均得到更大的锐角，从而导出矛盾。"
+    },
+    {
+      "title": "是否可以将1,2…，n²放入n×n的方格，使得每行的和都是2的幂？",
+      "url": "https://www.zhihu.com/answer/527871032",
+      "summary": "利用总和的奇偶与 2 的幂的性质假设排布存在并推出矛盾。"
+    },
+    {
+      "title": "如何严谨地证明 0.9999…=1？",
+      "url": "https://www.zhihu.com/answer/533598329",
+      "summary": "正文明确采用反证法并从假设不等推出矛盾。"
+    },
+    {
+      "title": "如何提高逻辑思维的能力？",
+      "url": "https://www.zhihu.com/answer/541896945",
+      "summary": "正文明确解释反证法的基本推理过程。"
+    },
+    {
+      "title": "如何证明牛顿―莱布尼兹公式？",
+      "url": "https://www.zhihu.com/answer/551844271",
+      "summary": "假设导数为零的函数不是常数，再由中值定理推出矛盾。"
+    },
+    {
+      "title": "高中生对哥德巴赫猜想的证明有哪些错误？",
+      "url": "https://www.zhihu.com/answer/563758084",
+      "summary": "正文通过假设与结论的冲突解释反证式推理错误。"
+    },
+    {
+      "title": "存不存在最大的质数？",
+      "url": "https://www.zhihu.com/answer/567669138",
+      "summary": "假设质数有限并构造乘积加一得到矛盾。"
+    },
+    {
+      "title": "如何证明两个有理数平方和不能为 7？",
+      "url": "https://www.zhihu.com/answer/571468112",
+      "summary": "正文以最小正整数解构造下降并导出矛盾。"
+    },
+    {
+      "title": "全部删除？",
+      "url": "https://www.zhihu.com/answer/571638872",
+      "summary": "正文以反证法推出无损压缩假设的矛盾。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/587659637",
+      "summary": "采用反证思路解释矛盾结论的真正含义。"
+    },
+    {
+      "title": "除 0 与 1 外，是否存在无限求平方根仍为有理数的数？",
+      "url": "https://www.zhihu.com/answer/588525393",
+      "summary": "通过反设开方结果的有理性并利用封闭性导出矛盾。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/589184673",
+      "summary": "正文明确把该论证识别为反证法。"
+    },
+    {
+      "title": "如何证明两个有理数平方和不能为 7？",
+      "url": "https://www.zhihu.com/answer/590448378",
+      "summary": "正文用无穷递降法构造更小正整数解并导出矛盾。"
+    },
+    {
+      "title": "有哪些令人为之惊叹的数学题目？",
+      "url": "https://www.zhihu.com/answer/592076735",
+      "summary": "正文明确用反证法证明几何结论。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/598520828",
+      "summary": "正文假设素数有限并导出拓扑矛盾。"
+    },
+    {
+      "title": "数学上有哪些非常奇葩的证明？",
+      "url": "https://www.zhihu.com/answer/599452054",
+      "summary": "正文使用反证与整除余数导出无解。"
+    },
+    {
+      "title": "数学上有哪些非常奇葩的证明？",
+      "url": "https://www.zhihu.com/answer/599572636",
+      "summary": "正文假设有理并导出费马大定理矛盾。"
+    },
+    {
+      "title": "数学上有哪些非常奇葩的证明？",
+      "url": "https://www.zhihu.com/answer/602139901",
+      "summary": "正文以反证法推出调和级数不收敛。"
+    },
+    {
+      "title": "有哪些令人为之惊叹的数学题目？",
+      "url": "https://www.zhihu.com/answer/603377438",
+      "summary": "正文逐步推出 tan30° 的有理性矛盾。"
+    },
+    {
+      "title": "若 a=0.248163264128256...，请问 a 是否为有理数？理由是什么？",
+      "url": "https://www.zhihu.com/answer/629055697",
+      "summary": "通过假设有理并构造另一个应当有理但不循环的小数完成反证。"
+    },
+    {
+      "title": "有哪些看起来很难但做起来很简单的数学题？",
+      "url": "https://www.zhihu.com/answer/631136418",
+      "summary": "两次通过假设违反界限并用柯西不等式导出矛盾。"
+    },
+    {
+      "title": "本人发现和证明了0可以作除数，想问如何发表投刊？",
+      "url": "https://www.zhihu.com/answer/638183808",
+      "summary": "假设零元存在逆元并推出零等于一，从而完成反证。"
+    },
+    {
+      "title": "156 是质数还是合数？",
+      "url": "https://www.zhihu.com/answer/645343396",
+      "summary": "假设 156 为素数后由费马小定理推出矛盾。"
+    },
+    {
+      "title": "有没有哪些数学题的某一步处理堪称神来之笔？",
+      "url": "https://www.zhihu.com/answer/654758450",
+      "summary": "假设结论不成立并导出矛盾。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/661917107",
+      "summary": "通过自指命题导出可证性矛盾的核心思路。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/670271011",
+      "summary": "假设不存在结论要求的点并推出与公理矛盾。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/670679733",
+      "summary": "假设 n+1 不有趣并由最小反例推出自相矛盾。"
+    },
+    {
+      "title": "如何证明圆只有一个圆心，这个问题有意义吗？",
+      "url": "https://www.zhihu.com/answer/675646728",
+      "summary": "假设存在两个圆心并推出矛盾。"
+    },
+    {
+      "title": "∑ (1/n) 为何不收敛？",
+      "url": "https://www.zhihu.com/answer/688190876",
+      "summary": "假设部分和收敛后推出极限满足矛盾不等式。"
+    },
+    {
+      "title": "无理数和有理数哪个多？",
+      "url": "https://www.zhihu.com/answer/699009262",
+      "summary": "以康托尔对角线法推出不存在所假设双射。"
+    },
+    {
+      "title": "∑ (1/n) 为何不收敛？",
+      "url": "https://www.zhihu.com/answer/705892838",
+      "summary": "由恒为一的积分与极限积分为零推出矛盾。"
+    },
+    {
+      "title": "围棋最少被让几子能必胜？",
+      "url": "https://www.zhihu.com/answer/724422199",
+      "summary": "通过假设策略引出规则冲突。"
+    },
+    {
+      "title": "你玩数独的套路是怎样的？",
+      "url": "https://www.zhihu.com/answer/725172814",
+      "summary": "用假设后推导矛盾来排除候选数。"
+    },
+    {
+      "title": "如何证明无理数的个数比有理数多？",
+      "url": "https://www.zhihu.com/answer/745584062",
+      "summary": "通过假设可数并构造遗漏实数导出矛盾。"
+    },
+    {
+      "title": "如何用初等数学证明 π 不是有理数？",
+      "url": "https://www.zhihu.com/answer/749102576",
+      "summary": "正文以正整数数列极限为零的不可能性完成反证。"
+    },
+    {
+      "title": "怎样证明根号 3 是无理数？",
+      "url": "https://www.zhihu.com/answer/753218323",
+      "summary": "以假设根号三为有理数推出公因子矛盾。"
+    },
+    {
+      "title": "如何用初等数学证明 π 不是有理数？",
+      "url": "https://www.zhihu.com/answer/754367401",
+      "summary": "正文由非零整数项具有正下界与其极限为零矛盾完成证明。"
+    },
+    {
+      "title": "有哪些数学定理的推出过程是值得细细品味的？",
+      "url": "https://www.zhihu.com/answer/774394553",
+      "summary": "假设素数有限并由开集无界性导出矛盾。"
+    },
+    {
+      "title": "有哪些数学定理的推出过程是值得细细品味的？",
+      "url": "https://www.zhihu.com/answer/775533428",
+      "summary": "假设存在双射并通过自指集合导出矛盾。"
+    },
+    {
+      "title": "如何反驳数学虚构主义？",
+      "url": "https://www.zhihu.com/answer/781731190",
+      "summary": "分析反证法对数学对象存在性的预设。"
+    },
+    {
+      "title": "n 的 n 次方根接近于多少？",
+      "url": "https://www.zhihu.com/answer/785225563",
+      "summary": "假设极限大于一并推出矛盾。"
+    },
+    {
+      "title": "什么样的数学题解答方式可以称为天秀？",
+      "url": "https://www.zhihu.com/answer/790291888",
+      "summary": "在完整证明中假设存在域外元素推出矛盾。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/790533452",
+      "summary": "用周期点个数不是四的倍数推出矛盾。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/791230378",
+      "summary": "正文通过轨道图数量的奇偶性引理导出复数域情形下无解的矛盾。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/791442453",
+      "summary": "通过定义域端点与映射关系推出矛盾。"
+    },
+    {
+      "title": "怎样证明根号 3 是无理数？",
+      "url": "https://www.zhihu.com/answer/817483351",
+      "summary": "正文明确采用假设为有理数后导出矛盾的反证结构。"
+    },
+    {
+      "title": "设光速为1那么我的飞船（小滑块）达到0.9的循环，是否能代表我达到了光速？",
+      "url": "https://www.zhihu.com/answer/821585529",
+      "summary": "假设极限距离为正并推出矛盾。"
+    },
+    {
+      "title": "数学史上有哪些看似成立的算式形式猜想，最终被某个大数证明不成立？",
+      "url": "https://www.zhihu.com/answer/827947772",
+      "summary": "解释归谬法通过推出矛盾证明命题。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/827952438",
+      "summary": "用归谬法的定义解释证明尝试。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/827955091",
+      "summary": "明确解释归谬法的证明方式。"
+    },
+    {
+      "title": "如何证明 1，2次根号2，3次根号2，...，n次根号2 在 Q 上线性无关？",
+      "url": "https://www.zhihu.com/answer/829698453",
+      "summary": "由不可约多项式整除次数更低多项式推出矛盾。"
+    },
+    {
+      "title": "为什么fx是第一类间断点就没有原函数?",
+      "url": "https://www.zhihu.com/answer/829903363",
+      "summary": "假设存在原函数并推出函数在间断点连续的矛盾。"
+    },
+    {
+      "title": "为什么 n 阶线性齐次微分方程有 n 个线性无关的特解？",
+      "url": "https://www.zhihu.com/answer/848179746",
+      "summary": "假设相关并推出与唯一性矛盾。"
+    },
+    {
+      "title": "所有的素数按出现的次序排成一个小数，这个小数是否为无理数？",
+      "url": "https://www.zhihu.com/answer/849297879",
+      "summary": "假设该数有循环节并推出矛盾。"
+    },
+    {
+      "title": "如果存在一个函数，代入有理数后得到无理数，代入无理数后得到有理数，那么这个函数是否一定不连续？",
+      "url": "https://www.zhihu.com/answer/855953273",
+      "summary": "假设连续后由像集连通性推出矛盾。"
+    },
+    {
+      "title": "方程 cosx＝x 的实数解是无理数吗？",
+      "url": "https://www.zhihu.com/answer/861847883",
+      "summary": "假设根为代数数并连续推出矛盾。"
+    },
+    {
+      "title": "如何证明e为无理数?",
+      "url": "https://www.zhihu.com/answer/868684204",
+      "summary": "证明先假设 e 为有理数，再由尾和应为整数却小于 1 导出矛盾，完整使用反证法。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/875789850",
+      "summary": "正文先假设不存在交际花，再逐步推出 k>2 与 k=2 的矛盾，完整采用反证法。"
+    },
+    {
+      "title": "维尔斯如何证明费马大定理？",
+      "url": "https://www.zhihu.com/answer/882372835",
+      "summary": "假设反例存在并借模表示降级推出矛盾。"
+    },
+    {
+      "title": "数学家用很长时间证明等周问题是在追求什么？",
+      "url": "https://www.zhihu.com/answer/890930750",
+      "summary": "正文用反证法证明面积极大图形必为凸图形，并继续用反证推出半圆。"
+    },
+    {
+      "title": "如何证明10进制转化为8进制是唯一的？",
+      "url": "https://www.zhihu.com/answer/921748451",
+      "summary": "正文明确采用反证法论证八进制表示的唯一性。"
+    },
+    {
+      "title": "如何证明：任取 7 个无理数，其中是否都存在 4 个数，其两两之和均为无理数？",
+      "url": "https://www.zhihu.com/answer/926585364",
+      "summary": "正文明确反设不存在红K4并逐步推出蓝K3矛盾，核心证明法为反证。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/984107243",
+      "summary": "正文通过行和列求和得到相反符号，形成反证。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/986191783",
+      "summary": "正文核心下降步骤以反证法否定最小整数 m 大于 1。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/990415393",
+      "summary": "正文以最小反例和韦达跳跃完成矛盾证明。"
+    },
+    {
+      "title": "你知道哪些反常识的知识？",
+      "url": "https://www.zhihu.com/answer/996799957",
+      "summary": "正文明确解释由矛盾推出对象不存在的反证结构。"
+    },
+    {
+      "title": "有哪些看起来高大上实际上非常容易证明的数学命题？",
+      "url": "https://www.zhihu.com/answer/1003579263",
+      "summary": "正文完整使用反证法证明希尔维斯特-加莱定理。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1012066901",
+      "summary": "正文的欧几里得与拓扑证明都通过假设素数有限导出矛盾。"
+    },
+    {
+      "title": "为什么会有数学家反对对无穷集合使用排中律？",
+      "url": "https://www.zhihu.com/answer/1045250126",
+      "summary": "正文讨论反证法产生的非构造性存在证明。"
+    },
+    {
+      "title": "你遇到的最难的一个数学题是什么？",
+      "url": "https://www.zhihu.com/answer/1065979279",
+      "summary": "正文解释无穷递降法如何通过反证排除假定解。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1066267726",
+      "summary": "正文假设e为分数并导出区间内必须存在整数的矛盾。"
+    },
+    {
+      "title": "能否构造一组无理数a,b，使得a^b是有理数?",
+      "url": "https://www.zhihu.com/answer/1070717781",
+      "summary": "正文假设对数为有理数并借超越性或整数幂导出矛盾。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1091404095",
+      "summary": "正文完整展示反证法的假设与矛盾构造。"
+    },
+    {
+      "title": "a，b，c，d 是正实数，且 a²＋b²＋c²＋d²＋abcd＝5，怎么证明 a＋b＋c＋d≤4？",
+      "url": "https://www.zhihu.com/answer/1121219583",
+      "summary": "正文明确以反证设定并推出矛盾。"
+    },
+    {
+      "title": "为什么 sin(x)/x 积不出来？",
+      "url": "https://www.zhihu.com/answer/1121660700",
+      "summary": "正文假设存在初等原函数，再由极点性质推出矛盾。"
+    },
+    {
+      "title": "如何证明 不存在两个有理数a、b，使得 a＋√b=³√2？",
+      "url": "https://www.zhihu.com/answer/1126628461",
+      "summary": "正文从假设表示成立逐步推出有理性矛盾。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1140536422",
+      "summary": "正文清楚呈现有限域Kakeya问题中的反证结构。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/1146635520",
+      "summary": "正文两个丢番图方程例子均以反证法推导矛盾。"
+    },
+    {
+      "title": "只用1、2、3、4、5、6、7、8、9和0写出一个数字，每个数只用一次，能写出最大的数是多少？",
+      "url": "https://www.zhihu.com/answer/1165803299",
+      "summary": "正文假设存在最大运算，再构造加一的新运算导出矛盾。"
+    },
+    {
+      "title": "命题「若 p，则 q」和「若 p，则非 q」的关系是什么？",
+      "url": "https://www.zhihu.com/answer/1200328393",
+      "summary": "正文解释蕴含、逆否命题及反证法的逻辑结构。"
+    },
+    {
+      "title": "√2+³√3 是有理数，还是无理数？为什么？",
+      "url": "https://www.zhihu.com/answer/1225243714",
+      "summary": "全文先假设结果为有理数，再导出矛盾。"
+    },
+    {
+      "title": "上帝悖论是否有解？",
+      "url": "https://www.zhihu.com/answer/1269773647",
+      "summary": "正文用罗素型构造和幂集推出矛盾。"
+    },
+    {
+      "title": "为什么 a ³＋3b³＝9c³ 的整数解只有 a＝b＝c＝0？",
+      "url": "https://www.zhihu.com/answer/1276354147",
+      "summary": "正文用最小解构造更小解并导出矛盾。"
+    },
+    {
+      "title": "为什么被积函数大于零，积分结果就大于零？",
+      "url": "https://www.zhihu.com/answer/1281182043",
+      "summary": "正文通过反证法和闭区间套排除积分等于零。"
+    },
+    {
+      "title": "如何看待人教版教材疑似出现低级错误，用爱因斯坦相对论证明勾股定理？",
+      "url": "https://www.zhihu.com/answer/1289230833",
+      "summary": "正文通过错误证明示例说明逻辑链条必须成立。"
+    },
+    {
+      "title": "如何反驳三江方士的中华级数？",
+      "url": "https://www.zhihu.com/answer/1364955665",
+      "summary": "正文假设调和级数收敛并推出矛盾。"
+    },
+    {
+      "title": "怎样用一个普通人能看懂的方法证明 π 是无理数？",
+      "url": "https://www.zhihu.com/answer/1365387397",
+      "summary": "正文通过反证和整数性矛盾证明圆周率不是有理数。"
+    },
+    {
+      "title": "√2和√3是否存在无穷长度完全相同的字符串？如何证明？",
+      "url": "https://www.zhihu.com/answer/1402268057",
+      "summary": "正文用反证法证明两个无理数不存在无限相同小数尾段。"
+    },
+    {
+      "title": "3和4之间会不会还存在一个整数？",
+      "url": "https://www.zhihu.com/answer/1452737684",
+      "summary": "正文直接讲解或推导“反证法”相关内容。"
+    },
+    {
+      "title": "看到了一个imo试题，自己瞎做了一下午解出来了（本人乡下学渣，没接触过竞赛），大佬们看看我做的对吗？",
+      "url": "https://www.zhihu.com/answer/1456012412",
+      "summary": "正文以反证和最小反例完成 IMO 问题的证明。"
+    },
+    {
+      "title": "p 和 q 是质数，怎么证明根号 p 加根号 q 是无理数？",
+      "url": "https://www.zhihu.com/answer/1496090867",
+      "summary": "正文直接给出与「反证法」相关的解释、推导或应用。"
+    },
+    {
+      "title": "p 和 q 是质数，怎么证明根号 p 加根号 q 是无理数？",
+      "url": "https://www.zhihu.com/answer/1496121375",
+      "summary": "正文直接给出与「反证法」相关的解释、推导或应用。"
+    },
+    {
+      "title": "人们为什么会发现无理数，他们为什么不认为是测量不精确？",
+      "url": "https://www.zhihu.com/answer/1516130967",
+      "summary": "正文完整使用反证法证明根号二不是有理数。"
+    },
+    {
+      "title": "人们为什么会发现无理数，他们为什么不认为是测量不精确？",
+      "url": "https://www.zhihu.com/answer/1526167047",
+      "summary": "正文直接讨论反证法，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "如何证明y＝cosx²不是周期函数？",
+      "url": "https://www.zhihu.com/answer/1529444453",
+      "summary": "正文直接讨论反证法，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "如何在方格纸上画出一个含有30度角的直角三角形，且顶点都在格点上？",
+      "url": "https://www.zhihu.com/answer/1534022866",
+      "summary": "正文直接讨论反证法，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "是否存在维数为可数的无穷维Banach空间？",
+      "url": "https://www.zhihu.com/answer/1535128409",
+      "summary": "正文直接讨论反证法，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "为什么逻辑学三定律（同一律、矛盾律、排中律）不能被违反，违反会怎样？",
+      "url": "https://www.zhihu.com/answer/1545108871",
+      "summary": "正文直接讨论反证法，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "既然两个分数理论上来说可以无限接近，那么为什么还会出现无理数？",
+      "url": "https://www.zhihu.com/answer/1551413975",
+      "summary": "正文用反证法证明根号二不是有理数。"
+    },
+    {
+      "title": "x^5＋ax^4＋bx^3＋c＝0，证明不能有五个不同的实根，怎么证明，谢谢各位？",
+      "url": "https://www.zhihu.com/answer/1623902069",
+      "summary": "正文通过反设根结构并导出矛盾证明结论。"
+    },
+    {
+      "title": "为什么不存在一个连续函数，其值在有理数处是无理数，在无理数处是有理数？",
+      "url": "https://www.zhihu.com/answer/1680843974",
+      "summary": "正文通过反证与连通性推出矛盾。"
+    },
+    {
+      "title": "为什么不存在一个连续函数，其值在有理数处是无理数，在无理数处是有理数？",
+      "url": "https://www.zhihu.com/answer/1681558532",
+      "summary": "正文用连续函数介值性推出矛盾，证明函数不存在。"
+    },
+    {
+      "title": "如何证明一个数为无理数？",
+      "url": "https://www.zhihu.com/answer/1712861651",
+      "summary": "正文完整展示 √2 无理性的反证法证明。"
+    },
+    {
+      "title": "能否通俗地解释下密码学中的归约证明？",
+      "url": "https://www.zhihu.com/answer/1737942968",
+      "summary": "正文直接讨论或推导「反证法」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "哪些数学命题可以用复数优雅地证明？",
+      "url": "https://www.zhihu.com/answer/1764445317",
+      "summary": "正文明确以反证法证明代数基本定理。"
+    },
+    {
+      "title": "为什么总有数学专业的人觉得自己什么都懂？",
+      "url": "https://www.zhihu.com/answer/1803969720",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "有哪些数学问题一看就知道是对的，但是细细证起来反而很难？",
+      "url": "https://www.zhihu.com/answer/1894401715",
+      "summary": "正文先假设有理再推出整数与趋于零的正量矛盾。"
+    },
+    {
+      "title": "将1~100填入10x10方格中，如何证明：无论怎么填，都无法使任意两个相邻格子的数的差都小于10？",
+      "url": "https://www.zhihu.com/answer/1894693911",
+      "summary": "正文通过反设相邻差上界并构造互相矛盾的集合完成证明。"
+    },
+    {
+      "title": "有没有可能一个数学证明是错的，然而所有人都没注意到呢？",
+      "url": "https://www.zhihu.com/answer/1947344562",
+      "summary": "正文具体解释反证法（归谬法）的证明结构。"
+    },
+    {
+      "title": "p 和 q 是质数，怎么证明根号 p 加根号 q 是无理数？",
+      "url": "https://www.zhihu.com/answer/1954857057",
+      "summary": "正文用共轭映射和反证法证明根号之和为无理数。"
+    },
+    {
+      "title": "如何通俗地理解「韦达跳跃」，如何证明？",
+      "url": "https://www.zhihu.com/answer/1972105146",
+      "summary": "韦达跳跃通过构造更小解并制造矛盾来完成反证。"
+    },
+    {
+      "title": "怎样证明（根号2＋3次根号2）是无理数？",
+      "url": "https://www.zhihu.com/answer/1978910190",
+      "summary": "证明通过假设该数为有理数导出矛盾。"
+    },
+    {
+      "title": "由 x²+x+1=0 得到 3=0 错在何处？",
+      "url": "https://www.zhihu.com/answer/2009289329",
+      "summary": "正文强调从错误前提出发可得荒谬结论。"
+    },
+    {
+      "title": "如何证明 √2 + √3 + √5 是无理数？",
+      "url": "https://www.zhihu.com/answer/2020009647",
+      "summary": "正文通过推出矛盾完成反证。"
+    },
+    {
+      "title": "如何证明 √2 + √3 + √5 是无理数？",
+      "url": "https://www.zhihu.com/answer/2022117169",
+      "summary": "正文反复采用假设有理数并推出矛盾的反证法。"
+    },
+    {
+      "title": "如何证明 √2 + √3 + √5 是无理数？",
+      "url": "https://www.zhihu.com/answer/2022432495",
+      "summary": "正文通过反设得到矛盾完成证明。"
+    },
+    {
+      "title": "如何证明 √2 + √3 + √5 是无理数？",
+      "url": "https://www.zhihu.com/answer/2026865797",
+      "summary": "正文采用反设有理数并推出矛盾的方法。"
+    },
+    {
+      "title": "如何证明 √2 + √3 + √5 是无理数？",
+      "url": "https://www.zhihu.com/answer/2032928614",
+      "summary": "正文通过代数关系与无理数事实推出有理假设不成立。"
+    },
+    {
+      "title": "设平面无限点集 S 满足任意两点的距离都是正整数，如何证明 S 中的点全共线？",
+      "url": "https://www.zhihu.com/answer/2076208051",
+      "summary": "正文用反证法证明整数距离无限点集必共线。"
+    },
+    {
+      "title": "连续的周期函数都有最小正周期吗？",
+      "url": "https://www.zhihu.com/answer/2089965044",
+      "summary": "正文假设不存在最小正周期并导出函数恒为常数。"
+    },
+    {
+      "title": "当数字华容道初始状态是取出来乱放的，是否会有无解？",
+      "url": "https://www.zhihu.com/answer/2095822236",
+      "summary": "正文利用逆序对奇偶不变量证明无解情形。"
+    },
+    {
+      "title": "tan1是有理数吗?",
+      "url": "https://www.zhihu.com/answer/2101477642",
+      "summary": "正文以反证法论证相关函数比例不可能为有理数。"
+    },
+    {
+      "title": "有哪些长期无人能解但实际解法很简单的数学问题？",
+      "url": "https://www.zhihu.com/answer/2102244539",
+      "summary": "正文通过构造更小距离的线点对导出矛盾。"
+    },
+    {
+      "title": "tan1是有理数吗?",
+      "url": "https://www.zhihu.com/answer/2103245914",
+      "summary": "正文用Lindemann-Weierstrass定理反证三角函数值的代数性。"
+    },
+    {
+      "title": "如果男女在智力水平上没有差别，但棋类运动女显著弱于男，这是否是对女性的歧视导致的？",
+      "url": "https://www.zhihu.com/answer/2131834155",
+      "summary": "正文以论证与观测冲突说明前提错误，并明确称为反证法。"
+    },
+    {
+      "title": "看到了一个imo试题，自己瞎做了一下午解出来了（本人乡下学渣，没接触过竞赛），大佬们看看我做的对吗？",
+      "url": "https://www.zhihu.com/answer/2244921639",
+      "summary": "正文明确以反证法和无穷递降法完成证明。"
+    },
+    {
+      "title": "你所知道的最冷的国际象棋知识是什么？",
+      "url": "https://www.zhihu.com/answer/2287900879",
+      "summary": "正文在国际象棋回溯分析题中通过反证排除不可能的棋局历史。"
+    },
+    {
+      "title": "怎么证明圆周率的平方 π² 是无理数？",
+      "url": "https://www.zhihu.com/answer/2301832768",
+      "summary": "正文假设圆周率平方为有理数，再通过积分估计制造矛盾。"
+    },
+    {
+      "title": "怎么证明e的平方是无理数？",
+      "url": "https://www.zhihu.com/answer/2314501386",
+      "summary": "正文以反设其为有理数并导出整数矛盾的证明完成结论。"
+    },
+    {
+      "title": "两个不相等的有理数之间一定存在一个无理数吗？",
+      "url": "https://www.zhihu.com/answer/2328542124",
+      "summary": "正文通过反证构造矛盾证明结论。"
+    },
+    {
+      "title": "是否存在连续函数满足f(x)=f(2x)且不为常函数？",
+      "url": "https://www.zhihu.com/answer/2378404724",
+      "summary": "正文用连续性导出的两点取值矛盾证明定义域不能包含零。"
+    },
+    {
+      "title": "4≤5，这个不等式是否正确？",
+      "url": "https://www.zhihu.com/answer/2381032311",
+      "summary": "正文区分互补命题与对立命题，并说明反证法应假设待证命题的否命题。"
+    },
+    {
+      "title": "导函数为什么没有第一类间断点？",
+      "url": "https://www.zhihu.com/answer/2422077996",
+      "summary": "正文明确采用反证法证明导函数不含第一类间断点。"
+    },
+    {
+      "title": "如何评价 2022 阿里巴巴数学竞赛题目？",
+      "url": "https://www.zhihu.com/answer/2459077526",
+      "summary": "正文以反证法构造证明，并明确写出反设与矛盾。"
+    },
+    {
+      "title": "如何证明一次函数的图像不能同时经过四个象限?",
+      "url": "https://www.zhihu.com/answer/2493624054",
+      "summary": "正文明确采用反证法，并最终导出正数之和等于零的矛盾。"
+    },
+    {
+      "title": "如何证明一次函数的图像不能同时经过四个象限?",
+      "url": "https://www.zhihu.com/answer/2497619846",
+      "summary": "正文用反证法假设直线经过四个象限并推出斜率正负矛盾。"
+    },
+    {
+      "title": "号称高考史上最难得数学题，08年江西数学最后一道压轴题有人解出来吗？",
+      "url": "https://www.zhihu.com/answer/2535253739",
+      "summary": "分别假设和不超过 1、不小于 2，并推出矛盾，属于反证法。"
+    },
+    {
+      "title": "如何证明两个有理数平方和不能为 7？",
+      "url": "https://www.zhihu.com/answer/2535657857",
+      "summary": "先假设方程有互素正整数解，再推出新的公因子，构成反证。"
+    },
+    {
+      "title": "数学证明的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2535855467",
+      "summary": "说明通过假设存在并导出矛盾来证明不存在性命题。"
+    },
+    {
+      "title": "是否存在从 (0,1) 到 [0,1] 的连续双射？",
+      "url": "https://www.zhihu.com/answer/2555799041",
+      "summary": "正文先假设值域取到最小值，再借介值性构造两处相同函数值，以与单射矛盾，证明开区间连续单射不可能映到闭区间。"
+    },
+    {
+      "title": "√√2是什么数？",
+      "url": "https://www.zhihu.com/answer/2556536195",
+      "summary": "假设四次根号 2 可写成互质分数，推出分子分母都为偶数而矛盾。"
+    },
+    {
+      "title": "是否存在从 (0,1) 到 [0,1] 的连续双射？",
+      "url": "https://www.zhihu.com/answer/2558412109",
+      "summary": "假设不连续点有限并推出像集既开又闭的矛盾，完成反证。"
+    },
+    {
+      "title": "f(2x-f(x))恒等于g(2x-g(x)),为什么f(x)=g(x)？",
+      "url": "https://www.zhihu.com/answer/2566881562",
+      "summary": "分别讨论差分表达式的正负，通过令迭代次数趋于正负无穷导出矛盾。"
+    },
+    {
+      "title": "如何评价第 63 届国际奥林匹克数学竞赛（IMO）?",
+      "url": "https://www.zhihu.com/answer/2570558789",
+      "summary": "假设集合 A 非空并推出 phi 的迭代关系矛盾，从而证明 f(x)≤1/x。"
+    },
+    {
+      "title": "如何证明 lg3 是无理数？",
+      "url": "https://www.zhihu.com/answer/2577696889",
+      "summary": "通过有理数假设推出 10^p=3^q 的奇偶矛盾，完成反证。"
+    },
+    {
+      "title": "如何证明根号 2 是无理数？",
+      "url": "https://www.zhihu.com/answer/2579281979",
+      "summary": "先反设根号 2 为有理数，再构造无限递减的正整数序列导出矛盾。"
+    },
+    {
+      "title": "如何证明根号 2 是无理数？",
+      "url": "https://www.zhihu.com/answer/2595789421",
+      "summary": "先假设根号 2 为有理数，再推出与正整数下界矛盾，属于反证法。"
+    },
+    {
+      "title": "如何真正从本质上理解数学?",
+      "url": "https://www.zhihu.com/answer/2600766030",
+      "summary": "把反证法概括为先接受假设、推出矛盾从而否定原命题的思维方式。"
+    },
+    {
+      "title": "什么是真正的数学思维？",
+      "url": "https://www.zhihu.com/answer/2609755669",
+      "summary": "以先假设对方正确、推到自相矛盾的方式解释反证法思维。"
+    },
+    {
+      "title": "如何解决如下这道数学题？",
+      "url": "https://www.zhihu.com/answer/2614942577",
+      "summary": "反设指数 c 落在相邻整数之间，再推出差分不可能恒为整数。"
+    },
+    {
+      "title": "怎么反驳：10元=100毛=10毛X10毛=1元X1元=1元？",
+      "url": "https://www.zhihu.com/answer/2625961335",
+      "summary": "反设单位等于固定数值，导出元=毛的矛盾，从而证明单位不能当普通数平方。"
+    },
+    {
+      "title": "如何证明根号 2 是无理数？",
+      "url": "https://www.zhihu.com/answer/2654473135",
+      "summary": "通过假设根号 2 为有理数并导出与最小整数矛盾来完成反证。"
+    },
+    {
+      "title": "怎样简洁明了地证明实数集不可数?",
+      "url": "https://www.zhihu.com/answer/2669620058",
+      "summary": "正文以假设实数集可数出发构造矛盾，是完整的反证法证明。"
+    },
+    {
+      "title": "如何证明 f(x) 在 [0,1] 上最多只有有限个零点？",
+      "url": "https://www.zhihu.com/answer/2673774711",
+      "summary": "正文从零点无穷多的假设出发，利用极限和可导性推出与题设矛盾，完整采用反证法。"
+    },
+    {
+      "title": "理发师悖论怎么破？",
+      "url": "https://www.zhihu.com/answer/2686232059",
+      "summary": "正文明确以反证法假设存在映射到构造集合C的元素，并由自指矛盾说明假设不成立。"
+    },
+    {
+      "title": "如何证明既无最大值又无最小值的数列必发散？",
+      "url": "https://www.zhihu.com/answer/2690725303",
+      "summary": "正文先假设该数列收敛并推出矛盾，是完整的反证法证明。"
+    },
+    {
+      "title": "limsin n数列极限为什么不存在?",
+      "url": "https://www.zhihu.com/answer/2692160132",
+      "summary": "正文先假设sin n的极限存在，再通过导出矛盾推翻假设，是明确的反证法。"
+    },
+    {
+      "title": "把[0，1]这个区间里的所有实数相加，得出的结果是无穷大吗？",
+      "url": "https://www.zhihu.com/answer/2692186981",
+      "summary": "正文先假设集合可数，再分别通过构造遗漏实数和导出至多可数来得到矛盾。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2695483892",
+      "summary": "正文先假设对称区间上的广义积分为零，再推出其发散到正无穷，以矛盾否定原假设。"
+    },
+    {
+      "title": "什么严格的实增函数满足f'(x)=f(f(x))?",
+      "url": "https://www.zhihu.com/answer/2696667552",
+      "summary": "正文先假定满足条件的函数存在，逐步推导出矛盾后否定其存在，构成反证法。"
+    },
+    {
+      "title": "Python中给定一个数组a = [2,3,9,1,0]，找出其中最大的一个数，并打印出来 求解?",
+      "url": "https://www.zhihu.com/answer/2699763271",
+      "summary": "正文先否定目标结论，再试图从替代上确界导出矛盾，以证明最大值为 9。"
+    },
+    {
+      "title": "通过将一个观点极端化来反对这个观点，这种反驳方式叫什么？有无术语？",
+      "url": "https://www.zhihu.com/answer/2709229863",
+      "summary": "系统区分归谬与滑坡谬误，并解释反证法的假设与导出矛盾结构。"
+    },
+    {
+      "title": "为什么费马大定理在数学史上的地位如此重要？",
+      "url": "https://www.zhihu.com/answer/2712661256",
+      "summary": "说明弗赖如何由假设存在解导出与谷山—志村猜想矛盾的椭圆曲线。"
+    },
+    {
+      "title": "小学数学为什么不从集合论学起？",
+      "url": "https://www.zhihu.com/answer/2721773538",
+      "summary": "正文解释反证法的逻辑依据，并用它证明罗素悖论及零不是任何自然数的后继。"
+    },
+    {
+      "title": "怎么证明圆周率π是无理数不是有理数?",
+      "url": "https://www.zhihu.com/answer/2722828173",
+      "summary": "正文先假设 π 为有理数，证明同一积分既必为整数又落在 0 与 1 之间，以矛盾否定原假设。"
+    },
+    {
+      "title": "如何看待知乎用户@MJX99证明了考拉玆猜想？",
+      "url": "https://www.zhihu.com/answer/2729049708",
+      "summary": "正文解释原证明如何用“存在路径却进环”会导出抵达方式不唯一的矛盾来排除环路。"
+    },
+    {
+      "title": "你见过最有趣的数学笑话是什么？",
+      "url": "https://www.zhihu.com/answer/2744902217",
+      "summary": "正文用“最小不有趣正整数”的反证结构演示一则伪证明并制造悖论效果。"
+    },
+    {
+      "title": "如何证明sin n²发散?",
+      "url": "https://www.zhihu.com/answer/2747006239",
+      "summary": "正文先假设数列收敛，再导出极限点数量上的矛盾，具体展示了反证法。"
+    },
+    {
+      "title": "数学家张益唐攻克 Landau-Siegel 零点猜想相关论文发布，如何评价这一研究的成果及意义？",
+      "url": "https://www.zhihu.com/answer/2749423724",
+      "summary": "正文明确采用反证结构：假定相关序列非负，推出前后两个估计的大小关系矛盾。"
+    },
+    {
+      "title": "数学家张益唐攻克 Landau-Siegel 零点猜想相关论文发布，如何评价这一研究的成果及意义？",
+      "url": "https://www.zhihu.com/answer/2749647327",
+      "summary": "正文以“若零点存在则可推出矛盾”为核心证明结构，展示反证法。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2756020498",
+      "summary": "正文对 e 和 π 的无理性证明都明确采用反证法，先假设其为有理数再推出矛盾。"
+    },
+    {
+      "title": "在 n 到 2n 中总是存在至少一个质数吗？",
+      "url": "https://www.zhihu.com/answer/2758131164",
+      "summary": "正文在核心证明中反设区间 (n,2n] 内没有质数，由组合数的上下界推出矛盾。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2759771876",
+      "summary": "正文先假设三次根号二可写为整数之比，再导出整数方程矛盾，构成完整的反证法。"
+    },
+    {
+      "title": "P=1!·2!...99!·100! ; Q =P/s!是自然数的完全平方,自然数 s 的值是多少？",
+      "url": "https://www.zhihu.com/answer/2769262578",
+      "summary": "正文在构造特解后用素因子的成对出现要求导出矛盾，从而证明 s=50 是唯一解。"
+    },
+    {
+      "title": "为什么在数轴上随便取一个点，（几乎）一定取到的是无理数？",
+      "url": "https://www.zhihu.com/answer/2774116089",
+      "summary": "正文假设区间可数并用对角线构造反例，证明实数集不可数，展示了反证法的应用。"
+    },
+    {
+      "title": "100是最大的数吗？",
+      "url": "https://www.zhihu.com/answer/2777919811",
+      "summary": "正文以反证法为主线，先假设存在大于 100 的有限常数，再通过一串推导得到矛盾并否定该假设。"
+    },
+    {
+      "title": "100是最大的数吗？",
+      "url": "https://www.zhihu.com/answer/2778412859",
+      "summary": "正文先假设存在另一个最大数，再由 p+1 大于 p 得到矛盾，展示了一个反证法论证。"
+    },
+    {
+      "title": "100是最大的数吗？",
+      "url": "https://www.zhihu.com/answer/2778429196",
+      "summary": "正文多次先作反设、再宣称导出矛盾以否定反设，其中第三套证明明确采用了反证法结构。"
+    },
+    {
+      "title": "一粒谷子不算谷堆，再加一点也不算，以此类推加到一万粒也不算，该如何解决这样的谷堆悖论？",
+      "url": "https://www.zhihu.com/answer/2815064924",
+      "summary": "正文用反证法假设存在由 n 粒到 n+1 粒的临界，进而说明谷堆的实体式定义会导出荒谬结论。"
+    },
+    {
+      "title": "数学归纳法是不是「流氓」方法？",
+      "url": "https://www.zhihu.com/answer/2834499601",
+      "summary": "正文解释无穷递降法与归纳法等价，并说明它通常通过反证否定满足条件的答案存在。"
+    },
+    {
+      "title": "如何从零开始学习凸优化？",
+      "url": "https://www.zhihu.com/answer/2900977688",
+      "summary": "正文先假设存在反例成立，再推出与最近点 d 的最小距离性质矛盾，用反证法完成证明。"
+    },
+    {
+      "title": "五年级的孩子学到了无限循环小数，问「为什么 0.9 的无限循环就是1」，如何才能通俗地解释？",
+      "url": "https://www.zhihu.com/answer/2906774961",
+      "summary": "正文先假设两者不等并推出固定正差，再指出这与差小于任意固定正数矛盾，构成反证论证。"
+    },
+    {
+      "title": "如何通俗地理解哥德尔不完备定理？",
+      "url": "https://www.zhihu.com/answer/2916484836",
+      "summary": "正文以说谎者式自指为例，通过分别假定命题为真和为假导出矛盾，展示反证式论证。"
+    },
+    {
+      "title": "数学中有哪些看似简单但用途很大的定理?",
+      "url": "https://www.zhihu.com/answer/2923372184",
+      "summary": "正文先假设无穷次可微函数不是多项式，再通过Baire纲定理导出与假设矛盾，完整演示了反证法。"
+    },
+    {
+      "title": "组合数学有没有高等工具？",
+      "url": "https://www.zhihu.com/answer/2942874184",
+      "summary": "正文先反设元素出现频率的上界低于目标值，再由熵大小矛盾排除该假设。"
+    },
+    {
+      "title": "如何证明素数无穷多？",
+      "url": "https://www.zhihu.com/answer/2947405207",
+      "summary": "正文先假设素数只有有限个，再推出 ±1 集既开又导致矛盾，使用的是反证法。"
+    },
+    {
+      "title": "如何证明素数无穷多？",
+      "url": "https://www.zhihu.com/answer/2948817564",
+      "summary": "正文先假设素数只有有限个，再构造与假设矛盾的新素因子，从而完成反证。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2951972866",
+      "summary": "正文先假设数列收敛，再结合柯西收敛准则和有理数稠密性推出矛盾，完整演示反证法。"
+    },
+    {
+      "title": "如何证明 √2 + √3 + √5 是无理数？",
+      "url": "https://www.zhihu.com/answer/2953224474",
+      "summary": "正文反复假设根式和等于有理数，通过移项、平方化简导出某个根式也是有理数而得到矛盾。"
+    },
+    {
+      "title": "0.010010001……是无理数吗？",
+      "url": "https://www.zhihu.com/answer/2955256250",
+      "summary": "正文先假设该数是有理数并写成互素整数之比，再通过放大尾项得到小于1的正整数矛盾。"
+    },
+    {
+      "title": "计算机科学界对图灵机的【停机】这一概念是如何约定的？",
+      "url": "https://www.zhihu.com/answer/2964167111",
+      "summary": "正文假设存在判定函数并构造自我否定的返回值，由矛盾说明该函数不可能存在。"
+    },
+    {
+      "title": "数学中你可以“注意到”什么地步?",
+      "url": "https://www.zhihu.com/answer/2971776585",
+      "summary": "正文先假设满足条件的整数存在，再由平方差恒等式导出不可能情形，构成反证法证明。"
+    },
+    {
+      "title": "数学中你可以“注意到”什么地步?",
+      "url": "https://www.zhihu.com/answer/2972446531",
+      "summary": "正文在假设存在不属于 K 的元素后导出交换关系矛盾，从而以反证法完成证明。"
+    },
+    {
+      "title": "数学中你可以“注意到”什么地步?",
+      "url": "https://www.zhihu.com/answer/2972458032",
+      "summary": "正文利用棋盘黑白相间及同色对角格，导出覆盖后黑白格数相等的矛盾来证明无法填满。"
+    },
+    {
+      "title": "如何证明素数无穷多？",
+      "url": "https://www.zhihu.com/answer/2978213835",
+      "summary": "正文从有限素数假设推出乘积同时大于零又等于零的矛盾，使用了反证法。"
+    },
+    {
+      "title": "有哪些数学上的定理让你感觉「这不显然吗，这还用证明」？",
+      "url": "https://www.zhihu.com/answer/2991444239",
+      "summary": "正文在 Banach 引理的证明中明确采用反证法，推出反设与最大分离集的性质矛盾。"
+    },
+    {
+      "title": "数学里有哪些精彩的伪证？",
+      "url": "https://www.zhihu.com/answer/2994114504",
+      "summary": "正文分别假设自指句为真或为假并推出相反真值，连续展示了由假设导向矛盾的推理。"
+    },
+    {
+      "title": "质数为什么有无穷个？",
+      "url": "https://www.zhihu.com/answer/2997692867",
+      "summary": "正文先假设素数只有有限个，再导出乘积加一既非素数又非合数，完整体现了反证法。"
+    },
+    {
+      "title": "为什么37°和53°的正余弦值是无限不循环小数？",
+      "url": "https://www.zhihu.com/answer/3005529727",
+      "summary": "正文先假设 sin37° 为有理数，再通过恒等变形导出 sqrt3 为有理数的矛盾。"
+    },
+    {
+      "title": "如何反驳“你连例子都举不出来，那么你肯定是在撒谎”?",
+      "url": "https://www.zhihu.com/answer/3006025318",
+      "summary": "正文明确采用反证法，由后手必胜策略借助对称性和主动 pass 推出先手必胜的矛盾。"
+    },
+    {
+      "title": "任一四面体，必有一顶点，从它出发的三条棱可以做一个三角形的三边，这是真的吗？",
+      "url": "https://www.zhihu.com/answer/3083134421",
+      "summary": "正文以“任一顶点出发的三条棱都不能构成三角形”为反设，由最长棱导出两组不等式并推出矛盾，完成了反证法。"
+    },
+    {
+      "title": "9是个位数里最大的数字，99是十位数里最大的数字，那么以此类推，世界上最大的数字就是奇数，有没有问题？",
+      "url": "https://www.zhihu.com/answer/3091913561",
+      "summary": "正文先由最大整数的假设推出其为奇数，再反设并推得违反最大性，从而用矛盾否定最大整数存在。"
+    },
+    {
+      "title": "如何证明：两个数之间必有无穷多个无理数?",
+      "url": "https://www.zhihu.com/answer/3097483831",
+      "summary": "正文反设区间内无理数只有有限多个，再构造更大的无理数形成矛盾。"
+    },
+    {
+      "title": "有哪些历史上数学证明与推导，直接刷新你当时认知观？",
+      "url": "https://www.zhihu.com/answer/3120866837",
+      "summary": "正文从素数有限的假设推出整数集上拓扑矛盾，从而完成反证。"
+    },
+    {
+      "title": "如何证明素数无穷多？",
+      "url": "https://www.zhihu.com/answer/3121132182",
+      "summary": "正文先假设素数只有有限个，再由欧拉乘积和调和级数发散导出矛盾。"
+    },
+    {
+      "title": "为什么不存在收敛速度最慢的级数？",
+      "url": "https://www.zhihu.com/answer/3143609225",
+      "summary": "正文以先假设存在最慢收敛级数、再导出更慢级数的方式说明反证思路。"
+    },
+    {
+      "title": "在任意拓扑空间X中任给两个拓扑τ和σ，是否必然存在一个同时细于τ和σ的最粗糙的拓扑？",
+      "url": "https://www.zhihu.com/answer/3146158632",
+      "summary": "正文在证明拓扑闭包达到稳定拓扑时，明确采用反证法并由真类矛盾导出结论。"
+    },
+    {
+      "title": "命题「任何一个自然数都可以用二十个以内汉字描述出来」的错误在哪？",
+      "url": "https://www.zhihu.com/answer/3160765024",
+      "summary": "正文分析原反证实际证明了什么，并指出把“存在映射”偷换为“同一映射”导致结论不成立。"
+    },
+    {
+      "title": "A、B为n阶矩阵，且E-AB可逆，如何证明E-BA也是可逆的？",
+      "url": "https://www.zhihu.com/answer/3191847051",
+      "summary": "正文给出反证法，从 E-BA 不可逆推出 E-AB 不可逆，与题设矛盾。"
+    },
+    {
+      "title": "什么是 surreal number？",
+      "url": "https://www.zhihu.com/answer/3204209383",
+      "summary": "正文在证明次序关系传递性时先假设反例存在，再由天数无穷递降导出矛盾，具体演示了反证法。"
+    },
+    {
+      "title": "看了毕导的年更新视频sub(n,n,17)之后，你有何感想？",
+      "url": "https://www.zhihu.com/answer/3210380622",
+      "summary": "正文从皮亚诺算术一致性推出系统内同时可证明命题及其否定，再用反证法排除原假设。"
+    },
+    {
+      "title": "a+a+a=b+b，已知a+b=30，请问a等于多少b等于多少?",
+      "url": "https://www.zhihu.com/answer/3223565429",
+      "summary": "正文先假定 58 等于 3，再沿后继关系反推直至与 1 不是任何数后继的规则矛盾，从而完成反证。"
+    },
+    {
+      "title": "数学上有哪些非常奇葩的证明？",
+      "url": "https://www.zhihu.com/answer/3232945939",
+      "summary": "正文先假设根号二为有理数，再借助五进域中的根存在性矛盾完成反证。"
+    },
+    {
+      "title": "我站在一个直径无限大的圆边，怎么知道我在圆内还是圆外？",
+      "url": "https://www.zhihu.com/answer/3249692530",
+      "summary": "正文先假设站在圆外，再借直径无限大的条件引出矛盾，并用反证法推出站在圆内。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/3266478227",
+      "summary": "正文先假设满足条件的数列存在，再分别计算横排与竖列总和得到奇偶性矛盾，完整展示了反证法。"
+    },
+    {
+      "title": "不可测集的构造是怎么想到的?",
+      "url": "https://www.zhihu.com/answer/3276037526",
+      "summary": "正文通过零测集覆盖正测度集导出矛盾，以此证明不存在满足给定条件的测度。"
+    },
+    {
+      "title": "如何构造 ℝ 到 ℝ / ℚ （商集）的双射？",
+      "url": "https://www.zhihu.com/answer/3279865400",
+      "summary": "正文用有理不变集的零一律讨论目标集合可测时的两种测度情形并逐一导出矛盾，完成不可测集结论的反证。"
+    },
+    {
+      "title": "有可能制作出生物计算机吗？",
+      "url": "https://www.zhihu.com/answer/3290651507",
+      "summary": "正文具体说明图灵用归谬法假设停机判定器存在并令机器作用于自身以导出矛盾，属于反证法的实例。"
+    },
+    {
+      "title": "怎么证明3k＋2不是完全平方数？",
+      "url": "https://www.zhihu.com/answer/3293646932",
+      "summary": "正文先假设完全平方可写为3k+2，再检验n的三种形式并推出分数等于整数的矛盾，完整展示反证法。"
+    },
+    {
+      "title": "为什么只要两个数之间的距离可以任意小，就可以认为这两个数相等 ?",
+      "url": "https://www.zhihu.com/answer/3313273789",
+      "summary": "正文用反证法证明任意正距离都小于 ε 时两数必相等，并选取矛盾所需的 ε 值。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3314867429",
+      "summary": "正文具体说明用反证法、取极限和更换模型把问题化归到非紧群，并由先前结论推出矛盾。"
+    },
+    {
+      "title": "如何证明e^2为无理数？",
+      "url": "https://www.zhihu.com/answer/3320280912",
+      "summary": "正文先假设e²为有理数，再构造整数与严格介于零一之间的量形成矛盾，完整使用反证法。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/3327500085",
+      "summary": "正文先假设可测染色存在，再借助力迫扩张和集合测度推出矛盾，以反证法证明其不存在。"
+    },
+    {
+      "title": "一个数学家要做到什么成就才能在数学界彻底封神，超过欧拉高斯等一众大神?",
+      "url": "https://www.zhihu.com/answer/3368716999",
+      "summary": "正文明确说明罗巴切夫斯基用反证法假设第五公设不成立并寻找矛盾的思路。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/3368719683",
+      "summary": "正文明确说明罗巴切夫斯基用反证法假设第五公设不成立并寻找矛盾的思路。"
+    },
+    {
+      "title": "如何激怒一位数学爱好者？",
+      "url": "https://www.zhihu.com/answer/3368724789",
+      "summary": "正文明确说明罗巴切夫斯基用反证法假设第五公设不成立并寻找矛盾的思路。"
+    },
+    {
+      "title": "质数的数量是无限的，还是存在一个最大质数?",
+      "url": "https://www.zhihu.com/answer/3377065415",
+      "summary": "正文先假设存在最大质数，再推出构造出的数既是合数又是质数的矛盾。"
+    },
+    {
+      "title": "你遇到的最难的一个数学题是什么？",
+      "url": "https://www.zhihu.com/answer/3388055407",
+      "summary": "正文解释无穷递降法如何通过假设最小正整数解、再构造更小解来制造矛盾，并用它完成反证。"
+    },
+    {
+      "title": "{x|x=x}是一个集合吗？",
+      "url": "https://www.zhihu.com/answer/3389757573",
+      "summary": "正文假设全集是集合后构造罗素类，由正反两种归属均导致矛盾，完整展示反证结构。"
+    },
+    {
+      "title": "令人血压升高的群论错误使用方法都有什么？",
+      "url": "https://www.zhihu.com/answer/3397344757",
+      "summary": "正文假设模 2^n 的单位群循环，再依据循环群只有一个二阶元与已有两个二阶元的事实导出矛盾。"
+    },
+    {
+      "title": "如何通俗理解一个数学命题既不能证明又不能证伪？",
+      "url": "https://www.zhihu.com/answer/3405990633",
+      "summary": "正文详述 Saccheri 用反证法研究平行公设，并说明其把非逻辑矛盾误作反证终点的历史。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/3423155152",
+      "summary": "正文先假设式子不是恒等式，再由四个不同取值均成立与三次方程至多三个根形成矛盾，完成反证。"
+    },
+    {
+      "title": "是否存在一个面积为1，三条边都是有理数的直角三角形？",
+      "url": "https://www.zhihu.com/answer/3426601144",
+      "summary": "正文用反证法假设三角形存在，再以无穷递降构造导出矛盾。"
+    },
+    {
+      "title": "哥德尔不完备定理说，自然数公理体系中，存在真命题，不可被证明。那什么叫真命题，甚至什么叫命题?",
+      "url": "https://www.zhihu.com/answer/3437286176",
+      "summary": "正文先假设命题为真、再假设为假并分别导出矛盾，具体展示反证推理。"
+    },
+    {
+      "title": "如何优雅地证明当 a 取整数时， a²+1 不能被4整除？",
+      "url": "https://www.zhihu.com/answer/3458470868",
+      "summary": "正文假设整数 a 满足 a²=4p−1，再通过奇偶性导出左奇右偶的矛盾，完整展示反证法。"
+    },
+    {
+      "title": "全体集合为什么不构成集合？",
+      "url": "https://www.zhihu.com/answer/3469356566",
+      "summary": "正文从集合 A 属于自身与否的两种假设出发，分别推出相反结论，以矛盾说明初始假设不成立。"
+    },
+    {
+      "title": "是否存在一套动作，使得对于任意状态的魔方，只需要重复该动作到一定次数，都一定能还原？",
+      "url": "https://www.zhihu.com/answer/3517145243",
+      "summary": "正文假设单一操作可复原全部状态并推出交换律，再由 FR 与 RF 不相等得到矛盾。"
+    },
+    {
+      "title": "（sinln1+sinln2+...+sinlnn）/n极限存在吗?",
+      "url": "https://www.zhihu.com/answer/3533268599",
+      "summary": "正文先假设平均值极限存在，再推出积分平均值极限也必须存在，进而与该振荡积分无极限矛盾。"
+    },
+    {
+      "title": "这个简单的不定方程如何解决？",
+      "url": "https://www.zhihu.com/answer/3542731146",
+      "summary": "正文通过假设结论不成立并取最小反例推出矛盾来证明引理，展示了反证法。"
+    },
+    {
+      "title": "集合论中有没有经典的“大炮打蚊子”的证明？",
+      "url": "https://www.zhihu.com/answer/3545735516",
+      "summary": "正文明确采用反证法，假设解析集与 Borel 集的差有正外测度，并通过力迫扩张中的矛盾完成证明。"
+    },
+    {
+      "title": "如何注意力充足地证明e为无理数？",
+      "url": "https://www.zhihu.com/answer/3571416364",
+      "summary": "正文明确采用反证法，先假设 e 为有理数并导出矛盾，再否定该假设。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/3594058459",
+      "summary": "正文从与结论相反的假设出发推出可量尽单位一的矛盾，构成反证法证明。"
+    },
+    {
+      "title": "如何证明 √2 + √3 + √5 + √7 是无理数？",
+      "url": "https://www.zhihu.com/answer/3595289703",
+      "summary": "正文先假设原和式 r 为有理数，再利用给出的恒等式推出无理数属于有理数的矛盾，构成反证法。"
+    },
+    {
+      "title": "如何证明 √2 + √3 + √5 + √7 是无理数？",
+      "url": "https://www.zhihu.com/answer/3595329035",
+      "summary": "正文先假设 √2+√3+√5+√7 为有理数，再推出两个相关数域同构的不可能结论，采用反证法完成论证。"
+    },
+    {
+      "title": "如何证明（根号5+根号6+根号7+根号8）/（根号1+根号2+根号3+根号4）是无理数？",
+      "url": "https://www.zhihu.com/answer/3596114694",
+      "summary": "正文明确指出可把已知无理数表示成关于 x 的有理系数多项式，再由 x 为有理数反推出矛盾。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/3598411613",
+      "summary": "正文由假设推出常数 e 为有理数的矛盾，构成解数上界证明中的反证环节。"
+    },
+    {
+      "title": "如何证明 √2 + √3 + √5 + √7 是无理数？",
+      "url": "https://www.zhihu.com/answer/3598703152",
+      "summary": "正文明确采用反证法，假设 r 为有理数并利用有理数运算封闭性推出与 √7 无理性矛盾。"
+    },
+    {
+      "title": "6.12112111211112……是有理数吗?具体是问什么?",
+      "url": "https://www.zhihu.com/answer/3614953797",
+      "summary": "正文先反设所讨论的部分可表示为有理数，再通过整数与等式的矛盾否定该假设。"
+    },
+    {
+      "title": "sin(x²)是周期函数吗？如何证明？",
+      "url": "https://www.zhihu.com/answer/3625818848",
+      "summary": "正文先假设 sin(x²) 为周期函数，再通过构造趋于无穷的点列导出导函数无界，从而形成反证。"
+    },
+    {
+      "title": "数学界有什么open problem是通过绝妙思想证明的?",
+      "url": "https://www.zhihu.com/answer/3627113442",
+      "summary": "正文为证明多项式映射满射，先假设存在不在像集中的点，并由此导出模 p 后有限集上的矛盾。"
+    },
+    {
+      "title": "克苏鲁神话中的san值清零疯癫自尽是恐惧导致的吗？",
+      "url": "https://www.zhihu.com/answer/3722731398",
+      "summary": "正文由平方为偶数推出 a、b 均为偶数，最终与最简表示假设矛盾，是完整的反证法。"
+    },
+    {
+      "title": "姜萍的事怎么现在没流量了？",
+      "url": "https://www.zhihu.com/answer/4003738297",
+      "summary": "正文先假设根号 2 可表示为最简分数，再由推导出的矛盾否定该假设。"
+    },
+    {
+      "title": "如何证明 √2 + √3 + √5 + √7 是无理数？",
+      "url": "https://www.zhihu.com/answer/10507364199",
+      "summary": "正文在假设根式之和为有理数后，利用因子实部均不为零与 F 的根性相矛盾完成反证。"
+    },
+    {
+      "title": "tan(π/2022) 是超越数吗？是无理数吗？怎么证明？",
+      "url": "https://www.zhihu.com/answer/15894213276",
+      "summary": "正文先假设三角函数值为有理数，再由方程左右两侧有理性与无理性的冲突导出矛盾。"
+    },
+    {
+      "title": "数学界有哪些通俗易懂的 open problem？",
+      "url": "https://www.zhihu.com/answer/17893082396",
+      "summary": "正文通过反设指数幂条件并说明其将违反 Six Exponentials Theorem，构造了反证论证。"
+    },
+    {
+      "title": "ln x (x>1, x∈ℤ) 可能是有理数吗？",
+      "url": "https://www.zhihu.com/answer/27264130652",
+      "summary": "正文先把 c 反设为有理数，再通过积分上界与矛盾完成定理证明，核心方法是反证法。"
+    },
+    {
+      "title": "有哪些看起来简洁却很难的数学题？",
+      "url": "https://www.zhihu.com/answer/43812536093",
+      "summary": "正文先假设分式不是整数平方，再通过最小解与另一根导出矛盾，完整使用反证法。"
+    },
+    {
+      "title": "北大数学家袁新意论文登数学顶刊，统一了算术与几何 Bogomolov 猜想，有哪些意义？影响有多大？",
+      "url": "https://www.zhihu.com/answer/69367299949",
+      "summary": "正文以假设最小正整数解、再构造更小解导出矛盾的无穷递降过程证明一个四次方程无解。"
+    },
+    {
+      "title": "质数的数量是无限的，还是存在一个最大质数?",
+      "url": "https://www.zhihu.com/answer/74748311285",
+      "summary": "正文先假设素数有限并令 q 为最大素数，再由构造得到更大的素数而推出矛盾。"
+    },
+    {
+      "title": "两个周期函数相加一定是周期函数吗？",
+      "url": "https://www.zhihu.com/answer/75631501174",
+      "summary": "正文先假设两个周期函数之和仍有周期，再推出该周期与无理数条件矛盾，构成反证。"
+    },
+    {
+      "title": "质数为什么有无穷个？",
+      "url": "https://www.zhihu.com/answer/90084749906",
+      "summary": "正文明确采用反证法，从有限素数假设推出与引理相矛盾的结果。"
+    },
+    {
+      "title": "质数为什么有无穷个？",
+      "url": "https://www.zhihu.com/answer/99017507850",
+      "summary": "正文先假设素数倒数和收敛，再推出整数计数小于全体整数的矛盾。"
+    },
+    {
+      "title": "有哪些数学定理今天看起来很平凡，但在当时的证明却很困难？",
+      "url": "https://www.zhihu.com/answer/113510497708",
+      "summary": "正文通过反设复多项式无根、推出 1/f 为常函数并导出矛盾来证明代数基本定理，具体展示了反证法。"
+    },
+    {
+      "title": "在数论中，是否存在一个完全由素数构成的无限长等差数列？",
+      "url": "https://www.zhihu.com/answer/119385998766",
+      "summary": "正文先假设存在每项均为素数的无限等差数列，再由两种不同的增长阶推出矛盾。"
+    },
+    {
+      "title": "代数基本定理有哪些不同的证明方法？",
+      "url": "https://www.zhihu.com/answer/123021793062",
+      "summary": "正文先假设多项式没有根，再通过大圆卷绕数与收缩到一点的卷绕数冲突导出矛盾。"
+    },
+    {
+      "title": "是否有无穷多个正整数N，使得tan N > N^2?",
+      "url": "https://www.zhihu.com/answer/1888740310982562048",
+      "summary": "正文先假设存在无穷多个满足条件的 N，再由有理逼近指数导出不可能的不等式，完成反证。"
+    },
+    {
+      "title": "用一个非常强的定理证明一个很弱的结论是怎么样的?",
+      "url": "https://www.zhihu.com/answer/1889247664874436251",
+      "summary": "正文先假设目标数是有理数并写成 p/q，再借费马大定理导出矛盾。"
+    },
+    {
+      "title": "用一个非常强的定理证明一个很弱的结论是怎么样的?",
+      "url": "https://www.zhihu.com/answer/1895950499955578582",
+      "summary": "正文先假设素数只有有限个，再导出与等差素数列存在性的矛盾，采用完整的反证法结构。"
+    },
+    {
+      "title": "如何证明任意一组勾股数的乘积肯定是60的倍数？",
+      "url": "https://www.zhihu.com/answer/1897760819363685572",
+      "summary": "正文用反证法证明本原勾股数中必有一个为 3 的倍数。"
+    },
+    {
+      "title": "如何神秘地证明这个不等式？",
+      "url": "https://www.zhihu.com/answer/1898192168646084153",
+      "summary": "正文先假设目标式小于零，由等式左侧恒正导出矛盾，从而完成证明。"
+    },
+    {
+      "title": "这个式子可能是一个正整数的平方吗？",
+      "url": "https://www.zhihu.com/answer/1903799716933764771",
+      "summary": "正文先假设该式为平方数，再推出只能 n=0，从而与 n 为正整数矛盾。"
+    },
+    {
+      "title": "数学中有哪些问题放到更大的空间/对象里解决起来变简单的例子？",
+      "url": "https://www.zhihu.com/answer/1904922702050985279",
+      "summary": "正文在证明高斯整环的因子断言时明确采用反证法，由整除关系导出素元整除 1 的矛盾。"
+    },
+    {
+      "title": "初中生想问：如何证明抛物线上的三点一定不共线?",
+      "url": "https://www.zhihu.com/answer/1913730953370669993",
+      "summary": "正文先假设三点共线，再代入抛物线方程得到有三个互异实根的二次方程，以矛盾推翻假设。"
+    },
+    {
+      "title": "如何证明 √2 + √3 + √5 + √7 是无理数？",
+      "url": "https://www.zhihu.com/answer/1913914741572763963",
+      "summary": "正文先假设目标和是有理根，再由有理根定理推出整数矛盾，使用反证法完成证明。"
+    },
+    {
+      "title": "如果我有一个ai回答所有问题都正确但只能答yes or no,我怎么利益最大化？",
+      "url": "https://www.zhihu.com/answer/1914833659485192978",
+      "summary": "正文对 Yes、No 及 Or 各分支逐一推出自我指涉矛盾，并据此否定全能回答者的存在，是完整的分情况反证论证。"
+    },
+    {
+      "title": "如何证明调和级数发散?",
+      "url": "https://www.zhihu.com/answer/1915162358176784560",
+      "summary": "正文先假设从某一项起的任意长连续和都不超过1，再推出与几何放缩下界大于1的矛盾。"
+    },
+    {
+      "title": "是否存在一个无理数x，使得x^x为有理数?",
+      "url": "https://www.zhihu.com/answer/1915929983865553758",
+      "summary": "正文先假设根为有理数并写成最简分数，再由互质条件推出矛盾，完整使用了反证法。"
+    },
+    {
+      "title": "是否存在一个无理数x，使得x^x为有理数?",
+      "url": "https://www.zhihu.com/answer/1916070460103332245",
+      "summary": "正文明确以有理数假设启动反证，并通过它导致不存在正整数解的矛盾。"
+    },
+    {
+      "title": "π能不能看成是有理数？",
+      "url": "https://www.zhihu.com/answer/1916478240597443281",
+      "summary": "正文先假设 π 可写为整数之比，再让同一积分同时具有整数性和严格介于零一之间，以矛盾否定假设。"
+    },
+    {
+      "title": "六次方程的根能否用五次方程的解表达?",
+      "url": "https://www.zhihu.com/answer/1920641727884133052",
+      "summary": "正文先反设两次扩张的交集大于基域，再由判别式代数无关推出矛盾，完成反证。"
+    },
+    {
+      "title": "如何构造函数，使得f(f(x))=-x？",
+      "url": "https://www.zhihu.com/answer/1922339829867340368",
+      "summary": "正文先假设不同输入得到相同输出，再由函数条件导出两点相同，利用矛盾证明解必须满足单射。"
+    },
+    {
+      "title": "是否可以构造一种连续函数 f 使得 f(f(x))＝ax²＋bx＋c?",
+      "url": "https://www.zhihu.com/answer/1925966892469843868",
+      "summary": "正文用假设 f 存在且有不动点会推出 g 有不动点的矛盾，从而证明相应情形下函数根不存在。"
+    },
+    {
+      "title": "y=eˣ 能否写成两个实周期函数之和?",
+      "url": "https://www.zhihu.com/answer/1926431957639730083",
+      "summary": "正文先假设指数函数可写成两个周期函数之和，再复合平移差分算子推出恒等零矛盾，完整演示了反证法。"
+    },
+    {
+      "title": "是否存在两个周期函数f(x)和g(x)，使得它们的和f(x)+g(x)≡x？",
+      "url": "https://www.zhihu.com/answer/1926657365622650744",
+      "summary": "正文假设周期之比为有理数，推出和函数成为周期函数，再与目标函数不是周期函数矛盾。"
+    },
+    {
+      "title": "质数的数量是无限的，还是存在一个最大质数?",
+      "url": "https://www.zhihu.com/answer/1927085139483157553",
+      "summary": "正文以素数有限为假设，导出构造数不在已知素数中且仍是素数，从而由矛盾否定假设。"
+    },
+    {
+      "title": "是先有人先设计出了第一块CPU还是先有人写出了设计CPU的理论？",
+      "url": "https://www.zhihu.com/answer/1930732463359002597",
+      "summary": "正文通过停机判定机自指导出两种情形均矛盾，演示反证法的逻辑结构。"
+    },
+    {
+      "title": "f(xˣ)=f(x)²,如何求f(x)的解析式?",
+      "url": "https://www.zhihu.com/answer/1932239100452270089",
+      "summary": "正文假设左支为常函数，并通过复合函数求导推出与右支导数性质矛盾，从而证明假设不成立。"
+    },
+    {
+      "title": "有哪些数学定理今天看起来很平凡，但在当时的证明却很困难？",
+      "url": "https://www.zhihu.com/answer/1932706578622021682",
+      "summary": "正文对多项式没有零点作反设，导出有界全纯函数为常数的矛盾，从而证明代数基本定理。"
+    },
+    {
+      "title": "如何证明三角形两边之和大于第三边？",
+      "url": "https://www.zhihu.com/answer/1933795858136138440",
+      "summary": "正文明确解释大角对大边命题采用反证法，并展示假设边长关系后与已知角大小矛盾的过程。"
+    },
+    {
+      "title": "为什么我感觉数学里面的反证法有一种说不明白的不对？",
+      "url": "https://www.zhihu.com/answer/1946966738446025860",
+      "summary": "正文逐步拆解反证法的假设、归谬和选择步骤，并用根号二的情形说明矛盾如何导出。"
+    },
+    {
+      "title": "为什么我感觉数学里面的反证法有一种说不明白的不对？",
+      "url": "https://www.zhihu.com/answer/1948139344775874288",
+      "summary": "正文比较经典逻辑与直觉主义逻辑，解释反证法及双重否定消去，并回应为何反证法令人感到不自然。"
+    },
+    {
+      "title": "sin(x)+sin(x^2)最大值能取到2吗?",
+      "url": "https://www.zhihu.com/answer/1948362831222248592",
+      "summary": "正文在实数域先假设函数取到 2，再由条件推出 x 同时为有理数和无理数的矛盾，从而否定原假设。"
+    },
+    {
+      "title": "为什么我感觉数学里面的反证法有一种说不明白的不对？",
+      "url": "https://www.zhihu.com/answer/1948496293690344427",
+      "summary": "正文以排中律解释反证法为何成立，并通过五子棋策略说明其非构造性。"
+    },
+    {
+      "title": "如何证明所有质数倒数之和发散?",
+      "url": "https://www.zhihu.com/answer/1951731226869228764",
+      "summary": "正文完整给出埃尔德什的反证思路，通过构造集合的上下界导出矛盾。"
+    },
+    {
+      "title": "有哪些令人为之惊叹的数学题目？",
+      "url": "https://www.zhihu.com/answer/1952324587753804479",
+      "summary": "引理六先假设待证结论不成立，再利用路径更新规则推出与条件相矛盾的结果。"
+    },
+    {
+      "title": "数学中有哪些有趣的构造性证明？",
+      "url": "https://www.zhihu.com/answer/1957090013230658850",
+      "summary": "正文先假设π是有理数，再由积分估计导出矛盾，明确展示反证法的证明结构。"
+    },
+    {
+      "title": "如何证明根号 2 是无理数？",
+      "url": "https://www.zhihu.com/answer/1960993943853437544",
+      "summary": "正文先假设根号 2 为有理数，推出分子分母均为偶数，与初始假设矛盾并否定原命题。"
+    },
+    {
+      "title": "√2和π本质上有什么区别？",
+      "url": "https://www.zhihu.com/answer/1961148197851363110",
+      "summary": "正文先假设 sqrt(2) 可写成互素整数之比，再利用偶性推出矛盾，完整演示反证法。"
+    },
+    {
+      "title": "数学是中国人擅长的学科吗？为什么？",
+      "url": "https://www.zhihu.com/answer/1961708461428564141",
+      "summary": "正文明确说明阿基米德相关证明的过程使用反证法和演绎法，具体涉及证明方法。"
+    },
+    {
+      "title": "作为数学系的同学们，你们怎么学习实变函数?",
+      "url": "https://www.zhihu.com/answer/1963051719404544933",
+      "summary": "正文把反证法列为正面对题山穷水尽时的证明策略。"
+    },
+    {
+      "title": "是否存在一个既是等差又是等比，且公差和公比相等的数列？",
+      "url": "https://www.zhihu.com/answer/1966046476854621299",
+      "summary": "正文从三项同时等差、等比的等比中项条件推出 d=0，以矛盾排除公差与公比相等的非零数列，采用反证式推导。"
+    },
+    {
+      "title": "72 岁送垃圾老人痴迷数学，希望将一生研究手稿传承，如何客观评估老人的研究成果？如何看待他这份精神？",
+      "url": "https://www.zhihu.com/answer/1970271689716797796",
+      "summary": "正文先假设目标数为有理数，再由整数分解与奇偶性推出矛盾，构成明确的反证法证明。"
+    },
+    {
+      "title": "质数为什么有无穷个？",
+      "url": "https://www.zhihu.com/answer/1971664681023304796",
+      "summary": "正文假设素数有限，推出倒正整数集盒子维数同时为 0 和 1/2 的矛盾。"
+    },
+    {
+      "title": "数学是绝对真理吗？",
+      "url": "https://www.zhihu.com/answer/1981480132729381841",
+      "summary": "正文讨论排中律与非经典逻辑，并说明反证法依赖排中律及其在构造性数学中的限制。"
+    },
+    {
+      "title": "如何形象理解直觉主义为什么不承认排中律？",
+      "url": "https://www.zhihu.com/answer/1993183350744188411",
+      "summary": "正文区分合法与非法反证法，说明为何证明否定命题可用反证法而构造肯定存在命题时不可只依赖反证法。"
+    },
+    {
+      "title": "全体集合为什么不构成集合？",
+      "url": "https://www.zhihu.com/answer/1999983989423886730",
+      "summary": "正文从罗素悖论的假设推出同时属于和不属于自身的矛盾，并据此说明所有集合的总体不能构成集合。"
+    },
+    {
+      "title": "这个积分可以用初等函数表示吗?",
+      "url": "https://www.zhihu.com/answer/2000200012844532865",
+      "summary": "正文先假设存在有理函数解，再比较方程两端在零点处的极点阶数得到矛盾。"
+    },
+    {
+      "title": "为什么大人很喜欢用“等你长大了就知道了”这句话来搪塞孩子的问题？",
+      "url": "https://www.zhihu.com/answer/2002852278206485675",
+      "summary": "正文用先假设原假设成立、再导出极小概率观察结果的推理说明 P 值检验与反证法的类比。"
+    },
+    {
+      "title": "对sin（sin（sinx））求不定积分的结果是多少？",
+      "url": "https://www.zhihu.com/answer/2004563129921713024",
+      "summary": "正文先假设存在初等原函数，再把问题归约为无解方程并通过阶和幂次矛盾排除该假设。"
+    },
+    {
+      "title": "有哪些反常识的科学结论，或者反直觉的科学事实？",
+      "url": "https://www.zhihu.com/answer/2013117307585573704",
+      "summary": "正文先假设实数可与自然数一一对应，再沿对角线逐位改变数字构造未被列举的实数，实质展开反证法。"
+    },
+    {
+      "title": "如何简单地证明π是无理数？",
+      "url": "https://www.zhihu.com/answer/2016046890521756572",
+      "summary": "正文利用积分上界落在 0 与 1 之间、却又必为整数的矛盾完成反证。"
+    },
+    {
+      "title": "中国学校教不教逻辑学？为什么？",
+      "url": "https://www.zhihu.com/answer/2017220510069567882",
+      "summary": "正文通过假设逆否前提并排除原命题结论不成立的情况，利用矛盾证明法说明逆否命题可以推出原命题。"
+    },
+    {
+      "title": "怎么证明arctan(1/2)为π的无理数倍？",
+      "url": "https://www.zhihu.com/answer/2024426180820879301",
+      "summary": "正文反设 x 为有理数并证明对应正切数列只能取有限值，再以实际无限取值导出矛盾。"
+    },
+    {
+      "title": "数学上最绝妙的证明是什么?",
+      "url": "https://www.zhihu.com/answer/2028025876021875444",
+      "summary": "正文先假设实数可数，再构造列表外的实数推出矛盾，完整展示反证法。"
+    },
+    {
+      "title": "为什么有的人死活认为0.9循环＜1?",
+      "url": "https://www.zhihu.com/answer/2029603215050580682",
+      "summary": "正文先假设 0.999…小于 1 且存在正差值，再通过矛盾推出原假设不成立。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/2030761274259325748",
+      "summary": "正文借自指程序在判定器假设下得到相反结果，完整说明停机问题不可判定的反证思路。"
+    },
+    {
+      "title": "有名的悖论有哪些？",
+      "url": "https://www.zhihu.com/answer/2033081793897870805",
+      "summary": "正文分别假设 R 包含或不包含自身并推出矛盾，以反证法揭露无限制概括公理导致的不一致。"
+    },
+    {
+      "title": "有哪些看起来很难但做起来很简单的数学题？",
+      "url": "https://www.zhihu.com/answer/2035435681015656941",
+      "summary": "正文先假设素数有限，再由列表外素因子的存在推出矛盾。"
+    },
+    {
+      "title": "是否大学数学不允许用 ∵ 和 ∴ 这两个符号？如果是，为什么呢？",
+      "url": "https://www.zhihu.com/answer/2035445033252410386",
+      "summary": "正文以闭区间连续函数有界为例说明反证假设及矛盾收束的写法。"
+    },
+    {
+      "title": "如何评价钱学森的实力？",
+      "url": "https://www.zhihu.com/answer/2036182737246221075",
+      "summary": "正文用自指程序构造相反行为并导出矛盾，说明停机问题不可判定。"
+    },
+    {
+      "title": "你见过最优雅的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/2038540852784538904",
+      "summary": "正文用对角线论证从假设实数可枚举推出矛盾，完整展示了反证法。"
+    },
+    {
+      "title": "所以是不是目前的数学基本都建立在Con（ZFC）的信仰上？",
+      "url": "https://www.zhihu.com/answer/2039170909186041364",
+      "summary": "正文通过假设扩展系统不一致并推出矛盾，证明其与ZFC的相对一致性，实际使用了反证法。"
+    },
+    {
+      "title": "如何证明格点正多边形只有正四边形？",
+      "url": "https://www.zhihu.com/answer/2040890953788089140",
+      "summary": "正文先假设格点正多边形存在，再由无穷递降推出有限区域含无穷格点的矛盾，使用反证法。"
+    },
+    {
+      "title": "为什么尺规不能三等分一个任意角？",
+      "url": "https://www.zhihu.com/answer/2041452136530173986",
+      "summary": "正文由尺规可作数必须具有 2 的幂次扩张次数，推出 60 度三等分所需的三次扩张不可能，完成不可能性论证。"
+    },
+    {
+      "title": "如何评价 2026 高考数学试卷？今年题目难度如何？有哪些变化？",
+      "url": "https://www.zhihu.com/answer/2047010295722332937",
+      "summary": "第三问先假设 f(0)<1，推出 f(d)>f(0) 与条件 f(d)<f(0) 同时成立，实质采用反证法完成证明。"
+    },
+    {
+      "title": "如何评价网友“齐天”发布论文，认为在数学框架内证明了实数不可数逻辑上不成立，是一次数学危机？",
+      "url": "https://www.zhihu.com/answer/2048868718202074653",
+      "summary": "正文先假设存在满射，再构造对应对角线之外的新实数导出矛盾，体现反证法结构。"
+    },
+    {
+      "title": "数学中有哪些有趣的构造性证明？",
+      "url": "https://www.zhihu.com/answer/2054463726099624172",
+      "summary": "正文假设 ζ(3) 为有理数，构造趋近零的非零整数并导出矛盾，完整呈现反证逻辑。"
+    },
+    {
+      "title": "数学天才会不会遇到让自己CPU干冒烟的数学题？",
+      "url": "https://www.zhihu.com/answer/2060720352301412984",
+      "summary": "正文从假设比值不是完全平方数出发，通过最小解与更小解的矛盾完成反证。"
+    },
+    {
+      "title": "质数会是有限的么？",
+      "url": "https://www.zhihu.com/answer/2061487961947084124",
+      "summary": "正文从质数有限的假设出发，构造不能被假设中任何质数整除的数，并由矛盾推翻有限性假设。"
+    },
+    {
+      "title": "挂谷猜想有多重要？为什么破解它的王虹有望获得菲尔兹奖？",
+      "url": "https://www.zhihu.com/answer/2065136388983600487",
+      "summary": "正文具体说明证明先假设最极端反例存在，再推出矛盾并否定该反例，展示了反证法结构。"
+    },
+    {
+      "title": "如何证明不存在定义域为R的函数f(x)，使得f(f(x))=x²-2？",
+      "url": "https://www.zhihu.com/answer/2065913670090203579",
+      "summary": "正文在多个参数区间先假设存在迭代平方根，再通过不动点、周期点和值域关系推出矛盾。"
+    },
+    {
+      "title": "有哪些看起来简洁却很难的数学题？",
+      "url": "https://www.zhihu.com/answer/2070791369594083052",
+      "summary": "正文从反设 k 不是完全平方数出发，用最小解和韦达跳跃导出矛盾。"
+    },
+    {
+      "title": "怎么看森多夫猜想（Sendov's Conjecture）已被AI、Lech Mazur、陶哲轩攻破？",
+      "url": "https://www.zhihu.com/answer/2071844636822344686",
+      "summary": "正文说明 Mazur 与陶哲轩的证明都先假设存在反例，再推出两组数量约束互相矛盾。"
+    },
+    {
+      "title": "怎么看森多夫猜想（Sendov's Conjecture）已被AI、Lech Mazur、陶哲轩攻破？",
+      "url": "https://www.zhihu.com/answer/2071876416258544046",
+      "summary": "正文说明证明先假设某个根周围没有临界点，再导出两组互不相容的约束，属于反证法。"
+    },
+    {
+      "title": "怎么看森多夫猜想（Sendov's Conjecture）已被AI、Lech Mazur、陶哲轩攻破？",
+      "url": "https://www.zhihu.com/answer/2072661377529991351",
+      "summary": "正文说明证明从假设反例出发，经归一化与上下界矛盾排除反例，属于反证法的实质展开。"
+    },
+    {
+      "title": "为什么machine拆开来ma Chine是法语我的中国意思?",
+      "url": "https://www.zhihu.com/answer/2074121128050742065",
+      "summary": "正文通过否定“存在最大质数”的假设导出矛盾，并明确总结反证法原理。"
+    },
+    {
+      "title": "数学悖论的根本原因已找到！最新研究证明经典自然数集、实数集不是已完成集合，如何评价这个重大数学事件？",
+      "url": "https://www.zhihu.com/answer/2074480783939716282",
+      "summary": "正文先假设存在完整枚举 E，再由构造出的 g 导出矛盾，以此否定枚举程序的存在。"
+    },
+    {
+      "title": "1.1 巴拿赫-塔斯基悖论【Banach–Tarski paradox】（1）—— 不同的无穷",
+      "url": "https://zhuanlan.zhihu.com/p/20264980",
+      "summary": "正文在附录假设集合与其幂集等势，由对角集合的归属导出矛盾，完成反证证明。"
+    },
+    {
+      "title": "1.2 巴拿赫-塔斯基悖论【Banach–Tarski paradox】（2）—— 奇怪的集合",
+      "url": "https://zhuanlan.zhihu.com/p/20279312",
+      "summary": "正文补充用反证法证明所选集合的极大性：若存在未覆盖元素就能扩充集合并产生矛盾。"
+    },
+    {
+      "title": "如何理解 “无穷”？",
+      "url": "https://zhuanlan.zhihu.com/p/20493784",
+      "summary": "正文先假设实数可列，再构造出不在列表中的实数，以反证实数集不可数。"
+    },
+    {
+      "title": "谈谈数学里的构造主义（constructivism）、直觉主义（intuitionism）和数学基础",
+      "url": "https://zhuanlan.zhihu.com/p/22389755",
+      "summary": "正文解释构造主义为何拒绝反证法，并给出素数无穷与根号二无理性的构造性改写。"
+    },
+    {
+      "title": "思维的逻辑",
+      "url": "https://zhuanlan.zhihu.com/p/24532193",
+      "summary": "正文通过充分条件及其逆否推理，说明可由否定后件推出假设不成立，属于反证式推理。"
+    },
+    {
+      "title": "为什么e^{x^2}没有初等原函数",
+      "url": "https://zhuanlan.zhihu.com/p/24772885",
+      "summary": "正文最后通过假设存在有理原函数并推出次数矛盾，以反证法完成结论。"
+    },
+    {
+      "title": "一点微小的结论——紧性的一个等价刻画",
+      "url": "https://zhuanlan.zhihu.com/p/24856155",
+      "summary": "正文在“当”的证明中反设投影像闭，再由开覆盖条件推出有限子覆盖，形成反证法证明。"
+    },
+    {
+      "title": "圆锥体积公式证明for中学生",
+      "url": "https://zhuanlan.zhihu.com/p/25040397",
+      "summary": "正文先建立圆锥体积的上下界，再分别假设体积大于和小于公式值以推出矛盾，实质展开了反证法。"
+    },
+    {
+      "title": "A4纸，谋杀案和囊括宇宙的数字",
+      "url": "https://zhuanlan.zhihu.com/p/25327929",
+      "summary": "正文用反证法假设 √2=p/q，由平方关系导出 p、q 均为偶数并与互质矛盾。"
+    },
+    {
+      "title": "Lambda calculus引论(一): 规约求值",
+      "url": "https://zhuanlan.zhihu.com/p/25559133",
+      "summary": "正文证明正规形唯一时先假设两个正规形不相等，再由 Church-Rosser 性质导出与正规形定义矛盾。"
+    },
+    {
+      "title": "高考数学压轴题考点：不等式6个证明技巧（分数给你送上门了）",
+      "url": "https://zhuanlan.zhihu.com/p/25794893",
+      "summary": "正文解释反证法如何否定结论、推出矛盾并据此肯定原命题，属于反证法方法讲解。"
+    },
+    {
+      "title": "数学家救火法与数学竞赛",
+      "url": "https://zhuanlan.zhihu.com/p/25722061",
+      "summary": "正文在例 2 中先否定线性相关假设，利用一致分布与集合内点性质导出矛盾，再证明结论成立。"
+    },
+    {
+      "title": "吴文俊先生为什么说“数学是笨人学的”？",
+      "url": "https://zhuanlan.zhihu.com/p/26852369",
+      "summary": "正文说明反证法通过把结论的否定加入已知条件，进而为推导增加信息。"
+    },
+    {
+      "title": "中学篇 No. 15：心魔",
+      "url": "https://zhuanlan.zhihu.com/p/26853699",
+      "summary": "正文先假设根号 2 可写为互素整数之比，再由平方后的奇偶性导出矛盾。"
+    },
+    {
+      "title": "微积分的历史（二），起源之牛顿",
+      "url": "https://zhuanlan.zhihu.com/p/26982434",
+      "summary": "正文假设含间断点的函数存在原函数，再利用导数与极限关系导出矛盾，实际使用了反证法。"
+    },
+    {
+      "title": "无法“解”出的方程——论一般五次方程没有求根公式",
+      "url": "https://zhuanlan.zhihu.com/p/28275788",
+      "summary": "正文先假设五次方程存在根式求根公式，再构造保持公式不变却改变指定根的非恒等对易子导出矛盾。"
+    },
+    {
+      "title": "证明圆周率π是无理数——大阪大学2003年高考第四题(理科)",
+      "url": "https://zhuanlan.zhihu.com/p/28345227",
+      "summary": "正文先假设 pi 可写为有理分数，并由此推出整数序列与有界常数之间的矛盾。"
+    },
+    {
+      "title": "一些我很喜欢的组合证明",
+      "url": "https://zhuanlan.zhihu.com/p/29191714",
+      "summary": "正文假设集合不含三项等差数列，推出图论计数结论与已知上界矛盾，从而完成反证。"
+    },
+    {
+      "title": "如何理解不同特征值对应的特征向量线性无关？",
+      "url": "https://zhuanlan.zhihu.com/p/30454490",
+      "summary": "正文先假设相关，再通过乘 A 和代换推出与特征值不同相矛盾，完整展示了反证法。"
+    },
+    {
+      "title": "0.999…= 1？这个问题的背后，是不同数学体系的碰撞",
+      "url": "https://zhuanlan.zhihu.com/p/31471288",
+      "summary": "正文先假设0.999…<1，再通过其间平均值的逐步小数展开推出矛盾，从而证明原假设不成立。"
+    },
+    {
+      "title": "分析笔记-调和函数及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/31601750",
+      "summary": "正文在极值原理和代数基本定理部分明确采用反证法推出矛盾。"
+    },
+    {
+      "title": "如何证明素数有无穷多个",
+      "url": "https://zhuanlan.zhihu.com/p/32040597",
+      "summary": "正文显式采用反证法，通过否定素数有限这一假设完成整个证明。"
+    },
+    {
+      "title": "实分析|笔记整理（2）——勒贝格测度及相关举例",
+      "url": "https://zhuanlan.zhihu.com/p/33180264",
+      "summary": "正文通过反证和有理平移构造等价类，证明存在勒贝格不可测集。"
+    },
+    {
+      "title": "拓扑学|笔记整理（3）——无限集，可列集，选择公理，良序集",
+      "url": "https://zhuanlan.zhihu.com/p/33311995",
+      "summary": "正文通过先假设满射存在、再构造对角线元素制造矛盾的论证，证明二元序列空间不可列。"
+    },
+    {
+      "title": "数学归纳不是经验归纳",
+      "url": "https://zhuanlan.zhihu.com/p/33798459",
+      "summary": "正文通过最小反例导出矛盾，证明数学归纳法原理的合理性。"
+    },
+    {
+      "title": "矩阵的四个子空间及其联系",
+      "url": "https://zhuanlan.zhihu.com/p/34056351",
+      "summary": "正文具体使用反证法证明零空间是行空间的正交补，并说明矛盾如何得到结论。"
+    },
+    {
+      "title": "不能证明也无法否定的“连续统假说”——集合的势（三）",
+      "url": "https://zhuanlan.zhihu.com/p/34097692",
+      "summary": "正文假设自然数与闭区间之间存在双射，再用对角线构造反例推翻满射性，完整展示了反证法。"
+    },
+    {
+      "title": "Number Theory. II. Triangle Removal Lemma",
+      "url": "https://zhuanlan.zhihu.com/p/34777222",
+      "summary": "正文用反证法假设定理不成立，取图序列及其图极限并导出矛盾来完成证明。"
+    },
+    {
+      "title": "高等代数笔记整理（二）",
+      "url": "https://zhuanlan.zhihu.com/p/35862553",
+      "summary": "正文以反证法证明向量在给定基下坐标的唯一性，并多次用矛盾法推导维数与线性无关性结论。"
+    },
+    {
+      "title": "数学分析笔记整理（一）",
+      "url": "https://zhuanlan.zhihu.com/p/36244377",
+      "summary": "正文先假设集合存在两个上确界，再通过互不大小关系推出二者相等，使用反证式论证说明唯一性。"
+    },
+    {
+      "title": "Riemann Zeta 函数（二）",
+      "url": "https://zhuanlan.zhihu.com/p/36694850",
+      "summary": "正文假设 ζ 函数在复零点处取极限并推出与有限值冲突的结论，用反证法证明其一阶线上无零点。"
+    },
+    {
+      "title": "数学分析外篇（一）",
+      "url": "https://zhuanlan.zhihu.com/p/36757772",
+      "summary": "正文先假设 ln 2 为有理数，再借助 e 的超越性得出矛盾，从而证明 ln 2 为无理数。"
+    },
+    {
+      "title": "数学分析笔记（一）——预备知识",
+      "url": "https://zhuanlan.zhihu.com/p/38392100",
+      "summary": "正文在康托尔定理中假定双射并构造不属于自身像的集合 A，通过排中律引出矛盾。"
+    },
+    {
+      "title": "如何证明迭代式策略评价、值迭代和策略迭代的收敛性？",
+      "url": "https://zhuanlan.zhihu.com/p/39279611",
+      "summary": "正文假设存在两个不同不动点，利用压缩不等式导出距离严格小于自身，从而得到矛盾并证明唯一性。"
+    },
+    {
+      "title": "高中导数极值点偏移之——虚设函数构造法",
+      "url": "https://zhuanlan.zhihu.com/p/41385857",
+      "summary": "正文先假设相反的不等式成立，再推出与零点条件矛盾，从而否定该假设。"
+    },
+    {
+      "title": "无穷与对应——集合的基数",
+      "url": "https://zhuanlan.zhihu.com/p/41441641",
+      "summary": "正文假定自然数与区间实数存在双射，再构造对角线小数得到矛盾，完整展示了该反证。"
+    },
+    {
+      "title": "变分法理解2——基本方法",
+      "url": "https://zhuanlan.zhihu.com/p/41810184",
+      "summary": "正文用反证法选取特定测试函数，使积分严格大于零，从而证明变分法基本引理。"
+    },
+    {
+      "title": "\"观察算符A与B可对易则能找到共同本征矢\"及其反命题",
+      "url": "https://zhuanlan.zhihu.com/p/42670295",
+      "summary": "正文假设不可对易却存在共同本征矢，导出对易子为零的矛盾，从而证明反命题。"
+    },
+    {
+      "title": "Dedekind切割定理与实数连续性",
+      "url": "https://zhuanlan.zhihu.com/p/43168454",
+      "summary": "正文假设根号二为有理数，由分子分母均为偶数且互质的矛盾完成反证。"
+    },
+    {
+      "title": "最小二乘法与高斯-马尔可夫定理",
+      "url": "https://zhuanlan.zhihu.com/p/43387521",
+      "summary": "正文先假设存在方差更小的线性无偏估计，再推出其方差等于最小二乘估计方差加上半正定项的矛盾。"
+    },
+    {
+      "title": "高中导数最后一弹——n阶导恒正的几何意义",
+      "url": "https://zhuanlan.zhihu.com/p/44536909",
+      "summary": "正文构造辅助函数并假设导函数存在零点，通过单调性和零点条件推出矛盾。"
+    },
+    {
+      "title": "宝刀未老还是英雄迟暮？89岁的阿蒂亚到底有没有成功证明黎曼猜想？",
+      "url": "https://zhuanlan.zhihu.com/p/45424590",
+      "summary": "正文概述阿蒂亚先假设存在线外非平凡零点、再试图导出矛盾的证明框架。"
+    },
+    {
+      "title": "零点存在定理与介值定理（上）",
+      "url": "https://zhuanlan.zhihu.com/p/45811434",
+      "summary": "正文另用反证法假设函数在根处不为零，再结合局部保号性和上确界导出矛盾。"
+    },
+    {
+      "title": "选择公理的初步理解",
+      "url": "https://zhuanlan.zhihu.com/p/46036804",
+      "summary": "正文从集合 A 可测的反设出发，分析测度和为有限值又与上下界矛盾，从而完成反证。"
+    },
+    {
+      "title": "有理数、无理数、代数数与超越数",
+      "url": "https://zhuanlan.zhihu.com/p/46072609",
+      "summary": "正文先假设根号二是有理数，再由互质矛盾完成反证。"
+    },
+    {
+      "title": "集合的势与可数集",
+      "url": "https://zhuanlan.zhihu.com/p/47209338",
+      "summary": "正文假设区间内实数可数，再通过 Cantor 对角线构造缺失实数导出矛盾。"
+    },
+    {
+      "title": "近世代数笔记整理（一）",
+      "url": "https://zhuanlan.zhihu.com/p/47079685",
+      "summary": "正文分别假设罗素集合属于和不属于自身，由两种假设导出矛盾以说明悖论。"
+    },
+    {
+      "title": "如何证明e是超越数",
+      "url": "https://zhuanlan.zhihu.com/p/47709039",
+      "summary": "正文先假设 e 是整系数多项式的根，再由左右两边分别为非零整数和小于一的数导出矛盾。"
+    },
+    {
+      "title": "实数集不可数的非对角线证明(Cantor's first uncountability proof)",
+      "url": "https://zhuanlan.zhihu.com/p/51203067",
+      "summary": "正文明确先假设所有实数可列，再构造一个不属于该数列的实数，从而用反证法证明实数不可数。"
+    },
+    {
+      "title": "高斯引理与艾森斯坦判别法",
+      "url": "https://zhuanlan.zhihu.com/p/51914321",
+      "summary": "正文在证明高斯引理和艾森斯坦判别法时均先反设结论不成立，再导出关键矛盾，具体展示了反证法。"
+    },
+    {
+      "title": "【薛饿】这群酒店客人中出了幽灵",
+      "url": "https://zhuanlan.zhihu.com/p/53460214",
+      "summary": "正文先假设实数可以全部列出，再用对角线构造一个不在列表中的实数导出矛盾，证明实数区间不可数。"
+    },
+    {
+      "title": "公理化集合论简介（二）",
+      "url": "https://zhuanlan.zhihu.com/p/54669874",
+      "summary": "正文用反证法证明任一集合都存在不属于它的集合，完整展开矛盾推导。"
+    },
+    {
+      "title": "专题：Chebyshev多项式",
+      "url": "https://zhuanlan.zhihu.com/p/55076525",
+      "summary": "正文通过假设存在更优的同类多项式并推出矛盾，证明 Chebyshev 最小偏差定理。"
+    },
+    {
+      "title": "Schottky定理和Picard大定理",
+      "url": "https://zhuanlan.zhihu.com/p/55122570",
+      "summary": "正文证明 Picard 大定理时先假设两个值都不在像中，再推出与有界性矛盾。"
+    },
+    {
+      "title": "群表示的一个应用——Burnside定理",
+      "url": "https://zhuanlan.zhihu.com/p/56602292",
+      "summary": "正文在表示与特征标引理中先假设结论不成立，再由正交关系导出整数性矛盾，实际展示了反证法。"
+    },
+    {
+      "title": "如何证明π是超越数",
+      "url": "https://zhuanlan.zhihu.com/p/56607777",
+      "summary": "正文先假设πi是整系数多项式的根，再通过受控积分导出矛盾，完整使用了反证法。"
+    },
+    {
+      "title": "数学竞赛题的一些线性代数思想",
+      "url": "https://zhuanlan.zhihu.com/p/56916181",
+      "summary": "正文先假设存在非零线性关系，再通过点积后的奇偶性推出所有系数为偶数，与互素假设矛盾。"
+    },
+    {
+      "title": "一道有趣的函数方程",
+      "url": "https://zhuanlan.zhihu.com/p/57977920",
+      "summary": "正文先反设映射不是单射，推出值域有限，与已证A4为无限集矛盾。"
+    },
+    {
+      "title": "2019年RMM第三题答案详解",
+      "url": "https://zhuanlan.zhihu.com/p/58417075",
+      "summary": "正文明确采用反证法，先假设所有简单圈长度互异，再通过引理与删边过程构造矛盾。"
+    },
+    {
+      "title": "复变函数学习笔记(4)——最大模原理",
+      "url": "https://zhuanlan.zhihu.com/p/58874934",
+      "summary": "正文先假设圆周上存在一点使模严格小于M，推出M<M的矛盾，从而证明最大值必须在边界取得。"
+    },
+    {
+      "title": "The Cauchy Definition of a Definite Integral",
+      "url": "https://zhuanlan.zhihu.com/p/59637169",
+      "summary": "正文以假设函数不可积导出Cauchy和矛盾的完整反证证明。"
+    },
+    {
+      "title": "高考数学：空间点、线、面的位置关系判定及性质",
+      "url": "https://zhuanlan.zhihu.com/p/59823987",
+      "summary": "正文完整说明如何从否定结论出发导出矛盾，从而判定两直线异面。"
+    },
+    {
+      "title": "【045】cos20°是有理数还是无理数？",
+      "url": "https://zhuanlan.zhihu.com/p/61564037",
+      "summary": "正文先假设该余弦值为有理数，再导出整数解候选全部矛盾，从而完成反证。"
+    },
+    {
+      "title": "【“数”你好看】四点共圆",
+      "url": "https://zhuanlan.zhihu.com/p/63239367",
+      "summary": "正文先假设第四点不在圆上，再由圆周角关系推出矛盾，证明对角互补的四边形四点共圆。"
+    },
+    {
+      "title": "7.4 Lebesgue 控制收敛定理",
+      "url": "https://zhuanlan.zhihu.com/p/64626170",
+      "summary": "正文以调和级数收敛为反设，构造控制函数并导出积分极限矛盾，从而完成反证。"
+    },
+    {
+      "title": "如何证明著名的π与e是无理数？",
+      "url": "https://zhuanlan.zhihu.com/p/68095343",
+      "summary": "正文分别假设 e 和 π² 为有理数，通过构造整数与严格介于零一之间的量产生矛盾。"
+    },
+    {
+      "title": "《数学分析教程》史济怀常庚哲课后习题答案-1.1实数",
+      "url": "https://zhuanlan.zhihu.com/p/68502071",
+      "summary": "正文多道题先假定相反结论，再导出与无理数或互质条件矛盾，采用反证法。"
+    },
+    {
+      "title": "常用的论证方法有哪些？",
+      "url": "https://zhuanlan.zhihu.com/p/69307956",
+      "summary": "正文系统定义反证法，并按设立反论题、归谬推演、否定后件和依据排中律四步说明证明过程。"
+    },
+    {
+      "title": "复变函数学习笔记(16)——Schwarz引理推广",
+      "url": "https://zhuanlan.zhihu.com/p/70812581",
+      "summary": "正文假设奇函数部分不恒为零，再由平行四边形法则导出与函数模不超过 1 的矛盾。"
+    },
+    {
+      "title": "为什么一元n次代数方程必有n个根？",
+      "url": "https://zhuanlan.zhihu.com/p/73764750",
+      "summary": "正文以假设多项式无根为起点，通过轨迹连续移动导出矛盾，证明代数基本定理的第一部分。"
+    },
+    {
+      "title": "《数学分析教程》史济怀常庚哲课后习题答案-1.3收敛数列的性质",
+      "url": "https://zhuanlan.zhihu.com/p/74537919",
+      "summary": "正文用反证法假设和或积收敛，再由极限四则运算导出与发散条件矛盾。"
+    },
+    {
+      "title": "【国际数学竞赛】鸽笼原理",
+      "url": "https://zhuanlan.zhihu.com/p/75478415",
+      "summary": "正文在最小颜色数问题中假设颜色数不超过 22，经分类讨论推出矛盾以完成证明。"
+    },
+    {
+      "title": "存在有理数点连续、无理数点不连续的函数吗？",
+      "url": "https://zhuanlan.zhihu.com/p/75648294",
+      "summary": "正文先用共同连续点定理，再通过反证推出目标函数不存在。"
+    },
+    {
+      "title": "五个例子详述数学中的无穷递降法",
+      "url": "https://zhuanlan.zhihu.com/p/76910624",
+      "summary": "正文系统定义无穷递降法，并通过多个反证实例展示其逻辑结构。"
+    },
+    {
+      "title": "数理逻辑（4）——谓词逻辑的等值、范式和推理演算",
+      "url": "https://zhuanlan.zhihu.com/p/83301446",
+      "summary": "正文把待证蕴含式改为否定其结论后的不可满足性，并通过归结得到空子句矛盾。"
+    },
+    {
+      "title": "zeta函数的奇数值(一）",
+      "url": "https://zhuanlan.zhihu.com/p/83406898",
+      "summary": "正文先用反设 ξ 为有理数得到整数序列趋于零的矛盾，再据此证明 ξ 为无理数。"
+    },
+    {
+      "title": "微分方程(3)-线性微分方程解的结构",
+      "url": "https://zhuanlan.zhihu.com/p/85230665",
+      "summary": "正文用反证法证明齐次线性方程组的线性无关解其 Wronskian 在区间内处处非零。"
+    },
+    {
+      "title": "多项式互素以及整除的几个简单问题",
+      "url": "https://zhuanlan.zhihu.com/p/85519311",
+      "summary": "正文通过假定乘积有非平凡公因式导出与两两互素条件矛盾。"
+    },
+    {
+      "title": "最精准全面地解答“无限个无穷小之积是否一定是无穷小”问题",
+      "url": "https://zhuanlan.zhihu.com/p/88642140",
+      "summary": "正文先假设定义 3 下的无限乘积不趋于零，再由此取子列并导出与定义中的任意选路条件矛盾。"
+    },
+    {
+      "title": "质数的最小间隔有上限，人的奋斗没有上限 | 袁岚峰",
+      "url": "https://zhuanlan.zhihu.com/p/91873000",
+      "summary": "正文以假设质数有限并构造新数导出矛盾的方式实际展示反证法。"
+    },
+    {
+      "title": "写给中学生的一点集合论：ZFC公理体系（1）",
+      "url": "https://zhuanlan.zhihu.com/p/90761830",
+      "summary": "正文通过假设 b 属于 s 并导出矛盾，论证不存在包含一切集合的全集。"
+    },
+    {
+      "title": "质数的数量是无限的，还是存在一个最大质数?",
+      "url": "https://zhuanlan.zhihu.com/p/100258957",
+      "summary": "正文明确把先假设最大质数存在、继而导出矛盾的方法称为反证法。"
+    },
+    {
+      "title": "民科吧见闻录6(Part-B)——王为民方程和恒等式",
+      "url": "https://zhuanlan.zhihu.com/p/103371058",
+      "summary": "正文利用不等式与跨区间单调性的不同推出互相冲突的结论，以反证说明恒等式不成立。"
+    },
+    {
+      "title": "拉格朗日四平方和定理",
+      "url": "https://zhuanlan.zhihu.com/p/104030654",
+      "summary": "正文用反证法证明最小乘数 m 只能为 1，从而完成四平方和定理的关键步骤。"
+    },
+    {
+      "title": "MIT 18.03 微分方程笔记 常微分方程组（六）：极限环与混沌",
+      "url": "https://zhuanlan.zhihu.com/p/105651140",
+      "summary": "正文用反证法证明本迪克松准则：假设区域内有闭合轨迹，再借助通量和格林公式推出与散度非零条件的矛盾。"
+    },
+    {
+      "title": "为什么我认为夹逼性是高等数学中的糟粕",
+      "url": "https://zhuanlan.zhihu.com/p/105702084",
+      "summary": "正文通过假设两个极限不同、取距离一半为ε并导出矛盾，完整证明了数列极限的唯一性。"
+    },
+    {
+      "title": "最佳逼近 切比雪夫——切比雪夫多项式再研究",
+      "url": "https://zhuanlan.zhihu.com/p/105766114",
+      "summary": "正文用反证法证明最佳逼近引理：假设存在更小界的多项式，再由交错点上的差值推出次数矛盾。"
+    },
+    {
+      "title": "一道比较有趣的函数方程题",
+      "url": "https://zhuanlan.zhihu.com/p/108807934",
+      "summary": "正文在排除备选取值时由该等式推出两个不同自变量具有相同函数值，与单射性矛盾。"
+    },
+    {
+      "title": "几道极值点偏移的比值代换解法",
+      "url": "https://zhuanlan.zhihu.com/p/108772506",
+      "summary": "正文先假设待证结论的反面，再结合对数不等式推出矛盾，是完整的反证法示例。"
+    },
+    {
+      "title": "网红题（7）——温州中学高三检测部分试题解答",
+      "url": "https://zhuanlan.zhihu.com/p/112698384",
+      "summary": "正文先用反证法假设存在满足条件的一组角，再导出不可能的模长或相位矛盾。"
+    },
+    {
+      "title": "关于必要性探路的一些想法",
+      "url": "https://zhuanlan.zhihu.com/p/113956412",
+      "summary": "正文用左右侧导数取值导致不等式矛盾的论证，证明最值点的一阶导数为零。"
+    },
+    {
+      "title": "（水文）刘维尔定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/119449135",
+      "summary": "证明利用有理根会导出更低次数代数方程的矛盾，排除 f(z_m)=0 的情形。"
+    },
+    {
+      "title": "权方和不等式",
+      "url": "https://zhuanlan.zhihu.com/p/127843503",
+      "summary": "正文先假设所证和式小于 1，再由乘积下界推出矛盾，从而用反证法证明不等式。"
+    },
+    {
+      "title": "浅谈|f(x)|最大值的最小值问题－－切比雪夫最佳逼近直线在高考中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/130443282",
+      "summary": "正文说明如何用反证法排除更小最大值，再补充取等条件以构成严谨证明。"
+    },
+    {
+      "title": "如何培养数学家的思维方式？",
+      "url": "https://zhuanlan.zhihu.com/p/133851061",
+      "summary": "正文先假设素数有限，再构造全部素数乘积加一，并由整除矛盾完成反证。"
+    },
+    {
+      "title": "图灵机：计算机世界的理论基石",
+      "url": "https://zhuanlan.zhihu.com/p/135251031",
+      "summary": "正文假设停机判定机H存在并构造自指机器G，使H的判断与G实际停机性相矛盾，展示反证法。"
+    },
+    {
+      "title": "无聊的逻辑学：重言式与论证有效性",
+      "url": "https://zhuanlan.zhihu.com/p/136735412",
+      "summary": "正文用假定命题为假并推出矛盾的方法判定重言式，实质讲解了反证法的推理形式。"
+    },
+    {
+      "title": "形变定理和山路引理",
+      "url": "https://zhuanlan.zhihu.com/p/137244997",
+      "summary": "正文用形变定理和反证法给出山路引理的证明思路，并通过构造道路与下降流推出矛盾。"
+    },
+    {
+      "title": "超越数与刘维尔定理证明",
+      "url": "https://zhuanlan.zhihu.com/p/138847089",
+      "summary": "正文先假设刘维尔数是代数数，再由有理逼近上下界导出矛盾以证明超越性。"
+    },
+    {
+      "title": "初识切比雪夫多项式",
+      "url": "https://zhuanlan.zhihu.com/p/141957872",
+      "summary": "正文用反证法比较逼近多项式与切比雪夫多项式，证明首一切比雪夫多项式的极小极大性质。"
+    },
+    {
+      "title": "数学家的纸上计算机 -- 图灵机简介",
+      "url": "https://zhuanlan.zhihu.com/p/143834012",
+      "summary": "正文通过构造自指图灵机并导出停机悖论，证明通用停机判定算法不存在。"
+    },
+    {
+      "title": "对假设检验的再一次全面剖析",
+      "url": "https://zhuanlan.zhihu.com/p/145473420",
+      "summary": "正文把假设检验的推理明确解释为反证法：先假定零假设，再由小概率事件与样本结果矛盾而拒绝它。"
+    },
+    {
+      "title": "我的普通逻辑课心得",
+      "url": "https://zhuanlan.zhihu.com/p/146156925",
+      "summary": "正文以反证法逐类分析三段论各格的有效条件，通过假设结论全称导出对周延规则的违反。"
+    },
+    {
+      "title": "数学分析主要定理及推论整理（一）",
+      "url": "https://zhuanlan.zhihu.com/p/147209155",
+      "summary": "正文说明实数完备性诸定理的互推使用反证法，并用反证法给出归结原理等证明。"
+    },
+    {
+      "title": "离散数学完全自学指南",
+      "url": "https://zhuanlan.zhihu.com/p/149468789",
+      "summary": "正文在证明方法部分说明了归谬法的反设与导出矛盾步骤。"
+    },
+    {
+      "title": "使用 Lean 证明 根号2 是一个无理数",
+      "url": "https://zhuanlan.zhihu.com/p/149846259",
+      "summary": "正文假设存在平方为 2 的有理数，并通过推出矛盾证明原命题。"
+    },
+    {
+      "title": "【组合数学】Erdős–Szekeres定理",
+      "url": "https://zhuanlan.zhihu.com/p/150750621",
+      "summary": "正文采用反证假设结论不成立，再通过抽屉原理推出递减子列并导出矛盾。"
+    },
+    {
+      "title": "线性子空间及其交与和",
+      "url": "https://zhuanlan.zhihu.com/p/150982662",
+      "summary": "正文明确以反证法证明任一非零分量均不为零的子空间维数只能为 1，并完整给出矛盾推导。"
+    },
+    {
+      "title": "有限覆盖定理证明其他实数完备性定理",
+      "url": "https://zhuanlan.zhihu.com/p/163511044",
+      "summary": "正文多处以反证法假设目标结论不成立，再借有限覆盖与两类邻域的矛盾完成证明。"
+    },
+    {
+      "title": "费马大定理n=2,3,4时候的讨论与证明",
+      "url": "https://zhuanlan.zhihu.com/p/170614541",
+      "summary": "正文对 n=3 和 n=4 的情形采用反证法与无穷递降导出最小解矛盾。"
+    },
+    {
+      "title": "2020东南赛部分题解答",
+      "url": "https://zhuanlan.zhihu.com/p/172634859",
+      "summary": "正文先假设结论不成立，并利用素数幂因子、抽屉原理和不等式导出矛盾，从而证明数论命题。"
+    },
+    {
+      "title": "从不定方程到数字的宿命——Thue的伟大定理",
+      "url": "https://zhuanlan.zhihu.com/p/184975153",
+      "summary": "正文假设存在无穷多个优秀有理逼近，再通过上下界冲突推出矛盾以证明 Thue 定理。"
+    },
+    {
+      "title": "代数基本定理(Fundamental Theorem of Algebra)",
+      "url": "https://zhuanlan.zhihu.com/p/197818023",
+      "summary": "正文假设多项式无零点，由连续模函数取最小值再构造更小模值导出矛盾。"
+    },
+    {
+      "title": "第三讲 数列极限及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/258105194",
+      "summary": "正文假设同一数列存在两个不同极限，推出互相矛盾的界并证明极限唯一性。"
+    },
+    {
+      "title": "对偶空间(1)：空间、基与映射",
+      "url": "https://zhuanlan.zhihu.com/p/259859651",
+      "summary": "正文用假设存在非零向量并由对偶基导出矛盾的方式证明典范映射是单射。"
+    },
+    {
+      "title": "【数学分析】海涅定理（归结原则）（是个人就能看懂的证明过程）",
+      "url": "https://zhuanlan.zhihu.com/p/279830836",
+      "summary": "正文在充分性部分先假设函数极限不为 A，再导出与已知点列条件矛盾，完整使用反证法。"
+    },
+    {
+      "title": "闲谈费马大定理",
+      "url": "https://zhuanlan.zhihu.com/p/300922469",
+      "summary": "正文通过假设存在最小正整数解并构造更小解的矛盾，用反证法和无穷递降完成证明。"
+    },
+    {
+      "title": "不含相邻重复子串的字符串最多能有多长（又名一个人能有多啰嗦）",
+      "url": "https://zhuanlan.zhihu.com/p/317305495",
+      "summary": "正文为证明生成串不含相邻重复子串，先假设出现指定重复结构并推出原串违规，采用反证路径。"
+    },
+    {
+      "title": "5-3 求根公式和韦达定理",
+      "url": "https://zhuanlan.zhihu.com/p/333943829",
+      "summary": "正文利用有理数对乘法封闭构造反证，说明素数平方根之和不可能为有理数。"
+    },
+    {
+      "title": "一道无理方程题",
+      "url": "https://zhuanlan.zhihu.com/p/337812609",
+      "summary": "正文假设两个解存在严格大小关系，利用递增函数的性质推出相反不等式，再以矛盾排除假设。"
+    },
+    {
+      "title": "Chebyshev（切比雪夫）定理",
+      "url": "https://zhuanlan.zhihu.com/p/339801667",
+      "summary": "正文假设最高次余弦项系数超过函数最大绝对值，通过构造根并导出矛盾来证明引理。"
+    },
+    {
+      "title": "算术基本定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/345488859",
+      "summary": "正文以最小反例和欧几里得引理推出更小反例，用反证法证明质因数分解的唯一性。"
+    },
+    {
+      "title": "公理集合论基础（上）：空集和罗素悖论",
+      "url": "https://zhuanlan.zhihu.com/p/346371552",
+      "summary": "正文用反证法证明罗素集合不满足属于 A 的假设，从而消解罗素悖论。"
+    },
+    {
+      "title": "第一次就能看懂的勒贝格（Lebesgue）积分（二）：芝诺悖论",
+      "url": "https://zhuanlan.zhihu.com/p/346738745",
+      "summary": "正文先假定区间内所有实数可列，再通过对角线构造不在列表中的实数，以反证法证明区间不可数。"
+    },
+    {
+      "title": "最大的“无和”集",
+      "url": "https://zhuanlan.zhihu.com/p/171094281",
+      "summary": "正文在证明(k,l)-sum-free上界时先假设存在超过密度界的大子集，再由测度矛盾完成反证。"
+    },
+    {
+      "title": "【高考数学·导数】必要性探路",
+      "url": "https://zhuanlan.zhihu.com/p/352726789",
+      "summary": "正文用若导数小于零则推出函数值为负的矛盾，证明极值点处导数必为零。"
+    },
+    {
+      "title": "貌似无限的有限——良拟序(well quasi orders)关系",
+      "url": "https://zhuanlan.zhihu.com/p/357122371",
+      "summary": "正文用反证法从良拟序定义推出每个无穷序列都存在无穷递增子序列，并交代了矛盾推理过程。"
+    },
+    {
+      "title": "如何证明 Sylow 定理",
+      "url": "https://zhuanlan.zhihu.com/p/358852225",
+      "summary": "正文明确用反证法由商群中p阶子群导出与最大p子群矛盾。"
+    },
+    {
+      "title": "TREE(3)为什么是有限的？——克鲁斯卡尔树定理",
+      "url": "https://zhuanlan.zhihu.com/p/361185669",
+      "summary": "正文假设存在最小坏序列，通过推导其仍为好序列的矛盾，证明嵌入关系是良拟序。"
+    },
+    {
+      "title": "因为这部数学名著中文版的错误，我决定再科普一下这个知识 | 哆嗒数学网",
+      "url": "https://zhuanlan.zhihu.com/p/363624427",
+      "summary": "正文反设 e 与 π 代数相关，再通过构造多项式并推出与代数无关性矛盾。"
+    },
+    {
+      "title": "场论家用代数（第五话）：单根与Dynkin 图",
+      "url": "https://zhuanlan.zhihu.com/p/366460216",
+      "summary": "正文假设存在不全为零的实系数线性关系，并通过内积导出正负矛盾，证明简单根线性无关。"
+    },
+    {
+      "title": "从零开始到阿列夫数",
+      "url": "https://zhuanlan.zhihu.com/p/367528351",
+      "summary": "正文假设任意编号表已经包含全部实数，再逐位构造表中缺失的实数，以对角线悖论证明实数不可数。"
+    },
+    {
+      "title": "数学分析(一)复习之六大实数系基本定理",
+      "url": "https://zhuanlan.zhihu.com/p/371518428",
+      "summary": "正文在有限覆盖定理的证明中先假设不能被有限覆盖，再通过导出矛盾完成证明。"
+    },
+    {
+      "title": "读懂黎曼猜想（-1）——临界线初探之Hardy定理",
+      "url": "https://zhuanlan.zhihu.com/p/370471898",
+      "summary": "正文明确假设Xi函数只有有限次符号改变，再以积分增长阶的矛盾证明临界线零点无穷多。"
+    },
+    {
+      "title": "Hadamard不等式（含行列式）的若干证明方法",
+      "url": "https://zhuanlan.zhihu.com/p/377664850",
+      "summary": "正文在正交化证明中先假设两行不正交并构造更大的行列式，由此导出矛盾。"
+    },
+    {
+      "title": "有理数和整数一样多？——从等势到连续统假设",
+      "url": "https://zhuanlan.zhihu.com/p/378368843",
+      "summary": "正文假设实数区间可数并构造对角线新数，以反证法证明实数集不可数。"
+    },
+    {
+      "title": "【数分笔记】§1 戴德金定理、单调有界定理",
+      "url": "https://zhuanlan.zhihu.com/p/382110302",
+      "summary": "正文先假设根号 2 可写为既约分数，再由分子必须同时为奇数和偶数推出矛盾。"
+    },
+    {
+      "title": "【数学】不动点定理",
+      "url": "https://zhuanlan.zhihu.com/p/383393222",
+      "summary": "正文用反证法证明压缩映射不动点唯一，并用补集开覆盖的矛盾证明紧集交集非空。"
+    },
+    {
+      "title": "[函数极限连续]函数极限的局部有界性和局部保号性",
+      "url": "https://zhuanlan.zhihu.com/p/393037258",
+      "summary": "正文假设结论不成立并推出不同符号邻域的矛盾，从而证明局部保号性推论。"
+    },
+    {
+      "title": "[函数极限连续]你真的懂极限四则运算法则了吗？",
+      "url": "https://zhuanlan.zhihu.com/p/393677049",
+      "summary": "正文先假设和的极限存在，再由极限四则运算推出另一个极限存在，与题设矛盾。"
+    },
+    {
+      "title": "数学家的地毯——论如何讲一个数学风格的冷笑话",
+      "url": "https://zhuanlan.zhihu.com/p/400116587",
+      "summary": "正文在Helly定理的无穷闭凸集情形假设交集为空，进而导出与有限版本的矛盾。"
+    },
+    {
+      "title": "离散数学笔记（10.2）哈密顿图",
+      "url": "https://zhuanlan.zhihu.com/p/387488226",
+      "summary": "正文用反证法由不相邻顶点的度和条件推出图连通，再证明哈密顿路径的存在性。"
+    },
+    {
+      "title": "pumping lemma/涌出引理/泵引理/反复引理",
+      "url": "https://zhuanlan.zhihu.com/p/404708553",
+      "summary": "正文以泵引理判定语言不是正则语言，明确按反设正则、导出三个条件矛盾的反证法展开。"
+    },
+    {
+      "title": "一文搞懂由积分判断函数零点个数问题(积分证明题总结笔记2/3)",
+      "url": "https://zhuanlan.zhihu.com/p/408967560",
+      "summary": "正文将至少两个零点的结论转化为其反面，并排除无零点及唯一零点的情形，完整展示了反证法思路。"
+    },
+    {
+      "title": "同样是质数，为啥哥德巴赫猜想比我有名？",
+      "url": "https://zhuanlan.zhihu.com/p/410240202",
+      "summary": "正文先假设有限个质数存在，再通过所构造数的质因子导出矛盾，示范了反证法。"
+    },
+    {
+      "title": "严格主对角占优矩阵的正定性",
+      "url": "https://zhuanlan.zhihu.com/p/411791134",
+      "summary": "正文假设行列式为零并导出与严格对角占优矛盾的结论，从而证明行列式非零。"
+    },
+    {
+      "title": "Evans偏微分方程第二章习题答案",
+      "url": "https://zhuanlan.zhihu.com/p/414344729",
+      "summary": "正文通过反证法构造扰动函数，并利用内部最大点与 Laplace 算子的符号矛盾证明最大值原理。"
+    },
+    {
+      "title": "数学归纳法的知识整理",
+      "url": "https://zhuanlan.zhihu.com/p/423229633",
+      "summary": "正文假设存在使命题不成立的最小正整数，通过良序原理和归纳步骤导出矛盾，从而证明归纳法有效。"
+    },
+    {
+      "title": "数分笔记 | 七大基本实数理论的证明及互推",
+      "url": "https://zhuanlan.zhihu.com/p/435626158",
+      "summary": "正文在有限覆盖定理证明中实际采用反证法，并通过闭区间套构造矛盾完成论证。"
+    },
+    {
+      "title": "数学分析笔记一",
+      "url": "https://zhuanlan.zhihu.com/p/437385897",
+      "summary": "正文明确采用反证法证明平方等于二的有理数不存在，并完成矛盾推导。"
+    },
+    {
+      "title": "存在非Borel的解析集: Suslin是如何给Lebesgue纠错的",
+      "url": "https://zhuanlan.zhihu.com/p/449221076",
+      "summary": "正文用对角线论证和反证式讨论构造不属于指定层级的集合。"
+    },
+    {
+      "title": "棋盘上的福尔摩斯",
+      "url": "https://zhuanlan.zhihu.com/p/448003858",
+      "summary": "正文假设黑兵来自 c7，并由吃子次数与现存棋子数的矛盾推翻假设，完成反证法证明。"
+    },
+    {
+      "title": "连续函数的有界定理与最值定理",
+      "url": "https://zhuanlan.zhihu.com/p/451686174",
+      "summary": "正文在多个定理证明中先假设无界或取不到最值，通过构造矛盾完成反证。"
+    },
+    {
+      "title": "复旦大学2021-2022秋季学期高数A（上）压轴题",
+      "url": "https://zhuanlan.zhihu.com/p/454773051",
+      "summary": "正文反设函数不单调递减，并由连续性和介值定理导出范围矛盾。"
+    },
+    {
+      "title": "纳什均衡的存在性证明",
+      "url": "https://zhuanlan.zhihu.com/p/454822666",
+      "summary": "正文反设不存在不动点，再由Sperner引理和闭集性质推出矛盾。"
+    },
+    {
+      "title": "压缩映射原理",
+      "url": "https://zhuanlan.zhihu.com/p/458151225",
+      "summary": "正文通过假设存在两个不同不动点导出矛盾，从而证明不动点的唯一性。"
+    },
+    {
+      "title": "inversioner版高中数学课本(3)——第一章：不等式",
+      "url": "https://zhuanlan.zhihu.com/p/461005107",
+      "summary": "正文单列反证法小节，并用多个不等式例题展示翻转条件与结论的反证推理。"
+    },
+    {
+      "title": "在tan 1°,tan 2°,tan 3°,…,tan 89°中,共88个无理数",
+      "url": "https://zhuanlan.zhihu.com/p/463529017",
+      "summary": "正文先假设目标正切值为有理数，再由正切公式推出与已知无理值矛盾，采用反证法完成证明。"
+    },
+    {
+      "title": "任意给出两个正实数 a 、 b，必存在正整数 n，使 na>b 实数的阿基米德性怎么证?",
+      "url": "https://zhuanlan.zhihu.com/p/466977705",
+      "summary": "正文明确以反证法证明正整数的无上界性，并据此推出实数的阿基米德性质。"
+    },
+    {
+      "title": "点集拓扑（2）：ZF公理系统",
+      "url": "https://zhuanlan.zhihu.com/p/475500582",
+      "summary": "正文用罗素悖论的反证推理说明朴素集合论必须加入公理限制。"
+    },
+    {
+      "title": "导数的介值定理(达布中值定理)的证明及应用",
+      "url": "https://zhuanlan.zhihu.com/p/486060686",
+      "summary": "正文先假设导函数在某点不连续或趋于无穷，再导出与达布定理的矛盾以证明情形不存在。"
+    },
+    {
+      "title": "【数学分析】实数的构造的一些想法",
+      "url": "https://zhuanlan.zhihu.com/p/486251837",
+      "summary": "正文明确用反证法从有理数假设推出矛盾，证明根号二不是有理数。"
+    },
+    {
+      "title": "逻辑学入门（上）-演绎逻辑",
+      "url": "https://zhuanlan.zhihu.com/p/495493685",
+      "summary": "正文把假设结论为假、推出前提矛盾的方法作为赋值归谬法来证明论证有效。"
+    },
+    {
+      "title": "每日一题:两道数学分析,一道高等代数",
+      "url": "https://zhuanlan.zhihu.com/p/500007672",
+      "summary": "正文对数列极限结论显式采用反证法，并通过收敛子列的极限与有界性推出矛盾。"
+    },
+    {
+      "title": "【导数压轴题】端点效应(一)：概念与初级端点效应",
+      "url": "https://zhuanlan.zhihu.com/p/486956119",
+      "summary": "正文在引子证明中先假定端点导数为负，再推出与题设矛盾的结论，具体使用了反证法。"
+    },
+    {
+      "title": "陈平不等式的图论证明——赢图（A Win-graph-based Proof of Champion Inequality）",
+      "url": "https://zhuanlan.zhihu.com/p/519123724",
+      "summary": "正文先假设结论不成立，再导出与人口规模和边密度结论相矛盾的命题，完整演示反证法。"
+    },
+    {
+      "title": "不定积分与定积分的存在定理",
+      "url": "https://zhuanlan.zhihu.com/p/524965813",
+      "summary": "正文先假设导函数存在对应原函数，再结合导数的定义与间断点条件导出矛盾，具体演示反证法。"
+    },
+    {
+      "title": "无理数的有理逼近及其应用（1）——两个基本定理",
+      "url": "https://zhuanlan.zhihu.com/p/537341163",
+      "summary": "假设满足条件的互素整数对只有有限多组，由此导出无理数等于有理数的矛盾。"
+    },
+    {
+      "title": "关于拓扑方法证明素数有无穷多个的一点点思考",
+      "url": "https://zhuanlan.zhihu.com/p/545646652",
+      "summary": "正文先反设素数有限，再由有限个素数的倍数并集展开矛盾。"
+    },
+    {
+      "title": "代数基本定理的复分析证明方法",
+      "url": "https://zhuanlan.zhihu.com/p/563722748",
+      "summary": "正文在刘维尔定理、最大模原理和柯西定理等证明中先否定结论，再推出矛盾，具体展示了反证法。"
+    },
+    {
+      "title": "数论--丢番图逼近",
+      "url": "https://zhuanlan.zhihu.com/p/559110495",
+      "summary": "正文多次假设待证数为代数数，再利用刘维尔定理或辅助积分导出矛盾，明确展示反证法。"
+    },
+    {
+      "title": "三只小猪学集合论",
+      "url": "https://zhuanlan.zhihu.com/p/573604998",
+      "summary": "正文由 R 是否属于自身分别推出矛盾，用归谬法展示罗素悖论。"
+    },
+    {
+      "title": "质数的最小间隔有上限，人的奋斗没有上限 | 好文重发",
+      "url": "https://zhuanlan.zhihu.com/p/581241108",
+      "summary": "正文先假设质数仅有有限个，再构造新数导出新质数并与假设矛盾，从而完成反证。"
+    },
+    {
+      "title": "总结：张益唐教授 Landau-Siegel 零点猜想直播讲座",
+      "url": "https://zhuanlan.zhihu.com/p/581460307",
+      "summary": "正文假设序列非负，通过相反上界推出矛盾，从而完成存在负项的反证。"
+    },
+    {
+      "title": "一个古怪的绝对收敛问题",
+      "url": "https://zhuanlan.zhihu.com/p/608671793",
+      "summary": "正文分别假设两种收敛情形，推导出矛盾来说明它们均不可能。"
+    },
+    {
+      "title": "复分析——Picard定理的应用",
+      "url": "https://zhuanlan.zhihu.com/p/623112223",
+      "summary": "正文在证明整函数取遍全平面时明确采用反证法，并推出与 Picard 小定理矛盾的结论。"
+    },
+    {
+      "title": "为什么中国奥数获奖最多，菲尔兹奖却一个都没有？",
+      "url": "https://zhuanlan.zhihu.com/p/623751275",
+      "summary": "正文用假设根号二为既约有理数并导出互素矛盾的论证展示反证法。"
+    },
+    {
+      "title": "戴德金分割（Dedekind cut）简介",
+      "url": "https://zhuanlan.zhihu.com/p/624927736",
+      "summary": "正文假设根号二可写为最简整数比，并由奇偶性推出公因数矛盾。"
+    },
+    {
+      "title": "一个让人惊奇的数学公理——选择公理，极大地违反了人类的直觉",
+      "url": "https://zhuanlan.zhihu.com/p/626372100",
+      "summary": "正文借助指数方程例子说明非构造性论证如何通过排除命题的否定来确认命题成立。"
+    },
+    {
+      "title": "数学奇迹，无界分母猜想最近被证明，揭示了一种深层的数学结构",
+      "url": "https://zhuanlan.zhihu.com/p/626259504",
+      "summary": "正文概括无界分母猜想证明中的反证结构：假设存在反例，推出大量反例，从而排除反例存在。"
+    },
+    {
+      "title": "【旧版订正】数论：概念和问题1——韦达跳跃",
+      "url": "https://zhuanlan.zhihu.com/p/639719565",
+      "summary": "正文从反设存在反例出发，通过推出最小正整数解的矛盾完成证明。"
+    },
+    {
+      "title": "Cayley-Hamilton定理的拓扑证明",
+      "url": "https://zhuanlan.zhihu.com/p/643815882",
+      "summary": "正文在辅助引理的维数论证中导出与复数域无限维性矛盾，明确采用反证推理。"
+    },
+    {
+      "title": "TCS笔记1：数学，算法，和图灵机",
+      "url": "https://zhuanlan.zhihu.com/p/643661983",
+      "summary": "正文用自指函数在停机与不停机两种情形均导出矛盾，说明停机问题不可判断。"
+    },
+    {
+      "title": "平面几何定理及证明（3）",
+      "url": "https://zhuanlan.zhihu.com/p/627480882",
+      "summary": "正文用反证法比较两角平分线长度，推出边长只能相等，从而证明三角形为等腰三角形。"
+    },
+    {
+      "title": "导函数不存在第一类间断点和无穷间断点的俩种证明及误区解析",
+      "url": "https://zhuanlan.zhihu.com/p/651443880",
+      "summary": "正文明确以反证法假设存在第一类间断点，并导出矛盾完成证明。"
+    },
+    {
+      "title": "《数学分析》 60 有限覆盖定理 (海涅-博雷特定理) 的几种证明方式",
+      "url": "https://zhuanlan.zhihu.com/p/651191346",
+      "summary": "正文在区间套证明中先假设非紧致并导出矛盾，实际展示了反证法。"
+    },
+    {
+      "title": "高等代数——不可约多项式",
+      "url": "https://zhuanlan.zhihu.com/p/653615134",
+      "summary": "正文多处从多项式分解假设出发导出矛盾，具体使用了反证法。"
+    },
+    {
+      "title": "2023 ~ 2025 年南京大学计算机拔尖班二次选拔考试（数学部分）",
+      "url": "https://zhuanlan.zhihu.com/p/654734288",
+      "summary": "正文在函数方程求解中假设存在另一零点，推出矛盾并排除相应函数分支。"
+    },
+    {
+      "title": "论素数定理的误差项",
+      "url": "https://zhuanlan.zhihu.com/p/654730509",
+      "summary": "正文说明单边 Omega 估计的反证思路，并用 Landau 引理从错误上界导出矛盾。"
+    },
+    {
+      "title": "大半页纸写完的 π 是无理数的证明，就说秀不秀？",
+      "url": "https://zhuanlan.zhihu.com/p/655375296",
+      "summary": "正文先假设 π 为有理数，再由积分同时为正整数和小于 1 推出矛盾。"
+    },
+    {
+      "title": "与大语言模型一起研究P≠NP",
+      "url": "https://zhuanlan.zhihu.com/p/656334198",
+      "summary": "正文明确解释反证法的假设与导出矛盾步骤，并据此列举证明 P≠NP 的若干思路。"
+    },
+    {
+      "title": "算法学习笔记(25)：鸽巢原理（抽屉原理）",
+      "url": "https://zhuanlan.zhihu.com/p/661206530",
+      "summary": "正文明确用反证法证明抽屉原理及其推广，并完整展示矛盾推导。"
+    },
+    {
+      "title": "布劳威尔和他的不动点定理",
+      "url": "https://zhuanlan.zhihu.com/p/670752246",
+      "summary": "正文多次采用反证法，通过假设不存在不动点或存在收缩映射推出矛盾。"
+    },
+    {
+      "title": "f(x)<0，f'(x)<0，f''(x)>0，定义域为R，f(x)不存在",
+      "url": "https://zhuanlan.zhihu.com/p/671652176",
+      "summary": "正文先假设满足三个条件的函数存在，再由极限与导数性质推出矛盾，是完整的反证法证明。"
+    },
+    {
+      "title": "极光杯（二）柯西不等式 椭圆到椭圆外一点的最小距离",
+      "url": "https://zhuanlan.zhihu.com/p/675811359",
+      "summary": "正文假设 P 在椭圆内部，利用反向向量点积为负导出矛盾并证明 P 在边界上。"
+    },
+    {
+      "title": "【新版】数论：概念和问题（零）",
+      "url": "https://zhuanlan.zhihu.com/p/679558376",
+      "summary": "正文以最小反例和无穷递降完成反证，典型应用于证明根号5无理及若干不定方程无平凡解。"
+    },
+    {
+      "title": "全网独一家！一道谢惠民难题与楼红卫征解题的最强推广",
+      "url": "https://zhuanlan.zhihu.com/p/683662618",
+      "summary": "正文先假设有限上界或有限个解成立，再通过递推区间得到无穷多个解并据此导出矛盾。"
+    },
+    {
+      "title": "Selmer多项式(X^n-X-1)及其Galois群",
+      "url": "https://zhuanlan.zhihu.com/p/684029948",
+      "summary": "正文先假设多项式可约，再由此导出不可能的整除关系，完成不可约性的反证。"
+    },
+    {
+      "title": "组合学的多项式方法：有限域Kakeya猜想",
+      "url": "https://zhuanlan.zhihu.com/p/686081489",
+      "summary": "正文从 Kakeya 集过小的假设出发，通过低次多项式和最高次项矛盾完成反证。"
+    },
+    {
+      "title": "[证明/注解/延伸] Lyapunov稳定性定理，渐近稳定，吸引域的估计",
+      "url": "https://zhuanlan.zhihu.com/p/687819056",
+      "summary": "正文通过反证法证明李雅普诺夫函数严格下降时系统渐近稳定。"
+    },
+    {
+      "title": "[高等数学]一道超难数列极限问题的简单解法",
+      "url": "https://zhuanlan.zhihu.com/p/688537086",
+      "summary": "正文假设偶子列极限大于 1，并推出与数列有界性矛盾，从而完成反证。"
+    },
+    {
+      "title": "微分中值定理——巅峰之作！基本底层三大定理的认知与证明（介值定理、费马定理、罗尔定理）以及对拉格朗日与柯西绝妙的证明方法！！！",
+      "url": "https://zhuanlan.zhihu.com/p/694676042",
+      "summary": "正文明确用反证法构造推导，说明介值、费马和罗尔等定理的证明思路。"
+    },
+    {
+      "title": "Baire纲的证明及其简单应用(基础数分版本）",
+      "url": "https://zhuanlan.zhihu.com/p/694885171",
+      "summary": "正文用反证法和闭区间套构造证明 Baire 纲定理，并将该方法延伸到三个应用。"
+    },
+    {
+      "title": "Stein 《Complex Analysis》 Chapter 1 习题解答(1)",
+      "url": "https://zhuanlan.zhihu.com/p/693905656",
+      "summary": "正文多道习题先假设相反结论并推出矛盾，具体展示了反证法在复数序关系和连通性证明中的应用。"
+    },
+    {
+      "title": "三种方法证明可去间断点个数至多可数",
+      "url": "https://zhuanlan.zhihu.com/p/698060212",
+      "summary": "正文假设某一不连续点集合无限，取出收敛子列并利用连续性推出矛盾，从而证明该集合有限。"
+    },
+    {
+      "title": "海涅（Heine）定理（归结原则）",
+      "url": "https://zhuanlan.zhihu.com/p/702393697",
+      "summary": "正文在充分性证明中反设函数极限不等于 l，再构造反例数列导出矛盾。"
+    },
+    {
+      "title": "拓扑学定理的组合形式",
+      "url": "https://zhuanlan.zhihu.com/p/703634562",
+      "summary": "正文在Sperner引理与Brouwer定理的等价证明中，假设不存在相应结构并导出不动点矛盾。"
+    },
+    {
+      "title": "一道阿里巴巴决赛数论题的初等解答",
+      "url": "https://zhuanlan.zhihu.com/p/704942683",
+      "summary": "证明先假设原方程存在整数解，再由整除性推出 p≤5 的矛盾，实质使用了反证法。"
+    },
+    {
+      "title": "一道有趣的数论证明题 - 来自付费咨询",
+      "url": "https://zhuanlan.zhihu.com/p/705834680",
+      "summary": "正文明确采用反证法，按奇偶性和因数范围分类推出矛盾，从而证明目标命题。"
+    },
+    {
+      "title": "【数学竞赛】闵可夫斯基定理的应用",
+      "url": "https://zhuanlan.zhihu.com/p/705324423",
+      "summary": "正文明确用反证法证明平面闵可夫斯基格点定理，并通过与给定格点条件矛盾完成论证。"
+    },
+    {
+      "title": "2021南开大学数学伯苓数学分析动态进出考试最后一题",
+      "url": "https://zhuanlan.zhihu.com/p/715078005",
+      "summary": "正文假设原函数存在，由此推出连续性与零点导数之间的矛盾，从而用反证法排除参数区间。"
+    },
+    {
+      "title": "证明TREE(3)有限",
+      "url": "https://zhuanlan.zhihu.com/p/715618227",
+      "summary": "正文多次反设相关偏序集不是良拟序，再通过递推选取和极小元性质导出矛盾。"
+    },
+    {
+      "title": "2024年武汉大学数学分析(1)期中考试个人解答",
+      "url": "https://zhuanlan.zhihu.com/p/7239169950",
+      "summary": "正文在极限乘积极限、第一类间断点有界和周期差分等题中多次采用反证法完成证明。"
+    },
+    {
+      "title": "数分高代好题推荐5",
+      "url": "https://zhuanlan.zhihu.com/p/10432626721",
+      "summary": "正文先反设函数在子区间不可微，再由辅助函数的极值性质导出导数下界矛盾。"
+    },
+    {
+      "title": "Baire纲定理在数学分析问题中的精彩应用",
+      "url": "https://zhuanlan.zhihu.com/p/12907502449",
+      "summary": "正文多次先假设结论反面，再通过Baire纲定理导出矛盾，完整展示反证法证明。"
+    },
+    {
+      "title": "迎新年——2025阶群是可解群吗？",
+      "url": "https://zhuanlan.zhihu.com/p/15698925186",
+      "summary": "正文明确采用反证法假设存在单群，再通过计数与正规子群导出矛盾。"
+    },
+    {
+      "title": "代数基本定理的概率证法",
+      "url": "https://zhuanlan.zhihu.com/p/17940379504",
+      "summary": "正文先假设非恒定多项式无零点，导出正的最小模长，再利用布朗运动必进入该圆盘得到矛盾。"
+    },
+    {
+      "title": "Hurwitz定理——向量叉乘居然只能在三维和七维空间中定义！？",
+      "url": "https://zhuanlan.zhihu.com/p/24562904392",
+      "summary": "正文通过反证和最小非零系数构造矛盾，证明反交换矩阵乘积线性无关。"
+    },
+    {
+      "title": "「Sylvester-Schur 定理」与一个哈佛大学的博资考问题",
+      "url": "https://zhuanlan.zhihu.com/p/25421384214",
+      "summary": "正文以反证法假设二项式系数没有大于 k 的素因子，再分情形推出矛盾。"
+    },
+    {
+      "title": "B.1(克罗内克定理)高中生能懂，绕开群论证明高次方程无根式解(及一个例子)",
+      "url": "https://zhuanlan.zhihu.com/p/29537121160",
+      "summary": "正文在不可约性、克罗内克定理和多处反设推导中具体使用反证法，并以矛盾完成阿贝尔不可能性结论。"
+    },
+    {
+      "title": "[0,1] → [0,1]² 的 Hölder 连续的满射",
+      "url": "https://zhuanlan.zhihu.com/p/31780578769",
+      "summary": "正文先假设指数超过二分之一，再由覆盖面积推出与满射矛盾，使用了反证法。"
+    },
+    {
+      "title": "从零开始的伽马函数（超长保姆级教程）",
+      "url": "https://zhuanlan.zhihu.com/p/1889392361823506978",
+      "summary": "正文用反证法和余元公式证明伽马函数在整个复平面上没有零点。"
+    },
+    {
+      "title": "一道关于佩尔方程的圆锥曲线题——2025第一次四省联考（天一大联考）T19",
+      "url": "https://zhuanlan.zhihu.com/p/1898527498658100243",
+      "summary": "正文假设相邻构造解之间存在另一格点，通过导出矛盾证明所列格点已经穷尽。"
+    },
+    {
+      "title": "与(伪)燃烧数的最终决战！详细阐述背后原理(上)",
+      "url": "https://zhuanlan.zhihu.com/p/1897263349986726061",
+      "summary": "正文先假设燃烧数集合不良序，再通过构造递减序列和极限导出矛盾来证明良序性。"
+    },
+    {
+      "title": "2025北京高考中的骑士巡游问题（Knight's Tour Problem）",
+      "url": "https://zhuanlan.zhihu.com/p/1919484233510020014",
+      "summary": "正文在第三问中先假设全棋盘序列为 K 列，再通过相邻点冲突推出矛盾，完整使用了反证法。"
+    },
+    {
+      "title": "完整总结！切比雪夫多项式与勒让德多项式逼近",
+      "url": "https://zhuanlan.zhihu.com/p/1933514153835893710",
+      "summary": "正文在证明 Chebyshev 一致最佳逼近时假设更小误差，再由交错点推出矛盾。"
+    },
+    {
+      "title": "解决前苏联数学分析领域公开40年的难题",
+      "url": "https://zhuanlan.zhihu.com/p/1958129614040860096",
+      "summary": "正文先假设不存在满足条件的行为，再通过区间峰值产生矛盾完成反证。"
+    },
+    {
+      "title": "圆锥曲线（Conics）——古典几何法",
+      "url": "https://zhuanlan.zhihu.com/p/1997419697776398814",
+      "summary": "文章通过假设存在第三条椭圆切线或两条双曲线切线，导出与角平分线唯一性等结论的矛盾。"
+    },
+    {
+      "title": "毛球定理（Hairy Ball Theorem）",
+      "url": "https://zhuanlan.zhihu.com/p/2040867046473388100",
+      "summary": "正文先假设球面存在处处非零切向量场，再将该假设归一化并从两种论证中推出矛盾。"
+    }
+  ]
+}

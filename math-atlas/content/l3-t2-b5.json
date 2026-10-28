@@ -1,0 +1,861 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t2-b5",
+  "sources": [
+    {
+      "title": "如何做微商？",
+      "url": "https://www.zhihu.com/answer/101521983",
+      "summary": "正文单独给出反函数的求导方法和公式。"
+    },
+    {
+      "title": "数学中以 e 为底的指数函数 f(x)=exp(x) 求导后为什么还是它本身？",
+      "url": "https://www.zhihu.com/answer/110576517",
+      "summary": "正文利用自然指数与自然对数互为反函数推导求导关系。"
+    },
+    {
+      "title": "如何理解「对数」？",
+      "url": "https://www.zhihu.com/answer/121067428",
+      "summary": "正文明确说明对数后来被认识为指数运算的逆运算。"
+    },
+    {
+      "title": "数学的符号系统有没有缺陷？",
+      "url": "https://www.zhihu.com/answer/124201825",
+      "summary": "正文讨论函数幂记号歧义，并明确给出 f 的逆函数与复合幂的区分。"
+    },
+    {
+      "title": "反三角函数的导数是怎么推出来的？大一刚接触高数",
+      "url": "https://www.zhihu.com/answer/130223980",
+      "summary": "正文把三角函数关系反解为反函数，并据此表达各反三角函数导数。"
+    },
+    {
+      "title": "大一数学分析学习是偏证明还是偏计算？",
+      "url": "https://www.zhihu.com/answer/173915554",
+      "summary": "正文完整陈述反函数可导定理并推导反函数导数公式。"
+    },
+    {
+      "title": "请问满射、单射、一 一映射、函数四者的关系？",
+      "url": "https://www.zhihu.com/answer/240233802",
+      "summary": "正文说明双射条件下可以定义逆函数。"
+    },
+    {
+      "title": "关于逆映射定理的证明？",
+      "url": "https://www.zhihu.com/answer/253022853",
+      "summary": "正文把逆映射定理作为隐函数定理的特殊情形加以证明。"
+    },
+    {
+      "title": "谁来讲讲大一高数的反函数及它的求导法则？",
+      "url": "https://www.zhihu.com/answer/296158851",
+      "summary": "正文以正弦和反正弦为例解释反函数及其求导法则。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/303813857",
+      "summary": "正文由反正切的反函数关系推导其导数。"
+    },
+    {
+      "title": "反函数的二阶导数中d(1/f'(x))/dy=d(1/f'(x))/dx*dx/dy是怎么得到的？",
+      "url": "https://www.zhihu.com/answer/315481080",
+      "summary": "正文从原函数与反函数的导数关系逐步推导二阶导数。"
+    },
+    {
+      "title": "反函数的求导 就是等于原函数求导的倒数，那为什么arcsinx的导数不等于1／cosx 呢?",
+      "url": "https://www.zhihu.com/answer/367509788",
+      "summary": "正文推导反函数导数的正确复合公式。"
+    },
+    {
+      "title": "三角函数套反三角函数怎么算？",
+      "url": "https://www.zhihu.com/answer/428498170",
+      "summary": "正文解释反三角函数与三角函数复合时的取值范围。"
+    },
+    {
+      "title": "是否存在导数等于反函数的连续函数？",
+      "url": "https://www.zhihu.com/answer/440083898",
+      "summary": "正文利用反函数的单调性分析函数方程。"
+    },
+    {
+      "title": "什么是反三角函数？",
+      "url": "https://www.zhihu.com/answer/494270938",
+      "summary": "正文用交换定义域和值域解释反三角函数。"
+    },
+    {
+      "title": "什么是反函数？",
+      "url": "https://www.zhihu.com/answer/494812772",
+      "summary": "正文解释反函数存在要求双射。"
+    },
+    {
+      "title": "反三角函数求导有没有直观的推导过程，感觉好难背？",
+      "url": "https://www.zhihu.com/answer/499000772",
+      "summary": "正文利用反函数复合恒等式完成推导。"
+    },
+    {
+      "title": "反三角函数的定义域与值域如何巧妙记忆？",
+      "url": "https://www.zhihu.com/answer/516661577",
+      "summary": "通过一一对应条件说明如何选择区间使三角函数可逆。"
+    },
+    {
+      "title": "为什么反函数的导数等于原函数导数的倒数？",
+      "url": "https://www.zhihu.com/answer/571332482",
+      "summary": "正文从映射与双射角度定义反函数。"
+    },
+    {
+      "title": "Γ(x) 的反函数是什么？",
+      "url": "https://www.zhihu.com/answer/643685489",
+      "summary": "定义 Gamma 函数限制区间上的主逆函数并给出其性质和积分表示。"
+    },
+    {
+      "title": "为什么 sin(x²)+sin(y²)=1 的图像这么复杂？",
+      "url": "https://www.zhihu.com/answer/696628193",
+      "summary": "用反三角函数表达分支解。"
+    },
+    {
+      "title": "对数是用来描述什么的？",
+      "url": "https://www.zhihu.com/answer/727162100",
+      "summary": "通过互逆关系连接指数与对数。"
+    },
+    {
+      "title": "为何二阶导数要记为 d²y/dx²？",
+      "url": "https://www.zhihu.com/answer/733709431",
+      "summary": "用反函数求导说明微分记号的形式优势。"
+    },
+    {
+      "title": "为什么反函数与原函数的复合函数为 x，应该如何理解？",
+      "url": "https://www.zhihu.com/answer/766305533",
+      "summary": "用代入演示函数与反函数复合得到自变量。"
+    },
+    {
+      "title": "有没有反三角函数的「和差角公式」？",
+      "url": "https://www.zhihu.com/answer/780118376",
+      "summary": "全文围绕反函数形式的反三角函数恒等式展开。"
+    },
+    {
+      "title": "arc加sin表示什么？",
+      "url": "https://www.zhihu.com/answer/824954018",
+      "summary": "把 arc 三角函数解释为相应三角函数的反函数并限定值域。"
+    },
+    {
+      "title": "求教，y=sinx在(0,2π)的反函数怎么求？",
+      "url": "https://www.zhihu.com/answer/833676059",
+      "summary": "正文按正弦函数的三个单调区间逐段求出反函数。"
+    },
+    {
+      "title": "如何求一个函数的反函数?",
+      "url": "https://www.zhihu.com/answer/841180094",
+      "summary": "正文给出反函数的定义、存在条件以及定义域和值域的互换。"
+    },
+    {
+      "title": "双曲正弦函数怎么推其反函数?",
+      "url": "https://www.zhihu.com/answer/855469379",
+      "summary": "通过交换变量完整求出双曲正弦的反函数。"
+    },
+    {
+      "title": "想问反三角函数这个知识点，为什么反正弦函数的值域是[－π/2，π/2]，不能是[π/2，3π/2]？",
+      "url": "https://www.zhihu.com/answer/858049975",
+      "summary": "解释反三角函数需选取单值分支并求反函数。"
+    },
+    {
+      "title": "谁能能明白地解释反函数这个概念，求赐教，？",
+      "url": "https://www.zhihu.com/answer/873559568",
+      "summary": "正文从双射、定义域和值域互换及图像对称系统解释反函数。"
+    },
+    {
+      "title": "如何使用计算器计算三角函数、反三角函数？",
+      "url": "https://www.zhihu.com/answer/889462518",
+      "summary": "说明反三角函数用于从函数值反求角度。"
+    },
+    {
+      "title": "为什么反函数的导数等于原函数导数的倒数？",
+      "url": "https://www.zhihu.com/answer/891683779",
+      "summary": "推导反函数导数与原函数导数互为倒数。"
+    },
+    {
+      "title": "cosarcsinx等于多少？",
+      "url": "https://www.zhihu.com/answer/983433438",
+      "summary": "正文直接给出反三角函数复合式的结果。"
+    },
+    {
+      "title": "函数 y＝arcsin(sinx) 的图像为什么是这样？",
+      "url": "https://www.zhihu.com/answer/985063330",
+      "summary": "正文直接利用反函数关系判断复合函数图像。"
+    },
+    {
+      "title": "单调函数才有反函数是么？",
+      "url": "https://www.zhihu.com/answer/1020212961",
+      "summary": "正文说明反函数存在条件并给出反例辨析。"
+    },
+    {
+      "title": "隐函数怎么理解？",
+      "url": "https://www.zhihu.com/answer/1116186154",
+      "summary": "正文实质解释反函数中变量交换的图像含义。"
+    },
+    {
+      "title": "什么是反函数？",
+      "url": "https://www.zhihu.com/answer/1217510678",
+      "summary": "正文从双射定义反函数并讨论图像。"
+    },
+    {
+      "title": "为什么 lnx 求导是 1/x？",
+      "url": "https://www.zhihu.com/answer/1303254491",
+      "summary": "正文用反函数求导公式推得 ln 的导数。"
+    },
+    {
+      "title": "反三角函数的性质？",
+      "url": "https://www.zhihu.com/answer/1440315921",
+      "summary": "正文直接讲解或推导“反函数”相关内容。"
+    },
+    {
+      "title": "反三角函数的定义域与值域如何巧妙记忆？",
+      "url": "https://www.zhihu.com/answer/1440316906",
+      "summary": "正文直接讲解或推导“反函数”相关内容。"
+    },
+    {
+      "title": "已知三角函数应该怎么求反三角函数？",
+      "url": "https://www.zhihu.com/answer/1441528789",
+      "summary": "正文直接讲解或推导“反函数”相关内容。"
+    },
+    {
+      "title": "谁来讲讲大一高数的反函数及它的求导法则？",
+      "url": "https://www.zhihu.com/answer/1441563740",
+      "summary": "正文直接讲解或推导“反函数”相关内容。"
+    },
+    {
+      "title": "反三角函数的求导过程？",
+      "url": "https://www.zhihu.com/answer/1441621525",
+      "summary": "正文直接讲解或推导“反函数”相关内容。"
+    },
+    {
+      "title": "原函数与反函数是同一函数吗？",
+      "url": "https://www.zhihu.com/answer/1442289956",
+      "summary": "正文直接讲解或推导“反函数”相关内容。"
+    },
+    {
+      "title": "为什么arcsinx图像只有一段？",
+      "url": "https://www.zhihu.com/answer/1544610338",
+      "summary": "正文直接讨论反函数，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "f(f(x))=x除了f(x)=x还有什么函数符合？",
+      "url": "https://www.zhihu.com/answer/1556219624",
+      "summary": "正文通过交换自变量与函数值分析满足 f(f(x))=x 的映射。"
+    },
+    {
+      "title": "如何算将反三角函数化为三角函数？",
+      "url": "https://www.zhihu.com/answer/1904686167",
+      "summary": "正文利用反函数定义化简反三角函数的三角函数值。"
+    },
+    {
+      "title": "如果 f(f(x))＝e^x，那么 f(x) 的解析式是什么？",
+      "url": "https://www.zhihu.com/answer/2013779981",
+      "summary": "正文用逆运算 ln 构造半分迭代函数。"
+    },
+    {
+      "title": "方程 2^x＝x^2 应该怎么解？",
+      "url": "https://www.zhihu.com/answer/2017826158",
+      "summary": "正文通过 Lambert W 的反函数关系表示方程解。"
+    },
+    {
+      "title": "sinarctanx等于什么？",
+      "url": "https://www.zhihu.com/answer/2036860086",
+      "summary": "正文用直角三角形和反三角函数求复合函数值。"
+    },
+    {
+      "title": "如何记住所有的三角函数公式？",
+      "url": "https://www.zhihu.com/answer/2115612979",
+      "summary": "正文专门列出反三角函数定义域、值域和基本关系。"
+    },
+    {
+      "title": "数学历史上，基本基本初等函数的导数是如何推导出来的？",
+      "url": "https://www.zhihu.com/answer/2346403351",
+      "summary": "正文利用反函数求导法逐一推导 arcsin、arccos、arctan 和 arccot 的导数。"
+    },
+    {
+      "title": "怎么记基本初等函数的图像、定义域和值域？",
+      "url": "https://www.zhihu.com/answer/2373786813",
+      "summary": "正文整理常见反三角函数的图像、定义域和值域。"
+    },
+    {
+      "title": "求三角函数常用公式?",
+      "url": "https://www.zhihu.com/answer/2384217778",
+      "summary": "正文专节说明反三角函数的定义域、值域和关系式。"
+    },
+    {
+      "title": "如何评价 2022 新高考全国 Ⅰ 卷数学题目？真的很难吗？",
+      "url": "https://www.zhihu.com/answer/2518875370",
+      "summary": "利用指数函数与对数函数互为反函数，把两组交点联系起来证明等差数列。"
+    },
+    {
+      "title": "2022 高考数学题难度如何？哪道题印象深刻？",
+      "url": "https://www.zhihu.com/answer/2519067160",
+      "summary": "核心论证依赖指数函数与对数函数互为反函数，把两曲线上的点互相映射。"
+    },
+    {
+      "title": "什么是真正的数学思维？",
+      "url": "https://www.zhihu.com/answer/2609755669",
+      "summary": "把反函数思想类比为从相反方向重新理解命题与经验。"
+    },
+    {
+      "title": "是否存在函数f(x)使得f(f(x))=4ˣ？",
+      "url": "https://www.zhihu.com/answer/2687028364",
+      "summary": "正文利用f的反函数构造g，并通过反函数关系逐步验证g(g(x))=4^x。"
+    },
+    {
+      "title": "y＝ln（x+1）/2（e^x-1）？",
+      "url": "https://www.zhihu.com/answer/2855478643",
+      "summary": "正文以 e^x 与 ln x 互为反函数为起点，并结合图像关于 y=x 的对称性进行比较。"
+    },
+    {
+      "title": "目前数学的符号体系有多混乱？",
+      "url": "https://www.zhihu.com/answer/2973507889",
+      "summary": "正文以 arcsin 说明 sin 的 -1 上标可以表示反函数，并指出该记法与幂次记法的歧义。"
+    },
+    {
+      "title": "为什么 lnx 求导是 1/x？",
+      "url": "https://www.zhihu.com/answer/3050908212",
+      "summary": "正文通过已证性质推出复对数与复指数互为反函数。"
+    },
+    {
+      "title": "1，3，3，5，5，5，7，7，7，7... 的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/3155500413",
+      "summary": "正文通过求 2x-1 的反函数并对结果向下取整，构造重复数列的通项公式。"
+    },
+    {
+      "title": "高中数学数列裂项相消的常见公式有哪些？",
+      "url": "https://www.zhihu.com/answer/3264028587",
+      "summary": "正文用反余切差角公式展示反三角函数型裂项，对应反函数运算。"
+    },
+    {
+      "title": "为什么sin(x²＋y²)＝0.5的图像这么丑陋?",
+      "url": "https://www.zhihu.com/answer/3353207868",
+      "summary": "正文说明将正弦定义域限制到主值区间后得到反正弦函数，并解释了这一构造改变了定义域和值域。"
+    },
+    {
+      "title": "你们敢不敢把刚刚复制粘贴的东西发出来？",
+      "url": "https://www.zhihu.com/answer/3406394762",
+      "summary": "正文用拟人故事讨论 sinx 的反函数，并交代 arcsin 的定义域与值域限制。"
+    },
+    {
+      "title": "实分析，复分析，数学分析，实变函数，复变函数的关系是什么？",
+      "url": "https://www.zhihu.com/answer/3417262490",
+      "summary": "正文用反函数把变换后的网格表示为曲线组，并说明这些曲线与函数变换后的图形重合。"
+    },
+    {
+      "title": "你们敢不敢把刚复制的内容粘贴发出来？",
+      "url": "https://www.zhihu.com/answer/3433733522",
+      "summary": "正文以 sinx 为例讲述求反函数、限制定义域和规定反三角函数值域的过程。"
+    },
+    {
+      "title": "如何解单摆方程？",
+      "url": "https://www.zhihu.com/answer/8800778047",
+      "summary": "正文明确用完全椭圆积分之差的函数反解摆角，并定义对应的反函数。"
+    },
+    {
+      "title": "如何构造函数，使得f(f(x))=-x？",
+      "url": "https://www.zhihu.com/answer/33092770282",
+      "summary": "正文证明函数为可逆双射，导出反函数关系，并解释其图像沿坐标轴翻转的意义。"
+    },
+    {
+      "title": "方程 cosx＝x 是否有解析解？",
+      "url": "https://www.zhihu.com/answer/100003716215",
+      "summary": "正文用反不完全贝塔函数和反正弦把原方程的解显式表示出来。"
+    },
+    {
+      "title": "如何求函数y=e^x与y=lnx的最近距离？",
+      "url": "https://www.zhihu.com/answer/109589668336",
+      "summary": "正文指出 e^x 与 ln x 互为反函数，并利用它们关于 y=x 的对称关系转化问题。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/1910668560541418567",
+      "summary": "正文讨论原函数与反函数的关系，用 f^{-1}(x) 表示面积并据此得到反函数的积分公式。"
+    },
+    {
+      "title": "如何构造函数，使得f(f(x))=-x？",
+      "url": "https://www.zhihu.com/answer/1922339829867340368",
+      "summary": "正文通过集合 A、B 间的双射 h 及其反函数构造分段解，并用反函数把 B 中的输入映回 A。"
+    },
+    {
+      "title": "f(f(x))=x^2+x，如何求 f(x)？",
+      "url": "https://www.zhihu.com/answer/1923125038422431386",
+      "summary": "正文通过阿贝尔方程把迭代半次化为加二分之一，并取反函数后退半步来构造原函数，具体使用反函数关系。"
+    },
+    {
+      "title": "如果 f(f(x))＝e^x，那么 f(x) 的解析式是什么？",
+      "url": "https://www.zhihu.com/answer/1924384208786269343",
+      "summary": "正文明确通过反函数关系定义超指数函数，并用它构造原函数方程的解。"
+    },
+    {
+      "title": "如何解函数方程f(f(x))=ln(x)??",
+      "url": "https://www.zhihu.com/answer/1924442720971231452",
+      "summary": "正文把 ln x 作为 e^x 的逆运算处理，并利用这一逆关系完成 Abel 空间中的符号推导。"
+    },
+    {
+      "title": "f(x+f(x))=f(x)+1 且 f 平滑, 如何求出所有满足条件的函数 f?",
+      "url": "https://www.zhihu.com/answer/1925716080913020481",
+      "summary": "正文把原函数关系改写为反函数关系，并用单调性约束排除其中一个候选解。"
+    },
+    {
+      "title": "是否存在 R 上的函数 f(x)，满足 f(f(x))＝sinx？",
+      "url": "https://www.zhihu.com/answer/1928943211973420215",
+      "summary": "正文利用局部单调区间上的唯一反函数构造全局解，并讨论反函数的连续性与解析延拓。"
+    },
+    {
+      "title": "如何求解 eˣ=xᵉ 这个方程？",
+      "url": "https://www.zhihu.com/answer/1930196264110236098",
+      "summary": "正文把朗伯 W 函数定义为 w e^w 的反函数，并用其各分支表示复方程的解。"
+    },
+    {
+      "title": "f(xˣ)=f(x)²,如何求f(x)的解析式?",
+      "url": "https://www.zhihu.com/answer/1932239100452270089",
+      "summary": "正文通过 t^t=x 的反函数及 Lambert W 表示，将线性化后的关系改写为可迭代形式。"
+    },
+    {
+      "title": "数论的theta函数是怎么构造出来的？",
+      "url": "https://www.zhihu.com/answer/1955110796972499614",
+      "summary": "正文说明 Jacobi 椭圆函数由可逆的第一类椭圆积分定义，并用它们构造 theta 函数。"
+    },
+    {
+      "title": "如何理解勒让德变换？",
+      "url": "https://www.zhihu.com/answer/1967132383582065374",
+      "summary": "正文通过反解切线斜率关系得到 x=x(p)，并讨论变换的对合性，实质采用反函数视角。"
+    },
+    {
+      "title": "如何证明不存在定义域为R的函数f(x)，使得f(f(x))=x²-2？",
+      "url": "https://www.zhihu.com/answer/2065913670090203579",
+      "summary": "正文反复使用可逆线性变换及其逆映射，在 Q 与标准二次函数 P_d 的平方根之间建立对应。"
+    },
+    {
+      "title": "可能是最好的讲解双曲函数的文章",
+      "url": "https://zhuanlan.zhihu.com/p/20042215",
+      "summary": "正文给出反双曲函数的定义、对数表达式及其与双曲函数的互逆关系。"
+    },
+    {
+      "title": "【概念深度挖掘】——2.2 基本初等函数之指数函数和对数函数",
+      "url": "https://zhuanlan.zhihu.com/p/20885564",
+      "summary": "正文明确把指数函数与对数函数定义为互为反函数，并说明其图像关于 y=x 对称及复合还原关系。"
+    },
+    {
+      "title": "Lambert W函数简介",
+      "url": "https://zhuanlan.zhihu.com/p/25062265",
+      "summary": "正文把 Lambert W 函数定义为指数型函数 x·exp(x) 的反函数，并讨论其两个实值分支。"
+    },
+    {
+      "title": "附录篇 2: 三角函数与反三角函数",
+      "url": "https://zhuanlan.zhihu.com/p/25316088",
+      "summary": "正文给出反三角函数的定义域、值域、单调性以及反函数关系和恒等式，实质讲解反函数。"
+    },
+    {
+      "title": "震惊！这个函数严格递增，导函数却几乎为0！",
+      "url": "https://zhuanlan.zhihu.com/p/27651496",
+      "summary": "正文讨论严格增函数的反函数，并通过其导数零点与正负点集的分布说明反函数的特殊性质。"
+    },
+    {
+      "title": "【高等数学】映射与函数",
+      "url": "https://zhuanlan.zhihu.com/p/29461236",
+      "summary": "正文定义双射的逆映射为反函数，并说明由 y=f(x) 反解 x=f^{-1}(y) 及定义域限制。"
+    },
+    {
+      "title": "双曲函数",
+      "url": "https://zhuanlan.zhihu.com/p/30018149",
+      "summary": "正文把双曲余弦方程视为二次方程，推导反双曲函数的对数表达式。"
+    },
+    {
+      "title": "【高等数学】一元函数导数的微商形式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/30247112",
+      "summary": "正文专设一节推导反函数求导公式，并以 arcsin 函数说明其应用。"
+    },
+    {
+      "title": "Gauss与AGM(I)",
+      "url": "https://zhuanlan.zhihu.com/p/31162892",
+      "summary": "正文以 Lagrange 反演定理具体展开幂级数反函数，并由双纽线积分的反函数构造相应的加法公式。"
+    },
+    {
+      "title": "初等函数（2）：根式函数与多值性",
+      "url": "https://zhuanlan.zhihu.com/p/35475871",
+      "summary": "正文以幂函数与根式函数的互逆关系为主线，解释根式函数为何多值以及限制定义域后如何取得单值分支。"
+    },
+    {
+      "title": "反三角函数简单四则运算",
+      "url": "https://zhuanlan.zhihu.com/p/41044420",
+      "summary": "正文解释反三角函数需要限定主值区间，并讨论反正弦、反余弦和反正切之间的转换关系。"
+    },
+    {
+      "title": "你真的了解抽象函数吗？（上）",
+      "url": "https://zhuanlan.zhihu.com/p/45088145",
+      "summary": "正文从映射反向和逆操作两种角度解释反函数，并通过具体例题推导反函数关系。"
+    },
+    {
+      "title": "小品一则：Arnold 出的一个求极限问题",
+      "url": "https://zhuanlan.zhihu.com/p/45782245",
+      "summary": "正文利用函数互为反函数的关系重写分子和分母，从而化简极限问题。"
+    },
+    {
+      "title": "【高等数学】关于反函数",
+      "url": "https://zhuanlan.zhihu.com/p/46884724",
+      "summary": "正文系统讲解反函数的定义、存在条件、求法和图像对称性。"
+    },
+    {
+      "title": "为什么说\"对数\"可以延长天文学家寿命？",
+      "url": "https://zhuanlan.zhihu.com/p/48393525",
+      "summary": "正文明确比较 e^x 与 ln(x) 的输入输出方向，说明二者互为反函数。"
+    },
+    {
+      "title": "为什么e^x 的导数是还是其自身？",
+      "url": "https://zhuanlan.zhihu.com/p/48678377",
+      "summary": "利用指数函数与对数函数互为反函数，推出反函数导数为原函数导数的倒数。"
+    },
+    {
+      "title": "呆哥数学函数合集——函数的图形变换来啦【4】",
+      "url": "https://zhuanlan.zhihu.com/p/54756923",
+      "summary": "正文把反函数图像与 y=x 对称列为函数变换规则，并用指数函数求对数反函数作例。"
+    },
+    {
+      "title": "呆哥数学基本初等函数 ——  基础知识  【5】",
+      "url": "https://zhuanlan.zhihu.com/p/54757352",
+      "summary": "正文先定义反函数及定义域、值域互换和图像对称性质，再用它联系指数与对数函数。"
+    },
+    {
+      "title": "高数上：第一章 函数与极限 第一节 函数",
+      "url": "https://zhuanlan.zhihu.com/p/56105691",
+      "summary": "正文列出常见反三角函数并要求注意其定义域和值域，实质讨论反函数的相关概念。"
+    },
+    {
+      "title": "【导数压轴题】Lambert W函数与隐零点",
+      "url": "https://zhuanlan.zhihu.com/p/60979387",
+      "summary": "正文明确把 Lambert W 函数定义为 f(x)=xe^x 在相应分支上的反函数。"
+    },
+    {
+      "title": "高中数学-求一个函数的反函数",
+      "url": "https://zhuanlan.zhihu.com/p/74437290",
+      "summary": "正文以五个例题完整演示了交换自变量与因变量、解出并确定反函数定义域的方法。"
+    },
+    {
+      "title": "高中数学-反三角函数",
+      "url": "https://zhuanlan.zhihu.com/p/74438588",
+      "summary": "正文把各类反三角函数定义为相应三角函数在特定区间上的反函数，并讨论其定义域。"
+    },
+    {
+      "title": "f(f(x))=x的连续解和可导解",
+      "url": "https://zhuanlan.zhihu.com/p/78579190",
+      "summary": "正文利用连续双射的单调性得到反函数，并借助函数与其反函数相等来构造和分类解。"
+    },
+    {
+      "title": "初学讲义之高中数学三：函数初步",
+      "url": "https://zhuanlan.zhihu.com/p/79609550",
+      "summary": "正文定义逆函数，说明原函数与逆函数的定义域值域互换，并推导逆函数的复合性质。"
+    },
+    {
+      "title": "初学讲义之高中数学七：对数",
+      "url": "https://zhuanlan.zhihu.com/p/80872763",
+      "summary": "正文说明对数函数与指数函数互为逆函数，且两者图像关于直线 y=x 对称。"
+    },
+    {
+      "title": "[科普向]介系你没见过的船新函数迭代法——相似法与桥函数",
+      "url": "https://zhuanlan.zhihu.com/p/84979536",
+      "summary": "正文先定义反函数，并利用反函数的复合性质化简函数迭代。"
+    },
+    {
+      "title": "一个函数方程问题",
+      "url": "https://zhuanlan.zhihu.com/p/89982205",
+      "summary": "正文最后使用反正弦函数把原函数显式表示出来，体现了反函数关系。"
+    },
+    {
+      "title": "指数对数幂函数，基础有问题就看这篇！",
+      "url": "https://zhuanlan.zhihu.com/p/91875580",
+      "summary": "正文说明指数式与对数式的互化关系，实质展示指数函数与对数函数的反向联系。"
+    },
+    {
+      "title": "三角函数与反三角函数复合运算的计算",
+      "url": "https://zhuanlan.zhihu.com/p/93674375",
+      "summary": "正文通过反函数的等式关系作变量替换，并据此求复合函数的值。"
+    },
+    {
+      "title": "映射的概念与性质",
+      "url": "https://zhuanlan.zhihu.com/p/106084124",
+      "summary": "正文实质讲解逆映射的条件、唯一性以及与双射和复合的关系，并给出证明。"
+    },
+    {
+      "title": "高中三角函数公式推理、记忆",
+      "url": "https://zhuanlan.zhihu.com/p/106923495",
+      "summary": "正文定义反正弦、反余弦、反正切和反余切函数，并说明其定义域、值域、图像性质及常用恒等式。"
+    },
+    {
+      "title": "高中数学三角函数公式大全，竞赛高考都适用（含公式推导）",
+      "url": "https://zhuanlan.zhihu.com/p/109342493",
+      "summary": "正文专门定义反三角函数，说明其单调区间和单值化处理，并给出余角、负数及导数关系。"
+    },
+    {
+      "title": "实用反三角函数运算公式",
+      "url": "https://zhuanlan.zhihu.com/p/111197233",
+      "summary": "正文以反三角函数为对象说明不同反函数之间的转换、复合和定义域分支，体现反函数关系的实际运算。"
+    },
+    {
+      "title": "双曲函数与反双曲函数的一些公式",
+      "url": "https://zhuanlan.zhihu.com/p/126392631",
+      "summary": "正文给出反双曲函数以自然对数表示的定义、定义域及基本运算公式。"
+    },
+    {
+      "title": "随机变量分布问题的简便方法之一——公式法！",
+      "url": "https://zhuanlan.zhihu.com/p/162144400",
+      "summary": "正文利用反函数及其导数推导一维密度变换，并讨论非单调时的多支反函数。"
+    },
+    {
+      "title": "关于反函数的高阶导数",
+      "url": "https://zhuanlan.zhihu.com/p/201610640",
+      "summary": "正文给出反函数导数的倒数关系，并说明反函数的高阶导数如何借助直接函数的导数表示。"
+    },
+    {
+      "title": "关于反三角函数及其导数",
+      "url": "https://zhuanlan.zhihu.com/p/201720785",
+      "summary": "正文以三角函数及其反函数关系为主线，说明反三角函数的定义域、值域和图像。"
+    },
+    {
+      "title": "特殊函数之Lambert W——朗伯W函数",
+      "url": "https://zhuanlan.zhihu.com/p/216093102",
+      "summary": "正文把朗伯 W 函数定义为 xe^x 的反函数，并讨论反函数分支及其与方程解的关系。"
+    },
+    {
+      "title": "引入：椭圆积分与椭圆函数(1)",
+      "url": "https://zhuanlan.zhihu.com/p/222036080",
+      "summary": "正文把椭圆积分的反函数定义为椭圆正弦，并借助互逆关系讨论其定义域和周期。"
+    },
+    {
+      "title": "反函数的定义及求法",
+      "url": "https://zhuanlan.zhihu.com/p/226519921",
+      "summary": "正文定义逆映射与反函数，说明单调性前提和图像关于 y=x 对称，并给出求反函数的步骤与例子。"
+    },
+    {
+      "title": "第一讲 函数与初等函数",
+      "url": "https://zhuanlan.zhihu.com/p/256104096",
+      "summary": "正文列出四类反三角函数的定义域、值域和单调性，说明其单值反函数关系。"
+    },
+    {
+      "title": "高等数学预备知识4-反了你个三角函数了",
+      "url": "https://zhuanlan.zhihu.com/p/258122761",
+      "summary": "正文从三角函数非一一对应出发，取单调局部区间求反函数并定义反三角函数及其定义域、值域。"
+    },
+    {
+      "title": "反函数和隐函数定理",
+      "url": "https://zhuanlan.zhihu.com/p/259826897",
+      "summary": "正文说明局部可逆映射的反函数存在，并给出反函数的 Jacobian 等于原映射 Jacobian 的逆。"
+    },
+    {
+      "title": "Young不等式的积分证明",
+      "url": "https://zhuanlan.zhihu.com/p/262050889",
+      "summary": "正文通过互逆函数的积分换元与单调性比较完成面积不等式证明。"
+    },
+    {
+      "title": "第十讲 连续函数的运算",
+      "url": "https://zhuanlan.zhihu.com/p/266866159",
+      "summary": "正文证明单调连续函数的反函数仍连续，并据此讨论反三角函数的连续性。"
+    },
+    {
+      "title": "微积分每日一题6.3",
+      "url": "https://zhuanlan.zhihu.com/p/269037268",
+      "summary": "正文把双曲正弦方程化为关于 e^x 的二次方程并取正根，逐步推导出反函数。"
+    },
+    {
+      "title": "第十四讲 函数的求导法则",
+      "url": "https://zhuanlan.zhihu.com/p/273671696",
+      "summary": "正文先说明反函数存在所需的单调性，再证明反函数导数等于直接函数导数的倒数，并推导反三角与对数函数导数。"
+    },
+    {
+      "title": "数学分析Mathematical Analysis笔记整理 第四章 导数与微分",
+      "url": "https://zhuanlan.zhihu.com/p/286301412",
+      "summary": "正文给出反函数求导条件与公式，并用反三角函数等例子说明反函数导数的计算。"
+    },
+    {
+      "title": "微积分每日一题专栏介绍及每日一题6.3-7.2",
+      "url": "https://zhuanlan.zhihu.com/p/287841540",
+      "summary": "正文完整求解双曲正弦的反函数，通过解二次方程和取对数得到反函数表达式。"
+    },
+    {
+      "title": "巧记反三角函数图像",
+      "url": "https://zhuanlan.zhihu.com/p/291650826",
+      "summary": "正文用手工变换图像的方法解释反三角函数图像可由自变量与因变量坐标互换得到。"
+    },
+    {
+      "title": "第十六讲 隐函数和参数方程所确定函数的导数",
+      "url": "https://zhuanlan.zhihu.com/p/298373433",
+      "summary": "正文利用单调连续反函数把参数方程化为复合函数，并据反函数导数推出参数求导公式。"
+    },
+    {
+      "title": "【微分方程】机车启动问题与Lambert W函数的应用",
+      "url": "https://zhuanlan.zhihu.com/p/337620106",
+      "summary": "正文引入 Lambert W 函数作为 x e^x 的反函数，并借助反函数关系把 t(v) 改写为 v(t)。"
+    },
+    {
+      "title": "三、2.不定积分及定积分换元法在使用时可能出现的几个问题及解答",
+      "url": "https://zhuanlan.zhihu.com/p/354932469",
+      "summary": "正文说明第二类换元法需要严格单调区间上的反函数，并利用反函数可导性完成变量替换。"
+    },
+    {
+      "title": "一篇文章搞懂logit, logistic和sigmoid的区别",
+      "url": "https://zhuanlan.zhihu.com/p/358223959",
+      "summary": "正文利用 logit 与 logistic 的互逆关系推导 logistic 函数，并说明其输入输出范围。"
+    },
+    {
+      "title": "极值点偏移与拉格朗日反演",
+      "url": "https://zhuanlan.zhihu.com/p/367058597",
+      "summary": "正文给出拉格朗日反演公式，具体计算反函数级数并分析反函数存在条件。"
+    },
+    {
+      "title": "基本初等函数图像及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/372164659",
+      "summary": "正文通过指数函数与对数函数的定义域值域对应关系说明二者的反函数关系。"
+    },
+    {
+      "title": "高中大学衔接：反三角函数",
+      "url": "https://zhuanlan.zhihu.com/p/380514266",
+      "summary": "正文通过限制正弦函数的单调区间构造反正弦函数，并讲解其定义域、值域、图像与奇偶性。"
+    },
+    {
+      "title": "三角函数与反三角函数介绍",
+      "url": "https://zhuanlan.zhihu.com/p/387134630",
+      "summary": "正文从交换 x、y 和图像镜像出发解释反函数，再讨论反三角函数的定义域与一一对应。"
+    },
+    {
+      "title": "参考(002)--三角函数（正弦、余弦、正切、余切、正割、余割、外正割、外余割、正矢、余矢、半正矢、半余矢，反正矢，反余矢，半反正矢，半反余矢），反三角函数（...）",
+      "url": "https://zhuanlan.zhihu.com/p/386465494",
+      "summary": "正文列表化定义反正弦、反余弦、反正切等反三角函数，并讨论其定义域、值域和单调性。"
+    },
+    {
+      "title": "如何求函数的反函数",
+      "url": "https://zhuanlan.zhihu.com/p/397109316",
+      "summary": "正文系统说明反函数的存在前提、变量互换与解出表达式的方法，并用多个例题演示求反函数及图像关于 y=x 的对称关系。"
+    },
+    {
+      "title": "简介：三角函数孪生兄弟——双曲函数",
+      "url": "https://zhuanlan.zhihu.com/p/398460302",
+      "summary": "正文从双曲正弦的指数定义反解，推导其反函数及反函数的导数。"
+    },
+    {
+      "title": "【数学荟萃】第8期：arcsin(sinx)=x？",
+      "url": "https://zhuanlan.zhihu.com/p/399215048",
+      "summary": "正文通过反正弦的值域与正弦自变量的定义范围说明 arcsin(sinx) 不能恒等于 x，实质讨论了反函数关系。"
+    },
+    {
+      "title": "数学分析Mathematical Analysis笔记整理 第十七章 隐函数存在定理",
+      "url": "https://zhuanlan.zhihu.com/p/410729940",
+      "summary": "正文由隐函数组定理推出局部反函数组定理，并用雅可比矩阵刻画反函数组的可逆条件。"
+    },
+    {
+      "title": "关于反函数、导数符号、微分与高阶导数符号的一些理解与解惑",
+      "url": "https://zhuanlan.zhihu.com/p/438390154",
+      "summary": "正文从原函数与反函数的对称关系出发，解释反函数自变量、因变量及求导公式。"
+    },
+    {
+      "title": "GeoGebra函数作图基础",
+      "url": "https://zhuanlan.zhihu.com/p/529431862",
+      "summary": "正文以指数函数为例讲解反函数的求法及其在 GeoGebra 中的作图指令。"
+    },
+    {
+      "title": "高数技巧 | 考研数学必备曲线合集",
+      "url": "https://zhuanlan.zhihu.com/p/544505476",
+      "summary": "正文介绍反正弦、反余弦、反正切和反余切函数，并给出反函数的定义域、值域与单调性。"
+    },
+    {
+      "title": "双曲函数(Hyperbolic functions)",
+      "url": "https://zhuanlan.zhihu.com/p/548599449",
+      "summary": "正文单列反双曲函数，通过解方程说明其与双曲函数的逆函数关系。"
+    },
+    {
+      "title": "双曲正弦、双曲余弦、双曲正切基础知识整理",
+      "url": "https://zhuanlan.zhihu.com/p/563840693",
+      "summary": "正文从指数定义出发，通过解指数方程推导反双曲正弦、反双曲余弦和反双曲正切函数及其表达式。"
+    },
+    {
+      "title": "三角函数、反三角函数、双曲函数、反双曲函数的求导与积分（自用）",
+      "url": "https://zhuanlan.zhihu.com/p/599318257",
+      "summary": "正文利用反函数与原函数的复合关系推导反三角函数和反双曲函数的导数。"
+    },
+    {
+      "title": "复分析——渐近展开之Laplace方法，Watson引理，鞍点法",
+      "url": "https://zhuanlan.zhihu.com/p/599544390",
+      "summary": "正文说明全纯函数的局部可逆条件，并用 Bürmann-Lagrange 级数表示局部反函数。"
+    },
+    {
+      "title": "与复变反函数有关的若干结论",
+      "url": "https://zhuanlan.zhihu.com/p/599309232",
+      "summary": "正文系统证明解析函数局部反函数的存在性、定义域、单射性和反函数解析性。"
+    },
+    {
+      "title": "【复变函数】 1.2 初等复变函数(2)",
+      "url": "https://zhuanlan.zhihu.com/p/606784225",
+      "summary": "正文用复对数表示反正弦、反余弦和反正切，说明这些反函数的多值性。"
+    },
+    {
+      "title": "从复变函数角度看不定积分",
+      "url": "https://zhuanlan.zhihu.com/p/613445671",
+      "summary": "正文讨论反三角函数及其多值分支，并用复对数给出反三角函数的表达式。"
+    },
+    {
+      "title": "双元点火公式(递推式)——双元法入门技之一",
+      "url": "https://zhuanlan.zhihu.com/p/641800651",
+      "summary": "正文列出反三角函数和反双曲函数的定义域、导数及对应积分，用来闭合递推过程。"
+    },
+    {
+      "title": "椭圆积分与椭圆函数",
+      "url": "https://zhuanlan.zhihu.com/p/642452494",
+      "summary": "正文以第一类椭圆积分的反函数定义 Jacobi amplitude，并由其构造雅可比椭圆函数。"
+    },
+    {
+      "title": "【导数】Lagrange反演",
+      "url": "https://zhuanlan.zhihu.com/p/681494641",
+      "summary": "正文证明解析函数的反函数仍可作幂级数展开，并据此推导反函数的泰勒系数。"
+    },
+    {
+      "title": "反三角函数的泰勒展开",
+      "url": "https://zhuanlan.zhihu.com/p/673931965",
+      "summary": "正文通过设反函数变量并交换正切关系，推导反余切及其余反三角函数的展开。"
+    },
+    {
+      "title": "常用特殊函数总结 及其部分性质",
+      "url": "https://zhuanlan.zhihu.com/p/698350651",
+      "summary": "正文以反函数方式定义朗伯 W 函数和雅可比椭圆函数，并讨论多值分支、导数与恒等式。"
+    },
+    {
+      "title": "解高考数学题时应该如何思考？以一道导数真题为例",
+      "url": "https://zhuanlan.zhihu.com/p/706576257",
+      "summary": "正文识别不等式两边互为反函数，借助关于直线 y=x 的对称性给出简洁解法。"
+    },
+    {
+      "title": "反三角函数基础知识及相关公式总结推导",
+      "url": "https://zhuanlan.zhihu.com/p/708912201",
+      "summary": "正文从单调三角函数构造反函数，并详细讨论反函数定义域、值域与原函数图像的对称关系。"
+    },
+    {
+      "title": "复分析基础(5)--留数定理与积分计算",
+      "url": "https://zhuanlan.zhihu.com/p/9647188926",
+      "summary": "正文由指数函数与对数函数的反函数关系出发，讲解复对数的多值性、单值分支与支点。"
+    },
+    {
+      "title": "山东大学 (泰山学堂,潘承洞班) 数学分析(1) 2024-2025年期中考试",
+      "url": "https://zhuanlan.zhihu.com/p/16950070337",
+      "summary": "正文通过严格单调函数证明反函数存在，并由复合函数说明所得反函数的连续性。"
+    },
+    {
+      "title": "S型增长及一元弱酸碱分布系数也和双曲正切函数有关？2025八省联考数学试题的视野拓展",
+      "url": "https://zhuanlan.zhihu.com/p/17911423011",
+      "summary": "正文在定功率启动问题中从 t(v) 关系求反函数，并借助朗伯 W 函数给出速度随时间的表达式。"
+    },
+    {
+      "title": "作出一些超越方程解析解的方法",
+      "url": "https://zhuanlan.zhihu.com/p/1902292647676220090",
+      "summary": "正文利用导函数的反函数，把围道积分算出的导数值反解为零点表达式。"
+    },
+    {
+      "title": "抽象函数万能法——微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/1948799052339708957",
+      "summary": "正文定义反函数，并由链式法则推导反函数求导公式，计算对数与反正弦函数的导数。"
+    },
+    {
+      "title": "线性代数1：群，域，复数介绍",
+      "url": "https://zhuanlan.zhihu.com/p/1988475163122087156",
+      "summary": "正文解释双射为何保证映射可逆，并给出逆映射满足的基本关系。"
+    },
+    {
+      "title": "发现了一篇有意思的论文：《用单个算子表达所有初等函数》 All elementary functions from a single operator",
+      "url": "https://zhuanlan.zhihu.com/p/2027486137296364742",
+      "summary": "正文明确以指数与对数等互逆函数对的搭配解释最小生成配置。"
+    }
+  ]
+}

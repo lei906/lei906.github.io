@@ -1,0 +1,3531 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t8-b3",
+  "sources": [
+    {
+      "title": "如何证明快速排序法的平均复杂度为 Θ(nlogn)？",
+      "url": "https://www.zhihu.com/answer/27538155",
+      "summary": "正文围绕“递推”给出说明、例证或方法。"
+    },
+    {
+      "title": "斐波那契数列通项公式是怎样推导出来的？",
+      "url": "https://www.zhihu.com/answer/30247743",
+      "summary": "正文围绕“递推”给出说明、例证或方法。"
+    },
+    {
+      "title": "国际象棋棋盘是8*8的，假如有一种牌占两个格子，两个格子一黑一白，那么把32块这样的牌填满棋盘有多少填法？",
+      "url": "https://www.zhihu.com/answer/36199410",
+      "summary": "正文由骨牌覆盖问题推出斐波那契型递推式。"
+    },
+    {
+      "title": "斐波那契数列为什么那么重要，所有关于数学的书几乎都会提到？",
+      "url": "https://www.zhihu.com/answer/39763094",
+      "summary": "正文解释斐波那契递归定义及递推求解避免重复计算。"
+    },
+    {
+      "title": "扔骰子游戏，将之前投的点数全部相加，恰好能在某一次后等于 2015 的概率是多少？",
+      "url": "https://www.zhihu.com/answer/43715176",
+      "summary": "正文建立骰子到达概率的六阶递推并分析特征方程。"
+    },
+    {
+      "title": "猴子摘香蕉一次可以摘 1 个或 2 个，总共 50 个，问有多少种摘法？",
+      "url": "https://www.zhihu.com/answer/44424174",
+      "summary": "正文按最后一次摘一根或两根分类，建立斐波那契型递推。"
+    },
+    {
+      "title": "如何理解汉诺塔的递归？",
+      "url": "https://www.zhihu.com/answer/46241635",
+      "summary": "正文由汉诺塔分解得到移动次数递推公式。"
+    },
+    {
+      "title": "依赖 Mathematica 会有怎样的后果？",
+      "url": "https://www.zhihu.com/answer/51933842",
+      "summary": "正文给出递推式并由工具猜得其闭式。"
+    },
+    {
+      "title": "数列「1，2，2，3，3，3，...」的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/62611040",
+      "summary": "正文推导重复整数数列的通项公式。"
+    },
+    {
+      "title": "数列「1，2，2，3，3，3，...」的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/62647500",
+      "summary": "正文以关键项和取整推导该数列通项。"
+    },
+    {
+      "title": "100人坐飞机，第一个乘客在座位中随便选一个坐下，第100人正确坐到自己坐位的概率是？",
+      "url": "https://www.zhihu.com/answer/65272204",
+      "summary": "正文将座位问题递归地化为人数较少的同类问题。"
+    },
+    {
+      "title": "石头剪子布随机消去，最后剩余各情况的概率如何求解？",
+      "url": "https://www.zhihu.com/answer/71607512",
+      "summary": "正文开头直接建立随机消去问题的递推公式。"
+    },
+    {
+      "title": "如何理解动态规划？",
+      "url": "https://www.zhihu.com/answer/83920614",
+      "summary": "正文强调动态规划的递推关系与边界条件。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/84210801",
+      "summary": "正文描述反复执行数位运算直至进入固定循环。"
+    },
+    {
+      "title": "如何理解动态规划？",
+      "url": "https://www.zhihu.com/answer/96997659",
+      "summary": "正文指出状态函数需要递推表达式。"
+    },
+    {
+      "title": "你见过哪些神一样的优化操作？",
+      "url": "https://www.zhihu.com/answer/97198171",
+      "summary": "正文用差分关系由辅助数组递推恢复原数组。"
+    },
+    {
+      "title": "有哪些比较魔性的函数图象？",
+      "url": "https://www.zhihu.com/answer/99218050",
+      "summary": "正文以马丁迭代方程的反复生成过程展示递推图形。"
+    },
+    {
+      "title": "纸对折时产生的凹凸痕迹的规律，能否用公式表达？",
+      "url": "https://www.zhihu.com/answer/99475474",
+      "summary": "正文从纸折痕数列导出明确的递推公式。"
+    },
+    {
+      "title": "如何理解动态规划状态转移方程？",
+      "url": "https://www.zhihu.com/answer/107400815",
+      "summary": "正文明确把状态转移方程理解为由已知求未知的递归关系。"
+    },
+    {
+      "title": "如何理解汉诺塔的递归？",
+      "url": "https://www.zhihu.com/answer/107761723",
+      "summary": "正文用汉诺塔递推式 F(n)=2F(n-1)+1 解释递归结构与最优步数。"
+    },
+    {
+      "title": "如何评价吴文俊说21世纪九章算术数学思想必将凌驾于几何原本？",
+      "url": "https://www.zhihu.com/answer/108561777",
+      "summary": "正文说明程序递归对应归纳结构，并以阶乘程序为例。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/116348707",
+      "summary": "正文用 Pascal 恒等式与相邻行递推解释 2 的幂巧合。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/116474414",
+      "summary": "正文用列表和二叉树的递归定义推导生成函数。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/116648567",
+      "summary": "正文反复把前一步结果重新排序相减，展示迭代进入不动点或循环。"
+    },
+    {
+      "title": "斐波那契数列两倍项关系公式f(2n)=f(n-1)f(n)+f(n+1)f(n)怎么推导的？",
+      "url": "https://www.zhihu.com/answer/117078454",
+      "summary": "正文指出同样的矩阵方法适用于其他线性递推数列。"
+    },
+    {
+      "title": "怎样评价电影《知无涯者》？",
+      "url": "https://www.zhihu.com/answer/119381556",
+      "summary": "正文展示欧拉计算分拆数的递推公式并说明其逐项计算方式。"
+    },
+    {
+      "title": "怎样尽可能快地让一个数字增大？不断乘方是最快的方法吗？",
+      "url": "https://www.zhihu.com/answer/120277432",
+      "summary": "正文从反复迭代函数开始建立快速增长层级，并明确解释递归方法。"
+    },
+    {
+      "title": "哪些高端大气的数学定理可以简洁地证明高中数学压轴题和大轴题？",
+      "url": "https://www.zhihu.com/answer/120686061",
+      "summary": "正文用递推数列作为例题，并由递推不等式继续求极限。"
+    },
+    {
+      "title": "如何证明拉马努金恒等式？",
+      "url": "https://www.zhihu.com/answer/124338522",
+      "summary": "正文用相邻项关系推广拉马努金嵌套根式，体现递推结构。"
+    },
+    {
+      "title": "有哪些数学问题有经典的物理学证明或解释？",
+      "url": "https://www.zhihu.com/answer/125933938",
+      "summary": "正文明确给出斐波那契数列相邻项递推规律。"
+    },
+    {
+      "title": "怎样用Stolz求这个极限？",
+      "url": "https://www.zhihu.com/answer/126578577",
+      "summary": "正文说明当题目给出相邻项递推关系时，如何引入下一项求数列极限。"
+    },
+    {
+      "title": "怎么用特征根法和不动点法求数列的通项公式？",
+      "url": "https://www.zhihu.com/answer/126920544",
+      "summary": "正文系统定义并求解齐次与非齐次线性递推方程，给出特征根法与不动点法。"
+    },
+    {
+      "title": "怎么用特征根法和不动点法求数列的通项公式？",
+      "url": "https://www.zhihu.com/answer/126979989",
+      "summary": "正文完整推导二阶线性递推在不同特征根情况下的通项公式。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/127202745",
+      "summary": "正文把矩阵方法与线性差分方程的特征方程法联系起来。"
+    },
+    {
+      "title": "如何理解汉诺塔的递归？",
+      "url": "https://www.zhihu.com/answer/128213752",
+      "summary": "正文把 n 层汉诺塔递归分解为两次 n-1 层移动加一次底层移动，并解释终止条件。"
+    },
+    {
+      "title": "动态规划中的无后效性是什么意思？",
+      "url": "https://www.zhihu.com/answer/129639356",
+      "summary": "正文说明通过子问题状态间的递推关系求得整体最优解。"
+    },
+    {
+      "title": "你研究的数学领域有哪些重要但不出名的猜想？",
+      "url": "https://www.zhihu.com/answer/129709688",
+      "summary": "正文从线性递推零点定理推广到多项式非线性递推，明确解释递推序列与零点集合的关系。"
+    },
+    {
+      "title": "如何从概念上理解差分方程？",
+      "url": "https://www.zhihu.com/answer/138996937",
+      "summary": "正文解释离散系统中用差分替代微分并形成递推关系。"
+    },
+    {
+      "title": "有哪些类似于“真空中的球形鸡”的谬误推论？",
+      "url": "https://www.zhihu.com/answer/142324038",
+      "summary": "正文具体解释递归生成树枝、终止条件与参数递推。"
+    },
+    {
+      "title": "600 个人站一排，每次随机淘汰一个奇数位的人，几号最安全？",
+      "url": "https://www.zhihu.com/answer/144612718",
+      "summary": "正文建立并反复迭代奇偶位置淘汰概率的递推式。"
+    },
+    {
+      "title": "600 个人站一排，每次随机淘汰一个奇数位的人，几号最安全？",
+      "url": "https://www.zhihu.com/answer/144619265",
+      "summary": "正文说明通过数列递推计算每个位置的生存概率。"
+    },
+    {
+      "title": "线性代数在你的学科里有什么应用？",
+      "url": "https://www.zhihu.com/answer/150549036",
+      "summary": "正文用 P(n+1)=AP(n) 递推描述多轮分配和网页浏览概率。"
+    },
+    {
+      "title": "斐波那契数列通项公式是怎样推导出来的？",
+      "url": "https://www.zhihu.com/answer/158291644",
+      "summary": "正文从斐波那契递推关系构造矩阵迭代。"
+    },
+    {
+      "title": "斐波那契数列通项公式是怎样推导出来的？",
+      "url": "https://www.zhihu.com/answer/158753864",
+      "summary": "正文从斐波那契递推关系构造幂级数生成函数。"
+    },
+    {
+      "title": "什么是图灵完备？",
+      "url": "https://www.zhihu.com/answer/177733290",
+      "summary": "正文从基本函数、函数组合、原始递归与极小化解释图灵完备。"
+    },
+    {
+      "title": "怎样求出K个斐波那契数的最小公倍数？",
+      "url": "https://www.zhihu.com/answer/185333391",
+      "summary": "正文构造辅助数列并给出按因数递推计算它的公式和复杂度。"
+    },
+    {
+      "title": "有哪些非常有意思的 ACM 题目？",
+      "url": "https://www.zhihu.com/answer/213781944",
+      "summary": "正文明确描述模数经欧拉函数不断下降的递归终止条件。"
+    },
+    {
+      "title": "弹幕中的23333......是否有无限多个素数？",
+      "url": "https://www.zhihu.com/answer/227172802",
+      "summary": "正文为 2333… 数列列出递推关系并求出通项。"
+    },
+    {
+      "title": "π 是怎么算出来的？",
+      "url": "https://www.zhihu.com/answer/245491063",
+      "summary": "正文推导内外接正多边形周长的迭代递推公式。"
+    },
+    {
+      "title": "中国真的在文化、数学上都曾经领先世界几百年吗？",
+      "url": "https://www.zhihu.com/answer/246571788",
+      "summary": "正文给出内外接多边形周长逐次加倍的递推式。"
+    },
+    {
+      "title": "如何证明韦达给出的圆周率的计算公式？",
+      "url": "https://www.zhihu.com/answer/251937327",
+      "summary": "正文通过反复迭代半角公式构造递推乘积。"
+    },
+    {
+      "title": "为什么特征根方程可以求数列通项?它的原理是什么？",
+      "url": "https://www.zhihu.com/answer/252535367",
+      "summary": "正文从二阶常系数递推式推导特征方程。"
+    },
+    {
+      "title": "圆桌上 1000 个人轮流开枪，最后活下来的是几号？",
+      "url": "https://www.zhihu.com/answer/255480334",
+      "summary": "正文利用人数为 2 的幂时的规律递推到 1000 人。"
+    },
+    {
+      "title": "圆桌上 1000 个人轮流开枪，最后活下来的是几号？",
+      "url": "https://www.zhihu.com/answer/255904649",
+      "summary": "正文逐轮以步长翻倍的等差数列递推剩余编号。"
+    },
+    {
+      "title": "如何理解汉诺塔的递归？",
+      "url": "https://www.zhihu.com/answer/257751077",
+      "summary": "正文以汉诺塔层层外包解释递归的子问题结构与终止条件。"
+    },
+    {
+      "title": "圆桌上 1000 个人轮流开枪，最后活下来的是几号？",
+      "url": "https://www.zhihu.com/answer/257839264",
+      "summary": "正文由 2 的幂分段给出幸存位置通项。"
+    },
+    {
+      "title": "如何理解汉诺塔的递归？",
+      "url": "https://www.zhihu.com/answer/258015386",
+      "summary": "正文以 N 层汉诺塔分解为两次 N-1 层任务讲清递归。"
+    },
+    {
+      "title": "连分数 [1; 2, 3, 4, 5, 6, 7, ...] 的值是多少？",
+      "url": "https://www.zhihu.com/answer/267460711",
+      "summary": "正文通过贝塞尔函数递推式反复迭代求出连分数。"
+    },
+    {
+      "title": "有哪些令你细思恐极的冷知识？",
+      "url": "https://www.zhihu.com/answer/271712459",
+      "summary": "正文说明重复倒序相加及斐波那契兔子问题所体现的递归思想。"
+    },
+    {
+      "title": "如何用数学方法解决八皇后问题？",
+      "url": "https://www.zhihu.com/answer/273055085",
+      "summary": "正文给出 n 皇后计数的高阶递推并讨论其特征根。"
+    },
+    {
+      "title": "数列递推公式化为函数形式后可以通过求导判断单调性?",
+      "url": "https://www.zhihu.com/answer/273447204",
+      "summary": "正文把数列递推式转为相邻项差的递推关系。"
+    },
+    {
+      "title": "如何判断数列的单调性?",
+      "url": "https://www.zhihu.com/answer/273447909",
+      "summary": "正文把数列递推式转为相邻项差的递推关系。"
+    },
+    {
+      "title": "有哪些「大众默认专家搞懂了，实际上没人能解释清楚」的例子？",
+      "url": "https://www.zhihu.com/answer/274685128",
+      "summary": "正文完整描述角谷猜想的奇偶迭代规则与 4-2-1 循环。"
+    },
+    {
+      "title": "有哪些「大众默认专家搞懂了，实际上没人能解释清楚」的例子？",
+      "url": "https://www.zhihu.com/answer/275189410",
+      "summary": "正文定义反转数字并相加的反复迭代过程，讨论其是否最终到达回文数。"
+    },
+    {
+      "title": "如果让顶级的数学家来做 2018 考研数学会怎样？",
+      "url": "https://www.zhihu.com/answer/283076021",
+      "summary": "正文把线性差分递推转化为矩阵幂计算。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/285985733",
+      "summary": "正文以比赛状态表从终局倒推，反复利用已算状态求新状态。"
+    },
+    {
+      "title": "阶乘的概念能否推广到全体实数，甚至是全体复数？",
+      "url": "https://www.zhihu.com/answer/287679560",
+      "summary": "正文明确给出辅助函数的递推关系并用于推导阶乘推广。"
+    },
+    {
+      "title": "怎么用特征根法和不动点法求数列的通项公式？",
+      "url": "https://www.zhihu.com/answer/290516160",
+      "summary": "正文系统推导分式递推数列的不动点法与线性递推化。"
+    },
+    {
+      "title": "如何最快地将一个字复制 N 次？",
+      "url": "https://www.zhihu.com/answer/290984671",
+      "summary": "正文说明相关最大字符问题可化为五阶线性递推。"
+    },
+    {
+      "title": "4 柱汉诺塔游戏是否已经解决了？",
+      "url": "https://www.zhihu.com/answer/294958858",
+      "summary": "正文把最优步数进一步化为一阶递推并导出闭式。"
+    },
+    {
+      "title": "如何深入理解时间序列分析中的平稳性？",
+      "url": "https://www.zhihu.com/answer/296210825",
+      "summary": "正文从差分方程的特征根与收敛解释时间序列平稳性。"
+    },
+    {
+      "title": "为什么序列存在单位根是非平稳时间序列？",
+      "url": "https://www.zhihu.com/answer/297245327",
+      "summary": "正文用差分方程特征根、齐次解和收敛条件解释单位根。"
+    },
+    {
+      "title": "能不能将调和级数像阶乘一样拓展到实数域或者复数域？",
+      "url": "https://www.zhihu.com/answer/297470550",
+      "summary": "正文从 Gamma 函数递推式推导调和数的连续扩展。"
+    },
+    {
+      "title": "什么是动态规划（Dynamic Programming）？动态规划的意义是什么？",
+      "url": "https://www.zhihu.com/answer/305426560",
+      "summary": "正文从斐波那契递推关系说明原问题与子问题的状态转移。"
+    },
+    {
+      "title": "什么是递归？",
+      "url": "https://www.zhihu.com/answer/317659122",
+      "summary": "正文用逐层传递和 p(n-1) 到 p(n) 的结构解释递推式思考。"
+    },
+    {
+      "title": "n 个平面最多把 3 维空间分成几个部分？",
+      "url": "https://www.zhihu.com/answer/339676165",
+      "summary": "正文建立二维到高维超平面分割数的递推关系。"
+    },
+    {
+      "title": "请教一道算法题的思路？",
+      "url": "https://www.zhihu.com/answer/346648638",
+      "summary": "正文将 n 人情形化为 n-1 人情形建立递推。"
+    },
+    {
+      "title": "写一个你认为尽可能大的数？",
+      "url": "https://www.zhihu.com/answer/357130166",
+      "summary": "正文以递归方式构造高德纳箭号与大数函数。"
+    },
+    {
+      "title": "写一个你认为尽可能大的数？",
+      "url": "https://www.zhihu.com/answer/357980197",
+      "summary": "正文进一步给出 TREE 的迭代递归定义。"
+    },
+    {
+      "title": "写一个你认为尽可能大的数？",
+      "url": "https://www.zhihu.com/answer/358155644",
+      "summary": "正文解释阿克曼函数作为非原始递归函数及其增长。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/377656361",
+      "summary": "正文用递归方式定义并生成相关数学图形。"
+    },
+    {
+      "title": "有哪些神奇的宇宙法则？",
+      "url": "https://www.zhihu.com/answer/378469609",
+      "summary": "正文用奇数乘三加一、偶数除二定义迭代递推过程。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/380254949",
+      "summary": "正文把反复按计算器得到下一值解释为迭代递推。"
+    },
+    {
+      "title": "数列为什么我觉得很难，却有人告诉我很套路？数列题有没有什么方法？",
+      "url": "https://www.zhihu.com/answer/380436778",
+      "summary": "正文系统介绍由递推关系求数列通项的多种方法。"
+    },
+    {
+      "title": "递归思想为什么是编程的基本思想，它效率很高吗？",
+      "url": "https://www.zhihu.com/answer/384589479",
+      "summary": "正文讨论递归、重复子问题与斐波那契递推计算。"
+    },
+    {
+      "title": "一个 n 维空间可以被 a 个 m 维超平面分割成多少块图形？",
+      "url": "https://www.zhihu.com/answer/385890255",
+      "summary": "正文由分解和同调维数得到分割块数递推公式。"
+    },
+    {
+      "title": "如何解以下这个趣味数学博弈问题？",
+      "url": "https://www.zhihu.com/answer/387250671",
+      "summary": "正文建立并求解随剩余转向次数变化的递推方程。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/393538170",
+      "summary": "正文逐项定义古德斯坦数列的递推过程。"
+    },
+    {
+      "title": "葛立恒数、Tree(3)、不可达基数、大基数、阿列夫零、阿列夫1分别是什么？",
+      "url": "https://www.zhihu.com/answer/404164610",
+      "summary": "正文用后继和极限序数递归定义Hardy层数。"
+    },
+    {
+      "title": "如何证明快速排序法的平均复杂度为 Θ(nlogn)？",
+      "url": "https://www.zhihu.com/answer/406278523",
+      "summary": "正文建立快速排序平均时间的递推式并求解。"
+    },
+    {
+      "title": "等比数列前 n 项和的推导方法和过程是什么？",
+      "url": "https://www.zhihu.com/answer/449193912",
+      "summary": "正文从等差和等比数列的递推结构推导通项与前n项和。"
+    },
+    {
+      "title": "斐波那契数列的第一百万项怎么用 C++ 求？",
+      "url": "https://www.zhihu.com/answer/482517156",
+      "summary": "正文给出斐波那契倍增递推公式。"
+    },
+    {
+      "title": "斐波那契数列的第一百万项怎么用 C++ 求？",
+      "url": "https://www.zhihu.com/answer/482605842",
+      "summary": "正文把斐波那契相邻项写成向量递推关系。"
+    },
+    {
+      "title": "斐波那契数列的第一百万项怎么用 C++ 求？",
+      "url": "https://www.zhihu.com/answer/483132964",
+      "summary": "正文明确给出斐波那契递推式并继续递推。"
+    },
+    {
+      "title": "如何判断一个数列是否能够得到初等的通项公式？",
+      "url": "https://www.zhihu.com/answer/484687208",
+      "summary": "正文讨论递推数列求通项及线性递推的求解条件。"
+    },
+    {
+      "title": "数学学习或研究中，你见过哪些有意思的反例？",
+      "url": "https://www.zhihu.com/answer/487252829",
+      "summary": "正文研究因式分解迭代序列的终止与循环。"
+    },
+    {
+      "title": "除了黎曼猜想，数学界还有哪些至今尚未得到证实的猜想？",
+      "url": "https://www.zhihu.com/answer/498969862",
+      "summary": "正文定义3x+1递推过程并给出序列实例。"
+    },
+    {
+      "title": "数列为什么我觉得很难，却有人告诉我很套路？数列题有没有什么方法？",
+      "url": "https://www.zhihu.com/answer/499760786",
+      "summary": "正文系统讲解从前n项和转换数列递推关系。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/540347383",
+      "summary": "正文给出连续抛硬币问题的递推状态与公式。"
+    },
+    {
+      "title": "如何通俗易懂地讲解牛顿迭代法求开方（数值分析）？",
+      "url": "https://www.zhihu.com/answer/543620219",
+      "summary": "正文给出依赖前一步结果的递推更新过程。"
+    },
+    {
+      "title": "有哪些高中教材不要求但高考解题时非常好用的知识？",
+      "url": "https://www.zhihu.com/answer/545197471",
+      "summary": "正文用连续多节分类总结叠加、叠乘、待定系数、不动点和特征根等递推方法。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/545402730",
+      "summary": "正文给出递推数列并推导其通项。"
+    },
+    {
+      "title": "为什么 π 等于 3.14…？",
+      "url": "https://www.zhihu.com/answer/566113023",
+      "summary": "给出逐步逼近圆周率的递推计算方法。"
+    },
+    {
+      "title": "如何编程判断一个数是否是质数？",
+      "url": "https://www.zhihu.com/answer/574767625",
+      "summary": "正文定义 Lucas 序列的二阶递推关系和通项，并说明其素性测试用途。"
+    },
+    {
+      "title": "斐波那契数列通项公式是怎样推导出来的？",
+      "url": "https://www.zhihu.com/answer/575469058",
+      "summary": "正文从递推关系求解数列通项。"
+    },
+    {
+      "title": "斐波那契数列通项公式是怎样推导出来的？",
+      "url": "https://www.zhihu.com/answer/580609745",
+      "summary": "逐步推导一阶与二阶常系数递推数列的通项，并说明初值决定唯一解。"
+    },
+    {
+      "title": "√3 大约是多少？该如何计算？",
+      "url": "https://www.zhihu.com/answer/585843958",
+      "summary": "用前一项生成后一项形成收敛递推序列。"
+    },
+    {
+      "title": "微积分能解决哪些在生活中遇到的实际问题？",
+      "url": "https://www.zhihu.com/answer/587108070",
+      "summary": "把时间推进写成由当前网格状态生成下一步的递推。"
+    },
+    {
+      "title": "斐波那契数列通项推导过程中凭什么定理断定它能写成两个等比数列的和？",
+      "url": "https://www.zhihu.com/answer/587503345",
+      "summary": "用解空间、特征方程和基本解组解释线性递推通解。"
+    },
+    {
+      "title": "有面值1,5,10,20,50,100的人民币，求问10000有多少种组成方法？",
+      "url": "https://www.zhihu.com/answer/623291786",
+      "summary": "按新增面值逐层求和，建立方案数多项式的迭代关系。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/631465139",
+      "summary": "由高阶差分恒定建立多项式数列的递推表示。"
+    },
+    {
+      "title": "有哪些看起来很简单但做起来很难的数学题？",
+      "url": "https://www.zhihu.com/answer/631741295",
+      "summary": "用算术—几何平均的双序列迭代定义共同极限。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/642387215",
+      "summary": "利用斐波那契递推关系化简恒等式。"
+    },
+    {
+      "title": "象棋中的概率问题：在有去除的拿去的情况下，以最优策略猜去除棋子的颜色，问最后得到猜测正确的期望？",
+      "url": "https://www.zhihu.com/answer/642802219",
+      "summary": "为最优猜棋期望建立二维递推并变换为 Pascal 型递推。"
+    },
+    {
+      "title": "戊基、己基、庚基有多少种同分异构体？有什么规律么？",
+      "url": "https://www.zhihu.com/answer/661571148",
+      "summary": "用递推或生成结构推广不同碳数的计数。"
+    },
+    {
+      "title": "知道了三维bulk的紧束缚哈密顿量，如何计算slab的哈密顿量进而得到surface state？",
+      "url": "https://www.zhihu.com/answer/672859372",
+      "summary": "用自能的重复更新构成收敛递推。"
+    },
+    {
+      "title": "动态规划本质是不是就是递归算法，再加上记忆功能呢？",
+      "url": "https://www.zhihu.com/answer/673995021",
+      "summary": "比较直接递归、记忆化与自底向上递推。"
+    },
+    {
+      "title": "有限次机会掷骰子，取最后一次的数值，什么样的策略能使数字的期望值最大？",
+      "url": "https://www.zhihu.com/answer/674039383",
+      "summary": "由剩余轮次建立最优收益递推。"
+    },
+    {
+      "title": "有什么将卡尔曼滤波讲得透彻的书籍或资料？",
+      "url": "https://www.zhihu.com/answer/677409115",
+      "summary": "按预测与校正两步反复递推卡尔曼滤波。"
+    },
+    {
+      "title": "请问卡西欧991计算器怎么计算高斯赛德尔迭代式？",
+      "url": "https://www.zhihu.com/answer/688893148",
+      "summary": "按新旧变量顺序重复更新构成迭代递推。"
+    },
+    {
+      "title": "不考虑年龄差，星座人数均等，不提前知道生肖星座，集齐12星座和12生肖前男友，平均需要谈多少个男朋友？",
+      "url": "https://www.zhihu.com/answer/690886023",
+      "summary": "按已收集种类建立收集问题的状态递推。"
+    },
+    {
+      "title": "怎样理解随机游走过程?",
+      "url": "https://www.zhihu.com/answer/692618763",
+      "summary": "按位置和剩余步骤建立概率递推。"
+    },
+    {
+      "title": "解微分方程为什么会出现个 e？",
+      "url": "https://www.zhihu.com/answer/706433889",
+      "summary": "正文明确构造函数值的递推式，并逐项推出离散解。"
+    },
+    {
+      "title": "如何看待 2019 年全国一卷高考数学试题？",
+      "url": "https://www.zhihu.com/answer/708235797",
+      "summary": "推导并解释状态获胜概率的递推关系。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/717444019",
+      "summary": "建立维数与超平面数之间的递推。"
+    },
+    {
+      "title": "什么是动态规划（Dynamic Programming）？动态规划的意义是什么？",
+      "url": "https://www.zhihu.com/answer/723475721",
+      "summary": "建立相邻状态之间的递推关系。"
+    },
+    {
+      "title": "对于递归有没有什么好的理解方法？",
+      "url": "https://www.zhihu.com/answer/724915708",
+      "summary": "系统说明把大问题递归分解为同形小问题的思想。"
+    },
+    {
+      "title": "100人坐飞机，第一个乘客在座位中随便选一个坐下，第100人正确坐到自己坐位的概率是？",
+      "url": "https://www.zhihu.com/answer/728206399",
+      "summary": "按乘客人数建立概率递推。"
+    },
+    {
+      "title": "对于递归有没有什么好的理解方法？",
+      "url": "https://www.zhihu.com/answer/738989709",
+      "summary": "通过展开阶乘递归说明递进与回归过程。"
+    },
+    {
+      "title": "数学界有哪些未解之谜？",
+      "url": "https://www.zhihu.com/answer/749594588",
+      "summary": "以迭代递推定义考拉兹猜想。"
+    },
+    {
+      "title": "如何证明递推数列不存在由初等函数复合的通项公式?",
+      "url": "https://www.zhihu.com/answer/756861716",
+      "summary": "把目标数列编码为分子分母的递推关系。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/759188438",
+      "summary": "正文建立不同血量状态之间的线性递推关系。"
+    },
+    {
+      "title": "从0点出发，每次向正方向随机走1~k步，求踩到x的概率。为什么x趋于无穷大时，概率为2/(k+1)?",
+      "url": "https://www.zhihu.com/answer/759852363",
+      "summary": "由到达概率建立线性递推式。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/763750893",
+      "summary": "由三角阵列建立系数递推公式。"
+    },
+    {
+      "title": "n维球坐标变化下的Jacobi行列式怎么计算？",
+      "url": "https://www.zhihu.com/answer/781120941",
+      "summary": "利用同形子行列式递推得到一般维公式。"
+    },
+    {
+      "title": "如何理论计算多米诺骨牌推进速度？",
+      "url": "https://www.zhihu.com/answer/781806233",
+      "summary": "由相邻骨牌角速度关系建立递推并求通项。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/786464580",
+      "summary": "通过迭代函数构造递推数列。"
+    },
+    {
+      "title": "若 f(f(x))=x²+1，则 f(1) 为多少？",
+      "url": "https://www.zhihu.com/answer/791442453",
+      "summary": "用迭代关系构造两组递推数列。"
+    },
+    {
+      "title": "傅里叶变换、拉普拉斯变换、Z 变换的联系是什么？为什么要进行这些变换？",
+      "url": "https://www.zhihu.com/answer/792223661",
+      "summary": "正文由离散时间傅里叶变换推出 z 变换，并具体列出其求解线性齐次递推式的作用。"
+    },
+    {
+      "title": "怎么证明经过椭圆焦点的射线被椭圆多次反射后，趋于椭圆长轴？",
+      "url": "https://www.zhihu.com/answer/820298526",
+      "summary": "建立反射点横坐标的递推式并求通项。"
+    },
+    {
+      "title": "tan(x)的泰勒展开有通项公式吗？",
+      "url": "https://www.zhihu.com/answer/845954053",
+      "summary": "正文以该递推关系为起点推导幂和公式和伯努利数。"
+    },
+    {
+      "title": "有什么游戏精巧地利用了数学？",
+      "url": "https://www.zhihu.com/answer/847926575",
+      "summary": "从终局逆推各轮可控状态。"
+    },
+    {
+      "title": "从数学原理上说一说，葛立恒数、tree(3) 等数为什么那么大？",
+      "url": "https://www.zhihu.com/answer/882160569",
+      "summary": "用运算的递归迭代结构解释大数增长。"
+    },
+    {
+      "title": "如何理解动态规划？",
+      "url": "https://www.zhihu.com/answer/883302989",
+      "summary": "把状态转移写成递推关系。"
+    },
+    {
+      "title": "线性代数对于计算机专业的作用是什么呢？",
+      "url": "https://www.zhihu.com/answer/884065709",
+      "summary": "用矩阵快速幂求线性递推数列。"
+    },
+    {
+      "title": "20级台阶，一次只能上一阶或两阶，问有多少种方式？",
+      "url": "https://www.zhihu.com/answer/919277905",
+      "summary": "正文按最后一步分类建立并解释递推关系。"
+    },
+    {
+      "title": "诸如 {1，1，1，3，5，9，17，···} 三个数相加，即斐波那契数列的变式，存在通项公式吗？",
+      "url": "https://www.zhihu.com/answer/943728096",
+      "summary": "正文由三阶线性递推建立特征方程并推导通项表达。"
+    },
+    {
+      "title": "诸如 {1，1，1，3，5，9，17，···} 三个数相加，即斐波那契数列的变式，存在通项公式吗？",
+      "url": "https://www.zhihu.com/answer/944881365",
+      "summary": "正文用状态向量和转移矩阵推导三阶递推数列。"
+    },
+    {
+      "title": "如何看待文言编程语言（wenyan-lang）？",
+      "url": "https://www.zhihu.com/answer/946202830",
+      "summary": "正文用文言编程分别实现斐波那契递归和循环递推。"
+    },
+    {
+      "title": "周期为 3 的数列的递推式怎样构造？",
+      "url": "https://www.zhihu.com/answer/967391463",
+      "summary": "正文构造周期为 3 的分式线性递推并解其矩阵条件。"
+    },
+    {
+      "title": "1，2，3，…，n。去掉1，将2挪在n后；去掉3，将4挪在2后，按此规律进行下去，最后留下的数字是？",
+      "url": "https://www.zhihu.com/answer/971346489",
+      "summary": "正文为约瑟夫型淘汰问题写出递推关系及闭式。"
+    },
+    {
+      "title": "世界上有哪些代码量很少，但很牛逼很经典的算法或项目案例？",
+      "url": "https://www.zhihu.com/answer/974983270",
+      "summary": "正文为约瑟夫环建立反推编号的迭代关系并给出算法。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/976079824",
+      "summary": "正文写出斐波那契递推式并由此证明相邻项比值的极限。"
+    },
+    {
+      "title": "如何推导以下几种连分数表示？",
+      "url": "https://www.zhihu.com/answer/993271353",
+      "summary": "正文通过多组递推关系推导欧拉与高斯连分数公式。"
+    },
+    {
+      "title": "如何推导以下几种连分数表示？",
+      "url": "https://www.zhihu.com/answer/993982079",
+      "summary": "正文建立递推关系并由其得到连分数展开。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/998250791",
+      "summary": "正文把幂和写成递推函数并逐阶求解。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/998384906",
+      "summary": "正文给出Faulhaber幂和的递推计算方法。"
+    },
+    {
+      "title": "数列 0, 1, 0, -1, 0, 1, 0, -1... 的通项公式是多少呢？",
+      "url": "https://www.zhihu.com/answer/1019340373",
+      "summary": "正文逐步构造并推广周期数列的通项表示。"
+    },
+    {
+      "title": "矩阵、数列、微分方程的特征值是什么关系？",
+      "url": "https://www.zhihu.com/answer/1043383224",
+      "summary": "正文完整给出二阶线性递推的特征方程、通项公式、证明，并由矩阵方法再次推出该通项。"
+    },
+    {
+      "title": "线性代数里有没有什么推论或技巧能用来巧解高中数学题的？",
+      "url": "https://www.zhihu.com/answer/1044292763",
+      "summary": "正文以斐波那契数列完整推导矩阵递推。"
+    },
+    {
+      "title": "什么是动态规划（Dynamic Programming）？动态规划的意义是什么？",
+      "url": "https://www.zhihu.com/answer/1094101149",
+      "summary": "正文明确通过递推关系由历史状态推出新状态。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/1094241963",
+      "summary": "正文从递推定义的数列出发研究并构造通项公式。"
+    },
+    {
+      "title": "如何证明数列 {aₙ} 无界？",
+      "url": "https://www.zhihu.com/answer/1127906805",
+      "summary": "正文建立 L、U、S 的递推关系并用递推步数证明数列无界。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/1130415557",
+      "summary": "正文比较递推幂和法与独立求和公式。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/1131930728",
+      "summary": "正文给出多个幂和递推公式并分析前置项。"
+    },
+    {
+      "title": "有没有高中老师不讲，但知道了做题很有用的技巧?",
+      "url": "https://www.zhihu.com/answer/1189179614",
+      "summary": "正文推导第二类斯特林数的递推关系。"
+    },
+    {
+      "title": "你认为数学的基本思想方法是什么?",
+      "url": "https://www.zhihu.com/answer/1192875600",
+      "summary": "正文用递推数列化为等比数列作为化归实例。"
+    },
+    {
+      "title": "为何可以用不动点法求数列通项公式，可不可以解释一下？",
+      "url": "https://www.zhihu.com/answer/1196034312",
+      "summary": "正文系统推导递推数列的不动点求通项方法。"
+    },
+    {
+      "title": "三角函数的n次方怎么积分?",
+      "url": "https://www.zhihu.com/answer/1201910156",
+      "summary": "正文建立并使用积分递推关系。"
+    },
+    {
+      "title": "裂项相消法公式太多，怎么记啊？感觉每个老师总结的基本型都不一样？",
+      "url": "https://www.zhihu.com/answer/1302243462",
+      "summary": "正文用差分方程和递推关系理解裂项求和。"
+    },
+    {
+      "title": "数列An满足An+1=An+n/An，A1>0，怎么证明An/n的敛散性?",
+      "url": "https://www.zhihu.com/answer/1303956510",
+      "summary": "正文递推证明数列渐近行为。"
+    },
+    {
+      "title": "请问你见过的最强的公式是什么？",
+      "url": "https://www.zhihu.com/answer/1306170291",
+      "summary": "正文列出递推公式。"
+    },
+    {
+      "title": "非常硬核的数学题，大家能否解出？",
+      "url": "https://www.zhihu.com/answer/1341791536",
+      "summary": "正文按第一天吃糖数量分类，建立并计算序列递推式。"
+    },
+    {
+      "title": "非常硬核的数学题，大家能否解出？",
+      "url": "https://www.zhihu.com/answer/1351934300",
+      "summary": "正文用递推关系和生成函数求组合计数，并通过复分析估计系数。"
+    },
+    {
+      "title": "非常硬核的数学题，大家能否解出？",
+      "url": "https://www.zhihu.com/answer/1356094032",
+      "summary": "正文建立糖果吃法数列的递推式，并用母函数求解。"
+    },
+    {
+      "title": "动态规划和递归之间的关系是什么？",
+      "url": "https://www.zhihu.com/answer/1373722221",
+      "summary": "正文用斐波那契递推对比递归和迭代实现。"
+    },
+    {
+      "title": "1²+2²+…+n²求和公式的推导有哪些方法?",
+      "url": "https://www.zhihu.com/answer/1376898289",
+      "summary": "正文用误差递推和生成函数方法推导平方和公式。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/1379863450",
+      "summary": "正文用递推和生成函数思想系统推导一般幂和。"
+    },
+    {
+      "title": "10/89 小数部分前 5 位可以构成斐波那契数列，这是一种巧合吗？",
+      "url": "https://www.zhihu.com/answer/1399000806",
+      "summary": "正文系统构造常系数线性递推数列的生成函数。"
+    },
+    {
+      "title": "为什么要引入矩阵这个数学工具？它能简化哪些不用矩阵会复杂的问题？",
+      "url": "https://www.zhihu.com/answer/1408186794",
+      "summary": "正文构造矩阵加速线性递推数列。"
+    },
+    {
+      "title": "如何推导1+4+9+16+…+n^2=n(n+1)(2n+1)/6?",
+      "url": "https://www.zhihu.com/answer/1415091431",
+      "summary": "正文用数学归纳法和递推关系证明平方和公式。"
+    },
+    {
+      "title": "如何求 secⁿx 的不定积分？",
+      "url": "https://www.zhihu.com/answer/1423983968",
+      "summary": "正文按奇偶 n 推导 sec 幂的不定积分递推方法。"
+    },
+    {
+      "title": "高中数列怎么用不动点和特征方程?",
+      "url": "https://www.zhihu.com/answer/1437314598",
+      "summary": "正文直接讲解或推导“递推”相关内容。"
+    },
+    {
+      "title": "什么是特征方程？为什么不同的数学应用上都会出现它？它的作用是什么？",
+      "url": "https://www.zhihu.com/answer/1443837414",
+      "summary": "正文直接讲解或推导“递推”相关内容。"
+    },
+    {
+      "title": "有什么数学定理一般人都觉得是常识，但严谨证明起来却挺费力的？",
+      "url": "https://www.zhihu.com/answer/1447234581",
+      "summary": "正文直接讲解或推导“递推”相关内容。"
+    },
+    {
+      "title": "如何证明 sinsin…sinx 极限为 0？",
+      "url": "https://www.zhihu.com/answer/1452786800",
+      "summary": "正文直接讲解或推导“递推”相关内容。"
+    },
+    {
+      "title": "为什么给一个正数一直开根号结果最后为一？",
+      "url": "https://www.zhihu.com/answer/1454104683",
+      "summary": "正文建立相邻两项的递推关系并求通项。"
+    },
+    {
+      "title": "为何可以用不动点法求数列通项公式，可不可以解释一下？",
+      "url": "https://www.zhihu.com/answer/1457503844",
+      "summary": "正文系统讲解分式线性递推数列的不动点求通项法。"
+    },
+    {
+      "title": "不懂就问，这题的第一问怎么解？",
+      "url": "https://www.zhihu.com/answer/1459437852",
+      "summary": "正文通过构造相邻项比值递推并利用恒等式求通项。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/1473803607",
+      "summary": "正文构造两个递推数列逼近圆周率。"
+    },
+    {
+      "title": "这个数列问题使用正弦定理求解是正确的吗？",
+      "url": "https://www.zhihu.com/answer/1489677758",
+      "summary": "正文直接给出与「递推」相关的解释、推导或应用。"
+    },
+    {
+      "title": "根号 2 与根号 3 之和约等于 π，这是巧合，还是有什么特殊意义？",
+      "url": "https://www.zhihu.com/answer/1509522895",
+      "summary": "正文用递推数列描述割圆术中的内外接多边形逼近。"
+    },
+    {
+      "title": "请问各位数学巨佬们，不动点法求数列通项的原理是什么？",
+      "url": "https://www.zhihu.com/answer/1525935593",
+      "summary": "正文直接讨论递推，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "20 个圆和 20 条直线最多能把平面分成多少个部分？",
+      "url": "https://www.zhihu.com/answer/1529833661",
+      "summary": "正文直接讨论递推，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "数列「1，2，2，3，3，3，...」的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/1533120321",
+      "summary": "正文直接讨论递推，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "常数变易法思想的来源或本质是什么？",
+      "url": "https://www.zhihu.com/answer/1541204994",
+      "summary": "正文直接讨论递推，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "诸如 {1，1，1，3，5，9，17，···} 三个数相加，即斐波那契数列的变式，存在通项公式吗？",
+      "url": "https://www.zhihu.com/answer/1551206932",
+      "summary": "正文推导常系数线性递推数列的特征方程和通项公式。"
+    },
+    {
+      "title": "有没有大神教一下切比雪夫多项式在数学竞赛上的应用？",
+      "url": "https://www.zhihu.com/answer/1559174204",
+      "summary": "正文用递推关系定义切比雪夫多项式并求解。"
+    },
+    {
+      "title": "这个极限数学题怎么做？",
+      "url": "https://www.zhihu.com/answer/1561827044",
+      "summary": "正文用一阶线性差分方程递推求解平方和、立方和。"
+    },
+    {
+      "title": "a(n +2)=2/（a(n+1)+ an）如何证明极限存在，an>0，感谢？",
+      "url": "https://www.zhihu.com/answer/1579545740",
+      "summary": "正文围绕递推数列 a_{n+2}=2/(a_{n+1}+a_n) 证明有界并求极限。"
+    },
+    {
+      "title": "无法理解汉诺塔问题的递归，是不是与编程无缘了?",
+      "url": "https://www.zhihu.com/answer/1603618144",
+      "summary": "正文直接讨论或应用该叶节点主题（递归）。"
+    },
+    {
+      "title": "最近迷上葛立恒数，只知道它是个很大的数，谁能讲清楚它到底有多大？",
+      "url": "https://www.zhihu.com/answer/1643235855",
+      "summary": "正文通过逐层递推定义高德纳箭头和 G(n)。"
+    },
+    {
+      "title": "最近迷上葛立恒数，只知道它是个很大的数，谁能讲清楚它到底有多大？",
+      "url": "https://www.zhihu.com/answer/1643791918",
+      "summary": "正文以递归问层级的方式描述葛立恒数构造。"
+    },
+    {
+      "title": "为什么离 n!/e 最近的整数是 n-1 的倍数？",
+      "url": "https://www.zhihu.com/answer/1644235878",
+      "summary": "正文建立错排数的递推关系并求解。"
+    },
+    {
+      "title": "有什么很牛逼的无理数？",
+      "url": "https://www.zhihu.com/answer/1645927196",
+      "summary": "正文通过补码倒置并追加的递推规则构造序列。"
+    },
+    {
+      "title": "这个有规律的连分数等于多少？",
+      "url": "https://www.zhihu.com/answer/1655286747",
+      "summary": "正文利用连分数的自相似性建立递推关系。"
+    },
+    {
+      "title": "数学中，类似 π、e 的独立的常数还有哪些？",
+      "url": "https://www.zhihu.com/answer/1693341780",
+      "summary": "正文给出逻辑斯蒂映射的递推式，并连续迭代说明不动点、周期倍增及最终进入混沌。"
+    },
+    {
+      "title": "周期数列1，2，3，4，1，2，3，4……的递推公式怎么求？",
+      "url": "https://www.zhihu.com/answer/1702944943",
+      "summary": "正文从周期数列建立递推并分析特征根。"
+    },
+    {
+      "title": "数列 {1, 1, -1, -1, 1, 1, -1, -1, ...} 的通项公式是多少呢？",
+      "url": "https://www.zhihu.com/answer/1720408063",
+      "summary": "正文用周期递推和特征根求数列通项。"
+    },
+    {
+      "title": "斐波纳契数列有多神奇？",
+      "url": "https://www.zhihu.com/answer/1721937183",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "数列 {1, 1, -1, -1, 1, 1, -1, -1, ...} 的通项公式是多少呢？",
+      "url": "https://www.zhihu.com/answer/1722811931",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "指数式 1ⁿ＋2ⁿ＋3ⁿ＋…＋nⁿ 用含 n 的式子表达出来是什么，推导过程是什么？",
+      "url": "https://www.zhihu.com/answer/1727480195",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "20.22.25.30.37.（）后边的这个数到底是多少？",
+      "url": "https://www.zhihu.com/answer/1730464586",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "20.22.25.30.37.（）后边的这个数到底是多少？",
+      "url": "https://www.zhihu.com/answer/1730946574",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "数列「1，2，2，3，3，3，...」的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/1731306759",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "20.22.25.30.37.（）后边的这个数到底是多少？",
+      "url": "https://www.zhihu.com/answer/1732716808",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "N个人通过石头剪刀布决出一个胜者所需要的轮数的数学期望是多少？",
+      "url": "https://www.zhihu.com/answer/1764114345",
+      "summary": "正文建立 Q(n,k) 的递推关系并求解。"
+    },
+    {
+      "title": "数列 {1, 1, -1, -1, 1, 1, -1, -1, ...} 的通项公式是多少呢？",
+      "url": "https://www.zhihu.com/answer/1889113667",
+      "summary": "正文讨论有限项数列可构造多种通项并给出循环规律。"
+    },
+    {
+      "title": "数列 {1, 1, -1, -1, 1, 1, -1, -1, ...} 的通项公式是多少呢？",
+      "url": "https://www.zhihu.com/answer/1889620461",
+      "summary": "正文为循环数列构造符号函数与余弦形式的通项。"
+    },
+    {
+      "title": "数论中有哪些形式简单却难以证明的问题或猜想？",
+      "url": "https://www.zhihu.com/answer/1911793884",
+      "summary": "正文用一个递归公式定义下一项。"
+    },
+    {
+      "title": "如何评价 2021 阿里巴巴数学竞赛决赛试题？",
+      "url": "https://www.zhihu.com/answer/1964384096",
+      "summary": "正文提到用递推数列计算决赛题。"
+    },
+    {
+      "title": "这个数列题应该怎么做？",
+      "url": "https://www.zhihu.com/answer/2004831643",
+      "summary": "正文由递推关系迭代连分式并求首项。"
+    },
+    {
+      "title": "y＝x^x 的函数图像长什么样？",
+      "url": "https://www.zhihu.com/answer/2019499405",
+      "summary": "正文通过迭代序列的收敛与分叉理解不动点。"
+    },
+    {
+      "title": "1，2，4，8，16，30是什么规律？",
+      "url": "https://www.zhihu.com/answer/2147349025",
+      "summary": "正文用 OEIS 列举同一开头序列对应的多种递推与计数解释。"
+    },
+    {
+      "title": "关于数列计算的oj算法题c++解法，怎么解？",
+      "url": "https://www.zhihu.com/answer/2176205050",
+      "summary": "正文先对递推式变形，再累加求闭合形式。"
+    },
+    {
+      "title": "如何让普通人明白数学有多复杂？",
+      "url": "https://www.zhihu.com/answer/2243177025",
+      "summary": "正文以外观数列说明递推规律和增长性质。"
+    },
+    {
+      "title": "3，13，1113，3113，2321，221311，223113，222321，下一个数是什么？",
+      "url": "https://www.zhihu.com/answer/2264341259",
+      "summary": "正文把外观数列解释为由前一项递推得到的序列。"
+    },
+    {
+      "title": "甲乙两人下围棋，甲胜的概率为a，乙胜的概率为b，a+b=1，比对方多赢两局者获胜，求甲赢的概率?",
+      "url": "https://www.zhihu.com/answer/2272664828",
+      "summary": "正文建立无限赛事概率的自指递推关系并求解。"
+    },
+    {
+      "title": "甲乙两人下围棋，甲胜的概率为a，乙胜的概率为b，a+b=1，比对方多赢两局者获胜，求甲赢的概率?",
+      "url": "https://www.zhihu.com/answer/2272711038",
+      "summary": "正文按两局赛果分类并利用重复状态求出获胜概率。"
+    },
+    {
+      "title": "能不能出一道很难的数学题，答案是 504，当宿舍门牌用？",
+      "url": "https://www.zhihu.com/answer/2272794750",
+      "summary": "正文明确用递推数列处理阶梯跨法计数。"
+    },
+    {
+      "title": "为何可以用不动点法求数列通项公式，可不可以解释一下？",
+      "url": "https://www.zhihu.com/answer/2279934070",
+      "summary": "正文完整推导分式递推数列通过不动点变换求通项的方法。"
+    },
+    {
+      "title": "在学生时期独立地探索出自己的数学发现，是什么体验？",
+      "url": "https://www.zhihu.com/answer/2285846212",
+      "summary": "正文构造二分圆弧长度的递推数列来逼近反三角函数。"
+    },
+    {
+      "title": "3，13，1113，3113，2321，221311，223113，222321，下一个数是什么？",
+      "url": "https://www.zhihu.com/answer/2291048498",
+      "summary": "正文分析外观数列式逐项生成规则的递推。"
+    },
+    {
+      "title": "听说线性代数可以在高中降维打击数列、圆锥曲线，具体是怎么应用的？",
+      "url": "https://www.zhihu.com/answer/2317381369",
+      "summary": "正文通过构造差分递推化简原递推题。"
+    },
+    {
+      "title": "听说线性代数可以在高中降维打击数列、圆锥曲线，具体是怎么应用的？",
+      "url": "https://www.zhihu.com/answer/2318429267",
+      "summary": "正文把递推数列通项列为线性变换的直接应用。"
+    },
+    {
+      "title": "(a+b)!/(a!b!) 的结果一定是整数吗？如果是，如何证明？",
+      "url": "https://www.zhihu.com/answer/2329270167",
+      "summary": "正文用二项式系数的递推关系证明整数性。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/2333979382",
+      "summary": "正文建立行列式辅助量的递推式以计算幂和通项。"
+    },
+    {
+      "title": "甲乙两人下围棋，甲胜的概率为a，乙胜的概率为b，a+b=1，比对方多赢两局者获胜，求甲赢的概率?",
+      "url": "https://www.zhihu.com/answer/2343066775",
+      "summary": "正文建立领先局数与最终胜率之间的递推关系。"
+    },
+    {
+      "title": "听说线性代数可以在高中降维打击数列、圆锥曲线，具体是怎么应用的？",
+      "url": "https://www.zhihu.com/answer/2367152981",
+      "summary": "正文从 k 阶常系数齐次线性递推数列出发解释特征方程与递推结构。"
+    },
+    {
+      "title": "特征方程是什么?",
+      "url": "https://www.zhihu.com/answer/2374931012",
+      "summary": "正文完整解释线性递推数列特征方程及其通解构造。"
+    },
+    {
+      "title": "600 个人站一排，每次随机淘汰一个奇数位的人，几号最安全？",
+      "url": "https://www.zhihu.com/answer/2404264530",
+      "summary": "正文从较小人数局开始逐层归纳存活率，建立人数规模之间的递推关系。"
+    },
+    {
+      "title": "诸如 {1，1，1，3，5，9，17，···} 三个数相加，即斐波那契数列的变式，存在通项公式吗？",
+      "url": "https://www.zhihu.com/answer/2449363025",
+      "summary": "正文给出三阶递推的完整定义。"
+    },
+    {
+      "title": "动画《魔法少女小圆》有哪些学科讨论？",
+      "url": "https://www.zhihu.com/answer/2458413000",
+      "summary": "正文通过统计零和一的数量建立二阶线性递推关系并求解。"
+    },
+    {
+      "title": "如何证明四个及以上集合的维恩图用圆形无法表示出？",
+      "url": "https://www.zhihu.com/answer/2468139474",
+      "summary": "正文建立圆划分平面区域数目的递推关系。"
+    },
+    {
+      "title": "有没有哪些数学题的某一步处理堪称神来之笔？",
+      "url": "https://www.zhihu.com/answer/2488205979",
+      "summary": "按当前状态列出包含未知期望的递推方程，再回代求解。"
+    },
+    {
+      "title": "可以为 2022 高考生预测一道数学题吗？",
+      "url": "https://www.zhihu.com/answer/2498881088",
+      "summary": "正文由数列前 n 项和关系推导通项并讨论递推变形。"
+    },
+    {
+      "title": "无限大国际象棋盘，一个马跳n次后的目的地有多少个？",
+      "url": "https://www.zhihu.com/answer/2499918260",
+      "summary": "正文按奇偶性与边界计数推导目的地数量的递推公式。"
+    },
+    {
+      "title": "听说线性代数可以在高中降维打击数列、圆锥曲线，具体是怎么应用的？",
+      "url": "https://www.zhihu.com/answer/2520137944",
+      "summary": "展示把线性递推转化为生成函数方程、再用部分分式解出的方法。"
+    },
+    {
+      "title": "中国数学相比与西方数学为什么会处于劣势？",
+      "url": "https://www.zhihu.com/answer/2538525993",
+      "summary": "从加括号与多边形三角剖分推出 Catalan 数的递推关系。"
+    },
+    {
+      "title": "如何理解和掌握快速傅里叶变换的计算和概念？",
+      "url": "https://www.zhihu.com/answer/2541726839",
+      "summary": "利用奇偶下标的子问题给出 FFT 的递归关系与复杂度递推式。"
+    },
+    {
+      "title": "3x+1问题(角谷猜想，冰雹猜想)的解决思路有哪些以及到目前的最好的结果？",
+      "url": "https://www.zhihu.com/answer/2569282655",
+      "summary": "系统定义 3x+1 迭代的 Glide、Delay、轨迹和记录值，并总结验证进展。"
+    },
+    {
+      "title": "为什么游戏里的都是伪随机，做不出真随机？希望来个简单易懂的解释？",
+      "url": "https://www.zhihu.com/answer/2573892672",
+      "summary": "以线性同余递推公式生成伪随机序列，并讨论周期与参数选择。"
+    },
+    {
+      "title": "为什么游戏里的都是伪随机，做不出真随机？希望来个简单易懂的解释？",
+      "url": "https://www.zhihu.com/answer/2602589237",
+      "summary": "给出线性同余法由前一项递推生成随机数序列的公式。"
+    },
+    {
+      "title": "为什么学计算机的学生不深入学习组合数学、数论，反而学习微积分这种看似没有那么重要的东西？",
+      "url": "https://www.zhihu.com/answer/2617904057",
+      "summary": "把差分方程、递推与生成函数联系起来，说明离散数学工具的对应关系。"
+    },
+    {
+      "title": "数列1到n的任意次方的求和公式是否存在？",
+      "url": "https://www.zhihu.com/answer/2619524466",
+      "summary": "由已知幂和递推构造更高次幂和，并给出通项递推式。"
+    },
+    {
+      "title": "导数最早在明朝王文素算学宝鉴，为什么所有的教材都不提，而将一切归功于牛顿莱布尼茨？",
+      "url": "https://www.zhihu.com/answer/2684862848",
+      "summary": "正文按左右两段的组合方式推出Catalan数满足的卷积和递推式，并进一步求其生成函数与通项。"
+    },
+    {
+      "title": "是否存在函数f(x)使得f(f(x))=4ˣ？",
+      "url": "https://www.zhihu.com/answer/2687028364",
+      "summary": "正文以已知区间上的取值和f(x+1)=4^{f(x)}关系向其他区间递推定义函数。"
+    },
+    {
+      "title": "一直不解，为什么如此定义矩阵的乘法，为什么这样一种怪异的乘法规则却能够在实践中发挥如此巨大的功效？",
+      "url": "https://www.zhihu.com/answer/2687307391",
+      "summary": "正文先建立五阶段产量的迭代关系，再将其化为矩阵幂以计算稳定状态。"
+    },
+    {
+      "title": "如何简单的计算自然数的三次方数列的前 n 项和 S_n？",
+      "url": "https://www.zhihu.com/answer/2694556037",
+      "summary": "正文构造满足 f(n)-f(n-1)=n^3 的函数，利用相邻项的递推差消去中间项。"
+    },
+    {
+      "title": "n个编号小球放入n个编号盒子里，无空盒，小球编号与盒子编号都不相同，有多少种放法？",
+      "url": "https://www.zhihu.com/answer/2698903777",
+      "summary": "正文按首位取值分类，建立 D_n=(n-1)(D_{n-1}+D_{n-2}) 的递推关系并求得通项。"
+    },
+    {
+      "title": "数列 {1, 1, 4, 5, 1, …} 的下一位是什么？",
+      "url": "https://www.zhihu.com/answer/2699472097",
+      "summary": "正文把数列视为同一映射的反复作用，并用一阶、二阶和三阶迭代确定后续项。"
+    },
+    {
+      "title": "数学中有哪些经典必记的不等式？",
+      "url": "https://www.zhihu.com/answer/2718420960",
+      "summary": "正文从相邻项递推定义的序列出发，通过累加、放缩和估计上下界证明目标不等式。"
+    },
+    {
+      "title": "十万现代军人VS葛立恒数古代军人，谁会赢？",
+      "url": "https://www.zhihu.com/answer/2728031145",
+      "summary": "正文用前一项g(1)决定后一项箭头层数的递推定义g(2)，并继续递推到葛立恒数g(64)。"
+    },
+    {
+      "title": "葛立恒数+2是质数还是合数?",
+      "url": "https://www.zhihu.com/answer/2729617223",
+      "summary": "正文定义递推数列并用后一项由前一项的幂决定的结构研究葛立恒数的余数。"
+    },
+    {
+      "title": "如何求数列aₙ₊₁=aₙ²-2aₙ?",
+      "url": "https://www.zhihu.com/answer/2729863532",
+      "summary": "正文围绕由前一项平方与一次项确定后一项的一阶非线性递推，变形并求出通项公式。"
+    },
+    {
+      "title": "3!=3×2×1，(3!)!=6!=6×5×4×3×2×1，那么把3这样套64次娃是否比葛立恒数大？",
+      "url": "https://www.zhihu.com/answer/2734417577",
+      "summary": "正文用上一层结果定义下一层的阶乘套娃，并通过递归式描述迭代过程的快速增长。"
+    },
+    {
+      "title": "有没有结果含有“π”但是与圆完全无关的问题？",
+      "url": "https://www.zhihu.com/answer/2745114087",
+      "summary": "正文定义余弦值的递推序列，再根据各项符号得到二进制串来计算圆周率。"
+    },
+    {
+      "title": "怎么用特征根法和不动点法求数列的通项公式？",
+      "url": "https://www.zhihu.com/answer/2747848381",
+      "summary": "正文把数列递推视为函数变换，借不动点和特征方程推导通项公式。"
+    },
+    {
+      "title": "如果不动点方程无实数解该怎么办，一定是周期数列吗？",
+      "url": "https://www.zhihu.com/answer/2758066742",
+      "summary": "正文研究一阶分式递推数列，利用不动点化简为首项和公比形式，并给出通项及周期判定。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/2774059612",
+      "summary": "正文由硬币序列的末位情况建立 a_n=a_{n-1}+a_{n-2} 的递推关系并求解。"
+    },
+    {
+      "title": "到目前为止，有没有哪位数学家的直觉超越了拉马努金?",
+      "url": "https://www.zhihu.com/answer/2781046773",
+      "summary": "正文比较把省略号当作极限点递归与尾递归、递推，说明连分数和连根式可用递推或函数方程定义。"
+    },
+    {
+      "title": "除了 3，4，5 以外是否还有别的三角形，它的三条边是连续自然数，它的面积也是自然数？",
+      "url": "https://www.zhihu.com/answer/2786997868",
+      "summary": "正文由解的闭式表示和特征方程推导线性递推，并借助递推批量生成后续边长。"
+    },
+    {
+      "title": "如何求数列aₙ₊₁=aₙ²-2aₙ?",
+      "url": "https://www.zhihu.com/answer/2802556776",
+      "summary": "正文围绕二次递推数列求通项，推导离散 Logistic 方程在参数为负二时的解析解。"
+    },
+    {
+      "title": "如何求数列aₙ₊₁=aₙ²-2aₙ?",
+      "url": "https://www.zhihu.com/answer/2806322473",
+      "summary": "正文讨论二次函数型递归数列的配方和换元分类，并据此判断通项公式的适用情形。"
+    },
+    {
+      "title": "如果用某进制表示圆周率能不能找出规律？",
+      "url": "https://www.zhihu.com/answer/2808397626",
+      "summary": "正文把数字重排后最大数减最小数作为重复步骤，展示由前一项生成后一项并最终进入循环的迭代过程。"
+    },
+    {
+      "title": "如何直观的感受葛立恒数？",
+      "url": "https://www.zhihu.com/answer/2841677127",
+      "summary": "正文把不同数量的箭头运算写成 A、B、C、D 函数，通过上一层结果反复代入下一层，具体说明递推生成超运算数值的过程。"
+    },
+    {
+      "title": "各位知乎大神，求求帮我做下这道数列题?",
+      "url": "https://www.zhihu.com/answer/2850531945",
+      "summary": "正文由相邻差构成公差为 2 的递推关系，累加后求得数列通项 n²+n。"
+    },
+    {
+      "title": "为何可以用不动点法求数列通项公式，可不可以解释一下？",
+      "url": "https://www.zhihu.com/answer/2871568629",
+      "summary": "正文以不动点方程解释递推数列如何通过作差构造等比数列并求出通项。"
+    },
+    {
+      "title": "平均多少个 [a, b] 间的随机数之和才大于 c？",
+      "url": "https://www.zhihu.com/answer/2910702560",
+      "summary": "正文建立 V_{n+1}(x) 与 V_n 之间的积分递推关系，递推得到 x^n/n! 及相应概率。"
+    },
+    {
+      "title": "有哪些看起来很简单但做起来很难的数学题？",
+      "url": "https://www.zhihu.com/answer/2912411355",
+      "summary": "正文把原递归函数化为序数指标函数，并推导 c_n、a_n 的递推关系与初值，最终算出目标函数值。"
+    },
+    {
+      "title": "葛立恒数分之一有多小？",
+      "url": "https://www.zhihu.com/answer/2917000402",
+      "summary": "正文用分段定义和引用前项的函数递推式构造快速增长的复合序列，从而说明其倒数极小。"
+    },
+    {
+      "title": "有什么浅显易懂的Gosper Algorithm讲解？",
+      "url": "https://www.zhihu.com/answer/2938197400",
+      "summary": "正文把超几何单项式求和转化为求裂项 T(k)，并通过 Gosper 方程确定满足递推关系的多项式和最终求和。"
+    },
+    {
+      "title": "一亿的一亿次方有多大 真的特别特别好奇 希望大神解答一下 形象一点?",
+      "url": "https://www.zhihu.com/answer/2968830150",
+      "summary": "正文递归定义高德纳箭头，并在极限序数处通过对角化和基本列继续递推。"
+    },
+    {
+      "title": "数学好的人去搞生物是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/3001147607",
+      "summary": "正文以逻辑斯蒂映射为核心，围绕种群的逐期迭代值讨论不动点、周期轨道和倍周期分叉。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/3037373448",
+      "summary": "正文通过 multinomial 组合数的递推式和初值验证证明常数项结论。"
+    },
+    {
+      "title": "1²+2²+…+n²求和公式的推导有哪些方法?",
+      "url": "https://www.zhihu.com/answer/3049162544",
+      "summary": "正文以递推和逐差为例推导自然数平方和，并推广到立方和及任意正整数次幂和。"
+    },
+    {
+      "title": "怎样用高中概率知识求解以马尔科夫链为背景的天气预报问题？",
+      "url": "https://www.zhihu.com/answer/3053936353",
+      "summary": "正文把逐日天气概率的迭代关系类比为等比数列，并通过递推关系得到第 n 天的概率。"
+    },
+    {
+      "title": "TREE（3）为什么用葛立恒数函数嵌套也达不到？",
+      "url": "https://www.zhihu.com/answer/3093035096",
+      "summary": "正文用前一层函数反复迭代来定义下一层 FGH，具体展开了递归式的构造与增长。"
+    },
+    {
+      "title": "我这个数有没有超过葛立恒数？",
+      "url": "https://www.zhihu.com/answer/3123675255",
+      "summary": "正文逐轮列出状态变换，并用质因数消去与补回的规则描述下一状态，展开了递推过程。"
+    },
+    {
+      "title": "我这个数有没有超过葛立恒数？",
+      "url": "https://www.zhihu.com/answer/3129898945",
+      "summary": "正文定义分段递归函数 f，并通过分析其变换规律和重复迭代来估算最终大数。"
+    },
+    {
+      "title": "只有 e^x 求导等于它本身吗？",
+      "url": "https://www.zhihu.com/answer/3131932919",
+      "summary": "正文逐时刻写出速度递推关系，再把迭代结果识别为等比数列并求其通项。"
+    },
+    {
+      "title": "比葛立恒数大很难吗？G(64)+1不就比G(64）大嘛？",
+      "url": "https://www.zhihu.com/answer/3135852362",
+      "summary": "正文逐层定义超运算并递归迭代到第六十四层，以构造规模逐层跃升的鸿蒙数。"
+    },
+    {
+      "title": "1，3，3，5，5，5，7，7，7，7... 的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/3156105989",
+      "summary": "正文由相邻组末尾索引的累加关系推出第 t 组末尾的求和式，属于递推关系的建立与化简。"
+    },
+    {
+      "title": "Rust的lambda函数怎么递归？",
+      "url": "https://www.zhihu.com/answer/3168919264",
+      "summary": "正文用不动点组合子实现斐波那契和阶乘的递归调用，具体展示递推计算。"
+    },
+    {
+      "title": "一个人扔六面的骰子，数值1到6，扔到几就向前走几格，可以无限扔，问他恰好走到第2023格的概率是多少?",
+      "url": "https://www.zhihu.com/answer/3172323992",
+      "summary": "正文给出由前六格概率求当前格概率的递推式，并用代码计算第2023格的概率。"
+    },
+    {
+      "title": "一个人扔六面的骰子，数值1到6，扔到几就向前走几格，可以无限扔，问他恰好走到第2023格的概率是多少?",
+      "url": "https://www.zhihu.com/answer/3173090784",
+      "summary": "正文写出由前六格概率求当前格概率的线性递推关系，并据此计算第2023格。"
+    },
+    {
+      "title": "一个人扔六面的骰子，数值1到6，扔到几就向前走几格，可以无限扔，问他恰好走到第2023格的概率是多少?",
+      "url": "https://www.zhihu.com/answer/3173922085",
+      "summary": "正文从到达目标的六种前一步位置推出恰好走到第 n 格概率的六阶递推式。"
+    },
+    {
+      "title": "一个人扔六面的骰子，数值1到6，扔到几就向前走几格，可以无限扔，问他恰好走到第2023格的概率是多少?",
+      "url": "https://www.zhihu.com/answer/3174011582",
+      "summary": "正文建立到达第 n 格概率的六阶递推，并由生成函数推出另一递推式及极限方程。"
+    },
+    {
+      "title": "一个人扔六面的骰子，数值1到6，扔到几就向前走几格，可以无限扔，问他恰好走到第2023格的概率是多少?",
+      "url": "https://www.zhihu.com/answer/3174135968",
+      "summary": "正文用全概率公式说明到达某格的概率由前六格概率递推，并由此求稳态概率 2/7。"
+    },
+    {
+      "title": "一个人扔六面的骰子，数值1到6，扔到几就向前走几格，可以无限扔，问他恰好走到第2023格的概率是多少?",
+      "url": "https://www.zhihu.com/answer/3174425756",
+      "summary": "正文由骰子等概率从前面六格转移建立到达各位置概率的递推关系。"
+    },
+    {
+      "title": "一个人扔六面的骰子，数值1到6，扔到几就向前走几格，可以无限扔，问他恰好走到第2023格的概率是多少?",
+      "url": "https://www.zhihu.com/answer/3175804224",
+      "summary": "正文利用相邻格点停靠概率的近似关系建立递推式，并据此解出停靠概率。"
+    },
+    {
+      "title": "N个相同的球，放入M个相同的盒子中（n大于m），允许有盒子为空，请问有多少种方法？不允许盒子为空呢？",
+      "url": "https://www.zhihu.com/answer/3185502845",
+      "summary": "正文随后给出分拆函数 f(n,m) 的分情形递推关系。"
+    },
+    {
+      "title": "能否找到一个f(x)，使得当x取到全体正整数的时候，f(x)可以取到全体有理数？",
+      "url": "https://www.zhihu.com/answer/3187123321",
+      "summary": "正文给出按奇偶下标调用前项的递推定义，并据此生成有理数序列。"
+    },
+    {
+      "title": "一个数初始是0，只通过+1和*2两种操作，最少几次操作能让这个数变成114514？",
+      "url": "https://www.zhihu.com/answer/3190883691",
+      "summary": "正文通过把正向操作反转为从目标数按奇偶不断除以二或减一，刻画了由当前项递推到下一项的求解过程。"
+    },
+    {
+      "title": "1，3，3，5，5，5，7，7，7，7... 的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/3202208385",
+      "summary": "正文由基础重复数列逐项构造取整项之和，再改造为相邻异项差为 2 的数列并导出通项，具体展开数列的递推构造。"
+    },
+    {
+      "title": "如果你有在任意地方插入一个“0”那超能力，你想怎么使用？",
+      "url": "https://www.zhihu.com/answer/3225315988",
+      "summary": "正文把 2↑↑40 写成相邻项递推关系，并说明从底部定义、从顶部逐项计算的过程。"
+    },
+    {
+      "title": "根号下0+ 根号下0+根号下0+根号下0+..............（加到山无陵天地合） 等于多少？",
+      "url": "https://www.zhihu.com/answer/3243345388",
+      "summary": "正文用 T_{n+1}=\\sqrt{0+T_n} 反复解释嵌套根号的递推定义，并指出只给出递推关系会造成初值歧义。"
+    },
+    {
+      "title": "高中数学有没有什么比较牛 X 的公式？",
+      "url": "https://www.zhihu.com/answer/3250791743",
+      "summary": "正文归纳十五类递推求通项模型，分别通过构造辅助数列、累加、累乘或特征方程求通项。"
+    },
+    {
+      "title": "如何求这个关于正弦函数复合的极限？",
+      "url": "https://www.zhihu.com/answer/3260034553",
+      "summary": "正文把问题写成以正弦迭代定义的递推序列，并通过相邻两项作差和累加求渐近行为。"
+    },
+    {
+      "title": "我打了男朋友一个巴掌，男朋友还我三个巴掌，我要怎么办？",
+      "url": "https://www.zhihu.com/answer/3272530710",
+      "summary": "正文用前两项相加得到后一项的数列具体说明递推规律。"
+    },
+    {
+      "title": "古代为什么将一斤定为16两？",
+      "url": "https://www.zhihu.com/answer/3317868844",
+      "summary": "正文给出砝码重量由前面所有砝码重量之和生成的规则，并据此构造可表示目标范围内各重量的数列。"
+    },
+    {
+      "title": "两人轮流掷一个标准骰子，先掷出6的胜，第一个掷的人获胜几率是？",
+      "url": "https://www.zhihu.com/answer/3348581894",
+      "summary": "正文利用角色互换后的自相似结构，把获胜概率写成关于 p 的递推关系并解出 6/11。"
+    },
+    {
+      "title": "怎么判断一个孩子有没有数学天赋？",
+      "url": "https://www.zhihu.com/answer/3352609533",
+      "summary": "正文利用前一区段的和及固定增量，递推得到后续每一百个数之和，直至 1 到 1000 的总和。"
+    },
+    {
+      "title": "如何直观的感受TREE(3)有多大？",
+      "url": "https://www.zhihu.com/answer/3355934836",
+      "summary": "正文按前一小轮最后写出的数字定义后一小轮笔的支数，展示了递归式增长规则。"
+    },
+    {
+      "title": "目前挑战葛立恒数的有赢的吗？",
+      "url": "https://www.zhihu.com/answer/3359312705",
+      "summary": "正文用基底情形和逐层调用自身的规则递归定义二元增长运算。"
+    },
+    {
+      "title": "3，5，10，40（）找规律后面应该填什么?",
+      "url": "https://www.zhihu.com/answer/3375543113",
+      "summary": "正文给出由前两项计算后一项的递推公式，并据此求出数列的下一项。"
+    },
+    {
+      "title": "请问这个看上去很简单的数列，它的通项公式怎么求？",
+      "url": "https://www.zhihu.com/answer/3387020042",
+      "summary": "正文给出数列递推式，分析相邻项的数值变化、正负翻转和不收敛现象，并借助函数图像解释迭代行为。"
+    },
+    {
+      "title": "能否找出一个具有物理意义的数字使其大于葛立恒数？",
+      "url": "https://www.zhihu.com/answer/3391450585",
+      "summary": "正文用指数塔和多重箭头的逐级迭代解释递归构造，说明递归如何带来增长模式的飞跃。"
+    },
+    {
+      "title": "如何评价刘谦在 2024 年春晚表演的魔术《守岁共此时》？",
+      "url": "https://www.zhihu.com/answer/3392320667",
+      "summary": "正文把逐人报数淘汰过程解释为约瑟夫环，并分别求出5人和6人时的剩余位置，体现离散淘汰过程的逐步求解。"
+    },
+    {
+      "title": "2024年春晚《守岁共此时》中刘谦的撕牌魔术是什么数学原理？",
+      "url": "https://www.zhihu.com/answer/3392475392",
+      "summary": "正文把逐人报数淘汰过程解释为约瑟夫环，并分别求出5人和6人时的剩余位置，体现离散淘汰过程的逐步求解。"
+    },
+    {
+      "title": "如何理解 Mamba 模型 Selective State Spaces?",
+      "url": "https://www.zhihu.com/answer/3407426487",
+      "summary": "正文逐步展开状态更新公式，说明当前状态由先前状态与当前输入按递推关系得到。"
+    },
+    {
+      "title": "3，5，10，40（）找规律后面应该填什么?",
+      "url": "https://www.zhihu.com/answer/3411181466",
+      "summary": "正文利用相邻项关系 a_{n+4}=-a_n 构造序列的一种延续，具体涉及递推规则及其周期反转。"
+    },
+    {
+      "title": "如果概率是50%，为什么用在赌博中还是亏钱？",
+      "url": "https://www.zhihu.com/answer/3440442965",
+      "summary": "正文从相邻资产状态建立破产概率的递推关系，并用边界条件求出通项。"
+    },
+    {
+      "title": "已知x+y=1，x^2+y^2=2。求x^3+y^3与x^4+y^4的值（一般地，求x^n+y^n）？",
+      "url": "https://www.zhihu.com/answer/3441168550",
+      "summary": "正文由根与系数关系建立特征方程，并推出 x^n+y^n 满足的二阶递推关系。"
+    },
+    {
+      "title": "萌新来碰瓷葛立恒数，不知道我这一堆石子的数量会不会比葛立恒数大？",
+      "url": "https://www.zhihu.com/answer/3445864081",
+      "summary": "通过前一项操作数逐层定义后一项，说明石子操作所生成的递推增长结构。"
+    },
+    {
+      "title": "能通俗地解释一下TREE（3）吗?",
+      "url": "https://www.zhihu.com/answer/3446758626",
+      "summary": "正文以函数自嵌套层数定义 f_n，并由函数下标和多级分隔符逐级进位，展开递归式增长层级。"
+    },
+    {
+      "title": "能通俗地解释一下TREE（3）吗?",
+      "url": "https://www.zhihu.com/answer/3447796043",
+      "summary": "正文以 f_0 和 f_{α+1} 分层迭代定义快速增长层级，并说明按自变量层数展开的递推计算方式。"
+    },
+    {
+      "title": "怎么判断一个孩子有没有数学天赋？",
+      "url": "https://www.zhihu.com/answer/3468382586",
+      "summary": "正文反复把 x=f(x) 代回末端，用递归展开得到几何级数及其和，具体呈现了递推代换。"
+    },
+    {
+      "title": "3，5，10，40（）找规律后面应该填什么?",
+      "url": "https://www.zhihu.com/answer/3505565246",
+      "summary": "正文依据前项乘以变化的倍数寻找数列规律，并递推计算下一项。"
+    },
+    {
+      "title": "3，5，10，40（）找规律后面应该填什么?",
+      "url": "https://www.zhihu.com/answer/3557543622",
+      "summary": "正文观察 10=5×(3−1) 并提出用前两项表示后项的递推关系，同时强调有限样本下答案不唯一。"
+    },
+    {
+      "title": "3，5，10，40（）找规律后面应该填什么?",
+      "url": "https://www.zhihu.com/answer/3558083352",
+      "summary": "正文按前两项乘积再减去后一项的固定规律逐项推出下一项，属于用递推关系求数列后项。"
+    },
+    {
+      "title": "“斐波那契汤”（今天的汤=昨天的汤+前天的汤）味道是收敛的吗？",
+      "url": "https://www.zhihu.com/answer/3585822000",
+      "summary": "正文建立汤味道的线性递推关系，并用特征方程和特征根求出数列通项。"
+    },
+    {
+      "title": "进制转换的原理是什么？",
+      "url": "https://www.zhihu.com/answer/3607802605",
+      "summary": "正文用不断把 n 除以 2 并递归调用的代码实现二进制输出，明确体现递推思想。"
+    },
+    {
+      "title": "如何评价 2024 数学建模国赛？",
+      "url": "https://www.zhihu.com/answer/3620354223",
+      "summary": "正文显式构造相邻把手角度和坐标的递推关系，再逐点生成整条板凳龙在该时刻的位置与速度。"
+    },
+    {
+      "title": "1、2、3、4、5、6、7、8、9、10这10个数字中任取4个不同的数，用加减乘除都能算出24吗？",
+      "url": "https://www.zhihu.com/answer/3634624003",
+      "summary": "正文给出递归构造左右子树并组合结果的算法，用递归自动枚举四个数的全部计算顺序。"
+    },
+    {
+      "title": "数学中有什么难以置信的结论？",
+      "url": "https://www.zhihu.com/answer/35092444321",
+      "summary": "正文利用等幂和相邻两项之间的递推关系构造通解，并据此引入伯努利数。"
+    },
+    {
+      "title": "目前被举出反例的数学猜想中反例有确切数值中最大的是多少？",
+      "url": "https://www.zhihu.com/answer/42506208647",
+      "summary": "正文给出由前项游程长度决定后项的生成规则，并实例解释该自指序列的递推方式。"
+    },
+    {
+      "title": "有哪些看起来很简单但做起来很难的数学题？",
+      "url": "https://www.zhihu.com/answer/46778684639",
+      "summary": "正文定义考拉兹递推规则，并通过反复迭代数列说明其4-2-1循环问题。"
+    },
+    {
+      "title": "圆桌上 100 个人轮流开枪，最可能活下来的是几号？",
+      "url": "https://www.zhihu.com/answer/67653583820",
+      "summary": "正文通过去掉首位后的状态与幸存率之比推导递推关系。"
+    },
+    {
+      "title": "圆桌上 100 个人轮流开枪，最可能活下来的是几号？",
+      "url": "https://www.zhihu.com/answer/68626385207",
+      "summary": "正文按开枪是否命中分情况，定义 P(n,m,k) 并给出人数和位置缩减后的完整递推关系。"
+    },
+    {
+      "title": "圆桌上 100 个人轮流开枪，最可能活下来的是几号？",
+      "url": "https://www.zhihu.com/answer/68681689742",
+      "summary": "正文以初始向量 P1 为边界，从前一人数规模的存活概率向量递推任意规模的解。"
+    },
+    {
+      "title": "有哪些诸如“小偷偷偷偷东西”这种同字连续出现的句子？符合汉语语法规范的句子最多出现几个连续相同的字？",
+      "url": "https://www.zhihu.com/answer/71442720105",
+      "summary": "正文用同一结构替换 X 并反复嵌套，构造出可无限展开的自指递归。"
+    },
+    {
+      "title": "一个正方体蛋糕切五刀最多可以分成多少块儿？",
+      "url": "https://www.zhihu.com/answer/82873209939",
+      "summary": "正文从直线与超平面切割区域推导递推关系，并由组合恒等式得到一般维数的最多区域数。"
+    },
+    {
+      "title": "常微分方程的特征方程，本质是什么？",
+      "url": "https://www.zhihu.com/answer/90755118072",
+      "summary": "正文以齐次线性递推数列为起点，说明特征根如何构造等比数列并得到通项。"
+    },
+    {
+      "title": "有哪些猜想是因为反例很大的情况下被推翻的？",
+      "url": "https://www.zhihu.com/answer/103696691631",
+      "summary": "正文明确给出科拉茨猜想的递归操作规则，并用从 7 开始反复迭代的轨道演示这一递推过程。"
+    },
+    {
+      "title": "为什么都喜欢碰瓷葛立恒数而 TREE(3) 无人问津？",
+      "url": "https://www.zhihu.com/answer/117882704485",
+      "summary": "正文用 G(0)=4 和由 G(n) 确定下一层的递推式定义葛立恒数序列。"
+    },
+    {
+      "title": "7的多少次方是1000位？",
+      "url": "https://www.zhihu.com/answer/120798641009",
+      "summary": "正文通过反复平方并组合已有幂次来计算 7 的 1183 次方，具体展示快速幂的递推计算。"
+    },
+    {
+      "title": "1+1/2+1/4+1/7+1/11+1/16...是收敛还是发散的，收敛的话等于多少?",
+      "url": "https://www.zhihu.com/answer/1882965964632589607",
+      "summary": "正文由相邻项倒数满足的递推关系逐和求出通项，再求整个无穷级数。"
+    },
+    {
+      "title": "给小学五年级学生计算「27 个 3 连乘」并准确读出结果（结果数量级在 7 万多亿）合适吗？",
+      "url": "https://www.zhihu.com/answer/123252837921",
+      "summary": "正文把 27 逐步分解并通过反复平方和已有幂次计算 3 的 27 次方，具体展示快速幂递推。"
+    },
+    {
+      "title": "如果若干个赌徒一直赌下去，直至资金亏完，赌博过程中的最高资金是多少？",
+      "url": "https://www.zhihu.com/answer/124600768894",
+      "summary": "正文由相邻位置转移到终止壁的概率建立递推关系，再求解该递推方程。"
+    },
+    {
+      "title": "最短的路径一定是直线吗？",
+      "url": "https://www.zhihu.com/answer/126681682864",
+      "summary": "正文由加法原理推出路径计数的偏差分方程，并说明它对应二项式系数的重要递推式。"
+    },
+    {
+      "title": "一个计算器，只可以使用1,4,6,8,9,0,×,÷,√（平方根）和括号，能否算式表示出所有正整数？",
+      "url": "https://www.zhihu.com/answer/131454896345",
+      "summary": "正文提出对暂时无法表达的较小素因子递归求表达式，构成递推求解思路。"
+    },
+    {
+      "title": "高中排列组合的问题？",
+      "url": "https://www.zhihu.com/answer/1889611965124551692",
+      "summary": "正文介绍无序分拆数B(n,k)，给出其递推关系并通过至多k部分分拆的计数解释该递推公式。"
+    },
+    {
+      "title": "数列求通项有万能的通法吗？",
+      "url": "https://www.zhihu.com/answer/1901034788556616430",
+      "summary": "正文以多组递推关系为例，讲解累加、累乘、不动点和特征根等求通项方法。"
+    },
+    {
+      "title": "如何评价「世界是一个草台班子」？",
+      "url": "https://www.zhihu.com/answer/1903136913310875795",
+      "summary": "正文通过代换得到递推式，再取倒数化为等比递推并求出数列通项。"
+    },
+    {
+      "title": "两把武器，一把攻击1～5，一把2～4，从数据角度，哪把更厉害？",
+      "url": "https://www.zhihu.com/answer/1905755715102024070",
+      "summary": "正文由转移矩阵导出五阶常系数齐次线性递推，并计算两把武器对应的递推数列。"
+    },
+    {
+      "title": "0-100猜数字，可以知道大了小了，那第一次应该猜50还是64还是63？",
+      "url": "https://www.zhihu.com/answer/1907862044130149495",
+      "summary": "正文为猜测次数建立递推成本函数，并分别补充 n=0 与 n=1 的边界条件。"
+    },
+    {
+      "title": "甲和乙游戏一次的胜率是p，但甲输后可以耍赖宣布三局两胜，如再输就五局三胜，无限下去，甲胜率多少？",
+      "url": "https://www.zhihu.com/answer/1912103216646165870",
+      "summary": "正文利用相邻状态概率之间的递推式、边界条件和等比数列求和推导出随机游走的首达概率。"
+    },
+    {
+      "title": "甲和乙游戏一次的胜率是p，但甲输后可以耍赖宣布三局两胜，如再输就五局三胜，无限下去，甲胜率多少？",
+      "url": "https://www.zhihu.com/answer/1914185136834065272",
+      "summary": "正文按第一局胜负拆分最终胜率，利用同一胜率重复出现建立二次递推方程并求出通式。"
+    },
+    {
+      "title": "如何优雅地证明 ∑i³=(∑i)²？",
+      "url": "https://www.zhihu.com/answer/1915574305602920828",
+      "summary": "正文把立方和记为前一项与 n^3 的和，并通过一阶非齐次线性差分方程求出通项。"
+    },
+    {
+      "title": "为什么锥体体积系数是1/3？",
+      "url": "https://www.zhihu.com/answer/1916433823383655000",
+      "summary": "正文由阳马与鳖臑的剖分关系推出体积递推式，并通过反复展开确定二者比例。"
+    },
+    {
+      "title": "如何解函数方程 2f(x)＋f(2x)＝x？",
+      "url": "https://www.zhihu.com/answer/1918108761165395034",
+      "summary": "正文令 h(t)=g(2^t)，把原方程转成相邻自变量间的一阶递推关系。"
+    },
+    {
+      "title": "如何优雅地证明10>π²？",
+      "url": "https://www.zhihu.com/answer/1923322502408569337",
+      "summary": "正文推导外切正 n 边形到正 2n 边形的边长递推式，并用它连续计算正十二、二十四边形的边长。"
+    },
+    {
+      "title": "f(x+f(x))=f(x)+1 且 f 平滑, 如何求出所有满足条件的函数 f?",
+      "url": "https://www.zhihu.com/answer/1925716080913020481",
+      "summary": "正文将函数方程转成带周期项的一阶线性差分方程，并据此写出反函数的递推形式。"
+    },
+    {
+      "title": "是否可以构造一种连续函数 f 使得 f(f(x))＝ax²＋bx＋c?",
+      "url": "https://www.zhihu.com/answer/1925966892469843868",
+      "summary": "正文通过 g 的重复迭代和序列单调性说明连续迭代根在无不动点情形下的构造方式。"
+    },
+    {
+      "title": "如何求解a(n)=n·a(n-1)+(-1)^n的通项公式？",
+      "url": "https://www.zhihu.com/answer/1930741606614561059",
+      "summary": "正文围绕一阶递推式变形、错位相减并利用初值求全错排数列的通项。"
+    },
+    {
+      "title": "f(xˣ)=f(x)²,如何求f(x)的解析式?",
+      "url": "https://www.zhihu.com/answer/1932239100452270089",
+      "summary": "正文从已知函数点出发反复使用该递推关系回溯，生成函数图像上的更多点。"
+    },
+    {
+      "title": "若已知道五个未知数的1、3、5、7、9次幂之和，如何极其完美地求其2、4、6、8、10、任意次幂之和?",
+      "url": "https://www.zhihu.com/answer/1932585133069795488",
+      "summary": "正文求得初等对称多项式后，用牛顿和公式递推计算任意高次幂和。"
+    },
+    {
+      "title": "复杂系统的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1945882749807341603",
+      "summary": "正文给出 Hénon 映射的相邻状态递推式，并研究周期轨道和迭代轨道。"
+    },
+    {
+      "title": "数学“男厕尴尬问题”如何求解？",
+      "url": "https://www.zhihu.com/answer/1947365602449692579",
+      "summary": "正文把每次新增占位后的剩余区间再次按中点分割，并据此得到 f(n) 的分治递推关系。"
+    },
+    {
+      "title": "为什么运算级超过三级都是定义从右往左的计算，不是a^^n=10^((lga)^n)？",
+      "url": "https://www.zhihu.com/answer/1952153536176579848",
+      "summary": "正文用左递归和右递归定义各级超运算，并比较两者在第四级运算中的展开，实质讲解递推定义方式。"
+    },
+    {
+      "title": "差分方程有没有可能通过某种变换成为连续方程（如微分方程）？",
+      "url": "https://www.zhihu.com/answer/1959008524643336764",
+      "summary": "正文讨论常系数差分方程及其移位算子表示，分析离散递推序列与连续动力系统的对应关系。"
+    },
+    {
+      "title": "请问有哪些数学定理，一看名字就知道很滑稽好玩？",
+      "url": "https://www.zhihu.com/answer/1961375668383257783",
+      "summary": "正文给出外观数列的读数规则，并由前一项逐项生成本一项，具体展示递推构造。"
+    },
+    {
+      "title": "18、27、36、54、63、45、9、0，这组数列的规律是什么？",
+      "url": "https://www.zhihu.com/answer/1972053466890350649",
+      "summary": "正文用前8项之和生成后续各项，具体说明了一种递推数列的构造规则。"
+    },
+    {
+      "title": "圆和球的公式含 π，为什么到四维超球就变成 π² 了，三维为什么没有 √π？",
+      "url": "https://www.zhihu.com/answer/1974425977363908089",
+      "summary": "正文建立球体体积与球面测度之间的递推关系，并用 n 与 n+2 的递推公式求出通项。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/1974858860595548219",
+      "summary": "正文最终整理出幂和通项关于前若干阶值的递推关系。"
+    },
+    {
+      "title": "听说线性代数可以在高中降维打击数列、圆锥曲线，具体是怎么应用的？",
+      "url": "https://www.zhihu.com/answer/1976037648910026181",
+      "summary": "正文把递推关系写成矩阵迭代，并说明该方法可求解一类线性递推的通项。"
+    },
+    {
+      "title": "为什么规定0!=1，0的阶乘不是应该是0吗，为什么教科书上规定是1，而且不给出任何理由？",
+      "url": "https://www.zhihu.com/answer/1977300998381924720",
+      "summary": "正文利用 n 与 n-1 的阶乘递推关系，并由 1! 反推 0!，具体展示了阶乘定义中的递推。"
+    },
+    {
+      "title": "甲和乙游戏一次的胜率是p，但甲输后可以耍赖宣布三局两胜，如再输就五局三胜，无限下去，甲胜率多少？",
+      "url": "https://www.zhihu.com/answer/1984009378144204443",
+      "summary": "正文利用首次输赢与后续状态转移建立胜率方程，并由递推关系求解。"
+    },
+    {
+      "title": "为什么说“人们只会记住第一名”，理由依据是什么？",
+      "url": "https://www.zhihu.com/answer/1985385882379888237",
+      "summary": "正文按左右两段的括号划分解数建立卡塔兰数的卷积递推关系。"
+    },
+    {
+      "title": "如何看待短视频平台有人声称「微积分是中国发明的」?",
+      "url": "https://www.zhihu.com/answer/1986498026102101484",
+      "summary": "正文以垛积形式对应数列组合，并说明李善兰用系数表和递归规律汇总不同数列的和法。"
+    },
+    {
+      "title": "组合数学中的生成函数想法是怎么来的？",
+      "url": "https://www.zhihu.com/answer/2003061154155623677",
+      "summary": "按首块骨牌是否为竖牌或横牌对铺设方案分类，建立方案总数与前两种较小方案之间的递推关系。"
+    },
+    {
+      "title": "不断抛掷一枚均匀硬币，直到连续出现314次正面时停止，抛掷次数的期望是多少？",
+      "url": "https://www.zhihu.com/answer/2015063075607307413",
+      "summary": "正文由成功和失败两种结果建立 E_n 与 E_{n-1} 的递推式，再求等比数列通项。"
+    },
+    {
+      "title": "如何评价2026年求真书院Pi节挑战赛？",
+      "url": "https://www.zhihu.com/answer/2016477474876319313",
+      "summary": "正文为序列首项建立生成函数，并利用二项式定理求解递推关系得到闭式表达。"
+    },
+    {
+      "title": "圆桌上 100 个人轮流开枪，最可能活下来的是几号？",
+      "url": "https://www.zhihu.com/answer/2019826290434295524",
+      "summary": "正文由全概率公式导出 P_{n,k}(m) 关于 n、k 的递推，并补出最小规模的边界条件。"
+    },
+    {
+      "title": "能否证明24点游戏都有解？",
+      "url": "https://www.zhihu.com/answer/2025608078679122437",
+      "summary": "正文用递归构造左右计算子树的方式枚举四个数的全部运算顺序。"
+    },
+    {
+      "title": "一个不均匀的绳子，烧完要1小时，只用这一根绳子，怎样精确测出15分钟？",
+      "url": "https://www.zhihu.com/answer/2027684020083761880",
+      "summary": "正文提出剪开绳子、同时点燃，并在烧完一节后继续剪分的递归步骤，用同一规则反复处理剩余绳段。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/2031796378951754954",
+      "summary": "正文把斐波那契递推乘以 xⁿ⁺¹ 后求和，转化为生成函数代数方程并解出通项。"
+    },
+    {
+      "title": "数列中的幽灵：为什么某些数列永远无法被公式表达？",
+      "url": "https://www.zhihu.com/answer/2032008622679535783",
+      "summary": "正文以斐波那契递推为例，讨论递推描述与闭式公式、计算复杂度之间的关系。"
+    },
+    {
+      "title": "生成函数凭什么能优雅地解决组合问题？",
+      "url": "https://www.zhihu.com/answer/2037198447909017130",
+      "summary": "正文说明二叉树的递归分解如何翻译成生成函数方程，并由其解得 Catalan 数。"
+    },
+    {
+      "title": "拉马努金是怎么发现那些壮观的公式的？",
+      "url": "https://www.zhihu.com/answer/2041877076106536509",
+      "summary": "正文给出 τ(p 的 k+1 次幂) 由相邻前两项线性表示的递推关系，并讨论其系数规律。"
+    },
+    {
+      "title": "那些看起来简单却十分麻烦的数学题是怎么被制造出来的?",
+      "url": "https://www.zhihu.com/answer/2050780556649092396",
+      "summary": "正文定义偶数除二、奇数乘三加一的迭代规则，并展示从 7 出发反复应用规则形成数列的递推过程。"
+    },
+    {
+      "title": "如何将连续域的控制器进行离散化实现",
+      "url": "https://zhuanlan.zhihu.com/p/20927674",
+      "summary": "正文把 z 域传递函数化为依赖当前输入和历史输入输出的递推差分方程，用于逐步计算控制量。"
+    },
+    {
+      "title": "漫谈Simulink: 隐式和显式的Solver",
+      "url": "https://zhuanlan.zhihu.com/p/23232577",
+      "summary": "正文由前向离散方程导出下一时刻状态依赖当前状态的递推公式。"
+    },
+    {
+      "title": "一道高三的数列题",
+      "url": "https://zhuanlan.zhihu.com/p/24421809",
+      "summary": "正文由相邻项和的关系建立递推式，并通过换元与迭代求得数列通项。"
+    },
+    {
+      "title": "“一道高三的数列题”另解",
+      "url": "https://zhuanlan.zhihu.com/p/24425283",
+      "summary": "正文通过换元把原数列递推式化成 x_{n+1}=x_n+sqrt(1+x_n^2)，再求通项公式。"
+    },
+    {
+      "title": "由根号2的根号2的根号2...次方次方引发的讨论",
+      "url": "https://zhuanlan.zhihu.com/p/25150820",
+      "summary": "正文把无穷幂塔写成由前一项生成后一项的递推数列，并分析该递推的收敛域。"
+    },
+    {
+      "title": "特征根法求数列通项的妙用",
+      "url": "https://zhuanlan.zhihu.com/p/25194740",
+      "summary": "正文建立二阶常系数线性递推式与特征方程的联系，并区分特征根相异、重根两种情况求通项。"
+    },
+    {
+      "title": "赫拉克勒斯、九头蛇、算数公理以及其它",
+      "url": "https://zhuanlan.zhihu.com/p/25335967",
+      "summary": "正文由 Goodstein 过程的递归规则定义数列，并用序数的良序性证明该递推数列最终归零。"
+    },
+    {
+      "title": "Lambda calculus引论(二): 不动点",
+      "url": "https://zhuanlan.zhihu.com/p/25674637",
+      "summary": "正文用最小不动点解释递归定义的良定义性，并借不动点组合子把递归调用编码进 λ 表达式。"
+    },
+    {
+      "title": "10561 怎样在球面上「均匀」排列许多点？（下）",
+      "url": "https://zhuanlan.zhihu.com/p/25998937",
+      "summary": "正文给出连分式渐近分数的分子、分母递推关系，并用相邻项计算后续最佳逼近。"
+    },
+    {
+      "title": "用高中数学的思想去理解“特征根方程”的妙用",
+      "url": "https://zhuanlan.zhihu.com/p/26137780",
+      "summary": "正文围绕三项递推数列，用特征根方程把递推关系转化为较低阶关系并求通项。"
+    },
+    {
+      "title": "斐波那契数列的通项公式",
+      "url": "https://zhuanlan.zhihu.com/p/26679684",
+      "summary": "正文用特征方程法系统推导二阶常系数线性递推式的通项及初始条件确定方法。"
+    },
+    {
+      "title": "【奇妙的杨辉三角与二项式系数】- 图解高中数学",
+      "url": "https://zhuanlan.zhihu.com/p/26725382",
+      "summary": "正文给出杨辉三角的生成递推关系，即每个数是上方相邻两数之和。"
+    },
+    {
+      "title": "不死神兔的繁衍生息——神奇的斐波那契数列",
+      "url": "https://zhuanlan.zhihu.com/p/26752744",
+      "summary": "正文用相邻月份兔子数量建立递推关系，并据此逐项推算一年后的兔子数。"
+    },
+    {
+      "title": "[时间序列分析][4]--AR模型,MA模型,ARMA模型介绍",
+      "url": "https://zhuanlan.zhihu.com/p/26996197",
+      "summary": "正文以带误差项的递推式构造 AR 序列，并展示不同递推系数下序列的平稳性。"
+    },
+    {
+      "title": "预篇：双纽线积分的数值计算及Euler的发现",
+      "url": "https://zhuanlan.zhihu.com/p/28280560",
+      "summary": "正文由分部积分推出积分序列的递推式并据此完成证明。"
+    },
+    {
+      "title": "量子力学中的路径积分",
+      "url": "https://zhuanlan.zhihu.com/p/28532278",
+      "summary": "正文利用二阶递推式计算矩阵行列式并继续求传播子。"
+    },
+    {
+      "title": "用组合方法解函数问题",
+      "url": "https://zhuanlan.zhihu.com/p/28817750",
+      "summary": "正文建立含三种余数状态的递推关系来计算排列方法数。"
+    },
+    {
+      "title": "最近在数学群里传来传去的一道数列题",
+      "url": "https://zhuanlan.zhihu.com/p/29973505",
+      "summary": "正文通过变量代换把原数列化为相邻项递推式，再逐步求出通项。"
+    },
+    {
+      "title": "0-1背包问题的动态规划算法",
+      "url": "https://zhuanlan.zhihu.com/p/30959069",
+      "summary": "正文区分选取和不选取第 i 件物品，由前序子问题的最优值建立状态转移递推式。"
+    },
+    {
+      "title": "整理: 各种汉诺塔公式",
+      "url": "https://zhuanlan.zhihu.com/p/31451645",
+      "summary": "正文整理三柱至五柱汉诺塔所需步数，列出按圆盘数变化的递推及渐近公式，并讨论四柱、五柱和多柱情形。"
+    },
+    {
+      "title": "生成函数及应用",
+      "url": "https://zhuanlan.zhihu.com/p/31457805",
+      "summary": "正文以生成函数处理卡特兰数、默慈金数等递推关系，通过函数方程和幂级数展开求通项。"
+    },
+    {
+      "title": "10809 一种错误的洗牌算法，以及乱排常数 (1)",
+      "url": "https://zhuanlan.zhihu.com/p/31547382",
+      "summary": "正文由前 n-1 个元素的概率矩阵推导第 n 阶概率递推式。"
+    },
+    {
+      "title": "卡特兰数（Catalan number）（一）",
+      "url": "https://zhuanlan.zhihu.com/p/31317307",
+      "summary": "正文利用首次返回水平面的位置，把大问题递归分解为两个同型子问题。"
+    },
+    {
+      "title": "一小时学会快速傅里叶变换（Fast Fourier Transform）",
+      "url": "https://zhuanlan.zhihu.com/p/31584464",
+      "summary": "正文按奇偶拆分后得到递归子问题，并据此推导 FFT 的时间复杂度递推式。"
+    },
+    {
+      "title": "10811 一种错误的洗牌算法，以及乱排常数 (3)",
+      "url": "https://zhuanlan.zhihu.com/p/31624394",
+      "summary": "正文围绕递推关系 I_n 的逐层展开说明截断位置和初始下标如何影响结果。"
+    },
+    {
+      "title": "优化算法之指数移动加权平均",
+      "url": "https://zhuanlan.zhihu.com/p/32335746",
+      "summary": "正文用当前值与前一期估计的递推公式构造指数加权移动平均，并逐步回代展开为历史值的加权和。"
+    },
+    {
+      "title": "出现在《欧布奥特曼》里的一道数列题",
+      "url": "https://zhuanlan.zhihu.com/p/32495258",
+      "summary": "正文围绕离散 Logistic 递推关系，分别求参数为 2、4 和 -2 时的数列通项。"
+    },
+    {
+      "title": "一道高中数学数列题的解答",
+      "url": "https://zhuanlan.zhihu.com/p/31619318",
+      "summary": "正文围绕二元递推关系作代换，化成单变量递推并求出两个数列的通项。"
+    },
+    {
+      "title": "求极限的6大方法，良心文章",
+      "url": "https://zhuanlan.zhihu.com/p/32871279",
+      "summary": "正文由根式数列前后项关系写出递推公式，再对递推式取极限求固定点。"
+    },
+    {
+      "title": "分式线性递推数列的几种解法",
+      "url": "https://zhuanlan.zhihu.com/p/32967793",
+      "summary": "正文围绕分式线性递推式，分别用不动点、常系数递推和差分方程方法求通项。"
+    },
+    {
+      "title": "解析组合中的符号化方法简介",
+      "url": "https://zhuanlan.zhihu.com/p/31595840",
+      "summary": "正文从二叉树的递归分解写出计数递推式，并由组合类方程得到生成函数方程。"
+    },
+    {
+      "title": "对角化和 矩阵A 的幂[MIT线代第二十二课]",
+      "url": "https://zhuanlan.zhihu.com/p/33295067",
+      "summary": "正文把矩阵幂与差分方程的递推关系联系起来，用对角化求解对应递推过程。"
+    },
+    {
+      "title": "探索围棋官子最优解（三）：组合博弈论",
+      "url": "https://zhuanlan.zhihu.com/p/33839472",
+      "summary": "正文给出n格走廊热度图的递推过程，并递归计算局部均值后相加判断局面。"
+    },
+    {
+      "title": "二阶常系数齐次线性递推数列",
+      "url": "https://zhuanlan.zhihu.com/p/33854447",
+      "summary": "正文定义二阶常系数齐次线性递推式，并通过特征方程分别给出相异根和重根情形下的通解及证明。"
+    },
+    {
+      "title": "常见数列通项公式求法总结",
+      "url": "https://zhuanlan.zhihu.com/p/33862957",
+      "summary": "正文系统推导一阶、二阶常系数线性递推数列及分式递推数列的通项，核心是递推关系的变换与求解。"
+    },
+    {
+      "title": "高考数学：化简运算会影响你的解题思路",
+      "url": "https://zhuanlan.zhihu.com/p/34401874",
+      "summary": "正文利用数列前 n 项和与通项的递推关系整理条件，消去非零公因式后判定数列为等差数列。"
+    },
+    {
+      "title": "Wallis乘积中的π从何而来？（上）",
+      "url": "https://zhuanlan.zhihu.com/p/34313702",
+      "summary": "正文给出序列 a_n 的相邻项递推关系，并根据该关系计算序列和及其渐近性质。"
+    },
+    {
+      "title": "八大类型行列式及其解法",
+      "url": "https://zhuanlan.zhihu.com/p/34685081",
+      "summary": "正文按行列式阶数建立递推公式，并用特征方程求递推数列通项。"
+    },
+    {
+      "title": "时间序列的自回归模型—从线性代数的角度来看",
+      "url": "https://zhuanlan.zhihu.com/p/35093835",
+      "summary": "正文以 Fibonacci 序列的递归公式和逐项取值具体讲解递推关系。"
+    },
+    {
+      "title": "动态规划 无痛理解",
+      "url": "https://zhuanlan.zhihu.com/p/35751179",
+      "summary": "正文用前一状态加当前动作建立状态转移式，并据此逐级递推求解。"
+    },
+    {
+      "title": "最大根方法——一段往事",
+      "url": "https://zhuanlan.zhihu.com/p/37061170",
+      "summary": "正文说明有理函数生成函数的系数由某处起满足常系数线性递推，并利用该结构证明封闭性。"
+    },
+    {
+      "title": "自动控制总结：第六章、线性离散系统",
+      "url": "https://zhuanlan.zhihu.com/p/37447204",
+      "summary": "正文讨论常系数线性差分方程借助 Z 变换解析求解或通过迭代计算的递推建模方法。"
+    },
+    {
+      "title": "FWT(快速沃尔什变换)零基础详解qaq（ACM/OI）",
+      "url": "https://zhuanlan.zhihu.com/p/41867199",
+      "summary": "正文按二进制最高位拆分区间，导出正变换与逆变换的递归递推关系。"
+    },
+    {
+      "title": "数论之矩阵快速幂",
+      "url": "https://zhuanlan.zhihu.com/p/42639682",
+      "summary": "正文围绕构造关系矩阵求复杂递推式的指定项，完整展示从递推关系转移到矩阵幂的解法。"
+    },
+    {
+      "title": "动态时间规整（DTW）算法简介",
+      "url": "https://zhuanlan.zhihu.com/p/43247215",
+      "summary": "正文明确给出 DTW 最短路径长度的递推式及其理由。"
+    },
+    {
+      "title": "时间序列分析之指数平滑法（holt-winters及代码）",
+      "url": "https://zhuanlan.zhihu.com/p/43353740",
+      "summary": "正文给出一次指数平滑的递推关系，并展开连续代入后关于历史观测的加权求和。"
+    },
+    {
+      "title": "你真的了解抽象函数吗？（上）",
+      "url": "https://zhuanlan.zhihu.com/p/45088145",
+      "summary": "正文把抽象函数求值归纳为寻找初始值和递推式，并由递推关系逐步计算目标值。"
+    },
+    {
+      "title": "MIT—线性代数笔记22 对角化和矩阵的幂",
+      "url": "https://zhuanlan.zhihu.com/p/45916486",
+      "summary": "正文把一阶差分方程写成 u_{k+1}=Au_k，再用矩阵幂和特征向量分析递推序列。"
+    },
+    {
+      "title": "经典优化算法之分治法（Divide-and-Conquer Algorithm）",
+      "url": "https://zhuanlan.zhihu.com/p/45986027",
+      "summary": "正文用递归方程描述分治算法反复求解较小规模子问题，并分析对应运行时间的递推关系。"
+    },
+    {
+      "title": "自然数幂方求和公式",
+      "url": "https://zhuanlan.zhihu.com/p/47211989",
+      "summary": "正文介绍李善兰通解公式利用低次幂和递推得到新的高次幂和。"
+    },
+    {
+      "title": "简单粗暴：B-样条曲线入门",
+      "url": "https://zhuanlan.zhihu.com/p/50626506",
+      "summary": "正文详细说明 B 样条基函数从高阶递归到 0 阶的递推公式和终止条件。"
+    },
+    {
+      "title": "【洛谷日报#78】浅谈算法——博弈论（从零开始的博弈论）",
+      "url": "https://zhuanlan.zhihu.com/p/50787280",
+      "summary": "正文从终止状态递推构造Wythoff奇异局势，并用SG函数递推计算各游戏状态的胜负。"
+    },
+    {
+      "title": "高考数学二级结论大总结",
+      "url": "https://zhuanlan.zhihu.com/p/51473580",
+      "summary": "正文设专节讲解叠加、叠乘、待定系数、不动点和倒数法等递推数列求通项方法。"
+    },
+    {
+      "title": "中美合拍的西游记到底何时开机？——谈概率论中的几何分布",
+      "url": "https://zhuanlan.zhihu.com/p/52672363",
+      "summary": "正文利用首日是否成功构造关于等待时间期望的递推关系并解出结果。"
+    },
+    {
+      "title": "浅谈生成函数之OGF",
+      "url": "https://zhuanlan.zhihu.com/p/52817010",
+      "summary": "正文说明并演示如何把递推关系转化为生成函数方程，求出序列通项。"
+    },
+    {
+      "title": "高考数学二级结论——数列部分",
+      "url": "https://zhuanlan.zhihu.com/p/51663704",
+      "summary": "正文系统列举递推数列的叠加、叠乘、待定系数和不动点等通项求解方法。"
+    },
+    {
+      "title": "递推最小二乘推导(RLS)",
+      "url": "https://zhuanlan.zhihu.com/p/53883828",
+      "summary": "正文从新增一组观测出发，以递推式持续修正在线最小二乘参数估计，并推导免求逆更新。"
+    },
+    {
+      "title": "面试官问你斐波那契数列的时候不要高兴得太早",
+      "url": "https://zhuanlan.zhihu.com/p/54378423",
+      "summary": "正文以当前项由前两项生成以及逐项计算的规则展开递推过程，并比较递归与迭代。"
+    },
+    {
+      "title": "关于时间序列预测的一些总结",
+      "url": "https://zhuanlan.zhihu.com/p/54413813",
+      "summary": "正文定义 AR、MA、ARMA 模型如何依赖前 p 期序列值或前 q 期扰动，并讨论定阶与预测流程。"
+    },
+    {
+      "title": "干货 | 关于数列大题，你想知道的一切，吧",
+      "url": "https://zhuanlan.zhihu.com/p/55194796",
+      "summary": "正文系统讲解由递推公式求数列通项的累加、累乘与构造方法，核心是递推关系。"
+    },
+    {
+      "title": "一个与圆周率π有关的碰撞计数谜题",
+      "url": "https://zhuanlan.zhihu.com/p/55768956",
+      "summary": "正文由动量与能量守恒建立速度递推关系，再求出两项速度数列的通项。"
+    },
+    {
+      "title": "【数学】数列极限（宇哥笔记）",
+      "url": "https://zhuanlan.zhihu.com/p/56423142",
+      "summary": "正文通过取对数把根式递推关系化为线性递推，再求和求极限。"
+    },
+    {
+      "title": "用母函数推卡特兰数通项公式",
+      "url": "https://zhuanlan.zhihu.com/p/56821103",
+      "summary": "正文从卡特兰数卷积递推式出发，构造母函数方程并推导其通项公式。"
+    },
+    {
+      "title": "我有特殊的求逆元姿势",
+      "url": "https://zhuanlan.zhihu.com/p/57877982",
+      "summary": "正文给出由较小余数逆元推出当前数逆元的递推公式，并说明按余数递增顺序计算。"
+    },
+    {
+      "title": "2019年RMM第三题答案详解",
+      "url": "https://zhuanlan.zhihu.com/p/58417075",
+      "summary": "正文定义余量函数 F(N,g)，分别导出 F(N,εN) 与更小规模函数之间的递推不等式，并据此归纳增长阶。"
+    },
+    {
+      "title": "新版min25筛（O(n^(2/3))）详解",
+      "url": "https://zhuanlan.zhihu.com/p/60378354",
+      "summary": "正文推导不同最小素因子阈值下前缀和 F_k(m) 的递推转移并逐层计算。"
+    },
+    {
+      "title": "关于爱的数学~",
+      "url": "https://zhuanlan.zhihu.com/p/61581623",
+      "summary": "正文用向下取整和倒数迭代生成连分数系数，发现系数的循环递推后构造完整展开。"
+    },
+    {
+      "title": "算法｜小学生都能看懂的生成函数入门教程",
+      "url": "https://zhuanlan.zhihu.com/p/63003976",
+      "summary": "正文由斐波那契递推关系构造生成函数，再裂项求出通项公式。"
+    },
+    {
+      "title": "提供一种求解二阶线性变系数差分方程的方法",
+      "url": "https://zhuanlan.zhihu.com/p/63994951",
+      "summary": "正文研究二阶线性变系数差分方程，给出由初值逐项推进的通项求解方法，核心是递推关系。"
+    },
+    {
+      "title": "75道面试逻辑智力测试题内附详细答案",
+      "url": "https://zhuanlan.zhihu.com/p/64728275",
+      "summary": "正文把连续五只猴子分桃的过程写成按次数变化的递推关系，并归纳出5^n-4的解。"
+    },
+    {
+      "title": "从计应数的一次作业到cts命题的故事",
+      "url": "https://zhuanlan.zhihu.com/p/65524110",
+      "summary": "正文给出由前 i 个人状态推出下一状态的转移式，并继续利用递推式降复杂度。"
+    },
+    {
+      "title": "找规律填数字的游戏究竟有多无聊",
+      "url": "https://zhuanlan.zhihu.com/p/65771503",
+      "summary": "正文用指数塔定义相邻两项的递推关系，说明同一观察序列可以有不同规律。"
+    },
+    {
+      "title": "组合数学学习笔记（二）",
+      "url": "https://zhuanlan.zhihu.com/p/67059187",
+      "summary": "正文介绍常系数线性齐次与非齐次递推方程的特征根法和特解构造方法。"
+    },
+    {
+      "title": "组合数学学习笔记（三）",
+      "url": "https://zhuanlan.zhihu.com/p/67771282",
+      "summary": "正文系统演示如何将递推关系代入生成函数、解出闭式并展开得到数列通项，包括 Catalan 数递推。"
+    },
+    {
+      "title": "一道机器学习岗位面试题：平均要抛多少次硬币，才能出现连续两次正面向上？",
+      "url": "https://zhuanlan.zhihu.com/p/68358814",
+      "summary": "正文从 E(N_k) 与 E(N_{k-1}) 的递推关系出发，解出连续 k 次成功所需次数的通项。"
+    },
+    {
+      "title": "《数学分析教程》史济怀常庚哲课后习题答案-1.2数列和收敛数列",
+      "url": "https://zhuanlan.zhihu.com/p/70614274",
+      "summary": "正文定义由前三项反复取平均得到的递推数列，并证明三个数列收敛到同一极限。"
+    },
+    {
+      "title": "优化|什么是动态规划（Dynamic Programming）?",
+      "url": "https://zhuanlan.zhihu.com/p/72600111",
+      "summary": "正文以 Bellman 方程的不动点和递推关系说明动态规划求解结构。"
+    },
+    {
+      "title": "点、圆、球和n维球体积之间有怎样的爱恨情仇？让我们一起扒开他们之间鲜为人知，惊为天人的秘密关系！",
+      "url": "https://zhuanlan.zhihu.com/p/73255407",
+      "summary": "正文利用余弦积分建立 n 加一维球体积由 n 维球体积递推的公式。"
+    },
+    {
+      "title": "行列式的计算方法专题小结",
+      "url": "https://zhuanlan.zhihu.com/p/73811610",
+      "summary": "正文在 Hessenberg 型行列式中建立相邻阶行列式的递推关系并逐阶求解。"
+    },
+    {
+      "title": "2019高考理科数学（全国I卷）概率大题思路与解析",
+      "url": "https://zhuanlan.zhihu.com/p/74327966",
+      "summary": "正文由相邻状态建立概率递推式，并通过差分构造等比数列求p_4。"
+    },
+    {
+      "title": "从零推导斐波那契数列的通项公式",
+      "url": "https://zhuanlan.zhihu.com/p/74484535",
+      "summary": "正文核心是把二阶递推通过待定系数化为一阶递推，再继续求解通项。"
+    },
+    {
+      "title": "2019IMO第一题",
+      "url": "https://zhuanlan.zhihu.com/p/75547166",
+      "summary": "正文由函数方程得到相邻两项差为常数的递推关系，从而推出等差数列形式。"
+    },
+    {
+      "title": "快速傅里叶变换（FFT）求解多项式乘法",
+      "url": "https://zhuanlan.zhihu.com/p/76622485",
+      "summary": "正文把多项式奇偶项拆分并递归求值，由此得到 T(n)=2T(n/2)+O(n) 的递推。"
+    },
+    {
+      "title": "有趣的概率问题——赌徒一定会输光吗？",
+      "url": "https://zhuanlan.zhihu.com/p/77593762",
+      "summary": "正文按每局筹码加一或减一建立输光概率的递推式，并利用边界条件和通项求解。"
+    },
+    {
+      "title": "用计算器按出来的常数--费根鲍姆常数",
+      "url": "https://zhuanlan.zhihu.com/p/77825884",
+      "summary": "正文反复迭代 logistic 映射，并把上一轮结果作为下一轮输入来分析最终状态。"
+    },
+    {
+      "title": "令人头疼的背包九讲（1）0/1背包问题",
+      "url": "https://zhuanlan.zhihu.com/p/78060568",
+      "summary": "正文给出当前容量由“不选”和“选择当前物品”两种前态转移而来的递推式。"
+    },
+    {
+      "title": "斐波那契堆（一）：起源",
+      "url": "https://zhuanlan.zhihu.com/p/75014494",
+      "summary": "正文把下一项定义为前两项之和，并围绕这一递推关系说明堆结构设计。"
+    },
+    {
+      "title": "用Python数值求解偏微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/81488678",
+      "summary": "正文把微分方程离散为相邻网格点之间的递推关系，并按递推式逐层计算数值解。"
+    },
+    {
+      "title": "【试题分析】2019年全国高中数学联赛A卷试题及分析",
+      "url": "https://zhuanlan.zhihu.com/p/81693553",
+      "summary": "正文把相邻隔项差设为递推变量，按首个差值的三种情形建立递推式并求出合法数列数量。"
+    },
+    {
+      "title": "[科普向]介系你没见过的船新函数迭代法——相似法与桥函数",
+      "url": "https://zhuanlan.zhihu.com/p/84979536",
+      "summary": "正文把函数迭代对应为一阶递推式，并借递推通项解释迭代结果。"
+    },
+    {
+      "title": "RNN/LSTM BPTT详细推导以及梯度消失问题分析",
+      "url": "https://zhuanlan.zhihu.com/p/85776566",
+      "summary": "正文把隐藏状态按时间展开为递推关系，再对递推链逐项求导。"
+    },
+    {
+      "title": "从微分方程的级数解到两个特殊方程（1）：关于平凡点的解",
+      "url": "https://zhuanlan.zhihu.com/p/87530520",
+      "summary": "正文从代入级数得到系数递推关系，并分别处理二项递推和三项递推以构造两个解。"
+    },
+    {
+      "title": "从微分方程的级数解到两个特殊方程（2）：关于奇点的解",
+      "url": "https://zhuanlan.zhihu.com/p/87592246",
+      "summary": "正文通过指标方程和系数递推公式逐项确定弗罗贝尼乌斯级数解。"
+    },
+    {
+      "title": "从微分方程的级数解到两个特殊方程（3）：贝塞尔方程（一）",
+      "url": "https://zhuanlan.zhihu.com/p/87624884",
+      "summary": "正文由级数代入得到系数递推式，并利用递推消去奇次项、构造贝塞尔函数级数。"
+    },
+    {
+      "title": "从微分方程的级数解到两个特殊方程（5）：勒让德方程",
+      "url": "https://zhuanlan.zhihu.com/p/88140502",
+      "summary": "正文给出相邻阶勒让德多项式之间的三项递推关系。"
+    },
+    {
+      "title": "你知道快速排序的方差么？",
+      "url": "https://zhuanlan.zhihu.com/p/87785418",
+      "summary": "正文把快速排序的期望耗时按随机枢轴划分写成规模较小的同类子问题，并用递推关系求出闭式解。"
+    },
+    {
+      "title": "初学讲义之高中数学二十一：排列组合和二项式定理",
+      "url": "https://zhuanlan.zhihu.com/p/89717188",
+      "summary": "正文用前一项的排队数构造后一项的排队数，建立阶乘计算所依据的递推关系。"
+    },
+    {
+      "title": "告别动态规划，连刷 40 道题，我总结了这些套路，看不懂你打我（万字长文）",
+      "url": "https://zhuanlan.zhihu.com/p/91582909",
+      "summary": "正文把动态规划的状态转移写成由前若干状态推出当前状态的递推关系，并用于多个例题。"
+    },
+    {
+      "title": "斐波那契数列第一千万项怎么求",
+      "url": "https://zhuanlan.zhihu.com/p/98064307",
+      "summary": "正文以斐波那契递推为起点，比较不同递推实现与矩阵快速幂优化。"
+    },
+    {
+      "title": "「算法入门笔记」卡特兰数",
+      "url": "https://zhuanlan.zhihu.com/p/97619085",
+      "summary": "正文给出卡特兰数由前一项计算后一项的二阶差分形式递推式，并用它编写逐项计算程序。"
+    },
+    {
+      "title": "主定理 Master Theorem",
+      "url": "https://zhuanlan.zhihu.com/p/100531135",
+      "summary": "正文以递归式 T(n)=aT(n/b)+O(n^d) 为对象，用递归树和等比数列求和推导三类主定理情形。"
+    },
+    {
+      "title": "算法学习笔记(9)：逆元",
+      "url": "https://zhuanlan.zhihu.com/p/100587745",
+      "summary": "正文推导模逆元关于更小余数的线性递推式，并用记忆化搜索或递推批量计算逆元。"
+    },
+    {
+      "title": "游戏数值——关于各种强化公式",
+      "url": "https://zhuanlan.zhihu.com/p/100668781",
+      "summary": "正文按失败后保留等级、降一级或降到指定级建立强化次数的递推关系，并列表迭代计算。"
+    },
+    {
+      "title": "民科吧见闻录6( Part-B续)——“王为民方程”的正确求解方式",
+      "url": "https://zhuanlan.zhihu.com/p/103816310",
+      "summary": "正文构造递推数列 A_n(x) 并比较相邻递推项，用来分析无限迭代幂次函数的单调性和值域。"
+    },
+    {
+      "title": "在家宅着也能抵抗肺炎！玩一玩SEIR传染病模型",
+      "url": "https://zhuanlan.zhihu.com/p/104268573",
+      "summary": "正文把微分方程离散为逐日状态递推，并据此编写迭代仿真程序。"
+    },
+    {
+      "title": "【排列组合】错位全排列的简化计算公式",
+      "url": "https://zhuanlan.zhihu.com/p/35318996",
+      "summary": "正文给出错位排列的递推关系 D_n=(n-1)(D_{n-1}+D_{n-2})，并结合初值求通项。"
+    },
+    {
+      "title": "【数列】浅谈“不动点”求数列通项的方法",
+      "url": "https://zhuanlan.zhihu.com/p/104544760",
+      "summary": "正文系统讲解一阶和分式递推数列，通过不动点变换求通项并讨论周期情形。"
+    },
+    {
+      "title": "【数列】特征方程与特征根",
+      "url": "https://zhuanlan.zhihu.com/p/104596563",
+      "summary": "正文系统讲解一阶和二阶线性递推数列的通项求法及特征根法。"
+    },
+    {
+      "title": "【数列】数列中的复读机——周期数列",
+      "url": "https://zhuanlan.zhihu.com/p/104623045",
+      "summary": "正文由递推式迭代得到 x_{n+1}=x_{n-3}，据此推出周期为 4，并进一步求通项。"
+    },
+    {
+      "title": "算法学习笔记(16): 生成函数",
+      "url": "https://zhuanlan.zhihu.com/p/106522599",
+      "summary": "正文从整数划分的生成函数和五边形数定理推出分拆数的递推式，并据此说明可以递推计算。"
+    },
+    {
+      "title": "四圆相切与笛卡尔定理（下篇）",
+      "url": "https://zhuanlan.zhihu.com/p/106874090",
+      "summary": "正文给出相邻曲率满足的四阶递推关系，并由连续四项生成整个双向数表。"
+    },
+    {
+      "title": "数列、矩阵与微分方程的特征值",
+      "url": "https://zhuanlan.zhihu.com/p/109529158",
+      "summary": "正文具体讲解二阶线性递推数列的特征根解法，并证明不同根情形下的通项公式。"
+    },
+    {
+      "title": "一节课学会求数列通项的特征根法",
+      "url": "https://zhuanlan.zhihu.com/p/110125327",
+      "summary": "正文以数列递推关系为例，介绍待定系数和特征根法求通项的思路。"
+    },
+    {
+      "title": "一个有意思的数列",
+      "url": "https://zhuanlan.zhihu.com/p/104632453",
+      "summary": "正文围绕递推关系定义的数列估计其增长阶，并推导通项增长的上界和下界。"
+    },
+    {
+      "title": "主定理(Master Theorem)",
+      "url": "https://zhuanlan.zhihu.com/p/113406812",
+      "summary": "正文系统说明递归式的主定理分类，并用二分查找、归并排序等例子求解递推复杂度。"
+    },
+    {
+      "title": "级数展开式杂例",
+      "url": "https://zhuanlan.zhihu.com/p/117609975",
+      "summary": "正文由有理分式的幂级数系数比较建立斐波那契型线性递推，并求出通项系数。"
+    },
+    {
+      "title": "算法学习笔记(27): 最长上升子序列",
+      "url": "https://zhuanlan.zhihu.com/p/121032448",
+      "summary": "正文明确以 dp_i 表示以 a_i 结尾的最长上升子序列长度，并给出由较小下标状态递推的转移方程。"
+    },
+    {
+      "title": "第9章  动态规划",
+      "url": "https://zhuanlan.zhihu.com/p/126361983",
+      "summary": "正文用状态转移方程和递推关系说明如何由较小规模子问题的解逐步得到原问题的最优解。"
+    },
+    {
+      "title": "网红题（9）：简单导数题与不等式选讲",
+      "url": "https://zhuanlan.zhihu.com/p/133634641",
+      "summary": "正文第一题由交错数列关系构造递推，并求出奇偶项通项后计算相关和。"
+    },
+    {
+      "title": "曲线篇: 贝塞尔曲线",
+      "url": "https://zhuanlan.zhihu.com/p/136647181",
+      "summary": "正文反复用相邻控制点逐次降阶并递归到一阶来构造贝塞尔曲线，实质讲解了递推过程。"
+    },
+    {
+      "title": "单调有界准则考点的万能解法之一——数学归纳法",
+      "url": "https://zhuanlan.zhihu.com/p/134074488",
+      "summary": "正文由递推关系构造奇偶子列的递推式，并利用相邻项关系证明其单调性。"
+    },
+    {
+      "title": "递推数列——不动点法",
+      "url": "https://zhuanlan.zhihu.com/p/116434438",
+      "summary": "正文把一阶递推数列看成函数迭代，系统讲解用不动点换元求通项的方法和局限。"
+    },
+    {
+      "title": "【组合计数】错排问题",
+      "url": "https://zhuanlan.zhihu.com/p/137941999",
+      "summary": "正文按第一、第二封信的位置分情况，建立并求解错排数的二阶递推关系。"
+    },
+    {
+      "title": "【乱写】浅谈生成函数",
+      "url": "https://zhuanlan.zhihu.com/p/137977256",
+      "summary": "正文把一阶递推关系转化为生成函数方程，并由此求出数列通项。"
+    },
+    {
+      "title": "用命分析概率型生成函数(PGF)——谈一类具有特殊性质的生成函数在算法竞赛中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/138290902",
+      "summary": "正文为骰子停止问题建立状态转移和差分递推，并据此求期望。"
+    },
+    {
+      "title": "自回归模型",
+      "url": "https://zhuanlan.zhihu.com/p/131335721",
+      "summary": "正文说明差分方程可由前 p 个历史值和初值逐步递推，并用该递推关系求后续项。"
+    },
+    {
+      "title": "【数列】从错位相减到阿贝尔变换",
+      "url": "https://zhuanlan.zhihu.com/p/139491490",
+      "summary": "正文以错位相减建立有限和之间的关系，并求出等差乘等比及幂乘等比等数列的和。"
+    },
+    {
+      "title": "从5050到-1/12——伯努利数、欧拉-麦克劳林公式与拉马努金求和",
+      "url": "https://zhuanlan.zhihu.com/p/138401110",
+      "summary": "正文由二项式展开得到自然数幂和的递推，并进一步给出伯努利数递推生成方法。"
+    },
+    {
+      "title": "一个有意思的概率问题，“集卡问题”",
+      "url": "https://zhuanlan.zhihu.com/p/140537355",
+      "summary": "正文按尚缺卡片数建立期望的递推关系，并由相邻项之差逐步求出集卡问题。"
+    },
+    {
+      "title": "几种混沌映射",
+      "url": "https://zhuanlan.zhihu.com/p/140821925",
+      "summary": "正文用下一项由当前项函数决定的迭代关系定义Logistic及其他离散动力系统序列。"
+    },
+    {
+      "title": "高中学霸透露：用“构造法”求数列通项公式，太赞了",
+      "url": "https://zhuanlan.zhihu.com/p/143268769",
+      "summary": "正文以多个案例说明如何由数列递推关系构造等差或等比结构并求出通项公式。"
+    },
+    {
+      "title": "组合数学中的母函数/生成函数",
+      "url": "https://zhuanlan.zhihu.com/p/143150748",
+      "summary": "正文以母函数处理线性常系数递推关系，并通过信号串和错排案例由递推关系求一般项。"
+    },
+    {
+      "title": "深入理解B样条曲线（上）",
+      "url": "https://zhuanlan.zhihu.com/p/144042470",
+      "summary": "正文以零阶基函数为初值，按 Cox-deBoor 公式逐阶递推并展开二次样条基函数，实质讲解递推计算。"
+    },
+    {
+      "title": "经典动态规划：最大子数组问题",
+      "url": "https://zhuanlan.zhihu.com/p/144385162",
+      "summary": "正文用前一状态与当前元素的递推关系建立最大值转移方程，并逐项计算答案。"
+    },
+    {
+      "title": "计算机图形学十：贝塞尔曲线与贝塞尔曲面",
+      "url": "https://zhuanlan.zhihu.com/p/144399638",
+      "summary": "正文通过逐层线性插值和递归降阶构造任意阶贝塞尔曲线。"
+    },
+    {
+      "title": "255快除算法的证明和推广（一）",
+      "url": "https://zhuanlan.zhihu.com/p/144675552",
+      "summary": "正文反复代入 f(x,a) 和 f(x,f(x,a)) 形成迭代递推，并分析每次迭代成立的整数区间。"
+    },
+    {
+      "title": "Karatsuba大数乘法算法",
+      "url": "https://zhuanlan.zhihu.com/p/144813558",
+      "summary": "正文将大整数乘法递归拆分，并由 T(n)=3T(n/2)+6n 推导 Karatsuba 算法的递推复杂度。"
+    },
+    {
+      "title": "你可能不知道隐藏在杨辉三角形中的 10 个秘密！",
+      "url": "https://zhuanlan.zhihu.com/p/146418524",
+      "summary": "正文以相邻两项求和定义杨辉三角逐行生成，说明其递推构造规则。"
+    },
+    {
+      "title": "时间序列分析|AR(p),MA(q), ARIMA入门及R中实践",
+      "url": "https://zhuanlan.zhihu.com/p/147137164",
+      "summary": "正文把 AR(p) 解释为当前期由前一期按递推关系决定，并进一步讨论 ARMA 与 ARIMA 的序列推进。"
+    },
+    {
+      "title": "概率论：赌徒输光问题",
+      "url": "https://zhuanlan.zhihu.com/p/147290958",
+      "summary": "正文把吸收概率写成相邻状态值的差分递推方程，并用边界条件求出通项。"
+    },
+    {
+      "title": "n重积分——n维球体的体积",
+      "url": "https://zhuanlan.zhihu.com/p/147794191",
+      "summary": "正文通过截面体积建立 C_n 与 C_{n-1} 的递推关系，并连续递推得到通项公式。"
+    },
+    {
+      "title": "高端著名/常用积分、积分公式汇总",
+      "url": "https://zhuanlan.zhihu.com/p/148450731",
+      "summary": "正文列出正弦、余弦、正切、余切、正割和余割幂积分的递推关系。"
+    },
+    {
+      "title": "牛顿恒等式Newton's Identities",
+      "url": "https://zhuanlan.zhihu.com/p/146243974",
+      "summary": "正文由牛顿恒等式导出幂和的二阶递推关系，并用递推计算高次幂和。"
+    },
+    {
+      "title": "面试中的常见概率题",
+      "url": "https://zhuanlan.zhihu.com/p/149093983",
+      "summary": "正文多次按当前状态建立递推关系，从终态反推初始态的期望值。"
+    },
+    {
+      "title": "时间序列分析笔记",
+      "url": "https://zhuanlan.zhihu.com/p/149897903",
+      "summary": "正文以差分方程、延迟算子和自回归递推刻画时间序列的动态关系。"
+    },
+    {
+      "title": "算法萌新如何学好动态规划（1）",
+      "url": "https://zhuanlan.zhihu.com/p/150516970",
+      "summary": "正文由前一状态递推当前最大连续区间和，并用该递推关系说明动态规划的转移过程。"
+    },
+    {
+      "title": "使用fx-991CN X的CALC功能进行连续计算",
+      "url": "https://zhuanlan.zhihu.com/p/150881514",
+      "summary": "正文以相邻项递推的数列为例，设计循环计算并求前 50 项和，故对应递推。"
+    },
+    {
+      "title": "关于二阶线性递推数列的一些新玩意",
+      "url": "https://zhuanlan.zhihu.com/p/154539444",
+      "summary": "正文全篇研究二阶线性递推数列，推导其指数型、多项式型通项及不同数列间的关系。"
+    },
+    {
+      "title": "极限求解--递推型数列",
+      "url": "https://zhuanlan.zhihu.com/p/163143339",
+      "summary": "正文以相邻项递推关系为核心，讨论如何证明对应数列收敛并计算其极限。"
+    },
+    {
+      "title": "伯努利数与欧拉数",
+      "url": "https://zhuanlan.zhihu.com/p/166136767",
+      "summary": "正文从生成函数系数恒等式推出伯努利数与欧拉数的一般递推公式。"
+    },
+    {
+      "title": "差分方程",
+      "url": "https://zhuanlan.zhihu.com/p/166371384",
+      "summary": "正文以相邻或相隔时期取值的递推关系定义差分方程，并推导一阶、二阶常系数方程的通解。"
+    },
+    {
+      "title": "浅谈Catalan数（一）",
+      "url": "https://zhuanlan.zhihu.com/p/60964047",
+      "summary": "正文由乘法的括号划分建立 Catalan 数卷积型递推关系，并据此继续研究通项。"
+    },
+    {
+      "title": "求极限方法总结",
+      "url": "https://zhuanlan.zhihu.com/p/176512439",
+      "summary": "正文专门讨论由递推关系定义的数列，说明如何求极限并证明极限的初步结果。"
+    },
+    {
+      "title": "一个有趣的数列求和——自然数平方和",
+      "url": "https://zhuanlan.zhihu.com/p/190236854",
+      "summary": "正文构造相邻整数幂差并逐项累加，以递推求和得到自然数及平方和的闭式公式。"
+    },
+    {
+      "title": "75道逻辑思维趣题，含答案（转自文库）",
+      "url": "https://zhuanlan.zhihu.com/p/193075856",
+      "summary": "正文把连续五次分桃过程写成递推关系并求解最小正整数，具体展示递推建模。"
+    },
+    {
+      "title": "珠算真的能开方吗？（中国古代开方术集锦）",
+      "url": "https://zhuanlan.zhihu.com/p/205700682",
+      "summary": "正文给出增乘开方术逐位估值、更新变量和余数的迭代程序及算例。"
+    },
+    {
+      "title": "详尽的快速傅里叶变换推导与Unity中的实现",
+      "url": "https://zhuanlan.zhihu.com/p/208511211",
+      "summary": "正文把 N 点 DFT 递归拆成两个 N/2 点 DFT，并用蝶形运算逐层合并得到 FFT 递推结构。"
+    },
+    {
+      "title": "递归求斐波那契数列的时间复杂度，不要被网上的答案误导了",
+      "url": "https://zhuanlan.zhihu.com/p/256344121",
+      "summary": "正文建立递归调用时间的递推式，并通过递归树的结点计数推导其紧界。"
+    },
+    {
+      "title": "递归求解斐波那契数列的时间复杂度——几种简洁证明",
+      "url": "https://zhuanlan.zhihu.com/p/257214075",
+      "summary": "正文以斐波那契递推式建立调用时间关系，并通过对递推式变形证明递归算法的渐近复杂度。"
+    },
+    {
+      "title": "算法学习笔记(52): 杜教筛",
+      "url": "https://zhuanlan.zhihu.com/p/258336043",
+      "summary": "正文由狄利克雷卷积推出杜教筛关键等式，并用整除分块递归计算前缀和。"
+    },
+    {
+      "title": "贝塞尔函数、勒让德函数及其性质",
+      "url": "https://zhuanlan.zhihu.com/p/258444208",
+      "summary": "正文系统列出贝塞尔函数与勒让德函数的前后阶递推及导数递推关系。"
+    },
+    {
+      "title": "把高中数列进阶知识点网罗殆尽",
+      "url": "https://zhuanlan.zhihu.com/p/254897042",
+      "summary": "正文系统讲解一阶、二阶递推式的构造与特征根方法，并推导相应通项形式。"
+    },
+    {
+      "title": "【普及向】数列中的“求导运算”——差分",
+      "url": "https://zhuanlan.zhihu.com/p/259254778",
+      "summary": "正文用一阶及高阶差分转化数列关系，反推通项并求和。"
+    },
+    {
+      "title": "无限套娃-复合函数的泰勒展开式!",
+      "url": "https://zhuanlan.zhihu.com/p/265406322",
+      "summary": "正文对本节紧邻的函数迭代定义和逐阶系数进行递推展开，求出迭代 tan 与 sin 的一般系数。"
+    },
+    {
+      "title": "数学思维之旅-从等差数列到黎曼函数",
+      "url": "https://zhuanlan.zhihu.com/p/266330005",
+      "summary": "正文反复利用相邻部分和之差还原通项，并据此递推比较系数生成幂和公式。"
+    },
+    {
+      "title": "正整数的分拆(入门介绍)",
+      "url": "https://zhuanlan.zhihu.com/p/266867161",
+      "summary": "正文从分拆函数的生成函数推出 p(n) 的系数递推关系，并用它计算分拆数。"
+    },
+    {
+      "title": "递归式求解——代入法、递归树与主定理",
+      "url": "https://zhuanlan.zhihu.com/p/267890781",
+      "summary": "正文以归并排序为递归式建模实例，并用递归树和主方法求解递推复杂度。"
+    },
+    {
+      "title": "算法学习笔记(55): Pollard-Rho算法",
+      "url": "https://zhuanlan.zhihu.com/p/267884783",
+      "summary": "正文定义模 N 的二次递推伪随机序列，并用 Floyd 判环逐次推进和求 gcd 来分解整数，实质讲解了递推算法。"
+    },
+    {
+      "title": "输运问题总结与练习（一）：二端体系",
+      "url": "https://zhuanlan.zhihu.com/p/269595149",
+      "summary": "正文由格林函数方程导出相邻层之间的递推关系，并迭代计算半无限导线的表面格林函数。"
+    },
+    {
+      "title": "随机数大家都会用，但是你知道生成随机数的算法吗？",
+      "url": "https://zhuanlan.zhihu.com/p/273230064",
+      "summary": "正文给出线性同余生成器的递推公式，并说明下一次随机数由上一次结果作为新种子迭代计算。"
+    },
+    {
+      "title": "这道小学生都能看懂的题目，竟然没人会做！",
+      "url": "https://zhuanlan.zhihu.com/p/273528981",
+      "summary": "正文把反复将函数值代回自身的过程解释为迭代，并据此研究整数轨迹。"
+    },
+    {
+      "title": "大数数学入门-Part01-后继、加法、乘法和指数",
+      "url": "https://zhuanlan.zhihu.com/p/275104546",
+      "summary": "正文用递归定义由后继构造加法、由加法构造乘法、再由乘法构造指数，形成逐级递推体系。"
+    },
+    {
+      "title": "我的数分笔记（七）",
+      "url": "https://zhuanlan.zhihu.com/p/272688710",
+      "summary": "正文由斐波那契递推关系研究兔子增长率，讨论子列单调性、收敛值与通项。"
+    },
+    {
+      "title": "【分形几何】05.Peano（皮亚诺）曲线",
+      "url": "https://zhuanlan.zhihu.com/p/305623626",
+      "summary": "正文用替换生成元递归构造各级空间填充曲线，并给出 E_n 由 E_{n-1} 推出的递推式。"
+    },
+    {
+      "title": "不含相邻重复子串的字符串最多能有多长（又名一个人能有多啰嗦）",
+      "url": "https://zhuanlan.zhihu.com/p/317305495",
+      "summary": "正文定义从初始字符反复施加变换得到的序列，并讨论其延伸为无穷字符串的递推结构。"
+    },
+    {
+      "title": "数学小白都能看懂的数学期望讲解",
+      "url": "https://zhuanlan.zhihu.com/p/330669300",
+      "summary": "正文为收集图案问题建立相邻状态的期望递推式，化简后从边界倒推总次数。"
+    },
+    {
+      "title": "行列式计算题方法大全",
+      "url": "https://zhuanlan.zhihu.com/p/336163363",
+      "summary": "正文把行列式展开所得递推关系转化为特征方程，并用递推数列方法求通项。"
+    },
+    {
+      "title": "叠  高  高",
+      "url": "https://zhuanlan.zhihu.com/p/336183195",
+      "summary": "正文由 u_{n+1}=x^{u_n} 建立递推关系，并据此展开幂塔导数的推导。"
+    },
+    {
+      "title": "2020 ICPC 上海赛区题解",
+      "url": "https://zhuanlan.zhihu.com/p/336649300",
+      "summary": "正文通过枚举 1 的位置建立合法序列长度的递推关系并说明线性优化。"
+    },
+    {
+      "title": "随机过程|笔记整理（5）——无限状态马尔科夫链的进一步探讨，泊松过程引入，复合泊松过程",
+      "url": "https://zhuanlan.zhihu.com/p/339121930",
+      "summary": "正文构造递推式并通过移项化为等比数列，以此求解随机游走的离出时间。"
+    },
+    {
+      "title": "【组合数学】从简单的计算机问题讲解Catalan数",
+      "url": "https://zhuanlan.zhihu.com/p/340249701",
+      "summary": "正文利用本原括号串拆分得到 Catalan 数的递推关系，并用生成函数求解。"
+    },
+    {
+      "title": "离散化连续——一类递推数列估阶通法",
+      "url": "https://zhuanlan.zhihu.com/p/342641401",
+      "summary": "正文以递推数列的阶为主题，比较待定系数、连续延拓和微分方程等估阶方法并给出证明。"
+    },
+    {
+      "title": "sin(nx)=?｜一个超复杂的生成函数练习与三角恒等变换",
+      "url": "https://zhuanlan.zhihu.com/p/344836921",
+      "summary": "正文建立倍角展开系数的递推关系，并用生成函数求解该递推。"
+    },
+    {
+      "title": "从零开始学图形学：10分钟看懂贝塞尔曲线",
+      "url": "https://zhuanlan.zhihu.com/p/344934774",
+      "summary": "正文把高阶贝塞尔曲线逐层降为一阶插值，并用递归函数实现 de Casteljau 算法。"
+    },
+    {
+      "title": "组合数学（3）递推关系和生成函数",
+      "url": "https://zhuanlan.zhihu.com/p/345811471",
+      "summary": "正文定义递推关系，并通过汉诺塔、卡特兰数及线性常系数递推关系展示建立和求解递推式的方法。"
+    },
+    {
+      "title": "[数学之美]桥函数与相似——迭代中的巧合",
+      "url": "https://zhuanlan.zhihu.com/p/350081293",
+      "summary": "正文以 f_n=f(f_{n-1}) 建立迭代序列，并借助桥函数求函数迭代的通项。"
+    },
+    {
+      "title": "浅谈数列放缩（一）：拆项放缩",
+      "url": "https://zhuanlan.zhihu.com/p/350072078",
+      "summary": "正文多次对分式或多项式递推式作代换变形，并求递推数列的通项或单调性。"
+    },
+    {
+      "title": "组合数学（6）Stirling数",
+      "url": "https://zhuanlan.zhihu.com/p/350262977",
+      "summary": "正文按新元素是否单独成组给出第一类和第二类斯特林数的递推关系及组合解释。"
+    },
+    {
+      "title": "《小学生都能看懂的三类斯特林数从入门到升天教程 》（含性质完整证明、斯特林反演、拉赫数）",
+      "url": "https://zhuanlan.zhihu.com/p/350774728",
+      "summary": "正文按最后一个元素是否新建圆排列分类，推导第一类斯特林数的递推关系。"
+    },
+    {
+      "title": "高中数列技巧大总结",
+      "url": "https://zhuanlan.zhihu.com/p/350862381",
+      "summary": "正文系统讲解一阶线性递推、分式递推、特征根与不动点等求通项方法，并讨论递推数列性质。"
+    },
+    {
+      "title": "【硬件算法笔记13】基础除法器方案",
+      "url": "https://zhuanlan.zhihu.com/p/348263791",
+      "summary": "正文以部分余数的迭代关系为核心，比较恢复余数、不恢复余数及 SRT 除法器的递推过程。"
+    },
+    {
+      "title": "动态规划十连-肝了好多天-超细腻解析",
+      "url": "https://zhuanlan.zhihu.com/p/356804629",
+      "summary": "正文用当前状态由更小状态推得的递推式建立硬币兑换、路径计数等问题的状态转移。"
+    },
+    {
+      "title": "被吹上天的特征根法到底怎么理解？",
+      "url": "https://zhuanlan.zhihu.com/p/359247415",
+      "summary": "正文系统讲解二阶线性递推数列如何化为特征方程并求通项，属于递推方法。"
+    },
+    {
+      "title": "面试必考的「矩阵快速幂」考点汇总",
+      "url": "https://zhuanlan.zhihu.com/p/359618662",
+      "summary": "正文用转移矩阵把斐波那契和三步问题上楼梯的递推关系改写为矩阵幂，从而把线性递推加速到对数时间。"
+    },
+    {
+      "title": "卡特兰数 — 计数的映射方法的伟大胜利",
+      "url": "https://zhuanlan.zhihu.com/p/360260065",
+      "summary": "正文给出卡特兰数的递推公式及初值，并用递推处理阶梯图形填充问题。"
+    },
+    {
+      "title": "金融数据与时间序列分析专题10：State Space Models & Kalman Filters & Time-Varying CAPM Model",
+      "url": "https://zhuanlan.zhihu.com/p/363137440",
+      "summary": "正文把 AR、MA 和 ARMA 模型改写为状态量逐期递推的矩阵形式，并解释状态值的更新。"
+    },
+    {
+      "title": "递推形式的数列极限求解方法大汇总",
+      "url": "https://zhuanlan.zhihu.com/p/364365982",
+      "summary": "正文围绕递推公式的变形、辅助数列构造和通项迭代展开，讲解递推数列的处理方法。"
+    },
+    {
+      "title": "佩尔（Pell）方程",
+      "url": "https://zhuanlan.zhihu.com/p/365860557",
+      "summary": "正文由解的组合律推导相邻解的递推式，并说明可用矩阵快速幂迭代计算。"
+    },
+    {
+      "title": "一个“等差乘等比”类数列求和的简单新（？）思路",
+      "url": "https://zhuanlan.zhihu.com/p/369259880",
+      "summary": "正文从递推关系出发构造等比数列，并通过累加和待定系数法求一般递推数列的前 n 项和。"
+    },
+    {
+      "title": "贝塞尔曲线与B样条",
+      "url": "https://zhuanlan.zhihu.com/p/369753167",
+      "summary": "正文讲解 de Casteljau 和 de Boor-Cox 递推公式，并由低次基函数逐层构造高次基函数。"
+    },
+    {
+      "title": "【平面几何】双多边形难题——一道平面几何钓鱼题的一般化",
+      "url": "https://zhuanlan.zhihu.com/p/370864279",
+      "summary": "正文由角参数得到下一次角度的递推关系，并通过函数迭代、不动点和交错性分析完成分类证明。"
+    },
+    {
+      "title": "快速傅里叶变换(蝶形变换)-FFT",
+      "url": "https://zhuanlan.zhihu.com/p/374489378",
+      "summary": "正文通过奇数项与偶数项的分治把 N 点问题递推为两个 N/2 点子问题。"
+    },
+    {
+      "title": "“自然数幂和”计算的8种方法，从初等数学到高等数学",
+      "url": "https://zhuanlan.zhihu.com/p/375794611",
+      "summary": "正文通过逐差和叠加建立自然数幂和之间的递推关系，并连续用于计算更高次幂和。"
+    },
+    {
+      "title": "乘法逆元",
+      "url": "https://zhuanlan.zhihu.com/p/378728642",
+      "summary": "正文由带余除法和同余恒等式建立逆元递推式，给出递归及打表实现。"
+    },
+    {
+      "title": "“一道高三的数列题”新解",
+      "url": "https://zhuanlan.zhihu.com/p/384662587",
+      "summary": "正文通过相邻项相减得到一个比值递推式，并继续递推求解数列通项。"
+    },
+    {
+      "title": "差分方程基本理论",
+      "url": "https://zhuanlan.zhihu.com/p/385787482",
+      "summary": "正文定义差分和差分方程，并系统讲解一阶、二阶常系数线性递推方程的解结构与待定系数解法。"
+    },
+    {
+      "title": "神奇的卡塔兰(Catalan)数",
+      "url": "https://zhuanlan.zhihu.com/p/385994583",
+      "summary": "正文给出卡特兰数的递归定义，并说明矩形阶梯划分满足同一递归关系。"
+    },
+    {
+      "title": "随机树的直径：最遥远的彼方真的遥不可及吗？",
+      "url": "https://zhuanlan.zhihu.com/p/398621082",
+      "summary": "正文给出固定顶点高度受限树数的递推式，并将其转化为生成函数迭代关系。"
+    },
+    {
+      "title": "由数列递推公式求通项15大模型",
+      "url": "https://zhuanlan.zhihu.com/p/401413192",
+      "summary": "正文汇总十五类数列递推模型，并逐类给出累加、累乘、待定系数和特征方程等求通项方法。"
+    },
+    {
+      "title": "2021南开大学数学伯苓班选拔考试题及参考解答",
+      "url": "https://zhuanlan.zhihu.com/p/407527624",
+      "summary": "正文由分式和递推关系逐项表示数列，并用归纳和放缩证明通项恒正。"
+    },
+    {
+      "title": "数列的通项公式",
+      "url": "https://zhuanlan.zhihu.com/p/412113522",
+      "summary": "正文系统讲解由递推关系求通项公式，并展开累加、累乘、构造、不动点和特征根等方法。"
+    },
+    {
+      "title": "大学数学竞赛打卡-Day1.极限、压缩映射、参数方程、渐近线",
+      "url": "https://zhuanlan.zhihu.com/p/413804877",
+      "summary": "正文把二阶线性递推化为差分的等比关系，再求和得到数列极限。"
+    },
+    {
+      "title": "高中数列——等差数列的二级结论",
+      "url": "https://zhuanlan.zhihu.com/p/412317685",
+      "summary": "正文以相邻项之差定义等差数列，并由递推关系推导通项、求和公式和多项数列性质。"
+    },
+    {
+      "title": "快速理解FFT算法（完整无废话）",
+      "url": "https://zhuanlan.zhihu.com/p/407885496",
+      "summary": "正文把FFT拆成奇偶下标的半规模子问题递归求解，并据此推导复杂度递推关系。"
+    },
+    {
+      "title": "动态规划并没有想象中那么难",
+      "url": "https://zhuanlan.zhihu.com/p/424681634",
+      "summary": "正文从楼梯最后一步的两种来源推导走法数的斐波那契递推式，并讨论递推的重复计算问题。"
+    },
+    {
+      "title": "球盒问题：这篇笔记来就全算了",
+      "url": "https://zhuanlan.zhihu.com/p/429815465",
+      "summary": "正文给出第二类 Stirling 数按新增元素分情况建立的递推关系及其证明。"
+    },
+    {
+      "title": "关于第十三届全国大学生数学竞赛(非数)的分析",
+      "url": "https://zhuanlan.zhihu.com/p/432806758",
+      "summary": "正文把递推式变形并证明对应数列单调有界，从而求出递推数列的极限。"
+    },
+    {
+      "title": "等幂和问题(3)——拉马努金立方和公式及其推广",
+      "url": "https://zhuanlan.zhihu.com/p/433191922",
+      "summary": "正文说明三个数列由固定矩阵反复作用得到，并以此递推生成拉马努金立方和等式的无穷多组解。"
+    },
+    {
+      "title": "从素数到微分方程——离散与连续的究极缝合",
+      "url": "https://zhuanlan.zhihu.com/p/444225847",
+      "summary": "正文从相邻素数的计数恒等式出发，递推出 Buchstab-de Bruijn 迭代公式。"
+    },
+    {
+      "title": "斐波那契数列通项公式求解",
+      "url": "https://zhuanlan.zhihu.com/p/451617827",
+      "summary": "正文用二阶线性递推定义斐波那契数列，并通过递推展开和累乘推导通项。"
+    },
+    {
+      "title": "代数｜从数列的奇妙换元和不动点法谈谈函数迭代",
+      "url": "https://zhuanlan.zhihu.com/p/453319879",
+      "summary": "正文系统讨论一阶递推 a_n=f(a_{n-1})，通过换元和不动点构造求通项。"
+    },
+    {
+      "title": "潜藏的椭圆：斜率之积或和为定值时直线所过定点的轨迹",
+      "url": "https://zhuanlan.zhihu.com/p/452879862",
+      "summary": "正文定义由前一三角函数值生成下一项的正切递推关系，并证明迭代后的恒等式。"
+    },
+    {
+      "title": "葛立恒数有多大",
+      "url": "https://zhuanlan.zhihu.com/p/454473337",
+      "summary": "正文以前一项为下一项的箭头数，逐项递归构造g₁到g₆₄，实质展示递推。"
+    },
+    {
+      "title": "压缩映射原理",
+      "url": "https://zhuanlan.zhihu.com/p/458151225",
+      "summary": "正文研究由前一迭代值递推生成下一迭代值的数列，并证明该递推数列收敛到不动点。"
+    },
+    {
+      "title": "Catalan-Qi数——越来越奇的卡特兰数",
+      "url": "https://zhuanlan.zhihu.com/p/457305852",
+      "summary": "正文按照最后一次加法划分问题，推导卡特兰数满足的卷积递推关系及初值。"
+    },
+    {
+      "title": "差分基础理论概述",
+      "url": "https://zhuanlan.zhihu.com/p/460846297",
+      "summary": "正文系统介绍差分与差分方程，并用升阶降次、整体换元等方法求解一阶及二阶递推关系。"
+    },
+    {
+      "title": "【数列】差分求数列和，通项，范围最值的方法（一）",
+      "url": "https://zhuanlan.zhihu.com/p/463108185",
+      "summary": "正文系统定义差分的阶、运算公式与积差分方法，并用它们求递推数列的通项和部分和。"
+    },
+    {
+      "title": "两道有趣的数学题(2)：赫尔德不等式、交替排列与欧拉正割数",
+      "url": "https://zhuanlan.zhihu.com/p/462832847",
+      "summary": "正文通过插入最大元素推导欧拉 ZigZag 数的卷积递推，并由生成函数转化为微分方程。"
+    },
+    {
+      "title": "(其一)高中数列压轴小题阶系统方法(浙江尤其适用)",
+      "url": "https://zhuanlan.zhihu.com/p/467440834",
+      "summary": "正文以多种一阶递推关系为例，按阶和系数确定上下界并估计后续项与部分和。"
+    },
+    {
+      "title": "详解快速傅里叶变换(FFT)",
+      "url": "https://zhuanlan.zhihu.com/p/150815207",
+      "summary": "正文把 N 点变换递归拆成两个 N/2 点子问题，逐层利用奇偶分解降低乘法次数。"
+    },
+    {
+      "title": "赢函数的离散思考——赢差分与有限赢",
+      "url": "https://zhuanlan.zhihu.com/p/470512696",
+      "summary": "正文定义差分算子并用前一阶差分递推定义高阶差分，展示了离散递推关系。"
+    },
+    {
+      "title": "【排列组合】欧拉错排问题",
+      "url": "https://zhuanlan.zhihu.com/p/477207612",
+      "summary": "正文按最后一项与前面元素是否互换分类，建立错排数的一阶递推关系。"
+    },
+    {
+      "title": "(其二)高中数列Sn，Tn，阶的放缩系统方法",
+      "url": "https://zhuanlan.zhihu.com/p/492874832",
+      "summary": "正文从一阶分式递推关系估计数列渐近阶，并据此构造裂项放缩。"
+    },
+    {
+      "title": "曲线杂谈（三）：青出于蓝的B-Spline和NURBS",
+      "url": "https://zhuanlan.zhihu.com/p/500426271",
+      "summary": "正文给出 B 样条基函数的递推公式，并从零阶分段基函数逐层递归到高阶。"
+    },
+    {
+      "title": "GeoGebra函数作图基础",
+      "url": "https://zhuanlan.zhihu.com/p/529431862",
+      "summary": "正文用迭代和迭代列表处理复合函数所定义的递推序列，并演示蛛网迭代。"
+    },
+    {
+      "title": "时序预测 | SARIMA（P、D、Q了解一下）",
+      "url": "https://zhuanlan.zhihu.com/p/531987920",
+      "summary": "正文给出 AR、MA、ARIMA、SARIMA 的延迟算子递推式，并说明如何由历史项和误差项生成当前值。"
+    },
+    {
+      "title": "组合数学（2）分拆数",
+      "url": "https://zhuanlan.zhihu.com/p/530925142",
+      "summary": "正文给出并证明分拆数的两个核心递推关系，用于由较小参数计算分拆数。"
+    },
+    {
+      "title": "斐波那契数列的部分性质",
+      "url": "https://zhuanlan.zhihu.com/p/536818435",
+      "summary": "正文从斐波那契递推关系出发，利用项移位和递推拆分证明多个恒等式。"
+    },
+    {
+      "title": "母函数——生成函数——形式级数（Generating function）",
+      "url": "https://zhuanlan.zhihu.com/p/538036645",
+      "summary": "正文以母函数、部分分式和几何级数展开求解线性递推关系，并比较系数得到通项。"
+    },
+    {
+      "title": "001：第1届IMO第1题长啥样？简单吗？| 1959年第1届IMO第1题",
+      "url": "https://zhuanlan.zhihu.com/p/539801624",
+      "summary": "正文通过递归终止条件和逐层回代构造扩展欧几里得算法的解。"
+    },
+    {
+      "title": "华里士公式（点火公式）与区间再现公式",
+      "url": "https://zhuanlan.zhihu.com/p/544138567",
+      "summary": "正文建立积分序列 I_n 与 I_{n-2} 的递推关系，并由此逐项化简得到奇偶情形下的通式。"
+    },
+    {
+      "title": "【线性代数】行列式也内卷？——计算有趣的螺旋行列式的值",
+      "url": "https://zhuanlan.zhihu.com/p/565375513",
+      "summary": "正文通过奇数阶与偶数阶行列式的降阶过程建立递推关系并求出解析形式。"
+    },
+    {
+      "title": "算法学习笔记(1)：FFT(快速傅里叶变换)",
+      "url": "https://zhuanlan.zhihu.com/p/567738394",
+      "summary": "正文给出位逆序数组的递推关系，并用动态规划思想说明可按序计算。"
+    },
+    {
+      "title": "理解贝塞尔曲线",
+      "url": "https://zhuanlan.zhihu.com/p/576515173",
+      "summary": "正文把高阶贝塞尔曲线逐层降阶为一阶线性插值，明确给出由前一阶曲线递归构造后一阶曲线的方法。"
+    },
+    {
+      "title": "对二次函数型递归数列解法的探索",
+      "url": "https://zhuanlan.zhihu.com/p/573592940",
+      "summary": "正文按判别式分类二次函数型递归数列，并通过配方、待定系数和换元求通项或判断不可解。"
+    },
+    {
+      "title": "高等数学 | 考研数学 | 微分方程总结",
+      "url": "https://zhuanlan.zhihu.com/p/580375148",
+      "summary": "正文把差分方程展开为数列形式，并用齐次通解加非齐次特解的方法求线性递推数列通项。"
+    },
+    {
+      "title": "数列求和的摄动法",
+      "url": "https://zhuanlan.zhihu.com/p/586632554",
+      "summary": "正文围绕递推关系定义数列，并通过摄动前后项和、解关系式来求前 n 项和闭形式。"
+    },
+    {
+      "title": "斐波那契数列（Fibonacci sequence）及相关结论",
+      "url": "https://zhuanlan.zhihu.com/p/588439015",
+      "summary": "正文明确以递推关系定义数列，并通过构造等比数列和特征根法求解递推式。"
+    },
+    {
+      "title": "随机过程学习笔记（1）- Gambling Problem赌徒问题",
+      "url": "https://zhuanlan.zhihu.com/p/590513240",
+      "summary": "正文把游戏时长期望转化为带边界条件的非齐次线性递推并求解。"
+    },
+    {
+      "title": "随机过程学习笔记（2）- Random Walks随机游走问题",
+      "url": "https://zhuanlan.zhihu.com/p/590771816",
+      "summary": "正文建立首次返回时间与任意时刻归零概率之间的卷积递推，并用概率生成函数求解。"
+    },
+    {
+      "title": "【极致性能】大概是知乎最快的斐波拉契快速求法（6秒求出fibo[10⁹]）+详细的原理讲解（使用快速递推而非快速幂）",
+      "url": "https://zhuanlan.zhihu.com/p/595987589",
+      "summary": "正文给出斐波那契递推规则，并用公式推导从 f_n 计算 f_{2n}、f_{2n+1} 的快速递推。"
+    },
+    {
+      "title": "Nyanw的高中数学笔记本（整理有用的常见二级结论 / 容易考的一些定义）",
+      "url": "https://zhuanlan.zhihu.com/p/551766950",
+      "summary": "正文系统给出分式递推、二阶线性递推和斐波那契数列的求通项方法。"
+    },
+    {
+      "title": "强基70题",
+      "url": "https://zhuanlan.zhihu.com/p/601789293",
+      "summary": "正文通过特征方程求线性递推通项，并用裂项递推和构造辅助数列处理多个数列问题。"
+    },
+    {
+      "title": "算法学习笔记(11)：卡特兰数（Catalan）",
+      "url": "https://zhuanlan.zhihu.com/p/609104268",
+      "summary": "正文用左右子问题和坐标路径拆分推出卡特兰数的卷积型递推式并解释其计数含义。"
+    },
+    {
+      "title": "一类递推数列的渐进估计",
+      "url": "https://zhuanlan.zhihu.com/p/610773444",
+      "summary": "正文以递推关系生成数列，通过反复代入和裂项相消得到高阶渐近估计。"
+    },
+    {
+      "title": "裂项方法的本质——有限微积分",
+      "url": "https://zhuanlan.zhihu.com/p/611370599",
+      "summary": "正文利用差分关系构造相消数列，将多项求和化为端点差并给出多种裂项实例。"
+    },
+    {
+      "title": "数学中最大的陷阱，毁掉无数数学天才，却有着不可抗拒的魔力",
+      "url": "https://zhuanlan.zhihu.com/p/625237365",
+      "summary": "正文以奇偶规则定义科拉茨序列的逐项递推并展示其迭代路径。"
+    },
+    {
+      "title": "数学复习(4)：切比雪夫多项式",
+      "url": "https://zhuanlan.zhihu.com/p/626421358",
+      "summary": "正文由行列式展开得到相邻项递推，并用归纳法证明一般递推关系可转化为切比雪夫多项式。"
+    },
+    {
+      "title": "良序集与选择公理",
+      "url": "https://zhuanlan.zhihu.com/p/633029774",
+      "summary": "正文把自然数递归推广到序数上的超限递归，并给出递归类映射的构造证明。"
+    },
+    {
+      "title": "完全错排和部分错排问题(一个著名的组排模型)",
+      "url": "https://zhuanlan.zhihu.com/p/638518201",
+      "summary": "正文按第k封信是否装入第n个信封分类，建立错排数 D_n 的递推关系并推导通项。"
+    },
+    {
+      "title": "双元点火公式(递推式)——双元法入门技之一",
+      "url": "https://zhuanlan.zhihu.com/p/641800651",
+      "summary": "正文利用分部积分和双元微分关系推导关于幂次相差二的积分递推式。"
+    },
+    {
+      "title": "切比雪夫多项式(1): n倍角公式",
+      "url": "https://zhuanlan.zhihu.com/p/640886639",
+      "summary": "正文把切比雪夫多项式递推式作为二阶线性递推处理，求出特征根和通项公式。"
+    },
+    {
+      "title": "快速傅里叶变换(FFT)（上篇）",
+      "url": "https://zhuanlan.zhihu.com/p/645326663",
+      "summary": "正文把多项式求值递归拆成两个规模减半的子问题，并据此分析 O(n log n) 的算法复杂度。"
+    },
+    {
+      "title": "原神概率论：材料合成天赋选10%双倍还是25%返还？",
+      "url": "https://zhuanlan.zhihu.com/p/648950822",
+      "summary": "正文用返还材料继续合成的递推关系计算期望和方差，并求解递推通项。"
+    },
+    {
+      "title": "面向高中生的马尔可夫链（Markov Chains）和游走相关的概率递推问题",
+      "url": "https://zhuanlan.zhihu.com/p/653026889",
+      "summary": "正文由吸收壁随机游走建立概率递推式，并用构造等差或等比数列求通项。"
+    },
+    {
+      "title": "2023 ~ 2025 年南京大学计算机拔尖班二次选拔考试（数学部分）",
+      "url": "https://zhuanlan.zhihu.com/p/654734288",
+      "summary": "正文按最后一步合并的两部分建立最大值的递推关系，并据此研究数列增长。"
+    },
+    {
+      "title": "递推关系求数列通项公式",
+      "url": "https://zhuanlan.zhihu.com/p/659391008",
+      "summary": "正文系统讲解一阶、二阶、高阶和分式递推，讨论待定系数、不动点、特征根和通项求法。"
+    },
+    {
+      "title": "一些有意思的行列式",
+      "url": "https://zhuanlan.zhihu.com/p/663461869",
+      "summary": "正文从行列式展开得到二阶线性递推关系，并用特征方程及初值求出通项。"
+    },
+    {
+      "title": "02 保姆级理解 B-Spline",
+      "url": "https://zhuanlan.zhihu.com/p/672199076",
+      "summary": "正文以零阶基函数为初值，按de Boor-Cox公式逐阶递推并展开到三阶基函数。"
+    },
+    {
+      "title": "递推数列的万能通法（不是）：李对称法",
+      "url": "https://zhuanlan.zhihu.com/p/675396855",
+      "summary": "正文围绕递推式和一阶到高阶差分方程，介绍李对称条件与降阶求解流程并给出算例。"
+    },
+    {
+      "title": "勒让德多项式的性质（正交性、奇偶性、递推式）",
+      "url": "https://zhuanlan.zhihu.com/p/675756007",
+      "summary": "正文利用正交基和首项系数推导勒让德多项式三项递推公式。"
+    },
+    {
+      "title": "【数列】常见的裂项与放缩",
+      "url": "https://zhuanlan.zhihu.com/p/682270063",
+      "summary": "正文分类整理递推公式，并通过代换和裂项推导相邻项之间的关系。"
+    },
+    {
+      "title": "【注意力涣散】找规律 任意答案 通项的7个逆天方法（初中可看，有新想法会更新）",
+      "url": "https://zhuanlan.zhihu.com/p/682200542",
+      "summary": "正文从斐波那契递推引出现数列通项的构造问题，并给出多种构造方法。"
+    },
+    {
+      "title": "f(f(n))=3n，一道经典的上海某年春考难题",
+      "url": "https://zhuanlan.zhihu.com/p/683278770",
+      "summary": "正文利用 f(3n)=3f(n) 的递推关系反复归结到较小自变量，并按相邻已知值补出未知项。"
+    },
+    {
+      "title": "状态转移建立方程——马尔科夫链无穷递推背景的概率与期望计算",
+      "url": "https://zhuanlan.zhihu.com/p/687181549",
+      "summary": "正文把无穷过程拆成状态，并用状态转移方程联立求解概率或期望。"
+    },
+    {
+      "title": "[高等数学]一道超难数列极限问题的简单解法",
+      "url": "https://zhuanlan.zhihu.com/p/688537086",
+      "summary": "正文围绕该一阶递推关系迭代变元并研究对应数列的极限。"
+    },
+    {
+      "title": "你未曾见过的n倍角公式",
+      "url": "https://zhuanlan.zhihu.com/p/697744715",
+      "summary": "正文由行列式展开得到二阶递推，再与余弦倍角的递推关系对应。"
+    },
+    {
+      "title": "牛顿恒等式的证明",
+      "url": "https://zhuanlan.zhihu.com/p/697739965",
+      "summary": "正文由牛顿恒等式导出幂和的三阶递推关系，并逐项计算得到所求的 S_5。"
+    },
+    {
+      "title": "关于欧拉积分（ln sin x）的一些延伸思考",
+      "url": "https://zhuanlan.zhihu.com/p/707241809",
+      "summary": "正文通过递推关系由低阶 Wallis 积分推出高阶 Wallis 积分公式。"
+    },
+    {
+      "title": "讨论LQR的三种解法以及各自的复杂度计算",
+      "url": "https://zhuanlan.zhihu.com/p/708673581",
+      "summary": "正文从终端条件出发递推 Riccati 方程，逐时刻计算反馈增益 K_k 和代价矩阵 P_k。"
+    },
+    {
+      "title": "等幂求和（一）：自然数幂方求和的规律",
+      "url": "https://zhuanlan.zhihu.com/p/709928345",
+      "summary": "正文借助差分和二项式展开建立 S_k 的递推公式，并逐项计算后续幂和。"
+    },
+    {
+      "title": "等幂求和（三）：伯努利数列与哑运算",
+      "url": "https://zhuanlan.zhihu.com/p/713042680",
+      "summary": "正文由哑变量差分建立伯努利数列的递推关系，并据此逐项求出数列值。"
+    },
+    {
+      "title": "揭秘百家乐：为什么无论多少钱都会输的精光？赌徒能从赌场中赢钱吗？",
+      "url": "https://zhuanlan.zhihu.com/p/717254155",
+      "summary": "正文建立输光概率P(n)的递推关系，并由边界条件求解资金随机游走问题。"
+    },
+    {
+      "title": "致那些年我们错过的好题——遥遥领先的2005湖南理科数学高考卷",
+      "url": "https://zhuanlan.zhihu.com/p/717653262",
+      "summary": "正文由鱼类繁殖、捕捞和死亡关系建立一阶非线性数列递推，并继续研究递推的长期取值。"
+    },
+    {
+      "title": "算法学习笔记(35)：鞅与停时定理",
+      "url": "https://zhuanlan.zhihu.com/p/721900819",
+      "summary": "正文由势能变化条件分离变量得到 f(x+1)=1+2f(x) 等递推，并用边界值求解 f(x)。"
+    },
+    {
+      "title": "深入浅出数学系列 | 数列（1）：等差等比数列基础",
+      "url": "https://zhuanlan.zhihu.com/p/1695300628",
+      "summary": "正文利用相邻项差构造递推关系并逐项求和，具体讲解了阶差法求通项。"
+    },
+    {
+      "title": "深入浅出数学系列 | 数列（2）：数列求和与奇偶数列",
+      "url": "https://zhuanlan.zhihu.com/p/2155280310",
+      "summary": "正文系统讲解数列求和的裂项与分组方法，并推导隔项等差、隔项等比等递推数列的通项和部分和。"
+    },
+    {
+      "title": "深入浅出数学系列 | 数列（3）：数列递推",
+      "url": "https://zhuanlan.zhihu.com/p/2690613176",
+      "summary": "正文系统讲解累加法、累乘法、一阶与二阶线性递推、分式递推等数列递推方法。"
+    },
+    {
+      "title": "深入浅出数学系列 | 数列（4）：数列放缩",
+      "url": "https://zhuanlan.zhihu.com/p/3113621396",
+      "summary": "正文构造满足一阶递推关系的辅助数列，把部分和不等式转化为逐项比较。"
+    },
+    {
+      "title": "生成函数,数列绝境中的一线生机",
+      "url": "https://zhuanlan.zhihu.com/p/6703330810",
+      "summary": "正文把相邻项递推关系压缩成生成函数方程，解出函数后再比较系数求通项。"
+    },
+    {
+      "title": "数学的艺术 —— 从递推序列到微分方程",
+      "url": "https://zhuanlan.zhihu.com/p/7100724724",
+      "summary": "正文以递推关系为起点并使用差分、算术平均和几何平均研究序列的渐近行为。"
+    },
+    {
+      "title": "差分算子法初步（高中数列的另类解决方法？）",
+      "url": "https://zhuanlan.zhihu.com/p/10119345198",
+      "summary": "正文从数列差分和位移算子出发，讲解差分方程及递推关系的算子求解方法。"
+    },
+    {
+      "title": "南开大学2023-2024学年第一学期“数学分析I”期末考试试卷（A卷）试题解析(自制版)",
+      "url": "https://zhuanlan.zhihu.com/p/14174739052",
+      "summary": "文中利用 arctan x≤x 证明递推数列单调有界，实质讨论了递推数列的收敛性。"
+    },
+    {
+      "title": "完整总结！用母函数方法破解线性递推数列难题",
+      "url": "https://zhuanlan.zhihu.com/p/16731477484",
+      "summary": "正文以母函数统一定义并求解多类线性递推数列。"
+    },
+    {
+      "title": "【工具篇】某古怪数列/北大金秋营T8怎么解？用拉格朗日反演就好了（初学者向）",
+      "url": "https://zhuanlan.zhihu.com/p/21066228639",
+      "summary": "正文针对满足递推式的数列构造生成函数，并用拉格朗日反演求出通项。"
+    },
+    {
+      "title": "一个强大的方法——母函数",
+      "url": "https://zhuanlan.zhihu.com/p/23675695772",
+      "summary": "正文以母函数为桥梁，通过乘 x^n 并累加来求解递推数列的通项公式。"
+    },
+    {
+      "title": "离谱！增长最快的数列，最终归零，这不是猜测，是严格证明的结论",
+      "url": "https://zhuanlan.zhihu.com/p/25625845594",
+      "summary": "正文用遗传进制表示定义逐步换代并减一的 Goodstein 递推序列。"
+    },
+    {
+      "title": "特征根，不动点，三次方程——你的老师可能讲错了",
+      "url": "https://zhuanlan.zhihu.com/p/32078478027",
+      "summary": "正文系统讨论线性递推数列的特征根、通项以及周期性的判定条件。"
+    },
+    {
+      "title": "现代计算机图形学基础：几何",
+      "url": "https://zhuanlan.zhihu.com/p/1892530613354997011",
+      "summary": "正文用德卡斯特里奥递归插值以及递归细分算法逐步生成曲线和曲面。"
+    },
+    {
+      "title": "一道关于佩尔方程的圆锥曲线题——2025第一次四省联考（天一大联考）T19",
+      "url": "https://zhuanlan.zhihu.com/p/1898527498658100243",
+      "summary": "正文利用佩尔方程解的乘法结构导出 x、y 的相邻项递推式，并据此化简相邻横坐标比值。"
+    },
+    {
+      "title": "与(伪)燃烧数的最终决战！详细阐述背后原理(上)",
+      "url": "https://zhuanlan.zhihu.com/p/1897263349986726061",
+      "summary": "正文递归定义燃烧数集合，并围绕查找、判断和修正燃烧数的递推算法讨论终止性与正确性。"
+    },
+    {
+      "title": "一命速通高危难度高考排列组合母题",
+      "url": "https://zhuanlan.zhihu.com/p/1901728754860037140",
+      "summary": "正文从错位排列、Stirling 数、Eulerian 数和分拆数逐步构造递推关系并给出通项或递推公式。"
+    },
+    {
+      "title": "弹性碰撞中的π——一些关于Galperin碰撞问题的思考",
+      "url": "https://zhuanlan.zhihu.com/p/1907126942932640158",
+      "summary": "正文把相邻碰撞后的速度写成递推关系，并通过复数数列和矩阵迭代求出通项。"
+    },
+    {
+      "title": "一个神奇组合恒等式的组合证明与概率证明",
+      "url": "https://zhuanlan.zhihu.com/p/1910375896742867401",
+      "summary": "正文通过建立 a_{n+1}=2a_n 的递推关系完成恒等式证明。"
+    },
+    {
+      "title": "是时候给不懂googology领域的人科普一下了",
+      "url": "https://zhuanlan.zhihu.com/p/1940440681354068068",
+      "summary": "正文用前一项递归定义下一项的增长函数，并进一步介绍快速增长层级的递归规则。"
+    },
+    {
+      "title": "取整函数的多项式",
+      "url": "https://zhuanlan.zhihu.com/p/1962542885497974791",
+      "summary": "正文用递推定义嵌套取整序列，并证明a_k、b_k之间的一阶递推关系。"
+    },
+    {
+      "title": "2025年中文大数社区十大事件",
+      "url": "https://zhuanlan.zhihu.com/p/1988997637857358320",
+      "summary": "正文围绕递归函数、递归记号和序数分析讨论大数函数的强度与展开规则。"
+    },
+    {
+      "title": "【难】四圆共点,五点共圆,六圆共点…——Clifford链定理证明详解",
+      "url": "https://zhuanlan.zhihu.com/p/2008938064181993828",
+      "summary": "正文揭示直线数量增加时圆与交点交替出现的递推结构，并用低阶情形推演高阶情形。"
+    },
+    {
+      "title": "生成通项杯难题",
+      "url": "https://zhuanlan.zhihu.com/p/2008944143611750261",
+      "summary": "正文围绕一个非线性递推数列，逐步配方、换元并求出闭式通项。"
+    },
+    {
+      "title": "从星轨到数列：不动点法究竟是谁想出来的？",
+      "url": "https://zhuanlan.zhihu.com/p/2023472769963237381",
+      "summary": "正文围绕一阶递推数列的迭代展开，利用不动点和两个不动点作差相除构造等比数列，并推导通项公式。"
+    },
+    {
+      "title": "拉马努金π公式中的神秘整数终于有了解释（包含Chudnovsky兄弟的公式）",
+      "url": "https://zhuanlan.zhihu.com/p/2029797850955915903",
+      "summary": "正文定义卢卡斯数并利用其递推序列分解圆周率公式中的整数。"
+    },
+    {
+      "title": "π 的无穷乘积，最初是怎么被想到的？",
+      "url": "https://zhuanlan.zhihu.com/p/2038440108207121327",
+      "summary": "正文利用形数的累加递推求自然数高次幂和，并进一步以乘数递推填充插值表。"
+    },
+    {
+      "title": "乘法怎么算最快？数学家为此研究了六十年",
+      "url": "https://zhuanlan.zhihu.com/p/2062505793505719792",
+      "summary": "正文用 Karatsuba 算法的递归式说明每次把四个乘法降为三个，并求解相应复杂度递推。"
+    }
+  ]
+}

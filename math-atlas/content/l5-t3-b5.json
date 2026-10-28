@@ -1,0 +1,726 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l5-t3-b5",
+  "sources": [
+    {
+      "title": "学完泛函分析可以做哪些事情？",
+      "url": "https://www.zhihu.com/answer/60917996",
+      "summary": "正文说明 Banach 空间、紧算子与抽象数学结构。"
+    },
+    {
+      "title": "数学中为什么要定义各种空间？",
+      "url": "https://www.zhihu.com/answer/108587384",
+      "summary": "正文从赋范线性空间和完备性严格定义 Banach 空间。"
+    },
+    {
+      "title": "有哪些牛逼的线性空间、它们的基是什么？",
+      "url": "https://www.zhihu.com/answer/110271329",
+      "summary": "正文比较Fréchet空间与Banach空间，并解释后者无法覆盖若干实际函数空间。"
+    },
+    {
+      "title": "具体哪里会用到泛函分析和测度论？",
+      "url": "https://www.zhihu.com/answer/115886896",
+      "summary": "正文以最优控制中的Bellman方程和HJB方程说明压缩映射与不动点定理的应用。"
+    },
+    {
+      "title": "费曼路径积分的数学严格化有哪些困难和进展?",
+      "url": "https://www.zhihu.com/answer/148016526",
+      "summary": "正文说明巴拿赫空间缺少有限维坐标划分，路径积分需改用测度构造。"
+    },
+    {
+      "title": "实变函数有什么用？",
+      "url": "https://www.zhihu.com/answer/160480195",
+      "summary": "正文说明偏微分方程使用泛函分析和 Banach 空间。"
+    },
+    {
+      "title": "量子力学中可观察量是 C*-algebra 的意义？",
+      "url": "https://www.zhihu.com/answer/180029797",
+      "summary": "正文以范数完备性解释 C* 代数为何是闭的星代数，并明确其对偶构成巴拿赫空间。"
+    },
+    {
+      "title": "变分法与泛函分析这门课知识框架的思维导图是什么？",
+      "url": "https://www.zhihu.com/answer/181261464",
+      "summary": "正文明确现代变分法建立在巴拿赫空间微分学上，并以此解释泛函变分。"
+    },
+    {
+      "title": "如何理解希尔伯特空间？",
+      "url": "https://www.zhihu.com/answer/184073198",
+      "summary": "正文将巴拿赫空间定义为完备赋范线性空间，并与希尔伯特空间对照。"
+    },
+    {
+      "title": "何为分析方法、代数方法、几何方法、拓扑方法？",
+      "url": "https://www.zhihu.com/answer/194031701",
+      "summary": "正文说明 Beltrami 微分与全纯二次微分分别形成 Banach 空间。"
+    },
+    {
+      "title": "从泛函分析入手作为数学系的学习路径是否可行？",
+      "url": "https://www.zhihu.com/answer/207688035",
+      "summary": "正文以巴拿赫空间上的泰勒公式说明抽象推广仍依赖一维分析。"
+    },
+    {
+      "title": "证明完备性有没有套路可言？",
+      "url": "https://www.zhihu.com/answer/231880746",
+      "summary": "正文以Cauchy列收敛说明Banach型完备性证明。"
+    },
+    {
+      "title": "拓扑向量空间的理论在数学内外有什么应用？",
+      "url": "https://www.zhihu.com/answer/235962383",
+      "summary": "正文给出Banach空间自反性与弱紧性的等价刻画。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/238553923",
+      "summary": "正文明确讨论定义在 Banach 空间上的闭算子。"
+    },
+    {
+      "title": "对于数学研究生来说，（在你的方向）「打基础」到什么地步可以开始做研究了？",
+      "url": "https://www.zhihu.com/answer/264472282",
+      "summary": "正文以 Banach 空间上的演化方程说明方向所需基础。"
+    },
+    {
+      "title": "学习SPDE的先行课程和知识?",
+      "url": "https://www.zhihu.com/answer/279315929",
+      "summary": "正文明确引入巴拿赫空间上的 Bochner 积分。"
+    },
+    {
+      "title": "偏微分方程解的存在唯一性吗？",
+      "url": "https://www.zhihu.com/answer/303056388",
+      "summary": "正文把解看作从时间到巴拿赫空间的抽象函数。"
+    },
+    {
+      "title": "数学中为什么要定义各种空间？",
+      "url": "https://www.zhihu.com/answer/325039308",
+      "summary": "正文区分仅完备而非 Hilbert 的 Banach 空间。"
+    },
+    {
+      "title": "范数的大小比较有什么意义？",
+      "url": "https://www.zhihu.com/answer/328110179",
+      "summary": "正文以 Banach 空间解释等价范数、一致凸与自反性。"
+    },
+    {
+      "title": "为什么泛函分析要研究学习各种代数？",
+      "url": "https://www.zhihu.com/answer/392444017",
+      "summary": "正文比较Banach空间与Banach代数的不同结构。"
+    },
+    {
+      "title": "数学硕士/博士研究生阶段有哪些定理/论文/理论让你为之振奋？",
+      "url": "https://www.zhihu.com/answer/402194253",
+      "summary": "正文给出Perfectoid代数的Banach代数定义并展开其Frobenius条件。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/403979266",
+      "summary": "正文把函数视作Banach空间中的点并讨论强弱拓扑和算子理论。"
+    },
+    {
+      "title": "鞅(Martingale)在现代算子理论当中的作用？",
+      "url": "https://www.zhihu.com/answer/415396095",
+      "summary": "正文用鞅差无条件收敛刻画 UMD Banach 空间。"
+    },
+    {
+      "title": "可以不借助随机过程和 Feyman-Kac 公式理解抛物 PDE 吗？",
+      "url": "https://www.zhihu.com/answer/493254983",
+      "summary": "正文在 Banach 空间上的算子半群框架中解方程。"
+    },
+    {
+      "title": "高等代数中出现的对偶空间的对偶到底是什么？而拓扑意义下的对偶又是什么？",
+      "url": "https://www.zhihu.com/answer/495735538",
+      "summary": "正文以Banach空间上的有界泛函举例说明对偶。"
+    },
+    {
+      "title": "基础数学的非线性泛函分析研究什么？",
+      "url": "https://www.zhihu.com/answer/496053256",
+      "summary": "正文说明Banach空间上的微积分与隐函数定理。"
+    },
+    {
+      "title": "怎样理解fredholm alternative theorem？",
+      "url": "https://www.zhihu.com/answer/502277881",
+      "summary": "明确在 Banach 空间中定义算子指标，并讨论有界线性算子的可逆性。"
+    },
+    {
+      "title": "算子，算符，函数各是什么东西？各自运算有什么特征？相互之间什么关系？",
+      "url": "https://www.zhihu.com/answer/512653150",
+      "summary": "正文明确以 Banach 空间、Banach 流形和相关定理解释算子。"
+    },
+    {
+      "title": "数学分析中完备性的概念？",
+      "url": "https://www.zhihu.com/answer/561306611",
+      "summary": "正文把赋范空间的完备性与 Banach 空间概念相连。"
+    },
+    {
+      "title": "如何评价数学家让·布尔甘（Jean Bourgain）？",
+      "url": "https://www.zhihu.com/answer/562972156",
+      "summary": "正文围绕 Banach 空间上的调和分析展开。"
+    },
+    {
+      "title": "一个空间中勾股定理不存在，而变成了 c^4=a^4+b^4，甚至有更高的指数，那么这是一种什么空间？",
+      "url": "https://www.zhihu.com/answer/593625315",
+      "summary": "正文以不同 p 范数空间解释距离和勾股形式。"
+    },
+    {
+      "title": "一个空间中勾股定理不存在，而变成了 c^4=a^4+b^4，甚至有更高的指数，那么这是一种什么空间？",
+      "url": "https://www.zhihu.com/answer/602243742",
+      "summary": "正文比较不同 p 范数空间。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/649692656",
+      "summary": "陈述值域为 Banach 空间时的唯一连续延拓定理。"
+    },
+    {
+      "title": "希尔伯特空间、内积空间的定义有什么关系和区别？",
+      "url": "https://www.zhihu.com/answer/731866608",
+      "summary": "比较 Hilbert 空间和 Banach 空间。"
+    },
+    {
+      "title": "什么是黎曼积分和勒贝格积分？两者区别是什么？",
+      "url": "https://www.zhihu.com/answer/754899738",
+      "summary": "说明 L1 空间的完备性。"
+    },
+    {
+      "title": "如何证明对任意给定的正数e，存在M上的矩阵范数||A||，满足不等式||A||<=谱半径+e?",
+      "url": "https://www.zhihu.com/answer/825713577",
+      "summary": "用等价 Banach 代数范数作内蕴表述。"
+    },
+    {
+      "title": "学随机分析需要把实分析和泛函学的很深吗?",
+      "url": "https://www.zhihu.com/answer/827088113",
+      "summary": "把 Banach 空间作为随机分析先修结构。"
+    },
+    {
+      "title": "如何通俗的解释希尔伯特空间，它具有特别的性质么，如果有是什么？",
+      "url": "https://www.zhihu.com/answer/854736301",
+      "summary": "正文给出巴拿赫空间的定义，并说明它与希尔伯特空间及完备距离空间的关系。"
+    },
+    {
+      "title": "学完泛函分析可以做哪些事情？",
+      "url": "https://www.zhihu.com/answer/930908628",
+      "summary": "正文围绕 Banach 空间的基、自反性、嵌入和对偶空间等结构理论展开。"
+    },
+    {
+      "title": "怎样理解弱拓扑概念？",
+      "url": "https://www.zhihu.com/answer/1005478907",
+      "summary": "正文专门讨论Banach空间强弱拓扑关系。"
+    },
+    {
+      "title": "偏微分方程领域现在有哪些活跃的大牛，都是做什么方向的？",
+      "url": "https://www.zhihu.com/answer/1281981741",
+      "summary": "正文用 Banach 空间几何理论刻画 PDE 中的抽象空间。"
+    },
+    {
+      "title": "Yosida-Hile定理以许多Banach值的函数的C1表示什么意思？",
+      "url": "https://www.zhihu.com/answer/1287089836",
+      "summary": "正文在 Banach 空间中讨论向量值 Sobolev 空间与算子半群。"
+    },
+    {
+      "title": "基础数学中，非线性泛函分析这一方向是否还有研究前景？",
+      "url": "https://www.zhihu.com/answer/1370804348",
+      "summary": "正文以 Banach 空间微分理论作为非线性泛函分析基础。"
+    },
+    {
+      "title": "是否存在维数为可数的无穷维Banach空间？",
+      "url": "https://www.zhihu.com/answer/1535128409",
+      "summary": "正文直接讨论巴拿赫空间，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "压缩映射定理为什么可以证明隐函数定理？",
+      "url": "https://www.zhihu.com/answer/1552548635",
+      "summary": "正文说明 Banach 空间完备性在压缩映射定理中的作用。"
+    },
+    {
+      "title": "为什么有限维赋范线性空间中的范数是等价的？",
+      "url": "https://www.zhihu.com/answer/1564610976",
+      "summary": "正文讨论赋范线性空间、范数等价与紧性。"
+    },
+    {
+      "title": "用算子半群方法研究偏微分方程的解，现在还有人做吗？关于算子半群理论应该学到什么程度？",
+      "url": "https://www.zhihu.com/answer/1627324496",
+      "summary": "正文指出进阶研究需要调和分析与巴拿赫空间理论。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/1666559057",
+      "summary": "正文用Banach空间中的共鸣定理解释反直觉结论。"
+    },
+    {
+      "title": "PDE 中的先验估计是什么意思？",
+      "url": "https://www.zhihu.com/answer/1696421962",
+      "summary": "正文在 Banach 空间中用弱收敛抽取收敛子列。"
+    },
+    {
+      "title": "Banach空间和Hilbert空间上的共轭算子有什么区别？",
+      "url": "https://www.zhihu.com/answer/2275765284",
+      "summary": "正文讨论 Banach 空间中的共轭算子及基的选取。"
+    },
+    {
+      "title": "泛函分析的精髓、基本套路、用途是什么？",
+      "url": "https://www.zhihu.com/answer/2304909703",
+      "summary": "正文列举 Banach 空间理论中的核心定理。"
+    },
+    {
+      "title": "如何理解希尔伯特空间？",
+      "url": "https://www.zhihu.com/answer/2572975608",
+      "summary": "在赋范空间和完备性基础上给出巴拿赫空间的定义，并区分其与希尔伯特空间。"
+    },
+    {
+      "title": "如何理解内积空间？",
+      "url": "https://www.zhihu.com/answer/2573091409",
+      "summary": "通过柯西列与完备性说明赋范空间的完备化，引出巴拿赫空间。"
+    },
+    {
+      "title": "既然勒贝格积分是黎曼积分的改进，那为什么还要学黎曼积分？淘汰黎曼积分，直接学勒贝格积分不好吗？",
+      "url": "https://www.zhihu.com/answer/2848430030",
+      "summary": "正文讨论 Banach 空间取值函数的黎曼积分、Bochner 积分及可分性要求。"
+    },
+    {
+      "title": "赋范线性空间中，对任意闭子空间A，是否都存在闭子空间B，使得它们的直和是全空间？",
+      "url": "https://www.zhihu.com/answer/2901783328",
+      "summary": "正文具体讨论 Banach 空间的自反性、同构类以及闭子空间是否有补子空间。"
+    },
+    {
+      "title": "如果 π 不再是 3.1415······，对世界会产生什么影响？",
+      "url": "https://www.zhihu.com/answer/2935582358",
+      "summary": "正文把平面距离的平方项推广为一般p次幂，并明确指出得到泛函分析中常见的L^p空间，作为巴拿赫空间的典型函数空间范例。"
+    },
+    {
+      "title": "你在教材中看到过最长的证明是什么？",
+      "url": "https://www.zhihu.com/answer/3500468785",
+      "summary": "正文定义有界解析函数空间 H∞，说明其在上确界范数下完备并对乘法封闭，构成 Banach 代数。"
+    },
+    {
+      "title": "为什么rudin实分析里有很多泛函分析的东西?",
+      "url": "https://www.zhihu.com/answer/3616520032",
+      "summary": "正文说明 Rudin 教材讲到 Banach 空间的基本结论，并用赋范线性空间中的 L^p 说明其应用。"
+    },
+    {
+      "title": "可以简明扼要地讲解一下测度论及其意义吗?",
+      "url": "https://www.zhihu.com/answer/4227597836",
+      "summary": "正文把勒贝格可积函数空间识别为完备赋范空间，并说明其巴拿赫空间结构。"
+    },
+    {
+      "title": "泛函分析的方法能简化数学分析里面哪些题目?",
+      "url": "https://www.zhihu.com/answer/43208987228",
+      "summary": "正文明确在巴拿赫空间与赋范空间上的有界线性算子框架中陈述共鸣定理。"
+    },
+    {
+      "title": "代数系统有哪些？群、环、域、格之外还有吗？",
+      "url": "https://www.zhihu.com/answer/109358751940",
+      "summary": "正文说明赋范向量空间在作为度量空间完备时构成 Banach 空间。"
+    },
+    {
+      "title": "数学中有哪些问题放到更大的空间/对象里解决起来变简单的例子？",
+      "url": "https://www.zhihu.com/answer/1899774061652968375",
+      "summary": "正文指出光滑函数空间不完备，并说明通过完备化得到可容纳弱解的 Sobolev 空间。"
+    },
+    {
+      "title": "李普希兹条件为什么能保证ODE解的存在唯一性？Lipschitz条件可否减弱？",
+      "url": "https://www.zhihu.com/answer/1918562807064008125",
+      "summary": "正文以连续函数空间在 L∞ 范数下构成完备 Banach 空间为前提，应用压缩映射定理证明 ODE 解的唯一性。"
+    },
+    {
+      "title": "是否存在处处连续但无处可微的函数? 如何构造？",
+      "url": "https://www.zhihu.com/answer/1927106506026877388",
+      "summary": "正文把 C[0,1] 配上 L∞ 范数构成巴拿赫空间，并利用其完备性应用 Baire 纲定理。"
+    },
+    {
+      "title": "无穷级数求和从哪一层面破坏了加法的对称性？",
+      "url": "https://www.zhihu.com/answer/1930660386694202718",
+      "summary": "正文以无限维巴拿赫空间不能承载平移不变的勒贝格测度，解释路径积分面临的严格分析困难。"
+    },
+    {
+      "title": "哪里有高斯过程详细的数学推导？",
+      "url": "https://www.zhihu.com/answer/1967599296091259508",
+      "summary": "正文将 Borel 测度与连续函数巴拿赫空间的对偶对应，作为证明精确分位数唯一性的工具。"
+    },
+    {
+      "title": "学习数学时，什么时候该停止考虑“几何意义”?",
+      "url": "https://www.zhihu.com/answer/2021670558799021568",
+      "summary": "正文以L^p范数和单位球形状解释脱离内积后进入巴拿赫空间的变化。"
+    },
+    {
+      "title": "证明完备性有没有套路可言？",
+      "url": "https://www.zhihu.com/answer/2032417728112367428",
+      "summary": "正文以闭子空间、商空间、级数判别和不动点定理说明 Banach 空间完备性的构造与传递。"
+    },
+    {
+      "title": "测度论和泛函分析有什么关系？",
+      "url": "https://www.zhihu.com/answer/2032888788322612002",
+      "summary": "正文把连续路径空间定义为 Banach 空间，并讨论其上的 Wiener 测度与紧性。"
+    },
+    {
+      "title": "如何理解开集、闭集、有界、完全有界、紧集、列紧集、自列紧集、稠密、完备等概念，学泛函，被这些概念绕晕？",
+      "url": "https://www.zhihu.com/answer/2035002239228585697",
+      "summary": "正文说明 Banach 空间中的闭图像定理和开映射定理如何由拓扑条件推出连续性与开映射性。"
+    },
+    {
+      "title": "为什么对于无穷维的线性空间需要引入拓扑来讨论？",
+      "url": "https://www.zhihu.com/answer/2035038060119848624",
+      "summary": "正文将 Banach 空间定义为完备赋范空间，并讨论其范数、收敛与相关基本定理。"
+    },
+    {
+      "title": "2.3 微积分的进化（3）——挤挤更健康",
+      "url": "https://zhuanlan.zhihu.com/p/20521510",
+      "summary": "正文用 p-范数构造 l^p 与 L^p 空间，并说明完备赋范空间即 Banach 空间。"
+    },
+    {
+      "title": "2.6* 微积分的进化（6）——高维光滑函数的超进化：条条大道通罗马",
+      "url": "https://zhuanlan.zhihu.com/p/20641394",
+      "summary": "正文利用 L^2 是 Banach 空间及其弱紧性，从有界梯度序列中取子列证明变分极小值可达。"
+    },
+    {
+      "title": "构造量子场论",
+      "url": "https://zhuanlan.zhihu.com/p/21721035",
+      "summary": "补充部分通过无穷维 Banach 空间中可放置任意多个互不相交等半径小球，证明不存在非平凡平移不变 Borel 测度。"
+    },
+    {
+      "title": "测度论（一）",
+      "url": "https://zhuanlan.zhihu.com/p/23977693",
+      "summary": "正文说明 L^p 空间是 Banach 空间，并在 Riesz 表示定理中讨论 C_0 等 Banach 空间。"
+    },
+    {
+      "title": "专栏：“分析的那些事”总纲",
+      "url": "https://zhuanlan.zhihu.com/p/25933450",
+      "summary": "正文把巴拿赫空间与压缩不动点定理列为核心模块，并说明其用于常微分方程存在唯一性。"
+    },
+    {
+      "title": "泛函分析简史（3）： 继承者们！",
+      "url": "https://zhuanlan.zhihu.com/p/26112911",
+      "summary": "正文定义范数与完备性，说明巴拿赫空间是完备赋范线性空间，并讨论其上的连续映射和导数。"
+    },
+    {
+      "title": "（I）Banach空间和不动点定理 （1）",
+      "url": "https://zhuanlan.zhihu.com/p/26346061",
+      "summary": "正文用柯西列收敛定义Banach空间，比较不完备空间并讨论完备化。"
+    },
+    {
+      "title": "（I）Banach空间和不动点定理 2 : 不动点定理和钟摆问题",
+      "url": "https://zhuanlan.zhihu.com/p/26365534",
+      "summary": "正文利用连续函数Banach空间的完备性构造积分算子，并由压缩映射保证不动点存在。"
+    },
+    {
+      "title": "（I）Banach空间和不动点定理 3: 紧性",
+      "url": "https://zhuanlan.zhihu.com/p/26519111",
+      "summary": "正文以Banach空间为框架讨论紧性、有界闭集和连续泛函，并说明无限维空间与有限维的差异。"
+    },
+    {
+      "title": "泛函分析（一）",
+      "url": "https://zhuanlan.zhihu.com/p/25472639",
+      "summary": "正文定义Banach空间，并讨论有界线性算子空间、闭图像、共鸣定理和算子延拓等内容，故对应Banach空间。"
+    },
+    {
+      "title": "一些简单的小结论",
+      "url": "https://zhuanlan.zhihu.com/p/27081423",
+      "summary": "正文围绕巴拿赫空间上的有界线性算子整理开映射、闭图像、一致有界及 Hahn-Banach 等定理。"
+    },
+    {
+      "title": "泛函分析，九阴真经",
+      "url": "https://zhuanlan.zhihu.com/p/33413827",
+      "summary": "正文定义完备赋范线性空间，并展开有界线性算子、Hahn-Banach 定理、对偶空间和弱收敛等巴拿赫空间理论。"
+    },
+    {
+      "title": "实分析|笔记整理（5）——勒贝格积分（2），L^1空间",
+      "url": "https://zhuanlan.zhihu.com/p/33616656",
+      "summary": "正文定义 L1 范数和度量，并证明 Riesz-Fischer 完备性，说明该赋范向量空间完备。"
+    },
+    {
+      "title": "分析之[一致收敛]",
+      "url": "https://zhuanlan.zhihu.com/p/35021111",
+      "summary": "正文以确界范数刻画一致收敛，并指出连续函数空间构成巴拿赫空间。"
+    },
+    {
+      "title": "非线性泛函分析导论（一）:变分法与Sobolev空间",
+      "url": "https://zhuanlan.zhihu.com/p/34483954",
+      "summary": "正文在 Banach 空间上定义泛函微分，并借助弱收敛、自反性及弱紧性讨论极值。"
+    },
+    {
+      "title": "MP38：泛函分析与量子力学",
+      "url": "https://zhuanlan.zhihu.com/p/46403590",
+      "summary": "正文定义巴拿赫空间，并给出 Lp 空间上的范数及完备性结论。"
+    },
+    {
+      "title": "从闭图像定理看算子的有界和连续",
+      "url": "https://zhuanlan.zhihu.com/p/49276709",
+      "summary": "正文明确把闭图像定理置于两个 Banach 空间之间，并利用定义域闭线性子空间推出连续性。"
+    },
+    {
+      "title": "MP101：泛函分析补习班(5)：算子半群",
+      "url": "https://zhuanlan.zhihu.com/p/56266672",
+      "summary": "正文以Banach空间为基本函数空间，讨论其上强连续线性算子半群的结构与生成元。"
+    },
+    {
+      "title": "杨氏不等式，赫尔德不等式，闵可夫斯基不等式的证明",
+      "url": "https://zhuanlan.zhihu.com/p/70315155",
+      "summary": "正文以闵可夫斯基不等式给出 L^p 范数的三角不等式，并明确得出 L^p 是 Banach 空间。"
+    },
+    {
+      "title": "从希尔伯特空间的角度看线性变换的一般思想和问题",
+      "url": "https://zhuanlan.zhihu.com/p/76969134",
+      "summary": "正文以完备参考系统为类比，解释Banach空间是完备赋范线性空间并连接函数分析。"
+    },
+    {
+      "title": "【泛函基础 2.2】赋范空间和 Banach 空间",
+      "url": "https://zhuanlan.zhihu.com/p/87785242",
+      "summary": "正文定义完备赋范空间为 Banach 空间，并证明其闭子空间仍为 Banach 空间。"
+    },
+    {
+      "title": "【泛函基础 2.4】有界线性算子",
+      "url": "https://zhuanlan.zhihu.com/p/90075848",
+      "summary": "正文证明有界线性算子空间在目标空间完备时构成 Banach 空间，并讨论其完备性。"
+    },
+    {
+      "title": "泛函分析学习笔记 I：线性算子",
+      "url": "https://zhuanlan.zhihu.com/p/90734643",
+      "summary": "正文证明有界线性算子空间在算子范数下构成 Banach 空间，并逐项验证范数条件。"
+    },
+    {
+      "title": "泛函分析学习笔记 V：共轭空间 & 自反空间",
+      "url": "https://zhuanlan.zhihu.com/p/92483203",
+      "summary": "正文以 Banach 空间及其连续线性泛函为基本对象，定义第二共轭空间并讨论等距嵌入与自反性。"
+    },
+    {
+      "title": "线性算子的谱理解之一：谱定义的理解",
+      "url": "https://zhuanlan.zhihu.com/p/93888049",
+      "summary": "正文明确讨论正则算子、逆算子定理和谱半径展开所需的Banach空间条件。"
+    },
+    {
+      "title": "【泛函基础 4.1】Hahn-Bannach 定理",
+      "url": "https://zhuanlan.zhihu.com/p/93694399",
+      "summary": "正文在完备赋范空间框架下讨论 Hahn-Banach 定理，并涉及有界变差函数空间等 Banach 空间结论。"
+    },
+    {
+      "title": "偏微分方程笔记(14)——Banach空间与Hilbert空间简介",
+      "url": "https://zhuanlan.zhihu.com/p/97360087",
+      "summary": "正文以Cauchy列的完备性定义Banach空间，并证明压缩映像原理等基本性质。"
+    },
+    {
+      "title": "偏微分方程笔记(15)——Lp空间, Hölder空间, 磨光子",
+      "url": "https://zhuanlan.zhihu.com/p/97713317",
+      "summary": "正文明确讨论 Banach 空间，并证明 Lp 空间和 Hölder 空间都是 Banach 空间。"
+    },
+    {
+      "title": "【泛函基础 4.3】强收敛与弱收敛",
+      "url": "https://zhuanlan.zhihu.com/p/97442266",
+      "summary": "正文在Banach空间中讨论有界线性算子的强弱收敛性质，并用一致有界性定理证明相关结论。"
+    },
+    {
+      "title": "偏微分方程笔记(16)——弱导数、Sobolev空间",
+      "url": "https://zhuanlan.zhihu.com/p/98143530",
+      "summary": "正文证明Sobolev空间在给定范数下完备，从而是Banach空间。"
+    },
+    {
+      "title": "泛函分析期末总结(已凉)",
+      "url": "https://zhuanlan.zhihu.com/p/99125898",
+      "summary": "正文以 Banach 空间完备性为前提陈述并解释一致有界原理、开映射定理和闭图像定理。"
+    },
+    {
+      "title": "反问题的数学和物理诠释",
+      "url": "https://zhuanlan.zhihu.com/p/105755407",
+      "summary": "正文在巴拿赫空间及更强子空间范数下定义反问题的最坏误差，说明受限空间正则化如何恢复稳定性估计。"
+    },
+    {
+      "title": "无限维赋范线性空间与有限维的区别",
+      "url": "https://zhuanlan.zhihu.com/p/105887214",
+      "summary": "正文以自反Banach空间的弱列紧性对比有限维情形，并展开单位闭球与空间维数的关系。"
+    },
+    {
+      "title": "泛函分析笔记（19）对偶空间与伴随算子",
+      "url": "https://zhuanlan.zhihu.com/p/108388982",
+      "summary": "正文从标量域完备性推出对偶空间完备，并明确讨论其巴拿赫空间结构。"
+    },
+    {
+      "title": "希尔伯特空间",
+      "url": "https://zhuanlan.zhihu.com/p/113197869",
+      "summary": "正文在空间关系总结中明确给出巴拿赫空间的完备赋范线性空间定义。"
+    },
+    {
+      "title": "实分析笔记——Lp空间",
+      "url": "https://zhuanlan.zhihu.com/p/159125371",
+      "summary": "正文证明Lp在p至少为1时满足范数公理并完备，因此构成Banach空间。"
+    },
+    {
+      "title": "evans的pde的读书报告",
+      "url": "https://zhuanlan.zhihu.com/p/191175092",
+      "summary": "正文指出 Sobolev 空间是 Banach 空间，并提到嵌入定理及有界点列可取得收敛子列。"
+    },
+    {
+      "title": "《经济动态的递归方法》解读（2）：动态规划的分析学基础",
+      "url": "https://zhuanlan.zhihu.com/p/193145156",
+      "summary": "正文在有界连续函数空间 C(X) 上定义 sup 范数，说明其为 Banach 空间，并借助压缩映射与不动点定理证明 Bellman 方程解的存在唯一性。"
+    },
+    {
+      "title": "泛函分析(1)：赋范线性空间",
+      "url": "https://zhuanlan.zhihu.com/p/254872545",
+      "summary": "正文定义 Banach 空间，并说明闭子空间、商空间与积空间在完备性下仍构成 Banach 空间。"
+    },
+    {
+      "title": "紧性I:  Arzela-Ascoli定理、Shauder、Rellich-Kondrachov",
+      "url": "https://zhuanlan.zhihu.com/p/334803450",
+      "summary": "正文在 Banach 空间框架下证明紧算子的伴随仍为紧算子。"
+    },
+    {
+      "title": "紧性II: Banach-Alaoglu定理",
+      "url": "https://zhuanlan.zhihu.com/p/334803931",
+      "summary": "正文以 Banach 空间的对偶空间为对象证明有界序列的弱星收敛子列存在性。"
+    },
+    {
+      "title": "什么是完美胚空间（perfectoid space）？",
+      "url": "https://zhuanlan.zhihu.com/p/340038681",
+      "summary": "正文以巴拿赫 K 代数作为完美胚空间的基础定义对象，并给出具体巴拿赫代数例子。"
+    },
+    {
+      "title": "第五章  共轭空间和共轭算子",
+      "url": "https://zhuanlan.zhihu.com/p/341685805",
+      "summary": "正文在Banach空间上定义共轭算子，并证明其有界性、范数、复合和逆算子等性质。"
+    },
+    {
+      "title": "l^p空间和L^P空间",
+      "url": "https://zhuanlan.zhihu.com/p/349718788",
+      "summary": "正文定义若干L^p和l^p空间并说明它们作为Banach空间的完备性与可分性。"
+    },
+    {
+      "title": "泛函分析(7): 弱收敛",
+      "url": "https://zhuanlan.zhihu.com/p/348809164",
+      "summary": "正文在 Banach 空间及其对偶空间中讨论弱*收敛、共鸣定理和自反空间性质。"
+    },
+    {
+      "title": "一些泛函的结论与练习（一）",
+      "url": "https://zhuanlan.zhihu.com/p/361679494",
+      "summary": "正文以完备性和绝对收敛性刻画巴拿赫空间，并讨论闭子空间、商空间及 Banach Limit。"
+    },
+    {
+      "title": "泛函分析知识体系梳理",
+      "url": "https://zhuanlan.zhihu.com/p/362006321",
+      "summary": "正文说明完备赋范线性空间构成Banach空间，并讨论其上的有界线性算子基本定理。"
+    },
+    {
+      "title": "泛函分析（七）第六章 线性算子的谱理论",
+      "url": "https://zhuanlan.zhihu.com/p/365254746",
+      "summary": "正文在 Banach 空间上定义谱点，并证明有界算子谱集是有界闭集且非空。"
+    },
+    {
+      "title": "实变函数补充（2）：L^p空间的完备性与可分性",
+      "url": "https://zhuanlan.zhihu.com/p/389323582",
+      "summary": "正文证明 Lp 空间中的 Cauchy 列收敛，从而验证其作为完备赋范空间即 Banach 空间的性质。"
+    },
+    {
+      "title": "泛函分析总结",
+      "url": "https://zhuanlan.zhihu.com/p/403856995",
+      "summary": "正文明确给出巴拿赫空间的定义，并列举 c、c0、Lp 和 lp 等空间。"
+    },
+    {
+      "title": "注孤生的空间——有趣的泛函小例子",
+      "url": "https://zhuanlan.zhihu.com/p/404552953",
+      "summary": "正文以有界线性算子、无穷维 Banach 空间及其 Hamel 基为例说明 Banach 空间的结构性质。"
+    },
+    {
+      "title": "从Bellman算子的角度看待策略迭代（Policy Iteration）、价值迭代（Value Iteration）",
+      "url": "https://zhuanlan.zhihu.com/p/419208786",
+      "summary": "正文在带 L∞ 范数的完备向量空间中证明贝尔曼算子的压缩性，并用巴拿赫不动点定理说明唯一解。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】1.4 线性赋范空间（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/459003972",
+      "summary": "正文明确以完备性定义 Banach 空间，并进一步讨论有限维赋范空间的完备性。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】1.5 凸集与不动点（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/460462916",
+      "summary": "正文在 Banach 空间中讨论闭凸集的 Minkowski 泛函，并陈述 Schauder 不动点定理。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】2.3 纲与开映像定理（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/463889203",
+      "summary": "正文在 Banach 空间框架下讨论线性算子的开性、闭性和一致有界性，并解释完备性的作用。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】2.4 Hahn-Banach定理（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/464961608",
+      "summary": "正文在 Banach 空间中陈述保范延拓定理，并推出连续线性泛函足够多及凸集分离等结论。"
+    },
+    {
+      "title": "泛函分析 初步总结",
+      "url": "https://zhuanlan.zhihu.com/p/469533751",
+      "summary": "正文讨论赋范线性空间与 Banach 空间的完备性、有界算子、一致有界原则和开映射等核心结论。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】2.5 共轭空间·弱收敛·自反空间（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/477087888",
+      "summary": "正文以全体连续线性泛函和算子范数构成完备空间，具体展开巴拿赫空间及其第二共轭。"
+    },
+    {
+      "title": "【泛函分析讲义-张恭庆】2.6 线性算子的谱（课本内容讲解）",
+      "url": "https://zhuanlan.zhihu.com/p/482580129",
+      "summary": "正文在 Banach 空间上讨论有界线性算子及其谱集和非空性定理。"
+    },
+    {
+      "title": "Sobolev空间(1)",
+      "url": "https://zhuanlan.zhihu.com/p/503020931",
+      "summary": "正文证明 Sobolev 空间在相应范数下完备，因此构成 Banach 空间。"
+    },
+    {
+      "title": "【量子力学+】C*-代数与态公设",
+      "url": "https://zhuanlan.zhihu.com/p/503883263",
+      "summary": "正文从完备范数和次乘性定义 Banach 代数，再进一步构造 C*-代数。"
+    },
+    {
+      "title": "什么是数学中的各种空间：线性空间、度量空间、赋范空间、内积空间、欧几里得空间、希尔伯特空间、巴拿赫空间？",
+      "url": "https://zhuanlan.zhihu.com/p/541226732",
+      "summary": "正文明确把巴拿赫空间定义为完备赋范空间，并说明范数、距离及完备性的层次关系。"
+    },
+    {
+      "title": "（泛函分析中的）谱理论速成",
+      "url": "https://zhuanlan.zhihu.com/p/566107266",
+      "summary": "正文以完备赋范线性空间定义 Banach 空间，并讨论其上有界线性算子的谱。"
+    },
+    {
+      "title": "Baire纲定理(Baire Category Theorem)",
+      "url": "https://zhuanlan.zhihu.com/p/612181451",
+      "summary": "正文在 Banach 空间上证明连续函数列的极限函数其不连续点集为第一纲集。"
+    },
+    {
+      "title": "现代函数分析学的核心——巴拿赫空间，一个令人惊叹的数学结构",
+      "url": "https://zhuanlan.zhihu.com/p/622785580",
+      "summary": "正文给出巴拿赫空间的完备赋范线性空间定义，并解释范数、度量完备性与柯西序列。"
+    },
+    {
+      "title": "泛函中常用的几个定理",
+      "url": "https://zhuanlan.zhihu.com/p/632621418",
+      "summary": "正文陈述 Banach-Alaoglu 定理，并结合对偶空间、紧算子与 Sobolev 空间展开 Banach 空间方法。"
+    },
+    {
+      "title": "隐函数定理的三种证明",
+      "url": "https://zhuanlan.zhihu.com/p/648232832",
+      "summary": "正文在 Banach 空间中定义压缩映射，并用 Banach 不动点定理证明隐函数定理。"
+    },
+    {
+      "title": "多项式逼近与Weierstrass-Stone定理",
+      "url": "https://zhuanlan.zhihu.com/p/650708724",
+      "summary": "正文在Banach空间、紧集和连续函数空间中证明Weierstrass-Stone定理及其稠密性。"
+    },
+    {
+      "title": "泛函分析笔记",
+      "url": "https://zhuanlan.zhihu.com/p/669724017",
+      "summary": "正文定义Banach空间并展开范数、完备性、紧性及相关算子定理。"
+    },
+    {
+      "title": "分析学概论",
+      "url": "https://zhuanlan.zhihu.com/p/677152460",
+      "summary": "正文定义 Banach 空间并讲解完备性、开映射定理、一致有界定理、闭图像定理及 Hahn-Banach 定理。"
+    },
+    {
+      "title": "实变函数&泛函分析补充: lp空间",
+      "url": "https://zhuanlan.zhihu.com/p/677055495",
+      "summary": "正文证明 Riesz-Fisher 定理，以 Cauchy 列和子列收敛论证 L^p 与 ell^p 的完备性，并明确使用 Banach 空间结构。"
+    },
+    {
+      "title": "漫谈数学中的各种空间：度量空间，线性空间，度量线性空间，赋范线性空间，内积空间，欧几里得空间，巴拿赫空间，希尔伯特空间，再生核希尔伯特空间",
+      "url": "https://zhuanlan.zhihu.com/p/684643954",
+      "summary": "正文定义赋范线性空间的范数公理，并以柯西序列极限解释巴拿赫空间的完备性。"
+    },
+    {
+      "title": "无穷维空间里的秩序：泛函分析入门",
+      "url": "https://zhuanlan.zhihu.com/p/2047966979009651330",
+      "summary": "正文从范数、柯西序列和完备性定义巴拿赫空间，并说明其保证极限运算封闭。"
+    }
+  ]
+}

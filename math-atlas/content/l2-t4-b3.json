@@ -1,0 +1,2561 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l2-t4-b3",
+  "sources": [
+    {
+      "title": "有人说圆周率实际上等于 4，这是真的么？",
+      "url": "https://www.zhihu.com/answer/13770076",
+      "summary": "针对“圆周率等于4”的伪证明，指出面积逼近不保证周长逼近；原文关于分形的说法不宜视为严格解释。"
+    },
+    {
+      "title": "无理数如 π，其小数位是否存在形如「123456789」连续的数字组合？",
+      "url": "https://www.zhihu.com/answer/19016269",
+      "summary": "正文围绕「无理数如 π，其小数位是否存在形如「123456789」连续的数字组合？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "这个高精度的圆周率近似公式是真的么？",
+      "url": "https://www.zhihu.com/answer/19862596",
+      "summary": "正文围绕「这个高精度的圆周率近似公式是真的么？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "为什么背诵 π 前1000位的人多，而背诵 e 的人却几乎找不到？",
+      "url": "https://www.zhihu.com/answer/22046923",
+      "summary": "正文围绕「为什么背诵 π 前1000位的人多，而背诵 e 的人却几乎找不到？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "如何记住圆周率小数点后 100 位？",
+      "url": "https://www.zhihu.com/answer/23296608",
+      "summary": "正文围绕「如何记住圆周率小数点后 100 位？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
+    },
+    {
+      "title": "为什么背诵 π 前1000位的人多，而背诵 e 的人却几乎找不到？",
+      "url": "https://www.zhihu.com/answer/26547403",
+      "summary": "正文说明圆周率在基础教育和祖冲之计算史中的广泛知名度。"
+    },
+    {
+      "title": "用计算机算圆周率，是个怎样的过程？",
+      "url": "https://www.zhihu.com/answer/27202250",
+      "summary": "正文围绕“圆周率”给出直接说明。"
+    },
+    {
+      "title": "π 是怎么算出来的？",
+      "url": "https://www.zhihu.com/answer/29526953",
+      "summary": "正文围绕“圆周率”给出说明、例证或方法。"
+    },
+    {
+      "title": "为什么圆周率是无理数 pi，而不是一个有理数？",
+      "url": "https://www.zhihu.com/answer/30258861",
+      "summary": "正文围绕“圆周率”给出说明、例证或方法。"
+    },
+    {
+      "title": "有哪些美丽或神奇的理科公式？",
+      "url": "https://www.zhihu.com/answer/32621450",
+      "summary": "介绍梅钦公式作为快速计算圆周率的经典公式。"
+    },
+    {
+      "title": "π是如何定义的？",
+      "url": "https://www.zhihu.com/answer/45109229",
+      "summary": "正文给出以正弦函数首个正零点定义圆周率的分析定义。"
+    },
+    {
+      "title": "如何证明 π > 3.05 ？",
+      "url": "https://www.zhihu.com/answer/46137984",
+      "summary": "正文用圆的内接正十二边形给圆周率下界。"
+    },
+    {
+      "title": "我在一家餐厅吃饭花了 π 元，餐厅不找零不刷卡只收现金，该如何解决这个问题？",
+      "url": "https://www.zhihu.com/answer/56473531",
+      "summary": "正文通过硬币滚动测圆周长并构造以圆周率倍面积的圆。"
+    },
+    {
+      "title": "有哪些民科、民哲的奇葩理论或体系？",
+      "url": "https://www.zhihu.com/answer/68380149",
+      "summary": "正文以印第安纳圆周率法案说明圆周率与化圆为方。"
+    },
+    {
+      "title": "无限不循环小数中包含任何一组数列吗？",
+      "url": "https://www.zhihu.com/answer/69187016",
+      "summary": "正文以 π 为对象讨论数字展开的正规性。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/81412286",
+      "summary": "正文集中展开圆周率与生日等数字串的关系、蒲丰投针及多个圆周率级数公式。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/86697589",
+      "summary": "正文专门介绍圆周率、祖冲之上下界与 22/7 近似值。"
+    },
+    {
+      "title": "如何求解这个小球碰撞次数与圆周率关系的趣味问题？",
+      "url": "https://www.zhihu.com/answer/91498994",
+      "summary": "正文推导小球碰撞次数在大质量比下近似为圆周率乘质量比平方根。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/94285941",
+      "summary": "正文由倒数和收敛引出巴塞尔问题，并给出其闭式答案。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/99864516",
+      "summary": "正文展示弹性碰撞次数随质量比逼近圆周率数字的现象。"
+    },
+    {
+      "title": "有哪些类似于七桥问题的有趣数学定理？",
+      "url": "https://www.zhihu.com/answer/102358045",
+      "summary": "正文以 BBP 公式说明圆周率任意一位小数的直接计算及其计算机应用。"
+    },
+    {
+      "title": "民科是否很少攻击数学？",
+      "url": "https://www.zhihu.com/answer/104421946",
+      "summary": "正文用印第安纳圆周率法案讲述错误证明试图把圆周率定为 3.2 的数学史故事。"
+    },
+    {
+      "title": "用正方形逼近圆，得到 π 值为 4 的结论，错在哪里？",
+      "url": "https://www.zhihu.com/answer/120947697",
+      "summary": "正文解释用锯齿折线逼近圆却得到π=4时，角度与周长并未按所需方式逼近圆。"
+    },
+    {
+      "title": "如何理解圆周率 π？",
+      "url": "https://www.zhihu.com/answer/128451499",
+      "summary": "正文从单位圆周长、尺规作图与超越数解释圆周率。"
+    },
+    {
+      "title": "怎么向小学生解释欧拉公式 e^(πi)+1=0？",
+      "url": "https://www.zhihu.com/answer/135331130",
+      "summary": "正文以单位圆半周长度解释 π 在欧拉公式中的几何角色。"
+    },
+    {
+      "title": "有没有目前不知道是否收敛的级数?",
+      "url": "https://www.zhihu.com/answer/137049086",
+      "summary": "正文讨论 π 的无理测度上界与 Flint Hills 级数收敛的关系。"
+    },
+    {
+      "title": "割圆曲线是什么样的曲线？",
+      "url": "https://www.zhihu.com/answer/137257200",
+      "summary": "正文解释化圆为方等价于构造 √π，并说明 π 的超越性造成尺规作图限制。"
+    },
+    {
+      "title": "既然圆周率＝圆周长/圆直径，那么圆周率怎么会是个无限不循环小数？",
+      "url": "https://www.zhihu.com/answer/139672223",
+      "summary": "正文围绕圆周率的无理性及其小数性质展开。"
+    },
+    {
+      "title": "为什么π是3.1415926...？",
+      "url": "https://www.zhihu.com/answer/140517013",
+      "summary": "正文推导 n 维球表面积与截面积之比中圆周率的出现。"
+    },
+    {
+      "title": "怎么做才能把圆周率改成 3.15？改完以后世界会是啥样？",
+      "url": "https://www.zhihu.com/answer/147799498",
+      "summary": "正文说明改变距离定义会改变圆及周长直径比，从而讨论圆周率的定义边界。"
+    },
+    {
+      "title": "怎么做才能把圆周率改成 3.15？改完以后世界会是啥样？",
+      "url": "https://www.zhihu.com/answer/148278019",
+      "summary": "正文通过拉直圆周并改变路径长度构造不同圆周率，实质讨论圆周率的几何定义。"
+    },
+    {
+      "title": "怎么做才能把圆周率改成 3.15？改完以后世界会是啥样？",
+      "url": "https://www.zhihu.com/answer/148339409",
+      "summary": "正文以不同度量和 p 范数推导不同的圆及圆周率，属于圆周率的几何解释。"
+    },
+    {
+      "title": "那些打破圆周率小数位计算的记录是怎么判断计算得正不正确的？",
+      "url": "https://www.zhihu.com/answer/150873781",
+      "summary": "正文完整解释 BBP 公式如何跳位计算和抽检圆周率数字。"
+    },
+    {
+      "title": "科学史上有哪些巧妙的实验？",
+      "url": "https://www.zhihu.com/answer/151686896",
+      "summary": "正文给出投针相交概率与 π 的关系，说明如何由实验反推圆周率。"
+    },
+    {
+      "title": "幂级数有类似于韦达定理的结果吗？",
+      "url": "https://www.zhihu.com/answer/152748391",
+      "summary": "正文比较正弦级数与零点乘积的二次项系数，推导出倒数平方和等于 π²/6。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/184777168",
+      "summary": "正文以圆内格点数逼近圆面积，最终推导圆周率的莱布尼兹级数。"
+    },
+    {
+      "title": "祖冲之的圆周率的出处在哪里？",
+      "url": "https://www.zhihu.com/answer/185348728",
+      "summary": "正文说明刘徽割圆术如何用内接正多边形逼近圆周，并梳理祖冲之圆周率上下界的史料出处。"
+    },
+    {
+      "title": "如何尽可能精确地称量 π 斤肉？",
+      "url": "https://www.zhihu.com/answer/193972644",
+      "summary": "正文利用圆周与直径的 π 比例制作长度为 π 的杠杆臂。"
+    },
+    {
+      "title": "如何尽可能精确地称量 π 斤肉？",
+      "url": "https://www.zhihu.com/answer/194028284",
+      "summary": "正文利用圆面积与外接正方形面积之比 π/4 称量 π 斤。"
+    },
+    {
+      "title": "如何尽可能精确地称量 π 斤肉？",
+      "url": "https://www.zhihu.com/answer/194462831",
+      "summary": "正文用圆周率的精确定义和圆面积关系解释如何避免小数近似误差。"
+    },
+    {
+      "title": "如何尽可能精确地称量 π 斤肉？",
+      "url": "https://www.zhihu.com/answer/194710981",
+      "summary": "正文把圆柱底面积中的 π 转化为水的重量，给出称量 π 斤的几何构造。"
+    },
+    {
+      "title": "古代中国是不是总是领先于世界？如果三百年前发生工业革命保持领先会发生什么?",
+      "url": "https://www.zhihu.com/answer/196252858",
+      "summary": "正文讲述刘徽割圆术、祖冲之精度及阿基米德独立发现，实质涉及圆周率计算史。"
+    },
+    {
+      "title": "如何尽可能精确地称量 π 斤肉？",
+      "url": "https://www.zhihu.com/answer/196394364",
+      "summary": "正文讨论用秤的有限精度对 π 作相应位数近似及误差边界。"
+    },
+    {
+      "title": "科学家做过哪些匪夷所思的实验？",
+      "url": "https://www.zhihu.com/answer/224745100",
+      "summary": "正文给出蒲丰投针估计圆周率的实验步骤和概率公式。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/226469893",
+      "summary": "正文用内接正多边形周长下逼近圆周率并给出边数阈值。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/227629455",
+      "summary": "正文用正积分给出圆周率大于 3.14 的数值下界。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/227929794",
+      "summary": "正文用积分数列的下界证明圆周率大于 3.14。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/228167441",
+      "summary": "正文比较割圆、迭代、级数和积分等多种圆周率估计方法。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/228180779",
+      "summary": "正文用正多边形和积分两种方法证明圆周率下界。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/228634271",
+      "summary": "正文用拉马努金级数首项快速给出圆周率多位近似。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/229084700",
+      "summary": "正文推导平方倒数和等于圆周率平方的六分之一。"
+    },
+    {
+      "title": "π 是怎么算出来的？",
+      "url": "https://www.zhihu.com/answer/245491063",
+      "summary": "正文完整推导内外接多边形逼近和计算圆周率的方法。"
+    },
+    {
+      "title": "中国真的在文化、数学上都曾经领先世界几百年吗？",
+      "url": "https://www.zhihu.com/answer/246571788",
+      "summary": "正文推导阿基米德和刘徽割圆术计算圆周率的递推过程。"
+    },
+    {
+      "title": "如何证明韦达给出的圆周率的计算公式？",
+      "url": "https://www.zhihu.com/answer/251937327",
+      "summary": "正文由三角倍角公式和无穷乘积推导韦达圆周率公式。"
+    },
+    {
+      "title": "有哪些美丽或神奇的理科公式？",
+      "url": "https://www.zhihu.com/answer/252456548",
+      "summary": "正文给出并说明韦达计算圆周率的无穷乘积。"
+    },
+    {
+      "title": "祖冲之的割圆术求圆周率是否过于繁琐？",
+      "url": "https://www.zhihu.com/answer/261039547",
+      "summary": "正文比较测量、割圆术和无穷级数计算圆周率的方法。"
+    },
+    {
+      "title": "祖冲之的割圆术求圆周率是否过于繁琐？",
+      "url": "https://www.zhihu.com/answer/261683501",
+      "summary": "正文解释割圆法为何比直接测量更适合求精确圆周率。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/261789288",
+      "summary": "正文用围线不足一周的直观现象说明圆周率大于 3.14。"
+    },
+    {
+      "title": "有哪些美丽或神奇的理科公式？",
+      "url": "https://www.zhihu.com/answer/266846441",
+      "summary": "正文展示并解释拉马努金等多类圆周率级数公式及其收敛背景。"
+    },
+    {
+      "title": "怎么理解数学里的点火公式？",
+      "url": "https://www.zhihu.com/answer/275580212",
+      "summary": "正文通过夹逼推导 Wallis 公式及圆周率表达。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/303813857",
+      "summary": "正文列出多种圆周率公式并从反正切级数推导基本计算式。"
+    },
+    {
+      "title": "中国古代数学有什么成就？",
+      "url": "https://www.zhihu.com/answer/311168238",
+      "summary": "正文介绍刘徽割圆术、祖冲之的上下界和分数近似，并比较其历史领先时间。"
+    },
+    {
+      "title": "圆周率 π 在实际工程领域最多用到了多少位？",
+      "url": "https://www.zhihu.com/answer/326863751",
+      "summary": "正文用工程实例说明圆周率所需精度。"
+    },
+    {
+      "title": "圆周率里包含你的银行卡密码吗？",
+      "url": "https://www.zhihu.com/answer/329853131",
+      "summary": "正文通过大规模实验研究圆周率数字序列。"
+    },
+    {
+      "title": "圆周率里包含你的银行卡密码吗？",
+      "url": "https://www.zhihu.com/answer/330182716",
+      "summary": "正文说明圆周率的合取性与正规性仍未解决。"
+    },
+    {
+      "title": "圆周率里包含你的银行卡密码吗？",
+      "url": "https://www.zhihu.com/answer/340425463",
+      "summary": "正文用古今逼近方法、无理性与超越性以及合取数问题实质展开圆周率这一主题。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/395357611",
+      "summary": "正文推导巴塞尔问题平方倒数和与圆周率的关系。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/397765873",
+      "summary": "正文推导平方倒数和等于圆周率平方除以六。"
+    },
+    {
+      "title": "圆周率中各个位数字是不是「均匀分布的」？比如取 100 万位，是否每个数字出现次数都在 10 万左右？",
+      "url": "https://www.zhihu.com/answer/406459141",
+      "summary": "正文专门讨论圆周率是否为绝对正规数。"
+    },
+    {
+      "title": "圆周率 π 是否隐藏了本个宇宙的设计者留给这个宇宙的智慧文明的某种信息？",
+      "url": "https://www.zhihu.com/answer/406464101",
+      "summary": "正文围绕圆周率为正规数时其数字串性质展开。"
+    },
+    {
+      "title": "圆周率中各个位数字是不是「均匀分布的」？比如取 100 万位，是否每个数字出现次数都在 10 万左右？",
+      "url": "https://www.zhihu.com/answer/406490687",
+      "summary": "正文对圆周率不同位数的十进制数字做实验统计。"
+    },
+    {
+      "title": "世界上是不是不存在完美的圆？",
+      "url": "https://www.zhihu.com/answer/441715435",
+      "summary": "正文解释圆周率作为圆周长与直径的恒定比值及其逼近。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/459031910",
+      "summary": "正文讨论圆周率在级数和随机投针中的出现与计算。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/459111173",
+      "summary": "正文说明圆周率的实际精度需求。"
+    },
+    {
+      "title": "圆周率是什么？",
+      "url": "https://www.zhihu.com/answer/478702918",
+      "summary": "正文定义圆周率为圆周长与直径的恒定比值。"
+    },
+    {
+      "title": "如果换一种几何，圆周率的值会变么？",
+      "url": "https://www.zhihu.com/answer/500971538",
+      "summary": "说明球面上的圆周率依赖尺度，并在小邻域内趋近通常的 π。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/503419900",
+      "summary": "推导平方倒数和与四次方倒数和的 π 幂闭式。"
+    },
+    {
+      "title": "用正方形逼近圆，得到 π 值为 4 的结论，错在哪里？",
+      "url": "https://www.zhihu.com/answer/519966118",
+      "summary": "全文解释用折角正方形估计圆周率得 4 的错误。"
+    },
+    {
+      "title": "古代怎么计算圆周率？",
+      "url": "https://www.zhihu.com/answer/525754365",
+      "summary": "梳理古代以多边形逼近圆并逐步提高圆周率精度的方法。"
+    },
+    {
+      "title": "圆周率 π 是否隐藏了本个宇宙的设计者留给这个宇宙的智慧文明的某种信息？",
+      "url": "https://www.zhihu.com/answer/532263257",
+      "summary": "正文以圆周率的小数展开讨论其中出现有限数字串的意义与信息解释。"
+    },
+    {
+      "title": "π 的存在是否意味着人类永远也无法精确的计算出宇宙的各种特征？",
+      "url": "https://www.zhihu.com/answer/537477153",
+      "summary": "正文直接讨论圆周率无穷小数与宇宙测量精度之间是否有关。"
+    },
+    {
+      "title": "为什么 π 等于 3.14…？",
+      "url": "https://www.zhihu.com/answer/550266355",
+      "summary": "正文讨论圆周率常数在欧氏与非欧几何中的角色。"
+    },
+    {
+      "title": "sin(弧度制) 是什么意思？",
+      "url": "https://www.zhihu.com/answer/553590511",
+      "summary": "说明周角为 2π 来自圆周长与半径之比。"
+    },
+    {
+      "title": "有没有可能把 π 或 e 等无理数当成 1，这样就能使许多定理显而易见？",
+      "url": "https://www.zhihu.com/answer/562066166",
+      "summary": "正文明确讨论 π 作为无量纲数学常数的性质。"
+    },
+    {
+      "title": "有没有可能把 π 或 e 等无理数当成 1，这样就能使许多定理显而易见？",
+      "url": "https://www.zhihu.com/answer/562875607",
+      "summary": "正文把圆周率定义为圆周长与直径之比，说明符号替换不会改变其性质。"
+    },
+    {
+      "title": "为什么 π 等于 3.14…？",
+      "url": "https://www.zhihu.com/answer/566113023",
+      "summary": "从圆周率定义、历史逼近和多边形方法解释 π 的数值来源。"
+    },
+    {
+      "title": "数列 {n·sinn} 及 {n²·sinn} 中能挑出一个收敛子列吗？",
+      "url": "https://www.zhihu.com/answer/567110087",
+      "summary": "把问题转化为 π 的有理逼近误差。"
+    },
+    {
+      "title": "可以找到两个整数，使其之比最接近 π 吗？",
+      "url": "https://www.zhihu.com/answer/567820595",
+      "summary": "围绕 π 的有理逼近解释任意候选比值都可进一步改进。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/571649720",
+      "summary": "正文解释圆周率的定义与恒定性。"
+    },
+    {
+      "title": "连分式近似怎么操作？",
+      "url": "https://www.zhihu.com/answer/573148611",
+      "summary": "正文以圆周率为无限连分数近似实例。"
+    },
+    {
+      "title": "可以找到两个质数，他们的比值最接近 π 吗？",
+      "url": "https://www.zhihu.com/answer/579386567",
+      "summary": "正文以逼近 π 说明不存在最接近的素数比值。"
+    },
+    {
+      "title": "为什么任给一个圆，它的圆周长和直径比值都是常数？",
+      "url": "https://www.zhihu.com/answer/580702880",
+      "summary": "解释圆周率作为圆周长与直径之比的恒定性。"
+    },
+    {
+      "title": "数学中有哪些看起来很不可思议的知识？",
+      "url": "https://www.zhihu.com/answer/580710843",
+      "summary": "给出含圆周率的高维球体积级数关系。"
+    },
+    {
+      "title": "为什么任给一个圆，它的圆周长和直径比值都是常数？",
+      "url": "https://www.zhihu.com/answer/581309241",
+      "summary": "澄清圆周率常数与不同几何度量的关系。"
+    },
+    {
+      "title": "角度制与弧度制意义是否相同？",
+      "url": "https://www.zhihu.com/answer/586104294",
+      "summary": "说明整圆弧度与圆周率的关系。"
+    },
+    {
+      "title": "为什么数学与自然科学中许多公式、定理、定律会与 π 有联系？",
+      "url": "https://www.zhihu.com/answer/587039468",
+      "summary": "从旋转对称、圆和周期结构解释 π 为何频繁出现。"
+    },
+    {
+      "title": "为什么导数欧拉公式等只有用弧度制才成立？",
+      "url": "https://www.zhihu.com/answer/598452981",
+      "summary": "正文说明角度制换算到弧度需引入 π。"
+    },
+    {
+      "title": "目前求 π 的算法中哪种收敛最快？",
+      "url": "https://www.zhihu.com/answer/601728029",
+      "summary": "正文比较多个圆周率级数和迭代算法。"
+    },
+    {
+      "title": "有什么有趣的数学题？",
+      "url": "https://www.zhihu.com/answer/640080196",
+      "summary": "介绍圆周率定义、近似值及多种无穷乘积和级数公式。"
+    },
+    {
+      "title": "圆周率里包含你的银行卡密码吗？",
+      "url": "https://www.zhihu.com/answer/651038804",
+      "summary": "介绍圆周率定义、割圆近似及正规数问题。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/663467891",
+      "summary": "由正弦函数的无穷乘积推导圆周率相关公式。"
+    },
+    {
+      "title": "千年后证明费马大定理会否变成高中数学课后习题？",
+      "url": "https://www.zhihu.com/answer/722410548",
+      "summary": "讨论阿基米德计算圆周率的方法。"
+    },
+    {
+      "title": "拉马努金是怎么发现那些壮观的公式的？",
+      "url": "https://www.zhihu.com/answer/727813608",
+      "summary": "用拉马努金公式高精度计算圆周率。"
+    },
+    {
+      "title": "数学界有哪些未解之谜？",
+      "url": "https://www.zhihu.com/answer/748413878",
+      "summary": "正文用一节讨论π的十进制正规性仍未证明。"
+    },
+    {
+      "title": "如何用初等数学证明 π 不是有理数？",
+      "url": "https://www.zhihu.com/answer/749102576",
+      "summary": "正文围绕证明π无理性给出完整积分证明。"
+    },
+    {
+      "title": "若 π 被证明是有理数会对世界有何影响？",
+      "url": "https://www.zhihu.com/answer/751045874",
+      "summary": "给出π在实数体系中的定义。"
+    },
+    {
+      "title": "如何用初等数学证明 π 不是有理数？",
+      "url": "https://www.zhihu.com/answer/754367401",
+      "summary": "正文讨论π的严格定义并用Niven积分构造证明其无理性。"
+    },
+    {
+      "title": "有哪些有趣的概率问题？",
+      "url": "https://www.zhihu.com/answer/758294473",
+      "summary": "通过几何概率实验估计圆周率。"
+    },
+    {
+      "title": "世界上是不是不存在完美的圆？",
+      "url": "https://www.zhihu.com/answer/774845643",
+      "summary": "解释圆周率的无理性与测量误差。"
+    },
+    {
+      "title": "世界上是不是不存在完美的圆？",
+      "url": "https://www.zhihu.com/answer/775736746",
+      "summary": "解释圆周率来自理论推导而非直接测量。"
+    },
+    {
+      "title": "世界上是不是不存在完美的圆？",
+      "url": "https://www.zhihu.com/answer/777686479",
+      "summary": "介绍圆周率的割圆术与现代计算。"
+    },
+    {
+      "title": "圆周率已被算到31.4万亿位，科学家如此执着，到底为了什么？",
+      "url": "https://www.zhihu.com/answer/780706148",
+      "summary": "解释高精度圆周率计算的现实用途。"
+    },
+    {
+      "title": "圆周率 π 是否隐藏了本个宇宙的设计者留给这个宇宙的智慧文明的某种信息？",
+      "url": "https://www.zhihu.com/answer/783617319",
+      "summary": "围绕圆周率的位数计算与数字性质展开。"
+    },
+    {
+      "title": "圆周率已被算到31.4万亿位，科学家如此执着，到底为了什么？",
+      "url": "https://www.zhihu.com/answer/791130724",
+      "summary": "讨论圆周率数字的正规性与合取性。"
+    },
+    {
+      "title": "圆周率已被算到31.4万亿位，科学家如此执着，到底为了什么？",
+      "url": "https://www.zhihu.com/answer/793112110",
+      "summary": "讨论圆周率高精度计算的意义。"
+    },
+    {
+      "title": "所有质数的倒数的平方和的精确值是多少？",
+      "url": "https://www.zhihu.com/answer/794913053",
+      "summary": "使用偶数点 zeta 值中的圆周率公式。"
+    },
+    {
+      "title": "若 π 被证明是有理数会对世界有何影响？",
+      "url": "https://www.zhihu.com/answer/796814272",
+      "summary": "正文比较不同 p 范数下圆的周长直径比，说明圆周率依赖距离结构。"
+    },
+    {
+      "title": "可以找到两个质数，他们的比值最接近 π 吗？",
+      "url": "https://www.zhihu.com/answer/799630193",
+      "summary": "全文用质数比值数值逼近圆周率并列出计算结果。"
+    },
+    {
+      "title": "可以找到两个质数，他们的比值最接近 π 吗？",
+      "url": "https://www.zhihu.com/answer/799966185",
+      "summary": "全文计算越来越接近圆周率的质数比，并说明不可能恰好相等。"
+    },
+    {
+      "title": "平面几何的五条公理确定了 π 的值吗？",
+      "url": "https://www.zhihu.com/answer/821529363",
+      "summary": "正文明确说明在满足全部相关公理、得到实数平面后，圆周长与直径之比确定且等于圆周率。"
+    },
+    {
+      "title": "请问祖冲之是怎么计算圆周率的，我知道据说好像是用的割圆术，我想知道的是他怎么计算多边形的面积呢？",
+      "url": "https://www.zhihu.com/answer/832181439",
+      "summary": "正文从正多边形倍边递推边长并逼近圆周率，实质讲解割圆计算。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/883333794",
+      "summary": "推导结果含圆周率平方。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/897525597",
+      "summary": "正文以童年测量多个圆的周长直径比为故事，实质解释圆周率是与圆大小无关的常数。"
+    },
+    {
+      "title": "如果圆周率π成了有理数，或者说被算出来最后一位了会怎么样？",
+      "url": "https://www.zhihu.com/answer/912881010",
+      "summary": "正文以圆周率的超越性说明其不可能成为有限小数。"
+    },
+    {
+      "title": "祖冲之的圆周率的出处在哪里？",
+      "url": "https://www.zhihu.com/answer/918480281",
+      "summary": "正文详细比较刘徽与阿基米德的割圆术，并讨论祖冲之圆周率算法的史料。"
+    },
+    {
+      "title": "中国真的在文化、数学上都曾经领先世界几百年吗？",
+      "url": "https://www.zhihu.com/answer/934062300",
+      "summary": "正文说明阿基米德以圆的内外接多边形逐步逼近并计算圆周率。"
+    },
+    {
+      "title": "可以找到两个质数，他们的比值最接近 π 吗？",
+      "url": "https://www.zhihu.com/answer/940978862",
+      "summary": "正文的核心目标是用两个质数之比高精度逼近圆周率。"
+    },
+    {
+      "title": "如何看待文言编程语言（wenyan-lang）？",
+      "url": "https://www.zhihu.com/answer/941051480",
+      "summary": "正文以文言编程实现刘徽割圆法，迭代计算圆周率。"
+    },
+    {
+      "title": "真的有什么式子能表示圆周率吗？",
+      "url": "https://www.zhihu.com/answer/959862836",
+      "summary": "正文给出由巴塞尔级数表示圆周率的公式。"
+    },
+    {
+      "title": "古代怎么计算圆周率？",
+      "url": "https://www.zhihu.com/answer/966131926",
+      "summary": "正文按历史顺序解释从割圆术、无穷级数到计算机的圆周率算法。"
+    },
+    {
+      "title": "圆周率 π 为什么最初没定义成「周长与半径的比值」？直径和半径，哪个是构成圆最基本的单元？",
+      "url": "https://www.zhihu.com/answer/991468361",
+      "summary": "正文讨论圆周率采用直径比而非半径比的历史与测量原因。"
+    },
+    {
+      "title": "如何推导以下几种连分数表示？",
+      "url": "https://www.zhihu.com/answer/993271353",
+      "summary": "正文由反正切级数与连分数推导圆周率连分数表达。"
+    },
+    {
+      "title": "如何推导以下几种连分数表示？",
+      "url": "https://www.zhihu.com/answer/993982079",
+      "summary": "正文由反正切泰勒展开推导圆周率的连分数。"
+    },
+    {
+      "title": "当我用手指划过尺子 3 和 4 刻度之间时，我是否触摸到了 π？",
+      "url": "https://www.zhihu.com/answer/995607114",
+      "summary": "正文从测量精度和物理尺度讨论圆周率作为数值不可被精确触摸。"
+    },
+    {
+      "title": "电影《天才少女》中的这个数学题怎么解?",
+      "url": "https://www.zhihu.com/answer/996970923",
+      "summary": "正文推导Gamma(1/2)与圆周率的关系。"
+    },
+    {
+      "title": "这种高数极限题目怎么做?",
+      "url": "https://www.zhihu.com/answer/1017643833",
+      "summary": "正文讲解Wallis乘积与圆周率的关系。"
+    },
+    {
+      "title": "有哪些看起来很简单但做起来很难的数学题？",
+      "url": "https://www.zhihu.com/answer/1018118385",
+      "summary": "正文推导布丰投针概率并说明它与圆周率估计的关系。"
+    },
+    {
+      "title": "「圆周率＝4」这个说法是否真实？",
+      "url": "https://www.zhihu.com/answer/1024593085",
+      "summary": "正文系统解释π=4悖论及正确圆周逼近条件。"
+    },
+    {
+      "title": "「圆周率＝4」这个说法是否真实？",
+      "url": "https://www.zhihu.com/answer/1025162639",
+      "summary": "正文辨析多边形逼近不能推出弧长给出错误圆周率。"
+    },
+    {
+      "title": "「圆周率＝4」这个说法是否真实？",
+      "url": "https://www.zhihu.com/answer/1026475626",
+      "summary": "正文以单位半圆弧积分解释圆周率。"
+    },
+    {
+      "title": "为何对圆周长公式积分无法得到球表面积公式？",
+      "url": "https://www.zhihu.com/answer/1028126480",
+      "summary": "正文用圆周率悖论类比球面问题。"
+    },
+    {
+      "title": "「圆周率＝4」这个说法是否真实？",
+      "url": "https://www.zhihu.com/answer/1077884221",
+      "summary": "正文追溯错误圆周率法案并解释圆周率取值相关数学史。"
+    },
+    {
+      "title": "圆周率 π 是否隐藏了本个宇宙的设计者留给这个宇宙的智慧文明的某种信息？",
+      "url": "https://www.zhihu.com/answer/1078840210",
+      "summary": "正文系统解释圆周率的定义、几何来源与性质。"
+    },
+    {
+      "title": "为什么计算圆的周长与面积、球的表面积与体积，使用的都是 π，而不是三个不同的数？是偶然还是必然？",
+      "url": "https://www.zhihu.com/answer/1168599460",
+      "summary": "正文从二维单位球体积定义π，并解释高维球公式中的π。"
+    },
+    {
+      "title": "π的第七万位是多少?",
+      "url": "https://www.zhihu.com/answer/1209235903",
+      "summary": "正文用级数近似圆周率并估计指定小数位。"
+    },
+    {
+      "title": "MIT 学者算出 π=3.115，是 π 的值变了吗？",
+      "url": "https://www.zhihu.com/answer/1261870942",
+      "summary": "正文强调圆周率由正弦函数最小正零点严格定义。"
+    },
+    {
+      "title": "MIT 学者算出 π=3.115，是 π 的值变了吗？",
+      "url": "https://www.zhihu.com/answer/1262305789",
+      "summary": "正文澄清新闻中的 π 数值是估计实验，并非圆周率定义改变。"
+    },
+    {
+      "title": "MIT 学者算出 π=3.115，是 π 的值变了吗？",
+      "url": "https://www.zhihu.com/answer/1263036348",
+      "summary": "正文用蒲丰投针和纯理论计算说明圆周率的客观定义。"
+    },
+    {
+      "title": "数学必修四最后一课叫简单的三角恒等变换，就想问问是不是还有什么更难的三角函数？",
+      "url": "https://www.zhihu.com/answer/1282137434",
+      "summary": "正文用圆周长与直径之比定义圆周率。"
+    },
+    {
+      "title": "积分限为0到π/2 ， 被积函数为sinx的n次方的积分公式？",
+      "url": "https://www.zhihu.com/answer/1282730575",
+      "summary": "正文说明 Wallis 公式是关于圆周率的无穷乘积。"
+    },
+    {
+      "title": "请问你见过的最强的公式是什么？",
+      "url": "https://www.zhihu.com/answer/1306042068",
+      "summary": "正文介绍拉马努金圆周率公式及收敛速度。"
+    },
+    {
+      "title": "请问你见过的最强的公式是什么？",
+      "url": "https://www.zhihu.com/answer/1306170291",
+      "summary": "正文列出圆周率积分表示。"
+    },
+    {
+      "title": "请问你见过的最强的公式是什么？",
+      "url": "https://www.zhihu.com/answer/1306706592",
+      "summary": "正文直接讲解“圆周率”相关内容。"
+    },
+    {
+      "title": "如何用四个不超过20的正整数构造一个接近 π 的值？",
+      "url": "https://www.zhihu.com/answer/1307506289",
+      "summary": "正文直接讲解“圆周率”相关内容。"
+    },
+    {
+      "title": "如何用四个不超过20的正整数构造一个接近 π 的值？",
+      "url": "https://www.zhihu.com/answer/1309044332",
+      "summary": "正文直接讲解“圆周率”相关内容。"
+    },
+    {
+      "title": "怎样用一个普通人能看懂的方法证明 π 是无理数？",
+      "url": "https://www.zhihu.com/answer/1313005128",
+      "summary": "正文直接讲解“圆周率”相关内容。"
+    },
+    {
+      "title": "怎样用一个普通人能看懂的方法证明 π 是无理数？",
+      "url": "https://www.zhihu.com/answer/1313384422",
+      "summary": "正文直接讲解“圆周率”相关内容。"
+    },
+    {
+      "title": "怎样用一个普通人能看懂的方法证明 π 是无理数？",
+      "url": "https://www.zhihu.com/answer/1331208374",
+      "summary": "正文用极限、面积夹逼和无穷乘积证明圆周率不是有理数。"
+    },
+    {
+      "title": "圆周率pi比较著名的无穷级数公式有哪些？",
+      "url": "https://www.zhihu.com/answer/1339659450",
+      "summary": "正文系统列出圆周率的 Leibniz、Newton、Fourier 和 Ramanujan 级数公式。"
+    },
+    {
+      "title": "为什么卡西欧自然书写显示的科学计算器算出 11^6/13 是 π 的有理数倍？",
+      "url": "https://www.zhihu.com/answer/1346366338",
+      "summary": "正文通过分数、25200 因数和有限显示位解释计算器为何显示 π 的近似有理倍数。"
+    },
+    {
+      "title": "圆周率 π 是否隐藏了本个宇宙的设计者留给这个宇宙的智慧文明的某种信息？",
+      "url": "https://www.zhihu.com/answer/1356684659",
+      "summary": "正文介绍 BBP 公式可以直接计算圆周率的指定十六进制位。"
+    },
+    {
+      "title": "怎样用一个普通人能看懂的方法证明 π 是无理数？",
+      "url": "https://www.zhihu.com/answer/1365387397",
+      "summary": "正文给出圆周率无理性的完整初等证明。"
+    },
+    {
+      "title": "是否存在非零自然数k，使e^k＜tan(k)?",
+      "url": "https://www.zhihu.com/answer/1381874519",
+      "summary": "正文用 π 的有理逼近下界证明不等式无解。"
+    },
+    {
+      "title": "圆周率pi比较著名的无穷级数公式有哪些？",
+      "url": "https://www.zhihu.com/answer/1408386834",
+      "summary": "正文列举圆周率的多个无穷级数公式。"
+    },
+    {
+      "title": "为什么要引入矩阵这个数学工具？它能简化哪些不用矩阵会复杂的问题？",
+      "url": "https://www.zhihu.com/answer/1409269443",
+      "summary": "正文从矩阵表示、圆周率计算、偏微分方程数值化和线性方程组说明矩阵的作用。"
+    },
+    {
+      "title": "为什么背诵 π 前1000位的人多，而背诵 e 的人却几乎找不到？",
+      "url": "https://www.zhihu.com/answer/1437327880",
+      "summary": "正文直接讲解或推导“圆周率”相关内容。"
+    },
+    {
+      "title": "为什么背诵 π 前1000位的人多，而背诵 e 的人却几乎找不到？",
+      "url": "https://www.zhihu.com/answer/1441671857",
+      "summary": "正文直接讲解或推导“圆周率”相关内容。"
+    },
+    {
+      "title": "有什么数学定理一般人都觉得是常识，但严谨证明起来却挺费力的？",
+      "url": "https://www.zhihu.com/answer/1447234581",
+      "summary": "正文直接讲解或推导“圆周率”相关内容。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/1473803607",
+      "summary": "正文用数列与三角不等式证明圆周率下界。"
+    },
+    {
+      "title": "请问你见过的最强的公式是什么？",
+      "url": "https://www.zhihu.com/answer/1484052312",
+      "summary": "正文直接给出与「圆周率」相关的解释、推导或应用。"
+    },
+    {
+      "title": "数列「1，2，2，3，3，3，...」的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/1508518597",
+      "summary": "正文用圆周率小数位构造数列通项。"
+    },
+    {
+      "title": "根号 2 与根号 3 之和约等于 π，这是巧合，还是有什么特殊意义？",
+      "url": "https://www.zhihu.com/answer/1509522895",
+      "summary": "正文用内外接正多边形逼近圆周率并介绍割圆术。"
+    },
+    {
+      "title": "如何比较 π－2 与 lnπ 的大小？",
+      "url": "https://www.zhihu.com/answer/1513786470",
+      "summary": "正文引用圆周率的连分式逼近并比较大小。"
+    },
+    {
+      "title": "如何比较 π－2 与 lnπ 的大小？",
+      "url": "https://www.zhihu.com/answer/1514455667",
+      "summary": "正文用圆周率数值比较两个表达式的大小。"
+    },
+    {
+      "title": "人们为什么会发现无理数，他们为什么不认为是测量不精确？",
+      "url": "https://www.zhihu.com/answer/1514732565",
+      "summary": "正文讨论圆周率的历史计算与无理性证明。"
+    },
+    {
+      "title": "如何比较 π－2 与 lnπ 的大小？",
+      "url": "https://www.zhihu.com/answer/1518712105",
+      "summary": "正文用圆周率近似值比较π减二与lnπ。"
+    },
+    {
+      "title": "如何比较 π－2 与 lnπ 的大小？",
+      "url": "https://www.zhihu.com/answer/1521602941",
+      "summary": "正文用圆周率上界比较目标表达式。"
+    },
+    {
+      "title": "有哪些方法可计算圆周率？",
+      "url": "https://www.zhihu.com/answer/1525431558",
+      "summary": "正文直接讨论圆周率，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "割圆术就算割了∞次，它和真实面积也相差很小一部分，怎么就说它就可以等于真实面积？",
+      "url": "https://www.zhihu.com/answer/1612045827",
+      "summary": "正文直接讨论或应用该叶节点主题（圆周率）。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/1665421122",
+      "summary": "正文介绍拉马努金的圆周率级数公式。"
+    },
+    {
+      "title": "你认为最牛的科幻桥段或者科幻对象是什么？",
+      "url": "https://www.zhihu.com/answer/1667758095",
+      "summary": "正文结尾用圆周率呼应不同时空中的几何常数。"
+    },
+    {
+      "title": "有哪些收敛得很美的无穷级数？",
+      "url": "https://www.zhihu.com/answer/1674817876",
+      "summary": "正文介绍可快速计算圆周率的Chudnovsky级数。"
+    },
+    {
+      "title": "有哪些漂亮的无穷乘积公式？",
+      "url": "https://www.zhihu.com/answer/1689427743",
+      "summary": "正文列出沃利斯、韦达和正弦无穷乘积等多个含圆周率的公式。"
+    },
+    {
+      "title": "数学中，类似 π、e 的独立的常数还有哪些？",
+      "url": "https://www.zhihu.com/answer/1691281473",
+      "summary": "正文把双纽线周率与圆周率并列，比较二者的定义并给出类似的积分表达式。"
+    },
+    {
+      "title": "世界上收敛最快的计算 π 的公式是什么？",
+      "url": "https://www.zhihu.com/answer/1706266826",
+      "summary": "正文给出圆周率的 Chudnovsky 级数公式。"
+    },
+    {
+      "title": "世界上收敛最快的计算 π 的公式是什么？",
+      "url": "https://www.zhihu.com/answer/1706282566",
+      "summary": "正文列出拉马努金、博温兄弟和丘德诺夫斯基的圆周率公式。"
+    },
+    {
+      "title": "如何证明一个数为无理数？",
+      "url": "https://www.zhihu.com/answer/1712861651",
+      "summary": "正文给出圆周率为无理数的 Niven 证明。"
+    },
+    {
+      "title": "π的1997次方的小数点后1997位是多少？",
+      "url": "https://www.zhihu.com/answer/1729587619",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "π的1997次方的小数点后1997位是多少？",
+      "url": "https://www.zhihu.com/answer/1730793813",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "π的1997次方的小数点后1997位是多少？",
+      "url": "https://www.zhihu.com/answer/1731039807",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "π的1997次方的小数点后1997位是多少？",
+      "url": "https://www.zhihu.com/answer/1732274599",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "e^6≈π^4+π^5有什么数学背景吗？",
+      "url": "https://www.zhihu.com/answer/1778150920",
+      "summary": "正文列举圆周率的高精度近似与数学巧合。"
+    },
+    {
+      "title": "圆周率已被算到31.4万亿位，科学家如此执着，到底为了什么？",
+      "url": "https://www.zhihu.com/answer/1779137868",
+      "summary": "正文介绍圆周率定义、历史计算与文化应用。"
+    },
+    {
+      "title": "有什么求 π 的稀奇方法？",
+      "url": "https://www.zhihu.com/answer/1782418418",
+      "summary": "正文用数论中的计数问题给出计算圆周率的新途径。"
+    },
+    {
+      "title": "欧拉到底有多厉害？",
+      "url": "https://www.zhihu.com/answer/1803245813",
+      "summary": "正文以巴塞尔问题、相关级数公式和欧拉公式持续展开圆周率参与的具体数学结果。"
+    },
+    {
+      "title": "蒙特卡罗算法是什么？",
+      "url": "https://www.zhihu.com/answer/1806687359",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "圆周率已被算到31.4万亿位，科学家如此执着，到底为了什么？",
+      "url": "https://www.zhihu.com/answer/1812230850",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "如何通俗地理解「蒙特卡洛方法」，它解决问题的基本思路是什么，目前主要应用于哪些领域？",
+      "url": "https://www.zhihu.com/answer/1814845300",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "怎么通俗理解蒙特卡洛模拟？",
+      "url": "https://www.zhihu.com/answer/1814847396",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "圆周率已被算到31.4万亿位，科学家如此执着，到底为了什么？",
+      "url": "https://www.zhihu.com/answer/1815380640",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "圆周率已被算到31.4万亿位，科学家如此执着，到底为了什么？",
+      "url": "https://www.zhihu.com/answer/1815581928",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "圆周率是一个无理数，3.1415926…。问，能否用一个数学式子来准确表示圆周率，类似根号10？",
+      "url": "https://www.zhihu.com/answer/1903493689",
+      "summary": "正文用反正切函数级数给出圆周率的精确表示。"
+    },
+    {
+      "title": "伽马函数中，Γ(1/2)=√π 怎么来的？",
+      "url": "https://www.zhihu.com/answer/1904275526",
+      "summary": "正文推导出伽马函数半整数点与圆周率的关系。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/1949095822",
+      "summary": "正文使用圆周率 π 的数值下界。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/1950270038",
+      "summary": "正文通过圆周率的上界完成 e^π 估计。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/1950886172",
+      "summary": "正文结合 π 的数值范围完成 e^π>23 的估算。"
+    },
+    {
+      "title": "可以找到两个质数，他们的比值最接近 π 吗？",
+      "url": "https://www.zhihu.com/answer/1973659554",
+      "summary": "正文计算与圆周率最接近的素数比值。"
+    },
+    {
+      "title": "如何记住所有的三角函数公式？",
+      "url": "https://www.zhihu.com/answer/1989128999",
+      "summary": "正文用圆周率定义弧度并换算角度。"
+    },
+    {
+      "title": "如果把一个 3d 游戏中 pi 的取值改为 3，整个游戏会有什么变化？",
+      "url": "https://www.zhihu.com/answer/1990237596",
+      "summary": "正文讨论把圆周率取为3后对圆渲染采样的影响。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/1999855762",
+      "summary": "正文把e^π>23转化为对数与圆周率的不等式。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/2001425342",
+      "summary": "证明通过有理下界与π的不等式完成。"
+    },
+    {
+      "title": "这个数列题应该怎么做？",
+      "url": "https://www.zhihu.com/answer/2004831643",
+      "summary": "正文用到圆周率的 Wallis 连分式表示。"
+    },
+    {
+      "title": "如何证明 e^π＞23？",
+      "url": "https://www.zhihu.com/answer/2005780853",
+      "summary": "正文最终比较自然对数与圆周率。"
+    },
+    {
+      "title": "圆周率前一千位哪个数字最多？",
+      "url": "https://www.zhihu.com/answer/2014336477",
+      "summary": "正文统计圆周率前一千位各数字出现次数。"
+    },
+    {
+      "title": "能不能绕过π，来计算一个圆的面积?",
+      "url": "https://www.zhihu.com/answer/2028123269",
+      "summary": "正文介绍圆周率级数公式及其数值精度。"
+    },
+    {
+      "title": "能不能绕过π，来计算一个圆的面积?",
+      "url": "https://www.zhihu.com/answer/2037984946",
+      "summary": "正文指出绕开圆周率计算圆面积等价于求圆周率。"
+    },
+    {
+      "title": "怎么手算 π 的第 5 位数字？",
+      "url": "https://www.zhihu.com/answer/2055610189",
+      "summary": "正文介绍牛顿手算圆周率的方法。"
+    },
+    {
+      "title": "科学家计算出圆周率最精确数字:小数点后 62.8 万亿位，这一发现有何意义？",
+      "url": "https://www.zhihu.com/answer/2072500165",
+      "summary": "正文讨论圆周率超高精度计算的意义。"
+    },
+    {
+      "title": "科学家计算出圆周率最精确数字:小数点后 62.8 万亿位，这一发现有何意义？",
+      "url": "https://www.zhihu.com/answer/2081478058",
+      "summary": "正文以反讽方式讨论圆周率作为无理数的特殊地位。"
+    },
+    {
+      "title": "怎么手算 π 的第 5 位数字？",
+      "url": "https://www.zhihu.com/answer/2108108682",
+      "summary": "正文介绍BBP公式和Spigot算法计算圆周率任意一位。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/2112824706",
+      "summary": "正文讨论圆周率是否为正规数及其实例。"
+    },
+    {
+      "title": "拉马努金圆周率公式的原理是什么？",
+      "url": "https://www.zhihu.com/answer/2113545957",
+      "summary": "正文解释拉马努金圆周率级数的来源与证明框架。"
+    },
+    {
+      "title": "有哪些千年以上时间才解决的数学问题?",
+      "url": "https://www.zhihu.com/answer/2122359080",
+      "summary": "正文围绕化圆为方讨论圆周率的无理性和超越性，并说明超越性如何终结该问题。"
+    },
+    {
+      "title": "做过最气的题是什么题？",
+      "url": "https://www.zhihu.com/answer/2132777879",
+      "summary": "正文通过连续手算 π 的近似值讨论其数值误差和有效位数。"
+    },
+    {
+      "title": "一个脑洞：理论上，是否有可能用一根棍子记录无限多的信息？",
+      "url": "https://www.zhihu.com/answer/2148214117",
+      "summary": "正文以圆周率的无限不循环小数编码说明无限信息记录设想。"
+    },
+    {
+      "title": "能分享一道如果“注意不到”就出不来的数学题吗？",
+      "url": "https://www.zhihu.com/answer/2172056664",
+      "summary": "正文用定积分正负性证明祖冲之密率与圆周率的大小。"
+    },
+    {
+      "title": "如何用放缩法证明 ∜(2143/22) 略小于 π？",
+      "url": "https://www.zhihu.com/answer/2194154557",
+      "summary": "正文通过积分恒等式得到 π 与其代数近似之间的不等式。"
+    },
+    {
+      "title": "能不能让两个与 π 无关的两个数之和等于 π？",
+      "url": "https://www.zhihu.com/answer/2194192975",
+      "summary": "正文构造积分、级数及高精度有理数，说明两个不显含 π 的数可以精确或任意精度地求和得到 π。"
+    },
+    {
+      "title": "能不能让两个与 π 无关的两个数之和等于 π？",
+      "url": "https://www.zhihu.com/answer/2194654535",
+      "summary": "正文用 arctan 组合和无穷级数拆分给出圆周率的不同表示。"
+    },
+    {
+      "title": "能不能让两个与 π 无关的两个数之和等于 π？",
+      "url": "https://www.zhihu.com/answer/2198452364",
+      "summary": "正文以对数、积分和近整数构造圆周率的不同表达式。"
+    },
+    {
+      "title": "为什么祖冲之的355/113等于3.1415929而不是3.1415926?",
+      "url": "https://www.zhihu.com/answer/2224608216",
+      "summary": "正文系统解释祖冲之圆周率密率的精度、误差和分数逼近。"
+    },
+    {
+      "title": "中文的「秒」是什么时候开始表示时间单位的？",
+      "url": "https://www.zhihu.com/answer/2235057834",
+      "summary": "正文以祖冲之圆周率记法说明小数计数单位在长度和圆周率表示中的使用。"
+    },
+    {
+      "title": "如何用四个不超过20的正整数构造一个接近 π 的值？",
+      "url": "https://www.zhihu.com/answer/2241919450",
+      "summary": "正文用乘方和除法构造圆周率的有理近似。"
+    },
+    {
+      "title": "能不能让两个与 π 无关的两个数之和等于 π？",
+      "url": "https://www.zhihu.com/answer/2251954135",
+      "summary": "正文用内外切正多边形和嵌套根式计算圆周率近似。"
+    },
+    {
+      "title": "能不能让两个与 π 无关的两个数之和等于 π？",
+      "url": "https://www.zhihu.com/answer/2278896646",
+      "summary": "正文给出一个通过伽马函数得到圆周率的具体公式。"
+    },
+    {
+      "title": "如何证明 π > 3.05 ？",
+      "url": "https://www.zhihu.com/answer/2287815762",
+      "summary": "正文用一族定积分构造有理数与圆周率之间的大小关系。"
+    },
+    {
+      "title": "数列 2，4，6，7，8…… 后面的数字是什么？",
+      "url": "https://www.zhihu.com/answer/2291235867",
+      "summary": "正文给出在圆周率小数中检索给定数字串并取得下一位的方法。"
+    },
+    {
+      "title": "能不能让两个与 π 无关的两个数之和等于 π？",
+      "url": "https://www.zhihu.com/answer/2293237159",
+      "summary": "正文给出圆周率的两项反正切表示并讨论计算速度。"
+    },
+    {
+      "title": "能不能让两个与 π 无关的两个数之和等于 π？",
+      "url": "https://www.zhihu.com/answer/2293706002",
+      "summary": "正文用反正切和给出圆周率的表示。"
+    },
+    {
+      "title": "能不能让两个与 π 无关的两个数之和等于 π？",
+      "url": "https://www.zhihu.com/answer/2293893937",
+      "summary": "正文从圆周率定义出发讨论两数之和为π。"
+    },
+    {
+      "title": "数列 2，4，6，7，8…… 后面的数字是什么？",
+      "url": "https://www.zhihu.com/answer/2293994987",
+      "summary": "正文直接查阅圆周率数字并据此回答数列下一项。"
+    },
+    {
+      "title": "数列 2，4，6，7，8…… 后面的数字是什么？",
+      "url": "https://www.zhihu.com/answer/2296301444",
+      "summary": "正文用小数的数字模式构造圆周率相关的数列答案。"
+    },
+    {
+      "title": "如何证明圆周率中存在所有的 4 位数密码？",
+      "url": "https://www.zhihu.com/answer/2296666002",
+      "summary": "正文枚举圆周率小数中出现全部四位数串的位置。"
+    },
+    {
+      "title": "如何证明圆周率中存在所有的 4 位数密码？",
+      "url": "https://www.zhihu.com/answer/2296838769",
+      "summary": "正文区分圆周率的四位数事实与尚未证明的 disjunctive number 猜想。"
+    },
+    {
+      "title": "能不能让两个与 π 无关的两个数之和等于 π？",
+      "url": "https://www.zhihu.com/answer/2299494007",
+      "summary": "正文的主题是用恒等式得到圆周率。"
+    },
+    {
+      "title": "怎么证明圆周率的平方 π² 是无理数？",
+      "url": "https://www.zhihu.com/answer/2301832768",
+      "summary": "正文用积分构造证明圆周率及其平方的无理性。"
+    },
+    {
+      "title": "我今年 14 岁，想了一个数学思路，把数学各领域的联系写出来了，这个思路有什么问题吗？",
+      "url": "https://www.zhihu.com/answer/2308593455",
+      "summary": "正文在独立小节由欧拉公式和波函数讨论圆周率的几何含义，并给出作者的解释。"
+    },
+    {
+      "title": "王中林院士书面回应学界对 「拓展麦克斯韦方程组」 的质疑，有哪些值得关注的信息？",
+      "url": "https://www.zhihu.com/answer/2314809478",
+      "summary": "正文以圆周率近似值的荒谬变化制造数学梗。"
+    },
+    {
+      "title": "当前的数学语言还有什么可以改进的地方?",
+      "url": "https://www.zhihu.com/answer/2316097465",
+      "summary": "正文解释圆周率符号因欧拉提倡而成为国际通用符号。"
+    },
+    {
+      "title": "不代入近似数值怎么证明π<√2+√3?",
+      "url": "https://www.zhihu.com/answer/2322721764",
+      "summary": "正文不经近似值直接证明圆周率与根式之间的大小关系。"
+    },
+    {
+      "title": "有哪些很难的数学题，答案是 629，宿舍当门牌用？",
+      "url": "https://www.zhihu.com/answer/2333794626",
+      "summary": "正文用圆周率特定位构造答案 629。"
+    },
+    {
+      "title": "为什么椭圆周长不能精确计算，但却有椭圆周长公式？",
+      "url": "https://www.zhihu.com/answer/2340113332",
+      "summary": "正文以圆周率为例说明引入特殊常数和符号的必要性。"
+    },
+    {
+      "title": "以π指代圆周率是偶然的约定俗成还是特别的另有深意？",
+      "url": "https://www.zhihu.com/answer/2343395042",
+      "summary": "正文解释圆周率符号 π 的历史来源与含义变化。"
+    },
+    {
+      "title": "π现在算到多少位了，从算出前一位到算出下一位需要多久？",
+      "url": "https://www.zhihu.com/answer/2389762915",
+      "summary": "正文讨论圆周率的高精度计算记录、Chudnovsky 算法及其每项有效数字。"
+    },
+    {
+      "title": "π中，1234567890出现的概率一样吗?",
+      "url": "https://www.zhihu.com/answer/2394897889",
+      "summary": "正文把圆周率各位数字频率问题准确表述为 π 是否正规。"
+    },
+    {
+      "title": "π中，1234567890出现的概率一样吗?",
+      "url": "https://www.zhihu.com/answer/2441704327",
+      "summary": "正文讨论圆周率数字频率是否均匀，并用有限位计算展示频率趋近现象。"
+    },
+    {
+      "title": "sinx/x在0到正无穷的积分等于Π/2，怎么推导证明？",
+      "url": "https://www.zhihu.com/answer/2449339334",
+      "summary": "推导结论明确给出含圆周率 π 的积分值。"
+    },
+    {
+      "title": "拉马努金发现的这个圆周率倒数的无穷级数公式怎么证明?",
+      "url": "https://www.zhihu.com/answer/2452997336",
+      "summary": "正文介绍拉马努金反向圆周率公式及其中计算圆周率精度的作用。"
+    },
+    {
+      "title": "圆周率 π 是否隐藏了本个宇宙的设计者留给这个宇宙的智慧文明的某种信息？",
+      "url": "https://www.zhihu.com/answer/2458065102",
+      "summary": "正文从圆周长与直径之比介绍圆周率，并讨论其历史与数值性质。"
+    },
+    {
+      "title": "圆周率 π 是无限不循环小数，能否直接证明 π 的小数部分必定包含连续的 123456789？",
+      "url": "https://www.zhihu.com/answer/2469584110",
+      "summary": "正文讨论圆周率小数的正规性，并记录连续数字串在 π 中的搜索结果。"
+    },
+    {
+      "title": "为什么椭圆周长不能精确计算，但却有椭圆周长公式？",
+      "url": "https://www.zhihu.com/answer/2470026364",
+      "summary": "正文以圆周率及相似图形的周长直径为固定比值为例说明精确计算问题。"
+    },
+    {
+      "title": "目前求 π 的算法中哪种收敛最快？",
+      "url": "https://www.zhihu.com/answer/2487074424",
+      "summary": "比较 Bellard 级数与另一个可直接计算圆周率的级数及其计算精度。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/2489082773",
+      "summary": "在圆周长与面积公式之间代入并约去圆周率，得到便于计算的等价形式。"
+    },
+    {
+      "title": "520 有哪些比「我爱你」更浪漫的情话？这一天你们打算怎么过呢？",
+      "url": "https://www.zhihu.com/answer/2493992443",
+      "summary": "正文给出并推导含圆周率 520/π 的级数恒等式。"
+    },
+    {
+      "title": "为什么1/n发散，而1/n的平方收敛?",
+      "url": "https://www.zhihu.com/answer/2519624202",
+      "summary": "正文推导并给出含圆周率的巴塞尔级数恒等式。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/2523907831",
+      "summary": "证明自然数倒数平方和等于 π²/6 的巴塞尔问题。"
+    },
+    {
+      "title": "拉马努金发现的这个圆周率倒数的无穷级数公式怎么证明?",
+      "url": "https://www.zhihu.com/answer/2553704456",
+      "summary": "正文通过超几何函数、求导和椭圆积分特殊值，证明拉马努金型无穷级数等于 1/π。"
+    },
+    {
+      "title": "这个式子怎么证明等于π/2？",
+      "url": "https://www.zhihu.com/answer/2566318577",
+      "summary": "正文完整推导 Wallis 型无穷乘积并得到其值等于 π/2，直接联系圆周率。"
+    },
+    {
+      "title": "把π计算到10亿位后保存为文本再进行压缩，能压缩到原来的几分之一？",
+      "url": "https://www.zhihu.com/answer/2615110236",
+      "summary": "实测圆周率前 10 亿位文本的压缩比例，并讨论其小数位的随机性。"
+    },
+    {
+      "title": "如何理解 π⁴+π⁵≈e⁶？",
+      "url": "https://www.zhihu.com/answer/2617984216",
+      "summary": "讨论含 π 与 e 的数值近似式，评估其精度与巧合概率。"
+    },
+    {
+      "title": "如何尽可能精确地称量 π 斤肉？",
+      "url": "https://www.zhihu.com/answer/2633825986",
+      "summary": "利用圆的周长与直径关系，把弹簧伸长量转换为 π 斤重量。"
+    },
+    {
+      "title": "如何尽可能精确地称量 π 斤肉？",
+      "url": "https://www.zhihu.com/answer/2637917331",
+      "summary": "利用球体积公式中的 π 与目标重量中的 π 相消，设计精确称量方案。"
+    },
+    {
+      "title": "我的寝室号是520，请问如何用下北泽常数、e、π来表示？",
+      "url": "https://www.zhihu.com/answer/2640228248",
+      "summary": "用圆周率 π 与其他常数构造结果为 520 的取整表达式。"
+    },
+    {
+      "title": "我的寝室号是520，请问如何用下北泽常数、e、π来表示？",
+      "url": "https://www.zhihu.com/answer/2640458514",
+      "summary": "利用圆周率 π 与自定义常数构造 520 的表达式。"
+    },
+    {
+      "title": "如何激怒一位数学爱好者？",
+      "url": "https://www.zhihu.com/answer/2665505669",
+      "summary": "指出用折线逼近圆得到 π=4 的错误，点明弧微分不能这样处理。"
+    },
+    {
+      "title": "导数最早在明朝王文素算学宝鉴，为什么所有的教材都不提，而将一切归功于牛顿莱布尼茨？",
+      "url": "https://www.zhihu.com/answer/2684862848",
+      "summary": "正文具体比较刘徽基于内接多边形面积和祖冲之割圆术、阿基米德基于周长的圆周率逼近方法。"
+    },
+    {
+      "title": "世界上收敛最快的计算 π 的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2687889150",
+      "summary": "正文围绕计算圆周率的 Ramanujan 型公式，比较不同级数每增加一项所能获得的圆周率有效位数。"
+    },
+    {
+      "title": "以1:4:9的石碑衬托外星人的科技水平，不是存在个逻辑漏洞吗？",
+      "url": "https://www.zhihu.com/answer/2715009002",
+      "summary": "用正多边形逼近圆面积，介绍割圆法计算圆周率及历代精度进展。"
+    },
+    {
+      "title": "真正喜欢数学的人是什么样的？",
+      "url": "https://www.zhihu.com/answer/2717443152",
+      "summary": "正文以鲁道夫毕生计算圆周率到小数点后 35 位为例，介绍圆周率计算史及鲁道夫数。"
+    },
+    {
+      "title": "把圆圈拉直了，就得到周长了，为什么还要计算π?",
+      "url": "https://www.zhihu.com/answer/2719948777",
+      "summary": "正文以单位圆的积分结果和周长与直径之比说明圆周率无法被绕过。"
+    },
+    {
+      "title": "怎么证明圆周率π是无理数不是有理数?",
+      "url": "https://www.zhihu.com/answer/2722828173",
+      "summary": "正文围绕 π 的无理性构造多项式积分，并利用 π 幂次与阶乘的极限把积分夹在 0 与 1 之间。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/2728027083",
+      "summary": "正文具体说明拉马努金求圆周率公式的快速收敛性，以及它对现代计算机圆周率算法的后续影响。"
+    },
+    {
+      "title": "世界上收敛最快的计算 π 的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2736090937",
+      "summary": "正文系统整理圆周率的历史近似、级数、积分、概率和连分数等多种计算方法并给出数值结果。"
+    },
+    {
+      "title": "有没有结果含有“π”但是与圆完全无关的问题？",
+      "url": "https://www.zhihu.com/answer/2737784020",
+      "summary": "正文汇总积分近似、级数、布丰投针和弹性碰撞等多种方法，并给出逼近圆周率的推导。"
+    },
+    {
+      "title": "有没有结果含有“π”但是与圆完全无关的问题？",
+      "url": "https://www.zhihu.com/answer/2737849204",
+      "summary": "正文以复平面中绕奇点的圆周解释解析结论里圆周率的来源。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/2741361457",
+      "summary": "正文以平面或空间上的广义积分说明圆周率 π 为何经常出现在公式中。"
+    },
+    {
+      "title": "有没有结果含有“π”但是与圆完全无关的问题？",
+      "url": "https://www.zhihu.com/answer/2745114087",
+      "summary": "正文给出两种不依赖显式圆图形计算圆周率的算法，并讨论其收敛精度。"
+    },
+    {
+      "title": "圆周率里包含你的银行卡密码吗？",
+      "url": "https://www.zhihu.com/answer/2751974117",
+      "summary": "正文以六位数组合是否都出现在小数展开中，讨论圆周率数字串的覆盖性质。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2756020498",
+      "summary": "正文构造多项式与正弦函数的积分，证明该积分同时位于 0 和 1 之间且为整数，从而证明圆周率 π 为无理数。"
+    },
+    {
+      "title": "如果存在一个使用九进制的文明，那么它们会在何时有奇数和偶数的概念？",
+      "url": "https://www.zhihu.com/answer/2786939422",
+      "summary": "正文用割圆术和上下界说明圆周率的计算及历代近似值演进。"
+    },
+    {
+      "title": "为什么√2可以用尺规画出来，而π不行？",
+      "url": "https://www.zhihu.com/answer/2790120321",
+      "summary": "正文解释圆周率是超越数、不能由有限次尺规作图精确构造，并以林德曼的结果说明其超越性。"
+    },
+    {
+      "title": "为什么√2可以用尺规画出来，而π不行？",
+      "url": "https://www.zhihu.com/answer/2794492860",
+      "summary": "正文以超越数不属于有理数域的有限次扩张为依据，具体说明圆周率不能通过尺规作图构造。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/2796113001",
+      "summary": "正文通过正弦倒数恒等式建立上下界并证明平方倒数和等于π²/6，直接得到圆周率参与的核心恒等式。"
+    },
+    {
+      "title": "有哪些经典的反直觉数学结论？",
+      "url": "https://www.zhihu.com/answer/2804260548",
+      "summary": "正文利用赤道绳圈同步抬高后半径增加 1 米，说明周长只增加 2π 米，涉及圆周率与圆周长的关系。"
+    },
+    {
+      "title": "如果用某进制表示圆周率能不能找出规律？",
+      "url": "https://www.zhihu.com/answer/2808397626",
+      "summary": "正文用圆内接和外切正多边形夹逼圆周率，并继续讨论圆周率的小数位与所谓规律。"
+    },
+    {
+      "title": "如何用放缩法证明 ∜(2143/22) 略小于 π？",
+      "url": "https://www.zhihu.com/answer/2826569057",
+      "summary": "正文利用包含 π 的四次倒数级数和，证明四次根式给出的有理数小于圆周率。"
+    },
+    {
+      "title": "是什么导致中国的科学进程落后于西方的？",
+      "url": "https://www.zhihu.com/answer/2843467998",
+      "summary": "正文具体介绍阿基米德用正多边形计算圆周率，并比较古埃及、巴比伦与祖冲之的圆周率近似值。"
+    },
+    {
+      "title": "为什么入门的微积分教材都是从极限的概念开始讲起？",
+      "url": "https://www.zhihu.com/answer/2891444256",
+      "summary": "正文解释圆周率作为周长与直径之比的含义，并叙述阿基米德、刘徽和祖冲之逐步逼近 π 的方法。"
+    },
+    {
+      "title": "有哪些让人眼前一亮的函数？",
+      "url": "https://www.zhihu.com/answer/2891745062",
+      "summary": "正文计算 f(2)、f(3) 等具体点，给出含圆周率与自然对数的精确值并比较其形式。"
+    },
+    {
+      "title": "把π计算到10亿位后保存为文本再进行压缩，能压缩到原来的几分之一？",
+      "url": "https://www.zhihu.com/answer/2919550158",
+      "summary": "正文实际讨论圆周率十亿位文本文件的压缩比例与算法计算方式。"
+    },
+    {
+      "title": "有没有一本书，讲述了数学的整个起源发展史？",
+      "url": "https://www.zhihu.com/answer/2923964476",
+      "summary": "正文复述古埃及圆面积算法，并据其给出圆周率近似值3.1605。"
+    },
+    {
+      "title": "如果 π 不再是 3.1415······，对世界会产生什么影响？",
+      "url": "https://www.zhihu.com/answer/2935421296",
+      "summary": "正文按古巴比伦、古埃及、阿基米德、刘徽直到计算机计算的时间线说明圆周率近似值及其精度演进。"
+    },
+    {
+      "title": "如果 π 不再是 3.1415······，对世界会产生什么影响？",
+      "url": "https://www.zhihu.com/answer/2935576389",
+      "summary": "正文把圆周率严格定义为指数方程的最小正实数解，并讨论改变度量后π会如何变化。"
+    },
+    {
+      "title": "如果 π 不再是 3.1415······，对世界会产生什么影响？",
+      "url": "https://www.zhihu.com/answer/2935582358",
+      "summary": "正文通过改变L^p距离下“圆”的形状，展示不同度量对应不同圆周率，并联系庞加莱圆盘的几何世界。"
+    },
+    {
+      "title": "数学中你可以“注意到”什么地步?",
+      "url": "https://www.zhihu.com/answer/2972458032",
+      "summary": "正文引用圆周率的无穷级数表示并作数值放缩，由此证明 pi 大于 3.14。"
+    },
+    {
+      "title": "小学为什么要把圆周率取成3.14，直接写成π不行吗？",
+      "url": "https://www.zhihu.com/answer/3055328640",
+      "summary": "正文说明圆周率在教材中的旧取值曾为3.1416，并借取值变化解释学校为何采用3.14。"
+    },
+    {
+      "title": "小学为什么要把圆周率取成3.14，直接写成π不行吗？",
+      "url": "https://www.zhihu.com/answer/3055526530",
+      "summary": "正文以圆的面积和周长计算为例，说明日常运算可用π代替3.14，涉及圆周率的使用。"
+    },
+    {
+      "title": "微分方程没有解析解可以说明人类数学体系有缺陷吗？",
+      "url": "https://www.zhihu.com/answer/3076651896",
+      "summary": "正文以圆周率的多边形逼近说明客观常数可近似计算，具体讨论了圆周率的求值方式。"
+    },
+    {
+      "title": "大学什么专业最好？",
+      "url": "https://www.zhihu.com/answer/3112272305",
+      "summary": "正文脚注具体比较正多边形逼近圆周率的收敛速度，并提及欧拉和拉马努金的高收敛算法。"
+    },
+    {
+      "title": "圆周率被算尽代表了什么?",
+      "url": "https://www.zhihu.com/answer/3122792627",
+      "summary": "正文围绕圆周率若被算尽这一假设，讨论其常数值对圆和既有公式基础的影响。"
+    },
+    {
+      "title": "牛顿真有传说的那么厉害吗？",
+      "url": "https://www.zhihu.com/answer/3148697275",
+      "summary": "正文梳理割圆术、牛顿的微积分近似求和和拉马努金快速收敛公式，展开圆周率计算史与近似方法。"
+    },
+    {
+      "title": "降维打击到底有多恐怖？",
+      "url": "https://www.zhihu.com/answer/3176672896",
+      "summary": "正文具体说明用内接或外切正多边形不断倍增边数来逼近圆，并由此获得更精确的圆周率，实质讲解了割圆法求圆周率。"
+    },
+    {
+      "title": "我对圆面积计算新的方法，有没有更好的反驳？",
+      "url": "https://www.zhihu.com/answer/3181798603",
+      "summary": "正文通过改写面积单位把圆周率并入单位制，并讨论由此产生的方周率常数及计算公式。"
+    },
+    {
+      "title": "精确计算圆的面积不重要吗？",
+      "url": "https://www.zhihu.com/answer/3202916241",
+      "summary": "正文用 π≈3、3.14 及更多小数位的例子讨论不同场景所需的圆周率精度，并指出生产中无需极高位数。"
+    },
+    {
+      "title": "如何优雅地证明π³>31?",
+      "url": "https://www.zhihu.com/answer/3230363185",
+      "summary": "正文利用含 pi 的六次幂级数估算 pi 的上界，具体讲解圆周率数值估计。"
+    },
+    {
+      "title": "圆周率里是否一定有我的身份证号?",
+      "url": "https://www.zhihu.com/answer/3253773592",
+      "summary": "正文列出圆周率的大量小数位，并讨论身份证号或四连零等数字串能否出现在这些小数位中。"
+    },
+    {
+      "title": "e，π，γ，φ怎么算二十四点？",
+      "url": "https://www.zhihu.com/answer/3269432090",
+      "summary": "正文把 π 作为超越数使用，并在含 e^π 的取整表达式中构造整数 24。"
+    },
+    {
+      "title": "如何优雅地证明π³>31?",
+      "url": "https://www.zhihu.com/answer/3270401325",
+      "summary": "正文围绕 π³ 与 31 的大小关系，用恒等式证明圆周率立方大于 31。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/3271497680",
+      "summary": "正文以圆周率小于号左侧的精确恒等式作为证明对象，直接讨论圆周率与 3.14 的大小关系。"
+    },
+    {
+      "title": "圆周率里是否一定有我的身份证号?",
+      "url": "https://www.zhihu.com/answer/3297788099",
+      "summary": "正文讨论圆周率小数中连续数字串的出现，并说明任意有限数字组合猜想尚未证明。"
+    },
+    {
+      "title": "如何优雅的证明π＞e?",
+      "url": "https://www.zhihu.com/answer/3299381143",
+      "summary": "正文用圆的内接正六边形和周长比较说明圆周率大于3。"
+    },
+    {
+      "title": "如何优雅的证明π＞e?",
+      "url": "https://www.zhihu.com/answer/3300718219",
+      "summary": "正文给出π的无穷级数表示，并用级数为正推出π大于3。"
+    },
+    {
+      "title": "如何优雅的证明π＞e?",
+      "url": "https://www.zhihu.com/answer/3300884681",
+      "summary": "正文利用π平方相关的Basel级数下界，证明π大于3。"
+    },
+    {
+      "title": "如何优雅的证明π＞e?",
+      "url": "https://www.zhihu.com/answer/3301110388",
+      "summary": "正文由单位圆内接正方形推出圆周率的下界 2√2，并用它参与 π 与 e 的大小比较。"
+    },
+    {
+      "title": "圆周率为什么是比3大一些呢?",
+      "url": "https://www.zhihu.com/answer/3301240593",
+      "summary": "正文用 6r 与 8r 两侧界推出圆周长与直径之比大于 3 且小于 4。"
+    },
+    {
+      "title": "注意力涣散的人如何优雅地证明π<355/113?",
+      "url": "https://www.zhihu.com/answer/3308639758",
+      "summary": "正文用拉马努金的几何构造给出圆周率的 355/113 上界并估算其误差。"
+    },
+    {
+      "title": "如何写一个“拼多多函数”PDD(x)，使得随着砍价次数x增加，函数值会无限接近于1但永远不会等于1?",
+      "url": "https://www.zhihu.com/answer/3313032636",
+      "summary": "正文用圆周率小数截断值与原值的比构造函数，并列出逐次保留小数位后的数值。"
+    },
+    {
+      "title": "圆周率里是否一定有我的身份证号?",
+      "url": "https://www.zhihu.com/answer/3313088992",
+      "summary": "正文讨论圆周率小数展开中是否包含给定身份证号数字串，并给出预期出现概率为一的判断。"
+    },
+    {
+      "title": "泰勒公式最初是如何想到的?",
+      "url": "https://www.zhihu.com/answer/3313231250",
+      "summary": "正文由反正切函数的泰勒级数与端点收敛性推出圆周率的交错级数，并说明可任意精度逼近。"
+    },
+    {
+      "title": "小学为什么要把圆周率取成3.14，直接写成π不行吗？",
+      "url": "https://www.zhihu.com/answer/3320067927",
+      "summary": "正文以保留圆周率符号到最后一步统一相乘为例，讲解含π计算时为何应避免中途化成3.14。"
+    },
+    {
+      "title": "不用三角函数和积分可以写出π的表达式吗？",
+      "url": "https://www.zhihu.com/answer/3334164855",
+      "summary": "正文按年级列出了多组以无穷级数表示圆周率倒数的具体公式。"
+    },
+    {
+      "title": "圆周率被算尽代表了什么?",
+      "url": "https://www.zhihu.com/answer/3361790088",
+      "summary": "正文围绕圆周率是否为有理数展开，解释它不能算尽以及无限级数计算与数学证明的关系。"
+    },
+    {
+      "title": "吴国盛所谓「中国自古就没有科学/数理科学」，却说「西方自古就有科学」，这是学术界共识吗？",
+      "url": "https://www.zhihu.com/answer/3364311835",
+      "summary": "正文列举刘徽和祖冲之对圆周率的具体计算成就，以这些历史成果讨论中国古代数理科学，实质涉及圆周率。"
+    },
+    {
+      "title": "如何优雅地证明π³ > 31？",
+      "url": "https://www.zhihu.com/answer/3380944649",
+      "summary": "正文利用圆周率六次方的正项级数恒等式并开方，给出 pi 的三次方大于 31 的证明。"
+    },
+    {
+      "title": "如何证明sin²θ+cos²θ＝1？",
+      "url": "https://www.zhihu.com/answer/3394171444",
+      "summary": "正文解释弧度制和圆周率，并进一步用单位圆半周长的积分定义圆周率。"
+    },
+    {
+      "title": "为什么椭圆周长不能精确计算，但却有椭圆周长公式？",
+      "url": "https://www.zhihu.com/answer/3398407812",
+      "summary": "正文用固定离心率下椭圆周长与长轴的比值解释椭圆常数，并把该比值类比为圆周率。"
+    },
+    {
+      "title": "如何证明4＞π＞3?",
+      "url": "https://www.zhihu.com/answer/3401519882",
+      "summary": "正文围绕圆周率π的上下界，通过两个定积分分别证明4−π>0和π−3>0。"
+    },
+    {
+      "title": "如何证明4＞π＞3?",
+      "url": "https://www.zhihu.com/answer/3401598069",
+      "summary": "正文用两个定积分的正性推出3<π<4，实质处理圆周率的数值范围。"
+    },
+    {
+      "title": "为什么说正方形是特殊的矩形，却不说圆是特殊的椭圆？",
+      "url": "https://www.zhihu.com/answer/3413022561",
+      "summary": "正文解释圆周率是圆周长与直径之比，并讨论把圆一般化为椭圆后需要相应的一般化周率。"
+    },
+    {
+      "title": "如何注意力涣散地证明 e^{π√163} 小于262 53741 26407 68744？",
+      "url": "https://www.zhihu.com/answer/3414878312",
+      "summary": "正文采用 Machin 型反正切公式及交错级数构造圆周率的高精度上下界。"
+    },
+    {
+      "title": "如何证明4＞π＞3?",
+      "url": "https://www.zhihu.com/answer/3433169738",
+      "summary": "正文用圆周率位于两个相邻小数之间的已知上下界参与数值比较。"
+    },
+    {
+      "title": "为什么椭圆周长不能精确计算，但却有椭圆周长公式？",
+      "url": "https://www.zhihu.com/answer/3442362631",
+      "summary": "正文说明圆周率是圆这一特殊椭圆所对应的椭圆积分值，并解释了为圆弧长单独定义常数π的原因。"
+    },
+    {
+      "title": "为什么圆周率π如此接近第二组勾股数所成角的八倍角？",
+      "url": "https://www.zhihu.com/answer/3443151864",
+      "summary": "正文推导 π 可由 8 arctan(5/12) 减去小修正项表示，并据此说明圆周率与 8 arctan(5/12) 的近似关系。"
+    },
+    {
+      "title": "世界上收敛最快的计算 π 的公式是什么？",
+      "url": "https://www.zhihu.com/answer/3456059490",
+      "summary": "正文围绕圆周率计算给出 Chudnovsky 公式并讨论其实际计算记录与效率。"
+    },
+    {
+      "title": "牛顿究竟是一个怎样的人？",
+      "url": "https://www.zhihu.com/answer/3475895421",
+      "summary": "正文讲述祖冲之、鲁道夫等人计算圆周率位数的历史，并给出牛顿用于计算π的无穷级数公式，具体对应圆周率。"
+    },
+    {
+      "title": "为什么π+0.00000000000000000000000000000000000001如此接近π?",
+      "url": "https://www.zhihu.com/answer/3490130582",
+      "summary": "正文分别写出圆周率及其微小增量的连分数，并通过前31层系数相同说明两数为何极其接近。"
+    },
+    {
+      "title": "数学中有哪些漂亮的无字证明？",
+      "url": "https://www.zhihu.com/answer/3496060150",
+      "summary": "正文用圆不断细分后的面积极限得到含圆周率的结果，说明圆周率参与了圆面积公式。"
+    },
+    {
+      "title": "像163/326=1/2这样的等式还有哪些？",
+      "url": "https://www.zhihu.com/answer/3512340422",
+      "summary": "正文集中讨论圆周率的数值巧合、近似式、级数表示、连分数和估算方法。"
+    },
+    {
+      "title": "百分之一概率跟六百分之六概率，实际发生的几率一样吗？",
+      "url": "https://www.zhihu.com/answer/3525054944",
+      "summary": "正文用球的最大切面绕线说明半径增加一米时圆周只增加约 6.28 米，体现圆周与圆周长增量中的圆周率关系。"
+    },
+    {
+      "title": "为什么背诵 π 前1000位的人多，而背诵 e 的人却几乎找不到？",
+      "url": "https://www.zhihu.com/answer/3527909472",
+      "summary": "正文围绕圆周率的常用近似值、误差大小和所需精度讨论 π 的实际使用。"
+    },
+    {
+      "title": "为什么lnπ这么接近1.14514?",
+      "url": "https://www.zhihu.com/answer/3528586289",
+      "summary": "正文用 22/7 这一圆周率近似值解释关于 ln π 数值巧合的误解。"
+    },
+    {
+      "title": "谁能通俗的解释一下为什么有人怀疑姜萍?",
+      "url": "https://www.zhihu.com/answer/3544206498",
+      "summary": "正文介绍拉马努金的圆周率快速计算公式，并用相邻 k 所得 π 值说明其收敛速度。"
+    },
+    {
+      "title": "涟水县教体局回应「姜萍在学校月考成绩 83 分截图属实、预赛使用电脑是借的」，还有哪些内容值得关注？",
+      "url": "https://www.zhihu.com/answer/3544517235",
+      "summary": "正文介绍拉马努金的圆周率快速计算公式，并用相邻 k 所得 π 值说明其收敛速度。"
+    },
+    {
+      "title": "如何证明π⁵>306?",
+      "url": "https://www.zhihu.com/answer/3545828474",
+      "summary": "正文通过一系列数值放缩直接给出圆周率五次方的下界，从而证明 π⁵ 大于 306。"
+    },
+    {
+      "title": "如何证明π⁵>306?",
+      "url": "https://www.zhihu.com/answer/3546186214",
+      "summary": "正文先由 ζ(10) 的级数部分和得到 π 的十次幂下界，再开平方证明 π 的五次幂大于 306。"
+    },
+    {
+      "title": "如何证明π⁵>306?",
+      "url": "https://www.zhihu.com/answer/3548099476",
+      "summary": "正文以圆周率下界为起点，通过五次幂计算得到 π⁵ 大于 306，具体讨论了圆周率。"
+    },
+    {
+      "title": "如何证明π⁵>306?",
+      "url": "https://www.zhihu.com/answer/3549521664",
+      "summary": "正文用四分之一圆内长方形面积之和对圆周率作下界估计，并据此证明 π^5>306。"
+    },
+    {
+      "title": "如何证明π⁵>306?",
+      "url": "https://www.zhihu.com/answer/3550360853",
+      "summary": "正文用圆周率大于 3 的下界作五次幂放缩并算出 3⁵=243，直接涉及圆周率的数值估计。"
+    },
+    {
+      "title": "西方能证明自家的历史吗?",
+      "url": "https://www.zhihu.com/answer/3551804481",
+      "summary": "正文以内接和外切正多边形的周长序列及递推关系介绍阿基米德割圆术。"
+    },
+    {
+      "title": "如何证明2π+e>9?",
+      "url": "https://www.zhihu.com/answer/3555540539",
+      "summary": "正文用圆周率大于 3.141 的下界推导 2π 的范围，并将其用于目标不等式的证明。"
+    },
+    {
+      "title": "在你不能证明e+π是无理数之前，有人问你这是有理数还是无理数，你选什么（看补充）？",
+      "url": "https://www.zhihu.com/answer/3582121747",
+      "summary": "正文比较 π 的连分数渐进行为与由 e 导出的理论曲线，并据此讨论 π 相关的逼近问题。"
+    },
+    {
+      "title": "能否只用π就表示出无理数e？",
+      "url": "https://www.zhihu.com/answer/3590516187",
+      "summary": "正文围绕用圆周率π表示自然常数e展开，并辨析一个含π的极限是否真正使用了π。"
+    },
+    {
+      "title": "能否只用π就表示出无理数e？",
+      "url": "https://www.zhihu.com/answer/3590918784",
+      "summary": "正文把圆周率π写成复对数的形式，用于建立π与自然常数e的直接关系。"
+    },
+    {
+      "title": "当我用手指划过尺子 3 和 4 刻度之间时，我是否触摸到了 π？",
+      "url": "https://www.zhihu.com/answer/3613851429",
+      "summary": "正文讨论圆周率 π 在数学连续统和物理离散尺度中的存在差异，核心对象正是圆周率。"
+    },
+    {
+      "title": "有没有结果含有“π”但是与圆完全无关的问题？",
+      "url": "https://www.zhihu.com/answer/3620762494",
+      "summary": "正文以布丰投针实验和相交频率得到不断逼近π的实验结果，实质介绍了圆周率的一种随机估计方式。"
+    },
+    {
+      "title": "如何证明这个数小于pi？",
+      "url": "https://www.zhihu.com/answer/3630957723",
+      "summary": "正文通过圆周率与一个有理数之差等于正积分，证明该有理数小于 pi。"
+    },
+    {
+      "title": "牛顿真有传说的那么厉害吗？",
+      "url": "https://www.zhihu.com/answer/4189096084",
+      "summary": "正文以割圆法与微积分的历史对比说明圆周率计算效率的跃升。"
+    },
+    {
+      "title": "如何优雅地证明10>π²？",
+      "url": "https://www.zhihu.com/answer/22014231927",
+      "summary": "正文利用 π 小于 3.15 的数值估计，通过平方和连不等式证明 10 大于 π²。"
+    },
+    {
+      "title": "如何优雅地证明10>π²？",
+      "url": "https://www.zhihu.com/answer/22709062294",
+      "summary": "正文用 10 的平方根约等于 3.162，并将其与 π 的近似值 3.1415926 比较来证明 10>π²，核心涉及圆周率的数值比较。"
+    },
+    {
+      "title": "数学史上你认为最美的公式是什么？",
+      "url": "https://www.zhihu.com/answer/23642556774",
+      "summary": "正文给出 Wallis 公式将圆周率相关常数表示为无穷乘积，属于圆周率的典型公式。"
+    },
+    {
+      "title": "如何用注意力证明π＞3.14?",
+      "url": "https://www.zhihu.com/answer/33838952964",
+      "summary": "正文在 sin x/x 的不等式中代入 x=π/12 并利用三角函数精确值，推出圆周率的数值下界。"
+    },
+    {
+      "title": "数学中有什么难以置信的结论？",
+      "url": "https://www.zhihu.com/answer/34043500503",
+      "summary": "正文给出自然数平方倒数之和等于π²/6，并强调这一结果中出现了圆周率π。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/34421869185",
+      "summary": "正文用自然数倒数平方和等于π²/6解释圆周率π的来源，并联系勾股定理与欧几里得空间。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/36641984955",
+      "summary": "正文用周期性解释圆周率为何频繁出现在数学模型中，实质讨论了 π 的含义。"
+    },
+    {
+      "title": "如何看待我家人不承认3月14日是π节，还让我不要相信网上说的π节？",
+      "url": "https://www.zhihu.com/answer/36672814692",
+      "summary": "正文通过比较 22/07 与 π 真值的偏差，具体讨论了圆周率的近似值。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/40441505552",
+      "summary": "正文明确给出圆周率作为圆周长与直径之比的定义，并联系到圆面积公式。"
+    },
+    {
+      "title": "如何证明2π+e>9?",
+      "url": "https://www.zhihu.com/answer/46175744383",
+      "summary": "正文用圆周率的数值下界 3.141 参与求和，说明 2π+e 大于 9。"
+    },
+    {
+      "title": "牛顿真有传说的那么厉害吗？",
+      "url": "https://www.zhihu.com/answer/48816815834",
+      "summary": "正文讲述牛顿用通项公式和级数方法更高效地计算圆周率，并交代此前人工计算圆周率位数的背景。"
+    },
+    {
+      "title": "那些数学天才中的天才是什么概念？",
+      "url": "https://www.zhihu.com/answer/54642687053",
+      "summary": "正文给出利用无穷级数计算圆周率的具体公式，并与用正多边形逼近圆周率的方法作比较。"
+    },
+    {
+      "title": "如何优雅的证明 π⁴ > 97？",
+      "url": "https://www.zhihu.com/answer/59437757097",
+      "summary": "正文围绕 π 的四次幂与 97 的大小关系构造证明并给出数值下界。"
+    },
+    {
+      "title": "如何证明 1+1/2²+1/3²+1/4²+1/5²+…=π²/6？",
+      "url": "https://www.zhihu.com/answer/61817143134",
+      "summary": "正文完整证明巴塞尔级数的和为 π²/6，直接建立该级数与圆周率的定量联系。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/72171721635",
+      "summary": "正文围绕化圆为方详细讲述了圆周率的历史近似值与圆面积关系。"
+    },
+    {
+      "title": "怎样看出一个人有数学天赋？",
+      "url": "https://www.zhihu.com/answer/72173820223",
+      "summary": "正文围绕化圆为方详细讲述了圆周率的历史近似值与圆面积关系。"
+    },
+    {
+      "title": "有哪些千年以上时间才解决的数学问题?",
+      "url": "https://www.zhihu.com/answer/72174972387",
+      "summary": "正文围绕化圆为方详细讲述了圆周率的历史近似值与圆面积关系。"
+    },
+    {
+      "title": "有哪些看起来简洁却很难的数学题？",
+      "url": "https://www.zhihu.com/answer/74748112802",
+      "summary": "正文围绕化圆为方问题介绍圆周率及不同历史时期对 π 的近似计算。"
+    },
+    {
+      "title": "如何优雅的证明 π⁴ > 97？",
+      "url": "https://www.zhihu.com/answer/94444307790",
+      "summary": "正文利用圆周率的级数恒等式，并通过前两项下界严格证明π⁴大于97。"
+    },
+    {
+      "title": "是否存在一个实数a，使得3.1415926535<a<π？",
+      "url": "https://www.zhihu.com/answer/97496717544",
+      "summary": "正文利用 Chudnovsky 圆周率公式的首项给出 π 的逼近值，并核对其小数范围。"
+    },
+    {
+      "title": "在不使用任何数字的情况下，如何表达数字 100？",
+      "url": "https://www.zhihu.com/answer/103047347171",
+      "summary": "正文利用巴塞尔问题的级数恒等式给出 π 的表达式，再用于构造不含数字的 100。"
+    },
+    {
+      "title": "如何通俗地解释泰勒公式？",
+      "url": "https://www.zhihu.com/answer/109932828963",
+      "summary": "正文利用 arctan x 的泰勒展开和交错级数收敛性推出 π/4 的级数并用于计算 π。"
+    },
+    {
+      "title": "3月14日是圆周率日，人类最新已将这一数字精确到105万亿位，这么精确有何用？哪些领域需要这样？",
+      "url": "https://www.zhihu.com/answer/124011523588",
+      "summary": "正文讨论圆周率的高精度计算意义，并区分暴力计算有限位数与证明 π 为正规数的方法。"
+    },
+    {
+      "title": "为什么数学上一些显而易见的事情数学家们也要编个定理出来？",
+      "url": "https://www.zhihu.com/answer/127969443086",
+      "summary": "正文比较古巴比伦和古埃及圆面积公式中的圆周率近似值，并说明圆周率是无理数和超越数。"
+    },
+    {
+      "title": "是否有无穷多个正整数N，使得tan N > N^2?",
+      "url": "https://www.zhihu.com/answer/1888740310982562048",
+      "summary": "正文以圆周率的无理度为核心，介绍其定义、已知上下界以及与题目条件的联系。"
+    },
+    {
+      "title": "牛排吃全熟真的很丢人吗?",
+      "url": "https://www.zhihu.com/answer/1892589071366354834",
+      "summary": "正文给出莱布尼茨级数、拉马努金公式和 BBP 公式等多种计算圆周率的方法，具体讨论了逼近方式。"
+    },
+    {
+      "title": "有哪些并不是很离谱的数学伪证，但是得到的结论却是一眼假的？",
+      "url": "https://www.zhihu.com/answer/1893081462884003881",
+      "summary": "正文构造用折线周长逼近圆周长的伪证，围绕圆周率 π 的取值展开讨论。"
+    },
+    {
+      "title": "为什么感觉每当提到古代的天才，脑海中关于我国的就都是文学天才，而关于西方的却是数学天才？",
+      "url": "https://www.zhihu.com/answer/1897204995037832374",
+      "summary": "正文沿历史脉络具体讨论圆周率从粗略到精密的计算及刘徽割圆术。"
+    },
+    {
+      "title": "你能求出π^(π^π)的整数部分么？",
+      "url": "https://www.zhihu.com/answer/1900675259700610142",
+      "summary": "正文围绕圆周率 π 构造严格上下界，并据此确定 π^(π^π) 的整数部分。"
+    },
+    {
+      "title": "某种程度上来讲，g与π²是不是非常地接近？",
+      "url": "https://www.zhihu.com/answer/1903450590417249830",
+      "summary": "正文以秒摆定义一米说明单摆周期公式中的π如何使g与π²严格相等，并讨论该关系的历史与近似性。"
+    },
+    {
+      "title": "π能不能看成是有理数？",
+      "url": "https://www.zhihu.com/answer/1916478240597443281",
+      "summary": "正文整篇围绕圆周率的无理性构造 Niven 型多项式积分证明。"
+    },
+    {
+      "title": "牛顿真有传说的那么厉害吗？",
+      "url": "https://www.zhihu.com/answer/1916613032072676276",
+      "summary": "正文以祖冲之发展割圆术计算圆周率为例，讨论圆周率的数值计算及其数学史意义。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/1916903147193996868",
+      "summary": "正文把 2π 解释为 U(1) 从单位元绕一圈回归单位元的周期，并联系单位圆 S¹ 的旋转尺度。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/1917079079007528358",
+      "summary": "正文解释了圆周率的比值定义，并说明它与圆和旋转对称问题的联系。"
+    },
+    {
+      "title": "如何优雅地证明π²²<86556004192？",
+      "url": "https://www.zhihu.com/answer/1917583485012521724",
+      "summary": "正文以圆周率的十进制上界为起点，估计 π 的高次幂。"
+    },
+    {
+      "title": "如何优雅地证明π²²<86556004192？",
+      "url": "https://www.zhihu.com/answer/1917620140528337168",
+      "summary": "正文把 ζ(22) 的估值转化为 π²² 的严格上界，最终证明其小于给定整数。"
+    },
+    {
+      "title": "为什么说欧拉公式很「神」？",
+      "url": "https://www.zhihu.com/answer/1918082627174371436",
+      "summary": "正文从周期现象和圆周运动出发，说明圆周率 π 用于刻画循环与周期长度。"
+    },
+    {
+      "title": "圆和球的公式含 π，为什么到四维超球就变成 π² 了，三维为什么没有 √π？",
+      "url": "https://www.zhihu.com/answer/1918297644419220196",
+      "summary": "正文把 n 维球体积中 π 的幂次联系到各圆周因子，并说明其由 SO(n) 的秩决定。"
+    },
+    {
+      "title": "圆周率已被算到31.4万亿位，科学家如此执着，到底为了什么？",
+      "url": "https://www.zhihu.com/answer/1920792407827514007",
+      "summary": "正文用边数不断增加的正多边形逼近圆来说明计算精度，实质上是在讨论圆周率的逼近。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/1922311194619933210",
+      "summary": "正文用单位圆上的弧长定义角度，说明半圆弧长与圆周长的 π 倍关系，实质讲解圆周率及其角度意义。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/1922545323122860252",
+      "summary": "正文把圆周率 π 与周期运动联系起来，解释公式中出现 π 的原因。"
+    },
+    {
+      "title": "如何优雅地证明10>π²？",
+      "url": "https://www.zhihu.com/answer/1923322502408569337",
+      "summary": "正文从单位圆周长与直径的关系定义圆周率，并通过外切多边形周长给出 pi 的上界。"
+    },
+    {
+      "title": "2，0，4，3，7，6，1，5。这组数字有什么规律吗？",
+      "url": "https://www.zhihu.com/answer/1926009172702507898",
+      "summary": "正文用圆周率小数中指定位置的一串数字解释题设数列，并据此给出通项公式和后续数字。"
+    },
+    {
+      "title": "计算庞大的数字时，怎么证明计算机没算错？",
+      "url": "https://www.zhihu.com/answer/1928826058226009568",
+      "summary": "正文以圆周率的高精度计算为例，讨论算法、硬件和结果校验如何共同保证庞大计算的可信度。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/1932824734627786856",
+      "summary": "正文用赤道绳长计算说明增加长度恒为2π米，与地球半径无关，展示圆周率在圆周长差中的应用。"
+    },
+    {
+      "title": "如果正弦、余弦函数的定义是泰勒公式形式，那怎样推导出原始的结论?",
+      "url": "https://www.zhihu.com/answer/1939734496283956522",
+      "summary": "正文把 π 定义为正弦函数大于零的第一个零点，并据此证明周期为 2π 及特殊角函数值。"
+    },
+    {
+      "title": "理论计算机科学（TCS）能否反哺纯数学？",
+      "url": "https://www.zhihu.com/answer/1949070284117225953",
+      "summary": "正文给出拉马努金机发现的 π 连分数公式，并说明其收敛步数和已获证明的状态。"
+    },
+    {
+      "title": "圆周率隐含着宇宙哪些秘密？",
+      "url": "https://www.zhihu.com/answer/1949608329316897331",
+      "summary": "正文定义圆周率为圆的周长与直径之比，并介绍阿基米德、刘徽等人的逼近和计算历史。"
+    },
+    {
+      "title": "√2和π本质上有什么区别？",
+      "url": "https://www.zhihu.com/answer/1961148197851363110",
+      "summary": "正文以圆周与直径之比定义 pi，并介绍其近似计算、历史与几何应用，展开讨论圆周率。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/1969410590519858227",
+      "summary": "正文说明圆周率是周长与直径之比，并解释它为何出现在圆、周期和波动公式中。"
+    },
+    {
+      "title": "牛顿真有传说的那么厉害吗？",
+      "url": "https://www.zhihu.com/answer/1976778081147560348",
+      "summary": "正文比较祖冲之、卡西和范克伦伊计算圆周率的方法，并说明牛顿用无穷级数公式计算圆周率。"
+    },
+    {
+      "title": "拉马努金是怎么发现那些壮观的公式的？",
+      "url": "https://www.zhihu.com/answer/1980303682231870943",
+      "summary": "正文具体比较圆周率近似公式的误差，并介绍拉马努金用无穷级数逐项提高圆周率精度的公式。"
+    },
+    {
+      "title": "如何证明π的平方大于10？（是伪命题，不要回答了）？",
+      "url": "https://www.zhihu.com/answer/1983226790123156340",
+      "summary": "正文以 π²/6 的巴塞尔级数展开并截取前 16 项下界，直接用于证明 π²>10。"
+    },
+    {
+      "title": "如何看待短视频平台有人声称「微积分是中国发明的」?",
+      "url": "https://www.zhihu.com/answer/1983653433178333949",
+      "summary": "正文围绕圆周率的计算方法讨论割圆术与微积分逼近的差异。"
+    },
+    {
+      "title": "如何看待短视频平台有人声称「微积分是中国发明的」?",
+      "url": "https://www.zhihu.com/answer/1985633009534276840",
+      "summary": "正文具体分析刘徽以圆内接正多边形逼近圆面积来计算圆周率的方法。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/1987574638969119134",
+      "summary": "正文以波动、振动和交流电等现象解释圆周率 π 与周期性的普遍联系。"
+    },
+    {
+      "title": "人类为什么需要创造虚数？",
+      "url": "https://www.zhihu.com/answer/1999891273520264395",
+      "summary": "正文讨论圆周率的历史认识、常用近似值，并说明它在十九世纪被证明为超越数。"
+    },
+    {
+      "title": "为什么圆周率不能算尽?",
+      "url": "https://www.zhihu.com/answer/2001068623280751110",
+      "summary": "正文以圆周率不是普通无理数而是超越数来回应它为何不能算尽。"
+    },
+    {
+      "title": "为什么圆周率不能算尽?",
+      "url": "https://www.zhihu.com/answer/2003124249817276634",
+      "summary": "正文讨论圆周率在不同进制下的表示，并说明圆周率在十进制中是无理数。"
+    },
+    {
+      "title": "你知道哪些求圆周率的方法？",
+      "url": "https://www.zhihu.com/answer/2014755596654630379",
+      "summary": "正文列举计算圆周率的多类方法，并具体说明 BBP 公式及投针实验的估算原理。"
+    },
+    {
+      "title": "为什么许多代数上复杂的问题，在几何和组合意义下十分简单？",
+      "url": "https://www.zhihu.com/answer/2015590214035325016",
+      "summary": "正文用四分之一圆区域面积中的 π 估算本原勾股数组数，并得到含 1/(2π) 的渐近式。"
+    },
+    {
+      "title": "如何简单地证明π是无理数？",
+      "url": "https://www.zhihu.com/answer/2016046890521756572",
+      "summary": "正文以圆周率可写成整数之比为反证假设，启动关于圆周率的无理性证明。"
+    },
+    {
+      "title": "你知道哪些求圆周率的方法？",
+      "url": "https://www.zhihu.com/answer/2016222735127324058",
+      "summary": "正文由椭圆曲线点计数的 Sato-Tate 分布推导出利用素数误差计算圆周率的极限公式。"
+    },
+    {
+      "title": "有哪些看起来简洁却很难的数学题？",
+      "url": "https://www.zhihu.com/answer/2017702351037817881",
+      "summary": "正文以莱布尼兹交错级数连接奇数分母与 π/4，并解释圆和奇数的关系。"
+    },
+    {
+      "title": "数学是从什么时候开始反直觉的？",
+      "url": "https://www.zhihu.com/answer/2019328593935759203",
+      "summary": "正文从韦达的无穷乘积出发，串联巴塞尔级数、沃利斯公式等圆周率表达式及其数学史。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/2024421529098756242",
+      "summary": "正文以旋转、周期运动和极坐标积分为主线解释圆周率为何频繁进入公式。"
+    },
+    {
+      "title": "数学中，类似 π、e 的独立的常数还有哪些？",
+      "url": "https://www.zhihu.com/answer/2028139486073070190",
+      "summary": "正文将圆周率列为五大常数，并给出符号、近似值及其旋转对称意义。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/2030221740849223530",
+      "summary": "正文解释圆周率为何频繁出现，说明它与圆、周期、旋转和对称结构的联系。"
+    },
+    {
+      "title": "如何优雅证明圆周率派的2.026次方大于10？",
+      "url": "https://www.zhihu.com/answer/2033520175807473227",
+      "summary": "正文以对数差表达圆周率幂与 10 的比较，讨论圆周率的一个定量估计。"
+    },
+    {
+      "title": "微积分不是显而易见的东西吗，为什么直到牛顿布莱尼兹时期才被发明出来?",
+      "url": "https://www.zhihu.com/answer/2034336783031383277",
+      "summary": "正文详细讲述刘徽割圆术及祖冲之的圆周率上下界，属于圆周率的概念、算法与历史展开。"
+    },
+    {
+      "title": "为什么要引入弧度概念？",
+      "url": "https://www.zhihu.com/answer/2036182505691296109",
+      "summary": "正文由圆周长与一整圈的角度对应关系解释 2π 的来源。"
+    },
+    {
+      "title": "π的无穷乘积，最初是怎么被发现的？",
+      "url": "https://www.zhihu.com/answer/2039407375942164860",
+      "summary": "正文以沃利斯乘积为主线，推导圆周率π的无穷乘积表达式。"
+    },
+    {
+      "title": "为什么圆周率不能算尽?",
+      "url": "https://www.zhihu.com/answer/2039840236495169005",
+      "summary": "正文讨论圆周率的无穷级数表示、算不尽和不循环特征，实质涉及圆周率。"
+    },
+    {
+      "title": "该如何通俗易懂的向小孩子解释自然对数的底 e 的意义？",
+      "url": "https://www.zhihu.com/answer/2041841069361475794",
+      "summary": "正文从圆的周长与直径之比解释圆周率，并联系圆、周期运动和等角螺线。"
+    },
+    {
+      "title": "有哪些看起来简洁却很难的数学题？",
+      "url": "https://www.zhihu.com/answer/2049264423324365211",
+      "summary": "正文复述兰伯特利用正切函数证明圆周率 π 为无理数的思路。"
+    },
+    {
+      "title": "圆周率十进制表达第一个0为什么如此靠后？",
+      "url": "https://www.zhihu.com/answer/2052026598036182136",
+      "summary": "正文讨论圆周率在不同进制下首个零出现的位置，并解释十进制表示中的数值巧合。"
+    },
+    {
+      "title": "生活在Minecraft的世界中的人，会发现圆周率π吗？",
+      "url": "https://www.zhihu.com/answer/2060583326285672988",
+      "summary": "正文把圆周率定义为圆的周长与直径之比，并在曼哈顿度量下算出其值为 4。"
+    },
+    {
+      "title": "生活在Minecraft的世界中的人，会发现圆周率π吗？",
+      "url": "https://www.zhihu.com/answer/2061469358610814266",
+      "summary": "正文以方块世界的阶梯圆、实际里程和多种计数途径辨析圆周率，说明不同度量下的比值得出 4 或约 3.1416，并论证分析意义上的圆周率。"
+    },
+    {
+      "title": "在数学的学习过程中，你见过最妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/2061866846765289640",
+      "summary": "正文最终把分块积分结果合并为六分之圆周率平方，直接完成圆周率相关恒等式的应用。"
+    },
+    {
+      "title": "为什么圆周率不能算尽?",
+      "url": "https://www.zhihu.com/answer/2061935665978270274",
+      "summary": "正文以圆的无限边形直觉和超越性解释圆周率为何不能算尽。"
+    },
+    {
+      "title": "计算庞大的数字时，怎么证明计算机没算错？",
+      "url": "https://www.zhihu.com/answer/2062615081511293568",
+      "summary": "正文以梅钦公式为起点梳理圆周率高精度计算算法，并比较不同公式的效率和历史应用。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/2063213203727947460",
+      "summary": "正文把 π 从圆周率扩展到旋转对称下反复出现的结构常量，说明它在圆、波、复数和傅里叶等场景中的共同来源。"
+    },
+    {
+      "title": "为何有传言宣传明朝数学相对于宋元会出现所谓的严重的倒退？",
+      "url": "https://www.zhihu.com/answer/2063675239423276095",
+      "summary": "正文回顾祖冲之用割圆术求圆周率至小数点后七位，以及后世改用无穷级数继续推算的历史。"
+    },
+    {
+      "title": "为何有传言宣传明朝数学相对于宋元会出现所谓的严重的倒退？",
+      "url": "https://www.zhihu.com/answer/2073376150873699680",
+      "summary": "正文比较祖冲之、朱载堉、程大位等人的圆周率近似值，以此讨论数学水平变化。"
+    },
+    {
+      "title": "许多公式都有π和e，可能的原因有什么？",
+      "url": "https://www.zhihu.com/answer/2075476775593829114",
+      "summary": "正文解释圆周率的圆周长定义及其因周期和旋转对称而在公式中频繁出现。"
+    },
+    {
+      "title": "推翻一个自己的老答案",
+      "url": "https://zhuanlan.zhihu.com/p/19985664",
+      "summary": "正文围绕 π 的平方与重力加速度的数值近似，查证米制历史并解释该关系为何只是巧合。"
+    },
+    {
+      "title": "自然常数的奥秘",
+      "url": "https://zhuanlan.zhihu.com/p/24319229",
+      "summary": "正文从圆周与直径之比定义 π，并用单位圆上的半圆长度解释它。"
+    },
+    {
+      "title": "A4纸，谋杀案和囊括宇宙的数字",
+      "url": "https://zhuanlan.zhihu.com/p/25327929",
+      "summary": "正文介绍圆周率的历史近似、无穷级数算法、超越性以及其小数位计算。"
+    },
+    {
+      "title": "中学篇 No. 18：脑洞",
+      "url": "https://zhuanlan.zhihu.com/p/26896745",
+      "summary": "正文给出维埃特和沃利斯计算圆周率的无穷乘积，并说明这些公式的历史意义与计算思想。"
+    },
+    {
+      "title": "【π 要那么多位有什么用?】- 有点意思的数学 10",
+      "url": "https://zhuanlan.zhihu.com/p/27627822",
+      "summary": "正文围绕圆周率的数位、正规性和计算意义展开，并说明其与素数及欧拉乘积的联系。"
+    },
+    {
+      "title": "证明圆周率π是无理数——大阪大学2003年高考第四题(理科)",
+      "url": "https://zhuanlan.zhihu.com/p/28345227",
+      "summary": "正文以圆周率为证明对象，构造积分并论证 pi 不具有有理数表示。"
+    },
+    {
+      "title": "一道高中数学数列题的解答",
+      "url": "https://zhuanlan.zhihu.com/p/31619318",
+      "summary": "正文把递推极限解释为阿基米德用内接和外切正多边形逼近圆周率。"
+    },
+    {
+      "title": "Wallis乘积中的π从何而来？（上）",
+      "url": "https://zhuanlan.zhihu.com/p/34313702",
+      "summary": "正文从随机行走和矩形逼近构造并推导 Wallis 乘积，最终揭示圆周率 π 在公式中的几何来源。"
+    },
+    {
+      "title": "Wallis乘积中的π从何而来？（下）",
+      "url": "https://zhuanlan.zhihu.com/p/34600273",
+      "summary": "正文用包含 π 的四分之一圆面积上下界夹住矩形面积，完成 Wallis 乘积中圆周率来源的严格讨论。"
+    },
+    {
+      "title": "数学普及，任重而道远：从深圳人才公园π桥上的错误谈起 | 欧阳顺湘",
+      "url": "https://zhuanlan.zhihu.com/p/36174457",
+      "summary": "正文围绕π桥上的圆周率介绍展开，辨析π的无限不循环性质、历史计算和相关事实错误。"
+    },
+    {
+      "title": "圆周率的征途｜混乱博物馆",
+      "url": "https://zhuanlan.zhihu.com/p/42048408",
+      "summary": "正文梳理圆周率从割圆术、反正切级数到高精度计算的演进，并介绍多种逼近算法。"
+    },
+    {
+      "title": "你是我的菜，你是我的π 丨 中秋节要这样「科学地」表白",
+      "url": "https://zhuanlan.zhihu.com/p/45188017",
+      "summary": "正文给出圆周率的几何定义，并说明其小数展开不终止、不循环的基本性质。"
+    },
+    {
+      "title": "正弦曲线/正弦波的直观解释",
+      "url": "https://zhuanlan.zhihu.com/p/45761661",
+      "summary": "正文用正弦的半周期定义圆周率 π，并解释 π 与正弦零点和完整循环的关系。"
+    },
+    {
+      "title": "理解黎曼猜想（二）两个自然数互质的概率是多少？ | 袁岚峰",
+      "url": "https://zhuanlan.zhihu.com/p/47978393",
+      "summary": "正文用ζ(2)=π²/6推导任意两个自然数互质的概率，展示了圆周率在该结论中的作用。"
+    },
+    {
+      "title": "古人是如何寻找到π的？",
+      "url": "https://zhuanlan.zhihu.com/p/48307582",
+      "summary": "正文围绕圆周率的定义、历史近似值和正多边形逼近计算展开，核心主题是圆周率。"
+    },
+    {
+      "title": "一圈为何是360°？",
+      "url": "https://zhuanlan.zhihu.com/p/48767522",
+      "summary": "用圆周长与半径的固定比例解释 2π 弧度，并据此换算一圈的角度。"
+    },
+    {
+      "title": "七大神秘的数学常数",
+      "url": "https://zhuanlan.zhihu.com/p/52480460",
+      "summary": "正文定义圆周率为周长与直径之比，并介绍其无理性、历史与应用。"
+    },
+    {
+      "title": "人教版六年级数学（上册）知识要点汇总",
+      "url": "https://zhuanlan.zhihu.com/p/53776480",
+      "summary": "正文定义圆周率为圆周长与直径之比，给出周长公式并说明圆周率是无限不循环小数。"
+    },
+    {
+      "title": "一个与圆周率π有关的碰撞计数谜题",
+      "url": "https://zhuanlan.zhihu.com/p/55768956",
+      "summary": "正文把弹性碰撞次数化为含圆周率的表达式，并进一步讨论其与 π 十进制展开的关系。"
+    },
+    {
+      "title": "如何证明π是超越数",
+      "url": "https://zhuanlan.zhihu.com/p/56607777",
+      "summary": "正文围绕圆周率π的超越性展开，采用 Lindemann 定理的初等证明思路完成论证。"
+    },
+    {
+      "title": "为什么全体自然数平方的倒数和等于π^2/6？",
+      "url": "https://zhuanlan.zhihu.com/p/67450658",
+      "summary": "正文推出全体自然数平方倒数和为 π²/6，核心结果与圆周率直接相关。"
+    },
+    {
+      "title": "如何证明著名的π与e是无理数？",
+      "url": "https://zhuanlan.zhihu.com/p/68095343",
+      "summary": "正文围绕圆周率 π 展开无理性证明，通过辅助函数与三角函数积分导出整数与小于一的正数之间的矛盾。"
+    },
+    {
+      "title": "谷歌造出拉马努金机：几毫秒求解数学常数，无需任何先验信息",
+      "url": "https://zhuanlan.zhihu.com/p/72462506",
+      "summary": "正文说明圆周率可由高收敛速度的连分数公式计算，并给出用十几步迭代逼近的实例。"
+    },
+    {
+      "title": "正态分布的系数中为何会有π？",
+      "url": "https://zhuanlan.zhihu.com/p/74735645",
+      "summary": "正文把正态分布归一化中的 π 解释为高斯曲面水平圆经极坐标积分后产生的常数。"
+    },
+    {
+      "title": "﻿从无理数中算出整数--形形色色的“近整数”",
+      "url": "https://zhuanlan.zhihu.com/p/77005867",
+      "summary": "正文用22/7近似圆周率解释sin 11接近-1，并列举多种含π的近整数。"
+    },
+    {
+      "title": "极限理论发展简史(一)",
+      "url": "https://zhuanlan.zhihu.com/p/78185443",
+      "summary": "正文以刘徽割圆术说明如何通过不断增加圆内接正多边形边数逼近圆并求圆周率。"
+    },
+    {
+      "title": "如何让8岁表妹1分钟明白：e^π和π^e谁大的问题？",
+      "url": "https://zhuanlan.zhihu.com/p/107677027",
+      "summary": "正文讲解圆周率的定义、符号由来、历史计算和取得的近似值。"
+    },
+    {
+      "title": "中国古代数学辉煌灿烂！",
+      "url": "https://zhuanlan.zhihu.com/p/115767370",
+      "summary": "正文讲解刘徽割圆术及祖冲之对圆周率数值的推进。"
+    },
+    {
+      "title": "Code and Finance 2 蒙特卡洛模拟期权定价",
+      "url": "https://zhuanlan.zhihu.com/p/134759744",
+      "summary": "正文通过单位圆与正方形面积比和随机撒点估计圆周率，实际展开圆周率的蒙特卡洛计算。"
+    },
+    {
+      "title": "历史上的民科们1：π=3.2！1897印第安纳圆周率法案",
+      "url": "https://zhuanlan.zhihu.com/p/139436280",
+      "summary": "正文从圆面积与周长的比例推出圆周率 3.2，并讨论 π=4 与 256/81 等不自洽结果。"
+    },
+    {
+      "title": "蒙特卡洛模拟（Python）深入教程",
+      "url": "https://zhuanlan.zhihu.com/p/257196971",
+      "summary": "正文分别用圆内随机点比例和蒲丰投针实验构造圆周率的随机估计，并比较模拟所得近似值。"
+    },
+    {
+      "title": "泰勒公式：微分学的顶峰 (数学分析 · 导数的应用 (2))",
+      "url": "https://zhuanlan.zhihu.com/p/266624048",
+      "summary": "正文通过余弦函数的泰勒多项式求零点并估计误差，得到圆周率的近似值。"
+    },
+    {
+      "title": "第二十七天（20,12,04）：Wallis公式~",
+      "url": "https://zhuanlan.zhihu.com/p/330966600",
+      "summary": "正文从 Wallis 公式导出含 π 的无穷乘积，并说明其可用于逼近圆周率。"
+    },
+    {
+      "title": "三大重要常数：π、e、欧拉常数的由来",
+      "url": "https://zhuanlan.zhihu.com/p/350972841",
+      "summary": "正文从圆周与直径之比定义圆周率，并借助内接正多边形和单调有界定理给出其极限表示。"
+    },
+    {
+      "title": "圆的面积公式和周长公式的详细推导",
+      "url": "https://zhuanlan.zhihu.com/p/362875127",
+      "summary": "正文完整推导圆的面积与周长公式，并讨论其中圆周常数与半径、弧长的比例关系。"
+    },
+    {
+      "title": "为什么 Pi 会出现在正态分布的方程中？",
+      "url": "https://zhuanlan.zhihu.com/p/443045618",
+      "summary": "正文通过径向切片与圆周角解释正态分布公式中的 π 如何从旋转对称区域的面积计算中产生。"
+    },
+    {
+      "title": "计算圆周率，凡人用一生，天才只用一个小时",
+      "url": "https://zhuanlan.zhihu.com/p/444281349",
+      "summary": "正文以阿基米德和刘徽的割圆法为主线讲解圆周率的计算及精度演进。"
+    },
+    {
+      "title": "为什么希腊字母在自然科学领域被广泛采用？",
+      "url": "https://zhuanlan.zhihu.com/p/446038569",
+      "summary": "正文说明了圆周率符号 π 的词源和后世赋义，具体对应圆周率这一叶节点。"
+    },
+    {
+      "title": "一类圆周率pi有理逼近的积分形式",
+      "url": "https://zhuanlan.zhihu.com/p/450355422",
+      "summary": "正文用一族非负定积分构造圆周率与有理数之间的大小关系，并给出若干上下界。"
+    },
+    {
+      "title": "【概率论】蒲丰投针问题",
+      "url": "https://zhuanlan.zhihu.com/p/479953215",
+      "summary": "正文从蒲丰投针的相交频率推导圆周率近似式，并用实验数据估计 π。"
+    },
+    {
+      "title": "一π多吃，看看你是哪种吃π方式？",
+      "url": "https://zhuanlan.zhihu.com/p/480911391",
+      "summary": "正文围绕圆周率的历史、割圆法、级数和计算机计算，介绍 π 的定义与多种求值方法。"
+    },
+    {
+      "title": "常用级数汇总（无穷篇）",
+      "url": "https://zhuanlan.zhihu.com/p/555981969",
+      "summary": "正文由arctan的泰勒展开及其在x=1处的取值推出π/4，并汇总多个含π的级数。"
+    },
+    {
+      "title": "瓦里斯(Wallis)公式和斯特林(Stirling)公式",
+      "url": "https://zhuanlan.zhihu.com/p/592186859",
+      "summary": "正文用正弦幂积分构造上下界并证明瓦里斯公式，其极限值直接给出圆周率。"
+    },
+    {
+      "title": "九进制文明/Nonary Civilization（2）：除不尽的诱惑",
+      "url": "https://zhuanlan.zhihu.com/p/592612245",
+      "summary": "正文用内外接正六边形估计圆周率上下界，并介绍割圆术、近似分数和高精度小数计算。"
+    },
+    {
+      "title": "比物理学不存在更恐怖的，是圆周率|Happy Pi Day",
+      "url": "https://zhuanlan.zhihu.com/p/613851001",
+      "summary": "正文围绕圆周率的历史计算、连分数近似、割圆法和现代超算求值展开科普。"
+    },
+    {
+      "title": "拉马努金：我做数学只用三个词，“显然”、“显然”还是“显然”",
+      "url": "https://zhuanlan.zhihu.com/p/638548023",
+      "summary": "正文给出拉马努金计算 1/π 的无穷级数，并说明其快速收敛和计算用途。"
+    },
+    {
+      "title": "【优雅技巧】如何优雅地“注意到”关于e、π的不等式",
+      "url": "https://zhuanlan.zhihu.com/p/669285539",
+      "summary": "正文以圆周率的连分数截断构造有理上下界，并用定积分证明涉及 π 的严格不等式。"
+    },
+    {
+      "title": "知乎新书｜π 已经到小数点后 62.8 万亿位了，它到底有什么好算的？",
+      "url": "https://zhuanlan.zhihu.com/p/669711636",
+      "summary": "正文围绕圆周率的无理性、超高精度计算及其在超级计算机测试等场景中的应用展开科普。"
+    },
+    {
+      "title": "几何简史——带你回顾让你又爱又恨的几何",
+      "url": "https://zhuanlan.zhihu.com/p/676914784",
+      "summary": "正文比较古埃及、巴比伦和阿基米德给出的圆周率近似值及其误差。"
+    },
+    {
+      "title": "数学怪兽——施瓦兹灯笼，挑战了我们对几何形状表面积的直观理解",
+      "url": "https://zhuanlan.zhihu.com/p/678426418",
+      "summary": "正文通过圆的外切正方形、切角和正多边形说明圆周率估计，并讨论不同曲线逼近序列为何给出不同周长极限。"
+    },
+    {
+      "title": "为了庆祝π day，我们给π 介绍了一个对象？|happy π day",
+      "url": "https://zhuanlan.zhihu.com/p/687058009",
+      "summary": "正文介绍圆周率的定义、历史近似以及多条含 π 的著名公式。"
+    },
+    {
+      "title": "体育老师是这么教你约分的？",
+      "url": "https://zhuanlan.zhihu.com/p/699294613",
+      "summary": "正文专节讨论圆周率的近似、计算尺应用、正规数数位现象及与黄金分割等量的巧合关系。"
+    },
+    {
+      "title": "抛开姜萍事件的真假，让我们谈谈数学原本的样子",
+      "url": "https://zhuanlan.zhihu.com/p/705599967",
+      "summary": "正文介绍了拉马努金快速收敛的圆周率公式，并用相邻阶数给出的近似值说明其收敛速度。"
+    },
+    {
+      "title": "弹性碰撞中的π——一些关于Galperin碰撞问题的思考",
+      "url": "https://zhuanlan.zhihu.com/p/1907126942932640158",
+      "summary": "正文从完全弹性碰撞模型出发，推导碰撞总次数在大质量比下与圆周率成正比的结论。"
+    },
+    {
+      "title": "π就是“空间的节奏”，e是“时间的节奏”",
+      "url": "https://zhuanlan.zhihu.com/p/1953904068587155729",
+      "summary": "正文解释圆周率是圆周长与直径之比，并说明它出现在圆、旋转周期和波动中。"
+    },
+    {
+      "title": "之前尝试给π节挑战赛供的题",
+      "url": "https://zhuanlan.zhihu.com/p/2005749654395048053",
+      "summary": "正文用曲线长度定义 ℓp 圆周率，并证明对偶范数下的 p 圆周率相等。"
+    },
+    {
+      "title": "关于 π 的一些事实",
+      "url": "https://zhuanlan.zhihu.com/p/2016136803090969432",
+      "summary": "正文系统讨论圆周率 π，包括其无理性和超越性证明。"
+    },
+    {
+      "title": "拉马努金π公式中的神秘整数终于有了解释（包含Chudnovsky兄弟的公式）",
+      "url": "https://zhuanlan.zhihu.com/p/2029797850955915903",
+      "summary": "正文围绕拉马努金与 Chudnovsky 的圆周率级数展开分析与解释。"
+    },
+    {
+      "title": "π 的无穷乘积，最初是怎么被想到的？",
+      "url": "https://zhuanlan.zhihu.com/p/2038440108207121327",
+      "summary": "正文完整追溯沃利斯乘积的构造过程，并最终给出圆周率的无穷乘积表示。"
+    }
+  ]
+}

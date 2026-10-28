@@ -1,0 +1,766 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l5-t5-b2",
+  "sources": [
+    {
+      "title": "Galois 上同调有什么意义？",
+      "url": "https://www.zhihu.com/answer/44140174",
+      "summary": "正文把Galois上同调的基础用途置于类域论和代数数论中。"
+    },
+    {
+      "title": "理想是什么？",
+      "url": "https://www.zhihu.com/answer/46375901",
+      "summary": "正文在代数整数环中讨论理想数和质因数分解。"
+    },
+    {
+      "title": "如何证明26是唯一夹在一个平方数和立方数间的正整数？",
+      "url": "https://www.zhihu.com/answer/47628396",
+      "summary": "正文明确在整数二次扩张环中进行代数数论式论证。"
+    },
+    {
+      "title": "物理学与数学中有哪些特别有意义的名词？",
+      "url": "https://www.zhihu.com/answer/99536331",
+      "summary": "正文解释有理素数在环中的分歧概念。"
+    },
+    {
+      "title": "中高考数学题中有没有背景很深刻的题目？",
+      "url": "https://www.zhihu.com/answer/113812822",
+      "summary": "正文用二次域类数与 Heegner 数解释一个模平方和问题。"
+    },
+    {
+      "title": "现代数论中岩泽理论的发展情况和趋势是怎样的？是否有广阔的前景？",
+      "url": "https://www.zhihu.com/answer/117846577",
+      "summary": "正文以数域、理想类群、类域理论和伽罗瓦上同调阐释岩泽理论的代数数论结构。"
+    },
+    {
+      "title": "能否用一句话描述学抽象代数的感觉？",
+      "url": "https://www.zhihu.com/answer/121812457",
+      "summary": "正文解释理想概念如何从数论与费马大定理研究中产生。"
+    },
+    {
+      "title": "有没有哪个素数可以以多种方式写成两个正整数的平方和？",
+      "url": "https://www.zhihu.com/answer/132805583",
+      "summary": "正文借高斯整数、主理想整环与 Dedekind ζ 函数推导平方和表示数，属于代数数论。"
+    },
+    {
+      "title": "有哪些具有特殊性质的数字？",
+      "url": "https://www.zhihu.com/answer/134759209",
+      "summary": "正文以类数、代数整数、二次域和唯一分解解释 163 的特殊性，核心属于代数数论。"
+    },
+    {
+      "title": "如何简洁地证明二次互反律？有哪些具体应用？",
+      "url": "https://www.zhihu.com/answer/254653900",
+      "summary": "正文从二次剩余、勒让德符号到高斯引理完整证明二次互反律。"
+    },
+    {
+      "title": "如何简洁地证明二次互反律？有哪些具体应用？",
+      "url": "https://www.zhihu.com/answer/257326000",
+      "summary": "正文用勒让德符号、欧拉引理和解析乘积证明二次互反律。"
+    },
+    {
+      "title": "请问代数数论领域的前景怎样？",
+      "url": "https://www.zhihu.com/answer/317451928",
+      "summary": "正文说明现代代数数论与代数几何、表示论等方向的交叉。"
+    },
+    {
+      "title": "你有没有在某个瞬间觉得数学是美的，或者被数学震撼到？",
+      "url": "https://www.zhihu.com/answer/379042338",
+      "summary": "正文围绕数域、理想类群、判别式等代数数论对象展开。"
+    },
+    {
+      "title": "如何评论首届阿里巴巴数学竞赛决赛试题？",
+      "url": "https://www.zhihu.com/answer/539908970",
+      "summary": "正文说明如何用代数数域范数证明已构造的整数解是全体解。"
+    },
+    {
+      "title": "如何判断任意无理数的无理数次方是否为有理数或是无理数？",
+      "url": "https://www.zhihu.com/answer/586764520",
+      "summary": "使用格尔丰德-施耐德等超越数结果判断无理数幂。"
+    },
+    {
+      "title": "什么是Arakelov几何？",
+      "url": "https://www.zhihu.com/answer/620284245",
+      "summary": "把 Arakelov 几何解释为研究算术对象及其算术不变量的方法。"
+    },
+    {
+      "title": "自学交换代数（atiyah），却无能力自己证明书中的很多定理，是否表明完全不具备继续学习数学的潜力？",
+      "url": "https://www.zhihu.com/answer/639122471",
+      "summary": "用 Dedekind 整环中的素理想分解解释代数数论应用。"
+    },
+    {
+      "title": "Galois理论包含了哪些东西？",
+      "url": "https://www.zhihu.com/answer/647553265",
+      "summary": "联系分圆域、局部域和类域论中的代数数论应用。"
+    },
+    {
+      "title": "素数幂次的间隔到后面可以足够大吗？",
+      "url": "https://www.zhihu.com/answer/778183894",
+      "summary": "以Thue方程和丢番图逼近研究整数解。"
+    },
+    {
+      "title": "为什么 e^(π*sqrt(163)) 这么接近整数?",
+      "url": "https://www.zhihu.com/answer/791114036",
+      "summary": "从二次数域类数解释接近整数现象。"
+    },
+    {
+      "title": "John Tate 的研究方向，对数学的贡献和对后世数学的影响？",
+      "url": "https://www.zhihu.com/answer/918611473",
+      "summary": "正文系统评述Tate在类域论、p进Hodge理论和算术数论中的奠基工作。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1003540314",
+      "summary": "正文完整证明Pell方程存在正整数解，属于代数数论内容。"
+    },
+    {
+      "title": "如何证明 1²+2²+…+n² 为平方数的解只有 n＝1 或 n＝24？",
+      "url": "https://www.zhihu.com/answer/1009295153",
+      "summary": "正文以Pell方程、二次剩余和Jacobi符号完成不定方程证明。"
+    },
+    {
+      "title": "如何看待京都大学的望月新一教授证明「ABC 猜想」，发表在其主编的期刊上？",
+      "url": "https://www.zhihu.com/answer/1127566002",
+      "summary": "正文系统定义 rad、陈述 abc 猜想，并以质因数分解和费马大定理说明其数论含义。"
+    },
+    {
+      "title": "如何看待京都大学的望月新一教授证明「ABC 猜想」，发表在其主编的期刊上？",
+      "url": "https://www.zhihu.com/answer/1145938649",
+      "summary": "正文围绕数域、函数域和算术导数展开数论解释。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/1146635520",
+      "summary": "正文用局部—全局原理讨论丢番图方程。"
+    },
+    {
+      "title": "研究方向里，代数、几何分析、数论与代数几何这几个有什么关系？哪个最难？",
+      "url": "https://www.zhihu.com/answer/1366003358",
+      "summary": "正文比较代数数论与代数几何并列出学习路径。"
+    },
+    {
+      "title": "如何看待几何数论（geometry of numbers）这一数论分支？",
+      "url": "https://www.zhihu.com/answer/1426483447",
+      "summary": "正文从无理测度与丢番图逼近讨论几何数论。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/1528151975",
+      "summary": "正文直接讨论代数数论，引用所在原始论述作为证据。"
+    },
+    {
+      "title": "如何用初等数论知识证明26是唯一夹在一个平方数和立方数间的正整数？",
+      "url": "https://www.zhihu.com/answer/1575478979",
+      "summary": "正文用代数整数环的唯一分解解决平方数与立方数之间的整数方程。"
+    },
+    {
+      "title": "有哪些值得推荐的《数论》教材或者参考书？",
+      "url": "https://www.zhihu.com/answer/1669150204",
+      "summary": "正文列出代数数论教材。"
+    },
+    {
+      "title": "2003年IMO第六题是如何想出或推导出构造方式的?",
+      "url": "https://www.zhihu.com/answer/1683436317",
+      "summary": "构造证明以代数数论与伽罗瓦群为工具。"
+    },
+    {
+      "title": "如何证明 n² + n + 41 在 n = 0，1，2，…，39 时都是素数？",
+      "url": "https://www.zhihu.com/answer/1751661643",
+      "summary": "正文直接讨论或推导「代数数论」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "人类创造了平方等于负数的虚数，那么能否创造绝对值等于负数的数？",
+      "url": "https://www.zhihu.com/answer/1761059908",
+      "summary": "正文以代数数、域范数和赋值论连接代数数论。"
+    },
+    {
+      "title": "学数论可以跳过初等数论吗？",
+      "url": "https://www.zhihu.com/answer/1775954753",
+      "summary": "正文解释同余类、理想和 p-adic 在代数数论中的地位。"
+    },
+    {
+      "title": "有什么比较好的专门讲伽罗瓦表示的入门教材推荐？",
+      "url": "https://www.zhihu.com/answer/1897892128",
+      "summary": "正文列出代数数论、分歧理论和类域论作为必备背景。"
+    },
+    {
+      "title": "请问代数曲线里面的除子（divisor）是源于什么而提出来的？",
+      "url": "https://www.zhihu.com/answer/1959413355",
+      "summary": "正文把除子与数域的素理想、分式理想和类群联系。"
+    },
+    {
+      "title": "数论中的 Tate thesis 大致的作用是什么？",
+      "url": "https://www.zhihu.com/answer/1963657862",
+      "summary": "正文说明 adele 语言简化 Dirichlet L 函数和类域论。"
+    },
+    {
+      "title": "能解释一下希尔伯特第 12 问吗？",
+      "url": "https://www.zhihu.com/answer/1983372297",
+      "summary": "正文系统介绍希尔伯特第12问与代数数论。"
+    },
+    {
+      "title": "这个方程有解吗？如何证明？",
+      "url": "https://www.zhihu.com/answer/2096406287",
+      "summary": "正文把金属比例数、二次代数数与数论中的 Euler 函数联系起来。"
+    },
+    {
+      "title": "怀尔斯证明费马大定理的论文主要突破了当时的哪些技术难点？",
+      "url": "https://www.zhihu.com/answer/2241093380",
+      "summary": "正文明确列出代数数论工具。"
+    },
+    {
+      "title": "菲尔兹数学奖的无国籍获奖者是谁？",
+      "url": "https://www.zhihu.com/answer/2314915381",
+      "summary": "正文把 EGA/SGA 体系与算术几何的发展直接联系起来。"
+    },
+    {
+      "title": "如何评价Deligne？",
+      "url": "https://www.zhihu.com/answer/2315418202",
+      "summary": "正文把 Deligne 的成果和算术几何研究直接联系起来。"
+    },
+    {
+      "title": "现在希尔伯特的23个问题都研究得怎么样了？",
+      "url": "https://www.zhihu.com/answer/2620870862",
+      "summary": "讨论二次互反律向代数数域、素理想分解与类域论的推广。"
+    },
+    {
+      "title": "怀尔斯证明费马大定理的论文主要突破了当时的哪些技术难点？",
+      "url": "https://www.zhihu.com/answer/2699213054",
+      "summary": "正文回顾岩泽理论中的 Euler systems 与 Galois 上同调控制 Selmer 群的方法。"
+    },
+    {
+      "title": "微分中值定理到底有什么用？",
+      "url": "https://www.zhihu.com/answer/2707146930",
+      "summary": "从代数数与超越数的定义出发，证明并运用 Liouville 定理构造超越数的数论结论。"
+    },
+    {
+      "title": "同时对微分几何和代数数论感兴趣怎么办？",
+      "url": "https://www.zhihu.com/answer/2764805490",
+      "summary": "正文明确说明算术子群及其同余子群如何把该几何方向连接到代数数论。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2832618575",
+      "summary": "正文以虚二次域及其 Hilbert 类域多项式作为数论知识实例，直接呈现代数数论中的类域对象。"
+    },
+    {
+      "title": "代数几何应该怎样学？",
+      "url": "https://www.zhihu.com/answer/2937626356",
+      "summary": "正文把整基、诺特正规化引理及交换代数中的整性作为代数数论与代数几何学习准备的核心内容。"
+    },
+    {
+      "title": "如何证明方程x^2+1=y^3除了(0,1)之外没有整数解?",
+      "url": "https://www.zhihu.com/answer/2964311569",
+      "summary": "正文在 Gauss 整数环中分解 Mordell 方程并利用因子分解完成整数解证明，属于代数数论方法。"
+    },
+    {
+      "title": "如何通俗地解释p-adic（p进数）？",
+      "url": "https://www.zhihu.com/answer/3090935943",
+      "summary": "正文讨论 p 进数域的可开方条件、代数闭包与完备化，并比较实数域和 p 进域的代数扩张。"
+    },
+    {
+      "title": "如何通俗地解释p-adic（p进数）？",
+      "url": "https://www.zhihu.com/answer/3095327239",
+      "summary": "正文讨论 p 进数域的有限扩张及其整数环，并指出后者是离散赋值环。"
+    },
+    {
+      "title": "如何评价法国数学家André Weil？",
+      "url": "https://www.zhihu.com/answer/3185787572",
+      "summary": "正文在 Weil 的类域论工作中展开数域阿贝尔扩域的伽罗华群与 idele 商群的同构。"
+    },
+    {
+      "title": "如何注意力涣散地证明 e^{π√163} 小于262 53741 26407 68744？",
+      "url": "https://www.zhihu.com/answer/3304093141",
+      "summary": "正文在虚二次点处使用 j-不变量的 q 展开和尾部估计，证明 e^{π√163} 的严格上界，涉及代数数论中的特殊值与近整数现象。"
+    },
+    {
+      "title": "如何注意力涣散地证明 e^{π√163} 小于262 53741 26407 68744？",
+      "url": "https://www.zhihu.com/answer/3304721748",
+      "summary": "正文在虚二次域中引入类数、代数整数和整数环的唯一分解性质，属于代数数论。"
+    },
+    {
+      "title": "2023年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/3308888246",
+      "summary": "正文给出代数数论中素理想分解的等式，把分歧指数、剩余次数与数域扩张次数联系起来。"
+    },
+    {
+      "title": "如何证明ln4＞arctan4?",
+      "url": "https://www.zhihu.com/answer/3351499658",
+      "summary": "正文用 Q(ζ_1)、Q(ζ_2) 等分圆域讨论 ln4−arctan n 的级数表示，并指出构造依赖对应的代数数论结构。"
+    },
+    {
+      "title": "你做过最抽象的事情是什么？",
+      "url": "https://www.zhihu.com/answer/3351596124",
+      "summary": "正文以有限生成 Z 模和乘法矩阵刻画代数整数，并据此证明代数整数构成环。"
+    },
+    {
+      "title": "数论与初等数论中有哪些重要，优雅，或是深刻的定理？",
+      "url": "https://www.zhihu.com/answer/3353570326",
+      "summary": "正文在 Gaussian 整数环中讨论理想范数与表示数，并联系二次域和 Dedekind ζ 函数，属于代数数论。"
+    },
+    {
+      "title": "数学史上有哪些数字或规模很大的反例？",
+      "url": "https://www.zhihu.com/answer/3469292942",
+      "summary": "正文讨论代数数、代数整数以及二次数域扩张中的整数环，并给出一般扩张的充分必要条件。"
+    },
+    {
+      "title": "现代数论中岩泽理论的发展情况和趋势是怎样的？是否有广阔的前景？",
+      "url": "https://www.zhihu.com/answer/3480121213",
+      "summary": "正文讨论数域的理想类群与Selmer群的Pontryagin对偶，属于代数数论中的类群和算术对象研究。"
+    },
+    {
+      "title": "全球有那么多已tenure的数学家，为什么没人去验证望月的ABC？",
+      "url": "https://www.zhihu.com/answer/3506699255",
+      "summary": "正文在有限 p 进扩张中讨论整数环、分歧指数、different 理想及其范数估计，属于代数数论。"
+    },
+    {
+      "title": "大整数质因数分解，国外有一家网站，70位大整数秒出结果，用的是什么算法？",
+      "url": "https://www.zhihu.com/answer/3513369168",
+      "summary": "正文说明通用数域筛法利用代数整数、极小多项式、数域中的阶和环同态构造平方同余，属于代数数论方法。"
+    },
+    {
+      "title": "这个简单的不定方程如何解决？",
+      "url": "https://www.zhihu.com/answer/3542731146",
+      "summary": "正文比较 Z[sqrt(-2)] 与 Z[sqrt(-5)] 的唯一分解性，并用类数解释二次型分裂，属于代数数论内容。"
+    },
+    {
+      "title": "有哪些看起来简洁却很难的数学题？",
+      "url": "https://www.zhihu.com/answer/3572456778",
+      "summary": "正文介绍卡塔兰猜想的证明动用了代数数论，并具体提到分圆域、伽罗瓦表示和相关复杂理论。"
+    },
+    {
+      "title": "日本数学水平怎么样？",
+      "url": "https://www.zhihu.com/answer/3575298957",
+      "summary": "正文说明类域论、虚二次数域上的克罗内克猜想以及数域中的一般互反律。"
+    },
+    {
+      "title": "如何证明 √2 + √3 + √5 + √7 是无理数？",
+      "url": "https://www.zhihu.com/answer/3594578788",
+      "summary": "正文用平方根是代数整数以及代数整数对加法封闭，证明该和属于代数整数，属于代数数论的基本论证。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/3612752774",
+      "summary": "正文系统讨论虚二次和实二次代数整数环中的二、三、四、五平方和问题。"
+    },
+    {
+      "title": "数学界有哪些通俗易懂的 open problem？",
+      "url": "https://www.zhihu.com/answer/17893082396",
+      "summary": "正文围绕指数幂为整数时的有理性、整数性及超越数定理展开推导，属于代数数论中代数与超越性质的讨论。"
+    },
+    {
+      "title": "你见过最优雅的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/37418519670",
+      "summary": "正文专门讨论高斯整数与艾森斯坦整数上的幂和表示，属于代数整数及其表示问题的范畴。"
+    },
+    {
+      "title": "怎么让不懂数学的人体会到抽象代数的魅力？",
+      "url": "https://www.zhihu.com/answer/64229285811",
+      "summary": "正文引入二次域的类数、唯一分解条件和类数一虚二次域定理，属于代数数论内容。"
+    },
+    {
+      "title": "2024你的数学研究和学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/69353173582",
+      "summary": "正文具体提到代数数论讨论班及其与 Dedekind 整环、赋值和代数几何的联系。"
+    },
+    {
+      "title": "北大数学家袁新意论文登数学顶刊，统一了算术与几何 Bogomolov 猜想，有哪些意义？影响有多大？",
+      "url": "https://www.zhihu.com/answer/69367299949",
+      "summary": "正文定义 p-adic 绝对值，并把高度函数推广到数域上的赋值，体现代数数论中的局部与整体观点。"
+    },
+    {
+      "title": "数学为什么需要证明一些看起来非常直观、明显的东西（比如定理）？",
+      "url": "https://www.zhihu.com/answer/127959454992",
+      "summary": "正文说明唯一因子分解在引入虚数后失效，并指出库默尔由此提出理想数、开创代数数论。"
+    },
+    {
+      "title": "数学中，有哪些常数被发现时被认为是超越数，结果被证实是个代数数，只不过它所满足的极小多项式的次数很高？",
+      "url": "https://www.zhihu.com/answer/128515540753",
+      "summary": "正文以极小多项式次数区分代数数，并讨论若干常数是否为代数数，属于代数数论中的代数数与超越性问题。"
+    },
+    {
+      "title": "朗兰兹纲领对现代数学有何影响？",
+      "url": "https://www.zhihu.com/answer/1890914422777702115",
+      "summary": "正文具体讨论数域上的非阿贝尔伽罗瓦表示、Artin L 函数及其与自守表示的对应。"
+    },
+    {
+      "title": "如何评价Weil的数学工作以及具有他风格的代数几何？",
+      "url": "https://www.zhihu.com/answer/1899263557658453585",
+      "summary": "正文具体介绍 Weil 在数域有理点、Mordell-Weil 定理、类域论和 L 函数方面的代数数论工作。"
+    },
+    {
+      "title": "如何看待周忠鹏应用 IUT 理论解决广义费马大定理的相关工作？",
+      "url": "https://www.zhihu.com/answer/1901009266028053363",
+      "summary": "正文讨论正特征完美域上双曲曲线的 p 进正则提升与 Frobenius 提升，并把数域算术对象置于 IUT 框架中。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/1901415703317295884",
+      "summary": "正文讨论特征 p 阿贝尔簇、p-可除群与模形式的形变，并联系算术伽罗瓦表示。"
+    },
+    {
+      "title": "求所有整数n，使n⁷-41为完全平方数?",
+      "url": "https://www.zhihu.com/answer/1904412656745549973",
+      "summary": "正文在虚二次域中分解原方程，使用整数环、素理想唯一分解与理想类数完成数论证明。"
+    },
+    {
+      "title": "数学中有哪些问题放到更大的空间/对象里解决起来变简单的例子？",
+      "url": "https://www.zhihu.com/answer/1904922702050985279",
+      "summary": "正文以分圆整数环、理想和类数处理唯一分解性的缺失，系统展开代数数论中的核心对象。"
+    },
+    {
+      "title": "为什么二次互反律很重要？三次四次互反律，各种互反律的意义是什么？",
+      "url": "https://www.zhihu.com/answer/1927679613745731513",
+      "summary": "正文系统叙述代数整数环、唯一分解失效以及用理想恢复分解的代数数论发展。"
+    },
+    {
+      "title": "你在教材中看到过最长的证明是什么？",
+      "url": "https://www.zhihu.com/answer/1928828156942485479",
+      "summary": "正文说明代数数论把整数环扩张到代数整数环，并借助理想分解弥补唯一分解失效，以处理二次型与互反律问题。"
+    },
+    {
+      "title": "如果换一个合适的数系，是否会成功地发现质数出现的规律性？",
+      "url": "https://www.zhihu.com/answer/1930795510085706887",
+      "summary": "正文讲解高斯整数、范数、四元数整环和 Hurwitz 整数中的素理想，属于代数整数环扩张。"
+    },
+    {
+      "title": "数论问题困难性的根源是什么？",
+      "url": "https://www.zhihu.com/answer/1933128964911654627",
+      "summary": "正文以理想唯一分解和类数衡量唯一分解性，解释代数数论处理整数环失效的方法。"
+    },
+    {
+      "title": "如何看待 Grothendieck 思考数学问题不依赖具体例子？",
+      "url": "https://www.zhihu.com/answer/1946801152848007242",
+      "summary": "正文从有限域方程的解数、Weil zeta函数、L函数和高阶互反律展开，涉及代数数论的核心对象。"
+    },
+    {
+      "title": "超越数论近来的发展如何？",
+      "url": "https://www.zhihu.com/answer/1958335126061709263",
+      "summary": "正文系统讨论数域、Dedekind zeta、Galois表示及其L函数特殊值与周期的联系，核心属于代数数论。"
+    },
+    {
+      "title": "√2和π本质上有什么区别？",
+      "url": "https://www.zhihu.com/answer/1961148197851363110",
+      "summary": "正文把 sqrt(2) 放入二次域，讨论代数数构成的域、域扩张和伽罗瓦理论，涉及代数数论。"
+    },
+    {
+      "title": "请问有哪些数学定理，一看名字就知道很滑稽好玩？",
+      "url": "https://www.zhihu.com/answer/1962539821948986878",
+      "summary": "正文围绕虚二次域的有限 Abel 扩张、Kronecker-Weber 定理和类域论介绍 Kronecker 青春之梦。"
+    },
+    {
+      "title": "2025ICCM数学奖揭晓，王虹、袁新意、邓煜获金奖，他们对数学有哪些贡献？有望拿2026菲尔兹奖吗？",
+      "url": "https://www.zhihu.com/answer/1966505084390212221",
+      "summary": "正文概述袁新意在全特征整体域上的一致 Bogomolov 型结果，属于数论与算术几何方向。"
+    },
+    {
+      "title": "数论是如何与几何相结合的？",
+      "url": "https://www.zhihu.com/answer/1971578808101495072",
+      "summary": "正文在实二次域的代数整数环中讨论范数、单位和非模及格的嵌入，实质属于代数数论。"
+    },
+    {
+      "title": "2025年你的数学研究或学习有什么收获和感悟？",
+      "url": "https://www.zhihu.com/answer/1984130953640187149",
+      "summary": "正文系统总结志村簇模 p 纤维、算术级提升、Hecke 上同调及相关数论问题。"
+    },
+    {
+      "title": "数学上有没有“除了一个特例，其他所有情况都成立”的定理？",
+      "url": "https://www.zhihu.com/answer/1996229333476451068",
+      "summary": "正文讨论正切值何时为有理数，并联系代数数与正多边形的几何性质。"
+    },
+    {
+      "title": "世界上大约有多少人可以完全看懂并理解怀尔斯对于费马大定理的证明？",
+      "url": "https://www.zhihu.com/answer/1998742025940518042",
+      "summary": "正文以奇素数处无分歧的极大扩张、Galois 表示形变和 Selmer 条件处理代数数论问题。"
+    },
+    {
+      "title": "日本数学家望月新一证明了ABC猜想，你有什么想法呢？",
+      "url": "https://www.zhihu.com/answer/2007077452221022548",
+      "summary": "正文以数域、整数环、判别式、高度和有限位等代数数论对象刻画 Vojta 不等式与 abc 猜想。"
+    },
+    {
+      "title": "你所知道的最优美的几何定理是什么？",
+      "url": "https://www.zhihu.com/answer/2016612690127241876",
+      "summary": "正文用数域、Galois扩张和Dedekind zeta函数的还原问题说明代数数论如何启发几何构造。"
+    },
+    {
+      "title": "2026 阿贝尔奖颁给德国数学家法尔廷斯，他对数学有哪些重大贡献？",
+      "url": "https://www.zhihu.com/answer/2018587325261689463",
+      "summary": "正文从有理点群、高度和挠群解释椭圆曲线上的算术结构。"
+    },
+    {
+      "title": "如何评价 OpenAI 称推翻困扰数学界近 80 年的「平面单位距离猜想」？这一结果的可信度如何？",
+      "url": "https://www.zhihu.com/answer/2040877999134926615",
+      "summary": "正文具体讨论全实数域、完全分裂素数、根判别式、类数和类域塔，属于代数数论方法。"
+    },
+    {
+      "title": "如何评价 OpenAI 称推翻困扰数学界近 80 年的「平面单位距离猜想」？这一结果的可信度如何？",
+      "url": "https://www.zhihu.com/answer/2040920145325994178",
+      "summary": "正文实质讨论数域、Minkowski格、完全分裂素数、根判别式和类域论在构造中的作用。"
+    },
+    {
+      "title": "如何看待 OpenAI 宣布AI 证明困扰人类 80 年的单位距离问题？证明可信度如何？",
+      "url": "https://www.zhihu.com/answer/2040931425495602887",
+      "summary": "正文具体解释全实域塔、完全分裂素数、根判别式与类数增长，并以此构造单位距离问题的反例，属于代数数论的展开。"
+    },
+    {
+      "title": "数学中，有哪些常数被发现时被认为是超越数，结果被证实是个代数数，只不过它所满足的极小多项式的次数很高？",
+      "url": "https://www.zhihu.com/answer/2048980318892339892",
+      "summary": "正文借助 Gamma 函数的乘法与反射公式及模 30 的取整函数关系，证明特殊 Beta 比值为代数数。"
+    },
+    {
+      "title": "数学中，有哪些常数被发现时被认为是超越数，结果被证实是个代数数，只不过它所满足的极小多项式的次数很高？",
+      "url": "https://www.zhihu.com/answer/2051739116853803007",
+      "summary": "正文以 CM 域、分圆域扩张、Galois 共轭和类数解释 Gamma 商代数性的代数数论背景。"
+    },
+    {
+      "title": "代数数论（4.4）：Tate's thesis",
+      "url": "https://zhuanlan.zhihu.com/p/24309233",
+      "summary": "正文讨论理想、阿黛尔与伊代尔以及局部和整体函数方程，实质属于代数数论。"
+    },
+    {
+      "title": "代数数论：总集篇",
+      "url": "https://zhuanlan.zhihu.com/p/24312945",
+      "summary": "正文围绕代数整数环、素理想分解、类群和单位群系统回顾代数数论。"
+    },
+    {
+      "title": "KRONECKER’S  JUGENDTRAUM",
+      "url": "https://zhuanlan.zhihu.com/p/24286405",
+      "summary": "正文梳理 Kronecker 在代数数域、理想数、分圆扩张和类域论中的贡献。"
+    },
+    {
+      "title": "代数数论(十四):素数、测地线、扭结",
+      "url": "https://zhuanlan.zhihu.com/p/24912510",
+      "summary": "正文系统建立数域扩张、素理想分解和代数整数环与双曲曲面之间的代数数论对应。"
+    },
+    {
+      "title": "关于离散子群的一些杂记",
+      "url": "https://zhuanlan.zhihu.com/p/27101218",
+      "summary": "正文围绕数域的最大 Abel 扩张、类域、Hilbert 类域和青春之梦讨论代数数论。"
+    },
+    {
+      "title": "关于子群计数的一些杂记",
+      "url": "https://zhuanlan.zhihu.com/p/27114598",
+      "summary": "正文计算局部域 Abel 扩张的个数，并把它与有限指标子群及范映射对应起来。"
+    },
+    {
+      "title": "群的上同调的简单性质",
+      "url": "https://zhuanlan.zhihu.com/p/27125121",
+      "summary": "正文以局部类域论、整体域和局部化讨论 Abel 扩张、互反律及椭圆曲线有理点。"
+    },
+    {
+      "title": "椭圆曲线的一些基础性质",
+      "url": "https://zhuanlan.zhihu.com/p/27159180",
+      "summary": "正文借助素理想分解和代数整数环求解 Mordell 方程，并讨论代数数论方法。"
+    },
+    {
+      "title": "代数数论(一):解方程",
+      "url": "https://zhuanlan.zhihu.com/p/27181671",
+      "summary": "正文以代数整数环和素理想唯一分解为核心工具，系统讨论丢番图方程、素理想扩张与理想类群。"
+    },
+    {
+      "title": "5-6月学习小结",
+      "url": "https://zhuanlan.zhihu.com/p/27450247",
+      "summary": "正文重温 Chebotarev 密度定理，并讨论数域扩张中素理想的分解、Frobenius 元及多项式模素数有根的条件。"
+    },
+    {
+      "title": "Riemann-Roch定理",
+      "url": "https://zhuanlan.zhihu.com/p/32779462",
+      "summary": "正文以 Spec Z 和数域整数环为例，连接除子群、分式理想与理想类群。"
+    },
+    {
+      "title": "Pell方程",
+      "url": "https://zhuanlan.zhihu.com/p/33839152",
+      "summary": "正文联系Dirichlet单位定理并明确指出Pell方程可解性问题属于代数数论。"
+    },
+    {
+      "title": "椭圆曲线——克罗内克青春之梦",
+      "url": "https://zhuanlan.zhihu.com/p/35322943",
+      "summary": "正文用理想类群、极大非分歧扩张和Artin互反律说明椭圆曲线与类域论的解析-代数对应。"
+    },
+    {
+      "title": "工欲善其事，必先利其器——从一道数论题谈起",
+      "url": "https://zhuanlan.zhihu.com/p/36324347",
+      "summary": "正文在二次域整数环中建立素元、不可约元和唯一因子分解，并用素因子分布证明数论问题。"
+    },
+    {
+      "title": "最大根方法——一段往事",
+      "url": "https://zhuanlan.zhihu.com/p/37061170",
+      "summary": "正文在整值多项式与代数数估计中实质使用代数数论和模素数方法推进证明。"
+    },
+    {
+      "title": "数论（6）——p进数和局部-整体原则",
+      "url": "https://zhuanlan.zhihu.com/p/40898123",
+      "summary": "正文讨论数域的有限素点、无限素点、局部域与整体域，并说明局部到整体的现代数论方法。"
+    },
+    {
+      "title": "请不要责备柳智宇，也许他是无辜的",
+      "url": "https://zhuanlan.zhihu.com/p/41950866",
+      "summary": "正文把 p 进数、素数整除同余、代数数和局部整体原理放在现代数论研究中介绍。"
+    },
+    {
+      "title": "浅谈二次互反律",
+      "url": "https://zhuanlan.zhihu.com/p/54855092",
+      "summary": "正文从勒让德符号推进到分圆域、高斯和与阿廷互反律，展开的是代数数论主题。"
+    },
+    {
+      "title": "[转载]现代数学 | 清华学霸带你理清现代数学脉络",
+      "url": "https://zhuanlan.zhihu.com/p/79523248",
+      "summary": "正文以费马大定理研究中的理想数、唯一分解和 Dedekind 整环介绍代数数论的发展。"
+    },
+    {
+      "title": "代数数的和差积仍然是代数数吗？",
+      "url": "https://zhuanlan.zhihu.com/p/103691884",
+      "summary": "正文从代数数与超越数的定义出发，研究代数数对加减乘除及多项式求根是否封闭。"
+    },
+    {
+      "title": "割圆多项式",
+      "url": "https://zhuanlan.zhihu.com/p/107102812",
+      "summary": "正文研究单位根及其割圆最小多项式，并以整系数多项式和模素数的代数性质导出数论结论。"
+    },
+    {
+      "title": "（水文）刘维尔定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/119449135",
+      "summary": "文章定义代数数的次数并证明其有理逼近的刘维尔下界，属于代数数论内容。"
+    },
+    {
+      "title": "从不定方程到数字的宿命——Thue的伟大定理",
+      "url": "https://zhuanlan.zhihu.com/p/184975153",
+      "summary": "正文以代数数的最小多项式和次数为基础证明 Thue 定理，属于代数数论中的有理逼近内容。"
+    },
+    {
+      "title": "【抽象代数】11. 域的扩张",
+      "url": "https://zhuanlan.zhihu.com/p/193099591",
+      "summary": "正文定义代数数与代数数域，并说明有理数域的有限代数扩张构成代数数域。"
+    },
+    {
+      "title": "抽象代数教学体系的探索 II",
+      "url": "https://zhuanlan.zhihu.com/p/348275589",
+      "summary": "正文讨论代数整数环、素元与不可约元的区别、单位群和唯一析因性问题，属于代数数论。"
+    },
+    {
+      "title": "高斯整数环Z[i]杂谈（上）",
+      "url": "https://zhuanlan.zhihu.com/p/352221826",
+      "summary": "正文定义代数整数并讨论二次域的代数整数环、范数与类数，属于代数数论内容。"
+    },
+    {
+      "title": "简单情况下的Siegel-Weil公式",
+      "url": "https://zhuanlan.zhihu.com/p/362772812",
+      "summary": "正文在有理数域、二次空间、正交群和Hasse原理框架下证明Siegel-Weil公式的简单情形。"
+    },
+    {
+      "title": "因为这部数学名著中文版的错误，我决定再科普一下这个知识 | 哆嗒数学网",
+      "url": "https://zhuanlan.zhihu.com/p/363624427",
+      "summary": "正文定义有理数域上的线性相关、代数相关和代数无关，并讨论 e、π 及沙努尔猜想。"
+    },
+    {
+      "title": "数论重大突破：希尔伯特的第12个数学难题借助计算机获得解决",
+      "url": "https://zhuanlan.zhihu.com/p/375503835",
+      "summary": "正文围绕一般代数数域的阿贝尔扩张、根的构造块及全实域，讲解希尔伯特第 12 个代数数论问题。"
+    },
+    {
+      "title": "Milne：Algebraic Number Thoery使用攻略",
+      "url": "https://zhuanlan.zhihu.com/p/383086826",
+      "summary": "正文按章节梳理整数环、Dedekind环、类数、单位定理、局部域和整体域等代数数论内容。"
+    },
+    {
+      "title": "问题引导的环论 I",
+      "url": "https://zhuanlan.zhihu.com/p/384968033",
+      "summary": "正文介绍分圆整数环、二次整数环及因式分解唯一性失效等代数数论基本结构。"
+    },
+    {
+      "title": "单位根的判定定理（Kronecker定理）",
+      "url": "https://zhuanlan.zhihu.com/p/406443330",
+      "summary": "正文围绕代数整数、极小多项式、共轭元素与整数递推证明单位根判定定理。"
+    },
+    {
+      "title": "幂次数的“社交距离”有多大？—— 卡塔兰猜想",
+      "url": "https://zhuanlan.zhihu.com/p/415981790",
+      "summary": "正文用高斯整数的唯一因子分解与单位因子证明卡塔兰猜想的平方-立方特例，体现了代数数论方法。"
+    },
+    {
+      "title": "费马的绝妙证明与椭圆曲线（Mordell-Weil定理）",
+      "url": "https://zhuanlan.zhihu.com/p/530601252",
+      "summary": "正文在一般数域上讨论整数环的唯一析因性、单位群和理想分解，以推进弱 Mordell-Weil 定理。"
+    },
+    {
+      "title": "数论--丢番图逼近",
+      "url": "https://zhuanlan.zhihu.com/p/559110495",
+      "summary": "正文讨论代数数、极小多项式、代数数域、代数闭包及伽罗瓦式域扩张性质。"
+    },
+    {
+      "title": "三次高斯和、三次互反律、Jacobi和的性质及其在数论与代数中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/601704520",
+      "summary": "正文围绕 Eisenstein 整数、三次剩余特征和三次互反律展开代数数论的核心推导与应用。"
+    },
+    {
+      "title": "这才是真正最顶尖的数学—L函数与朗兰兹计划，黎曼ζ函数只是其最简单的示例",
+      "url": "https://zhuanlan.zhihu.com/p/650279358",
+      "summary": "正文通过高斯整数、范数和数域构造L函数，并用二次互惠说明其数域背景。"
+    },
+    {
+      "title": "这才是真正最顶尖的数学—L函数，黎曼ζ函数只是其最简单的示例",
+      "url": "https://zhuanlan.zhihu.com/p/672704574",
+      "summary": "正文从整数引入代数整数性质的数并构造高斯整数，以范数和因子信息生成L函数。"
+    },
+    {
+      "title": "代数数论与代数几何的交织：椭圆曲线的算术理论",
+      "url": "https://zhuanlan.zhihu.com/p/673884242",
+      "summary": "正文把椭圆曲线有理点、复乘、理想类群式 L-函数及类域论等代数数论工具联系起来。"
+    },
+    {
+      "title": "Langlands Program：代数数论，代数几何，群表示论的大统一",
+      "url": "https://zhuanlan.zhihu.com/p/674911228",
+      "summary": "正文从整系数方程的有理整数解、同余与素理想分解出发，展开代数数论的核心问题。"
+    },
+    {
+      "title": "论分圆多项式的系数",
+      "url": "https://zhuanlan.zhihu.com/p/679264372",
+      "summary": "正文围绕单位根、分圆多项式与 Möbius 反演展开数论证明，属于代数数论中的经典对象和方法。"
+    },
+    {
+      "title": "论多项式的分解",
+      "url": "https://zhuanlan.zhihu.com/p/681275551",
+      "summary": "正文定义代数数及其唯一的极小多项式，并据此证明分圆多项式在有理数域上不可约。"
+    },
+    {
+      "title": "Selmer多项式(X^n-X-1)及其Galois群",
+      "url": "https://zhuanlan.zhihu.com/p/684029948",
+      "summary": "正文讨论分裂域、分歧素数、分歧指数和非分歧扩张，并以数域扩张为例说明代数数论结论。"
+    },
+    {
+      "title": "Iwaniec: 解析数论介绍",
+      "url": "https://zhuanlan.zhihu.com/p/703676514",
+      "summary": "正文具体讨论数域中代数整数的唯一分解障碍、理想类群及虚二次域类数估计。"
+    },
+    {
+      "title": "Galois群的计算方法",
+      "url": "https://zhuanlan.zhihu.com/p/18086930202",
+      "summary": "正文用 Dedekind、Frobenius 定理、惯性群和 p 进 Newton polygon 研究 Galois 群的局部与整体信息。"
+    },
+    {
+      "title": "Galois上同调与局部-整体原则的故事",
+      "url": "https://zhuanlan.zhihu.com/p/2025194104884139878",
+      "summary": "正文系统讲解局部与整体域、局部-整体原则、类域论和 Brauer 群，属于代数数论的核心内容。"
+    },
+    {
+      "title": "OpenAI 模型推翻离散几何学核心猜想",
+      "url": "https://zhuanlan.zhihu.com/p/2040671781615358628",
+      "summary": "正文具体说明新下界构造把高斯整数思想推广到更高次代数数域，并借助其算术结构构造单位距离点集。"
+    },
+    {
+      "title": "OpenAI：关于单位距离猜想被证伪的评注",
+      "url": "https://zhuanlan.zhihu.com/p/2040794657894954227",
+      "summary": "正文用 CM 域、素理想分裂、类数和判别式等代数数论对象具体构造单位距离反例。"
+    },
+    {
+      "title": "OpenAI彻底震撼数学界，80年核心猜想被破解！菲尔兹奖得主惊呼坐不稳",
+      "url": "https://zhuanlan.zhihu.com/p/2040803392235251677",
+      "summary": "正文说明新构造通过代数数域扩张、无限类域塔和 Golod-Shafarevich 理论获得更多单位距离。"
+    },
+    {
+      "title": "科普：猫也能注意到 —— Γ函数的秘密花园",
+      "url": "https://zhuanlan.zhihu.com/p/2051672162260497844",
+      "summary": "正文用分圆域、Galois 作用和 CM 域的 Hodge 分解解释 Gamma 商成为代数数的条件。"
+    }
+  ]
+}

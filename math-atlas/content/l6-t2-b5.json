@@ -1,0 +1,506 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l6-t2-b5",
+  "sources": [
+    {
+      "title": "怎么形象清晰地解释「周期 3 意味着混沌」?",
+      "url": "https://www.zhihu.com/answer/34911796",
+      "summary": "正文解释周期三定理与离散混沌的关系。"
+    },
+    {
+      "title": "数学上有哪些丑陋的公式？",
+      "url": "https://www.zhihu.com/answer/46178488",
+      "summary": "正文明确把标准映射描述为非线性迭代方程并生成混沌图像。"
+    },
+    {
+      "title": "多元函数的图像怎么表示？",
+      "url": "https://www.zhihu.com/answer/53120962",
+      "summary": "正文把示例明确称为四维混沌函数。"
+    },
+    {
+      "title": "你看过哪些图片后改变了对世界的看法？",
+      "url": "https://www.zhihu.com/answer/53159403",
+      "summary": "正文以曼德勃罗特迭代集说明混沌图案与自相似性。"
+    },
+    {
+      "title": "混沌理论的体系是怎样的？",
+      "url": "https://www.zhihu.com/answer/58138076",
+      "summary": "正文系统介绍混沌的初值敏感性、奇异吸引子和倍周期分岔。"
+    },
+    {
+      "title": "如何理解logistic函数?",
+      "url": "https://www.zhihu.com/answer/78680948",
+      "summary": "正文说明 Logistic 映射迭代产生混沌及分岔。"
+    },
+    {
+      "title": "如果把恋人关系看作是一个自治的非线性动力系统，它的稳定性问题大概可以分为几类进行讨论呢？",
+      "url": "https://www.zhihu.com/answer/101810041",
+      "summary": "正文通过非线性项与初值微小偏差展示动力系统出现混沌。"
+    },
+    {
+      "title": "大数据时代下数学建模还有作用吗？",
+      "url": "https://www.zhihu.com/answer/109383705",
+      "summary": "正文解释混沌吸引子的延迟嵌入、流形重构及其用于时间序列预测的条件与陷阱。"
+    },
+    {
+      "title": "三体问题无解，可能的误差来自于哪里？",
+      "url": "https://www.zhihu.com/answer/135092098",
+      "summary": "正文用迭代系统说明初值与舍入微扰在混沌系统中迅速放大，直接解释混沌的不可预测性。"
+    },
+    {
+      "title": "哪些看似毫不相干的事物具有相同的数学原理？",
+      "url": "https://www.zhihu.com/answer/157525832",
+      "summary": "正文用 Logistic 映射、Feigenbaum 常数和 Lorenz 系统系统解释混沌与分岔。"
+    },
+    {
+      "title": "给一只猴子26个英文字母还有无限的时间,它总有一天能拼出一本莎士比亚全集吗？",
+      "url": "https://www.zhihu.com/answer/211313114",
+      "summary": "正文解释混沌系统对初值极端敏感。"
+    },
+    {
+      "title": "计划经济优于市场经济吗？",
+      "url": "https://www.zhihu.com/answer/259896638",
+      "summary": "正文说明延时负反馈会令系统振荡乃至产生混沌。"
+    },
+    {
+      "title": "曼德勃罗集的面积能算吗？Julia 集（内部）呢？",
+      "url": "https://www.zhihu.com/answer/292196908",
+      "summary": "正文以曼德勃罗集迭代面积说明混沌对象的计算困难。"
+    },
+    {
+      "title": "我的表弟是初中生，他写了一篇关于数学的文章，并宣称自己未来十年将为该理论努力，求论证其价值？",
+      "url": "https://www.zhihu.com/answer/293373227",
+      "summary": "正文区分初值敏感、分叉、稳定性与严格意义的混沌系统。"
+    },
+    {
+      "title": "数学系的你，毕业论文写了什么呢？",
+      "url": "https://www.zhihu.com/answer/343514921",
+      "summary": "正文围绕有理函数迭代、Julia集、分形与复动力系统展开。"
+    },
+    {
+      "title": "如何评价电影《湮灭》（《Annihilation》）？",
+      "url": "https://www.zhihu.com/answer/345533565",
+      "summary": "正文从迭代不发散条件讲解 Mandelbrot 集与 Mandelbulb 的分形结构。"
+    },
+    {
+      "title": "三体运动没有解析解，那么自然界又是如何运行的呢？",
+      "url": "https://www.zhihu.com/answer/362166045",
+      "summary": "正文解释三体预测受初值敏感性与误差放大的混沌效应限制。"
+    },
+    {
+      "title": "有谁能告诉我什么是线性，什么是非线性？",
+      "url": "https://www.zhihu.com/answer/443697507",
+      "summary": "正文用双摆和三体说明非线性系统产生混沌。"
+    },
+    {
+      "title": "如何评价俄罗斯数学家 Vladimir Igorevich Arnold 的数学成就？",
+      "url": "https://www.zhihu.com/answer/456700174",
+      "summary": "正文以KAM定理和Arnold扩散实质解释动力系统中的有序与混沌。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/459172194",
+      "summary": "正文说明分形由复动力系统迭代的趋向行为产生。"
+    },
+    {
+      "title": "个人觉得抛硬币并不是真正的随机事件，和抛硬币时候的各种状态参量有关系，那么到底什么是真正的随机？",
+      "url": "https://www.zhihu.com/answer/489498955",
+      "summary": "正文用硬币碰撞与函数迭代解释混沌效应。"
+    },
+    {
+      "title": "个人觉得抛硬币并不是真正的随机事件，和抛硬币时候的各种状态参量有关系，那么到底什么是真正的随机？",
+      "url": "https://www.zhihu.com/answer/489690667",
+      "summary": "正文用抛硬币的混沌动力过程解释结果随机性。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/495434922",
+      "summary": "正文用迭代过程介绍曼德博集合。"
+    },
+    {
+      "title": "如何理解「观点越高，事情越显得简单」这句话？",
+      "url": "https://www.zhihu.com/answer/533666058",
+      "summary": "正文以曼德布罗特迭代、分形与蝴蝶效应解释混沌理论。"
+    },
+    {
+      "title": "建国后，中国数学界有哪些重要的数学成就？",
+      "url": "https://www.zhihu.com/answer/583245584",
+      "summary": "介绍中国数学家在动力系统双曲性问题上的成果。"
+    },
+    {
+      "title": "数学中有哪些让你感到赏心悦目或是震惊的构造手法？",
+      "url": "https://www.zhihu.com/answer/690321954",
+      "summary": "由周期三推出各周期轨道，说明动力系统进入混沌。"
+    },
+    {
+      "title": "如何通俗地解释混沌理论（chaos）和分岔理论（bifurcation）？",
+      "url": "https://www.zhihu.com/answer/705405940",
+      "summary": "以初值敏感性和参数分岔解释非线性系统混沌。"
+    },
+    {
+      "title": "怎样评价数学家 Yakov G. Sinai 的数学工作？",
+      "url": "https://www.zhihu.com/answer/729708447",
+      "summary": "介绍 Sinai 在动力系统与混沌方面的工作。"
+    },
+    {
+      "title": "数学论文的作者会意识到自己发表的结果实际上已经有人做出来过吗？",
+      "url": "https://www.zhihu.com/answer/785970997",
+      "summary": "陈述三周期蕴含任意周期轨道的混沌定理。"
+    },
+    {
+      "title": "如何评价「神经网络本质不过是初中生都会的复合函数」？",
+      "url": "https://www.zhihu.com/answer/927763066",
+      "summary": "正文明确解释简单二次函数反复迭代也会出现复杂和混沌的动力学行为。"
+    },
+    {
+      "title": "为什么随便在计算器上按个数，然后多次按 cos 键，结果总是趋近于 0.73几？",
+      "url": "https://www.zhihu.com/answer/1082165265",
+      "summary": "正文由函数迭代说明收敛、周期与混沌三类行为。"
+    },
+    {
+      "title": "数学家或者数学专业的研究生每天都在研究什么？",
+      "url": "https://www.zhihu.com/answer/1129699965",
+      "summary": "正文实质解释动力系统的函数迭代、Julia 集与混沌研究。"
+    },
+    {
+      "title": "数学家（数学专业）都是怎么搞研究的?",
+      "url": "https://www.zhihu.com/answer/1144745965",
+      "summary": "正文解释函数迭代、Julia集及复动力系统的研究对象。"
+    },
+    {
+      "title": "现在的尖端数学一般研究什么？",
+      "url": "https://www.zhihu.com/answer/1161908247",
+      "summary": "正文解释复动力系统、分形、自相似与混沌研究的联系。"
+    },
+    {
+      "title": "数学家们平时都干嘛？",
+      "url": "https://www.zhihu.com/answer/1288610368",
+      "summary": "正文把复动力系统与混沌学、分形几何的发展联系起来。"
+    },
+    {
+      "title": "倘若在一次浩劫中，所有科学知识都被摧毁，每门学科只能留存一句话，你认为你所在的领域会留下什么话呢？",
+      "url": "https://www.zhihu.com/answer/1392829457",
+      "summary": "正文用动力系统格言概括混沌现象。"
+    },
+    {
+      "title": "二十世纪以来最牛的数学家（Grothendieck这种级别的）都有谁，你最崇拜谁，为什么？",
+      "url": "https://www.zhihu.com/answer/1441996608",
+      "summary": "正文直接讲解或推导“混沌”相关内容。"
+    },
+    {
+      "title": "三体运动的微分方程组是如何列的？既然它没解析解，能否写一下计算过程？",
+      "url": "https://www.zhihu.com/answer/1445978451",
+      "summary": "正文直接讲解或推导“混沌”相关内容。"
+    },
+    {
+      "title": "f'(x)=f(f(x))这类迭代常微分方程是否有相应的方法求它们的性质？",
+      "url": "https://www.zhihu.com/answer/1588074763",
+      "summary": "正文直接讨论或应用该叶节点主题（动力系统）。"
+    },
+    {
+      "title": "有什么很牛逼的无理数？",
+      "url": "https://www.zhihu.com/answer/1675868557",
+      "summary": "正文围绕混沌映射和周期分叉解释费根鲍姆常数。"
+    },
+    {
+      "title": "三体问题不可解，那清理三体星的文明是怎么打中的？",
+      "url": "https://www.zhihu.com/answer/1682388129",
+      "summary": "正文具体用初值敏感性和蝴蝶效应解释三体与天气等混沌系统。"
+    },
+    {
+      "title": "数学中，类似 π、e 的独立的常数还有哪些？",
+      "url": "https://www.zhihu.com/answer/1693341780",
+      "summary": "正文围绕倍周期分叉、混沌行为和费根堡姆常数的普适性展开，直接对应混沌分支。"
+    },
+    {
+      "title": "数学史上你认为最丑陋的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2143115957",
+      "summary": "正文用简单迭代产生复杂结构，解释分形与混沌式现象。"
+    },
+    {
+      "title": "数学系学数学的男生最后都是如何找到女朋友的？",
+      "url": "https://www.zhihu.com/answer/2144151257",
+      "summary": "正文指出不断改变映射会令轨道难以预测并进入混沌。"
+    },
+    {
+      "title": "matlab中有哪些有趣的命令？",
+      "url": "https://www.zhihu.com/answer/2237914728",
+      "summary": "正文直接介绍 Lorenz 混沌吸引子和非周期轨道。"
+    },
+    {
+      "title": "如何评价「神经网络本质不过是初中生都会的复合函数」？",
+      "url": "https://www.zhihu.com/answer/2359889873",
+      "summary": "正文用二次迭代和分岔图说明简单复合系统可呈现复杂混沌行为。"
+    },
+    {
+      "title": "从宇宙的角度看，它为什么让生命存在？",
+      "url": "https://www.zhihu.com/answer/2360717297",
+      "summary": "正文系统解释对初始条件敏感、蝴蝶效应和洛伦茨吸引子。"
+    },
+    {
+      "title": "如何评价美国数学家苏利文（Dennis Parnell Sullivan）获 2022 年阿贝尔奖？",
+      "url": "https://www.zhihu.com/answer/2405222814",
+      "summary": "正文说明苏利文后来研究动力系统并证明相关混沌现象。"
+    },
+    {
+      "title": "2022 年阿贝尔奖公布，81 岁数学家、拓扑学大师苏利文一人获奖，你有哪些祝福送给他？",
+      "url": "https://www.zhihu.com/answer/2417694924",
+      "summary": "正文以倍周期分岔说明混沌现象及其普适常数。"
+    },
+    {
+      "title": "在控制、自动化领域，用到的最高深最先进的数学理论工具是什么？控制是否是工科里用到数学最多最深的领域？",
+      "url": "https://www.zhihu.com/answer/2662949362",
+      "summary": "提到非线性系统中的分岔、混沌与指标理论等定性理论。"
+    },
+    {
+      "title": "为什么所有的科学都是用微观来解释宏观，而不能用宏观解释微观？",
+      "url": "https://www.zhihu.com/answer/2837990731",
+      "summary": "正文以有组织与无组织行为的对比解释孤立子和混沌这两类非线性微分方程现象。"
+    },
+    {
+      "title": "数学好的人去搞生物是种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/3001147607",
+      "summary": "正文系统叙述倍周期分叉走向 Feigenbaum 极限和周期三现象，并以无规律涨落解释混沌。"
+    },
+    {
+      "title": "怎么形象清晰地解释「周期 3 意味着混沌」?",
+      "url": "https://www.zhihu.com/answer/3045168071",
+      "summary": "正文以李-约克定理和周期三点为主线，说明函数迭代中的不可预测性及混沌概念。"
+    },
+    {
+      "title": "若果两个函数满足关系f(g(x))=g(f(x))，那这两个函数之间有什么特殊性质？",
+      "url": "https://www.zhihu.com/answer/3143434825",
+      "summary": "正文围绕复动力系统，说明 Fatou 与 Julia 对函数迭代及 Julia 集的研究。"
+    },
+    {
+      "title": "高三自认热爱数学，学长学姐和家里人都告诉我等我学了数学就不会热爱了，真的是这样吗?",
+      "url": "https://www.zhihu.com/answer/3454357593",
+      "summary": "正文明确陈述周期三与混沌的动力学判据，说明连续映射迭代会产生不可数多个杂乱轨道。"
+    },
+    {
+      "title": "为什么沙俄培养出了门捷列夫这样的绝世人才，而苏联的教育却一片荒芜?",
+      "url": "https://www.zhihu.com/answer/3484019431",
+      "summary": "正文叙述李天岩提出的周期三结论及沙可夫斯基的先行研究，核心对应周期三与混沌的动力学判据。"
+    },
+    {
+      "title": "数学天才比常人强在哪里？",
+      "url": "https://www.zhihu.com/answer/3542624708",
+      "summary": "正文以三球系统说明初始条件敏感性、运动似永不重复及不可积分性，对应混沌的核心特征。"
+    },
+    {
+      "title": "《三体》为什么被捧到这么高的高度?",
+      "url": "https://www.zhihu.com/answer/83316517066",
+      "summary": "正文以单摆临界初值和三体系统的数值敏感区为例，具体解释了初值微小差异造成结果不可预测的混沌现象。"
+    },
+    {
+      "title": "王朝周期律的根本是什么？",
+      "url": "https://www.zhihu.com/answer/1930953221926532275",
+      "summary": "正文说明参数变化引发Hopf分岔、螺旋轨迹及极限环，用动力学分岔解释社会系统的持续振荡。"
+    },
+    {
+      "title": "苏联当年有多少应该拿菲尔兹奖的数学家被黑了？",
+      "url": "https://www.zhihu.com/answer/1936157843532276387",
+      "summary": "正文用KAM环面、混沌带和Arnold扩散展开规则运动与混沌的共存关系，实质讨论混沌。"
+    },
+    {
+      "title": "复杂系统的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1945882749807341603",
+      "summary": "正文以 Hénon 映射为核心，分析混沌吸引子、敏感依赖和周期倍化分岔。"
+    },
+    {
+      "title": "现在数学最前沿研究哪些问题？",
+      "url": "https://www.zhihu.com/answer/1947278068851905970",
+      "summary": "正文用偶除二、奇乘三加一的 Collatz 迭代说明确定性动力系统中的混沌性与规律性问题。"
+    },
+    {
+      "title": "如果想在数学教科书上见到活人，至少得是什么级别的数学教科书？",
+      "url": "https://www.zhihu.com/answer/1955934783268954596",
+      "summary": "正文陈述并解释 Period Three Implies Chaos 定理，说明连续区间映射具有三点周期结构时会产生任意最小周期的周期轨。"
+    },
+    {
+      "title": "差分方程有没有可能通过某种变换成为连续方程（如微分方程）？",
+      "url": "https://www.zhihu.com/answer/1959008524643336764",
+      "summary": "正文以混沌差分方程为例，解释非线性映射产生谐波、频谱扩展并导致连续重构失败。"
+    },
+    {
+      "title": "有哪些十分常见的单词有其他罕见的意思？",
+      "url": "https://www.zhihu.com/answer/1972367728774972032",
+      "summary": "正文明确用初值敏感性和稠密周期点界定数学中的混沌概念。"
+    },
+    {
+      "title": "感觉复变函数没有动力深入研究下去了怎么办？",
+      "url": "https://www.zhihu.com/answer/1996639663507645502",
+      "summary": "正文以 Fatou 集与 Julia 集刻画复动力系统的稳定和混沌区域，并深入说明 Julia 集的分形结构。"
+    },
+    {
+      "title": "顶级数学家有多厉害？",
+      "url": "https://www.zhihu.com/answer/2007750632665278107",
+      "summary": "正文明确介绍动力系统按规则迭代演化，并把长时间迭代出现的复杂行为定义为混沌。"
+    },
+    {
+      "title": "如何评价2026年求真书院Pi节挑战赛？",
+      "url": "https://www.zhihu.com/answer/2016477474876319313",
+      "summary": "正文围绕连续区间映射的周期点，证明周期 3 蕴含任意阶真周期点，并联系 Li-Yorke 混沌。"
+    },
+    {
+      "title": "哪些看似毫不相干的事物具有相同的数学原理？",
+      "url": "https://www.zhihu.com/answer/2034433817230979473",
+      "summary": "正文借离散 logistic 映射详细讨论倍周期分岔、初值敏感性和 Feigenbaum 常数。"
+    },
+    {
+      "title": "很多老师都用1.01的365次方和0.99的365次方论证要坚持每天进步，可这个模型跟实际相符吗?",
+      "url": "https://www.zhihu.com/answer/2056768098947032810",
+      "summary": "正文通过离散逻辑斯蒂映射讨论倍周期分岔、混沌和对初值的敏感依赖。"
+    },
+    {
+      "title": "你是飞鸟？还是青蛙？ | 伟大数学物理学家的演讲",
+      "url": "https://zhuanlan.zhihu.com/p/23111281",
+      "summary": "正文用初值指数分离解释混沌，并进一步讨论弱混沌、非线性映射和周期三蕴含混沌。"
+    },
+    {
+      "title": "分形简介",
+      "url": "https://zhuanlan.zhihu.com/p/24318397",
+      "summary": "正文用 Logistic 差分方程和参数变化说明简单规则的迭代可进入不可预测的混沌状态。"
+    },
+    {
+      "title": "啊，这非线性的无奈世界",
+      "url": "https://zhuanlan.zhihu.com/p/26160297",
+      "summary": "正文围绕非线性动力系统解释混沌、相空间、吸引子和分岔，说明混沌轨道对初值敏感但并非随机。"
+    },
+    {
+      "title": "贝多芬＆莫扎特不可描述事件",
+      "url": "https://zhuanlan.zhihu.com/p/28413371",
+      "summary": "正文定义混沌理论并说明初始输入的微小差别会导致输出出现巨大变化。"
+    },
+    {
+      "title": "11、分形：小小体积可以充满大大空间吗？",
+      "url": "https://zhuanlan.zhihu.com/p/28574121",
+      "summary": "正文通过拉伸折叠、对初始条件的敏感依赖和拓扑混合解释确定性混沌的形成。"
+    },
+    {
+      "title": "数学简史：现代数学的五大应用",
+      "url": "https://zhuanlan.zhihu.com/p/30486512",
+      "summary": "正文通过复数迭代、吸引子和曼德布罗集合说明混沌与分形结构的数学描述。"
+    },
+    {
+      "title": "时间序列模型之相空间重构模型",
+      "url": "https://zhuanlan.zhihu.com/p/32910931",
+      "summary": "正文以混沌时间序列的相空间重构、嵌入定理和 Lorenz 模型预测为主线，实质展开混沌系统分析。"
+    },
+    {
+      "title": "机器学习能否破解混沌？| PRL论文详解",
+      "url": "https://zhuanlan.zhihu.com/p/37730449",
+      "summary": "正文以初值敏感性和蝴蝶效应解释混沌，并讨论时空混沌系统的预测。"
+    },
+    {
+      "title": "复动力系统简介：I. Fatou and Julia dichotomy",
+      "url": "https://zhuanlan.zhihu.com/p/59159643",
+      "summary": "正文用迭代在 Julia 集附近的不稳定性说明该复动力系统呈现混沌行为。"
+    },
+    {
+      "title": "世界的本质关联：从0到1、从量变到质变、幂次法则、还有信息论",
+      "url": "https://zhuanlan.zhihu.com/p/62819317",
+      "summary": "正文用对初值差异的放大解释混沌，并把它与非线性的终值放大相区别。"
+    },
+    {
+      "title": "身边的微分方程 (0)：序曲",
+      "url": "https://zhuanlan.zhihu.com/p/66085740",
+      "summary": "正文具体指出有阻尼大幅单摆中的混沌表现为解对初始条件敏感。"
+    },
+    {
+      "title": "数学领域分类",
+      "url": "https://zhuanlan.zhihu.com/p/74481149",
+      "summary": "正文明确概括混沌理论研究系统既具决定性又不可预测的行为。"
+    },
+    {
+      "title": "用计算器按出来的常数--费根鲍姆常数",
+      "url": "https://zhuanlan.zhihu.com/p/77825884",
+      "summary": "正文通过分叉、周期倍增和稳定岛说明 logistic 映射进入混沌及费根鲍姆常数的普适性。"
+    },
+    {
+      "title": "随机过程在数据科学和深度学习中有哪些应用？",
+      "url": "https://zhuanlan.zhihu.com/p/79032057",
+      "summary": "正文通过洛伦兹的天气模型和蝴蝶效应解释确定性混沌对初值的敏感依赖。"
+    },
+    {
+      "title": "简单易读的动力系统：从流到李雅普诺夫指数",
+      "url": "https://zhuanlan.zhihu.com/p/83082587",
+      "summary": "正文以 Lorenz 系统为例讨论 Lyapunov 指数、轨道稠密性和吸引子体积衰减，说明混沌系统对初值方向敏感且吸引子 Lebesgue 测度为零。"
+    },
+    {
+      "title": "2020年阿贝尔奖揭晓，授予两位在混沌中发现秩序的数学先锋",
+      "url": "https://zhuanlan.zhihu.com/p/114395422",
+      "summary": "正文介绍遍历理论如何研究随时间遍历状态且具有混沌性的系统，并说明随机原理可用于在混沌中寻找结构。"
+    },
+    {
+      "title": "闲聊系列（六）聊聊控制理论",
+      "url": "https://zhuanlan.zhihu.com/p/138565523",
+      "summary": "正文解释非线性系统对初始条件高度敏感、长期不可预测，并区分混沌与随机运动。"
+    },
+    {
+      "title": "几种混沌映射",
+      "url": "https://zhuanlan.zhihu.com/p/140821925",
+      "summary": "正文介绍混沌序列的敏感依赖、遍历性、奇异吸引子等特征，并列举多种混沌映射模型。"
+    },
+    {
+      "title": "混沌理论先驱李天岩去世，最早严格定义“混沌”，提出“周期三即混沌”",
+      "url": "https://zhuanlan.zhihu.com/p/150836179",
+      "summary": "正文陈述李-约克“周期三即混沌”及混沌解的初值敏感性和不可预测性，故对应混沌。"
+    },
+    {
+      "title": "李天岩——约克三生万物定理",
+      "url": "https://zhuanlan.zhihu.com/p/163467029",
+      "summary": "正文证明李天岩－约克定理，说明连续区间映射存在三点周期会导致任意周期并产生混沌。"
+    },
+    {
+      "title": "触碰不到的维度——不可能图形",
+      "url": "https://zhuanlan.zhihu.com/p/192319011",
+      "summary": "正文解释洛伦兹用三个非线性变量构造天气模型，并说明轨迹进入吸引子及微小扰动放大所产生的混沌。"
+    },
+    {
+      "title": "世界上最公平的骰子",
+      "url": "https://zhuanlan.zhihu.com/p/271655201",
+      "summary": "正文用骰子对初始条件的敏感性解释蝴蝶效应和混沌系统。"
+    },
+    {
+      "title": "常微分方程：（第六章）非线性微分方程：1、2节",
+      "url": "https://zhuanlan.zhihu.com/p/302699936",
+      "summary": "正文通过二维相平面的闭轨结论与三维奇怪吸引子的敏感依赖性具体解释混沌现象。"
+    },
+    {
+      "title": "Gerald:ODEs&Dynamical Systems使用攻略",
+      "url": "https://zhuanlan.zhihu.com/p/354148315",
+      "summary": "正文讨论动力系统中的 Lorenz 吸引子、蝴蝶效应、符号动力系统和混沌的拓扑定义。"
+    },
+    {
+      "title": "笔记01：收敛交叉映射（CCM）及一些拓展",
+      "url": "https://zhuanlan.zhihu.com/p/367363413",
+      "summary": "正文以混沌耦合差分系统、吸引子和影子流形为对象，讲解收敛交叉映射的因果检验。"
+    },
+    {
+      "title": "干货来了丨是谁推动美国数学跻身世界前列？",
+      "url": "https://zhuanlan.zhihu.com/p/369607058",
+      "summary": "正文解释三体问题中误差放大和不可预测性，并将这一现象明确归为混沌。"
+    },
+    {
+      "title": "基于牛头人的Lorenz吸引子",
+      "url": "https://zhuanlan.zhihu.com/p/373945748",
+      "summary": "正文讨论Lorenz系统在相空间中的双吸引区、体积衰减和初值敏感等混沌特征。"
+    },
+    {
+      "title": "[非线性动力学] Lyapunov稳定性理论",
+      "url": "https://zhuanlan.zhihu.com/p/541772198",
+      "summary": "正文通过倍周期分岔和 Logistic 映射讨论系统走向混沌及 Lyapunov 指数刻画轨道分离。"
+    },
+    {
+      "title": "乱谈数学与控制（续）正本清源",
+      "url": "https://zhuanlan.zhihu.com/p/698176373",
+      "summary": "正文讨论三维动力系统对初值敏感、Lorenz 吸引子及混沌积分曲线，并比较可积与混沌行为。"
+    },
+    {
+      "title": "复杂系统的分岔理论（Bifurcation Theory）",
+      "url": "https://zhuanlan.zhihu.com/p/31412391297",
+      "summary": "正文具体讨论同宿分岔引发马蹄型结构并导致混沌的机制。"
+    }
+  ]
+}

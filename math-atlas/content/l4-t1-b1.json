@@ -1,0 +1,1796 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l4-t1-b1",
+  "sources": [
+    {
+      "title": "中国象棋的走法是有限的吗？如果有限，有没有先走或者后走的人必赢的可能？",
+      "url": "https://www.zhihu.com/answer/16816112",
+      "summary": "对允许的剩余步数作归纳，以子局面的策略结果向前回推说明有限博弈结论；子局面确定的是最优策略价值，不是任意实际走法的结局。"
+    },
+    {
+      "title": "一个关于数学归纳法的悖论问题：到底是第 N 天有 N 个红眼睛自杀，还是什么都不会发生？",
+      "url": "https://www.zhihu.com/answer/17690897",
+      "summary": "用红眼睛岛民逻辑谜题分析人数递增时的推理层次，并以四人情形逐日排除可能性，说明归纳推理依赖公开宣告和共同信任等前提。"
+    },
+    {
+      "title": "一个关于数学归纳法的悖论问题：到底是第 N 天有 N 个红眼睛自杀，还是什么都不会发生？",
+      "url": "https://www.zhihu.com/answer/17703974",
+      "summary": "从一至三名红眼居民逐层说明公开宣告如何启动归纳推理；依赖全体理性、同步观察等题设，不是旅行者未增加知识。"
+    },
+    {
+      "title": "如何解释意外绞刑悖论（老虎悖论）？",
+      "url": "https://www.zhihu.com/answer/17727241",
+      "summary": "借意外绞刑悖论讨论归纳推理的前提与“知道”的含义，适合作方法争议材料；将条件假设等同概率猜测、借薛定谔猫解释逻辑矛盾的说法并非严谨解答。"
+    },
+    {
+      "title": "一个关于数学归纳法的悖论问题：到底是第 N 天有 N 个红眼睛自杀，还是什么都不会发生？",
+      "url": "https://www.zhihu.com/answer/17802333",
+      "summary": "正文从小规模例子推至一般n，明确归纳步骤；附记把宣告前两红眼情形称作公共知识不准确，应区分人人知道与任意层次互知，作者也承认概念未理清。"
+    },
+    {
+      "title": "有哪些大学的定理、公式、概念、方法等可以应用于高中解题或帮助高中生深入理解知识？",
+      "url": "https://www.zhihu.com/answer/39646400",
+      "summary": "正文解释归纳法的基例、归纳假设与相邻阶递推关系。"
+    },
+    {
+      "title": "数学归纳法为什么是对的？如何证明其正确性？",
+      "url": "https://www.zhihu.com/answer/44447725",
+      "summary": "正文从传递关系、归纳公理和两种归纳法解释数学归纳法。"
+    },
+    {
+      "title": "如何理解汉诺塔的递归？",
+      "url": "https://www.zhihu.com/answer/46241635",
+      "summary": "正文以数学归纳法证明汉诺塔移动次数通项。"
+    },
+    {
+      "title": "为什么四则运算规定 × / 的优先级比 + - 高？",
+      "url": "https://www.zhihu.com/answer/49552661",
+      "summary": "正文附录用数学归纳法证明任意多个数求和与括号位置无关。"
+    },
+    {
+      "title": "依赖 Mathematica 会有怎样的后果？",
+      "url": "https://www.zhihu.com/answer/51933842",
+      "summary": "正文以归纳法验证递推式的通项。"
+    },
+    {
+      "title": "100人坐飞机，第一个乘客在座位中随便选一个坐下，第100人正确坐到自己坐位的概率是？",
+      "url": "https://www.zhihu.com/answer/65266716",
+      "summary": "正文使用第二数学归纳法证明乘客座位概率公式。"
+    },
+    {
+      "title": "很好的数学书没有答案，比如卓里奇，一道题目可能看不懂或看懂了完全无从下手，这时候做了有什么意义吗？",
+      "url": "https://www.zhihu.com/answer/77777026",
+      "summary": "正文完整展示强数学归纳法证明，并明确总结证明只依赖归纳法与结合律。"
+    },
+    {
+      "title": "怎么确定对方是能一辈子和我在一起的人？",
+      "url": "https://www.zhihu.com/answer/79681706",
+      "summary": "正文列出数学归纳法的基础步骤并用实例说明。"
+    },
+    {
+      "title": "斐波那契数列第8项，21=3*7是什么意思？",
+      "url": "https://www.zhihu.com/answer/98541740",
+      "summary": "正文明确使用数学归纳法证明斐波那契整除引理。"
+    },
+    {
+      "title": "可数个可数集合的并可数哪里用到了选择公理？",
+      "url": "https://www.zhihu.com/answer/104660588",
+      "summary": "正文说明如何用对自然数 n 的归纳证明任意有限个可数集之并可数。"
+    },
+    {
+      "title": "如何理解汉诺塔的递归？",
+      "url": "https://www.zhihu.com/answer/107761723",
+      "summary": "正文用归纳假设和最大盘移动的下界严格证明递推步数最优。"
+    },
+    {
+      "title": "如何评价吴文俊说21世纪九章算术数学思想必将凌驾于几何原本？",
+      "url": "https://www.zhihu.com/answer/108561777",
+      "summary": "正文比较归纳与演绎，系统解释数学归纳法的结构、历史与用途。"
+    },
+    {
+      "title": "哪些数学定理在直觉上是对的，但证明起来很困难？",
+      "url": "https://www.zhihu.com/answer/117414559",
+      "summary": "正文在洋葱函数引理中明确用数学归纳法验证递归像集的包含关系。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/127202745",
+      "summary": "正文明确说用数学归纳法推出高维空间切割块数公式。"
+    },
+    {
+      "title": "为什么需要证明「1+1=2」？",
+      "url": "https://www.zhihu.com/answer/128912950",
+      "summary": "正文说明皮亚诺第五公理就是数学归纳法，并用性质检验解释其作用。"
+    },
+    {
+      "title": "有哪些具有特殊性质的数字？",
+      "url": "https://www.zhihu.com/answer/135039728",
+      "summary": "正文明确以归纳假设和 n+1 步骤证明所有自然数都特殊，展示数学归纳法结构。"
+    },
+    {
+      "title": "假设一个台球有无限动力，最终是不是一定会进袋？",
+      "url": "https://www.zhihu.com/answer/144198635",
+      "summary": "正文用归纳法证明构造的无理数列始终满足递减性质。"
+    },
+    {
+      "title": "经常出现在数学证明中的「不妨设」根据是什么？如何培养这种「不妨设」、「假设」的能力？",
+      "url": "https://www.zhihu.com/answer/148513316",
+      "summary": "正文解释数学归纳法中假设 p(k) 后推导 p(k+1) 的作用。"
+    },
+    {
+      "title": "如何通俗地理解机器学习中的 VC 维、shatter 和 break point？",
+      "url": "https://www.zhihu.com/answer/157787203",
+      "summary": "正文明确用归纳法证明 Sauer 引理的组合上界。"
+    },
+    {
+      "title": "\"1 + 1 = 2\" 是定义, 还是定理?",
+      "url": "https://www.zhihu.com/answer/158328993",
+      "summary": "正文列出皮亚诺公理中的归纳原理并用于自然数体系。"
+    },
+    {
+      "title": "数学归纳法是科学的吗，严谨吗？我怎么觉得不严谨？",
+      "url": "https://www.zhihu.com/answer/176723883",
+      "summary": "正文从皮亚诺公理推导第一、第二数学归纳法并解释其无限性。"
+    },
+    {
+      "title": "数学归纳法是科学的吗，严谨吗？我怎么觉得不严谨？",
+      "url": "https://www.zhihu.com/answer/177512337",
+      "summary": "正文区分数学归纳与经验归纳，并从公理、规则及有限语言论证归纳法。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/231137558",
+      "summary": "正文用数学归纳法推导红眼岛问题。"
+    },
+    {
+      "title": "如何证明 1+1=2？",
+      "url": "https://www.zhihu.com/answer/253963850",
+      "summary": "正文使用归纳公理证明自然数结构中的关键命题。"
+    },
+    {
+      "title": "如何定义分数阶导？",
+      "url": "https://www.zhihu.com/answer/254355276",
+      "summary": "正文明确使用数学归纳法证明整数阶迭代积分公式。"
+    },
+    {
+      "title": "如何理解汉诺塔的递归？",
+      "url": "https://www.zhihu.com/answer/258015386",
+      "summary": "正文明确比较递归与数学归纳法的基础条件和递推条件。"
+    },
+    {
+      "title": "数学里有哪些精彩的伪证？",
+      "url": "https://www.zhihu.com/answer/262530483",
+      "summary": "正文展示一个缺失关键归纳步骤的秃头伪证。"
+    },
+    {
+      "title": "数学里有哪些精彩的伪证？",
+      "url": "https://www.zhihu.com/answer/262609580",
+      "summary": "正文展示“所有柏林人等高”的错误数学归纳法并检查归纳起步。"
+    },
+    {
+      "title": "数学里有哪些精彩的伪证？",
+      "url": "https://www.zhihu.com/answer/262954447",
+      "summary": "正文按顶点数对平面图四色染色进行归纳。"
+    },
+    {
+      "title": "有哪些悖论一下子就吸引了你？",
+      "url": "https://www.zhihu.com/answer/270108286",
+      "summary": "正文逐步说明数学归纳法的自然数基础和归纳步骤。"
+    },
+    {
+      "title": "数列递推公式化为函数形式后可以通过求导判断单调性?",
+      "url": "https://www.zhihu.com/answer/273447204",
+      "summary": "正文明确列出用数学归纳法处理递推数列单调性。"
+    },
+    {
+      "title": "如何判断数列的单调性?",
+      "url": "https://www.zhihu.com/answer/273447909",
+      "summary": "正文列出用数学归纳法处理递推数列单调性。"
+    },
+    {
+      "title": "有哪些大家默认「肯定没人能解释清楚」，而实际上已经被科学解释了的问题？",
+      "url": "https://www.zhihu.com/answer/275404614",
+      "summary": "正文陈述数学归纳法公理及其递推形式。"
+    },
+    {
+      "title": "世界上大约有多少人可以完全看懂并理解怀尔斯对于费马大定理的证明？",
+      "url": "https://www.zhihu.com/answer/290933443",
+      "summary": "正文说明怀尔斯在关键环节采用数学归纳法。"
+    },
+    {
+      "title": "如何评价2018《最强大脑》第五季第二期中的挑战？",
+      "url": "https://www.zhihu.com/answer/294688586",
+      "summary": "正文用数学归纳法论证全偶或双奇连通图可一笔画。"
+    },
+    {
+      "title": "如何评价 2018《最强大脑》第五季？",
+      "url": "https://www.zhihu.com/answer/294689564",
+      "summary": "正文明确用数学归纳法完成充分性论证。"
+    },
+    {
+      "title": "如何在数学试卷上调戏阅卷人？",
+      "url": "https://www.zhihu.com/answer/304239279",
+      "summary": "正文完整展示“所有马同色”的错误归纳证明及其漏洞语境。"
+    },
+    {
+      "title": "如何反驳如下说法: 1不是无穷大，且若正整数n不是无穷大，则n+1不是无穷大，所以无穷大不存在？",
+      "url": "https://www.zhihu.com/answer/309687195",
+      "summary": "正文用题中性质完整说明数学归纳法的命题形式与结论范围。"
+    },
+    {
+      "title": "什么是递归？",
+      "url": "https://www.zhihu.com/answer/317659122",
+      "summary": "正文明确把递归的基础情形与归纳步骤解释为数学归纳法。"
+    },
+    {
+      "title": "n 个平面最多把 3 维空间分成几个部分？",
+      "url": "https://www.zhihu.com/answer/339676165",
+      "summary": "正文明确使用数学归纳法得到一般p维公式。"
+    },
+    {
+      "title": "为什么数学归纳法是一种有效的证明方法？",
+      "url": "https://www.zhihu.com/answer/371625529",
+      "summary": "正文比较两种数学归纳法并解释每个命题只需有限步。"
+    },
+    {
+      "title": "Peano 公理第五条是否多余？或者说它是可以被证明的？",
+      "url": "https://www.zhihu.com/answer/378347390",
+      "summary": "正文用逐环触碰论证归纳公理确保自然数单链结构。"
+    },
+    {
+      "title": "你觉得费马到底会不会证明费马大定理？",
+      "url": "https://www.zhihu.com/answer/405034101",
+      "summary": "正文说明费马对n等于4使用无穷递降法。"
+    },
+    {
+      "title": "有哪些一看就会，一做就错的数学题？",
+      "url": "https://www.zhihu.com/answer/412243395",
+      "summary": "正文以数学归纳法推进幂和导数恒等式。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/459283922",
+      "summary": "正文以基础情形和 n 到 n+1 的递推完成归纳证明。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/459480191",
+      "summary": "正文逐个建立 1 人、2 人、3 人情形并推广到一般人数。"
+    },
+    {
+      "title": "所有的正整数都可以表示成 2x+3y 的形式吗？",
+      "url": "https://www.zhihu.com/answer/464449068",
+      "summary": "正文以递归构造完成互质整数情形的归纳证明。"
+    },
+    {
+      "title": "现代数学退步了吗，为什么一个费马大定理用了三百多年（当初费马其实早就知道如何证明）？",
+      "url": "https://www.zhihu.com/answer/500118179",
+      "summary": "正文以数学归纳法完成戏仿证明。"
+    },
+    {
+      "title": "阅读《代数学引论》（柯斯特利金著）的时候需要注意什么？",
+      "url": "https://www.zhihu.com/answer/522494982",
+      "summary": "正文完整展示用归纳法验证齐次多项式维数结论的过程。"
+    },
+    {
+      "title": "关于数学归纳法有一些不太懂的地方，请大神指教？",
+      "url": "https://www.zhihu.com/answer/533413137",
+      "summary": "正文逐步解释归纳基础与归纳步骤如何共同推出所有自然数情形。"
+    },
+    {
+      "title": "1×0＝0 是因为 0 乘以任何数字都等于 0，还是因为 1 乘任何数字都等于那个数？",
+      "url": "https://www.zhihu.com/answer/542482192",
+      "summary": "正文明确指出单位元性质需要数学归纳法证明。"
+    },
+    {
+      "title": "如何证明贝努利不等式？",
+      "url": "https://www.zhihu.com/answer/548370752",
+      "summary": "正文给出伯努利不等式的数学归纳法证明。"
+    },
+    {
+      "title": "有没有可能把 π 或 e 等无理数当成 1，这样就能使许多定理显而易见？",
+      "url": "https://www.zhihu.com/answer/562875607",
+      "summary": "正文用后继关系、非零后继和归纳公理构造自然数。"
+    },
+    {
+      "title": "连分式近似怎么操作？",
+      "url": "https://www.zhihu.com/answer/573148611",
+      "summary": "正文明确使用数学归纳法证明连分数定理。"
+    },
+    {
+      "title": "请问如何入门同伦类型论（HoTT）？",
+      "url": "https://www.zhihu.com/answer/589290727",
+      "summary": "正文将数学归纳法列为入门形式化证明的基础。"
+    },
+    {
+      "title": "除 0 与 1 外，是否存在无限求平方根仍为有理数的数？",
+      "url": "https://www.zhihu.com/answer/595909042",
+      "summary": "正文用归纳集讨论自然数模型。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/631465139",
+      "summary": "使用数学归纳法证明高维正单纯形高度递推公式。"
+    },
+    {
+      "title": "象棋中的概率问题：在有去除的拿去的情况下，以最优策略猜去除棋子的颜色，问最后得到猜测正确的期望？",
+      "url": "https://www.zhihu.com/answer/642802219",
+      "summary": "通过数学归纳法证明递推解的组合数求和形式。"
+    },
+    {
+      "title": "1+1 为什么等于 2？",
+      "url": "https://www.zhihu.com/answer/652590221",
+      "summary": "解释皮亚诺归纳公理如何从零和后继覆盖全体自然数。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/667433027",
+      "summary": "从自然数情形逐步推广到整数与有理数。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/670271011",
+      "summary": "用数学归纳法把三点结论推广到任意 n 点。"
+    },
+    {
+      "title": "有哪些「这也能用数学证明」的事件？",
+      "url": "https://www.zhihu.com/answer/670679733",
+      "summary": "明确给出从 n 到 n+1 的数学归纳法证明。"
+    },
+    {
+      "title": "对于学习有哪些常见的误区？",
+      "url": "https://www.zhihu.com/answer/680062459",
+      "summary": "用多米诺骨牌直观解释数学归纳法的起点与递推步骤。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/680750541",
+      "summary": "用数学归纳法得到前 n 项积的闭式。"
+    },
+    {
+      "title": "如何证明行列式的拉普拉斯定理？",
+      "url": "https://www.zhihu.com/answer/697867199",
+      "summary": "用数学归纳法证明任意阶 Laplace 展开。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/713990920",
+      "summary": "用剩余步数归纳证明博弈结果必属三种情形。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/717444019",
+      "summary": "以维数为归纳变量证明通式。"
+    },
+    {
+      "title": "科学家遇到的思维瓶颈与普通人有何不同？",
+      "url": "https://www.zhihu.com/answer/722691417",
+      "summary": "用具体命题说明归纳假设与归纳步骤。"
+    },
+    {
+      "title": "因式分解的结果为什么是唯一的？",
+      "url": "https://www.zhihu.com/answer/723392807",
+      "summary": "用归纳法推进唯一分解论证。"
+    },
+    {
+      "title": "对于递归有没有什么好的理解方法？",
+      "url": "https://www.zhihu.com/answer/724915708",
+      "summary": "联系递归结构与数学归纳法。"
+    },
+    {
+      "title": "如何证明递推数列不存在由初等函数复合的通项公式?",
+      "url": "https://www.zhihu.com/answer/756861716",
+      "summary": "用归纳法证明递推编码的性质。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/763750893",
+      "summary": "用归纳结构验证幂和恒等式。"
+    },
+    {
+      "title": "如果对任意实数，有f(x+y)=f(x)+f(y)，能求出函数f(x)吗？",
+      "url": "https://www.zhihu.com/answer/819112429",
+      "summary": "正文先用数学归纳法把可加函数关系推广到正整数倍。"
+    },
+    {
+      "title": "为什么实对称矩阵一定能对角化？",
+      "url": "https://www.zhihu.com/answer/869412501",
+      "summary": "正文以一阶为基础情形、由 k 阶推出 k+1 阶，完整使用数学归纳法证明实对称矩阵可对角化。"
+    },
+    {
+      "title": "对于递归有没有什么好的理解方法？",
+      "url": "https://www.zhihu.com/answer/875577623",
+      "summary": "正文明确把递归的基础情形和递推步骤对应到数学归纳法。"
+    },
+    {
+      "title": "是否对于所有能够用数学归纳法证明的结论都能不用数学归纳法推出？",
+      "url": "https://www.zhihu.com/answer/887839498",
+      "summary": "说明自然数命题必须依赖归纳公理并展示归纳证明结构。"
+    },
+    {
+      "title": "数学中有哪些看起来很不可思议的知识？",
+      "url": "https://www.zhihu.com/answer/971837670",
+      "summary": "正文说明归纳公理及其在自然数命题证明中的作用。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/998384906",
+      "summary": "正文明确以基例和归纳步骤由f_p导出f_{p+1}。"
+    },
+    {
+      "title": "如何用高中数学知识证明 ln ln88＜3/2？",
+      "url": "https://www.zhihu.com/answer/1006677891",
+      "summary": "正文以基例和归纳假设证明Taylor下界引理。"
+    },
+    {
+      "title": "正整数和正整数中的偶数哪个多（如何证明）？",
+      "url": "https://www.zhihu.com/answer/1011261681",
+      "summary": "正文辨析归纳法从有限命题扩展到无限对象时的错误。"
+    },
+    {
+      "title": "加法交换律 a＋b＝b＋a 是怎么证明的？",
+      "url": "https://www.zhihu.com/answer/1013734082",
+      "summary": "正文多次以数学归纳法证明加法性质。"
+    },
+    {
+      "title": "数列 0, 1, 0, -1, 0, 1, 0, -1... 的通项公式是多少呢？",
+      "url": "https://www.zhihu.com/answer/1019340373",
+      "summary": "正文明确以数学归纳法推广循环数列构造。"
+    },
+    {
+      "title": "如果中国象棋的将帅可以过河，可以照面，单帅对单将残局结果如何？",
+      "url": "https://www.zhihu.com/answer/1027133386",
+      "summary": "正文建立基例与归纳步骤证明棋盘博弈胜负规律。"
+    },
+    {
+      "title": "为什么随便在计算器上按个数，然后多次按 cos 键，结果总是趋近于 0.73几？",
+      "url": "https://www.zhihu.com/answer/1046361372",
+      "summary": "正文用归纳法建立余弦复合迭代的区间夹逼。"
+    },
+    {
+      "title": "e^x≥1+x+x^2/2!+……+x^n/n!(x≥0)怎么证，我是高中生，谢谢各位大佬了？",
+      "url": "https://www.zhihu.com/answer/1054637280",
+      "summary": "正文以基例和归纳步骤证明指数函数不等式。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/1094241963",
+      "summary": "正文明确使用数学归纳法证明构造所需的增长界。"
+    },
+    {
+      "title": "如果你是阿里巴巴数学竞赛的出题官，你会出什么题目？",
+      "url": "https://www.zhihu.com/answer/1098332401",
+      "summary": "正文明确以归纳法证明矩阵规模为2的幂。"
+    },
+    {
+      "title": "1米*1米*1米*1米*1米等于什么？",
+      "url": "https://www.zhihu.com/answer/1144157993",
+      "summary": "正文以量纲反例说明错误归纳不能推出高维乘积的现实意义。"
+    },
+    {
+      "title": "有哪些不易察觉的错误证明？",
+      "url": "https://www.zhihu.com/answer/1162845603",
+      "summary": "正文明确以归纳假设推进Kempe的四色证明。"
+    },
+    {
+      "title": "可以留下一个优美的恒等式吗？",
+      "url": "https://www.zhihu.com/answer/1168471670",
+      "summary": "正文按加边连接旧顶点与加入新顶点两种情况完成平面图欧拉公式的归纳证明。"
+    },
+    {
+      "title": "为什么我会感觉用数学归纳法证明很low？而用其他证明方法就显得很高大上？",
+      "url": "https://www.zhihu.com/answer/1173524801",
+      "summary": "正文从递归结构和有限省略号系统讨论数学归纳法。"
+    },
+    {
+      "title": "有没有高中老师不讲，但知道了做题很有用的技巧?",
+      "url": "https://www.zhihu.com/answer/1189179614",
+      "summary": "正文完整用数学归纳法证明通项公式。"
+    },
+    {
+      "title": "数学归纳法是不是「流氓」方法？",
+      "url": "https://www.zhihu.com/answer/1220980869",
+      "summary": "正文讨论数学归纳法的地位、等价形式与证明。"
+    },
+    {
+      "title": "数学归纳法是不是「流氓」方法？",
+      "url": "https://www.zhihu.com/answer/1221034217",
+      "summary": "正文说明数学归纳依赖可列集与良序关系。"
+    },
+    {
+      "title": "n是固定正整数，有n个正整数的倒数和小于1，那和的最大值是多少？",
+      "url": "https://www.zhihu.com/answer/1242311009",
+      "summary": "正文用第二数学归纳法和 Abel 变换证明最大性。"
+    },
+    {
+      "title": "这样的数学归纳法是否成立？",
+      "url": "https://www.zhihu.com/answer/1288650726",
+      "summary": "正文用反例说明反向归纳法不能推广到无穷。"
+    },
+    {
+      "title": "有哪些不易察觉的错误证明？",
+      "url": "https://www.zhihu.com/answer/1349588904",
+      "summary": "正文用年龄悖论展示数学归纳法归纳步骤中的隐藏漏洞。"
+    },
+    {
+      "title": "1²+2²+…+n²求和公式的推导有哪些方法?",
+      "url": "https://www.zhihu.com/answer/1376898289",
+      "summary": "正文介绍平方和公式的猜答案后数学归纳证明。"
+    },
+    {
+      "title": "如何推导1+4+9+16+…+n^2=n(n+1)(2n+1)/6?",
+      "url": "https://www.zhihu.com/answer/1415091431",
+      "summary": "正文用数学归纳法和递推关系证明平方和公式。"
+    },
+    {
+      "title": "数学领域有哪些经典的笑话？",
+      "url": "https://www.zhihu.com/answer/1465388399",
+      "summary": "正文展示马的颜色问题中的错误归纳法证明。"
+    },
+    {
+      "title": "n的阶乘有哪些典型的放缩方式?",
+      "url": "https://www.zhihu.com/answer/1513704425",
+      "summary": "正文用数学归纳法证明阶乘不等式。"
+    },
+    {
+      "title": "诸如 {1，1，1，3，5，9，17，···} 三个数相加，即斐波那契数列的变式，存在通项公式吗？",
+      "url": "https://www.zhihu.com/answer/1551206932",
+      "summary": "正文用数学归纳法验证特征根线性组合满足递推式。"
+    },
+    {
+      "title": "有哪些不易察觉的错误证明？",
+      "url": "https://www.zhihu.com/answer/1555383442",
+      "summary": "正文构造一个看似成立但基础步骤失效的归纳法错误证明。"
+    },
+    {
+      "title": "这个极限数学题怎么做？",
+      "url": "https://www.zhihu.com/answer/1561827044",
+      "summary": "正文把数学归纳法列为求等形式和的证明方法。"
+    },
+    {
+      "title": "这一道高等数学极限题怎么做？",
+      "url": "https://www.zhihu.com/answer/1573899880",
+      "summary": "正文第一段以数学归纳法证明含乘积余弦的极限公式。"
+    },
+    {
+      "title": "为什么一个整数的五次方的个位数会跟这个整数的个位数相同？",
+      "url": "https://www.zhihu.com/answer/1574973052",
+      "summary": "正文给出同一整除命题的数学归纳法证明。"
+    },
+    {
+      "title": "数学有什么意义？",
+      "url": "https://www.zhihu.com/answer/1621988705",
+      "summary": "正文用数学归纳法说明有限公理如何覆盖无穷对象。"
+    },
+    {
+      "title": "赵元任（Y. R. Chao）的数学究竟是什么水平的？",
+      "url": "https://www.zhihu.com/answer/1632972045",
+      "summary": "正文介绍并解释连续数学归纳法的证明方法。"
+    },
+    {
+      "title": "为什么八省联考数学19题答案0.6恰好等于0.1+0.2+0.3？",
+      "url": "https://www.zhihu.com/answer/1701625793",
+      "summary": "正文先证两项情形，再以数学归纳法把期望可加性推广到 n 个随机变量。"
+    },
+    {
+      "title": "第一数学归纳法和第二数学归纳法如何互证？",
+      "url": "https://www.zhihu.com/answer/1704362715",
+      "summary": "正文给出两类数学归纳法相互证明的完整逻辑链条。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/1723526288",
+      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/1740590218",
+      "summary": "正文直接讨论或推导「数学归纳法」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "怎么证明算术平均数大于等于几何平均数？",
+      "url": "https://www.zhihu.com/answer/1744271300",
+      "summary": "正文直接讨论或推导「数学归纳法」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "如何证明 n⁵ ≡ n (mod 10) ？",
+      "url": "https://www.zhihu.com/answer/1767816701",
+      "summary": "正文把数学归纳法列为证明该命题的简洁方法。"
+    },
+    {
+      "title": "1+2+4+8+16+32+64+128+256+...=-1 错在哪里？",
+      "url": "https://www.zhihu.com/answer/1818323745",
+      "summary": "正文直接支持该冻结叶节点。"
+    },
+    {
+      "title": "除了 1 和 144，还有哪个斐波那契数是平方数?",
+      "url": "https://www.zhihu.com/answer/1820602182",
+      "summary": "正文在推导卢卡斯数列性质时明确使用数学归纳法。"
+    },
+    {
+      "title": "函数连续时，如何证明凹凸函数定义的等价性?",
+      "url": "https://www.zhihu.com/answer/1822235282",
+      "summary": "正文明确用数学归纳法把二元凸性推广到任意多个点。"
+    },
+    {
+      "title": "你见过哪些有意思的不等式？",
+      "url": "https://www.zhihu.com/answer/1880636264",
+      "summary": "正文把若干加强不等式化为柯西不等式与平方和非负证明。"
+    },
+    {
+      "title": "为什么斐波那契数列第360项与第72项的和等于第216项与卢卡斯数列第144项的积?",
+      "url": "https://www.zhihu.com/answer/2039789638",
+      "summary": "正文用数学归纳法证明数列恒等式。"
+    },
+    {
+      "title": "象棋中的马能把棋盘每一个格都跳完吗？",
+      "url": "https://www.zhihu.com/answer/2098398302",
+      "summary": "正文用数学归纳法证明足够大的方形棋盘存在哈密顿遍历。"
+    },
+    {
+      "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
+      "url": "https://www.zhihu.com/answer/2252220588",
+      "summary": "正文用对顶点数的归纳证明非凸多边形存在三角剖分。"
+    },
+    {
+      "title": "在学生时期独立地探索出自己的数学发现，是什么体验？",
+      "url": "https://www.zhihu.com/answer/2285846212",
+      "summary": "正文明确使用数学归纳法处理二项式系数规律。"
+    },
+    {
+      "title": "北大的韦东奕大神与陶哲轩相比如何？",
+      "url": "https://www.zhihu.com/answer/2291952893",
+      "summary": "正文完整使用归纳假设证明竞赛题。"
+    },
+    {
+      "title": "(a+b)!/(a!b!) 的结果一定是整数吗？如果是，如何证明？",
+      "url": "https://www.zhihu.com/answer/2323552275",
+      "summary": "正文用对参数和的归纳证明二项式系数为整数。"
+    },
+    {
+      "title": "600 个人站一排，每次随机淘汰一个奇数位的人，几号最安全？",
+      "url": "https://www.zhihu.com/answer/2434797316",
+      "summary": "正文先由特例归纳猜测，再用数学归纳法证明通项比例。"
+    },
+    {
+      "title": "我是学数学专业的，我已经没希望了，数学分析我学到崩溃，现在直接颓废，看都不想看，我是不是完了？",
+      "url": "https://www.zhihu.com/answer/2491811923",
+      "summary": "正文明确说明硕士论文使用数学归纳法证明特殊背包问题的凸包。"
+    },
+    {
+      "title": "无限大国际象棋盘，一个马跳n次后的目的地有多少个？",
+      "url": "https://www.zhihu.com/answer/2499918260",
+      "summary": "正文用数学归纳法证明棋盘马跳目的地集合的结构可递推。"
+    },
+    {
+      "title": "数学归纳法是不是「流氓」方法？",
+      "url": "https://www.zhihu.com/answer/2511730320",
+      "summary": "正文比较普通数学归纳法与超限归纳法，并用序数归纳完成交换代数问题的证明。"
+    },
+    {
+      "title": "如何证明 n⁵ ≡ n (mod 10) ？",
+      "url": "https://www.zhihu.com/answer/2572129073",
+      "summary": "用二项式展开和数学归纳法证明 n⁵−n 是 5 的倍数。"
+    },
+    {
+      "title": "如何看待全国高中数学教材的内容调整？",
+      "url": "https://www.zhihu.com/answer/2579502735",
+      "summary": "说明数学归纳法在高等代数定理证明中的基础作用及高中阶段的学习价值。"
+    },
+    {
+      "title": "已知f(x-y)+f(x+y)=f(x)f(y)求f(x)?",
+      "url": "https://www.zhihu.com/answer/2593893895",
+      "summary": "通过两次数学归纳证明 g(nt)=cos nθ 与半角细分后的函数值形式。"
+    },
+    {
+      "title": "为什么感觉国外的教材都比国内的厚得多？",
+      "url": "https://www.zhihu.com/answer/2618290472",
+      "summary": "具体展示用数学归纳法证明自然数加乘交换律。"
+    },
+    {
+      "title": "是否存在两个周期函数f(x)和g(x)，使得它们的和f(x)+g(x)≡x？",
+      "url": "https://www.zhihu.com/answer/2619228270",
+      "summary": "用数学归纳法证明差分算子会降低多项式次数。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/2695254231",
+      "summary": "正文先陈述超限归纳法原理，再用它递归定义任意序型下的求和并完成归纳证明。"
+    },
+    {
+      "title": "数学中有哪些经典必记的不等式？",
+      "url": "https://www.zhihu.com/answer/2718420960",
+      "summary": "正文给出琴生不等式证明，明确采用先从二的幂次情形到一般整数、再由较大整数回推较小整数的特殊数学归纳法。"
+    },
+    {
+      "title": "小学数学为什么不从集合论学起？",
+      "url": "https://www.zhihu.com/answer/2721773538",
+      "summary": "正文陈述 Peano 公理中的数学归纳法，并用它证明自然数的传递性及后继单射等性质。"
+    },
+    {
+      "title": "你见过最有趣的数学笑话是什么？",
+      "url": "https://www.zhihu.com/answer/2744902217",
+      "summary": "正文展示马色问题的归纳步骤，并借此揭示错误使用数学归纳法会导出荒谬结论。"
+    },
+    {
+      "title": "在 n 到 2n 中总是存在至少一个质数吗？",
+      "url": "https://www.zhihu.com/answer/2758131164",
+      "summary": "正文第二步明确以数学归纳法证明素数乘积上界，并给出归纳假设与递推步骤。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2772738612",
+      "summary": "正文先用数学归纳法证明整数倍关系，再据此推导有理数倍的函数值。"
+    },
+    {
+      "title": "100是最大的数吗？",
+      "url": "https://www.zhihu.com/answer/2778412859",
+      "summary": "正文明确使用数学归纳法，从 n=1 的基例讨论到由 m 个数增加一个数的归纳步骤。"
+    },
+    {
+      "title": "如何理解概率测度？",
+      "url": "https://www.zhihu.com/answer/2791937366",
+      "summary": "正文以n=2为基础，假设n时成立并推出n+1时成立，完整演示了容斥原理的归纳证明。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2796044182",
+      "summary": "正文明确以归纳法证明第n号母猪和公猪的编号分别由f(n)与g(n)给出。"
+    },
+    {
+      "title": "如何求数列aₙ₊₁=aₙ²-2aₙ?",
+      "url": "https://www.zhihu.com/answer/2802556776",
+      "summary": "正文两次说明所得通项公式可由数学归纳法证明，展示了该证明方法在递推求解中的作用。"
+    },
+    {
+      "title": "数学归纳法是不是「流氓」方法？",
+      "url": "https://www.zhihu.com/answer/2834499601",
+      "summary": "正文用具体构造题说明如何从 k 个自然数出发递推证明 k+1 个自然数的情形。"
+    },
+    {
+      "title": "在球面上任取3点，这3点在同一半球的概率是多少？",
+      "url": "https://www.zhihu.com/answer/2860615675",
+      "summary": "正文给出归纳所用的递推式、初始情形和适用范围，并据此证明温德尔定理。"
+    },
+    {
+      "title": "能否构造一个无法知道收敛与否的数列？",
+      "url": "https://www.zhihu.com/answer/2891145671",
+      "summary": "正文先验证起始项，再假设 q=k-1 时成立并推出 q=k 时成立，完整展示了数学归纳法证明。"
+    },
+    {
+      "title": "「不允许除以0」在数学中是逻辑自洽的，还是为避免出问题的而做出的强制规定？",
+      "url": "https://www.zhihu.com/answer/2903908043",
+      "summary": "正文反复以数学归纳法证明自然数加法、乘法的结合律、交换律和分配律。"
+    },
+    {
+      "title": "怎么判断一个孩子有没有数学天赋？",
+      "url": "https://www.zhihu.com/answer/2923420968",
+      "summary": "正文以多米诺骨牌解释归纳推进，并用这一结构证明平方和公式对所有正整数成立。"
+    },
+    {
+      "title": "如何证明 √2 + √3 + √5 是无理数？",
+      "url": "https://www.zhihu.com/answer/2953224474",
+      "summary": "正文通过逐层构造数域并用数学归纳法证明封闭性和表达唯一性，从而完成一般性证明。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/3010196562",
+      "summary": "正文以 n=2 为起点，假设 n=s 时成立并推出 n=s+1，完整给出容斥公式的数学归纳法证明。"
+    },
+    {
+      "title": "9是个位数里最大的数字，99是十位数里最大的数字，那么以此类推，世界上最大的数字就是奇数，有没有问题？",
+      "url": "https://www.zhihu.com/answer/3091913561",
+      "summary": "正文对自然数具有有限十进制位数的命题作归纳，包含零基例、归纳假设和递推步骤。"
+    },
+    {
+      "title": "我这个数有没有超过葛立恒数？",
+      "url": "https://www.zhihu.com/answer/3123675255",
+      "summary": "正文明确用简单数字归纳法把较小初值的推演推广到任意初值，并据此判断整个过程最终会消到 1。"
+    },
+    {
+      "title": "戴克斯特拉算法（Dijkstra）的本质是贪心，还是动态规划？",
+      "url": "https://www.zhihu.com/answer/3277987537",
+      "summary": "正文以子方阵边长为归纳变量，完成关联矩阵全幺模性的数学归纳证明。"
+    },
+    {
+      "title": "抽象代数有哪些有趣的应用？",
+      "url": "https://www.zhihu.com/answer/3287615588",
+      "summary": "正文在证明域扩张塔可推出构造性时，明确以 n 为归纳变量完成归纳证明。"
+    },
+    {
+      "title": "为什么说归纳法是危险的？",
+      "url": "https://www.zhihu.com/answer/3297923917",
+      "summary": "正文对比列举式猜想与真正的数学归纳法，强调必须证明从 F(N) 到 F(N+1) 的递推步骤。"
+    },
+    {
+      "title": "皮亚诺公理中“0不是任何自然数的后继”怎么理解，这一条的必要性在哪里？",
+      "url": "https://www.zhihu.com/answer/3533143059",
+      "summary": "正文把皮亚诺第五公理明确解释为归纳公设，并说明它保证数学归纳法的正确性。"
+    },
+    {
+      "title": "皮亚诺公理中“0不是任何自然数的后继”怎么理解，这一条的必要性在哪里？",
+      "url": "https://www.zhihu.com/answer/3533488347",
+      "summary": "正文明确使用数学归纳法证明任意有限前缀都有最大元，再据此推出自然数集合无限。"
+    },
+    {
+      "title": "如何评价陶哲轩的实分析II?",
+      "url": "https://www.zhihu.com/answer/3557142155",
+      "summary": "正文给出数学归纳法原理的完整条件和结论，说明基始、后继递推如何推出对所有自然数成立。"
+    },
+    {
+      "title": "把[-0.5,0.5]内所有实数相加，得出的结果是0 吗？",
+      "url": "https://www.zhihu.com/answer/3580391862",
+      "summary": "正文引入超限归纳法并用它证明可和族的支撑可数，属于数学归纳法的超限推广。"
+    },
+    {
+      "title": "已知f(x+y)=f(x)g(y)+g(x)f(y)……能推出f(x),g(x)是三角函数吗？",
+      "url": "https://www.zhihu.com/answer/3589259422",
+      "summary": "正文明确假设 h^k(x)=h(kx)，再证明 k+1 情形，从而用数学归纳法得到所有自然数的结论。"
+    },
+    {
+      "title": "做过最气的题是什么题？",
+      "url": "https://www.zhihu.com/answer/3597168832",
+      "summary": "正文以数学归纳法证明正定矩阵行列式不超过对角元乘积，并进一步说明非对角矩阵情形可取严格不等号。"
+    },
+    {
+      "title": "你做过最恶心的数学题是什么？",
+      "url": "https://www.zhihu.com/answer/4744252369",
+      "summary": "正文利用数学归纳法把正定矩阵的行列式不等式从分块情形推广到一般阶数。"
+    },
+    {
+      "title": "欧拉公式是定义的还是推导出来的？",
+      "url": "https://www.zhihu.com/answer/46502637363",
+      "summary": "正文以数学归纳法递推复指数极限的模长和辐角，进而完成欧拉公式的推导。"
+    },
+    {
+      "title": "如何证明|cosx|+|cos2x|+……+cos|(n+1)x|≥n/2？",
+      "url": "https://www.zhihu.com/answer/69762206272",
+      "summary": "正文以 n=1 为起点，假设较小 n 的结论成立，再分两种情形推出 n 的情形。"
+    },
+    {
+      "title": "如何看待王虹和 Joshua Zahl 在 arXiv 发布对三维挂谷（Kakeya）猜想的证明？",
+      "url": "https://www.zhihu.com/answer/112731959234",
+      "summary": "正文具体解释连续归纳与尺度归纳如何从K(d)推进到K(d+α)，直至完成三维挂谷猜想证明。"
+    },
+    {
+      "title": "在数学的学习过程中，你见过最妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/126311810190",
+      "summary": "正文先验证初值，再由f(k)为偶数推出f(k+1)为偶数，完整展示数学归纳法步骤。"
+    },
+    {
+      "title": "在数学学习中，你遇到过哪些有趣的同构？",
+      "url": "https://www.zhihu.com/answer/1892202134084224767",
+      "summary": "正文用递归分拆和归纳构造 Cantor scheme，并由有限层构造推出任意有限层。"
+    },
+    {
+      "title": "有哪些并不是很离谱的数学伪证，但是得到的结论却是一眼假的？",
+      "url": "https://www.zhihu.com/answer/1892286039822938182",
+      "summary": "正文明确从 n=1 的基例出发，假设 n 时成立并推到 n+1，用经典伪证展示归纳步骤中的缺口。"
+    },
+    {
+      "title": "为什么乘法满足交换律呢？",
+      "url": "https://www.zhihu.com/answer/1895221207634249247",
+      "summary": "正文用数学归纳法证明两条乘法引理，再以关于 n 的归纳步骤完成乘法交换律证明。"
+    },
+    {
+      "title": "Jordan标准形的本质是什么？",
+      "url": "https://www.zhihu.com/answer/1911725426012819849",
+      "summary": "正文以维数归纳证明向量空间可分解为循环不变子空间的直和。"
+    },
+    {
+      "title": "罗杰·彭罗斯说「无论意识是什么，都绝对不是一种计算」，他的意思是不是任何 AI 都不可能产生意识？",
+      "url": "https://www.zhihu.com/answer/1918354935524861836",
+      "summary": "正文以自然数命题为例说明数学归纳法的证明结构，包括递推步骤和对起点的验证。"
+    },
+    {
+      "title": "如何优雅的求∫ Inx dx 的原函数？",
+      "url": "https://www.zhihu.com/answer/1925138429101999650",
+      "summary": "正文先验证 n=1，再由 k 成立推出 k+1 成立，完整使用数学归纳法证明积分公式对任意正整数成立。"
+    },
+    {
+      "title": "是先有人先设计出了第一块CPU还是先有人写出了设计CPU的理论？",
+      "url": "https://www.zhihu.com/answer/1930732463359002597",
+      "summary": "正文以质因数分解为例完整说明数学归纳法的基例、归纳假设和 n+1 的递推证明。"
+    },
+    {
+      "title": "为什么2³ⁿ+3³能被7整除？",
+      "url": "https://www.zhihu.com/answer/1937380614090254155",
+      "summary": "正文以 n=0 为归纳基例，假设 n=k 成立并推出 n=k+1 的整除性，完整展示了数学归纳步骤。"
+    },
+    {
+      "title": "数学“男厕尴尬问题”如何求解？",
+      "url": "https://www.zhihu.com/answer/1947365602449692579",
+      "summary": "正文按二进制层级对平台段和线性段作归纳，证明 f(n) 的通项公式。"
+    },
+    {
+      "title": "有什么降维打击高中题目的例子？",
+      "url": "https://www.zhihu.com/answer/1948391341236162722",
+      "summary": "正文从低阶导数符号逐阶推出一般规律，并明确用数学归纳法证明各阶导数的符号结论。"
+    },
+    {
+      "title": "哪些看似与图论无关的问题可用图论模型解决？",
+      "url": "https://www.zhihu.com/answer/1961854615675994752",
+      "summary": "正文在 Swan 定理的证明中以顶点数作数学归纳，并完整讨论归纳的三种情形。"
+    },
+    {
+      "title": "大家是如何理解组合数学的？",
+      "url": "https://www.zhihu.com/answer/1963538558267692653",
+      "summary": "正文以剥离问题结构、逐层化简为例，说明如何判断并实际使用数学归纳法。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/2014107628515640868",
+      "summary": "正文写出基础情形和n-1到n的归纳步骤，完整证明正整数立方和与和的平方恒等。"
+    },
+    {
+      "title": "怎么证明arctan(1/2)为π的无理数倍？",
+      "url": "https://www.zhihu.com/answer/2024426180820879301",
+      "summary": "正文验证初始项后，假设第 k 项的既约分数形式并推出第 k+1 项仍满足条件。"
+    },
+    {
+      "title": "有一个整数，它比5201313要大，但比5201315要小，这个数字是多少？",
+      "url": "https://www.zhihu.com/answer/2035082195619014291",
+      "summary": "正文通过删去归纳法后仍满足其余公理的非标准模型，说明归纳法对排除额外元素起关键作用。"
+    },
+    {
+      "title": "年轻数学家王虹、邓煜的成长历程可以给现在的家长和学生什么样的启发？",
+      "url": "https://www.zhihu.com/answer/2062494429278164816",
+      "summary": "正文通过从小于等于n维到n+1维的拟阵证明思路，具体展示了归纳证明中的递推步骤。"
+    },
+    {
+      "title": "怎样将一群人分成两组，使他们各自的总体实力「旗鼓相当」？",
+      "url": "https://zhuanlan.zhihu.com/p/20559045",
+      "summary": "正文以 n=2 为归纳基例，并通过从 k 到 k+1 的展开证明两组等幂和恒等式。"
+    },
+    {
+      "title": "10170 Sprague-Grundy定理是怎么想出来的",
+      "url": "https://zhuanlan.zhihu.com/p/20611132",
+      "summary": "正文在有限状态图的逆拓扑序上用数学归纳法证明 SG 数组合遵循异或运算。"
+    },
+    {
+      "title": "『一道很难的智力题』解法",
+      "url": "https://zhuanlan.zhihu.com/p/21252036",
+      "summary": "正文从 n=2 起步并假设 n=k-1 时成立，用数学归纳法证明方程组有唯一解。"
+    },
+    {
+      "title": "由根号2的根号2的根号2...次方次方引发的讨论",
+      "url": "https://zhuanlan.zhihu.com/p/25150820",
+      "summary": "正文显式使用数学归纳法证明迭代数列的上界，并讨论其与极限结论的关系。"
+    },
+    {
+      "title": "Lambda calculus引论(一): 规约求值",
+      "url": "https://zhuanlan.zhihu.com/p/25559133",
+      "summary": "正文在自由变量和替换性质的证明中明确使用结构归纳与步骤归纳，并据此推进 Lambda 演算结论。"
+    },
+    {
+      "title": "高考数学压轴题考点：不等式6个证明技巧（分数给你送上门了）",
+      "url": "https://zhuanlan.zhihu.com/p/25794893",
+      "summary": "正文完整说明不等式证明中的数学归纳法步骤，即验证初始情形并由 n=k 推出 n=k+1。"
+    },
+    {
+      "title": "Banach空间和不动点定理（完）：有趣的Brouwer不动点",
+      "url": "https://zhuanlan.zhihu.com/p/26764450",
+      "summary": "正文用数学归纳法证明Sperner引理，明确给出一维起点、二维算两次步骤并推广到n维，故对应数学归纳法。"
+    },
+    {
+      "title": "吴文俊先生为什么说“数学是笨人学的”？",
+      "url": "https://zhuanlan.zhihu.com/p/26852369",
+      "summary": "正文解释数学归纳法如何从初始情形出发，以链式递推证明无穷多个命题。"
+    },
+    {
+      "title": "1+1/4+1/9+1/16+……+1/n^2=π^2/6？？——日本女子大学2003年自主招生考试题",
+      "url": "https://zhuanlan.zhihu.com/p/28328443",
+      "summary": "正文先验证 S1 的初值，再由递推关系证明 S_N 的恒等式对所有自然数成立。"
+    },
+    {
+      "title": "证明圆周率π是无理数——大阪大学2003年高考第四题(理科)",
+      "url": "https://zhuanlan.zhihu.com/p/28345227",
+      "summary": "正文先以数学归纳法证明指数函数与有限和的不等式，再将结论用于后续积分估计。"
+    },
+    {
+      "title": "为什么1+1=2？",
+      "url": "https://zhuanlan.zhihu.com/p/28422923",
+      "summary": "正文陈述皮亚诺公理中的归纳公理，并说明它是常用的数学证明手段。"
+    },
+    {
+      "title": "伽罗瓦留下的遗物：日本史上最难的高考题！！——东京大学1998年高考第三题（理科）",
+      "url": "https://zhuanlan.zhihu.com/p/28544089",
+      "summary": "正文先构造基础情形，再利用从m到m+3的步骤归纳证明所有允许规模可行。"
+    },
+    {
+      "title": "1^n+2^n+……+x^n=？？——东京大学2006年高考第三题（理科）",
+      "url": "https://zhuanlan.zhihu.com/p/29320291",
+      "summary": "正文先以幂和恒等式建立递推基础，再用数学归纳法证明幂和存在指定次数的多项式公式。"
+    },
+    {
+      "title": "最近在数学群里传来传去的一道数列题",
+      "url": "https://zhuanlan.zhihu.com/p/29973505",
+      "summary": "正文用数学归纳法证明变量范围，从而保证反余弦定义可行。"
+    },
+    {
+      "title": "2^12=1331，请问这是几进制？——京都大学2016年高考第三题（文科）",
+      "url": "https://zhuanlan.zhihu.com/p/30189425",
+      "summary": "正文以n=8为起点，通过从n推证n+1并完成唯一性证明，实质使用了数学归纳法。"
+    },
+    {
+      "title": "抽象代数|笔记整理（5）——群阶数，西罗定理",
+      "url": "https://zhuanlan.zhihu.com/p/30845557",
+      "summary": "正文以西罗第一定理的证明为例，明确使用第二数学归纳法并讨论基例与归纳步骤。"
+    },
+    {
+      "title": "抽象代数|笔记整理（A）——二次扩域，有限域，分裂域",
+      "url": "https://zhuanlan.zhihu.com/p/32418036",
+      "summary": "正文在证明分裂域之间的同构可扩张时，对多项式次数使用第二数学归纳法。"
+    },
+    {
+      "title": "一道高中数学数列题的解答",
+      "url": "https://zhuanlan.zhihu.com/p/31619318",
+      "summary": "正文多次使用数学归纳法证明递推代换后的通项形式。"
+    },
+    {
+      "title": "求极限的6大方法，良心文章",
+      "url": "https://zhuanlan.zhihu.com/p/32871279",
+      "summary": "正文用数学归纳法证明嵌套根式数列的每一项都小于2，从而得到有界性。"
+    },
+    {
+      "title": "拓扑学|笔记整理（2）——数域系统，笛卡尔积，有限集",
+      "url": "https://zhuanlan.zhihu.com/p/33249330",
+      "summary": "正文以归纳集和归纳原理阐述数学归纳法，并用归纳证明有限集的最小元性质。"
+    },
+    {
+      "title": "【不等式】均值不等式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/33706065",
+      "summary": "正文以 n=2 为基础并通过 n=k 推 n=k+1 证明算术—几何平均不等式。"
+    },
+    {
+      "title": "数学归纳不是经验归纳",
+      "url": "https://zhuanlan.zhihu.com/p/33798459",
+      "summary": "正文用基数步和归纳步完整解释数学归纳法，并以等差数列求和进行证明。"
+    },
+    {
+      "title": "【不等式】丢掉次数：伯努利不等式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/33813382",
+      "summary": "正文先对自然数指数给出基数步与归纳步，以此证明伯努利不等式。"
+    },
+    {
+      "title": "Galois理论初步(3)——分裂域",
+      "url": "https://zhuanlan.zhihu.com/p/34837963",
+      "summary": "正文用多项式次数的数学归纳法证明分裂域存在及扩张次数的上界。"
+    },
+    {
+      "title": "非常规进制 —— 以 -2 为底的按位计数系统",
+      "url": "https://zhuanlan.zhihu.com/p/35164870",
+      "summary": "正文以 n=1、n=2 为起点，对位串长度归纳证明 -2 进制覆盖连续整数区间。"
+    },
+    {
+      "title": "从调和级数到 Riemann Zeta 函数",
+      "url": "https://zhuanlan.zhihu.com/p/35938733",
+      "summary": "正文完整写出用数学归纳法证明部分和上界，从而得到对应级数收敛的过程。"
+    },
+    {
+      "title": "【高中数学基础课】二项式定理",
+      "url": "https://zhuanlan.zhihu.com/p/37314812",
+      "summary": "正文完整展示二项式定理的数学归纳法证明，包括归纳假设和递推步骤。"
+    },
+    {
+      "title": "Jensen不等式初步理解及证明",
+      "url": "https://zhuanlan.zhihu.com/p/39315786",
+      "summary": "正文从两点情形出发，假设 M 个点成立并证明 M+1 个点的 Jensen 不等式，完整使用了数学归纳法。"
+    },
+    {
+      "title": "初等数论学习笔记（二）",
+      "url": "https://zhuanlan.zhihu.com/p/41460722",
+      "summary": "正文用归纳假设证明阶乘的 p-重数公式，给出归纳步的完整推导。"
+    },
+    {
+      "title": "奇妙的数学：蓝眼睛岛和强弱共识 | 袁岚峰",
+      "url": "https://zhuanlan.zhihu.com/p/41926159",
+      "summary": "正文从一名蓝眼人的基例递推到 n 名蓝眼人的一般情形，并明确用数学归纳法组织证明。"
+    },
+    {
+      "title": "什么叫强共识？比如：数学特别有趣 | 科技袁人",
+      "url": "https://zhuanlan.zhihu.com/p/42905092",
+      "summary": "正文从单个蓝眼人的基例出发，逐日递推到 n 个蓝眼人的结论，并用数学归纳法说明其严格性。"
+    },
+    {
+      "title": "Gronwall 不等式的几种证明",
+      "url": "https://zhuanlan.zhihu.com/p/46247368",
+      "summary": "第四种证明展开积分迭代，并明确通过数学归纳得到积分项的阶乘形式。"
+    },
+    {
+      "title": "手算开平方",
+      "url": "https://zhuanlan.zhihu.com/p/47112662",
+      "summary": "正文先建立分段与余数递推关系，再用数学归纳法证明手算开平方算法每一步保持正确。"
+    },
+    {
+      "title": "[终结数学月经题系列3]红眼岛问题",
+      "url": "https://zhuanlan.zhihu.com/p/48660997",
+      "summary": "正文先处理一名红眼者的情形，再假设 N 人情形成立并递推证明 N+1 人情形。"
+    },
+    {
+      "title": "【洛谷日报#78】浅谈算法——博弈论（从零开始的博弈论）",
+      "url": "https://zhuanlan.zhihu.com/p/50787280",
+      "summary": "正文用数学归纳法证明Wythoff奇异局势、Zeckendorf定理及Fibonacci Nim的必败结论。"
+    },
+    {
+      "title": "线性空间直和分解随笔",
+      "url": "https://zhuanlan.zhihu.com/p/51289866",
+      "summary": "正文在多个互素因子对应的核空间直和证明中，以基例和归纳步骤完整示范了数学归纳法。"
+    },
+    {
+      "title": "导数法——实数域上的「数学归纳」",
+      "url": "https://zhuanlan.zhihu.com/p/52484124",
+      "summary": "正文在末节比较导数法与数学归纳法的递推结构，并把导数法解释为实数域上的归纳。"
+    },
+    {
+      "title": "一种绕开e^x求导得到n阶线性齐次常系数微分方程的特解的方法",
+      "url": "https://zhuanlan.zhihu.com/p/53469040",
+      "summary": "正文用数学归纳法证明微分算子将指数因子从高阶导数中分离出来，为后续特解化简奠基。"
+    },
+    {
+      "title": "不等式的证明方法小结",
+      "url": "https://zhuanlan.zhihu.com/p/53516242",
+      "summary": "正文先验证 n=2，再由 n=k 推出 n=k+1，完整证明一个乘积型不等式。"
+    },
+    {
+      "title": "专题：Chebyshev多项式",
+      "url": "https://zhuanlan.zhihu.com/p/55076525",
+      "summary": "正文在证明整数系数引理时明确采用数学归纳法，并写出归纳步骤。"
+    },
+    {
+      "title": "一道有趣的函数方程",
+      "url": "https://zhuanlan.zhihu.com/p/57977920",
+      "summary": "正文用第一和第二数学归纳法证明解的周期性递推关系及最终分段表达式。"
+    },
+    {
+      "title": "【数学】宇哥线代九讲笔记",
+      "url": "https://zhuanlan.zhihu.com/p/63624783",
+      "summary": "正文专门讨论第一和第二数学归纳法的步骤与适用场景，并用归纳法证明范德蒙德行列式及递推行列式公式。"
+    },
+    {
+      "title": "2018北京大学数学金秋营的一道题及相似题",
+      "url": "https://zhuanlan.zhihu.com/p/64194704",
+      "summary": "正文用数学归纳法证明核心平方和不等式引理，并由引理推出两题的最优常数。"
+    },
+    {
+      "title": "《数学分析教程》史济怀常庚哲课后习题答案-1.1实数",
+      "url": "https://zhuanlan.zhihu.com/p/68502071",
+      "summary": "正文对乘积估计、绝对值不等式和切比雪夫不等式等多题完整使用数学归纳法。"
+    },
+    {
+      "title": "【试题分析】2019年北京大学中学生数学奖——个人能力挑战赛 试题分析",
+      "url": "https://zhuanlan.zhihu.com/p/71575530",
+      "summary": "正文对奇数行长方格染色问题使用数学归纳法，并结合局部计数完成上界论证。"
+    },
+    {
+      "title": "北大《高等代数》第四版读书笔记（第一章）",
+      "url": "https://zhuanlan.zhihu.com/p/80567381",
+      "summary": "正文使用第二数学归纳法证明多项式因式分解的存在性与唯一性。"
+    },
+    {
+      "title": "【试题分析】2019年全国高中数学联赛A卷试题及分析",
+      "url": "https://zhuanlan.zhihu.com/p/81693553",
+      "summary": "正文以 n=3 为起始情形，假设命题对 n=k 成立并推导 n=k+1，完整使用数学归纳法证明同余关系。"
+    },
+    {
+      "title": "多项式互素以及整除的几个简单问题",
+      "url": "https://zhuanlan.zhihu.com/p/85519311",
+      "summary": "正文用数学归纳法把不可约因式整除两因子时的结论推广到任意有限个因子。"
+    },
+    {
+      "title": "费马小定理（Fermat's Little Theorem）",
+      "url": "https://zhuanlan.zhihu.com/p/87611586",
+      "summary": "正文以数学归纳法完整证明费马小定理。"
+    },
+    {
+      "title": "代数数的和差积仍然是代数数吗？",
+      "url": "https://zhuanlan.zhihu.com/p/103691884",
+      "summary": "正文对多项式次数和变量数同时归纳，证明系数属于环的对称多项式可由初等对称多项式表示。"
+    },
+    {
+      "title": "理论力学笔记2：诺特定理、对称性与守恒量",
+      "url": "https://zhuanlan.zhihu.com/p/103841536",
+      "summary": "正文先验证零阶导数情形，再由 k-1 阶推得 k 阶，归纳证明时空变分算符恒等关系。"
+    },
+    {
+      "title": "民科吧见闻录6( Part-B续)——“王为民方程”的正确求解方式",
+      "url": "https://zhuanlan.zhihu.com/p/103816310",
+      "summary": "正文以正整数情形为基础，并完成从 n=k 到 n=k+1 的归纳步骤来证明数列单调性。"
+    },
+    {
+      "title": "升幂定理(LTE)",
+      "url": "https://zhuanlan.zhihu.com/p/106900309",
+      "summary": "正文用从 p 次幂到一般 n 的归纳步骤证明 LTE 公式，完整展示了数学归纳法。"
+    },
+    {
+      "title": "哥德尔不完备定理的实例——古德斯坦定理与集合的序数",
+      "url": "https://zhuanlan.zhihu.com/p/106647826",
+      "summary": "正文以基始、归纳假设和递推步骤证明古德斯坦序列与平行序数序列的关系，完整展示了数学归纳法的证明过程。"
+    },
+    {
+      "title": "一些不等式的杂货",
+      "url": "https://zhuanlan.zhihu.com/p/107741642",
+      "summary": "正文用数学归纳法从 n=2 推出 2 的幂，再处理非 2 的幂情形。"
+    },
+    {
+      "title": "【国际数学竞赛】任意多边形面积计算公式",
+      "url": "https://zhuanlan.zhihu.com/p/110025234",
+      "summary": "正文先验证三角形情形，再由n边形结果推出n+1边形，完成面积公式的归纳证明。"
+    },
+    {
+      "title": "数分笔记——Fejér-Jackson不等式",
+      "url": "https://zhuanlan.zhihu.com/p/110424443",
+      "summary": "正文通过对极小值点作估计并使用数学归纳法证明 Fejér-Jackson 不等式。"
+    },
+    {
+      "title": "一个有意思的数列",
+      "url": "https://zhuanlan.zhihu.com/p/104632453",
+      "summary": "正文用数学归纳法证明数列的上下界估计，并逐步验证归纳基础和归纳步骤。"
+    },
+    {
+      "title": "如果加法变成【乘法】 , 那么什么能变成【加法】 ? ——记一则函数方程",
+      "url": "https://zhuanlan.zhihu.com/p/113990049",
+      "summary": "正文以 n=-1 为奠基，对 n 归纳证明 g(x+ng(x))=(n+1)g(x)，用于最终确定函数。"
+    },
+    {
+      "title": "Bertrand-Chebyshev定理",
+      "url": "https://zhuanlan.zhihu.com/p/113333538",
+      "summary": "第一部分证明以对 m 的归纳假设推出下一个奇数上界，属于数学归纳法证明。"
+    },
+    {
+      "title": "一些「经典」不等式的证明（一）",
+      "url": "https://zhuanlan.zhihu.com/p/113556069",
+      "summary": "正文第一种证法明确以基始、归纳假设和从 k−1 到 k 的推导证明该二次型非负。"
+    },
+    {
+      "title": "那些你可能不知道的积分方法——常见的积分表达式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/120857000",
+      "summary": "正文以初始情形为基础并假设前一情形成立来推出下一情形，完成组合恒等式的数学归纳法证明。"
+    },
+    {
+      "title": "从数学发现到物理难题——分数微积分的推导与应用",
+      "url": "https://zhuanlan.zhihu.com/p/124627581",
+      "summary": "正文以数学归纳法证明n次迭代积分公式对全体正整数成立。"
+    },
+    {
+      "title": "常微分方程的微分算子法",
+      "url": "https://zhuanlan.zhihu.com/p/132651937",
+      "summary": "正文用数学归纳法证明指数移位法则，并说明其可推广到高阶微分算子。"
+    },
+    {
+      "title": "单调有界准则考点的万能解法之一——数学归纳法",
+      "url": "https://zhuanlan.zhihu.com/p/134074488",
+      "summary": "正文用数学归纳法分别证明奇偶子列有界和单调，再结合单调有界准则推出极限存在。"
+    },
+    {
+      "title": "线性无关的子集个数为什么一定会先增加后减少呢？",
+      "url": "https://zhuanlan.zhihu.com/p/138191803",
+      "summary": "正文在证明完全对数凸性定理时明确按多项式次数建立归纳步骤。"
+    },
+    {
+      "title": "对称多项式基本定理",
+      "url": "https://zhuanlan.zhihu.com/p/141923148",
+      "summary": "正文以变量个数为归纳对象，完整给出对称多项式基本定理的数学归纳法证明。"
+    },
+    {
+      "title": "从正切到Zeta——伯努利数的高级应用",
+      "url": "https://zhuanlan.zhihu.com/p/142293931",
+      "summary": "正文以基础情形和递推步骤给出系数封闭式的数学归纳法证明。"
+    },
+    {
+      "title": "带余项的泰勒公式、欧拉-麦克劳林公式的推导",
+      "url": "https://zhuanlan.zhihu.com/p/148221397",
+      "summary": "正文先验证起始情形，再由m=z成立推出m=z+1成立，用数学归纳法证明欧拉-麦克劳林展开关系。"
+    },
+    {
+      "title": "史上最全的连续时间 Fourier 变换的性质及其证明（共22条），看到赚到！",
+      "url": "https://zhuanlan.zhihu.com/p/148484210",
+      "summary": "正文多次以基础情形和归纳假设证明傅里叶变换的时域微分与频域微分性质。"
+    },
+    {
+      "title": "AM-GM不等式的证明",
+      "url": "https://zhuanlan.zhihu.com/p/150203114",
+      "summary": "正文先证n等于2的幂时不等式成立，再通过数学归纳推进到一般情形。"
+    },
+    {
+      "title": "【组合数学】Erdős–Szekeres定理",
+      "url": "https://zhuanlan.zhihu.com/p/150750621",
+      "summary": "正文在 Dilworth 与 Mirsky 定理证明中具体使用归纳法推进命题。"
+    },
+    {
+      "title": "关于二阶线性递推数列的一些新玩意",
+      "url": "https://zhuanlan.zhihu.com/p/154539444",
+      "summary": "正文多次明确使用数学归纳法证明含三项行列式的恒等式及相关递推关系。"
+    },
+    {
+      "title": "真的会数数吗——Turán定理漫谈",
+      "url": "https://zhuanlan.zhihu.com/p/159627748",
+      "summary": "正文在精细图兰定理的证明中明确以归纳奠基和归纳递推证明边数上界及极图结构。"
+    },
+    {
+      "title": "线性代数预习自学笔记-22：若尔当标准型",
+      "url": "https://zhuanlan.zhihu.com/p/161551117",
+      "summary": "正文以根子空间维数为归纳变量证明存在由特征向量链组成的一组基。"
+    },
+    {
+      "title": "浅谈Catalan数（一）",
+      "url": "https://zhuanlan.zhihu.com/p/60964047",
+      "summary": "正文完整给出 Catalan 数通项恒等式的归纳假设、归纳步骤和结论。"
+    },
+    {
+      "title": "【笔记】Suranyi 不等式及其应用与推广",
+      "url": "https://zhuanlan.zhihu.com/p/170483727",
+      "summary": "正文对 Suranyi 不等式采用数学归纳法，明确给出 n 到 n+1 的归纳步骤。"
+    },
+    {
+      "title": "由方程 x^x^x^x^ ... = 4 引发的讨论 —— 无穷迭代幂次大探险",
+      "url": "https://zhuanlan.zhihu.com/p/168578462",
+      "summary": "正文多次用数学归纳法证明迭代数列单调、有界以及不同底数下迭代值的大小关系。"
+    },
+    {
+      "title": "一些数学分析不错的题目",
+      "url": "https://zhuanlan.zhihu.com/p/188768746",
+      "summary": "正文在正方形方格表的引理中实际给出归纳奠基和从 j<i 到 i 的归纳证明步骤。"
+    },
+    {
+      "title": "上帝掷硬币的智力题，从 9 胜 6 开始的深入研究",
+      "url": "https://zhuanlan.zhihu.com/p/187579331",
+      "summary": "正文在多个命题中明确使用从前一阶命题推出当前阶命题的数学归纳法。"
+    },
+    {
+      "title": "动量空间里的共形场论",
+      "url": "https://zhuanlan.zhihu.com/p/219090674",
+      "summary": "正文先验证初始情形，再建立递推关系，以此说明如何用数学归纳法证明 Mesh integral 满足共形不变性。"
+    },
+    {
+      "title": "某多重根号数列题的睿智和简洁解法",
+      "url": "https://zhuanlan.zhihu.com/p/225525873",
+      "summary": "正文用 n=1 的基例和 n=k 到 n=k+1 的步骤证明函数列的上界，构成数学归纳法证明。"
+    },
+    {
+      "title": "[实用技巧帖]—何如秒算分部积分？",
+      "url": "https://zhuanlan.zhihu.com/p/237626870",
+      "summary": "正文用n=1基例及n=k到n=k+1步骤证明一般分部积分公式。"
+    },
+    {
+      "title": "实分析学习笔记(0)",
+      "url": "https://zhuanlan.zhihu.com/p/260838198",
+      "summary": "正文陈述数学归纳原理，并利用归纳集和归纳法证明自然数的基本性质。"
+    },
+    {
+      "title": "自然数立方和公式推导方法汇总",
+      "url": "https://zhuanlan.zhihu.com/p/260139435",
+      "summary": "正文以 n=1 为起点、假设 n=k 并推出 n=k+1，完整展示数学归纳法证明立方和公式。"
+    },
+    {
+      "title": "一份给初学者的群环域讲义(一)：群",
+      "url": "https://zhuanlan.zhihu.com/p/265517305",
+      "summary": "正文以归纳法证明每个置换都可分解为换位的复合，并完成符号函数的性质推导。"
+    },
+    {
+      "title": "皮亚诺公理：怎么证明1+1=2？",
+      "url": "https://zhuanlan.zhihu.com/p/268017811",
+      "summary": "正文把皮亚诺第五公理解释为数学归纳法，并用多米诺骨牌说明基础步骤和递推步骤。"
+    },
+    {
+      "title": "递归式求解——代入法、递归树与主定理",
+      "url": "https://zhuanlan.zhihu.com/p/267890781",
+      "summary": "正文的代入法明确以数学归纳法验证递归式解的上界与下界。"
+    },
+    {
+      "title": "我的数分笔记（三）",
+      "url": "https://zhuanlan.zhihu.com/p/268273939",
+      "summary": "正文用数学归纳法证明伯努利不等式，并用正向与反向归纳法证明均值不等式。"
+    },
+    {
+      "title": "排序不等式，切比雪夫不等式及伯努利不等式",
+      "url": "https://zhuanlan.zhihu.com/p/296227985",
+      "summary": "正文从 n=1 的基始、n=k 的归纳假设推进到 n=k+1，完整展示了用数学归纳法证明伯努利不等式的过程。"
+    },
+    {
+      "title": "程序验证（6）- 分离逻辑",
+      "url": "https://zhuanlan.zhihu.com/p/314605288",
+      "summary": "正文在验证二叉树递归释放函数时，按树深度的基本情况与归纳步骤使用数学归纳法。"
+    },
+    {
+      "title": "行列式计算题方法大全",
+      "url": "https://zhuanlan.zhihu.com/p/336163363",
+      "summary": "正文单列归纳法，说明先验证低阶再假设 n-1 阶成立以证明 n 阶行列式公式。"
+    },
+    {
+      "title": "叠  高  高",
+      "url": "https://zhuanlan.zhihu.com/p/336183195",
+      "summary": "正文先验证低阶情形，再假设 n=t 时公式成立并推出 n=t+1 的情形。"
+    },
+    {
+      "title": "浅谈级数的重排问题",
+      "url": "https://zhuanlan.zhihu.com/p/335812975",
+      "summary": "正文用数学归纳法证明有限和经任意置换后数值不变。"
+    },
+    {
+      "title": "Chebyshev（切比雪夫）定理",
+      "url": "https://zhuanlan.zhihu.com/p/339801667",
+      "summary": "正文对余弦幂的多项式表示明确使用数学归纳法完成引理证明。"
+    },
+    {
+      "title": "sin(nx)=?｜一个超复杂的生成函数练习与三角恒等变换",
+      "url": "https://zhuanlan.zhihu.com/p/344836921",
+      "summary": "正文两次使用数学归纳法，先证明倍角展开的齐次性，再证明负二项式级数的系数公式。"
+    },
+    {
+      "title": "（一）模态逻辑 Modal Logic 初步",
+      "url": "https://zhuanlan.zhihu.com/p/344930351",
+      "summary": "正文说明对模态逻辑公式证明性质时要使用结构归纳法。"
+    },
+    {
+      "title": "算术基本定理的证明",
+      "url": "https://zhuanlan.zhihu.com/p/345488859",
+      "summary": "正文从 n=2 的基例出发，假设命题对至多 n 成立并推出 n+1 情形，完整证明分解存在性。"
+    },
+    {
+      "title": "灵感乍现（二）——n倍角公式的通项公式",
+      "url": "https://zhuanlan.zhihu.com/p/348083797",
+      "summary": "正文明确采用第二数学归纳法，先验证初值再以两个前项推出第k项。"
+    },
+    {
+      "title": "[数学之美]桥函数与相似——迭代中的巧合",
+      "url": "https://zhuanlan.zhihu.com/p/350081293",
+      "summary": "正文用数学归纳法验证一次函数逐次迭代所得的通项形式。"
+    },
+    {
+      "title": "高中数列技巧大总结",
+      "url": "https://zhuanlan.zhihu.com/p/350862381",
+      "summary": "正文在讨论递推数列的有界性时明确使用数学归纳法证明各项保持为正，并据此完成不等式估计。"
+    },
+    {
+      "title": "漫长却有限的游戏——古德斯坦序列",
+      "url": "https://zhuanlan.zhihu.com/p/353087818",
+      "summary": "正文借助逐层可拿完的递归推理说明古德斯坦过程终止，并讨论普通归纳与超限归纳的作用。"
+    },
+    {
+      "title": "聊聊素数间的距离",
+      "url": "https://zhuanlan.zhihu.com/p/355193725",
+      "summary": "正文用数学归纳法证明素数乘积的上界，并以此完成 Bertrand 定理的估计。"
+    },
+    {
+      "title": "高中数学导数大题常用技巧——放缩浅谈（二）",
+      "url": "https://zhuanlan.zhihu.com/p/367538850",
+      "summary": "正文对递推数列命题完整执行奠基、归纳假设和 n=k+1 的证明，是数学归纳法的实质应用。"
+    },
+    {
+      "title": "“自然数幂和”计算的8种方法，从初等数学到高等数学",
+      "url": "https://zhuanlan.zhihu.com/p/375794611",
+      "summary": "正文先用第一数学归纳法证明平方和公式，并用归纳法证明后续幂和恒等式。"
+    },
+    {
+      "title": "Hadamard不等式（含行列式）的若干证明方法",
+      "url": "https://zhuanlan.zhihu.com/p/377664850",
+      "summary": "正文以 n=1 为基础并用 n-1 情形推出 n 情形，证明正定矩阵的行列式不等式。"
+    },
+    {
+      "title": "二项式定理的推导与证明",
+      "url": "https://zhuanlan.zhihu.com/p/392871647",
+      "summary": "正文从 n=m 到 n=m+1 完整执行数学归纳证明，并应用帕斯卡组合恒等式。"
+    },
+    {
+      "title": "柯西不等式的几种证明方法",
+      "url": "https://zhuanlan.zhihu.com/p/397034475",
+      "summary": "正文第二种证明先验证 n=2，再由 n=k 推出 n=k+1，实质使用数学归纳法。"
+    },
+    {
+      "title": "民科吧见闻录11(Part P) ——数学系毕业的郭德胜成了数学民科",
+      "url": "https://zhuanlan.zhihu.com/p/397443992",
+      "summary": "正文重写并审查十进制部分和的归纳论证，指出有限归纳结论不能直接过渡到无限极限。"
+    },
+    {
+      "title": "基于Gamma伽玛函数表示的超椭圆面积、超椭球体积公式以及向n维的推广",
+      "url": "https://zhuanlan.zhihu.com/p/402456862",
+      "summary": "正文以 n=1 为基例、由 k-1 维公式推出 k 维公式，证明一般 n 维体积公式。"
+    },
+    {
+      "title": "数学分析基础",
+      "url": "https://zhuanlan.zhihu.com/p/392256186",
+      "summary": "正文多次明确采用数学归纳法证明柯西不等式和均值不等式等结论。"
+    },
+    {
+      "title": "单调有界定理的解题思路及技巧总结",
+      "url": "https://zhuanlan.zhihu.com/p/405423336",
+      "summary": "正文多次把数学归纳法用于递推数列的有界性、单调性和收敛性证明。"
+    },
+    {
+      "title": "数列证明之数学归纳法",
+      "url": "https://zhuanlan.zhihu.com/p/414717425",
+      "summary": "正文系统给出第一、第二数学归纳法的奠基与递推步骤，并比较两种归纳假设各自可用的条件。"
+    },
+    {
+      "title": "⑨のn元不等式笔记（1）",
+      "url": "https://zhuanlan.zhihu.com/p/422618184",
+      "summary": "正文在无约束变量最值问题中明确采用数学归纳法，由 n-1 情形推出 n 情形并完成分类讨论。"
+    },
+    {
+      "title": "数学归纳法的知识整理",
+      "url": "https://zhuanlan.zhihu.com/p/423229633",
+      "summary": "正文说明数学归纳法的适用范围、基础步骤和归纳步骤，并以正整数求和及不等式为例演示证明。"
+    },
+    {
+      "title": "世界上最美丽的函数——γ函数，一颗数学皇冠上的明珠，可以回答分数阶乘的问题",
+      "url": "https://zhuanlan.zhihu.com/p/427673303",
+      "summary": "正文先验证初值并利用函数方程作归纳假设，证明积分表示对所有自然数都等于阶乘。"
+    },
+    {
+      "title": "数学随笔(III): 三角函数高次幂积分的完整公式",
+      "url": "https://zhuanlan.zhihu.com/p/438436955",
+      "summary": "正文以基础情形和 n 到 n+1 的递推步骤明确采用数学归纳法证明积分公式。"
+    },
+    {
+      "title": "彭赛列闭合定理——射影证明",
+      "url": "https://zhuanlan.zhihu.com/p/439712608",
+      "summary": "正文先证明三角形情形，再对边数 n 作归纳以推出一般多边形的情形。"
+    },
+    {
+      "title": "史上最全的数列求和方法汇总",
+      "url": "https://zhuanlan.zhihu.com/p/444205355",
+      "summary": "正文把数学归纳法列为数列求和与证明猜想的方法，并说明其适用范围。"
+    },
+    {
+      "title": "二项式定理(Binomial Theorem)专题整理",
+      "url": "https://zhuanlan.zhihu.com/p/452325708",
+      "summary": "正文把数学归纳法作为二项式定理及引理的证明方法，并讨论相应的命题证明练习。"
+    },
+    {
+      "title": "⑨のn元不等式笔记（2）——可能是最全面透彻的Hardy不等式与Carleman不等式讲解",
+      "url": "https://zhuanlan.zhihu.com/p/453614485",
+      "summary": "正文对加权 Hardy 不等式使用加强归纳，并对变量个数作归纳递推。"
+    },
+    {
+      "title": "概率统计笔记（十六）补1：样本方差服从卡方分布",
+      "url": "https://zhuanlan.zhihu.com/p/459691060",
+      "summary": "正文以 n=2 为基底，并假设 n=k 成立后证明 n=k+1 时卡方自由度递推成立。"
+    },
+    {
+      "title": "霍尔定理(Hall)与其推广",
+      "url": "https://zhuanlan.zhihu.com/p/460373184",
+      "summary": "正文对男生人数作数学归纳，并分两种 Hall 条件情形完成充分性证明。"
+    },
+    {
+      "title": "(其一)高中数列压轴小题阶系统方法(浙江尤其适用)",
+      "url": "https://zhuanlan.zhihu.com/p/467440834",
+      "summary": "正文在数列界与部分和估计中多次先猜测结论再以数学归纳法完成证明。"
+    },
+    {
+      "title": "点集拓扑（2）：ZF公理系统",
+      "url": "https://zhuanlan.zhihu.com/p/475500582",
+      "summary": "正文给出归纳原理和数学归纳法的证明，并用归纳假设证明自然数的多个性质。"
+    },
+    {
+      "title": "高等代数与不等式(1): (半)正定性的判定",
+      "url": "https://zhuanlan.zhihu.com/p/480136265",
+      "summary": "正文对集合规模作归纳，利用分块半正定矩阵证明相关二次型恒非负。"
+    },
+    {
+      "title": "10. 经典不等式",
+      "url": "https://zhuanlan.zhihu.com/p/484298361",
+      "summary": "正文以 n=2 为起点，完成从 n=k 到 n=k+1 的归纳步骤来证明加权算术几何平均不等式。"
+    },
+    {
+      "title": "第一数学归纳法与第二数学归纳法",
+      "url": "https://zhuanlan.zhihu.com/p/477788675",
+      "summary": "正文分别陈述第一与第二数学归纳法，说明递推步骤、初始条件并用多米诺骨牌作类比。"
+    },
+    {
+      "title": "代数基本定理的代数证明",
+      "url": "https://zhuanlan.zhihu.com/p/494633191",
+      "summary": "正文在对交换自同态数量和维数建立引理时明确使用归纳法，并展开奠基与归纳步骤。"
+    },
+    {
+      "title": "Sylow定理及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/520765483",
+      "summary": "正文证明 Sylow 第一定理时明确对有限群的阶作数学归纳，并据此处理中心情形和非中心情形。"
+    },
+    {
+      "title": "图兰定理——极值图论的开端",
+      "url": "https://zhuanlan.zhihu.com/p/528662514",
+      "summary": "正文给出图兰定理的多个证明，其中前两个证明以顶点数或团规模进行数学归纳。"
+    },
+    {
+      "title": "组合数学 （1）排列与组合",
+      "url": "https://zhuanlan.zhihu.com/p/529861534",
+      "summary": "正文先验证二项式定理，再假设 p=m 时成立并推到 p=m+1，完整演示数学归纳法。"
+    },
+    {
+      "title": "斐波那契数列的部分性质",
+      "url": "https://zhuanlan.zhihu.com/p/536818435",
+      "summary": "正文多处先验证初始情形，再假定较小情形成立并推出下一情形，完整使用数学归纳法。"
+    },
+    {
+      "title": "不等式中max和min函数的常见处理方法",
+      "url": "https://zhuanlan.zhihu.com/p/538480568",
+      "summary": "正文用归纳假设和归纳步骤证明含前缀最大值、后缀最小值的竞赛不等式。"
+    },
+    {
+      "title": "调整法初见",
+      "url": "https://zhuanlan.zhihu.com/p/559429730",
+      "summary": "正文在第二个不等式的证明中明确结合数学归纳法逐步完成论证。"
+    },
+    {
+      "title": "琴生不等式（Jensen's inequality)的证明",
+      "url": "https://zhuanlan.zhihu.com/p/560913131",
+      "summary": "正文先验证基础情形，再假设有 k 项时成立并推出 k+1 项，完成数学归纳法证明。"
+    },
+    {
+      "title": "【线性代数】行列式也内卷？——计算有趣的螺旋行列式的值",
+      "url": "https://zhuanlan.zhihu.com/p/565375513",
+      "summary": "正文把具体螺旋行列式推广到一般参数，利用归纳法和基础情形验证递推公式。"
+    },
+    {
+      "title": "Diffusion Model （扩散模型）解读系列二：(DDIM) denoising diffusion implicit models",
+      "url": "https://zhuanlan.zhihu.com/p/580106763",
+      "summary": "正文明确给出归纳证明的基始、归纳假设和递推步骤，用它们验证缩短序列满足加噪分布条件。"
+    },
+    {
+      "title": "函数逼近思想在考研（2023南开）压轴题中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/595045148",
+      "summary": "正文检查阶梯函数取值端点并逐步减少分段数，用数学归纳法完成有限区间情形的证明。"
+    },
+    {
+      "title": "【极致性能】大概是知乎最快的斐波拉契快速求法（6秒求出fibo[10⁹]）+详细的原理讲解（使用快速递推而非快速幂）",
+      "url": "https://zhuanlan.zhihu.com/p/595987589",
+      "summary": "正文用基础情形和归纳步证明斐波那契平移加法公式。"
+    },
+    {
+      "title": "数学竞赛向:17个非熟知放缩用不等式及放缩方法及应用典例（韩京俊《初等不等式的证明方法》笔记）",
+      "url": "https://zhuanlan.zhihu.com/p/607533657",
+      "summary": "正文以配方完成基础情形，并明确使用数学归纳法把循环和不等式推广到 n。"
+    },
+    {
+      "title": "良序集与选择公理",
+      "url": "https://zhuanlan.zhihu.com/p/633029774",
+      "summary": "正文比较弱归纳与强归纳，并从自然数良序原理推出归纳原理及其逆命题。"
+    },
+    {
+      "title": "切比雪夫多项式(1): n倍角公式",
+      "url": "https://zhuanlan.zhihu.com/p/640886639",
+      "summary": "正文先验证初值，再利用 n 与 n-1 的归纳假设证明 n+1 情形的恒等式。"
+    },
+    {
+      "title": "Cayley-Hamilton定理的拓扑证明",
+      "url": "https://zhuanlan.zhihu.com/p/643815882",
+      "summary": "正文对 n 作归纳，先处理 n=2 的情形，再假设 n-1 情形成立以推出 n 情形。"
+    },
+    {
+      "title": "隐函数定理的三种证明",
+      "url": "https://zhuanlan.zhihu.com/p/648232832",
+      "summary": "正文从一元引理出发，用对维数 n 的归纳完成隐函数定理的第一种证明。"
+    },
+    {
+      "title": "2023 ~ 2025 年南京大学计算机拔尖班二次选拔考试（数学部分）",
+      "url": "https://zhuanlan.zhihu.com/p/654734288",
+      "summary": "正文明确使用第二数学归纳法证明操作最大值满足指数上界。"
+    },
+    {
+      "title": "一些有意思的行列式",
+      "url": "https://zhuanlan.zhihu.com/p/663461869",
+      "summary": "正文以连续多个情形作归纳假设，证明余弦倍角展开的高次项系数规律。"
+    },
+    {
+      "title": "升幂引理（LTE）(初等数论五）",
+      "url": "https://zhuanlan.zhihu.com/p/664900136",
+      "summary": "正文在一般情形中先处理 n=p，再通过数学归纳推广到含任意 p 次幂的 n。"
+    },
+    {
+      "title": "选择公理，良序定理，Zorn引理",
+      "url": "https://zhuanlan.zhihu.com/p/670990411",
+      "summary": "正文从普通数学归纳法引出良序结构上的超限归纳法。"
+    },
+    {
+      "title": "【强基】15个不等式",
+      "url": "https://zhuanlan.zhihu.com/p/675093770",
+      "summary": "正文在均值不等式、琴生不等式和多元伯努利不等式等处使用归纳步骤完成证明。"
+    },
+    {
+      "title": "谱定理（Spectral Theorem）的证明",
+      "url": "https://zhuanlan.zhihu.com/p/676811991",
+      "summary": "正文的谱定理充分性证明以 n=1 为基例，并由 n-1 维结论归纳构造 n 维酉对角化。"
+    },
+    {
+      "title": "类型论（type theory）学习笔记",
+      "url": "https://zhuanlan.zhihu.com/p/679483353",
+      "summary": "正文把自然数的归纳子解释为数学归纳法，区分初始情形与归纳步骤，并给出集合论版本的第一归纳法证明。"
+    },
+    {
+      "title": "【新版】数论：概念和问题（零）",
+      "url": "https://zhuanlan.zhihu.com/p/679558376",
+      "summary": "正文从归纳公理出发介绍第一、第二、反向、跳跃和螺旋归纳法，并用归纳法证明多个数论命题。"
+    },
+    {
+      "title": "一个强大的方法：半凸半凹定理",
+      "url": "https://zhuanlan.zhihu.com/p/688172959",
+      "summary": "正文给出半凸半凹定理的第二种证明，并以归纳假设完成从 n 到 n+1 的推导。"
+    },
+    {
+      "title": "[高等数学]一道超难数列极限问题的简单解法",
+      "url": "https://zhuanlan.zhihu.com/p/688537086",
+      "summary": "正文第一步用数学归纳法证明数列对每个充分大的 n 都落在给定上下界之间。"
+    },
+    {
+      "title": "BCH公式初等证明",
+      "url": "https://zhuanlan.zhihu.com/p/691535136",
+      "summary": "正文先证明嵌套对易子的组合恒等式，再用数学归纳法证明 Baker-Hausdorff 公式。"
+    },
+    {
+      "title": "人生苦短，何不数学",
+      "url": "https://zhuanlan.zhihu.com/p/701670024",
+      "summary": "正文用同色马的反例分析数学归纳法起点与归纳步骤，并讨论反向归纳。"
+    },
+    {
+      "title": "2024 年新高考Ⅰ卷数学压轴题探究",
+      "url": "https://zhuanlan.zhihu.com/p/702511725",
+      "summary": "正文用数学归纳法把临界数对的有效性从较小 m 推广到所有更大的 m。"
+    },
+    {
+      "title": "拓扑学定理的组合形式",
+      "url": "https://zhuanlan.zhihu.com/p/703634562",
+      "summary": "正文对维数作加强归纳，通过好单形计数和奇偶性完成Sperner引理的组合证明。"
+    },
+    {
+      "title": "等幂求和（一）：自然数幂方求和的规律",
+      "url": "https://zhuanlan.zhihu.com/p/709928345",
+      "summary": "正文用数学归纳法证明自然数幂和是关于 n 的指定次数多项式及其首项系数。"
+    },
+    {
+      "title": "数分高代好题推荐5",
+      "url": "https://zhuanlan.zhihu.com/p/10432626721",
+      "summary": "正文先归纳证明二元中点凸性可推广到任意2的幂个点，再用反向归纳得到一般有限平均形式。"
+    },
+    {
+      "title": "2025中科大少年班创新班入围考试（数学）赏析",
+      "url": "https://zhuanlan.zhihu.com/p/29412252400",
+      "summary": "第 18 题先建立基础情形和归纳假设，再用数学归纳法求第 n 次取白球的概率。"
+    },
+    {
+      "title": "与(伪)燃烧数的最终决战！详细阐述背后原理(上)",
+      "url": "https://zhuanlan.zhihu.com/p/1897263349986726061",
+      "summary": "正文明确引入超限归纳法，并用其证明递归算法会返回正确的燃烧数。"
+    },
+    {
+      "title": "1ᵏ+2ᵏ+ ⋯ + nᵏ = ?",
+      "url": "https://zhuanlan.zhihu.com/p/1913181262887252926",
+      "summary": "正文明确使用数学归纳法证明伯努利多项式的表示式及其后续恒等式。"
+    },
+    {
+      "title": "高等代数范围内不可能做出来的高代题？",
+      "url": "https://zhuanlan.zhihu.com/p/1944045932233617504",
+      "summary": "正文以数学归纳法证明矩阵幂恒等式，再用递推得到目标乘积公式。"
+    },
+    {
+      "title": "不等式的奇技淫巧（正在更新）",
+      "url": "https://zhuanlan.zhihu.com/p/1944759084013290522",
+      "summary": "正文以 n=1 为起点，通过从 n 推到 n+1 证明 Bernoulli 不等式，后续也用归纳法证明 AM-GM 不等式。"
+    },
+    {
+      "title": "如何判断这个小游戏一定有解？",
+      "url": "https://zhuanlan.zhihu.com/p/1945259543635431977",
+      "summary": "正文对颜色数目作数学归纳，由一次剪开所得两个较小问题的解构造原问题的无交连线。"
+    },
+    {
+      "title": "艾弗森括号",
+      "url": "https://zhuanlan.zhihu.com/p/1961977750177944207",
+      "summary": "正文在Libri判整除公式中用归纳法证明P_k(x)的表达式，并据此完成求和化简。"
+    },
+    {
+      "title": "法式大题赏析: Gromov多项式增长定理",
+      "url": "https://zhuanlan.zhihu.com/p/1989126528571840081",
+      "summary": "正文以对多项式增长次数和幂零度的归纳组织 Gromov 定理的分层证明。"
+    },
+    {
+      "title": "DeltaNet的核心逆矩阵的元素总是在[-1, 1]内",
+      "url": "https://zhuanlan.zhihu.com/p/2009371877773185157",
+      "summary": "正文以对角块性质为归纳基础，并逐步证明逆矩阵全部元素位于闭区间内。"
+    },
+    {
+      "title": "生成通项杯难题",
+      "url": "https://zhuanlan.zhihu.com/p/2008944143611750261",
+      "summary": "正文先由前几项提出奇偶项关系猜想，再用数学归纳法完成验证。"
+    }
+  ]
+}

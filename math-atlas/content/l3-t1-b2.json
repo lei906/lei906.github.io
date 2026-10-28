@@ -1,0 +1,3126 @@
+{
+  "taxonomyVersion": "2026-09-24",
+  "branchId": "l3-t1-b2",
+  "sources": [
+    {
+      "title": "一元三次方程怎么快速因式分解？",
+      "url": "https://www.zhihu.com/answer/13227011",
+      "summary": "用具体三次多项式展示试根后因式分解；首尾系数因子只给出有理根候选，原文不能当作所有三次方程的通用解法。"
+    },
+    {
+      "title": "1、2、3、8、26…… 下一个数是什么？",
+      "url": "https://www.zhihu.com/answer/42341666",
+      "summary": "正文用多项式插值说明有限数列不能唯一确定下一项。"
+    },
+    {
+      "title": "有没有数列能满足（），（），（），2，4，6，7，8？",
+      "url": "https://www.zhihu.com/answer/47794426",
+      "summary": "正文指出可用拉格朗日插值构造满足任意前项的多项式。"
+    },
+    {
+      "title": "在高中的学习中，有哪一瞬间你觉得自己真正懂了一个对高考卷解题有大用的东西？",
+      "url": "https://www.zhihu.com/answer/83472732",
+      "summary": "正文说明用因式定理把三次多项式除以一次因子。"
+    },
+    {
+      "title": "十字相乘法的原理是什么？",
+      "url": "https://www.zhihu.com/answer/89231292",
+      "summary": "正文通过展开和比较系数解释二次多项式十字相乘因式分解。"
+    },
+    {
+      "title": "SVM中，高斯核为什么会把原始维度映射到无穷多维？",
+      "url": "https://www.zhihu.com/answer/92835616",
+      "summary": "正文先展开二次多项式核，再说明不同阶多项式核与特征维度的关系。"
+    },
+    {
+      "title": "如何通俗易懂地解释卷积？",
+      "url": "https://www.zhihu.com/answer/93093486",
+      "summary": "正文用两个幂级数形式的多项式乘积解释系数卷积。"
+    },
+    {
+      "title": "虚数是负数的平方根，为什么是在三次方程中才出现的呢？",
+      "url": "https://www.zhihu.com/answer/93926475",
+      "summary": "正文比较二次与三次多项式求根并计算复数根式。"
+    },
+    {
+      "title": "有哪些违背直觉的数学问题？",
+      "url": "https://www.zhihu.com/answer/95487189",
+      "summary": "正文核心问题是多项式环同构能否推出系数环同构。"
+    },
+    {
+      "title": "学习代数的过程中，你掌握了哪些非平凡的例子？",
+      "url": "https://www.zhihu.com/answer/99756739",
+      "summary": "正文以非平凡多项式的根数上界作为证明循环群性质的核心定理。"
+    },
+    {
+      "title": "上大学学了高等数学之后看高中的数学题是一种怎样的体验？",
+      "url": "https://www.zhihu.com/answer/110712103",
+      "summary": "正文给出整系数多项式的有理根定理与因式定理，并用四次多项式演示求根和因式分解。"
+    },
+    {
+      "title": "如何通俗地解释泰勒公式？",
+      "url": "https://www.zhihu.com/answer/111173412",
+      "summary": "正文通过幂函数组合和系数变化解释多项式为何能逼近光滑函数。"
+    },
+    {
+      "title": "微博上外国人算乘法用的方法是什么原理？",
+      "url": "https://www.zhihu.com/answer/113229466",
+      "summary": "正文把十进制多位数表示为多项式在x=10处的值并解释乘法。"
+    },
+    {
+      "title": "x^11+x^7+1的因式分解是怎么想出来的？",
+      "url": "https://www.zhihu.com/answer/120938238",
+      "summary": "正文通过寻找三次单位根，推导多项式可分解出二次因子。"
+    },
+    {
+      "title": "线性代数与高等代数的区别是什么？",
+      "url": "https://www.zhihu.com/answer/123753729",
+      "summary": "正文把多项式列为高等代数相对工程线性代数增加的核心内容。"
+    },
+    {
+      "title": "是否存在多项式 f(x)、g(x)、m(y)、n(y)，使得 (xy)²+xy+1=fm+gn？",
+      "url": "https://www.zhihu.com/answer/124284826",
+      "summary": "正文把待证等式转化为多项式空间中的线性无关与维数矛盾。"
+    },
+    {
+      "title": "请问“n次方和”与“n次方差”公式是如何推导证明得来的呢？",
+      "url": "https://www.zhihu.com/answer/127484125",
+      "summary": "正文通过因式、比较系数和恒等变形推导 n 次方差与奇数次方和公式。"
+    },
+    {
+      "title": "数学中有哪些明明是暴力破解还给人美感的证明？",
+      "url": "https://www.zhihu.com/answer/128638165",
+      "summary": "正文对五次多项式进行平移、二次和四次代换以逐项消去系数。"
+    },
+    {
+      "title": "有哪些令人拍案叫绝的算法？",
+      "url": "https://www.zhihu.com/answer/131272696",
+      "summary": "正文用两次黑箱取值恢复正整数系数多项式，实质利用多项式系数与点值表示。"
+    },
+    {
+      "title": "有哪些令人拍案叫绝的算法？",
+      "url": "https://www.zhihu.com/answer/131288035",
+      "summary": "正文从系数表示转为n+1个点值表示，并说明由点值还原多项式。"
+    },
+    {
+      "title": "机器学习有很多关于核函数的说法，核函数的定义和作用是什么？",
+      "url": "https://www.zhihu.com/answer/136142870",
+      "summary": "正文利用多项式定理推导多项式核的显式特征映射。"
+    },
+    {
+      "title": "牛顿插值的几何解释是怎么样的？",
+      "url": "https://www.zhihu.com/answer/141973314",
+      "summary": "正文说明并构造多项式插值，实质讲解多项式的应用。"
+    },
+    {
+      "title": "所有的代数不等式都可以配方证明么？",
+      "url": "https://www.zhihu.com/answer/145606391",
+      "summary": "正文讨论正实系数齐次多项式何时可表示为有理函数或多项式平方和。"
+    },
+    {
+      "title": "牛顿法怎么理解？还有什么其他方法进行高次方程的数值求解？",
+      "url": "https://www.zhihu.com/answer/146948429",
+      "summary": "级联法以多项式及其逐阶导数的根界和驻点逐级求出全部根。"
+    },
+    {
+      "title": "如果 f(8)=56, f(7)=42, f(6)=30, f(5)=20, 那么 f(3)=?",
+      "url": "https://www.zhihu.com/answer/151800175",
+      "summary": "正文把待定函数写成一般多项式并讨论满足给定点值的无穷多参数解。"
+    },
+    {
+      "title": "有哪些高中教材不要求但高考解题时非常好用的知识？",
+      "url": "https://www.zhihu.com/answer/180880210",
+      "summary": "正文利用奇次多项式必有实零点分析曲线交点问题。"
+    },
+    {
+      "title": "数学史上有哪些比较著名的猜想因为有反例的存在而没有成为定理？",
+      "url": "https://www.zhihu.com/answer/182331700",
+      "summary": "正文用分圆多项式分解展示系数规律，并给出 n=105 时系数出现 -2 的计算。"
+    },
+    {
+      "title": "中考数学的压轴题有什么快速运算的高中公式或技巧？",
+      "url": "https://www.zhihu.com/answer/182436582",
+      "summary": "正文讲解立方恒等式、整式乘法和二次函数交点式等多项式技巧。"
+    },
+    {
+      "title": "有哪些大局已定，却又被极限反杀的操作？",
+      "url": "https://www.zhihu.com/answer/184872092",
+      "summary": "正文讲述一般三次多项式求根公式从缺项情形到完整形式的发展。"
+    },
+    {
+      "title": "关于密码学有限域的乘法逆的问题？",
+      "url": "https://www.zhihu.com/answer/188767505",
+      "summary": "正文定义不可约多项式，并逐项检验模2三次多项式的可约性。"
+    },
+    {
+      "title": "一元三次方程怎么快速因式分解？",
+      "url": "https://www.zhihu.com/answer/224154294",
+      "summary": "正文演示一元三次多项式猜根并做多项式除法分解。"
+    },
+    {
+      "title": "怎么理解数学中的级数？",
+      "url": "https://www.zhihu.com/answer/235772469",
+      "summary": "正文将所有多项式视为可做线性运算的空间。"
+    },
+    {
+      "title": "如何直观地理解拉格朗日插值法？",
+      "url": "https://www.zhihu.com/answer/262507694",
+      "summary": "正文构造插值基多项式并证明所得多项式穿过给定点。"
+    },
+    {
+      "title": "如何直观地理解拉格朗日插值法？",
+      "url": "https://www.zhihu.com/answer/262566123",
+      "summary": "正文用两个一次因子的乘积构造插值基多项式，并解释其在指定节点取 1、其他节点取 0。"
+    },
+    {
+      "title": "线性代数中讲多项式的意义何在？",
+      "url": "https://www.zhihu.com/answer/270793887",
+      "summary": "正文解释零化多项式如何产生线性变换的不变子空间分解。"
+    },
+    {
+      "title": "为什么一次函数、二次函数、三次函数的图像都是对称的，而四次函数则不一定？",
+      "url": "https://www.zhihu.com/answer/274206734",
+      "summary": "正文推导三次与更高次多项式具备中心或轴对称的条件。"
+    },
+    {
+      "title": "为什么一次函数、二次函数、三次函数的图像都是对称的，而四次函数则不一定？",
+      "url": "https://www.zhihu.com/answer/274940638",
+      "summary": "正文用奇偶次多项式形式讨论图像对称性。"
+    },
+    {
+      "title": "根号里面还有根号的代数式是否可以化简？",
+      "url": "https://www.zhihu.com/answer/278053059",
+      "summary": "正文把嵌套根式化简归结为含参数多项式方程的整数根判定。"
+    },
+    {
+      "title": "模2，x^7+1=(x^4+x^2+x+1)(x^3+x+1) 是如何分解得到的呢？",
+      "url": "https://www.zhihu.com/answer/289744787",
+      "summary": "正文系统推导有限域上的多项式分解与 Berlekamp 算法。"
+    },
+    {
+      "title": "范德蒙特行列式究竟是干什么用的？",
+      "url": "https://www.zhihu.com/answer/310254061",
+      "summary": "正文系统解释对称多项式与斜对称多项式的基本结构。"
+    },
+    {
+      "title": "牛顿插值的几何解释是怎么样的？",
+      "url": "https://www.zhihu.com/answer/323100067",
+      "summary": "正文以多项式插值为主线，说明插值条件的数量与多项式系数唯一求解的关系。"
+    },
+    {
+      "title": "95% 的人解不出这道题《史上最贱的数学题》能否用数学软件计算出来？",
+      "url": "https://www.zhihu.com/answer/323883323",
+      "summary": "正文编写长多项式程序处理符号表达式。"
+    },
+    {
+      "title": "线性代数与高等代数的区别是什么？",
+      "url": "https://www.zhihu.com/answer/341059316",
+      "summary": "正文通过多项式空间及其求导、积分变换说明多项式为什么也属于线性代数讨论范围。"
+    },
+    {
+      "title": "在由勾股数组成的直角三角形中，除斜边所对直角为 90º 外，其余两角是否都不为整数角？",
+      "url": "https://www.zhihu.com/answer/349286889",
+      "summary": "正文把余弦倍角公式改写为首一整系数多项式，并利用其有理根性质证明余弦值无理。"
+    },
+    {
+      "title": "现在数学发展到能给任意数列找通项公式了吗？",
+      "url": "https://www.zhihu.com/answer/349570925",
+      "summary": "正文用拉格朗日插值说明有限数列可由多项式表示。"
+    },
+    {
+      "title": "有哪些数学系鄙视物理系的经典桥段？",
+      "url": "https://www.zhihu.com/answer/351263236",
+      "summary": "正文最终证明解只能是二次多项式。"
+    },
+    {
+      "title": "为什么特征值之和会等于矩阵的迹？",
+      "url": "https://www.zhihu.com/answer/355418803",
+      "summary": "正文把行列式写成以特征值为根的多项式并比较系数。"
+    },
+    {
+      "title": "Bernstein 多项式是怎么想出来的？",
+      "url": "https://www.zhihu.com/answer/374362395",
+      "summary": "正文把 Bernstein 多项式解释为 Weierstrass 逼近定理的一种构造性证明。"
+    },
+    {
+      "title": "整度数角中，是不是只有 3° 整数倍的角度可以用尺规作图画出来？",
+      "url": "https://www.zhihu.com/answer/376066126",
+      "summary": "正文通过切比雪夫多项式与倍角多项式判断构造性。"
+    },
+    {
+      "title": "整度数角中，是不是只有 3° 整数倍的角度可以用尺规作图画出来？",
+      "url": "https://www.zhihu.com/answer/376368836",
+      "summary": "正文用多项式根验证所构造角的余弦值。"
+    },
+    {
+      "title": "有哪些神奇的宇宙法则？",
+      "url": "https://www.zhihu.com/answer/378868133",
+      "summary": "正文用多项式展开描述高维立方体构成。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/405459586",
+      "summary": "正文给出平方差恒等变形，实质是多项式恒等式。"
+    },
+    {
+      "title": "有哪些一看就会，一做就错的数学题？",
+      "url": "https://www.zhihu.com/answer/412243395",
+      "summary": "正文通过比较多项式系数求幂和多项式参数。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/416473195",
+      "summary": "正文把相邻平方差规律联系到完全平方公式。"
+    },
+    {
+      "title": "你知道哪些反常识的知识？",
+      "url": "https://www.zhihu.com/answer/430173144",
+      "summary": "正文讨论多项式因式分解后因式系数的取值。"
+    },
+    {
+      "title": "为什么特征值之和会等于矩阵的迹？",
+      "url": "https://www.zhihu.com/answer/435657618",
+      "summary": "正文把特征方程视为一元 n 次多项式并用根与系数关系。"
+    },
+    {
+      "title": "什么是「齐次」「非齐次」「线性」「非线性」？",
+      "url": "https://www.zhihu.com/answer/436003494",
+      "summary": "正文定义齐次与非齐次多项式并解释次数。"
+    },
+    {
+      "title": "有哪些数学定理或者数学知识惊呆了你？",
+      "url": "https://www.zhihu.com/answer/490420784",
+      "summary": "正文通过多项式根与系数关系讲解韦达定理。"
+    },
+    {
+      "title": "什么是多项式？",
+      "url": "https://www.zhihu.com/answer/510213934",
+      "summary": "把多项式定义为带加法、乘法的有限数组，并区分多项式与多项式函数。"
+    },
+    {
+      "title": "当整数 n 不是立方数时，为什么 n 的立方根必为无理数？",
+      "url": "https://www.zhihu.com/answer/537567209",
+      "summary": "正文陈述、证明并通过例题解释整系数多项式的有理根定理。"
+    },
+    {
+      "title": "如何评论首届阿里巴巴数学竞赛决赛试题？",
+      "url": "https://www.zhihu.com/answer/539908970",
+      "summary": "正文给出三元方程的多项式因式分解，并说明分裂域中的共轭因子。"
+    },
+    {
+      "title": "怎么理解虚数和复数？",
+      "url": "https://www.zhihu.com/answer/540068578",
+      "summary": "正文从二次、三次多项式及根式公式讨论复数的引入。"
+    },
+    {
+      "title": "有争议的数字找规律题，数字4、7、11、18、29、47、（？），请问括号内应填几？",
+      "url": "https://www.zhihu.com/answer/562563764",
+      "summary": "正文通过六个数构造六次多项式插值公式。"
+    },
+    {
+      "title": "范德蒙德矩阵的逆矩阵怎么计算?",
+      "url": "https://www.zhihu.com/answer/575306025",
+      "summary": "正文借助拉格朗日插值构造逆矩阵。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/581319344",
+      "summary": "通过有限差分揭示多项式取值表中的规律。"
+    },
+    {
+      "title": "多项式除法竖式应当如何理解？",
+      "url": "https://www.zhihu.com/answer/607382852",
+      "summary": "正文解释多项式长除法的步骤和用途。"
+    },
+    {
+      "title": "当年有哪些让你拍案叫绝的高中数学题？",
+      "url": "https://www.zhihu.com/answer/638133289",
+      "summary": "陈述实、复系数多项式的 Markov 与 Bernstein 导数不等式。"
+    },
+    {
+      "title": "请问大家这个等式怎么证明？",
+      "url": "https://www.zhihu.com/answer/674522150",
+      "summary": "借切比雪夫多项式及其根处理求和。"
+    },
+    {
+      "title": "请问大家这个等式怎么证明？",
+      "url": "https://www.zhihu.com/answer/677122989",
+      "summary": "用多项式根和韦达关系完成求和。"
+    },
+    {
+      "title": "高中数学有没有什么比较牛 X 的公式？",
+      "url": "https://www.zhihu.com/answer/678395503",
+      "summary": "由一元二次多项式推导通用求根公式。"
+    },
+    {
+      "title": "数学中有哪些让你感到赏心悦目或是震惊的构造手法？",
+      "url": "https://www.zhihu.com/answer/683582431",
+      "summary": "比较实系数多项式、整值多项式与所构造函数。"
+    },
+    {
+      "title": "三次曲线 x³＋y³＝1 有什么几何性质？",
+      "url": "https://www.zhihu.com/answer/687393778",
+      "summary": "因式分解三次多项式并分析整数解。"
+    },
+    {
+      "title": "因式分解的结果为什么是唯一的？",
+      "url": "https://www.zhihu.com/answer/723392807",
+      "summary": "围绕多项式分解与唯一性展开证明。"
+    },
+    {
+      "title": "高中阶段，如何巧解一元三次方程？",
+      "url": "https://www.zhihu.com/answer/761927874",
+      "summary": "系统推导实系数三次多项式的求根方法。"
+    },
+    {
+      "title": "虚数是负数的平方根，为什么是在三次方程中才出现的呢？",
+      "url": "https://www.zhihu.com/answer/762043553",
+      "summary": "围绕实系数三次多项式进行代数变形。"
+    },
+    {
+      "title": "一元四次方程怎么解？",
+      "url": "https://www.zhihu.com/answer/765865198",
+      "summary": "通过配方和待定系数分解四次多项式。"
+    },
+    {
+      "title": "为何中学阶段不系统讲授一元三次四次方程？总感觉高中数学的很多内容在初中数学上没有根基，完全是空降的？",
+      "url": "https://www.zhihu.com/answer/766172272",
+      "summary": "正文系统按次数、变量个数和系数范围分类多项式。"
+    },
+    {
+      "title": "数学中有哪些巧合让人眼前一亮？",
+      "url": "https://www.zhihu.com/answer/771960961",
+      "summary": "以一般n次多项式推导极值点结构。"
+    },
+    {
+      "title": "如何简要解释为什么五次多项式方程没有根式解？",
+      "url": "https://www.zhihu.com/answer/778207648",
+      "summary": "解释一般多项式与具体多项式可解性的区别。"
+    },
+    {
+      "title": "如何证明 1，2次根号2，3次根号2，...，n次根号2 在 Q 上线性无关？",
+      "url": "https://www.zhihu.com/answer/829698453",
+      "summary": "把假设线性相关转化为有理系数多项式关系。"
+    },
+    {
+      "title": "数学上有比欧拉公式还美的公式吗？",
+      "url": "https://www.zhihu.com/answer/831790545",
+      "summary": "正文给出对称多项式基本定理的表述，并定义相关的初等对称多项式。"
+    },
+    {
+      "title": "如何解该一元四次方程？",
+      "url": "https://www.zhihu.com/answer/850385987",
+      "summary": "通过因式分解和待定系数处理四次多项式。"
+    },
+    {
+      "title": "辗转相除法的最大公因式怎么求？",
+      "url": "https://www.zhihu.com/answer/858956243",
+      "summary": "定义并计算多项式带余除法。"
+    },
+    {
+      "title": "为何矩阵特征值乘积等于矩阵行列式值？",
+      "url": "https://www.zhihu.com/answer/860223585",
+      "summary": "用高阶韦达定理联系多项式的根与系数。"
+    },
+    {
+      "title": "怎么理解有理数系数五次及以上多项式方程无根式解？",
+      "url": "https://www.zhihu.com/answer/884144030",
+      "summary": "正文把多项式的根式可解性转化为其分裂域是否包含于根式扩域，并继续讨论分裂域。"
+    },
+    {
+      "title": "求二阶常系数线性非齐次微分方程的特解的方法有哪些？",
+      "url": "https://www.zhihu.com/answer/887694929",
+      "summary": "根据特征多项式及其根的重数分类。"
+    },
+    {
+      "title": "如何解一元三次方程？",
+      "url": "https://www.zhihu.com/answer/892976341",
+      "summary": "通过配方法和换元推导三次多项式求根公式。"
+    },
+    {
+      "title": "(t³+1)/(t+1) 如何化成 t²-t+1？",
+      "url": "https://www.zhihu.com/answer/920848745",
+      "summary": "正文用多项式长除法解释立方和式子的化简。"
+    },
+    {
+      "title": "十字相乘法是什么？",
+      "url": "https://www.zhihu.com/answer/988492972",
+      "summary": "正文逐步演示二次多项式的十字相乘因式分解。"
+    },
+    {
+      "title": "x^4＋x^2＋1 如何因式分解？",
+      "url": "https://www.zhihu.com/answer/994689724",
+      "summary": "正文用立方差、平方差及约分完成多项式因式分解。"
+    },
+    {
+      "title": "x^4＋x^2＋1 如何因式分解？",
+      "url": "https://www.zhihu.com/answer/1007194819",
+      "summary": "正文完整演示四次多项式的因式分解步骤。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1010653799",
+      "summary": "正文展示一个多项式配方并分解为完全平方的过程。"
+    },
+    {
+      "title": "为什么二次方程当判别式 Δ＝0，要说「有两个相等的实数根」，而不说「有一个实数根」？",
+      "url": "https://www.zhihu.com/answer/1039547150",
+      "summary": "正文从根与系数关系推导多项式判别式。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1079982799",
+      "summary": "正文讨论实多项式的因式分解与根。"
+    },
+    {
+      "title": "高中许多导数计算需要用到因式分解，而大多答案都一笔带过，只给结果，请问应该用怎么样的思路去看待？",
+      "url": "https://www.zhihu.com/answer/1112511459",
+      "summary": "正文以换元和十字相乘完整演示多项式因式分解。"
+    },
+    {
+      "title": "高中许多导数计算需要用到因式分解，而大多答案都一笔带过，只给结果，请问应该用怎么样的思路去看待？",
+      "url": "https://www.zhihu.com/answer/1112998238",
+      "summary": "正文系统讲解整系数多项式的猜根、换元与因式分解。"
+    },
+    {
+      "title": "如何证明任何真分式都可以分解为有限个简单分式之和？",
+      "url": "https://www.zhihu.com/answer/1116743786",
+      "summary": "正文以多项式带余除法和互素分解说明真分式拆分。"
+    },
+    {
+      "title": "如何证明 不存在两个有理数a、b，使得 a＋√b=³√2？",
+      "url": "https://www.zhihu.com/answer/1126628461",
+      "summary": "正文用多项式除法与不可约性排除公共根。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/1130415557",
+      "summary": "正文推导多项式函数有限差分与求和公式。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/1131930728",
+      "summary": "正文用多项式、差分与生成函数系统推导幂和。"
+    },
+    {
+      "title": "有争议的数字找规律题，数字4、7、11、18、29、47、（？），请问括号内应填几？",
+      "url": "https://www.zhihu.com/answer/1153543644",
+      "summary": "正文说明可用插值多项式拟合任意有限数列。"
+    },
+    {
+      "title": "目前优化界中，能对最高多少次的目标函数进行优化？",
+      "url": "https://www.zhihu.com/answer/1198946477",
+      "summary": "正文定义并展开多项式优化问题。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1293229923",
+      "summary": "正文围绕三次多项式方程开展多方法求解。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1295478542",
+      "summary": "正文用程序求解三次多项式方程。"
+    },
+    {
+      "title": "有什么数学定理一般人都觉得是常识，但严谨证明起来却挺费力的？",
+      "url": "https://www.zhihu.com/answer/1385407393",
+      "summary": "正文解释整系数多项式的因式分解唯一性及其证明思路。"
+    },
+    {
+      "title": "-3 0 4 12 29有什么规律，后面一个应该填什么？",
+      "url": "https://www.zhihu.com/answer/1440934972",
+      "summary": "正文直接讲解或推导“多项式”相关内容。"
+    },
+    {
+      "title": "-3 0 4 12 29有什么规律，后面一个应该填什么？",
+      "url": "https://www.zhihu.com/answer/1441652515",
+      "summary": "正文直接讲解或推导“多项式”相关内容。"
+    },
+    {
+      "title": "-3 0 4 12 29有什么规律，后面一个应该填什么？",
+      "url": "https://www.zhihu.com/answer/1442221583",
+      "summary": "正文直接讲解或推导“多项式”相关内容。"
+    },
+    {
+      "title": "-3 0 4 12 29有什么规律，后面一个应该填什么？",
+      "url": "https://www.zhihu.com/answer/1442758390",
+      "summary": "正文直接讲解或推导“多项式”相关内容。"
+    },
+    {
+      "title": "如何证明多项式 f(x)＝1＋x＋x²/2!＋x³/3!＋…＋x^n/n! 只有一个实数根？",
+      "url": "https://www.zhihu.com/answer/1456972443",
+      "summary": "正文研究给定多项式的实根个数。"
+    },
+    {
+      "title": "有没有大神教一下切比雪夫多项式在数学竞赛上的应用？",
+      "url": "https://www.zhihu.com/answer/1559174204",
+      "summary": "正文系统推导第一类和第二类切比雪夫多项式。"
+    },
+    {
+      "title": "2 5 7 12 15 22 35 40 57这条数列有什么规律吗？",
+      "url": "https://www.zhihu.com/answer/1563732940",
+      "summary": "正文用多项式插值构造给定有限项的另一个通项公式。"
+    },
+    {
+      "title": "高中生计算还在列竖式正常吗？",
+      "url": "https://www.zhihu.com/answer/1575768665",
+      "summary": "正文完整演示用多项式除法竖式分解四次多项式。"
+    },
+    {
+      "title": "∫1/(1+x⁶)dx怎么积分？",
+      "url": "https://www.zhihu.com/answer/1583839368",
+      "summary": "正文由六次多项式的复根与韦达定理将其分解为二次因式。"
+    },
+    {
+      "title": "∫1/(1+x⁶)dx怎么积分？",
+      "url": "https://www.zhihu.com/answer/1583993325",
+      "summary": "正文通过待定系数和多项式因式分解拆解有理函数。"
+    },
+    {
+      "title": "这个代数题怎么解？",
+      "url": "https://www.zhihu.com/answer/1651408181",
+      "summary": "正文构造多项式恒等式并用未定元验证。"
+    },
+    {
+      "title": "高斯的博士论文是不是太简单了？",
+      "url": "https://www.zhihu.com/answer/1679135820",
+      "summary": "正文用二项式定理解释熟悉不等于真正理解。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1689668731",
+      "summary": "正文利用立方差、平方差公式完成多项式因式分解并据此求根。"
+    },
+    {
+      "title": "一元二次方程的求根公式是怎么得出的？",
+      "url": "https://www.zhihu.com/answer/1693934250",
+      "summary": "正文讨论多项式的根与系数的关系。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1695964574",
+      "summary": "正文把多项式左侧因式分解，再将右侧 392 作质因数分解并配出连续三因子求得 a=7。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1718669125",
+      "summary": "正文把三次多项式分解后求解方程。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/1740590218",
+      "summary": "正文直接讨论或推导「多项式」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "能举一个用吴方法证明几何定理的实例吗？",
+      "url": "https://www.zhihu.com/answer/1755060071",
+      "summary": "正文直接讨论或推导「多项式」，该引文可作为对应知识叶子的连续原文证据。"
+    },
+    {
+      "title": "你见过哪些有意思的不等式？",
+      "url": "https://www.zhihu.com/answer/1880636264",
+      "summary": "正文以六次多项式不等式说明因式分解和平方和证明。"
+    },
+    {
+      "title": "为什么课本上计算 Galois 群都是先求出根再计算的（不可解的除外）？",
+      "url": "https://www.zhihu.com/answer/1883003440",
+      "summary": "正文讨论多项式模 p 后的因式分解与原 Galois 群关系。"
+    },
+    {
+      "title": "为什么课本上计算 Galois 群都是先求出根再计算的（不可解的除外）？",
+      "url": "https://www.zhihu.com/answer/1884385368",
+      "summary": "正文围绕一元多项式的判别式、根和因式分解展开。"
+    },
+    {
+      "title": "如何评价 2021 年 ICPC 银川赛区？",
+      "url": "https://www.zhihu.com/answer/1889073379",
+      "summary": "正文使用多项式 exp 和分治 FFT 加速组合计数。"
+    },
+    {
+      "title": "数列 {1, 1, -1, -1, 1, 1, -1, -1, ...} 的通项公式是多少呢？",
+      "url": "https://www.zhihu.com/answer/1889113667",
+      "summary": "正文用拉格朗日插值构造任意指定有限项的多项式通项。"
+    },
+    {
+      "title": "学泰勒公式一开始就不明白，为什么 n 次多项式可以提高与 f(x) 的近似程度？",
+      "url": "https://www.zhihu.com/answer/1894461174",
+      "summary": "正文用增加多项式项数的过程解释函数逼近。"
+    },
+    {
+      "title": "如何证明下面这个多项式在有理数域上不可约？",
+      "url": "https://www.zhihu.com/answer/1914493354",
+      "summary": "正文直接讨论并支撑「多项式」相关内容。"
+    },
+    {
+      "title": "√8-√2=√2，这是怎么得出来的？",
+      "url": "https://www.zhihu.com/answer/1959049923",
+      "summary": "正文把根式看作多项式方程的正根。"
+    },
+    {
+      "title": "如何评价 2021 年广东省中考数学难度？",
+      "url": "https://www.zhihu.com/answer/1965028861",
+      "summary": "正文由不等式条件求二次函数解析式。"
+    },
+    {
+      "title": "83，63，90，70，100，是什么规律？",
+      "url": "https://www.zhihu.com/answer/1976473020",
+      "summary": "正文利用拉格朗日插值多项式构造任意有限项数列的通项。"
+    },
+    {
+      "title": "83，63，90，70，100，是什么规律？",
+      "url": "https://www.zhihu.com/answer/1976594711",
+      "summary": "正文用一个多项式通项把数列引向114514。"
+    },
+    {
+      "title": "为什么方程 x³－1＝0 的解不是 x＝1，且 x 是 3 重根？",
+      "url": "https://www.zhihu.com/answer/1980162592",
+      "summary": "正文以多项式因式分解说明三次方程的根。"
+    },
+    {
+      "title": "83，63，90，70，100，是什么规律？",
+      "url": "https://www.zhihu.com/answer/1983091775",
+      "summary": "正文以多项式通项公式解释数列的任意延拓。"
+    },
+    {
+      "title": "83，63，90，70，100，是什么规律？",
+      "url": "https://www.zhihu.com/answer/1984935874",
+      "summary": "正文构造六次多项式使其经过给定五项。"
+    },
+    {
+      "title": "可以留下一个优美的恒等式吗？",
+      "url": "https://www.zhihu.com/answer/1985345241",
+      "summary": "正文列出八平方、四平方和二平方代数恒等式。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1995344641",
+      "summary": "正文通过多项式因式分解求根。"
+    },
+    {
+      "title": "2  2  3  5.5  12  下一个数是多少？",
+      "url": "https://www.zhihu.com/answer/2001402004",
+      "summary": "正文通过构造不同五次多项式说明有限数列延拓不唯一。"
+    },
+    {
+      "title": "小学奥数可以难到什么程度？",
+      "url": "https://www.zhihu.com/answer/2005760128",
+      "summary": "正文用插值多项式解释找规律填数题的多种可能通项。"
+    },
+    {
+      "title": "哪个整系数多项式方程的根是 √2 + √3 + √5，如何得到这个方程？",
+      "url": "https://www.zhihu.com/answer/2035285857",
+      "summary": "正文构造以三个平方根之和为根的整系数多项式。"
+    },
+    {
+      "title": "哪个整系数多项式方程的根是 √2 + √3 + √5，如何得到这个方程？",
+      "url": "https://www.zhihu.com/answer/2035327036",
+      "summary": "正文最终消去根号得到整系数多项式。"
+    },
+    {
+      "title": "1，2，4，8，16，30是什么规律？",
+      "url": "https://www.zhihu.com/answer/2140592742",
+      "summary": "正文用五次多项式拟合给定数列并计算其通项公式。"
+    },
+    {
+      "title": "穿针引线法（根轴法）解一元高次不等式的原理是什么？",
+      "url": "https://www.zhihu.com/answer/2149935077",
+      "summary": "正文把高次不等式写成若干一次多项式的乘积并通过零点分段判断符号。"
+    },
+    {
+      "title": "数学里面有哪些效率极高的思路使你惊讶？",
+      "url": "https://www.zhihu.com/answer/2156533035",
+      "summary": "正文用二次多项式的极值控制解释切比雪夫最佳逼近。"
+    },
+    {
+      "title": "1，2，4，8，16，30是什么规律？",
+      "url": "https://www.zhihu.com/answer/2177731112",
+      "summary": "正文用插值多项式说明给定有限项可有多种延续规律。"
+    },
+    {
+      "title": "能否以高等背景出一道高中数学题？",
+      "url": "https://www.zhihu.com/answer/2218590643",
+      "summary": "正文从二次多项式的最值联系到切比雪夫多项式和多项式导数界。"
+    },
+    {
+      "title": "199²⁰⁰和200¹⁹⁹哪个更大?",
+      "url": "https://www.zhihu.com/answer/2234469069",
+      "summary": "正文用二项式展开和逐项非负性完成代数不等式证明。"
+    },
+    {
+      "title": "能否以高等背景出一道高中数学题？",
+      "url": "https://www.zhihu.com/answer/2243519927",
+      "summary": "正文以初等对称多项式构造并证明一个多项式恒等式。"
+    },
+    {
+      "title": "大家知道的最长（复杂）的公式是什么？",
+      "url": "https://www.zhihu.com/answer/2250440444",
+      "summary": "正文对五次多项式作系数变换并讨论多项式方程。"
+    },
+    {
+      "title": "高中毕业半年了，还是不会解方程。刚刚还去抖音搜了一下解方程，看了几个视频还是学不会？是不是脑子有问题？",
+      "url": "https://www.zhihu.com/answer/2253528439",
+      "summary": "正文给出三次、四次多项式方程的具体降次与配方结构。"
+    },
+    {
+      "title": "3，13，1113，3113，2321，221311，223113，222321，下一个数是什么？",
+      "url": "https://www.zhihu.com/answer/2264536419",
+      "summary": "正文构造经过给定有限项的多项式并以此解释找规律题。"
+    },
+    {
+      "title": "Python中一个字符串的所有字母用它的后继字母代替（比如，a用b代替，b用c代替），怎么搞？",
+      "url": "https://www.zhihu.com/answer/2269648299",
+      "summary": "正文构造 51 次多项式并通过拉格朗日插值解决字母变换问题。"
+    },
+    {
+      "title": "数列 2，4，6，7，8…… 后面的数字是什么？",
+      "url": "https://www.zhihu.com/answer/2291235867",
+      "summary": "正文用插值多项式说明有限项可以对应多种规律。"
+    },
+    {
+      "title": "√8-√2=√2，这是怎么得出来的？",
+      "url": "https://www.zhihu.com/answer/2299111302",
+      "summary": "正文使用多项式不可约性和最小多项式关系展开根式恒等式的证明。"
+    },
+    {
+      "title": "为什么方程 x³－1＝0 的解不是 x＝1，且 x 是 3 重根？",
+      "url": "https://www.zhihu.com/answer/2303694526",
+      "summary": "正文区分多项式根的重数，并给出重根的定义。"
+    },
+    {
+      "title": "数列 {1, 1, 4, 5, 1, …} 的下一位是什么？",
+      "url": "https://www.zhihu.com/answer/2326316992",
+      "summary": "正文构造五次多项式作为给定前五项的一个通项公式。"
+    },
+    {
+      "title": "数列 {1, 1, 4, 5, 1, …} 的下一位是什么？",
+      "url": "https://www.zhihu.com/answer/2329240699",
+      "summary": "正文用五次插值多项式构造下一项。"
+    },
+    {
+      "title": "代数几何在数学以外的领域有哪些应用？",
+      "url": "https://www.zhihu.com/answer/2329382094",
+      "summary": "正文围绕非负多项式的平方和表示展开。"
+    },
+    {
+      "title": "请问为什么fft可以加速卷积运算？",
+      "url": "https://www.zhihu.com/answer/2329522108",
+      "summary": "正文用多项式乘法的系数表示与点值表示推导 FFT。"
+    },
+    {
+      "title": "有哪些很难的数学题，答案是 629，宿舍当门牌用？",
+      "url": "https://www.zhihu.com/answer/2330612725",
+      "summary": "正文构造多项式生成秘密碎片并通过插值恢复。"
+    },
+    {
+      "title": "高斯作出正 17 边形的依据是什么？",
+      "url": "https://www.zhihu.com/answer/2333073721",
+      "summary": "正文从单位根构造分圆多项式，并讨论二至七次分圆多项式及其根式表达。"
+    },
+    {
+      "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
+      "url": "https://www.zhihu.com/answer/2333979382",
+      "summary": "正文以待定多项式作为幂和通项的基本形式。"
+    },
+    {
+      "title": "多项式有什么性质不随数域的扩大和缩小改变呢？",
+      "url": "https://www.zhihu.com/answer/2368743165",
+      "summary": "正文围绕多项式在不同基域上的整除、可约性和相关不变量展开。"
+    },
+    {
+      "title": "高中计数原理怎么学好?",
+      "url": "https://www.zhihu.com/answer/2437309584",
+      "summary": "正文用组合数推导二项式展开和各项系数。"
+    },
+    {
+      "title": "请问各位大佬这种积分估计的出题原理背景是什么？",
+      "url": "https://www.zhihu.com/answer/2441597800",
+      "summary": "正文以 Newton 插值和差商解释积分估计题的背景与构造。"
+    },
+    {
+      "title": "一元四次方程怎么变成四元一次方程组？",
+      "url": "https://www.zhihu.com/answer/2477619799",
+      "summary": "正文以基本对称多项式表示韦达关系，并用平方差构造求解所需的对称多项式。"
+    },
+    {
+      "title": "想知道sin1°的精确表达式（根号表示），建立三角函数表，该怎么做？",
+      "url": "https://www.zhihu.com/answer/2506410272",
+      "summary": "正文从 sin 1° 满足的 48 次生成多项式出发，利用伽罗瓦扩张约化表达式。"
+    },
+    {
+      "title": "为什么方程 8x³ - 4x² - 4x + 1 = 0 的一个解是 cos (π/7)？",
+      "url": "https://www.zhihu.com/answer/2508136700",
+      "summary": "正文指出 P_7 是 cos(π/7) 的不可约最小多项式，并利用它表示对应根。"
+    },
+    {
+      "title": "为什么科学的起源是古希腊，而不是古代中国或者其他文明？",
+      "url": "https://www.zhihu.com/answer/2524414808",
+      "summary": "引用《数术记遗》中的鸡兔同笼型问题展示古代多元一次方程组与多项式计算。"
+    },
+    {
+      "title": "如何求解 xⁿ - 1 = 0，并将方程的根用根式表示？",
+      "url": "https://www.zhihu.com/answer/2527594190",
+      "summary": "通过预解式与对称多项式把高次方程降为低次方程。"
+    },
+    {
+      "title": "人们在没有计算机的帮助下是如何计算根号3？",
+      "url": "https://www.zhihu.com/answer/2539591179",
+      "summary": "用二项式展开解释笔算开平方与开立方的逐位计算。"
+    },
+    {
+      "title": "如何评价CVPR 2022的best paper？",
+      "url": "https://www.zhihu.com/answer/2540238487",
+      "summary": "把多视图几何问题转化为多项式方程组并分析其解空间。"
+    },
+    {
+      "title": "有哪些看起来高大上实际上非常容易证明的数学命题？",
+      "url": "https://www.zhihu.com/answer/2560638240",
+      "summary": "正文通过复数多项式的根与重数分解，讨论根式次数并证明多项式的 ABC 型不等式。"
+    },
+    {
+      "title": "是否存在两个周期函数f(x)和g(x)，使得它们的和f(x)+g(x)≡x？",
+      "url": "https://www.zhihu.com/answer/2619228270",
+      "summary": "给出多项式可表示为有限个周期函数之和的充要次数条件并证明。"
+    },
+    {
+      "title": "数列1到n的任意次方的求和公式是否存在？",
+      "url": "https://www.zhihu.com/answer/2619524466",
+      "summary": "用多项式差分与裂项相消推导自然数幂和公式。"
+    },
+    {
+      "title": "x^11+x^7+1的因式分解是怎么想出来的？",
+      "url": "https://www.zhihu.com/answer/2626973893",
+      "summary": "系统讲解高次多项式的降幂法、因式定理、待定系数法与分组分解。"
+    },
+    {
+      "title": "如何看待 2022/8/16 新的 P=NP 论文 ？",
+      "url": "https://www.zhihu.com/answer/2630264779",
+      "summary": "讨论 Hilbert Nullstellensatz 中多项式系数在实数与复数域上的复杂度差异。"
+    },
+    {
+      "title": "如何激怒一位数学爱好者？",
+      "url": "https://www.zhihu.com/answer/2638036260",
+      "summary": "说明任意有限数列都可通过多项式插值拟合出不同后续项。"
+    },
+    {
+      "title": "继福建舰之后的第四艘航母会叫什么?",
+      "url": "https://www.zhihu.com/answer/2648277640",
+      "summary": "构造四次多项式，使其在 n=1..4 的取值编码航母名称。"
+    },
+    {
+      "title": "如何简单的计算自然数的三次方数列的前 n 项和 S_n？",
+      "url": "https://www.zhihu.com/answer/2694556037",
+      "summary": "正文用待定系数法求出四次多项式，并通过多项式差分与裂项相消计算三次方和。"
+    },
+    {
+      "title": "数列 {1, 1, 4, 5, 1, …} 的下一位是什么？",
+      "url": "https://www.zhihu.com/answer/2702946068",
+      "summary": "正文构造一个十二次多项式，通过代入前 13 个整数生成给定数列并给出下一项。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/2719173024",
+      "summary": "正文通过二次多项式在三个点取值相同，并利用代数基本定理排除非恒等情形，证明该多项式恒等式。"
+    },
+    {
+      "title": "有哪些让你惊为天人的数学证明?",
+      "url": "https://www.zhihu.com/answer/2725165200",
+      "summary": "正文以复系数多项式为核心对象，说明其必有复根，并逐步构造代数学基本定理的证明。"
+    },
+    {
+      "title": "怎么判断一个孩子有没有数学天赋？",
+      "url": "https://www.zhihu.com/answer/2733453732",
+      "summary": "正文展开完全平方公式并用变量代换验证 3×3 的计算，属于多项式恒等式与代数变形。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2764601721",
+      "summary": "正文按次数讨论一次、二次、三次和四次多项式，并解释各次多项式方程所确定的曲面。"
+    },
+    {
+      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
+      "url": "https://www.zhihu.com/answer/2767120996",
+      "summary": "正文给出多项式乘法合并同类项的展开公式，并用两个具体多项式演示计算。"
+    },
+    {
+      "title": "如何确定 Vasile 不等式的取等条件？",
+      "url": "https://www.zhihu.com/answer/2772558727",
+      "summary": "正文把六次多项式分解为完全平方，并借助重根和辗转相除确定因式结构。"
+    },
+    {
+      "title": "中国古代数学书中为了研究有没有发明过什么特殊的符号用来做深层次的计算、证明或定理表示？",
+      "url": "https://www.zhihu.com/answer/2779163379",
+      "summary": "正文以《四元玉鉴》中的高次方程和多未知数为例，说明古代筹算对未知数幂及其乘积的表示。"
+    },
+    {
+      "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
+      "url": "https://www.zhihu.com/answer/2781215950",
+      "summary": "正文直接给出二项式的完全平方展开式，说明两个变量的和平方后得到的三项多项式恒等式。"
+    },
+    {
+      "title": "如何判定不可约多项式？",
+      "url": "https://www.zhihu.com/answer/2787141614",
+      "summary": "正文讨论整系数多项式的模 p 不可约性、低次多项式的验根判定，并用 Newton 折线分析因子的可能形状。"
+    },
+    {
+      "title": "深度学习和随机过程结合有什么有前景的研究方向？",
+      "url": "https://www.zhihu.com/answer/2807542269",
+      "summary": "正文给出概率论与物理学两套 Hermite 多项式定义、前三项及递推关系。"
+    },
+    {
+      "title": "「一度辍学的数学差生」韩裔数学家许埈珥获得 2022 年菲尔兹奖，这带来哪些启示？",
+      "url": "https://www.zhihu.com/answer/2809800846",
+      "summary": "正文给出三角形的着色多项式并展开其系数，进而讨论着色多项式系数的单峰与对数凹性质。"
+    },
+    {
+      "title": "如何证明下面这个引理?",
+      "url": "https://www.zhihu.com/answer/2821934173",
+      "summary": "正文构造多项式方程，并用韦达定理得到各逆函数之和等于变量，从而导出积分变量替换的系数为一。"
+    },
+    {
+      "title": "汽车外观设计中有哪些「数学之美」？",
+      "url": "https://www.zhihu.com/answer/2822465323",
+      "summary": "正文用多项式表示贝塞尔曲线，解释控制点与曲线阶数之间的关系。"
+    },
+    {
+      "title": "数学家尤里·曼宁(Yuri Manin)去世,如何评价他对数学做出的贡献?",
+      "url": "https://www.zhihu.com/answer/2842839646",
+      "summary": "正文给出满足 Davenport 等式的一族多项式，并用次数关系讨论其结构。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/2849443710",
+      "summary": "正文从两数立方和、立方差是两数和的倍数的观察，最终归结为三次多项式的和差因式分解公式。"
+    },
+    {
+      "title": "为何可以用不动点法求数列通项公式，可不可以解释一下？",
+      "url": "https://www.zhihu.com/answer/2871568629",
+      "summary": "正文把因式定理用于多项式形式的 f(x)-x₀，说明不动点法为何能抽出公比。"
+    },
+    {
+      "title": "有没有几本微积分入门的书推荐，类似科普的比如《什么是数学》？",
+      "url": "https://www.zhihu.com/answer/2913762508",
+      "summary": "正文分别讨论正整数、负整数和分数次幂的多项式函数，通过二项式展开与隐函数微分验证幂函数求导公式。"
+    },
+    {
+      "title": "如何证明这个三角函数倒数求和的式子?",
+      "url": "https://www.zhihu.com/answer/2928545438",
+      "summary": "正文把一个 n 次多项式的根识别为 tan^2(kπ/2n)，再用韦达定理求根和。"
+    },
+    {
+      "title": "多项式的牛顿公式证明思路是怎样的？",
+      "url": "https://www.zhihu.com/answer/2992017343",
+      "summary": "正文围绕多项式根的幂和与初等对称多项式推导牛顿恒等式，并把结果用于多项式判别式。"
+    },
+    {
+      "title": "11的4次方是14641，与生物学性状分离比的1:4:6:4:1，两者有关系吗？",
+      "url": "https://www.zhihu.com/answer/3025443416",
+      "summary": "正文把性状分离比解释为二项式（x+1）^4 的展开，并说明各项系数与多项式乘法的关系。"
+    },
+    {
+      "title": "你见过最巧妙的数学证明是什么？",
+      "url": "https://www.zhihu.com/answer/3037373448",
+      "summary": "正文围绕 Dyson 猜想的多元多项式展开，并利用该多项式的形式和常数项完成讨论。"
+    },
+    {
+      "title": "什么样的整系数多项式必含有无穷多个素数？？",
+      "url": "https://www.zhihu.com/answer/3045573342",
+      "summary": "正文以整系数一次、二次及一般多项式为对象，陈述产生无穷多素数或半素数的条件与猜想。"
+    },
+    {
+      "title": "我好像发现了一个数学定理 ，请大家看看这玩意有用吗？",
+      "url": "https://www.zhihu.com/answer/3051082668",
+      "summary": "正文通过把 n 换成 a、把 n+y 换成 b 的变量代换，指出题述结论只是平方差公式。"
+    },
+    {
+      "title": "求y=x(x+1)(x+2)(x+3)(x+4)(x+5)的最小值？",
+      "url": "https://www.zhihu.com/answer/3056474031",
+      "summary": "正文把原六次多项式通过整体换元化为三次多项式，再研究该多项式的零点与最小值。"
+    },
+    {
+      "title": "我好像发现了一个数学定理 ，请大家看看这玩意有用吗？",
+      "url": "https://www.zhihu.com/answer/3073341856",
+      "summary": "正文用平方差公式证明含二次式的恒等式，并说明其可用于二次多项式的代数变形。"
+    },
+    {
+      "title": "被嘲「学术媛」，牛津数学女博士回应称「我选择去战斗」，如何看待此事？抵制网暴我们能做哪些努力？",
+      "url": "https://www.zhihu.com/answer/3109575891",
+      "summary": "正文具体介绍用三次、四次项构造局部模型并最小化非凸三次多元多项式的 CQR 算法。"
+    },
+    {
+      "title": "如何成为一个数学家？",
+      "url": "https://www.zhihu.com/answer/3123945798",
+      "summary": "正文给出色度多项式并讨论其系数单调性与对数凹性，属于对多项式及其系数性质的具体讲解。"
+    },
+    {
+      "title": "多项式f和g满足f(g(T)) = g(f(T))，问f和g有何性质？",
+      "url": "https://www.zhihu.com/answer/3135346143",
+      "summary": "正文陈述两个多项式在复合下可交换的 Ritt 分类，并列出幂函数、同一多项式迭代和切比雪夫多项式三类必要条件。"
+    },
+    {
+      "title": "为什么一次函数、二次函数、三次函数的图像都是对称的，而四次函数则不一定？",
+      "url": "https://www.zhihu.com/answer/3141345001",
+      "summary": "正文以一般多项式函数为对象展开系数和平移分析，并给出三次与更高次情形结论。"
+    },
+    {
+      "title": "1，3，3，5，5，5，7，7，7，7... 的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/3156105989",
+      "summary": "正文把分组首项写成关于组号 t 的二次多项式，并用其计算通项。"
+    },
+    {
+      "title": "1，3，3，5，5，5，7，7，7，7... 的通项公式是什么？",
+      "url": "https://www.zhihu.com/answer/3157252294",
+      "summary": "正文给出一个十一项参与的分式系数多项式，并验算前若干项以构造所给整数序列的通项。"
+    },
+    {
+      "title": "多段一元三次方程的拟合问题是否有解法？",
+      "url": "https://www.zhihu.com/answer/3167801522",
+      "summary": "正文以三次多项式拟合曲线上的点，并推导满足端点约束的三次曲线系数。"
+    },
+    {
+      "title": "数学上有哪些非常奇葩的证明？",
+      "url": "https://www.zhihu.com/answer/3232539420",
+      "summary": "正文给出含变量 a 的三次有理式恒等式，属于多项式代数恒等式的具体例子。"
+    },
+    {
+      "title": "古代中国数学，目前研究生的什么专业会研究它们？",
+      "url": "https://www.zhihu.com/answer/3241967769",
+      "summary": "正文介绍刘益引入多项式概念、运算规则和消元工具及其在后续著作中的传承。"
+    },
+    {
+      "title": "是否有sin(π/7)的精确值？",
+      "url": "https://www.zhihu.com/answer/3265631035",
+      "summary": "正文将原式转化为多项式方程，对相关三次多项式作因式分解并分析零点范围。"
+    },
+    {
+      "title": "《陶哲轩教你学数学》这本书值得看吗？",
+      "url": "https://www.zhihu.com/answer/3275003265",
+      "summary": "正文把海伦公式化成一个关于 b² 的二次多项式，并据此求解三角形边长。"
+    },
+    {
+      "title": "范盛金的三次方程求根公式是真的吗？",
+      "url": "https://www.zhihu.com/answer/3286128308",
+      "summary": "正文利用三元多项式的因式分解把三次方程改写为可求根的形式。"
+    },
+    {
+      "title": "数学史上你认为最丑陋的公式是什么？",
+      "url": "https://www.zhihu.com/answer/3288185143",
+      "summary": "正文通过平移消元和待定系数配方处理四次多项式，并进行因式分解与根的构造。"
+    },
+    {
+      "title": "x⁷=1的根式解都是什么（包括复数解）?",
+      "url": "https://www.zhihu.com/answer/3324507956",
+      "summary": "正文先把 x^7-1 分解为一次因子与六次多项式之积，再通过换元化简该多项式。"
+    },
+    {
+      "title": "大家觉得高等代数中哪个定理最重要呢？",
+      "url": "https://www.zhihu.com/answer/3341297968",
+      "summary": "正文具体讲述将特征多项式作因子分解并利用互素因子分解线性空间，涉及多项式的分解方法。"
+    },
+    {
+      "title": "文件体积达到 1 GB 甚至 1 TB 的图片会呈现何种内容？",
+      "url": "https://www.zhihu.com/answer/3359725055",
+      "summary": "正文写出一般 n 次多项式并将其因式分解为一次因式乘积，实质讨论了多项式及其复数根的分布。"
+    },
+    {
+      "title": "在数学领域中，有哪些发现时原本以为是无理数最后却被证明是有理数的常数？",
+      "url": "https://www.zhihu.com/answer/3400672834",
+      "summary": "正文给出以 Conway 常数为根的一个显式 71 次多项式方程，并用该代数关系说明其代数性。"
+    },
+    {
+      "title": "1,2,4,8,16……数列的下一项是什么？",
+      "url": "https://www.zhihu.com/answer/3403119520",
+      "summary": "正文给出满足前五项数据的四次多项式公式，并讨论拉格朗日插值和不同多项式拟合。"
+    },
+    {
+      "title": "请问解方程 2k⁴+9k³-9k+2=0 时，如何想到换元令 u=k-1/k？",
+      "url": "https://www.zhihu.com/answer/3406653536",
+      "summary": "正文展开 k±1/k 的幂，用它说明系数对称多项式的常见变形与换元依据。"
+    },
+    {
+      "title": "x³-3x+1=0的精确解是什么？",
+      "url": "https://www.zhihu.com/answer/3408435788",
+      "summary": "正文通过 x=y+1/y 代换把一元三次多项式转化为关于 y 的多项式。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/3423155152",
+      "summary": "正文把待证式子整理为三次多项式，并利用次数判断其可能的根数。"
+    },
+    {
+      "title": "你做过答案最逆天的一道题是哪一道？",
+      "url": "https://www.zhihu.com/answer/3423680391",
+      "summary": "正文把一元多项式方程的左端整理成完全立方，再通过立方根代换化简多项式。"
+    },
+    {
+      "title": "3，5，10，40（）找规律后面应该填什么?",
+      "url": "https://www.zhihu.com/answer/3457406467",
+      "summary": "正文构造四次多项式并让其经过给定的四个点，说明任意指定后项也可用多项式拟合。"
+    },
+    {
+      "title": "为什么Δ=0的二次方程要说自己有“两个相等的根”?",
+      "url": "https://www.zhihu.com/answer/3462061288",
+      "summary": "正文通过重根因式的计数解释根与系数关系为何需要把重根按重数分别计算。"
+    },
+    {
+      "title": "12k²+8kt+t²+2t-3=0怎么因式分解？？",
+      "url": "https://www.zhihu.com/answer/3488915449",
+      "summary": "正文把原问题视为关于k的二次多项式，并通过求根完成因式分解。"
+    },
+    {
+      "title": "为何国际数学界没有「糖水不等式」？",
+      "url": "https://www.zhihu.com/answer/3526197013",
+      "summary": "正文以 FOIL 规则逐项说明两个二项式相乘时的多项式展开方法。"
+    },
+    {
+      "title": "初中竞赛：x+y+z=1，求xy+2yz+3zx的最大值？",
+      "url": "https://www.zhihu.com/answer/3536099550",
+      "summary": "正文围绕二次多项式各项次数相同、系数不同展开最值推理，实质涉及多项式的项和系数。"
+    },
+    {
+      "title": "初中竞赛：x+y+z=1，求xy+2yz+3zx的最大值？",
+      "url": "https://www.zhihu.com/answer/3546920131",
+      "summary": "正文把含两个变量的目标式整理成关于 x 的二次多项式，并利用二次多项式的极值位置逐步求最大值。"
+    },
+    {
+      "title": "如何优雅地证明e＞根号7？",
+      "url": "https://www.zhihu.com/answer/3549190600",
+      "summary": "正文以四次多项式为求解对象，给出该多项式方程的根式表达式并利用根的位置完成比较。"
+    },
+    {
+      "title": "数列3,12,51,192,675,2358…怎么求出其通项公式？",
+      "url": "https://www.zhihu.com/answer/3554149356",
+      "summary": "正文用拉格朗日插值构造五次多项式，并以高阶差分、牛顿插值和待定系数得到同一通项。"
+    },
+    {
+      "title": "伽罗瓦理论究竟讲了什么？为什么其中用到了群论的知识？",
+      "url": "https://www.zhihu.com/answer/3572206393",
+      "summary": "正文定义多项式环、次数和运算，并利用最小多项式与分裂域证明简单代数扩张的结构。"
+    },
+    {
+      "title": "初一的数学难不难?",
+      "url": "https://www.zhihu.com/answer/3574902877",
+      "summary": "正文把整式放在多项式环中讨论，并介绍系数域、交换律、理想与不可约多项式。"
+    },
+    {
+      "title": "x⁰+x¹+x²+x³+x⁴=0的解，如何计算？",
+      "url": "https://www.zhihu.com/answer/3598556712",
+      "summary": "正文利用多项式因式分解，把五次多项式的根与四次目标多项式的根联系起来。"
+    },
+    {
+      "title": "二次型的意义是什么？有什么应用？",
+      "url": "https://www.zhihu.com/answer/3623506224",
+      "summary": "正文围绕二次多项式的项、系数与矩阵表示之间的转换展开具体说明。"
+    },
+    {
+      "title": "数学界有什么open problem是通过绝妙思想证明的?",
+      "url": "https://www.zhihu.com/answer/3627113442",
+      "summary": "正文先定义多项式映射的每个分量都是多元多项式，随后用多项式环与多项式方程完成定理证明。"
+    },
+    {
+      "title": "3，5，10，40（）找规律后面应该填什么?",
+      "url": "https://www.zhihu.com/answer/3723267367",
+      "summary": "正文用含五次项到常数项的复杂多项式函数定义数列，并通过代入不同 x 值展示任意延续方式。"
+    },
+    {
+      "title": "我发现一个定理，这个定理叫什么名字？",
+      "url": "https://www.zhihu.com/answer/3834018260",
+      "summary": "正文讨论一般 n 次多项式 f_n(x) 的系数条件及其在负实数上的符号。"
+    },
+    {
+      "title": "tan(π/2022) 是超越数吗？是无理数吗？怎么证明？",
+      "url": "https://www.zhihu.com/answer/15894213276",
+      "summary": "正文构造以三角函数值为根的高次多项式方程，并用其系数和代数性质进行论证。"
+    },
+    {
+      "title": "难道中国的大学教材真的不能编得好？",
+      "url": "https://www.zhihu.com/answer/18427411585",
+      "summary": "正文先用多项式展开证明平方差公式，随后又构造含单项式的多项式来戏仿冗长教材证明。"
+    },
+    {
+      "title": "如何计算百万位级别的大数乘法？",
+      "url": "https://www.zhihu.com/answer/18989697232",
+      "summary": "正文用多项式的系数序列及其在若干点的取值来描述多项式乘法和插值。"
+    },
+    {
+      "title": "如何优雅地证明e^x>1/2·x³-(7-e²)/4·x²+x+1？",
+      "url": "https://www.zhihu.com/answer/22918488382",
+      "summary": "正文定义满足各阶插值条件的多项式 H(x)，并证明其唯一存在及余项形式。"
+    },
+    {
+      "title": "1*2+3*4+5*6+...+(n-1)*n=  怎么算啊?",
+      "url": "https://www.zhihu.com/answer/26505463564",
+      "summary": "正文依据通项最高次数判断求和结果的三次多项式形式，并用待定系数法求系数。"
+    },
+    {
+      "title": "数学中有什么难以置信的结论？",
+      "url": "https://www.zhihu.com/answer/35092444321",
+      "summary": "正文将等幂和写成关于 n 的 m+1 次多项式并比较系数，实质用到多项式表示与系数匹配。"
+    },
+    {
+      "title": "为什么中国学生这么忙但是实际没有学到多少?",
+      "url": "https://www.zhihu.com/answer/42065474265",
+      "summary": "正文把平方差恒等式作为一类特例题的生成公式，并以连续整数乘积形式展示其应用。"
+    },
+    {
+      "title": "114510，114511，114512，114513，（）找规律后面应该填什么?",
+      "url": "https://www.zhihu.com/answer/42313844407",
+      "summary": "正文给出一个显式多项式，并说明它在前四个整数处取给定值、在 x=4 时给出新答案。"
+    },
+    {
+      "title": "怎么让不懂数学的人体会到抽象代数的魅力？",
+      "url": "https://www.zhihu.com/answer/64229285811",
+      "summary": "正文以二次多项式及其在连续整数上取值全为素数为例展开多项式问题。"
+    },
+    {
+      "title": "怎么让不懂数学的人体会到抽象代数的魅力？",
+      "url": "https://www.zhihu.com/answer/65461654171",
+      "summary": "正文利用多项式带余除法划分等价类，并讨论不可约多项式及商多项式的加减乘和除法。"
+    },
+    {
+      "title": "sin²x+cos²x=1，两边开根号是不是 sinx+cosx=1?",
+      "url": "https://www.zhihu.com/answer/67329536355",
+      "summary": "正文利用二项式展开说明Freshman's Dream在何种条件下成立。"
+    },
+    {
+      "title": "x⁷=1的根式解都是什么（包括复数解）?",
+      "url": "https://www.zhihu.com/answer/115343594462",
+      "summary": "正文对x^7-1作因式分解，并通过六次不可约多项式及其预解式求根。"
+    },
+    {
+      "title": "代数基本定理有哪些不同的证明方法？",
+      "url": "https://www.zhihu.com/answer/123021793062",
+      "summary": "正文从最高次项占主导和多项式零点的角度陈述并证明代数基本定理。"
+    },
+    {
+      "title": "如何用只含 p=3√3+1+4√4 的多项式表达 3√3,1,4√4？",
+      "url": "https://www.zhihu.com/answer/124046589131",
+      "summary": "正文计算并论证 α 的六次极小多项式，由此确定域扩张的次数。"
+    },
+    {
+      "title": "中学数学题的「隐藏 BOSS」，你在哪些题里窥见了大学数学的影子？",
+      "url": "https://www.zhihu.com/answer/124494514877",
+      "summary": "正文把两个一次式相乘展开为二次多项式，并由所得条件求出系数 m 与二次函数解析式。"
+    },
+    {
+      "title": "数学中的美体现在哪里?",
+      "url": "https://www.zhihu.com/answer/126249297277",
+      "summary": "正文列出平方差、完全平方和三位数乘法等代数恒等式，并用具体数值演示多项式展开。"
+    },
+    {
+      "title": "数学中，有哪些常数被发现时被认为是超越数，结果被证实是个代数数，只不过它所满足的极小多项式的次数很高？",
+      "url": "https://www.zhihu.com/answer/128515540753",
+      "summary": "正文具体给出多个常数所满足的七次、八次和十八次极小多项式，并用多项式方程描述其精确值。"
+    },
+    {
+      "title": "6x^2+5xy-6y^2+5y-x-1因式分解，谁能解答一下？",
+      "url": "https://www.zhihu.com/answer/1890756734810830690",
+      "summary": "正文对二元二次多项式建立方程并利用配方结构完成因式分解。"
+    },
+    {
+      "title": "如何神秘地证明这个不等式？",
+      "url": "https://www.zhihu.com/answer/1898192168646084153",
+      "summary": "正文围绕一个关于 a、b 的复杂多项式恒等式进行代入、因式分解和配方。"
+    },
+    {
+      "title": "正数开平方取大于零的平方根，那负数开平方取哪个虚数?",
+      "url": "https://www.zhihu.com/answer/1900548681440157740",
+      "summary": "正文通过模去 i^2=-1 的多项式等价类来解释复数的代数构造。"
+    },
+    {
+      "title": "为什么编数学书的人 ，那么喜欢跳步?",
+      "url": "https://www.zhihu.com/answer/1903906144679884420",
+      "summary": "正文以 (x+y)^2 为例拆解平方、多项式乘法、交换律和合并同类项，实质讲解多项式展开步骤。"
+    },
+    {
+      "title": "哪些书让你重新认识了数学？",
+      "url": "https://www.zhihu.com/answer/1909153204970710982",
+      "summary": "使用三次二项式展开保留主要项，构造近似开立方的计算步骤。"
+    },
+    {
+      "title": "计算机学科用到的数学是否十分浅显，不涉及到高深的数学理论，比如抽象代数，代数拓扑，代数几何等?",
+      "url": "https://www.zhihu.com/answer/1912452729512632587",
+      "summary": "正文以多项式插值恢复为切入点，说明次数为 d 的多项式可由 d+1 个点值唯一确定。"
+    },
+    {
+      "title": "如何证明 √2 + √3 + √5 + √7 是无理数？",
+      "url": "https://www.zhihu.com/answer/1913914741572763963",
+      "summary": "正文构造以全部十六个符号组合结果为根的十六次整系数多项式，并利用其系数性质讨论有理根。"
+    },
+    {
+      "title": "哈密顿-凯莱定理最简洁的证明是哪一个？",
+      "url": "https://www.zhihu.com/answer/1916236459037418139",
+      "summary": "正文明确以矩阵 B 的特征多项式 f(x)=|xI_n-B| 为对象，并证明将其代入后得到零变换。"
+    },
+    {
+      "title": "如何通俗地解释泰勒公式？",
+      "url": "https://www.zhihu.com/answer/1918759839846363181",
+      "summary": "正文以一次、二次多项式说明次数与可求导阶数的关系，并把一般多项式作为泰勒展开的构造工具。"
+    },
+    {
+      "title": "√3+√5=3.9681……,如果知道足够多位数的小数点数字，能反推出这个无理数就是√3+√5吗？",
+      "url": "https://www.zhihu.com/answer/1919840748259488224",
+      "summary": "正文把待识别的数设为整系数多项式的近似根，按次数从低到高搜索并验证多项式系数。"
+    },
+    {
+      "title": "哪位大佬帮帮我，找出以下方程的所有整数解？x^3+y^3+z^3＝9xyz？",
+      "url": "https://www.zhihu.com/answer/1922355461929283746",
+      "summary": "正文定义三元三次齐次多项式，用缩放关系说明其齐次性，并把问题化为寻找互素整数解。"
+    },
+    {
+      "title": "x³-6x-6=0，求x=?",
+      "url": "https://www.zhihu.com/answer/1922754262632493931",
+      "summary": "正文从三次多项式一次项系数与常数项的对称关系出发，选择相应的换元。"
+    },
+    {
+      "title": "怎样计算 sin1°·sin2°·sin3°· … ·sin89°？",
+      "url": "https://www.zhihu.com/answer/1924741643707320090",
+      "summary": "正文把 z^180-1 按全部复根分解为乘积，再令变量趋近一得到根的乘积恒等式。"
+    },
+    {
+      "title": "2，0，4，3，7，6，1，5。这组数字有什么规律吗？",
+      "url": "https://www.zhihu.com/answer/1926018411676299385",
+      "summary": "正文构造一个九次多项式，使其在给定八个整数处的取值对应题中序列。"
+    },
+    {
+      "title": "超几何函数是如何解出五次方程x⁵-x-a=0的五个根的？",
+      "url": "https://www.zhihu.com/answer/1926952926108188757",
+      "summary": "正文围绕缺项多项式 P_n(x)=x^n+px+q 作代换，并讨论其一般根的结构。"
+    },
+    {
+      "title": "如何优雅地证明如下的2025江苏数学复赛的一试T9?",
+      "url": "https://www.zhihu.com/answer/1927033543357343005",
+      "summary": "正文给出该表达式的完整多项式因式分解，并将剩余因子展开为十二次多项式。"
+    },
+    {
+      "title": "一般的一元六次方程的双变量超几何函数的解法是什么?",
+      "url": "https://www.zhihu.com/answer/1927092578458793384",
+      "summary": "正文用四次 Tschirnhaus 变换消去高次项，将一般六次多项式化成只剩两个参数的形式。"
+    },
+    {
+      "title": "为什么要构造出范德蒙行列式？",
+      "url": "https://www.zhihu.com/answer/1929117604213134709",
+      "summary": "正文以 n-1 次一元多项式插值为主线，比较拉格朗日基与待定系数两种求法。"
+    },
+    {
+      "title": "若已知道五个未知数的1、3、5、7、9次幂之和，如何极其完美地求其2、4、6、8、10、任意次幂之和?",
+      "url": "https://www.zhihu.com/answer/1932585133069795488",
+      "summary": "正文把五个未知数视为一个五次多项式的根，并用其系数中的初等对称多项式表示问题。"
+    },
+    {
+      "title": "有哪些数学定理今天看起来很平凡，但在当时的证明却很困难？",
+      "url": "https://www.zhihu.com/answer/1932706578622021682",
+      "summary": "正文以复系数多项式在无穷远处增长到无穷为关键，说明非常数多项式必有零点。"
+    },
+    {
+      "title": "为什么要消去二次项才能解一元三次方程？",
+      "url": "https://www.zhihu.com/answer/1934019614859330183",
+      "summary": "正文利用三次方程的初等对称多项式与韦达定理，把拉格朗日预解式的组合表示为原方程系数。"
+    },
+    {
+      "title": "我突然发现3x²+3x+1的值大部分都是质数，有没有可以证明一下这个式子的特点?",
+      "url": "https://www.zhihu.com/answer/1946982769516316204",
+      "summary": "正文比较多个二次多项式产生素数的比例，并以多项式的取值次数和素数个数讨论其生成素数的情况。"
+    },
+    {
+      "title": "哪些数学知识可以用于艺术创作当中？",
+      "url": "https://www.zhihu.com/answer/1952125676653123172",
+      "summary": "正文说明用多个多项式曲面叠加并重新着色生成地貌，实质涉及多项式函数建模。"
+    },
+    {
+      "title": "你见过哪些堪称绝妙的数学证明？",
+      "url": "https://www.zhihu.com/answer/1954316585125774048",
+      "summary": "正文构造生成多项式，并通过展开它把多项式各项的次数与集合的非空子集和联系起来。"
+    },
+    {
+      "title": "自然界有哪些运动轨迹是三次曲线，或更高次的代数曲线？",
+      "url": "https://www.zhihu.com/answer/1958979775386326883",
+      "summary": "正文用二元多项式方程定义平面代数曲线，并讨论多项式参数化及其次数关系。"
+    },
+    {
+      "title": "x¹⁶+x¹²+x⁸+x⁴+1怎么因式分解？",
+      "url": "https://www.zhihu.com/answer/1959574947295895975",
+      "summary": "正文把多项式看成以 x 为基数的特殊进制，用不可约多项式类比质数并完成整式因式分解。"
+    },
+    {
+      "title": "x^4＋x^2＋1 如何因式分解？",
+      "url": "https://www.zhihu.com/answer/1960824324429676610",
+      "summary": "正文把多项式视为以 x 为基数的特殊进制，类比整数质因数分解，具体求出 x^4+x^2+1 的两个二次因式。"
+    },
+    {
+      "title": "114510，114511，114512，114513，（）找规律后面应该填什么?",
+      "url": "https://www.zhihu.com/answer/1963273908452034007",
+      "summary": "正文显式构造一个六次多项式，并列出该多项式在五个整数点的取值。"
+    },
+    {
+      "title": "解数学题时，有哪些匪夷所思的「野路子」？",
+      "url": "https://www.zhihu.com/answer/1965181541241061770",
+      "summary": "正文把多项式类比为 x 进制数，并系统演示多项式因式分解与长除法。"
+    },
+    {
+      "title": "有哪些你想发明却已经被人发明了的东西？",
+      "url": "https://www.zhihu.com/answer/1966980686121508941",
+      "summary": "正文用多个整数乘积例子引出并明确写出平方差恒等式，说明相邻两数的乘积可化为平方差形式。"
+    },
+    {
+      "title": "将面积公式S=πr2中的π换成e的话，该图案会是啥形状?",
+      "url": "https://www.zhihu.com/answer/1969247742107825875",
+      "summary": "正文将候选函数设为二次多项式，并代入端点与面积约束解出各项系数。"
+    },
+    {
+      "title": "72 岁送垃圾老人痴迷数学，希望将一生研究手稿传承，如何客观评估老人的研究成果？如何看待他这份精神？",
+      "url": "https://www.zhihu.com/answer/1970271689716797796",
+      "summary": "正文展示三次多项式的因式分解，并由分解后的低次因式求出全部根。"
+    },
+    {
+      "title": "a²＋a³＝392 怎么解？",
+      "url": "https://www.zhihu.com/answer/1972048422140874766",
+      "summary": "正文通过提取公因式和试数，展示三次多项式在 a=7 时的因式分解与求值。"
+    },
+    {
+      "title": "如何证明/证伪 方程 x^5-px+q=0 至多只有两个整数解(p和q是正整数)？",
+      "url": "https://www.zhihu.com/answer/1973171684006704460",
+      "summary": "正文以稀疏多项式和三项式为例，讨论这类多项式构成的模空间及其结构。"
+    },
+    {
+      "title": "怎么证明这个多项式问题？",
+      "url": "https://www.zhihu.com/answer/1985136246729774001",
+      "summary": "正文引用Filaseta定理并借助系数非负、素数值和次数界来证明整系数多项式不可约。"
+    },
+    {
+      "title": "如何求如下函数的最大值？",
+      "url": "https://www.zhihu.com/answer/1993972790991270324",
+      "summary": "正文利用最大值点的重根性质，将三次多项式分解并比较系数求参数。"
+    },
+    {
+      "title": "小明要算账，但是计算器上的+和×坏了，要计算50×36怎么办？",
+      "url": "https://www.zhihu.com/answer/1998870872581247293",
+      "summary": "正文使用平方差恒等式把两个数的乘积化为平方之差并完成计算。"
+    },
+    {
+      "title": "矩阵二次型的本质是什么?",
+      "url": "https://www.zhihu.com/answer/1999425176522204067",
+      "summary": "正文从一元二次多项式推广到多元齐次二次多项式，并说明齐次多项式在统一缩放变量时的次数规律。"
+    },
+    {
+      "title": "如何证明这个多项式可以因式分解，以及如何分解尼？",
+      "url": "https://www.zhihu.com/answer/2011182249995964640",
+      "summary": "正文讲解把多项式写成以 x 为基的表达式，并借助多项式长除法和整数分解完成因式分解。"
+    },
+    {
+      "title": "牛顿在数学方面有多牛？",
+      "url": "https://www.zhihu.com/answer/2014734331533338607",
+      "summary": "正文把正整数指数的二项式展开推广为任意实数指数的多项式级数，并计算具体多项式近似。"
+    },
+    {
+      "title": "你遇到过的最难的积分题目是什么？",
+      "url": "https://www.zhihu.com/answer/2014807363983532279",
+      "summary": "正文把积分变量视为多项式的根，并利用初等对称多项式、判别式和结式推进证明。"
+    },
+    {
+      "title": "如何优雅地证明∀x∈R,x⁴−x²−6x+10>0？",
+      "url": "https://www.zhihu.com/answer/2017757841319019814",
+      "summary": "正文围绕四次多项式配方为平方和，说明该多项式始终为正。"
+    },
+    {
+      "title": "A×A＋A=272，求A，有没有简单的方法，适合三年级小朋友的思维方式？",
+      "url": "https://www.zhihu.com/answer/2019051594646320695",
+      "summary": "正文把原式整理为二次多项式，并研究其零点、极值和图像行为。"
+    },
+    {
+      "title": "非常神奇的数学结论有哪些？",
+      "url": "https://www.zhihu.com/answer/2023492927855306472",
+      "summary": "正文用二元多项式族参数化球面型广义费马方程的全部解，并展示生成解的具体例子。"
+    },
+    {
+      "title": "数学中，你最服的技巧是哪个？",
+      "url": "https://www.zhihu.com/answer/2031796378951754954",
+      "summary": "正文把数列各项依次作为 x 的幂系数形成形式幂级数，并演示加法、乘法和代换等代数操作。"
+    },
+    {
+      "title": "这个高次因式分解，解不是整数，猜不到一个根该怎么分？",
+      "url": "https://www.zhihu.com/answer/2036335269746570530",
+      "summary": "正文把多项式表示成进制数，类比整数分解质因数并配合多项式长除法讲解因式分解。"
+    },
+    {
+      "title": "π的无穷乘积，最初是怎么被发现的？",
+      "url": "https://www.zhihu.com/answer/2039407375942164860",
+      "summary": "正文利用幂函数的求积规则逐项处理多项式，说明多项式及其展开后的面积计算。"
+    },
+    {
+      "title": "x^4＋x^2＋1 如何因式分解？",
+      "url": "https://www.zhihu.com/answer/2040860386837128600",
+      "summary": "正文通过换元分解二次式并在复数域求根，最终把四次多项式因式分解为两个二次因子。"
+    },
+    {
+      "title": "张量的本质是什么？",
+      "url": "https://www.zhihu.com/answer/2056356643504387769",
+      "summary": "正文建立对称张量与齐次多项式的对应并用Waring分解解释对称张量。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062544960491099389",
+      "summary": "正文以多项式映射及其多项式逆为主线陈述雅可比猜想，并围绕具体多项式映射展开分析与验算。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062553411367736705",
+      "summary": "正文由一元多项式函数推广到高维多项式映射，解释多项式逆映射及其与雅可比猜想的关系。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062555470427060136",
+      "summary": "正文定义高维多项式映射与多项式自同构，并系统讨论雅可比猜想及其反例。"
+    },
+    {
+      "title": "如何评价代数几何著名猜想「雅可比猜想」被AI证伪？如此简洁、可独立验证的数学发现意味着什么？",
+      "url": "https://www.zhihu.com/answer/2062613987456463172",
+      "summary": "正文围绕多项式映射的次数、雅可比行列式和多项式逆映射展开，并讨论低次数情形的结果。"
+    },
+    {
+      "title": "如何评价雅可比猜想被提出了一个看似并不十分复杂的反例？",
+      "url": "https://www.zhihu.com/answer/2062878910656812667",
+      "summary": "正文区分有理映射与多项式映射，并围绕多项式条件如何阻止分母和极点残留展开构造。"
+    },
+    {
+      "title": "邓煜、王虹两位青年数学家获得 2026 年菲尔兹奖，如何理解他们获奖的意义和价值？",
+      "url": "https://www.zhihu.com/answer/2063220627004191335",
+      "summary": "正文先以一维多项式函数及其多项式反函数为例，再推广到高维多项式映射和多项式逆。"
+    },
+    {
+      "title": "如何证明不存在定义域为R的函数f(x)，使得f(f(x))=x²-2？",
+      "url": "https://www.zhihu.com/answer/2065913670090203579",
+      "summary": "正文以实二次多项式为对象，通过配方式线性变换研究其迭代平方根是否存在。"
+    },
+    {
+      "title": "我突然发现3x²+3x+1的值大部分都是质数，有没有可以证明一下这个式子的特点?",
+      "url": "https://www.zhihu.com/answer/2066175302708073902",
+      "summary": "正文通过立方差恒等式分析二次多项式 3x²+3x+1 的结构。"
+    },
+    {
+      "title": "为何有传言宣传明朝数学相对于宋元会出现所谓的严重的倒退？",
+      "url": "https://www.zhihu.com/answer/2066795343426099156",
+      "summary": "正文说明朱世杰以二维矩形系数阵列表示多未知量多项式，并通过逐步消元化为一元高次方程。"
+    },
+    {
+      "title": "为何有传言宣传明朝数学相对于宋元会出现所谓的严重的倒退？",
+      "url": "https://www.zhihu.com/answer/2067292789440882004",
+      "summary": "正文以王文素三角和配套歌诀说明方程展开系数的生成，并用系数与根的对应关系解释其多项式结构。"
+    },
+    {
+      "title": "你们有没有哪些自己的数学发现？",
+      "url": "https://www.zhihu.com/answer/2067971384307881900",
+      "summary": "正文把多项式系数写成 x 进制数，类比整数分解质因数来讲解多项式的因式分解和验证方法。"
+    },
+    {
+      "title": "如何评价北京协和医院住院医用AI解决了困扰数学界的难题Crouzeix猜想？",
+      "url": "https://www.zhihu.com/answer/2071663319031796181",
+      "summary": "正文给出 Crouzeix 猜想对任意多项式 p 与矩阵 A 的刻画，并说明其谱范数受数值域上多项式最大模控制。"
+    },
+    {
+      "title": "如何评价北京协和医院住院医用AI解决了困扰数学界的难题Crouzeix猜想？",
+      "url": "https://www.zhihu.com/answer/2071729538082551723",
+      "summary": "正文以具体多项式为例说明如何把矩阵代入多项式，并用矩阵多项式陈述 Crouzeix 猜想。"
+    },
+    {
+      "title": "怎么看森多夫猜想（Sendov's Conjecture）已被AI、Lech Mazur、陶哲轩攻破？",
+      "url": "https://www.zhihu.com/answer/2071844636822344686",
+      "summary": "正文以复多项式的零点与导函数零点为中心，具体解释森多夫猜想的局部距离关系。"
+    },
+    {
+      "title": "怎么看森多夫猜想（Sendov's Conjecture）已被AI、Lech Mazur、陶哲轩攻破？",
+      "url": "https://www.zhihu.com/answer/2071876416258544046",
+      "summary": "正文完整陈述复多项式的根、临界点及森多夫猜想，并说明零点与临界点的距离关系。"
+    },
+    {
+      "title": "怎么看森多夫猜想（Sendov's Conjecture）已被AI、Lech Mazur、陶哲轩攻破？",
+      "url": "https://www.zhihu.com/answer/2071960576637526906",
+      "summary": "正文以复多项式的零点与临界点距离为对象，对比传统证明与 AI 丢弃几何细节后的代数不等式路线。"
+    },
+    {
+      "title": "怎么看森多夫猜想（Sendov's Conjecture）已被AI、Lech Mazur、陶哲轩攻破？",
+      "url": "https://www.zhihu.com/answer/2072661377529991351",
+      "summary": "正文围绕复多项式的零点、临界点、反导数多项式及其几何关系说明森多夫猜想的数学对象。"
+    },
+    {
+      "title": "为何有传言宣传明朝数学相对于宋元会出现所谓的严重的倒退？",
+      "url": "https://www.zhihu.com/answer/2075685325284828453",
+      "summary": "正文具体比较不同多项式记法，并用高次式说明未知数各次幂的书面表示。"
+    },
+    {
+      "title": "变分法近似解法 Part 1.----Rayleigh-Ritz Method",
+      "url": "https://zhuanlan.zhihu.com/p/20882021",
+      "summary": "正文以多项式作为待定近似函数，并把多项式系数作为 Rayleigh-Ritz 方法的待求变量。"
+    },
+    {
+      "title": "根号i令你困惑吗？它可以算出来！这背后隐藏了一个奇迹  | 袁岚峰",
+      "url": "https://zhuanlan.zhihu.com/p/23523642",
+      "summary": "正文借代数基本定理说明复系数多项式方程有 n 个根，并用二次、三次多项式举例。"
+    },
+    {
+      "title": "二项式展开",
+      "url": "https://zhuanlan.zhihu.com/p/25049847",
+      "summary": "正文从逐项选择展开 (a+b)^n，说明二项式展开中每项系数和幂次的来源。"
+    },
+    {
+      "title": "三次函数的一些问题",
+      "url": "https://zhuanlan.zhihu.com/p/25059644",
+      "summary": "正文以一般三次多项式为对象，讨论其导数、二阶导数、对称中心和实根个数。"
+    },
+    {
+      "title": "利用二次函数解“极值点偏移”问题",
+      "url": "https://zhuanlan.zhihu.com/p/25070401",
+      "summary": "正文以二次函数的对称性求两根之和，作为分析极值点偏移的辅助函数。"
+    },
+    {
+      "title": "组合恒等式之万金油方法",
+      "url": "https://zhuanlan.zhihu.com/p/25195967",
+      "summary": "正文把发生函数作为形式幂级数，并用多项式式代数运算和广义二项式定理处理系数。"
+    },
+    {
+      "title": "数学家救火法与数学竞赛",
+      "url": "https://zhuanlan.zhihu.com/p/25722061",
+      "summary": "正文以整系数三次多项式的不可约性、根关系和初等对称多项式为核心，推导关于根的结论。"
+    },
+    {
+      "title": "中学篇 No. 27：伽罗瓦",
+      "url": "https://zhuanlan.zhihu.com/p/27073605",
+      "summary": "正文讨论有理系数多项式的因式分解、不可约多项式和极小多项式，并用其次数衡量域扩张。"
+    },
+    {
+      "title": "微积分的历史（五），发展之泰勒公式（上）",
+      "url": "https://zhuanlan.zhihu.com/p/27348707",
+      "summary": "正文用三次多项式和牛顿均差多项式构造穿过已知数据点的插值函数。"
+    },
+    {
+      "title": "有限域挂谷问题",
+      "url": "https://zhuanlan.zhihu.com/p/28359827",
+      "summary": "正文考察有限域上的总次数小于域大小的多项式，并由最高次齐次部分导出其必为零多项式。"
+    },
+    {
+      "title": "数学天才拉马努金的“有趣”的数——一桥大学2009年高考第一题（文科）",
+      "url": "https://zhuanlan.zhihu.com/p/29249591",
+      "summary": "正文利用立方差公式分解多项式，再结合因数与不等式筛选出可能的二次多项式取值。"
+    },
+    {
+      "title": "1^n+2^n+……+x^n=？？——东京大学2006年高考第三题（理科）",
+      "url": "https://zhuanlan.zhihu.com/p/29320291",
+      "summary": "正文的题设和证明都以幂和的多项式表示、次数和系数恒等式为核心。"
+    },
+    {
+      "title": "拍案惊奇之多项式",
+      "url": "https://zhuanlan.zhihu.com/p/30869501",
+      "summary": "正文列举整系数多项式与整数零点、ZFC 一致性及黎曼猜想之间可表达关系的引人注意结论。"
+    },
+    {
+      "title": "【高等代数】多项式的综合除法与因式分解",
+      "url": "https://zhuanlan.zhihu.com/p/30815738",
+      "summary": "正文从多项式一般形式出发，讲解代数基本定理、有理根判定、综合除法及逐步因式分解。"
+    },
+    {
+      "title": "一小时学会快速傅里叶变换（Fast Fourier Transform）",
+      "url": "https://zhuanlan.zhihu.com/p/31584464",
+      "summary": "正文比较多项式的系数表示与点值表示，并说明点值乘法如何加速多项式乘法。"
+    },
+    {
+      "title": "抽象代数|笔记整理（7）——商环，整环与分式域，极大理想",
+      "url": "https://zhuanlan.zhihu.com/p/31516301",
+      "summary": "正文讨论多项式环，并利用首项系数非零证明整环上的多项式环仍为整环。"
+    },
+    {
+      "title": "人人都会做的普特南试题（William Lowell Putnam Mathematical Competition）（1）",
+      "url": "https://zhuanlan.zhihu.com/p/32456812",
+      "summary": "正文对三次多项式作因式分解，把代数曲线拆成一条直线与一个孤立点，并用该结构解决三角形问题。"
+    },
+    {
+      "title": "代码: 五次方程求解器",
+      "url": "https://zhuanlan.zhihu.com/p/32509769",
+      "summary": "正文依次实施主变换、布林杰拉德变换和规范变换，把一般五次多项式化为标准形式。"
+    },
+    {
+      "title": "1,2,4,8,16……数列的下一项是什么？",
+      "url": "https://zhuanlan.zhihu.com/p/33126929",
+      "summary": "正文用四次多项式拟合数列前五项，并据此讨论下一项并非唯一确定。"
+    },
+    {
+      "title": "一文读懂回归样条（regression splines），附Python代码",
+      "url": "https://zhuanlan.zhihu.com/p/34825299",
+      "summary": "正文讨论多项式回归的构造与过拟合，并进一步用分段低阶多项式构造样条。"
+    },
+    {
+      "title": "化零多项式有什么用？",
+      "url": "https://zhuanlan.zhihu.com/p/34926039",
+      "summary": "正文以带余除法把任意多项式写成除式与商式乘积加余式。"
+    },
+    {
+      "title": "代数基本定理",
+      "url": "https://zhuanlan.zhihu.com/p/34926001",
+      "summary": "正文围绕 n 次复系数多项式及其根的数量展开代数基本定理的证明。"
+    },
+    {
+      "title": "黑盒函数的探索",
+      "url": "https://zhuanlan.zhihu.com/p/36230460",
+      "summary": "正文定义多项式及其根，并用二次求根公式和拉格朗日插值多项式研究黑盒函数。"
+    },
+    {
+      "title": "求二项展开式中二项式系数最大项、系数最大项的问题",
+      "url": "https://zhuanlan.zhihu.com/p/37321457",
+      "summary": "正文以二元一次式的n次幂为对象展开通项，并研究展开式系数的最值。"
+    },
+    {
+      "title": "【高中数学基础课】二项式定理",
+      "url": "https://zhuanlan.zhihu.com/p/37314812",
+      "summary": "正文给出二项式定理和通项，并系统讨论二项展开式的系数性质。"
+    },
+    {
+      "title": "机器人的轨迹规划与自动导引",
+      "url": "https://zhuanlan.zhihu.com/p/38391238",
+      "summary": "正文以七次多项式和低次分段多项式插值轨迹，说明用多项式系数满足位置、速度与加速度约束。"
+    },
+    {
+      "title": "二项式定理の秒解任意项系数",
+      "url": "https://zhuanlan.zhihu.com/p/38418082",
+      "summary": "正文把二项式展开理解为多个括号相乘并求特定幂次系数，并扩展到括号内为多项式的题型。"
+    },
+    {
+      "title": "神秘的零知识证明之zkSNARK",
+      "url": "https://zhuanlan.zhihu.com/p/38205067",
+      "summary": "正文用拉格朗日插值把约束编码为多项式，并通过多项式整除关系一次性验证全部约束。"
+    },
+    {
+      "title": "FFT(快速傅里叶变换)0基础详解！附NTT（ACM/OI）",
+      "url": "https://zhuanlan.zhihu.com/p/40505277",
+      "summary": "正文解释多项式的系数表示与点值表示，并通过点值乘法提高多项式乘法效率。"
+    },
+    {
+      "title": "21、二次型、合同关系、惯性指数、标准型、规范型，XTAX",
+      "url": "https://zhuanlan.zhihu.com/p/41287534",
+      "summary": "正文从多项式的项次数出发定义二次型，并讲解其系数与对称矩阵之间的相互提取。"
+    },
+    {
+      "title": "原来，二次函数还可以这样用！",
+      "url": "https://zhuanlan.zhihu.com/p/44435342",
+      "summary": "正文以二次函数的对称轴和极值为基准，并构造辅助二次函数处理极值点偏移。"
+    },
+    {
+      "title": "密钥分享Secret Sharing介绍",
+      "url": "https://zhuanlan.zhihu.com/p/44999983",
+      "summary": "正文构造 t-1 次多项式，把常数项作为秘密并以前 n 个函数值作为份额，实质应用了多项式。"
+    },
+    {
+      "title": "开挂般地速算轨迹方程",
+      "url": "https://zhuanlan.zhihu.com/p/45401591",
+      "summary": "正文用一般二次多项式描述椭圆、抛物线和圆，并说明曲线系保持交点的方法。"
+    },
+    {
+      "title": "自然数幂方求和公式",
+      "url": "https://zhuanlan.zhihu.com/p/47211989",
+      "summary": "正文指出自然数的 k 次幂和是 k+1 次有理多项式，并用待定系数和线性方程组确定系数。"
+    },
+    {
+      "title": "数值分析学习笔记（三）",
+      "url": "https://zhuanlan.zhihu.com/p/47282502",
+      "summary": "正文以插值多项式为核心，构造并比较多种多项式插值公式。"
+    },
+    {
+      "title": "如何证明e是超越数",
+      "url": "https://zhuanlan.zhihu.com/p/47709039",
+      "summary": "正文把 e 的超越性转化为整系数多项式根的问题，并详细分析辅助多项式的根和导数。"
+    },
+    {
+      "title": "球谐光照与PRT学习笔记（三）：球谐函数",
+      "url": "https://zhuanlan.zhihu.com/p/50208005",
+      "summary": "正文定义伴随勒让德多项式及其参数范围，并给出递推关系和计算方式，实质讲解了一类正交多项式。"
+    },
+    {
+      "title": "简单粗暴：B-样条曲线入门",
+      "url": "https://zhuanlan.zhihu.com/p/50626506",
+      "summary": "正文用多项式次数解释样条阶数，并实例说明一次、二次权重及控制点数量关系。"
+    },
+    {
+      "title": "高斯引理与艾森斯坦判别法",
+      "url": "https://zhuanlan.zhihu.com/p/51914321",
+      "summary": "正文定义本原多项式、证明高斯引理，并用它推出艾森斯坦判别法及其不可约性结论。"
+    },
+    {
+      "title": "呆哥数学不等式——一元二次不等式核心求法1【1】",
+      "url": "https://zhuanlan.zhihu.com/p/52368725",
+      "summary": "正文先整理二次多项式的判别式、求根公式与根系关系，再用于确定二次不等式的解集。"
+    },
+    {
+      "title": "浅谈生成函数之OGF",
+      "url": "https://zhuanlan.zhihu.com/p/52817010",
+      "summary": "正文说明有限序列经零项扩充后的生成函数是有限次多项式。"
+    },
+    {
+      "title": "一元三次方程的一般解法",
+      "url": "https://zhuanlan.zhihu.com/p/53049047",
+      "summary": "正文围绕一元三次多项式，通过配方消去二次项并利用三次恒等式研究其求根。"
+    },
+    {
+      "title": "专题：Chebyshev多项式",
+      "url": "https://zhuanlan.zhihu.com/p/55076525",
+      "summary": "正文由递推式定义第一类 Chebyshev 多项式，并系统讨论其表示、根与逼近性质，核心属于多项式。"
+    },
+    {
+      "title": "如何证明π是超越数",
+      "url": "https://zhuanlan.zhihu.com/p/56607777",
+      "summary": "正文构造以各根之和为根的多项式，并借助对称多项式基本定理证明其系数为有理数。"
+    },
+    {
+      "title": "多项式的矩阵表示及乘法运算",
+      "url": "https://zhuanlan.zhihu.com/p/58665745",
+      "summary": "正文以升幂系数向量表示一元多项式，并用次对角线和解释多项式乘法的系数计算。"
+    },
+    {
+      "title": "高等代数|复习提纲（3）——多项式",
+      "url": "https://zhuanlan.zhihu.com/p/60139157",
+      "summary": "正文系统讨论一元多项式的定义、次数、整除、最大公因式和因式分解，实质展开多项式理论。"
+    },
+    {
+      "title": "Markov Inequality for Polynomials",
+      "url": "https://zhuanlan.zhihu.com/p/61327949",
+      "summary": "正文以马尔可夫不等式为例，讨论 n 次实系数多项式在区间上的导数估计及切比雪夫多项式的取等条件。"
+    },
+    {
+      "title": "三次方程因式分解的一点小技巧",
+      "url": "https://zhuanlan.zhihu.com/p/61517265",
+      "summary": "正文由整系数多项式的有理根性质、余式与因式定理出发，并用多项式除法把三次多项式分解因式。"
+    },
+    {
+      "title": "三次样条（cubic spline）插值",
+      "url": "https://zhuanlan.zhihu.com/p/62860859",
+      "summary": "正文用四参数三次多项式的分段形式刻画光滑插值曲线并逐项求系数。"
+    },
+    {
+      "title": "【国际数学竞赛】余数定理(Polynomial Remainder Theorem)",
+      "url": "https://zhuanlan.zhihu.com/p/64252377",
+      "summary": "正文用多项式除法与余式次数关系证明余数定理，并给出多项式取值的计算应用。"
+    },
+    {
+      "title": "【国际数学竞赛】高次方程求根",
+      "url": "https://zhuanlan.zhihu.com/p/64354689",
+      "summary": "正文讲解高次多项式的试根、因式分解与降次，并用多项式的代数变形求根。"
+    },
+    {
+      "title": "高数笔记-常系数非齐次微分方程的解法",
+      "url": "https://zhuanlan.zhihu.com/p/64558412",
+      "summary": "正文按零次、一次和二次举例说明多项式，并用同次待定多项式构造微分方程的特解。"
+    },
+    {
+      "title": "【国际数学竞赛】高次韦达定理(Vieta's Theorem)",
+      "url": "https://zhuanlan.zhihu.com/p/64762900",
+      "summary": "正文从多项式因式分解推导根与各系数之间的关系，并讨论高次韦达定理的应用。"
+    },
+    {
+      "title": "理解插值法（拉格朗日、牛顿插值法）",
+      "url": "https://zhuanlan.zhihu.com/p/64855561",
+      "summary": "正文构造经过给定点的多项式插值函数，并给出拉格朗日形式和基于差商的牛顿形式。"
+    },
+    {
+      "title": "找规律填数字的游戏究竟有多无聊",
+      "url": "https://zhuanlan.zhihu.com/p/65771503",
+      "summary": "正文把数列项作为函数值，讨论四次多项式经过四个已知点并据此插值第五项。"
+    },
+    {
+      "title": "组合数学学习笔记（二）",
+      "url": "https://zhuanlan.zhihu.com/p/67059187",
+      "summary": "正文由二项式展开推到多项式定理，并解释多项式系数的组合含义和恒等式。"
+    },
+    {
+      "title": "【国际数学竞赛】丢番图方程怎么解？",
+      "url": "https://zhuanlan.zhihu.com/p/67321401",
+      "summary": "正文以三次多项式的恒等因式分解为主要解题步骤，实际展开了多项式变形方法。"
+    },
+    {
+      "title": "为什么全体自然数平方的倒数和等于π^2/6？",
+      "url": "https://zhuanlan.zhihu.com/p/67450658",
+      "summary": "正文先讲解按零点分解多项式，再把同一思想推广到正弦函数的无穷乘积。"
+    },
+    {
+      "title": "拉格朗日配方法",
+      "url": "https://zhuanlan.zhihu.com/p/69056644",
+      "summary": "正文系统示范拉格朗日配方法，对多元二次多项式逐字母配方并化简。"
+    },
+    {
+      "title": "几种有理分式分解的方法",
+      "url": "https://zhuanlan.zhihu.com/p/69471608",
+      "summary": "正文以有理分式的分子分母和因式分解为核心，讲解真假分式判别、多项式除法及部分分式分解。"
+    },
+    {
+      "title": "为什么一元n次代数方程必有n个根？",
+      "url": "https://zhuanlan.zhihu.com/p/73764750",
+      "summary": "正文以一般复系数一元多项式为对象，分解其因式并推出次数与根数的关系。"
+    },
+    {
+      "title": "如何解三次方程？|解方程系列1",
+      "url": "https://zhuanlan.zhihu.com/p/74839079",
+      "summary": "正文对三次多项式使用有理根和多项式除法，将其分解为一次与二次因式。"
+    },
+    {
+      "title": "如何解四次方程？|解方程系列2",
+      "url": "https://zhuanlan.zhihu.com/p/75497955",
+      "summary": "正文讨论三四次多项式的因式分解形式，并说明因式分解与求根问题的等价关系。"
+    },
+    {
+      "title": "MATLAB中数据插值和数据拟合的用法",
+      "url": "https://zhuanlan.zhihu.com/p/73931917",
+      "summary": "正文比较分段三次 Hermite 与三次样条插值，并说明多项式的导数连续性要求。"
+    },
+    {
+      "title": "快速傅里叶变换（FFT）求解多项式乘法",
+      "url": "https://zhuanlan.zhihu.com/p/76622485",
+      "summary": "正文定义多项式的系数表示法和点值表示法，并据此建立多项式乘法的计算框架。"
+    },
+    {
+      "title": "为何中学不讲一元三次四次方程的求解？|解方程系列3",
+      "url": "https://zhuanlan.zhihu.com/p/76976510",
+      "summary": "正文以整系数多元多项式为例说明多项式的次数、自变量个数和系数范围分类。"
+    },
+    {
+      "title": "不同插值方法的比较及Python实现",
+      "url": "https://zhuanlan.zhihu.com/p/63763725",
+      "summary": "正文以插值多项式概括拉格朗日、牛顿等构造，并给出相应公式。"
+    },
+    {
+      "title": "高代随记（一）从判别式与结式到椭圆函数j不变量",
+      "url": "https://zhuanlan.zhihu.com/p/77119428",
+      "summary": "正文从多项式根的重合性定义判别式，并讨论用多项式系数表示判别式。"
+    },
+    {
+      "title": "初学讲义之高中数学五：二次函数",
+      "url": "https://zhuanlan.zhihu.com/p/80373882",
+      "summary": "正文以一般二次多项式定义二次函数，并讨论其系数、顶点式和函数性质。"
+    },
+    {
+      "title": "北大《高等代数》第四版读书笔记（第一章）",
+      "url": "https://zhuanlan.zhihu.com/p/80567381",
+      "summary": "正文从形式定义、次数和运算出发系统讲解一元多项式的代数理论。"
+    },
+    {
+      "title": "多项式互素以及整除的几个简单问题",
+      "url": "https://zhuanlan.zhihu.com/p/85519311",
+      "summary": "正文围绕多项式整除、互素、最大公因式和最小公倍式展开证明。"
+    },
+    {
+      "title": "从微分方程的级数解到两个特殊方程（5）：勒让德方程",
+      "url": "https://zhuanlan.zhihu.com/p/88140502",
+      "summary": "正文由勒让德方程的有限项级数解构造各阶勒让德多项式，并列出低阶多项式和性质。"
+    },
+    {
+      "title": "初学讲义之高中数学二十一：排列组合和二项式定理",
+      "url": "https://zhuanlan.zhihu.com/p/89717188",
+      "summary": "正文通过二项式乘积与组合选择推导二项式展开，并区分二项式系数和各项系数。"
+    },
+    {
+      "title": "一个因式分解问题",
+      "url": "https://zhuanlan.zhihu.com/p/95706313",
+      "summary": "正文给出多项式 x^8+x^6+x^4+x^2+1 的两种因式分解推导，并用多项式除法验证结果。"
+    },
+    {
+      "title": "【举例子详细分析】BCH码(BCH code)",
+      "url": "https://zhuanlan.zhihu.com/p/95909150",
+      "summary": "正文用多项式表示二进制信息，并通过多项式乘法、除法与不可约多项式解释纠错原理。"
+    },
+    {
+      "title": "能解出这道题，你就是数学天才！",
+      "url": "https://zhuanlan.zhihu.com/p/96063757",
+      "summary": "定义并展开多元对称多项式、基本对称多项式及幂和多项式，并用它们求解代数问题。"
+    },
+    {
+      "title": "用 Python 来研究数学 --- SymPy 符号工具包介绍",
+      "url": "https://zhuanlan.zhihu.com/p/96738286",
+      "summary": "正文具体演示多项式和有理函数的展开、因式分解、约分及部分分式分解。"
+    },
+    {
+      "title": "一元二次方程的一种不同解法",
+      "url": "https://zhuanlan.zhihu.com/p/97282588",
+      "summary": "正文从多项式因式相乘和分配律出发，解释系数与根的和积关系及因式分解。"
+    },
+    {
+      "title": "常见的插值和拟合方法",
+      "url": "https://zhuanlan.zhihu.com/p/98431641",
+      "summary": "正文给出拉格朗日、牛顿和Hermite插值多项式的构造公式及误差。"
+    },
+    {
+      "title": "平方项知多少？平方项、分组回归与门槛模型",
+      "url": "https://zhuanlan.zhihu.com/p/98968787",
+      "summary": "围绕二次多项式模型解释平方项系数、抛物线转折点、定义域和单调性之间的关系。"
+    },
+    {
+      "title": "从零开始学习 zk-SNARK（一）——多项式的性质与证明",
+      "url": "https://zhuanlan.zhihu.com/p/99260386",
+      "summary": "正文通过多项式求值、根的因式分解和多项式除法讲解多项式相等及因式关系。"
+    },
+    {
+      "title": "最小二乘法（附MATLAB代码）",
+      "url": "https://zhuanlan.zhihu.com/p/99924603",
+      "summary": "正文解释polyfit返回多项式降幂系数，并用一、二次多项式拟合数据。"
+    },
+    {
+      "title": "浅谈圆锥曲线中的高级技巧",
+      "url": "https://zhuanlan.zhihu.com/p/103123814",
+      "summary": "正文证明有理根定理，并说明如何根据多项式最高次项和常数项的因数寻找有理根。"
+    },
+    {
+      "title": "代数数的和差积仍然是代数数吗？",
+      "url": "https://zhuanlan.zhihu.com/p/103691884",
+      "summary": "正文通过首一多项式的因式分解和初等对称多项式联系根与系数，并构造有理系数多项式。"
+    },
+    {
+      "title": "详解Winograd变换矩阵生成原理",
+      "url": "https://zhuanlan.zhihu.com/p/102351953",
+      "summary": "正文讲解多项式乘法、长除法、最大公因式、模逆元及多项式版本的中国剩余定理。"
+    },
+    {
+      "title": "分圆多项式的简单性质与应用",
+      "url": "https://zhuanlan.zhihu.com/p/105400582",
+      "summary": "正文定义分圆多项式，并系统证明其因式分解、整系数和不可约等多项式性质。"
+    },
+    {
+      "title": "Routh-Hurwitz准则——判别实系数多项式有无实部非负的根的充要条件",
+      "url": "https://zhuanlan.zhihu.com/p/105605367",
+      "summary": "正文围绕实系数多项式的零点位置展开，介绍Routh-Hurwitz准则、Rouch表、具体判别例子及其辐角原理证明。"
+    },
+    {
+      "title": "最佳逼近 切比雪夫——切比雪夫多项式再研究",
+      "url": "https://zhuanlan.zhihu.com/p/105766114",
+      "summary": "正文从切比雪夫多项式出发，证明首一多项式在区间上的最小最大绝对值，并推广到任意次数多项式的最佳逼近。"
+    },
+    {
+      "title": "二次筛法 (Quadratic Sieve)",
+      "url": "https://zhuanlan.zhihu.com/p/106650020",
+      "summary": "正文研究多项式 f(x) 在模素数下的根并筛其取值，还讨论多个二次多项式的选取及分解。"
+    },
+    {
+      "title": "Chebyshev多项式作为GCN卷积核",
+      "url": "https://zhuanlan.zhihu.com/p/106687580",
+      "summary": "正文使用第一类 Chebyshev 多项式的解析式与三项递推式展开卷积核。"
+    },
+    {
+      "title": "数论小白入门-- 莫比乌斯反演",
+      "url": "https://zhuanlan.zhihu.com/p/106775790",
+      "summary": "正文把从 1 到 n 的 m 次幂和视为 m+1 次多项式，并用拉格朗日插值求出其系数。"
+    },
+    {
+      "title": "割圆多项式",
+      "url": "https://zhuanlan.zhihu.com/p/107102812",
+      "summary": "正文从本原单位根出发定义割圆多项式，并系统证明其分解、不可约性和若干多项式性质。"
+    },
+    {
+      "title": "查尔斯·巴贝奇：现代计算机真正的鼻祖",
+      "url": "https://zhuanlan.zhihu.com/p/107462919",
+      "summary": "正文通过一次、二次及高次多项式的数值差分表，说明差分阶数与多项式次数之间的关系及递推计算方式。"
+    },
+    {
+      "title": "数分笔记——待定系数法证积分不等式",
+      "url": "https://zhuanlan.zhihu.com/p/107553208",
+      "summary": "正文设出待定系数的三次多项式，并通过优化其平方积分确定各项系数。"
+    },
+    {
+      "title": "【“数”你好看】柯西不等式Cauchy-Schwarts Inequality",
+      "url": "https://zhuanlan.zhihu.com/p/107477843",
+      "summary": "正文另造非负二次多项式，通过展开和判别式条件证明柯西不等式。"
+    },
+    {
+      "title": "关于多项式的几个简单结论",
+      "url": "https://zhuanlan.zhihu.com/p/109527592",
+      "summary": "正文陈述并证明 Mason-Stothers 多项式定理，并进一步讨论多项式形式的费马型方程，属于对多项式结构的具体展开。"
+    },
+    {
+      "title": "Hensel引理",
+      "url": "https://zhuanlan.zhihu.com/p/112291050",
+      "summary": "正文围绕整系数多项式建立 Hensel 引理及其推论，并给出代数表达式和归纳构造。"
+    },
+    {
+      "title": "中学阶段最详细的三角函数计算方法大全(第三版)",
+      "url": "https://zhuanlan.zhihu.com/p/114336182",
+      "summary": "正文把三角函数值设为多项式变量，借助根与因式分解求值，并讨论正十七边形对应的不可约多项式。"
+    },
+    {
+      "title": "【解析几何】定点定值问题中的因式分解",
+      "url": "https://zhuanlan.zhihu.com/p/120415505",
+      "summary": "正文利用已知因式、多项式除法和因式分解求二次多项式方程的另一根，展示因式分解在定点问题中的作用。"
+    },
+    {
+      "title": "Python曲线拟合详解",
+      "url": "https://zhuanlan.zhihu.com/p/122702657",
+      "summary": "正文构造不同阶数的多项式并演示拟合正弦函数及多项式运算。"
+    },
+    {
+      "title": "浅谈|f(x)|最大值的最小值问题－－切比雪夫最佳逼近直线在高考中的应用",
+      "url": "https://zhuanlan.zhihu.com/p/130443282",
+      "summary": "正文以二次函数为载体，具体分析 a、b 两个参数如何控制图像的横向和高低位置。"
+    },
+    {
+      "title": "解北大数院学生没做出来的题",
+      "url": "https://zhuanlan.zhihu.com/p/134291779",
+      "summary": "正文利用二次函数的对称轴和函数值性质设计证明，并明确构造一个二次函数辅助完成不等式证明。"
+    },
+    {
+      "title": "数值计算方法 第四章 多项式插值（1）",
+      "url": "https://zhuanlan.zhihu.com/p/131493410",
+      "summary": "正文讨论多项式插值的构造、待定系数与次数限制，并给出拉格朗日、牛顿及分段多项式公式。"
+    },
+    {
+      "title": "一元三次方程的求根公式",
+      "url": "https://zhuanlan.zhihu.com/p/137077558",
+      "summary": "正文以三次多项式为中心，说明配方消去二次项并化为约简三次方程的方法。"
+    },
+    {
+      "title": "域论和Galois理论(1): 基本内容",
+      "url": "https://zhuanlan.zhihu.com/p/137696424",
+      "summary": "正文讨论多项式在整数域上的不可约性，给出有理根判别和 Eisenstein 判别法并用于具体多项式。"
+    },
+    {
+      "title": "希尔伯特第十七问题与多项式优化",
+      "url": "https://zhuanlan.zhihu.com/p/138064866",
+      "summary": "正文以多元多项式能否写成平方和为核心问题，并讨论多项式次数与维数。"
+    },
+    {
+      "title": "域论和Galois理论(4): 可分扩张",
+      "url": "https://zhuanlan.zhihu.com/p/137732241",
+      "summary": "正文用形式导数判别不可约多项式是否有重根，并据此定义可分多项式。"
+    },
+    {
+      "title": "龙格现象(Runge Phenomenon)",
+      "url": "https://zhuanlan.zhihu.com/p/138747068",
+      "summary": "正文比较不同次数的插值多项式，说明高次多项式在均匀节点边缘可能产生更大误差。"
+    },
+    {
+      "title": "超越数与刘维尔定理证明",
+      "url": "https://zhuanlan.zhihu.com/p/138847089",
+      "summary": "正文用整系数n次多项式的根定义代数数，比较不同次数与有无理根的情形。"
+    },
+    {
+      "title": "自回归模型",
+      "url": "https://zhuanlan.zhihu.com/p/131335721",
+      "summary": "正文引入自回归模型的特征多项式，按其根与重数构造基础解系并写出通解。"
+    },
+    {
+      "title": "初识切比雪夫多项式",
+      "url": "https://zhuanlan.zhihu.com/p/141957872",
+      "summary": "正文由 cos(nθ) 的多项式表示推导切比雪夫多项式，并给出其递推公式和零点性质。"
+    },
+    {
+      "title": "什么是样条回归？为什么要用样条回归？样条回归通俗讲",
+      "url": "https://zhuanlan.zhihu.com/p/142470648",
+      "summary": "正文解释一次、二次及更高次多项式的形式，并说明增加高次项带来的拟合与过拟合问题。"
+    },
+    {
+      "title": "对称多项式基本定理",
+      "url": "https://zhuanlan.zhihu.com/p/141923148",
+      "summary": "正文定义并系统讲解多元对称多项式，进而陈述对称多项式基本定理及其多项式表示。"
+    },
+    {
+      "title": "深入理解B样条曲线（上）",
+      "url": "https://zhuanlan.zhihu.com/p/144042470",
+      "summary": "正文通过 B 样条基函数的分段二次多项式及曲线加权和，说明控制点对曲线的局部影响。"
+    },
+    {
+      "title": "计算机图形学十：贝塞尔曲线与贝塞尔曲面",
+      "url": "https://zhuanlan.zhihu.com/p/144399638",
+      "summary": "正文说明控制点数量与曲线次数相关，并用伯恩斯坦多项式表达贝塞尔曲线。"
+    },
+    {
+      "title": "高中导数解题技巧之三次函数(三)",
+      "url": "https://zhuanlan.zhihu.com/p/145844449",
+      "summary": "正文利用切比雪夫多项式讨论二次和三次多项式在给定区间上的绝对值最大值最小化问题。"
+    },
+    {
+      "title": "数值计算方法 第六章 数值积分和数值微分",
+      "url": "https://zhuanlan.zhihu.com/p/142583935",
+      "summary": "正文使用 Legendre 多项式的零点构造高斯节点，并用多项式插值和正交性证明其代数精度。"
+    },
+    {
+      "title": "你可能不知道隐藏在杨辉三角形中的 10 个秘密！",
+      "url": "https://zhuanlan.zhihu.com/p/146418524",
+      "summary": "正文把杨辉三角的数与二项式系数对应，并用其展开二项式幂。"
+    },
+    {
+      "title": "什么是Bernstein多项式?",
+      "url": "https://zhuanlan.zhihu.com/p/146654504",
+      "summary": "正文给出 Bernstein 多项式的概率形式，并解释其非负性、峰值和积分等多项式性质。"
+    },
+    {
+      "title": "牛顿恒等式Newton's Identities",
+      "url": "https://zhuanlan.zhihu.com/p/146243974",
+      "summary": "正文围绕多项式根与系数的关系定义幂和，并系统讲解牛顿恒等式。"
+    },
+    {
+      "title": "数值分析笔记整理（2）——插值方法",
+      "url": "https://zhuanlan.zhihu.com/p/148623774",
+      "summary": "正文构造拉格朗日、牛顿和 Hermite 插值多项式，并讨论差商与插值余项。"
+    },
+    {
+      "title": "浅谈零知识证明之三：zkSNARK证明体系的实现",
+      "url": "https://zhuanlan.zhihu.com/p/150752963",
+      "summary": "正文讲解多项式的点值表示与插值还原，并据此把矩阵约束转化为多项式关系。"
+    },
+    {
+      "title": "因式分解常用方法汇总",
+      "url": "https://zhuanlan.zhihu.com/p/150761269",
+      "summary": "正文系统讲解多项式因式分解的多种方法，并以多组例题展示完整变形。"
+    },
+    {
+      "title": "“绝境之下”，如何求解矩阵的特征值？",
+      "url": "https://zhuanlan.zhihu.com/p/151003013",
+      "summary": "正文围绕三阶特征多项式讨论抵消、分组和待定系数等因式分解方法，并逐例计算。"
+    },
+    {
+      "title": "一道牛剑面试题",
+      "url": "https://zhuanlan.zhihu.com/p/152598658",
+      "summary": "正文把原题化为四次多项式，并讨论因式定理、有理根检验及多项式函数图像。"
+    },
+    {
+      "title": "立方和差公式",
+      "url": "https://zhuanlan.zhihu.com/p/156594805",
+      "summary": "正文用展开与因式分解推导立方差、立方和及完全立方多项式恒等式。"
+    },
+    {
+      "title": "最小多项式与若尔当标准形",
+      "url": "https://zhuanlan.zhihu.com/p/158225502",
+      "summary": "正文定义零化多项式与最小多项式，并证明其唯一性及与特征多项式的根关系。"
+    },
+    {
+      "title": "关于二阶线性递推数列的一些新玩意",
+      "url": "https://zhuanlan.zhihu.com/p/154539444",
+      "summary": "正文给出了由递推关系导出的切比雪夫多项式展开式，实质讨论了多项式表示。"
+    },
+    {
+      "title": "信道编码系列(三)：伽罗华域(Galois Fields)",
+      "url": "https://zhuanlan.zhihu.com/p/161411524",
+      "summary": "正文具体讨论有限域上多项式的加减乘除、不可约多项式和本原多项式。"
+    },
+    {
+      "title": "数学笔记|特殊函数(3):超几何函数",
+      "url": "https://zhuanlan.zhihu.com/p/160772031",
+      "summary": "正文定义超几何多项式与 Jacobi 多项式，并用二项式系数和阶乘项写出其显式多项式形式。"
+    },
+    {
+      "title": "数学建模笔记——插值拟合模型(一)",
+      "url": "https://zhuanlan.zhihu.com/p/163801915",
+      "summary": "正文讨论高次多项式插值的龙格现象，并说明采用分段低次多项式的理由。"
+    },
+    {
+      "title": "笛卡尔符号法则(Descartes' Rule of Signs)",
+      "url": "https://zhuanlan.zhihu.com/p/161577971",
+      "summary": "正文讲解实系数多项式的笛卡尔符号法则，包括变号次数的定义和正根个数结论。"
+    },
+    {
+      "title": "高次方程的韦达定理",
+      "url": "https://zhuanlan.zhihu.com/p/165655965",
+      "summary": "正文以因式分解和系数比较推导高次多项式根与系数之间的完整韦达关系。"
+    },
+    {
+      "title": "两个多项式的结式及其应用",
+      "url": "https://zhuanlan.zhihu.com/p/165459547",
+      "summary": "正文以多项式的互素判定、结式和判别式为核心，给出多项式理论中的完整推导。"
+    },
+    {
+      "title": "多项式因式分解的方法",
+      "url": "https://zhuanlan.zhihu.com/p/169519012",
+      "summary": "正文定义一元多项式，并讲解多项式除法、因式分解和不可约判别。"
+    },
+    {
+      "title": "斯图姆定理(Sturm's Theorem)",
+      "url": "https://zhuanlan.zhihu.com/p/164729380",
+      "summary": "正文以实系数多项式为对象构造斯图姆序列，并用具体四次多项式演示计算。"
+    },
+    {
+      "title": "关于二次、三次、四次方程求解方法讨论",
+      "url": "https://zhuanlan.zhihu.com/p/171549688",
+      "summary": "正文把二次至四次方程统一写成多项式方程，并通过配方和换元降为低次多项式。"
+    },
+    {
+      "title": "2020东南赛部分题解答",
+      "url": "https://zhuanlan.zhihu.com/p/172634859",
+      "summary": "正文研究系数受限的多项式，通过根的重数、因式分解和构造确定正整数根个数的最大值。"
+    },
+    {
+      "title": "如何求解1²+2²+3²+……+n²？",
+      "url": "https://zhuanlan.zhihu.com/p/196336032",
+      "summary": "正文由立方差公式逐项累加，整理出 n(n+1)(2n+1)/6 的三次多项式平方和公式。"
+    },
+    {
+      "title": "珠算真的能开方吗？（中国古代开方术集锦）",
+      "url": "https://zhuanlan.zhihu.com/p/205700682",
+      "summary": "正文用二项式展开和综合除法解释增乘开方术，并联系秦九韶多项式求值算法。"
+    },
+    {
+      "title": "代数Artin(十六): 伽罗瓦理论（完结）",
+      "url": "https://zhuanlan.zhihu.com/p/204677227",
+      "summary": "正文证明对称多项式基本定理，并用判别式、预解式和极小多项式分析三次、四次方程。"
+    },
+    {
+      "title": "代数基本定理(Fundamental Theorem of Algebra)",
+      "url": "https://zhuanlan.zhihu.com/p/197818023",
+      "summary": "正文以非零复系数多项式为对象，研究其零点存在性并推出分解为一次因式。"
+    },
+    {
+      "title": "高等代数导引——给新生",
+      "url": "https://zhuanlan.zhihu.com/p/219998193",
+      "summary": "正文讨论高次方程求根、多项式因式分解的唯一性以及不可约因式与根式解的判别。"
+    },
+    {
+      "title": "【WWWork】当你在看本子时无意间看到一道数学题",
+      "url": "https://zhuanlan.zhihu.com/p/235466394",
+      "summary": "正文对倒数型四次多项式除以 x^2 并配方，化为关于 x+1/x 的二次多项式处理。"
+    },
+    {
+      "title": "萌新也看得懂的三次方程解法和思路",
+      "url": "https://zhuanlan.zhihu.com/p/260834565",
+      "summary": "正文围绕一元三次多项式，利用韦达定理、因式分解和预解式研究其根。"
+    },
+    {
+      "title": "关于矩阵多项式的特征值 (⁄ ⁄•⁄ω⁄•⁄ ⁄)",
+      "url": "https://zhuanlan.zhihu.com/p/261152093",
+      "summary": "正文利用多项式分解及其根计算矩阵多项式行列式，并证明矩阵多项式特征值的性质。"
+    },
+    {
+      "title": "有限域计算简述",
+      "url": "https://zhuanlan.zhihu.com/p/262267121",
+      "summary": "正文把二进制串表示为多项式，并演示 GF(2^m) 中以多项式取模实现乘法。"
+    },
+    {
+      "title": "不可能の伪椭圆不定积分",
+      "url": "https://zhuanlan.zhihu.com/p/266003991",
+      "summary": "正文以无重根四次多项式的因式结构和系数变换作为积分分类与化简的核心。"
+    },
+    {
+      "title": "【高等代数（笔记）】第一章 多项式",
+      "url": "https://zhuanlan.zhihu.com/p/262943456",
+      "summary": "正文系统讲解一元多项式的定义、带余除法、整除性质与唯一因式分解。"
+    },
+    {
+      "title": "平滑轨迹插值方法之多项式插值（附代码）",
+      "url": "https://zhuanlan.zhihu.com/p/269230598",
+      "summary": "正文系统比较线性、二次、三次、五次和更高次多项式插值，并给出系数构造。"
+    },
+    {
+      "title": "第十一天（20,11,18）：分项积分法",
+      "url": "https://zhuanlan.zhihu.com/p/299988106",
+      "summary": "正文利用代数基本定理与虚根成对说明真分式分母的多项式因式分解和部分分式展开。"
+    },
+    {
+      "title": "矩阵与数值计算（12）——Lagrange插值、Newton插值、Hermite插值",
+      "url": "https://zhuanlan.zhihu.com/p/317097371",
+      "summary": "正文以插值基函数构造插值多项式，并讨论多项式插值的存在性与唯一性。"
+    },
+    {
+      "title": "5-3 求根公式和韦达定理",
+      "url": "https://zhuanlan.zhihu.com/p/333943829",
+      "summary": "正文讨论有理系数多项式的共轭根，并说明高次多项式可分解为一次和二次多项式。"
+    },
+    {
+      "title": "一篇文章搞懂多项式因式分解和多项式除法",
+      "url": "https://zhuanlan.zhihu.com/p/333784154",
+      "summary": "正文以多项式为对象，讲解因式分解与多项式除法的关系及具体算法。"
+    },
+    {
+      "title": "留数法实现有理分式拆分原理",
+      "url": "https://zhuanlan.zhihu.com/p/336225471",
+      "summary": "正文系统讲解有理分式的部分分式展开，并按分母的因式结构拆分多项式分式。"
+    },
+    {
+      "title": "x^n-1的根、分解、与几个与此相关的等式",
+      "url": "https://zhuanlan.zhihu.com/p/335334455",
+      "summary": "正文系统讨论 x^n-1 与 x^n+1 的因式分解、根及实数域标准分解。"
+    },
+    {
+      "title": "函数空间正交基(Orthogonal Bases)",
+      "url": "https://zhuanlan.zhihu.com/p/336779418",
+      "summary": "正文以单项式多项式为起点，通过 Gram-Schmidt 正交化构造勒让德多项式基。"
+    },
+    {
+      "title": "一道无理方程题",
+      "url": "https://zhuanlan.zhihu.com/p/337812609",
+      "summary": "正文用试根、因子定理和长除法分解三次多项式，从而求出方程的三个根。"
+    },
+    {
+      "title": "数学技巧||一元三次方程求解，大除法解一元三次方程！",
+      "url": "https://zhuanlan.zhihu.com/p/338340227",
+      "summary": "正文用整数长除法类比多项式大除法，说明余式为零时可分解多项式并用于高次多项式降次。"
+    },
+    {
+      "title": "Chebyshev（切比雪夫）定理",
+      "url": "https://zhuanlan.zhihu.com/p/339801667",
+      "summary": "正文围绕首一实系数多项式给出切比雪夫定理，并借助余弦多项式完成证明。"
+    },
+    {
+      "title": "高等代数，前进四！——高代实验班习题课设计（2020秋）",
+      "url": "https://zhuanlan.zhihu.com/p/339385421",
+      "summary": "正文讲解多项式代换、代数同态、根与因式以及结式判别式，实质展开多项式理论。"
+    },
+    {
+      "title": "自然数幂求和--计算量大（慎重）",
+      "url": "https://zhuanlan.zhihu.com/p/344394689",
+      "summary": "正文用二项式展开逐级推导自然数各次幂的求和闭式，并将其整理为关于 n 的多项式。"
+    },
+    {
+      "title": "数值分析例题分析（一）",
+      "url": "https://zhuanlan.zhihu.com/p/346542377",
+      "summary": "正文构造满足插值条件的多项式，并比较 Lagrange、Hermite 与带重节点的 Newton 插值多项式。"
+    },
+    {
+      "title": "【高中数学·圆锥曲线】点乘双根法",
+      "url": "https://zhuanlan.zhihu.com/p/347527540",
+      "summary": "正文利用二次函数的两个零点给出其因式分解形式，并通过展开和韦达关系证明恒等表示。"
+    },
+    {
+      "title": "抽象代数教学体系的探索 II",
+      "url": "https://zhuanlan.zhihu.com/p/348275589",
+      "summary": "正文反复以多项式因式分解、多项式环、赋值同态和最小多项式作为环论的具体实例。"
+    },
+    {
+      "title": "没解决这个7次方程问题，为何这三个数学家却很开心",
+      "url": "https://zhuanlan.zhihu.com/p/350941552",
+      "summary": "正文从二次方程一路讨论到高次多项式方程的求根复杂性及可解性限制。"
+    },
+    {
+      "title": "线性代数：四、向量的内积与内积空间",
+      "url": "https://zhuanlan.zhihu.com/p/350620954",
+      "summary": "正文具体构造正交多项式，推导递推式、正交性和零点，并举例勒让德与切比雪夫多项式。"
+    },
+    {
+      "title": "知乎上的热门“数学”问题（一）：计算",
+      "url": "https://zhuanlan.zhihu.com/p/351796146",
+      "summary": "正文证明横坐标互异的 m+1 个点唯一确定 m 次多项式，并实际构造满足给定数据的四次多项式。"
+    },
+    {
+      "title": "Legendre 多项式",
+      "url": "https://zhuanlan.zhihu.com/p/352724194",
+      "summary": "正文用 Gram-Schmidt 正交化构造勒让德多项式，并给出递推式与低阶多项式表达式。"
+    },
+    {
+      "title": "inversioner版高中数学课本(2)——第三章：复数",
+      "url": "https://zhuanlan.zhihu.com/p/361653318",
+      "summary": "正文讲授复系数多项式的代数基本定理、因式分解、重根、韦达关系和实系数多项式分解。"
+    },
+    {
+      "title": "【Matlab】最小二乘法拟合多项式",
+      "url": "https://zhuanlan.zhihu.com/p/362388485",
+      "summary": "正文使用一次、二次、三次和四次多项式作为拟合模型，并比较不同阶数的拟合结果。"
+    },
+    {
+      "title": "贝塞尔曲线与曲面（Bezier Curve and Surface）的详细介绍与代码实现",
+      "url": "https://zhuanlan.zhihu.com/p/366678047",
+      "summary": "正文用伯恩斯坦多项式的基函数和组合数公式构造贝塞尔曲线，并展开其递归与升降阶性质。"
+    },
+    {
+      "title": "多项式拟合的介绍与例子",
+      "url": "https://zhuanlan.zhihu.com/p/366870301",
+      "summary": "正文明确建立n次多项式模型并说明各次项及其待定系数。"
+    },
+    {
+      "title": "数值分析(5)：插值法",
+      "url": "https://zhuanlan.zhihu.com/p/368045270",
+      "summary": "正文定义以代数多项式为插值函数的多项式插值，并展开拉格朗日、牛顿与 Hermite 构造，直接对应多项式概念。"
+    },
+    {
+      "title": "数值分析(6)：分段低次插值和三次样条插值",
+      "url": "https://zhuanlan.zhihu.com/p/368911657",
+      "summary": "正文以多项式插值为起点，讨论高次插值的 Runge 现象并改用分段低次多项式。"
+    },
+    {
+      "title": "贝塞尔曲线与B样条",
+      "url": "https://zhuanlan.zhihu.com/p/369753167",
+      "summary": "正文用伯恩斯坦多项式和分段低次多项式基函数构造贝塞尔曲线与 B 样条。"
+    },
+    {
+      "title": "A probabilistic proof of Weierstrass approximation theorem",
+      "url": "https://zhuanlan.zhihu.com/p/371556088",
+      "summary": "正文以 Bernstein 多项式作为逼近函数，解释其构造并通过概率估计证明多项式一致逼近连续函数。"
+    },
+    {
+      "title": "伽罗瓦理论概述（四、一元高次方程的解法本质）",
+      "url": "https://zhuanlan.zhihu.com/p/376242058",
+      "summary": "正文定义对称多项式与基本对称多项式，并用韦达定理说明方程的根如何由系数表示。"
+    },
+    {
+      "title": "问题引导的环论 I",
+      "url": "https://zhuanlan.zhihu.com/p/384968033",
+      "summary": "正文围绕多项式环的因数分解、不可约多项式和带余除法展开，并与整数环对照。"
+    },
+    {
+      "title": "【自学笔记】(Legendre多项式)勒让德多项式推导、(Zernike多项式)泽尔尼克多项式推导思路、Zernike矩、目标识别的形状特征提取",
+      "url": "https://zhuanlan.zhihu.com/p/392294958",
+      "summary": "正文从低阶情形推导勒让德多项式的通项，并讨论其多项式幂次结构。"
+    },
+    {
+      "title": "二项式定理的推导与证明",
+      "url": "https://zhuanlan.zhihu.com/p/392871647",
+      "summary": "正文先展开低次二项式并分析各项幂次与系数，再推广到任意次二项式定理。"
+    },
+    {
+      "title": "如何理解部分分式积分法",
+      "url": "https://zhuanlan.zhihu.com/p/395916211",
+      "summary": "正文利用多项式除法因式分解分母，是部分分式分解的核心步骤。"
+    },
+    {
+      "title": "拉格朗日插值公式的推导及应用——范德蒙德方阵的逆矩阵",
+      "url": "https://zhuanlan.zhihu.com/p/397342283",
+      "summary": "正文以次数不超过 n 的插值多项式为中心，证明其唯一性并构造拉格朗日插值多项式。"
+    },
+    {
+      "title": "详聊如何理解a^n-b^n因式分解",
+      "url": "https://zhuanlan.zhihu.com/p/400080757",
+      "summary": "正文系统推导a^n-b^n等幂差的因式分解公式并给出代换推广，属于多项式恒等变形。"
+    },
+    {
+      "title": "《魔法少女小圆》中的数学题",
+      "url": "https://zhuanlan.zhihu.com/p/403490847",
+      "summary": "正文展开 (1+n)^p 的二项式，并利用二项式系数被素数 p 整除完成证明。"
+    },
+    {
+      "title": "三大招轻松快速解决有理函数积分的拆解",
+      "url": "https://zhuanlan.zhihu.com/p/411502030",
+      "summary": "正文把有理函数定义为两个多项式之比，并通过分解分母多项式讨论部分分式展开。"
+    },
+    {
+      "title": "部分分式展开法",
+      "url": "https://zhuanlan.zhihu.com/p/411676642",
+      "summary": "正文以多项式整除和因式分解为基础，推导无重根与重根情形的部分分式展开。"
+    },
+    {
+      "title": "函数求极限的通用大杀器——泰勒公式",
+      "url": "https://zhuanlan.zhihu.com/p/412006280",
+      "summary": "正文先讨论多项式的通式、四则运算和低阶项极限，再以多项式逼近一般函数。"
+    },
+    {
+      "title": "从一元二次方程到群论(1)：一元二次方程",
+      "url": "https://zhuanlan.zhihu.com/p/412201833",
+      "summary": "正文用因式分解联系二次多项式与两根，并讨论判别式和基本对称多项式。"
+    },
+    {
+      "title": "从一元二次方程到群论(3)：一元三次方程的判别式",
+      "url": "https://zhuanlan.zhihu.com/p/413348034",
+      "summary": "正文定义一般多项式判别式为根差平方的乘积，并用对称多项式推导三次判别式。"
+    },
+    {
+      "title": "有限域的结构(1): 有限域的特点",
+      "url": "https://zhuanlan.zhihu.com/p/416128323",
+      "summary": "正文利用不可约多项式、根与分裂域构造有限域，并证明各次数不可约多项式的存在性。"
+    },
+    {
+      "title": "从一元二次方程到群论(10)：伽罗华理论",
+      "url": "https://zhuanlan.zhihu.com/p/417397566",
+      "summary": "正文以双二次多项式 x^4+px^2+q 为例，利用换元与求根公式分析其四个根及根的对称性。"
+    },
+    {
+      "title": "n次方差公式",
+      "url": "https://zhuanlan.zhihu.com/p/420324381",
+      "summary": "正文给出 n 次方差的多项式因式分解，并通过等比数列求和及代换证明该恒等式及其低次特例。"
+    },
+    {
+      "title": "解方程有什么难的？",
+      "url": "https://zhuanlan.zhihu.com/p/426555310",
+      "summary": "正文从单位根是多项式的根出发，讨论多项式的结构、因式分解及其根与系数的关系。"
+    },
+    {
+      "title": "从厄米方程到厄米多项式",
+      "url": "https://zhuanlan.zhihu.com/p/436428054",
+      "summary": "正文推导偶数阶、奇数阶及统一形式的厄米多项式，并讨论其递推、正交性和生成函数。"
+    },
+    {
+      "title": "Love不等式---数学生的浪漫",
+      "url": "https://zhuanlan.zhihu.com/p/440564913",
+      "summary": "正文研究所有零点均为实数的 n 次多项式及其导数满足的关系。"
+    },
+    {
+      "title": "数学知识篇42：因式分解（二）——十字相乘法",
+      "url": "https://zhuanlan.zhihu.com/p/440324474",
+      "summary": "正文由多项式乘法逆推二次三项式因式分解，系统讲解十字相乘法，属于多项式内容。"
+    },
+    {
+      "title": "等幂和问题(6)—— 3³+4³+5³=6³ 再探索",
+      "url": "https://zhuanlan.zhihu.com/p/449949023",
+      "summary": "正文把连续整数幂和恒等式展开为多项式，通过待定系数和比较各次项系数求解参数。"
+    },
+    {
+      "title": "二项式定理(Binomial Theorem)专题整理",
+      "url": "https://zhuanlan.zhihu.com/p/452325708",
+      "summary": "正文从二项展开推广到多项式的多变量展开，并讨论多项式展开的项数和系数。"
+    },
+    {
+      "title": "从二项式定理到多项式定理",
+      "url": "https://zhuanlan.zhihu.com/p/454701867",
+      "summary": "正文从多项式乘法法则推导二项式定理并推广到多项式定理。"
+    },
+    {
+      "title": "三次多项式的因式分解——双十字相乘法",
+      "url": "https://zhuanlan.zhihu.com/p/455686319",
+      "summary": "正文以系数交叉相乘和待定系数解释双十字相乘法，给出三次多项式因式分解的一般操作。"
+    },
+    {
+      "title": "几个较难的积分不等式",
+      "url": "https://zhuanlan.zhihu.com/p/464180118",
+      "summary": "正文构造 n 次首一多项式，并用其积分最小化来推导不等式常数。"
+    },
+    {
+      "title": "方程根之美",
+      "url": "https://zhuanlan.zhihu.com/p/465214119",
+      "summary": "正文定义整系数多项式及 Littlewood 多项式，并讨论次数增加时多项式根集的分布。"
+    },
+    {
+      "title": "从复数乘法到代数基本定理——拓扑角度看复变",
+      "url": "https://zhuanlan.zhihu.com/p/468856548",
+      "summary": "正文从因式分解出发研究复多项式的映射，并讨论零点、重根与根的个数。"
+    },
+    {
+      "title": "数值分析 - 第二章 - 函数逼近 （1） - 最佳平方逼近",
+      "url": "https://zhuanlan.zhihu.com/p/472539436",
+      "summary": "正文用多项式空间中的基函数和系数构造最佳逼近多项式，并比较两种求系数方法。"
+    },
+    {
+      "title": "线性赢数论：二赢型与「双赢就是赢两次」猜想（Linear Algebra Done Win: Quadratic Win-Form）",
+      "url": "https://zhuanlan.zhihu.com/p/472997087",
+      "summary": "正文定义一元多项式的系数、次数和乘法，并介绍多项式环的记号。"
+    },
+    {
+      "title": "量子力学之路（3）——球谐函数，近代数学中最著名的函数之一",
+      "url": "https://zhuanlan.zhihu.com/p/488242089",
+      "summary": "正文由勒让德方程的有限级数解定义勒让德多项式，并推广到连带勒让德多项式。"
+    },
+    {
+      "title": "kaysen学长：配方法化二次型为标准型通俗讲解！理解门槛降为0，不再配出一地鸡毛！",
+      "url": "https://zhuanlan.zhihu.com/p/518226818",
+      "summary": "正文以三元二次齐次多项式为例，逐步配方并给出将其化为平方和形式的具体推导。"
+    },
+    {
+      "title": "一文看懂有限元中的高斯积分(Gaussian Quadrature)",
+      "url": "https://zhuanlan.zhihu.com/p/521630645",
+      "summary": "正文用一至三阶多项式逐步推导高斯求积的精确阶数，并给出一般多项式结论。"
+    },
+    {
+      "title": "【强基数学笔记】代数变形",
+      "url": "https://zhuanlan.zhihu.com/p/527670052",
+      "summary": "正文整理平方、立方及轮换多项式的因式分解公式，并用于化简目标式。"
+    },
+    {
+      "title": "【高等代数(丘维声著）笔记】6.8线性变换的不变子空间",
+      "url": "https://zhuanlan.zhihu.com/p/529066941",
+      "summary": "正文补充一元多项式的整除、公因式、互素与不可约性，并用多项式代入线性变换。"
+    },
+    {
+      "title": "GeoGebra函数作图基础",
+      "url": "https://zhuanlan.zhihu.com/p/529431862",
+      "summary": "正文讲解由三个不共线点拟合二次多项式，并说明点数与拟合次数的关系。"
+    },
+    {
+      "title": "三次方程的不堪过往",
+      "url": "https://zhuanlan.zhihu.com/p/538015336",
+      "summary": "讨论亏损三次多项式、代换降次以及高次多项式根的可表示性。"
+    },
+    {
+      "title": "辍学写诗的数学差生，刚刚获得菲尔兹奖",
+      "url": "https://zhuanlan.zhihu.com/p/538148021",
+      "summary": "正文以三角形着色为例构造色多项式，并讨论其系数序列的单峰性与对数凹性。"
+    },
+    {
+      "title": "数值分析期末复习笔记（附电子版）",
+      "url": "https://zhuanlan.zhihu.com/p/538881498",
+      "summary": "正文用拉格朗日插值构造 n 次多项式插值函数，并进一步比较牛顿与埃尔米特多项式插值。"
+    },
+    {
+      "title": "【软件理论】（二）从贝塞尔(Bézier)曲线到NURBS曲线(非均匀有理B样条)的浅谈",
+      "url": "https://zhuanlan.zhihu.com/p/539477988",
+      "summary": "正文把 B 样条的阶数解释为多项式最高次幂，并讨论多项式次数对曲线性质与计算量的影响。"
+    },
+    {
+      "title": "分圆多项式  cyclotomic polynomial",
+      "url": "https://zhuanlan.zhihu.com/p/544114747",
+      "summary": "正文定义分圆多项式，并由单位根与因子关系推导其等价定义、不可约性及函数性质。"
+    },
+    {
+      "title": "复分析（2）——复数的方根",
+      "url": "https://zhuanlan.zhihu.com/p/527168604",
+      "summary": "正文利用单位根分解多项式z^{2m}-1，并推导含余弦因子的因式分解恒等式。"
+    },
+    {
+      "title": "不等式进阶——待定系数法",
+      "url": "https://zhuanlan.zhihu.com/p/549127393",
+      "summary": "正文通过比较多项式展开后的各项系数来解释三元多项式的因式分解。"
+    },
+    {
+      "title": "用路边乞丐知识推导∫dx/(xⁿ+1)",
+      "url": "https://zhuanlan.zhihu.com/p/549727927",
+      "summary": "正文对多项式 x^n+1 作复数根分解并利用根与系数关系化简。"
+    },
+    {
+      "title": "高阶导数的应用——莱布尼兹公式",
+      "url": "https://zhuanlan.zhihu.com/p/551352057",
+      "summary": "正文利用多项式求导到 n 阶后成为常数的性质，处理多项式和其余函数的乘积。"
+    },
+    {
+      "title": "伽罗瓦理论基本定理——群论和域论之间的一座桥梁",
+      "url": "https://zhuanlan.zhihu.com/p/559318226",
+      "summary": "正文定义多项式环、次数、根与最小多项式，并以多项式的分裂域讨论域扩张和伽罗瓦群。"
+    },
+    {
+      "title": "算法学习笔记(1)：FFT(快速傅里叶变换)",
+      "url": "https://zhuanlan.zhihu.com/p/567738394",
+      "summary": "正文从多项式的系数表示与点值表示出发，讲解如何唯一确定和快速计算多项式。"
+    },
+    {
+      "title": "代数基本定理的复分析证明方法",
+      "url": "https://zhuanlan.zhihu.com/p/563722748",
+      "summary": "正文围绕复系数非常值多项式的根存在性展开，并给出复数域上 n 次多项式的根数结论。"
+    },
+    {
+      "title": "《复分析：可视化方法》",
+      "url": "https://zhuanlan.zhihu.com/p/577069768",
+      "summary": "正文讨论多项式根与线性因式分解，并用代数基本定理推导复系数多项式的完全分解。"
+    },
+    {
+      "title": "对二次函数型递归数列解法的探索",
+      "url": "https://zhuanlan.zhihu.com/p/573592940",
+      "summary": "正文展开并对二次多项式递推式配方，利用判别式和系数关系确定可求通项的标准形式。"
+    },
+    {
+      "title": "拉格朗日预解式",
+      "url": "https://zhuanlan.zhihu.com/p/582315546",
+      "summary": "正文定义对称多项式和初等对称多项式，并陈述对称多项式基本定理及韦达关系。"
+    },
+    {
+      "title": "完全平方参数方程（圆锥曲线的新方法）",
+      "url": "https://zhuanlan.zhihu.com/p/582840413",
+      "summary": "正文把直线过定点的条件化为关于两点参数 t₁、t₂ 的对称多项式关系，再用待定系数求解。"
+    },
+    {
+      "title": "抽象代数笔记：素理想与极大理想",
+      "url": "https://zhuanlan.zhihu.com/p/584215852",
+      "summary": "正文证明域上一元多项式环的理想均为主理想，并用不可约多项式刻画素理想。"
+    },
+    {
+      "title": "一元三次方程求根公式、推导过程和相关疑问",
+      "url": "https://zhuanlan.zhihu.com/p/547383870",
+      "summary": "正文以三次多项式为例讲解拆项、分组和试根等因式分解方法。"
+    },
+    {
+      "title": "【解析几何】利用圆锥曲线尺规作图正七边形",
+      "url": "https://zhuanlan.zhihu.com/p/597924635",
+      "summary": "正文构造以四个余弦值为根的四次多项式，通过展开式和系数比较确定未知参数。"
+    },
+    {
+      "title": "从微积分到数学物理方法（3.1）：勒让德方程与勒让德多项式",
+      "url": "https://zhuanlan.zhihu.com/p/581321690",
+      "summary": "正文令级数截断为有限项，推导 Legendre 多项式的系数递推关系和一般求和公式。"
+    },
+    {
+      "title": "函数拟合——解决导数零点和&差问题的利刃",
+      "url": "https://zhuanlan.zhihu.com/p/607463594",
+      "summary": "正文以待定系数构造二次多项式，并匹配原函数的值、一阶导和二阶导来证明零点结论。"
+    },
+    {
+      "title": "插值法——拉格朗日插值",
+      "url": "https://zhuanlan.zhihu.com/p/609347926",
+      "summary": "正文逐步构造拉格朗日基函数，并用这些基生成穿过全部样本点的插值多项式。"
+    },
+    {
+      "title": "详解留数法拆分有理分式",
+      "url": "https://zhuanlan.zhihu.com/p/619998711",
+      "summary": "正文从多项式商定义有理分式，并证明其可分解为部分分式之和。"
+    },
+    {
+      "title": "计算多项式的Galois群",
+      "url": "https://zhuanlan.zhihu.com/p/622822909",
+      "summary": "正文围绕首一不可约多项式的判别式、3次分解式和具体4次多项式计算 Galois 群。"
+    },
+    {
+      "title": "数学复习(4)：切比雪夫多项式",
+      "url": "https://zhuanlan.zhihu.com/p/626421358",
+      "summary": "正文以递推式定义第一类和第二类切比雪夫多项式，并推导其生成函数、零点与转化关系。"
+    },
+    {
+      "title": "让我给你讲清楚 快速傅里叶变换(FFT)(一): 数学原理详解",
+      "url": "https://zhuanlan.zhihu.com/p/627423504",
+      "summary": "正文讨论多项式的系数表示、点值表示以及借助点值乘法完成多项式乘法。"
+    },
+    {
+      "title": "切比雪夫多项式(1): n倍角公式",
+      "url": "https://zhuanlan.zhihu.com/p/640886639",
+      "summary": "正文从定义推导切比雪夫多项式及其递推关系，并计算系数、零点、因子分解和完全展开式。"
+    },
+    {
+      "title": "快速傅里叶变换(FFT)（上篇）",
+      "url": "https://zhuanlan.zhihu.com/p/645326663",
+      "summary": "正文通过点值表示、多项式乘法和奇偶分解，实质讲解多项式的表示与运算。"
+    },
+    {
+      "title": "白话伽罗华理论",
+      "url": "https://zhuanlan.zhihu.com/p/646017546",
+      "summary": "正文讲解代数元素、极小多项式、不可约多项式和分裂域，说明多项式根与域扩张的联系。"
+    },
+    {
+      "title": "多项式逼近与Weierstrass-Stone定理",
+      "url": "https://zhuanlan.zhihu.com/p/650708724",
+      "summary": "正文以Bernstein多项式和多项式代数为核心对象，证明多项式对连续函数的一致逼近。"
+    },
+    {
+      "title": "多项式插值：拉格朗日插值法(Lagrange Approximation)",
+      "url": "https://zhuanlan.zhihu.com/p/645788465",
+      "summary": "正文构造满足给定数据点的 n 次多项式，并展开拉格朗日插值公式和余项。"
+    },
+    {
+      "title": "解析几何专题二：非对称韦达定理",
+      "url": "https://zhuanlan.zhihu.com/p/653582285",
+      "summary": "正文以一元二次方程的韦达定理为背景，界定两根系数不对等时的非对称韦达问题。"
+    },
+    {
+      "title": "高等代数——不可约多项式",
+      "url": "https://zhuanlan.zhihu.com/p/653615134",
+      "summary": "正文系统讲解多项式的不可约性及多种判别法，属于多项式主题。"
+    },
+    {
+      "title": "韦达定理构造双变量问题中的“伪二次拟合”——从一道征解题谈起",
+      "url": "https://zhuanlan.zhihu.com/p/653868986",
+      "summary": "正文通过韦达定理构造二次函数并比较零点位置完成证明。"
+    },
+    {
+      "title": "MINCO轨迹参数化超详细原理讲解与手把手代码分析 （二）",
+      "url": "https://zhuanlan.zhihu.com/p/661456782",
+      "summary": "正文以分段多项式及其基函数表示 MINCO 轨迹，并构造各阶连续性约束。"
+    },
+    {
+      "title": "Zernike多项式介绍及Matlab实现（与Zemax完全一致）",
+      "url": "https://zhuanlan.zhihu.com/p/667867516",
+      "summary": "正文介绍 Zernike 多项式完全集，并给出径向多项式、归一化项及多项式和的计算实现。"
+    },
+    {
+      "title": "Motion Plan之轨迹生成代码实现",
+      "url": "https://zhuanlan.zhihu.com/p/670968011",
+      "summary": "正文用五次多项式表示轨迹，并讨论多段多项式的系数求解。"
+    },
+    {
+      "title": "Mod积分法",
+      "url": "https://zhuanlan.zhihu.com/p/670917081",
+      "summary": "正文用多项式因式分解、带余除法和余式讨论多项式运算。"
+    },
+    {
+      "title": "02 保姆级理解 B-Spline",
+      "url": "https://zhuanlan.zhihu.com/p/672199076",
+      "summary": "正文具体讨论B样条的次数、阶数、节点区间及各分段三次多项式表达式。"
+    },
+    {
+      "title": "勒让德多项式的性质（正交性、奇偶性、递推式）",
+      "url": "https://zhuanlan.zhihu.com/p/675756007",
+      "summary": "正文以罗德里格斯公式定义勒让德多项式，并讨论首项系数、奇偶性和多项式空间中的正交基。"
+    },
+    {
+      "title": "详解留数法分解有理函数",
+      "url": "https://zhuanlan.zhihu.com/p/673931570",
+      "summary": "正文把有理函数的各重极点分解转化为多项式因式及待定系数问题。"
+    },
+    {
+      "title": "行列式的几种特殊计算技巧",
+      "url": "https://zhuanlan.zhihu.com/p/676794395",
+      "summary": "正文提出多项式根法，把行列式视为多项式并借助根来计算循环行列式等对象。"
+    },
+    {
+      "title": "论分圆多项式的系数",
+      "url": "https://zhuanlan.zhihu.com/p/679264372",
+      "summary": "正文具体分解分圆多项式、分析乘积展开中的消项，并证明特定条件下各项系数只能为 0 或 ±1。"
+    },
+    {
+      "title": "论多项式的分解",
+      "url": "https://zhuanlan.zhihu.com/p/681275551",
+      "summary": "正文系统研究本原多项式、不可约性、Gauss引理和Eisenstein准则，并用于分圆多项式的分解。"
+    },
+    {
+      "title": "【新版】数论：概念和问题（零）",
+      "url": "https://zhuanlan.zhihu.com/p/679558376",
+      "summary": "正文用二项式基展开多项式，介绍Mahler系数、导数多项式与差分多项式及其算术性质。"
+    },
+    {
+      "title": "【注意力涣散】找规律 任意答案 通项的7个逆天方法（初中可看，有新想法会更新）",
+      "url": "https://zhuanlan.zhihu.com/p/682200542",
+      "summary": "正文以待定系数构造任意次多项式，使多项式经过给定的数列项。"
+    },
+    {
+      "title": "Selmer多项式(X^n-X-1)及其Galois群",
+      "url": "https://zhuanlan.zhihu.com/p/684029948",
+      "summary": "正文围绕 X^n-X-1 的不可约性、判别式和根的性质展开多项式分析。"
+    },
+    {
+      "title": "极值点偏移中的函数构造",
+      "url": "https://zhuanlan.zhihu.com/p/684983807",
+      "summary": "正文专门讨论复合多项式构造，说明如何通过多项式辅助函数消去泰勒展开中的偶次项。"
+    },
+    {
+      "title": "组合学的多项式方法：有限域Kakeya猜想",
+      "url": "https://zhuanlan.zhihu.com/p/686081489",
+      "summary": "正文以消失引理、次数和零点计数为核心推导 Dvir 的多项式方法。"
+    },
+    {
+      "title": "写在Galois之前：一元五次以上方程为何无求根公式，高中生都能看懂的Galois理论——从Lagrange到Galois.",
+      "url": "https://zhuanlan.zhihu.com/p/689503545",
+      "summary": "正文讨论一元多项式方程的根、Vieta 定理、对称多项式及预解式。"
+    },
+    {
+      "title": "你未曾见过的n倍角公式",
+      "url": "https://zhuanlan.zhihu.com/p/697744715",
+      "summary": "正文将倍角公式归结为切比雪夫多项式，并通过特征方程求其通项。"
+    },
+    {
+      "title": "牛顿恒等式的证明",
+      "url": "https://zhuanlan.zhihu.com/p/697739965",
+      "summary": "正文定义幂和与初等对称多项式，并把它们对应到多项式系数后证明牛顿恒等式。"
+    },
+    {
+      "title": "关于一道十分需要“注意力”的数学问题",
+      "url": "https://zhuanlan.zhihu.com/p/704727769",
+      "summary": "正文引入两个多项式并利用其三次方分解构造恒等式。"
+    },
+    {
+      "title": "一道阿里巴巴决赛数论题的初等解答",
+      "url": "https://zhuanlan.zhihu.com/p/704942683",
+      "summary": "正文先把 x^p−1 分解为一次与二次多项式乘积，再作变量代换并展开证明，实质使用多项式分解。"
+    },
+    {
+      "title": "抽象代数观点下的标准型理论",
+      "url": "https://zhuanlan.zhihu.com/p/708807118",
+      "summary": "正文研究多项式环上的矩阵，并以多项式的友阵、不变因子和初等因子构造标准型。"
+    },
+    {
+      "title": "数学的艺术 —— 函数的因式分解",
+      "url": "https://zhuanlan.zhihu.com/p/710768699",
+      "summary": "正文以具体多项式因式分解为例，引出由整函数零点构造乘积分解的思路。"
+    },
+    {
+      "title": "等幂求和（一）：自然数幂方求和的规律",
+      "url": "https://zhuanlan.zhihu.com/p/709928345",
+      "summary": "正文把等幂求和 S_k 视为关于 n 的多项式，并证明其次数、常数项和系数规律。"
+    },
+    {
+      "title": "看 KAN：原理及源码解析",
+      "url": "https://zhuanlan.zhihu.com/p/712864245",
+      "summary": "正文以分段多项式基函数定义 B 样条，并展开次数、节点和控制点等结构。"
+    },
+    {
+      "title": "等幂求和（三）：伯努利数列与哑运算",
+      "url": "https://zhuanlan.zhihu.com/p/713042680",
+      "summary": "正文以哑运算定义伯努利多项式，并推导差分、导数和余元公式等多项式性质。"
+    },
+    {
+      "title": "齐次化的推广——高次齐次化的应用",
+      "url": "https://zhuanlan.zhihu.com/p/720521758",
+      "summary": "正文把二次齐次式平方构造为四次多项式，并借助四次方程的韦达关系处理四个斜率之和。"
+    },
+    {
+      "title": "Lattice Planner与EM Planner简介",
+      "url": "https://zhuanlan.zhihu.com/p/891592717",
+      "summary": "正文用位置、速度和加速度的边界条件建立五次多项式方程，并说明其在轨迹采样与插值中的求解方法。"
+    },
+    {
+      "title": "反思数学本科教学：我们到底需要知道什么？（分析篇）",
+      "url": "https://zhuanlan.zhihu.com/p/17252527652",
+      "summary": "正文以多项式空间为基础定义积分与微分，并把多项式作为分析理论的具体模型。"
+    },
+    {
+      "title": "让我们彻底解决一类圆锥曲线定点问题吧……",
+      "url": "https://zhuanlan.zhihu.com/p/17686529745",
+      "summary": "正文讲解二元二次多项式用长除法进行因式分解，以得到过定点所需的线性因子。"
+    },
+    {
+      "title": "耗时一个月，终于弄懂一点伽罗瓦理论了——N次代数方程的求根公式问题",
+      "url": "https://zhuanlan.zhihu.com/p/21642106810",
+      "summary": "正文从二次及 N 次多项式的一般根式表达式切入，讨论多项式方程求根问题。"
+    },
+    {
+      "title": "再耗时半个月，进一步弄明白了伽罗瓦理论了是为什么",
+      "url": "https://zhuanlan.zhihu.com/p/24037889392",
+      "summary": "正文以不可约多项式及其全部根定义分裂域，并用多个多项式例子说明。"
+    },
+    {
+      "title": "B.1(克罗内克定理)高中生能懂，绕开群论证明高次方程无根式解(及一个例子)",
+      "url": "https://zhuanlan.zhihu.com/p/29537121160",
+      "summary": "正文系统讨论多项式的可约性、整除、重根、不可约判别和因式分解，并证明高斯引理与艾森斯坦判别法。"
+    },
+    {
+      "title": "阿贝尔-鲁菲尼定理——为什么五次多项式没有求根公式？",
+      "url": "https://zhuanlan.zhihu.com/p/1907889134044938818",
+      "summary": "正文围绕多项式的根、重根、分裂域和求根公式展开，多项式是全文的核心对象。"
+    },
+    {
+      "title": "抽象代数（四）：域论——能学明白域论的都是些什么人啊",
+      "url": "https://zhuanlan.zhihu.com/p/1903155385164104183",
+      "summary": "正文定义代数元与极小多项式，并证明其唯一性、不可约性及整除其他以该元为根的多项式。"
+    },
+    {
+      "title": "Approximation theory 近似理论",
+      "url": "https://zhuanlan.zhihu.com/p/1914344801593194049",
+      "summary": "正文以多项式插值、切比雪夫节点和极小极大误差讨论如何选择最佳近似多项式。"
+    },
+    {
+      "title": "完整总结！切比雪夫多项式与勒让德多项式逼近",
+      "url": "https://zhuanlan.zhihu.com/p/1933514153835893710",
+      "summary": "正文定义切比雪夫和勒让德多项式，并讨论首一多项式的最佳逼近常数与取等条件。"
+    },
+    {
+      "title": "从等比数列求和到分圆多项式",
+      "url": "https://zhuanlan.zhihu.com/p/1955683885439485891",
+      "summary": "正文从等比数列求和和 x^n-1 的因式分解出发，系统讨论分圆多项式及其按 d|n 的分解。"
+    },
+    {
+      "title": "探寻矩阵的本质——Jordan标准型",
+      "url": "https://zhuanlan.zhihu.com/p/1917010925040439525",
+      "summary": "正文定义最小多项式，并由特征多项式和 Jordan 块阶数给出其分解公式。"
+    },
+    {
+      "title": "取整函数的多项式",
+      "url": "https://zhuanlan.zhihu.com/p/1962542885497974791",
+      "summary": "正文推导取整函数表示幂次的多元多项式恒等式，并给出按整数分拆展开的p_n公式。"
+    },
+    {
+      "title": "李-杨单位圆定理",
+      "url": "https://zhuanlan.zhihu.com/p/1963625182053762633",
+      "summary": "正文围绕Lee-Yang多项式给出单位圆根定理，并用稳定多项式与Schur-Hadamard乘积完成证明。"
+    },
+    {
+      "title": "13709 带你发现那个 71 次多项式的根 —— 康威常数",
+      "url": "https://zhuanlan.zhihu.com/p/1968614461909766747",
+      "summary": "正文从外观数列迭代出发，构造并分解特征多项式，说明康威常数是一个 71 次不可约多项式的最大正根。"
+    },
+    {
+      "title": "q导数和h导数",
+      "url": "https://zhuanlan.zhihu.com/p/1995150105548973918",
+      "summary": "正文把 q-导数视为多项式空间上的线性算子，并系统构造 q-多项式及其导数性质。"
+    },
+    {
+      "title": "生成通项杯难题",
+      "url": "https://zhuanlan.zhihu.com/p/2008944143611750261",
+      "summary": "正文用初等对称多项式构造新的递推变量，并借此生成和求解多项式型数列问题。"
+    },
+    {
+      "title": "盘点数学里的各种反演",
+      "url": "https://zhuanlan.zhihu.com/p/2041288151956723472",
+      "summary": "正文在多项式空间上定义线性泛函和基变换，用它证明二项反演与斯特林反演。"
+    },
+    {
+      "title": "高中圆锥曲线的奇技淫巧：动度法",
+      "url": "https://zhuanlan.zhihu.com/p/2043799533562369991",
+      "summary": "正文把几何命题化为终结多项式是否恒为零，并通过次数估计和足够多特例完成判定。"
+    },
+    {
+      "title": "矩阵函数近似中的暴力美学",
+      "url": "https://zhuanlan.zhihu.com/p/2061851180347691815",
+      "summary": "正文把矩阵函数的数值近似具体构造为带系数的奇次多项式迭代。"
+    },
+    {
+      "title": "突发！让张益唐苦熬7年的雅可比猜想，Fable 5竟一夜推翻证伪",
+      "url": "https://zhuanlan.zhihu.com/p/2062820026344912746",
+      "summary": "正文以多项式映射和多项式逆映射为对象陈述雅可比猜想的前提与结论。"
+    },
+    {
+      "title": "解个方程而已，为什么会逼得数学家决斗、吐血、临终前夜狂写遗书？",
+      "url": "https://zhuanlan.zhihu.com/p/2064127876719497928",
+      "summary": "正文围绕三次、四次及更高次多项式方程及其求根公式展开数学史讲解。"
+    },
+    {
+      "title": "一道泰勒猫觉得怪石嶙峋的不等式问题推广——势理论",
+      "url": "https://zhuanlan.zhihu.com/p/2070899210254398163",
+      "summary": "正文由根的平衡方程构造三次多项式，并用韦达定理和判别式计算系数、根与最佳常数。"
+    }
+  ]
+}
