@@ -2,7 +2,7 @@ import { advanceWindow } from "./floating-motion.js?v=1";
 
 // The supplied artwork is preserved; CSS frames its illustration below live window controls.
 export const floatingContent = Object.freeze({
-  href: "https://www.zhihu.com/",
+  href: "https://www.zhihu.com/question/22212241",
   image: "./assets/math-jokes-window.png",
   alt: "数学趣味梗图：三个人物互相指着对方，分别写着显然、做梦、易证"
 });
@@ -24,7 +24,7 @@ link.className = "floating-window-link";
 link.href = floatingContent.href;
 link.target = "_blank";
 link.rel = "noopener noreferrer";
-link.setAttribute("aria-label", "打开知乎首页（新标签页）");
+link.setAttribute("aria-label", "打开知乎问题：数学领域有哪些经典的笑话？（新标签页）");
 const picture = document.createElement("img");
 picture.src = floatingContent.image;
 picture.alt = floatingContent.alt;
