@@ -3,24 +3,9 @@
   "branchId": "l3-t7-b1",
   "sources": [
     {
-      "title": "MLE，MAP，EM 和 point estimation 之间的关系是怎样的？",
-      "url": "https://www.zhihu.com/answer/13309335",
-      "summary": "用硬币试验说明先验信息参与估计的直觉；原文将加权平均直接解释成最大后验，混用了后验均值与 MAP，宜作带辨析的历史回答。"
-    },
-    {
       "title": "贝叶斯学派与频率学派有何不同？",
       "url": "https://www.zhihu.com/answer/17435552",
       "summary": "从知识状态和信念更新解释贝叶斯概率，并与频率观点作比较；这是偏主观贝叶斯的阐释，不能代表所有贝叶斯与频率学派对世界本体的共同立场。"
-    },
-    {
-      "title": "如何才能看得懂变分贝叶斯方法（Variational Bayesian）？",
-      "url": "https://www.zhihu.com/answer/19288313",
-      "summary": "正文围绕「如何才能看得懂变分贝叶斯方法（Variational Bayesian）？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
-    },
-    {
-      "title": "如何通俗地解释贝叶斯线性回归的基本原理？",
-      "url": "https://www.zhihu.com/answer/20014371",
-      "summary": "正文围绕「如何通俗地解释贝叶斯线性回归的基本原理？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
     },
     {
       "title": "贝叶斯学派与频率学派有何不同？",
@@ -48,16 +33,6 @@
       "summary": "系统解释先验、后验和证据更新下的贝叶斯定理。"
     },
     {
-      "title": "为什么说Dirichlet分布是分布的分布？",
-      "url": "https://www.zhihu.com/answer/34885653",
-      "summary": "正文用贝叶斯公式与共轭先验解释 Dirichlet 分布。"
-    },
-    {
-      "title": "既然 LDA 是一种比 PLSA 更高级的模型，为啥百度还在用 PLSA？",
-      "url": "https://www.zhihu.com/answer/38969800",
-      "summary": "正文说明 LDA 以狄利克雷先验缓解小样本下的过拟合。"
-    },
-    {
       "title": "你对贝叶斯统计都有怎样的理解？",
       "url": "https://www.zhihu.com/answer/40753337",
       "summary": "正文以主观概率解释贝叶斯统计。"
@@ -83,11 +58,6 @@
       "summary": "正文用先验、似然与后验预测分布完整分析硬币问题。"
     },
     {
-      "title": "作为统计的博士生，你都读过哪些对你影响深远的统计书籍？",
-      "url": "https://www.zhihu.com/answer/45756626",
-      "summary": "正文列举变分贝叶斯、先验与变量选择方向的统计论文。"
-    },
-    {
       "title": "你在生活中用过最高端的数学知识是什么？",
       "url": "https://www.zhihu.com/answer/45820307",
       "summary": "正文以扑克对手诈唬概率为例说明用贝叶斯公式更新判断。"
@@ -96,21 +66,6 @@
       "title": "你在生活中用过最高端的数学知识是什么？",
       "url": "https://www.zhihu.com/answer/46205727",
       "summary": "正文从条件概率出发分层解释贝叶斯公式。"
-    },
-    {
-      "title": "如何用简单易懂的例子解释隐马尔可夫模型？",
-      "url": "https://www.zhihu.com/answer/48444087",
-      "summary": "正文用先验、似然与后验概率表述该模型。"
-    },
-    {
-      "title": "机器学习中使用正则化来防止过拟合是什么原理？",
-      "url": "https://www.zhihu.com/answer/52064924",
-      "summary": "正文将正则项解释为参数的概率先验。"
-    },
-    {
-      "title": "贝叶斯（bayesian）防止过拟合的确切机理？边缘化（marginalizing）的真实作用是什么？",
-      "url": "https://www.zhihu.com/answer/52068253",
-      "summary": "正文完整解释后验分布、边缘似然与贝叶斯预测。"
     },
     {
       "title": "一枚硬币，扔了一亿次都是正面朝上，再扔一次反面朝上的概率是多少？",
@@ -123,24 +78,9 @@
       "summary": "正文以 James-Stein 估计和先验讨论贝叶斯统计观点。"
     },
     {
-      "title": "机器学习“判定模型”和“生成模型”有什么区别？",
-      "url": "https://www.zhihu.com/answer/74468226",
-      "summary": "正文通过先验、似然和后验推导模型参数学习。"
-    },
-    {
-      "title": "什么是狄利克雷分布？狄利克雷过程又是什么？",
-      "url": "https://www.zhihu.com/answer/80931791",
-      "summary": "正文由先验、后验和共轭分布系统解释贝叶斯更新。"
-    },
-    {
       "title": "先验分布、后验分布、似然估计这几个概念是什么意思，它们之间的关系是什么？",
       "url": "https://www.zhihu.com/answer/88663605",
       "summary": "正文用天气例子解释先验、似然、后验及贝叶斯更新关系。"
-    },
-    {
-      "title": "LR正则化与数据先验分布的关系？",
-      "url": "https://www.zhihu.com/answer/90135994",
-      "summary": "正文从最大后验估计推导正则项与参数先验的对应关系，是贝叶斯统计视角。"
     },
     {
       "title": "有哪些违背直觉的数学问题？",
@@ -148,49 +88,9 @@
       "summary": "正文计算阳性后的患病后验概率，并讨论先验状态与分布假设。"
     },
     {
-      "title": "极大似然估计法推出朴素贝叶斯法中的先验概率估计公式？",
-      "url": "https://www.zhihu.com/answer/92311220",
-      "summary": "正文由贝叶斯定理计算后验概率，并将后验最大的类别作为分类输出。"
-    },
-    {
-      "title": "什么是汤普森采样（Thompson sampling）？",
-      "url": "https://www.zhihu.com/answer/96392474",
-      "summary": "正文由先验、似然计算后验，并解释共轭先验的更新便利性。"
-    },
-    {
-      "title": "如何简单易懂地理解变分推断(variational inference)？",
-      "url": "https://www.zhihu.com/answer/101915528",
-      "summary": "正文从难求后验分布出发解释平均场变分推断、KL 与 ELBO。"
-    },
-    {
-      "title": "如何通俗易懂地介绍 Gaussian Process？",
-      "url": "https://www.zhihu.com/answer/102211375",
-      "summary": "正文把高斯过程回归解释为能给出预测分布的贝叶斯方法。"
-    },
-    {
-      "title": "如何通俗易懂地介绍 Gaussian Process？",
-      "url": "https://www.zhihu.com/answer/102314452",
-      "summary": "正文从潜在线性参数的高斯先验积分推导高斯过程。"
-    },
-    {
-      "title": "机器学习以及贝叶斯统计里，关于近似intractable integral，大家都偏爱什么算法？",
-      "url": "https://www.zhihu.com/answer/102498287",
-      "summary": "全文围绕先验、似然、后验和难算积分比较多种贝叶斯推断算法。"
-    },
-    {
       "title": "如何计算「一自称集齐 4 个血型的前女友的男性」的前女友的具体数量？",
       "url": "https://www.zhihu.com/answer/103718034",
       "summary": "正文完整结合先验、似然和后验，在不同先验下计算贝叶斯估计结果。"
-    },
-    {
-      "title": "从经济学角度来看，「走一步看一步」是一个好建议吗？",
-      "url": "https://www.zhihu.com/answer/115933537",
-      "summary": "正文讨论先验状态空间、后验更新及贝叶斯模型假设。"
-    },
-    {
-      "title": "怎么通俗易懂地解释贝叶斯网络和它的应用？",
-      "url": "https://www.zhihu.com/answer/122424643",
-      "summary": "正文解释网络Meta分析中的先验、后验、随机变量与贝叶斯排序。"
     },
     {
       "title": "如何通俗理解 beta 分布？",
@@ -213,26 +113,6 @@
       "summary": "正文通过共同先验、信息交换和后验概率更新解释理性讨论如何收敛。"
     },
     {
-      "title": "高斯过程说它是非参数模型，这点怎么理解？",
-      "url": "https://www.zhihu.com/answer/139029700",
-      "summary": "正文以先验、似然和后验更新解释高斯过程回归。"
-    },
-    {
-      "title": "贝叶斯学派与频率学派有何不同？",
-      "url": "https://www.zhihu.com/answer/139100761",
-      "summary": "正文系统讲解以证据更新信念的贝叶斯推断。"
-    },
-    {
-      "title": "如何简单易懂地理解贝叶斯非参数模型？",
-      "url": "https://www.zhihu.com/answer/140728316",
-      "summary": "正文从参数后验扩展到贝叶斯非参数模型。"
-    },
-    {
-      "title": "贝叶斯概率、贝叶斯推断以及模型之间的关系？",
-      "url": "https://www.zhihu.com/answer/146427208",
-      "summary": "正文系统比较贝叶斯与频率学派，解释先验、似然、后验及共轭先验。"
-    },
-    {
       "title": "怎么简单理解贝叶斯公式？",
       "url": "https://www.zhihu.com/answer/147298455",
       "summary": "正文用车辆与证人例子逐步计算先验概率、似然证据和更新后的后验概率。"
@@ -253,21 +133,6 @@
       "summary": "正文给出贝叶斯公式并逐项标注 posterior、prior、likelihood 和 evidence。"
     },
     {
-      "title": "什么是probabilistic programming language？",
-      "url": "https://www.zhihu.com/answer/166358150",
-      "summary": "正文从先验、生成模型和后验推理解释贝叶斯认知与概率编程。"
-    },
-    {
-      "title": "你对贝叶斯统计都有怎样的理解？",
-      "url": "https://www.zhihu.com/answer/169523403",
-      "summary": "正文系统解释先验、似然、后验、共轭先验与贝叶斯参数估计。"
-    },
-    {
-      "title": "最大似然估计和最小二乘法怎么理解？",
-      "url": "https://www.zhihu.com/answer/173149479",
-      "summary": "正文由贝叶斯公式解释先验、后验及无知先验下最大似然的关系。"
-    },
-    {
       "title": "两个预言家，一个准确率90%，一个准确率30%，他们都预言了末日降临，那么末日降临的概率是多少呢？",
       "url": "https://www.zhihu.com/answer/180167250",
       "summary": "正文从先验概率、灵敏度和特异度解释末日后验概率的贝叶斯更新。"
@@ -283,34 +148,9 @@
       "summary": "正文用先验、后验和证据更新解释贝叶斯定理。"
     },
     {
-      "title": "最大似然估计和最小二乘法怎么理解？",
-      "url": "https://www.zhihu.com/answer/209839263",
-      "summary": "正文说明高斯和拉普拉斯先验下的最大后验估计。"
-    },
-    {
-      "title": "你对贝叶斯统计都有怎样的理解？",
-      "url": "https://www.zhihu.com/answer/212678180",
-      "summary": "正文系统比较频率派、费希尔派与贝叶斯派并解释贝叶斯推理。"
-    },
-    {
-      "title": "如何才能看得懂变分贝叶斯方法（Variational Bayesian）？",
-      "url": "https://www.zhihu.com/answer/219887194",
-      "summary": "正文从先验、似然、后验完整解释变分贝叶斯推断。"
-    },
-    {
       "title": "怎么简单理解贝叶斯公式？",
       "url": "https://www.zhihu.com/answer/232783372",
       "summary": "正文写出并图解贝叶斯公式。"
-    },
-    {
-      "title": "有哪些贝叶斯推理入门的书籍？",
-      "url": "https://www.zhihu.com/answer/237048586",
-      "summary": "正文给出销售变点问题的贝叶斯建模和后验推断应用。"
-    },
-    {
-      "title": "怎样用非数学语言讲解贝叶斯定理（Bayes's theorem）？",
-      "url": "https://www.zhihu.com/answer/241988854",
-      "summary": "正文系统讲解贝叶斯公式及贝叶斯推断的更新过程。"
     },
     {
       "title": "一枚硬币，扔了一亿次都是正面朝上，再扔一次反面朝上的概率是多少？",
@@ -318,39 +158,9 @@
       "summary": "正文用先验概率、似然和后验概率给出贝叶斯检验。"
     },
     {
-      "title": "PRML为何是机器学习的经典书籍中的经典？",
-      "url": "https://www.zhihu.com/answer/256560182",
-      "summary": "正文贯穿全贝叶斯模型、先验分布、拉普拉斯近似和变分推断讲解贝叶斯方法。"
-    },
-    {
-      "title": "如何看待NIPS2017图灵奖得主贝叶斯网络之父Judea Pearl讲座无人问津？",
-      "url": "https://www.zhihu.com/answer/276171509",
-      "summary": "正文从观察与介入的区别解释贝叶斯网络和因果网络。"
-    },
-    {
-      "title": "自然语言处理专业，哪本著作最值得精读？为什么？",
-      "url": "https://www.zhihu.com/answer/283973508",
-      "summary": "正文从贝叶斯角度讨论正则化方法。"
-    },
-    {
-      "title": "如何理解 a priori（先验的）和 a posteriori（后验的）？",
-      "url": "https://www.zhihu.com/answer/289406427",
-      "summary": "正文解释贝叶斯统计中先验分布、似然与后验分布的更新关系。"
-    },
-    {
-      "title": "逻辑回归与朴素贝叶斯有什么区别？",
-      "url": "https://www.zhihu.com/answer/303148257",
-      "summary": "正文从贝叶斯公式、先验、似然和后验概率推导朴素贝叶斯分类。"
-    },
-    {
       "title": "如何评价美国顶级学术期刊宣布禁用 p 值？会引起哪些连锁效应？",
       "url": "https://www.zhihu.com/answer/303435830",
       "summary": "正文说明附加假设下可通过贝叶斯定理换算两类条件概率。"
-    },
-    {
-      "title": "请解释下variational inference？",
-      "url": "https://www.zhihu.com/answer/315311293",
-      "summary": "正文从 Bayes 公式和难以计算的后验出发，引入参数化分布作为真实后验的近似。"
     },
     {
       "title": "你知道哪些反常识的知识？",
@@ -366,21 +176,6 @@
       "title": "你知道哪些反常识的知识？",
       "url": "https://www.zhihu.com/answer/323975344",
       "summary": "正文用先验概率和新信息解释换门结论。"
-    },
-    {
-      "title": "如何简单易懂地理解变分推断(variational inference)？",
-      "url": "https://www.zhihu.com/answer/331070683",
-      "summary": "正文通过贝叶斯公式说明后验概率与边缘概率。"
-    },
-    {
-      "title": "怎么通俗易懂地解释EM算法并且举个例子?",
-      "url": "https://www.zhihu.com/answer/332157872",
-      "summary": "正文说明 MAP 估计中先验对参数的影响。"
-    },
-    {
-      "title": "如何简单理解贝叶斯决策理论（Bayes Decision Theory）？",
-      "url": "https://www.zhihu.com/answer/378129817",
-      "summary": "正文从先验、似然和后验概率解释贝叶斯决策。"
     },
     {
       "title": "如何理解条件概率？",
@@ -413,31 +208,6 @@
       "summary": "正文明确用贝叶斯观点计算下一次正面的概率。"
     },
     {
-      "title": "如何理解鲁棒滤波器的概念？",
-      "url": "https://www.zhihu.com/answer/504458124",
-      "summary": "从条件均值与递推更新角度解释卡尔曼滤波采用的贝叶斯统计思想。"
-    },
-    {
-      "title": "机器学习中，什么是贝叶斯误差？",
-      "url": "https://www.zhihu.com/answer/504918763",
-      "summary": "用已知类别分布仍存在不可消除分类误差的例子解释贝叶斯误差。"
-    },
-    {
-      "title": "如何简单易懂地理解变分推断(variational inference)？",
-      "url": "https://www.zhihu.com/answer/505460606",
-      "summary": "区分频率学派点估计与贝叶斯先验、后验分布，并推导变分推断的后验近似目标。"
-    },
-    {
-      "title": "如何简单易懂地解释狄利克雷过程（Dirichlet Process）？",
-      "url": "https://www.zhihu.com/answer/533132532",
-      "summary": "正文从未知类别数的贝叶斯非参数聚类动机推导狄利克雷过程。"
-    },
-    {
-      "title": "如何简单理解贝叶斯决策理论（Bayes Decision Theory）？",
-      "url": "https://www.zhihu.com/answer/540328411",
-      "summary": "正文完整推导贝叶斯分类的后验概率与最小错误率决策。"
-    },
-    {
       "title": "黑箱里有n个小球，编号为1, 2, ..., n，随机抽一个球的号码是10，能获得什么关于n的信息？",
       "url": "https://www.zhihu.com/answer/564136701",
       "summary": "分别用极大似然、贝叶斯先验和后验分布估计盒中球数。"
@@ -446,11 +216,6 @@
       "title": "黑箱里有n个小球，编号为1, 2, ..., n，随机抽一个球的号码是10，能获得什么关于n的信息？",
       "url": "https://www.zhihu.com/answer/566525445",
       "summary": "从均匀似然出发选取 Pareto 先验并推导参数后验。"
-    },
-    {
-      "title": "有什么理论复杂但是实现简单的算法？",
-      "url": "https://www.zhihu.com/answer/603136949",
-      "summary": "正文联系 MCMC 与贝叶斯统计。"
     },
     {
       "title": "怎么简单理解全概率公式？",
@@ -466,16 +231,6 @@
       "title": "有哪些「这也能用数学证明」的事件？",
       "url": "https://www.zhihu.com/answer/671088206",
       "summary": "利用贝叶斯公式从主持人开门信息更新后验概率。"
-    },
-    {
-      "title": "如何看待 2019 年全国一卷高考数学试题？",
-      "url": "https://www.zhihu.com/answer/708235797",
-      "summary": "正文说明MCMC在贝叶斯统计中的作用。"
-    },
-    {
-      "title": "怎么简单理解贝叶斯公式？",
-      "url": "https://www.zhihu.com/answer/747656479",
-      "summary": "从先验、似然、后验系统解释贝叶斯统计。"
     },
     {
       "title": "有人说「骰子掷一次掷出6的概率为50%，因为只有是6、不是6两种事件」，请问如何反驳？",
@@ -508,19 +263,9 @@
       "summary": "说明统计学习利用先验和条件概率。"
     },
     {
-      "title": "贝叶斯深度学习是什么，和传统神经网络有何不同？",
-      "url": "https://www.zhihu.com/answer/882207623",
-      "summary": "正文把参数和隐变量具有不确定性作为贝叶斯方法的共性，并讨论采样后的预测。"
-    },
-    {
       "title": "谁能解释一下啥叫随机？怎么证明随机？看我问题描述?",
       "url": "https://www.zhihu.com/answer/886831856",
       "summary": "详细解释贝叶斯概率及其随证据更新。"
-    },
-    {
-      "title": "贝叶斯深度学习是什么，和传统神经网络有何不同？",
-      "url": "https://www.zhihu.com/answer/921925113",
-      "summary": "正文按先验、似然、后验和变分推断完整推导贝叶斯神经网络训练框架。"
     },
     {
       "title": "有哪些数学上的事实，没有一定数学知识的人不会相信？",
@@ -538,24 +283,9 @@
       "summary": "正文完整介绍贝叶斯定理并用检测误报例子解释先验和后验。"
     },
     {
-      "title": "在机器学习中，L2正则化为什么能够缓过拟合？",
-      "url": "https://www.zhihu.com/answer/1195736892",
-      "summary": "正文从正态先验推导后验最大化与 L2 正则目标。"
-    },
-    {
-      "title": "如何通俗地理解概率论中的「极大似然估计法」?",
-      "url": "https://www.zhihu.com/answer/1304697251",
-      "summary": "正文比较贝叶斯和频率学派并解释似然。"
-    },
-    {
       "title": "一枚硬币，扔了一亿次都是正面朝上，再扔一次反面朝上的概率是多少？",
       "url": "https://www.zhihu.com/answer/1316387285",
       "summary": "正文直接讲解“贝叶斯统计”相关内容。"
-    },
-    {
-      "title": "有没有大神推荐一本比较好的现代贝叶斯统计的书？",
-      "url": "https://www.zhihu.com/answer/1334101688",
-      "summary": "正文书单覆盖贝叶斯推断、贝叶斯数据分析和测度论视角。"
     },
     {
       "title": "贝叶斯定理厉害在哪里？",
@@ -563,24 +293,9 @@
       "summary": "正文从条件概率和参数随机变量解释贝叶斯统计的特点。"
     },
     {
-      "title": "如何评价神经科学家Karl Friston的自由能原理和主动推断的时代意义？",
-      "url": "https://www.zhihu.com/answer/1339529890",
-      "summary": "正文从贝叶斯推断、后验概率和变分推断解释自由能原理。"
-    },
-    {
-      "title": "你对贝叶斯统计都有怎样的理解？",
-      "url": "https://www.zhihu.com/answer/1353620691",
-      "summary": "正文把贝叶斯统计概括为先验、似然和后验更新，并比较不同实现。"
-    },
-    {
       "title": "如何通俗理解 beta 分布？",
       "url": "https://www.zhihu.com/answer/1374596782",
       "summary": "正文用先验概率和似然函数得到参数的后验分布。"
-    },
-    {
-      "title": "变分推断 贝叶斯神经网络有什么论文可以推荐阅读吗？",
-      "url": "https://www.zhihu.com/answer/1386388535",
-      "summary": "正文系统列出变分推断与贝叶斯后验近似的学习材料。"
     },
     {
       "title": "统计学与数学的关系是什么？",
@@ -588,49 +303,9 @@
       "summary": "正文比较频率学派与贝叶斯推断的不同概率和认知框架。"
     },
     {
-      "title": "经济学专业博士如何学好高级计量？",
-      "url": "https://www.zhihu.com/answer/1521286265",
-      "summary": "正文推荐贝叶斯方法课程与教材。"
-    },
-    {
-      "title": "贝叶斯定理厉害在哪里？",
-      "url": "https://www.zhihu.com/answer/1545994922",
-      "summary": "正文系统解释先验概率、似然调整和后验概率。"
-    },
-    {
-      "title": "贝叶斯定理厉害在哪里？",
-      "url": "https://www.zhihu.com/answer/1575701548",
-      "summary": "正文系统解释先验、似然、后验与贝叶斯更新，并给出检测例子。"
-    },
-    {
-      "title": "贝叶斯定理厉害在哪里？",
-      "url": "https://www.zhihu.com/answer/1583176751",
-      "summary": "正文用迟到与堵车例子解释先验、条件概率、后验与全概率。"
-    },
-    {
       "title": "贝叶斯定理厉害在哪里？",
       "url": "https://www.zhihu.com/answer/1584195885",
       "summary": "正文以先验、似然、全概率和后验逐步解释观测如何更新参数估计，实际展开贝叶斯统计的核心机制。"
-    },
-    {
-      "title": "有哪些贝叶斯推理入门的书籍？",
-      "url": "https://www.zhihu.com/answer/1592282309",
-      "summary": "正文直接讨论或应用该叶节点主题（贝叶斯）。"
-    },
-    {
-      "title": "如何理解似然函数?",
-      "url": "https://www.zhihu.com/answer/1632000258",
-      "summary": "长文比较贝叶斯与频率学派并解释似然函数。"
-    },
-    {
-      "title": "贝叶斯定理厉害在哪里？",
-      "url": "https://www.zhihu.com/answer/1634941678",
-      "summary": "正文系统说明贝叶斯推断、先验分布与后验分布的计算。"
-    },
-    {
-      "title": "如何简单理解贝叶斯决策理论（Bayes Decision Theory）？",
-      "url": "https://www.zhihu.com/answer/1656784818",
-      "summary": "正文以先验和后验分布计算贝叶斯估计。"
     },
     {
       "title": "怎样求贝叶斯估计的先验分布？",
@@ -643,89 +318,9 @@
       "summary": "正文用贝叶斯公式解释三门问题中的信息更新。"
     },
     {
-      "title": "如何看待中南大学吴嘉老师怒怼教务办规定「学生成绩必须服从正态分布」？",
-      "url": "https://www.zhihu.com/answer/1692352838",
-      "summary": "正文建立分层贝叶斯模型估计学生能力分布。"
-    },
-    {
-      "title": "贝叶斯学派与频率学派有何不同？",
-      "url": "https://www.zhihu.com/answer/1693868621",
-      "summary": "正文用先验、似然和后验系统解释贝叶斯推断。"
-    },
-    {
-      "title": "贝叶斯因子是什么？",
-      "url": "https://www.zhihu.com/answer/1708663491",
-      "summary": "正文系统解释贝叶斯定理、先验、后验和似然。"
-    },
-    {
-      "title": "贝叶斯推断如何更新后验概率？",
-      "url": "https://www.zhihu.com/answer/1723069631",
-      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
-    },
-    {
-      "title": "请问可不可以通俗的解释一下贝叶斯公式?",
-      "url": "https://www.zhihu.com/answer/1767691238",
-      "summary": "正文系统解释贝叶斯推断、先验与后验。"
-    },
-    {
-      "title": "贝叶斯学派与频率学派有何不同？",
-      "url": "https://www.zhihu.com/answer/1924709695",
-      "summary": "正文直接讨论并支撑「贝叶斯统计」相关内容。"
-    },
-    {
-      "title": "最大似然法和贝叶斯的区别？",
-      "url": "https://www.zhihu.com/answer/1932065099",
-      "summary": "正文直接讨论并支撑「贝叶斯统计」相关内容。"
-    },
-    {
       "title": "一枚硬币，扔了一亿次都是正面朝上，再扔一次反面朝上的概率是多少？",
       "url": "https://www.zhihu.com/answer/1942550839",
       "summary": "正文主张根据过往观测更新对下一次结果的概率判断。"
-    },
-    {
-      "title": "如何完全掌握概率论与数理统计？",
-      "url": "https://www.zhihu.com/answer/2005475578",
-      "summary": "正文把贝叶斯统计列为概率统计核心主线。"
-    },
-    {
-      "title": "如何评价神经科学家Karl Friston的自由能原理和主动推断的时代意义？",
-      "url": "https://www.zhihu.com/answer/2144221450",
-      "summary": "正文用贝叶斯先验、后验和变分推断解释大脑自由能原理。"
-    },
-    {
-      "title": "机器学习中，频率派和贝叶斯派有什么核心差异？",
-      "url": "https://www.zhihu.com/answer/2159781976",
-      "summary": "正文用先验、似然和后验系统比较频率派与贝叶斯派。"
-    },
-    {
-      "title": "如何才能看得懂变分贝叶斯方法（Variational Bayesian）？",
-      "url": "https://www.zhihu.com/answer/2195671177",
-      "summary": "正文从贝叶斯后验出发，系统讲解变分推断、先验和近似后验。"
-    },
-    {
-      "title": "2021 年 NeurIPS 有哪些优秀的论文？",
-      "url": "https://www.zhihu.com/answer/2216099012",
-      "summary": "正文专门归纳因果推断中的贝叶斯方法论文。"
-    },
-    {
-      "title": "如何才能看得懂变分贝叶斯方法（Variational Bayesian）？",
-      "url": "https://www.zhihu.com/answer/2223652140",
-      "summary": "正文从先验、似然与后验解释贝叶斯式变分推断。"
-    },
-    {
-      "title": "如何才能看得懂变分贝叶斯方法（Variational Bayesian）？",
-      "url": "https://www.zhihu.com/answer/2225745752",
-      "summary": "正文从贝叶斯先验、似然和后验解释变分贝叶斯。"
-    },
-    {
-      "title": "如何学好高级微观经济学，高级宏观经济学，高级计量经济学？",
-      "url": "https://www.zhihu.com/answer/2231054602",
-      "summary": "正文把贝叶斯方法列为理论计量需要掌握的基础。"
-    },
-    {
-      "title": "贝叶斯推断中为什么不能直接从posterior sampling而是要采用MCMC方法?",
-      "url": "https://www.zhihu.com/answer/2255085106",
-      "summary": "正文系统讲解贝叶斯后验推断、采样和变分近似。"
     },
     {
       "title": "考试砸了回到家，母亲打我的概率是 1/2，父亲打我的概率也是 1/2，那我被打的概率是多少？",
@@ -733,99 +328,14 @@
       "summary": "正文用先验、条件概率和贝叶斯公式计算挨打概率。"
     },
     {
-      "title": "有哪些概率论和数理统计的深入教材可以推荐？",
-      "url": "https://www.zhihu.com/answer/2288542961",
-      "summary": "正文在 Bayesian Statistics 小节评价 Bayesian Data Analysis 的清晰度、内容陈旧和代码不足等具体特点。"
-    },
-    {
-      "title": "统计学在语言学中有哪些应用？",
-      "url": "https://www.zhihu.com/answer/2292746317",
-      "summary": "正文列出贝叶斯数据分析在语言学研究中的教程与文献。"
-    },
-    {
-      "title": "人工智能领域有哪些精妙的数学原理？",
-      "url": "https://www.zhihu.com/answer/2296852102",
-      "summary": "正文解释最大似然估计及其与最大后验和正则化的联系。"
-    },
-    {
-      "title": "请问可不可以通俗的解释一下贝叶斯公式?",
-      "url": "https://www.zhihu.com/answer/2304009398",
-      "summary": "正文给出并解释贝叶斯公式的计算和应用。"
-    },
-    {
-      "title": "请问关于卡尔曼滤波算法核心五公式的来源，与贝叶斯公式（准则）有什么具体关系？",
-      "url": "https://www.zhihu.com/answer/2306574174",
-      "summary": "正文从先验、似然和后验推导卡尔曼滤波的贝叶斯基础。"
-    },
-    {
-      "title": "卡尔曼滤波（Kalman Filter）有哪些推导方式？",
-      "url": "https://www.zhihu.com/answer/2313713745",
-      "summary": "正文把高斯先验、似然与后验和卡尔曼滤波的最优估计联系起来。"
-    },
-    {
-      "title": "如何通俗直白地理解卡尔曼滤波算法？",
-      "url": "https://www.zhihu.com/answer/2313715541",
-      "summary": "正文说明卡尔曼滤波建立在贝叶斯滤波和高斯分布之上。"
-    },
-    {
-      "title": "深度学习如何高效地找到最优超参数组合？",
-      "url": "https://www.zhihu.com/answer/2315816859",
-      "summary": "正文以先验、条件分布和贝叶斯更新解释超参数优化。"
-    },
-    {
       "title": "假设我扔一枚硬币，60次有55次正面朝上，我有多大把握认为这枚硬币正面和反面出现概率不相同？",
       "url": "https://www.zhihu.com/answer/2325696825",
       "summary": "正文采用先验、似然和后验概率进行贝叶斯更新。"
     },
     {
-      "title": "贝叶斯推断中为什么不能直接从posterior sampling而是要采用MCMC方法?",
-      "url": "https://www.zhihu.com/answer/2333201187",
-      "summary": "正文从后验分布采样解释贝叶斯推断。"
-    },
-    {
-      "title": "贝叶斯推断中为什么不能直接从posterior sampling而是要采用MCMC方法?",
-      "url": "https://www.zhihu.com/answer/2333956683",
-      "summary": "正文说明贝叶斯后验的归一化积分通常不可算，因而需要近似采样。"
-    },
-    {
-      "title": "最大似然估计中的“似然”如何解释？",
-      "url": "https://www.zhihu.com/answer/2343718429",
-      "summary": "正文对比贝叶斯与频率学派并解释最大似然估计。"
-    },
-    {
-      "title": "先验分布、后验分布、似然估计这几个概念是什么意思，它们之间的关系是什么？",
-      "url": "https://www.zhihu.com/answer/2355943888",
-      "summary": "正文完整解释先验、似然、后验和贝叶斯更新。"
-    },
-    {
-      "title": "全概率公式如何理解?",
-      "url": "https://www.zhihu.com/answer/2355986502",
-      "summary": "正文从全概率公式推到贝叶斯公式并解释先验后验。"
-    },
-    {
-      "title": "到底要如何理解条件概率？",
-      "url": "https://www.zhihu.com/answer/2364488211",
-      "summary": "正文由全概率公式推导贝叶斯公式并解释后验概率。"
-    },
-    {
-      "title": "如何通俗的理解spike and slab prior？",
-      "url": "https://www.zhihu.com/answer/2364922387",
-      "summary": "正文从先验分布与后验推断解释 spike and slab 的贝叶斯结构。"
-    },
-    {
-      "title": "如何和人讲清条件概率？",
-      "url": "https://www.zhihu.com/answer/2375345364",
-      "summary": "正文由全概率公式推出贝叶斯公式并解释先验、后验和由果推因。"
-    },
-    {
       "title": "奥卡姆剃刀理论是科学吗，或者说，奥卡姆剃刀理论能不能用来明确地判定一个理论是对的还是错的？",
       "url": "https://www.zhihu.com/answer/2440141448",
       "summary": "正文从先验、似然、证据和后验分布系统解释贝叶斯推断，并用模型比较说明奥卡姆剃刀。"
-    },
-    {
-      "title": "贝叶斯定理厉害在哪里？",
-      "url": "https://www.zhihu.com/answer/2460637143",
-      "summary": "正文以先验、似然和观测结果说明贝叶斯推断的核心思路。"
     },
     {
       "title": "如何更好的理解最大似然估计？",
@@ -838,29 +348,9 @@
       "summary": "从频率学派与贝叶斯学派的分歧出发讲解先验、后验与贝叶斯统计方法。"
     },
     {
-      "title": "朴素贝叶斯模型与贝叶斯网络之间是什么关系？sklearn能实现贝叶斯网络吗？",
-      "url": "https://www.zhihu.com/answer/2502163536",
-      "summary": "正文由先验概率、贝叶斯公式和后验概率完整展开朴素贝叶斯的分类推断。"
-    },
-    {
-      "title": "最大似然估计和最小二乘法怎么理解？",
-      "url": "https://www.zhihu.com/answer/2515680705",
-      "summary": "系统比较最大似然、最大后验与贝叶斯估计，并解释先验和后验分布在参数估计中的作用。"
-    },
-    {
       "title": "贝叶斯学派与频率学派有何不同？",
       "url": "https://www.zhihu.com/answer/2545046909",
       "summary": "系统比较频率派与贝叶斯派对参数、概率和先验后验的理解。"
-    },
-    {
-      "title": "参加 2022 年丘成桐大学生数学竞赛是什么体验？如何评价今年的竞赛？",
-      "url": "https://www.zhihu.com/answer/2575016188",
-      "summary": "用正态先验下的 Bayes 估计及其极限讨论极小极大估计问题。"
-    },
-    {
-      "title": "AIC、BIC 等信息准则的物理意义是什么？",
-      "url": "https://www.zhihu.com/answer/2603817959",
-      "summary": "通过带先验的边缘密度和 Laplace 近似推导 BIC，体现贝叶斯模型选择。"
     },
     {
       "title": "有没有一种可能，有的民科提出的“理论”是符合现实规律且正确的？",
@@ -868,19 +358,9 @@
       "summary": "把先验、似然和替代解释代入贝叶斯后验，展示完整的贝叶斯统计推理。"
     },
     {
-      "title": "卡尔曼滤波方程组的深刻理解有哪些？",
-      "url": "https://www.zhihu.com/answer/2689408189",
-      "summary": "正文解释卡尔曼滤波作为最优贝叶斯滤波器，并利用高斯后验的期望和方差递推状态估计。"
-    },
-    {
       "title": "奥卡姆剃刀原则和贝叶斯方法的关系是什么?",
       "url": "https://www.zhihu.com/answer/2730201482",
       "summary": "正文把实验后比较两个模型的置信度解释为贝叶斯信息获取和更新，并计算后验相对置信度。"
-    },
-    {
-      "title": "机器学习中，频率派和贝叶斯派有什么核心差异？",
-      "url": "https://www.zhihu.com/answer/2842695236",
-      "summary": "正文明确以先验、似然和后验分布刻画贝叶斯统计，并比较其与频率派点估计的差别。"
     },
     {
       "title": "如何系统地讲述统计学的发展历史?",
@@ -893,59 +373,14 @@
       "summary": "正文说明获得新证据后如何由先验得到后验，并把更新后的后验继续作为下一轮先验来学习。"
     },
     {
-      "title": "如何评价神经科学家Karl Friston的自由能原理和主动推断的时代意义？",
-      "url": "https://www.zhihu.com/answer/2960725333",
-      "summary": "正文写出由先验和似然得到后验的贝叶斯规则，并用变分近似处理精确后验。"
-    },
-    {
-      "title": "为什么ELBO变分推断中，我们认为后验分布很难求？",
-      "url": "https://www.zhihu.com/answer/2985031683",
-      "summary": "正文从贝叶斯后验需要难求的边缘积分出发，引入 q(z|x) 拟合后验并推导变分下界。"
-    },
-    {
-      "title": "要入行机器学习是不是非学数学不可？要学到什么程度，如何才能提高数学水平？",
-      "url": "https://www.zhihu.com/answer/3002690154",
-      "summary": "正文对比频率学派与贝叶斯学派，介绍先验分布、后验分布和最大后验估计等贝叶斯统计推断概念。"
-    },
-    {
-      "title": "机器学习应补充哪些数学基础？",
-      "url": "https://www.zhihu.com/answer/3017581651",
-      "summary": "正文解释先验分布、似然函数和后验分布如何结合，并说明先验与后验同形时的共轭关系。"
-    },
-    {
-      "title": "VAE、GAN 这种生成模型和 transformer 有什么区别？",
-      "url": "https://www.zhihu.com/answer/3144394562",
-      "summary": "正文引入先验、后验和变分后验，并用贝叶斯公式及 KL 散度构造后验推断目标。"
-    },
-    {
       "title": "奥卡姆剃刀理论是科学吗，或者说，奥卡姆剃刀理论能不能用来明确地判定一个理论是对的还是错的？",
       "url": "https://www.zhihu.com/answer/3185972935",
       "summary": "正文给出贝叶斯公式并解释后验概率、似然、先验概率和证据之间的关系。"
     },
     {
-      "title": "如何理解扩散模型中的SDE？",
-      "url": "https://www.zhihu.com/answer/3230281054",
-      "summary": "正文明确使用贝叶斯公式由前向条件分布推导反向条件分布。"
-    },
-    {
-      "title": "如何简单理解马尔科夫链蒙特卡洛方法？",
-      "url": "https://www.zhihu.com/answer/3298906415",
-      "summary": "正文用先验、似然和后验的关系说明MCMC参数估计中的贝叶斯更新。"
-    },
-    {
-      "title": "自学经济学，碰到人体器官交易的问题，该如何反驳？",
-      "url": "https://www.zhihu.com/answer/3313205900",
-      "summary": "正文用短期与长期信号的误差模型推导正态后验均值和方差，并据此分析贝叶斯更新后的信念。"
-    },
-    {
       "title": "随机生成5位数，得到11111和得到54176的概率相同，为什么遇到前者时我们会觉得随机算法有问题？",
       "url": "https://www.zhihu.com/answer/3357463072",
       "summary": "正文明确引入算法正常与否的先验概率，并通过贝叶斯公式更新为观测数据后的后验概率。"
-    },
-    {
-      "title": "统计学中有哪些经典的理念、方法和思维方式？",
-      "url": "https://www.zhihu.com/answer/3380101477",
-      "summary": "正文多处说明贝叶斯先验、后验、经验贝叶斯与分层模型的概率建模和推断作用。"
     },
     {
       "title": "谁能简明扼要的讲一下睡美人悖论呀？",
@@ -963,44 +398,14 @@
       "summary": "正文明确展开先验概率、似然度和后验结论在贝叶斯公式中的关系，并用全概率公式综合不同理论的预测。"
     },
     {
-      "title": "为什么softmax函数输出值可以作为概率预估?",
-      "url": "https://www.zhihu.com/answer/32459795556",
-      "summary": "正文从 Bayes 角度构造 logit，利用先验和条件概率推出类别 0 的后验概率。"
-    },
-    {
       "title": "2024年你的控制理论研究有什么收获和感悟？",
       "url": "https://www.zhihu.com/answer/70114789467",
       "summary": "正文比较贝叶斯状态估计与最优控制中的积分，并用高斯噪声下的二次型积分和指数映射解释近似来源。"
     },
     {
-      "title": "如果你有资格给中学生们增加一门课，你会给他们增加什么课？",
-      "url": "https://www.zhihu.com/answer/76281648777",
-      "summary": "正文对比频率学派与贝叶斯学派解释概率的方式，并用检测阳性后更新患病可能性的案例说明贝叶斯推断。"
-    },
-    {
-      "title": "如何将学习类智能方法与传统控制方法相结合？",
-      "url": "https://www.zhihu.com/answer/99820722456",
-      "summary": "正文给出控制器融合的贝叶斯公式，并解释先验、似然和策略概率共同决定融合后的动作概率。"
-    },
-    {
-      "title": "条件扩散模型是如何保证模型学到条件的？",
-      "url": "https://www.zhihu.com/answer/123676103525",
-      "summary": "正文用贝叶斯公式把类别后验的分数转化为有类别与无类别生成分布的差。"
-    },
-    {
       "title": "如何通俗的解释贝叶斯定理？",
       "url": "https://www.zhihu.com/answer/1886702473785350075",
       "summary": "正文完整计算先验概率、条件和全概率，并据观测症状求得后验概率。"
-    },
-    {
-      "title": "能否推荐几个比较有研究价值的slam方向？",
-      "url": "https://www.zhihu.com/answer/1890419046220026850",
-      "summary": "正文说明 SLAM 中的贝叶斯估计如何由先验、似然与后验关系建模状态。"
-    },
-    {
-      "title": "如何简单易懂地理解变分推断(variational inference)？",
-      "url": "https://www.zhihu.com/answer/1890895062415681302",
-      "summary": "正文从先验、后验和贝叶斯公式出发，用参数化分布近似后验并优化证据下界，具体讨论贝叶斯近似推断。"
     },
     {
       "title": "贝叶斯定理厉害在哪里？",
@@ -1016,11 +421,6 @@
       "title": "你所见过的最美的数学公式是什么？",
       "url": "https://www.zhihu.com/answer/1910970916533433365",
       "summary": "正文说明贝叶斯定理用条件概率根据数据更新对假设的信任度。"
-    },
-    {
-      "title": "贝叶斯学派比起频率学派的优点是什么？",
-      "url": "https://www.zhihu.com/answer/1912316080778638104",
-      "summary": "正文系统比较贝叶斯与频率学派，重点说明先验、后验、隐变量和贝叶斯推断在复杂模型中的作用。"
     },
     {
       "title": "如果你已经投掷一枚的硬币100次，均出现背面，那么如何证明下一次投掷出现正反面概率相同呢？",
@@ -1128,34 +528,9 @@
       "summary": "正文构造共同先验与个体信息类型，并说明参与者如何依据贝叶斯法则形成后验概率。"
     },
     {
-      "title": "传统统计与贝叶斯方法：难以逾越的鸿沟？",
-      "url": "https://zhuanlan.zhihu.com/p/20180632",
-      "summary": "正文明确比较贝叶斯与频率学派，并把未知参数视为随机变量以形成后验推断。"
-    },
-    {
-      "title": "目标追踪之卡尔曼滤波",
-      "url": "https://zhuanlan.zhihu.com/p/21692854",
-      "summary": "正文通过贝叶斯公式由先验和高斯观测模型推导状态后验分布。"
-    },
-    {
       "title": "【概率论】有哪些违背直觉的数学问题？",
       "url": "https://zhuanlan.zhihu.com/p/22348781",
       "summary": "正文用主持人行为的先验与外部门后奖品信息推导后验胜率，并据此作出换门决策。"
-    },
-    {
-      "title": "玩转贝叶斯分析",
-      "url": "https://zhuanlan.zhihu.com/p/22455079",
-      "summary": "正文以先验概率、条件概率和后验概率三要素组织贝叶斯分析的基本框架。"
-    },
-    {
-      "title": "Think Bayes - 我所理解的贝叶斯定理",
-      "url": "https://zhuanlan.zhihu.com/p/22467549",
-      "summary": "正文推导贝叶斯公式，并从先验概率、条件概率和后验概率说明贝叶斯统计推断。"
-    },
-    {
-      "title": "贝叶斯理论在医学数据分析中的应用",
-      "url": "https://zhuanlan.zhihu.com/p/22470375",
-      "summary": "正文把观测变量和模型参数都视为随机变量，并从先验分布和后验概率说明医学数据的贝叶斯分析。"
     },
     {
       "title": "【JoinQuant】朴素贝叶斯入门",
@@ -1168,11 +543,6 @@
       "summary": "正文用先验、后验和似然解释贝叶斯更新，并讨论最大后验描述与参数选择。"
     },
     {
-      "title": "VAE(2)——基本思想",
-      "url": "https://zhuanlan.zhihu.com/p/22464764",
-      "summary": "正文由观测变量和隐变量写出后验分布，并以变分分布近似后验来展开贝叶斯推断。"
-    },
-    {
       "title": "检方佯谬与吸毒歧视",
       "url": "https://zhuanlan.zhihu.com/p/23142350",
       "summary": "正文用先验、后验概率和 Bayes Factor 说明证据如何更新统计判断。"
@@ -1183,104 +553,9 @@
       "summary": "正文定义先验、似然和后验概率，并用疾病检测案例完成贝叶斯推断。"
     },
     {
-      "title": "数据挖掘|贝叶斯网络",
-      "url": "https://zhuanlan.zhihu.com/p/22802074",
-      "summary": "正文用父节点到子节点的概率影响和已知症状更新疾病概率，实质说明贝叶斯网络中的贝叶斯统计推断。"
-    },
-    {
-      "title": "先验概率 后验概率 极大似然估计",
-      "url": "https://zhuanlan.zhihu.com/p/24423230",
-      "summary": "正文用先验概率、后验概率及极大似然的概念区分未知原因与观测结果，属于贝叶斯统计的基本语言。"
-    },
-    {
-      "title": "贝叶斯统计观点下的拉普拉斯平滑",
-      "url": "https://zhuanlan.zhihu.com/p/24291822",
-      "summary": "正文系统讲解先验、似然、后验、最大后验估计和共轭先验，并用它们推导拉普拉斯平滑。"
-    },
-    {
-      "title": "为机器学习爱好者推荐一本书《贝叶斯方法：概率编程与贝叶斯推断》",
-      "url": "https://zhuanlan.zhihu.com/p/24709826",
-      "summary": "正文对比贝叶斯推断的数学分析与概率编程实现，说明其建模、计算及机器学习应用，属于贝叶斯统计。"
-    },
-    {
-      "title": "数学 · 朴素贝叶斯（一）· 参数估计",
-      "url": "https://zhuanlan.zhihu.com/p/25001282",
-      "summary": "正文讲解极大似然与极大后验参数估计，介绍先验、后验、共轭先验及拉普拉斯平滑。"
-    },
-    {
-      "title": "什么是beta分布，狄利克雷分布",
-      "url": "https://zhuanlan.zhihu.com/p/24555092",
-      "summary": "正文由硬币实验出发，用先验、似然和贝叶斯公式推导正面概率的后验分布。"
-    },
-    {
-      "title": "教你明白啥是朴素贝叶斯分类器",
-      "url": "https://zhuanlan.zhihu.com/p/25493221",
-      "summary": "正文讲解朴素贝叶斯利用先验概率和条件独立假设计算后验概率，并区分离散与连续变量的概率估计。"
-    },
-    {
-      "title": "条件变分自编码器（CVAEs）",
-      "url": "https://zhuanlan.zhihu.com/p/25518643",
-      "summary": "正文把条件变分自编码器解释为贝叶斯模型，并通过潜变量后验的变分下界组织条件推断。"
-    },
-    {
-      "title": "说说卡尔曼滤波",
-      "url": "https://zhuanlan.zhihu.com/p/25598462",
-      "summary": "正文用先验、似然和后验概率解释卡尔曼滤波，并推导连续变量的贝叶斯后验分布。"
-    },
-    {
-      "title": "[数据分析] Markov Chain Monte Carlo",
-      "url": "https://zhuanlan.zhihu.com/p/25610149",
-      "summary": "正文把贝叶斯后验的归一化、边缘化和期望积分作为 MCMC 的主要应用场景。"
-    },
-    {
-      "title": "机器学习理论篇1：机器学习的数学基础",
-      "url": "https://zhuanlan.zhihu.com/p/25197792",
-      "summary": "正文以疾病检测为例定义先验与后验概率，并由条件概率、乘法公式和全概率公式推出贝叶斯公式。"
-    },
-    {
-      "title": "期望最大化(EM)算法真如用起来那么简单？",
-      "url": "https://zhuanlan.zhihu.com/p/25799397",
-      "summary": "正文用先验、似然和后验概率说明 EM 的参数估计目标，并讨论最大后验与极大似然的关系。"
-    },
-    {
-      "title": "揭开知识库问答KB-QA的面纱3·信息抽取篇",
-      "url": "https://zhuanlan.zhihu.com/p/25782244",
-      "summary": "正文用朴素贝叶斯与 backoff 近似估计问题与知识库关系的条件概率，构造关系排序特征。"
-    },
-    {
-      "title": "机器学习笔记：朴素贝叶斯分类器",
-      "url": "https://zhuanlan.zhihu.com/p/26055646",
-      "summary": "正文用贝叶斯公式结合先验、似然和证据计算后验概率，并按最高后验概率分类。"
-    },
-    {
       "title": "那些你知道的和你不知道的性质(I):从简单的一维高斯分布讲起",
       "url": "https://zhuanlan.zhihu.com/p/24874304",
       "summary": "正文解释先验、后验与共轭先验，并推导高斯先验和高斯似然产生高斯后验，说明其在贝叶斯推断中的作用。"
-    },
-    {
-      "title": "带你理解朴素贝叶斯分类算法",
-      "url": "https://zhuanlan.zhihu.com/p/26262151",
-      "summary": "正文从贝叶斯公式出发，完整展示朴素贝叶斯分类的概率计算与判定流程。"
-    },
-    {
-      "title": "概率论的入门指南",
-      "url": "https://zhuanlan.zhihu.com/p/26307077",
-      "summary": "正文用先验概率、后验概率和贝叶斯公式完整计算检测阳性后的真实患病概率。"
-    },
-    {
-      "title": "理解朴素贝叶斯分类的拉普拉斯平滑",
-      "url": "https://zhuanlan.zhihu.com/p/26329951",
-      "summary": "正文在朴素贝叶斯分类中引入拉普拉斯平滑，重新估计先验概率和各项条件概率。"
-    },
-    {
-      "title": "如何理解先验概率与后验概率",
-      "url": "https://zhuanlan.zhihu.com/p/26464206",
-      "summary": "正文先给出先验概率和似然，再用贝叶斯公式更新为观测男性后的后验概率。"
-    },
-    {
-      "title": "用贝叶斯 计算后验概率（一）",
-      "url": "https://zhuanlan.zhihu.com/p/27006631",
-      "summary": "正文给出贝叶斯公式，解释假设、数据、先验与后验的关系，并完成两次后验更新。"
     },
     {
       "title": "机器学习算法实践-朴素贝叶斯(Naive Bayes)",
@@ -1288,34 +563,9 @@
       "summary": "正文以贝叶斯公式把先验概率与条件概率联系起来，并据此构造后验概率分类器。"
     },
     {
-      "title": "Gaussian process regression的导出——权重空间视角下的贝叶斯的方法",
-      "url": "https://zhuanlan.zhihu.com/p/27554656",
-      "summary": "正文由先验、似然和贝叶斯公式推导权重后验及预测分布。"
-    },
-    {
       "title": "福尔摩斯、科学家、创业者和火鸡",
       "url": "https://zhuanlan.zhihu.com/p/28936407",
       "summary": "正文给出贝叶斯更新的先验、调整因子和后验关系，并用实例解释概率修正过程。"
-    },
-    {
-      "title": "Dynamic Causal Modeling：确定性因果模型（下）",
-      "url": "https://zhuanlan.zhihu.com/p/29012390",
-      "summary": "正文以先验、似然和后验为核心解释贝叶斯参数估计，并用后验分布完成动态因果模型推断。"
-    },
-    {
-      "title": "处理不完美工具变量（一）",
-      "url": "https://zhuanlan.zhihu.com/p/28991841",
-      "summary": "正文在排他性约束不确定时对模型参数施加先验，并通过贝叶斯后验进行稳健统计推断。"
-    },
-    {
-      "title": "卡尔曼滤波示例",
-      "url": "https://zhuanlan.zhihu.com/p/29191795",
-      "summary": "正文用先验分布、似然和新息解释贝叶斯后验更新，并把迭代更新作为卡尔曼滤波的本质。"
-    },
-    {
-      "title": "深入理解L1、L2正则化",
-      "url": "https://zhuanlan.zhihu.com/p/29360425",
-      "summary": "正文用高斯先验和拉普拉斯先验的最大后验估计分别推出 L2 与 L1 正则项。"
     },
     {
       "title": "从概率论到多分类问题：综述贝叶斯统计分类",
@@ -1328,94 +578,9 @@
       "summary": "正文用条件概率、全概率公式和贝叶斯公式说明如何由新信息更新事件概率。"
     },
     {
-      "title": "隐含狄利克雷分布（LDA）",
-      "url": "https://zhuanlan.zhihu.com/p/29932017",
-      "summary": "正文从先验、似然和后验出发，用共轭更新解释 LDA 的贝叶斯推断过程。"
-    },
-    {
-      "title": "深入机器学习系列21-最大熵模型",
-      "url": "https://zhuanlan.zhihu.com/p/29978153",
-      "summary": "正文依据贝叶斯公式把联合期望转化为条件概率模型，并建立特征约束。"
-    },
-    {
-      "title": "【详解】银行信用评分卡中的WOE在干什么？",
-      "url": "https://zhuanlan.zhihu.com/p/30026040",
-      "summary": "正文把 WOE 解释为贝叶斯因子，并讨论朴素贝叶斯条件独立假设及 semi-Bayes 修正。"
-    },
-    {
-      "title": "统计概念误解：置信区间",
-      "url": "https://zhuanlan.zhihu.com/p/30387663",
-      "summary": "正文以固定区间和随机参数解释贝叶斯可信区间，并与频率学派置信区间对照。"
-    },
-    {
-      "title": "浅谈「Gibbs采样」",
-      "url": "https://zhuanlan.zhihu.com/p/25072161",
-      "summary": "正文以后验分布正比于先验乘似然为出发点，推导参数的条件后验并交替采样。"
-    },
-    {
-      "title": "一文详解LDA主题模型",
-      "url": "https://zhuanlan.zhihu.com/p/31470216",
-      "summary": "正文用先验、似然和后验解释共轭先验，并以Dirichlet后验均值完成LDA中的贝叶斯参数估计。"
-    },
-    {
       "title": "信还是不信？这是个贝叶斯问题。",
       "url": "https://zhuanlan.zhihu.com/p/31679883",
       "summary": "正文以先验知识和新数据更新信任度为主线讲解贝叶斯推断。"
-    },
-    {
-      "title": "如何理解「共轭分布」？",
-      "url": "https://zhuanlan.zhihu.com/p/26638720",
-      "summary": "正文以贝叶斯定理统一定义共轭先验，并推导泊松-伽马和正态-正态模型的后验更新。"
-    },
-    {
-      "title": "一份数学小白也能读懂的「马尔可夫链蒙特卡洛方法」入门指南",
-      "url": "https://zhuanlan.zhihu.com/p/32319959",
-      "summary": "正文定义先验分布和可能性分布，并说明贝叶斯分析通过二者得到后验分布。"
-    },
-    {
-      "title": "不用数学也能讲清贝叶斯理论的马尔可夫链蒙特卡洛方法？这篇文章做到了",
-      "url": "https://zhuanlan.zhihu.com/p/32331902",
-      "summary": "正文系统说明贝叶斯统计中的先验分布、似然分布和后验分布及三者关系。"
-    },
-    {
-      "title": "Multi-Armed Bandit: Thompson Sampling",
-      "url": "https://zhuanlan.zhihu.com/p/32410420",
-      "summary": "正文用先验分布、似然和后验分布更新参数信念，具体展示贝叶斯推断。"
-    },
-    {
-      "title": "投硬币与贝叶斯思想",
-      "url": "https://zhuanlan.zhihu.com/p/32447935",
-      "summary": "正文用均匀先验和连续观测结果更新对硬币正面概率的信念，讲解贝叶斯统计的先验与后验更新。"
-    },
-    {
-      "title": "理解机器学习中的 L2 正则化",
-      "url": "https://zhuanlan.zhihu.com/p/32488420",
-      "summary": "正文用贝叶斯公式、先验分布和最大后验说明 L2 正则化的统计解释。"
-    },
-    {
-      "title": "似然函数与极大似然估计",
-      "url": "https://zhuanlan.zhihu.com/p/32568242",
-      "summary": "正文在极大似然估计后比较频率学派与贝叶斯学派，说明先验概率和最大后验估计的作用。"
-    },
-    {
-      "title": "聊一聊机器学习的MLE和MAP：最大似然估计和最大后验估计",
-      "url": "https://zhuanlan.zhihu.com/p/32480810",
-      "summary": "正文解释先验、似然和后验，由贝叶斯公式推导最大后验估计并讨论高斯先验的作用。"
-    },
-    {
-      "title": "最大后验估计",
-      "url": "https://zhuanlan.zhihu.com/p/32616870",
-      "summary": "正文以贝叶斯公式连接先验、似然与后验，并用抛硬币例子说明最大后验估计。"
-    },
-    {
-      "title": "贝叶斯眼里的正则化",
-      "url": "https://zhuanlan.zhihu.com/p/32685118",
-      "summary": "正文由最大似然与先验推导最大后验估计，并用贝叶斯观点解释损失函数和正则化。"
-    },
-    {
-      "title": "从最大似然估计开始，你需要打下的机器学习基石",
-      "url": "https://zhuanlan.zhihu.com/p/32803109",
-      "summary": "正文系统讲解先验、似然、后验、共轭分布和 MAP 估计，并用数据更新信念。"
     },
     {
       "title": "直观理解贝叶斯公式",
@@ -1426,21 +591,6 @@
       "title": "作为世界观的统计学",
       "url": "https://zhuanlan.zhihu.com/p/32917777",
       "summary": "正文解释贝叶斯统计如何结合参数先验分布与数据似然度进行推断，并讨论其对假设的依赖。"
-    },
-    {
-      "title": "告别数学公式，图文解读什么是马尔可夫链蒙特卡罗方法（MCMC）",
-      "url": "https://zhuanlan.zhihu.com/p/32982140",
-      "summary": "正文以先验、似然和后验分布完整解释贝叶斯统计，并说明如何用数据更新参数信念。"
-    },
-    {
-      "title": "当我们优化损失函数时，我们在优化什么",
-      "url": "https://zhuanlan.zhihu.com/p/33568166",
-      "summary": "正文由贝叶斯公式定义先验、似然和后验，并据此解释极大后验估计与正则化目标函数的关系。"
-    },
-    {
-      "title": "从数学到实现，全面回顾高斯过程中的函数最优化",
-      "url": "https://zhuanlan.zhihu.com/p/34023688",
-      "summary": "正文由贝叶斯法则构造先验与似然，并推导高斯过程的后验分布。"
     },
     {
       "title": "CVPR2018: 基于时空模型无监督迁移学习的行人重识别",
@@ -1458,119 +608,9 @@
       "summary": "正文用后验概率讨论贝叶斯模型选择及其随数据量变化的渐近行为。"
     },
     {
-      "title": "再谈变分自编码器VAE：从贝叶斯观点出发",
-      "url": "https://zhuanlan.zhihu.com/p/35210280",
-      "summary": "正文从联合分布近似、先验和后验近似出发，系统推导变分自编码器的贝叶斯学习框架。"
-    },
-    {
-      "title": "L1正则化与L2正则化",
-      "url": "https://zhuanlan.zhihu.com/p/35356992",
-      "summary": "正文把参数先验分布与正则项联系起来，用拉普拉斯先验推导 L1、用高斯先验推导 L2。"
-    },
-    {
-      "title": "贝叶斯线性回归方法的解释和优点",
-      "url": "https://zhuanlan.zhihu.com/p/36107616",
-      "summary": "正文用先验、似然和后验分布解释贝叶斯统计推断，并讨论其后验不确定性。"
-    },
-    {
-      "title": "LDA(Latent Dirichlet Allocation)主题模型",
-      "url": "https://zhuanlan.zhihu.com/p/36394491",
-      "summary": "正文从贝叶斯观点为多项分布参数设置 Dirichlet 先验，并围绕后验概率展开推断。"
-    },
-    {
-      "title": "贝叶斯推断方法 —— 从经验知识到推断未知",
-      "url": "https://zhuanlan.zhihu.com/p/36545000",
-      "summary": "正文从条件概率推出贝叶斯公式，并用狗叫与盗窃的例子计算后验概率，形成贝叶斯推断案例。"
-    },
-    {
-      "title": "卡尔曼滤波：从入门到精通",
-      "url": "https://zhuanlan.zhihu.com/p/36745755",
-      "summary": "正文把测量更新解释为先验分布与似然相乘，并明确以贝叶斯法则得到后验概率。"
-    },
-    {
-      "title": "为什么我说概率论是大学最不能翘的一门数学课",
-      "url": "https://zhuanlan.zhihu.com/p/36920233",
-      "summary": "正文由条件概率推出贝叶斯公式，解释先验概率、后验概率和调整因子，并用它建立统计推断模型。"
-    },
-    {
-      "title": "一文详解朴素贝叶斯(Naive Bayes)原理",
-      "url": "https://zhuanlan.zhihu.com/p/37575364",
-      "summary": "正文从先验概率和似然出发讲解贝叶斯公式如何生成后验概率，并据此进行分类推断。"
-    },
-    {
       "title": "小白之通俗易懂的贝叶斯定理（Bayes' Theorem）",
       "url": "https://zhuanlan.zhihu.com/p/37768413",
       "summary": "正文从先验概率、似然调整和后验概率完整解释贝叶斯定理，并用疾病检测说明贝叶斯推断。"
-    },
-    {
-      "title": "理解Gamma分布、Beta分布与Dirichlet分布",
-      "url": "https://zhuanlan.zhihu.com/p/37976562",
-      "summary": "正文以先验分布、二项数据似然和后验分布说明Beta-Binomial共轭的贝叶斯推断过程。"
-    },
-    {
-      "title": "贝叶斯统计",
-      "url": "https://zhuanlan.zhihu.com/p/38553838",
-      "summary": "正文系统讲解先验分布、后验分布和贝叶斯推断，正是贝叶斯统计的核心框架。"
-    },
-    {
-      "title": "Barra 模型的填坑、讨论帖",
-      "url": "https://zhuanlan.zhihu.com/p/38565479",
-      "summary": "正文说明 Barra 如何用市值分档先验与个股后验计算收缩权重，属于贝叶斯统计的应用。"
-    },
-    {
-      "title": "在追逐 p-value 的道路上狂奔，却在科学的道路上渐行渐远",
-      "url": "https://zhuanlan.zhihu.com/p/38663777",
-      "summary": "正文介绍贝叶斯化 p-value、最小贝叶斯因子与先验概率，并据此计算后验判断因子的有效性。"
-    },
-    {
-      "title": "Barra 因子模型中的风险调整",
-      "url": "https://zhuanlan.zhihu.com/p/38895499",
-      "summary": "正文讲解先验与样本估计线性加权的收缩系数及收缩强度，属于贝叶斯收缩方法。"
-    },
-    {
-      "title": "Gaussian process 的最后一步——话说超参学习",
-      "url": "https://zhuanlan.zhihu.com/p/39118553",
-      "summary": "正文在贝叶斯预测框架中为超参数设置先验，并对超参数后验积分得到预测分布。"
-    },
-    {
-      "title": "极大似然估计与最大后验概率估计",
-      "url": "https://zhuanlan.zhihu.com/p/40024110",
-      "summary": "正文对比频率学派与贝叶斯派，说明贝叶斯参数估计如何结合先验、观测数据和参数后验分布。"
-    },
-    {
-      "title": "似然函数和最大似然估计",
-      "url": "https://zhuanlan.zhihu.com/p/40236632",
-      "summary": "正文从条件概率和贝叶斯公式解释参数似然与后验更新，并用观测数据比较不同参数的合理性。"
-    },
-    {
-      "title": "<基础系列>1：先验概率 & 后验概率",
-      "url": "https://zhuanlan.zhihu.com/p/38567891",
-      "summary": "正文以先验和后验分布说明如何用观测结果修正原因判断，属于贝叶斯统计基本思想。"
-    },
-    {
-      "title": "【干货合集】从贝叶斯方法谈到贝叶斯网络",
-      "url": "https://zhuanlan.zhihu.com/p/41069540",
-      "summary": "正文用先验分布和后验分布说明贝叶斯学派的参数推断与认知更新过程。"
-    },
-    {
-      "title": "似然和似然函数详解",
-      "url": "https://zhuanlan.zhihu.com/p/42598338",
-      "summary": "正文援引贝叶斯公式把数据下的参数可能性与数据的条件概率联系起来，并以极大似然选择参数，涉及贝叶斯统计框架。"
-    },
-    {
-      "title": "[PR-1] Grid Mapping 占用栅格地图构建实现",
-      "url": "https://zhuanlan.zhihu.com/p/42995269",
-      "summary": "正文以贝叶斯公式递推每个栅格的后验占用概率。"
-    },
-    {
-      "title": "深度学习贝叶斯，这是一份密集的6天速成课程（视频与PPT）",
-      "url": "https://zhuanlan.zhihu.com/p/43973060",
-      "summary": "正文用盲人摸象说明先验、似然和后验更新，并比较贝叶斯推断与频率学派。"
-    },
-    {
-      "title": "【点滴】理解高斯过程(1)",
-      "url": "https://zhuanlan.zhihu.com/p/44960851",
-      "summary": "正文对比最大似然与贝叶斯推断，并由函数先验、观测似然和后验预测积分说明贝叶斯更新。"
     },
     {
       "title": "贝叶斯、香农、奥卡姆合写博客「机器学习是什么」",
@@ -1583,54 +623,9 @@
       "summary": "正文从条件概率推导贝叶斯定理，并用先验、后验及全概率公式解释贝叶斯更新。"
     },
     {
-      "title": "高斯混合模型(GMM)",
-      "url": "https://zhuanlan.zhihu.com/p/45793456",
-      "summary": "正文引入隐含变量，并具体推导先验、似然和后验概率的贝叶斯关系。"
-    },
-    {
-      "title": "最大似然估计（MLE） & 最大后验概率估计（MAP）",
-      "url": "https://zhuanlan.zhihu.com/p/46737512",
-      "summary": "正文通过先验、似然和后验比较 MLE 与 MAP，说明参数按观测更新。"
-    },
-    {
-      "title": "统计学习 | 贝叶斯高斯张量分解",
-      "url": "https://zhuanlan.zhihu.com/p/47049414",
-      "summary": "正文以先验、似然和后验为核心推导张量分解参数，并介绍 MCMC 与变分推断两种贝叶斯推断路线。"
-    },
-    {
-      "title": "从Lasso开始说起",
-      "url": "https://zhuanlan.zhihu.com/p/46999826",
-      "summary": "正文用先验分布和最大后验概率解释 Ridge 与 Lasso 的正则化项。"
-    },
-    {
-      "title": "详解最大似然估计（MLE）、最大后验概率估计（MAP），以及贝叶斯公式的理解（转载）",
-      "url": "https://zhuanlan.zhihu.com/p/48071601",
-      "summary": "正文把参数先验与观测似然相乘形成后验目标，具体比较了最大似然估计和贝叶斯最大后验估计。"
-    },
-    {
       "title": "统计学最著名的门派之争，贝叶斯派到底能否笑到最后",
       "url": "https://zhuanlan.zhihu.com/p/48340457",
       "summary": "正文以候车人数参数为例，用先验、似然和后验更新具体讲解贝叶斯统计推断。"
-    },
-    {
-      "title": "变分推断到底是什么鬼？",
-      "url": "https://zhuanlan.zhihu.com/p/48713461",
-      "summary": "从贝叶斯公式和难求后验出发，以变分分布近似后验概率。"
-    },
-    {
-      "title": "谈谈变分自编码器背后的数学知识",
-      "url": "https://zhuanlan.zhihu.com/p/48985202",
-      "summary": "正文从先验、似然和后验出发，用变分推断寻找近似后验并推导 ELBO 下界。"
-    },
-    {
-      "title": "变分推断——深度学习第十九章",
-      "url": "https://zhuanlan.zhihu.com/p/49401976",
-      "summary": "正文把贝叶斯推断定义为对后验概率的计算，并用变分分布近似该后验。"
-    },
-    {
-      "title": "TrueSkill原理简介",
-      "url": "https://zhuanlan.zhihu.com/p/48737998",
-      "summary": "正文把选手水平和比赛表现建模为随机变量，并依据赛果做贝叶斯后验推断与参数更新。"
     },
     {
       "title": "托马斯·贝叶斯告诉你: 怎样才能更容易中奖？",
@@ -1638,114 +633,9 @@
       "summary": "正文给出贝叶斯公式及先验、条件概率代入过程，并用后验概率比较换门策略。"
     },
     {
-      "title": "VAE 的细节：p(x|z) 的噪音，与 p(z|x) 的编码坍塌",
-      "url": "https://zhuanlan.zhihu.com/p/52974147",
-      "summary": "正文区分不可见的先验分布与编码器给出的后验分布，并用 KL 散度说明二者的约束关系。"
-    },
-    {
-      "title": "贝叶斯优化(Bayesian Optimization)深入理解",
-      "url": "https://zhuanlan.zhihu.com/p/53826787",
-      "summary": "正文以已有观测建立损失函数的概率模型，并通过采集函数选择下一次试验点，体现贝叶斯统计推断思路。"
-    },
-    {
-      "title": "L1和L2正则化的概率解释🎃",
-      "url": "https://zhuanlan.zhihu.com/p/56185913",
-      "summary": "正文用贝叶斯先验、后验与最大后验估计解释 L1 正则化，并完整推导其目标函数。"
-    },
-    {
-      "title": "看得见的高斯过程：这是一份直观的入门解读",
-      "url": "https://zhuanlan.zhihu.com/p/56562456",
-      "summary": "正文用先验、后验和条件分布说明高斯过程中的贝叶斯推断，并展示训练数据如何更新预测分布。"
-    },
-    {
-      "title": "史上最全的语义SLAM论文笔记整理",
-      "url": "https://zhuanlan.zhihu.com/p/56805175",
-      "summary": "正文引入物体尺寸先验和高斯观测模型，用先验与似然构造后验并估计物体位姿，体现贝叶斯统计推断。"
-    },
-    {
-      "title": "机器学习（周志华）课后习题——第七章——贝叶斯分类",
-      "url": "https://zhuanlan.zhihu.com/p/51768750",
-      "summary": "正文运用贝叶斯定理推导最优贝叶斯分类器，并讨论先验、条件和后验概率关系。"
-    },
-    {
-      "title": "【实验笔记】深度学习中的两种不确定性（上）",
-      "url": "https://zhuanlan.zhihu.com/p/56986840",
-      "summary": "正文由贝叶斯公式建立权重后验分布，并讨论用该后验分布进行推断和量化模型不确定性。"
-    },
-    {
-      "title": "数据分析-描述性统计分析",
-      "url": "https://zhuanlan.zhihu.com/p/57761661",
-      "summary": "正文说明贝叶斯分析从先验概率出发，依据新证据持续更新事件概率。"
-    },
-    {
-      "title": "协方差，方差，标准差",
-      "url": "https://zhuanlan.zhihu.com/p/58427127",
-      "summary": "正文写出后验、似然与先验的贝叶斯关系，并说明通过最大化后验概率进行状态估计。"
-    },
-    {
-      "title": "卡尔曼滤波详细解析",
-      "url": "https://zhuanlan.zhihu.com/p/58675854",
-      "summary": "正文以先验、后验和贝叶斯公式描述状态估计，并逐步推导贝叶斯滤波的预测与更新。"
-    },
-    {
-      "title": "机器学习中的概率模型与数据分布密度估计",
-      "url": "https://zhuanlan.zhihu.com/p/58969494",
-      "summary": "正文从贝叶斯公式展开先验、似然和后验分布，说明观测数据如何更新分布参数的信念。"
-    },
-    {
       "title": "前10次投篮中命中了9次，那么下一次命中的概率是多少？",
       "url": "https://zhuanlan.zhihu.com/p/60202370",
       "summary": "正文比较矩估计、最大似然估计和贝叶斯估计，并用先验分布与后验期望讨论参数推断。"
-    },
-    {
-      "title": "高斯混合模型(Gaussian Mixture Model)与EM算法原理(一)",
-      "url": "https://zhuanlan.zhihu.com/p/60649774",
-      "summary": "正文用贝叶斯定理计算观测样本来自各高斯分模型的后验概率即响应度。"
-    },
-    {
-      "title": "重复测量方差分析中如何计算贝叶斯因子（Bayes Factor）——以R和JASP为例",
-      "url": "https://zhuanlan.zhihu.com/p/60507889",
-      "summary": "正文定义贝叶斯因子为模型比较和假设检验方法，并说明其衡量数据对原假设与备择假设支持强度的比值。"
-    },
-    {
-      "title": "极大似然估计和贝叶斯估计",
-      "url": "https://zhuanlan.zhihu.com/p/61593112",
-      "summary": "正文通过贝叶斯公式、先验分布和后验分布系统讲解参数估计，并比较其与极大似然估计的思想差异。"
-    },
-    {
-      "title": "浅析最大似然估计与最大后验估计",
-      "url": "https://zhuanlan.zhihu.com/p/61905474",
-      "summary": "正文以贝叶斯公式比较最大似然与最大后验估计，解释先验、后验及先验项对参数估计的作用。"
-    },
-    {
-      "title": "数据融合之卡尔曼滤波示例",
-      "url": "https://zhuanlan.zhihu.com/p/62246762",
-      "summary": "正文把预测和测量更新纳入递归贝叶斯滤波框架，并解释不同状态估计器的分类。"
-    },
-    {
-      "title": "VAE系解纠缠：从VAE到βVAE，再到β-TCVAE",
-      "url": "https://zhuanlan.zhihu.com/p/62312210",
-      "summary": "正文用先验、数据与后验分布介绍贝叶斯推断，并以变分分布近似后验。"
-    },
-    {
-      "title": "Pyro 从入门到出门",
-      "url": "https://zhuanlan.zhihu.com/p/63276887",
-      "summary": "正文解释先验与后验的关系，并用 guide 逼近 model、KL 散度和 ELBO 讲解贝叶斯推断流程。"
-    },
-    {
-      "title": "先验概率、后验概率、似然函数的理解",
-      "url": "https://zhuanlan.zhihu.com/p/63485232",
-      "summary": "正文以贝叶斯公式为主线，依次解释先验、后验、似然和证据因子，阐明贝叶斯推断各组成部分。"
-    },
-    {
-      "title": "高斯朴素贝叶斯的原理及Python实现",
-      "url": "https://zhuanlan.zhihu.com/p/64498790",
-      "summary": "正文由先验概率和似然度推导后验概率，并用贝叶斯公式构造高斯朴素贝叶斯分类器。"
-    },
-    {
-      "title": "博弈 | 精炼贝叶斯纳什均衡",
-      "url": "https://zhuanlan.zhihu.com/p/64687523",
-      "summary": "正文把先验概率、贝叶斯公式和后验概率用于动态博弈中的信念更新，具体展示了贝叶斯统计式推断。"
     },
     {
       "title": "所谓高手，就是把自己活成了贝叶斯定理",
@@ -1758,419 +648,9 @@
       "summary": "正文比较频率派与贝叶斯派，介绍先验到后验的统计更新方法并以职业判断和疾病检测为例。"
     },
     {
-      "title": "高斯混合模型与EM算法的数学原理及应用实例",
-      "url": "https://zhuanlan.zhihu.com/p/67107370",
-      "summary": "正文用贝叶斯公式由先验和似然计算隐变量后验概率，并据此完成 E 步。"
-    },
-    {
-      "title": "【统计学进阶知识（一）】深入理解Beta分布：从定义到公式推导",
-      "url": "https://zhuanlan.zhihu.com/p/69606875",
-      "summary": "正文以 Beta 先验和二项似然推导后验仍为 Beta 分布，具体展示贝叶斯更新过程。"
-    },
-    {
-      "title": "Neural Process",
-      "url": "https://zhuanlan.zhihu.com/p/70226367",
-      "summary": "正文用贝叶斯公式构造高斯过程预测，并通过变分分布近似后验来最大化边缘似然的下界。"
-    },
-    {
-      "title": "【算法】Bayesian Optimization",
-      "url": "https://zhuanlan.zhihu.com/p/72403538",
-      "summary": "正文以先验分布、后验分布和高斯过程构成统计模型，并据此选择下一次采样点。"
-    },
-    {
-      "title": "贝叶斯估计",
-      "url": "https://zhuanlan.zhihu.com/p/72506771",
-      "summary": "正文由贝叶斯公式得到后验分布，并用后验预测积分阐述贝叶斯估计。"
-    },
-    {
       "title": "一个问题引发的统计学派之争",
       "url": "https://zhuanlan.zhihu.com/p/73366044",
       "summary": "正文将发病率、患病状态和诊断结果组织成贝叶斯网络，并由先验和诊断证据求后验分布。"
-    },
-    {
-      "title": "贝叶斯网络，看完这篇我终于理解了(附代码)！",
-      "url": "https://zhuanlan.zhihu.com/p/73415944",
-      "summary": "正文系统介绍先验、似然和后验分布，并用最大后验估计连接贝叶斯推断。"
-    },
-    {
-      "title": "统计学习 | 矩阵正态分布 (matrix normal distribution)",
-      "url": "https://zhuanlan.zhihu.com/p/73585133",
-      "summary": "正文以矩阵正态先验和逆 Wishart 先验推导向量自回归模型的参数后验分布。"
-    },
-    {
-      "title": "通俗理解高斯过程及其应用",
-      "url": "https://zhuanlan.zhihu.com/p/73832253",
-      "summary": "正文把高斯过程作为函数先验，并由观测数据的联合分布推导后验预测均值和协方差。"
-    },
-    {
-      "title": "3个范例带你读懂贝叶斯法则",
-      "url": "https://zhuanlan.zhihu.com/p/75380549",
-      "summary": "正文把命题真假视为主观概率，并说明证据如何改变信念，落在贝叶斯统计思想。"
-    },
-    {
-      "title": "我是这样一步步理解--主题模型(Topic Model)、LDA(案例代码)",
-      "url": "https://zhuanlan.zhihu.com/p/75542177",
-      "summary": "正文解释先验、后验和共轭先验，并说明 LDA 如何把主题与词分布置于贝叶斯框架中。"
-    },
-    {
-      "title": "高斯过程 Gaussian Processes 原理、可视化及代码实现",
-      "url": "https://zhuanlan.zhihu.com/p/75589452",
-      "summary": "正文明确从高斯过程先验和数据条件分布推导后验，并以边缘似然优化核函数超参数。"
-    },
-    {
-      "title": "一文读懂贝叶斯推理问题：MCMC方法和变分推断",
-      "url": "https://zhuanlan.zhihu.com/p/75617364",
-      "summary": "正文以先验、似然和后验解释贝叶斯定理，并将参数估计表述为贝叶斯推断。"
-    },
-    {
-      "title": "【机器学习】逻辑回归（非常详细）",
-      "url": "https://zhuanlan.zhihu.com/p/74874291",
-      "summary": "正文把L1和L2正则解释为拉普拉斯或正态参数先验，并通过先验与似然的联合目标说明贝叶斯统计思想。"
-    },
-    {
-      "title": "随机过程在数据科学和深度学习中有哪些应用？",
-      "url": "https://zhuanlan.zhihu.com/p/79032057",
-      "summary": "正文用骰子信念更新说明先验、证据和后验，并连接到高斯过程的贝叶斯更新。"
-    },
-    {
-      "title": "机器学习中的判别式模型和生成式模型",
-      "url": "https://zhuanlan.zhihu.com/p/74586507",
-      "summary": "正文具体说明生成式模型如何利用贝叶斯公式，从联合概率得到分类所需的后验条件概率。"
-    },
-    {
-      "title": "Bayesian Neural Networks：贝叶斯神经网络",
-      "url": "https://zhuanlan.zhihu.com/p/81170602",
-      "summary": "正文从先验和数据似然导出权重后验，并用近似后验完成贝叶斯预测。"
-    },
-    {
-      "title": "蒙特卡洛梯度估计方法（MCGE）简述",
-      "url": "https://zhuanlan.zhihu.com/p/81806149",
-      "summary": "正文在贝叶斯推断中引入变分分布，由 KL 散度推导 ELBO 并优化近似后验。"
-    },
-    {
-      "title": "风控模型—WOE与IV指标的深入理解应用",
-      "url": "https://zhuanlan.zhihu.com/p/80134853",
-      "summary": "正文用先验、后验和贝叶斯公式解释WOE更新证据的机制，对应贝叶斯统计。"
-    },
-    {
-      "title": "Distribution is all you need：这里有12种做ML不可不知的分布",
-      "url": "https://zhuanlan.zhihu.com/p/83578219",
-      "summary": "正文解释先验、后验和共轭分布，并说明贝塔与狄利克雷分布在贝叶斯推断中的共轭先验作用。"
-    },
-    {
-      "title": "变分自编码器介绍、推导及实现",
-      "url": "https://zhuanlan.zhihu.com/p/83865427",
-      "summary": "正文由贝叶斯公式得到不可解的后验，再用可解分布做变分近似，实质讲述后验推断。"
-    },
-    {
-      "title": "多臂老虎机之Thompson Sampling",
-      "url": "https://zhuanlan.zhihu.com/p/84338172",
-      "summary": "正文解释贝叶斯公式、先验与后验的关系，并说明如何依据样本进行贝叶斯更新。"
-    },
-    {
-      "title": "回字的四种写法——从线性回归到贝叶斯线性回归",
-      "url": "https://zhuanlan.zhihu.com/p/86009986",
-      "summary": "正文运用贝叶斯公式和高斯共轭性推导贝叶斯线性回归的后验参数。"
-    },
-    {
-      "title": "高斯过程和贝叶斯最优化",
-      "url": "https://zhuanlan.zhihu.com/p/86386926",
-      "summary": "正文以先验、似然和后验的更新公式讲解高斯过程预测及贝叶斯方法。"
-    },
-    {
-      "title": "终身持续学习-可塑权重巩固（Elastic Weight Consolidation）",
-      "url": "https://zhuanlan.zhihu.com/p/86365066",
-      "summary": "正文用贝叶斯公式、先验后验和拉普拉斯近似推导 EWC 的正则化损失。"
-    },
-    {
-      "title": "变分推断（Variational Inference）进展简述",
-      "url": "https://zhuanlan.zhihu.com/p/88336614",
-      "summary": "正文以贝叶斯后验分布为核心对象，并系统讨论用变分分布近似后验的贝叶斯推断方法。"
-    },
-    {
-      "title": "贝叶斯学习笔记（一）共轭先验",
-      "url": "https://zhuanlan.zhihu.com/p/89398684",
-      "summary": "正文从先验和似然的乘积得到后验，并以泊松模型解释贝叶斯推断及共轭先验。"
-    },
-    {
-      "title": "【实例讲解】贝叶斯推理原理",
-      "url": "https://zhuanlan.zhihu.com/p/90420091",
-      "summary": "正文系统区分先验、似然和后验，并结合最大似然与最大后验估计说明贝叶斯统计推断流程。"
-    },
-    {
-      "title": "极大似然估计、最大后验估计",
-      "url": "https://zhuanlan.zhihu.com/p/93416473",
-      "summary": "正文以贝叶斯公式连接先验、似然和后验，并比较极大似然、最大后验与贝叶斯估计。"
-    },
-    {
-      "title": "贝叶斯优化（Bayesian Optimization）（一）：高斯过程（GP）",
-      "url": "https://zhuanlan.zhihu.com/p/93079569",
-      "summary": "正文用贝叶斯公式连接似然与先验，得到模型参数的后验概率。"
-    },
-    {
-      "title": "条件概率及与其有关的三个概率公式：乘法公式、全概率公式、贝叶斯公式",
-      "url": "https://zhuanlan.zhihu.com/p/94214614",
-      "summary": "正文给出贝叶斯公式，并解释如何由结果反推各原因的后验概率。"
-    },
-    {
-      "title": "【概率论与数理统计期末复习笔记】-（一）事件的概率",
-      "url": "https://zhuanlan.zhihu.com/p/94819379",
-      "summary": "正文先给出全概率公式，再用贝叶斯公式由结果反推各原因发生的后验概率。"
-    },
-    {
-      "title": "高斯过程和高斯过程回归",
-      "url": "https://zhuanlan.zhihu.com/p/100443773",
-      "summary": "正文用参数先验、贝叶斯规则和后验预测分布展开贝叶斯线性回归，并与非概率线性回归对照不确定性。"
-    },
-    {
-      "title": "深度学习中的不确定性",
-      "url": "https://zhuanlan.zhihu.com/p/98756147",
-      "summary": "正文给出先验、似然和后验公式，并用贝叶斯神经网络近似模型参数的后验分布。"
-    },
-    {
-      "title": "BE02: 贝叶斯法则与伯努利分布",
-      "url": "https://zhuanlan.zhihu.com/p/102399871",
-      "summary": "正文以贝叶斯公式计算参数的后验分布，并说明观测增多后先验影响减弱。"
-    },
-    {
-      "title": "“共轭分布”是什么？",
-      "url": "https://zhuanlan.zhihu.com/p/103854460",
-      "summary": "正文由先验、似然和后验讲解贝叶斯更新，并把共轭先验用于连续更新参数。"
-    },
-    {
-      "title": "高斯过程回归：推导，实现和理解",
-      "url": "https://zhuanlan.zhihu.com/p/104601803",
-      "summary": "正文从先验高斯过程出发，利用贝叶斯定理和观测数据推导后验分布。"
-    },
-    {
-      "title": "十分钟上手sklearn：特征提取，常用模型，交叉验证",
-      "url": "https://zhuanlan.zhihu.com/p/105041301",
-      "summary": "正文用贝叶斯公式解释朴素贝叶斯分类如何由先验与条件概率计算后验概率。"
-    },
-    {
-      "title": "为什么不把EM算法说清楚？",
-      "url": "https://zhuanlan.zhihu.com/p/105564568",
-      "summary": "正文从先验、似然与后验概率出发解释贝叶斯估计和最大后验估计，再引出 EM。"
-    },
-    {
-      "title": "茆诗松的概率论与数理统计（第六章）",
-      "url": "https://zhuanlan.zhihu.com/p/105064486",
-      "summary": "正文引入先验分布，利用贝叶斯公式求后验分布，并讨论共轭先验。"
-    },
-    {
-      "title": "纯贝叶斯神经网络没有意义？OpenAI科学家何出此言？",
-      "url": "https://zhuanlan.zhihu.com/p/108093839",
-      "summary": "正文用先验、似然和后验解释贝叶斯推断，并讨论先验质量如何影响不确定性估计。"
-    },
-    {
-      "title": "Sigmoid function详解",
-      "url": "https://zhuanlan.zhihu.com/p/108641430",
-      "summary": "正文由朴素贝叶斯后验概率和先验、类条件概率推导 Sigmoid 函数。"
-    },
-    {
-      "title": "Black-Litterman 资产配置模型简介",
-      "url": "https://zhuanlan.zhihu.com/p/109223653",
-      "summary": "正文系统解释先验分布、新信息和后验分布，并说明 Black-Litterman 模型如何用贝叶斯统计融合市场均衡收益与主观观点。"
-    },
-    {
-      "title": "因果推理初探（2）——有向无环图",
-      "url": "https://zhuanlan.zhihu.com/p/109932832",
-      "summary": "正文给出贝叶斯公式并说明如何用观测事件更新网络中其他变量的概率。"
-    },
-    {
-      "title": "真正的高手，一生都在贯彻贝叶斯定律！",
-      "url": "https://zhuanlan.zhihu.com/p/111235315",
-      "summary": "正文比较频率派与贝叶斯派，说明以初始概率为起点并随新信息持续更新后验概率的贝叶斯统计思路。"
-    },
-    {
-      "title": "Stein variational gradient descent（SVGD）",
-      "url": "https://zhuanlan.zhihu.com/p/114489837",
-      "summary": "正文以 SVGD 作为贝叶斯近似推断算法的代表，说明其通过确定性粒子迭代逼近目标分布并与 MCMC、变分推断比较。"
-    },
-    {
-      "title": "为啥L1正则先验分布是Laplace分布，L2正则先验分布是Gaussian分布",
-      "url": "https://zhuanlan.zhihu.com/p/116079663",
-      "summary": "正文以最大后验估计统一推导高斯先验对应 L2 正则、拉普拉斯先验对应 L1 正则。"
-    },
-    {
-      "title": "贝叶斯统计 | 第一章 贝叶斯统计基本概念",
-      "url": "https://zhuanlan.zhihu.com/p/121126698",
-      "summary": "正文对比经典统计与贝叶斯统计，并以先验、后验及参数随机化说明贝叶斯推断框架。"
-    },
-    {
-      "title": "什么是马尔可夫链蒙特卡洛（MCMC）？",
-      "url": "https://zhuanlan.zhihu.com/p/116725922",
-      "summary": "正文解释先验、似然、证据和后验，并说明 MCMC 用于从复杂后验分布采样。"
-    },
-    {
-      "title": "贝叶斯统计 | 第二章第一部分 共轭先验分布",
-      "url": "https://zhuanlan.zhihu.com/p/121775911",
-      "summary": "正文通过后验分布的核系统讲解共轭先验，并推导二项、正态、泊松等分布族的贝叶斯后验。"
-    },
-    {
-      "title": "概率论与统计学1——谈谈那些令人头疼的概率分布",
-      "url": "https://zhuanlan.zhihu.com/p/124020096",
-      "summary": "正文比较频率学派与贝叶斯学派，说明先验、似然和后验如何通过贝叶斯公式更新。"
-    },
-    {
-      "title": "浅入浅出贝叶斯线性回归 (Bayesian Linear Regression)",
-      "url": "https://zhuanlan.zhihu.com/p/130974579",
-      "summary": "正文用贝叶斯定理结合先验和似然求权重的后验概率，属于贝叶斯统计方法。"
-    },
-    {
-      "title": "GPR(高斯过程回归)详细推导",
-      "url": "https://zhuanlan.zhihu.com/p/133755294",
-      "summary": "正文由权重的先验分布和观测数据推导后验分布，并据此完成贝叶斯预测。"
-    },
-    {
-      "title": "贝叶斯方法理解（1）— 从先验到后验",
-      "url": "https://zhuanlan.zhihu.com/p/136791364",
-      "summary": "正文以先验、似然和后验为主线，具体讲解贝叶斯参数更新的计算过程。"
-    },
-    {
-      "title": "条件概率、全概率公式、贝叶斯公式",
-      "url": "https://zhuanlan.zhihu.com/p/134036707",
-      "summary": "正文解释先验概率、后验概率以及用贝叶斯公式更新认识在统计决策中的作用。"
-    },
-    {
-      "title": "多传感器融合定位理论基础（七）：kalman 滤波器基本原理",
-      "url": "https://zhuanlan.zhihu.com/p/137551862",
-      "summary": "正文由先验、似然和后验展开贝叶斯推断，并以递推后验推导贝叶斯滤波。"
-    },
-    {
-      "title": "变分推理（variational inference）",
-      "url": "https://zhuanlan.zhihu.com/p/138184201",
-      "summary": "正文从贝叶斯后验、先验和联合分布出发，用变分下界近似难以计算的后验分布。"
-    },
-    {
-      "title": "PR Ⅲ：从高斯分布到高斯过程、高斯过程回归、贝叶斯优化",
-      "url": "https://zhuanlan.zhihu.com/p/139478368",
-      "summary": "正文以高斯过程先验和训练数据构造联合高斯分布，再通过条件化得到后验。"
-    },
-    {
-      "title": "贝叶斯深度学习（梳理）",
-      "url": "https://zhuanlan.zhihu.com/p/140388925",
-      "summary": "正文比较 MLE、MAP 与贝叶斯方法，并以后验分布为核心讲解贝叶斯统计。"
-    },
-    {
-      "title": "迭代扩展卡尔曼滤波(IEKF)",
-      "url": "https://zhuanlan.zhihu.com/p/141018958",
-      "summary": "正文给出后验分布并说明 IEKF 通过高斯极大后验和最小二乘的联系进行状态估计。"
-    },
-    {
-      "title": "Gaussian Process Classification 再介绍——从详细的二分类开始",
-      "url": "https://zhuanlan.zhihu.com/p/143579853",
-      "summary": "正文从高斯先验、似然和后验出发推导贝叶斯线性二分类及高斯过程分类。"
-    },
-    {
-      "title": "卡尔曼滤波（Kalman filter）",
-      "url": "https://zhuanlan.zhihu.com/p/142577216",
-      "summary": "正文把卡尔曼滤波解释为线性高斯系统的贝叶斯滤波显式解，并推导预测步和更新步。"
-    },
-    {
-      "title": "统计推断三叉戟",
-      "url": "https://zhuanlan.zhihu.com/p/149339200",
-      "summary": "正文比较频率学派与贝叶斯推断，并结合双胞胎和相关系数例子展开先验、似然与后验的关系。"
-    },
-    {
-      "title": "如何通俗并深刻的理解beta分布",
-      "url": "https://zhuanlan.zhihu.com/p/149964631",
-      "summary": "正文说明Beta分布作为二项似然的共轭先验可简化后验计算，并解释参数更新。"
-    },
-    {
-      "title": "经典模型1. ADF: 增量贝叶斯与在线学习（Online Bayesian Learning）",
-      "url": "https://zhuanlan.zhihu.com/p/150187256",
-      "summary": "正文由增量贝叶斯公式、先验似然和后验近似展开在线贝叶斯推断。"
-    },
-    {
-      "title": "数理统计第16讲（贝叶斯点估计：先验信息，先验分布，后验分布）",
-      "url": "https://zhuanlan.zhihu.com/p/155827279",
-      "summary": "正文围绕先验信息、先验分布和后验分布说明贝叶斯统计推断，并推导具体点估计。"
-    },
-    {
-      "title": "[数理统计] 1 数理统计知识框架",
-      "url": "https://zhuanlan.zhihu.com/p/158631046",
-      "summary": "正文专节定义先验与后验分布、共轭先验和贝叶斯点估计，讲解贝叶斯统计推断。"
-    },
-    {
-      "title": "机器学习——贝叶斯算法",
-      "url": "https://zhuanlan.zhihu.com/p/158771382",
-      "summary": "正文由条件概率、联合概率和边缘概率说明贝叶斯定理，并用于垃圾邮件分类推断。"
-    },
-    {
-      "title": "深度学习必须掌握的 13 种概率分布",
-      "url": "https://zhuanlan.zhihu.com/p/158788495",
-      "summary": "正文具体解释贝叶斯共轭先验以及先验与后验同族的关系，属于贝叶斯统计方法。"
-    },
-    {
-      "title": "总结 | 深度学习那些需要掌握的概率分布",
-      "url": "https://zhuanlan.zhihu.com/p/158801020",
-      "summary": "正文说明β分布与二项分布、伯努利分布共轭，并解释共轭先验便于求后验，属于贝叶斯统计。"
-    },
-    {
-      "title": "卡尔曼滤波 —— 各路大神和自己的总结",
-      "url": "https://zhuanlan.zhihu.com/p/158751412",
-      "summary": "正文以先验信息和观测综合得到后验为目标，并结合贝叶斯公式推导卡尔曼滤波的均值与协方差，属于贝叶斯统计。"
-    },
-    {
-      "title": "概率学派和贝叶斯学派的区别",
-      "url": "https://zhuanlan.zhihu.com/p/158933171",
-      "summary": "正文用先验、似然和后验公式比较贝叶斯与频率学派，并完成共轭先验的参数更新。"
-    },
-    {
-      "title": "说说Karl Friston的自由能原理",
-      "url": "https://zhuanlan.zhihu.com/p/161419921",
-      "summary": "正文从贝叶斯后验出发推导变分自由能，并把最小化自由能解释为贝叶斯变分推断。"
-    },
-    {
-      "title": "人话入门贝叶斯统计学",
-      "url": "https://zhuanlan.zhihu.com/p/161512134",
-      "summary": "正文以抛硬币和下雨判断为例，完整讲解先验、似然、证据与后验更新。"
-    },
-    {
-      "title": "机器学习中的概率模型",
-      "url": "https://zhuanlan.zhihu.com/p/164551678",
-      "summary": "正文用贝叶斯公式、后验概率和变分推断说明贝叶斯分类与近似后验推断。"
-    },
-    {
-      "title": "Strength in Number | 一九九六",
-      "url": "https://zhuanlan.zhihu.com/p/161827138",
-      "summary": "正文展开贝叶斯统计的历史、MCMC 发展、与频率派的关系及其理论应用，属于贝叶斯统计讨论。"
-    },
-    {
-      "title": "最大似然估计与最大后验估计",
-      "url": "https://zhuanlan.zhihu.com/p/184028576",
-      "summary": "正文把参数视为随机变量，以先验分布和观测数据形成后验，并由此推导最大后验估计。"
-    },
-    {
-      "title": "Continual Learning 笔记: EWC / Online EWC / IS / MAS",
-      "url": "https://zhuanlan.zhihu.com/p/205073566",
-      "summary": "正文从参数后验和最大后验估计推导 EWC，并用高斯近似近似历史任务后验。"
-    },
-    {
-      "title": "一文搞懂数据分析经典模型：贝叶斯模型",
-      "url": "https://zhuanlan.zhihu.com/p/210760554",
-      "summary": "正文从条件概率和全概率公式推导贝叶斯公式，并用供货商与检测结果案例完成后验概率计算。"
-    },
-    {
-      "title": "自学生物统计到底学什么？",
-      "url": "https://zhuanlan.zhihu.com/p/218217124",
-      "summary": "正文用数据和先验信息直接计算目标命题成立概率的方式，说明贝叶斯统计与频率学派假设检验的区别。"
-    },
-    {
-      "title": "从零推导：变分自编码器（VAE）",
-      "url": "https://zhuanlan.zhihu.com/p/249296925",
-      "summary": "正文由贝叶斯定理解释后验与先验，并用变分分布近似后验来完成贝叶斯推断。"
-    },
-    {
-      "title": "数学之美：贝叶斯优化",
-      "url": "https://zhuanlan.zhihu.com/p/252771794",
-      "summary": "正文以先验和后验更新解释贝叶斯优化的概率框架，并说明高斯过程如何随新数据更新。"
-    },
-    {
-      "title": "23. 卡尔曼滤波器详解——从零开始(3) Kalman Filter from Zero",
-      "url": "https://zhuanlan.zhihu.com/p/245728093",
-      "summary": "正文系统讲解先验、似然和后验，并由贝叶斯风险推导最小均方误差估计。"
     },
     {
       "title": "用简单术语让你看到贝叶斯优化之美",
@@ -2178,149 +658,9 @@
       "summary": "正文解释贝叶斯优化如何以先验信念结合新观测更新为后验分布。"
     },
     {
-      "title": "贝叶斯神经网络BNN(推导+代码实现)",
-      "url": "https://zhuanlan.zhihu.com/p/263053978",
-      "summary": "正文用先验、似然和后验分解贝叶斯神经网络的权重推断，并依据贝叶斯定理训练模型。"
-    },
-    {
-      "title": "从概率到贝叶斯滤波",
-      "url": "https://zhuanlan.zhihu.com/p/268624245",
-      "summary": "正文从先验、似然和后验概率密度推导贝叶斯公式，并据此建立贝叶斯滤波。"
-    },
-    {
-      "title": "从贝叶斯滤波到卡尔曼滤波",
-      "url": "https://zhuanlan.zhihu.com/p/268632039",
-      "summary": "正文以先验、似然和后验的贝叶斯更新框架推导卡尔曼滤波的估计公式。"
-    },
-    {
-      "title": "生成时间序列的VAE——VRNN与SRNN模型浅析",
-      "url": "https://zhuanlan.zhihu.com/p/272106709",
-      "summary": "正文采用变分贝叶斯推断，并以变分下界、近似后验和 KL 散度刻画模型目标。"
-    },
-    {
-      "title": "贝叶斯层级模型",
-      "url": "https://zhuanlan.zhihu.com/p/267254720",
-      "summary": "正文用先验、似然和后验解释贝叶斯回归，并进一步说明超参数具有先验分布的贝叶斯层级模型。"
-    },
-    {
-      "title": "混合高斯模型-EM算法",
-      "url": "https://zhuanlan.zhihu.com/p/326055752",
-      "summary": "正文用贝叶斯准则计算隐变量后验概率，作为 EM 算法 E 步的责任度。"
-    },
-    {
-      "title": "从贝叶斯滤波到无迹卡尔曼滤波",
-      "url": "https://zhuanlan.zhihu.com/p/328541130",
-      "summary": "正文通过先验分布预测和观测更新得到状态后验分布，构成贝叶斯状态估计的滤波框架。"
-    },
-    {
-      "title": "变点检测总结-Changepoint Detection",
-      "url": "https://zhuanlan.zhihu.com/p/335322056",
-      "summary": "正文以分区概率模型和贝叶斯后验递推建立在线变点检测方法，并讨论风险函数与参数更新。"
-    },
-    {
-      "title": "统计学里频率学派(Frequentist)与贝叶斯(Bayesian)学派的区别和在机器学习中的应用",
-      "url": "https://zhuanlan.zhihu.com/p/337637096",
-      "summary": "正文系统比较频率学派与贝叶斯学派对概率和参数的解释，并说明贝叶斯推断如何使用先验更新后验。"
-    },
-    {
-      "title": "快速入门高斯过程（Gaussian process）回归预测",
-      "url": "https://zhuanlan.zhihu.com/p/331591492",
-      "summary": "正文以贝叶斯推断根据已知观测求未知点的条件概率均值和方差，并将其作为回归预测结果。"
-    },
-    {
-      "title": "贝叶斯分析助你成为优秀的调参侠（1）",
-      "url": "https://zhuanlan.zhihu.com/p/339116960",
-      "summary": "正文由联合概率导出贝叶斯公式，解释先验、似然、证据和后验并用其进行参数推断。"
-    },
-    {
-      "title": "机器学习-白板推导系列(十二)-变分推断（Variational Inference）笔记",
-      "url": "https://zhuanlan.zhihu.com/p/345597656",
-      "summary": "正文以近似后验为推断目标，通过 ELBO 和 KL 散度构造贝叶斯后验的变分近似。"
-    },
-    {
       "title": "多所知名高校合著综述论文、Nature新子刊创刊首发，这是你常听到的贝叶斯统计与建模",
       "url": "https://zhuanlan.zhihu.com/p/347940366",
       "summary": "正文系统介绍贝叶斯统计中先验、似然、后验和预测检验的工作流程，属于贝叶斯统计方法。"
-    },
-    {
-      "title": "回归的多种写法：线性回归-贝叶斯线性回归-高斯过程回归（理论篇）",
-      "url": "https://zhuanlan.zhihu.com/p/350389546",
-      "summary": "正文用先验、似然和后验推导贝叶斯线性回归，并说明高斯先验与 L2 正则的对应。"
-    },
-    {
-      "title": "过去50年最重要的统计学思想",
-      "url": "https://zhuanlan.zhihu.com/p/355875983",
-      "summary": "正文把数据、隐变量、参数和超参数的层次化建模归入经验贝叶斯统计思想。"
-    },
-    {
-      "title": "LS信道估计和MMSE信道估计部分公式推导",
-      "url": "https://zhuanlan.zhihu.com/p/358985352",
-      "summary": "正文用贝叶斯公式和高斯先验推导后验分布，并说明 MAP 与 MMSE 估计的关系。"
-    },
-    {
-      "title": "浅谈L2正则化为什么可以缓解过拟合",
-      "url": "https://zhuanlan.zhihu.com/p/361181741",
-      "summary": "正文从最大似然转为最大后验估计，推导零均值高斯先验与 L2 正则化项之间的等价关系。"
-    },
-    {
-      "title": "概率图模型(一)-综述",
-      "url": "https://zhuanlan.zhihu.com/p/363689582",
-      "summary": "正文比较频率派与贝叶斯派，说明参数先验、贝叶斯估计和最大后验概率估计。"
-    },
-    {
-      "title": "SLAM_VIO知识框架整理与思考（硕士入门篇）--随着学习深入更新",
-      "url": "https://zhuanlan.zhihu.com/p/363926727",
-      "summary": "正文由先验、似然和 Bayes 法则推导状态后验，并给出最大后验估计式。"
-    },
-    {
-      "title": "数学建模部分常用模型总结",
-      "url": "https://zhuanlan.zhihu.com/p/365605278",
-      "summary": "正文介绍贝叶斯判别法如何用先验概率和条件概率密度计算后验概率并分类。"
-    },
-    {
-      "title": "DDM漂移扩散模型与决策的发展",
-      "url": "https://zhuanlan.zhihu.com/p/366160160",
-      "summary": "正文解释DDM中的先验、似然、分层贝叶斯结构及参数后验分布的估计。"
-    },
-    {
-      "title": "贝叶斯公式简介及示例讲解",
-      "url": "https://zhuanlan.zhihu.com/p/366454777",
-      "summary": "正文给出贝叶斯公式，解释后验、似然、先验和证据，并用多组计算更新对事件的概率判断。"
-    },
-    {
-      "title": "【面试看这篇就够了】L1、L2正则化理解",
-      "url": "https://zhuanlan.zhihu.com/p/376282535",
-      "summary": "正文用拉普拉斯先验与最大后验概率估计导出L1正则项，体现贝叶斯统计思路。"
-    },
-    {
-      "title": "统计学教程&Scipy全面语法教程",
-      "url": "https://zhuanlan.zhihu.com/p/376603011",
-      "summary": "正文对比频率学派与贝叶斯学派，并说明先验概率和信念更新在贝叶斯推断中的作用。"
-    },
-    {
-      "title": "从概率角度详细解析ELBO与VAE的loss function",
-      "url": "https://zhuanlan.zhihu.com/p/376768950",
-      "summary": "正文以先验、条件分布和难算的后验分布为出发点，用变分分布近似后验完成贝叶斯式推断。"
-    },
-    {
-      "title": "几何活动轮廓模型——CV、PS、LBF、LGDF与LIF",
-      "url": "https://zhuanlan.zhihu.com/p/383008864",
-      "summary": "正文写出贝叶斯后验公式，并据此估计每个局部区域属于前景或背景的概率。"
-    },
-    {
-      "title": "变分推断之傻瓜式推导ELBO",
-      "url": "https://zhuanlan.zhihu.com/p/385341342",
-      "summary": "正文针对难解的后验概率 p(z|x)，在分布族中寻找近似后验，属于贝叶斯近似推断。"
-    },
-    {
-      "title": "如何简单理解贝叶斯决策理论（Bayes Decision Theory）？",
-      "url": "https://zhuanlan.zhihu.com/p/386113249",
-      "summary": "正文用先验、似然调整和后验说明如何依据新信息更新概率判断。"
-    },
-    {
-      "title": "如何避免VAE后验坍塌？（总）",
-      "url": "https://zhuanlan.zhihu.com/p/389295612",
-      "summary": "正文用先验、近似后验、贝叶斯边缘似然和 KL 散度解释 VAE 中的贝叶斯推断。"
     },
     {
       "title": "贝叶斯定理能让人变成思维高手？",
@@ -2328,294 +668,14 @@
       "summary": "正文解释先验、似然、后验和贝叶斯更新，并用于垃圾邮件分类。"
     },
     {
-      "title": "【辨析】先验概率、后验概率、似然概率",
-      "url": "https://zhuanlan.zhihu.com/p/397960221",
-      "summary": "正文以先验分布、后验分布及证据更新解释贝叶斯统计中观测前后认知如何变化。"
-    },
-    {
-      "title": "走进贝叶斯统计（一）—— 先验分布与后验分布",
-      "url": "https://zhuanlan.zhihu.com/p/401258319",
-      "summary": "正文以参数先验和后验为核心，讲解贝叶斯统计如何用数据更新参数分布。"
-    },
-    {
-      "title": "走进贝叶斯统计（二）—— 共轭先验分布",
-      "url": "https://zhuanlan.zhihu.com/p/401626004",
-      "summary": "正文系统讲解共轭分布与共轭先验，推导伯努利似然下Beta先验更新为Beta后验。"
-    },
-    {
-      "title": "解耦表征学习 | 变分自编码器解读 (Variational Autoencoder, VAE)",
-      "url": "https://zhuanlan.zhihu.com/p/403104014",
-      "summary": "正文系统介绍先验分布、后验分布和贝叶斯公式，并用后验分布概括参数推断。"
-    },
-    {
-      "title": "贝叶斯（Bayes）法则",
-      "url": "https://zhuanlan.zhihu.com/p/403557032",
-      "summary": "正文从先验、数据和后验的关系出发，推导贝叶斯公式并用硬币案例更新判断。"
-    },
-    {
-      "title": "走进贝叶斯统计（三）—— 后验预测分布",
-      "url": "https://zhuanlan.zhihu.com/p/403196065",
-      "summary": "正文在贝叶斯框架下由先验、后验和似然构造后验预测分布，并用伯努利模型演示更新。"
-    },
-    {
-      "title": "走进贝叶斯统计（四）—— 蒙特卡洛方法",
-      "url": "https://zhuanlan.zhihu.com/p/406256344",
-      "summary": "正文从非共轭先验和后验分布的计算困难出发，说明蒙特卡洛方法如何支撑贝叶斯统计推断。"
-    },
-    {
-      "title": "走进贝叶斯统计（五）—— Metropolis-Hasting 算法",
-      "url": "https://zhuanlan.zhihu.com/p/411689417",
-      "summary": "正文围绕先验分布难以归一化的后验分布讨论贝叶斯抽样，并用 MH 算法近似后验。"
-    },
-    {
-      "title": "先验概率与后验概率",
-      "url": "https://zhuanlan.zhihu.com/p/415487792",
-      "summary": "正文由先验概率、后验概率和贝叶斯公式建立统计推断，并说明如何利用先验计算后验。"
-    },
-    {
-      "title": "MCMC与贝叶斯推断简介：从入门到放弃",
-      "url": "https://zhuanlan.zhihu.com/p/420214359",
-      "summary": "正文以先验、似然和后验分布为主线，讲解如何从后验分布取得参数估计并据此进行贝叶斯推断。"
-    },
-    {
-      "title": "走进贝叶斯统计（六）—— 吉布斯抽样 （Gibbs Sampling）",
-      "url": "https://zhuanlan.zhihu.com/p/416670115",
-      "summary": "正文由先验分布和样本似然构造贝叶斯后验分布，并以该后验分布作为抽样目标。"
-    },
-    {
-      "title": "保研面试/考研复试概率论与数理统计问题整理",
-      "url": "https://zhuanlan.zhihu.com/p/421160574",
-      "summary": "正文具体区分先验与后验概率，说明后验由贝叶斯公式结合结果信息计算。"
-    },
-    {
-      "title": "读 What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?",
-      "url": "https://zhuanlan.zhihu.com/p/430849602",
-      "summary": "正文区分贝叶斯模型参数不确定性与观测噪声，并说明用 MC Dropout 近似参数分布。"
-    },
-    {
-      "title": "概率论和数理统计（个人总结篇）",
-      "url": "https://zhuanlan.zhihu.com/p/438177602",
-      "summary": "正文以 beta 分布表示先验并用实验数据更新后验，说明贝叶斯更新的基本框架。"
-    },
-    {
-      "title": "一.因子图优化学习---董靖博士在深蓝学院的公开课学习（1）",
-      "url": "https://zhuanlan.zhihu.com/p/451555685",
-      "summary": "正文从生成模型、先验和似然出发，用贝叶斯公式把因子图状态估计表述为最大后验推断。"
-    },
-    {
-      "title": "通俗科普文：贝叶斯优化与SMBO、高斯过程回归、TPE",
-      "url": "https://zhuanlan.zhihu.com/p/459110020",
-      "summary": "正文以贝叶斯定理分解条件概率，并据此构造 TPE 的代理模型与采集函数。"
-    },
-    {
-      "title": "时间序列原理篇之Facebook Prophet算法",
-      "url": "https://zhuanlan.zhihu.com/p/463183142",
-      "summary": "正文用先验、似然和后验分布解释参数估计，并比较最大后验估计与贝叶斯采样。"
-    },
-    {
-      "title": "Plug-and-Play: 算法的推导, 利用强化学习选择参数与证明收敛性的两种框架",
-      "url": "https://zhuanlan.zhihu.com/p/473894961",
-      "summary": "正文从贝叶斯公式、先验和噪声似然推出 MAP 估计，并把正则化解释为负对数先验。"
-    },
-    {
-      "title": "走进贝叶斯统计（九）——— 杰弗里先验 (Jeffreys Prior)",
-      "url": "https://zhuanlan.zhihu.com/p/428896725",
-      "summary": "正文围绕贝叶斯先验展开，定义 Jeffreys 先验并解释其在参数重参数化下的不变性和客观推断意义。"
-    },
-    {
-      "title": "出色不如走运 (VII)?",
-      "url": "https://zhuanlan.zhihu.com/p/476007400",
-      "summary": "正文构建带先验、似然和后验概率的多层贝叶斯模型，并据此处理多重检验，实质讲解贝叶斯统计。"
-    },
-    {
-      "title": "贝叶斯公式理解之似然函数，后验概率，先验概率",
-      "url": "https://zhuanlan.zhihu.com/p/479174192",
-      "summary": "正文从贝叶斯公式出发解释先验、似然和后验，并比较最大后验估计与极大似然估计。"
-    },
-    {
-      "title": "变分贝叶斯深度学习综述",
-      "url": "https://zhuanlan.zhihu.com/p/484650175",
-      "summary": "正文通过先验、后验和贝叶斯公式把网络参数视为分布，并用变分分布近似后验。"
-    },
-    {
-      "title": "Empirical Market Microstructure：实证市场微观结构 Part I",
-      "url": "https://zhuanlan.zhihu.com/p/481016328",
-      "summary": "正文说明交易把无条件概率更新为条件概率，并据此运用贝叶斯思想修正价格判断。"
-    },
-    {
-      "title": "贝叶斯定理厉害在哪里？",
-      "url": "https://zhuanlan.zhihu.com/p/494697752",
-      "summary": "正文系统解释先验、似然调整和后验更新，并结合疾病检测、垃圾邮件过滤等案例说明贝叶斯推断。"
-    },
-    {
-      "title": "LASSO 回归",
-      "url": "https://zhuanlan.zhihu.com/p/504105454",
-      "summary": "正文用 Laplace 先验和最大后验估计解释 L1 正则化产生稀疏解的贝叶斯含义。"
-    },
-    {
-      "title": "变分推断(Variational Inference)初探",
-      "url": "https://zhuanlan.zhihu.com/p/507776434",
-      "summary": "正文从贝叶斯后验推断出发，用近似分布逼近后验分布并讨论先验、似然和后验的关系。"
-    },
-    {
-      "title": "最大似然估计，最大后验估计以及贝叶斯估计的理解整理",
-      "url": "https://zhuanlan.zhihu.com/p/506449599",
-      "summary": "正文通过先验、似然、后验、共轭先验和积分预测系统讲解贝叶斯参数估计。"
-    },
-    {
-      "title": "学透贝叶斯定理，让你成为高手",
-      "url": "https://zhuanlan.zhihu.com/p/509077332",
-      "summary": "正文以后验概率、先验概率和证据更新关系说明贝叶斯推断的基本机制。"
-    },
-    {
-      "title": "【机器学习】朴素贝叶斯 -> 半朴素贝叶斯 -> 贝叶斯网络 -> 贝叶斯优化，看这一篇就够了！",
-      "url": "https://zhuanlan.zhihu.com/p/518617685",
-      "summary": "正文解释先验、条件、联合和边缘概率，并由先验计算后验概率，系统展开贝叶斯统计思路。"
-    },
-    {
-      "title": "从统计角度理解生成模型",
-      "url": "https://zhuanlan.zhihu.com/p/537702575",
-      "summary": "由后验、ELBO与KL散度说明变分推断和贝叶斯近似推理。"
-    },
-    {
-      "title": "多传感器融合专题（一） ｜ 各类滤波器方法整理",
-      "url": "https://zhuanlan.zhihu.com/p/542440266",
-      "summary": "正文从先验、似然和后验概率推导贝叶斯推断，并用于机器人状态估计。"
-    },
-    {
-      "title": "一文看懂卡尔曼滤波（附全网最详细公式推导和Matlab代码）",
-      "url": "https://zhuanlan.zhihu.com/p/559191083",
-      "summary": "正文用先验知识预测并结合观测修正后验估计，明确解释其贝叶斯估计框架。"
-    },
-    {
-      "title": "大一统视角理解扩散模型Understanding Diffusion Models: A Unified Perspective  阅读笔记",
-      "url": "https://zhuanlan.zhihu.com/p/558937247",
-      "summary": "正文从潜在变量后验、证据下界和 KL 散度解释变分贝叶斯建模。"
-    },
-    {
-      "title": "轻松学会贝叶斯思维",
-      "url": "https://zhuanlan.zhihu.com/p/560557985",
-      "summary": "正文用先验概率、证据条件和后验更新完整说明贝叶斯推断的核心机制。"
-    },
-    {
-      "title": "变分贝叶斯推断——Variational Bayesian Inference",
-      "url": "https://zhuanlan.zhihu.com/p/575328650",
-      "summary": "以出勤和心情为例说明先验、似然和后验，并围绕贝叶斯公式建立近似后验推断任务。"
-    },
-    {
-      "title": "一文解释 VAE+ELBO",
-      "url": "https://zhuanlan.zhihu.com/p/575984592",
-      "summary": "正文通过先验、条件似然、边际似然和后验近似推导变分贝叶斯目标，并讨论 KL 散度和变分推断。"
-    },
-    {
       "title": "概率思维的魔法：你感染的概率是多少呢？ | 好文重发",
       "url": "https://zhuanlan.zhihu.com/p/591036385",
       "summary": "正文由条件概率推导贝叶斯定理，并说明先验、后验和证据项的统计含义。"
     },
     {
-      "title": "一文解释 经验贝叶斯估计, Tweedie's formula",
-      "url": "https://zhuanlan.zhihu.com/p/594007789",
-      "summary": "正文以先验、似然、后验和分层模型为主线讲解经验贝叶斯估计及其估计器。"
-    },
-    {
-      "title": "第十章 机器学习与信号处理（下）—贝叶斯学派",
-      "url": "https://zhuanlan.zhihu.com/p/600739361",
-      "summary": "正文从贝叶斯定理、先验和似然出发推导后验概率与朴素贝叶斯分类器。"
-    },
-    {
-      "title": "统计学至今无法绕过的五本必读书",
-      "url": "https://zhuanlan.zhihu.com/p/607266685",
-      "summary": "正文解释先验、后验和超先验，并以学生成绩数据构造贝叶斯分层模型。"
-    },
-    {
-      "title": "ChatGPT的胜利，是概率论的胜利，也是贝叶斯定理的胜利",
-      "url": "https://zhuanlan.zhihu.com/p/620108995",
-      "summary": "正文以贝叶斯公式和多个实例说明先验概率如何根据观测数据更新为后验概率。"
-    },
-    {
-      "title": "多元统计分析期末复习",
-      "url": "https://zhuanlan.zhihu.com/p/620272870",
-      "summary": "正文利用先验分布、错判概率和平均损失说明贝叶斯判别规则。"
-    },
-    {
-      "title": "一文搞懂贝叶斯定理（原理篇）",
-      "url": "https://zhuanlan.zhihu.com/p/653382366",
-      "summary": "正文系统说明先验概率、似然和后验概率，并演示检测结果如何逐步修正患病概率。"
-    },
-    {
-      "title": "一文搞懂贝叶斯定理（应用篇）",
-      "url": "https://zhuanlan.zhihu.com/p/653383632",
-      "summary": "正文比较频率学派与贝叶斯学派，并用后验修正解释贝叶斯统计的信念更新机制。"
-    },
-    {
-      "title": "高斯混合模型（GMM）：宝宝级教程",
-      "url": "https://zhuanlan.zhihu.com/p/655018030",
-      "summary": "正文由条件概率和全概率公式推导后验概率，并比较最大似然估计与最大后验估计。"
-    },
-    {
-      "title": "贝叶斯定理：10个让你更厉害的观念",
-      "url": "https://zhuanlan.zhihu.com/p/616215284",
-      "summary": "正文通过多个案例持续计算先验、似然、后验并解释贝叶斯更新的统计意义。"
-    },
-    {
-      "title": "【原创】深入理解贝叶斯推断(Bayesian inference)（醍醐灌顶）",
-      "url": "https://zhuanlan.zhihu.com/p/661548936",
-      "summary": "正文完整定义先验、似然、证据和后验，并逐步计算贝叶斯推断与预测分布。"
-    },
-    {
-      "title": "【Proof-Trivial】 代数几何与统计机器学习理论 (Algebraic Geometry and Statistical Learning Theory) 导读",
-      "url": "https://zhuanlan.zhihu.com/p/661785425",
-      "summary": "正文定义广义贝叶斯后验、边际似然与预测分布，并推导 WAIC 等贝叶斯泛化误差估计。"
-    },
-    {
-      "title": "一文详解贝叶斯优化（Bayesian Optimization）原理",
-      "url": "https://zhuanlan.zhihu.com/p/662879942",
-      "summary": "正文用贝叶斯公式推导参数后验，并说明最大后验估计。"
-    },
-    {
-      "title": "变分推理（一） - 平均场理论推导方法（Variational inference based on MFT）",
-      "url": "https://zhuanlan.zhihu.com/p/667648696",
-      "summary": "正文从先验、似然和后验的关系推导贝叶斯公式，并说明贝叶斯推理如何用观测数据修正参数分布。"
-    },
-    {
       "title": "一文读懂：贝叶斯定理（非编程）",
       "url": "https://zhuanlan.zhihu.com/p/669566607",
       "summary": "正文解释先验、似然和后验的更新关系，并用多个案例演示贝叶斯统计推断。"
-    },
-    {
-      "title": "三句话总结贝叶斯思维",
-      "url": "https://zhuanlan.zhihu.com/p/671146026",
-      "summary": "正文定义先验、证据可能性和后验并用具体数值更新概率估计，展开了贝叶斯统计的核心流程。"
-    },
-    {
-      "title": "真正的交易高手，一生都在贯彻贝叶斯定律！",
-      "url": "https://zhuanlan.zhihu.com/p/671902723",
-      "summary": "正文给出贝叶斯公式中先验、似然、后验的组成，并逐步计算后验概率的更新。"
-    },
-    {
-      "title": "《数理统计》终极总结",
-      "url": "https://zhuanlan.zhihu.com/p/677773927",
-      "summary": "正文给出先验分布与 Bayes 准则，并用后验风险刻画参数估计。"
-    },
-    {
-      "title": "一文带你看懂 DDPM vs DDIM 原理",
-      "url": "https://zhuanlan.zhihu.com/p/657136157",
-      "summary": "正文以贝叶斯公式结合先验和似然，推导已知当前噪声图时上一时刻图像的后验分布。"
-    },
-    {
-      "title": "一文搞懂变分推断（Variational inference）",
-      "url": "https://zhuanlan.zhihu.com/p/682453554",
-      "summary": "正文讨论如何用可优化分布近似贝叶斯后验，并通过 ELBO 完成近似推断。"
-    },
-    {
-      "title": "证据下界（ELBO）、EM算法、变分推断、变分自编码器（VAE）和混合高斯模型（GMM）",
-      "url": "https://zhuanlan.zhihu.com/p/685814830",
-      "summary": "正文由贝叶斯公式得到隐变量后验分布，并用变分分布近似后验，属于贝叶斯统计。"
-    },
-    {
-      "title": "[ICML 2024] Unifying Bayesian Flow Networks and Diffusion Models",
-      "url": "https://zhuanlan.zhihu.com/p/697344073",
-      "summary": "正文把连续与离散数据生成写成先验参数经带噪观测和贝叶斯更新逐步逼近后验的过程。"
     },
     {
       "title": "ICML'24 Spotlight | 贝叶斯+低秩函数分解：多维时序的在线补全",
@@ -2626,21 +686,6 @@
       "title": "《概率论沉思录》何以重要且独特？",
       "url": "https://zhuanlan.zhihu.com/p/713637468",
       "summary": "正文比较频率派与贝叶斯统计，并具体讨论客观贝叶斯主义及先验概率的构造方法。"
-    },
-    {
-      "title": "【Proof-Trivial】无痛入门贝叶斯分析【1】概统基础&贝叶斯思想与数学推理",
-      "url": "https://zhuanlan.zhihu.com/p/715028156",
-      "summary": "正文系统讲解先验、似然、后验以及参数估计，属于贝叶斯统计的完整入门。"
-    },
-    {
-      "title": "扩散模型与演化算法的隐秘联系",
-      "url": "https://zhuanlan.zhihu.com/p/3262789251",
-      "summary": "正文把扩散模型的去噪预测写成条件后验和贝叶斯加权平均。"
-    },
-    {
-      "title": "Stein方法与其在统计学中的发展和应用",
-      "url": "https://zhuanlan.zhihu.com/p/1910079277765989625",
-      "summary": "正文讨论 KSD 在计算贝叶斯、采样和 MCMC 输出处理中的应用。"
     }
   ]
 }

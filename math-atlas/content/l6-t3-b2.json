@@ -3,54 +3,9 @@
   "branchId": "l6-t3-b2",
   "sources": [
     {
-      "title": "金融专业研究生应如何学习随机过程？",
-      "url": "https://www.zhihu.com/answer/32206010",
-      "summary": "解释马尔可夫链只需当前状态即可描述下一状态的条件概率。"
-    },
-    {
-      "title": "如何用简单易懂的例子解释隐马尔可夫模型？",
-      "url": "https://www.zhihu.com/answer/33438846",
-      "summary": "正文以骰子例子解释隐马尔可夫模型的可见和隐含状态。"
-    },
-    {
-      "title": "如何用简单易懂的例子解释隐马尔可夫模型？",
-      "url": "https://www.zhihu.com/answer/33561657",
-      "summary": "正文定义 HMM 并说明隐状态的转移和观测。"
-    },
-    {
-      "title": "如何用简单易懂的例子解释隐马尔可夫模型？",
-      "url": "https://www.zhihu.com/answer/34202445",
-      "summary": "正文说明马尔可夫性质与隐马尔可夫模型的建模条件。"
-    },
-    {
       "title": "鞅过程与马尔科夫过程是什么关系？",
       "url": "https://www.zhihu.com/answer/34917951",
       "summary": "正文定义马尔可夫性质并讨论其与鞅过程的关系。"
-    },
-    {
-      "title": "如何通俗地讲解 viterbi 算法？",
-      "url": "https://www.zhihu.com/answer/37291465",
-      "summary": "正文以状态转移概率和观测概率讲解维特比算法。"
-    },
-    {
-      "title": "退火算法是什么？",
-      "url": "https://www.zhihu.com/answer/39770560",
-      "summary": "正文明确说明模拟退火通过 MCMC 的状态转移在目标分布上采样。"
-    },
-    {
-      "title": "如何用简单易懂的例子解释隐马尔可夫模型？",
-      "url": "https://www.zhihu.com/answer/48444087",
-      "summary": "正文完整以隐藏状态、可见输出和转移概率说明隐马尔可夫模型。"
-    },
-    {
-      "title": "马尔可夫链模型是什么？",
-      "url": "https://www.zhihu.com/answer/55309482",
-      "summary": "正文定义现在条件下将来不依赖过去的马尔可夫过程，并说明离散链。"
-    },
-    {
-      "title": "如何用简单易懂的例子解释隐马尔可夫模型？",
-      "url": "https://www.zhihu.com/answer/64187492",
-      "summary": "正文定义隐马尔可夫模型的状态转移与无记忆性质。"
     },
     {
       "title": "我和同学开黑打dota,规定必须连胜两场才能睡觉，那么今晚我们睡前场次的期望值是多少呢？",
@@ -68,49 +23,14 @@
       "summary": "正文给出马尔可夫过程的无记忆性定义。"
     },
     {
-      "title": "如何用简单易懂的例子解释条件随机场（CRF）模型？它和HMM有什么区别？",
-      "url": "https://www.zhihu.com/answer/74187736",
-      "summary": "正文系统定义马尔可夫随机场并说明其独立性假设。"
-    },
-    {
       "title": "线性代数有什么用？学习线性代数的意义在哪？",
       "url": "https://www.zhihu.com/answer/74463428",
       "summary": "正文以马尔可夫矩阵递推状态分布，并通过特征向量求长期稳定状态。"
     },
     {
-      "title": "最大似然估计和EM算法的关系是什么？",
-      "url": "https://www.zhihu.com/answer/80954382",
-      "summary": "正文明确说明 EM 在隐马尔可夫模型中的经典应用。"
-    },
-    {
-      "title": "大偏差技术是什么？",
-      "url": "https://www.zhihu.com/answer/82408466",
-      "summary": "正文说明不可约马氏链也满足相应的大偏差原理。"
-    },
-    {
-      "title": "机器学习以及贝叶斯统计里，关于近似intractable integral，大家都偏爱什么算法？",
-      "url": "https://www.zhihu.com/answer/102498287",
-      "summary": "MCMC 部分说明构造马尔可夫链使其稳态分布成为目标后验。"
-    },
-    {
-      "title": "如何用简单易懂的例子解释条件随机场（CRF）模型？它和HMM有什么区别？",
-      "url": "https://www.zhihu.com/answer/106672515",
-      "summary": "正文从马尔可夫随机场推导线性链 CRF，并与 HMM 的生成式结构比较。"
-    },
-    {
       "title": "正态分布变量的累加和为什么通常都能呈现出明显的趋势性特征，随机漫步理论是否真的有道理？",
       "url": "https://www.zhihu.com/answer/121134746",
       "summary": "正文说明布朗运动的马尔可夫性如何造成轨迹看起来连贯。"
-    },
-    {
-      "title": "怎么通俗易懂地解释贝叶斯网络和它的应用？",
-      "url": "https://www.zhihu.com/answer/122424643",
-      "summary": "正文说明用稳态马尔可夫链进行转移来从目标分布采样。"
-    },
-    {
-      "title": "「讲得好」的数学专业课是什么样的？",
-      "url": "https://www.zhihu.com/answer/122925935",
-      "summary": "正文以不可约非周期马尔可夫链经Doeblin耦合收敛到平稳分布为教学例子。"
     },
     {
       "title": "有多少个数学家叫 Kolmogorov ?",
@@ -128,36 +48,6 @@
       "summary": "正文用转移矩阵、随机游走和首次通过时间建模星座收集问题。"
     },
     {
-      "title": "随机分析、随机控制等科目在量化投资、计算金融方向有哪些应用？",
-      "url": "https://www.zhihu.com/answer/126523574",
-      "summary": "正文给出把十档价格建成巨大马尔可夫链并求解的实例。"
-    },
-    {
-      "title": "随机分析、随机控制等科目在量化投资、计算金融方向有哪些应用？",
-      "url": "https://www.zhihu.com/answer/127948559",
-      "summary": "正文把订单簿价位数量建成 birth-death 马尔可夫链并解释事件过程。"
-    },
-    {
-      "title": "马尔可夫过程中的状态转移矩阵有什么意义？本质内涵是什么呢？",
-      "url": "https://www.zhihu.com/answer/133351941",
-      "summary": "正文用青蛙跳荷叶解释马尔可夫性、状态转移概率和过程演化。"
-    },
-    {
-      "title": "如何评价文化部新规：「网游需公示道具抽取或合成概率」？",
-      "url": "https://www.zhihu.com/answer/135031911",
-      "summary": "正文把抽卡状态写成马尔可夫状态转移图和转移矩阵，并用首达分布计算期望。"
-    },
-    {
-      "title": "线性代数在你的学科里有什么应用？",
-      "url": "https://www.zhihu.com/answer/150549036",
-      "summary": "正文用随机矩阵和马尔可夫理论说明 PageRank 迭代收敛。"
-    },
-    {
-      "title": "马尔可夫链模型是什么？",
-      "url": "https://www.zhihu.com/answer/157852228",
-      "summary": "正文以状态转移概率矩阵解释马尔可夫链及其无记忆性。"
-    },
-    {
       "title": "皇上后宫佳丽三千，皇上从第一天开始每天随机挑选一个宠幸，恰好宠幸完所有佳丽的天数的期望是多少？",
       "url": "https://www.zhihu.com/answer/162035021",
       "summary": "正文把已出现人物数构成的随机序列建模为马尔可夫链并列出转移概率。"
@@ -171,16 +61,6 @@
       "title": "房间内有 100 人，每人有 100 块，每分钟随机给另一个人 1 块，最后房间内的财富分布怎样？",
       "url": "https://www.zhihu.com/answer/197181699",
       "summary": "正文给出状态转移矩阵并求有限状态过程的稳态分布。"
-    },
-    {
-      "title": "如何理解伊辛模型的 wolff 算法？",
-      "url": "https://www.zhihu.com/answer/216335927",
-      "summary": "正文用平稳分布与细致平衡推导Metropolis-Hastings接受率。"
-    },
-    {
-      "title": "如何通俗地讲解 viterbi 算法？",
-      "url": "https://www.zhihu.com/answer/239971177",
-      "summary": "正文在隐马尔可夫模型三要素下推导状态路径。"
     },
     {
       "title": "假设赌博输赢的概率都是 50％，那么长期赌博的人为什么仍然会更容易倾家荡产而不是收益均衡？",
@@ -198,19 +78,9 @@
       "summary": "正文根据红外发散判断低维马氏链常返性。"
     },
     {
-      "title": "PRML为何是机器学习的经典书籍中的经典？",
-      "url": "https://www.zhihu.com/answer/256560182",
-      "summary": "正文用马尔可夫假设构造序列隐状态链，并以前向、后向算法解释隐马尔可夫模型。"
-    },
-    {
       "title": "如何理解马尔科夫链中的常返态，非常返态，零常返，正常反，周期和非周期，有什么直观意义？",
       "url": "https://www.zhihu.com/answer/263442039",
       "summary": "正文用事件返回直觉解释 Markov 链的正常返、非常返和零常返。"
-    },
-    {
-      "title": "学习计算机图形学要具备什么样的数学基础？",
-      "url": "https://www.zhihu.com/answer/270832148",
-      "summary": "正文以梅特波利斯算法说明如何构造状态转移分布，使样本分布逼近目标函数。"
     },
     {
       "title": "学习SPDE的先行课程和知识?",
@@ -218,29 +88,14 @@
       "summary": "正文说明算子半群与 Markov 过程之间的关系。"
     },
     {
-      "title": "Metropolis 蒙特卡罗方法、动力学蒙特卡罗方法、分子动力学方法这三种模拟方法有何特点与差异？",
-      "url": "https://www.zhihu.com/answer/333052138",
-      "summary": "正文解释MCMC通过构造马尔可夫链并以目标分布为稳定分布来采样。"
-    },
-    {
       "title": "数学系的你，毕业论文写了什么呢？",
       "url": "https://www.zhihu.com/answer/343514921",
       "summary": "正文说明利用鞅构造Markov映射并研究Julia集正测度。"
     },
     {
-      "title": "股票、期货等金融市场真的是随机波动的吗？",
-      "url": "https://www.zhihu.com/answer/389266519",
-      "summary": "正文说明收益序列在一定层次可采用马尔可夫假设。"
-    },
-    {
       "title": "如何理解路径积分（path integral）？",
       "url": "https://www.zhihu.com/answer/454608123",
       "summary": "正文用马尔科夫转移概率连乘解释路径叠加。"
-    },
-    {
-      "title": "如何通俗地解释马尔科夫链?",
-      "url": "https://www.zhihu.com/answer/517531502",
-      "summary": "正文给出马尔可夫链的无记忆性定义并用遗传、学习经历作例子。"
     },
     {
       "title": "如何通俗地解释马尔科夫链?",
@@ -251,21 +106,6 @@
       "title": "如何理解细致平衡？",
       "url": "https://www.zhihu.com/answer/553175061",
       "summary": "用转移概率、Markov 半群和 MCMC 解释细致平衡的作用。"
-    },
-    {
-      "title": "条件随机场（CRF）和隐马尔科夫模型（HMM）最大区别在哪里？CRF的全局最优体现在哪里？",
-      "url": "https://www.zhihu.com/answer/554436625",
-      "summary": "定义马尔可夫链、HMM 与 CRF 的条件依赖和状态转移结构。"
-    },
-    {
-      "title": "你在中国知网、万方等学术文章网站上发现过什么不得了的东西？",
-      "url": "https://www.zhihu.com/answer/595769573",
-      "summary": "正文逐步解释马尔可夫转移概率及预测模型。"
-    },
-    {
-      "title": "有什么理论复杂但是实现简单的算法？",
-      "url": "https://www.zhihu.com/answer/603136949",
-      "summary": "正文说明算法以马尔可夫链为理论基础。"
     },
     {
       "title": "如何学概率论与数理统计？",
@@ -283,26 +123,6 @@
       "summary": "以当前状态决定下一步的转移刻画马尔可夫过程。"
     },
     {
-      "title": "赌博不是应该有接近50%的胜率吗，为何现实却是「十赌九输」？",
-      "url": "https://www.zhihu.com/answer/704369191",
-      "summary": "用吸收马尔可夫链说明最终破产。"
-    },
-    {
-      "title": "如何看待 2019 年全国一卷高考数学试题？",
-      "url": "https://www.zhihu.com/answer/708235797",
-      "summary": "解释了马尔可夫性质及状态转移。"
-    },
-    {
-      "title": "什么是动态规划（Dynamic Programming）？动态规划的意义是什么？",
-      "url": "https://www.zhihu.com/answer/723475721",
-      "summary": "把状态转移解释为马尔可夫式过程。"
-    },
-    {
-      "title": "怎么简单理解贝叶斯公式？",
-      "url": "https://www.zhihu.com/answer/747656479",
-      "summary": "以厨师变化的生成模型说明马尔科夫过程。"
-    },
-    {
       "title": "数学论文的作者会意识到自己发表的结果实际上已经有人做出来过吗？",
       "url": "https://www.zhihu.com/answer/785478010",
       "summary": "描述有限马尔可夫链及其复叠上的提升。"
@@ -318,11 +138,6 @@
       "summary": "正文把带反射边界的赌博过程写成无限维马尔可夫转移矩阵并计算百步结果。"
     },
     {
-      "title": "怎么才能形象的说明IMU的bias随机游走？",
-      "url": "https://www.zhihu.com/answer/874374903",
-      "summary": "正文把 bias 随机游走解释为状态依赖前一时刻并累积误差的马尔可夫过程。"
-    },
-    {
       "title": "指数分布的分布函数是怎么得到的？",
       "url": "https://www.zhihu.com/answer/893242882",
       "summary": "正文明确说明连续时间离散状态马尔可夫过程的转移风险恒定，因此等待时间服从指数分布。"
@@ -333,19 +148,9 @@
       "summary": "正文从不可约、正常返和非周期条件分析 Gibbs 采样的马尔可夫链收敛性。"
     },
     {
-      "title": "如何用简单易懂的实例解释排队论？",
-      "url": "https://www.zhihu.com/answer/965117554",
-      "summary": "正文用连续时间马尔可夫链推导排队模型的生灭过程。"
-    },
-    {
       "title": "每天连续掷硬币，直到连续出现两次正面就停止，第二天继续，连续一年时间，掷出正面的期望值是多少？",
       "url": "https://www.zhihu.com/answer/994138810",
       "summary": "正文将过程写为离散马尔可夫链并尝试求首达时间分布。"
-    },
-    {
-      "title": "如何衡量两个「任意数据集」间的相似度？",
-      "url": "https://www.zhihu.com/answer/1140078993",
-      "summary": "正文实质使用隐马尔科夫模型构造数据集核函数。"
     },
     {
       "title": "马尔科夫遍历性是什么意思 遍历有什么意义？",
@@ -358,11 +163,6 @@
       "summary": "正文用三句话的状态转移图解释马尔可夫链的无后效性。"
     },
     {
-      "title": "如何用简单易懂的例子解释隐马尔可夫模型？",
-      "url": "https://www.zhihu.com/answer/1290190531",
-      "summary": "正文系统定义隐马尔可夫状态序列、观测序列与模型要素。"
-    },
-    {
       "title": "如何通俗地解释马尔科夫链?",
       "url": "https://www.zhihu.com/answer/1345329461",
       "summary": "正文用二能级系统、转移矩阵和概率分布演化解释马尔可夫链。"
@@ -371,16 +171,6 @@
       "title": "瞎扭还原魔方的概率是多少？",
       "url": "https://www.zhihu.com/answer/1449125605",
       "summary": "正文直接讲解或推导“马尔可夫模型”相关内容。"
-    },
-    {
-      "title": "如何通俗地讲解 viterbi 算法？",
-      "url": "https://www.zhihu.com/answer/1464520777",
-      "summary": "正文以隐马尔可夫模型引出维特比解码。"
-    },
-    {
-      "title": "什么是隐马尔科夫模型？",
-      "url": "https://www.zhihu.com/answer/1635328825",
-      "summary": "正文系统定义隐马尔科夫模型的隐藏状态、观测和转移概率。"
     },
     {
       "title": "瞎扭还原魔方的概率是多少？",
@@ -403,46 +193,6 @@
       "summary": "正文直接讨论或推导「马尔可夫模型」，该引文可作为对应知识叶子的连续原文证据。"
     },
     {
-      "title": "明日方舟“平均34.6抽一个六星”的说法是否合理？",
-      "url": "https://www.zhihu.com/answer/1794531563",
-      "summary": "正文用马尔可夫链和转移矩阵计算抽卡出货期望。"
-    },
-    {
-      "title": "Markov Chain和Gibbs分布到底是什么关系？",
-      "url": "https://www.zhihu.com/answer/1804179186",
-      "summary": "正文直接支持该冻结叶节点。"
-    },
-    {
-      "title": "如何理解MCMC中的细致平稳条件？",
-      "url": "https://www.zhihu.com/answer/1804780073",
-      "summary": "正文直接支持该冻结叶节点。"
-    },
-    {
-      "title": "如何用简单易懂的例子解释隐马尔可夫模型？",
-      "url": "https://www.zhihu.com/answer/2004186152",
-      "summary": "正文用状态、观测和转移概率完整解释HMM。"
-    },
-    {
-      "title": "如何简单理解马尔科夫链蒙特卡洛方法？",
-      "url": "https://www.zhihu.com/answer/2005471440",
-      "summary": "正文以细致平稳条件构造具有目标平稳分布的马尔可夫链。"
-    },
-    {
-      "title": "如何完全掌握概率论与数理统计？",
-      "url": "https://www.zhihu.com/answer/2005475578",
-      "summary": "正文明确把隐马尔可夫模型列入随机过程与概率模型主线。"
-    },
-    {
-      "title": "游戏数值策划，保底概率问题该如何计算？",
-      "url": "https://www.zhihu.com/answer/2068532568",
-      "summary": "正文用状态转移和马尔可夫链计算带保底机制的概率问题。"
-    },
-    {
-      "title": "如何理解马尔科夫链中的常返态，非常返态，零常返，正常反，周期和非周期，有什么直观意义？",
-      "url": "https://www.zhihu.com/answer/2177451474",
-      "summary": "正文系统解释马尔可夫链常返、正常返、周期等状态分类。"
-    },
-    {
       "title": "如何从深刻地理解随机过程的含义？",
       "url": "https://www.zhihu.com/answer/2179068289",
       "summary": "正文给出马尔可夫性定义、转移概率族和构造理论。"
@@ -451,11 +201,6 @@
       "title": "数学史上你认为最美的公式是什么？",
       "url": "https://www.zhihu.com/answer/2234442910",
       "summary": "正文用离散和连续 Markov 链的转移概率说明 Chapman-Kolmogorov 方程。"
-    },
-    {
-      "title": "贝叶斯推断中为什么不能直接从posterior sampling而是要采用MCMC方法?",
-      "url": "https://www.zhihu.com/answer/2255085106",
-      "summary": "正文以状态转移矩阵和平稳分布解释马尔可夫模型。"
     },
     {
       "title": "甲乙两人下围棋，甲胜的概率为a，乙胜的概率为b，a+b=1，比对方多赢两局者获胜，求甲赢的概率?",
@@ -468,31 +213,6 @@
       "summary": "正文把潜力判断建模为状态转移概率和马尔可夫链。"
     },
     {
-      "title": "为什么部分大一学生认为线性代数听不懂？",
-      "url": "https://www.zhihu.com/answer/2321460797",
-      "summary": "正文用城市农村人口迁移解释马尔可夫链。"
-    },
-    {
-      "title": "时间序列数据的聚类有什么好方法？",
-      "url": "https://www.zhihu.com/answer/2322076878",
-      "summary": "正文用马尔可夫随机场刻画时间序列聚类内部的依赖结构。"
-    },
-    {
-      "title": "贝叶斯推断中为什么不能直接从posterior sampling而是要采用MCMC方法?",
-      "url": "https://www.zhihu.com/answer/2333956683",
-      "summary": "正文解释MCMC依靠马尔可夫链探测后验分布结构。"
-    },
-    {
-      "title": "2022强化学习的方向？",
-      "url": "https://www.zhihu.com/answer/2447529444",
-      "summary": "正文明确把组合优化问题建模为马尔可夫决策过程。"
-    },
-    {
-      "title": "如何通俗地解释马尔科夫链?",
-      "url": "https://www.zhihu.com/answer/2464763647",
-      "summary": "正文明确介绍离散时间马尔可夫链的核心要素与马尔可夫性。"
-    },
-    {
       "title": "如何计算保底抽奖概率模型的概率？",
       "url": "https://www.zhihu.com/answer/2479704033",
       "summary": "正文用四状态转移过程计算保底抽奖。"
@@ -503,24 +223,9 @@
       "summary": "把强化过程建模为 0 到 10 级之间的马尔可夫状态转移。"
     },
     {
-      "title": "为什么游戏里的都是伪随机，做不出真随机？希望来个简单易懂的解释？",
-      "url": "https://www.zhihu.com/answer/2602589237",
-      "summary": "说明 PRD 的下一次概率依赖上一次结果，构成马尔科夫链式的状态转移。"
-    },
-    {
       "title": "你见过最有趣的数学笑话是什么？",
       "url": "https://www.zhihu.com/answer/2634411440",
       "summary": "用只依赖前一天状态的汤玩马尔可夫性质梗。"
-    },
-    {
-      "title": "数学建模中最重要的算法有哪些？",
-      "url": "https://www.zhihu.com/answer/2670009439",
-      "summary": "正文介绍了马尔可夫预测法如何根据当前状态预测后续状态的概率。"
-    },
-    {
-      "title": "diffusion model 最近在图像生成领域大红大紫，如何看待它的风头开始超过 GAN ？",
-      "url": "https://www.zhihu.com/answer/2671001607",
-      "summary": "正文把扩散模型的逐时刻噪声演化解释为马尔可夫链及其平稳分布。"
     },
     {
       "title": "随机过程中有哪些有趣的结论?",
@@ -538,29 +243,9 @@
       "summary": "正文用条件概率等式定义 Markov 链，强调下一步只依赖当前状态，并引出转移概率和转移矩阵。"
     },
     {
-      "title": "机器学习中，频率派和贝叶斯派有什么核心差异？",
-      "url": "https://www.zhihu.com/answer/2842695236",
-      "summary": "正文说明可用马尔可夫链模拟后验样本，并讨论这种 MCMC 方法的计算与收敛难点。"
-    },
-    {
-      "title": "多智能体强化学习怎么入门，有推荐的学习路线或高质量教程吗？",
-      "url": "https://www.zhihu.com/answer/2941882527",
-      "summary": "正文说明随机博弈在单智能体条件下退化为标准马尔可夫决策过程。"
-    },
-    {
       "title": "矩阵的本质是什么？",
       "url": "https://www.zhihu.com/answer/2968758635",
       "summary": "正文用马尔可夫矩阵和矩阵连乘分析状态转移最终达到的稳定状态。"
-    },
-    {
-      "title": "想形成长期记忆，或者永久记忆，需要重复记忆多少天并且多少遍呀？",
-      "url": "https://www.zhihu.com/answer/2998286352",
-      "summary": "正文明确说明 SSP 是马尔科夫决策过程，并以状态、行动和转移概率描述记忆复习过程。"
-    },
-    {
-      "title": "扩散模型（diffusion model）为什么不训练一个模型，使用x(t)预测x(t-1)?",
-      "url": "https://www.zhihu.com/answer/3001481574",
-      "summary": "正文用仅依赖前一状态的转移概率乘积分解联合分布，构成扩散模型的马尔可夫链。"
     },
     {
       "title": "怎样用高中概率知识求解以马尔科夫链为背景的天气预报问题？",
@@ -568,24 +253,9 @@
       "summary": "正文把每日天气作为状态，只依据前一天状态确定次日转移概率，并迭代计算后续天气分布。"
     },
     {
-      "title": "2023 高考数学题难度如何？哪道题让人印象深刻？",
-      "url": "https://www.zhihu.com/answer/3063339780",
-      "summary": "正文定义离散时间马尔可夫链的无后效性，并给出状态空间、初始分布和转移概率矩阵来建模投球问题。"
-    },
-    {
-      "title": "运筹学的最新进展是什么？",
-      "url": "https://www.zhihu.com/answer/3092090118",
-      "summary": "正文把库存状态、订货量和随机需求写成状态转移，并将库存控制建模为马尔可夫决策过程。"
-    },
-    {
       "title": "一个人扔六面的骰子，数值1到6，扔到几就向前走几格，可以无限扔，问他恰好走到第2023格的概率是多少?",
       "url": "https://www.zhihu.com/answer/3174425756",
       "summary": "正文用转移矩阵描述相邻状态的概率演化，并说明除主特征值外其余模态衰减后进入平稳分布。"
-    },
-    {
-      "title": "如何简单理解马尔科夫链蒙特卡洛方法？",
-      "url": "https://www.zhihu.com/answer/3298906415",
-      "summary": "正文以节点依赖前一节点解释马尔科夫链的核心状态转移特征。"
     },
     {
       "title": "一个角色有33%的暴击率，每两次连续的攻击都不暴击时，第3次攻击必定暴击，怎么计算她的平均暴击率呀？",
@@ -606,16 +276,6 @@
       "title": "请问组合学、图论乃至离散数学领域的国内外知名学者有哪些？",
       "url": "https://www.zhihu.com/answer/3339455735",
       "summary": "正文明确构造切片图上的随机游走并命名为 Markov 链，展开其模型和谱性质。"
-    },
-    {
-      "title": "原神抽卡中的综合概率指的是什么？",
-      "url": "https://www.zhihu.com/answer/3343322370",
-      "summary": "正文将保底抽卡过程建成相邻抽数状态的马尔可夫链，并计算转移概率、不变分布和长期频率。"
-    },
-    {
-      "title": "为什么stable diffusion训练用ddpm, 采样用ddim呢？",
-      "url": "https://www.zhihu.com/answer/3346663776",
-      "summary": "正文比较 DDPM 对马尔可夫过程假设的依赖与 DDIM 推广到非马尔可夫过程后的采样方式。"
     },
     {
       "title": "一个人扔六面的骰子，数值1到6，扔到几就向前走几格，可以无限扔，问他恰好走到第2023格的概率是多少?",
@@ -646,31 +306,6 @@
       "title": "如何评价2024阿里巴巴数学竞赛预选赛试题?",
       "url": "https://www.zhihu.com/answer/3466474557",
       "summary": "正文以有限状态 Markov 过程的封闭性、可迁性和对称性说明稳定分布及其均匀概率。"
-    },
-    {
-      "title": "为什么stable diffusion训练用ddpm, 采样用ddim呢？",
-      "url": "https://www.zhihu.com/answer/3580582362",
-      "summary": "正文讨论 DDPM 序列的马尔可夫强假设，去掉该假设后构造可跳步采样的 DDIM。"
-    },
-    {
-      "title": "Diffusion中去噪过程为什么不用q(xt-1|xt)而是q(xt-1|xt,x0)?",
-      "url": "https://www.zhihu.com/answer/12037625813",
-      "summary": "正文利用马尔科夫性消去更早的历史条件，将带 x0 的联合条件转移简化为正向单步转移。"
-    },
-    {
-      "title": "diffusion和llm该往哪个走？",
-      "url": "https://www.zhihu.com/answer/1897944308230910392",
-      "summary": "正文以马尔可夫链分解 VAR 和扩散模型的联合生成分布，并对照其依赖方向。"
-    },
-    {
-      "title": "扩散模型中，Flow Matching的训练方式相比于 DDPM 训练方法有何优势？",
-      "url": "https://www.zhihu.com/answer/1901890967210010209",
-      "summary": "正文用前向加噪与逆向去噪两条马尔可夫链解释扩散概率模型的转移结构。"
-    },
-    {
-      "title": "强化学习领域目前遇到的瓶颈是什么?",
-      "url": "https://www.zhihu.com/answer/1905613408604251311",
-      "summary": "正文用 MDP 的相邻状态与策略关系解释强化学习的监督设定，并讨论非 MDP 时需逆向构造信念状态，对应马尔可夫模型。"
     },
     {
       "title": "两把武器，一把攻击1～5，一把2～4，从数据角度，哪把更厉害？",
@@ -733,79 +368,9 @@
       "summary": "正文围绕一类 MCMC 算法的多项式时间收敛结果，并提到证明使用马尔可夫链的谱理论。"
     },
     {
-      "title": "【方法】解DSGE",
-      "url": "https://zhuanlan.zhihu.com/p/20675886",
-      "summary": "正文以状态转移及外生扰动刻画 Markov 经济系统，并给出跨期状态方程和期望方程。"
-    },
-    {
-      "title": "隐马(HMM)在股票上的简单应用 - 1",
-      "url": "https://zhuanlan.zhihu.com/p/20688517",
-      "summary": "正文定义离散时间 Markov 性质和状态转移链，并由此推广到含隐藏状态的隐 Markov 模型。"
-    },
-    {
-      "title": "目标追踪之卡尔曼滤波",
-      "url": "https://zhuanlan.zhihu.com/p/21692854",
-      "summary": "正文以状态只依赖前一状态的条件概率明确建立马尔可夫转移假设。"
-    },
-    {
-      "title": "【背景知识】马尔科夫过程和伊藤引理",
-      "url": "https://zhuanlan.zhihu.com/p/22653871",
-      "summary": "正文明确阐述马尔可夫过程的无记忆性，并给出离散与连续情形的条件概率表达。"
-    },
-    {
-      "title": "受限玻尔兹曼机（RBM）学习笔记",
-      "url": "https://zhuanlan.zhihu.com/p/22794772",
-      "summary": "正文定义马尔可夫链的转移仅依赖当前状态的特性，并说明用平稳分布进行采样。"
-    },
-    {
       "title": "测度论观点下的初等概率论与随机过程",
       "url": "https://zhuanlan.zhihu.com/p/23670513",
       "summary": "正文用状态空间、转移概率矩阵和轨道空间概率测度构造并解释马氏链模型。"
-    },
-    {
-      "title": "[数据分析] Markov Chain Monte Carlo",
-      "url": "https://zhuanlan.zhihu.com/p/25610149",
-      "summary": "正文定义马尔可夫链的转移核，解释其收敛分布、平衡条件，并用该链实现目标分布抽样。"
-    },
-    {
-      "title": "身为跨界狂魔是一种怎样的体验——詹姆斯·西蒙斯（上）",
-      "url": "https://zhuanlan.zhihu.com/p/25917907",
-      "summary": "正文用状态序列与观察序列解释隐马尔科夫过程如何由可观测信息推断隐藏状态。"
-    },
-    {
-      "title": "马尔可夫链 （Markov Chain）是什么鬼",
-      "url": "https://zhuanlan.zhihu.com/p/26453269",
-      "summary": "正文以吃、玩、睡的状态链说明马尔可夫性并根据前一状态递推后续分布。"
-    },
-    {
-      "title": "隐马尔科夫模型（HMM）一基本模型与三个基本问题",
-      "url": "https://zhuanlan.zhihu.com/p/26811689",
-      "summary": "正文系统定义隐藏马尔可夫链、状态转移矩阵、观测概率和隐马尔可夫模型的三个基本问题。"
-    },
-    {
-      "title": "隐马尔科夫模型（HMM）一前向与后向算法",
-      "url": "https://zhuanlan.zhihu.com/p/27056207",
-      "summary": "正文围绕隐马尔可夫模型的初始、转移和发射概率推导观测序列概率。"
-    },
-    {
-      "title": "隐马尔科夫模型",
-      "url": "https://zhuanlan.zhihu.com/p/27907806",
-      "summary": "正文从马尔科夫性质出发定义一阶与高阶马尔科夫模型，并完整说明隐马尔科夫模型的初始、转移和发射概率模型。"
-    },
-    {
-      "title": "深入浅出讲解语言模型",
-      "url": "https://zhuanlan.zhihu.com/p/28080127",
-      "summary": "正文以马尔科夫假设限定当前词只依赖前文有限个词，从而构造 n 元语言模型。"
-    },
-    {
-      "title": "《强化学习》第二讲 马尔科夫决策过程",
-      "url": "https://zhuanlan.zhihu.com/p/28084942",
-      "summary": "正文系统定义马尔科夫决策过程的状态、动作、转移、奖励与策略。"
-    },
-    {
-      "title": "《强化学习》第三讲 动态规划寻找最优策略",
-      "url": "https://zhuanlan.zhihu.com/p/28084955",
-      "summary": "正文利用 MDP 的 Bellman 递归结构，把价值函数视为可复用的子问题解。"
     },
     {
       "title": "关于“房间里有100个人，每人都有100元钱，每轮每人要拿一元钱随机给另一个人”这个游戏的解析解",
@@ -813,79 +378,9 @@
       "summary": "正文用转移概率描述每人财富状态的变化，并求平衡态分布，构成马尔可夫模型。"
     },
     {
-      "title": "通俗讲解维特比算法",
-      "url": "https://zhuanlan.zhihu.com/p/28274845",
-      "summary": "正文以隐马尔可夫模型的发射概率和状态转移概率为基础说明词性序列解码。"
-    },
-    {
       "title": "张天蓉专栏：酒鬼漫步的数学——随机过程",
       "url": "https://zhuanlan.zhihu.com/p/28515637",
       "summary": "正文用雨晴转换和图转移矩阵详细说明马尔可夫链的无记忆性。"
-    },
-    {
-      "title": "卡尔曼滤波示例",
-      "url": "https://zhuanlan.zhihu.com/p/29191795",
-      "summary": "正文明确把卡尔曼滤波的状态方程和观测方程对应到隐马尔可夫模型的隐藏状态与观测序列。"
-    },
-    {
-      "title": "【数学课堂】为什么学线性代数",
-      "url": "https://zhuanlan.zhihu.com/p/29322393",
-      "summary": "正文完整举例说明马尔可夫转移矩阵、两步分布及稳定分布的计算。"
-    },
-    {
-      "title": "隐马尔可夫模型HMM",
-      "url": "https://zhuanlan.zhihu.com/p/29938926",
-      "summary": "正文用转移矩阵、初始分布和发射矩阵定义隐马尔可夫模型。"
-    },
-    {
-      "title": "MCMC随机采样",
-      "url": "https://zhuanlan.zhihu.com/p/30003899",
-      "summary": "正文定义马尔可夫链转移矩阵，并讨论平稳分布、连通性和细致平稳条件。"
-    },
-    {
-      "title": "概率图模型之贝叶斯网络",
-      "url": "https://zhuanlan.zhihu.com/p/30139208",
-      "summary": "正文在 head-to-tail 链式结构中说明给定当前状态后，后续状态与更早状态的马尔可夫性质。"
-    },
-    {
-      "title": "《Quantitative Finance》读书笔记4：随机微积分初步",
-      "url": "https://zhuanlan.zhihu.com/p/30292226",
-      "summary": "正文具体解释马尔可夫性是无记忆性，并用条件分布刻画布朗运动的当前状态依赖。"
-    },
-    {
-      "title": "一文详解LDA主题模型",
-      "url": "https://zhuanlan.zhihu.com/p/31470216",
-      "summary": "正文说明MCMC通过构造平稳分布为目标分布的马尔可夫链生成样本，并给出Gibbs采样的条件更新过程。"
-    },
-    {
-      "title": "读懂概率图模型：从基本概念和参数估计开始",
-      "url": "https://zhuanlan.zhihu.com/p/31527050",
-      "summary": "正文分别讲解有向贝叶斯网络和无向马尔可夫网络，并说明条件独立关系如何由图结构表达。"
-    },
-    {
-      "title": "一份数学小白也能读懂的「马尔可夫链蒙特卡洛方法」入门指南",
-      "url": "https://zhuanlan.zhihu.com/p/32319959",
-      "summary": "正文定义马尔科夫链及无记忆性，并用房间转移概率说明状态条件概率和长期趋势。"
-    },
-    {
-      "title": "不用数学也能讲清贝叶斯理论的马尔可夫链蒙特卡洛方法？这篇文章做到了",
-      "url": "https://zhuanlan.zhihu.com/p/32331902",
-      "summary": "正文说明马尔可夫链的转移概率和无记忆性，并用房间状态转移解释长期预测。"
-    },
-    {
-      "title": "告别数学公式，图文解读什么是马尔可夫链蒙特卡罗方法（MCMC）",
-      "url": "https://zhuanlan.zhihu.com/p/32982140",
-      "summary": "正文定义马尔可夫链的转移概率与无记忆特征，并用房间转移例子说明长期状态分布。"
-    },
-    {
-      "title": "概率图模型体系：HMM、MEMM、CRF",
-      "url": "https://zhuanlan.zhihu.com/p/33397147",
-      "summary": "正文详细展开隐马尔可夫模型的状态转移、观测发射、五要素、参数学习和 Viterbi 解码。"
-    },
-    {
-      "title": "宏观经济笔记（1）：经济动态系统",
-      "url": "https://zhuanlan.zhihu.com/p/20679152",
-      "summary": "正文说明离散随机动态系统可表示为马尔可夫链，并定义转移核与稳态分布。"
     },
     {
       "title": "马尔科夫矩阵，傅里叶级数【MIT线代第二十四课】",
@@ -898,66 +393,6 @@
       "summary": "正文解释马氏性、互通性以及正常返和零常返的判定，并以一维偏置随机游走为例。"
     },
     {
-      "title": "白话条件随机场（conditional random field）",
-      "url": "https://zhuanlan.zhihu.com/p/34261803",
-      "summary": "正文用黑白箱取球的隐状态与状态转移概率说明隐马尔可夫模型如何由观测序列推断。"
-    },
-    {
-      "title": "马尔科夫决策过程之Markov Decision Process(马尔科夫决策过程)",
-      "url": "https://zhuanlan.zhihu.com/p/35354956",
-      "summary": "正文定义马尔可夫决策过程的状态、动作、转移、奖励和策略，并解释策略导出的状态转移与价值函数。"
-    },
-    {
-      "title": "序列标注任务的常见套路",
-      "url": "https://zhuanlan.zhihu.com/p/35620631",
-      "summary": "正文定义隐马尔可夫模型的状态、观测、转移概率和齐次马尔可夫假设，并用于序列解码。"
-    },
-    {
-      "title": "为什么我说概率论是大学最不能翘的一门数学课",
-      "url": "https://zhuanlan.zhihu.com/p/36920233",
-      "summary": "正文以马尔可夫假设建立马尔可夫链，并用骰子模型和自然语言状态序列讲解隐含马尔可夫模型。"
-    },
-    {
-      "title": "马尔可夫链蒙特卡罗算法（MCMC）",
-      "url": "https://zhuanlan.zhihu.com/p/37121528",
-      "summary": "正文定义马尔可夫链的状态转移与转移矩阵，并讨论平稳分布、连通性和收敛性质。"
-    },
-    {
-      "title": "简明条件随机场CRF介绍 | 附带纯Keras实现",
-      "url": "https://zhuanlan.zhihu.com/p/37163081",
-      "summary": "正文建立线性链条件随机场，依赖相邻标签之间的马尔可夫假设简化路径概率与归一化计算。"
-    },
-    {
-      "title": "布朗运动、伊藤引理、BS 公式（前篇）",
-      "url": "https://zhuanlan.zhihu.com/p/38293827",
-      "summary": "正文由独立增量性质说明布朗运动具有马尔科夫性，当前值包含预测未来所需的全部信息。"
-    },
-    {
-      "title": "马尔科夫随机场(MRF)在深度学习图像处理中的应用-图像分割、纹理迁移",
-      "url": "https://zhuanlan.zhihu.com/p/38343732",
-      "summary": "正文具体介绍马尔科夫链的转移概率矩阵、隐马尔可夫模型和马尔科夫随机场。"
-    },
-    {
-      "title": "什么是马尔可夫链？",
-      "url": "https://zhuanlan.zhihu.com/p/38764470",
-      "summary": "正文系统介绍马尔可夫链的马尔可夫性质、状态转移、平稳分布、收敛条件和链式采样。"
-    },
-    {
-      "title": "简明例析蒙特卡洛（Monte Carlo）抽样方法",
-      "url": "https://zhuanlan.zhihu.com/p/39628670",
-      "summary": "正文把 Metropolis 采样描述为基于马尔可夫链的状态转移，并讨论平稳分布和细致平衡条件。"
-    },
-    {
-      "title": "当蒙特卡罗方法遇见伊辛模型（下）",
-      "url": "https://zhuanlan.zhihu.com/p/42836754",
-      "summary": "正文把单自旋翻转描述为马尔可夫过程，并用转移概率和细致平衡构造接受率。"
-    },
-    {
-      "title": "当蒙特卡洛方法遇见伊辛模型（续）",
-      "url": "https://zhuanlan.zhihu.com/p/43757926",
-      "summary": "正文用状态转移概率和细致平衡关系推导集群翻转的接受率，属于马尔可夫链构造。"
-    },
-    {
       "title": "概率方法的非概率应用一则",
       "url": "https://zhuanlan.zhihu.com/p/47965729",
       "summary": "正文明确构造静止或向相邻点移动的马尔可夫链，并把调和性转化为下一步的期望不变性。"
@@ -968,89 +403,9 @@
       "summary": "正文围绕马尔可夫性、转移概率和强马尔可夫性，比较离散与连续时间马尔可夫模型的边界。"
     },
     {
-      "title": "生成模型综述——深度学习第二十章（一）",
-      "url": "https://zhuanlan.zhihu.com/p/50278440",
-      "summary": "正文以马尔科夫链达到平稳分布后取样说明生成随机网络，并讨论其高维计算和采样限制。"
-    },
-    {
-      "title": "多智能体强化学习入门（一）——基础知识与博弈",
-      "url": "https://zhuanlan.zhihu.com/p/53474965",
-      "summary": "正文把随机博弈解释为多状态马尔可夫决策过程与矩阵博弈的结合，并给出状态转移和贝尔曼递推。"
-    },
-    {
-      "title": "概率图模型",
-      "url": "https://zhuanlan.zhihu.com/p/54101808",
-      "summary": "正文说明状态转移概率、平稳条件和 MCMC/Gibbs 采样中的马尔可夫链。"
-    },
-    {
-      "title": "对采样的理解",
-      "url": "https://zhuanlan.zhihu.com/p/46096712",
-      "summary": "正文用该条件定义马氏链，并解释其转移矩阵和细致平稳条件。"
-    },
-    {
-      "title": "理解隐马尔可夫模型",
-      "url": "https://zhuanlan.zhihu.com/p/56779310",
-      "summary": "正文系统定义一阶马尔可夫假设、状态转移矩阵，并扩展到含隐状态的隐马尔可夫模型。"
-    },
-    {
-      "title": "动力学蒙特卡洛算法",
-      "url": "https://zhuanlan.zhihu.com/p/56917127",
-      "summary": "正文定义满足行和为零的Q矩阵、转移概率矩阵及其生成元，并讲解连续时间马尔可夫模型的状态转移。"
-    },
-    {
-      "title": "卡尔曼滤波详细解析",
-      "url": "https://zhuanlan.zhihu.com/p/58675854",
-      "summary": "正文以马尔可夫假设简化状态依赖，并把当前后验归结为上一时刻后验预测后的递推更新。"
-    },
-    {
-      "title": "从动态规划到近似动态规划：BERTSEKAS 2014 在THU的暑期课程笔记",
-      "url": "https://zhuanlan.zhihu.com/p/58837258",
-      "summary": "正文以状态转移概率、马尔可夫链和 Bellman 方程建立并求解有限状态马尔可夫决策过程。"
-    },
-    {
-      "title": "NLP实战-中文命名实体识别",
-      "url": "https://zhuanlan.zhihu.com/p/61227299",
-      "summary": "正文定义隐马尔可夫模型的状态转移、观测生成和初始状态，并用极大似然估计其参数。"
-    },
-    {
-      "title": "采样方法(Sampling Method)",
-      "url": "https://zhuanlan.zhihu.com/p/62730810",
-      "summary": "正文把 Metropolis 的候选样本序列表述为马尔可夫链，并讲解平稳分布、细致平衡和接受准则。"
-    },
-    {
-      "title": "Time Series时间序列笔记",
-      "url": "https://zhuanlan.zhihu.com/p/55569371",
-      "summary": "正文专门讨论 AR 过程的马尔可夫性质，并用状态向量说明下一步只依赖当前状态。"
-    },
-    {
-      "title": "金融随机分析——概率论和布朗运动",
-      "url": "https://zhuanlan.zhihu.com/p/64805973",
-      "summary": "正文给出马尔可夫过程的严格定义，并利用转移密度证明布朗运动具有马尔可夫性。"
-    },
-    {
       "title": "[markov系列5]马尔可夫链与随机游走问题",
       "url": "https://zhuanlan.zhihu.com/p/66593338",
       "summary": "正文定义马尔可夫链的状态、状态向量和无后效转移条件，并用于病原体移动问题。"
-    },
-    {
-      "title": "一文理解条件随机场CRF",
-      "url": "https://zhuanlan.zhihu.com/p/70067113",
-      "summary": "正文完整给出隐马尔可夫模型的发射概率、转移概率和马尔可夫假设，并说明如何推广到 CRF。"
-    },
-    {
-      "title": "强化学习 - 动态规划(Dynamic Programming)",
-      "url": "https://zhuanlan.zhihu.com/p/72360992",
-      "summary": "正文围绕马尔科夫决策过程的贝尔曼方程、状态转移概率、价值函数和最优策略求解展开。"
-    },
-    {
-      "title": "贝叶斯网络，看完这篇我终于理解了(附代码)！",
-      "url": "https://zhuanlan.zhihu.com/p/73415944",
-      "summary": "正文从head-to-tail结构说明下一状态只依赖当前状态，从而引出马尔科夫链。"
-    },
-    {
-      "title": "2019高考理科数学（全国I卷）概率大题思路与解析",
-      "url": "https://zhuanlan.zhihu.com/p/74327966",
-      "summary": "正文说明累计得分只通过下一步状态转移影响最终获胜概率，并用马尔可夫过程建模。"
     },
     {
       "title": "概率图模型系列-隐马尔可夫模型（HMM）的numpy实现",
@@ -1058,104 +413,9 @@
       "summary": "正文明确齐次马尔可夫假设并据此建立隐状态转移和 HMM 推断。"
     },
     {
-      "title": "一文读懂贝叶斯推理问题：MCMC方法和变分推断",
-      "url": "https://zhuanlan.zhihu.com/p/75617364",
-      "summary": "正文定义马尔可夫链的转移概率、可逆性与平稳分布，并据此构造采样过程。"
-    },
-    {
-      "title": "随机过程在数据科学和深度学习中有哪些应用？",
-      "url": "https://zhuanlan.zhihu.com/p/79032057",
-      "summary": "正文具体讲解隐马尔可夫模型的隐藏状态、转移概率、发射概率与维特比求解。"
-    },
-    {
-      "title": "一站式解决：隐马尔可夫模型（HMM）全过程推导及实现",
-      "url": "https://zhuanlan.zhihu.com/p/85454896",
-      "summary": "正文以齐次马尔可夫链和观测独立性构造模型，并推导前向、后向和参数学习算法。"
-    },
-    {
-      "title": "强化学习--贝尔曼方程",
-      "url": "https://zhuanlan.zhihu.com/p/86525700",
-      "summary": "正文以马尔可夫决策过程描述状态、动作、转移概率和奖励，并用赌徒问题讲解转移机制。"
-    },
-    {
-      "title": "马尔可夫过程（以马尔科夫链Markov为例）",
-      "url": "https://zhuanlan.zhihu.com/p/86995916",
-      "summary": "正文具体讲解马尔可夫性、齐次马氏链、转移概率矩阵、互通性及稳态分布。"
-    },
-    {
       "title": "念念不忘，必有熵增",
       "url": "https://zhuanlan.zhihu.com/p/67780950",
       "summary": "正文以连续时间马氏链及其提升过程讨论条件独立、遗忘和熵增速率。"
-    },
-    {
-      "title": "隐马尔可夫模型（HMM）详解",
-      "url": "https://zhuanlan.zhihu.com/p/88362664",
-      "summary": "正文用交通灯和天气例子解释状态转移与马尔可夫性，并进一步给出隐马尔可夫模型的转移矩阵。"
-    },
-    {
-      "title": "图上的随机游走算法 I: hitting time精确解的数学推导与程序实现",
-      "url": "https://zhuanlan.zhihu.com/p/94407509",
-      "summary": "正文利用无记忆特性和转移概率递推首次到达概率，构成离散时间马尔可夫随机游走模型。"
-    },
-    {
-      "title": "Stata: 各类全要素生产率 TFP 估算方法",
-      "url": "https://zhuanlan.zhihu.com/p/101568118",
-      "summary": "正文把不可观测生产率设为一阶马尔科夫过程，并写出由上一期生产率及其冲击表示的条件期望。"
-    },
-    {
-      "title": "概率图模型(PGMs)-马尔可夫网络(Markov Nets)",
-      "url": "https://zhuanlan.zhihu.com/p/102014899",
-      "summary": "正文讲解马尔可夫链的转移、平稳分布、不可约与非周期性，并扩展到隐马尔可夫模型和马尔可夫网络。"
-    },
-    {
-      "title": "在家宅着也能抵抗肺炎！玩一玩SEIR传染病模型",
-      "url": "https://zhuanlan.zhihu.com/p/104268573",
-      "summary": "正文明确定义马尔可夫链的无记忆性质，并用状态转移解释传染病模型。"
-    },
-    {
-      "title": "如何轻松愉快地理解条件随机场（CRF）？",
-      "url": "https://zhuanlan.zhihu.com/p/104562658",
-      "summary": "正文解释 HMM 的转移概率、发射概率，并讨论其与 CRF 的关系。"
-    },
-    {
-      "title": "为什么不把EM算法说清楚？",
-      "url": "https://zhuanlan.zhihu.com/p/105564568",
-      "summary": "正文以 HMM 的状态转移、发射概率和前后向算法具体说明如何用 EM 估计马尔可夫模型参数。"
-    },
-    {
-      "title": "强化学习中无处不在的贝尔曼最优性方程，背后的数学原理为何？",
-      "url": "https://zhuanlan.zhihu.com/p/108484403",
-      "summary": "正文围绕有限马尔可夫决策过程的值函数、策略和状态转移讲解贝尔曼最优性方程。"
-    },
-    {
-      "title": "如何快速理解马尔科夫链蒙特卡洛法？",
-      "url": "https://zhuanlan.zhihu.com/p/108621943",
-      "summary": "正文以平稳分布、遍历定理和细致平衡方程讲解马尔科夫链，并据此构造 MCMC 采样。"
-    },
-    {
-      "title": "随机采样方法整理与讲解（MCMC、Gibbs Sampling等）",
-      "url": "https://zhuanlan.zhihu.com/p/109978580",
-      "summary": "正文讲解马尔可夫链的转移矩阵、平稳分布，并据此构造 Metropolis-Hastings 与 Gibbs 采样。"
-    },
-    {
-      "title": "HMM隐马尔可夫模型的例子、原理、计算和应用",
-      "url": "https://zhuanlan.zhihu.com/p/111899116",
-      "summary": "正文以隐藏马尔可夫链生成不可观测状态序列、再由状态生成观测序列的结构定义隐马尔可夫模型。"
-    },
-    {
-      "title": "什么是马尔可夫链蒙特卡洛（MCMC）？",
-      "url": "https://zhuanlan.zhihu.com/p/116725922",
-      "summary": "正文定义马尔可夫链，演示状态转移矩阵迭代和静态分布的计算。"
-    },
-    {
-      "title": "强化学习与李雅普诺夫稳定判据的关系",
-      "url": "https://zhuanlan.zhihu.com/p/128516003",
-      "summary": "正文从状态转移概率和收益定义马尔科夫过程上的价值递推。"
-    },
-    {
-      "title": "因果关系初探（9）—— 因果关系发现",
-      "url": "https://zhuanlan.zhihu.com/p/127831016",
-      "summary": "正文围绕有向无环图的马尔可夫性、D 分离与马尔可夫等价类讲解因果结构发现。"
     },
     {
       "title": "关于时齐马尔科夫链的吸收态的两个重要公式",
@@ -1163,234 +423,9 @@
       "summary": "正文给出马尔科夫链的马尔科夫性，并用状态转移矩阵分析吸收过程。"
     },
     {
-      "title": "马尔科夫蒙特卡洛方法",
-      "url": "https://zhuanlan.zhihu.com/p/143016455",
-      "summary": "正文利用马尔科夫链的平稳分布设计采样算法，并说明不可约、正常返、细致平衡等构造条件。"
-    },
-    {
-      "title": "从马尔可夫链到蒙特卡洛-Metropolis方法（Python）",
-      "url": "https://zhuanlan.zhihu.com/p/146020807",
-      "summary": "正文用转移矩阵幂的收敛解释马尔科夫链的平稳分布及其与初始分布无关的性质。"
-    },
-    {
-      "title": "随机计算与量化交易（上）：从布朗运动到维纳过程",
-      "url": "https://zhuanlan.zhihu.com/p/157543046",
-      "summary": "正文定义马尔可夫过程并解释未来只依赖当前状态的马尔可夫性质。"
-    },
-    {
-      "title": "华东师范大学统计学暑期学校笔记",
-      "url": "https://zhuanlan.zhihu.com/p/160017364",
-      "summary": "正文概括马尔可夫模型的状态转移概率、当前状态决定下一步以及转移矩阵等核心假设。"
-    },
-    {
-      "title": "[随机过程] 1 随机过程知识框架",
-      "url": "https://zhuanlan.zhihu.com/p/161906208",
-      "summary": "正文用转移概率、互通类、常返性和平稳分布完整讲解马尔可夫链模型。"
-    },
-    {
-      "title": "贝叶斯方法理解（3）— MCMC",
-      "url": "https://zhuanlan.zhihu.com/p/161592962",
-      "summary": "正文以天气状态和转移矩阵说明马尔可夫链仅依赖当前状态的无记忆转移机制。"
-    },
-    {
-      "title": "机器学习中的概率模型",
-      "url": "https://zhuanlan.zhihu.com/p/164551678",
-      "summary": "正文解释马尔可夫模型的无记忆状态转移，并扩展为带观测变量的隐马尔可夫模型。"
-    },
-    {
-      "title": "“氪金”中的统计学：以和平精英特斯拉抽奖为例",
-      "url": "https://zhuanlan.zhihu.com/p/165133705",
-      "summary": "正文明确把星级状态序列构造成马尔可夫链，并使用转移矩阵递推状态分布。"
-    },
-    {
-      "title": "IJCAI 2019 Graph WaveNet for Deep ST Graph",
-      "url": "https://zhuanlan.zhihu.com/p/186228206",
-      "summary": "正文明确把图信号传递建模为马尔可夫随机游走，并用转移矩阵及其幂描述多步状态传播。"
-    },
-    {
-      "title": "《经济动态的递归方法》解读（3）：测度、积分与随机递归模型",
-      "url": "https://zhuanlan.zhihu.com/p/196256522",
-      "summary": "正文将随机差分方程的状态转移解释为马尔科夫过程，并讨论转移函数和不变分布。"
-    },
-    {
-      "title": "蒙特卡洛 Monte Carlo 入门（15分钟版）",
-      "url": "https://zhuanlan.zhihu.com/p/223042372",
-      "summary": "正文由当前状态生成下一状态并满足细致平衡，构造马尔科夫链蒙特卡洛采样。"
-    },
-    {
-      "title": "60分钟看懂HMM的基本原理",
-      "url": "https://zhuanlan.zhihu.com/p/224770895",
-      "summary": "正文以村民健康状态序列解释隐藏马尔科夫链，并说明当前状态只依赖前一状态。"
-    },
-    {
-      "title": "【归纳综述】马尔可夫、隐马尔可夫 HMM 、条件随机场 CRF 全解析及其python实现",
-      "url": "https://zhuanlan.zhihu.com/p/259660645",
-      "summary": "正文用马尔可夫性建立一阶、二阶和高阶马尔可夫链，展开状态转移与序列预测。"
-    },
-    {
-      "title": "【决策模型】马尔可夫决策过程",
-      "url": "https://zhuanlan.zhihu.com/p/271221558",
-      "summary": "正文系统讲解马尔可夫性、马尔可夫奖励过程和带动作的马尔可夫决策过程。"
-    },
-    {
-      "title": "马尔可夫决策过程MDP -- 强化学习基础（1）",
-      "url": "https://zhuanlan.zhihu.com/p/273449285",
-      "summary": "正文从马尔可夫属性逐步构造马尔可夫链、回报过程和 MDP，并定义状态价值与最优策略。"
-    },
-    {
       "title": "解决一个预测类数学建模问题有哪些模型可以用？",
       "url": "https://zhuanlan.zhihu.com/p/272184351",
       "summary": "正文定义马尔可夫链的无记忆性、状态转移和转移概率，并说明其预测用途。"
-    },
-    {
-      "title": "概率论与统计学5——马尔科夫链（Markov Chain）",
-      "url": "https://zhuanlan.zhihu.com/p/274775796",
-      "summary": "正文系统定义马尔可夫链的转移概率和转移矩阵，讨论状态分类、周期性与稳态概率。"
-    },
-    {
-      "title": "概率论与统计学7——马尔可夫链蒙特卡洛（Markov chain Monte Carlo）",
-      "url": "https://zhuanlan.zhihu.com/p/283767958",
-      "summary": "正文定义转移概率矩阵与目标稳态分布，并说明马尔可夫链的长期状态结构。"
-    },
-    {
-      "title": "Ergodic Markov Chain有关的四个定理及其推论",
-      "url": "https://zhuanlan.zhihu.com/p/322107034",
-      "summary": "正文以不可约性刻画马尔可夫链的遍历性，并讨论其平稳分布。"
-    },
-    {
-      "title": "随机过程|笔记整理（1）——引入，有限状态马尔科夫链，状态转移，常返与瞬时状态",
-      "url": "https://zhuanlan.zhihu.com/p/334739650",
-      "summary": "正文定义离散马尔可夫链、转移矩阵、常返与瞬时状态，并证明多步转移和状态可达性质。"
-    },
-    {
-      "title": "随机过程|笔记整理（2）——极限状态的平稳分布与周期（上），一些特殊的马尔科夫链",
-      "url": "https://zhuanlan.zhihu.com/p/335796325",
-      "summary": "正文定义双随机链的转移矩阵条件，并据此推导其均匀平稳分布。"
-    },
-    {
-      "title": "随机过程|笔记整理（3）——无限状态的平稳测度，返回时间，访问频率：几个定理的证明",
-      "url": "https://zhuanlan.zhihu.com/p/337130907",
-      "summary": "正文以转移概率、不可约性、常返性和平稳分布系统讨论马尔可夫链理论。"
-    },
-    {
-      "title": "随机过程|笔记整理（5）——无限状态马尔科夫链的进一步探讨，泊松过程引入，复合泊松过程",
-      "url": "https://zhuanlan.zhihu.com/p/339121930",
-      "summary": "正文讨论无限状态马尔可夫链的常返性、正常返与零常返，以及平稳分布的存在条件。"
-    },
-    {
-      "title": "贝叶斯分析助你成为优秀的调参侠（1）",
-      "url": "https://zhuanlan.zhihu.com/p/339116960",
-      "summary": "正文利用相邻样本依赖形成的马尔可夫链进行参数空间随机行走，并讨论预烧和抽稀。"
-    },
-    {
-      "title": "概率图模型系列（一）：概率图模型简介",
-      "url": "https://zhuanlan.zhihu.com/p/341269050",
-      "summary": "正文介绍马尔可夫随机场、局部马尔可夫性质、团、势函数和吉布斯分布。"
-    },
-    {
-      "title": "随机过程|笔记整理（9）——连续时间马尔科夫链的泊松过程描述，爆炸现象，离散马尔科夫链对比",
-      "url": "https://zhuanlan.zhihu.com/p/343585535",
-      "summary": "正文围绕连续时间马尔科夫链的转移速率、平稳分布、细致平衡和逆向链展开。"
-    },
-    {
-      "title": "随机动力学（2）---Fokker Planck Kolmogorov 方程",
-      "url": "https://zhuanlan.zhihu.com/p/344968725",
-      "summary": "正文给出马尔可夫过程的无后效性，并说明其由初始概率密度和转移概率密度决定。"
-    },
-    {
-      "title": "应用随机过程|第3章 马尔科夫链 Markov Chains",
-      "url": "https://zhuanlan.zhihu.com/p/347500549",
-      "summary": "正文给出马尔可夫链的条件独立性定义，解释无后效性并通过随机游动和状态分类展开模型。"
-    },
-    {
-      "title": "应用随机过程|第5章 布朗运动",
-      "url": "https://zhuanlan.zhihu.com/p/348017706",
-      "summary": "正文分别讨论布朗运动的正向、逆向和关于两边的马尔可夫性，并推导相邻状态间的条件分布。"
-    },
-    {
-      "title": "应用随机过程|第6章 连续时间参数马尔科夫链",
-      "url": "https://zhuanlan.zhihu.com/p/348173810",
-      "summary": "正文给出连续时间马尔可夫链的定义、转移矩阵、Kolmogorov-Chapman 方程和状态分类。"
-    },
-    {
-      "title": "超图学习（Learning with hypergraphs）（一）",
-      "url": "https://zhuanlan.zhihu.com/p/361471954",
-      "summary": "正文明确构造超图上的自然随机游走，并推导转移概率矩阵与平稳分布。"
-    },
-    {
-      "title": "概率论与统计学8——马尔可夫随机场（Markov Random Field）",
-      "url": "https://zhuanlan.zhihu.com/p/361407034",
-      "summary": "正文系统定义马尔可夫随机场，解释其条件独立性质、团块分解和相邻节点条件概率关系。"
-    },
-    {
-      "title": "金融数据与时间序列分析专题10：State Space Models & Kalman Filters & Time-Varying CAPM Model",
-      "url": "https://zhuanlan.zhihu.com/p/363137440",
-      "summary": "正文说明未来状态只依赖当前状态和新输入，当前状态汇总全部历史，体现马尔可夫型状态机制。"
-    },
-    {
-      "title": "强化学习——一种直接自适应最优控制方法",
-      "url": "https://zhuanlan.zhihu.com/p/365682156",
-      "summary": "正文把强化学习问题建立在未知转移概率的Markov决策过程上，并解释状态、动作和奖励转移。"
-    },
-    {
-      "title": "另辟蹊径—Denoising Diffusion Probabilistic 一种从噪音中剥离出图像/音频的模型",
-      "url": "https://zhuanlan.zhihu.com/p/366004028",
-      "summary": "正文把前向扩散和反向去噪都写成只依赖前一状态的马尔可夫链乘积形式。"
-    },
-    {
-      "title": "马尔科夫链, PageRank算法, 与代数图论",
-      "url": "https://zhuanlan.zhihu.com/p/367579738",
-      "summary": "正文从状态转移和无记忆性出发，完整讲解离散马尔科夫链、稳态和收敛条件。"
-    },
-    {
-      "title": "马尔科夫链详解",
-      "url": "https://zhuanlan.zhihu.com/p/370026636",
-      "summary": "正文以马尔可夫性、状态转移矩阵、不可约性和常返态展开马尔可夫链理论。"
-    },
-    {
-      "title": "用一个数学模型讲完所有功能和声",
-      "url": "https://zhuanlan.zhihu.com/p/370795349",
-      "summary": "正文用状态及其转移概率构建功能和声的马尔科夫链模型，并解释转移矩阵。"
-    },
-    {
-      "title": "数据建模与分析第10讲（蒙特卡洛法、MCMC、Metropolis-Hasting）",
-      "url": "https://zhuanlan.zhihu.com/p/374851855",
-      "summary": "正文定义马尔科夫链及其转移矩阵，并讨论平稳分布和遍历性质。"
-    },
-    {
-      "title": "项目反应理论(IRT)详解",
-      "url": "https://zhuanlan.zhihu.com/p/367628823",
-      "summary": "正文说明 IRT 参数估计中的 MCMC 通过构造马氏链、固定部分参数并交替采样各变量来实现。"
-    },
-    {
-      "title": "数据处理不等式：定量描述互信息的传播损失",
-      "url": "https://zhuanlan.zhihu.com/p/374292472",
-      "summary": "正文用马尔科夫链的条件独立性化简条件互信息，并据此完成数据处理不等式的证明。"
-    },
-    {
-      "title": "强化学习笔记 - 贝尔曼方程（Bellman Equation）",
-      "url": "https://zhuanlan.zhihu.com/p/381821556",
-      "summary": "正文定义由状态、动作、转移概率和奖励组成的马尔可夫决策过程，并沿状态与动作轨迹解释其递推结构。"
-    },
-    {
-      "title": "数学建模常用模型:马尔可夫预测方法",
-      "url": "https://zhuanlan.zhihu.com/p/384156297",
-      "summary": "正文系统介绍状态转移、无后效性和递推预测，核心是马尔可夫预测模型。"
-    },
-    {
-      "title": "Denoising Diffusion Probabilistic Model(DDPM)",
-      "url": "https://zhuanlan.zhihu.com/p/384144179",
-      "summary": "正文把前向扩散和反向生成过程都定义为高斯转移的马尔可夫链。"
-    },
-    {
-      "title": "数值分析：数值积分（蒙特卡洛积分）",
-      "url": "https://zhuanlan.zhihu.com/p/365624460",
-      "summary": "正文定义离散时间马尔可夫链、转移概率和平稳分布，并据此介绍马尔可夫链采样及 Metropolis-Hastings。"
-    },
-    {
-      "title": "马尔可夫模型",
-      "url": "https://zhuanlan.zhihu.com/p/390904182",
-      "summary": "正文定义马尔可夫性、马尔可夫链、转移概率矩阵，并扩展到隐马尔可夫模型。"
     },
     {
       "title": "量化私募面试题 - Markov 随机游走",
@@ -1403,199 +438,9 @@
       "summary": "正文定义连续正面次数的状态并利用状态转移概率建立递推式，实质使用马尔可夫状态模型。"
     },
     {
-      "title": "数值策划备忘录——用马尔可夫链（Markov Chain）解决装备掉落问题",
-      "url": "https://zhuanlan.zhihu.com/p/399579027",
-      "summary": "文章用马尔可夫链和状态转移矩阵逐步计算后续状态及长期装备掉落期望。"
-    },
-    {
-      "title": "随机过程、马尔可夫过程、维纳过程三者的联系与区别？",
-      "url": "https://zhuanlan.zhihu.com/p/402320649",
-      "summary": "正文以当前状态决定未来、历史不影响未来来定义马尔可夫过程，并说明维纳过程是其特例。"
-    },
-    {
-      "title": "马尔科夫链在福利彩票双色球的实际应用",
-      "url": "https://zhuanlan.zhihu.com/p/409030315",
-      "summary": "正文介绍马尔可夫链的转移矩阵、平稳分布和遍历性，并将其用于彩票号码概率分析，实质展开了马尔可夫模型。"
-    },
-    {
-      "title": "走进贝叶斯统计（五）—— Metropolis-Hasting 算法",
-      "url": "https://zhuanlan.zhihu.com/p/411689417",
-      "summary": "正文把 MH 样本序列表述为马尔可夫链，详细说明由当前状态生成下一状态并收敛到平稳分布。"
-    },
-    {
-      "title": "MCMC与贝叶斯推断简介：从入门到放弃",
-      "url": "https://zhuanlan.zhihu.com/p/420214359",
-      "summary": "正文展开马尔可夫链的稳态、转移核、proposal 与接受率，并据此说明 MCMC 的采样机制。"
-    },
-    {
-      "title": "走进贝叶斯统计（六）—— 吉布斯抽样 （Gibbs Sampling）",
-      "url": "https://zhuanlan.zhihu.com/p/416670115",
-      "summary": "正文说明吉布斯抽样的每一步依赖上一状态，所得参数序列是一条马尔可夫链且平稳分布为目标分布。"
-    },
-    {
-      "title": "从Bellman算子的角度看待策略迭代（Policy Iteration）、价值迭代（Value Iteration）",
-      "url": "https://zhuanlan.zhihu.com/p/419208786",
-      "summary": "正文以状态、动作、转移概率和奖励定义马尔可夫决策过程，并围绕其贝尔曼方程展开分析。"
-    },
-    {
-      "title": "【分层强化学习】The Option-Critic Architecture 阅读笔记",
-      "url": "https://zhuanlan.zhihu.com/p/430471198",
-      "summary": "正文构造增强状态上的马尔可夫链，推导转移概率、各态历经性和平稳分布，用于选项策略梯度分析。"
-    },
-    {
-      "title": "时间序列预测@Probabilistic Transformer for Time Series Analysis",
-      "url": "https://zhuanlan.zhihu.com/p/470647645",
-      "summary": "正文把多层隐变量表示为马尔可夫链，并具体讨论序列中的非马尔可夫动力学。"
-    },
-    {
-      "title": "Plug-and-Play: 算法的推导, 利用强化学习选择参数与证明收敛性的两种框架",
-      "url": "https://zhuanlan.zhihu.com/p/473894961",
-      "summary": "正文把 Plug-and-Play 迭代的状态、动作和转移显式建模为 MDP，以学习动态参数和停止策略。"
-    },
-    {
-      "title": "深入理解强化学习（二）- 强化学习问题",
-      "url": "https://zhuanlan.zhihu.com/p/478618174",
-      "summary": "正文定义马尔科夫性和马尔科夫过程的状态转移概率，并据此构造马尔科夫决策过程。"
-    },
-    {
-      "title": "第二讲 马尔可夫决策过程",
-      "url": "https://zhuanlan.zhihu.com/p/494755866",
-      "summary": "正文定义马尔可夫链、状态转移概率矩阵和奖励过程，并完整推导马尔可夫决策过程。"
-    },
-    {
-      "title": "生成模型(四):扩散模型",
-      "url": "https://zhuanlan.zhihu.com/p/499206074",
-      "summary": "正文明确用马尔可夫链刻画扩散与逆扩散的逐步状态转移模型。"
-    },
-    {
-      "title": "由浅入深了解Diffusion Model",
-      "url": "https://zhuanlan.zhihu.com/p/529525303",
-      "summary": "正文明确用马尔可夫过程表述扩散前向链，并讨论 DDIM 的非马尔可夫推广。"
-    },
-    {
-      "title": "DDPM解读（一）| 数学基础，扩散与逆扩散过程和训练推理方法",
-      "url": "https://zhuanlan.zhihu.com/p/530602852",
-      "summary": "正文明确说明前向扩散是仅依赖上一时刻状态的马尔可夫链，并给出条件概率乘积。"
-    },
-    {
-      "title": "理解扩散模型Diffusion Models（一）",
-      "url": "https://zhuanlan.zhihu.com/p/532402983",
-      "summary": "正文用条件分布只依赖前一时间步的性质说明扩散随机过程具有马尔可夫性。"
-    },
-    {
-      "title": "从统计角度理解生成模型",
-      "url": "https://zhuanlan.zhihu.com/p/537702575",
-      "summary": "通过一阶马尔可夫链的联合概率分解和祖先采样建模生成过程。"
-    },
-    {
-      "title": "限价订单簿建模-01-Level-I Quotes & Hidden Liquidity",
-      "url": "https://zhuanlan.zhihu.com/p/539521159",
-      "summary": "正文把买方和卖方一档队列长度作为状态，建立马尔可夫转移概率和扩散近似模型。"
-    },
-    {
-      "title": "多传感器融合专题（一） ｜ 各类滤波器方法整理",
-      "url": "https://zhuanlan.zhihu.com/p/542440266",
-      "summary": "正文明确采用马尔可夫假设，将贝叶斯滤波化为上一时刻后验向当前时刻的递推。"
-    },
-    {
-      "title": "Diffusion Model | （三）Langevin dynamics",
-      "url": "https://zhuanlan.zhihu.com/p/545910038",
-      "summary": "正文定义一阶马尔可夫假设、时齐马尔可夫链、平稳分布和细致平衡条件。"
-    },
-    {
-      "title": "扩散模型 Diffusion Models - 原理篇",
-      "url": "https://zhuanlan.zhihu.com/p/548112711",
-      "summary": "正文以马尔可夫性建立正向转移概率，并推导逆扩散的马尔可夫链。"
-    },
-    {
-      "title": "Diffusion Models：生成扩散模型",
-      "url": "https://zhuanlan.zhihu.com/p/549623622",
-      "summary": "正文把扩散模型的正向加噪和逆向去噪定义为马尔可夫链。"
-    },
-    {
-      "title": "大一统视角理解扩散模型Understanding Diffusion Models: A Unified Perspective  阅读笔记",
-      "url": "https://zhuanlan.zhihu.com/p/558937247",
-      "summary": "正文以马尔可夫条件依赖假设推导层级 VAE 和扩散模型。"
-    },
-    {
-      "title": "扩散模型(Diffusion Model)首篇综述-Diffusion Models: A Comprehensive Survey of Methods and Applications",
-      "url": "https://zhuanlan.zhihu.com/p/562389931",
-      "summary": "正文用前向马尔可夫加噪链和反向参数化转移链解释 DDPM 的生成过程。"
-    },
-    {
-      "title": "如何通俗理解扩散模型？",
-      "url": "https://zhuanlan.zhihu.com/p/563543020",
-      "summary": "正文具体解释扩散模型如何用马尔可夫链的转移过程逐步加入噪声，并学习近似的逆向转移过程。"
-    },
-    {
-      "title": "轻松学习扩散模型（diffusion model），被巨怪踩过的脑袋也能懂——原理详解+pytorch代码详解（附全部代码）",
-      "url": "https://zhuanlan.zhihu.com/p/572770333",
-      "summary": "正文说明前向扩散链的当前状态主要依赖前一状态和新增噪声，并按马尔可夫链推导。"
-    },
-    {
-      "title": "Diffusion Model 扩散模型-[通俗易懂+代码讲解]（一）",
-      "url": "https://zhuanlan.zhihu.com/p/572263021",
-      "summary": "正文把前向加噪和逆向去噪建模为马尔可夫链，并用链性质计算反向条件分布。"
-    },
-    {
-      "title": "扩散模型：方法与应用综述（Diffusion Models: A Comprehensive Survey of Methods and Applications）",
-      "url": "https://zhuanlan.zhihu.com/p/573627573",
-      "summary": "正文把 DDPM 的前向扰动链与反向恢复链明确建模为参数化马尔可夫链。"
-    },
-    {
-      "title": "Diffusion Model （扩散模型）解读系列二：(DDIM) denoising diffusion implicit models",
-      "url": "https://zhuanlan.zhihu.com/p/580106763",
-      "summary": "正文以 DDPM 的前向马尔可夫链为基准，说明 DDIM 如何放宽马尔可夫限制并保留逆向生成条件。"
-    },
-    {
       "title": "金融quant面试题与阿里数学竞赛",
       "url": "https://zhuanlan.zhihu.com/p/583154768",
       "summary": "正文把集卡过程建成十二状态的马尔可夫链，并依据状态转移关系逐层列方程求解。"
-    },
-    {
-      "title": "随机过程学习笔记（1）- Gambling Problem赌徒问题",
-      "url": "https://zhuanlan.zhihu.com/p/590513240",
-      "summary": "正文在推导破产概率时明确利用马尔可夫链的时间同质性，使从下一步开始的条件概率只依赖当前状态。"
-    },
-    {
-      "title": "数学建模-预测类模型",
-      "url": "https://zhuanlan.zhihu.com/p/599455922",
-      "summary": "正文定义马尔科夫链的状态空间、无记忆性和转移矩阵，并进一步介绍隐马尔可夫模型。"
-    },
-    {
-      "title": "第十章 机器学习与信号处理（下）—贝叶斯学派",
-      "url": "https://zhuanlan.zhihu.com/p/600739361",
-      "summary": "正文系统定义隐马尔可夫模型、前向算法、前向后向算法和维特比解码。"
-    },
-    {
-      "title": "【持续更新】MCMC 理论",
-      "url": "https://zhuanlan.zhihu.com/p/607728292",
-      "summary": "正文解释如何设计 Markov chain 的转移核，使其收敛到目标分布并生成采样。"
-    },
-    {
-      "title": "北理工《随机过程》课程复习笔记",
-      "url": "https://zhuanlan.zhihu.com/p/612648878",
-      "summary": "正文详细讲解离散与连续时间马尔可夫链的转移矩阵、状态分类、平稳分布和生灭过程。"
-    },
-    {
-      "title": "概率视角下的生成模型",
-      "url": "https://zhuanlan.zhihu.com/p/611466195",
-      "summary": "正文把扩散模型的隐变量写成相邻状态依存的马尔可夫链，并据此推导目标函数。"
-    },
-    {
-      "title": "Note：给我奶奶讲diffusion models",
-      "url": "https://zhuanlan.zhihu.com/p/614037593",
-      "summary": "正文给出马尔可夫性的条件概率形式，并说明状态转移只依赖当前状态。"
-    },
-    {
-      "title": "保姆级教程，基于pytorch从零实现生成扩散模型DDPM，附可运行源码（2023年3月31号更新：项目上传至Github仓库，并且文末给出项目代码压缩包网盘下载链接）",
-      "url": "https://zhuanlan.zhihu.com/p/617895786",
-      "summary": "正文把前向加噪过程建模为马尔可夫链，并用条件概率乘积与转移核推导扩散过程。"
-    },
-    {
-      "title": "量子蒙特卡洛算法小结（1）",
-      "url": "https://zhuanlan.zhihu.com/p/620123820",
-      "summary": "正文围绕平稳分布、细致平衡和 Metropolis-Hastings 构造展开马尔可夫链采样模型。"
     },
     {
       "title": "醍醐灌顶，这才是所有线性代数老师应该教给你的，矩阵的知识！",
@@ -1603,59 +448,9 @@
       "summary": "正文构造列和为1的马尔可夫矩阵，用重复状态转移描述人口在离散时刻的演化。"
     },
     {
-      "title": "带函数近似的强化学习理论",
-      "url": "https://zhuanlan.zhihu.com/p/636199265",
-      "summary": "正文以状态、动作、转移概率和 Bellman 方程建立 Markov 决策过程模型。"
-    },
-    {
-      "title": "面向高中生的马尔可夫链（Markov Chains）和游走相关的概率递推问题",
-      "url": "https://zhuanlan.zhihu.com/p/653026889",
-      "summary": "正文定义一阶马尔可夫性、转移概率、转移矩阵和稳态概率分布。"
-    },
-    {
-      "title": "深度推导 DDPM 数学原理",
-      "url": "https://zhuanlan.zhihu.com/p/656757576",
-      "summary": "正文推导前向扩散过程的马尔可夫性质及其条件分布分解，用于重写变分界。"
-    },
-    {
-      "title": "什么是马尔可夫链蒙特卡罗法（MCMC）？",
-      "url": "https://zhuanlan.zhihu.com/p/665787449",
-      "summary": "正文定义马尔可夫链、转移矩阵、不可约性、平稳分布和混合时间，展开马尔可夫链的基本理论。"
-    },
-    {
-      "title": "DiffusionModel-NCSN原理与推导",
-      "url": "https://zhuanlan.zhihu.com/p/670052757",
-      "summary": "正文说明朗之万采样是一类马尔可夫链蒙特卡罗方法，并给出其迭代采样过程。"
-    },
-    {
       "title": "2023年“华为杯”第二十届中国研究生数学建模A题一等奖+华为专项二等奖——经验介绍+赛题分析+优秀论文+word模板+总结复盘",
       "url": "https://zhuanlan.zhihu.com/p/669523582",
       "summary": "正文把二进制指数退避的发送过程建模为马尔可夫链，并联立转移概率方程求解。"
-    },
-    {
-      "title": "扩散模型中的Noise Scheduler",
-      "url": "https://zhuanlan.zhihu.com/p/674001640",
-      "summary": "正文定义 DDPM 前向和逆向的 Markov 链，并比较 DDIM 摆脱一阶 Markov 假设后的采样方式。"
-    },
-    {
-      "title": "原神概率论：从抽卡概率模型到更新定理",
-      "url": "https://zhuanlan.zhihu.com/p/675316602",
-      "summary": "正文说明更新定理与马尔可夫链遍历定理的联系，并叙述不变分布和长期访问频率。"
-    },
-    {
-      "title": "万字长文+详细公式推导解读扩散模型的经典论文",
-      "url": "https://zhuanlan.zhihu.com/p/674019932",
-      "summary": "正文利用马尔科夫假设分解联合概率，并进一步构造非马尔科夫过程说明损失函数等价。"
-    },
-    {
-      "title": "一文带你看懂 DDPM vs DDIM 原理",
-      "url": "https://zhuanlan.zhihu.com/p/657136157",
-      "summary": "正文把 DDPM 的前向加噪与反向去噪定义为逐步马尔科夫转移，并以状态条件分布推导去噪过程。"
-    },
-    {
-      "title": "扩散模型(Diffusion Model)奠基之作：DDPM 论文解读",
-      "url": "https://zhuanlan.zhihu.com/p/682840224",
-      "summary": "正文把扩散模型表述为马尔可夫链，并逐步推导前向与反向过程的联合概率分解。"
     },
     {
       "title": "状态转移建立方程——马尔科夫链无穷递推背景的概率与期望计算",
@@ -1663,29 +458,9 @@
       "summary": "正文以仓室运动和比赛胜负等多状态随机过程讲解马尔科夫链式的状态转移。"
     },
     {
-      "title": "小白也可以清晰理解diffusion原理: DDPM",
-      "url": "https://zhuanlan.zhihu.com/p/693535104",
-      "summary": "正文把扩散模型的前向和反向过程明确建模为马尔可夫链，并给出单步转移分布及其递推结构。"
-    },
-    {
       "title": "ICML'24 Spotlight | 贝叶斯+低秩函数分解：多维时序的在线补全",
       "url": "https://zhuanlan.zhihu.com/p/709630460",
       "summary": "正文说明状态空间高斯过程可化为高斯马尔可夫链，并用卡尔曼滤波在线推断。"
-    },
-    {
-      "title": "[Diffusion 1] 去噪扩散模型 DDPM 半小时理论扫盲",
-      "url": "https://zhuanlan.zhihu.com/p/9140786426",
-      "summary": "正文以逐步条件分布连乘描述扩散和逆向生成链的马尔可夫结构。"
-    },
-    {
-      "title": "一个有趣的强化学习小引理",
-      "url": "https://zhuanlan.zhihu.com/p/24036381625",
-      "summary": "正文围绕马尔可夫决策过程的状态转移和 Bellman 型方程建立引理，并利用累计状态分布完成证明。"
-    },
-    {
-      "title": "Flow Matching vs Diffusion",
-      "url": "https://zhuanlan.zhihu.com/p/1899990566399358270",
-      "summary": "正文对比 DDPM 的马尔可夫反向链与 DDIM 的非马尔可夫跳步采样机制。"
     }
   ]
 }

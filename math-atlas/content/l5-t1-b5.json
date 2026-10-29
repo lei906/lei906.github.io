@@ -103,16 +103,6 @@
       "summary": "正文用 ADE 不等式的解说明单李群的 Dynkin 图分类。"
     },
     {
-      "title": "有哪些优秀的高等代数教材？",
-      "url": "https://www.zhihu.com/answer/563225927",
-      "summary": "正文解释线性代数如何通向李群和李代数。"
-    },
-    {
-      "title": "如何看待李群、李代数在机器人控制中的应用？",
-      "url": "https://www.zhihu.com/answer/586560160",
-      "summary": "解释李代数作为李群切空间如何用于局部线性化。"
-    },
-    {
       "title": "特殊函数有什么用？",
       "url": "https://www.zhihu.com/answer/586828153",
       "summary": "把特殊函数与李代数及其表示联系起来。"
@@ -246,11 +236,6 @@
       "title": "如何理解微分几何中的『联络』?",
       "url": "https://www.zhihu.com/answer/2434548340",
       "summary": "正文说明规范场联络项以李代数元素为基底。"
-    },
-    {
-      "title": "自动微分法（Automatic differentiation）是如何用C++实现的？",
-      "url": "https://www.zhihu.com/answer/2446699680",
-      "summary": "正文把自动求导推广到特殊正交群并引用李代数结构。"
     },
     {
       "title": "仍然在世的伟大数学家有哪些？",
@@ -503,11 +488,6 @@
       "summary": "正文定义李群的李代数，讨论换位子、Jacobi 恒等式、指数映射及半单李代数结构。"
     },
     {
-      "title": "第四讲：李群和李代数",
-      "url": "https://zhuanlan.zhihu.com/p/33156814",
-      "summary": "正文定义李代数、解释李括号并详细讨论 so(3)、se(3) 与指数映射。"
-    },
-    {
       "title": "(17)李导数与李括号",
       "url": "https://zhuanlan.zhihu.com/p/33381200",
       "summary": "正文定义李括号并证明其双线性、反交换性和 Jacobi 恒等式，展开其作为李代数运算的代数性质。"
@@ -523,34 +503,14 @@
       "summary": "正文计算转动群与洛伦兹群生成元的对易关系，并利用李代数结构研究表示。"
     },
     {
-      "title": "从零开始一起学习SLAM | 为啥需要李群与李代数？",
-      "url": "https://zhuanlan.zhihu.com/p/47330137",
-      "summary": "正文讲解 SO(3)、SE(3) 对应的李代数、反对称矩阵以及指数和对数映射。"
-    },
-    {
       "title": "量子力学杂谈——Stone定理",
       "url": "https://zhuanlan.zhihu.com/p/60336596",
       "summary": "正文构造李群表示的无穷小生成元，并说明其构成李代数表示。"
     },
     {
-      "title": "李群和李代数（四）：姿态估计小结",
-      "url": "https://zhuanlan.zhihu.com/p/87438999",
-      "summary": "正文把幺元处切空间定义为李代数，进一步讨论李括号、指数与对数映射及伴随变换。"
-    },
-    {
-      "title": "旋转之十一 - SE(3) 和 se(3)",
-      "url": "https://zhuanlan.zhihu.com/p/88771394",
-      "summary": "正文以 SO(3)、so(3) 与 SE(3)、se(3) 的对应关系为核心，系统推导李代数的指数映射和对象到李群的转换。"
-    },
-    {
       "title": "洛伦兹群的旋量表示",
       "url": "https://zhuanlan.zhihu.com/p/89876878",
       "summary": "正文计算洛伦兹群六个生成元的对易关系并化为 su(2) 代数，直接讲解李代数。"
-    },
-    {
-      "title": "标定系列二 | 实践之Camera-Odometry标定",
-      "url": "https://zhuanlan.zhihu.com/p/101727151",
-      "summary": "正文在 SE(2) 上定义运动增量对应的李代数，并通过指数映射完成位姿积分。"
     },
     {
       "title": "繁星客栈拾遗（十五年前的数学和八卦帖）",
@@ -593,19 +553,9 @@
       "summary": "正文给出 Lie 代数的公理化定义，并展开括积、子代数、同态、商代数和理想，故对应李代数。"
     },
     {
-      "title": "给大一学生的 Lie 代数: 不是前言的前言",
-      "url": "https://zhuanlan.zhihu.com/p/161735986",
-      "summary": "正文介绍 Lie 代数的连续群起源、与高等代数的工具关系及其在多个数学分支中的应用。"
-    },
-    {
       "title": "典型单纯李代数的表示",
       "url": "https://zhuanlan.zhihu.com/p/183154789",
       "summary": "正文围绕四类典型单纯李代数，具体讨论其 Chevalley 基、最高权态、权和不可约表示。"
-    },
-    {
-      "title": "ModernRobotics现代机器人学（旋量法 源码matlab C++ python等）",
-      "url": "https://zhuanlan.zhihu.com/p/266377602",
-      "summary": "正文给出 so(3) 与 se(3) 的矩阵指数、对数和旋量表示，并说明其相互转换。"
     },
     {
       "title": "经典辛几何基础(一)",
@@ -621,11 +571,6 @@
       "title": "[Katsushi 2011] 1.2 共形变换",
       "url": "https://zhuanlan.zhihu.com/p/337228688",
       "summary": "正文由无穷小共形变换得到平移、旋转、标度和特殊共形生成元及其对易关系，并讨论共形代数。"
-    },
-    {
-      "title": "抽象代数教学体系的探索 I",
-      "url": "https://zhuanlan.zhihu.com/p/338294403",
-      "summary": "正文比较 Lie 代数与群论的研究框架，并讨论其与 Lie 群及高等代数的教学联系。"
     },
     {
       "title": "李代数(1): 基本概念",
@@ -671,11 +616,6 @@
       "title": "群论 (Group Theory) 终极速成 / 李群对应的李代数与可爱又迷人的伴随表示",
       "url": "https://zhuanlan.zhihu.com/p/348680652",
       "summary": "正文定义李代数、李括号及其反对称性和雅可比恒等式，并解释李群切空间与结构常数。"
-    },
-    {
-      "title": "李群和李代数 —— 名字听起来很猛其实也没那么复杂",
-      "url": "https://zhuanlan.zhihu.com/p/358455662",
-      "summary": "正文定义李代数及其李括号，并通过指数映射和 BCH 公式解释其与李群的关系。"
     },
     {
       "title": "2.3 辛流形、辛势与Lie代数",
@@ -738,34 +678,14 @@
       "summary": "正文通过对易关系构造 su(2) 与 so(3) 的共同李代数，并研究其表示。"
     },
     {
-      "title": "视觉SLAM学习之李群李代数",
-      "url": "https://zhuanlan.zhihu.com/p/388778282",
-      "summary": "正文由单位元处正切空间引出李代数，并推导 SO(3) 对应的 so(3)。"
-    },
-    {
-      "title": "在位姿估计问题中应用李群/流形的发展脉络、动机与直觉(框架草稿)",
-      "url": "https://zhuanlan.zhihu.com/p/395372419",
-      "summary": "正文解释如何通过李代数的切空间进行加减和最优估计，再映射回群元素。"
-    },
-    {
       "title": "狄拉克伽马矩阵 (Dirac gamma matrices)",
       "url": "https://zhuanlan.zhihu.com/p/399908095",
       "summary": "正文计算gamma矩阵生成元，并验证它们与正交群及Lorentz代数满足相同的对易关系。"
     },
     {
-      "title": "大四(Part C)第一学期数学/物理学习计划，申请季信息汇总",
-      "url": "https://zhuanlan.zhihu.com/p/416228189",
-      "summary": "正文说明了李代数的向量空间结构及其来自李群伴随表示的构造，并联系到量子力学中的角动量表示。"
-    },
-    {
       "title": "场论家用代数（第六话）：李群、李代数、格点、表示与第一同伦群",
       "url": "https://zhuanlan.zhihu.com/p/422003721",
       "summary": "正文系统讲解单李代数的 Cartan-Weyl 基、根、权、最高权表示和 Chevalley 基。"
-    },
-    {
-      "title": "机器人中的李群和李代数（一）——基础知识",
-      "url": "https://zhuanlan.zhihu.com/p/435445206",
-      "summary": "正文定义李代数的双线性、交错性和 Jacobi 恒等式，并推导 so(3)、se(3)。"
     },
     {
       "title": "场论家用代数（第八话）：群论、非局域算符跟 θ 项有什么关系？",
@@ -811,11 +731,6 @@
       "title": "形变理论漫谈",
       "url": "https://zhuanlan.zhihu.com/p/523108260",
       "summary": "正文定义微分分次李代数及其 Maurer-Cartan 方程和规范作用，以刻画特征零域上的形变问题。"
-    },
-    {
-      "title": "FAST-LIO公式推导",
-      "url": "https://zhuanlan.zhihu.com/p/561877392",
-      "summary": "正文以 SO(3) 的指数映射、对数映射、伴随性质和 BCH 近似推导姿态误差，属于李代数应用。"
     },
     {
       "title": "索菲斯·李：视力欠佳，却看到数学和物理中最深刻的结构之一",
@@ -868,11 +783,6 @@
       "summary": "正文把李群恒等元处的切空间定义为李代数，并用李括号和 BCH 公式说明群乘法的代数化。"
     },
     {
-      "title": "SLAM中使用李群和李代数的直觉",
-      "url": "https://zhuanlan.zhihu.com/p/657261293",
-      "summary": "正文解释李代数与李群通过指数映射相连，并用于定义李群上的微小增量和导数。"
-    },
-    {
       "title": "现代数学的基石—李理论，这就是你彻底理解它的方式，茅塞顿开！",
       "url": "https://zhuanlan.zhihu.com/p/672559202",
       "summary": "正文围绕恒等元处的切空间、指数映射、李括号和 BCH 公式讲解李代数。"
@@ -898,11 +808,6 @@
       "summary": "正文说明李群在单位元处的切空间、生成元和李代数之间的对应关系。"
     },
     {
-      "title": "使用Mathematica学习量子力学(1/3): 理论推导",
-      "url": "https://zhuanlan.zhihu.com/p/689561457",
-      "summary": "正文推导并编程计算 BCH 展开，反复使用对易子和嵌套李括号来确定展开系数。"
-    },
-    {
       "title": "BCH公式初等证明",
       "url": "https://zhuanlan.zhihu.com/p/691535136",
       "summary": "正文从对易子与嵌套李括号出发证明 BCH 公式，并逐阶确定指数中的李代数额。"
@@ -926,11 +831,6 @@
       "title": "李群李代数基础速通与SU(N)代数",
       "url": "https://zhuanlan.zhihu.com/p/1907220352679010944",
       "summary": "正文由李群元在单位元附近的展开推导生成元、对易子和结构常数，从而定义李代数。"
-    },
-    {
-      "title": "IMU预积分 (解闷版)",
-      "url": "https://zhuanlan.zhihu.com/p/1911921324726649326",
-      "summary": "正文以 SO(3) 上的指数映射、旋转扰动和 BCH 公式推导预积分误差状态，实质使用了李代数表达。"
     },
     {
       "title": "山东大学 (泰山学堂,潘承洞班) 高等代数(2) 2024-2025年期末考试",

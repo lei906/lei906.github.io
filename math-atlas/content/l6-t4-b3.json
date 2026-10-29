@@ -3,34 +3,14 @@
   "branchId": "l6-t4-b3",
   "sources": [
     {
-      "title": "蒙特卡罗算法是什么？",
-      "url": "https://www.zhihu.com/answer/14499889",
-      "summary": "以随机抽样求中位数、试探迷宫等例子比较蒙特卡罗与拉斯维加斯方法，适合作随机算法直觉阅读；这些例子未给出误差界和效率分析。"
-    },
-    {
-      "title": "统计中的 Bootstrap 方法是指什么？与 Monte Carlo 方法有什么联系与区别？",
-      "url": "https://www.zhihu.com/answer/31090959",
-      "summary": "正文围绕“蒙特卡洛方法”给出说明、例证或方法。"
-    },
-    {
       "title": "目前统计学在国内外的发展现状是怎样的？都有哪些分支？今后的研究方向大致是向哪里走？",
       "url": "https://www.zhihu.com/answer/41408833",
       "summary": "正文列出计算统计中的蒙特卡洛模拟。"
     },
     {
-      "title": "不同领域的圣经级书籍有哪些？",
-      "url": "https://www.zhihu.com/answer/42094999",
-      "summary": "正文推荐蒙特卡洛方法著作。"
-    },
-    {
       "title": "计算化学领域中有哪些技术可以被称为是当前的黑科技？",
       "url": "https://www.zhihu.com/answer/48587942",
       "summary": "正文讲解变分与扩散量子蒙特卡洛模拟的思路。"
-    },
-    {
-      "title": "蒙特卡罗算法是什么？",
-      "url": "https://www.zhihu.com/answer/49246507",
-      "summary": "正文以随机撒点估计圆面积，说明蒙特卡罗算法的用途。"
     },
     {
       "title": "ray tracing ray marching 区别?",
@@ -43,24 +23,9 @@
       "summary": "正文列举细致平衡、路径采样、副本交换等蒙特卡洛算法。"
     },
     {
-      "title": "什么是汤普森采样（Thompson sampling）？",
-      "url": "https://www.zhihu.com/answer/96392474",
-      "summary": "正文明确使用 Monte Carlo 抽样估计策略最优概率，并给出大数定律近似公式。"
-    },
-    {
-      "title": "机器学习以及贝叶斯统计里，关于近似intractable integral，大家都偏爱什么算法？",
-      "url": "https://www.zhihu.com/answer/102498287",
-      "summary": "正文详细解释 MCMC、采样接受拒绝和近似贝叶斯计算。"
-    },
-    {
       "title": "如果人说他/她集齐了十二个星座的前任，我们应该如何估计他/她前任的数量？",
       "url": "https://www.zhihu.com/answer/102895497",
       "summary": "正文用 R 语言反复随机采样模拟 coupon collector 的均值与分位数。"
-    },
-    {
-      "title": "金融工程还有哪些值得研究的领域或思路？",
-      "url": "https://www.zhihu.com/answer/119789564",
-      "summary": "正文比较解析解、数值积分和蒙特卡洛计算，并说明 MC 方法的研究空间。"
     },
     {
       "title": "量子蒙卡SSE算法是什么？",
@@ -68,44 +33,14 @@
       "summary": "正文从玻尔兹曼系数展开、权重到取样更新系统讲解量子蒙特卡洛 SSE。"
     },
     {
-      "title": "为什么随机梯度下降方法能够收敛？",
-      "url": "https://www.zhihu.com/answer/122359602",
-      "summary": "正文用蒙特卡洛样本均值近似未知分布下的期望梯度。"
-    },
-    {
-      "title": "怎么通俗易懂地解释贝叶斯网络和它的应用？",
-      "url": "https://www.zhihu.com/answer/122424643",
-      "summary": "正文介绍马尔可夫链蒙特卡洛用于计算难以直接抽样的先验分布。"
-    },
-    {
-      "title": "金融衍生品定价有哪些基本方法？",
-      "url": "https://www.zhihu.com/answer/124841153",
-      "summary": "正文比较蒙特卡洛与有限差分、树模型的收敛和复杂度，说明其适合高维期权定价且易于并行。"
-    },
-    {
       "title": "如果人说他/她集齐了十二个星座的前任，我们应该如何估计他/她前任的数量？",
       "url": "https://www.zhihu.com/answer/125686675",
       "summary": "正文评价用蒙特卡洛估计覆盖时间时的精度和规模问题。"
     },
     {
-      "title": "如何评价文化部新规：「网游需公示道具抽取或合成概率」？",
-      "url": "https://www.zhihu.com/answer/135031911",
-      "summary": "正文说明复杂抽卡问题可用蒙特卡洛计算，并讨论其精度与计算资源限制。"
-    },
-    {
-      "title": "贝叶斯学派与频率学派有何不同？",
-      "url": "https://www.zhihu.com/answer/139100761",
-      "summary": "正文介绍 MCMC 作为从复杂后验分布抽样的计算方法。"
-    },
-    {
       "title": "在数学中一个非凸的最优化问题是什么意思？",
       "url": "https://www.zhihu.com/answer/140478173",
       "summary": "正文以蒙特卡罗投点法解释随机求解非凸问题。"
-    },
-    {
-      "title": "怎么在不减少变量下消除多重共线性？",
-      "url": "https://www.zhihu.com/answer/142677512",
-      "summary": "正文用一万次随机模拟比较样本量变化下检验功效。"
     },
     {
       "title": "600 个人站一排，每次随机淘汰一个奇数位的人，几号最安全？",
@@ -123,24 +58,9 @@
       "summary": "正文说明蒙特卡洛通过随机变量期望求解特殊高维 PDE 的优缺点。"
     },
     {
-      "title": "为什么要使用MCMC方法？",
-      "url": "https://www.zhihu.com/answer/179001481",
-      "summary": "正文从高维积分的维数灾难和高概率区域采样解释马尔可夫链蒙特卡洛方法的用途。"
-    },
-    {
       "title": "如何尽可能精确地称量 π 斤肉？",
       "url": "https://www.zhihu.com/answer/194028284",
       "summary": "正文用随机撒点落入内切圆的质量比例实现蒙特卡洛估计。"
-    },
-    {
-      "title": "假设赌博输赢的概率都是 50％，那么长期赌博的人为什么仍然会更容易倾家荡产而不是收益均衡？",
-      "url": "https://www.zhihu.com/answer/210926622",
-      "summary": "正文用大量随机模拟比较赌注、胜率与持续时间的结果。"
-    },
-    {
-      "title": "如何理解伊辛模型的 wolff 算法？",
-      "url": "https://www.zhihu.com/answer/216335927",
-      "summary": "正文从Metropolis、Gibbs采样到团簇更新系统解释蒙特卡洛方法。"
     },
     {
       "title": "布丰用投针实验估计了 π 值，那么用什么简单方法可以估计自然对数的底数 e 的值？",
@@ -158,24 +78,9 @@
       "summary": "正文通过蒙特卡洛抽样模拟财富交换并与理论曲线比较。"
     },
     {
-      "title": "学习计算机图形学要具备什么样的数学基础？",
-      "url": "https://www.zhihu.com/answer/270832148",
-      "summary": "正文以高维渲染积分、概率密度抽样、估计方差和重要性采样完整展开蒙特卡洛方法。"
-    },
-    {
-      "title": "Quant 通常需要什么样的教育背景和知识结构？",
-      "url": "https://www.zhihu.com/answer/282424819",
-      "summary": "正文讨论蒙特卡洛模拟的方差缩减方法。"
-    },
-    {
       "title": "曼德勃罗集的面积能算吗？Julia 集（内部）呢？",
       "url": "https://www.zhihu.com/answer/292196908",
       "summary": "正文评估蒙特卡罗求面积的精度与收敛局限。"
-    },
-    {
-      "title": "怎么用软件做广义矩估计GMM的参数估计？",
-      "url": "https://www.zhihu.com/answer/299763077",
-      "summary": "正文用蒙特卡洛模拟比较 GMM 与 GEL 的小样本性质。"
     },
     {
       "title": "蒙特卡洛模拟原理是什么？",
@@ -183,39 +88,14 @@
       "summary": "正文用撒米估算日本面积的例子解释蒙特卡洛模拟的随机采样思想。"
     },
     {
-      "title": "请解释下variational inference？",
-      "url": "https://www.zhihu.com/answer/315311293",
-      "summary": "正文比较直接 Monte Carlo 梯度估计与重参数化方法，并讨论所得梯度的方差。"
-    },
-    {
-      "title": "Metropolis 蒙特卡罗方法、动力学蒙特卡罗方法、分子动力学方法这三种模拟方法有何特点与差异？",
-      "url": "https://www.zhihu.com/answer/333052138",
-      "summary": "正文系统比较直接采样、拒绝采样、重要采样及多种蒙特卡罗方法。"
-    },
-    {
       "title": "十赌九输这句话有根据吗?",
       "url": "https://www.zhihu.com/answer/347492537",
       "summary": "正文给出代码模拟赌徒随机过程。"
     },
     {
-      "title": "如何通俗并尽可能详细地解释卡尔曼滤波？",
-      "url": "https://www.zhihu.com/answer/380968872",
-      "summary": "正文说明粒子滤波采用蒙特卡罗方式逼近状态分布。"
-    },
-    {
       "title": "如果有人想走遍中国所有的省级行政区（含港澳台），总路程最小可以是多长？",
       "url": "https://www.zhihu.com/answer/407161091",
       "summary": "正文通过在各省边界随机采样候选点来估计路线。"
-    },
-    {
-      "title": "如何理解及运用王和朗道算法（Wang and Landau algorithm）？",
-      "url": "https://www.zhihu.com/answer/457245499",
-      "summary": "正文解释 Wang-Landau 作为自适应蒙特卡洛采样方法的原理与实现。"
-    },
-    {
-      "title": "强化学习中on-policy 与off-policy有什么区别？",
-      "url": "https://www.zhihu.com/answer/465865135",
-      "summary": "正文用蒙特卡洛回合与重要性采样计算目标策略价值。"
     },
     {
       "title": "如何生成任意椭球内的均匀分布？",
@@ -233,24 +113,9 @@
       "summary": "正文说明期望的数值计算要用 Monte Carlo 估计，并联系动态规划。"
     },
     {
-      "title": "有哪些算法惊艳到了你？",
-      "url": "https://www.zhihu.com/answer/576280860",
-      "summary": "正文以光线追踪采样说明蒙特卡洛方法的工程应用。"
-    },
-    {
-      "title": "有什么理论复杂但是实现简单的算法？",
-      "url": "https://www.zhihu.com/answer/603136949",
-      "summary": "正文讲解 MCMC 抽样算法。"
-    },
-    {
       "title": "一元二次方程有实根的概率是多少？",
       "url": "https://www.zhihu.com/answer/608713742",
       "summary": "正文用蒙特卡洛模拟验证解析概率。"
-    },
-    {
-      "title": "怎样用C语言画出一个佛祖？",
-      "url": "https://www.zhihu.com/answer/614335544",
-      "summary": "正文程序通过大量随机采样绘制 Buddhabrot。"
     },
     {
       "title": "和女朋友在商场走丢了，随机乱逛和守在特定地点等候，哪个相遇的概率更高？",
@@ -258,39 +123,9 @@
       "summary": "正文用重复随机模拟检验返回概率。"
     },
     {
-      "title": "假设有个游戏，你可以无偿获得五千元，但有百万分之一的几率会当场毙命。那么你会玩多少次游戏？",
-      "url": "https://www.zhihu.com/answer/641569582",
-      "summary": "用随机抽样反复模拟死亡轮次与收益分布。"
-    },
-    {
-      "title": "一把左轮能装六颗子弹，对着脑袋打，是装五发子弹开一枪死亡几率大，还是装一发子弹开五枪死亡几率大？",
-      "url": "https://www.zhihu.com/answer/654699763",
-      "summary": "通过大量随机试验模拟不同装弹方案的死亡概率。"
-    },
-    {
       "title": "在一个 1*1 的正方形随机选两个点，如何求这两个点的期望欧几里得距离？",
       "url": "https://www.zhihu.com/answer/658077539",
       "summary": "用随机抽样模拟核验距离期望。"
-    },
-    {
-      "title": "是不是女性过了28岁还没对象就真的是大龄剩女了？就找不到更好的了?",
-      "url": "https://www.zhihu.com/answer/698100910",
-      "summary": "用随机模拟验证停止策略。"
-    },
-    {
-      "title": "如何理解Gumbel-Max trick？",
-      "url": "https://www.zhihu.com/answer/703600075",
-      "summary": "用重复随机采样比较不同噪声的经验分布。"
-    },
-    {
-      "title": "赌博不是应该有接近50%的胜率吗，为何现实却是「十赌九输」？",
-      "url": "https://www.zhihu.com/answer/704369191",
-      "summary": "通过大量程序模拟展示有限本金的存活率。"
-    },
-    {
-      "title": "如何看待 2019 年全国一卷高考数学试题？",
-      "url": "https://www.zhihu.com/answer/708235797",
-      "summary": "说明MCMC利用递推稳定性求未知概率分布。"
     },
     {
       "title": "数学里的 e 为什么叫做自然底数？是不是自然界里什么东西恰好是 e？",
@@ -298,19 +133,9 @@
       "summary": "使用随机模拟验证抽样极限结果。"
     },
     {
-      "title": "怎么判断一个优化问题是凸优化还是非凸优化？",
-      "url": "https://www.zhihu.com/answer/748981244",
-      "summary": "以随机采样寻找凸性反例。"
-    },
-    {
       "title": "有哪些有趣的概率问题？",
       "url": "https://www.zhihu.com/answer/758294473",
       "summary": "把投针试验作为蒙特卡洛估计圆周率的例子。"
-    },
-    {
-      "title": "有哪些有趣的概率问题？",
-      "url": "https://www.zhihu.com/answer/767073342",
-      "summary": "正文用蒙特卡洛模拟和大规模数值实验验证长期结果。"
     },
     {
       "title": "关于赌博都有哪些故事？",
@@ -323,11 +148,6 @@
       "summary": "正文用随机采样和命中比例估算体积。"
     },
     {
-      "title": "蒙特卡洛模拟在金融的simulation 中有哪些可以深入的研究。比如预测期权价值？具体如何呢？",
-      "url": "https://www.zhihu.com/answer/1362043845",
-      "summary": "正文详细解释最小二乘蒙特卡罗如何用于美式期权定价。"
-    },
-    {
       "title": "一个数从1开始，每次各有50%的概率乘0.9或者乘1.1，重复足够多的次数以后，情况会如何？",
       "url": "https://www.zhihu.com/answer/1499896600",
       "summary": "正文讨论用重复随机模拟估计结果的蒙特卡洛方法。"
@@ -338,84 +158,14 @@
       "summary": "正文用蒙特卡洛模拟验证外接圆落在单位圆内的概率。"
     },
     {
-      "title": "「社交网络分析」SNA是门怎样的学科？",
-      "url": "https://www.zhihu.com/answer/1517662058",
-      "summary": "正文说明高维排序难以枚举而使用MCMC估计。"
-    },
-    {
-      "title": "经济学专业博士如何学好高级计量？",
-      "url": "https://www.zhihu.com/answer/1521286265",
-      "summary": "正文推荐并概括蒙特卡洛方法教材。"
-    },
-    {
       "title": "如果X服从正态分布N(μ,σ²)，|X|的数学期望怎么求？",
       "url": "https://www.zhihu.com/answer/1570624091",
       "summary": "正文用一亿个正态随机样本的算术平均验证解析期望值。"
     },
     {
-      "title": "怎样从实际场景上理解粒子滤波（Particle Filter）？",
-      "url": "https://www.zhihu.com/answer/1723585887",
-      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
-    },
-    {
-      "title": "什么是随机过程？",
-      "url": "https://www.zhihu.com/answer/1790316277",
-      "summary": "正文用蒙特卡洛模拟随机过程的演化。"
-    },
-    {
-      "title": "蒙特卡洛方法中，有哪些算法或者技巧让你耳目一新，提高智商？",
-      "url": "https://www.zhihu.com/answer/1803920100",
-      "summary": "正文直接支持该冻结叶节点。"
-    },
-    {
-      "title": "如何理解蒙特卡洛方法的接受拒绝采样？",
-      "url": "https://www.zhihu.com/answer/1803921453",
-      "summary": "正文直接支持该冻结叶节点。"
-    },
-    {
-      "title": "Markov Chain和Gibbs分布到底是什么关系？",
-      "url": "https://www.zhihu.com/answer/1804179186",
-      "summary": "正文直接支持该冻结叶节点。"
-    },
-    {
-      "title": "如何理解MCMC中的细致平稳条件？",
-      "url": "https://www.zhihu.com/answer/1804780073",
-      "summary": "正文直接支持该冻结叶节点。"
-    },
-    {
-      "title": "蒙特卡罗算法是什么？",
-      "url": "https://www.zhihu.com/answer/1806687359",
-      "summary": "正文直接支持该冻结叶节点。"
-    },
-    {
-      "title": "如何通俗地理解「蒙特卡洛方法」，它解决问题的基本思路是什么，目前主要应用于哪些领域？",
-      "url": "https://www.zhihu.com/answer/1814845300",
-      "summary": "正文直接支持该冻结叶节点。"
-    },
-    {
-      "title": "怎么通俗理解蒙特卡洛模拟？",
-      "url": "https://www.zhihu.com/answer/1814847396",
-      "summary": "正文直接支持该冻结叶节点。"
-    },
-    {
       "title": "2021年5月14日，著名数学家王元院士去世，他对中国数学界有哪些贡献？",
       "url": "https://www.zhihu.com/answer/1887393940",
       "summary": "正文比较数论确定点列与 Monte Carlo 概率模拟方法。"
-    },
-    {
-      "title": "蒙特卡洛模拟在实际工作中到底是做什么的？",
-      "url": "https://www.zhihu.com/answer/1948917905",
-      "summary": "正文系统地以随机采样和重复模拟介绍蒙特卡洛方法。"
-    },
-    {
-      "title": "如何简单理解马尔科夫链蒙特卡洛方法？",
-      "url": "https://www.zhihu.com/answer/2005471440",
-      "summary": "正文系统讲解 MCMC 的采样目标与流程。"
-    },
-    {
-      "title": "如何完全掌握概率论与数理统计？",
-      "url": "https://www.zhihu.com/answer/2005475578",
-      "summary": "正文把 Monte Carlo 采样列为概率统计核心知识。"
     },
     {
       "title": "五个囚犯先后从100颗绿豆中抓绿豆。抓得最多和最少的人将被处死，不能交流，可以摸出剩下绿豆的数量，谁的存活几率最大？",
@@ -436,21 +186,6 @@
       "title": "如何简要介绍 sign problem in quantum Monte Carlo method？",
       "url": "https://www.zhihu.com/answer/2065738434",
       "summary": "正文介绍量子蒙特卡洛中的符号问题。"
-    },
-    {
-      "title": "数学建模队友和我都不会建模怎么办？",
-      "url": "https://www.zhihu.com/answer/2073358727",
-      "summary": "正文明确将蒙特卡洛列为数学建模方法。"
-    },
-    {
-      "title": "如何学好高级微观经济学，高级宏观经济学，高级计量经济学？",
-      "url": "https://www.zhihu.com/answer/2231054602",
-      "summary": "正文推荐蒙特卡洛方法教材并将其作为应用统计工具。"
-    },
-    {
-      "title": "贝叶斯推断中为什么不能直接从posterior sampling而是要采用MCMC方法?",
-      "url": "https://www.zhihu.com/answer/2255085106",
-      "summary": "正文详细讲解 MCMC、Metropolis-Hastings 与 Gibbs 采样。"
     },
     {
       "title": "数学这门学科有多有趣？",
@@ -483,26 +218,6 @@
       "summary": "正文用重复抽样路径进行蒙特卡洛模拟。"
     },
     {
-      "title": "贝叶斯推断中为什么不能直接从posterior sampling而是要采用MCMC方法?",
-      "url": "https://www.zhihu.com/answer/2333201187",
-      "summary": "正文说明 MCMC 作为近似后验采样方法。"
-    },
-    {
-      "title": "贝叶斯推断中为什么不能直接从posterior sampling而是要采用MCMC方法?",
-      "url": "https://www.zhihu.com/answer/2333956683",
-      "summary": "正文比较MCMC与传统采样方法在高维问题中的表现。"
-    },
-    {
-      "title": "美术工作者如何点亮TA的技术（Technical ）技能树？",
-      "url": "https://www.zhihu.com/answer/2356306675",
-      "summary": "正文用随机采样和射线求交估计遮挡概率，属于蒙特卡洛式估计。"
-    },
-    {
-      "title": "600 个人站一排，每次随机淘汰一个奇数位的人，几号最安全？",
-      "url": "https://www.zhihu.com/answer/2363454687",
-      "summary": "正文通过大量随机模拟估计最终存活编号。"
-    },
-    {
       "title": "如何在半径为 1 的单位球体表面，进行随机均匀采样？",
       "url": "https://www.zhihu.com/answer/2396770140",
       "summary": "正文给出通过随机采样生成球面均匀样本的算法实现。"
@@ -511,36 +226,6 @@
       "title": "如何理解 Hubbard 模型？",
       "url": "https://www.zhihu.com/answer/2470635025",
       "summary": "正文列举量子蒙特卡洛等 Hubbard 模型的数值方法。"
-    },
-    {
-      "title": "蒙特卡罗求var，求求了，纯小白    ?",
-      "url": "https://www.zhihu.com/answer/2516190496",
-      "summary": "用蒙特卡洛模拟股票价格与期权损益，估计 VaR，并给出与解析分位数结果的对照。"
-    },
-    {
-      "title": "日后想学金融工程，数值分析和随机过程更推荐上哪一门课呢？",
-      "url": "https://www.zhihu.com/answer/2658739468",
-      "summary": "说明金融工程落地时会大量使用数值方法与蒙特卡罗模拟。"
-    },
-    {
-      "title": "计算机图形学中物理模拟和渲染是距离较远的方向还是互相交织？",
-      "url": "https://www.zhihu.com/answer/2661288688",
-      "summary": "推导蒙特卡洛积分的估计式，并说明其与均匀采样、欧拉积分的关系。"
-    },
-    {
-      "title": "对于金融工程和金融数学，数值计算更有用，还是泛函分析更有用？",
-      "url": "https://www.zhihu.com/answer/2661365044",
-      "summary": "具体介绍最小二乘蒙特卡罗求解美式期权及其基函数选择。"
-    },
-    {
-      "title": "数学建模中最重要的算法有哪些？",
-      "url": "https://www.zhihu.com/answer/2670009439",
-      "summary": "正文把蒙特卡洛方法解释为用大量随机样本或随机过程近似实际问题。"
-    },
-    {
-      "title": "强化学习中action value减去state value之后怎么就减小了方差，方差不是不变吗？",
-      "url": "https://www.zhihu.com/answer/2695297743",
-      "summary": "正文用蒙特卡洛采样构造期望的无偏估计，并分析不同 baseline 下的采样方差。"
     },
     {
       "title": "600 个人站一排，每次随机淘汰一个奇数位的人，几号最安全？",
@@ -563,54 +248,14 @@
       "summary": "正文通过球面均匀随机采样陆地并计算样本质心来近似全球陆地中心。"
     },
     {
-      "title": "有哪些算法惊艳到了你？",
-      "url": "https://www.zhihu.com/answer/3014154438",
-      "summary": "正文系统介绍拟蒙特卡洛方法的低差异点集、随机化版本、数字网与 Sobol 序列及其误差性质。"
-    },
-    {
-      "title": "VAE、GAN 这种生成模型和 transformer 有什么区别？",
-      "url": "https://www.zhihu.com/answer/3144394562",
-      "summary": "正文具体说明从隐变量分布采样 K 次、经生成网络映射并对样本取均值以近似目标分布的蒙特卡洛流程。"
-    },
-    {
-      "title": "如何简单理解马尔科夫链蒙特卡洛方法？",
-      "url": "https://www.zhihu.com/answer/3298906415",
-      "summary": "正文说明了MCMC如何借助马尔科夫链改进抽样，并展开其典型算法与应用。"
-    },
-    {
-      "title": "什么是diffusion model? 它为什么好用？",
-      "url": "https://www.zhihu.com/answer/3310826408",
-      "summary": "正文给出朗之万迭代公式，说明其作为马尔可夫链蒙特卡罗方法从目标分布采样并收敛。"
-    },
-    {
-      "title": "统计学中有哪些经典的理念、方法和思维方式？",
-      "url": "https://www.zhihu.com/answer/3380101477",
-      "summary": "正文介绍 Metropolis、Gibbs 和 Hamiltonian 蒙特卡洛等高维概率分布的统计计算方法及其来源。"
-    },
-    {
       "title": "边长为1的正方形电梯里站着n个人，他们两两之间最短距离的最大值是多少？",
       "url": "https://www.zhihu.com/answer/3388471687",
       "summary": "正文采用 Metropolis 抽样反复生成电梯内人员位置，并以 Lennard-Jones 势能筛选低能构型，实际演示了蒙特卡洛方法。"
     },
     {
-      "title": "2024年大模型LLM还有哪些可研究的方向？",
-      "url": "https://www.zhihu.com/answer/3454166158",
-      "summary": "正文说明通过随机排列采样和蒙特卡罗估计近似检验比例，并讨论有限样本校正及其精度限制。"
-    },
-    {
-      "title": "模型预测控制（MPC）和基于模型的强化学习（Model-based RL）之间的联系是什么？",
-      "url": "https://www.zhihu.com/answer/3504819938",
-      "summary": "正文具体讨论重要性采样与低差异采样序列，并说明它们在 MPPI 轨迹求解中的作用。"
-    },
-    {
       "title": "像163/326=1/2这样的等式还有哪些？",
       "url": "https://www.zhihu.com/answer/3512340422",
       "summary": "正文用布丰投针的随机试验和相交频率估计圆周率，对应蒙特卡洛式随机抽样计算。"
-    },
-    {
-      "title": "有哪些算法惊艳到了你？",
-      "url": "https://www.zhihu.com/answer/3528590082",
-      "summary": "正文用接受拒绝式随机采样在多边形内生成均匀分布的点，属于蒙特卡洛式抽样方法的应用。"
     },
     {
       "title": "数学天才比常人强在哪里？",
@@ -633,19 +278,9 @@
       "summary": "正文以 Metropolis-Hastings 算法为例说明 MCMC 的收敛速度分析及其数学工具。"
     },
     {
-      "title": "MATLAB在逐渐被Python淘汰吗？",
-      "url": "https://www.zhihu.com/answer/40529040446",
-      "summary": "正文用蒙特卡洛频率近似概率和平均值法求根、模拟热平衡并估计积分。"
-    },
-    {
       "title": "圆桌上 100 个人轮流开枪，最可能活下来的是几号？",
       "url": "https://www.zhihu.com/answer/67543485781",
       "summary": "正文用10万次重复随机试验统计各编号的存活频率，属于蒙特卡洛模拟。"
-    },
-    {
-      "title": "圆桌上 100 个人轮流开枪，最可能活下来的是几号？",
-      "url": "https://www.zhihu.com/answer/67653583820",
-      "summary": "正文用1000万次重复模拟估计最终幸存者的概率排名。"
     },
     {
       "title": "有哪些看似简单但极其实用的估计方法？它们如何悄悄解决现实难题？",
@@ -653,24 +288,9 @@
       "summary": "正文系统介绍蒙特卡洛方法以随机抽样和统计规律估计复杂问题答案的基本流程与例子。"
     },
     {
-      "title": "强化学习中，off policy和on policy方法有优劣之分吗？",
-      "url": "https://www.zhihu.com/answer/1893675483549397467",
-      "summary": "正文具体说明蒙特卡洛通过一次完整采样并对各时刻奖励加权求和来估计回报。"
-    },
-    {
       "title": "数学中有哪些问题放到更大的空间/对象里解决起来变简单的例子？",
       "url": "https://www.zhihu.com/answer/1900934628648416013",
       "summary": "正文完整给出用均匀随机数和 Box-Muller 变换生成二维正态样本的过程，属于蒙特卡洛模拟的随机采样方法。"
-    },
-    {
-      "title": "贝叶斯学派比起频率学派的优点是什么？",
-      "url": "https://www.zhihu.com/answer/1912316080778638104",
-      "summary": "正文把蒙特卡洛、MCMC 和变分推断作为复杂后验积分与采样的实现方式，并用具体后验模型说明其用途。"
-    },
-    {
-      "title": "量化岗位面试常考的「蒙特卡洛模拟」到底有什么用？",
-      "url": "https://www.zhihu.com/answer/1917478804269544842",
-      "summary": "正文具体说明蒙特卡洛方法用于高维积分与金融风险估计，并讲解伪随机抽样及重要性采样等技巧。"
     },
     {
       "title": "大家认为纯数学里最美丽漂亮的领域是哪个(如果只能选一个的话)？",
@@ -713,219 +333,9 @@
       "summary": "正文具体讲解蒙特卡洛生成 VaR 随机场景的标准模型、协方差分解优化和稳定性改进。"
     },
     {
-      "title": "低差异序列（一）- 常见序列的定义及性质",
-      "url": "https://zhuanlan.zhihu.com/p/20197323",
-      "summary": "正文从蒙特卡洛积分的采样需求出发，说明低差异序列如何改善高维空间样本分布和积分收敛。"
-    },
-    {
-      "title": "求敏感度（Greeks或Sensitivities）的常用算法",
-      "url": "https://zhuanlan.zhihu.com/p/21335779",
-      "summary": "正文以蒙特卡洛模拟计算价格和敏感度为例，比较多种敏感度估计方法的计算代价。"
-    },
-    {
-      "title": "期权定价的常用数值方法",
-      "url": "https://zhuanlan.zhihu.com/p/21903917",
-      "summary": "正文以大量路径模拟的平均数估计期权期望，并讨论最小二乘蒙特卡洛和方差缩减。"
-    },
-    {
-      "title": "贝叶斯理论在医学数据分析中的应用",
-      "url": "https://zhuanlan.zhihu.com/p/22470375",
-      "summary": "正文介绍用稳态马尔科夫链实施MCMC计算先验分布，并以采样实现贝叶斯网络参数推断。"
-    },
-    {
-      "title": "期权定价笔记",
-      "url": "https://zhuanlan.zhihu.com/p/22754445",
-      "summary": "正文比较蒙特卡洛模拟在高低维期权定价中的复杂度，并说明其并行化优势。"
-    },
-    {
-      "title": "受限玻尔兹曼机（RBM）学习笔记",
-      "url": "https://zhuanlan.zhihu.com/p/22794772",
-      "summary": "正文把积分写成概率期望并用随机样本均值近似，进一步介绍 MCMC 与 Metropolis-Hastings 采样。"
-    },
-    {
-      "title": "【机器学习】Bootstrap详解",
-      "url": "https://zhuanlan.zhihu.com/p/24851814",
-      "summary": "正文把 Bootstrap 定义为非参数 Monte Carlo 方法，并完整讲解有放回重抽样、重复计算统计量及汇总分布的流程。"
-    },
-    {
-      "title": "我为什么买彩票——战胜大乐透 中级篇",
-      "url": "https://zhuanlan.zhihu.com/p/24894380",
-      "summary": "正文通过大量生成随机抽奖数据并重复一千次来近似 SD 分布，采用蒙特卡洛模拟。"
-    },
-    {
-      "title": "28 天自制你的 AlphaGo (6) : 蒙特卡洛树搜索（MCTS）基础",
-      "url": "https://zhuanlan.zhihu.com/p/25345778",
-      "summary": "正文区分蒙特卡洛方法与蒙特卡洛树搜索，并完整说明选择、扩展、模拟和回溯流程。"
-    },
-    {
-      "title": "[数据分析] Markov Chain Monte Carlo",
-      "url": "https://zhuanlan.zhihu.com/p/25610149",
-      "summary": "正文系统讲解 MCMC 的抽样动机、Monte Carlo 近似、接受拒绝与重要性抽样，以及 MH 等采样算法。"
-    },
-    {
-      "title": "强化学习入门 第四讲 时间差分法（TD方法）",
-      "url": "https://zhuanlan.zhihu.com/p/25913410",
-      "summary": "正文以试验采样和回报经验平均讲解蒙特卡罗值函数估计，并与时间差分的一步估计对照。"
-    },
-    {
-      "title": "【优化算法】03. 整数规划",
-      "url": "https://zhuanlan.zhihu.com/p/27976866",
-      "summary": "正文说明可用蒙特卡罗随机取样求解非线性整数规划，并给出随机抽样算法和数值示例。"
-    },
-    {
-      "title": "MATLAB 笔记：蒙特卡洛方法",
-      "url": "https://zhuanlan.zhihu.com/p/28133690",
-      "summary": "正文定义蒙特卡洛方法，并用重复随机抽样估计概率和积分，属于蒙特卡洛方法。"
-    },
-    {
-      "title": "[连玉君专栏]如何检验分组回归后的组间系数差异？",
-      "url": "https://zhuanlan.zhihu.com/p/28502370",
-      "summary": "正文用蒙特卡洛模拟和重复抽样构造经验分布及经验p值。"
-    },
-    {
-      "title": "深度学习的三大生成模型：VAE、GAN、GAN",
-      "url": "https://zhuanlan.zhihu.com/p/29685634",
-      "summary": "正文在 InfoGAN 中把互信息目标中的期望改为蒙特卡罗样本平均，并说明训练实现。"
-    },
-    {
-      "title": "隐含狄利克雷分布（LDA）",
-      "url": "https://zhuanlan.zhihu.com/p/29932017",
-      "summary": "正文系统推导 LDA 的 Gibbs 条件概率、采样训练与预测流程。"
-    },
-    {
-      "title": "MCMC随机采样",
-      "url": "https://zhuanlan.zhihu.com/p/30003899",
-      "summary": "正文用随机样本的均值近似积分，并介绍接受-拒绝、M-H 和 Gibbs 采样。"
-    },
-    {
-      "title": "如何用Excel模拟股票未来价格的走势",
-      "url": "https://zhuanlan.zhihu.com/p/30880033",
-      "summary": "正文以股票收益随机抽样生成大量价格路径，取平均并讨论路径收敛，具体演示了蒙特卡洛模拟流程。"
-    },
-    {
-      "title": "浅谈「Gibbs采样」",
-      "url": "https://zhuanlan.zhihu.com/p/25072161",
-      "summary": "正文讲解 Gibbs 采样的迭代条件抽样流程，并以多元正态分布示例展示收敛过程。"
-    },
-    {
-      "title": "一文详解LDA主题模型",
-      "url": "https://zhuanlan.zhihu.com/p/31470216",
-      "summary": "正文以大量样本均值近似期望，并具体介绍用MCMC和Gibbs采样进行近似推断的采样思路。"
-    },
-    {
-      "title": "读懂概率图模型：从基本概念和参数估计开始",
-      "url": "https://zhuanlan.zhihu.com/p/31527050",
-      "summary": "正文介绍基于采样估计概率的蒙特卡洛近似推断，并说明MCMC通过生成相关样本来近似复杂分布。"
-    },
-    {
-      "title": "一份数学小白也能读懂的「马尔可夫链蒙特卡洛方法」入门指南",
-      "url": "https://zhuanlan.zhihu.com/p/32319959",
-      "summary": "正文用随机点估计圆和复杂图形面积，说明蒙特卡洛通过随机采样近似难以直接计算的目标。"
-    },
-    {
-      "title": "不用数学也能讲清贝叶斯理论的马尔可夫链蒙特卡洛方法？这篇文章做到了",
-      "url": "https://zhuanlan.zhihu.com/p/32331902",
-      "summary": "正文通过随机撒点估计圆形面积，具体讲解蒙特卡洛近似的采样步骤和用途。"
-    },
-    {
-      "title": "告别数学公式，图文解读什么是马尔可夫链蒙特卡罗方法（MCMC）",
-      "url": "https://zhuanlan.zhihu.com/p/32982140",
-      "summary": "正文用正方形内随机投点估计圆和不规则图形面积，具体说明蒙特卡洛采样估计。"
-    },
-    {
       "title": "Itô扩散过程与PDE解的概率表示",
       "url": "https://zhuanlan.zhihu.com/p/33082763",
       "summary": "正文说明利用布朗运动样本和对边界命中情况取平均来数值估计 PDE 解。"
-    },
-    {
-      "title": "蒙特卡洛模拟(Monte Carlo Simulation)浅析",
-      "url": "https://zhuanlan.zhihu.com/p/34217180",
-      "summary": "正文介绍蒙特卡洛模拟的来历和实现步骤，并通过大量随机抽样估算项目总工期的分布。"
-    },
-    {
-      "title": "再谈变分自编码器VAE：从贝叶斯观点出发",
-      "url": "https://zhuanlan.zhihu.com/p/35210280",
-      "summary": "正文用从概率分布采样后对样本取平均来解释蒙特卡洛计算，并通过重参数技巧把采样用于VAE训练。"
-    },
-    {
-      "title": "概率编程工具：TensorFlow Probability官方简介",
-      "url": "https://zhuanlan.zhihu.com/p/36032114",
-      "summary": "正文将 MCMC 作为通过采样近似积分的推断算法，并列出 Hamilton Monte Carlo 与 Metropolis-Hastings。"
-    },
-    {
-      "title": "基于物理的环境光渲染一",
-      "url": "https://zhuanlan.zhihu.com/p/34741174",
-      "summary": "正文推导蒙特卡罗估计量的期望与方差，并把它用于渲染方程、重要度采样和低差异序列。"
-    },
-    {
-      "title": "贝叶斯线性回归方法的解释和优点",
-      "url": "https://zhuanlan.zhihu.com/p/36107616",
-      "summary": "正文说明贝叶斯回归通过马尔可夫链蒙特卡洛抽样近似参数的后验分布。"
-    },
-    {
-      "title": "LDA(Latent Dirichlet Allocation)主题模型",
-      "url": "https://zhuanlan.zhihu.com/p/36394491",
-      "summary": "正文介绍 Gibbs 采样的条件分布迭代，并推导 LDA 的 collapsed Gibbs 采样更新概率。"
-    },
-    {
-      "title": "马尔可夫链蒙特卡罗算法（MCMC）",
-      "url": "https://zhuanlan.zhihu.com/p/37121528",
-      "summary": "正文以随机撒点估计不规则区域面积为例，系统介绍蒙特卡洛积分及用样本均值近似积分的方法。"
-    },
-    {
-      "title": "【学界|编码】整数规划求解方法大全（附Lingo代码）",
-      "url": "https://zhuanlan.zhihu.com/p/38042197",
-      "summary": "正文把蒙特卡罗随机取样用于非线性整数规划，并解释其以抽样规模替代显式枚举。"
-    },
-    {
-      "title": "简明例析蒙特卡洛（Monte Carlo）抽样方法",
-      "url": "https://zhuanlan.zhihu.com/p/39628670",
-      "summary": "正文系统比较朴素抽样、取舍算法、重要性采样和 Metropolis 算法，讲解蒙特卡洛抽样的实现原理。"
-    },
-    {
-      "title": "重要性采样（Importance Sampling）",
-      "url": "https://zhuanlan.zhihu.com/p/41217212",
-      "summary": "正文以蒙特卡洛积分估计为背景，说明如何通过改变采样分布和加权降低估计方差。"
-    },
-    {
-      "title": "概率机器人——扩展卡尔曼滤波、无迹卡尔曼滤波",
-      "url": "https://zhuanlan.zhihu.com/p/41767489",
-      "summary": "正文以大量随机采样和非线性变换后的加权统计说明蒙特卡洛估计，并将其与无迹变换对比。"
-    },
-    {
-      "title": "助力国赛 | 第3弹 规划问题（MATLAB版）",
-      "url": "https://zhuanlan.zhihu.com/p/42087412",
-      "summary": "正文用大量随机取样枚举可行整数解，以概率意义下的有限计算量求满意最优解，体现蒙特卡洛式近似求解。"
-    },
-    {
-      "title": "强化学习1：彻底分清On-Policy&Off-Policy",
-      "url": "https://zhuanlan.zhihu.com/p/42919516",
-      "summary": "正文用多个采样回合估计状态价值，并通过重要度采样比值加权 Monte Carlo 回报。"
-    },
-    {
-      "title": "数学建模十大算法之——蒙特卡罗",
-      "url": "https://zhuanlan.zhihu.com/p/43191272",
-      "summary": "正文讲解蒙特卡罗方法原理、步骤并以生产库存问题演示随机模拟。"
-    },
-    {
-      "title": "当蒙特卡罗方法遇见伊辛模型（下）",
-      "url": "https://zhuanlan.zhihu.com/p/42836754",
-      "summary": "正文讲解用Metropolis接受准则进行单自旋更新的蒙特卡罗模拟流程、能量计算和初始状态选择。"
-    },
-    {
-      "title": "当蒙特卡洛方法遇见伊辛模型（续）",
-      "url": "https://zhuanlan.zhihu.com/p/43757926",
-      "summary": "正文介绍Wolff集群翻转更新，并通过接受概率降低伊辛模型蒙特卡罗模拟的相关时间。"
-    },
-    {
-      "title": "Monty Hall Problem（三门问题）",
-      "url": "https://zhuanlan.zhihu.com/p/48254298",
-      "summary": "正文给出Python随机模拟代码，并以大量重复实验比较换门和坚持策略的胜率。"
-    },
-    {
-      "title": "球谐光照与PRT学习笔记（二）：蒙特卡洛积分与球面上的均匀采样",
-      "url": "https://zhuanlan.zhihu.com/p/49746076",
-      "summary": "正文利用概率密度把积分改写成期望，并用有限样本平均构造蒙特卡洛积分估计。"
     },
     {
       "title": "关于“用 C 语言画光（一）：基础” 难点解析",
@@ -933,134 +343,9 @@
       "summary": "正文用随机发射光线命中光源的比例估计弧长和亮度，并讨论分层随机以减少噪点。"
     },
     {
-      "title": "球谐光照与PRT学习笔记（三）：球谐函数",
-      "url": "https://zhuanlan.zhihu.com/p/50208005",
-      "summary": "正文给出球面均匀采样下的蒙特卡洛积分估计式，并用采样累加计算球谐系数。"
-    },
-    {
-      "title": "漫谈split sum approximate",
-      "url": "https://zhuanlan.zhihu.com/p/56063836",
-      "summary": "正文以蒙特卡洛求和近似渲染积分，并讨论采样概率密度对收敛和结果的影响。"
-    },
-    {
-      "title": "动力学蒙特卡洛算法",
-      "url": "https://zhuanlan.zhihu.com/p/56917127",
-      "summary": "正文以KMC/Gillespie算法为主线，讲解从状态转移速率构造抽样步骤并以模拟样本刻画状态演化，属于蒙特卡洛方法。"
-    },
-    {
-      "title": "离线渲染 | 金属工作流",
-      "url": "https://zhuanlan.zhihu.com/p/57032810",
-      "summary": "正文围绕路径追踪的渲染积分展开，说明采用蒙特卡洛方法并利用函数 D 做重要性采样来降低方差。"
-    },
-    {
-      "title": "【实验笔记】深度学习中的两种不确定性（上）",
-      "url": "https://zhuanlan.zhihu.com/p/56986840",
-      "summary": "正文具体讲解用有限次采样近似后验分布，并将 MC Dropout 作为蒙特卡洛估计的工程实现。"
-    },
-    {
-      "title": "卡尔曼滤波（3）-- EKF, UKF",
-      "url": "https://zhuanlan.zhihu.com/p/59681380",
-      "summary": "正文用 500 个随机采样点近似计算非线性变换后的期望和方差，并讨论采样数随维数激增，属于蒙特卡洛式估计。"
-    },
-    {
-      "title": "还在纠结三门问题？不如用代码暴力验证（附Python代码）",
-      "url": "https://zhuanlan.zhihu.com/p/59773104",
-      "summary": "正文通过重复随机分配汽车与选手选择并统计获胜次数，用模拟频率比较策略，属于蒙特卡洛方法。"
-    },
-    {
-      "title": "碎片化学习之数学（二）：Categorical Distribution",
-      "url": "https://zhuanlan.zhihu.com/p/59550457",
-      "summary": "正文讲解逆变换采样与 Gumbel-Max 采样实现类别分布抽样的方法。"
-    },
-    {
-      "title": "Monte Carlo数学原理",
-      "url": "https://zhuanlan.zhihu.com/p/61611088",
-      "summary": "正文系统讲解以随机采样和样本均值近似积分的蒙特卡洛方法，并分析其无偏性与收敛速度。"
-    },
-    {
-      "title": "采样方法(Sampling Method)",
-      "url": "https://zhuanlan.zhihu.com/p/62730810",
-      "summary": "正文以蒙特卡洛方法统一讲解采样求期望，并展开拒绝采样、重要性采样、Metropolis-Hastings、Gibbs 和切片采样等具体算法。"
-    },
-    {
-      "title": "Variational AutoEncoder系列",
-      "url": "https://zhuanlan.zhihu.com/p/57574493",
-      "summary": "正文给出随机变量期望梯度的蒙特卡洛估计，并以此解释重参数化技巧。"
-    },
-    {
-      "title": "接受拒绝采样（Acceptance-Rejection Sampling）",
-      "url": "https://zhuanlan.zhihu.com/p/75264565",
-      "summary": "正文把接受拒绝采样得到的样本用于蒙特卡罗求和，并讨论其使用边界。"
-    },
-    {
       "title": "All Attention You Need",
       "url": "https://zhuanlan.zhihu.com/p/75278418",
       "summary": "正文说明硬注意力不可微时用蒙特卡洛采样估计梯度，并进一步讨论方差控制。"
-    },
-    {
-      "title": "一文读懂贝叶斯推理问题：MCMC方法和变分推断",
-      "url": "https://zhuanlan.zhihu.com/p/75617364",
-      "summary": "正文详细比较MCMC采样与变分近似，并展开Metropolis-Hastings及Gibbs采样。"
-    },
-    {
-      "title": "Bayesian Neural Networks：贝叶斯神经网络",
-      "url": "https://zhuanlan.zhihu.com/p/81170602",
-      "summary": "正文用蒙特卡罗采样近似变分目标中的难解期望，并通过重参数化获得可导估计。"
-    },
-    {
-      "title": "蒙特卡洛梯度估计方法（MCGE）简述",
-      "url": "https://zhuanlan.zhihu.com/p/81806149",
-      "summary": "正文定义蒙特卡洛估计器，并讨论其一致性、无偏性和方差，用于近似积分及期望梯度。"
-    },
-    {
-      "title": "Score Function Trick及其在机器学习中的应用",
-      "url": "https://zhuanlan.zhihu.com/p/82750018",
-      "summary": "正文用蒙特卡洛采样估计梯度和期望，并控制估计方差，对应蒙特卡洛方法。"
-    },
-    {
-      "title": "IBL推导及实现",
-      "url": "https://zhuanlan.zhihu.com/p/95865910",
-      "summary": "正文用蒙特卡洛估计和重要性采样近似反射积分，并预计算环境贴图与BRDF查找表。"
-    },
-    {
-      "title": "GGX重要性采样",
-      "url": "https://zhuanlan.zhihu.com/p/104422026",
-      "summary": "正文推导基于概率密度的重要性采样公式，并比较不同采样方案的方差和有效样本。"
-    },
-    {
-      "title": "如何快速理解马尔科夫链蒙特卡洛法？",
-      "url": "https://zhuanlan.zhihu.com/p/108621943",
-      "summary": "正文讲解蒙特卡洛采样、接受拒绝法和 Metropolis-Hastings 算法，并用样本近似积分与统计量。"
-    },
-    {
-      "title": "随机采样方法整理与讲解（MCMC、Gibbs Sampling等）",
-      "url": "https://zhuanlan.zhihu.com/p/109978580",
-      "summary": "正文系统介绍蒙特卡洛积分、接受拒绝抽样、重要性抽样及基于采样的数值近似。"
-    },
-    {
-      "title": "什么是马尔可夫链蒙特卡洛（MCMC）？",
-      "url": "https://zhuanlan.zhihu.com/p/116725922",
-      "summary": "正文用随机投点估计圆周率并给出代码，说明蒙特卡洛模拟的频率近似原理。"
-    },
-    {
-      "title": "Code and Finance 2 蒙特卡洛模拟期权定价",
-      "url": "https://zhuanlan.zhihu.com/p/134759744",
-      "summary": "正文不仅给出蒙特卡洛模拟的随机采样定义，还将其用于估计圆周率和期权价格。"
-    },
-    {
-      "title": "Python中的模型敏感度分析(使用Salib)",
-      "url": "https://zhuanlan.zhihu.com/p/137953265",
-      "summary": "正文介绍基于方差分解的全局敏感度分析，并通过Saltelli采样和Sobol指数对模型进行抽样计算。"
-    },
-    {
-      "title": "理解 Kullback–Leibler 散度的近似",
-      "url": "https://zhuanlan.zhihu.com/p/139084847",
-      "summary": "正文用从 q 中采样的 Monte-Carlo 估计近似 KL 散度，并比较三种估计量的偏差和标准差。"
-    },
-    {
-      "title": "贝叶斯深度学习（梳理）",
-      "url": "https://zhuanlan.zhihu.com/p/140388925",
-      "summary": "正文讲解蒙特卡洛采样、马尔可夫链依赖和 Gibbs sampling 的后验采样过程。"
     },
     {
       "title": "一个有意思的概率问题，“集卡问题”",
@@ -1068,164 +353,9 @@
       "summary": "正文用蒙特卡洛模拟重复随机集卡实验，并以模拟均值验证递推所得的理论期望。"
     },
     {
-      "title": "马尔科夫蒙特卡洛方法",
-      "url": "https://zhuanlan.zhihu.com/p/143016455",
-      "summary": "正文从蒙特卡洛积分和接受拒绝采样讲到 MCMC，介绍 Metropolis-Hastings、吉布斯采样及混合时间，系统展开蒙特卡洛采样方法。"
-    },
-    {
-      "title": "蒙特卡洛积分",
-      "url": "https://zhuanlan.zhihu.com/p/146144853",
-      "summary": "正文系统讲解蒙特卡洛随机采样思想、估计步骤、误差收敛以及重要性采样和拟蒙特卡洛等改进方法。"
-    },
-    {
-      "title": "计算机图形学十五：全局光照(蒙特卡洛路径追踪)",
-      "url": "https://zhuanlan.zhihu.com/p/146714484",
-      "summary": "正文推导无偏估计，并用路径采样、俄罗斯轮盘赌和光源采样实现蒙特卡洛路径追踪。"
-    },
-    {
-      "title": "从马尔可夫链到蒙特卡洛-Metropolis方法（Python）",
-      "url": "https://zhuanlan.zhihu.com/p/146020807",
-      "summary": "正文说明蒙特卡洛法如何构造随机变量并以大量模拟样本的平均值近似所求量。"
-    },
-    {
-      "title": "PR Sampling Ⅰ: 蒙特卡洛采样、重要性采样及python实现",
-      "url": "https://zhuanlan.zhihu.com/p/150693309",
-      "summary": "正文以随机采样近似积分和求和，并给出蒙特卡洛估计及 Python 实现。"
-    },
-    {
-      "title": "贝叶斯方法理解（3）— MCMC",
-      "url": "https://zhuanlan.zhihu.com/p/161592962",
-      "summary": "正文解释如何用大量随机采样形成的平均值近似计算复杂积分。"
-    },
-    {
-      "title": "蒙特·卡罗（Monte Carlo）法求定积分",
-      "url": "https://zhuanlan.zhihu.com/p/172150564",
-      "summary": "正文以随机采样点落入积分区域的比例构造蒙特卡洛定积分估计，并用代码验证。"
-    },
-    {
-      "title": "看懂蒙特卡洛积分(一) 概率分布变换与随机采样",
-      "url": "https://zhuanlan.zhihu.com/p/191487550",
-      "summary": "正文通过逆累积分布变换、拒绝采样及球面分布采样，讲解蒙特卡洛模拟所需的随机抽样构造。"
-    },
-    {
-      "title": "蒙特卡洛 Monte Carlo 入门（15分钟版）",
-      "url": "https://zhuanlan.zhihu.com/p/223042372",
-      "summary": "正文介绍随机抽样估计、重要性抽样和 Metropolis 采样等蒙特卡洛方法。"
-    },
-    {
-      "title": "从零推导：变分自编码器（VAE）",
-      "url": "https://zhuanlan.zhihu.com/p/249296925",
-      "summary": "正文把难算的隐变量积分改写为期望，并用多次采样求均值来近似积分和梯度。"
-    },
-    {
-      "title": "蒙特卡洛模拟（Python）深入教程",
-      "url": "https://zhuanlan.zhihu.com/p/257196971",
-      "summary": "正文围绕随机抽样定义蒙特卡洛方法，并用多个 Python 实验展示概率模拟和数值估计流程。"
-    },
-    {
-      "title": "5分钟看懂蒙特卡洛模拟",
-      "url": "https://zhuanlan.zhihu.com/p/262263040",
-      "summary": "正文通过大量随机抽样、重复试验和结果统计讲解蒙特卡洛模拟的成本风险分析流程。"
-    },
-    {
-      "title": "贝叶斯神经网络BNN(推导+代码实现)",
-      "url": "https://zhuanlan.zhihu.com/p/263053978",
-      "summary": "正文用多个正态扰动样本的梯度平均值近似变分目标的期望，属于蒙特卡洛估计。"
-    },
-    {
-      "title": "蒙特卡洛法高维数值积分： Vegas",
-      "url": "https://zhuanlan.zhihu.com/p/264315872",
-      "summary": "正文详细讲解 Vegas 蒙特卡洛积分、重要抽样、误差估计和自适应分层抽样。"
-    },
-    {
-      "title": "概率论与统计学7——马尔可夫链蒙特卡洛（Markov chain Monte Carlo）",
-      "url": "https://zhuanlan.zhihu.com/p/283767958",
-      "summary": "正文详细给出 Metropolis-Hastings 和 Gibbs sampling 的随机采样步骤、接受概率及稳态构造。"
-    },
-    {
-      "title": "一文看懂蒙特卡洛采样方法",
-      "url": "https://zhuanlan.zhihu.com/p/338103692",
-      "summary": "正文系统介绍蒙特卡洛随机模拟求解积分、面积和期望的流程，以及三类基本采样方法。"
-    },
-    {
-      "title": "贝叶斯分析助你成为优秀的调参侠（1）",
-      "url": "https://zhuanlan.zhihu.com/p/339116960",
-      "summary": "正文给出 Metropolis-Hastings 算法和代码，用蒙特卡洛抽样近似难计算的后验分布。"
-    },
-    {
-      "title": "利用LTC实现实时多边形面积光",
-      "url": "https://zhuanlan.zhihu.com/p/350694154",
-      "summary": "正文用重要性采样和蒙特卡洛积分估计 BRDF 与 LTC 之间的误差以优化矩阵参数。"
-    },
-    {
       "title": "困扰数学家25年的“切苹果”难题，被一位华人统计学博士解决了",
       "url": "https://zhuanlan.zhihu.com/p/353996404",
       "summary": "正文以高维凸体中的随机行走和混合速度解释 KLS 因子上界如何改进随机采样算法，属于蒙特卡洛式随机采样方法的核心分析。"
-    },
-    {
-      "title": "随机微分方程的模拟（一）",
-      "url": "https://zhuanlan.zhihu.com/p/354688060",
-      "summary": "正文通过生成多条随机路径估计随机过程的分布，系统介绍 SDE 的蒙特卡洛模拟。"
-    },
-    {
-      "title": "数字世界逼近现实世界——浅谈分布近似与最大似然估计",
-      "url": "https://zhuanlan.zhihu.com/p/355150033",
-      "summary": "正文用随机采样平均值近似数学期望，并明确说明这一数值方法属于蒙特卡洛方法。"
-    },
-    {
-      "title": "过去50年最重要的统计学思想",
-      "url": "https://zhuanlan.zhihu.com/p/355875983",
-      "summary": "正文介绍重抽样、基于模拟的近似推理及MCMC等计算统计方法。"
-    },
-    {
-      "title": "重要性采样和多重重要性采样在路径追踪中的应用",
-      "url": "https://zhuanlan.zhihu.com/p/360420413",
-      "summary": "正文用蒙特卡洛积分近似渲染方程，并详细讨论重要性和多重重要性采样降低方差。"
-    },
-    {
-      "title": "用 Python 做数学建模",
-      "url": "https://zhuanlan.zhihu.com/p/362092403",
-      "summary": "正文通过矩形区域随机取样估计曲边三角形面积，并用随机点搜索非线性整数规划。"
-    },
-    {
-      "title": "从重要性采样到 RIS",
-      "url": "https://zhuanlan.zhihu.com/p/362134753",
-      "summary": "正文从蒙特卡洛积分出发，讲解重要性采样、MIS、重采样及其无偏估计。"
-    },
-    {
-      "title": "另辟蹊径—Denoising Diffusion Probabilistic 一种从噪音中剥离出图像/音频的模型",
-      "url": "https://zhuanlan.zhihu.com/p/366004028",
-      "summary": "正文用随机采样和迭代解释蒙特卡洛参数估计，并在扩散模型推导中比较MCMC与Score Matching。"
-    },
-    {
-      "title": "DDM漂移扩散模型与决策的发展",
-      "url": "https://zhuanlan.zhihu.com/p/366160160",
-      "summary": "正文具体说明用MCMC采样由复杂分布获得样本，并借样本估计DDM参数。"
-    },
-    {
-      "title": "双重差分法（DID）安慰剂检验的做法：随机抽取500次?",
-      "url": "https://zhuanlan.zhihu.com/p/366423108",
-      "summary": "正文反复随机抽取伪处理组并重复五百次回归，以估计系数的经验分布判断真实效应是否可能由随机性产生，体现蒙特卡洛模拟。"
-    },
-    {
-      "title": "蒙特卡罗方法详解",
-      "url": "https://zhuanlan.zhihu.com/p/369099011",
-      "summary": "正文以圆面积和不规则图形面积为随机抽样示例，系统讲解蒙特卡洛估计。"
-    },
-    {
-      "title": "【游戏流体力学基础及Unity代码（十五）】线性有限元及弹性物体模拟",
-      "url": "https://zhuanlan.zhihu.com/p/369505527",
-      "summary": "正文具体说明蒙特卡洛积分随机取点、等权平均的估计方式，并给出代码和误差示例。"
-    },
-    {
-      "title": "马尔科夫链详解",
-      "url": "https://zhuanlan.zhihu.com/p/370026636",
-      "summary": "正文说明马尔可夫链经过足够多次转移后可产生平稳分布样本，用于蒙特卡罗模拟。"
-    },
-    {
-      "title": "数据建模与分析第10讲（蒙特卡洛法、MCMC、Metropolis-Hasting）",
-      "url": "https://zhuanlan.zhihu.com/p/374851855",
-      "summary": "正文以蒙特卡洛抽样、期望估计和积分计算说明随机模拟的近似求解方法。"
     },
     {
       "title": "流形上的均匀采样(一)——理论",
@@ -1238,54 +368,9 @@
       "summary": "正文比较高维数值积分方法，说明蒙特卡罗方法不受网格维数限制并通过方差缩减改进。"
     },
     {
-      "title": "图形学｜Robust：Path Tracing & Bidirectional Path Tracing 路径追踪、双向路径追踪",
-      "url": "https://zhuanlan.zhihu.com/p/384408596",
-      "summary": "正文用随机路径采样、概率密度和贡献比值构造蒙特卡洛积分估计，并讨论方差与 MIS 权重。"
-    },
-    {
-      "title": "拉丁超立方采样(Latin hypercube sampling, LHS)及蒙特卡洛模拟简介",
-      "url": "https://zhuanlan.zhihu.com/p/385966408",
-      "summary": "正文通过抛硬币和重复抽样解释蒙特卡洛模拟，并总结采样、结果映射和重复统计的流程。"
-    },
-    {
-      "title": "双重差分法之安慰剂检验",
-      "url": "https://zhuanlan.zhihu.com/p/387900282",
-      "summary": "正文通过反复随机抽样模拟估计量的经验分布，并以该分布判断真实估计值是否异常，体现蒙特卡洛方法。"
-    },
-    {
-      "title": "数值分析：数值积分（蒙特卡洛积分）",
-      "url": "https://zhuanlan.zhihu.com/p/365624460",
-      "summary": "正文把积分转化为随机变量期望并用样本均值估计，完整介绍蒙特卡洛方法、采样和方差缩减。"
-    },
-    {
-      "title": "一篇搞定！GAMES101现代计算机图形学入门（全）",
-      "url": "https://zhuanlan.zhihu.com/p/394932478",
-      "summary": "正文用蒙特卡洛积分近似渲染方程，并展开路径追踪的算法流程。"
-    },
-    {
       "title": "数学教材里的神秘数表在国外红出圈，网友：引人入胜、猜不到结局 | 把科学带回家",
       "url": "https://zhuanlan.zhihu.com/p/402459087",
       "summary": "正文用面积抽样和模拟中子轨迹说明蒙特卡洛方法以大量随机采样近似复杂系统结果。"
-    },
-    {
-      "title": "走进贝叶斯统计（四）—— 蒙特卡洛方法",
-      "url": "https://zhuanlan.zhihu.com/p/406256344",
-      "summary": "正文以面积估计直观解释蒙特卡洛采样，并完整讲解逆变换采样和拒绝采样算法及其证明。"
-    },
-    {
-      "title": "不太确定的话，来个混沌多项式展开吧.py",
-      "url": "https://zhuanlan.zhihu.com/p/414661101",
-      "summary": "正文解释蒙特卡洛采样如何逼近均值和方差，并与需要少量黑箱评估的多项式混沌展开作对比。"
-    },
-    {
-      "title": "走进贝叶斯统计（五）—— Metropolis-Hasting 算法",
-      "url": "https://zhuanlan.zhihu.com/p/411689417",
-      "summary": "正文以蒙特卡洛抽样为背景，说明拒绝采样的限制并发展 Metropolis-Hastings 采样算法。"
-    },
-    {
-      "title": "MCMC与贝叶斯推断简介：从入门到放弃",
-      "url": "https://zhuanlan.zhihu.com/p/420214359",
-      "summary": "正文系统说明蒙特卡洛方法通过大量随机采样估计统计量，并用圆面积和期望积分作为计算示例。"
     },
     {
       "title": "一个喝醉的小鸟有多大的概率永远也回不了家了？",
@@ -1293,144 +378,14 @@
       "summary": "正文用三维随机游走的大量重复抽样估计返回概率，并以蒙特卡洛结果核验数值积分。"
     },
     {
-      "title": "不确定性量化（Uncertainty Qunatification）",
-      "url": "https://zhuanlan.zhihu.com/p/445448562",
-      "summary": "正文说明蒙特卡洛估计的收敛阶为 O(N^{-1/2})，并用具体矩阵特征值模拟案例解释其计算代价。"
-    },
-    {
-      "title": "Sig 2022 Rendering论文导读",
-      "url": "https://zhuanlan.zhihu.com/p/541060105",
-      "summary": "正文具体介绍基于蒙特卡洛采样拟合后进行积分、控制变量和拟蒙特卡洛搜索等随机采样计算方法。"
-    },
-    {
-      "title": "多传感器融合专题（一） ｜ 各类滤波器方法整理",
-      "url": "https://zhuanlan.zhihu.com/p/542440266",
-      "summary": "正文讲解蒙特卡洛定位、粒子滤波的重采样、失效恢复和 KLD 自适应采样。"
-    },
-    {
-      "title": "Diffusion Model | （三）Langevin dynamics",
-      "url": "https://zhuanlan.zhihu.com/p/545910038",
-      "summary": "正文具体构造 MCMC 与 Metropolis-Hastings 采样算法，并利用细致平衡解释接受率。"
-    },
-    {
-      "title": "数学建模中常用十大算法总结（2022国赛赛前必看）",
-      "url": "https://zhuanlan.zhihu.com/p/552075275",
-      "summary": "正文解释蒙特卡洛算法以随机数求解规划问题，并指出精度取决于试验次数。"
-    },
-    {
-      "title": "扩散模型与朗之万动力学和随机微分方程的关系",
-      "url": "https://zhuanlan.zhihu.com/p/562654949",
-      "summary": "正文介绍 MALA 如何结合 Metropolis-Hastings 接受拒绝与朗之万动力学生成样本，并讨论省略校正步骤。"
-    },
-    {
-      "title": "变分贝叶斯推断——Variational Bayesian Inference",
-      "url": "https://zhuanlan.zhihu.com/p/575328650",
-      "summary": "比较变分推断与 MCMC 采样，并用样本平均估计后验期望，说明蒙特卡洛积分的基本作用。"
-    },
-    {
-      "title": "Python解薛定谔方程（一维谐振子为例）",
-      "url": "https://zhuanlan.zhihu.com/p/578421135",
-      "summary": "正文给出虚时间演化逼近基态的原理，并介绍扩散蒙特卡洛的离散迭代和能量估计流程。"
-    },
-    {
-      "title": "理解Diffusion Model (2)：数据分布的梯度",
-      "url": "https://zhuanlan.zhihu.com/p/589030280",
-      "summary": "正文把朗之万动力学作为 MCMC 采样方法，给出迭代式并用其从 score function 中采样。"
-    },
-    {
-      "title": "第十章 机器学习与信号处理（下）—贝叶斯学派",
-      "url": "https://zhuanlan.zhihu.com/p/600739361",
-      "summary": "正文说明如何构造马尔可夫链并抽取平稳分布样本，以蒙特卡洛积分估计后验期望。"
-    },
-    {
-      "title": "【持续更新】MCMC 理论",
-      "url": "https://zhuanlan.zhihu.com/p/607728292",
-      "summary": "正文用独立随机样本的平均估计期望与积分，并说明 MCMC 依赖这种 Monte Carlo 估计。"
-    },
-    {
-      "title": "概率视角下的生成模型",
-      "url": "https://zhuanlan.zhihu.com/p/611466195",
-      "summary": "正文介绍用 MCMC 和朗之万迭代从能量分布中采样的方法。"
-    },
-    {
       "title": "比物理学不存在更恐怖的，是圆周率|Happy Pi Day",
       "url": "https://zhuanlan.zhihu.com/p/613851001",
       "summary": "正文用蒲丰投针的随机试验估计圆周率，并将其联系到蒙特卡洛方法的早期思想。"
     },
     {
-      "title": "数学建模--30+种常用算法模型",
-      "url": "https://zhuanlan.zhihu.com/p/621179254",
-      "summary": "正文介绍蒙特卡洛方法用随机样本近似处理复杂积分、概率统计和优化问题。"
-    },
-    {
-      "title": "量子蒙特卡洛算法小结（1）",
-      "url": "https://zhuanlan.zhihu.com/p/620123820",
-      "summary": "正文系统讲解重要性采样、接受拒绝采样和蒙特卡洛估计，并给出经典多体模型代码。"
-    },
-    {
-      "title": "LLM大模型训练Trick系列（一）之拒绝采样",
-      "url": "https://zhuanlan.zhihu.com/p/649731916",
-      "summary": "正文完整解释拒绝采样的提议分布、接受条件和循环流程，并将其归入蒙特卡洛随机采样方法。"
-    },
-    {
-      "title": "方差缩减方法是什么——一些常见的方差缩减方法",
-      "url": "https://zhuanlan.zhihu.com/p/557279067",
-      "summary": "正文在蒙特卡洛框架下讲解控制变量、对偶变数、重要性采样和分层采样。"
-    },
-    {
-      "title": "强化学习-重要性采样-Importance Sampling",
-      "url": "https://zhuanlan.zhihu.com/p/669378380",
-      "summary": "正文把重要性采样解释为蒙特卡罗估计中更换采样分布并按概率比加权的积分估计方法。"
-    },
-    {
-      "title": "DiffusionModel-NCSN原理与推导",
-      "url": "https://zhuanlan.zhihu.com/p/670052757",
-      "summary": "正文给出朗之万随机迭代采样算法及其收敛条件，属于蒙特卡洛采样方法。"
-    },
-    {
       "title": "2024年美赛C题(美国大学生数学建模竞赛)机理建模+蒙特卡洛模拟 完整建模精品文章！",
       "url": "https://zhuanlan.zhihu.com/p/680867480",
       "summary": "正文通过大量随机比赛模拟生成势头得分分布，并据此与真实比赛作统计比较，属于蒙特卡洛模拟应用。"
-    },
-    {
-      "title": "重要性采样(Importance Sampling)",
-      "url": "https://zhuanlan.zhihu.com/p/695130713",
-      "summary": "正文系统讲解重要性采样的采样分布、估计量及其方差，并以柯西尾部概率说明蒙特卡洛估计的改进。"
-    },
-    {
-      "title": "UE5.4 Lumen中的ReSTIR Gather (上) 全网最细RIS无偏性证明",
-      "url": "https://zhuanlan.zhihu.com/p/703950102",
-      "summary": "正文用采样平均值近似连续积分，并给出无偏性与一致性推导，系统讲解蒙特卡洛方法。"
-    },
-    {
-      "title": "使用Mathematica学习量子力学(3/3): 主方程",
-      "url": "https://zhuanlan.zhihu.com/p/690876150",
-      "summary": "正文给出量子跳跃的随机轨迹算法，并通过多条轨迹统计平均近似主方程演化。"
-    },
-    {
-      "title": "生成式模型汇总！一文带你从隐变量模型到 VAE, GAN, Flow 到 Diffusion Model 全懂完（）",
-      "url": "https://zhuanlan.zhihu.com/p/721196823",
-      "summary": "正文单独讲解蒙特卡洛以采样估计积分和期望的原理，并在 VAE 中应用。"
-    },
-    {
-      "title": "pytorch-变分量子蒙特卡洛计算",
-      "url": "https://zhuanlan.zhihu.com/p/11793121832",
-      "summary": "正文讲解变分蒙特卡洛中的重要抽样、Metropolis 采样、哈密顿蒙特卡洛和期望梯度的采样估计。"
-    },
-    {
-      "title": "【论文解读】Qwen2.5-Math-PRM：如何构建高质量的PRM（过程奖励模型）训练数据？",
-      "url": "https://zhuanlan.zhihu.com/p/18389486329",
-      "summary": "正文具体解释蒙特卡洛估计如何从中间步骤多次采样后续推理，并据最终答案频率反推步骤标签。"
-    },
-    {
-      "title": "蒙特卡洛(MC) vs 时序差分(TD) vs 广义优势估计(GAE)",
-      "url": "https://zhuanlan.zhihu.com/p/22431139619",
-      "summary": "正文给出用完整轨迹回报求平均的蒙特卡洛价值估计流程和更新式。"
-    },
-    {
-      "title": "Stein方法与其在统计学中的发展和应用",
-      "url": "https://zhuanlan.zhihu.com/p/1910079277765989625",
-      "summary": "正文说明 Stein 差异可用于蒙特卡洛采样输出筛选并列举相关采样算法。"
     },
     {
       "title": "记一个简单的问题：两个相邻单位立方体之间的吸引力",

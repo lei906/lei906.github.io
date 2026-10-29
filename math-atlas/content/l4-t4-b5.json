@@ -23,11 +23,6 @@
       "summary": "正文比较试除法、费马测试、Miller–Rabin 与 AKS 素性测试。"
     },
     {
-      "title": "RSA 生成公私钥时质数是怎么选的？",
-      "url": "https://www.zhihu.com/answer/141149088",
-      "summary": "正文介绍 Miller-Rabin 作为常用质数判别方法。"
-    },
-    {
       "title": "如果有一天上帝给了数学家素数的通项公式，这会对数学界有什么影响？",
       "url": "https://www.zhihu.com/answer/341932598",
       "summary": "正文比较素数生成、素性判定与筛法，并给出判定复杂度。"
@@ -48,34 +43,14 @@
       "summary": "正文解释 Miller-Rabin 随机素数判定及错误概率。"
     },
     {
-      "title": "用于加密的超大素数是怎么得到的？",
-      "url": "https://www.zhihu.com/answer/487014940",
-      "summary": "正文介绍米勒-拉宾概率素数测试与误判概率。"
-    },
-    {
-      "title": "用于加密的超大素数是怎么得到的？",
-      "url": "https://www.zhihu.com/answer/512820832",
-      "summary": "全文讲解费马、Solovay–Strassen 与 Miller–Rabin 概率素性检验。"
-    },
-    {
       "title": "设计程序求第 i 个素数，时间复杂度最优可以达到多少？",
       "url": "https://www.zhihu.com/answer/566185328",
       "summary": "比较筛法、试除和素性测试以寻找第 i 个素数。"
     },
     {
-      "title": "如何编程判断一个数是否是质数？",
-      "url": "https://www.zhihu.com/answer/568508952",
-      "summary": "从试除到 Fermat、Miller-Rabin 和 AKS 系统比较素性测试。"
-    },
-    {
       "title": "如何巧妙证明 2³²＋1 为合数？",
       "url": "https://www.zhihu.com/answer/573907034",
       "summary": "正文给出 2^32+1 的合数判定与试除方法。"
-    },
-    {
-      "title": "如何编程判断一个数是否是质数？",
-      "url": "https://www.zhihu.com/answer/574767625",
-      "summary": "正文按适用范围和特殊形式分类讲解试除、概率测试和确定性证明算法。"
     },
     {
       "title": "数学上有哪些非常奇葩的证明？",
@@ -98,11 +73,6 @@
       "summary": "把模幂余数作为合数见证进行素性检验。"
     },
     {
-      "title": "求十亿内所有质数的和，怎么做最快?",
-      "url": "https://www.zhihu.com/answer/882461056",
-      "summary": "系统推导 Min_25 筛及其筛去合数的机制。"
-    },
-    {
       "title": "公民身份号码有可能是素数吗？",
       "url": "https://www.zhihu.com/answer/970381488",
       "summary": "正文给出用 PrimeQ 与 NextPrime 检验素数的可执行方法。"
@@ -111,11 +81,6 @@
       "title": "公民身份号码有可能是素数吗？",
       "url": "https://www.zhihu.com/answer/974589248",
       "summary": "正文先估算概率，再用 Mathematica 的 PrimeQ 构造素数身份证实例。"
-    },
-    {
-      "title": "如果有一个人见到一个整数就能立刻分解质因数，那么这个人怎样才能发挥他的最大价值?",
-      "url": "https://www.zhihu.com/answer/1293502590",
-      "summary": "正文把超大整数分解视为 RSA 安全性的关键困难。"
     },
     {
       "title": "请问是质数更多还是合数更多还是一样多？",
@@ -231,11 +196,6 @@
       "title": "离葛立恒数最近的质数是多少？",
       "url": "https://www.zhihu.com/answer/2744896813",
       "summary": "正文用寻找小质因数的方式排除候选整数，实质上是在讨论这些数的素性判定进度。"
-    },
-    {
-      "title": "怎么判断一个孩子有没有数学天赋？",
-      "url": "https://www.zhihu.com/answer/2789372480",
-      "summary": "正文说明威尔逊同余式构成判定一个数是否为素数的充要条件。"
     },
     {
       "title": "为什么1/23和1/29的循环节如此相似？",
@@ -371,31 +331,6 @@
       "title": "费马小定理（Fermat's Little Theorem）",
       "url": "https://zhuanlan.zhihu.com/p/87611586",
       "summary": "正文说明费马小定理可作为素数检验的必要条件，并指出卡迈克尔数反例。"
-    },
-    {
-      "title": "怎样优雅地判断一个数是不是质数？",
-      "url": "https://zhuanlan.zhihu.com/p/113815619",
-      "summary": "正文围绕素性判定逐层介绍试除、埃拉托斯特尼筛法、费马检验、Miller-Rabin 与确定性多项式算法。"
-    },
-    {
-      "title": "关于从埃氏筛到线性筛你不会想知道的那些事（证明，慎入）",
-      "url": "https://zhuanlan.zhihu.com/p/124068032",
-      "summary": "正文比较埃氏筛与线性筛，证明筛法中未划去的数为何是素数，并说明合数只由最小质因数筛去。"
-    },
-    {
-      "title": "算法学习笔记(48): 米勒-拉宾素性检验",
-      "url": "https://zhuanlan.zhihu.com/p/220203643",
-      "summary": "正文完整解释米勒-拉宾素性检验的平方序列判定、固定底数集合和实现流程。"
-    },
-    {
-      "title": "刷算法题必备的数学考点汇总",
-      "url": "https://zhuanlan.zhihu.com/p/301338035",
-      "summary": "正文系统讲解试除法判定质数、埃拉托斯特尼筛法以及最小质因子预筛。"
-    },
-    {
-      "title": "【朝夕的ACM笔记】数论-Miller Rabin素数判定",
-      "url": "https://zhuanlan.zhihu.com/p/349360074",
-      "summary": "正文完整讲解 Miller Rabin 素性检验的判定准则、底数选取和代码实现，用于判断整数是否为素数。"
     },
     {
       "title": "群论观点下的费尔马小定理",

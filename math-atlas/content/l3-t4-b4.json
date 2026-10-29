@@ -63,29 +63,14 @@
       "summary": "说明样本方差分母取 n-1 与无偏估计有关。"
     },
     {
-      "title": "投资组合的方差公式是什么？",
-      "url": "https://www.zhihu.com/answer/34530939",
-      "summary": "正文推导投资组合收益的方差公式。"
-    },
-    {
       "title": "概率论中，「矩」（moment）的实际含义是什么？高阶矩表示数据的哪些状态？",
       "url": "https://www.zhihu.com/answer/41191649",
       "summary": "正文说明二阶矩与方差的关系。"
     },
     {
-      "title": "独立成分分析 ( ICA ) 与主成分分析 ( PCA ) 的区别在哪里？",
-      "url": "https://www.zhihu.com/answer/42292804",
-      "summary": "正文以投影方差最大化及逐次正交最大化具体说明PCA的方差准则。"
-    },
-    {
       "title": "为什么样本均值的标准差是总体均值标准差除以根号n?",
       "url": "https://www.zhihu.com/answer/56578481",
       "summary": "正文在独立同分布条件下推导样本均值方差为总体方差的 n 分之一。"
-    },
-    {
-      "title": "请学霸对BOll这个指标的科学性做个数学方面的解释？不是很懂标准差？谢谢？",
-      "url": "https://www.zhihu.com/answer/64139307",
-      "summary": "正文用两组数据说明方差和标准差如何描述离散程度。"
     },
     {
       "title": "随机变量的矩和高阶矩有什么实在的含义？",
@@ -128,11 +113,6 @@
       "summary": "正文区分方差所度量的离散程度与信息熵。"
     },
     {
-      "title": "什么叫做状态占优、一阶随机占优、二阶随机占优以及三阶随机占优？",
-      "url": "https://www.zhihu.com/answer/72651008",
-      "summary": "正文用收益方差刻画风险大小。"
-    },
-    {
       "title": "人寿推出了一个恋爱保险，十年内和心上人领证结婚会收到一万朵玫瑰花，试用数学建模或其他方式分析其可行性?",
       "url": "https://www.zhihu.com/answer/74307614",
       "summary": "正文计算二项变量方差并用于标准化。"
@@ -153,11 +133,6 @@
       "summary": "正文在离散程度分析中定义方差和标准差，说明其用于反映数据之间的差异。"
     },
     {
-      "title": "人类能够在3天内学完概率论与数理统计前五章吗（龙永红，高等教育出版社第三版）?",
-      "url": "https://www.zhihu.com/answer/79535272",
-      "summary": "正文把方差及其计算列为概率论复习重点。"
-    },
-    {
       "title": "切比雪夫不等式到底是个什么概念?",
       "url": "https://www.zhihu.com/answer/80814695",
       "summary": "正文由方差推导切比雪夫不等式并解释离散程度的概率界。"
@@ -171,11 +146,6 @@
       "title": "概率论中，「矩」（moment）的实际含义是什么？高阶矩表示数据的哪些状态？",
       "url": "https://www.zhihu.com/answer/81589544",
       "summary": "正文说明方差是二阶矩并表示分布胖瘦。"
-    },
-    {
-      "title": "为什么考试很多人不及格时，老师会将学生的实际分数开根号再乘 10 让大家及格？这个算法是怎样来的？",
-      "url": "https://www.zhihu.com/answer/81630543",
-      "summary": "正文用方差控制正态分布的离散宽度。"
     },
     {
       "title": "为什么用标准差而不是平均差来反映数据的离散程度？",
@@ -193,11 +163,6 @@
       "summary": "正文用标准差和总体排名解释 IQ 标准分。"
     },
     {
-      "title": "面对有大量缺失值的数据应该怎样处理比较合理？",
-      "url": "https://www.zhihu.com/answer/92275784",
-      "summary": "正文说明大量均值填补会令变量方差接近零并损失随机信息。"
-    },
-    {
       "title": "条件方差公式的直观解释？",
       "url": "https://www.zhihu.com/answer/95444053",
       "summary": "正文推导并直观解释全方差公式。"
@@ -208,19 +173,9 @@
       "summary": "正文用方差与切比雪夫不等式说明集中性。"
     },
     {
-      "title": "机器学习中的 Bias（偏差）、Error（误差）、Variance（方差）有什么区别和联系？",
-      "url": "https://www.zhihu.com/answer/99541217",
-      "summary": "正文推导偏差—方差分解并比较交叉验证统计量方差。"
-    },
-    {
       "title": "有没有懂统计的，标准误为什么等于标准差除以根号n，求公式推导过程？",
       "url": "https://www.zhihu.com/answer/101220579",
       "summary": "正文从样本离散程度解释方差、标准差及标准误的直觉关系。"
-    },
-    {
-      "title": "什么是核密度估计？如何感性认识？",
-      "url": "https://www.zhihu.com/answer/105267357",
-      "summary": "正文用窗宽选择详细解释非参数估计中的偏差—方差权衡。"
     },
     {
       "title": "为什么方差要定义成平方？这么定义有什么利弊？如果把方差定义成 |X－E(X)|，这又有什么利弊？",
@@ -228,24 +183,9 @@
       "summary": "正文从欧氏距离和标准差推导方差为何使用平方。"
     },
     {
-      "title": "什么是时间序列模型，什么是弱平稳和严格平稳？",
-      "url": "https://www.zhihu.com/answer/112180602",
-      "summary": "正文用常数方差和有界波动刻画平稳时间序列。"
-    },
-    {
       "title": "记忆宫殿，思维导图等方法可以用于推导公式吗？",
       "url": "https://www.zhihu.com/answer/114942905",
       "summary": "正文由方差与标准差结构推导相关系数的分母。"
-    },
-    {
-      "title": "统计学里面的自助法（Bootstrap Method）为什么效果好？",
-      "url": "https://www.zhihu.com/answer/119360439",
-      "summary": "正文说明 Bootstrap 用于评估统计量方差与偏差。"
-    },
-    {
-      "title": "主成分分析PCA算法：为什么去均值以后的高维矩阵乘以其协方差矩阵的特征向量矩阵就是“投影”？",
-      "url": "https://www.zhihu.com/answer/120499954",
-      "summary": "正文从协方差矩阵推导投影方向的方差与特征值关系。"
     },
     {
       "title": "有哪些违背直觉的数学问题？",
@@ -268,39 +208,9 @@
       "summary": "正文用离差平方和与自由度解释样本方差估计。"
     },
     {
-      "title": "如何理解结构方程模型？",
-      "url": "https://www.zhihu.com/answer/129429017",
-      "summary": "正文说明 SEM 常用方差/协方差估计，并构造观测变量的方差协方差矩阵。"
-    },
-    {
-      "title": "如何通俗易懂地解释「协方差」与「相关系数」的概念？",
-      "url": "https://www.zhihu.com/answer/129508585",
-      "summary": "正文用标准差、方差为一的标准化变量推导相关系数性质。"
-    },
-    {
       "title": "样本方差公式是如何推导出来的？",
       "url": "https://www.zhihu.com/answer/130217781",
       "summary": "正文从正态总体似然出发推导方差最大似然估计的偏差，并得到分母n-1的无偏样本方差。"
-    },
-    {
-      "title": "如何通俗解释委托代理理论，主要是里面的模型如何简单理解？",
-      "url": "https://www.zhihu.com/answer/134235471",
-      "summary": "正文推导随机报酬的方差及风险溢价如何影响确定性等值。"
-    },
-    {
-      "title": "如何评价文化部新规：「网游需公示道具抽取或合成概率」？",
-      "url": "https://www.zhihu.com/answer/134834992",
-      "summary": "正文定义方差，并用它解释结果偏离期望的程度。"
-    },
-    {
-      "title": "如何通俗易懂地解释「协方差」与「相关系数」的概念？",
-      "url": "https://www.zhihu.com/answer/134902061",
-      "summary": "正文解释标准差如何衡量偏离均值的幅度，以及标准化协方差的作用。"
-    },
-    {
-      "title": "怎么在不减少变量下消除多重共线性？",
-      "url": "https://www.zhihu.com/answer/142677512",
-      "summary": "正文解释多重共线性会增大回归系数估计的方差。"
     },
     {
       "title": "概率论中，「矩」（moment）的实际含义是什么？高阶矩表示数据的哪些状态？",
@@ -311,11 +221,6 @@
       "title": "600 个人站一排，每次随机淘汰一个奇数位的人，几号最安全？",
       "url": "https://www.zhihu.com/answer/144619265",
       "summary": "正文用方差解释高均值与成为最后幸存者概率的差异。"
-    },
-    {
-      "title": "统计学中的信噪比怎么理解呢?",
-      "url": "https://www.zhihu.com/answer/147695861",
-      "summary": "正文把信噪比定义为信号方差与噪声方差之比，并以方差度量不确定性。"
     },
     {
       "title": "概率论中，「矩」（moment）的实际含义是什么？高阶矩表示数据的哪些状态？",
@@ -331,36 +236,6 @@
       "title": "为什么标准偏差是除以n,而样本标准偏差是除以n减1?",
       "url": "https://www.zhihu.com/answer/155844069",
       "summary": "正文区分总体与样本标准偏差，并解释样本方差分母 n-1 的无偏估计意义。"
-    },
-    {
-      "title": "最大似然估计和最小二乘法怎么理解？",
-      "url": "https://www.zhihu.com/answer/161722019",
-      "summary": "正文以未知均值和方差的正态分布说明参数估计。"
-    },
-    {
-      "title": "统计学上标准差与标准误的区别与联系是什么？",
-      "url": "https://www.zhihu.com/answer/170731453",
-      "summary": "正文以方差平方根和抽样分布的标准差严格区分标准差与标准误。"
-    },
-    {
-      "title": "统计学上标准差与标准误的区别与联系是什么？",
-      "url": "https://www.zhihu.com/answer/170774417",
-      "summary": "正文明确标准差与标准误分别度量变量和样本统计量的离散度。"
-    },
-    {
-      "title": "最大似然估计和最小二乘法怎么理解？",
-      "url": "https://www.zhihu.com/answer/173149479",
-      "summary": "正文说明最小二乘距离与方差的联系，并以最小方差解释投影。"
-    },
-    {
-      "title": "如何评价 Self-Normalizing Neural Networks 这篇论文?",
-      "url": "https://www.zhihu.com/answer/181996869",
-      "summary": "正文计算激活值和梯度的方差，质疑方差归一目标及其跨层累积效果。"
-    },
-    {
-      "title": "机器学习专家与统计学家观点上有哪些不同？",
-      "url": "https://www.zhihu.com/answer/183664635",
-      "summary": "正文明确推导随机游走均值为零而方差随时间增加。"
     },
     {
       "title": "为什么样本方差（sample variance）的分母是 n-1？",
@@ -388,11 +263,6 @@
       "summary": "正文解释方差与标准差的计算、量纲和描述波动的意义。"
     },
     {
-      "title": "样本标准差的意义是什么？",
-      "url": "https://www.zhihu.com/answer/202287342",
-      "summary": "正文区分总体与样本标准差，并解释用 n−1 修正总体方差估计。"
-    },
-    {
       "title": "怎么通俗理解概率论中的c r(cramer rao 克拉默拉奥)不等式？",
       "url": "https://www.zhihu.com/answer/204992057",
       "summary": "正文用不同估计方法所得估计值的方差解释 Cramér–Rao 界。"
@@ -403,49 +273,14 @@
       "summary": "正文完整推导样本方差无偏而样本标准差系统性偏小。"
     },
     {
-      "title": "如何快速掌握 SPSS ？",
-      "url": "https://www.zhihu.com/answer/205655129",
-      "summary": "正文比较方差分析与协方差分析的变量设置。"
-    },
-    {
-      "title": "峰态分布中，为什么尖峰一定对应肥尾？",
-      "url": "https://www.zhihu.com/answer/206285392",
-      "summary": "正文用保持相同方差说明尖峰必伴随肥尾的原因。"
-    },
-    {
       "title": "概率收敛、均方收敛、分布收敛等几个概率之间的区别和联系是什么？",
       "url": "https://www.zhihu.com/answer/206388557",
       "summary": "正文说明均方收敛同时要求偏差和方差趋零。"
     },
     {
-      "title": "泊松分布的现实意义是什么，为什么现实生活多数服从于泊松分布？",
-      "url": "https://www.zhihu.com/answer/208718584",
-      "summary": "正文指出泊松分布的期望与方差均等于参数。"
-    },
-    {
-      "title": "二项分布、泊松分布和正态分布的区别及联系?",
-      "url": "https://www.zhihu.com/answer/208718886",
-      "summary": "正文说明泊松分布中期望与方差相等。"
-    },
-    {
-      "title": "二项分布 几何分布 超几何分布 应该怎么区分？",
-      "url": "https://www.zhihu.com/answer/208719040",
-      "summary": "正文说明泊松概率的期望与方差相等。"
-    },
-    {
-      "title": "Cpk和ppk的本质差别是什么?",
-      "url": "https://www.zhihu.com/answer/211256424",
-      "summary": "正文用组内外变差与方差解释过程能力指标的分组效应。"
-    },
-    {
       "title": "深度学习cnn图片预处理方式，为什么乘以0.0167？",
       "url": "https://www.zhihu.com/answer/211508137",
       "summary": "正文用标准差归一化解释图像预处理系数。"
-    },
-    {
-      "title": "请问资产组合中的有效边界怎么定义？",
-      "url": "https://www.zhihu.com/answer/212345334",
-      "summary": "正文说明协方差矩阵对角元就是各股票方差。"
     },
     {
       "title": "统计学中「矩」这个概念是怎么引入的？它为什么被称为矩？它与物理意义上的矩有什么相同与不同？",
@@ -458,24 +293,9 @@
       "summary": "正文用标准差刻画偏离均值的程度并推导切比雪夫界。"
     },
     {
-      "title": "怎样理解和区分中心极限定理与大数定律？",
-      "url": "https://www.zhihu.com/answer/250046834",
-      "summary": "正文解释样本标准差、总体标准差和标准误的计算关系。"
-    },
-    {
-      "title": "统计学上标准差与标准误的区别与联系是什么？",
-      "url": "https://www.zhihu.com/answer/250542567",
-      "summary": "正文区分个体数据标准差与样本统计量标准误。"
-    },
-    {
       "title": "房间内有 100 人，每人有 100 块，每分钟随机给另一个人 1 块，最后房间内的财富分布怎样？",
       "url": "https://www.zhihu.com/answer/256130999",
       "summary": "正文把财富差距扩大归因于随机游走方差的持续累积。"
-    },
-    {
-      "title": "怎么在不减少变量下消除多重共线性？",
-      "url": "https://www.zhihu.com/answer/274941251",
-      "summary": "正文用方差膨胀因子解释线性依赖如何放大系数方差。"
     },
     {
       "title": "统计学上标准差与标准误的区别与联系是什么？",
@@ -483,19 +303,9 @@
       "summary": "正文区分标准差与标准误，并解释标准差的离散意义。"
     },
     {
-      "title": "计量经济学中有哪些传神的比喻(比方)？",
-      "url": "https://www.zhihu.com/answer/282873599",
-      "summary": "正文讨论回归模型中的同方差假设。"
-    },
-    {
       "title": "有了方差为什么还需要标准差？",
       "url": "https://www.zhihu.com/answer/284551407",
       "summary": "正文比较方差与标准差并解释为什么要开方。"
-    },
-    {
-      "title": "如何理解VAR（向量自回归）模型中的广义脉冲响应函数？",
-      "url": "https://www.zhihu.com/answer/285216594",
-      "summary": "正文通过方差协方差矩阵标准化冲击。"
     },
     {
       "title": "什么是标准误差（standard error）？均值标准误差与回归标准误差是不是同一概念？",
@@ -543,11 +353,6 @@
       "summary": "正文说明均值、方差与协方差的计算关系。"
     },
     {
-      "title": "请解释下variational inference？",
-      "url": "https://www.zhihu.com/answer/315311293",
-      "summary": "正文把降低方差作为变分推断算法研究的核心问题，并列举 Rao-Blackwellization、控制变量和重参数化等方法。"
-    },
-    {
       "title": "样本方差的自由度是n-1，为何总体的自由度就是n？在求总体方差时，难道不也要用到总体的均值吗？",
       "url": "https://www.zhihu.com/answer/324758432",
       "summary": "正文从定义和自由度解释样本方差。"
@@ -558,69 +363,14 @@
       "summary": "正文区分单次测量标准差与均值标准差的统计意义。"
     },
     {
-      "title": "如何理解皮尔逊相关系数（Pearson Correlation Coefficient）？",
-      "url": "https://www.zhihu.com/answer/349132554",
-      "summary": "正文推导平方和与样本方差的关系。"
-    },
-    {
-      "title": "Cpk和ppk的本质差别是什么?",
-      "url": "https://www.zhihu.com/answer/366420630",
-      "summary": "正文比较总体、子组内与子组间离散程度。"
-    },
-    {
-      "title": "特征工程中的「归一化」有什么作用？",
-      "url": "https://www.zhihu.com/answer/370658612",
-      "summary": "正文用均值、标准差和方差比较标准化与归一化。"
-    },
-    {
-      "title": "一个变量的计量结果原本不显著，但增加控制变量后变得显著，其结果是否可信？",
-      "url": "https://www.zhihu.com/answer/377661917",
-      "summary": "正文解释多重共线性如何增大回归系数方差。"
-    },
-    {
-      "title": "如何简单理解贝叶斯决策理论（Bayes Decision Theory）？",
-      "url": "https://www.zhihu.com/answer/378129817",
-      "summary": "正文用方差过高解释模型过拟合。"
-    },
-    {
-      "title": "如何通俗并尽可能详细地解释卡尔曼滤波？",
-      "url": "https://www.zhihu.com/answer/380968872",
-      "summary": "正文通过最小化估计误差方差确定融合权值。"
-    },
-    {
       "title": "多维高斯分布是如何由一维发展而来的？",
       "url": "https://www.zhihu.com/answer/385944057",
       "summary": "正文用各维方差与协方差矩阵描述多元分布尺度。"
     },
     {
-      "title": "深度学习中 Batch Normalization为什么效果好？",
-      "url": "https://www.zhihu.com/answer/391649040",
-      "summary": "正文说明BN沿批次计算均值方差并标准化。"
-    },
-    {
-      "title": "灭霸使用了什么样的随机数生成方法来保证公平？",
-      "url": "https://www.zhihu.com/answer/392552917",
-      "summary": "正文计算同一随机变量的方差并用其说明死亡人数会波动。"
-    },
-    {
-      "title": "stata的均值T检验如何判断差异是否显著？",
-      "url": "https://www.zhihu.com/answer/392777030",
-      "summary": "正文先检验方差齐性再选择等方差或不等方差检验。"
-    },
-    {
       "title": "参数估计的无偏性和相合性有什么区别？",
       "url": "https://www.zhihu.com/answer/395129298",
       "summary": "正文用样本二阶中心矩估计总体方差并计算偏差。"
-    },
-    {
-      "title": "Homoskedasticity同方差性与Heteroskedasticity异方差性的区别是什么？",
-      "url": "https://www.zhihu.com/answer/398539763",
-      "summary": "正文定义异方差为残差方差随解释变量变化。"
-    },
-    {
-      "title": "广义线性模型中, 联系函数(link function) 的作用是不是就是将不是正态分布的Y转换成正态分布？",
-      "url": "https://www.zhihu.com/answer/402258374",
-      "summary": "正文从二阶导数推导条件方差。"
     },
     {
       "title": "什么是无偏估计？",
@@ -633,29 +383,9 @@
       "summary": "正文明确以随机变量的期望与方差条件比较定理。"
     },
     {
-      "title": "目前统计学在国内外的发展现状是怎样的？都有哪些分支？今后的研究方向大致是向哪里走？",
-      "url": "https://www.zhihu.com/answer/418718693",
-      "summary": "正文明确说明Rao-Blackwell化会使估计量的方差不增。"
-    },
-    {
-      "title": "c4.5为什么使用信息增益比来选择特征？",
-      "url": "https://www.zhihu.com/answer/440836807",
-      "summary": "正文说明小样本概率估计会带来更大方差。"
-    },
-    {
       "title": "普通最小二乘法和广义最小二乘法的区别和联系是什么？",
       "url": "https://www.zhihu.com/answer/456620462",
       "summary": "正文解释响应变量内部方差与外部协方差组成协方差阵。"
-    },
-    {
-      "title": "假设检验的逻辑是是什么？",
-      "url": "https://www.zhihu.com/answer/459073864",
-      "summary": "正文解释标准差的计算方式及其对正态分布形状的影响。"
-    },
-    {
-      "title": "样本方差公式是如何推导出来的？",
-      "url": "https://www.zhihu.com/answer/463953325",
-      "summary": "正文从方差定义推导样本方差为何使用 n-1。"
     },
     {
       "title": "求方差的意义是什么？",
@@ -666,21 +396,6 @@
       "title": "总体方差未知时，为什么要用t分布来进行假设检验？",
       "url": "https://www.zhihu.com/answer/468861069",
       "summary": "正文以方差已知与未知区分 z 检验和 t 检验。"
-    },
-    {
-      "title": "如何通俗易懂地讲解什么是 PCA（主成分分析）？",
-      "url": "https://www.zhihu.com/answer/481966094",
-      "summary": "正文由中心化数据推导样本方差和协方差矩阵。"
-    },
-    {
-      "title": "如何理解鲁棒滤波器的概念？",
-      "url": "https://www.zhihu.com/answer/504458124",
-      "summary": "解释异常值如何破坏均值、方差及误差方差矩阵估计。"
-    },
-    {
-      "title": "如何简单易懂地解释狄利克雷过程（Dirichlet Process）？",
-      "url": "https://www.zhihu.com/answer/533132532",
-      "summary": "正文计算并解释区域测度方差随浓度参数变化的规律。"
     },
     {
       "title": "为什么样本方差（sample variance）的分母是 n-1？",
@@ -698,39 +413,9 @@
       "summary": "正文给出独立正态变量相加减后的方差之和。"
     },
     {
-      "title": "如何通俗易懂地讲解什么是 PCA（主成分分析）？",
-      "url": "https://www.zhihu.com/answer/571906771",
-      "summary": "正文以最大化投影方差解释 PCA 的目标。"
-    },
-    {
       "title": "求大神给解释解释充分统计量啊？",
       "url": "https://www.zhihu.com/answer/572628701",
       "summary": "正文明确指出正态数据的均值和方差包含有效信息。"
-    },
-    {
-      "title": "如何用通俗的语言解释卡尔曼滤波器？",
-      "url": "https://www.zhihu.com/answer/577218320",
-      "summary": "正文用按不确定性加权的均值解释更新机制。"
-    },
-    {
-      "title": "关于假设检验，T检验 F检验 卡方检验 和 ANOVA 这些检验在什么情况下使用，它们的区别是什么？",
-      "url": "https://www.zhihu.com/answer/579315142",
-      "summary": "正文解释 F 检验与方差分析中的方差条件。"
-    },
-    {
-      "title": "如何通俗易懂地讲解什么是 PCA（主成分分析）？",
-      "url": "https://www.zhihu.com/answer/583063178",
-      "summary": "说明 PCA 选择投影后方差最大的方向。"
-    },
-    {
-      "title": "机器学习中使用正则化来防止过拟合是什么原理？",
-      "url": "https://www.zhihu.com/answer/586902014",
-      "summary": "用偏差—方差权衡解释正则化为何能缓解过拟合。"
-    },
-    {
-      "title": "请教异方差的基础定义？",
-      "url": "https://www.zhihu.com/answer/594763791",
-      "summary": "正文定义异方差并说明方差随解释变量变化。"
     },
     {
       "title": "如何知道Cramér–Rao lower bound是可以取得的（它就是最小的）？",
@@ -741,11 +426,6 @@
       "title": "有哪些看起来很难但做起来很简单的数学题？",
       "url": "https://www.zhihu.com/answer/631136418",
       "summary": "利用二阶矩约束推导分布函数上下界。"
-    },
-    {
-      "title": "标准化和归一化什么区别？",
-      "url": "https://www.zhihu.com/answer/633379185",
-      "summary": "标准化公式用均值和标准差调整变量尺度。"
     },
     {
       "title": "CVPR 2019 有哪些值得关注的亮点？",
@@ -763,11 +443,6 @@
       "summary": "把 ANOVA 的 F 统计量解释为组间方差与组内方差之比。"
     },
     {
-      "title": "ANOVA 是什么？",
-      "url": "https://www.zhihu.com/answer/654021783",
-      "summary": "把总变异分解为组间、组内平方和与均方。"
-    },
-    {
       "title": "为什么样本方差（sample variance）的分母是 n-1？",
       "url": "https://www.zhihu.com/answer/658048814",
       "summary": "从样本均值占用一个自由度解释无偏样本方差的 n-1 分母。"
@@ -783,19 +458,9 @@
       "summary": "以 Cramér–Rao 下界连接 Fisher 信息和估计方差。"
     },
     {
-      "title": "有什么将卡尔曼滤波讲得透彻的书籍或资料？",
-      "url": "https://www.zhihu.com/answer/677409115",
-      "summary": "递推更新预测误差与观测误差的协方差。"
-    },
-    {
       "title": "李雅普诺夫定理的条件该怎么理解，能录一个实例说明嘛？这个公式使用范围更广，但是课本上这个条件不好理解？",
       "url": "https://www.zhihu.com/answer/684052016",
       "summary": "分析单项方差与总方差的相对贡献。"
-    },
-    {
-      "title": "两样本t检验适用于什么条件？",
-      "url": "https://www.zhihu.com/answer/714427915",
-      "summary": "说明独立样本T检验的等方差条件。"
     },
     {
       "title": "「卡方分布」是什么？",
@@ -806,11 +471,6 @@
       "title": "相关系数和R方的关系是什么？",
       "url": "https://www.zhihu.com/answer/739464752",
       "summary": "推导中用协方差与方差表达相关系数。"
-    },
-    {
-      "title": "大部分机器学习算法具有随机性，只需多次实验求平均值即可吗？",
-      "url": "https://www.zhihu.com/answer/746533382",
-      "summary": "分析集成平均对偏差和方差的影响。"
     },
     {
       "title": "如何理解均值回归和马太效应？两者矛盾吗？",
@@ -828,24 +488,9 @@
       "summary": "把二阶中心矩解释为方差。"
     },
     {
-      "title": "时间序列和回归分析有什么本质区别？",
-      "url": "https://www.zhihu.com/answer/789952978",
-      "summary": "用方差最小说明最佳估计量。"
-    },
-    {
       "title": "在标准差相等的条件下，平均数越小，离散程度越大，怎样理解?",
       "url": "https://www.zhihu.com/answer/820017911",
       "summary": "正文解释标准差是数据离散程度的度量，并区分其与平均数的作用。"
-    },
-    {
-      "title": "利率模型里的Vasicek模型和CIR模型的期望方差如何计算，两个模型分别有什么优缺点？",
-      "url": "https://www.zhihu.com/answer/844206726",
-      "summary": "正文利用伊藤等距逐步推导 Vasicek 与 CIR 模型的方差。"
-    },
-    {
-      "title": "如何理解三大抽样分布?",
-      "url": "https://www.zhihu.com/answer/846692080",
-      "summary": "解释方差及相应抽样统计量。"
     },
     {
       "title": "有哪些统计学专业反直觉的知识？",
@@ -863,29 +508,9 @@
       "summary": "正文随后以二阶矩积分展开说明方差的推导方式。"
     },
     {
-      "title": "如何计算均值、标准差和标准误差？",
-      "url": "https://www.zhihu.com/answer/939336033",
-      "summary": "正文给出样本和总体标准差公式，并解释离散程度含义。"
-    },
-    {
-      "title": "请问如何用通俗易懂的一句话解释主成分分析和因子分析？",
-      "url": "https://www.zhihu.com/answer/1002676626",
-      "summary": "正文以方差最大化解释PCA主成分的选择。"
-    },
-    {
-      "title": "实际工程项目中是怎么用卡尔曼滤波的?",
-      "url": "https://www.zhihu.com/answer/1009240518",
-      "summary": "正文明确讲到EKF预测更新中的协方差矩阵。"
-    },
-    {
       "title": "有哪些很容易让普通人误解的学术名词？",
       "url": "https://www.zhihu.com/answer/1040311044",
       "summary": "正文反复以方差齐性说明统计检验前提。"
-    },
-    {
-      "title": "spss中为何方差齐性只有levene检验？",
-      "url": "https://www.zhihu.com/answer/1042596942",
-      "summary": "正文核心对象是不同方差齐性检验。"
     },
     {
       "title": "经验分布函数期望和方差怎么证明？",
@@ -913,16 +538,6 @@
       "summary": "正文给出伯努利变量的方差。"
     },
     {
-      "title": "有什么理论复杂但是实现简单的算法？",
-      "url": "https://www.zhihu.com/answer/1148832134",
-      "summary": "正文以高斯变量方差推导高维点距离。"
-    },
-    {
-      "title": "最近刚接触计量经济学，学得不是很懂，求教一些学习方法？",
-      "url": "https://www.zhihu.com/answer/1150417367",
-      "summary": "正文用估计量方差讨论无偏估计的有效性，并在球形扰动项假设下推导 OLS 方差和 BLUE 性质。"
-    },
-    {
       "title": "为什么样本方差（sample variance）的分母是 n-1？",
       "url": "https://www.zhihu.com/answer/1154243425",
       "summary": "正文完整推导样本方差分母为n-1及无偏修正。"
@@ -933,19 +548,9 @@
       "summary": "正文把位置和动量方差代入能量并求下界。"
     },
     {
-      "title": "SLAM的滑动窗口算法中，在边缘化时，高斯牛顿法的信息矩阵为什么是 优化变量协方差的逆？",
-      "url": "https://www.zhihu.com/answer/1166821333",
-      "summary": "正文完整推导并得到扰动的协方差矩阵。"
-    },
-    {
       "title": "怎样计算圆内任意两点间距离的期望值？",
       "url": "https://www.zhihu.com/answer/1170179102",
       "summary": "正文由分布积分计算方差对应的标准差。"
-    },
-    {
-      "title": "求问描述统计学和推论统计学有什么不同？",
-      "url": "https://www.zhihu.com/answer/1197726716",
-      "summary": "正文详细定义总体方差、样本标准差及多种离散程度指标。"
     },
     {
       "title": "方差分析的基本思想是什么？",
@@ -956,16 +561,6 @@
       "title": "有没有懂统计的，标准误为什么等于标准差除以根号n，求公式推导过程？",
       "url": "https://www.zhihu.com/answer/1269993126",
       "summary": "正文以方差性质推导样本均值的标准误。"
-    },
-    {
-      "title": "SLAM的滑动窗口算法中，在边缘化时，高斯牛顿法的信息矩阵为什么是 优化变量协方差的逆？",
-      "url": "https://www.zhihu.com/answer/1282075969",
-      "summary": "正文给出协方差矩阵的定义并解释其与信息矩阵的关系。"
-    },
-    {
-      "title": "如何通俗易懂地讲解什么是 PCA（主成分分析）？",
-      "url": "https://www.zhihu.com/answer/1304023183",
-      "summary": "正文用方差描述数据离散程度。"
     },
     {
       "title": "可否用人类能听得懂的通俗语言解释样本方差为何除以n-1？",
@@ -981,21 +576,6 @@
       "title": "卡方分布的方差 D(X^2)=2n 如何理解？",
       "url": "https://www.zhihu.com/answer/1417119672",
       "summary": "正文推导卡方分布的方差。"
-    },
-    {
-      "title": "求权重什么时候用主成成分分析法什么时候用熵值法？",
-      "url": "https://www.zhihu.com/answer/1614880202",
-      "summary": "正文以标准差衡量数据波动并用于 CRITIC 权重。"
-    },
-    {
-      "title": "主成分分析法是什么意思？能不能用简单的话解释一下？",
-      "url": "https://www.zhihu.com/answer/1632043065",
-      "summary": "正文从中心化和协方差矩阵推导主成分分析。"
-    },
-    {
-      "title": "怎样用 Excel 做出这样的图？",
-      "url": "https://www.zhihu.com/answer/1652809575",
-      "summary": "正文说明 Z-score 标准化中的均值与标准差。"
     },
     {
       "title": "如何证明两个正态分布的密度函数相乘还是一个正态分布的密度函数？",
@@ -1018,11 +598,6 @@
       "summary": "正文直接讨论或推导「方差」，该引文可作为对应知识叶子的连续原文证据。"
     },
     {
-      "title": "协方差矩阵有什么意义？",
-      "url": "https://www.zhihu.com/answer/1815827187",
-      "summary": "正文直接支持该冻结叶节点。"
-    },
-    {
       "title": "什么是方差齐性检验（说人话）？做两独立样本T检验为什么要先做方差齐性检验？",
       "url": "https://www.zhihu.com/answer/1821869421",
       "summary": "正文用离散程度及分布曲线解释方差，并说明方差齐性的意义。"
@@ -1038,29 +613,9 @@
       "summary": "正文推导回归系数的方差和协方差。"
     },
     {
-      "title": "ARCH GARCH TGARCH EGARCH 、GARCH-M到底有什么优缺点，有什么不同？",
-      "url": "https://www.zhihu.com/answer/1862175250",
-      "summary": "正文用条件方差解释波动率模型。"
-    },
-    {
       "title": "如何证明相关系数的取值范围在-1到1之间？",
       "url": "https://www.zhihu.com/answer/1865486925",
       "summary": "正文通过构造方差和判别式完成相关系数界证明。"
-    },
-    {
-      "title": "统计学专业的学生应该具备哪些必备的知识？",
-      "url": "https://www.zhihu.com/answer/1869251899",
-      "summary": "正文定义方差与标准差以描述数据分布。"
-    },
-    {
-      "title": "市场调查中怎么计算样本量?",
-      "url": "https://www.zhihu.com/answer/1896280787",
-      "summary": "正文把标准差大小与样本离散程度及所需样本量联系起来。"
-    },
-    {
-      "title": "如何来系统地学习统计学？",
-      "url": "https://www.zhihu.com/answer/1914692165",
-      "summary": "正文解释方差的含义、与标准差的关系，并进一步讨论协方差。"
     },
     {
       "title": "十赌九输这句话有根据吗?",
@@ -1068,64 +623,14 @@
       "summary": "正文用方差和截断技巧控制长期收益的尺度。"
     },
     {
-      "title": "为什么样本均值分布服从自由度n的卡方分布，而样本方差分布服从自由度n-1的分布？",
-      "url": "https://www.zhihu.com/answer/2002007751",
-      "summary": "正文利用方差和协方差证明正态变量的独立性。"
-    },
-    {
-      "title": "什么时候用t检验、什么时候用方差分析？",
-      "url": "https://www.zhihu.com/answer/2025393015",
-      "summary": "正文围绕组间方差和组内方差讨论检验选择。"
-    },
-    {
       "title": "如果男女在智力水平上没有差别，但棋类运动女显著弱于男，这是否是对女性的歧视导致的？",
       "url": "https://www.zhihu.com/answer/2133482200",
       "summary": "正文比较两个正态分布的方差，说明方差对分布右尾的影响。"
     },
     {
-      "title": "为什么傅里叶变换可以把时域信号变为频域信号？",
-      "url": "https://www.zhihu.com/answer/2136801931",
-      "summary": "正文给出方差与一阶、二阶矩的关系并解释高斯分布由均值方差决定。"
-    },
-    {
-      "title": "智力低下的人一般都有什么表现？",
-      "url": "https://www.zhihu.com/answer/2167680377",
-      "summary": "正文逐步说明标准差与离均差平方和的计算。"
-    },
-    {
       "title": "能分享一道如果“注意不到”就出不来的数学题吗？",
       "url": "https://www.zhihu.com/answer/2173493623",
       "summary": "题目与推导核心是给定多个四元组方差后求另一个方差的极值。"
-    },
-    {
-      "title": "如何理解线性判别分析（LDA）算法？能够简洁明了地说明一下LDA算法的中心思想吗？",
-      "url": "https://www.zhihu.com/answer/2182905513",
-      "summary": "正文用组间方差和组内方差构造 LDA 的优化目标。"
-    },
-    {
-      "title": "如何通俗的理解概率密度函数？",
-      "url": "https://www.zhihu.com/answer/2251981592",
-      "summary": "正文用密度积分定义连续随机变量的方差。"
-    },
-    {
-      "title": "为什么日波动率1%对应年化波动率是20%而不是16%？",
-      "url": "https://www.zhihu.com/answer/2271071367",
-      "summary": "正文用标准差定义日波动率并解释其与收益率的换算。"
-    },
-    {
-      "title": "请问关于卡尔曼滤波算法核心五公式的来源，与贝叶斯公式（准则）有什么具体关系？",
-      "url": "https://www.zhihu.com/answer/2306574174",
-      "summary": "正文用协方差外推和卡尔曼增益描述估计不确定性。"
-    },
-    {
-      "title": "卡尔曼滤波（Kalman Filter）有哪些推导方式？",
-      "url": "https://www.zhihu.com/answer/2313713745",
-      "summary": "正文详细定义方差和标准差，并用其衡量测量精度。"
-    },
-    {
-      "title": "如何通俗直白地理解卡尔曼滤波算法？",
-      "url": "https://www.zhihu.com/answer/2313715541",
-      "summary": "正文定义方差、标准差并用其解释传感器精度。"
     },
     {
       "title": "有了方差为什么还需要标准差？",
@@ -1143,26 +648,6 @@
       "summary": "正文推导样本方差为何除以 n-1，并证明其是总体方差的无偏估计。"
     },
     {
-      "title": "单因素方差分析结果怎么看比较?",
-      "url": "https://www.zhihu.com/answer/2419548375",
-      "summary": "正文把方差齐性列为单因素方差分析的应用条件。"
-    },
-    {
-      "title": "如何理解三大抽样分布?",
-      "url": "https://www.zhihu.com/answer/2436398486",
-      "summary": "正文解释样本方差的抽样分布及其相对频数含义。"
-    },
-    {
-      "title": "心理学实验被试内设计中被试的数目如何确定？",
-      "url": "https://www.zhihu.com/answer/2442382643",
-      "summary": "正文把方差齐性检验作为选择独立样本t检验方法的前提。"
-    },
-    {
-      "title": "概率分布就很好，为什么还要提出概率密度的概念？",
-      "url": "https://www.zhihu.com/answer/2452717368",
-      "summary": "正文以到期望距离平方的期望定义方差。"
-    },
-    {
       "title": "考试砸了回到家，母亲打我的概率是 1/2，父亲打我的概率也是 1/2，那我被打的概率是多少？",
       "url": "https://www.zhihu.com/answer/2468380667",
       "summary": "正文计算两个伯努利随机变量的方差。"
@@ -1178,36 +663,6 @@
       "summary": "正文定义方差并给出方差计算公式。"
     },
     {
-      "title": "什么是方差齐性检验（说人话）？做两独立样本T检验为什么要先做方差齐性检验？",
-      "url": "https://www.zhihu.com/answer/2483800816",
-      "summary": "正文用方差和样本方差推导 t 统计量。"
-    },
-    {
-      "title": "协方差矩阵有什么意义？",
-      "url": "https://www.zhihu.com/answer/2501415844",
-      "summary": "正文从定义和公式说明协方差衡量两个变量的总体误差，并把它与方差联系起来。"
-    },
-    {
-      "title": "问大家一个问题，统计学问题，什么时候用T检验，什么时候用F检验？",
-      "url": "https://www.zhihu.com/answer/2502414922",
-      "summary": "正文在两组独立样本的 T 检验前先做 F 检验，以判断两总体方差是否相同。"
-    },
-    {
-      "title": "关于假设检验，T检验 F检验 卡方检验 和 ANOVA 这些检验在什么情况下使用，它们的区别是什么？",
-      "url": "https://www.zhihu.com/answer/2510500067",
-      "summary": "正文把方差齐性作为方差分析的前提，并结合案例说明其检验流程。"
-    },
-    {
-      "title": "什么时候用t检验、什么时候用方差分析？",
-      "url": "https://www.zhihu.com/answer/2511700702",
-      "summary": "正文把方差分析解释为将总变异按来源分解，并用组内与组间变异比较得到 F 值。"
-    },
-    {
-      "title": "什么是量化交易的Barra多因子模型？",
-      "url": "https://www.zhihu.com/answer/2536393911",
-      "summary": "用协方差矩阵分解组合方差，说明系统性风险与特质风险。"
-    },
-    {
       "title": "如何真正从本质上理解数学?",
       "url": "https://www.zhihu.com/answer/2600766030",
       "summary": "比较方差与极差，说明方差更能反映数据整体的离散程度。"
@@ -1218,34 +673,9 @@
       "summary": "把总变异分解为组内与组间变异，并用均方比构造 F 统计量。"
     },
     {
-      "title": "相关分析、方差分析、回归分析这三者有什么区别和关系，分别在什么场合使用？",
-      "url": "https://www.zhihu.com/answer/2632619697",
-      "summary": "解释单因素方差分析如何对应分类自变量的回归与方差分解。"
-    },
-    {
-      "title": "transformer中，attention矩阵的计算为什么要除以dk^(1/2)呢？请先看问题描述？",
-      "url": "https://www.zhihu.com/answer/2666737042",
-      "summary": "推导点积方差随维度 dk 增长，并用除以 sqrt(dk) 将其归一化为单位方差。"
-    },
-    {
       "title": "若X和Y独立同正态分布，那么(X^2+Y^2)/(X+Y)服从怎样的分布？",
       "url": "https://www.zhihu.com/answer/2680190865",
       "summary": "正文在近似正态模型中给出方差参数，并用它描述目标变量的离散程度。"
-    },
-    {
-      "title": "在一个组里，老师为了发论文教我调seed让model有效，这是正常的吗？该怎么办？",
-      "url": "https://www.zhihu.com/answer/2693151808",
-      "summary": "正文用多个随机种子的结果波动说明调参风险，并明确以方差等指标衡量算法稳定性。"
-    },
-    {
-      "title": "强化学习中action value减去state value之后怎么就减小了方差，方差不是不变吗？",
-      "url": "https://www.zhihu.com/answer/2695297743",
-      "summary": "正文明确计算有 baseline 和无 baseline 两种估计的方差，并求出使方差缩减最大的 baseline。"
-    },
-    {
-      "title": "方差分析的基本思想是什么？",
-      "url": "https://www.zhihu.com/answer/2738325991",
-      "summary": "正文分别计算组内与组间平方和，用均方和 F 统计量衡量系统差异相对随机波动的强弱。"
     },
     {
       "title": "若X服从正态分布，则X的正弦值(sin)、余弦值(cos)是否存在一个概率密度函数(PDF)?",
@@ -1256,26 +686,6 @@
       "title": "为什么样本方差（sample variance）的分母是 n-1？",
       "url": "https://www.zhihu.com/answer/2966650249",
       "summary": "正文用自由度解释样本方差无偏估计为何除以 n−1，并比较除以 n 的偏差。"
-    },
-    {
-      "title": "如何通俗直白地理解卡尔曼滤波算法？",
-      "url": "https://www.zhihu.com/answer/2983629923",
-      "summary": "正文以融合结果方差最小为目标，对权重求导并解得 Kalman 增益。"
-    },
-    {
-      "title": "扩散模型（diffusion model）为什么不训练一个模型，使用x(t)预测x(t-1)?",
-      "url": "https://www.zhihu.com/answer/3001481574",
-      "summary": "正文把时间步解释为噪声强度，通过累乘系数说明噪声方差随 t 增大而增大。"
-    },
-    {
-      "title": "如何通俗易懂的说明t分布 和f分布和卡方分布呢？",
-      "url": "https://www.zhihu.com/answer/3089301175",
-      "summary": "正文给出两样本方差比较的 F 统计量及两自由度，展开说明样本方差之比与方差齐性的关系。"
-    },
-    {
-      "title": "大家有没有卡尔曼滤波Kalman Filter的实用经验？",
-      "url": "https://www.zhihu.com/answer/3114764336",
-      "summary": "正文在卡尔曼滤波的预测与更新步骤中计算和传播状态协方差，体现方差和协方差用于刻画估计不确定性。"
     },
     {
       "title": "如何看待「p 值已死」这种说法？",
@@ -1293,29 +703,14 @@
       "summary": "正文把方差解释为两次独立抽样差的平方期望的一半，并推广到一般距离型离散度量。"
     },
     {
-      "title": "T分布、F分布、Z分布、卡方分布如何通俗理解？",
-      "url": "https://www.zhihu.com/answer/3316448243",
-      "summary": "正文用方差刻画组内数据波动程度，并把方差齐性作为方差分析的前提条件。"
-    },
-    {
       "title": "有哪些经典的反直觉数学结论？",
       "url": "https://www.zhihu.com/answer/3336291557",
       "summary": "正文用方差有界作为应用弱大数定律的条件，说明平方和的波动趋于零。"
     },
     {
-      "title": "谈谈为何Yann LeCun宣称“其已经做好放弃概率论的准备”及其对于AI基础理论研究的影响？",
-      "url": "https://www.zhihu.com/answer/3436028244",
-      "summary": "正文用标准差衡量模型输出的离散程度，并讨论降低它如何减少预测的不确定性。"
-    },
-    {
       "title": "2024 年阿贝尔奖授予解释随机性的数学家 Michel Talagrand，这项研究有哪些意义？",
       "url": "https://www.zhihu.com/answer/3441853404",
       "summary": "正文给出布尔函数方差的定义，并介绍Poincare、KKL和Talagrand等方差上界。"
-    },
-    {
-      "title": "模型预测控制（MPC）和基于模型的强化学习（Model-based RL）之间的联系是什么？",
-      "url": "https://www.zhihu.com/answer/3504819938",
-      "summary": "正文用均匀采样与等间隔采样的例子具体比较方差和样本差异度。"
     },
     {
       "title": "百分之一概率跟六百分之六概率，实际发生的几率一样吗？",
@@ -1328,54 +723,9 @@
       "summary": "正文用协方差和二次型矩阵表示推导随机变量线性组合的方差公式。"
     },
     {
-      "title": "transformer中的attention为什么scaled?",
-      "url": "https://www.zhihu.com/answer/20660902637",
-      "summary": "正文推导高维点积的方差随维度增长，并说明大方差如何令 softmax 输出接近 one-hot。"
-    },
-    {
-      "title": "分寝室，是否存在一个多项式时间解法?",
-      "url": "https://www.zhihu.com/answer/50893366662",
-      "summary": "正文把聚类方差表述为到中心点的距离平方和，并证明它与组内两两距离平方平均值的关系。"
-    },
-    {
-      "title": "为什么高维空间下距离度量逐渐失效？",
-      "url": "https://www.zhihu.com/answer/62648611549",
-      "summary": "正文推导平方距离的方差及相对方差，用其趋于零解释距离集中。"
-    },
-    {
       "title": "你们觉得数字 1 2 3 4 5 6 7 8 9 10 分别是什么颜色的？",
       "url": "https://www.zhihu.com/answer/67685166974",
       "summary": "正文计算各颜色分量的方差，并用其解释不同答主选择的一致性或分散程度。"
-    },
-    {
-      "title": "如何将学习类智能方法与传统控制方法相结合？",
-      "url": "https://www.zhihu.com/answer/99820722456",
-      "summary": "正文用策略概率的方差解释贝叶斯融合为何在训练前期偏向经典控制、后期偏向强化学习。"
-    },
-    {
-      "title": "为什么大家都在吹deepseek的GRPO？",
-      "url": "https://www.zhihu.com/answer/100072303131",
-      "summary": "正文说明组内归一化用于压低采样导致的奖励方差，并指出组均值噪声仍会影响训练。"
-    },
-    {
-      "title": "opencv如何识别低对比度露珠?",
-      "url": "https://www.zhihu.com/answer/1890146709268563905",
-      "summary": "正文用高斯滤波计算邻域均值和二阶矩之差，以局部方差检测露珠边缘并给出可运行代码。"
-    },
-    {
-      "title": "卡尔曼滤波方程组的深刻理解有哪些？",
-      "url": "https://www.zhihu.com/answer/1890583049370063516",
-      "summary": "正文围绕卡尔曼滤波的方差更新、权重调整和误差收敛讨论方差计算。"
-    },
-    {
-      "title": "强化学习中action value减去state value之后怎么就减小了方差，方差不是不变吗？",
-      "url": "https://www.zhihu.com/answer/1891095552030115567",
-      "summary": "正文展开优势函数的方差，并解释减去相关基线后为何能降低策略梯度的方差。"
-    },
-    {
-      "title": "强化学习中，off policy和on policy方法有优劣之分吗？",
-      "url": "https://www.zhihu.com/answer/1893675483549397467",
-      "summary": "正文比较蒙特卡洛、TD 和 GAE 的偏差与方差，明确讨论随机估计的方差缩减和权衡。"
     },
     {
       "title": "费雪信息 (Fisher information) 的直观意义是什么？",
@@ -1498,16 +848,6 @@
       "summary": "正文写出四个数偏离平均数的平方和并除以四，利用方差方程完成分类讨论。"
     },
     {
-      "title": "为什么会存在异方差？",
-      "url": "https://zhuanlan.zhihu.com/p/20041667",
-      "summary": "正文用组内样本数变化造成的误差方差差异，讨论误差方差与解释变量之间关系的异方差问题。"
-    },
-    {
-      "title": "线性模型的异方差问题",
-      "url": "https://zhuanlan.zhihu.com/p/20046060",
-      "summary": "正文用遗漏变量模型和 Breusch-Pagan 检验解释误差方差与解释变量相关。"
-    },
-    {
       "title": "每次均匀随机走0-1米，走100米需要几次？",
       "url": "https://zhuanlan.zhihu.com/p/20056219",
       "summary": "正文给出步数方差的更新理论近似，并利用单步步长方差计算具体数值和标准差。"
@@ -1518,29 +858,9 @@
       "summary": "正文用方差和标准差刻画数据之间的离散程度，并将方差引入方差分析。"
     },
     {
-      "title": "线性回归建模中残差异方差性的分析和处理",
-      "url": "https://zhuanlan.zhihu.com/p/20700731",
-      "summary": "正文把残差方差是否为常数作为同方差与异方差的判据，并分析极端残差对参数估计的影响。"
-    },
-    {
-      "title": "批判性思维教程十一：一个不懂统计学的人不是一个合格的思想者（未完）",
-      "url": "https://zhuanlan.zhihu.com/p/21264076",
-      "summary": "正文说明标准差衡量数据相对均值的离散程度，并讨论其计算方式和大小含义。"
-    },
-    {
       "title": "线性代数勾搭数据分析【1】",
       "url": "https://zhuanlan.zhihu.com/p/21302998",
       "summary": "正文解释方差描述数据离散程度，并把它用于判断和选择主成分。"
-    },
-    {
-      "title": "PCA的数学原理(转)",
-      "url": "https://zhuanlan.zhihu.com/p/21580949",
-      "summary": "正文把投影后数据尽量分散的降维目标表述为最大化方差，并给出方差的计算式。"
-    },
-    {
-      "title": "从高斯分布、机器人误差、EM算法到小球检测",
-      "url": "https://zhuanlan.zhihu.com/p/21648507",
-      "summary": "正文解释标准差与方差对高斯分布扩散程度的影响，并用最大似然估计求方差参数。"
     },
     {
       "title": "CNN数值——xavier（上）",
@@ -1558,69 +878,14 @@
       "summary": "正文用标准差度量样本偏离平均数的程度，并讨论样本量与离散程度的关系。"
     },
     {
-      "title": "VAE（1）——从KL说起",
-      "url": "https://zhuanlan.zhihu.com/p/22464760",
-      "summary": "正文具体比较高斯分布方差变化对 KL 散度各项的影响，并求使散度最小的均值与方差。"
-    },
-    {
-      "title": "【数据降维】主成分分析法",
-      "url": "https://zhuanlan.zhihu.com/p/23299597",
-      "summary": "正文用各主成分解释的方差比例判断降维后保留了多少信息。"
-    },
-    {
       "title": "为什么你的朋友比你更受欢迎——生活中的运筹学【0】",
       "url": "https://zhuanlan.zhihu.com/p/23302653",
       "summary": "正文用二阶矩与一阶矩计算方差，并由方差非负推出友谊悖论。"
     },
     {
-      "title": "【机器学习】统计学习引论",
-      "url": "https://zhuanlan.zhihu.com/p/23798202",
-      "summary": "正文把预测均方误差分解为偏差与方差，并解释模型灵活度增加时方差增大以及二者需要权衡。"
-    },
-    {
-      "title": "Learn R  |  数据降维之主成分分析（上）",
-      "url": "https://zhuanlan.zhihu.com/p/23776251",
-      "summary": "正文以各主成分方差从大到小排序，按方差贡献保留前几个主成分来实现降维。"
-    },
-    {
-      "title": "卡尔曼滤波算法--核心公式推导导论",
-      "url": "https://zhuanlan.zhihu.com/p/24312995",
-      "summary": "正文把卡尔曼增益解释为最小化误差协方差矩阵的参数，并讨论过程和量测噪声的协方差。"
-    },
-    {
       "title": "浅谈相关系数",
       "url": "https://zhuanlan.zhihu.com/p/24765372",
       "summary": "正文通过零方差与退化情形讨论方差对相关系数定义的影响。"
-    },
-    {
-      "title": "抽样分布篇之七：抽样分布总结",
-      "url": "https://zhuanlan.zhihu.com/p/25250959",
-      "summary": "正文推导总体均值未知时样本方差的卡方分布及自由度变化，实质讲解样本方差的分布。"
-    },
-    {
-      "title": "抽样分布篇之八：什么是自由度",
-      "url": "https://zhuanlan.zhihu.com/p/25270081",
-      "summary": "正文由约束条件解释样本方差为何损失一个自由度并以 n-1 作为分母。"
-    },
-    {
-      "title": "抽样分布篇之九：参数的点估计和区间估计",
-      "url": "https://zhuanlan.zhihu.com/p/25331150",
-      "summary": "正文讨论总体方差的点估计、无偏性以及基于卡方分布的方差区间估计。"
-    },
-    {
-      "title": "克里金(Kriging)插值的原理与公式推导",
-      "url": "https://zhuanlan.zhihu.com/p/25377842",
-      "summary": "正文以估计误差方差为目标函数，并假设空间属性具有常数方差。"
-    },
-    {
-      "title": "说说卡尔曼滤波",
-      "url": "https://zhuanlan.zhihu.com/p/25598462",
-      "summary": "正文把方差解释为变量不确定性的量度，并推导预测、观测和更新后的误差方差。"
-    },
-    {
-      "title": "强化学习入门 第四讲 时间差分法（TD方法）",
-      "url": "https://zhuanlan.zhihu.com/p/25913410",
-      "summary": "正文以方差比较蒙特卡罗和时间差分估计，解释 TD 目标只涉及一步随机转移因而波动更小。"
     },
     {
       "title": "那些你知道的和你不知道的性质(I):从简单的一维高斯分布讲起",
@@ -1633,39 +898,9 @@
       "summary": "正文解释方差是协方差的特殊情况，并用协方差矩阵刻画随机向量偏离中心的程度。"
     },
     {
-      "title": "读了本文，你就懂了概率分布",
-      "url": "https://zhuanlan.zhihu.com/p/26810566",
-      "summary": "正文给出离散随机变量的方差公式，并举例计算方差和标准差以衡量波动。"
-    },
-    {
-      "title": "实时渲染中的软阴影技术",
-      "url": "https://zhuanlan.zhihu.com/p/26853641",
-      "summary": "正文通过深度的一阶矩和二阶矩计算方差，构造 VSM 的切比雪夫概率近似。"
-    },
-    {
-      "title": "PCA的数学原理及推导证明",
-      "url": "https://zhuanlan.zhihu.com/p/26951643",
-      "summary": "正文以降维后特征的方差衡量信息保留程度，并把最大化分散程度作为 PCA 的主成分准则。"
-    },
-    {
-      "title": "线性模型 vs. Logistic模型——离散选择模型之二",
-      "url": "https://zhuanlan.zhihu.com/p/27149706",
-      "summary": "正文由二分类因变量的期望与方差推导异方差，说明它违反线性回归的同方差假设。"
-    },
-    {
       "title": "数据分析入门-统计学",
       "url": "https://zhuanlan.zhihu.com/p/27447080",
       "summary": "正文从均值差的平方和推广到方差，再通过开方解释标准差及数据离散程度。"
-    },
-    {
-      "title": "几何分布和二项分布",
-      "url": "https://zhuanlan.zhihu.com/p/27648686",
-      "summary": "正文用随机变量偏离期望的程度解释方差，并给出几何分布和二项分布的方差公式。"
-    },
-    {
-      "title": "YJango的Batch Normalization--介绍",
-      "url": "https://zhuanlan.zhihu.com/p/27938792",
-      "summary": "正文按批次均值与方差标准化激活值，并用 epsilon 保证标准差的数值稳定。"
     },
     {
       "title": "常用不等式",
@@ -1673,264 +908,9 @@
       "summary": "正文定义随机变量方差，并用方差表述切比雪夫不等式。"
     },
     {
-      "title": "统计学笔记|数理统计知识点概要（1）",
-      "url": "https://zhuanlan.zhihu.com/p/29068570",
-      "summary": "正文定义样本方差与标准差，并通过求期望证明分母取 n-1 可得到总体方差的无偏估计。"
-    },
-    {
-      "title": "统计学笔记|数理统计知识点概要（4）",
-      "url": "https://zhuanlan.zhihu.com/p/29154307",
-      "summary": "正文具体讨论单个方差和两个总体方差比的检验统计量及拒绝域，中心内容涉及方差比较。"
-    },
-    {
-      "title": "统计学笔记|数理统计知识点概要（5）",
-      "url": "https://zhuanlan.zhihu.com/p/29208753",
-      "summary": "正文引入方差分析，并把总偏差平方和分解为组内误差平方和与组间效应平方和。"
-    },
-    {
-      "title": "从贝叶斯定理到概率分布：综述概率论基本定义",
-      "url": "https://zhuanlan.zhihu.com/p/29503509",
-      "summary": "正文由样本方差说明数据偏离平均值的程度，并给出常见分布方差公式。"
-    },
-    {
-      "title": "SPSS统计分析:多因素方差分析及案例",
-      "url": "https://zhuanlan.zhihu.com/p/29559936",
-      "summary": "正文通过组间、组内平方和及其均值解释多因素方差分析，并以方差分解比较不同因素水平。"
-    },
-    {
-      "title": "统计学笔记|数理统计知识点概要（6）",
-      "url": "https://zhuanlan.zhihu.com/p/29480270",
-      "summary": "正文解释总变差、误差平方和和效应平方和，并说明它们如何度量数据及组均值间的差异。"
-    },
-    {
-      "title": "【转载】标准差和标准误差以及什么时候使用",
-      "url": "https://zhuanlan.zhihu.com/p/30043259",
-      "summary": "正文从偏差平方和出发解释标准差，并讨论样本标准差的修正，实质讲解了数据离散程度。"
-    },
-    {
-      "title": "SPSS统计：单因素方差分析与单变量方差分析",
-      "url": "https://zhuanlan.zhihu.com/p/30184592",
-      "summary": "正文解释平方和、组间与组内变异以及均方的构造，实质讲解了方差分析中的离散程度。"
-    },
-    {
-      "title": "方差分析——概念和原理",
-      "url": "https://zhuanlan.zhihu.com/p/30323106",
-      "summary": "正文通过比较总体方差的组内估计与组间估计来构造方差分析的核心判据。"
-    },
-    {
-      "title": "30分钟读懂《商务与经济统计》（1）",
-      "url": "https://zhuanlan.zhihu.com/p/30428161",
-      "summary": "正文介绍极差、四分位距、方差和标准差等衡量数据变异程度的统计量。"
-    },
-    {
-      "title": "T检验、F检验和统计学意义（P值或sig值）",
-      "url": "https://zhuanlan.zhihu.com/p/30511458",
-      "summary": "正文讨论总体方差是否相等以及方差齐性对两样本 t 检验选择的影响。"
-    },
-    {
-      "title": "高斯混合模型（GMM）",
-      "url": "https://zhuanlan.zhihu.com/p/30483076",
-      "summary": "正文从一维方差推广到多维协方差，并在 M 步给出各子模型协方差矩阵的更新公式。"
-    },
-    {
-      "title": "结构方程模型建模思路及Amos操作--模型匹适度检验",
-      "url": "https://zhuanlan.zhihu.com/p/31665403",
-      "summary": "正文具体讨论误差方差、残差方差及其为负时的模型诊断意义。"
-    },
-    {
-      "title": "如何战胜大乐透 高级篇",
-      "url": "https://zhuanlan.zhihu.com/p/31702103",
-      "summary": "正文用标准差衡量开奖次数的离散程度，并与随机模拟得到的范围比较。"
-    },
-    {
-      "title": "拿到原始数据就直接统计分析，慢着！你听说过数据标准化处理吗？",
-      "url": "https://zhuanlan.zhihu.com/p/32267535",
-      "summary": "正文把 Z-score 标准化定义为按标准差缩放，并说明处理后均值为 0、标准差为 1，具体使用方差尺度。"
-    },
-    {
-      "title": "线性回归中的相关度和决定系数",
-      "url": "https://zhuanlan.zhihu.com/p/32335608",
-      "summary": "正文把总平方和拆成回归可解释部分与残差不可解释部分，并通过该方差分解定义决定系数。"
-    },
-    {
-      "title": "SPSS超详细操作：两因素多元方差分析(Two-way Manova)",
-      "url": "https://zhuanlan.zhihu.com/p/32429225",
-      "summary": "正文检验各组误差方差是否相等，并说明方差不齐时的数据转换或直接分析处理。"
-    },
-    {
-      "title": "PCA主成分分析学习总结",
-      "url": "https://zhuanlan.zhihu.com/p/32412043",
-      "summary": "正文以投影后数据的方差衡量信息量，并把最大化方差作为PCA的判别准则。"
-    },
-    {
-      "title": "Eviews---异方差",
-      "url": "https://zhuanlan.zhihu.com/p/32431464",
-      "summary": "正文讨论误差方差随解释变量变化形成的异方差，并介绍图形法及修正方法。"
-    },
-    {
-      "title": "计量经济学第四次笔记（工具变量）",
-      "url": "https://zhuanlan.zhihu.com/p/32443865",
-      "summary": "正文比较OLS与IV估计量的方差，并说明弱工具变量导致估计方差和有效性恶化。"
-    },
-    {
-      "title": "理解机器学习中的 L2 正则化",
-      "url": "https://zhuanlan.zhihu.com/p/32488420",
-      "summary": "正文推导偏置-方差分解，并比较最小二乘与岭回归的预测方差。"
-    },
-    {
-      "title": "统计学-线性回归中的假设检验-20180108",
-      "url": "https://zhuanlan.zhihu.com/p/32750128",
-      "summary": "正文把因变量总变动分解为回归平方和与残差平方和，并用残差平方和衡量模型拟合优劣。"
-    },
-    {
-      "title": "时间序列分析（二）:AR 模型",
-      "url": "https://zhuanlan.zhihu.com/p/33677770",
-      "summary": "正文给出平稳 AR(1) 过程方差公式，并讨论不同滞后系数对应的波动。"
-    },
-    {
-      "title": "OLS 线性回归的性质：高斯马尔科夫定理",
-      "url": "https://zhuanlan.zhihu.com/p/34119477",
-      "summary": "正文用估计量方差衡量波动，推导OLS协方差矩阵并比较无偏估计的方差。"
-    },
-    {
-      "title": "一个Outlier的江湖 -- 经典统计观",
-      "url": "https://zhuanlan.zhihu.com/p/34342025",
-      "summary": "正文解释方差是刻画一组数据离散程度的整体特征，并用方差占比和自由度介绍多组数据检验。"
-    },
-    {
-      "title": "SPC系列10：Ppk和Cpk有什么区别？",
-      "url": "https://zhuanlan.zhihu.com/p/34379471",
-      "summary": "正文通过总体标准差与子组内标准差区分过程变差的构成，解释子组间变差如何影响 Ppk 和 Cpk。"
-    },
-    {
-      "title": "时间序列分析",
-      "url": "https://zhuanlan.zhihu.com/p/35069699",
-      "summary": "正文以均值、方差和自协方差的恒定性定义弱平稳，并进一步讨论条件异方差。"
-    },
-    {
-      "title": "利用python进行时间序列分析——数据挖掘",
-      "url": "https://zhuanlan.zhihu.com/p/35128342",
-      "summary": "正文以常数均值和方差定义平稳序列，并讨论 ARCH 与 GARCH 中随时间变化的方差。"
-    },
-    {
-      "title": "F分布",
-      "url": "https://zhuanlan.zhihu.com/p/35262355",
-      "summary": "正文讨论样本方差与总体方差的关系、自由度变化，以及用两样本方差比进行齐性检验。"
-    },
-    {
-      "title": "02.[必读]均值、方差、标准差",
-      "url": "https://zhuanlan.zhihu.com/p/35435231",
-      "summary": "正文系统讲解总体方差、样本方差、标准差及方差计算公式中偏差平方和与分母的含义。"
-    },
-    {
-      "title": "计量经济学证明常需要用的一些定理",
-      "url": "https://zhuanlan.zhihu.com/p/35756859",
-      "summary": "正文给出迭代方差定律，将总方差分解为条件方差期望与条件期望的方差。"
-    },
-    {
-      "title": "基于物理的环境光渲染一",
-      "url": "https://zhuanlan.zhihu.com/p/34741174",
-      "summary": "正文定义方差与标准差，推导方差化简公式，并用方差分析蒙特卡罗估计和重要度采样。"
-    },
-    {
       "title": "帕斯卡分布：两个数学期望，一个方差？",
       "url": "https://zhuanlan.zhihu.com/p/36270529",
       "summary": "正文利用独立随机变量方差的可加性推导两种帕斯卡分布的方差并作比较。"
-    },
-    {
-      "title": "机器学习的数学基础-（三、概率论和数理统计）",
-      "url": "https://zhuanlan.zhihu.com/p/36584335",
-      "summary": "正文给出方差定义、离散与连续计算公式及其数字特征性质。"
-    },
-    {
-      "title": "卡尔曼滤波：从入门到精通",
-      "url": "https://zhuanlan.zhihu.com/p/36745755",
-      "summary": "正文推导状态更新前后的协方差递推，并解释噪声导致预测不确定性增大。"
-    },
-    {
-      "title": "OLS 线性回归的假设检验：t  检验和 F 检验",
-      "url": "https://zhuanlan.zhihu.com/p/36782834",
-      "summary": "正文在同方差假设下推导 OLS 估计量协方差矩阵与误差方差的无偏估计。"
-    },
-    {
-      "title": "用EXCEL画交互效应图",
-      "url": "https://zhuanlan.zhihu.com/p/36785799",
-      "summary": "正文解释方差是变量与自身协方差的特例，并读取协方差矩阵对角线用于斜率计算。"
-    },
-    {
-      "title": "计量经济学 | 从最简单的模型开始",
-      "url": "https://zhuanlan.zhihu.com/p/37058255",
-      "summary": "正文推导估计量方差并给出误差项方差的自由度修正估计。"
-    },
-    {
-      "title": "初学机器学习：直观解读KL散度的数学概念",
-      "url": "https://zhuanlan.zhihu.com/p/37452654",
-      "summary": "正文给出二项分布的方差公式，并用成功概率取 0、0.5、1 时的波动解释方差含义。"
-    },
-    {
-      "title": "多变量相关性分析(一个因变量与多自变量)",
-      "url": "https://zhuanlan.zhihu.com/p/37605060",
-      "summary": "正文通过样本方差与R²的数值例子说明因变量波动程度如何影响回归评价。"
-    },
-    {
-      "title": "主成分分析（PCA）原理详解",
-      "url": "https://zhuanlan.zhihu.com/p/37777074",
-      "summary": "正文定义样本方差并比较方差与协方差的计算维度，作为PCA保留最大方差方向的依据。"
-    },
-    {
-      "title": "如何直观地理解「协方差矩阵」？",
-      "url": "https://zhuanlan.zhihu.com/p/37609917",
-      "summary": "正文定义方差并以其度量单个随机变量的离散程度，再构造协方差矩阵的对角线。"
-    },
-    {
-      "title": "概率论与统计学：离散型和连续型随机变量的概率分布",
-      "url": "https://zhuanlan.zhihu.com/p/38224194",
-      "summary": "正文把方差定义为随机变量到期望距离的平方期望，并列出各主要分布的方差公式。"
-    },
-    {
-      "title": "带你正确理解 Hurst 指数和分数布朗运动",
-      "url": "https://zhuanlan.zhihu.com/p/38282038",
-      "summary": "正文以标准差标准化波动范围得到重标极差，并用其随区间长度的幂律关系估计 Hurst 指数。"
-    },
-    {
-      "title": "布朗运动、伊藤引理、BS 公式（前篇）",
-      "url": "https://zhuanlan.zhihu.com/p/38293827",
-      "summary": "正文说明布朗运动增量方差与时间区间长度成正比，并据此解释波动随时间的扩张。"
-    },
-    {
-      "title": "R语言-多元回归分析",
-      "url": "https://zhuanlan.zhihu.com/p/38306630",
-      "summary": "正文用判定系数说明预测变量解释的响应变量方差比例，并结合估计标准误差评价回归拟合。"
-    },
-    {
-      "title": "写给你的金融时间序列分析：初级篇",
-      "url": "https://zhuanlan.zhihu.com/p/38321845",
-      "summary": "正文推导随机游走的方差随时间线性增长，并据此说明其非平稳性和长期波动扩大。"
-    },
-    {
-      "title": "写给你的金融时间序列分析：进阶篇",
-      "url": "https://zhuanlan.zhihu.com/p/38322333",
-      "summary": "正文解释条件异方差与波动聚类，指出 ARMA 模型无法处理随时间变化的收益率方差。"
-    },
-    {
-      "title": "t-test",
-      "url": "https://zhuanlan.zhihu.com/p/38243421",
-      "summary": "正文以方差和标准差衡量组内离散程度，并据两组方差是否相同选择 t 检验公式。"
-    },
-    {
-      "title": "协方差矩阵的 Newey-West 调整",
-      "url": "https://zhuanlan.zhihu.com/p/38506157",
-      "summary": "正文推导因子收益率协方差矩阵并区分个股特异性方差，说明样本方差与协方差矩阵的估计。"
-    },
-    {
-      "title": "Barra 模型的填坑、讨论帖",
-      "url": "https://zhuanlan.zhihu.com/p/38565479",
-      "summary": "正文以特异性波动率和协方差矩阵讨论风险离散程度，并用 Bias statistic 衡量估计偏差。"
-    },
-    {
-      "title": "常用的数据分析方法汇总",
-      "url": "https://zhuanlan.zhihu.com/p/39214084",
-      "summary": "正文把方差列为衡量数据离散程度的指标，并进一步介绍方差分析的使用条件和多种分类。"
     },
     {
       "title": "伊藤引理 --- 浅述",
@@ -1943,34 +923,9 @@
       "summary": "正文定义方差并说明其衡量离散程度，进一步讨论平方尺度和标准差的关系。"
     },
     {
-      "title": "概率机器人——扩展卡尔曼滤波、无迹卡尔曼滤波",
-      "url": "https://zhuanlan.zhihu.com/p/41767489",
-      "summary": "正文用 sigma 点和权重计算非线性变换后输出的方差，并给出多维情形的协方差公式。"
-    },
-    {
       "title": "最小二乘法与高斯-马尔可夫定理",
       "url": "https://zhuanlan.zhihu.com/p/43387521",
       "summary": "正文计算最小二乘估计的方差，并通过与任意线性无偏估计的方差比较证明其最优性。"
-    },
-    {
-      "title": "从基础入手理解计量模型和识别（二）",
-      "url": "https://zhuanlan.zhihu.com/p/43606376",
-      "summary": "正文用X的方差和协方差条件识别斜率，并讨论方差存在性对模型识别的影响。"
-    },
-    {
-      "title": "数据分析方法——主成分分析（PCA）",
-      "url": "https://zhuanlan.zhihu.com/p/44453206",
-      "summary": "正文以投影后数据的方差衡量信息保留程度，并选择方差最大的方向作为主元。"
-    },
-    {
-      "title": "浅谈「正定矩阵」和「半正定矩阵」",
-      "url": "https://zhuanlan.zhihu.com/p/44860862",
-      "summary": "正文把任意方向的二次型解释为该方向上的方差，并由方差非负证明协方差矩阵半正定。"
-    },
-    {
-      "title": "回归分析|笔记整理（1）——引入，一元线性回归（上）",
-      "url": "https://zhuanlan.zhihu.com/p/45149297",
-      "summary": "正文推导两个回归系数估计量的方差与协方差，并据此讨论估计精度。"
     },
     {
       "title": "“锚定效应”的“理性”统计学解释",
@@ -1978,109 +933,9 @@
       "summary": "正文用偏差与方差的权衡解释 James-Stein 估计为何通过收缩降低均方误差。"
     },
     {
-      "title": "笔记: Batch Normalization及其反向传播",
-      "url": "https://zhuanlan.zhihu.com/p/45614576",
-      "summary": "正文计算 mini-batch 均值和方差，并继续推导方差对输入与均值的偏导。"
-    },
-    {
-      "title": "概率论学习笔记（四）",
-      "url": "https://zhuanlan.zhihu.com/p/45720457",
-      "summary": "正文用偏离期望的平方定义方差，推导常用公式、性质、超几何分布方差及切比雪夫不等式。"
-    },
-    {
-      "title": "马氏距离(Mahalanobis Distance)",
-      "url": "https://zhuanlan.zhihu.com/p/46626607",
-      "summary": "正文通过不同维度的方差解释距离为何应随维度离散程度调整。"
-    },
-    {
-      "title": "回归分析|笔记整理（3）——多元正态分布理论（上）",
-      "url": "https://zhuanlan.zhihu.com/p/46665398",
-      "summary": "正文把协差阵解释为方差向高维的推广，证明其半正定性，并讨论协方差矩阵的线性变换性质。"
-    },
-    {
-      "title": "回归分析|笔记整理（4）——多元正态分布理论（中）",
-      "url": "https://zhuanlan.zhihu.com/p/47122783",
-      "summary": "正文完整推导多元正态二次型的方差公式并讨论其矩阵性质。"
-    },
-    {
-      "title": "Student's t-test（t检验）",
-      "url": "https://zhuanlan.zhihu.com/p/47916928",
-      "summary": "正文讨论两总体方差齐性与F检验，并据方差是否相等选择t检验或替代方法。"
-    },
-    {
-      "title": "如何全面理解方差分析？",
-      "url": "https://zhuanlan.zhihu.com/p/49216267",
-      "summary": "正文用组内方差和组间方差的比较解释方差分析，实质展开了方差及其分解。"
-    },
-    {
-      "title": "R统计学(01): 伯努利分布、二项分布",
-      "url": "https://zhuanlan.zhihu.com/p/49267988",
-      "summary": "正文明确给出二项分布方差的理论值，并用重复试验结果进行验证。"
-    },
-    {
-      "title": "卡尔曼滤波（Kalman Filter）原理与公式推导",
-      "url": "https://zhuanlan.zhihu.com/p/48876718",
-      "summary": "正文用误差协方差矩阵定义估计误差方差，并推导其递归更新。"
-    },
-    {
-      "title": "如何理解和使用方差分析？",
-      "url": "https://zhuanlan.zhihu.com/p/49479042",
-      "summary": "正文以总方差、组间方差和组内方差为核心，解释方差分析如何分解数据离散程度。"
-    },
-    {
-      "title": "回归分析|笔记整理（7）——多元线性回归（下），违背基本假设的情况",
-      "url": "https://zhuanlan.zhihu.com/p/49276967",
-      "summary": "正文解释异方差对回归的影响，并介绍检验、加权最小二乘及方差稳定变换。"
-    },
-    {
-      "title": "多层线性模型（HLM）及其自由度问题",
-      "url": "https://zhuanlan.zhihu.com/p/50048784",
-      "summary": "正文通过方差分解说明多层嵌套数据的总方差如何拆为组内与组间方差。"
-    },
-    {
-      "title": "【强化学习技术 28】GAE",
-      "url": "https://zhuanlan.zhihu.com/p/45107835",
-      "summary": "正文把降低策略梯度估计方差、减少训练样本需求作为 GAE 的核心目标和参数权衡。"
-    },
-    {
-      "title": "数据融合——高斯分布的特性",
-      "url": "https://zhuanlan.zhihu.com/p/50738318",
-      "summary": "正文解释方差决定高斯曲线宽窄，并推导两个高斯分布相乘后方差减小的公式。"
-    },
-    {
-      "title": "回归分析|笔记整理（8）——变量选择",
-      "url": "https://zhuanlan.zhihu.com/p/50577508",
-      "summary": "正文比较全模型与选模型估计及预测误差的方差，并讨论偏差和均方误差的权衡。"
-    },
-    {
       "title": "几个简单不等式的直观说明",
       "url": "https://zhuanlan.zhihu.com/p/51013702",
       "summary": "正文利用随机变量的方差非负性，由方差公式推出二阶矩不小于期望的平方。"
-    },
-    {
-      "title": "金融学笔记：从方差到两基金分离，简单的资产组合选择理论",
-      "url": "https://zhuanlan.zhihu.com/p/51107308",
-      "summary": "正文把组合收益方差作为风险度量，推导其协方差矩阵二次型，并在给定期望收益下最小化方差。"
-    },
-    {
-      "title": "多元线性回归模型检验:为什么，怎么做",
-      "url": "https://zhuanlan.zhihu.com/p/52456645",
-      "summary": "正文用离均差平方和解释方差，并讨论参数方差、方差膨胀因子及方差齐性。"
-    },
-    {
-      "title": "计量经济学：一元线性回归模型的基本假设",
-      "url": "https://zhuanlan.zhihu.com/p/52699232",
-      "summary": "正文解释随机干扰项的条件方差恒为常数，并讨论不同观测之间的协方差为零。"
-    },
-    {
-      "title": "从0到1：批量规范化Batch Normalization(原理篇)",
-      "url": "https://zhuanlan.zhihu.com/p/52736691",
-      "summary": "正文逐项推导标准化变量的方差，说明规范化后方差接近一。"
-    },
-    {
-      "title": "计量经济学：一元线性回归最小二乘估计（OLS）及其检验",
-      "url": "https://zhuanlan.zhihu.com/p/52741405",
-      "summary": "正文在假设下计算参数估计量的方差，并讨论线性无偏估计的有效性。"
     },
     {
       "title": "正态分布推导过程",
@@ -2088,104 +943,9 @@
       "summary": "正文讨论连续随机变量的方差积分表达，并用方差确定正态分布的参数。"
     },
     {
-      "title": "回归分析|笔记整理（C）——非线性回归，含定性变量的回归模型",
-      "url": "https://zhuanlan.zhihu.com/p/52752248",
-      "summary": "正文推导二元因变量误差方差随自变量的概率变化，并讨论异方差问题。"
-    },
-    {
-      "title": "VAE 的细节：p(x|z) 的噪音，与 p(z|x) 的编码坍塌",
-      "url": "https://zhuanlan.zhihu.com/p/52974147",
-      "summary": "正文用不同图像区域方差大小说明模型可学习逐点噪声尺度，并借方差讨论生成分布。"
-    },
-    {
-      "title": "数理统计笔记·统计学三大分布",
-      "url": "https://zhuanlan.zhihu.com/p/53463133",
-      "summary": "正文分别给出卡方、t 和 F 分布的方差公式，并讨论不同自由度下的计算条件。"
-    },
-    {
-      "title": "时间序列的单调性",
-      "url": "https://zhuanlan.zhihu.com/p/55129654",
-      "summary": "正文计算时间序列的均值和方差，并用方差推导移动平均与 EWMA 控制图的波动范围。"
-    },
-    {
-      "title": "点估计——什么是统计量？",
-      "url": "https://zhuanlan.zhihu.com/p/55129304",
-      "summary": "正文比较样本方差与无偏方差，计算期望并解释分母取 n-1 的原因。"
-    },
-    {
-      "title": "【实验笔记】深度学习中的两种不确定性（上）",
-      "url": "https://zhuanlan.zhihu.com/p/56986840",
-      "summary": "正文把多次随机预测结果的方差用作认知不确定性的度量，并给出相应公式与回归实验。"
-    },
-    {
-      "title": "描述性统计分析",
-      "url": "https://zhuanlan.zhihu.com/p/57241112",
-      "summary": "正文定义方差与标准差，并解释数值大小如何反映数据集围绕均值的集中或离散程度。"
-    },
-    {
-      "title": "如何利用因子分析确定权重",
-      "url": "https://zhuanlan.zhihu.com/p/57289401",
-      "summary": "正文以各因子的方差解释率衡量信息量，并通过归一化这些比例计算指标权重。"
-    },
-    {
-      "title": "一分钟看完计量经济学",
-      "url": "https://zhuanlan.zhihu.com/p/57562534",
-      "summary": "正文把异方差定义为随机干扰项方差随样本点变化，并给出其后果、检验和加权修正。"
-    },
-    {
-      "title": "数据分析-描述性统计分析",
-      "url": "https://zhuanlan.zhihu.com/p/57761661",
-      "summary": "正文解释标准差是方差的算术平方根，并用离均差平方和说明其度量离散程度的含义。"
-    },
-    {
-      "title": "策略篇：残差项的均值回归——实证部分",
-      "url": "https://zhuanlan.zhihu.com/p/57840924",
-      "summary": "正文推导OU离散形式的平稳方差，并用其标准差构造交易信号区间。"
-    },
-    {
       "title": "【闲话】数学家庞加莱与面包的故事",
       "url": "https://zhuanlan.zhihu.com/p/58055121",
       "summary": "正文分别讨论单次测量的标准差和样本均值的方差缩放，并据离散程度判断数据是否经过筛选。"
-    },
-    {
-      "title": "对方差分析（ANOVA）的直观解释及计算",
-      "url": "https://zhuanlan.zhihu.com/p/57896471",
-      "summary": "正文定义组内均方和组间均方，给出方差平均、总平方和分解及 F 比值，实质展开方差分析。"
-    },
-    {
-      "title": "主成分分析(PCA)的详细解释",
-      "url": "https://zhuanlan.zhihu.com/p/58663947",
-      "summary": "正文以方差衡量数据分散和信息量，并说明标准化、主成分方差最大化及方差贡献比例。"
-    },
-    {
-      "title": "协方差，方差，标准差",
-      "url": "https://zhuanlan.zhihu.com/p/58427127",
-      "summary": "正文明确区分协方差与方差，并说明同一随机变量与自身的协方差等于其方差。"
-    },
-    {
-      "title": "时间序列分析 自协方差/自相关系数/偏自相关系数",
-      "url": "https://zhuanlan.zhihu.com/p/59089924",
-      "summary": "正文给出方差公式并解释其度量随机变量相对期望偏离程度的意义。"
-    },
-    {
-      "title": "卡尔曼滤波（1）--递归最小二乘（RLS）推导过程",
-      "url": "https://zhuanlan.zhihu.com/p/59532437",
-      "summary": "正文定义估计误差协方差，并通过其迹和递推公式讨论估计方差。"
-    },
-    {
-      "title": "卡尔曼滤波（3）-- EKF, UKF",
-      "url": "https://zhuanlan.zhihu.com/p/59681380",
-      "summary": "正文用 Sigma 点及其权重计算输出方差和协方差，以更新状态不确定性。"
-    },
-    {
-      "title": "统计学——样本方差公式的由来",
-      "url": "https://zhuanlan.zhihu.com/p/60230248",
-      "summary": "正文从未偏估计的定义推导样本方差为何除以 n-1，并证明其期望等于总体方差。"
-    },
-    {
-      "title": "计量经济学笔记：普通最小二乘法 OLS，与高斯 - 马尔可夫定理",
-      "url": "https://zhuanlan.zhihu.com/p/60233029",
-      "summary": "正文计算 OLS 估计量的方差并与任意其他线性无偏估计量比较，证明其最小方差性质。"
     },
     {
       "title": "矩母函数、正态分布、二次型",
@@ -2193,44 +953,9 @@
       "summary": "正文通过矩母函数的二阶导数推导正态二次型的方差公式，并进一步给出卡方分布的方差。"
     },
     {
-      "title": "数据融合之卡尔曼滤波示例",
-      "url": "https://zhuanlan.zhihu.com/p/62246762",
-      "summary": "正文通过多元高斯分布的协方差结构说明不同维度不确定性之间的相关性。"
-    },
-    {
-      "title": "Monte Carlo数学原理",
-      "url": "https://zhuanlan.zhihu.com/p/61611088",
-      "summary": "正文计算估计量方差随样本量变化的规律，导出 O(N^{-1/2}) 的收敛速度及方差缩减方法。"
-    },
-    {
-      "title": "混合线性模型的实现（更新20190607）",
-      "url": "https://zhuanlan.zhihu.com/p/63092231",
-      "summary": "正文用随机效应的方差、标准差及方差协方差矩阵解释群体差异并据此处理奇异拟合。"
-    },
-    {
-      "title": "数学建模——主成分分析(SPSS）",
-      "url": "https://zhuanlan.zhihu.com/p/63139206",
-      "summary": "正文以线性组合的方差最大为准则依次定义各主成分，并用方差贡献率确定保留数量。"
-    },
-    {
-      "title": "协方差矩阵",
-      "url": "https://zhuanlan.zhihu.com/p/64242277",
-      "summary": "正文给出方差与协方差的公式，并说明方差是同一变量与自身协方差的特殊情况。"
-    },
-    {
       "title": "概率论中的“矩”是什么意思",
       "url": "https://zhuanlan.zhihu.com/p/57802400",
       "summary": "正文定义中心矩，并具体说明二阶中心矩即方差及其刻画离散程度的作用。"
-    },
-    {
-      "title": "如何理解时间序列的平稳性？",
-      "url": "https://zhuanlan.zhihu.com/p/64757964",
-      "summary": "正文把方差恒定列为弱平稳条件，并通过随机游走方差随时间增长说明非平稳性。"
-    },
-    {
-      "title": "【AP统计】期望E(X)与方差Var(X)",
-      "url": "https://zhuanlan.zhihu.com/p/64859161",
-      "summary": "正文给出方差定义、计算公式和缩放性质，并解释其衡量随机变量离散程度的作用。"
     },
     {
       "title": "Regularity Lemma(正则引理)",
@@ -2243,104 +968,9 @@
       "summary": "正文由概率母函数的一阶、二阶导数推出方差公式，并具体计算二项分布方差。"
     },
     {
-      "title": "5分钟理解PCA主成分分析",
-      "url": "https://zhuanlan.zhihu.com/p/67475508",
-      "summary": "正文用各方向数据方差大小判断主成分及其保留价值，实际展开了方差概念。"
-    },
-    {
-      "title": "使用科学计算器进行统计计算（基础篇）",
-      "url": "https://zhuanlan.zhihu.com/p/67842031",
-      "summary": "正文分别定义总体方差和样本方差，说明标准差为其算术平方根，并用样例演示统计计算器的方差计算。"
-    },
-    {
-      "title": "方差分析超实用总结",
-      "url": "https://zhuanlan.zhihu.com/p/67931627",
-      "summary": "正文用方差衡量不同组别数据的波动，并把方差齐作为方差分析的前提。"
-    },
-    {
-      "title": "概率论复习笔记(5)——Chebyshev不等式",
-      "url": "https://zhuanlan.zhihu.com/p/69525106",
-      "summary": "正文用方差 Dξ 控制随机变量偏离期望的概率，并把该估计用于方差为零、依概率收敛和大数定律。"
-    },
-    {
-      "title": "【统计学进阶知识（一）】深入理解Beta分布：从定义到公式推导",
-      "url": "https://zhuanlan.zhihu.com/p/69606875",
-      "summary": "正文通过二阶矩与期望平方之差完整推导 Beta 分布的方差公式。"
-    },
-    {
-      "title": "方差，标准差，均方误差，极差",
-      "url": "https://zhuanlan.zhihu.com/p/71916111",
-      "summary": "正文定义方差为数据或随机变量相对均值的离散程度，给出总体与样本方差公式，并解释其与标准差、均方误差的区别。"
-    },
-    {
-      "title": "统计学习笔记6-模型选择和变量选择",
-      "url": "https://zhuanlan.zhihu.com/p/75767012",
-      "summary": "正文用偏差—方差权衡解释欠拟合、过拟合及模型复杂度的选择。"
-    },
-    {
-      "title": "最通俗易懂的白话狄利克雷过程(Dirichlet Process）\b",
-      "url": "https://zhuanlan.zhihu.com/p/76991275",
-      "summary": "正文通过狄利克雷分布的方差公式分析参数α对采样分布离散程度的影响。"
-    },
-    {
-      "title": "【机器学习】降维——PCA（非常详细）",
-      "url": "https://zhuanlan.zhihu.com/p/77151308",
-      "summary": "正文以投影后方差最大作为 PCA 的最大可分性目标。"
-    },
-    {
-      "title": "函数型数据分析第一步",
-      "url": "https://zhuanlan.zhihu.com/p/77104728",
-      "summary": "正文以逐点样本标准差刻画函数型数据在每个时间点的离散程度。"
-    },
-    {
       "title": "切比雪夫不等式",
       "url": "https://zhuanlan.zhihu.com/p/77927725",
       "summary": "正文以随机变量偏离期望的平方积分证明上界，核心是用方差刻画离散程度。"
-    },
-    {
-      "title": "你还知道哪些降维方法？",
-      "url": "https://zhuanlan.zhihu.com/p/79535725",
-      "summary": "正文把投影方向的重要性解释为投影后数据的方差大小，并以方差最大化说明 PCA 的优化目标。"
-    },
-    {
-      "title": "科研基础丨如何选择统计学方法？（上）",
-      "url": "https://zhuanlan.zhihu.com/p/79957556",
-      "summary": "正文说明方差齐性检验比较多个总体的离散程度，并以F检验作为常用判断方法。"
-    },
-    {
-      "title": "统计学“自由度”详解",
-      "url": "https://zhuanlan.zhihu.com/p/81099139",
-      "summary": "正文用样本方差和离差平方和具体解释分母 n-1 与自由度的来源。"
-    },
-    {
-      "title": "Score Function Trick及其在机器学习中的应用",
-      "url": "https://zhuanlan.zhihu.com/p/82750018",
-      "summary": "正文推导控制变量法如何减小梯度估计方差，对应方差。"
-    },
-    {
-      "title": "方差、标准差、均方差、均方误差（MSE）区别总结",
-      "url": "https://zhuanlan.zhihu.com/p/83410946",
-      "summary": "正文系统解释方差度量数据相对均值的离散程度，并区分方差、标准差和均方误差。"
-    },
-    {
-      "title": "PCA（主成分分析）原理推导",
-      "url": "https://zhuanlan.zhihu.com/p/84946694",
-      "summary": "正文以投影后方差衡量信息保留程度，并推导投影方差与协方差矩阵的关系。"
-    },
-    {
-      "title": "数理统计|笔记整理（1）——引入，重要分布函数，特征函数及计算",
-      "url": "https://zhuanlan.zhihu.com/p/70018601",
-      "summary": "正文在分布性质与条件期望例题中给出方差公式，并推导随机变量的方差。"
-    },
-    {
-      "title": "关于波动率，你想知道的都在这了",
-      "url": "https://zhuanlan.zhihu.com/p/85469506",
-      "summary": "正文把波动率定义为收益率的标准差，并推导历史波动率的估计与年化公式。"
-    },
-    {
-      "title": "均值、方差、标准差、协方差、相关系数的概念及意义",
-      "url": "https://zhuanlan.zhihu.com/p/86181679",
-      "summary": "正文给出样本方差和标准差公式，并用散布度与无偏估计解释方差的含义。"
     },
     {
       "title": "你知道快速排序的方差么？",
@@ -2348,24 +978,9 @@
       "summary": "正文以 E(X²)-E(X)² 计算随机排序时间的方差，并继续推出方差上界和运行时间偏差概率。"
     },
     {
-      "title": "又一个最常用的统计学方法——方差分析",
-      "url": "https://zhuanlan.zhihu.com/p/89214671",
-      "summary": "正文把样本差异分解为组间和组内两部分，并用其对应均方解释方差分析。"
-    },
-    {
       "title": "二项分布的均值与方差公式的推导",
       "url": "https://zhuanlan.zhihu.com/p/89366172",
       "summary": "正文从方差恒等式出发，通过对二项分布求和变形逐步推出 DX=np(1-p)。"
-    },
-    {
-      "title": "自动驾驶基础技术(七)-无迹卡尔曼滤波Unscented Kalman Filter",
-      "url": "https://zhuanlan.zhihu.com/p/89835447",
-      "summary": "正文给出并用加权协方差公式计算随机变量经非线性变换后的离散程度。"
-    },
-    {
-      "title": "数理统计|笔记整理（4）——估计量的简单性质：矩估计，极大似然估计",
-      "url": "https://zhuanlan.zhihu.com/p/87796459",
-      "summary": "正文计算估计量方差并利用其趋于零证明相合性，具体应用了方差。"
     },
     {
       "title": "数理统计：常用分布族参数及其函数的UMVUE——求法和有效性",
@@ -2373,144 +988,14 @@
       "summary": "正文围绕估计量的方差下界、C-R不等式和一致最小方差展开具体计算与比较。"
     },
     {
-      "title": "计量经济学：多元线性回归的最小二乘估计",
-      "url": "https://zhuanlan.zhihu.com/p/91095053",
-      "summary": "正文计算 OLS 估计量协方差矩阵，并在线性无偏估计量中证明该方差最小。"
-    },
-    {
-      "title": "数理统计|笔记整理（5）——估计量的进阶性质（1）：统计判决函数，UMRUE，Fisher信息量",
-      "url": "https://zhuanlan.zhihu.com/p/89868315",
-      "summary": "正文具体推导样本方差的风险，并把均方误差分解为估计量方差与偏差平方之和。"
-    },
-    {
-      "title": "Generalized Method of Moments",
-      "url": "https://zhuanlan.zhihu.com/p/92490417",
-      "summary": "正文围绕样本均值的抽样方差展开，并进一步推导参数估计量与样本矩的渐近协方差。"
-    },
-    {
-      "title": "全流程总结方差分析，只看这篇就够了",
-      "url": "https://zhuanlan.zhihu.com/p/92787523",
-      "summary": "正文把组内与组间波动差异作为方差分析基础，并讲解方差齐性检验及其对分析选择的影响。"
-    },
-    {
-      "title": "不得不学的统计学基础知识（一）",
-      "url": "https://zhuanlan.zhihu.com/p/93045049",
-      "summary": "正文给出方差、标准差及标准差系数的计算定义，属于对方差概念和公式的实质讲解。"
-    },
-    {
-      "title": "医学统计学 — 基础篇（入门必读）",
-      "url": "https://zhuanlan.zhihu.com/p/93554818",
-      "summary": "正文具体解释标准差衡量数据离散程度，并结合均数说明统计表达。"
-    },
-    {
-      "title": "时间序列--GARCH模型",
-      "url": "https://zhuanlan.zhihu.com/p/88788810",
-      "summary": "正文推导 GARCH 的无条件方差、平稳条件及方差有限性。"
-    },
-    {
-      "title": "贝叶斯优化（Bayesian Optimization）（一）：高斯过程（GP）",
-      "url": "https://zhuanlan.zhihu.com/p/93079569",
-      "summary": "正文用协方差矩阵的对角线解释预测方差，并用它表示不同数据点的不确定性。"
-    },
-    {
-      "title": "数理统计|笔记整理（6）——常见分布族，估计量的进阶性质（2）：UMVUE，UMRUE相关计算",
-      "url": "https://zhuanlan.zhihu.com/p/91730443",
-      "summary": "正文推导条件期望估计量的方差不等式，并用方差比较估计优劣。"
-    },
-    {
-      "title": "《常见随机过程》（一）",
-      "url": "https://zhuanlan.zhihu.com/p/93836989",
-      "summary": "正文推导并列举正态、泊松和维纳过程的方差与协方差公式。"
-    },
-    {
       "title": "条件分布与条件期望",
       "url": "https://zhuanlan.zhihu.com/p/93938795",
       "summary": "正文定义条件方差并利用重期望公式证明全方差公式。"
     },
     {
-      "title": "第六章 参数估计-矩估计：通过课后题理解矩估计",
-      "url": "https://zhuanlan.zhihu.com/p/94449192",
-      "summary": "正文通过含总体方差和样本方差的表达式示范如何建立矩估计方程。"
-    },
-    {
-      "title": "视觉惯性里程计的IMU预积分模型",
-      "url": "https://zhuanlan.zhihu.com/p/90213963",
-      "summary": "正文讨论预积分量的方差与不确定度，并推导由测量噪声向前传播的协方差递推公式。"
-    },
-    {
-      "title": "常用分布",
-      "url": "https://zhuanlan.zhihu.com/p/94181395",
-      "summary": "正文逐类列出离散与连续常用分布的方差公式，包括超几何分布的方差。"
-    },
-    {
-      "title": "【概率论】- (1)区间估计",
-      "url": "https://zhuanlan.zhihu.com/p/96832616",
-      "summary": "正文在均值未知时利用样本方差与卡方分布的关系，推导总体方差的置信区间。"
-    },
-    {
-      "title": "强化学习：为什么对累积奖励减去baseline项能起到减小方差的作用？",
-      "url": "https://zhuanlan.zhihu.com/p/98506549",
-      "summary": "正文从方差定义展开，比较有无 baseline 的估计方差，并说明取奖励期望的估计时可使方差下降。"
-    },
-    {
-      "title": "spss数据分析之描述性统计分析",
-      "url": "https://zhuanlan.zhihu.com/p/98522602",
-      "summary": "正文说明方差、标准差和极差用于描述数据偏离中心的程度，实际展开了离散程度的统计含义。"
-    },
-    {
-      "title": "如何解读 SIMCA 主成分分析（PCA）的结果？",
-      "url": "https://zhuanlan.zhihu.com/p/96677251",
-      "summary": "正文用累积解释方差R2X评估各主成分保留了多少原始变量的变异。"
-    },
-    {
-      "title": "poisson回归与负二项回归",
-      "url": "https://zhuanlan.zhihu.com/p/100123993",
-      "summary": "正文比较泊松模型的条件期望与条件方差，并说明负二项模型用额外扰动项刻画方差大于期望的过度离散。"
-    },
-    {
-      "title": "深度学习中的不确定性",
-      "url": "https://zhuanlan.zhihu.com/p/98756147",
-      "summary": "正文把方差作为预测不确定度的度量，并比较多次预测结果来量化模型不确定性。"
-    },
-    {
-      "title": "概率论及数理统计——个人笔记",
-      "url": "https://zhuanlan.zhihu.com/p/101775745",
-      "summary": "正文定义方差与标准差，给出离散和连续情形公式及伸缩、平移等性质。"
-    },
-    {
-      "title": "为什么样本方差的分母是n-1？为什么它又叫做无偏估计？",
-      "url": "https://zhuanlan.zhihu.com/p/102043269",
-      "summary": "正文围绕样本方差展开，解释分母取 n-1 如何修正使用样本均值造成的偏差并得到无偏估计。"
-    },
-    {
-      "title": "数理统计|笔记整理（8）——估计量的高级性质：C-R不等式，Slutsky定理，渐近正态性初步",
-      "url": "https://zhuanlan.zhihu.com/p/94590802",
-      "summary": "正文推导估计量的方差下界与取等条件，并用方差比较无偏估计的优劣。"
-    },
-    {
       "title": "直观、形象、动态，一文了解无处不在的标准差",
       "url": "https://zhuanlan.zhihu.com/p/103972257",
       "summary": "正文用偏差平方和除以样本数解释方差，并由其平方根得到标准差。"
-    },
-    {
-      "title": "案例5：SPSS--方差分析",
-      "url": "https://zhuanlan.zhihu.com/p/104710487",
-      "summary": "正文以变异分解解释方差分析的基本思想，并讨论组间差异和误差方差。"
-    },
-    {
-      "title": "茆诗松的概率论与数理统计（第六章）",
-      "url": "https://zhuanlan.zhihu.com/p/105064486",
-      "summary": "正文详细解释估计量方差衡量估计值分散程度，并与系统偏差共同构成均方误差。"
-    },
-    {
-      "title": "总体、样本、总体方差、样本方差、抽样方差和标准误",
-      "url": "https://zhuanlan.zhihu.com/p/106706044",
-      "summary": "正文区分总体方差与样本方差，并说明估计总体方差时样本方差的分母为何采用 n-1。"
-    },
-    {
-      "title": "Play with R 第19期：分层线性模型/多水平",
-      "url": "https://zhuanlan.zhihu.com/p/106776619",
-      "summary": "正文讨论多水平模型的方差-协方差矩阵，并介绍方差成分、对角、一阶自回归和非结构化等协方差结构。"
     },
     {
       "title": "ICLR-20 | 旷视研究院提出MABN：解决小批量训练BN不稳定的问题",
@@ -2528,34 +1013,9 @@
       "summary": "正文通过 E[X(X-1)] 等变换完整推导超几何分布的方差。"
     },
     {
-      "title": "ARCH模型是什么？",
-      "url": "https://zhuanlan.zhihu.com/p/108359439",
-      "summary": "正文重点解释随机扰动项的异方差，并把 ARCH 的条件异方差描述为随时间变化的条件方差。"
-    },
-    {
-      "title": "负二项分布及其应用",
-      "url": "https://zhuanlan.zhihu.com/p/111632687",
-      "summary": "正文推导负二项分布的方差、过度离散关系以及混合分布的方差分解。"
-    },
-    {
       "title": "计算样本方差时为什么是除以（n-1）？",
       "url": "https://zhuanlan.zhihu.com/p/115184696",
       "summary": "正文比较总体方差与样本方差，并解释用样本均值代替总体均值后为何以 n-1 为分母。"
-    },
-    {
-      "title": "重复测量数据分析系列：再谈多层混合效应模型（基于Stata）",
-      "url": "https://zhuanlan.zhihu.com/p/120676583",
-      "summary": "正文以方差和协方差分解组间与组内变异，并通过随机效应方差检验和方差缩减比例解释模型。"
-    },
-    {
-      "title": "T检验、F检验、卡方检验详细分析及应用场景总结",
-      "url": "https://zhuanlan.zhihu.com/p/124072225",
-      "summary": "正文通过组间与组内变异解释方差分析，并强调正态性和方差齐性前提。"
-    },
-    {
-      "title": "概率论与统计学1——谈谈那些令人头疼的概率分布",
-      "url": "https://zhuanlan.zhihu.com/p/124020096",
-      "summary": "正文给出多种分布的方差公式，并说明高斯分布最大似然方差会被系统性低估及无偏修正。"
     },
     {
       "title": "线性回归方程与相关系数的推导",
@@ -2563,104 +1023,14 @@
       "summary": "正文用期望展开并推导方差的常用公式，说明方差刻画偏离平均值的程度。"
     },
     {
-      "title": "概率论与统计学2——深入理解高斯分布",
-      "url": "https://zhuanlan.zhihu.com/p/125619927",
-      "summary": "正文由边缘分布的均值和协方差矩阵给出高斯变量的方差刻画。"
-    },
-    {
-      "title": "一文搞懂“正态分布”所有需要的知识点",
-      "url": "https://zhuanlan.zhihu.com/p/128809461",
-      "summary": "正文把标准差解释为正态分布离散程度的参数，并具体说明它如何改变曲线胖瘦和数据的集中程度。"
-    },
-    {
-      "title": "时间序列 | ARCH模型",
-      "url": "https://zhuanlan.zhihu.com/p/128796473",
-      "summary": "正文以条件方差刻画波动，并解释小波动、大波动如何通过方差聚集形成波动丛聚现象。"
-    },
-    {
-      "title": "【推荐系统经典论文(九)】谷歌双塔模型",
-      "url": "https://zhuanlan.zhihu.com/p/137538147",
-      "summary": "正文推导了频率估计递推式在随机采样间隔下的方差上界。"
-    },
-    {
-      "title": "解读方差分析中的效应量（Effect Size），检验力（Power）和样本量",
-      "url": "https://zhuanlan.zhihu.com/p/137779235",
-      "summary": "正文用处理方差与总方差的比值定义效应量，并给出由平方和估计方差的多种方法。"
-    },
-    {
-      "title": "描述统计学",
-      "url": "https://zhuanlan.zhihu.com/p/137782473",
-      "summary": "正文分别定义总体与样本的方差和标准差，并用它们衡量一组数据的离散程度。"
-    },
-    {
-      "title": "深入浅出说说ridge regression",
-      "url": "https://zhuanlan.zhihu.com/p/132275334",
-      "summary": "正文通过各主成分方向的方差解释不同方向上的收缩强度。"
-    },
-    {
-      "title": "用命分析概率型生成函数(PGF)——谈一类具有特殊性质的生成函数在算法竞赛中的应用",
-      "url": "https://zhuanlan.zhihu.com/p/138290902",
-      "summary": "正文利用一阶和二阶导数推导方差与二阶矩的关系。"
-    },
-    {
-      "title": "超全干货 | 统计学中常用的数据分析方法汇总！",
-      "url": "https://zhuanlan.zhihu.com/p/138671551",
-      "summary": "正文说明方差等离散程度指标如何衡量数据相对于集中趋势的分散情况。"
-    },
-    {
       "title": "一文详解t检验",
       "url": "https://zhuanlan.zhihu.com/p/138711532",
       "summary": "正文定义样本方差与合并方差，并证明合并方差是总体方差的无偏估计。"
     },
     {
-      "title": "异质性分析——学习笔记",
-      "url": "https://zhuanlan.zhihu.com/p/138738189",
-      "summary": "正文用条件波动解释异方差，并区分异方差与异质性的不同含义。"
-    },
-    {
-      "title": "结构方程模型(Structural Equation Model, SEM)",
-      "url": "https://zhuanlan.zhihu.com/p/138837728",
-      "summary": "正文以均值、方差和协方差矩阵刻画模型隐含的矩结构。"
-    },
-    {
-      "title": "一文详解F检验",
-      "url": "https://zhuanlan.zhihu.com/p/139151375",
-      "summary": "正文定义样本方差，并解释组间方差、组内方差以及它们在方差分析中的比较意义。"
-    },
-    {
       "title": "尺寸链计算 I 极限公差分析与统计公差分析",
       "url": "https://zhuanlan.zhihu.com/p/139755531",
       "summary": "正文用方差可加性合成各尺寸公差对应的标准差，并由中心值和标准差计算间隙的统计公差。"
-    },
-    {
-      "title": "怎样全面理解95%置信区间",
-      "url": "https://zhuanlan.zhihu.com/p/140194206",
-      "summary": "正文把点估计的有效性解释为方差更小，并比较样本均数与中位数。"
-    },
-    {
-      "title": "自动驾驶感知融合-无迹卡尔曼滤波(Lidar&Radar)",
-      "url": "https://zhuanlan.zhihu.com/p/141059329",
-      "summary": "正文以加权 sigma 点计算预测均值和协方差，并在雷达测量中得到新息协方差。"
-    },
-    {
-      "title": "SPSS主成分分析 | 指标权重值计算真的不难！（上）",
-      "url": "https://zhuanlan.zhihu.com/p/141188583",
-      "summary": "正文用累计解释方差判断主成分提取效果并联系后续权重计算。"
-    },
-    {
-      "title": "跨文化研究中的测量不变性（measurement invariance）",
-      "url": "https://zhuanlan.zhihu.com/p/141660678",
-      "summary": "正文把因子方差和误差方差等值作为严格测量不变性的检验内容，并解释其误差含义。"
-    },
-    {
-      "title": "SPSS主成分分析 | 权重计算&极差法标准化超详细教程！（下）",
-      "url": "https://zhuanlan.zhihu.com/p/142061447",
-      "summary": "正文按各主成分方差加权合并线性组合系数，再归一化得到指标权重。"
-    },
-    {
-      "title": "对统计学的R方的理解与用法",
-      "url": "https://zhuanlan.zhihu.com/p/143132259",
-      "summary": "正文用预测残差方差相对原始变量方差的变化解释 R 方，并讨论其正负值含义。"
     },
     {
       "title": "概率论中常见分布的数学期望、方差及其特征函数推导——连续性随机变量",
@@ -2678,64 +1048,9 @@
       "summary": "正文定义方差和标准差，推导方差计算公式并列举其缩放、平移和独立性性质。"
     },
     {
-      "title": "【从入门到放弃】线性回归",
-      "url": "https://zhuanlan.zhihu.com/p/147297924",
-      "summary": "正文具体解释方差表示预测随训练集变化的波动，并讨论其与偏差的权衡。"
-    },
-    {
       "title": "如何通俗的理解矩母函数",
       "url": "https://zhuanlan.zhihu.com/p/148408669",
       "summary": "正文以二阶矩构造方差，并把方差解释为分布的分散程度，还讨论更高阶矩反映的分布特征。"
-    },
-    {
-      "title": "统计学公式",
-      "url": "https://zhuanlan.zhihu.com/p/149803866",
-      "summary": "正文给出样本与总体方差公式，并解释无偏估计和自由度的作用。"
-    },
-    {
-      "title": "时间序列分析笔记",
-      "url": "https://zhuanlan.zhihu.com/p/149897903",
-      "summary": "正文讨论异方差对方差估计与检验的影响，并介绍ARCH、GARCH等条件方差模型。"
-    },
-    {
-      "title": "主成分分析(principal component analysis)",
-      "url": "https://zhuanlan.zhihu.com/p/150097862",
-      "summary": "正文把投影方差作为主成分保留信息量以及降维方向的衡量标准。"
-    },
-    {
-      "title": "实用干货！因子分析超全步骤总结！",
-      "url": "https://zhuanlan.zhihu.com/p/150330786",
-      "summary": "正文用旋转后的方差解释率和累计方差解释率衡量因子保留的信息量。"
-    },
-    {
-      "title": "PR Sampling Ⅰ: 蒙特卡洛采样、重要性采样及python实现",
-      "url": "https://zhuanlan.zhihu.com/p/150693309",
-      "summary": "正文通过估计量方差推导最优采样分布，并分析采样分布失配导致方差过大的问题。"
-    },
-    {
-      "title": "卡尔曼滤波（Kalman filter）实例研究——汽车跟踪问题（Car tracking）",
-      "url": "https://zhuanlan.zhihu.com/p/148046908",
-      "summary": "正文明确用过程噪声与观测噪声的方差矩阵刻画状态和观测的不确定性。"
-    },
-    {
-      "title": "一文了解目标检测边界框概率分布",
-      "url": "https://zhuanlan.zhihu.com/p/151398233",
-      "summary": "正文用高斯分布方差的大小解释边界框位置不确定性和模型置信程度。"
-    },
-    {
-      "title": "如何通俗的理解高斯混合模型（Gaussian Mixture Models）",
-      "url": "https://zhuanlan.zhihu.com/p/151671154",
-      "summary": "正文说明方差或协方差决定高斯的形状，并将考虑方差列为高斯混合模型区别于 k-means 的关键点。"
-    },
-    {
-      "title": "离散型概率分布——二项分布",
-      "url": "https://zhuanlan.zhihu.com/p/145930394",
-      "summary": "正文给出二项分布方差公式，并代入四题盲猜实例计算方差。"
-    },
-    {
-      "title": "数理统计第十讲（极大似然估计步骤与性质）",
-      "url": "https://zhuanlan.zhihu.com/p/152614797",
-      "summary": "正文比较不同估计量的方差和均方误差，具体计算二阶矩与方差评价有效性。"
     },
     {
       "title": "数理统计第12讲（Rao-blackwell定理，零无偏估计法，完备性）",
@@ -2753,69 +1068,9 @@
       "summary": "正文围绕无偏估计量的方差下界推导 C-R 不等式，并以泊松总体计算具体下界。"
     },
     {
-      "title": "离散型概率分布——泊松分布",
-      "url": "https://zhuanlan.zhihu.com/p/151773692",
-      "summary": "正文明确给出泊松分布的方差公式，并用同一投诉次数例子解释方差等于λ。"
-    },
-    {
-      "title": "六种常见数据降维方法简介及代码实现",
-      "url": "https://zhuanlan.zhihu.com/p/159285110",
-      "summary": "正文说明 PCA 按投影方差从大到小选择主成分以保留主要变化。"
-    },
-    {
-      "title": "标准差与标准误怎么区分？（一）",
-      "url": "https://zhuanlan.zhihu.com/p/161200687",
-      "summary": "正文通过原始数据的标准差与样本均数的标准误对照，解释两类离散程度度量的对象差别。"
-    },
-    {
-      "title": "【统计学】R方的常见问题",
-      "url": "https://zhuanlan.zhihu.com/p/159000427",
-      "summary": "正文用残差平方和与总平方和解释 R 方，说明它表示模型解释了因变量方差的比例。"
-    },
-    {
-      "title": "计量经济学第二讲（一元线性回归模型：回归分析概述，基本假定，参数估计）",
-      "url": "https://zhuanlan.zhihu.com/p/151602755",
-      "summary": "正文在同方差假设下推导误差项和因变量的方差，并进一步给出 OLS 估计量的方差。"
-    },
-    {
       "title": "理解期望、方差常见公式",
       "url": "https://zhuanlan.zhihu.com/p/161505873",
       "summary": "正文定义方差并推导其缩放、展开式及独立随机变量相加时的可加性。"
-    },
-    {
-      "title": "卡尔曼滤波(Kalman filter) 含详细数学推导",
-      "url": "https://zhuanlan.zhihu.com/p/134595781",
-      "summary": "正文用估计状态及其误差的协方差矩阵刻画不确定性，并推导预测与更新后的方差关系。"
-    },
-    {
-      "title": "不要太在意多重共线性问题",
-      "url": "https://zhuanlan.zhihu.com/p/161746850",
-      "summary": "正文解释多重共线性会减少解释变量的剩余信息，并增大相关系数估计量的方差。"
-    },
-    {
-      "title": "如何让SGD更稳更快？",
-      "url": "https://zhuanlan.zhihu.com/p/162977120",
-      "summary": "正文定义梯度方差并推导其对固定步长 SGD 后期波动与步长选择的影响。"
-    },
-    {
-      "title": "自助法（Bootstrap）的介绍及其理论基础",
-      "url": "https://zhuanlan.zhihu.com/p/163849663",
-      "summary": "正文给出自助法估计统计量方差的算法和收敛定理，并用自助样本方差刻画估计误差。"
-    },
-    {
-      "title": "【Math】概率论常用分布大全",
-      "url": "https://zhuanlan.zhihu.com/p/164883777",
-      "summary": "正文逐一给出各常见分布的方差，并说明伯努利分布的方差为 p(1-p)。"
-    },
-    {
-      "title": "卡尔曼增益推导",
-      "url": "https://zhuanlan.zhihu.com/p/165570020",
-      "summary": "正文以估计误差的协方差矩阵及其迹衡量不确定性，并把最小方差作为估计目标。"
-    },
-    {
-      "title": "随机过程学习笔记(1)：指数分布与泊松过程",
-      "url": "https://zhuanlan.zhihu.com/p/165909489",
-      "summary": "正文给出方差和条件方差公式，并计算指数分布及泊松分布的方差。"
     },
     {
       "title": "二项分布与负二项分布的均值与方差推导",
@@ -2828,29 +1083,9 @@
       "summary": "正文定义方差为离均差平方的平均，以实例计算总体和样本方差，并说明标准差是其平方根。"
     },
     {
-      "title": "标准差、Z分数到底是什么鬼？？标准差与Z分数的原理与实例介绍 | 心理统计学",
-      "url": "https://zhuanlan.zhihu.com/p/174803664",
-      "summary": "正文通过离均差平方和、除以样本量并开方的过程解释标准差，说明其度量数据离散程度。"
-    },
-    {
       "title": "概率论复习(4): 正态分布",
       "url": "https://zhuanlan.zhihu.com/p/180071279",
       "summary": "正文通过二阶原点矩计算标准正态变量的方差，并推广得到一般正态分布方差。"
-    },
-    {
-      "title": "那些跟高斯分布有些相似的概率分布【1】：Student-t Distribution初探",
-      "url": "https://zhuanlan.zhihu.com/p/226581586",
-      "summary": "正文具体解释样本方差为何采用 n-1 分母，以校正使用样本均值造成的自由度损失。"
-    },
-    {
-      "title": "计量经济学精华笔记（二）：异方差和自相关",
-      "url": "https://zhuanlan.zhihu.com/p/242140022",
-      "summary": "正文把异方差解释为扰动项方差随观测不同，并给出后果、检验和处理方法。"
-    },
-    {
-      "title": "单个神经元的简单模型：Leaky integrate and fire (LIF) model",
-      "url": "https://zhuanlan.zhihu.com/p/254972010",
-      "summary": "正文用 ISI 的标准差除以均值定义变异系数，定量衡量发放间期的离散程度。"
     },
     {
       "title": "读文献先读图——误差棒",
@@ -2858,39 +1093,14 @@
       "summary": "正文用样本值相对样本均值的偏离解释标准差，说明它衡量数据的变异程度。"
     },
     {
-      "title": "概率论——大数定律与中心极限定理",
-      "url": "https://zhuanlan.zhihu.com/p/259280292",
-      "summary": "正文用方差估计随机变量偏离期望的概率，并据此证明大数定律。"
-    },
-    {
       "title": "深度科普|从线性代数到量子力学(13): 不确定性关系的证明",
       "url": "https://zhuanlan.zhihu.com/p/262294180",
       "summary": "正文定义测量力学量所得结果的方差，并用期望值写出离散和连续方差公式。"
     },
     {
-      "title": "方差、标准差、协方差、相关系数",
-      "url": "https://zhuanlan.zhihu.com/p/266161140",
-      "summary": "正文给出方差与标准差的定义、计算公式，并说明它们衡量数据相对均值的离散程度。"
-    },
-    {
-      "title": "【时间序列】时间序列分解总结",
-      "url": "https://zhuanlan.zhihu.com/p/267541046",
-      "summary": "正文用趋势项与余项、季节项与余项的方差比分别定义趋势强度和季节强度。"
-    },
-    {
-      "title": "金融数学第04讲（投资组合理论：不考虑无风险资产，有效前沿的推导）",
-      "url": "https://zhuanlan.zhihu.com/p/268157564",
-      "summary": "正文从两种资产组合的方差公式出发，讨论多元化降险并推导最小方差组合。"
-    },
-    {
       "title": "推导样本方差的方差——简单随机样本",
       "url": "https://zhuanlan.zhihu.com/p/268376613",
       "summary": "正文利用四阶中心矩和独立样本的矩计算，完整推导样本方差 s² 的方差公式。"
-    },
-    {
-      "title": "从贝叶斯滤波到卡尔曼滤波",
-      "url": "https://zhuanlan.zhihu.com/p/268632039",
-      "summary": "正文详细给出先验与后验方差的传播公式，并推广为矩阵形式的协方差递推。"
     },
     {
       "title": "卡方分布的概率密度函数和它的一些衍生问题",
@@ -2903,29 +1113,9 @@
       "summary": "正文解释方差的含义，并说明随机游走方差随步数增长。"
     },
     {
-      "title": "我要自学生信之统计学：统计学概述（一）",
-      "url": "https://zhuanlan.zhihu.com/p/271091491",
-      "summary": "正文解释方差与标准差用于度量数据相对均值的离散程度。"
-    },
-    {
       "title": "图解统计学 07 | 标准偏差与标准误差",
       "url": "https://zhuanlan.zhihu.com/p/276406728",
       "summary": "正文以标准偏差衡量一组数据相对均值的离散程度，并比较单组测量波动与多组均值波动。"
-    },
-    {
-      "title": "概率论与统计学4——随机过程（Stochastic Processes）",
-      "url": "https://zhuanlan.zhihu.com/p/274771068",
-      "summary": "正文根据时间间隔的独立性推导第 k 次成功时间的方差，并给出多种过程的方差公式。"
-    },
-    {
-      "title": "kaiming初始化的推导",
-      "url": "https://zhuanlan.zhihu.com/p/305055975",
-      "summary": "正文使用独立随机变量和的方差公式及乘积方差公式，逐层推导权重应满足的初始化方差。"
-    },
-    {
-      "title": "复读关于LPR期权定价的较新成果论文1——背景，形式以及Skellam分布性质",
-      "url": "https://zhuanlan.zhihu.com/p/307633902",
-      "summary": "正文把二阶累积量解释为方差，并给出均值和方差等矩与累积量的关系。"
     },
     {
       "title": "连续变量的最大熵分布 - 正态分布",
@@ -2938,149 +1128,9 @@
       "summary": "正文解释样本均值占用一个自由度，因此样本方差以 n-1 为分母并用它衡量样本围绕均值的波动。"
     },
     {
-      "title": "统计学——样本方差和总体方差",
-      "url": "https://zhuanlan.zhihu.com/p/315504747",
-      "summary": "正文通过期望推导说明分母取 n-1 的无偏修正，并比较样本方差与总体方差。"
-    },
-    {
-      "title": "新版白话空间统计（25）：方向分布（标准差椭圆）",
-      "url": "https://zhuanlan.zhihu.com/p/324194879",
-      "summary": "正文说明标准差椭圆如何用不同标准差级别刻画点数据的方向与离散范围。"
-    },
-    {
-      "title": "从贝叶斯滤波到无迹卡尔曼滤波",
-      "url": "https://zhuanlan.zhihu.com/p/328541130",
-      "summary": "正文给出由加权离差平方和计算近似协方差的公式，并贯穿预测与更新步骤。"
-    },
-    {
-      "title": "一文看懂统计学、T检验、F检验、卡方检验",
-      "url": "https://zhuanlan.zhihu.com/p/334574642",
-      "summary": "正文展开方差检验和方差分析，并说明方差比、方差齐性及其统计判断。"
-    },
-    {
-      "title": "三种差异性分析的比较",
-      "url": "https://zhuanlan.zhihu.com/p/336505710",
-      "summary": "正文把方差齐性作为参数检验前提，解释组内波动及其对组间差异判断的意义。"
-    },
-    {
-      "title": "Real-Time Correlative Scan Matching完全解析（CSM帧匹配算法）",
-      "url": "https://zhuanlan.zhihu.com/p/336807140",
-      "summary": "正文具体解释方差大小如何反映概率分布的集中程度和估计不确定性。"
-    },
-    {
-      "title": "统计学(1)|白话统计学发展(含统计学必知必会)",
-      "url": "https://zhuanlan.zhihu.com/p/336456193",
-      "summary": "正文由此说明方差用于衡量数据相对均值的整体差异程度。"
-    },
-    {
-      "title": "从全状态观测器到卡尔曼滤波器（三）",
-      "url": "https://zhuanlan.zhihu.com/p/339118204",
-      "summary": "正文定义随机变量的方差和协方差，并以估计误差协方差矩阵衡量滤波估计的离散程度。"
-    },
-    {
-      "title": "随机过程|笔记整理（5）——无限状态马尔科夫链的进一步探讨，泊松过程引入，复合泊松过程",
-      "url": "https://zhuanlan.zhihu.com/p/339121930",
-      "summary": "正文用全方差公式分解复合泊松过程的方差，并据此推导其方差表达式。"
-    },
-    {
-      "title": "浅谈T检验和F检验",
-      "url": "https://zhuanlan.zhihu.com/p/339540325",
-      "summary": "正文说明 F 检验用于判断两个总体方差是否相等，并据此选择两样本 t 检验。"
-    },
-    {
-      "title": "PCA降维大法 | 如何使用主成分分析方法构建综合指标？",
-      "url": "https://zhuanlan.zhihu.com/p/339894441",
-      "summary": "正文以方差最大化说明主成分保留信息的原则，并用方差贡献率确定主成分数量。"
-    },
-    {
-      "title": "统计学(2)|AB测试—理论基础",
-      "url": "https://zhuanlan.zhihu.com/p/338251198",
-      "summary": "正文给出样本方差公式，并解释分母取 n-1 才能无偏估计总体方差。"
-    },
-    {
-      "title": "如何理解统计学中的“自由度”",
-      "url": "https://zhuanlan.zhihu.com/p/341331282",
-      "summary": "正文通过样本均值约束下离差平方和的独立信息个数，解释样本方差为何除以 n-1。"
-    },
-    {
-      "title": "卡尔曼滤波最完整公式推导",
-      "url": "https://zhuanlan.zhihu.com/p/341440139",
-      "summary": "正文以状态误差和观测误差的协方差矩阵及其递推式刻画估计的不确定性。"
-    },
-    {
-      "title": "统计学(5)|AB测试—方差分析与卡方检验",
-      "url": "https://zhuanlan.zhihu.com/p/343035293",
-      "summary": "正文以总平方和分解为组内与组间平方和，并用平方和除以自由度构造均方和 F 检验。"
-    },
-    {
-      "title": "概率论：三、随机变量的期望和方差",
-      "url": "https://zhuanlan.zhihu.com/p/343367455",
-      "summary": "正文定义方差和标准差，证明方差计算公式并讲解其性质、标准化和切比雪夫不等式。"
-    },
-    {
-      "title": "随机过程|笔记整理（B）——鞅的引入，性质与举例。可选停时定理",
-      "url": "https://zhuanlan.zhihu.com/p/345820722",
-      "summary": "正文利用随机游走增量的方差构造平方鞅，并推出鞅增量平方和等于总二次变差。"
-    },
-    {
       "title": "中心极限定理，到底是个什么鬼？",
       "url": "https://zhuanlan.zhihu.com/p/349480793",
       "summary": "正文给出方差和标准差的定义及计算公式，并用二者衡量数据离散程度。"
-    },
-    {
-      "title": "高维统计中过参数化为何能避免过度拟合？",
-      "url": "https://zhuanlan.zhihu.com/p/349605209",
-      "summary": "正文用偏差-方差分解解释参数增多时偏差、方差及整体误差的变化。"
-    },
-    {
-      "title": "形象理解协方差矩阵",
-      "url": "https://zhuanlan.zhihu.com/p/349802953",
-      "summary": "正文定义方差和样本方差，并说明其衡量随机变量相对均值的离散程度。"
-    },
-    {
-      "title": "随机过程|笔记整理（D）——鞅的极限性质的应用，布朗运动概述",
-      "url": "https://zhuanlan.zhihu.com/p/352464021",
-      "summary": "正文以方差参数定义一般布朗运动，并多次计算条件方差和协方差。"
-    },
-    {
-      "title": "茆诗松《高等数理统计》课后习题解答(1)第1章·基本概念·1-20题",
-      "url": "https://zhuanlan.zhihu.com/p/109757832",
-      "summary": "正文多次推导各概率分布的方差，并使用方差公式完成分布变换。"
-    },
-    {
-      "title": "茆诗松《高等数理统计》课后习题解答(2)第1章·基本概念·21-40题",
-      "url": "https://zhuanlan.zhihu.com/p/352986942",
-      "summary": "正文推导正态变量线性组合及条件分布的协方差和方差，并用于求条件正态分布。"
-    },
-    {
-      "title": "随机过程笔记（三）Poisson过程",
-      "url": "https://zhuanlan.zhihu.com/p/353084053",
-      "summary": "正文使用全方差公式推导复合泊松过程与条件泊松过程的方差。"
-    },
-    {
-      "title": "Normalization在CTR问题中的迷之效果",
-      "url": "https://zhuanlan.zhihu.com/p/353381965",
-      "summary": "正文反复比较归一化前后的均值与方差，并指出方差而非均值是Normalization有效的关键因素。"
-    },
-    {
-      "title": "茆诗松《高等数理统计》课后习题解答(4)第2章·点估计·1-10题",
-      "url": "https://zhuanlan.zhihu.com/p/353663407",
-      "summary": "正文通过方差公式计算估计量的均方误差，并比较不同估计量及最优缩放系数。"
-    },
-    {
-      "title": "R语言教程|带你搞清楚主成分分析（PCA）并完成分析",
-      "url": "https://zhuanlan.zhihu.com/p/354086571",
-      "summary": "正文用特征值表示各主成分的方差，并据此计算方差贡献率和累计贡献率。"
-    },
-    {
-      "title": "抽样调查第01讲（绪论：调查与抽样调查；基本概念；常见抽样方式）",
-      "url": "https://zhuanlan.zhihu.com/p/354135768",
-      "summary": "正文定义估计量方差，并把均方误差分解为估计量方差与偏差平方之和，用于衡量抽样误差。"
-    },
-    {
-      "title": "真香的多元随机向量基础篇（均值与方差）",
-      "url": "https://zhuanlan.zhihu.com/p/354951327",
-      "summary": "正文定义随机向量的自方差矩阵，讨论其对称性、正定性以及线性变换后的方差关系。"
     },
     {
       "title": "统计学与物理中的「矩」",
@@ -3088,39 +1138,9 @@
       "summary": "正文以减均值的二阶中心矩定义方差，并比较不同数据组的离散程度。"
     },
     {
-      "title": "抽样调查第02讲（简单随机抽样SRS：定义，简单估计量及其性质）",
-      "url": "https://zhuanlan.zhihu.com/p/356060582",
-      "summary": "正文推导有限总体校正下的样本均值方差，并讨论样本量对方差的影响。"
-    },
-    {
-      "title": "GAE——泛化优势估计",
-      "url": "https://zhuanlan.zhihu.com/p/356447099",
-      "summary": "正文以偏差和方差权衡分析TD误差与多步优势估计，并据此构造GAE。"
-    },
-    {
-      "title": "抽样调查第03讲（简单随机抽样SRS：比率估计、回归估计、确定样本容量）",
-      "url": "https://zhuanlan.zhihu.com/p/357618368",
-      "summary": "正文推导有限总体简单随机抽样下样本方差与总体方差的关系，并给出方差估计公式。"
-    },
-    {
-      "title": "抽样分布：经常听到的卡方分布、t分布等的含义是啥？",
-      "url": "https://zhuanlan.zhihu.com/p/358591655",
-      "summary": "正文解释样本方差为何以 n-1 为自由度，并给出其乘以系数后的卡方分布。"
-    },
-    {
-      "title": "T-test与ANOVA(方差分析)及Prism实例",
-      "url": "https://zhuanlan.zhihu.com/p/358723118",
-      "summary": "正文以组间与组内偏差平方和及其自由度构造均方，实质展开了方差分解。"
-    },
-    {
       "title": "对数正态分布",
       "url": "https://zhuanlan.zhihu.com/p/360165720",
       "summary": "正文由二阶矩与均值的关系给出对数正态分布的方差计算公式。"
-    },
-    {
-      "title": "重要性采样和多重重要性采样在路径追踪中的应用",
-      "url": "https://zhuanlan.zhihu.com/p/360420413",
-      "summary": "正文通过估计量方差说明重要性采样分布越贴近被积函数，收敛越快且误差越小。"
     },
     {
       "title": "金融数据与时间序列分析专题8：Heteroskedasticity time series models <I>",
@@ -3128,54 +1148,9 @@
       "summary": "正文定义时变条件方差，并以 ARCH(p) 的条件方差方程说明波动率随过去平方扰动而变化。"
     },
     {
-      "title": "抽样调查第05讲（分层抽样：各层样本量的分配、总样本量确定、抽样效果分析）",
-      "url": "https://zhuanlan.zhihu.com/p/361053531",
-      "summary": "正文推导分层抽样估计量的方差及比例分配下的简化结果，实质讨论了方差。"
-    },
-    {
-      "title": "双色球预测红球内部特殊算法",
-      "url": "https://zhuanlan.zhihu.com/p/361503154",
-      "summary": "正文逐期计算号码的算术平均值和标准差，并用标准差刻画的离散程度构造候选号码区间。"
-    },
-    {
-      "title": "从重要性采样到 RIS",
-      "url": "https://zhuanlan.zhihu.com/p/362134753",
-      "summary": "正文通过估计量方差分析采样分布对收敛速度的影响，并说明匹配分布可使方差降为零。"
-    },
-    {
-      "title": "协方差矩阵和相关系数矩阵",
-      "url": "https://zhuanlan.zhihu.com/p/363213507",
-      "summary": "正文从随机变量的方差定义出发，进一步定义协方差并解释其离散程度含义。"
-    },
-    {
-      "title": "茆诗松《高等数理统计》课后习题解答(7)第2章·点估计·31-40题",
-      "url": "https://zhuanlan.zhihu.com/p/364873543",
-      "summary": "正文多次计算估计量和次序统计量的方差、协方差，并用方差分解比较均方误差。"
-    },
-    {
-      "title": "茆诗松《高等数理统计》课后习题解答(8)第2章·点估计·41-50题",
-      "url": "https://zhuanlan.zhihu.com/p/366977293",
-      "summary": "正文推导拉普拉斯分布的方差，并进一步用样本方差构造参数估计。"
-    },
-    {
-      "title": "如何通俗的理解bootstrap，自举法，自助法",
-      "url": "https://zhuanlan.zhihu.com/p/367338935",
-      "summary": "正文以估计统计量 M 的方差为核心，说明模拟重采样得到的 B 个统计量方差如何近似 Var(M)。"
-    },
-    {
       "title": "应用随机分析基础",
       "url": "https://zhuanlan.zhihu.com/p/365684990",
       "summary": "正文利用 Ito 等距把随机积分的方差化为确定性时间积分，并给出明确计算结果。"
-    },
-    {
-      "title": "统计学的那些事 & 数据分析工作必会",
-      "url": "https://zhuanlan.zhihu.com/p/369830612",
-      "summary": "正文定义方差和标准差并用样本数据计算描述性统计量。"
-    },
-    {
-      "title": "随机过程：一、随机过程的分布及其特征",
-      "url": "https://zhuanlan.zhihu.com/p/371832715",
-      "summary": "正文定义均方值和方差函数，并说明方差刻画随机过程围绕均值的离散程度。"
     },
     {
       "title": "Rethinking “Batch” in BatchNorm",
@@ -3183,34 +1158,9 @@
       "summary": "正文以逐通道均值和方差作为BN统计量，并推导多个mini-batch方差聚合成总体方差的公式。"
     },
     {
-      "title": "当我们谈聚类标准误时我们在谈什么？",
-      "url": "https://zhuanlan.zhihu.com/p/376435984",
-      "summary": "正文分解组内共同误差和个体误差，并比较两种情形下组均值的方差。"
-    },
-    {
-      "title": "spss主成分分析（Principal Component Analysis，PCA）及结果解读",
-      "url": "https://zhuanlan.zhihu.com/p/376799094",
-      "summary": "正文按方差从大到小排列主成分，并用各成分解释的方差比例衡量降维后保留的信息。"
-    },
-    {
       "title": "误差理论与数据处理（复习记录）",
       "url": "https://zhuanlan.zhihu.com/p/376716164",
       "summary": "正文用贝塞尔公式、极差法和加权测量详细计算单次测量及算术平均值的标准差。"
-    },
-    {
-      "title": "【金融风险管理】—《风险管理与金融机构》PDF+学习复习笔记",
-      "url": "https://zhuanlan.zhihu.com/p/380539859",
-      "summary": "正文以收益率标准差定义波动率，并展开样本方差、EWMA 与 GARCH 的方差建模。"
-    },
-    {
-      "title": "数值分析：数值积分（蒙特卡洛积分）",
-      "url": "https://zhuanlan.zhihu.com/p/365624460",
-      "summary": "正文用估计量方差描述蒙特卡洛误差，并展开重要性采样、分层采样等方差缩减方法。"
-    },
-    {
-      "title": "深入理解欧氏距离和马氏距离",
-      "url": "https://zhuanlan.zhihu.com/p/390876896",
-      "summary": "正文解释各分量方差不同会主导欧氏距离，并通过标准化使各变量的平均作用一致。"
     },
     {
       "title": "随机微分方程笔记（二）布朗运动及其性质",
@@ -3218,114 +1168,9 @@
       "summary": "正文利用方差随观测时间减小证明均方收敛，还计算几何布朗运动与积分布朗运动的方差。"
     },
     {
-      "title": "浅谈Transformer的初始化、参数化与标准化",
-      "url": "https://zhuanlan.zhihu.com/p/400925524",
-      "summary": "正文以全连接层输入输出的二阶矩和方差为核心，推导 Xavier、He 初始化及注意力缩放条件。"
-    },
-    {
-      "title": "随机变量的特征函数及应用",
-      "url": "https://zhuanlan.zhihu.com/p/358618882",
-      "summary": "正文给出用特征函数一阶、二阶导数表示的方差公式，并逐项计算常见分布的方差。"
-    },
-    {
-      "title": "随机微分方程笔记（四）随机微分方程",
-      "url": "https://zhuanlan.zhihu.com/p/405174311",
-      "summary": "正文先建立 X_t^2 的随机微分方程，再由一阶矩和二阶矩之差计算随机过程的方差。"
-    },
-    {
-      "title": "Welford算法小记",
-      "url": "https://zhuanlan.zhihu.com/p/408474710",
-      "summary": "正文比较两遍法、朴素公式和 Welford 在线更新，推导方差及其更新公式。"
-    },
-    {
-      "title": "一万字的统计学知识大梳理",
-      "url": "https://zhuanlan.zhihu.com/p/413705766",
-      "summary": "正文从描述统计和随机事件的变异程度两个角度解释方差及标准差。"
-    },
-    {
-      "title": "不太确定的话，来个混沌多项式展开吧.py",
-      "url": "https://zhuanlan.zhihu.com/p/414661101",
-      "summary": "正文把方差估计作为不确定性量化的目标，并推导多项式混沌展开的均值与方差公式。"
-    },
-    {
       "title": "高等概率论：条件期望、条件方差与条件协方差的性质",
       "url": "https://zhuanlan.zhihu.com/p/360005737",
       "summary": "正文定义条件方差，并推导缩放性质、全方差公式和关于新增条件变量的分解。"
-    },
-    {
-      "title": "时间序列分析基础-定义、均值、方差、自协方差及相关性",
-      "url": "https://zhuanlan.zhihu.com/p/424609116",
-      "summary": "正文定义方差函数和样本方差，并用随机游走说明方差不恒定时过程不平稳。"
-    },
-    {
-      "title": "你必须掌握的15个统计学公式！！",
-      "url": "https://zhuanlan.zhihu.com/p/426527343",
-      "summary": "正文定义总体方差与标准差，列出未分组和分组数据的公式，并说明其用于度量数据离散程度。"
-    },
-    {
-      "title": "标准差、标准误、标准误差 ？？？",
-      "url": "https://zhuanlan.zhihu.com/p/427635528",
-      "summary": "正文区分标准差与标准误，说明标准差以样本点相对均值的离散程度进行描述，并讨论多组样本统计量的波动。"
-    },
-    {
-      "title": "读 What Uncertainties Do We Need in Bayesian Deep Learning for Computer Vision?",
-      "url": "https://zhuanlan.zhihu.com/p/430849602",
-      "summary": "正文给出由多次预测均值和预测方差组合计算像素总不确定性的具体方法。"
-    },
-    {
-      "title": "金融风控面试题目（二）",
-      "url": "https://zhuanlan.zhihu.com/p/432918000",
-      "summary": "正文用偏差—方差分解解释欠拟合与过拟合，并讨论降低方差的集成方法。"
-    },
-    {
-      "title": "从最小二乘法到卡尔曼滤波",
-      "url": "https://zhuanlan.zhihu.com/p/435704289",
-      "summary": "正文推导状态估计的协方差矩阵并给出其递推更新式。"
-    },
-    {
-      "title": "如何看懂主成分分析PCA图",
-      "url": "https://zhuanlan.zhihu.com/p/436725000",
-      "summary": "正文以各主成分的方差大小、总方差占比和贡献度说明 PCA 的选取原则。"
-    },
-    {
-      "title": "深入浅出详解因子分析，附案例教学（全）",
-      "url": "https://zhuanlan.zhihu.com/p/437473180",
-      "summary": "正文依据累积方差贡献率选择公共因子数量，并据此计算综合得分权重。"
-    },
-    {
-      "title": "理解和分析协方差矩阵",
-      "url": "https://zhuanlan.zhihu.com/p/438029034",
-      "summary": "正文说明对角元是各变量方差，并在几何解释中用方差刻画椭圆或椭球的拉伸。"
-    },
-    {
-      "title": "概率论和数理统计（个人总结篇）",
-      "url": "https://zhuanlan.zhihu.com/p/438177602",
-      "summary": "正文解释方差与标准差的离散程度含义，并区分样本标准差和标准误差。"
-    },
-    {
-      "title": "聚类稳健标准误",
-      "url": "https://zhuanlan.zhihu.com/p/438209745",
-      "summary": "正文比较同方差、异方差和组内相关的误差协方差结构，并解释其对系数标准误的影响。"
-    },
-    {
-      "title": "理解t检验的一个简单技巧和手动计算P值",
-      "url": "https://zhuanlan.zhihu.com/p/438338082",
-      "summary": "正文用方差、标准差和标准误差说明 t 检验分母所表示的噪声大小。"
-    },
-    {
-      "title": "Tweedie损失函数保姆级推导过程",
-      "url": "https://zhuanlan.zhihu.com/p/438439576",
-      "summary": "正文以全方差公式展开复合分布的方差，并代入泊松、伽马分布的矩得到结果。"
-    },
-    {
-      "title": "概率论知识点总结",
-      "url": "https://zhuanlan.zhihu.com/p/438651864",
-      "summary": "正文讨论方差、协方差和相关系数，并汇总伯努利、二项、泊松、指数、均匀及正态分布的方差。"
-    },
-    {
-      "title": "随机过程（一）——泊松过程",
-      "url": "https://zhuanlan.zhihu.com/p/439185099",
-      "summary": "正文利用二阶矩与均值定义推导泊松过程的方差函数并得到 λt。"
     },
     {
       "title": "多维随机变量之和方差公式推导",
@@ -3333,69 +1178,9 @@
       "summary": "正文从两个随机变量的方差出发，推导一般随机变量和的方差公式并给出协方差矩阵表示。"
     },
     {
-      "title": "Inequalities: 马尔可夫与切比雪夫不等式",
-      "url": "https://zhuanlan.zhihu.com/p/441266472",
-      "summary": "正文以方差刻画随机变量偏离均值的概率，并由马尔可夫不等式证明切比雪夫不等式。"
-    },
-    {
-      "title": "时间序列分析之GARCH模型介绍与应用",
-      "url": "https://zhuanlan.zhihu.com/p/424902442",
-      "summary": "正文以条件方差公式定义 ARCH 和 GARCH 的时变波动率，并据此建模和预测时间序列。"
-    },
-    {
-      "title": "SPSS第二讲 | 描述性统计，你学会了吗？",
-      "url": "https://zhuanlan.zhihu.com/p/442772380",
-      "summary": "正文具体定义平均数、标准差和方差，并说明方差及标准差如何度量数据的离散程度。"
-    },
-    {
-      "title": "Dropout视角下的MLM和MAE：一些新的启发",
-      "url": "https://zhuanlan.zhihu.com/p/443248807",
-      "summary": "正文利用二阶矩与均值平方之差推导伯努利变量的方差 p(1-p)，用于分析 Dropout 的随机扰动。"
-    },
-    {
       "title": "切比雪夫不等式证明及应用",
       "url": "https://zhuanlan.zhihu.com/p/442305767",
       "summary": "正文从随机变量的期望和方差出发陈述切比雪夫不等式，并在证明末尾把积分识别为方差。"
-    },
-    {
-      "title": "Quant笔试&面试-线性回归常见问题总结",
-      "url": "https://zhuanlan.zhihu.com/p/443658898",
-      "summary": "正文推导回归系数估计量的方差、残差方差及其在样本复制情形下的变化。"
-    },
-    {
-      "title": "什么是矩生成函数（MGF）？",
-      "url": "https://zhuanlan.zhihu.com/p/444510045",
-      "summary": "正文由 MGF 的零点导数得到各阶矩，并用二阶矩与一阶矩组合计算方差。"
-    },
-    {
-      "title": "SPSS第五讲 | 两独立样本均数T检验，你会了吗？",
-      "url": "https://zhuanlan.zhihu.com/p/446137683",
-      "summary": "正文用 Levene 检验讨论两组总体方差是否齐同，并据此选择 t 检验结果，实质涉及方差比较。"
-    },
-    {
-      "title": "SPSS第七讲 | 单因素方差分析怎么做？",
-      "url": "https://zhuanlan.zhihu.com/p/448983174",
-      "summary": "正文把方差分析的 F 统计量解释为组间变异与组内变异之比，并据此比较不同组均值。"
-    },
-    {
-      "title": "SPSS第九讲 | 两因素析因设计的方差分析，超级详细",
-      "url": "https://zhuanlan.zhihu.com/p/448992914",
-      "summary": "正文检查各组方差齐性，并通过方差分析及效应量比较运动训练和饮食控制的作用。"
-    },
-    {
-      "title": "置信区间与预测区间是同一个吗？",
-      "url": "https://zhuanlan.zhihu.com/p/366307027",
-      "summary": "正文分别推导均值估计和个别值估计的方差，从而比较区间宽度。"
-    },
-    {
-      "title": "数据降维大法--主成分分析法经典案例讲解（入门必看）",
-      "url": "https://zhuanlan.zhihu.com/p/454447043",
-      "summary": "正文以方差贡献率和累计贡献率说明主成分个数的选择。"
-    },
-    {
-      "title": "期末复习——概率论与数理统计基本概念总结",
-      "url": "https://zhuanlan.zhihu.com/p/457874295",
-      "summary": "正文定义方差和标准差，推导方差计算公式并讨论其性质与常见分布的方差。"
     },
     {
       "title": "概率统计笔记（十六）补1：样本方差服从卡方分布",
@@ -3403,84 +1188,14 @@
       "summary": "正文给出样本方差的表达式，并推导新增样本时样本方差与离差平方和的递推恒等式。"
     },
     {
-      "title": "回归分析笔记（七）：异方差检验",
-      "url": "https://zhuanlan.zhihu.com/p/449162727",
-      "summary": "正文以随机误差协方差矩阵的对角元刻画异方差，并分析参数估计方差增大及其后果。"
-    },
-    {
-      "title": "方差、标准差、标准误、离差的联系和区别，理顺这个逻辑，一下子就豁然开朗了",
-      "url": "https://zhuanlan.zhihu.com/p/461459247",
-      "summary": "正文用考试成绩和海浪例子解释离差、方差与标准差的含义，并推导平方离差平均值的计算方式。"
-    },
-    {
-      "title": "矩阵视角下的Transformer详解（附代码）",
-      "url": "https://zhuanlan.zhihu.com/p/462410907",
-      "summary": "正文推导注意力得分的均值与方差，并用除以维数平方根的缩放使方差保持为一。"
-    },
-    {
-      "title": "一文读懂PCA分析 （原理、算法、解释和可视化）",
-      "url": "https://zhuanlan.zhihu.com/p/467281058",
-      "summary": "正文把方差定义为衡量一组一维数据离散程度的统计量，并用于选择主成分。"
-    },
-    {
-      "title": "概率论和数理统计知识点总结",
-      "url": "https://zhuanlan.zhihu.com/p/472605235",
-      "summary": "正文给出方差、标准差及离散型方差的计算公式，并展开方差的基本性质。"
-    },
-    {
       "title": "样本方差中的自由度是什么？：严格证明为什么计算样本方差时要除以n-1",
       "url": "https://zhuanlan.zhihu.com/p/472962286",
       "summary": "正文通过代数变形和期望计算说明样本方差采用 n-1 分母才能无偏估计总体方差。"
     },
     {
-      "title": "IMU预积分的理解和推导",
-      "url": "https://zhuanlan.zhihu.com/p/473227932",
-      "summary": "正文由噪声递推推导预积分协协方差矩阵，并说明其倒数用于信息权重。"
-    },
-    {
-      "title": "毕业论文之问卷信度效度分析",
-      "url": "https://zhuanlan.zhihu.com/p/474667809",
-      "summary": "正文用主成分的特征根、方差解释率和累积方差解释率确定因子个数。"
-    },
-    {
-      "title": "Fisher Information Matrix",
-      "url": "https://zhuanlan.zhihu.com/p/474994301",
-      "summary": "正文将 Fisher 信息解释为 score function 的方差，并讨论其对参数估计确定性的含义。"
-    },
-    {
-      "title": "SPSS主成分分析步骤及结果，详细版",
-      "url": "https://zhuanlan.zhihu.com/p/481576614",
-      "summary": "正文利用公因子方差和解释总方差评价提取的五个因子对原始变量方差的解释程度。"
-    },
-    {
-      "title": "正态分布（高斯分布）学习笔记",
-      "url": "https://zhuanlan.zhihu.com/p/481760712",
-      "summary": "正文说明总体方差、样本方差和标准差的计算及其衡量离散程度的意义。"
-    },
-    {
-      "title": "无迹卡尔曼滤波UKF的理解与应用（附Matlab实例）",
-      "url": "https://zhuanlan.zhihu.com/p/482392082",
-      "summary": "正文由预测观测的加权偏差平方和计算协方差矩阵，并据此更新 Kalman 增益与状态。"
-    },
-    {
       "title": "方差、标准差的公式和含义",
       "url": "https://zhuanlan.zhihu.com/p/484802159",
       "summary": "正文解释方差和标准差衡量数据波动，给出计算式并通过成绩数据说明取值与波动性的关系。"
-    },
-    {
-      "title": "本科生向，garch模型族stata脑残级操作",
-      "url": "https://zhuanlan.zhihu.com/p/491805086",
-      "summary": "正文解释ARCH/GARCH把当期条件方差建模为扰动项和过去方差的自回归关系。"
-    },
-    {
-      "title": "Empirical Market Microstructure：实证市场微观结构 Part I",
-      "url": "https://zhuanlan.zhihu.com/p/481016328",
-      "summary": "正文推导价差、交易价格差分及时间序列模型中的方差和自协方差。"
-    },
-    {
-      "title": "朴实无华，万字统计学知识大梳理，建议收藏！",
-      "url": "https://zhuanlan.zhihu.com/p/498941630",
-      "summary": "正文从数据离散程度出发定义方差，并区分方差与标准差。"
     },
     {
       "title": "对数正态分布（Log-Normal Distribution）",
@@ -3491,11 +1206,6 @@
       "title": "二项分布期望和方差推导",
       "url": "https://zhuanlan.zhihu.com/p/502063938",
       "summary": "正文先计算二阶矩，再用方差公式推出二项分布的方差 np(1-p)。"
-    },
-    {
-      "title": "0-1 分布、二项分布（期望与方差）",
-      "url": "https://zhuanlan.zhihu.com/p/503538267",
-      "summary": "正文明确给出二项分布的方差公式，并围绕该分布的期望与方差展开说明。"
     },
     {
       "title": "泊松分布（定义、期望、方差、例题）",
@@ -3518,54 +1228,9 @@
       "summary": "正文给出方差与标准差公式，并解释它们同均方根在是否减去均值及离散程度含义上的差异。"
     },
     {
-      "title": "直观理解Law of Total Variance(方差分解公式)",
-      "url": "https://zhuanlan.zhihu.com/p/507900722",
-      "summary": "正文给出并证明全方差公式，把方差分解为组内与组间两部分。"
-    },
-    {
-      "title": "解读文献里的那些图——主成分分析图（PCA）",
-      "url": "https://zhuanlan.zhihu.com/p/515622979",
-      "summary": "正文说明主成分按方差大小排序，并以各主成分方差占总方差的比例定义贡献度。"
-    },
-    {
-      "title": "多元统计分析期末复习笔记",
-      "url": "https://zhuanlan.zhihu.com/p/537880991",
-      "summary": "用各主成分解释的方差大小说明主成分分析的信息保留原则。"
-    },
-    {
-      "title": "【概率论】各种概率分布汇总",
-      "url": "https://zhuanlan.zhihu.com/p/517424307",
-      "summary": "正文解释方差和标准差刻画分布离散程度，并给出卡方、Beta 等分布的方差。"
-    },
-    {
       "title": "期望、方差、协方差性质总结与证明",
       "url": "https://zhuanlan.zhihu.com/p/541777186",
       "summary": "正文系统推导方差的计算公式、非负性、平移伸缩性质以及独立变量方差相加。"
-    },
-    {
-      "title": "多传感器融合专题（一） ｜ 各类滤波器方法整理",
-      "url": "https://zhuanlan.zhihu.com/p/542440266",
-      "summary": "正文通过协方差矩阵、白噪声方差和条件分布推导状态估计的不确定性。"
-    },
-    {
-      "title": "简单易懂(?)的误差状态卡尔曼滤波器(Error State Kalman Filter, ESKF)的原理与实现（一）原理简介",
-      "url": "https://zhuanlan.zhihu.com/p/545370811",
-      "summary": "正文用协方差传播公式计算误差状态的方差，并在观测更新后作雅可比修正。"
-    },
-    {
-      "title": "概率论笔记（四）概率分布的下期望和方差的公式总结",
-      "url": "https://zhuanlan.zhihu.com/p/547918825",
-      "summary": "正文把方差定义为偏差平方的加权平均，并总结离散型和连续型方差公式。"
-    },
-    {
-      "title": "六、GAE 广义优势估计",
-      "url": "https://zhuanlan.zhihu.com/p/549145459",
-      "summary": "正文围绕估计量方差解释蒙特卡洛、时序差分和 λ-return 的取舍。"
-    },
-    {
-      "title": "【游戏数值策划】抽奖模型的设计与分析",
-      "url": "https://zhuanlan.zhihu.com/p/534645684",
-      "summary": "正文根据模拟样本的极差与标准偏差比较不同抽奖模型的离散程度和可控性。"
     },
     {
       "title": "【浅谈】样本方差的分母“n”为什么要改为“n-1”",
@@ -3573,39 +1238,9 @@
       "summary": "正文围绕样本方差为何使用 n-1 展开偏差推导，并解释自由度损失的来源。"
     },
     {
-      "title": "概率论和机器学习中的不等式（一）",
-      "url": "https://zhuanlan.zhihu.com/p/538654580",
-      "summary": "正文用随机变量方差和标准差刻画偏离概率，并推导切比雪夫与坎泰利不等式。"
-    },
-    {
-      "title": "CPK制程能力指标",
-      "url": "https://zhuanlan.zhihu.com/p/555112183",
-      "summary": "正文以标准差衡量制程离散程度，并据此定义 Cp、Cpk 和制程能力等级。"
-    },
-    {
-      "title": "概率论和机器学习中的不等式（二）",
-      "url": "https://zhuanlan.zhihu.com/p/550342751",
-      "summary": "正文以伯恩斯坦不等式为例，用各随机变量的方差刻画部分和偏离均值的更紧概率上界。"
-    },
-    {
-      "title": "一文看懂卡尔曼滤波（附全网最详细公式推导和Matlab代码）",
-      "url": "https://zhuanlan.zhihu.com/p/559191083",
-      "summary": "正文以误差协方差矩阵及其迹作为最小化目标推导卡尔曼增益。"
-    },
-    {
-      "title": "概率论和机器学习中的不等式",
-      "url": "https://zhuanlan.zhihu.com/p/559551933",
-      "summary": "正文系统推导切比雪夫、坎泰利和埃夫隆-施泰因等基于方差的概率界。"
-    },
-    {
       "title": "概率论4.3-原点矩和中心距",
       "url": "https://zhuanlan.zhihu.com/p/570470390",
       "summary": "正文定义中心矩并说明二阶中心矩正是随机变量的方差。"
-    },
-    {
-      "title": "用概率深度学习建模数据不确定性（aleatoric uncertainty)",
-      "url": "https://zhuanlan.zhihu.com/p/568912284",
-      "summary": "正文具体把预测方差作为衡量输入相关数据噪声的参数，并据此构造损失。"
     },
     {
       "title": "12587 「五角形游戏」的解法是怎么想出来的？",
@@ -3613,69 +1248,9 @@
       "summary": "正文把平方和与方差作为刻画多角形状态的平均程度和单调性的辅助量。"
     },
     {
-      "title": "轻松学习扩散模型（diffusion model），被巨怪踩过的脑袋也能懂——原理详解+pytorch代码详解（附全部代码）",
-      "url": "https://zhuanlan.zhihu.com/p/572770333",
-      "summary": "正文通过方差相加合并独立高斯噪声，并据此把多步加噪化简为任意时刻的闭式表达。"
-    },
-    {
-      "title": "极值分布与广义极值分布（GEV）",
-      "url": "https://zhuanlan.zhihu.com/p/576922526",
-      "summary": "正文给出 Gumbel 分布的方差公式和标准化后的数值，具体讨论方差。"
-    },
-    {
       "title": "概率论相关的积分知识及一些计算技巧",
       "url": "https://zhuanlan.zhihu.com/p/580198395",
       "summary": "正文计算正态随机变量的二阶矩，并利用方差公式推出其方差为参数 sigma 的平方。"
-    },
-    {
-      "title": "【概率论】常见分布的性质",
-      "url": "https://zhuanlan.zhihu.com/p/580841851",
-      "summary": "正文为各常见随机变量列出方差公式，例如二项分布方差为np(1-p)，并讨论正态分布线性组合的方差。"
-    },
-    {
-      "title": "由浅入深理解 Fisher 信息（1）——从10种不同的角度和深度理解 Fisher information",
-      "url": "https://zhuanlan.zhihu.com/p/589273267",
-      "summary": "正文用不同噪声方差下概率曲线的尖峭或平坦程度，解释方差与参数观测信息量之间的关系。"
-    },
-    {
-      "title": "由浅入深理解 Fisher 信息（2）——从10种不同的角度和深度理解 Fisher information",
-      "url": "https://zhuanlan.zhihu.com/p/589311732",
-      "summary": "正文从 Score 函数的方差定义 Fisher 信息，并用 E(S^2)-E^2(S) 的方差分解推导计算式。"
-    },
-    {
-      "title": "由浅入深理解 Fisher 信息（3）——从10种不同的角度和深度理解 Fisher information",
-      "url": "https://zhuanlan.zhihu.com/p/589321752",
-      "summary": "正文以估计量方差评价有效性，并通过 Cramer-Rao 下界说明 Fisher 信息限制估计方差。"
-    },
-    {
-      "title": "随机过程学习笔记（2）- Random Walks随机游走问题",
-      "url": "https://zhuanlan.zhihu.com/p/590771816",
-      "summary": "正文先求单步增量的方差，再利用各步增量独立同分布得到随机游走位置的方差。"
-    },
-    {
-      "title": "统计思维系列课程01：解读数据",
-      "url": "https://zhuanlan.zhihu.com/p/595273755",
-      "summary": "正文给出总体方差和样本方差公式，解释其衡量数据离散程度的意义。"
-    },
-    {
-      "title": "卡尔曼滤波(一)：初始篇",
-      "url": "https://zhuanlan.zhihu.com/p/610976717",
-      "summary": "正文用方差衡量估计值和测量值的波动，并以最小化误差方差解释卡尔曼滤波的融合准则。"
-    },
-    {
-      "title": "五大工具（四）：SPC",
-      "url": "https://zhuanlan.zhihu.com/p/613381650",
-      "summary": "正文用极差和标准差控制图度量并监控生产过程的波动，说明不同样本量下的估计选择。"
-    },
-    {
-      "title": "概率分布是什么——一些常见的概率分布（一）",
-      "url": "https://zhuanlan.zhihu.com/p/615272674",
-      "summary": "正文列出伯努利等分布的方差公式，并以 E[X^2]-E[X]^2 计算分布的方差。"
-    },
-    {
-      "title": "概率论和机器学习中的不等式",
-      "url": "https://zhuanlan.zhihu.com/p/609782522",
-      "summary": "正文用埃夫隆-施泰因不等式给出随机变量函数方差的上界。"
     },
     {
       "title": "C.R.Rao：统计学的一百年",
@@ -3683,34 +1258,9 @@
       "summary": "正文具体解释 Cramer-Rao 下界如何以 Fisher 信息限制无偏估计量的方差。"
     },
     {
-      "title": "MATLAB | 绘图复刻(九) | 泰勒图及组合泰勒图",
-      "url": "https://zhuanlan.zhihu.com/p/636339281",
-      "summary": "正文给出标准差公式衡量数据围绕均值的离散程度，并用其构造泰勒图。"
-    },
-    {
-      "title": "【小菲stata】VAR模型stata建模详细步骤",
-      "url": "https://zhuanlan.zhihu.com/p/643245065",
-      "summary": "正文用方差分解衡量各结构冲击对变量预测方差的贡献，比较不同扰动的相对重要性。"
-    },
-    {
       "title": "概率论与数理统计——正态分布的推导",
       "url": "https://zhuanlan.zhihu.com/p/645373893",
       "summary": "正文把 σ² 识别为方差，并以方差大小解释正态分布的集中或分散程度。"
-    },
-    {
-      "title": "概率论及数理统计笔记(自用)",
-      "url": "https://zhuanlan.zhihu.com/p/646376019",
-      "summary": "正文讲解方差的定义、计算公式、性质以及协方差和相关系数。"
-    },
-    {
-      "title": "原神概率论：材料合成天赋选10%双倍还是25%返还？",
-      "url": "https://zhuanlan.zhihu.com/p/648950822",
-      "summary": "正文重点推导二项产出与递归返还模型的方差，并使用条件方差分解公式。"
-    },
-    {
-      "title": "常用假设检验方法（U检验、T检验、卡方检验、F检验)",
-      "url": "https://zhuanlan.zhihu.com/p/654660456",
-      "summary": "正文把 F 检验定义为正态总体方差齐性检验，并配置统计量与数据示例说明判断过程。"
     },
     {
       "title": "统计学中最反直觉的悖论—斯坦悖论，用中国茶叶的价格来更准确地预测墨尔本的降雨概率？",
@@ -3718,114 +1268,14 @@
       "summary": "正文系统拆解均方误差为方差与偏差平方，并解释收缩估计的偏差-方差权衡。"
     },
     {
-      "title": "统计学知识大梳理",
-      "url": "https://zhuanlan.zhihu.com/p/658329418",
-      "summary": "正文把方差定义为数据偏离均值的平方的平均，作为衡量分散性的统计量。"
-    },
-    {
-      "title": "3万字长文！手把手教你学会用Python实现统计学",
-      "url": "https://zhuanlan.zhihu.com/p/658452656",
-      "summary": "正文给出方差与标准差定义，说明它们衡量数据偏离均值的离散程度。"
-    },
-    {
       "title": "物理学家用随机过程：笔记",
       "url": "https://zhuanlan.zhihu.com/p/658736406",
       "summary": "正文推导随机变量平方的演化，并由一阶矩和二阶矩得到方差的微分方程。"
     },
     {
-      "title": "主成分分析(PCA)从基本思想到分析和绘图一文搞定—基于R语言 全网最详细PCA分析教程 全文两万三千余字",
-      "url": "https://zhuanlan.zhihu.com/p/660541006",
-      "summary": "正文以方差最大化为主成分选择的依据，并持续使用方差解释率和累计方差判断维数。"
-    },
-    {
-      "title": "方差缩减方法是什么——一些常见的方差缩减方法",
-      "url": "https://zhuanlan.zhihu.com/p/557279067",
-      "summary": "正文围绕估计量方差给出多种方差缩减条件的推导与比较。"
-    },
-    {
-      "title": "卡尔曼滤波：基本原理、算法推导、实践应用与前沿进展",
-      "url": "https://zhuanlan.zhihu.com/p/667040178",
-      "summary": "正文以估计误差方差最小化为目标推导卡尔曼增益，并给出协方差预测和更新公式。"
-    },
-    {
-      "title": "通俗易懂：协方差矩阵（举例）",
-      "url": "https://zhuanlan.zhihu.com/p/672965170",
-      "summary": "正文给出总体方差、样本方差及无偏估计解释，并用身高和体重数据完成实例计算。"
-    },
-    {
-      "title": "通俗易懂：马氏距离（举例）",
-      "url": "https://zhuanlan.zhihu.com/p/674071134",
-      "summary": "正文通过标准化与伸缩处理异方差，并说明马氏距离如何消除量纲和方差差异。"
-    },
-    {
-      "title": "GAE（Generalized Advantage Estimation）理解及推导",
-      "url": "https://zhuanlan.zhihu.com/p/675309680",
-      "summary": "正文讨论多步估计中偏差与方差的权衡，并用参数 lambda 调节两者。"
-    },
-    {
-      "title": "《数理统计》终极总结",
-      "url": "https://zhuanlan.zhihu.com/p/677773927",
-      "summary": "正文围绕无偏估计的方差界、UMVUE 和 Cramer-Rao 下界展开讨论。"
-    },
-    {
-      "title": "Cpk为什么要大于1.33？一文详解CPK计算",
-      "url": "https://zhuanlan.zhihu.com/p/680485250",
-      "summary": "正文把制程数据的变异程度作为精确度，并以标准差 σ 衡量散布范围，构成对方差所表示离散程度的具体应用。"
-    },
-    {
-      "title": "线性混合模型（一）：概述",
-      "url": "https://zhuanlan.zhihu.com/p/676963821",
-      "summary": "正文讨论随机效应与残差的方差协方差矩阵、方差成分和异质方差结构。"
-    },
-    {
       "title": "一文带你理解样本方差为什么下面要除以n-1",
       "url": "https://zhuanlan.zhihu.com/p/689008493",
       "summary": "正文比较总体方差与样本方差，并严格证明除以 n-1 能得到总体方差的无偏估计。"
-    },
-    {
-      "title": "重要性采样(Importance Sampling)",
-      "url": "https://zhuanlan.zhihu.com/p/695130713",
-      "summary": "正文把方差作为比较估计量效率的核心指标，推导重要性采样估计量方差并讨论重尾分布导致的无穷方差。"
-    },
-    {
-      "title": "量化那些事之 Diffusion 量化",
-      "url": "https://zhuanlan.zhihu.com/p/693474068",
-      "summary": "正文解析量化噪声造成的均值偏差和额外方差，并介绍校正偏差及调整去噪方差调度的方法。"
-    },
-    {
-      "title": "UE5.4 Lumen中的ReSTIR Gather (上) 全网最细RIS无偏性证明",
-      "url": "https://zhuanlan.zhihu.com/p/703950102",
-      "summary": "正文给出方差定义、方差与期望的关系及常数缩放性质，并用方差趋零解释一致性。"
-    },
-    {
-      "title": "为什么Attention计算公式中，QK的点积要除以根号d",
-      "url": "https://zhuanlan.zhihu.com/p/4555299718",
-      "summary": "正文推导 Q、K 点积随维度增长的方差，并据此解释 softmax 饱和。"
-    },
-    {
-      "title": "卡西欧计算器fx-991CN CW,fx-999CN CW的使用方法",
-      "url": "https://zhuanlan.zhihu.com/p/15236757985",
-      "summary": "正文明确给出总体方差的计算公式，并在相邻条目区分样本方差。"
-    },
-    {
-      "title": "系统分析师第二版pdf教程+第二章学习笔记",
-      "url": "https://zhuanlan.zhihu.com/p/21418293765",
-      "summary": "正文定义方差并给出计算公式及独立随机变量方差的性质。"
-    },
-    {
-      "title": "蒙特卡洛(MC) vs 时序差分(TD) vs 广义优势估计(GAE)",
-      "url": "https://zhuanlan.zhihu.com/p/22431139619",
-      "summary": "正文具体分析蒙特卡洛回报估计的高方差及其偏差与方差权衡。"
-    },
-    {
-      "title": "惯性导航：多个低精度IMU组合能得到高精度IMU吗？",
-      "url": "https://zhuanlan.zhihu.com/p/1897586190242263934",
-      "summary": "正文计算等权平均后偏置与噪声的方差，并推导长期速度和位移误差方差随传感器数目的变化。"
-    },
-    {
-      "title": "扩散不一定是 Spectral Autoregression",
-      "url": "https://zhuanlan.zhihu.com/p/1915014848401613177",
-      "summary": "正文以各傅里叶分量的信号方差和噪声方差定义信噪比，并据此比较不同扩散时间表。"
     },
     {
       "title": "为什么样本方差要除以n-1而非n",

@@ -103,11 +103,6 @@
       "summary": "正文解释当弱空间是希尔伯特空间时可利用更多结构得到弱解。"
     },
     {
-      "title": "最大似然估计和最小二乘法怎么理解？",
-      "url": "https://www.zhihu.com/answer/173149479",
-      "summary": "正文把随机变量集合构造成带内积的Hilbert空间，用于解释OLS投影。"
-    },
-    {
       "title": "密度矩阵的物理意义是什么？",
       "url": "https://www.zhihu.com/answer/174223353",
       "summary": "正文将纯态视为Hilbert空间中的点并讨论态空间的商结构。"
@@ -233,11 +228,6 @@
       "summary": "正文说明 p=2 时由内积得到角度与正交。"
     },
     {
-      "title": "机器学习里的 kernel 是指什么？",
-      "url": "https://www.zhihu.com/answer/624493106",
-      "summary": "说明核函数定义再生核希尔伯特空间及其中的内积。"
-    },
-    {
       "title": "希尔伯特空间、内积空间的定义有什么关系和区别？",
       "url": "https://www.zhihu.com/answer/731866608",
       "summary": "介绍 Hilbert 空间及其内积完备性。"
@@ -288,19 +278,9 @@
       "summary": "正文用 Hilbert 空间投影定理解释泛函分析并求解最优控制中的微分方程约束。"
     },
     {
-      "title": "什么是随机特征(Random Feature)方法?",
-      "url": "https://www.zhihu.com/answer/1417790713",
-      "summary": "正文介绍随机特征方法与再生核希尔伯特空间。"
-    },
-    {
       "title": "如何数值计算量子多体系统的纠缠熵（或约化密度矩阵）？",
       "url": "https://www.zhihu.com/answer/1573803275",
       "summary": "正文将量子多体波函数表示为多个格点希尔伯特空间张量积中的向量，并据此作空间二分。"
-    },
-    {
-      "title": "什么是密度矩阵重整化群？",
-      "url": "https://www.zhihu.com/answer/1585609137",
-      "summary": "正文在多体量子态的希尔伯特空间上构造矩阵乘积态。"
     },
     {
       "title": "什么是波函数？",
@@ -333,11 +313,6 @@
       "summary": "正文围绕量子态的希尔伯特空间、内积与完备性展开。"
     },
     {
-      "title": "奇异值分解（SVD）有哪些很厉害的应用？",
-      "url": "https://www.zhihu.com/answer/1994290319",
-      "summary": "正文在二维不变子空间和希尔伯特空间中分析算子。"
-    },
-    {
       "title": "湍流是个物理问题吗？",
       "url": "https://www.zhihu.com/answer/2213378724",
       "summary": "正文说明柯尔莫哥洛夫在平稳随机过程研究中广泛使用希尔伯特空间。"
@@ -358,11 +333,6 @@
       "summary": "正文以 Parseval 恒等式说明希尔伯特空间中的推广。"
     },
     {
-      "title": "使用MMD (maximum mean discrepancy) 方法实现两组多维数据计算MMD值？",
-      "url": "https://www.zhihu.com/answer/2324371883",
-      "summary": "正文解释 MMD 通过核函数把样本映射到希尔伯特空间。"
-    },
-    {
       "title": "如何寻找共形场论中的中心扩张和中心荷？",
       "url": "https://www.zhihu.com/answer/2356237920",
       "summary": "正文用希尔伯特空间和射影空间描述量子系统表示。"
@@ -376,11 +346,6 @@
       "title": "(f∘g)(x) = f(g(x)) 究竟是否需要证明？",
       "url": "https://www.zhihu.com/answer/2473536891",
       "summary": "正文把函数演算放在 Hilbert 空间上的有界算子语境中。"
-    },
-    {
-      "title": "高斯过程说它是非参数模型，这点怎么理解？",
-      "url": "https://www.zhihu.com/answer/2497801273",
-      "summary": "正文说明高斯过程与再生核希尔伯特空间的等价关系及核函数表示。"
     },
     {
       "title": "如何数值计算量子多体系统的纠缠熵（或约化密度矩阵）？",
@@ -401,11 +366,6 @@
       "title": "能带如何与不可以约表示联系在一起？",
       "url": "https://www.zhihu.com/answer/2647375714",
       "summary": "把本征波函数视为希尔伯特空间向量，并研究其在群作用下的表示。"
-    },
-    {
-      "title": "对于金融工程和金融数学，数值计算更有用，还是泛函分析更有用？",
-      "url": "https://www.zhihu.com/answer/2661365044",
-      "summary": "以最小二乘蒙特卡罗为例，讨论希尔伯特空间中的正交基与多项式基函数。"
     },
     {
       "title": "为什么在量子力学一些非平方可积函数可以作为基底？",
@@ -456,11 +416,6 @@
       "title": "各种算子理论，包括Koopman算子，还有近年来结合机器学习的算子等，是什么，用来干嘛的，有前途吗？",
       "url": "https://www.zhihu.com/answer/3619896576",
       "summary": "正文说明观测函数位于无限维 Hilbert 空间中，并提到用 Taylor、Fourier 展开逼近，具体使用了 Hilbert 空间框架。"
-    },
-    {
-      "title": "为什么学了信号与系统后感觉只会作些课后题，对它的原理和本质很迷茫？",
-      "url": "https://www.zhihu.com/answer/59244779258",
-      "summary": "正文用完备基底和函数内积说明希尔伯特空间，并用它解释信号展开。"
     },
     {
       "title": "代数系统有哪些？群、环、域、格之外还有吗？",
@@ -568,19 +523,9 @@
       "summary": "正文由完备内积空间定义 Hilbert 空间，并讨论可分的 L² 空间及其正交基。"
     },
     {
-      "title": "有限元基础——从入门到放弃",
-      "url": "https://zhuanlan.zhihu.com/p/21377606",
-      "summary": "正文在希尔伯特空间框架下陈述Lax-Milgram引理，并用Riesz表示定理说明变分方程的可解性。"
-    },
-    {
       "title": "浅谈条件期望",
       "url": "https://zhuanlan.zhihu.com/p/23670286",
       "summary": "正文把 L2 平方可积函数空间视为希尔伯特空间，并解释子空间与正交投影。"
-    },
-    {
-      "title": "我理解的傅里叶变换",
-      "url": "https://zhuanlan.zhihu.com/p/23739221",
-      "summary": "正文由内积、范数和完备性定义希尔伯特空间，并说明正交基及傅里叶基在 L2 函数空间中的角色。"
     },
     {
       "title": "测度论（一）",
@@ -623,29 +568,14 @@
       "summary": "正文讲解希尔伯特空间中的最佳逼近、正交分解、标准正交基和投影映射。"
     },
     {
-      "title": "Python · SVM（三）· 核方法",
-      "url": "https://zhuanlan.zhihu.com/p/27445103",
-      "summary": "正文通过 Mercer 定理和再生核希尔伯特空间解释核函数的内积表示。"
-    },
-    {
       "title": "常用不等式",
       "url": "https://zhuanlan.zhihu.com/p/28250221",
       "summary": "正文在完备内积空间中用规范正交基和勾股定理说明贝塞尔不等式。"
     },
     {
-      "title": "领域自适应（domain adaption）--学习一个不变的希尔伯特空间（CVPR 2017）",
-      "url": "https://zhuanlan.zhihu.com/p/28693982",
-      "summary": "正文将源域和目标域样本投影到希尔伯特空间 H，并在其中用马氏度量比较分布。"
-    },
-    {
       "title": "有穷维和无穷维空间的差别——从\"B-W\"定理到Arzelà–Ascoli定理",
       "url": "https://zhuanlan.zhihu.com/p/28925945",
       "summary": "正文在 L^2 Hilbert 空间中构造有界但无收敛子列的序列，说明无穷维空间缺少有限维紧性。"
-    },
-    {
-      "title": "专家坐堂：机器学习中对核函数的理解",
-      "url": "https://zhuanlan.zhihu.com/p/30445271",
-      "summary": "正文解释赋范空间、内积与完备性，并以此定义核函数映射所在的希尔伯特特征空间。"
     },
     {
       "title": "泛函分析观点下的随机积分 (一)：L2鞅与变差",
@@ -693,11 +623,6 @@
       "summary": "正文定义希尔伯特空间，并说明内积可研究正交、投影以及由内积诱导的范数。"
     },
     {
-      "title": "核函数粗浅的理解",
-      "url": "https://zhuanlan.zhihu.com/p/47541349",
-      "summary": "正文以到希尔伯特特征空间的映射和映射后内积定义核函数。"
-    },
-    {
       "title": "1维上的Malliavin分析初步",
       "url": "https://zhuanlan.zhihu.com/p/49269815",
       "summary": "正文证明Hermite多项式在L2高斯空间中构成标准正交基，并用正交分解证明不等式。"
@@ -706,11 +631,6 @@
       "title": "量子力学杂谈——广义函数与场算符",
       "url": "https://zhuanlan.zhihu.com/p/55000537",
       "summary": "文章用希尔伯特空间上的 Riesz 表示定理解释 Dirac 左右矢记号和连续线性泛函。"
-    },
-    {
-      "title": "小波包变换（Wavelet Packet Transform）的学习笔记",
-      "url": "https://zhuanlan.zhihu.com/p/58596902",
-      "summary": "正文明确把可作小波变换的平方可积信号刻画为希尔伯特空间中的函数，并用线性组合与内积说明其空间结构。"
     },
     {
       "title": "谱积分以及谱分解的理解",
@@ -738,29 +658,14 @@
       "summary": "正文以格点希尔伯特空间的张量积表示整体态空间，并在此框架中定义矩阵乘积态。"
     },
     {
-      "title": "Deep Kernel Density Estimation",
-      "url": "https://zhuanlan.zhihu.com/p/73426787",
-      "summary": "正文定义内积空间和希尔伯特空间，并进一步构造再生核希尔伯特空间用于核密度模型。"
-    },
-    {
       "title": "从希尔伯特空间的角度看线性变换的一般思想和问题",
       "url": "https://zhuanlan.zhihu.com/p/76969134",
       "summary": "正文从元素内积衡量相似度出发，用正交基和投影解释函数空间表示，实质讲解了希尔伯特空间。"
     },
     {
-      "title": "概率论笔记(10)——条件期望",
-      "url": "https://zhuanlan.zhihu.com/p/79050943",
-      "summary": "正文把平方可积随机变量空间视为 Hilbert 空间，并将条件期望解释为闭子空间上的正交投影。"
-    },
-    {
       "title": "数学基础之Karhunen–Loève展开（专注于Mercer定理的RKHS引论）",
       "url": "https://zhuanlan.zhihu.com/p/77418542",
       "summary": "正文从内积、求值泛函和再生核出发定义再生核 Hilbert 空间，并讨论连续性与完备化。"
-    },
-    {
-      "title": "Qutip 学习记录",
-      "url": "https://zhuanlan.zhihu.com/p/82539614",
-      "summary": "正文具体说明无穷维希尔伯特空间及仿真中的有限维截断，对应希尔伯特空间。"
     },
     {
       "title": "什么是希尔伯特空间？",
@@ -798,24 +703,9 @@
       "summary": "正文逐项解释内积空间、完备性并给出希尔伯特空间的正式定义。"
     },
     {
-      "title": "Malliavin 分析（一）",
-      "url": "https://zhuanlan.zhihu.com/p/110868603",
-      "summary": "正文以无穷维可分 Hilbert 空间 H 为基本对象，并利用 L² 空间的正交分解和 Hermite 基展开理论。"
-    },
-    {
-      "title": "Stein variational gradient descent（SVGD）",
-      "url": "https://zhuanlan.zhihu.com/p/114489837",
-      "summary": "正文回顾再生核希尔伯特空间的定义、谱分解、再生性质和向量值内积，并用其推导核化 Stein discrepancy。"
-    },
-    {
       "title": "厄米算符与Dirac符号",
       "url": "https://zhuanlan.zhihu.com/p/116848951",
       "summary": "正文以希尔伯特空间的内积和对偶向量为基础，解释左矢、右矢及 Dirac 符号的数学含义。"
-    },
-    {
-      "title": "矩阵分析与应用（一，矩阵基础知识）",
-      "url": "https://zhuanlan.zhihu.com/p/132681782",
-      "summary": "正文在度量线性空间部分给出 Hilbert 空间定义，并说明它与 Banach 空间的蕴含关系。"
     },
     {
       "title": "形变定理和山路引理",
@@ -833,34 +723,14 @@
       "summary": "正文利用 L2 的 Hilbert 空间结构证明 Fourier 变换是等距酉算子，并给出 Plancherel 定理。"
     },
     {
-      "title": "从傅里叶级数到傅里叶变换 (From Fourier Series to Fourier transform)",
-      "url": "https://zhuanlan.zhihu.com/p/138531346",
-      "summary": "正文用希尔伯特空间的内积和正交基解释三角函数及复指数如何展开函数。"
-    },
-    {
       "title": "7 拓扑量子场论 7.1 解读Atiyah公理",
       "url": "https://zhuanlan.zhihu.com/p/161387163",
       "summary": "正文说明空间切片对应 Hilbert 空间，不交并对应张量积，配边对应算子或波函数。"
     },
     {
-      "title": "向量、函数向量、再生核希尔伯特空间、核技巧",
-      "url": "https://zhuanlan.zhihu.com/p/161376521",
-      "summary": "正文从函数内积、Mercer 展开和再生性质推导再生核希尔伯特空间，并说明核技巧。"
-    },
-    {
-      "title": "统计知识（一）MMD Maximum Mean Discrepancy 最大均值差异",
-      "url": "https://zhuanlan.zhihu.com/p/163839117",
-      "summary": "正文利用 RKHS 的再生性和内积表示核均值嵌入，进而化简 MMD。"
-    },
-    {
       "title": "浅谈Berry相位（一）——基本概念",
       "url": "https://zhuanlan.zhihu.com/p/166282369",
       "summary": "正文具体讨论 Bloch 与 Wannier 基函数张成的 Hilbert 子空间、投影算子和正交基底。"
-    },
-    {
-      "title": "Strength in Number | 一九九六",
-      "url": "https://zhuanlan.zhihu.com/p/161827138",
-      "summary": "正文说明非欧空间数据映射到希尔伯特空间后选择度量并借助 Fréchet 均值进行推断的应用。"
     },
     {
       "title": "evans的pde的读书报告",
@@ -961,11 +831,6 @@
       "title": "【预印版】从几何直观的角度带你理解傅里叶级数/变换（一）——内积、投影、傅里叶级数",
       "url": "https://zhuanlan.zhihu.com/p/378322950",
       "summary": "正文将内积推广到函数空间，并用无限维正交完备基说明周期函数的坐标展开。"
-    },
-    {
-      "title": "【自学笔记】(Legendre多项式)勒让德多项式推导、(Zernike多项式)泽尔尼克多项式推导思路、Zernike矩、目标识别的形状特征提取",
-      "url": "https://zhuanlan.zhihu.com/p/392294958",
-      "summary": "正文在带内积的函数空间中定义正交归一基，并验证勒让德多项式和 Zernike 多项式构成正交完备基。"
     },
     {
       "title": "泛函分析总结",

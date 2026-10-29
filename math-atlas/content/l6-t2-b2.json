@@ -18,11 +18,6 @@
       "summary": "正文专门综述不可压缩和可压缩 Navier–Stokes 的正则性与弱解进展。"
     },
     {
-      "title": "写大规模三维并行计算流体力学(CFD)求解器时，有什么经验和心得？",
-      "url": "https://www.zhihu.com/answer/256628270",
-      "summary": "正文详细讨论 Navier–Stokes 方程的线性化、预条件与求解。"
-    },
-    {
       "title": "微分流形之类的听起来很高端的数学分支有实用价值吗？",
       "url": "https://www.zhihu.com/answer/265650390",
       "summary": "正文说明纳维－斯托克斯方程在流体模拟与工程预测中的作用。"
@@ -31,11 +26,6 @@
       "title": "偏微分方程有哪些前沿的研究课题？",
       "url": "https://www.zhihu.com/answer/275324541",
       "summary": "正文专门说明流体方程组中的 Navier–Stokes 方程及其理论数值研究。"
-    },
-    {
-      "title": "如何自己编程实现流体数值模拟？",
-      "url": "https://www.zhihu.com/answer/418053694",
-      "summary": "正文以不可压缩流动为例给出 NS 方程求解框架。"
     },
     {
       "title": "如何形象地理解纳维-斯托克斯方程？",
@@ -63,11 +53,6 @@
       "summary": "正文把 Navier-Stokes 长时间解列为分析学的重要前沿。"
     },
     {
-      "title": "不可压缩流动CFD中是否有高阶近似方法的应用需求？",
-      "url": "https://www.zhihu.com/answer/1659436899",
-      "summary": "正文讨论不可压 Navier-Stokes 方程的高阶空间离散。"
-    },
-    {
       "title": "湍流是否具有对称性或者存在某些对称破缺？",
       "url": "https://www.zhihu.com/answer/1712722594",
       "summary": "正文分析 NS 方程的对称性与湍流统计模型。"
@@ -88,19 +73,9 @@
       "summary": "正文直接讨论并支撑「纳维－斯托克斯方程」相关内容。"
     },
     {
-      "title": "MATLAB 到底有多厉害？",
-      "url": "https://www.zhihu.com/answer/2034502427",
-      "summary": "正文用 MATLAB 代码模拟不可压缩纳维-斯托克斯方程。"
-    },
-    {
       "title": "湍流是个物理问题吗？",
       "url": "https://www.zhihu.com/answer/2213378724",
       "summary": "正文围绕湍流、Navier-Stokes 方程和柯尔莫哥洛夫标度律展开。"
-    },
-    {
-      "title": "如何以“废后喝下毒酒前，含泪问我‘你会解偏微分方程组吗？’”为开头写一个故事？",
-      "url": "https://www.zhihu.com/answer/2622381004",
-      "summary": "在故事中讲解 Navier-Stokes 方程描述速度场与粘性流体。"
     },
     {
       "title": "为什么“北大数学天才”韦东奕至今仍未取得任何实质性成就却被封神？",
@@ -111,11 +86,6 @@
       "title": "为什么“北大数学天才”韦东奕至今仍未取得任何实质性成就却被封神？",
       "url": "https://www.zhihu.com/answer/3044797168",
       "summary": "正文具体讨论三维 N—S 方程流体问题及其解的存在性、唯一性和稳定性，属于纳维－斯托克斯方程主题。"
-    },
-    {
-      "title": "有没有大佬知道姜萍事件，假如一个人从“高等数学”学到“偏微分方程”需要读多少书，付出多大的努力？",
-      "url": "https://www.zhihu.com/answer/3546999572",
-      "summary": "正文指出纳维-斯托克斯方程的核心未解问题正是解的存在性与光滑性。"
     },
     {
       "title": "数学家 Luis A. Caffarelli 有哪些成就？",
@@ -183,34 +153,9 @@
       "summary": "正文写出纳维－斯托克斯方程并解释速度、压力、黏性等各项，同时讨论其三维光滑解问题。"
     },
     {
-      "title": "格子玻尔兹曼方法（LBM）学习：等温不可压缩流体流动问题（附MATLAB代码）",
-      "url": "https://zhuanlan.zhihu.com/p/172591068",
-      "summary": "正文明确给出二维不可压缩流体的 Navier-Stokes 方程，并解释其中对流、压力梯度和黏性项。"
-    },
-    {
       "title": "N-S方程篇6：动量方程",
       "url": "https://zhuanlan.zhihu.com/p/194295071",
       "summary": "正文直接推导 Navier-Stokes 方程组所需的动量守恒方程及其守恒与非守恒形式。"
-    },
-    {
-      "title": "Python：SIMPLE法求解CFD中的方腔流示例",
-      "url": "https://zhuanlan.zhihu.com/p/401585175",
-      "summary": "正文建立二维不可压缩 Navier-Stokes 方程，并通过 SIMPLE 法迭代求解方腔流。"
-    },
-    {
-      "title": "物理模拟-流体：Smoothed Particle Hydrodynamics（一）",
-      "url": "https://zhuanlan.zhihu.com/p/426566636",
-      "summary": "正文给出不可压缩 Navier-Stokes 方程及其应力张量形式，并讨论基于该方程的 SPH 压强求解。"
-    },
-    {
-      "title": "用 numpy 实现一个简单的 Rayleigh-Bénard 对流模式吧！",
-      "url": "https://zhuanlan.zhihu.com/p/441884153",
-      "summary": "正文以绝热二维 Navier-Stokes 方程与质量、热力学方程耦合为出发点，推导 Rayleigh-Bénard 对流模式。"
-    },
-    {
-      "title": "偏微分方程约束下的优化控制问题（PDE-constrained optimal control problems）",
-      "url": "https://zhuanlan.zhihu.com/p/603466432",
-      "summary": "正文列出 Navier-Stokes 方程约束的优化控制模型，并推导其伴随方程与一阶最优性条件。"
     },
     {
       "title": "偏微分方程的发展史",

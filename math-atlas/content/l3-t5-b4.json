@@ -13,16 +13,6 @@
       "summary": "说明泰勒级数受收敛半径限制，洛朗级数可处理更大区域。"
     },
     {
-      "title": "计算机是怎样进行开方和幂运算的？",
-      "url": "https://www.zhihu.com/answer/35155603",
-      "summary": "正文说明用泰勒级数近似实现幂运算。"
-    },
-    {
-      "title": "债券属性「久期」的本质是什么？",
-      "url": "https://www.zhihu.com/answer/46118079",
-      "summary": "正文说明久期与凸性来自价格函数的泰勒展开。"
-    },
-    {
       "title": "如何证明 π > 3.05 ？",
       "url": "https://www.zhihu.com/answer/46137984",
       "summary": "正文给出带误差估计的反正切函数泰勒展开。"
@@ -31,11 +21,6 @@
       "title": "哪些高端大气的数学定理可以简洁地证明高中数学压轴题和大轴题？",
       "url": "https://www.zhihu.com/answer/47667964",
       "summary": "正文用泰勒展开的一阶逼近构造函数估计。"
-    },
-    {
-      "title": "如何通俗易懂地解释「 delta and gamma hedge 」？",
-      "url": "https://www.zhihu.com/answer/48938943",
-      "summary": "正文用泰勒展开的一阶和二阶项解释 delta、gamma 对冲。"
     },
     {
       "title": "高等数学（如 微分方程、极值、多元函数）在生活中有哪些应用？",
@@ -103,11 +88,6 @@
       "summary": "正文说明导数和收敛引出 Taylor 与 Laurent 级数。"
     },
     {
-      "title": "有什么优秀的复分析教材推荐(详细内容见说明)?",
-      "url": "https://www.zhihu.com/answer/84035878",
-      "summary": "正文说明 Taylor 与 Laurent 级数来自导数与收敛。"
-    },
-    {
       "title": "为什么说「复分析理论」是本科所学数学中最漂亮最和谐的理论？",
       "url": "https://www.zhihu.com/answer/84655383",
       "summary": "正文说明导数与收敛引出 Taylor 和 Laurent 级数。"
@@ -121,11 +101,6 @@
       "title": "怎么理解二阶偏导与凸函数的Hessian矩阵是半正定的？",
       "url": "https://www.zhihu.com/answer/85707932",
       "summary": "正文使用二阶多元 Taylor 展开推导 Hessian 条件。"
-    },
-    {
-      "title": "SVM中，高斯核为什么会把原始维度映射到无穷多维？",
-      "url": "https://www.zhihu.com/answer/92835616",
-      "summary": "正文利用指数函数的泰勒展开解释高斯核包含无限多阶特征。"
     },
     {
       "title": "请问泰勒级数与洛朗级数的区别是什么？",
@@ -181,11 +156,6 @@
       "title": "数学中有哪些巧合让人眼前一亮？",
       "url": "https://www.zhihu.com/answer/116098808",
       "summary": "正文把未知函数设为幂级数并逐项比较得到递推系数。"
-    },
-    {
-      "title": "数学中有哪些巧合让人眼前一亮？",
-      "url": "https://www.zhihu.com/answer/116474414",
-      "summary": "正文对列表生成函数作泰勒展开并解释各次幂计数含义。"
     },
     {
       "title": "求极限什么情况下可以在加减式中使用等价（无穷小）替换？",
@@ -253,16 +223,6 @@
       "summary": "正文使用带拉格朗日余项的泰勒公式推导局部符号性质，并讨论该证明的失效点。"
     },
     {
-      "title": "Gamma Scalping 的关注点是 delta 吗，为何叫 Gamma Trading？",
-      "url": "https://www.zhihu.com/answer/128201675",
-      "summary": "正文用二阶价格变动、时间和波动率项展开期权损益，并据此分析 Gamma 交易，属于泰勒近似应用。"
-    },
-    {
-      "title": "洛必达法则失效的情况有哪些？",
-      "url": "https://www.zhihu.com/answer/131523860",
-      "summary": "正文比较泰勒公式与洛必达法则，说明带Peano余项展开仅在局部极限过程中成立。"
-    },
-    {
       "title": "理科大神的草稿是什么样的呢？",
       "url": "https://www.zhihu.com/answer/140184677",
       "summary": "正文展示把根号二按泰勒级数展开的具体手稿。"
@@ -293,16 +253,6 @@
       "summary": "正文讨论 Taylor 公式不同余项及展开式端点敛散性。"
     },
     {
-      "title": "洛必达法则的使用条件是什么？",
-      "url": "https://www.zhihu.com/answer/155430692",
-      "summary": "正文主张用三阶或五阶泰勒展开处理洛必达可解及失效的极限。"
-    },
-    {
-      "title": "洛必达法则失效的情况有哪些？",
-      "url": "https://www.zhihu.com/answer/155637103",
-      "summary": "正文对多个极限逐阶展开泰勒式并讨论展开点与收敛域。"
-    },
-    {
       "title": "数学中有哪些巧合让人眼前一亮？",
       "url": "https://www.zhihu.com/answer/165399796",
       "summary": "正文用泰勒展开提高高利率下对数近似的精度。"
@@ -318,19 +268,9 @@
       "summary": "正文以各阶变化率累积直观解释泰勒展开及其局部近似性质。"
     },
     {
-      "title": "利用泰勒公式求极限时，如何确定泰勒公式展开到第几阶？",
-      "url": "https://www.zhihu.com/answer/195479110",
-      "summary": "正文给出泰勒展开阶数的两类判定规则并配合极限例题说明。"
-    },
-    {
       "title": "arcsin(x)和tan(x)的泰勒展开有没有通项公式？",
       "url": "https://www.zhihu.com/answer/201299860",
       "summary": "正文推导 arcsin 与 tan 的泰勒通项和前若干系数。"
-    },
-    {
-      "title": "高考数学最后一题可以有多难？",
-      "url": "https://www.zhihu.com/answer/203316379",
-      "summary": "正文说明用泰勒级数估计 ln2，并讨论边界上的收敛速度。"
     },
     {
       "title": "在哪个瞬间你觉得「我的高数没有白学」?",
@@ -363,11 +303,6 @@
       "summary": "正文逐项比较幂级数系数求出指数函数展开。"
     },
     {
-      "title": "the delta method 是干什么的？",
-      "url": "https://www.zhihu.com/answer/257236976",
-      "summary": "正文明确用一阶泰勒展开说明 Delta Method 的线性近似。"
-    },
-    {
       "title": "在计算器上按 tan 89.9999 会得到 180/π，这是什么巧合吗？",
       "url": "https://www.zhihu.com/answer/265536433",
       "summary": "正文以 Laurent/Taylor 与 Padé 展开解释计算器数值近似。"
@@ -398,11 +333,6 @@
       "summary": "正文说明泰勒公式用多项式逼近光滑函数。"
     },
     {
-      "title": "牛顿插值的几何解释是怎么样的？",
-      "url": "https://www.zhihu.com/answer/323100067",
-      "summary": "正文说明等距节点的 Newton 差商在节点间距趋于零时转为导数，从而得到泰勒公式。"
-    },
-    {
       "title": "e 的虚数次方如何定义？",
       "url": "https://www.zhihu.com/answer/323805405",
       "summary": "正文使用正弦和余弦级数推导复指数。"
@@ -411,11 +341,6 @@
       "title": "怎样更好地理解并记忆泰勒展开式？",
       "url": "https://www.zhihu.com/answer/332242473",
       "summary": "正文列出并解释指数、对数和三角函数的泰勒展开记忆规律。"
-    },
-    {
-      "title": "如何用LM算法求解目标函数最小值？",
-      "url": "https://www.zhihu.com/answer/349205519",
-      "summary": "正文用泰勒展开近似非线性损失函数。"
     },
     {
       "title": "物理工作者最看不习惯的数学方法是什么？",
@@ -441,16 +366,6 @@
       "title": "如何证明泰勒定理？",
       "url": "https://www.zhihu.com/answer/392242122",
       "summary": "正文构造多项式与余项函数，给出泰勒定理三种证明。"
-    },
-    {
-      "title": "那怎么看汤家凤说的精确度够不够，可以用等价无穷小替换？",
-      "url": "https://www.zhihu.com/answer/409255874",
-      "summary": "正文明确说明等价无穷小与泰勒展开的联系。"
-    },
-    {
-      "title": "泰勒展开的公式怎么记忆？",
-      "url": "https://www.zhihu.com/answer/415448410",
-      "summary": "正文系统讲解常用泰勒公式的记忆与推导。"
     },
     {
       "title": "有没有哪些函数是无法展开成泰勒级数的？",
@@ -553,11 +468,6 @@
       "summary": "正文用 Taylor 截断构造高阶迭代公式。"
     },
     {
-      "title": "什么是梯度下降法？",
-      "url": "https://www.zhihu.com/answer/606831354",
-      "summary": "正文以 Taylor 展开说明梯度下降。"
-    },
-    {
       "title": "为什么说欧拉公式很「神」？",
       "url": "https://www.zhihu.com/answer/624560423",
       "summary": "用指数函数的泰勒级数分离实部和虚部。"
@@ -573,11 +483,6 @@
       "summary": "借幂级数或局部展开处理正弦函数。"
     },
     {
-      "title": "高数极限里面的精确度是什么？",
-      "url": "https://www.zhihu.com/answer/680975632",
-      "summary": "用泰勒展开项数解释近似精度。"
-    },
-    {
       "title": "请问泰勒公式什么条件下能用，什么条件下不能用？",
       "url": "https://www.zhihu.com/answer/688250778",
       "summary": "说明泰勒与麦克劳林展开所需导数条件、展开点和误差。"
@@ -586,16 +491,6 @@
       "title": "如何估计 ln2 的近似值？",
       "url": "https://www.zhihu.com/answer/696921902",
       "summary": "用泰勒展开得到交错级数及加速形式。"
-    },
-    {
-      "title": "求教各位大神高数如何判断无穷小的阶数？",
-      "url": "https://www.zhihu.com/answer/719646527",
-      "summary": "用Taylor展开判断差式的无穷小阶数。"
-    },
-    {
-      "title": "幂级数的和函数怎么求，做题有什么方法吗？",
-      "url": "https://www.zhihu.com/answer/722191877",
-      "summary": "通过常用函数展开处理幂级数。"
     },
     {
       "title": "如何通俗地解释泰勒公式？",
@@ -713,19 +608,9 @@
       "summary": "正文明确说明一个等价无穷小结论来自Taylor公式。"
     },
     {
-      "title": "BERT为何使用学习的position embedding而非正弦position encoding?",
-      "url": "https://www.zhihu.com/answer/1028613658",
-      "summary": "正文用多元Taylor式分析位置表征对对称性的影响。"
-    },
-    {
       "title": "e^x≥1+x+x^2/2!+……+x^n/n!(x≥0)怎么证，我是高中生，谢谢各位大佬了？",
       "url": "https://www.zhihu.com/answer/1054637280",
       "summary": "正文构造指数函数的 Taylor 余项函数完成证明。"
-    },
-    {
-      "title": "请问等价无穷小什么时候用什么时候不能用？",
-      "url": "https://www.zhihu.com/answer/1089206147",
-      "summary": "正文以泰勒展开解释等价无穷小替换的本质与精度。"
     },
     {
       "title": "无穷小量什么时候可以等价替换？",
@@ -741,16 +626,6 @@
       "title": "泰勒公式的拉格朗日余项怎么理解？",
       "url": "https://www.zhihu.com/answer/1146512922",
       "summary": "正文解释泰勒公式拉格朗日余项的来源。"
-    },
-    {
-      "title": "高中导数题真的是有天赋的人做出来的吗？",
-      "url": "https://www.zhihu.com/answer/1181039225",
-      "summary": "正文用麦克劳林展开解释高中导数不等式构造。"
-    },
-    {
-      "title": "有没有高中老师不讲，但知道了做题很有用的技巧?",
-      "url": "https://www.zhihu.com/answer/1186826633",
-      "summary": "正文讲解用泰勒展开处理高中函数不等式。"
     },
     {
       "title": "一个求极限的问题为什么会有两个答案？",
@@ -771,11 +646,6 @@
       "title": "幂级数展开与泰勒级数展开是什么关系？",
       "url": "https://www.zhihu.com/answer/1225966813",
       "summary": "正文解释幂级数、泰勒级数与余项定理的关系。"
-    },
-    {
-      "title": "求极限应该如何思考？",
-      "url": "https://www.zhihu.com/answer/1240612898",
-      "summary": "正文把泰勒展开作为函数极限的核心计算方法。"
     },
     {
       "title": "为什么 lim(x→0, sin²x-x²cos²x/x²sin²x) 不能直接用洛必达法则?",
@@ -823,11 +693,6 @@
       "summary": "正文用多元泰勒展开说明微元体保留一阶项的误差阶与精确性。"
     },
     {
-      "title": "解决导数含参不等式分参或直接讨论依据的是什么？",
-      "url": "https://www.zhihu.com/answer/1333767247",
-      "summary": "正文把泰勒展开列为证明不等式的常用工具。"
-    },
-    {
       "title": "请问你见过的最强的公式是什么？",
       "url": "https://www.zhihu.com/answer/1343140518",
       "summary": "正文以泰勒公式作为统一展开函数的公式。"
@@ -836,11 +701,6 @@
       "title": "极值的第三充分条件是怎么用泰勒公式证明的，主要是当n为奇数时，我不太会证?",
       "url": "https://www.zhihu.com/answer/1354444046",
       "summary": "正文用带佩亚诺余项的泰勒展开证明高阶极值条件。"
-    },
-    {
-      "title": "一个月内学好复变函数可行吗？",
-      "url": "https://www.zhihu.com/answer/1406640638",
-      "summary": "正文复习复变函数中的 Taylor 展开与幂级数。"
     },
     {
       "title": "ln（1+x）的麦克劳林怎么推导？",
@@ -928,29 +788,14 @@
       "summary": "正文对比欧拉公式的泰勒证明与历史来源。"
     },
     {
-      "title": "高考数学导数题是怎么命制的？",
-      "url": "https://www.zhihu.com/answer/1728576762",
-      "summary": "正文直接讨论该知识点，并给出与当前叶节点对应的定义、方法或推导。"
-    },
-    {
       "title": "我知道 ∑n，∑n²，∑n³ 的结果，那是否能够求出 ∑n^k（k 为正整数）的一般形式通项公式？",
       "url": "https://www.zhihu.com/answer/1736976712",
-      "summary": "正文直接讨论或推导「泰勒展开」，该引文可作为对应知识叶子的连续原文证据。"
-    },
-    {
-      "title": "高考数学导数题是怎么命制的？",
-      "url": "https://www.zhihu.com/answer/1738460960",
       "summary": "正文直接讨论或推导「泰勒展开」，该引文可作为对应知识叶子的连续原文证据。"
     },
     {
       "title": "多个根号内含二次项的式子如何求值？也就是双根式？为什么计算器无法求解？",
       "url": "https://www.zhihu.com/answer/1762709528",
       "summary": "正文在解点展开函数与导数以推导误差递推。"
-    },
-    {
-      "title": "计算器为什么能算？",
-      "url": "https://www.zhihu.com/answer/1769699917",
-      "summary": "正文用泰勒级数近似初等函数。"
     },
     {
       "title": "泰勒公式的拉格朗日余项怎么理解？",
@@ -1003,16 +848,6 @@
       "summary": "正文通过幂级数逐阶求导确定系数来解释泰勒展开。"
     },
     {
-      "title": "高考数学导数题是怎么命制的？",
-      "url": "https://www.zhihu.com/answer/1908816940",
-      "summary": "正文把泰勒展开列为导数综合题的放缩和估值工具。"
-    },
-    {
-      "title": "哭了，无穷级数怎么这么难，怎么才能学好求大神指点迷津！？",
-      "url": "https://www.zhihu.com/answer/1942293320",
-      "summary": "正文介绍泰勒级数和麦克劳林级数的学习关系。"
-    },
-    {
       "title": "帕德近似如何操作？",
       "url": "https://www.zhihu.com/answer/1948539534",
       "summary": "正文把帕德近似与截断泰勒级数作比较。"
@@ -1041,11 +876,6 @@
       "title": "大佬们，为什么二阶导是d2y/dx2?",
       "url": "https://www.zhihu.com/answer/2019195994",
       "summary": "正文由二阶导数推广到高阶导数的记号与含义。"
-    },
-    {
-      "title": "和差中的等价无穷小替换 求个大佬解答?",
-      "url": "https://www.zhihu.com/answer/2025336629",
-      "summary": "正文用更高阶泰勒项判断等价替换是否可行。"
     },
     {
       "title": "只有 e^x 求导等于它本身吗？",
@@ -1083,16 +913,6 @@
       "summary": "正文讨论 tan x 的泰勒展开及学习级数时的体验。"
     },
     {
-      "title": "等价无穷小的替换原则到底是怎么样的呢？有大佬知道吗？",
-      "url": "https://www.zhihu.com/answer/2204792787",
-      "summary": "正文指出学习泰勒展开可以理解等价无穷小替换的边界。"
-    },
-    {
-      "title": "数学为什么明明都懂了，就是考不好？",
-      "url": "https://www.zhihu.com/answer/2215084170",
-      "summary": "正文用泰勒展开和 e 的无理性证明解释什么才算真正学懂。"
-    },
-    {
       "title": "泰勒展开的公式怎么记忆？",
       "url": "https://www.zhihu.com/answer/2218432736",
       "summary": "正文从求导、积分和已知级数相互关系推导常用 Taylor 展开。"
@@ -1103,24 +923,9 @@
       "summary": "正文通过泰勒展开逐阶代入求极限。"
     },
     {
-      "title": "利用泰勒公式求极限时，如何确定泰勒公式展开到第几阶？",
-      "url": "https://www.zhihu.com/answer/2249195838",
-      "summary": "正文系统讲解用泰勒展开计算函数极限的阶数选择。"
-    },
-    {
-      "title": "考研中值定理怎么突破？",
-      "url": "https://www.zhihu.com/answer/2252327649",
-      "summary": "正文说明相差三阶时使用带拉格朗日余项的泰勒公式。"
-    },
-    {
       "title": "泰勒公式中的拉格朗日余项和佩亚诺型余项有什么区别？",
       "url": "https://www.zhihu.com/answer/2259118703",
       "summary": "正文比较拉格朗日余项与佩亚诺余项的定量和定性作用。"
-    },
-    {
-      "title": "洛必达法则为何成为禁术？",
-      "url": "https://www.zhihu.com/answer/2269093735",
-      "summary": "正文建议复杂极限优先使用泰勒展开等更合适的方法。"
     },
     {
       "title": "洛必达法则为何成为禁术？",
@@ -1128,24 +933,9 @@
       "summary": "正文用 Taylor 公式展开复杂根式极限，并比较不同计算路径。"
     },
     {
-      "title": "洛必达法则为何成为禁术？",
-      "url": "https://www.zhihu.com/answer/2269489057",
-      "summary": "正文把等价无穷小和泰勒展开列为优先于盲目洛必达的方法。"
-    },
-    {
-      "title": "洛必达法则为何成为禁术？",
-      "url": "https://www.zhihu.com/answer/2269878595",
-      "summary": "正文强调无穷小与泰勒展开能够脱离求极限用于更广泛分析。"
-    },
-    {
       "title": "数学天才欧拉创作出万能的上帝公式，曾一度被怀疑是穿越者，对此你怎么看？",
       "url": "https://www.zhihu.com/answer/2271877493",
       "summary": "正文以泰勒级数展开为欧拉公式提供解释。"
-    },
-    {
-      "title": "怎么深入了解 Harris 角点检测？",
-      "url": "https://www.zhihu.com/answer/2286352823",
-      "summary": "正文用二阶 Taylor 展开近似窗口响应函数。"
     },
     {
       "title": "怎么做2022贺年题？",
@@ -1193,11 +983,6 @@
       "summary": "正文利用积分展开得到周期级数解。"
     },
     {
-      "title": "如果高育良不看《万历十五年》而是《高等数学》或者《线性代数》，那赵瑞龙会怎样拿下他？",
-      "url": "https://www.zhihu.com/answer/2334035240",
-      "summary": "正文直接以泰勒展开作为高等数学方法制造梗。"
-    },
-    {
       "title": "物理计算过程中，对高阶小量的约去究竟是物理层面上的近似，还是数学层面上的严格相等？",
       "url": "https://www.zhihu.com/answer/2337578782",
       "summary": "正文用函数展开说明保留主项形成线性近似。"
@@ -1233,11 +1018,6 @@
       "summary": "正文用泰勒展开把椭圆积分对应的代数曲线化为三次曲线。"
     },
     {
-      "title": "做极限题需要用泰勒公式展开时，一些函数展开式背不掉怎么办？有没有什么好方法？",
-      "url": "https://www.zhihu.com/answer/2440430490",
-      "summary": "正文总结常用泰勒展开及在极限题中的展开阶数，并给出记忆规律。"
-    },
-    {
       "title": "如何解释洛必达法则？",
       "url": "https://www.zhihu.com/answer/2443467353",
       "summary": "正文明确把洛必达法则理解为泰勒展开的一阶情形。"
@@ -1271,11 +1051,6 @@
       "title": "自动求导和微分形式有什么联系吗？",
       "url": "https://www.zhihu.com/answer/2496470277",
       "summary": "正文用泰勒公式的余项说明数值微分截断误差。"
-    },
-    {
-      "title": "如何评价 2022 浙江高考数学题？最后一届浙江数学卷质量如何？",
-      "url": "https://www.zhihu.com/answer/2518849351",
-      "summary": "在临界点附近作泰勒展开分析函数符号。"
     },
     {
       "title": "为什么1/n发散，而1/n的平方收敛?",
@@ -1338,29 +1113,14 @@
       "summary": "用向量形式的泰勒展开分析多元函数极值。"
     },
     {
-      "title": "在高中数学当中指数对数比较大小有什么技巧或者是秒杀方法吗？",
-      "url": "https://www.zhihu.com/answer/2621398330",
-      "summary": "用泰勒展开与帕德逼近估算函数值，并比较两种方法的计算量。"
-    },
-    {
       "title": "自然对数的底e有什么自然意义?",
       "url": "https://www.zhihu.com/answer/2635749914",
       "summary": "用泰勒级数表示 e^x，并由级数证明 e 的收敛性与无理性。"
     },
     {
-      "title": "一道优美的导数题求解，请问各位大佬有多少种解法？",
-      "url": "https://www.zhihu.com/answer/2648402763",
-      "summary": "用泰勒二次拟合与三次函数拟合处理极值点偏移问题。"
-    },
-    {
       "title": "复合函数的泰勒展开为啥可以直接带入？",
       "url": "https://www.zhihu.com/answer/2656044455",
       "summary": "从泰勒展开定义和唯一性出发，解释复合函数为何可以直接换元代入。"
-    },
-    {
-      "title": "为什么要使用无迹卡尔曼滤波和扩展卡尔曼滤波，他们与卡尔曼滤波相比优点在哪？",
-      "url": "https://www.zhihu.com/answer/2672690505",
-      "summary": "正文用一元函数的泰勒展开公式说明扩展卡尔曼滤波如何对非线性系统作一阶线性化。"
     },
     {
       "title": "是否存在函数f(x)使得f(f(x))=4ˣ？",
@@ -1383,11 +1143,6 @@
       "summary": "通过对泰勒展开逐项求导并比较系数，构造分数阶导数的定义。"
     },
     {
-      "title": "c++中，假如long double精度还不够，有什么办法？",
-      "url": "https://www.zhihu.com/answer/2717966249",
-      "summary": "正文说明地球椭球投影公式需要做泰勒展开，并展开到第十二项以提高计算精度。"
-    },
-    {
       "title": "世界上收敛最快的计算 π 的公式是什么？",
       "url": "https://www.zhihu.com/answer/2736090937",
       "summary": "正文列出反三角函数泰勒展开，并令自变量取特殊值以得到多种圆周率公式。"
@@ -1401,11 +1156,6 @@
       "title": "泰勒公式是如何推导出来的？",
       "url": "https://www.zhihu.com/answer/2754450573",
       "summary": "正文系统讲解泰勒展开的构造、几何直观、两类余项及其证明。"
-    },
-    {
-      "title": "如何学好高等数学，尤其是大一的极限、微积分？",
-      "url": "https://www.zhihu.com/answer/2757583331",
-      "summary": "正文把泰勒公式作为求极限的主要化简工具，讨论展开项的消去与等价替换之间的关系。"
     },
     {
       "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
@@ -1423,24 +1173,9 @@
       "summary": "正文写出 cosh y 的无穷幂级数展开并截取前两项证明严格下界。"
     },
     {
-      "title": "怎样考过大一高数期末考试？",
-      "url": "https://www.zhihu.com/answer/2782031926",
-      "summary": "正文把泰勒展开用于消去极限中的主要项，并说明等价无穷小替换可视为泰勒展开的特殊情形。"
-    },
-    {
-      "title": "大一新生，还有一个月就要期末了，我高数只会一点点，线代基本没听，对于高数和线代怎么办？",
-      "url": "https://www.zhihu.com/answer/2782496717",
-      "summary": "正文说明泰勒公式可作为求极限的快速方法，并以e^x的泰勒展开消项为例展示其用途。"
-    },
-    {
       "title": "如何通俗地解释泰勒公式？",
       "url": "https://www.zhihu.com/answer/2785809587",
       "summary": "正文给出泰勒级数定义、麦克劳林展开及常见应用，实质解释如何用多项式局部逼近函数。"
-    },
-    {
-      "title": "这个求 sin 的代码，感觉无懈可击啊，为什么会不对呢？",
-      "url": "https://www.zhihu.com/answer/2788977012",
-      "summary": "正文解释正弦函数泰勒展开的收敛速度、余项和所需阶数，说明大自变量下展开式计算失稳的原因。"
     },
     {
       "title": "如何理解概率测度？",
@@ -1508,16 +1243,6 @@
       "summary": "正文从 sin x 的多项式近似出发，推导泰勒多项式与拉格朗日余项，证明泰勒中值定理并列出常用麦克劳林展开式。"
     },
     {
-      "title": "为什么有的人永远都学不好数学？",
-      "url": "https://www.zhihu.com/answer/3039770655",
-      "summary": "正文以 e^x 为例，说明提高泰勒多项式次数会让近似曲线更接近原函数。"
-    },
-    {
-      "title": "高中数学有没有什么比较牛 X 的公式？",
-      "url": "https://www.zhihu.com/answer/3083234446",
-      "summary": "正文说明用多项式逼近非多项式函数，并给出指数、对数和三角函数的麦克劳林展开及估值例子。"
-    },
-    {
       "title": "数学科普动画《火柴人vs数学》极为精彩，但里面很多东西看不懂，有人能按顺序科普一下里面的数学知识吗？",
       "url": "https://www.zhihu.com/answer/3090413909",
       "summary": "正文明确给出指数函数在零点的泰勒级数，并用逐阶展开项解释动画中的近似计算。"
@@ -1561,16 +1286,6 @@
       "title": "有哪些你想发明却已经被人发明了的东西？",
       "url": "https://www.zhihu.com/answer/3223976141",
       "summary": "正文以同一点处各阶导数相等来构造函数近似式，并指出所得公式就是麦克劳林公式，实质涉及泰勒展开。"
-    },
-    {
-      "title": "计量经济学如何两天速成?",
-      "url": "https://www.zhihu.com/answer/3228519704",
-      "summary": "正文说明计量证明中以泰勒展开处理式子，并结合大样本收敛法则得到渐近分布，对应泰勒展开在近似与证明中的应用。"
-    },
-    {
-      "title": "如何理解扩散模型中的SDE？",
-      "url": "https://www.zhihu.com/answer/3230281054",
-      "summary": "正文对双变量对数概率在时间与状态方向做泰勒展开，并代回条件概率推导。"
     },
     {
       "title": "为什么物理里省略高阶小量是在数学上严格相等，这里的严格证明过程是什么？",
@@ -1656,11 +1371,6 @@
       "title": "如何注意力涣散地证明 e^{π√163} 小于262 53741 26407 68744？",
       "url": "https://www.zhihu.com/answer/3414878312",
       "summary": "正文利用反正切的麦克劳林展开得到交错级数，并用部分和逼近圆周率。"
-    },
-    {
-      "title": "能否给我在理科方面秀一手，震撼一下我这个高中生?",
-      "url": "https://www.zhihu.com/answer/3415446771",
-      "summary": "正文具体说明用泰勒展开式逼近三角函数，并分析迭代次数和双精度收敛表现。"
     },
     {
       "title": "欧拉导出过哪些名气不大但精妙的定理？",
@@ -1818,11 +1528,6 @@
       "summary": "正文系统定义泰勒公式，并用各阶导数构造多项式近似原函数。"
     },
     {
-      "title": "硬件上浮点数的超越函数指令是如何实现的？",
-      "url": "https://www.zhihu.com/answer/110445058033",
-      "summary": "正文说明在拆出的定点主值处作 Taylor 展开，并以查表和乘法实现正弦、余弦，具体应用了泰勒展开。"
-    },
-    {
       "title": "洛必达法则为何成为禁术？",
       "url": "https://www.zhihu.com/answer/115095474015",
       "summary": "正文指出洛必达法则与一阶泰勒展开等价，并在0/0型推导中使用一阶展开式。"
@@ -1851,11 +1556,6 @@
       "title": "有哪些算法一开始像在瞎搞，实际上却蕴含着更深层的逻辑？",
       "url": "https://www.zhihu.com/answer/1891280618052092785",
       "summary": "正文用泰勒展开构造 exp 的近似多项式，并比较其乘法代价和计算流程。"
-    },
-    {
-      "title": "傅里叶级数和傅里叶变换是什么关系？",
-      "url": "https://www.zhihu.com/answer/1891623652065257135",
-      "summary": "正文先完整讲解函数在一点附近的泰勒级数展开，并用 ln(x+1) 的展开说明其计算作用与收敛域限制。"
     },
     {
       "title": "如何求微分方程 y″ + y = 0 的通解？",
@@ -2133,16 +1833,6 @@
       "summary": "正文具体使用幂级数展开并逐项提取系数，对应泰勒展开这一方法。"
     },
     {
-      "title": "【方法】解DSGE",
-      "url": "https://zhuanlan.zhihu.com/p/20675886",
-      "summary": "正文在稳态附近作 Taylor 一阶展开，以线性项近似非线性动态系统并解释线性化的含义。"
-    },
-    {
-      "title": "浅谈线性化",
-      "url": "https://zhuanlan.zhihu.com/p/20694858",
-      "summary": "正文明确以一阶 Taylor 展开刻画局部线性化，并比较解析展开、数值扰动和逐模块线性化。"
-    },
-    {
       "title": "变分法简介Part 1.（Calculus of Variations）",
       "url": "https://zhuanlan.zhihu.com/p/20718489",
       "summary": "正文把扰动后的泛函数对参数作 Taylor 展开，区分一阶与二阶变分。"
@@ -2158,26 +1848,6 @@
       "summary": "正文总结常见三角函数低阶展开，并用代入合并后令低阶项系数为零的方法匹配泰勒展开。"
     },
     {
-      "title": "谈谈无穷大、函数的可积以及无穷小的等价替换",
-      "url": "https://zhuanlan.zhihu.com/p/23128692",
-      "summary": "正文用泰勒展开中的低阶项与高阶余项解释无穷小等价替换为何能作用于加减法。"
-    },
-    {
-      "title": "【量化课堂】无约束的非线性规划问题 -- 线搜索方法",
-      "url": "https://zhuanlan.zhihu.com/p/23562000",
-      "summary": "正文给出多元泰勒定理，并用一阶、二阶泰勒展开分别导出梯度下降方向和牛顿方向。"
-    },
-    {
-      "title": "大学数学（高数线代）直观理解（一）",
-      "url": "https://zhuanlan.zhihu.com/p/24174101",
-      "summary": "正文从函数各阶变化率的逐层累积写出多项式展开，并识别出泰勒公式。"
-    },
-    {
-      "title": "（一）泰勒公式（Taylor's theorem）在高考中的应用",
-      "url": "https://zhuanlan.zhihu.com/p/25027802",
-      "summary": "正文列出指数、对数等常见泰勒展开，并用展开式处理函数不等式与高考压轴题。"
-    },
-    {
       "title": "复变函数与积分变换 简明笔记(六)：复级数与零点、奇点",
       "url": "https://zhuanlan.zhihu.com/p/25073670",
       "summary": "正文将泰勒定理推广到复解析函数，给出展开圆盘、系数公式及其解析条件。"
@@ -2186,11 +1856,6 @@
       "title": "从微分中值定理到泰勒展开公式",
       "url": "https://zhuanlan.zhihu.com/p/25413823",
       "summary": "正文给出泰勒展开式、拉格朗日余项及其完整证明和近似应用。"
-    },
-    {
-      "title": "用数学编辑3D模型（三）- Subspace Mesh Deformation",
-      "url": "https://zhuanlan.zhihu.com/p/26153181",
-      "summary": "正文以泰勒展开的一阶线性化把非线性最小二乘化为逐步求解的线性最小二乘。"
     },
     {
       "title": "中学篇 No. 38：工匠精神",
@@ -2208,21 +1873,6 @@
       "summary": "正文给出泰勒公式和麦克劳林展开式，并用多项式逐项逼近 sin(x) 与估算立方根。"
     },
     {
-      "title": "王者荣耀！级数、极限和泰勒公式三大王 桃园三结义 搞事情啊！！！",
-      "url": "https://zhuanlan.zhihu.com/p/27693014",
-      "summary": "正文用零点附近的泰勒展开及首个非零导数项判断抽象函数对应的无穷小阶数。"
-    },
-    {
-      "title": "【高等数学】等价无穷小代换",
-      "url": "https://zhuanlan.zhihu.com/p/29622571",
-      "summary": "正文用正弦、正切的三阶泰勒展开解释为何和差项不能直接作等价无穷小替换，并据此求出极限。"
-    },
-    {
-      "title": "《Quantitative Finance》读书笔记4：随机微积分初步",
-      "url": "https://zhuanlan.zhihu.com/p/30292226",
-      "summary": "正文用泰勒展开保留二阶项，并与布朗运动的二次变分结合推导伊藤引理。"
-    },
-    {
       "title": "笔记：初等微几（曲线论、曲面论、第一、二基本型）",
       "url": "https://zhuanlan.zhihu.com/p/30538009",
       "summary": "正文利用多元函数的高阶增量展开，以一阶项和二阶项分别解释曲面第一、第二基本形式。"
@@ -2238,24 +1888,9 @@
       "summary": "正文回顾指数函数等常见幂级数，并通过分式裂项和配凑把有理函数展开为幂级数。"
     },
     {
-      "title": "想学微积分？征服高等数学，但害怕公式？来个动画版微积分读本吧",
-      "url": "https://zhuanlan.zhihu.com/p/32908769",
-      "summary": "正文用多项式逼近光滑函数解释泰勒展开，并说明展开阶数增加时的局部与全局逼近效果。"
-    },
-    {
       "title": "多元函数的泰勒展开式",
       "url": "https://zhuanlan.zhihu.com/p/33316479",
       "summary": "正文说明泰勒多项式用于逼近复杂目标函数，并继续讨论一元、二元及多元函数的泰勒展开及其矩阵形式。"
-    },
-    {
-      "title": "【最优化】无约束优化方法-牛顿法",
-      "url": "https://zhuanlan.zhihu.com/p/33544363",
-      "summary": "正文以目标函数的二阶泰勒展开近似原函数，再求二次近似函数的极小值来得到搜索方向。"
-    },
-    {
-      "title": "（一）引言及索洛模型",
-      "url": "https://zhuanlan.zhihu.com/p/33627801",
-      "summary": "正文在稳态附近作一阶泰勒展开并舍去高阶项，用线性化方程证明稳态稳定。"
     },
     {
       "title": "【欧拉公式】用麦克劳林展开式的证明",
@@ -2263,34 +1898,9 @@
       "summary": "正文使用指数、正弦和余弦的麦克劳林级数逐项比较以完成证明。"
     },
     {
-      "title": "等价无穷小为什么不能在加减式子中使用",
-      "url": "https://zhuanlan.zhihu.com/p/35176202",
-      "summary": "正文展开 sin、tan、cos 和 e^x 的泰勒级数，并以保留阶数解释极限替换的精度。"
-    },
-    {
-      "title": "泰勒公式在做等价替换时如何确定阶数",
-      "url": "https://zhuanlan.zhihu.com/p/35188462",
-      "summary": "正文用四道例题讲解泰勒展开阶数的选择原则，以及展开后忽略高阶无穷小的计算过程。"
-    },
-    {
       "title": "定积分不等式套路总结",
       "url": "https://zhuanlan.zhihu.com/p/36266712",
       "summary": "正文把泰勒展开列为核心方法，并介绍在区间端点、中点或最值点展开处理积分估计。"
-    },
-    {
-      "title": "机器学习的数学基础-（一、高等数学）",
-      "url": "https://zhuanlan.zhihu.com/p/36311622",
-      "summary": "正文写出带拉格朗日余项的泰勒公式和麦克劳林展开，并列出常用函数展开式。"
-    },
-    {
-      "title": "【计算机视觉】2. 特征点检测：Harris, SIFT, SURF, ORB",
-      "url": "https://zhuanlan.zhihu.com/p/36382429",
-      "summary": "正文对窗口灰度变化作泰勒展开得到 Harris 自相关矩阵，并在 SIFT 极值定位中再次使用二次展开。"
-    },
-    {
-      "title": "『导数』取点技巧小结",
-      "url": "https://zhuanlan.zhihu.com/p/36763351",
-      "summary": "正文明确使用指数函数的泰勒展开给出下界，以解决取点与放缩问题。"
     },
     {
       "title": "对于估值的一点小心得",
@@ -2298,24 +1908,9 @@
       "summary": "正文通过 ln x 与有理函数之差在 1 附近的展开比较误差阶，并用高阶项的权重组合提高估计精度。"
     },
     {
-      "title": "理解牛顿法",
-      "url": "https://zhuanlan.zhihu.com/p/37588590",
-      "summary": "正文用二阶泰勒展开近似目标函数，再由二次近似模型推导牛顿迭代方向。"
-    },
-    {
-      "title": "§14.1  幂级数",
-      "url": "https://zhuanlan.zhihu.com/p/37650274",
-      "summary": "正文由逐项求导推出泰勒系数公式，说明幂级数展开式与麦克劳林展开的对应关系。"
-    },
-    {
       "title": "§14.2 函数的幂级数展开",
       "url": "https://zhuanlan.zhihu.com/p/37925551",
       "summary": "正文给出泰勒公式、各类余项以及初等函数的泰勒幂级数展开式。"
-    },
-    {
-      "title": "布朗运动、伊藤引理、BS 公式（前篇）",
-      "url": "https://zhuanlan.zhihu.com/p/38293827",
-      "summary": "正文利用泰勒展开和布朗运动的非零二次变分推导伊藤引理，说明二阶项为何不能忽略。"
     },
     {
       "title": "伊藤引理 --- 浅述",
@@ -2328,19 +1923,9 @@
       "summary": "正文给出带积分余项的泰勒定理及证明，并用它把点导数表示为偏导数的线性组合。"
     },
     {
-      "title": "基于变分推断，我们对GAN有什么新的认识？",
-      "url": "https://zhuanlan.zhihu.com/p/40282714",
-      "summary": "正文对新旧生成分布做泰勒展开并保留二阶项，由此把 KL 正则近似为参数变化幅度。"
-    },
-    {
       "title": "数学分析笔记（四）——微分学",
       "url": "https://zhuanlan.zhihu.com/p/39799362",
       "summary": "正文以泰勒多项式、泰勒公式和柯西型、拉格朗日型余项为核心，完整讨论泰勒展开。"
-    },
-    {
-      "title": "高中导数的拓展定理证明方式",
-      "url": "https://zhuanlan.zhihu.com/p/41055611",
-      "summary": "正文给出带余项的泰勒公式，并展示如何借助低阶麦克劳林展开构造函数。"
     },
     {
       "title": "数学分析笔记（五）——积分",
@@ -2348,29 +1933,9 @@
       "summary": "正文通过分部积分反复推导带积分余项的泰勒公式，并给出完整余项表达式。"
     },
     {
-      "title": "傅里叶系列（一）傅里叶级数的推导",
-      "url": "https://zhuanlan.zhihu.com/p/41455378",
-      "summary": "正文借用麦克劳林级数与待定系数法解释如何通过函数展开确定待求系数。"
-    },
-    {
       "title": "变分法理解2——基本方法",
       "url": "https://zhuanlan.zhihu.com/p/41810184",
       "summary": "正文用一阶泰勒展开把最简泛函的增量展开为关于函数变分及其导数变分的线性项。"
-    },
-    {
-      "title": "概率机器人——扩展卡尔曼滤波、无迹卡尔曼滤波",
-      "url": "https://zhuanlan.zhihu.com/p/41767489",
-      "summary": "正文在均值处对非线性运动方程和观测方程作一阶泰勒展开，以构造扩展卡尔曼滤波。"
-    },
-    {
-      "title": "[优化] Gauss-Newton非线性最小二乘算法",
-      "url": "https://zhuanlan.zhihu.com/p/42383070",
-      "summary": "正文对残差函数作一阶泰勒展开，由此构造高斯-牛顿的二次近似和正规方程。"
-    },
-    {
-      "title": "[优化]Levenberg-Marquardt 最小二乘优化",
-      "url": "https://zhuanlan.zhihu.com/p/42415718",
-      "summary": "正文用一阶泰勒展开近似最小二乘目标函数，并由此构造信赖域中的二次模型。"
     },
     {
       "title": "有关e^x和lnx的常用不等式集锦",
@@ -2378,24 +1943,9 @@
       "summary": "正文利用 e^x 在零点的泰勒展开证明多项式下界。"
     },
     {
-      "title": "深度学习中的优化算法",
-      "url": "https://zhuanlan.zhihu.com/p/43506482",
-      "summary": "正文写出一元和多元泰勒展开，并通过二阶项判断临界点是局部极大、局部极小还是鞍点。"
-    },
-    {
-      "title": "高等数学中关于等价无穷小的一点思考",
-      "url": "https://zhuanlan.zhihu.com/p/44083023",
-      "summary": "正文把等价无穷小解释为泰勒低阶展开，并通过保留高阶余项说明替换何时可靠。"
-    },
-    {
       "title": "MP8：局部线性化：从Taylor展开到微分形式",
       "url": "https://zhuanlan.zhihu.com/p/44227806",
       "summary": "正文从一维和多元泰勒展开式出发，说明保留一阶项即可在固定点附近实现函数线性化。"
-    },
-    {
-      "title": "学习微积分/高等数学（持续更新）",
-      "url": "https://zhuanlan.zhihu.com/p/45203159",
-      "summary": "正文用指数、几何和三角函数的幂级数说明泰勒多项式如何近似函数。"
     },
     {
       "title": "正弦曲线/正弦波的直观解释",
@@ -2408,59 +1958,9 @@
       "summary": "正文指出该极限可展到 x^7 求解，并用于比较函数及其反函数的局部展开。"
     },
     {
-      "title": "数值分析学习笔记（二）",
-      "url": "https://zhuanlan.zhihu.com/p/46068200",
-      "summary": "正文在零点附近作 Taylor 展开并舍去二次余项，由此推导 Newton-Raphson 迭代式。"
-    },
-    {
-      "title": "高等数学微积分中求极限的几种常用方法",
-      "url": "https://zhuanlan.zhihu.com/p/46252748",
-      "summary": "正文给出指数、三角函数和对数等泰勒展开，并用展开式计算极限。"
-    },
-    {
-      "title": "牛顿法和拟牛顿法",
-      "url": "https://zhuanlan.zhihu.com/p/46536960",
-      "summary": "正文从函数的一阶泰勒展开出发推导牛顿迭代公式。"
-    },
-    {
-      "title": "数值分析学习笔记（四）",
-      "url": "https://zhuanlan.zhihu.com/p/49917447",
-      "summary": "正文用Taylor展开消项估计高阶导数，并据此推导误差更小的差分公式。"
-    },
-    {
-      "title": "扩展卡尔曼滤波(EKF)之非线性系统的线性化",
-      "url": "https://zhuanlan.zhihu.com/p/50620063",
-      "summary": "正文通过一阶泰勒展开并忽略高阶项，把非线性系统在操作点附近化为线性模型。"
-    },
-    {
-      "title": "极限类题之泰勒公式展开法",
-      "url": "https://zhuanlan.zhihu.com/p/51214357",
-      "summary": "正文解释泰勒公式与麦克劳林公式的定义，演示由各阶导数构造展开式，并讨论佩亚诺余项和截断近似。"
-    },
-    {
-      "title": "高考数学二级结论——函数与导数部分",
-      "url": "https://zhuanlan.zhihu.com/p/51584482",
-      "summary": "正文写出带拉格朗日余项的指数函数泰勒展开，并据此得到常用放缩不等式。"
-    },
-    {
-      "title": "数值分析学习笔记（七）",
-      "url": "https://zhuanlan.zhihu.com/p/52439947",
-      "summary": "正文由泰勒公式推导 Euler 方法，并说明高阶泰勒展开可降低截断误差、形成高阶数值方法。"
-    },
-    {
       "title": "欧拉公式，复数域的成人礼",
       "url": "https://zhuanlan.zhihu.com/p/52671041",
       "summary": "正文列出指数、正弦和余弦的泰勒展开，通过代入复指数项推导欧拉公式。"
-    },
-    {
-      "title": "浅谈生成函数之OGF",
-      "url": "https://zhuanlan.zhihu.com/p/52817010",
-      "summary": "正文反复利用麦克劳林级数求生成函数的系数并推出序列表达式。"
-    },
-    {
-      "title": "浅谈生成函数之EGF",
-      "url": "https://zhuanlan.zhihu.com/p/53079223",
-      "summary": "正文列出指数函数的泰勒级数，并将生成函数化为泰勒展开的封闭形式来计算系数。"
     },
     {
       "title": "泰勒级数为什么不可以展开？",
@@ -2473,44 +1973,9 @@
       "summary": "正文用 Taylor 与 Laurent 展开判断孤立奇点类型，并由负一次幂系数定义和计算留数。"
     },
     {
-      "title": "利用泰勒公式求极限，函数需要展开到第几阶？",
-      "url": "https://zhuanlan.zhihu.com/p/55329106",
-      "summary": "正文解释泰勒公式和麦克劳林公式的近似意义、余项类型及常用展开式。"
-    },
-    {
-      "title": "什么是响应面（RSM）分析",
-      "url": "https://zhuanlan.zhihu.com/p/56230609",
-      "summary": "正文以指数函数的泰勒展开说明可用低阶多项式近似复杂函数，并由此引出响应面。"
-    },
-    {
-      "title": "非线性优化方法小结-(最小二乘，梯度下降，高斯牛顿, LM)",
-      "url": "https://zhuanlan.zhihu.com/p/56598915",
-      "summary": "正文在迭代点对目标函数作一阶或二阶泰勒展开，并以保留项构造对应的梯度优化方法。"
-    },
-    {
-      "title": "Convex Optimization——凸函数",
-      "url": "https://zhuanlan.zhihu.com/p/56876303",
-      "summary": "正文用一阶泰勒近似解释凸函数位于切线上方，并说明局部展开如何给出全局下界。"
-    },
-    {
       "title": "欧拉公式的推导",
       "url": "https://zhuanlan.zhihu.com/p/57256466",
       "summary": "正文先定义泰勒幂级数，再将实变量展开推广到全纯函数的复变量幂级数展开。"
-    },
-    {
-      "title": "为什么负梯度是函数值减小的最快方向",
-      "url": "https://zhuanlan.zhihu.com/p/57601606",
-      "summary": "正文使用一阶泰勒展开建立方向导数与梯度的关系，并据此推出值变化最快的方向。"
-    },
-    {
-      "title": "【数学】函数极限（宇哥笔记）",
-      "url": "https://zhuanlan.zhihu.com/p/58062844",
-      "summary": "正文列出常见函数的泰勒展开式，讲解佩亚诺余项与展开阶数原则，并用泰勒公式计算极限。"
-    },
-    {
-      "title": "由一类特殊的洛必达法则情形展开的讨论 ——小领域的大作用",
-      "url": "https://zhuanlan.zhihu.com/p/58788704",
-      "summary": "正文对照洛必达法则讨论泰勒展开求极限，并给出多阶展开处理多种未定式的例子。"
     },
     {
       "title": "三角函数的严格定义",
@@ -2521,21 +1986,6 @@
       "title": "复变函数学习笔记(4)——最大模原理",
       "url": "https://zhuanlan.zhihu.com/p/58874934",
       "summary": "正文用Taylor公式把解析函数在圆盘内的模平方积分与各阶Taylor系数联系起来，并用系数是否为零判断函数是否为常数。"
-    },
-    {
-      "title": "卡尔曼滤波（3）-- EKF, UKF",
-      "url": "https://zhuanlan.zhihu.com/p/59681380",
-      "summary": "正文在状态均值处对非线性运动和观测方程作一阶泰勒展开，以构造扩展卡尔曼滤波。"
-    },
-    {
-      "title": "TRPO论文推导",
-      "url": "https://zhuanlan.zhihu.com/p/60257706",
-      "summary": "正文对目标函数和 KL 约束作二阶泰勒展开，再用二次近似构造优化问题。"
-    },
-    {
-      "title": "高数求极限的一些总结",
-      "url": "https://zhuanlan.zhihu.com/p/61734696",
-      "summary": "正文解释麦克劳林展开到何种阶数才能与分母精度匹配，并用多个极限例子具体执行泰勒展开。"
     },
     {
       "title": "[ML] 提升方法：AdaBoost, 提升树, GBDT, XGBoost, LightGBM",
@@ -2551,31 +2001,6 @@
       "title": "多元函数幂级数展开的 n 种常用等价形式",
       "url": "https://zhuanlan.zhihu.com/p/62386078",
       "summary": "正文以导数、阶乘和增量幂给出单变量函数幂级数展开及其物理近似形式。"
-    },
-    {
-      "title": "微分方程数值解法|专题（1）——常微分方程的有限差分方法",
-      "url": "https://zhuanlan.zhihu.com/p/65179097",
-      "summary": "正文对精确解和数值格式作泰勒展开，比较余项以推导局部与整体截断误差。"
-    },
-    {
-      "title": "微分方程数值解法|专题（2）——偏微分方程的有限差分方法",
-      "url": "https://zhuanlan.zhihu.com/p/65247362",
-      "summary": "正文使用二维泰勒展开推导各个差分格式的局部截断误差。"
-    },
-    {
-      "title": "扩展卡尔曼滤波EKF  -- (更新09/9/4)",
-      "url": "https://zhuanlan.zhihu.com/p/67138271",
-      "summary": "正文围绕扩展卡尔曼滤波，用一阶泰勒展开把非线性运动模型和测量模型局部线性化。"
-    },
-    {
-      "title": "笔记 || 梯度法与最速下降法的本质区别",
-      "url": "https://zhuanlan.zhihu.com/p/67564794",
-      "summary": "正文由泰勒一阶展开构造局部近似，并据此定义最速下降方向。"
-    },
-    {
-      "title": "组合数学学习笔记（三）",
-      "url": "https://zhuanlan.zhihu.com/p/67771282",
-      "summary": "正文借助广义二项式和 Taylor 级数展开生成函数，从而提取 Catalan 数及多重组合问题的系数。"
     },
     {
       "title": "如何计算留数？",
@@ -2598,26 +2023,6 @@
       "summary": "正文具体写出 cos(x) 与 x^3 在原点附近的泰勒展开，并截取常数项和一阶项完成非线性方程线性化。"
     },
     {
-      "title": "CFD: FDM，数值耗散(dissipation)和数值色散(dispersion)随笔",
-      "url": "https://zhuanlan.zhihu.com/p/71219134",
-      "summary": "正文用时间与空间方向的泰勒展开推导有限差分格式的截断误差和修正方程。"
-    },
-    {
-      "title": "数学分析复习——偏导数（1）",
-      "url": "https://zhuanlan.zhihu.com/p/70902218",
-      "summary": "正文从插值多项式引入拉格朗日及 Peano 余项，并给出多元函数的泰勒公式。"
-    },
-    {
-      "title": "和ξ有关的中值定理经典证明题",
-      "url": "https://zhuanlan.zhihu.com/p/68900103",
-      "summary": "正文具体使用带拉格朗日余项的麦克劳林展开证明三阶导数中值结论。"
-    },
-    {
-      "title": "【论文笔记】DARTS公式推导",
-      "url": "https://zhuanlan.zhihu.com/p/73037439",
-      "summary": "正文用一阶泰勒展开相减推导中心差分公式，说明二阶混合导数的近似计算。"
-    },
-    {
       "title": "【工具书向/长期更新】复变函数预习笔记（依然是自嗨向）",
       "url": "https://zhuanlan.zhihu.com/p/72873507",
       "summary": "正文推导复泰勒级数及其系数，并说明其收敛圆与最近奇点之间的关系。"
@@ -2628,74 +2033,9 @@
       "summary": "正文把Weierstrass函数在零点附近展开为幂级数，并由级数系数定义Eisenstein级数。"
     },
     {
-      "title": "2.泰勒公式的使用",
-      "url": "https://zhuanlan.zhihu.com/p/74938375",
-      "summary": "正文以最低阶项、消项后的次低阶项和展开精度说明如何选择并比较泰勒展开。"
-    },
-    {
-      "title": "复变函数（3）——复级数，泰勒级数，洛朗级数",
-      "url": "https://zhuanlan.zhihu.com/p/75456993",
-      "summary": "正文推导并陈述复变函数的泰勒定理，给出系数公式和经典泰勒展开。"
-    },
-    {
-      "title": "Computing Jacobian, why error state?——优化中为何对误差状态求导",
-      "url": "https://zhuanlan.zhihu.com/p/75714471",
-      "summary": "正文用扰动变量零点的泰勒展开推导Gauss-Newton所需的线性化形式。"
-    },
-    {
-      "title": "傅立叶级数与傅立叶变换",
-      "url": "https://zhuanlan.zhihu.com/p/76437744",
-      "summary": "正文给出泰勒展开式，并通过分部积分推导泰勒公式及积分型余项。"
-    },
-    {
-      "title": "（三十九）通俗易懂理解——卡尔曼滤波与扩展卡尔曼滤波",
-      "url": "https://zhuanlan.zhihu.com/p/81404580",
-      "summary": "正文用泰勒展开忽略高阶项来把扩展卡尔曼滤波中的非线性测量函数近似线性化。"
-    },
-    {
-      "title": "级数通杀篇（一）",
-      "url": "https://zhuanlan.zhihu.com/p/81457261",
-      "summary": "正文说明可用泰勒展开寻找通项的等价无穷小，再结合比较法判断级数敛散性。"
-    },
-    {
-      "title": "级数通杀篇（二）",
-      "url": "https://zhuanlan.zhihu.com/p/81567345",
-      "summary": "正文围绕幂级数作为麦克劳林展开式，总结常用函数展开式以及先导后积、先积后导等计算方法。"
-    },
-    {
-      "title": "梯度下降法和一阶泰勒展开的关系",
-      "url": "https://zhuanlan.zhihu.com/p/82757193",
-      "summary": "正文以一阶泰勒多项式近似损失函数并由此推导更新方向，对应泰勒展开。"
-    },
-    {
-      "title": "手写xgboost",
-      "url": "https://zhuanlan.zhihu.com/p/82671707",
-      "summary": "正文把XGBoost的损失函数按二阶泰勒展开，用一阶项和二阶项构造可优化的近似目标。"
-    },
-    {
-      "title": "现代控制理论线性系统入门(一)状态方程描述下的动态系统",
-      "url": "https://zhuanlan.zhihu.com/p/82621398",
-      "summary": "正文由一阶泰勒展开推广到高维函数近似，并据此得到雅可比线性化模型。"
-    },
-    {
-      "title": "拉普拉斯矩阵与拉普拉斯算子的关系",
-      "url": "https://zhuanlan.zhihu.com/p/85287578",
-      "summary": "正文用相邻点的泰勒展开相加减，构造一阶与二阶差分近似。"
-    },
-    {
-      "title": "非线性优化方法的总结——approximation",
-      "url": "https://zhuanlan.zhihu.com/p/85423364",
-      "summary": "正文反复用一阶和二阶泰勒展开构造梯度法、牛顿法、信赖域及临近类算法。"
-    },
-    {
       "title": "辉煌的中心极限定理",
       "url": "https://zhuanlan.zhihu.com/p/85233692",
       "summary": "正文专节推导泰勒展开，并用指数、正弦和余弦函数的展开得到欧拉公式。"
-    },
-    {
-      "title": "终身持续学习-可塑权重巩固（Elastic Weight Consolidation）",
-      "url": "https://zhuanlan.zhihu.com/p/86365066",
-      "summary": "正文写出泰勒展开式并保留零阶与二阶项，将海森矩阵近似为费雪信息矩阵。"
     },
     {
       "title": "从微分方程的级数解到两个特殊方程（1）：关于平凡点的解",
@@ -2728,21 +2068,6 @@
       "summary": "正文以正弦、指数和对数函数的泰勒公式为基础，逐阶展开并控制余项以完成极限计算。"
     },
     {
-      "title": "深入理解GBDT二分类算法",
-      "url": "https://zhuanlan.zhihu.com/p/89549390",
-      "summary": "正文用损失函数的二阶泰勒展开求叶子节点残差拟合值。"
-    },
-    {
-      "title": "左手论文 右手代码 深入理解网红算法XGBoost",
-      "url": "https://zhuanlan.zhihu.com/p/91817667",
-      "summary": "正文把二阶泰勒展开作为推导XGBoost目标函数的核心步骤。"
-    },
-    {
-      "title": "SLAM中的滑窗（Sliding window）",
-      "url": "https://zhuanlan.zhihu.com/p/92100386",
-      "summary": "正文用两个不同线性化点处的二阶泰勒近似解释边缘化为何可能把不可观状态误判为可观。"
-    },
-    {
       "title": "深入浅出|中心极限定理（Central Limit Theorem）及证明",
       "url": "https://zhuanlan.zhihu.com/p/93738110",
       "summary": "正文对特征函数作零点泰勒展开，以此推导中心极限定理。"
@@ -2753,44 +2078,9 @@
       "summary": "正文区分泰勒级数、带余项的泰勒公式和泰勒展开式，并说明收敛区间及 ln(1+x) 的例子。"
     },
     {
-      "title": "非线性优化（一）：优化方法",
-      "url": "https://zhuanlan.zhihu.com/p/94589862",
-      "summary": "正文用一阶和二阶泰勒展开推导局部极值条件及优化算法中的二次模型。"
-    },
-    {
-      "title": "求极限时是否可以进行代入？",
-      "url": "https://zhuanlan.zhihu.com/p/96000422",
-      "summary": "通过多组极限例题比较洛必达与泰勒展开，强调展开阶数和同阶项会决定极限值。"
-    },
-    {
       "title": "梯度、散度、旋度",
       "url": "https://zhuanlan.zhihu.com/p/97545154",
       "summary": "正文从一元泰勒级数推广到多元二次近似，并用Hessian矩阵表示二次项。"
-    },
-    {
-      "title": "深入理解XGBoost",
-      "url": "https://zhuanlan.zhihu.com/p/83901304",
-      "summary": "正文先说明泰勒多项式逼近，再对 XGBoost 损失函数作二阶泰勒展开以构造可优化的目标。"
-    },
-    {
-      "title": "“等价无穷小量的替换”的详析",
-      "url": "https://zhuanlan.zhihu.com/p/99373470",
-      "summary": "正文通过泰勒展开解释等价无穷小的精度与加减替换条件，并给出利用高阶项求极限的推导。"
-    },
-    {
-      "title": "考研.泰勒公式的理解与运用.一次全懂",
-      "url": "https://zhuanlan.zhihu.com/p/100204039",
-      "summary": "正文从麦克劳林多项式逐项逼近函数讲到泰勒公式的一般形式，具体解释泰勒展开如何贴合原函数。"
-    },
-    {
-      "title": "微积分期末笔记：反常积分收敛性",
-      "url": "https://zhuanlan.zhihu.com/p/101310338",
-      "summary": "正文用 Taylor 展开得到被积函数的等价主项和余项，据此判断反常积分收敛性。"
-    },
-    {
-      "title": "Kalman滤波在金融时间序列中的应用",
-      "url": "https://zhuanlan.zhihu.com/p/101630539",
-      "summary": "正文对价格趋势做二阶泰勒展开并忽略高阶小量，由此构造位置、速度和加速度的状态方程。"
     },
     {
       "title": "浅析泰勒公式的由来(偏逻辑)",
@@ -2808,16 +2098,6 @@
       "summary": "正文从切线近似出发推导任意阶泰勒展开，并进一步用它构造对数函数的多项式分式逼近。"
     },
     {
-      "title": "高等数学上册(微积分)必背公式总结",
-      "url": "https://zhuanlan.zhihu.com/p/106252437",
-      "summary": "正文完整写出带佩亚诺余项和拉格朗日余项的泰勒公式，并列出常用函数的泰勒展开。"
-    },
-    {
-      "title": "统计学习--详解Hoeffding不等式",
-      "url": "https://zhuanlan.zhihu.com/p/106840151",
-      "summary": "正文用指数函数的泰勒展开逐项計算 Rademacher 随机变量的矩量母函数上界。"
-    },
-    {
       "title": "经典伊辛模型重整化群分析",
       "url": "https://zhuanlan.zhihu.com/p/108195584",
       "summary": "正文对对数双曲余弦函数作幂级数展开，保留低阶项以推导 phi 四次相互作用和重整化流方程。"
@@ -2826,11 +2106,6 @@
       "title": "极值点偏移的几种分参方法",
       "url": "https://zhuanlan.zhihu.com/p/108927317",
       "summary": "正文明确使用泰勒展开逐阶消去低阶项，并解释如何据此构造具有所需单调性的辅助函数。"
-    },
-    {
-      "title": "数值求导和自动求导",
-      "url": "https://zhuanlan.zhihu.com/p/109755675",
-      "summary": "正文用泰勒展开推导有限差分的误差阶，并据此比较前向与中心差分。"
     },
     {
       "title": "多元函数的泰勒展开式",
@@ -2853,16 +2128,6 @@
       "summary": "正文用 Taylor 展开截断高阶项，从而得到多项式增量的一阶近似并完成提升证明。"
     },
     {
-      "title": "最小二乘问题的四种解法——牛顿法，梯度下降法，高斯牛顿法和列文伯格-马夸特法的区别和联系",
-      "url": "https://zhuanlan.zhihu.com/p/113946848",
-      "summary": "正文用局部二阶泰勒展开推导牛顿增量方程，并比较不同优化方法。"
-    },
-    {
-      "title": "【数学分析】离散的L'Hospital法则——Stolz定理",
-      "url": "https://zhuanlan.zhihu.com/p/114183826",
-      "summary": "正文使用 sin x 在零点附近的泰勒展开计算关键极限并得到最终结果。"
-    },
-    {
       "title": "Gamma函数的那些事（3）——Gamma函数的应用",
       "url": "https://zhuanlan.zhihu.com/p/114595109",
       "summary": "正文使用指数函数的麦克劳林展开化简无穷级数，并在斯特林公式部分作二阶展开近似。"
@@ -2873,24 +2138,9 @@
       "summary": "正文从泰勒公式推导广义二项式系数展开，并用逐项求导和积分得到多种级数。"
     },
     {
-      "title": "数值优化|笔记整理（1）——引入，线搜索：步长选取条件",
-      "url": "https://zhuanlan.zhihu.com/p/118443321",
-      "summary": "正文给出多元函数的一阶、二阶泰勒展开，并用它证明局部极值的必要条件。"
-    },
-    {
       "title": "BCH公式的有趣证明",
       "url": "https://zhuanlan.zhihu.com/p/101212195",
       "summary": "正文将指数映射中的 h 展开成幂级数，并逐项比较系数推出 BCH 公式。"
-    },
-    {
-      "title": "【导数问题】函数逼近的一些方法",
-      "url": "https://zhuanlan.zhihu.com/p/123329716",
-      "summary": "正文以匹配函数值和各阶导数为原则，系统讨论泰勒多项式及高阶逼近。"
-    },
-    {
-      "title": "如何巧记麦克劳林级数？",
-      "url": "https://zhuanlan.zhihu.com/p/129880269",
-      "summary": "正文围绕常见函数的麦克劳林级数展开，给出泰勒级数形式、记忆方法和相互推导。"
     },
     {
       "title": "复变函数学习笔记(6)",
@@ -2903,29 +2153,9 @@
       "summary": "正文给出Gamma函数在1处的各阶导数并据此计算其Taylor展开系数。"
     },
     {
-      "title": "数值常微分方程-欧拉法与龙格-库塔法",
-      "url": "https://zhuanlan.zhihu.com/p/131303043",
-      "summary": "正文用泰勒展开推导欧拉法的截断误差，并通过比较泰勒系数构造二阶与四阶龙格-库塔法。"
-    },
-    {
-      "title": "Apollo5.0 控制模块-MPC入门学习笔记4",
-      "url": "https://zhuanlan.zhihu.com/p/133223753",
-      "summary": "正文在参考状态处作一阶泰勒展开，并用偏导数组成线性误差模型，具体讲解了泰勒线性化。"
-    },
-    {
-      "title": "复变函数学习笔记(7)",
-      "url": "https://zhuanlan.zhihu.com/p/133309236",
-      "summary": "正文以Taylor展开为类比，讲解圆环上全纯函数的Laurent级数及其系数公式和唯一性。"
-    },
-    {
       "title": "MN2：谈谈算术几何平均数",
       "url": "https://zhuanlan.zhihu.com/p/130428825",
       "summary": "正文由完全椭圆积分的超几何级数表示推出算术几何平均数倒数的泰勒展开及系数。"
-    },
-    {
-      "title": "网红题（9）：简单导数题与不等式选讲",
-      "url": "https://zhuanlan.zhihu.com/p/133634641",
-      "summary": "正文明确用泰勒展开判断导函数的符号与单调区间，从而完成不等式证明。"
     },
     {
       "title": "欧拉关于巴塞尔问题证明的严格化",
@@ -2938,39 +2168,14 @@
       "summary": "正文用不同次数的多项式逼近指数型函数，分析所需逼近精度与放大估计的困难。"
     },
     {
-      "title": "Code and Finance 2 蒙特卡洛模拟期权定价",
-      "url": "https://zhuanlan.zhihu.com/p/134759744",
-      "summary": "正文对对数股价作泰勒展开并列出一阶、二阶偏导项，以推出对数价格变化形式。"
-    },
-    {
-      "title": "有限差分法（1）—构造差分格式及稳定性分析",
-      "url": "https://zhuanlan.zhihu.com/p/136269281",
-      "summary": "正文用泰勒展开建立待定系数方程并推导差分近似的系数与截断误差。"
-    },
-    {
       "title": "数学分析的艺术——Zeta函数的洛朗展开式与斯蒂尔吉斯（Stieltjes）常数",
       "url": "https://zhuanlan.zhihu.com/p/136328750",
       "summary": "正文用指数函数的泰勒展开把相关项逐阶整理，从而得到 zeta 函数的洛朗级数系数。"
     },
     {
-      "title": "方程求根-二分法、牛顿法、割线法（Python）",
-      "url": "https://zhuanlan.zhihu.com/p/136823356",
-      "summary": "正文从泰勒展开取线性阶近似推出牛顿迭代公式。"
-    },
-    {
-      "title": "多传感器融合定位理论基础（七）：kalman 滤波器基本原理",
-      "url": "https://zhuanlan.zhihu.com/p/137551862",
-      "summary": "正文利用一阶泰勒展开和雅可比矩阵线性化非线性状态与观测方程，从而推导扩展卡尔曼滤波。"
-    },
-    {
       "title": "积分(对，就是积分)",
       "url": "https://zhuanlan.zhihu.com/p/137758951",
       "summary": "正文把正弦函数作 Taylor 展开并逐项积分，将原积分转化为可求和的级数。"
-    },
-    {
-      "title": "函数极限的最强解法——泰勒公式！！！",
-      "url": "https://zhuanlan.zhihu.com/p/137746002",
-      "summary": "正文列出常用函数的麦克劳林展开，并通过保留相应阶数计算函数极限及无穷小阶数。"
     },
     {
       "title": "复分析(6)-Taylor展式和Laurent展式",
@@ -2983,29 +2188,14 @@
       "summary": "正文从函数在原点附近的幂级数展开出发，说明泰勒展开及其局限。"
     },
     {
-      "title": "一道关于重要极限e的极限题目",
-      "url": "https://zhuanlan.zhihu.com/p/137829714",
-      "summary": "正文利用对数函数的泰勒展开确定指数部分的极限。"
-    },
-    {
       "title": "复分析(7)-解析函数零点的孤立性和孤立奇点",
       "url": "https://zhuanlan.zhihu.com/p/137771563",
       "summary": "正文说明含正弦、余弦的极点阶数需借助Taylor展开判断，并在奇点习题中实际使用该展开方法。"
     },
     {
-      "title": "高等数学（九）泰勒展开式",
-      "url": "https://zhuanlan.zhihu.com/p/138153530",
-      "summary": "正文给出 Taylor 展开式和 Lagrange 余项，说明展开及截断误差表示。"
-    },
-    {
       "title": "单摆周期的公式推导",
       "url": "https://zhuanlan.zhihu.com/p/138339027",
       "summary": "正文用余弦函数的泰勒展开近似被积函数并得到小振幅周期。"
-    },
-    {
-      "title": "理解 Kullback–Leibler 散度的近似",
-      "url": "https://zhuanlan.zhihu.com/p/139084847",
-      "summary": "正文用 f-散度与 KL 散度在小扰动下的二阶泰勒展开，解释近似估计为何具有相同的局部二阶距离。"
     },
     {
       "title": "流形 (Manifolds): An Introduction -- (0) 一些预备知识",
@@ -3033,11 +2223,6 @@
       "summary": "正文用奇偶性、二项式、级数积分和复变量替换讲解常见函数麦克劳林展开的构造与记忆，属于泰勒展开。"
     },
     {
-      "title": "洛朗级数与本性奇点 （2）",
-      "url": "https://zhuanlan.zhihu.com/p/144590744",
-      "summary": "正文先用泰勒展开消去分母的最低幂次，再恢复负幂项以构造洛朗级数。"
-    },
-    {
       "title": "你绝对从未见过的有关黎曼ζ函数的一堆可爱级数",
       "url": "https://zhuanlan.zhihu.com/p/144278965",
       "summary": "正文比较正弦函数幂级数与无穷乘积的同次项系数，从而递推计算 ζ(2n)。"
@@ -3048,19 +2233,9 @@
       "summary": "正文由双曲余切和余切的洛朗展开逐步推导正切函数泰勒展开的系数规律。"
     },
     {
-      "title": "数值计算方法 第六章 数值积分和数值微分",
-      "url": "https://zhuanlan.zhihu.com/p/142583935",
-      "summary": "正文使用泰勒展开推导各类差商公式和数值求积公式的截断误差。"
-    },
-    {
       "title": "多元函数的泰勒级数",
       "url": "https://zhuanlan.zhihu.com/p/146371408",
       "summary": "正文从一元泰勒展开出发，沿方向变量导出二元函数的各阶泰勒级数。"
-    },
-    {
-      "title": "泰勒公式求极限过程中的细节讨论！",
-      "url": "https://zhuanlan.zhihu.com/p/146366590",
-      "summary": "正文列出常见函数的泰勒展开，并系统说明展开阶数、抵消与复合函数近似。"
     },
     {
       "title": "求导后等于自身的函数仅有exp(x)吗？",
@@ -3083,29 +2258,9 @@
       "summary": "正文从泰勒展开出发说明函数邻域近似、Jacobian、Hessian 以及数值积分格式的截断误差。"
     },
     {
-      "title": "复变函数期末复习",
-      "url": "https://zhuanlan.zhihu.com/p/152561058",
-      "summary": "正文把 sin z 展开为幂级数，再通过洛朗级数的负一次幂系数求留数。"
-    },
-    {
       "title": "逐渐硬核的函数展开——洛朗级数、Mittag-Leffler和Weierstrass定理",
       "url": "https://zhuanlan.zhihu.com/p/156855788",
       "summary": "正文从幂级数展开出发，推导洛朗级数、系数公式及其主部和正则部表示。"
-    },
-    {
-      "title": "高阶导数题四大解法一文搞定（解法总结、例题、习题、考研数学真题）",
-      "url": "https://zhuanlan.zhihu.com/p/160797509",
-      "summary": "正文利用麦克劳林展开中指定次幂的系数反求函数在零点的高阶导数值。"
-    },
-    {
-      "title": "计量经济学第五讲（多元线性回归模型：非线性模型、虚拟变量模型、受约束回归）",
-      "url": "https://zhuanlan.zhihu.com/p/161653191",
-      "summary": "正文把 CES 生产函数的对数形式在零点附近作泰勒展开，化为可估计的线性近似模型。"
-    },
-    {
-      "title": "极限求解-泰勒公式理解",
-      "url": "https://zhuanlan.zhihu.com/p/161843840",
-      "summary": "正文系统说明常见泰勒展开式、等价无穷小和展开到合适阶数的方法。"
     },
     {
       "title": "泰勒中值定理证明",
@@ -3121,16 +2276,6 @@
       "title": "伯努利数与欧拉数",
       "url": "https://zhuanlan.zhihu.com/p/166136767",
       "summary": "正文把伯努利数定义为生成函数的系数，并显式给出其泰勒展开式及与欧拉数的系数关系。"
-    },
-    {
-      "title": "分子动力学入门（10分钟版）",
-      "url": "https://zhuanlan.zhihu.com/p/180123374",
-      "summary": "正文通过对前后两个时刻作Taylor展开相消，得到原始Verlet更新公式。"
-    },
-    {
-      "title": "有限个极限运算及常见错误小结",
-      "url": "https://zhuanlan.zhihu.com/p/185039873",
-      "summary": "正文写出 tan x 与 sin x 的 Taylor 展开，用高阶项相消解释差函数的极限和无穷小阶数。"
     },
     {
       "title": "万字长文看够幂级数",
@@ -3153,44 +2298,9 @@
       "summary": "正文通过常见函数的幂级数展开及乘法给出函数级数展开的方法。"
     },
     {
-      "title": "考研数学高数公式知识点整理",
-      "url": "https://zhuanlan.zhihu.com/p/200968718",
-      "summary": "正文给出常用泰勒与麦克劳林展开，并列出带拉格朗日余项的泰勒公式。"
-    },
-    {
-      "title": "Continual Learning 笔记: EWC / Online EWC / IS / MAS",
-      "url": "https://zhuanlan.zhihu.com/p/205073566",
-      "summary": "正文在极值点附近作二阶泰勒展开，以海森矩阵和 Fisher 信息矩阵构造参数重要性惩罚。"
-    },
-    {
-      "title": "说说牛顿迭代 -- 方法篇",
-      "url": "https://zhuanlan.zhihu.com/p/218676280",
-      "summary": "正文用一阶和二阶 Taylor 近似分别推导方程求根与极值迭代，实质讲解了展开阶数与算法构造的关系。"
-    },
-    {
-      "title": "求极限：泰勒公式应展开到第几阶？",
-      "url": "https://zhuanlan.zhihu.com/p/219965285",
-      "summary": "正文定义等价无穷小和高阶无穷小，并用 Taylor 展开到合适阶数计算多类极限。"
-    },
-    {
       "title": "特殊函数之Lambert W——朗伯W函数",
       "url": "https://zhuanlan.zhihu.com/p/216093102",
       "summary": "正文在零点展开朗伯 W 函数，给出泰勒级数通项并计算其收敛半径。"
-    },
-    {
-      "title": "数值优化（Numerical Optimization）(3)-牛顿法",
-      "url": "https://zhuanlan.zhihu.com/p/222899764",
-      "summary": "正文用二阶泰勒展开构造目标函数的二次近似，并由其驻点导出牛顿方向。"
-    },
-    {
-      "title": "凸优化|笔记整理（3）——梯度与次梯度：方法，性质与比较",
-      "url": "https://zhuanlan.zhihu.com/p/226381487",
-      "summary": "正文利用一阶泰勒近似并添加二次罚项，推导梯度下降更新公式。"
-    },
-    {
-      "title": "费舍尔信息矩阵及自然梯度法",
-      "url": "https://zhuanlan.zhihu.com/p/228099600",
-      "summary": "正文对 KL 散度作二阶泰勒展开，并据此得到自然梯度更新方向。"
     },
     {
       "title": "综合的极限计算：2021年杨树森考研数学试题 (1)",
@@ -3198,19 +2308,9 @@
       "summary": "正文分别使用余弦函数和平方根在零点的泰勒展开比较最低阶项，从而确定极限。"
     },
     {
-      "title": "(高等数学笔记）萌新也能理解的函数极限求法",
-      "url": "https://zhuanlan.zhihu.com/p/263039232",
-      "summary": "正文列出常用泰勒与麦克劳林展开，并用高阶展开处理极限中的消项问题。"
-    },
-    {
       "title": "民科吧见闻录25(Part F)——识破“狭义相对论的数学骗局”的郭德强",
       "url": "https://zhuanlan.zhihu.com/p/264537565",
       "summary": "正文以洛伦兹变换在速度比为零附近的麦克劳林展开及一阶项，具体推导低速近似。"
-    },
-    {
-      "title": "双线性变换法详解",
-      "url": "https://zhuanlan.zhihu.com/p/265965580",
-      "summary": "正文通过在原点作泰勒展开并截去高阶项，推导双线性变换公式及其频率映射。"
     },
     {
       "title": "无限套娃-复合函数的泰勒展开式!",
@@ -3233,24 +2333,9 @@
       "summary": "正文给出带拉格朗日余项的泰勒公式，并说明用多项式匹配函数值与各阶导数进行局部近似。"
     },
     {
-      "title": "学完了微积分，就不要强行抱着微分学不放",
-      "url": "https://zhuanlan.zhihu.com/p/269788946",
-      "summary": "正文具体写出带二阶余项的泰勒公式，并解释该尝试为何未能直接解决问题。"
-    },
-    {
-      "title": "考研数学三级数~求幂级数的收敛域、和函数、幂级数展开式问题总结",
-      "url": "https://zhuanlan.zhihu.com/p/181727876",
-      "summary": "正文讨论函数在指定点及一般点处展开为幂级数的方法，并明确以常见麦克劳林展开式作为计算基础。"
-    },
-    {
       "title": "第二天（20,11,09）：另一个三角极限的处理",
       "url": "https://zhuanlan.zhihu.com/p/281993230",
       "summary": "正文以含拉格朗日余项的泰勒公式展开自然常数 e，并据此分离整数部分完成极限计算。"
-    },
-    {
-      "title": "第三天（20,11,10）：泰勒公式与三角不等式",
-      "url": "https://zhuanlan.zhihu.com/p/283089407",
-      "summary": "正文在区间中点作带二阶导剩余项的泰勒展开，并据此估计区间端点的函数值。"
     },
     {
       "title": "第六天（20,11,13）：这不显然？！",
@@ -3268,39 +2353,14 @@
       "summary": "正文系统列出子型、母型和阶乘型幂级数，并通过配凑泰勒级数求函数项级数的和函数。"
     },
     {
-      "title": "数学分析Mathematical Analysis笔记整理 第五章 微分中值定理及其应用",
-      "url": "https://zhuanlan.zhihu.com/p/309342056",
-      "summary": "正文系统介绍带皮亚诺余项和拉格朗日余项的泰勒公式、常用展开式及其应用。"
-    },
-    {
-      "title": "《高等数学》泰勒公式求极限-真香！",
-      "url": "https://zhuanlan.zhihu.com/p/313029383",
-      "summary": "正文说明泰勒展开可把复杂函数化为易算的低阶多项式，并按分子分母的非零最低次数选择展开阶数。"
-    },
-    {
       "title": "泰勒公式在定积分中的应用（6.12.20)",
       "url": "https://zhuanlan.zhihu.com/p/334004270",
       "summary": "正文讲解直接展开被积函数或构造积分上限函数后再作泰勒展开的两类方法。"
     },
     {
-      "title": "ABAQUS用户子程序UMAT不正经教程（四）：一个完整的迭代求解过程",
-      "url": "https://zhuanlan.zhihu.com/p/338500414",
-      "summary": "正文用二阶泰勒展开近似平衡路径，并分析截断误差如何影响最终数值解。"
-    },
-    {
-      "title": "高等数学16个二级结论(快速解题)",
-      "url": "https://zhuanlan.zhihu.com/p/339383584",
-      "summary": "正文列出 sin x、cos x、e^x、ln(1+x) 等常用函数的泰勒展开式并给出延伸推导。"
-    },
-    {
       "title": "第二章 : 函数放缩问题●实洛朗级数",
       "url": "https://zhuanlan.zhihu.com/p/339473156",
       "summary": "正文以 e^x 等函数为例，用泰勒级数替换分母并经等比展开得到分式近似，核心是泰勒展开的应用。"
-    },
-    {
-      "title": "【军火库】高考导数一些放缩技巧与出题背景积累",
-      "url": "https://zhuanlan.zhihu.com/p/339792669",
-      "summary": "正文利用指数和对数函数的相关级数、泰勒展开及级数最值构造函数放缩。"
     },
     {
       "title": "常用幂级数展开式",
@@ -3318,24 +2378,9 @@
       "summary": "正文将积分核展开为Taylor级数，在收敛区间内逐项积分，并结合另一级数公式求和。"
     },
     {
-      "title": "Apollo ReferenceLine Smooth--离散点平滑原理",
-      "url": "https://zhuanlan.zhihu.com/p/342740447",
-      "summary": "正文对非线性的曲率约束作一阶泰勒展开，以获得可交给 OSQP 求解的线性约束。"
-    },
-    {
-      "title": "复旦大学数学分析1期末考试卷解析",
-      "url": "https://zhuanlan.zhihu.com/p/344592100",
-      "summary": "正文要求并给出由反函数展开反求原函数三阶 Taylor 展开式的具体结果。"
-    },
-    {
       "title": "组合数学（3）递推关系和生成函数",
       "url": "https://zhuanlan.zhihu.com/p/345811471",
       "summary": "正文对卡特兰数生成函数的闭式进行泰勒展开，再比较系数求出通项。"
-    },
-    {
-      "title": "初学者求极限经典错误思路以及分析",
-      "url": "https://zhuanlan.zhihu.com/p/347525523",
-      "summary": "正文用泰勒展开解释等价无穷小替换的成立条件，并展开到余项处理具体极限。"
     },
     {
       "title": "关于构造函数放缩的一些思考",
@@ -3348,29 +2393,9 @@
       "summary": "正文利用复指数展开推导指数三角乘积的泰勒级数，并给出具体例子。"
     },
     {
-      "title": "极限150题答案解析 第1-25题",
-      "url": "https://zhuanlan.zhihu.com/p/351536192",
-      "summary": "正文多题把函数展开为带余项的多项式并用主项比较计算极限，具体应用了泰勒展开。"
-    },
-    {
-      "title": "极限150题答案解析 第26-50题",
-      "url": "https://zhuanlan.zhihu.com/p/353584261",
-      "summary": "正文用一阶泰勒展开解释指数、正切等函数的等价无穷小，并通过展开计算极限。"
-    },
-    {
-      "title": "随机微分方程的模拟（一）",
-      "url": "https://zhuanlan.zhihu.com/p/354688060",
-      "summary": "正文推导随机泰勒展开，并由伊藤公式逐级保留余项来解释 Euler 与 Milstein 近似。"
-    },
-    {
       "title": "泰勒公式终极理解, 真正从0发明泰勒公式",
       "url": "https://zhuanlan.zhihu.com/p/355819201",
       "summary": "正文从零阶、一阶逼近逐层推导带拉格朗日余项的泰勒公式，并讨论高阶余项与插值。"
-    },
-    {
-      "title": "用Matlab解决一些数学问题",
-      "url": "https://zhuanlan.zhihu.com/p/356388941",
-      "summary": "正文计算指数函数在指定展开点的四阶泰勒展开式。"
     },
     {
       "title": "变分法笔记(1)——古典变分问题的例子",
@@ -3388,16 +2413,6 @@
       "summary": "正文给出广义牛顿二项式的无穷级数展开，并用负整数指数和平方根等例子演示。"
     },
     {
-      "title": "复变函数可视化 | 直观理解奇点与洛朗展开",
-      "url": "https://zhuanlan.zhihu.com/p/355075115",
-      "summary": "正文通过具体函数比较泰勒展开与洛朗展开，并解释负幂次项在环绕奇点展开时的作用。"
-    },
-    {
-      "title": "Transformer升级之路：1、Sinusoidal位置编码追根溯源",
-      "url": "https://zhuanlan.zhihu.com/p/359500899",
-      "summary": "正文通过二阶泰勒展开分离绝对位置项和位置编码交互项，据此推导相对位置性质。"
-    },
-    {
       "title": "微积分：七、多元函数微分学",
       "url": "https://zhuanlan.zhihu.com/p/348455980",
       "summary": "正文给出二元函数的 n 阶泰勒公式及余项，讨论多元函数的高阶近似。"
@@ -3406,11 +2421,6 @@
       "title": "两种方法证明二元函数极值取得的充分性",
       "url": "https://zhuanlan.zhihu.com/p/362415195",
       "summary": "正文第二种证明明确利用二元函数的泰勒公式推导极值充分条件。"
-    },
-    {
-      "title": "多元函数微分法及其应用 *第九节  二元函数的泰勒公式",
-      "url": "https://zhuanlan.zhihu.com/p/363311391",
-      "summary": "正文给出二元函数的泰勒公式、算子展开形式及拉格朗日余项，并用于极值判定。"
     },
     {
       "title": "【高中没学的数学知识】双曲函数",
@@ -3423,29 +2433,14 @@
       "summary": "正文反复在可变点处作二阶或三阶泰勒展开，并结合余项估计证明导数的上下界。"
     },
     {
-      "title": "AdaRound：一种自适应调整round的模型后量化算法",
-      "url": "https://zhuanlan.zhihu.com/p/363941822",
-      "summary": "正文用损失函数的二阶泰勒展开和海森矩阵近似模型量化误差，并据此构造优化目标。"
-    },
-    {
       "title": "极值点偏移与拉格朗日反演",
       "url": "https://zhuanlan.zhihu.com/p/367058597",
       "summary": "正文利用函数的高阶导数展开反函数级数，并以泰勒展开说明级数解法。"
     },
     {
-      "title": "高中数学导数大题常用技巧——放缩浅谈（二）",
-      "url": "https://zhuanlan.zhihu.com/p/367538850",
-      "summary": "正文以泰勒多项式放缩指数函数，并明确用该展开确定极值点位置，直接讲解泰勒展开的放缩用途。"
-    },
-    {
       "title": "复变函数基本概念与定理",
       "url": "https://zhuanlan.zhihu.com/p/367122899",
       "summary": "正文比较泰勒展开在孤立奇点附近失效的原因，并给出洛朗级数展开及系数公式。"
-    },
-    {
-      "title": "专题七MATLAB符号计算",
-      "url": "https://zhuanlan.zhihu.com/p/369362805",
-      "summary": "正文解释泰勒展开点、截断阶数和余项模式，并用三角函数展开示例说明用法。"
     },
     {
       "title": "arctanx的三角恒等式的运用",
@@ -3456,11 +2451,6 @@
       "title": "悬链线方程的推导",
       "url": "https://zhuanlan.zhihu.com/p/372248176",
       "summary": "正文对双曲余弦作泰勒展开并保留低阶项，解释小范围内悬链线与抛物线的近似关系。"
-    },
-    {
-      "title": "数值分析(11)：常微分方程的数值解法之Euler法",
-      "url": "https://zhuanlan.zhihu.com/p/376910421",
-      "summary": "正文用泰勒展开推导 Euler 法的局部截断误差、方法阶数和主局部截断误差。"
     },
     {
       "title": "泰勒公式、泰勒定理、泰勒级数、泰勒展开式之间的关系",
@@ -3478,19 +2468,9 @@
       "summary": "正文用二阶有理式的泰勒展开把含小参数的非线性项化为多项式，从而得到逐阶线性方程。"
     },
     {
-      "title": "数值分析(12)：Rung-Kutta法及单步法的收敛性和稳定性分析",
-      "url": "https://zhuanlan.zhihu.com/p/378479776",
-      "summary": "正文以泰勒展开解释 Euler 法的来源，并通过局部截断误差与展开阶数构造高阶方法。"
-    },
-    {
       "title": "极值点偏移的放缩式解法",
       "url": "https://zhuanlan.zhihu.com/p/382423283",
       "summary": "正文以泰勒展开构造二次拟合函数，利用该函数与目标函数的大小关系证明极值点偏移不等式。"
-    },
-    {
-      "title": "CORDIC算法原理详解",
-      "url": "https://zhuanlan.zhihu.com/p/384524393",
-      "summary": "正文写出正弦函数的泰勒级数及截断计算实例，并讨论其硬件实现代价。"
     },
     {
       "title": "神奇的卡塔兰(Catalan)数",
@@ -3498,29 +2478,9 @@
       "summary": "正文利用生成函数与泰勒展开推导卡特兰数的通项公式。"
     },
     {
-      "title": "数学分析（12）第十章 函数项级数",
-      "url": "https://zhuanlan.zhihu.com/p/387809317",
-      "summary": "正文说明函数展开为幂级数的条件，并介绍Taylor级数、余项及初等函数的Taylor展开。"
-    },
-    {
-      "title": "等价无穷小替换的本质",
-      "url": "https://zhuanlan.zhihu.com/p/390403630",
-      "summary": "正文指出等价无穷小替换本质上是忽略高阶项的泰勒展开，并比较替换、洛必达与泰勒方法。"
-    },
-    {
-      "title": "【自学笔记】(Legendre多项式)勒让德多项式推导、(Zernike多项式)泽尔尼克多项式推导思路、Zernike矩、目标识别的形状特征提取",
-      "url": "https://zhuanlan.zhihu.com/p/392294958",
-      "summary": "正文从泰勒展开的幂函数基出发，通过正交化说明泰勒展开与勒让德展开的拟合差异。"
-    },
-    {
       "title": "Taylor公式（泰勒公式）通俗+本质详解",
       "url": "https://zhuanlan.zhihu.com/p/392808684",
       "summary": "正文解释泰勒展开利用某点各阶导数值构造多项式逼近原函数，并说明其近似计算和机器学习应用。"
-    },
-    {
-      "title": "2020年-清华大学-高数上期中考试题及解析",
-      "url": "https://zhuanlan.zhihu.com/p/391274556",
-      "summary": "正文用 ln(1+x) 的二阶泰勒展开计算极限，并为参数方程指定点写出带皮亚诺余项的泰勒公式。"
     },
     {
       "title": "那些年，我做过的极限题",
@@ -3538,54 +2498,14 @@
       "summary": "正文从匹配函数值与各阶导数出发构造多项式，解释泰勒展开如何逐阶逼近原函数。"
     },
     {
-      "title": "一文彻底搞懂积分等式证明题(积分证明题总结笔记1/3)",
-      "url": "https://zhuanlan.zhihu.com/p/407778580",
-      "summary": "正文说明积分等式中含二阶导数时可用泰勒展开后再积分，并讨论展开点的选择。"
-    },
-    {
-      "title": "微分方程数值求解——有限差分法",
-      "url": "https://zhuanlan.zhihu.com/p/411798670",
-      "summary": "正文用泰勒级数截断推导向前、向后、中心和二阶差分公式及其截断误差。"
-    },
-    {
-      "title": "一文搞懂积分不等式证明(积分证明题总结笔记3/3)",
-      "url": "https://zhuanlan.zhihu.com/p/411078530",
-      "summary": "正文把泰勒展开作为积分不等式的核心方法，讨论展开点选择、余项估计和分段积分。"
-    },
-    {
-      "title": "函数求极限的通用大杀器——泰勒公式",
-      "url": "https://zhuanlan.zhihu.com/p/412006280",
-      "summary": "正文从多项式逼近和余项引入泰勒公式，并列出常用展开式及其推导方式。"
-    },
-    {
       "title": "泰勒公式常用公式",
       "url": "https://zhuanlan.zhihu.com/p/413944099",
       "summary": "正文系统列出常用函数的泰勒展开，并据此导出常用等价无穷小。"
     },
     {
-      "title": "中值定理的一点所思所悟",
-      "url": "https://zhuanlan.zhihu.com/p/413914653",
-      "summary": "正文使用带拉格朗日余项的泰勒公式建立函数值与各阶导数之间的关系。"
-    },
-    {
-      "title": "有限元分析：非线性分析求解算法——牛顿迭代法",
-      "url": "https://zhuanlan.zhihu.com/p/417412391",
-      "summary": "正文在近似根处作一阶泰勒展开，并由此导出牛顿迭代公式。"
-    },
-    {
       "title": "常用泰勒展开公式",
       "url": "https://zhuanlan.zhihu.com/p/417670944",
       "summary": "正文给出泰勒展开与麦克劳林展开的通式，并系统列出指数、对数、三角和有理性函数等常见展开。"
-    },
-    {
-      "title": "§微分学：等价无穷代换",
-      "url": "https://zhuanlan.zhihu.com/p/417671194",
-      "summary": "正文把等价无穷代换解释为泰勒展开与高阶无穷小替换，并列出用于控制余项阶数的展开式。"
-    },
-    {
-      "title": "保研面试/考研复试高等数学问题整理",
-      "url": "https://zhuanlan.zhihu.com/p/421169592",
-      "summary": "正文说明泰勒公式以各阶导数为系数构造多项式近似函数，并讨论皮亚诺和拉格朗日余项。"
     },
     {
       "title": "2021-2022丘成桐数学领军计划一试试题解答(分析部分)",
@@ -3603,11 +2523,6 @@
       "summary": "正文列举三角、指数、对数和二项式函数的泰勒展开及常用等价无穷小。"
     },
     {
-      "title": "SLAM算法工程师之路：状态估计之非线性优化学习",
-      "url": "https://zhuanlan.zhihu.com/p/421272861",
-      "summary": "正文对目标函数或残差函数作一阶、二阶泰勒展开并截断，由此构造最速下降、牛顿和高斯牛顿迭代。"
-    },
-    {
       "title": "【泰勒展开1】(1+x)^(1/x)的展开（部分）",
       "url": "https://zhuanlan.zhihu.com/p/427747801",
       "summary": "正文先展开对数函数，再代入指数函数并逐项合并同次幂，完整推导目标函数的泰勒展开。"
@@ -3623,54 +2538,9 @@
       "summary": "正文写出带拉格朗日余项的泰勒展开公式并说明常见展开式的推导。"
     },
     {
-      "title": "2021年11月四川大学高数期中试题及解析",
-      "url": "https://zhuanlan.zhihu.com/p/432208750",
-      "summary": "正文利用带二阶余项的泰勒公式，把函数值由二阶导数控制并证明给定不等式。"
-    },
-    {
-      "title": "2021 广东省九校联考导数压轴",
-      "url": "https://zhuanlan.zhihu.com/p/432732713",
-      "summary": "正文用二阶泰勒展开构造二次函数，并讨论其与原函数在极值点附近的拟合关系。"
-    },
-    {
-      "title": "【高考数学】极值点偏移与拟合法",
-      "url": "https://zhuanlan.zhihu.com/p/433077127",
-      "summary": "正文用二阶泰勒多项式构造与原函数极值、一阶导和二阶导一致的二次拟合函数。"
-    },
-    {
-      "title": "学物理真能去二次元吗? / 怎么这个也算高数啊?",
-      "url": "https://zhuanlan.zhihu.com/p/433548322",
-      "summary": "正文从幂级数展开推出一阶到高阶项的系数，解释泰勒展开、线性近似及高阶无穷小截断。"
-    },
-    {
-      "title": "常(偏)微分方程的数值求解（欧拉法、改进欧拉法、龙格-库塔法、亚当姆斯法）",
-      "url": "https://zhuanlan.zhihu.com/p/435769998",
-      "summary": "正文用函数的泰勒展开构造龙格-库塔法，并通过截断项推导局部截断误差和方法的阶。"
-    },
-    {
       "title": "泰勒公式与泰勒级数",
       "url": "https://zhuanlan.zhihu.com/p/437094869",
       "summary": "正文给出带余项的 n 阶泰勒公式，并说明有限项公式与余项的作用。"
-    },
-    {
-      "title": "常用的8种求极限方法（二）",
-      "url": "https://zhuanlan.zhihu.com/p/437139350",
-      "summary": "正文列出常用泰勒展开，并用展开式替换各项来计算两个极限。"
-    },
-    {
-      "title": "高数（上）期末模拟试卷及解析（第二套）",
-      "url": "https://zhuanlan.zhihu.com/p/441318559",
-      "summary": "正文对对数差和指数函数作高阶泰勒展开，以计算需要到四阶精度的极限。"
-    },
-    {
-      "title": "微积分练习10题（普通高校大一期末考难度）",
-      "url": "https://zhuanlan.zhihu.com/p/447636570",
-      "summary": "正文用泰勒展开到足够高阶处理等价无穷小失效的极限问题，并比较不同展开结果。"
-    },
-    {
-      "title": "复变函数与积分变换-考点汇总",
-      "url": "https://zhuanlan.zhihu.com/p/449235392",
-      "summary": "正文区分泰勒展开与洛朗展开，并说明解析条件和展开方式。"
     },
     {
       "title": "数学的艺术 —— ζ(3)的计算",
@@ -3678,34 +2548,9 @@
       "summary": "正文以反三角函数的幂级数展开为计算起点，逐项积分构造 ζ(3) 的恒等式。"
     },
     {
-      "title": "高中数学从入门到入土（四）：浅谈导数中的各类常见放缩",
-      "url": "https://zhuanlan.zhihu.com/p/452450578",
-      "summary": "正文介绍高中阶段常见泰勒展开，并说明如何用低阶展开进行放缩和估值。"
-    },
-    {
-      "title": "什么是龙格库塔？常微分方程的数值解法",
-      "url": "https://zhuanlan.zhihu.com/p/452525470",
-      "summary": "正文用泰勒展开匹配高阶项来推导 p 阶 Runge-Kutta 增量函数和格式。"
-    },
-    {
-      "title": "定积分的计算与题型总结",
-      "url": "https://zhuanlan.zhihu.com/p/453108063",
-      "summary": "正文说明积分上限函数如何先求导，再借助已知泰勒展开求高阶导数值。"
-    },
-    {
       "title": "从零开始的留数定理->定积分生活",
       "url": "https://zhuanlan.zhihu.com/p/452741586",
       "summary": "正文用泰勒级数和洛朗级数展开复变函数，并由洛朗系数引入留数。"
-    },
-    {
-      "title": "一道网红导数题的命制背景与解法探究",
-      "url": "https://zhuanlan.zhihu.com/p/453748970",
-      "summary": "正文利用一阶和二阶泰勒展开估计指数项，推导出题目所需的二次估计式。"
-    },
-    {
-      "title": "中值定理证明题(四)：简单的思路小结",
-      "url": "https://zhuanlan.zhihu.com/p/458878845",
-      "summary": "正文在特殊点和极值点处作带二阶拉格朗日余项的泰勒展开，并据此证明导数下界。"
     },
     {
       "title": "Catalan-Qi数——越来越奇的卡特兰数",
@@ -3718,16 +2563,6 @@
       "summary": "正文系统给出复变函数泰勒定理、系数求法、收敛半径和直接、间接展开方法。"
     },
     {
-      "title": "(高中)对称隐零点不等式问题方法(极值点偏移)",
-      "url": "https://zhuanlan.zhihu.com/p/462721746",
-      "summary": "正文多次用泰勒展开构造对数函数的局部比较式，并借待定系数完成极值点偏移证明。"
-    },
-    {
-      "title": "（高中数学）导数中一些常用放缩及来源",
-      "url": "https://zhuanlan.zhihu.com/p/462849803",
-      "summary": "正文用 e^x、ln(1+x) 与三角函数的泰勒或麦克劳林级数截断得到常用不等式。"
-    },
-    {
       "title": "浅谈椭圆周长",
       "url": "https://zhuanlan.zhihu.com/p/463065949",
       "summary": "正文使用二项式函数的泰勒展开逐项积分，得到椭圆周长的级数表达式。"
@@ -3738,11 +2573,6 @@
       "summary": "正文给出正切与正割函数的泰勒展开，并据此定义正切数和欧拉正割数。"
     },
     {
-      "title": "等价无穷小代换与泰勒公式",
-      "url": "https://zhuanlan.zhihu.com/p/463481171",
-      "summary": "正文展开泰勒公式并保留高阶无穷小，重新计算此前出错的极限。"
-    },
-    {
       "title": "一个高级的随处可见的数列——伯努利数",
       "url": "https://zhuanlan.zhihu.com/p/464909086",
       "summary": "正文通过生成函数的泰勒展开和系数比较定义伯努利数，并推导其恒等式。"
@@ -3751,11 +2581,6 @@
       "title": "高等数学知识点回顾（上册）",
       "url": "https://zhuanlan.zhihu.com/p/467583784",
       "summary": "正文给出泰勒中值定理、拉格朗日余项和皮亚诺余项，并列出多种常用函数的泰勒展开。"
-    },
-    {
-      "title": "AdaRound，一种全新的量化思路--问题篇",
-      "url": "https://zhuanlan.zhihu.com/p/473815530",
-      "summary": "正文用二阶泰勒展开近似量化前后损失函数的变化，并据此保留一阶项和 Hessian 二次项。"
     },
     {
       "title": "泰勒展开精度不够的数学本质",
@@ -3773,21 +2598,6 @@
       "summary": "正文介绍网络去卷积方法对协方差矩阵作泰勒展开，以逼近逆协方差矩阵。"
     },
     {
-      "title": "《答疑总结》| 等价无穷小到底啥时候才能替换？",
-      "url": "https://zhuanlan.zhihu.com/p/488573285",
-      "summary": "正文说明加减项的高精度替换本质上需使用泰勒展开，并展示相关极限的正解。"
-    },
-    {
-      "title": "大学数学-复变函数笔记",
-      "url": "https://zhuanlan.zhihu.com/p/488268246",
-      "summary": "正文由柯西积分公式推导复函数的泰勒展开，并列出常见初等函数的展开式。"
-    },
-    {
-      "title": "(其二)高中数列Sn，Tn，阶的放缩系统方法",
-      "url": "https://zhuanlan.zhihu.com/p/492874832",
-      "summary": "正文利用泰勒展开逐项配凑系数，改进数列和 S_n 的近似估计。"
-    },
-    {
       "title": "复变函数第五辑——解析函数的泰勒级数展开",
       "url": "https://zhuanlan.zhihu.com/p/499135537",
       "summary": "正文给出解析函数泰勒级的系数公式、证明和多种展开计算方法。"
@@ -3796,16 +2606,6 @@
       "title": "如何理解指数函数比任何幂函数都“大”？",
       "url": "https://zhuanlan.zhihu.com/p/500118384",
       "summary": "正文给出指数函数的幂级数展开，并说明有限项多项式可以逼近它。"
-    },
-    {
-      "title": "2022年清华大学微积分A2期中试题及解析",
-      "url": "https://zhuanlan.zhihu.com/p/501412120",
-      "summary": "正文用偏导数计算二元函数带 Peano 余项的二阶 Taylor 展开。"
-    },
-    {
-      "title": "什么是随机积分？（简版）",
-      "url": "https://zhuanlan.zhihu.com/p/501641647",
-      "summary": "正文由泰勒展开推导伊藤引理，并说明它是随机微分中的泰勒展开。"
     },
     {
       "title": "【导数与不等式】琴生不等式的五种证法——茴香豆的“茴”字的四种写法",
@@ -3818,29 +2618,9 @@
       "summary": "正文由一元泰勒公式推广得到二元高阶展开，并给出 Hessian 矩阵表示。"
     },
     {
-      "title": "(高中)导数题中的换元，lnx的基本性质奇效，(附宁波二模导数压轴)",
-      "url": "https://zhuanlan.zhihu.com/p/507722023",
-      "summary": "正文先给出 ln(1+x) 的幂级数形式，再通过二项式和极限推导并说明它与泰勒展开的关系。"
-    },
-    {
       "title": "【极值点偏移】我悄咪咪地拟合，然后惊艳所有人",
       "url": "https://zhuanlan.zhihu.com/p/504548210",
       "summary": "正文写出泰勒展开并保留二次项，构造对称二次函数处理极值点偏移。"
-    },
-    {
-      "title": "【微积分】常用级数与级数审敛法汇总",
-      "url": "https://zhuanlan.zhihu.com/p/508096285",
-      "summary": "正文给出泰勒级数的一般形式和常用函数的泰勒展开。"
-    },
-    {
-      "title": "[CVPR2020] 解读经典论文：泰勒展开，四两拨千斤——Distribution Aware Coordinate Representation for Human Pose Estimation",
-      "url": "https://zhuanlan.zhihu.com/p/509670435",
-      "summary": "正文对取对数后的高斯热图作二阶泰勒展开，并由此推导关键点坐标的校正公式。"
-    },
-    {
-      "title": "考研数学中的一些非典型公式定理整理（持续更新）",
-      "url": "https://zhuanlan.zhihu.com/p/510394533",
-      "summary": "正文列出常用泰勒与幂级数展开，并说明广义二项展开的收敛域。"
     },
     {
       "title": "讲透泰勒公式，让你成为高手！",
@@ -3848,19 +2628,9 @@
       "summary": "正文用函数在展开点处的函数值与各阶导数构造泰勒多项式，并在邻域内逼近原函数。"
     },
     {
-      "title": "模型量化（int8）知识梳理",
-      "url": "https://zhuanlan.zhihu.com/p/516116539",
-      "summary": "正文用泰勒展开近似 AdaRound 的量化输出误差，再据此构造替代四舍五入的优化目标。"
-    },
-    {
       "title": "2021四川大学数学竞赛试题选讲（非数组）",
       "url": "https://zhuanlan.zhihu.com/p/516454826",
       "summary": "正文对 log(1+k/n²) 作泰勒展开并逐项求和，从而计算极限的高阶渐近式。"
-    },
-    {
-      "title": "无穷小与高阶无穷小的解读——函数与函数族",
-      "url": "https://zhuanlan.zhihu.com/p/516545395",
-      "summary": "正文用不同阶的小 o 余项解释泰勒展开精度，并通过正弦函数的展开计算极限。"
     },
     {
       "title": "数学揭秘：玄之又玄的自然底数e为何神奇又“自然”？",
@@ -3873,34 +2643,9 @@
       "summary": "正文反复写出 sin x、cos x 与对数函数的幂级数并截取所需阶数，以泰勒展开计算极限。"
     },
     {
-      "title": "高等数学知识点回顾（下册）（4）",
-      "url": "https://zhuanlan.zhihu.com/p/523940005",
-      "summary": "正文给出泰勒级数与麦克劳林级数的定义，并讲解余项条件、收敛半径及常用函数展开。"
-    },
-    {
       "title": "从线性代数到量子力学(22)：氢原子模型的球对称性",
       "url": "https://zhuanlan.zhihu.com/p/448734759",
       "summary": "正文利用函数平移后的泰勒展开，把平移变换写成指数形式的线性算符。"
-    },
-    {
-      "title": "同济版高等数学知识点回顾（上册）",
-      "url": "https://zhuanlan.zhihu.com/p/526041629",
-      "summary": "正文列出泰勒中值定理、常见麦克劳林展开及拉格朗日余项和皮亚诺余项。"
-    },
-    {
-      "title": "高中数学比大小问题的奇技淫巧",
-      "url": "https://zhuanlan.zhihu.com/p/526588807",
-      "summary": "正文给出指数、对数、平方根和三角函数的泰勒或帕德近似不等式，用于估值与比较。"
-    },
-    {
-      "title": "最后的讲义：数分总复习",
-      "url": "https://zhuanlan.zhihu.com/p/528533840",
-      "summary": "正文给出带积分余项的泰勒公式，并用泰勒展开估计积分和级数。"
-    },
-    {
-      "title": "近端梯度(Proximal Gradient)下降算法的过程以及理解|ISTA算法|LASSO问题",
-      "url": "https://zhuanlan.zhihu.com/p/530839064",
-      "summary": "正文在迭代点附近作二次泰勒展开，将原目标转化为可求软阈值的近端问题。"
     },
     {
       "title": "谈谈《自然哲学的数学原理》",
@@ -3918,11 +2663,6 @@
       "summary": "正文从泰勒展开解释增强函数的低阶项构造，并据此消去偶次项。"
     },
     {
-      "title": "浙江导数大赏",
-      "url": "https://zhuanlan.zhihu.com/p/547893057",
-      "summary": "正文明确借助二阶泰勒展开式的放缩来估计函数零点。"
-    },
-    {
       "title": "《数学分析》55 四种余项的泰勒公式及其证明",
       "url": "https://zhuanlan.zhihu.com/p/550513650",
       "summary": "正文系统讲解泰勒公式及其佩亚诺、拉格朗日、积分和柯西四种余项，并给出证明。"
@@ -3938,49 +2678,14 @@
       "summary": "正文给出指数、对数、三角函数等泰勒展开，并用截断展开式计算近似值来比较大小。"
     },
     {
-      "title": "高数技巧 | 七种未定型极限的计算",
-      "url": "https://zhuanlan.zhihu.com/p/553569134",
-      "summary": "正文给出泰勒展开的阶数选择原则和常用展开式，并将其列为极限计算的重要技巧。"
-    },
-    {
-      "title": "软阈值迭代算法（ISTA算法）",
-      "url": "https://zhuanlan.zhihu.com/p/555651497",
-      "summary": "正文利用目标函数的二阶泰勒展开构造近端梯度步，并据此分离出软阈值子问题。"
-    },
-    {
       "title": "常用级数汇总（无穷篇）",
       "url": "https://zhuanlan.zhihu.com/p/555981969",
       "summary": "正文反复用对数、反三角函数、指数和三角函数的泰勒展开计算级数和。"
     },
     {
-      "title": "【总结向·高考数学】函数极值点偏移深入及方法本质溯源",
-      "url": "https://zhuanlan.zhihu.com/p/558559704",
-      "summary": "正文把泰勒二次拟合作为处理极值点偏移问题的一种近似方法展开说明。"
-    },
-    {
       "title": "广义二项式定理",
       "url": "https://zhuanlan.zhihu.com/p/559986822",
       "summary": "正文把二项式定理推广到任意实数指数，说明其展开成无穷幂级数并可用有限项近似函数值。"
-    },
-    {
-      "title": "考研数学高分的归纳总结——大道至简！",
-      "url": "https://zhuanlan.zhihu.com/p/565017049",
-      "summary": "正文把泰勒公式作为极限计算的通用方法，并具体展开两个泰勒展开求极限的例子。"
-    },
-    {
-      "title": "格子Boltzmann法（LBM）——圆柱绕流 应用（附Matlab代码）",
-      "url": "https://zhuanlan.zhihu.com/p/559068641",
-      "summary": "正文由分子在短时间内的状态变化作 Taylor 展开，整理出 Boltzmann 方程。"
-    },
-    {
-      "title": "高数笔记（求极限——总结）",
-      "url": "https://zhuanlan.zhihu.com/p/566281201",
-      "summary": "正文列出常用麦克劳林展开，并把泰勒公式作为求极限的专门方法。"
-    },
-    {
-      "title": "高中数学比较大小专题讲解",
-      "url": "https://zhuanlan.zhihu.com/p/566737176",
-      "summary": "正文列出指数、三角和对数等常用泰勒展开，并将其用于估值和大小比较。"
     },
     {
       "title": "泰勒展开还在出错？一招搞定！！！",
@@ -3996,11 +2701,6 @@
       "title": "概率论相关的积分知识及一些计算技巧",
       "url": "https://zhuanlan.zhihu.com/p/580198395",
       "summary": "正文列出正弦、余弦、指数、对数等的泰勒或幂级数展开，并由展开式推导等价无穷小。"
-    },
-    {
-      "title": "梯度下降详解（主观理解+推导证明+例题）",
-      "url": "https://zhuanlan.zhihu.com/p/580645925",
-      "summary": "正文用一阶泰勒展开比较邻域函数值，据此论证沿负梯度方向更新能够使函数值下降。"
     },
     {
       "title": "数分I期中考试题",
@@ -4028,16 +2728,6 @@
       "summary": "正文用局部 Taylor 展开、逆函数级数和系数计算得到 Laplace 方法的完整渐近展开。"
     },
     {
-      "title": "高中导数：从入门进阶为入土",
-      "url": "https://zhuanlan.zhihu.com/p/600452142",
-      "summary": "正文定义泰勒多项式并说明用各阶导数匹配原函数，还列出麦克劳林公式与相关放缩不等式。"
-    },
-    {
-      "title": "函数拟合——解决导数零点和&差问题的利刃",
-      "url": "https://zhuanlan.zhihu.com/p/607463594",
-      "summary": "正文借助指数函数的泰勒下界构造三次函数，并利用其对称中心证明不等式。"
-    },
-    {
       "title": "一类递推数列的渐进估计",
       "url": "https://zhuanlan.zhihu.com/p/610773444",
       "summary": "正文利用三角函数的局部渐近展开逐阶细化递推数列的估计。"
@@ -4053,24 +2743,9 @@
       "summary": "正文利用反函数的级数展开和低阶项系数确定不等式的最佳常数。"
     },
     {
-      "title": "“指数找朋友，对数单身狗”——门槛较低的导数入门技",
-      "url": "https://zhuanlan.zhihu.com/p/619469752",
-      "summary": "正文利用泰勒展开将指数函数放缩为多项式，以简化含指数项的导数证明。"
-    },
-    {
-      "title": "数学竞赛常用结论总结",
-      "url": "https://zhuanlan.zhihu.com/p/615880575",
-      "summary": "正文用一整节列出指数、三角、反三角和双曲函数的麦克劳林展开及生成方式。"
-    },
-    {
       "title": "数学界最著名、最伟大、最美丽的公式之一——欧拉公式",
       "url": "https://zhuanlan.zhihu.com/p/623881967",
       "summary": "正文用指数函数的泰勒级数逐项计算 exp(i)，展示其收敛到单位圆上的欧拉公式值。"
-    },
-    {
-      "title": "Diffusion学习笔记（五）——条件控制（Classifier-Guidance and Classifier-Free）",
-      "url": "https://zhuanlan.zhihu.com/p/623837604",
-      "summary": "正文对对数条件概率做二元一阶泰勒展开，据此得到高斯采样均值漂移。"
     },
     {
       "title": "一道经典积分题的七种解法",
@@ -4078,34 +2753,14 @@
       "summary": "正文把对数函数和分式展开为幂级数，再逐项积分计算原积分。"
     },
     {
-      "title": "Lecture 10 非线性轨迹优化（DDP/iLQR法）",
-      "url": "https://zhuanlan.zhihu.com/p/629149697",
-      "summary": "正文以二阶泰勒展开近似代价函数与 Cost-to-Go，并据此推导 DDP/iLQR 的迭代控制律。"
-    },
-    {
       "title": "二阶常系数非齐次线性微分方程",
       "url": "https://zhuanlan.zhihu.com/p/633483096",
       "summary": "正文假设解析解并展开为幂级数，通过系数递推得到特征根对应的通解。"
     },
     {
-      "title": "数学150—高考数学必备的高数方法（上）：从泰勒展开到数列积分不等式",
-      "url": "https://zhuanlan.zhihu.com/p/637722636",
-      "summary": "正文从切线和高阶逼近构造泰勒展开，并给出常用函数展开式与估值例题。"
-    },
-    {
       "title": "一个令人惊叹的数学恒等式，一个天才的发现，一个意想不到的结果",
       "url": "https://zhuanlan.zhihu.com/p/640928533",
       "summary": "正文把拉马努金的和展开为幂级数，逐项求导并利用导数关系确定幂级数对应的函数。"
-    },
-    {
-      "title": "最优控制中的动态规划 - 倒推法, LQR, iLQR",
-      "url": "https://zhuanlan.zhihu.com/p/641716246",
-      "summary": "正文在 iLQR 中对非线性状态方程作一阶泰勒展开、对目标作二阶展开，从而迭代求解。"
-    },
-    {
-      "title": "【规划控制】iLQR 入门（新手向）",
-      "url": "https://zhuanlan.zhihu.com/p/643510030",
-      "summary": "正文围绕标称轨迹使用一阶和二阶泰勒展开近似非线性动力学与代价函数。"
     },
     {
       "title": "一般二重极限的路径取法——最小单位元+公共路径法",
@@ -4128,11 +2783,6 @@
       "summary": "正文多次使用一阶、二阶泰勒展开选取局部拟合项，并解释泰勒余项在积分渐近分析中的作用。"
     },
     {
-      "title": "iLQR算法公式推导",
-      "url": "https://zhuanlan.zhihu.com/p/660810899",
-      "summary": "正文对状态转移、代价函数和 cost-to-go 作一阶或二阶泰勒展开，并据此推导 iLQR 的二次模型。"
-    },
-    {
       "title": "欧拉公式的几种推导方法",
       "url": "https://zhuanlan.zhihu.com/p/673935577",
       "summary": "正文具体写出指数函数与三角函数的泰勒展开并逐项比较。"
@@ -4141,11 +2791,6 @@
       "title": "物理学家做的数学推导",
       "url": "https://zhuanlan.zhihu.com/p/678954912",
       "summary": "正文用指数函数的幂级数及部分和完成算子方程求解，并验证所得级数满足原式。"
-    },
-    {
-      "title": "【导数】极值点偏移（一）",
-      "url": "https://zhuanlan.zhihu.com/p/681283886",
-      "summary": "正文具体写出二阶Taylor展开式，并借助展开函数与原函数的差证明零点和的上下界。"
     },
     {
       "title": "【导数】Lagrange反演",
@@ -4163,11 +2808,6 @@
       "summary": "正文从指数微分算符的泰勒级数得到位移算符，并推导差分与积分的关系。"
     },
     {
-      "title": "因果推断之Doubly Robust Regression",
-      "url": "https://zhuanlan.zhihu.com/p/682351612",
-      "summary": "正文以分布扰动下的一阶泰勒展开构造影响函数和一步估计量。"
-    },
-    {
       "title": "中学生都能读懂的李群和李代数Ⅰ（适合物理宝宝体质）",
       "url": "https://zhuanlan.zhihu.com/p/684801875",
       "summary": "正文利用指数函数的 Taylor 展开，从生成元李代数恢复出余弦和正弦组成的旋转群。"
@@ -4183,29 +2823,9 @@
       "summary": "正文核心方法是通过导数的泰勒展开再积分，系统得到反三角函数的泰勒级数。"
     },
     {
-      "title": "值融合排序公式设计哲学的数学原理",
-      "url": "https://zhuanlan.zhihu.com/p/685325348",
-      "summary": "正文对对数融合式作一阶泰勒展开，说明乘法公式在低取值时近似加法公式。"
-    },
-    {
-      "title": "[Transformer 101系列] LLM模型量化世界观(上)",
-      "url": "https://zhuanlan.zhihu.com/p/686232369",
-      "summary": "正文用二阶泰勒展开近似量化扰动造成的损失变化，并由此导出 OBS 更新公式。"
-    },
-    {
       "title": "萌新适用的泰勒展开教程——从入门到做题",
       "url": "https://zhuanlan.zhihu.com/p/689374245",
       "summary": "正文完整讲解泰勒展开的含义、常见展开、余项、物理应用和极限计算。"
-    },
-    {
-      "title": "MATLAB如何进行公式推导",
-      "url": "https://zhuanlan.zhihu.com/p/689630325",
-      "summary": "正文讲解了函数在指定点处的截断泰勒展开并给出具体系数。"
-    },
-    {
-      "title": "LQR与iLQR算法与运动规划",
-      "url": "https://zhuanlan.zhihu.com/p/690023196",
-      "summary": "正文用一阶和二阶泰勒展开构造非线性系统的局部LQR子问题。"
     },
     {
       "title": "BCH公式初等证明",
@@ -4213,24 +2833,9 @@
       "summary": "正文把指数映射的矩阵函数 H(x) 作幂级数展开，通过比较各阶系数逐项求出 BCH 展开。"
     },
     {
-      "title": "最优控制、动态规划、LQR、MPC理论基础",
-      "url": "https://zhuanlan.zhihu.com/p/695429954",
-      "summary": "正文对非线性动力学和代价函数作一阶或二阶泰勒展开，据此推导 DDP 与 iLQR 的局部二次优化。"
-    },
-    {
-      "title": "80岁的公园大爷问我 DPMsolver 是什么然后我给他写了这个他说哦我看懂了",
-      "url": "https://zhuanlan.zhihu.com/p/695718570",
-      "summary": "正文在 log-SNR 变量处对噪声预测函数作高阶泰勒展开，并逐项分析一阶和二阶求解器的误差阶。"
-    },
-    {
       "title": "常用特殊函数总结 及其部分性质",
       "url": "https://zhuanlan.zhihu.com/p/698350651",
       "summary": "正文用生成函数和幂级数展开定义伯努利数、欧拉数及多类正交多项式，并讨论收敛半径和展开系数。"
-    },
-    {
-      "title": "从LQR算法到iLQR算法",
-      "url": "https://zhuanlan.zhihu.com/p/699912273",
-      "summary": "正文用二阶泰勒展开近似非线性代价和动态，再据此得到迭代控制律。"
     },
     {
       "title": "现代数学基础-G1-古典微分几何",
@@ -4251,11 +2856,6 @@
       "title": "从零开始的留数定理",
       "url": "https://zhuanlan.zhihu.com/p/708571624",
       "summary": "正文由积分公式得到解析函数的幂级数与洛朗展开，并据此分类孤立奇点。"
-    },
-    {
-      "title": "数学的艺术 —— Geogebra 简易教程",
-      "url": "https://zhuanlan.zhihu.com/p/710005787",
-      "summary": "正文逐步构造正弦函数麦克劳林级数的部分和，并制作逼近动画。"
     },
     {
       "title": "数学的艺术 —— 函数的因式分解",
@@ -4313,16 +2913,6 @@
       "summary": "正文用泰勒展开及其余项估计证明所有导数条件满足时函数恒为零。"
     },
     {
-      "title": "一文贯通Diffusion原理：DDPM、DDIM和Flow Matching",
-      "url": "https://zhuanlan.zhihu.com/p/12591930520",
-      "summary": "正文用贝叶斯公式和泰勒展开推导小噪声下的逆向条件分布近似。"
-    },
-    {
-      "title": "LLMs量化系列|LLM量化方法小结",
-      "url": "https://zhuanlan.zhihu.com/p/12568191406",
-      "summary": "正文用泰勒展开近似改变权重造成的损失增量，并以二阶项衡量参数影响。"
-    },
-    {
       "title": "零点曲线科普",
       "url": "https://zhuanlan.zhihu.com/p/16011893292",
       "summary": "正文围绕泰勒部分和及其零点在阶数趋于无穷时的分布展开讲解。"
@@ -4341,21 +2931,6 @@
       "title": "山东大学 (泰山学堂,潘承洞班) 数学分析(1) 2024-2025年期中考试",
       "url": "https://zhuanlan.zhihu.com/p/16950070337",
       "summary": "正文使用带Lagrange余项的泰勒公式和导数估计，证明正切函数在原点邻域的解析性。"
-    },
-    {
-      "title": "Conditional Flow Matching (1): 常微分方程ODE、欧拉方法和Neural ODE",
-      "url": "https://zhuanlan.zhihu.com/p/19524967216",
-      "summary": "正文用一阶 Taylor 展开推导 Euler 迭代并给出 O(h^2) 的局部误差。"
-    },
-    {
-      "title": "微分动态规划(DDP)的推导",
-      "url": "https://zhuanlan.zhihu.com/p/20541213218",
-      "summary": "正文用二阶泰勒展开近似价值函数和动力学，并详细给出梯度与 Hessian 形式。"
-    },
-    {
-      "title": "增广拉格朗日 iLQR 轨迹优化",
-      "url": "https://zhuanlan.zhihu.com/p/20849151745",
-      "summary": "正文用一阶或二阶泰勒近似将非线性约束目标和动力学化为局部二次子问题。"
     },
     {
       "title": "本届英国积分大赛的题目(试做)",

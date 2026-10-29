@@ -3,39 +3,9 @@
   "branchId": "l3-t8-b4",
   "sources": [
     {
-      "title": "ACM 中常用的算法有哪些？",
-      "url": "https://www.zhihu.com/answer/13638265",
-      "summary": "历史 ACM 清单列出子序列、树型动态规划、背包、状态设计与优化等学习项目，适合作为目录，未讲解具体实现。"
-    },
-    {
       "title": "如何用最坏情况最少的次数测鸡蛋恰好会在哪一层扔碎？",
       "url": "https://www.zhihu.com/answer/18079633",
       "summary": "把最坏次数最小的扔蛋问题建成决策树，给出状态、边界、极小极大递推及代码；需明确最高层必碎或允许无碎点结果。“像满二叉树”只是直觉，不是最优性证明。"
-    },
-    {
-      "title": "戴克斯特拉算法（Dijkstra）的本质是贪心，还是动态规划？",
-      "url": "https://www.zhihu.com/answer/22392442",
-      "summary": "正文比较贪心与动态规划的子问题结构和适用约束，故归入「动态规划」。"
-    },
-    {
-      "title": "你玩数独的套路是怎样的？",
-      "url": "https://www.zhihu.com/answer/23049971",
-      "summary": "正文围绕「你玩数独的套路是怎样的？」给出具体解释、推导、例证或可执行的学习建议；该实质内容可对应此冻结知识节点。"
-    },
-    {
-      "title": "《算法导论》有什么好的学习心得？",
-      "url": "https://www.zhihu.com/answer/32956884",
-      "summary": "将算法学习前置知识明确列入贪心和动态规划等算法。"
-    },
-    {
-      "title": "什么是动态规划（Dynamic Programming）？动态规划的意义是什么？",
-      "url": "https://www.zhihu.com/answer/35324479",
-      "summary": "正文以最长上升子序列解释动态规划的状态定义和状态转移。"
-    },
-    {
-      "title": "什么是动态规划（Dynamic Programming）？动态规划的意义是什么？",
-      "url": "https://www.zhihu.com/answer/35429905",
-      "summary": "正文用阶段、状态与最优子结构系统解释动态规划。"
     },
     {
       "title": "国际象棋棋盘是8*8的，假如有一种牌占两个格子，两个格子一黑一白，那么把32块这样的牌填满棋盘有多少填法？",
@@ -43,29 +13,9 @@
       "summary": "正文以轮廓线状态压缩解释骨牌覆盖的动态规划算法。"
     },
     {
-      "title": "如何通俗地讲解 viterbi 算法？",
-      "url": "https://www.zhihu.com/answer/37291465",
-      "summary": "正文逐日保留最大概率路径，体现动态规划的递推求解。"
-    },
-    {
       "title": "n个人排名，允许并列名次，共有多少种排名结果？",
       "url": "https://www.zhihu.com/answer/47183882",
       "summary": "正文给出允许并列排名时的动态规划状态转移。"
-    },
-    {
-      "title": "如何用简单易懂的例子解释隐马尔可夫模型？",
-      "url": "https://www.zhihu.com/answer/48444087",
-      "summary": "正文明确说明 Viterbi 搜索用动态规划保存逐步最优指法。"
-    },
-    {
-      "title": "Floyd算法为什么把k放在最外层？",
-      "url": "https://www.zhihu.com/answer/50079000",
-      "summary": "正文以状态转移式解释 Floyd 最短路算法中的动态规划。"
-    },
-    {
-      "title": "如何用简单易懂的例子解释条件随机场（CRF）模型？它和HMM有什么区别？",
-      "url": "https://www.zhihu.com/answer/74187736",
-      "summary": "正文解释维特比算法的动态规划递推。"
     },
     {
       "title": "经济学研究会用到哪些理科理论？",
@@ -73,74 +23,9 @@
       "summary": "正文比较动态规划和最优控制在动态优化问题中的关系。"
     },
     {
-      "title": "有什么不为大众所知的比赛时debug方法?",
-      "url": "https://www.zhihu.com/answer/82337068",
-      "summary": "正文以棋盘状态压缩动态规划说明转置对称检查。"
-    },
-    {
-      "title": "如何理解动态规划？",
-      "url": "https://www.zhihu.com/answer/83920614",
-      "summary": "正文将动态规划解释为分阶段决策和对传统递归的优化。"
-    },
-    {
-      "title": "如何理解动态规划？",
-      "url": "https://www.zhihu.com/answer/83942329",
-      "summary": "正文以路径和 0-1 背包详解状态、无后效性及状态合并。"
-    },
-    {
-      "title": "如何理解动态规划？",
-      "url": "https://www.zhihu.com/answer/96997659",
-      "summary": "正文从状态展开、依赖顺序和目标值解释动态规划。"
-    },
-    {
-      "title": "能否用具体的例子解释一下 (Model-based) Structural Estimation？",
-      "url": "https://www.zhihu.com/answer/103986639",
-      "summary": "正文用 Bellman 方程和固定点迭代求解动态离散选择模型。"
-    },
-    {
-      "title": "如何理解动态规划状态转移方程？",
-      "url": "https://www.zhihu.com/answer/107400815",
-      "summary": "正文以维护前 n 个数最大值为例解释动态规划状态转移。"
-    },
-    {
-      "title": "随机分析、随机控制等科目在量化投资、计算金融方向有哪些应用？",
-      "url": "https://www.zhihu.com/answer/126523574",
-      "summary": "正文说明相关随机游走模型可转化为动态规划问题并得到显式解。"
-    },
-    {
-      "title": "动态规划中的无后效性是什么意思？",
-      "url": "https://www.zhihu.com/answer/129639356",
-      "summary": "正文解释动态规划的无后效性、最优子结构和按状态保存子问题最优解的机制。"
-    },
-    {
-      "title": "有哪些令人拍案叫绝的算法？",
-      "url": "https://www.zhihu.com/answer/133582594",
-      "summary": "正文从完全背包问题推导状态转移方程，并通过结构性界限降低动态规划复杂度。"
-    },
-    {
-      "title": "预测控制简单来说到底什么意思？",
-      "url": "https://www.zhihu.com/answer/140253648",
-      "summary": "正文用未来阶段的最优子结构解释动态规划在控制中的作用。"
-    },
-    {
-      "title": "如何通俗地讲解 viterbi 算法？",
-      "url": "https://www.zhihu.com/answer/239971177",
-      "summary": "正文逐步解释 Viterbi 算法保存最优子路径的动态规划思想。"
-    },
-    {
       "title": "如何评价2017年ACM/ICPC北京区域现场赛？",
       "url": "https://www.zhihu.com/answer/262190447",
       "summary": "正文给出合并石子问题的动态规划状态与转移，并评价为经典 DP。"
-    },
-    {
-      "title": "动态规划的最优子结构问题，有什么样的问题它不满足最优子结构？",
-      "url": "https://www.zhihu.com/answer/288025858",
-      "summary": "正文用网格路径的最值问题解释动态规划的最优子结构及反例。"
-    },
-    {
-      "title": "如何最快地将一个字复制 N 次？",
-      "url": "https://www.zhihu.com/answer/290984671",
-      "summary": "正文以状态转移比较不同因子路径，给出复制字符的动态规划。"
     },
     {
       "title": "4 柱汉诺塔游戏是否已经解决了？",
@@ -148,34 +33,9 @@
       "summary": "正文用 Frame–Stewart 状态分解与取最小值写出四柱汉诺塔动态规划。"
     },
     {
-      "title": "什么是动态规划（Dynamic Programming）？动态规划的意义是什么？",
-      "url": "https://www.zhihu.com/answer/305426560",
-      "summary": "正文定义动态规划，并用斐波那契与最长上升子序列完整展示状态分解、存储和优化。"
-    },
-    {
-      "title": "如何在手机上的九宫格密码上绘出最长距离？",
-      "url": "https://www.zhihu.com/answer/408568371",
-      "summary": "正文将九宫格最长路径建模为子集动态规划。"
-    },
-    {
       "title": "知识连成一片是什么体验？",
       "url": "https://www.zhihu.com/answer/433744123",
       "summary": "正文解释图、自动机、动态规划与搜索之间的统一关系。"
-    },
-    {
-      "title": "如何评价 NOI2018？",
-      "url": "https://www.zhihu.com/answer/445463846",
-      "summary": "正文给出排列问题的动态规划状态和两类转移。"
-    },
-    {
-      "title": "斐波那契数列的第一百万项怎么用 C++ 求？",
-      "url": "https://www.zhihu.com/answer/482517156",
-      "summary": "正文通过记忆化减少递归中的重复计算。"
-    },
-    {
-      "title": "如何简单地理解维特比算法（viterbi算法）？",
-      "url": "https://www.zhihu.com/answer/489485567",
-      "summary": "正文展示维特比算法逐层保留最优子路径的动态规划思想。"
     },
     {
       "title": "如何用最坏情况最少的次数测鸡蛋恰好会在哪一层扔碎？",
@@ -183,24 +43,9 @@
       "summary": "正文把鸡蛋楼层问题定义状态、推导状态转移方程并逐步优化动态规划。"
     },
     {
-      "title": "如何评价 NOIP2018 ？",
-      "url": "https://www.zhihu.com/answer/528710539",
-      "summary": "给出状压 DP、动态 DP 和上下 DP 等解题方案。"
-    },
-    {
       "title": "数理背景不强，如何有效的自学科学计算（计算经济学）？",
       "url": "https://www.zhihu.com/answer/539621776",
       "summary": "正文具体介绍动态规划中的值函数迭代和政策函数迭代。"
-    },
-    {
-      "title": "有面值1,5,10,20,50,100的人民币，求问10000有多少种组成方法？",
-      "url": "https://www.zhihu.com/answer/620254961",
-      "summary": "把零钱组合计数拆为可复用子问题并给出动态规划状态转移。"
-    },
-    {
-      "title": "动态规划本质是不是就是递归算法，再加上记忆功能呢？",
-      "url": "https://www.zhihu.com/answer/673995021",
-      "summary": "从状态、转移与重叠子问题解释动态规划。"
     },
     {
       "title": "有限次机会掷骰子，取最后一次的数值，什么样的策略能使数字的期望值最大？",
@@ -213,54 +58,14 @@
       "summary": "以状态转移逐步计算完整收集概率。"
     },
     {
-      "title": "什么是动态规划（Dynamic Programming）？动态规划的意义是什么？",
-      "url": "https://www.zhihu.com/answer/723475721",
-      "summary": "把问题拆成状态并用动态规划求解。"
-    },
-    {
       "title": "怎么看待「学数学没啥用，买菜难道还用得上微积分」的理论？",
       "url": "https://www.zhihu.com/answer/771747527",
       "summary": "正文随后定义逐日状态、购买量和递推收益，并写出贝尔曼方程。"
     },
     {
-      "title": "Minecraft 中只用一格水源，最多能灌溉多少耕地?",
-      "url": "https://www.zhihu.com/answer/844951571",
-      "summary": "正文按子矩阵求局部最优解并回填整体，实质采用动态规划式分解。"
-    },
-    {
-      "title": "如何理解动态规划？",
-      "url": "https://www.zhihu.com/answer/883302989",
-      "summary": "从状态、转移和最优子结构系统讲解动态规划。"
-    },
-    {
-      "title": "什么是动态规划（Dynamic Programming）？动态规划的意义是什么？",
-      "url": "https://www.zhihu.com/answer/1094101149",
-      "summary": "正文系统讲解动态规划用历史记录避免重复计算的思想。"
-    },
-    {
-      "title": "如何理解动态规划？",
-      "url": "https://www.zhihu.com/answer/1309260344",
-      "summary": "正文直接讲解“动态规划”相关内容。"
-    },
-    {
-      "title": "动态规划和递归之间的关系是什么？",
-      "url": "https://www.zhihu.com/answer/1373722221",
-      "summary": "正文解释动态规划的表格化和记忆化实现。"
-    },
-    {
-      "title": "你靠哪些讲解学会了曾经怎么也学不会的算法？",
-      "url": "https://www.zhihu.com/answer/1449818520",
-      "summary": "正文直接讲解或推导“动态规划”相关内容。"
-    },
-    {
       "title": "网传清华大学电子系2020春 《概率论与随机过程1》 几乎高达30%的挂科情况，反映出什么现象？",
       "url": "https://www.zhihu.com/answer/1456239656",
       "summary": "正文建立乘客坐座的递推式并用动态规划求解概率。"
-    },
-    {
-      "title": "如何通俗地讲解 viterbi 算法？",
-      "url": "https://www.zhihu.com/answer/1464520777",
-      "summary": "正文系统讲解维特比算法的动态规划路径选择。"
     },
     {
       "title": "如何评价2020数学建模国赛?",
@@ -283,34 +88,9 @@
       "summary": "正文把问题推广为状态递归，并给出动态规划式的最优停止策略。"
     },
     {
-      "title": "怎样学好动态规划？",
-      "url": "https://www.zhihu.com/answer/1570410869",
-      "summary": "正文系统讲解状态定义、转移关系、初值和多个动态规划案例。"
-    },
-    {
-      "title": "现在研究强化学习+组合优化的paper不少了（几十篇+），但方法似乎就这么几种，对此您怎么看？",
-      "url": "https://www.zhihu.com/answer/1570963915",
-      "summary": "正文为旅行商问题定义状态、控制、转移和价值函数并推导动态规划复杂度。"
-    },
-    {
-      "title": "你靠哪些讲解学会了曾经怎么也学不会的算法？",
-      "url": "https://www.zhihu.com/answer/1582871225",
-      "summary": "正文系统讲解最优子结构、重叠子问题、状态转移、备忘录和 DP table。"
-    },
-    {
-      "title": "动态规划为什么这么难？多做题对熟练掌握动态规划有用吗？",
-      "url": "https://www.zhihu.com/answer/1696263098",
-      "summary": "正文系统讲解动态规划的状态、转移、边界和计算顺序。"
-    },
-    {
       "title": "2021 年 MathorCup 高校数学建模挑战赛 ABCD 题怎么分析？",
       "url": "https://www.zhihu.com/answer/1837248714",
       "summary": "正文用贪心策略和启发式搜索处理组合枚举问题。"
-    },
-    {
-      "title": "如何评价 2021 年 ICPC 银川赛区？",
-      "url": "https://www.zhihu.com/answer/1889073379",
-      "summary": "正文逐题给出动态规划状态和转移。"
     },
     {
       "title": "数学专业的人如何看待运筹学？",
@@ -318,39 +98,9 @@
       "summary": "正文把动态规划联系到强化学习和最优控制。"
     },
     {
-      "title": "如何评价CCPC 2020 Final？",
-      "url": "https://www.zhihu.com/answer/1913672142",
-      "summary": "正文逐题解释动态规划、递推和算法实现。"
-    },
-    {
       "title": "如何理解动态规划？",
       "url": "https://www.zhihu.com/answer/1942831618",
       "summary": "正文比较动态规划、递归和记忆化的关系。"
-    },
-    {
-      "title": "如何用简单易懂的例子解释隐马尔可夫模型？",
-      "url": "https://www.zhihu.com/answer/2004186152",
-      "summary": "正文用前向算法和动态规划降低HMM计算复杂度。"
-    },
-    {
-      "title": "什么是动态规划（Dynamic Programming）？动态规划的意义是什么？",
-      "url": "https://www.zhihu.com/answer/2192312070",
-      "summary": "正文系统解释动态规划的状态、转移、最优子结构和应用。"
-    },
-    {
-      "title": "如何衡量两组向量的相似度，有什么好的方法？",
-      "url": "https://www.zhihu.com/answer/2260755496",
-      "summary": "正文说明动态时间规整使用动态规划计算序列距离。"
-    },
-    {
-      "title": "国内本科运筹学课程的教育都存在哪些问题？",
-      "url": "https://www.zhihu.com/answer/2287793335",
-      "summary": "正文把最小费用流中的中间变量与动态规划的空间换时间思想联系起来。"
-    },
-    {
-      "title": "数学建模论文应该怎么写？",
-      "url": "https://www.zhihu.com/answer/2314187168",
-      "summary": "正文把动态规划列为数学建模的常用模型。"
     },
     {
       "title": "600 个人站一排，每次随机淘汰一个奇数位的人，几号最安全？",
@@ -363,34 +113,14 @@
       "summary": "正文把 HJB 方程拆成动态规划与泰勒展开两部分。"
     },
     {
-      "title": "2022强化学习的方向？",
-      "url": "https://www.zhihu.com/answer/2447529444",
-      "summary": "正文把动态规划列为组合优化的精确求解方法。"
-    },
-    {
       "title": "具有一亿个因数的最小数字是多少？",
       "url": "https://www.zhihu.com/answer/2515444318",
       "summary": "正文明确给出动态规划状态转移，用于搜索指定因子数对应的最小整数。"
     },
     {
-      "title": "卡尔曼滤波方程组的深刻理解有哪些？",
-      "url": "https://www.zhihu.com/answer/2689408189",
-      "summary": "正文给出用类似LQR的动态规划方法证明卡尔曼滤波最小二乘解释的路径。"
-    },
-    {
       "title": "自动控制方面的大牛们都有哪些主要贡献？",
       "url": "https://www.zhihu.com/answer/2817278165",
       "summary": "正文介绍贝尔曼最优化原理及动态规划，并说明其从子问题决策递推求解最优策略。"
-    },
-    {
-      "title": "运筹学的最新进展是什么？",
-      "url": "https://www.zhihu.com/answer/3092090118",
-      "summary": "正文说明可用动态规划求解库存控制，并提到值迭代与策略迭代两类数值方法。"
-    },
-    {
-      "title": "只用“全选”“复制”“粘贴”这三个功能最少几步能将一个“a”变成十万个“a”？",
-      "url": "https://www.zhihu.com/answer/3170671532",
-      "summary": "正文定义复制粘贴问题的状态、状态转移和递推关系，并用动态规划程序求最少操作次数。"
     },
     {
       "title": "一个人扔六面的骰子，数值1到6，扔到几就向前走几格，可以无限扔，问他恰好走到第2023格的概率是多少?",
@@ -413,21 +143,6 @@
       "summary": "正文介绍贝尔曼奠基动态规划，并称其优化方法随后广泛应用于经济学、管理科学和工程学。"
     },
     {
-      "title": "OI里有没有一些冷门但好用的trick？",
-      "url": "https://www.zhihu.com/answer/27791030758",
-      "summary": "正文说明同时维护取模动态规划值与对数动态规划值，用对数数组比较大小并解决大数乘法后的取模比较问题。"
-    },
-    {
-      "title": "圆桌上 100 个人轮流开枪，最可能活下来的是几号？",
-      "url": "https://www.zhihu.com/answer/68626385207",
-      "summary": "正文使用带 lru_cache 的记忆化递归计算重叠子状态，并给出求各位置存活概率的程序。"
-    },
-    {
-      "title": "0-100猜数字，可以知道大了小了，那第一次应该猜50还是64还是63？",
-      "url": "https://www.zhihu.com/answer/1907862044130149495",
-      "summary": "正文以区间子问题规模和递归成本函数动态规划求解最优猜测策略，并比较不同分割参数。"
-    },
-    {
       "title": "人为什么会随年龄而保守?",
       "url": "https://www.zhihu.com/answer/1988988948022857994",
       "summary": "正文建立仅含当前状态与下一步后验状态的价值递推，并用该递推比较不同探索阶段。"
@@ -448,144 +163,14 @@
       "summary": "正文以 Bellman 原理说明沿时间的最优决策可以顺序求解，对应动态规划的核心思想。"
     },
     {
-      "title": "隐马尔科夫模型（HMM）一前向与后向算法",
-      "url": "https://zhuanlan.zhihu.com/p/27056207",
-      "summary": "正文用相邻时刻状态递推计算前向与后向概率，把路径枚举降为 O(TN^2) 的动态规划。"
-    },
-    {
-      "title": "隐马尔科夫模型",
-      "url": "https://zhuanlan.zhihu.com/p/27907806",
-      "summary": "正文把最大可能隐藏序列问题化为递推最优化，并用动态规划推导维特比算法的状态递推与回溯路径。"
-    },
-    {
-      "title": "《强化学习》第三讲 动态规划寻找最优策略",
-      "url": "https://zhuanlan.zhihu.com/p/28084955",
-      "summary": "正文围绕子问题分解、状态价值存储和复用讲解动态规划算法。"
-    },
-    {
-      "title": "通俗讲解维特比算法",
-      "url": "https://zhuanlan.zhihu.com/p/28274845",
-      "summary": "正文明确用动态规划状态得分和回溯路径解释维特比解码，并给出实现代码。"
-    },
-    {
-      "title": "隐马尔可夫模型HMM",
-      "url": "https://zhuanlan.zhihu.com/p/29938926",
-      "summary": "正文用动态规划的前向递推评估观测概率，并用 Viterbi 算法解码最可能状态序列。"
-    },
-    {
-      "title": "0-1背包问题的动态规划算法",
-      "url": "https://zhuanlan.zhihu.com/p/30959069",
-      "summary": "正文定义带物品前缀和容量参数的子问题，用二维表存储最优值并由右下角回溯最优方案。"
-    },
-    {
-      "title": "(二)动态优化--汉密尔顿函数（最优控制）和HJB方程（动态规划）",
-      "url": "https://zhuanlan.zhihu.com/p/33741559",
-      "summary": "正文以最优性原理、最优值函数和 HJB 方程展开连续时间动态规划的求解方法。"
-    },
-    {
-      "title": "序列标注任务的常见套路",
-      "url": "https://zhuanlan.zhihu.com/p/35620631",
-      "summary": "正文把 Viterbi 解释为动态规划求最优路径，并用分词实例比较转移计算与穷举的复杂度。"
-    },
-    {
       "title": "动态规划 无痛理解",
       "url": "https://zhuanlan.zhihu.com/p/35751179",
       "summary": "正文以凑硬币和切钢条为例讲解自底向上的动态规划与记忆化子问题求解。"
     },
     {
-      "title": "为什么我说概率论是大学最不能翘的一门数学课",
-      "url": "https://zhuanlan.zhihu.com/p/36920233",
-      "summary": "正文用维特比算法说明如何保留前一阶段最短路径，从而把指数枚举化为动态规划求解。"
-    },
-    {
-      "title": "简明条件随机场CRF介绍 | 附带纯Keras实现",
-      "url": "https://zhuanlan.zhihu.com/p/37163081",
-      "summary": "正文利用马尔可夫结构递归计算归一化因子，并说明最优路径可由 Viterbi 动态规划求解。"
-    },
-    {
-      "title": "如何证明迭代式策略评价、值迭代和策略迭代的收敛性？",
-      "url": "https://zhuanlan.zhihu.com/p/39279611",
-      "summary": "正文围绕强化学习中的迭代式策略评价、策略迭代和值迭代，分析这三类动态规划算法的收敛性。"
-    },
-    {
-      "title": "动态时间规整（DTW）算法简介",
-      "url": "https://zhuanlan.zhihu.com/p/43247215",
-      "summary": "正文用距离矩阵最短路径的动态规划方法求解 DTW。"
-    },
-    {
-      "title": "经典优化算法之分治法（Divide-and-Conquer Algorithm）",
-      "url": "https://zhuanlan.zhihu.com/p/45986027",
-      "summary": "正文具体比较独立子问题与重叠子问题，并说明动态规划为何适合后者。"
-    },
-    {
-      "title": "【面试】动态规划-之最长公共子序列、最长公共子串问题",
-      "url": "https://zhuanlan.zhihu.com/p/47597440",
-      "summary": "正文用前缀状态、状态转移和二维表迭代分别求解最长公共子序列与最长公共子串，属于动态规划。"
-    },
-    {
-      "title": "一文读懂经典双目稠密匹配算法SGM",
-      "url": "https://zhuanlan.zhihu.com/p/49272032",
-      "summary": "正文给出沿多个一维方向累积最小代价的动态规划递推及代价归一化方法。"
-    },
-    {
-      "title": "Quantitative Macroeconomics(Quant Macro)资源分享",
-      "url": "https://zhuanlan.zhihu.com/p/52163578",
-      "summary": "正文介绍用值函数迭代和策略函数迭代求解代表性主体动态模型，并比较其精度与效率。"
-    },
-    {
-      "title": "从零开始生物信息学(2):序列比对-Needleman-Wunsch算法",
-      "url": "https://zhuanlan.zhihu.com/p/54142276",
-      "summary": "正文逐步说明 Needleman-Wunsch 如何构造得分矩阵、按三个方向转移并回溯最优比对路径。"
-    },
-    {
-      "title": "从零开始生物信息学(3):序列比对-Smith–Waterman算法",
-      "url": "https://zhuanlan.zhihu.com/p/54194091",
-      "summary": "正文给出 Smith-Waterman 的得分递推、填表与回溯过程，具体讲解了一个动态规划算法。"
-    },
-    {
-      "title": "面试官问你斐波那契数列的时候不要高兴得太早",
-      "url": "https://zhuanlan.zhihu.com/p/54378423",
-      "summary": "正文把递归中的重复子问题结果存入数组避免重算，并给出按状态顺序迭代的实现。"
-    },
-    {
-      "title": "理解隐马尔可夫模型",
-      "url": "https://zhuanlan.zhihu.com/p/56779310",
-      "summary": "正文用前向算法递推观测序列概率，并用 Viterbi 动态规划求最可能状态路径。"
-    },
-    {
-      "title": "从动态规划到近似动态规划：BERTSEKAS 2014 在THU的暑期课程笔记",
-      "url": "https://zhuanlan.zhihu.com/p/58837258",
-      "summary": "正文系统讲解逆序动态规划、值迭代和策略迭代，并证明 Bellman 算子的收敛性与最优性。"
-    },
-    {
-      "title": "NLP实战-中文命名实体识别",
-      "url": "https://zhuanlan.zhihu.com/p/61227299",
-      "summary": "正文用动态规划递推和回溯指针求解隐马尔可夫模型及CRF的最优状态序列。"
-    },
-    {
       "title": "从计应数的一次作业到cts命题的故事",
       "url": "https://zhuanlan.zhihu.com/p/65524110",
       "summary": "正文定义动态规划状态、转移枚举方式及复杂度，用于计算至少形成若干不相交生日对的方案数。"
-    },
-    {
-      "title": "Lecture 4: Automatic Differentiation",
-      "url": "https://zhuanlan.zhihu.com/p/65488534",
-      "summary": "正文在反向拓扑序上把每个节点的梯度累加为其入边梯度之和，形成由后向前的计算图梯度动态规划。"
-    },
-    {
-      "title": "优化|什么是动态规划（Dynamic Programming）?",
-      "url": "https://zhuanlan.zhihu.com/p/72600111",
-      "summary": "正文介绍动态规划的抽象模型、Bellman 方程和阶段决策应用。"
-    },
-    {
-      "title": "强化学习 - 动态规划(Dynamic Programming)",
-      "url": "https://zhuanlan.zhihu.com/p/72360992",
-      "summary": "正文以最优子结构和子问题复用为出发点，推导策略评估、策略迭代、值迭代及异步动态规划。"
-    },
-    {
-      "title": "2019高考理科数学（全国I卷）概率大题思路与解析",
-      "url": "https://zhuanlan.zhihu.com/p/74327966",
-      "summary": "正文把后继状态和贝尔曼方程解释为动态规划思想，并据此建立状态概率递推。"
     },
     {
       "title": "概率图模型系列-隐马尔可夫模型（HMM）的numpy实现",
@@ -598,174 +183,9 @@
       "summary": "正文给出库存状态转移X(t+1)=G(X(t),U(t))及目标函数，明确将其解释为动态规划基本模型。"
     },
     {
-      "title": "令人头疼的背包九讲（1）0/1背包问题",
-      "url": "https://zhuanlan.zhihu.com/p/78060568",
-      "summary": "正文以容量状态和价值转移讲解 0/1 背包的二维状态压缩与一维动态规划实现。"
-    },
-    {
-      "title": "LeetCode 题解 | 42.接雨水",
-      "url": "https://zhuanlan.zhihu.com/p/79811305",
-      "summary": "正文定义左右最高墙数组并给出状态转移，利用空间换时间将逐列重扫优化为动态规划。"
-    },
-    {
-      "title": "一站式解决：隐马尔可夫模型（HMM）全过程推导及实现",
-      "url": "https://zhuanlan.zhihu.com/p/85454896",
-      "summary": "正文用状态递推、路径回溯和代码详细讲解 Viterbi 动态规划解码。"
-    },
-    {
-      "title": "现代控制理论线性系统入门(八)最优控制——LQR控制器",
-      "url": "https://zhuanlan.zhihu.com/p/87070103",
-      "summary": "正文单列动态规划，说明最优原则和cost-to-go递推。"
-    },
-    {
-      "title": "动态最优化基础——学习笔记01",
-      "url": "https://zhuanlan.zhihu.com/p/87632910",
-      "summary": "正文具体说明用倒推子问题、逐步迭代求解最优路径，并给出动态规划名称。"
-    },
-    {
-      "title": "隐马尔可夫模型（HMM）详解",
-      "url": "https://zhuanlan.zhihu.com/p/88362664",
-      "summary": "正文把观察序列概率计算表述为动态规划的前向递推，并同样用动态搜索解释 Viterbi 解码。"
-    },
-    {
-      "title": "告别动态规划，连刷 40 道题，我总结了这些套路，看不懂你打我（万字长文）",
-      "url": "https://zhuanlan.zhihu.com/p/91582909",
-      "summary": "正文以保存历史状态、定义状态含义和初始值、建立转移方程为主线讲解动态规划。"
-    },
-    {
-      "title": "测度论与动态规划（1）",
-      "url": "https://zhuanlan.zhihu.com/p/103053617",
-      "summary": "正文以 Bellman 方程和值函数展开动态规划，把随机最优控制转化为逐期的递归优化。"
-    },
-    {
-      "title": "动态规划浅析——0-1背包问题",
-      "url": "https://zhuanlan.zhihu.com/p/107139719",
-      "summary": "正文以0-1背包问题为例，讲解动态规划的状态、状态转移方程和回溯取最优方案。"
-    },
-    {
-      "title": "HMM隐马尔可夫模型的例子、原理、计算和应用",
-      "url": "https://zhuanlan.zhihu.com/p/111899116",
-      "summary": "正文明确以动态规划解释维特比解码，并通过路径栅栏和复杂度对比说明其优于穷举。"
-    },
-    {
-      "title": "理解dynamic time warping(DTW)的基本思想",
-      "url": "https://zhuanlan.zhihu.com/p/117634492",
-      "summary": "正文把序列对齐建模为距离矩阵上的最小路径，并给出动态规划状态转移和完整求解过程。"
-    },
-    {
-      "title": "算法学习笔记(27): 最长上升子序列",
-      "url": "https://zhuanlan.zhihu.com/p/121032448",
-      "summary": "正文以最长上升子序列为例定义动态规划状态，给出朴素转移和二分优化后的完整算法。"
-    },
-    {
-      "title": "第9章  动态规划",
-      "url": "https://zhuanlan.zhihu.com/p/126361983",
-      "summary": "正文系统讲解动态规划的状态划分、状态表示、状态转移、边界条件及最优子结构。"
-    },
-    {
-      "title": "强化学习与李雅普诺夫稳定判据的关系",
-      "url": "https://zhuanlan.zhihu.com/p/128516003",
-      "summary": "正文把网格逐格更新价值作为状态价值迭代，并用递推求最短到达代价。"
-    },
-    {
-      "title": "最强扫雷AI算法详解+源码分享",
-      "url": "https://zhuanlan.zhihu.com/p/136791369",
-      "summary": "正文以局面为状态建立无后效的转移关系，并用状态压缩动态规划计算每步的严格胜率。"
-    },
-    {
-      "title": "dd大牛的《背包九讲》",
-      "url": "https://zhuanlan.zhihu.com/p/139368825",
-      "summary": "正文以状态、状态转移方程和一维数组优化系统讲解多类背包动态规划。"
-    },
-    {
-      "title": "经典动态规划：最大子数组问题",
-      "url": "https://zhuanlan.zhihu.com/p/144385162",
-      "summary": "正文以最大子数组问题讲解动态规划状态定义、无后效性、状态转移和空间压缩。"
-    },
-    {
-      "title": "三分钟看懂强化学习系列05--贝尔曼方程",
-      "url": "https://zhuanlan.zhihu.com/p/139559442",
-      "summary": "正文把多阶段决策的价值拆成即时奖励与后继状态价值，体现贝尔曼动态规划的状态转移思想。"
-    },
-    {
-      "title": "算法萌新如何学好动态规划（1）",
-      "url": "https://zhuanlan.zhihu.com/p/150516970",
-      "summary": "正文以最优子结构和无后效性为核心，并通过多个例题系统讲解动态规划的状态定义与转移方程。"
-    },
-    {
-      "title": "数学建模算法汇总",
-      "url": "https://zhuanlan.zhihu.com/p/161813818",
-      "summary": "正文按子问题、状态、边界状态和状态转移方程完整说明动态规划建模步骤及复杂度。"
-    },
-    {
-      "title": "算法学习笔记(44): 01字典树",
-      "url": "https://zhuanlan.zhihu.com/p/174830050",
-      "summary": "正文在 01 字典树节点上定义可保留数量的 dp，并按左右子树的规模给出状态转移和递归求解。"
-    },
-    {
       "title": "上帝掷硬币的智力题，从 9 胜 6 开始的深入研究",
       "url": "https://zhuanlan.zhihu.com/p/187579331",
       "summary": "正文把猜硬币问题化为多重集分裂状态，并系统讨论子结构、状态转移和动态规划求解。"
-    },
-    {
-      "title": "《经济动态的递归方法》解读（2）：动态规划的分析学基础",
-      "url": "https://zhuanlan.zhihu.com/p/193145156",
-      "summary": "正文围绕 Bellman 方程递归表达确定性动态规划，讨论状态、控制、值函数、最优性条件和迭代求解。"
-    },
-    {
-      "title": "60分钟看懂HMM的基本原理",
-      "url": "https://zhuanlan.zhihu.com/p/224770895",
-      "summary": "正文解释维特比算法如何保留各隐状态的最优路径并按阶段递推，明确称其为动态规划算法。"
-    },
-    {
-      "title": "【归纳综述】马尔可夫、隐马尔可夫 HMM 、条件随机场 CRF 全解析及其python实现",
-      "url": "https://zhuanlan.zhihu.com/p/259660645",
-      "summary": "正文把前向后向与维特比解码落实为局部状态递推和回溯的动态规划流程。"
-    },
-    {
-      "title": "【强化学习与最优控制】笔记（一）确定性问题的动态规划",
-      "url": "https://zhuanlan.zhihu.com/p/259811173",
-      "summary": "正文定义状态、控制、代价和值函数，并利用最优性原理推导有限期动态规划的递推算法。"
-    },
-    {
-      "title": "【强化学习与最优控制】笔记（二）随机性问题的动态规划",
-      "url": "https://zhuanlan.zhihu.com/p/260097696",
-      "summary": "正文从随机状态转移和期望代价出发，给出有限时间随机动态规划的递推算法与最优策略。"
-    },
-    {
-      "title": "刷算法题必备的数学考点汇总",
-      "url": "https://zhuanlan.zhihu.com/p/301338035",
-      "summary": "正文为切分数组建立状态和转移方程，并利用质因数信息优化动态规划。"
-    },
-    {
-      "title": "2020 ICPC 上海赛区题解",
-      "url": "https://zhuanlan.zhihu.com/p/336649300",
-      "summary": "正文用数位 DP 状态设计和逐位转移讲解对数位和的求解。"
-    },
-    {
-      "title": "2020年ICPC南京区域赛题解",
-      "url": "https://zhuanlan.zhihu.com/p/338249705",
-      "summary": "正文定义树形 DP 状态并按子节点删除数量合并，求解 Monster Hunter 的最优代价。"
-    },
-    {
-      "title": "时间序列预测损失函数 DTW, Soft-DTW, DILATE",
-      "url": "https://zhuanlan.zhihu.com/p/346674141",
-      "summary": "正文用动态规划递推求 DTW 最优规整路径，并进一步用动态规划计算 Soft-DTW 的反向传播。"
-    },
-    {
-      "title": "LeetCode 全站第一，牛逼！",
-      "url": "https://zhuanlan.zhihu.com/p/346793415",
-      "summary": "正文以天数、交易次数和持股状态建立统一状态转移方程，并用动态规划求解六类股票问题。"
-    },
-    {
-      "title": "算法学习笔记(68): 数位DP",
-      "url": "https://zhuanlan.zhihu.com/p/348851463",
-      "summary": "正文从不要62等例题出发，讲解数位DP的数位拆分、记忆化状态、limit 与前导零处理，并给出完整代码实现。"
-    },
-    {
-      "title": "《小学生都能看懂的群论从入门到升天教程》 《群论全家桶》算法竞赛相关",
-      "url": "https://zhuanlan.zhihu.com/p/350711725",
-      "summary": "正文用状态转移和矩阵快速幂计算带排斥条件的手链计数。"
     },
     {
       "title": "《小学生都能看懂的三类斯特林数从入门到升天教程 》（含性质完整证明、斯特林反演、拉赫数）",
@@ -773,39 +193,9 @@
       "summary": "正文用状态分类与递推转移求第二类斯特林数，并给出动态规划实现。"
     },
     {
-      "title": "动态规划十连-肝了好多天-超细腻解析",
-      "url": "https://zhuanlan.zhihu.com/p/356804629",
-      "summary": "正文先说明动态规划复用子问题结果的思想，再通过十道题系统展开状态、转移、边界和计算顺序。"
-    },
-    {
-      "title": "算法学习笔记(77): 凸壳优化DP",
-      "url": "https://zhuanlan.zhihu.com/p/363772434",
-      "summary": "正文把动态规划转移中的状态参数视为直线，维护上凸壳并用单调队列完成转移优化。"
-    },
-    {
-      "title": "强化学习——一种直接自适应最优控制方法",
-      "url": "https://zhuanlan.zhihu.com/p/365682156",
-      "summary": "正文说明Q-Learning以增量式动态规划更新价值函数，并讨论混合实际经验和模型经验的Dyna架构。"
-    },
-    {
-      "title": "从强化学习来理解控制算法LQR",
-      "url": "https://zhuanlan.zhihu.com/p/385373016",
-      "summary": "正文从末时刻反向递推价值函数与控制量，用动态规划求 LQR 的最优控制序列。"
-    },
-    {
       "title": "各种优化DP(1)",
       "url": "https://zhuanlan.zhihu.com/p/397659208",
       "summary": "正文以状态、转移方程和边界条件求解多道动态规划题，并用单调队列和线段树优化转移。"
-    },
-    {
-      "title": "算法学习笔记(79): 四边形不等式优化DP",
-      "url": "https://zhuanlan.zhihu.com/p/398419302",
-      "summary": "正文以区间动态规划为对象，利用最优决策点单调性把状态转移枚举范围缩小。"
-    },
-    {
-      "title": "算法学习笔记(80): 悬线法",
-      "url": "https://zhuanlan.zhihu.com/p/402195848",
-      "summary": "正文围绕悬线法定义高度与左右边界状态，给出状态转移并在 O(nm) 时间求最大矩形和最大正方形。"
     },
     {
       "title": "数学建模常见模型整理（简单介绍）",
@@ -813,139 +203,14 @@
       "summary": "正文说明动态规划按阶段作决策，并列举背包、分配和最短路径等应用。"
     },
     {
-      "title": "从Bellman算子的角度看待策略迭代（Policy Iteration）、价值迭代（Value Iteration）",
-      "url": "https://zhuanlan.zhihu.com/p/419208786",
-      "summary": "正文系统解释策略迭代、价值迭代及其动态规划关系，并证明迭代收敛到最优价值函数。"
-    },
-    {
-      "title": "多变量时间序列分类综述 (一)",
-      "url": "https://zhuanlan.zhihu.com/p/423417458",
-      "summary": "正文以动态时间规整的逐格递推和最小累积距离求法，展示了序列对齐中的动态规划计算。"
-    },
-    {
-      "title": "动态规划并没有想象中那么难",
-      "url": "https://zhuanlan.zhihu.com/p/424681634",
-      "summary": "正文以楼梯、最短路、最长上升子序列和最长公共子序列为例，讲解状态、转移、最优子结构与无后效性。"
-    },
-    {
-      "title": "《Reinforcement Learning and Optimal Control》读书笔记 (一): 精准动态规划 Exact Dynamic Programming",
-      "url": "https://zhuanlan.zhihu.com/p/432667997",
-      "summary": "正文系统讲解确定性动态规划的建模、最优性原则、反向递推和正向决策。"
-    },
-    {
-      "title": "换根树形动态规划问题",
-      "url": "https://zhuanlan.zhihu.com/p/439965039",
-      "summary": "正文系统讲解距离和、流量与最长路径三种换根树形动态规划及 O(n) 转移。"
-    },
-    {
-      "title": "数位动态规划问题",
-      "url": "https://zhuanlan.zhihu.com/p/442816931",
-      "summary": "正文围绕超大区间内数位统计，详细设计数位状态、前导零处理和状态转移，并比较多种动态规划实现。"
-    },
-    {
       "title": "离心机的配平问题",
       "url": "https://zhuanlan.zhihu.com/p/500299880",
       "summary": "正文代码以布尔状态逐项递推，动态规划判断孔数能否由质因数相加得到。"
     },
     {
-      "title": "算法学习笔记(9)：二项式反演",
-      "url": "https://zhuanlan.zhihu.com/p/602675596",
-      "summary": "正文为配对计数例题定义动态规划状态，并推导 g[i][j] 的状态转移方程和最终答案。"
-    },
-    {
-      "title": "基于最优控制的轨迹优化方法",
-      "url": "https://zhuanlan.zhihu.com/p/609321584",
-      "summary": "正文解释 Bellman 最优性原理、状态离散化和反向递推求解值函数或控制策略的动态规划方法。"
-    },
-    {
-      "title": "数学建模--30+种常用算法模型",
-      "url": "https://zhuanlan.zhihu.com/p/621179254",
-      "summary": "正文展开动态规划的最优子结构、无后效性、背包状态转移和最短路径递推。"
-    },
-    {
-      "title": "算法学习笔记(23)：斜率优化DP",
-      "url": "https://zhuanlan.zhihu.com/p/622041814",
-      "summary": "正文完整推导斜率优化 DP 的状态转移、凸壳维护和多道题的动态规划建模。"
-    },
-    {
-      "title": "Optimal Control 课程总结思考（二）",
-      "url": "https://zhuanlan.zhihu.com/p/600650928",
-      "summary": "正文依据 Bellman 最优性原理构造值函数和反向递推，逐步求出 LQR 的最优控制序列。"
-    },
-    {
-      "title": "Lecture 10 非线性轨迹优化（DDP/iLQR法）",
-      "url": "https://zhuanlan.zhihu.com/p/629149697",
-      "summary": "正文用贝尔曼最优性准则递推价值函数，在离散时间轨迹上反向求最优控制，并给出迭代算法流程。"
-    },
-    {
-      "title": "最优控制中的动态规划 - 倒推法, LQR, iLQR",
-      "url": "https://zhuanlan.zhihu.com/p/641716246",
-      "summary": "正文以 Bellman 方程和从末端向初始时刻倒推的递推过程求解离散最优控制。"
-    },
-    {
-      "title": "IEEE TKDE 2023 | 墨墨背单词：通过捕捉记忆动态，优化间隔重复调度",
-      "url": "https://zhuanlan.zhihu.com/p/656714407",
-      "summary": "正文把复习调度建模为马尔可夫决策过程，并以贝尔曼方程和值迭代递推求解最优策略。"
-    },
-    {
-      "title": "iLQR算法公式推导",
-      "url": "https://zhuanlan.zhihu.com/p/660810899",
-      "summary": "正文以 cost-to-go 的递归为骨架，从末端向初态反向传播控制策略，明确体现动态规划思想。"
-    },
-    {
-      "title": "最优控制：基本概念、最优问题解法、LQR实例以及结合RL",
-      "url": "https://zhuanlan.zhihu.com/p/667035802",
-      "summary": "正文说明最优性原理、贝尔曼方程和逆向递推，并用于求解离散最优控制。"
-    },
-    {
       "title": "2024年美赛E题(美国大学生数学建模竞赛)韧性评估+承保决策优化模型 完整建模精品文章放出！",
       "url": "https://zhuanlan.zhihu.com/p/680876063",
       "summary": "正文给出状态价值递推式，并用动态规划在保险承保条件下选择最优策略。"
-    },
-    {
-      "title": "LQR与iLQR算法与运动规划",
-      "url": "https://zhuanlan.zhihu.com/p/690023196",
-      "summary": "正文以动态规划逐阶段递推解释LQR的backward求解过程。"
-    },
-    {
-      "title": "最优控制、动态规划、LQR、MPC理论基础",
-      "url": "https://zhuanlan.zhihu.com/p/695429954",
-      "summary": "正文以 Bellman 最优性原理建立代价函数递推，并用最短路径和 LQR 展示动态规划的状态转移求解过程。"
-    },
-    {
-      "title": "从LQR算法到iLQR算法",
-      "url": "https://zhuanlan.zhihu.com/p/699912273",
-      "summary": "正文从末状态出发递推各阶段最优代价和控制律，体现动态规划的值函数思想。"
-    },
-    {
-      "title": "讨论LQR的三种解法以及各自的复杂度计算",
-      "url": "https://zhuanlan.zhihu.com/p/708673581",
-      "summary": "正文明确把 Bellman 值函数与 cost-to-go 递推用于 LQR，并用动态规划反向求解。"
-    },
-    {
-      "title": "最优控制与强化学习：定义，概念解析和技术学习路线",
-      "url": "https://zhuanlan.zhihu.com/p/717519816",
-      "summary": "正文以贝尔曼方程和值函数近似说明最优控制与强化学习共同采用的动态规划路线。"
-    },
-    {
-      "title": "Lattice Planner与EM Planner简介",
-      "url": "https://zhuanlan.zhihu.com/p/891592717",
-      "summary": "正文把动态规划用于在离散采样路径中逐步选择代价最小的状态并连接成最优轨迹。"
-    },
-    {
-      "title": "微分动态规划(DDP)的推导",
-      "url": "https://zhuanlan.zhihu.com/p/20541213218",
-      "summary": "正文从状态价值、贝尔曼最优性原理和逆时递推完整推导动态规划方法。"
-    },
-    {
-      "title": "增广拉格朗日 iLQR 轨迹优化",
-      "url": "https://zhuanlan.zhihu.com/p/20849151745",
-      "summary": "正文以动态规划和贝尔曼递推为基础，扩展到微分动态规划与 iLQR 求解器。"
-    },
-    {
-      "title": "自动驾驶中的轨迹优化技术的一些整理",
-      "url": "https://zhuanlan.zhihu.com/p/28433543366",
-      "summary": "正文用动态规划递推定义状态价值函数并推导 iLQR 的反向与前向传播过程。"
     },
     {
       "title": "玉米投手能杀死巨人僵尸吗？",

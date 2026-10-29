@@ -13,54 +13,9 @@
       "summary": "在恰有一瓶毒药、混合不改变毒性且生死结果可靠的理想模型下，以每只鼠对应一比特解释瓶子识别的编码容量。未展开信息熵；量子计算类比不作事实背书。"
     },
     {
-      "title": "压缩文件为什么不能一层层压缩自身？",
-      "url": "https://www.zhihu.com/answer/14333722",
-      "summary": "通过重复像素和词频例子解释无损压缩及编码冗余；原文混用信息熵、最短描述与信息守恒，不能作为严谨下限定理或可计算性结论。"
-    },
-    {
       "title": "N 个乒乓球中有一个和其他的质量不同，用天平最少几次一定能称出来？",
       "url": "https://www.zhihu.com/answer/16411345",
       "summary": "为999球中一个未知轻重的异常球构造三进制称量编码，用三种结果携带识别信息；一般容量证明主要在图片中，未据此核验全部边界结论。"
-    },
-    {
-      "title": "很多高效排序算法的代价是 nlogn，难道这是排序算法的极限了吗？",
-      "url": "https://www.zhihu.com/answer/29066752",
-      "summary": "正文围绕“信息论”给出说明、例证或方法。"
-    },
-    {
-      "title": "香农的信息论究竟牛在哪里？",
-      "url": "https://www.zhihu.com/answer/35167871",
-      "summary": "正文说明香农信息论给出压缩与无失真传输的极限。"
-    },
-    {
-      "title": "香农的信息论究竟牛在哪里？",
-      "url": "https://www.zhihu.com/answer/35250996",
-      "summary": "正文将通信编码抽象为概率论问题，说明信息论的建模视角。"
-    },
-    {
-      "title": "分布的相似度（距离）用什么模型比较好？",
-      "url": "https://www.zhihu.com/answer/83688277",
-      "summary": "正文给出 KL 散度定义并讨论其方向性与信息检索应用。"
-    },
-    {
-      "title": "一段文字的包含的信息量能不能衡量？",
-      "url": "https://www.zhihu.com/answer/84440126",
-      "summary": "正文用概率和编码长度给出信息量定义。"
-    },
-    {
-      "title": "香农的信息论究竟牛在哪里？",
-      "url": "https://www.zhihu.com/answer/98570567",
-      "summary": "正文用找异球与算法最优性说明香农信息论的用途。"
-    },
-    {
-      "title": "为什么统计学习算法中常讨论KL距离?",
-      "url": "https://www.zhihu.com/answer/103807952",
-      "summary": "正文从最优压缩编码所需额外比特解释 KL 散度的信息论含义。"
-    },
-    {
-      "title": "如何用一个1-8随机数生成器制作一个1-7随机数生成器？",
-      "url": "https://www.zhihu.com/answer/104475501",
-      "summary": "正文从八进制随机源转换到七进制输出，分析随机信息的保存与百分百利用率。"
     },
     {
       "title": "如何快速判断目标函数的凸性？",
@@ -68,69 +23,14 @@
       "summary": "正文用互信息、条件熵与马尔可夫链给出信息论中的凹性证明。"
     },
     {
-      "title": "信息熵是什么？",
-      "url": "https://www.zhihu.com/answer/124805730",
-      "summary": "正文从数据压缩和传输解释信息论中的最短平均编码长度。"
-    },
-    {
       "title": "13个乒乓球，有一个和其他的质量不同，如何用天平称三次称出来？",
       "url": "https://www.zhihu.com/answer/152818591",
       "summary": "正文从坏球不确定性出发，用信息量界推导三次称量的理论下限和决策方法。"
     },
     {
-      "title": "利用无理数压缩数据是否可行？",
-      "url": "https://www.zhihu.com/answer/156581226",
-      "summary": "正文从无损编码、字符串数量与位置代价论证通用压缩不可能，属于信息论。"
-    },
-    {
-      "title": "利用无理数压缩数据是否可行？",
-      "url": "https://www.zhihu.com/answer/156608142",
-      "summary": "正文用编码符号数说明均匀 128 位分组无法压缩，实质是信息论下界。"
-    },
-    {
-      "title": "有人能解释一下伽罗瓦域和GF(2^8)吗？",
-      "url": "https://www.zhihu.com/answer/170701841",
-      "summary": "正文系统解释校验块冗余、丢失数据恢复以及解码所需的信息量。"
-    },
-    {
-      "title": "如何通俗的解释交叉熵与相对熵？",
-      "url": "https://www.zhihu.com/answer/195901726",
-      "summary": "正文从自信息、信息熵、交叉熵到 KL 散度系统讲解信息论量。"
-    },
-    {
-      "title": "为什么交叉熵（cross-entropy）可以用于计算代价？",
-      "url": "https://www.zhihu.com/answer/244557337",
-      "summary": "正文以信息论语言推导熵、KL 散度和交叉熵的关系。"
-    },
-    {
-      "title": "求通俗解释NLP里的perplexity是什么？",
-      "url": "https://www.zhihu.com/answer/429518220",
-      "summary": "正文以预测所需平均候选词数解释语言模型困惑度。"
-    },
-    {
       "title": "电子信息工程专业为什么要学线性代数、复变函数、积分变换？",
       "url": "https://www.zhihu.com/answer/486087214",
       "summary": "正文说明信道容量与信息论的来源。"
-    },
-    {
-      "title": "一般密码10个数字和26个字母组合如果我或有关重要部门造了50新字母，黑客键盘上没有这些字母如何破解？",
-      "url": "https://www.zhihu.com/answer/492497372",
-      "summary": "正文系统解释符号编码、信息表示与统计特征。"
-    },
-    {
-      "title": "为什么香农要将信息熵公式要定义成 -Σp·log₂(p) 或 -∫p·log₂(p)dp？",
-      "url": "https://www.zhihu.com/answer/515101369",
-      "summary": "用二进制编码长度解释概率与信息量之间的关系，属于信息论基础。"
-    },
-    {
-      "title": "什么是「互信息」？",
-      "url": "https://www.zhihu.com/answer/544609335",
-      "summary": "正文完整定义互信息并介绍性质与应用。"
-    },
-    {
-      "title": "机器学习应补充哪些数学基础？",
-      "url": "https://www.zhihu.com/answer/564893704",
-      "summary": "用 KL 散度和熵说明信息论在机器学习中的用途。"
     },
     {
       "title": "全部删除？",
@@ -153,31 +53,6 @@
       "summary": "正文以香农通信研究、信息熵和噪声问题实质说明信息论与数学的联系。"
     },
     {
-      "title": "二维码是否会重复？能否用数学证明？",
-      "url": "https://www.zhihu.com/answer/785596281",
-      "summary": "从无损编码与异或操作解释信息保持。"
-    },
-    {
-      "title": "学习了哪些知识，计算机视觉才算入门？",
-      "url": "https://www.zhihu.com/answer/799885411",
-      "summary": "正文具体说明机器学习中的信息论问题常归结为最小化 KL 散度，并强调概率输出模型。"
-    },
-    {
-      "title": "生成对抗网络GAN如果只训练一个网络会有效果么？",
-      "url": "https://www.zhihu.com/answer/825816888",
-      "summary": "使用 KL/JS 散度衡量概率分布差异。"
-    },
-    {
-      "title": "数学系的学生能硬核到什么程度？",
-      "url": "https://www.zhihu.com/answer/1129361476",
-      "summary": "正文借香农极限公式解释信道容量与带宽上限。"
-    },
-    {
-      "title": "如何学习信息论？",
-      "url": "https://www.zhihu.com/answer/1206767403",
-      "summary": "正文解释信息论研究对象和学习内容。"
-    },
-    {
       "title": "信息增益到底怎么理解呢？",
       "url": "https://www.zhihu.com/answer/1236811448",
       "summary": "正文把信息增益定义为划分前后信息熵的差。"
@@ -186,11 +61,6 @@
       "title": "有一个三位数密码锁，如果输入的三位密码有1位是正确的，就会嘀一声响，请问最少要输入几次才一定能开锁？",
       "url": "https://www.zhihu.com/answer/1281000751",
       "summary": "正文用总信息量和每次平均信息量给出尝试次数下界。"
-    },
-    {
-      "title": "可以推荐一本关于信息论的通俗好书吗？",
-      "url": "https://www.zhihu.com/answer/1295803434",
-      "summary": "正文系统推荐信息论学习材料并解释核心主题。"
     },
     {
       "title": "男生发晚安用拼音「wanan」是什么意思？",
@@ -203,49 +73,14 @@
       "summary": "正文直接讲解或推导“信息论”相关内容。"
     },
     {
-      "title": "如何连贯地理解香农三大定理？",
-      "url": "https://www.zhihu.com/answer/1467262363",
-      "summary": "正文系统解释香农三大编码与容量定理。"
-    },
-    {
       "title": "如何看待易烊昱华创造「最小年龄连续盲拧还原 2 个二阶魔方」的世界纪录？",
       "url": "https://www.zhihu.com/answer/1535641303",
       "summary": "正文直接讨论信息论，引用所在原始论述作为证据。"
     },
     {
-      "title": "信息论在语言学里有什么应用？",
-      "url": "https://www.zhihu.com/answer/1577042828",
-      "summary": "正文应用信息熵和条件熵测量语言屈折系统的不确定性与可预测性。"
-    },
-    {
-      "title": "为什么计算机不用e进制，按道理说e进制难道不是最高效的吗？",
-      "url": "https://www.zhihu.com/answer/1654973216",
-      "summary": "正文把 e 进制与每一位承载的信息量联系起来。"
-    },
-    {
-      "title": "如何理解「香农定理」，包含哪些内容，它的发现有什么意义？",
-      "url": "https://www.zhihu.com/answer/1759158425",
-      "summary": "正文完整介绍香农三大定理和信息论基础。"
-    },
-    {
-      "title": "网络信息论 Network Information Theory 领域的研究有哪些进展？",
-      "url": "https://www.zhihu.com/answer/1761351023",
-      "summary": "正文介绍信息论的研究范式、主要问题和应用。"
-    },
-    {
-      "title": "神经网络，分类和回归问题，在网络结构上的区别是什么？分类比回归多一层softmax吗？诚心求教？",
-      "url": "https://www.zhihu.com/answer/1791746717",
-      "summary": "正文用分布假设和最大似然解释交叉熵损失。"
-    },
-    {
       "title": "KL散度衡量的是两个概率分布的距离吗？",
       "url": "https://www.zhihu.com/answer/1793351495",
       "summary": "正文系统讨论 KL 散度是否满足距离定义及其统计意义。"
-    },
-    {
-      "title": "为什么统计学习算法中常讨论KL距离?",
-      "url": "https://www.zhihu.com/answer/1802286253",
-      "summary": "正文直接支持该冻结叶节点。"
     },
     {
       "title": "有哪些自己发现并证明的并自以为得意的初等数学定理？",
@@ -293,16 +128,6 @@
       "summary": "正文用编码和解码把结果压缩为可识别的信息。"
     },
     {
-      "title": "如何衡量两组向量的相似度，有什么好的方法？",
-      "url": "https://www.zhihu.com/answer/2260755496",
-      "summary": "正文介绍信息熵、互信息、KL 散度等信息论度量。"
-    },
-    {
-      "title": "强化学习 需不需要 因果推理 能力？",
-      "url": "https://www.zhihu.com/answer/2261517149",
-      "summary": "正文用互信息和 KL 散度度量动作的影响。"
-    },
-    {
       "title": "香农的信息论之美在于什么？",
       "url": "https://www.zhihu.com/answer/2269339486",
       "summary": "正文讨论香农信息论的数学基础及其严格化。"
@@ -313,44 +138,9 @@
       "summary": "正文把用最少二进制编码定位毒水瓶解释为信息论入门问题。"
     },
     {
-      "title": "未来会不会有一种方式，可以使一部蓝光电影压缩到几Mb甚至几Kb？",
-      "url": "https://www.zhihu.com/answer/2274943613",
-      "summary": "正文用信息量和编码可能性解释无损压缩的理论极限。"
-    },
-    {
-      "title": "人工智能领域有哪些精妙的数学原理？",
-      "url": "https://www.zhihu.com/answer/2300914894",
-      "summary": "正文把 Copula 熵置于信息论的独立性与互信息框架中。"
-    },
-    {
-      "title": "为什么 不用KL散度作为损失函数?",
-      "url": "https://www.zhihu.com/answer/2488135320",
-      "summary": "从信息量、熵、KL 散度到交叉熵梳理信息论中的核心度量。"
-    },
-    {
       "title": "香农的信息论究竟牛在哪里？",
       "url": "https://www.zhihu.com/answer/2515016119",
       "summary": "以压缩编码、称球问题和信道容量为例，说明信息论用数学度量信息并给出上界。"
-    },
-    {
-      "title": "香农的信息论究竟牛在哪里？",
-      "url": "https://www.zhihu.com/answer/2517655344",
-      "summary": "系统介绍信息量、香农熵、KL 散度与交叉熵，并说明信息论在深度学习中的用途。"
-    },
-    {
-      "title": "如何看待机器视觉的“对抗样本”问题，其原理是什么？",
-      "url": "https://www.zhihu.com/answer/2542067516",
-      "summary": "用 KL 散度、Pinsker 不等式和距离度量分析训练损失的界。"
-    },
-    {
-      "title": "把π计算到10亿位后保存为文本再进行压缩，能压缩到原来的几分之一？",
-      "url": "https://www.zhihu.com/answer/2615110236",
-      "summary": "用压缩率与随机数对照，讨论圆周率数字序列的信息可压缩性。"
-    },
-    {
-      "title": "香农的信息论究竟牛在哪里？",
-      "url": "https://www.zhihu.com/answer/2628024200",
-      "summary": "介绍香农信息论如何用信息熵定量刻画文字与符号系统的信息量。"
     },
     {
       "title": "费雪信息 (Fisher information) 的直观意义是什么？",
@@ -358,64 +148,14 @@
       "summary": "正文给出Fisher信息量的定义，并证明独立样本的信息量满足 I_n(θ)=nI(θ)。"
     },
     {
-      "title": "怎样的一句话才叫信息量大？",
-      "url": "https://www.zhihu.com/answer/2876345542",
-      "summary": "正文给出香农信息论中事件信息量的概率对数公式，并据此解释小概率事件为何携带更多信息。"
-    },
-    {
       "title": "'76543210'和'16305427'这两组文字的信息量一样吗?哪个对人来说更容易记？为什么？",
       "url": "https://www.zhihu.com/answer/2882692734",
       "summary": "正文以概率的负对数定义信息量，并以比特、概率分布和编码压缩解释信息论中的核心关系。"
     },
     {
-      "title": "《诡秘之主》中，愚者的核心权柄是“愚弄”，其他神灵的权柄又能玩出什么花样呢？",
-      "url": "https://www.zhihu.com/answer/2892746698",
-      "summary": "正文用比特编码和平均码长解释信息的量化、传递及不确定性削减，属于信息论的核心讨论。"
-    },
-    {
-      "title": "把π计算到10亿位后保存为文本再进行压缩，能压缩到原来的几分之一？",
-      "url": "https://www.zhihu.com/answer/2919550158",
-      "summary": "正文从信息论角度估计圆周率数字文本的编码长度、压缩率与可计算表示。"
-    },
-    {
-      "title": "在未来π有没有可能成为一个用来压缩数据大小的工具，实现超远距离，超大数据的传输？",
-      "url": "https://www.zhihu.com/answer/2937173922",
-      "summary": "正文从信息论角度讨论编码与压缩的本质，并用前缀码约束和平均码长说明圆周率不能降低所需码长。"
-    },
-    {
       "title": "组合数学有没有高等工具？",
       "url": "https://www.zhihu.com/answer/2942874184",
       "summary": "正文以信息处理不等式和熵的链式法则作为证明 union-closed sets conjecture 常数弱化版的核心信息论工具。"
-    },
-    {
-      "title": "KL散度衡量的是两个概率分布的距离吗？",
-      "url": "https://www.zhihu.com/answer/3072696582",
-      "summary": "正文从霍夫曼编码与误估分布造成的额外比特数出发解释KL散度，属于信息论内容。"
-    },
-    {
-      "title": "如果三进制计算机发展起来了，那它能做到哪些二进制计算机做不到的事？",
-      "url": "https://www.zhihu.com/answer/3076447945",
-      "summary": "正文比较不同进制时指出每位符号取值域随b增大而扩大，从而单位信息容量增大，涉及信息论的基本表征。"
-    },
-    {
-      "title": "如何看待百度网盘疑似禁止部分海外环境的用户通过直接上传的方式上传加密压缩包？",
-      "url": "https://www.zhihu.com/answer/3080464277",
-      "summary": "正文从信息载体的统一性出发，讨论任意数据的编码解码、图像信道容量以及压缩干扰下的鲁棒传输。"
-    },
-    {
-      "title": "为什么没有一进制计算机？",
-      "url": "https://www.zhihu.com/answer/3150296596",
-      "summary": "正文用每个 n 进制数位携带 log n 信息量说明一进制无法编码信息，属于信息论的基本论证。"
-    },
-    {
-      "title": "如何设计loss使得两个分布的差异大？",
-      "url": "https://www.zhihu.com/answer/3235072877",
-      "summary": "正文定义并变换随机变量间的互信息，用信息分解构造解耦表征的优化目标。"
-    },
-    {
-      "title": "KL散度衡量的是两个概率分布的距离吗？",
-      "url": "https://www.zhihu.com/answer/3246275191",
-      "summary": "正文用信息量、熵、交叉熵和KL散度说明信息论中的基本量及其关系。"
     },
     {
       "title": "KL散度衡量的是两个概率分布的距离吗？",
@@ -428,24 +168,9 @@
       "summary": "正文用最短程序描述长度定义 Kolmogorov 复杂度，并解释序列可压缩性与随机性，属于算法信息论。"
     },
     {
-      "title": "有没有谁通俗的讲一下Denoising score matching?",
-      "url": "https://www.zhihu.com/answer/3483500738",
-      "summary": "正文比较 KL 散度与 Fisher divergence，并借高斯噪声下二者导数的关系讨论 score matching 的信息论解释。"
-    },
-    {
       "title": "如何理解丘成桐“中国数学水平不如美国1940年代”?",
       "url": "https://www.zhihu.com/answer/3495473959",
       "summary": "正文说明维纳提出信息论基本概念，并概述该理论对通信和自动控制系统的影响。"
-    },
-    {
-      "title": "如何看待信息瓶颈理论?",
-      "url": "https://www.zhihu.com/answer/27195004547",
-      "summary": "正文以率失真理论和信息瓶颈为主线，系统讨论用互信息刻画压缩与信息保留的权衡。"
-    },
-    {
-      "title": "很多高效排序算法的代价是 nlogn，难道这是排序算法的极限了吗？",
-      "url": "https://www.zhihu.com/answer/115013452935",
-      "summary": "正文用每次比较至多提供1 bit信息的信息论观点推导排序比较次数的下界。"
     },
     {
       "title": "圆周率 π 是否隐藏了本个宇宙的设计者留给这个宇宙的智慧文明的某种信息？",
@@ -498,19 +223,9 @@
       "summary": "正文从状态空间、可能性和不确定性解释信息论研究的核心对象。"
     },
     {
-      "title": "VAE（1）——从KL说起",
-      "url": "https://zhuanlan.zhihu.com/p/22464760",
-      "summary": "正文给出离散和连续 KL 散度公式，并说明其衡量两个概率分布差异的信息论含义。"
-    },
-    {
       "title": "小学生都能理解的贝叶斯公式。",
       "url": "https://zhuanlan.zhihu.com/p/22805488",
       "summary": "正文用信息量负对数把最大后验问题改写为总描述信息最小，并联系到香农信息论。"
-    },
-    {
-      "title": "VAE(2)——基本思想",
-      "url": "https://zhuanlan.zhihu.com/p/22464764",
-      "summary": "正文以 KL 散度衡量变分分布和真实后验的差异，并据此把推断问题转化为下界优化。"
     },
     {
       "title": "一点 GAN",
@@ -518,44 +233,9 @@
       "summary": "正文用互信息下界解释 Info-GAN，并比较 JSD、KLD 等信息论量。"
     },
     {
-      "title": "【数学建模】泰尔指数及分解的计算方法与Matlab实现",
-      "url": "https://zhuanlan.zhihu.com/p/23627010",
-      "summary": "正文从信息理论中的消息信息量与概率出发，构造熵并用于泰尔指数。"
-    },
-    {
-      "title": "迷之魔数：7",
-      "url": "https://zhuanlan.zhihu.com/p/24782685",
-      "summary": "正文用通信系统模型解释输入、输出信息量与通道容量，并讨论比特和信息传输上限。"
-    },
-    {
-      "title": "人类行为的复杂度在25岁时到达巅峰",
-      "url": "https://zhuanlan.zhihu.com/p/26390130",
-      "summary": "正文把随机序列的复杂度定义为生成字符串的最短程序长度，并解释其与输出概率及随机图灵机估计的关系。"
-    },
-    {
-      "title": "【新书节选】熵权法确定权重及Matlab&R实现",
-      "url": "https://zhuanlan.zhihu.com/p/28067337",
-      "summary": "正文从信息论中的不确定性度量出发引出熵权法，并按信息熵、信息冗余和权重计算建立评价流程。"
-    },
-    {
-      "title": "为什么读花园路径句就一定会走入花园路径？",
-      "url": "https://zhuanlan.zhihu.com/p/28403984",
-      "summary": "正文用概率语法计算句子路径概率，并通过自信息量化意外程度。"
-    },
-    {
-      "title": "机器学习入门：重要的概念---信息熵（Shannon’s Entropy Model）",
-      "url": "https://zhuanlan.zhihu.com/p/30854084",
-      "summary": "正文以可区分状态数和二分猜球队说明信息量按 log2 计数，并解释二进制比特的信息论含义。"
-    },
-    {
       "title": "GAN调研：多极扩展",
       "url": "https://zhuanlan.zhihu.com/p/32103958",
       "summary": "正文说明 InfoGAN 通过最大化控制变量与生成数据的互信息获得可解释表示，并采用变分近似。"
-    },
-    {
-      "title": "熵，条件熵，互信息，交叉熵 的理解总结",
-      "url": "https://zhuanlan.zhihu.com/p/32401995",
-      "summary": "正文围绕熵、条件熵、互信息和交叉熵组织信息论中的分布差异与不确定性度量。"
     },
     {
       "title": "漫谈Entropy, Energy and Learning.",
@@ -563,34 +243,9 @@
       "summary": "正文由熵、交叉熵和 KL 散度推导最大熵分布，并说明其在生成模型和强化学习中的应用，属于信息论方法的实质展开。"
     },
     {
-      "title": "从香农熵到手推KL散度：纵览机器学习中的信息论",
-      "url": "https://zhuanlan.zhihu.com/p/32985487",
-      "summary": "正文从自信息、熵和交叉熵出发系统介绍信息论对信息量和分布差异的量化。"
-    },
-    {
       "title": "如何测量这个世界的混乱-1-定义混乱",
       "url": "https://zhuanlan.zhihu.com/p/33066289",
       "summary": "正文介绍香农建立信息熵定义的三个条件及其对信息论的开创意义。"
-    },
-    {
-      "title": "如何测量这个世界的混乱-2-信息熵",
-      "url": "https://zhuanlan.zhihu.com/p/33817223",
-      "summary": "正文围绕熵、编码长度、交叉熵、KL散度与互信息，解释信息论如何量化概率分布和编码成本。"
-    },
-    {
-      "title": "信息论（1）——熵、互信息、相对熵",
-      "url": "https://zhuanlan.zhihu.com/p/36192699",
-      "summary": "正文从香农的开创性论文出发，介绍信息熵、互信息和相对熵等信息论基础量。"
-    },
-    {
-      "title": "信息论（3）——联合熵，条件熵，熵的性质",
-      "url": "https://zhuanlan.zhihu.com/p/36385989",
-      "summary": "正文属于信息论专题，围绕联合熵、条件熵和熵的链式法则展开定义与推导。"
-    },
-    {
-      "title": "KL散度理解",
-      "url": "https://zhuanlan.zhihu.com/p/39682125",
-      "summary": "正文从错误分布导致的平均编码长度增加定义 KL 散度，解释它作为编码效率损失的信息论含义。"
     },
     {
       "title": "一次完美毁尸灭迹的成本核算指南",
@@ -598,39 +253,9 @@
       "summary": "正文以可能性、二进制度量和抗噪声编码解释信息学，属于信息论的基本问题。"
     },
     {
-      "title": "一文读懂经典双目稠密匹配算法SGM",
-      "url": "https://zhuanlan.zhihu.com/p/49272032",
-      "summary": "正文以互信息和熵的关系构造图像匹配代价，属于信息论中互信息的具体应用。"
-    },
-    {
       "title": "围棋布局的数学原理初论",
       "url": "https://zhuanlan.zhihu.com/p/50558177",
       "summary": "正文把连接不确定性、信源熵和互信息用于棋局分析，展开信息论中的信息度量。"
-    },
-    {
-      "title": "最小化交叉熵损失与极大似然",
-      "url": "https://zhuanlan.zhihu.com/p/51099880",
-      "summary": "正文从信息论出发定义交叉熵及其与相对熵的关系，并解释它作为机器学习损失函数的来源。"
-    },
-    {
-      "title": "学习观10四格版：什么是信息（定性）",
-      "url": "https://zhuanlan.zhihu.com/p/55533624",
-      "summary": "正文以可能状态、不确定性和观察者已有知识解释信息的定义及其与熵的关系。"
-    },
-    {
-      "title": "Independent set&its applications in coding theory",
-      "url": "https://zhuanlan.zhihu.com/p/55932619",
-      "summary": "正文介绍纠错码的码长、极小距离与最大码字数，并讨论 Gilbert-Varshamov 界。"
-    },
-    {
-      "title": "GAN论文阅读笔记1：从零推导GAN",
-      "url": "https://zhuanlan.zhihu.com/p/56861824",
-      "summary": "正文定义KL散度与JS散度，并用二者刻画真实分布和生成分布之间的信息差异。"
-    },
-    {
-      "title": "《统计学习方法》最大熵模型推导注解",
-      "url": "https://zhuanlan.zhihu.com/p/59519202",
-      "summary": "正文系统推导最大熵模型，介绍经验分布、特征函数约束及对偶优化，属于信息论在分类建模中的应用。"
     },
     {
       "title": "世界的本质关联：从0到1、从量变到质变、幂次法则、还有信息论",
@@ -638,104 +263,9 @@
       "summary": "正文从比特状态数和量子叠加解释信息容量，以信息论视角讨论非线性增长。"
     },
     {
-      "title": "Learning to Rank学习笔记--ListwiseRank",
-      "url": "https://zhuanlan.zhihu.com/p/66514492",
-      "summary": "正文说明ListNet以KL散度衡量两个排序概率分布的差异，并讨论其凸性和非对称性。"
-    },
-    {
-      "title": "为什么用交叉熵做损失函数",
-      "url": "https://zhuanlan.zhihu.com/p/70804197",
-      "summary": "正文从自信息、信息熵推导相对熵和交叉熵，并说明交叉熵作为分布差异度量的信息论含义。"
-    },
-    {
-      "title": "交叉熵、相对熵（KL散度）、JS散度和Wasserstein距离（推土机距离）",
-      "url": "https://zhuanlan.zhihu.com/p/74075915",
-      "summary": "正文以信息量为基础定义熵、KL 散度、交叉熵、JS 散度和 Wasserstein 距离，并比较其性质。"
-    },
-    {
       "title": "数学领域分类",
       "url": "https://zhuanlan.zhihu.com/p/74481149",
       "summary": "正文以可储存数据量界定信息论，并具体联系到压缩和熵。"
-    },
-    {
-      "title": "风控模型—WOE与IV指标的深入理解应用",
-      "url": "https://zhuanlan.zhihu.com/p/80134853",
-      "summary": "正文从信息熵和相对熵解释IV信息量，并比较不同总体的信息差异，对应信息论。"
-    },
-    {
-      "title": "信息论基础 学习笔记（1）",
-      "url": "https://zhuanlan.zhihu.com/p/84828413",
-      "summary": "正文以信息论基础为主题，依次定义自信息、信息熵、鉴别信息和互信息。"
-    },
-    {
-      "title": "极大似然估计与最小化交叉熵损失或者KL散度为什么等价？",
-      "url": "https://zhuanlan.zhihu.com/p/84764177",
-      "summary": "正文把样本似然的负对数期望写成数据分布与模型分布间的交叉熵，实质讨论信息论损失。"
-    },
-    {
-      "title": "[信息论也能如此简单]------信息和熵",
-      "url": "https://zhuanlan.zhihu.com/p/85779990",
-      "summary": "正文以香农信息定义为主线，讲解 bit、等概率信息量和非等概率信息量的度量。"
-    },
-    {
-      "title": "可视化理解Binary Cross-Entropy",
-      "url": "https://zhuanlan.zhihu.com/p/89391305",
-      "summary": "正文由熵引入交叉熵，并进一步解释交叉熵与KL散度在信息论中的关系。"
-    },
-    {
-      "title": "中文是最有效率的语言吗？-- 信息熵简谈",
-      "url": "https://zhuanlan.zhihu.com/p/89958871",
-      "summary": "正文从香农信息量、最优前缀码和压缩率解释符号系统的信息度量，属于信息论。"
-    },
-    {
-      "title": "数理统计|笔记整理（5）——估计量的进阶性质（1）：统计判决函数，UMRUE，Fisher信息量",
-      "url": "https://zhuanlan.zhihu.com/p/89868315",
-      "summary": "正文系统定义 Fisher 信息及其信息阵，推导得分函数、协方差和信息可加性等性质。"
-    },
-    {
-      "title": "深度学习中常见的互信息的变分上下界(详细推导)",
-      "url": "https://zhuanlan.zhihu.com/p/91900950",
-      "summary": "正文从速率失真理论出发定义互信息的变分上界和下界。"
-    },
-    {
-      "title": "【举例子详细分析】BCH码(BCH code)",
-      "url": "https://zhuanlan.zhihu.com/p/95909150",
-      "summary": "正文从奇偶校验和汉明码过渡到 BCH 码，解释编码、译码及多位纠错机制。"
-    },
-    {
-      "title": "信道容量",
-      "url": "https://zhuanlan.zhihu.com/p/105119130",
-      "summary": "正文给出信道容量定义，并从互信息最大化推导离散、高斯和衰落信道容量。"
-    },
-    {
-      "title": "【损失函数】交叉熵损失函数简介",
-      "url": "https://zhuanlan.zhihu.com/p/124309304",
-      "summary": "正文从自信息、香农熵和KL散度出发介绍信息论，并说明交叉熵度量概率分布差异的作用。"
-    },
-    {
-      "title": "一文读懂决策树（上）——信息增益、信息增益率、Gini系数",
-      "url": "https://zhuanlan.zhihu.com/p/136100996",
-      "summary": "正文以信息论中的熵、条件熵、信息增益与信息增益率说明决策树特征划分的数学依据。"
-    },
-    {
-      "title": "算法信息论[1]：柯尔莫哥洛夫复杂度",
-      "url": "https://zhuanlan.zhihu.com/p/138258602",
-      "summary": "正文界定算法信息论，并以通用图灵机定义柯尔莫哥洛夫复杂度来量化对象的信息量。"
-    },
-    {
-      "title": "D-S证据理论的基本介绍",
-      "url": "https://zhuanlan.zhihu.com/p/141156962",
-      "summary": "正文介绍 D-S 证据理论如何表示不确定信息并用组合规则进行信息融合。"
-    },
-    {
-      "title": "小白都能懂得信息论（更改版本）：渐近均分性",
-      "url": "https://zhuanlan.zhihu.com/p/149188816",
-      "summary": "正文介绍信息论中的渐近均分性、典型集以及由此推出的数据压缩编码结论。"
-    },
-    {
-      "title": "机器学习:手撕 cross-entropy 损失函数",
-      "url": "https://zhuanlan.zhihu.com/p/149409908",
-      "summary": "正文以信息量、熵、交叉熵和 KL 散度为主线解释信息论概念及其编码意义。"
     },
     {
       "title": "数理统计第14讲（UMVUE典型难题，Fisher信息量，C-R不等式）",
@@ -743,119 +273,9 @@
       "summary": "正文定义 Fisher 信息函数，解释其表示样本关于未知参数的信息量，并推导独立样本信息量可加。"
     },
     {
-      "title": "数学建模笔记——评价类模型之熵权法",
-      "url": "https://zhuanlan.zhihu.com/p/161372016",
-      "summary": "正文从事件概率定义信息量 I=-ln p，说明概率与信息量的关系，并用其构造信息熵。"
-    },
-    {
-      "title": "[论文笔记]Learning Invariant Representation",
-      "url": "https://zhuanlan.zhihu.com/p/163509193",
-      "summary": "正文用 JS 散度、KL 散度及信息论不等式建立源域与目标域误差和的下界。"
-    },
-    {
-      "title": "交叉熵和极大似然估计的再理解",
-      "url": "https://zhuanlan.zhihu.com/p/165139520",
-      "summary": "正文从事件信息量、熵、KL 散度和交叉熵介绍信息论的基本量及其关系。"
-    },
-    {
-      "title": "深度学习中的互信息量上下界估计",
-      "url": "https://zhuanlan.zhihu.com/p/168479185",
-      "summary": "正文围绕互信息的定义和变分上下界展开，属于信息论中的互信息估计。"
-    },
-    {
-      "title": "后香农时代，华为提出10大数学挑战问题，你能看懂吗？",
-      "url": "https://zhuanlan.zhihu.com/p/232641309",
-      "summary": "正文说明香农定理与信道容量极限是信息论的基础，并围绕后香农时代的信息传输、压缩和编码问题展开讨论。"
-    },
-    {
-      "title": "生成对抗网络（GAN）的数学原理全解",
-      "url": "https://zhuanlan.zhihu.com/p/261871560",
-      "summary": "正文用 KL、JS 和 f-散度度量概率分布差异，并把 f-GAN 的目标解释为散度最小化。"
-    },
-    {
-      "title": "熵权法评价估计详细原理讲解及完整matlab仿真",
-      "url": "https://zhuanlan.zhihu.com/p/267259810",
-      "summary": "正文从香农信息论出发解释信息量与信息熵，并以此建立熵权法的理论基础。"
-    },
-    {
-      "title": "老顽童香农的传奇一生",
-      "url": "https://zhuanlan.zhihu.com/p/268734541",
-      "summary": "正文回顾香农建立通信系统模型、量化信息并创立信息论的历程和核心贡献。"
-    },
-    {
-      "title": "对 CPC (对比预测编码) 的理解",
-      "url": "https://zhuanlan.zhihu.com/p/317711322",
-      "summary": "正文以互信息定义及其与条件熵的推导解释信息论中的输入与上下文共享信息。"
-    },
-    {
-      "title": "KL散度理解以及使用pytorch计算KL散度",
-      "url": "https://zhuanlan.zhihu.com/p/339613080",
-      "summary": "正文给出 KL 散度公式、方向性、数值例子及用其比较概率分布拟合优劣，属于信息论中的分布差异度量。"
-    },
-    {
-      "title": "机器学习方法—信息论：自信息、熵、交叉熵与KL散度",
-      "url": "https://zhuanlan.zhihu.com/p/345025351",
-      "summary": "正文从自信息、熵、交叉熵到 KL 散度系统讲解信息论的基本量及其关系。"
-    },
-    {
-      "title": "第七章 Channel Capacity  信道编码定理",
-      "url": "https://zhuanlan.zhihu.com/p/347092496",
-      "summary": "正文围绕离散无记忆信道的信道容量与信道编码定理，展开可达性和逆定理证明。"
-    },
-    {
-      "title": "距离相似度计算总结（欧式距离、余弦相似度、杰卡德、互信息等18种）",
-      "url": "https://zhuanlan.zhihu.com/p/354289511",
-      "summary": "正文介绍汉明距离、互信息、相对熵和信息增益，并用它们度量字符串、变量或概率分布的差异。"
-    },
-    {
-      "title": "数字世界逼近现实世界——浅谈分布近似与最大似然估计",
-      "url": "https://zhuanlan.zhihu.com/p/355150033",
-      "summary": "正文在信息论框架内定义连续和离散分布的交叉熵，并说明其与最大似然估计的关系。"
-    },
-    {
-      "title": "【数学知识】KL散度",
-      "url": "https://zhuanlan.zhihu.com/p/365400000",
-      "summary": "正文介绍信息论中的 KL 散度，说明其非对称性、概率分布间差异的度量意义及应用。"
-    },
-    {
-      "title": "多标签和多分类，别再分不清了",
-      "url": "https://zhuanlan.zhihu.com/p/372402161",
-      "summary": "正文系统定义交叉熵与KL散度，解释二者关系并给出离散分布间的计算示例。"
-    },
-    {
-      "title": "数据处理不等式：定量描述互信息的传播损失",
-      "url": "https://zhuanlan.zhihu.com/p/374292472",
-      "summary": "正文给出数据处理不等式的互信息表达、完整证明及其信息损失解释，属于信息论核心内容。"
-    },
-    {
-      "title": "两个多元正态分布的KL散度、巴氏距离和W距离",
-      "url": "https://zhuanlan.zhihu.com/p/387938179",
-      "summary": "正文给出KL散度定义并完整推导多元正态分布间的解析表达式，属于信息论中的分布散度。"
-    },
-    {
-      "title": "理解信息瓶颈（1）：从概率论与信息论谈起",
-      "url": "https://zhuanlan.zhihu.com/p/409861142",
-      "summary": "正文从 KL 散度、互信息和马尔可夫链出发，完整定义信息瓶颈及其优化目标，属于信息论框架的系统讲解。"
-    },
-    {
       "title": "柯尔莫戈洛夫（Kolmogorov）工作成就列表",
       "url": "https://zhuanlan.zhihu.com/p/419637919",
       "summary": "正文说明柯尔莫戈洛夫复杂性开创算法信息论，并概述其思想在计算机和信息论中的持续影响。"
-    },
-    {
-      "title": "KL-Divergence详解",
-      "url": "https://zhuanlan.zhihu.com/p/425693597",
-      "summary": "正文围绕KL散度建立信息量、熵、交叉熵和相对熵之间的关系，并证明其非负性、非对称性与凹性。"
-    },
-    {
-      "title": "通信笔/面试题（2）香农公式",
-      "url": "https://zhuanlan.zhihu.com/p/429109281",
-      "summary": "正文从互信息上界推导香农信道容量公式，并讨论信道编码定理与香农限。"
-    },
-    {
-      "title": "关于KL散度（Kullback-Leibler Divergence）的笔记",
-      "url": "https://zhuanlan.zhihu.com/p/438129018",
-      "summary": "正文从信息论编码损失角度解释 KL 散度，并讨论其定义、性质和分布间关系。"
     },
     {
       "title": "[QiTool 1] 互信息 作为 关联函数上限 的证明",
@@ -863,44 +283,9 @@
       "summary": "正文定义经典和量子互信息，并证明互信息可作为关联函数的上界。"
     },
     {
-      "title": "有了这个技巧，我玩猜词游戏从来没输过",
-      "url": "https://zhuanlan.zhihu.com/p/522696725",
-      "summary": "正文以 Wordle 猜测策略为例，介绍香农信息论并用信息量选择覆盖面最大的猜词。"
-    },
-    {
-      "title": "（期末迅速复习）信息论与编码笔记",
-      "url": "https://zhuanlan.zhihu.com/p/538856461",
-      "summary": "正文系统整理信息的度量、信源、信道容量、信源编码和信道编码等信息论主线。"
-    },
-    {
-      "title": "一篇文章讲清楚交叉熵和KL散度",
-      "url": "https://zhuanlan.zhihu.com/p/573385147",
-      "summary": "正文定义交叉熵和 KL 散度，说明其概率分布差异及其在机器学习损失中的作用，属于信息论。"
-    },
-    {
-      "title": "No.3 梳理汇总：信息熵、条件熵和互信息的性质及其推导",
-      "url": "https://zhuanlan.zhihu.com/p/592737528",
-      "summary": "正文从基本对数不等式出发整理信息量、熵、条件熵与互信息的性质和证明，展开信息论核心内容。"
-    },
-    {
       "title": "白天打工，晚上科研，谷歌大脑研究科学家破解了困扰数学界几十年的猜想",
       "url": "https://zhuanlan.zhihu.com/p/596497027",
       "summary": "正文介绍信息量取决于不确定性，并说明如何用信息论研究集合覆盖阈值。"
-    },
-    {
-      "title": "迁移学习：互信息的变分上下界",
-      "url": "https://zhuanlan.zhihu.com/p/657489809",
-      "summary": "正文从 KL 散度定义互信息，系统推导 Barber-Agakov、JSD 和 InfoNCE 等信息论变分界。"
-    },
-    {
-      "title": "熵权法的原理、计算步骤及stata操作",
-      "url": "https://zhuanlan.zhihu.com/p/671201858",
-      "summary": "正文用概率倒数对数定义信息量并解释事件概率与信息量的反向关系，属于信息论基础。"
-    },
-    {
-      "title": "信息瓶颈Information Bottleneck及信息论相关概念梳理",
-      "url": "https://zhuanlan.zhihu.com/p/687392131",
-      "summary": "正文以信息论的定义和广泛应用开篇，并围绕信息瓶颈展开理论梳理。"
     },
     {
       "title": "信息论与统计力学",

@@ -8,21 +8,6 @@
       "summary": "正文介绍 Coq、Agda 等归纳证明助手验证程序并抽取可执行代码。"
     },
     {
-      "title": "形式化方法的研究方向到底是干什么的？",
-      "url": "https://www.zhihu.com/answer/125964166",
-      "summary": "正文系统介绍定理证明器、模型检测器与等价检测器如何完成形式化验证。"
-    },
-    {
-      "title": "有人熟悉Isabelle定理证明器的么？",
-      "url": "https://www.zhihu.com/answer/131874580",
-      "summary": "正文系统介绍Isabelle形式化定理证明器的逻辑系统、规则策略、理论文件和交互证明示例。"
-    },
-    {
-      "title": "用 proof assistant/编程语言做数学科研的体验是怎样的？",
-      "url": "https://www.zhihu.com/answer/137226520",
-      "summary": "正文详细评价 Coq 形式化证明的库、自动化、正确性保证、性能和学习成本，对应形式化证明节点。"
-    },
-    {
       "title": "随着审核难度提高，数学论文的正确性会不会越来越靠自觉？",
       "url": "https://www.zhihu.com/answer/234857511",
       "summary": "正文提出用计算机程序对数学论文做形式化验证。"
@@ -58,11 +43,6 @@
       "summary": "区分有限计算验证与形式化证明，并介绍证明助手的作用。"
     },
     {
-      "title": "请问如何入门同伦类型论（HoTT）？",
-      "url": "https://www.zhihu.com/answer/589290727",
-      "summary": "正文要求在证明助理中形式化实现相关证明。"
-    },
-    {
       "title": "如何看待毛贵泽同学声称自己用初等方法「证明」了「哥德巴赫猜想」并请求浙大数学研究院提供一个讲台？",
       "url": "https://www.zhihu.com/answer/627823402",
       "summary": "建议用 Coq 形式化并检查证明依赖的公理。"
@@ -88,11 +68,6 @@
       "summary": "正文说明重要证明可用计算机形式化检验。"
     },
     {
-      "title": "不基于类型论的proof assistant还有发展空间吗？",
-      "url": "https://www.zhihu.com/answer/1412579377",
-      "summary": "正文比较基于集合论与类型论的证明助手，并讨论定理库可信性。"
-    },
-    {
       "title": "三局输给阿法狗，痛哭后的柯洁认为人类没有一个沾到围棋真理的边，在数学机器人面前，谁是最理解数学的人？",
       "url": "https://www.zhihu.com/answer/1469429074",
       "summary": "正文讨论计算机辅助证明的形式化与自动检验。"
@@ -108,19 +83,9 @@
       "summary": "正文提到利用计算机证明助手检查长证明。"
     },
     {
-      "title": "为什么在计算机科学领域及编程中不使用现代数学建立的符号体系进行操作？",
-      "url": "https://www.zhihu.com/answer/2079321286",
-      "summary": "正文列举形式化语言和定理证明系统在计算机科学中的使用。"
-    },
-    {
       "title": "未来，AI 会以何种形式颠覆数学界？",
       "url": "https://www.zhihu.com/answer/2492774269",
       "summary": "正文明确讨论把推理与验证交给计算机以及机器辅助证明。"
-    },
-    {
-      "title": "数学到底在哪里支撑着编程？",
-      "url": "https://www.zhihu.com/answer/2582472311",
-      "summary": "提出用 Coq、Lean、Agda 等证明辅助工具沟通数学思维与编程思维。"
     },
     {
       "title": "有无一个为数学中定义、引理、命题、定理统一编号的检索系统？",
@@ -153,19 +118,9 @@
       "summary": "正文解释 Lean 既是函数式语言也是定理证明器，并用形式化代码上机运行来确认证明无误。"
     },
     {
-      "title": "如何看待 DeepMind 新发布的 AlphaGeometry?",
-      "url": "https://www.zhihu.com/answer/3370072853",
-      "summary": "正文讨论 AlphaGeometry 的自动定理证明范式，并以 Lean Mathlib 的已形式化定理说明证明构造的数量和泛化难题。"
-    },
-    {
       "title": "如何评价Kirti Joshi对于ABC 猜想的证明？",
       "url": "https://www.zhihu.com/answer/3525472859",
       "summary": "正文专门讨论以 Lean 等形式化工具验证证明的观点及其对计算机验证的疑虑。"
-    },
-    {
-      "title": "如何看待Lean 4语言从定理证明向通用编程语言的转变？",
-      "url": "https://www.zhihu.com/answer/3560122192",
-      "summary": "正文说明 Lean 以依值类型论表达定理并用计算机验证证明，介绍形式化证明工具及自动化。"
     },
     {
       "title": "怎么看待「学数学没啥用，买菜难道还用得上微积分」的理论？",
@@ -196,11 +151,6 @@
       "title": "如何看待陶哲轩等数学家大力推动的 AI 数学证明?",
       "url": "https://www.zhihu.com/answer/1909859746237887587",
       "summary": "正文具体讨论用 Lean 编写形式化证明、再把未完成步骤交给 AI 续写的协作方式。"
-    },
-    {
-      "title": "如何系统地学习Lean语言？",
-      "url": "https://www.zhihu.com/answer/1914412564785378828",
-      "summary": "正文具体介绍用 Lean4、自然数游戏和集合论游戏练习证明，并提到 Mathlib4 在形式化数学中的作用。"
     },
     {
       "title": "计算庞大的数字时，怎么证明计算机没算错？",
@@ -368,21 +318,6 @@
       "summary": "正文具体讨论 Lean 等计算机证明系统、数学形式化实践及其与数学界的关系。"
     },
     {
-      "title": "使用 Lean 证明 根号2 是一个无理数",
-      "url": "https://zhuanlan.zhihu.com/p/149846259",
-      "summary": "正文逐行给出 Lean 定理、引理和证明脚本，展示根号 2 命题的形式化验证。"
-    },
-    {
-      "title": "计算机辅助证明简介",
-      "url": "https://zhuanlan.zhihu.com/p/181671237",
-      "summary": "正文系统介绍计算机辅助证明、依赖类型论、类型检查以及 Lean 中验证数学证明的工作方式。"
-    },
-    {
-      "title": "Lean的前世今生",
-      "url": "https://zhuanlan.zhihu.com/p/183902909",
-      "summary": "正文梳理 Lean 的发展，并解释 tactics、依赖类型论、Mathlib 和形式化数学证明的实践。"
-    },
-    {
       "title": "微软AI要参加IMO竞赛！小目标：数学金牌",
       "url": "https://zhuanlan.zhihu.com/p/261340734",
       "summary": "正文介绍 Lean 的交互式定理证明、Mathlib 训练数据和形式化证明策略，聚焦 Lean 与数学形式化。"
@@ -391,16 +326,6 @@
       "title": "数学家喜迎“大统一”理论的计算机辅助证明",
       "url": "https://zhuanlan.zhihu.com/p/471787620",
       "summary": "正文详述将复杂数学证明转译为 Lean 代码并交给证明助手完整检验的过程。"
-    },
-    {
-      "title": "LEAN4 入门（introduction）",
-      "url": "https://zhuanlan.zhihu.com/p/678954230",
-      "summary": "正文以 Lean4 的定义、定理与证明策略为主线，具体说明如何用交互式证明器记录并检查形式化数学证明。"
-    },
-    {
-      "title": "类型论（type theory）学习笔记",
-      "url": "https://zhuanlan.zhihu.com/p/679483353",
-      "summary": "正文介绍类型论、命题即类型思想及 Lean4、Coq、Agda 等计算机辅助证明工具。"
     },
     {
       "title": "陶哲轩转赞！40多年「忙碌海狸」数学难题获突破，4万行Coq代码立大功",
@@ -416,11 +341,6 @@
       "title": "陶哲轩油管首秀：33分钟，AI速证「人类需要写满一页纸」的证明",
       "url": "https://zhuanlan.zhihu.com/p/1905245772959680058",
       "summary": "正文完整叙述陶哲轩借助 Copilot 和 Lean 策略完成可读形式化证明的案例。"
-    },
-    {
-      "title": "[Lean-zh] Lean 4 中文社区欢迎你",
-      "url": "https://zhuanlan.zhihu.com/p/1911884243556079587",
-      "summary": "正文具体说明 Lean 是交互式定理证明器，可用代码形式表达并严格验证数学定理。"
     },
     {
       "title": "陶哲轩：感谢Lean，我又重写了20年前经典教材！",

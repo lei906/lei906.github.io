@@ -48,24 +48,9 @@
       "summary": "正文围绕“特征值”给出说明、例证或方法。"
     },
     {
-      "title": "在主成分分析法中，是否对样本容量的多少有规定？样本容量是不是越多越好？",
-      "url": "https://www.zhihu.com/answer/36407048",
-      "summary": "正文从协方差矩阵对角化或 SVD 说明 PCA 的主方向。"
-    },
-    {
-      "title": "稀疏表达的意义在于？为什么稀疏表达得到广泛的应用？",
-      "url": "https://www.zhihu.com/answer/36470745",
-      "summary": "正文将稀疏性推广到矩阵奇异值，并联系 PCA 降维。"
-    },
-    {
       "title": "对称矩阵对角化的意义何在？？",
       "url": "https://www.zhihu.com/answer/38520680",
       "summary": "正文说明对称矩阵对角化在自伴算子与谱分解中的推广。"
-    },
-    {
-      "title": "独立成分分析 ( ICA ) 与主成分分析 ( PCA ) 的区别在哪里？",
-      "url": "https://www.zhihu.com/answer/42292804",
-      "summary": "正文随后给出最大特征值对应特征向量、协方差矩阵特征值分解等技术细节。"
     },
     {
       "title": "矩阵的奇异值与特征值有什么相似之处与区别之处？",
@@ -158,16 +143,6 @@
       "summary": "正文把指数函数解释为微分算子的特征函数，并说明特征向量的不变性。"
     },
     {
-      "title": "机器学习中引入L2范数的意义是什么？",
-      "url": "https://www.zhihu.com/answer/110308255",
-      "summary": "正文通过特征值分解解释特征值和特征向量对变换方向、力度及过拟合的影响。"
-    },
-    {
-      "title": "线性代数为什么学校老师讲得那么复杂，考研老师却讲得如此精辟？",
-      "url": "https://www.zhihu.com/answer/111578684",
-      "summary": "正文用特征向量对应线性映射不变子空间解释特征概念。"
-    },
-    {
       "title": "矩阵特征值和椭圆长短轴的关系？",
       "url": "https://www.zhihu.com/answer/112864757",
       "summary": "正文推导矩阵特征向量与椭圆轴方向、特征值与轴长的精确关系。"
@@ -198,11 +173,6 @@
       "summary": "正文用矩阵特征分解把 log-det 凹性降为标量对数之和。"
     },
     {
-      "title": "主成分分析PCA算法：为什么去均值以后的高维矩阵乘以其协方差矩阵的特征向量矩阵就是“投影”？",
-      "url": "https://www.zhihu.com/answer/120499954",
-      "summary": "正文说明特征向量给出不改变方向的缩放轴，特征值给出缩放倍数。"
-    },
-    {
       "title": "线性代数中，特征值与特征向量在代数和几何层面的实际意义是什么？",
       "url": "https://www.zhihu.com/answer/120540926",
       "summary": "正文直接解释特征向量方向保持不变、特征值表示缩放倍数。"
@@ -213,11 +183,6 @@
       "summary": "正文用邻接矩阵本征值和次根分析正则图连通性与直径。"
     },
     {
-      "title": "线性代数与高等代数的区别是什么？",
-      "url": "https://www.zhihu.com/answer/123753729",
-      "summary": "正文说明特征值应从线性变换概念中推导理解。"
-    },
-    {
       "title": "图的邻接矩阵/关联矩阵的秩有什么直观的几何意义吗？",
       "url": "https://www.zhihu.com/answer/125116581",
       "summary": "正文说明零特征值的代数重数等于图的连通分量数。"
@@ -226,11 +191,6 @@
       "title": "矩阵的谱半径怎么求？",
       "url": "https://www.zhihu.com/answer/130323362",
       "summary": "正文定义矩阵谱半径为特征值模的最大值，并给出与范数、矩阵幂收敛相关的定理。"
-    },
-    {
-      "title": "机器学习中SVD和PCA一直没有搞的特别清楚，应该如何理解呢？",
-      "url": "https://www.zhihu.com/answer/131029607",
-      "summary": "正文用协方差矩阵的特征值分解求主成分，并推导奇异值与特征值的关系。"
     },
     {
       "title": "如何理解本征值?",
@@ -281,11 +241,6 @@
       "title": "如何学习高等代数？高等代数注重定理证明吗？学习数分需要会各种证明，高代也这样吗？高代注重计算吗？",
       "url": "https://www.zhihu.com/answer/153927825",
       "summary": "正文说明特征值为何在相似变换下保持不变。"
-    },
-    {
-      "title": "LSTM如何来避免梯度弥散和梯度爆炸？",
-      "url": "https://www.zhihu.com/answer/154387349",
-      "summary": "正文解释循环权值矩阵的特征值如何造成状态与梯度的指数增长或衰减。"
     },
     {
       "title": "斐波那契数列通项公式是怎样推导出来的？",
@@ -376,11 +331,6 @@
       "title": "人们是如何想到奇异值分解的？",
       "url": "https://www.zhihu.com/answer/272977924",
       "summary": "正文把特征值分解与奇异值分解置于双线性形式标准化框架中。"
-    },
-    {
-      "title": "怎样利用 MATLAB 求一维含时薛定谔方程的数值解？",
-      "url": "https://www.zhihu.com/answer/278044905",
-      "summary": "正文把定态薛定谔方程作为本征值问题并调用 eig 求解。"
     },
     {
       "title": "矩阵的迹到底有什么意义？",
@@ -483,11 +433,6 @@
       "summary": "正文把非零特征值列为可逆的等价条件。"
     },
     {
-      "title": "如何通俗易懂地讲解什么是 PCA（主成分分析）？",
-      "url": "https://www.zhihu.com/answer/583063178",
-      "summary": "用协方差矩阵的特征向量解释主成分方向。"
-    },
-    {
       "title": "迹的几何意义是什么？",
       "url": "https://www.zhihu.com/answer/586836350",
       "summary": "用特征值幂和说明迹与谱信息的关系。"
@@ -498,11 +443,6 @@
       "summary": "正文证明两个矩阵乘积的特征多项式相同。"
     },
     {
-      "title": "SDP (半正定规划) 有什么形象的实例？怎么理解？",
-      "url": "https://www.zhihu.com/answer/604280099",
-      "summary": "正文列出特征值优化应用。"
-    },
-    {
       "title": "为何矩阵特征值乘积等于矩阵行列式值？",
       "url": "https://www.zhihu.com/answer/613955775",
       "summary": "正文证明特征值乘积等于行列式。"
@@ -511,11 +451,6 @@
       "title": "在地球上挖一条何种走向的隧道能使小球仅受引力作用不接触隧道壁从一端运动到另一端？",
       "url": "https://www.zhihu.com/answer/636520980",
       "summary": "通过对角化和本征值把矩阵方程拆成独立方程。"
-    },
-    {
-      "title": "如何用层次分析法？",
-      "url": "https://www.zhihu.com/answer/653047790",
-      "summary": "用最大特征根和特征向量计算权重并检验一致性。"
     },
     {
       "title": "高阶线性微分方程的特征方程怎么来的？",
@@ -538,29 +473,14 @@
       "summary": "通过哈密顿矩阵特征值与特征态识别能谱。"
     },
     {
-      "title": "线性代数为什么学校老师讲得那么复杂，考研老师却讲得如此精辟？",
-      "url": "https://www.zhihu.com/answer/689759141",
-      "summary": "说明特征值、特征向量及分解如何支撑降维。"
-    },
-    {
       "title": "线性代数中的秩怎么算？",
       "url": "https://www.zhihu.com/answer/692652798",
       "summary": "讨论相似矩阵的特征值。"
     },
     {
-      "title": "线性代数怎么学啊，好难啊。？",
-      "url": "https://www.zhihu.com/answer/695067704",
-      "summary": "从特征子空间到 Jordan 标准形讲解谱结构。"
-    },
-    {
       "title": "如何通俗地解释混沌理论（chaos）和分岔理论（bifurcation）？",
       "url": "https://www.zhihu.com/answer/705405940",
       "summary": "通过状态矩阵特征值估计扰动增长。"
-    },
-    {
-      "title": "怎样速成线性代数？",
-      "url": "https://www.zhihu.com/answer/717719551",
-      "summary": "正文明确讨论矩阵相似、特征值、特征向量和对角化。"
     },
     {
       "title": "多元函数中，为什么 AC-B² 可以判定极值？AC-B² 这个判别式是怎么来的？",
@@ -571,11 +491,6 @@
       "title": "实对称矩阵相同特征值对应的特征向量正交吗？",
       "url": "https://www.zhihu.com/answer/731851668",
       "summary": "证明不同特征值对应的特征向量正交。"
-    },
-    {
-      "title": "奇异值的物理意义是什么？",
-      "url": "https://www.zhihu.com/answer/740565206",
-      "summary": "从特征值分解推导奇异值与特征向量。"
     },
     {
       "title": "为什么相似矩阵的特征值相同，但是特征向量不一定相同?",
@@ -603,11 +518,6 @@
       "summary": "证明单根特征值只有一个线性无关特征向量。"
     },
     {
-      "title": "傅里叶变换、拉普拉斯变换、Z 变换的联系是什么？为什么要进行这些变换？",
-      "url": "https://www.zhihu.com/answer/792223661",
-      "summary": "正文用特征向量和特征值刻画线性系统，并把傅里叶基底解释为共同特征向量。"
-    },
-    {
       "title": "奇异值的物理意义是什么？",
       "url": "https://www.zhihu.com/answer/801023732",
       "summary": "正文先解释特征值分解，再把 SVD 视为广义特征值分解。"
@@ -628,11 +538,6 @@
       "summary": "说明以正交特征向量组成对角化矩阵。"
     },
     {
-      "title": "线性代数对于计算机专业的作用是什么呢？",
-      "url": "https://www.zhihu.com/answer/830454911",
-      "summary": "用特征值和 SVD 解释降维与嵌入。"
-    },
-    {
       "title": "为何矩阵特征值乘积等于矩阵行列式值？",
       "url": "https://www.zhihu.com/answer/860223585",
       "summary": "从特征方程的根解释矩阵特征值。"
@@ -641,11 +546,6 @@
       "title": "为什么实对称矩阵一定能对角化？",
       "url": "https://www.zhihu.com/answer/869412501",
       "summary": "正文证明实对称矩阵特征值为实数并归纳构造对角化，核心是特征值理论。"
-    },
-    {
-      "title": "机器学习中有哪些形式简单却很巧妙的idea？",
-      "url": "https://www.zhihu.com/answer/871450361",
-      "summary": "正文说明 PCA 优化问题的最优方向由数据矩阵的特征向量给出，实质应用特征值理论。"
     },
     {
       "title": "有什么有趣的数学题？",
@@ -681,11 +581,6 @@
       "title": "如何理解「 一个矩阵的逆矩阵的特征值等于这个矩阵的特征值的倒数」？",
       "url": "https://www.zhihu.com/answer/903694326",
       "summary": "正文从特征向量不变方向及特征方程两种方式证明逆矩阵特征值取倒数。"
-    },
-    {
-      "title": "线性代数到底应该怎么学？",
-      "url": "https://www.zhihu.com/answer/907015513",
-      "summary": "正文定义特征向量和特征值，并用稳态向量例子解释其意义。"
     },
     {
       "title": "诸如 {1，1，1，3，5，9，17，···} 三个数相加，即斐波那契数列的变式，存在通项公式吗？",
@@ -758,24 +653,9 @@
       "summary": "正文定义几何重数与代数重数并给出大小关系。"
     },
     {
-      "title": "为什么部分大一学生认为线性代数听不懂？",
-      "url": "https://www.zhihu.com/answer/1292237694",
-      "summary": "正文用特征向量伸缩比解释特征值。"
-    },
-    {
-      "title": "如何理解矩阵特征值？",
-      "url": "https://www.zhihu.com/answer/1293725306",
-      "summary": "正文从几何伸缩解释特征值与特征向量。"
-    },
-    {
       "title": "特征值个数，特征向量个数与矩阵的秩之间有什么关系？",
       "url": "https://www.zhihu.com/answer/1294991256",
       "summary": "正文讨论特征值重数、特征向量与矩阵秩的关系。"
-    },
-    {
-      "title": "如何通俗易懂地讲解什么是 PCA（主成分分析）？",
-      "url": "https://www.zhihu.com/answer/1304023183",
-      "summary": "正文通过特征值分解寻找主成分。"
     },
     {
       "title": "何为叠加态，何为纠缠态？",
@@ -838,11 +718,6 @@
       "summary": "正文直接讲解或推导“特征值”相关内容。"
     },
     {
-      "title": "人们是如何想到奇异值分解的？",
-      "url": "https://www.zhihu.com/answer/1447844961",
-      "summary": "正文直接讲解或推导“特征值”相关内容。"
-    },
-    {
       "title": "相似的矩阵一定合同吗？",
       "url": "https://www.zhihu.com/answer/1470176924",
       "summary": "正文比较相似矩阵与合同矩阵的特征根条件。"
@@ -868,21 +743,6 @@
       "summary": "正文直接讨论或应用该叶节点主题（正定）。"
     },
     {
-      "title": "奇异值的物理意义是什么？",
-      "url": "https://www.zhihu.com/answer/1630993561",
-      "summary": "正文用特征值大小排序说明主成分保留。"
-    },
-    {
-      "title": "机器学习中SVD和PCA一直没有搞的特别清楚，应该如何理解呢？",
-      "url": "https://www.zhihu.com/answer/1632028714",
-      "summary": "正文比较特征值分解与奇异值分解。"
-    },
-    {
-      "title": "主成分分析法是什么意思？能不能用简单的话解释一下？",
-      "url": "https://www.zhihu.com/answer/1632043065",
-      "summary": "正文用协方差矩阵的特征值分解刻画主成分。"
-    },
-    {
       "title": "哈密尔顿-凯莱定理的本质是什么？",
       "url": "https://www.zhihu.com/answer/1636767376",
       "summary": "正文先用特征值和对角化证明可对角化情形。"
@@ -901,16 +761,6 @@
       "title": "为什么两个相似矩阵的特征值相同？",
       "url": "https://www.zhihu.com/answer/1663504272",
       "summary": "正文证明相似矩阵具有相同特征值。"
-    },
-    {
-      "title": "主成分分析PCA算法：为什么去均值以后的高维矩阵乘以其协方差矩阵的特征向量矩阵就是“投影”？",
-      "url": "https://www.zhihu.com/answer/1693898903",
-      "summary": "正文求解协方差矩阵的特征值和特征向量，并按特征值对应的方差选择主成分。"
-    },
-    {
-      "title": "主成分分析法到底怎么用的？过程模模糊糊的",
-      "url": "https://www.zhihu.com/answer/1696535206",
-      "summary": "正文以协方差矩阵特征分解解释主成分投影。"
     },
     {
       "title": "周期数列1，2，3，4，1，2，3，4……的递推公式怎么求？",
@@ -948,21 +798,6 @@
       "summary": "正文直接支持该冻结叶节点。"
     },
     {
-      "title": "实对称矩阵为什么这么特殊？",
-      "url": "https://www.zhihu.com/answer/1815794611",
-      "summary": "正文直接支持该冻结叶节点。"
-    },
-    {
-      "title": "对称矩阵的意义是什么？",
-      "url": "https://www.zhihu.com/answer/1815806702",
-      "summary": "正文直接支持该冻结叶节点。"
-    },
-    {
-      "title": "论文需要用层次分析法，怎么用层次分析法计算权重？急求，需要细点讲解，网上收罗了些，没看明白。感谢！?",
-      "url": "https://www.zhihu.com/answer/1820304352",
-      "summary": "正文直接支持该冻结叶节点。"
-    },
-    {
       "title": "为什么要研究矩阵的特征值和特征向量？",
       "url": "https://www.zhihu.com/answer/1857241733",
       "summary": "正文用状态迭代 y=Ax 解释特征方向与特征值。"
@@ -981,11 +816,6 @@
       "title": "如何将高阶线性微分方程与线性代数联系起来？",
       "url": "https://www.zhihu.com/answer/1885678187",
       "summary": "正文用矩阵特征值和特征向量构造指数型基础解。"
-    },
-    {
-      "title": "如何理解 Graph Convolutional Network（GCN）？",
-      "url": "https://www.zhihu.com/answer/1891277261",
-      "summary": "正文用拉普拉斯矩阵分解后的特征向量构造图卷积基底。"
     },
     {
       "title": "如何理解左特征向量与右特征向量？",
@@ -1013,11 +843,6 @@
       "summary": "正文通过半正定矩阵和最大特征值证明组合上界。"
     },
     {
-      "title": "什么是模态分析？",
-      "url": "https://www.zhihu.com/answer/1969258295",
-      "summary": "正文用特征函数和模态坐标解释结构振动。"
-    },
-    {
       "title": "什么样的矩阵可以对角化？",
       "url": "https://www.zhihu.com/answer/1974131014",
       "summary": "正文系统给出可利用特征值和特征向量判定对角化的条件。"
@@ -1026,11 +851,6 @@
       "title": "解微分方程为什么会出现个 e？",
       "url": "https://www.zhihu.com/answer/1985612373",
       "summary": "正文把指数函数解释成微分算子的特征函数。"
-    },
-    {
-      "title": "奇异值分解（SVD）有哪些很厉害的应用？",
-      "url": "https://www.zhihu.com/answer/1994290319",
-      "summary": "正文以奇异值分解和奇异值变换构造量子算法。"
     },
     {
       "title": "为什么矩阵的 K 重特征值至多有 K 个线性无关的特征向量？",
@@ -1103,11 +923,6 @@
       "summary": "正文由特征子空间和广义特征子空间定义几何重数与代数重数。"
     },
     {
-      "title": "matlab中有哪些有趣的命令？",
-      "url": "https://www.zhihu.com/answer/2237914728",
-      "summary": "正文用桁架振动模态说明特征值分析。"
-    },
-    {
       "title": "如何优雅地学习线性代数？",
       "url": "https://www.zhihu.com/answer/2266809743",
       "summary": "正文把特征值、特征向量和矩阵对角化纳入学习路径。"
@@ -1116,26 +931,6 @@
       "title": "甲乙两人下围棋，甲胜的概率为a，乙胜的概率为b，a+b=1，比对方多赢两局者获胜，求甲赢的概率?",
       "url": "https://www.zhihu.com/answer/2272772070",
       "summary": "正文通过转移矩阵的特征值与特征向量求极限概率。"
-    },
-    {
-      "title": "为什么部分大一学生认为线性代数听不懂？",
-      "url": "https://www.zhihu.com/answer/2273591157",
-      "summary": "正文指出特征向量和特征值在学习线性代数中的难点。"
-    },
-    {
-      "title": "论文需要用层次分析法，怎么用层次分析法计算权重？急求，需要细点讲解，网上收罗了些，没看明白。感谢！?",
-      "url": "https://www.zhihu.com/answer/2281210542",
-      "summary": "正文以判断矩阵的最大特征根和对应特征向量计算 AHP 权重。"
-    },
-    {
-      "title": "怎么深入了解 Harris 角点检测？",
-      "url": "https://www.zhihu.com/answer/2286352823",
-      "summary": "正文通过二阶矩矩阵的特征值区分角点、边缘和平坦区域。"
-    },
-    {
-      "title": "怎么在一个晚上搞定线性代数？",
-      "url": "https://www.zhihu.com/answer/2287034303",
-      "summary": "正文汇总特征值、特征向量与矩阵对角化。"
     },
     {
       "title": "你所在的学科或专业领域中，有哪些方面被数学知识深刻地改变了？",
@@ -1166,11 +961,6 @@
       "title": "听说线性代数可以在高中降维打击数列、圆锥曲线，具体是怎么应用的？",
       "url": "https://www.zhihu.com/answer/2317381369",
       "summary": "正文通过对角化矩阵和特征值求递推数列通项。"
-    },
-    {
-      "title": "各位大神，不知道谁会绝对主成分分析-多元线性回归（APCS-MLR）模型，请多指点啊！ ？",
-      "url": "https://www.zhihu.com/answer/2349021003",
-      "summary": "正文以累计特征值决定主成分个数。"
     },
     {
       "title": "统计学里有哪些振聋发聩颠覆三观的证明和定理？",
@@ -1208,34 +998,14 @@
       "summary": "以特征向量正交基和特征值刻画正规、自伴与正定算子。"
     },
     {
-      "title": "为什么部分大一学生认为线性代数听不懂？",
-      "url": "https://www.zhihu.com/answer/2486814941",
-      "summary": "用特征向量方向不变、长度按特征值缩放来解释特征值与特征向量。"
-    },
-    {
       "title": "听说线性代数可以在高中降维打击数列、圆锥曲线，具体是怎么应用的？",
       "url": "https://www.zhihu.com/answer/2495825768",
       "summary": "正文说明特征值方法如何刻画数列对应的线性空间性质。"
     },
     {
-      "title": "协方差矩阵有什么意义？",
-      "url": "https://www.zhihu.com/answer/2501415844",
-      "summary": "正文对协方差矩阵作特征分解，说明最大特征值对应投影方差最大的方向。"
-    },
-    {
-      "title": "怎么形象理解embedding这个概念？",
-      "url": "https://www.zhihu.com/answer/2538165663",
-      "summary": "说明 PCA 与 MDS 都归结为矩阵特征值与特征向量分解。"
-    },
-    {
       "title": "如何将高阶线性微分方程与线性代数联系起来？",
       "url": "https://www.zhihu.com/answer/2561627459",
       "summary": "正文把微分方程的解转化为求导算子组合的零特征值特征向量，并计算相应特征向量。"
-    },
-    {
-      "title": "为什么当今数学教材写的跟天书一样，根本看不懂？",
-      "url": "https://www.zhihu.com/answer/2568356964",
-      "summary": "讨论特征值分解、奇异值分解和主成分分析的不同实现路线与几何理解。"
     },
     {
       "title": "为什么实对称矩阵一定能对角化？",
@@ -1258,11 +1028,6 @@
       "summary": "用图谱参数、惯性界和 Hoffman 比例界研究独立数与图结构。"
     },
     {
-      "title": "请问信号与系统中傅里叶变换要理解到什么程度?或者说傅里叶变换在这门学科中是什么地位?",
-      "url": "https://www.zhihu.com/answer/2647481225",
-      "summary": "说明复指数作为特征向量只改变幅值和相位，不改变频率方向。"
-    },
-    {
       "title": "一直不解，为什么如此定义矩阵的乘法，为什么这样一种怪异的乘法规则却能够在实践中发挥如此巨大的功效？",
       "url": "https://www.zhihu.com/answer/2687307391",
       "summary": "正文由稳定状态满足A=TA识别出特征值问题，并计算对应特征向量和特征值。"
@@ -1276,16 +1041,6 @@
       "title": "线性代数的发明过程和意义是什么？",
       "url": "https://www.zhihu.com/answer/2708435503",
       "summary": "解释特征值与特征向量如何刻画线性变换并用于构造解空间。"
-    },
-    {
-      "title": "机器人控制在实际中用到了动力学控制吗？",
-      "url": "https://www.zhihu.com/answer/2715215158",
-      "summary": "通过状态反馈闭环矩阵的特征多项式配置极点，分析系统稳定性。"
-    },
-    {
-      "title": "为什么部分大一学生认为线性代数听不懂？",
-      "url": "https://www.zhihu.com/answer/2717788528",
-      "summary": "正文用矩阵标准型及伸缩变换解释特征值分解的作用。"
     },
     {
       "title": "如何理解根子空间，以及空间分解第一定理？",
@@ -1356,11 +1111,6 @@
       "title": "为啥我觉得测度论干巴巴的好无聊啊？",
       "url": "https://www.zhihu.com/answer/3003946879",
       "summary": "正文从矩阵特征值讲到谱与谱半径，并解释谱如何帮助研究不可逆元素。"
-    },
-    {
-      "title": "线性代数有什么用？学习线性代数的意义在哪？",
-      "url": "https://www.zhihu.com/answer/3050350031",
-      "summary": "正文将特征值分解用于获取椭圆主轴信息，并讨论了格拉姆矩阵的分解。"
     },
     {
       "title": "怎样用高中概率知识求解以马尔科夫链为背景的天气预报问题？",
@@ -1443,19 +1193,9 @@
       "summary": "正文说明可由特征多项式分解得到Jordan分解和特征值，具体讨论了特征值在高等代数中的作用。"
     },
     {
-      "title": "如何理解 Mamba 模型 Selective State Spaces?",
-      "url": "https://www.zhihu.com/answer/3407426487",
-      "summary": "正文把矩阵幂的计算转化为特征值幂，具体讨论对角化和特征值在状态演化中的作用。"
-    },
-    {
       "title": "f(f(f(f(x))))=x 且 f(f(x))≠x 有没有这样的函数，怎么构造？",
       "url": "https://www.zhihu.com/answer/3408137603",
       "summary": "正文以不动点对应实特征向量为条件，利用旋转变换没有实特征向量来保证低次迭代不恒等。"
-    },
-    {
-      "title": "数学中有很多概念，学完难以记住应该怎么办？",
-      "url": "https://www.zhihu.com/answer/3430474047",
-      "summary": "正文围绕特征值、特征向量和特征基解释复正规矩阵可对角化的条件与证明。"
     },
     {
       "title": "欧拉导出过哪些名气不大但精妙的定理？",
@@ -1471,16 +1211,6 @@
       "title": "为什么线性代数如此复杂？",
       "url": "https://www.zhihu.com/answer/3510296041",
       "summary": "正文通过相似对角化解释特征值和特征向量如何将复杂变换化为伸缩变换。"
-    },
-    {
-      "title": "听说线性代数能够降维打击高中数学，是否有必要学？如何学？",
-      "url": "https://www.zhihu.com/answer/3522851829",
-      "summary": "正文用二次型对应的特征向量写出正交变换后的坐标，再据此求 x+y 的取值范围。"
-    },
-    {
-      "title": "怎么在一个晚上搞定线性代数？",
-      "url": "https://www.zhihu.com/answer/3525646127",
-      "summary": "正文从 Ax=λx 出发解释特征值和特征向量的伸缩意义及相似对角化用途。"
     },
     {
       "title": "17岁中专女生超越一众名校生，全球排名 12 闯入 2024 阿里全球数赛决赛，如何评价她的数学水平？",
@@ -1581,11 +1311,6 @@
       "title": "线性代数中有很多矩阵分解方法，如何理解它们的区别和联系？",
       "url": "https://www.zhihu.com/answer/127320053467",
       "summary": "正文具体解释特征分解如何借助特征向量方向与特征值缩放作用来理解矩阵。"
-    },
-    {
-      "title": "奇异值分解（SVD）有哪些很厉害的应用？",
-      "url": "https://www.zhihu.com/answer/128674230423",
-      "summary": "正文通过 AA^T 与 A^TA 的特征值和特征向量求奇异值及正交矩阵，解释了两者的关系。"
     },
     {
       "title": "抽象代数里模是用来干什么的，感觉学的好乱啊？",
@@ -1928,54 +1653,14 @@
       "summary": "正文把数值域定义为包含矩阵全部特征值的凸集，并用它刻画矩阵多项式的范数界。"
     },
     {
-      "title": "【方法】解DSGE",
-      "url": "https://zhuanlan.zhihu.com/p/20675886",
-      "summary": "正文通过系数矩阵分解和特征根排序筛选稳定解，并说明发散根数量决定线性系统的唯一收敛解。"
-    },
-    {
-      "title": "谈谈线性代数这门课程有什么用",
-      "url": "https://zhuanlan.zhihu.com/p/20745625",
-      "summary": "正文通过二次型和协方差矩阵的线性变换说明特征值与特征向量的作用。"
-    },
-    {
-      "title": "维纳滤波 Wiener Filter",
-      "url": "https://zhuanlan.zhihu.com/p/20850601",
-      "summary": "正文通过相关矩阵特征值分析迭代矩阵的谱，推导保证最速下降稳定的学习率范围。"
-    },
-    {
       "title": "线性代数勾搭数据分析【1】",
       "url": "https://zhuanlan.zhihu.com/p/21302998",
       "summary": "正文说明方阵的特征值与特征向量可用于选取主方向，并组成投影矩阵完成 PCA 降维。"
     },
     {
-      "title": "线性代数勾搭数据分析【2】",
-      "url": "https://zhuanlan.zhihu.com/p/21334217",
-      "summary": "正文定义特征向量和特征值，说明特征方向经线性变换后保持方向而只改变倍数。"
-    },
-    {
-      "title": "PCA的数学原理(转)",
-      "url": "https://zhuanlan.zhihu.com/p/21580949",
-      "summary": "正文通过求协方差矩阵的特征值和特征向量并按大小排序，完成 PCA 的主成分选择与降维。"
-    },
-    {
       "title": "Trivia: Hamilton-Cayley 定理",
       "url": "https://zhuanlan.zhihu.com/p/22073634",
       "summary": "正文利用特征值决定可对角化性，再以可对角化矩阵的稠密性证明定理。"
-    },
-    {
-      "title": "当我们在学线代的时候，我们究竟在学什么？",
-      "url": "https://zhuanlan.zhihu.com/p/22121735",
-      "summary": "正文借矩阵相似与对角化解释特征值和特征向量的作用，并说明其几何意义。"
-    },
-    {
-      "title": "【数据降维】主成分分析法",
-      "url": "https://zhuanlan.zhihu.com/p/23299597",
-      "summary": "正文通过协方差矩阵的特征值和特征向量确定主成分方向并按大小选取。"
-    },
-    {
-      "title": "Learn R  |  数据降维之主成分分析（上）",
-      "url": "https://zhuanlan.zhihu.com/p/23776251",
-      "summary": "正文把最大特征根对应的特征向量作为第一主成分系数，并列出了特征值与特征向量的完整计算步骤。"
     },
     {
       "title": "Wigner随机矩阵的Semicircle law和Stieltjes transform",
@@ -1998,49 +1683,9 @@
       "summary": "正文从线性变换的拉伸方向解释特征向量，并以行列式等于特征值乘积联系二者。"
     },
     {
-      "title": "流形学习之 PCA与FA",
-      "url": "https://zhuanlan.zhihu.com/p/25713005",
-      "summary": "正文用 SVD 的前 d 个最大特征值及对应特征向量构造 PCA 的低维表示。"
-    },
-    {
-      "title": "机器学习系列-SVD篇",
-      "url": "https://zhuanlan.zhihu.com/p/25801478",
-      "summary": "正文定义特征向量与特征值，说明它们描述矩阵主要变化方向，并比较特征值分解与奇异值分解。"
-    },
-    {
-      "title": "浅谈张量分解（三）：如何对稀疏矩阵进行奇异值分解？",
-      "url": "https://zhuanlan.zhihu.com/p/25512080",
-      "summary": "正文用矩阵 AA^T 与 A^T A 的特征向量和特征值说明奇异值分解的构成。"
-    },
-    {
       "title": "矩阵的特征：特征值，特征向量，行列式，trace",
       "url": "https://zhuanlan.zhihu.com/p/25955676",
       "summary": "正文定义矩阵作用后方向不变的特征向量，并用 Av=lambda v、特征方程、矩阵幂和 Markov 矩阵展开特征值。"
-    },
-    {
-      "title": "奇异值分解的揭秘（一）：矩阵的奇异值分解过程",
-      "url": "https://zhuanlan.zhihu.com/p/26306568",
-      "summary": "正文用对称矩阵的特征值和特征向量引出左右奇异向量及奇异值。"
-    },
-    {
-      "title": "《R语言实战》第四部分第十四章-主成分分析和因子分析学习笔记",
-      "url": "https://zhuanlan.zhihu.com/p/26305845",
-      "summary": "正文以特征值大小、特征值阈值和累计方差解释率作为选择主成分与因子的核心依据。"
-    },
-    {
-      "title": "人脸识别之主成分分析（PCA）",
-      "url": "https://zhuanlan.zhihu.com/p/26652435",
-      "summary": "正文用协方差矩阵的特征值和特征向量选取投影基，解释特征值大小与保留信息量的关系。"
-    },
-    {
-      "title": "控制器设计中的状态空间法",
-      "url": "https://zhuanlan.zhihu.com/p/26724244",
-      "summary": "正文用闭环矩阵 A-BK 的特征值作为系统极点，并通过调整特征值设计反馈。"
-    },
-    {
-      "title": "PCA的数学原理及推导证明",
-      "url": "https://zhuanlan.zhihu.com/p/26951643",
-      "summary": "正文通过拉格朗日乘数法得到最优投影方向是协方差矩阵最大特征值对应的特征向量，并推广到前 l 个特征向量。"
     },
     {
       "title": "关于线性代数的一些杂记",
@@ -2051,21 +1696,6 @@
       "title": "力学（十二）——微振动(一)",
       "url": "https://zhuanlan.zhihu.com/p/27260347",
       "summary": "正文通过 |K-omega^2 M|=0 求本征频率，并讨论矩阵谱的简并与对称性。"
-    },
-    {
-      "title": "Dimensionality Reduction——LDA线性判别分析原理篇",
-      "url": "https://zhuanlan.zhihu.com/p/27899927",
-      "summary": "正文把多分类 LDA 的投影矩阵归结为广义特征值问题，并取最大特征值对应的特征向量。"
-    },
-    {
-      "title": "【数学课堂】为什么学线性代数",
-      "url": "https://zhuanlan.zhihu.com/p/29322393",
-      "summary": "正文通过转移矩阵的对角化和特征值讨论其高次幂及长期状态收敛。"
-    },
-    {
-      "title": "深入理解L1、L2正则化",
-      "url": "https://zhuanlan.zhihu.com/p/29360425",
-      "summary": "正文对 Hessian 作特征值分解，以特征值比例解释 L2 正则对最优解各方向的收缩。"
     },
     {
       "title": "第三课：正交投影",
@@ -2088,11 +1718,6 @@
       "summary": "正文利用特征多项式、可对角化矩阵及其稠密性证明 Cayley-Hamilton 定理。"
     },
     {
-      "title": "专家坐堂：机器学习中对核函数的理解",
-      "url": "https://zhuanlan.zhihu.com/p/30445271",
-      "summary": "正文用Gram矩阵、特征值大于零和谱定理说明核函数Mercer条件中的正定性。"
-    },
-    {
       "title": "如何理解不同特征值对应的特征向量线性无关？",
       "url": "https://zhuanlan.zhihu.com/p/30454490",
       "summary": "正文围绕矩阵特征值与特征向量展开，证明不同特征值对应的特征向量线性无关。"
@@ -2108,16 +1733,6 @@
       "summary": "正文定义矩阵的谱与谱半径，利用 Hermite 矩阵和最大特征值讨论谱范数及其性质。"
     },
     {
-      "title": "SPSS超详细教程：主成分分析",
-      "url": "https://zhuanlan.zhihu.com/p/31135479",
-      "summary": "正文依据各主成分的特征值、方差解释比例和陡坡图决定保留几个主成分，具体解释了特征值在主成分提取中的作用。"
-    },
-    {
-      "title": "第十三课：矩阵的谱分解（二）",
-      "url": "https://zhuanlan.zhihu.com/p/31236252",
-      "summary": "正文围绕正规矩阵的特征向量正交性与谱分解条件展开证明。"
-    },
-    {
       "title": "第十三课：矩阵的谱分解（一）",
       "url": "https://zhuanlan.zhihu.com/p/31106828",
       "summary": "正文以特征值、特征子空间和代数几何重数说明可对角化的谱分解结构。"
@@ -2126,46 +1741,6 @@
       "title": "第十八课：Gerschgorin（盖尔）圆盘定理",
       "url": "https://zhuanlan.zhihu.com/p/31463121",
       "summary": "正文讲解盖尔圆盘定理，用矩阵对角元连成的圆盘确定特征值所在区域，并说明连通分量与对角占优矩阵的推论。"
-    },
-    {
-      "title": "第十六课：矩阵的奇异值分解",
-      "url": "https://zhuanlan.zhihu.com/p/31316160",
-      "summary": "正文利用 A^HA 的半正定性与矩阵的秩 r，说明其非零奇异值对应 r 个正特征值。"
-    },
-    {
-      "title": "Multi-Agent System控制(2)图论中的矩阵",
-      "url": "https://zhuanlan.zhihu.com/p/32345254",
-      "summary": "正文利用拉普拉斯矩阵的行和为零推导零特征值，并讨论谱、连通性和 Fiedler 特征值。"
-    },
-    {
-      "title": "PCA主成分分析学习总结",
-      "url": "https://zhuanlan.zhihu.com/p/32412043",
-      "summary": "正文通过对协方差矩阵作特征分解并按特征值排序来选取主成分。"
-    },
-    {
-      "title": "理解机器学习中的 L2 正则化",
-      "url": "https://zhuanlan.zhihu.com/p/32488420",
-      "summary": "正文通过矩阵谱分解、特征值和特征向量分析主成分及岭回归的惩罚方向。"
-    },
-    {
-      "title": "Multi-Agent System控制(3)一致性控制",
-      "url": "https://zhuanlan.zhihu.com/p/32355053",
-      "summary": "正文解释 Laplacian 的第二小特征值作为图连通性指标及其对收敛速度的影响。"
-    },
-    {
-      "title": "数模系列(1)：层次分析法",
-      "url": "https://zhuanlan.zhihu.com/p/32662422",
-      "summary": "正文用最大特征根及其特征向量计算各层权重，并以特征根偏离阶数衡量一致性。"
-    },
-    {
-      "title": "数模系列(2)：主成分分析(PCA)",
-      "url": "https://zhuanlan.zhihu.com/p/32665213",
-      "summary": "正文解释特征值与特征向量刻画线性变换，并用协方差矩阵的特征值解释主成分方差贡献率。"
-    },
-    {
-      "title": "特征值和特征向量[MIT线代第二十一课]",
-      "url": "https://zhuanlan.zhihu.com/p/33205535",
-      "summary": "正文定义特征值与特征向量，解释其几何意义，并通过零空间方法求解和讨论重根等特殊情况。"
     },
     {
       "title": "对角化和 矩阵A 的幂[MIT线代第二十二课]",
@@ -2183,24 +1758,9 @@
       "summary": "正文定义特征值与特征向量，讨论特征多项式和特征子空间，并给出可对角化条件。"
     },
     {
-      "title": "关于lasso/ridge/pca对过度拟合的比较",
-      "url": "https://zhuanlan.zhihu.com/p/33711731",
-      "summary": "正文解释主成分回归按特征值大小收缩或剔除主成分，从而抑制小特征方向的影响。"
-    },
-    {
-      "title": "数模系列(7)：Fisher判别分析（Fisher Discriminant Analysis）",
-      "url": "https://zhuanlan.zhihu.com/p/33742983",
-      "summary": "正文推导最佳投影方向满足广义特征值关系，并用最大特征向量给出多分类解。"
-    },
-    {
       "title": "算符对易与共同本征函数",
       "url": "https://zhuanlan.zhihu.com/p/34295509",
       "summary": "正文证明对易厄米算符存在共同本征函数，并分别处理非简并与简并本征子空间。"
-    },
-    {
-      "title": "矩阵对角化与奇异值分解",
-      "url": "https://zhuanlan.zhihu.com/p/34281291",
-      "summary": "正文从特征方程计算特征值与特征向量，并用它们构造可对角化矩阵和奇异值分解。"
     },
     {
       "title": "对称矩阵、对角矩阵与三角矩阵",
@@ -2208,44 +1768,14 @@
       "summary": "正文通过矩阵对角化和具体例子说明实对称矩阵的特征分解。"
     },
     {
-      "title": "【评价算法】层次分析法",
-      "url": "https://zhuanlan.zhihu.com/p/35051786",
-      "summary": "正文利用最大特征值和对应归一化特征向量计算层次权重并检验一致性。"
-    },
-    {
       "title": "《深度学习》“花书”的佐餐，线性代数就从这份笔记开始吧",
       "url": "https://zhuanlan.zhihu.com/p/35076333",
       "summary": "正文初步介绍特征值和特征向量，并说明利用特征分解可以求对应函数的最大值和最小值。"
     },
     {
-      "title": "时间序列的自回归模型—从线性代数的角度来看",
-      "url": "https://zhuanlan.zhihu.com/p/35093835",
-      "summary": "正文通过特征多项式求矩阵特征值和特征向量，并用对角化计算矩阵幂。"
-    },
-    {
-      "title": "向量范数与矩阵范数",
-      "url": "https://zhuanlan.zhihu.com/p/35897775",
-      "summary": "正文用 A 转置乘 A 的最大特征值定义矩阵谱范数。"
-    },
-    {
-      "title": "【计算机视觉】2. 特征点检测：Harris, SIFT, SURF, ORB",
-      "url": "https://zhuanlan.zhihu.com/p/36382429",
-      "summary": "正文利用自相关矩阵特征值的大小和符号区分边缘、角点与平滑区域。"
-    },
-    {
-      "title": "[快报]随机矩阵理论在特征提取和神经网络方面的应用",
-      "url": "https://zhuanlan.zhihu.com/p/36424914",
-      "summary": "正文通过矩阵特征值谱分布和预解式的 Stieltjes 变换分析特征携带的信息。"
-    },
-    {
       "title": "从零开始推导多元高斯分布",
       "url": "https://zhuanlan.zhihu.com/p/36522776",
       "summary": "正文通过协方差矩阵的特征值分解得到主成分方向，并说明特征分解在主成分分析中的作用。"
-    },
-    {
-      "title": "机器学习的数学基础-（二、线性代数）",
-      "url": "https://zhuanlan.zhihu.com/p/36584206",
-      "summary": "正文说明特征值和特征向量的性质，以及矩阵可相似对角化的判据。"
     },
     {
       "title": "对称矩阵及正定性【MIT线代第二十六课】",
@@ -2263,59 +1793,14 @@
       "summary": "正文用互异特征值保证特征向量线性无关，并据此判断矩阵能否对角化。"
     },
     {
-      "title": "浅谈主成分分析与因子分析",
-      "url": "https://zhuanlan.zhihu.com/p/37755749",
-      "summary": "正文通过协方差矩阵的特征值和特征向量求解主成分。"
-    },
-    {
       "title": "麻省理工线性代数笔记（二十四）-正定矩阵",
       "url": "https://zhuanlan.zhihu.com/p/37854768",
       "summary": "正文由特征值全为正定义正定矩阵，并通过矩阵对角化和椭圆主轴说明特征值作用。"
     },
     {
-      "title": "主成分分析（PCA）原理详解",
-      "url": "https://zhuanlan.zhihu.com/p/37777074",
-      "summary": "正文定义特征值与特征向量，并选取最大特征值对应的特征向量作为主成分。"
-    },
-    {
-      "title": "如何直观地理解「协方差矩阵」？",
-      "url": "https://zhuanlan.zhihu.com/p/37609917",
-      "summary": "正文对对称协方差矩阵作特征值分解，并说明特征向量控制旋转、特征值控制尺度。"
-    },
-    {
-      "title": "层次分析法(AHP)",
-      "url": "https://zhuanlan.zhihu.com/p/38207837",
-      "summary": "正文以最大特征值对应的归一化特征向量确定各因素权重，并用最大特征根与阶数之差构造一致性指标。"
-    },
-    {
-      "title": "机器人的轨迹规划与自动导引",
-      "url": "https://zhuanlan.zhihu.com/p/38391238",
-      "summary": "正文通过哈密顿矩阵的特征值成对出现，推导闭环系统与该矩阵特征值的关系。"
-    },
-    {
-      "title": "Barra 模型的填坑、讨论帖",
-      "url": "https://zhuanlan.zhihu.com/p/38565479",
-      "summary": "正文利用协方差矩阵的特征向量构造 eigenfactor 组合，并据此做风险调整。"
-    },
-    {
-      "title": "Barra 因子模型中的风险调整",
-      "url": "https://zhuanlan.zhihu.com/p/38895499",
-      "summary": "正文用特征向量构成的矩阵将协方差矩阵对角化，解释特征值对应特征组合方差。"
-    },
-    {
       "title": "为什么矩阵特征值之和等于矩阵的迹",
       "url": "https://zhuanlan.zhihu.com/p/39313619",
       "summary": "正文用特征多项式、韦达定理和行列式展开证明矩阵特征值之和等于矩阵的迹。"
-    },
-    {
-      "title": "动态模态分解(DMD)与数据科学",
-      "url": "https://zhuanlan.zhihu.com/p/39304706",
-      "summary": "正文以矩阵 A 的特征值和特征向量解释动态模态的增长、衰减或震荡，并通过降阶矩阵近似计算它们。"
-    },
-    {
-      "title": "层次分析法(AHP)",
-      "url": "https://zhuanlan.zhihu.com/p/39993228",
-      "summary": "正文说明一致阵的最大特征值为 n，并以最大特征根对应的归一化特征向量确定权重。"
     },
     {
       "title": "美国IMO集训队讲义的一道题",
@@ -2338,24 +1823,9 @@
       "summary": "正文分别讨论非简并和简并情形下通过对角化寻找同时属于两个算符的本征矢。"
     },
     {
-      "title": "数学建模十大算法之——层次分析法",
-      "url": "https://zhuanlan.zhihu.com/p/43631314",
-      "summary": "正文用判断矩阵的最大特征值及归一化特征向量计算各层次元素的相对权重。"
-    },
-    {
-      "title": "23、奇异值分解svd",
-      "url": "https://zhuanlan.zhihu.com/p/43578482",
-      "summary": "正文通过AA^T和A^T A的特征值、特征向量给出SVD的通用计算方法。"
-    },
-    {
       "title": "MP3：SO(2)的求导：算子谱分析和复结构",
       "url": "https://zhuanlan.zhihu.com/p/43986106",
       "summary": "正文把二阶求导算子作用看成特征值问题，并讨论算子及其特征函数。"
-    },
-    {
-      "title": "数据分析方法——主成分分析（PCA）",
-      "url": "https://zhuanlan.zhihu.com/p/44453206",
-      "summary": "正文把协方差矩阵对角化，按特征值大小排列特征向量并取前 k 个作为主成分基。"
     },
     {
       "title": "MIT—线性代数笔记21 特征值和特征向量",
@@ -2373,11 +1843,6 @@
       "summary": "正文用特征值判断解的稳定性，并把初值分解到各特征向量方向求通解。"
     },
     {
-      "title": "MIT—线性代数笔记26 复矩阵；快速傅里叶变换",
-      "url": "https://zhuanlan.zhihu.com/p/46041373",
-      "summary": "正文说明埃尔米特矩阵具有实特征值和正交特征向量，并以此引出标准正交复基。"
-    },
-    {
       "title": "MIT—线性代数笔记28 相似矩阵和若尔当标准型",
       "url": "https://zhuanlan.zhihu.com/p/46087288",
       "summary": "正文证明相似矩阵具有相同特征值，并据此讨论可对角化与重特征值情形。"
@@ -2386,36 +1851,6 @@
       "title": "MIT—线性代数笔记29 奇异值分解",
       "url": "https://zhuanlan.zhihu.com/p/46100282",
       "summary": "正文通过矩阵乘积的特征向量和特征值构造奇异向量与奇异值。"
-    },
-    {
-      "title": "马氏距离(Mahalanobis Distance)",
-      "url": "https://zhuanlan.zhihu.com/p/46626607",
-      "summary": "正文利用主成分分析的特征向量和特征值说明马氏距离的旋转与标准化过程。"
-    },
-    {
-      "title": "深入了解PCA",
-      "url": "https://zhuanlan.zhihu.com/p/47858230",
-      "summary": "正文推导最大方差目标与瑞利商，并说明主成分是协方差矩阵最大特征值对应的特征向量。"
-    },
-    {
-      "title": "如何做主成分分析和因子分析？它们的区别与联系在哪里？",
-      "url": "https://zhuanlan.zhihu.com/p/49481213",
-      "summary": "正文以特征根解释主成分的重要性，并结合方差贡献率说明主成分的提取标准。"
-    },
-    {
-      "title": "Locally Linear Embedding",
-      "url": "https://zhuanlan.zhihu.com/p/47304678",
-      "summary": "正文把LLE和Laplacian Eigenmaps的低维嵌入都转化为特定矩阵的最小特征值特征向量问题。"
-    },
-    {
-      "title": "双线性汇合（bilinear pooling）在细粒度图像分析及其他领域的进展综述",
-      "url": "https://zhuanlan.zhihu.com/p/47415565",
-      "summary": "正文对参数矩阵作谱分解，按特征值正负拆分低秩表示，并进一步分析矩阵幂规范化与奇异值。"
-    },
-    {
-      "title": "Multidimensional Scaling",
-      "url": "https://zhuanlan.zhihu.com/p/50715681",
-      "summary": "正文以特征值分解和最大特征向量构造低维表示，完成经典 MDS 的闭式求解。"
     },
     {
       "title": "线性代数之——特征值和特征向量",
@@ -2428,59 +1863,9 @@
       "summary": "正文利用特征多项式的不同根，把空间分解为对应于各特征值的根子空间直和。"
     },
     {
-      "title": "回归分析|笔记整理（9）——带约束的线性回归，多重共线性",
-      "url": "https://zhuanlan.zhihu.com/p/50792150",
-      "summary": "正文用特征根和条件数诊断多重共线性，并通过特征分解引入主成分回归。"
-    },
-    {
-      "title": "机器学习算法-MDS降维算法",
-      "url": "https://zhuanlan.zhihu.com/p/51441355",
-      "summary": "正文对内积矩阵作特征分解，并选取最大的若干特征值和特征向量构造低维坐标。"
-    },
-    {
-      "title": "干货 | 万字长文带你复习线性代数！",
-      "url": "https://zhuanlan.zhihu.com/p/52013163",
-      "summary": "正文定义特征值与特征向量，讲解特征空间、特征多项式和特征值的计算。"
-    },
-    {
-      "title": "回归分析|笔记整理（A）——岭回归，主成分回归（上）",
-      "url": "https://zhuanlan.zhihu.com/p/51431045",
-      "summary": "正文通过 X'X 的特征根、标准正交特征向量和典则形式推导岭估计及均方误差性质。"
-    },
-    {
-      "title": "回归分析|笔记整理（B）——主成分回归（下），偏最小二乘回归",
-      "url": "https://zhuanlan.zhihu.com/p/52476330",
-      "summary": "正文利用特征根和标准正交特征向量证明主成分的极值性与方差性质。"
-    },
-    {
-      "title": "矩阵分解（Matrix  Decomposition）",
-      "url": "https://zhuanlan.zhihu.com/p/52890135",
-      "summary": "正文利用特征值、特征向量和成分矩阵给出矩阵谱分解及示例计算。"
-    },
-    {
-      "title": "一阶倒立摆的PID控制和LQR控制",
-      "url": "https://zhuanlan.zhihu.com/p/54071212",
-      "summary": "正文计算系统极点并依据其在复平面左半侧的位置判断稳定性。"
-    },
-    {
       "title": "线性代数与数据学习：MIT教授Gilbert Strang帮你打下坚实的数学基础",
       "url": "https://zhuanlan.zhihu.com/p/54396098",
       "summary": "正文说明正定对称矩阵具有正特征值和正交特征向量，并借此解释矩阵重构与 PCA 主方向。"
-    },
-    {
-      "title": "图卷积网络(GCN)新手村完全指南",
-      "url": "https://zhuanlan.zhihu.com/p/54505069",
-      "summary": "正文把图Laplacian矩阵的特征向量取作图Fourier基，并利用特征值分解推导滤波器。"
-    },
-    {
-      "title": "详细推导PCA算法",
-      "url": "https://zhuanlan.zhihu.com/p/55297233",
-      "summary": "正文定义满足 Ax=λx 的特征向量与特征值，并利用它们求解 PCA 的主方向。"
-    },
-    {
-      "title": "剖析KCF",
-      "url": "https://zhuanlan.zhihu.com/p/56405827",
-      "summary": "正文推导循环矩阵的特征值与特征向量，并利用矩阵对角化化简岭回归求解。"
     },
     {
       "title": "时间反演对称（TRS）保护下拓扑绝缘体（二）：如何理解“破坏”&“保护”",
@@ -2488,34 +1873,9 @@
       "summary": "正文由反射矩阵的零行列式推出零本征值，并解释对应散射本征态完全透射。"
     },
     {
-      "title": "为什么用PCA做点云法线估计？",
-      "url": "https://zhuanlan.zhihu.com/p/56541912",
-      "summary": "正文解释协方差矩阵的特征向量方向与特征值大小，并据此选取对应局部平面法向的特征向量。"
-    },
-    {
-      "title": "【点滴】学习 Graph Laplacian",
-      "url": "https://zhuanlan.zhihu.com/p/56568843",
-      "summary": "正文讨论Graph Laplacian的半正定性、特征值重数与连通分量，并用特征向量构造图编码。"
-    },
-    {
-      "title": "深入理解PCA与SVD的关系",
-      "url": "https://zhuanlan.zhihu.com/p/58064462",
-      "summary": "正文以协方差矩阵前 k 大特征值对应的特征向量构造 PCA 变换，并说明 SVD 与特征值分解的联系。"
-    },
-    {
       "title": "python应用：机器学习--主成分分析PCA",
       "url": "https://zhuanlan.zhihu.com/p/58253325",
       "summary": "正文以协方差矩阵最大特征值对应的特征向量确定第一主成分，并依次选取后续主成分。"
-    },
-    {
-      "title": "SVD奇异值分解的数学涵义及其应用实例",
-      "url": "https://zhuanlan.zhihu.com/p/57803955",
-      "summary": "正文利用实对称矩阵可正交对角化以及协方差矩阵的分解，说明特征向量与奇异值在 SVD 求解中的作用。"
-    },
-    {
-      "title": "主成分分析(PCA)的详细解释",
-      "url": "https://zhuanlan.zhihu.com/p/58663947",
-      "summary": "正文用协方差矩阵的特征向量确定主成分方向，并以对应特征值衡量各成分携带的方差。"
     },
     {
       "title": "谱积分以及谱分解的理解",
@@ -2523,29 +1883,9 @@
       "summary": "正文用特征值与正交特征向量说明有界线性算子可分解为投影算子按特征值的线性组合。"
     },
     {
-      "title": "一文让你通俗理解奇异值分解",
-      "url": "https://zhuanlan.zhihu.com/p/59324612",
-      "summary": "正文从特征值与特征向量讲起，把特征值解释为变换方向的重要性，并说明截断后可用于矩阵近似。"
-    },
-    {
       "title": "多元高斯分布完全解析",
       "url": "https://zhuanlan.zhihu.com/p/58987388",
       "summary": "正文对协方差矩阵作正交特征分解，用特征值和特征向量解释高斯等高线的主轴、椭圆方向及降维原理。"
-    },
-    {
-      "title": "[PnP]PnP问题之EPnP解法",
-      "url": "https://zhuanlan.zhihu.com/p/59070440",
-      "summary": "正文通过协方差矩阵的特征值与特征向量选取三个主方向，并明确联系主成分分析。"
-    },
-    {
-      "title": "数据降维: 核主成分分析(Kernel PCA)原理解析",
-      "url": "https://zhuanlan.zhihu.com/p/59775730",
-      "summary": "正文以核矩阵的特征值和特征向量问题推导主成分方向，并讨论归一化与投影，实质涉及特征值。"
-    },
-    {
-      "title": "图卷积神经网络(Graph Convolutional Network, GCN)",
-      "url": "https://zhuanlan.zhihu.com/p/60962304",
-      "summary": "正文用拉普拉斯矩阵的特征值和特征向量刻画图割目标，并取较小的特征值对应向量。"
     },
     {
       "title": "Jordan-Wigner 变换",
@@ -2568,49 +1908,9 @@
       "summary": "正文指出协方差矩阵可经特征值分解对角化，所得特征向量给出主成分方向。"
     },
     {
-      "title": "基于Spectral Graph Wavelet Transform的图卷积神经网络（上篇）",
-      "url": "https://zhuanlan.zhihu.com/p/62300527",
-      "summary": "正文用图拉普拉斯矩阵的特征分解得到傅里叶基和滤波器对角化表示。"
-    },
-    {
-      "title": "数学建模——主成分分析(SPSS）",
-      "url": "https://zhuanlan.zhihu.com/p/63139206",
-      "summary": "正文以相关系数矩阵的特征根和单位特征向量构造主成分并计算贡献率。"
-    },
-    {
-      "title": "【数学】宇哥线代九讲笔记",
-      "url": "https://zhuanlan.zhihu.com/p/63624783",
-      "summary": "正文定义特征值和特征向量，由特征方程求特征值，并说明矩阵相似对角化与特征向量的关系。"
-    },
-    {
       "title": "什么是本征函数？",
       "url": "https://zhuanlan.zhihu.com/p/63626566",
       "summary": "正文从矩阵作用下的缩放关系定义特征值，并由特征方程和基础解系求特征值与特征向量。"
-    },
-    {
-      "title": "微分方程数值解法|专题（2）——偏微分方程的有限差分方法",
-      "url": "https://zhuanlan.zhihu.com/p/65247362",
-      "summary": "正文通过差分迭代矩阵的谱半径和特征值判断格式的稳定性。"
-    },
-    {
-      "title": "Linear.1 谱定理（Spectral Theorem ）通往PCA和SVD的基石.(T-B)",
-      "url": "https://zhuanlan.zhihu.com/p/65314970",
-      "summary": "正文把复谱定理的证明线索落到有限维复内积空间上线性变换必有的特征值。"
-    },
-    {
-      "title": "虚拟对抗训练：一种新颖的半监督学习正则化方法",
-      "url": "https://zhuanlan.zhihu.com/p/66389797",
-      "summary": "正文把扰动优化转化为求海森矩阵最大特征值对应的特征向量，并给出能量迭代计算。"
-    },
-    {
-      "title": "【其实贼简单】拉普拉斯算子和拉普拉斯矩阵",
-      "url": "https://zhuanlan.zhihu.com/p/67336297",
-      "summary": "正文随后具体讨论拉普拉斯矩阵的非负特征值排序及其在瑞利熵中的应用。"
-    },
-    {
-      "title": "5分钟理解PCA主成分分析",
-      "url": "https://zhuanlan.zhihu.com/p/67475508",
-      "summary": "正文把协方差矩阵的特征值和特征向量作为选取主成分的数学依据。"
     },
     {
       "title": "关于计算Berry phase的一些细节",
@@ -2641,16 +1941,6 @@
       "title": "多自由度小振动系统初步(1)-绪论",
       "url": "https://zhuanlan.zhihu.com/p/71855288",
       "summary": "正文把系统矩阵的特征值解释为简正角频率的平方，并进一步计算本征向量和简正模。"
-    },
-    {
-      "title": "[论文]QuadricSLAM: 面向机器人的物体级语义SLAM系统",
-      "url": "https://zhuanlan.zhihu.com/p/73420573",
-      "summary": "正文对二次曲面矩阵作特征值分解，从中提取旋转和椭球形状参数并约束参数化。"
-    },
-    {
-      "title": "SLAM中面特征的参数化",
-      "url": "https://zhuanlan.zhihu.com/p/71924149",
-      "summary": "正文用对称矩阵的特征值分解提取二次曲面的主轴，以统一表示点、线和面。"
     },
     {
       "title": "如何理解飞机的五种飞行模态",
@@ -2698,26 +1988,6 @@
       "summary": "正文用函数变换F的基向量与伸缩系数说明特征向量和特征值，并用于快速计算。"
     },
     {
-      "title": "【机器学习】降维——PCA（非常详细）",
-      "url": "https://zhuanlan.zhihu.com/p/77151308",
-      "summary": "正文把 PCA 优化目标化为协方差矩阵对角化，并按特征值大小选取投影基。"
-    },
-    {
-      "title": "1 Introduction of Koopman theory",
-      "url": "https://zhuanlan.zhihu.com/p/77438448",
-      "summary": "正文引入 Koopman 本征值、本征函数和模态，并用特征值幂次表示系统未来状态的演化。"
-    },
-    {
-      "title": "2 动态模态分解(DMD) 近似 Koopman算符",
-      "url": "https://zhuanlan.zhihu.com/p/77519115",
-      "summary": "正文利用友矩阵和截断相似矩阵的特征值、特征向量构造 DMD 模态并预测后续状态。"
-    },
-    {
-      "title": "PCA和SVD的联系和区别？",
-      "url": "https://zhuanlan.zhihu.com/p/78193297",
-      "summary": "正文推导协方差矩阵的特征值与输入矩阵奇异值之间的关系，并说明特征向量的作用。"
-    },
-    {
       "title": "Hamilton-Carley定理：方阵的特征多项式为何总能将该方阵零化",
       "url": "https://zhuanlan.zhihu.com/p/78374199",
       "summary": "正文利用特征值、特征子空间及其直和分解解释 Hamilton-Cayley 定理为何将特征多项式作用于方阵后为零矩阵。"
@@ -2728,59 +1998,14 @@
       "summary": "正文陈述并证明实对称矩阵最大、最小特征值刻画二次型范围的定理。"
     },
     {
-      "title": "矩阵分析(二)：从特征值到奇异值",
-      "url": "https://zhuanlan.zhihu.com/p/69069183",
-      "summary": "正文定义特征向量与特征值，说明特征向量在变换下方向不变而只发生伸缩，并讨论特征值分解。"
-    },
-    {
-      "title": "Metric Learning科普文",
-      "url": "https://zhuanlan.zhihu.com/p/80656461",
-      "summary": "正文说明 PCA 与 LDA 的最优低维投影由协方差矩阵的特征值分解得到，并解释其特征向量性质。"
-    },
-    {
-      "title": "谱图理论(spectral graph theory)",
-      "url": "https://zhuanlan.zhihu.com/p/80817719",
-      "summary": "正文从 Av=λv 解释特征值和特征向量，并用 Rayleigh 商的变分刻画证明谱性质。"
-    },
-    {
       "title": "非负矩阵之Perron-Frobenius定理",
       "url": "https://zhuanlan.zhihu.com/p/80952693",
       "summary": "正文证明 Perron 根是谱半径，讨论 Perron 向量的正性、重数及 Perron 投影。"
     },
     {
-      "title": "如何理解正定矩阵和半正定矩阵",
-      "url": "https://zhuanlan.zhihu.com/p/81169491",
-      "summary": "正文用特征向量的缩放方向和特征值符号解释正定矩阵，并给出特征值均为正的简要推导。"
-    },
-    {
-      "title": "统计学“自由度”详解",
-      "url": "https://zhuanlan.zhihu.com/p/81099139",
-      "summary": "正文通过对称矩阵的正交对角化，以非零特征值个数解释二次型平方和的自由度。"
-    },
-    {
-      "title": "机械振动理论(3)-解析实模态分析",
-      "url": "https://zhuanlan.zhihu.com/p/82211194",
-      "summary": "正文求矩阵特征值和特征向量，并说明它们对应固有频率与振动模态。"
-    },
-    {
-      "title": "考研线性代数公式整理(不断更新中)",
-      "url": "https://zhuanlan.zhihu.com/p/80690520",
-      "summary": "正文给出特征值与迹、行列式、伴随矩阵的关系，并讨论实对称矩阵与二次型的特征值。"
-    },
-    {
-      "title": "机械振动理论(5)-解析复模态分析",
-      "url": "https://zhuanlan.zhihu.com/p/82789629",
-      "summary": "正文把机械振动方程化为状态空间中的一般特征值问题，推导复特征值、特征向量和模态展开。"
-    },
-    {
       "title": "浅谈矩阵的相似对角化（一）",
       "url": "https://zhuanlan.zhihu.com/p/83224613",
       "summary": "正文定义特征值与特征向量，由特征方程证明复域内 n 阶矩阵有 n 个计重数特征值，并证明不同特征值对应的特征向量线性无关。"
-    },
-    {
-      "title": "PCA（主成分分析）原理推导",
-      "url": "https://zhuanlan.zhihu.com/p/84946694",
-      "summary": "正文通过拉格朗日乘子法推出主成分是协方差矩阵最大特征值对应的特征向量。"
     },
     {
       "title": "多元统计之Cochran定理",
@@ -2793,49 +2018,14 @@
       "summary": "正文通过关联函数矩阵的本征值和本征态定义纠缠谱，并据此判断拓扑相。"
     },
     {
-      "title": "现代控制理论线性系统入门(二)状态变量的解和渐近稳定性",
-      "url": "https://zhuanlan.zhihu.com/p/85137646",
-      "summary": "正文通过对角化系数矩阵讨论特征值，并由特征值实部判断渐近稳定性。"
-    },
-    {
-      "title": "现代控制理论线性系统入门(四)能控性和能观性",
-      "url": "https://zhuanlan.zhihu.com/p/85772766",
-      "summary": "正文给出基于动态矩阵特征值的Hautus能控性与能观性判据。"
-    },
-    {
-      "title": "旋转之三 - 旋转矩阵",
-      "url": "https://zhuanlan.zhihu.com/p/86223712",
-      "summary": "正文利用迹求旋转角，并由特征值 1 的特征向量确定旋转轴。"
-    },
-    {
-      "title": "现代控制理论线性系统入门(五)设计状态反馈控制器",
-      "url": "https://zhuanlan.zhihu.com/p/85931427",
-      "summary": "正文以闭环矩阵的特征值和特征多项式为对象，通过系数比较设计状态反馈增益。"
-    },
-    {
       "title": "如何理解施密特(Schmidt)分解定理",
       "url": "https://zhuanlan.zhihu.com/p/86137107",
       "summary": "正文利用约化密度算符的本征方程、共同本征值和本征矢逐步证明施密特分解。"
     },
     {
-      "title": "现代控制理论线性系统入门(八)最优控制——LQR控制器",
-      "url": "https://zhuanlan.zhihu.com/p/87070103",
-      "summary": "正文以闭环系统特征值判断稳定性，并与特征值预给设计进行比较。"
-    },
-    {
-      "title": "现代控制理论线性系统入门(九)设计状态观测器",
-      "url": "https://zhuanlan.zhihu.com/p/87613138",
-      "summary": "正文通过配置误差动态矩阵的特征值来保证观测误差衰减，并讨论期望特征值对收敛速度的影响。"
-    },
-    {
       "title": "最小二乘法",
       "url": "https://zhuanlan.zhihu.com/p/89373759",
       "summary": "正文利用拉格朗日乘子把正交最小二乘的最优方向化为协方差矩阵的特征向量问题。"
-    },
-    {
-      "title": "人工智能中的线性代数：如何理解并更好地应用它",
-      "url": "https://zhuanlan.zhihu.com/p/90119323",
-      "summary": "正文用矩阵的特征向量和特征值刻画网页排名问题，并说明其存在与迭代求法。"
     },
     {
       "title": "布洛赫球 (Bloch Sphere)",
@@ -2853,16 +2043,6 @@
       "summary": "正文定义特征值与特征向量，并利用二次项系数矩阵的两个特征值刻画曲线类型和离心率。"
     },
     {
-      "title": "图卷积神经网络：Graph Convolutional Networks",
-      "url": "https://zhuanlan.zhihu.com/p/91573076",
-      "summary": "正文对拉普拉斯矩阵作特征分解，并用特征值和特征向量解释频域基与频谱权重。"
-    },
-    {
-      "title": "PCA(主成分分析) 和 SVD (奇异值分解)",
-      "url": "https://zhuanlan.zhihu.com/p/92507652",
-      "summary": "正文以散布矩阵的特征分解、特征值排序和对应特征向量定义 PCA 主成分，实质讲解了特征值与特征向量。"
-    },
-    {
       "title": "层次分析法（AHP）研究方法与步骤分解，及案例详解",
       "url": "https://zhuanlan.zhihu.com/p/93109898",
       "summary": "正文把权重计算表述为矩阵特征向量，并使用最大特征根构造一致性指标和一致性比例。"
@@ -2878,39 +2058,14 @@
       "summary": "正文推导厄米特矩阵的特征值均为实数，并证明不同特征值对应的特征向量正交。"
     },
     {
-      "title": "线代主要知识点",
-      "url": "https://zhuanlan.zhihu.com/p/94538301",
-      "summary": "正文给出特征值和特征向量的定义，并由非零特征向量导出特征方程。"
-    },
-    {
       "title": "特征值和特征向量",
       "url": "https://zhuanlan.zhihu.com/p/95836870",
       "summary": "正文以特征方程定义特征值和特征向量，并讲解矩阵幂、相似矩阵和实对称矩阵的特征分解。"
     },
     {
-      "title": "矩阵分析-期末复习笔记（上）",
-      "url": "https://zhuanlan.zhihu.com/p/96065301",
-      "summary": "围绕特征值与特征向量讲解相似不变量、对角化条件、重数和谱半径。"
-    },
-    {
-      "title": "物理中的数值方法之——Lanczos方法(1)",
-      "url": "https://zhuanlan.zhihu.com/p/98112958",
-      "summary": "正文把 Lanczos 方法用于大型矩阵本征值和本征向量的近似求解，并讨论其收敛条件。"
-    },
-    {
-      "title": "如何解读 SIMCA 主成分分析（PCA）的结果？",
-      "url": "https://zhuanlan.zhihu.com/p/96677251",
-      "summary": "正文解释特征值所表示的主成分载荷，并给出特征值大于1的选择经验。"
-    },
-    {
       "title": "Potts模型简介",
       "url": "https://zhuanlan.zhihu.com/p/101045691",
       "summary": "正文用转移矩阵的特征方程和特征值求出 Potts 模型的配分函数。"
-    },
-    {
-      "title": "电子科技大学矩阵理论复习笔记 矩阵理论 第一章 从入门到入土",
-      "url": "https://zhuanlan.zhihu.com/p/101886426",
-      "summary": "正文讨论 Hermite 矩阵、正规矩阵和正定矩阵的对角化表示，并用特征值关系组织矩阵证明。"
     },
     {
       "title": "一条狗的量子力学笔记——第四章 态和力学量的表象",
@@ -2928,19 +2083,9 @@
       "summary": "正文对本征谱作谱分解，并用最大本征值、能隙和本征值简并分析自由能、关联长度与相变。"
     },
     {
-      "title": "线性代数精华——矩阵的特征值与特征向量",
-      "url": "https://zhuanlan.zhihu.com/p/104980382",
-      "summary": "正文围绕特征值与特征向量的定义、几何意义、特征方程和具体矩阵案例展开。"
-    },
-    {
       "title": "常微分方程学习笔记(9)",
       "url": "https://zhuanlan.zhihu.com/p/105161670",
       "summary": "正文通过线性化矩阵特征值的实部及 Jordan 块结构判定平衡点稳定性。"
-    },
-    {
-      "title": "【姿态表示】旋转向量、旋转矩阵、欧拉角、四元数",
-      "url": "https://zhuanlan.zhihu.com/p/93563218",
-      "summary": "正文说明固定旋转轴是特征值 1 对应的特征向量，连接旋转与特征向量。"
     },
     {
       "title": "『恋数』椭圆与不等式的那些事儿",
@@ -2953,19 +2098,9 @@
       "summary": "正文利用实对称矩阵的正交对角化，以特征值将二次曲面方程化为标准形。"
     },
     {
-      "title": "Chebyshev多项式作为GCN卷积核",
-      "url": "https://zhuanlan.zhihu.com/p/106687580",
-      "summary": "正文利用拉普拉斯矩阵的特征值对角矩阵缩放卷积核，并以最大特征值把输入限制到 Chebyshev 多项式适用区间。"
-    },
-    {
       "title": "特征值和特征向量Eigenvalue & Eigenvector",
       "url": "https://zhuanlan.zhihu.com/p/107118598",
       "summary": "正文从变换后仍共线的向量引入特征值和特征向量，并给出具体求解示例。"
-    },
-    {
-      "title": "AHP | 层次分析法原理及Python实现",
-      "url": "https://zhuanlan.zhihu.com/p/108958590",
-      "summary": "正文用判断矩阵的最大特征值及其归一化特征向量计算各因素权重，并以最大特征值偏差做一致性检验。"
     },
     {
       "title": "数列、矩阵与微分方程的特征值",
@@ -2973,24 +2108,9 @@
       "summary": "正文系统讨论矩阵特征值与特征向量的定义、特征方程及用特征值化简矩阵运算。"
     },
     {
-      "title": "10. SISO反馈控制器设计 (1)：状态反馈控制 State Feedback Control",
-      "url": "https://zhuanlan.zhihu.com/p/108753324",
-      "summary": "正文以特征方程和特征值配置为核心设计状态反馈控制器，并讨论极点位置与稳定性的关系。"
-    },
-    {
       "title": "对于向量和矩阵的理解",
       "url": "https://zhuanlan.zhihu.com/p/111337479",
       "summary": "正文定义特征向量与特征值，并通过降维和行列式说明其求法及对角化用途。"
-    },
-    {
-      "title": "LOAM-SLAM原理深度解析",
-      "url": "https://zhuanlan.zhihu.com/p/111388877",
-      "summary": "正文用协方差矩阵的特征值、特征向量区分线状与面状点云分布并确定几何方向。"
-    },
-    {
-      "title": "下一代矩阵法&微分方程稳定性——以SIR系列为例",
-      "url": "https://zhuanlan.zhihu.com/p/111752410",
-      "summary": "正文把下一代矩阵的最大特征值作为基本再生数 R0，并代入无病平衡点得到公式。"
     },
     {
       "title": "Diagonalization 矩阵对角化",
@@ -3008,24 +2128,9 @@
       "summary": "正文从线性变换下保持张成空间的方向出发定义特征向量和特征值，并解释其缩放意义。"
     },
     {
-      "title": "【简明自控】为什么特征方程如此重要",
-      "url": "https://zhuanlan.zhihu.com/p/115199985",
-      "summary": "正文说明传递函数特征根的实部和虚部如何决定系统的动态响应。"
-    },
-    {
-      "title": "自抗扰控制理论（一）ADRC的原理",
-      "url": "https://zhuanlan.zhihu.com/p/115283894",
-      "summary": "正文由观测器特征方程统一配置三个极点，再反求扩张状态观测器的增益。"
-    },
-    {
       "title": "矩阵的几种分解方式 - 加强版",
       "url": "https://zhuanlan.zhihu.com/p/115381559",
       "summary": "正文展开特征值、代数重数与几何重数，并说明可对角化、实对称和正规矩阵的特征分解。"
-    },
-    {
-      "title": "线性系统理论（一）状态空间描述",
-      "url": "https://zhuanlan.zhihu.com/p/114516587",
-      "summary": "正文讨论状态方程的特征多项式与特征值在坐标变换下的不变量性质。"
     },
     {
       "title": "厄米算符与Dirac符号",
@@ -3038,19 +2143,9 @@
       "summary": "正文证明 Hermitian 矩阵的特征值为实数，并证明不同特征值对应的特征向量正交。"
     },
     {
-      "title": "【新书节选】案例讲解层次分析法及Matlab&R实现",
-      "url": "https://zhuanlan.zhihu.com/p/118594058",
-      "summary": "层次分析步骤明确计算判断矩阵的最大特征根及归一化特征向量作为权向量。"
-    },
-    {
       "title": "正交矩阵学习小结",
       "url": "https://zhuanlan.zhihu.com/p/120170892",
       "summary": "正文讨论正交矩阵和旋转矩阵的特征值性质，包括特征值模长、共轭成对及 Householder 矩阵的特征值结构。"
-    },
-    {
-      "title": "【GNN】万字长文带你入门 GCN",
-      "url": "https://zhuanlan.zhihu.com/p/120311352",
-      "summary": "正文利用拉普拉斯矩阵的特征值和特征向量完成谱分解，并据此构造图傅立叶基与图卷积。"
     },
     {
       "title": "GCN中的等式证明",
@@ -3063,24 +2158,9 @@
       "summary": "正文将能带计算化为哈密顿矩阵的特征值问题，并用代码求出各条能带。"
     },
     {
-      "title": "非线性控制（二）相平面法",
-      "url": "https://zhuanlan.zhihu.com/p/119390532",
-      "summary": "正文按线性系统特征方程的根型分类节点、鞍点、焦点和中心，用其判断平衡点稳定性。"
-    },
-    {
-      "title": "图卷积网络(GCN)的谱分析",
-      "url": "https://zhuanlan.zhihu.com/p/124727955",
-      "summary": "正文说明图拉普拉斯矩阵是实对称半正定矩阵，其特征向量为傅里叶基且相互正交。"
-    },
-    {
       "title": "GCN 图卷积神经网络",
       "url": "https://zhuanlan.zhihu.com/p/126113270",
       "summary": "正文解释特征值与特征向量的几何意义，并用拉普拉斯矩阵的谱分解构造图卷积。"
-    },
-    {
-      "title": "矩阵分析与应用（一，矩阵基础知识）",
-      "url": "https://zhuanlan.zhihu.com/p/132681782",
-      "summary": "正文说明特征值刻画奇异性与正定性，并讨论特征向量正交性及 Jordan 标准型。"
     },
     {
       "title": "Sylvester方程的可解性——W.E.Roth定理",
@@ -3088,24 +2168,9 @@
       "summary": "正文利用无公共特征值条件下的谱集性质证明分块矩阵相似，从而得到方程可解结论。"
     },
     {
-      "title": "图卷积神经网络系列：2. | 图傅里叶变换",
-      "url": "https://zhuanlan.zhihu.com/p/137897522",
-      "summary": "正文解释图拉普拉斯矩阵的特征值对应频率、特征向量对应基函数，并讨论高低特征值的平滑性。"
-    },
-    {
-      "title": "深入浅出说说ridge regression",
-      "url": "https://zhuanlan.zhihu.com/p/132275334",
-      "summary": "正文用 X^T X 的特征值分解及其主成分方向说明 ridge 的收缩机制。"
-    },
-    {
       "title": "理解矩阵的相似对角化",
       "url": "https://zhuanlan.zhihu.com/p/138285148",
       "summary": "正文用特征向量的个数给出可对角化判据，并解释特征值与对角化的关系。"
-    },
-    {
-      "title": "认识流场模态分解（data-driven）",
-      "url": "https://zhuanlan.zhihu.com/p/137926789",
-      "summary": "正文把 POD 的最优模态求解转化为相关矩阵的特征值问题。"
     },
     {
       "title": "Hessian矩阵",
@@ -3118,29 +2183,9 @@
       "summary": "正文求出泡利矩阵的特征值、特征向量及其 Bloch 矢量对应。"
     },
     {
-      "title": "20. LQR控制器— 线性二次型调节器 Linear Quadratic Regulator",
-      "url": "https://zhuanlan.zhihu.com/p/139145957",
-      "summary": "正文用闭环矩阵特征值位于左半平面解释LQR闭环的渐近稳定性。"
-    },
-    {
-      "title": "评价模型一秒懂（2）",
-      "url": "https://zhuanlan.zhihu.com/p/139433078",
-      "summary": "正文以最大特征根和对应特征向量求权重，并进行一致性检验。"
-    },
-    {
       "title": "数学基础 | 矩阵分解及其应用",
       "url": "https://zhuanlan.zhihu.com/p/140089850",
       "summary": "正文展开对称矩阵的谱分解、谱半径、矩阵幂收敛和二次型特征值界。"
-    },
-    {
-      "title": "串讲：观测器（Observer）：龙贝格和滑模LO，SMO",
-      "url": "https://zhuanlan.zhihu.com/p/140722264",
-      "summary": "正文通过观测器误差矩阵 A-LC 的特征根位置判断误差收敛，并据此设计反馈矩阵。"
-    },
-    {
-      "title": "串讲：观测器（Observer）：降阶观测器RO",
-      "url": "https://zhuanlan.zhihu.com/p/141374122",
-      "summary": "正文通过误差系统矩阵特征根的位置判断观测器误差是否收敛。"
     },
     {
       "title": "一个例子看懂二次型的三种线性替换的区别",
@@ -3153,11 +2198,6 @@
       "summary": "正文给出矩阵特征值与特征向量的定义，并从几何伸缩和特征多项式解释其意义与求法。"
     },
     {
-      "title": "SPSS数据分析1——主成分分析",
-      "url": "https://zhuanlan.zhihu.com/p/143324362",
-      "summary": "正文按特征值大小筛选主成分，并用特征值计算方差贡献率和累计方差贡献率。"
-    },
-    {
       "title": "计算流体力学 | 偏微分方程的数学性质",
       "url": "https://zhuanlan.zhihu.com/p/143745059",
       "summary": "正文用矩阵特征值和特征向量给出双曲型、抛物型及椭圆型方程的分类依据。"
@@ -3166,16 +2206,6 @@
       "title": "微分方程(十六、十七)相平面、平衡点",
       "url": "https://zhuanlan.zhihu.com/p/145473738",
       "summary": "正文求出系统矩阵或雅可比矩阵的特征值，并依据特征值类型将平衡点分类为结点、鞍点、焦点或中心。"
-    },
-    {
-      "title": "串讲：控制理论：全状态反馈控制（FSFB）",
-      "url": "https://zhuanlan.zhihu.com/p/147230711",
-      "summary": "正文以状态矩阵的特征根解释系统极点，并据此判断系统的稳定性和收敛速度。"
-    },
-    {
-      "title": "图傅里叶变换",
-      "url": "https://zhuanlan.zhihu.com/p/147687999",
-      "summary": "正文利用无向图拉普拉斯矩阵的特征分解，将特征值解释为图频率并分析特征向量的平滑程度。"
     },
     {
       "title": "[线性代数] 4 Jordan标准形的意义",
@@ -3188,24 +2218,9 @@
       "summary": "正文围绕特征向量、特征值、对角化和谱定理讨论算子的谱分解。"
     },
     {
-      "title": "探索性因子分析（EFA）",
-      "url": "https://zhuanlan.zhihu.com/p/149246100",
-      "summary": "正文用特征值和方差比例解释因子提取、旋转及因子数目筛选。"
-    },
-    {
       "title": "法曲率、主曲率、高斯曲率、平均曲率",
       "url": "https://zhuanlan.zhihu.com/p/149584374",
       "summary": "正文用Weingarten映射的特征值和特征向量解释主曲率与主方向，并提到Hessian矩阵的对应关系。"
-    },
-    {
-      "title": "主成分分析(principal component analysis)",
-      "url": "https://zhuanlan.zhihu.com/p/150097862",
-      "summary": "正文证明协方差的特征值和特征向量分别给出主成分的方差与方向。"
-    },
-    {
-      "title": "实用干货！因子分析超全步骤总结！",
-      "url": "https://zhuanlan.zhihu.com/p/150330786",
-      "summary": "正文以特征根大于1和碎石图作为因子个数选择依据，并解释特征根的贡献含义。"
     },
     {
       "title": "浅谈λ—矩阵与矩阵的若尔当标准形",
@@ -3238,24 +2253,9 @@
       "summary": "正文以最大特征值做一致性检验，并通过最大特征值对应的特征向量归一化求指标权重。"
     },
     {
-      "title": "最小多项式与若尔当标准形",
-      "url": "https://zhuanlan.zhihu.com/p/158225502",
-      "summary": "正文利用特征多项式的根和特征向量证明最小多项式的根与特征值一致。"
-    },
-    {
-      "title": "关于若尔当矩阵中过渡矩阵的求法",
-      "url": "https://zhuanlan.zhihu.com/p/158881597",
-      "summary": "正文由特征多项式求特征值及其重数，并据此确定若尔当块。"
-    },
-    {
       "title": "线性代数预习自学笔记-21：根子空间分解",
       "url": "https://zhuanlan.zhihu.com/p/158921693",
       "summary": "正文从特征值重数出发定义广义特征向量与根子空间，并证明不同特征值的根子空间构成直和。"
-    },
-    {
-      "title": "六种常见数据降维方法简介及代码实现",
-      "url": "https://zhuanlan.zhihu.com/p/159285110",
-      "summary": "正文通过协方差矩阵的特征值分解计算主成分，并按特征值大小选取方向。"
     },
     {
       "title": "随机矩阵（Random Matrix）--- Semi-circle Law",
@@ -3263,34 +2263,9 @@
       "summary": "正文以 Hermite 矩阵解释实特征值，并求出 GUE 特征值的联合分布和核。"
     },
     {
-      "title": "向量、函数向量、再生核希尔伯特空间、核技巧",
-      "url": "https://zhuanlan.zhihu.com/p/161376521",
-      "summary": "正文定义矩阵的特征值与特征向量，并讲解实对称矩阵的正交特征分解。"
-    },
-    {
-      "title": "考研线性代数 解题方法汇总（非知识点汇总）",
-      "url": "https://zhuanlan.zhihu.com/p/161687318",
-      "summary": "正文给出特征值和特征向量的求法、性质及利用相似对角化计算矩阵函数的途径。"
-    },
-    {
       "title": "线性代数预习自学笔记-22：若尔当标准型",
       "url": "https://zhuanlan.zhihu.com/p/161551117",
       "summary": "正文通过根子空间和若尔当块说明特征值的代数重数、几何重数及其关系。"
-    },
-    {
-      "title": "大规模线性方程组求解简史（上）",
-      "url": "https://zhuanlan.zhihu.com/p/163593656",
-      "summary": "正文用迭代矩阵的谱半径和最大特征值分析误差衰减与迭代收敛速度。"
-    },
-    {
-      "title": "LQR，MPC控制以及在Apollo中的运用",
-      "url": "https://zhuanlan.zhihu.com/p/163503734",
-      "summary": "正文通过系统极点、特征值和闭环矩阵 A-BK 说明反馈控制后的稳定性。"
-    },
-    {
-      "title": "【科普】如何正确理解特征值与特征向量",
-      "url": "https://zhuanlan.zhihu.com/p/165382601",
-      "summary": "正文给出特征值方程、求法、特征多项式及特征值分解，核心内容对应特征值。"
     },
     {
       "title": "原来我被骗了好多年: 浅谈二次曲线的旋转和标准化问题",
@@ -3303,11 +2278,6 @@
       "summary": "正文利用半正定矩阵的特征值及其代数重数证明平方相等则矩阵相等，并以此建立极分解的唯一性。"
     },
     {
-      "title": "线代公式知识点整理",
-      "url": "https://zhuanlan.zhihu.com/p/260444940",
-      "summary": "正文整理矩阵特征值、迹与行列式的关系，以及实对称矩阵特征向量的正交性。"
-    },
-    {
       "title": "关于矩阵多项式的特征值 (⁄ ⁄•⁄ω⁄•⁄ ⁄)",
       "url": "https://zhuanlan.zhihu.com/p/261152093",
       "summary": "正文证明 f(A) 的特征值是 f(lambda)，并讨论代数重数和几何重数的变化。"
@@ -3316,16 +2286,6 @@
       "title": "为什么非要引入函数的奇偶性不可？",
       "url": "https://zhuanlan.zhihu.com/p/262168415",
       "summary": "正文说明幂等投影变换的特征值只能为 1 和 0，并可对角化为由 1、0 构成的对角矩阵。"
-    },
-    {
-      "title": "深入浅出线性判别分析（LDA，从理论到代码实现）",
-      "url": "https://zhuanlan.zhihu.com/p/264578345",
-      "summary": "正文将投影方向的求解化为矩阵最大特征值对应的特征向量问题。"
-    },
-    {
-      "title": "层次分析法原理及计算过程详解",
-      "url": "https://zhuanlan.zhihu.com/p/266405027",
-      "summary": "正文以判断矩阵的最大特征值和对应特征向量求权重，并用特征值与维数之差作一致性检验。"
     },
     {
       "title": "量子力学的数学基础(2)",
@@ -3348,19 +2308,9 @@
       "summary": "正文以正定实对称矩阵的最大、最小特征值为核心参数，给出并证明矩阵形式的康托洛维奇不等式。"
     },
     {
-      "title": "最优化方法复习笔记（二）梯度下降法的全局收敛与收敛速率",
-      "url": "https://zhuanlan.zhihu.com/p/273726875",
-      "summary": "正文把收敛速率与二次型矩阵的条件数联系起来，并用最大、最小特征值刻画病态程度。"
-    },
-    {
       "title": "QM - 路径积分 (Path Integral) PT. 2 - 求解实例",
       "url": "https://zhuanlan.zhihu.com/p/270684456",
       "summary": "正文围绕矩阵的本征值构造特征多项式、递推求解连乘积，并进一步确定各个本征值。"
-    },
-    {
-      "title": "解线性方程组的迭代法",
-      "url": "https://zhuanlan.zhihu.com/p/281927651",
-      "summary": "正文以迭代矩阵的谱半径小于 1 作为收敛判据并讨论收敛速度。"
     },
     {
       "title": "深刻地认识特征值",
@@ -3371,11 +2321,6 @@
       "title": "矩阵本质-基变换与线性变换",
       "url": "https://zhuanlan.zhihu.com/p/296265380",
       "summary": "正文说明以线性无关特征向量为基时，相似矩阵可化为由特征值构成的对角矩阵。"
-    },
-    {
-      "title": "图卷积网络原来是这么回事（三）——图滤波器与图卷积的设计",
-      "url": "https://zhuanlan.zhihu.com/p/297613044",
-      "summary": "正文利用拉普拉斯矩阵的特征分解，以特征值和特征向量解释图滤波器的频域作用。"
     },
     {
       "title": "常微分方程：（第五章）线性微分方程组",
@@ -3393,29 +2338,14 @@
       "summary": "正文给出特征值和特征向量的定义，并说明以Aα=λα求取二者的方法。"
     },
     {
-      "title": "一文解释 矩阵特征分解",
-      "url": "https://zhuanlan.zhihu.com/p/314464267",
-      "summary": "正文定义 Av=λv，说明特征值与特征向量的意义，并讨论特征值重根的情况。"
-    },
-    {
       "title": "[顾樵 数学物理方法] Chap.9 施图姆-刘维尔理论；若干特殊方程的导出；二阶ODE级数解法基础",
       "url": "https://zhuanlan.zhihu.com/p/313031234",
       "summary": "正文从一般算符的本征方程引入施图姆-刘维尔本征值问题，并讨论实值性、正交性与节点性质。"
     },
     {
-      "title": "Ergodic Markov Chain有关的四个定理及其推论",
-      "url": "https://zhuanlan.zhihu.com/p/322107034",
-      "summary": "正文证明转移矩阵必有特征值一及对应右特征向量，并分析其余特征值。"
-    },
-    {
       "title": "群论 (Group Theory) 终极速成 / 群表示理论",
       "url": "https://zhuanlan.zhihu.com/p/314567658",
       "summary": "正文在 Schur 引理二中利用复线性变换的非零本征矢证明映射为数量变换。"
-    },
-    {
-      "title": "关于秩为1矩阵的重要结论",
-      "url": "https://zhuanlan.zhihu.com/p/325750093",
-      "summary": "正文分别用方程组和特征方程证明秩一矩阵的零特征值重数及非零特征值。"
     },
     {
       "title": "（数值分析）十一、矩阵的Jordan分解",
@@ -3438,24 +2368,9 @@
       "summary": "正文证明实反对称矩阵的特征值为纯虚数或零，并据此得到正交相似标准形。"
     },
     {
-      "title": "机器学习中“距离与相似度”计算汇总",
-      "url": "https://zhuanlan.zhihu.com/p/336946131",
-      "summary": "正文通过协方差矩阵的特征向量和特征值构造马氏距离的新坐标轴与缩放尺度。"
-    },
-    {
-      "title": "最优化方法复习笔记（六）共轭梯度法",
-      "url": "https://zhuanlan.zhihu.com/p/338838078",
-      "summary": "正文利用特征值分解构造矩阵平方根，并以最大、最小特征值定义条件数来分析共轭梯度收敛速率。"
-    },
-    {
       "title": "PDE复习笔记(1)",
       "url": "https://zhuanlan.zhihu.com/p/338426133",
       "summary": "正文用方程对应实对称矩阵的特征值符号定义椭圆型、双曲型和抛物型，实质涉及矩阵特征值。"
-    },
-    {
-      "title": "PCA降维大法 | 如何使用主成分分析方法构建综合指标？",
-      "url": "https://zhuanlan.zhihu.com/p/339894441",
-      "summary": "正文展示主成分分析的特征值、特征向量和累计贡献率，并据此提取主成分。"
     },
     {
       "title": "PDE复习笔记(2)",
@@ -3463,44 +2378,14 @@
       "summary": "正文在分离变量中解 Sturm-Liouville 型常微分方程，求出特征值和正交特征函数。"
     },
     {
-      "title": "主成分分析SPSS操作与结果解释",
-      "url": "https://zhuanlan.zhihu.com/p/340741280",
-      "summary": "正文以主成分分析为例，结合特征值、累计方差贡献率和载荷矩阵说明主成分的提取与解释。"
-    },
-    {
-      "title": "图卷积网络 Graph Convolutional Network（GCN）的理解和详细推导",
-      "url": "https://zhuanlan.zhihu.com/p/341332382",
-      "summary": "正文详细解释拉普拉斯矩阵的特征分解，并把特征值和特征向量解释为图卷积的频率与傅里叶基。"
-    },
-    {
-      "title": "图论笔记 | Graph Theory Notes",
-      "url": "https://zhuanlan.zhihu.com/p/341461345",
-      "summary": "正文介绍谱图理论，说明通过矩阵的本征值、本征矢和谱分解研究图的性质。"
-    },
-    {
       "title": "实对称矩阵性质小总结",
       "url": "https://zhuanlan.zhihu.com/p/344167558",
       "summary": "正文讨论实对称矩阵特征值的实数性和重数，并通过特征值分解求正交对角化矩阵。"
     },
     {
-      "title": "多元统计课程笔记（1）多元统计基本知识",
-      "url": "https://zhuanlan.zhihu.com/p/345000878",
-      "summary": "正文利用正定矩阵的特征值及其单位特征向量求二次型的极值。"
-    },
-    {
       "title": "场论家用代数（第三话）：Cartan-Weyl",
       "url": "https://zhuanlan.zhihu.com/p/346613619",
       "summary": "正文利用同时对角化、共同本征矢量和本征值定义升降算符与根。"
-    },
-    {
-      "title": "时间序列分析 | 动态模态分解",
-      "url": "https://zhuanlan.zhihu.com/p/348645464",
-      "summary": "正文对近似Koopman矩阵作特征值分解，并用特征值、特征向量解释动态模态。"
-    },
-    {
-      "title": "谱聚类(1)：图拉普拉斯算符",
-      "url": "https://zhuanlan.zhihu.com/p/350259325",
-      "summary": "正文围绕矩阵特征值即矩阵谱，解释谱聚类为何关注特定特征值及特征向量。"
     },
     {
       "title": "期权定价PDE的稳定性分析",
@@ -3523,19 +2408,9 @@
       "summary": "正文由特征方程求出特征值，并解释特征值和特征向量分别表示不旋转方向及对应的缩放因子。"
     },
     {
-      "title": "R语言教程|带你搞清楚主成分分析（PCA）并完成分析",
-      "url": "https://zhuanlan.zhihu.com/p/354086571",
-      "summary": "正文用相关系数矩阵的特征值作为各主成分方差，并通过特征向量确定主成分方向。"
-    },
-    {
       "title": "特征向量与特征值的意义(1)：发现矩阵内禀性质",
       "url": "https://zhuanlan.zhihu.com/p/354102331",
       "summary": "正文以斐波那契转移矩阵为例，解释特征值刻画矩阵反复作用时的长期缩放趋势。"
-    },
-    {
-      "title": "奇异值与特征值辨析",
-      "url": "https://zhuanlan.zhihu.com/p/353637184",
-      "summary": "正文给出特征值与特征向量的定义、几何意义和计算例子，并辨析其与奇异值最大拉伸方向的差异。"
     },
     {
       "title": "特征向量与特征值的几何意义(2): 微分方程-相平面图",
@@ -3548,19 +2423,9 @@
       "summary": "正文在特征分解和奇异值分解中说明实对称矩阵及 A'A 的特征值和特征向量。"
     },
     {
-      "title": "现代控制理论：速成/不求甚解版(上)",
-      "url": "https://zhuanlan.zhihu.com/p/356938640",
-      "summary": "正文以系统矩阵 A 的特征值位置作为稳定性判据，并讨论反馈后 A+BF 的极点配置。"
-    },
-    {
       "title": "狄拉克符号的运算规则",
       "url": "https://zhuanlan.zhihu.com/p/356874717",
       "summary": "正文给出本征方程并定义本征矢和本征值，还说明厄米算符的本征值为实数。"
-    },
-    {
-      "title": "理解图的拉普拉斯矩阵",
-      "url": "https://zhuanlan.zhihu.com/p/362416124",
-      "summary": "正文用特征值、特征向量及其重数刻画拉普拉斯矩阵和图的连通分量。"
     },
     {
       "title": "方阵的n次幂求解汇总",
@@ -3578,39 +2443,14 @@
       "summary": "正文定义并计算特征值与特征向量，讨论迹、行列式及矩阵可对角化的条件。"
     },
     {
-      "title": "MATLAB学习笔记（台大郭彦甫YouTube学习视频+硬件光阴simulink教学，不断更）",
-      "url": "https://zhuanlan.zhihu.com/p/361720757",
-      "summary": "正文给出特征值、特征向量的计算命令和具体实例，并解释对角阵与特征向量矩阵的含义。"
-    },
-    {
       "title": "泛函分析（七）第六章 线性算子的谱理论",
       "url": "https://zhuanlan.zhihu.com/p/365254746",
       "summary": "正文把算子谱点解释为特征值的推广，并区分特征值的几何重数与代数重数。"
     },
     {
-      "title": "基于Amos路径分析的输出结果参数详解",
-      "url": "https://zhuanlan.zhihu.com/p/366040568",
-      "summary": "正文把协方差矩阵条件数解释为最大特征值与最小特征值之比，并说明特征值输出。"
-    },
-    {
-      "title": "马尔科夫链, PageRank算法, 与代数图论",
-      "url": "https://zhuanlan.zhihu.com/p/367579738",
-      "summary": "正文利用特征值、谱半径、对角化和幂迭代讨论马尔科夫矩阵的稳态与收敛速度。"
-    },
-    {
-      "title": "[GNN综述] 重新思考空域与谱域GNN之间的联系",
-      "url": "https://zhuanlan.zhihu.com/p/367774462",
-      "summary": "正文通过图矩阵的特征分解、特征值和频率响应函数解释谱域GNN的滤波机制。"
-    },
-    {
       "title": "从实对称矩阵串联线性代数几何意义",
       "url": "https://zhuanlan.zhihu.com/p/369016840",
       "summary": "正文通过相似对角化解释特征向量作为新基、特征值表示拉伸倍数的几何意义。"
-    },
-    {
-      "title": "GNN入门之路：02.谱域方法：Spectral CNN，ChebyNet，GCN",
-      "url": "https://zhuanlan.zhihu.com/p/369382428",
-      "summary": "正文通过拉普拉斯矩阵的谱分解讨论特征值和特征向量，并用谱分量解释图信号滤波。"
     },
     {
       "title": "【6.1】特征值，特征向量和矩阵对角化",
@@ -3628,24 +2468,9 @@
       "summary": "正文把解微分方程与矩阵特征值、特征向量对应，并用特征分解求一阶线性方程组的通解。"
     },
     {
-      "title": "伴读系列（1）：代数图论基础",
-      "url": "https://zhuanlan.zhihu.com/p/373435683",
-      "summary": "正文分析拉普拉斯矩阵的特征值、特征向量和不同图拓扑下的谱分布。"
-    },
-    {
       "title": "线性代数 | 李雅普诺夫方程",
       "url": "https://zhuanlan.zhihu.com/p/105326895",
       "summary": "正文利用Schur分解说明上三角矩阵的对角元是原矩阵的特征值，并据此求解变换后的方程。"
-    },
-    {
-      "title": "与数分抢戏",
-      "url": "https://zhuanlan.zhihu.com/p/374052229",
-      "summary": "正文求导数的特征值与特征函数，并利用不同特征值特征向量的线性无关性展开讨论。"
-    },
-    {
-      "title": "主成分分析结果分析及stata操作",
-      "url": "https://zhuanlan.zhihu.com/p/374185145",
-      "summary": "正文以特征值和累计方差贡献率作为主成分提取标准，并据此确定保留的分量。"
     },
     {
       "title": "Lindblad 方程的三次量子化",
@@ -3658,21 +2483,6 @@
       "summary": "正文将矩阵幂的迹与特征值矩联系起来，推导归一化 Wigner 矩阵的特征值谱密度。"
     },
     {
-      "title": "【面试看这篇就够了】L1、L2正则化理解",
-      "url": "https://zhuanlan.zhihu.com/p/376282535",
-      "summary": "正文对Hessian矩阵作特征值分解，说明各特征方向受L2正则化的缩放程度。"
-    },
-    {
-      "title": "伴读系列（3）：一阶连续时间系统的一致性算法",
-      "url": "https://zhuanlan.zhihu.com/p/376351836",
-      "summary": "正文以拉普拉斯矩阵特征值、Fiedler特征根和特征值分解证明一致性及收敛速度。"
-    },
-    {
-      "title": "spss主成分分析（Principal Component Analysis，PCA）及结果解读",
-      "url": "https://zhuanlan.zhihu.com/p/376799094",
-      "summary": "正文用相关系数矩阵的特征值、累积贡献率和载荷矩阵选择并解释主成分。"
-    },
-    {
       "title": "Hessian矩阵和极值判断",
       "url": "https://zhuanlan.zhihu.com/p/377754969",
       "summary": "正文用实对称 Hessian 的特征分解，把任意方向的二阶导数写成各特征值的加权和。"
@@ -3683,19 +2493,9 @@
       "summary": "正文多处讨论随机矩阵的特征值密度、极限谱和相邻特征值间距分布。"
     },
     {
-      "title": "量子傅里叶变换 & 量子相位估计算法 简介",
-      "url": "https://zhuanlan.zhihu.com/p/380738264",
-      "summary": "正文围绕幺正算符本征态对应的本征值相位展开估计算法，并说明其线路和测量结果。"
-    },
-    {
       "title": "矩阵范数（Norm）、矩阵的迹（trace）、矩阵的谱（spectrum）",
       "url": "https://zhuanlan.zhihu.com/p/381809650",
       "summary": "正文用矩阵特征值定义谱半径，并说明矩阵范数不小于谱半径这一关系。"
-    },
-    {
-      "title": "正交变换最强总结笔记，解决每一个考研线代人的理解难关",
-      "url": "https://zhuanlan.zhihu.com/p/382012427",
-      "summary": "正文反复求二次型矩阵的特征值和特征向量，再以正交矩阵对角化并利用特征值求条件极值。"
     },
     {
       "title": "一道披着极限外衣的线代题",
@@ -3703,19 +2503,9 @@
       "summary": "正文计算矩阵 A 的特征值、特征向量并借对角化求 A^n。"
     },
     {
-      "title": "学习笔记-深入浅出时间序列重构之奇异谱分析",
-      "url": "https://zhuanlan.zhihu.com/p/386389319",
-      "summary": "正文对协方差矩阵作特征分解、排序并投影到特征向量空间。"
-    },
-    {
       "title": "一文通俗搞懂线性无关特征向量个数≤特征值重数",
       "url": "https://zhuanlan.zhihu.com/p/389912497",
       "summary": "正文利用相似变换和特征多项式证明线性无关特征向量个数不超过特征值重数。"
-    },
-    {
-      "title": "最小二乘拟合平面(python/C++版)",
-      "url": "https://zhuanlan.zhihu.com/p/390294059",
-      "summary": "正文在约束最小化推导中把平面参数转化为协方差矩阵的最小特征值及对应特征向量。"
     },
     {
       "title": "一文弄懂为啥(n-1)s^2/σ^2是服从n-1个自由度的卡方分布（正交变换的应用）",
@@ -3723,29 +2513,9 @@
       "summary": "正文求出二次型矩阵的特征值为 1 和 0，并通过正交对角化得到 n-1 个非零平方项。"
     },
     {
-      "title": "深入理解欧氏距离和马氏距离",
-      "url": "https://zhuanlan.zhihu.com/p/390876896",
-      "summary": "正文解释特征值和特征向量如何描述线性变换，并用对角化连接协方差结构与距离度量。"
-    },
-    {
       "title": "中科大2021夏令营数分高代",
       "url": "https://zhuanlan.zhihu.com/p/391906272",
       "summary": "正文求二次曲面系数矩阵的特征值和特征向量，经施密特正交化与正交变换消去交叉项。"
-    },
-    {
-      "title": "一文带你深入浅出地搞懂谱聚类",
-      "url": "https://zhuanlan.zhihu.com/p/392736238",
-      "summary": "正文证明图拉普拉斯矩阵的特征值性质，并以最小若干特征值的特征向量完成谱聚类。"
-    },
-    {
-      "title": "MATLAB | 定态薛定谔方程的数值解——以一维谐振子为例",
-      "url": "https://zhuanlan.zhihu.com/p/393374195",
-      "summary": "正文通过求哈密顿矩阵的本征值和本征向量得到能级和波函数。"
-    },
-    {
-      "title": "Lanczos 算法 & Arnoldi 算法 简述",
-      "url": "https://zhuanlan.zhihu.com/p/393679251",
-      "summary": "正文围绕厄米矩阵本征值和本征向量的求解展开，比较幂法、Lanczos 与 Arnoldi 的迭代原理。"
     },
     {
       "title": "矩阵的迹 （1）相关定理及公式的证明",
@@ -3756,11 +2526,6 @@
       "title": "格林函数、谱函数和态密度",
       "url": "https://zhuanlan.zhihu.com/p/397762078",
       "summary": "正文用哈密顿量的本征态展开格林函数，并按本征能量 E_alpha 求谱表示。"
-    },
-    {
-      "title": "奇异值分解（SVD）的定义、证明、求法（矩阵分解——3. 奇异值分解（SVD））",
-      "url": "https://zhuanlan.zhihu.com/p/399547902",
-      "summary": "正文由A^T A的特征值和标准正交特征向量构造右奇异向量，并由非零特征值开方得到奇异值。"
     },
     {
       "title": "线性代数——二次型",
@@ -3788,11 +2553,6 @@
       "summary": "正文给出实对称矩阵、单特征根和重根情形下可相似对角化的特征值与特征向量条件。"
     },
     {
-      "title": "白化变换：PCA白化、ZCA白化",
-      "url": "https://zhuanlan.zhihu.com/p/414275930",
-      "summary": "正文通过协方差矩阵的特征值分解得到主成分方向，并按特征值缩放各维方差。"
-    },
-    {
       "title": "从一道清华数院推免题回顾高等代数的一个重要内容",
       "url": "https://zhuanlan.zhihu.com/p/414746808",
       "summary": "正文给出并证明 AX=XB 有非零解与两矩阵共享特征根之间的充要关系，并据此推出矩阵方程只有零解。"
@@ -3808,24 +2568,9 @@
       "summary": "正文利用角动量算符本征态、升降算符和对易关系推导 l^2 与 l_z 的本征值及允许的量子数范围。"
     },
     {
-      "title": "保研面试/考研复试线性代数问题整理",
-      "url": "https://zhuanlan.zhihu.com/p/421166540",
-      "summary": "正文定义特征值与特征向量，解释其伸缩意义，并讨论代数重数与几何重数。"
-    },
-    {
       "title": "MIT助理教授赵宇飞团队登数学四大顶刊，华人作者中两位是本科生，最小的是00后",
       "url": "https://zhuanlan.zhihu.com/p/422407713",
       "summary": "正文介绍赵宇飞团队关于有界度图第二特征值重数的定理，并用于解决等角线上界问题。"
-    },
-    {
-      "title": "线性代数知识点",
-      "url": "https://zhuanlan.zhihu.com/p/422251943",
-      "summary": "正文定义特征值和特征向量，整理特征多项式、迹与行列式等性质，并用其讨论矩阵对角化。"
-    },
-    {
-      "title": "[现代控制理论1-2] 状态方程的标准形式与解",
-      "url": "https://zhuanlan.zhihu.com/p/424195290",
-      "summary": "正文用特征值与特征向量构造变换矩阵，并按重根情形讨论对角化和 Jordan 标准型。"
     },
     {
       "title": "首届丘成桐女子中学生数学竞赛 - 笔试试题与解题参考",
@@ -3843,16 +2588,6 @@
       "summary": "正文证明对称矩阵与厄米特矩阵特征值为实数，并讨论特征向量的正交性。"
     },
     {
-      "title": "浙江大学2021-2022学年秋冬学期《线性代数Ⅰ（H）》期中考试部分试题与参考解答",
-      "url": "https://zhuanlan.zhihu.com/p/432645093",
-      "summary": "正文把算子作用于多项式的条件转化为特征值方程，讨论特征值及核空间。"
-    },
-    {
-      "title": "R语言进行PCA(主成分分析)",
-      "url": "https://zhuanlan.zhihu.com/p/433947355",
-      "summary": "正文以协方差矩阵的特征值和特征向量确定主成分，并解释特征值衡量各主成分携带的方差。"
-    },
-    {
       "title": "协方差矩阵特征值的几何意义",
       "url": "https://zhuanlan.zhihu.com/p/435001757",
       "summary": "正文解释协方差矩阵特征值对应投影平方和，并由最大及最小特征向量确定点集拟合直线和平面。"
@@ -3861,26 +2596,6 @@
       "title": "线性代数（个人总结篇一）",
       "url": "https://zhuanlan.zhihu.com/p/437355001",
       "summary": "正文通过惯性定理说明合同变换下正、负、零特征值的数量保持不变。"
-    },
-    {
-      "title": "深入浅出详解因子分析，附案例教学（全）",
-      "url": "https://zhuanlan.zhihu.com/p/437473180",
-      "summary": "正文以协方差矩阵的特征值分解和较大特征值对应的特征向量估计因子载荷。"
-    },
-    {
-      "title": "模态叠加法的基本原理及其Matlab实现方法",
-      "url": "https://zhuanlan.zhihu.com/p/437671045",
-      "summary": "正文详细推导矩阵的广义特征值、特征向量及振型正交性，并用其构造变换矩阵。"
-    },
-    {
-      "title": "理解和分析协方差矩阵",
-      "url": "https://zhuanlan.zhihu.com/p/438029034",
-      "summary": "正文重点讨论实对称协方差矩阵的特征值、特征向量、正交对角化和主方向。"
-    },
-    {
-      "title": "2022数一合工大超越五套卷总结",
-      "url": "https://zhuanlan.zhihu.com/p/441419573",
-      "summary": "正文利用 A-kE 不可逆与零特征值的关系分析特征值，并讨论正交变换下的二次型。"
     },
     {
       "title": "洛伦兹变换各种形式（公式+矩阵）",
@@ -3893,34 +2608,9 @@
       "summary": "正文由零化多项式求出反对称矩阵的特征值及对应特征向量。"
     },
     {
-      "title": "直观线性代数之克莱默法则是怎么回事？",
-      "url": "https://zhuanlan.zhihu.com/p/447606270",
-      "summary": "正文明确指出线性变换保持或伸缩的特征方向以及对应伸缩倍数，说明特征值与特征向量的含义。"
-    },
-    {
-      "title": "奇异值分解（SVD）",
-      "url": "https://zhuanlan.zhihu.com/p/448767610",
-      "summary": "正文通过正交对角化 AA^T 和 A^TA 求特征值、特征向量，并据此构造奇异值分解。"
-    },
-    {
-      "title": "科研中常用的十种数据降维方法（建议收藏）",
-      "url": "https://zhuanlan.zhihu.com/p/449073201",
-      "summary": "正文把PCA降维展开为协方差矩阵特征值分解和主成分筛选。"
-    },
-    {
       "title": "斐波那契数列通项公式求解",
       "url": "https://zhuanlan.zhihu.com/p/451617827",
       "summary": "正文求矩阵特征值和特征向量，利用对角化计算矩阵幂并导出斐波那契通项。"
-    },
-    {
-      "title": "【数学】线性代数知识点总结（精炼版）",
-      "url": "https://zhuanlan.zhihu.com/p/453305373",
-      "summary": "正文给出特征值和特征向量的方程，讨论特征多项式、相似矩阵及可对角化条件。"
-    },
-    {
-      "title": "数据降维大法--主成分分析法经典案例讲解（入门必看）",
-      "url": "https://zhuanlan.zhihu.com/p/454447043",
-      "summary": "正文用协方差矩阵的特征值和单位特征向量构造各主成分。"
     },
     {
       "title": "幂等矩阵的性质与应用",
@@ -3928,19 +2618,9 @@
       "summary": "正文从特征值方程证明幂等矩阵的特征值只能为 0 或 1。"
     },
     {
-      "title": "《线性代数》知识点汇总",
-      "url": "https://zhuanlan.zhihu.com/p/457894126",
-      "summary": "正文以 Aα=λα 定义特征值和特征向量，讨论特征方程、性质及相似对角化。"
-    },
-    {
       "title": "【笔记】3Blue1Brown线性代数的本质",
       "url": "https://zhuanlan.zhihu.com/p/457858293",
       "summary": "正文由特征向量方程推出特征方程，并讲解特征基、对角化和矩阵高次幂计算。"
-    },
-    {
-      "title": "【图论】Laplacian矩阵基础知识",
-      "url": "https://zhuanlan.zhihu.com/p/461609532",
-      "summary": "正文讨论 Laplacian 矩阵的实对称性、特征值排序和半正定性，并给出上下界及连通性结论。"
     },
     {
       "title": "Solving Schrödinger Equation using Variational Method",
@@ -3948,29 +2628,9 @@
       "summary": "正文把变分法的驻值条件化为广义特征值问题，并通过变换化为普通矩阵特征值问题求解。"
     },
     {
-      "title": "奇异值分解总结 (Summary on SVD)",
-      "url": "https://zhuanlan.zhihu.com/p/463298440",
-      "summary": "正文用 A^TA 与 AA^T 的特征值和特征向量构造奇异值分解。"
-    },
-    {
-      "title": "一文读懂PCA分析 （原理、算法、解释和可视化）",
-      "url": "https://zhuanlan.zhihu.com/p/467281058",
-      "summary": "正文解释 PCA 通过协方差矩阵的特征值与特征向量完成对角化和降维。"
-    },
-    {
-      "title": "Jordan(若尔当)标准型知识梳理",
-      "url": "https://zhuanlan.zhihu.com/p/470026382",
-      "summary": "正文用特征值的代数重数、几何重数及广义特征空间确定 Jordan 块的数量和尺寸。"
-    },
-    {
       "title": "逆协方差矩阵玩出花！",
       "url": "https://zhuanlan.zhihu.com/p/480918380",
       "summary": "正文讨论协方差逆矩阵的本征值对泰勒级数收敛性的限制，以及通过修改矩阵绕开该条件的做法。"
-    },
-    {
-      "title": "SPSS主成分分析步骤及结果，详细版",
-      "url": "https://zhuanlan.zhihu.com/p/481576614",
-      "summary": "正文以特征值大于 1 和碎石图作为因子抽取标准，并说明各因子的特征值即方差贡献。"
     },
     {
       "title": "Gauss绝妙定理的证明",
@@ -3981,11 +2641,6 @@
       "title": "从线性代数到量子力学(21)：氢原子薛定谔方程求解过程赏析(下)",
       "url": "https://zhuanlan.zhihu.com/p/456815029",
       "summary": "正文讨论共同本征态、能量本征值及同一能级对应的量子数简并度。"
-    },
-    {
-      "title": "模型压缩之模型分解篇：SVD分解，CP分解和Tucker分解",
-      "url": "https://zhuanlan.zhihu.com/p/490455377",
-      "summary": "正文定义特征值和特征向量，并用 A^TA、AA^T 的特征分解构造 SVD。"
     },
     {
       "title": "石墨烯的能带结构",
@@ -4013,34 +2668,14 @@
       "summary": "正文从矩阵特征值引入谱，并说明特征值刻画有限维线性算子的基本性质。"
     },
     {
-      "title": "动力学模态分解 (Dynamic Mode Decomposition, DMD) 学习",
-      "url": "https://zhuanlan.zhihu.com/p/501969800",
-      "summary": "正文以矩阵的特征值和特征向量定义 DMD 模态，并据此进行时间演化预测。"
-    },
-    {
-      "title": "一篇文章搞懂：向量自回归模型（VAR）理论、检验及评价",
-      "url": "https://zhuanlan.zhihu.com/p/508561823",
-      "summary": "正文用特征方程和参数矩阵的特征值条件判定 VAR 系统的稳定性。"
-    },
-    {
       "title": "一维横场Ising模型-1D Transverse Field Ising Model",
       "url": "https://zhuanlan.zhihu.com/p/510995277",
       "summary": "正文通过矩阵对角化得到准粒子激发能量和完整本征谱。"
     },
     {
-      "title": "【矩阵论】Jordan 标准型及其求解方法",
-      "url": "https://zhuanlan.zhihu.com/p/517900683",
-      "summary": "正文通过特征矩阵、行列式因子和初等因子确定特征值，并据此构造 Jordan 标准形。"
-    },
-    {
       "title": "矩阵可对角化的充要条件",
       "url": "https://zhuanlan.zhihu.com/p/519785702",
       "summary": "正文把可对角化与特征向量构成基、特征子空间直和以及代数重数等于几何重数等特征值条件联系起来。"
-    },
-    {
-      "title": "统计套利的基石：Ornstein–Uhlenbeck Process",
-      "url": "https://zhuanlan.zhihu.com/p/521243637",
-      "summary": "正文对转移矩阵作特征值分解并构造新坐标，以特征值实部判定多元 OU 过程是否平稳。"
     },
     {
       "title": "从线性代数到量子力学(22)：氢原子模型的球对称性",
@@ -4063,19 +2698,9 @@
       "summary": "正文利用特征子空间和特征多项式讨论零化多项式，并介绍 Hamilton-Cayley 定理。"
     },
     {
-      "title": "【机器学习】数学基础",
-      "url": "https://zhuanlan.zhihu.com/p/530636879",
-      "summary": "正文以矩阵作用下的伸缩不旋转解释特征向量、特征值及其降维意义。"
-    },
-    {
       "title": "【矩阵论】矩阵的谱分解",
       "url": "https://zhuanlan.zhihu.com/p/532955585",
       "summary": "正文以特征值和特征向量构造谱族，并给出可对角化矩阵的谱分解。"
-    },
-    {
-      "title": "《计算机视觉中的多视图几何》阅读笔记",
-      "url": "https://zhuanlan.zhihu.com/p/542677027",
-      "summary": "正文解释矩阵特征向量的几何意义，将其对应到齐次坐标下变换的不动点。"
     },
     {
       "title": "二次曲线的一般理论",
@@ -4103,19 +2728,9 @@
       "summary": "正文用谱分解和特征值的符号刻画矩阵的正负定性，并给出相应证明。"
     },
     {
-      "title": "流形学习（Manifold Learning）",
-      "url": "https://zhuanlan.zhihu.com/p/566088096",
-      "summary": "正文把 LLE 的低维坐标求解归结为矩阵特征分解，并取最小特征值对应特征向量。"
-    },
-    {
       "title": "（泛函分析中的）谱理论速成",
       "url": "https://zhuanlan.zhihu.com/p/566107266",
       "summary": "正文从有限维特征值推广到无限维算子谱，并区分点谱、连续谱和剩余谱。"
-    },
-    {
-      "title": "保研面试/考研复试数学问题整理（cs/ai 等工科专业）",
-      "url": "https://zhuanlan.zhihu.com/p/567252248",
-      "summary": "正文解释特征值和特征向量的几何意义，并讨论相似对角化、特征值分解和奇异值分解。"
     },
     {
       "title": "代数基本定理的复分析证明方法",
@@ -4133,34 +2748,9 @@
       "summary": "通过循环置换矩阵的特征向量方程求单位根，并说明这些单位根就是全部特征值。"
     },
     {
-      "title": "几何学(I)期中复习",
-      "url": "https://zhuanlan.zhihu.com/p/577621514",
-      "summary": "正文由二次曲线主方向满足的特征值方程求对称轴，具体涉及特征值。"
-    },
-    {
-      "title": "智能反射面（IRS）在无线通信安全领域应用的论文复现",
-      "url": "https://zhuanlan.zhihu.com/p/586031037",
-      "summary": "正文用矩阵的最大特征值及其归一化特征向量给出固定IRS相位时的最优波束。"
-    },
-    {
-      "title": "MATLAB手搓有限元代码",
-      "url": "https://zhuanlan.zhihu.com/p/592671493",
-      "summary": "正文把广义矩阵特征值问题化为标准特征值问题，并用求解器逼近特征值与特征函数。"
-    },
-    {
-      "title": "用间隔重复系统来看穿数学概念",
-      "url": "https://zhuanlan.zhihu.com/p/593630309",
-      "summary": "正文围绕特征值、特征向量和特征基解释复正规矩阵可对角化的条件与证明。"
-    },
-    {
       "title": "数学物理方程--波动方程",
       "url": "https://zhuanlan.zhihu.com/p/594560115",
       "summary": "正文把固定边界条件化为常微分方程的本征值问题，得到离散本征值及各阶振动模态。"
-    },
-    {
-      "title": "算法学习笔记(9)：二项式反演",
-      "url": "https://zhuanlan.zhihu.com/p/602675596",
-      "summary": "正文构造 01 邻接矩阵，计算 A²、分析特征值并获得矩阵的迹，从而确定图中不同度数的顶点数量。"
     },
     {
       "title": "《数学天书中的证明》整理笔记（28）",
@@ -4168,19 +2758,9 @@
       "summary": "正文由邻接矩阵的平方确定特征值重数，再借矩阵的迹证明满足自内积为零的顶点数。"
     },
     {
-      "title": "AI与PDE（八）：Koopman算子的理论框架",
-      "url": "https://zhuanlan.zhihu.com/p/603855350",
-      "summary": "正文对 Koopman 算子作特征分解，以特征值和特征函数展开观测函数并描述系统演化。"
-    },
-    {
       "title": "【矩阵论】舒尔(Schur)定理 & 舒尔不等式",
       "url": "https://zhuanlan.zhihu.com/p/612413827",
       "summary": "正文说明舒尔分解所得上三角矩阵的对角元为原矩阵特征值，并用特征值模平方和证明舒尔不等式。"
-    },
-    {
-      "title": "矩阵分解—特征值分解与奇异值分解",
-      "url": "https://zhuanlan.zhihu.com/p/613284889",
-      "summary": "正文从方向不变的特征向量出发，讲解特征值和特征向量的定义与计算。"
     },
     {
       "title": "如何理解三类PDE(椭圆, 抛物, 双曲)？",
@@ -4191,21 +2771,6 @@
       "title": "矩阵指数exp(A)的19种计算方法",
       "url": "https://zhuanlan.zhihu.com/p/610887072",
       "summary": "正文通过对角化、特征多项式、插值和若尔当型利用矩阵特征值计算矩阵指数。"
-    },
-    {
-      "title": "怎样理解线性代数",
-      "url": "https://zhuanlan.zhihu.com/p/617709719",
-      "summary": "正文专门解释特征值、特征向量的几何意义，并讨论相似、对角化与Jordan标准型。"
-    },
-    {
-      "title": "现代控制理论期末复习笔记（必考题型归纳速成）",
-      "url": "https://zhuanlan.zhihu.com/p/620250888",
-      "summary": "正文通过特征方程、特征值和特征向量判定对角形或若当标准形。"
-    },
-    {
-      "title": "矩阵论 --- 期末复习",
-      "url": "https://zhuanlan.zhihu.com/p/621520926",
-      "summary": "正文反复使用特征多项式、特征值和谱半径，讲解相似标准形、谱范数与奇异值分解。"
     },
     {
       "title": "哈密顿-凯莱定理的有趣证明",
@@ -4253,11 +2818,6 @@
       "summary": "正文系统讨论对称矩阵的实特征值、特征向量和对角化，并证明 A^T A 的特征值非负。"
     },
     {
-      "title": "Lecture 1 系统状态方程、平衡点与稳定性",
-      "url": "https://zhuanlan.zhihu.com/p/629135263",
-      "summary": "正文对雅可比矩阵作特征值分解，并以特征值实部的符号判断平衡点稳定性。"
-    },
-    {
       "title": "线性代数的本质（完整版）",
       "url": "https://zhuanlan.zhihu.com/p/629986822",
       "summary": "从特征方向保持不变说明特征向量与特征值，并讨论对角化和特征基。"
@@ -4293,16 +2853,6 @@
       "summary": "正文讨论矩阵的特征值、特征向量和可对角化条件，并以特征多项式完成核心论证。"
     },
     {
-      "title": "Krylov算法入门",
-      "url": "https://zhuanlan.zhihu.com/p/644117637",
-      "summary": "正文讲解用 Krylov 子空间求最大特征值，并介绍幂法、Arnoldi、Lanczos 和 Rayleigh 商迭代。"
-    },
-    {
-      "title": "线性代数(Linear Algebra)学习笔记",
-      "url": "https://zhuanlan.zhihu.com/p/641433373",
-      "summary": "正文展开特征值与特征向量的几何意义、性质、相似对角化和谱分解。"
-    },
-    {
       "title": "重置双元+简单构型+部分\"新成果\"的证明",
       "url": "https://zhuanlan.zhihu.com/p/653230069",
       "summary": "正文通过求二次型矩阵的特征根和单位特征向量构造正交阵，用于化简二次型。"
@@ -4313,39 +2863,14 @@
       "summary": "正文通过传递函数极点即特征值说明时域模态和系统稳定性。"
     },
     {
-      "title": "矩阵等价、相似、合同相关（补充相似对角化、正定矩阵、秩不等式）",
-      "url": "https://zhuanlan.zhihu.com/p/655538928",
-      "summary": "正文把相似矩阵的必要条件归结为特征值相同，并进一步讨论可相似对角化。"
-    },
-    {
-      "title": "现代控制理论——稳定性分析（Lyapunov）",
-      "url": "https://zhuanlan.zhihu.com/p/655831714",
-      "summary": "正文给出并解释按矩阵特征值实部符号判定线性时不变系统稳定、渐近稳定或不稳定的结论。"
-    },
-    {
       "title": "《特征值与特征向量、矩阵相似对角化、二次型》个人笔记",
       "url": "https://zhuanlan.zhihu.com/p/659161802",
       "summary": "正文系统定义特征值与特征向量，讨论重数、相似不变量、可对角化条件和正交化求法。"
     },
     {
-      "title": "主成分分析(PCA)从基本思想到分析和绘图一文搞定—基于R语言 全网最详细PCA分析教程 全文两万三千余字",
-      "url": "https://zhuanlan.zhihu.com/p/660541006",
-      "summary": "正文用特征值衡量各主成分保留的变异量，并据特征值和碎石图决定保留的主成分数量。"
-    },
-    {
-      "title": "现代控制理论-状态空间与状态方程",
-      "url": "https://zhuanlan.zhihu.com/p/663445112",
-      "summary": "正文通过矩阵对角化和特征值位置分析系统稳定性与动态响应。"
-    },
-    {
       "title": "厄米特矩阵（Hermitian Matrix）",
       "url": "https://zhuanlan.zhihu.com/p/663929827",
       "summary": "正文证明厄米特矩阵的实特征值、特征向量正交性和酉对角化等结论。"
-    },
-    {
-      "title": "《3D Gaussian Splatting for Real-Time Radiance Field Rendering》3D高斯的理论理解",
-      "url": "https://zhuanlan.zhihu.com/p/664725693",
-      "summary": "正文通过协方差矩阵的特征值和特征向量构造缩放、旋转表示，并据此恢复协方差矩阵。"
     },
     {
       "title": "最凶最恶の矩阵相似——Jordan标准型",
@@ -4373,16 +2898,6 @@
       "summary": "正文从边界值问题的特征值出发，说明线性算子的谱何时可数离散，并以解析行列式定位特征值。"
     },
     {
-      "title": "通俗易懂：马氏距离（举例）",
-      "url": "https://zhuanlan.zhihu.com/p/674071134",
-      "summary": "正文用协方差矩阵的特征向量和特征值构造正交分解，并据此求逆矩阵。"
-    },
-    {
-      "title": "通俗易懂：矩阵SVD分解（举例）",
-      "url": "https://zhuanlan.zhihu.com/p/674765236",
-      "summary": "正文利用 A'A 的特征分解定义奇异值，并解释实对称矩阵特征值非负及特征向量的作用。"
-    },
-    {
       "title": "常微分方程习题选集",
       "url": "https://zhuanlan.zhihu.com/p/675359800",
       "summary": "正文多次建立特征方程、求特征根和特征向量，并用特征根实部判断解的形态与稳定性。"
@@ -4398,19 +2913,9 @@
       "summary": "正文以特征根方程求特征值，并证明正规矩阵存在酉特征值分解。"
     },
     {
-      "title": "行列式的几种特殊计算技巧",
-      "url": "https://zhuanlan.zhihu.com/p/676794395",
-      "summary": "正文把先求三阶矩阵特征值再确定特征多项式作为一项具体计算技巧。"
-    },
-    {
       "title": "「特征值分解」和「奇异值分解」的几何意义",
       "url": "https://zhuanlan.zhihu.com/p/679790588",
       "summary": "正文以特征向量作为基，推导特征值分解并说明特征值对应的拉伸作用。"
-    },
-    {
-      "title": "LLM(25)：从控制系统到语言模型 —— Mamba 的前世今生",
-      "url": "https://zhuanlan.zhihu.com/p/680833040",
-      "summary": "正文利用矩阵特征值对角化计算状态转移矩阵的幂，从而构造卷积核。"
     },
     {
       "title": "通俗易懂：什么是相似矩阵",
@@ -4421,21 +2926,6 @@
       "title": "通俗易懂：什么是对角矩阵",
       "url": "https://zhuanlan.zhihu.com/p/684828942",
       "summary": "正文明确指出对角矩阵的特征值就是各主对角线元素。"
-    },
-    {
-      "title": "通俗易懂：矩阵对角化",
-      "url": "https://zhuanlan.zhihu.com/p/684220530",
-      "summary": "正文利用特征向量组成可逆矩阵、特征值组成对角矩阵，并给出 A=PDP^{-1} 的推导。"
-    },
-    {
-      "title": "值融合排序公式设计哲学的数学原理",
-      "url": "https://zhuanlan.zhihu.com/p/685325348",
-      "summary": "正文用协方差矩阵最大特征值对应的特征向量确定融合投影方向，再由特征向量分量得到幂指数。"
-    },
-    {
-      "title": "高中数学奇技淫巧之不等式：瑞利商",
-      "url": "https://zhuanlan.zhihu.com/p/699063885",
-      "summary": "正文用矩阵的特征值界出瑞利商的上下界，并通过求特征值得到三道不等式的最值。"
     },
     {
       "title": "线性代数秩不等式证明方法——舒尔补",
@@ -4458,11 +2948,6 @@
       "summary": "正文比较 B 与 B² 的特征多项式，将所有特征值限制为 0 或 1，并进一步证明 A 的非零特征值模长为 1。"
     },
     {
-      "title": "低秩近似之路（一）：伪逆",
-      "url": "https://zhuanlan.zhihu.com/p/790279779",
-      "summary": "正文通过 A 的转置乘积的正交对角化和特征值取倒数给出伪逆的稳定计算方式。"
-    },
-    {
       "title": "DMRG 的原理",
       "url": "https://zhuanlan.zhihu.com/p/1920278979",
       "summary": "正文推导以约化密度矩阵最大本征值对应的本征矢截断希尔伯特空间的最优性。"
@@ -4478,24 +2963,9 @@
       "summary": "正文用对称正定矩阵的特征值和特征向量解释椭球各轴的方向与长度。"
     },
     {
-      "title": "线性代数知识点总结（全网最全）",
-      "url": "https://zhuanlan.zhihu.com/p/9338829172",
-      "summary": "正文讲解特征值、特征向量的性质以及相似矩阵和相似对角化。"
-    },
-    {
-      "title": "LLMs量化系列|LLM量化方法小结",
-      "url": "https://zhuanlan.zhihu.com/p/12568191406",
-      "summary": "正文说明量化舍入误差与Hessian矩阵的特征值和不相干性有关，并据此选择旋转变换。"
-    },
-    {
       "title": "线性代数中的几何观念是如何诞生的",
       "url": "https://zhuanlan.zhihu.com/p/20521571570",
       "summary": "正文用初等因子、特征多项式和 Jordan 块解释矩阵相似与特征值结构。"
-    },
-    {
-      "title": "最核心算法之一：SVD（奇异值分解）",
-      "url": "https://zhuanlan.zhihu.com/p/31661081181",
-      "summary": "正文通过矩阵乘积的特征值与特征向量计算奇异值，实质讲解了特征值在SVD中的作用。"
     },
     {
       "title": "复杂系统的分岔理论（Bifurcation Theory）",

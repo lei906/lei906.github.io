@@ -18,21 +18,6 @@
       "summary": "通过向量夹角和柯西不等式解释相关系数取值及线性相关；用于皮尔逊相关时应先中心化且方差非零，不能把任意原始向量内积直接称为协方差。"
     },
     {
-      "title": "请用通俗易懂的语言解释一下 Copula 函数，以及其在金融风险管理中的应用？",
-      "url": "https://www.zhihu.com/answer/24109507",
-      "summary": "正文围绕“相关性”给出直接说明。"
-    },
-    {
-      "title": "因子分析的计算过程能否手算得出？",
-      "url": "https://www.zhihu.com/answer/25465497",
-      "summary": "正文围绕“相关性”给出直接说明。"
-    },
-    {
-      "title": "协方差矩阵有什么意义？",
-      "url": "https://www.zhihu.com/answer/27294834",
-      "summary": "正文围绕“相关性”给出说明、例证或方法。"
-    },
-    {
       "title": "随机变量的独立性和相关性有什么联系？相关系数为零能说明什么？",
       "url": "https://www.zhihu.com/answer/28516176",
       "summary": "正文围绕“相关性”给出说明、例证或方法。"
@@ -58,11 +43,6 @@
       "summary": "正文以单位圆例子解释零线性相关。"
     },
     {
-      "title": "投资组合的方差公式是什么？",
-      "url": "https://www.zhihu.com/answer/34530939",
-      "summary": "正文使用协方差和相关性解释组合方差。"
-    },
-    {
       "title": "如何通俗易懂地解释「协方差」与「相关系数」的概念？",
       "url": "https://www.zhihu.com/answer/42004972",
       "summary": "正文解释协方差与相关系数的含义和计算关系。"
@@ -71,11 +51,6 @@
       "title": "为什么随机变量X和Y不相关却不一定独立？",
       "url": "https://www.zhihu.com/answer/42168466",
       "summary": "正文解释不相关与协方差。"
-    },
-    {
-      "title": "独立成分分析 ( ICA ) 与主成分分析 ( PCA ) 的区别在哪里？",
-      "url": "https://www.zhihu.com/answer/42292804",
-      "summary": "正文明确说明PCA所得各分量不相关，并在ICA预处理中继续使用这一性质。"
     },
     {
       "title": "如何去直观地理解不相关不一定是独立，而独立必然不相关？",
@@ -88,11 +63,6 @@
       "summary": "正文明确说明内积可刻画随机变量的相关度。"
     },
     {
-      "title": "如何用直观的例子理解随机过程理论中随机过程的自相关函数和协方差函数的概念含义，它们在信号领域有何应用？",
-      "url": "https://www.zhihu.com/answer/71279520",
-      "summary": "正文解释自相关函数为何描述不同时刻间的内在相关性。"
-    },
-    {
       "title": "如何通俗易懂地解释「协方差」与「相关系数」的概念？",
       "url": "https://www.zhihu.com/answer/75082492",
       "summary": "正文从联合分布和协方差符号解释正相关、负相关与不相关。"
@@ -101,11 +71,6 @@
       "title": "数据分析方法论是什么？",
       "url": "https://www.zhihu.com/answer/77616356",
       "summary": "正文具体解释相关方向、相关程度及线性相关、偏相关，并与回归分析比较。"
-    },
-    {
-      "title": "结构方程模型、CFA、路径分析、潜变量调节模型这几个是什么关系？",
-      "url": "https://www.zhihu.com/answer/84209785",
-      "summary": "正文把零阶相关作为路径分析的基础并讨论变量关系。"
     },
     {
       "title": "协方差的意义？",
@@ -123,26 +88,6 @@
       "summary": "正文把不相关解释为没有线性关系，并与一般关系区分。"
     },
     {
-      "title": "格兰杰因果检验（Granger causality test）是否犯了逻辑上的后此谬误？",
-      "url": "https://www.zhihu.com/answer/101596157",
-      "summary": "正文系统区分统计相关关系与真正因果关系，并给出混杂因素例子。"
-    },
-    {
-      "title": "如何通俗易懂地介绍 Gaussian Process？",
-      "url": "https://www.zhihu.com/answer/102211375",
-      "summary": "正文用协方差矩阵和相关系数表示输出之间的接近程度。"
-    },
-    {
-      "title": "如何通俗易懂地介绍 Gaussian Process？",
-      "url": "https://www.zhihu.com/answer/102314452",
-      "summary": "正文通过协方差矩阵与核矩阵表达样本间依赖。"
-    },
-    {
-      "title": "如何通俗易懂地介绍 Gaussian Process？",
-      "url": "https://www.zhihu.com/answer/102319379",
-      "summary": "正文用距离决定相关性，并以核函数刻画相关性。"
-    },
-    {
       "title": "如何理解统计学中「自由度」这个概念？",
       "url": "https://www.zhihu.com/answer/103527456",
       "summary": "正文用共享随机性相消解释相关变量组合后随机性降低。"
@@ -153,29 +98,9 @@
       "summary": "正文由内积定义协方差，并说明它如何度量两个随机变量的相关性。"
     },
     {
-      "title": "什么是时间序列模型，什么是弱平稳和严格平稳？",
-      "url": "https://www.zhihu.com/answer/112180602",
-      "summary": "正文解释自相关系数随滞后期的衰减如何用于平稳性检验。"
-    },
-    {
       "title": "记忆宫殿，思维导图等方法可以用于推导公式吗？",
       "url": "https://www.zhihu.com/answer/114942905",
       "summary": "正文解释相关系数是协方差除以两变量标准差。"
-    },
-    {
-      "title": "关于《女士品茶》一书，各位看完后有没有比较深刻或独特的一些想法？",
-      "url": "https://www.zhihu.com/answer/115358201",
-      "summary": "正文以吸烟与肺癌区分统计相关和确定因果。"
-    },
-    {
-      "title": "时间序列建模问题，如何准确的建立时间序列模型？",
-      "url": "https://www.zhihu.com/answer/116155144",
-      "summary": "正文用 ACF、PACF 和白噪声解释时间序列自相关。"
-    },
-    {
-      "title": "如何理解皮尔逊相关系数（Pearson Correlation Coefficient）？",
-      "url": "https://www.zhihu.com/answer/117730676",
-      "summary": "正文从协方差与标准差出发解释皮尔逊相关系数、正负相关及其取值范围。"
     },
     {
       "title": "如何看待北大本科生「发现红包不是随机分配」的研究？",
@@ -188,24 +113,9 @@
       "summary": "正文从条件均值变化、协方差面积和向量夹角三个角度解释相关系数与协方差。"
     },
     {
-      "title": "如何通俗易懂地解释「协方差」与「相关系数」的概念？",
-      "url": "https://www.zhihu.com/answer/129508585",
-      "summary": "正文从离差乘积均值、标准化和几何形态系统解释协方差与相关系数。"
-    },
-    {
       "title": "有哪些好的非线性相关分析算法？",
       "url": "https://www.zhihu.com/answer/131942399",
       "summary": "正文定义Spearman和Kendall秩相关系数，比较其与Pearson线性相关在非线性变换下的性质。"
-    },
-    {
-      "title": "为什么ols识别的是因果关系，而不是相关关系？",
-      "url": "https://www.zhihu.com/answer/133127608",
-      "summary": "正文明确区分相关与因果，并说明统计模型不能无假设识别因果。"
-    },
-    {
-      "title": "如何通俗易懂地解释「协方差」与「相关系数」的概念？",
-      "url": "https://www.zhihu.com/answer/134902061",
-      "summary": "正文从公式、同反向变化与标准化完整解释协方差和相关系数。"
     },
     {
       "title": "概率论中，「矩」（moment）的实际含义是什么？高阶矩表示数据的哪些状态？",
@@ -213,24 +123,9 @@
       "summary": "正文把协方差作为多变量混合矩并用于图像方向分析。"
     },
     {
-      "title": "你最欣赏的数据可视化的案例是什么？",
-      "url": "https://www.zhihu.com/answer/153633108",
-      "summary": "正文用安斯库姆四重奏和误导图表说明相同统计量、相关性与真实数据结构可能不同。"
-    },
-    {
       "title": "有哪些没专业知识就 get 不到的笑点？",
       "url": "https://www.zhihu.com/answer/154733720",
       "summary": "正文用冰淇淋与溺亡的共同原因解释相关性不等于因果性。"
-    },
-    {
-      "title": "请用通俗易懂的语言解释一下 Copula 函数，以及其在金融风险管理中的应用？",
-      "url": "https://www.zhihu.com/answer/154856003",
-      "summary": "正文说明联合分布的相关结构由 Copula 决定，并讨论金融建模风险。"
-    },
-    {
-      "title": "贝塔系数和相关系数的区别？",
-      "url": "https://www.zhihu.com/answer/156270527",
-      "summary": "正文解释相关系数描述两变量线性相关程度，并与 beta 系数区分。"
     },
     {
       "title": "有哪两种事物容易被人们混淆？",
@@ -238,69 +133,14 @@
       "summary": "正文用人群差异解释相关强弱与因果关系为何不能混同。"
     },
     {
-      "title": "如何理解皮尔逊相关系数（Pearson Correlation Coefficient）？",
-      "url": "https://www.zhihu.com/answer/174098489",
-      "summary": "正文把皮尔逊相关系数解释为中心化后的余弦相似度并给出业务含义。"
-    },
-    {
-      "title": "加入某个控制变量后原解释变量不显著了是什么原因？",
-      "url": "https://www.zhihu.com/answer/183529631",
-      "summary": "正文区分虚假相关、竞争性因素和调节变量，并讨论相关系数如何变化。"
-    },
-    {
-      "title": "时间序列模型有什么实际用处？",
-      "url": "https://www.zhihu.com/answer/200476042",
-      "summary": "正文通过自相关和偏自相关分析序列相关结构。"
-    },
-    {
-      "title": "如何快速掌握 SPSS ？",
-      "url": "https://www.zhihu.com/answer/205655129",
-      "summary": "正文以教育程度和收入为例解释相关分析结果。"
-    },
-    {
-      "title": "请问资产组合中的有效边界怎么定义？",
-      "url": "https://www.zhihu.com/answer/212345334",
-      "summary": "正文以股票之间协方差刻画联合变动关系。"
-    },
-    {
       "title": "如何理解二维正态分布？",
       "url": "https://www.zhihu.com/answer/242657799",
       "summary": "正文用协方差矩阵描述各维随机变量之间的相关结构。"
     },
     {
-      "title": "除了工具变量，还有哪些解决内生性的方法？效果如何？",
-      "url": "https://www.zhihu.com/answer/265911923",
-      "summary": "正文用扰动项与解释变量相关来定义模型内生性。"
-    },
-    {
-      "title": "如何快速掌握 SPSS ？",
-      "url": "https://www.zhihu.com/answer/266233851",
-      "summary": "正文解释相关系数大小及实际数据中的相关关系。"
-    },
-    {
-      "title": "怎么在不减少变量下消除多重共线性？",
-      "url": "https://www.zhihu.com/answer/274941251",
-      "summary": "正文说明预测变量高度相关会导致回归系数估计不稳。"
-    },
-    {
-      "title": "如何看待NIPS2017图灵奖得主贝叶斯网络之父Judea Pearl讲座无人问津？",
-      "url": "https://www.zhihu.com/answer/276171509",
-      "summary": "正文解释相关性不代表因果性以及两者定义的差别。"
-    },
-    {
       "title": "有哪些大家默认「受过九年义务教育的一定懂了」，而实际上还有很多人不懂的问题？成因可能是什么？",
       "url": "https://www.zhihu.com/answer/276631047",
       "summary": "正文明确指出统计相关性不能推出因果性。"
-    },
-    {
-      "title": "应该如何理解和处理自相关（序列相关）？",
-      "url": "https://www.zhihu.com/answer/285012845",
-      "summary": "正文定义相关性并解释时间序列中的相关关系。"
-    },
-    {
-      "title": "如何理解VAR（向量自回归）模型中的广义脉冲响应函数？",
-      "url": "https://www.zhihu.com/answer/285216594",
-      "summary": "正文解释两个时间序列冲击的相关性。"
     },
     {
       "title": "如何通俗易懂地解释「协方差」与「相关系数」的概念？",
@@ -328,49 +168,9 @@
       "summary": "正文定义相关系数范围并用实例解释相关性。"
     },
     {
-      "title": "请问有没有方法能够量化方言之间的语言距离？",
-      "url": "https://www.zhihu.com/answer/336628841",
-      "summary": "正文说明通过字音差异计算相关系数并综合成方言距离。"
-    },
-    {
-      "title": "休谟说“因果关系”是我们的错觉，是一种习惯，怎么理解休谟的逻辑呢？",
-      "url": "https://www.zhihu.com/answer/341307457",
-      "summary": "正文区分相关性与因果性并讨论从相关归纳因果的局限。"
-    },
-    {
-      "title": "请用通俗易懂的语言解释一下 Copula 函数，以及其在金融风险管理中的应用？",
-      "url": "https://www.zhihu.com/answer/342731274",
-      "summary": "正文说明Copula函数专门刻画多个变量之间的相关结构。"
-    },
-    {
-      "title": "如何理解皮尔逊相关系数（Pearson Correlation Coefficient）？",
-      "url": "https://www.zhihu.com/answer/349132554",
-      "summary": "正文系统讲解皮尔逊相关系数如何衡量向量相似性。"
-    },
-    {
-      "title": "vine - copula？是个什么东东？了解这个需要什么基础？",
-      "url": "https://www.zhihu.com/answer/361859732",
-      "summary": "正文围绕高维变量的相关结构与尾部相关性建模。"
-    },
-    {
-      "title": "拟合与回归有什么区别？",
-      "url": "https://www.zhihu.com/answer/371618173",
-      "summary": "正文说明回归还需分析变量是否相关、相关方向与强度。"
-    },
-    {
       "title": "为何以范剑青老师的 Sure Independence Screening 为代表的筛选法没有流行呢？",
       "url": "https://www.zhihu.com/answer/376725413",
       "summary": "正文说明SIS以Pearson相关系数衡量变量关联。"
-    },
-    {
-      "title": "一个变量的计量结果原本不显著，但增加控制变量后变得显著，其结果是否可信？",
-      "url": "https://www.zhihu.com/answer/377661917",
-      "summary": "正文以解释变量相关性说明遗漏变量偏误。"
-    },
-    {
-      "title": "如何快速掌握 SPSS ？",
-      "url": "https://www.zhihu.com/answer/380763136",
-      "summary": "正文解释皮尔逊相关系数用于衡量变量相关性。"
     },
     {
       "title": "有哪些相关性不等于因果性的例子?",
@@ -383,34 +183,9 @@
       "summary": "正文通过去相关变换处理变量间相关关系。"
     },
     {
-      "title": "t-sne数据可视化算法的作用是啥？为了降维还是认识数据？",
-      "url": "https://www.zhihu.com/answer/387753267",
-      "summary": "正文比较线性相关、非线性相关与不同降维模型选择。"
-    },
-    {
-      "title": "协变量、自变量与解释变量的区别联系？",
-      "url": "https://www.zhihu.com/answer/401767285",
-      "summary": "正文说明协变量会影响因变量并需控制其干扰。"
-    },
-    {
-      "title": "有哪些有效的可以衡量两段或多段时间序列相似度的方法？",
-      "url": "https://www.zhihu.com/answer/428068184",
-      "summary": "正文给出用 Pearson 相关系数衡量序列相似度的公式。"
-    },
-    {
-      "title": "主成分分析法是什么意思？能不能用简单的话解释一下？",
-      "url": "https://www.zhihu.com/answer/432025686",
-      "summary": "正文通过变量相关性解释主成分降维的动机。"
-    },
-    {
       "title": "相干性(coherence )和相关性(correlation) 有什么区别和联系？",
       "url": "https://www.zhihu.com/answer/460862042",
       "summary": "正文给出相关系数定义并比较时域相关与频域相干。"
-    },
-    {
-      "title": "Fama-Macbeth中的两步回归的原理分别是什么？",
-      "url": "https://www.zhihu.com/answer/460969682",
-      "summary": "正文解释残差截面相关对标准误的影响及修正。"
     },
     {
       "title": "协方差矩阵有什么意义？",
@@ -423,84 +198,9 @@
       "summary": "正文明确界定相关系数度量两个变量线性相关程度。"
     },
     {
-      "title": "如何通俗地解释什么是离散傅里叶变换？",
-      "url": "https://www.zhihu.com/answer/542909849",
-      "summary": "正文用离散内积定义并计算信号与各频率基的相关程度。"
-    },
-    {
-      "title": "什么是「互信息」？",
-      "url": "https://www.zhihu.com/answer/544609335",
-      "summary": "正文比较互信息与相关系数，并给出二元正态下的关系。"
-    },
-    {
       "title": "协方差与样本协方差的区别是什么？",
       "url": "https://www.zhihu.com/answer/550597998",
       "summary": "区分总体协方差与样本协方差，并解释最大似然和无偏估计的分母选择。"
-    },
-    {
-      "title": "DCC GARCH模型？",
-      "url": "https://www.zhihu.com/answer/573800975",
-      "summary": "正文解释 DCC-GARCH 的动态相关系数。"
-    },
-    {
-      "title": "怎么用spss处理信度和效度？",
-      "url": "https://www.zhihu.com/answer/578825573",
-      "summary": "正文用校正项总计相关性解释信度分析。"
-    },
-    {
-      "title": "你在中国知网、万方等学术文章网站上发现过什么不得了的东西？",
-      "url": "https://www.zhihu.com/answer/595769573",
-      "summary": "正文用自相关系数加权转移概率。"
-    },
-    {
-      "title": "如何正确地理解统计学上的相关性，关联性及差异性比较，方差分析，回归？",
-      "url": "https://www.zhihu.com/answer/602747265",
-      "summary": "正文区分相关性、差异性与影响关系。"
-    },
-    {
-      "title": "怎么分析问卷调查的数据?",
-      "url": "https://www.zhihu.com/answer/608773706",
-      "summary": "正文说明问卷变量关系可用相关分析。"
-    },
-    {
-      "title": "如何通俗地解释因子分析？",
-      "url": "https://www.zhihu.com/answer/626064671",
-      "summary": "以变量协同变化和相关矩阵解释因子分析如何发现共同因子。"
-    },
-    {
-      "title": "请问如何用通俗易懂的一句话解释主成分分析和因子分析？",
-      "url": "https://www.zhihu.com/answer/626065124",
-      "summary": "以变量协同变化和相关矩阵解释因子分析如何发现共同因子。"
-    },
-    {
-      "title": "如何对李克特量表的问卷结果进行分析？",
-      "url": "https://www.zhihu.com/answer/631908880",
-      "summary": "说明相关分析判断量表变量的方向与紧密程度。"
-    },
-    {
-      "title": "SPSS相关性分析结果怎么看？",
-      "url": "https://www.zhihu.com/answer/634716265",
-      "summary": "解释相关系数的方向、大小和显著性应分别判断。"
-    },
-    {
-      "title": "有没有人知道本科生毕业论文中回归分析怎么做？",
-      "url": "https://www.zhihu.com/answer/640048849",
-      "summary": "把相关分析作为线性回归前的变量关系检查。"
-    },
-    {
-      "title": "看懂因子分析法需要哪些背景知识？",
-      "url": "https://www.zhihu.com/answer/655391987",
-      "summary": "用相关矩阵和因子载荷解释变量间潜在相关结构。"
-    },
-    {
-      "title": "元分析这一统计方法有何精妙之处？",
-      "url": "https://www.zhihu.com/answer/658901802",
-      "summary": "以研究间相关与异质性解释综合结果。"
-    },
-    {
-      "title": "SPSS分析里，做回归分析的时候很多自变量的显著性都超过了0.05”怎么解决？  ？",
-      "url": "https://www.zhihu.com/answer/660652731",
-      "summary": "说明多重共线性会改变单个变量的显著性。"
     },
     {
       "title": "统计学中一元线性回归中拟合优度为什么等于相关系数的平方,请证明？",
@@ -513,39 +213,9 @@
       "summary": "解释多重相关系数和变量相关关系。"
     },
     {
-      "title": "怎么用spss处理信度和效度？",
-      "url": "https://www.zhihu.com/answer/701185935",
-      "summary": "用题项总相关与因子载荷检查量表关系。"
-    },
-    {
-      "title": "控制变量是如何被“控制”的？",
-      "url": "https://www.zhihu.com/answer/710278097",
-      "summary": "区分回归相关性解释与因果解释。"
-    },
-    {
-      "title": "控制变量是如何被“控制”的？",
-      "url": "https://www.zhihu.com/answer/713957284",
-      "summary": "将核心变量与结果中的控制变量相关部分残差化。"
-    },
-    {
-      "title": "如何通俗地解释因子分析？",
-      "url": "https://www.zhihu.com/answer/724506022",
-      "summary": "解释因子载荷与变量相关结构。"
-    },
-    {
       "title": "相关系数和R方的关系是什么？",
       "url": "https://www.zhihu.com/answer/739464752",
       "summary": "系统推导相关系数与R方的关系。"
-    },
-    {
-      "title": "时间序列和回归分析有什么本质区别？",
-      "url": "https://www.zhihu.com/answer/784606565",
-      "summary": "说明时间序列利用数据间相关性。"
-    },
-    {
-      "title": "时间序列和回归分析有什么本质区别？",
-      "url": "https://www.zhihu.com/answer/789952978",
-      "summary": "说明时间序列误差通常相关。"
     },
     {
       "title": "对两个信号做互相关的目的和结果是什么？",
@@ -553,59 +223,14 @@
       "summary": "从两个信号的内积解释相关程度。"
     },
     {
-      "title": "工具变量 (Instrumental variables) 的作用到底是什么？",
-      "url": "https://www.zhihu.com/answer/855320840",
-      "summary": "以相关系数表达工具变量相关与排除限制。"
-    },
-    {
-      "title": "如何理解典型相关分析？",
-      "url": "https://www.zhihu.com/answer/969115054",
-      "summary": "正文从相关系数推广到典型相关分析，推导最大相关投影及算法。"
-    },
-    {
-      "title": "请问如何用通俗易懂的一句话解释主成分分析和因子分析？",
-      "url": "https://www.zhihu.com/answer/1002676626",
-      "summary": "正文用相关性解释因子载荷的意义。"
-    },
-    {
       "title": "数学上的逻辑和哲学上的逻辑有何不同？数学好的人逻辑性一定强吗？",
       "url": "https://www.zhihu.com/answer/1042563940",
       "summary": "正文实质讨论相关性与因果性在社科论证中的区别。"
     },
     {
-      "title": "最近刚接触计量经济学，学得不是很懂，求教一些学习方法？",
-      "url": "https://www.zhihu.com/answer/1150417367",
-      "summary": "正文围绕相关与因果的差别展开选择偏误、外生性与因果效应识别。"
-    },
-    {
-      "title": "大数据时代对统计学和经济学有何影响？",
-      "url": "https://www.zhihu.com/answer/1154889190",
-      "summary": "正文解释高维数据中无关随机变量也可能呈现较高样本相关性。"
-    },
-    {
-      "title": "加入时间固定效应符号显著变化说明什么呢？",
-      "url": "https://www.zhihu.com/answer/1157399290",
-      "summary": "正文以组内和组间方向相反的相关性解释回归变化。"
-    },
-    {
       "title": "如何评价 Judea Pearl 的《The Book of Why》一书？",
       "url": "https://www.zhihu.com/answer/1163720525",
       "summary": "正文用鸡鸣与日出说明相关不等于因果。"
-    },
-    {
-      "title": "线性回归中的R，R平方和调整后的R平方有什么区别？",
-      "url": "https://www.zhihu.com/answer/1175093663",
-      "summary": "正文定义相关系数r并解释绝对值与线性相关强度。"
-    },
-    {
-      "title": "为何以范剑青老师的 Sure Independence Screening 为代表的筛选法没有流行呢？",
-      "url": "https://www.zhihu.com/answer/1185399533",
-      "summary": "正文讨论 Pearson、距离相关与球相关作为筛选指标。"
-    },
-    {
-      "title": "如何通俗易懂地讲解什么是 PCA（主成分分析）？",
-      "url": "https://www.zhihu.com/answer/1304023183",
-      "summary": "正文用协方差和协方差矩阵分析变量相关性。"
     },
     {
       "title": "如何看待华东师大出版社数学教辅分男女版，媒体称其强调「男生数学能力强于女生」？",
@@ -618,74 +243,14 @@
       "summary": "正文用协方差和向量夹角解释 Pearson 相关系数。"
     },
     {
-      "title": "如何区分中介作用与调节作用？",
-      "url": "https://www.zhihu.com/answer/1578381115",
-      "summary": "正文说明调节变量如何改变两个变量之间关系的方向和强度。"
-    },
-    {
-      "title": "求权重什么时候用主成成分分析法什么时候用熵值法？",
-      "url": "https://www.zhihu.com/answer/1614880202",
-      "summary": "正文以相关系数衡量指标冲突性和信息重叠。"
-    },
-    {
-      "title": "怎样用 Excel 做出这样的图？",
-      "url": "https://www.zhihu.com/answer/1652809575",
-      "summary": "正文用 Pearson 系数和热图展示变量相关性。"
-    },
-    {
       "title": "有哪些有趣而著名的悖论？",
       "url": "https://www.zhihu.com/answer/1662679106",
       "summary": "正文讨论混杂变量改变变量间相关性。"
     },
     {
-      "title": "主成分分析PCA算法：为什么去均值以后的高维矩阵乘以其协方差矩阵的特征向量矩阵就是“投影”？",
-      "url": "https://www.zhihu.com/answer/1693898903",
-      "summary": "正文先以协方差量化变量相关性，再构造协方差矩阵并据此说明 PCA 去除相关性的思路。"
-    },
-    {
-      "title": "主成分分析法到底怎么用的？过程模模糊糊的",
-      "url": "https://www.zhihu.com/answer/1696535206",
-      "summary": "正文用协方差衡量多个变量的相关性。"
-    },
-    {
-      "title": "AMOS 很多AVE值始终小于0.5 或者大于0.5之后回归系数又变成负数 数据该怎样处理？",
-      "url": "https://www.zhihu.com/answer/1804312317",
-      "summary": "正文直接支持该冻结叶节点。"
-    },
-    {
-      "title": "大佬们，本科论文要做问卷，老师要求用spss，真的完全不会怎么办啊啊啊，你们都是怎么搞定的。。？",
-      "url": "https://www.zhihu.com/answer/1808569823",
-      "summary": "正文直接支持该冻结叶节点。"
-    },
-    {
-      "title": "协方差矩阵有什么意义？",
-      "url": "https://www.zhihu.com/answer/1815827187",
-      "summary": "正文直接支持该冻结叶节点。"
-    },
-    {
-      "title": "如何看待 2021 年五一建模?",
-      "url": "https://www.zhihu.com/answer/1864547295",
-      "summary": "正文讨论不同区域事件密度的相关性分析。"
-    },
-    {
       "title": "如何证明相关系数的取值范围在-1到1之间？",
       "url": "https://www.zhihu.com/answer/1865486925",
       "summary": "正文证明相关系数落在负一到一之间。"
-    },
-    {
-      "title": "统计学专业的学生应该具备哪些必备的知识？",
-      "url": "https://www.zhihu.com/answer/1869251899",
-      "summary": "正文展开协方差、皮尔逊相关和斯皮尔曼相关。"
-    },
-    {
-      "title": "如何理解计量模型中的控制变量？",
-      "url": "https://www.zhihu.com/answer/1883448582",
-      "summary": "正文区分统计相关与因果结构并说明相关不能直接决定控制变量。"
-    },
-    {
-      "title": "写论文不会数据分析怎么办？",
-      "url": "https://www.zhihu.com/answer/1892281677",
-      "summary": "正文先做相关分析再讨论回归，并解释相关系数与方向。"
     },
     {
       "title": "有哪些违背直觉的数学问题？",
@@ -698,44 +263,9 @@
       "summary": "正文明确解释相关性并不能替代因果关系。"
     },
     {
-      "title": "因果推断会是下一个AI热潮吗？",
-      "url": "https://www.zhihu.com/answer/2084086253",
-      "summary": "正文讨论变量关系、偏倚与因果结构识别。"
-    },
-    {
-      "title": "因果推断（causal inference）是回归（regression）问题的一种特例吗？",
-      "url": "https://www.zhihu.com/answer/2107347352",
-      "summary": "正文区分相关关系与因果关系，并讨论回归系数的解释。"
-    },
-    {
-      "title": "为什么维特根斯坦说，因果关系是世界上最大的迷信？",
-      "url": "https://www.zhihu.com/answer/2129019147",
-      "summary": "正文用概率相关性解释统计因果性，区分它与机械因果律。"
-    },
-    {
       "title": "有哪些统计学专业反直觉的知识？",
       "url": "https://www.zhihu.com/answer/2252331137",
       "summary": "正文解释变量之间的伪相关以及控制其他变量的作用。"
-    },
-    {
-      "title": "如何衡量两组向量的相似度，有什么好的方法？",
-      "url": "https://www.zhihu.com/answer/2260755496",
-      "summary": "正文比较协方差、皮尔逊相关系数和余弦相似度。"
-    },
-    {
-      "title": "统计上有什么方法可以推断因果关系？",
-      "url": "https://www.zhihu.com/answer/2261415879",
-      "summary": "正文用混杂变量解释相关性与伪效应。"
-    },
-    {
-      "title": "强化学习 需不需要 因果推理 能力？",
-      "url": "https://www.zhihu.com/answer/2261517149",
-      "summary": "正文讨论状态混杂变量对因果推断的影响。"
-    },
-    {
-      "title": "在问卷网上收集的问卷数据，怎么进行数据分析？",
-      "url": "https://www.zhihu.com/answer/2279833865",
-      "summary": "正文把相关性分析作为回归建模前的变量关系检查。"
     },
     {
       "title": "考试砸了回到家，母亲打我的概率是 1/2，父亲打我的概率也是 1/2，那我被打的概率是多少？",
@@ -758,21 +288,6 @@
       "summary": "正文明确区分相关性与独立性。"
     },
     {
-      "title": "有哪些有效的可以衡量两段或多段时间序列相似度的方法？",
-      "url": "https://www.zhihu.com/answer/2374454799",
-      "summary": "正文系统比较时间序列的相似度、距离和相关形状特征。"
-    },
-    {
-      "title": "因果推断会是下一个AI热潮吗？",
-      "url": "https://www.zhihu.com/answer/2398148705",
-      "summary": "正文以相关性概括当前机器学习中的因果应用局限。"
-    },
-    {
-      "title": "实证分析里面控制变量到底是干嘛用的，控制变量对回归结果的影响要分析吗？",
-      "url": "https://www.zhihu.com/answer/2427177184",
-      "summary": "正文讨论解释变量与控制变量之间的相关性及其对回归估计的影响。"
-    },
-    {
       "title": "对于这次疫情，你有什么感想？懂得了什么？",
       "url": "https://www.zhihu.com/answer/2428110761",
       "summary": "正文强调区分相关性与因果性，并讨论选择偏差和混淆因子。"
@@ -784,48 +299,13 @@
     },
     {
       "title": "考试砸了回到家，母亲打我的概率是 1/2，父亲打我的概率也是 1/2，那我被打的概率是多少？",
-      "url": "https://www.zhihu.com/answer/2460512831",
-      "summary": "正文用相关系数描述两个随机变量之间的线性相关程度。"
-    },
-    {
-      "title": "考试砸了回到家，母亲打我的概率是 1/2，父亲打我的概率也是 1/2，那我被打的概率是多少？",
       "url": "https://www.zhihu.com/answer/2468380667",
       "summary": "正文用协方差和相关系数刻画父母行为的相关程度。"
-    },
-    {
-      "title": "因果推断会是下一个AI热潮吗？",
-      "url": "https://www.zhihu.com/answer/2473146102",
-      "summary": "正文通过辛普森悖论说明总体相关性与分组相关性可以相反。"
     },
     {
       "title": "哪里有高斯过程详细的数学推导？",
       "url": "https://www.zhihu.com/answer/2479538915",
       "summary": "正文用协方差矩阵说明相关随机变量如何共同构成多元高斯分布。"
-    },
-    {
-      "title": "因果推断（causal inference）是回归（regression）问题的一种特例吗？",
-      "url": "https://www.zhihu.com/answer/2491606420",
-      "summary": "正文开篇区分因果性与相关性，并讨论从观测数据识别因果效应。"
-    },
-    {
-      "title": "协方差矩阵有什么意义？",
-      "url": "https://www.zhihu.com/answer/2501415844",
-      "summary": "正文用协方差的符号和绝对值解释两个变量变化方向及一致程度，进而定义相关系数。"
-    },
-    {
-      "title": "关于假设检验，T检验 F检验 卡方检验 和 ANOVA 这些检验在什么情况下使用，它们的区别是什么？",
-      "url": "https://www.zhihu.com/answer/2510500067",
-      "summary": "正文用卡方检验分析定类变量之间的关联，并说明频数偏差与效应量。"
-    },
-    {
-      "title": "求大神讲讲工具变量。怎么找，找到后怎么用?",
-      "url": "https://www.zhihu.com/answer/2569373470",
-      "summary": "用协方差为零和相关性的条件定义工具变量的外生性与相关性。"
-    },
-    {
-      "title": "相关分析、方差分析、回归分析这三者有什么区别和关系，分别在什么场合使用？",
-      "url": "https://www.zhihu.com/answer/2632619697",
-      "summary": "说明 Pearson 相关与一元线性回归的等价关系及因果解释边界。"
     },
     {
       "title": "如何看待日本大阪公布第七波新冠疫情中非高危人群的重症率是 0.002%，死亡率是 0.002%？",
@@ -838,24 +318,9 @@
       "summary": "正文把随机过程的相关函数类比为协方差矩阵，并用它描述各分量之间的相关性。"
     },
     {
-      "title": "如何形象地理解统计学中的各种检验方法？",
-      "url": "https://www.zhihu.com/answer/2709758811",
-      "summary": "介绍 Pearson 与 Spearman 相关系数及其参数/非参数适用条件。"
-    },
-    {
-      "title": "以 ChatGPT 为代表的「大模型」会是多大的技术革命？如果要发生技术革命需要具备哪些条件？",
-      "url": "https://www.zhihu.com/answer/2872408178",
-      "summary": "正文用鸡叫与天亮等例子区分相关性和因果性，并讨论模型输出中的相关关系。"
-    },
-    {
       "title": "有论文指出土叙地震可能致中国 3 年内发生 7-8 级强震，专家表示无须恐慌，如何看待这一结论？",
       "url": "https://www.zhihu.com/answer/2891425102",
       "summary": "正文用格兰杰因果和蜻蜓低飞预示下雨说明时间关联不等于因果关系，并指出混淆因素会制造共变。"
-    },
-    {
-      "title": "数据分析中，做相关性分析的方法有哪些？",
-      "url": "https://www.zhihu.com/answer/2966822625",
-      "summary": "正文说明相关性分析用于判断变量间的关联，并解释相关系数绝对值如何表示相关强弱。"
     },
     {
       "title": "矩阵的本质是什么？",
@@ -863,59 +328,9 @@
       "summary": "正文用协方差矩阵解释不同属性之间正相关、负相关及相关强弱。"
     },
     {
-      "title": "万能的知乎量化，有哪些可以挖掘因子、研发因子、学习新因子的路径？",
-      "url": "https://www.zhihu.com/answer/3092278974",
-      "summary": "正文把因子值与未来收益率的 Pearson 相关系数作为损失和评价指标，具体讨论了变量的相关性度量。"
-    },
-    {
-      "title": "计量经济学中，样本容量是不是越大越好？",
-      "url": "https://www.zhihu.com/answer/3118841453",
-      "summary": "正文以工具变量的关联性和排他性讨论相关关系与因果识别的区别，并说明样本量对二者的影响。"
-    },
-    {
-      "title": "已拿到数据，现要做SPSS分析，不会第一步，求指点。。。？",
-      "url": "https://www.zhihu.com/answer/3164223032",
-      "summary": "正文以各科成绩之间的相关性说明因子分析寻找共性变量的思路，并讨论相关系数矩阵。"
-    },
-    {
-      "title": "因果推断会是下一个AI热潮吗？",
-      "url": "https://www.zhihu.com/answer/3234138819",
-      "summary": "正文以穿鞋睡觉和头疼的混淆变量例子，详细区分相关性观察与真实因果关系。"
-    },
-    {
-      "title": "什么是数据可视化？",
-      "url": "https://www.zhihu.com/answer/3261836179",
-      "summary": "正文用散点图和身高、体重、跑步时间的例子具体说明正相关、负相关及反比关系。"
-    },
-    {
-      "title": "为什么高维空间下距离度量逐渐失效？",
-      "url": "https://www.zhihu.com/answer/3299831690",
-      "summary": "正文解释高维时距离集中为何使协方差和核函数无法区分点与点之间的相关性。"
-    },
-    {
       "title": "2024 年阿贝尔奖授予解释随机性的数学家 Michel Talagrand，这项研究有哪些意义？",
       "url": "https://www.zhihu.com/answer/3441853404",
       "summary": "正文专门讲解递增布尔函数的相关性不等式，并分析相关程度与各坐标影响力的关系。"
-    },
-    {
-      "title": "有什么好的模型可以做高精度的时间序列预测呢？",
-      "url": "https://www.zhihu.com/answer/3520861992",
-      "summary": "正文定义并分析时间序列输入与多步标签序列的自相关性，讨论其如何影响直接预测范式。"
-    },
-    {
-      "title": "IOWA 的民调专家 Selzer 公布的结果震惊政坛，她这样只做一个小州的结果是不是很有启发？",
-      "url": "https://www.zhihu.com/answer/22830918429",
-      "summary": "正文比较民调中的统计相关与因果关系，并具体讨论相关数据背后的因果结构、混杂因素和背门路径。"
-    },
-    {
-      "title": "如何进行时间序列分析？",
-      "url": "https://www.zhihu.com/answer/56739236351",
-      "summary": "正文说明通过通道间自注意力增加多通道相关性建模，对应变量之间相关结构的建模方法。"
-    },
-    {
-      "title": "时间序列数据上可以抽取哪些频域特征？",
-      "url": "https://www.zhihu.com/answer/56871231886",
-      "summary": "正文围绕未来时刻标签之间的相关性，说明直接多步预测的MSE损失为何会与真实数据的负对数似然损失产生偏差。"
     },
     {
       "title": "正态分布是最自然的，但为什么人类社会中会出现「赢家通吃」现象呢？",
@@ -931,16 +346,6 @@
       "title": "某平台多位科学博主与 AI 共创「数学日专题科普视频」，这类用 AI 做的科普可能有哪些风险或问题？",
       "url": "https://www.zhihu.com/answer/1889095947964888818",
       "summary": "正文说明统计相关性不能直接推出因果关系，并以不同现象可能高度相关为例。"
-    },
-    {
-      "title": "强化学习中action value减去state value之后怎么就减小了方差，方差不是不变吗？",
-      "url": "https://www.zhihu.com/answer/1891095552030115567",
-      "summary": "正文利用 Q 与 V 的正相关和协方差项分析优势函数方差减少的机制。"
-    },
-    {
-      "title": "时间序列预测还能在进步吗？",
-      "url": "https://www.zhihu.com/answer/1902906365812389807",
-      "summary": "正文具体比较了时间序列预测中的相关系数、MSE和R²，说明相关性指标为何更适合评价序列。"
     },
     {
       "title": "the delta method 是干什么的？",
@@ -968,19 +373,9 @@
       "summary": "正文区分统计相关与因果机制，说明相关模型不能自动识别数据生成过程。"
     },
     {
-      "title": "面板数据分析中标准误的估计修正——根据Peterson (2009)的归纳",
-      "url": "https://zhuanlan.zhihu.com/p/19718549",
-      "summary": "正文明确区分横截面相关与序列相关，并依据相关结构选择标准误估计方法。"
-    },
-    {
       "title": "高阶关联：比随机行走复杂那么一点点的问题",
       "url": "https://zhuanlan.zhihu.com/p/20050681",
       "summary": "正文用滞后随机项乘积构造二阶关联，并通过三阶关联揭示随机游走中的记忆效应。"
-    },
-    {
-      "title": "LGD:建模与预测",
-      "url": "https://zhuanlan.zhihu.com/p/20129055",
-      "summary": "正文讨论违约率与 LGD 的正相关经验关系，并用共同宏观变量和桥梁变量刻画二者关联。"
     },
     {
       "title": "风之结构？幡之结构？仁者心之结构",
@@ -993,19 +388,9 @@
       "summary": "正文讨论相关分析如何判断变量关系的有无、方向和程度，并比较其与回归分析的侧重点。"
     },
     {
-      "title": "线性回归建模中残差异方差性的分析和处理",
-      "url": "https://zhuanlan.zhihu.com/p/20700731",
-      "summary": "正文把残差与自变量不相关列为白噪声条件，并讨论自相关、混淆变量、共线性及其危害。"
-    },
-    {
       "title": "线性代数勾搭数据分析【1】",
       "url": "https://zhuanlan.zhihu.com/p/21302998",
       "summary": "正文用协方差的正负判断两个维度的正相关或负相关，并据此筛选主成分。"
-    },
-    {
-      "title": "米筐科技（RiceQuant）策略研究：沪深300指数的特征工程和聚类分析-以WorldQuant Formulaic 101 Alphas为例",
-      "url": "https://zhuanlan.zhihu.com/p/21337419",
-      "summary": "正文以特征与下一交易日收益率的相关系数作为筛选依据，并用聚类结果验证其区分效果。"
     },
     {
       "title": "大脑指纹——你有一颗与众不同的大脑",
@@ -1013,104 +398,9 @@
       "summary": "正文以两个脑区时间信号的相关系数定义连接强度，并用矩阵各列相关系数之和衡量相似度。"
     },
     {
-      "title": "PCA的数学原理(转)",
-      "url": "https://zhuanlan.zhihu.com/p/21580949",
-      "summary": "正文利用协方差刻画不同字段的线性相关性，并以各字段两两协方差为零作为 PCA 的优化目标。"
-    },
-    {
-      "title": "从高斯分布、机器人误差、EM算法到小球检测",
-      "url": "https://zhuanlan.zhihu.com/p/21648507",
-      "summary": "正文以多元高斯分布的协方差矩阵说明各维度方差和非对角线相关性的含义。"
-    },
-    {
-      "title": "金融时间序列分析入门【一】",
-      "url": "https://zhuanlan.zhihu.com/p/21781849",
-      "summary": "正文通过向量夹角、内积和中心化解释相关系数，并推广到自相关函数。"
-    },
-    {
-      "title": "金融时间序列入门【二】",
-      "url": "https://zhuanlan.zhihu.com/p/21811982",
-      "summary": "正文用自相关函数和偏自相关函数的截尾性质判断 MA、ARMA 模型阶数。"
-    },
-    {
-      "title": "金融时间序列入门【三】--- 季节模型",
-      "url": "https://zhuanlan.zhihu.com/p/21877990",
-      "summary": "正文利用序列的方差、1 阶和 12 阶自协方差与自相关系数列出并求解季节 MA 模型参数。"
-    },
-    {
-      "title": "AR、MA及ARMA模型",
-      "url": "https://zhuanlan.zhihu.com/p/22248464",
-      "summary": "正文比较自相关和偏自相关，说明它们衡量同一序列不同时刻随机变量之间的相关性并剔除中间变量干扰。"
-    },
-    {
-      "title": "R语言时间序列分析实例",
-      "url": "https://zhuanlan.zhihu.com/p/22574556",
-      "summary": "正文使用自相关图和偏相关图分析时间序列及模型残差在不同滞后阶上的相关性。"
-    },
-    {
-      "title": "【干货】统计学方法在医学论文中的正确应用",
-      "url": "https://zhuanlan.zhihu.com/p/22920599",
-      "summary": "正文说明相关性分析的报告要求，并按计量或等级指标区分 Pearson 与 Spearman 相关系数。"
-    },
-    {
-      "title": "浅谈线性回归（1）--来点干货",
-      "url": "https://zhuanlan.zhihu.com/p/23235316",
-      "summary": "正文用残差自相关图和 ACF 讨论时间序列观测之间的相关结构。"
-    },
-    {
-      "title": "金融学界无人不知的资本资产定价模型",
-      "url": "https://zhuanlan.zhihu.com/p/23034246",
-      "summary": "正文用资产与市场组合的相关系数解释夏普比率的大小。"
-    },
-    {
-      "title": "Learn R  |  数据降维之主成分分析（上）",
-      "url": "https://zhuanlan.zhihu.com/p/23776251",
-      "summary": "正文要求各主成分互不相关，并用标准化数据的相关系数矩阵作为计算 PCA 的基础。"
-    },
-    {
-      "title": "统计套利 Review and Outlook",
-      "url": "https://zhuanlan.zhihu.com/p/23889998",
-      "summary": "正文以 Pearson 相关系数度量配对股票之间的相关性，并讨论高相关不等于协整所带来的风险。"
-    },
-    {
-      "title": "Learn R  |  数据降维之因子分析（上）",
-      "url": "https://zhuanlan.zhihu.com/p/23981354",
-      "summary": "正文计算相关系数矩阵，并以变量间相关性高低解释探索性因子分析的变量分组。"
-    },
-    {
-      "title": "统计学之美（二）：多元回归分析",
-      "url": "https://zhuanlan.zhihu.com/p/24263575",
-      "summary": "正文以相关系数和多重共线性说明解释变量之间的相关关系及判别方法。"
-    },
-    {
-      "title": "统计基础篇之二：统计学与数学的不同点",
-      "url": "https://zhuanlan.zhihu.com/p/24488917",
-      "summary": "正文用相关系数、身高体重及吸烟与肺癌等例子说明统计相关不能直接等同于因果关系。"
-    },
-    {
-      "title": "统计学之美（三）：列联表分析",
-      "url": "https://zhuanlan.zhihu.com/p/24552283",
-      "summary": "正文用交叉分类后的频数分布考察收入与满意度等属性变量之间的相关性。"
-    },
-    {
       "title": "浅谈相关系数",
       "url": "https://zhuanlan.zhihu.com/p/24765372",
       "summary": "正文核心讨论相关系数的取值、性质及其作为随机变量夹角余弦的含义。"
-    },
-    {
-      "title": "相关性能否传递？",
-      "url": "https://zhuanlan.zhihu.com/p/25082134",
-      "summary": "正文证明两个变量各自与第三变量相关时，彼此相关系数并非可简单传递，并给出取值区间。"
-    },
-    {
-      "title": "克里金(Kriging)插值的原理与公式推导",
-      "url": "https://zhuanlan.zhihu.com/p/25377842",
-      "summary": "正文通过协方差、半方差函数与空间距离刻画属性相关性。"
-    },
-    {
-      "title": "说说卡尔曼滤波",
-      "url": "https://zhuanlan.zhihu.com/p/25598462",
-      "summary": "正文用协方差矩阵元素具体解释状态变量之间的相关性及其随时间更新的方式。"
     },
     {
       "title": "那些你知道的和你不知道的性质(II):说说你知道但不熟悉的多维高斯分布",
@@ -1118,69 +408,9 @@
       "summary": "正文给出协方差和相关系数公式，区分不相关与统计独立，并说明其取值范围。"
     },
     {
-      "title": "[时间序列分析][1]--平稳性,白噪声的检验",
-      "url": "https://zhuanlan.zhihu.com/p/26227700",
-      "summary": "正文用自相关系数随延迟期数衰减来检验时间序列的平稳性，并给出相关系数计算函数。"
-    },
-    {
-      "title": "从随机变量到随机向量再到随机矩阵：那个你不一定知道的矩阵高斯分布",
-      "url": "https://zhuanlan.zhihu.com/p/26286575",
-      "summary": "正文用行协方差和列协方差刻画随机矩阵元素及行列分量之间的相关结构。"
-    },
-    {
-      "title": "[时间序列分析][3]--自相关系数和偏自相关系数",
-      "url": "https://zhuanlan.zhihu.com/p/26525852",
-      "summary": "正文解释自相关系数与偏自相关系数的含义、公式和矩阵计算，并比较不同步骤下变量之间的相关性。"
-    },
-    {
-      "title": "PCA的数学原理及推导证明",
-      "url": "https://zhuanlan.zhihu.com/p/26951643",
-      "summary": "正文要求降维后各特征互不相关，并用协方差为零刻画该目标。"
-    },
-    {
-      "title": "[时间序列分析][4]--AR模型,MA模型,ARMA模型介绍",
-      "url": "https://zhuanlan.zhihu.com/p/26996197",
-      "summary": "正文用自相关和偏相关图识别 AR、MA、ARMA 模型，并讨论各自的拖尾与截尾性质。"
-    },
-    {
-      "title": "信号处理若干名词解释",
-      "url": "https://zhuanlan.zhihu.com/p/27123642",
-      "summary": "正文定义自相关和互相关函数，并解释如何用相关函数刻画信号的依赖关系与相关性。"
-    },
-    {
-      "title": "相关性分析",
-      "url": "https://zhuanlan.zhihu.com/p/27161877",
-      "summary": "正文系统说明相关系数正负号、相关强度分级及 Pearson、Spearman、Kendall 等方法，核心是变量间相关关系的度量与解释。"
-    },
-    {
-      "title": "机器学习和统计学中常见的距离和相似度度量",
-      "url": "https://zhuanlan.zhihu.com/p/27305237",
-      "summary": "正文给出皮尔逊相关系数公式，并用协方差与标准差之积解释其相关性含义和取值范围。"
-    },
-    {
-      "title": "时间序列<一>（基于R语言）",
-      "url": "https://zhuanlan.zhihu.com/p/27453841",
-      "summary": "正文解释自相关和偏自相关，并用 ACF、PACF 图选择 ARIMA 的滞后阶数。"
-    },
-    {
-      "title": "时间序列分析vs机器学习——金融中哪个有用？",
-      "url": "https://zhuanlan.zhihu.com/p/27475987",
-      "summary": "正文比较价格变化的自相关与它同 GDP、通胀和估值指标之间的相关性，并据此设计间接预测方案。"
-    },
-    {
       "title": "孩子，有时候并不是生活欺骗了你，而是你可能还不懂概率统计……",
       "url": "https://zhuanlan.zhihu.com/p/27557354",
       "summary": "正文用录取样本的选择偏差说明两个独立能力为何会在受限子集中呈现负相关。"
-    },
-    {
-      "title": "什么是Gaussian process? —— 说说高斯过程与高斯分布的关系",
-      "url": "https://zhuanlan.zhihu.com/p/27555501",
-      "summary": "正文以均值函数和协方差核函数刻画样本位置及不同输入点之间的相关关系。"
-    },
-    {
-      "title": "R语言相关系数可视化之corrplot包",
-      "url": "https://zhuanlan.zhihu.com/p/28076189",
-      "summary": "正文以汽车数据为例计算相关系数矩阵，并系统演示用圆形、颜色、数值和排序展示变量之间的相关性。"
     },
     {
       "title": "一个加速trick一种相关滤波解释",
@@ -1188,169 +418,9 @@
       "summary": "正文定义互相关并解释其作为不同时延下信号相似度的含义。"
     },
     {
-      "title": "详细解读回归分析结果",
-      "url": "https://zhuanlan.zhihu.com/p/28719513",
-      "summary": "正文用相关系数 R 的取值范围解释变量间相关方向与相关强弱。"
-    },
-    {
-      "title": "SPSS超详细操作：分层回归(hierarchical multiple regression)",
-      "url": "https://zhuanlan.zhihu.com/p/29637603",
-      "summary": "正文说明自变量高度相关导致多重共线，并给出相关系数与 VIF 的判定阈值。"
-    },
-    {
-      "title": "信度分析的原理与SPSS操作",
-      "url": "https://zhuanlan.zhihu.com/p/30106901",
-      "summary": "正文说明重测、复本和折半信度均以不同测量的相关系数衡量一致性，属于相关性在测量分析中的应用。"
-    },
-    {
-      "title": "机器学习算法实践-标准与局部加权线性回归",
-      "url": "https://zhuanlan.zhihu.com/p/30422174",
-      "summary": "正文定义协方差与相关系数并说明相关系数如何剔除量纲、度量预测值和真实值的线性相关。"
-    },
-    {
-      "title": "30分钟读懂《商务与经济统计》（1）",
-      "url": "https://zhuanlan.zhihu.com/p/30428161",
-      "summary": "正文解释协方差的方向含义，并说明为何用相关系数衡量变量间的线性关系。"
-    },
-    {
-      "title": "SPSS超详细教程：主成分分析",
-      "url": "https://zhuanlan.zhihu.com/p/31135479",
-      "summary": "正文用相关矩阵和相关系数阈值判断各问卷变量之间的线性相关性，并据此决定主成分分析的变量取舍。"
-    },
-    {
-      "title": "单因素分析和多因素分析的结果不一致，怎么办？",
-      "url": "https://zhuanlan.zhihu.com/p/31218486",
-      "summary": "正文具体讨论变量间关联、共线性及混杂如何导致分析结果不一致。"
-    },
-    {
-      "title": "SPSS——相关分析",
-      "url": "https://zhuanlan.zhihu.com/p/31231713",
-      "summary": "正文系统讲解相关系数的意义、计算、适用条件及偏相关分析。"
-    },
-    {
-      "title": "SPSS——因子分析",
-      "url": "https://zhuanlan.zhihu.com/p/31291210",
-      "summary": "正文具体讲解变量相关性、KMO和Bartlett检验在因子分析适用性判断中的作用。"
-    },
-    {
-      "title": "EVIEWS（2）",
-      "url": "https://zhuanlan.zhihu.com/p/31376139",
-      "summary": "正文计算解释变量的相关系数矩阵，并用较强相关性识别多重共线性。"
-    },
-    {
-      "title": "SPSS——线性回归模型入门（初级）",
-      "url": "https://zhuanlan.zhihu.com/p/31391227",
-      "summary": "正文比较相关分析与回归分析，并用相关系数和决定系数描述两个连续变量之间的关系。"
-    },
-    {
-      "title": "R语言——多元线性回归案例解析",
-      "url": "https://zhuanlan.zhihu.com/p/31037989",
-      "summary": "正文通过相关矩阵判断房价与各解释变量的正负相关及强弱程度。"
-    },
-    {
-      "title": "结构方程模型建模思路及Amos操作--模型匹适度检验",
-      "url": "https://zhuanlan.zhihu.com/p/31665403",
-      "summary": "正文用协方差和标准化积差相关系数解释外因变量之间的关系。"
-    },
-    {
-      "title": "线性回归中的相关度和决定系数",
-      "url": "https://zhuanlan.zhihu.com/p/32335608",
-      "summary": "正文定义协方差和皮尔逊相关系数，用其正负与大小衡量两个变量的线性相关。"
-    },
-    {
-      "title": "SPSS超详细操作：两因素多元方差分析(Two-way Manova)",
-      "url": "https://zhuanlan.zhihu.com/p/32429225",
-      "summary": "正文用Pearson相关系数衡量两门成绩的线性相关，并以相关系数阈值判断多重共线性。"
-    },
-    {
-      "title": "计量经济学第四次笔记（工具变量）",
-      "url": "https://zhuanlan.zhihu.com/p/32443865",
-      "summary": "正文用工具变量与内生解释变量、误差项的协方差关系推导IV估计量的一致性。"
-    },
-    {
-      "title": "计量经济学第三次笔记（遗漏变量问题）",
-      "url": "https://zhuanlan.zhihu.com/p/32496641",
-      "summary": "正文说明遗漏变量与解释变量相关会使误差项和解释变量相关，并进一步分析估计偏误方向。"
-    },
-    {
-      "title": "数模系列(2)：主成分分析(PCA)",
-      "url": "https://zhuanlan.zhihu.com/p/32665213",
-      "summary": "正文定义指标列之间的相关系数，说明正负线性相关及相关系数取值范围。"
-    },
-    {
-      "title": "时间序列模型之相空间重构模型",
-      "url": "https://zhuanlan.zhihu.com/p/32910931",
-      "summary": "正文通过自相关函数刻画序列不同延迟之间的线性相关性，并据此确定重构参数。"
-    },
-    {
-      "title": "时间序列分析（一）:平稳过程",
-      "url": "https://zhuanlan.zhihu.com/p/33435237",
-      "summary": "正文定义间隔为 k 的自相关系数，并给出从观测序列估计该相关系数的公式。"
-    },
-    {
-      "title": "时间序列分析（二）:AR 模型",
-      "url": "https://zhuanlan.zhihu.com/p/33677770",
-      "summary": "正文推导 AR 过程的自相关系数及其递推关系，并用偏自相关系数识别阶数。"
-    },
-    {
-      "title": "物理定律告诉你，天下有情人终将分手！",
-      "url": "https://zhuanlan.zhihu.com/p/33820554",
-      "summary": "正文解释相关系数刻画两个变量的线性相关强弱，并讨论相关程度对联合概率的影响。"
-    },
-    {
-      "title": "如何测量这个世界的混乱-2-信息熵",
-      "url": "https://zhuanlan.zhihu.com/p/33817223",
-      "summary": "正文定义互信息为联合分布熵与边缘分布熵之差，用其定量衡量两个词系统的关联强弱。"
-    },
-    {
-      "title": "【综述长文】因果关系是什么？结构因果模型入门",
-      "url": "https://zhuanlan.zhihu.com/p/33860572",
-      "summary": "正文以相关系数公式和反例明确区分统计相关与因果，并讨论混杂关系。"
-    },
-    {
-      "title": "OLS 线性回归的性质：高斯马尔科夫定理",
-      "url": "https://zhuanlan.zhihu.com/p/34119477",
-      "summary": "正文把误差不相关作为Gauss-Markov假设，并讨论违背时对OLS估计的影响。"
-    },
-    {
       "title": "遗传平衡定律(又称Hardy Weinberg定律)与卡方检验",
       "url": "https://zhuanlan.zhihu.com/p/34345092",
       "summary": "正文解释 Pearson 相关系数的取值范围、正负相关含义以及相关不等于因果。"
-    },
-    {
-      "title": "统计学习--三种常见的相关系数",
-      "url": "https://zhuanlan.zhihu.com/p/34717666",
-      "summary": "正文比较 Pearson、Spearman 和 Kendall 相关系数的含义、假设及适用条件。"
-    },
-    {
-      "title": "时间序列分析",
-      "url": "https://zhuanlan.zhihu.com/p/35069699",
-      "summary": "正文定义自相关函数和偏自相关函数，并用它们刻画时间序列与其滞后值的相关性。"
-    },
-    {
-      "title": "利用python进行时间序列分析——数据挖掘",
-      "url": "https://zhuanlan.zhihu.com/p/35128342",
-      "summary": "正文定义自协方差函数与自相关系数，并据此检验时间序列的相关性和平稳性。"
-    },
-    {
-      "title": "利用python进行时间序列分析——季节性ARIMA",
-      "url": "https://zhuanlan.zhihu.com/p/35282988",
-      "summary": "正文利用自相关和偏自相关函数随滞后的变化选择ARIMA阶数，属于时间序列相关性分析。"
-    },
-    {
-      "title": "列联表(交叉表)的独立性检验——卡方检验的另一应用",
-      "url": "https://zhuanlan.zhihu.com/p/35662132",
-      "summary": "正文讨论两个分类属性之间有无关联，并用列联表卡方检验分析其关联性。"
-    },
-    {
-      "title": "STATA基本操作—异方差、序列相关、多重共线性",
-      "url": "https://zhuanlan.zhihu.com/p/35818147",
-      "summary": "正文用方差膨胀因子衡量解释变量间的多重共线性，并讨论其影响和处理方式。"
-    },
-    {
-      "title": "简单相关性分析(两个连续型变量)",
-      "url": "https://zhuanlan.zhihu.com/p/36441826",
-      "summary": "正文系统讲解两个连续变量的 Pearson 线性相关，包括总体与样本相关系数、协方差和相关系数取值含义。"
     },
     {
       "title": "从零开始推导多元高斯分布",
@@ -1358,214 +428,9 @@
       "summary": "正文用二维协方差和去相关变换解释相关变量与不相关变量对异常距离计算的不同影响。"
     },
     {
-      "title": "机器学习的数学基础-（三、概率论和数理统计）",
-      "url": "https://zhuanlan.zhihu.com/p/36584335",
-      "summary": "正文用协方差和相关系数讨论随机变量相关性，并给出线性相关临界结论。"
-    },
-    {
-      "title": "告别曲线拟合：因果推断和do-Calculus简介",
-      "url": "https://zhuanlan.zhihu.com/p/37423369",
-      "summary": "正文用气压计与锅炉压力的例子区分统计相关和因果影响，说明相关只能用于预测而干预效果可能不同。"
-    },
-    {
-      "title": "多变量相关性分析(一个因变量与多自变量)",
-      "url": "https://zhuanlan.zhihu.com/p/37605060",
-      "summary": "正文区分简单相关、偏相关和复相关，并以相关系数矩阵和二元相关系数公式系统讲解多变量相关分析。"
-    },
-    {
-      "title": "如何用R语言进行探索性因子分析(EFA)",
-      "url": "https://zhuanlan.zhihu.com/p/37440281",
-      "summary": "正文以相关矩阵和因子载荷分析观测变量之间的内部关系，展开探索性因子分析中的相关性结构。"
-    },
-    {
-      "title": "excel回归分析结果解读",
-      "url": "https://zhuanlan.zhihu.com/p/37688417",
-      "summary": "正文具体解释相关系数的取值范围及正负相关含义。"
-    },
-    {
-      "title": "浅谈主成分分析与因子分析",
-      "url": "https://zhuanlan.zhihu.com/p/37755749",
-      "summary": "正文用相关矩阵和变量间相关性解释主成分分析与因子分析的适用前提。"
-    },
-    {
-      "title": "一元（多元）线性回归分析之Excel实现",
-      "url": "https://zhuanlan.zhihu.com/p/37242256",
-      "summary": "正文用散点图和相关系数分析变量间的正相关及回归建模前的相关性。"
-    },
-    {
-      "title": "主成分分析（PCA）原理详解",
-      "url": "https://zhuanlan.zhihu.com/p/37777074",
-      "summary": "正文解释协方差符号对应正负相关，并用协方差矩阵描述变量间相关关系。"
-    },
-    {
-      "title": "如何直观地理解「协方差矩阵」？",
-      "url": "https://zhuanlan.zhihu.com/p/37609917",
-      "summary": "正文用协方差刻画两个随机变量的相似程度，并解释正负协方差所表示的相关方向。"
-    },
-    {
-      "title": "时间序列的相似性",
-      "url": "https://zhuanlan.zhihu.com/p/38130622",
-      "summary": "正文定义 Pearson 相关系数，解释其等于正负一时分别对应完全一致和负相关。"
-    },
-    {
-      "title": "带你正确理解 Hurst 指数和分数布朗运动",
-      "url": "https://zhuanlan.zhihu.com/p/38282038",
-      "summary": "正文用 Hurst 指数刻画分数布朗运动增量的自相关方向，并推导不同时间跨度的相关系数。"
-    },
-    {
-      "title": "R语言-多元回归分析",
-      "url": "https://zhuanlan.zhihu.com/p/38306630",
-      "summary": "正文用相关系数矩阵和散点图矩阵检查因变量与各自变量之间的相关性。"
-    },
-    {
-      "title": "写给你的金融时间序列分析：初级篇",
-      "url": "https://zhuanlan.zhihu.com/p/38321845",
-      "summary": "正文围绕自相关系数、相关图和残差检验讲解时间序列建模及白噪声模型的适用性。"
-    },
-    {
-      "title": "写给你的金融时间序列分析：进阶篇",
-      "url": "https://zhuanlan.zhihu.com/p/38322333",
-      "summary": "正文使用自相关函数、Yule-Walker 方程和 Ljung-Box 检验分析时间序列及模型残差的相关性。"
-    },
-    {
-      "title": "协方差矩阵的 Newey-West 调整",
-      "url": "https://zhuanlan.zhihu.com/p/38506157",
-      "summary": "正文分析因子收益率的时序自相关，并说明用自协方差和 Bartlett 权重修正相关性估计。"
-    },
-    {
-      "title": "小心伪回归发现的假关系",
-      "url": "https://zhuanlan.zhihu.com/p/38755022",
-      "summary": "正文用冰淇淋销量与溺水人数等例子说明共同干扰因素和独立随机趋势都能造成误导性的统计相关。"
-    },
-    {
-      "title": "常用的数据分析方法汇总",
-      "url": "https://zhuanlan.zhihu.com/p/39214084",
-      "summary": "正文展开相关分析的方向、强度和相关系数，并区分单相关、复相关与偏相关。"
-    },
-    {
-      "title": "深入探讨散点图系列",
-      "url": "https://zhuanlan.zhihu.com/p/39525392",
-      "summary": "正文用散点分布说明正相关、负相关及不相关，并引入协方差和相关系数判断相关程度。"
-    },
-    {
-      "title": "用 Quantile Regression 分析变量相关性",
-      "url": "https://zhuanlan.zhihu.com/p/40681570",
-      "summary": "正文用分位数回归考察收入、消费和收益波动率在不同分布位置上的相关关系。"
-    },
-    {
-      "title": "用 IC 评价因子效果靠谱吗？",
-      "url": "https://zhuanlan.zhihu.com/p/41454197",
-      "summary": "正文比较相关系数与 Spearman 秩相关，用单调排序关系衡量因子和收益率的关联。"
-    },
-    {
-      "title": "为什么要进行因子正交化处理？",
-      "url": "https://zhuanlan.zhihu.com/p/41993542",
-      "summary": "正文专门辨析向量正交与 Pearson 相关系数为零，并用例子说明二者并不等价。"
-    },
-    {
-      "title": "R进阶笔记（1）——基本统计分析",
-      "url": "https://zhuanlan.zhihu.com/p/41913615",
-      "summary": "正文通过列联表与独立性检验判断治疗和改善两个分类变量之间是否存在关联。"
-    },
-    {
-      "title": "从基础入手理解计量模型和识别（二）",
-      "url": "https://zhuanlan.zhihu.com/p/43606376",
-      "summary": "正文用协方差刻画X与Y的线性关联，并以误差与X不相关识别回归斜率。"
-    },
-    {
-      "title": "数据分析方法——主成分分析（PCA）",
-      "url": "https://zhuanlan.zhihu.com/p/44453206",
-      "summary": "正文从两个完全正相关的变量出发，说明 PCA 如何旋转坐标并消除协方差。"
-    },
-    {
-      "title": "文科生如何上手统计分析工具（2）：SPSS从小学数学到入门",
-      "url": "https://zhuanlan.zhihu.com/p/45142305",
-      "summary": "正文解释相关系数的取值范围、正负方向及显著性，并结合 SPSS 输出说明变量间相关性。"
-    },
-    {
-      "title": "概率论学习笔记（四）",
-      "url": "https://zhuanlan.zhihu.com/p/45720457",
-      "summary": "正文定义协方差和相关系数，说明不相关与不独立的关系，并解释相关系数刻画线性相关程度。"
-    },
-    {
-      "title": "回归分析|笔记整理（2）——一元线性回归（下）",
-      "url": "https://zhuanlan.zhihu.com/p/45973297",
-      "summary": "正文定义相关系数并讨论其与回归系数、决定系数及显著性检验的关系。"
-    },
-    {
-      "title": "卡方检验：(交叉表)离散变量的关联性分析",
-      "url": "https://zhuanlan.zhihu.com/p/46986841",
-      "summary": "正文用性别与化妆的列联表比较理论频数和实际频数，判断两个离散变量之间是否关联。"
-    },
-    {
-      "title": "因子分析的原理",
-      "url": "https://zhuanlan.zhihu.com/p/47293051",
-      "summary": "正文用变量协同变化解释相关性大小，并以相关矩阵作为因子降维的数据依据。"
-    },
-    {
-      "title": "回归分析|笔记整理（4）——多元正态分布理论（中）",
-      "url": "https://zhuanlan.zhihu.com/p/47122783",
-      "summary": "正文用协方差块为零刻画多元正态分量之间的独立关系。"
-    },
-    {
       "title": "科研常用的实验数据分析与处理方法",
       "url": "https://zhuanlan.zhihu.com/p/47652608",
       "summary": "正文解释相关分析用于判断现象间的依存关系，并讨论相关方向和程度。"
-    },
-    {
-      "title": "辛普森悖论：如何用同一数据证明相反的论点",
-      "url": "https://zhuanlan.zhihu.com/p/47867414",
-      "summary": "正文专门分析分组内相关方向一致而汇总后相关性反转的案例。"
-    },
-    {
-      "title": "如何学习和理解卡方检验？",
-      "url": "https://zhuanlan.zhihu.com/p/49218072",
-      "summary": "正文用列联表和列联系数判断两个分类变量是否相关以及相关强度。"
-    },
-    {
-      "title": "如何理解和使用多元线性回归分析？",
-      "url": "https://zhuanlan.zhihu.com/p/49222906",
-      "summary": "正文用复相关系数和决定系数衡量因变量与多个自变量整体的相关程度。"
-    },
-    {
-      "title": "回归分析|笔记整理（6）——多元线性回归（上）",
-      "url": "https://zhuanlan.zhihu.com/p/48541799",
-      "summary": "正文定义简单相关系数、偏相关系数和样本相关阵，并讨论其计算。"
-    },
-    {
-      "title": "如何利用Excel做回归分析 ？",
-      "url": "https://zhuanlan.zhihu.com/p/49592848",
-      "summary": "正文说明相关系数与决定系数如何衡量变量相关性和回归拟合程度。"
-    },
-    {
-      "title": "回归分析|笔记整理（7）——多元线性回归（下），违背基本假设的情况",
-      "url": "https://zhuanlan.zhihu.com/p/49276967",
-      "summary": "正文定义误差自相关系数，并通过DW统计量和残差序列讨论自相关性。"
-    },
-    {
-      "title": "双线性汇合（bilinear pooling）在细粒度图像分析及其他领域的进展综述",
-      "url": "https://zhuanlan.zhihu.com/p/47415565",
-      "summary": "正文用特征向量的外积和格拉姆矩阵捕获通道之间的成对相关关系，作为双线性特征的二阶统计表示。"
-    },
-    {
-      "title": "金融学笔记：从方差到两基金分离，简单的资产组合选择理论",
-      "url": "https://zhuanlan.zhihu.com/p/51107308",
-      "summary": "正文给出相关系数的定义，并用资产间协方差与相关系数展开投资组合收益方差。"
-    },
-    {
-      "title": "典型相关分析 （Canonical Correlation Analysis ，CCA）",
-      "url": "https://zhuanlan.zhihu.com/p/52110862",
-      "summary": "正文定义两组变量的典型变量，以协方差比衡量并最大化它们之间的典型相关性。"
-    },
-    {
-      "title": "回归分析|笔记整理（B）——主成分回归（下），偏最小二乘回归",
-      "url": "https://zhuanlan.zhihu.com/p/52476330",
-      "summary": "正文推导主成分与原始变量的相关系数，并用它解释主成分的来源和贡献。"
-    },
-    {
-      "title": "计量经济学：一元线性回归模型的基本假设",
-      "url": "https://zhuanlan.zhihu.com/p/52699232",
-      "summary": "正文给出相关系数公式，并说明解释变量方差变化会怎样影响与因变量的相关程度。"
     },
     {
       "title": "普通最小二乘法的简单推导",
@@ -1578,104 +443,9 @@
       "summary": "正文比较随机变量的独立性与不相关性，说明不相关仅描述线性关联且要求数学期望存在，并用正态分布例子辨析二者。"
     },
     {
-      "title": "时间序列（一）：平稳性、自相关函数与LB检验",
-      "url": "https://zhuanlan.zhihu.com/p/54153963",
-      "summary": "正文定义自协方差、自相关函数和偏自相关函数，解释不同滞后间的线性相关。"
-    },
-    {
-      "title": "用Excel做相关性分析",
-      "url": "https://zhuanlan.zhihu.com/p/54259536",
-      "summary": "正文解释相关关系与皮尔逊相关系数，并演示如何计算、呈现和利用相关性筛选变量。"
-    },
-    {
-      "title": "关于时间序列预测的一些总结",
-      "url": "https://zhuanlan.zhihu.com/p/54413813",
-      "summary": "正文解释一阶自相关是当前值与前一时刻值的相关，并讨论差分消除自相关。"
-    },
-    {
-      "title": "1小时用Stata速成毕业论文-第2部分-基本操作",
-      "url": "https://zhuanlan.zhihu.com/p/54759300",
-      "summary": "正文使用pwcorr展示变量相关系数，并解释相应P值判断相关性显著性的方法。"
-    },
-    {
-      "title": "多因子回归检验中的 Newey-West 调整",
-      "url": "https://zhuanlan.zhihu.com/p/54913149",
-      "summary": "正文把残差的自相关性纳入协方差估计，并用最大滞后阶数和衰减权重修正相关影响。"
-    },
-    {
-      "title": "机器学习笔试100题完全解析",
-      "url": "https://zhuanlan.zhihu.com/p/55354352",
-      "summary": "正文定义相关系数并讨论其取值范围、线性与非线性关系、多重共线性及 Anscombe  quartet。"
-    },
-    {
-      "title": "【统计推断】剖析回归的本质，详解依存关系中最简单的线性回归模型",
-      "url": "https://zhuanlan.zhihu.com/p/55240092",
-      "summary": "正文用协方差和斜率系数说明简单线性回归刻画 Y 与 X 的线性相关性。"
-    },
-    {
-      "title": "一篮子股票的相关性建模",
-      "url": "https://zhuanlan.zhihu.com/p/56237366",
-      "summary": "正文以股票收益率的相关性为核心，分析篮子期权价格、隐含相关性和相关矩阵修正。"
-    },
-    {
-      "title": "多重线性回归分析SPSS操作与解读",
-      "url": "https://zhuanlan.zhihu.com/p/56358810",
-      "summary": "正文区分 Pearson 相关、偏相关和部分相关，并说明它们对回归变量关系与贡献的解释。"
-    },
-    {
-      "title": "卡方检验（Chi-Squared Test）",
-      "url": "https://zhuanlan.zhihu.com/p/56423752",
-      "summary": "正文用列联表卡方检验判断治疗与改善等分类变量之间是否相关或独立。"
-    },
-    {
-      "title": "看得见的高斯过程：这是一份直观的入门解读",
-      "url": "https://zhuanlan.zhihu.com/p/56562456",
-      "summary": "正文解释协方差矩阵对角线表示各变量方差、非对角线表示变量间相关性，并讨论其对函数形状的影响。"
-    },
-    {
-      "title": "时间序列计量经济学模型——思维导图",
-      "url": "https://zhuanlan.zhihu.com/p/57063438",
-      "summary": "正文定义随机误差项的序列相关和一阶自相关，并进一步讨论自相关函数与协整关系。"
-    },
-    {
-      "title": "如何利用因子分析确定权重",
-      "url": "https://zhuanlan.zhihu.com/p/57289401",
-      "summary": "正文用变量间相关性形成公共因子，并据此解释因子分析和指标归类的相关性结构。"
-    },
-    {
-      "title": "一分钟看完计量经济学",
-      "url": "https://zhuanlan.zhihu.com/p/57562534",
-      "summary": "正文解释解释变量间的多重共线性及其后果、检验方法和处理方式。"
-    },
-    {
-      "title": "用Excel做回归分析",
-      "url": "https://zhuanlan.zhihu.com/p/57875710",
-      "summary": "正文以相关系数0.95157说明自变量和因变量的强相关关系，并用它辅助回归分析。"
-    },
-    {
-      "title": "深入理解PCA与SVD的关系",
-      "url": "https://zhuanlan.zhihu.com/p/58064462",
-      "summary": "正文把 PCA 的目标解释为消除原始维度间的相关性，同时最大化保留各新维度的方差。"
-    },
-    {
       "title": "python应用：机器学习--主成分分析PCA",
       "url": "https://zhuanlan.zhihu.com/p/58253325",
       "summary": "正文用协方差解释变量共同变化的方向与强度，并以去相关作为 PCA 降维的目的。"
-    },
-    {
-      "title": "主成分分析(PCA)的详细解释",
-      "url": "https://zhuanlan.zhihu.com/p/58663947",
-      "summary": "正文借协方差矩阵各元素及其正负号讨论变量之间共同变化的方向和相关关系。"
-    },
-    {
-      "title": "协方差，方差，标准差",
-      "url": "https://zhuanlan.zhihu.com/p/58427127",
-      "summary": "正文以协方差描述两个随机变量的共同变化关系，并讨论独立时协方差为零的情形。"
-    },
-    {
-      "title": "时间序列分析 自协方差/自相关系数/偏自相关系数",
-      "url": "https://zhuanlan.zhihu.com/p/59089924",
-      "summary": "正文解释协方差与相关系数，并将同一思想推广到自相关和偏自相关。"
     },
     {
       "title": "多元高斯分布完全解析",
@@ -1683,84 +453,9 @@
       "summary": "正文用协方差矩阵、拉伸和旋转解释随机变量去相关，并联系协方差椭圆与主成分分析。"
     },
     {
-      "title": "SPSSAU教程05：相关回归分析指标解读",
-      "url": "https://zhuanlan.zhihu.com/p/59860973",
-      "summary": "正文讲解相关分析的散点图、正负方向、显著性及相关系数强弱判断。"
-    },
-    {
-      "title": "纵向数据统计方法（二）：广义估计方程",
-      "url": "https://zhuanlan.zhihu.com/p/59888015",
-      "summary": "正文解释重复测量序列的内部相关性，并给出 CS、AR(1) 与 ARMA(1,1) 等相关结构。"
-    },
-    {
-      "title": "时间序列分析（1） 基本概念与实战",
-      "url": "https://zhuanlan.zhihu.com/p/60023855",
-      "summary": "正文由协方差和相关系数讲到 ACF、PACF，并结合时间序列解释滞后相关性。"
-    },
-    {
-      "title": "SPSSAU教程10：量表类影响问卷分析思路",
-      "url": "https://zhuanlan.zhihu.com/p/60713383",
-      "summary": "正文把相关分析列在回归之前，要求先确认各因素与购买意愿是否存在相关关系及紧密程度，属于相关性。"
-    },
-    {
-      "title": "利用Python进行数据分析之多元线性回归案例",
-      "url": "https://zhuanlan.zhihu.com/p/61084966",
-      "summary": "正文用 Pearson 相关系数和散点图判断自变量与因变量的线性相关性。"
-    },
-    {
-      "title": "统计学中的「固定效应 vs. 随机效应」",
-      "url": "https://zhuanlan.zhihu.com/p/60528092",
-      "summary": "正文以个体异质项与解释变量是否相关区分固定效应和随机效应，并解释该相关假设的影响。"
-    },
-    {
       "title": "多元高斯分布概率密度推导",
       "url": "https://zhuanlan.zhihu.com/p/62606437",
       "summary": "正文用二维变量正相关的例子解释协方差矩阵的非对角相关性。"
-    },
-    {
-      "title": "数学建模——主成分分析(SPSS）",
-      "url": "https://zhuanlan.zhihu.com/p/63139206",
-      "summary": "正文先建立变量相关系数矩阵，再据此提取主成分以处理变量间相关性。"
-    },
-    {
-      "title": "如何度量两个排序列表的相似性？",
-      "url": "https://zhuanlan.zhihu.com/p/63279107",
-      "summary": "正文用 Kendall Tau 与 Spearman Footrule 等秩相关度量量化两个排序列表的一致性，并说明元素权重的作用。"
-    },
-    {
-      "title": "协方差矩阵",
-      "url": "https://zhuanlan.zhihu.com/p/64242277",
-      "summary": "正文解释协方差的正负如何表示两个变量的正相关和负相关关系。"
-    },
-    {
-      "title": "Time Series时间序列笔记",
-      "url": "https://zhuanlan.zhihu.com/p/55569371",
-      "summary": "正文具体定义自相关系数、偏自相关系数和相关图，用于刻画时间序列的相关性。"
-    },
-    {
-      "title": "5分钟理解PCA主成分分析",
-      "url": "https://zhuanlan.zhihu.com/p/67475508",
-      "summary": "正文解释协方差的正负与两个维度相关性之间的关系，并据此构造矩阵。"
-    },
-    {
-      "title": "一篇带你学会相关分析",
-      "url": "https://zhuanlan.zhihu.com/p/69531301",
-      "summary": "正文定义相关分析，并通过散点图、Pearson、Spearman、Kendall 系数及实例说明变量间关系强弱。"
-    },
-    {
-      "title": "一场因果革命，Judea Pearl最新力作《为什么》中文版发布",
-      "url": "https://zhuanlan.zhihu.com/p/69794679",
-      "summary": "正文反复区分统计相关性与因果关系，并说明混杂因素会使相关性推断失真。"
-    },
-    {
-      "title": "回归分析超实用总结",
-      "url": "https://zhuanlan.zhihu.com/p/69852653",
-      "summary": "正文用一整节比较相关分析与回归分析，说明前者描述关联方向和程度，后者刻画影响关系。"
-    },
-    {
-      "title": "面经之特征共线性问题",
-      "url": "https://zhuanlan.zhihu.com/p/70124378",
-      "summary": "正文以多个特征高度相关为核心，解释相关变量共同变动、贡献被分摊以及噪声敏感度增加等效应。"
     },
     {
       "title": "如何通俗地理解协方差和相关系数？",
@@ -1768,214 +463,9 @@
       "summary": "正文用矩形面积直观引出协方差定义，并通过标准化得到相关系数。"
     },
     {
-      "title": "时间序列的联动分析",
-      "url": "https://zhuanlan.zhihu.com/p/71178532",
-      "summary": "正文用平移内积、互相关和符号判断时间序列的相关性、方向与先后顺序。"
-    },
-    {
-      "title": "使用ARMA做时间序列预测全流程（附MATLAB代码，ARIMA法）",
-      "url": "https://zhuanlan.zhihu.com/p/69630638",
-      "summary": "正文利用自相关函数和偏自相关函数刻画序列依赖，并据此确定 ARMA 模型阶数。"
-    },
-    {
-      "title": "多重共线性问题，如何解决？",
-      "url": "https://zhuanlan.zhihu.com/p/72722146",
-      "summary": "正文以自变量之间的相关系数和显著性作为多重共线性的诊断依据。"
-    },
-    {
-      "title": "评估区分效度的三大方法",
-      "url": "https://zhuanlan.zhihu.com/p/72966699",
-      "summary": "正文用题项载荷、构面间相关系数、AVE 平方根和 HTMT 比率系统讨论区分效度。"
-    },
-    {
-      "title": "（超详细）验证性因子分析步骤讲解",
-      "url": "https://zhuanlan.zhihu.com/p/74203123",
-      "summary": "正文用因子载荷与因子间相关系数判断变量和潜在因子的关联强弱，实质展开了相关性分析。"
-    },
-    {
-      "title": "【机器学习】降维——PCA（非常详细）",
-      "url": "https://zhuanlan.zhihu.com/p/77151308",
-      "summary": "正文用协方差刻画变量间相关性，并要求降维后的变量尽量线性不相关。"
-    },
-    {
-      "title": "函数型数据分析第一步",
-      "url": "https://zhuanlan.zhihu.com/p/77104728",
-      "summary": "正文定义逐点样本协方差，用同一曲线在两个时刻的偏离乘积衡量相关结构。"
-    },
-    {
-      "title": "【手把手教你】使用Python玩转金融时间序列模型",
-      "url": "https://zhuanlan.zhihu.com/p/80191710",
-      "summary": "正文解释并绘制自相关与偏自相关函数，用滞后项相关性选择模型阶数。"
-    },
-    {
-      "title": "相关与回归，傻傻分不清",
-      "url": "https://zhuanlan.zhihu.com/p/80744389",
-      "summary": "正文用身高体重的散点图说明相关系数衡量两变量联系强度及其正负方向。"
-    },
-    {
-      "title": "SPSS 相关分析之两变量相关分析",
-      "url": "https://zhuanlan.zhihu.com/p/82100464",
-      "summary": "正文区分线性与非线性、正与负、单相关与偏相关，并讲解 Pearson、Kendall 和 Spearman 相关系数。"
-    },
-    {
-      "title": "Score Function Trick及其在机器学习中的应用",
-      "url": "https://zhuanlan.zhihu.com/p/82750018",
-      "summary": "正文利用Score Function与其余量的协方差选择最优控制变量，对应相关性。"
-    },
-    {
-      "title": "均值、方差、标准差、协方差、相关系数的概念及意义",
-      "url": "https://zhuanlan.zhihu.com/p/86181679",
-      "summary": "正文解释协方差与相关系数如何度量两个随机变量之间的正负相关关系。"
-    },
-    {
-      "title": "16种常用的数据分析方法汇总",
-      "url": "https://zhuanlan.zhihu.com/p/87951131",
-      "summary": "正文解释相关分析并区分单相关、复相关与偏相关的含义。"
-    },
-    {
-      "title": "共线性问题",
-      "url": "https://zhuanlan.zhihu.com/p/88025370",
-      "summary": "正文以解释变量之间的高度相关关系为起点，说明共线性如何造成模型估计失真。"
-    },
-    {
-      "title": "【统计】Causal Inference",
-      "url": "https://zhuanlan.zhihu.com/p/88173582",
-      "summary": "正文反复比较统计相关与因果影响，并用票价、销量和节假日说明相关不等于因果。"
-    },
-    {
-      "title": "很系统的波士顿房价预测研究报告（期中作业）",
-      "url": "https://zhuanlan.zhihu.com/p/89873990",
-      "summary": "正文用相关系数热力图和阈值筛选特征，具体讨论了变量相关性。"
-    },
-    {
       "title": "多元正态分布简介",
       "url": "https://zhuanlan.zhihu.com/p/90272131",
       "summary": "正文通过协方差矩阵和相关系数讨论二元正态变量之间的相关性。"
-    },
-    {
-      "title": "不得不学的统计学基础知识（一）",
-      "url": "https://zhuanlan.zhihu.com/p/93045049",
-      "summary": "正文解释协方差的正负含义，并给出皮尔逊相关系数的计算关系及其标准化作用。"
-    },
-    {
-      "title": "要做相关性分析，该如何选择正确的统计方法？",
-      "url": "https://zhuanlan.zhihu.com/p/94070722",
-      "summary": "正文按变量数量和数据类型说明 Pearson、Spearman、Kendall 等相关系数及相关强度的选择。"
-    },
-    {
-      "title": "协方差与相关系数",
-      "url": "https://zhuanlan.zhihu.com/p/95050624",
-      "summary": "正文从协方差的联动含义讲到标准化后的相关系数，并证明它刻画线性相关关系。"
-    },
-    {
-      "title": "因材施教：对多个异常检测模型进行「选择性合并」",
-      "url": "https://zhuanlan.zhihu.com/p/95121734",
-      "summary": "正文以 Pearson 相关系数衡量基础检测器与伪标签在局部区域的一致性，并将相关性用于模型选择。"
-    },
-    {
-      "title": "计算机视觉中的因果关系与因果推理",
-      "url": "https://zhuanlan.zhihu.com/p/95465063",
-      "summary": "正文通过混杂因子形成的叉接路径解释伪相关，并区分其与真正因果关系的不同。"
-    },
-    {
-      "title": "spss数据分析之描述性统计分析",
-      "url": "https://zhuanlan.zhihu.com/p/98522602",
-      "summary": "正文通过交叉列联表和相关系数说明两个分类变量之间是否存在相关关系及其分析流程。"
-    },
-    {
-      "title": "如何解读 SIMCA 主成分分析（PCA）的结果？",
-      "url": "https://zhuanlan.zhihu.com/p/96677251",
-      "summary": "正文解释载荷图中变量的正负相关、方向及其与得分图的关系。"
-    },
-    {
-      "title": "[机器学习]常用距离定义与计算",
-      "url": "https://zhuanlan.zhihu.com/p/101277851",
-      "summary": "正文给出 Pearson 相关系数公式，并用相关系数到距离的换算刻画两个变量的相关性。"
-    },
-    {
-      "title": "概率论及数理统计——个人笔记",
-      "url": "https://zhuanlan.zhihu.com/p/101775745",
-      "summary": "正文定义协方差和相关系数，并用它们刻画两个随机变量之间的线性相关程度。"
-    },
-    {
-      "title": "stata面板数据回归操作之GMM",
-      "url": "https://zhuanlan.zhihu.com/p/102357919",
-      "summary": "正文说明用 AR1、AR2 检验扰动项差分中的序列相关性，并据此判断 GMM 估计的一致性。"
-    },
-    {
-      "title": "前景理论与股票收益 (I)",
-      "url": "https://zhuanlan.zhihu.com/p/103548438",
-      "summary": "正文报告 TK 因子与长期反转因子的相关系数，并讨论历史收益率、长期反转和未来收益之间的关联。"
-    },
-    {
-      "title": "时间序列分析",
-      "url": "https://zhuanlan.zhihu.com/p/104928269",
-      "summary": "正文用自相关和偏自相关函数判断时间序列的依赖结构并识别模型阶数。"
-    },
-    {
-      "title": "案例6：SPSS--对应分析",
-      "url": "https://zhuanlan.zhihu.com/p/105796607",
-      "summary": "正文介绍对应分析如何变换并降维交叉表频数，再以二维距离和散点图解释两个或多个分类变量类别间的关联，对应相关性分析。"
-    },
-    {
-      "title": "【十分钟计量经济学】多元回归分析",
-      "url": "https://zhuanlan.zhihu.com/p/106171123",
-      "summary": "正文将判断变量相关关系列为回归目标，并通过相关系数、多重共线性和VIF讨论变量之间的相关结构。"
-    },
-    {
-      "title": "我用Excel发现了数据分析的本质：回归分析",
-      "url": "https://zhuanlan.zhihu.com/p/110381965",
-      "summary": "正文先解释数据变量之间相关性的含义，再以回归分析研究相关关系并解释相关程度。"
-    },
-    {
-      "title": "如何解读线性回归的结果",
-      "url": "https://zhuanlan.zhihu.com/p/110566210",
-      "summary": "正文解释相关系数和决定系数如何刻画变量关系及模型对因变量方差的解释比例。"
-    },
-    {
-      "title": "内生性问题及其产生原因",
-      "url": "https://zhuanlan.zhihu.com/p/110645711",
-      "summary": "正文以解释变量和误差项的相关性定义内生性，并用协方差说明这种相关性为何出现。"
-    },
-    {
-      "title": "因果推理初探（3）——拨开混杂的迷雾",
-      "url": "https://zhuanlan.zhihu.com/p/110186209",
-      "summary": "正文以共因造成的伪相关为例，说明混杂会引入非因果关联，并讨论如何识别和消除这种偏倚。"
-    },
-    {
-      "title": "不知道怎样计算权重？告诉你8种确定权重方法",
-      "url": "https://zhuanlan.zhihu.com/p/112667852",
-      "summary": "正文以相关系数衡量指标间的冲突性和信息重叠，具体展开了相关性在权重计算中的作用。"
-    },
-    {
-      "title": "小白学统计|面板数据分析与Stata应用笔记（三）",
-      "url": "https://zhuanlan.zhihu.com/p/113568556",
-      "summary": "正文用散点图、回归线和偏相关图具体解释价格与香烟消费之间的相关方向及其解释边界。"
-    },
-    {
-      "title": "高斯过程回归（Gaussian Process Regression）",
-      "url": "https://zhuanlan.zhihu.com/p/114962778",
-      "summary": "正文用核函数生成变量间的协方差矩阵，并由协方差强弱解释特征之间的相关性。"
-    },
-    {
-      "title": "使用SARIMA做季节时间序列预测全流程（附MATLAB代码）",
-      "url": "https://zhuanlan.zhihu.com/p/117595003",
-      "summary": "正文用Durbin-Watson统计量检验残差的一阶自相关，并解释统计量接近2的含义。"
-    },
-    {
-      "title": "数据分析之关联分析",
-      "url": "https://zhuanlan.zhihu.com/p/118439868",
-      "summary": "文章以支持度、置信度和提升度量化项目之间的关联关系并筛选有效规则。"
-    },
-    {
-      "title": "股价是随机游走的吗？",
-      "url": "https://zhuanlan.zhihu.com/p/115342322",
-      "summary": "正文通过差分序列图、ACF 图和 Ljung-Box 统计量检验不同滞后阶的自相关，并解释自相关与白噪声的关系。"
-    },
-    {
-      "title": "19 统计学：统计分析模型",
-      "url": "https://zhuanlan.zhihu.com/p/123951353",
-      "summary": "正文给出相关系数公式，并用离散程度和升降趋势比较变量相关性的强弱与方向。"
     },
     {
       "title": "线性回归方程与相关系数的推导",
@@ -1983,194 +473,9 @@
       "summary": "正文给出相关系数的协方差定义、样本计算式及其与回归斜率的关系，并证明其取值范围。"
     },
     {
-      "title": "概率论与统计学2——深入理解高斯分布",
-      "url": "https://zhuanlan.zhihu.com/p/125619927",
-      "summary": "正文以协方差矩阵非对角元是否为零说明维度间的相关性与独立性。"
-    },
-    {
-      "title": "卡方独立性检验原理",
-      "url": "https://zhuanlan.zhihu.com/p/131286213",
-      "summary": "正文讨论正态变量独立性与协方差、相关性之间的关系，并用其消除列联表变量间的相关性。"
-    },
-    {
-      "title": "关于Moran指数的一些思考",
-      "url": "https://zhuanlan.zhihu.com/p/136067646",
-      "summary": "正文解释全局与局部 Moran 指数、四类空间相关象限及 LISA 集聚图的显著相关性含义。"
-    },
-    {
-      "title": "新版白话空间统计（5）：莫兰指数之计算详解",
-      "url": "https://zhuanlan.zhihu.com/p/136600498",
-      "summary": "正文解释莫兰指数如何用属性离差乘积和空间权重衡量空间自相关及聚集或离散。"
-    },
-    {
-      "title": "数据特征分析·相关性分析",
-      "url": "https://zhuanlan.zhihu.com/p/136771737",
-      "summary": "正文系统讲解 Pearson、Spearman 相关系数的含义、范围和判定方式，属于相关性分析。"
-    },
-    {
-      "title": "探索性因素分析（EFA）在SPSS 和Mplus中的实现",
-      "url": "https://zhuanlan.zhihu.com/p/136798795",
-      "summary": "正文围绕指标间相关性、共同因子提取和因子负荷解释展开，实质讨论了相关性建模。"
-    },
-    {
-      "title": "超详细的Pearson相关性分析案例",
-      "url": "https://zhuanlan.zhihu.com/p/137127572",
-      "summary": "正文围绕Pearson相关系数的适用条件、正负相关强弱、显著性结果及相关与因果区别展开说明。"
-    },
-    {
-      "title": "工具类|常见的距离算法和相似度计算方法",
-      "url": "https://zhuanlan.zhihu.com/p/138107999",
-      "summary": "正文给出 Pearson 相关系数公式，并说明其平移不变性、尺度不变性和相关性含义。"
-    },
-    {
-      "title": "超全干货 | 统计学中常用的数据分析方法汇总！",
-      "url": "https://zhuanlan.zhihu.com/p/138671551",
-      "summary": "正文解释相关分析、正负相关与相关系数，并区分相关关系和因果关系。"
-    },
-    {
-      "title": "Copula系列（一）-什么是Copula函数",
-      "url": "https://zhuanlan.zhihu.com/p/138800469",
-      "summary": "正文具体讨论 Copula 对随机变量依赖结构和相关性建模的作用，并比较不同 Copula 函数的尾部相关特征。"
-    },
-    {
-      "title": "数据分析模型9——预知未来的算法：时间序列分析",
-      "url": "https://zhuanlan.zhihu.com/p/127981316",
-      "summary": "正文定义自相关和偏自相关，并用ACF、PACF图判断时间序列的滞后相关性。"
-    },
-    {
-      "title": "Cronbach’s α？KMO系数？因子载荷？史上最易懂的问卷信效度分析教程！！！（SPSS和AMOS）",
-      "url": "https://zhuanlan.zhihu.com/p/140345711",
-      "summary": "正文解释 KMO 通过变量间偏相关性和相关矩阵判断数据是否适合因子分析。"
-    },
-    {
       "title": "随机微积分 (13) 伊藤过程、随机微分方程SDE",
       "url": "https://zhuanlan.zhihu.com/p/140075707",
       "summary": "正文用相关系数构造相关的布朗运动，并推导其协变差和相关性结构。"
-    },
-    {
-      "title": "SPSS主成分分析 | 指标权重值计算真的不难！（上）",
-      "url": "https://zhuanlan.zhihu.com/p/141188583",
-      "summary": "正文依据指标之间的相关性筛选主成分并解释降维目的。"
-    },
-    {
-      "title": "毕业论文用SPSS和AMOS处理数据的几点问题和建议！",
-      "url": "https://zhuanlan.zhihu.com/p/141321579",
-      "summary": "正文解释皮尔逊或斯皮尔曼系数表示相关性的强度与方向，并说明显著性检验与系数大小的区别。"
-    },
-    {
-      "title": "时间序列异常检测（一）—— 算法综述",
-      "url": "https://zhuanlan.zhihu.com/p/142320349",
-      "summary": "正文说明马氏距离通过协方差矩阵刻画变量相关性，并据此构造异常分值和筛选相关特征。"
-    },
-    {
-      "title": "时间序列 | 平稳过程、自相关、白噪声、ACF",
-      "url": "https://zhuanlan.zhihu.com/p/143022185",
-      "summary": "正文定义自协方差和自相关系数，说明它们度量时间序列与延迟值之间的相关性，并用 ACF 展示序列相关规律。"
-    },
-    {
-      "title": "SPSS数据分析1——主成分分析",
-      "url": "https://zhuanlan.zhihu.com/p/143324362",
-      "summary": "正文讨论变量间相关系数与偏相关系数，并用 KMO 统计量判断变量的相关结构。"
-    },
-    {
-      "title": "对统计学的R方的理解与用法",
-      "url": "https://zhuanlan.zhihu.com/p/143132259",
-      "summary": "正文比较 R 方与 Pearson 相关系数，说明相关关系不能替代预测准确度。"
-    },
-    {
-      "title": "多元线性逐步回归分析",
-      "url": "https://zhuanlan.zhihu.com/p/144153981",
-      "summary": "正文以方差膨胀因子及阈值判断自变量之间的多重共线性，实质讨论变量相关关系。"
-    },
-    {
-      "title": "探索性因子分析（EFA）",
-      "url": "https://zhuanlan.zhihu.com/p/149246100",
-      "summary": "正文以相关矩阵和因子间相关系数判断适用转轴，并解释共同因子对变量的相关解释。"
-    },
-    {
-      "title": "灰色预测法",
-      "url": "https://zhuanlan.zhihu.com/p/149339270",
-      "summary": "正文专门讲解灰色关联分析，以关联系数和关联度衡量不同数据序列之间变化趋势的相关程度。"
-    },
-    {
-      "title": "心理学meta分析/元分析简介",
-      "url": "https://zhuanlan.zhihu.com/p/149863842",
-      "summary": "正文说明合并相关系数的含义、数据来源和相关强度分级。"
-    },
-    {
-      "title": "线性回归中的多重共线性问题",
-      "url": "https://zhuanlan.zhihu.com/p/151636748",
-      "summary": "正文用 X2=2X1 等具体关系分析特征之间的高度相关及其对回归系数的影响。"
-    },
-    {
-      "title": "DCC-GARCH模型代码及实现案例",
-      "url": "https://zhuanlan.zhihu.com/p/154544534",
-      "summary": "正文用 DCC-GARCH 估计行业指数序列间随时间变化的波动相关性。"
-    },
-    {
-      "title": "回归分析和相关分析到底有什么区别？",
-      "url": "https://zhuanlan.zhihu.com/p/156883613",
-      "summary": "正文专门比较相关分析与回归分析，并说明相关分析衡量变量间线性相关的密切程度。"
-    },
-    {
-      "title": "协整关系（cointegration）和配对交易",
-      "url": "https://zhuanlan.zhihu.com/p/158871695",
-      "summary": "正文定义相关系数，区分线性相关与独立性，并比较 Pearson 与 Spearman 相关。"
-    },
-    {
-      "title": "多层模型如何求ICC？（理论篇1)",
-      "url": "https://zhuanlan.zhihu.com/p/148822658",
-      "summary": "正文通过合并个体与按酒吧分组时相关方向反转，说明分组层次影响相关性。"
-    },
-    {
-      "title": "华东师范大学统计学暑期学校笔记",
-      "url": "https://zhuanlan.zhihu.com/p/160017364",
-      "summary": "正文以鞋码、智力和吸烟等例子解释相关与因果的差异，并讨论混杂因素对因果判断的影响。"
-    },
-    {
-      "title": "【统计学】R方的常见问题",
-      "url": "https://zhuanlan.zhihu.com/p/159000427",
-      "summary": "正文区分 R 方与皮尔逊相关系数的含义、对称性及二者在简单线性模型中的关系。"
-    },
-    {
-      "title": "计量经济学第二讲（一元线性回归模型：回归分析概述，基本假定，参数估计）",
-      "url": "https://zhuanlan.zhihu.com/p/151602755",
-      "summary": "正文区分相关关系与函数关系，给出总体和样本相关系数并比较相关分析与回归分析。"
-    },
-    {
-      "title": "数学建模笔记——评价类模型之灰色关联分析",
-      "url": "https://zhuanlan.zhihu.com/p/161536409",
-      "summary": "正文用序列曲线的同步或相似程度定义灰色关联度，并据此比较各因素与系统指标的关联强弱。"
-    },
-    {
-      "title": "不要太在意多重共线性问题",
-      "url": "https://zhuanlan.zhihu.com/p/161746850",
-      "summary": "正文以解释变量之间的相关和近似线性组合定义多重共线性。"
-    },
-    {
-      "title": "计量经济学第10讲（时间序列计量经济学模型：序列相关性）",
-      "url": "https://zhuanlan.zhihu.com/p/161964226",
-      "summary": "正文系统讲解时间序列误差项的序列相关性、自相关系数及残差相关诊断。"
-    },
-    {
-      "title": "【科普】如何正确理解特征值与特征向量",
-      "url": "https://zhuanlan.zhihu.com/p/165382601",
-      "summary": "正文展开方差、协方差、相关系数和协方差矩阵，并解释变量相关程度。"
-    },
-    {
-      "title": "论文中的数据分析｜统计分析方法简介",
-      "url": "https://zhuanlan.zhihu.com/p/166298508",
-      "summary": "正文以典型相关分析说明如何通过两组主成分之间的相关性刻画两组变量的整体线性关系。"
-    },
-    {
-      "title": "深度学习中的互信息量上下界估计",
-      "url": "https://zhuanlan.zhihu.com/p/168479185",
-      "summary": "正文明确把互信息解释为随机变量相关性强弱的度量。"
-    },
-    {
-      "title": "因果推断数据分析实战",
-      "url": "https://zhuanlan.zhihu.com/p/171703047",
-      "summary": "正文用混淆变量、共同原因和共同结果解释相关与因果的区别，并讨论后门路径。"
     },
     {
       "title": "概率论复习(4): 正态分布",
@@ -2178,424 +483,9 @@
       "summary": "正文计算二元正态分布的协方差，证明参数rho就是两个分量的相关系数。"
     },
     {
-      "title": "调节变量与调节效应理论概述",
-      "url": "https://zhuanlan.zhihu.com/p/181684754",
-      "summary": "正文讨论中心化对交互项与自变量、调节变量之间相关性和共线性的影响。"
-    },
-    {
-      "title": "回归分析中相关指数R^2的探讨",
-      "url": "https://zhuanlan.zhihu.com/p/158817889",
-      "summary": "正文以身高和体重为例区分确定性的函数关系与非确定性的相关关系，并说明相关关系的含义。"
-    },
-    {
-      "title": "R语言实战之回归分析",
-      "url": "https://zhuanlan.zhihu.com/p/184923047",
-      "summary": "正文用相关系数矩阵和散点图矩阵检查预测变量与响应变量、预测变量之间的相关性及多重共线性。"
-    },
-    {
-      "title": "R语言实战之时间序列分析",
-      "url": "https://zhuanlan.zhihu.com/p/189826387",
-      "summary": "正文实质讲解滞后序列的自相关、偏自相关、ACF 与 PACF 图及其用于模型选择。"
-    },
-    {
-      "title": "功能性核磁共振成像--知识点汇总",
-      "url": "https://zhuanlan.zhihu.com/p/190264374",
-      "summary": "正文用 Pearson 相关系数衡量脑区时间序列关系，并讲解 Fisher z 变换对相关系数的正态化。"
-    },
-    {
-      "title": "偏相关怎么理解？怎么操作？",
-      "url": "https://zhuanlan.zhihu.com/p/197018165",
-      "summary": "正文解释偏相关通过控制变量衡量两个变量的剩余相关关系。"
-    },
-    {
-      "title": "统计学名词解释",
-      "url": "https://zhuanlan.zhihu.com/p/208658144",
-      "summary": "正文定义相关分析，并以相关系数刻画变量之间的线性相关程度。"
-    },
-    {
-      "title": "回归分析与相关分析联系、区别",
-      "url": "https://zhuanlan.zhihu.com/p/234980303",
-      "summary": "正文用相关系数说明相关分析衡量变量关系的方向和程度，并比较其与回归分析中变量地位的区别。"
-    },
-    {
-      "title": "计量经济学精华笔记（二）：异方差和自相关",
-      "url": "https://zhuanlan.zhihu.com/p/242140022",
-      "summary": "正文把自相关解释为扰动项与滞后值的相关性，并讨论时序数据中的检验与处理。"
-    },
-    {
-      "title": "生物信息学中常用的统计学知识 | 推荐收藏",
-      "url": "https://zhuanlan.zhihu.com/p/252423471",
-      "summary": "正文比较 Pearson、Spearman 和 Kendall 相关系数的适用范围与数据分布要求。"
-    },
-    {
-      "title": "时间序列分析第01讲--平稳序列（基本概念，线性平稳序列）",
-      "url": "https://zhuanlan.zhihu.com/p/252978417",
-      "summary": "正文定义标准化后的自相关函数，并用自协方差随滞后的变化刻画时间序列的相关性。"
-    },
-    {
-      "title": "多元统计分析第01讲--多元正态分布及参数估计（随机向量，多元正态分布定义，条件分布和独立性）",
-      "url": "https://zhuanlan.zhihu.com/p/258399140",
-      "summary": "正文用协方差矩阵与相关系数矩阵刻画随机向量各分量之间的相关性。"
-    },
-    {
-      "title": "因果推断综述及基础方法介绍（一）",
-      "url": "https://zhuanlan.zhihu.com/p/258562953",
-      "summary": "正文通过黄油消费与离婚率的例子说明相关不等于因果，并比较相关性与因果性的方向差异。"
-    },
-    {
-      "title": "携程如何基于ARIMA时序分析做业务量的预测",
-      "url": "https://zhuanlan.zhihu.com/p/259204063",
-      "summary": "正文定义自相关和偏自相关函数，并用它们判断时间序列各滞后点之间的相关性。"
-    },
-    {
-      "title": "用 Venn Diagram 理解多元线性回归的 OLS 估计",
-      "url": "https://zhuanlan.zhihu.com/p/264377667",
-      "summary": "正文以集合重叠面积表示协方差，并进一步分析解释变量相关性、共线性和正交化对估计的影响。"
-    },
-    {
-      "title": "如何优雅的使用Excel作出高大上的图片",
-      "url": "https://zhuanlan.zhihu.com/p/265113956",
-      "summary": "正文说明 Pearson 相关系数的取值和线性相关含义，并用它计算变量间相关矩阵和绘制相关性热图。"
-    },
-    {
-      "title": "方差、标准差、协方差、相关系数",
-      "url": "https://zhuanlan.zhihu.com/p/266161140",
-      "summary": "正文通过协方差和归一化后的相关系数解释两个变量的同向、反向关系及相关程度。"
-    },
-    {
-      "title": "灰色关联算法原理与实现详解",
-      "url": "https://zhuanlan.zhihu.com/p/266959639",
-      "summary": "正文以曲线形状接近程度、关联系数和关联度衡量并排序各因素与参考序列的相关性。"
-    },
-    {
-      "title": "金融数学第04讲（投资组合理论：不考虑无风险资产，有效前沿的推导）",
-      "url": "https://zhuanlan.zhihu.com/p/268157564",
-      "summary": "正文用标准化协方差定义相关系数，并分析不同相关性对组合风险的影响。"
-    },
-    {
-      "title": "如何在观测数据下进行因果效应评估",
-      "url": "https://zhuanlan.zhihu.com/p/268638916",
-      "summary": "正文重点区分相关性与因果性，解释因果、混淆和样本选择三类相关来源并讨论混杂偏倚。"
-    },
-    {
-      "title": "我要自学生信之统计学：统计学概述（一）",
-      "url": "https://zhuanlan.zhihu.com/p/271091491",
-      "summary": "正文同时讲解协方差和相关系数，并用它们判断变量相关方向及强度。"
-    },
-    {
-      "title": "如何快速掌握SPSS进行问卷分析",
-      "url": "https://zhuanlan.zhihu.com/p/274279851",
-      "summary": "正文具体区分连续变量的 Pearson 相关、等级变量的 Spearman 相关和控制变量后的偏相关。"
-    },
-    {
-      "title": "stata 数据操作基础知识:以一篇论文数据操作为例",
-      "url": "https://zhuanlan.zhihu.com/p/277425526",
-      "summary": "正文用成对相关系数和对应 P 值说明变量之间相关性及其显著性判断。"
-    },
-    {
-      "title": "spss数据分析--相关性分析",
-      "url": "https://zhuanlan.zhihu.com/p/279242417",
-      "summary": "正文说明相关系数的正负、强弱阈值以及相关性分析用于连续变量两两关系的初步判断。"
-    },
-    {
-      "title": "中介调节检验工具Process插件使用",
-      "url": "https://zhuanlan.zhihu.com/p/303336428",
-      "summary": "正文强调建模前计算模型变量的相关分析，并说明相关程度对中介路径的影响。"
-    },
-    {
-      "title": "特征选择方法全面总结",
-      "url": "https://zhuanlan.zhihu.com/p/306057603",
-      "summary": "正文用皮尔逊相关系数及其样本公式度量特征与目标变量的线性相关性，并据此讨论相关特征筛选。"
-    },
-    {
-      "title": "医学统计学复习资料",
-      "url": "https://zhuanlan.zhihu.com/p/317222724",
-      "summary": "正文解释Pearson积差相关系数用于刻画两个变量的线性相关方向与密切程度。"
-    },
-    {
-      "title": "医学统计学复习（串讲版）",
-      "url": "https://zhuanlan.zhihu.com/p/333400974",
-      "summary": "正文定义线性相关与相关系数，并展开相关分析的应用条件和注意事项。"
-    },
-    {
-      "title": "一文看懂统计学、T检验、F检验、卡方检验",
-      "url": "https://zhuanlan.zhihu.com/p/334574642",
-      "summary": "正文比较 Pearson、Spearman 和 Kendall 等相关系数，并结合数据类型演示相关性分析。"
-    },
-    {
-      "title": "机器学习中“距离与相似度”计算汇总",
-      "url": "https://zhuanlan.zhihu.com/p/336946131",
-      "summary": "正文借协方差解释变量之间的正负相关，并用它构造考虑相关性的马氏距离。"
-    },
-    {
-      "title": "COPOD：用「统计」+「机器学习」检测异常",
-      "url": "https://zhuanlan.zhihu.com/p/338189299",
-      "summary": "正文指出多维数据各维变量常不独立，并用 copula 对变量之间的依赖关系建模。"
-    },
-    {
       "title": "线性回归中相关系数(Correlation coefficient)与决定系数(coefficient of determination)相等的证明",
       "url": "https://zhuanlan.zhihu.com/p/338241979",
       "summary": "正文给出 x 与 y 的相关系数公式，并通过分解协方差和方差证明决定系数等于相关系数的平方。"
-    },
-    {
-      "title": "复杂网络中的节点相似性",
-      "url": "https://zhuanlan.zhihu.com/p/338795473",
-      "summary": "正文用协方差除以两个标准差之积定义 Pearson 相似度，并说明其取值范围和变量同向或反向变化所代表的关联方向。"
-    },
-    {
-      "title": "皮尔逊、斯皮尔曼、肯德尔相关系数介绍及其在特征选择中的应用",
-      "url": "https://zhuanlan.zhihu.com/p/339077538",
-      "summary": "正文分别解释皮尔逊、斯皮尔曼和肯德尔相关系数的数值范围、计算公式及线性或单调关联含义。"
-    },
-    {
-      "title": "斯皮尔曼等级相关系数Spearman's rank correlation coefficient",
-      "url": "https://zhuanlan.zhihu.com/p/339079547",
-      "summary": "正文介绍斯皮尔曼等级相关系数的适用前提、计算方法和实例，用于衡量两组变量在等级上的单调关联方向和强度。"
-    },
-    {
-      "title": "浅谈T检验和F检验",
-      "url": "https://zhuanlan.zhihu.com/p/339540325",
-      "summary": "正文比较相关分析与回归分析，解释相关分析刻画两个随机变量的共同变化程度。"
-    },
-    {
-      "title": "综合评价指标权重方法汇总",
-      "url": "https://zhuanlan.zhihu.com/p/342901550",
-      "summary": "正文具体说明 CRITIC 用相关系数刻画指标冲突性并据此调整权重，属于相关性在赋权中的应用。"
-    },
-    {
-      "title": "数据相关性分析",
-      "url": "https://zhuanlan.zhihu.com/p/343361192",
-      "summary": "正文系统讲解相关性的含义、正负方向和强度，并介绍 Pearson、Spearman 与 Kendall 系数，属于相关性分析。"
-    },
-    {
-      "title": "概率论：三、随机变量的期望和方差",
-      "url": "https://zhuanlan.zhihu.com/p/343367455",
-      "summary": "正文定义协方差与相关系数，解释正相关、负相关、不相关以及它们同独立性的关系。"
-    },
-    {
-      "title": "多元统计课程笔记（1）多元统计基本知识",
-      "url": "https://zhuanlan.zhihu.com/p/345000878",
-      "summary": "正文定义样本协方差和相关系数，并说明其线性相关性含义。"
-    },
-    {
-      "title": "统计学第七版期末考知识点及其题库",
-      "url": "https://zhuanlan.zhihu.com/p/348102164",
-      "summary": "正文用相关系数概括两个变量线性相关的方向和强度。"
-    },
-    {
-      "title": "偏差(bias)与混淆(confounding)",
-      "url": "https://zhuanlan.zhihu.com/p/347813287",
-      "summary": "正文围绕相关性估计展开，说明偏倚和混杂如何使观测到的变量相关关系失真。"
-    },
-    {
-      "title": "形象理解协方差矩阵",
-      "url": "https://zhuanlan.zhihu.com/p/349802953",
-      "summary": "正文用协方差的符号解释两个变量的变化趋势，并讨论不相关与独立的区别。"
-    },
-    {
-      "title": "相关性分析",
-      "url": "https://zhuanlan.zhihu.com/p/350334110",
-      "summary": "正文系统比较 Pearson、Spearman 和 Kendall 相关系数及其适用条件和方向强弱。"
-    },
-    {
-      "title": "时间序列数据分析（R语言版）",
-      "url": "https://zhuanlan.zhihu.com/p/351265987",
-      "summary": "正文用自相关图和 Ljung-Box 检验分析序列不同滞后阶之间是否存在相关性。"
-    },
-    {
-      "title": "因果推断学习3 --- 随机试验",
-      "url": "https://zhuanlan.zhihu.com/p/351283791",
-      "summary": "正文明确区分统计相关与因果效应，并解释混杂因素为何会使两者不等。"
-    },
-    {
-      "title": "金融数据与时间序列分析专题1：时间序列基础概念，平稳性，白噪声，自协方差函数与Lag算子",
-      "url": "https://zhuanlan.zhihu.com/p/351583226",
-      "summary": "正文定义时间序列的自协方差和自相关函数，并用其刻画不同时点随机变量之间的关系。"
-    },
-    {
-      "title": "R语言教程|带你搞清楚主成分分析（PCA）并完成分析",
-      "url": "https://zhuanlan.zhihu.com/p/354086571",
-      "summary": "正文先标准化数据，再计算协方差矩阵，并解释标准化后相关系数近似等于协方差。"
-    },
-    {
-      "title": "距离相似度计算总结（欧式距离、余弦相似度、杰卡德、互信息等18种）",
-      "url": "https://zhuanlan.zhihu.com/p/354289511",
-      "summary": "正文定义皮尔逊相关系数，并通过协方差与标准差解释变量间相关性的度量。"
-    },
-    {
-      "title": "真香的多元随机向量基础篇（均值与方差）",
-      "url": "https://zhuanlan.zhihu.com/p/354951327",
-      "summary": "正文用协方差矩阵刻画随机向量各分量之间的联系，并证明其在线性变换下的协变规律。"
-    },
-    {
-      "title": "一看就懂的多重共线性",
-      "url": "https://zhuanlan.zhihu.com/p/355241680",
-      "summary": "正文把解释变量之间的精确或高度相关性作为共线性问题的来源和危害。"
-    },
-    {
-      "title": "抽样调查第02讲（简单随机抽样SRS：定义，简单估计量及其性质）",
-      "url": "https://zhuanlan.zhihu.com/p/356060582",
-      "summary": "正文推导两个样本均值之间的协方差，并给出样本协方差等相关量。"
-    },
-    {
-      "title": "【实证】调节效应",
-      "url": "https://zhuanlan.zhihu.com/p/357329900",
-      "summary": "正文通过协方差推导说明中心化可降低变量与乘积项之间的相关和共线性。"
-    },
-    {
-      "title": "抽样调查第03讲（简单随机抽样SRS：比率估计、回归估计、确定样本容量）",
-      "url": "https://zhuanlan.zhihu.com/p/357618368",
-      "summary": "正文利用样本协方差和相关程度解释比率估计的方差变化，并推导比估计更优所需的相关系数条件。"
-    },
-    {
-      "title": "【时间序列】ACF与PACF",
-      "url": "https://zhuanlan.zhihu.com/p/360228022",
-      "summary": "正文用协方差标准化定义自相关，并解释序列与其滞后序列之间的相关性。"
-    },
-    {
-      "title": "协方差矩阵和相关系数矩阵",
-      "url": "https://zhuanlan.zhihu.com/p/363213507",
-      "summary": "正文定义皮尔逊相关系数并说明其衡量两个随机变量线性相关程度的作用。"
-    },
-    {
-      "title": "因果推断综述解析|A Survey on Causal Inference(3)",
-      "url": "https://zhuanlan.zhihu.com/p/364488325",
-      "summary": "正文把策略分配与背景变量之间的相关性最小化作为协变量平衡权重模型的核心目标。"
-    },
-    {
-      "title": "工具变量相关性与外生性",
-      "url": "https://zhuanlan.zhihu.com/p/369440127",
-      "summary": "正文把工具变量有效性拆成与内生变量的相关性和与外生扰动项无关两项条件。"
-    },
-    {
-      "title": "笔记01：收敛交叉映射（CCM）及一些拓展",
-      "url": "https://zhuanlan.zhihu.com/p/367363413",
-      "summary": "正文用线性相关系数分析非线性时间序列，重点区分相关性与因果关系的适用范围。"
-    },
-    {
-      "title": "统计学的那些事 & 数据分析工作必会",
-      "url": "https://zhuanlan.zhihu.com/p/369830612",
-      "summary": "正文系统讲解协方差、皮尔逊相关系数和斯皮尔曼秩相关，并比较其稳健性。"
-    },
-    {
-      "title": "随机过程：一、随机过程的分布及其特征",
-      "url": "https://zhuanlan.zhihu.com/p/371832715",
-      "summary": "正文定义自相关与自协方差函数，并进一步讨论二维随机过程的互相关和互协方差。"
-    },
-    {
-      "title": "基于潜在结果框架的因果推断入门",
-      "url": "https://zhuanlan.zhihu.com/p/372399985",
-      "summary": "正文先界定相关关系与因果关系，再说明因果推断如何估计干预对结果的响应。"
-    },
-    {
-      "title": "如何使用SPSS进行相关性分析（一）：相关关系的基本介绍",
-      "url": "https://zhuanlan.zhihu.com/p/372735284",
-      "summary": "正文解释相关关系的含义、方向、强弱及不同类型变量的测量方法，属于相关性分析。"
-    },
-    {
-      "title": "如何使用SPSS进行相关性分析（二）：实战案例操作（内附案例数据）",
-      "url": "https://zhuanlan.zhihu.com/p/374537506",
-      "summary": "正文解释定类和定序变量相关性的方向、强弱及 Lambda、Gamma、Somers 等测量方法。"
-    },
-    {
-      "title": "当我们谈聚类标准误时我们在谈什么？",
-      "url": "https://zhuanlan.zhihu.com/p/376435984",
-      "summary": "正文以组群结构解释样本相关性为何使常规推断失效，并据此讨论聚类。"
-    },
-    {
-      "title": "如何使用SPSS进行相关性分析（三）：实战案例操作（内附案例数据）",
-      "url": "https://zhuanlan.zhihu.com/p/376486132",
-      "summary": "正文解释皮尔逊相关系数的方向、取值范围、决定系数及强弱判断。"
-    },
-    {
-      "title": "计量经济学之stata命令篇",
-      "url": "https://zhuanlan.zhihu.com/p/376915256",
-      "summary": "正文用相关系数并进一步通过残差散点图和自相关检验讨论变量及误差项之间的相关性。"
-    },
-    {
-      "title": "【金融风险管理】—《风险管理与金融机构》PDF+学习复习笔记",
-      "url": "https://zhuanlan.zhihu.com/p/380539859",
-      "summary": "正文用协方差和相关系数刻画变量共变，并说明零相关不一定独立的例子。"
-    },
-    {
-      "title": "Autoformer:基于深度分解架构和自相关机制的长期序列预测模型",
-      "url": "https://zhuanlan.zhihu.com/p/385066440",
-      "summary": "正文用不同时延下序列的相似程度定义自相关系数，并据此估计周期相关性。"
-    },
-    {
-      "title": "细读好文 之 Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting",
-      "url": "https://zhuanlan.zhihu.com/p/386955393",
-      "summary": "正文用不同时延处的序列相似度定义自相关，并取相关性最高的时延来汇合子序列信息。"
-    },
-    {
-      "title": "空间自相关—莫兰指数",
-      "url": "https://zhuanlan.zhihu.com/p/387342753",
-      "summary": "正文解释全局莫兰指数的正负值如何度量空间正相关、负相关和随机分布。"
-    },
-    {
-      "title": "在线分析丨相关性分析——RDA/CCA分析",
-      "url": "https://zhuanlan.zhihu.com/p/390513913",
-      "summary": "正文说明 RDA 和 CCA 如何分析两组变量及环境因子与对象之间的相关性。"
-    },
-    {
-      "title": "深入理解欧氏距离和马氏距离",
-      "url": "https://zhuanlan.zhihu.com/p/390876896",
-      "summary": "正文比较欧氏距离与马氏距离，重点说明变量间相关性会如何影响距离度量。"
-    },
-    {
-      "title": "【因果科普】机器学习不是曲线拟合：ML beyond Curve Fitting - Part 1（因果与do算子）",
-      "url": "https://zhuanlan.zhihu.com/p/390906714",
-      "summary": "正文用锅炉压力与气压计读数区分统计相关和因果影响，说明相关可预测但干预不必然改变结果。"
-    },
-    {
-      "title": "实验统计测量名词解释汇总",
-      "url": "https://zhuanlan.zhihu.com/p/391417495",
-      "summary": "正文把积差相关定义为衡量两个变量线性相关方向和程度的 Pearson 相关系数。"
-    },
-    {
-      "title": "毕业论文 | 实证论文如何做回归分析和相关分析，SPSS步骤？",
-      "url": "https://zhuanlan.zhihu.com/p/391453123",
-      "summary": "正文解释相关系数的符号、取值范围和强弱解释，并说明 Pearson 与 Spearman 相关分析。"
-    },
-    {
-      "title": "Stata 相关性检验+共线性分析",
-      "url": "https://zhuanlan.zhihu.com/p/393114751",
-      "summary": "正文讲解用双变量相关系数衡量变量关系的密切程度，并据此初步筛选变量。"
-    },
-    {
-      "title": "相关分析最全总结",
-      "url": "https://zhuanlan.zhihu.com/p/396580986",
-      "summary": "正文系统比较 Pearson、Spearman、Kendall 等相关系数及不同类型变量的相关分析方法，实质讲解相关性。"
-    },
-    {
-      "title": "大白话谈因果系列文章（一）：因果推断简介及论文介绍",
-      "url": "https://zhuanlan.zhihu.com/p/397796913",
-      "summary": "正文用气温、电费和冰淇淋销量说明统计相关不等于因果，并把区分两者作为因果推断的起点。"
-    },
-    {
-      "title": "因果推断---原理与方法",
-      "url": "https://zhuanlan.zhihu.com/p/403098221",
-      "summary": "正文反复区分观测数据中的因果关联与非因果关联，并解释为何相关性不能直接推出因果性。"
-    },
-    {
-      "title": "读文献先读图——主成分分析PCA图",
-      "url": "https://zhuanlan.zhihu.com/p/404795652",
-      "summary": "正文说明 PCA 图中箭头方向与长度如何表示原始变量和主成分之间的正负相关性及强弱。"
-    },
-    {
-      "title": "❤️Pearson/Spearman/Kendallta三大相关系数怎么选？怎么计算？",
-      "url": "https://zhuanlan.zhihu.com/p/411907389",
-      "summary": "正文系统比较 Pearson、Spearman 和 Kendall 三类相关系数的适用前提、方向与强度，属于相关性度量方法。"
-    },
-    {
-      "title": "一万字的统计学知识大梳理",
-      "url": "https://zhuanlan.zhihu.com/p/413705766",
-      "summary": "正文定义线性相关性和相关系数，并用其符号与绝对值描述变量间关系。"
-    },
-    {
-      "title": "白化变换：PCA白化、ZCA白化",
-      "url": "https://zhuanlan.zhihu.com/p/414275930",
-      "summary": "正文以去相关为目标推导白化，并验证变换后各维不相关且方差为一。"
     },
     {
       "title": "高等概率论：条件期望、条件方差与条件协方差的性质",
@@ -2603,99 +493,9 @@
       "summary": "正文定义条件协方差，并给出条件协方差分解及总体协方差分解公式。"
     },
     {
-      "title": "相关性和显著性校验",
-      "url": "https://zhuanlan.zhihu.com/p/419535435",
-      "summary": "正文解释 Pearson 等相关系数的符号、强度和阈值，并用相关矩阵案例说明变量间关系。"
-    },
-    {
-      "title": "多重共线性是如何影响回归模型的",
-      "url": "https://zhuanlan.zhihu.com/p/420015692",
-      "summary": "正文把多重共线性定义为自变量之间高度相关，并解释相关性如何影响回归系数的解释与精度。"
-    },
-    {
-      "title": "时间序列分析基础-定义、均值、方差、自协方差及相关性",
-      "url": "https://zhuanlan.zhihu.com/p/424609116",
-      "summary": "正文定义协方差与相关性，并进一步展开自协方差、自相关函数及其滞后估计。"
-    },
-    {
-      "title": "时间序列的平稳性检验方法（汇总篇）",
-      "url": "https://zhuanlan.zhihu.com/p/425664064",
-      "summary": "正文定义时间序列自相关与偏自相关，给出滞后相关系数的计算，并用 ACF、PACF 图判断序列特征。"
-    },
-    {
-      "title": "Donald Rubin的因果推断学术贡献：超出统计学范畴的划时代影响",
-      "url": "https://zhuanlan.zhihu.com/p/427710922",
-      "summary": "正文以相关与因果的区别为切入点，说明观测相关为何不能直接解释为因果作用。"
-    },
-    {
-      "title": "时间序列之白噪声检验",
-      "url": "https://zhuanlan.zhihu.com/p/430365631",
-      "summary": "正文用自相关图和各滞后阶样本自相关系数判断序列是否存在相关性，说明了自相关这一相关性度量。"
-    },
-    {
-      "title": "自相关系数ACF（公式篇）",
-      "url": "https://zhuanlan.zhihu.com/p/430503143",
-      "summary": "正文定义自协方差和自相关系数，推导间隔 k 期的计算公式，并用具体序列演示相关性计算。"
-    },
-    {
-      "title": "偏自相关系数PACF（公式篇）",
-      "url": "https://zhuanlan.zhihu.com/p/430514606",
-      "summary": "正文说明偏自相关如何剔除中间滞后项的间接影响，并推导滞后 k 期偏相关系数的计算方法。"
-    },
-    {
-      "title": "【零基础Eviews实例】自相关（序列相关）的检验与修正",
-      "url": "https://zhuanlan.zhihu.com/p/432212180",
-      "summary": "正文用残差随时间同号或交替出现的模式解释正、负序列相关性及其检验方法。"
-    },
-    {
-      "title": "金融风控面试题目（二）",
-      "url": "https://zhuanlan.zhihu.com/p/432918000",
-      "summary": "正文定义协方差与相关性的关系，并用相关系数和多重共线性分析回归特征。"
-    },
-    {
-      "title": "多篇顶会看个体因果推断（ITE）的前世今生",
-      "url": "https://zhuanlan.zhihu.com/p/426793887",
-      "summary": "正文以混杂因子说明相关并不等于因果，并讨论如何调整协变量来识别处理效应。"
-    },
-    {
-      "title": "R语言进行PCA(主成分分析)",
-      "url": "https://zhuanlan.zhihu.com/p/433947355",
-      "summary": "正文用相关矩阵识别高度相关的冗余变量，并据此通过主成分分析降低数据维数。"
-    },
-    {
-      "title": "如何通俗理解相关系数？这一次绝对懂了！",
-      "url": "https://zhuanlan.zhihu.com/p/434319661",
-      "summary": "正文从协方差和标准差的量级影响出发，解释相关系数如何度量两个随机变量的线性相关强度与方向。"
-    },
-    {
-      "title": "如何看懂主成分分析PCA图",
-      "url": "https://zhuanlan.zhihu.com/p/436725000",
-      "summary": "正文解释变量之间的相关性如何成为 PCA 合并信息并降低维度的依据。"
-    },
-    {
-      "title": "深入浅出详解因子分析，附案例教学（全）",
-      "url": "https://zhuanlan.zhihu.com/p/437473180",
-      "summary": "正文以变量之间的相关性和 KMO 检验说明公共因子提取的适用条件。"
-    },
-    {
-      "title": "理解和分析协方差矩阵",
-      "url": "https://zhuanlan.zhihu.com/p/438029034",
-      "summary": "正文用变量间协方差描述随机变量的相关方向，并以椭圆旋转直观解释这种相关性。"
-    },
-    {
-      "title": "聚类稳健标准误",
-      "url": "https://zhuanlan.zhihu.com/p/438209745",
-      "summary": "正文区分误差不相关、组内相关和组间不相关，并用协方差矩阵说明聚类稳健标准误。"
-    },
-    {
       "title": "因果推断——现代统计的思想飞跃",
       "url": "https://zhuanlan.zhihu.com/p/439130756",
       "summary": "正文反复比较统计相关与因果作用，说明仅凭共变不能直接推出因果关系。"
-    },
-    {
-      "title": "随机过程（一）——泊松过程",
-      "url": "https://zhuanlan.zhihu.com/p/439185099",
-      "summary": "正文定义并推导泊松过程的相关函数，得到不同时刻状态之间的协方差关系。"
     },
     {
       "title": "多维随机变量之和方差公式推导",
@@ -2703,94 +503,9 @@
       "summary": "正文通过协方差的线性性处理随机变量间的相关项，说明方差和公式等于协方差矩阵全部元素之和。"
     },
     {
-      "title": "建模算法系列八：三大相关性分析(附MATLAB源码)",
-      "url": "https://zhuanlan.zhihu.com/p/441214084",
-      "summary": "正文介绍 Pearson、Kendall tau 与 Spearman 三种相关系数及其显著性判断，实质讲解变量相关性的度量。"
-    },
-    {
-      "title": "Quant笔试&面试-线性回归常见问题总结",
-      "url": "https://zhuanlan.zhihu.com/p/443658898",
-      "summary": "正文用协方差与相关系数推导拟合值同解释变量、响应变量之间的相关性及 R² 关系。"
-    },
-    {
-      "title": "前沿计量方法 | 粒状工具变量（GIV）",
-      "url": "https://zhuanlan.zhihu.com/p/444375114",
-      "summary": "正文解释工具变量需要与内生变量相关且与冲击项不相关，并据此检验粒状工具变量的有效性。"
-    },
-    {
-      "title": "信度和效度如何区分？怎么做信度和效度的检验？",
-      "url": "https://zhuanlan.zhihu.com/p/444468105",
-      "summary": "正文把题目得分间的正相关作为内部一致性信度的判断内容，并多次用相关系数检验重测、复本和校标效度。"
-    },
-    {
-      "title": "AB实验的踩坑之路",
-      "url": "https://zhuanlan.zhihu.com/p/445417485",
-      "summary": "正文讨论分组样本中变量相关方向与合并样本相关方向相反的现象，并分析权重和遗漏变量对相关性的影响。"
-    },
-    {
-      "title": "matlab相关性分析（皮尔逊，肯德尔，斯皮尔曼）",
-      "url": "https://zhuanlan.zhihu.com/p/449099421",
-      "summary": "正文用 MATLAB 代码分别计算 Pearson、Kendall tau 和 Spearman 相关系数矩阵并绘制热图。"
-    },
-    {
-      "title": "科研中常用的十种数据降维方法（建议收藏）",
-      "url": "https://zhuanlan.zhihu.com/p/449073201",
-      "summary": "正文用相关系数衡量变量间趋势相似性，并据此删除冗余特征。"
-    },
-    {
-      "title": "效度分析（2）验证性因子分析详细步骤文字版",
-      "url": "https://zhuanlan.zhihu.com/p/448970216",
-      "summary": "正文用协方差和双箭头相关关系刻画潜变量及观测变量之间的关系。"
-    },
-    {
-      "title": "数据降维大法--主成分分析法经典案例讲解（入门必看）",
-      "url": "https://zhuanlan.zhihu.com/p/454447043",
-      "summary": "正文具体计算变量间的相关系数矩阵，并据此开展降维。"
-    },
-    {
-      "title": "回归分析笔记（七）：异方差检验",
-      "url": "https://zhuanlan.zhihu.com/p/449162727",
-      "summary": "正文通过残差与拟合值或解释变量的系统性关系判断方差变化，并据此识别异方差。"
-    },
-    {
-      "title": "在R中使用线性混合效应模型的实现Linear Mixed-Effects Modeling in",
-      "url": "https://zhuanlan.zhihu.com/p/461859366",
-      "summary": "正文专节解释随机截距与随机斜率相关系数的含义、方向和实际解释。"
-    },
-    {
       "title": "[QiTool 1] 互信息 作为 关联函数上限 的证明",
       "url": "https://zhuanlan.zhihu.com/p/456600005",
       "summary": "正文以协方差形式的关联函数说明线性相关性，并举例说明其无法捕捉非线性关联。"
-    },
-    {
-      "title": "相关系数: Pearson vs Spearman",
-      "url": "https://zhuanlan.zhihu.com/p/465213120",
-      "summary": "正文比较 Pearson 与 Spearman 系数，具体讲解线性相关、秩相关和单调关系的统计含义。"
-    },
-    {
-      "title": "一文读懂PCA分析 （原理、算法、解释和可视化）",
-      "url": "https://zhuanlan.zhihu.com/p/467281058",
-      "summary": "正文解释协方差表示两组一维数据的相关性，并讨论正负协方差的含义。"
-    },
-    {
-      "title": "时间序列(ARIMA)案例超详细讲解",
-      "url": "https://zhuanlan.zhihu.com/p/465670524",
-      "summary": "正文用自相关和偏自相关系数分析时间序列不同滞后项之间的相关性，并据此确定模型阶数。"
-    },
-    {
-      "title": "概率论和数理统计知识点总结",
-      "url": "https://zhuanlan.zhihu.com/p/472605235",
-      "summary": "正文用协方差和相关系数刻画随机变量之间的相关性，并总结独立与不相关的条件。"
-    },
-    {
-      "title": "毕业论文之问卷信度效度分析",
-      "url": "https://zhuanlan.zhihu.com/p/474667809",
-      "summary": "正文用 KMO 值和变量间相关性判断题项是否适合做因子分析，具体展开相关性检验。"
-    },
-    {
-      "title": "SPSS实现回归分析",
-      "url": "https://zhuanlan.zhihu.com/p/475061380",
-      "summary": "正文先计算自变量与因变量的 Pearson 相关系数，并据此分析线性相关关系。"
     },
     {
       "title": "逆协方差矩阵玩出花！",
@@ -2798,114 +513,9 @@
       "summary": "正文比较协方差中的间接相关与逆协方差矩阵揭示的条件依赖关系，说明如何从相关性恢复图结构。"
     },
     {
-      "title": "SPSS第十八讲：如何进行线性相关分析？",
-      "url": "https://zhuanlan.zhihu.com/p/482141002",
-      "summary": "正文通过散点图、Pearson 系数及 r 的正负和绝对值讲解线性相关的方向与强度。"
-    },
-    {
-      "title": "时间序列分析预测实战之ARIMA模型",
-      "url": "https://zhuanlan.zhihu.com/p/486586140",
-      "summary": "正文用自相关与偏自相关图的拖尾、截尾和残差独立性判断时间序列关系的模型阶数。"
-    },
-    {
-      "title": "多元统计分析（二）：多元正态分布",
-      "url": "https://zhuanlan.zhihu.com/p/490661577",
-      "summary": "正文用协方差矩阵的非对角元素和相关系数刻画随机向量各分量之间的相关性。"
-    },
-    {
-      "title": "时间序列(ARIMA)模型及其matlab实现",
-      "url": "https://zhuanlan.zhihu.com/p/495845415",
-      "summary": "正文用自相关函数与偏自相关函数判断滞后阶数，实质利用时间序列的自相关结构。"
-    },
-    {
-      "title": "使用AMOS软件构建结构方程模型",
-      "url": "https://zhuanlan.zhihu.com/p/496432548",
-      "summary": "正文以协方差矩阵分析变量关系，并用相关系数和标准化路径系数描述关联强度。"
-    },
-    {
-      "title": "干货，G-Power确定被试量教程-马庄实验室内部学习资料分享",
-      "url": "https://zhuanlan.zhihu.com/p/498718553",
-      "summary": "正文说明点二列相关、Pearson 相关系数及四格相关，并讨论相关系数差异检验和样本量。"
-    },
-    {
-      "title": "SPSS第二十一讲：多元线性回归分析（超级详细）",
-      "url": "https://zhuanlan.zhihu.com/p/507472233",
-      "summary": "正文解释自变量高度相关形成的多重共线性，并用容差和方差膨胀因子判断其严重程度。"
-    },
-    {
-      "title": "解读文献里的那些图——主成分分析图（PCA）",
-      "url": "https://zhuanlan.zhihu.com/p/515622979",
-      "summary": "正文用样本点之间的距离说明样本相似性与差异性，并解释各原始变量与主成分轴的相关方向和大小。"
-    },
-    {
-      "title": "【机器学习】朴素贝叶斯 -> 半朴素贝叶斯 -> 贝叶斯网络 -> 贝叶斯优化，看这一篇就够了！",
-      "url": "https://zhuanlan.zhihu.com/p/518617685",
-      "summary": "正文通过协方差公式和协方差矩阵表示随机变量之间的相关性，并比较独立与相关情形。"
-    },
-    {
-      "title": "【时间序列】周期性检测算法总结",
-      "url": "https://zhuanlan.zhihu.com/p/520651154",
-      "summary": "正文定义自相关系数并给出其计算公式，说明它衡量同一序列在两个不同时期之间的相关程度。"
-    },
-    {
-      "title": "时序预测 | SARIMA（P、D、Q了解一下）",
-      "url": "https://zhuanlan.zhihu.com/p/531987920",
-      "summary": "正文用自相关函数和偏自相关函数的拖尾、截尾判断季节与非季节模型阶数。"
-    },
-    {
-      "title": "多元统计分析期末复习笔记",
-      "url": "https://zhuanlan.zhihu.com/p/537880991",
-      "summary": "介绍典型相关分析如何用两组线性组合的最大相关系数刻画关联。"
-    },
-    {
-      "title": "Copula函数——一种处理变量之间相关性的统计学工具",
-      "url": "https://zhuanlan.zhihu.com/p/537761065",
-      "summary": "正文重点讨论如何用 Pearson、Spearman、Kendall 系数及 Copula 模型量化和建模变量相关性。"
-    },
-    {
-      "title": "限价订单簿建模-01-Level-I Quotes & Hidden Liquidity",
-      "url": "https://zhuanlan.zhihu.com/p/539521159",
-      "summary": "正文说明两个队列长度呈负相关，并给出相关系数及协方差形式的模型参数。"
-    },
-    {
       "title": "期望、方差、协方差性质总结与证明",
       "url": "https://zhuanlan.zhihu.com/p/541777186",
       "summary": "正文给出协方差定义，并证明其对称性、双线性与方差分解，用以描述变量间的共同变化。"
-    },
-    {
-      "title": "中断时间序列分析（Interrupted time series analysis）",
-      "url": "https://zhuanlan.zhihu.com/p/539045445",
-      "summary": "正文定义时间序列自相关，讨论其检验和 Newey-West、广义最小二乘等处理方式。"
-    },
-    {
-      "title": "SPSS数据的整理与分析-2/2",
-      "url": "https://zhuanlan.zhihu.com/p/546427444",
-      "summary": "正文区分皮尔逊、肯德尔和斯皮尔曼相关，并解释相关系数的正负、强度及显著性。"
-    },
-    {
-      "title": "概率论笔记（四）概率分布的下期望和方差的公式总结",
-      "url": "https://zhuanlan.zhihu.com/p/547918825",
-      "summary": "正文讨论协方差与相关系数，并说明相关性和随机变量独立性之间的关系。"
-    },
-    {
-      "title": "因果推断在推荐系统中的应用",
-      "url": "https://zhuanlan.zhihu.com/p/553279676",
-      "summary": "正文从关联与因果的区别出发，用条件概率 P(Y|X) 与干预分布 P(Y|do(X)) 阐明两者不同。"
-    },
-    {
-      "title": "线性回归-五个基本假设",
-      "url": "https://zhuanlan.zhihu.com/p/553370965",
-      "summary": "正文用 Pearson 系数和方差膨胀因子判断自变量相关性及多重共线性。"
-    },
-    {
-      "title": "怎么评估截面因子有效性？",
-      "url": "https://zhuanlan.zhihu.com/p/555561500",
-      "summary": "正文讨论因子的皮尔森相关性、独立性检验和横截面排序，指出相关性只衡量方向而不等于分布独立。"
-    },
-    {
-      "title": "数学建模——常考评价类模型介绍",
-      "url": "https://zhuanlan.zhihu.com/p/564302492",
-      "summary": "正文用灰色关联系数和灰色关联度衡量各因素序列与目标序列的关系强弱并排序。"
     },
     {
       "title": "2022国赛数学建模C题思路",
@@ -2913,94 +523,9 @@
       "summary": "正文提供 Pearson 相关系数计算公式，并按相关系数绝对值判断变量之间的线性相关强度。"
     },
     {
-      "title": "R数据分析：网络分析的做法，原理和复现方法",
-      "url": "https://zhuanlan.zhihu.com/p/581641222",
-      "summary": "正文以偏相关系数或相关矩阵作为网络边的权重，说明变量间统计相关关系。"
-    },
-    {
-      "title": "R语言进行相关性分析及相关性图（相关性热图）绘制",
-      "url": "https://zhuanlan.zhihu.com/p/586234818",
-      "summary": "正文计算Pearson相关系数矩阵，并比较Spearman与Kendall方法及绘制相关性热图和散点图。"
-    },
-    {
-      "title": "随机截距交叉滞后模型（Random Intercept Cross-Lagged Panel Model, RI-CLPM）",
-      "url": "https://zhuanlan.zhihu.com/p/596117025",
-      "summary": "正文解释同步相关、随机截距相关以及个体间和个体内变异的区分。"
-    },
-    {
       "title": "大学物理实验误差与数据处理",
       "url": "https://zhuanlan.zhihu.com/p/598464673",
       "summary": "正文定义相关性，并以相关系数衡量实验点靠近最佳拟合直线的程度。"
-    },
-    {
-      "title": "Mplus—验证性因素分析（Confirmatory Factor Analysis, CFA）",
-      "url": "https://zhuanlan.zhihu.com/p/601270735",
-      "summary": "正文用总体协方差矩阵与样本协方差矩阵的接近程度估计因子模型参数，并解释潜变量与观测变量的相关结构，对应相关性分析。"
-    },
-    {
-      "title": "Mplus&SPSS—探索性因素分析（Exploratory Factor Analysis, EFA）",
-      "url": "https://zhuanlan.zhihu.com/p/601362183",
-      "summary": "正文以观测变量间的相关矩阵、KMO和Bartlett检验说明因子提取的前提，并解释因子载荷体现的共同变异。"
-    },
-    {
-      "title": "手把手教你做线性回归分析(附案例)",
-      "url": "https://zhuanlan.zhihu.com/p/613878131",
-      "summary": "正文通过散点图和相关系数分析变量间关系，并据此筛除与因变量不显著相关的自变量。"
-    },
-    {
-      "title": "多元统计分析期末复习",
-      "url": "https://zhuanlan.zhihu.com/p/620272870",
-      "summary": "正文定义协方差阵和相关阵，并解释标准化后协方差与相关系数的关系。"
-    },
-    {
-      "title": "多因子合成方法优化",
-      "url": "https://zhuanlan.zhihu.com/p/622323023",
-      "summary": "正文用相关性热力图识别因子冗余，并通过正交化使因子间相关性接近零后再合成。"
-    },
-    {
-      "title": "相关系数、自相关、互相关等概念理解",
-      "url": "https://zhuanlan.zhihu.com/p/613949451",
-      "summary": "正文用协方差归一化公式定义相关系数，并解释其取值范围与正负相关的含义。"
-    },
-    {
-      "title": "KDD 2023 | 基于强化学习的符号量化因子集合挖掘 | 华为 & 中科院计算所",
-      "url": "https://zhuanlan.zhihu.com/p/633150112",
-      "summary": "正文以 Pearson IC、Spearman Rank IC 及因子间相互 IC 作为因子集成和评价指标。"
-    },
-    {
-      "title": "时间序列模型(四)：ARIMA模型",
-      "url": "https://zhuanlan.zhihu.com/p/634120397",
-      "summary": "正文详细定义自相关与偏自相关函数，说明它们如何衡量不同滞后观测值之间的相关性。"
-    },
-    {
-      "title": "时间序列模型(五)：时间序列案例_实现销售额预测",
-      "url": "https://zhuanlan.zhihu.com/p/635303839",
-      "summary": "正文用 ACF 和 PACF 分析和判断时间序列不同滞后项之间的相关性。"
-    },
-    {
-      "title": "MATLAB | 绘图复刻(九) | 泰勒图及组合泰勒图",
-      "url": "https://zhuanlan.zhihu.com/p/636339281",
-      "summary": "正文用中心化协方差与标准差之比定义相关系数，并解释其与夹角的余弦关系。"
-    },
-    {
-      "title": "数据科学中使用的 17 种相似性和相异性度量",
-      "url": "https://zhuanlan.zhihu.com/p/638840273",
-      "summary": "正文分别介绍 Pearson 相关距离与 Spearman 秩相关，并用协方差和排序等级解释相关强度。"
-    },
-    {
-      "title": "据说，Transformer 不能有效地进行时间序列预测？",
-      "url": "https://zhuanlan.zhihu.com/p/641522614",
-      "summary": "正文定义时间序列在不同滞后下的自相关，并把皮尔逊相关性作为注意力权重的依据。"
-    },
-    {
-      "title": "翻译：常见统计检验的本质是线性模型（或：如何教统计学）",
-      "url": "https://zhuanlan.zhihu.com/p/648522125",
-      "summary": "正文把相关性检验纳入线性模型框架，并说明秩转换对应 Spearman 相关系数。"
-    },
-    {
-      "title": "因果推断（一）：因果推断两大框架及因果效应",
-      "url": "https://zhuanlan.zhihu.com/p/652174282",
-      "summary": "正文以具体分数案例区分相关关系和反事实因果效应，说明相关不等于因果。"
     },
     {
       "title": "收藏！32种常见的科研论文数据图集锦",
@@ -3008,79 +533,14 @@
       "summary": "正文用散点图解释如何从变量散点判断正负线性关系、非线性关系和关联趋势。"
     },
     {
-      "title": "常用假设检验方法（U检验、T检验、卡方检验、F检验)",
-      "url": "https://zhuanlan.zhihu.com/p/654660456",
-      "summary": "正文以卡方检验和理论频数比较讨论两个分类变量是否关联。"
-    },
-    {
       "title": "物理学家用随机过程：笔记",
       "url": "https://zhuanlan.zhihu.com/p/658736406",
       "summary": "正文定义双时关联函数，推导 Wiener 过程的自相关函数，并讨论平稳过程的功率谱与相关性。"
     },
     {
-      "title": "万字长文-走进因果推断",
-      "url": "https://zhuanlan.zhihu.com/p/659188627",
-      "summary": "正文从混淆变量和反事实出发解释相关性不等于因果性，并比较观察、干预与反事实三个层级。"
-    },
-    {
-      "title": "主成分分析(PCA)从基本思想到分析和绘图一文搞定—基于R语言 全网最详细PCA分析教程 全文两万三千余字",
-      "url": "https://zhuanlan.zhihu.com/p/660541006",
-      "summary": "正文解释相关变量造成的冗余，并利用变量与主成分的相关坐标和相关圆图识别相关关系。"
-    },
-    {
-      "title": "一篇顶刊论文背后的故事 | TPAMI (2023) 用于离线强化学习的伪相关削减术",
-      "url": "https://zhuanlan.zhihu.com/p/665683090",
-      "summary": "正文用多臂老虎机例子解释策略与模型评估误差因共享数据集而形成的伪相关。"
-    },
-    {
-      "title": "通俗易懂：协方差矩阵（举例）",
-      "url": "https://zhuanlan.zhihu.com/p/672965170",
-      "summary": "正文用协方差的符号解释正相关、负相关和不相关，并以身高体重数据计算相关程度。"
-    },
-    {
-      "title": "通俗易懂：马氏距离（举例）",
-      "url": "https://zhuanlan.zhihu.com/p/674071134",
-      "summary": "正文从协方差大于零判断特征线性正相关，再用旋转消除相关性来计算距离。"
-    },
-    {
-      "title": "Stata面板数据实证分析（0基础菜鸟版）",
-      "url": "https://zhuanlan.zhihu.com/p/685376873",
-      "summary": "正文以 pwcorr_a 对多个变量做相关性检验并展示相关系数结果，属于相关性分析。"
-    },
-    {
-      "title": "SPSS相关性分析（手把手教）",
-      "url": "https://zhuanlan.zhihu.com/p/685925912",
-      "summary": "正文比较 Pearson、Kendall 和秩相关方法，并解释相关系数的范围、强弱和正负方向。"
-    },
-    {
-      "title": "线性混合模型（一）：概述",
-      "url": "https://zhuanlan.zhihu.com/p/676963821",
-      "summary": "正文用协方差结构说明重复观测相关性，并专门讨论组内相关系数。"
-    },
-    {
-      "title": "统计学远比你想象得要深奥和重要，绝大多数人看不到其背后逻辑",
-      "url": "https://zhuanlan.zhihu.com/p/689222028",
-      "summary": "正文通过协方差和皮尔逊相关系数解释线性关联，并辨析相关性与因果关系的差别。"
-    },
-    {
-      "title": "从因子相关性检验的短板出发，然后遇到了Eran Raviv的数学量化博客",
-      "url": "https://zhuanlan.zhihu.com/p/695015552",
-      "summary": "正文比较 Pearson、Spearman、距离相关性和 epsilon 相关性对线性和非线性关系的度量。"
-    },
-    {
       "title": "写给你的金融时间序列分析：回归篇",
       "url": "https://zhuanlan.zhihu.com/p/701636536",
       "summary": "正文把自相关和协相关作为时间序列回归的核心难点，并讨论检验与稳健推断。"
-    },
-    {
-      "title": "💡 [ICLR-25] FreDF：一行代码超越SOTA，频域训练提升时序预测性能",
-      "url": "https://zhuanlan.zhihu.com/p/701597219",
-      "summary": "正文以标签序列自相关性为核心问题，比较时域依赖与频域不显著相关。"
-    },
-    {
-      "title": "辛普森悖论：为何学习时间越长，学生成绩反而越低？",
-      "url": "https://zhuanlan.zhihu.com/p/959786826",
-      "summary": "正文对比各学科内部的正相关与合并全部数据后的负相关，具体展示了相关性在分组分析中的变化。"
     },
     {
       "title": "为什么在高维空间中，任意两个向量几乎都是“垂直”的？",

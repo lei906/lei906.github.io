@@ -13,21 +13,6 @@
       "summary": "正文直接定义有限元方法的基本思路。"
     },
     {
-      "title": "有限元方法的核心思想是什么？",
-      "url": "https://www.zhihu.com/answer/43989189",
-      "summary": "正文直接说明有限元的离散化和数值近似思想。"
-    },
-    {
-      "title": "FDM、FVM、FEM之间到底有没有联系？",
-      "url": "https://www.zhihu.com/answer/46249839",
-      "summary": "正文比较FDM、FVM、FEM，并解释有限元中的基函数和投影。"
-    },
-    {
-      "title": "有限元方法的核心思想是什么？",
-      "url": "https://www.zhihu.com/answer/52447291",
-      "summary": "正文解释有限元以局部简单基函数近似并拼合求解区域问题。"
-    },
-    {
       "title": "研究生在学习有限元课程前需要什么数学知识？",
       "url": "https://www.zhihu.com/answer/66640453",
       "summary": "正文说明有限元的单元、结点与刚度矩阵思想。"
@@ -48,24 +33,9 @@
       "summary": "正文系统解释有限元的近似求解与网格离散两个核心。"
     },
     {
-      "title": "有限元中什么是等参单元？",
-      "url": "https://www.zhihu.com/answer/77635688",
-      "summary": "正文解释有限元等参单元的坐标映射、形函数与雅可比。"
-    },
-    {
       "title": "有限元弱形式a(u,v)=f(v)中的v？",
       "url": "https://www.zhihu.com/answer/85921068",
       "summary": "正文从权函数、形函数和弱形式解释有限元方法。"
-    },
-    {
-      "title": "有限元分析时是网格画的越细越精确吗？",
-      "url": "https://www.zhihu.com/answer/86823694",
-      "summary": "正文讨论有限元网格细化、收敛阶和稳定性条件。"
-    },
-    {
-      "title": "ansys还是abaqus？新手入门求推荐?",
-      "url": "https://www.zhihu.com/answer/123007881",
-      "summary": "正文从建模、网格、边界条件和分析步比较ANSYS与ABAQUS的有限元工作流。"
     },
     {
       "title": "实变、泛函、抽代、拓扑，哪几门对于非纯数专业更加有用？",
@@ -93,44 +63,9 @@
       "summary": "正文说明 Galerkin 有限维逼近与有限元计算的关系。"
     },
     {
-      "title": "写大规模三维并行计算流体力学(CFD)求解器时，有什么经验和心得？",
-      "url": "https://www.zhihu.com/answer/256628270",
-      "summary": "正文说明有限元库、形函数、高斯积分及流体求解实践。"
-    },
-    {
-      "title": "有限元分析里面的模态分析的阶数是什么意思？如一阶固有频率，二阶固有频率等等。",
-      "url": "https://www.zhihu.com/answer/265827220",
-      "summary": "正文结合 ANSYS 模态分析说明有限元计算中模态阶数的设定和物理含义。"
-    },
-    {
       "title": "如何评价冯康在计算数学领域的地位？",
       "url": "https://www.zhihu.com/answer/308554434",
       "summary": "正文介绍冯康独立发展有限元方法并用于三峡大坝设计。"
-    },
-    {
-      "title": "有限元法和有限差分法有什么区别？",
-      "url": "https://www.zhihu.com/answer/319309319",
-      "summary": "正文直接比较有限差分与有限元对模型和解法的近似方式。"
-    },
-    {
-      "title": "ansys做的有趣的例子？",
-      "url": "https://www.zhihu.com/answer/387587854",
-      "summary": "正文说明趣味案例如何用于有限元建模、损伤模型和参数练习。"
-    },
-    {
-      "title": "机器学习或者深度学习能替代有限元么？",
-      "url": "https://www.zhihu.com/answer/575686388",
-      "summary": "正文说明有限元在工程 PDE 数值求解中的地位。"
-    },
-    {
-      "title": "为什么自动控制理论这么玄学？",
-      "url": "https://www.zhihu.com/answer/590207142",
-      "summary": "正文说明偏微分方程常用有限元近似。"
-    },
-    {
-      "title": "刚从事CAE有限元，老板跟我说单元中间节点上的应力结果不读，边界条件处的应力不读，想问一下为什么？",
-      "url": "https://www.zhihu.com/answer/601595059",
-      "summary": "正文解释有限元节点与积分点应力的计算流程。"
     },
     {
       "title": "如何评价2019年全国大学生数学建模竞赛？",
@@ -138,39 +73,9 @@
       "summary": "用有限元离散模拟全过程。"
     },
     {
-      "title": "CFD高精度格式的分类方法？",
-      "url": "https://www.zhihu.com/answer/845526126",
-      "summary": "讨论有限元及间断 Galerkin 离散。"
-    },
-    {
-      "title": "如何用一个简单的例子告诉别人什么是有限元分析？",
-      "url": "https://www.zhihu.com/answer/995985821",
-      "summary": "正文以桌面应力为例直观解释有限元离散化与节点近似。"
-    },
-    {
-      "title": "哪些书籍或者论文对学习有限元或者数值模拟有帮助？",
-      "url": "https://www.zhihu.com/answer/1085067511",
-      "summary": "正文按层次推荐有限元理论与数值模拟资料。"
-    },
-    {
-      "title": "什么是有限元?",
-      "url": "https://www.zhihu.com/answer/1298462011",
-      "summary": "正文定义有限元法并解释离散化近似。"
-    },
-    {
-      "title": "本人研一，学习ansys一度自闭，有没有大佬可以介绍一下经验？",
-      "url": "https://www.zhihu.com/answer/1310310586",
-      "summary": "正文直接讲解“有限元方法”相关内容。"
-    },
-    {
       "title": "如何从偏微分方程边值问题出发理解有限元方法的原理？",
       "url": "https://www.zhihu.com/answer/1584776137",
       "summary": "正文从弱形式、伽辽金法和分片多项式空间解释有限元原理。"
-    },
-    {
-      "title": "什么是有限元？",
-      "url": "https://www.zhihu.com/answer/1633425613",
-      "summary": "正文完整介绍有限元的基本思想、网格和形函数。"
     },
     {
       "title": "菲尔兹奖设立以来，有哪些没有拿菲尔兹奖的数学家，他们的数学贡献并不比菲尔兹奖获得者弱？",
@@ -178,24 +83,9 @@
       "summary": "正文明确提到有限元分析和应用数学研究。"
     },
     {
-      "title": "有限元分析时是网格画的越细越精确吗？",
-      "url": "https://www.zhihu.com/answer/1811586732",
-      "summary": "正文直接支持该冻结叶节点。"
-    },
-    {
       "title": "有限元方法的核心思想是什么？",
       "url": "https://www.zhihu.com/answer/1860464338",
       "summary": "正文解释有限元用形函数和残差最小化构造近似解。"
-    },
-    {
-      "title": "什么是模态分析？",
-      "url": "https://www.zhihu.com/answer/1969258295",
-      "summary": "正文把连续模态分析离散成有限元模型。"
-    },
-    {
-      "title": "请问abaqus里面几何非线性nlgeom开与不开，内部算法有什么区别吗？",
-      "url": "https://www.zhihu.com/answer/2004164896",
-      "summary": "正文讨论有限元Abaqus中大变形几何非线性的算法差异。"
     },
     {
       "title": "请问什么数值方法可以解这个四阶的偏微分方程？",
@@ -203,59 +93,9 @@
       "summary": "正文完整建立有限元弱形式并实现求解。"
     },
     {
-      "title": "有限元方法的核心思想是什么？",
-      "url": "https://www.zhihu.com/answer/2193505408",
-      "summary": "正文从单元形函数、刚度矩阵组装和求解释有限元核心思想。"
-    },
-    {
-      "title": "abaqus中显式和隐式的区别？",
-      "url": "https://www.zhihu.com/answer/2350364704",
-      "summary": "正文系统比较有限元显式与隐式求解。"
-    },
-    {
-      "title": "有限元方法的核心思想是什么？",
-      "url": "https://www.zhihu.com/answer/2484948465",
-      "summary": "正文以插值和数值积分说明有限元方法与数值计算的联系。"
-    },
-    {
-      "title": "Abaqus好书推荐？",
-      "url": "https://www.zhihu.com/answer/2485993769",
-      "summary": "推荐有限元分析与 Abaqus 非线性有限元分析实例教材。"
-    },
-    {
-      "title": "如何以“废后喝下毒酒前，含泪问我‘你会解偏微分方程组吗？’”为开头写一个故事？",
-      "url": "https://www.zhihu.com/answer/2622381004",
-      "summary": "通过伽辽金弱形式和离散化求解域介绍有限元数值解法。"
-    },
-    {
-      "title": "有限元的未来是什么样的？",
-      "url": "https://www.zhihu.com/answer/2729051502",
-      "summary": "正文讨论有限元法在椭圆型、抛物型方程及不连续 Galerkin、Petrov-Galerkin 格式中的理论与应用。"
-    },
-    {
-      "title": "有限元方法的核心思想是什么？",
-      "url": "https://www.zhihu.com/answer/2805437506",
-      "summary": "正文具体说明有限元法以变分原理和剖分插值为基础，并讨论其与能量法、差分法的关系及系数矩阵性质。"
-    },
-    {
-      "title": "有限元方法的核心思想是什么？",
-      "url": "https://www.zhihu.com/answer/2823793090",
-      "summary": "正文系统推导二维稳态传热问题的等参元、形函数和加权残值方程，并完成单元组装及有限元求解。"
-    },
-    {
       "title": "什么是有限元？",
       "url": "https://www.zhihu.com/answer/2995207746",
       "summary": "正文回顾有限元的离散化、变分形式、单元插值和收敛性发展，并梳理其历史与应用。"
-    },
-    {
-      "title": "数值pde与深度学习结合是未来发展方向吗？",
-      "url": "https://www.zhihu.com/answer/3079219074",
-      "summary": "正文具体说明有限元的伽辽金变分基础、非结构网格、复杂几何处理能力及高阶问题限制。"
-    },
-    {
-      "title": "机器学习和有限元是不是在一定程度上重复了？",
-      "url": "https://www.zhihu.com/answer/3115742583",
-      "summary": "正文说明有限元模型从几何建模、网格划分到可求解的离线流程，并讨论其在线求解代价。"
     },
     {
       "title": "线性代数中为什么会有专门章节讲二次型?",
@@ -273,39 +113,9 @@
       "summary": "正文解释有限元法如何把求解域划分为单元并在单元上作近似，属于有限元方法的实质介绍。"
     },
     {
-      "title": "2024 fall你都申请了哪些学校的MS/PhD？录取结果如何?",
-      "url": "https://www.zhihu.com/answer/3397945573",
-      "summary": "正文具体介绍有限元外微积分中张量有限元空间、协调性、一致性、正和性及 inf-sup 稳定性的构造与证明。"
-    },
-    {
-      "title": "国内外工业软件的差距在哪？如何赶上？",
-      "url": "https://www.zhihu.com/answer/3423770199",
-      "summary": "正文回顾有限元方法的发展及其数学基础，并讨论有限元在网格生成和汽车碰撞仿真中的作用。"
-    },
-    {
       "title": "在有限元方法中，为什么弱形式总和分部积分挂钩？ ?",
       "url": "https://www.zhihu.com/answer/3444680919",
       "summary": "正文解释有限元弱形式为何需要分部积分，使双线性型对标准分片多项式单元保持连续。"
-    },
-    {
-      "title": "基于matlab的有限元的书，有推荐的吗？",
-      "url": "https://www.zhihu.com/answer/4933114672",
-      "summary": "正文完整演示有限元静力分析的建模流程，包括导入几何、设置材料、生成网格、施加边界和载荷、求解及可视化应力与位移。"
-    },
-    {
-      "title": "MATLAB在逐渐被Python淘汰吗？",
-      "url": "https://www.zhihu.com/answer/40529040446",
-      "summary": "正文设置有限元求解热传导和双曲型偏微分方程的实验，涉及有限元离散求解流程。"
-    },
-    {
-      "title": "MATLAB能干什么啊，为什么它会被美国禁止？",
-      "url": "https://www.zhihu.com/answer/44534662572",
-      "summary": "正文说明偏微分方程化为散度形式后可由 Matlab 的有限元 PDE 工具箱求解。"
-    },
-    {
-      "title": "有限元的未来是什么样的？",
-      "url": "https://www.zhihu.com/answer/1915075294655678100",
-      "summary": "正文以变分形式、有限维逼近、协调与非协调单元和曲面网格说明有限元的核心框架与研究方向。"
     },
     {
       "title": "计算流体力学中有限差分法、有限体积法和有限元法的区别是什么？",
@@ -323,34 +133,9 @@
       "summary": "正文介绍有限元外微积分在离散网格上复刻外微分与边界算子，以保持复形关系和约束。"
     },
     {
-      "title": "有限元基础——从入门到放弃",
-      "url": "https://zhuanlan.zhihu.com/p/21377606",
-      "summary": "正文系统讨论有限元的分片插值、Galerkin离散、刚度矩阵、协调元及误差估计。"
-    },
-    {
-      "title": "变分法近似解法 Part 2.----Strong Form Galerkin",
-      "url": "https://zhuanlan.zhihu.com/p/22457731",
-      "summary": "正文以基函数叠加、加权余量和Galerkin权函数构造微分方程的近似解，说明有限元中的核心离散化思想。"
-    },
-    {
-      "title": "你的第一个有限元求解器：仅十行 MATLAB",
-      "url": "https://zhuanlan.zhihu.com/p/26768467",
-      "summary": "正文用三节点线性三角形单元离散函数空间，组装刚度矩阵并给出有限元求解器代码，故对应有限元方法。"
-    },
-    {
-      "title": "有限元仿真学习中图书及教程推荐『个人版』",
-      "url": "https://zhuanlan.zhihu.com/p/27132524",
-      "summary": "正文介绍有限元理论所需的概念、公式推导、实例讲解及编程实现。"
-    },
-    {
       "title": "浅谈拓扑优化在建筑结构领域中的应用（一）",
       "url": "https://zhuanlan.zhihu.com/p/32935227",
       "summary": "正文说明拓扑优化依赖有限元方法，并把连续体离散为有限个壳单元或体单元。"
-    },
-    {
-      "title": "（大四）有限单元法(FEM)最后总结",
-      "url": "https://zhuanlan.zhihu.com/p/33965113",
-      "summary": "正文系统总结有限元离散化、单元形函数、刚度矩阵和等参变换，并用有限自由度问题近似连续场。"
     },
     {
       "title": "机电工程师应该了解哪些数学和物理知识？",
@@ -358,164 +143,9 @@
       "summary": "正文说明将连续体划分为单元、在子域构造位移函数并求解弹性方程的有限元思路。"
     },
     {
-      "title": "有限元分析（FEA）是个什么东东",
-      "url": "https://zhuanlan.zhihu.com/p/56326567",
-      "summary": "正文完整说明有限元从区域剖分、形函数和弱形式到刚度矩阵组装及求解的流程。"
-    },
-    {
-      "title": "05 -- 常见单元的形函数和坐标变换",
-      "url": "https://zhuanlan.zhihu.com/p/67454027",
-      "summary": "正文系统讲解单元形函数、母单元与子单元的坐标变换、应变和刚度矩阵，属于有限元方法。"
-    },
-    {
-      "title": "abaqus中分析步、增量步的理解",
-      "url": "https://zhuanlan.zhihu.com/p/78506298",
-      "summary": "正文解释 ABAQUS 通过载荷步、增量步和迭代控制有限元求解，并讨论时间步长、空间离散尺度与收敛性的关系。"
-    },
-    {
-      "title": "有限元入门 Part 1.",
-      "url": "https://zhuanlan.zhihu.com/p/36792913",
-      "summary": "正文具体定义单元形函数与节点自由度，并推导有限元刚度方程 K^e a=F^e。"
-    },
-    {
-      "title": "有限元学习心得（一）",
-      "url": "https://zhuanlan.zhihu.com/p/79987509",
-      "summary": "正文通过一维杆问题说明离散与形函数如何把无限自由度降为有限节点以求解微分方程。"
-    },
-    {
-      "title": "有限元简单科普之——等参化",
-      "url": "https://zhuanlan.zhihu.com/p/92509191",
-      "summary": "正文系统说明有限元等参化用母单元和插值函数映射实际网格单元，并讨论映射成立的条件。"
-    },
-    {
-      "title": "有限元简单科普之——插值函数",
-      "url": "https://zhuanlan.zhihu.com/p/92837308",
-      "summary": "正文讲解有限元中母单元与真实单元之间的插值映射，并给出八结点四边形单元的坐标插值公式。"
-    },
-    {
-      "title": "有限元简单科普之——单元平衡方程推导",
-      "url": "https://zhuanlan.zhihu.com/p/93678439",
-      "summary": "正文从结点位移、形函数、应变矩阵和最小势能原理完整推导有限元单元刚度矩阵及单元平衡方程。"
-    },
-    {
-      "title": "有限元简单科普之——高斯积分点的应用",
-      "url": "https://zhuanlan.zhihu.com/p/95451737",
-      "summary": "正文从单元刚度矩阵和荷载向量出发，说明有限元中积分计算与高斯积分点的作用。"
-    },
-    {
-      "title": "有限元简单科普之——优化的牛顿法",
-      "url": "https://zhuanlan.zhihu.com/p/97084376",
-      "summary": "正文说明非线性有限元通过荷载步长、整体刚度矩阵和迭代位移增量逐步求解。"
-    },
-    {
-      "title": "泊松表面重建详解",
-      "url": "https://zhuanlan.zhihu.com/p/107653198",
-      "summary": "正文以八叉树基函数、Galerkin弱形式和稀疏矩阵系统完整说明泊松表面重建的有限元离散流程。"
-    },
-    {
-      "title": "08 -- 非线性有限元分析方法",
-      "url": "https://zhuanlan.zhihu.com/p/120879051",
-      "summary": "正文系统讲解非线性有限元的增量法、直接迭代、牛顿法、混合法及几何非线性刚度矩阵推导。"
-    },
-    {
-      "title": "有限元学习笔记：Invertible（可翻转）有限元",
-      "url": "https://zhuanlan.zhihu.com/p/128599650",
-      "summary": "正文讨论可翻转有限元的反转恢复机制，并以形变梯度的奇异值分解和应力修正说明其有限元实现。"
-    },
-    {
-      "title": "有限元方法：从代码入手(6)",
-      "url": "https://zhuanlan.zhihu.com/p/133893199",
-      "summary": "正文从一维方程出发推导伽辽金弱形式、网格插值、边界条件和有限元线性系统。"
-    },
-    {
-      "title": "IPC: SIGGRAPH 2020开源有限元碰撞独家处理方案",
-      "url": "https://zhuanlan.zhihu.com/p/154542103",
-      "summary": "正文以有限元弹性势能、离散网格和增量势能构造碰撞仿真，并说明其数值求解流程。"
-    },
-    {
       "title": "伽辽金法 (Galerkin method)介绍",
       "url": "https://zhuanlan.zhihu.com/p/161372939",
       "summary": "正文用三角形网格剖分区域，在分片多项式空间中取基函数，构造质量矩阵和刚度矩阵。"
-    },
-    {
-      "title": "摔倒在FEM的门槛上",
-      "url": "https://zhuanlan.zhihu.com/p/198970254",
-      "summary": "正文从连续介质离散、形变梯度、能量与应力计算一路讲解有限元方法的实现框架。"
-    },
-    {
-      "title": "有限元入门 Part 2.",
-      "url": "https://zhuanlan.zhihu.com/p/164530983",
-      "summary": "正文完整展示有限元网格、形函数、单元刚度矩阵、组装、边界条件与位移求解的实现步骤。"
-    },
-    {
-      "title": "有限元接触解析方法: 罚函数法，Lagrangian，递增Lagrangian乘数法*1， 内点法",
-      "url": "https://zhuanlan.zhihu.com/p/257247983",
-      "summary": "正文面向有限元接触解析，比较直接法与迭代法求解，并评价各方法对有限元方程组条件数的影响。"
-    },
-    {
-      "title": "有限元超精简入门教程",
-      "url": "https://zhuanlan.zhihu.com/p/265144262",
-      "summary": "正文完整介绍有限元的插值离散、弱形式、单元矩阵拼装、等参变换和结构力学应用。"
-    },
-    {
-      "title": "用python实现简单的有限元方法（一）",
-      "url": "https://zhuanlan.zhihu.com/p/264901969",
-      "summary": "正文围绕加权残差、检验函数和基函数展开，介绍有限元算法求解微分方程的基本原理。"
-    },
-    {
-      "title": "游戏引擎 | 有限元基础作业",
-      "url": "https://zhuanlan.zhihu.com/p/307017910",
-      "summary": "正文从弱形式、P1 有限元空间、参考单元、基函数和刚度矩阵组装完整展开二维有限元离散。"
-    },
-    {
-      "title": "用python实现简单的有限元方法（二）",
-      "url": "https://zhuanlan.zhihu.com/p/307349459",
-      "summary": "正文完整介绍伽辽金有限元的分片基函数、残差投影、刚度矩阵构造和一维 Poisson 问题求解。"
-    },
-    {
-      "title": "用 python 实现简单的有限元算法（三）",
-      "url": "https://zhuanlan.zhihu.com/p/314246948",
-      "summary": "正文讲解二维三角形单元的形函数、等参映射、刚度矩阵积分与总装，构成有限元方法的完整实现步骤。"
-    },
-    {
-      "title": "ABAQUS用户子程序UMAT不正经教程（三）： UMAT如何参与有限元计算",
-      "url": "https://zhuanlan.zhihu.com/p/338073569",
-      "summary": "正文解释位移有限元以节点位移为未知量形成刚度方程，并说明 UMAT 如何通过应力和切线矩阵参与非线性迭代。"
-    },
-    {
-      "title": "ABAQUS用户子程序UMAT不正经教程（六）：应力的数值积分方法",
-      "url": "https://zhuanlan.zhihu.com/p/341634133",
-      "summary": "正文把 UMAT 应力计算放入有限元刚度矩阵组装和节点位移求解流程中讲解。"
-    },
-    {
-      "title": "关于使用Comsol 多物理场仿真软件的心得（光学）",
-      "url": "https://zhuanlan.zhihu.com/p/347651568",
-      "summary": "正文具体讨论有限元网格的几何与求解域表征、网格质量、收敛判断以及离散方程的直接和迭代求解。"
-    },
-    {
-      "title": "什么是有限元(FEM)",
-      "url": "https://zhuanlan.zhihu.com/p/350368062",
-      "summary": "正文从变分原理、分片插值和弱形式出发，完整推导二维声波问题的有限元格式并给出编程实现。"
-    },
-    {
-      "title": "看完再不懂有限元法，你掐死我吧",
-      "url": "https://zhuanlan.zhihu.com/p/358042576",
-      "summary": "正文以单元线性化、形函数和节点待定系数说明有限元离散化解边界值问题的基本思想。"
-    },
-    {
-      "title": "【游戏流体力学基础及Unity代码（十五）】线性有限元及弹性物体模拟",
-      "url": "https://zhuanlan.zhihu.com/p/369505527",
-      "summary": "正文以刚度矩阵、三角形网格和扩散方程为例完整演示有限元离散与求解流程。"
-    },
-    {
-      "title": "什么是弱形式？",
-      "url": "https://zhuanlan.zhihu.com/p/372941239",
-      "summary": "正文围绕有限元分析所用弱形式展开试函数、降阶和边界条件，属于有限元方法基础。"
-    },
-    {
-      "title": "COMSOL - PDE的弱形式（Weak Form PDE）",
-      "url": "https://zhuanlan.zhihu.com/p/393792086",
-      "summary": "正文以线弹性问题为例说明弱形式是有限元求解的核心，并介绍弱形式偏微分方程模块的使用。"
     },
     {
       "title": "（吐槽向）有限元博士生的数学修养",
@@ -523,89 +153,9 @@
       "summary": "正文概述有限元的弱形式、能量空间、形函数、离散稳定性、逼近性与收敛性理论框架。"
     },
     {
-      "title": "深入理解数值计算网格(全篇)",
-      "url": "https://zhuanlan.zhihu.com/p/406330197",
-      "summary": "正文具体讨论有限元单元、自由度、形函数、刚度矩阵以及高阶单元和混合单元。"
-    },
-    {
-      "title": "通过具体算例解释ABAQUS分析步、增量步和迭代步",
-      "url": "https://zhuanlan.zhihu.com/p/407083550",
-      "summary": "正文以刚度矩阵、载荷增量、残差力和收敛准则解释有限元非线性分析的隐式与显式求解流程。"
-    },
-    {
-      "title": "有限元分析：非线性分析求解算法——牛顿迭代法",
-      "url": "https://zhuanlan.zhihu.com/p/417412391",
-      "summary": "正文围绕有限元非线性平衡方程，解释增量步、迭代步及逐步达到平衡的求解流程。"
-    },
-    {
-      "title": "弹性力学有限元入门[1]-有限元思想",
-      "url": "https://zhuanlan.zhihu.com/p/423171069",
-      "summary": "正文从分段近似、形函数、几何与本构方程讲到单元平衡和总体刚度矩阵，系统介绍有限元方法。"
-    },
-    {
-      "title": "加州理工华人博士提出傅里叶神经算子，偏微分方程提速1000倍，告别超算！",
-      "url": "https://zhuanlan.zhihu.com/p/430782504",
-      "summary": "正文比较有限元法与有限差分法，并解释空间离散中粗网格精度低、细网格速度慢的权衡。"
-    },
-    {
-      "title": "研0纪实：一维间断Galerkin方法(DG)",
-      "url": "https://zhuanlan.zhihu.com/p/439772431",
-      "summary": "正文系统推导分片多项式空间、单元弱形式、数值通量与全局矩阵，完整讲解间断 Galerkin 有限元格式。"
-    },
-    {
-      "title": "不确定性量化（Uncertainty Qunatification）",
-      "url": "https://zhuanlan.zhihu.com/p/445448562",
-      "summary": "正文用稀疏张量积构造有限元空间，并推导期望与协方差解的误差估计和计算复杂度。"
-    },
-    {
-      "title": "大白话的增量理论下弹塑性刚度矩阵推导方法",
-      "url": "https://zhuanlan.zhihu.com/p/458881595",
-      "summary": "正文以有限元增量理论为背景，完整推导材料本构模型所需的弹塑性刚度矩阵。"
-    },
-    {
-      "title": "Delaunay三角剖分",
-      "url": "https://zhuanlan.zhihu.com/p/497138836",
-      "summary": "正文解释三角单元质量、线性插值和梯度峰值如何影响有限元离散误差与仿真结果。"
-    },
-    {
-      "title": "有限元方法（FEM）学习笔记（1）",
-      "url": "https://zhuanlan.zhihu.com/p/499454118",
-      "summary": "正文解释有限元通过区域剖分和单元基函数，把无限维问题离散为有限维线性问题。"
-    },
-    {
-      "title": "计算流体力学：有限差分法(FDM)、有限元法(FEM)和有限体积法(FVM)思想概述",
-      "url": "https://zhuanlan.zhihu.com/p/516229051",
-      "summary": "正文推导试探函数、伽辽金残差弱形式和局部刚度矩阵，并组装全局有限元方程。"
-    },
-    {
-      "title": "一文看懂有限元中的高斯积分(Gaussian Quadrature)",
-      "url": "https://zhuanlan.zhihu.com/p/521630645",
-      "summary": "正文说明有限元将总域离散为单元、用基函数拟合物理场，并讨论单元阶数与高斯积分点的选取。"
-    },
-    {
       "title": "今天的文章只有一点点",
       "url": "https://zhuanlan.zhihu.com/p/543144216",
       "summary": "正文从点和特征点出发讨论连续对象的离散化，并明确以离散单元和节点说明有限元分析的基本思路。"
-    },
-    {
-      "title": "MATLAB手搓有限元代码",
-      "url": "https://zhuanlan.zhihu.com/p/592671493",
-      "summary": "正文从弱形式、有限维逼近、基函数选取到矩阵组装完整实现有限元方法。"
-    },
-    {
-      "title": "有限元方法（FEM）学习笔记（4）",
-      "url": "https://zhuanlan.zhihu.com/p/593504667",
-      "summary": "正文作为有限元法学习笔记专门讨论二维网格生成、三角剖分、Delaunay 性和增量插点算法。"
-    },
-    {
-      "title": "偏微分方程约束下的优化控制问题（PDE-constrained optimal control problems）",
-      "url": "https://zhuanlan.zhihu.com/p/603466432",
-      "summary": "正文用有限元空间、弱形式和网格离散偏微分方程，并据此求解约束优化问题。"
-    },
-    {
-      "title": "计算数学研究生的入门编程-科学计算导引",
-      "url": "https://zhuanlan.zhihu.com/p/641120589",
-      "summary": "正文构造一维和二维有限元基函数，将热方程的近似解展开为基函数线性组合并求解系数。"
     },
     {
       "title": "为什么说王勖成版《有限单元法》是本烂书",
@@ -616,11 +166,6 @@
       "title": "有限元分析为什么需要代数拓扑？",
       "url": "https://zhuanlan.zhihu.com/p/683009268",
       "summary": "正文系统介绍有限元方法的分片多项式逼近、弱形式、离散空间和数值稳定性。"
-    },
-    {
-      "title": "微分几何在工业软件中的应用",
-      "url": "https://zhuanlan.zhihu.com/p/686045801",
-      "summary": "正文详细讨论有限元网格、Galerkin 弱解误差及有限元在流形外微分上的推广。"
     },
     {
       "title": "偏微分方程的发展史",
